@@ -1,0 +1,119 @@
+{
+ "key": "quest:6548",
+ "type": "quest",
+ "name": "Avenge My Village",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   6548
+  ],
+  "level": "18",
+  "faction": "Horde",
+  "start": "Makaba Flathoof",
+  "end": "",
+  "previous": null,
+  "next": "Kill Grundig Darkcloud",
+  "wiki": "Avenge My Village",
+  "chain": [
+   "Avenge My Village",
+   "Kill Grundig Darkcloud"
+  ]
+ },
+ "summary": "Makaba Flathoof barely survived a vicious assault when raiders from the Grimtotem clan fell upon his village in the southeastern Stonetalon Mountains. Cut off from his kin and surrounded by the dead, he asks Horde travelers to strike back at the encampment of Grimtotem ruffians and hired sellswords to avenge his fallen people.",
+ "sections": [
+  {
+   "title": "Blood in the Crags",
+   "body": "Near the border between the Barrens and the red stone passes of Stonetalon, Makaba Flathoof stands as a lone survivor of a brutal massacre. Raiders flying the dark banners of the Grimtotem clan descended without warning, slaughtering nearly everyone in his settlement. Though Makaba fought back fiercely and brought down several of the attackers, he was eventually driven into hiding with little more than his life and his wrath.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Grimtotem Menace",
+   "body": "The Grimtotem have long been an unruly, aggressive thorn in the side of the tauren tribes united under High Chieftain Cairne Bloodhoof. Unlike the peaceful nomads wandering Mulgore, Grimtotem warbands frequently employ ruthless ruffians and opportunistic mercenaries to carve out territory and strike at isolated settlements. For Makaba, diplomacy or tribal kinship holds no meaning now; only blood repaid with blood can bring measure to his grief.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gave this quest?",
+   "aliases": [
+    "quest giver",
+    "makaba flathoof",
+    "who is makaba"
+   ],
+   "answer": "Makaba Flathoof is a tauren survivor encamped near the southeastern pass into the Stonetalon Mountains. He survived the violent sacking of his nearby village by the Grimtotem clan and seeks retribution against the raiders."
+  },
+  {
+   "q": "Why are the Grimtotem attacking other tauren?",
+   "aliases": [
+    "why grimtotem hostile",
+    "tauren attacking tauren",
+    "grimtotem clan lore"
+   ],
+   "answer": "The Grimtotem clan has never truly embraced the unity of the Horde or Cairne Bloodhoof's vision of peace. Fiercely territorial, xenophobic, and aggressive, they openly raid rival settlements, kill outsiders, and use armed thugs and hired mercenaries to claim dominion over regions like Stonetalon."
+  },
+  {
+   "q": "Where are the Grimtotem attackers located?",
+   "aliases": [
+    "where are the mobs",
+    "grimtotem camp location",
+    "where to find ruffians"
+   ],
+   "answer": "The Grimtotem ruffians and mercenaries are stationed in an encampment just west of Makaba Flathoof's position in southeastern Stonetalon, set among the rocky hills overlooking the pass."
+  },
+  {
+   "q": "Who are the Grimtotem Mercenaries?",
+   "aliases": [
+    "mercenaries",
+    "grimtotem sellswords",
+    "who are the mercs"
+   ],
+   "answer": "The Grimtotem Clan frequently supplements its own warriors by hiring ruthless fighters and sellswords to bolster their warbands, ensuring they have sufficient muscle to terrorize and overrun isolated settlements."
+  },
+  {
+   "q": "What happens after this quest?",
+   "aliases": [
+    "next quest",
+    "what follows avenge my village",
+    "kill grundig darkcloud"
+   ],
+   "answer": "After cutting down the frontline ruffians and mercenaries, Makaba asks you to strike at the leader behind the massacre, Grundig Darkcloud, in the follow-up quest 'Kill Grundig Darkcloud'."
+  },
+  {
+   "q": "Where was Makaba's village located?",
+   "aliases": [
+    "flathoof village",
+    "where was the village",
+    "what village was destroyed"
+   ],
+   "answer": "Makaba's settlement was an isolated tauren encampment situated near the border passes of southeastern Stonetalon. It was thoroughly wiped out by the Grimtotem raid, leaving Makaba as one of the few known survivors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Grimtotem clan's treachery hits tauren travelers hardest. Seeing fellow shu'halo butchered by their own kind reinforces the grim reality of clan division and the danger the Grimtotem pose to Cairne's united people."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde relies on open, secure passes between the Barrens and Stonetalon. A rogue Grimtotem band murdering travelers and allied villages threatens the Warchief's supply lines through the mountains."
+  }
+ ],
+ "keywords": [
+  "avenge my village",
+  "grimtotem",
+  "grimtotem mercenary",
+  "grimtotem ruffian",
+  "grundig darkcloud",
+  "makaba flathoof",
+  "stonetalon mountains"
+ ],
+ "related": [
+  "npc:makaba-flathoof",
+  "quest:6629",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Avenge My Village"
+ ]
+}

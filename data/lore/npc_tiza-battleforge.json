@@ -1,0 +1,119 @@
+{
+ "key": "npc:tiza-battleforge",
+ "type": "npc",
+ "name": "Tiza Battleforge",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Tiza Battleforge",
+  "refs": 4
+ },
+ "summary": "Tiza Battleforge is a veteran dwarven paladin of the Knights of the Silver Hand stationed within Ironforge's Hall of Mysteries. Renowned for her steadfast devotion and insight, she guides young dwarven paladins along the path of virtue, charity, and self-sacrifice. Through study of the sacred texts and trials in the field, she tests whether initiates are truly ready to wield the Light's gift of resurrection.",
+ "sections": [
+  {
+   "title": "Mentor of the Mystic Ward",
+   "body": "Within the serene chambers of the Hall of Mysteries in Ironforge, Tiza Battleforge stands as one of the most respected dwarven paladins of the Knights of the Silver Hand. Initiates across the Alliance\u2014directed by tutors such as Brandur Ironhammer in Kharanos, Azar Stronghammer in Dun Morogh, and Lord Grayson Shadowbreaker in Stormwind\u2014are sent to her to advance their spiritual education. Tiza believes that the Holy Light demands more than martial skill; it requires humble service, compassion, and unwavering fortitude against the encroaching darkness of the Scourge and other threats.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Trials of Divinity",
+   "body": "When young paladins arrive seeking deeper mysteries, Tiza presents them with the Tome of Divinity. Once the text has been studied, she dispatches them to perform tangible acts of selfless charity, starting by aiding those in humble need like John Turner. She then challenges initiates to put their faith and prowess on the line to aid her husband, Muiredon Battleforge, against the regional threat of the Dark Iron dwarves. Those who conquer these tests and revive fallen allies with the Symbol of Life are deemed worthy by Tiza to wield the sacred art of resurrection.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tiza Battleforge?",
+   "aliases": [
+    "who is tiza",
+    "tiza battleforge lore",
+    "paladin trainer tiza"
+   ],
+   "answer": "Tiza Battleforge is an esteemed dwarven paladin belonging to the Knights of the Silver Hand. Located in the Hall of Mysteries within Ironforge, she tests and mentors dwarven paladins who are seeking to deepen their bond with the Holy Light."
+  },
+  {
+   "q": "Where can I find Tiza Battleforge?",
+   "aliases": [
+    "tiza location",
+    "where is tiza battleforge",
+    "hall of mysteries paladin trainer"
+   ],
+   "answer": "She is located in the Hall of Mysteries, the center of spiritual and arcane learning situated in the Mystic Ward of Ironforge."
+  },
+  {
+   "q": "What is the Tome of Divinity she gives to paladins?",
+   "aliases": [
+    "tome of divinity tiza",
+    "tiza book quest",
+    "what is tome of divinity"
+   ],
+   "answer": "The Tome of Divinity is a sacred instructional text containing the core virtues and teachings of the Holy Light. Tiza gives it to paladins so they may study its lessons before embarking on practical trials of charity, courage, and mercy."
+  },
+  {
+   "q": "Why does Tiza send paladins to help her husband Muiredon?",
+   "aliases": [
+    "tiza husband quest",
+    "muiredon battleforge connection",
+    "why help muiredon"
+   ],
+   "answer": "Her husband, Muiredon Battleforge, faces hostile threats from the Dark Iron dwarves while trying to assist his companion Narm Faulk. Tiza uses this crisis to test an initiate's combat bravery and their readiness to use the Symbol of Life to bring fallen comrades back from the brink of death."
+  },
+  {
+   "q": "What ability does Tiza teach worthy paladins?",
+   "aliases": [
+    "tiza paladin spell",
+    "what spell does tiza teach",
+    "resurrection paladin trainer ironforge"
+   ],
+   "answer": "Upon completing her trials of charity and rescuing Muiredon's fallen comrade, Tiza grants the initiate the power of Redemption, the paladin's sacred rite of resurrection."
+  },
+  {
+   "q": "What is her connection to Brandur Ironhammer?",
+   "aliases": [
+    "tiza and brandur",
+    "brandur ironhammer tiza",
+    "brandur jealousy"
+   ],
+   "answer": "Brandur Ironhammer is a fellow dwarven paladin mentor stationed in Kharanos. Tiza once candidly pointed out to Brandur that his jealousy was a spiritual weakness, prompting him to swear to her that he would strive to overcome it."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For dwarven paladins, Tiza Battleforge is a pivotal mentor who tests your worthiness through the Tome of Divinity and entrusts you with the power to resurrect fallen allies."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Tiza represents the deep integration of the Holy Light within dwarven culture and the Silver Hand, guiding Khaz Modan's defenders against threats like the Dark Iron clan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Working closely with mentors from Stormwind to Kharanos, Tiza ensures the Silver Hand maintains unified standards of virtue and martial readiness across all Alliance lands."
+  }
+ ],
+ "keywords": [
+  "dwarf",
+  "hall of mysteries",
+  "ironforge",
+  "muiredon battleforge",
+  "mystic ward",
+  "paladin",
+  "redemption",
+  "silver hand",
+  "tiza battleforge",
+  "tome of divinity"
+ ],
+ "related": [
+  "subzone:hall-of-mysteries",
+  "zone:ironforge",
+  "quest:1641",
+  "quest:2997",
+  "npc:brandur-ironhammer",
+  "npc:azar-stronghammer",
+  "npc:lord-grayson-shadowbreaker",
+  "topic:knights-of-the-silver-hand"
+ ],
+ "attribution": [
+  "Tiza Battleforge"
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "key": "quest:2926",
+ "type": "quest",
+ "name": "Gnogaine",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "ids": [
+   2926
+  ],
+  "level": "27",
+  "faction": "Alliance",
+  "start": "Ozzie Togglevolt",
+  "end": "",
+  "previous": "The Day After",
+  "next": "The Only Cure is More Green Glow",
+  "wiki": "Gnogaine",
+  "chain": [
+   "The Day After",
+   "Gnogaine",
+   "The Only Cure is More Green Glow"
+  ]
+ },
+ "summary": "Gnogaine is an Alliance quest offered by Ozzie Togglevolt in Kharanos. In an eccentric attempt to synthesize a cure for the leper gnomes\u2014or perhaps concoct an extraordinarily potent beverage\u2014Ozzie tasks adventurers with venturing toward Gnomeregan to gather radioactive fallout from glowing troggs.",
+ "sections": [
+  {
+   "title": "A Cure or a Cocktail",
+   "body": "Ever since the fall of Gnomeregan, refugees like Gnoarn have fixated entirely on exterminating the trogg invaders and reversing the radioactive affliction that mutated their brethren. In contrast, Ozzie Togglevolt and his partner Razzle Sprysprocket take a somewhat less orthodox approach from their workshop in Kharanos. While purporting to pursue a cure for the leper gnomes, Ozzie openly admits their experimental formula might just as easily end up being a recipe for remarkably strong rum.",
+   "spoiler": 0
+  },
+  {
+   "title": "Harvesting the Glow",
+   "body": "To refine their concoction, the inventors require raw toxic residue directly from the epicenter of the catastrophe. Equipping adventurers with a leaden collection phial, Ozzie sends them toward the breached tunnels of Gnomeregan. There, roving irradiated invaders and pillagers\u2014troggs saturated with leaking waste\u2014glow with the sickening green energy needed to charge the flask.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hair and High Hopes",
+   "body": "Upon securing a full phial of green glow, Ozzie wastes no time preparing a live trial. Beyond hoping to restore sanity and health to a captured leper gnome, the tinkerer harbors personal aspirations for the brew, believing the fallout mixture might also miraculously cure his baldness.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers the quest Gnogaine?",
+   "aliases": [
+    "who gives gnogaine",
+    "gnogaine quest giver",
+    "ozzie togglevolt quest"
+   ],
+   "answer": "The quest is given by Ozzie Togglevolt, a gnome tinkerer stationed in Kharanos within Dun Morogh."
+  },
+  {
+   "q": "What do I need to collect for this quest?",
+   "aliases": [
+    "gnogaine objective",
+    "what do i collect gnogaine",
+    "full leaden collection phial"
+   ],
+   "answer": "You must use an Empty Leaden Collection Phial on glowing, irradiated troggs\u2014specifically Irradiated Invaders or Irradiated Pillagers\u2014found in the exterior corridors leading to Gnomeregan until the phial is filled with radioactive fallout."
+  },
+  {
+   "q": "Where can I find the irradiated troggs?",
+   "aliases": [
+    "where are irradiated troggs",
+    "gnogaine trogg location",
+    "irradiated invader location"
+   ],
+   "answer": "They are located in the outer entrance caverns and winding halls leading up to the Gnomeregan instance portal, allowing you to complete the task without stepping foot inside the dungeon itself."
+  },
+  {
+   "q": "Do I have to complete 'The Day After' before taking this quest?",
+   "aliases": [
+    "is the day after required",
+    "gnogaine prerequisite"
+   ],
+   "answer": "No. While 'The Day After' is narratively tied to the situation in Kharanos and leads up to it, Ozzie will offer 'Gnogaine' independently."
+  },
+  {
+   "q": "What is Ozzie trying to accomplish with the radioactive fallout?",
+   "aliases": [
+    "why does ozzie want radiation",
+    "what is gnogaine for"
+   ],
+   "answer": "Ozzie claims he and Razzle are attempting to create a cure for leper gnomes, though he admits the concoction might just turn out to be high-proof rum. He also privately hopes the concoction will restore his hair."
+  },
+  {
+   "q": "What quest follows Gnogaine?",
+   "aliases": [
+    "gnogaine follow up",
+    "what comes after gnogaine"
+   ],
+   "answer": "Turning in the full phial leads directly to 'The Only Cure is More Green Glow', which requires venturing deeper into Gnomeregan itself."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For exiled gnomes, the desperation to find any remedy for their irradiated brethren makes even Ozzie's borderline-unhinged experiments worth attempting."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The contamination spilling out of Gnomeregan threatens Dun Morogh as a whole, making any attempt to understand or neutralize the fallout vital to regional security."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Handling raw radioactive runoff using shielded leaden phials showcases typical, high-risk gnomish field science in action."
+  }
+ ],
+ "keywords": [
+  "gnoarn",
+  "gnogaine",
+  "gnomeregan",
+  "green glow",
+  "irradiated trogg",
+  "kharanos",
+  "leper gnome",
+  "ozzie togglevolt",
+  "phial",
+  "radiation"
+ ],
+ "related": [
+  "npc:ozzie-togglevolt",
+  "quest:2927",
+  "quest:2962",
+  "zone:gnomeregan",
+  "subzone:kharanos",
+  "topic:leper-gnome",
+  "topic:trogg",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Gnogaine"
+ ]
+}

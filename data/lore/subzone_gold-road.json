@@ -1,0 +1,91 @@
+{
+ "key": "subzone:gold-road",
+ "type": "subzone",
+ "name": "Gold Road",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Gold Road"
+ },
+ "summary": "The Gold Road is the primary north-south artery cutting through the arid expanse of the Barrens. Stretching from the Mor'shan Rampart on the border of Ashenvale down past the Crossroads toward the southern reaches, it serves as the vital transit line for the young Horde.",
+ "sections": [
+  {
+   "title": "The Artery of the Barrens",
+   "body": "The Gold Road is a long, sun-baked dirt highway that carves its way through the center of the Barrens. To the north, it begins near the fortified Mor'shan Rampart and Mor'shan Base Camp, which guard against night elf incursions from Ashenvale. Traveling south, it connects with the eastern roadway leading to Durotar before intersecting the bustling trading settlement of the Crossroads. Continuing southward past the lush waters of the local oases and the foothills near the Wailing Caverns, the northern span of the highway terminates at the dry bed of the Great Divide, where travelers cross into the more hazardous southern portion of the savanna.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Vital and Dangerous Path",
+   "body": "Despite being the lifeblood of Horde trade and military movement between Kalimdor's central territories, the Gold Road is perilous. Marauding quilboar tribes, centaur warbands, and prowling plainstriders and lions constantly threaten supply caravans and solitary messengers. The Horde expends considerable resources deploying scouts and warriors along its length, yet travelers are urged to remain armed and alert whenever leaving the safety of the major outposts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Gold Road begin and end?",
+   "aliases": [
+    "gold road route",
+    "where does the gold road go",
+    "gold road length"
+   ],
+   "answer": "The Gold Road begins in the far north of the Barrens at the Mor'shan Rampart on the border of Ashenvale. Its northern section runs south through the Crossroads down to the dried riverbed of the Great Divide, where the Southern Gold Road continues onward past Camp Taurajo toward the Great Lift."
+  },
+  {
+   "q": "Why is the Gold Road so important to the Horde?",
+   "aliases": [
+    "why is gold road important",
+    "importance of gold road"
+   ],
+   "answer": "The road connects all major territories of the newly established Horde in central Kalimdor. It bridges the supply lines from Durotar and the port of Ratchet with the tauren homelands in Mulgore and the northern military front against the Night Elves in Ashenvale."
+  },
+  {
+   "q": "What threats wander near the road?",
+   "aliases": [
+    "is gold road safe",
+    "enemies on gold road",
+    "gold road dangers"
+   ],
+   "answer": "Travelers frequently encounter Razormane and Bristleback quilboar raiding parties, wandering Kolkar centaur, and aggressive wild beasts such as savanna prowlers and thunder lizards. The road is far from secure outside the perimeter of the Crossroads."
+  },
+  {
+   "q": "How does the Gold Road connect to Durotar?",
+   "aliases": [
+    "road to durotar",
+    "turn off to durotar"
+   ],
+   "answer": "North of the Crossroads, an eastward fork branches off from the Gold Road and leads directly over the Southfury River via the wooden bridge into Durotar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Gold Road is the backbone of Horde logistics in Kalimdor, tying the orcish capital in Durotar to the tauren lands in Mulgore and the northern forward camps near Ashenvale."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The savanna bordering the road teems with plains beasts, making its long path an ideal trek for tracking and taming early hunting companions like lions and raptors."
+  }
+ ],
+ "keywords": [
+  "caravan",
+  "crossroads",
+  "gold road",
+  "great divide",
+  "highway",
+  "mor'shan",
+  "the barrens"
+ ],
+ "related": [
+  "zone:barrens",
+  "subzone:crossroads",
+  "subzone:southern-gold-road",
+  "subzone:mor-shan-rampart",
+  "subzone:mor-shan-base-camp",
+  "subzone:great-divide",
+  "zone:durotar",
+  "subzone:ratchet"
+ ],
+ "attribution": [
+  "Gold Road"
+ ]
+}

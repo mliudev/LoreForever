@@ -1,0 +1,116 @@
+{
+ "key": "npc:rejold-barleybrew",
+ "type": "npc",
+ "name": "Rejold Barleybrew",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Rejold Barleybrew",
+  "refs": 9
+ },
+ "summary": "Rejold Barleybrew is a master dwarven brewer stationed in the lakeside settlement of Brewnall Village in western Dun Morogh. Devoted to perfecting hearty mountain spirits, he regularly enlists travelers to gather regional ingredients and test his potent recipes across the snowy valley.",
+ "sections": [
+  {
+   "title": "A Master of the Craft",
+   "body": "In Dun Morogh, brewing is treated not merely as trade, but as a defining art form. Rejold Barleybrew embodies this tradition from Brewnall Village, an outpost nestled near the frozen lake of the Iceflow River. Rather than settling for common tavern swill, Rejold continually refines his blends, seeking rare hops, mountain minerals, and pristine ice water to produce stouts capable of warming the stoutest dwarven warriors.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Search for the Perfect Stout",
+   "body": "Rejold is relentless in his quest for ideal flavor profiles, sending adventurous spirits across Dun Morogh to collect vital components for drinks like Shimmer Stout. Whether collaborating with the eccentric gnome tinkers of nearby outposts or arranging deliveries to thirsty patrons, his work ensures that the cold, trogg-plagued roads of Dun Morogh remain tolerable with an ample supply of hearty ale.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rejold Barleybrew?",
+   "aliases": [
+    "rejold",
+    "who is rejold",
+    "rejold barleybrew info"
+   ],
+   "answer": "Rejold Barleybrew is a dwarven brewmaster residing in Brewnall Village in Dun Morogh. He is dedicated to concocting legendary dwarven ales and enlists passing adventurers to fetch ingredients and deliver experimental brews."
+  },
+  {
+   "q": "Where can Rejold Barleybrew be found?",
+   "aliases": [
+    "rejold location",
+    "where is rejold barleybrew",
+    "rejold barleybrew brewnall"
+   ],
+   "answer": "Rejold is located in Brewnall Village, situated in the western reaches of Dun Morogh beside the frozen waters of the Iceflow Basin."
+  },
+  {
+   "q": "What is Rejold working on?",
+   "aliases": [
+    "rejold quest",
+    "perfect stout quest",
+    "what is rejold brewing"
+   ],
+   "answer": "Rejold is working on perfecting potent mountain recipes, including his signature Shimmer Stout and new experimental ales, requiring cold mountain flora and special brewing components found across the snowy hills."
+  },
+  {
+   "q": "Is Rejold related to other Barleybrews in Khaz Modan?",
+   "aliases": [
+    "barleybrew family",
+    "rejold relatives",
+    "barleybrew clan"
+   ],
+   "answer": "Yes, Rejold belongs to the renowned Barleybrew clan of Khaz Modan, likely related to other notable brewers and tavern patrons like Malgin, Marleth, and Yorus Barleybrew."
+  },
+  {
+   "q": "Why does Rejold send travelers to gnomes?",
+   "aliases": [
+    "rejold gnomes",
+    "rejold evershine",
+    "bellowfiz rejold"
+   ],
+   "answer": "Brewing in Dun Morogh often relies on clever gnomish engineering and regional connections. Rejold frequently coordinates with tinkerers like Bellowfiz and local contacts to secure parts, barrels, and distilling supplies."
+  },
+  {
+   "q": "What is Shimmer Stout?",
+   "aliases": [
+    "what is shimmer stout",
+    "shimmer stout lore"
+   ],
+   "answer": "Shimmer Stout is a well-known, potent dwarven drink crafted by Rejold Barleybrew, brewed using unique mountain ingredients that give it a distinctive kick in the freezing winter climates."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, Rejold represents the proud mountaineering tradition of brewing strong ales that provide warmth and strength against Khaz Modan's bitter winter chill."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Culinary adventurers will appreciate Rejold's pursuit of pristine ingredients and precise recipes, treating the brewing process as an exact, venerable art."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Rejold's supply of stout helps keep Alliance spirits high across Dun Morogh, strengthening guards and travelers who brave trogg raids and harsh blizzards."
+  }
+ ],
+ "keywords": [
+  "ale",
+  "barleybrew",
+  "brewer",
+  "brewnall",
+  "dun morogh",
+  "rejold",
+  "shimmer stout",
+  "stout"
+ ],
+ "related": [
+  "subzone:brewnall-village",
+  "quest:315",
+  "quest:413",
+  "quest:415",
+  "quest:318",
+  "quest:319",
+  "zone:dunmorogh",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Rejold Barleybrew"
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "key": "subzone:kormek-s-hut",
+ "type": "subzone",
+ "name": "Kormek's Hut",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Kormek's Hut"
+ },
+ "summary": "Kormek's Hut is a remote, ramshackle dwelling sitting amid the barren flats of north-central Desolace. Despite its desolate surroundings and mysterious namesake, it currently shelters an eccentric pair: an oddly peaceful cultist and a goblin obsessed with harvesting kodo bones.",
+ "sections": [
+  {
+   "title": "A Strange Oasis of Oddities",
+   "body": "Perched out in the arid wastes of north-central Desolace, this small hovel is named after a figure whose whereabouts and identity remain completely unknown. Instead of Kormek, travelers stumbling upon the hut encounter an unusual pairing living out in the middle of nowhere: Willow and Bibbly F'utzbuckle. Inside the hut sits Willow, a member of the otherwise hostile and nihilistic Twilight's Hammer who curiously treats outsiders with calm hospitality. Outside, a pen littered with sun-bleached kodo bones serves as the personal dance floor and staging ground for Bibbly, an excitable goblin captivated by the commercial potential of bone scavenging.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kormek?",
+   "aliases": [
+    "who is kormek",
+    "kormek identity",
+    "where is kormek"
+   ],
+   "answer": "No one knows. The hut bears Kormek's name, but neither the goblin outside nor the cultist inside explains who Kormek was, and the namesake is nowhere to be found in the wastes."
+  },
+  {
+   "q": "Why is there a friendly Twilight's Hammer cultist here?",
+   "aliases": [
+    "willow twilights hammer",
+    "why is willow friendly",
+    "willow hut"
+   ],
+   "answer": "Willow resides inside the hut and belongs to the Twilight's Hammer, a cult typically hostile to all mortal life. For reasons of her own, she remains non-aggressive toward travelers who drop by the remote shelter."
+  },
+  {
+   "q": "What is the goblin outside doing?",
+   "aliases": [
+    "bibbly futzbuckle",
+    "goblin dancing desolace",
+    "why is the goblin dancing"
+   ],
+   "answer": "Bibbly F'utzbuckle spends his days excitedly dancing around an enclosure filled with kodo bones. Like many enterprising goblins, he is thrilled by the prospect of turning ancient desert remains into pure profit."
+  },
+  {
+   "q": "Where is Kormek's Hut located?",
+   "aliases": [
+    "kormek hut location",
+    "where is kormek hut",
+    "kormek desolace"
+   ],
+   "answer": "The hut lies in north-central Desolace, situated in the dry, windswept flats north of the central crossroads and cemetery grounds."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bibbly f'utzbuckle",
+  "desolace",
+  "kodo bones",
+  "kormek",
+  "kormek's hut",
+  "twilight's hammer",
+  "willow"
+ ],
+ "related": [
+  "zone:desolace",
+  "topic:twilight-s-hammer"
+ ],
+ "attribution": [
+  "Kormek's Hut"
+ ]
+}

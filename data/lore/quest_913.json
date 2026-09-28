@@ -1,0 +1,118 @@
+{
+ "key": "quest:913",
+ "type": "quest",
+ "name": "Cry of the Thunderhawk",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   913
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Jorn Skyseer",
+  "end": "",
+  "previous": "Enraged Thunder Lizards",
+  "next": "Mahren Skyseer (quest)",
+  "wiki": "Cry of the Thunderhawk",
+  "chain": []
+ },
+ "summary": "Cry of the Thunderhawk is the culmination of Jorn Skyseer's hunting trials in the southern Barrens. Entrusted by the elders at Camp Taurajo, a hunter must seek out a winged serpent soaring through the scrublands and bring back its wings to prove their mastery over the savanna's fiercest beasts.",
+ "sections": [
+  {
+   "title": "The Culmination of the Trial",
+   "body": "After proving their mettle against prowling plainstriders, prowlers, and agitated thunder lizards, hunters in the Barrens are directed toward their ultimate challenge by Jorn Skyseer. The thunderhawk is considered one of the most fierce aerial predators inhabiting the scrublands surrounding Camp Taurajo. Slaying one requires patience, sharp aim, and an awareness of the sky that few landbound predators possess.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Hunter's Walk",
+   "body": "Returning with the thunderhawk's wings marks the end of a novice's tutelage under Camp Taurajo's watchful eyes. For the tauren, hunting is not mere slaughter but an ongoing spiritual walk in harmony with the Earthmother and the natural hierarchy of the wild. Besting such a proud creature shows that the hunter acts with strength, courage, and honor\u2014virtues required before stepping out into harsher wildernesses beyond the central plains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a thunderhawk?",
+   "aliases": [
+    "what are thunderhawks",
+    "thunderhawk creature",
+    "flying serpent barrens"
+   ],
+   "answer": "Thunderhawks are winged, serpentine predators native to the Barrens. They glide over the arid plains hunting smaller prey from above, using their lightning-quick strikes and aerial mobility to dominate the skies around Camp Taurajo."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "who starts cry of the thunderhawk",
+    "quest giver"
+   ],
+   "answer": "Jorn Skyseer, a respected tauren hunter stationed at Camp Taurajo in the southern Barrens, issues this trial once you have proven yourself against the region's enraged thunder lizards."
+  },
+  {
+   "q": "Where are thunderhawks found?",
+   "aliases": [
+    "where to find thunderhawks",
+    "thunderhawk location"
+   ],
+   "answer": "They roam the open skies and rocky crags across the southern Barrens, primarily hovering in the plains flanking the roads north and west of Camp Taurajo."
+  },
+  {
+   "q": "What does claiming the wings signify to the tauren?",
+   "aliases": [
+    "why bring wings",
+    "thunderhawk wings meaning"
+   ],
+   "answer": "Presenting the severed wings serves as tangible proof of a clean and honorable kill. In tauren culture, harvesting tokens from dangerous quarry demonstrates mastery over the beast while acknowledging the pride and ferocity of the fallen creature."
+  },
+  {
+   "q": "Where does this hunting trial lead next?",
+   "aliases": [
+    "what comes after cry of the thunderhawk",
+    "next quest after thunderhawk"
+   ],
+   "answer": "Completing Jorn Skyseer's trials concludes your training at Camp Taurajo, prompting Jorn to send you toward his kin, Mahren Skyseer, who keeps watch near the jagged coasts of the southern Barrens."
+  },
+  {
+   "q": "How does this connect to Sergra Darkthorn in the Crossroads?",
+   "aliases": [
+    "sergra darkthorn connection",
+    "crossroads hunting chain"
+   ],
+   "answer": "This trial forms the southern chapter of the overarching hunting rites that began under Sergra Darkthorn at the Crossroads. After mastering the northern beasts, promising hunters are sent south to Camp Taurajo to continue their training under Jorn Skyseer."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the Shu'halo, tracking the soaring thunderhawk is a sacred trial of respect and honor, proving the hunter's ability to commune with and test themselves against the swiftest children of the Earthmother."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Taking down an aerial serpent like the thunderhawk tests your ranged discipline and patience, serving as a formal rite of passage into true mastery of the plains."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Taming and securing the dangerous frontier around Camp Taurajo ensures the safety of Horde travelers journeying along the high road through the Barrens."
+  }
+ ],
+ "keywords": [
+  "barrens hunt",
+  "camp taurajo",
+  "cry of the thunderhawk",
+  "jorn skyseer",
+  "thunderhawk",
+  "thunderhawk wings",
+  "winged serpent"
+ ],
+ "related": [
+  "quest:3261",
+  "quest:907",
+  "subzone:camp-taurajo",
+  "zone:barrens",
+  "quest:860",
+  "subzone:crossroads"
+ ],
+ "attribution": [
+  "Cry of the Thunderhawk"
+ ]
+}

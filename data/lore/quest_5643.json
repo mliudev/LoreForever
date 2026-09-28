@@ -1,0 +1,122 @@
+{
+ "key": "quest:5643",
+ "type": "quest",
+ "name": "Shadowguard",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   5643
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Aelthalyste",
+  "end": "Ur'kyo",
+  "previous": null,
+  "next": null,
+  "wiki": "Shadowguard (Undercity)",
+  "chain": []
+ },
+ "summary": "Shadowguard is a priestly calling issued to Darkspear troll priests who find themselves far from home in the Forsaken capital of Undercity. Aelthalyste recognizes that the young troll has matured enough for their tribe's sacred rites and sends them back to Orgrimmar. In the Valley of Spirits, the priest trainer Ur'kyo awaits to guide them into a vital tier of spiritual protection.",
+ "sections": [
+  {
+   "title": "A Summons Across Continents",
+   "body": "Even in the gloom of the Undercity, the bonds of faith and tribal tradition remain strong. Forsaken priest trainer Aelthalyste observes visiting troll priests closely, noting when an initiate has grown potent enough to face their culture's trials. Rather than imposing the bleak philosophy of the Cult of Forgotten Shadow upon them, she directs the troll back across the Great Sea to the ancestral ways of their own elders.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Valley of Spirits",
+   "body": "Upon arriving in Durotar, the priest makes their way to the mystic enclave of the Valley of Spirits in Orgrimmar. There, Ur'kyo tends to the spiritual needs and ancient rituals of the Darkspear tribe. He welcomes the returning initiate, preparing them for an essential rite of passage that bridges the priest's bond to the loa with practical spells vital for warding off harm.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts this quest?",
+   "aliases": [
+    "quest giver",
+    "where do i start",
+    "who gives shadowguard"
+   ],
+   "answer": "The quest is given by Aelthalyste, a priest trainer residing in the War Quarter of the Undercity. She recognizes when a troll priest has reached the maturity needed for their tribe's spiritual trials."
+  },
+  {
+   "q": "Why does an Undercity trainer send me to Orgrimmar?",
+   "aliases": [
+    "why go to orgrimmar",
+    "undercity to orgrimmar",
+    "why ur'kyo"
+   ],
+   "answer": "While Forsaken priests practice the Cult of Forgotten Shadow, Darkspear trolls draw their spiritual power from the loa and their tribal traditions. Aelthalyste respects this divide and sends developing troll priests home to learn their unique racial arts from their own elder."
+  },
+  {
+   "q": "Who is Ur'kyo?",
+   "aliases": [
+    "ur'kyo lore",
+    "who is urkyo",
+    "priest trainer ur'kyo"
+   ],
+   "answer": "Ur'kyo is a prominent Darkspear troll priest trainer stationed in the Valley of Spirits within Orgrimmar. He serves as an instructor and mentor in troll spiritual customs and rites of passage."
+  },
+  {
+   "q": "What is the significance of the Shadowguard ability?",
+   "aliases": [
+    "what is shadowguard",
+    "shadowguard spell lore",
+    "why is it important"
+   ],
+   "answer": "Shadowguard is a protective ward unique to troll priests. Calling upon shadowy spirits and loa blessings, it manifests as orbiting shadows that retaliate and strike any enemy foolish enough to attack the caster."
+  },
+  {
+   "q": "Do other races receive this quest?",
+   "aliases": [
+    "can undead do this",
+    "is this troll only",
+    "priest race quest"
+   ],
+   "answer": "This particular summons is exclusively for Darkspear troll priests who happen to visit the Undercity around their twentieth season of experience. Forsaken priests have their own separate rites and training under the Cult of Forgotten Shadow."
+  },
+  {
+   "q": "Where in Orgrimmar is Ur'kyo located?",
+   "aliases": [
+    "where is ur'kyo",
+    "urkyo location",
+    "find ur'kyo"
+   ],
+   "answer": "Ur'kyo can be found in the Valley of Spirits, the southern district of Orgrimmar set aside for the Darkspear trolls and their mystical practices."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This rite marks a defining milestone in a priest's path, separating the universal basics of holy and shadow magic from the distinct cultural traditions of their people."
+  },
+  {
+   "target": "race:Troll",
+   "text": "For the Darkspear, training in the priesthood is inseparable from communion with the loa and the defense of the tribe, an inheritance preserved by Ur'kyo in the Valley of Spirits."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Trainers like Aelthalyste acknowledge the distinct traditions of their living allies, ensuring visiting trolls receive instruction from their own elders rather than forcing Forsaken doctrine upon them."
+  }
+ ],
+ "keywords": [
+  "aelthalyste",
+  "orgrimmar",
+  "rite of passage",
+  "shadowguard",
+  "troll priest",
+  "undercity",
+  "ur'kyo",
+  "valley of spirits"
+ ],
+ "related": [
+  "npc:ur-kyo",
+  "npc:aelthalyste",
+  "subzone:valley-of-spirits",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Shadowguard (Undercity)"
+ ]
+}

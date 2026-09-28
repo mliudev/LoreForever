@@ -1,0 +1,73 @@
+{
+ "key": "npc:lyria-du-lac",
+ "type": "npc",
+ "name": "Lyria Du Lac",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Lyria Du Lac",
+  "refs": 1
+ },
+ "summary": "Lyria Du Lac is a human warrior trainer stationed in Goldshire within Elwynn Forest. Tucked away just behind the village smithy, she drills novice combatants and guides young warriors as they begin mastering their stances and arms.",
+ "sections": [
+  {
+   "title": "Warrior Trainer of Goldshire",
+   "body": "While Goldshire's Lion's Pride Inn bustles with travellers and its blacksmith hammers away at local trade goods, Lyria Du Lac keeps to the yard behind the forge. Experienced in martial discipline, she serves the Alliance by instructing fledgeling warriors fresh from Northshire Abbey. She evaluates their readiness and introduces them to specialized combat techniques, ensuring that those who take up shield and blade for Stormwind can hold their own against the encroaching threats of Elwynn Forest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Lyria Du Lac?",
+   "aliases": [
+    "lyria du lac location",
+    "where is lyria",
+    "warrior trainer goldshire"
+   ],
+   "answer": "Lyria Du Lac stands outside directly behind the blacksmith shop in Goldshire, just west of the Lion's Pride Inn in Elwynn Forest."
+  },
+  {
+   "q": "What service does Lyria Du Lac provide?",
+   "aliases": [
+    "what does lyria do",
+    "lyria du lac role",
+    "what does lyria teach"
+   ],
+   "answer": "She is a warrior trainer. She teaches fledgling warriors essential combat maneuvers, stance fundamentals, and battle disciplines as they advance in skill."
+  },
+  {
+   "q": "What quests involve Lyria Du Lac?",
+   "aliases": [
+    "lyria du lac quests",
+    "warrior quest goldshire"
+   ],
+   "answer": "Young Alliance warriors completing their earliest training in Northshire are directed to her through the quest 'A Warrior's Training' to continue honing their martial abilities."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "For warriors fresh from Northshire Abbey, Lyria Du Lac is the first major trainer you meet in Elwynn Forest, helping you sharpen your stance mastery and melee tactics."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Positioned behind Goldshire's forge, Lyria ensures local recruits are capable of defending the heartland of Stormwind from Defias brigands and gnoll raiders."
+  }
+ ],
+ "keywords": [
+  "a warrior's training",
+  "blacksmith",
+  "elwynn forest",
+  "goldshire",
+  "lyria du lac",
+  "warrior trainer"
+ ],
+ "related": [
+  "subzone:goldshire",
+  "zone:elwynn",
+  "quest:1638"
+ ],
+ "attribution": [
+  "Lyria Du Lac"
+ ]
+}

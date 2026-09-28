@@ -1,0 +1,121 @@
+{
+ "key": "quest:453",
+ "type": "quest",
+ "name": "Finding the Shadowy Figure",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   453
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Tavernkeep Smitts",
+  "end": "Jitters",
+  "previous": "Inquire at the Inn",
+  "next": "Return to Sven",
+  "wiki": "Finding the Shadowy Figure",
+  "chain": []
+ },
+ "summary": "Finding the Shadowy Figure is an Alliance quest that tracks down the elusive stranger connected to the tragedy at Sven Yorgen's farm. Guided by clues from Tavernkeep Smitts in Darkshire, travelers scour the haunted woods to the west to locate the panicked fugitive known as Jitters.",
+ "sections": [
+  {
+   "title": "On the Trail of a Ghost",
+   "body": "Following Sven Yorgen's plea to identify the mysterious figure who fled his devastated homestead, the search led straight to the Scarlet Raven Tavern. Tavernkeep Smitts offered a handful of critical observations: the fugitive was a complete stranger to Darkshire, exceptionally nervous and jittery, and had hastily abandoned the town's faint perimeter lamps to vanish into the wilderness to the west.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unmasking Jitters",
+   "body": "Tracing the stranger westward into the gloom eventually leads to Jitters himself, shivering in fear among the perils of Duskwood. Confronted with the diary recovered from the ruined farm, Jitters collapses in nervous exhaustion, confessing that he authored the tattered journal. Far from being a calculated villain, he reveals himself as a terrified witness who fled the horrors unleashed upon the region, hinting that the diary only captures a fragment of the full nightmare.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the shadowy figure?",
+   "aliases": [
+    "shadowy figure identity",
+    "who is jitters",
+    "who is the stranger"
+   ],
+   "answer": "The shadowy figure is Jitters, a skittish wanderer who inadvertently documented the dark occurrences surrounding Sven Yorgen's farm before fleeing west into the woods."
+  },
+  {
+   "q": "Where does Tavernkeep Smitts say the figure went?",
+   "aliases": [
+    "where did he go",
+    "where is jitters",
+    "which way west"
+   ],
+   "answer": "Smitts notes that the man was an outsider who appeared visibly terrified and fled westward out of Darkshire, braving the dangerous wilderness."
+  },
+  {
+   "q": "Why was Jitters running from Sven's farm?",
+   "aliases": [
+    "why did jitters run",
+    "what happened at sven farm",
+    "why is jitters scared"
+   ],
+   "answer": "Jitters witnessed unspeakable horrors strike the farmstead and fled for his life, terrified that whatever destroyed Sven's family would come for him next."
+  },
+  {
+   "q": "What is the book found at Sven's farm?",
+   "aliases": [
+    "book from sven's farm",
+    "jitters journal",
+    "what is the diary"
+   ],
+   "answer": "It is a journal written by Jitters detailing the ominous events prior to the massacre at the farmstead. When confronted with it, Jitters admits it only tells half the story."
+  },
+  {
+   "q": "Where can Jitters be found?",
+   "aliases": [
+    "jitters location",
+    "where is jitters in duskwood",
+    "jitters coordinates"
+   ],
+   "answer": "Jitters hides out in the western wilds of Duskwood, sheltering near the Raven Hill encampment away from Darkshire and the prowling beasts of the forest."
+  },
+  {
+   "q": "What happens after finding Jitters?",
+   "aliases": [
+    "what next",
+    "after finding jitters",
+    "where do i go next"
+   ],
+   "answer": "Once Jitters confesses to writing the journal, he prepares a complete account of what actually happened, directing you back to Sven Yorgen with the truth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Unraveling Jitters's flight is vital to understanding the growing darkness that threatens the southern frontier of the kingdom."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Tracking a panicked suspect through dense, shadow-draped woods requires keen observation and tracking skills to separate rumor from true tracks."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "duskwood",
+  "finding the shadowy figure",
+  "jitters",
+  "raven hill",
+  "scarlet raven tavern",
+  "sven yorgen",
+  "tavernkeep smitts"
+ ],
+ "related": [
+  "quest:266",
+  "quest:268",
+  "quest:262",
+  "npc:jitters",
+  "npc:tavernkeep-smitts",
+  "subzone:darkshire",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Finding the Shadowy Figure"
+ ]
+}

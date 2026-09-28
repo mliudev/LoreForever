@@ -1,0 +1,68 @@
+{
+ "key": "subzone:weazel-s-crater",
+ "type": "subzone",
+ "name": "Weazel's Crater",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Weazel's Crater"
+ },
+ "summary": "Weazel's Crater is a deep gouge carved into the hard salt of the northern Shimmering Flats. Named after someone who either discovered the hollow or violently created it, the pit is a stark reminder of the reckless experiments and high-speed crashes common to the local speedway.",
+ "sections": [
+  {
+   "title": "A Volatile Legacy",
+   "body": "Across the blinding white expanse of the Shimmering Flats, experimental goblin and gnome rocket-cars constantly push the boundaries of mechanical sanity. Debris, scorched earth, and impact hollows litter the plains, but Weazel's Crater stands out for its sheer size and depth. While records do not specify exactly what went wrong, the crater's name strongly hints at a spectacularly failed test run or an explosive mechanical catastrophe. Today, the mechanical wreckage has largely settled, and the hollow has been claimed as a sunning pit by aggressive Saltstone basilisks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What caused Weazel's Crater?",
+   "aliases": [
+    "how was weazel's crater formed",
+    "weazels crater origin",
+    "why is there a crater here"
+   ],
+   "answer": "Its exact origin is not formally recorded, but it is widely believed to be the result of a catastrophic explosion or a high-speed crash involving unstable goblin or gnomish rocket vehicles on the flats."
+  },
+  {
+   "q": "Who is Weazel?",
+   "aliases": [
+    "who was weazel",
+    "who is weazel named after"
+   ],
+   "answer": "The crater is named after an individual named Weazel, though it remains a mystery whether Weazel was the unfortunate inventor whose experiment violently excavated the hole or simply the explorer who discovered it."
+  },
+  {
+   "q": "What lives in the crater now?",
+   "aliases": [
+    "weazels crater mobs",
+    "what is inside the crater"
+   ],
+   "answer": "The depression is currently inhabited by dangerous Saltstone basilisks, which lurk along the rocky edges and bottom of the pit."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The massive blast mark serves as a cautionary tale\u2014or a monument of pride\u2014for engineers testing rocket fuel and high-speed contraptions out on the flats."
+  }
+ ],
+ "keywords": [
+  "gnome engineering",
+  "goblin raceway",
+  "saltstone basilisks",
+  "shimmering flats",
+  "thousand needles",
+  "weazel's crater"
+ ],
+ "related": [
+  "subzone:shimmering-flats",
+  "zone:thousandneedles",
+  "topic:goblin",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Weazel's Crater"
+ ]
+}

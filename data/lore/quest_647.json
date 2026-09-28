@@ -1,0 +1,107 @@
+{
+ "key": "quest:647",
+ "type": "quest",
+ "name": "MacKreel's Moonshine",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   647
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Foggy MacKreel",
+  "end": "Brewmeister Bilger",
+  "previous": null,
+  "next": null,
+  "wiki": "MacKreel's Moonshine (quest)",
+  "chain": []
+ },
+ "summary": "MacKreel's Moonshine is a fast-paced errand run on behalf of Foggy MacKreel, a dwarven guard stationed at Menethil Harbor. Having overindulged on his own potent brew and slept through his post, Foggy entrusts an Alliance traveler with rushing a fresh batch across the water to settle a lingering debt with Brewmeister Bilger in Southshore.",
+ "sections": [
+  {
+   "title": "A Guard's Hangover",
+   "body": "Life on watch in Menethil Harbor is wet, cold, and notoriously dull. Foggy MacKreel manages the damp chill by imbibing his own homemade moonshine, a concoction so fierce he compares its aftermath to an entire brigade of siege engines rolling across his skull. Unfortunately for Foggy, one drink too many caused him to pass out during his shift. With Captain Longbraid keeping a stern eye over the harbor garrison, Foggy cannot afford any further lapses in discipline.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Race Against the Clock",
+   "body": "Compounding Foggy's troubles is a longstanding debt owed to Brewmeister Bilger across the bay in Southshore. Foggy promised Bilger a batch of his personal brew to balance the books, but between his hangover and his shift duties, he finds himself minutes away from default. Relying on the ferry and swift feet, travelers must sprint across Hillsbrad's coastline to deliver the jug before Bilger decides Foggy has skipped out on his tab once again.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Foggy MacKreel?",
+   "aliases": [
+    "foggy mackreel",
+    "who is foggy",
+    "quest giver mackreel"
+   ],
+   "answer": "Foggy MacKreel is a dwarf stationed with the town guard in Menethil Harbor. Known for brewing extremely stout homemade moonshine, he tends to sample his own product a little too freely while on duty."
+  },
+  {
+   "q": "Why is this delivery so urgent?",
+   "aliases": [
+    "why is there a timer",
+    "why 15 minutes",
+    "mackreel moonshine timer"
+   ],
+   "answer": "Foggy ran severely behind schedule after passing out drunk during his watch. He has a strict deadline to deliver the moonshine to Brewmeister Bilger to settle an overdue tab, leaving barely a quarter of an hour to make the crossing from Menethil Harbor to Southshore."
+  },
+  {
+   "q": "Who is Brewmeister Bilger?",
+   "aliases": [
+    "brewmeister bilger",
+    "who is bilger",
+    "bilger southshore"
+   ],
+   "answer": "Brewmeister Bilger is a master dwarven brewer who plies his trade in the coastal settlement of Southshore within the Hillsbrad Foothills. He appreciates stout alcohol and has an outstanding business agreement with Foggy MacKreel."
+  },
+  {
+   "q": "How does one get the moonshine to Southshore in time?",
+   "aliases": [
+    "how to deliver moonshine",
+    "fastest way southshore mackreel",
+    "moonshine delivery route"
+   ],
+   "answer": "The most straightforward route is taking the Alliance ferry directly from Menethil Harbor across the bay to Southshore, followed by a quick sprint off the docks to find Brewmeister Bilger in town before the timer expires."
+  },
+  {
+   "q": "Who is Longbraid?",
+   "aliases": [
+    "captain longbraid",
+    "longbraid menethil"
+   ],
+   "answer": "Captain Longbraid is an officer commanding garrison forces at Menethil Harbor. Foggy lives in absolute dread of Longbraid discovering that he drank himself unconscious while supposed to be guarding the harbor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarves will immediately understand the double jeopardy of an agonizing hangover and an unpaid brewing debt owed to a fellow kinsman."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This quick maritime run highlights the vital nautical connection between Menethil Harbor in the Wetlands and Southshore in Hillsbrad."
+  }
+ ],
+ "keywords": [
+  "bilger",
+  "foggy",
+  "longbraid",
+  "mackreel",
+  "menethil",
+  "moonshine",
+  "southshore"
+ ],
+ "related": [
+  "npc:foggy-mackreel",
+  "npc:brewmeister-bilger",
+  "zone:wetlands",
+  "subzone:southshore"
+ ],
+ "attribution": [
+  "MacKreel's Moonshine (quest)"
+ ]
+}

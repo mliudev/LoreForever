@@ -1,0 +1,70 @@
+{
+ "key": "npc:suzetta-gallina",
+ "type": "npc",
+ "name": "Suzetta Gallina",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Suzetta Gallina",
+  "refs": 1
+ },
+ "summary": "Suzetta Gallina is a member of the Gallina family, purveyors of fine vintages in Stormwind City. She can be found inside the family's wine shop tucked along the Canals, helping manage the business and spread word of their stock to thirsty patrons across the city.",
+ "sections": [
+  {
+   "title": "A Taste of the Canals",
+   "body": "Situated along the scenic waterways of Stormwind's Canal District, the Gallina Winery caters to citizens seeking quality vintages imported or crafted across the kingdom. Suzetta Gallina helps oversee daily life in the establishment, maintaining the family legacy of supplying taverns, nobles, and common folk with wine. While not a public figure of high politics, her presence represents the everyday commercial heartbeat that keeps the capital thriving amidst broader troubles.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Suzetta Gallina?",
+   "aliases": [
+    "suzetta gallina",
+    "who is suzetta",
+    "gallina winery woman"
+   ],
+   "answer": "Suzetta Gallina is a resident of Stormwind City and a member of the Gallina family, who run the Gallina Winery located along the city's Canals."
+  },
+  {
+   "q": "Where can I find Suzetta Gallina?",
+   "aliases": [
+    "suzetta gallina location",
+    "where is suzetta",
+    "gallina winery location"
+   ],
+   "answer": "She is located inside the Gallina Winery, situated along the canals between the Trade District and Cathedral Square in Stormwind City."
+  },
+  {
+   "q": "Does Suzetta offer any work for travelers?",
+   "aliases": [
+    "suzetta quests",
+    "gallina wine quest",
+    "wine shop advert"
+   ],
+   "answer": "Yes, Suzetta needs help drumming up business and sends couriers out with promotional advertisements to spread word of the winery's selection across town."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers returning from the perils of Elwynn or Westfall, stopping by Suzetta's shop offers a warm reminder of peaceful, civilized life in the capital."
+  }
+ ],
+ "keywords": [
+  "gallina winery",
+  "stormwind canals",
+  "stormwind wine",
+  "suzetta gallina",
+  "wine shop advert"
+ ],
+ "related": [
+  "quest:332",
+  "zone:stormwind",
+  "subzone:canals-stormwind-city",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Suzetta Gallina"
+ ]
+}

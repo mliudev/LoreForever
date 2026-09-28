@@ -1,0 +1,117 @@
+{
+ "key": "quest:1699",
+ "type": "quest",
+ "name": "The Rethban Gauntlet",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   1699
+  ],
+  "level": "22",
+  "faction": "Alliance",
+  "start": "Yorus Barleybrew",
+  "end": "",
+  "previous": "Yorus Barleybrew (quest) or Yorus Barleybrew (Exodar)",
+  "next": "The Shieldsmith",
+  "wiki": "The Rethban Gauntlet",
+  "chain": []
+ },
+ "summary": "The Rethban Gauntlet is an eccentric endurance trial devised by the dwarven brewer Yorus Barleybrew in Lakeshire. Challengers must drink a potent swig of his family's fiery Barleybrew Scalder and sprint north into the gnoll-infested Rethban Caverns and back before an hour elapses.",
+ "sections": [
+  {
+   "title": "A Dwarven Dare",
+   "body": "In the town of Lakeshire, where grim talk of gnoll raids and missing town guards usually dominates the inn, the dwarf Yorus Barleybrew brings a distinctly dwarven flavor of entertainment. His self-styled challenge, the Rethban Gauntlet, tests an adventurer's mettle, speed, and liver all at once. Participants are required to down a draught of his family's signature concoction, Barleybrew Scalder, right before setting off on foot toward the northern foothills.",
+   "spoiler": 0
+  },
+  {
+   "title": "Running the Wild Hills",
+   "body": "The trial is far more perilous than a simple drunken footrace. Between Lakeshire and the destination lies Redridge territory teeming with aggressive Redridge gnolls. To successfully complete the gauntlet, the runner must fight or slip past the packs, reach the first fork inside the dark tunnels of Rethban Caverns, and hustle back to Yorus within an hour\u2014all while battling the overwhelming, staggering effects of the fiery dwarven alcohol.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who issues the Rethban Gauntlet?",
+   "aliases": [
+    "who gives rethban gauntlet",
+    "yorus barleybrew quest",
+    "who starts the gauntlet"
+   ],
+   "answer": "Yorus Barleybrew, a dwarven brewer staying in Lakeshire, challenges travelers to the run to prove their fortitude and test his brew."
+  },
+  {
+   "q": "What makes this challenge particularly difficult?",
+   "aliases": [
+    "why is rethban gauntlet hard",
+    "barleybrew scalder effect"
+   ],
+   "answer": "Aside from navigating the gnoll packs roaming the Redridge foothills within a strict one-hour time limit, runners must first swallow Barleybrew Scalder, an intense beverage that leaves them severely intoxicated and struggling to maintain their balance."
+  },
+  {
+   "q": "Where are the Rethban Caverns located?",
+   "aliases": [
+    "rethban caverns location",
+    "where is rethban",
+    "how to get to rethban caverns"
+   ],
+   "answer": "The caverns sit in the northern foothills of Redridge Mountains, northwest of Lakeshire. The path leads north past local homesteads toward the crags inhabited by gnoll packs."
+  },
+  {
+   "q": "How far into the caves must a runner go?",
+   "aliases": [
+    "rethban caverns objective",
+    "how far inside rethban"
+   ],
+   "answer": "Challengers do not need to clear the entire cavern; they only need to reach the first interior fork before turning around and racing back to Lakeshire."
+  },
+  {
+   "q": "Who inhabits the hills and caverns along the route?",
+   "aliases": [
+    "what enemies in rethban",
+    "what is in rethban caverns"
+   ],
+   "answer": "The area surrounding the route and inside the caverns is overrun by hostile Redridge gnolls, making stealth or swift combat essential for surviving the trek."
+  },
+  {
+   "q": "Where does this challenge lead next?",
+   "aliases": [
+    "rethban gauntlet follow up",
+    "what quest comes after rethban gauntlet"
+   ],
+   "answer": "Surviving the gauntlet proves your endurance to Yorus Barleybrew, opening the way to further tasks in the region such as seeking out the town's shieldsmith."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarves will feel right at home with Yorus's boisterous concept of fun: mixing potent family liquor with dangerous mountain sprints."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "While Lakeshire struggles under the threat of gnoll incursions, braving the gauntlet helps thin out enemy patrols prowling near the northern caves."
+  }
+ ],
+ "keywords": [
+  "barleybrew scalder",
+  "gnolls",
+  "lakeshire",
+  "redridge",
+  "rethban caverns",
+  "rethban gauntlet",
+  "timed run",
+  "yorus barleybrew"
+ ],
+ "related": [
+  "quest:1698",
+  "subzone:rethban-caverns",
+  "subzone:lakeshire",
+  "topic:gnoll",
+  "quest:1702",
+  "npc:martie-jainrose",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "The Rethban Gauntlet"
+ ]
+}

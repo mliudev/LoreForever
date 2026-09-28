@@ -1,0 +1,128 @@
+{
+ "key": "quest:1080",
+ "type": "quest",
+ "name": "Covert Ops - Beta",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1080
+  ],
+  "level": "22",
+  "faction": "Alliance",
+  "start": "Gaxim Rustfizzle",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Covert Ops - Beta",
+  "chain": []
+ },
+ "summary": "Covert Ops - Beta is an Alliance mission organized by the gnome engineer Gaxim Rustfizzle in the Stonetalon Mountains. Building upon previous sabotage against the encroaching Venture Company, this operation sends an agent deep into Windshear Mine to trigger explosive diversions and extract vital operational letters. The retrieved intelligence serves both gnome curiosity and the territorial defense of the regional night elf Sentinels.",
+ "sections": [
+  {
+   "title": "Sabotage in the Depths",
+   "body": "Following initial strikes against the Venture Company's clear-cutting operations across Windshear Crag, Gaxim Rustfizzle devises a follow-up operation aimed directly at their logistical heart. Plan Beta follows the same fundamental logic as its predecessor: creating an explosive, chaotic diversion to scatter the goblin operators and mercenaries while an operative slips through the confusion to search the mines for written correspondence.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes on Windshear Mine",
+   "body": "Windshear Mine sits at the far eastern reaches of the crag, serving as the company's regional subterranean base. Digging through rock and harvesting timber, the goblins maintain strict ledgers and communications detailing their supply lines and executive directives. By sneaking inside, setting Gaxim's specialized explosive packs, and seizing the Venture Co. Letters, operatives dismantle the company's security while uncovering their wider ambitions in Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Pragmatic Partnership",
+   "body": "While Gaxim approaches the mission with typical gnomish delight for pyrotechnics and clever gadgetry, the mission has serious strategic implications for the night elves. The Sentinels guarding Stonetalon Peak, led by commanders like Kaela Nightstrider, are hard-pressed battling both the Horde and ruthless industrial exploiters. The intelligence recovered from the mine directly assists the Sentinels in predicting and thwarting the defilement of their sacred woodlands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the goal of Covert Ops - Beta?",
+   "aliases": [
+    "covert ops beta objective",
+    "what do i do in covert ops beta",
+    "plan beta goal"
+   ],
+   "answer": "The objective is to infiltrate Windshear Mine in eastern Windshear Crag, detonate explosive diversions using Gaxim Rustfizzle's pack, and steal the Venture Co. Letters outlining their regional operations."
+  },
+  {
+   "q": "Who is Gaxim Rustfizzle?",
+   "aliases": [
+    "gaxim rustfizzle",
+    "who gives covert ops beta"
+   ],
+   "answer": "Gaxim Rustfizzle is a gnome engineer stationed in the Stonetalon Mountains. He uses his mechanical expertise and explosive inventions to assist the night elf Sentinels in combating the logging and mining ventures encroaching on the mountain."
+  },
+  {
+   "q": "Where is Windshear Mine located?",
+   "aliases": [
+    "windshear mine location",
+    "where is the mine"
+   ],
+   "answer": "Windshear Mine is carved into the mountains at the eastern end of Windshear Crag, nestled deep inside the Venture Company's sprawling clear-cut deforestation zone."
+  },
+  {
+   "q": "Why does Gaxim want the Venture Co. Letters?",
+   "aliases": [
+    "why steal letters",
+    "what are the venture co letters"
+   ],
+   "answer": "The letters contain vital intelligence on the Venture Company's supply routes, leadership directives, and operational plans. Recovering them helps the Alliance and the Sentinels anticipate the company's next moves and disrupt their exploitation of the forest."
+  },
+  {
+   "q": "How does this mission benefit the night elves?",
+   "aliases": [
+    "why do night elves care",
+    "sentinels covert ops"
+   ],
+   "answer": "The night elf Sentinels lack the numbers to police every corner of Stonetalon against industrial desecration. Gaxim's explosive sabotage delays the logging efforts, while the recovered correspondence gives Sentinel commanders like Kaela actionable intelligence on their enemies."
+  },
+  {
+   "q": "What was Plan Alpha?",
+   "aliases": [
+    "plan alpha",
+    "covert ops alpha",
+    "previous mission"
+   ],
+   "answer": "Plan Alpha was Gaxim's preceding covert operation, establishing the tactic of planting engineering charges across Venture Company logging equipment in Windshear Crag to sow chaos and weaken their perimeter."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Gaxim Rustfizzle's blend of high-yield explosives, meticulous planning, and covert intrusion represents quintessential gnomish ingenuity put to practical military use."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The Venture Company is stripping the ancient woods bare; supporting Gaxim's covert operations ensures that Sentinel commanders receive the intelligence needed to protect the mountain."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The mission centers around Gaxim's specialized Covert Ops Pack, showing how clever pyrotechnic diversions can accomplish objectives that brute force alone cannot."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Coordinating gnomish technology with night elf territorial defense strengthens the Alliance's fragile presence across central Kalimdor."
+  }
+ ],
+ "keywords": [
+  "covert ops - beta",
+  "gaxim rustfizzle",
+  "sentinels",
+  "stonetalon mountains",
+  "venture co.",
+  "venture co. letters",
+  "windshear crag",
+  "windshear mine"
+ ],
+ "related": [
+  "npc:gaxim-rustfizzle",
+  "subzone:windshear-crag",
+  "quest:764",
+  "topic:sentinels",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Covert Ops - Beta"
+ ]
+}

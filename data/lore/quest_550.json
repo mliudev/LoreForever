@@ -1,0 +1,117 @@
+{
+ "key": "quest:550",
+ "type": "quest",
+ "name": "Battle of Hillsbrad",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   550
+  ],
+  "level": "32",
+  "faction": "Horde",
+  "start": "High Executor Darthalia",
+  "end": "Varimathras",
+  "previous": "Battle of Hillsbrad (6)",
+  "next": null,
+  "wiki": "Battle of Hillsbrad (7) (Classic)",
+  "chain": []
+ },
+ "summary": "This mission marks the conclusion of the Forsaken campaign against the human township of Hillsbrad. Having shattered the local Alliance forces, you are sent by High Executor Darthalia to present an official commendation to Varimathras in the Undercity.",
+ "sections": [
+  {
+   "title": "A Decisive Campaign",
+   "body": "The campaign in the Hillsbrad Foothills represents a brutal struggle for southern Lordaeron. Across a protracted series of strikes coordinated from Tarren Mill, Horde champions dismantled the human township's farmers, militia, blacksmiths, and civic leaders. With the Alliance presence crippled and the territory secured for the Forsaken, High Executor Darthalia drafts an official commendation to ensure the executor's exploits reach the highest ranks of command.",
+   "spoiler": 0
+  },
+  {
+   "title": "Audience with the Dreadlord",
+   "body": "Carrying Darthalia's sealed commendation leads directly to the Royal Quarter of the Undercity, into the presence of Varimathras. Standing alongside Lady Sylvanas Windrunner, the dreadlord oversees military operations across Lordaeron. While the Scourge descending from the northern Plaguelands remains the Dark Lady's paramount existential threat, securing the southern borders against surviving human enclaves is vital for the nascent Forsaken nation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is this quest?",
+   "aliases": [
+    "battle of hillsbrad finale",
+    "hillsbrad final quest",
+    "quest 550"
+   ],
+   "answer": "It is the final turn-in for the extensive Battle of Hillsbrad quest chain. After completing your tasks for High Executor Darthalia at Tarren Mill, she gives you a sealed letter of commendation to deliver personally to Varimathras in the Undercity."
+  },
+  {
+   "q": "Where do I turn in Darthalia's Sealed Commendation?",
+   "aliases": [
+    "where is varimathras",
+    "turn in commendation",
+    "darthalia letter turn in"
+   ],
+   "answer": "You turn it in to Varimathras, who stands beside Lady Sylvanas Windrunner in the Royal Quarter of the Undercity."
+  },
+  {
+   "q": "Why does Varimathras care about Hillsbrad?",
+   "aliases": [
+    "why varimathras",
+    "varimathras role in hillsbrad"
+   ],
+   "answer": "As the Dark Lady's chief military lieutenant, Varimathras oversees strategic defense and expansion. Although the Scourge in the north is the Undercity's greatest threat, human settlements to the south constantly harass Forsaken lines. Eliminating the threat in Hillsbrad protects their southern frontier."
+  },
+  {
+   "q": "Who is High Executor Darthalia?",
+   "aliases": [
+    "darthalia",
+    "who gave the quest"
+   ],
+   "answer": "High Executor Darthalia is the senior Forsaken commander stationed at Tarren Mill in the Hillsbrad Foothills, directing the offensive operations against the nearby human settlement."
+  },
+  {
+   "q": "Does this quest lead to further missions in Hillsbrad?",
+   "aliases": [
+    "next quest after battle of hillsbrad",
+    "what comes after quest 550"
+   ],
+   "answer": "No. Delivering the commendation to Varimathras is the official conclusion of the Battle of Hillsbrad storyline, rewarding you for breaking the town's defenses."
+  },
+  {
+   "q": "Why were the Forsaken attacking Hillsbrad in the first place?",
+   "aliases": [
+    "why attack hillsbrad",
+    "hillsbrad lore"
+   ],
+   "answer": "The town of Hillsbrad represents one of the last organized human footholds in Lordaeron. Aligned with the Alliance, its militia and proximity pose an immediate military threat to Tarren Mill and the southern approaches to the Undercity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Reporting your victory over the living of Hillsbrad earns direct praise from the Royal Quarter, affirming your place within the Dark Lady's rising empire."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "By driving back Alliance forces in Lordaeron, you secure vital ground for the Horde in the Eastern Kingdoms."
+  }
+ ],
+ "keywords": [
+  "battle of hillsbrad",
+  "darthalia",
+  "hillsbrad foothills",
+  "royal quarter",
+  "sealed commendation",
+  "tarren mill",
+  "undercity",
+  "varimathras"
+ ],
+ "related": [
+  "npc:varimathras",
+  "npc:high-executor-darthalia",
+  "zone:hillsbrad",
+  "zone:undercity",
+  "topic:scourge",
+  "topic:alliance",
+  "topic:lich-king"
+ ],
+ "attribution": [
+  "Battle of Hillsbrad (7) (Classic)"
+ ]
+}

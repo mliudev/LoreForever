@@ -1,0 +1,117 @@
+{
+ "key": "quest:84",
+ "type": "quest",
+ "name": "Back to Billy",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   84
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "\"Auntie\" Bernice Stonefield",
+  "end": "Billy Maclure",
+  "previous": "Pie for Billy",
+  "next": "Goldtooth (quest)",
+  "wiki": "Back to Billy",
+  "chain": []
+ },
+ "summary": "Back to Billy is a step in the ongoing feud between the Stonefield and Maclure families in central Elwynn Forest. Having gathered the ingredients for a pork belly pie, you carry the freshly baked dish back to young Billy Maclure to extract information about Bernice Stonefield's missing necklace.",
+ "sections": [
+  {
+   "title": "A Bitter Pie",
+   "body": "The generational squabble between the Stonefields and the Maclures leaves little room for neighbourly grace. Auntie Bernice Stonefield reluctantly baked the requested pork belly pie only because young Billy Maclure refused to share what he knew about her family heirloom without it. Even as she hands over the warm pastry, her irritation is plain, bidding the courier to tell the Maclure boy she hopes he chokes on every bite.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Boy's Bribe",
+   "body": "Across the road at the Maclure Vineyards, Billy Maclure waits with an empty belly and a convenient lapse in memory. The exchange highlights the stubborn pettiness that divides the two homesteads, where even children learn to barter gossip and stolen trinkets for farm treats. With the pie delivered, Billy's memory conveniently clears up, setting up the search for the necklace's true location.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this delivery?",
+   "aliases": [
+    "why deliver pie",
+    "what does billy want",
+    "back to billy goal"
+   ],
+   "answer": "Billy Maclure claimed to know where Auntie Bernice Stonefield's lost necklace was, but refused to talk until he was given a home-cooked pork belly pie. Delivering the pie fulfills his demand so he will reveal where the heirloom went."
+  },
+  {
+   "q": "Why is Auntie Bernice so upset with Billy?",
+   "aliases": [
+    "why does bernice hate billy",
+    "stonefield maclure fight",
+    "why tell him to choke"
+   ],
+   "answer": "The Stonefield and Maclure families have been locked in a bitter rural feud for years. Bernice resents having to cook a treat for a troublesome Maclure child just to recover an heirloom that went missing on their borders."
+  },
+  {
+   "q": "Where does Billy say the necklace actually is?",
+   "aliases": [
+    "where is the necklace",
+    "who took the necklace",
+    "goldtooth connection"
+   ],
+   "answer": "Once Billy devours the pie, he reveals that he did not keep the necklace. Instead, it fell into the hands of Goldtooth, a notorious kobold lurking in the Fargodeep Mine."
+  },
+  {
+   "q": "Where is Billy Maclure located?",
+   "aliases": [
+    "billy maclure location",
+    "where is billy",
+    "find billy"
+   ],
+   "answer": "Billy Maclure is located at the Maclure Vineyards, just south of the road in central Elwynn Forest, opposite the Stonefield Farm."
+  },
+  {
+   "q": "Who baked the Pork Belly Pie?",
+   "aliases": [
+    "who made the pie",
+    "pie cook"
+   ],
+   "answer": "\"Auntie\" Bernice Stonefield baked the pie at the Stonefield Farm after you collected fresh chunks of boar meat from the nearby wilderness."
+  },
+  {
+   "q": "Does this quest resolve the feud between the families?",
+   "aliases": [
+    "does the feud end",
+    "stonefield maclure peace"
+   ],
+   "answer": "No. Delivering the pie only satisfies Billy's personal bribe. The deep-seated animosity between the adult Stonefields and Maclures remains as bitter as ever."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Even peaceful Elwynn Forest is plagued by mundane disputes; dealing with squabbling human farmsteads is typical duty for travelers aiding the local folk."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Pork belly pie is a quintessential Elwynn farmhouse comfort dish, made from the meat of the forest's roaming wild boars."
+  }
+ ],
+ "keywords": [
+  "back to billy",
+  "bernice stonefield",
+  "billy maclure",
+  "elwynn forest",
+  "maclure vineyards",
+  "pork belly pie",
+  "stonefield farm",
+  "stonefield necklace"
+ ],
+ "related": [
+  "npc:billy-maclure",
+  "npc:auntie-bernice-stonefield",
+  "quest:86",
+  "subzone:maclure-vineyards",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Back to Billy"
+ ]
+}

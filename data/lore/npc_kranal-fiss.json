@@ -1,0 +1,90 @@
+{
+ "key": "npc:kranal-fiss",
+ "type": "npc",
+ "name": "Kranal Fiss",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Kranal Fiss",
+  "refs": 1
+ },
+ "summary": "Kranal Fiss is an orc homesteader residing at Grol'dom Farm in the northern Barrens. Raising his children amid the harsh scrubland, he acts as an essential waypoint for Horde supply caravans and assists traveling shaman seeking mastery over elemental fire.",
+ "sections": [
+  {
+   "title": "A Homestead in the Dust",
+   "body": "Life in the Barrens demands resilience, and Kranal Fiss embodies the quiet labor required to build a permanent home in Durotar's shadow. Stationed at Grol'dom Farm north of the Crossroads, Kranal watches over his three children\u2014Okla, Karu, and Trok\u2014while maintaining the homestead as a crucial waypoint for kodo caravans hauling cargo across the region. When wandering beasts stray or supply lines falter, Kranal coordinates with travelers to ensure goods keep moving toward Horde settlements.",
+   "spoiler": 0
+  },
+  {
+   "title": "Guiding the Flame",
+   "body": "Beyond ordinary homestead duties, Kranal serves an important spiritual role for emerging Horde mystics. Shaman walking the path of power are directed to Kranal on their quest to commune with elemental fire. Working in concert with the hermit Telf Joolam, he helps test aspirants and instructs them on the rituals needed to bind their first Fire Totem, testing their resolve before sending them into the blistering heights of the Barrens.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kranal Fiss?",
+   "aliases": [
+    "kranal fiss lore",
+    "who is kranal fiss",
+    "grol'dom farm orc"
+   ],
+   "answer": "Kranal Fiss is an orc settler who runs Grol'dom Farm in the northern Barrens with his three children, Okla, Karu, and Trok. He supports regional caravans and aids shamans seeking elemental trials."
+  },
+  {
+   "q": "Where can Kranal Fiss be found?",
+   "aliases": [
+    "where is kranal fiss",
+    "kranal fiss location"
+   ],
+   "answer": "He lives at Grol'dom Farm, situated north of the Crossroads and west of the main road running toward Orgrimmar."
+  },
+  {
+   "q": "What is his connection to the Call of Fire?",
+   "aliases": [
+    "call of fire kranal",
+    "fire totem quest kranal",
+    "shaman fire quest barrens"
+   ],
+   "answer": "Horde shaman seeking to earn their Fire Totem are directed to Kranal. He serves as an intermediate guide who connects them with Telf Joolam to undergo the ritual trials of fire."
+  },
+  {
+   "q": "What role does Grol'dom Farm play in the Barrens?",
+   "aliases": [
+    "why is grol dom farm important",
+    "what is grol dom farm"
+   ],
+   "answer": "The farm acts as a staging ground and rest stop for kodo supply caravans traveling across the Barrens before they arrive at the Crossroads."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Kranal Fiss is an indispensable contact during your spiritual journey to claim the Fire Totem, guiding you toward elemental mastery."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Homesteaders like Kranal secure the interior supply lines of the Barrens, feeding and resting the caravans that keep the Crossroads supplied."
+  }
+ ],
+ "keywords": [
+  "call of fire",
+  "crossroads",
+  "grol'dom farm",
+  "kodo caravan",
+  "kranal fiss",
+  "telf joolam",
+  "the barrens"
+ ],
+ "related": [
+  "subzone:grol-dom-farm",
+  "quest:1524",
+  "npc:telf-joolam",
+  "subzone:crossroads",
+  "zone:barrens",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Kranal Fiss"
+ ]
+}

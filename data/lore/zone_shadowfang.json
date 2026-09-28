@@ -1,0 +1,139 @@
+{
+ "key": "zone:shadowfang",
+ "type": "dungeon",
+ "name": "Shadowfang Keep",
+ "era": "classic",
+ "zone": "shadowfang",
+ "meta": {
+  "wiki": [
+   "Shadowfang Keep (Classic)",
+   "Shadowfang Keep"
+  ],
+  "levels": "22-30",
+  "aliases": [],
+  "bosses": [
+   "Rethilgore",
+   "Razorclaw the Butcher",
+   "Baron Silverlaine",
+   "Commander Springvale",
+   "Odo the Blindwatcher",
+   "Fenrus the Devourer",
+   "Wolf Master Nandos",
+   "Archmage Arugal"
+  ]
+ },
+ "summary": "Perched on the rugged bluffs above Pyrewood Village, Shadowfang Keep is the gloomy stronghold of the rogue Kirin Tor wizard, Archmage Arugal. Once the ancestral estate of Baron Silverlaine, the bastion now teems with feral worgen beasts and the tormented phantoms of its slaughtered defenders. For adventurers traversing southern Silverpine, the keep represents the dark epicenter of the beastly scourge consuming the region.",
+ "sections": [
+  {
+   "title": "Fall of the Silverlaine Dynasty",
+   "body": "Before it was shrouded in nightmare, Shadowfang was known as Silverlaine Keep, a noble seat loyal to Gilnean lords and garrisoned by the pious Commander Springvale. When the Scourge swept through Lordaeron during the Third War, Dalaran's wizards fell in droves. Desperate to stem the rising dead, Archmage Arugal defied Kirin Tor leadership and delved into the research of the wizard Ur, summoning extra-dimensional worgen to turn the tide. The summoned beasts savaged the undead, but rapidly slipped beyond all mortal control, breaking into southern Silverpine and storming the bastion. Baron Silverlaine and his entire court were massacred, doomed to haunt the stone halls alongside the feral monsters that overran their home.",
+   "spoiler": 0
+  },
+  {
+   "title": "Arugal's Children",
+   "body": "Broken by guilt and madness, Arugal retreated within the blood-stained battlements, adopting the ravenous wolf-men as his beloved 'children' and christening the castle Shadowfang Keep. Deep in the stone roosts, lupine packs and shadowy hounds flourish under trainers like Wolf Master Nandos, watched over by Arugal's massive lupine beast, Fenrus the Devourer. Outside the walls, the curse did not halt; nearby Pyrewood Village remains trapped in a horrifying nocturnal cycle, its residents walking as men by day and hunting as ravenous worgen beneath the moon, tethered inexorably to the mad archmage perched on the heights above.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Forsaken Strike",
+   "body": "Recognizing the dire threat Arugal poses to their dominion in Silverpine Forest, Lady Sylvanas Windrunner dispatched the Royal Apothecary Society and elite Deathstalkers to root out the source of the worgen curse. Infiltration teams suffered brutal casualties within the dungeons, but Horde heroes answering the call from the Sepulcher ultimately breach the highest tower. Striking down the Archmage brings a formal end to the master of the pack, severing the mind orchestrating the beasts' spread across the wilderness and claiming his head as proof of Lordaeron's vengeance.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happens when Archmage Arugal is defeated?",
+   "aliases": [
+    "kill arugal outcome",
+    "arugal dead lore",
+    "what happens after arugal dies"
+   ],
+   "answer": "Slaying Arugal decapitates the central force controlling the worgen packs in southern Silverpine. Horde adventurers deliver his severed head to Deathstalker Vincent at the Sepulcher under orders from Lady Sylvanas Windrunner. While his demise breaks the direct will directing the Shadowfang pack, the feral beasts and ghostly remnants lingering in the keep and the surrounding woods remain a persistent danger to travelers."
+  },
+  {
+   "q": "Why did Arugal summon the worgen?",
+   "aliases": [
+    "why worgen summoned",
+    "arugal motive",
+    "dalaran worgen summon"
+   ],
+   "answer": "During the Third War, the armies of Dalaran were suffering disastrous defeats against the Scourge. Fallen wizards continuously rose as undead soldiers for the Lich King. Seeking a weapon to turn the tide, Arugal used the arcane research of the wizard Ur to summon extra-dimensional worgen, believing their savagery could halt the Scourge."
+  },
+  {
+   "q": "Who was Baron Silverlaine?",
+   "aliases": [
+    "baron silverlaine lore",
+    "original lord of shadowfang"
+   ],
+   "answer": "Baron Silverlaine was the human nobleman who ruled the keep and oversaw the neighboring hamlet of Pyrewood before the Third War. When Arugal's summoned beasts escaped control, they stormed the stronghold and butchered the baron, his household, and his guards. Silverlaine's vengeful ghost still haunts the great dining halls, cursed to walk alongside the monsters that slew him."
+  },
+  {
+   "q": "Why are Pyrewood Village villagers friendly during the day?",
+   "aliases": [
+    "pyrewood humans",
+    "pyrewood curse",
+    "why pyrewood turns worgen"
+   ],
+   "answer": "Arugal subjected the inhabitants of nearby Pyrewood Village to his dark magic. By day, they retain their human form, minds, and peaceful demeanor toward Alliance travelers. At sundown, the curse takes hold, transforming the entire population into savage worgen loyal to the mad archmage in the keep."
+  },
+  {
+   "q": "Who is Commander Springvale?",
+   "aliases": [
+    "springvale lore",
+    "ghostly paladin boss"
+   ],
+   "answer": "Commander Springvale was a paladin of the Silver Hand and the military officer responsible for defending Silverlaine Keep. When the worgen overrun the stronghold, he fought to the death. His restless spirit still patrols the upper hallways, clinging to martial duty even in undeath."
+  },
+  {
+   "q": "What is the Book of Ur?",
+   "aliases": [
+    "book of ur quest",
+    "ur lore"
+   ],
+   "answer": "The Book of Ur is a tome containing the research of Ur, an archmage of Dalaran who studied extra-dimensional entities, including the worgen. Arugal used Ur's writings to perform his disastrous summons. The Royal Apothecary Society in the Undercity seeks the book to understand the nature of the wolf-creatures and their bizarre magic."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Forsaken view Arugal's encroaching packs as an immediate danger to their fledgling territory in Silverpine, making the keep a priority target for Deathstalker operatives and the Royal Apothecary Society."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The tragedy of Shadowfang serves as a grim warning of what happens when a Kirin Tor wizard meddles in extra-dimensional summoning beyond mortal control."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The dark energies, voidwalkers, and fell sorceries inside the keep draw the interest of practitioners looking to recover ancient relics like the Orb of Soran'ruk."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The restless spirit of Commander Springvale stands as a sorrowful reminder of fallen Silver Hand defenders whose sacred oaths were warped by death."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "fenrus",
+  "pyrewood",
+  "sfk",
+  "shadowfang",
+  "silverlaine",
+  "silverpine",
+  "springvale",
+  "worgen"
+ ],
+ "related": [
+  "npc:arugal",
+  "npc:baron-silverlaine",
+  "npc:commander-springvale",
+  "quest:1014",
+  "quest:1013",
+  "subzone:pyrewood-village",
+  "zone:silverpine",
+  "topic:worgen"
+ ],
+ "attribution": [
+  "Shadowfang Keep (Classic)",
+  "Shadowfang Keep"
+ ]
+}

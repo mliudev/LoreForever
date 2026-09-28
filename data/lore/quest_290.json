@@ -1,0 +1,117 @@
+{
+ "key": "quest:290",
+ "type": "quest",
+ "name": "Lifting the Curse",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   290
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "First Mate Fitzsimmons",
+  "end": "Intrepid's Locked Strongbox",
+  "previous": "The Cursed Crew (Classic)",
+  "next": "The Eye of Paleth (Classic)",
+  "wiki": "Lifting the Curse (Classic)",
+  "chain": []
+ },
+ "summary": "First Mate Fitzsimmons believes that the restless curse binding his fallen crewmates stems from a dark artifact secured aboard their wrecked flagship, the Intrepid. To set his brethren free, an adventurer must face the ghost of Captain Halyndor, take the strongbox key, and recover the relic from the submerged hull.",
+ "sections": [
+  {
+   "title": "A Captain's Burden",
+   "body": "First Mate Fitzsimmons survived the tragic fate of the Third Fleet, but the memory of his comrades haunts his waking hours and his dreams. He remains convinced that the undeath gripping his shipmates is tied to a mysterious, malignant object locked away inside the strongbox of his old vessel, the Intrepid. Overseeing the wreck is the spectral remnants of Captain Halyndor, who even in death fiercely guards the key to the vessel's deepest secrets.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unlocking the Depths",
+   "body": "Off the mist-choked coast of the northern Wetlands lie the fractured hulks of the Third Fleet. Resting within the flooded hull of the Intrepid, the ship's locked strongbox holds the relic at the heart of the crew's misery. Reclaiming it requires defeating Halyndor's tortured ghost on deck, securing the rusted key, and braving the flooded interior to retrieve the dark artifact so that holy hands can cleanse it.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What ship are you searching during this quest?",
+   "aliases": [
+    "which ship",
+    "intrepid shipwreck",
+    "where is the strongbox"
+   ],
+   "answer": "You are searching the Intrepid, the sunken flagship of the Third Fleet resting off the northeastern shore of the Wetlands."
+  },
+  {
+   "q": "Who is Captain Halyndor?",
+   "aliases": [
+    "who is halyndor",
+    "captain halyndor lore"
+   ],
+   "answer": "Captain Halyndor was the commanding officer of the Intrepid. In death, his restless spirit haunts the deck of the ruined vessel, clinging stubbornly to the key to his ship's strongbox."
+  },
+  {
+   "q": "Why does First Mate Fitzsimmons want the strongbox opened?",
+   "aliases": [
+    "fitzsimmons goal",
+    "why open strongbox",
+    "purpose of quest"
+   ],
+   "answer": "Fitzsimmons believes a cursed object secured inside the strongbox is responsible for trapping the spirits of his fellow sailors in torment, and opening it is the only way to recover the artifact for purification."
+  },
+  {
+   "q": "Where is the Intrepid's strongbox located?",
+   "aliases": [
+    "strongbox location",
+    "where is the chest",
+    "how to find strongbox"
+   ],
+   "answer": "The strongbox sits submerged inside the lower hull of the Intrepid, accessible through a breach in the side of the wrecked ship beneath the waves."
+  },
+  {
+   "q": "Who can cleanse the cursed object once it is recovered?",
+   "aliases": [
+    "who cleanses the relic",
+    "who is glorin steelbrow",
+    "where take cursed thing"
+   ],
+   "answer": "Fitzsimmons directs adventurers to take the recovered object to the dwarven priest Glorin Steelbrow in Menethil Harbor to have its foul taint cleansed."
+  },
+  {
+   "q": "What caused the shipwreck in the first place?",
+   "aliases": [
+    "how did third fleet sink",
+    "third fleet wreckage cause"
+   ],
+   "answer": "The Third Fleet ran aground along the treacherous coastal shallows of the Wetlands, leaving the vessels shattered and their crews condemned to rise as restless undead."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "Unraveling spiritual afflictions and cleansing tainted relics requires spiritual authority, which is why Fitzsimmons entrusts the final purification of the strongbox's contents to the priesthood."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The sailors of the Third Fleet served the Alliance in life, and laying their tortured souls to rest is an obligation of honor for Alliance champions traveling through Menethil Harbor."
+  }
+ ],
+ "keywords": [
+  "captain halyndor",
+  "fitzsimmons",
+  "glorin steelbrow",
+  "intrepid",
+  "lifting the curse",
+  "menethil harbor",
+  "strongbox",
+  "third fleet",
+  "wetlands"
+ ],
+ "related": [
+  "npc:first-mate-fitzsimmons",
+  "npc:glorin-steelbrow",
+  "quest:288",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "Lifting the Curse (Classic)"
+ ]
+}

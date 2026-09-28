@@ -1,0 +1,120 @@
+{
+ "key": "quest:311",
+ "type": "quest",
+ "name": "Return to Marleth",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   311
+  ],
+  "level": "7",
+  "faction": "Alliance",
+  "start": "Unguarded Thunder Ale Barrel",
+  "end": "Marleth Barleybrew",
+  "previous": "Bitter Rivals",
+  "next": null,
+  "wiki": "Return to Marleth",
+  "chain": [
+   "Bitter Rivals",
+   "Return to Marleth"
+  ]
+ },
+ "summary": "Return to Marleth marks the mischievous conclusion to a heated brewing feud in Dun Morogh. Having infiltrated the Kharanos cellar and swapped in a keg of Marleth's fiery Scalder, an adventurer returns to Brewnall Village with a prize barrel of Thunder Ale as indisputable proof.",
+ "sections": [
+  {
+   "title": "The Spoils of Sabotage",
+   "body": "Dwarven rivalries are rarely settled with diplomacy when there is ale on the line. Marleth Barleybrew of Brewnall Village harbor-sits a fierce competitive grudge against the distillers of Kharanos, creators of the famed Thunder Ale. After having his potent 'Scalder' slipped into the Thunderbrew cellar unnoticed, Marleth demands evidence of the feat. Hoisting a genuine barrel of Thunder Ale from beneath their noses serves as both trophy and leverage.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bitter Brew Settled",
+   "body": "Hauling the heavy keg back across the snowswept ridges to Brewnall Village finishes the caper. Marleth is thrilled to see the plan succeed, gleefully reveling in outsmarting Kharanos's guards and cellar masters. While harmless on the surface, the stunt cements the fierce, uncompromising pride that different dwarven families pour into their signature recipes across Dun Morogh.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "what do i do",
+    "return to marleth objective",
+    "barrel turn in"
+   ],
+   "answer": "You must deliver the stolen barrel of Thunder Ale back to Marleth Barleybrew at Brewnall Village to prove you successfully planted his Scalder in the Kharanos cellar."
+  },
+  {
+   "q": "Who is Marleth Barleybrew?",
+   "aliases": [
+    "who is marleth",
+    "marleth lore",
+    "barleybrew"
+   ],
+   "answer": "Marleth is a dwarven brewer residing in Brewnall Village. He takes intense pride in his family's stout recipes and holds a petty rivalry with the Thunderbrew distillers in Kharanos."
+  },
+  {
+   "q": "Where is the barrel brought from?",
+   "aliases": [
+    "where did barrel come from",
+    "kharanos cellar",
+    "thunder ale location"
+   ],
+   "answer": "The barrel is acquired directly from the cellar storage inside the Thunderbrew Distillery in Kharanos after swapping Marleth's Scalder into their stocks."
+  },
+  {
+   "q": "Where is Brewnall Village?",
+   "aliases": [
+    "brewnall location",
+    "where is brewnall",
+    "how to find marleth"
+   ],
+   "answer": "Brewnall Village sits along the frozen banks of the Iceflow Lake in western Dun Morogh, northwest of Kharanos."
+  },
+  {
+   "q": "Why is Marleth feudng with Kharanos?",
+   "aliases": [
+    "why rivals",
+    "marleth vs thunderbrew",
+    "brewing feud"
+   ],
+   "answer": "Dwarven brewmasters are fiercely competitive about their recipes. Marleth wanted to prove his own blend, the Scalder, could best or humiliate the celebrated Thunder Ale produced by the Thunderbrews."
+  },
+  {
+   "q": "What does Marleth do with the barrel?",
+   "aliases": [
+    "why steal thunder ale",
+    "what happens to ale"
+   ],
+   "answer": "The barrel serves primarily as proof that the switch was pulled off under the noses of the Kharanos guards, though Marleth is undoubtedly delighted to keep his rival's stock."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven culture treats brewing as an art form and a contest of honor, making petty cellar espionage a matter of great local pride."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Infiltrating a guarded cellar to swap out illicit kegs offers an amusing test of stealth and sleight of hand in the snowy hills."
+  }
+ ],
+ "keywords": [
+  "brewnall village",
+  "dun morogh",
+  "kharanos",
+  "marleth barleybrew",
+  "scalder",
+  "thunder ale",
+  "thunderbrew"
+ ],
+ "related": [
+  "quest:310",
+  "npc:marleth-barleybrew",
+  "subzone:brewnall-village",
+  "subzone:kharanos",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Return to Marleth"
+ ]
+}

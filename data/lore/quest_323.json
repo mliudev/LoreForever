@@ -1,0 +1,131 @@
+{
+ "key": "quest:323",
+ "type": "quest",
+ "name": "Proving Your Worth",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   323
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Sven Yorgen",
+  "end": "",
+  "previous": "Return to Sven",
+  "next": "Seeking Wisdom",
+  "wiki": "Proving Your Worth (Classic)",
+  "chain": []
+ },
+ "summary": "Proving Your Worth is a crucial step in Sven Yorgen's campaign for revenge in western Duskwood. Before allowing an adventurer to confront the necromancer Morbent Fel directly, the grieving hermit demands proof that they can overcome the undead legions infesting Raven Hill Cemetery.",
+ "sections": [
+  {
+   "title": "A Bitter Hermit's Test",
+   "body": "Sven Yorgen hides in a secluded camp north of the howling woods, consumed by grief and fury over the slaughter of his family. He has pieced together that the shadowy Dark Riders who razed his homestead were allied with a sinister necromancer named Morbent Fel. Though Sven hungers for retribution, he is not reckless enough to throw an untried recruit directly into Fel's grasp. He demands a display of sheer combat mastery against the skeletal forces occupying Raven Hill Cemetery.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Raven Hill Crypts",
+   "body": "To satisfy Sven, adventurers must push deep into the necropolis of Raven Hill, south of Forlorn Rowe. The mausoleum and the surrounding grounds crawl with restless corpses bound by Fel's foul magic: sword-wielding Skeletal Raiders patrol the tombstones, while Skeletal Warders and Healers tend the darker chambers beneath the earth. Clearing this vanguard is a bloody chore, especially with horrors like the vengeful phantom Mor'Ladim prowling the cemetery paths.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to the Necromancer",
+   "body": "Surviving the bone-strewn catacombs convinces Sven that his ally possesses more than just empty courage. However, defeating Fel's lesser minions is only the prelude. Morbent Fel wields dark protective enchantments that render him nearly untouchable by mundane arms, forcing Sven to seek greater wisdom and ancient relics before the final confrontation can begin.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Sven make me fight skeletons before facing Morbent Fel?",
+   "aliases": [
+    "why proving your worth",
+    "why sven makes me kill skeletons",
+    "sven test"
+   ],
+   "answer": "Sven knows Morbent Fel is a lethal necromancer allied with the mysterious Dark Riders. He refuses to send an ally to a meaningless death until they demonstrate the stamina and tactical skill needed to cut through an entire vanguard of undead minions."
+  },
+  {
+   "q": "Where are the Skeletal Warders and Healers found?",
+   "aliases": [
+    "where are warders",
+    "where are skeletal healers",
+    "find skeletal warders"
+   ],
+   "answer": "While Skeletal Raiders wander the open cemetery grounds south of Forlorn Rowe, Skeletal Healers and Warders are primarily found concentrated inside and immediately around the large mausoleum and crypt tunnels west of the cemetery's center."
+  },
+  {
+   "q": "Who is Mor'Ladim and why should I watch out for him here?",
+   "aliases": [
+    "morladim danger",
+    "who is mor'ladim",
+    "wandering elite raven hill"
+   ],
+   "answer": "Mor'Ladim is a powerful, tragic undead knight who roams the paths of Raven Hill Cemetery. He is far stronger than the ordinary skeletons around the crypts and will quickly cut down unwary adventurers."
+  },
+  {
+   "q": "How is Morbent Fel connected to the Dark Riders?",
+   "aliases": [
+    "morbent fel dark riders connection",
+    "why dark riders and fel",
+    "sven family killers"
+   ],
+   "answer": "Sven discovered that Morbent Fel allied with the cloaked Dark Riders who butchered his wife and children. While the riders vanished back into the shadows, Fel remains anchored in Duskwood, continuing his foul necromancy."
+  },
+  {
+   "q": "What happens after completing this quest?",
+   "aliases": [
+    "next quest after proving your worth",
+    "what to do after skeletons"
+   ],
+   "answer": "Once you prove your combat prowess, Sven acknowledges your strength but explains that Morbent Fel cannot be killed by brute force alone. He directs you to seek counsel in Darkshire to find a way to strip the necromancer of his unholy protections."
+  },
+  {
+   "q": "Where is Sven Yorgen's camp located?",
+   "aliases": [
+    "where is sven",
+    "sven camp location"
+   ],
+   "answer": "Sven maintains a hidden campsite in the hills along the far northwestern edge of Duskwood, tucked away safely north of Raven Hill and west of the road leading to Westfall."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Western Duskwood has fallen into anarchy without regular Stormwind patrols, leaving devastated frontiersmen like Sven to rely entirely on traveling champions to push back the undead scourge."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Cleansing Raven Hill Cemetery of Morbent Fel's restless dead is holy work, answering the unburied cries of Duskwood's deceased with the Light's justice."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The desecration of Raven Hill's tombs by dark rituals cries out for spiritual cleansing, putting an end to the warders and healers who pervert life and death."
+  }
+ ],
+ "keywords": [
+  "dark riders",
+  "duskwood",
+  "forlorn rowe",
+  "morbent fel",
+  "proving your worth",
+  "raven hill cemetery",
+  "skeletal healer",
+  "skeletal raider",
+  "skeletal warder",
+  "sven yorgen"
+ ],
+ "related": [
+  "npc:sven-yorgen",
+  "quest:268",
+  "quest:269",
+  "quest:55",
+  "subzone:raven-hill-cemetery",
+  "subzone:forlorn-rowe",
+  "topic:mor-ladim",
+  "topic:dark-riders"
+ ],
+ "attribution": [
+  "Proving Your Worth (Classic)"
+ ]
+}

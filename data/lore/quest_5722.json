@@ -1,0 +1,121 @@
+{
+ "key": "quest:5722",
+ "type": "quest",
+ "name": "Searching for the Lost Satchel",
+ "era": "classic",
+ "zone": "ragefire",
+ "meta": {
+  "ids": [
+   5722
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Rahauro",
+  "end": "Maur Grimtotem",
+  "previous": null,
+  "next": "Returning the Lost Satchel",
+  "wiki": "Searching for the Lost Satchel",
+  "chain": []
+ },
+ "summary": "Searching for the Lost Satchel is a Horde mission offered by Rahauro on the Elder Rise in Thunder Bluff. On behalf of the Elder Crone Magatha Grimtotem, adventurers are directed beneath Orgrimmar into Ragefire Chasm to locate the remains of Maur Grimtotem, an emissary who perished after discovering something unusual among the troggs.",
+ "sections": [
+  {
+   "title": "A Grimtotem Mission Beneath Orgrimmar",
+   "body": "While Warchief Thrall and his advisers concentrate on the Shadow Council presence stirring within Ragefire Chasm, the Grimtotem clan pursues its own discrete interests. Word reaches Magatha Grimtotem on Thunder Bluff's Elder Rise that her emissary, Maur Grimtotem, entered the subterranean cavern beneath Orgrimmar to study and attempt parley with the troggs. Maur never returned, but rumors persist that he made an intriguing discovery shortly before he was killed.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fallen Emissary",
+   "body": "Acting on Magatha's behalf, her attendant Rahauro dispatches warriors directly into the chasm. Deep within the lava-filled tunnels, Maur's battered corpse rests near the trogg encampments, violently bludgeoned by crude clubs and bare fists. The beasts ignored his possessions entirely, leaving the tauren's belongings and whatever secrets he sought to recover behind for Magatha's agents to claim.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends adventurers on this quest?",
+   "aliases": [
+    "quest giver",
+    "who starts searching for the lost satchel",
+    "where to get quest"
+   ],
+   "answer": "Rahauro, an attendant serving Magatha Grimtotem on the Elder Rise of Thunder Bluff, gives out the mission."
+  },
+  {
+   "q": "Who is Maur Grimtotem?",
+   "aliases": [
+    "maur grimtotem",
+    "who was maur",
+    "what happened to maur"
+   ],
+   "answer": "Maur was an agent of the Grimtotem tribe sent into Ragefire Chasm by Magatha Grimtotem to investigate and attempt communication with the troggs. He was beaten to death in the cavern depths."
+  },
+  {
+   "q": "Why was Magatha Grimtotem interested in Ragefire Chasm?",
+   "aliases": [
+    "magatha troggs",
+    "why magatha cares about ragefire",
+    "why send maur"
+   ],
+   "answer": "Magatha had an interest in the troggs infesting the tunnels beneath Orgrimmar and sent Maur to attempt communication with them. When Maur found something peculiar among them before dying, she wanted his discovery brought directly to her."
+  },
+  {
+   "q": "Where is Maur Grimtotem's corpse located?",
+   "aliases": [
+    "find maur",
+    "maur grimtotem location",
+    "where is maurs body"
+   ],
+   "answer": "Maur's body lies deep within Ragefire Chasm beneath Orgrimmar, lying beaten near the trogg territories along the subterranean paths."
+  },
+  {
+   "q": "Did the troggs loot Maur after killing him?",
+   "aliases": [
+    "trogg loot",
+    "was maur robbed"
+   ],
+   "answer": "No. Troggs care little for wealth, tools, or written papers, leaving Maur's garments and satchel undisturbed alongside his broken remains."
+  },
+  {
+   "q": "What happens after locating Maur's body?",
+   "aliases": [
+    "follow up quest",
+    "next quest after lost satchel",
+    "what to do with satchel"
+   ],
+   "answer": "Examining Maur's corpse yields his satchel, prompting the follow-up quest 'Returning the Lost Satchel' to deliver his findings back to Magatha Grimtotem in Thunder Bluff."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Grimtotem clan's motives often diverge sharply from Cairne Bloodhoof's open leadership, making Magatha's covert curiosity about subterranean creatures under an allied city worthy of close attention."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While Thrall focuses on purging dark cultists directly beneath the Horde capital, thunderous whispers from Mulgore reveal that the Grimtotem are pursuing their own quiet goals in the same cavern."
+  }
+ ],
+ "keywords": [
+  "elder rise",
+  "magatha grimtotem",
+  "maur grimtotem",
+  "ragefire chasm",
+  "rahauro",
+  "searching for the lost satchel",
+  "thunder bluff",
+  "troggs"
+ ],
+ "related": [
+  "npc:maur-grimtotem",
+  "quest:5724",
+  "npc:rahauro",
+  "npc:magatha-grimtotem",
+  "quest:5723",
+  "zone:ragefire",
+  "subzone:elder-rise",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "Searching for the Lost Satchel"
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "key": "subzone:dreadmist-den",
+ "type": "subzone",
+ "name": "Dreadmist Den",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Dreadmist Den"
+ },
+ "summary": "Dreadmist Den is a subterranean cavern carved beneath the crags of Dreadmist Peak in the northern Barrens. Controlled by the Burning Blade cult, the cavern is perpetually smothered in an unnerving red haze and serves as a shrine to demon worship.",
+ "sections": [
+  {
+   "title": "A Den of Wicked Shadows",
+   "body": "Dreadmist Den lies tucked within the jagged slopes of Dreadmist Peak, serving as a dark sanctuary for the Burning Blade cultists. Inside, the air hangs heavy with a thick, crimson vapor that blankets the cavern in an eerie twilight. Far from the watchful eyes of the Horde in the plains below, the cult conducts foul demonic rites within these stone tunnels, guarding their blasphemous relics and plotting to spread their corruption across Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Demon Seed",
+   "body": "At the deepest heart of the cavern rests the Demon Seed, a prized artifact of fel power cherished by the cultists. It acts as an anchor of demonic taint within the region, sustaining the dark haze that clings to the cavern walls. For Horde scouts and aspiring warlocks tracking the Burning Blade's machinations, plunging into this den is a dangerous necessity to uncover the full reach of demonic infiltration in the Barrens.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Dreadmist Den?",
+   "aliases": [
+    "dreadmist den",
+    "what is dreadmist den",
+    "barrens dreadmist cave"
+   ],
+   "answer": "Dreadmist Den is a cave system hidden within Dreadmist Peak in the northern Barrens. It serves as an active enclave and ritual ground for members of the shadowy Burning Blade cult."
+  },
+  {
+   "q": "What causes the red mist inside the den?",
+   "aliases": [
+    "red haze dreadmist",
+    "crimson fog barrens",
+    "red mist dreadmist den"
+   ],
+   "answer": "The unnatural crimson vapor is a product of demonic sorcery permeating the peak. It cloaks the cavern in twilight and is tied to the dark artifacts and rituals maintained by the cultists."
+  },
+  {
+   "q": "What is the Demon Seed found inside?",
+   "aliases": [
+    "demon seed",
+    "what is demon seed",
+    "artifact in dreadmist den"
+   ],
+   "answer": "The Demon Seed is a dark artifact kept deep within Dreadmist Den. It holds immense value to the Burning Blade cultists, acting as a potent focus for their fel magic."
+  },
+  {
+   "q": "Why does the Horde care about this cave?",
+   "aliases": [
+    "horde dreadmist den",
+    "why clear dreadmist den",
+    "orcs burning blade barrens"
+   ],
+   "answer": "The Burning Blade cult openly worships demons and seeks to undermine the Horde from within Kalimdor. Leaving a stronghold of demon-worshipping cultists so close to Crossroads and Orgrimmar poses a constant threat to the security of the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The demonic relics and volatile fel energies cultivated within Dreadmist Den draw the keen interest of warlocks looking to exploit the Burning Blade's dark secrets."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The presence of a Burning Blade den overlooking the Barrens is an intolerable danger to nearby trade routes and settlements, demanding swift action from Horde defenders."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "burning blade",
+  "cultists",
+  "demon seed",
+  "dreadmist den",
+  "dreadmist peak",
+  "red mist"
+ ],
+ "related": [
+  "subzone:dreadmist-peak",
+  "quest:924",
+  "quest:938",
+  "quest:1089",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Dreadmist Den"
+ ]
+}

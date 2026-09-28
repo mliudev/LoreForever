@@ -1,0 +1,80 @@
+{
+ "key": "subzone:valley-of-spirits",
+ "type": "subzone",
+ "name": "Valley of Spirits",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Valley of Spirits"
+ },
+ "summary": "Tucked against the western cliffs of Orgrimmar, the Valley of Spirits serves as the long-standing seat of the Darkspear tribe within the Horde's capital. Filled with thatched lodges, tiki poles, and serene pools, it offers a stark contrast to the surrounding red stone and iron-clad orcish architecture.",
+ "sections": [
+  {
+   "title": "A Home for the Darkspear",
+   "body": "Branching westward off the bustling Valley of Strength, the Valley of Spirits is a lush and quiet enclave dedicated to the Darkspear trolls. When the tribe settled in Durotar alongside Thrall's orcs, this tranquil pocket among the crags became their urban gathering place. Trollish craftspeople, spiritualists, and practitioners gather around its wooden bridges and winding waters, practicing their arts away from the dry heat of the main thoroughfares.",
+   "spoiler": 0
+  },
+  {
+   "title": "Keepers of the Craft",
+   "body": "Beyond its dwellings and tranquil pools, the valley hosts practitioners of magic and wild crafts. Witch doctors, herbalists, and spellcasters congregate in lodges like the Spirit Lodge and Darkbriar Lodge. Tucked toward the back is the Talon Gate, which opens directly toward the open plains of the Barrens, offering quick passage for wanderers, hunters, and travelers roaming beyond the canyon walls.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives in the Valley of Spirits?",
+   "aliases": [
+    "who lives here",
+    "valley of spirits inhabitants",
+    "trolls in orgrimmar"
+   ],
+   "answer": "The valley is primarily home to the Darkspear trolls who settled in Durotar alongside the orcs. You will find their craftsmen, spiritual leaders, herbalists, and hunters here, living among distinct troll-style huts and carved tiki totems."
+  },
+  {
+   "q": "Where does the Talon Gate lead?",
+   "aliases": [
+    "talon gate exit",
+    "back gate orgrimmar",
+    "valley of spirits gate"
+   ],
+   "answer": "The Talon Gate sits at the rear of the Valley of Spirits, functioning as the western exit of Orgrimmar. Passing through it leads directly into the Southfury River basin and the plains of the Barrens."
+  },
+  {
+   "q": "What services and trainers are found here?",
+   "aliases": [
+    "trainers in valley of spirits",
+    "what is in valley of spirits"
+   ],
+   "answer": "The Valley of Spirits features trainers and merchants for herbalism, cooking, and various wilderness and magical disciplines, housed across notable structures such as the Spirit Lodge and Darkbriar Lodge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For the Darkspear tribe, this peaceful enclave provides a crucial piece of home and cultural identity within the towering red canyons of the orcish capital."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The quiet waterways and specialized lodges in the valley make it a prime hub in the city for gathering wisdom from local herbalist masters."
+  }
+ ],
+ "keywords": [
+  "darkbriar lodge",
+  "darkspear",
+  "orgrimmar",
+  "spirit lodge",
+  "talon gate",
+  "trolls",
+  "valley of spirits"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "subzone:valley-of-strength",
+  "topic:troll",
+  "topic:horde",
+  "npc:thrall"
+ ],
+ "attribution": [
+  "Valley of Spirits"
+ ]
+}

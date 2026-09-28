@@ -1,0 +1,115 @@
+{
+ "key": "npc:lorgus-jett",
+ "type": "npc",
+ "name": "Lorgus Jett",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Lorgus Jett",
+  "refs": 5
+ },
+ "summary": "Lorgus Jett is a human member of the Twilight's Hammer cult operating within the flooded corridors of Blackfathom Deeps. Wandering the Moonshrine Ruins, he serves as a ruthless commander in the cult's service to the Old Gods. Horde leaders have singled him out as a primary target to disrupt the cult's encroaching presence along the Ashenvale coast.",
+ "sections": [
+  {
+   "title": "A Defiler in the Ruins",
+   "body": "While many members of the Twilight's Hammer working under Blackfathom Deeps hail from orcish or tauren lineages, Lorgus Jett stands out as a human in the deep recesses of ancient night elf ruins. Roaming anywhere between the upper Moonshrine Ruins and the cavernous tunnels beyond the murloc defiler Gelihast, Jett coordinates the cult's dark rituals and violent ambitions.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows of the Silver Hand",
+   "body": "Though he wields elemental incantations uncommon among humanity, Jett carries relics that hint at a darker past. Scattered among his possessions are discarded tenets and armor bearing the mark of the Knights of the Silver Hand, alongside a massive hammer forged for righteous judgment. His presence suggests that even the devout holy warriors of the Eastern Kingdoms can succumb to the maddening whispers of the Old Gods, casting aside holy vows in exchange for apocalyptic power.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lorgus Jett?",
+   "aliases": [
+    "lorgus jett lore",
+    "who is lorgus",
+    "lorgus jett background"
+   ],
+   "answer": "Lorgus Jett is a human operative of the Twilight's Hammer cult stationed inside Blackfathom Deeps. He oversees cult activities within the Moonshrine Ruins and serves the Old Gods."
+  },
+  {
+   "q": "Where can Lorgus Jett be found in Blackfathom Deeps?",
+   "aliases": [
+    "lorgus jett location",
+    "where is lorgus jett",
+    "find lorgus jett"
+   ],
+   "answer": "Lorgus Jett has a variable patrol area within the Moonshrine Ruins. He can appear near the earliest clusters of Twilight cultists or farther along in the flooded passages just past Gelihast's shrine."
+  },
+  {
+   "q": "Why does the Horde want Lorgus Jett dead?",
+   "aliases": [
+    "why kill lorgus",
+    "allegiance to the old gods quest"
+   ],
+   "answer": "The Horde seeks his death through the mission 'Allegiance to the Old Gods.' His presence in Ashenvale threatens regional stability and represents an insidious alliance dedicated to unleashing ancient, world-ending entities."
+  },
+  {
+   "q": "Was Lorgus Jett a paladin?",
+   "aliases": [
+    "lorgus jett silver hand",
+    "is lorgus a fallen paladin"
+   ],
+   "answer": "Relics associated with him\u2014such as discarded tenets of the Silver Hand and paladin armor\u2014strongly indicate he was once a holy knight of the Silver Hand who renounced the Light to serve the Old Gods."
+  },
+  {
+   "q": "Why does a human use shamanistic powers?",
+   "aliases": [
+    "lorgus jett magic",
+    "human shaman lorgus"
+   ],
+   "answer": "The Twilight's Hammer communes directly with chaotic elemental forces and Old Gods rather than traditional ancestral spirits, allowing non-traditional races like humans to wield elemental devastation."
+  },
+  {
+   "q": "What is Lorgus Jett's connection to Gelihast?",
+   "aliases": [
+    "lorgus and gelihast",
+    "gelihast connection"
+   ],
+   "answer": "Both dwell in the Moonshrine Ruins of Blackfathom Deeps, united in their servitude to the dark powers sleeping beneath the sea, with Jett frequently patrolling the corridors beyond Gelihast's altar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Lorgus Jett represents a horrifying warning to the Silver Hand: a former brother who abandoned the Light's tenets to embrace the mad prophecies of the Old Gods."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Jett wields the elements not in harmony or reverence, but through the corrupted, violent methods taught by the Twilight's Hammer."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Striking down Lorgus Jett fulfills an urgent request to sever the leadership of the Twilight's Hammer festering beneath the Ashenvale shore."
+  },
+  {
+   "target": "race:Human",
+   "text": "Seeing a human so far west in Kalimdor serving cosmic terrors is a chilling reminder of how far the corruption of the Twilight's Hammer has reached."
+  }
+ ],
+ "keywords": [
+  "allegiance to the old gods",
+  "blackfathom deeps",
+  "fallen paladin",
+  "lorgus jett",
+  "moonshrine ruins",
+  "silver hand",
+  "twilight's hammer"
+ ],
+ "related": [
+  "zone:blackfathom",
+  "topic:twilight-s-hammer",
+  "quest:6564",
+  "subzone:moonshrine-ruins",
+  "npc:gelihast",
+  "topic:old-god",
+  "topic:light"
+ ],
+ "attribution": [
+  "Lorgus Jett"
+ ]
+}

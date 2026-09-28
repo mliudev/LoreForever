@@ -1,0 +1,81 @@
+{
+ "key": "subzone:balia-mah-ruins",
+ "type": "subzone",
+ "name": "Balia'mah Ruins",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Balia'mah Ruins"
+ },
+ "summary": "The Balia'mah Ruins are the moss-covered remnants of an ancient Gurubashi settlement in northern Stranglethorn Vale. Located east of Grom'gol Base Camp across the river, the crumbling stone tiers are currently claimed and guarded by warriors of the hostile Skullsplitter troll tribe.",
+ "sections": [
+  {
+   "title": "A Shattered Heritage",
+   "body": "Like many of the stone edifices dotting the jungle, Balia'mah stands as a remnant of the sprawling Gurubashi Empire that once ruled the entirety of southern Lordaeron and Azeroth's wild reaches. Following the fall of their ancient capital, Gurubashi territory splintered into warring factions. Today, the ruins serve as a stronghold for the Skullsplitter tribe, who fiercely defend the stone terraces against wandering beasts, neighboring ogres from the Mosh'Ogg mound, and any outsiders foolish enough to cross the river.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Balia'mah Ruins located?",
+   "aliases": [
+    "bali'mah location",
+    "where is balia mah",
+    "baliamah ruins map"
+   ],
+   "answer": "The ruins lie in northern Stranglethorn Vale, east-southeast across the river from the Horde outpost of Grom'gol Base Camp and southwest of the Mosh'Ogg Ogre Mound."
+  },
+  {
+   "q": "Who controls the ruins right now?",
+   "aliases": [
+    "who lives in balia mah",
+    "what mobs are at balia mah",
+    "balia mah enemies"
+   ],
+   "answer": "The ruins are currently occupied by the Skullsplitter tribe, a hostile faction of jungle trolls that aggressively guards the ancient stone terraces."
+  },
+  {
+   "q": "What is the history of Balia'mah?",
+   "aliases": [
+    "balia mah lore",
+    "who built balia mah"
+   ],
+   "answer": "The complex was constructed during the height of the Gurubashi Empire. After the empire collapsed, the site fell into decay, eventually being reclaimed by jungle overgrowth and surviving troll tribes."
+  },
+  {
+   "q": "Are the Skullsplitters at Balia'mah connected to other troll camps?",
+   "aliases": [
+    "skullsplitters in stranglethorn",
+    "baliamah skullsplitters"
+   ],
+   "answer": "Yes. The Skullsplitter tribe maintains several encampments and ruins throughout northern and central Stranglethorn Vale, engaged in constant territorial warfare against rival tribes such as the Bloodscalp."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For the Darkspear, walking these ancient stone tiers is a reminder of the proud Gurubashi civilization their ancestors shared, as well as the dark factionalism that tore jungle troll society apart."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Perched just across the river from Grom'gol Base Camp, the hostile Skullsplitters at Balia'mah present a constant perimeter threat to Horde scouts and supply lines."
+  }
+ ],
+ "keywords": [
+  "balia'mah",
+  "baliamah",
+  "gurubashi",
+  "ruins",
+  "skullsplitter",
+  "stranglethorn"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "subzone:grom-gol-base-camp",
+  "subzone:mosh-ogg-ogre-mound",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Balia'mah Ruins"
+ ]
+}

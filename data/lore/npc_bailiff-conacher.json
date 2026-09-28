@@ -1,0 +1,90 @@
+{
+ "key": "npc:bailiff-conacher",
+ "type": "npc",
+ "name": "Bailiff Conacher",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Bailiff Conacher",
+  "refs": 1
+ },
+ "summary": "Bailiff Conacher serves in the Lakeshire Town Hall as the chief enforcement officer under Magistrate Solomon. Tasked with maintaining civil order and administering local decrees, he turns to independent champions to enforce the laws of Stormwind across the embattled Redridge Mountains.",
+ "sections": [
+  {
+   "title": "Justice in Lakeshire",
+   "body": "Within the Lakeshire Town Hall, Bailiff Conacher works closely with Magistrate Solomon to uphold lawful authority in the Redridge Mountains. With the town besieged on all fronts by Blackrock orcs and local gnolls, Conacher cannot rely on standard civic procedures or royal garrisons. Instead, he issues legal decrees that grant passing travelers the authority to administer capital justice on behalf of the realm.",
+   "spoiler": 0
+  },
+  {
+   "title": "Applying Solomon's Law",
+   "body": "When the dark mage Morganth occupied the Tower of Ilgalar and subjugated the local Shadowhide gnolls to his will, the Court of Lakeshire deemed the beasts complicit in high treason. Since aiding a fugitive and criminal of the Kingdom of Stormwind carries a sentence of death, Conacher invokes Solomon's Law. He directs adventurers to scour the ridges for Shadowhide gnolls, demanding their pendants as legal proof that the crown's law has been carried out.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bailiff Conacher?",
+   "aliases": [
+    "bailiff conacher role",
+    "who is conacher",
+    "conacher lore"
+   ],
+   "answer": "Bailiff Conacher is an officer of the Court of Lakeshire who assists Magistrate Solomon in upholding civil authority and Stormwind law in the Redridge Mountains."
+  },
+  {
+   "q": "Where can Bailiff Conacher be found?",
+   "aliases": [
+    "bailiff conacher location",
+    "where is conacher",
+    "conacher redridge"
+   ],
+   "answer": "He is located inside the Lakeshire Town Hall on the north side of the bridge in the Redridge Mountains."
+  },
+  {
+   "q": "What is Solomon's Law?",
+   "aliases": [
+    "what is solomons law",
+    "solomon law gnolls",
+    "shadowhide law"
+   ],
+   "answer": "It is the judicial application of Stormwind law decreed by Magistrate Solomon. Under this decree, aiding known criminals such as the rogue sorcerer Morganth is punishable by death, legally marking the allied Shadowhide gnolls for execution."
+  },
+  {
+   "q": "Why does Conacher ask for Shadowhide pendants?",
+   "aliases": [
+    "why collect pendants",
+    "shadowhide pendants purpose"
+   ],
+   "answer": "The pendants serve as verifiable proof that a Shadowhide gnoll has been slain in enforcement of Lakeshire's legal sentence against those aiding Morganth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Bailiff Conacher represents the fragile reach of Stormwind's legal system in a border town largely abandoned to fend for itself."
+  }
+ ],
+ "keywords": [
+  "bailiff",
+  "conacher",
+  "lakeshire",
+  "morganth",
+  "redridge",
+  "shadowhide",
+  "solomon",
+  "town hall"
+ ],
+ "related": [
+  "npc:magistrate-solomon",
+  "quest:91",
+  "subzone:lakeshire-town-hall",
+  "subzone:lakeshire",
+  "subzone:tower-of-ilgalar",
+  "quest:249",
+  "topic:gnoll",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Bailiff Conacher"
+ ]
+}

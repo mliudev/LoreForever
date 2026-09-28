@@ -1,0 +1,114 @@
+{
+ "key": "quest:1711",
+ "type": "quest",
+ "name": "Mathiel's Armor",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   1711
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Mathiel",
+  "end": "",
+  "previous": "Sunscorched Shells",
+  "next": null,
+  "wiki": "Mathiel's Armor",
+  "chain": []
+ },
+ "summary": "\"Mathiel's Armor\" marks the completion of an armorsmithing effort undertaken by Mathiel in the Craftsmen's Terrace of Darnassus. By combining his own night elven craftsmanship with innovative dwarven metalworking methods devised by Furen Longbeard, Mathiel reforges exotic materials into protective battle gear. The quest represents a fruitful blending of allied traditions in service of Alliance warriors.",
+ "sections": [
+  {
+   "title": "A Blend of Crafts",
+   "body": "Night elven armorers traditionally favor methods honed over millennia, relying on harmony with nature, supple leathers, or delicately worked metals. However, the exchange between the night elves and the Eastern Kingdoms has prompted master smiths like Mathiel to experiment. By incorporating newly devised techniques from the Ironforge armorer Furen Longbeard, Mathiel manages to meld dwarven metallurgy with elven artistry.",
+   "spoiler": 0
+  },
+  {
+   "title": "Exotic Components",
+   "body": "Forging this resilient armor required exotic plating gathered from sunscorched crustacean shells found in the arid reaches of the world. By taking these naturally reinforced carapaces and applying Furen's heat-treatment formulas, Mathiel successfully created a resilient breastplate designed to withstand brutal frontline combat.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mathiel?",
+   "aliases": [
+    "mathiel",
+    "who is mathiel",
+    "darnassus armorer"
+   ],
+   "answer": "Mathiel is a skilled night elf armorsmith stationed in the Craftsmen's Terrace within Darnassus. He works closely with fellow craftsmen across the Alliance, testing new concepts developed by allies such as Furen Longbeard."
+  },
+  {
+   "q": "Who is Furen Longbeard?",
+   "aliases": [
+    "furen",
+    "furen longbeard"
+   ],
+   "answer": "Furen Longbeard is a master dwarven armorsmith residing in Stormwind City. Known for inventing innovative techniques to temper and forge specialized armor plates, he regularly shares instructions and designs with allied smiths throughout the Alliance."
+  },
+  {
+   "q": "What materials were used to forge the armor?",
+   "aliases": [
+    "armor materials",
+    "what is mathiel's armor made of"
+   ],
+   "answer": "The armor is forged using sunscorched shells harvested from giant sea creatures and silithid in distant arid regions, which Mathiel reinforces and shapes using Furen Longbeard's specific smithing procedures."
+  },
+  {
+   "q": "Why is an elf using dwarven techniques?",
+   "aliases": [
+    "why dwarven smithing",
+    "night elf dwarf collaboration"
+   ],
+   "answer": "Alliance smiths frequently share knowledge to equip their fighters against escalating threats. While night elf smithing is renowned for finesse and durability, dwarven innovations provide exceptional hardening methods that Mathiel gladly incorporated."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "mathiel location",
+    "where is mathiel"
+   ],
+   "answer": "The quest begins and completes at the forge located in the Craftsmen's Terrace of Darnassus on the island of Teldrassil."
+  },
+  {
+   "q": "What is the previous quest in this chain?",
+   "aliases": [
+    "previous quest",
+    "mathiels armor prereq"
+   ],
+   "answer": "This quest immediately follows 'Sunscorched Shells', wherein an adventurer must travel to the far reaches of Kalimdor to acquire tough chitinous shells suitable for Mathiel's craft."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "For Alliance warriors, this quest chain produces sturdy breastplate armor forged through the combined metallurgical wisdom of both Darnassus and Ironforge."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The project serves as a shining example of inter-factional crafting, proving that rigid dwarven tempering can harmonize with elegant night elven forge craft."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Mathiel and Furen's collaboration illustrates the practical military benefits of the Alliance, uniting distant peoples through shared trade and mutual defense."
+  }
+ ],
+ "keywords": [
+  "craftsmen's terrace",
+  "darnassus",
+  "furen longbeard",
+  "mathiel",
+  "mathiel's armor",
+  "sunscorched shells",
+  "warrior armor"
+ ],
+ "related": [
+  "quest:1710",
+  "quest:1703"
+ ],
+ "attribution": [
+  "Mathiel's Armor"
+ ]
+}

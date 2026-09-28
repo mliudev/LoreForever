@@ -1,0 +1,93 @@
+{
+ "key": "subzone:darnassus",
+ "type": "subzone",
+ "name": "Darnassus",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Darnassus"
+ },
+ "summary": "High amidst the sweeping boughs of Teldrassil stands Darnassus, the capital refuge of the kaldorei. Built along tranquil waters and verdant groves, it serves as the spiritual heart of the night elves and the primary Alliance bastion on northern Kalimdor. From here, High Priestess Tyrande Whisperwind and Archdruid Fandral Staghelm guide their people through the trials of newfound mortality.",
+ "sections": [
+  {
+   "title": "Sanctuary in the Boughs",
+   "body": "Constructed in the aftermath of the Third War, Darnassus was founded to honor the survival of the night elf people after the loss of their sacred World Tree, Nordrassil. Unlike the dense stone metropolises of Ironforge or Stormwind, Darnassus is an open, tranquil settlement of wood-crafted lodges, glowing shrines, and arched bridges spanning crystalline lakes. Vigilant Sentinels, towering ancients of war, and tree-shaping druids keep watch over the paths, ensuring that the peaceful quiet of nature is preserved within the city's borders.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Divided Leadership",
+   "body": "While Darnassus represents the unity of the kaldorei, its governance reflects subtle fractures. High Priestess Tyrande Whisperwind presides over civil and military matters from the radiant Temple of the Moon, surrounded by the Sisters of Elune. Meanwhile, the Cenarion Circle's affairs fall under Archdruid Fandral Staghelm, who championed the planting of Teldrassil to restore the elves' lost immortality. With Malfurion Stormrage lost in a mysterious slumber deep within the Emerald Dream, Staghelm's aggressive vision for their future frequently creates friction with the more patient priesthood.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules Darnassus?",
+   "aliases": [
+    "darnassus leader",
+    "who is in charge of darnassus",
+    "night elf leader"
+   ],
+   "answer": "High Priestess Tyrande Whisperwind serves as the primary leader of night elf society from the Temple of the Moon, commanding the Sentinels. Druidic affairs are directed by Archdruid Fandral Staghelm, who leads the Cenarion Circle in the absence of Malfurion Stormrage."
+  },
+  {
+   "q": "How do travelers reach Darnassus from outside Teldrassil?",
+   "aliases": [
+    "how to get to darnassus",
+    "darnassus entrance",
+    "getting into darnassus"
+   ],
+   "answer": "Because Darnassus sits atop the massive boughs of a World Tree island, ships and flight paths connect only to Rut'theran Village at the tree's base. From Rut'theran, a magical portal transports visitors up into the city proper."
+  },
+  {
+   "q": "Why was Darnassus founded so recently?",
+   "aliases": [
+    "why is darnassus new",
+    "when was darnassus built",
+    "darnassus age"
+   ],
+   "answer": "Following the destruction at Mount Hyjal during the Third War, the night elves lost their immortality and their ancient way of life. Fandral Staghelm and his allies planted Teldrassil off the coast of Kalimdor, and Darnassus took root upon its branches as a fresh sanctuary for their people."
+  },
+  {
+   "q": "Where is Malfurion Stormrage?",
+   "aliases": [
+    "where is malfurion",
+    "is malfurion in darnassus",
+    "malfurion status"
+   ],
+   "answer": "Archdruid Malfurion Stormrage is missing, his spirit trapped in a deep, unexplained slumber within the Emerald Dream. His absence leaves leadership of the Cenarion Circle in Darnassus entirely to Fandral Staghelm."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Darnassus is the cultural and political capital of the kaldorei, serving as your people's fresh start and sovereign refuge after the harrowing sacrifices of the Third War."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For travelers from the Eastern Kingdoms, Darnassus is a secluded, serene haven that stands as the Alliance's essential anchor on the continent of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "capital",
+  "darnassus",
+  "kaldorei",
+  "staghelm",
+  "teldrassil",
+  "temple of the moon",
+  "tyrande"
+ ],
+ "related": [
+  "zone:teldrassil",
+  "subzone:temple-of-the-moon",
+  "subzone:rut-theran-village",
+  "npc:tyrande-whisperwind",
+  "npc:fandral-staghelm",
+  "npc:malfurion-stormrage",
+  "topic:alliance",
+  "topic:sentinels"
+ ],
+ "attribution": [
+  "Darnassus"
+ ]
+}

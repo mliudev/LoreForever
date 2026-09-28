@@ -1,0 +1,127 @@
+{
+ "key": "quest:962",
+ "type": "quest",
+ "name": "Serpentbloom",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "ids": [
+   962
+  ],
+  "level": "18",
+  "faction": "Horde",
+  "start": "Apothecary Zamah",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Serpentbloom (quest)",
+  "chain": []
+ },
+ "summary": "Serpentbloom is a gathering task issued by Apothecary Zamah, an envoy of the Royal Apothecary Society residing in Thunder Bluff. Zamah seeks specimens of a rare herb native to the subterranean depths of the Wailing Caverns to aid the research of the Forsaken.",
+ "sections": [
+  {
+   "title": "Eyes of the Apothecary",
+   "body": "Perched upon the Spirit Rise in Thunder Bluff, Apothecary Zamah serves as an envoy of the Royal Apothecary Society from the Undercity. While the tauren hosts focus on spiritual balance and healing the wounded land, Zamah's attention is fixed on rare and virulent materials. Having isolated a sample of an unusual plant known as Serpentbloom, she seeks bulk quantities to advance the research directives of Lady Sylvanas Windrunner and the Forsaken.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Depths of the Caverns",
+   "body": "Serpentbloom does not grow under the open sun of the Barrens, thriving instead in the damp, twisting grottos of the Wailing Caverns. Cultivated in the humid subterranean climate twisted by the corrupted druids of the Fang, the plant is difficult to reach and fiercely guarded by the cavern's serpentine denizens. Zamah readily admits that numerous scouts sent before failed to return, leaving further harvesting to hardened adventurers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Apothecary Zamah?",
+   "aliases": [
+    "zamah",
+    "apothecary zamah lore",
+    "who gives serpentbloom"
+   ],
+   "answer": "Apothecary Zamah is a researcher representing the Royal Apothecary Society of the Undercity. Stationed in Thunder Bluff on the Spirit Rise, she acts as a liaison between the Forsaken alchemists and the wider continent of Kalimdor."
+  },
+  {
+   "q": "Why does the Royal Apothecary Society want Serpentbloom?",
+   "aliases": [
+    "why serpentbloom",
+    "forsaken herb research",
+    "purpose of serpentbloom"
+   ],
+   "answer": "Zamah believes the herb possesses significant latent chemical potential when refined in large quantities. The Society actively searches across Kalimdor for rare, potent flora that can aid the Forsaken's alchemical experiments."
+  },
+  {
+   "q": "Where does Serpentbloom grow?",
+   "aliases": [
+    "where is serpentbloom",
+    "serpentbloom location"
+   ],
+   "answer": "Serpentbloom grows exclusively inside the subterranean reaches of the Wailing Caverns, nestled within the damp rock corridors and subterranean passages carved beneath the northern Barrens."
+  },
+  {
+   "q": "Why haven't previous scouts returned?",
+   "aliases": [
+    "missing scouts",
+    "zamah's scouts",
+    "is wailing caverns dangerous"
+   ],
+   "answer": "The Wailing Caverns are overrun by devolved beasts, raptors, and the corrupted Druids of the Fang. Less experienced foragers sent into the labyrinthian tunnels were quickly overwhelmed by the cavern's predatory fauna and venomous defenders."
+  },
+  {
+   "q": "Do the Tauren approve of Zamah's research?",
+   "aliases": [
+    "tauren reaction",
+    "spirit rise apothecaries"
+   ],
+   "answer": "The tauren of Thunder Bluff granted the Forsaken sanctuary out of sympathy and a desire to heal them, but the alchemical practices of the Royal Apothecary Society often skirt close to unnatural experimentation that makes traditional shamans and druids uneasy."
+  },
+  {
+   "q": "Does harvesting Serpentbloom require herbalism skills?",
+   "aliases": [
+    "do i need herbalism",
+    "gather serpentbloom profession"
+   ],
+   "answer": "No. While it is a botanical specimen, any adventurer willing to brave the depths of the Wailing Caverns can pluck the plants directly from the cave floor without formal herbalism training."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Contributing Serpentbloom directly supports the Royal Apothecary Society's alchemical initiatives in Lordaeron under the Dark Lady's mandate."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Hosting Forsaken apothecaries upon the Spirit Rise reflects the Horde's hospitality, even as their focus on lethal concoctions contrasts with traditional earth healing."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The twisted environment inside the Wailing Caverns fosters unique flora found nowhere else on the sunbaked surface of the Barrens."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "This task cements the early operational alliance between the Undercity and the Kalimdor tribes, sharing resources and rare reagents across the ocean."
+  }
+ ],
+ "keywords": [
+  "apothecary",
+  "barrens",
+  "royal apothecary society",
+  "serpentbloom",
+  "spirit rise",
+  "thunder bluff",
+  "undercity",
+  "wailing caverns",
+  "zamah"
+ ],
+ "related": [
+  "quest:853",
+  "topic:royal-apothecary-society",
+  "zone:wailing",
+  "zone:thunderbluff",
+  "topic:forsaken",
+  "zone:undercity",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Serpentbloom (quest)"
+ ]
+}

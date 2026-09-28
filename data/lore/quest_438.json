@@ -1,0 +1,120 @@
+{
+ "key": "quest:438",
+ "type": "quest",
+ "name": "The Decrepit Ferry",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   438
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "High Executor Hadrec",
+  "end": "Corpse Laden Boat",
+  "previous": "The Dead Fields (quest)",
+  "next": "Rot Hide Clues",
+  "wiki": "The Decrepit Ferry (quest)",
+  "chain": []
+ },
+ "summary": "High Executor Hadrec directs Forsaken champions east of The Sepulcher to investigate the Decrepit Ferry. The lakeside dock has been swarmed by Scourge and rot hides, raising alarms about the enemy's expanding footprint along the shores of Lordamere Lake.",
+ "sections": [
+  {
+   "title": "Eyes Across the Lake",
+   "body": "Following the suppression of Scourge presence in the Dead Fields, High Executor Hadrec turned his strategic gaze toward the eastern waterways of Silverpine Forest. The Decrepit Ferry, once a mundane transit crossing linking mainland Lordaeron to the island estates of Lordamere Lake, had quietly evolved into an active hive of undead activity. Hadrec dispatched scouts to discern what drew the Lich King's servants to these rotted piers.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Grim Cargo",
+   "body": "Reaching the ferry reveals more than just aimless rot hides patrolling the marshy banks. Tucked along the dock sits a waterlogged skiff laden with carefully wrapped, preserved corpses. Looking across the mist of Lordamere Lake, an opposing set of docks on Fenris Isle comes into view, exposing a macabre supply line feeding bodies straight toward the island keep.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to the Decrepit Ferry?",
+   "aliases": [
+    "who gives the decrepit ferry quest",
+    "hadrec quest ferry",
+    "quest giver decrepit ferry"
+   ],
+   "answer": "High Executor Hadrec, the Forsaken military commander stationed at The Sepulcher in Silverpine Forest, gives the assignment after you assist with clearing the Dead Fields."
+  },
+  {
+   "q": "Where is the Decrepit Ferry located?",
+   "aliases": [
+    "decrepit ferry location",
+    "where is the ferry silverpine",
+    "how to find decrepit ferry"
+   ],
+   "answer": "The ferry sits east of The Sepulcher along the western bank of Lordamere Lake, where the inland creeks flow into the open water."
+  },
+  {
+   "q": "What creatures occupy the Decrepit Ferry?",
+   "aliases": [
+    "mobs at decrepit ferry",
+    "what enemies are at the ferry",
+    "decrepit ferry monsters"
+   ],
+   "answer": "The area is overrun by Scourge undead, primarily rot hide gnolls and reanimated skeletons patrolling the shoreline and surrounding docks."
+  },
+  {
+   "q": "What do you discover at the ferry?",
+   "aliases": [
+    "what is at the ferry",
+    "ferry turn in object",
+    "what is in the boat"
+   ],
+   "answer": "You find a corpse-laden boat pulled halfway out of the water, containing wrapped bodies positioned to be shipped across the water toward Fenris Isle."
+  },
+  {
+   "q": "Why does the Scourge care about the ferry?",
+   "aliases": [
+    "why are scourge at decrepit ferry",
+    "ferry scourge purpose"
+   ],
+   "answer": "The ferry serves as a staging and transit point across Lordamere Lake, allowing the Scourge to ferry fresh corpses directly to their stronghold on Fenris Isle."
+  },
+  {
+   "q": "What quest follows The Decrepit Ferry?",
+   "aliases": [
+    "next quest after decrepit ferry",
+    "decrepit ferry follow up"
+   ],
+   "answer": "Examining the corpse-laden boat immediately leads into the quest Rot Hide Clues, prompting you to investigate the gnoll operations and the link to Fenris Isle."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, any foothold the Scourge establishes in Silverpine is a direct existential threat to the borders of Tirisfal and the Undercity."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing the perimeter around Lordamere Lake ensures Horde supply lines through Silverpine remain protected from northern Scourge incursions."
+  }
+ ],
+ "keywords": [
+  "corpse laden boat",
+  "decrepit ferry",
+  "fenris isle",
+  "high executor hadrec",
+  "lordamere lake",
+  "rot hide",
+  "sepulcher",
+  "silverpine"
+ ],
+ "related": [
+  "subzone:decrepit-ferry",
+  "npc:high-executor-hadrec",
+  "quest:439",
+  "subzone:fenris-isle",
+  "subzone:lordamere-lake",
+  "subzone:sepulcher",
+  "topic:scourge",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "The Decrepit Ferry (quest)"
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "key": "quest:1667",
+ "type": "quest",
+ "name": "Dead-tooth Jack",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   1667
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Marshal Haggard",
+  "end": "",
+  "previous": "Marshal Haggard (quest)",
+  "next": null,
+  "wiki": "Dead-tooth Jack",
+  "chain": [
+   "Marshal Haggard (quest)",
+   "Dead-tooth Jack"
+  ]
+ },
+ "summary": "Marshal Haggard, a retired officer living in eastern Elwynn Forest, was tricked into surrendering his official insignia to a Defias rogue named Dead-tooth Jack. Jack disguised himself in a Stormwind tabard in the dark to pose as Marshal Dughan and steal the badge. Haggard needs the badge recovered before the Defias Brotherhood can use it to impersonate Stormwind officials.",
+ "sections": [
+  {
+   "title": "A Con in the Dark",
+   "body": "Even seasoned soldiers can be caught off guard in the twilight of their years. Marshal Haggard, who lives in an isolated cottage on the eastern ridges of Elwynn, thought he was speaking to Marshal Dughan when a figure in a Stormwind tabard approached him one night. Claiming official business, the stranger asked for Haggard's old marshal's badge. Believing he was handing it over to a fellow officer, Haggard complied\u2014only for the impostor, a Defias thief known as Dead-tooth Jack, to laugh in his face and vanish into the woods.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat of False Authority",
+   "body": "While Haggard is retired, his old badge still carries the legal weight and authority of the Kingdom of Stormwind. With Defias bandits creeping across Elwynn, Westfall, and Redridge, an authentic officer's badge in criminal hands poses an immediate danger. It could allow rogue operatives to pass guard checkpoints, redirect patrols, or commandeer supplies. Jack retreats to a camp to the south to stash the stolen prize in a locked strongbox, leaving Haggard desperate to see it retrieved before serious damage is done.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dead-tooth Jack?",
+   "aliases": [
+    "dead tooth jack",
+    "who is dead tooth",
+    "dead tooth jack lore"
+   ],
+   "answer": "Dead-tooth Jack is an operative of the Defias Brotherhood operating in eastern Elwynn Forest. Known for his audacity, he posed as Marshal Dughan under cover of darkness to trick the retired Marshal Haggard into handing over his official Stormwind badge."
+  },
+  {
+   "q": "Why does Marshal Haggard need his badge back?",
+   "aliases": [
+    "why recover badge",
+    "haggards badge",
+    "why does the badge matter"
+   ],
+   "answer": "The badge is an authentic symbol of Stormwind authority. Haggard fears that if the Defias keep it, they will use it to impersonate officials, bypass military patrols, and cause havoc across the realm."
+  },
+  {
+   "q": "How did Jack manage to fool Marshal Haggard?",
+   "aliases": [
+    "how did he fool haggard",
+    "haggard tricked",
+    "why did haggard give the badge"
+   ],
+   "answer": "Jack approached Haggard's cottage at night wearing a Stormwind tabard. In the poor light, Haggard mistook him for Marshal Dughan of Goldshire and handed over the insignia without question when asked."
+  },
+  {
+   "q": "Where does Jack keep the stolen badge?",
+   "aliases": [
+    "badge location",
+    "where is the badge",
+    "dead tooth camp"
+   ],
+   "answer": "Jack keeps the badge locked inside a strongbox located at his bandit camp south of Marshal Haggard's house. Jack carries the key to the chest on his person."
+  },
+  {
+   "q": "Who sent you to Marshal Haggard in the first place?",
+   "aliases": [
+    "who sends you here",
+    "burlguard",
+    "questgiver start"
+   ],
+   "answer": "Guard Burlguard, stationed at the bridge on the eastern border of Elwynn near Redridge, sends adventurers to Haggard knowing the old marshal has spare weaponry he might part with in exchange for help."
+  },
+  {
+   "q": "What happens once the badge is returned?",
+   "aliases": [
+    "quest turn in",
+    "haggard reaction",
+    "badge returned"
+   ],
+   "answer": "Haggard is greatly relieved that the Defias cannot use his identity or rank against the kingdom. In gratitude, he salutes you and offers his pick of well-maintained military weapons from his time in service."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, this theft highlights how vulnerable the kingdom's rural borders are to Defias infiltrators who have no qualms wearing the crown's own colors to deceive retired veterans."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Marshal Haggard was once a veteran frontline fighter, and he rewards those who recover his honor with spare arms preserved from his years of active service."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Dead-tooth Jack's caper shows that the Defias Brotherhood relies on disguise, social engineering, and impudence just as much as crude highway robbery."
+  }
+ ],
+ "keywords": [
+  "badge",
+  "dead-tooth jack",
+  "defias",
+  "elwynn forest",
+  "guard burlguard",
+  "impersonation",
+  "marshal dughan",
+  "marshal haggard",
+  "strongbox"
+ ],
+ "related": [
+  "quest:1666",
+  "npc:marshal-dughan",
+  "zone:elwynn",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Dead-tooth Jack"
+ ]
+}

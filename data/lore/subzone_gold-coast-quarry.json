@@ -1,0 +1,86 @@
+{
+ "key": "subzone:gold-coast-quarry",
+ "type": "subzone",
+ "name": "Gold Coast Quarry",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Gold Coast Quarry"
+ },
+ "summary": "The Gold Coast Quarry is an open-pit mine carved into the bluffs of southwestern Westfall. Once a prized source of stone, minerals, and gold for the Kingdom of Stormwind, it has been seized by the Defias Brotherhood to fuel their growing insurrection.",
+ "sections": [
+  {
+   "title": "A Plundered Resource",
+   "body": "Before the kingdom fell into neglect, the Gold Coast Quarry supplied raw building materials and precious gold to help rebuild Stormwind. When royal troops withdrew from Westfall and left the countryside unprotected, Defias highwaymen and renegade laborers took control of the diggings. The Brotherhood now patrols the terraced stone ramps, using the site's vantage over the coast and plundering whatever minerals remain to fund their rebellion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was the quarry originally used for?",
+   "aliases": [
+    "why is there a quarry here",
+    "what did they mine here",
+    "gold coast purpose"
+   ],
+   "answer": "The quarry was established by the Kingdom of Stormwind to extract stone, minerals, and gold from the coastal bluffs. Much of the stone quarried across Westfall helped support Stormwind's reconstruction following the Second War."
+  },
+  {
+   "q": "Who controls the Gold Coast Quarry right now?",
+   "aliases": [
+    "who is at the quarry",
+    "who owns gold coast quarry",
+    "enemies at the quarry"
+   ],
+   "answer": "The Defias Brotherhood controls the site. Their brigands, looters, and highwaymen patrol the terraced cliffs and mine entrances, keeping honest settlers away and extracting resources for their own illicit operations."
+  },
+  {
+   "q": "Why hasn't Stormwind sent guards to clear the quarry?",
+   "aliases": [
+    "why no stormwind army",
+    "where are the guards",
+    "why is it abandoned"
+   ],
+   "answer": "With King Varian Wrynn missing and the Stormwind House of Nobles unwilling to fund a standing military garrison in Westfall, the region has been abandoned by the crown. The local People's Militia must fight for control of places like the quarry on their own."
+  },
+  {
+   "q": "Where is the Gold Coast Quarry located?",
+   "aliases": [
+    "quarry location",
+    "how to find gold coast quarry",
+    "where is it"
+   ],
+   "answer": "It is carved into the cliffs along the southwestern coastline of Westfall, situated south of the Saldean and Alexston farmsteads and overlooking the Great Sea."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "Miners wandering Westfall will find rich stone faces and mineral veins cut along the quarry cliffs, though working them means fighting through entrenched Defias patrols."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Reclaiming sites like the Gold Coast Quarry is vital to restoring order in Westfall, where the absence of royal garrisons has forced local volunteers to take up arms."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "defias brotherhood",
+  "gold coast quarry",
+  "mine",
+  "people's militia",
+  "quarry",
+  "stormwind",
+  "westfall"
+ ],
+ "related": [
+  "zone:westfall",
+  "topic:defias-brotherhood",
+  "topic:stormwind-kingdom",
+  "quest:12",
+  "quest:65"
+ ],
+ "attribution": [
+  "Gold Coast Quarry"
+ ]
+}

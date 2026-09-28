@@ -1,0 +1,126 @@
+{
+ "key": "topic:blackrock-clan",
+ "type": "topic",
+ "name": "Blackrock clan",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Blackrock clan"
+ },
+ "summary": "The Blackrock clan is a martial orcish clan renowned for its strict military discipline, unmatched blacksmithing, and central role in the First and Second Wars. Today, the clan is deeply fractured: while some veterans follow Thrall in the New Horde, a vicious and renegade splinter group known as the Dark Horde occupies the upper peaks of Blackrock Mountain under Rend Blackhand.",
+ "sections": [
+  {
+   "title": "The Anvil of the Old Horde",
+   "body": "Originating in the rugged caverns of Gorgrond on Draenor, the Blackrock clan made its name through rigid hierarchy, heavy armor, and mastery over the forge. Under Chieftain Blackhand, they served as the brutal core of the Old Horde during the invasion of Azeroth, laying siege to Stormwind. When Orgrim Doomhammer slew Blackhand to cleanse the Horde of Gul'dan's direct puppet mastery, leadership of both the clan and the Horde remained firmly in Blackrock hands through the grueling campaigns of the Second War.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Fractured Legacy",
+   "body": "Following the Horde's catastrophic defeat at Blackrock Mountain, the clan shattered. Many warriors were rounded up and placed in Alliance internment camps, later to be liberated by Thrall and inducted into his reformed New Horde. However, unrepentant elements rallied behind Blackhand's sons, Rend and Maim. This faction retreated into the heights of Blackrock Spire, forming the hostile Dark Horde alongside remnants of the Dragonmaw and other rogue clans.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat in the Spire",
+   "body": "Today, Rend Blackhand claims the mantle of true Warchief from his throne in Blackrock Spire. The Dark Horde maintains an uneasy and treacherous truce with the Dark Iron dwarves who lurk in the molten depths below, all while waging war against both the Alliance and Thrall's Horde. Uncompromising, demon-tainted remnants of the clan have also been spotted lingering in Lordaeron, seeking to revive dark sacrificial rituals.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Are the Blackrock orcs part of Thrall's Horde?",
+   "aliases": [
+    "is blackrock clan horde",
+    "are blackrocks friendly",
+    "thrall blackrock clan"
+   ],
+   "answer": "Some are, but most encountered in the Eastern Kingdoms are not. While venerable Blackrock veterans like Eitrigg and Varok Saurfang serve Thrall in Kalimdor, the bulk of the clan entrenched at Blackrock Mountain follow Rend Blackhand and consider Thrall's New Horde to be weak traitors."
+  },
+  {
+   "q": "Who is currently leading the Blackrock clan?",
+   "aliases": [
+    "blackrock clan leader",
+    "who leads blackrock",
+    "rend blackhand leader"
+   ],
+   "answer": "In Blackrock Mountain, Dal'rend (Rend) Blackhand leads the Dark Horde splinter faction, claiming leadership over the clan his father once commanded. Those Blackrock orcs who integrated into the New Horde answer directly to Warchief Thrall."
+  },
+  {
+   "q": "Why are they called the Blackrock clan?",
+   "aliases": [
+    "blackrock name origin",
+    "why called blackrock",
+    "blackrock ore"
+   ],
+   "answer": "They were named after the incredibly durable, black-hued ore found within their ancestral homeland in Gorgrond on Draenor. Their smiths learned how to smelt this impossibly hard mineral, forging superior armaments that made them legendary warriors."
+  },
+  {
+   "q": "What is the Dark Horde?",
+   "aliases": [
+    "what is dark horde",
+    "rend's horde",
+    "blackrock dark horde"
+   ],
+   "answer": "The Dark Horde is a rogue faction occupying Upper Blackrock Spire, comprised of unrepentant Blackrock orcs, Black Tooth Grin veterans, and allied Dragonmaw orcs. Led by Rend Blackhand, they reject Thrall's authority and seek to conquer Azeroth under the banner of the Old Horde."
+  },
+  {
+   "q": "What happened to Blackhand?",
+   "aliases": [
+    "how did blackhand die",
+    "who killed blackhand",
+    "orgrim kills blackhand"
+   ],
+   "answer": "During the First War, Orgrim Doomhammer challenged Warchief Blackhand to a mak'gora duel to strip the Shadow Council of its puppet ruler. Orgrim crushed Blackhand's skull with the Doomhammer, claiming both the title of Warchief and leadership of the Blackrock clan."
+  },
+  {
+   "q": "Why are there Blackrock orcs in Lordaeron?",
+   "aliases": [
+    "blackrock orcs alterac",
+    "blackrocks in lordaeron",
+    "demon worshipping blackrocks"
+   ],
+   "answer": "Scattered splinter forces of the clan fled north or remained hidden in Lordaeron after the Second War. Some of these warbands turned back toward demon worship and dark sacrifices, drawing the ire of the Alliance and later the Scourge during the Third War."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "The Blackrocks produced two of the greatest Warchiefs in orcish history, yet their surviving remnants in the Eastern Kingdoms serve as a bitter reminder of the blood-fueled Old Horde."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The Blackrock clan's legendary metalworking shaped modern orcish siegecraft and heavy plate armor, born from centuries of smelting unique ores in elemental-powered forges."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance forces have fought the Blackrock clan across three wars, from the burning of Stormwind to the bloody sieges of Blackrock Mountain and Khaz Modan."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Thrall views Rend's Blackrock extremists as an existential threat to the peace and honor of the New Horde, branding them renegades who cling to demonic servitude."
+  }
+ ],
+ "keywords": [
+  "blackhand",
+  "blackrock",
+  "dark horde",
+  "doomhammer",
+  "eitrigg",
+  "gorgrond",
+  "rend",
+  "saurfang",
+  "spire"
+ ],
+ "related": [
+  "subzone:blackrock-mountain",
+  "npc:orgrim-doomhammer",
+  "npc:eitrigg",
+  "npc:varok-saurfang",
+  "topic:old-horde",
+  "topic:new-horde",
+  "topic:dragonmaw-clan",
+  "topic:second-war"
+ ],
+ "attribution": [
+  "Blackrock clan"
+ ]
+}

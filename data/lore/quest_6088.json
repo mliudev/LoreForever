@@ -1,0 +1,127 @@
+{
+ "key": "quest:6088",
+ "type": "quest",
+ "name": "Taming the Beast",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   6088
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Yaw Sharpmane",
+  "end": "",
+  "previous": "Taming the Beast (Tauren 2)",
+  "next": "Training the Beast (Tauren)",
+  "wiki": "Taming the Beast (Tauren 3)",
+  "chain": [
+   "The Hunter's Path (Tauren)",
+   "Taming the Beast (Tauren 1)",
+   "Taming the Beast (Tauren 2)",
+   "Taming the Beast (Tauren 3)",
+   "Training the Beast (Tauren)"
+  ]
+ },
+ "summary": "This trial marks the final lesson in a young tauren hunter's training under Yaw Sharpmane in Bloodhoof Village. By using a taming rod to bond with a wild swoop, the hunter proves mastery over creatures of the air and earns the sacred trust of the Earthmother. Completing this task grants the permanent knowledge required to tame and command a lifelong companion.",
+ "sections": [
+  {
+   "title": "Mastery of the Sky",
+   "body": "Having already subdued ground-dwelling predators in the rolling plains of Mulgore, Yaw Sharpmane turns your focus toward the open heavens. The swoop is a fierce, sharp-beaked bird of prey known for its sweeping dives and intimidating demeanor. Bringing such a wild, airborne hunter under control tests your reflexes and your calm, demanding that you endure its talons while using the enchanted rod to align your spirit with its instincts.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Earthmother's Gift",
+   "body": "For the tauren, hunting and animal companionship are fundamentally spiritual pursuits rather than mere subjugation. By mastering creatures of both earth and sky, you demonstrate the balance and respect necessary to walk the plains without disrupting nature. Yaw Sharpmane recognizes this maturity, taking back his temporary taming rod and passing on the lasting techniques of calling, dismissing, and permanently taming a companion of your own choosing.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do I have to tame a swoop for the final trial?",
+   "aliases": [
+    "why tame swoop",
+    "purpose of swoop taming",
+    "why a swoop"
+   ],
+   "answer": "Yaw Sharpmane wants to test your ability against creatures that inhabit the sky. Swoops possess sharp, swift attacks and an imposing presence, proving that a hunter can handle both aerial predators and ground beasts before earning true independence."
+  },
+  {
+   "q": "Do I keep the swoop I tame during this quest?",
+   "aliases": [
+    "do i keep the swoop",
+    "is the swoop my pet",
+    "can i keep this bird"
+   ],
+   "answer": "No. The swoop is tamed temporarily using Yaw Sharpmane's taming rod as part of the ritual training. Once you complete the quest, you gain the actual ability to tame any wild beast you wish to keep permanently."
+  },
+  {
+   "q": "Who gives this quest and where are they located?",
+   "aliases": [
+    "quest giver",
+    "who starts this",
+    "where is yaw sharpmane"
+   ],
+   "answer": "Yaw Sharpmane, the hunter trainer in Bloodhoof Village within central Mulgore, offers this quest as the third and final step of your initial beast taming trials."
+  },
+  {
+   "q": "What happens after I return the taming rod?",
+   "aliases": [
+    "what do i learn next",
+    "rewards for finishing",
+    "what is after this quest"
+   ],
+   "answer": "Yaw Sharpmane teaches you the inherent abilities to tame, call, and dismiss beasts on your own. He will also direct you toward Thunder Bluff to learn how to properly train and care for your chosen companion."
+  },
+  {
+   "q": "Where can I find wild swoops in Mulgore?",
+   "aliases": [
+    "swoop locations",
+    "where are swoops",
+    "find a swoop"
+   ],
+   "answer": "Swoops roam the open grasslands and mesa edges throughout central Mulgore, often circling the plains just outside Bloodhoof Village."
+  },
+  {
+   "q": "Why is pet taming considered a rite of passage for tauren?",
+   "aliases": [
+    "tauren hunter lore",
+    "hunter spiritual path",
+    "earthmother connection"
+   ],
+   "answer": "Tauren culture views beasts not as tools, but as fellow children of the Earthmother. Learning to bond with a companion requires patience, mutual respect, and spiritual balance rather than pure force."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This quest completes the foundational training chain that unlocks permanent beast taming, marking the transition from an apprentice to a fully self-reliant scout of the wilds."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For the Shu'halo, bonding with a wild beast is an act of spiritual communion blessed by the Earthmother, carrying deep cultural significance across the plains of Mulgore."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "earthmother",
+  "hunter pet",
+  "mulgore",
+  "swoop",
+  "taming rod",
+  "taming the beast",
+  "yaw sharpmane"
+ ],
+ "related": [
+  "quest:6081",
+  "quest:6065",
+  "quest:6061",
+  "npc:yaw-sharpmane",
+  "subzone:bloodhoof-village",
+  "zone:mulgore",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Taming the Beast (Tauren 3)"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "key": "subzone:splithoof-crag",
+ "type": "subzone",
+ "name": "Splithoof Crag",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Splithoof Crag"
+ },
+ "summary": "Splithoof Crag is a fortified settlement of the Galak centaur, tucked along the northern cliffs of Thousand Needles. It serves as one of the tribe's major enclaves alongside the high mesas, guarding the entrance to Splithoof Hold. Travelers traversing the canyon floor must contend with aggressive Galak patrols roaming near the bluffs.",
+ "sections": [
+  {
+   "title": "A Galak Stronghold",
+   "body": "Nestled against the sheer northern rock face of Thousand Needles, Splithoof Crag sits just east of the towering Darkcloud Pinnacle. It is an established enclave of the Galak centaur, complete with crude tent encampments and dirt pathways cutting through the crags. At the heart of the village against the cliffside lies Splithoof Hold, a subterranean cavern holding the Cloven Hoof, an ancient relic of the centaur safeguarded by a sacred brazier.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defending the Caverns",
+   "body": "The Galak fiercely contest this corner of the canyon, clashing with any travelers, Horde expeditions, or tauren scouting parties wandering beneath their bluffs. While the Grimtotem occupy the soaring pinnacles nearby, the centaur hold firm control of this canyon ravine and the caverns burrowed deep beneath the stone.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives in Splithoof Crag?",
+   "aliases": [
+    "who is at splithoof crag",
+    "splithoof crag mobs",
+    "centaur in splithoof crag"
+   ],
+   "answer": "The settlement belongs to the Galak centaur tribe, one of the prominent clans inhabiting Thousand Needles alongside the hostile Grimtotem tauren."
+  },
+  {
+   "q": "Where is Splithoof Crag located?",
+   "aliases": [
+    "where is splithoof crag",
+    "splithoof crag location"
+   ],
+   "answer": "It lies along the northern canyon wall of Thousand Needles, situated directly east of Darkcloud Pinnacle."
+  },
+  {
+   "q": "What is inside Splithoof Hold?",
+   "aliases": [
+    "what is splithoof hold",
+    "cave in splithoof crag"
+   ],
+   "answer": "Splithoof Hold is the central cavern of the village. Deep within its chambers, the Galak guard the Cloven Hoof, an ancient tribal artifact shielded by a sacred flame burning in an ancient brazier."
+  },
+  {
+   "q": "Are the centaur here allied with the nearby Grimtotem?",
+   "aliases": [
+    "grimtotem and galak",
+    "centaur and tauren relation"
+   ],
+   "answer": "No. The Galak centaur and the Grimtotem tauren on Darkcloud Pinnacle are bitter territorial rivals, fighting for dominance over this stretch of the canyon."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The long-standing hostility between tauren and centaur makes Splithoof Crag an immediate concern for Horde scouts monitoring hostile activity throughout Thousand Needles."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Controlling the passage beneath the crags is vital for ensuring secure travel between the southern Barrens, Freewind Post, and the Shimmering Flats."
+  }
+ ],
+ "keywords": [
+  "centaur",
+  "cloven hoof",
+  "darkcloud pinnacle",
+  "galak",
+  "splithoof crag",
+  "splithoof hold",
+  "thousand needles"
+ ],
+ "related": [
+  "subzone:splithoof-hold",
+  "zone:thousandneedles",
+  "topic:centaur",
+  "subzone:darkcloud-pinnacle"
+ ],
+ "attribution": [
+  "Splithoof Crag"
+ ]
+}

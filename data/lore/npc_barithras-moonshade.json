@@ -1,0 +1,90 @@
+{
+ "key": "npc:barithras-moonshade",
+ "type": "npc",
+ "name": "Barithras Moonshade",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Barithras Moonshade",
+  "refs": 2
+ },
+ "summary": "Barithras Moonshade is a night elf resident of Auberdine in Darkshore. Positioned within the coastal settlement, he seeks the help of adventurers willing to explore the shadowy wilderness and gather rare subterranean flora.",
+ "sections": [
+  {
+   "title": "Resident of Auberdine",
+   "body": "Standing watch within the village of Auberdine, Barithras Moonshade contributes to the night elves' efforts to study and manage the unsettled land of Darkshore. He directs travelers to venture into nearby subterranean caverns to harvest specific fungi, such as death cap mushrooms, for study and use.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ties to the Ancients",
+   "body": "Beyond local flora, Barithras assists in guiding capable adventurers southward to make contact with Onu, one of the venerable ancients striving to heal Darkshore's tainted soil and soothe its restless natural spirits.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Barithras Moonshade?",
+   "aliases": [
+    "who is barithras",
+    "barithras moonshade",
+    "who is this night elf"
+   ],
+   "answer": "Barithras Moonshade is a night elf resident found in Auberdine along the misty coast of Darkshore. He tasks adventurers with investigating local flora and contacting guardians in the region."
+  },
+  {
+   "q": "Where can I find Barithras Moonshade?",
+   "aliases": [
+    "barithras location",
+    "where is barithras",
+    "barithras moonshade location"
+   ],
+   "answer": "He can be found standing in the port settlement of Auberdine on the shores of Darkshore."
+  },
+  {
+   "q": "What tasks does Barithras give?",
+   "aliases": [
+    "barithras quests",
+    "what quests does barithras give",
+    "cave mushrooms quest"
+   ],
+   "answer": "Barithras tasks travelers with entering nearby caverns to harvest mushrooms, such as the dangerous death cap, and later points adventurers southward to meet with the ancient Onu."
+  },
+  {
+   "q": "Is Barithras related to the other Moonshades?",
+   "aliases": [
+    "moonshade family",
+    "other moonshades",
+    "is barithras related to sentinel moonshade"
+   ],
+   "answer": "Several other night elves carry the Moonshade surname across Kalimdor, including Sentinels and Keepers, suggesting a shared lineage among their people."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Barithras helps his kin in Auberdine safeguard Darkshore by monitoring its flora and maintaining ties with ancient forest guardians like Onu."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Those attuned to plant life will appreciate Barithras's interest in Darkshore's peculiar cavern-dwelling fungi."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "barithras",
+  "cave mushrooms",
+  "darkshore",
+  "death cap",
+  "moonshade",
+  "onu"
+ ],
+ "related": [
+  "subzone:auberdine",
+  "zone:darkshore",
+  "quest:947",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Barithras Moonshade"
+ ]
+}

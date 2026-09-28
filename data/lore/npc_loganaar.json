@@ -1,0 +1,90 @@
+{
+ "key": "npc:loganaar",
+ "type": "npc",
+ "name": "Loganaar",
+ "era": "classic",
+ "zone": "moonglade",
+ "meta": {
+  "wiki": "Loganaar",
+  "refs": 2
+ },
+ "summary": "Loganaar is a night elf druidic instructor residing in the haven of Nighthaven in Moonglade. Dedicated to guiding initiates from both the Alliance and the Horde, he instructs young druids as they attune to the wild and prepare for the call of the Emerald Dream.",
+ "sections": [
+  {
+   "title": "Keeper of the Sacred Art",
+   "body": "Situated amidst the serene boughs of Nighthaven, Loganaar serves as a primary mentor to newly initiated druids traveling to Moonglade. Regardless of whether an initiate hails from Darnassus or Thunder Bluff, Loganaar provides guidance in balance, shape-shifting, and reverence for nature. He reminds his students that even within cold stone and unfamiliar lands, true tranquility must be found within oneself. He also acts as a welcoming guide for those journeying deeper into the Cenarion Circle's affairs, sending promising students to wanderers like Torwa Pathfinder in Un'Goro Crater or deeper into ancient woodland rites.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Call of the Dream",
+   "body": "Beyond fundamental spellcraft, Loganaar prepares students for the ultimate destiny shared by Kalimdor's traditional protectors: the deep slumber of the Emerald Dream. He instructs initiates on the sacred connection between Azeroth's primal spirit realm and the waking world, reminding them that true mastery will one day require hibernating for centuries to walk among nature's purest, unblemished forms under the guidance of the demigods.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Loganaar?",
+   "aliases": [
+    "loganaar npc",
+    "who is loganaar",
+    "loganaar lore"
+   ],
+   "answer": "Loganaar is a night elf druid trainer based in Nighthaven, the central settlement of Moonglade. He welcomes druids of all backgrounds to train in their arts and introduces them to the deeper traditions of the Cenarion Circle."
+  },
+  {
+   "q": "Does Loganaar train Horde druids?",
+   "aliases": [
+    "can tauren train at loganaar",
+    "loganaar horde",
+    "druid trainer moonglade horde"
+   ],
+   "answer": "Yes. Moonglade is sacred, neutral ground overseen by the Cenarion Circle. As a member of the Circle, Loganaar sets aside the conflict between the Alliance and Horde to instruct tauren and night elf druids alike."
+  },
+  {
+   "q": "What does Loganaar teach about the Emerald Dream?",
+   "aliases": [
+    "loganaar dream",
+    "emerald dream quote"
+   ],
+   "answer": "Loganaar teaches that every true druid will eventually feel the pull of the Emerald Dream. He explains that walking among its uncorrupted forms during a long, deep hibernation is where a druid's ultimate training takes place."
+  },
+  {
+   "q": "Where does Loganaar send seasoned druids?",
+   "aliases": [
+    "loganaar quests",
+    "torwa pathfinder quest loganaar"
+   ],
+   "answer": "As druids grow in experience, Loganaar directs them outward to observe and mend Azeroth's primal ecosystems. Among his tasks, he sends seasoned disciples to assist naturalists such as Torwa Pathfinder in the untamed wilderness of Un'Goro Crater."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids of both Darnassus and Thunder Bluff, Loganaar is one of the earliest mentors met upon teleporting to Moonglade, providing advanced training and spiritual counsel."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Loganaar reflects the ancient traditions of the Kaldorei druids who spent millennia communing with nature and entering the Emerald Dream under Malfurion Stormrage."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "druid trainer",
+  "emerald dream",
+  "loganaar",
+  "moonglade",
+  "nighthaven"
+ ],
+ "related": [
+  "subzone:nighthaven",
+  "zone:moonglade",
+  "topic:druid",
+  "topic:emerald-dream",
+  "npc:torwa-pathfinder",
+  "topic:cenarius",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Loganaar"
+ ]
+}

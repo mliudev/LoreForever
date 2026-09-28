@@ -1,0 +1,85 @@
+{
+ "key": "subzone:rotting-orchard",
+ "type": "subzone",
+ "name": "Rotting Orchard",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Rotting Orchard"
+ },
+ "summary": "The Rotting Orchard is a blighted, abandoned fruit grove situated in southern Duskwood. Once a source of harvest for the nearby settlement of Darkshire, it has fallen into ruin and is now overrun by ravenous lupine predators known as the Nightbane pack.",
+ "sections": [
+  {
+   "title": "Den of the Nightbane",
+   "body": "Located east of the ruined Yorgen Farmstead and west of Tranquil Gardens Cemetery, the Rotting Orchard stands as a grim testament to Duskwood's decline. The trees hang heavy with withered, spoiled fruit, while dilapidated barns and outbuildings have been converted into rough encampments by the Nightbane worgen. Nightbane Stalkers prowl the twisted brush, while dark casters known as Shadow Weavers weave their sinister magic amid the decaying timber. The pack answers to their fierce leader, Marus, who prowls the surrounding woods keeping watch over their stolen domain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures occupy the Rotting Orchard?",
+   "aliases": [
+    "rotting orchard mobs",
+    "who lives in rotting orchard",
+    "what is at rotting orchard"
+   ],
+   "answer": "The orchard is completely infested by the Nightbane pack, a faction of ravenous worgen. These include cunning prowlers called Nightbane Stalkers, dark spellcasters known as Nightbane Shadow Weavers, and their roaming leader, Marus."
+  },
+  {
+   "q": "Where is the Rotting Orchard located in Duskwood?",
+   "aliases": [
+    "rotting orchard location",
+    "where is rotting orchard",
+    "how to find rotting orchard"
+   ],
+   "answer": "The Rotting Orchard lies in southern Duskwood, southwest of the town of Darkshire. It is nestled right between the ruined Yorgen Farmstead to its west and the Tranquil Gardens Cemetery to its east."
+  },
+  {
+   "q": "Who leads the worgen in this orchard?",
+   "aliases": [
+    "rotting orchard boss",
+    "packleader marus",
+    "who leads nightbane"
+   ],
+   "answer": "The packleader of the worgen here is named Marus. He prowls the territory between the decaying orchard grounds and his nearby den, aggressively defending the pack's domain."
+  },
+  {
+   "q": "Was this place always overrun by monsters?",
+   "aliases": [
+    "orchard history",
+    "why is orchard rotting"
+   ],
+   "answer": "No. Like many surrounding homesteads in Duskwood, it was once a productive farm and fruit grove supporting the local human populace before dark curses and supernatural horrors overtook the region and drove the farmers away."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The encroachment of the Nightbane worgen at the Rotting Orchard poses a direct predatory threat to the fragile security of Darkshire just up the road."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The twisted trees and ruined outbuildings provide prime stalking ground, but the predatory senses and spellcraft of the Nightbane pack make it an ambush waiting to happen."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "duskwood",
+  "marus",
+  "nightbane",
+  "rotting orchard",
+  "shadow weavers",
+  "worgen"
+ ],
+ "related": [
+  "zone:duskwood",
+  "topic:worgen",
+  "subzone:darkshire",
+  "subzone:yorgen-farmstead",
+  "subzone:tranquil-gardens-cemetery",
+  "topic:emerald-dream"
+ ],
+ "attribution": [
+  "Rotting Orchard"
+ ]
+}

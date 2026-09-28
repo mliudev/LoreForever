@@ -1,0 +1,122 @@
+{
+ "key": "quest:251",
+ "type": "quest",
+ "name": "Translate Abercrombie's Note",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   251
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Lord Ello Ebonlocke",
+  "end": "Sirra Von'Indi",
+  "previous": "Note to the Mayor (Classic)",
+  "next": "Wait for Sirra to Finish",
+  "wiki": "Translate Abercrombie's Note",
+  "chain": []
+ },
+ "summary": "Translate Abercrombie's Note is an Alliance quest in Darkshire that tasks an adventurer with carrying an indecipherable letter to the town's resident scholar. Lord Ello Ebonlocke cannot make sense of the hermit's missive, relying instead on Sirra Von'Indi's knowledge of obscure scripts. It marks the moment Darkshire's leadership realizes Abercrombie's odd errands hide something far more deliberate.",
+ "sections": [
+  {
+   "title": "An Indecipherable Message",
+   "body": "When Abercrombie dispatches a sealed letter to Mayor Ello Ebonlocke, the town leader expects an eccentric plea or bitter ramblings from the cemetery hermit. Instead, the parchment is inscribed in strange, cryptic writing that defies standard Common script. Lacking the scholarly training to decipher ancient or esoteric languages, Mayor Ebonlocke refuses to dismiss the letter out of hand, knowing that even mad hermits can pose a hazard in Duskwood.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scholar of Darkshire",
+   "body": "To crack the cipher, Ebonlocke directs travelers across the square to Sirra Von'Indi. Sirra is Darkshire's scholar of esoteric lore, well-versed in ancient arts and forgotten tongues. Though Sirra scoffs at Abercrombie's sanity\u2014quipping that anyone dwelling beside a haunted graveyard must have rotted brains\u2014he takes the parchment seriously enough to begin the painstaking process of transcription.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Glimpse into the Hermit's Mind",
+   "body": "Handing the letter over sets into motion a grim revelation for the town. While Abercrombie previously appeared to be a frail, reclusive old man begging for supplies and protection from ghouls, his encoded letter to the mayor signals a far darker intelligence and an impending reckoning that Darkshire is ill-prepared to confront.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why can't Mayor Ebonlocke read the note himself?",
+   "aliases": [
+    "why can't ello read note",
+    "ebonlocke letter translate",
+    "why need translator"
+   ],
+   "answer": "The letter delivered from Abercrombie is written in an unusual script or ancient cipher. Mayor Ello Ebonlocke is an administrator and noble rather than a linguist, so he sends it to Sirra Von'Indi, Darkshire's resident expert in ancient arts and arcane tongues."
+  },
+  {
+   "q": "Who is Sirra Von'Indi?",
+   "aliases": [
+    "sirra von indi who",
+    "who is the translator",
+    "darkshire scholar"
+   ],
+   "answer": "Sirra Von'Indi is a learned resident residing in Darkshire. Known for his expertise in obscure languages, history, and ancient arts, he serves as the town's go-to scholar whenever mysterious texts or relics emerge from the darkened woods."
+  },
+  {
+   "q": "Where does Abercrombie live?",
+   "aliases": [
+    "where is abercrombie",
+    "hermit location",
+    "abercrombie duskwood"
+   ],
+   "answer": "Abercrombie lives in a ramshackle shack located on the hill overlooking the Beggar's Haunt cemetery in western Duskwood, surrounded by restless undead and predatory beasts."
+  },
+  {
+   "q": "What is Sirra's reaction to Abercrombie's note?",
+   "aliases": [
+    "what does sirra think of abercrombie",
+    "sirra von indi dialogue"
+   ],
+   "answer": "Sirra openly doubts Abercrombie's sanity, remarking that anyone willing to live beside a graveyard must have a rotted brain. Nevertheless, he agrees to examine the letter and begins translating its esoteric script."
+  },
+  {
+   "q": "What happens after giving the note to Sirra?",
+   "aliases": [
+    "next quest after translate note",
+    "what comes after translate abercrombie note"
+   ],
+   "answer": "Sirra Von'Indi asks the adventurer to wait while he works through the transcription. Once finished, the translated contents reveal Abercrombie's true intentions and escalate the threat against Darkshire."
+  },
+  {
+   "q": "Why did Abercrombie write to Mayor Ebonlocke?",
+   "aliases": [
+    "why did abercrombie send letter",
+    "hermit note purpose"
+   ],
+   "answer": "Abercrombie sent the note under the guise of correspondence with town leadership, but disguised his words in a hidden script to veil his sinister plots until he was ready to strike."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Mages familiar with obscure dialects and arcane transcriptions will appreciate Sirra Von'Indi's role as Darkshire's local expert on esoteric scripts."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions aiding Duskwood, this errand highlights how vulnerable and isolated Darkshire's civic leadership feels amidst the surrounding darkness."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "cipher",
+  "darkshire",
+  "duskwood",
+  "ello ebonlocke",
+  "hermit",
+  "sirra von'indi",
+  "translation"
+ ],
+ "related": [
+  "npc:lord-ello-ebonlocke",
+  "npc:sirra-von-indi",
+  "quest:401",
+  "npc:abercrombie",
+  "quest:165",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Translate Abercrombie's Note"
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "key": "subzone:northshire-valley",
+ "type": "subzone",
+ "name": "Northshire Valley",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Northshire Valley"
+ },
+ "summary": "Tucked away in the northern mountains of Elwynn Forest, Northshire Valley serves as the peaceful cradle and training ground for the kingdom of Stormwind's newest defenders. Surrounded by natural barriers, it hosts the historic Northshire Abbey, fertile vineyards, and the rich Echo Ridge Mine. Despite its tranquil appearance, the valley faces mounting unrest from rogue bandits, infesting kobolds, and displaced predators.",
+ "sections": [
+  {
+   "title": "A Secluded Sanctuary",
+   "body": "Northshire Valley is framed by nearly impassable mountain ridges, with its only road heading south through a fortified gatehouse toward Goldshire and the rest of Elwynn Forest. A clear river winds through its pastures before feeding south into Crystal Lake. At the valley's heart stands Northshire Abbey, an ancient sanctuary where the Holy Light is taught and where recruits are trained by the Knights of the Silver Hand and seasoned veterans. Beyond the abbey walls lie the bountiful Northshire Vineyards and Echo Ridge Mine, forming a self-sustaining pocket of Stormwind territory that feels far removed from the wider world's wars.",
+   "spoiler": 0
+  },
+  {
+   "title": "Encroaching Troubles",
+   "body": "Even this sheltered haven has felt the strain of Stormwind's overextended defenses. Marshal McBride and his detachment of the Stormwind Guard struggle to maintain order across the vale. Packs of wolves driven north from blighted Duskwood prowl the surrounding woods, while vermin-like kobolds have overrun the tunnels of Echo Ridge Mine. Worse still, masked thugs aligned with the Defias Brotherhood openly harass the vineyards and threaten the abbey's grounds, forcing local commanders to recruit every able-bodied civilian arriving at their gates.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Northshire Valley so heavily guarded?",
+   "aliases": [
+    "why guards northshire",
+    "gate in northshire",
+    "who protects northshire"
+   ],
+   "answer": "The valley contains Northshire Abbey, a key spiritual hub and training ground for Stormwind's forces, as well as crucial local resources like Echo Ridge Mine and the vineyards. With Stormwind's military stretched thin, Marshal McBride maintains a guarded gate at the southern pass to prevent threats from leaking between the valley and greater Elwynn Forest."
+  },
+  {
+   "q": "Where did all the wolves in the valley come from?",
+   "aliases": [
+    "why so many wolves",
+    "wolf infestation",
+    "wolves from duskwood"
+   ],
+   "answer": "Deputy Willem notes that packs of wolves have recently surged across the river, having fled into the valley from the darkened forests of Duskwood to the south. The darkness spreading in Duskwood has driven wild beasts into normally tranquil pastures."
+  },
+  {
+   "q": "Why are kobolds attacking Echo Ridge Mine?",
+   "aliases": [
+    "echo ridge kobolds",
+    "why kobolds in northshire",
+    "kobold problem"
+   ],
+   "answer": "Kobolds are opportunistic burrowers drawn to underground mineral veins. As kingdom patrols grew thin, a clan of kobolds took advantage of the lack of protection to claim Echo Ridge Mine for its gold and candles, forcing the human miners out of the tunnels."
+  },
+  {
+   "q": "Who are the bandits harassing the vineyards?",
+   "aliases": [
+    "vineyard bandits",
+    "defias in northshire",
+    "red mask thugs"
+   ],
+   "answer": "The thieves operating near Milly Osworth's vineyard are agents of the Defias Brotherhood. They prey on the outskirts of the valley to disrupt supplies, harass local farmers, and test the abbey's defenses."
+  },
+  {
+   "q": "What happened to Northshire during the Second War?",
+   "aliases": [
+    "northshire second war",
+    "twilight hammer northshire",
+    "chogall northshire"
+   ],
+   "answer": "During the Second War, Northshire Abbey fell into enemy hands and was briefly utilized as a headquarters by Cho'gall's Twilight's Hammer clan before the Alliance reclaimed and restored the valley."
+  },
+  {
+   "q": "How do you leave Northshire Valley?",
+   "aliases": [
+    "exit northshire",
+    "path to goldshire",
+    "how to leave"
+   ],
+   "answer": "The only passable exit on foot is the southern road leading through the guarded gatehouse. Passing through this gate takes travelers directly into central Elwynn Forest, pointing down the main road toward Goldshire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, Northshire Valley is the place where their journey begins, stepping into the abbey's grounds to answer the call of a kingdom in need."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Northshire serves as a crucial recruitment and recovery station for the Grand Alliance, training the next generation of defenders to stabilize the heart of the kingdom."
+  }
+ ],
+ "keywords": [
+  "abbey",
+  "defias",
+  "echo ridge",
+  "elwynn",
+  "kobolds",
+  "mcbride",
+  "northshire",
+  "vineyards",
+  "willem"
+ ],
+ "related": [
+  "subzone:northshire-abbey",
+  "npc:marshal-mcbride",
+  "subzone:northshire-vineyards",
+  "subzone:echo-ridge-mine",
+  "zone:elwynn",
+  "topic:stormwind-guard",
+  "topic:defias-brotherhood",
+  "subzone:goldshire"
+ ],
+ "attribution": [
+  "Northshire Valley"
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "key": "npc:archmage-xylem",
+ "type": "npc",
+ "name": "Archmage Xylem",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Archmage Xylem",
+  "refs": 4
+ },
+ "summary": "Archmage Xylem is an eccentric and reclusive human wizard dwelling in an isolated tower atop the cliffs of northern Azshara. Known for his volatile temperament and dangerous experiments, he has withdrawn from worldly affairs to pursue esoteric arcane research. Reaching him requires magical teleportation, and he only entertains adventurers who can assist in his peculiar studies or aid his personal vendettas.",
+ "sections": [
+  {
+   "title": "A Recluse Above the Coast",
+   "body": "Perched high upon the jagged cliffs of northern Azshara, Archmage Xylem makes his home in a secluded spire overlooking the ruined elven coastline. Rather than building a road or trail, the wizard isolated his sanctuary entirely, relying on his servant Sanath Lim-yo to magically transport approved visitors up the cliff face. Observers across Kalimdor consider him profoundly eccentric and perilous to deal with; even fellow scholars treat him with deep caution, noting that he behaves unlike almost any other human mage.",
+   "spoiler": 0
+  },
+  {
+   "title": "Echoes of the Third War",
+   "body": "Before secluding himself in Azshara, Archmage Xylem took part in the Third War alongside the human expeditionary forces in Kalimdor. During the campaigns in the Stonetalon Mountains, his fortified encampment came under brutal assault by the Warsong clan, commanded by Grommash Hellscream. Though his defense was shattered in the fighting, Xylem survived the war, ultimately turning his back on large-scale military conflicts to pursue private arcane mastery in the wild reaches of the continent.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Grudge Against Morphaz",
+   "body": "Xylem's seclusion is not entirely peaceful; he harbors an intense grudge against the green dragonflight, specifically a drake named Morphaz. In the past, the beast devoured one of Xylem's unfortunate apprentices whole\u2014swallowing an arcane shard of immense power along with the student. Rather than mourning the apprentice, the vengeful archmage remains fixated on hunting down Morphaz to extract the prized artifact from the dragon's belly.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you reach Archmage Xylem's tower?",
+   "aliases": [
+    "get to xylem",
+    "reach xylem tower",
+    "teleport to xylem",
+    "xylem location"
+   ],
+   "answer": "Archmage Xylem's tower is set atop an inaccessible cliff in northern Azshara with no walkable path leading up. To reach him, you must locate his servant, Sanath Lim-yo, who stands near the base of the cliffs and can magically teleport travelers up to the tower grounds."
+  },
+  {
+   "q": "Who is Archmage Xylem?",
+   "aliases": [
+    "who is xylem",
+    "archmage xylem lore",
+    "xylem background"
+   ],
+   "answer": "He is an eccentric human archmage who fought during the Third War in Stonetalon Mountains. Following the conflict, he withdrew to an isolated clifftop tower in northern Azshara to conduct dangerous arcane experiments away from civilization."
+  },
+  {
+   "q": "What happened to Xylem in the Third War?",
+   "aliases": [
+    "xylem third war",
+    "xylem stonetalon",
+    "xylem wc3"
+   ],
+   "answer": "During the Third War, Xylem commanded a human base in the Stonetalon Mountains. His outpost was assaulted and overrun by Grommash Hellscream and the blood-hazed Warsong clan, though the archmage survived the encounter."
+  },
+  {
+   "q": "Why does Xylem want the dragon Morphaz dead?",
+   "aliases": [
+    "xylem morphaz",
+    "why kill morphaz",
+    "morphaz shard"
+   ],
+   "answer": "The green drake Morphaz attacked Xylem's followers and swallowed one of his apprentices whole. The apprentice was carrying a shard of vast arcane power, and Xylem seeks the drake's demise so the relic can be recovered from its stomach."
+  },
+  {
+   "q": "Why do people say Xylem is dangerous?",
+   "aliases": [
+    "is xylem dangerous",
+    "xylem crazy",
+    "xylem personality"
+   ],
+   "answer": "Local contacts like Jediga warn travelers that Xylem is unpredictable, detached, and distinctly odd compared to other humans. He views apprentices primarily as material for his hazardous experiments and cares little for conventional safety or decorum."
+  },
+  {
+   "q": "Does Xylem belong to the Alliance or the Kirin Tor?",
+   "aliases": [
+    "xylem faction",
+    "is xylem alliance",
+    "xylem kirin tor"
+   ],
+   "answer": "While originally part of the human expedition in the Third War, Xylem now operates as a thoroughly independent hermit. He does not actively serve the Alliance military and will readily deal with any adventurer willing to do his bidding, regardless of faction."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For practitioners of the arcane, Xylem represents both supreme mastery and the unsettling consequence of total isolation in pursuit of magical power."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde veterans may recall clashing with Xylem's defenses in Stonetalon alongside Grommash Hellscream, yet the reclusive wizard is surprisingly willing to parley with Horde champions today."
+  },
+  {
+   "target": "race:Human",
+   "text": "Unlike the formal wizards of Dalaran or Stormwind, Xylem has entirely abandoned human society to live unbothered atop the wilds of Azshara."
+  }
+ ],
+ "keywords": [
+  "arcane",
+  "archmage",
+  "azshara",
+  "morphaz",
+  "sanath lim-yo",
+  "stonetalon",
+  "tower",
+  "xylem"
+ ],
+ "related": [
+  "zone:azshara",
+  "zone:stonetalon",
+  "topic:third-war",
+  "topic:warsong-clan",
+  "topic:grommash-hellscream"
+ ],
+ "attribution": [
+  "Archmage Xylem"
+ ]
+}

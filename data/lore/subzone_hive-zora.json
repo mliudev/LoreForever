@@ -1,0 +1,81 @@
+{
+ "key": "subzone:hive-zora",
+ "type": "subzone",
+ "name": "Hive'Zora",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Hive'Zora"
+ },
+ "summary": "Hive'Zora is one of the three major silithid colony mounds dominating the arid expanse of Silithus. Located along the western edge of the desert, this teeming subterranean hive crawls with aggressive insectoid castes serving the greater swarm.",
+ "sections": [
+  {
+   "title": "The Western Swarm",
+   "body": "Rising out of the barren sand dunes of western Silithus, Hive'Zora serves as a bustling hub of insectoid activity. Great, porous stone spires and mounds mark the entrances into deep subterranean tunnels dug out by silithid burrowers. Waywatchers and reavers patrol the perimeter relentlessly, while tunneling castes and hive sisters brood within the depths below. For the Cenarion Circle and other scouts keeping watch over the desert, the hive represents a terrifying sign of the insectoid menace steadily reclaiming the ancient frontier.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Hive'Zora?",
+   "aliases": [
+    "zora hive",
+    "what is hive zora",
+    "hive zora silithus"
+   ],
+   "answer": "Hive'Zora is an active silithid hive complex situated in western Silithus. It consists of massive insectoid spires on the surface connected to sprawling subterranean tunnels."
+  },
+  {
+   "q": "What creatures live in Hive'Zora?",
+   "aliases": [
+    "hive zora mobs",
+    "what monsters are in hive zora",
+    "who lives in hive zora"
+   ],
+   "answer": "The hive is occupied entirely by the silithid swarm. Distinct castes inhabit the mound, including Hive'Zora waywatchers patrolling the outside, heavy reavers defending the ground, tunnelers excavating the earth, and venomous hive sisters."
+  },
+  {
+   "q": "Why is the Cenarion Circle investigating this hive?",
+   "aliases": [
+    "why scout hive zora",
+    "cenarion circle hive zora"
+   ],
+   "answer": "Scouts and researchers stationed in Silithus observe Hive'Zora to track the growth and movement of the silithid threat. Envoys study their behaviors, decrypt their glyphs, and thin their expanding numbers before the insect swarm can overwhelm the region."
+  },
+  {
+   "q": "How does Hive'Zora differ from the other hives in Silithus?",
+   "aliases": [
+    "other hives silithus",
+    "difference between hives",
+    "hive regal hive ashi"
+   ],
+   "answer": "Hive'Zora is the westernmost of the three great hives, with Hive'Ashi anchoring the east and Hive'Regal dominating the south. Each hive operates with its own distinct brood, though all share the same predatory drive to expand across the desert."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For the Druids of the Cenarion Circle, Hive'Zora represents a terrifying unnatural surge that disrupts the natural balance of the desert wilds."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The twisted tunnels and perimeter of silithid colonies like Hive'Zora often expose valuable rich thorium veins and rare ooze-covered mineral deposits."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "hive sisters",
+  "hive zora",
+  "hive'zora",
+  "reavers",
+  "silithid",
+  "silithus",
+  "waywatchers"
+ ],
+ "related": [
+  "zone:silithus"
+ ],
+ "attribution": [
+  "Hive'Zora"
+ ]
+}

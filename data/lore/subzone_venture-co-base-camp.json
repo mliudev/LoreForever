@@ -1,0 +1,74 @@
+{
+ "key": "subzone:venture-co-base-camp",
+ "type": "subzone",
+ "name": "Venture Co. Base Camp",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Venture Co. Base Camp"
+ },
+ "summary": "Tucked away in the dense jungles of northern Stranglethorn Vale, the Venture Co. Base Camp serves as a forward foothold for the notoriously greedy goblin syndicate. Here, hired overseers and laborers exploit the lush wilderness, focusing their efforts on harvesting timber, hunting local wildlife, and extracting valuable tumbled crystals from the nearby waterways.",
+ "sections": [
+  {
+   "title": "Industrial Encroachment",
+   "body": "The Venture Company is infamous across Azeroth for ruthless profiteering and complete disregard for the natural world. At this jungle base camp, steam-powered equipment and makeshift goblin shacks chew into the ancient canopy. Guarded by armed mercenaries, foremen, and field workers, the camp coordinates resource extraction throughout the surrounding valleys, paying particular interest to valuable tumbled crystals found nearby while clear-cutting any jungle that stands in their way.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Venture Company doing in Stranglethorn Vale?",
+   "aliases": [
+    "why are goblins here",
+    "venture co purpose",
+    "venture company stranglethorn"
+   ],
+   "answer": "The Venture Company operates as an opportunistic mining, logging, and engineering syndicate. In northern Stranglethorn, they have set up camp to log the dense jungle, build heavy operations, and harvest valuable mineral deposits\u2014chief among them the tumbled crystals found around local watercourses."
+  },
+  {
+   "q": "Are the goblins here affiliated with the Steamwheedle Cartel in Booty Bay?",
+   "aliases": [
+    "is venture co booty bay",
+    "are they friendly to booty bay",
+    "venture co steamwheedle"
+   ],
+   "answer": "No. The Venture Company is a separate, predatory enterprise completely distinct from Baron Revilgaz and the Steamwheedle Cartel. Unlike Booty Bay's merchant princes who cultivate lucrative trade relationships, the Venture Company relies on ruthless exploitation and acts hostile toward nearly anyone who interferes with their bottom line."
+  },
+  {
+   "q": "What lies beyond the base camp?",
+   "aliases": [
+    "where does this camp lead",
+    "what is adjacent to base camp",
+    "venture co operations center"
+   ],
+   "answer": "Adjacent to the base camp lies the Venture Co. Operations Center, a more deeply entrenched outpost housing heavy logging apparatus, lumber supplies, and higher-ranking company managers who direct the regional clear-cutting effort."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The Venture Company represents unchecked industrial despoilment, tearing into pristine jungle habitats and unsettling the local balance of nature for crude mechanical enterprise."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The camp serves as an industrial hub for prospecting the jungle, where company prospectors seek raw materials and rare tumbled crystals."
+  }
+ ],
+ "keywords": [
+  "goblin lumber",
+  "operations center",
+  "stranglethorn vale",
+  "tumbled crystals",
+  "venture co base camp",
+  "venture company"
+ ],
+ "related": [
+  "topic:venture-company",
+  "zone:stranglethorn",
+  "topic:goblin",
+  "quest:764"
+ ],
+ "attribution": [
+  "Venture Co. Base Camp"
+ ]
+}

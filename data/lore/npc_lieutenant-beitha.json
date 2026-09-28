@@ -1,0 +1,76 @@
+{
+ "key": "npc:lieutenant-beitha",
+ "type": "npc",
+ "name": "Lieutenant Beitha",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Lieutenant Beitha",
+  "refs": 1
+ },
+ "summary": "Lieutenant Beitha is an orc officer of the Argent Dawn stationed within Darnassus. Despite the natural tension between orcs and night elves, she serves the Dawn's neutral mandate by coordinating local defenders against the encroaching Scourge.",
+ "sections": [
+  {
+   "title": "An Unlikely Presence in Darnassus",
+   "body": "Orcs are rarely tolerated on the boughs of Teldrassil, but the Argent Dawn answers to a higher calling than the faction wars of Kalimdor. As a lieutenant in the Dawn, Beitha puts aside political allegiance to confront the shared menace of the undead. Stationed in Darnassus during Scourge activity, she directs volunteers and fledgling protectors to scout and combat the encroaching threat beyond the city's gates.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is an orc allowed inside Darnassus?",
+   "aliases": [
+    "orc in darnassus",
+    "why is beitha in darnassus",
+    "hostile orc darnassus"
+   ],
+   "answer": "Lieutenant Beitha represents the Argent Dawn, a strictly neutral coalition dedicated entirely to fighting the Scourge. Because the Dawn accepts members of all races and focuses on saving Azeroth from the undead, night elf sentinels permit her presence for joint defense."
+  },
+  {
+   "q": "What does Lieutenant Beitha do?",
+   "aliases": [
+    "beitha role",
+    "beitha purpose",
+    "what does beitha offer"
+   ],
+   "answer": "She acts as a liaison for the Argent Dawn, tasking adventurers with investigating and repelling Scourge incursions threatening the lands surrounding Darnassus."
+  },
+  {
+   "q": "What threat is she responding to?",
+   "aliases": [
+    "scourge in teldrassil",
+    "who is she fighting"
+   ],
+   "answer": "She is responding to the Scourge invasion, marshaling local allies to ensure the undead do not establish a foothold on the island or taint the World Tree."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Seeing an orc walking unmolested through the capital is jarring for many night elves, serving as a stark reminder of how dire the Scourge menace truly is."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Beitha exemplifies those rare orcs who have dedicated their lives entirely to the Argent Dawn's crusade, looking past ancient grudges to strike at the undead."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "beitha",
+  "darnassus",
+  "lieutenant beitha",
+  "orc",
+  "scourge",
+  "scourge invasion",
+  "teldrassil"
+ ],
+ "related": [
+  "topic:argent-dawn",
+  "zone:darnassus",
+  "topic:scourge",
+  "quest:9262"
+ ],
+ "attribution": [
+  "Lieutenant Beitha"
+ ]
+}

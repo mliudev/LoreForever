@@ -1,0 +1,93 @@
+{
+ "key": "npc:andron-gant",
+ "type": "npc",
+ "name": "Andron Gant",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Andron Gant",
+  "refs": 2
+ },
+ "summary": "Andron Gant is a reclusive, frequently intoxicated Forsaken residing in the murky depths of the Apothecarium in the Undercity. While he presents himself as a harmless drunk handling occasional research commissions, he operates covertly in shadowy underground networks.",
+ "sections": [
+  {
+   "title": "A Slurring Informant",
+   "body": "Lounging amidst the noxious fumes of the Apothecarium, Andron Gant rarely ventures beyond the safety of the Undercity's stone walls. To the casual observer, he appears to be little more than a drunken scholar, occasionally hiring adventurous couriers to retrieve obscure relics like the Tablet of Beth'Amara or the Tablet of Markri from distant shores on behalf of local mages. However, beneath his liquor-soaked demeanor lies a clandestine operative. Gant secretly serves as an informant for the Syndicate, funneling sensitive intelligence out of the Forsaken capital in exchange for coin and illicit favors.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unmasked by the Deathstalkers",
+   "body": "Gant's treacherous dealings did not escape the notice of Undercity's intelligence network. When the Syndicate dispatched a courier named Astor Hadren to collect a ledger of compromised data, aspiring operatives within the Deathstalkers intercepted the runner. Disguised as Hadren, an agent was able to trick the drunken Gant into parting with his incriminating ledger without raising an eyebrow, handing Lord Varimathras definitive proof of Gant's treason against the Forsaken.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Andron Gant?",
+   "aliases": [
+    "andron gant location",
+    "where is andron gant",
+    "gant undercity location"
+   ],
+   "answer": "Andron Gant is located inside the Undercity, lingering in the lower levels of the Apothecarium district."
+  },
+  {
+   "q": "Why is Andron Gant interested in Azshara tablets?",
+   "aliases": [
+    "andron gant azshara",
+    "tablet of markri andron gant",
+    "why does gant want tablets"
+   ],
+   "answer": "Gant acts as an intermediary for certain Undercity mages, arranging payments to scavengers and contacts like Jediga to recover ancient relics from the ruins of Azshara."
+  },
+  {
+   "q": "What is Andron Gant's connection to the Syndicate?",
+   "aliases": [
+    "gant syndicate",
+    "is andron gant a traitor",
+    "who does andron gant work for"
+   ],
+   "answer": "Despite living within the heart of the Forsaken capital, Gant secretly acts as an informant for the Syndicate, collecting intelligence into ledgers to smuggle to human outlaws."
+  },
+  {
+   "q": "Who exposed Andron Gant's treachery?",
+   "aliases": [
+    "who caught andron gant",
+    "deathstalkers andron gant",
+    "varimathras andron gant"
+   ],
+   "answer": "The Deathstalkers, the assassin and espionage order answering to Lord Varimathras, intercepted Gant's Syndicate courier and tricked him into handing over his spy ledger."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Forsaken rogues climbing the ranks of the Deathstalkers learn firsthand through Gant how drunkenness and complacency can unravel even the tightest espionage operations."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Gant serves as a stark reminder that loyalty among the Forsaken is never guaranteed, and human criminal factions like the Syndicate have eyes even within Lordaeron's catacombs."
+  }
+ ],
+ "keywords": [
+  "andron gant",
+  "apothecarium",
+  "astor hadren",
+  "deathstalkers",
+  "jediga",
+  "syndicate",
+  "tablet of markri",
+  "varimathras"
+ ],
+ "related": [
+  "npc:varimathras",
+  "subzone:apothecarium",
+  "topic:syndicate",
+  "topic:forsaken",
+  "zone:undercity",
+  "zone:azshara"
+ ],
+ "attribution": [
+  "Andron Gant"
+ ]
+}

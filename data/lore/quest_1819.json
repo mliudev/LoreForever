@@ -1,0 +1,116 @@
+{
+ "key": "quest:1819",
+ "type": "quest",
+ "name": "Ulag the Cleaver",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   1819
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Deathguard Dillinger",
+  "end": "",
+  "previous": "Speak with Dillinger",
+  "next": "Speak with Coleman",
+  "wiki": "Ulag the Cleaver (quest)",
+  "chain": []
+ },
+ "summary": "Ulag the Cleaver is a rite of passage for young Forsaken warriors in Tirisfal Glades. Deathguard Dillinger tasks you with releasing and executing an enslaved Scourge warrior bound inside a northern mausoleum, testing your martial resolve and earning the respect of the Deathguard.",
+ "sections": [
+  {
+   "title": "A Bound Scourge Thrall",
+   "body": "When the Scourge swept across Lordaeron, the Forsaken managed to capture a peculiar undead warrior who named himself Ulag the Cleaver. While Ulag possessed a conscious, lucid mind, his spirit remained inextricably dominated by the psychic thrall of the Lich King. Seeking to understand how the Scourge binds free will, the Forsaken kept him restrained under a magical seal beneath a mausoleum north of Brill, hoping to break the entity's spiritual chains.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Executioner's Trial",
+   "body": "All efforts to sever Ulag from the Lich King's mental grip ended in failure. Recognizing that true freedom could only come through destruction, Deathguard Dillinger repurposed the captive as a trial of combat for rising Forsaken warriors. By disturbing the skull stone trigger outside the crypt, a warrior breaks the protective wards, releases Ulag from his imprisonment, and grants him release at the edge of an axe.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ulag the Cleaver?",
+   "aliases": [
+    "ulag lore",
+    "who is ulag",
+    "ulag the cleaver identity"
+   ],
+   "answer": "Ulag the Cleaver was an undead warrior captured by the Forsaken during the Scourge's invasion of Tirisfal Glades. Uniquely, he retained his free mind and identity, yet remained completely enthralled by the Lich King's mental command."
+  },
+  {
+   "q": "Why was Ulag imprisoned under the mausoleum?",
+   "aliases": [
+    "why is ulag locked up",
+    "mausoleum prisoner tirisfal"
+   ],
+   "answer": "Forsaken scholars and soldiers imprisoned him beneath a magical seal to study how the Lich King's mind control functioned. They had hoped to discover a method to sever the psychic link that bound him, though their experiments proved unsuccessful."
+  },
+  {
+   "q": "Why do the Deathguards want Ulag killed now?",
+   "aliases": [
+    "why kill ulag",
+    "reason to slay ulag"
+   ],
+   "answer": "Having admitted defeat in breaking the Lich King's grip on Ulag, the Forsaken decided death was the only mercy remaining. Deathguard Dillinger chose to use the execution as a test of martial courage and discipline for aspiring warriors."
+  },
+  {
+   "q": "How is Ulag summoned?",
+   "aliases": [
+    "how to summon ulag",
+    "where is ulag",
+    "ulag skull stone"
+   ],
+   "answer": "He is imprisoned beneath a mausoleum just north of Brill. Interacting with the skull stone near the tomb releases the magical seal that binds him, causing him to rise and attack."
+  },
+  {
+   "q": "Who gives the quest to slay Ulag?",
+   "aliases": [
+    "quest giver ulag",
+    "who sends me to ulag"
+   ],
+   "answer": "Deathguard Dillinger, who guards the western road leading out of Brill in Tirisfal Glades, assigns this mission specifically to Forsaken warriors seeking further instruction."
+  },
+  {
+   "q": "What happens after Ulag is defeated?",
+   "aliases": [
+    "after ulag",
+    "ulag quest follow up"
+   ],
+   "answer": "Upon confirming Ulag's demise, Deathguard Dillinger acknowledges your valor and sends you to speak with Coleman Farthing in Brill to continue your training."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This trial serves as an early proving ground for Forsaken warriors, testing your courage against a powerful, mind-controlled champion of the Scourge."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Ulag's fate illustrates the horrifying reality of Scourge control, showing the tragic distinction between Forsaken who broke free and those whose minds remain enslaved to the Lich King."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "deathguard dillinger",
+  "dillinger",
+  "mausoleum",
+  "scourge",
+  "skull stone",
+  "ulag",
+  "ulag the cleaver"
+ ],
+ "related": [
+  "npc:deathguard-dillinger",
+  "quest:1818",
+  "quest:1820",
+  "topic:scourge",
+  "topic:lich-king",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Ulag the Cleaver (quest)"
+ ]
+}

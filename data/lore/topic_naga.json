@@ -1,0 +1,125 @@
+{
+ "key": "topic:naga",
+ "type": "topic",
+ "name": "Naga",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Naga"
+ },
+ "summary": "The naga are a monstrous, serpentine race dwelling beneath the ocean's depths, ruled by their ancient empress, Queen Azshara. Once the Highborne elite of the Kaldorei Empire, they were warped into amphibious horrors during the Great Sundering ten thousand years ago. Recently emerging from the dark waters, they have seized shorelines across Kalimdor and the Eastern Kingdoms to reclaim their forgotten surface empire.",
+ "sections": [
+  {
+   "title": "Fall of the Highborne",
+   "body": "Ten millennia ago, the Highborne nobility of the Kaldorei Empire ruled supreme from their grand capital of Zin-Azshari. Consumed by an obsession with arcane power, Queen Azshara and her inner court tapped the Well of Eternity to draw the gaze of the Dark Titan Sargeras, inviting the catastrophic invasion known as the War of the Ancients. When the Well of Eternity collapsed into ruin, triggering the Great Sundering, the palace slipped into the crushing abyss. Facing utter annihilation, Azshara bargained with the malevolent Old Gods deep below. In exchange for survival, she and her followers were transformed into cold, scaly, serpentine beings bound to the deeps.",
+   "spoiler": 0
+  },
+  {
+   "title": "Depths of Nazjatar",
+   "body": "Submerged at the seafloor beneath the swirling fury of the Maelstrom, the survivors erected the aquatic empire of Nazjatar. Nursing a ten-thousand-year grudge against the surface world, the naga preserved their Highborne arrogance while mutating into distinct casts: hulking, brute-like warriors and multi-armed, spell-weaving sea witches. Under Azshara's unyielding gaze, they perfected their mastery over sea creatures, storm magic, and frost sorcery, slowly rebuilding their strength in wait for an opportunity to strike back against land-dwellers.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Resurfacing",
+   "body": "The naga broke their ten-thousand-year silence during the Third War. Thrall's Horde first encountered the sea witch Zar'jira in the Great Sea, while Lady Vashj answered the summons of Illidan Stormrage, marching naga forces across the ruins of Dalaran. Across the world today, naga encampments encroach aggressively upon coastlines in Azshara, Darkshore, Ashenvale, Desolace, Feralas, Dustwallow Marsh, Hillsbrad, Arathi, and Stranglethorn. Driven by ancient contempt and whispers of the Old Gods, they forge quiet alliances with the Twilight's Hammer and savage satyrs to claim what was once theirs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What were the naga before they were transformed?",
+   "aliases": [
+    "what are naga",
+    "naga origin",
+    "who were the naga"
+   ],
+   "answer": "The naga were once the Highborne, the aristocratic upper class of the ancient night elven empire. Ten thousand years ago, during the Great Sundering that destroyed the Well of Eternity, Queen Azshara and her courtiers drowned in the collapsing sea. The Old Gods offered them salvation, mutating their bodies into serpentine, aquatic abominations."
+  },
+  {
+   "q": "Who rules the naga?",
+   "aliases": [
+    "naga leader",
+    "naga queen",
+    "who leads the naga"
+   ],
+   "answer": "The naga are ruled absolute by Queen Azshara, the former empress of the Kaldorei. From her underwater city of Nazjatar beneath the Maelstrom, she directs her sea witches and warriors. Even after thousands of years of monstrous transformation, the naga venerate her with fanatical devotion."
+  },
+  {
+   "q": "Why are naga attacking the beaches and coasts now?",
+   "aliases": [
+    "why are naga on land",
+    "naga invasion",
+    "why did naga return"
+   ],
+   "answer": "After hiding beneath the waves for ten millennia, the naga resurfaced during the Third War. They believe all of ancient Kalimdor rightfully belongs to them as the true heirs of the Kaldorei Empire. Working under the guidance of Queen Azshara and the Old Gods, they seek to subjugate coastal territories and conquer the surface races."
+  },
+  {
+   "q": "Why do male and female naga look so different?",
+   "aliases": [
+    "male vs female naga",
+    "naga differences",
+    "naga sea witches"
+   ],
+   "answer": "Naga society has severe physical dimorphism. Naga females retain the intellectual and magical cunning of their Highborne ancestry, often possessing four arms and immense talent for arcane, frost, and storm spellcasting. Naga males are larger, hulking brutes covered in heavy scales and fins, built primarily for physical warfare and brute violence."
+  },
+  {
+   "q": "What is the relationship between the naga and Illidan Stormrage?",
+   "aliases": [
+    "why did naga help illidan",
+    "illidan naga",
+    "lady vashj illidan"
+   ],
+   "answer": "Following the Third War, Illidan summoned deep-sea allies using powerful magic. Lady Vashj answered his call with an army of naga, honoring ancient Highborne ties and executing the covert will of the Old Gods, who wished to disrupt the surface world. Naga forces assisted Illidan in the Broken Isles, Lordaeron, and beyond."
+  },
+  {
+   "q": "Where can naga be encountered right now?",
+   "aliases": [
+    "naga locations",
+    "where to find naga",
+    "naga zones"
+   ],
+   "answer": "Naga hold beachheads along numerous coastlines. In Kalimdor, they heavily infest Azshara, Darkshore, Ashenvale, Desolace, Feralas, and Dustwallow Marsh. In the Eastern Kingdoms, their raiding parties and altars can be discovered along the shores of Hillsbrad Foothills, Arathi Highlands, and Stranglethorn Vale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "To the night elves, naga are a grotesque and agonizing reminder of the Highborne hubris that shattered Ancient Kalimdor. Seeing Azshara's former court slithering onto the shores of Darkshore and Ashenvale is a bitter call to purge their ancient kin."
+  },
+  {
+   "target": "race:Troll",
+   "text": "The Darkspear trolls hold an intense hatred for the naga ever since the sea witch Zar'jira drove them from their island home during the Great Sea voyage, an attack that claimed the life of their elder leader, Sen'jin."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance remembers the naga from the ruins of Dalaran, where Lady Vashj's creatures captured survivors and incited the division between the blood elves and Grand Marshal Garithos's forces."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Thrall and the Horde fought off naga raiders from the Darkspear Isles to the shores of Dustwallow Marsh, where Lady Darkscale butchered human settlements and assaulted Durotar's outskirts."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "highborne",
+  "naga",
+  "nazjatar",
+  "old gods",
+  "sea witch",
+  "sundering",
+  "vashj"
+ ],
+ "related": [
+  "topic:highborne",
+  "topic:night-elf",
+  "topic:war-of-the-ancients",
+  "topic:old-god",
+  "zone:azshara",
+  "zone:darkshore",
+  "zone:dustwallow",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Naga"
+ ]
+}

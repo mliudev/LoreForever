@@ -1,0 +1,92 @@
+{
+ "key": "npc:tiffin-ellerian-wrynn",
+ "type": "npc",
+ "name": "Tiffin Ellerian Wrynn",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Tiffin Ellerian Wrynn",
+  "refs": 2
+ },
+ "summary": "Queen Tiffin Ellerian Wrynn was the beloved wife of King Varian Wrynn and the mother of young King Anduin. Her tragic death during the Stonemasons' riot shattered the royal household and triggered the exile of the craftsmen who would become the Defias Brotherhood.",
+ "sections": [
+  {
+   "title": "A Beloved Queen",
+   "body": "Born to the minor House of Ellerian, which held modest holdings in Westfall, Tiffin's betrothal to Prince Varian Wrynn was arranged at birth to secure her family a seat in Stormwind's House of Nobles. Though the two initially chafed at the arrangement, their bond grew deep and enduring. Tiffin's calm demeanor grounded Varian's temper, and her kindness made her widely cherished by commoners and nobility alike.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tragedy in Stormwind",
+   "body": "When tensions over payment for Stormwind's reconstruction boiled over into civil strife, Queen Tiffin stood as one of the few prominent voices urging the House of Nobles to pay the Stonemasons' Guild in full. While trying to appease the furious laborers during a riot in the streets, she was struck and killed by a thrown rock. Her sudden death plunged King Varian into profound grief and hardened his wrath against the rioters, driving Edwin VanCleef and the stonemasons into exile across Westfall.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Queen Tiffin Wrynn?",
+   "aliases": [
+    "who is tiffin",
+    "anduin mother",
+    "varian wife"
+   ],
+   "answer": "Queen Tiffin Ellerian Wrynn was the queen consort of Stormwind, wife of King Varian Wrynn, and mother of the boy-king Anduin. She came from the minor Ellerian noble family with landholdings in Westfall."
+  },
+  {
+   "q": "How did Tiffin Wrynn die?",
+   "aliases": [
+    "how did tiffin die",
+    "who killed tiffin",
+    "queen death"
+   ],
+   "answer": "She was killed during the Stonemasons' riot in Stormwind City. As she stepped forward in an effort to calm the enraged crowd, a thrown rock struck her fatally, an accident that broke the King's spirit and sparked intense royal retribution."
+  },
+  {
+   "q": "What did Queen Tiffin think of the Stonemasons?",
+   "aliases": [
+    "tiffin defias",
+    "did tiffin support stonemasons",
+    "tiffin payment"
+   ],
+   "answer": "Unlike many in the House of Nobles, Queen Tiffin strongly advocated for the Stonemasons' Guild, insisting they receive the full payment originally promised for rebuilding Stormwind."
+  },
+  {
+   "q": "How did her death affect Stormwind?",
+   "aliases": [
+    "consequences of tiffin death",
+    "why did vancleef rebel",
+    "varian depression"
+   ],
+   "answer": "Her death threw King Varian into a devastating depression and prompted him to crack down violently on the rioting stonemasons. Fearing execution, the guild fled Stormwind into the Westfall countryside, eventually organizing into the outlaw Defias Brotherhood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind and Westfall, Queen Tiffin is remembered as a gentle peacemaker whose tragic end shattered the peace of the realm."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The sorrow of Queen Tiffin's loss still hangs heavily over the royal court, explaining King Varian's temper before his disappearance and the heavy burden resting on young King Anduin."
+  }
+ ],
+ "keywords": [
+  "anduin",
+  "ellerian",
+  "queen",
+  "stonemasons",
+  "tiffin",
+  "varian",
+  "westfall",
+  "wrynn"
+ ],
+ "related": [
+  "topic:varian-wrynn",
+  "topic:anduin-wrynn",
+  "topic:stormwind-kingdom",
+  "topic:house-of-nobles",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Tiffin Ellerian Wrynn"
+ ]
+}

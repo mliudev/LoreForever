@@ -1,0 +1,89 @@
+{
+ "key": "subzone:misty-reed-strand",
+ "type": "subzone",
+ "name": "Misty Reed Strand",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Misty Reed Strand"
+ },
+ "summary": "The Misty Reed Strand is the fog-shrouded, desolate eastern coastline of the Swamp of Sorrows. Lined with jagged rocks, washed-up wreckage, and creeping swamp mist, it is home to aggressive crabs, crocolisks, and coastal murloc tribes. Travelers venturing down to the surf often find themselves contending with the local wildlife for whatever resources wash ashore.",
+ "sections": [
+  {
+   "title": "A Foggy Shoreline",
+   "body": "Stretching along the entire eastern border of the Swamp of Sorrows, the Misty Reed Strand forms a damp barrier between the deep mire and the Great Sea. Heavy mists constantly roll in off the water, obscuring vision and muffling the cries of native wildlife. The beaches are littered with sea debris, driftwood, and decaying vegetation washed out from the bog inland. Because of its remote position and harsh climate, no formal permanent settlements hold the shoreline, leaving the sands to aggressive crustaceans, stalking crocolisks, and territorial murlocs who violently defend their foraging grounds.",
+   "spoiler": 0
+  },
+  {
+   "title": "Contested Waters",
+   "body": "Both Alliance and Horde scouts periodically direct adventurers out to the strands, though neither faction claims the beach as sovereign territory. The Alliance often gathers driftwood and beach salvage here while attempting to thin the skittering crab population. Meanwhile, Horde outposts further inland keep a wary eye on the coastline's murloc encampments, sending seasoned fighters to culled their numbers before the amphibious raiders can push deeper toward Stonard or threaten marsh travel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Misty Reed Strand located?",
+   "aliases": [
+    "where is misty reed strand",
+    "misty reed strand location",
+    "how to get to misty reed strand"
+   ],
+   "answer": "The Misty Reed Strand runs along the far eastern edge of the Swamp of Sorrows, bordering the Great Sea. It can be reached by traveling directly east through the wetlands from either Stonard or the surrounding marsh paths."
+  },
+  {
+   "q": "What creatures inhabit the strand?",
+   "aliases": [
+    "monsters at misty reed strand",
+    "what lives on misty reed strand",
+    "misty reed strand enemies"
+   ],
+   "answer": "The shoreline is heavily populated by giant coastal crabs, swamp crocolisks, and various tribes of hostile murlocs scavenging the tide lines."
+  },
+  {
+   "q": "Are there any settlements on the beach?",
+   "aliases": [
+    "towns near misty reed strand",
+    "misty reed strand base",
+    "friendly camps misty reed strand"
+   ],
+   "answer": "There are no permanent friendly towns or established military outposts along the beach itself. The nearest settlements are located deeper inland within the Swamp of Sorrows."
+  },
+  {
+   "q": "Why do the factions send adventurers to the Misty Reed Strand?",
+   "aliases": [
+    "why go to misty reed strand",
+    "misty reed strand quests"
+   ],
+   "answer": "Both the Alliance and Horde occasionally send mercenaries to the coast. Alliance emissaries often look for salvaged driftwood and coastal materials, while Horde forces dispatch warriors to cull the aggressive murloc tribes living on the surf."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance scouts traveling south from Nethergarde or traversing the marshlands often scavenge the beach's abundant driftwood and resources while keeping its aggressive wildlife at bay."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Stonard's defenders view the murloc tribes of the strand as an unmanaged threat, frequently ordering combat patrols to purge their encampments along the surf."
+  }
+ ],
+ "keywords": [
+  "beach",
+  "coast",
+  "crocolisk",
+  "driftwood",
+  "great sea",
+  "misty reed strand",
+  "murloc",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "zone:swampofsorrows",
+  "topic:murloc",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Misty Reed Strand"
+ ]
+}

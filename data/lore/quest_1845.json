@@ -1,0 +1,113 @@
+{
+ "key": "quest:1845",
+ "type": "quest",
+ "name": "Brutal Helm",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   1845
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Orm Stonehoof",
+  "end": "",
+  "previous": "Chimaeric Horn",
+  "next": null,
+  "wiki": "Brutal Helm (quest)",
+  "chain": []
+ },
+ "summary": "Brutal Helm marks the culmination of an arduous warrior trial overseen by Orm Stonehoof atop Thunder Bluff. Having collected rare beast trophies across Kalimdor, an aspiring warrior is recognized with a formidable horned helm as a testament to their strength.",
+ "sections": [
+  {
+   "title": "A Warrior's Rite",
+   "body": "Orm Stonehoof serves as a stern mentor on Hunter Rise in Thunder Bluff, guiding Horde warriors through grueling rites of passage. These trials demand proof of martial capability, pushing initiates into treacherous territory to hunt ferocious creatures and claim rare trophies. Only those who have met Orm's exacting standards are granted audience for the completion of their armor.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Gift of the Earthmother",
+   "body": "By bringing the rare chimaeric horn to Orm Stonehoof, the warrior proves their resolve against the wilderness. In recognition, Orm presents the Brutal Helm\u2014a heavy, menacing piece of plate crafted to honor the beast and bolster the wearer in frontline combat. As he bestows it, Orm invokes the blessings of the Earthmother, looking forward to the greater deeds the warrior is bound to undertake across Azeroth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers the Brutal Helm?",
+   "aliases": [
+    "who gives brutal helm",
+    "brutal helm npc",
+    "orm stonehoof quest"
+   ],
+   "answer": "Orm Stonehoof, a venerable warrior trainer stationed on Hunter Rise in Thunder Bluff, presents the Brutal Helm to Horde warriors who complete his trials."
+  },
+  {
+   "q": "What task must be finished before receiving the helm?",
+   "aliases": [
+    "prereq for brutal helm",
+    "chimaeric horn quest"
+   ],
+   "answer": "You must complete the trial 'Chimaeric Horn', which requires hunting ferocious beasts across the wilderness and delivering their horn to Orm Stonehoof in Thunder Bluff."
+  },
+  {
+   "q": "Where is Orm Stonehoof located?",
+   "aliases": [
+    "orm stonehoof location",
+    "where is orm stonehoof"
+   ],
+   "answer": "Orm Stonehoof is located on Hunter Rise within the high mesa city of Thunder Bluff, surrounded by the tents and weapon racks of the Horde's warrior trainers."
+  },
+  {
+   "q": "Why does Orm Stonehoof invoke the Earthmother?",
+   "aliases": [
+    "why mention earthmother",
+    "earthmother lore"
+   ],
+   "answer": "As a tauren, Orm honors the Earthmother as the creator and spiritual guardian of the world. Offering her blessing over a warrior's finished helm reflects the traditional tauren belief that strength in battle must remain balanced with spiritual reverence."
+  },
+  {
+   "q": "Is this trial open to any adventurer?",
+   "aliases": [
+    "can anyone get brutal helm",
+    "brutal helm class"
+   ],
+   "answer": "No. The trial and its Brutal Armor rewards are exclusive to Horde warriors proving their mettle through dedicated class quests."
+  },
+  {
+   "q": "What is the significance of the Brutal Armor set?",
+   "aliases": [
+    "brutal armor lore",
+    "why is it called brutal helm"
+   ],
+   "answer": "The Brutal Armor pieces represent a warrior's progression from a novice soldier to an elite champion of the Horde, crafted using materials gathered from the fiercest predators in Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This rite serves as a key milestone for Horde warriors, transitioning them into heavy armor forged from ferocious beasts and blessed by seasoned veteran trainers."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Bestowed on Hunter Rise, the helm reflects the tauren tradition of crafting hunting trophies into protective wargear under the grace of the Earthmother."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Brutal Armor trial ensures that champions fighting beneath the Horde banner possess the raw physical endurance and hunting prowess demanded by their leaders."
+  }
+ ],
+ "keywords": [
+  "brutal helm",
+  "chimaeric horn",
+  "earthmother",
+  "hunter rise",
+  "orm stonehoof",
+  "thunder bluff",
+  "warrior"
+ ],
+ "related": [
+  "quest:1844"
+ ],
+ "attribution": [
+  "Brutal Helm (quest)"
+ ]
+}

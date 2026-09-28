@@ -1,0 +1,66 @@
+{
+ "key": "subzone:stonefield-farm",
+ "type": "subzone",
+ "name": "Stonefield Farm",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Stonefield Farm"
+ },
+ "summary": "Stonefield Farm is a working homestead situated in southern Elwynn Forest. It is home to the Stonefield family, who have long been locked in a bitter feud with their neighbors, the Maclures.",
+ "sections": [
+  {
+   "title": "A Bitter Homestead",
+   "body": "Nestled in the rolling greenery south of Goldshire, Stonefield Farm produces crops for the realm while maintaining a fierce, decades-long grudge against the nearby Maclure Vineyards. The bad blood between the households leads to petty squabbles, mutual accusations of theft, and constant tension. Yet beneath the hostile bickering, young Tommy Joe Stonefield has fallen secretly in love with Maybell Maclure, creating a quiet romance that could either bridge the divide between the families or ignite further outrage.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the feud between the Stonefields and the Maclures?",
+   "aliases": [
+    "stonefield maclure feud",
+    "why are stonefields fighting",
+    "stonefield rivals"
+   ],
+   "answer": "The Stonefield and Maclure families hold a long-standing, stubborn rivalry in southern Elwynn Forest. They constantly accuse one another of trespassing, petty theft, and general wrongdoing, refusing to cooperate on even simple neighborhood matters."
+  },
+  {
+   "q": "Who lives at Stonefield Farm?",
+   "aliases": [
+    "stonefield npcs",
+    "who is at stonefield farm"
+   ],
+   "answer": "The farmstead is managed by the Stonefield clan, including Gramma Stonefield, Pa Stonefield, Ma Stonefield, and young Tommy Joe Stonefield."
+  },
+  {
+   "q": "What is Tommy Joe Stonefield's secret?",
+   "aliases": [
+    "tommy joe secret",
+    "tommy joe romance",
+    "stonefield love"
+   ],
+   "answer": "Despite the bitter hostility between the two households, Tommy Joe Stonefield is secretly in love with Maybell Maclure. The two lovers rely on sympathetic travelers to pass messages and gifts back and forth without their families noticing."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans starting out from Northshire, the squabbles between the Stonefields and Maclures offer a lighthearted look at rural kingdom life beyond the threat of bandits and gnolls."
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "gramma stonefield",
+  "maclure",
+  "stonefield",
+  "stonefield farm",
+  "tommy joe"
+ ],
+ "related": [
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Stonefield Farm"
+ ]
+}

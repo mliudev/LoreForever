@@ -1,0 +1,73 @@
+{
+ "key": "subzone:mirror-lake",
+ "type": "subzone",
+ "name": "Mirror Lake",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Mirror Lake"
+ },
+ "summary": "Mirror Lake is a picturesque body of water tucked into northwestern Elwynn Forest near an orchard. Fed by a gentle waterfall beneath the cliffs of Stormwind, its tranquil surface belies the dangers lurking on its shores, from prowling Defias bandits to strange disruptions in the local ley lines.",
+ "sections": [
+  {
+   "title": "A Troubled Idyl",
+   "body": "Situated beneath the towering ramparts of Stormwind City, Mirror Lake ought to be a peaceful retreat for fishermen and weary travelers. Instead, brigands of the Defias Brotherhood stalk the surrounding orchards, making any prolonged stay perilous for passing locals. Worse still, mystical disturbances across Azeroth have begun warping the natural channels of arcane energy throughout the forest. The mages of the Wizard's Sanctum keep a cautious eye on the lake, sending practitioners to sample its currents and ensure that downstream communities are not poisoned by chaotic arcane runoff.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Mirror Lake dangerous?",
+   "aliases": [
+    "is mirror lake safe",
+    "mirror lake enemies",
+    "defias mirror lake"
+   ],
+   "answer": "Despite its scenic appearance, the area around the lake is heavily prowled by Defias bandits who target travelers and farmers. Additionally, the recent fluctuations in regional magic have prompted concerns about the lake's water safety."
+  },
+  {
+   "q": "Why are mages studying Mirror Lake?",
+   "aliases": [
+    "wizard sanctum mirror lake",
+    "mirror lake quest",
+    "magic in mirror lake"
+   ],
+   "answer": "Massive magical conflicts across Azeroth have destabilized ley currents throughout Elwynn Forest and Stormwind. The Wizard's Sanctum dispatches initiates to sample the lake's water to test for unstable arcane residue before it can affect those who drink from it."
+  },
+  {
+   "q": "Where does the waterfall at Mirror Lake come from?",
+   "aliases": [
+    "mirror lake waterfall",
+    "water source mirror lake"
+   ],
+   "answer": "The waterfall cascades down from the high cliffs and waterways flanking the perimeter of Stormwind City, feeding the lake before the water winds through the Elwynn river system."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Initiates studying under the Wizard's Sanctum in Stormwind are dispatched here to gather water samples, learning firsthand how turbulent arcane channels can seep into the natural ecosystem."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though close to the capital's towering walls, the lake stands as a reminder of how thinly stretched the kingdom's guards are against Defias outlaws."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "elwynn forest",
+  "mirror lake",
+  "stormwind",
+  "waterfall",
+  "wizards sanctum"
+ ],
+ "related": [
+  "zone:elwynn",
+  "quest:1861",
+  "zone:stormwind",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Mirror Lake"
+ ]
+}

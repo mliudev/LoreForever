@@ -1,0 +1,127 @@
+{
+ "key": "quest:882",
+ "type": "quest",
+ "name": "Ishamuhale",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   882
+  ],
+  "level": "19",
+  "faction": "Horde",
+  "start": "Jorn Skyseer",
+  "end": "",
+  "previous": "Jorn Skyseer (quest)",
+  "next": "Enraged Thunder Lizards",
+  "wiki": "Ishamuhale (quest)",
+  "chain": []
+ },
+ "summary": "Ishamuhale is a rite of the hunt assigned by Jorn Skyseer at Camp Taurajo. To test your prowess and respect for nature's deadliest predators, you are directed to bait and slay the fiercest sunscale raptor in the Barrens.",
+ "sections": [
+  {
+   "title": "The Nature of Speartooth",
+   "body": "Among the predators of the Barrens, sunscale raptors are feared for their cunning and vicious pack tactics, but none commands more dread than Ishamuhale. Known as Speartooth, he does not stalk the savannah merely for food or territory. As Jorn Skyseer explains, Ishamuhale hunts out of sheer instinct and passion\u2014he kills simply because it is his nature to kill. Facing such a creature tests whether a hunter can withstand pure, unbridled feral malice.",
+   "spoiler": 0
+  },
+  {
+   "title": "Baiting the Beast",
+   "body": "Ishamuhale is not a quarry that can simply be stumbled upon resting in a nest. To draw the great raptor out, a hunter must mimic the natural rhythm of the plains. Jorn instructs the challenger to fell a fresh zhevra\u2014the raptor's preferred prey\u2014and haul the carcass to a lone, withered dead tree northwest of Ratchet. Drawn by the scent of fresh blood across the arid winds, Ishamuhale emerges swiftly to claim the kill.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Burden of Strength",
+   "body": "Taking Ishamuhale's fang back to Camp Taurajo is more than a display of martial triumph. Jorn Skyseer views the trophy as a profound spiritual milestone. In tauren belief, overcoming such a ferocious apex predator means absorbing a measure of its raw strength. The true test that follows is wielded internally: carrying that predatory might with temperance, honor, and restraint rather than succumbing to blind bloodlust.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ishamuhale?",
+   "aliases": [
+    "what is ishamuhale",
+    "who is speartooth",
+    "ishamuhale raptor lore"
+   ],
+   "answer": "Ishamuhale, titled Speartooth, is an exceptionally fierce sunscale raptor prowling the Barrens. Unlike ordinary beasts driven solely by hunger, he hunts relentlessly out of pure predatory nature and passion."
+  },
+  {
+   "q": "How do you summon Ishamuhale?",
+   "aliases": [
+    "how to spawn ishamuhale",
+    "where is ishamuhale",
+    "bait ishamuhale"
+   ],
+   "answer": "Ishamuhale must be lured out using freshly slain prey. You must acquire a fresh zhevra carcass and hang it at a designated dead tree located northwest of the goblin port of Ratchet. The scent quickly draws him from hiding."
+  },
+  {
+   "q": "Where does this quest start and end?",
+   "aliases": [
+    "ishamuhale quest giver",
+    "who gives ishamuhale",
+    "where to turn in ishamuhale"
+   ],
+   "answer": "The quest is given by Jorn Skyseer, a tauren hunter stationed at Camp Taurajo in the southern Barrens. Once Ishamuhale is slain, you return his fang to Jorn at the camp."
+  },
+  {
+   "q": "Why does Jorn Skyseer want Ishamuhale dead?",
+   "aliases": [
+    "why kill ishamuhale",
+    "jorn skyseer motivation"
+   ],
+   "answer": "Jorn does not seek extermination out of malice. Instead, tracking and besting Ishamuhale is a spiritual trial meant to test a hunter against nature's rawest aggression and teach temperance when inheriting such ferocity."
+  },
+  {
+   "q": "What happens after completing Ishamuhale?",
+   "aliases": [
+    "quest after ishamuhale",
+    "next quest after raptor"
+   ],
+   "answer": "Proving yourself against Ishamuhale leads Jorn Skyseer to direct you toward greater threats disturbing the balance of the Barrens, continuing with tasks involving the Enraged Thunder Lizards to the south."
+  },
+  {
+   "q": "How does this quest fit into Sergra Darkthorn's chain?",
+   "aliases": [
+    "sergra darkthorn connection",
+    "crossroads hunting chain"
+   ],
+   "answer": "It serves as the continuation of the grand hunting trials begun by Sergra Darkthorn at the Crossroads. After proving your skill in the northern plains, Sergra sends you south to Jorn Skyseer at Camp Taurajo to face apex beasts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren hunters, facing Ishamuhale is an essential lesson in balance, demonstrating that taking a mighty predator's life requires the discipline to control the ferocious spirit you inherit."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Luring an elusive apex predator using fresh bait and terrain represents the traditional art of the stalk, honoring the patience and cunning of master trackers."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Clearing out legendary menaces like Ishamuhale proves an initiate's worth while making the transit roads between Ratchet and Taurajo marginally safer for Horde travelers."
+  }
+ ],
+ "keywords": [
+  "camp taurajo",
+  "ishamuhale",
+  "jorn skyseer",
+  "ratchet",
+  "speartooth",
+  "sunscale raptor",
+  "the barrens",
+  "zhevra carcass"
+ ],
+ "related": [
+  "npc:thor",
+  "quest:3261",
+  "quest:907",
+  "quest:860",
+  "subzone:camp-taurajo",
+  "subzone:ratchet",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Ishamuhale (quest)"
+ ]
+}

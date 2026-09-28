@@ -1,0 +1,120 @@
+{
+ "key": "quest:748",
+ "type": "quest",
+ "name": "Poison Water",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   748
+  ],
+  "level": "5",
+  "faction": "Horde",
+  "start": "Mull Thunderhorn",
+  "end": "",
+  "previous": null,
+  "next": "Winterhoof Cleansing (Classic)",
+  "wiki": "Poison Water (Classic)",
+  "chain": []
+ },
+ "summary": "Poison Water begins the tauren effort to purge pollution from Mulgore's sacred wells. Entrusted by Mull Thunderhorn in Bloodhoof Village, young Horde defenders gather natural components from the plains to craft a restorative ritual totem.",
+ "sections": [
+  {
+   "title": "A Land Desecrated",
+   "body": "The grassy plains of Mulgore are sacred ground to the tauren, but insidious forces have begun threatening their vital lifeblood. Mull Thunderhorn, an elder stationed in Bloodhoof Village, discovers that goblin interlopers and their lackeys have tainted the precious water wells that sustain the tribes and the local wildlife. The pollution strikes directly at the spiritual heart of the nomadic people who recently settled here.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gathering Nature's Essence",
+   "body": "To counteract industrial contaminants, Mull relies on traditional tauren shamanism rather than crude remedies. Cleansing the Winterhoof Water Well requires crafting a potent ritual totem imbued with the vitality of Mulgore's indigenous predators. He sends hunters to track prairie wolves for their paws and mature plainstriders for their talons across the southwestern plains, enlisting the strength of the land to heal its own wounds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who poisoned the water wells in Mulgore?",
+   "aliases": [
+    "who tainted the wells",
+    "who poisoned mulgore",
+    "who polluted the water"
+   ],
+   "answer": "Goblin encroachers and their hirelings are responsible for fouling the sacred watering holes across Mulgore. Their destructive industrial operations and disregard for natural balance threaten both the tauren tribes and local wildlife."
+  },
+  {
+   "q": "Why does Mull Thunderhorn need wolf paws and plainstrider talons?",
+   "aliases": [
+    "why wolf paws",
+    "why plainstrider talons",
+    "totem materials"
+   ],
+   "answer": "Mull crafts traditional cleansing totems using parts harvested from Mulgore's native beasts. By harnessing the innate spirits and strength of the plains' predators, he creates a focus powerful enough to conduct a water-cleansing ritual."
+  },
+  {
+   "q": "Which well does this quest prepare to cleanse?",
+   "aliases": [
+    "what well is this for",
+    "which water well"
+   ],
+   "answer": "This task gathers materials specifically to craft the cleansing totem for the Winterhoof Water Well, the first in a line of polluted wells that require ritual purification."
+  },
+  {
+   "q": "Where is Mull Thunderhorn located?",
+   "aliases": [
+    "mull thunderhorn location",
+    "where is mull",
+    "where to turn in poison water"
+   ],
+   "answer": "Mull Thunderhorn resides in Bloodhoof Village, the primary tauren settlement situated in central Mulgore just north of Bloodhoof Lake."
+  },
+  {
+   "q": "Where can the necessary wolves and plainstriders be found?",
+   "aliases": [
+    "where to find prairie wolves",
+    "plainstrider location",
+    "hunting grounds"
+   ],
+   "answer": "Prairie wolves and adult plainstriders wander the rolling plains southwest of Bloodhoof Village."
+  },
+  {
+   "q": "What happens after Mull receives the paws and talons?",
+   "aliases": [
+    "next quest after poison water",
+    "what do i do next"
+   ],
+   "answer": "Mull binds the harvested components into a Winterhoof Cleansing Totem and tasks you with carrying it directly to the Winterhoof Water Well to perform the purification rite."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The desecration of fresh water strikes at the core of the Earth Mother's gifts, making the cleansing ritual a fundamental duty for any tauren coming of age in Mulgore."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Restoring polluted waters through beast-empowered totems illustrates foundational tauren shamanism: working alongside the local wildlife to mend elemental disturbances."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Goblins poisoning fresh springs represents a direct assault on the natural balance, demanding an immediate response to preserve Mulgore's fragile flora and fauna."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "cleansing totem",
+  "mulgore",
+  "mull thunderhorn",
+  "plainstrider",
+  "poison water",
+  "prairie wolf",
+  "winterhoof water well"
+ ],
+ "related": [
+  "npc:mull-thunderhorn",
+  "subzone:winterhoof-water-well",
+  "zone:mulgore",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Poison Water (Classic)"
+ ]
+}

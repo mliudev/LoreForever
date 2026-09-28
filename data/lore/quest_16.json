@@ -1,0 +1,115 @@
+{
+ "key": "quest:16",
+ "type": "quest",
+ "name": "Give Gerard a Drink",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   16
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Gerard Tiller",
+  "end": "Gerard Tiller",
+  "previous": null,
+  "next": null,
+  "wiki": "Give Gerard a Drink",
+  "chain": []
+ },
+ "summary": "Give Gerard a Drink is a straightforward favor for Gerard Tiller, a farmer toiling in the fields of Northshire Valley. Looking to quench his thirst under the sun, he trades basic produce in exchange for bottles of fresh spring water. It offers young adventurers an early lesson in barter and supporting local laborers.",
+ "sections": [
+  {
+   "title": "Thirsty Work in the Abbey Fields",
+   "body": "Northshire Valley produces much of the grain, fruit, and vegetables consumed by the Abbey's clergy and the nearby garrisons. Tending the rows of crops under the open sky is grueling, hot work. Gerard Tiller spends long days out in the dirt, keeping the pests away and managing the harvests. With little time to run back and forth to the abbey's cellars or wells, he relies on passing recruits to bring him clean spring water to keep going.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Economy of Barter",
+   "body": "Rather than dealing in coin, Gerard prefers a fair and simple exchange of provisions. Travelers carrying extra flasks of Refreshing Spring Water can trade them directly for fresh apples picked from the orchard. In a kingdom stretching its resources thin to maintain order and feed its army, direct bartering among smallholders and recruits remains a practical way of getting by in rural Elwynn.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gerard Tiller?",
+   "aliases": [
+    "gerard tiller",
+    "who is tiller",
+    "gerard"
+   ],
+   "answer": "Gerard Tiller is a humble farmer working the agricultural plots in Northshire Valley, just outside Northshire Abbey. He manages the fields and orchards that supply the local residents."
+  },
+  {
+   "q": "Why does Gerard need water?",
+   "aliases": [
+    "why spring water",
+    "gerard thirsty",
+    "why need drink"
+   ],
+   "answer": "Laboring in the fields all day under the sun is exhausting work. Gerard relies on passing travelers to supply him with fresh spring water so he can stay hydrated without abandoning his chores."
+  },
+  {
+   "q": "Where can Refreshing Spring Water be found?",
+   "aliases": [
+    "where get water",
+    "spring water source",
+    "how to get water"
+   ],
+   "answer": "Refreshing Spring Water is commonly sold by food and drink vendors or innkeepers throughout Elwynn Forest, including Brother Danil inside Northshire Abbey."
+  },
+  {
+   "q": "Is this trade repeatable?",
+   "aliases": [
+    "repeatable quest",
+    "can i do this again",
+    "turn in more water"
+   ],
+   "answer": "Yes. Gerard is continually working the fields and remains eager to trade fresh orchard apples for additional bottles of water as long as you have them to spare."
+  },
+  {
+   "q": "What does Gerard offer in return for the drink?",
+   "aliases": [
+    "gerard reward",
+    "what do i get",
+    "trade reward"
+   ],
+   "answer": "In exchange for fresh water, Gerard trades bundles of freshly harvested Red-speckled Apples from the Northshire orchards."
+  },
+  {
+   "q": "Where is Gerard located in Northshire?",
+   "aliases": [
+    "gerard tiller location",
+    "where is gerard",
+    "where is the farm"
+   ],
+   "answer": "He can be found working the cultivated fields directly south and east of Northshire Abbey in northern Elwynn Forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Supporting Northshire's farmers ensures that the Abbey's garrison and priests remain well-fed during a turbulent period of kingdom defense."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans starting their journeys in Northshire, aiding neighbors like Gerard Tiller is an early example of the communal spirit that holds Elwynn together."
+  }
+ ],
+ "keywords": [
+  "abbey farm",
+  "apples",
+  "barter",
+  "elwynn forest",
+  "gerard tiller",
+  "northshire valley",
+  "refreshing spring water"
+ ],
+ "related": [
+  "npc:gerard-tiller",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Give Gerard a Drink"
+ ]
+}

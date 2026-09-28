@@ -1,0 +1,122 @@
+{
+ "key": "quest:1023",
+ "type": "quest",
+ "name": "Raene's Cleansing",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1023
+  ],
+  "level": "21",
+  "faction": "Alliance",
+  "start": "Teronis' Corpse",
+  "end": "Raene Wolfrunner",
+  "previous": "Raene's Cleansing",
+  "next": "Raene's Cleansing (3)",
+  "wiki": "Raene's Cleansing (2)",
+  "chain": []
+ },
+ "summary": "This quest marks the tragic continuation of the search for Teronis, a night elf sentinel sent to Lake Falathim. Upon discovering his remains on the shore, the task shifts to recovering his research journal and retrieving the glowing gem held by local murlocs before reporting the grim news back to Astranaar.",
+ "sections": [
+  {
+   "title": "A Fallen Scout",
+   "body": "Sent to Lake Falathim by Raene Wolfrunner, adventurers discover Teronis dead along the waterside. Rather than a rescue, the mission turns into salvage and investigation. Among his belongings lies an intact journal detailing his assignment and findings regarding the strange disturbances in Ashenvale.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Glowing Gem",
+   "body": "Teronis had tracked a rare, luminous stone to the lake, which fell into the possession of the aggressive Greymist murlocs infesting the shallows. Recovering both Teronis' journal and pryed-away gem is necessary to carry forward the late scout's original mission.",
+   "spoiler": 0
+  },
+  {
+   "title": "Grief in Astranaar",
+   "body": "Returning to Astranaar brings sorrow to Raene Wolfrunner, who must arrange a patrol to recover the body of her fallen comrade. Yet with the forest facing corruption, Raene cannot afford prolonged mourning, asking the adventurer to pick up Teronis' mantle and finish the cleansing ritual he died trying to assemble.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Teronis?",
+   "aliases": [
+    "teronis",
+    "who is teronis",
+    "teronis lore"
+   ],
+   "answer": "Teronis was a night elf scout dispatched from Astranaar by Raene Wolfrunner. He was tasked with investigating the waters of Lake Falathim and securing a mystical gem, but he was overwhelmed and slain by the local hostile wildlife before he could complete his duty."
+  },
+  {
+   "q": "Where is the Glowing Gem found?",
+   "aliases": [
+    "where is the glowing gem",
+    "glowing gem location",
+    "find glowing gem"
+   ],
+   "answer": "The Glowing Gem is carried by the murlocs inhabiting the shores and waters of Lake Falathim in northwestern Ashenvale, near the spot where Teronis' corpse was found."
+  },
+  {
+   "q": "Why is Raene Wolfrunner so focused on this task?",
+   "aliases": [
+    "why raene cleansing",
+    "raene wolfrunner motive"
+   ],
+   "answer": "Raene is coordinating the defense and purification of Ashenvale from Astranaar. She cannot allow the corruption spreading across the forest's waterways to go unchecked, making Teronis' incomplete mission a vital priority despite the loss of his life."
+  },
+  {
+   "q": "What happens to Teronis' body after this quest?",
+   "aliases": [
+    "teronis corpse fate",
+    "what happens to teronis"
+   ],
+   "answer": "Raene Wolfrunner pledges to dispatch a detachment of Sentinels from Astranaar to properly retrieve Teronis' remains for mourning and traditional night elf funeral rites."
+  },
+  {
+   "q": "What is Teronis' Journal for?",
+   "aliases": [
+    "teronis journal",
+    "what is the journal"
+   ],
+   "answer": "The journal outlines Teronis' progress and instructions concerning the cleansing ritual and the mystical artifacts required to purify corrupted waters within the ancient forest."
+  },
+  {
+   "q": "Does this quest chain continue after turning it in?",
+   "aliases": [
+    "quest progression",
+    "next quest after teronis"
+   ],
+   "answer": "Yes. Upon bringing the gem and journal back to Raene Wolfrunner, she asks you to continue Teronis' work, leading into the next steps of creating and utilizing the cleansing wand."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The death of a fellow Sentinel at Lake Falathim highlights the creeping danger threatening the ancient sacred groves of Kalimdor."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing Astranaar's northern approaches and aiding Raene Wolfrunner cements Alliance ties with the Sentinels holding Ashenvale."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "glowing gem",
+  "lake falathim",
+  "murloc",
+  "raene's cleansing",
+  "sentinels",
+  "teronis"
+ ],
+ "related": [
+  "quest:991",
+  "npc:raene-wolfrunner",
+  "npc:teronis-corpse",
+  "subzone:astranaar",
+  "topic:murloc",
+  "topic:sentinels",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Raene's Cleansing (2)"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "subzone:bulwark",
+ "type": "subzone",
+ "name": "Bulwark",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Bulwark"
+ },
+ "summary": "The Bulwark is a fortified outpost straddling the border between Tirisfal Glades and the Western Plaguelands. Maintained jointly by the Forsaken and the neutral Argent Dawn, it serves as the Horde's front line against the Scourge and the primary launching point for expeditions into the tainted east.",
+ "sections": [
+  {
+   "title": "A Shield Against the Scourge",
+   "body": "Positioned squarely on the eastern border of Tirisfal Glades, the Bulwark is the final barrier protecting the Forsaken heartland from the blighted horrors of the Western Plaguelands. During the Scourging of Lordaeron, this ground served as an encampment led by Uther the Lightbringer to shelter survivors fleeing the ruins of Capital City. Today, rough wooden palisades and heavily armed guards defend the pass against roaming undead. It represents an uneasy but necessary collaboration, where Forsaken forces coordinate alongside the Argent Dawn to recruit seasoned champions of the Horde, turning back the minions of the Lich King before they spill into Tirisfal.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Bulwark?",
+   "aliases": [
+    "why is bulwark here",
+    "purpose of bulwark",
+    "what is this place"
+   ],
+   "answer": "The Bulwark serves as the Horde's first defensive garrison and staging ground against the Scourge. It protects Tirisfal Glades and the Undercity from incursions pouring out of the Western Plaguelands while housing Argent Dawn and Forsaken commanders who coordinate attacks into the blighted territory."
+  },
+  {
+   "q": "Can Alliance characters visit the Bulwark to speak with the Argent Dawn?",
+   "aliases": [
+    "can alliance use bulwark",
+    "alliance at bulwark",
+    "is bulwark horde only"
+   ],
+   "answer": "No. Although the Argent Dawn representatives stationed there are neutral, the encampment is heavily garrisoned by Forsaken guards. Any Alliance member who steps within the palisades will be attacked on sight."
+  },
+  {
+   "q": "What was here before the Forsaken built the fortification?",
+   "aliases": [
+    "bulwark history",
+    "bulwark lore",
+    "uther camp"
+   ],
+   "answer": "During the Third War and the fall of Capital City, Uther the Lightbringer established an emergency camp on this site to shelter and protect human survivors fleeing the Scourge's initial onslaught across Lordaeron."
+  },
+  {
+   "q": "Is the Bulwark safe for young adventurers leaving Tirisfal?",
+   "aliases": [
+    "can low levels go past bulwark",
+    "entering plaguelands low level"
+   ],
+   "answer": "No. While the gate directly borders Tirisfal Glades, the Western Plaguelands beyond are filled with lethal, high-level undead and plague cauldrons. Novice travelers who wander past the palisade will face swift death."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, the Bulwark is the critical choke point that keeps the Lich King's armies from marching directly onto Brill and the Undercity."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Bulwark acts as the Horde counterpart to the Alliance's Chillwind Camp, serving as the main entry gate and base of operations for operations across the Plaguelands."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "bulwark",
+  "chillwind",
+  "forsaken",
+  "scourge",
+  "tirisfal",
+  "uther",
+  "western plaguelands"
+ ],
+ "related": [
+  "zone:westernplaguelands",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "topic:argent-dawn",
+  "topic:scourge",
+  "subzone:chillwind-camp",
+  "topic:horde",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Bulwark"
+ ]
+}

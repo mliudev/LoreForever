@@ -1,0 +1,112 @@
+{
+ "key": "npc:charlga-razorflank",
+ "type": "npc",
+ "name": "Charlga Razorflank",
+ "era": "classic",
+ "zone": "razorfenkraul",
+ "meta": {
+  "wiki": "Charlga Razorflank",
+  "refs": 5
+ },
+ "summary": "Charlga Razorflank, widely known as the Crone of the Kraul, is the fierce and cunning geomancer chieftain presiding over Razorfen Kraul. Under her leadership, the Razorfen quilboar drove the tauren out of the southern Barrens through ruthless expansion. Unbeknownst to most of her devoted tribe, Charlga has forged a covert pact with agents of the Scourge.",
+ "sections": [
+  {
+   "title": "The Crone of the Kraul",
+   "body": "Within the tangled, massive brambles of Razorfen Kraul rules Charlga Razorflank. Revered by her people as a master geomancer whose experimental magic remains unmatched among quilboar, Charlga organized her fractious kin into a unified, lethal threat. She harnessed the primal earth and giant thorns sprouting from the demigod Agamaggan's remains, reshaping the labyrinthine Kraul into an impenetrable fortress.",
+   "spoiler": 0
+  },
+  {
+   "title": "Expansion and Betrayal",
+   "body": "Charlga rallied the quilboar under the banner of reviving their fallen patron, the Ancient Boar Agamaggan. Claiming that spilled blood would resurrect their deity, she directed constant, violent incursions across the southern Barrens, ultimately driving the tauren from their traditional homelands. Yet her true ambition goes deeper: Charlga secretly entered negotiations with emissaries of the undead Scourge, trading her unsuspecting tribe's devotion for unnatural power and insidious alliances.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Charlga Razorflank?",
+   "aliases": [
+    "charlga lore",
+    "who is the crone of the kraul",
+    "razorfen boss"
+   ],
+   "answer": "Charlga Razorflank is the chieftain and supreme geomancer of the Razorfen quilboar tribe, making her lair deep within Razorfen Kraul in the southern Barrens."
+  },
+  {
+   "q": "What magic does Charlga use?",
+   "aliases": [
+    "charlga abilities",
+    "geomancer powers"
+   ],
+   "answer": "She is an exceptionally gifted geomancer who manipulates elemental earth, crystal magic, and the massive blood-brambles born from the demigod Agamaggan."
+  },
+  {
+   "q": "Why did the quilboar attack the tauren in the Barrens?",
+   "aliases": [
+    "why do quilboar hate tauren",
+    "barrens war quilboar"
+   ],
+   "answer": "Under Charlga's leadership, the quilboar waged war to displace the tauren from the southern Barrens, claiming the conflict would gather the blood needed to revive their wild god Agamaggan."
+  },
+  {
+   "q": "Is Charlga working with the Scourge?",
+   "aliases": [
+    "charlga scourge connection",
+    "unholy alliance quilboar"
+   ],
+   "answer": "Yes. While telling her tribe they fight only to awaken Agamaggan, Charlga has been secretly negotiating with agents of the Scourge, aligning her kin with the undead for greater power."
+  },
+  {
+   "q": "What is Charlga's connection to Razorfen Downs?",
+   "aliases": [
+    "charlga downs",
+    "charlga razorfen downs"
+   ],
+   "answer": "Charlga is renowned for shaping much of the colossal thorn dome that protects Razorfen Downs, using her profound geomantic craft to fortify both great quilboar redoubts."
+  },
+  {
+   "q": "Why does the Horde want her dead?",
+   "aliases": [
+    "crone of the kraul quest",
+    "why kill charlga"
+   ],
+   "answer": "The tauren and their Horde allies view her as an immediate existential threat due to her relentless raids, her theft of their lands, and her dangerous dealings with dark forces."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Charlga's aggressive expansion drove your people out of their ancestral territories across the southern Barrens, making her defeat a matter of tribal survival and reclamation."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "While Charlga commands potent geomantic arts, her twisting of the elements and unholy bargains with the undead represent a dark corruption of sacred primal traditions."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Neutralizing Charlga is critical to securing caravan routes and encampments across the southern Barrens from relentless quilboar war parties."
+  }
+ ],
+ "keywords": [
+  "agamaggan",
+  "barrens",
+  "charlga",
+  "crone",
+  "geomancer",
+  "kraul",
+  "quilboar",
+  "razorflank"
+ ],
+ "related": [
+  "zone:razorfenkraul",
+  "subzone:razorfen-downs-classic",
+  "topic:quilboar",
+  "topic:agamaggan",
+  "topic:scourge",
+  "topic:tauren",
+  "zone:barrens",
+  "quest:1101"
+ ],
+ "attribution": [
+  "Charlga Razorflank"
+ ]
+}

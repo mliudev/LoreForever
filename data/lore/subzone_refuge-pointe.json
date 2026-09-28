@@ -1,0 +1,93 @@
+{
+ "key": "subzone:refuge-pointe",
+ "type": "subzone",
+ "name": "Refuge Pointe",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Refuge Pointe"
+ },
+ "summary": "Refuge Pointe is the primary redoubt for the Alliance and the surviving remnants of Stromgarde within the Arathi Highlands. Perched centrally along the highlands' trade road, it serves as a staging ground to reclaim the shattered capital of Stromgarde Keep and hold back rival forces across the region.",
+ "sections": [
+  {
+   "title": "A Bastion for Stromgarde's Remnants",
+   "body": "Following the devastation of the Third War and the catastrophic fall of Stromgarde Keep, the bulk of Stromgarde's surviving populace fled south toward friendlier lands. Those who remained formed a resolute vanguard, digging in at Refuge Pointe under Captain Nials. Composed of battle-hardened Stromgarde soldiers, League of Arathor forces, and supporting Alliance specialists, the encampment represents the kingdom's last organized stand in its ancestral homeland.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stretched to the Limit",
+   "body": "Refuge Pointe is constantly on the brink of being overwhelmed. Hemmed in by the Forsaken and the Horde based out of Hammerfall, Witherbark trolls, Syndicate rogues, and Boulderfist ogres, the garrison has zero reserves to spare. When dwarven commanders at the battered Thandol Span desperately requested reinforcements to fight off the Dark Iron clan, Captain Nials had to refuse. Every sword, shield, and scrap of supply stationed at Refuge Pointe must remain dedicated to defending the highlands and preparing a counteroffensive to retake Stromgarde Keep.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Alliance presence here so small?",
+   "aliases": [
+    "why is refuge pointe small",
+    "why so few soldiers",
+    "alliance numbers arathi"
+   ],
+   "answer": "The kingdom of Stromgarde fell into ruin following the Third War, forcing most surviving civilians to evacuate south. The troops at Refuge Pointe are an embattled remnant of the Stromic army, bolstered by an expeditionary Alliance force. With supplies stretched thin and enemies on every front, they can barely hold their fortified camp."
+  },
+  {
+   "q": "Why won't Refuge Pointe send soldiers to help at the Thandol Span?",
+   "aliases": [
+    "why no help dun modr",
+    "captain nials thandol span",
+    "plea to the alliance quest"
+   ],
+   "answer": "When dwarven messengers arrived asking for troops to defend Dun Modr and the Thandol Span from Dark Iron assaults, Captain Nials had to decline. With Stromgarde Keep overrun and hostile forces surrounding them, duty and survival demand that every soldier stay committed to holding the highlands and retaking their fallen capital."
+  },
+  {
+   "q": "Who commands the camp?",
+   "aliases": [
+    "refuge pointe leader",
+    "who is in charge here",
+    "captain nials"
+   ],
+   "answer": "Captain Nials commands the garrison at Refuge Pointe. She directs Stromgarde's military operations across the highlands, coordinating scouting efforts, skirmishes against the Syndicate and ogres, and defensive patrols along the main road."
+  },
+  {
+   "q": "What is the League of Arathor?",
+   "aliases": [
+    "league of arathor",
+    "who are league of arathor",
+    "arathi basin alliance"
+   ],
+   "answer": "The League of Arathor is an Alliance coalition committed to reclaiming the Arathi Highlands and securing vital resources in the neighboring Arathi Basin. Operating alongside Stromgarde's remnant forces at Refuge Pointe, they fight to deny the Forsaken-led Defilers control of the fertile valley."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Refuge Pointe serves as your sole military sanctuary and flight hub in the Arathi Highlands, offering critical relief in a dangerous territory contested by ogres, the Syndicate, and the Horde."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans, Refuge Pointe is a poignant reminder of Stromgarde's former glory as humanity's martial heartland, where stalwart defenders refuse to abandon their homeland despite overwhelming odds."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "arathor",
+  "captain nials",
+  "league of arathor",
+  "refuge pointe",
+  "stromgarde",
+  "thandol span"
+ ],
+ "related": [
+  "zone:arathi",
+  "subzone:stromgarde-keep",
+  "quest:634",
+  "subzone:thandol-span",
+  "topic:alliance",
+  "npc:longbraid-the-grim",
+  "npc:skuerto",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Refuge Pointe"
+ ]
+}

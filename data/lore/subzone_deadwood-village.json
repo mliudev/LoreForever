@@ -1,0 +1,67 @@
+{
+ "key": "subzone:deadwood-village",
+ "type": "subzone",
+ "name": "Deadwood Village",
+ "era": "classic",
+ "zone": "felwood",
+ "meta": {
+  "wiki": "Deadwood Village"
+ },
+ "summary": "Deadwood Village is a furbolg encampment nestled in southern Felwood. Once a peaceful clan attuned to nature, its residents fell victim to the demonic corruption that blighted the surrounding forest. Driven mad by fel taint, the Deadwood furbolgs now attack anyone who approaches their crude wooden settlement.",
+ "sections": [
+  {
+   "title": "A Fallen Tribe",
+   "body": "Situated near the southern border of Felwood, Deadwood Village serves as the primary enclave of the Deadwood tribe. When the Burning Legion's demonic energies washed through the ancient woodlands, the furbolgs lacked the power to resist the creeping rot. Their minds warped by fel malice, they abandoned their ancient traditions and spiritual harmony. Today, the village is a squalid gathering of hostile brutes, shamans, and den watchers who violently defend their polluted grounds against intruders, earning the despair of their uncorrupted cousins, the Timbermaw.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the furbolgs here hostile?",
+   "aliases": [
+    "deadwood hostility",
+    "why attack",
+    "why are deadwood red"
+   ],
+   "answer": "The furbolgs of Deadwood Village were overwhelmed by the demonic corruption that ruined Felwood during the Third War. The fel magic warped their natural instincts into rabid aggression, driving them violently insane and hostile to all outsiders."
+  },
+  {
+   "q": "Can players talk to or make peace with Deadwood Village?",
+   "aliases": [
+    "can you be friendly with deadwood",
+    "deadwood reputation"
+   ],
+   "answer": "No. The Deadwood tribe is thoroughly corrupted beyond peaceful diplomacy. Instead, adventurers hunt them to collect tribal feathers and gain favor with the uncorrupted Timbermaw furbolgs guarding the tunnels to the north."
+  },
+  {
+   "q": "How does this tribe relate to the Timbermaw?",
+   "aliases": [
+    "timbermaw and deadwood",
+    "furbolg tribes"
+   ],
+   "answer": "Both were once typical furbolg tribes living in harmony with nature. When Felwood was corrupted, the Timbermaw tribe managed to preserve their sanity, while the Deadwood tribe succumbed entirely to fel madness. The Timbermaw now consider the Deadwood fallen and dangerous."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Deadwood Village represents a heartbreaking failure of nature's defense, reminding Cenarion druids of how deeply demonic corruption can twist peaceful creatures."
+  }
+ ],
+ "keywords": [
+  "corruption",
+  "deadwood",
+  "deadwood village",
+  "felwood",
+  "furbolg",
+  "ruumbo",
+  "timbermaw"
+ ],
+ "related": [
+  "zone:felwood",
+  "topic:furbolg"
+ ],
+ "attribution": [
+  "Deadwood Village"
+ ]
+}

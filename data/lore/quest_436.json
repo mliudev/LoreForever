@@ -1,0 +1,122 @@
+{
+ "key": "quest:436",
+ "type": "quest",
+ "name": "Ironband's Excavation",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   436
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Jern Hornhelm",
+  "end": "Magmar Fellhew",
+  "previous": null,
+  "next": "Gathering Idols",
+  "wiki": "Ironband's Excavation",
+  "chain": [
+   "Ironband's Excavation",
+   "Gathering Idols"
+  ]
+ },
+ "summary": "Ironband's Excavation is an Alliance quest connecting Thelsamar to an ongoing archaeological dig east of the loch. Jern Hornhelm grows suspicious over unexplained supply delays, dispatching an adventurer to discover what stalls Prospector Ironband's team. Upon reaching the dig site, the truth quickly emerges: a relentless horde of troggs has overrun the ruins.",
+ "sections": [
+  {
+   "title": "A Slowdown in the Foothills",
+   "body": "In the town of Thelsamar, Jern Hornhelm monitors shipments sent across Loch Modan to the Explorers' League. Despite a steady stream of provisions and tools, the dig site led by Prospector Ironband has reported minimal progress. Knowing Ironband as an upright, diligent dwarf, Hornhelm fears that something untoward has disrupted the operation rather than mere laziness.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Trogg Infestation",
+   "body": "Reaching the excavation site tucked into the eastern hills reveals the true cause of the delay. Explorer Magmar Fellhew reports that violent troggs have swarmed the dig site, harassing the dwarven crew and scattering their discoveries. The League cannot complete its study of the ancient stones until the savage intruders are driven back.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Ironband's Excavation?",
+   "aliases": [
+    "quest starter",
+    "who gives quest",
+    "jern hornhelm role"
+   ],
+   "answer": "Jern Hornhelm, stationed in Thelsamar, asks you to check on the excavation. He has noticed a lack of progress despite regular deliveries of supplies and wants someone on the ground to investigate."
+  },
+  {
+   "q": "Where is the excavation site located?",
+   "aliases": [
+    "dig site location",
+    "where is ironbands excavation",
+    "how to get there"
+   ],
+   "answer": "The excavation lies in the foothills east of the loch. Travelers from Thelsamar must skirt the southern end of the water and follow the path eastward into the hills."
+  },
+  {
+   "q": "Who is Magmar Fellhew?",
+   "aliases": [
+    "fellhew",
+    "who is magmar fellhew",
+    "turn in npc"
+   ],
+   "answer": "Magmar Fellhew is an explorer assisting Prospector Ironband at the dig. He oversees the day-to-day operations and logistics on-site and clarifies the situation for messengers sent from Thelsamar."
+  },
+  {
+   "q": "Why has progress stalled at the dig?",
+   "aliases": [
+    "why slow",
+    "delay reason",
+    "what happened to the dig"
+   ],
+   "answer": "The expedition has been halted by aggressive troggs. The creatures surged into the ruins, disrupting excavations and forcing the League to divert its focus to self-defense."
+  },
+  {
+   "q": "What comes next after completing this quest?",
+   "aliases": [
+    "next quest",
+    "followup",
+    "gathering idols quest"
+   ],
+   "answer": "Magmar Fellhew directs you to assist the team in reclaiming what was lost, continuing immediately into the quest Gathering Idols to recover relics stolen by the troggs."
+  },
+  {
+   "q": "What is the Explorers' League looking for here?",
+   "aliases": [
+    "excavation purpose",
+    "dwarf dig reason",
+    "ancient ruins loch modan"
+   ],
+   "answer": "Prospector Ironband's expedition seeks ancient relics and stonework beneath Loch Modan to shed light on dwarven history and their long-lost origins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Every dig in Khaz Modan represents an effort to uncover the truth behind dwarven ancestry and Titan heritage, making the safety of Ironband's crew vital to Ironforge."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing Loch Modan requires keeping vital trade roads and research sites free from the subterranean threat of encroaching trogg tribes."
+  }
+ ],
+ "keywords": [
+  "excavation",
+  "explorers league",
+  "fellhew",
+  "hornhelm",
+  "ironband",
+  "loch modan",
+  "thelsamar",
+  "troggs"
+ ],
+ "related": [
+  "npc:jern-hornhelm",
+  "npc:prospector-ironband",
+  "zone:lochmodan",
+  "topic:trogg",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Ironband's Excavation"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "npc:felgur-twocuts",
+ "type": "npc",
+ "name": "Felgur Twocuts",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Felgur Twocuts",
+  "refs": 1
+ },
+ "summary": "Felgur Twocuts is a blunt orc scout stationed at Ghost Walker Post in Desolace. He coordinates Horde efforts against the regional centaur clans and keeps watch on demonic incursions across the gray wastes.",
+ "sections": [
+  {
+   "title": "A Gruff Outpost Scout",
+   "body": "Standing watch amid the bleak expanse of Ghost Walker Post in central Desolace, Felgur Twocuts has little patience for pleasantries. As a forward scout for the Horde, he assesses the myriad threats facing travelers and settlers venturing west through the mountains. His attention is divided between tracking the vicious Kolkar centaur and monitoring the unsettling demonic presence creeping through the desolate valleys.",
+   "spoiler": 0
+  },
+  {
+   "title": "War on the Centaur and Demons",
+   "body": "Felgur directs Horde champions to cull the local centaur chieftains and collect bounties on the warring tribes who threaten to overrun the region. At the same time, the strange portals and infernal machines erected by the Burning Blade and the Shadow Council demand his vigilance, making him a central contact for anyone seeking to secure the Horde's foothold in Desolace.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Felgur Twocuts?",
+   "aliases": [
+    "felgur twocuts who",
+    "who is felgur"
+   ],
+   "answer": "Felgur Twocuts is an orc scout and quest giver stationed at Ghost Walker Post, the Horde's forward encampment in Desolace."
+  },
+  {
+   "q": "Where can I find Felgur Twocuts?",
+   "aliases": [
+    "felgur twocuts location",
+    "where is felgur",
+    "where is felgur twocuts"
+   ],
+   "answer": "He is located at Ghost Walker Post, just north of the central road running through Desolace."
+  },
+  {
+   "q": "What tasks does Felgur Twocuts give?",
+   "aliases": [
+    "felgur quests",
+    "what does felgur want"
+   ],
+   "answer": "Felgur enlists Horde adventurers to strike at the local Kolkar centaur, hunt down Khan Dez'hepah, and investigate demonic portals and infernals active in Desolace."
+  },
+  {
+   "q": "Why is Felgur so curt with visitors?",
+   "aliases": [
+    "why is felgur rude",
+    "make it quick felgur"
+   ],
+   "answer": "Desolace is a dangerous and unforgiving wasteland surrounded by hostile centaur clans and demonic corruption. Stationed in an isolated post, Felgur has no time for idle chatter and prefers to focus strictly on survival and martial duty."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Felgur acts as a vital operations liaison at Ghost Walker Post, helping the Horde push back both the aggressive centaur tribes and lurking demonic agents in Desolace."
+  },
+  {
+   "target": "race:Orc",
+   "text": "True to standard orcish pragmatism in dangerous borderlands, Felgur values strength, speed, and immediate results over idle conversation."
+  }
+ ],
+ "keywords": [
+  "centaur bounty",
+  "desolace",
+  "felgur twocuts",
+  "ghost walker post",
+  "horde",
+  "kolkar",
+  "orc"
+ ],
+ "related": [
+  "subzone:ghost-walker-post",
+  "zone:desolace",
+  "topic:centaur",
+  "quest:1362",
+  "topic:horde",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Felgur Twocuts"
+ ]
+}

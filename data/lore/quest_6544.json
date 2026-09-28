@@ -1,0 +1,123 @@
+{
+ "key": "quest:6544",
+ "type": "quest",
+ "name": "Torek's Assault",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   6544
+  ],
+  "level": "",
+  "faction": "horde",
+  "start": "Torek",
+  "end": "Ertog Ragetusk",
+  "previous": null,
+  "next": null,
+  "wiki": "Torek's Assault",
+  "chain": []
+ },
+ "summary": "Torek's Assault is a direct Horde raid launched from the wilds of Ashenvale against the nearby night elf garrison at Silverwing Outpost. Led by the orc raider Torek under orders from Splintertree Post, the strike aims to crush local Sentinel resistance and slay their commander, Duriel Moonfire. It marks one of the most brazen, bloody skirmishes in the ongoing war for Ashenvale's borders.",
+ "sections": [
+  {
+   "title": "A Strike from the Shadows",
+   "body": "Ashenvale is locked in an escalating border war between the Horde lumber camps and the native night elves. Seeking to break the Alliance's defensive perimeter, Torek gathers a pack of Splintertree raiders just outside Silverwing Outpost. Rather than waiting for a counter-attack, Torek coordinates a head-on charge to shatter the outpost's defenses before the night elves can mount a reinforced campaign against Splintertree Post.",
+   "spoiler": 0
+  },
+  {
+   "title": "Taking Silverwing",
+   "body": "Silverwing Outpost stands as a fortified woodland bastion garrisoned by vigilant Silverwing Sentinels and fierce elven warriors. Torek's primary target is their leader, Duriel Moonfire. Bringing down Duriel decapitates the local night elf military hierarchy in the area, allowing the raiders to report a bloody victory back to commander Ertog Ragetusk near the Falfarren River.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Torek?",
+   "aliases": [
+    "torek npc",
+    "who is torek",
+    "torek orc"
+   ],
+   "answer": "Torek is an aggressive orc raider operating out of Splintertree Post in Ashenvale. Fierce and hungry for battle, he commands a detachment of raiders tasked with taking the fight directly to the night elf forces entrenched in the forest."
+  },
+  {
+   "q": "What is Silverwing Outpost?",
+   "aliases": [
+    "silverwing outpost",
+    "what is silverwing"
+   ],
+   "answer": "Silverwing Outpost is a fortified night elf settlement in Ashenvale. Guarded by elite Sentinels and warriors, it serves as a military bulwark to watch over Horde troop movements along the woodland trails."
+  },
+  {
+   "q": "Who is Duriel Moonfire?",
+   "aliases": [
+    "duriel moonfire",
+    "duriel"
+   ],
+   "answer": "Duriel Moonfire is the night elf commander defending Silverwing Outpost. As the head of the garrison, she directs the local Sentinels against Horde incursions until Torek's raiding party breaches the camp to strike her down."
+  },
+  {
+   "q": "Who is Ertog Ragetusk?",
+   "aliases": [
+    "ertog ragetusk",
+    "ertog"
+   ],
+   "answer": "Ertog Ragetusk is a Horde officer stationed at Splintertree Post. He serves as Torek's superior officer, overseeing military operations in the region and receiving reports of victories against the Alliance."
+  },
+  {
+   "q": "Why does the Horde attack Silverwing Outpost?",
+   "aliases": [
+    "why attack silverwing",
+    "ashenvale conflict silverwing"
+   ],
+   "answer": "The Horde and the night elves are locked in active territorial warfare across Ashenvale. Striking Silverwing Outpost relieves pressure on Horde supply lines and directly weakens the Sentinel defense network guarding the deeper forest."
+  },
+  {
+   "q": "Where does this attack take place?",
+   "aliases": [
+    "torek assault location",
+    "where is torek"
+   ],
+   "answer": "The assault begins just outside Silverwing Outpost, located west of the Falfarren River in Ashenvale, culminating inside the night elf encampment itself."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde, pushing past Silverwing Outpost is a vital test of strength that weakens the night elf blockade encircling Splintertree Post."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The fall of Duriel Moonfire exposes Silverwing Outpost and threatens the night elves' ancestral woodland holdings."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "A brutal, frontal melee that tests raw physical endurance against seasoned Sentinel archers and blademasters."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The raid strikes at the heart of the Sentinels' frontline command, spilling elven blood beneath the boughs of Ashenvale."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "duriel moonfire",
+  "ertog ragetusk",
+  "raiders",
+  "sentinels",
+  "silverwing outpost",
+  "splintertree post",
+  "torek"
+ ],
+ "related": [
+  "subzone:silverwing-outpost",
+  "subzone:splintertree-post",
+  "zone:ashenvale",
+  "topic:sentinels",
+  "topic:night-elf",
+  "subzone:falfarren-river"
+ ],
+ "attribution": [
+  "Torek's Assault"
+ ]
+}

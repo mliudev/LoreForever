@@ -1,0 +1,76 @@
+{
+ "key": "npc:nara-meideros",
+ "type": "npc",
+ "name": "Nara Meideros",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Nara Meideros",
+  "refs": 2
+ },
+ "summary": "Nara Meideros is a night elf priestess stationed within the tranquil greenery of the Park in Stormwind City. Serving as a mentor to acolytes, she represents the teachings of Elune amidst the human capital.",
+ "sections": [
+  {
+   "title": "A Priestess in Stormwind",
+   "body": "While most priestesses of Elune remain in Kalimdor under the boughs of Teldrassil, Nara Meideros resides far across the Great Sea in Stormwind City. Found within the Park\u2014a haven nurtured by visiting night elf druids and priests\u2014she guides young spiritual seekers in the ways of divine devotion. Alongside human practitioners of the Holy Light in Cathedral Square, Nara offers night elves visiting or living in the Eastern Kingdoms a familiar connection to the grace of the Moon Goddess.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Nara Meideros?",
+   "aliases": [
+    "nara meideros location",
+    "where is nara meideros",
+    "park priest trainer"
+   ],
+   "answer": "Nara Meideros is located in the Park district of Stormwind City, surrounded by moonwells and towering trees that remind night elf travelers of home."
+  },
+  {
+   "q": "What role does Nara Meideros serve?",
+   "aliases": [
+    "what does nara do",
+    "nara meideros purpose",
+    "who is nara meideros"
+   ],
+   "answer": "She is a priest trainer who assists novitiates and growing priests, helping night elf acolytes master devotional spells such as Desperate Prayer."
+  },
+  {
+   "q": "Why is a night elf priestess residing in Stormwind?",
+   "aliases": [
+    "why is she in stormwind",
+    "night elf in stormwind"
+   ],
+   "answer": "As ties between the night elves of Darnassus and the Grand Alliance strengthen, night elf emissaries, druids, and priests maintain an active presence in the Park to aid their kin and represent their spiritual traditions."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "For night elf priests traversing the Eastern Kingdoms, Nara provides guidance and instruction in vital racial devotions without requiring a journey back to Kalimdor."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Far from the forests of Ashenvale and Teldrassil, Nara Meideros and the Park offer a comforting sliver of home within the bustling stone walls of the human capital."
+  }
+ ],
+ "keywords": [
+  "elune",
+  "nara meideros",
+  "night elf priest",
+  "priest trainer",
+  "stormwind",
+  "the park"
+ ],
+ "related": [
+  "subzone:park",
+  "zone:stormwind",
+  "quest:5634",
+  "quest:5628",
+  "topic:night-elf",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Nara Meideros"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "subzone:rolling-plains",
+ "type": "subzone",
+ "name": "Rolling Plains",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Rolling Plains"
+ },
+ "summary": "The Rolling Plains span the southern expanse of Mulgore, stretching between Bloodhoof Village and the border of the Barrens. These windswept grasslands are home to thriving herds of wildlife, but they are also a point of perpetual vigilance due to prowling centaur raiders and aggressive harpies.",
+ "sections": [
+  {
+   "title": "Heart of Southern Mulgore",
+   "body": "Spanning south from Bloodhoof Village toward the natural earthen gates leading into the Barrens, the Rolling Plains embody the vast open ranges of the tauren homeland. The area teems with wild game essential to the tribes, including prairie wolves, kodo herds, flatland cougars, and swift tallstriders. For young hunters proving their worth to the elders, these sweeping savannahs serve as an indispensable proving ground where tracking, patience, and reverence for nature are put to the test.",
+   "spoiler": 0
+  },
+  {
+   "title": "Encroaching Dangers",
+   "body": "Despite Mulgore's naturally fortified ring of bluffs, the Rolling Plains remain uniquely exposed to outside threats. It is the only frontier where aggressive centaur outriders have managed to push past defensive perimeters to harass passing travelers and hunting parties. Adding to the peril, a nest of predatory Windfury harpies roosts in the eastern crags, swooping down upon stray game and vulnerable nomadic camps.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What animals can be found on the Rolling Plains?",
+   "aliases": [
+    "rolling plains wildlife",
+    "mobs rolling plains",
+    "animals mulgore plains"
+   ],
+   "answer": "The grasslands support a rich variety of native fauna, including roaming herds of wild kodo, nimble tallstriders, prowling prairie wolves, and stalking flatland cougars. These beasts provide vital meat, hides, and sinew for the tribes of Bloodhoof Village."
+  },
+  {
+   "q": "Why are centaur found wandering this part of Mulgore?",
+   "aliases": [
+    "centaur in mulgore",
+    "why centaur rolling plains",
+    "centaur outriders"
+   ],
+   "answer": "The Rolling Plains border the eastern passes into the Barrens, making them the only region in Mulgore where centaur raiders have managed to breach the perimeter. Marauding outriders constantly scout the plains, probing tauren defenses and threatening isolated hunters."
+  },
+  {
+   "q": "What other hostile creatures threaten the plains?",
+   "aliases": [
+    "harpies rolling plains",
+    "dangers rolling plains"
+   ],
+   "answer": "Aside from roaming centaur scouts, a dangerous enclave of Windfury harpies nests along the eastern crags of the region, preying upon unwary travelers and harassing local wildlife."
+  },
+  {
+   "q": "Where do the Rolling Plains begin and end?",
+   "aliases": [
+    "rolling plains location",
+    "where are rolling plains",
+    "boundaries rolling plains"
+   ],
+   "answer": "The plains cover much of southern Mulgore, extending southward from the perimeter of Bloodhoof Village all the way to the Great Gate and the mountain border adjoining the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Rolling Plains provide vital hunting grounds for the newly unified tribes, but the intrusion of ancient centaur enemies so close to Bloodhoof Village makes guarding this southern corridor a matter of tribal survival."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "With ample herds of kodo, tallstriders, wolves, and cougars, the Rolling Plains offer an ideal wilderness for honing tracking skills, gathering provisions, and taming first animal companions."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "centaur",
+  "harpies",
+  "kodo",
+  "mulgore",
+  "rolling plains",
+  "tallstrider",
+  "windfury"
+ ],
+ "related": [
+  "zone:mulgore",
+  "subzone:bloodhoof-village",
+  "topic:centaur",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Rolling Plains"
+ ]
+}

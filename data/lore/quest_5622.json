@@ -1,0 +1,125 @@
+{
+ "key": "quest:5622",
+ "type": "quest",
+ "name": "In Favor of Elune",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   5622
+  ],
+  "level": "4",
+  "faction": "Alliance",
+  "start": "Shanda",
+  "end": "Laurna Morninglight",
+  "previous": null,
+  "next": "Garments of the Moon",
+  "wiki": "In Favor of Elune",
+  "chain": [
+   "In Favor of Elune",
+   "Garments of the Moon"
+  ]
+ },
+ "summary": "\"In Favor of Elune\" is a rite of passage for young night elf priests ready to step out of the sheltered boughs of Shadowglen. Directed by Priestess Shanda, novitiates travel down the path to Dolanaar to seek further guidance and training under Laurna Morninglight.",
+ "sections": [
+  {
+   "title": "Leaving the Glade",
+   "body": "For an initiate serving Elune within Aldrassil's secluded shelter, learning begins with simple prayers and defensive invocations under the watchful eye of Priestess Shanda. Yet the cloistered life of Shadowglen cannot prepare a priestess or priest for the turmoil gripping the wider world. Once an initiate demonstrates steady faith and discipline, Shanda sends them down the shadowed forest path toward Dolanaar to continue their education.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Step Into the Priesthood",
+   "body": "Reaching Dolanaar marks an essential milestone in a night elf's divine vocation. There awaits Laurna Morninglight, a respected priestess tasked with preparing disciples for the trials facing Teldrassil. Beyond advanced instruction in moonlit spellcraft, arriving in Dolanaar prepares the acolyte to claim their first formal vestments, marking their official standing within the Sisterhood of Elune.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me on this journey?",
+   "aliases": [
+    "quest giver",
+    "who starts in favor of elune",
+    "where do i get this quest"
+   ],
+   "answer": "Priestess Shanda, the night elf priest trainer stationed within the boughs of Aldrassil in Shadowglen, gives you this guidance once your initial training is complete."
+  },
+  {
+   "q": "Where do I need to go to find Laurna Morninglight?",
+   "aliases": [
+    "laurna morninglight location",
+    "where is dolanaar",
+    "where is morninglight"
+   ],
+   "answer": "Laurna Morninglight resides in Dolanaar, the first major settlement south of the Shadowglen gates in Teldrassil. She is located near the eastern buildings of the village."
+  },
+  {
+   "q": "Can any class take this quest?",
+   "aliases": [
+    "is this priest only",
+    "who can do in favor of elune",
+    "druid quest?"
+   ],
+   "answer": "No. This quest is specifically designated for young night elf priests taking their initial steps into the Sisterhood and the service of Elune."
+  },
+  {
+   "q": "What happens after I speak to Laurna Morninglight?",
+   "aliases": [
+    "what comes next",
+    "followup quest",
+    "garments of the moon quest"
+   ],
+   "answer": "Laurna Morninglight will greet you and offer the trial 'Garments of the Moon', which tests your ability to protect and heal wounded defenders before bestowing your first official clerical robes."
+  },
+  {
+   "q": "Is this quest mandatory to continue priest training?",
+   "aliases": [
+    "do i have to do in favor of elune",
+    "can i skip in favor of elune",
+    "optional breadcrumb"
+   ],
+   "answer": "It is an optional breadcrumb quest. If you travel directly to Dolanaar on your own, Laurna Morninglight will still offer her training and subsequent tasks without needing this introduction."
+  },
+  {
+   "q": "Why is earning garments so important to the Sisterhood?",
+   "aliases": [
+    "why robes matter",
+    "significance of garments",
+    "station of elune priestess"
+   ],
+   "answer": "Vestments in night elf culture are not merely cloth; they are sacred symbols denoting one's official station, devotion, and readiness to channel the Moon Goddess's blessings in service of their people."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This task represents your departure from simple novitiate studies into full service, setting you on the path toward earning your first consecrated clerical vestments."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The Sisterhood of Elune forms the spiritual heart and historic leadership of kaldorei society, making the journey to Dolanaar a deeply traditional milestone for devotees."
+  }
+ ],
+ "keywords": [
+  "dolanaar",
+  "garments of the moon",
+  "in favor of elune",
+  "laurna morninglight",
+  "priest",
+  "shadowglen",
+  "shanda",
+  "teldrassil"
+ ],
+ "related": [
+  "npc:laurna-morninglight",
+  "npc:shanda",
+  "quest:5621",
+  "subzone:dolanaar",
+  "subzone:shadowglen",
+  "zone:teldrassil",
+  "topic:elune",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "In Favor of Elune"
+ ]
+}

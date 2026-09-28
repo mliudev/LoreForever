@@ -1,0 +1,75 @@
+{
+ "key": "npc:deathguard-burgess",
+ "type": "npc",
+ "name": "Deathguard Burgess",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Deathguard Burgess",
+  "refs": 1
+ },
+ "summary": "Deathguard Burgess is a Forsaken sentry stationed in the town of Brill within Tirisfal Glades. Standing watch over the settlement, he keeps order and directs travelers to vital services across the hamlet.",
+ "sections": [
+  {
+   "title": "A Watchman in Brill",
+   "body": "Positioned in the settlement of Brill just north of the Undercity, Deathguard Burgess serves as one of the town guards maintaining security against the Scourge and Scarlet Crusade. Like other Deathguards throughout Tirisfal Glades, Burgess aids arriving Forsaken by providing directions to local tradesfolk, class trainers, and civic services, keeping the vulnerable outpost running smoothly.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Deathguard Burgess?",
+   "aliases": [
+    "burgess brill",
+    "who is burgess",
+    "deathguard burgess lore"
+   ],
+   "answer": "Deathguard Burgess is an undead sentry serving the Forsaken in the town of Brill. He helps keep order in the hamlet and assists visitors with directions to local trainers and points of interest."
+  },
+  {
+   "q": "What role do the Deathguards serve in Brill?",
+   "aliases": [
+    "what are deathguards",
+    "deathguards role"
+   ],
+   "answer": "The Deathguard are the standard military and police force of the Forsaken. In places like Brill, they protect the local populace from outside threats like the Scourge and the Scarlet Crusade while maintaining civil order."
+  },
+  {
+   "q": "Can Deathguard Burgess provide directions?",
+   "aliases": [
+    "burgess directions",
+    "where to go in brill"
+   ],
+   "answer": "Yes. Like many town guards across Azeroth, talking to Burgess allows travelers to ask for the location of class trainers, the local inn, profession masters, and other essential facilities in Brill."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For newly awoken Forsaken leaving Deathknell, guards like Burgess in Brill provide your first orientation to the wider infrastructure of Lordaeron."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Visiting allies from Kalimdor can speak to Burgess to navigate the unfamiliar, blighted layout of Brill when seeking out supply vendors or resting at the inn."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "burgess",
+  "deathguard burgess",
+  "forsaken",
+  "guard",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:brill",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "quest:374",
+  "quest:99134",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Deathguard Burgess"
+ ]
+}

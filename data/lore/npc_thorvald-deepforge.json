@@ -1,0 +1,77 @@
+{
+ "key": "npc:thorvald-deepforge",
+ "type": "npc",
+ "name": "Thorvald Deepforge",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Thorvald Deepforge",
+  "refs": 1
+ },
+ "summary": "Thorvald Deepforge is a dwarven weapon merchant stationed near the border pass in the Valley of Kings. He helps arm travelers and defenders securing the critical pathway between Dun Morogh and Loch Modan.",
+ "sections": [
+  {
+   "title": "Arming the Eastern Pass",
+   "body": "Positioned within the towering monument of the Valley of Kings, Thorvald Deepforge serves the Alliance as a reliable arms dealer. The mountain passes connecting Khaz Modan's interior to the outlying territories are plagued by trogg incursions and roving wildlife, making well-forged steel essential for any Mountaineer or recruit on the road. Thorvald ensures that those arriving from Dun Morogh or heading deeper into Loch Modan carry the blades and axes needed to defend dwarven lands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Thorvald Deepforge?",
+   "aliases": [
+    "who is thorvald",
+    "thorvald deepforge npc",
+    "deepforge loch modan"
+   ],
+   "answer": "Thorvald Deepforge is a dwarf vendor stationed in the Valley of Kings, where the road leads out of Dun Morogh into Loch Modan. He provides essential weaponry to travelers and defenders along the border."
+  },
+  {
+   "q": "What role does he play in the region's defense?",
+   "aliases": [
+    "what does thorvald do",
+    "thorvald purpose",
+    "supplying the front"
+   ],
+   "answer": "He acts as a forward quartermaster and weapon merchant for travelers traversing the mountain passes, assisting in arming recruits sent to reinforce outposts across Loch Modan."
+  },
+  {
+   "q": "Is he related to the other Deepforges in Khaz Modan?",
+   "aliases": [
+    "deepforge family",
+    "thorvald deepforge relatives",
+    "murgot deepforge relative"
+   ],
+   "answer": "The Deepforge clan is a well-known dwarven family of smiths and artisans throughout Ironforge and Dun Morogh, counting craftsmen like Murgot and Bengus Deepforge among their kin."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Standing beneath the ancestral monoliths of the Valley of Kings, Thorvald represents the enduring craft and supply line that keeps Khaz Modan's borders secure."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Carrying the renowned Deepforge family name, Thorvald trades in the functional, reliable ironmongery that dwarven smiths are famous for."
+  }
+ ],
+ "keywords": [
+  "deepforge",
+  "dun morogh",
+  "loch modan",
+  "mountaineers",
+  "thorvald deepforge",
+  "valley of kings",
+  "weaponsmith"
+ ],
+ "related": [
+  "subzone:valley-of-kings",
+  "zone:lochmodan",
+  "zone:dunmorogh",
+  "quest:1578",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Thorvald Deepforge"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "subzone:cliffspring-falls",
+ "type": "subzone",
+ "name": "Cliffspring Falls",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Cliffspring Falls"
+ },
+ "summary": "Cliffspring Falls marks the dramatic origin of Darkshore's vital Cliffspring River, tumbling down from the eastern cliffs into the coastal forest. Long celebrated as the principal source of clean drinking water for the region, its waters have recently fallen victim to a foul, spreading taint. The subterranean cavern feeding the waterfall has become infested with hostile naga and shadowy Twilight's Hammer cultists.",
+ "sections": [
+  {
+   "title": "A Tainted Source",
+   "body": "Pouring out from caverns perched high in the rocky bluffs along Darkshore's eastern border, Cliffspring Falls feeds the Cliffspring River, which winds westward across the woods to empty into the sea. Traditionally, this cascade provided the purest drinking water for local night elf settlements. In recent times, however, the waters have turned foul and murky, spreading sickness and ecological decay throughout the river basin. Investigating naturalists have discovered that the cave network at the falls' headwaters is overrun by vile naga and dark cultists, who plot in the shadows while demonic corruption from neighboring Felwood threatens to seep through the highland bedrock.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Cliffspring Falls?",
+   "aliases": [
+    "cliffspring falls",
+    "cliffwater falls",
+    "what is cliffspring falls"
+   ],
+   "answer": "Cliffspring Falls is a major waterfall in eastern Darkshore that forms the headwaters of the Cliffspring River. It historically supplied the primary fresh drinking water for the surrounding forest."
+  },
+  {
+   "q": "Why is the water coming from the falls corrupted?",
+   "aliases": [
+    "why is water tainted",
+    "cliffspring river corruption",
+    "corrupted water"
+   ],
+   "answer": "Two sinister influences are suspected: demonic taint seeping through the mountains from corrupted Felwood, and the active presence of Twilight's Hammer cultists and hostile naga lurking inside the caverns feeding the cascade."
+  },
+  {
+   "q": "Who occupies the caverns behind the falls?",
+   "aliases": [
+    "who is in the caves",
+    "cliffspring cave mobs",
+    "who lives in cliffspring falls"
+   ],
+   "answer": "The caverns above and behind the waterfall are infested with hostile naga slithering through the flooded chambers, alongside cultists belonging to the apocalyptic Twilight's Hammer."
+  },
+  {
+   "q": "Why is Cliffspring Falls so important to Darkshore?",
+   "aliases": [
+    "why does darkshore care",
+    "cliffspring importance"
+   ],
+   "answer": "The Cliffspring River cuts through the center of northern Darkshore. Because it serves as the principal source of fresh water, its poisoning directly endangers wildlife, ancient groves, and local night elf habitations."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei of Auberdine, the corruption of Cliffspring Falls is an environmental and spiritual crisis, polluting the vital waters that nourish Darkshore's ancient forests."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids of the Cenarion Circle monitor the river closely, striving to diagnose and cleanse the unnatural rot that threatens to choke the wilderness."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "cliffspring falls",
+  "cliffspring river",
+  "cliffwater falls",
+  "darkshore",
+  "felwood",
+  "naga",
+  "twilight's hammer",
+  "water corruption"
+ ],
+ "related": [
+  "quest:6122",
+  "quest:4762",
+  "zone:darkshore",
+  "topic:twilight-s-hammer",
+  "topic:naga",
+  "zone:felwood",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Cliffspring Falls"
+ ]
+}

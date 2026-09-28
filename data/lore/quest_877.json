@@ -1,0 +1,124 @@
+{
+ "key": "quest:877",
+ "type": "quest",
+ "name": "The Stagnant Oasis",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   877
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Tonga Runetotem",
+  "end": "",
+  "previous": "The Forgotten Pools (Classic)",
+  "next": "Altered Beings (Classic)",
+  "wiki": "The Stagnant Oasis (Classic)",
+  "chain": []
+ },
+ "summary": "The Stagnant Oasis is an investigative quest offered by the druid Tonga Runetotem at the Crossroads. Following discoveries at the Forgotten Pools, Tonga tasks travelers with exploring the murky waters to the southeast to determine if a similar submerged fissure exists. Testing the mysterious energies with lifeless seeds reveals a profound, unexplainable power bubbling beneath the arid earth.",
+ "sections": [
+  {
+   "title": "A Search for Hidden Waters",
+   "body": "After discovering an uncanny subterranean fissure churning beneath the Forgotten Pools, Tonga Runetotem suspects that the sudden bursts of lush greenery across the arid Barrens are not mere coincidence. He dispatches adventurers southeast to the Stagnant Oasis to see if a similar opening exists beneath its murky, predator-filled shallows.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Spark of Vitality",
+   "body": "To test the nature of the spring, Tonga provides dried, infertile seeds incapable of natural germination. Submerging these dead husks directly into the bubbling fissure triggers an astonishing surge of growth. The presence of an active underground wellspring capable of bestowing life upon dead matter confirms that extraordinary, unnatural forces are actively reshaping the land.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts the quest The Stagnant Oasis?",
+   "aliases": [
+    "quest giver",
+    "where to get",
+    "tonga quest"
+   ],
+   "answer": "The quest is given by Tonga Runetotem, a tauren druid stationed at the Crossroads in the central Barrens, immediately following the investigation of the Forgotten Pools."
+  },
+  {
+   "q": "What do the dried seeds do?",
+   "aliases": [
+    "dried seeds",
+    "seeds use",
+    "seeds test"
+   ],
+   "answer": "The dried seeds are dead and barren. Tonga uses them as a scientific and druidic test: placing them into the submerged fissure reveals that the energies flowing from below are powerful enough to restore life to completely dead flora."
+  },
+  {
+   "q": "Where is the Stagnant Oasis located?",
+   "aliases": [
+    "oasis location",
+    "where is stagnant oasis",
+    "map location"
+   ],
+   "answer": "The Stagnant Oasis lies southeast of the Crossroads in the Barrens, nestled amid rocky bluffs and inhabited by snapjaw turtles, kolkar centaur, and water-dwelling beasts."
+  },
+  {
+   "q": "What is the significance of the underwater fissures?",
+   "aliases": [
+    "oasis fissures",
+    "underwater crack",
+    "bubbling fissure"
+   ],
+   "answer": "The fissures are mysterious cracks on the oasis floors that emanate unnatural restorative energy. Druids like Tonga believe these fissures are directly responsible for the sudden formation of the Barrens oases, though the deeper origin of their magical power remains unsettled."
+  },
+  {
+   "q": "What quest comes next in the chain?",
+   "aliases": [
+    "next quest",
+    "followup",
+    "after stagnant oasis"
+   ],
+   "answer": "Returning to Tonga Runetotem with the findings leads directly to the quest Altered Beings, where the investigation shifts toward the mutations and aggressive behaviors seen in the wildlife surrounding the pools."
+  },
+  {
+   "q": "Why is the Cenarion Circle interested in these pools?",
+   "aliases": [
+    "why care about pools",
+    "cenarion interest",
+    "druid oasis"
+   ],
+   "answer": "The Cenarion druids have long sought ways to heal the dry savanna of the Barrens. Finding springs capable of spontaneously generating life is thrilling, but the suddenness and odd nature of the phenomena raise concerns of an unnatural or destabilizing origin."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids of the Cenarion Circle, observing dormant seeds spring instantly to life reveals a primordial font of nature magic that is as concerning as it is awe-inspiring."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The quest speaks directly to the tauren duty of honoring the Earth Mother by understanding sudden, profound disruptions in the natural balance of their ancestral hunting grounds."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing and understanding reliable freshwater oases near the Crossroads is vital for safeguarding trade caravans and military outposts across the harsh Barrens."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "crossroads",
+  "dried seeds",
+  "fissure",
+  "forgotten pools",
+  "stagnant oasis",
+  "the barrens",
+  "tonga runetotem"
+ ],
+ "related": [
+  "npc:tonga-runetotem",
+  "subzone:stagnant-oasis",
+  "quest:870",
+  "subzone:crossroads",
+  "zone:barrens",
+  "subzone:forgotten-pools"
+ ],
+ "attribution": [
+  "The Stagnant Oasis (Classic)"
+ ]
+}

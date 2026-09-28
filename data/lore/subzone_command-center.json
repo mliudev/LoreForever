@@ -1,0 +1,93 @@
+{
+ "key": "subzone:command-center",
+ "type": "subzone",
+ "name": "Command Center",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Command Center"
+ },
+ "summary": "The Command Center, often referred to as the Stormwind Barracks, stands in the heart of Old Town as the operational headquarters for the city's military officers. In peacetime, it houses the standing army, but with Stormwind's forces dispatched to distant frontiers, it currently operates with a seasoned skeleton crew focused on drilling recruits and local militia.",
+ "sections": [
+  {
+   "title": "A Thin Line of Defense",
+   "body": "Situated within the weathered streets of Old Town, the Command Center serves as the primary garrison and martial training ground for the kingdom of Stormwind. Normally packed with regular infantry and ranking officers, the facility is uncharacteristically sparse. With much of the royal army committed to campaigns abroad, the barracks relies on a veteran cadre of instructors\u2014including Ander Germaine and martial artist Wu Shen\u2014to train fresh warriors, while figures like Wulf Hansreim drill marksmen to bolster the city's defenses.",
+   "spoiler": 0
+  },
+  {
+   "title": "Old Town's Martial Hub",
+   "body": "Guards throughout Stormwind often direct newcomers to the 'Barracks' when seeking instruction in heavy arms and tactical combat. The building's proximity to both the Pig and Whistle Tavern and the shadowy operations elsewhere in Old Town makes it an essential anchor of order in a district known for tavern brawls and roguish activity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Command Center so empty?",
+   "aliases": [
+    "why few guards here",
+    "where is stormwind army",
+    "barracks empty"
+   ],
+   "answer": "Most of Stormwind's standing army has been deployed to distant outposts and foreign battlefields across the world. The Command Center currently maintains only a skeleton crew of seasoned veterans to instruct new recruits and organize local defense."
+  },
+  {
+   "q": "Is the Command Center the same as the Stormwind Barracks?",
+   "aliases": [
+    "stormwind barracks",
+    "are command center and barracks the same",
+    "barracks location"
+   ],
+   "answer": "Yes. While officially designated the Command Center, city guards and local residents routinely refer to the building as the Stormwind Barracks when giving directions."
+  },
+  {
+   "q": "Who leads the training here?",
+   "aliases": [
+    "who trains warriors here",
+    "warrior trainer command center",
+    "who runs the barracks"
+   ],
+   "answer": "Ander Germaine coordinates and trains the city's warriors alongside instructors like Wu Shen and Ilsa Corbin, while Wulf Hansreim oversees hunter and marksman training."
+  },
+  {
+   "q": "Where is the Command Center located?",
+   "aliases": [
+    "where is command center",
+    "command center location",
+    "how to find command center"
+   ],
+   "answer": "The Command Center is located in Old Town, situated near the Pig and Whistle Tavern and central to the district's training facilities."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "The Command Center is the primary hub in Stormwind for warrior training, where veterans like Ander Germaine and Wu Shen hone recruits into disciplined frontline soldiers."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Marksmen visiting Stormwind report to the Command Center to learn techniques from veteran trainers such as Wulf Hansreim."
+  }
+ ],
+ "keywords": [
+  "ander germaine",
+  "barracks",
+  "command center",
+  "hunter trainer",
+  "old town",
+  "stormwind barracks",
+  "warrior trainer",
+  "wu shen",
+  "wulf hansreim"
+ ],
+ "related": [
+  "subzone:old-town",
+  "zone:stormwind",
+  "subzone:pig-and-whistle-tavern",
+  "quest:2300",
+  "topic:stormwind-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Command Center"
+ ]
+}

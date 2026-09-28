@@ -1,0 +1,99 @@
+{
+ "key": "quest:92470",
+ "type": "quest",
+ "name": "Foul Matriarch",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92470
+  ],
+  "level": "5",
+  "faction": null,
+  "start": "Aetheen of the Gales",
+  "end": "",
+  "previous": "Aetheen of the Gales (quest)",
+  "next": "The Next Step (Skyborne), The Adventurer (Zephras Isle)",
+  "wiki": "Foul Matriarch",
+  "chain": []
+ },
+ "summary": "Foul Matriarch is a trial of survival assigned by Aetheen of the Gales to budding initiates in Thendal Village. The task demands delving into the southern caves to culled the scavenging ursera and slay their vicious den mother, Urs'anah. Completing the hunt proves that an adventurer possesses the resolve required to face greater perils across Zephras Isle.",
+ "sections": [
+  {
+   "title": "A Test of Resolve",
+   "body": "Aetheen of the Gales maintains a watchful eye on newcomers finding their footing around Thendal Village. Once an initiate demonstrates early competence, Aetheen issues a dangerous rite of passage: a direct assault against the predatory wildlife threatening the perimeter. Rather than simply fighting on the open paths, the initiate is sent directly into the dark caves to the south to thin the local ursera packs and confront their broodmother.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat of Urs'anah",
+   "body": "The local rangers have long noted the ferocity of the ursera, but none poses a greater threat to the haven than Urs'anah, their formidable matriarch. Sheltered deep within Thendal Cave, she directs her scavengers and aggressively defends her lair. Bringing back her severed head serves as definitive proof that an adventurer is capable of handling ferocious beasts and is ready to push beyond the borders of the starting grove.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who assigns the task to kill Urs'anah?",
+   "aliases": [
+    "who gives foul matriarch",
+    "foul matriarch quest giver",
+    "who is aetheen of the gales"
+   ],
+   "answer": "Aetheen of the Gales offers the trial from Thendal Village. She monitors promising newcomers who have gained the notice of local figures like Rorian before testing their mettle with this dangerous hunt."
+  },
+  {
+   "q": "Where can Urs'anah and the ursera scavengers be found?",
+   "aliases": [
+    "urs'anah location",
+    "where is ursanah",
+    "ursera cave zephras",
+    "thendal cave location"
+   ],
+   "answer": "Urs'anah and the ursera scavengers reside in the caves situated to the south and southwest of Thendal Village, up in the hills within Thendal Grove. The matriarch herself makes her den in the deep recesses of the cavern."
+  },
+  {
+   "q": "What is an ursera?",
+   "aliases": [
+    "what is an ursera",
+    "ursera lore",
+    "are ursera bears"
+   ],
+   "answer": "Ursera are aggressive, bear-like predators indigenous to the wilder crags of Zephras Isle. Left unchecked, their scavenging packs establish dens dangerously close to populated settlements like Thendal Village."
+  },
+  {
+   "q": "What does completing this hunt signify for an adventurer?",
+   "aliases": [
+    "why kill ursanah",
+    "importance of foul matriarch"
+   ],
+   "answer": "Slaying Urs'anah serves as a pivotal rite of passage. By overcoming both cultist interlopers and the grove's most dangerous wildlife, the hunter proves they are prepared to leave the sanctuary of Thendal Village and take on wider responsibilities across Zephras Isle."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "For Skyborne initiates, proving mastery over terrestrial predators like Urs'anah demonstrates ground-level self-sufficiency and readiness to venture beyond their secluded beginnings."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking a ferocious cave-dwelling matriarch like Urs'anah is an elemental test of beast-lore and martial resolve for emerging hunters."
+  }
+ ],
+ "keywords": [
+  "aetheen of the gales",
+  "foul matriarch",
+  "thendal cave",
+  "thendal grove",
+  "thendal village",
+  "urs'anah",
+  "ursera",
+  "zephras isle"
+ ],
+ "related": [
+  "quest:92471",
+  "quest:92473",
+  "zone:zephras"
+ ],
+ "attribution": [
+  "Foul Matriarch"
+ ]
+}

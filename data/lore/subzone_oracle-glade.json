@@ -1,0 +1,94 @@
+{
+ "key": "subzone:oracle-glade",
+ "type": "subzone",
+ "name": "Oracle Glade",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Oracle Glade"
+ },
+ "summary": "Nestled in northwestern Teldrassil, the Oracle Glade is a sacred woodland sanctuary home to the wondrous Oracle Tree and the World Tree's premier moonwell. Despite its serene purpose as a center of communion and vigilance, the glade faces constant harassment from encroaching Bloodfeather harpies.",
+ "sections": [
+  {
+   "title": "Heart of the Woodland",
+   "body": "The Oracle Glade rests quietly between Darnassus and Wellspring Lake, serving as a vital nexus of night elven communion with nature. At its center stands the Oracle Tree, an ancient specimen whose massive boughs evoke the silhouette of an eagle perched atop a bear. Nearby shimmers the first and most potent of Teldrassil's sacred moonwells, an oasis of lunar magic bathed in Elune's grace. Alongside the Circle of the Ancients, the Oracle Tree watches over the island boughs, shedding inscribed bark that acts as vital communiques to Archdruid Fandral Staghelm regarding the World Tree's health.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bough Besieged",
+   "body": "The glade's tranquility is fragile. Aggressive Bloodfeather harpies have descended upon the grove, establishing roosts among the high branches and threatening the sacred tree. Sentinels dispatched from Darnassus struggle to root out the avian scavengers, who actively harass traveling druids and taint the natural serenity of the moonwell. Travelers passing through the northern boughs must tread lightly, as the harpies strike swiftly at any who venture near their roosts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Oracle Tree?",
+   "aliases": [
+    "who is the oracle tree",
+    "oracle tree lore",
+    "talking tree teldrassil"
+   ],
+   "answer": "The Oracle Tree is an ancient, magically nurtured tree shaped like a great eagle resting upon a bear. It monitors the growth and health of Teldrassil, shedding inscribed bark containing detailed reports that the druids deliver directly to Archdruid Fandral Staghelm in Darnassus."
+  },
+  {
+   "q": "Why are harpies attacking the Oracle Glade?",
+   "aliases": [
+    "bloodfeather harpies",
+    "why harpies here",
+    "oracle glade enemies"
+   ],
+   "answer": "The Bloodfeather clan of harpies has nested in the high canopies of the glade, drawn by its untamed wilderness and magical vitality. They violently defend their roosts and harass the Oracle Tree, requiring local Sentinels to keep them contained."
+  },
+  {
+   "q": "What is the importance of the moonwell in this glade?",
+   "aliases": [
+    "oracle glade moonwell",
+    "first moonwell",
+    "teldrassil first moonwell"
+   ],
+   "answer": "The pool in the Oracle Glade is the very first and most powerful moonwell established on Teldrassil. It channels the sacred energies of Elune to nourish the surrounding forest and sustain kaldorei druids and priestesses who come to draw upon its waters."
+  },
+  {
+   "q": "Where is the Oracle Glade located?",
+   "aliases": [
+    "oracle glade location",
+    "where is oracle glade",
+    "how to get to oracle glade"
+   ],
+   "answer": "It is located in northwestern Teldrassil, just west of Wellspring Lake. A southern road connects the glade directly back to the main path circling outside the gates of Darnassus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The Oracle Glade represents the tender care required to nurse Teldrassil to fruition, housing the crown's most potent moonwell and a silent watcher that speaks directly to the Cenarion leadership."
+  },
+  {
+   "target": "class:Druid",
+   "text": "For druids of the wild, the Oracle Tree is a living partner in stewardship, offering written records of the land's health shed directly from its very bark."
+  }
+ ],
+ "keywords": [
+  "bloodfeather",
+  "fandral staghelm",
+  "harpies",
+  "moonwell",
+  "oracle glade",
+  "oracle tree",
+  "teldrassil",
+  "wellspring lake"
+ ],
+ "related": [
+  "zone:teldrassil",
+  "quest:940",
+  "quest:937",
+  "quest:7383",
+  "subzone:wellspring-lake",
+  "npc:fandral-staghelm",
+  "topic:sentinels",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "Oracle Glade"
+ ]
+}

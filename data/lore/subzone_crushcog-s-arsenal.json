@@ -1,0 +1,85 @@
+{
+ "key": "subzone:crushcog-s-arsenal",
+ "type": "subzone",
+ "name": "Crushcog's Arsenal",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Crushcog's Arsenal"
+ },
+ "summary": "Crushcog's Arsenal is an entrenched staging area nestled in the snowy hills of Dun Morogh between Ironforge and the gates of Gnomeregan. Dominated by a massive, sealed hangar door, it serves as an open-air munitions yard held by irradiated technicians and salvaged gnomish war machines.",
+ "sections": [
+  {
+   "title": "A Foothold in the Snow",
+   "body": "Situated along the frozen ridgelines between Gnomeregan and Ironforge, Crushcog's Arsenal stands before a reinforced, sealed hangar gate built into the rock. The staging ground outside is crawling with leper gnomes\u2014specifically irradiated technicians\u2014toiling over heavy mechanostriders, battle suits, and restored mechano-tanks. It serves as an unsettling reminder that the toxic madness gripping the fall of Gnomeregan continues to spill out into the snowy valleys of Dun Morogh.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Crushcog's Arsenal?",
+   "aliases": [
+    "crushcog arsenal",
+    "crushcogs arsenal",
+    "what is this place"
+   ],
+   "answer": "It is an outdoor staging post and munitions yard fronting a large, locked hangar in Dun Morogh. Positioned between Ironforge and Gnomeregan, the area is overrun by hostile leper gnomes and dangerous salvaged machinery."
+  },
+  {
+   "q": "Who controls this area?",
+   "aliases": [
+    "who is here",
+    "who lives here",
+    "crushcog enemies"
+   ],
+   "answer": "The yard is held by irradiated technicians, armed Crushcog battle suits, and repaired mechano-tanks, all aligned with the crazed leper gnomes pouring from the irradiated ruins of Gnomeregan."
+  },
+  {
+   "q": "Can you get inside the large hangar gate?",
+   "aliases": [
+    "open hangar",
+    "enter crushcogs arsenal",
+    "get inside gate"
+   ],
+   "answer": "No. The massive industrial gate behind the staging area remains firmly locked and sealed, leaving only the exterior yard accessible."
+  },
+  {
+   "q": "Why is this machinery out in the snow?",
+   "aliases": [
+    "why tanks here",
+    "crushcog mechs",
+    "leper gnome machines"
+   ],
+   "answer": "The leper technicians have assembled and repaired heavy suits and mechano-tanks outside Gnomeregan, using the yard as an assembly ground to project mechanical force across the Dun Morogh mountainsides."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Seeing gnomish ingenuity twisted into toxic warmachines right on the doorstep of Ironforge is an infuriating reminder of what Thermaplugg's treachery cost your people."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The salvaged mechano-tanks and battle suits prowling the yard demonstrate the dangerous resilience and destructive power of gnomish schematics when built without safety limiters."
+  }
+ ],
+ "keywords": [
+  "arsenal",
+  "battle suit",
+  "crushcog",
+  "dun morogh",
+  "gnomeregan",
+  "hangar",
+  "irradiated",
+  "mechano-tank"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "zone:gnomeregan",
+  "topic:gnome",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Crushcog's Arsenal"
+ ]
+}

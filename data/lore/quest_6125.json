@@ -1,0 +1,107 @@
+{
+ "key": "quest:6125",
+ "type": "quest",
+ "name": "Power over Poison",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   6125
+  ],
+  "level": "14",
+  "faction": "Alliance",
+  "start": "Dendrite Starblaze",
+  "end": "Mathrengyl Bearwalker",
+  "previous": "Curing the Sick (Alliance)",
+  "next": null,
+  "wiki": "Power over Poison (Alliance)",
+  "chain": []
+ },
+ "summary": "Power over Poison marks the culmination of a young druid's trial to master venomous afflictions. Having learned to brew an herbal remedy by hand in Darkshore, the initiate returns to Darnassus to receive the Cenarion Circle's magical blessing to cleanse toxins at will.",
+ "sections": [
+  {
+   "title": "The Student's Humility",
+   "body": "Before granting a druid the innate magical ability to purge toxins, the Cenarion Circle demands that initiates understand the suffering of common folk. In Darkshore, Dendrite Starblaze tasks young practitioners with gathering Earthroot and Lunaclaw venom manually, brewing a physical poultice to heal stricken wildlife and villagers. This lesson ensures that when a druid channels nature's power to cure poison, they do so with deep empathy for those who must fight venom without spiritual intervention.",
+   "spoiler": 0
+  },
+  {
+   "title": "Return to the Enclave",
+   "body": "Once the physical cure has proven effective in Auberdine, Starblaze sends the druid back across the sea to Darnassus. Within the boughs of the Cenarion Enclave, Mathrengyl Bearwalker awaits their return. Pleased with the initiate's grace under pressure, Mathrengyl formally bestows the art of natural cleansing, granting permanent mastery over venoms. Yet the trial also brings troubling news: the presence of virulent poisons in the wilds around Auberdine points to an unnatural blight disturbing the land's delicate balance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do power over poison",
+    "power over poison objective",
+    "cure poison quest"
+   ],
+   "answer": "This quest concludes the druid trial for curing poisons. After successfully preparing a physical salving mixture for Dendrite Starblaze in Moonglade and Darkshore, the student returns to Mathrengyl Bearwalker in Darnassus to learn the innate magical spell Cure Poison."
+  },
+  {
+   "q": "Who is Dendrite Starblaze?",
+   "aliases": [
+    "dendrite starblaze role",
+    "who gives power over poison"
+   ],
+   "answer": "Dendrite Starblaze is an elder druid stationed at the sacred haven of Nighthaven in Moonglade. He guides initiates through their spiritual trials, testing their patience and dedication to nature before sending them back to their home trainers."
+  },
+  {
+   "q": "Who is Mathrengyl Bearwalker?",
+   "aliases": [
+    "mathrengyl bearwalker lore",
+    "bearwalker darnassus"
+   ],
+   "answer": "Mathrengyl Bearwalker is a master druid trainer residing in the Cenarion Enclave in Darnassus. He oversees the development of night elf druids within the boughs of Teldrassil, teaching forms, restorative arts, and the solemn duties of the Cenarion Circle."
+  },
+  {
+   "q": "Why was the druid required to make a cure by hand first?",
+   "aliases": [
+    "why make herbal cure",
+    "lesson of power over poison"
+   ],
+   "answer": "Dendrite Starblaze teaches that a druid must understand the physical toll of poison and the labor required to treat it without magic. By gathering mundane ingredients and aiding the sick manually, the initiate learns humility and appreciation for the natural gifts they are about to receive."
+  },
+  {
+   "q": "What concerns Mathrengyl about the situation in Auberdine?",
+   "aliases": [
+    "auberdine poison lore",
+    "mathrengyl concern"
+   ],
+   "answer": "Mathrengyl notes that the sudden introduction of lethal toxins in the Darkshore wilds around Auberdine is unnatural. Disruptions to native wildlife and flora threaten the ecological balance, suggesting a corrupting influence at work along the misty coast."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This rite of passage bridges humble herbalism with sacred restorative magic, marking the moment a druid gains direct power to neutralize venom with nature's grace."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Undertaken in the Cenarion Enclave of Darnassus, this trial reflects the Kaldorei reverence for balance and the solemn stewardship of their ancient forests."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "cenarion enclave",
+  "cure poison",
+  "darnassus",
+  "dendrite starblaze",
+  "mathrengyl bearwalker",
+  "moonglade",
+  "power over poison"
+ ],
+ "related": [
+  "npc:mathrengyl-bearwalker",
+  "npc:dendrite-starblaze",
+  "subzone:cenarion-enclave",
+  "zone:darnassus",
+  "topic:druid",
+  "subzone:auberdine"
+ ],
+ "attribution": [
+  "Power over Poison (Alliance)"
+ ]
+}

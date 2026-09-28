@@ -1,0 +1,69 @@
+{
+ "key": "subzone:valley-of-bones",
+ "type": "subzone",
+ "name": "Valley of Bones",
+ "era": "classic",
+ "zone": "shendralas",
+ "meta": {
+  "wiki": "Valley of Bones"
+ },
+ "summary": "The Valley of Bones is a desolate canyon along the crags of Shen'dralas, choked with dust, ancient remains, and restless undead. Haunted by the lingering spirits of the Magram centaur clan and patrolled by dark necromancers, it is dominated by the colossal rib cages of mysterious ancient beasts known as the Dead Goliaths.",
+ "sections": [
+  {
+   "title": "A Canyon of the Restless Dead",
+   "body": "Tucked away in the southern reaches of the region, the Valley of Bones lives up to its grim name. Skeletal horrors walk the dusty ravines, raised and bound by centaur necromancers who draw upon dark sorceries. The spirits of deceased Magram centaur wander the wastes alongside them, bound to this barren earth long after their violent deaths. Adding to the canyon's ominous nature are the Dead Goliaths\u2014two immense skeletons slumped against the rocky cliffs whose true origin remains a total mystery to scholars and wanderers alike.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Dead Goliaths?",
+   "aliases": [
+    "giant bones",
+    "huge skeletons desolace",
+    "dead goliaths lore"
+   ],
+   "answer": "The Dead Goliaths are the colossal remains of two massive, unidentified creatures resting against the canyon walls. Little is known about what species they belonged to or when they died, though their sheer scale suggests beasts from an ancient, forgotten era."
+  },
+  {
+   "q": "Why are there centaur ghosts here?",
+   "aliases": [
+    "magram ghosts",
+    "why centaur spirits",
+    "undead centaur"
+   ],
+   "answer": "The spirits belong to the Magram clan, one of the violent centaur tribes native to these arid plains. Between the unending inter-clan warfare and the presence of centaur necromancers meddling with the dead, their spirits have been denied rest, haunting the canyon as wandering apparitions."
+  },
+  {
+   "q": "Who controls the skeletons in the valley?",
+   "aliases": [
+    "who commands skeletons",
+    "necromancers valley of bones"
+   ],
+   "answer": "Centaur necromancers practice dark rites within the canyon, raising and commanding skeletal minions to guard the crags and maintain their foothold among the dead."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "The desecration of spirits in the valley is severe, as dark practitioners pervert the natural transition of death by binding Magram souls and raising twisted skeletal servitors."
+  }
+ ],
+ "keywords": [
+  "centaur",
+  "dead goliaths",
+  "magram",
+  "necromancers",
+  "shen'dralas",
+  "skeletons",
+  "valley of bones"
+ ],
+ "related": [
+  "zone:shendralas",
+  "zone:desolace",
+  "topic:centaur"
+ ],
+ "attribution": [
+  "Valley of Bones"
+ ]
+}

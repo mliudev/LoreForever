@@ -1,0 +1,119 @@
+{
+ "key": "quest:3924",
+ "type": "quest",
+ "name": "Samophlange Manual",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   3924
+  ],
+  "level": "19",
+  "faction": "Horde",
+  "start": "Rilli Greasygob",
+  "end": "",
+  "previous": "Rilli Greasygob (quest)",
+  "next": null,
+  "wiki": "Samophlange Manual (quest)",
+  "chain": []
+ },
+ "summary": "Samophlange Manual is a quest given by goblin engineer Rilli Greasygob in Orgrimmar. Determined to repair a broken samophlange, Rilli sends adventurers back into the Barrens to wrest the device's proprietary operating instructions from his former Venture Company rival.",
+ "sections": [
+  {
+   "title": "Corporate Rivalries and Trade Secrets",
+   "body": "Within the mercenary ranks of the Venture Company, technical knowledge is currency. Rilli Greasygob previously worked alongside Boss Copperplug, an overseer who guarded the internal mechanics of the mysterious samophlange with paranoid secrecy. Rather than sharing the manual, Copperplug parceled out individual pages only to trusted underlings, leaving peers like Rilli completely in the dark regarding its inner workings.",
+   "spoiler": 0
+  },
+  {
+   "title": "Infiltration of Boulder Lode",
+   "body": "To decipher the complex contraption brought to him from the Barrens, Rilli sends travelers to infiltrate the Boulder Lode Mine in the northeastern Barrens. Recovering the manual requires tracking down Boss Copperplug directly and gathering whatever scattered pages he distributed among the mine's operations, finally assembling a complete guide to repairing the baffling device.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Samophlange Manual?",
+   "aliases": [
+    "what is the manual",
+    "samophlange manual item",
+    "user manual"
+   ],
+   "answer": "It is the technical user's guide detailing the mechanics and repair procedures of the samophlange, a complex and eccentric mechanical device utilized by the Venture Company."
+  },
+  {
+   "q": "Who is Boss Copperplug?",
+   "aliases": [
+    "copperplug",
+    "who is copperplug",
+    "boss copperplug"
+   ],
+   "answer": "Boss Copperplug is a Venture Company overseer stationed at the Boulder Lode Mine in the northeastern Barrens. He is a former rival of Rilli Greasygob who jealously hoarded the operating secrets and manual pages of the samophlange."
+  },
+  {
+   "q": "Where is the Boulder Lode Mine located?",
+   "aliases": [
+    "boulder lode location",
+    "where is boulder lode",
+    "find boulder lode mine"
+   ],
+   "answer": "The Boulder Lode Mine is carved into the mountains in the northeastern region of the Barrens, north of the Crossroads and west of the coastline."
+  },
+  {
+   "q": "Why does Rilli Greasygob need the manual?",
+   "aliases": [
+    "why rilli wants manual",
+    "why fix samophlange"
+   ],
+   "answer": "Rilli believes he can successfully repair and operate the broken samophlange brought to him from the Barrens, but the contraption's proprietary and convoluted design requires its official operating instructions."
+  },
+  {
+   "q": "How does Sputtervalve fit into this task?",
+   "aliases": [
+    "sputtervalve connection",
+    "ratchet goblin sputtervalve"
+   ],
+   "answer": "Sputtervalve is an associate based in Ratchet who originally sought information about the device and stays in touch with Rilli, sending word of gratitude and compensation for securing the machine's schematics."
+  },
+  {
+   "q": "What happens after the manual is returned?",
+   "aliases": [
+    "quest conclusion",
+    "does rilli fix it"
+   ],
+   "answer": "Rilli enthusiastically takes the manual to study its contents in hopes of finally getting the machine working, though fixing such an arcane contraption remains an ongoing mechanical puzzle."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers can appreciate the absurd secrecy of goblin corporate intellectual property, where complex schematics are torn apart and hoarded to prevent colleagues from duplicating inventions."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Assisting goblin specialists inside Orgrimmar helps secure valuable technical salvage while striking back against the predatory operations of the Venture Company in nearby territories."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "boss copperplug",
+  "boulder lode mine",
+  "manual",
+  "orgrimmar",
+  "rilli greasygob",
+  "samophlange",
+  "sputtervalve",
+  "venture company"
+ ],
+ "related": [
+  "quest:3923",
+  "quest:894",
+  "npc:sputtervalve",
+  "subzone:boulder-lode-mine",
+  "topic:venture-company",
+  "zone:orgrimmar",
+  "subzone:ratchet"
+ ],
+ "attribution": [
+  "Samophlange Manual (quest)"
+ ]
+}

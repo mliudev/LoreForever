@@ -1,0 +1,115 @@
+{
+ "key": "npc:volcor",
+ "type": "npc",
+ "name": "Volcor",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Volcor",
+  "refs": 3
+ },
+ "summary": "Volcor is an injured night elf scout stranded deep within Blackwood Den in northern Darkshore. Trapped by hostile Blackwood furbolgs, he relies on his faithful companion Grimclaw and the aid of Auberdine's defenders to escape.",
+ "sections": [
+  {
+   "title": "Trapped in the Den",
+   "body": "While tracking the corrupted Blackwood tribe in their subterranean lair, Volcor was ambushed and severely wounded. Unable to fight his way past the hostile furbolgs on his own, he sent his loyal bear companion, Grimclaw, out into the wilds of Darkshore to seek help from the settlement of Auberdine.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Way to Freedom",
+   "body": "Once contacted by scouts alerted by Terenthis, Volcor offers two avenues of escape depending on his savior's strengths. Those who favor direct action can carve a bloody path through the cave's defenders, while those adept at subterfuge can use cunning and quiet movement to slip past the sentries unnoticed.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Volcor located?",
+   "aliases": [
+    "volcor location",
+    "where is volcor",
+    "find volcor"
+   ],
+   "answer": "Volcor is hidden deep inside Blackwood Den, a furbolg cave located in northern Darkshore, just east of the main road heading north from Auberdine."
+  },
+  {
+   "q": "Why is Volcor trapped in Blackwood Den?",
+   "aliases": [
+    "why is volcor in a cave",
+    "what happened to volcor"
+   ],
+   "answer": "He was scouting the Blackwood furbolgs when he was attacked and wounded. Cut off from the cave entrance, he could not bypass the hostile sentries without aid."
+  },
+  {
+   "q": "Who is Grimclaw?",
+   "aliases": [
+    "who is the bear",
+    "volcor bear",
+    "grimclaw lore"
+   ],
+   "answer": "Grimclaw is Volcor's loyal bear companion. When Volcor was trapped, he sent Grimclaw out to find help in Auberdine, which ultimately alerted the scout Terenthis."
+  },
+  {
+   "q": "How can you help Volcor escape?",
+   "aliases": [
+    "escape through force or stealth",
+    "volcor escort quest",
+    "rescue volcor"
+   ],
+   "answer": "Volcor allows you to choose your method of rescue: you can either fight your way out through the cave's furbolg guards in a frontal assault, or sneak past them using stealth."
+  },
+  {
+   "q": "Who sent you to find Volcor?",
+   "aliases": [
+    "who gave the volcor quest",
+    "terenthis connection"
+   ],
+   "answer": "Terenthis, a night elf sentinel stationed in Auberdine, directs adventurers to look for Volcor after Grimclaw is found wandering without his master."
+  },
+  {
+   "q": "What tribe of furbolgs attacked him?",
+   "aliases": [
+    "which furbolgs",
+    "blackwood furbolgs"
+   ],
+   "answer": "The Blackwood tribe, a corrupted group of furbolgs native to northern Darkshore that has succumbed to madness and hostility."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Volcor's plight illustrates the growing danger facing the Kaldorei in Darkshore as formerly peaceful furbolg allies fall to corruption."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The bond between Volcor and Grimclaw mirrors the deep connection druids share with nature's beasts, making his rescue a matter of natural balance."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Volcor appreciates tactical finesse, offering rogues the chance to bypass the Blackwood guards quietly rather than relying on brute force."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "blackwood den",
+  "darkshore",
+  "escape through force",
+  "escape through stealth",
+  "furbolg",
+  "grimclaw",
+  "terenthis",
+  "volcor"
+ ],
+ "related": [
+  "quest:986",
+  "subzone:blackwood-den",
+  "npc:terenthis",
+  "subzone:auberdine",
+  "quest:994",
+  "quest:995",
+  "zone:darkshore",
+  "topic:furbolg"
+ ],
+ "attribution": [
+  "Volcor"
+ ]
+}

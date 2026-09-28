@@ -1,0 +1,91 @@
+{
+ "key": "npc:ebru",
+ "type": "npc",
+ "name": "Ebru",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "wiki": "Ebru",
+  "refs": 1
+ },
+ "summary": "Ebru is a night elf druid sheltering in the crags above the Wailing Caverns. As one of Archdruid Naralex's few remaining uncorrupted disciples, she watches helplessly as her master's dream of restoring the Barrens curdles into a nightmare. From her perch, she enlists travelers brave enough to enter the subterranean depths to cull the mutated horrors spawned by the Nightmare.",
+ "sections": [
+  {
+   "title": "A Watch Above the Descent",
+   "body": "While most of Archdruid Naralex's followers succumbed to the emerald corruption creeping through the caverns, Ebru managed to escape the nightmare's grasp. Camped inside the cavernous skull formation overlooking the entrance to the Wailing Caverns, she keeps vigil over the descent. She knows that Naralex's noble plan\u2014to tap subterranean springs and transform the arid Barrens into lush woodland\u2014has gone horribly awry, and she desperately directs willing adventurers to eliminate the burgeoning deviate beasts threatening to overrun the surrounding plains.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of Corruption",
+   "body": "The nightmare twisted not only the ecosystem of the caves, but also Ebru's fellow disciples, turning them into the fanatical Druids of the Fang. Stripped of her companionship and facing the ruin of her circle, Ebru focuses on containment. Items bearing her name, lost amidst the chaotic descent into madness, still circulate deep within the subterranean ecosystem, carried by mutated monstrosities that roam the dark.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ebru?",
+   "aliases": [
+    "who is ebru",
+    "ebru lore",
+    "about ebru"
+   ],
+   "answer": "Ebru is a night elf druid and an uncorrupted disciple of Archdruid Naralex. She resides in a cave high above the entrance to the Wailing Caverns, watching over the site and coordinating efforts to stem the corruption spilling out into the Barrens."
+  },
+  {
+   "q": "Why is Ebru located above the Wailing Caverns?",
+   "aliases": [
+    "where is ebru",
+    "why is ebru up here",
+    "ebru cave location"
+   ],
+   "answer": "She fled upward when Naralex's ritual collapsed into the Emerald Nightmare, turning her fellow disciples into hostile zealots. Her perch in the crag above the cave entrance allows her to monitor the caverns while staying safe from the feral horrors inside."
+  },
+  {
+   "q": "What happened to Naralex and his other disciples?",
+   "aliases": [
+    "what happened to the disciples",
+    "naralex fate",
+    "druids of the fang origin"
+   ],
+   "answer": "Naralex entered a deep trance to tap the underground springs, but his mind became trapped within the Emerald Nightmare. The resulting corruption twisted the cave's flora and fauna and drove most of his disciples mad, transforming them into the Druids of the Fang."
+  },
+  {
+   "q": "What does Ebru ask travelers to do?",
+   "aliases": [
+    "ebru quests",
+    "deviate eradication",
+    "cleansing the caverns"
+   ],
+   "answer": "Ebru urges adventurers to delve into the depths of the Wailing Caverns to cull the deviate beasts and strike back against the mutated monstrosities born from her master's tormented dreams."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids of the Cenarion Circle, encountering Ebru is a stark reminder of the terrible dangers inherent in walking the Emerald Dream and the catastrophic cost of losing control."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Ebru represents the small, isolated enclave of night elves operating deep within the arid heart of Kalimdor, far from the ancient boughs of Ashenvale and Teldrassil."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "cenarion circle",
+  "deviate",
+  "druid",
+  "ebru",
+  "naralex",
+  "wailing caverns"
+ ],
+ "related": [
+  "zone:wailing",
+  "npc:naralex",
+  "quest:1487",
+  "zone:barrens",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Ebru"
+ ]
+}

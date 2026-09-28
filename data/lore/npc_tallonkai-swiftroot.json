@@ -1,0 +1,106 @@
+{
+ "key": "npc:tallonkai-swiftroot",
+ "type": "npc",
+ "name": "Tallonkai Swiftroot",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Tallonkai Swiftroot",
+  "refs": 7
+ },
+ "summary": "Tallonkai Swiftroot is a night elf resident of Dolanaar in Teldrassil. Concerned with the emerging corruption tainting the great boughs, he enlists young adventurers to recover enchanted relics and stem the foul forces plaguing the woods.",
+ "sections": [
+  {
+   "title": "A Sentinel of Dolanaar",
+   "body": "Dwelling in the canopy settlement of Dolanaar, Tallonkai Swiftroot keeps a watchful eye over the surrounding woods. Like many night elves living beneath the boughs of the newly grown World Tree, he is alarmed by the unnatural agitation of the wildlife and the unsettling shadows gathering at the edges of their settlements.",
+   "spoiler": 0
+  },
+  {
+   "title": "Threats in the Canopy",
+   "body": "Tallonkai directs adventurers to confront foul entities disturbing Teldrassil's peace. His concerns include corrupted dream catchers crafted to protect sleeping druids, vicious gnarlpine furbolgs succumbing to a dark malaise, and the foul harpies led by figures such as Ferocitas the Dream Eater. To Tallonkai, cleansing these disturbances is crucial to defending the fragile home of the Kaldorei.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tallonkai Swiftroot?",
+   "aliases": [
+    "who is tallonkai",
+    "tallonkai swiftroot",
+    "dolanaar questgiver"
+   ],
+   "answer": "Tallonkai Swiftroot is a night elf quest giver stationed in Dolanaar on the boughs of Teldrassil, dedicated to safeguarding the settlement from local threats."
+  },
+  {
+   "q": "Where can I find Tallonkai Swiftroot?",
+   "aliases": [
+    "tallonkai location",
+    "where is tallonkai",
+    "find tallonkai swiftroot"
+   ],
+   "answer": "He is located in the town of Dolanaar, the central night elf village found just outside Shadowglen in Teldrassil."
+  },
+  {
+   "q": "What tasks does Tallonkai give?",
+   "aliases": [
+    "tallonkai quests",
+    "what does tallonkai want"
+   ],
+   "answer": "He asks travelers to retrieve the Emerald Dreamcatcher from the gnarlpine furbolgs, defeat the harpy Ferocitas the Dream Eater, and confront the warped gnarlpine threat in quests like Twisted Hatred."
+  },
+  {
+   "q": "Why is he concerned about the dreamcatchers?",
+   "aliases": [
+    "emerald dreamcatcher lore",
+    "why dreamcatchers"
+   ],
+   "answer": "Dreamcatchers are sacred night elf talismans tied to the Emerald Dream, used to ward against nightmares and dark visions. Their theft and corruption by hostile creatures poses a spiritual danger to the local druids and denizens of Teldrassil."
+  },
+  {
+   "q": "Who is Ferocitas the Dream Eater?",
+   "aliases": [
+    "who is ferocitas",
+    "ferocitas lore"
+   ],
+   "answer": "Ferocitas the Dream Eater is a notorious harpy matriarch in Teldrassil who feeds on the lingering nightmares and corrupted energies of the land, threatening the balance of the forest."
+  },
+  {
+   "q": "What is causing the unrest Tallonkai fights against?",
+   "aliases": [
+    "why are furbolgs mad",
+    "twisted hatred lore"
+   ],
+   "answer": "A growing sickness and unnatural corruption has seeped into Teldrassil, driving previously peaceful creatures like the gnarlpine furbolgs into violent madness."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Tallonkai Swiftroot represents the vigilance needed to protect Teldrassil during its vulnerable early years, asking young Kaldorei to purge corruption taking root in their new home."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Tallonkai's concerns center on relics that tether minds safely to the Emerald Dream, making his requests deeply relevant to druidic spiritual traditions."
+  }
+ ],
+ "keywords": [
+  "dolanaar",
+  "dreamcatcher",
+  "ferocitas",
+  "tallonkai swiftroot",
+  "teldrassil",
+  "twisted hatred"
+ ],
+ "related": [
+  "subzone:dolanaar",
+  "zone:teldrassil",
+  "quest:2438",
+  "quest:2459",
+  "quest:932",
+  "topic:emerald-dream",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Tallonkai Swiftroot"
+ ]
+}

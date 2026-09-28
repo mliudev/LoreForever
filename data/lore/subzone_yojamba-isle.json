@@ -1,0 +1,86 @@
+{
+ "key": "subzone:yojamba-isle",
+ "type": "subzone",
+ "name": "Yojamba Isle",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Yojamba Isle"
+ },
+ "summary": "Yojamba Isle is a cluster of small tropical islets off the northwestern coast of Stranglethorn Vale, near the waters leading up to Westfall. It serves as an offshore encampment for the scholarly Zandalar Tribe, who have established a foothold here to observe the growing crisis in the jungle. From these shores, the Zandalari seek willing champions from both the Horde and the Alliance to confront the ancient horrors awakening in Zul'Gurub.",
+ "sections": [
+  {
+   "title": "The Emissaries of Zandalar",
+   "body": "While most trolls encountered across Stranglethorn Vale are hostile to outsiders, the Zandalar tribe dwelling on Yojamba Isle maintain an uneasy neutrality. As the ancient priests and lorekeepers of troll civilization, the Zandalari have watched with mounting dread as the Gurubashi trolls within Zul'Gurub turned to Hakkar the Soulflayer. Knowing the world-ending danger a fully summoned blood god represents, the Zandalari have ventured far from their ancestral home to establish this staging ground, calling upon any capable adventurer\u2014regardless of faction\u2014to aid in curbing the threat.",
+   "spoiler": 0
+  },
+  {
+   "title": "Guarded Waters",
+   "body": "The island rests quietly along the coastline northwest of the Vile Reef and the ruins that haunt the mainland beaches. To the north lies the massive hidden sea-gate of Ironclad Cove, while the surrounding shallows are frequented by wandering sea beasts. Despite its precarious location, the Zandalari camp functions as a tranquil sanctuary where exotic rituals, sacred altars, and ancient knowledge provide solace and power to those preparing to march deep into the jungle's darkest ruins.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the trolls on Yojamba Isle friendly?",
+   "aliases": [
+    "friendly trolls yojamba",
+    "why don't yojamba trolls attack",
+    "zandalar friendly"
+   ],
+   "answer": "These trolls belong to the Zandalar Tribe, the revered caste of priests and historians of the troll race. Unlike the territorial Bloodscalp or Skullsplitter tribes inland, the Zandalari have come on an urgent mission to stop Hakkar the Soulflayer in Zul'Gurub, and they recognize that they need the help of outside champions from both the Horde and the Alliance to achieve it."
+  },
+  {
+   "q": "Where is Yojamba Isle located?",
+   "aliases": [
+    "yojamba isle location",
+    "how to get to yojamba",
+    "where is yojamba"
+   ],
+   "answer": "Yojamba Isle is situated in the far northwestern sea of Stranglethorn Vale. It lies just off the coast northwest of the Vile Reef, near the maritime boundary where the southern sea borders Westfall."
+  },
+  {
+   "q": "What is the Zandalar Tribe doing out here?",
+   "aliases": [
+    "zandalar purpose",
+    "what do zandalari want",
+    "why are zandalar here"
+   ],
+   "answer": "They have established a forward camp to monitor the dangerous resurgence of Hakkar the Soulflayer within Zul'Gurub. From Yojamba Isle, their emissaries recruit, supply, and reward powerful adventurers who are willing to enter the ancient troll city and defeat the corrupted priesthood before Hakkar's full power is unleashed upon Azeroth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls, meeting the Zandalari is an encounter with the ancient ancestral root of troll civilization, whose traditions, prestige, and demands command deep cultural reverence."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance adventurers might be startled to find a peaceful troll encampment so close to Westfall, but the Zandalari put politics aside in the face of the cataclysmic threat of the Soulflayer."
+  }
+ ],
+ "keywords": [
+  "blood god",
+  "hakkar",
+  "stranglethorn",
+  "vile reef",
+  "yojamba island",
+  "yojamba isle",
+  "zandalar",
+  "zandalari",
+  "zul'gurub"
+ ],
+ "related": [
+  "subzone:zul-gurub",
+  "zone:stranglethorn",
+  "subzone:vile-reef",
+  "subzone:ironclad-cove",
+  "zone:westfall",
+  "topic:troll",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Yojamba Isle"
+ ]
+}

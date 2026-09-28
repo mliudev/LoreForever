@@ -1,0 +1,89 @@
+{
+ "key": "subzone:anvilmar",
+ "type": "subzone",
+ "name": "Anvilmar",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Anvilmar"
+ },
+ "summary": "Anvilmar is a fortified dwarven outpost nestled in the snowy depths of Coldridge Valley in Dun Morogh. Centered around a massive stone forge, it serves as the primary training grounds and rallying point for young Bronzebeard dwarves and displaced gnomish refugees beginning their adventures.",
+ "sections": [
+  {
+   "title": "The Hearth of Coldridge",
+   "body": "Tucked away in the northern crags of Coldridge Valley, Anvilmar stands as an enduring symbol of dwarven perseverance. Dominated by a roaring central forge, this sturdy masonry complex houses class mentors, supply vendors, and veteran mountain mountaineers who drill recruits before sending them out into the wider kingdom. Though sheltered behind towering drifts, the settlement remains on constant guard against the hostile Frostmane trolls and aggressive wild beasts prowling the frozen valley.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Legacy of Iron and Trolls",
+   "body": "The settlement likely takes its proud name from High King Modimus Anvilmar, the ancient sovereign who ruled all dwarven clans before the War of the Three Hammers. However, its history has not been without strife. In bygone days, a towering Frostmane troll managed to breach the perimeter and lay waste to the enclave. Today, the garrison remains vigilant, ensuring the forge fires stay lit and no such disaster ever strikes the starting grounds again.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Anvilmar?",
+   "aliases": [
+    "what is anvilmar",
+    "anvilmar location",
+    "anvilmar overview"
+   ],
+   "answer": "Anvilmar is a dwarven stronghold and settlement located in northern Coldridge Valley within Dun Morogh. It functions as the initial staging post and training hub for newly recruited dwarven and gnomish adventurers."
+  },
+  {
+   "q": "Why is it named Anvilmar?",
+   "aliases": [
+    "who was anvilmar",
+    "anvilmar name origin",
+    "name meaning"
+   ],
+   "answer": "The outpost is named after the Anvilmar bloodline, most notably High King Modimus Anvilmar, who united the Bronzebeard, Wildhammer, and Dark Iron clans centuries ago prior to the War of the Three Hammers."
+  },
+  {
+   "q": "What threats does Anvilmar face?",
+   "aliases": [
+    "anvilmar enemies",
+    "who attacks anvilmar",
+    "threats to anvilmar"
+   ],
+   "answer": "The outpost faces constant danger from the native Frostmane trolls occupying the crags of Coldridge Valley, as well as dangerous local wildlife like wolves and wendigos. Historically, a giant Frostmane troll even managed to rampage through the settlement."
+  },
+  {
+   "q": "Can you learn professions here?",
+   "aliases": [
+    "professions in anvilmar",
+    "anvilmar forge",
+    "blacksmithing anvilmar"
+   ],
+   "answer": "While Anvilmar features a roaring forge suitable for smithing and smelting, there are no professional tradeskill trainers stationed here. Young recruits must venture further into Dun Morogh, such as to Kharanos or Ironforge, to formally learn crafting arts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, Anvilmar represents the beginning of the journey into the world, bearing the honored name of the ancient High King who once ruled a unified dwarven kingdom."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomes taking shelter here after the fall of Gnomeregan find stout dwarven allies, warm hearths, and instructors ready to help them adapt to the frozen wilderness."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "forge",
+  "frostmane",
+  "modimus anvilmar",
+  "starting zone"
+ ],
+ "related": [
+  "subzone:coldridge-valley",
+  "zone:dunmorogh",
+  "subzone:coldridge-pass",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Anvilmar"
+ ]
+}

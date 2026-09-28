@@ -1,0 +1,92 @@
+{
+ "key": "npc:farmer-furlbrow",
+ "type": "npc",
+ "name": "Farmer Furlbrow",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Farmer Furlbrow",
+  "refs": 2
+ },
+ "summary": "Farmer Theodore Furlbrow is an evicted Westfall pumpkin farmer stranded alongside his wife Verna on the road near the Jansen Stead. Driven from their home by the Defias Brotherhood, the couple is trying to repair their broken wagon and flee into Elwynn Forest.",
+ "sections": [
+  {
+   "title": "A Life Packed on a Wagon",
+   "body": "Theodore Furlbrow once cultivated a pumpkin patch in northern Westfall, but the rising criminal tide forced him and his wife, Verna, to abandon everything they owned. Gathering whatever they could salvage, they set out toward the safety of Elwynn Forest, urging neighbors like Farmer Saldean to follow suit. Disaster struck along the road near the Jansen Stead when their wagon broke down, leaving them stranded in plain sight of bandits and wild beasts. While Verna tends to their beloved horse Old Blanchy, Theodore watches the road with growing despair, desperate to recover cherished possessions\u2014such as the pocket watch given to him by Verna's father on their wedding day\u2014and hoping to warn Sentinel Hill about the bandits closing in.",
+   "spoiler": 0
+  },
+  {
+   "title": "Evidence of Land Seizure",
+   "body": "When Furlbrow fled his farm, he left behind critical legal paperwork, including the deed to his property. Adventurers who explore the overrun farmsteads often discover these abandoned documents, providing tangible proof of how the Defias Brotherhood drove honest working folk off their land. Gryan Stoutmantle and the People's Militia rely on such evidence to catalog the scope of the thieves' rebellion across the province.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Farmer Furlbrow?",
+   "aliases": [
+    "farmer furlbrow",
+    "theodore furlbrow",
+    "who is furlbrow"
+   ],
+   "answer": "Theodore Furlbrow is a displaced pumpkin farmer from northern Westfall. He and his wife Verna were forced off their homestead by the Defias Brotherhood and are currently stranded beside their broken wagon near the Jansen Stead."
+  },
+  {
+   "q": "Why is Farmer Furlbrow stranded on the road?",
+   "aliases": [
+    "why is his wagon broken",
+    "why is furlbrow on the road",
+    "broken cart westfall"
+   ],
+   "answer": "While fleeing Westfall for the safety of Elwynn Forest, his wagon suffered a breakdown. Until he can fix the wagon or find help, he and his wife are stuck squatting along the roadside with their old horse, Blanchy."
+  },
+  {
+   "q": "What heirloom did Farmer Furlbrow lose?",
+   "aliases": [
+    "forgotten heirloom watch",
+    "furlbrow watch",
+    "pocket watch"
+   ],
+   "answer": "During their rushed flight from the farm, Theodore left behind a cherished pocket watch given to him by Verna's father on their wedding day. He asks travelers brave enough to navigate the bandit-infested farmsteads to bring it back to him."
+  },
+  {
+   "q": "Does Farmer Furlbrow have any family outside Westfall?",
+   "aliases": [
+    "furlbrow family",
+    "furlbrow brother"
+   ],
+   "answer": "Theodore has a brother who works as a horsehand far to the north in Tarren Mill, in the Hillsbrad Foothills."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Theodore Furlbrow's plight represents the complete breakdown of civil authority in Westfall, where loyal citizens of the realm must abandon their homes with no royal soldiers to defend them."
+  }
+ ],
+ "keywords": [
+  "blanchy",
+  "defias",
+  "furlbrow",
+  "heirloom",
+  "jansen",
+  "pumpkin",
+  "theodore",
+  "verna",
+  "wagon",
+  "watch"
+ ],
+ "related": [
+  "npc:verna-furlbrow",
+  "quest:64",
+  "quest:184",
+  "quest:109",
+  "subzone:jansen-stead",
+  "npc:gryan-stoutmantle",
+  "topic:defias-brotherhood",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Farmer Furlbrow"
+ ]
+}

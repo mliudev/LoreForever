@@ -1,0 +1,126 @@
+{
+ "key": "quest:742",
+ "type": "quest",
+ "name": "The Ashenvale Hunt",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   742
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Bluff Runner Windstrider",
+  "end": "Senani Thunderheart",
+  "previous": null,
+  "next": "The Ashenvale Hunt (Ashenvale)",
+  "wiki": "The Ashenvale Hunt (Thunder Bluff)",
+  "chain": []
+ },
+ "summary": "The Ashenvale Hunt is a summons dispatched to young Horde champions visiting Thunder Bluff, urging them north into the dense canopy of Ashenvale. Delivered by the city's heralds, the call directs travelers to report to Senani Thunderheart at Splintertree Post to take part in a proving hunt.",
+ "sections": [
+  {
+   "title": "A Summons from the High Rise",
+   "body": "Within the serene heights of Thunder Bluff, runners keep the burgeoning Horde informed of opportunities beyond the borders of Mulgore. Bluff Runner Windstrider carries an open invitation aimed at proven adventurers looking for greater challenges. With the Horde establishing footholds deep in the ancient forest north of the Barrens, young warriors are called upon to bolster those outposts and test their survival skills in a far harsher environment.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Northern Frontier",
+   "body": "Ashenvale represents both rich resources and severe peril for the Horde. Two prominent encampments anchor the faction's presence in the territory: Splintertree Post along the main road, and a remote outpost perched upon the western coast at Zoram Strand. Arriving at Splintertree Post puts incoming recruits directly under the wing of Senani Thunderheart, a veteran outdoorswoman organizing a massive hunt designed to tame the wilderness and claim glory for the Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this quest in Thunder Bluff?",
+   "aliases": [
+    "who starts ashenvale hunt",
+    "quest giver ashenvale hunt",
+    "bluff runner windstrider"
+   ],
+   "answer": "Bluff Runner Windstrider offers this assignment to passing adventurers in Thunder Bluff. His duty is to alert capable fighters to the Horde's expansion efforts and point them toward remote outposts in need of aid."
+  },
+  {
+   "q": "Where is Splintertree Post located?",
+   "aliases": [
+    "splintertree post location",
+    "how to get to splintertree post",
+    "where is splintertree"
+   ],
+   "answer": "Splintertree Post is a fortified Horde settlement in eastern Ashenvale. To reach it, travel straight north across the Barrens border into Ashenvale, then follow the eastern forest trail as it leads deeper into the woods."
+  },
+  {
+   "q": "Who is Senani Thunderheart?",
+   "aliases": [
+    "senani thunderheart",
+    "who is senani",
+    "thunderheart npc"
+   ],
+   "answer": "Senani Thunderheart is a seasoned tauren tracker stationed at Splintertree Post. She coordinates the hunting efforts in Ashenvale, testing the strength and patience of Horde recruits against the local predators."
+  },
+  {
+   "q": "Why is the Horde hunting in Ashenvale?",
+   "aliases": [
+    "why hunt in ashenvale",
+    "ashenvale hunt purpose",
+    "horde ashenvale goals"
+   ],
+   "answer": "The Horde maintains an active expansion into Ashenvale to gather timber and secure strategic territory. The hunt itself serves to thin the perilous wild beasts threatening their camps while allowing young adventurers to prove their mettle in unfamiliar terrain."
+  },
+  {
+   "q": "What is the Zoram Strand mentioned in the briefing?",
+   "aliases": [
+    "what is zoram strand",
+    "zoram strand outpost",
+    "zoram outpost"
+   ],
+   "answer": "Zoram Strand is the Horde's coastal encampment on the far western shores of Ashenvale, facing the sea. It serves as a secondary naval foothold and bastion against naga and hostile forest dwellers."
+  },
+  {
+   "q": "What happens after reporting to Senani?",
+   "aliases": [
+    "what follows ashenvale hunt",
+    "next quest after senani",
+    "hunt continuation"
+   ],
+   "answer": "Once you report to Senani Thunderheart, she welcomes you to the outpost and immediately initiates you into the broader hunting tasks, directing you to stalk and conquer Ashenvale's fiercest beasts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren who have spent their trials upon the open plains of Mulgore, the dense and shadowed canopy of Ashenvale presents an unfamiliar, sacred challenge under the watchful eyes of their kin like Senani."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Splintertree Post and Zoram Strand are vital staging grounds for the Horde's northern supply lines, relying on fresh recruits to keep the wild beasts and hostile natives at bay."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Ashenvale's untamed prowlers offer hunters a chance to master tracking in dense woodland, far different from the dry, open savannas of the south."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "hunt",
+  "senani",
+  "splintertree",
+  "thunder bluff",
+  "thunderheart",
+  "windstrider",
+  "zoram strand"
+ ],
+ "related": [
+  "npc:senani-thunderheart",
+  "npc:bluff-runner-windstrider",
+  "subzone:splintertree-post",
+  "zone:ashenvale",
+  "subzone:zoram-strand",
+  "zone:barrens",
+  "quest:1008",
+  "topic:horde"
+ ],
+ "attribution": [
+  "The Ashenvale Hunt (Thunder Bluff)"
+ ]
+}

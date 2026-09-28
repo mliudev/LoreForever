@@ -1,0 +1,111 @@
+{
+ "key": "npc:interrogator-vishas",
+ "type": "npc",
+ "name": "Interrogator Vishas",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Interrogator Vishas",
+  "refs": 5
+ },
+ "summary": "Interrogator James Vishas is the Scarlet Crusade's master of torment, stationed deep within the Scarlet Monastery's Graveyard wing. Infamous for his shrill voice and sheer cruelty, he takes twisted pleasure in breaking captives and testing the limits of mortal flesh. Few who enter his torture chambers ever leave with their minds or bodies intact.",
+ "sections": [
+  {
+   "title": "The Grand Inquisitor's Scalpel",
+   "body": "Within the dark crypts and burial grounds of the Scarlet Monastery, Interrogator Vishas tends to the Crusade's captive enemies. While the zealots outside march in gleaming armor under banners of purity, Vishas represents the grim reality behind their crusade: unbridled sadism cloaked in religious righteous fury. He approaches interrogation not merely as an intelligence duty, but as a prized craft, reveling in the agony of Forsaken captives, captured Scourge, and any living travelers unlucky enough to be branded heretics.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Life of Quiet Domesticity",
+   "body": "Behind the bloody aprons and screams of the torture chamber, Vishas leads a bizarrely domestic double life. Outside the monastery walls, his family\u2014including his wife, Nancy Vishas, and his elder relative Grandpa Vishas\u2014resides peacefully in an isolated cottage on the eastern shores of Lordamere Lake in the Alterac Mountains. Vishas even carries gruesome tokens from his victims back into his personal life, having stripped a captive human named Vorrel Sengutz of his cherished wedding ring to present it as a gift to Nancy.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Interrogator Vishas be found?",
+   "aliases": [
+    "vishas location",
+    "where is interrogator vishas",
+    "vishas room"
+   ],
+   "answer": "Interrogator Vishas is located deep inside the Graveyard wing of the Scarlet Monastery, in Tirisfal Glades. He oversees a grim torture chamber lined with iron cages and bloodied racks."
+  },
+  {
+   "q": "Why does Vishas torture his prisoners?",
+   "aliases": [
+    "why is vishas torturing people",
+    "vishas motivation"
+   ],
+   "answer": "While the Scarlet Crusade justifies tormenting captives to root out Scourge corruption and extract information, Vishas personally delights in the pain he causes. He takes enormous personal pride in his cruelty, viewing torture as his artistic craft."
+  },
+  {
+   "q": "Who is Vorrel Sengutz?",
+   "aliases": [
+    "vorrel sengutz prisoner",
+    "who is the prisoner in the cage"
+   ],
+   "answer": "Vorrel Sengutz is a captive imprisoned and brutally tortured by Vishas inside the Monastery's Graveyard. Vishas subjected Vorrel to weeks of pain and stole his wedding band, intending it as a gift for his wife."
+  },
+  {
+   "q": "Where does Vishas' family live?",
+   "aliases": [
+    "nancy vishas location",
+    "grandpa vishas",
+    "vishas family house"
+   ],
+   "answer": "His family lives far from the Monastery, at an unassuming cottage situated along the eastern bank of Lordamere Lake in the Alterac Mountains. His wife Nancy and Grandpa Vishas dwell there quietly, seemingly detached from his atrocities."
+  },
+  {
+   "q": "Does Vishas only torture the undead?",
+   "aliases": [
+    "who does vishas torture",
+    "does vishas attack humans"
+   ],
+   "answer": "No. Although he particularly enjoys tormenting captured undead, the Scarlet Crusade views nearly all outsiders as infected or traitorous. Living humans and Alliance sympathizers like Vorrel Sengutz suffer the exact same agonizing fate under his knives."
+  },
+  {
+   "q": "What is Vishas' voice and demeanor like?",
+   "aliases": [
+    "vishas voice",
+    "vishas personality"
+   ],
+   "answer": "Vishas is infamous among those who face him for his grating, high-pitched voice, cackling laughter, and disturbing excitement whenever an opportunity presents itself to rip secrets from an unwilling victim."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, Vishas embodies the hypocritical malice of the living zealots, torturing captured undead out of pure spite while claiming to serve the Holy Light."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance heroes who discover Vishas' work quickly realize that the Scarlet Crusade no longer distinguishes between Scourge monsters and innocent living travelers."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Seeing Vishas invoke zealotry to sanctify horrific mutilation offers a chilling demonstration of how holy purpose can curdle into twisted madness."
+  }
+ ],
+ "keywords": [
+  "graveyard",
+  "interrogator vishas",
+  "james vishas",
+  "lordamere lake",
+  "nancy vishas",
+  "scarlet monastery",
+  "torture",
+  "vorrel sengutz"
+ ],
+ "related": [
+  "subzone:scarlet-monastery-graveyard",
+  "zone:scarlet",
+  "topic:scarlet-crusade",
+  "subzone:lordamere-lake",
+  "zone:alterac",
+  "topic:light"
+ ],
+ "attribution": [
+  "Interrogator Vishas"
+ ]
+}

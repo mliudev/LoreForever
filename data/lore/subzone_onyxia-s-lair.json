@@ -1,0 +1,93 @@
+{
+ "key": "subzone:onyxia-s-lair",
+ "type": "subzone",
+ "name": "Onyxia's Lair",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Onyxia's Lair"
+ },
+ "summary": "Onyxia's Lair is a subterranean cavern located deep within the Dragonmurk of Dustwallow Marsh. It serves as the nesting sanctuary and stronghold for Onyxia, broodmother of the black dragonflight. Inside its sweltering, magma-filled chambers, the great dragon watches over clutches of black dragon eggs.",
+ "sections": [
+  {
+   "title": "A Den of Magma and Ruin",
+   "body": "Carved into the treacherous mud and petrified wood of the Dragonmurk, the cavern entrance resembles the yawning maw of a dragon. Within, the cool rot of the marsh gives way to intense volcanic heat. Magma seeps from cracks in the obsidian stone, while subterranean tremors routinely shake the ceilings. The central chamber opens into a vast incubator where hundreds of black dragon eggs lie nested amid ash and embers, overseen by flightkin, dragonspawn guards, and Onyxia herself.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Broodmother's Retreat",
+   "body": "While Onyxia's brother Nefarian plots across the sea from Blackrock Spire, Onyxia has long maintained this secluded roost on Kalimdor to breed the next generation of the black dragonflight. The lair acts as a redoubt when her intricate political schemes unravel. Here, far from the courts of mortal kingdoms, she can abandon her human guises and take her true, terrible form as daughter of Deathwing.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where exactly is Onyxia's Lair?",
+   "aliases": [
+    "where is onyxia",
+    "onyxia location",
+    "how to find onyxia lair",
+    "dragonmurk cave"
+   ],
+   "answer": "The lair is situated in southern Dustwallow Marsh within the Dragonmurk, just beyond the Wyrmbog. The entrance is marked by massive dragon bones, smoldering terrain, and black dragonkin sentries guarding a stony fissure shaped like an open jaw."
+  },
+  {
+   "q": "What creatures dwell inside the lair?",
+   "aliases": [
+    "onyxia lair mobs",
+    "who lives in onyxia lair",
+    "what is inside"
+   ],
+   "answer": "The cavern is inhabited almost entirely by members of the black dragonflight. Broodmother Onyxia commands the deep chamber, surrounded by swarms of freshly hatched whelps, guardian dragonspawn, and mature black drakes."
+  },
+  {
+   "q": "Why is the cave so hot if it sits in a swamp?",
+   "aliases": [
+    "why is there lava in dustwallow",
+    "onyxia lair volcano"
+   ],
+   "answer": "Onyxia dug her lair deep into Kalimdor's crust, tapping into subterranean veins of magma. The extreme volcanic heat provides the scorching conditions necessary to incubate black dragon eggs, contrasting sharply with the cold mud of Dustwallow Marsh above."
+  },
+  {
+   "q": "Why is Onyxia hiding out in Kalimdor?",
+   "aliases": [
+    "why is onyxia here",
+    "why dustwallow marsh",
+    "onyxia kalimdor"
+   ],
+   "answer": "Dustwallow Marsh offers isolation and concealment. Its thick fogs, dismal quagmires, and dangerous wildlife keep mortal armies away, allowing the broodmother to replenish her flight's numbers undisturbed while she coordinates her covert meddling abroad."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions uncovering corruption in Stormwind, this cavern represents the heart of the conspiracy threatening the kingdom from afar."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Dustwallow Marsh borders Horde territory in the Barrens and Mulgore; allowing a black broodmother to hatch an army of dragons on Kalimdor poses an existential threat to all of the new Horde."
+  }
+ ],
+ "keywords": [
+  "black dragonflight",
+  "broodmother",
+  "dragonmurk",
+  "dustwallow",
+  "lair",
+  "onyxia",
+  "whelps",
+  "wyrmbog"
+ ],
+ "related": [
+  "npc:onyxia",
+  "subzone:dragonmurk",
+  "zone:dustwallow",
+  "topic:black-dragonflight",
+  "subzone:wyrmbog",
+  "npc:deathwing",
+  "zone:stormwind"
+ ],
+ "attribution": [
+  "Onyxia's Lair"
+ ]
+}

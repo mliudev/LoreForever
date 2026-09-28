@@ -1,0 +1,92 @@
+{
+ "key": "subzone:thalanaar",
+ "type": "subzone",
+ "name": "Thalanaar",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Thalanaar"
+ },
+ "summary": "Thalanaar is a secluded night elf outpost nestled directly on the border between the verdant wilds of Feralas and the arid canyons of Thousand Needles. Serving as the primary eastern gateway into Feralas for the Alliance, it offers tired travelers a vital hippogryph roost and shelter beneath the canopy. Though modest in size, it acts as a critical link between mainland Kalimdor and the remote stronghold of Feathermoon.",
+ "sections": [
+  {
+   "title": "Gateway to the Forgotten Wilderness",
+   "body": "Perched at the natural choke point where the baked sandstone of Thousand Needles gives way to the dense, misty canopy of Feralas, Thalanaar is the first sign of night elven presence awaiting travelers from the east. It is little more than a fortified grove with a few sturdy pavilions and sentinels on watch, yet its position is vital. The outpost shelters Alliance scouts, couriers, and craftsmen venturing into the untamed forest, providing a secure staging ground against the beasts, ogres, and Horde forces roaming Southern Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Vital Aerial Link",
+   "body": "Because overland travel through southern Kalimdor is fraught with peril, Thalanaar's primary function is logistics. Its hippogryph master links the secluded wilderness of Feralas directly to Theramore Isle across the sea, Gadgetzan in Tanaris, and the island bastion of Feathermoon Stronghold to the west. Craftsmen also make pilgrimage here to seek out master leatherworkers who teach the ancient art of working wild hides under the woodland boughs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Thalanaar?",
+   "aliases": [
+    "thalanaar overview",
+    "what is this place",
+    "thalanaar camp"
+   ],
+   "answer": "Thalanaar is a small night elven border camp situated at the eastern entrance to Feralas, right where the zone borders Thousand Needles. It acts as an Alliance outpost providing refuge, basic supplies, and flight transport."
+  },
+  {
+   "q": "Where can the flight master send me?",
+   "aliases": [
+    "thalanaar flight paths",
+    "where can i fly",
+    "flight master thalanaar"
+   ],
+   "answer": "Thalanaar's hippogryph roost connects to Feathermoon Stronghold off the western coast of Feralas, Theramore Isle in Dustwallow Marsh, and the neutral goblin port of Gadgetzan in Tanaris."
+  },
+  {
+   "q": "Why would crafters seek out Thalanaar?",
+   "aliases": [
+    "thalanaar trainers",
+    "leatherworking thalanaar",
+    "caryssia moonhunter"
+   ],
+   "answer": "The outpost is the home of Caryssia Moonhunter, a master trainer dedicated to the elusive tradition of Tribal Leatherworking, drawing skilled artisans from across Kalimdor."
+  },
+  {
+   "q": "Is Thalanaar safe for Horde adventurers?",
+   "aliases": [
+    "is thalanaar horde friendly",
+    "horde in thalanaar"
+   ],
+   "answer": "No. Thalanaar is firmly an Alliance settlement guarded by night elf sentinels who will attack any members of the Horde on sight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Thalanaar provides your first safe haven and reliable flight hub when marching westward from the treacherous mesas of Thousand Needles into the untamed jungles of Feralas."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The outpost serves as a sentinel station maintaining a vigilant eye over the border, welcoming kin back into the ancestral shadows of Feralas's ancient canopy."
+  }
+ ],
+ "keywords": [
+  "caryssia moonhunter",
+  "feathermoon",
+  "feralas",
+  "flight master",
+  "sentinels",
+  "thalanaar",
+  "thousand needles",
+  "tribal leatherworking"
+ ],
+ "related": [
+  "zone:feralas",
+  "zone:thousandneedles",
+  "subzone:feathermoon-stronghold",
+  "subzone:theramore-isle",
+  "subzone:gadgetzan",
+  "topic:night-elf",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Thalanaar"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "key": "subzone:feathermoon-stronghold",
+ "type": "subzone",
+ "name": "Feathermoon Stronghold",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Feathermoon Stronghold"
+ },
+ "summary": "Feathermoon Stronghold is the premier night elf military base in southern Kalimdor, situated securely on Sardor Isle off the Forgotten Coast of Feralas. Commanded by General Shandris Feathermoon, this fortified outpost projects Sentinel strength across the wild forest and keeps watch over regional threats.",
+ "sections": [
+  {
+   "title": "Sentinel Bastion of the South",
+   "body": "Perched on Sardor Isle across the channel from Feralas's mainland, Feathermoon Stronghold serves as the primary strategic base for the Sentinels in southern Kalimdor. Built among ancient elven groves and supplied with a sacred moonwell, the fortress houses archers, huntresses, and support staff under the direct supervision of General Shandris Feathermoon. From this insular sanctuary, the night elves project their influence over the verdant interior of Feralas, guarding against demonic corruption, hostile wildlife, and encroaching Horde expeditions.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Safe Haven in the Wilds",
+   "body": "Because the mainland of Feralas is thick with savage beasts, Gordunni ogres, and the tainted shadows of Dire Maul, Sardor Isle provides an essential defensive buffer. Alliance travelers rely on the ferry crossing from the Forgotten Coast to reach its fortified docks, repair their gear, and gather intelligence. The presence of Shandris Feathermoon\u2014adopted daughter to High Priestess Tyrande Whisperwind and a veteran of the Third War\u2014ensures that the stronghold remains an unassailable redoubt against all enemies of the kaldorei.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Feathermoon Stronghold located?",
+   "aliases": [
+    "feathermoon location",
+    "where is feathermoon",
+    "how to get to feathermoon stronghold"
+   ],
+   "answer": "Feathermoon Stronghold sits on Sardor Isle, an island positioned off the Forgotten Coast on the western edge of Feralas. Travelers must journey west across the forest to the coast and take a boat across the water to reach the island fortress."
+  },
+  {
+   "q": "Who commands Feathermoon Stronghold?",
+   "aliases": [
+    "who leads feathermoon",
+    "feathermoon leader",
+    "shandris feathermoon base"
+   ],
+   "answer": "The stronghold is commanded by General Shandris Feathermoon, supreme commander of the Sentinel army and adopted daughter of High Priestess Tyrande Whisperwind. She oversees all kaldorei military efforts throughout southern Kalimdor from this outpost."
+  },
+  {
+   "q": "Why is the stronghold located on an island instead of the mainland?",
+   "aliases": [
+    "why sardor isle",
+    "why is feathermoon on an island"
+   ],
+   "answer": "Sardor Isle offers natural oceanic defenses against the many dangers of mainland Feralas, which is overrun by savage beasts, Gordunni ogres, and lingering arcane and demonic perils. Positioning the fortress on an island provides a secure port that controls coastal waters while keeping mainland threats at bay."
+  },
+  {
+   "q": "Does Feathermoon Stronghold have a moonwell?",
+   "aliases": [
+    "feathermoon moonwell",
+    "is there a moonwell at feathermoon"
+   ],
+   "answer": "Yes, Feathermoon Stronghold maintains a sacred moonwell within its grounds. It provides spiritual focus, sustenance, and a source of holy water for the night elf garrison stationed far from their homeland in the north."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions braving southern Kalimdor, Feathermoon Stronghold provides vital supplies, flight paths, and quest headquarters amidst the hostile wilderness of Feralas."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "As the main Sentinel encampment south of Ashenvale, this fortress represents the resolve of the kaldorei to safeguard Kalimdor under the leadership of General Shandris Feathermoon."
+  }
+ ],
+ "keywords": [
+  "feathermoon",
+  "feathermoon stronghold",
+  "feralas",
+  "forgotten coast",
+  "kaldorei",
+  "moonwell",
+  "sardor isle",
+  "sentinels",
+  "shandris feathermoon"
+ ],
+ "related": [
+  "npc:shandris-feathermoon",
+  "zone:feralas",
+  "subzone:sardor-isle",
+  "subzone:forgotten-coast",
+  "topic:alliance",
+  "subzone:ruins-of-feathermoon"
+ ],
+ "attribution": [
+  "Feathermoon Stronghold"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "subzone:fire-plume-ridge",
+ "type": "subzone",
+ "name": "Fire Plume Ridge",
+ "era": "classic",
+ "zone": "ungoro",
+ "meta": {
+  "wiki": "Fire Plume Ridge"
+ },
+ "summary": "Fire Plume Ridge is the active volcano rising directly from the center of Un'Goro Crater. Its searing slopes and subterranean magma channels fuel the crater's geysers and steam pools while playing host to fierce fire elementals.",
+ "sections": [
+  {
+   "title": "The Hearth of the Crater",
+   "body": "Towering over the primeval basin of Un'Goro, Fire Plume Ridge stands in sharp contrast to the surrounding lush jungle. Lava steadily cascades down its scorched rock faces, carving a landscape of ash and basalt. Subterranean magma arteries spiderweb outward beneath the soil from the ridge, fueling the bubbling geysers and hot springs scattered across the basin. The oppressive heat here is legendary\u2014far exceeding ordinary volcanic temperatures according to goblin measuring devices\u2014making it perilous for ill-prepared explorers to wander without ample water and shade.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Den of Elementals",
+   "body": "The volcano is an elemental furnace teeming with living flame. Living flares and roving fire elementals patrol the glowing flows, drawn to the concentration of pure subterranean heat. Deep within a cavern near the volcanic summit resides Blazerunner, the undisputed master among Un'Goro's elemental denizens. Venturing high up the ridge means navigating both lethal heat and volatile elemental spirits that aggressively defend their fiery domain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the volcano in the middle of Un'Goro Crater?",
+   "aliases": [
+    "ungoro volcano name",
+    "volcano in center of ungoro",
+    "fire plume ridge location"
+   ],
+   "answer": "It is Fire Plume Ridge, an active volcano right in the center of Un'Goro Crater. Its molten channels feed the heat that warms the surrounding jungle and steam springs."
+  },
+  {
+   "q": "Who rules the elementals at Fire Plume Ridge?",
+   "aliases": [
+    "boss of fire plume ridge",
+    "blazerunner location",
+    "fire elemental boss ungoro"
+   ],
+   "answer": "The peak cavern is inhabited by Blazerunner, the most powerful fire elemental in Un'Goro Crater."
+  },
+  {
+   "q": "Why is there an explorer stranded inside the ridge?",
+   "aliases": [
+    "who is stranded in fire plume ridge",
+    "ringo ungoro",
+    "lost guy in volcano"
+   ],
+   "answer": "A goblin-allied adventurer named Ringo ventured onto the volcano to explore, but succumbed to severe heat exhaustion inside one of the southern caves, unable to escape without assistance."
+  },
+  {
+   "q": "How does the volcano affect the rest of Un'Goro?",
+   "aliases": [
+    "why is ungoro so hot",
+    "crater geothermal activity",
+    "shallow magma veins ungoro"
+   ],
+   "answer": "Shallow veins of magma run out from beneath Fire Plume Ridge beneath the entire crater floor, warming the earth and creating the numerous geysers, thermal vents, and steam pools found throughout the basin."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The spirits of fire burn furiously across the ridge, offering a vivid glimpse into the restless elemental powers churning beneath Kalimdor's crust."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The crags and heat-hardened slopes of the ridge are rich with exposed minerals, notably veins of dense Thorium formed by volcanic pressure."
+  }
+ ],
+ "keywords": [
+  "blazerunner",
+  "elementals",
+  "fire plume ridge",
+  "lava",
+  "ringo",
+  "ungoro",
+  "volcano"
+ ],
+ "related": [
+  "zone:ungoro",
+  "npc:ringo",
+  "subzone:steam-pools"
+ ],
+ "attribution": [
+  "Fire Plume Ridge"
+ ]
+}

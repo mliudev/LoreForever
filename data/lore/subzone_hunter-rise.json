@@ -1,0 +1,87 @@
+{
+ "key": "subzone:hunter-rise",
+ "type": "subzone",
+ "name": "Hunter Rise",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Hunter Rise"
+ },
+ "summary": "Hunter Rise is one of the elevated mesas making up the city of Thunder Bluff, situated just south of the central bluff. It serves as the primary training and gathering ground for the tauren's warriors, hunters, trackers, and skinners. Across its windswept platforms, young braves hone their martial skills and prepare for combat.",
+ "sections": [
+  {
+   "title": "The Gathering of Braves",
+   "body": "Connected to the neighboring bluffs by swaying rope bridges, Hunter Rise is dedicated to the martial traditions of the tauren. It is anchored by the Hunter's Hall, where experienced marksmen, trackers, and warriors pass down their discipline to younger generations. Surrounding the lodge are practice grounds outfitted with training dummies, weapon racks, and skinning posts, making it a bustling center for those who live by spear, bow, and hide.",
+   "spoiler": 0
+  },
+  {
+   "title": "Martial Duty and Defense",
+   "body": "Beyond hunting wild game across the plains of Mulgore, the inhabitants of Hunter Rise help ensure the defense of Thunder Bluff and the wider Horde. Battlemasters stationed along the rise recruit seasoned fighters to answer the call of skirmishes against Alliance incursions across contested battlegrounds. It remains an essential rallying point for anyone sworn to protect the herd.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Hunter Rise located?",
+   "aliases": [
+    "where is hunter rise",
+    "hunter rise location",
+    "how to get to hunter rise"
+   ],
+   "answer": "Hunter Rise is located on the southern side of Thunder Bluff. It is reached by crossing the wooden rope bridges that connect it to the lower rise and high rise mesas of the city."
+  },
+  {
+   "q": "Who lives and trains on Hunter Rise?",
+   "aliases": [
+    "who is on hunter rise",
+    "hunter rise trainers",
+    "what is on hunter rise"
+   ],
+   "answer": "The mesa is home to tauren hunters, warriors, trackers, trappers, and leatherworkers. In addition to class and profession trainers, Horde battlemasters make their stand here to recruit fighters for the faction's wars."
+  },
+  {
+   "q": "What is the Hunter's Hall?",
+   "aliases": [
+    "hunters hall",
+    "hunters lodge thunder bluff",
+    "thunder bluff hunter hall"
+   ],
+   "answer": "The Hunter's Hall is the primary longhouse on the rise where seasoned hunters and warriors congregate. It serves as an armory, school, and hearth for those learning the ways of tracking, marksmanship, and close combat."
+  },
+  {
+   "q": "Can members of the Alliance visit Hunter Rise?",
+   "aliases": [
+    "alliance on hunter rise",
+    "can alliance go to hunter rise"
+   ],
+   "answer": "No. Thunder Bluff is a major Horde capital city, and Hunter Rise is guarded by seasoned tauren braves. Any Alliance adventurer attempting to cross its bridges will be attacked immediately by city guards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For young tauren hunters, this rise is the natural heart of your calling in the capital, providing training, pet supplies, and guidance from master trackers."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "The grounds of Hunter Rise provide training dummies, combat mentors, and battlemasters eager to test your strength in the ongoing defense of the Horde."
+  }
+ ],
+ "keywords": [
+  "battlemasters",
+  "hunter rise",
+  "hunter's hall",
+  "mulgore",
+  "thunder bluff",
+  "trackers"
+ ],
+ "related": [
+  "zone:thunderbluff",
+  "subzone:high-rise",
+  "topic:tauren",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Hunter Rise"
+ ]
+}

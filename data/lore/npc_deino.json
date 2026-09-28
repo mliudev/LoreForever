@@ -1,0 +1,114 @@
+{
+ "key": "npc:deino",
+ "type": "npc",
+ "name": "Deino",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Deino",
+  "refs": 3
+ },
+ "summary": "Deino is a Darkspear troll mage trainer dwelling within the Valley of Spirits in Orgrimmar. Alongside her fellow practitioners, she teaches emerging arcanists how to master the arcane and harness volatile elemental forces. She also directs seasoned spellcasters across Kalimdor to unravel ancient magical anomalies and seek out reclusive tutors.",
+ "sections": [
+  {
+   "title": "The Valley's Arcanist",
+   "body": "Standing amidst the totems, huts, and tranquil waters of the Valley of Spirits, Deino offers instruction to Horde mages who find themselves in the orcish capital. Troll spellcasters traditionally walk a fine line between spiritual reverence and pure arcane mastery, and Deino represents this unique path within the Darkspear tribe, standing shoulder to shoulder with fellow instructors Enyo and Pephredo.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unraveling Arcane Mysteries",
+   "body": "Beyond fundamental spell craft, Deino tasks promising spellcasters with field research far beyond Durotar's red dust. She sends practitioners northward into the corrupted wilds of Ashenvale to gather the tainted Waters of Xavian and recover enchanted hair from the Laughing Sisters. When a student's power outgrows what Orgrimmar can offer, Deino points them toward remote masters, such as the hermit sorceress Tabetha in the swamplands of Dustwallow.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Deino?",
+   "aliases": [
+    "deino location",
+    "where is deino",
+    "deino orgrimmar"
+   ],
+   "answer": "Deino stands on the raised platforms in the Valley of Spirits in southwestern Orgrimmar, grouped alongside fellow troll mage trainers Enyo and Pephredo."
+  },
+  {
+   "q": "What does Deino teach?",
+   "aliases": [
+    "deino trainer",
+    "what spells does deino teach"
+   ],
+   "answer": "She trains mages in arcane, fire, and frost spells, portal creation, and essential spell ranks as spellcasters grow in experience."
+  },
+  {
+   "q": "Why does Deino send mages to Xavian?",
+   "aliases": [
+    "waters of xavian quest",
+    "why xavian"
+   ],
+   "answer": "Deino seeks the tainted Waters of Xavian from satyr territory in northern Ashenvale to aid mages in understanding volatile, corrupted magical resonances."
+  },
+  {
+   "q": "Who are the trainers standing with Deino?",
+   "aliases": [
+    "who is enyo",
+    "pephredo",
+    "troll mages in valley of spirits"
+   ],
+   "answer": "She stands with Enyo and Pephredo. Together, the trio shares the names of the Graeae sisters of ancient myth, serving as the central circle of troll mage mentorship in Orgrimmar."
+  },
+  {
+   "q": "Why does Deino send mages to Dustwallow Marsh?",
+   "aliases": [
+    "deino tabetha",
+    "journey to the marsh"
+   ],
+   "answer": "When a mage reaches greater proficiency, Deino sends them to Tabetha, a powerful and reclusive human hermit living deep in Dustwallow Marsh who possesses specialized arcane secrets."
+  },
+  {
+   "q": "Can non-trolls train with Deino?",
+   "aliases": [
+    "can orcs train with deino",
+    "horde mage training"
+   ],
+   "answer": "Yes. Any Horde mage\u2014whether Undead or Troll\u2014can learn class spells and receive guidance from Deino in the Valley of Spirits."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Deino serves as an essential class trainer in Orgrimmar, offering key talent instruction, portal spells, and specialized quests leading into Ashenvale and Dustwallow Marsh."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Deino exemplifies the Darkspear adaptation to arcane magic, combining classical scholarly wizardry with the cultural environment of the Valley of Spirits."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Stationed in Orgrimmar's spiritual district, she ensures the Horde's spellcasters maintain formidable arcane power alongside shamans and warlocks."
+  }
+ ],
+ "keywords": [
+  "deino",
+  "laughing sisters",
+  "mage trainer",
+  "orgrimmar",
+  "tabetha",
+  "troll mage",
+  "valley of spirits",
+  "waters of xavian",
+  "xavian"
+ ],
+ "related": [
+  "subzone:valley-of-spirits",
+  "zone:orgrimmar",
+  "quest:1944",
+  "quest:1945",
+  "npc:tabetha",
+  "subzone:xavian",
+  "topic:troll",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Deino"
+ ]
+}

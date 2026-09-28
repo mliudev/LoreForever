@@ -1,0 +1,130 @@
+{
+ "key": "quest:818",
+ "type": "quest",
+ "name": "A Solvent Spirit",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   818
+  ],
+  "level": "7",
+  "faction": "Horde",
+  "start": "Master Vornal",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "A Solvent Spirit",
+  "chain": []
+ },
+ "summary": "Master Vornal of Sen'jin Village tests fledgling adventurers by demanding reagents to compensate for his failing eyesight. He sends prospective pupils to harvest makrura eyes and crawler mucus along the coast of Durotar. While he scoffs at the idea of taking an apprentice, the task serves as a deliberate trial of patience and resolve.",
+ "sections": [
+  {
+   "title": "A Master's Fading Sight",
+   "body": "Master Vornal sits in Sen'jin Village, burdened by age and diminishing vision. Where primal magic once flowed naturally to his fingertips, he now leans heavily on alchemy to sharpen his perceptions and weave his arts. Despite his mounting physical decline, the stubborn troll refuses to take on an apprentice, claiming neither the Darkspear nor the orcs of Durotar have produced anyone worthy of his tutelage.",
+   "spoiler": 0
+  },
+  {
+   "title": "Testing the Unproven",
+   "body": "Rather than straightforward instruction, Vornal demands raw materials from the harsh coastline: intact makrura eyes and vials of crawler mucus. Sourcing undamaged eyes from the armored, snapping makrura requires delicate strikes, while gathering sufficient mucus tests an adventurer's willingness to endure tedious, menial work. To Vornal, hunting these littoral beasts is less about the reagents and more about weeding out those who lack focus.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Measure of Will",
+   "body": "For Master Vornal, time and patience are the ultimate measures of strength. He expects brash youths to give in to frustration or abandon the chore entirely. Returning to Sen'jin Village with pristine ingredients demonstrates not only survival skills along the dangerous reefs of the Echo Isles channel, but the discipline necessary to master the subtle arts of alchemy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Master Vornal?",
+   "aliases": [
+    "master vornal",
+    "who is vornal",
+    "vornal lore"
+   ],
+   "answer": "Master Vornal is an elderly troll alchemist and spellcaster dwelling in Sen'jin Village. His physical sight is failing him with age, forcing him to turn to alchemical solvents and brews to perform magic that once came easily."
+  },
+  {
+   "q": "Why does Vornal need makrura eyes and crawler mucus?",
+   "aliases": [
+    "why crawler mucus",
+    "why makrura eyes",
+    "what does vornal make"
+   ],
+   "answer": "Vornal relies on alchemical concoctions to aid his magic and compensate for his waning eyesight. The mucus and intact makrura eyes serve as reagents for his mixtures, while also functioning as an initiation test for prospective apprentices."
+  },
+  {
+   "q": "Why is Vornal so reluctant to teach an apprentice?",
+   "aliases": [
+    "vornal apprentice",
+    "why no apprentice",
+    "is vornal looking for a student"
+   ],
+   "answer": "Vornal possesses high standards and little tolerance for arrogance. He believes no troll or orc has demonstrated the genuine dedication and patience required to learn from him, viewing most aspiring pupils as overly proud and easily discouraged."
+  },
+  {
+   "q": "Where are these creatures found around Sen'jin Village?",
+   "aliases": [
+    "where are makrura",
+    "where are crawlers",
+    "darkspear strand beasts"
+   ],
+   "answer": "Crawlers and makrura roam the shallows along Darkspear Strand and inhabit the waterways separating the mainland from the Echo Isles just offshore."
+  },
+  {
+   "q": "Why do the makrura eyes need to be intact?",
+   "aliases": [
+    "intact eye",
+    "makrura intact eyes",
+    "why intact eyes"
+   ],
+   "answer": "Alchemical brews that sharpen perception require undamaged sensory organs. Brutal strikes during combat risk crushing the makrura's delicate eyes, demanding precision and restraint from the hunter."
+  },
+  {
+   "q": "What lesson is Vornal trying to teach?",
+   "aliases": [
+    "vornal lesson",
+    "meaning of the quest",
+    "patience test"
+   ],
+   "answer": "Vornal believes that patience is the true test of character. By assigning a repetitive and dirty harvesting chore along the surf, he aims to see whether a novice will succumb to weakness and haste or maintain the calm focus of an alchemist."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For the Darkspear rebuilding at Sen'jin Village, proving yourself to elder practitioners like Master Vornal is vital to carrying forward the tribe's mystical and alchemical traditions."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Vornal openly doubts whether orcs possess the quiet discipline needed for alchemy, making the task a chance to prove Horde solidarity extends to scholarly patience."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Coastal Durotar remains perilous for the fledgling Horde; clearing aggressive makrura and surf crawlers secures the fishing shores around Sen'jin Village."
+  }
+ ],
+ "keywords": [
+  "alchemy",
+  "crawler mucus",
+  "darkspear strand",
+  "durotar",
+  "intact makrura eye",
+  "makrura",
+  "master vornal",
+  "sen'jin village"
+ ],
+ "related": [
+  "npc:master-vornal",
+  "subzone:sen-jin-village",
+  "subzone:darkspear-strand",
+  "subzone:echo-isles",
+  "zone:durotar",
+  "topic:troll",
+  "quest:99141"
+ ],
+ "attribution": [
+  "A Solvent Spirit"
+ ]
+}

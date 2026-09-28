@@ -1,0 +1,94 @@
+{
+ "key": "npc:kernobee",
+ "type": "npc",
+ "name": "Kernobee",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Kernobee",
+  "refs": 1
+ },
+ "summary": "Kernobee is a goblin engineer trapped deep within the ruined halls of Gnomeregan. After stumbling upon dangerous secrets involving Dark Iron dwarf sabotage, he was captured, beaten unconscious, and left to die among the troggs in the dormitory quarters.",
+ "sections": [
+  {
+   "title": "A Deadly Discovery",
+   "body": "While conducting business or scavenging within the fallen gnome capital, Kernobee uncovered a grave secret: the Dark Iron dwarves were directly involved in the construction and operation of the massive super rig burrowing beneath the city. Realizing the immense value\u2014and lethality\u2014of this intelligence, he attempted to flee immediately to Ratchet to deliver word to his associate, Tinkerwiz. Unfortunately, the Dark Irons caught him before he could make his escape.",
+   "spoiler": 0
+  },
+  {
+   "title": "Left for the Troggs",
+   "body": "Rather than killing him outright, his captors battered Kernobee unconscious and tossed him into a small room along the dormitory corridor, opposite the Clean Zone. Left stranded among feral troggs and radiation fallout, the battered goblin depends entirely on passing adventurers to revive him and shield him until he can reach safety.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kernobee?",
+   "aliases": [
+    "who is this goblin",
+    "kernobee lore",
+    "about kernobee"
+   ],
+   "answer": "Kernobee is a goblin operative found unconscious inside Gnomeregan's dormitory sector. He works closely with Tinkerwiz in Ratchet and ventured into the ruins before being ambushed."
+  },
+  {
+   "q": "Why was Kernobee imprisoned in Gnomeregan?",
+   "aliases": [
+    "why is he here",
+    "why did dark irons capture him",
+    "why in dormitory"
+   ],
+   "answer": "Kernobee discovered that the Dark Iron clan was covertly helping construct the subterranean super rig machines inside the city. To keep their presence and sabotage quiet, the Dark Irons incapacitated him and threw him into the dormitory to perish."
+  },
+  {
+   "q": "Who does Kernobee report to?",
+   "aliases": [
+    "who is tinkerwiz",
+    "where is he going",
+    "ratchet connection"
+   ],
+   "answer": "He reports to Tinkerwiz, a goblin engineer stationed across the sea in the neutral port town of Ratchet in the Barrens."
+  },
+  {
+   "q": "Where in Gnomeregan is Kernobee located?",
+   "aliases": [
+    "kernobee location",
+    "where is kernobee",
+    "find kernobee"
+   ],
+   "answer": "He is slumped unconscious in a small side room on the lower level of the Dormitory, situated on the western side directly across from the Clean Zone."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomes fighting to reclaim their homeland, Kernobee's intelligence is alarming proof that their catastrophe was aided from the shadows by Dark Iron dwarven meddling."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers can appreciate the sheer hazard of poking around experimental subterranean machinery like the Dark Iron rigs when rival schematics are at stake."
+  }
+ ],
+ "keywords": [
+  "dark iron",
+  "dormitory",
+  "gnomeregan",
+  "kernobee",
+  "ratchet",
+  "super rig",
+  "tinkerwiz"
+ ],
+ "related": [
+  "quest:2904",
+  "zone:gnomeregan",
+  "subzone:dormitory",
+  "subzone:clean-zone",
+  "subzone:ratchet",
+  "topic:goblin",
+  "topic:trogg",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Kernobee"
+ ]
+}

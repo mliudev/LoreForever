@@ -1,0 +1,94 @@
+{
+ "key": "subzone:scholomance",
+ "type": "subzone",
+ "name": "Scholomance",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Scholomance"
+ },
+ "summary": "Hidden deep within the crypts beneath Caer Darrow, Scholomance is the Scourge's premier academy of dark arts and necromancy. Here, mortals and undead alike study the Plague of Undeath and fleshcrafting under the sadistic guidance of Darkmaster Gandling and the watchful gaze of the lich Ras Frostwhisper.",
+ "sections": [
+  {
+   "title": "A Pact of Ruin",
+   "body": "Before the Third War, Caer Darrow was the proud seat of House Barov, a wealthy aristocratic dynasty holding vast lands across Lordaeron, including Brill, Tarren Mill, and Southshore. Fearing the loss of their wealth and mortality, the Barovs succumbed to Kel'Thuzad's seductive promises of eternal life. They deeded their fortress and ancestral catacombs to the Cult of the Damned, who promptly repaid the nobles by butchering them and turning the sprawling crypts into a hidden necromantic training ground.",
+   "spoiler": 0
+  },
+  {
+   "title": "The School of Necromancy",
+   "body": "Beneath the haunted surface ruins of Caer Darrow lies a thriving center of Scourge industry. Within these damp halls, early plague strains were tested on living servants, and the first hideous abominations were stitched together. Today, mortal acolytes flock here to hone their mastery over dark magic, supervised by Headmaster Darkmaster Gandling and the icy sentinel Ras Frostwhisper, while the restless undead remains of the Barov family linger in eternal torment.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Scholomance?",
+   "aliases": [
+    "what is this place",
+    "scholomance lore",
+    "explain scholomance"
+   ],
+   "answer": "Scholomance is a secret academy of necromancy run by the Cult of the Damned and the Scourge. Located beneath the island fortress of Caer Darrow, it serves as a training facility for mortal necromancers, plague researchers, and fleshcrafters."
+  },
+  {
+   "q": "Who owns Caer Darrow and the crypts?",
+   "aliases": [
+    "who owned this",
+    "house barov",
+    "barov family"
+   ],
+   "answer": "The keep originally belonged to House Barov, one of the wealthiest noble families in Lordaeron. Seeking immortality, they surrendered their ancestral home to Kel'Thuzad, only to be murdered and raised as undead thralls within their own halls."
+  },
+  {
+   "q": "Who runs the academy now?",
+   "aliases": [
+    "who is the boss",
+    "who leads scholomance",
+    "headmaster"
+   ],
+   "answer": "Darkmaster Gandling serves as the school's insidious mortal headmaster, overseeing instruction and torment. The site is also heavily guarded on behalf of the Scourge by the lich Ras Frostwhisper."
+  },
+  {
+   "q": "What horrors were developed here?",
+   "aliases": [
+    "what was made here",
+    "experiments in scholomance",
+    "abominations"
+   ],
+   "answer": "Scholomance was an early crucible for the Cult of the Damned. The cultists tested prototype variants of the Plague of Undeath on the Barov household servants and stitched together the Scourge's first flesh abominations within its laboratories."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The twisted lessons taught inside Scholomance represent the absolute perversion of arcane scholarship, where inquiry into magical theory has been replaced with rot, shadow, and unholy desecration."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken spellcasters view Scholomance with cold familiarity and disgust; many of the Scourge's foulest methods of enslavement and biological warfare were perfected in these very classrooms."
+  }
+ ],
+ "keywords": [
+  "barov",
+  "caer darrow",
+  "cult of the damned",
+  "darkmaster gandling",
+  "kel'thuzad",
+  "necromancy",
+  "ras frostwhisper",
+  "scholomance"
+ ],
+ "related": [
+  "subzone:caer-darrow",
+  "npc:darkmaster-gandling",
+  "topic:cult-of-the-damned",
+  "topic:scourge",
+  "topic:plague-of-undeath",
+  "zone:westernplaguelands",
+  "npc:eva-sarkhoff",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Scholomance"
+ ]
+}

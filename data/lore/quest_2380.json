@@ -1,0 +1,125 @@
+{
+ "key": "quest:2380",
+ "type": "quest",
+ "name": "To Orgrimmar!",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   2380
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Kaplak",
+  "end": "Shenthul",
+  "previous": null,
+  "next": "Zando'zan (quest)",
+  "wiki": "To Orgrimmar!",
+  "chain": [
+   "To Orgrimmar!",
+   "Find the Shattered Hand",
+   "Zando'zan (quest)",
+   "Wrenix of Ratchet",
+   "Plundering the Plunderers"
+  ]
+ },
+ "summary": "To Orgrimmar! is an introductory summons dispatching a developing Horde rogue from Razor Hill to the capital city. Acting on orders from Kaplak, the initiate is sent beneath the surface into the Cleft of Shadow to present themselves before Shenthul and deeper within the network of the Shattered Hand.",
+ "sections": [
+  {
+   "title": "A Summons to the Shadows",
+   "body": "After cutting their teeth across Durotar, novice rogues eventually catch the attention of more prominent handlers. In Razor Hill, Kaplak bluntly acknowledges that an operative's budding talents\u2014while unpolished\u2014have earned notice. Rather than remaining out among the red crags, the operative is directed north into the cavernous alleys of Orgrimmar.",
+   "spoiler": 0
+  },
+  {
+   "title": "Under Thrall's Watchful Eye",
+   "body": "Meeting Shenthul in the subterranean Cleft of Shadow reveals a deeper tension beneath the Horde's founding ideals. Shenthul makes no secret of his vigilance regarding Warchief Thrall's political reforms. For the Shattered Hand, brute force and open defiance will never suffice to safeguard their interests; survival and influence require patience, subterfuge, and refined deception.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me on this quest?",
+   "aliases": [
+    "quest giver",
+    "who gives to orgrimmar",
+    "kaplak quest"
+   ],
+   "answer": "Kaplak, a rogue trainer stationed in Razor Hill, delivers the summons after determining that your skills have caught the attention of superiors in Orgrimmar."
+  },
+  {
+   "q": "Where do I find Shenthul?",
+   "aliases": [
+    "shenthul location",
+    "where is shenthul",
+    "cleft of shadow shenthul"
+   ],
+   "answer": "Shenthul is located in the Cleft of Shadow, the shadowy underground district carved deep beneath Orgrimmar where rogues, warlocks, and other outcasts gather."
+  },
+  {
+   "q": "What is the Shattered Hand's agenda in Orgrimmar?",
+   "aliases": [
+    "shattered hand motives",
+    "why shattered hand in orgrimmar",
+    "shattered hand thrall"
+   ],
+   "answer": "The Shattered Hand operates as an intelligence and assassination guild within the Horde. While nominally part of the new capital, leaders like Shenthul remain wary of Thrall's honorable reforms and emphasize stealth to maintain leverage and survival."
+  },
+  {
+   "q": "Why am I being sent specifically at this stage?",
+   "aliases": [
+    "level 16 rogue quest",
+    "why go to orgrimmar now",
+    "rogue training summons"
+   ],
+   "answer": "Novice operatives who prove capable in basic reconnaissance and skirmishes are drawn into more formal guild duties, beginning with lockpicking and covert fieldwork assigned in the capital."
+  },
+  {
+   "q": "Does this quest differ from 'Find the Shattered Hand'?",
+   "aliases": [
+    "find the shattered hand vs to orgrimmar",
+    "alternate breadcrumb quest"
+   ],
+   "answer": "Both serve as introductory breadcrumbs leading rogues to Shenthul in Orgrimmar; depending on where you train or take orders, you receive one or the other to advance the same training chain."
+  },
+  {
+   "q": "What happens after reporting to Shenthul?",
+   "aliases": [
+    "next quest after to orgrimmar",
+    "what does shenthul give"
+   ],
+   "answer": "Shenthul tests your competence and directs you further down the chain, introducing contacts such as Zando'zan and eventually covert work involving goblin contacts in Ratchet."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This mission marks your formal induction into the capital's covert network, moving you beyond crude frontier scuffles into the craft of poisons, thievery, and deception overseen by Shenthul."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The quiet discontent voiced by Shenthul highlights the friction between Thrall's honorable new path and the shadowy remnants of older clan organizations surviving beneath Orgrimmar."
+  }
+ ],
+ "keywords": [
+  "cleft of shadow",
+  "kaplak",
+  "razor hill",
+  "rogue",
+  "shattered hand",
+  "shenthul",
+  "to orgrimmar"
+ ],
+ "related": [
+  "npc:shenthul",
+  "npc:kaplak",
+  "subzone:cleft-of-shadow",
+  "quest:2378",
+  "quest:2379",
+  "quest:2382",
+  "quest:2381",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "To Orgrimmar!"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "key": "npc:keeper-albagorm",
+ "type": "npc",
+ "name": "Keeper Albagorm",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Keeper Albagorm",
+  "refs": 2
+ },
+ "summary": "Keeper Albagorm is a keeper of the grove stationed at the idyllic sanctuary of Stonetalon Peak. Deeply concerned by the devastation corrupting the southern reaches of the mountains, he enlists travelers to help heal the scorched wilderness of the Charred Vale.",
+ "sections": [
+  {
+   "title": "A Guardian on the Peak",
+   "body": "Perched within the peaceful boughs of Stonetalon Peak, Keeper Albagorm stands vigil over one of Kalimdor's sacred elven refuges. Like many sons of Cenarius, he feels the pain of the natural world acutely. His attention is drawn southward toward the smoldering ruins of the Charred Vale, where rampant elemental destruction and foul magic have choked out all green life. From his sanctuary, Albagorm works tirelessly to halt the spread of the corruption and restore balance to the wounded forest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Keeper Albagorm?",
+   "aliases": [
+    "keeper albagorm",
+    "who is albagorm",
+    "albagorm stonetalon"
+   ],
+   "answer": "He is a keeper of the grove\u2014one of the demigod offspring of Cenarius\u2014stationed at Stonetalon Peak in the Stonetalon Mountains. He serves as an ally to the night elves and natural guardians of Kalimdor."
+  },
+  {
+   "q": "Where can I find Keeper Albagorm?",
+   "aliases": [
+    "keeper albagorm location",
+    "where is albagorm",
+    "albagorm coords"
+   ],
+   "answer": "He resides at Stonetalon Peak, an Alliance-aligned druidic refuge nestled high in the northwestern corner of the Stonetalon Mountains."
+  },
+  {
+   "q": "What does Keeper Albagorm want help with?",
+   "aliases": [
+    "keeper albagorm quests",
+    "what does albagorm want",
+    "reclaiming the charred vale"
+   ],
+   "answer": "Albagorm seeks to mend the devastation of the Charred Vale. He sends capable adventurers into the ash-choked basin to cleanse the blighted landscape and push back the corrupt forces preventing natural regrowth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a keeper of the grove, Albagorm shares a direct connection to the Cenarion lineage, making his efforts to cleanse the Charred Vale deeply personal to druids."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Albagorm offers shelter and guidance to Alliance forces navigating through the night elven sanctuary at Stonetalon Peak."
+  }
+ ],
+ "keywords": [
+  "cenarius",
+  "charred vale",
+  "keeper albagorm",
+  "keeper of the grove",
+  "stonetalon",
+  "stonetalon peak"
+ ],
+ "related": [
+  "subzone:stonetalon-peak",
+  "quest:1057",
+  "subzone:charred-vale",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Keeper Albagorm"
+ ]
+}

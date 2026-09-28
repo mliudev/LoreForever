@@ -1,0 +1,72 @@
+{
+ "key": "subzone:shattered-beachhead",
+ "type": "subzone",
+ "name": "Shattered Beachhead",
+ "era": "classic",
+ "zone": "blastedlands",
+ "meta": {
+  "wiki": "Shattered Beachhead"
+ },
+ "summary": "The Shattered Beachhead is a coastal expanse along the jagged eastern shore of the Blasted Lands, situated north of the Shattershore. Bordered by red stone bluffs and the surging ocean, it marks an austere eastern boundary in a region scarred by dark magics.",
+ "sections": [
+  {
+   "title": "A Barren Shore",
+   "body": "Located along the jagged eastern coast of the Blasted Lands just north of the Shattershore, this seaside stretch is exposed to the harsh, churning waters off the eastern subcontinent. While the interior of the zone remains choked by fell sorcery and demonic corruption lingering from the opening of the Dark Portal, the shoreline here stands bare and wind-scoured against the rocks.",
+   "spoiler": 0
+  },
+  {
+   "title": "Coastal Geography",
+   "body": "The Blasted Lands offer few hospitable approaches, and its eastern cliffs drop steeply into the surf. The Shattered Beachhead serves as one of the few low approaches where the land meets the sea, though it remains desolate and isolated from the main overland tracks traversing the red wastes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Shattered Beachhead located?",
+   "aliases": [
+    "shattered beachhead location",
+    "where is shattered beachhead",
+    "how to find shattered beachhead"
+   ],
+   "answer": "The Shattered Beachhead is situated along the far eastern coastline of the Blasted Lands, found directly north of the Shattershore bluffs."
+  },
+  {
+   "q": "What is the environment like here?",
+   "aliases": [
+    "beachhead terrain",
+    "what does it look like"
+   ],
+   "answer": "It is a rocky, barren coastal area marked by craggy red cliffs, rough ocean waters, and desolate shores, typical of the arid and corrupted coastline bordering the Blasted Lands."
+  },
+  {
+   "q": "Is the Shattered Beachhead inhabited?",
+   "aliases": [
+    "who lives here",
+    "beachhead npcs"
+   ],
+   "answer": "In the current era of 25 ADP, the coastline remains largely deserted and wild, isolated from the major encampments and forts deeper inland."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance scouts monitoring the perimeter of the Blasted Lands from Nethergarde Keep, the barren eastern coast remains a desolate wilderness with few natural harbors."
+  }
+ ],
+ "keywords": [
+  "blasted lands",
+  "coast",
+  "shattered beachhead",
+  "shattershore",
+  "shore"
+ ],
+ "related": [
+  "subzone:shattershore",
+  "zone:blastedlands",
+  "zone:swampofsorrows",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Shattered Beachhead"
+ ]
+}

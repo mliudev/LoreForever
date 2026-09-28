@@ -1,0 +1,125 @@
+{
+ "key": "quest:47",
+ "type": "quest",
+ "name": "Gold Dust Exchange",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   47
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Remy \"Two Times\"",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Gold Dust Exchange",
+  "chain": []
+ },
+ "summary": "Gold Dust Exchange is an early bounty offered by Remy \"Two Times\" out of Goldshire. The nervous broker pays adventurers to pry raw gold dust away from the kobolds infesting the mines across Elwynn Forest. While it provides honest work for fledgling travelers, Remy's curious connections hint that there is more to his hustle than simple metalworking.",
+ "sections": [
+  {
+   "title": "A Town of Pockets and Picks",
+   "body": "Goldshire sits at the crossroads of Elwynn Forest, where merchants, town guards, and weary travelers mingle. Among them is Remy \"Two Times,\" a shady fellow whose persistent habit of repeating his words masks a shrewd eye for profit. Rather than hiring costly mining teams to extract raw minerals, Remy capitalizes on the wandering adventurers filtering through the Lion's Pride Inn. His proposal is simple: recover the gold dust hoarded by the region's vermin and trade it directly for coin.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Kobold Plunder",
+   "body": "Kobolds have thoroughly overrun Elwynn's most valuable subterranean excavations, namely Fargodeep Mine to the south and Jasperlode Mine to the northeast. While chipping through the dark for their beloved candles and shiny baubles, these rat-like tunnelers accumulate residue and flecks of unrefined ore in their pouches. Driving them back serves the kingdom's interest, but collecting their dust turns pest extermination into a lucrative trade.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows Behind the Counter",
+   "body": "While Remy claims to pay top coin for pure mercantile reasons, his rewards carry subtle warnings. Upon receiving his dust, he slips his helpers a small token representing his \"associates.\" In an Elwynn increasingly strangled by organized bandits, unpaid stonemasons, and clandestine networks operating in the shadows of Stormwind, Remy's quiet brokers may have plans for that gold that extend far beyond ordinary village commerce.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Remy \"Two Times\"?",
+   "aliases": [
+    "remy two times",
+    "who gives gold dust exchange",
+    "remy in goldshire"
+   ],
+   "answer": "Remy \"Two Times\" is an eccentric local broker stationed outside the Lion's Pride Inn in Goldshire. Known for repeating the ends of his sentences, he buys up precious materials from wandering adventurers and maintains ties with shadowy associates."
+  },
+  {
+   "q": "Where do kobolds get gold dust?",
+   "aliases": [
+    "why do kobolds have gold dust",
+    "where does gold dust come from"
+   ],
+   "answer": "Kobolds spend their lives tunneling through Elwynn's mineral veins, such as those inside Fargodeep and Jasperlode. As they scratch and dig through rock in search of treasure and candle wax, raw gold flakes and dust accumulate in their pockets and pouches."
+  },
+  {
+   "q": "Where can I find the mines mentioned by Remy?",
+   "aliases": [
+    "where are the mines",
+    "where to find kobolds elwynn"
+   ],
+   "answer": "Kobolds carrying gold dust can be found primarily within and around the Fargodeep Mine, located south of Goldshire, and the Jasperlode Mine, situated to the northeast near the border toward the Eastvale Logging Camp."
+  },
+  {
+   "q": "Who are Remy's \"associates\"?",
+   "aliases": [
+    "remy associates",
+    "what is the token remy gives"
+   ],
+   "answer": "While Remy does not name his associates directly, his illicit vibe and under-the-table tokens hint at connections to the Defias Brotherhood or the black market rings operating across Elwynn Forest and Westfall."
+  },
+  {
+   "q": "Why does Stormwind allow kobolds to control their mines?",
+   "aliases": [
+    "why aren't the mines guarded",
+    "why did stormwind lose the mines"
+   ],
+   "answer": "With King Varian Wrynn missing and the House of Nobles refusing to spare troops for the outskirts, the Stormwind City Guard is stretched terribly thin. Local garrisons cannot clear the mines, leaving them infested by kobolds while independent travelers do the fighting."
+  },
+  {
+   "q": "Is gold dust used for blacksmithing or trade?",
+   "aliases": [
+    "what is gold dust used for",
+    "can you smelt gold dust"
+   ],
+   "answer": "In its raw form carried by kobolds, gold dust is too fine and impure for ordinary forge work. Instead, it is traded as a raw commodity to brokers like Remy, who consolidate and refine it through their own private channels."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "Miners scouring Fargodeep and Jasperlode will find kobolds clinging directly to the richest copper veins, making clearing them out a necessity for harvesting ore."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Remy's hushed demeanor and token from unnamed 'associates' carries the unmistakable scent of underground syndicates operating beneath Goldshire's placid surface."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The fact that Elwynn's vital gold and mineral deposits are held by feral kobolds rather than royal excavators illustrates how depleted the kingdom's military forces truly are."
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "fargodeep mine",
+  "gold dust",
+  "goldshire",
+  "jasperlode mine",
+  "kobold",
+  "remy two times"
+ ],
+ "related": [
+  "npc:remy-two-times",
+  "topic:kobold",
+  "subzone:fargodeep-mine",
+  "subzone:jasperlode-mine",
+  "subzone:goldshire",
+  "quest:62",
+  "quest:76",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Gold Dust Exchange"
+ ]
+}

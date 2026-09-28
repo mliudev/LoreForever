@@ -1,0 +1,84 @@
+{
+ "key": "subzone:ruins-of-eldre-thar",
+ "type": "subzone",
+ "name": "Ruins of Eldre'thar",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Ruins of Eldre'thar"
+ },
+ "summary": "Tucked away inside Sishir Canyon in the Stonetalon Mountains lie the Ruins of Eldre'thar, the shattered remnants of an ancient Highborne settlement. Today, the sunken stonework is haunted by spectral night elves who linger by the waters, reliving their final arcane rituals.",
+ "sections": [
+  {
+   "title": "A Haunted Haven",
+   "body": "Hidden deep within the winding defiles of Sishir Canyon, Eldre'thar stands as a quiet monument to the ancient kaldorei empire before the Great Sundering. Like many Highborne enclaves across Kalimdor, its marble arches and courtyards eventually fell into ruin, yet the spirits of its arcane practitioners never departed. Phantom sorcerers and spirits still glide along the lakeside, endlessly reenacting spells and rituals frozen in time. For travelers braving the crags of Stonetalon, the ruins offer a chilling glimpse into the stubborn memories of a bygone aristocratic caste.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Eldre'thar?",
+   "aliases": [
+    "ruins of eldre'thar",
+    "eldrethar lore",
+    "what is this place"
+   ],
+   "answer": "The Ruins of Eldre'thar are the ancient stone remains of a Highborne night elf settlement situated within Sishir Canyon in the Stonetalon Mountains."
+  },
+  {
+   "q": "Why are there ghosts here?",
+   "aliases": [
+    "why are there spirits",
+    "highborne ghosts stonetalon",
+    "who are the spirits"
+   ],
+   "answer": "The spectral figures inhabiting the ruins are the restless ghosts of ancient Highborne elves. Bound to the site of their demise, they endlessly wander the shores and channel old magic."
+  },
+  {
+   "q": "Where are these ruins located?",
+   "aliases": [
+    "eldrethar location",
+    "how to find eldre'thar",
+    "where is eldrethar"
+   ],
+   "answer": "You can find Eldre'thar nestled inside Sishir Canyon, an enclosed rocky gorge within the Stonetalon Mountains."
+  },
+  {
+   "q": "What were the Highborne doing by the lake?",
+   "aliases": [
+    "lake rituals",
+    "why are sorcerers channeling",
+    "eldrethar sorcerers"
+   ],
+   "answer": "The spectral sorcerers are locked in ritualistic magic around the water's edge, echoing forgotten rites practiced by the Highborne before the Sundering shattered their civilization."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Eldre'thar serves as a somber reminder of the Highborne hubris that fractured kaldorei society and drew ancient catastrophe upon ancient Kalimdor."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The ethereal rituals whispered along the waters show how deeply ingrained the arcane arts were in early night elf civilization before the Great Sundering."
+  }
+ ],
+ "keywords": [
+  "eldre'thar",
+  "ghosts",
+  "highborne",
+  "ruins of eldre'thar",
+  "sishir canyon",
+  "sorcerers",
+  "stonetalon mountains"
+ ],
+ "related": [
+  "subzone:sishir-canyon",
+  "zone:stonetalon",
+  "topic:highborne",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Ruins of Eldre'thar"
+ ]
+}

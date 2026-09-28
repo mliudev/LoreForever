@@ -1,0 +1,67 @@
+{
+ "key": "subzone:shifting-mire",
+ "type": "subzone",
+ "name": "Shifting Mire",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Shifting Mire"
+ },
+ "summary": "The Shifting Mire forms the vast, muddy heart of the Swamp of Sorrows, lying just west of the Pool of Tears. Its name comes from the strange, restless silt beneath the murky water, which seems to drift and gather under the influence of an unseen force.",
+ "sections": [
+  {
+   "title": "A Living Bog",
+   "body": "Spanning the central reaches of the marshland, the Shifting Mire is an unsettling expanse where solid footing is hard to come by. The silt along the swamp floor shifts and collects as though moved by a living will, driven by a strange, ambient energy permeating the peat. Amidst the drifting mud prowl predatory swamp jaguars, massive sorrow spinners, and hungry sawtooth crocolisks, while bands of broken draenei known as the Lost Ones stalk the sunken paths.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is it called the Shifting Mire?",
+   "aliases": [
+    "shifting mire name origin",
+    "why shifting mire",
+    "why does the ground move"
+   ],
+   "answer": "The area takes its name from the extremely fine silt resting along the bog floor. Instead of settling like normal sediment, a mysterious current of energy causes the mud to gather, drift, and flow across the wetlands as if it were alive."
+  },
+  {
+   "q": "What creatures live in the Shifting Mire?",
+   "aliases": [
+    "shifting mire mobs",
+    "what is in shifting mire"
+   ],
+   "answer": "The mire is overrun with dangerous wildlife, including sawtooth crocolisks lurking in the shallows, giant sorrow spinners weaving webs in the boughs, and stealthy swamp jaguars. It is also frequented by roaming Lost Ones, draenei warped and exiled from their homeworld."
+  },
+  {
+   "q": "Where is the Shifting Mire located?",
+   "aliases": [
+    "shifting mire location",
+    "where is shifting mire"
+   ],
+   "answer": "It encompasses the central expanse of the Swamp of Sorrows, positioned directly to the west of the massive lake known as the Pool of Tears."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The tangled brush and drifting waters make tracking treacherous, requiring hunters to stay sharp against stealthy swamp jaguars and venomous sorrow spinners hiding in the foliage."
+  }
+ ],
+ "keywords": [
+  "crocolisks",
+  "jaguars",
+  "lost ones",
+  "shifting mire",
+  "silt",
+  "sorrow spinners",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "zone:swampofsorrows",
+  "subzone:pool-of-tears"
+ ],
+ "attribution": [
+  "Shifting Mire"
+ ]
+}

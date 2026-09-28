@@ -1,0 +1,121 @@
+{
+ "key": "quest:870",
+ "type": "quest",
+ "name": "The Forgotten Pools",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   870
+  ],
+  "level": "13",
+  "faction": "Horde",
+  "start": "Tonga Runetotem",
+  "end": "",
+  "previous": "The Barrens Oases",
+  "next": "The Stagnant Oasis (Classic)",
+  "wiki": "The Forgotten Pools (Classic)",
+  "chain": []
+ },
+ "summary": "Tonga Runetotem at the Crossroads sends Horde adventurers to inspect the Forgotten Pools, an oasis northwest of the settlement. The Cenarion Circle suspects that unseen subterranean energies are causing verdant life to surge through the arid savannah.",
+ "sections": [
+  {
+   "title": "Stirrings in the Savannah",
+   "body": "Long ago, the Barrens flourished as a fertile, vibrant land before ages of war and Sundering shattered the continent, reducing the region to sun-baked scrubland. Yet recently, lush oases have miraculously begun to take root in the dry basin. To the druids of the Cenarion Circle, this sudden bloom is unnatural. Rather than ordinary springs, they sense subterranean powers pressing upward through the earth, coaxing vegetation and wildlife to life in anomalous pockets across the wastes.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Murky Depths",
+   "body": "Seeking to understand this resurgence, Tonga Runetotem directs travelers to plunge into the Forgotten Pools, located just northwest of the Crossroads. Beneath the surface of the pool lies an unsettling discovery: a volcanic fissure quietly venting strange, bubbling gases into the water. This fissure proves that volatile primal forces are actively leaking into the groundwater, offering the first tangible clue toward unraveling the unnatural changes sweeping the Barrens.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tonga Runetotem?",
+   "aliases": [
+    "tonga runetotem",
+    "who gives the quest",
+    "quest giver crossroads"
+   ],
+   "answer": "Tonga Runetotem is a tauren druid of the Cenarion Circle stationed at the Crossroads. He studies the ecological abnormalities of the Barrens, hoping to discover why vibrant oases are suddenly erupting across the sun-parched plains."
+  },
+  {
+   "q": "Why is the Cenarion Circle investigating the Forgotten Pools?",
+   "aliases": [
+    "why investigate oases",
+    "druids barrens oases",
+    "what is wrong with the pools"
+   ],
+   "answer": "While the return of greenery to a dry landscape sounds positive, the druids sense that an aberrant, concentrated energy is forcing life to the surface. They want to identify the root power feeding these new oases before it grows out of control."
+  },
+  {
+   "q": "What is found at the bottom of the Forgotten Pools?",
+   "aliases": [
+    "what is in the water",
+    "forgotten pool fissure",
+    "what bubbles in the pool"
+   ],
+   "answer": "Submerged within the oasis is an underwater fissure venting bubbling subterranean gases into the pool. This fissure confirms that internal terrestrial energies are escaping into the surface water."
+  },
+  {
+   "q": "Where are the Forgotten Pools located?",
+   "aliases": [
+    "forgotten pools location",
+    "where is forgotten pools"
+   ],
+   "answer": "The Forgotten Pools lie a short distance northwest of the Crossroads in central Barrens, easily identified by the sudden ring of lush palm trees and water amid the dry dirt."
+  },
+  {
+   "q": "Was the Barrens always a desert?",
+   "aliases": [
+    "was barrens always dry",
+    "ancient barrens",
+    "barrens history"
+   ],
+   "answer": "According to druidic lore, the Barrens was once a lush, thriving land teeming with life. Cataclysms and ancient wars scorched the terrain, stripping it down to the arid savannah seen today."
+  },
+  {
+   "q": "What comes after investigating the Forgotten Pools?",
+   "aliases": [
+    "next quest",
+    "what to do after forgotten pools"
+   ],
+   "answer": "Tonga Runetotem takes your findings about the bubbling fissure and sends you to inspect another oasis in the Barrens: the Stagnant Oasis to the southeast."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids, this mission is an early introduction to the mysterious forces corrupting and mutating the natural growth of the Barrens under the Cenarion Circle's watch."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The land of the Barrens is dear to the nomadic tribes of the Earth Mother, making the preservation and understanding of its water sources vital to tauren travelers."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "With the Crossroads serving as the crucial junction between Durotar, Mulgore, and Ashenvale, safeguarding nearby water resources from anomalous corruption is a practical imperative for the Horde."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "cenarion circle",
+  "crossroads",
+  "fissure",
+  "forgotten pools",
+  "oasis",
+  "tonga runetotem"
+ ],
+ "related": [
+  "npc:tonga-runetotem",
+  "subzone:forgotten-pools",
+  "quest:886",
+  "subzone:crossroads",
+  "zone:barrens",
+  "topic:druid"
+ ],
+ "attribution": [
+  "The Forgotten Pools (Classic)"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "subzone:zul-gurub",
+ "type": "subzone",
+ "name": "Zul'Gurub",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Zul'Gurub"
+ },
+ "summary": "Zul'Gurub is an ancient temple city nestled deep in the jungles of northeastern Stranglethorn Vale. Once the glorious heart of the sprawling Gurubashi Empire, it now stands as a perilous stronghold where jungle trolls scheme to summon an ancient, terrible entity into the world.",
+ "sections": [
+  {
+   "title": "Heart of the Fallen Empire",
+   "body": "Thousands of years ago, Zul'Gurub reigned supreme as the vibrant capital of the entire Gurubashi Empire, uniting the jungle troll tribes under its grand stone ziggurats. That golden age shattered roughly fifteen hundred years before the opening of the Dark Portal when a vicious civil war tore the empire apart. A radical sect of priests, the Atal'ai, sought to summon Hakkar the Soulflayer\u2014a bloodthirsty ancient god\u2014to seize absolute power. Though loyalist tribes banded together to defeat and banish the Atal'ai northward into the Swamp of Sorrows, the devastation broke the empire's spine, leaving Zul'Gurub a violent shadow of its former grandeur.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Looming Shadow of the Soulflayer",
+   "body": "Though exiled, the fanatical worshippers of Hakkar never abandoned their dark devotion. They eventually realized that their dread deity's physical avatar could only be brought forth from the ancient ritual seat of Zul'Gurub itself. Inside the city, dark sorcerers like Jin'do the Hexxer have sought to enslave Gurubashi high priests to conduct blood rituals in Hakkar's name. The jungle surrounding the ruins crawls with hyper-aggressive Gurubashi trolls, driven into a murderous frenzy, making the temple city an epicenter of dread for anyone brave or foolish enough to tread near its borders.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Zul'Gurub?",
+   "aliases": [
+    "zg history",
+    "what is zg",
+    "about zulgurub"
+   ],
+   "answer": "Zul'Gurub is an ancient temple city in northeastern Stranglethorn Vale. It served as the capital of the great Gurubashi Empire thousands of years ago, but today it is a dangerous, ruined stronghold inhabited by the hostile Gurubashi tribe."
+  },
+  {
+   "q": "Who is Hakkar the Soulflayer?",
+   "aliases": [
+    "hakkar",
+    "blood god",
+    "who is the soulflayer"
+   ],
+   "answer": "Hakkar the Soulflayer is an ancient and terrible blood god. Worshipped by the fanatical Atal'ai troll sect, Hakkar demands endless blood and sacrifice, and his cultists have long plotted to bring his physical avatar into Azeroth through dark rituals in Zul'Gurub."
+  },
+  {
+   "q": "Why did the Gurubashi Empire collapse?",
+   "aliases": [
+    "why gurubashi fell",
+    "gurubashi civil war",
+    "fall of zul'gurub"
+   ],
+   "answer": "Roughly fifteen hundred years before the Dark Portal opened, the empire was torn apart by a devastating civil war. The radical Atal'ai priests tried to summon Hakkar, and while the other trolls successfully drove them into exile, the conflict left the empire permanently shattered."
+  },
+  {
+   "q": "Can adventurers safely explore the ruins?",
+   "aliases": [
+    "is zg safe",
+    "zg treasure",
+    "exploring zg"
+   ],
+   "answer": "No. Zul'Gurub is exceptionally hazardous. The Gurubashi trolls inhabiting the ruins are violently aggressive and driven by bloody fervor. Treasure hunters and artifact seekers regularly disappear within the stone walls, with very few ever returning."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For the Darkspear tribe, Zul'Gurub represents both a tragic monument to their ancestors' fallen grandeur and a terrifying warning about the ruinous price of serving Hakkar."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde keeps a wary eye on Zul'Gurub's dark rituals, recognizing that the blood god's return poses an existential threat to the safety of nearby settlements and tribes across Stranglethorn."
+  }
+ ],
+ "keywords": [
+  "atal'ai",
+  "gurubashi",
+  "hakkar",
+  "jin'do",
+  "soulflayer",
+  "stranglethorn vale",
+  "troll capital",
+  "zul'gurub"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "topic:troll",
+  "topic:darkspear-tribe",
+  "zone:swampofsorrows",
+  "subzone:dark-portal",
+  "topic:horde",
+  "quest:2300",
+  "npc:mathias-shaw"
+ ],
+ "attribution": [
+  "Zul'Gurub"
+ ]
+}

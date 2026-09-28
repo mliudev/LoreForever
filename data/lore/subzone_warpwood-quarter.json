@@ -1,0 +1,93 @@
+{
+ "key": "subzone:warpwood-quarter",
+ "type": "subzone",
+ "name": "Warpwood Quarter",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Warpwood Quarter"
+ },
+ "summary": "The Warpwood Quarter encompasses the eastern district of the ruined Highborne city of Eldre'Thalas, now known as Dire Maul. Once a center of elven nature cultivation and lush gardens, it has devolved into a warped, demon-tainted ruin overrun by frenzied flora and corrupted satyrs.",
+ "sections": [
+  {
+   "title": "A Garden Corrupted",
+   "body": "Formerly known for its grand botanical marvels, the Warpwood Quarter has become a choking forest of twisted ancients and lethal lashers. The district fell under the sway of Alzzin the Wildshaper, a satyr who bent his dark magic toward defiling the ancient Fruit of Fertility. Under his malign influence, the plant life grew grotesque and predatory, saturating the halls with vile Felvine shards and drawing demons, rebellious imps, and demonic thralls into the ruined halls.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pathways through the Overgrowth",
+   "body": "While explorers typically enter the district through the central Broken Commons of Dire Maul, an overgrown subterranean backdoor lies hidden beneath the Lariss Pavilion to the east. Navigating the district requires contending not only with Alzzin's warped guardians, but also with elusive denizens such as the mischievous imp Pusillin, whose thievery leads pursuers on dangerous chases toward the secluded reaches of the ruins.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Warpwood Quarter?",
+   "aliases": [
+    "what is warpwood quarter",
+    "warpwood district",
+    "dire maul east lore"
+   ],
+   "answer": "The Warpwood Quarter is the eastern wing of Dire Maul, the ancient Highborne city of Eldre'Thalas. Originally built around grand conservatories, it has been overgrown and mutated by demonic energies."
+  },
+  {
+   "q": "Who rules this district?",
+   "aliases": [
+    "who controls warpwood",
+    "alzzin the wildshaper",
+    "warpwood boss"
+   ],
+   "answer": "The satyr Alzzin the Wildshaper holds dominion over the quarter. He has harnessed fell energies to corrupt the local vegetation and the legendary Fruit of Fertility, turning the district's plant guardians into vicious warped ancients."
+  },
+  {
+   "q": "How do you enter the Warpwood Quarter?",
+   "aliases": [
+    "warpwood entrance",
+    "how to get to dire maul east",
+    "lariss pavilion entrance"
+   ],
+   "answer": "The main entrance is located off the Broken Commons inside Dire Maul. A second, secluded rear entrance tunnels out underneath the Lariss Pavilion in eastern Feralas, which requires a Crescent Key to unlock."
+  },
+  {
+   "q": "Why is the imp Pusillin running through the ruins?",
+   "aliases": [
+    "pusillin",
+    "who is pusillin",
+    "imp running dire maul"
+   ],
+   "answer": "Pusillin is a thieving imp who lurks near the entrance of the quarter. When confronted by trespassers, he taunts them and flees deeper through the ruins, mocking adventurers all the way toward the Hidden Reach."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The twisted fate of the Warpwood ancients and the corruption of the Fruit of Fertility into foul Felvine are a tragic affront to Cenarion teachings, prompting druids from Moonglade to seek the cleansing of the quarter."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Seeing the majestic conservatories of Eldre'Thalas perverted into a satyr den serves as a grim reminder of the corruption that brought low the ancient Highborne Empire."
+  }
+ ],
+ "keywords": [
+  "alzzin the wildshaper",
+  "dire maul east",
+  "eldre'thalas",
+  "felvine",
+  "fruit of fertility",
+  "lariss pavilion",
+  "pusillin",
+  "warpwood quarter"
+ ],
+ "related": [
+  "subzone:dire-maul",
+  "zone:feralas",
+  "subzone:commons",
+  "subzone:lariss-pavilion",
+  "subzone:capital-gardens",
+  "topic:satyr",
+  "quest:5921"
+ ],
+ "attribution": [
+  "Warpwood Quarter"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "key": "npc:prospector-stormpike",
+ "type": "npc",
+ "name": "Prospector Stormpike",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Prospector Stormpike",
+  "refs": 2
+ },
+ "summary": "Prospector Stormpike is a blunt, short-tempered dwarf stationed within the Library of the Hall of Explorers in Ironforge. A member of the renowned Stormpike clan, he oversees logistical support for distant archaeological digs and lends his sharp intellect to deciphering coded missives.",
+ "sections": [
+  {
+   "title": "Scholar of the Hall of Explorers",
+   "body": "Tucked away amid the towering bookshelves of the Hall of Explorers, Prospector Stormpike coordinates excavation efforts across Khaz Modan and beyond. Despite his gruff demeanor and impatience with idle chatter, he is deeply dedicated to uncovering dwarven history, keeping distant sites supplied with essentials like blasting powder. Beneath his rough exterior lies a keen analytical mind skilled at breaking intricate ciphers, making him an unexpected asset to Alliance scouts dealing with clandestine threats.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Prospector Stormpike?",
+   "aliases": [
+    "who is stormpike",
+    "prospector stormpike lore",
+    "stormpike npc"
+   ],
+   "answer": "He is an archaeologist and logistics coordinator belonging to the well-known Stormpike clan, based in the Library wing of Ironforge's Hall of Explorers."
+  },
+  {
+   "q": "Where can I find Prospector Stormpike?",
+   "aliases": [
+    "stormpike location",
+    "where is prospector stormpike"
+   ],
+   "answer": "He can be found standing inside the Library, located within the Hall of Explorers in the eastern reaches of Ironforge."
+  },
+  {
+   "q": "What kind of work does he do?",
+   "aliases": [
+    "stormpike quests",
+    "what does stormpike do"
+   ],
+   "answer": "Stormpike handles supply lines and reports for archaeological excavations\u2014such as dispatching blasting powder out to field prospectors like Joren Ironband in Loch Modan\u2014and assists with breaking complex encrypted ciphers brought back by scouts."
+  },
+  {
+   "q": "Why does Southshore need his help?",
+   "aliases": [
+    "argus wake cipher",
+    "southshore stormpike"
+   ],
+   "answer": "Alliance authorities in Southshore rely on his knack for cryptography to decode intercepted letters written by the secretive Argus Wake cult."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Stormpike embodies the driven, no-nonsense spirit of the Explorers' League, treating ancient research and logistics as matters of utmost dwarven pride."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Beyond excavation work, Stormpike's knack for cryptography aids Alliance operations in northern lands against shadowy human cults like the Argus Wake."
+  }
+ ],
+ "keywords": [
+  "argus wake",
+  "explorers league",
+  "hall of explorers",
+  "ironforge",
+  "joren ironband",
+  "library",
+  "prospector stormpike",
+  "stormpike clan"
+ ],
+ "related": [
+  "subzone:library-ironforge",
+  "subzone:hall-of-explorers",
+  "zone:ironforge",
+  "quest:301",
+  "quest:302",
+  "subzone:southshore",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Prospector Stormpike"
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "key": "npc:krolg",
+ "type": "npc",
+ "name": "Krolg",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Krolg",
+  "refs": 3
+ },
+ "summary": "Krolg is an uncorrupted furbolg living in an isolated hut south of Mystral Lake in Ashenvale. Formerly a member of the Foulweald tribe, he has broken away from his kin who fell to demonic madness and will only speak with those who appear to him in furbolg form.",
+ "sections": [
+  {
+   "title": "A Mind Unbroken",
+   "body": "While most of the Foulweald furbolgs in Ashenvale have succumbed to the demonic taint left behind by the Burning Legion, Krolg remains lucid and untouched by madness. Residing in a secluded shelter south of Mystral Lake, he keeps a cautious vigil over the forest. Having witnessed the tragic descent of his brethren into senseless violence, he refuses to interact with outsiders at face value, speaking only with beings that appear as kin.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dartol's Legacy",
+   "body": "Through the magical enchantment of Dartol's Rod of Transformation, Alliance travelers are able to cloak themselves in the guise of a furbolg. Upon seeing what appears to be a friendly kindred spirit, Krolg opens up and reveals crucial insights into cleansing the land. He assists in completing Dartol's ancient rod and directs heroes against Chief Murgut, the self-proclaimed King of the Foulweald whose corrupt leadership threatens the region.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why won't Krolg talk to me?",
+   "aliases": [
+    "krolg wont speak",
+    "cant talk to krolg",
+    "why is krolg silent"
+   ],
+   "answer": "Krolg is deeply suspicious of outsiders and terrified of the violent chaos consuming the forest. He will completely ignore you unless you are under the furbolg transformation granted by Dartol's Rod of Transformation during the Raene's Cleansing questline."
+  },
+  {
+   "q": "Where can Krolg be found?",
+   "aliases": [
+    "krolg location",
+    "where is krolg",
+    "krolg hut"
+   ],
+   "answer": "He lives in a small shelter known as Krolg's Hut, situated just south of Mystral Lake in south-central Ashenvale."
+  },
+  {
+   "q": "What tribe does Krolg belong to?",
+   "aliases": [
+    "krolg tribe",
+    "is krolg foulweald"
+   ],
+   "answer": "Krolg was originally part of the Foulweald tribe. Unlike the rest of his kin, who fell to corruption and demonic frenzy, he maintained his sanity and severed ties with them."
+  },
+  {
+   "q": "Is Krolg hostile to players?",
+   "aliases": [
+    "does krolg attack",
+    "is krolg an enemy"
+   ],
+   "answer": "No, Krolg is non-hostile to Alliance travelers. However, he remains entirely silent and unwilling to offer quests until approached in furbolg form."
+  },
+  {
+   "q": "Why does Krolg want Chief Murgut dead?",
+   "aliases": [
+    "king of the foulweald quest",
+    "why kill murgut"
+   ],
+   "answer": "Chief Murgut leads the corrupted Foulweald tribe as their self-proclaimed king. To protect what remains of the woodland and stop the spread of feral corruption, Krolg tasks transformed adventurers with slaying the chief."
+  },
+  {
+   "q": "Who was Dartol, whose rod Krolg helps restore?",
+   "aliases": [
+    "who is dartol",
+    "dartols rod backstory"
+   ],
+   "answer": "Dartol was a night elf who created a magical rod capable of cleansing demonic corruption and granting furbolg form. Krolg helps players assemble the final pieces required to awaken its true power."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves of Astranaar, Krolg represents a bittersweet reminder of their ancient furbolg allies before demonic corruption shattered the tribes."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids seeking to restore balance to Ashenvale find an invaluable, lucid voice in Krolg amidst a landscape overrun by tainted wildlife."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance scouts assisting Raene Wolfrunner rely on Krolg to dismantle the leadership of the hostile Foulweald furbolgs."
+  }
+ ],
+ "keywords": [
+  "ashenvale furbolg",
+  "chief murgut",
+  "dartol's rod",
+  "foulweald",
+  "krolg",
+  "krolg's hut",
+  "mystral lake",
+  "raene's cleansing"
+ ],
+ "related": [
+  "quest:991",
+  "quest:6621",
+  "npc:raene-wolfrunner",
+  "subzone:mystral-lake",
+  "zone:ashenvale",
+  "topic:furbolg",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Krolg"
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "key": "quest:1473",
+ "type": "quest",
+ "name": "Creature of the Void",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   1473
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Carendin Halgar",
+  "end": "",
+  "previous": "Halgar's Summons",
+  "next": "The Binding (Voidwalker, Undercity)",
+  "wiki": "Creature of the Void (Undercity)",
+  "chain": [
+   "Halgar's Summons",
+   "Return to Carendin Halgar",
+   "Creature of the Void (Undercity)",
+   "The Binding (Voidwalker, Undercity)"
+  ]
+ },
+ "summary": "Creature of the Void is a pivotal rite of passage for Forsaken warlocks, tasking them with recovering a lost arcane text from the Scarlet Crusade. To learn how to summon and bind a chaotic voidwalker, an initiate must venture west of Tirisfal Glades and retrieve Egalin's Grimoire from hostile zealots.",
+ "sections": [
+  {
+   "title": "A Teacher's Legacy",
+   "body": "Within the dark alcoves of the Temple of the Damned in the Undercity, Carendin Halgar oversees the development of rising Forsaken summoners. When an acolyte proves competent enough to wield power beyond petty imps, Halgar directs them toward binding a creature forged from pure shadow and chaos: the voidwalker. Rather than relying on simple instinct, Forsaken practitioners base their summons on the meticulous research of Egalin, Halgar's own former master, who first penned the rituals necessary to subjugate these monstrous denizens of the void.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Stolen Grimoire",
+   "body": "Mastery of the voidwalker cannot be achieved without Egalin's Grimoire, which contains the precise methods for channeling such volatile magic. However, the precious tome was stolen by an agent of the Scarlet Crusade\u2014a zealot named Perrine stationed in an outpost tower to the west. While Perrine and his crusaders likely viewed the grimoire as mere blasphemous contraband to confiscate and hoard, recovering it is essential if the Forsaken are to secure the ritual secrets before attempting to tear open the veil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Egalin's Grimoire?",
+   "aliases": [
+    "egalins grimoire",
+    "what is the book",
+    "who was egalin"
+   ],
+   "answer": "Egalin's Grimoire is a magical manual authored by the warlock Egalin, who taught Carendin Halgar. It details the intricate channeling techniques and spells required to breach the void and summon a voidwalker under the caster's absolute control."
+  },
+  {
+   "q": "Why did the Scarlet Crusade steal the book?",
+   "aliases": [
+    "why did scarlet crusade take it",
+    "perrine grimoire",
+    "scarlet tower west"
+   ],
+   "answer": "The Scarlet Crusade considers all demonic and shadow magic inherently corrupt. An agent named Perrine seized the grimoire during a skirmish or infiltration, stashing it away in a western watchtower in Tirisfal Glades, seemingly unaware of the specific summoning power contained inside."
+  },
+  {
+   "q": "Who is Carendin Halgar?",
+   "aliases": [
+    "carendin halgar",
+    "warlock trainer undercity",
+    "temple of the damned trainer"
+   ],
+   "answer": "Carendin Halgar is a master warlock trainer residing in the Temple of the Damned within the Undercity. He guides novice Forsaken warlocks, teaching them respect for volatile cosmic forces and caution born from his own past summoning mistakes."
+  },
+  {
+   "q": "What happens if a warlock loses control of a voidwalker?",
+   "aliases": [
+    "can voidwalker kill you",
+    "voidwalker danger",
+    "summoning failure"
+   ],
+   "answer": "Voidwalkers are beings of pure chaos and shadow. As Carendin Halgar warns, if an initiate attempts to conjure one without flawless discipline and binding will, the entity will violently tear its summoner apart."
+  },
+  {
+   "q": "What comes after recovering the grimoire?",
+   "aliases": [
+    "what next after grimoire",
+    "next quest",
+    "binding ritual"
+   ],
+   "answer": "Once Halgar has the book, he studies the text to impart the ritual runes to you. This immediately leads into 'The Binding', where the initiate must use the summoning circle to conjure a voidwalker and defeat it in personal combat to establish dominance."
+  },
+  {
+   "q": "Where is the Scarlet Crusade outpost located?",
+   "aliases": [
+    "where is perrine",
+    "scarlet tower location",
+    "where is the book"
+   ],
+   "answer": "The grimoire is hidden inside a Scarlet Crusade watchtower situated to the west across Tirisfal Glades, guarded by crusaders under the command of Perrine."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This quest marks your transition from dabbling with imps to controlling heavy frontline shadow entities capable of absorbing immense physical punishment."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Striking the Scarlet Crusade to reclaim dark knowledge underscores the bitter struggle between the Forsaken and the living zealots occupying Lordaeron's ruins."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The dark arts practiced in the Undercity operate on strict scholarly technique, turning dangerous planar forces into reliable assets for the Horde's frontier wars."
+  }
+ ],
+ "keywords": [
+  "carendin halgar",
+  "egalin",
+  "egalins grimoire",
+  "perrine",
+  "scarlet crusade",
+  "temple of the damned",
+  "tirisfal glades",
+  "undercity",
+  "voidwalker"
+ ],
+ "related": [
+  "npc:carendin-halgar",
+  "quest:1471",
+  "quest:1478",
+  "topic:scarlet-crusade",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "Creature of the Void (Undercity)"
+ ]
+}

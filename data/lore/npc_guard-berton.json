@@ -1,0 +1,83 @@
+{
+ "key": "npc:guard-berton",
+ "type": "npc",
+ "name": "Guard Berton",
+ "era": "classic",
+ "zone": "stockade",
+ "meta": {
+  "wiki": "Guard Berton",
+  "refs": 1
+ },
+ "summary": "Guard Berton is a human town guardsman stationed outside the Lakeshire Inn in Redridge Mountains. Frustrated by the bureaucratic delays of Stormwind's legal system, he seeks swift justice against Targorr the Dread, an imprisoned orc leader.",
+ "sections": [
+  {
+   "title": "A Guard Seeking Justice",
+   "body": "While Redridge Mountains buckles under the threat of the Blackrock orc invasion, Guard Berton remains posted outside the Lakeshire Inn. Despite local defenses being pushed to the brink, Berton's attention is fixed on a captive enemy: Targorr the Dread. Targorr was captured and locked away deep within the Stormwind Stockade, sentenced to death for his crimes against the kingdom. Yet with Stormwind's execution postponed indefinitely, Berton refuses to let the brutal raider linger in a cell while Lakeshire bleeds. Taking matters into his own hands, he hires willing adventurers to bypass royal delays and execute the orc directly.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Guard Berton?",
+   "aliases": [
+    "berton lakeshire",
+    "who is berton"
+   ],
+   "answer": "Guard Berton is an Alliance guard stationed outside the Lakeshire Inn in the Redridge Mountains. He is primarily known for hiring adventurers to carry out justice against an infamous orc prisoner."
+  },
+  {
+   "q": "Why does Guard Berton want Targorr the Dread killed?",
+   "aliases": [
+    "why kill targorr",
+    "targorr execution",
+    "what comes around quest lore"
+   ],
+   "answer": "Targorr the Dread was sentenced to execution for his crimes, but Stormwind's leadership placed the sentence on hold. Frustrated by this stalling while Redridge remains under siege, Berton arranges for Targorr to be eliminated inside the Stockade."
+  },
+  {
+   "q": "Where is Targorr the Dread held?",
+   "aliases": [
+    "targorr location",
+    "where is targorr"
+   ],
+   "answer": "Targorr is confined inside the Stockade, the high-security dungeon located within the Canal district of Stormwind City."
+  },
+  {
+   "q": "Where can Guard Berton be found?",
+   "aliases": [
+    "where is berton",
+    "berton location"
+   ],
+   "answer": "He stands watch just outside the entrance to the Lakeshire Inn, overlooking the town center of Lakeshire in Redridge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Berton represents the growing frustration among rural Alliance settlements, where local defenders watch Stormwind's central bureaucracy delay justice while border towns fight for survival."
+  }
+ ],
+ "keywords": [
+  "berton",
+  "guard berton",
+  "lakeshire",
+  "redridge",
+  "targorr",
+  "targorr the dread",
+  "the stockade",
+  "what comes around"
+ ],
+ "related": [
+  "npc:targorr-the-dread",
+  "quest:386",
+  "subzone:lakeshire-inn",
+  "subzone:lakeshire",
+  "zone:stockade",
+  "subzone:stormwind-stockade",
+  "zone:redridge",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Guard Berton"
+ ]
+}

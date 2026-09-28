@@ -1,0 +1,112 @@
+{
+ "key": "quest:92482",
+ "type": "quest",
+ "name": "The Way of the Hunter",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92482
+  ],
+  "level": "2",
+  "faction": null,
+  "start": "Rorian the Dayseeker",
+  "end": "Tai'ree Farsight",
+  "previous": "Harmony in Balance",
+  "next": "",
+  "wiki": "The Way of the Hunter",
+  "chain": []
+ },
+ "summary": "The Way of the Hunter is an introductory training quest for fledgling hunters in Thendal Grove on Zephras Isle. After proving their mettle against the local vuldren threat, young trackers are directed by Rorian the Dayseeker to present themselves to Tai'ree Farsight to begin their formal tutelage.",
+ "sections": [
+  {
+   "title": "A Summons to the Hunt",
+   "body": "Upon returning from thinning the disruptive vuldren prowling the outskirts of Thendal Grove, young hunters find that their practical skills have caught local attention. Rorian the Dayseeker passes along a scribbled summons from Tai'ree Farsight, the grove's resident hunter trainer. For novice rangers setting out into the wider wilds of Zephras Isle, this marked the shift from simple island defense to true martial and survival instruction.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Tutelage of Tai'ree",
+   "body": "Found near the center of the village, Tai'ree Farsight welcomes promising pupils with stern realism. Emphasizing that thriving in untamed nature demands sharp senses and lightning reflexes, she offers guidance born of her own long years of experience. Her mentorship marks the foundational steps for any island tracker looking to hone their marksmanship and survival skills.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this task?",
+   "aliases": [
+    "who gives the way of the hunter",
+    "quest starter",
+    "rorian quest"
+   ],
+   "answer": "Rorian the Dayseeker offers this task in Thendal Grove on Zephras Isle after you assist him with the local vuldren infestation in the quest 'Harmony in Balance'."
+  },
+  {
+   "q": "Who is Tai'ree Farsight?",
+   "aliases": [
+    "where is tai'ree",
+    "hunter trainer thendal grove",
+    "tai'ree farsight location"
+   ],
+   "answer": "Tai'ree Farsight is the resident hunter trainer in Thendal Grove, stationed near the center of the village. She oversees the training and discipline of aspiring marksmen and island trackers."
+  },
+  {
+   "q": "What is the purpose of the Scribbled Note?",
+   "aliases": [
+    "scribbled note",
+    "what does the note say",
+    "hunter note"
+   ],
+   "answer": "The Scribbled Note is a message left by Tai'ree Farsight while you were away dealing with the vuldren. It directs you to seek her out directly in the village square to begin advanced training."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "quest zone",
+    "hunter quest location",
+    "where is thendal grove"
+   ],
+   "answer": "This quest takes place entirely within Thendal Grove, an outpost settlement situated on Zephras Isle."
+  },
+  {
+   "q": "What prerequisite must be completed before this quest?",
+   "aliases": [
+    "prereq for the way of the hunter",
+    "how to unlock",
+    "previous quest"
+   ],
+   "answer": "You must first complete 'Harmony in Balance' for Rorian the Dayseeker, proving your initial competence by dealing with the aggressive vuldren near the grove."
+  },
+  {
+   "q": "What does Tai'ree Farsight teach new hunters?",
+   "aliases": [
+    "what does tai'ree do",
+    "why talk to tai'ree"
+   ],
+   "answer": "Tai'ree Farsight acts as your class trainer. Speaking with her introduces the core philosophy of island tracking and opens access to foundational hunter abilities and combat techniques."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This quest serves as the essential rite of passage for fledgling hunters on Zephras Isle, formalizing their training under Tai'ree Farsight."
+  }
+ ],
+ "keywords": [
+  "hunter trainer",
+  "rorian the dayseeker",
+  "scribbled note",
+  "tai'ree farsight",
+  "the way of the hunter",
+  "thendal grove",
+  "vuldren",
+  "zephras"
+ ],
+ "related": [
+  "npc:rorian-the-dayseeker",
+  "quest:92461",
+  "zone:zephras"
+ ],
+ "attribution": [
+  "The Way of the Hunter"
+ ]
+}

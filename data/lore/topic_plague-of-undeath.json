@@ -1,0 +1,137 @@
+{
+ "key": "topic:plague-of-undeath",
+ "type": "topic",
+ "name": "Plague of Undeath",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Plague of Undeath"
+ },
+ "summary": "The Plague of Undeath is a supernatural contagion concocted by the Lich King under the direction of the Burning Legion to scourge northern Eastern Kingdoms. Transmitted through infected grain, airborne cauldrons, and tainted waterways, the sickness rapidly kills living mortals and raises them as mind-bound thralls of the Scourge.",
+ "sections": [
+  {
+   "title": "Origins in the Ice",
+   "body": "The plague was devised by the fallen shaman Ner'zhul after he was transformed into the Lich King by Kil'jaeden. From his icy seat atop the Frozen Throne in Northrend, Ner'zhul perfected the sickness as an unholy vanguard for the Burning Legion's invasion. Testing his power on isolated human villages across Northrend, he discovered that he could snuff out life and psychically command the corpses that arose shortly after. Ner'zhul's telepathic summon reached across the Great Sea to the Kirin Tor mage Kel'Thuzad, who abandoned Dalaran to serve the entity. Kel'Thuzad organized the secretive Cult of the Damned, whose mortal infiltrators laid the groundwork to poison Lordaeron from within.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Grain of Andorhal",
+   "body": "Kel'Thuzad and the dreadlord Mal'Ganis chose Lordaeron's agricultural heartland to distribute the contagion. The cult secured distribution centers around Andorhal, packaging the plague into crates of grain destined for population centers across the north, including Brill and Stratholme. Unsuspecting villagers baked bread with the contaminated shipments, falling sick with burning joints, oozing sores, and milky eyes. Within three days, entire communities perished, only to immediately rise as flesh-eating zombies bound to the Lich King's psychic call. Prince Arthas Menethil raced to intercept the shipments, culminating in the horrific culling of Stratholme's citizens before the infected bread could transform them into Mal'Ganis's army.",
+   "spoiler": 1
+  },
+  {
+   "title": "A Land Corrupted",
+   "body": "The blight extends far beyond humanity. While non-human fauna generally suffer sickening fevers or rot rather than rising as undead thralls, the land itself bears the brunt of demonic and necromantic decay. Across the Plaguelands, massive plague cauldrons pump alchemical and magical vapors directly into the atmosphere, poisoning rivers like the Thondroril and giving rise to mutated carrion grubs and colossal spore-choked mushrooms. The Argent Dawn actively battles this airborne corruption by sabotaging these cauldrons, reversing their catalytic mixtures to burn the Scourge rather than feed it. Meanwhile, in the Undercity, the Royal Apothecary Society experiments tirelessly to refine a New Plague designed to slay both living foes and the undead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How was the plague originally spread across Lordaeron?",
+   "aliases": [
+    "how did plague spread",
+    "infected grain",
+    "plagued grain distribution",
+    "grain of andorhal"
+   ],
+   "answer": "Kel'Thuzad's Cult of the Damned infiltrated the distribution hub of Andorhal. They loaded grain supplies with the plague and shipped crates to towns throughout the kingdom, such as Stratholme and Brill. When the local populace consumed the contaminated flour, they succumbed to the sickness and rose as undead."
+  },
+  {
+   "q": "What happens to someone infected by the plague?",
+   "aliases": [
+    "plague symptoms",
+    "what does the plague do",
+    "how fast does plague kill"
+   ],
+   "answer": "Victims rapidly experience weakness, nausea, joint aches, and fever. Skin breaks out into irritated boils and leaking yellow-green lesions, while eyes turn milky. Severe hemorrhaging from the ears and eyes quickly follows. Most mortals die within three days, only to rise soon after as reanimated servants awaiting the commands of the Lich King."
+  },
+  {
+   "q": "Why does the plague affect humans differently than other races?",
+   "aliases": [
+    "why humans",
+    "does plague affect elves",
+    "are orcs immune to plague"
+   ],
+   "answer": "The Lich King deliberately engineered the plague to target humanity in order to obliterate the Kingdom of Lordaeron. Non-human wildlife and races exposed to the plague often suffer horrific rot, delirium, and fever, but rarely reanimate automatically as Scourge thralls without additional direct necromantic spells."
+  },
+  {
+   "q": "Can the Plague of Undeath be cured?",
+   "aliases": [
+    "is plague curable",
+    "cure for the plague",
+    "healing the plague"
+   ],
+   "answer": "Natural medicines and conventional healing are powerless against it. Only powerful interventions of the Holy Light have demonstrated an ability to purge or weaken the contagion before death takes hold. Once a victim dies and reanimates, the transformation is complete and cannot be reversed."
+  },
+  {
+   "q": "What are the giant cauldrons in the Plaguelands for?",
+   "aliases": [
+    "plague cauldrons",
+    "what are cauldrons doing",
+    "why are cauldrons in fields"
+   ],
+   "answer": "The Scourge erected massive cauldrons across the former farmlands to vent vaporized plague directly into the air. This airborne delivery corrupts the soil, clouds the sky, and sickens passing beasts. The Argent Dawn works tirelessly to counteract these cauldrons by turning their reagents into holy or toxic counters against the Scourge."
+  },
+  {
+   "q": "What is the Forsaken's New Plague?",
+   "aliases": [
+    "forsaken plague",
+    "royal apothecary society plague",
+    "new plague undercity"
+   ],
+   "answer": "Developed in the bowels of the Undercity by the Royal Apothecary Society, the New Plague is a bespoke chemical and magical pathogen. Unlike the Scourge's version, the Forsaken design their formula specifically to kill both living mortals and the undead thralls of the Lich King."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "The Plague of Undeath wiped out the Kingdom of Lordaeron and tore families apart, standing as the direct cause of humanity's greatest historical catastrophe."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Every Forsaken carries the physical scars of the plague, having lived through its agony and died only to break free from the Lich King's psychic grip years later."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The Order of the Silver Hand shattered trying to contain the contagion, leaving paladins to rely solely on the Holy Light to purge its foul residue."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests face the ultimate corruption of body and spirit in the plague, driving their faith to burn away necrotic sickness before it festers."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The loss of northern kingdoms to the plague remains an unhealed wound for the Alliance, driving their ongoing crusade to cleanse the Plaguelands."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While orcs and tauren viewed the northern sickness as a human curse, the Royal Apothecary Society's research has brought the horror of plague experimentation directly into the Horde."
+  }
+ ],
+ "keywords": [
+  "andorhal",
+  "blight",
+  "cauldrons",
+  "grain",
+  "kel'thuzad",
+  "mal'ganis",
+  "ner'zhul",
+  "plague",
+  "scourge",
+  "stratholme",
+  "undeath"
+ ],
+ "related": [
+  "topic:scourge",
+  "topic:lich-king",
+  "topic:cult-of-the-damned",
+  "topic:arthas-menethil",
+  "subzone:andorhal",
+  "subzone:stratholme",
+  "subzone:cauldron",
+  "topic:royal-apothecary-society"
+ ],
+ "attribution": [
+  "Plague of Undeath"
+ ]
+}

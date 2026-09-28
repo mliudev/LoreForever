@@ -1,0 +1,85 @@
+{
+ "key": "subzone:roiling-gardens",
+ "type": "subzone",
+ "name": "Roiling Gardens",
+ "era": "classic",
+ "zone": "ungoro",
+ "meta": {
+  "wiki": "Roiling Gardens"
+ },
+ "summary": "The Roiling Gardens is an overgrown, restless stretch of Un'Goro Crater lying just north of the Marshlands. Dominated by aggressive Bloodpetals and bizarre sporous blooms, the area is teetering on ecological collapse while hiding the remnants of an abandoned expedition camp.",
+ "sections": [
+  {
+   "title": "A Garden Out of Control",
+   "body": "Situated directly north of the central Marshlands, the Roiling Gardens earned its name from the sheer, unsettling vitality of its vegetation. The local trees are smothered under a choking blanket of aggressive vines and strange flowers, while massive, sporous blossoms erupt across the soil. Worst of all are the predatory Bloodpetal plants, whose surging population threatens to completely consume the local ecosystem. The rapid, unchecked growth here has deeply upset the natural balance of Un'Goro, turning a vibrant habitat into a hostile thicket.",
+   "spoiler": 0
+  },
+  {
+   "title": "Forgotten Expeditions and Strange Minerals",
+   "body": "Before establishing Marshal's Refuge in the safety of northern caverns, Williden Marshal's expedition attempted to camp in these very gardens. The increasingly violent plant life and dangerous environment forced a frantic retreat, so sudden that crates of supplies were left scattered among the roots. Aside from its aggressive flora and abandoned gear, the Roiling Gardens is uniquely known as the primary gathering ground for Green Power Crystals, enigmatic minerals scattered across the dirt that hum with primal Titan energies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What makes the Roiling Gardens dangerous?",
+   "aliases": [
+    "why is roiling gardens dangerous",
+    "roiling gardens threats"
+   ],
+   "answer": "The area is infested with hostile, carnivorous Bloodpetal plants that have aggressively multiplied. Giant sporous blossoms and choking vines have rapidly overwhelmed the native flora, making navigation perilous for anyone walking off the beaten track."
+  },
+  {
+   "q": "Why is there an abandoned camp here?",
+   "aliases": [
+    "abandoned camp roiling gardens",
+    "foodstuffs crate",
+    "marshal camp"
+   ],
+   "answer": "The camp belonged to Williden Marshal and his expedition before they relocated north to Marshal's Refuge. The escalating danger from the ravenous plants and wildlife forced them to abandon the site in a hurry, leaving supplies such as crates of foodstuffs behind."
+  },
+  {
+   "q": "What kind of crystals are found in the Roiling Gardens?",
+   "aliases": [
+    "green crystals ungoro",
+    "roiling gardens crystals"
+   ],
+   "answer": "The Roiling Gardens is the sole region in Un'Goro Crater where Green Power Crystals can be found lying on the ground. These crystals are sought after by researchers studying the ancient pylons scattered throughout the crater."
+  },
+  {
+   "q": "Where are the Roiling Gardens located?",
+   "aliases": [
+    "roiling gardens location",
+    "where is roiling gardens"
+   ],
+   "answer": "The gardens lie in the central portion of Un'Goro Crater, directly north of the Marshlands and south of the northern bluffs leading toward Marshal's Refuge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The wild, predatory overgrowth of the Bloodpetals in the Roiling Gardens serves as an urgent reminder of what happens when natural balance is corrupted or pushed beyond its limits."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The rich, moist soil and bizarre runaway plant growth make the Roiling Gardens a dense, albeit dangerous, landscape for gathering rare flora."
+  }
+ ],
+ "keywords": [
+  "bloodpetals",
+  "crate of foodstuffs",
+  "green power crystals",
+  "marshal's refuge",
+  "marshlands",
+  "roiling gardens",
+  "un'goro"
+ ],
+ "related": [
+  "zone:ungoro",
+  "subzone:marshlands",
+  "subzone:marshal-s-refuge"
+ ],
+ "attribution": [
+  "Roiling Gardens"
+ ]
+}

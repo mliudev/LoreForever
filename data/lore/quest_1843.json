@@ -1,0 +1,112 @@
+{
+ "key": "quest:1843",
+ "type": "quest",
+ "name": "Brutal Gauntlets",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   1843
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Ula'elek",
+  "end": "",
+  "previous": "Satyr Hooves",
+  "next": null,
+  "wiki": "Brutal Gauntlets (quest)",
+  "chain": []
+ },
+ "summary": "Brutal Gauntlets is the culmination of an artisan's craft for seasoned Horde warriors. After gathering rare components across distant lands, the craftsman Ula'elek fashions a formidable pair of handguards designed to bring honor to both the maker and the bearer.",
+ "sections": [
+  {
+   "title": "A Craftsman's Masterpiece",
+   "body": "Forging armor fit for a seasoned frontline warrior is more than simple metalworking\u2014it is a spiritual undertaking for Horde artisans. Ula'elek, a craftsman residing in Durotar, pours his lineage and skill into shaping these brutal gauntlets. By employing hardened trophies harvested from dangerous adversaries, he constructs armor tailored to withstand ferocious blows while enhancing the wearer's offensive might.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ancestral Honor",
+   "body": "In orcish and troll traditions, fine arms and armor carry the prestige of the forge and the spirit of the maker into battle. When Ula'elek presents the finished gauntlets to a warrior, he entrusts them with the legacy of his ancestors. A champion who wears them into combat is expected to display courage, martial discipline, and strength worthy of the craftsmanship.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ula'elek?",
+   "aliases": [
+    "ulaelek",
+    "who gives brutal gauntlets",
+    "quest giver"
+   ],
+   "answer": "Ula'elek is a craftsman based in Durotar who aids Horde warriors in securing tailored, high-grade armor. He demands exotic materials to ensure that his smithing honors both his trade and his ancestral traditions."
+  },
+  {
+   "q": "Why were satyr hooves needed for these gauntlets?",
+   "aliases": [
+    "why satyr hooves",
+    "satyr parts",
+    "materials used"
+   ],
+   "answer": "Satyrs are hardened by demonic corruption, possessing tough, resilient hooves and sinew. Craftsmen like Ula'elek incorporate such rare and sturdy natural trophies into their smithing to provide unique reinforcement and intimidation on the battlefield."
+  },
+  {
+   "q": "What does wearing the gauntlets signify to Ula'elek?",
+   "aliases": [
+    "honor ancestors",
+    "ula'elek honor"
+   ],
+   "answer": "To Ula'elek, crafting these gauntlets represents his pinnacle work. Entrusting them to a worthy warrior brings deep honor to his craft and his ancestors, linking his labor directly to the Horde's martial victories."
+  },
+  {
+   "q": "Where does this task take place?",
+   "aliases": [
+    "location",
+    "where is brutal gauntlets turned in"
+   ],
+   "answer": "The forging concludes in Durotar, the arid heartland of the orcs and Darkspear trolls, where Ula'elek inspects the recovered materials and presents the completed armor."
+  },
+  {
+   "q": "Is this trial intended for all adventurers?",
+   "aliases": [
+    "is this warrior only",
+    "class requirement"
+   ],
+   "answer": "This path is forged specifically for frontline warriors who have proven their stamina and martial dedication, marking their ascent into more seasoned combat roles within the Horde."
+  },
+  {
+   "q": "What comes after receiving the gauntlets?",
+   "aliases": [
+    "next quest",
+    "brutal gauntlets follow up"
+   ],
+   "answer": "The delivery of the gauntlets marks the completion of this specific crafting trial, leaving the warrior fully equipped to face greater threats across Azeroth's war-torn battlefields."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "These gauntlets represent a warrior's transition into disciplined martial leadership, serving as a trusted piece of protective kit forged specifically for heavy melee engagements."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde craftsmanship relies on enduring tradition and martial pride, ensuring champions carry the spiritual weight and honor of their craftspeople into battle."
+  }
+ ],
+ "keywords": [
+  "armor forging",
+  "brutal gauntlets",
+  "durotar",
+  "horde",
+  "satyr hooves",
+  "ula'elek",
+  "warrior armor"
+ ],
+ "related": [
+  "quest:1842",
+  "npc:ula-elek",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Brutal Gauntlets (quest)"
+ ]
+}

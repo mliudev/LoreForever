@@ -1,0 +1,93 @@
+{
+ "key": "subzone:stormwind-keep",
+ "type": "subzone",
+ "name": "Stormwind Keep",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Stormwind Keep"
+ },
+ "summary": "Stormwind Keep stands high above the capital as the stone fortress and seat of power for the Kingdom of Stormwind. Rebuilt after its ruin in the First War, it currently houses the royal court of the young boy-king Anduin Wrynn and his regent, Highlord Bolvar Fordragon.",
+ "sections": [
+  {
+   "title": "The Rebuilt Citadel",
+   "body": "Perched upon a plateau overlooking the entire city, Stormwind Keep serves as both a palace and a military bastion. The original stronghold was burned to the ground by the Old Horde when King Llane was assassinated near the end of the First War. Raised anew upon the old foundations after the Alliance reclaimed the kingdom, the reconstructed keep houses not only the grand throne room and the War Room, but peaceful garden courtyards and the expansive Royal Library.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Divided Court",
+   "body": "Behind the keep's banners and polished stone lies an uneasy peace. With King Varian Wrynn mysteriously missing en route to a diplomatic summit at Theramore, governance rests on ten-year-old King Anduin Wrynn. Effective rule falls to Highlord Bolvar Fordragon and the noble Lady Katrana Prestor. While Bolvar handles defense and military affairs, court politics remain paralyzed by aristocratic infighting, leaving the outlying territories vulnerable and the crown deeply distracted.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules in Stormwind Keep right now?",
+   "aliases": [
+    "who is in charge",
+    "who leads stormwind",
+    "who is the king"
+   ],
+   "answer": "King Anduin Wrynn technically holds the throne, but because he is only ten years old, Highlord Bolvar Fordragon governs as regent alongside Lady Katrana Prestor as royal advisor."
+  },
+  {
+   "q": "What happened to King Varian Wrynn?",
+   "aliases": [
+    "where is varian",
+    "varian missing",
+    "what happened to the king"
+   ],
+   "answer": "King Varian vanished under mysterious circumstances while traveling across the sea to a peace conference in Theramore. His sudden disappearance left the throne vacant, forcing Bolvar and the court to crown young Anduin to ensure political stability."
+  },
+  {
+   "q": "Was the keep destroyed in the First War?",
+   "aliases": [
+    "did the orcs destroy the keep",
+    "first war castle destruction"
+   ],
+   "answer": "Yes. Following the murder of King Llane Wrynn by Garona, the Old Horde overwhelmed the city and completely razed the keep. The current fortress was rebuilt upon the ancient foundations after the Alliance prevailed in the Second War."
+  },
+  {
+   "q": "What major wings can be visited inside the keep?",
+   "aliases": [
+    "keep rooms",
+    "what is inside the keep",
+    "wings of stormwind keep"
+   ],
+   "answer": "The complex contains the main throne room, the War Room directly behind it, the Petitioner's Chamber for visiting supplicants, an open garden courtyard, the Royal Gallery, and the Royal Library."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The keep is the heart of the Alliance's eastern military command, where Bolvar Fordragon and the marshals direct defenses against rising threats across Elwynn, Westfall, and beyond."
+  },
+  {
+   "target": "race:Human",
+   "text": "Rebuilt from ashes after the devastation of the First War, the fortress stands as a testament to the resilience and pride of Stormwind's people."
+  }
+ ],
+ "keywords": [
+  "anduin wrynn",
+  "bolvar fordragon",
+  "castle stormwind",
+  "katrana prestor",
+  "royal library",
+  "stormwind keep",
+  "throne room",
+  "war room"
+ ],
+ "related": [
+  "topic:anduin-wrynn",
+  "topic:bolvar-fordragon",
+  "topic:varian-wrynn",
+  "subzone:war-room",
+  "subzone:royal-library",
+  "subzone:petitioner-s-chamber",
+  "topic:stormwind-kingdom",
+  "topic:first-war"
+ ],
+ "attribution": [
+  "Stormwind Keep"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "npc:thassarian",
+ "type": "npc",
+ "name": "Thassarian",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Thassarian",
+  "refs": 2
+ },
+ "summary": "Thassarian was once an earnest footman of Lordaeron who followed Prince Arthas into Northrend during the Third War. Slain in the frozen wastes, he was raised as a death knight bound to the will of the Scourge.",
+ "sections": [
+  {
+   "title": "A Soldier of Lordaeron",
+   "body": "Before the fall of the northern kingdoms, Thassarian was a dutiful farm boy who enlisted in Lordaeron's army to follow the example of his late father. Taught that military obedience was paramount, he obeyed orders without hesitation. That loyalty led him directly into horror: he accompanied Prince Arthas through the Culling of Stratholme and sailed north with the 1st Legion to hunt the dreadlord Mal'Ganis in the frozen wastes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Servant of the Scourge",
+   "body": "While searching for the vanished prince in Northrend, Thassarian stumbled into the cavern where Frostmourne had rested. There he was struck down by the fallen Captain Falric. Raised as a death knight under Arthas's dominion, Thassarian was forced to return to his homeland and murder his own mother, Vivian, to cement his subservience. Bound to the Lich King, he marches among the Scourge's dread commanders in the ruin of the north.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Thassarian?",
+   "aliases": [
+    "thassarian lore",
+    "who is thassarian",
+    "thassarian backstory"
+   ],
+   "answer": "Thassarian is a former human soldier from Lordaeron who marched with Prince Arthas to Northrend during the Third War. He was killed there and raised into undeath as a lieutenant and death knight of the Scourge."
+  },
+  {
+   "q": "How did Thassarian become a death knight?",
+   "aliases": [
+    "thassarian death",
+    "how did thassarian die",
+    "who turned thassarian"
+   ],
+   "answer": "While searching for Prince Arthas in Northrend, Thassarian entered Frostmourne Cavern and was killed by Captain Falric, who had already fallen to undeath. He was subsequently resurrected by Arthas as an undead death knight."
+  },
+  {
+   "q": "What terrible deed did the Scourge force him to commit?",
+   "aliases": [
+    "thassarian mother",
+    "did thassarian kill his mom",
+    "thassarian vivian"
+   ],
+   "answer": "Upon returning to Lordaeron with the Scourge, Arthas forced Thassarian to execute his own mother, Vivian, to extinguish his remnants of humanity and test his absolute obedience to the Lich King."
+  },
+  {
+   "q": "What is his connection to Koltira Deathweaver?",
+   "aliases": [
+    "thassarian and koltira",
+    "koltira thassarian friendship"
+   ],
+   "answer": "During the Scourge invasion of Quel'Thalas, Thassarian fought and killed the high elven defender Koltira. When Koltira was subsequently raised as a death knight, the two forged an enduring bond of brotherhood in undeath."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Thassarian's fate represents the tragedy of Lordaeron's footmen, who marched north out of devotion to their prince only to be butchered and turned into monsters against their own families."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Trained by his father to believe that an obedient soldier wins wars, Thassarian followed martial discipline all the way into the freezing cavern that doomed his soul."
+  }
+ ],
+ "keywords": [
+  "arthas",
+  "death knight",
+  "falric",
+  "koltira",
+  "lordaeron",
+  "scourge",
+  "stratholme",
+  "thassarian"
+ ],
+ "related": [
+  "topic:arthas-menethil",
+  "topic:scourge",
+  "topic:lich-king",
+  "subzone:stratholme",
+  "npc:koltira-deathweaver",
+  "topic:lordaeron",
+  "topic:third-war",
+  "zone:westernplaguelands"
+ ],
+ "attribution": [
+  "Thassarian"
+ ]
+}

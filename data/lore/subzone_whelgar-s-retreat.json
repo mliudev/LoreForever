@@ -1,0 +1,87 @@
+{
+ "key": "subzone:whelgar-s-retreat",
+ "type": "subzone",
+ "name": "Whelgar's Retreat",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Whelgar's Retreat"
+ },
+ "summary": "Whelgar's Retreat is an encampment established by the dwarven Explorers' League in the hills of the Wetlands. Perched above the nearby dig sites, it serves as a staging ground for dwarven researchers uncovering ancient fossils and relics in the marshlands.",
+ "sections": [
+  {
+   "title": "A Marshland Outpost",
+   "body": "Tucked away in the hills overlooking the archaeological digs of the central Wetlands, Whelgar's Retreat is maintained by dwarven field researchers. Operating on behalf of Ironforge's Explorers' League, the outpost provides shelter and storage for excavations focused on unearthing prehistoric dinosaur remains and Titan artifacts buried beneath the muck.",
+   "spoiler": 0
+  },
+  {
+   "title": "Peril on All Sides",
+   "body": "Maintaining the outpost is dangerous work. In addition to the local wetland raptors and crocolisks that stalk the lower gullies, the encampment sits uncomfortably near Dragonmaw orc encampments that dominate the eastern marches. The League must constantly balance its drive for historical discovery against the hostile forces surrounding them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Whelgar's Retreat?",
+   "aliases": [
+    "whelgars retreat",
+    "what is this place",
+    "whelgar camp"
+   ],
+   "answer": "Whelgar's Retreat is a small camp in the Wetlands used by the dwarven Explorers' League as a base for nearby archaeological excavations."
+  },
+  {
+   "q": "Who runs this camp?",
+   "aliases": [
+    "who leads whelgars retreat",
+    "who is in charge",
+    "prospector whelgar camp"
+   ],
+   "answer": "The outpost is manned by dwarven surveyors and prospectors from Ironforge who study the ancient fossils and geological history of the Wetlands."
+  },
+  {
+   "q": "Why is the camp located here?",
+   "aliases": [
+    "why build here",
+    "purpose of camp"
+   ],
+   "answer": "The encampment sits on higher ground above the dig sites, offering researchers a vantage point and shelter away from the marsh water and predatory wildlife."
+  },
+  {
+   "q": "What threats face the camp?",
+   "aliases": [
+    "who attacks whelgars retreat",
+    "threats near whelgar"
+   ],
+   "answer": "The camp contends with vicious marsh beasts such as raptors, as well as the aggressive Dragonmaw clan orcs who control large swathes of the eastern Wetlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The outpost represents the relentless curiosity of the Explorers' League, pushing into dangerous territory to unearth the history of the Titans and prehistoric Azeroth."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For travelers crossing the treacherous Wetlands, dwarven league camps like this provide friendly points of respite between Menethil Harbor and Dun Algaz."
+  }
+ ],
+ "keywords": [
+  "dragonmaw",
+  "dwarves",
+  "excavation",
+  "explorers' league",
+  "ironforge",
+  "wetlands",
+  "whelgar's retreat"
+ ],
+ "related": [
+  "npc:prospector-whelgar",
+  "zone:wetlands",
+  "topic:dragonmaw-clan",
+  "subzone:menethil-harbor"
+ ],
+ "attribution": [
+  "Whelgar's Retreat"
+ ]
+}

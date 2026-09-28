@@ -1,0 +1,102 @@
+{
+ "key": "subzone:stagnant-oasis",
+ "type": "subzone",
+ "name": "Stagnant Oasis",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Stagnant Oasis"
+ },
+ "summary": "The Stagnant Oasis is one of the precious bodies of water nestled in the arid heart of the Barrens, positioned between the Gold Road and the Merchant Coast. Ringed by lush palms and contested by Kolkar centaur, its murky waters and surrounding shores sustain unique local wildlife, including snapping turtles and wandering kodos.",
+ "sections": [
+  {
+   "title": "A Murky Haven in the Drought",
+   "body": "Tucked away east of the Gold Road and inland from the Merchant Coast, the Stagnant Oasis provides a vital pocket of greenery amid the dusty scrubland of the Barrens. Like its neighboring waters, the pool supports dense foliage and aggressive snapjaw turtles, while weakened Barrens kodos often stray here away from the massive herds of the Field of Giants. However, travelers must tread carefully: Kolkar centaur maintain encampments along its banks, fiercely guarding the water rights against any who wander into their territory.",
+   "spoiler": 0
+  },
+  {
+   "title": "Strange Waters",
+   "body": "Despite its stagnant appearance, the pool teems with unusual aquatic life, including strange mutate variants like Deviate Fish. Scholars and shamans keep a watchful eye on the Barrens oases, studying the peculiar forces affecting the local springheads and the wildlife that drinks from them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Stagnant Oasis located?",
+   "aliases": [
+    "stagnant oasis location",
+    "where is stagnant oasis",
+    "how to find stagnant oasis"
+   ],
+   "answer": "The Stagnant Oasis lies in the central-southern stretch of the Barrens, located east of the Gold Road and west of the cliffs lining the Merchant Coast."
+  },
+  {
+   "q": "Who controls the Stagnant Oasis?",
+   "aliases": [
+    "who lives at stagnant oasis",
+    "stagnant oasis centaur",
+    "enemies at stagnant oasis"
+   ],
+   "answer": "Nomadic Kolkar centaur have established camps around the perimeter of the pool. In addition to the centaur, dangerous beasts such as Oasis Snapjaws and solitary, wandering kodos roam the surrounding greenery."
+  },
+  {
+   "q": "Why are the kodos here easier to hunt?",
+   "aliases": [
+    "lost barrens kodo",
+    "kodos stagnant oasis",
+    "hunting kodos barrens"
+   ],
+   "answer": "Unlike the massive, coordinated herds found further south in the Field of Giants, the kodos near the Stagnant Oasis are solitary and often weakened or lost, making them significantly easier prey for hunters and travelers."
+  },
+  {
+   "q": "What kind of fish can be caught in the pool?",
+   "aliases": [
+    "stagnant oasis fishing",
+    "deviate fish stagnant oasis",
+    "fishing in stagnant oasis"
+   ],
+   "answer": "Anglers can hook Deviate Fish from the murky pool, a peculiar catch that can be cooked into culinary delicacies prized across Kalimdor."
+  },
+  {
+   "q": "Did Thrall visit this oasis during the Long March?",
+   "aliases": [
+    "thrall stagnant oasis",
+    "long march oasis",
+    "warcraft 3 oasis"
+   ],
+   "answer": "It is widely believed that the Stagnant Oasis was one of the three watering holes Thrall and the newly arrived Horde secured while marching alongside Cairne Bloodhoof across the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "The waters of the Stagnant Oasis yield rare Deviate Fish, the essential ingredient for baking Savory Deviate Delights."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For Horde couriers and scouts traversing the territory between Crossroads and Taurajo, the centaur encampments at the oasis pose a constant threat to supply traffic on the Gold Road."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "centaur",
+  "deviate fish",
+  "gold road",
+  "kodo",
+  "kolkar",
+  "snapjaw",
+  "stagnant oasis"
+ ],
+ "related": [
+  "quest:877",
+  "zone:barrens",
+  "topic:centaur",
+  "subzone:gold-road",
+  "subzone:merchant-coast",
+  "subzone:field-of-giants",
+  "npc:thrall"
+ ],
+ "attribution": [
+  "Stagnant Oasis"
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "key": "subzone:darrow-hill",
+ "type": "subzone",
+ "name": "Darrow Hill",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Darrow Hill"
+ },
+ "summary": "Darrow Hill is an elevated expanse of rugged grassland nestled in northern Hillsbrad Foothills directly beneath the Headland. While mountain lions and stags graze across its open slopes, feral yetis lurk inside the Foothill Caverns that pit the hillside. Rich with veins of Alterac Granite, it serves as a treacherous frontier where natural beasts and rival travelers constantly clash.",
+ "sections": [
+  {
+   "title": "A Treacherous Frontier",
+   "body": "Rising along the base of the northern mountains below the Headland, Darrow Hill bridges the rolling pasture of southern Hillsbrad with the jagged, colder heights of Alterac. Mountain lions and stags stalk through the tall grasses, sharing the rocky slopes with towering yetis that spill out from the Foothill Caverns. Beyond its feral wildlife, the cavern walls hide deposits of dense Alterac Granite, drawing quarry workers, miners, and adventurers straight into harm's way. Caught between contentious regional claims, its trails remain notoriously dangerous for travelers of either faction caught unawares.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Darrow Hill located?",
+   "aliases": [
+    "darrow hill location",
+    "where is darrow hill",
+    "darrow hill map"
+   ],
+   "answer": "Darrow Hill lies in the northern reaches of Hillsbrad Foothills, sitting immediately south of the rocky bluffs known as the Headland and east of the main mountain road into Alterac."
+  },
+  {
+   "q": "What creatures threaten travelers around Darrow Hill?",
+   "aliases": [
+    "darrow hill mobs",
+    "what lives on darrow hill",
+    "monsters darrow hill"
+   ],
+   "answer": "The open slopes are prowled by stags and mountain lions, while savage yetis roam the area surrounding and inside the Foothill Caverns."
+  },
+  {
+   "q": "What can be found inside the Foothill Caverns?",
+   "aliases": [
+    "foothill caverns",
+    "darrow hill cave",
+    "what is in the cave"
+   ],
+   "answer": "The Foothill Caverns are infested by feral yetis and contain veins of prized Alterac Granite embedded in their rocky stone walls."
+  },
+  {
+   "q": "Why is this area considered so dangerous for travelers?",
+   "aliases": [
+    "why is darrow hill dangerous",
+    "darrow hill pvp",
+    "danger at darrow hill"
+   ],
+   "answer": "Aside from fierce wildlife and yeti dens, the open geography directly adjacent to contested roadways makes Darrow Hill a notorious skirmish point where Alliance and Horde wanderers frequently ambushed one another."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The cave networks puncturing Darrow Hill, particularly the Foothill Caverns, are rich with Alterac Granite and regional mineral veins, provided you can handle the yetis nesting nearby."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The hills provide prime hunting grounds for mountain lions and stags moving between the Alterac tree line and the lower grasslands."
+  }
+ ],
+ "keywords": [
+  "alterac granite",
+  "darrow hill",
+  "foothill caverns",
+  "headland",
+  "hillsbrad foothills",
+  "yetis"
+ ],
+ "related": [
+  "zone:hillsbrad",
+  "subzone:headland",
+  "topic:alterac-kingdom"
+ ],
+ "attribution": [
+  "Darrow Hill"
+ ]
+}

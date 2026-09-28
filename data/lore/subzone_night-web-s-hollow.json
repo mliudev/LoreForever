@@ -1,0 +1,79 @@
+{
+ "key": "subzone:night-web-s-hollow",
+ "type": "subzone",
+ "name": "Night Web's Hollow",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Night Web's Hollow"
+ },
+ "summary": "Night Web's Hollow is a sunken vale and abandoned gold mine located just northwest of Deathknell in Tirisfal Glades. Heavily overrun with arachnids, it serves as a testing ground for freshly awakened Forsaken sent to cull the vermin and prove their combat readiness.",
+ "sections": [
+  {
+   "title": "The Infested Mine",
+   "body": "Tucked away in the northern hills of Deathknell, Night Web's Hollow was once an ordinary human gold mine before the plague swept through Lordaeron. In the aftermath of the kingdom's fall, the shafts were entirely abandoned to nature. Today, thick strands of webbing shroud the rock walls and suffocating shadows conceal a thriving colony of aggressive night web spiders. Freshly raised Forsaken are routinely dispatched into the hollow and its subterranean tunnels to cull the hatchlings, slay their voracious matriarch, and harden their resolve before moving onward into Tirisfal Glades.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Night Web's Hollow?",
+   "aliases": [
+    "night webs hollow",
+    "spider mine deathknell",
+    "spider cave tirisfal"
+   ],
+   "answer": "It is an abandoned gold mine and small ravine northwest of Deathknell. Overgrown with webs and swarming with aggressive spiders, it is one of the earliest proving grounds for new Forsaken recruits."
+  },
+  {
+   "q": "Why are the Forsaken clearing out the spiders?",
+   "aliases": [
+    "why kill spiders",
+    "deathknell spider quest"
+   ],
+   "answer": "The encroaching spiders pose an immediate hazard on the perimeter of Deathknell. Executors in town use the infestation as a trial to ensure newly risen undead have regained control over their motor skills and can handle basic combat."
+  },
+  {
+   "q": "What lives deep inside the mine shafts?",
+   "aliases": [
+    "spider boss mine",
+    "night web matriarch location"
+   ],
+   "answer": "While younger spiders skitter outside in the vale, full-grown Night Web Spiders prowl the mine tunnels. In the deepest, darkest chamber sits the Night Web Matriarch, the broodmother of the entire infestation."
+  },
+  {
+   "q": "Was this always a spider den?",
+   "aliases": [
+    "who dug the mine",
+    "deathknell mine history"
+   ],
+   "answer": "No. Before the fall of Lordaeron, it was a working gold mine used by the local human populace. After the Scourge wiped out the region, the shafts fell into disrepair and the spiders moved into the dark, sheltered tunnels."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the freshly risen, the hollow is one of your very first trials. Slaying the arachnids proves you possess the focus and willpower required to serve the Dark Lady."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Although the shafts were originally excavated for gold, mineral operations here have long since ceased due to the lethal arachnid infestation."
+  }
+ ],
+ "keywords": [
+  "deathknell",
+  "mine",
+  "night web matriarch",
+  "night web's hollow",
+  "spiders",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:deathknell",
+  "zone:tirisfal",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Night Web's Hollow"
+ ]
+}

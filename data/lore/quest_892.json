@@ -1,0 +1,131 @@
+{
+ "key": "quest:892",
+ "type": "quest",
+ "name": "The Missing Shipment",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   892
+  ],
+  "level": "14",
+  "faction": null,
+  "start": "Wharfmaster Dizzywig",
+  "end": "Gazlowe",
+  "previous": "The Missing Shipment",
+  "next": "Stolen Booty",
+  "wiki": "The Missing Shipment (2)",
+  "chain": [
+   "Southsea Freebooters (Classic)",
+   "The Missing Shipment",
+   "The Missing Shipment (2)",
+   "Stolen Booty"
+  ]
+ },
+ "summary": "Following an inquiry at the docks, Wharfmaster Dizzywig returns Gazlowe's ledger with clear records, pointing the finger away from harbor graft and toward the local pirates. Delivering the paperwork back to Gazlowe prompts the goblin boss to plan retaliation against the Southsea Freebooters to recover his lost cargo.",
+ "sections": [
+  {
+   "title": "Books Balanced at the Docks",
+   "body": "Ratchet thrives on trade, but running a bustling port alongside the Barrens brings constant logistical headaches. When an expected cargo shipment goes missing, Gazlowe assumes an error in harbor accounting or foul play on the piers. Upon examining the manifest, Wharfmaster Dizzywig insists his books are clean and the intake records fully accounted for, meaning the missing merchandise never even made it onto the dock.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes on the Freebooters",
+   "body": "With Dizzywig clearing the port's internal operations of embezzlement, only one plausible culprit remains: the Southsea Freebooters camped just down the coast. Dizzywig hands back the ledger along with a mention of separate crates waiting from Undermine, directing the adventurer back to Ratchet's chief engineer. Convinced of his wharfmaster's loyalty, Gazlowe pivots from managing supply ledgers to organizing an expedition to reclaim his stolen booty.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in Gazlowe's ledger?",
+   "aliases": [
+    "what is the ledger",
+    "gazlowes ledger",
+    "dock manifest"
+   ],
+   "answer": "Gazlowe's ledger contains shipping manifests, cargo inventories, and port intake logs detailing goods arriving in Ratchet. Wharfmaster Dizzywig reviews it to verify whether the missing crates were ever checked in off the ships."
+  },
+  {
+   "q": "Who actually stole Gazlowe's shipment?",
+   "aliases": [
+    "who stole the shipment",
+    "who took the cargo",
+    "who has the shipment"
+   ],
+   "answer": "The shipment was seized by the Southsea Freebooters, a local band of pirates camped along the coast south of Ratchet. Because the cargo never reached the docks, Gazlowe concludes the raiders intercepted it directly."
+  },
+  {
+   "q": "Why does Gazlowe trust Wharfmaster Dizzywig?",
+   "aliases": [
+    "is dizzywig lying",
+    "does gazlowe trust dizzywig",
+    "dizzywig honest"
+   ],
+   "answer": "Gazlowe trusts Dizzywig because the wharfmaster is squarely on his payroll and has a track record of reliable service. The boss believes Dizzywig knows better than to cheat him, accepting his word that the books are clean."
+  },
+  {
+   "q": "What are the items from Undermine that Dizzywig mentions?",
+   "aliases": [
+    "undermine shipment",
+    "what is coming from undermine",
+    "undermine goods"
+   ],
+   "answer": "Dizzywig mentions having received separate goods shipped from Undermine, the goblin capital on the Isle of Kezan, awaiting pickup by Gazlowe whenever he has a moment away from managing the town."
+  },
+  {
+   "q": "Where does this investigation lead next?",
+   "aliases": [
+    "what quest is next",
+    "next step after missing shipment",
+    "where to go next"
+   ],
+   "answer": "Returning the ledger to Gazlowe leads directly into the quest Stolen Booty, where you are hired to infiltrate the Southsea Freebooter camps along the southern coast of the Barrens and take back the lost cargo."
+  },
+  {
+   "q": "Where is Wharfmaster Dizzywig located?",
+   "aliases": [
+    "where is dizzywig",
+    "dizzywig location",
+    "find wharfmaster"
+   ],
+   "answer": "Wharfmaster Dizzywig oversees the Ratchet docks, standing out near the pier platforms where merchant vessels dock to load and unload their cargo."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Sorting through harbor paperwork reveals how easily goods vanish between sea and shore\u2014a classic smugglers' trade trick."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Ratchet is neutral, but keeping Gazlowe happy maintains steady trade routes and goblin neutrality beneficial to the Horde."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Operating in the Barrens requires careful alliances, and assisting Ratchet's leadership helps secure a reliable foothold in central Kalimdor."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "dizzywig",
+  "freebooters",
+  "gazlowe",
+  "ledger",
+  "pirates",
+  "ratchet",
+  "shipment",
+  "undermine"
+ ],
+ "related": [
+  "quest:890",
+  "quest:888",
+  "quest:887",
+  "quest:1492",
+  "subzone:ratchet",
+  "topic:pirate",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "The Missing Shipment (2)"
+ ]
+}

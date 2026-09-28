@@ -1,0 +1,114 @@
+{
+ "key": "npc:jennea-cannon",
+ "type": "npc",
+ "name": "Jennea Cannon",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Jennea Cannon",
+  "refs": 3
+ },
+ "summary": "Jennea Cannon is a respected human mage trainer residing within the Wizard's Sanctum in Stormwind's Mage Quarter. She oversees the education of novice sorcerers, guiding them through foundational studies and investigating disturbances in the flow of local arcane energies. Through her tasks, she tests whether apprentices have the discipline needed to control magic without being consumed by it.",
+ "sections": [
+  {
+   "title": "A Guide in the Sanctum",
+   "body": "Positioned atop the spiral walkway of the Wizard's Sanctum, Jennea Cannon stands as one of the primary mentors for arcane practitioners entering Stormwind. Rather than merely drilling spells into pupils, she emphasizes caution and self-control. To non-mages passing through the tower, she offers a sharp warning: unchecked magic will burn the untrained, a truth novice spellcasters learn quickly under her tutelage.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fieldwork and Foundation",
+   "body": "Jennea believes magical theory must be tested by real-world observation. She frequently dispatches promising apprentices outside the city walls, sending them to examine sites such as Mirror Lake in Elwynn Forest to understand how natural water sources interact with arcane resonance. As students advance, she tests their resolve by directing them to investigate disruptions at the Blue Recluse or gathering volatile reagents for crafting their first true wizard's implements.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ties to Greater Masters",
+   "body": "While Jennea handles early instruction and local affairs, she knows when an apprentice has outgrown her syllabus. Once an initiate demonstrates true potential, she directs them up the hierarchy of the Sanctum to High Sorcerer Andromath or even beyond the kingdom's borders to reclusive practitioners like Tabetha deep in the Dustwallow Marsh.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Jennea Cannon?",
+   "aliases": [
+    "jennea cannon",
+    "who is jennea",
+    "stormwind mage trainer"
+   ],
+   "answer": "She is a human mage trainer stationed inside the Wizard's Sanctum within Stormwind's Mage Quarter, responsible for instructing new mages and directing early magical research."
+  },
+  {
+   "q": "Where can I find Jennea Cannon?",
+   "aliases": [
+    "jennea cannon location",
+    "where is jennea",
+    "find jennea"
+   ],
+   "answer": "She is located inside the Wizard's Sanctum, the spiraling arcane tower situated at the center of the Mage Quarter in Stormwind City."
+  },
+  {
+   "q": "What quests does Jennea Cannon offer?",
+   "aliases": [
+    "jennea quests",
+    "jennea cannon questline"
+   ],
+   "answer": "She provides class quests for Alliance mages, including investigating Mirror Lake in Elwynn Forest, looking into strange happenings at the Blue Recluse tavern, and gathering materials to craft novice mage gear."
+  },
+  {
+   "q": "Why does she send mages to Mirror Lake?",
+   "aliases": [
+    "why mirror lake",
+    "mirror lake quest jennea"
+   ],
+   "answer": "She tasks apprentices with fetching a sample from Mirror Lake beneath the waterfalls of Elwynn to teach them how to perceive and interact with subtle ambient magical currents."
+  },
+  {
+   "q": "Does Jennea Cannon interact with non-mage classes?",
+   "aliases": [
+    "can non mages talk to jennea",
+    "jennea for other classes"
+   ],
+   "answer": "Non-mages can speak with her, but she will simply offer a stern piece of advice to be cautious around magic, warning that it burns those who lack proper training."
+  },
+  {
+   "q": "Who does Jennea Cannon report to?",
+   "aliases": [
+    "jennea superior",
+    "wizards sanctum leaders"
+   ],
+   "answer": "She works within the hierarchy of the Wizard's Sanctum, guiding students until they are ready to study under senior figures such as High Sorcerer Andromath."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Jennea is an essential early mentor for Alliance mages, guiding your first field investigations and directing you toward crafting your formal wizard robes and staff."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Operating from the heart of Stormwind's Mage Quarter, Jennea ensures the kingdom's new sorcerers are disciplined and capable of serving the Alliance safely."
+  }
+ ],
+ "keywords": [
+  "andromath",
+  "blue recluse",
+  "jennea cannon",
+  "mage quarter",
+  "mage trainer",
+  "mirror lake",
+  "stormwind",
+  "wizard's sanctum"
+ ],
+ "related": [
+  "subzone:mage-quarter",
+  "zone:stormwind",
+  "quest:1860",
+  "quest:1861",
+  "quest:1939",
+  "quest:1961",
+  "npc:tabetha",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Jennea Cannon"
+ ]
+}

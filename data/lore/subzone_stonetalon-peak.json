@@ -1,0 +1,95 @@
+{
+ "key": "subzone:stonetalon-peak",
+ "type": "subzone",
+ "name": "Stonetalon Peak",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Stonetalon Peak"
+ },
+ "summary": "Stonetalon Peak is an ancient night elven sanctuary tucked into a verdant alpine valley at the northwestern edge of the Stonetalon Mountains. Sacred to the kaldorei and cared for by local druids, it serves as the primary bastion of the Alliance in these craggy heights.",
+ "sections": [
+  {
+   "title": "A Sacred Mountain Vale",
+   "body": "Perched high above the arid dust of the lower ranges, Stonetalon Peak opens into a lush, mist-shrouded sanctuary. Long considered sacred and steeped in ancient magic, the valley holds ruins dating back millennia to when the region housed temples honoring Queen Azshara before the Great Sundering. In the modern era, kaldorei Sentinels and druids have restored a measure of peaceful stewardship here, maintaining a tranquil refuge complete with a barrow den and a vital Alliance flight roost.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crossroads of Destiny",
+   "body": "Beyond its idyllic forests and ancient ruins, Stonetalon Peak holds historic weight from the Third War. Guided by the visions of Medivh, both Jaina Proudmoore's human expedition and Thrall's Horde scaled these perilous heights in search of the elusive Oracle dwelling within the mountain's deep caverns. That fateful encounter forced mortal enemies to set aside their blades, laying the foundation for the uneasy pact that stood against the Burning Legion at Mount Hyjal. Today, the peak remains firmly under Sentinel watch, though Horde incursions in the lowlands keep the defenders vigilant.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Stonetalon Peak so green compared to the rest of the mountains?",
+   "aliases": [
+    "why is stonetalon peak green",
+    "why forest in stonetalon peak",
+    "stonetalon peak weather"
+   ],
+   "answer": "Stonetalon Peak rests within a sheltered high-altitude basin suffused with ancient magic. The dedicated care of the night elves and the druids of the nearby Talon Den has preserved a vibrant, forested sanctuary where vegetation flourishes in sharp contrast to the charred, jagged cliffs below."
+  },
+  {
+   "q": "What happened here during the Third War?",
+   "aliases": [
+    "what happened at stonetalon peak warcraft 3",
+    "jaina and thrall stonetalon",
+    "the oracle stonetalon"
+   ],
+   "answer": "Led by the Prophet Medivh's prophetic warnings, both Jaina Proudmoore and Thrall traveled to Stonetalon Peak in search of the Oracle within the mountain's caverns. Their meeting deep inside the stone led them to forge a historic truce, uniting humans and orcs to confront the Burning Legion."
+  },
+  {
+   "q": "Who controls Stonetalon Peak right now?",
+   "aliases": [
+    "is stonetalon peak alliance or horde",
+    "who lives at stonetalon peak",
+    "stonetalon peak faction"
+   ],
+   "answer": "The peak is an Alliance outpost, protected and maintained by night elf Sentinels and druids. It serves as the primary safe haven, quest hub, and flight master connection for Alliance adventurers operating in the Stonetalon Mountains."
+  },
+  {
+   "q": "What ancient ruins are located here?",
+   "aliases": [
+    "stonetalon peak ruins",
+    "old temple stonetalon",
+    "azshara temple stonetalon peak"
+   ],
+   "answer": "The crumbling pillars and marble structures scattered through the vale are remnants of the ancient night elven empire, having once served as temple grounds dedicated to Queen Azshara before her descent into madness and the Great Sundering."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Stonetalon Peak is your sole fortified foothold in the western mountains, offering vital respite, flight paths, and questing aid amidst hostile territory."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The sanctuary is deeply intertwined with Cenarion history and the sacred Talon Den, making it an essential place of pilgrimage and defense for wardens of the wild."
+  }
+ ],
+ "keywords": [
+  "jaina",
+  "kaldorei",
+  "night elf",
+  "oracle",
+  "sentinels",
+  "stonetalon",
+  "stonetalon peak",
+  "talon den",
+  "thrall"
+ ],
+ "related": [
+  "zone:stonetalon",
+  "topic:night-elf",
+  "topic:sentinels",
+  "topic:druid",
+  "topic:third-war",
+  "npc:thrall",
+  "npc:jaina-proudmoore",
+  "quest:1088"
+ ],
+ "attribution": [
+  "Stonetalon Peak"
+ ]
+}

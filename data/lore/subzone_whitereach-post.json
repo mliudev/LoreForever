@@ -1,0 +1,72 @@
+{
+ "key": "subzone:whitereach-post",
+ "type": "subzone",
+ "name": "Whitereach Post",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Whitereach Post"
+ },
+ "summary": "Whitereach Post is a small Horde encampment nestled along the dusty canyon path in Thousand Needles. Serving as a minor waystation near Camp E'thok, it offers respite and watchful eyes over the harsh desert highway. For travelers moving between Feralas and the salt flats, it stands as an outpost of Horde safety beneath the looming sandstone pillars.",
+ "sections": [
+  {
+   "title": "A Waystation in the Canyons",
+   "body": "Perched along the beaten path winding through the depths of Thousand Needles, Whitereach Post is one of several modest Horde footholds carved out of the rugged landscape. Stationed in close proximity to Camp E'thok, the post helps maintain a reliable presence along the canyon floor, monitoring travel between the windswept mesas. While not as fortified as the great lift or major tribal settlements, it serves as an indispensable stop for couriers, scouts, and adventurers traversing the contested wastes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Whitereach Post?",
+   "aliases": [
+    "whitereach",
+    "whitereach camp",
+    "where is whitereach post"
+   ],
+   "answer": "Whitereach Post is a minor Horde outpost located along the primary canyon path in Thousand Needles, situated not far from Camp E'thok."
+  },
+  {
+   "q": "Which faction controls Whitereach Post?",
+   "aliases": [
+    "is whitereach horde",
+    "whitereach faction"
+   ],
+   "answer": "It is controlled by the Horde, primarily maintained by tauren scouts keeping watch over the gorge trails."
+  },
+  {
+   "q": "Who can be found stationed here?",
+   "aliases": [
+    "whitereach npcs",
+    "who lives at whitereach post"
+   ],
+   "answer": "The post is manned by local Horde scouts and wanderers, including the tauren Kanati Greycloud, who watches over the canyon passage."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Whitereach Post represents a vital resting point and scouting presence for Horde travelers journeying through the perilous canyons of Thousand Needles."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Tauren scouts help secure this roadside camp, ensuring that tribesfolk moving between Mulgore, Feralas, and the Shimmering Flats have a safe place to rest."
+  }
+ ],
+ "keywords": [
+  "camp e'thok",
+  "horde outpost",
+  "kanati greycloud",
+  "tauren",
+  "thousand needles",
+  "whitereach post"
+ ],
+ "related": [
+  "zone:thousandneedles",
+  "topic:horde",
+  "subzone:camp-e-thok",
+  "npc:kanati-greycloud"
+ ],
+ "attribution": [
+  "Whitereach Post"
+ ]
+}

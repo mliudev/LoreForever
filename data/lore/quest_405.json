@@ -1,0 +1,122 @@
+{
+ "key": "quest:405",
+ "type": "quest",
+ "name": "The Prodigal Lich",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   405
+  ],
+  "level": "8",
+  "faction": "Horde",
+  "start": "Magistrate Sevren",
+  "end": "Bethor Iceshard",
+  "previous": "Graverobbers",
+  "next": "The Lich's Identity",
+  "wiki": "The Prodigal Lich",
+  "chain": []
+ },
+ "summary": "Following your service in Brill against Scourge remnants and rot hide gnolls, Magistrate Sevren directs you south to the Undercity. Bethor Iceshard, a prominent archmage in the Magic Quarter, requires a capable operative for a sensitive mission regarding a wayward lich.",
+ "sections": [
+  {
+   "title": "Summons to the Capital",
+   "body": "Having proven your capability in the ruined town of Brill, Magistrate Sevren deems you worthy of higher-level Forsaken endeavors. Bethor Iceshard, a formidable mage dwelling in the Undercity's Magic Quarter, has demanded an agent tested in combat against the Scourge. Sevren hands over official orders, dispatching you beneath the ruins of Lordaeron into the subterranean corridors of the Forsaken capital.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Wayward Lich",
+   "body": "While Sevren admits ignorance of the exact specifics, he reveals that the task revolves around finding and recruiting a rogue lich. Liches are among the most lethal spellcasters raised by the Scourge, making any interaction fraught with peril. When you deliver the orders to Bethor atop his arcane sanctum, the icy mage cuts straight to business, eager to assess whether Brill's magistrate has sent someone strong enough to handle such dangerous quarry.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me on this task?",
+   "aliases": [
+    "who gives the prodigal lich",
+    "quest giver prodigal lich",
+    "sevren orders"
+   ],
+   "answer": "Magistrate Sevren, the Forsaken official administering the town of Brill in Tirisfal Glades, sends you with written orders directly to Bethor Iceshard."
+  },
+  {
+   "q": "Where do I find Bethor Iceshard?",
+   "aliases": [
+    "where is bethor",
+    "bethor iceshard location",
+    "how to find bethor"
+   ],
+   "answer": "Bethor Iceshard resides in the Magic Quarter of the Undercity, typically found atop the central elevated structure surrounded by arcane energies."
+  },
+  {
+   "q": "What is the mission mentioned in the orders?",
+   "aliases": [
+    "what is the lich mission",
+    "who is the wayward lich",
+    "prodigal lich purpose"
+   ],
+   "answer": "Bethor intends to enlist a wandering, rogue lich into service, but he first needs an agent capable of tracking down clues to the lich's identity and whereabouts."
+  },
+  {
+   "q": "Why does Bethor require an agent tested against the Scourge?",
+   "aliases": [
+    "why scourge testing",
+    "why does bethor need me"
+   ],
+   "answer": "Liches are masters of necromantic frost and death magic bound originally to the Lich King. Handling a free-willed or isolated lich requires someone who has already proven capable of surviving against undead Scourge threats."
+  },
+  {
+   "q": "What prerequisite must be completed before receiving this quest?",
+   "aliases": [
+    "prodigal lich prequest",
+    "how to unlock prodigal lich"
+   ],
+   "answer": "You must complete Magistrate Sevren's previous assignment, 'Graverobbers', clearing out the Rot Hide gnolls and grave thieves in Garren's Haunt."
+  },
+  {
+   "q": "What comes after reporting to Bethor?",
+   "aliases": [
+    "what is next after prodigal lich",
+    "prodigal lich follow up"
+   ],
+   "answer": "Upon turning in Sevren's orders, Bethor offers the quest 'The Lich's Identity', directing you to investigate artifacts and clues to uncover who this mysterious entity was in life."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Taking your first direct orders from the capital marks your transition from local militia work in Brill to executing the greater geopolitical will of the Undercity."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Reporting to Bethor Iceshard offers an audience with one of the most powerful arcane and frost masters among the Forsaken."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing unaligned or powerful necromantic assets strengthens the Forsaken's precarious hold on the ruins of Lordaeron against common enemies."
+  }
+ ],
+ "keywords": [
+  "bethor iceshard",
+  "brill",
+  "magic quarter",
+  "magistrate sevren",
+  "prodigal lich",
+  "sevren's orders",
+  "tirisfal glades",
+  "undercity"
+ ],
+ "related": [
+  "npc:bethor-iceshard",
+  "npc:magistrate-sevren",
+  "subzone:magic-quarter",
+  "zone:undercity",
+  "quest:357",
+  "quest:358",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "The Prodigal Lich"
+ ]
+}

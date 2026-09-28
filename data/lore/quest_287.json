@@ -1,0 +1,127 @@
+{
+ "key": "quest:287",
+ "type": "quest",
+ "name": "Frostmane Hold",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   287
+  ],
+  "level": "9",
+  "faction": "Alliance",
+  "start": "Senir Whitebeard",
+  "end": "",
+  "previous": null,
+  "next": "The Reports",
+  "wiki": "Frostmane Hold (quest)",
+  "chain": [
+   "Frostmane Hold (quest)",
+   "The Reports"
+  ]
+ },
+ "summary": "Frostmane Hold is an Alliance recon mission assigned by Senir Whitebeard in Kharanos. Having tracked the hostile Frostmane trolls to their heavily guarded cavern stronghold near Iceflow Lake, Senir enlists adventurous scouts to brave the interior, eliminate their headhunters, and supply vital intel for his scouting reports.",
+ "sections": [
+  {
+   "title": "A Scout Behind Schedule",
+   "body": "Stationed in Kharanos, mountaineer and scout Senir Whitebeard was tasked with monitoring the encroaching Frostmane troll threat across Dun Morogh. While he successfully traced the aggressive tribes back to their primary cavern dwelling southwest of Brewnall Village, the sheer volume of armed trolls gave him pause. Reluctant to step foot inside alone and falling severely behind on his official reports, Senir hires passing adventurers to venture into the icy recesses on his behalf.",
+   "spoiler": 0
+  },
+  {
+   "title": "Breaching the Cavern",
+   "body": "The stronghold sits carved into the western peaks overlooking Iceflow Lake, a freezing redoubt packed with hostile ice trolls. To fulfill Senir's mission, scouts must fight their way deep through the subterranean tunnels, cull the fierce Frostmane Headhunters stationed along the ledges, and map the interior layout. Surviving the delve provides the critical intelligence Senir requires to finalize his findings for Ironforge's military commanders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Frostmane Hold located?",
+   "aliases": [
+    "find frostmane hold",
+    "where is the cave",
+    "frostmane hold location"
+   ],
+   "answer": "Frostmane Hold is a cavern situated southwest of Brewnall Village on the far western side of Dun Morogh. From Kharanos, take the road north to the bridge, follow the frozen river west past Iceflow Lake to Brewnall Village, and head southwest up into the mountains."
+  },
+  {
+   "q": "Who is Senir Whitebeard?",
+   "aliases": [
+    "senir whitebeard",
+    "who gives quest",
+    "quest giver kharanos"
+   ],
+   "answer": "Senir Whitebeard is a dwarven scout stationed outside the Thunderbrew Distillery in Kharanos. He tracks local threats across Dun Morogh and compiles strategic intelligence reports regarding the aggressive Frostmane trolls."
+  },
+  {
+   "q": "Why didn't Senir explore the hold himself?",
+   "aliases": [
+    "why is senir scared",
+    "why didn't senir go"
+   ],
+   "answer": "Senir scouted out the entrance and discovered where the tribe was concentrating, but found the cave swarming with so many armed trolls that he was afraid to enter alone. Worried about his safety and running late on his scouting deadlines, he delegates the hazardous recon to capable adventurers."
+  },
+  {
+   "q": "Who are the Frostmane trolls?",
+   "aliases": [
+    "frostmane",
+    "trolls dun morogh",
+    "dun morogh trolls"
+   ],
+   "answer": "The Frostmane are an indigenous tribe of ice trolls native to the snowy crags of Dun Morogh. Bitter enemies of the Ironforge dwarves and gnomes, they frequently raid trade routes, camps, and settlements from hidden encampments throughout the region."
+  },
+  {
+   "q": "What happens after completing the recon of the hold?",
+   "aliases": [
+    "next quest",
+    "what after frostmane hold",
+    "the reports quest"
+   ],
+   "answer": "Once you return with news of the hold's layout and casualties among their headhunters, Senir finishes writing his report and promptly asks you to deliver the urgent paperwork to Senir's superiors in Dun Morogh."
+  },
+  {
+   "q": "How deep into the cave do you have to go?",
+   "aliases": [
+    "fully explore frostmane hold",
+    "cave exploration trigger"
+   ],
+   "answer": "You need to advance well past the threshold and into the interior chambers until the cave layout is scouted and five Frostmane Headhunters are slain, confirming the cavern's depths have been thoroughly investigated."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The Frostmane trolls contest Ironforge's dominance in the snowy peaks of Dun Morogh; scouting their primary cavern stronghold is critical for the realm's defense."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "With gnomes settled throughout Dun Morogh and Kharanos after the fall of Gnomeregan, curbing the Frostmane troll offensive keeps fragile refugee supply corridors safe."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing Dun Morogh ensures the mountain roads linking Ironforge to neighboring kingdoms remain free from hostile tribal ambushes."
+  }
+ ],
+ "keywords": [
+  "brewnall village",
+  "dun morogh",
+  "frostmane headhunter",
+  "frostmane hold",
+  "ice trolls",
+  "iceflow lake",
+  "kharanos",
+  "senir whitebeard",
+  "the reports"
+ ],
+ "related": [
+  "npc:senir-whitebeard",
+  "quest:291",
+  "subzone:kharanos",
+  "subzone:brewnall-village",
+  "subzone:iceflow-lake",
+  "zone:dunmorogh",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Frostmane Hold (quest)"
+ ]
+}

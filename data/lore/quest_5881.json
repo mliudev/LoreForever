@@ -1,0 +1,122 @@
+{
+ "key": "quest:5881",
+ "type": "quest",
+ "name": "Calling in the Reserves",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   5881
+  ],
+  "level": "28",
+  "faction": "Horde",
+  "start": "Maggran Earthbinder",
+  "end": "Grish Longrunner",
+  "previous": null,
+  "next": null,
+  "wiki": "Calling in the Reserves",
+  "chain": []
+ },
+ "summary": "\"Calling in the Reserves\" is a Horde courier task entrusted to adventurers resting at Sun Rock Retreat. Maggran Earthbinder sends you south to the edge of the Barrens with orders to relieve an exhausted sentry watching the Great Lift.",
+ "sections": [
+  {
+   "title": "A Long-Awaited Relief",
+   "body": "Even in an era of relative prosperity following the Third War, maintaining garrisons across central Kalimdor tests the Horde's resources. At Sun Rock Retreat in the Stonetalon Mountains, Maggran Earthbinder oversees logistics and troop welfare. Recognizing that seasoned soldiers wear thin under endless watch duty, Maggran dispatches a letter of reassignment south to the Great Lift, where a young sentry named Grish Longrunner has been standing guard far from home.",
+   "spoiler": 0
+  },
+  {
+   "title": "Watching the Lift",
+   "body": "The Great Lift serves as the singular engineering artery linking the high plateaus of the Southern Barrens down into the wind-carved canyons of Thousand Needles. Handing the letter over to Grish relieves him of an isolated and monotonous watch over the lift mechanisms, clearing the way for him to finally return to his family and allowing fresh reserves to step in.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts this quest?",
+   "aliases": [
+    "quest giver",
+    "where to get calling in the reserves",
+    "maggran earthbinder location"
+   ],
+   "answer": "Maggran Earthbinder gives the quest at Sun Rock Retreat, nestled high within the Stonetalon Mountains."
+  },
+  {
+   "q": "Where do I deliver Maggran's letter?",
+   "aliases": [
+    "grish longrunner location",
+    "where is grish",
+    "where is the great lift"
+   ],
+   "answer": "You must take Maggran's Reserve Letter south through the Barrens all the way to the Great Lift, the massive wooden elevator structure perched on the border overlooking Thousand Needles."
+  },
+  {
+   "q": "Why does Grish Longrunner need relief?",
+   "aliases": [
+    "grish backstory",
+    "why grish leaves",
+    "great lift sentry duty"
+   ],
+   "answer": "Grish has spent extended duty stationed alone guarding the lift mechanisms. He submitted a formal request some time ago to be relieved so he could travel home and visit his family."
+  },
+  {
+   "q": "Is there any combat required for this quest?",
+   "aliases": [
+    "do i have to fight",
+    "peaceful quest",
+    "courier task"
+   ],
+   "answer": "No combat is required. It is purely a messenger task intended to steer travelers south toward Thousand Needles."
+  },
+  {
+   "q": "Which faction gains reputation from completing this?",
+   "aliases": [
+    "rep reward",
+    "what rep does this give",
+    "thunder bluff rep"
+   ],
+   "answer": "Delivering the letter to Grish grants reputation with Thunder Bluff, reflecting the tauren presence and administration over the route."
+  },
+  {
+   "q": "Where does this quest lead next?",
+   "aliases": [
+    "next quest",
+    "where to go after",
+    "thousand needles breadcrumb"
+   ],
+   "answer": "The delivery brings you right to the top of the Great Lift, positioning you to ride the elevators down into the canyons of Thousand Needles to explore further Horde outposts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The mission illustrates how Horde commanders manage their forces across the Kalimdor frontier, rotating sentries to keep morale and watchposts steady."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Helping rotate sentries at the Great Lift supports the vital passage connecting the southern reaches of Kalimdor toward Thunder Bluff's broader territories."
+  }
+ ],
+ "keywords": [
+  "calling in the reserves",
+  "great lift",
+  "grish longrunner",
+  "maggran earthbinder",
+  "stonetalon mountains",
+  "sun rock retreat",
+  "the barrens",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:maggran-earthbinder",
+  "npc:grish-longrunner",
+  "subzone:sun-rock-retreat",
+  "subzone:great-lift",
+  "zone:stonetalon",
+  "zone:barrens",
+  "zone:thousandneedles",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Calling in the Reserves"
+ ]
+}

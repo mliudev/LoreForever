@@ -1,0 +1,123 @@
+{
+ "key": "quest:3524",
+ "type": "quest",
+ "name": "Washed Ashore",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   3524
+  ],
+  "level": "13",
+  "faction": "Alliance",
+  "start": "Gwennyth Bly'Leggonde",
+  "end": "",
+  "previous": null,
+  "next": "Washed Ashore (2)",
+  "wiki": "Washed Ashore",
+  "chain": []
+ },
+ "summary": "Washed Ashore is an investigation initiated by Gwennyth Bly'Leggonde in Auberdine on behalf of the Temple of the Moon. Mass strandings of giant sea creatures along the Darkshore coastline have raised alarms among the night elf priesthood in Darnassus. Adventurers are tasked with driving back scavenging murlocs to secure skeletal specimens for study.",
+ "sections": [
+  {
+   "title": "A Disturbing Omen",
+   "body": "Giant, majestic creatures of the deep have long been known to occasionally beach themselves on the foggy shoals of Darkshore. Recently, however, their deaths have ceased being tragic anomalies and become an escalating pattern. Beached leviathans are washing up along the coastline in alarming numbers. To the Priestesses of Elune residing in the Temple of the Moon, such unprompted mass strandings are treated not merely as natural oddities, but as potential ill omens threatening northern Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Scavengers of the Shallows",
+   "body": "To decipher why these great beasts are hurling themselves onto the sands, scholar Gwennyth Bly'Leggonde was dispatched to the port town of Auberdine. Her task is to collect biological samples and send them by hippogryph to Darnassus for close examination. However, the Greymist murlocs infesting the surf line have swarmed the massive carcasses, aggressively scavenging the remains and preventing field researchers from reaching the bones without armed protection.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are giant sea creatures washing up on Darkshore?",
+   "aliases": [
+    "why beached creatures",
+    "sea creature strandings",
+    "dying sea beasts"
+   ],
+   "answer": "The exact cause remains under active investigation by the Temple of the Moon. While occasional strandings are natural, the sudden surge in frequency has convinced night elf scholars that a deeper disturbance or ill omen lurks beneath the waves of the Great Sea."
+  },
+  {
+   "q": "Who is Gwennyth Bly'Leggonde?",
+   "aliases": [
+    "gwennyth",
+    "who is gwennyth bly'leggonde"
+   ],
+   "answer": "Gwennyth Bly'Leggonde is an investigator sent from Darnassus by the Temple of the Moon. Stationed in Auberdine, she is responsible for cataloging coastal anomalies and collecting physical samples from beached leviathans to send back to the priesthood for analysis."
+  },
+  {
+   "q": "Where does the creature south of Auberdine lie?",
+   "aliases": [
+    "creature location",
+    "sea creature bones location",
+    "where is the beached beast"
+   ],
+   "answer": "The skeletal remains lie on the shoreline just a short march south of the Auberdine docks. The massive carcass rests in the surf, surrounded and guarded by hostile Greymist murlocs."
+  },
+  {
+   "q": "What will Darnassus do with the sea creature bones?",
+   "aliases": [
+    "why collect bones",
+    "purpose of sea creature bones",
+    "darnassus bones"
+   ],
+   "answer": "The bones are dispatched via hippogryph directly to Darnassus. Scholars and priestesses at the Temple of the Moon study the marrow, structure, and signs of decay to uncover whether disease, foul magic, or unnatural predation drove the beast ashore."
+  },
+  {
+   "q": "Why are the Greymist murlocs gathered around the carcass?",
+   "aliases": [
+    "murlocs at whale",
+    "why murlocs around creature"
+   ],
+   "answer": "The Greymist tribe exploits the stranded giants as an effortless source of food, tools, and bonecraft. Their territorial claim over the carcasses makes it impossible for unarmed scholars to approach without risking their lives."
+  },
+  {
+   "q": "Does this investigation conclude after retrieving the first set of bones?",
+   "aliases": [
+    "is this a chain",
+    "washed ashore follow up"
+   ],
+   "answer": "No. The carcass south of town is only the first site. Gwennyth continues her research with further inquiries into other stranded leviathans that have perished along Darkshore's expansive, mist-shrouded coast."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The coastal strandings disturb the delicate balance of Darkshore, prompting the Sisterhood of Elune to intervene directly from Darnassus."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Serving the Sisterhood of Elune means interpreting spiritual omens and natural imbalances, exactly what Gwennyth seeks to decipher from the sea creature's remains."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The mass death of noble marine life is an alarming sign of ecological discord along the Kalimdor coast that demands watchful attention."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "darnassus",
+  "greymist murlocs",
+  "gwennyth bly'leggonde",
+  "sea creature bones",
+  "temple of the moon",
+  "washed ashore"
+ ],
+ "related": [
+  "npc:gwennyth-bly-leggonde",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "subzone:temple-of-the-moon",
+  "zone:darnassus",
+  "topic:murloc",
+  "quest:4723",
+  "quest:2519"
+ ],
+ "attribution": [
+  "Washed Ashore"
+ ]
+}

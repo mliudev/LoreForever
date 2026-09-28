@@ -1,0 +1,84 @@
+{
+ "key": "subzone:southern-savage-coast",
+ "type": "subzone",
+ "name": "Southern Savage Coast",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Southern Savage Coast"
+ },
+ "summary": "The Southern Savage Coast encompasses the long strand of beaches and tidal waters hugging southwestern Stranglethorn Vale. Flanked by the treacherous depths of the South Seas, these shores are home to prowling wildlife, hostile naga, and the ever-present threat of coastal raiders.",
+ "sections": [
+  {
+   "title": "A Treacherous Shoreline",
+   "body": "Stretching down the western edge of the southern jungle, the Southern Savage Coast marks where the mainland gives way to the warm currents of the South Seas. Divided from the northern Savage Coast by the submerged ruins and perils of the Vile Reef, this coastline skirts inlets near the Gurubashi Arena and Nek'mani Wellspring before tapering off past Booty Bay and Janeiro's Point. While the beaches offer open ground compared to the suffocating interior jungle, travelers must contend with aggressive reptilian predators, predatory naga hunting the shallows, and passing corsairs scanning the strand for easy prey.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Southern Savage Coast begin and end?",
+   "aliases": [
+    "southern savage coast location",
+    "where is southern savage coast",
+    "savage coast borders"
+   ],
+   "answer": "It covers the southwestern shoreline of Stranglethorn Vale, beginning below the Vile Reef and extending south along the coast past Booty Bay and Janeiro's Point, where it transitions into the Wild Shore."
+  },
+  {
+   "q": "How is it different from the northern Savage Coast?",
+   "aliases": [
+    "difference between savage coast and southern",
+    "why two savage coasts",
+    "vile reef border"
+   ],
+   "answer": "The two stretches of coastline are separated by the Vile Reef. The northern Savage Coast runs along northern Stranglethorn's Great Sea waters, while the Southern Savage Coast lies along the lower cape bordering the South Seas."
+  },
+  {
+   "q": "What threats can travelers expect along the beach?",
+   "aliases": [
+    "is southern savage coast dangerous",
+    "mobs on southern savage coast",
+    "threats along the coast"
+   ],
+   "answer": "The open sands are heavily populated by vicious basilisk lizards, snapping crocolisks, hostile naga slithering out of the shallows, and patrols of territorial pirates."
+  },
+  {
+   "q": "Does Booty Bay control this coastline?",
+   "aliases": [
+    "does booty bay own the beach",
+    "steemwheedle control of coast",
+    "goblin territory"
+   ],
+   "answer": "No. The Blackwater Raiders and the Steamwheedle Cartel maintain control strictly over Booty Bay's harbor and immediate approaches. The wild beaches to the north and south remain lawless, untamed territory."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The wide open beaches provide ideal tracking ground for amphibious game, coastal cats, and basilisks, offering clear sightlines far preferable to the claustrophobic brush inland."
+  }
+ ],
+ "keywords": [
+  "booty bay",
+  "janeiro's point",
+  "savage coast",
+  "south seas",
+  "southern savage coast",
+  "stranglethorn vale",
+  "vile reef"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "subzone:savage-coast",
+  "subzone:vile-reef",
+  "subzone:booty-bay",
+  "subzone:janeiro-s-point",
+  "subzone:nek-mani-wellspring",
+  "subzone:wild-shore",
+  "topic:naga"
+ ],
+ "attribution": [
+  "Southern Savage Coast"
+ ]
+}

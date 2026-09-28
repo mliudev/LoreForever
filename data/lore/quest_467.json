@@ -1,0 +1,124 @@
+{
+ "key": "quest:467",
+ "type": "quest",
+ "name": "Stonegear's Search",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   467
+  ],
+  "level": "23",
+  "faction": "Alliance",
+  "start": "Pilot Longbeard, Mountaineer Kadrell",
+  "end": "Pilot Stonegear",
+  "previous": null,
+  "next": "Search for Incendicite",
+  "wiki": "Stonegear's Search",
+  "chain": []
+ },
+ "summary": "Stonegear's Search is an Alliance directive directing adventurous travelers to Pilot Stonegear at Steelgrill's Depot in Dun Morogh. The enthusiastic siege engine operator has caught wind of an exotic mineral and seeks a daring explorer to track down fresh fuel for his tank's ordnance.",
+ "sections": [
+  {
+   "title": "A Tinkerer's Ambition",
+   "body": "Dwarven siege engines are legendary feats of engineering, but their operators are rarely content leaving well enough alone. Word around Ironforge and Loch Modan quickly spreads that Pilot Stonegear, stationed just outside the capital, is scheming to boost his war machine's punch. Whether pointed his way by Pilot Longbeard or Mountaineer Kadrell, travelers are recruited simply to meet the ambitious pilot and hear his proposal.",
+   "spoiler": 0
+  },
+  {
+   "title": "Heading to Steelgrill's Depot",
+   "body": "Pilot Stonegear makes his workshop at Steelgrill's Depot, the proving ground and staging yard tucked along the road just east of Kharanos. Amid clanking gears and spewing steam, Stonegear keeps watch for prospectors brave enough to pursue a volatile, rare ore known to ignite his tank's firepower to devastating new heights.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this quest?",
+   "aliases": [
+    "quest giver",
+    "who starts stonegear search",
+    "where to get quest"
+   ],
+   "answer": "You can be directed to Pilot Stonegear by either Pilot Longbeard in Ironforge or Mountaineer Kadrell along the road in Loch Modan."
+  },
+  {
+   "q": "Where can I find Pilot Stonegear?",
+   "aliases": [
+    "stonegear location",
+    "where is pilot stonegear",
+    "steelgrills depot stonegear"
+   ],
+   "answer": "Pilot Stonegear is stationed at Steelgrill's Depot in Dun Morogh, just down the path northeast of Kharanos."
+  },
+  {
+   "q": "What does Pilot Stonegear need?",
+   "aliases": [
+    "stonegear goal",
+    "why does stonegear want me",
+    "what does stonegear want"
+   ],
+   "answer": "Stonegear loves modifying his siege engine and is obsessed with finding rare mineral deposits that can dramatically enhance the firepower of his tank's munitions."
+  },
+  {
+   "q": "What quest follows this one?",
+   "aliases": [
+    "next quest",
+    "stonegear follow up",
+    "what comes after stonegears search"
+   ],
+   "answer": "Once you report to Pilot Stonegear at the depot, he sends you on the quest Search for Incendicite, directing you to procure volatile ore from the wetlands."
+  },
+  {
+   "q": "Is this quest Alliance-only?",
+   "aliases": [
+    "can horde do stonegears search",
+    "faction requirement"
+   ],
+   "answer": "Yes, Pilot Stonegear and his contacts are loyal members of the Ironforge military and the Alliance."
+  },
+  {
+   "q": "Why is the depot interested in wild ores?",
+   "aliases": [
+    "why siege engine ore",
+    "dwarf tank gunpowder"
+   ],
+   "answer": "Dwarven engineers and tank pilots constantly experiment with new incendiary compounds, pyrotechnics, and volatile elements to give their war machines an edge against troggs, dark irons, and wild beasts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarven mountaineers and mechanists, lending a hand to a fellow pilot at Steelgrill's Depot is a proud duty in refining the arsenal of Khaz Modan."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomish innovators will easily appreciate Pilot Stonegear's desire to push conventional siege weaponry beyond standard safety limits."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Miners with an eye for exotic and combustible earth will find Stonegear's rumors of rare subterranean ore right up their alley."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers who spend their days tinkering with high explosives can respect Stonegear's dedication to boosting his tank's firepower."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "incendicite",
+  "kadrell",
+  "longbeard",
+  "pilot stonegear",
+  "siege engine",
+  "steelgrill's depot",
+  "stonegear"
+ ],
+ "related": [
+  "npc:pilot-stonegear",
+  "quest:466",
+  "subzone:steelgrill-s-depot",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Stonegear's Search"
+ ]
+}

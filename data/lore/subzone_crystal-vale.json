@@ -1,0 +1,90 @@
+{
+ "key": "subzone:crystal-vale",
+ "type": "subzone",
+ "name": "Crystal Vale",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Crystal Vale"
+ },
+ "summary": "Tucked away in the far northwestern corner of Silithus, the Crystal Vale is a remote canyon dominated by jagged mineral spires and swirling elemental forces. Earth and air elementals roam its rocky flats, guarding rich veins of raw ore. It is also a site of potent summoning magic, deeply tied to the ancient elemental lords.",
+ "sections": [
+  {
+   "title": "A Confluence of Stone and Wind",
+   "body": "The Crystal Vale stands distinct from the barren desert sands of southern Silithus. Framed by steep cliffs, the basin is filled with shimmering crystalloid formations, roaming earthen elementals, and roaring whirlwinds of living air. Rich deposits of thorium draw occasional daring prospectors, but the vale is far from quiet. The elemental beings here are inherently hostile to intruders, guarding a realm that feels steeped in the primal conflicts of primordial Azeroth.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Slumber of the Windseeker",
+   "body": "Beyond its minerals and native spirits, the Crystal Vale holds deep significance for ancient elemental powers. It is here that Highlord Demitrian lingers, harboring the secrets of Prince Thunderaan, the Windseeker. Those who gather the severed elemental bindings of the fallen prince and the rarest forged metals are directed to this valley, where the imprisoned lord of air can be coaxed from his bindings and challenged in open battle.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Crystal Vale located?",
+   "aliases": [
+    "where is crystal vale",
+    "crystal vale map",
+    "crystal vale location"
+   ],
+   "answer": "The Crystal Vale is situated in the far northwestern reaches of Silithus, nestled against the mountainous rim that borders the desert."
+  },
+  {
+   "q": "What creatures inhabit this valley?",
+   "aliases": [
+    "crystal vale mobs",
+    "what lives in crystal vale",
+    "elementals in crystal vale"
+   ],
+   "answer": "The canyon is primarily populated by aggressive air and earth elementals that drift and stomp around the mineral outcrops."
+  },
+  {
+   "q": "Who is Highlord Demitrian and why is he here?",
+   "aliases": [
+    "who is demitrian",
+    "highlord demitrian crystal vale",
+    "demitrian location"
+   ],
+   "answer": "Highlord Demitrian is a solitary hermit dwelling in the vale who holds profound knowledge of Prince Thunderaan. He aids champions capable of reuniting the Windseeker's bindings to summon the elemental prince."
+  },
+  {
+   "q": "What is the Ravaged Twilight Camp?",
+   "aliases": [
+    "ravaged twilight camp crystal vale",
+    "twilight camp in vale",
+    "destroyed twilight camp"
+   ],
+   "answer": "It is the wreckage of a Twilight's Hammer encampment within the vale, overrun and shattered by the violent elemental denizens that claim the canyon."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The craggy edges and canyon walls of the Crystal Vale are known to house valuable veins of rich thorium, making it a lucrative though hazardous destination for high-skill miners."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The raw friction between earth and air spirits here serves as a potent reminder of the unbridled chaos of unrestrained elementals across Silithus."
+  }
+ ],
+ "keywords": [
+  "crystal vale",
+  "elementals",
+  "highlord demitrian",
+  "ravaged twilight camp",
+  "silithus",
+  "thorium",
+  "thunderaan"
+ ],
+ "related": [
+  "npc:highlord-demitrian",
+  "npc:thunderaan",
+  "subzone:ravaged-twilight-camp",
+  "zone:silithus",
+  "subzone:twilight-camp"
+ ],
+ "attribution": [
+  "Crystal Vale"
+ ]
+}

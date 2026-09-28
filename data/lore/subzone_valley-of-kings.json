@@ -1,0 +1,89 @@
+{
+ "key": "subzone:valley-of-kings",
+ "type": "subzone",
+ "name": "Valley of Kings",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Valley of Kings"
+ },
+ "summary": "The Valley of Kings is a lush canyon nestled in the southwestern corner of Loch Modan, directly south of the passage to Dun Morogh. It serves as a heavily watched gateway into the fiery Searing Gorge, flanked by monumental stone figures carved in memory of the War of the Three Hammers. Travelers venturing here walk beneath ancient dwarven history while facing the immediate threat of Blackrock encroachers and troggs.",
+ "sections": [
+  {
+   "title": "Guardians of the Southern Pass",
+   "body": "The valley's most commanding feature is the pair of colossal statues depicting King Madoran Bronzebeard and High Thane Khardros Wildhammer. Carved by joint commission from their sons following their deaths, these stone titans overlook the pass into the scorched southlands. They stand as a lasting monument to the allied victory in the War of the Three Hammers and an eternal warning against the Dark Iron clan, reminding all who look south of the ruin brought upon the Redridge Mountains by the summoning of Ragnaros.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Gate to the Searing Gorge",
+   "body": "Beyond serving as a path between South Gate Pass and Stonesplinter Valley, the Valley of Kings holds the heavy iron gate leading down into the Searing Gorge. Because of the hostile Blackrock orcs, Dark Iron dwarves, and volcanic hazards lurking on the other side, the gate is kept strictly locked and guarded by Ironforge mountaineers. Mountaineer Pebblebitty keeps watch over the threshold, turning away all but the hardiest adventurers who can prove they possess the strength to survive the inferno beyond.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who do the two giant statues represent?",
+   "aliases": [
+    "statues in valley of kings",
+    "dwarf statues loch modan",
+    "who are the statues"
+   ],
+   "answer": "The two immense statues depict King Madoran Bronzebeard of Ironforge and High Thane Khardros Wildhammer. Their sons commissioned the monuments together following their fathers' deaths to celebrate the alliance that triumphed in the War of the Three Hammers."
+  },
+  {
+   "q": "Why were the statues built facing south?",
+   "aliases": [
+    "why statues look south",
+    "purpose of statues",
+    "statues facing searing gorge"
+   ],
+   "answer": "They were erected to gaze directly toward the southern territories shattered by the Dark Iron clan's summoning of Ragnaros. The twin kings stand as a protective shield and an enduring warning to the Dark Irons and any other hostile force attempting to invade the northern dwarven lands."
+  },
+  {
+   "q": "How do I get through the locked gate at the southern end?",
+   "aliases": [
+    "how to open searing gorge gate",
+    "mountaineer pebblebitty key",
+    "valley of kings gate locked"
+   ],
+   "answer": "The gate leading into the Searing Gorge is kept locked for traveler safety. You must speak with Mountaineer Pebblebitty, who stands guard at the gate, and prove your capabilities by undertaking a task for her before she will provide the key to pass through."
+  },
+  {
+   "q": "Where does this valley lead?",
+   "aliases": [
+    "valley of kings connections",
+    "where does valley go"
+   ],
+   "answer": "The valley connects the South Gate Pass leading to Dun Morogh, the trogg-infested Stonesplinter Valley to the east, and the blazing badlands of the Searing Gorge through the heavily fortified southern gate."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves of Ironforge, the Valley of Kings is hallowed ground showcasing the unbreakable bond forged between Bronzebeard and Wildhammer against the treachery of the Dark Irons."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The valley acts as the northern bulwark against the gathering threats of the Redridge badlands, keeping the smoldering perils of the Searing Gorge from spilling into peaceful Khaz Modan."
+  }
+ ],
+ "keywords": [
+  "khardros wildhammer",
+  "loch modan",
+  "madoran bronzebeard",
+  "pebblebitty",
+  "searing gorge gate",
+  "valley of kings",
+  "war of the three hammers"
+ ],
+ "related": [
+  "zone:lochmodan",
+  "zone:searinggorge",
+  "subzone:south-gate-pass",
+  "subzone:stonesplinter-valley",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Valley of Kings"
+ ]
+}

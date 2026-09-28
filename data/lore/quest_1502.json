@@ -1,0 +1,122 @@
+{
+ "key": "quest:1502",
+ "type": "quest",
+ "name": "Thun'grim Firegaze",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1502
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Uzzek",
+  "end": "Thun'grim Firegaze",
+  "previous": "Path of Defense",
+  "next": "Forged Steel",
+  "wiki": "Thun'grim Firegaze (quest)",
+  "chain": []
+ },
+ "summary": "Following their initial training in defensive tactics, Horde warriors are directed across the Barrens to seek out Thun'grim Firegaze. This reclusive master weaponsmith makes his camp atop the rugged ridges of Thorn Hill east of the Crossroads. Finding him is a rite of passage for combatants seeking a weapon worthy of their burgeoning prowess.",
+ "sections": [
+  {
+   "title": "The Hermit on the Ridge",
+   "body": "Once an aspiring warrior demonstrates proficiency in the defensive arts under veteran trainers like Uzzek, they are instructed to hone their martial edge with suitable steel. Conventional armories will only carry a frontline fighter so far; true mastery demands a personalized weapon forged by a craftsperson of exceptional renown. In the harsh savanna of the Barrens, that smith is Thun'grim Firegaze, an aging orc hermit who has withdrawn from settlement life to maintain an isolated forge high above the plains.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Life in the Forge Fire",
+   "body": "Reaching Thun'grim requires ascending Thorn Hill, a jagged rise east of the Crossroads inhabited by wild raptors and hostile quilboar. Living far from the protection of town walls, the smith devotes his solitary hours entirely to shaping metal. Decades spent gazing into blistering forge flames have ruined his eyesight, but his instincts remain sharp. When a wanderer scales the heights to disturb his solitude, Firegaze already knows the reason: a warrior has come seeking forged steel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends warriors to find Thun'grim Firegaze?",
+   "aliases": [
+    "who gives this quest",
+    "who starts thun'grim firegaze",
+    "quest giver"
+   ],
+   "answer": "The quest is assigned by Uzzek, a warrior trainer stationed along the road near the Far Watch Post in the eastern Barrens, after you demonstrate your defensive training."
+  },
+  {
+   "q": "Where is Thun'grim Firegaze located?",
+   "aliases": [
+    "thun'grim location",
+    "where is thun'grim",
+    "find firegaze"
+   ],
+   "answer": "Thun'grim lives in an isolated campsite atop Thorn Hill, a high ridge directly east of the Crossroads in the Barrens."
+  },
+  {
+   "q": "Why does Thun'grim live out in the hills alone?",
+   "aliases": [
+    "why is thun'grim a hermit",
+    "firegaze hermit"
+   ],
+   "answer": "He has dedicated his life strictly to metalcraft away from town distractions. He works over his anvil in solitude atop Thorn Hill despite the dangerous beasts and quilboar inhabiting the surrounding ridges."
+  },
+  {
+   "q": "What happened to Thun'grim Firegaze's eyes?",
+   "aliases": [
+    "is thun'grim blind",
+    "firegaze eyes"
+   ],
+   "answer": "Decades of relentless work over glowing coals and staring directly into the intense forge heat have largely dried out and ruined his vision."
+  },
+  {
+   "q": "What comes after meeting Thun'grim Firegaze?",
+   "aliases": [
+    "next quest",
+    "what after thun'grim",
+    "forged steel follow up"
+   ],
+   "answer": "Once you report to Thun'grim, he recognizes your need for arms and offers the task 'Forged Steel', requiring you to gather raw materials so he can craft a weapon."
+  },
+  {
+   "q": "Can any class take this quest?",
+   "aliases": [
+    "is this warrior only",
+    "who can do thun'grim firegaze"
+   ],
+   "answer": "No. This quest chain is specifically tailored as a rite of passage for Horde warriors seeking specialized arms."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Every young Horde warrior is sent into the wilds to find Thun'grim, earning a signature forged armament to complement their battle training."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Thun'grim represents the solitary orcish blacksmithing tradition, braving isolation and blindness to pursue the art of working hot metal into lethal tools."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde relies not just on sheer numbers but on the skilled hands of seasoned artisans who craft quality steel for the frontline soldiers defending Kalimdor."
+  }
+ ],
+ "keywords": [
+  "blacksmith",
+  "crossroads",
+  "forged steel",
+  "the barrens",
+  "thorn hill",
+  "thun'grim firegaze",
+  "uzzek",
+  "warrior weapon"
+ ],
+ "related": [
+  "npc:uzzek",
+  "quest:1498",
+  "quest:1503",
+  "subzone:thorn-hill",
+  "subzone:crossroads",
+  "zone:barrens",
+  "quest:1825"
+ ],
+ "attribution": [
+  "Thun'grim Firegaze (quest)"
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "key": "quest:361",
+ "type": "quest",
+ "name": "A Letter Undelivered",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   361
+  ],
+  "level": "7",
+  "faction": "Horde",
+  "start": "A Letter to Yvette",
+  "end": "Yvette Farthing",
+  "previous": null,
+  "next": null,
+  "wiki": "A Letter Undelivered",
+  "chain": []
+ },
+ "summary": "A faded, bloodstained missive found among the skeletal ruins of Agamand Mills, addressed to Yvette Farthing. It reveals a tragic parting between two lovers as the Scourge swept across Lordaeron, offering a glimpse into what the Forsaken left behind when they traded life for undeath.",
+ "sections": [
+  {
+   "title": "A Message Lost in the Fall",
+   "body": "Written by Thurman Agamand, the eldest son of patriarch Gregor Agamand, this unsent parchment never reached its intended recipient before the family estate collapsed into ruin. When the Plague of Undeath consumed Tirisfal Glades, Thurman refused to abandon his ancestral home and kin. Amid the horrors of the onslaught, he took up quill to write one last message to Yvette Farthing, whom he had loved before the kingdom turned to ash.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Severed Bond",
+   "body": "When the letter is finally placed into Yvette Farthing's hands at the Gallows' End Tavern in Brill, it provokes a brief, agonizing flash of memory. She remembers begging Thurman to flee Agamand Mills alongside her and her father, and she laments that Thurman's brother, Brand, bore ill will toward him. Yet the warmth is fleeting. Like so many of the Forsaken, Yvette steels her heart, casting aside mortal remorse and declaring that love has no place in her new existence.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote this letter?",
+   "aliases": [
+    "author",
+    "thurman agamand",
+    "who is thurman"
+   ],
+   "answer": "The letter was penned by Thurman Agamand, the eldest son of Gregor Agamand. Thurman perished defending his family's mills against the Scourge alongside the rest of his cursed household."
+  },
+  {
+   "q": "Who is Yvette Farthing?",
+   "aliases": [
+    "yvette",
+    "who is yvette",
+    "recipient"
+   ],
+   "answer": "Yvette Farthing is a Forsaken woman currently residing inside the tavern in Brill. In life, she and her father fled the countryside before the Scourge, leaving behind her lover, Thurman Agamand."
+  },
+  {
+   "q": "Where did the letter come from?",
+   "aliases": [
+    "where to find letter",
+    "letter drop",
+    "letter location"
+   ],
+   "answer": "The letter is recovered from the walking skeletons prowling the devastated grounds and fields of Agamand Mills in western Tirisfal Glades."
+  },
+  {
+   "q": "What happened between Thurman and Yvette?",
+   "aliases": [
+    "thurman and yvette",
+    "yvette backstory",
+    "what happened to them"
+   ],
+   "answer": "They were lovers before the Third War. Yvette begged Thurman to abandon his family's mills and escape with her, but Thurman chose loyalty to his kin and remained behind to face the Plague."
+  },
+  {
+   "q": "What does Yvette do when she reads the letter?",
+   "aliases": [
+    "yvette reaction",
+    "what does yvette say"
+   ],
+   "answer": "She grieves briefly for Thurman and curses both the Scourge and his brother Brand, but quickly suppresses her emotions. She insists that regrets are for the weak and that romance has no place in her Forsaken existence."
+  },
+  {
+   "q": "Who is Brand Agamand?",
+   "aliases": [
+    "brand",
+    "brand agamand",
+    "who is brand"
+   ],
+   "answer": "Brand was Thurman's brother. According to Yvette, Brand harbored deep resentment and ill intent toward Thurman even before the estate fell to the Plague."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The letter embodies the sharp, painful division between a Forsaken's mortal memories and their cold, purpose-driven existence under the Banshee Queen."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For travelers visiting Brill, this recovered parchment offers a stark demonstration of the emotional detachment that defines the Forsaken people."
+  }
+ ],
+ "keywords": [
+  "agamand",
+  "brill",
+  "farthing",
+  "letter",
+  "scourge",
+  "tavern",
+  "thurman",
+  "undelivered",
+  "yvette"
+ ],
+ "related": [
+  "npc:yvette-farthing",
+  "subzone:agamand-mills",
+  "subzone:brill",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "topic:scourge",
+  "npc:farthing"
+ ],
+ "attribution": [
+  "A Letter Undelivered"
+ ]
+}

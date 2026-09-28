@@ -1,0 +1,123 @@
+{
+ "key": "quest:1097",
+ "type": "quest",
+ "name": "Elmore's Task",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1097
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Smith Argus",
+  "end": "Grimand Elmore",
+  "previous": null,
+  "next": "Stormpike's Delivery",
+  "wiki": "Elmore's Task",
+  "chain": [
+   "Elmore's Task",
+   "Stormpike's Delivery"
+  ]
+ },
+ "summary": "Elmore's Task is an Alliance courier assignment offered by Smith Argus in Goldshire. Recognizing a reliable traveler, Argus sends you into the Dwarven District of Stormwind to assist master weaponsmith Grimand Elmore. The errand highlights the cooperative ties and trade routes running between the humans of Elwynn and their dwarven allies.",
+ "sections": [
+  {
+   "title": "A Word from the Forge",
+   "body": "While resting in Goldshire, local blacksmith Smith Argus keeps an eye out for dependable adventurers capable of handling more than clearing wolves and kobolds. Grimand Elmore, a skilled dwarven weaponsmith stationed in Stormwind, has put out word requesting help with an impending delivery bound for his kin in the northern mountains of Khaz Modan. Seeing someone with the grit for travel, Argus directs you toward the city gates to answer the call.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ties That Bind",
+   "body": "Maintaining open trade and goodwill between the kingdom of Stormwind and the mountain stronghold of Ironforge is essential for the Alliance. Argus emphasizes that while local defenders are always needed in Elwynn Forest, honoring commitments to their dwarven counterparts keeps both realms supplied and unified. Stepping into the bustling, soot-stained Dwarven District in northeastern Stormwind brings you directly to Elmore's shop, setting up a journey far beyond the forest borders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts the quest Elmore's Task?",
+   "aliases": [
+    "where do i get elmore's task",
+    "who gives elmore's task",
+    "elmore task quest giver"
+   ],
+   "answer": "The quest is offered by Smith Argus, the resident blacksmith working the forge in the village of Goldshire, located just south of Stormwind City in Elwynn Forest."
+  },
+  {
+   "q": "Where can Grimand Elmore be found?",
+   "aliases": [
+    "grimand elmore location",
+    "where is grimand elmore",
+    "find elmore stormwind"
+   ],
+   "answer": "Grimand Elmore operates out of a weapon shop in the Dwarven District, located in the northeastern quarter of Stormwind City."
+  },
+  {
+   "q": "What is the purpose of this task?",
+   "aliases": [
+    "why send me to elmore",
+    "elmore's task purpose",
+    "what does elmore want"
+   ],
+   "answer": "Smith Argus sends you to Grimand Elmore because the dwarven smith needs a trustworthy courier to transport a delivery to his homeland in the north. It serves as an introduction to broader travel across the Alliance territories."
+  },
+  {
+   "q": "What quest follows Elmore's Task?",
+   "aliases": [
+    "elmore's task next quest",
+    "followup to elmore's task",
+    "what comes after elmore's task"
+   ],
+   "answer": "Speaking with Grimand Elmore completes this brief errand and immediately unlocks the follow-up quest, Stormpike's Delivery, which tasks you with bringing his crafted shipment northward to Loch Modan."
+  },
+  {
+   "q": "Why does Smith Argus care about dwarven deliveries?",
+   "aliases": [
+    "why does argus help dwarves",
+    "smith argus dwarven ties"
+   ],
+   "answer": "Smith Argus notes that while the local militia could use every able body in Elwynn Forest, preserving strong relations and trade connections with their dwarven allies in Khaz Modan is vital for Stormwind's security and supply lines."
+  },
+  {
+   "q": "Do you need to be a blacksmith to take this quest?",
+   "aliases": [
+    "is elmore's task blacksmith only",
+    "blacksmithing required elmore task"
+   ],
+   "answer": "No. Despite being initiated by one blacksmith and turned in to another, the task is a general courier quest available to any Alliance adventurer ready to journey into Stormwind City."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The task represents the vital daily cooperation between the human realm of Stormwind and the dwarven clans of Khaz Modan, maintaining common trade and trust across the Alliance."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven travelers will find it familiar to see their human peers recognizing the craftsmanship of Ironforge smiths and helping route supplies back to the northern mountains."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Though open to all adventurers, the errand connects two prominent crafters\u2014Smith Argus of Goldshire and Grimand Elmore of Stormwind\u2014who share the craft of the anvil."
+  }
+ ],
+ "keywords": [
+  "blacksmith",
+  "delivery",
+  "dwarven district",
+  "elmore",
+  "goldshire",
+  "grimand elmore",
+  "smith argus",
+  "stormwind"
+ ],
+ "related": [
+  "npc:smith-argus",
+  "quest:1700",
+  "subzone:dwarven-district",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Elmore's Task"
+ ]
+}

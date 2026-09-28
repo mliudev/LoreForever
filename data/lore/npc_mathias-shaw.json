@@ -1,0 +1,124 @@
+{
+ "key": "npc:mathias-shaw",
+ "type": "npc",
+ "name": "Mathias Shaw",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Mathias Shaw",
+  "refs": 8
+ },
+ "summary": "Master Mathias Shaw is the leader of SI:7, the covert intelligence agency of the Kingdom of Stormwind. Operating from the shadows of Old Town, he directs spies and scouts to protect the realm from internal conspiracies and external horrors alike.",
+ "sections": [
+  {
+   "title": "Master of SI:7",
+   "body": "Mathias Shaw stands as Stormwind's foremost spymaster and assassin. From SI:7's discreet headquarters tucked behind the barracks in Old Town, Shaw coordinates a covert network that spans the Eastern Kingdoms and beyond. Pragmatic, calculating, and fiercely loyal to the House of Wrynn, he operates on the philosophy that Stormwind's safety depends just as much on unseen daggers and stolen missives as it does on gleaming armor and palace garrisons.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadow of VanCleef",
+   "body": "Shaw shares a deeply personal history with Edwin VanCleef, leader of the rebel Defias Brotherhood. The two were childhood companions, and Shaw personally trained VanCleef in the arts of stealth and assassination, once hoping the gifted stonemason would put his talents toward serving the kingdom alongside him. Instead, when the Stonemasons Guild was cast out following the rebuilding of Stormwind, VanCleef turned those lethal lessons against the crown. Today, Shaw directs the surveillance and infiltration operations aimed at dismantling his old friend's insurrection across Westfall.",
+   "spoiler": 1
+  },
+  {
+   "title": "Eyes Across the Kingdoms",
+   "body": "While domestic insurrection consumes Westfall and Elwynn, Shaw's attention is constantly drawn outward to lethal unknowns. When reports reached him of bizarre Forsaken operations in the Eastern Plaguelands, he dispatched five of his finest agents to investigate. Only one returned alive\u2014babbling in terror about a champion named Nathanos Blightcaller before dying in his sleep. Shaw relies on trusted independent champions to venture where his scouts vanish, seeking to pierce the gloom gathering at the kingdom's borders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mathias Shaw?",
+   "aliases": [
+    "who is shaw",
+    "leader of si7",
+    "mathias shaw lore",
+    "stormwind spymaster"
+   ],
+   "answer": "Mathias Shaw is the leader of SI:7, Stormwind's intelligence service and guild of assassins. Operating out of Old Town, he coordinates the kingdom's espionage and covert defense under the authority of the throne."
+  },
+  {
+   "q": "Where can Mathias Shaw be found?",
+   "aliases": [
+    "shaw location",
+    "where is mathias shaw",
+    "find mathias shaw"
+   ],
+   "answer": "He is located inside the SI:7 headquarters in the Old Town district of Stormwind City, secluded behind the military barracks."
+  },
+  {
+   "q": "What is his connection to Edwin VanCleef?",
+   "aliases": [
+    "shaw and vancleef",
+    "vancleef friend",
+    "mathias and edwin"
+   ],
+   "answer": "Shaw and Edwin VanCleef were childhood friends. Shaw personally trained VanCleef in roguecraft and espionage, hoping they would work together. After the Stonemasons' dispute turned violent, VanCleef used those very skills to forge the Defias Brotherhood."
+  },
+  {
+   "q": "What does SI:7 stand for?",
+   "aliases": [
+    "what is si:7",
+    "what does si7 mean",
+    "stormwind intelligence"
+   ],
+   "answer": "SI:7 is the premier intelligence organization of Stormwind, specializing in surveillance, reconnaissance, espionage, and covert assassinations to safeguard the kingdom and Alliance interests."
+  },
+  {
+   "q": "Why is Mathias Shaw interested in Westfall?",
+   "aliases": [
+    "shaw westfall",
+    "si7 westfall",
+    "klaven's tower"
+   ],
+   "answer": "Westfall is the stronghold of the Defias Brotherhood. Shaw keeps active operatives in the region\u2014such as Agent Kearnen monitoring Klaven's Tower\u2014to spy on rebel activities and disrupt their plots against Stormwind."
+  },
+  {
+   "q": "What happened to the agents Shaw sent to the Plaguelands?",
+   "aliases": [
+    "shaw plaguelands quest",
+    "five scouts shaw",
+    "marris stead scouts"
+   ],
+   "answer": "Shaw dispatched five operatives to scout suspicious Forsaken movement in the Eastern Plaguelands. Four were killed near Marris Stead, and the sole survivor died raving about Nathanos Blightcaller shortly after staggering back to Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Mathias Shaw represents the absolute pinnacle of human roguecraft. Alliance rogues are often sent to him for advanced tactical assignments and specialty poisons."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "As the kingdom's spymaster, Shaw serves as the first line of defense against subversion, gathering vital military intelligence for Highlord Bolvar Fordragon and the boy-king Anduin."
+  },
+  {
+   "target": "race:Human",
+   "text": "Shaw's tragic falling-out with his childhood friend Edwin VanCleef reflects the broader, bitter fracture within the Kingdom of Stormwind following its reconstruction."
+  }
+ ],
+ "keywords": [
+  "assassin",
+  "blightcaller",
+  "kearnen",
+  "mathias shaw",
+  "old town",
+  "si:7",
+  "spymaster",
+  "stormwind",
+  "vancleef"
+ ],
+ "related": [
+  "zone:stormwind",
+  "topic:defias-brotherhood",
+  "npc:edwin-vancleef",
+  "quest:2300",
+  "quest:2359",
+  "npc:nathanos-blightcaller",
+  "subzone:old-town",
+  "subzone:marris-stead"
+ ],
+ "attribution": [
+  "Mathias Shaw"
+ ]
+}

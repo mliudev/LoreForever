@@ -1,0 +1,121 @@
+{
+ "key": "quest:471",
+ "type": "quest",
+ "name": "Apprentice's Duties",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   471
+  ],
+  "level": "26",
+  "faction": "Alliance",
+  "start": "James Halloran",
+  "end": "",
+  "previous": "Young Crocolisk Skins",
+  "next": null,
+  "wiki": "Apprentice's Duties",
+  "chain": [
+   "Young Crocolisk Skins",
+   "Apprentice's Duties"
+  ]
+ },
+ "summary": "Apprentice's Duties is an Alliance contract offered by tanner James Halloran in Menethil Harbor. After sending his young apprentice into the marshes only for the boy to be mauled by giant crocolisks, Halloran hires a capable adventurer to finish the dangerous harvesting job and settle the score.",
+ "sections": [
+  {
+   "title": "A Harsh Apprenticeship",
+   "body": "Tradesmen in frontier ports like Menethil Harbor must rely on local raw materials, but the surrounding bogs are unforgiving. James Halloran sent his young apprentice into the marshes to skin giant Wetlands crocolisks. When the youth failed to return, Halloran tracked him down and found him horribly mauled by the predatory beasts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Skins and Retribution",
+   "body": "Although the local midwife believes the apprentice will survive, the boy was maimed and lost a leg in the attack. Needing his stock replenished and seeking a measure of retribution against the beasts that tore into someone he considers like a son, Halloran enlists traveling adventurers to venture north along the coast, clear past the murloc hovels, and hunt down the giant crocolisks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is James Halloran?",
+   "aliases": [
+    "james halloran",
+    "who gives apprentice duties",
+    "menethil tanner"
+   ],
+   "answer": "James Halloran is a leatherworker and tanner based in Menethil Harbor. He relies on hides gathered from the local wildlife across the Wetlands to sustain his craft."
+  },
+  {
+   "q": "What happened to Halloran's apprentice?",
+   "aliases": [
+    "what happened to apprentice",
+    "who got mauled",
+    "apprentice leg"
+   ],
+   "answer": "Halloran dispatched his apprentice into the marsh to harvest hides from giant crocolisks. The boy was attacked by the predators and mauled severely, ultimately losing a leg, though the town midwife expects him to survive."
+  },
+  {
+   "q": "Where are the giant crocolisks located?",
+   "aliases": [
+    "where are giant crocs",
+    "crocolisk location wetlands",
+    "giant crocolisk spot"
+   ],
+   "answer": "The giant crocolisks prowl the marshes and northern coast of the Wetlands, just beyond the coastal murloc settlements north of Menethil Harbor."
+  },
+  {
+   "q": "What prerequisite quest leads to this task?",
+   "aliases": [
+    "prereq for apprentice duties",
+    "previous quest",
+    "crocolisk quest chain"
+   ],
+   "answer": "This quest is preceded by 'Young Crocolisk Skins,' where Halloran first has adventurers hunt smaller crocolisks before escalating to the giant variety that wounded his apprentice."
+  },
+  {
+   "q": "Why does Halloran still want the skins after the tragedy?",
+   "aliases": [
+    "why need skins",
+    "halloran motivation"
+   ],
+   "answer": "Halloran still has a trade to run and orders to fill, but he is also motivated by anger. He welcomes having an adventurer hunt and kill the beasts responsible for maiming the boy he loves like a son."
+  },
+  {
+   "q": "Does Halloran offer you an apprenticeship?",
+   "aliases": [
+    "can i become apprentice",
+    "apprentice offer"
+   ],
+   "answer": "Halloran briefly jokes about taking you on as his new apprentice after seeing your work, but dismisses the idea immediately, noting you are far too old and clearly bound for a different destiny."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Menethil Harbor serves as a lifeline between Khaz Modan and the rest of the Alliance, making the safety and self-sufficiency of its local craftsmen vital to the port's survival."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The marshland apex predators are formidable targets, and tracking down mature giant crocolisks tests a tracker's ability to navigate murky waters and aggressive wildlife."
+  }
+ ],
+ "keywords": [
+  "apprentice's duties",
+  "crocolisk",
+  "giant crocolisk",
+  "james halloran",
+  "leatherworking",
+  "menethil harbor",
+  "murloc hovels",
+  "wetlands",
+  "young crocolisk skins"
+ ],
+ "related": [
+  "npc:james-halloran",
+  "quest:484",
+  "zone:wetlands",
+  "subzone:menethil-harbor",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Apprentice's Duties"
+ ]
+}

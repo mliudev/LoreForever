@@ -1,0 +1,131 @@
+{
+ "key": "quest:1654",
+ "type": "quest",
+ "name": "The Test of Righteousness",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   1654
+  ],
+  "level": "22",
+  "faction": "Alliance",
+  "start": "Jordan Stilwell",
+  "end": "",
+  "previous": "The Test of Righteousness",
+  "next": "The Test of Righteousness (3)",
+  "wiki": "The Test of Righteousness (2)",
+  "chain": []
+ },
+ "summary": "The Test of Righteousness represents a defining trial for rising paladins seeking a sanctified weapon of the Light. The master weaponsmith Jordan Stilwell offers to craft an extraordinary holy armament, tasking the champion with scouring distant lands for rare smithing components, including his stolen family hammer.",
+ "sections": [
+  {
+   "title": "A Sacred Commission",
+   "body": "Outside the grand gates of Ironforge, Jordan Stilwell seeks a worthy companion of the Light. Recognising the deeds of a rising paladin, the smith proposes a sacred pact: he will forge a legendary weapon that stands as an enduring symbol of devotion, provided the paladin undertakes the perilous legwork required to secure the master-grade materials.",
+   "spoiler": 0
+  },
+  {
+   "title": "Components of Consecration",
+   "body": "Crafting a blade fit to channel the Light demands ingredients from across the Eastern Kingdoms and beyond. Stilwell's design requires four distinct items: sturdy Whitestone Oak lumber, refined ore from master prospectors, a purified Kor Gem thrumming with raw power, and the reclamation of Jordan's own smithing hammer, stolen from his family. Tracking them down forces the paladin to test their mettle against distant threats.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Smith's Heritage",
+   "body": "For Jordan Stilwell, the undertaking is far more than simple commerce. Among the required pieces is his father's hammer, an heirloom deeply tied to his craft and lineage. By uniting this reclaimed tool with a rare, purified Kor Gem, Jordan finally obtains the opportunity to realize plans he has harbored for years, turning family devotion into a sacred instrument of justice.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "what does this quest do",
+    "why do test of righteousness",
+    "test of righteousness goal"
+   ],
+   "answer": "This quest sends rising paladins across the realm to gather the rare materials needed by Jordan Stilwell to forge a powerful holy weapon, serving as a rite of passage."
+  },
+  {
+   "q": "Who is Jordan Stilwell?",
+   "aliases": [
+    "jordan stilwell lore",
+    "who is the smith outside ironforge",
+    "stilwell background"
+   ],
+   "answer": "Jordan Stilwell is a skilled human weaponsmith stationed outside the gates of Ironforge in Dun Morogh. He possesses ancient crafting designs for sacred paladin weaponry and seeks to recover his father's lost smithing hammer."
+  },
+  {
+   "q": "What materials are needed to forge the weapon?",
+   "aliases": [
+    "what items do i need",
+    "materials for jordan stilwell",
+    "test of righteousness ingredients"
+   ],
+   "answer": "Jordan requires four specific components: Jordan's Smithing Hammer, Whitestone Oak Lumber, Bailor's Refined Ore Shipment, and a Purified Kor Gem."
+  },
+  {
+   "q": "Why is Jordan's hammer so important to him?",
+   "aliases": [
+    "why his father hammer",
+    "jordans smithing hammer lore",
+    "stilwell hammer history"
+   ],
+   "answer": "The smithing hammer originally belonged to Jordan's father. Recovering it returns an irreplaceable family heirloom to his forge, allowing him to produce his finest craftsmanship."
+  },
+  {
+   "q": "What is a Kor Gem?",
+   "aliases": [
+    "kor gem lore",
+    "what is kor gem",
+    "purified kor gem"
+   ],
+   "answer": "A Kor Gem is an exceedingly rare and potent stone. Once purified of corrupting influences, it serves as an extraordinary focal point for consecrating holy weapons."
+  },
+  {
+   "q": "Where does Jordan Stilwell craft this weapon?",
+   "aliases": [
+    "jordan stilwell location",
+    "where is jordan",
+    "where do i turn this in"
+   ],
+   "answer": "Jordan Stilwell works just outside the snowy gates of Ironforge in the mountainous region of Dun Morogh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "This quest represents a traditional proving ground, rewarding devotion and sacrifice with a weapon forged to channel the holy power of the Light."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Jordan Stilwell exemplifies the heights of mortal smithing, combining reclaimed heirloom tools with purified arcane and mineral components to craft holy relics."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The collaborative effort bridges human craftsmanship and Alliance holdings across Khaz Modan and beyond to arm defenders against rising dark threats."
+  }
+ ],
+ "keywords": [
+  "bailor's ore",
+  "dun morogh",
+  "ironforge",
+  "jordan stilwell",
+  "kor gem",
+  "paladin weapon",
+  "test of righteousness",
+  "whitestone oak"
+ ],
+ "related": [
+  "npc:jordan-stilwell",
+  "quest:1653",
+  "quest:1655",
+  "quest:1442",
+  "zone:dunmorogh",
+  "zone:ironforge",
+  "topic:light",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "The Test of Righteousness (2)"
+ ]
+}

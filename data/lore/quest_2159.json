@@ -1,0 +1,121 @@
+{
+ "key": "quest:2159",
+ "type": "quest",
+ "name": "Dolanaar Delivery",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   2159
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Porthannius",
+  "end": "Innkeeper Keldamyr",
+  "previous": null,
+  "next": null,
+  "wiki": "Dolanaar Delivery (quest)",
+  "chain": []
+ },
+ "summary": "Dolanaar Delivery is an errand entrusted to young night elves leaving the sheltered boughs of Shadowglen for the wider reaches of Teldrassil. Porthannius, detained by affairs with the local druids, tasks travelers with carrying a parcel of herbs south to Innkeeper Keldamyr. The simple journey marks an initiate's transition into the bustling hub of Dolanaar.",
+ "sections": [
+  {
+   "title": "A Messenger for Shadowglen",
+   "body": "Before new adventurers depart the training grounds of Shadowglen, Porthannius seeks someone heading down the road toward the rest of Teldrassil. Entangled in pressing business with the druids tending the glade, he cannot step away to run routine errands himself. Instead, he places a bundle of freshly harvested herbs into the hands of an aspiring hero to ensure vital supplies make it south along the forest path.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Dolanaar",
+   "body": "Following the southern road out of the secluded vale leads travelers to Dolanaar, one of the foremost night elf settlements upon the great boughs of Teldrassil. There, Innkeeper Keldamyr oversees hospitality, rest, and supplies for wanderers, sentinels, and druids alike. Receiving the herbs on Porthannius's behalf, Keldamyr uses the occasion to urge young adventurers to rest their minds and spirits before confronting the growing corruption across the world tree.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Porthannius?",
+   "aliases": [
+    "porthannius",
+    "who gives dolanaar delivery",
+    "quest giver porthannius"
+   ],
+   "answer": "Porthannius is a night elf residing in Shadowglen, Teldrassil's starting glade. While working closely alongside the local druids, he enlists travelers leaving the glade to ferry supplies southward on his behalf."
+  },
+  {
+   "q": "Why can't Porthannius deliver the herbs himself?",
+   "aliases": [
+    "why does porthannius need help",
+    "why cant porthannius go"
+   ],
+   "answer": "Porthannius has urgent, unfinished business with the druids of Shadowglen. Because his duties keep him occupied within the sheltered vale, he must rely on passing adventurers to make the journey south."
+  },
+  {
+   "q": "What is inside the package?",
+   "aliases": [
+    "dolanaar delivery package contents",
+    "what are the herbs"
+   ],
+   "answer": "The package contains a collection of herbs gathered within Shadowglen, destined for use at the inn in Dolanaar."
+  },
+  {
+   "q": "Who is Innkeeper Keldamyr?",
+   "aliases": [
+    "keldamyr",
+    "dolanaar innkeeper",
+    "who receives the herbs"
+   ],
+   "answer": "Innkeeper Keldamyr manages the inn in Dolanaar. Aside from providing hospitality, lodging, and hearthstones to travelers, he frequently coordinates trade and supply exchanges with other settlements across Teldrassil."
+  },
+  {
+   "q": "Where is Dolanaar located?",
+   "aliases": [
+    "where is dolanaar",
+    "dolanaar location",
+    "directions to dolanaar"
+   ],
+   "answer": "Dolanaar lies south of Shadowglen. Following the primary road leading out of the glade's exit takes travelers directly into the town center."
+  },
+  {
+   "q": "Why is this delivery important for young adventurers?",
+   "aliases": [
+    "significance of delivery",
+    "why deliver herbs"
+   ],
+   "answer": "It serves as an introduction to the world beyond Shadowglen, encouraging novitiates to venture outside their training grounds and discover Dolanaar's inn, trainers, and service providers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Taking this task marks a night elf's departure from the protected cradle of Aldrassil out into the broader responsibilities of safeguarding Teldrassil."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The delivery illustrates how vital raw herbs from Shadowglen's verdant soils are to the healers, cooks, and caretakers of Dolanaar."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Porthannius's preoccupation with Shadowglen's druids hints at the deeper spiritual duties and natural imbalances occupying the Cenarion Circle within the boughs."
+  }
+ ],
+ "keywords": [
+  "delivery",
+  "dolanaar",
+  "dolanaar delivery",
+  "herbs",
+  "innkeeper keldamyr",
+  "night elf",
+  "porthannius",
+  "shadowglen",
+  "teldrassil"
+ ],
+ "related": [
+  "subzone:dolanaar",
+  "subzone:shadowglen",
+  "npc:innkeeper-keldamyr",
+  "zone:teldrassil",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Dolanaar Delivery (quest)"
+ ]
+}

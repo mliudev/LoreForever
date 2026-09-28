@@ -1,0 +1,88 @@
+{
+ "key": "subzone:caverns-of-time",
+ "type": "subzone",
+ "name": "Caverns of Time",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Caverns of Time"
+ },
+ "summary": "Tucked into the eastern cliffs of Tanaris, the Caverns of Time serve as the mystical lair of Nozdormu and the bronze dragonflight. Within its winding depths, the dragons monitor and safeguard the fragile timeways of Azeroth against any mortal intrusion or temporal tampering.",
+ "sections": [
+  {
+   "title": "The Winding Timeways",
+   "body": "Carved deep beneath the desert cliffs, the Caverns of Time are a nexus where the currents of history converge. Charged by the titans at the dawn of the world, Nozdormu the Timeless One and his bronze dragonflight act as eternal sentinels over these corridors. Inside, time behaves erratically; glimpses of past and future slip through hidden rifts, and relics plucked from distant eras lie scattered across the sands. While the great wyrm Anachronos keeps watch near the entrance, lesser bronze drakes patrol the winding descent, fiercely protective of the one true timeline.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Hoard of Eras",
+   "body": "Beyond being a junction of past and future, the caverns serve as an eccentric vault. Over millennia, the bronze flight has gathered historical fragments from every corner of Azeroth: ancient dwarven structures, a watchtower from Lordaeron, chieftain quarters from the orcish clans, and armor dating back to the first kings of Stromgarde. Yet despite the occasional traveler daring to slip past the sentinels to glimpse these wonders, the inner gateways remain tightly shut, awaiting the day the flight deems mortal intervention necessary.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I go inside the Caverns of Time right now?",
+   "aliases": [
+    "can i enter caverns of time",
+    "how to enter caverns of time",
+    "is caverns of time open"
+   ],
+   "answer": "You can walk down the long winding tunnel into the main chamber, but the historical portals themselves remain sealed. You must be careful around the drakes patrolling the entrance; while the elder bronze dragon Anachronos remains indifferent to travelers, his companions will attack any mortal who strays too close."
+  },
+  {
+   "q": "Who rules over the Caverns of Time?",
+   "aliases": [
+    "who leads caverns of time",
+    "caverns of time boss",
+    "who lives in caverns of time"
+   ],
+   "answer": "The caverns belong to Nozdormu the Timeless One, the Dragon Aspect empowered by the titans to oversee time. Day-to-day stewardship and guarding of the entrance often fall to his prime scion, Anachronos, alongside the guardians of the bronze dragonflight."
+  },
+  {
+   "q": "Why are there random buildings and artifacts inside?",
+   "aliases": [
+    "why are there human towers in caverns of time",
+    "artifacts in caverns of time"
+   ],
+   "answer": "Nozdormu spent ages cataloging and collecting physical relics from across Azeroth's history. Scattered across the caverns are misplaced treasures, including an entire Lordaeron guard tower, dwarven architecture, orcish structures, and weapons from long-forgotten mortal kingdoms."
+  },
+  {
+   "q": "What is the purpose of the bronze dragonflight here?",
+   "aliases": [
+    "what do bronze dragons do here",
+    "bronze flight purpose"
+   ],
+   "answer": "Their sacred duty, granted by the titans, is to safeguard the flow of time and maintain the integrity of history. They ensure that mortal tampering or outside disruptions do not unravel the events that define the world."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The temporal magic saturating the caverns far exceeds mortal chronomancy, offering a humbling glimpse at forces beyond arcane manipulation."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The kaldorei remember the ancient pacts of the Dragon Aspects well, regarding Nozdormu's charge as essential to preserving the world's survival."
+  }
+ ],
+ "keywords": [
+  "anachronos",
+  "bronze dragonflight",
+  "caverns of time",
+  "nozdormu",
+  "tanaris",
+  "temporal",
+  "timeways"
+ ],
+ "related": [
+  "zone:tanaris",
+  "topic:titan",
+  "topic:lordaeron",
+  "topic:second-war",
+  "subzone:stratholme"
+ ],
+ "attribution": [
+  "Caverns of Time"
+ ]
+}

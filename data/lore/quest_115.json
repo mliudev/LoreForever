@@ -1,0 +1,121 @@
+{
+ "key": "quest:115",
+ "type": "quest",
+ "name": "Shadow Magic",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   115
+  ],
+  "level": "23",
+  "faction": "Alliance",
+  "start": "Marshal Marris",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Shadow Magic",
+  "chain": []
+ },
+ "summary": "Shadow Magic is a desperate task given by Marshal Marris to disrupt the dark arts bolstering the Blackrock invasion of Redridge. Blackrock shadowcasters have brought demon-tainted midnight orbs to the battlefield, weaponizing dark energies against the beleaguered defenders of Lakeshire. Securing and destroying these cursed relics is vital to holding the town's defensive line.",
+ "sections": [
+  {
+   "title": "A Sinister Arsenal",
+   "body": "While brute force has always been the hallmark of the Blackrock clan, their recent incursions into the Redridge Mountains display a far more insidious threat. The invaders have bolstered their ranks with shadowcasters wielding dark powers. These casters do not rely on sorcery alone; they channel their fel and shadow energies through demon-tainted artifacts known as midnight orbs. The artifacts have inflicted terrible losses upon the local town militia, tilting an already desperate war further in favor of the invaders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Containing the Taint",
+   "body": "Marshal Marris, coordinating Lakeshire's strained defense from the town center, understands that ordinary steel cannot easily overcome dark relics. Allowing the Blackrock orcs to retain their midnight orbs risks the complete collapse of Redridge's eastern borders. By ordering adventurers to slay the shadowcasters and seize the orbs, Marris seeks not to repurpose this dangerous magic, but to take it straight to the furnace or arcane authorities in Stormwind where the demonic taint can be safely destroyed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are midnight orbs?",
+   "aliases": [
+    "midnight orb",
+    "what is a midnight orb",
+    "what do midnight orbs do"
+   ],
+   "answer": "Midnight orbs are demon-tainted conduits carried by Blackrock shadowcasters. They focus dark magic to inflict devastating blows against the mortal defenders of Redridge."
+  },
+  {
+   "q": "Why does Marshal Marris want these orbs?",
+   "aliases": [
+    "why collect midnight orbs",
+    "marris orbs",
+    "marris plan for orbs"
+   ],
+   "answer": "Marshal Marris wants the orbs removed from the battlefield entirely to cripple the offensive power of the Blackrock shadowcasters. He intends to have the demonic relics safely disposed of and destroyed."
+  },
+  {
+   "q": "Who are the Blackrock shadowcasters?",
+   "aliases": [
+    "blackrock shadowcasters",
+    "who uses shadow magic",
+    "blackrock casters"
+   ],
+   "answer": "They are spellcasters among the Blackrock orcs who practice shadow and fel-tainted magic, providing magical artillery and curses to support the clan's brute warriors."
+  },
+  {
+   "q": "Where are the shadowcasters found?",
+   "aliases": [
+    "where are shadowcasters",
+    "shadowcaster location",
+    "blackrock shadowcaster camps"
+   ],
+   "answer": "Blackrock shadowcasters are deployed in the camps and fortified positions of the Blackrock clan throughout northeastern Redridge Mountains."
+  },
+  {
+   "q": "Will Lakeshire study or use the orbs?",
+   "aliases": [
+    "will lakeshire use the orbs",
+    "can the alliance use the orbs",
+    "are orbs useful"
+   ],
+   "answer": "No. Marshal Marris considers them dangerous and demon-tainted, stating firmly that the world would be better off without them. His explicit goal is their immediate destruction."
+  },
+  {
+   "q": "Why is demonic magic appearing in Redridge?",
+   "aliases": [
+    "why demons in redridge",
+    "blackrock demonic taint",
+    "fel in redridge"
+   ],
+   "answer": "The Blackrock clan has a long history of consorting with dark and fel entities, dating back to the Old Horde. Their spellcasters continue to utilize demonic relics and shadow magic to bolster their conquests."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Lakeshire stands on the brink of overrun with virtually no reinforcements from Stormwind; depriving the Blackrock clan of their dark artillery is crucial for the survival of the region."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The midnight orbs demonstrate the enduring fel roots of the Blackrock clan, offering warlocks a glimpse into the raw demonic channeling wielded by orcish spellcasters."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Confronting shadowcasters and securing demon-tainted relics directly fulfills the holy duty to purge demonic corruption from the mortal realm."
+  }
+ ],
+ "keywords": [
+  "blackrock orcs",
+  "demon-tainted",
+  "lakeshire",
+  "marshal marris",
+  "midnight orb",
+  "redridge",
+  "shadow magic",
+  "shadowcaster"
+ ],
+ "related": [
+  "npc:marshal-marris",
+  "zone:redridge",
+  "subzone:lakeshire"
+ ],
+ "attribution": [
+  "Shadow Magic"
+ ]
+}

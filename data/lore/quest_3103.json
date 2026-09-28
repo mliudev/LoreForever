@@ -1,0 +1,115 @@
+{
+ "key": "quest:3103",
+ "type": "quest",
+ "name": "Hallowed Letter",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   3103
+  ],
+  "level": "3",
+  "faction": "Alliance",
+  "start": "Marshal McBride",
+  "end": "Priestess Anetta",
+  "previous": "Lions for Lambs",
+  "next": "Healing the Wounded (Alliance)",
+  "wiki": "Hallowed Letter (quest)",
+  "chain": []
+ },
+ "summary": "The Hallowed Letter is a formal summons given to promising young priests by Marshal McBride on behalf of Northshire Abbey's resident trainer, Priestess Anetta. It marks the start of a fledgling priest's formal mentorship in the tenets of the Holy Light amidst a troubled and vulnerable world.",
+ "sections": [
+  {
+   "title": "A Summons to the Cloth",
+   "body": "After proving their mettle against the vermin encroaching on Northshire's vineyards, novitiate priests are handed a missive bearing the sacred seal of Priestess Anetta. Delivered through Marshal McBride, the letter serves as an invitation to begin serious study of the Holy Light within the abbey's quiet halls.",
+   "spoiler": 0
+  },
+  {
+   "title": "A World in Need",
+   "body": "When presented with the letter, Priestess Anetta impresses upon her new pupil the grim state of the realm. Lingering threats from the Burning Legion cast long shadows across Azeroth, while the continents struggle with fresh wounds and unrest. In her eyes, taking up the mantle of a priest is not merely an academic devotion, but an urgent moral responsibility to bring healing and solace to a suffering world.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Hallowed Letter?",
+   "aliases": [
+    "hallowed letter",
+    "priest intro quest northshire",
+    "anetta letter"
+   ],
+   "answer": "It is a sealed letter bearing the crest of Priestess Anetta, delivered to newly arrived human priests by Marshal McBride in Northshire Valley. It directs the novice to formalize their training inside Northshire Abbey."
+  },
+  {
+   "q": "Who sends the Hallowed Letter?",
+   "aliases": [
+    "who wrote hallowed letter",
+    "who sent the letter"
+   ],
+   "answer": "Priestess Anetta, the priest trainer stationed inside Northshire Abbey, pens and seals the missive, asking Marshal McBride to hand it over once the initiate returns from scouting the kobold infestation."
+  },
+  {
+   "q": "Why does Priestess Anetta summon new priests?",
+   "aliases": [
+    "why does anetta want me",
+    "purpose of the letter"
+   ],
+   "answer": "Anetta recognizes the novice's calling to the Holy Light and seeks to guide their training. With perils like remnants of the Burning Legion lingering in the world, she stresses that disciplined healers and guides are urgently needed."
+  },
+  {
+   "q": "Where can Priestess Anetta be found?",
+   "aliases": [
+    "where is anetta",
+    "priestess anetta location"
+   ],
+   "answer": "She resides inside the main hall of Northshire Abbey, ready to train human priests as they master their first prayers and rituals."
+  },
+  {
+   "q": "What happens after presenting the letter to Priestess Anetta?",
+   "aliases": [
+    "next quest after hallowed letter",
+    "what follows hallowed letter"
+   ],
+   "answer": "Upon reading the letter and greeting Anetta, she accepts the player as her student, imparting basic wisdom and directing them to aid wounded soldiers stationed around Northshire."
+  },
+  {
+   "q": "Why is the Burning Legion mentioned in Northshire?",
+   "aliases": [
+    "burning legion northshire",
+    "why does anetta talk about demons"
+   ],
+   "answer": "Although the Third War ended, demonic remnants from the Legion still haunt Azeroth. Priestess Anetta mentions this global threat to emphasize the broader dangers awaiting any adventurer leaving the valley."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This quest marks your official induction as a student of the Holy Light under Priestess Anetta, framing your divine magic as a vital duty to heal a fractured world."
+  },
+  {
+   "target": "race:Human",
+   "text": "Northshire Abbey has long been a sanctuary of faith and recuperation for the Kingdom of Stormwind, carrying on its traditions despite the encroaching troubles around Elwynn."
+  }
+ ],
+ "keywords": [
+  "elwynn",
+  "hallowed letter",
+  "holy light",
+  "marshal mcbride",
+  "northshire abbey",
+  "priest",
+  "priestess anetta"
+ ],
+ "related": [
+  "npc:priestess-anetta",
+  "subzone:northshire-abbey",
+  "npc:marshal-mcbride",
+  "topic:light",
+  "zone:elwynn",
+  "topic:burning-legion",
+  "topic:kobold"
+ ],
+ "attribution": [
+  "Hallowed Letter (quest)"
+ ]
+}

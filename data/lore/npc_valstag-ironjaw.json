@@ -1,0 +1,91 @@
+{
+ "key": "npc:valstag-ironjaw",
+ "type": "npc",
+ "name": "Valstag Ironjaw",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Valstag Ironjaw",
+  "refs": 2
+ },
+ "summary": "Valstag Ironjaw is an Ironforge dwarven soldier stationed within Menethil Keep in the coastal marshlands of the Wetlands. Facing the pressing dangers that plague the trade passages connecting Loch Modan and the coast, he assists in securing regional routes and keeping the harbor's garrison informed of local threats.",
+ "sections": [
+  {
+   "title": "Duty at the Keep",
+   "body": "Found inside Menethil Keep in Menethil Harbor, Valstag Ironjaw serves as part of the dwarven garrison keeping watch over the lowlands. The surrounding marsh is rife with danger, from hostile Dragonmaw orcs to ravenous wildlife, making communications and supply lines difficult to maintain. Valstag helps coordinate defense efforts along the primary thoroughfares, particularly the treacherous passage cutting through Dun Algaz toward Loch Modan.",
+   "spoiler": 0
+  },
+  {
+   "title": "Securing the Pass",
+   "body": "With the treacherous Algaz Gauntlet choked by hostile forces, travelers and supply convoys heading between Menethil Harbor and Loch Modan are under constant threat. Valstag directs capable adventurers to confront the brigands and orcs lurking in the passes, relaying crucial military intelligence back and forth between forward scouts and commanders like Captain Stoutfist.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Valstag Ironjaw?",
+   "aliases": [
+    "valstag location",
+    "where is valstag ironjaw",
+    "valstag ironjaw npc"
+   ],
+   "answer": "Valstag Ironjaw is located inside Menethil Keep, the stone fortress situated in Menethil Harbor within the western Wetlands."
+  },
+  {
+   "q": "What role does Valstag play in the Wetlands?",
+   "aliases": [
+    "what does valstag do",
+    "valstag role"
+   ],
+   "answer": "He is an Ironforge dwarf stationed at the keep who aids in defense operations, helping manage threats along the mountain roads that lead back into the dwarven heartlands."
+  },
+  {
+   "q": "Why is the pass to Loch Modan such a concern for him?",
+   "aliases": [
+    "why algaz gauntlet",
+    "valstag loch modan"
+   ],
+   "answer": "The Algaz Gauntlet is the vital land bridge connecting the coastal port of Menethil Harbor to Loch Modan and Ironforge. Hostile forces choking the mountain pass threaten to cut off food, troop movements, and supplies."
+  },
+  {
+   "q": "Who is Captain Stoutfist?",
+   "aliases": [
+    "captain stoutfist connection",
+    "who is stoutfist"
+   ],
+   "answer": "Captain Stoutfist is a senior officer stationed in Menethil Keep. Valstag coordinates with him to ensure military reports and security dispatches reach the garrison command."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Valstag assists in keeping the critical supply artery open between Menethil Harbor and the mountains of Khaz Modan, essential for Alliance trade and travel."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarven adventurers traveling down from Ironforge or Loch Modan, Valstag represents the forward garrison holding the vital, rain-swept western shoreline."
+  }
+ ],
+ "keywords": [
+  "algaz gauntlet",
+  "captain stoutfist",
+  "loch modan",
+  "menethil harbor",
+  "menethil keep",
+  "valstag ironjaw",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:menethil-keep",
+  "subzone:menethil-harbor",
+  "zone:wetlands",
+  "quest:455",
+  "quest:473",
+  "npc:captain-stoutfist",
+  "zone:lochmodan",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Valstag Ironjaw"
+ ]
+}

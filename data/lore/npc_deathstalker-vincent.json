@@ -1,0 +1,91 @@
+{
+ "key": "npc:deathstalker-vincent",
+ "type": "npc",
+ "name": "Deathstalker Vincent",
+ "era": "classic",
+ "zone": "shadowfang",
+ "meta": {
+  "wiki": "Deathstalker Vincent",
+  "refs": 1
+ },
+ "summary": "Deathstalker Vincent was a Forsaken scout sent alongside Deathstalker Adamant to infiltrate Shadowfang Keep. Slain by the mad mage Arugal, his corpse remains inside the stronghold as a grim warning to any who challenge the feral worgen within.",
+ "sections": [
+  {
+   "title": "A Scout's Fatal End",
+   "body": "Before the Forsaken could launch a full-scale assault against the beasts holding Shadowfang Keep, intelligence on the fortress's interior was desperately needed. Two operatives from the Deathstalkers, the intelligence arm of the Forsaken, slipped past the barricades: Vincent and Adamant. Their mission ended in disaster. While Adamant was captured and locked away in a dungeon cell, Vincent was dragged directly before Shadowfang's master. Refusing to bend the knee or serve Arugal's dark designs, Vincent was executed on the spot, his body discarded on the stone floor to rot as a testament to the mage's fury.",
+   "spoiler": 0
+  },
+  {
+   "title": "Arugal's Defiance",
+   "body": "Arugal used Vincent's demise to issue a scathing declaration to the intruders in his keep. Confronting the captive operative, the mad mage mocked the Forsaken and compared their intrusion to the failed efforts of his former Kirin Tor comrades. Demanding that Vincent surrender his blade and secrets to his master, Arugal struck the scout down when he refused, declaring that Vincent's moldering remains would serve as a warning to anyone foolish enough to trespass in his domain.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Deathstalker Vincent?",
+   "aliases": [
+    "who is vincent",
+    "vincent shadowfang keep",
+    "dead rogue shadowfang"
+   ],
+   "answer": "Vincent was a Forsaken scout belonging to the Deathstalkers. He was dispatched with Deathstalker Adamant to gather critical reconnaissance inside Shadowfang Keep ahead of a planned assault by the Undercity."
+  },
+  {
+   "q": "What happened to Vincent in Shadowfang Keep?",
+   "aliases": [
+    "how did vincent die",
+    "why is vincent dead",
+    "who killed vincent"
+   ],
+   "answer": "Vincent was captured during his reconnaissance mission and executed by Archmage Arugal after refusing to defect or offer intelligence against the Forsaken. Arugal left his corpse where it fell as a display of power."
+  },
+  {
+   "q": "Where is his partner, Deathstalker Adamant?",
+   "aliases": [
+    "where is adamant",
+    "other deathstalker",
+    "adamant location"
+   ],
+   "answer": "While Vincent was executed out in the open, Deathstalker Adamant was captured alive and locked in a nearby dungeon cell under the watchful eye of a worgen guard."
+  },
+  {
+   "q": "Why were the Deathstalkers sent to Shadowfang Keep?",
+   "aliases": [
+    "why are deathstalkers in shadowfang",
+    "forsaken mission shadowfang"
+   ],
+   "answer": "Silverpine Forest is vital territory for Sylvanas and the Forsaken, but Arugal's worgen hold the regional fortress of Shadowfang Keep. Vincent and Adamant were sent to scout the layout and defenses so the Forsaken could mount an effective offensive."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Finding Vincent confirms the worst fears of the Forsaken commanders in Silverpine: the reconnaissance team failed, and the keep must now be cleared by force."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Vincent's execution stands as a sobering reminder of the risks faced by stealth operatives infiltrating hostile strongholds alone."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "deathstalker adamant",
+  "deathstalker vincent",
+  "shadowfang keep",
+  "silverpine forest",
+  "vincent",
+  "worgen"
+ ],
+ "related": [
+  "quest:1098",
+  "zone:shadowfang",
+  "npc:arugal",
+  "topic:forsaken",
+  "topic:worgen",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Deathstalker Vincent"
+ ]
+}

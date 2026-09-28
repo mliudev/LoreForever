@@ -1,0 +1,86 @@
+{
+ "key": "subzone:southern-gold-road",
+ "type": "subzone",
+ "name": "Southern Gold Road",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Southern Gold Road"
+ },
+ "summary": "The Southern Gold Road is the vital desert thoroughfare stretching through the southern half of the Barrens, linking the central plains to the Great Lift. It serves as an indispensable artery for regional trade, carrying caravans, supplies, and wayfarers traveling between distant reaches of Kalimdor.",
+ "sections": [
+  {
+   "title": "Artery of the South",
+   "body": "Officially beginning at the stone bridge dividing the northern and southern halves of the Barrens, the Southern Gold Road runs directly south until it meets the Great Lift leading down into the Thousand Needles. Like the northern portion simply named the Gold Road, this dusty highway derives its moniker from the endless stream of lucrative merchant caravans that trek along its length. Despite constant harassment from local quilboar tribes and predators prowling the savannah, it remains one of the busiest long-distance paths on the continent, ferrying goods between remote outposts and bustling ports.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Crossroads of Distant Lands",
+   "body": "The road sees travel far beyond local Horde traffic. Adventurers and hardy traders journeying to and from places as far-flung as Gadgetzan in the southern deserts of Tanaris, Auberdine along the misty shores of Darkshore, and the sacred groves of Nighthaven in Moonglade tread this sun-baked expanse. For travelers journeying on foot through Kalimdor's interior, surviving the journey down the Southern Gold Road is a grueling rite of passage.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Southern Gold Road start and end?",
+   "aliases": [
+    "southern gold road path",
+    "southern gold road route",
+    "where is southern gold road"
+   ],
+   "answer": "The road officially begins at the bridge that splits the northern and southern halves of the Barrens, continuing southward until it reaches the edge of the Thousand Needles at the Great Lift."
+  },
+  {
+   "q": "Why is it called the Gold Road?",
+   "aliases": [
+    "why called gold road",
+    "gold road name origin",
+    "gold road meaning"
+   ],
+   "answer": "The thoroughfare is named for the valuable trade caravans that regularly travel along it, ferrying precious goods, ore, and coin across the heart of Kalimdor."
+  },
+  {
+   "q": "What is the difference between the Gold Road and the Southern Gold Road?",
+   "aliases": [
+    "gold road vs southern gold road",
+    "two gold roads"
+   ],
+   "answer": "The dividing line is the bridge crossing the central divide of the Barrens. North of that point, the trail is known simply as the Gold Road, while the stretch leading south to the Great Lift is designated the Southern Gold Road."
+  },
+  {
+   "q": "Who travels along this stretch of road?",
+   "aliases": [
+    "who uses southern gold road",
+    "caravans southern gold road"
+   ],
+   "answer": "Aside from local Horde couriers and patrols, merchants and explorers make use of the route to travel between distant territories, connecting places like Gadgetzan to the far south with Darkshore and Moonglade in the far north."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The road serves as the backbone of Horde supply lines running between the central crossway of the Barrens and the southern outposts nearing Thousand Needles."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "caravans",
+  "gold road",
+  "great lift",
+  "southern gold road",
+  "thousand needles"
+ ],
+ "related": [
+  "subzone:gold-road",
+  "zone:barrens",
+  "subzone:great-lift",
+  "subzone:gadgetzan",
+  "zone:tanaris",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "subzone:nighthaven"
+ ],
+ "attribution": [
+  "Southern Gold Road"
+ ]
+}

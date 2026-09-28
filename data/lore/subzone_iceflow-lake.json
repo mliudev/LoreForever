@@ -1,0 +1,73 @@
+{
+ "key": "subzone:iceflow-lake",
+ "type": "subzone",
+ "name": "Iceflow Lake",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Iceflow Lake"
+ },
+ "summary": "Iceflow Lake is a frigid, partially frozen body of water situated in western Dun Morogh, directly north of Brewnall Village. Despite the relentless frost, local mountaineers maintain fishing holes through the sheet ice to secure fresh water and fish. The snow-covered islands in the center of the lake are prowled by aggressive winter wolves and their alpha, Timber.",
+ "sections": [
+  {
+   "title": "Frozen Depths and Island Predators",
+   "body": "Spanning western Dun Morogh just outside Brewnall Village, Iceflow Lake battles the bitter Khaz Modan climate year-round. Thick ice sheets continually creep across the surface, forcing local residents like Paxton Ganter to regularly clear holes for ice fishing and drinking water. While the shore provides sustenance, the islands rising from the middle of the lake are far less welcoming. A fierce pack of wild wolves has made these icy mounds their territory, dominated by the notoriously savage gray worg known as Timber.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is there an open hole in the frozen lake?",
+   "aliases": [
+    "ice hole",
+    "why is the ice broken",
+    "brewnall fishing hole"
+   ],
+   "answer": "The biting cold of Dun Morogh freezes the lake solid, so the dwarves of nearby Brewnall Village deliberately keep a section cleared of ice. This hole grants access to unfrozen drinking water and gives local fishermen a place to cast their lines."
+  },
+  {
+   "q": "Who is Paxton Ganter?",
+   "aliases": [
+    "paxton ganter",
+    "dwarf at iceflow lake",
+    "lake dwarf"
+   ],
+   "answer": "Paxton Ganter is a dwarven mountaineer stationed near the southern edge of Iceflow Lake by Brewnall Village, keeping watch over the frozen expanse and dealing with the predators roaming the shoreline."
+  },
+  {
+   "q": "What threats live on the lake's islands?",
+   "aliases": [
+    "timber",
+    "wolves in the lake",
+    "island wolves dun morogh"
+   ],
+   "answer": "The central islands are infested by hungry winter wolves and their alpha, a ferocious worg named Timber. Travelers who attempt to cross the ice into the middle of the lake frequently find themselves ambushed by the pack."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For the mountaineers of Brewnall Village, Iceflow Lake is both a vital freshwater lifeline and a persistent hazard, requiring constant vigilance against predatory wolves crossing the ice."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The snowy shores and central islands of the lake offer prime tracking grounds for hardy winter beasts, particularly the fearsome worg alpha, Timber."
+  }
+ ],
+ "keywords": [
+  "brewnall village",
+  "dun morogh",
+  "frozen lake",
+  "ice fishing",
+  "iceflow lake",
+  "paxton ganter",
+  "timber"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "subzone:brewnall-village"
+ ],
+ "attribution": [
+  "Iceflow Lake"
+ ]
+}

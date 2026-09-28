@@ -1,0 +1,110 @@
+{
+ "key": "npc:captain-greenskin",
+ "type": "npc",
+ "name": "Captain Greenskin",
+ "era": "classic",
+ "zone": "deadmines",
+ "meta": {
+  "wiki": "Captain Greenskin",
+  "refs": 5
+ },
+ "summary": "Captain Greenskin is an elite goblin pirate overseeing the construction and crew of Edwin VanCleef's massive ironclad juggernaut. Hidden deep in the subterranean cove of the Deadmines, he commands the pirate forces hired by the Defias Brotherhood. His goal is to bring the warship to readiness to sail against Stormwind.",
+ "sections": [
+  {
+   "title": "Master of the Juggernaut",
+   "body": "Pacing the main deck of the gigantic juggernaut under construction in the Deadmines cove, Captain Greenskin represents the naval backbone of the Defias conspiracy. A seasoned goblin mariner who previously operated out of Booty Bay, Greenskin was brought into Edwin VanCleef's inner circle to turn an underground cavern into a drydock for an engine of war.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Pirate's Crew",
+   "body": "Greenskin does not command an ordinary crew of stonemasons or bandits. Under his direct watch serve seasoned cutthroats, including his fearsome tauren first mate Mr. Smite and the murloc ship's cook, Cookie. Together, they hold the ship's gangplanks and upper deck, standing between intruders and VanCleef's private cabin atop the bridge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Captain Greenskin?",
+   "aliases": [
+    "greenskin lore",
+    "who is greenskin",
+    "captain greenskin"
+   ],
+   "answer": "Captain Greenskin is a goblin pirate captain hired by Edwin VanCleef to supervise the completion and operation of the Defias Brotherhood's secret war juggernaut in the Deadmines."
+  },
+  {
+   "q": "Where did Greenskin come from before joining the Defias?",
+   "aliases": [
+    "greenskin origin",
+    "where is greenskin from",
+    "greenskin booty bay"
+   ],
+   "answer": "Greenskin originally hails from Booty Bay in the southern reaches of Stranglethorn Vale, where he formerly commanded a fleet of pirate vessels before entering VanCleef's pay."
+  },
+  {
+   "q": "Who serves under Captain Greenskin?",
+   "aliases": [
+    "greenskin crew",
+    "first mate",
+    "greenskin minions"
+   ],
+   "answer": "His command includes his first mate, the tauren Mr. Smite, as well as Cookie the murloc cook and a contingent of Defias pirates patrolling the ironclad's deck."
+  },
+  {
+   "q": "What is Greenskin's purpose in the Deadmines?",
+   "aliases": [
+    "what does greenskin do",
+    "why is greenskin here"
+   ],
+   "answer": "He is tasked with making the massive ironclad warship seaworthy and prepared to sail out of the subterranean grotto into the Great Sea to strike at the kingdom of Stormwind."
+  },
+  {
+   "q": "Where can Captain Greenskin be found?",
+   "aliases": [
+    "greenskin location",
+    "where is captain greenskin"
+   ],
+   "answer": "He paces the main deck of the large juggernaut anchored in the final cavern of the Deadmines, guarding the approach to Edwin VanCleef."
+  },
+  {
+   "q": "Is Captain Greenskin part of the Defias Brotherhood or a mercenary?",
+   "aliases": [
+    "is greenskin defias",
+    "greenskin faction"
+   ],
+   "answer": "He is a mercenary pirate captain in the direct employ of Edwin VanCleef, commanding the naval forces aligned with the Defias Brotherhood's plot."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance forces, Captain Greenskin represents the maritime threat of the Defias rebellion; if his juggernaut breaches the coast, the undefended shores of Westfall and Stormwind are at direct risk."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Greenskin stands at the apex of Defias piracy, heavily guarded by corsairs and brutes right on the warship's deck."
+  }
+ ],
+ "keywords": [
+  "booty bay",
+  "captain greenskin",
+  "deadmines",
+  "goblin pirate",
+  "greenskin",
+  "juggernaut",
+  "smite",
+  "vancleef"
+ ],
+ "related": [
+  "npc:edwin-vancleef",
+  "npc:mr-smite",
+  "npc:cookie",
+  "zone:deadmines",
+  "subzone:booty-bay",
+  "topic:pirate",
+  "topic:goblin",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Captain Greenskin"
+ ]
+}

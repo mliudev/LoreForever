@@ -1,0 +1,77 @@
+{
+ "key": "npc:christoph-jeffcoat",
+ "type": "npc",
+ "name": "Christoph Jeffcoat",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Christoph Jeffcoat",
+  "refs": 1
+ },
+ "summary": "Christoph Jeffcoat is a Forsaken merchant stationed in the settlement of Tarren Mill within the Hillsbrad Foothills. He supplies local crafters and travelers with essential trade goods, cooking seasonings, and specialty recipes. In an active war zone contested by the Alliance and the Syndicate, his mundane wares keep the northern Horde war effort running.",
+ "sections": [
+  {
+   "title": "A Merchant on the Front Lines",
+   "body": "While Tarren Mill stands as the Forsaken's military stronghold in Hillsbrad Foothills, a garrison cannot fight on malice alone. Christoph Jeffcoat handles the quiet, practical side of occupation, vending reagents, tools, threads, and spices to soldiers and traveling artisans. From the soothing spices required for local culinary recipes like turtle bisque to rare schematics and alchemical vials, Jeffcoat ensures that Horde forces passing through southern Lordaeron are fully provisioned for the battles against Southshore and the regional perils.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Christoph Jeffcoat?",
+   "aliases": [
+    "christoph jeffcoat location",
+    "where is jeffcoat",
+    "tarren mill trade vendor"
+   ],
+   "answer": "Christoph Jeffcoat resides in Tarren Mill, the primary Forsaken and Horde stronghold located in central Hillsbrad Foothills."
+  },
+  {
+   "q": "What kinds of goods does he sell?",
+   "aliases": [
+    "what does jeffcoat sell",
+    "christoph jeffcoat wares",
+    "jeffcoat items"
+   ],
+   "answer": "He is a trade supplies merchant stocking tailoring threads, blacksmithing hammers, fluxes, vials for alchemy, and culinary spices such as soothing spices and hot spices, alongside select specialty recipes."
+  },
+  {
+   "q": "Why is he important for local cooks?",
+   "aliases": [
+    "soothing spices vendor hillsbrad",
+    "soothing turtle bisque ingredients",
+    "jeffcoat cooking"
+   ],
+   "answer": "Jeffcoat sells Soothing Spices, a crucial ingredient needed by cooks in Tarren Mill seeking to prepare Soothing Turtle Bisque for Chef Jessen."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Christoph Jeffcoat is an essential stop for aspiring chefs in Hillsbrad, as he stocks the Soothing Spices required to complete Chef Jessen's recipe for Soothing Turtle Bisque."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For Horde champions campaigning in Hillsbrad Foothills, Jeffcoat provides indispensable crafting materials and common tools right in the heart of Tarren Mill."
+  }
+ ],
+ "keywords": [
+  "christoph jeffcoat",
+  "forsaken merchant",
+  "hillsbrad",
+  "soothing spices",
+  "tarren mill",
+  "trade supplies",
+  "trade vendor"
+ ],
+ "related": [
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "quest:555",
+  "topic:forsaken",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Christoph Jeffcoat"
+ ]
+}

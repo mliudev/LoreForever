@@ -1,0 +1,125 @@
+{
+ "key": "quest:2949",
+ "type": "quest",
+ "name": "Return of the Ring",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "ids": [
+   2949
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "The Sparklematic 5200",
+  "end": "Nogg",
+  "previous": "Grime-Encrusted Ring (quest)",
+  "next": "Nogg's Ring Redo",
+  "wiki": "Return of the Ring (Horde)",
+  "chain": [
+   "Grime-Encrusted Ring (quest)",
+   "Return of the Ring (Horde)",
+   "Nogg's Ring Redo"
+  ]
+ },
+ "summary": "After scouring away the filth of Gnomeregan in the Sparklematic 5200, an adventurer uncovers a ring bearing the seal of Orgrimmar and the engraved letters 'NOG'. Tracing the piece back to the Horde's capital leads directly to the goblin engineer Nogg, who has his own curious theories about the city's fall.",
+ "sections": [
+  {
+   "title": "A Curious Discovery",
+   "body": "Gnomeregan is an Alliance city deep in Khaz Modan, making the recovery of a ring bearing the official seal of Orgrimmar entirely unexpected. Once processed through the gnomes' Sparklematic cleaning rig, the bauble sheds its thick layer of subterranean sludge, revealing a surge of magical power and the partially legible letters 'NOG'. Whether crafted in Kalimdor or brought along on an ill-fated expedition, the trinket clearly has roots in the Horde capital.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gnomish Rivalries and Dark Iron Plots",
+   "body": "Taking the ring back to the Valley of Honor in Orgrimmar leads straight to Nogg, an engineer who quickly clarifies that while the ring is not his personal jewelry, its origins raise intriguing questions. Bilgewater and Horde goblins have long looked down on gnomish inventors as eccentric rivals. To Nogg, the fact that Dark Iron dwarves held the ring inside Gnomeregan suggests the gnomes may have stolen advanced golem designs from the Dark Irons, sparking a retaliatory sabotage that ultimately doomed the city.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does a ring found in Gnomeregan bear the seal of Orgrimmar?",
+   "aliases": [
+    "why orgrimmar seal",
+    "horde ring in gnomeregan",
+    "how did the ring get there"
+   ],
+   "answer": "The exact circumstances of how the ring entered Gnomeregan remain unknown, but it was carried deep into the ruins and recovered by Dark Iron dwarves. Its Orgrimmar insignia connects it back to Horde metalworkers and craftsmen operating out of Durotar."
+  },
+  {
+   "q": "Who is Nogg?",
+   "aliases": [
+    "who is nogg",
+    "nogg orgrimmar",
+    "nog letters ring"
+   ],
+   "answer": "Nogg is a goblin engineer located in the Valley of Honor in Orgrimmar. He oversees engineering supplies and machines, and his name matches the worn letters engraved alongside the Orgrimmar seal on the cleaned ring."
+  },
+  {
+   "q": "What is the Sparklematic 5200?",
+   "aliases": [
+    "what is the sparklematic",
+    "sparklematic 5200",
+    "cleanomatic"
+   ],
+   "answer": "The Sparklematic 5200 is an automated industrial wash system located within the Clean Zone of Gnomeregan. It strips away heavy layers of toxic sludge and irradiation from objects dragged out of the ruined corridors."
+  },
+  {
+   "q": "Does Nogg own the ring?",
+   "aliases": [
+    "is it nogg's ring",
+    "did nogg lose his ring",
+    "who owns the ring"
+   ],
+   "answer": "No. When presented with the cleaned band, Nogg inspects it and admits that it does not belong to him. However, he recognizes its craftsmanship and uses his engineering expertise to modify it further for the adventurer."
+  },
+  {
+   "q": "What does Nogg think happened to Gnomeregan?",
+   "aliases": [
+    "nogg gnomeregan theory",
+    "what happened to gnomeregan",
+    "why dark iron dwarves"
+   ],
+   "answer": "Nogg suspects that the gnomes stole advanced golem blueprints from the Dark Iron clan. He believes the Dark Irons sought vengeance, insinuating that their clandestine meddling may have contributed directly to Gnomeregan's catastrophic downfall."
+  },
+  {
+   "q": "Can I keep the ring instead of returning it to Nogg?",
+   "aliases": [
+    "keep brilliant gold ring",
+    "should i return the ring",
+    "do i have to give it to nogg"
+   ],
+   "answer": "The choice is yours to wear the ring immediately or take it to Orgrimmar. Bringing it to Nogg, however, allows the goblin engineer to inspect its craftsmanship and offer further improvements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Finding Horde iconography deep inside the premier technological capital of the Eastern Kingdoms is a rare sight, drawing Horde adventurers straight from Khaz Modan back to the Valley of Honor."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The goblin engineers in Orgrimmar constantly measure themselves against gnomish invention, and Nogg is eager to dissect anything retrieved from the heart of their fallen technological wonder."
+  }
+ ],
+ "keywords": [
+  "brilliant gold ring",
+  "dark iron",
+  "gnomeregan",
+  "nogg",
+  "orgrimmar",
+  "return of the ring",
+  "sparklematic 5200",
+  "valley of honor"
+ ],
+ "related": [
+  "npc:nogg",
+  "zone:gnomeregan",
+  "zone:orgrimmar",
+  "quest:2945",
+  "quest:2950",
+  "topic:horde",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Return of the Ring (Horde)"
+ ]
+}

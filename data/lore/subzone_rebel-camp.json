@@ -1,0 +1,94 @@
+{
+ "key": "subzone:rebel-camp",
+ "type": "subzone",
+ "name": "Rebel Camp",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Rebel Camp"
+ },
+ "summary": "Tucked just off the road in northern Stranglethorn Vale, the Rebel Camp serves as a fortified refuge for Alliance soldiers who broke away from Colonel Kurzen. Led by Lieutenant Doren, these troops refused to surrender to the madness gripping their commander's expedition and now fight to survive and undo his descent into tyranny.",
+ "sections": [
+  {
+   "title": "A Stand Against Madness",
+   "body": "When Colonel Kurzen's expedition pushed deep into the jungles of Stranglethorn Vale on behalf of Stormwind, things rapidly fell apart. Afflicted by the dark jungle magic and the curse of the ogre mage Mai'Zoth, the Colonel and his core loyalists succumbed to madness, turning rogue and terrorizing the wilds. A handful of sound-minded soldiers led by Lieutenant Doren refused to participate in the atrocities. Breaking away from Kurzen's Compound, they established this hidden camp in the north to stage a desperate guerrilla campaign against their former comrades.",
+   "spoiler": 0
+  },
+  {
+   "title": "Holding the Line",
+   "body": "Perched precariously near the Duskwood border, the Rebel Camp operates under constant threat. Cut off from regular Stormwind relief, Doren relies on covert supplies and defensive armaments\u2014including goblin explosives brokered through Booty Bay\u2014to hold the perimeter against Kurzen's raiding parties. For Alliance travelers venturing south into the savage jungle, the encampment provides a vital first foothold of sanity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are the rebels at the Rebel Camp?",
+   "aliases": [
+    "who lives at rebel camp",
+    "who are these soldiers",
+    "rebel camp alliance"
+   ],
+   "answer": "They are former Stormwind soldiers who were part of Colonel Kurzen's expedition into Stranglethorn Vale. When Kurzen and his inner circle fell into madness and tyranny, Lieutenant Doren led this faction in mutiny to escape and oppose them."
+  },
+  {
+   "q": "Why is it called the Rebel Camp if they are loyal to Stormwind?",
+   "aliases": [
+    "why rebel camp",
+    "are they traitors",
+    "who did they rebel against"
+   ],
+   "answer": "They are considered rebels only against Colonel Kurzen's command structure. Kurzen was their commanding officer, so defying his orders was technically mutiny, even though they remain loyal to the Alliance and Stormwind."
+  },
+  {
+   "q": "How does the camp survive without official Stormwind support?",
+   "aliases": [
+    "rebel camp supplies",
+    "where do they get food",
+    "rebel camp logistics"
+   ],
+   "answer": "Operating far from official supply lines, Lieutenant Doren relies on resourceful back-channel connections, including trade with contacts like Krazek down in Booty Bay, who supplies land mines and vital gear to fortify the camp's defenses."
+  },
+  {
+   "q": "Where is Colonel Kurzen located?",
+   "aliases": [
+    "kurzen location",
+    "where is kurzen",
+    "kurzens compound"
+   ],
+   "answer": "Kurzen and his deranged followers occupy Kurzen's Compound, a fortified base situated directly southeast of the Rebel Camp."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Rebel Camp is your primary staging ground and safest haven when crossing south over the bridge from Duskwood into Stranglethorn Vale."
+  },
+  {
+   "target": "race:Human",
+   "text": "Watching fellow Stormwind regulars unravel in the jungle is a sobering sight, and Lieutenant Doren desperately needs fellow subjects of the kingdom to help put an end to Kurzen's disgraced outfit."
+  }
+ ],
+ "keywords": [
+  "colonel kurzen",
+  "doren",
+  "kurzen",
+  "kurzen's compound",
+  "mai'zoth",
+  "rebel camp",
+  "stranglethorn",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "subzone:kurzen-s-compound",
+  "npc:colonel-kurzen",
+  "npc:doren",
+  "zone:stranglethorn",
+  "zone:duskwood",
+  "subzone:booty-bay",
+  "topic:stormwind-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Rebel Camp"
+ ]
+}

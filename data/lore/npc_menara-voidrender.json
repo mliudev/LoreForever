@@ -1,0 +1,121 @@
+{
+ "key": "npc:menara-voidrender",
+ "type": "npc",
+ "name": "Menara Voidrender",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Menara Voidrender",
+  "refs": 5
+ },
+ "summary": "Menara Voidrender is a human warlock residing in the goblin port of Ratchet. She acts as a mentor to ambitious practitioners of the dark arts from both the Alliance and the Horde, sharing her deep knowledge of demon-binding artifacts and arcane craft. Her secluded position in Kalimdor keeps her far from the watchful eyes of orthodox authorities.",
+ "sections": [
+  {
+   "title": "A Refuge in Ratchet",
+   "body": "While most warlocks in the Eastern Kingdoms practice in damp cellars or secluded slaughterhouses beneath their home cities, Menara Voidrender chose the neutral goblin port of Ratchet in the Barrens. Operating far from the scrutiny of the Kirin Tor, Stormwind's guards, or Orgrimmar's overseers, she is free to pursue her occult studies in plain sight. Her willingness to deal with any capable apprentice, regardless of faction, makes her a rare point of commonality among practitioners of the dark arts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mistress of Binding",
+   "body": "Menara is renowned among veteran conjurers as an authority on creating orbs that imprison and harness demonic spirits. She works closely with intricate reagents, guiding apprentices through demanding rituals to forge enchanted attire and binding implements. Word of her expertise reaches as far as Ironforge and the Undercity, leading senior warlocks across Azeroth to direct their most promising students across the sea to seek her counsel.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ties to the Marsh",
+   "body": "Among Menara's distant acquaintances is the hermit mage Tabetha, who lives in deep isolation in the swamps of Dustwallow Marsh. Though Tabetha pursues the arcane and Menara delves into fel bindings and demonology, the two women share an old history. When powerful relics like the Orb of Orahil require restoration or specialized knowledge, their shared past becomes an unexpected bridge across Kalimdor's wilderness.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Menara Voidrender?",
+   "aliases": [
+    "who is menara",
+    "menara voidrender lore",
+    "who is the warlock in ratchet"
+   ],
+   "answer": "Menara Voidrender is a human warlock stationed in the neutral port town of Ratchet in the Barrens. She serves as an instructor and artificer for developing warlocks, guiding them through crafting rituals and demon-binding sorcery."
+  },
+  {
+   "q": "Why is a human warlock living in the Barrens?",
+   "aliases": [
+    "why is menara in ratchet",
+    "why is she in the barrens",
+    "why ratchet warlock"
+   ],
+   "answer": "Ratchet offers neutrality and distance from the watchful eyes of major governments. By basing herself in a goblin-run port, Menara can practice forbidden arts and instruct students from both the Alliance and the Horde without interference from paladins, mages, or city guards."
+  },
+  {
+   "q": "What kind of magic does Menara specialize in?",
+   "aliases": [
+    "what does menara teach",
+    "menara voidrender powers",
+    "what is menara good at"
+   ],
+   "answer": "Menara specializes in demonology, enchanting dark fabrics, and fashioning vessels designed to trap demonic entities. She is especially known for her mastery in creating and restoring orbs that bind demons, such as the Orb of Orahil."
+  },
+  {
+   "q": "What is Menara's connection to Tabetha?",
+   "aliases": [
+    "menara and tabetha",
+    "how does she know tabetha",
+    "tabetha connection"
+   ],
+   "answer": "Menara and the reclusive sorceress Tabetha share a past connection. Despite Tabetha living secluded in Dustwallow Marsh and practicing traditional wizardry, warlocks seeking knowledge regarding the Orb of Orahil find that the two women are familiar with each other's talents."
+  },
+  {
+   "q": "Does Menara favor the Alliance or the Horde?",
+   "aliases": [
+    "is menara alliance or horde",
+    "menara faction",
+    "who does menara work for"
+   ],
+   "answer": "Menara operates neutrally out of Ratchet. She offers her tutelage and crafting tasks to any warlock who proves competent and ambitious enough to handle fel energies, welcoming both Alliance and Horde practitioners."
+  },
+  {
+   "q": "What major artifacts does she help create?",
+   "aliases": [
+    "menara quests",
+    "what does she make",
+    "enchanted gold bloodrobe menara"
+   ],
+   "answer": "Menara directs apprentices in weaving the Enchanted Gold Bloodrobe, a garment imbued with demonic power, and assists advanced practitioners in recovering and assembling components for the Orb of Orahil."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Menara is a vital mentor on Kalimdor, teaching practitioners from both factions how to forge their signature enchanted robes and bind demons into focus orbs."
+  },
+  {
+   "target": "race:Human",
+   "text": "Far from Stormwind's catacombs, Menara represents human warlocks who cast aside kingdom loyalties to pursue dark arts unhindered in neutral territories."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Menara blends advanced tailoring materials with fel reagents to weave durable, spell-woven vestments capable of channeling demonic power."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "bloodrobe",
+  "demonology",
+  "menara",
+  "orahil",
+  "ratchet",
+  "tabetha",
+  "voidrender",
+  "warlock"
+ ],
+ "related": [
+  "subzone:ratchet",
+  "quest:4736",
+  "quest:1796",
+  "npc:tabetha",
+  "zone:barrens",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Menara Voidrender"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "subzone:scarlet-base-camp",
+ "type": "subzone",
+ "name": "Scarlet Base Camp",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Scarlet Base Camp"
+ },
+ "summary": "Scarlet Base Camp is a fortified outpost established on the eastern shore of Lake Mereldar in the Eastern Plaguelands. Guarded by zealous paladins, inquisitors, and foot soldiers, it protects the approaches leading toward Tyr's Hand. The camp serves as a forward defensive line shielding local Scarlet personnel and refugees from the unrelenting Scourge.",
+ "sections": [
+  {
+   "title": "A Forward Line on Lake Mereldar",
+   "body": "Perched on the eastern banks of Lake Mereldar, the Scarlet Base Camp functions as an entrenched defensive perimeter just west of Tyr's Hand. Fortified with timber barricades, tents, and sentry watch posts, it provides early warning against undead incursions roaming the Plaguelands. Under the command of leaders like Commander Beatrix alongside Scarlet inquisitors and sergeants, the encampment maintains discipline among troops and provides a heavily defended rallying point for refugees fleeing the surrounding blighted wilderness.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shielding the Bastion",
+   "body": "Because Tyr's Hand is one of the Crusade's supreme strongholds in Lordaeron, securing its approaches across the lake is vital. The soldiers stationed here harbor deep fanaticism, viewing any outsider who approaches as a potential carrier of the plague or an outright agent of darkness. Together with armed infantry and inquisitors, the camp maintains an aggressive vigil over the eastern waters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Scarlet Base Camp?",
+   "aliases": [
+    "what is scarlet base camp",
+    "why is scarlet camp here",
+    "purpose of base camp"
+   ],
+   "answer": "The Scarlet Base Camp serves as an outer defensive perimeter and forward watch on the eastern bank of Lake Mereldar. It monitors the roadways and waters leading directly to the Scarlet Crusade's fortified bastion of Tyr's Hand, warding off wandering Scourge and sheltering affiliated refugees."
+  },
+  {
+   "q": "Who leads the forces stationed at the camp?",
+   "aliases": [
+    "who leads scarlet base camp",
+    "camp commander",
+    "scarlet camp leaders"
+   ],
+   "answer": "The encampment is led by Commander Beatrix, supported by inquisitors such as Inquisitor Jociphine and Scarlet Inquisitor Caldoran, who ensure both martial readiness and zealous ideological purity among the infantry and sergeants."
+  },
+  {
+   "q": "Are the occupants hostile to travelers?",
+   "aliases": [
+    "will scarlet base camp attack me",
+    "is scarlet camp hostile",
+    "are they friendly"
+   ],
+   "answer": "Yes. Like nearly all elements of the Scarlet Crusade in the Plaguelands, the troops and inquisitors at this camp view all outsiders\u2014Horde and Alliance alike\u2014as contaminated, untrustworthy, or disguised agents of the Scourge, attacking anyone who draws near."
+  },
+  {
+   "q": "Why are there refugees at this outpost?",
+   "aliases": [
+    "why are there refugees here",
+    "tyrs hand refugees",
+    "who are the refugees"
+   ],
+   "answer": "The refugees present at the camp are humans fleeing the devastation of the Eastern Plaguelands who look to the military might of Tyr's Hand for protection. They congregate around the barricaded outpost where Scarlet infantry offer a protective perimeter against the undead."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The camp reflects the tragic corruption of the Silver Hand's legacy, where righteous zeal in the defense of Lordaeron's holy ground has warped into aggressive paranoia against fellow survivors."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The outpost serves as a direct reminder of the living zealots who wish to purge the Forsaken from Lordaeron just as ruthlessly as they hunt the mindless Scourge."
+  }
+ ],
+ "keywords": [
+  "caldoran",
+  "commander beatrix",
+  "eastern plaguelands",
+  "inquisitor jociphine",
+  "lake mereldar",
+  "scarlet base camp",
+  "scarlet crusade",
+  "tyr's hand"
+ ],
+ "related": [
+  "subzone:lake-mereldar",
+  "subzone:tyr-s-hand",
+  "zone:easternplaguelands"
+ ],
+ "attribution": [
+  "Scarlet Base Camp"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "key": "subzone:dolanaar",
+ "type": "subzone",
+ "name": "Dolanaar",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Dolanaar"
+ },
+ "summary": "Dolanaar is a tranquil night elf settlement nestled in the central-eastern boughs of Teldrassil. Situated just southwest of Shadowglen, it serves as the first true town young kal'dorei encounter after departing their sheltered training grounds. Here, rangers, druids, and craftsmen gather to guide newcomers and address the strange, encroaching afflictions disturbing the World Tree.",
+ "sections": [
+  {
+   "title": "A Crossroads of Boughs",
+   "body": "Resting beneath the lush canopy southwest of Shadowglen, Dolanaar serves as a vital crossway for travelers traversing Teldrassil. Built in the traditional night elven manner, its homes and platforms sit seamlessly woven into the woodland. The village provides newcomers with their first comprehensive training in trades, martial arts, and nature crafts, as well as a direct hippogryph connection to the capital city of Darnassus. Because of its central location, reports of corrupted wildlife, aggressive furbolgs, and foul mosses from the surrounding boughs inevitably find their way into Dolanaar's council.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of Dolanaar?",
+   "aliases": [
+    "what is dolanaar",
+    "dolanaar purpose",
+    "why dolanaar matters"
+   ],
+   "answer": "Dolanaar is the primary questing hub and outpost for young night elves leaving the novice grounds of Shadowglen. It acts as an administrative outpost in eastern Teldrassil, housing tradesfolk, trainers for martial and magical arts, and links to the capital."
+  },
+  {
+   "q": "Where is Dolanaar located?",
+   "aliases": [
+    "dolanaar location",
+    "where is dolanaar",
+    "dolanaar directions"
+   ],
+   "answer": "Dolanaar lies in the central-eastern region of Teldrassil, just a short walk down the trail southwest of Shadowglen and east of the capital city of Darnassus."
+  },
+  {
+   "q": "How can travelers reach Darnassus from here?",
+   "aliases": [
+    "travel to darnassus",
+    "flight master dolanaar",
+    "dolanaar to darnassus"
+   ],
+   "answer": "Dolanaar maintains a flight path serviced by night elf hippogryphs, allowing travelers to quickly fly directly to Darnassus without navigating the overland paths."
+  },
+  {
+   "q": "What threats affect Dolanaar?",
+   "aliases": [
+    "trouble in dolanaar",
+    "dolanaar problems",
+    "dolanaar quests"
+   ],
+   "answer": "The woodland surrounding Dolanaar suffers from a strange corruption creeping into Teldrassil, leading to diseased beasts, crazed timberlings, and hostile furbolg tribes nearby."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young night elves, Dolanaar marks their first steps into the wider world, testing their vows to preserve nature as they witness the growing corruption upon the World Tree."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Dolanaar is an essential stop for initiates seeking guidance on Teldrassil's ailments and learning to attune their spirits to the natural balance."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "dolanaar",
+  "kaldorei",
+  "night elf town",
+  "shadowglen",
+  "teldrassil"
+ ],
+ "related": [
+  "subzone:shadowglen",
+  "zone:teldrassil",
+  "zone:darnassus",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Dolanaar"
+ ]
+}

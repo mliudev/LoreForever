@@ -1,0 +1,114 @@
+{
+ "key": "npc:dashel-stonefist",
+ "type": "npc",
+ "name": "Dashel Stonefist",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Dashel Stonefist",
+  "refs": 3
+ },
+ "summary": "Dashel Stonefist is a notorious dwarven brawler found loitering among the shaded alleys of Old Town in Stormwind City. Nicknamed \"Fist\" for his quick temper and heavy hands, he is a familiar fixture of the city's rougher underbelly. Beneath his thuggish exterior, he maintains quietly dangerous connections that draw the eye of covert investigators.",
+ "sections": [
+  {
+   "title": "A Brawler in Old Town",
+   "body": "Tucked away in the narrow, cobblestone backstreets of Old Town, Dashel Stonefist looks like any other drunken, combative dwarf looking for an excuse to throw a punch. Locals and city guards know him simply as \"Fist,\" a moniker earned through countless street fights and scuffles outside tavern doors. Yet Dashel is far more than a simple tavern brawler; his presence in Old Town puts him right at the nexus of Stormwind's underworld, where smugglers, cutpurses, and political agitators exchange coin and rumors away from the prying eyes of Cathedral Square.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Diplomat's Disappearance",
+   "body": "When a high-ranking diplomat goes missing on a secret voyage abroad, covert royal investigators track whispers of treachery straight to Dashel. Stonefist serves as a street-level contact for the Defias Brotherhood within Stormwind's very walls, possessing critical knowledge about the abduction. Far from a willing informant, Dashel refuses to speak until beaten into submission, revealing that the conspiracy reaches far deeper into the kingdom's politics than a simple kidnapping.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dashel Stonefist?",
+   "aliases": [
+    "who is dashel",
+    "who is fist",
+    "dashel stonefist lore"
+   ],
+   "answer": "Dashel Stonefist is a dwarf living in Old Town, Stormwind City. Nicknamed \"Fist\" for his violent reputation and brawling habits, he serves as a low-level cutthroat and informant embedded in the capital's shadowy quarters."
+  },
+  {
+   "q": "Where can I find Dashel Stonefist?",
+   "aliases": [
+    "dashel location",
+    "where is dashel stonefist",
+    "find dashel"
+   ],
+   "answer": "He can be found standing outside in Old Town within Stormwind City, tucked among the district's back alleys near the city's rogue and warrior haunts."
+  },
+  {
+   "q": "Why do investigators need to fight him?",
+   "aliases": [
+    "why attack dashel",
+    "subdue dashel stonefist",
+    "fight dashel"
+   ],
+   "answer": "During the investigation into the missing royal diplomat, leads point directly to Dashel as a collaborator. Because he is fiercely loyal to his shady employers and respects only force, investigators must beat him in a bare-knuckle brawl before he will spill what he knows."
+  },
+  {
+   "q": "What is his connection to the Defias Brotherhood?",
+   "aliases": [
+    "is dashel defias",
+    "dashel stonefist defias",
+    "defias in stormwind"
+   ],
+   "answer": "Dashel operates as an inside operative and messenger for the Defias Brotherhood within Stormwind. He helps coordinate local contacts and street muscle to keep the Brotherhood's plans concealed from the City Guard."
+  },
+  {
+   "q": "Who is the missing diplomat connected to Dashel?",
+   "aliases": [
+    "who is the missing diplomat",
+    "missing diplomat questline",
+    "king varian missing"
+   ],
+   "answer": "The official story pursued by royal agents involves an unnamed diplomat who vanished en route to Theramore. In reality, this investigation skirts the dangerous truth behind the sudden disappearance of King Varian Wrynn himself."
+  },
+  {
+   "q": "Is Dashel related to any other known dwarves?",
+   "aliases": [
+    "telda stonefist relative",
+    "dashel stonefist family",
+    "stonefist family"
+   ],
+   "answer": "He shares a surname with Telda Stonefist, suggesting a familial connection, though Dashel's criminal ties in Stormwind set him apart from reputable dwarven society."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "For rogues navigating Old Town's criminal web, Dashel is an example of an operative who talks too much once his jaw is rattled\u2014a warning about trusting brute muscle with delicate secrets."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "While many Ironforge dwarves in Stormwind work as honored smiths, mountaineers, or emissaries, Stonefist shows that dwarves are just as capable of falling into street-corner thuggery and treason."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Dashel represents the quiet rot inside Stormwind's capital, proving that the Defias Brotherhood's reach extends past the farms of Westfall and straight into the sovereign city."
+  }
+ ],
+ "keywords": [
+  "brawler",
+  "dashel",
+  "defias",
+  "fist",
+  "missing diplomat",
+  "old town",
+  "stonefist",
+  "stormwind"
+ ],
+ "related": [
+  "quest:1241",
+  "subzone:old-town",
+  "zone:stormwind",
+  "topic:stormwind-kingdom",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Dashel Stonefist"
+ ]
+}

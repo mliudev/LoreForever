@@ -1,0 +1,74 @@
+{
+ "key": "npc:zureetha-fargaze",
+ "type": "npc",
+ "name": "Zureetha Fargaze",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Zureetha Fargaze",
+  "refs": 2
+ },
+ "summary": "Zureetha Fargaze is an orc mentor stationed in the Valley of Trials in Durotar alongside Foreman Thazz'ril. Vigilant against corruption, she directs young Horde recruits to investigate and root out the dark influence of the Burning Blade cult hiding within the valley.",
+ "sections": [
+  {
+   "title": "Eyes in the Valley",
+   "body": "While Foreman Thazz'ril oversees the labor and discipline of young orcs and Darkspear trolls, Zureetha Fargaze keeps watch for subtler, more insidious threats. The Burning Blade cult has secretly infiltrated the Valley of Trials, corrupting lesser demons and gathering strength in the nearby cavern of Burning Blade Coven. Zureetha tasks untested adventurers with retrieving medallions from the cultists to confirm their presence and dismantle their early operations before directing seasoned recruits outward into Durotar.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zureetha Fargaze?",
+   "aliases": [
+    "zureetha fargaze lore",
+    "who is zureetha",
+    "fargaze valley of trials"
+   ],
+   "answer": "Zureetha Fargaze is an orc questgiver stationed in the Valley of Trials in Durotar. She stands near Foreman Thazz'ril and monitors the hidden threats creeping into the training grounds."
+  },
+  {
+   "q": "Why is she concerned about the Burning Blade?",
+   "aliases": [
+    "burning blade valley of trials",
+    "why does zureetha want medallions",
+    "burning blade cult durotar"
+   ],
+   "answer": "The demonic Burning Blade cult has taken root inside a nearby cave, drawing foul familiars and corrupting the peaceful trial grounds. Zureetha seeks proof of their presence through their cultist medallions and sends recruits to thin their numbers."
+  },
+  {
+   "q": "Where does she send recruits after their initial trials?",
+   "aliases": [
+    "where do i go after zureetha",
+    "zureetha next quest",
+    "report to sen'jin"
+   ],
+   "answer": "Once young orcs and trolls prove their competence against the local threats, Zureetha dispatches them southeast across the ridge to Sen'jin Village to aid the Darkspear tribe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "For young orcs taking their first steps into the world, Zureetha represents the watchful vigilance required to keep the demonic taint of the past from polluting their new homeland."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks in the Valley of Trials cross paths with Zureetha's tasks early on, dealing with the loose, corrupt vile familiars tied to the Burning Blade's dark summonings."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "burning blade medallion",
+  "durotar",
+  "foreman thazz'ril",
+  "valley of trials",
+  "zureetha fargaze"
+ ],
+ "related": [
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "subzone:sen-jin-village"
+ ],
+ "attribution": [
+  "Zureetha Fargaze"
+ ]
+}

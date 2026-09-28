@@ -1,0 +1,120 @@
+{
+ "key": "quest:411",
+ "type": "quest",
+ "name": "The Prodigal Lich Returns",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   411
+  ],
+  "level": "12",
+  "faction": "Horde",
+  "start": "Gunther Arcanus",
+  "end": "Bethor Iceshard",
+  "previous": "Proving Allegiance",
+  "next": null,
+  "wiki": "The Prodigal Lich Returns",
+  "chain": []
+ },
+ "summary": "The Prodigal Lich Returns marks the conclusion of the effort to recruit Gunther Arcanus into the Forsaken. Having proven your intentions and restored his grimoire, you carry an arcane communion gem back to Bethor Iceshard in the Undercity.",
+ "sections": [
+  {
+   "title": "A Rare Reconciliation",
+   "body": "Gunther Arcanus spent years isolated on an island in Brightwater Lake, having broken free from the Lich King's grip through sheer force of will, completely unaware that Sylvanas Windrunner had liberated Lordaeron. Bitter and suspicious of outsiders, Gunther distrusted the emissaries of the Undercity until an adventurer returned his spellbook and proved their hostility toward the Scourge. Satisfied that his visitor was not an enemy, Gunther entrusted them with a Nether Gem to establish contact with his former colleague.",
+   "spoiler": 0
+  },
+  {
+   "title": "Communion in the Magic Quarter",
+   "body": "Returning to the Mage Quarter of the Undercity, the bearer delivers the Nether Gem to Bethor Iceshard. Bethor channels the gem's power to conjure Gunther's ethereal visage right within the sanctuary. Through this magical communion, the self-made lich formally agrees to ally with the Forsaken cause. Securing a necromancer of Gunther's independent mastery is a tremendous coup for the Dark Lady's nascent kingdom, bolstering their magical defenses against both the Scourge and the living.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gunther Arcanus?",
+   "aliases": [
+    "gunther arcanus lore",
+    "who is the prodigal lich",
+    "gunther undercity"
+   ],
+   "answer": "Gunther Arcanus is an exceptionally powerful necromancer who broke free from the Lich King's mental domination on his own. He lived in reclusive exile on an island in Brightwater Lake, assuming all other undead were mindless thralls until adventurers proved otherwise."
+  },
+  {
+   "q": "Who is Bethor Iceshard?",
+   "aliases": [
+    "bethor lore",
+    "who is bethor",
+    "iceshard undercity"
+   ],
+   "answer": "Bethor Iceshard is a senior mage and scholar residing in the Magic Quarter of the Undercity. He is an old colleague of Gunther Arcanus and coordinated the efforts to find and recruit him into the Forsaken."
+  },
+  {
+   "q": "What does the Nether Gem do?",
+   "aliases": [
+    "what is the nether gem",
+    "gunther gem"
+   ],
+   "answer": "The Nether Gem is an enchanted artifact provided by Gunther Arcanus. When Bethor Iceshard channels arcane power into it, it manifests a spectral projection of Gunther, allowing the two spellcasters to converse across great distances."
+  },
+  {
+   "q": "Why does Gunther agree to join the Forsaken?",
+   "aliases": [
+    "why join forsaken",
+    "gunther allegiance"
+   ],
+   "answer": "Gunther spent years fearing he was the only free-willed undead in Lordaeron. Once convinced that Sylvanas's Forsaken are genuinely free of the Scourge and actively fighting the Lich King, he willingly pledges his allegiance and re-establishes ties with his former peers."
+  },
+  {
+   "q": "Why does the quest call Gunther a 'Lich'?",
+   "aliases": [
+    "is gunther a real lich",
+    "gunther lich form"
+   ],
+   "answer": "While Gunther uses the standard skeletal and decayed form of a Forsaken rather than the floating, frost-wreathed silhouette of a Scourge lich, he attained lichdom independently through his advanced mastery of necromancy and sustained will."
+  },
+  {
+   "q": "What happens when you turn in the Nether Gem?",
+   "aliases": [
+    "nether gem turn in event",
+    "what happens at bethor"
+   ],
+   "answer": "Upon completing the delivery, Bethor activates the gem, conjuring Gunther's Visage in the Magic Quarter. The projection moves toward Bethor to initiate their long-overdue reunion before fading."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Gunther's liberation without the Banshee Queen's intervention serves as living proof of the sheer willpower Lordaeron's fallen can muster."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Watching Bethor commune with Gunther demonstrates the seamless fusion of traditional Dalaran spellcraft and dark necromancy practiced in the Undercity's Magic Quarter."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Recruiting an independent, master-level necromancer like Gunther significantly fortifies the Horde's magical standing in the Eastern Kingdoms."
+  }
+ ],
+ "keywords": [
+  "arcanus",
+  "bethor",
+  "brightwater lake",
+  "gunther",
+  "iceshard",
+  "lich",
+  "nether gem",
+  "prodigal",
+  "undercity"
+ ],
+ "related": [
+  "npc:gunther-arcanus",
+  "npc:bethor-iceshard",
+  "quest:409",
+  "zone:undercity",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "The Prodigal Lich Returns"
+ ]
+}

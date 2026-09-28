@@ -1,0 +1,95 @@
+{
+ "key": "subzone:ironforge",
+ "type": "subzone",
+ "name": "Ironforge",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Ironforge"
+ },
+ "summary": "Ironforge is the underground capital city of the dwarves, excavated deep into the stone of Ironforge Mountain within Dun Morogh. Centered around the roaring Great Forge, it serves as the political and mercantile anchor of the Kingdom of Khaz Modan and a bulwark of the Alliance.",
+ "sections": [
+  {
+   "title": "The Mountain Fortress",
+   "body": "Carved into the subterranean depths of Ironforge Mountain, the city is arranged in concentric stone rings radiating out from the monumental Great Forge. Originally founded millenia ago after the dwarves awakened and migrated from Uldaman, it has weathered ages of history, including the ancient War of the Three Hammers that left the Bronzebeard clan in sole control. Powered by cascading torrents of molten magma and fortified behind massive stone gates, the cavern city is equal parts industrial powerhouse and impenetrable bastion. Beyond dwarven craftsmen and warriors, its halls also host a substantial population of exiled gnomes following the recent fall of Gnomeregan.",
+   "spoiler": 0
+  },
+  {
+   "title": "Heart of Alliance Trade",
+   "body": "In 25 ADP, Ironforge stands as perhaps the busiest center of commerce and industry across the Alliance. King Magni Bronzebeard presides over Khaz Modan from the High Seat, while dwarven prospectors, miners, and engineers work in concert with gnome refugees settled in Tinker Town. The subterranean Deeprun Tram establishes an unbroken, high-speed transit line beneath the mountains directly to Stormwind City, keeping both capitals tightly linked through trade, troop movements, and mutual defense.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules Ironforge right now?",
+   "aliases": [
+    "who is the king of ironforge",
+    "ironforge leader",
+    "who leads ironforge"
+   ],
+   "answer": "Ironforge is ruled by King Magni Bronzebeard, who holds court from the High Seat. The city serves as the seat of the Kingdom of Khaz Modan under the sole leadership of the Bronzebeard clan."
+  },
+  {
+   "q": "Why are there so many gnomes living in Ironforge?",
+   "aliases": [
+    "why are gnomes in ironforge",
+    "gnomes tinker town",
+    "where did gnomes come from"
+   ],
+   "answer": "Following the disastrous fall and radiation of their nearby capital city, Gnomeregan, the surviving gnomes fled to Ironforge. The Bronzebeards welcomed their longtime allies, giving them sanctuary within the district known as Tinker Town."
+  },
+  {
+   "q": "How does Ironforge connect to Stormwind City?",
+   "aliases": [
+    "tram to stormwind",
+    "how to get to stormwind",
+    "subway to stormwind"
+   ],
+   "answer": "Ironforge connects directly to Stormwind through the Deeprun Tram, an engineering marvel constructed by gnomes that runs underground from Tinker Town all the way to Stormwind's Dwarven District."
+  },
+  {
+   "q": "What is the Great Forge in the center of the city?",
+   "aliases": [
+    "giant forge in ironforge",
+    "what is the great forge",
+    "lava in ironforge center"
+   ],
+   "answer": "The Great Forge is an immense furnace fueled by natural rivers of magma channeled straight through the heart of the mountain. It serves as the primary smithing and smelting center for the Kingdom of Khaz Modan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Ironforge is the ancestral capital and heart of the Bronzebeard clan, where dwarven craft, valor, and history are carved directly into living mountain stone."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Having lost Gnomeregan to troggs and radiation, gnomes have made Tinker Town their temporary refuge and the staging ground for their reclamation efforts."
+  }
+ ],
+ "keywords": [
+  "bronzebeard",
+  "deeprun tram",
+  "dun morogh",
+  "great forge",
+  "high seat",
+  "ironforge",
+  "khaz modan",
+  "magni",
+  "tinker town"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "subzone:great-forge",
+  "subzone:high-seat",
+  "subzone:tinker-town",
+  "subzone:deeprun-tram",
+  "topic:bronzebeard-clan",
+  "zone:gnomeregan",
+  "zone:stormwind"
+ ],
+ "attribution": [
+  "Ironforge"
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "key": "subzone:southmoon-ruins",
+ "type": "subzone",
+ "name": "Southmoon Ruins",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Southmoon Ruins"
+ },
+ "summary": "The Southmoon Ruins are ancient stone remains situated in southern Tanaris, just north of the Valley of the Watchers. Long claimed by the brutish Dunemaul ogres, the crumbling stonework preserves remnants of the ancient troll civilization that dominated the desert before the sands swallowed it.",
+ "sections": [
+  {
+   "title": "Stones in the Shifting Sands",
+   "body": "Rising out of the blistering wastes of southern Tanaris, the Southmoon Ruins stand as a weathered testament to the ancient troll empires that once ruled Kalimdor's southern reaches. Like nearby Eastmoon and Noonshade, its stone pillars and altars have weathered thousands of years of wind and abrasive grit. The site has often served as a squalid camp for the Dunemaul ogres, who show little reverence for the craftsmanship of the past, using the ancient structures purely for shelter and territory.",
+   "spoiler": 0
+  },
+  {
+   "title": "Secrets Beneath the Rubble",
+   "body": "While the architectural remnants are unmistakably trollish, the deeper mystery of Southmoon lies in what may be buried beneath. Ancient tablets found across Tanaris hint that long before the trolls settled here, older creators left their marks upon the earth. Scholars and archaeologists drawn toward the nearby Valley of the Watchers look at sites like Southmoon as keys to unraveling the continent's earliest beginnings, searching for relics and inscriptions lost among the desert sands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who originally built the Southmoon Ruins?",
+   "aliases": [
+    "who built southmoon",
+    "southmoon history",
+    "are these troll ruins"
+   ],
+   "answer": "The Southmoon Ruins were built thousands of years ago by the ancient Farraki sand trolls, whose empire once dominated southern Kalimdor before the Great Sundering shattered the continent and turned the region into the arid expanse of Tanaris."
+  },
+  {
+   "q": "Who inhabits the ruins currently?",
+   "aliases": [
+    "who lives here",
+    "southmoon mobs",
+    "dunemaul at southmoon"
+   ],
+   "answer": "The ruins have traditionally been occupied by the Dunemaul ogres, who wandered down into Tanaris and claimed various crumbling ancient outposts as their encampments, driving off other scavengers."
+  },
+  {
+   "q": "Why are archaeologists interested in these ruins?",
+   "aliases": [
+    "why do dwarves care",
+    "what is buried here",
+    "southmoon artifacts"
+   ],
+   "answer": "Beyond their troll origins, ruins in southern Tanaris frequently conceal much older relics, including carvings and tablets believed to date back to the Titans. Historians and excavators search these sites hoping to recover ancient knowledge buried beneath centuries of sand."
+  },
+  {
+   "q": "Where are the Southmoon Ruins located?",
+   "aliases": [
+    "southmoon location",
+    "where is southmoon ruins",
+    "how to find southmoon"
+   ],
+   "answer": "They lie in the southern half of Tanaris, situated northwest of the Valley of the Watchers and south of the central desert wastes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven excavators look closely at any ruins bordering the Valley of the Watchers, ever watchful for inscriptions linked to Titan origins buried beneath the troll stonework."
+  },
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls, these broken columns are a sobering look at the fallen grandeur of their distant Farraki cousins, reduced to squalor beneath the desert sun."
+  }
+ ],
+ "keywords": [
+  "dunemaul",
+  "farraki",
+  "ruins",
+  "southmoon",
+  "southmoon ruins",
+  "tanaris",
+  "valley of the watchers"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:valley-of-the-watchers",
+  "topic:explorers-league",
+  "topic:troll",
+  "topic:titan"
+ ],
+ "attribution": [
+  "Southmoon Ruins"
+ ]
+}

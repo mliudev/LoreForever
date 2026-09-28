@@ -1,0 +1,91 @@
+{
+ "key": "subzone:valley-of-strength",
+ "type": "subzone",
+ "name": "Valley of Strength",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Valley of Strength"
+ },
+ "summary": "The Valley of Strength is the bustling central commons of Orgrimmar, greeting all who pass through the city's towering front gates. Housing the city bank, the central auction house, and the Broken Tusk inn, it serves as the beating commercial and administrative heart of the Horde capital.",
+ "sections": [
+  {
+   "title": "The Gates of the City",
+   "body": "Step past the fortified timber gates of Orgrimmar and you enter the Valley of Strength. Carved deep into the red canyon rock of Durotar, this valley serves as the Horde's front square. Adventurers, merchants, and warriors from all allied nations mingle across its dusty plazas, swapping war stories over flagons from the Broken Tusk inn or attending to vital trade at the central bank and auction house. Overlooked by the great fortress of Grommash Hold, it is a bustling testament to the strength and unity the orcs fought to establish in their new homeland.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hub of Trade and Command",
+   "body": "Beyond its defensive significance, the valley functions as the capital's foremost marketplace. Armories such as Naros' provide blacksmithing anvils and raw ore, while various vendors supply provisions for long treks across the Barrens. Grunts stand vigilant watch at every corner, directing newcomers and ensuring order among the diverse peoples who have taken refuge beneath Thrall's banner.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Valley of Strength?",
+   "aliases": [
+    "valley of strength overview",
+    "what is this place",
+    "orgrimmar entrance area"
+   ],
+   "answer": "It is the primary entryway and central valley of Orgrimmar, located just inside the city's main gates. It contains essential urban services such as the bank, auction house, general goods merchants, and the Broken Tusk inn."
+  },
+  {
+   "q": "Where is Grommash Hold located relative to this valley?",
+   "aliases": [
+    "where is thrall",
+    "grommash hold location",
+    "warchief seat"
+   ],
+   "answer": "Grommash Hold sits perched directly at the rear of the Valley of Strength, serving as the seat of Warchief Thrall and the Horde's high command."
+  },
+  {
+   "q": "What services can I find here?",
+   "aliases": [
+    "valley of strength amenities",
+    "vendors valley of strength",
+    "what's here"
+   ],
+   "answer": "The valley houses the city's primary bank, the auction house, trade supplies, blacksmithing and mining trainers at Naros' Armory, lodging at the Broken Tusk, and general trade goods."
+  },
+  {
+   "q": "Who guards the Valley of Strength?",
+   "aliases": [
+    "orgrimmar grunts",
+    "guards in valley of strength",
+    "city defense"
+   ],
+   "answer": "The valley is heavily patrolled by Orgrimmar Grunts, seasoned orc warriors who maintain peace, protect incoming caravans, and direct travelers through the labyrinthine canyon city."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As the primary plaza inside Orgrimmar's gates, the Valley of Strength is the first place Horde travelers meet to trade, recruit for expeditions, and pay respects before the seat of the Warchief."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Naros' Armory in the valley provides anvils, forges, and skilled training for smiths outfitting the warriors of the Horde."
+  }
+ ],
+ "keywords": [
+  "auction house",
+  "bank",
+  "broken tusk",
+  "durotar",
+  "grommash hold",
+  "horde",
+  "orgrimmar",
+  "thrall",
+  "valley of strength"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "subzone:grommash-hold",
+  "subzone:broken-tusk",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Valley of Strength"
+ ]
+}

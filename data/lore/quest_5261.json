@@ -1,0 +1,112 @@
+{
+ "key": "quest:5261",
+ "type": "quest",
+ "name": "Eagan Peltskinner",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   5261
+  ],
+  "level": "2",
+  "faction": "Alliance",
+  "start": "",
+  "end": "",
+  "previous": "A Threat Within",
+  "next": "Wolves Across the Border",
+  "wiki": "Eagan Peltskinner (quest)",
+  "chain": []
+ },
+ "summary": "This brief introductory task directs newly arrived recruits in Northshire Valley to speak with Eagan Peltskinner, a local furrier stationed outside Northshire Abbey. With predator numbers swelling along the valley's fringes, Eagan requires capable adventurers to hunt timber wolves and gather pelts.",
+ "sections": [
+  {
+   "title": "A Word with the Furrier",
+   "body": "Northshire Valley may appear pastoral, but its quiet orchards and fields are bordered by wild woods crawling with timber wolves. Deputy Willem often directs recruits outside the abbey's walls to Eagan Peltskinner, who works nearby on the abbey grounds. Eagan is eager to put newcomers to work thinning the aggressive packs while securing valuable pelts for his craft.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trouble on the Perimeter",
+   "body": "The rising wolf population around Northshire is more than an annoyance; it threatens workers, acolytes, and supply lines moving in and out of the valley. Directing young champions to Eagan serves a dual purpose for Stormwind's marshals: it keeps the nearby paths safe without tying up the garrison's few remaining guards, who already face rising tensions across Elwynn Forest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to speak with Eagan Peltskinner?",
+   "aliases": [
+    "who gives this quest",
+    "who starts eagan peltskinner quest"
+   ],
+   "answer": "Deputy Willem, stationed just outside the entrance to Northshire Abbey, directs promising recruits to speak with Eagan after introducing them to the valley's security concerns."
+  },
+  {
+   "q": "Where is Eagan Peltskinner located?",
+   "aliases": [
+    "where is eagan",
+    "eagan peltskinner location",
+    "find eagan"
+   ],
+   "answer": "Eagan Peltskinner stands near the exterior walls of Northshire Abbey, situated around the left side of the main building among his drying racks and gear."
+  },
+  {
+   "q": "What does Eagan Peltskinner need help with?",
+   "aliases": [
+    "what does eagan want",
+    "why hunt wolves",
+    "eagan purpose"
+   ],
+   "answer": "Eagan is looking for an adventurer willing to hunt the aggressive timber wolves prowling the surrounding woods and bring back their pelts, which helps clear the perimeter of Northshire."
+  },
+  {
+   "q": "Can you skip this quest and talk to Eagan directly?",
+   "aliases": [
+    "can i skip eagan quest",
+    "wolves across the border directly"
+   ],
+   "answer": "Yes. Eagan offers his hunting task directly to anyone who approaches him. Taking this referral quest first simply provides a formal introduction from Deputy Willem."
+  },
+  {
+   "q": "Why are there so many wolves in Northshire Valley?",
+   "aliases": [
+    "why wolves in northshire",
+    "wolf problem elwynn"
+   ],
+   "answer": "Northshire Valley borders dense, untamed woodlands where timber wolves roam freely. With local guards stretched thin and preoccupied by other threats across the kingdom, the wild predator population has grown unchecked."
+  },
+  {
+   "q": "What task follows speaking with Eagan Peltskinner?",
+   "aliases": [
+    "next quest after eagan",
+    "what does eagan offer next"
+   ],
+   "answer": "Speaking with Eagan leads immediately into his request to hunt timber wolves across the border of the abbey grounds and collect their tough pelts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Every small task in Northshire contributes to securing Stormwind's home territory while the kingdom's core army remains stretched thin elsewhere."
+  },
+  {
+   "target": "race:Human",
+   "text": "For young humans stepping out from Northshire Abbey, aiding local tradesfolk like Eagan is their very first lesson in defending their homeland."
+  }
+ ],
+ "keywords": [
+  "deputy willem",
+  "eagan peltskinner",
+  "northshire abbey",
+  "northshire valley",
+  "timber wolves",
+  "wolves across the border"
+ ],
+ "related": [
+  "quest:783",
+  "quest:33",
+  "subzone:northshire-valley",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Eagan Peltskinner (quest)"
+ ]
+}

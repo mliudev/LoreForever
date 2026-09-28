@@ -1,0 +1,118 @@
+{
+ "key": "quest:8725",
+ "type": "quest",
+ "name": "Riversong the Elder",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   8725
+  ],
+  "level": "",
+  "faction": null,
+  "start": "Elder Riversong",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Riversong the Elder",
+  "chain": []
+ },
+ "summary": "Elder Riversong is an ancestral night elf spirit honored during the Lunar Festival, found resting beneath a quiet shrine in Astranaar. Bathed in a beam of moonlight, he offers quiet wisdom to travelers and directs pilgrims toward other revered ancestors across the lands of Kalimdor.",
+ "sections": [
+  {
+   "title": "A Beacon in Astranaar",
+   "body": "Amid the ancient boughs and wooden walkways of Astranaar, Elder Riversong appears under an open night elf shrine. Marked by a distinct column of celestial light piercing the Ashenvale canopy, his ethereal presence serves as a focal point for participants in the Lunar Festival seeking communion with past generations.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gazing at the Heavens",
+   "body": "Elder Riversong reminds pilgrims of the ancient night elven tradition of reading truth and mystery in the starry sky. His words direct travelers to seek wisdom through patience and contemplation, guiding those honoring the season on toward fellow spirits, including Elder Starweave.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Elder Riversong?",
+   "aliases": [
+    "riversong location",
+    "where is riversong",
+    "elder riversong loc"
+   ],
+   "answer": "Elder Riversong stands inside the settlement of Astranaar in Ashenvale. He is situated under a small night elf shrine, bathed in a bright beam of starlight descending through the forest canopy."
+  },
+  {
+   "q": "What is the purpose of visiting Elder Riversong?",
+   "aliases": [
+    "why visit riversong",
+    "what does riversong do"
+   ],
+   "answer": "Visiting Elder Riversong is part of honoring the ancestors during the Lunar Festival. Speaking with him grants an ancestral blessing and coins of ancestry, while also offering guidance on locating other elders across Kalimdor."
+  },
+  {
+   "q": "Which elder does Riversong direct you toward?",
+   "aliases": [
+    "next elder after riversong",
+    "who does riversong mention"
+   ],
+   "answer": "Elder Riversong points seekers toward Elder Starweave, another honored night elf spirit observing the festival."
+  },
+  {
+   "q": "Can Horde players speak to Elder Riversong?",
+   "aliases": [
+    "can horde visit riversong",
+    "is riversong alliance only"
+   ],
+   "answer": "Because Elder Riversong resides directly inside Astranaar, an Alliance hub, Horde players must contend with town guards and sentinels to approach him, though festival elders themselves do not refuse communion based on faction."
+  },
+  {
+   "q": "Why is Elder Riversong surrounded by a beam of light?",
+   "aliases": [
+    "why does riversong glow",
+    "light on riversong"
+   ],
+   "answer": "The shaft of celestial light represents the favor of Elune and the heavens, illuminating every ancestral spirit who manifests during the Lunar Festival."
+  },
+  {
+   "q": "What does Elder Riversong say when honored?",
+   "aliases": [
+    "riversong quote",
+    "riversong dialogue"
+   ],
+   "answer": "Elder Riversong reflects on the cosmos, observing that the countless stars in the heavens hold answers to earthly mysteries, and asks if the wise and lucky might gaze upward to find truth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, honoring Elder Riversong beneath an Astranaar shrine is an intimate act of communion with their people's long history under the stars of Ashenvale."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Astranaar is one of the Alliance's primary strongholds in central Kalimdor, making Elder Riversong an easy and welcome visit for Alliance pilgrims during the Lunar Festival."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The Lunar Festival and its celestial elders embody the ancient Cenarion bond with nature, spirits, and the night sky."
+  }
+ ],
+ "keywords": [
+  "ancestor",
+  "ashenvale",
+  "astranaar",
+  "elder",
+  "lunar festival",
+  "riversong",
+  "shrine",
+  "starweave"
+ ],
+ "related": [
+  "subzone:astranaar",
+  "zone:ashenvale",
+  "npc:elder-starweave",
+  "topic:night-elf",
+  "topic:light"
+ ],
+ "attribution": [
+  "Riversong the Elder"
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "key": "quest:1650",
+ "type": "quest",
+ "name": "The Tome of Valor",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1650
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Duthorian Rall",
+  "end": "Daphne Stilwell",
+  "previous": "The Tome of Valor (2)",
+  "next": "The Tome of Valor (4)",
+  "wiki": "The Tome of Valor (3)",
+  "chain": []
+ },
+ "summary": "This quest represents the second trial in the paladin's pursuit of the Tome of Valor. Duthorian Rall dispatches knights to the distant shores of Westfall to shield Daphne Stilwell, a secluded homesteader left vulnerable to surrounding Defias bandits.",
+ "sections": [
+  {
+   "title": "A Call to Arms",
+   "body": "Within the Cathedral of Light, Duthorian Rall tests aspiring paladins not merely through scripture or solitary devotion, but through the direct defense of the realm's people. Having embraced the mantle of valor, paladins are immediately tasked with putting their ideals into practice where authority and law have broken down.",
+   "spoiler": 0
+  },
+  {
+   "title": "Peril on the Longshore",
+   "body": "The destination is the isolated Longshore of Westfall, where Daphne Stilwell and her husband Jordan maintain an outpost against the ocean. With Jordan away in Ironforge consulting dwarven blacksmiths, Daphne has been left on her own amid rampant Defias Brotherhood activity. Duthorian orders the paladin to ride westward and stand as her shield before the thieves overwhelm her solitary homestead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Daphne Stilwell alone in Westfall?",
+   "aliases": [
+    "where is daphnes husband",
+    "why is jordan stilwell gone",
+    "daphne stilwell alone"
+   ],
+   "answer": "Her husband, Jordan Stilwell, is a renowned blacksmith who traveled to the dwarven kingdom of Ironforge to consult with fellow smiths. His absence left Daphne to defend their coastal property unassisted amid growing Defias attacks."
+  },
+  {
+   "q": "Who assigns this task to the paladin?",
+   "aliases": [
+    "who gives tome of valor 1650",
+    "quest giver tome of valor",
+    "duthorian rall quest"
+   ],
+   "answer": "Duthorian Rall, a leading paladin trainer and preceptor within Stormwind's Cathedral of Light, gives the order once you prove ready to undertake the trials of valor."
+  },
+  {
+   "q": "Where can Daphne Stilwell be found?",
+   "aliases": [
+    "where is daphne stilwell",
+    "daphne stilwell location",
+    "find daphne stilwell"
+   ],
+   "answer": "She resides in a small cottage on the far southern reaches of the Longshore, perched along the coastline of southwestern Westfall."
+  },
+  {
+   "q": "Is Daphne completely helpless when you arrive?",
+   "aliases": [
+    "can daphne fight",
+    "is daphne defenseless",
+    "daphne stilwell fighting"
+   ],
+   "answer": "Not in the slightest. By the time a paladin reaches her porch, Daphne has already personally dispatched half a dozen Defias bandits with her own weapon while holding down the homestead."
+  },
+  {
+   "q": "What threat is menacing the Stilwell home?",
+   "aliases": [
+    "who is attacking daphne",
+    "defias in westfall",
+    "enemies at stilwell farm"
+   ],
+   "answer": "The Defias Brotherhood has overrun much of Westfall and continually harasses the isolated coastal homestead, attempting to claim the land and plunder what remains."
+  },
+  {
+   "q": "How does this task fit into the Tome of Valor chain?",
+   "aliases": [
+    "why do i have to help daphne",
+    "tome of valor trial purpose",
+    "meaning of this quest"
+   ],
+   "answer": "Valor in the paladin tradition is measured by proactive sacrifice and the defense of the defenseless. Standing between Daphne and marauding bandits provides a practical demonstration of righteousness in action."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "This mission forms a core right of passage for young paladins, requiring them to leave the safety of Stormwind's Cathedral and prove their valor by guarding the defenseless."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Stilwell homestead's plight underscores how far Westfall has fallen from Stormwind's direct protection, leaving rural citizens to fend off the Defias alone."
+  }
+ ],
+ "keywords": [
+  "daphne stilwell",
+  "defias brotherhood",
+  "duthorian rall",
+  "jordan stilwell",
+  "longshore",
+  "stormwind",
+  "tome of valor",
+  "westfall"
+ ],
+ "related": [
+  "npc:duthorian-rall",
+  "npc:daphne-stilwell",
+  "subzone:longshore",
+  "zone:westfall",
+  "zone:ironforge",
+  "quest:1649"
+ ],
+ "attribution": [
+  "The Tome of Valor (3)"
+ ]
+}

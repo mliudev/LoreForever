@@ -1,0 +1,126 @@
+{
+ "key": "quest:843",
+ "type": "quest",
+ "name": "Gann's Reclamation",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   843
+  ],
+  "level": "23",
+  "faction": "Horde",
+  "start": "",
+  "end": "",
+  "previous": null,
+  "next": "Revenge of Gann",
+  "wiki": "Gann's Reclamation",
+  "chain": [
+   "Gann's Reclamation",
+   "Revenge of Gann",
+   "Revenge of Gann (2)"
+  ]
+ },
+ "summary": "Gann's Reclamation is a Horde quest offered by the wandering tauren exile Gann Stonespire in the southern Barrens. Deeply aggrieved by the dwarven archaeological dig at Bael Modan that displaced his tribe, Gann enlists travelers to strike back by slaying the site's workers and retrieving their leader's journal.",
+ "sections": [
+  {
+   "title": "A Displaced Tribe",
+   "body": "Before the Prospector's cannons and pickaxes broke the earth, the red bluffs south of the Barrens were the ancestral birthplace and hunting grounds of Gann Stonespire's clan. When the Explorers' League arrived from Ironforge to establish Bael Modan, the tauren were violently pushed out or killed to make room for massive quarries and trenches. With peaceful protests ignored and diplomacy exhausted, Gann now walks the dust of the southern road in solitude, plotting a bloody restitution for his fallen kin.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ruins of Bael Modan",
+   "body": "The dwarven operation at Bael Modan spares little thought for the land or its stewards. Ripping open hillsides with steam engines and heavy explosives, the expedition under Prospector Khazgorm tore deep into the earth searching for ancient Titan relics. Gann's task is simple and uncompromising: thin the ranks of the Bael'dun excavators and foremen tearing up the sacred soil, slay Khazgorm himself, and seize the prospector's personal excavation notes to discover what the Alliance invaders are truly after.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gann Stonespire?",
+   "aliases": [
+    "gann",
+    "who gives gann's reclamation",
+    "gann stonespire lore"
+   ],
+   "answer": "Gann Stonespire is a solitary tauren survivor whose tribe once lived in the southern Barrens. After dwarven excavators displaced his people and killed those who resisted, Gann took to pacing the southern highway, seeking justice and revenge against the encroaching Alliance dig site."
+  },
+  {
+   "q": "Why are the dwarves in the Barrens?",
+   "aliases": [
+    "why are dwarves at bael modan",
+    "bael modan purpose",
+    "ironforge in barrens"
+   ],
+   "answer": "The dwarves belong to the Bael'dun expedition sent by the Ironforge Explorers' League. Driven by the recent discovery of their Titan heritage, they established Bael Modan to excavate ancient buried relics and ruins, showing complete disregard for the native tauren inhabitants."
+  },
+  {
+   "q": "Who is Prospector Khazgorm?",
+   "aliases": [
+    "khazgorm",
+    "prospector khazgorm",
+    "bael modan leader"
+   ],
+   "answer": "Prospector Khazgorm is the dwarven leader directing the excavation operations in the dig site south of the Bael Modan fortress. Gann considers him directly responsible for the desecration of his ancestral grounds and demands his journal as proof of his death."
+  },
+  {
+   "q": "Where can Gann Stonespire be found?",
+   "aliases": [
+    "gann location",
+    "find gann",
+    "where is gann"
+   ],
+   "answer": "Gann Stonespire paces along the road in the far southern Barrens, west of the Bael Modan fortress and north of the road leading toward the Great Lift and Thousand Needles."
+  },
+  {
+   "q": "Did Gann try to resolve this peacefully?",
+   "aliases": [
+    "did tauren try diplomacy",
+    "gann diplomacy"
+   ],
+   "answer": "Yes. Gann explicitly states that diplomatic avenues were attempted to stop the destruction of his ancestral lands, but the dwarves dismissed these efforts and continued blasting open the hills, forcing him to resort to violence."
+  },
+  {
+   "q": "What happens after this quest?",
+   "aliases": [
+    "next quest after gann's reclamation",
+    "gann follow up"
+   ],
+   "answer": "After receiving Khazgorm's journal, Gann studies the notes to understand the dwarves' technology and plans, leading directly into the quest chain 'Revenge of Gann' to sabotage their heavy machinery."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the Shu'halo, Gann's plight is an infuriating reminder of how little the Alliance respects the Earth Mother, using dynamite and iron gears to tear apart ancestral burial grounds."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Bael Modan represents a fortified Alliance stronghold deep inside Kalimdor territory, making the defense of Gann's claim both an act of honor and strategic containment."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The explosive blasting and deep trenching at Bael Modan wound the surrounding earth spirits, making Gann's campaign a necessary cleansing of elemental disruption."
+  }
+ ],
+ "keywords": [
+  "bael modan",
+  "bael'dun",
+  "dwarf dig site",
+  "explorers' league",
+  "gann stonespire",
+  "khazgorm",
+  "southern barrens"
+ ],
+ "related": [
+  "npc:gann-stonespire",
+  "quest:846",
+  "subzone:bael-modan",
+  "zone:barrens",
+  "topic:tauren",
+  "topic:dwarf",
+  "subzone:razorfen-downs-classic"
+ ],
+ "attribution": [
+  "Gann's Reclamation"
+ ]
+}

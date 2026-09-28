@@ -1,0 +1,131 @@
+{
+ "key": "quest:1432",
+ "type": "quest",
+ "name": "Alliance Relations",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   1432
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Keldran",
+  "end": "Takata Steelblade",
+  "previous": "Alliance Relations",
+  "next": "Alliance Relations (3)",
+  "wiki": "Alliance Relations (2)",
+  "chain": []
+ },
+ "summary": "Alliance Relations is a Horde assignment dispatched from Orgrimmar to Desolace to prevent dangerous political fallout. With the Alliance pushing deeper into central Kalimdor, the Horde moves proactively to purge regional Burning Legion forces before rivals can accuse Thrall's people of renewed demonic corruption.",
+ "sections": [
+  {
+   "title": "A Matter of Perception",
+   "body": "As Alliance scouts and expeditions venture across Kalimdor, Horde leadership faces a delicate diplomatic threat. The presence of demonic remnants scattered across central Kalimdor risks confirming old prejudices that the orcs and their allies remain in league with the Burning Legion. Acting with Warchief Thrall's sanction, Keldran in Orgrimmar oversees targeted operations to ensure these demonic remnants are wiped out before hostile Alliance factions can twist their presence into justification for war.",
+   "spoiler": 0
+  },
+  {
+   "title": "Outpost in the Wastes",
+   "body": "Carrying orders southward requires passing through the Charred Vale of the Stonetalon Mountains down into the bleak expanse of Desolace. There, just north of the vast Kodo Graveyard, lies Ghost Walker Post. Horde agents like Takata Steelblade monitor the desolate wilderness, navigating both the rampant centaur tribes and the pervasive demonic corruption that threatens to overrun the region.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pragmatic Alliances",
+   "body": "Takata Steelblade regards the assignment with grim pragmatism. Though wiping out the local demons inevitably relieves pressure on the violent native centaur tribes and even assists the Horde's resident warlocks, the duty takes precedence. Eliminating the Burning Legion's footholds serves the broader security of the Horde, regardless of who else might profit from the culling.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Horde concerned about the Alliance here?",
+   "aliases": [
+    "why worry about alliance",
+    "horde alliance relations desolace",
+    "alliance accusations"
+   ],
+   "answer": "As Alliance forces advance across Kalimdor, Horde leadership worries that active demon infestations might be used as proof that the Horde still consorts with the Burning Legion. By actively purging local demons, the Horde seeks to disarm those accusations."
+  },
+  {
+   "q": "Who is Keldran?",
+   "aliases": [
+    "keldran",
+    "who is keldran",
+    "keldran orgrimmar"
+   ],
+   "answer": "Keldran is a Horde operative based in Orgrimmar who oversees specialized missions with the Warchief's approval, focused on eliminating demonic elements that endanger the Horde's standing."
+  },
+  {
+   "q": "Where is Ghost Walker Post located?",
+   "aliases": [
+    "ghost walker post location",
+    "where is takata steelblade",
+    "finding ghost walker post"
+   ],
+   "answer": "Ghost Walker Post is an encampment in northern Desolace, situated directly south of the pass from the Charred Vale in the Stonetalon Mountains and just north of the Kodo Graveyard."
+  },
+  {
+   "q": "Who is Takata Steelblade?",
+   "aliases": [
+    "takata steelblade",
+    "who is steelblade",
+    "steelblade desolace"
+   ],
+   "answer": "Takata Steelblade is a Horde soldier stationed at Ghost Walker Post in Desolace, tasked with keeping regional threats like demons and hostile centaur in check on behalf of the Warchief."
+  },
+  {
+   "q": "Why does Takata mention aiding the centaur?",
+   "aliases": [
+    "helping centaur",
+    "centaur desolace",
+    "why aid centaur"
+   ],
+   "answer": "The centaur claim Desolace as their territory but lack the strength to contain the growing demon threat. By culling the local demons, the Horde unintentionally helps the centaur survive, a compromise Takata accepts purely for the Horde's greater security."
+  },
+  {
+   "q": "How do warlocks tie into this mission?",
+   "aliases": [
+    "warlock connection",
+    "why help warlocks",
+    "warlocks in the horde"
+   ],
+   "answer": "While the mission roots out wild demons, Takata notes with some distaste that clearing demonic reagents and influence inevitably intersects with and assists the controversial warlocks who operate within the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The mission reflects Warchief Thrall's ongoing struggle to legitimize the new Horde and bury the legacy of demonic servitude before hostile neighbors can exploit it."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "While regular soldiers like Takata Steelblade view dark powers with suspicion, operations targeting wild demons frequently cross paths with the Horde's pragmatic use of warlock practitioners."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs striving to honor Thrall's vision of redemption, any lingering hint of demonic taint in Kalimdor is a bitter threat to their hard-won freedom."
+  }
+ ],
+ "keywords": [
+  "alliance relations",
+  "burning legion",
+  "charred vale",
+  "desolace",
+  "ghost walker post",
+  "keldran",
+  "kodo graveyard",
+  "takata steelblade"
+ ],
+ "related": [
+  "quest:1431",
+  "npc:keldran",
+  "npc:takata-steelblade",
+  "subzone:ghost-walker-post",
+  "zone:desolace",
+  "topic:burning-legion",
+  "subzone:charred-vale",
+  "subzone:kodo-graveyard"
+ ],
+ "attribution": [
+  "Alliance Relations (2)"
+ ]
+}

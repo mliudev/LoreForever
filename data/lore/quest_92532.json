@@ -1,0 +1,112 @@
+{
+ "key": "quest:92532",
+ "type": "quest",
+ "name": "The Warrior's Path",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92532
+  ],
+  "level": "2",
+  "faction": null,
+  "start": "Rorian the Dayseeker",
+  "end": "Blademaster Ren",
+  "previous": "Harmony in Balance",
+  "next": null,
+  "wiki": "The Warrior's Path",
+  "chain": []
+ },
+ "summary": "The Warrior's Path is an introductory martial quest offered to budding fighters on Zephras Isle. Following instructions delivered through Rorian the Dayseeker, young warriors are directed to Blademaster Ren in the Thendal Village watchtower. Ren stands ready to offer combat instruction and discipline to those prepared to shield their people.",
+ "sections": [
+  {
+   "title": "A Summons to the Watchtower",
+   "body": "Upon returning to Rorian the Dayseeker in Thendal Village after restoring balance nearby, aspiring fighters receive word that the settlement's blademaster has taken notice of them. Rorian delivers a crumpled note penned by Ren herself, asking the novice to seek her out directly. Elevated above the settlement within the village watchtower, Ren keeps an observant eye over both the island's borders and the recruits who may one day defend them.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Mantle of Protection",
+   "body": "Reaching the watchtower introduces the warrior to Blademaster Ren's philosophy of combat. To Ren, martial mastery is not simply an exercise in brute strength, but a vital duty to lead, endure, and protect in an increasingly uncertain world. She pledges her guidance to the recruit as they hone their skills, offering rigorous training as they grow strong enough to face the greater perils threatening their home.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me to find Blademaster Ren?",
+   "aliases": [
+    "who starts this",
+    "quest giver",
+    "rorian role"
+   ],
+   "answer": "Rorian the Dayseeker directs you to Blademaster Ren after you complete tasks in Thendal Village. While you were away, Ren specifically requested that Rorian send you to her watchtower upon your return."
+  },
+  {
+   "q": "Where can I find Blademaster Ren?",
+   "aliases": [
+    "where is blademaster ren",
+    "ren location",
+    "thendal watchtower"
+   ],
+   "answer": "Blademaster Ren is located inside the watchtower in Thendal Village on Zephras Isle, where she oversees the village and trains novice combatants."
+  },
+  {
+   "q": "What is the Crumpled Note?",
+   "aliases": [
+    "crumpled note",
+    "what does note say",
+    "ren note"
+   ],
+   "answer": "The Crumpled Note is a personal summons delivered to you by Rorian on behalf of Blademaster Ren, instructing you to read it and report to the Thendal Village watchtower for formal martial training."
+  },
+  {
+   "q": "What does Blademaster Ren teach young warriors?",
+   "aliases": [
+    "ren teaching",
+    "what does ren train",
+    "warrior purpose"
+   ],
+   "answer": "Blademaster Ren emphasizes vigilance, leadership, and protection. She reminds trainees that as the world shifts and perils mount, warriors must possess the will to stand between danger and their people."
+  },
+  {
+   "q": "Is this quest required for warrior training on Zephras Isle?",
+   "aliases": [
+    "do i have to do this",
+    "warrior trainer intro",
+    "is it mandatory"
+   ],
+   "answer": "It serves as the formal introduction to your class trainer in Thendal Village, pointing you directly to Blademaster Ren so you know where to return for future martial techniques."
+  },
+  {
+   "q": "What does Ren mean by 'may the winds guide you'?",
+   "aliases": [
+    "may the winds guide you meaning",
+    "wind quote",
+    "ren farewell"
+   ],
+   "answer": "This traditional blessing reflects the island culture of Zephras Isle, wishing travelers safe passage, focus, and fortune as they step out into unfamiliar and perilous territories."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This quest represents the formal beginning of your martial education in Thendal Village, introducing you to Blademaster Ren as your mentor."
+  }
+ ],
+ "keywords": [
+  "blademaster ren",
+  "crumpled note",
+  "rorian the dayseeker",
+  "thendal village",
+  "warrior's path",
+  "watchtower",
+  "zephras isle"
+ ],
+ "related": [
+  "npc:rorian-the-dayseeker",
+  "quest:92461",
+  "zone:zephras"
+ ],
+ "attribution": [
+  "The Warrior's Path"
+ ]
+}

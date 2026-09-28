@@ -1,0 +1,70 @@
+{
+ "key": "subzone:pyrewood-town-hall",
+ "type": "subzone",
+ "name": "Pyrewood Town Hall",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Pyrewood Town Hall"
+ },
+ "summary": "Pyrewood Town Hall is the prominent administrative building anchoring the northern side of Pyrewood Village in Silverpine Forest. Once the civic heart of the settlement, it now stands trapped in the town's grim day-to-night curse beneath the shadow of Shadowfang Keep.",
+ "sections": [
+  {
+   "title": "A Cursed Seat of Governance",
+   "body": "Situated at the northern edge of Pyrewood Village, the town hall was once a hub of rural Lordaeron administration and local hospitality. Today, it reflects the tragedy that has consumed the entire hamlet. By day, human villagers go about their business and guard the building against outsiders; by dusk, the curse takes hold, transforming the inhabitants into ravenous worgen prowling its floorboards.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happens inside the town hall at night?",
+   "aliases": [
+    "pyrewood town hall night",
+    "worgen in town hall",
+    "pyrewood town hall transformation"
+   ],
+   "answer": "Like the rest of Pyrewood Village, everyone inside the building transforms into feral worgen when the sun goes down. Travelers who find daylight shelter there will discover the occupants turning intensely hostile once dusk falls."
+  },
+  {
+   "q": "Why is the town hall important to the Forsaken?",
+   "aliases": [
+    "forsaken pyrewood town hall",
+    "horde pyrewood hall"
+   ],
+   "answer": "Pyrewood sits directly under Shadowfang Keep and guards the southern roads of Silverpine. The Forsaken keep a close eye on the settlement, treating its cursed town council and residents as both a localized threat and an obstacle to their control over the forest."
+  },
+  {
+   "q": "Where is the town hall located in the village?",
+   "aliases": [
+    "where is pyrewood town hall",
+    "town hall location pyrewood"
+   ],
+   "answer": "The town hall stands at the far northern end of Pyrewood Village, right at the back of the settlement beneath the cliffs leading toward the keep."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The cursed denizens of the town hall cling to their living forms by day, but the Forsaken view them as just another lingering remnant of Lordaeron waiting to be cleansed or exploited."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The villagers inside the hall still bear human forms in daylight, offering a haunting glimpse of survivors who have lost their freedom to the dark magic radiating from Arugal's keep."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "pyrewood",
+  "pyrewood village",
+  "silverpine",
+  "town hall",
+  "worgen"
+ ],
+ "related": [
+  "subzone:pyrewood-village",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Pyrewood Town Hall"
+ ]
+}

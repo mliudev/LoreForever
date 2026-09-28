@@ -1,0 +1,88 @@
+{
+ "key": "subzone:everlook",
+ "type": "subzone",
+ "name": "Everlook",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Everlook"
+ },
+ "summary": "Everlook is a snow-swept trading outpost in central Winterspring established by the Steamwheedle Cartel. Situated at the crossroads of the snowy valley's routes, it serves as a neutral haven for merchants, prospectors, and researchers braving the high-altitude cold.",
+ "sections": [
+  {
+   "title": "Commerce at the Edge of the World",
+   "body": "Everlook represents the Steamwheedle Cartel's northernmost endeavor, mirroring outposts like Gadgetzan and Booty Bay under a blanket of permafrost. The walled settlement perches at the intersection of Winterspring's snowdrifts, operating under strictly enforced neutrality. It hosts the only operational bank and shared auction house services in the region, drawing both Alliance and Horde travelers in search of warmth and shelter. Guarded by hired bruisers, the town offers refuge from ferocious frostsabers and yetis, though High Overlord Saurfang has noted that much of the town's lucrative inventory actually relies on unsanctioned smuggler runs routed through corrupted Felwood.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gears in the Tundra",
+   "body": "Beneath its icy wooden roofs and whimsical penguin wallpaper, Everlook is a hotbed of technological curiosity. It houses specialized engineering workshops and advanced alchemical laboratories where goblin tinkerers push the boundaries of their craft away from prying eyes. Outside diplomacy has also begun knocking on the frost-rimmed gates; the Argent Dawn recently dispatched Gregor Greystone here to negotiate directly with town leadership, keeping a wary watch on the region's ancient ruins and gathering northern threats.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Everlook?",
+   "aliases": [
+    "who runs everlook",
+    "everlook leader",
+    "who is in charge of everlook"
+   ],
+   "answer": "Everlook is owned and operated by the Steamwheedle Cartel. Unlike other goblin hubs governed by a solitary baron, local governance is informally handled by prominent merchants and workshop masters residing within the walls."
+  },
+  {
+   "q": "Why is Everlook safe for both Alliance and Horde?",
+   "aliases": [
+    "is everlook neutral",
+    "can horde and alliance visit everlook",
+    "everlook pvp rules"
+   ],
+   "answer": "The Steamwheedle Cartel enforces strict commercial neutrality. Goblin bruisers quickly pummel anyone caught instigating violence within the walls, ensuring travelers of all allegiances can conduct trade unhindered."
+  },
+  {
+   "q": "Why is the Argent Dawn in Everlook?",
+   "aliases": [
+    "what is argent dawn doing here",
+    "gregor greystone everlook",
+    "argent dawn winterspring"
+   ],
+   "answer": "The Argent Dawn maintains an official presence through emissary Gregor Greystone. He acts as their representative to the goblin merchants, securing access to regional supplies and monitoring local threats."
+  },
+  {
+   "q": "Where does Everlook get its trade goods?",
+   "aliases": [
+    "everlook smuggling",
+    "winterspring trade goods",
+    "where do everlook goods come from"
+   ],
+   "answer": "Beyond standard trade flights and surface caravans, town inventory is partly supplied through illicit smuggling routes winding out of the corrupted forests of Felwood, a fact known to veteran military observers like Varok Saurfang."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Everlook is a major hub for high-level engineers, particularly those specializing in goblin engineering, who can learn to calibrate an ultra-safe transporter directly to the settlement."
+  }
+ ],
+ "keywords": [
+  "everlook",
+  "goblin",
+  "gregor greystone",
+  "snow",
+  "steamwheedle cartel",
+  "trade outpost",
+  "winterspring"
+ ],
+ "related": [
+  "zone:winterspring",
+  "topic:steamwheedle-cartel",
+  "topic:goblin",
+  "zone:felwood",
+  "subzone:gadgetzan",
+  "npc:varok-saurfang",
+  "topic:argent-dawn"
+ ],
+ "attribution": [
+  "Everlook"
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "key": "quest:579",
+ "type": "quest",
+ "name": "Stormwind Library",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   579
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "Donyal Tovald",
+  "end": "Donyal Tovald",
+  "previous": null,
+  "next": null,
+  "wiki": "Stormwind Library",
+  "chain": []
+ },
+ "summary": "Deep within the Royal Library of Stormwind Keep, head librarian Donyal Tovald manages a collection of historical texts and regional accounts. By order of the young King Anduin Wrynn, funds have been allocated to transcribe copies of these works for citizens and scholars who bring official library scrips. This service allows adventurers to study the history, factions, and legends of Azeroth firsthand.",
+ "sections": [
+  {
+   "title": "A Royal Mandate for Knowledge",
+   "body": "While Highlord Bolvar Fordragon and Lady Katrana Prestor oversee defense and court politics in King Varian's absence, young King Anduin has directed royal resources toward education. Recognizing that understanding history is crucial for the kingdom's future, Anduin sponsored the transcribing of ancient manuscripts and historical journals. The Royal Library, nestled in the halls of Stormwind Keep, serves not merely as a royal vault for state secrets, but as a repository where documented lore is preserved and copied for those in royal service.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scrip Exchange",
+   "body": "Transcribing delicate parchment by hand requires significant time, ink, and royal sanction. To manage this distribution, the head librarian Donyal Tovald accepts official library scrips, issued to adventurers and scholars across Alliance territories. In exchange, Tovald provides faithful duplicates of historical tomes, covering everything from the ancient histories of the Eastern Kingdoms to accounts of distant lands, offering context for ongoing conflicts beyond the capital's walls.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Stormwind Library quest?",
+   "aliases": [
+    "what does this quest do",
+    "stormwind library quest purpose",
+    "why do this quest"
+   ],
+   "answer": "This quest allows you to turn in a Library Scrip to head librarian Donyal Tovald in exchange for readable lore books. It provides background history on various Alliance storylines, people, and regions throughout Azeroth."
+  },
+  {
+   "q": "Who is Donyal Tovald?",
+   "aliases": [
+    "who is donyal tovald",
+    "librarian stormwind",
+    "who gives the books"
+   ],
+   "answer": "Donyal Tovald is the librarian overseeing the Royal Library in Stormwind Keep. He manages the kingdom's collection of written histories and carries out King Anduin's directive to distribute copies to worthy scholars and adventurers."
+  },
+  {
+   "q": "Where do you obtain a Library Scrip?",
+   "aliases": [
+    "where do i get library scrip",
+    "how to get library scrip",
+    "library scrip source"
+   ],
+   "answer": "Library Scrips are awarded from specific quests across the Alliance territories when dealing with scholars, magistrates, or officials who reward research and curiosity about the wider world."
+  },
+  {
+   "q": "Why is young King Anduin funding the library?",
+   "aliases": [
+    "why does anduin care about books",
+    "anduin library funding",
+    "king anduin books"
+   ],
+   "answer": "King Anduin Wrynn places great personal value on learning and education. Even as a child ruling under the guidance of Regent Bolvar Fordragon, he dedicated royal funds to make copies of the kingdom's historical tomes accessible to the public."
+  },
+  {
+   "q": "Where is the library located in Stormwind?",
+   "aliases": [
+    "where is stormwind library",
+    "royal library location",
+    "where is donyal tovald located"
+   ],
+   "answer": "The Royal Library is located within Stormwind Keep, the massive fortress dominating the eastern portion of the city. You can find Donyal Tovald standing among the high shelves and reading tables inside."
+  },
+  {
+   "q": "Can I read the books I receive?",
+   "aliases": [
+    "are the books readable",
+    "can you open the books",
+    "do books do anything"
+   ],
+   "answer": "Yes. Each book received from the library is an in-game readable item that provides flavor, narrative background, and context for various legends and historical events across the Warcraft world."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For practitioners of the arcane, the Royal Library represents a vital secular archive in the kingdom, preserving non-magical historical accounts that complement the arcane studies conducted in the Mage Quarter."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The library preserves the shared triumphs and tragedies of the Alliance of Lordaeron, offering citizens a reminder of the historical bonds between humans, dwarves, gnomes, and high elves."
+  },
+  {
+   "target": "race:Human",
+   "text": "Having lost countless archives when Old Stormwind was sacked during the First War, human scholars place tremendous value on preserving and copying whatever histories survived the kingdom's rebuilding."
+  }
+ ],
+ "keywords": [
+  "anduin wrynn",
+  "books",
+  "donyal tovald",
+  "library scrip",
+  "lore tomes",
+  "stormwind keep",
+  "stormwind library",
+  "transcription"
+ ],
+ "related": [
+  "npc:donyal-tovald",
+  "subzone:library-ironforge",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Stormwind Library"
+ ]
+}

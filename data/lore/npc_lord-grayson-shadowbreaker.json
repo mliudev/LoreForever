@@ -1,0 +1,105 @@
+{
+ "key": "npc:lord-grayson-shadowbreaker",
+ "type": "npc",
+ "name": "Lord Grayson Shadowbreaker",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Lord Grayson Shadowbreaker",
+  "refs": 1
+ },
+ "summary": "Lord Grayson Shadowbreaker is a veteran paladin commander of the Knights of the Silver Hand stationed within Stormwind's Cathedral of Light. Recognizable by his towering build and missing right eye, he trains budding champions of the Light and oversees the sacred, arduous trials required for senior paladins to claim their holy chargers.",
+ "sections": [
+  {
+   "title": "Master of the Silver Hand",
+   "body": "Lord Grayson Shadowbreaker stands among the foremost defenders of the Alliance, anchoring the order's presence in Stormwind City. A veteran warrior who sacrificed his right eye in battle, Grayson does not merely instruct recruits in martial skill; he tests their spiritual conviction. When promising knights demonstrate their readiness, Grayson dispatches them north toward the contested front lines of the Western Plaguelands to aid Commander Ashlam Valorfist at Chillwind Camp.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Trials of the Holy Charger",
+   "body": "For paladins seeking their sacred warhorse, Shadowbreaker demands profound sacrifice and unquestioned virtue. His trials require humbling acts of charity\u2014such as aiding Ironforge's impoverished via High Priest Rohan\u2014as well as perilous journeys to exorcise Terrordale and cleanse ancient spirits within Dire Maul. The trial culminates in the dark depths of Scholomance, where an initiate must confront the death knight Darkreaver and redeem an unholy steed from servitude through the Light.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Lord Grayson Shadowbreaker?",
+   "aliases": [
+    "where is grayson shadowbreaker",
+    "shadowbreaker location",
+    "where is lord grayson"
+   ],
+   "answer": "Lord Grayson Shadowbreaker resides inside the Cathedral of Light, situated in the Cathedral Square of Stormwind City. He stands inside the main halls overseeing the paladins of the Silver Hand."
+  },
+  {
+   "q": "What is Lord Grayson's role for paladins?",
+   "aliases": [
+    "what does grayson do",
+    "grayson shadowbreaker purpose",
+    "why visit lord grayson"
+   ],
+   "answer": "He serves as a high-ranking paladin trainer for the Alliance. In addition to directing young knights toward front-line combat against the Scourge in Lordaeron, he orchestrates the sacred ritual questline required to forge holy barding and claim a paladin charger."
+  },
+  {
+   "q": "How did Lord Grayson lose his right eye?",
+   "aliases": [
+    "how did grayson lose his eye",
+    "why is grayson missing an eye",
+    "grayson eyepatch"
+   ],
+   "answer": "Grayson lost his right eye fighting on the battlefield during his long service to the Alliance and the Order of the Silver Hand, bearing the scar as a testament to decades of war."
+  },
+  {
+   "q": "What is his connection to the Forsaken?",
+   "aliases": [
+    "grayson sister",
+    "jubeka shadowbreaker",
+    "does grayson have undead family"
+   ],
+   "answer": "His sister Jubeka perished during the Scourging of Lordaeron and was reanimated as one of the Forsaken. When she later sought him out hoping to reconcile, Grayson rejected her as an unholy monster, fiercely maintaining that his true sister died with Lordaeron."
+  },
+  {
+   "q": "Why does Grayson send paladins to Grimand Elmore?",
+   "aliases": [
+    "grayson and grimand elmore",
+    "who makes the paladin barding",
+    "arcanite barding quest"
+   ],
+   "answer": "Grimand Elmore forged the barding for Grayson's own charger years ago. Because a holy charger requires flawless craftsmanship that balances physical endurance with spiritual harmony, Grayson sends all worthy initiates to Grimand to craft their Arcanite Barding."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Grayson acts as one of your highest spiritual mentors in the Alliance, guiding your path against the Scourge in Lordaeron and conducting the exacting trials needed to summon a true charger."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "A stoic veteran of the Silver Hand, Lord Grayson helps reinforce Stormwind's defense and bolsters expeditionary aid toward the contested northern kingdoms."
+  }
+ ],
+ "keywords": [
+  "cathedral of light",
+  "charger",
+  "grayson",
+  "grimand elmore",
+  "jubeka",
+  "paladin",
+  "scholomance",
+  "shadowbreaker",
+  "silver hand"
+ ],
+ "related": [
+  "subzone:cathedral-of-light",
+  "quest:1700",
+  "zone:stormwind",
+  "npc:high-priest-rohan",
+  "subzone:chillwind-camp",
+  "subzone:scholomance",
+  "subzone:dire-maul",
+  "topic:light"
+ ],
+ "attribution": [
+  "Lord Grayson Shadowbreaker"
+ ]
+}

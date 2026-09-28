@@ -1,0 +1,82 @@
+{
+ "key": "subzone:shadowsong-shrine",
+ "type": "subzone",
+ "name": "Shadowsong Shrine",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Shadowsong Shrine"
+ },
+ "summary": "Shadowsong Shrine is a ruined hillside sanctuary situated in western Azshara, not far from the Ashenvale border. Haunted by the restless spirits of ancient Highborne, the site bears the illustrious name of the Shadowsong bloodline, though its true historical connection to them remains shrouded in mystery.",
+ "sections": [
+  {
+   "title": "A Haunted Legacy",
+   "body": "Perched upon a high hill overlooking the shattered lands of Azshara, the Shadowsong Shrine lies in ancient, overgrown ruin. Like much of the surrounding coast, it is plagued by the lingering apparitions of Highborne ghosts who wander among the fallen stonework, seeking to extinguish any mortal life that trespasses upon their domain. The shrine shares its name with two legendary figures of kaldorei history: Jarod Shadowsong, the reluctant general who led the night elf resistance during the War of the Ancients, and his sister Maiev, the unrelenting warden of Illidan Stormrage. Whether this sanctuary was erected in honor of their deeds or dates back to the family's standing before the Sundering is a secret lost to the ages.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Shadowsong Shrine?",
+   "aliases": [
+    "what is this place",
+    "shadowsong shrine info",
+    "ruins on the hill azshara"
+   ],
+   "answer": "It is an ancient night elf ruin located on an elevated rise in western Azshara. Today it stands crumbled and neglected, overrun by hostile Highborne specters."
+  },
+  {
+   "q": "Who is the shrine named after?",
+   "aliases": [
+    "jarod shadowsong",
+    "maiev shadowsong",
+    "why shadowsong"
+   ],
+   "answer": "It shares its namesake with the storied Shadowsong lineage\u2014most notably Jarod Shadowsong, hero of the War of the Ancients, and his elder sister Maiev, the famed warden. However, whether the shrine directly commemorates either of them is not definitively recorded."
+  },
+  {
+   "q": "Why is the shrine haunted?",
+   "aliases": [
+    "why are there ghosts here",
+    "highborne ghosts azshara",
+    "ghosts at shadowsong shrine"
+   ],
+   "answer": "Like many ruins throughout Azshara, the site was devastated during the Great Sundering ten thousand years ago. The spirits of the Highborne slain in the cataclysm remain bound to the stones, trapped in madness and hostility toward the living."
+  },
+  {
+   "q": "Where is the shrine located?",
+   "aliases": [
+    "where is shadowsong shrine",
+    "shadowsong shrine location",
+    "how to find shadowsong shrine"
+   ],
+   "answer": "It sits atop a hill in western Azshara, east of the forested border with Ashenvale and not far from the outpost of Talrendis Point."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, the name Shadowsong commands profound respect due to Jarod's leadership during the War of the Ancients, making the desecration of this site by tormented Highborne ghosts especially tragic."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "ghosts",
+  "highborne",
+  "jarod shadowsong",
+  "maiev",
+  "ruins",
+  "shadowsong",
+  "shrine"
+ ],
+ "related": [
+  "zone:azshara",
+  "topic:highborne",
+  "topic:war-of-the-ancients",
+  "subzone:talrendis-point",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Shadowsong Shrine"
+ ]
+}

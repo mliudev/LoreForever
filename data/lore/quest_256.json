@@ -1,0 +1,121 @@
+{
+ "key": "quest:256",
+ "type": "quest",
+ "name": "WANTED: Chok'sul",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   256
+  ],
+  "level": "22",
+  "faction": "Alliance",
+  "start": "WANTED",
+  "end": "Magistrate Bluntnose",
+  "previous": null,
+  "next": null,
+  "wiki": "WANTED: Chok'sul",
+  "chain": []
+ },
+ "summary": "A bounty posted in Thelsamar by Magistrate Bluntnose calls for the death of Chok'sul, an ogre warlord menacing northeastern Loch Modan. Believed to be organizing the assaults against local settlements and critical infrastructure, bringing his head secures a handsome reward from the town's leadership.",
+ "sections": [
+  {
+   "title": "A Threat to the Loch",
+   "body": "While troggs and wildlife constantly test the borders of Loch Modan, the arrival of organized ogres represents an escalation that the local dwarven mountaineers cannot ignore. Settling into encampments along the rugged northeastern reaches of the valley, these brutes have moved beyond simple scavenging. According to local scouts and town authorities, their raids are focused, persistent, and dangerous.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price on Chok'sul's Head",
+   "body": "Thelsamar's Magistrate Bluntnose identified Chok'sul as the mastermind coordinating the violence against the town, the nearby dwarven excavation site, and the Stonewrought Dam itself. Fearing catastrophic damage to the valley's prized engineering feat and civilian lives, the magistrate placed a bounty upon the ogre chieftain: dead through any means necessary, with his severed head required as proof.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who posted the bounty on Chok'sul?",
+   "aliases": [
+    "who wants choksul dead",
+    "who posted choksul bounty",
+    "thelsamar wanted poster"
+   ],
+   "answer": "Magistrate Bluntnose, the chief civic official of Thelsamar, officially issued the order on behalf of the town to protect the region from organized raids."
+  },
+  {
+   "q": "Why is Chok'sul considered such a high priority target?",
+   "aliases": [
+    "why kill choksul",
+    "what did choksul do",
+    "choksul threat"
+   ],
+   "answer": "Chok'sul is believed to be the coordinator directing ogre strikes against Thelsamar, the Ironforge archaeological excavations, and the Stonewrought Dam\u2014targets that represent both dwarven lives and critical kingdom infrastructure."
+  },
+  {
+   "q": "Where can Chok'sul be found?",
+   "aliases": [
+    "choksul location",
+    "where is choksul",
+    "ogre camp loch modan"
+   ],
+   "answer": "He is located in the ogre encampment situated among the rugged hills in the northeastern corner of Loch Modan."
+  },
+  {
+   "q": "What proof does Magistrate Bluntnose require?",
+   "aliases": [
+    "choksul head",
+    "bounty proof",
+    "turn in choksul"
+   ],
+   "answer": "You must take Chok'sul's severed head directly to Magistrate Bluntnose inside Thelsamar to claim the bounty and Ironforge's gratitude."
+  },
+  {
+   "q": "Why would ogres attack the Stonewrought Dam?",
+   "aliases": [
+    "why attack the dam",
+    "stonewrought dam under attack"
+   ],
+   "answer": "The Stonewrought Dam holds back the massive lake of Loch Modan and is a crowning marvel of dwarven engineering. Sabotaging it would flood the wetlands and devastate dwarven supply lines, making it a prime tactical target for hostile forces."
+  },
+  {
+   "q": "Are there other ogres working with Chok'sul?",
+   "aliases": [
+    "choksul clan",
+    "loch modan ogres",
+    "choksul followers"
+   ],
+   "answer": "Yes, Chok'sul commands an encampment of ogres established in the northeastern hills of the loch, directing their raids across the surrounding territories."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Defending the Stonewrought Dam and the surrounding archaeological digs strikes directly at dwarven pride, heritage, and the security of Ironforge's sovereign lands."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Loch Modan acts as a primary agricultural and supply corridor leading into Dun Morogh, making stability around Thelsamar essential to Alliance military efforts."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The Stonewrought Dam is one of the greatest feats of dwarven civil engineering ever constructed; allowing brute ogres to damage it is unthinkable to any respectable craftsman."
+  }
+ ],
+ "keywords": [
+  "bluntnose",
+  "bounty",
+  "chok'sul",
+  "choksul",
+  "loch modan",
+  "ogre",
+  "stonewrought dam",
+  "thelsamar"
+ ],
+ "related": [
+  "subzone:thelsamar",
+  "subzone:stonewrought-dam",
+  "zone:lochmodan",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "WANTED: Chok'sul"
+ ]
+}

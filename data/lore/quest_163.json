@@ -1,0 +1,116 @@
+{
+ "key": "quest:163",
+ "type": "quest",
+ "name": "Raven Hill",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   163
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Elaine Carevin",
+  "end": "Jitters",
+  "previous": null,
+  "next": null,
+  "wiki": "Raven Hill (quest)",
+  "chain": []
+ },
+ "summary": "Reports of shifting shadows and flickering window light in the abandoned settlement of Raven Hill have set the Night Watch on edge. Dispatched by Elaine Carevin in Darkshire, travelers are sent west across the haunted woods to confront whatever sinister presence has taken shelter among the ruins.",
+ "sections": [
+  {
+   "title": "Eyes in the West",
+   "body": "To the rangers of the Night Watch, the far western edge of Duskwood has long been surrendered to the dead and the wilderness. Yet complete abandonment would be preferable to unexpected activity. Calor, a watcher patrolling the gloomy roads, noticed movement among the silent houses of Raven Hill two nights in a row, punctuated by the unsettling flicker of a lantern in a window. In a land plagued by ghouls, skeletons, and beasts, any unexplained signs of life demand immediate investigation.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Rattled Hermit",
+   "body": "Those expecting to clash with an emergent demon or undead warlord inside Raven Hill find a far more pathetic reality. Huddled in terror amid the dilapidated ruins is Jitters, a thoroughly unhinged vagabond trembling at every rustle in the dark. While he frantically protests that there is no threat besides 'harmless Jitters,' his manic rambling suggests that he knows far more about the nightmare consuming Duskwood than he dares to say.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to investigate Raven Hill?",
+   "aliases": [
+    "who gives raven hill quest",
+    "quest giver raven hill",
+    "elaine carevin quest"
+   ],
+   "answer": "Elaine Carevin, a resident in Darkshire who assists the Night Watch, asks travelers who care about Duskwood's safety to check out the disturbing sightings reported from the west."
+  },
+  {
+   "q": "What did Calor actually see in Raven Hill?",
+   "aliases": [
+    "what did calor see",
+    "calor sighting raven hill",
+    "shadows in raven hill"
+   ],
+   "answer": "Calor reported seeing moving shadows in the abandoned settlement two nights in a row, as well as a lantern or candle burning in one of the building windows the night before that."
+  },
+  {
+   "q": "What monster is haunting the ruins?",
+   "aliases": [
+    "who is haunting raven hill",
+    "what is in raven hill",
+    "is raven hill monster real"
+   ],
+   "answer": "There is no supernatural monster behind the lights; it is merely Jitters, a terrified man hiding out in the derelict buildings, clutching his sanity while surrounded by the horrors of the cemetery."
+  },
+  {
+   "q": "Who is Jitters?",
+   "aliases": [
+    "jitters lore",
+    "who is jitters duskwood",
+    "why is jitters hiding"
+   ],
+   "answer": "Jitters is a jumpy, paranoid vagrant living on the edge of terror in western Duskwood. While he claims to be completely harmless, his extreme guilt and frantic ramblings hint that he is tangled up in the region's darker mysteries."
+  },
+  {
+   "q": "Where is Raven Hill located?",
+   "aliases": [
+    "raven hill location",
+    "where to find raven hill",
+    "raven hill map"
+   ],
+   "answer": "Raven Hill lies in the far western section of Duskwood, situated along the road just north of the massive, undead-infested cemetery that shares its name."
+  },
+  {
+   "q": "Why is the Night Watch so concerned about moving shadows?",
+   "aliases": [
+    "why care about raven hill",
+    "night watch raven hill"
+   ],
+   "answer": "Darkshire is stretched thin against skeletal uprisings, feral worgen, and lurking spiders. Any sign of organized movement or strange inhabitants in the abandoned west could signal an impending assault on the remaining living settlements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Night Watch of Duskwood receives little to no aid from Stormwind's garrison, forcing them to rely on traveling Alliance heroes to investigate ominous threats in the ruined corners of the territory."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Trained to hunt the restless undead that plague the neighboring cemetery, a paladin investigating reports of sinister haunting may find the whimpering, flesh-and-blood Jitters to be an unexpected discovery."
+  }
+ ],
+ "keywords": [
+  "calor",
+  "darkshire",
+  "duskwood",
+  "elaine carevin",
+  "jitters",
+  "night watch",
+  "raven hill"
+ ],
+ "related": [
+  "zone:duskwood",
+  "npc:jitters",
+  "npc:calor",
+  "topic:light"
+ ],
+ "attribution": [
+  "Raven Hill (quest)"
+ ]
+}

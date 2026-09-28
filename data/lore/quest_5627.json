@@ -1,0 +1,120 @@
+{
+ "key": "quest:5627",
+ "type": "quest",
+ "name": "Stars of Elune",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   5627
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Priestess Alathea",
+  "end": "",
+  "previous": "Returning Home",
+  "next": null,
+  "wiki": "Stars of Elune",
+  "chain": []
+ },
+ "summary": "Stars of Elune marks a major milestone in a young night elf priest's communion with the Moon Goddess. Upon proving their dedication to their people, acolytes are invited to the Temple of the Moon in Darnassus to learn sacred arts unique to the Sisterhood of Elune.",
+ "sections": [
+  {
+   "title": "A Rite of Devotion",
+   "body": "Night elf priests do not draw their holy power from the broad philosophical tenets of the Light, as humans and dwarves do, but directly from their goddess, Elune. When an acolyte shows steadfast dedication while serving the realm, the Sisterhood in Darnassus recognizes that devotion. Summoned to the Temple of the Moon, the priest is deemed worthy of deeper communion and offered insight into sacred spells passed down through thousands of years of worship.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gifts of the Moon Goddess",
+   "body": "Upon answering the call of Priestess Alathea, an initiate receives direct instruction in holy mysteries unique to their heritage, such as Starshards. These spells channel the radiant, celestial wrath and grace of the White Lady. Receiving this instruction signifies that an acolyte has graduated beyond basic training and is prepared to venture beyond the protective canopy of Teldrassil in Elune's name.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "stars of elune quest",
+    "what do i get",
+    "why do this quest"
+   ],
+   "answer": "Stars of Elune represents an initiate's formal recognition by the Sisterhood of Elune. Upon completion, Priestess Alathea instructs the young priest in racial spells specific to night elves, such as Starshards, marking their growth as a chosen vessel of the Moon Goddess."
+  },
+  {
+   "q": "Who offers Stars of Elune?",
+   "aliases": [
+    "who gives stars of elune",
+    "quest giver stars of elune",
+    "where is alathea"
+   ],
+   "answer": "The quest is completed by Priestess Alathea, an ordained leader of the Sisterhood of Elune stationed within the grand Temple of the Moon in Darnassus."
+  },
+  {
+   "q": "Why is this quest restricted to night elves?",
+   "aliases": [
+    "can humans do this",
+    "is this night elf only",
+    "who can do stars of elune"
+   ],
+   "answer": "The rites taught during this quest belong specifically to the Sisterhood of Elune, the ancient priesthood governing night elf faith. Unlike other Alliance priesthoods that study the universal Holy Light, kaldorei priests derive their distinct magic directly from communion with Elune."
+  },
+  {
+   "q": "Where does this quest lead within the priest storyline?",
+   "aliases": [
+    "what comes before stars of elune",
+    "stars of elune prereq",
+    "returning home quest"
+   ],
+   "answer": "This quest immediately follows 'Returning Home,' which directs an aspiring priest who has been helping across Teldrassil back to the capital city to seek further instruction at the Temple of the Moon."
+  },
+  {
+   "q": "What kind of magic does Elune bestow on her priests?",
+   "aliases": [
+    "elune spells",
+    "night elf priest magic",
+    "starshards lore"
+   ],
+   "answer": "Priests devoted to Elune weave moonlight, starlight, and shadow. Unique rituals like Starshards allow kaldorei worshippers to bring down incandescent celestial fire upon enemies, blending divine judgment with astral wrath."
+  },
+  {
+   "q": "Where in Darnassus does this take place?",
+   "aliases": [
+    "stars of elune location",
+    "where is priestess alathea",
+    "temple of the moon location"
+   ],
+   "answer": "It takes place inside the Temple of the Moon, the gleaming marble sanctuary that towers over the southern quarter of Darnassus and serves as the religious heart of the kaldorei nation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This rite marks the divergence between kaldorei priests and those of other races, unlocking the astral spells granted solely by the Moon Goddess."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, serving Elune is inseparable from civic and cultural life; answering the Sisterhood's summons represents coming of age in service to Teldrassil."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "While human and dwarven priests preach devotion to the Holy Light, the night elves' devotion to Elune brings ancient, distinct celestial magic into the Alliance's ranks."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "priestess alathea",
+  "returning home",
+  "sisterhood of elune",
+  "stars of elune",
+  "starshards",
+  "temple of the moon"
+ ],
+ "related": [
+  "npc:priestess-alathea",
+  "topic:elune",
+  "quest:5628"
+ ],
+ "attribution": [
+  "Stars of Elune"
+ ]
+}

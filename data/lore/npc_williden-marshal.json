@@ -1,0 +1,119 @@
+{
+ "key": "npc:williden-marshal",
+ "type": "npc",
+ "name": "Williden Marshal",
+ "era": "classic",
+ "zone": "ungoro",
+ "meta": {
+  "wiki": "Williden Marshal",
+  "refs": 4
+ },
+ "summary": "Williden Marshal is the ambitious human leader of Marshal's Expedition, based out of Marshal's Refuge in northern Un'Goro Crater. Driven by the lure of rare flora, mysterious crystals, and profitable scientific research, he brought his team into the crater only to watch their lower camps overrun by the basin's colossal beasts.",
+ "sections": [
+  {
+   "title": "A Precarious Foothold",
+   "body": "Williden Marshal brought an entire scientific expedition deep into Un'Goro Crater seeking fortune and discovery. Intrigued by accounts of alien crystals, uncataloged plants, and untapped resources, he established multiple forward camps across the valley floor. However, the primeval wilderness quickly turned against them. Ravenous devilsaurs, encroaching silithid, and primal beasts dismantled their research posts, forcing Williden and his survivors to retreat up into the northern cliffs to establish Marshal's Refuge.",
+   "spoiler": 0
+  },
+  {
+   "title": "Salvaging the Dream",
+   "body": "Despite being driven to the crater's mountainous edge, Williden refuses to pack up and abandon his investment. From the relative safety of the refuge, he hires passing adventurers to delve back into the savage lowlands to recover lost food crates, expensive scientific instruments, and his personal expedition journal. Though often known simply as 'Wil' to close comrades like Spark Nilminer, he takes the venture seriously\u2014insisting on recovering their work even as titanic predators stalk the valley beneath them.",
+   "spoiler": 0
+  },
+  {
+   "title": "Family Ties",
+   "body": "Williden is part of a family of ambitious frontier explorers hailing from the Eastern Kingdoms. While he and Hol'anyee chose the untamed primeval crater of southern Kalimdor, his brother Livingston Marshal set off for the jungles of Stranglethorn Vale. Before parting ways, Williden scoffed at Livingston's plans, declaring he would never find anything of worth in Stranglethorn. Williden remains entirely convinced that Un'Goro's crystal deposits and ancient mysteries hold the true fortune.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Williden Marshal?",
+   "aliases": [
+    "who is williden marshal",
+    "williden marshal lore",
+    "who leads marshal's refuge"
+   ],
+   "answer": "Williden Marshal is a human explorer and the commander of Marshal's Expedition. He led a team of researchers and adventurers into Un'Goro Crater to study its strange crystals and flora, seeking knowledge and profit."
+  },
+  {
+   "q": "Why is the expedition holed up in a cave?",
+   "aliases": [
+    "why is the refuge in a cave",
+    "what happened to the expedition camps",
+    "why did marshal retreat"
+   ],
+   "answer": "The expedition originally established multiple research bases down in the lowlands of Un'Goro. However, the crater's colossal predators\u2014especially the devilsaurs and gorillas\u2014overran the sites, forcing the survivors to flee to the northern rock ledges of Marshal's Refuge."
+  },
+  {
+   "q": "What is Williden asking adventurers to do?",
+   "aliases": [
+    "williden quests",
+    "expedition salvation",
+    "what does williden want"
+   ],
+   "answer": "Williden asks capable explorers to brave the dangerous crater basin to recover supplies from their ruined camps, including abandoned food stores, delicate research equipment, and his lost expedition journal."
+  },
+  {
+   "q": "What brought Williden to Un'Goro Crater in the first place?",
+   "aliases": [
+    "why come to ungoro",
+    "williden marshal motivation",
+    "what is marshal researching"
+   ],
+   "answer": "He came in search of the crater's unique resources: rare flora, mysterious colored power crystals, ancient geological secrets, and the significant financial profits that scientific discoveries would yield back home."
+  },
+  {
+   "q": "Does Williden have any family?",
+   "aliases": [
+    "williden brother",
+    "livingston marshal",
+    "marshal family"
+   ],
+   "answer": "Yes. He is the brother of Livingston Marshal, an explorer who ventured south into the jungles of Stranglethorn Vale, and is related to Hol'anyee. Williden famously mocked Livingston, believing Stranglethorn was worthless compared to Un'Goro."
+  },
+  {
+   "q": "Is Williden Marshal aligned with the Alliance or Horde?",
+   "aliases": [
+    "is williden alliance",
+    "can horde talk to williden",
+    "marshal refuge faction"
+   ],
+   "answer": "Though human, Williden runs a neutral scientific expedition out of Marshal's Refuge. He willingly accepts assistance from both Alliance and Horde adventurers willing to recover his supplies and clear threats from the crater."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Williden represents the far-reaching curiosity and mercantile ambition of humanity, having journeyed all the way from the Eastern Kingdoms to the untamed depths of southern Kalimdor."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though operating neutrally out of necessity in the wild crater, Williden and his core team share strong cultural and trade ties to the Alliance heartlands."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Williden's expedition was drawn to Un'Goro in large part due to the crater's unique, prehistoric vegetation that grows nowhere else on Azeroth."
+  }
+ ],
+ "keywords": [
+  "devilsaurs",
+  "livingston marshal",
+  "marshals expedition",
+  "marshals refuge",
+  "power crystals",
+  "spark nilminer",
+  "ungoro crater",
+  "williden marshal"
+ ],
+ "related": [
+  "subzone:marshal-s-refuge",
+  "zone:ungoro",
+  "zone:stranglethorn",
+  "topic:stormwind-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Williden Marshal"
+ ]
+}

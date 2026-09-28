@@ -1,0 +1,103 @@
+{
+ "key": "subzone:flame-crest",
+ "type": "subzone",
+ "name": "Flame Crest",
+ "era": "classic",
+ "zone": "burningsteppes",
+ "meta": {
+  "wiki": "Flame Crest"
+ },
+ "summary": "Flame Crest is a rugged Horde outpost perched atop a rocky ledge overlooking the volcanic wastes of the Burning Steppes. Accessed only across a crude span, this precarious encampment serves as a forward staging ground against the Dark Horde entrenched in Blackrock Mountain. It provides essential aerial connections and a haven for scouts, beast collectors, and strategists.",
+ "sections": [
+  {
+   "title": "A Precarious Perch",
+   "body": "Situated high on an isolated stone outcropping, Flame Crest commands a watchful view over the scorched ash and lava plains of the Burning Steppes. Reached only by crossing a narrow, rickety wooden bridge, the outpost is naturally defensible against the prowling beasts and roaming orc warbands of the wastes. Wind riders roost along the heights, connecting the camp back across the Redridge range to Kargath, Stonard, and Thorium Point.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadow of Blackrock",
+   "body": "Flame Crest is more than just a wind rider roost; it is a critical forward watchpoint for Warchief Thrall's Horde. Venerable veterans like Eitrigg and young warriors like Ariok have utilized the crag to monitor the Blackrock clan entrenched within Blackrock Spire. Here, deep in hostile territory, Horde scouts gather intelligence, lay plans to break the renegade Dark Horde, and trade with eccentric loners like the pet master Kibler in his nearby cave.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Flame Crest?",
+   "aliases": [
+    "flame crest overview",
+    "what is flame crest",
+    "burning steppes horde camp"
+   ],
+   "answer": "Flame Crest is a Horde encampment in the Burning Steppes. Built atop a narrow rock outcropping reachable only by a crude bridge, it provides flight path connections, scouting shelter, and supplies in an otherwise deadly region."
+  },
+  {
+   "q": "Where does the flight master at Flame Crest fly?",
+   "aliases": [
+    "flame crest fp",
+    "flame crest flight path",
+    "where does flame crest connect"
+   ],
+   "answer": "The wind rider roost at Flame Crest maintains direct aerial routes to Kargath in the Badlands, Stonard in the Swamp of Sorrows, and the neutral staging post at Thorium Point in the Searing Gorge."
+  },
+  {
+   "q": "Why is the Horde maintaining an outpost in the Burning Steppes?",
+   "aliases": [
+    "why is horde in burning steppes",
+    "flame crest purpose",
+    "horde mission flame crest"
+   ],
+   "answer": "The outpost serves as a staging ground to observe and strike against the Blackrock clan entrenched in Blackrock Mountain. The Dark Horde defies Warchief Thrall and poses an immediate threat to the region, making a local vantage point vital."
+  },
+  {
+   "q": "Who lives in the cave at Flame Crest?",
+   "aliases": [
+    "kibler cave",
+    "who is in flame crest cave",
+    "flame crest parrot"
+   ],
+   "answer": "The cave in the back of the outcropping is home to Kibler and his loquacious parrot, Opus. Kibler is an eccentric handler interested in the rare and dangerous wildlife inhabiting the surrounding wastes and Blackrock Spire."
+  },
+  {
+   "q": "What is Eitrigg doing at Flame Crest?",
+   "aliases": [
+    "eitrigg burning steppes",
+    "why is eitrigg at flame crest",
+    "ariok and eitrigg"
+   ],
+   "answer": "Eitrigg and Ariok use Flame Crest as a base of operations to orchestrate strikes against their former brethren, the renegade Blackrock clan. Eitrigg knows the mountain's defenses intimately and coordinates Horde operations to dismantle their leadership."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Flame Crest is your sole bastion of safety in the southern Shadowforge wastes, offering flight routes and a staging area against the Blackrock clan."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs loyal to Thrall, this camp is where elder veterans like Eitrigg direct the campaign to purge the stain of the rogue Blackrock clan from the mountain."
+  }
+ ],
+ "keywords": [
+  "ariok",
+  "blackrock clan",
+  "burning steppes",
+  "eitrigg",
+  "flame crest",
+  "flight path",
+  "kibler",
+  "opus",
+  "wind rider"
+ ],
+ "related": [
+  "zone:burningsteppes",
+  "npc:eitrigg",
+  "topic:blackrock-clan",
+  "subzone:kargath",
+  "subzone:thorium-point",
+  "subzone:stonard",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Flame Crest"
+ ]
+}

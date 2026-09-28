@@ -1,0 +1,124 @@
+{
+ "key": "topic:llane-wrynn-i",
+ "type": "topic",
+ "name": "Llane Wrynn I",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Llane Wrynn I"
+ },
+ "summary": "King Llane Wrynn I was the ruler of Stormwind during the catastrophic First War, whose reign ended with the fall of the kingdom and his own tragic murder. A beloved and proud monarch, his steadfast refusal to believe his friend Medivh had betrayed humanity ultimately doomed his defense of the capital.",
+ "sections": [
+  {
+   "title": "A Prince of Reckless Valor",
+   "body": "Born to King Barathen Wrynn, young Prince Llane grew up alongside Anduin Lothar and Medivh. When the Gurubashi trolls staged gruesome raids against Westfall settlements, Llane defied his father's defensive policies and led his companions into the jungles of Stranglethorn Vale to slay the warlord Jok'non. This bold defiance ignited an all-out Gurubashi invasion. Though Barathen perished leading a desperate counterattack outside the city gates, Medivh intervened with devastating sorcery to annihilate the troll vanguard. In the wake of this costly victory, Llane ascended to the throne as Stormwind's king.",
+   "spoiler": 0
+  },
+  {
+   "title": "The First War",
+   "body": "When mysterious, green-skinned creatures emerged from the southern swamps, King Llane dispatched Lothar to investigate the Black Morass. What began as minor skirmishes erupted into the First War as the Horde overran Brightwood, Westfall, and Redridge. Messengers sent to Lordaeron and other northern human kingdoms were dismissed, their pleas undermined by Stormwind's historic isolationism and aristocratic intrigue. Despite these disadvantages, Llane organized an audacious counterattack alongside Lothar that broke the Horde's initial siege of Stormwind, dealing the invaders their first major defeat.",
+   "spoiler": 0
+  },
+  {
+   "title": "Betrayal in the Keep",
+   "body": "Llane's steadfast nature ultimately blinded him to the true danger within his inner circle. Even when Medivh's apprentice Khadgar and the emissary Garona revealed that the Guardian himself had opened the Dark Portal, Llane refused to accept his childhood friend's treachery. Soon after, Orgrim Doomhammer unified the Horde and breached Stormwind's outer defenses. As Llane directed the defense from Stormwind Keep, Garona\u2014compelled by the magical influence of the Shadow Council\u2014murdered the King in his own throne room, carving out his heart and sealing the city's doom.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was King Llane Wrynn I?",
+   "aliases": [
+    "who is llane",
+    "llane wrynn lore",
+    "king llane"
+   ],
+   "answer": "King Llane Wrynn I was the ruler of the Kingdom of Stormwind during the First War. He was the father of King Varian Wrynn and grandfather of young Prince Anduin Llane Wrynn. He died defending his people during the initial fall of Stormwind."
+  },
+  {
+   "q": "How did King Llane die?",
+   "aliases": [
+    "who killed king llane",
+    "llane death",
+    "how did llane die"
+   ],
+   "answer": "Llane was assassinated inside Stormwind Keep during the final siege of the First War. He was slain by Garona Halforcen, a half-orc emissary whom he considered a trusted friend and confidante, but who was mind-controlled by the Shadow Council."
+  },
+  {
+   "q": "What was Llane's relationship to Medivh and Lothar?",
+   "aliases": [
+    "llane medivh lothar",
+    "llane childhood friends"
+   ],
+   "answer": "Llane, Medivh, and Anduin Lothar were inseparable childhood companions who adventured together across southern Azeroth. Their lifelong bond proved tragic: Lothar became Llane's greatest champion, while Llane's total refusal to believe Medivh could betray him led to the monarch's downfall."
+  },
+  {
+   "q": "Why didn't the other human kingdoms help Llane during the First War?",
+   "aliases": [
+    "why didn't lordaeron help llane",
+    "alliance during first war"
+   ],
+   "answer": "Stormwind had long maintained an isolationist foreign policy that northern nations viewed as arrogant. When Llane sent warnings of the green-skinned invaders, leaders in Lordaeron dismissed the reports as an exaggerated civil rebellion, leaving Stormwind to fight alone."
+  },
+  {
+   "q": "How did Varian escape the fall of Stormwind?",
+   "aliases": [
+    "what happened to varian after llane died",
+    "varian escape stormwind"
+   ],
+   "answer": "Following King Llane's assassination and the breach of Stormwind Keep, Champion Anduin Lothar gathered the surviving citizens and Llane's young son, Prince Varian Wrynn. Lothar led them to the harbor and fled north across the Great Sea to Lordaeron."
+  },
+  {
+   "q": "What did Medivh give Llane at his ascension?",
+   "aliases": [
+    "medivh gift to llane",
+    "llane hourglass"
+   ],
+   "answer": "When Llane came of age as Prince of Stormwind, Medivh emerged from a long coma and presented him with an enchanted obsidian hourglass. The sand within trickled endlessly, with the upper chamber never emptying, symbolizing Stormwind's eternal prosperity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "King Llane's tragic murder and the fall of Stormwind forced the survivors north, directly provoking the creation of the Grand Alliance of Lordaeron to counter the Horde."
+  },
+  {
+   "target": "race:Human",
+   "text": "For the people of Stormwind, King Llane remains a tragic hero whose sacrifice is commemorated across the restored city, including in the naming of King Varian's son, Anduin Llane Wrynn."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "King Llane fought alongside his Champion, Anduin Lothar, personally directing the martial defense of Stormwind from the front lines of the Keep."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The regicide of King Llane by the assassin Garona remains one of the most famous and devastating blade strikes in Azeroth's history."
+  }
+ ],
+ "keywords": [
+  "barathen",
+  "first war",
+  "garona",
+  "gurubashi",
+  "kingslayers",
+  "llane",
+  "lothar",
+  "medivh",
+  "shadow council",
+  "stormwind",
+  "wrynn"
+ ],
+ "related": [
+  "topic:varian-wrynn",
+  "topic:anduin-lothar",
+  "topic:first-war",
+  "topic:medivh",
+  "topic:stormwind-kingdom",
+  "subzone:stormwind-keep",
+  "topic:shadow-council",
+  "npc:orgrim-doomhammer"
+ ],
+ "attribution": [
+  "Llane Wrynn I"
+ ]
+}

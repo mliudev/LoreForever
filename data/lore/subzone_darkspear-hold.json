@@ -1,0 +1,77 @@
+{
+ "key": "subzone:darkspear-hold",
+ "type": "subzone",
+ "name": "Darkspear Hold",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Darkspear Hold"
+ },
+ "summary": "Darkspear Hold is the central settlement and redoubt of the Darkspear tribe on Darkspear Isle off the southern coast of Durotar. Under the leadership of Vol'jin, it serves as the spiritual and martial heart for the exiled trolls who have pledged their allegiance to the Horde.",
+ "sections": [
+  {
+   "title": "Heart of the Darkspear",
+   "body": "Perched on the Echo Isles just south of Durotar's mainland, Darkspear Hold represents the hard-won sanctuary of the Darkspear trolls. Having fled their ancestral homeland in the Darkspear Islands under the guidance of the late Sen'jin, the tribe arrived in Kalimdor alongside Thrall's Horde. From this stronghold, Chieftain Vol'jin and the tribal elders oversee their people's daily survival, spiritual traditions, and efforts to defend their new coastal refuge against lingering threats.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Darkspear Hold?",
+   "aliases": [
+    "darkspear hold lore",
+    "what is this place",
+    "troll fortress durotar"
+   ],
+   "answer": "Darkspear Hold is the primary fortified encampment of the Darkspear tribe, located on Darkspear Isle within the Echo Isles archipelago off the southern coast of Durotar."
+  },
+  {
+   "q": "Who rules Darkspear Hold?",
+   "aliases": [
+    "who leads darkspear hold",
+    "darkspear hold leader",
+    "voljin location"
+   ],
+   "answer": "Chieftain Vol'jin, son of Sen'jin and leader of the Darkspear trolls, governs the hold alongside the tribal council and spiritual elders."
+  },
+  {
+   "q": "Why did the Darkspear settle here?",
+   "aliases": [
+    "why are trolls in durotar",
+    "how did darkspear get here",
+    "troll history durotar"
+   ],
+   "answer": "After the sea witch drove them from their island home in the Great Sea, the Darkspear traveled west to Kalimdor with Thrall. They claimed the Echo Isles off Durotar as their new home, bound in close alliance to the orcish Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls, the Hold is the center of tribal sovereignty, where Vol'jin works to guide and protect his exiled people in their new Kalimdor home."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The hold anchors the southern approach to Durotar, securing the coastline and cementing the vital bond forged between the trolls and Warchief Thrall."
+  }
+ ],
+ "keywords": [
+  "darkspear hold",
+  "darkspear isle",
+  "durotar",
+  "echo isles",
+  "sen'jin",
+  "trolls",
+  "vol'jin"
+ ],
+ "related": [
+  "subzone:darkspear-isle",
+  "npc:vol-jin",
+  "zone:durotar",
+  "topic:horde",
+  "npc:thrall",
+  "quest:826"
+ ],
+ "attribution": [
+  "Darkspear Hold"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "npc:bolvar-fordragon",
+ "type": "npc",
+ "name": "Bolvar Fordragon",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Bolvar Fordragon",
+  "refs": 0
+ },
+ "summary": "Highlord Bolvar Fordragon serves as the Regent of Stormwind and Supreme Commander of its armed forces following the mysterious disappearance of King Varian Wrynn. Standing beside the young boy-king Anduin Wrynn in Stormwind Keep, he strives to hold the kingdom together amid escalating domestic turmoil. Though fiercely honorable, Bolvar often finds his martial decisions influenced and stalled by royal advisor Lady Katrana Prestor.",
+ "sections": [
+  {
+   "title": "Regent of the Realm",
+   "body": "When King Varian vanished en route to a peace summit on Theramore Isle, Stormwind was thrown into political disarray. Ten-year-old Prince Anduin was crowned to maintain continuity, but actual governing power fell to Highlord Bolvar Fordragon as Regent. Bolvar is a venerated paladin devoted to the crown, yet he faces immense strain. Stormwind's military is thinly stretched across Westfall, Redridge, and Duskwood. Compounding these crises, Bolvar frequently defers to the counsel of Lady Katrana Prestor, whose dismissive advice consistently blocks him from committing royal troops to peripheral towns.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Web of Deceit",
+   "body": "Behind the scenes in the royal court, Bolvar's hands are tied tighter than he realizes. While town magistrates and frontier marshals beg for reinforcements against the Defias Brotherhood and Blackrock orcs, Lady Prestor subtly manipulates royal decrees and belittles all reports of danger. Bolvar respects the nobility's counsel and hesitates to move without undeniable proof, unwittingly leaving the crown paralyzed. Only when compelling evidence arrives\u2014such as investigative warnings from Theramore or missing field officers\u2014does the Regent bypass standard court decorum to enlist independent adventurers.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Bolvar ruling instead of King Varian?",
+   "aliases": [
+    "where is the king",
+    "why is bolvar in charge",
+    "who is the regent"
+   ],
+   "answer": "King Varian Wrynn disappeared under suspicious circumstances while traveling by ship to a diplomatic summit at Theramore Isle. In his absence, Varian's ten-year-old son Anduin was crowned king to preserve political order, while Highlord Bolvar was appointed Regent to govern the kingdom and command its armies until the king is found."
+  },
+  {
+   "q": "Why won't Bolvar send soldiers to help Redridge or Westfall?",
+   "aliases": [
+    "why no stormwind army",
+    "why won't bolvar send help",
+    "lakeshire troops"
+   ],
+   "answer": "Stormwind's standing armies are stretched thin guarding the core territories and borders. Furthermore, Bolvar's chief advisor, Lady Katrana Prestor, repeatedly questions the urgency of reports from places like Lakeshire, calling them exaggerations and advising against allocating royal forces. Lacking military proof, Bolvar instead deputizes independent adventurers to intervene."
+  },
+  {
+   "q": "What is Bolvar's relationship with Lady Katrana Prestor?",
+   "aliases": [
+    "bolvar and prestor",
+    "who is lady prestor to bolvar"
+   ],
+   "answer": "Lady Katrana Prestor is the premier royal councilor to the throne of Stormwind. Bolvar respects her political acumen and deep knowledge of noble affairs. However, she continually uses her influence to counsel restraint, urging him to dismiss rumors of dragons, orcs, and Defias plots."
+  },
+  {
+   "q": "What is Bolvar's connection to young Prince Anduin?",
+   "aliases": [
+    "anduin and bolvar",
+    "is bolvar anduin's father"
+   ],
+   "answer": "Bolvar is not related to Anduin, but he acts as the young king's fierce protector, guardian, and mentor. Bolvar stands beside Anduin's throne in Stormwind Keep, shielding the boy from court intrigue and ensuring that the Wrynn dynasty remains secure until Varian returns."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Bolvar represents the pinnacle of the Alliance's martial paladins, embodying steadfast devotion to the Light and unyielding duty to his people despite mounting political subterfuge."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "As Supreme Commander of Stormwind, Bolvar is the administrative head of the human military, balancing localized rebellions with broader Alliance obligations."
+  }
+ ],
+ "keywords": [
+  "anduin wrynn",
+  "bolvar",
+  "fordragon",
+  "highlord",
+  "katrana prestor",
+  "regent",
+  "stormwind keep"
+ ],
+ "related": [
+  "npc:anduin-wrynn",
+  "npc:onyxia",
+  "zone:stormwind",
+  "topic:varian-wrynn",
+  "topic:defias-brotherhood",
+  "npc:magistrate-solomon",
+  "subzone:theramore-isle",
+  "npc:jaina-proudmoore"
+ ],
+ "attribution": [
+  "Bolvar Fordragon"
+ ]
+}

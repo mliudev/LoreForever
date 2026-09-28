@@ -1,0 +1,95 @@
+{
+ "key": "subzone:angerfang-encampment",
+ "type": "subzone",
+ "name": "Angerfang Encampment",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Angerfang Encampment"
+ },
+ "summary": "The Angerfang Encampment is the primary stronghold of the Dragonmaw clan in the central Wetlands. Led by Chieftain Nek'rosh Skullcrusher, these renegade orcs use the sprawling camp as a staging ground to threaten nearby dwarven settlements and plot the destruction of Menethil Harbor.",
+ "sections": [
+  {
+   "title": "A Bastion in the Bogs",
+   "body": "Sprawling across the muck of the central Wetlands, the Angerfang Encampment serves as the fortified heart of Dragonmaw power in the region. Unlike the scattered raiding parties found wandering the marshes, this compound boasts heavily defended barricades, watchtowers, and a formidable host of warriors, bonewarders, and dark spellcasters loyal to the old ways. From here, the Dragonmaw project military force across the marshlands, raiding travelers along the roads and menacing nearby dwarven outposts like Whelgar's Retreat.",
+   "spoiler": 0
+  },
+  {
+   "title": "Nek'rosh's Ambition",
+   "body": "The encampment is commanded by Chieftain Nek'rosh Skullcrusher, son of the infamous warlock Nekros who once enslaved the red dragonflight at Grim Batol. Harboring a deep hatred for the Alliance, Nek'rosh has marshaled catapults and raised war banners in preparation for an all-out assault against Menethil Harbor. Aware of the looming siege, Alliance commanders in the port city dispatch champions into the belly of Angerfang to capture their banners, smash their war machines, and claim Nek'rosh's head before his offensive can drown the harbor in fire.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules the Angerfang Encampment?",
+   "aliases": [
+    "who leads angerfang",
+    "angerfang boss",
+    "who is in charge here",
+    "nekrosh camp"
+   ],
+   "answer": "The camp is ruled by Chieftain Nek'rosh Skullcrusher, the son of the notorious Dragonmaw warlock Nekros Skullcrusher. From his command tent deep within the encampment, Nek'rosh directs regional raiding parties and plans the conquest of Menethil Harbor."
+  },
+  {
+   "q": "Are the orcs here allied with Thrall's Horde?",
+   "aliases": [
+    "are dragonmaw horde",
+    "are angerfang friendly to horde",
+    "is angerfang part of thralls horde"
+   ],
+   "answer": "No. The Dragonmaw clan here remains independent of Thrall's New Horde. They cling to the dark heritage of the Old Horde, remaining hostile to Alliance and Horde travelers alike. Thrall's warriors view them as feral outcasts, even hunting them down for armor crafting materials."
+  },
+  {
+   "q": "Why is the Alliance focused on destroying this camp?",
+   "aliases": [
+    "why attack angerfang",
+    "captain stoutfist angerfang",
+    "why kill nekrosh"
+   ],
+   "answer": "Captain Stoutfist and the dwarven defenders of Menethil Harbor discovered that Nek'rosh has assembled catapults and massive forces at Angerfang to bombard and conquer the harbor. The Alliance attacks preemptively to crush the siege before it begins."
+  },
+  {
+   "q": "Why do warlocks seek out this encampment?",
+   "aliases": [
+    "warlock quest angerfang",
+    "tome of the cabal wetlands",
+    "rod of channeling angerfang"
+   ],
+   "answer": "The dark spellcasters among the Dragonmaw at Angerfang carry Rods of Channeling, dark ritual implements coveted by practitioners of the demonic arts seeking to complete the Tome of the Cabal."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For the defenders of Menethil Harbor, Angerfang is a clear and present danger; bringing down Nek'rosh's war banners and taking his head is vital to securing the coastal trade routes."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The dark shadowwarders within the encampment carry Rods of Channeling, essential artifacts sought for the bindings written within the Tome of the Cabal."
+  }
+ ],
+ "keywords": [
+  "angerfang",
+  "dragonmaw",
+  "menethil",
+  "nek'rosh",
+  "skullcrusher",
+  "stoutfist",
+  "wetlands",
+  "whelgar"
+ ],
+ "related": [
+  "quest:465",
+  "quest:474",
+  "quest:464",
+  "zone:wetlands",
+  "subzone:menethil-harbor",
+  "subzone:whelgar-s-retreat",
+  "quest:1758",
+  "quest:1846"
+ ],
+ "attribution": [
+  "Angerfang Encampment"
+ ]
+}

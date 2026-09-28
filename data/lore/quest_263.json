@@ -1,0 +1,123 @@
+{
+ "key": "quest:263",
+ "type": "quest",
+ "name": "In Defense of the King's Lands",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   263
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Mountaineer Wallbang",
+  "end": "",
+  "previous": "In Defense of the King's Lands (Classic 2)",
+  "next": "In Defense of the King's Lands (Classic 4)",
+  "wiki": "In Defense of the King's Lands (Classic 3)",
+  "chain": []
+ },
+ "summary": "This mission represents the escalating fight waged by Ironforge's Mountaineers against the trogg infestation in southern Loch Modan. Operating from the Southern Guard Tower, Mountaineer Wallbang directs seasoned recruits into Stonesplinter Valley to cull dangerous trogg shamans and front-line bonesnappers. Completing this trial earns Wallbang's full trust and opens an audience with the garrison's commanding captain.",
+ "sections": [
+  {
+   "title": "A Thin Dwarven Line",
+   "body": "Loch Modan's defenses are stretched to their limits. With dwarven regular reserves summoned to distant fronts across Azeroth, local outposts like the Southern Guard Tower are left short-handed. Mountaineer Wallbang and his few comrades face relentless pressure from the Stonesplinter clan, forcing them to rely heavily on visiting Alliance travelers to hold the southern pass.",
+   "spoiler": 0
+  },
+  {
+   "title": "Targeting the Stonesplinter Vanguard",
+   "body": "Rather than picking off stray scouts, this campaign strikes deeper into the Stonesplinter hierarchy. The trogg bonesnappers provide the clan with brutal brute force, while their primitive shamans weave earthen magic to rally their kin. Eliminating twenty of these high-value targets blunts their incursions into the lowlands, directly serving King Magni Bronzebeard's defense of the realm.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mountaineer Wallbang?",
+   "aliases": [
+    "wallbang",
+    "who is wallbang",
+    "mountaineer wallbang lore"
+   ],
+   "answer": "Mountaineer Wallbang is an Ironforge dwarf posted at the Southern Guard Tower in Loch Modan. He is tasked with monitoring trogg activity spillover from the mountains and coordinating militia efforts to keep the main southern road secure."
+  },
+  {
+   "q": "Why are the Mountaineers asking travelers for help?",
+   "aliases": [
+    "why do dwarves need help",
+    "where are ironforge guards",
+    "why no reserves"
+   ],
+   "answer": "Ironforge's military reserves have been called away to higher-priority battlefronts across the kingdom and beyond. This redeployment leaves border outposts like Loch Modan's southern watchtowers critically undermanned against local threats."
+  },
+  {
+   "q": "Where are these troggs located?",
+   "aliases": [
+    "where are stonesplinter troggs",
+    "stonesplinter shaman location",
+    "where is stonesplinter valley"
+   ],
+   "answer": "They concentrate heavily in Stonesplinter Valley, tucked into the rugged hills southwest of The Loch. Smaller bands of these shamans and bonesnappers also haunt the northern islands out on the lake itself."
+  },
+  {
+   "q": "What makes the Stonesplinter clan a threat?",
+   "aliases": [
+    "why are troggs dangerous",
+    "stonesplinter threat"
+   ],
+   "answer": "Troggs reproduce rapidly and overrun settled territory through sheer subterranean swarms. The Stonesplinter clan wields crude elemental magic through their shamans and relies on ferocious bonesnappers to tear through dwarven scouts, threatening nearby settlements and trade paths."
+  },
+  {
+   "q": "What does Mountaineer Wallbang do after this task?",
+   "aliases": [
+    "what next after wallbang",
+    "who is the captain"
+   ],
+   "answer": "Satisfied that you are a proven fighter in service to King Magni, Wallbang directs you to report to Captain Rugelfuss for more strategic orders in the defense of Loch Modan."
+  },
+  {
+   "q": "Who rules Ironforge during this crisis?",
+   "aliases": [
+    "who is the dwarven king",
+    "king of ironforge"
+   ],
+   "answer": "King Magni Bronzebeard rules the dwarven kingdom from the Great Forge in Ironforge. Every effort made to safeguard Loch Modan is carried out in his name and defense of his sovereign lands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Answering Wallbang's call is a matter of home defense for any dwarf, stepping in to protect the homesteads of Loch Modan while your kin's standing armies are diverted abroad."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Aiding the Southern Guard Tower shores up vital trade and travel routes connecting Dun Morogh to the eastern wetlands and the kingdom of Stormwind."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Facing the crude spellcasters of the Stonesplinter troggs offers an unrefined, feral look into earth magic twisted by savage instincts."
+  }
+ ],
+ "keywords": [
+  "bonesnapper",
+  "ironforge",
+  "loch modan",
+  "magni",
+  "mountaineer",
+  "shaman",
+  "stonesplinter",
+  "trogg",
+  "wallbang"
+ ],
+ "related": [
+  "quest:217",
+  "zone:lochmodan",
+  "subzone:stonesplinter-valley",
+  "topic:trogg",
+  "zone:ironforge",
+  "subzone:the-loch",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "In Defense of the King's Lands (Classic 3)"
+ ]
+}

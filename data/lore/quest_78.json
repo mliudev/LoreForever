@@ -1,0 +1,121 @@
+{
+ "key": "quest:78",
+ "type": "quest",
+ "name": "The Legend of Stalvan",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   78
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Marshal Haggard",
+  "end": "Tavernkeep Smitts",
+  "previous": "The Legend of Stalvan (8)",
+  "next": "The Legend of Stalvan (10)",
+  "wiki": "The Legend of Stalvan (9)",
+  "chain": []
+ },
+ "summary": "This errand marks a turning point in uncovering the history of Stalvan Mistmantle, sending investigators from Elwynn Forest back into the shadowed town of Darkshire. Guided by Marshal Haggard's memory of his service days, you bring a recovered journal page to Tavernkeep Smitts at the Scarlet Raven Tavern to identify the chilling handwriting.",
+ "sections": [
+  {
+   "title": "A Lead from the Marshal",
+   "body": "After recovering a weathered, torn journal page from Marshal Haggard's chest in Elwynn Forest, the retired commander cannot read the faded script due to his failing eyesight. Recognizing that the trail leads back across the river, Haggard recalls his past commanding the Stormwind Guard and remembers spending evenings at the Scarlet Raven Tavern in Darkshire. He directs you to Tavernkeep Smitts, a barkeep whose long tenure has made him an unofficial custodian of local history and rumors.",
+   "spoiler": 0
+  },
+  {
+   "title": "Return to the Scarlet Raven",
+   "body": "Crossing back through the gloomy woods of Duskwood, you present the faded manuscript to Smitts behind his counter. Smitts immediately softens upon hearing the name of his old acquaintance Haggard, though he laments the veteran's fading health. Upon laying eyes on the parchment, the barkeep's easygoing demeanor instantly shatters into alarm: he recognizes the distinctive script without a shadow of doubt, pulling the investigation closer to the horrifying truth of Stalvan's madness.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Marshal Haggard send me back to Darkshire?",
+   "aliases": [
+    "why go to darkshire",
+    "haggard to darkshire",
+    "why smitts"
+   ],
+   "answer": "Marshal Haggard is aging and nearly blind, preventing him from examining the recovered journal page himself. He recalls that Tavernkeep Smitts of the Scarlet Raven Tavern was an expert on local lore and history when Haggard served with the Stormwind Guard, making Smitts the ideal person to identify the script."
+  },
+  {
+   "q": "Where is Tavernkeep Smitts located?",
+   "aliases": [
+    "where is smitts",
+    "smitts location",
+    "scarlet raven tavern location"
+   ],
+   "answer": "Tavernkeep Smitts tends the bar inside the Scarlet Raven Tavern, situated on the eastern side of Darkshire in Duskwood."
+  },
+  {
+   "q": "What item do you carry to Tavernkeep Smitts?",
+   "aliases": [
+    "what item",
+    "faded journal page",
+    "stalvan journal page"
+   ],
+   "answer": "You bring a Faded Journal Page, an excerpt from Stalvan Mistmantle's lost journal that was previously found secured inside Marshal Haggard's footlocker."
+  },
+  {
+   "q": "Does Tavernkeep Smitts recognize the handwriting?",
+   "aliases": [
+    "does smitts know the writing",
+    "smitts reaction to journal"
+   ],
+   "answer": "Yes. The moment Smitts inspects the faded page, he swears by the Light in shock, instantly recognizing the distinctive handwriting of Stalvan Mistmantle."
+  },
+  {
+   "q": "How does Smitts know Marshal Haggard?",
+   "aliases": [
+    "smitts haggard relationship",
+    "how smitts knows haggard"
+   ],
+   "answer": "Smitts hosted Haggard years ago when Haggard led patrols of the Stormwind Guard into Duskwood and frequented the Scarlet Raven Tavern for drinks."
+  },
+  {
+   "q": "What comes next in the search for Stalvan?",
+   "aliases": [
+    "what is next",
+    "next step stalvan",
+    "stalvan chain continue"
+   ],
+   "answer": "Recognizing the handwriting, Smitts provides the next vital clue pointing deeper into Duskwood, guiding you toward unraveling Stalvan's tragic history and fate."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The quest highlights the deep bonds among former defenders of the realm, connecting retired Stormwind guardsmen to community keepers across the Kingdom of Stormwind."
+  },
+  {
+   "target": "race:Human",
+   "text": "This step reveals the grim memories lurking within human settlements, showing how past tragedies in Grand Hamlet and Darkshire refuse to stay buried."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "duskwood",
+  "elwynn",
+  "journal",
+  "marshal haggard",
+  "mistmantle",
+  "scarlet raven tavern",
+  "stalvan",
+  "tavernkeep smitts"
+ ],
+ "related": [
+  "quest:1666",
+  "npc:tavernkeep-smitts",
+  "subzone:scarlet-raven-tavern",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "zone:elwynn",
+  "topic:stormwind-guard",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "The Legend of Stalvan (9)"
+ ]
+}

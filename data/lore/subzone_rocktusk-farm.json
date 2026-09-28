@@ -1,0 +1,72 @@
+{
+ "key": "subzone:rocktusk-farm",
+ "type": "subzone",
+ "name": "Rocktusk Farm",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Rocktusk Farm"
+ },
+ "summary": "Rocktusk Farm is a small swine ranch situated in northern Durotar just down the road outside the gates of Orgrimmar. Tucked near the fortified approaches of the capital, the stead supplies vital meat and provisions to the city's inhabitants.",
+ "sections": [
+  {
+   "title": "Provisions for the Capital",
+   "body": "Carved out of the arid soil of Durotar, Rocktusk Farm is dedicated to raising hardy swine suited to the rough desert climate. Due to Durotar's notoriously dry and stony ground, raising crops is difficult, making domestic swine farms an essential lifeline for feeding Orgrimmar's burgeoning population. Nestled close to the capital's fortified perimeter, the homestead enjoys a degree of safety rarely found in the harsh wilds of the red canyonlands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Rocktusk Farm used for?",
+   "aliases": [
+    "what is this place",
+    "rocktusk farm purpose",
+    "why are there pigs here"
+   ],
+   "answer": "Rocktusk Farm is a domestic pig farm. It raises swine to supply fresh meat and provisions to the neighboring capital of Orgrimmar, where arable land is scarce."
+  },
+  {
+   "q": "Where is Rocktusk Farm located?",
+   "aliases": [
+    "where is rocktusk farm",
+    "rocktusk farm location"
+   ],
+   "answer": "The farm sits in northern Durotar, located just southwest down the road from the main gates of Orgrimmar and nestled along the rocky bluffs."
+  },
+  {
+   "q": "Is the farm safe from wild beasts?",
+   "aliases": [
+    "is rocktusk farm safe",
+    "dangers at rocktusk farm"
+   ],
+   "answer": "Its close proximity to Orgrimmar and nearby Horde military patrols keeps it safer than most outlying homesteads in Durotar, though wild beasts and roaming pests still prowl the outskirts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Settled just outside the capital, the swine reared here are critical sustenance for the warriors and laborers stationed in Orgrimmar."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "The pigs raised on the farm are prized by Horde cooks searching for fresh pork, ribs, and savory cuts to roast."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "horde provisions",
+  "orgrimmar",
+  "pig farm",
+  "rocktusk farm",
+  "swine"
+ ],
+ "related": [
+  "zone:durotar",
+  "zone:orgrimmar",
+  "topic:horde",
+  "subzone:gates-of-orgrimmar"
+ ],
+ "attribution": [
+  "Rocktusk Farm"
+ ]
+}

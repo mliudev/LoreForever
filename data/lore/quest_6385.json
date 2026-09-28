@@ -1,0 +1,127 @@
+{
+ "key": "quest:6385",
+ "type": "quest",
+ "name": "Doras the Wind Rider Master",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   6385
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Innkeeper Gryshka",
+  "end": "Doras",
+  "previous": "Ride to Orgrimmar (Classic)",
+  "next": "Return to the Crossroads.",
+  "wiki": "Doras the Wind Rider Master (Classic)",
+  "chain": [
+   "Meats to Orgrimmar (Classic)",
+   "Ride to Orgrimmar (Classic)",
+   "Doras the Wind Rider Master (Classic)",
+   "Return to the Crossroads."
+  ]
+ },
+ "summary": "Innkeeper Gryshka of Orgrimmar has written a letter of gratitude to Zargh at the Crossroads and needs a courier to fly it back to the Barrens. To arrange passage, she directs travelers up to the city's skytower to consult Doras, the Horde's chief wind rider master.",
+ "sections": [
+  {
+   "title": "A Courier's Reply",
+   "body": "After receiving a fresh shipment of bulk meat flown in from the hunting grounds of the Barrens, Innkeeper Gryshka drafts a formal letter of thanks to the butcher Zargh. Lacking the time to make the overland journey through Durotar herself, she relies on the aerial courier network established between Kalimdor's major Horde settlements to speed her message back across the frontier.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Master of the Roost",
+   "body": "Doras oversees Orgrimmar's wind rider roost atop the towering mesa overlooking the Valley of Strength. His trained wyverns are the lifeblood of Horde military communication and logistics, bridging the perilous gap between the capital and outlying outposts like the Crossroads in a fraction of the time required by foot or kodo cart.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Doras?",
+   "aliases": [
+    "doras",
+    "who is doras",
+    "orgrimmar flight master"
+   ],
+   "answer": "Doras is the primary wind rider master stationed in Orgrimmar. He manages the city's stable of trained wyverns and coordinates aerial travel to distant Horde hubs throughout central Kalimdor."
+  },
+  {
+   "q": "Why is Innkeeper Gryshka sending this letter?",
+   "aliases": [
+    "why send letter",
+    "gryshka letter",
+    "what is the letter for"
+   ],
+   "answer": "Gryshka is sending a written note of thanks to Zargh, the butcher at the Crossroads, acknowledging the safe arrival of meat supplies delivered to her tavern in Orgrimmar."
+  },
+  {
+   "q": "Where can Doras be found?",
+   "aliases": [
+    "where is doras",
+    "doras location",
+    "find doras"
+   ],
+   "answer": "Doras is stationed atop the central flight tower above the Valley of Strength in Orgrimmar, reachable via the wooden lifts and walkways climbing the surrounding mesas."
+  },
+  {
+   "q": "What happens after giving Gryshka's letter to Doras?",
+   "aliases": [
+    "what next",
+    "after doras",
+    "next quest"
+   ],
+   "answer": "Once you consult Doras, he prepares a wind rider to carry you back to the Barrens so you can hand-deliver Gryshka's letter directly to Zargh at the Crossroads."
+  },
+  {
+   "q": "Who is Zargh?",
+   "aliases": [
+    "zargh",
+    "who is zargh"
+   ],
+   "answer": "Zargh is a butcher based at the Crossroads in the Barrens responsible for packaging and dispatching meat provisions to feed the growing population of Orgrimmar."
+  },
+  {
+   "q": "Why use wind riders instead of walking?",
+   "aliases": [
+    "why fly",
+    "wind rider purpose",
+    "flight path lore"
+   ],
+   "answer": "The overland journey from Orgrimmar through Durotar and across the Southfury River into the Barrens is slow and fraught with perils. Tamed wind riders provide the Horde with a swift, reliable means to send scouts, orders, and couriers between settlements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The wind rider network connects Orgrimmar to key regional garrisons, serving as the connective sinew that lets the young Horde project force and move supplies across Kalimdor's wilderness."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcs have forged a strong bond with the native wyverns of Kalimdor since arriving on the continent, relying on their agility and strength as flying mounts and beast-of-burden couriers."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "doras",
+  "flight master",
+  "gryshka",
+  "orgrimmar",
+  "wind rider",
+  "wyvern",
+  "zargh"
+ ],
+ "related": [
+  "npc:doras",
+  "npc:innkeeper-gryshka",
+  "quest:6384",
+  "quest:6386",
+  "quest:6365",
+  "npc:zargh",
+  "subzone:crossroads",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Doras the Wind Rider Master (Classic)"
+ ]
+}

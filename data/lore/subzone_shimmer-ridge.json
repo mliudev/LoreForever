@@ -1,0 +1,89 @@
+{
+ "key": "subzone:shimmer-ridge",
+ "type": "subzone",
+ "name": "Shimmer Ridge",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Shimmer Ridge"
+ },
+ "summary": "Shimmer Ridge is a rugged highland nestled in northern Dun Morogh, directly west of the Gates of Ironforge. Occupied by hostile Frostmane trolls, the rocky heights consist of two camps joined by a rickety bridge and are renowned as the sole harvesting ground for potent shimmerweed.",
+ "sections": [
+  {
+   "title": "A Frostmane Stronghold",
+   "body": "Perched along the craggy slopes just west of Ironforge's mighty entryway, Shimmer Ridge serves as an active redoubt for the Frostmane troll tribe. Divided into twin camps straddling a chasm and linked by a wooden span, the enclave is heavily guarded by troll scavengers and their tamed mountain boars. Their proximity to the main roadway and the dwarven capital poses a continuous nuisance to travelers and mountain patrols, who must constantly remain on guard against opportunistic raids from the high ground.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of Shimmerweed",
+   "body": "Aside from strategic positioning, the ridge is famous for cultivating shimmerweed, a resilient native basket-leaf plant that thrives in the frigid, snow-covered rocks. Prized by local dwarven brewmasters for crafting potent, flavorful highland ales, the herb cannot easily be gathered elsewhere. Daring mountaineers and young recruits frequently risk Frostmane ambushes and savage tusked beasts simply to harvest fresh baskets of the precious botanical directly from the trolls' plots.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Shimmer Ridge located?",
+   "aliases": [
+    "shimmer ridge location",
+    "where is shimmer ridge",
+    "find shimmer ridge"
+   ],
+   "answer": "Shimmer Ridge is situated in northern Dun Morogh, directly to the west of the massive Gates of Ironforge that lead into the dwarven capital."
+  },
+  {
+   "q": "Who controls Shimmer Ridge?",
+   "aliases": [
+    "who lives at shimmer ridge",
+    "shimmer ridge enemies",
+    "trolls at shimmer ridge"
+   ],
+   "answer": "The ridge is occupied by the indigenous Frostmane troll tribe, who have established dual camps connected by a bridge and defend the heights alongside their tamed boars."
+  },
+  {
+   "q": "What is shimmerweed and why is it sought after?",
+   "aliases": [
+    "shimmerweed use",
+    "what is shimmerweed",
+    "shimmer weed purpose"
+   ],
+   "answer": "Shimmerweed is a distinct mountain herb that thrives on the cold slopes of the ridge. Local dwarven brewers value it immensely as an essential ingredient for specialized, flavorful recipes of highland ale."
+  },
+  {
+   "q": "Why don't the dwarves clear out the trolls completely?",
+   "aliases": [
+    "why ironforge ignores shimmer ridge",
+    "ironforge vs frostmane",
+    "dwarf response shimmer ridge"
+   ],
+   "answer": "Ironforge's military is occupied with broader defense and external matters, leaving local threats like the Frostmane enclaves in Dun Morogh to be managed by regional mountaineers and wandering recruits."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Nestled in the shadow of Ironforge's gates, Shimmer Ridge is an irritating reminder of the persistent Frostmane threat and the dangerous source of choice shimmerweed for legendary dwarven stout."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "While ordinary flora struggles in Dun Morogh's sub-zero climate, Shimmer Ridge uniquely supports valuable shimmerweed baskets tended among the Frostmane camps."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "frostmane",
+  "ironforge",
+  "mountaineers",
+  "shimmer ridge",
+  "shimmerweed",
+  "trolls"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "subzone:gates-of-ironforge",
+  "zone:ironforge",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Shimmer Ridge"
+ ]
+}

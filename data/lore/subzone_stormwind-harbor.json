@@ -1,0 +1,93 @@
+{
+ "key": "subzone:stormwind-harbor",
+ "type": "subzone",
+ "name": "Stormwind Harbor",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Stormwind Harbor"
+ },
+ "summary": "Tucked into the rugged cliffs northwest of the city, Stormwind Harbor serves as the primary maritime lifeline and naval stronghold of the Kingdom of Stormwind. Guarded by heavy batteries, ballistae, and steam tanks, its docks host both commercial vessels and warships operating throughout the Great Sea.",
+ "sections": [
+  {
+   "title": "Gateway to the Great Sea",
+   "body": "Stormwind Harbor is built into the tiered coastal crags north of Cathedral Square, opening out into the vast waters of the Great Sea. As the kingdom reasserts its strength, the port serves as both a busy civilian trading center and a heavily fortified military installation. Stone wharfs, dry docks, and shipbuilding facilities allow the Stormwind Army and Alliance fleets to refit, repair, and deploy their warships. Access into the port is tightly monitored by the Stormwind Harbor Guards, requiring crews to present regulatory papers before mooring. Artillery batteries, watchtowers, and mechanical siege weaponry line the surrounding cliffs, deterring hostile raiders and privateers from probing the kingdom's western flank.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Legacy of Evacuation",
+   "body": "The harbor has long been integral to Stormwind's survival, even in its darkest hour. At the tragic close of the First War, when the Old Horde overran and torched the city, it was to this very coastline that Lord Anduin Lothar led the desperate remnants of the kingdom's populace. Fighting a bloody rearguard action to protect the civilian escape, Lothar organized an armada of surviving vessels to carry the refugees northward across the sea to Lordaeron. The remaining ships were burned at the shoreline to deny the orcs any pursuit, leaving the harbor in ashes until the capital was reclaimed and rebuilt.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Stormwind Harbor located?",
+   "aliases": [
+    "where is the harbor",
+    "how to get to stormwind harbor",
+    "harbor location"
+   ],
+   "answer": "The harbor is located along the northwestern coast of Stormwind City. It can be reached through the fortified passages leading down the cliffs between Cathedral Square and the garden bluffs."
+  },
+  {
+   "q": "What role did the harbor play during the First War?",
+   "aliases": [
+    "harbor first war",
+    "anduin lothar harbor",
+    "stormwind harbor history"
+   ],
+   "answer": "When the Old Horde sacked Stormwind during the First War, Lord Anduin Lothar led surviving citizens and soldiers to the harbor. They evacuated by boat to seek refuge in Lordaeron, scuttling the remaining vessels behind them to prevent the orcs from pursuing."
+  },
+  {
+   "q": "Who guards and regulates the harbor?",
+   "aliases": [
+    "harbor guards",
+    "who patrols the harbor",
+    "port security"
+   ],
+   "answer": "Security and oversight are managed by the Stormwind Harbor Guards, a specialized branch of the city guard. They patrol the docks, man defensive artillery, and inspect shipping papers, strictly forbidding known pirates and unauthorized ships from mooring."
+  },
+  {
+   "q": "Can pirates dock at Stormwind Harbor?",
+   "aliases": [
+    "pirates in harbor",
+    "can corsairs dock here"
+   ],
+   "answer": "Under normal circumstances, pirates are treated as hostile criminals and attacked on sight. However, in extraordinary circumstances, a pirate or privateer who performs a service of profound importance to the crown may be granted a royal pardon allowing safe berth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The harbor is the Alliance's primary naval port in the south, connecting Stormwind's military strength with distant allies across the Great Sea."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, the harbor stands as both a hub of recovery and a memorial to the evacuation led by Anduin Lothar after the fall of the capital."
+  }
+ ],
+ "keywords": [
+  "anduin lothar",
+  "docks",
+  "great sea",
+  "harbor guard",
+  "port",
+  "shipyard",
+  "stormwind harbor",
+  "wharfs"
+ ],
+ "related": [
+  "zone:stormwind",
+  "topic:stormwind-kingdom",
+  "topic:anduin-lothar",
+  "topic:stormwind-army",
+  "topic:alliance",
+  "topic:first-war",
+  "subzone:cathedral-square",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Stormwind Harbor"
+ ]
+}

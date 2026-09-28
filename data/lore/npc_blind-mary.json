@@ -1,0 +1,115 @@
+{
+ "key": "npc:blind-mary",
+ "type": "npc",
+ "name": "Blind Mary",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Blind Mary",
+  "refs": 4
+ },
+ "summary": "Blind Mary is a tormented banshee haunting an abandoned, ruined farmhouse just southeast of Darkshire in Duskwood. Once a vain and beautiful mortal woman, her violent death and transformation drove her to self-inflicted mutilation in grief over what she had become.",
+ "sections": [
+  {
+   "title": "A Tragic Vanity",
+   "body": "Before the shadows fell across Duskwood, Mary was known as a striking mortal woman who took immense pride in her beauty, rarely seen without her treasured looking glass. When the undead swept over the region, Mary was slain along with many of her neighbors. Unlike those who found rest in the earth, her spirit lingered on as an ethereal banshee, condemned to wander the mortal realm in a ghastly, translucent form.",
+   "spoiler": 0
+  },
+  {
+   "title": "Blinded by Despair",
+   "body": "Awakening to undeath, Mary was overwhelmed by sorrow, horror, and fury at her monstrous reflection. Incapable of enduring the sight of her spectral visage, she clawed out her own eyes with her bare hands so she would never gaze upon herself again. In her agony, she discarded her beloved looking glass, leaving her to drift through her abandoned home as a blind, weeping wraith clutching to faint memories of the mortal life she lost.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Blind Mary?",
+   "aliases": [
+    "who is blind mary",
+    "blind mary backstory",
+    "blind mary lore",
+    "blind mary duskwood"
+   ],
+   "answer": "Blind Mary is a banshee haunting a ruined homestead on the southeastern outskirts of Darkshire. In life, she was a beautiful local woman, but she was slaughtered during Duskwood's descent into darkness and arose as an undead spirit."
+  },
+  {
+   "q": "Why is she called Blind Mary?",
+   "aliases": [
+    "why is she blind",
+    "how did blind mary lose her eyes",
+    "blind mary eyes"
+   ],
+   "answer": "Consumed by grief and despair over her horrific banshee form, Mary clawed her own eyes out with her bare hands so she would never have to witness her own reflection again."
+  },
+  {
+   "q": "Where does Blind Mary dwell?",
+   "aliases": [
+    "blind mary location",
+    "where is blind mary",
+    "blind mary haunt"
+   ],
+   "answer": "She lingers inside a dilapidated farmhouse known as Blind Mary's Haunt, situated just southeast of the town of Darkshire in eastern Duskwood."
+  },
+  {
+   "q": "Is Blind Mary hostile to living travelers?",
+   "aliases": [
+    "is blind mary hostile",
+    "does blind mary attack",
+    "can you talk to blind mary"
+   ],
+   "answer": "Unlike the aggressive ghouls and skeletons wandering the surrounding woods, Blind Mary does not immediately attack travelers. She remains trapped in mourning and can be spoken to by those who approach her ruin."
+  },
+  {
+   "q": "What happened to Mary's looking glass?",
+   "aliases": [
+    "mary mirror",
+    "blind mary looking glass",
+    "what happened to her mirror"
+   ],
+   "answer": "After tearing out her eyes in horror at her spectral state, Mary cast away her prized looking glass, leaving it lost somewhere among the haunted reaches of Duskwood."
+  },
+  {
+   "q": "Why do adventurers seek out Blind Mary?",
+   "aliases": [
+    "blind mary quests",
+    "why visit blind mary",
+    "blind mary questline"
+   ],
+   "answer": "Travelers and local artisans visit Mary during tasks around Darkshire, whether seeking to recover long-lost items like her discarded mirror, gathering ghost hair for specialized stitching, or returning forgotten personal keepsakes to soothe her tormented spirit."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "Artisans of the loom occasionally seek out spectral entities like Mary for ghost hair thread, a delicate and supernatural material woven from ethereal remnants."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Mary represents a tragic example of a soul untethered by horrific trauma, caught halfway between life and damnation through grief and vanity."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Blind Mary's tragic fate is an intimate reminder for Darkshire's defenders of how deeply the curse of Duskwood has devastated everyday townsfolk."
+  }
+ ],
+ "keywords": [
+  "banshee",
+  "blind mary",
+  "darkshire",
+  "duskwood",
+  "ghost hair",
+  "haunt",
+  "looking glass",
+  "wraith"
+ ],
+ "related": [
+  "subzone:darkshire",
+  "zone:duskwood",
+  "quest:149",
+  "quest:154",
+  "quest:174"
+ ],
+ "attribution": [
+  "Blind Mary"
+ ]
+}

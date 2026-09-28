@@ -1,0 +1,125 @@
+{
+ "key": "topic:agamaggan",
+ "type": "topic",
+ "name": "Agamaggan",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Agamaggan"
+ },
+ "summary": "Agamaggan the Great Boar was one of the colossal Ancient Guardians who walked Azeroth in its earliest days. He fell ten thousand years ago fighting the Burning Legion in the War of the Ancients, sacrificing his life so mortals could reach the Well of Eternity. Where his blood and body crashed into the earth, vast networks of thorny vines arose, creating the Razorfen and granting life and purpose to his descendants, the quilboar.",
+ "sections": [
+  {
+   "title": "The War of the Ancients",
+   "body": "Ten thousand years ago, during the first invasion of the Burning Legion, the demigod Cenarius rallied the Ancient Guardians to aid the night elves in defending Azeroth. Agamaggan answered the call with terrifying ferocity. Towering over the battlefield, the Great Boar trampled legions of doomguards under his massive hooves, exhaled streams of caustic breath, and launched salvos of razor-sharp thorns from his bristling back. His warpath carried him across the continent, where he clashed directly against demonic generals such as Mannoroth. Ultimately overwhelmed by sheer numbers, Agamaggan fought to his dying breath, buying Malfurion Stormrage and the kaldorei resistance precious time to reach the Well of Eternity.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Razorfen and Blood Shards",
+   "body": "Where Agamaggan collapsed in the southern Barrens, his colossal corpse reshaped the land. His spilled blood soaked into the soil, causing enormous, impenetrable brambles and thorny vines to burst upward from the dry earth. These tangled thickets became known as the Razorfen. The quilboar revere the site as their holiest ground, viewing the labyrinth of Razorfen Kraul as his resting body and Razorfen Downs as his gaping skull. Scattered throughout the Barrens are crystallized Blood Shards, believed to be the physical remnants of the demigod's spilled blood, pulsing with lingering primal energy that quilboar geomancers and shamans harness for power.",
+   "spoiler": 0
+  },
+  {
+   "title": "Father of the Quilboar",
+   "body": "Agamaggan is revered as the divine progenitor of all quilboar. They view the surrounding brambles not merely as homes, but as the living armor left behind by their creator to shelter them from hostile neighbors. Quilboar tribes believe their god's spirit watches over them, granting martial vigor to their warriors and earth magic to their geomancers. In turn, they aggressively defend the thorns against encroaching tauren, orcs, and centaur, convinced that their sacred duty is to guard the fallen body of the boar god who birthed them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Agamaggan?",
+   "aliases": [
+    "agamaggan lore",
+    "who is the great boar",
+    "agamaggan background"
+   ],
+   "answer": "Agamaggan is an Ancient Guardian, a colossal boar wild god who existed in the earliest eras of Azeroth. He fought alongside Cenarius and the night elves against the Burning Legion during the War of the Ancients, sacrificing himself to save the world."
+  },
+  {
+   "q": "How did the Razorfen form?",
+   "aliases": [
+    "how did razorfen get there",
+    "why are there huge thorns in the barrens",
+    "razorfen origin"
+   ],
+   "answer": "When Agamaggan died in battle against the Burning Legion, his colossal body fell in what is now the southern Barrens. Wherever his divine blood touched the ground, massive thorny briars surged upward, creating the dense thickets known as Razorfen Kraul and Razorfen Downs."
+  },
+  {
+   "q": "What is the connection between Agamaggan and the quilboar?",
+   "aliases": [
+    "are quilboar related to agamaggan",
+    "quilboar god",
+    "who made the quilboar"
+   ],
+   "answer": "The quilboar are the direct descendants of Agamaggan. They worship him fervently as their creator and god, building their settlements within his thorny remains and dedicating their shamanic rituals to his memory."
+  },
+  {
+   "q": "What are Blood Shards?",
+   "aliases": [
+    "what do blood shards do",
+    "blood shards lore",
+    "blood of agamaggan"
+   ],
+   "answer": "Blood Shards are red crystalline stones found in the Barrens, said to be formed from the dried, concentrated blood of Agamaggan. They hold residual primal magic, which quilboar geomancers and curious spellcasters use to empower their physical strength and rituals."
+  },
+  {
+   "q": "Did night elves worship Agamaggan?",
+   "aliases": [
+    "night elves agamaggan",
+    "did dark trolls worship agamaggan"
+   ],
+   "answer": "Yes. Before the night elves arose, the dark trolls of the Shadowtooth clan revered Agamaggan as a loa. Night elves continue to revere him as one of the noble Ancients who gave his life defending Kalimdor from the Legion."
+  },
+  {
+   "q": "Is Agamaggan's skull visible in the world?",
+   "aliases": [
+    "razorfen downs skull",
+    "where is agamaggan head",
+    "agamaggan entrance"
+   ],
+   "answer": "Quilboar tradition holds that the great gaping entrance leading into Razorfen Downs is the hollowed skull and jaw of Agamaggan himself. Quilboar believe the maw will consume and destroy any trespassers who are not loyal to their god."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Druids hold Agamaggan in high esteem as one of the Ancient Guardians who fought alongside Cenarius, honoring his sacrifice during the War of the Ancients."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman who venture into the Barrens can sense the potent, lingering earth and spirit energies embedded within Agamaggan's blood and the Razorfen thorns."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Night elves remember Agamaggan as the fierce demigod who threw himself against Mannoroth's demons to clear a path to the Well of Eternity."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde contends daily with Agamaggan's quilboar children, whose fanatical devotion to their fallen god drives relentless attacks across the Barrens."
+  }
+ ],
+ "keywords": [
+  "agamaggan",
+  "ancient guardian",
+  "barrens",
+  "blood shards",
+  "cenarius",
+  "great boar",
+  "quilboar",
+  "razorfen",
+  "war of the ancients"
+ ],
+ "related": [
+  "topic:quilboar",
+  "topic:razorfen",
+  "zone:razorfenkraul",
+  "subzone:razorfen-downs-classic",
+  "topic:war-of-the-ancients",
+  "topic:cenarius",
+  "quest:5052",
+  "quest:5044"
+ ],
+ "attribution": [
+  "Agamaggan"
+ ]
+}

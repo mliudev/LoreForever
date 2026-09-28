@@ -1,0 +1,89 @@
+{
+ "key": "subzone:drowned-sacellum",
+ "type": "subzone",
+ "name": "Drowned Sacellum",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Drowned Sacellum"
+ },
+ "summary": "The Drowned Sacellum is a submerged elven shrine lying just inside the entrance of Blackfathom Deeps. Submerged beneath brackish saltwater and draped in cavernous roots, its shattered masonry is now overrun by murlocs and makrura.",
+ "sections": [
+  {
+   "title": "A Submerged Sanctuary",
+   "body": "Stepping through the threshold of Blackfathom Deeps immediately brings explorers into the Drowned Sacellum. Once a tranquil subterranean chapel dedicated to Elune, the sacellum has long collapsed into the sea-swept abyss beneath Ashenvale's coast. Saltwater pools swallow ancient marble flagstones overgrown with starfish, while massive tree roots dangle from the cavern ceiling above. Dark, flickering wisps provide the only dim light in the gloom, illuminating a ruined pathway of stones that adventurers must carefully navigate to reach the Pool of Ask'ar deeper within the temple complex.",
+   "spoiler": 0
+  },
+  {
+   "title": "Den of Scavengers",
+   "body": "Long abandoned by its night elf caretakers, the Drowned Sacellum has fallen into the hands of shoreline scavengers. Packs of aggressive murlocs and heavily armored makrura dwell side by side in the murky waters, attacking anyone who dares disturb their nesting grounds. While darker, cultic threats lurk further below in the temple depths, these predatory creatures form the first hazardous line of defense for the subterranean ruins.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was the Drowned Sacellum originally used for?",
+   "aliases": [
+    "drowned sacellum purpose",
+    "what is the drowned sacellum",
+    "sacellum history"
+   ],
+   "answer": "A sacellum is a small roofless shrine or chapel. In ancient times before the Sundering, it served as an elven place of worship within the greater subterranean temple complex dedicated to the moon goddess Elune."
+  },
+  {
+   "q": "What creatures inhabit this part of the caverns?",
+   "aliases": [
+    "drowned sacellum mobs",
+    "what lives in drowned sacellum",
+    "monsters in drowned sacellum"
+   ],
+   "answer": "The flooded ruins are occupied primarily by wild murlocs and makrura. They thrive in the brackish saltwater pools and nesting crevices of the cavern."
+  },
+  {
+   "q": "How do you navigate past the Drowned Sacellum?",
+   "aliases": [
+    "how to get through drowned sacellum",
+    "drowned sacellum jump",
+    "path to pool of askar"
+   ],
+   "answer": "Travelers must carefully leap across the crumbling, half-submerged platforms and pillars rising out of the water to access the tunnel leading forward to the Pool of Ask'ar."
+  },
+  {
+   "q": "Where does the light in the cavern come from?",
+   "aliases": [
+    "why is it glowing",
+    "wisps in drowned sacellum",
+    "drowned sacellum lighting"
+   ],
+   "answer": "Faint, eerie illumination filters down from dark wisps floating among the thick, twisted tree roots that pierce through the ceiling from the Ashenvale forests above."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Seeing an ancient, sacred shrine submerged in saltwater and fouled by murlocs is a bitter reminder of the sacred Kaldorei heritage lost beneath the Zoram Strand."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Massive tree roots continue to breach the stone ceiling from the surface above, proof that nature endures even amidst corrupted underground waters."
+  }
+ ],
+ "keywords": [
+  "bfd",
+  "blackfathom deeps",
+  "drowned sacellum",
+  "makrura",
+  "murloc",
+  "shrine",
+  "zoram strand"
+ ],
+ "related": [
+  "zone:blackfathom",
+  "subzone:pool-of-ask-ar",
+  "topic:murloc",
+  "npc:umpi"
+ ],
+ "attribution": [
+  "Drowned Sacellum"
+ ]
+}

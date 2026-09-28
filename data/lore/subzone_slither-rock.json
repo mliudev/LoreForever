@@ -1,0 +1,63 @@
+{
+ "key": "subzone:slither-rock",
+ "type": "subzone",
+ "name": "Slither Rock",
+ "era": "classic",
+ "zone": "burningsteppes",
+ "meta": {
+  "wiki": "Slither Rock"
+ },
+ "summary": "Slither Rock is a secluded cave tucked into the far northeastern cliffs of the Burning Steppes, past the perilous Terror Wing Path. It serves as the solitary refuge of Cyrus Therepentous, a sharp-tongued black dragonspawn with his own hidden agenda.",
+ "sections": [
+  {
+   "title": "A Secluded Cavern",
+   "body": "Tucked away in the scorched crags beyond the Terror Wing Path, Slither Rock is easy to overlook amid the fiery wastes of the Burning Steppes. Far from the roaring forges and marching orc warbands of Blackrock Spire, this remote hollow houses the solitary black dragonspawn Cyrus Therepentous. While dragonspawn are typically fiercely loyal soldiers of the Black Dragonflight, Cyrus maintains a strange, cantankerous independence here, willing to converse with mortal travelers rather than slaughtering them on sight\u2014though never without a steady stream of insults.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Slither Rock located?",
+   "aliases": [
+    "slither rock location",
+    "where is slither rock",
+    "find slither rock"
+   ],
+   "answer": "Slither Rock is located in the far northeastern corner of the Burning Steppes. To reach it, travelers must navigate past the black dragonkin patrolling the Terror Wing Path."
+  },
+  {
+   "q": "Who lives in Slither Rock?",
+   "aliases": [
+    "who is in slither rock",
+    "slither rock mob",
+    "slither rock npc"
+   ],
+   "answer": "The cave is home to Cyrus Therepentous, a solitary black dragonspawn. Unlike most of his kin who attack mortals immediately, Cyrus is willing to speak with outsiders, though he remains foul-tempered and derisive."
+  },
+  {
+   "q": "Why would an adventurer seek out this cave?",
+   "aliases": [
+    "why go to slither rock",
+    "slither rock quests",
+    "cyrus purpose"
+   ],
+   "answer": "Adventurers brave the perilous Terror Wing Path to seek the counsel and aid of Cyrus Therepentous. Despite his abrasive attitude, the dragonspawn shares common enemies with travelers opposing the Black Dragonflight and their dark masters."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "black dragonspawn",
+  "burning steppes",
+  "cyrus therepentous",
+  "slither rock",
+  "terror wing path"
+ ],
+ "related": [
+  "npc:cyrus-therepentous",
+  "zone:burningsteppes",
+  "subzone:terror-wing-path"
+ ],
+ "attribution": [
+  "Slither Rock"
+ ]
+}

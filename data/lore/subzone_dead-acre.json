@@ -1,0 +1,70 @@
+{
+ "key": "subzone:dead-acre",
+ "type": "subzone",
+ "name": "Dead Acre",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Dead Acre"
+ },
+ "summary": "The Dead Acre is a ruined, smoldering farmstead in southeastern Westfall near the river bridge to Duskwood. Burned to ash by the Defias Brotherhood during their uprising across the countryside, the blackened fields are now abandoned by people and stalked by rogue harvest golems.",
+ "sections": [
+  {
+   "title": "Ashes on the Border",
+   "body": "Situated just north of the road linking Sentinel Hill to Duskwood, the Dead Acre was once a productive homestead among the breadbasket farms of Westfall. When the Defias Brotherhood rose in revolt and drove out the local landowners, this farm met a violent end. The homestead and its surrounding crops were put to the torch, leaving behind scorched timber, smoking earth, and wandering mechanical Harvest Watchers that still reap the barren soil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is this place called the Dead Acre?",
+   "aliases": [
+    "why dead acre",
+    "what happened to dead acre",
+    "why is it burned"
+   ],
+   "answer": "The Defias Brotherhood burned the farmstead and its surrounding fields to the ground when taking control of Westfall. The farm earned its grim name from the blackened ruins and smoldering earth left in their wake."
+  },
+  {
+   "q": "Why are mechanical Harvest Watchers wandering here?",
+   "aliases": [
+    "harvest golems dead acre",
+    "why are there golems",
+    "harvest watchers"
+   ],
+   "answer": "Like many farms across Westfall, the mechanical reapers built to tend the crops were left behind when the settlers fled or died. Corrupted or left without caretakers, the automated Harvest Watchers continue to endlessly patrol the burned-out fields, attacking anyone who draws near."
+  },
+  {
+   "q": "Where is the Dead Acre located?",
+   "aliases": [
+    "dead acre location",
+    "where is dead acre",
+    "how to find dead acre"
+   ],
+   "answer": "The Dead Acre sits in southeastern Westfall, nestled just north of the main road near the bridge that crosses into the shadowed borders of Duskwood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Dead Acre stands as a grim reminder of Stormwind's neglect in Westfall, leaving loyal farmers defenseless against the violent depredations of the Defias Brotherhood."
+  }
+ ],
+ "keywords": [
+  "burned farm",
+  "dead acre",
+  "defias",
+  "farm",
+  "harvest watcher",
+  "westfall"
+ ],
+ "related": [
+  "zone:westfall",
+  "topic:defias-brotherhood",
+  "zone:duskwood",
+  "quest:65"
+ ],
+ "attribution": [
+  "Dead Acre"
+ ]
+}

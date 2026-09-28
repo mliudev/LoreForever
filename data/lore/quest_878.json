@@ -1,0 +1,142 @@
+{
+ "key": "quest:878",
+ "type": "quest",
+ "name": "Tribes at War",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   878
+  ],
+  "level": "21",
+  "faction": "Horde",
+  "start": "Mangletooth",
+  "end": "",
+  "previous": null,
+  "next": "Blood Shards of Agamaggan",
+  "wiki": "Tribes at War",
+  "chain": [
+   "Blood Shards of Agamaggan",
+   "Blood Shard",
+   "Spirit of the Wind",
+   "Agamaggan's Strength",
+   "Agamaggan's Agility",
+   "Wisdom of Agamaggan",
+   "Rising Spirit",
+   "Razorhide"
+  ]
+ },
+ "summary": "Tribes at War is a Horde quest offered by the captive quilboar Mangletooth in Camp Taurajo. Trapped behind bars by the tauren, Mangletooth barters critical intelligence about quilboar incursions in exchange for the slaughter of rival Bristleback spiritual leaders.",
+ "sections": [
+  {
+   "title": "A Prisoner's Bargain",
+   "body": "Caged in Camp Taurajo, the Razormane quilboar Mangletooth proves that captivity does not blunt old hatreds. The Barrens has long been contested between two dominant quilboar factions: the Razormane and the Bristleback. While the Horde struggles to secure its settlements and supply lines against sudden ambushes, Mangletooth offers valuable insight into who is truly tormenting Thork's outpost\u2014provided a champion of the Horde first cuts down the Bristleback's most revered casters.",
+   "spoiler": 0
+  },
+  {
+   "title": "Targeting the Earthweavers",
+   "body": "Mangletooth directs adventurers north against the Bristleback's mystical core: their Water Seekers, Thornweavers, and Geomancers. Both tribes revere the earth and draw raw power from ancient magic tied to their demigod progenitor, Agamaggan. By eliminating their casters, the Horde strikes a crippling blow to Bristleback ritual strength, leaving them vulnerable to Razormane rivals and reducing pressure on nearby trails.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bitter Revelations",
+   "body": "When the task is done, vengeance brings Mangletooth no peace. Rather than celebrating the Bristleback losses, the prisoner descends into rage over his own abandonment. Despite orchestrating strikes to aid his tribe from behind iron bars, the Razormane have sent no rescue party to Camp Taurajo. Spurned and forgotten, Mangletooth turns his gaze toward even deeper secrets of the quilboar, opening the way toward the power of Agamaggan's blood.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Mangletooth locked in a cage at Camp Taurajo?",
+   "aliases": [
+    "why is mangletooth caged",
+    "who captured mangletooth",
+    "mangletooth cage"
+   ],
+   "answer": "Mangletooth is a Razormane quilboar captured by the Horde forces stationed at Camp Taurajo. The tauren hold him prisoner to prevent raids and pry information from him regarding quilboar incursions across the southern Barrens."
+  },
+  {
+   "q": "What is the feud between the Razormane and the Bristleback?",
+   "aliases": [
+    "bristleback vs razormane",
+    "why do quilboar fight each other",
+    "quilboar war"
+   ],
+   "answer": "The Razormane and Bristleback are rival quilboar tribes competing fiercely for territory, scarce water, and the sacred thorn-covered grounds of the Barrens. Despite sharing a spiritual lineage linked to the Great Boar Agamaggan, they despise each other and constantly clash over dominion of the plains."
+  },
+  {
+   "q": "Why does Mangletooth want their spiritual leaders dead specifically?",
+   "aliases": [
+    "why kill geomancers",
+    "bristleback casters",
+    "water seekers and thornweavers"
+   ],
+   "answer": "Quilboar warfare relies heavily on their connection to the earth and blood magic. Geomancers, Thornweavers, and Water Seekers sustain the tribe's life, call upon stone and brambles in battle, and guide their warriors. Striking their casters breaks their morale and cripples their fighting power."
+  },
+  {
+   "q": "Who is Thork, and why does Mangletooth mention him?",
+   "aliases": [
+    "who is thork",
+    "thork camp taurajo",
+    "thork horde"
+   ],
+   "answer": "Thork is an orc officer overseeing Horde efforts and security at the Crossroads and throughout the Barrens. His forces face relentless pressure from quilboar war bands, making intelligence on their tribal movements immensely valuable."
+  },
+  {
+   "q": "What happens after completing this quest?",
+   "aliases": [
+    "tribes at war follow up",
+    "what unlocks after tribes at war",
+    "next quest after mangletooth"
+   ],
+   "answer": "Embittered by his tribe's failure to rescue him, Mangletooth offers to share the secret of Blood Shards. This unlocks the quest Blood Shards of Agamaggan, eventually allowing players to trade shards found on quilboar for various tribal spirit blessings."
+  },
+  {
+   "q": "Where do I find the Bristleback spiritualists?",
+   "aliases": [
+    "bristleback water seeker location",
+    "where are thornweavers",
+    "bristleback geomancers location"
+   ],
+   "answer": "Bristleback Water Seekers, Thornweavers, and Geomancers inhabit the thorny thickets, camps, and ravines held by the Bristleback tribe in the northern reaches of the Barrens, particularly around the perimeter of the Crossroads and northern water sources."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Camp Taurajo sits surrounded by hostile brush, making any opportunity to pit the savage quilboar factions against one another a tactical victory for Horde supply lines."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The quilboar geomancers bend earth and stone through primordial pacts tied to ancient spirits, showing shamans a crude yet potent distortion of elemental reverence."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "As stewards of Camp Taurajo, the tauren tolerate Mangletooth's presence in their camp only so long as his grudges yield security for the southern frontier."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "bristleback",
+  "camp taurajo",
+  "geomancer",
+  "mangletooth",
+  "razormane",
+  "thork",
+  "thornweaver",
+  "tribes at war",
+  "water seeker"
+ ],
+ "related": [
+  "npc:mangletooth",
+  "subzone:camp-taurajo",
+  "quest:5052",
+  "zone:barrens",
+  "npc:thork",
+  "topic:agamaggan",
+  "quest:889",
+  "quest:5042"
+ ],
+ "attribution": [
+  "Tribes at War"
+ ]
+}

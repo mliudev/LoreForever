@@ -1,0 +1,117 @@
+{
+ "key": "quest:942",
+ "type": "quest",
+ "name": "The Absent Minded Prospector",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   942
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Chief Archaeologist Greywhisker",
+  "end": "Archaeologist Flagongut",
+  "previous": "The Absent Minded Prospector (3)",
+  "next": "The Absent Minded Prospector (5)",
+  "wiki": "The Absent Minded Prospector (4)",
+  "chain": []
+ },
+ "summary": "This quest bridges an excavation mystery from Darkshore across the Great Sea to the Wetlands. Chief Archaeologist Greywhisker entrusts you with a strange Kalimdor fossil, directing you to Archaeologist Flagongut in Menethil Harbor to unlock its secrets.",
+ "sections": [
+  {
+   "title": "A Curious Discovery",
+   "body": "While examining the strange fossil uncovered in Darkshore, Chief Archaeologist Greywhisker notices a striking resemblance to a relic shown at an Explorers' League conference back in Ironforge. That earlier piece was presented by Archaeologist Flagongut, who was convinced that such fossils held latent powers waiting to be unlocked. Greywhisker believes Flagongut is the only dwarf capable of discerning what makes this Kalimdor find so extraordinary.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Voyage Across the Sea",
+   "body": "Carrying the mysterious relic means undertaking a long journey out of Kalimdor to the Eastern Kingdoms. Flagongut was last seen waiting for an armed escort to the Whelgar Excavation Site while lodging at the Deepwater Tavern in Menethil Harbor. Delivering the fossil into his hands marks the turning point where a local Darkshore survey ties into a continent-spanning archaeological inquiry.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Greywhisker send me all the way to Menethil Harbor?",
+   "aliases": [
+    "why go to menethil",
+    "greywhisker fossil errand",
+    "why wetlands"
+   ],
+   "answer": "Chief Archaeologist Greywhisker recalls that Archaeologist Flagongut displayed an identical relic at an annual Explorers' League conference in Ironforge. Believing Flagongut holds the expertise to unlock its hidden power, Greywhisker dispatches you to find him at his last known location in Menethil Harbor."
+  },
+  {
+   "q": "Who is Archaeologist Flagongut?",
+   "aliases": [
+    "who is flagongut",
+    "archaeologist flagongut lore"
+   ],
+   "answer": "Archaeologist Flagongut is an Explorers' League researcher stationed in the Wetlands. Waiting out delays at the Deepwater Tavern in Menethil Harbor, he is preparing for an expedition to the perilous Whelgar Excavation Site."
+  },
+  {
+   "q": "What is the mysterious fossil?",
+   "aliases": [
+    "what is the fossil",
+    "mysterious fossil origin",
+    "remtravel fossil"
+   ],
+   "answer": "It is an ancient, curious specimen retrieved from Darkshore. Flagongut previously claimed that a twin specimen he studied possessed latent magical or historical power waiting to be unlocked."
+  },
+  {
+   "q": "What does Flagongut say when you deliver the fossil?",
+   "aliases": [
+    "flagongut reaction",
+    "handing in the fossil"
+   ],
+   "answer": "Flagongut is astonished to discover that a relic identical to his own research sample originated from the distant continent of Kalimdor, verifying that ancient history links the two landmasses together."
+  },
+  {
+   "q": "Where does Flagongut want to go next?",
+   "aliases": [
+    "where is flagongut going",
+    "flagongut excavation"
+   ],
+   "answer": "Flagongut has been waiting in Menethil Harbor for an escort to travel inland toward the Whelgar Excavation Site, a major dig location situated in the Wetlands."
+  },
+  {
+   "q": "How does this quest fit into the Absent Minded Prospector storyline?",
+   "aliases": [
+    "absent minded prospector part 4",
+    "quest chain context"
+   ],
+   "answer": "It serves as the transit leg of the questline. After escorting and rescuing Prospector Remtravel in Darkshore and analyzing his excavated relic with Greywhisker, the inquiry shifts from northern Kalimdor directly to League experts in the Eastern Kingdoms."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarven adventurers, this errand demonstrates the reach of the Explorers' League, connecting fieldwork in remote Kalimdor back to fellow scholars based in Khaz Modan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This task requires utilizing Alliance shipping routes, taking sea voyages from Kalimdor over to Menethil Harbor to keep League branches connected."
+  }
+ ],
+ "keywords": [
+  "absent minded prospector",
+  "archaeologist flagongut",
+  "chief archaeologist greywhisker",
+  "darkshore",
+  "deepwater tavern",
+  "explorers' league",
+  "menethil harbor",
+  "mysterious fossil"
+ ],
+ "related": [
+  "npc:archaeologist-flagongut",
+  "npc:chief-archaeologist-greywhisker",
+  "subzone:menethil-harbor",
+  "subzone:deepwater-tavern",
+  "topic:explorers-league",
+  "zone:darkshore",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "The Absent Minded Prospector (4)"
+ ]
+}

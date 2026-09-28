@@ -1,0 +1,88 @@
+{
+ "key": "npc:gazin-tenorm",
+ "type": "npc",
+ "name": "Gazin Tenorm",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Gazin Tenorm",
+  "refs": 0
+ },
+ "summary": "Gazin Tenorm is a dwarven paladin ally stationed near the altar in Stormwind's Cathedral of Light. Alongside his comrade Henze Faulk, he undertook a dangerous scouting mission to gather evidence of Defias Brotherhood activity for the king's advisors.",
+ "sections": [
+  {
+   "title": "A Scout in the Cathedral",
+   "body": "While Gazin Tenorm spends his days within the tranquil halls of the Cathedral of Light, his mind remains out in the wilds of Elwynn Forest. Gazin and his close friend Henze Faulk set out into the woods on an urgent errand: gathering hard proof of the Defias Brotherhood's movements to present before the royal court. The expedition went awry when they were ambushed by Defias forces. Gazin barely escaped with his life back to the safety of Stormwind, but Henze was left behind in mortal danger, prompting Gazin to seek a stalwart hero of the Light to come to his companion's aid.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Gazin Tenorm?",
+   "aliases": [
+    "gazin location",
+    "where is gazin tenorm",
+    "where is gazin"
+   ],
+   "answer": "Gazin Tenorm can be found inside the Cathedral of Light in Stormwind City, standing near the back altar alongside high-ranking clergy and paladin mentors."
+  },
+  {
+   "q": "What happened to Gazin Tenorm in Elwynn Forest?",
+   "aliases": [
+    "gazin story",
+    "what happened to gazin",
+    "why is gazin hurt"
+   ],
+   "answer": "While investigating the Defias Brotherhood with his companion Henze Faulk, Gazin ran into an ambush of outlaw forces. He managed to fight his way free and flee back to Stormwind City, but the ordeal left his friend stranded out in the forest."
+  },
+  {
+   "q": "Why was Gazin investigating the Defias Brotherhood?",
+   "aliases": [
+    "why investigate defias",
+    "gazin mission",
+    "gazin henze defias"
+   ],
+   "answer": "Gazin and Henze Faulk ventured into Elwynn Forest to gather undeniable evidence of the Defias Brotherhood's illicit activities, intending to bring undeniable proof directly before the king's advisors in Stormwind."
+  },
+  {
+   "q": "How does Gazin connect to the Paladin trials?",
+   "aliases": [
+    "gazin tome of divinity",
+    "paladin quest gazin",
+    "henze faulk quest"
+   ],
+   "answer": "High Paladin Duthorian Rall directs aspiring human paladins pursuing the Tome of Divinity to Gazin. Gazin then provides the means and direction to rescue his fallen partner Henze Faulk, testing the initiate's valor and mercy."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Initiates learning the paths of compassion and redemption meet Gazin in the Cathedral of Light to aid his fallen brother-in-arms, Henze Faulk."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Gazin represents the enduring solidarity between Ironforge and Stormwind, serving as a dwarven champion willing to face Elwynn's brigands on behalf of the kingdom's advisors."
+  }
+ ],
+ "keywords": [
+  "cathedral of light",
+  "defias",
+  "duthorian rall",
+  "gazin tenorm",
+  "henze faulk",
+  "paladin",
+  "tome of divinity"
+ ],
+ "related": [
+  "npc:henze-faulk",
+  "npc:duthorian-rall",
+  "quest:1641",
+  "subzone:cathedral-of-light",
+  "zone:stormwind",
+  "topic:defias-brotherhood",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Gazin Tenorm"
+ ]
+}

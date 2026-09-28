@@ -1,0 +1,90 @@
+{
+ "key": "npc:kerlonian-evershade",
+ "type": "npc",
+ "name": "Kerlonian Evershade",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Kerlonian Evershade",
+  "refs": 1
+ },
+ "summary": "Kerlonian Evershade is a night elf Druid of the Claw resting at the Grove of the Ancients in Darkshore. Having recently awakened from the long slumber within the Emerald Dream, he requires aid navigating the corrupted wilds to reach the safety of Maestra's Post.",
+ "sections": [
+  {
+   "title": "Awakening in Darkshore",
+   "body": "Kerlonian Evershade belongs to the Druids of the Claw, followers of the bear totem who spent centuries sleeping in barrows and communion with the Emerald Dream. Called to wake following the Third War, many druids emerged disoriented into a world ravaged by corruption. Found resting beneath the ancient trees of the Grove of the Ancients, Kerlonian is still shaking off the supernatural grogginess of his prolonged rest. His immediate concern is traveling safely through the troubled forests of Darkshore toward Maestra's Post on the border of Ashenvale.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Treacherous Journey",
+   "body": "The road out of the Grove of the Ancients is far from secure. The lingering aftermath of the Shattering of Mount Hyjal and the spreading blight in Darkshore have riled the local wildlife and brought hostile prowlers and grell close to the sacred clearings. Weakened from sleep and struggling with sudden bouts of exhaustion, Kerlonian relies on sympathetic travelers of the Alliance to protect him as he makes his way south to rejoin his fellow night elves.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kerlonian Evershade?",
+   "aliases": [
+    "who is kerlonian",
+    "kerlonian evershade lore",
+    "druid in grove of the ancients"
+   ],
+   "answer": "Kerlonian Evershade is a night elf Druid of the Claw stationed near the Grove of the Ancients in Darkshore. He recently woke from the Emerald Dream and needs assistance traveling safely through the woods."
+  },
+  {
+   "q": "Why does Kerlonian fall asleep while walking?",
+   "aliases": [
+    "why is kerlonian sleeping",
+    "sleeper has awakened quest druid",
+    "kerlonian sleepy"
+   ],
+   "answer": "Like many Druids of the Claw who slept for centuries in barrow dens, Kerlonian is still suffering from the lingering stupor of the Emerald Dream. His body and mind have not fully adjusted to waking reality, causing sudden spells of drowsiness."
+  },
+  {
+   "q": "Where is he trying to go?",
+   "aliases": [
+    "kerlonian destination",
+    "where does kerlonian go",
+    "grove of the ancients escort destination"
+   ],
+   "answer": "He seeks safe passage south to Maestra's Post, a night elf outpost situated on the border between Darkshore and Ashenvale, where he can safely recuperate."
+  },
+  {
+   "q": "What is a Druid of the Claw?",
+   "aliases": [
+    "what is druid of the claw",
+    "druids of the claw lore"
+   ],
+   "answer": "Druids of the Claw are night elf druids who venerate the bear ancient, Ursoc. They channel strength, resilience, and feral might, traditionally guarding barrows and night elf lands while spending ages asleep in the Emerald Dream."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Druid adventurers will recognize Kerlonian's plight intimately, as all disciples of the Cenarion Circle must grapple with the heavy toll of deep communion with the Emerald Dream."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For night elf travelers, guiding Kerlonian represents safeguarding one of their ancient defenders, freshly returned to a world vastly changed since the Third War."
+  }
+ ],
+ "keywords": [
+  "darkshore",
+  "druid of the claw",
+  "emerald dream",
+  "evershade",
+  "grove of the ancients",
+  "kerlonian",
+  "the sleeper has awakened"
+ ],
+ "related": [
+  "quest:5321",
+  "quest:952",
+  "quest:2561",
+  "zone:darkshore",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Kerlonian Evershade"
+ ]
+}

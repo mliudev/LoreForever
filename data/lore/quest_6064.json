@@ -1,0 +1,128 @@
+{
+ "key": "quest:6064",
+ "type": "quest",
+ "name": "Taming the Beast",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   6064
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Grif Wildheart",
+  "end": "Grif Wildheart",
+  "previous": "The Hunter's Path (Dwarf)",
+  "next": "Taming the Beast (Dwarf 2)",
+  "wiki": "Taming the Beast (Dwarf 1)",
+  "chain": [
+   "The Hunter's Path (Dwarf)",
+   "Taming the Beast (Dwarf 1)",
+   "Taming the Beast (Dwarf 2)",
+   "Taming the Beast (Dwarf 3)",
+   "Training the Beast (Dwarf)"
+  ]
+ },
+ "summary": "Taming the Beast is the first trial in a dwarven hunter's journey to mastering companion beasts in Dun Morogh. Guided by Grif Wildheart in Kharanos, young trackers learn to quell and bond with a ferocious Large Crag Boar using an enchanted taming rod.",
+ "sections": [
+  {
+   "title": "A Hunter's Companion",
+   "body": "Up to this point, dwarven mountaineers and trackers rely solely on their gunplay, traps, and wilderness instincts. Yet the true soul of a hunter lies in forging a lifelong partnership with a wild beast. Grif Wildheart, stationed outside the Thunderbrew Distillery in Kharanos, oversees this rite of passage. Rather than expecting a novice to permanently bind the first beast they come across, Grif instructs them to test their patience and resolve against several native species of Dun Morogh.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Crag Boar",
+   "body": "The first trial pits the tracker against a Large Crag Boar, one of the rugged, thick-hided swine that roam the snowy foothills of Dun Morogh. Armored in bristling fur and tough flesh, these beasts are stubborn and aggressive, making them an ideal starting test of will. By wielding the enchanted Taming Rod provided by Grif, the hunter must withstand the boar's charge and soothe its ferocity until it submits to their command.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this trial?",
+   "aliases": [
+    "quest giver",
+    "who starts taming the beast",
+    "grif wildheart location"
+   ],
+   "answer": "The trial is given by Grif Wildheart, a seasoned dwarven hunter trainer located outside the Thunderbrew Distillery in Kharanos."
+  },
+  {
+   "q": "Why do I tame a Large Crag Boar first?",
+   "aliases": [
+    "why crag boar",
+    "what beast do i tame",
+    "boar taming"
+   ],
+   "answer": "Large Crag Boars are sturdy and stubborn yet plentiful throughout the snowy ridges of Dun Morogh. Subduing such a hardy, thick-skinned creature serves as a foundational exercise in asserting calm authority over an aggressive beast."
+  },
+  {
+   "q": "Do I get to keep this boar forever?",
+   "aliases": [
+    "is this boar permanent",
+    "keep crag boar",
+    "can i keep the pet"
+   ],
+   "answer": "No. This trial is purely practice. The bond forged with the Taming Rod is temporary, allowing you to experience commanding the creature before returning the rod and trying out other species."
+  },
+  {
+   "q": "Where can I find Large Crag Boars?",
+   "aliases": [
+    "boar locations",
+    "where are large crag boars",
+    "large crag boar spawn"
+   ],
+   "answer": "Large Crag Boars roam widely across the open snowfields and pine groves around Kharanos and the frozen slopes of Dun Morogh."
+  },
+  {
+   "q": "What comes after taming the crag boar?",
+   "aliases": [
+    "next trial",
+    "what is after this quest",
+    "hunter chain next"
+   ],
+   "answer": "Returning to Grif Wildheart completes this first lesson and leads directly to the second trial, where you are tasked with taming a Snow Leopard."
+  },
+  {
+   "q": "How does the Taming Rod work?",
+   "aliases": [
+    "taming rod lore",
+    "what is the rod",
+    "how do i tame"
+   ],
+   "answer": "The Taming Rod is an enchanted tool provided by hunter trainers to help novices channel their will and pacify wild instincts without requiring advanced magical training or lifelong beast-whispering experience."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This quest marks the definitive threshold where a novice marksman becomes a true beast master, beginning the trial sequence that unlocks permanent animal companions."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Mountaineers of Ironforge revere beasts that can endure the biting cold of Dun Morogh; starting with the rugged crag boar reflects dwarven appreciation for grit and resilience."
+  }
+ ],
+ "keywords": [
+  "beast",
+  "boar",
+  "crag boar",
+  "dun morogh",
+  "grif wildheart",
+  "hunter",
+  "kharanos",
+  "taming",
+  "taming rod"
+ ],
+ "related": [
+  "npc:grif-wildheart",
+  "subzone:kharanos",
+  "zone:dunmorogh",
+  "quest:6065",
+  "quest:6081",
+  "quest:6061",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Taming the Beast (Dwarf 1)"
+ ]
+}

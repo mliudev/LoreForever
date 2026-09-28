@@ -1,0 +1,116 @@
+{
+ "key": "quest:894",
+ "type": "quest",
+ "name": "Samophlange",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   894
+  ],
+  "level": "14",
+  "faction": null,
+  "start": "Sputtervalve",
+  "end": "Control Console",
+  "previous": "",
+  "next": "Samophlange (2)",
+  "wiki": "Samophlange (Classic)",
+  "chain": []
+ },
+ "summary": "Commissioned by the goblin engineer Sputtervalve in the northern Barrens, this task sends adventurers into a Venture Company research outpost southwest of the Sludge Fen. Their goal is to locate a mysterious contraption known only as a samophlange. Equipped with a pilfered operating manual, the curious investigator must navigate an erratic control console to extract the device.",
+ "sections": [
+  {
+   "title": "A Peculiar Contraption",
+   "body": "Goblins are notoriously driven by innovation, curiosity, and profit, but even the Tinker Sputtervalve finds himself perplexed by the latest development coming out of the Venture Company's digs in the northern Barrens. Operating southwest of the Sludge Fen, the rival outfit has been tinkering with a device designated as a samophlange. Without knowing its precise mechanical function or lucrative potential, Sputtervalve is eager to lay his hands on the equipment to reverse-engineer its design before his commercial rivals capitalize on it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Infiltrating the Rig",
+   "body": "Securing the device is no simple task. The Venture Company guards their operations fiercely, surrounding the facility with armed overseers, deforesters, and complex machinery. Sputtervalve provides an intercepted operating manual to assist in shutting down the erratic rig safely. Upon reaching the central control station, an investigator finds a chaotic array of levers, lights, and gauges maintaining optimal pressure across three critical control valves, guarded by a locked console.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a samophlange?",
+   "aliases": [
+    "what is a samophlange",
+    "samophlange purpose",
+    "what does a samophlange do"
+   ],
+   "answer": "Even Sputtervalve does not fully know what it is or does. It is a proprietary, experimental mechanical component created by the Venture Company at their installation southwest of Sludge Fen."
+  },
+  {
+   "q": "Who is Sputtervalve?",
+   "aliases": [
+    "who is sputtervalve",
+    "sputtervalve location",
+    "quest giver"
+   ],
+   "answer": "Sputtervalve is a goblin engineer and tinker stationed in the northern Barrens. Intrigued by Venture Company trade secrets, he hires adventurers to disrupt their works and seize their technological advances."
+  },
+  {
+   "q": "Where is the control console located?",
+   "aliases": [
+    "console location",
+    "where is console",
+    "where to find samophlange"
+   ],
+   "answer": "The console is situated inside the Venture Company research site found to the north of the Crossroads, southwest of the polluted Sludge Fen in the Barrens."
+  },
+  {
+   "q": "Why is the Venture Company in the Barrens?",
+   "aliases": [
+    "venture co barrens",
+    "why are venture co here",
+    "sludge fen operation"
+   ],
+   "answer": "The Venture Company is an unscrupulous, profit-driven cartel exploiting Kalimdor's natural resources. In the Barrens, they clear forests, drill for oil, and build experimental rigs like those around Sludge Fen."
+  },
+  {
+   "q": "How do you disengage the samophlange safely?",
+   "aliases": [
+    "how to use console",
+    "control console operating manual",
+    "manual instructions"
+   ],
+   "answer": "The control console features three open control valves and a keyhole. Following Sputtervalve's retrieved operating manual allows an operative to bypass the safety locks and manipulate the valves to detach the module."
+  },
+  {
+   "q": "Does Sputtervalve work for the Venture Company?",
+   "aliases": [
+    "is sputtervalve venture co",
+    "sputtervalve faction"
+   ],
+   "answer": "No. Sputtervalve acts as an independent or rival operative who aims to undercut and steal the Venture Company's engineering discoveries for his own examination."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will appreciate Sputtervalve's fixation on competitor schematics, demonstrating the cutthroat nature of goblin industrial espionage."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Venture Company's aggressive exploitation and chemical runoff threaten the fragile ecosystem of the Barrens, making the disruption of their facilities an imperative for local Horde defenders."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "control console",
+  "goblin engineering",
+  "samophlange",
+  "sludge fen",
+  "sputtervalve",
+  "venture company"
+ ],
+ "related": [
+  "npc:sputtervalve",
+  "topic:venture-company",
+  "subzone:sludge-fen",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Samophlange (Classic)"
+ ]
+}

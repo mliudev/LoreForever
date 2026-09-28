@@ -1,0 +1,126 @@
+{
+ "key": "topic:harpy",
+ "type": "topic",
+ "name": "Harpy",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Harpy"
+ },
+ "summary": "Harpies are predatory, avian humanoids resembling winged night elves who dwell in foul-smelling roosts across Kalimdor and the high mountain passes of Alterac. Infamous for their shrill shrieks and tempestuous elemental magic, they raid unwary travelers and blight the environments they inhabit. Though night elf folklore links them to cursed betrayers of Queen Azshara, scholars trace their lineage to the avian Wild God Aviana.",
+ "sections": [
+  {
+   "title": "Winged Scourge of Kalimdor",
+   "body": "Harpies bear the upper torsos and heads of night elf women, joined to broad feathered wings and wicked talons. Despite their delicate, elven visage\u2014which ironically grows more striking as they age\u2014their nature is thoroughly savage. Originally roosting among the crags of the Stonetalon Mountains, they have aggressively migrated across Kalimdor, terrorizing the arid canyons of Durotar, the sacred boughs of Teldrassil, and the heights of Mulgore. Unlike the wild creatures they hunt, harpies do not live in harmony with nature; they despoil surrounding flora and fauna, turning their nesting grounds into foul, fetid middens littered with the picked-clean bones of their prey.",
+   "spoiler": 0
+  },
+  {
+   "title": "Avian Lineage and Dark Nature",
+   "body": "Night elf myth often claims harpies originated as treacherous handmaidens cursed by Queen Azshara before the Great Sundering. However, deeper research into antiquity indicates they are instead the wayward progeny of Aviana, the ancient avian Wild God. Following Aviana's fall during the War of the Ancients and the burning of the Mother Tree G'Hanir, many of her feathered brood succumbed to chaos and bitter isolation, abandoning their sacred stewardship of the sky. Over millennia, this despair curdled into pure spite. Today, harpies operate as ruthless matriarchies, where aspiring queens must betray, slaughter, and torment rivals to maintain command.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tempest Magic and Wicked Habits",
+   "body": "Beyond rending flesh with razor-sharp claws, harpies command dangerous wind and lightning magic, channeling shrieking gales to batter foes from above. They are deeply cunning hunters capable of spoken language, occasionally trading scavenged oddities with subterranean creatures like kobolds in exchange for bright gems and shiny trinkets. Unwary explorers are sometimes beguiled by their elven forms, but physical contact carries grave danger: a harpy's kiss is venomous, rapidly inflicting a violent, wasting fever upon those foolish enough to let their guard down.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do harpies originally come from?",
+   "aliases": [
+    "harpy origins",
+    "harpy homeland",
+    "where do harpies live"
+   ],
+   "answer": "Harpies originally hailed from the jagged peaks of the Stonetalon Mountains in central Kalimdor. From these ancestral heights, their populations expanded rapidly, establishing nests in Teldrassil, the Barrens, Durotar, Mulgore, Feralas, the Thousand Needles, and even across the Great Sea in the snowy crags of Alterac Valley."
+  },
+  {
+   "q": "Are harpies actually related to night elves?",
+   "aliases": [
+    "are harpies night elves",
+    "harpy night elf connection",
+    "curse of azshara"
+   ],
+   "answer": "While Kalimdor folklore claims they were once night elf women cursed for betraying Queen Azshara, dwarven research and ancient lore establish that harpies are actually descended from Aviana, the ancient bird goddess who fell during the War of the Ancients."
+  },
+  {
+   "q": "Why are harpy nests so infamous?",
+   "aliases": [
+    "harpy smell",
+    "what are harpy nests like",
+    "harpy roosts"
+   ],
+   "answer": "Unlike wild birds, harpies defile the land around them. Their nests are filthy, stench-ridden middens composed of trampled foliage, noxious waste, and the butchered bones and remnants of unwary travelers and beasts they drag from nearby trails."
+  },
+  {
+   "q": "How do harpy covens choose their leaders?",
+   "aliases": [
+    "harpy matriarch",
+    "harpy queen",
+    "who leads harpies"
+   ],
+   "answer": "Harpy leadership is fiercely contested. To claim and hold the title of queen or matriarch, a harpy must prove herself far more ruthless than her roost-mates, employing betrayal, murder, and relentless cruelty against enemies and rivals alike."
+  },
+  {
+   "q": "What powers and combat tactics do harpies use?",
+   "aliases": [
+    "harpy abilities",
+    "harpy magic",
+    "how do harpies fight"
+   ],
+   "answer": "Common harpies dive from above using crude weapons or razor-sharp talons. Their spellcasters, however, wield tempestuous storm magic, striking foes with crackling lightning, swirling wind gusts, and shrill, disorienting shrieks."
+  },
+  {
+   "q": "Is it true that a harpy's kiss is dangerous?",
+   "aliases": [
+    "harpy kiss",
+    "harpy poison",
+    "harpy fever"
+   ],
+   "answer": "Yes. Beyond their claws and storm magic, harpies carry a toxic kiss. Travelers who are lured by their elven features into letting one close risk suffering from a potent poison that induces a sudden, debilitating fever."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Though they bear an uncanny resemblance to night elf women, harpies represent a perversion of the natural skies, despoiling sacred boughs around Teldrassil's Oracle Glade and mocking the memory of the ancient goddess Aviana."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The Windfury harpies of Mulgore and the Screeching brood of Thousand Needles have plagued tauren caravans and blighted the plains for generations, making them reviled enemies of the tribes."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The Dustwind harpies roosting in Drygulch Ravine and Razorwind Canyon persistently menace supply routes between Sen'jin Village, Razor Hill, and Orgrimmar, requiring constant armed patrols."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold particular sorrow and anger toward harpies, recognizing them as the degraded, chaotic descendants of Aviana who abandoned the sacred balance to pollute the wilderness with tempest magic."
+  }
+ ],
+ "keywords": [
+  "aviana",
+  "bloodfeather",
+  "dustwind",
+  "harpy",
+  "kalimdor",
+  "stonetalon",
+  "talons",
+  "windfury",
+  "witchwing"
+ ],
+ "related": [
+  "zone:stonetalon",
+  "quest:876",
+  "zone:durotar",
+  "zone:mulgore",
+  "zone:barrens",
+  "subzone:oracle-glade",
+  "topic:night-elf",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Harpy"
+ ]
+}

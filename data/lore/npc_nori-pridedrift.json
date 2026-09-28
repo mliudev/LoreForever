@@ -1,0 +1,86 @@
+{
+ "key": "npc:nori-pridedrift",
+ "type": "npc",
+ "name": "Nori Pridedrift",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Nori Pridedrift",
+  "refs": 2
+ },
+ "summary": "Nori Pridedrift is an enterprising dwarf peddling his piping-hot Scalding Mornbrew throughout snowy Coldridge Valley. He makes his living braving the cold to supply shivering mountaineers with their morning pick-me-up, often enlisting swift recruits to run deliveries while the drink remains steaming.",
+ "sections": [
+  {
+   "title": "A Steaming Cup in the Snow",
+   "body": "Life in Coldridge Valley is harsh and bitterly cold, and nothing cuts through the chill quite like a draught of Scalding Mornbrew. Nori Pridedrift has carved out a living by brewing and distributing this hot, coffee-like morning drink across the frozen drifts. Because the brew must be consumed while still scalding to be fully appreciated, delivery is a race against the elements. Nori frequently recruits brisk couriers to sprint fresh draughts out to freezing sentries before the mountain air robs the brew of its heat. Just as important as the brew itself are his limited supplies of sturdy mugs, which he expects his runners to return promptly.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Nori Pridedrift?",
+   "aliases": [
+    "who is nori",
+    "nori pridedrift lore",
+    "scalding mornbrew vendor"
+   ],
+   "answer": "Nori Pridedrift is an enterprising dwarf peddler based in Coldridge Valley. He brews and sells Scalding Mornbrew, a hot, coffee-like beverage that keeps the local guards and miners warm."
+  },
+  {
+   "q": "What is Scalding Mornbrew?",
+   "aliases": [
+    "scalding mornbrew",
+    "what drink does nori sell",
+    "mornbrew"
+   ],
+   "answer": "Scalding Mornbrew is a specialty hot drink brewed by Nori Pridedrift. Similar to piping-hot coffee or spiced morning ale, it is deeply favored by valley locals for cutting through the bitter chill of Dun Morogh."
+  },
+  {
+   "q": "Why are deliveries so urgent?",
+   "aliases": [
+    "why rush the delivery",
+    "mornbrew delivery rush",
+    "why does the drink go cold"
+   ],
+   "answer": "The drink's entire appeal rests on it being piping hot. In the sub-zero mountain winds of Coldridge Valley, a cup loses its heat rapidly, forcing Nori's delivery runners to sprint to their thirsty customers."
+  },
+  {
+   "q": "Why does Nori care so much about returning mugs?",
+   "aliases": [
+    "why bring back the mug",
+    "nori's mugs",
+    "mug return"
+   ],
+   "answer": "Nori maintains a limited supply of drinking vessels in the valley. If customers wander off with his mugs or break them in the snowdrifts, his morning trade quickly grinds to a halt."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Every dwarf understands the vital comfort of a strong drink in freezing weather, making Nori's piping Mornbrew a welcome sight on mountain watch posts."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Culinary adventurers in Dun Morogh appreciate Nori's dedication to serving his specialty beverage piping hot despite the freezing ambient air."
+  }
+ ],
+ "keywords": [
+  "brew",
+  "coldridge valley",
+  "dun morogh",
+  "dwarf",
+  "mornbrew mug",
+  "nori pridedrift",
+  "scalding mornbrew"
+ ],
+ "related": [
+  "subzone:coldridge-valley",
+  "zone:dunmorogh",
+  "quest:3364",
+  "quest:3365",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Nori Pridedrift"
+ ]
+}

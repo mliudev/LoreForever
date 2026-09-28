@@ -1,0 +1,113 @@
+{
+ "key": "quest:432",
+ "type": "quest",
+ "name": "Those Blasted Troggs!",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   432
+  ],
+  "level": "9",
+  "faction": "Alliance",
+  "start": "Foreman Stonebrow",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Those Blasted Troggs! (Classic)",
+  "chain": []
+ },
+ "summary": "Foreman Stonebrow is at his wit's end after troggs completely overran his operations at Gol'Bolar Quarry. Destructive and aggressive, the beasts have trashed his mining equipment and powder barrels, leaving him furious and demanding retaliation. Unable to fight them himself due to failing aim, he pays brave adventurers to head down into the pit and cull the brute Skullthumpers.",
+ "sections": [
+  {
+   "title": "Chaos in the Quarry",
+   "body": "Gol'Bolar Quarry was once a proud, productive dwarf excavation site nestled in the snowy hills of eastern Dun Morogh. That prosperity ended abruptly when subterranean troggs broke through the bedrock and swarmed the lower terraces. Instead of merely occupying the tunnels, the savages have wreaked wanton havoc, smashing scaffolding and blowing through precious barrels of blasting powder.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stonebrow's Boiling Rage",
+   "body": "Watching the ruin of his life's work from the safety of the ridge has pushed Foreman Stonebrow to the brink of apoplexy. Frustrated by his own aging hands and poor aim, he relies on passing wanderers and Alliance recruits to execute raw vengeance. Thinning the ranks of the burly Rockjaw Skullthumpers provides him a brief moment of relief, though nothing short of total extermination will truly satisfy his wrath.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Gol'Bolar Quarry?",
+   "aliases": [
+    "gol'bolar location",
+    "where is the quarry",
+    "stonebrow location"
+   ],
+   "answer": "Gol'Bolar Quarry sits in eastern Dun Morogh, south of the main road that leads east toward the gates of Loch Modan. Foreman Stonebrow stands along the rim overlooking the infested excavation pits."
+  },
+  {
+   "q": "Why are the troggs attacking the quarry?",
+   "aliases": [
+    "why troggs here",
+    "trogg invasion reason"
+   ],
+   "answer": "Troggs dwell deep beneath the earth across Khaz Modan. Dwarven excavations frequently breach subterranean caverns where troggs nest, inciting violent surface surges that quickly overwhelm active mines."
+  },
+  {
+   "q": "Who is Foreman Stonebrow?",
+   "aliases": [
+    "stonebrow",
+    "who gives quest"
+   ],
+   "answer": "Foreman Stonebrow is the dwarven supervisor in charge of Gol'Bolar Quarry. Bitter, hot-tempered, and troubled by fading combat skills, he directs willing fighters to clear out the trogg infestation."
+  },
+  {
+   "q": "What is a Rockjaw Skullthumper?",
+   "aliases": [
+    "skullthumper",
+    "skullthumpers"
+   ],
+   "answer": "Rockjaw Skullthumpers are the brutish, frontline enforcers of the trogg tribe occupying Gol'Bolar Quarry, relying on raw physical strength and primitive clubs to bludgeon intruders."
+  },
+  {
+   "q": "Why can't Stonebrow clear the quarry himself?",
+   "aliases": [
+    "why doesn't stonebrow fight"
+   ],
+   "answer": "Stonebrow admits that his eyesight and aim are no longer what they used to be in his youth. Hampered by age, he chooses to hire adventurers rather than risk getting overwhelmed down in the quarry pits."
+  },
+  {
+   "q": "What are the troggs destroying in the quarry?",
+   "aliases": [
+    "trogg destruction",
+    "what are troggs breaking"
+   ],
+   "answer": "Beyond disrupting mining operations, the troggs are actively wrecking heavy equipment and detonating supplies, including precious barrels of dwarven blasting powder."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The trogg infestation in Khaz Modan strikes close to home for every dwarf. Seeing Gol'Bolar's stonecutters driven out by mindless brute troggs makes vengeance down in the pit personal."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Gol'Bolar Quarry represents crucial dwarven stonecutting and mineral extraction. Clearing the invaders is the first step toward getting the picks swinging again."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "gol'bolar",
+  "powder",
+  "quarry",
+  "rockjaw",
+  "skullthumper",
+  "stonebrow",
+  "troggs"
+ ],
+ "related": [
+  "npc:foreman-stonebrow",
+  "subzone:gol-bolar-quarry",
+  "topic:trogg",
+  "zone:dunmorogh",
+  "topic:light"
+ ],
+ "attribution": [
+  "Those Blasted Troggs! (Classic)"
+ ]
+}

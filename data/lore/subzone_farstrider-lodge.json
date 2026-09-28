@@ -1,0 +1,78 @@
+{
+ "key": "subzone:farstrider-lodge",
+ "type": "subzone",
+ "name": "Farstrider Lodge",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Farstrider Lodge"
+ },
+ "summary": "Tucked away in the southeastern hills of Loch Modan, Farstrider Lodge is a tranquil hunting outpost built in high elven style. Though founded as an elven waystation, it now serves travelers, rangers, and trappers of all Alliance races looking to test their skills against the local wildlife.",
+ "sections": [
+  {
+   "title": "An Elven Haven in the Mountains",
+   "body": "Farstrider Lodge stands apart from the sturdy stone and timber works typical of Khaz Modan. Bearing the graceful curves and vaulted woodwork of high elven craftsmanship, the outpost is named after the Farstriders, the renowned rangers of Quel'Thalas. Long before the recent wars shattered the elven homeland, Farstriders ranged far south of their borders to explore and build ties with the wider world. While only a solitary high elf remains to tend the lodge today, its hunting heritage endures under the stewardship of local dwarves and human woodsmen.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Waystation for the Wilds",
+   "body": "Situated high on the bluffs overlooking the loch, the lodge serves as a base of operations for hunters, scouts, and trappers navigating the untamed corners of the zone. Between offering training for marksmen and shelter from roaming beasts, the lodge remains closely tied to the nearby settlement of Thelsamar, ensuring that supplies and wilderness intelligence flow freely between the dwarven mountaineers and the woodsmen guarding the southeastern frontier.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is there an elven lodge in Khaz Modan?",
+   "aliases": [
+    "why elven building loch modan",
+    "who built farstrider lodge",
+    "why high elf lodge here"
+   ],
+   "answer": "Farstrider Lodge was established long before the recent wars by the Farstriders, the ranger corps of Quel'Thalas, who sought to maintain a presence and build ties across the wider world beyond their northern kingdom."
+  },
+  {
+   "q": "Are there still high elves living here?",
+   "aliases": [
+    "are there high elves here",
+    "who lives in farstrider lodge",
+    "vyrin swiftwind"
+   ],
+   "answer": "Only a single high elf ranger, Vyrin Swiftwind, currently resides at the lodge. The rest of the occupants are dwarven mountaineers and human huntsmen who maintain the lodge and trade with travelers."
+  },
+  {
+   "q": "What services are available at Farstrider Lodge?",
+   "aliases": [
+    "what is at farstrider lodge",
+    "hunter trainers loch modan"
+   ],
+   "answer": "The lodge primarily supports outdoorsmen, providing a hunter trainer, a pet trainer, local merchants, and rest for wilderness scouts tracking dangerous wildlife across the loch."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Farstrider Lodge is a prime sanctuary for hunters, offering both mentorship in marksmanship and beast training amidst the rich game of Loch Modan's surrounding hills."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Though built by elven hands, the lodge operates in close harmony with the mountaineers of Thelsamar to monitor the dangerous wildlife threatening Khaz Modan."
+  }
+ ],
+ "keywords": [
+  "farstrider lodge",
+  "farstriders",
+  "high elf",
+  "hunter lodge",
+  "loch modan",
+  "thelsamar",
+  "vyrin swiftwind"
+ ],
+ "related": [
+  "zone:lochmodan",
+  "subzone:thelsamar",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Farstrider Lodge"
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "key": "quest:92819",
+ "type": "quest",
+ "name": "Destruction in Deadmines",
+ "era": "forever",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   92819
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Alba Fairmoon",
+  "end": "",
+  "previous": "",
+  "next": "",
+  "wiki": "Destruction in Deadmines (2)",
+  "chain": []
+ },
+ "summary": "Destruction in Deadmines is a clandestine mission overseen by Alba Fairmoon in Westfall. Tasked with triggering an explosive charge, the operative is sent deep beneath the region to detonate a device and cripple Defias operations within the labyrinthine tunnels.",
+ "sections": [
+  {
+   "title": "Sabotage Beneath Westfall",
+   "body": "The Deadmines have long harbored the core strength of the Defias Brotherhood, serving as both a stronghold and an industrial nerve center right beneath Westfall. Rather than relying solely on a direct assault through every fortified corridor, Alba Fairmoon directs a decisive act of sabotage. By planting explosives and detonating them within the subterranean complex, Alliance operatives aim to collapse vital infrastructure and derail whatever schemes the brotherhood is orchestrating in the dark.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Detonator",
+   "body": "Carrying out this assignment requires a steady hand and precise timing. Alba provides a detonator meant to trigger demolition charges placed within the stronghold. Striking directly at the mine's structural vulnerabilities ensures that the Defias will suffer lasting damage to their supply lines, machinery, and defensive works, buying valuable time for the defenders of Westfall above.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers the quest Destruction in Deadmines?",
+   "aliases": [
+    "who gives destruction in deadmines",
+    "quest giver deadmines detonation",
+    "alba fairmoon quest"
+   ],
+   "answer": "The mission is given by Alba Fairmoon, an operative stationed in Westfall who directs Alliance adventurers to strike directly at the Defias Brotherhood's stronghold."
+  },
+  {
+   "q": "What is the primary objective of this mission?",
+   "aliases": [
+    "what do i do in destruction in deadmines",
+    "destruction in deadmines goal",
+    "how to complete destruction in deadmines"
+   ],
+   "answer": "You are tasked with triggering a detonator inside the Deadmines complex to trigger explosives and cripple the Defias operations buried beneath the region."
+  },
+  {
+   "q": "Why target the Deadmines with explosives?",
+   "aliases": [
+    "why blow up deadmines",
+    "deadmines sabotage lore",
+    "why use detonator in deadmines"
+   ],
+   "answer": "The Deadmines are not just an abandoned gold mine; they house the Defias Brotherhood's central workshops, supplies, and assembly operations. Collapsing key points with explosives disrupts their ability to wage their underground campaign against Westfall and Stormwind."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "destruction in deadmines location",
+    "where is destruction in deadmines",
+    "deadmines detonator location"
+   ],
+   "answer": "The mission begins with Alba Fairmoon in Westfall and takes you into the sprawling subterranean tunnels of the Deadmines beneath Moonbrook."
+  },
+  {
+   "q": "Is this mission available to Horde players?",
+   "aliases": [
+    "is destruction in deadmines alliance only",
+    "can horde do destruction in deadmines"
+   ],
+   "answer": "No. Alba Fairmoon works exclusively with Alliance operatives defending Westfall against the rising threat of the Defias Brotherhood."
+  },
+  {
+   "q": "What threat does the Defias Brotherhood pose in Westfall?",
+   "aliases": [
+    "defias lore westfall",
+    "why fight defias",
+    "what are defias doing in deadmines"
+   ],
+   "answer": "The Defias Brotherhood has driven out farmers, raided settlements, and seized the abandoned mines of Westfall. Operating from deep within the Deadmines, they are building an armed insurrection that directly threatens the kingdom of Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Demolition and remotely triggered detonators are central to this assignment, appealing to engineers who appreciate the fine art of controlled structural collapses."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Infiltrating enemy territory to plant charges and slip out before the explosion makes this mission a classic exercise in covert sabotage."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Every blow struck against the Defias stronghold in the Deadmines helps safeguard the struggling farmsteads of Westfall and the southern border of Stormwind."
+  }
+ ],
+ "keywords": [
+  "alba fairmoon",
+  "deadmines",
+  "defias",
+  "destruction in deadmines",
+  "detonator",
+  "explosives",
+  "sabotage",
+  "westfall"
+ ],
+ "related": [
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Destruction in Deadmines (2)"
+ ]
+}

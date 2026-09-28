@@ -1,0 +1,123 @@
+{
+ "key": "quest:2281",
+ "type": "quest",
+ "name": "Redridge Rendezvous",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   2281
+  ],
+  "level": "16",
+  "faction": "Alliance",
+  "start": "Renzik \"The Shiv\"",
+  "end": "Lucius",
+  "previous": "Erion's Behest / Kingly Shakedown / SI:7 (quest)",
+  "next": "Alther's Mill (quest)",
+  "wiki": "Redridge Rendezvous",
+  "chain": [
+   "SI:7 (quest)",
+   "Redridge Rendezvous",
+   "Alther's Mill (quest)"
+  ]
+ },
+ "summary": "Redridge Rendezvous is an Alliance rogue assignment dispatched from Stormwind's intelligence headquarters. Recognizing that raw recruits lack the finesse needed for dangerous field operations, SI:7 routes promising agents to Lakeshire to refine their tradecraft under seasoned operatives.",
+ "sections": [
+  {
+   "title": "A Measure of Survival",
+   "body": "Within the clandestine halls of SI:7 in Stormwind, second-in-command Renzik 'The Shiv' is blunt about the life expectancy of novices. Pushing unrefined operatives directly into hostile operations breeds casualties rather than intelligence. To prevent needless loss, recruits showing potential are dispatched eastward into the Redridge Mountains to train under Lucius, an operative stationed among the lakeside docks.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes in Lakeshire",
+   "body": "Lakeshire serves as an ideal staging ground for clandestine training. Hemmed in by gnolls and Blackrock orcs, the frontier town provides plenty of real-world peril, while the bustling piers give an operative like Lucius ample cover to evaluate a rogue's stealth, reflexes, and lockpicking capabilities without drawing the attention of local townspeople or town guards.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Redridge Rendezvous?",
+   "aliases": [
+    "who starts redridge rendezvous",
+    "redridge rendezvous questgiver",
+    "who gives quest"
+   ],
+   "answer": "Renzik 'The Shiv', the goblin spymaster operating within the SI:7 headquarters in Stormwind's Old Town, issues the assignment to rogues who have reported to intelligence command."
+  },
+  {
+   "q": "Where is Lucius located?",
+   "aliases": [
+    "where is lucius",
+    "lucius location",
+    "find lucius"
+   ],
+   "answer": "Lucius is positioned along the wooden docks of Lakeshire in the Redridge Mountains, blending in with the local loafers and fishermen by the water."
+  },
+  {
+   "q": "Why does SI:7 send rogues to Redridge?",
+   "aliases": [
+    "why lakeshire",
+    "purpose of redridge rendezvous",
+    "why redridge"
+   ],
+   "answer": "Renzik considers green rogues unfit for high-stakes intelligence field assignments. Lucius is tasked with honing their rough edges, testing their practical skills such as pickpocketing and lockpicking under frontier conditions."
+  },
+  {
+   "q": "What comes after completing Redridge Rendezvous?",
+   "aliases": [
+    "next quest",
+    "redridge rendezvous followup",
+    "after redridge rendezvous"
+   ],
+   "answer": "Reporting to Lucius leads directly into training exercises starting with Alther's Mill, where the agent is instructed to put their stealth and manual dexterity to the test."
+  },
+  {
+   "q": "Is this quest available to classes other than rogues?",
+   "aliases": [
+    "can warriors do redridge rendezvous",
+    "is this rogue only",
+    "class requirement"
+   ],
+   "answer": "No. Redridge Rendezvous is exclusively an Alliance rogue class quest tailored to SI:7 field training."
+  },
+  {
+   "q": "Why does Renzik work for Stormwind intelligence?",
+   "aliases": [
+    "why is a goblin in si7",
+    "renzik lore",
+    "goblin in stormwind"
+   ],
+   "answer": "Despite being a goblin, Renzik 'The Shiv' is a highly trusted lieutenant of Spymaster Mathias Shaw, running operative intake and training from deep inside the SI:7 stronghold."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This mission marks a rogue's entry into formal SI:7 field work, shifting their training from backstreet thievery to calculated state espionage."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The assignment reveals the reach of Stormwind's clandestine arm, which maintains quiet operatives stationed across outer settlements like Lakeshire."
+  }
+ ],
+ "keywords": [
+  "lakeshire",
+  "lucius",
+  "redridge rendezvous",
+  "renzik the shiv",
+  "rogue quest",
+  "si:7",
+  "stormwind"
+ ],
+ "related": [
+  "npc:lucius",
+  "npc:renzik-the-shiv",
+  "quest:2300",
+  "quest:2282",
+  "subzone:lakeshire",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Redridge Rendezvous"
+ ]
+}

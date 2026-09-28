@@ -1,0 +1,114 @@
+{
+ "key": "npc:mountaineer-stormpike",
+ "type": "npc",
+ "name": "Mountaineer Stormpike",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Mountaineer Stormpike",
+  "refs": 3
+ },
+ "summary": "Mountaineer Stormpike is an Ironforge mountaineer stationed at Algaz Station in northern Loch Modan. Watching over the mountain pass leading toward the Wetlands, he works tirelessly to keep vital supply routes safe from lurking troggs, gnolls, and kobolds. As a proud member of the Stormpike clan, his loyalty lies squarely with Ironforge and the safety of dwarven lands.",
+ "sections": [
+  {
+   "title": "Guardian of Algaz Station",
+   "body": "Perched along the northern border of Loch Modan, Algaz Station serves as a critical checkpoint before the perilous descent into the Wetlands. Mountaineer Stormpike is stationed here amid rocky crags and constant wilderness threats. His primary duty is maintaining the line of communication and keeping the roads open for travelers and supply convoys traversing through Dun Algaz.",
+   "spoiler": 0
+  },
+  {
+   "title": "Contending with Local Menaces",
+   "body": "The northern reaches of Loch Modan are plagued by relentless pests, from kobolds infesting nearby digs to marauding gnoll packs and subterranean troggs. Stormpike routinely enlists passing adventurers to disrupt these threats, particularly targeting the kobolds whose filthy paws constantly pilfer supplies, gear, and valuable ore destined for Ironforge's war effort.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Mountaineer Stormpike?",
+   "aliases": [
+    "stormpike location",
+    "where is stormpike",
+    "mountaineer stormpike loc"
+   ],
+   "answer": "He is stationed at Algaz Station, situated in northern Loch Modan along the mountain road that leads north into the Dun Algaz pass toward the Wetlands."
+  },
+  {
+   "q": "Who is Mountaineer Stormpike?",
+   "aliases": [
+    "who is stormpike",
+    "mountaineer stormpike lore",
+    "who is mountaineer stormpike"
+   ],
+   "answer": "He is an Ironforge mountaineer belonging to the renowned Stormpike clan. He serves as an outpost sentry and scout, tasked with securing the northern pass of Loch Modan against surrounding wilderness dangers."
+  },
+  {
+   "q": "What threats does he deal with at Algaz Station?",
+   "aliases": [
+    "algaz station dangers",
+    "what is attacking algaz station",
+    "loch modan north threats"
+   ],
+   "answer": "The outpost faces frequent trouble from nearby gnoll bands, trogg incursions, and kobolds infesting the hillsides and quarries. Stormpike works to eliminate these threats so courier lines and caravans can pass through safely."
+  },
+  {
+   "q": "What is Algaz Station's purpose?",
+   "aliases": [
+    "what is algaz station",
+    "algaz station lore",
+    "purpose of algaz station"
+   ],
+   "answer": "Algaz Station acts as an Ironforge outpost monitoring the border between Loch Modan and the rugged tunnels of Dun Algaz. It serves as a waystation for mountaineers patrolling the frontier and keeping the trade road clear."
+  },
+  {
+   "q": "Is he related to the Stormpike Guard in Alterac Valley?",
+   "aliases": [
+    "alterac stormpike",
+    "stormpike clan connection",
+    "is he part of the stormpike guard"
+   ],
+   "answer": "He bears the name of the prominent Stormpike clan, a dwarven lineage well known across Ironforge for their fierce warriors and prospectors, though his immediate orders keep him deployed along the passes of Loch Modan."
+  },
+  {
+   "q": "What tasks does Mountaineer Stormpike give to adventurers?",
+   "aliases": [
+    "stormpike quests",
+    "mountaineer stormpike tasks",
+    "filthy paws quest"
+   ],
+   "answer": "He directs adventurers to reclaim stolen supplies from local pests, thin out encroaching threats like the kobolds, and carry military reports and shipments to nearby settlements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For a dwarf of Ironforge, aiding a fellow mountaineer like Stormpike is an honored duty to protect Khaz Modan's interior borders from scavenging vermin."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Algaz Station anchors the key overland conduit connecting Ironforge to Menethil Harbor in the Wetlands, making Stormpike's vigilance essential to Alliance logistics."
+  }
+ ],
+ "keywords": [
+  "algaz",
+  "dun",
+  "kobold",
+  "loch",
+  "modan",
+  "mountaineer",
+  "station",
+  "stormpike",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:algaz-station",
+  "zone:lochmodan",
+  "quest:307",
+  "quest:1339",
+  "quest:1338",
+  "topic:dwarf",
+  "topic:kobold",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Mountaineer Stormpike"
+ ]
+}

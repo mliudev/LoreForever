@@ -1,0 +1,133 @@
+{
+ "key": "zone:wetlands",
+ "type": "zone",
+ "name": "Wetlands",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": [
+   "Wetlands (Classic)",
+   "Wetlands"
+  ],
+  "levels": "20-30",
+  "aliases": []
+ },
+ "summary": "The Wetlands is a vast, mist-shrouded swamp nestled between the mountains of Khaz Modan and the shores of Baradin Bay. Historically battered by dwarven wars and orcish invasions, it serves as a rugged buffer zone between Ironforge and the northern lands of Lordaeron. The fortified port of Menethil Harbor stands as the Alliance's primary lifeline in a sodden wilderness overrun by Dragonmaw orcs, murlocs, and gnolls.",
+ "sections": [
+  {
+   "title": "A Land of Water and Ruin",
+   "body": "Spreading out beneath the towering precipice of the Stonewrought Dam, the Wetlands is a cold, waterlogged expanse cloaked in perpetual fog and uniform gray skies. While once home to thriving dwarven settlements, the marshlands are now scattered with sunken stone ruins, sodden bogs, and treacherous mires. Adventurers entering the region must navigate narrow passes, either coming north through the barricaded defile of Dun Algaz from Loch Modan or crossing the towering arches of the Thandol Span from the Arathi Highlands.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scars of Grim Batol",
+   "body": "The eastern reaches of the swamp are dominated by the brooding presence of Grim Batol, the former Wildhammer stronghold. After its defilement during the War of the Three Hammers, it became the fortified redoubt of the Dragonmaw clan during the Second War. When the red dragonflight broke free from orcish captivity, their fiery vengeance shattered the orcish forces and laid waste to the surrounding slopes. Today, red wyrmkin guard the Dragonmaw Gates against all trespassers, while feral remnants of the Dragonmaw clan dwell in scattered hill camps, continuing to harass travellers across the swamp.",
+   "spoiler": 0
+  },
+  {
+   "title": "Port of the West Coast",
+   "body": "Perched on the rim of Baradin Bay, Menethil Harbor is the beating heart of Alliance trade and logistics in Khaz Modan. Named in honor of King Terenas Menethil II, this stalwart port connects the Eastern Kingdoms to distant Kalimdor through regular transport ships sailing to Auberdine and Theramore Isle. Despite its strategic military importance and solid dwarven architecture, the harbor is perpetually under threat from coastal murlocs, swamp creatures, and coastal raiders who prey on vessels navigating the rocky channels.",
+   "spoiler": 0
+  },
+  {
+   "title": "Besieged Frontiers",
+   "body": "The Wetlands is an active war zone on multiple fronts. In the far north, Dark Iron dwarves under the warlock Balgaras the Foul have sabotage-bombed the Thandol Span and overrun the town of Dun Modr, cutting off overland supply trains. Meanwhile, Mosshide gnolls run rampant through the central fens, threatening even ancient protectors like Rethiel the Greenwarden. Between rogue orc warbands, Dark Iron infiltrators, and cursed shipwrecks along the coast, holding the swamp requires constant vigilance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I travel to the Wetlands on foot?",
+   "aliases": [
+    "how to get to wetlands",
+    "path to wetlands",
+    "run to wetlands"
+   ],
+   "answer": "Alliance adventurers generally travel north from Loch Modan through the mountain pass of Dun Algaz. Horde travelers journeying from the north can cross the Thandol Span from the Arathi Highlands. Take care, as both passageways are contested by hostile forces like Dragonmaw orcs and Dark Iron dwarves."
+  },
+  {
+   "q": "Where do the boats at Menethil Harbor go?",
+   "aliases": [
+    "menethil boats",
+    "menethil harbor ships",
+    "where does the boat go in wetlands"
+   ],
+   "answer": "The docks at Menethil Harbor operate two major ferry routes to Kalimdor: one ship sails across the Great Sea to Auberdine on the shores of Darkshore, while the other sails south to Theramore Isle in Dustwallow Marsh."
+  },
+  {
+   "q": "What is Grim Batol and why is it guarded?",
+   "aliases": [
+    "why are there dragons at grim batol",
+    "grim batol red dragons",
+    "dragonmaw gates"
+   ],
+   "answer": "Grim Batol is an ancient dwarven fortress abandoned after the War of the Three Hammers and later occupied by the Dragonmaw clan. Following the Second War, the liberated red dragonflight drove out the orcs and sealed the mountain. Powerful red dragonspawn and wyrmkin patrol the Dragonmaw Gates to prevent anyone from entering the cursed halls."
+  },
+  {
+   "q": "What happened to Dun Modr?",
+   "aliases": [
+    "who destroyed dun modr",
+    "dun modr ruins",
+    "dark irons in dun modr"
+   ],
+   "answer": "Dun Modr was a northern dwarven stronghold guarding the Thandol Span. It was recently attacked and overrun by Dark Iron dwarves led by Balgaras the Foul. The survivors, led by Rhag Garmason, maintain an embattled encampment nearby while fighting to reclaim their town."
+  },
+  {
+   "q": "Who is Rethiel the Greenwarden?",
+   "aliases": [
+    "greenwardens grove",
+    "rethiel wetlands",
+    "who is the greenwarden"
+   ],
+   "answer": "Rethiel is an ancient keeper residing in Greenwarden's Grove along the Green Belt. He seeks help from travelers to stem the tide of aggressive Mosshide gnolls and heal his corrupted bog beast kin who wander the fen."
+  },
+  {
+   "q": "Where did all the orcs in the swamp come from?",
+   "aliases": [
+    "why are there orcs in wetlands",
+    "wetlands dragonmaw",
+    "dragonmaw clan wetlands"
+   ],
+   "answer": "The orcs belong to the Dragonmaw clan, who originally fortified themselves in Grim Batol during the Second War. After being devastated by the freed red dragonflight, the surviving orcs fled down into the swamp and hills, where they still launch raids on roadways and travelers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, the Wetlands is a bittersweet place marked by the loss of Dun Modr, the ancient tragedy of Grim Batol, and the ongoing labor of defending King Magni's trade route to the north."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Menethil Harbor serves as the Alliance's primary deep-water gateway across the Great Sea, linking the kingdoms of the east with expeditionary outposts in Kalimdor."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The hills and cavernous depths of Thelgen Rock hold rich mineral veins, including rare deposits of Incendicite ore coveted by dwarven miners and engineers."
+  }
+ ],
+ "keywords": [
+  "baradin bay",
+  "dragonmaw",
+  "dun algaz",
+  "dun modr",
+  "grim batol",
+  "menethil",
+  "menethil harbor",
+  "thandol span",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:menethil-harbor",
+  "subzone:grim-batol",
+  "subzone:dun-modr",
+  "subzone:thandol-span",
+  "subzone:dun-algaz",
+  "topic:dragonmaw-clan",
+  "npc:rethiel-the-greenwarden",
+  "quest:455"
+ ],
+ "attribution": [
+  "Wetlands (Classic)",
+  "Wetlands"
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "key": "quest:264",
+ "type": "quest",
+ "name": "Until Death Do Us Part",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   264
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Clarice Foster",
+  "end": "Yuriv's Tombstone",
+  "previous": null,
+  "next": null,
+  "wiki": "Until Death Do Us Part",
+  "chain": []
+ },
+ "summary": "Until Death Do Us Part is a bitter, personal quest undertaken at the Sepulcher in Silverpine Forest. Clarice Foster, an undead resident, sends adventurers to discard her keepsake pendant upon the tomb of her late husband, Yuriv. The task reveals the painful human fractures caused by zealotry and war long before the plague claimed Lordaeron.",
+ "sections": [
+  {
+   "title": "A Bitter Keepsake",
+   "body": "Clarice Foster carries no fondness for the memories of her mortal marriage. While Lordaeron crumbled, her husband Yuriv abandoned her and their children to march off on a crusade against the rising undead threat, declaring that serving the Holy Light was paramount. In the end, his devotion saved neither his family nor himself. Now raised into undeath while Yuriv rots beneath a defaced stone, Clarice seeks only to cast away the last tangible reminder of his broken promises.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Neglected Grave",
+   "body": "Yuriv's tomb rests in the graveyard surrounding the Sepulcher, marred by gashes, strewn with rubbish, and overtaken by weeds. Placing Clarice's pendant onto the sculpted relief of his hands brings no grand magic or spiritual closure, only a dulling of the gem and a cold, silent gust of wind over the tombs. It serves as a stark testament to the lingering resentments of Lordaeron's fallen people.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Yuriv?",
+   "aliases": [
+    "who is yuriv",
+    "yuriv lore",
+    "clarice husband"
+   ],
+   "answer": "Yuriv was Clarice Foster's mortal husband. He left her and their children behind during life to fight against the Scourge in the name of the Holy Light, prioritizing his crusade over his family."
+  },
+  {
+   "q": "Why does Clarice hate her late husband so much?",
+   "aliases": [
+    "why is clarice mad",
+    "clarice foster backstory"
+   ],
+   "answer": "Clarice spent night after night waiting for Yuriv while he placed his religious duties first. In the end, his crusade failed to protect them, leaving him dead in a neglected grave while she was cursed to rise as the very undead monster he fought against."
+  },
+  {
+   "q": "What happens when you return the pendant?",
+   "aliases": [
+    "pendant on grave",
+    "ending of until death do us part"
+   ],
+   "answer": "When placed upon the stone hands of Yuriv's carved relief, the pendant's gemstone noticeably dulls. A stiff, cool breeze sweeps over the Sepulcher, leaving the defaced tomb in cold, quiet abandonment."
+  },
+  {
+   "q": "Where is Yuriv's tomb located?",
+   "aliases": [
+    "where is yuriv tomb",
+    "yuriv grave location"
+   ],
+   "answer": "Yuriv's tombstone is found within the cemetery grounds of the Sepulcher, the Forsaken stronghold in northern Silverpine Forest."
+  },
+  {
+   "q": "Why is Yuriv's grave so damaged?",
+   "aliases": [
+    "why is grave defaced",
+    "tomb abused"
+   ],
+   "answer": "The grave has been gashed, littered with garbage, and overgrown with weeds. The Forsaken living at the Sepulcher hold no sympathy or reverence for a crusader who died opposing their kind."
+  },
+  {
+   "q": "Did Clarice's children survive?",
+   "aliases": [
+    "what happened to the kids",
+    "clarice children"
+   ],
+   "answer": "Clarice mentions that Yuriv abandoned his children along with her, but their ultimate fate remains unstated. Given the total devastation of Lordaeron, it is likely they met a tragic end."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, Clarice's plight embodies the hypocrisy of the living: holy warriors left their families to perish in holy fervor, leaving their transformed survivors to bear the burden of memory."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The quest paints a grim picture of faith, highlighting how devotion to the Light can tear families apart and breed lasting bitterness in those left behind."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Aiding Clarice provides Horde champions insight into the personal tragedies and enduring spite that bind the Forsaken together in Silverpine Forest."
+  }
+ ],
+ "keywords": [
+  "clarice foster",
+  "crusade",
+  "forsaken",
+  "pendant",
+  "sepulcher",
+  "silverpine",
+  "tomb",
+  "yuriv"
+ ],
+ "related": [
+  "npc:clarice-foster",
+  "subzone:sepulcher",
+  "zone:silverpine",
+  "topic:light"
+ ],
+ "attribution": [
+  "Until Death Do Us Part"
+ ]
+}

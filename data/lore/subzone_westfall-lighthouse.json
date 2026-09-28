@@ -1,0 +1,88 @@
+{
+ "key": "subzone:westfall-lighthouse",
+ "type": "subzone",
+ "name": "Westfall Lighthouse",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Westfall Lighthouse"
+ },
+ "summary": "Perched on a rocky isle off the southwestern shore of Westfall, the Westfall Lighthouse once warned vessels away from the perilous shallows of the Great Sea. Today, its living keepers are gone, wiped out in a brutal assault led by the notorious murloc Old Murk-Eye, leaving only the spirit of Captain Grayson to watch over the flame.",
+ "sections": [
+  {
+   "title": "A Beacon in the Mist",
+   "body": "Built along the treacherous southwestern bluffs of Westfall, the lighthouse long provided safe passage for ships navigating the coastline near Stormwind. However, as law and order collapsed across the region and royal patrols dwindled, coastal dangers surged unchecked. A family of keepers originally tended the beacon, but aggressive murloc tribes drove them inland. Though they bravely returned to relight the tower, the infamous murloc raider Old Murk-Eye rallied his kin for a second, merciless onslaught, butchering the family and extinguishing the beacon.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ghostly Watch",
+   "body": "Following the tragedy, the beacon did not remain entirely abandoned. The specter of Captain Grayson now lingers on the rocky outcrop, bound to the site where he helplessly witnessed the family's demise. Unable to rest while the beacon is dark and the shore crawls with monsters, Grayson enlists passing adventurers to scour the beaches for fuel to keep the flame burning and to hunt down Old Murk-Eye to avenge the fallen keepers.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Westfall Lighthouse abandoned?",
+   "aliases": [
+    "what happened to the keepers",
+    "who lived at the lighthouse",
+    "why is it ruined"
+   ],
+   "answer": "The human family that tended the lighthouse was driven out by local murlocs. When they returned to relight the beacon, Old Murk-Eye led a second raid that massacred the entire family before Captain Grayson's eyes."
+  },
+  {
+   "q": "Who is Captain Grayson?",
+   "aliases": [
+    "ghost at lighthouse",
+    "who is the ghost",
+    "captain grayson lore"
+   ],
+   "answer": "Captain Grayson is a ghost haunting the island outside the lighthouse. Bound by guilt and duty after witnessing the keepers' deaths, he tasks brave travelers with gathering oil to keep the beacon lit and hunting the coastal murlocs responsible."
+  },
+  {
+   "q": "Who is Old Murk-Eye?",
+   "aliases": [
+    "murk eye",
+    "murloc boss",
+    "who killed the keepers"
+   ],
+   "answer": "Old Murk-Eye is an unusually cunning and vicious murloc chieftain who stalks the Westfall shoreline. He rallied the coastal tribes to overrun the lighthouse and slaughter the keepers."
+  },
+  {
+   "q": "Does the lighthouse still function?",
+   "aliases": [
+    "does the light turn on",
+    "beacon working"
+   ],
+   "answer": "The mechanical lantern still functions, projecting a sweeping beam of light across the ocean at night whenever travelers help Captain Grayson collect the fuel needed to maintain the fire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The lighthouse stands as a stark symbol of Stormwind's failing reach, where isolated kingdom servants were abandoned to savage coastal beasts without military support."
+  }
+ ],
+ "keywords": [
+  "beacon",
+  "captain grayson",
+  "coast",
+  "flame",
+  "lighthouse",
+  "murloc",
+  "old murk-eye",
+  "westfall"
+ ],
+ "related": [
+  "npc:captain-grayson",
+  "quest:103",
+  "quest:104",
+  "topic:murloc",
+  "zone:westfall",
+  "topic:alliance",
+  "topic:pirate"
+ ],
+ "attribution": [
+  "Westfall Lighthouse"
+ ]
+}

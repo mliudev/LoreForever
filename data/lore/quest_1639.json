@@ -1,0 +1,120 @@
+{
+ "key": "quest:1639",
+ "type": "quest",
+ "name": "Bartleby the Drunk",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1639
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Harry Burlguard",
+  "end": "Bartleby",
+  "previous": "A Warrior's Training",
+  "next": "Beat Bartleby",
+  "wiki": "Bartleby the Drunk",
+  "chain": [
+   "A Warrior's Training",
+   "Bartleby the Drunk",
+   "Beat Bartleby",
+   "Bartleby's Mug (quest)"
+  ]
+ },
+ "summary": "Bartleby the Drunk is an early rite of passage for Alliance warriors training in Stormwind City. Directed by Harry Burlguard inside the Pig and Whistle Tavern, an aspiring fighter must confront a stubborn barfly and take his prized drinking mug. It serves as a simple test of grit, proving a warrior can handle a brawl before advancing to true martial techniques.",
+ "sections": [
+  {
+   "title": "A Tavernhouse Test",
+   "body": "Before Harry Burlguard will impart deeper combat training in the Old Town tavern, he demands proof that a novice has real backbone. Rather than assigning an orderly sparring match, Harry gestures across the room to Bartleby, a belligerent patron nursing drinks at the far end of the counter. The task is straightforward: take the man's mug. Burlguard knows full well that Bartleby would rather fight than surrender his ale, making the confrontation an immediate trial of a warrior's resolve.",
+   "spoiler": 0
+  },
+  {
+   "title": "Old Town Etiquette",
+   "body": "The Pig and Whistle caters to soldiers, laborers, and rough-and-tumble locals, leaving little patience for polished manners. Approaching Bartleby yields mockery rather than conversation, as the drunk immediately derides any newcomer as too prissy for a tavern scuffle. This friction sets the stage for a brawl right on the floorboards, showing that advancement in Stormwind's martial circles often begins with basic barroom brawling.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bartleby?",
+   "aliases": [
+    "who is bartleby",
+    "bartleby npc",
+    "bartleby the drunk"
+   ],
+   "answer": "Bartleby is an obstinate, heavy-drinking patron found loitering at the bar in the Pig and Whistle Tavern within Stormwind's Old Town district."
+  },
+  {
+   "q": "Why does Harry Burlguard send me to Bartleby?",
+   "aliases": [
+    "why fight bartleby",
+    "harry burlguard test",
+    "why get the mug"
+   ],
+   "answer": "Harry Burlguard wants to see what moves you have before committing to teach you advanced warrior techniques. Demanding Bartleby's mug guarantees a fight, testing your willingness to take a punch and hold your ground."
+  },
+  {
+   "q": "Where does this encounter take place?",
+   "aliases": [
+    "where is bartleby",
+    "pig and whistle location"
+   ],
+   "answer": "The encounter occurs inside the Pig and Whistle Tavern, located in Old Town on the eastern side of Stormwind City."
+  },
+  {
+   "q": "What happens when you speak to Bartleby?",
+   "aliases": [
+    "what does bartleby say",
+    "bartleby dialogue"
+   ],
+   "answer": "Bartleby insults you, calling you fancy and prissy and warning you not to break a nail in a rough establishment like the Pig and Whistle, which quickly sparks a fight."
+  },
+  {
+   "q": "What comes after talking to Bartleby?",
+   "aliases": [
+    "next quest after bartleby",
+    "what follows bartleby the drunk"
+   ],
+   "answer": "Confronting Bartleby leads directly into a tavern brawl where you must physically defeat him to claim his mug and return it to Harry Burlguard."
+  },
+  {
+   "q": "Is this quest available to any class?",
+   "aliases": [
+    "can anyone do bartleby",
+    "warrior only"
+   ],
+   "answer": "No, this quest is part of the class training storyline exclusive to Alliance warriors reaching level 10."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This confrontation marks the practical test required by Stormwind's trainers before they will instruct you in defensive tactics and stance mastery."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The tavern scuffle illustrates the gritty, unglamorous side of Stormwind's Old Town, far removed from the royal court of the Keep."
+  }
+ ],
+ "keywords": [
+  "bartleby",
+  "drunk",
+  "harry burlguard",
+  "mug",
+  "old town",
+  "pig and whistle",
+  "stormwind",
+  "training",
+  "warrior"
+ ],
+ "related": [
+  "quest:1638",
+  "quest:1640",
+  "quest:1665",
+  "npc:bartleby"
+ ],
+ "attribution": [
+  "Bartleby the Drunk"
+ ]
+}

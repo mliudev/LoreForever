@@ -1,0 +1,116 @@
+{
+ "key": "npc:elling-trias",
+ "type": "npc",
+ "name": "Elling Trias",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Elling Trias",
+  "refs": 9
+ },
+ "summary": "Elling Trias manages Trias' Cheese, a small storefront nestled in the bustling Trade District of Stormwind City. While he presents himself as a jovial and passionate purveyor of dairy, he quietly operates as one of the kingdom's most connected information brokers. Behind wheels of cheese and cordial banter, Trias maintains an ear to the ground that reaches across continents.",
+ "sections": [
+  {
+   "title": "The Master Cheesemonger",
+   "body": "To the casual customer strolling the Trade District, Elling Trias is merely an artisan dedicated to fine curds, working his shop alongside his wife Elaine and son Ben. He enthusiastically hawks wheels of cheese and chats amicably with townsfolk. Yet those in the know understand that Trias' Cheese is one of the most reliable fronts in Stormwind. The steady hum of city commerce provides perfect cover for operatives, courtiers, and adventurers who need to trade quiet words without drawing the attention of the city watch.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Web of Whispers",
+   "body": "Elling's network of informants and allies is staggering for a shopkeeper. He maintains ties with Master Mathias Shaw of SI:7, coordinates with Church contacts like Bishop DeLavey, and corresponds with agents as far afield as Darkshire, Theramore Isle, and the distant Plaguelands near Hearthglen. When odd rumors surface\u2014whether concerning highway bandits or quiet movements in the countryside\u2014Trias often pieces the puzzle together long before the royal court takes notice.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Missing Diplomat",
+   "body": "When a high-ranking diplomat vanishes on a voyage to Theramore, Elling Trias becomes an essential pivot in unraveling the conspiracy. Directing investigators to his contacts\u2014including an estranged operative named Jorgen and old friend Tyrion\u2014Trias helps unmask the Defias Brotherhood's hand in the abduction. Despite his sharp wit and cynical banter, Elling recognizes that the plot reaches deep into the heart of Stormwind's aristocracy.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Elling Trias?",
+   "aliases": [
+    "who is elling",
+    "elling trias identity",
+    "trias cheese guy"
+   ],
+   "answer": "Elling Trias is ostensibly a cheese vendor operating Trias' Cheese in Stormwind's Trade District alongside his family. Beneath that cover, he is a seasoned intelligence broker with ties to SI:7, the Church, and distant outposts across Azeroth."
+  },
+  {
+   "q": "Where is his cheese shop located?",
+   "aliases": [
+    "trias cheese location",
+    "where is elling trias",
+    "trias shop stormwind"
+   ],
+   "answer": "You can find Trias' Cheese in the Trade District of Stormwind City, tucked into the shop row along the outer canal wall, near the border leading toward Old Town."
+  },
+  {
+   "q": "What is his connection to the Defias Brotherhood?",
+   "aliases": [
+    "trias defias",
+    "is trias in the defias"
+   ],
+   "answer": "Trias is not a member of the Defias Brotherhood; rather, he tracks their movements through his informant network. He helps Alliance adventurers trace Defias involvement in subversive plots, including the kidnapping of a royal diplomat."
+  },
+  {
+   "q": "How does he know Mathias Shaw?",
+   "aliases": [
+    "trias and shaw",
+    "trias si7",
+    "is trias si7"
+   ],
+   "answer": "Elling collaborates closely with Master Mathias Shaw and the intelligence apparatus of SI:7. His shop provides an informal listening post where discreet inquiries can be launched outside official royal channels."
+  },
+  {
+   "q": "Who runs the shop with him?",
+   "aliases": [
+    "trias family",
+    "elling trias wife"
+   ],
+   "answer": "Elling runs Trias' Cheese with his wife, Elaine Trias, and his son, Ben Trias. Together they maintain the appearance of a bustling, ordinary family-run trade shop."
+  },
+  {
+   "q": "What is his involvement in the Missing Diplomat investigation?",
+   "aliases": [
+    "missing diplomat trias",
+    "why visit trias cheese"
+   ],
+   "answer": "Sent to Trias by Bishop DeLavey, investigators use Elling's expansive web of contacts\u2014including his old associates Jorgen and Tyrion\u2014to trace Defias movements and discover who seized the diplomat bound for Theramore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Any practitioner of subtlety recognizes that Elling's cheese shop is an ideal drop point. His proximity to Old Town and tight links to Mathias Shaw make him a fixture in Stormwind's underworld."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Elling serves as an unsung pillar of Alliance intelligence, quietly filtering rumors from Theramore to Hearthglen to protect the realm from internal rot."
+  }
+ ],
+ "keywords": [
+  "elaine trias",
+  "elling trias",
+  "mathias shaw",
+  "missing diplomat",
+  "si:7",
+  "stormwind",
+  "trade district",
+  "trias cheese",
+  "tyrion"
+ ],
+ "related": [
+  "subzone:trade-district",
+  "zone:stormwind",
+  "npc:mathias-shaw",
+  "quest:1241",
+  "npc:tyrion",
+  "npc:bishop-delavey",
+  "topic:defias-brotherhood",
+  "quest:2300"
+ ],
+ "attribution": [
+  "Elling Trias"
+ ]
+}

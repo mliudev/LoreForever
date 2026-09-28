@@ -1,0 +1,126 @@
+{
+ "key": "quest:396",
+ "type": "quest",
+ "name": "An Audience with the King",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   396
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Baros Alexston",
+  "end": "Lady Katrana Prestor",
+  "previous": "Brotherhood's End",
+  "next": null,
+  "wiki": "An Audience with the King",
+  "chain": []
+ },
+ "summary": "\"An Audience with the King\" is the culmination of the long investigation into the Defias Brotherhood across Westfall and the Deadmines. Carrying the final report prepared by City Architect Baros Alexston, heroes journey to Stormwind Keep to lay the threat to rest before the realm's highest authority. Yet reaching the throne room reveals that royal affairs in the capital are not as straightforward as they seem.",
+ "sections": [
+  {
+   "title": "A Royal Summons",
+   "body": "After the defeat of Edwin VanCleef and the dismantling of the conspiracy beneath Moonbrook, the City Architect Baros Alexston compiles an official dossier for the Crown. Alexston insists that the adventurer who broke the guild's criminal enterprise should be the one honored before the monarch. Carrying the detailed report across the grand canals to Stormwind Keep, the messenger arrives expecting an audience with the sovereign of the realm.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Empty Throne",
+   "body": "Upon stepping into the royal court, the bearer of the report does not find King Varian Wrynn awaiting them. Instead, royal adviser Lady Katrana Prestor receives the dossier on the Crown's behalf. Prestor smoothly dismisses the monarch's absence, explaining that King Varian is away on an extended diplomatic mission and cannot offer congratulations in person. She accepts the report, commends the hero for sparing Stormwind from VanCleef's schemes, and offers a reward in the missing king's name, neatly filing away the grim truth of the brotherhood's uprising.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why am I delivering this report instead of Baros Alexston?",
+   "aliases": [
+    "why deliver report",
+    "baros alexston report",
+    "audience with king delivery"
+   ],
+   "answer": "Baros Alexston believes you earned the honor through your fieldwork. Since you tracked the Defias conspiracy through Westfall and stormed the Deadmines yourself, Alexston insists that you personally present the findings and receive the Crown's recognition."
+  },
+  {
+   "q": "Where is King Varian Wrynn?",
+   "aliases": [
+    "where is the king",
+    "why isnt varian here",
+    "where is varian wrynn",
+    "missing king"
+   ],
+   "answer": "King Varian Wrynn is not present in Stormwind Keep. Officially, royal courtiers explain that the king is away on a secret diplomatic mission, leaving his young son Anduin on the throne under Highlord Bolvar Fordragon's regency."
+  },
+  {
+   "q": "Who actually takes the Defias report?",
+   "aliases": [
+    "who finishes the quest",
+    "who do i talk to in keep",
+    "who takes report"
+   ],
+   "answer": "Lady Katrana Prestor receives you in the royal court. As a chief adviser to the throne, she accepts Baros Alexston's report, commends you for neutralizing Edwin VanCleef, and provides your reward on behalf of the Crown."
+  },
+  {
+   "q": "Does this quest end the Defias Brotherhood questline?",
+   "aliases": [
+    "end of defias chain",
+    "is this the last defias quest",
+    "deadmines aftermath"
+   ],
+   "answer": "Yes. This quest serves as the formal political conclusion to the extensive Defias storyline that begins in early Westfall and leads through the Deadmines dungeon."
+  },
+  {
+   "q": "Why does Lady Katrana Prestor seem so dismissive of the king's absence?",
+   "aliases": [
+    "why is prestor calm",
+    "prestor diplomatic mission",
+    "prestor excuse"
+   ],
+   "answer": "Prestor projects absolute composure to maintain order in the royal court. By assuring visitors that King Varian is simply engaged in distant statecraft, the regency attempts to downplay anxiety regarding the Crown's whereabouts."
+  },
+  {
+   "q": "What happens to the Defias Brotherhood after this?",
+   "aliases": [
+    "are defias gone",
+    "what happens to defias now",
+    "is the brotherhood destroyed"
+   ],
+   "answer": "With Edwin VanCleef dead and their grand juggernaut project thwarted, the brotherhood's leadership is shattered. However, scattered brigands and remnants still plague Westfall, Redridge, and the alleys of Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Delivering this report marks the resolution of one of the greatest internal crises threatening the Alliance's primary human kingdom."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, this audience is a bittersweet milestone: it avenges the terror wrought across Westfall, yet quietly exposes the fragile, kingless state of the realm."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Stepping into the highest hall of power to report on the downfall of Edwin VanCleef serves as a stark reminder of how thin the line is between a royal operative and an outlaw guildmaster."
+  }
+ ],
+ "keywords": [
+  "audience with the king",
+  "baros alexston",
+  "brotherhood's end",
+  "defias report",
+  "edwin vancleef",
+  "katrana prestor",
+  "stormwind keep",
+  "varian wrynn"
+ ],
+ "related": [
+  "quest:395",
+  "quest:65",
+  "npc:baros-alexston",
+  "subzone:stormwind-keep",
+  "topic:defias-brotherhood",
+  "topic:stormwind-kingdom",
+  "topic:varian-wrynn"
+ ],
+ "attribution": [
+  "An Audience with the King"
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "key": "quest:96607",
+ "type": "quest",
+ "name": "The Great Outdoors",
+ "era": "forever",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   96607
+  ],
+  "level": "6",
+  "faction": "Both",
+  "start": "Varies",
+  "end": "",
+  "previous": "The Adventurer",
+  "next": "Profession quests",
+  "wiki": "The Great Outdoors (Forever)",
+  "chain": []
+ },
+ "summary": "The Great Outdoors is an introductory survival lesson offered by seasoned travelers to newly minted wanderers across Azeroth. By taking a moment to rest by a warm campfire, fledglings learn how staying well-rested and prepared keeps an adventurer alive beyond city walls. It marks the first step into mastering wilderness survival and specialized field camps.",
+ "sections": [
+  {
+   "title": "Lessons of the Trail",
+   "body": "No matter how sharp your blade or potent your magic, the wilds of Azeroth quickly whittle down anyone who neglects the basics of survival. Seasoned wanderers stationed near roadside clearings offer this simple lesson to travelers setting out from their home valleys. Taking time to rest by a campfire does more than ease sore boots\u2014it settles the mind and readies the spirit for the harsh road ahead. Only those who master the discipline of regular rest and preparation stand a chance of surviving long enough to claim fortune and glory.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Home Away from Home",
+   "body": "Once an adventurer grasps the value of a crackling fire and proper rest, the instructors point them directly toward town tradesfolk. A camp in the field is rarely complete with just an ember and a bedroll; survival requires practical crafts. Whether forging replacement rivets, cooking trail rations, or stitching torn gear under the stars, every profession provides unique camp fixtures to turn a barren hillside into a self-sufficient outpost.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this lesson to new wanderers?",
+   "aliases": [
+    "who gives the great outdoors",
+    "who starts the great outdoors",
+    "quest giver great outdoors"
+   ],
+   "answer": "A variety of veteran travelers offer this guidance depending on where you are. In Elwynn Forest, seasoned wanderers like Eleanor Shackleton or Sam Sarsaparilla step up, while elsewhere figures such as Eric Brighthammer, Lyreena Duskblade, Brakk, Kaga Wildhoof, and Raan Wildwind share their wilderness experience."
+  },
+  {
+   "q": "What is the purpose of sitting by the campfire?",
+   "aliases": [
+    "why sit by the fire",
+    "what does campfire do",
+    "boosted rest buff"
+   ],
+   "answer": "Sitting quietly by a blazing campfire lets an adventurer catch their breath and gain a Boosted Rest effect. Taking deliberate downtime in the field is essential for keeping your strength up during long expeditions across the wilds."
+  },
+  {
+   "q": "Where does this training lead next?",
+   "aliases": [
+    "what comes after great outdoors",
+    "great outdoors next quest",
+    "camping quests"
+   ],
+   "answer": "Once you finish resting by the fire, your mentor directs you to nearby settlements to learn practical tradeskills. From there, you begin learning Camping 101: Cooking as well as specific field camping lessons tailored to whatever profession you choose to pursue."
+  },
+  {
+   "q": "Can Horde adventurers undertake this lesson as well?",
+   "aliases": [
+    "is this alliance only",
+    "horde great outdoors",
+    "can orcs do this quest"
+   ],
+   "answer": "Yes. Surviving in the harsh wilds is a necessity regardless of allegiance. Veteran instructors from both the Alliance and the Horde\u2014such as Brakk, Kaga Wildhoof, and Raan Wildwind\u2014teach the exact same fundamental campcraft to their faction's initiates."
+  },
+  {
+   "q": "Why do the instructors tell you to speak with trade trainers?",
+   "aliases": [
+    "why learn professions",
+    "camp fixtures trade trainers",
+    "profession camp connection"
+   ],
+   "answer": "Survival requires more than just sitting by flames; an adventurer needs self-reliance. Tradeskill trainers teach you how to craft specialized camp fixtures that let you ply your trade, whether that is cooking trail rations, mending armor, or brewing remedies under the open sky."
+  },
+  {
+   "q": "What prior experience is expected before taking this quest?",
+   "aliases": [
+    "prerequisites for the great outdoors",
+    "how do i unlock great outdoors",
+    "before great outdoors"
+   ],
+   "answer": "Adventurers typically receive this lesson directly following 'The Adventurer', once they have proved their basic ambition and stepped beyond their starter enclaves into the wider region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Every wilderness camp starts with fire, making cooking the natural companion to outdoor survival. Following this lesson, master campers immediately direct you to trailside culinary instruction."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "In the safety of Elwynn Forest, human travelers learn these survival basics from experienced wayfarers before facing the harsher threats lurking in Westfall and Redridge."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Whether crossing the arid plains of Durotar or the windswept mesas of Mulgore, Horde survivalists instill firecraft and outdoor discipline into every young warrior."
+  }
+ ],
+ "keywords": [
+  "adventurer",
+  "boosted rest",
+  "campfire",
+  "camping",
+  "eleanor shackleton",
+  "elwynn forest",
+  "sam sarsaparilla",
+  "survival",
+  "tradeskill"
+ ],
+ "related": [
+  "quest:96627",
+  "quest:96658",
+  "npc:eleanor-shackleton",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "The Great Outdoors (Forever)"
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "key": "subzone:helm-s-bed-lake",
+ "type": "subzone",
+ "name": "Helm's Bed Lake",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Helm's Bed Lake"
+ },
+ "summary": "Helm's Bed Lake is a frozen body of water nestled in the southeastern hills of Dun Morogh. A maintained hole in the thick ice provides crucial fresh water to local mountaineers and travelers. However, the surrounding shoreline has become perilous due to prowling wildlife, encroaching troggs, and hostile Dark Iron infiltrators.",
+ "sections": [
+  {
+   "title": "A Treacherous Shoreline",
+   "body": "Helm's Bed Lake sits quietly beneath a thick sheet of winter ice in southeastern Dun Morogh. Local dwarves keep an opening chopped through the frost to draw clean, fresh water. While crossing the frozen expanse is stable enough, lingering near the banks has become increasingly risky. Wild beasts wander the edges, displaced troggs scavenge along the ridges, and a cell of hostile Dark Iron dwarves has commandeered an abandoned lodge just south of the water, aggressively ambushing any travelers who pass through.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is there an open hole in the middle of the frozen lake?",
+   "aliases": [
+    "ice hole",
+    "water access",
+    "why is the ice broken"
+   ],
+   "answer": "The hole in the thick ice is deliberately maintained by local dwarves to allow consistent access to fresh, unfrozen water amid Dun Morogh's sub-zero climate."
+  },
+  {
+   "q": "What dangers lurk around Helm's Bed Lake?",
+   "aliases": [
+    "threats at helms bed lake",
+    "who is attacking here",
+    "enemies nearby"
+   ],
+   "answer": "While the lake surface itself is solid, the perimeter is hunted by predatory beasts and stray troggs. To the south, an encampment of hostile Dark Iron dwarves occupies an old building and violently repels anyone who draws near."
+  },
+  {
+   "q": "Who is Narm Faulk?",
+   "aliases": [
+    "narm faulk corpse",
+    "dead dwarf near lake",
+    "dead body at helms bed lake"
+   ],
+   "answer": "Narm Faulk is an unfortunate dwarf whose body can be found along the shoreline of Helm's Bed Lake, a grim casualty of the sudden surge of hostile threats and Dark Iron infiltrators in the area."
+  },
+  {
+   "q": "Are the Dark Iron dwarves officially occupying the lake?",
+   "aliases": [
+    "dark irons at the lake",
+    "dark iron dwarf lodge"
+   ],
+   "answer": "They have not seized the lake outright, but an armed squad has claimed an abandoned structure just to the south, using it as a forward position to stage skirmishes into central Dun Morogh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For the Ironforge dwarves, Helm's Bed Lake represents both a vital freshwater spot and an irritating security failure, as Dark Iron saboteurs and troggs push deeper into Dun Morogh's heartland."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance scouts traveling east toward Loch Modan must stay alert here, as the southward trail skirts uncomfortably close to aggressive Dark Iron ambushes."
+  }
+ ],
+ "keywords": [
+  "dark iron",
+  "dun morogh",
+  "helm's bed lake",
+  "ice hole",
+  "narm faulk",
+  "trogg"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "Helm's Bed Lake"
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "key": "quest:26",
+ "type": "quest",
+ "name": "A Lesson to Learn",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   26
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Turak Runetotem",
+  "end": "Dendrite Starblaze",
+  "previous": null,
+  "next": "Trial of the Lake",
+  "wiki": "A Lesson to Learn (Horde)",
+  "chain": []
+ },
+ "summary": "A Lesson to Learn is a rite of passage for young tauren druids ready to claim command over the water. Issued atop the heights of Thunder Bluff by Turak Runetotem, the quest directs students to Nighthaven in Moonglade to begin their trials under the tutelage of the Cenarion Circle.",
+ "sections": [
+  {
+   "title": "Mastery of the Depths",
+   "body": "After gaining command of raw physical might through the bear, a druid's studies turn toward adaptability. The waterways of Azeroth present perilous hazards to landbound travelers, demanding an aspect suited to cold depths and crushing currents. Turak Runetotem watches his students closely, choosing only those who have proven their dedication to nature before sending them north to study the aquatic form.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Nighthaven",
+   "body": "Because aquatic shape-shifting requires deep spiritual insight, initiates must seek guidance outside the bluffs of Mulgore. Turak bids his pupils travel to Moonglade, the sacred sanctuary sheltered beneath Mount Hyjal. There, in the peaceful haven of Nighthaven, ancient night elf mentors of the Cenarion Circle welcome tauren brothers and sisters, transcending factional strife to preserve the shared teachings of Cenarius.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Dual Trials",
+   "body": "Reaching Dendrite Starblaze in Nighthaven marks only the beginning. The night elf elder cautions that mastery over the waters cannot simply be given\u2014it must be earned through trial. He warns candidates that two grueling tests await them: one testing endurance and composure while working under watery pressure, and another demanding a deep spiritual understanding of the aquatic aspect itself.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest A Lesson to Learn?",
+   "aliases": [
+    "who starts a lesson to learn",
+    "where do i get a lesson to learn",
+    "turak runetotem quest"
+   ],
+   "answer": "The quest is given by Turak Runetotem, the druid trainer residing on the Elder Rise in Thunder Bluff. Once an initiate reaches sufficient experience, he sends them to seek advanced training."
+  },
+  {
+   "q": "Where must I go to complete this quest?",
+   "aliases": [
+    "where do i turn in a lesson to learn",
+    "dendrite starblaze location",
+    "where is nighthaven"
+   ],
+   "answer": "You must travel to the village of Nighthaven, nestled within the sacred forest of Moonglade, and speak with Dendrite Starblaze of the Cenarion Circle."
+  },
+  {
+   "q": "What ability does this quest chain lead to?",
+   "aliases": [
+    "what form does this give",
+    "aquatic form quest",
+    "why do this quest"
+   ],
+   "answer": "This quest is the opening step in the questline that rewards druids with Aquatic Form, granting rapid underwater swimming and the ability to breathe beneath the surface indefinitely."
+  },
+  {
+   "q": "Why do tauren druids go to a night elf for training?",
+   "aliases": [
+    "why moonglade",
+    "why dendrite starblaze",
+    "cenarion circle tauren"
+   ],
+   "answer": "The Cenarion Circle operates as a neutral brotherhood dedicated to Cenarius and the preservation of nature. Within Moonglade, political tensions between the Horde and Alliance are set aside so night elves and tauren can learn the sacred arts together."
+  },
+  {
+   "q": "What trials does Dendrite Starblaze speak of?",
+   "aliases": [
+    "what are the two trials",
+    "dendrite tests",
+    "aquatic trials"
+   ],
+   "answer": "Dendrite explains that you must face two specific challenges: one that tests your physical composure while working under pressure underwater, and another that tests your spiritual resolve to understand the aspect itself."
+  },
+  {
+   "q": "How does a druid reach Moonglade at this stage?",
+   "aliases": [
+    "how to get to moonglade",
+    "teleport to moonglade",
+    "getting to nighthaven"
+   ],
+   "answer": "Druids possess a innate spiritual bond granting them the spell Teleport: Moonglade, allowing them to shift directly from anywhere in Azeroth to the serene village of Nighthaven."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This rite marks the transition from terrestrial survival to true elemental versatility, opening the way toward mastering breathing and moving underwater."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The quest represents the strong bond between the tauren druids of Thunder Bluff and the broader Cenarion brotherhood seated in Moonglade."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Though loyal to the Horde, tauren druids must honor the sacred neutrality of Moonglade, walking alongside night elves under the shared canopy of Cenarius."
+  }
+ ],
+ "keywords": [
+  "aquatic form",
+  "cenarion circle",
+  "dendrite starblaze",
+  "elder rise",
+  "lesson to learn",
+  "moonglade",
+  "nighthaven",
+  "thunder bluff",
+  "turak runetotem"
+ ],
+ "related": [
+  "npc:dendrite-starblaze",
+  "npc:turak-runetotem",
+  "quest:31",
+  "subzone:nighthaven",
+  "quest:5921",
+  "topic:cenarion-circle",
+  "topic:druid",
+  "topic:cenarius"
+ ],
+ "attribution": [
+  "A Lesson to Learn (Horde)"
+ ]
+}

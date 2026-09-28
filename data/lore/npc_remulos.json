@@ -1,0 +1,94 @@
+{
+ "key": "npc:remulos",
+ "type": "npc",
+ "name": "Remulos",
+ "era": "classic",
+ "zone": "moonglade",
+ "meta": {
+  "wiki": "Remulos",
+  "refs": 2
+ },
+ "summary": "Keeper Remulos is a demigod son of Cenarius and the venerable protector of Moonglade. Alongside Archdruid Fandral Staghelm and Hamuul Runetotem, he helps guide the Cenarion Circle in the absence of his fallen father and the sleeping Malfurion Stormrage. Unlike Staghelm, Remulos prioritizes the broader balance of nature over night elven isolationism.",
+ "sections": [
+  {
+   "title": "Lord of the Sacred Grove",
+   "body": "Keeper Remulos is an immortal keeper of the grove, bearing the lower body of a great stag and the antlered torso of an ancient dryad-father. He watches over Moonglade, the sacred sanctuary of Azeroth's druids nestled north of Mount Hyjal. While Malfurion Stormrage remains trapped in the Emerald Dream, Remulos provides divine authority and counsel to the mortals of the Cenarion Circle. He remains deeply invested in healing Azeroth's scars, offering aid to druids pursuing their sacred rites around Lake Elune'ara.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Rift in the Circle",
+   "body": "Remulos frequently finds himself at ideological odds with Archdruid Fandral Staghelm. While Staghelm champions night elven supremacy and sought to restore their lost immortality through Teldrassil, Remulos vehemently opposed the planting of the new World Tree as an act of hubris. Defying Staghelm's isolationist faction, Remulos welcomed Hamuul Runetotem and the tauren into the Cenarion Circle, sharing nature's closely guarded mysteries with their shamans-turned-druids to restore the land collectively.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Keeper Remulos?",
+   "aliases": [
+    "remulos lore",
+    "who is remulos",
+    "keeper remulos background"
+   ],
+   "answer": "He is an immortal son of Cenarius and brother to the fallen Zaetar. Remulos resides in the Shrine of Remulos in Moonglade, serving as the guardian of the grove and a senior leader of the Cenarion Circle."
+  },
+  {
+   "q": "Why does Remulos support the tauren druids?",
+   "aliases": [
+    "remulos tauren",
+    "why do tauren have druids",
+    "remulos hamuul"
+   ],
+   "answer": "Remulos views nature's balance as transcending mortal racial divides. Recognizing the tauren's deep bond with the Earth Mother, Remulos overrode Archdruid Fandral Staghelm's objections and welcomed Archdruid Hamuul Runetotem and his people into the Cenarion Circle."
+  },
+  {
+   "q": "What is Remulos's opinion on Teldrassil?",
+   "aliases": [
+    "remulos world tree",
+    "remulos fandral tree"
+   ],
+   "answer": "Remulos vehemently opposed the creation of Teldrassil. He saw the planting of the new World Tree as a selfish effort by night elves to reclaim their lost immortality, rather than an act performed for the genuine healing of Azeroth."
+  },
+  {
+   "q": "What relation does Remulos have to Maraudon?",
+   "aliases": [
+    "remulos zaetar",
+    "remulos theradras",
+    "remulos brother"
+   ],
+   "answer": "His brother Zaetar ventured into Desolace and mated with Princess Theradras, creating the centaur race before dying. Remulos warned Zaetar against the cursed union, and he finds peace only when travelers help bring rest to Zaetar's lingering spirit."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Every druid, whether night elf or tauren, journeys to Moonglade to commune with Keeper Remulos and receive guidance on mastering animal forms and sacred trials."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Tauren druids revere Remulos for defying Fandral Staghelm and granting their people entry and full teaching within the Cenarion Circle."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "cenarius",
+  "fandral staghelm",
+  "grove",
+  "hamuul runetotem",
+  "moonglade",
+  "remulos",
+  "zaetar"
+ ],
+ "related": [
+  "topic:cenarion-circle",
+  "topic:cenarius",
+  "zone:moonglade",
+  "npc:fandral-staghelm",
+  "quest:1489",
+  "npc:malfurion-stormrage",
+  "subzone:lake-elune-ara",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Remulos"
+ ]
+}

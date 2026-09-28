@@ -1,0 +1,93 @@
+{
+ "key": "npc:lotwil-veriatus",
+ "type": "npc",
+ "name": "Lotwil Veriatus",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Lotwil Veriatus",
+  "refs": 2
+ },
+ "summary": "Lotwil Veriatus is an eccentric gnomish scholar conducting dangerous elemental experiments in the dusty wastes of the Badlands. Stationed east of Kargath with his sarcastic apprentice Lucien Tosselwrench and a mechanical attendant named Servo, he is dedicated to blending arcane theory, alchemy, and engineering into a unified discipline.",
+ "sections": [
+  {
+   "title": "A Unified Field of Chaos",
+   "body": "Originally from Kharanos in Dun Morogh, Lotwil envisions a grand University for his Enlightened Assembly of Arcanology, Alchemy, and Engineering Sciences. He believes these three disciplines should not be practiced in isolation, but harmonized. In pursuit of this dream, he chose the harsh Badlands as his laboratory to study native rock elementals and construct binding shackles capable of mastering elemental forces. While an accomplished researcher\u2014having studied elemental machines and defeated dark iron constructs in the past\u2014his single-minded focus often blinds him to the explosive hazards of his fieldwork.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Elemental Shackles",
+   "body": "Lotwil's grand ambition in the Badlands centers on testing his shackles of elemental binding. By tasking adventurers with collecting rock elemental cores, coolant, and gyrocopters, he prepares an elaborate ritual intended to subjugate an elemental servant. However, when the binding device is finally activated, the convergence of volatile magic, erratic engineering, and unstable alchemical reagents goes catastrophically awry, conjuring a towering, enraged elemental monstrosity named Fam'retor that turns on its creator.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lotwil Veriatus?",
+   "aliases": [
+    "who is lotwil",
+    "lotwil veriatus lore",
+    "gnome in badlands"
+   ],
+   "answer": "Lotwil Veriatus is a gnomish savant residing in an isolated camp east of Kargath in the Badlands. He is a founding member of the Enlightened Assembly of Arcanology, Alchemy, and Engineering Sciences, seeking to blend all three fields into a single academic discipline."
+  },
+  {
+   "q": "Why is Lotwil out in the Badlands?",
+   "aliases": [
+    "why is lotwil in badlands",
+    "lotwil badlands camp",
+    "what is lotwil doing"
+   ],
+   "answer": "Lotwil came to the Badlands to study the region's dense concentration of wild rock elementals. The open desert offers both raw elemental material and enough space to conduct volatile binding experiments without endangering major population centers."
+  },
+  {
+   "q": "Who is Lucien Tosselwrench?",
+   "aliases": [
+    "lucien tosselwrench",
+    "lotwil assistant",
+    "lotwil apprentice"
+   ],
+   "answer": "Lucien Tosselwrench is Lotwil's long-suffering gnomish assistant. Thoroughly cynical and exhausted by his master's eccentric ramblings, Lucien manages logistics, repairs the mechanical servant Servo, and routinely warns bystanders about Lotwil's dangerous carelessness."
+  },
+  {
+   "q": "What happens when Lotwil finishes his experiment?",
+   "aliases": [
+    "lotwil experiment fail",
+    "shackles of elemental binding",
+    "fam'retor"
+   ],
+   "answer": "Lotwil attempts to use his custom-crafted shackles of elemental binding to enslave an elemental construct. The hybrid technology fails spectacularly, summoning an enormous, enraged rock elemental named Fam'retor that must be slain before it destroys his camp."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Lotwil exemplifies gnomish intellectual ambition taken to reckless extremes, seeking to bridge engineering and the arcane regardless of the catastrophic risks."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will recognize Lotwil's ambition to integrate mechanical gyros and gears into arcane containment fields, as well as the classic engineering pitfall of sudden, violent malfunction."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "elemental",
+  "fam'retor",
+  "kargath",
+  "lotwil",
+  "lucien",
+  "servo",
+  "veriatus"
+ ],
+ "related": [
+  "zone:badlands",
+  "subzone:kargath",
+  "subzone:kharanos",
+  "topic:gnome",
+  "topic:goblin",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Lotwil Veriatus"
+ ]
+}

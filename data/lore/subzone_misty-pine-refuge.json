@@ -1,0 +1,73 @@
+{
+ "key": "subzone:misty-pine-refuge",
+ "type": "subzone",
+ "name": "Misty Pine Refuge",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Misty Pine Refuge"
+ },
+ "summary": "Misty Pine Refuge is a small haven tucked amidst the frigid snows of central Dun Morogh. Maintained with the aid of the Argent Dawn and local volunteers, it provides warmth and shelter to displaced travelers and refugees.",
+ "sections": [
+  {
+   "title": "Shelter in the Snow",
+   "body": "Situated amid the windswept hills of Dun Morogh, Misty Pine Refuge serves as an unassuming sanctuary for those enduring hardship in the dwarven realm. While the surrounding crags are patrolled by Ironforge mountaineers, this small outpost relies heavily on the compassionate presence of Father Gavin, an agent of the Argent Dawn, alongside dedicated volunteers like Buin 'Phloppy' Freehand. Displaced dwarves and gnomes frequently seek rest by its hearth, finding temporary reprieve from the bitter elements and the perils that threaten the mountain roads.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Misty Pine Refuge?",
+   "aliases": [
+    "what is this place",
+    "misty pine",
+    "misty pine refuge overview"
+   ],
+   "answer": "It is an outpost building in central Dun Morogh that provides lodging and aid to displaced refugees, overseen in part by an Argent Dawn priest and local helpers."
+  },
+  {
+   "q": "Why is the Argent Dawn here in Dun Morogh?",
+   "aliases": [
+    "why argent dawn here",
+    "father gavin argent dawn",
+    "argent dawn dwarf lands"
+   ],
+   "answer": "While the Argent Dawn focuses primarily on the undead menace in the north, agents like Father Gavin travel across Alliance territories to offer spiritual solace, heal the wounded, and extend charitable aid wherever refugees gather."
+  },
+  {
+   "q": "Who stays at the refuge?",
+   "aliases": [
+    "who is at misty pine",
+    "refugees in misty pine",
+    "misty pine npcs"
+   ],
+   "answer": "The outpost primarily shelters displaced dwarven and gnomish travelers seeking protection from the harsh mountain wilderness. It is staffed by Father Gavin and a generous volunteer named Buin 'Phloppy' Freehand."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Even within the heartland of Khaz Modan, unfortunate travelers sometimes lose their way or their livelihood to the wilderness; Misty Pine Refuge offers kinship and shelter to kin in need."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Father Gavin's humble ministry demonstrates that the Light's greatest service often lies in offering simple warmth and comfort to weary travelers far from the battlefields."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "dun morogh",
+  "father gavin",
+  "misty pine refuge",
+  "phloppy",
+  "refugees"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "topic:argent-dawn",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Misty Pine Refuge"
+ ]
+}

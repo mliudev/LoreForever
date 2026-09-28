@@ -1,0 +1,88 @@
+{
+ "key": "subzone:bough-shadow",
+ "type": "subzone",
+ "name": "Bough Shadow",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Bough Shadow"
+ },
+ "summary": "Bough Shadow is a secluded grove tucked away in the far northeastern corner of Ashenvale, east of Forest Song. It centers around a colossal Great Tree rooted over an ancient portal leading directly into the Emerald Dream.",
+ "sections": [
+  {
+   "title": "A Gateway to the Dream",
+   "body": "Bough Shadow houses one of the rare Great Trees grown from a cutting of the World Tree, Nordrassil. Planted long ago by druids following Fandral Staghelm, its roots plunge deep into the earth around a natural crossing into the Emerald Dream. Today, the tranquil yet imposing grove is heavily guarded by the Green Dragonflight. Emerald drakes such as Phantim and Dreamstalker circle above the canopy, while patrols of Emeraldon dragonspawn and oracles keep a vigilant, unyielding watch over the swirling green portal at its base, turning away any mortal who approaches unbidden.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the glowing green portal here?",
+   "aliases": [
+    "bough shadow portal",
+    "what is the portal in bough shadow",
+    "green portal ashenvale"
+   ],
+   "answer": "The swirling vortex at the foot of the Great Tree is a direct gateway leading into the Emerald Dream, the untamed spirit realm of Azeroth. It is one of several such natural crossings scattered across the world."
+  },
+  {
+   "q": "Why are green dragons guarding Bough Shadow?",
+   "aliases": [
+    "why are there dragons in ashenvale",
+    "green dragonflight bough shadow",
+    "why green dragons here"
+   ],
+   "answer": "Ysera's Green Dragonflight is charged with watching over the Emerald Dream and its direct passages into the physical world. Emerald drakes and dragonspawn patrol Bough Shadow to ensure no corrupting forces or intruders slip through the threshold."
+  },
+  {
+   "q": "Who planted the Great Tree here?",
+   "aliases": [
+    "who made bough shadow",
+    "who planted the tree",
+    "tree origin bough shadow"
+   ],
+   "answer": "The tree was planted centuries ago by night elf druids loyal to Fandral Staghelm, who used a cutting taken from the boughs of the World Tree, Nordrassil, to root over the site."
+  },
+  {
+   "q": "Can players enter the portal?",
+   "aliases": [
+    "can i go through the portal",
+    "enter bough shadow portal",
+    "how to enter dream portal"
+   ],
+   "answer": "No. The gateway remains tightly sealed to mortals in the physical world, and venturing too close will provoke the wrath of the surrounding elite dragonkin guards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Bough Shadow represents sacred ground for druids, housing one of the tangible thresholds linking Azeroth directly to the domain of the Green Flight and the Emerald Dream."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Lying deep beyond the ruins of Forest Song, this great tree was shaped by kaldorei hands from the branch of Nordrassil itself, standing as a living monument of ancient elven stewardship."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "bough shadow",
+  "dragonspawn",
+  "dreamstalker",
+  "emerald dream",
+  "great tree",
+  "green dragons",
+  "phantim",
+  "portal"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "topic:emerald-dream",
+  "topic:druid",
+  "topic:nordrassil",
+  "npc:fandral-staghelm",
+  "subzone:forest-song"
+ ],
+ "attribution": [
+  "Bough Shadow"
+ ]
+}

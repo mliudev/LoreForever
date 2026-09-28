@@ -1,0 +1,132 @@
+{
+ "key": "quest:166",
+ "type": "quest",
+ "name": "The Defias Brotherhood",
+ "era": "classic",
+ "zone": "deadmines",
+ "meta": {
+  "ids": [
+   166
+  ],
+  "level": "22",
+  "faction": "Alliance",
+  "start": "Gryan Stoutmantle",
+  "end": "",
+  "previous": "The Defias Brotherhood (6)",
+  "next": null,
+  "wiki": "The Defias Brotherhood (7)",
+  "chain": []
+ },
+ "summary": "This mission represents the culmination of Gryan Stoutmantle's long campaign to reclaim Westfall from outlaw rule. Tasked with entering the Deadmines, Alliance champions must breach the criminal hideout and strike down the mastermind Edwin VanCleef himself.",
+ "sections": [
+  {
+   "title": "A Sentence Passed",
+   "body": "For months, Gryan Stoutmantle and the beleaguered People's Militia have fought a desperate holding action against the Defias Brotherhood across Westfall. With the true location of the thieves' stronghold uncovered beneath Moonbrook, Stoutmantle issues his final, grim decree: Edwin VanCleef must be assassinated to break the back of the rebellion once and for all.",
+   "spoiler": 0
+  },
+  {
+   "title": "Into the Labyrinth",
+   "body": "To carry out the execution, fighters must delve deep into the winding shafts of the Deadmines. Past renegade stonemasons, goblin engineers, and heavy iron blast doors lies the central dry dock, where VanCleef oversees the final construction of his grand war vessel. Taking his head severs the command structure holding the entire outlaw network together.",
+   "spoiler": 1
+  },
+  {
+   "title": "Shadows of a Greater Conspiracy",
+   "body": "While Stoutmantle believes VanCleef's death marks the beginning of the end for the Brotherhood, the fallen guildmaster's corpse holds troubling secrets. Upon his body rests an unsent letter, hinting that the uprising in Westfall was never an isolated revolt, but part of a wider, darker web stretching into the very nobility of Stormwind City.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the goal of this quest?",
+   "aliases": [
+    "quest objective",
+    "what do i do",
+    "what is this quest"
+   ],
+   "answer": "You are tasked by Gryan Stoutmantle to venture into the Deadmines dungeon in Moonbrook, eliminate Edwin VanCleef, and return with his severed head to Sentinel Hill."
+  },
+  {
+   "q": "Who is Edwin VanCleef?",
+   "aliases": [
+    "who is vancleef",
+    "vancleef identity",
+    "edwin vancleef lore"
+   ],
+   "answer": "Edwin VanCleef was formerly the Grand Mason of the Stonemasons Guild who led the rebuilding of Stormwind City after the First and Second Wars. After a bitter dispute over payment with the House of Nobles, he founded the Defias Brotherhood to exact vengeance upon the kingdom."
+  },
+  {
+   "q": "Why does Gryan Stoutmantle order an assassination?",
+   "aliases": [
+    "why kill vancleef",
+    "stoutmantle motive",
+    "why death penalty"
+   ],
+   "answer": "The People's Militia lacks the regular army reinforcements from Stormwind needed to fight an enduring war. Stoutmantle recognizes that decapitating the leadership is Westfall's only realistic chance of breaking the syndicate's stranglehold on the farmlands."
+  },
+  {
+   "q": "Where can Edwin VanCleef be found?",
+   "aliases": [
+    "vancleef location",
+    "where is edwin vancleef",
+    "deadmines boss location"
+   ],
+   "answer": "He commands his followers from the bridge of the massive ironclad juggernaut moored deep inside the Deadmines, located beneath the abandoned town of Moonbrook."
+  },
+  {
+   "q": "Does killing VanCleef destroy the Defias completely?",
+   "aliases": [
+    "is defias defeated",
+    "are defias gone",
+    "end of brotherhood"
+   ],
+   "answer": "Though Stoutmantle hopes it signals the end, scattered cells and hidden leaders persist across Westfall, the Redridge Mountains, and Duskwood. Furthermore, discoveries made upon his body point toward deeper corruption that outlives VanCleef himself."
+  },
+  {
+   "q": "What item of note is found on VanCleef upon his defeat?",
+   "aliases": [
+    "vancleef drop",
+    "unsent letter",
+    "what does vancleef drop"
+   ],
+   "answer": "Along with his head, VanCleef carries An Unsent Letter addressed to shadowy conspirators, launching a fresh investigation into corrupt nobles operating right inside Stormwind's royal court."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of the kingdom, striking down VanCleef is a bittersweet tragedy, cutting down the very artisan whose hands rebuilt their capital out of ashes."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This mission marks a critical early victory for the Alliance, securing the breadbasket of Westfall when the throne of Stormwind cannot spare its own troops."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "VanCleef is a legendary rogue and master artisan; crossing blades with him in his inner sanctum tests the martial training of any stealth operative."
+  }
+ ],
+ "keywords": [
+  "deadmines",
+  "head",
+  "juggernaut",
+  "militia",
+  "moonbrook",
+  "stonemasons",
+  "stoutmantle",
+  "vancleef",
+  "westfall"
+ ],
+ "related": [
+  "npc:edwin-vancleef",
+  "npc:gryan-stoutmantle",
+  "zone:deadmines",
+  "topic:defias-brotherhood",
+  "zone:westfall",
+  "quest:12",
+  "quest:65",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "The Defias Brotherhood (7)"
+ ]
+}

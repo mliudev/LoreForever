@@ -1,0 +1,85 @@
+{
+ "key": "subzone:ruins-of-arkkoran",
+ "type": "subzone",
+ "name": "Ruins of Arkkoran",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Ruins of Arkkoran"
+ },
+ "summary": "The Ruins of Arkkoran comprise the shattered, wave-battered stonework of an ancient night elven sanctuary along the rugged coast of Azshara. Named after the ancient sea giant Arkkoroc who watches over these waters, the site lies submerged in tidepools and roamed by coastal beasts.",
+ "sections": [
+  {
+   "title": "A Drowned Sanctuary",
+   "body": "Stretching along the jagged coast of Azshara, the Ruins of Arkkoran are all that remain of the outer perimeters of an ancient night elven temple complex. Long before the shores broke apart in the Great Sundering, highborne worshippers built stone monuments here by the sea. Today, salt spray and centuries of erosion have reduced the proud marble to crumbling plinths and collapsed walls. The surrounding tidal shallows are now home to aggressive makrura, snapdragons, and tidal elementals, while the deep waters nearby remain under the watchful eye of the primordial sea giant Arkkoroc.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What were the Ruins of Arkkoran originally?",
+   "aliases": [
+    "arkkoran history",
+    "what was this place",
+    "who built arkkoran"
+   ],
+   "answer": "The ruins were originally part of a massive night elven temple dedicated to the powers of the sea, connected to the Temple of Arkkoran. Built prior to the Great Sundering, they collapsed into the tide during the cataclysmic destruction of ancient Kalimdor."
+  },
+  {
+   "q": "Who or what is Arkkoran named after?",
+   "aliases": [
+    "who is arkkoran",
+    "who is arkkoroc",
+    "arkkoran name origin"
+   ],
+   "answer": "The area is named after Arkkoroc, a colossal and ancient sea giant who claims dominion over the rocky shores and sea cliffs of Azshara. His influence permeates the nearby coastal waters and the temples that bear his name."
+  },
+  {
+   "q": "What creatures inhabit these ruins?",
+   "aliases": [
+    "monsters in arkkoran",
+    "arkkoran mobs",
+    "what lives here"
+   ],
+   "answer": "The tidepools and fallen stones are infested with native sea life and coastal predators, including Makrura crab-kin such as Makrinni Scrabblers, Coralshell Lurkers, and hostile water spirits known as Vile Splashes."
+  },
+  {
+   "q": "Is there any friendly presence here?",
+   "aliases": [
+    "arkkoran npcs",
+    "ergll location",
+    "quest givers arkkoran"
+   ],
+   "answer": "Civilized encampments avoid the surf, but isolated wanderers like the murloc Ergll can sometimes be encountered nearby amidst the shoreline debris and tidepools."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "These wave-beaten stones are a somber reminder of the highborne empire's grandeur that perished during the Great Sundering."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The churning surf and restless water spirits around the ruins demonstrate the chaotic, untamed elemental nature of Azshara's coast."
+  }
+ ],
+ "keywords": [
+  "arkkoran",
+  "arkkoroc",
+  "azshara",
+  "eldarath",
+  "ergll",
+  "highborne ruins",
+  "makrura",
+  "sea giant"
+ ],
+ "related": [
+  "subzone:temple-of-arkkoran",
+  "zone:azshara",
+  "subzone:ruins-of-eldarath",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Ruins of Arkkoran"
+ ]
+}

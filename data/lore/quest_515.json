@@ -1,0 +1,128 @@
+{
+ "key": "quest:515",
+ "type": "quest",
+ "name": "Elixir of Agony",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   515
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Master Apothecary Faranell",
+  "end": "Apothecary Lydon",
+  "previous": "Elixir of Agony (2)",
+  "next": "Elixir of Agony (4)",
+  "wiki": "Elixir of Agony (3)",
+  "chain": []
+ },
+ "summary": "This errand continues the development of the Royal Apothecary Society's new plague, dispatching a courier from Undercity back to Tarren Mill. Master Apothecary Faranell enriches a captured gnoll mixture with his own decaying compounds, demanding coastal reagents and alchemical draughts to catalyze the lethal brew.",
+ "sections": [
+  {
+   "title": "A Colloid of Decay",
+   "body": "When Apothecary Lydon's field work uncovered a potent composite brewed by the local Mudsnout gnolls, he sent it straight to the Apothecarium in the Undercity. Master Apothecary Faranell, head of the Royal Apothecary Society, immediately recognized the concoction's grim potential. Delighted by its toxic properties, Faranell added his own specialized colloid of decay to the mixture before outlining the catalysts required to weaponize it fully.",
+   "spoiler": 0
+  },
+  {
+   "title": "Catalysts from the Coast",
+   "body": "Activating the volatile contaminating agents requires precise reagents that Lydon must assemble in Tarren Mill. In addition to a restorative draught of Strong Troll's Blood to feed and stabilize the chemical reaction, Faranell requires organic components harvested from the southern shoreline of Hillsbrad: scales stripped from the serpentine Daggerspine naga and eyes carved from the coastal Torn Fin murlocs.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cruelty in Tarren Mill",
+   "body": "Back in Tarren Mill, Lydon passes the waiting hours in morbid amusement, routinely poisoning, infecting, and reanimating his unfortunate undead test subject, Umpi. The delivery of Faranell's enriched mixture and coastal catalysts brings the apothecary closer to his ultimate goal: perfecting a new strain of agonizing blight to unleash against the living settlements of Hillsbrad.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does the plague require a restorative troll's blood elixir?",
+   "aliases": [
+    "why troll blood",
+    "strong trolls blood purpose",
+    "trolls blood elixir plague"
+   ],
+   "answer": "Apothecary concoctions frequently use regenerative substances to sustain, fuel, and rapidly mutate aggressive biological agents. The restorative properties of Strong Troll's Blood keep the toxic cultures thriving long enough to catalyze against the other reactive tissues."
+  },
+  {
+   "q": "Where are the Daggerspine scales found?",
+   "aliases": [
+    "daggerspine scales location",
+    "where are naga scales",
+    "where to get scales"
+   ],
+   "answer": "Daggerspine scales are harvested from the hostile Daggerspine naga inhabiting the eastern beaches of the Hillsbrad Foothills, situated along the shoreline east of the Alliance town of Southshore."
+  },
+  {
+   "q": "Where are the Torn Fin eyes obtained?",
+   "aliases": [
+    "torn fin eye location",
+    "where are torn fin murlocs",
+    "murloc eyes hillsbrad"
+   ],
+   "answer": "Torn Fin eyes are gathered from the Torn Fin murlocs dwelling in tribes along the western coastline of the Hillsbrad Foothills, just west of Southshore."
+  },
+  {
+   "q": "Who is Umpi?",
+   "aliases": [
+    "who is umpi",
+    "umpi hillsbrad",
+    "lydon assistant umpi"
+   ],
+   "answer": "Umpi is an undead servant stationed with Apothecary Lydon in Tarren Mill. Lydon spends his idle hours using her as a disposable test subject, repeatedly inflicting lethal toxins and diseases upon her only to reanimate her once more."
+  },
+  {
+   "q": "Why is Master Apothecary Faranell involved in this local project?",
+   "aliases": [
+    "why faranell",
+    "master apothecary faranell role",
+    "royal apothecary society leader"
+   ],
+   "answer": "As the leader of the Royal Apothecary Society, Faranell oversees all research into new biological agents and plagues. Field apothecaries like Lydon send promising wild discoveries directly to Faranell in the Undercity for refinement and authorization."
+  },
+  {
+   "q": "What is the Mudsnout Mixture?",
+   "aliases": [
+    "mudsnout mixture",
+    "gnoll poison",
+    "mudsnout composite"
+   ],
+   "answer": "It is an unrefined toxic composite originally extracted from the Mudsnout gnolls of the Hillsbrad Foothills. Recognizing its unusual virulence, Lydon sent it to Undercity, where Faranell blended it with decayed colloids to build a deadlier contagion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Every refined reagent in this quest line brings the Royal Apothecary Society one step closer to fulfilling Lady Sylvanas's desire for an ultimate weapon against the living."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Tarren Mill stands on the brink of constant border skirmishes with the Alliance of Southshore; Lydon's toxic experiments are meant to tip the regional balance of power."
+  }
+ ],
+ "keywords": [
+  "daggerspine",
+  "elixir of agony",
+  "faranell",
+  "lydon",
+  "mudsnout",
+  "tarren mill",
+  "torn fin",
+  "umpi",
+  "undercity"
+ ],
+ "related": [
+  "npc:master-apothecary-faranell",
+  "subzone:tarren-mill",
+  "topic:royal-apothecary-society",
+  "npc:umpi",
+  "quest:509",
+  "zone:hillsbrad",
+  "zone:undercity",
+  "subzone:southshore"
+ ],
+ "attribution": [
+  "Elixir of Agony (3)"
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "key": "quest:92742",
+ "type": "quest",
+ "name": "Testing the Wells",
+ "era": "forever",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   92742
+  ],
+  "level": "12",
+  "faction": "Alliance",
+  "start": "Alba Fairmoon",
+  "end": "",
+  "previous": "",
+  "next": "",
+  "wiki": "Testing the Wells",
+  "chain": []
+ },
+ "summary": "Testing the Wells is an investigative task assigned by Alba Fairmoon to determine the source of poison seeping through Westfall's soil. Adventurers are sent with sampling kits to collect groundwater from the wells at the Jansen Stead and Molsen Farm.",
+ "sections": [
+  {
+   "title": "Blight in the Aquifer",
+   "body": "Westfall's open plains have suffered severe neglect and banditry, but an insidious contamination beneath the earth threatens whatever agriculture remains. To understand how the farmland is being tainted, Alba Fairmoon directs investigators to test the groundwater directly. By drawing water samples from settled farmsteads, investigators hope to identify the nature of the toxins plaguing the region's soil and life.",
+   "spoiler": 0
+  },
+  {
+   "title": "Farms of the Frontier",
+   "body": "The survey focuses on two vital locations: the Jansen Stead and the Molsen Farm. Both plots lie among the scattered homesteads vulnerable to roaming Defias outlaws and feral wildlife. Drawing samples from their wellheads offers a baseline for whether the blighting agent is naturally emerging, magically induced, or deliberately seeded into the water table feeding the region.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of Testing the Wells?",
+   "aliases": [
+    "why test the wells",
+    "testing the wells goal",
+    "what is this quest for"
+   ],
+   "answer": "Alba Fairmoon seeks to uncover the source and composition of the poison afflicting Westfall. Gathering fresh groundwater samples from farm wells provides the raw material needed to analyze the contamination."
+  },
+  {
+   "q": "Who assigns this task?",
+   "aliases": [
+    "who gives testing the wells",
+    "alba fairmoon quest",
+    "quest giver"
+   ],
+   "answer": "The quest is given by Alba Fairmoon, who is investigating the spreading corruption and unnatural poisons plaguing the agrarian land of Westfall."
+  },
+  {
+   "q": "Which locations need to be sampled?",
+   "aliases": [
+    "where do i go",
+    "which wells",
+    "well locations"
+   ],
+   "answer": "Water samples must be drawn from the working wells located at the Jansen Stead and the Molsen Farm in Westfall."
+  },
+  {
+   "q": "What is threatening Westfall's water and soil?",
+   "aliases": [
+    "why is westfall poisoned",
+    "what is poisoning the land",
+    "poison source"
+   ],
+   "answer": "An unknown blight or poison is actively corrupting the land. Testing local well water is the first step in assessing whether the aquifer beneath the local homesteads has been compromised."
+  },
+  {
+   "q": "Is the contamination natural or artificial?",
+   "aliases": [
+    "is the water poisoned on purpose",
+    "who poisoned the wells"
+   ],
+   "answer": "That remains the central question of the investigation. The samples from Jansen Stead and Molsen Farm are intended to reveal whether the rot stems from natural groundwater corruption or deliberate sabotage."
+  },
+  {
+   "q": "Why focus on Jansen Stead and Molsen Farm?",
+   "aliases": [
+    "why jansen and molsen",
+    "why these farms"
+   ],
+   "answer": "These two homesteads represent established domestic wells tapping the subterranean water table across the plains, making them prime candidates for testing how far the corruption extends."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Restoring food production in Westfall is critical for the survival of the Kingdom of Stormwind, making the health of these farm wells a matter of kingdom-wide security."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Unnatural toxins leeching through soil and fresh groundwater signal a severe wound in the balance of the land that demands remediation."
+  }
+ ],
+ "keywords": [
+  "alba fairmoon",
+  "groundwater",
+  "jansen stead",
+  "molsen farm",
+  "poison",
+  "testing the wells",
+  "water sample",
+  "westfall"
+ ],
+ "related": [
+  "zone:westfall",
+  "subzone:jansen-stead",
+  "subzone:molsen-farm"
+ ],
+ "attribution": [
+  "Testing the Wells"
+ ]
+}

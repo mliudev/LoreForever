@@ -1,0 +1,125 @@
+{
+ "key": "topic:tauren",
+ "type": "topic",
+ "name": "Tauren",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Tauren"
+ },
+ "summary": "The tauren, or shu'halo in their native tongue, are a noble race of nomadic bovine humanoids native to central Kalimdor. Deeply devoted to the Earth Mother, shamanism, and the natural world, they were driven near extinction by ruthless centaur clans before forging a bond with Thrall's New Horde. Today, united under High Chieftain Cairne Bloodhoof, they have established a permanent home across the verdant plains of Mulgore and the high rises of Thunder Bluff.",
+ "sections": [
+  {
+   "title": "Nomads of the Barrens",
+   "body": "For countless generations, the tauren lived as seasonal nomads wandering the arid plains of the Barrens, hunting the great kodo and listening for the voice of the Earth Mother. However, their peaceful wanderings were plagued by centuries of brutal bloodshed. The ferocious centaur tribes, born from the tragic union of Zaetar and Princess Theradras, waged an unrelenting war of extermination against them. Lacking a fortified homeland and reluctant to wage endless war, the tauren tribes were pushed to the brink of annihilation, their very survival hanging by a thread.",
+   "spoiler": 0
+  },
+  {
+   "title": "The New Horde and Thunder Bluff",
+   "body": "Survival came from an unexpected alliance across the sea. During the Third War, Chieftain Cairne Bloodhoof encountered Warchief Thrall and his newly arrived orcs. Recognizing a shared spirit of honor and a longing for shamanic heritage, the two leaders joined forces. With the Horde's assistance, the tauren crushed the marauding centaur and claimed the lush, sheltered grasslands of Mulgore. Upon its windswept mesas, Cairne raised the city of Thunder Bluff. Indebted by this salvation, the tauren marched alongside the Horde to Mount Hyjal to turn back the Burning Legion.",
+   "spoiler": 0
+  },
+  {
+   "title": "Spiritual Guardians and Internal Tensions",
+   "body": "Within the Horde, the tauren act as a steadying, peaceful conscience. Their mastery of nature and the elements helped revitalize orcish shamanism, while Archdruid Hamuul Runetotem fosters rare diplomatic and spiritual ties with night elf druids to investigate the growing corruption within the Emerald Dream. Yet unity remains fragile. While most tribes revere Cairne's wisdom, the xenophobic and ruthless Grimtotem clan, headed by the scheming elder crone Magatha, resides within Thunder Bluff while secretly plotting to usurp leadership and steer the shu'halo toward supremacy.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why did the tauren join the Horde?",
+   "aliases": [
+    "why join horde",
+    "tauren horde alliance",
+    "why are tauren in horde"
+   ],
+   "answer": "The tauren were on the verge of being wiped out by the ruthless centaur of the Barrens. Warchief Thrall and his orcs arrived and fought alongside Cairne Bloodhoof, driving the centaur back and helping the tauren secure Mulgore. Bound by deep honor and shared spiritual values, Cairne pledged his people's loyalty to the New Horde in gratitude."
+  },
+  {
+   "q": "Who leads the tauren?",
+   "aliases": [
+    "tauren leader",
+    "tauren chieftain",
+    "who rules thunder bluff"
+   ],
+   "answer": "The tauren are led by High Chieftain Cairne Bloodhoof, the wise, venerable leader of the Bloodhoof tribe. Respected for his strength and measured judgment, he unites the disparate tribes from his seat atop Thunder Bluff, assisted by Archdruid Hamuul Runetotem and Elder Crone Magatha Grimtotem."
+  },
+  {
+   "q": "What is the Earth Mother?",
+   "aliases": [
+    "earthmother",
+    "who is the earth mother",
+    "tauren religion"
+   ],
+   "answer": "The Earth Mother is the central deity of tauren belief. The shu'halo believe she created the world, the sun, and the moon, and they revere her through a lifestyle deeply attuned to the natural balance, seasonal migration, hunting, and elemental respect."
+  },
+  {
+   "q": "Why do the tauren hate the centaur?",
+   "aliases": [
+    "tauren centaur war",
+    "centaur feud"
+   ],
+   "answer": "Centaur hunted the tauren for sport and warred with them for centuries across central Kalimdor. Viewing the tauren's peaceful spirituality as weakness, the centaur chased them from place to place and nearly brought about the total extinction of the shu'halo before the orcs intervened."
+  },
+  {
+   "q": "Can tauren be druids?",
+   "aliases": [
+    "tauren druid lore",
+    "how did tauren become druids"
+   ],
+   "answer": "Yes. Though druidism faded from their culture during the long nomadic wars with the centaur, the tauren originally learned nature magic from Cenarius in ancient times. Recently, Archdruid Hamuul Runetotem has rekindled these teachings with the help of the night elves, making tauren druids a cornerstone of the Cenarion Circle."
+  },
+  {
+   "q": "Are all tauren loyal to Cairne Bloodhoof?",
+   "aliases": [
+    "grimtotem loyalty",
+    "tauren civil war"
+   ],
+   "answer": "Most tribes revere Cairne, but the Grimtotem tribe remains a bitter exception. Led by Magatha Grimtotem, they believe the tauren are superior to all other races and despise Cairne's alliance with the Horde, quietly working to undermine his peaceful reign."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "As shu'halo, your people's ancient nomadic wandering has given way to a prosperous homeland in Mulgore, secured through the unbreakable brotherhood between Cairne and Thrall."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The tauren provide the Horde with its moral compass and deep spiritual roots, tempering the aggressive instincts of the orcs and trolls with ancient wisdom and honor."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Through Archdruid Hamuul Runetotem, tauren druids work side by side with the night elves of the Cenarion Circle, putting factional rivalries aside to heal the land and protect the Emerald Dream."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Tauren shamanic traditions are among the oldest in Azeroth, and their teachings were essential in helping the orcs rediscover their sacred elemental bonds after the demonic taint of the past wars."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "cairne bloodhoof",
+  "centaur",
+  "earth mother",
+  "hamuul runetotem",
+  "kodo",
+  "magatha grimtotem",
+  "mulgore",
+  "shu'halo",
+  "tauren",
+  "thunder bluff"
+ ],
+ "related": [
+  "npc:cairne-bloodhoof",
+  "zone:thunderbluff",
+  "zone:mulgore",
+  "zone:barrens",
+  "topic:earth-mother",
+  "topic:centaur",
+  "npc:magatha-grimtotem",
+  "quest:1489"
+ ],
+ "attribution": [
+  "Tauren"
+ ]
+}

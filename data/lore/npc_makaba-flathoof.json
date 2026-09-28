@@ -1,0 +1,111 @@
+{
+ "key": "npc:makaba-flathoof",
+ "type": "npc",
+ "name": "Makaba Flathoof",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Makaba Flathoof",
+  "refs": 4
+ },
+ "summary": "Makaba Flathoof is a tauren survivor hailing from Camp Aparaje in the Stonetalon Mountains. Having witnessed the devastation of his home and people at the hands of the Grimtotem clan, he seeks brave champions of the Horde to bring vengeance upon the attackers and ensure his family's safety.",
+ "sections": [
+  {
+   "title": "Tragedy at Camp Aparaje",
+   "body": "Makaba Flathoof represents the tragic toll of internal strife among the tauren. His home, Camp Aparaje in the Stonetalon Mountains, fell victim to a ruthless surprise attack by the Grimtotem clan. While many tauren strive for peace and unity under the leadership of Cairne Bloodhoof, the treacherous Grimtotem continually sow discord and violence, leaving survivors like Makaba displaced and grieving.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Plea for Vengeance",
+   "body": "Unable to retake his fallen settlement alone, Makaba calls upon travelers of the Horde to strike back. He directs fierce retaliation against the Grimtotem renegades who overran his home, demanding justice for the slaughter of his kin. His most urgent concerns center on confronting the warlord responsible, Grundig Darkcloud, and finding word of his missing family member, Kaya.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Makaba Flathoof?",
+   "aliases": [
+    "makaba",
+    "who is makaba flathoof",
+    "makaba flathoof lore"
+   ],
+   "answer": "Makaba Flathoof is a tauren refugee from Camp Aparaje in the Stonetalon Mountains. His village was overrun and sacked by the Grimtotem clan, driving him to seek help from Horde adventurers."
+  },
+  {
+   "q": "Where did Makaba come from?",
+   "aliases": [
+    "makaba origin",
+    "where is makaba from",
+    "camp aparaje makaba"
+   ],
+   "answer": "Makaba hails from Camp Aparaje, a small tauren settlement located in the Stonetalon Mountains that was attacked and devastated by the Grimtotem."
+  },
+  {
+   "q": "Who attacked Makaba's village?",
+   "aliases": [
+    "who attacked camp aparaje",
+    "makaba enemies",
+    "who sacked aparaje"
+   ],
+   "answer": "Camp Aparaje was sacked by the Grimtotem clan, an aggressive and treacherous faction of tauren led locally by figures like Grundig Darkcloud."
+  },
+  {
+   "q": "What does Makaba want Horde adventurers to do?",
+   "aliases": [
+    "makaba quests",
+    "what does makaba ask for",
+    "makaba tasks"
+   ],
+   "answer": "Makaba seeks vengeance for his fallen home, asking capable warriors to cut down the Grimtotem forces at Camp Aparaje, eliminate their leader Grundig Darkcloud, and discover the fate of Kaya Flathoof."
+  },
+  {
+   "q": "Who is Kaya to Makaba?",
+   "aliases": [
+    "kaya flathoof",
+    "who is kaya",
+    "makaba relative kaya"
+   ],
+   "answer": "Kaya Flathoof is a relative of Makaba who went missing during the attack on Camp Aparaje. Makaba desperately hopes to learn if she survived the assault."
+  },
+  {
+   "q": "Is Makaba related to Dim Flathoof?",
+   "aliases": [
+    "dim flathoof",
+    "makaba and dim",
+    "flathoof family"
+   ],
+   "answer": "Both Makaba and Dim share the Flathoof family surname, indicating they are part of the same tauren lineage, though their specific degree of relation is not deeply detailed."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren heroes, Makaba's plight highlights the bitter treachery of the Grimtotem, serving as a reminder that not all of their kin honor the ways of peace and unity."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Makaba's calls for aid allow Horde champions to prove their loyalty to their tauren allies by punishing those who butcher peaceful encampments."
+  }
+ ],
+ "keywords": [
+  "camp aparaje",
+  "flathoof",
+  "grimtotem",
+  "grundig darkcloud",
+  "kaya",
+  "makaba",
+  "stonetalon"
+ ],
+ "related": [
+  "subzone:camp-aparaje",
+  "quest:6548",
+  "quest:6629",
+  "quest:6523",
+  "quest:6401",
+  "zone:stonetalon",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Makaba Flathoof"
+ ]
+}

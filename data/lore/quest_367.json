@@ -1,0 +1,120 @@
+{
+ "key": "quest:367",
+ "type": "quest",
+ "name": "A New Plague",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   367
+  ],
+  "level": "6",
+  "faction": "Horde",
+  "start": "Apothecary Johaan",
+  "end": "",
+  "previous": null,
+  "next": "A New Plague (2)",
+  "wiki": "A New Plague",
+  "chain": [
+   "A New Plague",
+   "A New Plague (2)",
+   "A New Plague (3)",
+   "A New Plague (4)"
+  ]
+ },
+ "summary": "A New Plague is an introductory task in Brill that reveals the Forsaken's overarching strategic ambition. Apothecary Johaan tasks recruits with harvesting the blood of wild darkhounds to lay the groundwork for a virulent pathogen commissioned directly by Lady Sylvanas Windrunner.",
+ "sections": [
+  {
+   "title": "A Royal Mandate",
+   "body": "In the damp village of Brill, Apothecary Johaan works on behalf of the Royal Apothecary Society under a mandate directly from the Dark Lady. Sylvanas Windrunner has charged her alchemists with crafting a disease unlike anything Azeroth has ever seen. While the original plague of undeath served the Lich King by slaughtering humanity and binding their souls, this new creation is explicitly designed to annihilate Arthas Menethil and lay waste to his Scourge legions.",
+   "spoiler": 0
+  },
+  {
+   "title": "Raw Ingredients",
+   "body": "Developing a biological weapon capable of destroying the undead requires grim experimentation. Johaan believes that the blood of indigenous beasts, starting with the fierce darkhounds roaming the gloom of Tirisfal Glades, holds vital chemical properties. By harvesting vials of this tainted animal blood, Johaan begins isolating elements to test whether the natural resilience and predatory biology of native creatures can catalyze a lethal contagion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the goal of the new plague?",
+   "aliases": [
+    "why make a new plague",
+    "purpose of new plague",
+    "what does the plague do"
+   ],
+   "answer": "Lady Sylvanas tasked the Royal Apothecary Society with brewing a disease deadlier than any other on Azeroth. Its primary strategic objective is the complete destruction of Arthas and his Scourge army."
+  },
+  {
+   "q": "Who is Apothecary Johaan?",
+   "aliases": [
+    "who is johaan",
+    "apothecary johaan lore"
+   ],
+   "answer": "Johaan is a member of the Royal Apothecary Society stationed in the town of Brill. He handles early field experiments, testing biological compounds gathered from Tirisfal's local fauna."
+  },
+  {
+   "q": "Why does Johaan need darkhound blood?",
+   "aliases": [
+    "why darkhound blood",
+    "what is the blood for"
+   ],
+   "answer": "Johaan's research indicates that the blood of native beasts may serve as a crucial foundation for his alchemical formulas. He needs darkhound blood to test his preliminary theories in the laboratory."
+  },
+  {
+   "q": "How does this plague differ from the Scourge's plague?",
+   "aliases": [
+    "difference between plagues",
+    "scourge plague vs forsaken plague"
+   ],
+   "answer": "The original Plague of Undeath was designed by the Lich King to slaughter the living and raise them as thralls. Sylvanas's new plague is specifically engineered as a weapon intended to bring ruin to Arthas's undead legions."
+  },
+  {
+   "q": "Who ordered the creation of this plague?",
+   "aliases": [
+    "who started the plague research",
+    "who wants the plague"
+   ],
+   "answer": "Lady Sylvanas Windrunner directly commanded the Royal Apothecary Society to invent it, believing that Forsaken alchemy combined with newfound magic is the key to defeating Arthas."
+  },
+  {
+   "q": "What happens after gathering the blood?",
+   "aliases": [
+    "what is the next step",
+    "does the plague work"
+   ],
+   "answer": "Gathering darkhound blood is only the first step of an ongoing series of experiments. Johaan uses the samples to begin refining the pathogen through further field tests across the Glades."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "This quest marks your first direct contribution to the Royal Apothecary Society's master project: creating the weapon that Sylvanas plans to wield against Arthas."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While the Forsaken have joined the Horde, their alchemical endeavors in Tirisfal focus entirely on a grim biological weapon aimed at Northrend."
+  }
+ ],
+ "keywords": [
+  "apothecary",
+  "arthas",
+  "brill",
+  "darkhound",
+  "johaan",
+  "plague",
+  "scourge",
+  "sylvanas",
+  "tirisfal"
+ ],
+ "related": [
+  "npc:apothecary-johaan",
+  "topic:royal-apothecary-society",
+  "subzone:brill",
+  "zone:tirisfal",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "A New Plague"
+ ]
+}

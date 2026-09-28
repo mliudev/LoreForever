@@ -1,0 +1,133 @@
+{
+ "key": "quest:366",
+ "type": "quest",
+ "name": "Return the Book",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   366
+  ],
+  "level": "8",
+  "faction": "Horde",
+  "start": "Bethor Iceshard",
+  "end": "Gunther Arcanus",
+  "previous": "The Lich's Identity",
+  "next": "Proving Allegiance",
+  "wiki": "Return the Book",
+  "chain": []
+ },
+ "summary": "Bethor Iceshard enchants Gunther Arcanus's stolen spellbook to prove his own freedom and recruit his former Kirin Tor colleague to the Forsaken cause. Taking the tome back to Gunther's island retreat reveals that neither former wizard is a thrall to the Lich King.",
+ "sections": [
+  {
+   "title": "A Message in Arcane Ink",
+   "body": "After discovering that the renegade necromancer on Brightwater Lake was his old companion Gunther Arcanus, Bethor Iceshard devised an ingenious method of communication. Having previously ordered the theft of Gunther's spellbook to uncover the necromancer's identity, Bethor weaves an intricate dweomer into its pages. Rather than a demand or an armed parley, the enchantment serves as an arcane signature, proving that Bethor is not only active in Lordaeron, but completely liberated from the Lich King's mental yoke.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Old Circle of Dalaran",
+   "body": "Before the Third War devastated Lordaeron, Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw were fellow students and friends within the Kirin Tor in Dalaran. All three succumbed to the horrors of the Plague, but their paths diverged sharply in death. Thule embraced the Scourge and continues to serve the Lich King, while Bethor broke free alongside Queen Sylvanas. Believing Gunther was either dead or enslaved, Bethor's realization that Gunther also achieved self-willed undeath sparked an urgent effort to draw him into the Forsaken.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mistrust on the Island",
+   "body": "When approached on his solitary island, Gunther initially lashes out in fury, assuming anyone trespassing on Brightwater Lake is an agent of the Scourge seeking to re-enslave him or the thief who plundered his magic. The sight of his personal grimoire, accompanied by Bethor's familiar magical resonance, catches the solitary mage off guard. Recognizing that someone from his mortal past broke the Scourge's shackles forces Gunther to reconsider his absolute isolation.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why did Bethor enchant Gunther's spellbook?",
+   "aliases": [
+    "why enchant the book",
+    "gunthers book spell",
+    "what did bethor do to the book"
+   ],
+   "answer": "Bethor enchanted the stolen grimoire with a personal magical signature to prove to Gunther that he was truly free from the Lich King. Knowing Gunther's deep paranoia and hatred of the Scourge, a mundane messenger would have been rejected or destroyed on sight."
+  },
+  {
+   "q": "Who was Gunther Arcanus before he died?",
+   "aliases": [
+    "who is gunther arcanus",
+    "gunther backstory",
+    "gunther lore"
+   ],
+   "answer": "Gunther Arcanus was a human mage and scholar of the Kirin Tor in Dalaran. He studied alongside Bethor Iceshard and Thule Ravenclaw before the Third War, eventually falling victim to the Scourge's Plague of Undeath."
+  },
+  {
+   "q": "Why is Gunther hiding on Brightwater Lake?",
+   "aliases": [
+    "why is gunther on the island",
+    "gunthers retreat lore",
+    "why did gunther leave"
+   ],
+   "answer": "After breaking free from the Lich King's control, Gunther believed he was entirely alone in his freedom. He secluded himself on an island in Brightwater Lake to avoid being hunted down and re-enslaved by the Scourge or killed by living enemies."
+  },
+  {
+   "q": "Who is Thule Ravenclaw?",
+   "aliases": [
+    "who is thule",
+    "thule ravenclaw lore",
+    "third friend"
+   ],
+   "answer": "Thule Ravenclaw was the third member of Bethor and Gunther's circle of Kirin Tor students in Dalaran. Unlike Bethor and Gunther, who broke their shackles, Thule willingly remains a loyal necromancer serving the Scourge in Silverpine Forest."
+  },
+  {
+   "q": "Why does Gunther think the player is a thief?",
+   "aliases": [
+    "why does gunther call me a thief",
+    "did i steal gunthers book",
+    "stolen book"
+   ],
+   "answer": "Earlier on, Bethor instructed Forsaken adventurers to sneak into Gunther's sanctum and steal his spellbook so Bethor could verify who was practicing necromancy on the lake. Gunther correctly recognizes the returning adventurer as the person who robbed him."
+  },
+  {
+   "q": "Does Gunther immediately join the Forsaken?",
+   "aliases": [
+    "does gunther join sylvanas",
+    "gunther allegience",
+    "what happens next with gunther"
+   ],
+   "answer": "Not right away. While stunned to learn Bethor lives and possesses free will, Gunther remains skeptical of the Forsaken and requires a demonstration of loyalty against his former friend-turned-Scourge necromancer, Thule Ravenclaw, before fully committing."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Gunther's plight mirrors the foundational struggle of the Forsaken: waking from the nightmare of mindless servitude only to face an isolated, hostile world."
+  },
+  {
+   "target": "class:Mage",
+   "text": "This exchange highlights the deep bonds among former Kirin Tor magi, who continue to recognize one another's distinct magical signatures across the veil of undeath."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Recruiting independent undead sorcerers like Gunther bolsters Undercity's arcane strength against both the Scourge and the Scarlet Crusade."
+  }
+ ],
+ "keywords": [
+  "bethor iceshard",
+  "brightwater lake",
+  "dalaran",
+  "gunther arcanus",
+  "gunther's retreat",
+  "gunther's spellbook",
+  "kirin tor",
+  "return the book",
+  "thule ravenclaw",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:gunther-arcanus",
+  "npc:bethor-iceshard",
+  "quest:357",
+  "quest:409",
+  "subzone:gunther-s-retreat",
+  "quest:446",
+  "subzone:dalaran",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Return the Book"
+ ]
+}

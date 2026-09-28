@@ -1,0 +1,112 @@
+{
+ "key": "quest:3104",
+ "type": "quest",
+ "name": "Glyphic Letter",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   3104
+  ],
+  "level": "3",
+  "faction": "Alliance",
+  "start": "Marshal McBride",
+  "end": "Khelden Bremen",
+  "previous": "Lions for Lambs",
+  "next": "Mastering the Arcane",
+  "wiki": "Glyphic Letter (quest)",
+  "chain": []
+ },
+ "summary": "The Glyphic Letter is a formal summons delivered to novice human mages inside Northshire Valley by Marshal McBride. Written under the arcane seal of Khelden Bremen, the note calls promising spellcasters into Northshire Abbey to begin their formal tutelage in the arcane arts.",
+ "sections": [
+  {
+   "title": "A Summons to the Arcane",
+   "body": "Once an aspiring apprentice proves their capability by aiding Marshal McBride against the local vermin, the garrison commander hands them a message marked with arcane runes. The letter comes directly from Khelden Bremen, Northshire's resident mage trainer, who monitors new recruits arriving at the abbey for signs of magical discipline and talent.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Weight of Wizardry",
+   "body": "Northshire Abbey has historically served as a sanctuary for the Holy Light, yet the ongoing perils facing Stormwind require practitioners of every discipline. Answering the letter leads the novice upstairs to Khelden Bremen. Rather than offering easy praise, the tutor delivers a stark warning: mastering arcane power demands defiance of natural limits, inviting both profound respect and deep-seated fear from ordinary folk.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who delivers the Glyphic Letter?",
+   "aliases": [
+    "who gives glyphic letter",
+    "glyphic letter quest giver"
+   ],
+   "answer": "Marshal McBride presents the letter to newly arrived mages outside Northshire Abbey once they have helped clear the nearby kobold vermin."
+  },
+  {
+   "q": "Who wrote the Glyphic Letter?",
+   "aliases": [
+    "author of glyphic letter",
+    "who sent glyphic letter"
+   ],
+   "answer": "The letter was written and sealed by Khelden Bremen, the resident mage trainer stationed inside the upper chambers of Northshire Abbey."
+  },
+  {
+   "q": "Where do I find Khelden Bremen?",
+   "aliases": [
+    "khelden bremen location",
+    "where is khelden"
+   ],
+   "answer": "Enter Northshire Abbey behind Marshal McBride, take the left hallway, head up the stairs, and look toward the rear chambers to find Khelden waiting to teach."
+  },
+  {
+   "q": "Why is the mage trainer located in an abbey?",
+   "aliases": [
+    "why are mages in northshire abbey",
+    "mage trainer in holy abbey"
+   ],
+   "answer": "While Northshire Abbey is fundamentally a holy sanctuary, Stormwind utilizes the valley as an initial training depot for defenders of all disciplines, stationing arcane tutors alongside clerics and marshals."
+  },
+  {
+   "q": "What happens after turning in the letter?",
+   "aliases": [
+    "what comes after glyphic letter",
+    "next quest after glyphic letter"
+   ],
+   "answer": "Khelden Bremen accepts you as his student, welcomes your resolve to wield the arcane despite its dangers, and offers direct access to basic spell training."
+  },
+  {
+   "q": "Why does Khelden warn that mages will be feared?",
+   "aliases": [
+    "why are mages feared",
+    "khelden bremen dialogue"
+   ],
+   "answer": "Arcane magic is a volatile, reality-bending force. Khelden reminds apprentices that pursuing supreme knowledge means crossing boundaries that regular folk find deeply unsettling."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "This quest marks your official transition from a raw, untrained talent into a recognized apprentice of Stormwind's arcane arts under Khelden Bremen."
+  },
+  {
+   "target": "race:Human",
+   "text": "Northshire's human mages inherit a legacy stretching back to the original human arcanists of Dalaran and the Kirin Tor, carrying arcane might into the Kingdom of Stormwind."
+  }
+ ],
+ "keywords": [
+  "arcane",
+  "elwynn forest",
+  "glyphic letter",
+  "khelden bremen",
+  "mage",
+  "marshal mcbride",
+  "northshire abbey"
+ ],
+ "related": [
+  "npc:khelden-bremen",
+  "npc:marshal-mcbride",
+  "subzone:northshire-abbey",
+  "zone:elwynn",
+  "topic:kobold"
+ ],
+ "attribution": [
+  "Glyphic Letter (quest)"
+ ]
+}

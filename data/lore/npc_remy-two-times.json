@@ -1,0 +1,89 @@
+{
+ "key": "npc:remy-two-times",
+ "type": "npc",
+ "name": "Remy \"Two Times\"",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Remy \"Two Times\"",
+  "refs": 2
+ },
+ "summary": "Remy \"Two Times\" is a human merchant currently residing in the village of Goldshire. Originally hailing from the Redridge Mountains, he is easily recognized by his peculiar habit of repeating the ends of his sentences. He maintains business interests across Elwynn Forest, trading goods and paying adventurers for raw materials like gold dust.",
+ "sections": [
+  {
+   "title": "A Merchant with an Odd Quirk",
+   "body": "Operating out of Goldshire, Remy \"Two Times\" is an enterprising trader who made his way west from the rugged terrain of the Redridge Mountains. True to his moniker, Remy possesses a distinctive verbal tick: repeating the final words of his sentences, usually twice. Despite his comical speech pattern, he remains a savvy merchant looking to turn a profit amid the growing troubles in Elwynn Forest, readily striking deals with traveling adventurers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Business in Troubled Waters",
+   "body": "With kobolds overrunning the local gold mines and aggressive murlocs infesting the riverbanks, normal commerce in Elwynn has been heavily disrupted. Remy seizes opportunity where others see disaster, commissioning adventurers to bring him pouchfuls of gold dust gathered from the vermin infesting the mines, as well as keeping tabs on suspicious murloc movements near Crystal Lake.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is he called 'Two Times'?",
+   "aliases": [
+    "remy two times name",
+    "why does remy repeat words",
+    "two times meaning"
+   ],
+   "answer": "Remy earned his nickname because of an unusual conversational tick where he habitually repeats the final words of his sentences twice whenever he speaks."
+  },
+  {
+   "q": "Where does Remy come from originally?",
+   "aliases": [
+    "remy origin",
+    "where is remy from"
+   ],
+   "answer": "He traveled to Goldshire from the Redridge Mountains to conduct trade in the heartland of Elwynn Forest."
+  },
+  {
+   "q": "What does Remy do with all the gold dust he buys?",
+   "aliases": [
+    "why does remy want gold dust",
+    "gold dust exchange lore"
+   ],
+   "answer": "As an opportunistic merchant, Remy collects gold dust scavenged from kobolds in local mines to smelt, trade, or resell for a tidy profit in the local economy."
+  },
+  {
+   "q": "Where can Remy be found in Goldshire?",
+   "aliases": [
+    "where is remy two times",
+    "remy location goldshire"
+   ],
+   "answer": "Remy stands outdoors in Goldshire in Elwynn Forest, near the Lion's Pride Inn, ready to barter with passing travelers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "Miners working the Fargodeep and Jasperlode mines often cross paths with Remy, who happily barters for the gold dust collected from the infesting kobolds."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For fresh Alliance recruits arriving in Goldshire, Remy provides straightforward tasks that help clear local threats while offering some quick coin."
+  }
+ ],
+ "keywords": [
+  "elwynn",
+  "gold dust",
+  "goldshire",
+  "merchant",
+  "murloc",
+  "redridge",
+  "remy",
+  "two times"
+ ],
+ "related": [
+  "subzone:goldshire",
+  "zone:elwynn",
+  "quest:47",
+  "quest:40",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Remy \"Two Times\""
+ ]
+}

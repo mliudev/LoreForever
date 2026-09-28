@@ -1,0 +1,122 @@
+{
+ "key": "npc:grif-wildheart",
+ "type": "npc",
+ "name": "Grif Wildheart",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Grif Wildheart",
+  "refs": 6
+ },
+ "summary": "Grif Wildheart is a seasoned dwarven hunter trainer stationed outside the Thunderbrew Distillery in Kharanos. Renowned among the local mountaineers for his deep affinity with wildlife, he instructs budding marksmen in tracking, marksmanship, and the rites of beast taming. For young hunters emerging from Coldridge Valley, Grif provides the vital bridge between firing a rifle and walking alongside a loyal animal companion.",
+ "sections": [
+  {
+   "title": "A Life in the Wilds",
+   "body": "While many Ironforge dwarves prefer the fiery warmth of a forge or the steady clink of pickaxes, Grif Wildheart has dedicated his life entirely to the frozen wilderness of Dun Morogh. Local mountaineers half-jokingly say he spends a bit too much time with four-legged beasts, but none dispute his mastery of the wild. Having spent years tracking across snowbound ridges alongside seasoned hunting companions, Grif possesses an intimate understanding of the natural predators that roam the crags.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Way of the Beast",
+   "body": "When young dwarf hunters finish their preliminary trials in Coldridge Valley, they are directed straight to Kharanos to seek Grif's guidance. While he sharpens their aim and teaches essential wilderness survival tricks, his true specialty lies in forging bonds between hunter and beast. Through a sequence of rigorous trials, Grif sends his pupils out into the freezing wastes with a taming rod to test their mettle against Dun Morogh's iconic predators: Large Crag Boars, Snow Leopards, and Ice Claw Bears.",
+   "spoiler": 0
+  },
+  {
+   "title": "Journey to the High Seat",
+   "body": "Once a hunter demonstrates the will and composure needed to calm three distinct wild beasts, Grif's tutelage in Kharanos reaches its conclusion. Recognizing that a hunter must also learn to feed, discipline, and train their new ally, he sends his graduates up the mountainside to Ironforge. There, under the great vaulted roofs of the dwarven capital, novice hunters report to master beast trainers to learn the deeper art of caring for their permanent lifelong companion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Grif Wildheart?",
+   "aliases": [
+    "who is grif",
+    "grif wildheart identity",
+    "about grif"
+   ],
+   "answer": "Grif Wildheart is a dwarven hunter trainer located in Kharanos in Dun Morogh. He serves as the primary mentor for novice Alliance hunters learning their trade outside of Coldridge Valley."
+  },
+  {
+   "q": "Where can I find Grif Wildheart?",
+   "aliases": [
+    "grif wildheart location",
+    "where is grif",
+    "grif in kharanos"
+   ],
+   "answer": "He stands outside near the Thunderbrew Distillery in the village of Kharanos, along the snowy road connecting Coldridge Pass to Ironforge."
+  },
+  {
+   "q": "What does Grif teach novice hunters?",
+   "aliases": [
+    "what does grif teach",
+    "grif hunter training",
+    "grif skills"
+   ],
+   "answer": "Beyond offering general hunter abilities and ranged combat techniques, Grif guides young hunters through the trials of beast taming, teaching them to soothe and master wild boars, leopards, and bears."
+  },
+  {
+   "q": "What beasts does Grif send hunters to tame?",
+   "aliases": [
+    "grif taming quests",
+    "which animals to tame dun morogh",
+    "taming the beast targets"
+   ],
+   "answer": "Grif charges his students with tracking down and taming three specific creatures of Dun Morogh: a Large Crag Boar, a Snow Leopard, and an Ice Claw Bear."
+  },
+  {
+   "q": "Where does Grif send hunters after completing their taming trials?",
+   "aliases": [
+    "where after grif",
+    "training the beast next step",
+    "grif follow up quest"
+   ],
+   "answer": "After proving their ability to tame wild animals, Grif directs hunters to travel into the city of Ironforge to consult with advanced beast trainers about feeding and commanding their pets."
+  },
+  {
+   "q": "What do the Ironforge mountaineers think of Grif?",
+   "aliases": [
+    "mountaineer opinion of grif",
+    "is grif respected",
+    "grif reputation"
+   ],
+   "answer": "The local Ironforge Mountaineers note that Grif spends a bit too much time in the company of animals rather than people, but they readily admit he knows the hunter's craft better than almost anyone."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Grif is the essential mentor who initiates Alliance hunters into beast taming, offering the vital quests that allow you to bond with wild predators across Dun Morogh."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Embodying the dwarven mountaineer tradition, Grif shows how a dwarf's rugged resilience makes them exceptionally suited for living side-by-side with wild mountain beasts."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Stationed in Kharanos, Grif prepares Alliance scouts and sharpshooters to survive the harsh wilderness surrounding the mountain kingdom of Ironforge."
+  }
+ ],
+ "keywords": [
+  "beast taming",
+  "dun morogh",
+  "grif wildheart",
+  "hunter trainer",
+  "kharanos",
+  "mountaineer",
+  "taming the beast",
+  "thunderbrew distillery"
+ ],
+ "related": [
+  "subzone:kharanos",
+  "quest:6061",
+  "quest:6081",
+  "quest:6065",
+  "zone:dunmorogh",
+  "zone:ironforge",
+  "topic:dwarf",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Grif Wildheart"
+ ]
+}

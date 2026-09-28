@@ -1,0 +1,88 @@
+{
+ "key": "subzone:grand-vestibule",
+ "type": "subzone",
+ "name": "Grand Vestibule",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Grand Vestibule"
+ },
+ "summary": "The Grand Vestibule is the monumental entrance hall of the Scarlet Monastery in Tirisfal Glades. Lined with crimson pillars and stone effigies of fallen crusaders, it serves as the threshold where adventurers prepare to breach the monastery's inner halls.",
+ "sections": [
+  {
+   "title": "The Threshold of Zealotry",
+   "body": "Past the heavy outer gates of the Monastery lies the Grand Vestibule, an expansive marble hall dedicated to the martial pride of the Scarlet Crusade. Statues of armored champions stand vigil beside vaulted stone pillars, and zealous sentries, disciples, and augurs patrol the flagstones to strike down anyone daring to enter without the order's crimson tabard. For trespassers, it is the first taste of the Crusade's unrelenting discipline and fanaticism.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Contested Meeting Ground",
+   "body": "Because the vestibule sits directly outside the secured inner wings of the monastery, it functions as a perilous gathering point. Both Alliance strike teams sent north and Horde forces pushing out from the nearby Undercity converge under these high arches, turning the ornate entry into a chaotic and bloody battleground long before anyone breaches the inner cloisters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Grand Vestibule?",
+   "aliases": [
+    "what is this room",
+    "grand vestibule info",
+    "monastery entrance hall"
+   ],
+   "answer": "It is the grand entrance chamber of the Scarlet Monastery in northeastern Tirisfal Glades, connecting the outer courtyard to the four interior wings."
+  },
+  {
+   "q": "What enemies guard this area?",
+   "aliases": [
+    "who patrols here",
+    "vestibule mobs",
+    "crusaders in vestibule"
+   ],
+   "answer": "The chamber is defended by active Scarlet Crusade personnel, primarily Scarlet Sentries, Scarlet Disciples, and Scarlet Augurs stationed to bar intruders."
+  },
+  {
+   "q": "Why do the Alliance and Horde fight here?",
+   "aliases": [
+    "pvp in vestibule",
+    "why are players fighting here",
+    "contested vestibule"
+   ],
+   "answer": "Both factions send champions into the Monastery\u2014the Alliance seeking to reclaim Lordaeron's holy sites or purge heretics, and the Horde acting to secure Tirisfal Glades for the Forsaken. Their paths inevitably collide in this shared entrance hall."
+  },
+  {
+   "q": "Whom do the statues in the vestibule depict?",
+   "aliases": [
+    "who are the statues",
+    "vestibule statues",
+    "crusade monuments"
+   ],
+   "answer": "The statues depict honored warriors and heroes of the Scarlet Crusade, sculpted in heavy plate armor to serve as enduring symbols of their unyielding crusade against the undead."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Positioned just northeast of the Undercity, this grand entryway represents the frontline of the living zealots actively threatening Forsaken sovereignty in Tirisfal."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The vestibule displays the tragic corruption of Lordaeron's former holy sanctuaries, showing how devotion to the Light curdled into blind, violent fanaticism."
+  }
+ ],
+ "keywords": [
+  "entrance hall",
+  "grand vestibule",
+  "scarlet augur",
+  "scarlet disciple",
+  "scarlet monastery",
+  "scarlet sentry",
+  "tirisfal glades"
+ ],
+ "related": [
+  "zone:scarlet",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Grand Vestibule"
+ ]
+}

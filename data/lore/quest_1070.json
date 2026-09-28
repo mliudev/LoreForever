@@ -1,0 +1,121 @@
+{
+ "key": "quest:1070",
+ "type": "quest",
+ "name": "On Guard in Stonetalon",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1070
+  ],
+  "level": "21",
+  "faction": "Alliance",
+  "start": "Sentinel Thenysil",
+  "end": "Kaela Shadowspear",
+  "previous": null,
+  "next": "On Guard in Stonetalon (2)",
+  "wiki": "On Guard in Stonetalon",
+  "chain": []
+ },
+ "summary": "On Guard in Stonetalon is an Alliance breadcrumb quest directing adventurers south from Ashenvale into the rugged Stonetalon Mountains. Sentinel Thenysil dispatches travelers to check on her scout friend, Kaela Shadowspear, who was sent into the crags alongside a gnome mage to monitor industrial incursions by the Venture Company.",
+ "sections": [
+  {
+   "title": "A Scout Sent South",
+   "body": "Stationed along the southern reaches of Ashenvale, Sentinel Thenysil keeps a close watch on threats pressing toward the ancient forest. Deeply concerned for her friend Kaela Shadowspear, Thenysil asks passing Alliance champions to track her down. Kaela was dispatched into the Stonetalon Mountains by Sentinel Wolfrunner to survey rising turmoil in the heights, but communication has fallen silent, leaving Thenysil anxious for her safety.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uneasy Partnerships in the Crags",
+   "body": "Thenysil's concern is heightened by Kaela's assigned companion: a gnome mage deployed alongside her by the Alliance leadership. While the night elves have joined the Grand Alliance out of strategic necessity, many Sentinels remain deeply skeptical of arcane practitioners and tinkering gnomes operating in pristine wilderness. Finding Kaela perched on the bluffs above Windshear Crag reveals an outpost keeping vigil over widespread environmental devastation wrought by the Venture Company.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "where to start",
+    "who starts on guard in stonetalon"
+   ],
+   "answer": "The quest is offered by Sentinel Thenysil, a night elf sentinel stationed along the borders of southern Ashenvale near the path into the mountains."
+  },
+  {
+   "q": "Where can I find Kaela Shadowspear?",
+   "aliases": [
+    "kaela location",
+    "find kaela",
+    "kaela shadowspear spot"
+   ],
+   "answer": "Kaela Shadowspear is encamped high on a rocky ridge overlooking the valley entrance into Windshear Crag within the Stonetalon Mountains."
+  },
+  {
+   "q": "Why is Sentinel Thenysil worried about Kaela?",
+   "aliases": [
+    "why worry",
+    "thenysil concern"
+   ],
+   "answer": "Kaela was sent to investigate dangerous hostile incursions in Stonetalon and has not sent word back. Furthermore, Thenysil is wary because the Alliance paired Kaela with a gnome mage, a pairing she considers an omen of trouble."
+  },
+  {
+   "q": "What threats are active in the Stonetalon Mountains?",
+   "aliases": [
+    "stonetalon enemies",
+    "who is in stonetalon"
+   ],
+   "answer": "The mountains suffer heavily from the Venture Company, an unscrupulous goblin mining and logging cartel tearing up the wilderness, alongside aggressive native beasts and rival Horde forces encroaching from the south."
+  },
+  {
+   "q": "Who is Tara?",
+   "aliases": [
+    "who is tara",
+    "tara mentioned"
+   ],
+   "answer": "Tara is Sentinel Thenysil's first name. When you meet Kaela, she fondly refers to her old friend as Tara and expresses pride that she is coordinating scouts and adventurers."
+  },
+  {
+   "q": "What happens after finding Kaela Shadowspear?",
+   "aliases": [
+    "next quest",
+    "what comes next"
+   ],
+   "answer": "Reaching Kaela completes the journey and leads into further tasks assisting her and her gnome partner with keeping watch over the encroaching threats in Windshear Crag."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This task marks the southward expansion of Alliance frontier security, linking defense outposts in Ashenvale to isolated scouting perches in the Stonetalon Mountains."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The mission illustrates the friction between traditional night elf Sentinels and the arcane, mechanical practices of their Eastern Kingdom allies, particularly gnomes."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Sentinels view gnomish magic and contraptions with deep skepticism, seeing the inclusion of a gnome mage as an odd, unpredictable variable in Kalimdor's wilderness."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "kaela shadowspear",
+  "on guard in stonetalon",
+  "sentinel thenysil",
+  "stonetalon mountains",
+  "venture co",
+  "windshear crag"
+ ],
+ "related": [
+  "npc:sentinel-thenysil",
+  "npc:kaela-shadowspear",
+  "zone:stonetalon",
+  "subzone:windshear-crag",
+  "zone:ashenvale",
+  "topic:sentinels",
+  "topic:gnome",
+  "quest:764"
+ ],
+ "attribution": [
+  "On Guard in Stonetalon"
+ ]
+}

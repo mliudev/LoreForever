@@ -1,0 +1,115 @@
+{
+ "key": "quest:96628",
+ "type": "quest",
+ "name": "The Adventurer",
+ "era": "forever",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   96628
+  ],
+  "level": "6",
+  "faction": "Alliance",
+  "start": "Mountaineer Thalos",
+  "end": "Eric Brighthammer",
+  "previous": "",
+  "next": "",
+  "wiki": "The Adventurer (Dun Morogh)",
+  "chain": []
+ },
+ "summary": "The Adventurer is a local errand given by Mountaineer Thalos at the southern gate of Dun Morogh. Before sending travelers through the mountain tunnel toward Kharanos, Thalos asks them to carry a bundle of supplies to Eric Brighthammer, a newcomer camped just outside the village.",
+ "sections": [
+  {
+   "title": "A Favor for the Mountaineers",
+   "body": "Guarding the high passes and tunnels between Coldridge Valley and the broader snowy expanses of Dun Morogh is demanding work for the Ironforge Mountaineers. Stationed at the border gate, Mountaineer Thalos keeps an eye out for both local dangers and travelers passing along the beaten trail. When word reaches the post about a lone adventurer arriving near Kharanos, Thalos uses trusted passersby to haul necessary supplies onward to support newcomers venturing into the frozen crags.",
+   "spoiler": 0
+  },
+  {
+   "title": "Supplies for Kharanos",
+   "body": "The road descending from the southern pass winds into the settlement of Kharanos, the primary hub for dwarven craft and travel in central Dun Morogh. Eric Brighthammer has recently established himself just on the outskirts of the village. By delivering the Mountaineers' bundle of provisions to him, travelers help establish a vital link between the outlying ridge sentries and those actively wandering the wilderness.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts the quest The Adventurer?",
+   "aliases": [
+    "quest giver",
+    "who gives the adventurer",
+    "thalos quest"
+   ],
+   "answer": "Mountaineer Thalos offers this quest. He stands watch at the mountain pass gate connecting the Coldridge Valley trail to greater Dun Morogh."
+  },
+  {
+   "q": "Who is Eric Brighthammer?",
+   "aliases": [
+    "where is eric brighthammer",
+    "who is the adventurer",
+    "brighthammer"
+   ],
+   "answer": "Eric Brighthammer is an adventurer who has recently arrived outside the dwarven town of Kharanos. Mountaineer Thalos sends travelers to bring him an essential bundle of supplies."
+  },
+  {
+   "q": "Where does this delivery take place?",
+   "aliases": [
+    "where to deliver supplies",
+    "eric brighthammer location",
+    "supply bundle drop"
+   ],
+   "answer": "The delivery takes place just outside Kharanos in Dun Morogh, north of the Coldridge Pass tunnel where Mountaineer Thalos is posted."
+  },
+  {
+   "q": "Why is Mountaineer Thalos sending supplies?",
+   "aliases": [
+    "why send supplies",
+    "thalos purpose",
+    "reason for bundle"
+   ],
+   "answer": "The Mountaineers keep tabs on travelers throughout Dun Morogh. When Thalos learns an adventurer has set up camp near Kharanos, he arranges for provisions to be carried out to support him in the cold."
+  },
+  {
+   "q": "What item are you carrying?",
+   "aliases": [
+    "what supplies",
+    "supply bundle item"
+   ],
+   "answer": "You are carrying a Supply Bundle provided directly by Mountaineer Thalos to give to Eric Brighthammer."
+  },
+  {
+   "q": "Is this quest available to Horde players?",
+   "aliases": [
+    "can horde do this",
+    "is it alliance only",
+    "horde adventurer quest"
+   ],
+   "answer": "No. Mountaineer Thalos is an Alliance-aligned dwarven guard in Dun Morogh, making this task exclusive to the Alliance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For young dwarves leaving Coldridge Valley, taking provisions to Eric Brighthammer marks their first cooperative act with the Mountaineers in the wider realm of Dun Morogh."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Mountaineers rely on Alliance recruits to carry critical supplies across the icy roads, ensuring wandering allies outside Kharanos remain provisioned."
+  }
+ ],
+ "keywords": [
+  "coldridge pass",
+  "dun morogh",
+  "eric brighthammer",
+  "kharanos",
+  "mountaineer thalos",
+  "supply bundle",
+  "the adventurer"
+ ],
+ "related": [
+  "npc:mountaineer-thalos",
+  "subzone:kharanos",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "The Adventurer (Dun Morogh)"
+ ]
+}

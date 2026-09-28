@@ -1,0 +1,136 @@
+{
+ "key": "quest:317",
+ "type": "quest",
+ "name": "Stocking Jetsteam",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   317
+  ],
+  "level": "6",
+  "faction": "Alliance",
+  "start": "Pilot Bellowfiz",
+  "end": "",
+  "previous": null,
+  "next": "Evershine",
+  "wiki": "Stocking Jetsteam",
+  "chain": [
+   "Stocking Jetsteam",
+   "Evershine",
+   "A Favor for Evershine",
+   "Return to Bellowfiz"
+  ]
+ },
+ "summary": "Stocking Jetsteam is an Alliance quest offered by Pilot Bellowfiz at Steelgrill's Depot in Dun Morogh. Preparing his siege engine for an extended deployment with the Gnomeregan Siege Brigade, the pilot enlists local hunters to gather boar meat and bear pelts to provision his crew.",
+ "sections": [
+  {
+   "title": "Provisioning the Engine",
+   "body": "Stationed just outside Kharanos at Steelgrill's Depot, Pilot Bellowfiz oversees preparations for an upcoming long-haul operation on behalf of the Siege Brigade. His siege tank, dubbed Jetsteam, requires both mechanical tuning from master engineer Beldin Steelgrill and a month's worth of field provisions to keep its crew functional in the harsh sub-zero temperatures of Dun Morogh.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hunting the Snow Fields",
+   "body": "Because Beldin Steelgrill is occupied under Jetsteam's hood, Bellowfiz cannot abandon his vehicle to gather rations and insulation. He directs travelers to hunt in the snowy plains south of the Grizzled Den, where indigenous boars provide hardy meat for food and native bears yield thick pelts suitable for warm tank bedding.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Jetsteam?",
+   "aliases": [
+    "jetsteam",
+    "who is jetsteam",
+    "what is jetstream",
+    "bellowfiz tank"
+   ],
+   "answer": "Jetsteam is the siege tank operated by the gnome Pilot Bellowfiz. Stationed at Steelgrill's Depot, it is being tuned and provisioned for an extended military deployment on behalf of the Gnomeregan Siege Brigade."
+  },
+  {
+   "q": "Who is Pilot Bellowfiz?",
+   "aliases": [
+    "pilot bellowfiz",
+    "bellowfiz",
+    "who is pilot bellowfiz"
+   ],
+   "answer": "Pilot Bellowfiz is a gnomish tank operator aligned with the Gnomeregan Exiles. While his vehicle undergoes mechanical adjustments at Steelgrill's Depot, he coordinates field supplies for his upcoming mission."
+  },
+  {
+   "q": "Where can the required supplies be gathered?",
+   "aliases": [
+    "where are the boars",
+    "where are bears",
+    "hunting location",
+    "boar meat dun morogh"
+   ],
+   "answer": "Pilot Bellowfiz points hunters toward the snowy flats south of the Grizzled Den, an area inhabited by local boars and bears whose meat and pelts provide adequate provisions and bedding."
+  },
+  {
+   "q": "What is the Siege Brigade?",
+   "aliases": [
+    "siege brigade",
+    "gnomeregan siege brigade"
+   ],
+   "answer": "The Siege Brigade is the mechanized armor corps of the gnomish military, operating heavily fortified siege engines and tanks in support of gnomish defense and Alliance campaigns."
+  },
+  {
+   "q": "Where does this mission lead next?",
+   "aliases": [
+    "next quest",
+    "what comes after stocking jetsteam",
+    "stocking jetsteam follow up"
+   ],
+   "answer": "After restocking Jetsteam with meat and furs, Pilot Bellowfiz sends travelers northward to Evershine, seeking specialized mechanical components needed to complete the tank's operational readiness."
+  },
+  {
+   "q": "Why does a siege engine require animal furs?",
+   "aliases": [
+    "why fur",
+    "thick bear fur use",
+    "bedding"
+   ],
+   "answer": "The interior of a dwarven or gnomish steam tank is frigid and drafty during long operations in the mountain snows. Thick bear pelts provide vital warmth and insulation for crew bedding during prolonged stays away from camp."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Assisting Bellowfiz ensures that gnomish siege operations remain fully supported as the exiled people struggle to muster every mechanized advantage."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Providing game from Dun Morogh's crags keeps allied gnomish crews fed and rested while working out of Khaz Modan's machine yards."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Harvesting thick cuts of boar meat in the Dun Morogh drifts highlights the staple game that sustains local mountain garrisons."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Cooperation between dwarven repair yards and gnomish armored crews keeps the Alliance's frontline siege technology functional."
+  }
+ ],
+ "keywords": [
+  "bear furs",
+  "boar meat",
+  "dun morogh",
+  "grizzled den",
+  "jetsteam",
+  "pilot bellowfiz",
+  "siege brigade",
+  "steelgrill's depot"
+ ],
+ "related": [
+  "npc:pilot-bellowfiz",
+  "subzone:steelgrill-s-depot",
+  "quest:318",
+  "quest:319",
+  "subzone:grizzled-den",
+  "quest:313",
+  "zone:dunmorogh",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Stocking Jetsteam"
+ ]
+}

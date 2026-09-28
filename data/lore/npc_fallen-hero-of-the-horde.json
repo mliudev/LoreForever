@@ -1,0 +1,104 @@
+{
+ "key": "npc:fallen-hero-of-the-horde",
+ "type": "npc",
+ "name": "Fallen Hero of the Horde",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Fallen Hero of the Horde",
+  "refs": 2
+ },
+ "summary": "The Fallen Hero of the Horde is the lingering spirit of an orc warrior standing watch on the southern road out of the Swamp of Sorrows. Bound by regret and dishonor, he warns passing travelers of the horrors awaiting them in the Blasted Lands and seeks champions willing to deliver his tortured soldiers from demonic bondage.",
+ "sections": [
+  {
+   "title": "A Tragic Command",
+   "body": "In life, this unnamed warrior was a celebrated champion dispatched with a handpicked regiment of soldiers to investigate the Blasted Lands and report back on the presence of the Burning Legion. His dispatch never made it; the courier sent north toward Stonard was ambushed and slain by the Swamp Talker and his murlocs. Stranded without orders or reinforcements, the commander eventually marched his soldiers south into the shattered wastes to confront the growing darkness. It was a fatal misjudgment. Overwhelmed by demonic forces, his army was scattered, captured, and subjected to horrific torment at the hands of the dreadlord Razelikh the Defiler.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of Failure",
+   "body": "Captured alongside his lieutenant, Kirith, the commander endured brutal torture in the Serpent's Coil while their captors ripped the souls from his surviving men. Escaping only to succumb to his fatal wounds near the swamp's border, the hero's spirit remains tethered to the threshold of the Blasted Lands. His soldiers suffered an even darker fate: their soulless husks were bound to mystic stones, serving as immortal thralls divided between Razelikh and his lieutenants\u2014Archmage Allistarj, Lady Sevine, and Grol the Destroyer. Until their soul-binding stones are shattered and their torment ended, his restless spirit cannot know peace.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was the Fallen Hero in life?",
+   "aliases": [
+    "fallen hero identity",
+    "fallen hero name",
+    "who is the fallen hero"
+   ],
+   "answer": "He was a veteran orc warrior chosen to lead a reconnaissance force into the Blasted Lands to assess the demonic threat. He died of grievous wounds after escaping torture at the hands of Razelikh the Defiler, leaving his spirit stranded by the road leading out of the Swamp of Sorrows."
+  },
+  {
+   "q": "Why is he haunting the border of the Blasted Lands?",
+   "aliases": [
+    "why is he a ghost",
+    "fallen hero ghost",
+    "why is he here"
+   ],
+   "answer": "He is bound by the shame of losing his regiment and failing his mission. He refuses to pass on until brave adventurers venture south to destroy the stones of binding that hold his soldiers in eternal servitude to the Burning Legion."
+  },
+  {
+   "q": "What happened to the orders he sent to Stonard?",
+   "aliases": [
+    "missing orders",
+    "what happened to his orders",
+    "swamp talker courier"
+   ],
+   "answer": "The scout carrying his urgent report back to the outpost of Stonard was ambushed and killed by murlocs in the swamp led by the Swamp Talker. Because the report was lost, reinforcements never arrived, prompting the hero to advance alone into the Blasted Lands."
+  },
+  {
+   "q": "What happened to his lieutenant, Kirith?",
+   "aliases": [
+    "lieutenant kirith",
+    "who is kirith",
+    "what happened to kirith"
+   ],
+   "answer": "Lieutenant Kirith suffered demonic experiments within the Serpent's Coil. His soul was warped and twisted, turning his physical form into a monstrous felhunter lurking in the depths of the cave."
+  },
+  {
+   "q": "Why are his soldiers invulnerable?",
+   "aliases": [
+    "invulnerable soldiers",
+    "stones of binding",
+    "servants of razelikh"
+   ],
+   "answer": "Razelikh and his lieutenants severed the souls of the captive soldiers from their flesh. Without a soul, their physical bodies cannot truly die. They can only be freed if their bodies are battered near disintegration, rendering the soul-binding stones nearby briefly vulnerable to destruction."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The hero embodies the agony of a warrior whose honor was stripped away by demonic cruelty, appealing to Horde adventurers to avenge his lost squad and clean the stain of defeat from their legacy."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "As a fallen warrior of renown, his spectral kinship resonates strongly with martial adventurers who understand the sting of surviving when their comrades have fallen."
+  }
+ ],
+ "keywords": [
+  "allistarj",
+  "fallen hero of the horde",
+  "grol the destroyer",
+  "lieutenant kirith",
+  "razelikh the defiler",
+  "sevine",
+  "stones of binding",
+  "swamp talker"
+ ],
+ "related": [
+  "zone:swampofsorrows",
+  "zone:blastedlands",
+  "subzone:serpent-s-coil",
+  "subzone:stonard",
+  "subzone:dark-portal",
+  "topic:burning-legion",
+  "topic:horde",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Fallen Hero of the Horde"
+ ]
+}

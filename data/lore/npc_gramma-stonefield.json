@@ -1,0 +1,83 @@
+{
+ "key": "npc:gramma-stonefield",
+ "type": "npc",
+ "name": "Gramma Stonefield",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Gramma Stonefield",
+  "refs": 1
+ },
+ "summary": "Gramma Stonefield, whose given name is Mildred, is the elderly matriarch of the Stonefield family residing at their farm in Elwynn Forest. Unlike her bickering kin, she has grown weary of the bitter, generations-long feud with the neighboring Maclures. Quietly working behind her family's back, she does everything she can to help her grandson Tommy Joe pursue his forbidden romance with Maybell Maclure.",
+ "sections": [
+  {
+   "title": "A Secret Peacemaker",
+   "body": "As the oldest living member of the Stonefield clan, Mildred Stonefield has witnessed decades of petty squabbling between her household and the Maclures across the road. Rather than stoking the bad blood, she views the enduring rivalry as senseless and destructive. When her grandson Tommy Joe Stonefield falls in love with Maybell Maclure, Gramma chooses compassion over clan loyalty. Relying on an old friendship with William Pestle in Goldshire, she quietly plots to help the star-crossed sweethearts meet in secret, subverting the stubborn hostility dividing the two farms.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gramma Stonefield?",
+   "aliases": [
+    "who is gramma",
+    "mildred stonefield",
+    "stonefield grandma"
+   ],
+   "answer": "Gramma Stonefield, named Mildred, is the elderly matriarch of the Stonefield family living on their farm in central Elwynn Forest. She is the grandmother of Tommy Joe Stonefield."
+  },
+  {
+   "q": "How does she feel about the feud with the Maclures?",
+   "aliases": [
+    "stonefield maclure feud",
+    "does she hate maclures"
+   ],
+   "answer": "Mildred has no interest in maintaining the feud. Unlike most members of both families, she views the grudge as foolish and harmful, preferring to see harmony between the households rather than endless bickering."
+  },
+  {
+   "q": "Why is she helping Tommy Joe and Maybell?",
+   "aliases": [
+    "why help tommy joe",
+    "gramma love potion",
+    "help lovers"
+   ],
+   "answer": "She loves her grandson Tommy Joe and wants him to be happy. Because she rejects the family feud, she actively aids his forbidden romance with Maybell Maclure by calling upon her old friend William Pestle to concoct a solution for the pair."
+  },
+  {
+   "q": "Who is William Pestle to her?",
+   "aliases": [
+    "william pestle connection",
+    "william pestle gramma"
+   ],
+   "answer": "William Pestle, the alchemist residing at the Lion's Pride Inn in Goldshire, is an old and trusted friend of Gramma Stonefield. She reaches out to him through trusted couriers to concoct subtle remedies and aids for Tommy Joe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Gramma Stonefield is a gentle reminder that even within the heartland of the Alliance, local conflicts often require quiet diplomacy and simple empathy rather than steel."
+  }
+ ],
+ "keywords": [
+  "elwynn",
+  "gramma stonefield",
+  "maclure",
+  "maybell",
+  "mildred",
+  "stonefield farm",
+  "tommy joe",
+  "william pestle"
+ ],
+ "related": [
+  "npc:tommy-joe-stonefield",
+  "npc:maybell-maclure",
+  "npc:william-pestle",
+  "subzone:stonefield-farm",
+  "npc:ma-stonefield",
+  "quest:111",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Gramma Stonefield"
+ ]
+}

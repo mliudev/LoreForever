@@ -1,0 +1,94 @@
+{
+ "key": "npc:general-marcus-jonathan",
+ "type": "npc",
+ "name": "General Marcus Jonathan",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "General Marcus Jonathan",
+  "refs": 2
+ },
+ "summary": "General Marcus Jonathan is the High Commander of Stormwind Defense, stationed directly at the gates in the Valley of Heroes. A veteran of the Second War, he oversees the garrison protecting the capital and manages military requests from the kingdom's frontier settlements.",
+ "sections": [
+  {
+   "title": "Commander of the Gates",
+   "body": "Mounted atop his steed in the Valley of Heroes, General Marcus Jonathan stands as the first line of defense and the highest-ranking military officer overseeing the city gates. He fought in the Second War alongside renowned soldiers like Reginald Windsor under the command of General Turalyon. In this era of rising tension, Jonathan must balance the immediate security of the capital with the increasingly desperate calls for aid from frontier towns like Lakeshire.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Strained Command",
+   "body": "While towns like Lakeshire beg for Stormwind soldiers to repel Blackrock orcs and gnolls, Jonathan finds his hands tied by internal politics. Although he assures local magistrates of his commitment to help, he privately confides that the court has grown distant and the boy-king's regency behaves strangely. Paralyzed by royal hesitation and rising threats, Jonathan is forced to rely on independent adventurers to carry orders and reinforce vulnerable outposts.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find General Marcus Jonathan?",
+   "aliases": [
+    "marcus jonathan location",
+    "where is general jonathan",
+    "stormwind gate commander"
+   ],
+   "answer": "He is stationed on horseback right inside the main gates of Stormwind City, overlooking the entrance bridge in the Valley of Heroes."
+  },
+  {
+   "q": "Why won't Marcus send the army to help Lakeshire?",
+   "aliases": [
+    "why no troops for lakeshire",
+    "lakeshire reinforcements",
+    "marcus jonathan redridge troops"
+   ],
+   "answer": "Although Magistrate Solomon has formally requested reinforcements, Jonathan is constrained by the royal court in Stormwind Keep. In his correspondence, he admits that high leadership has grown distant and erratic, preventing him from deploying the garrison outside the city."
+  },
+  {
+   "q": "What is Marcus Jonathan's military history?",
+   "aliases": [
+    "marcus jonathan past",
+    "marcus jonathan lore",
+    "did marcus fight in the second war"
+   ],
+   "answer": "Marcus Jonathan is a veteran who served under General Turalyon during the Second War. He fought alongside comrades such as Reginald Windsor before eventually rising to become the High Commander of Stormwind Defense."
+  },
+  {
+   "q": "What is the coin in the Dalaran fountain about?",
+   "aliases": [
+    "marcus jonathan coin",
+    "dalaran fountain coin marcus"
+   ],
+   "answer": "As a young private visiting Dalaran, Marcus Jonathan tossed a copper coin into the fountain wishing that he would grow a glorious, bushy mustache someday\u2014a wish his prominent facial hair confirms came true."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Marcus Jonathan embodies Stormwind's martial pride at the capital's gate, yet his inability to deploy troops to outlying regions reveals deep administrative paralysis in the Alliance heartland."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "As the supreme commander of Stormwind's gates and a Second War veteran, Jonathan represents the pinnacle of standard martial duty within the kingdom's infantry ranks."
+  }
+ ],
+ "keywords": [
+  "general jonathan",
+  "lakeshire",
+  "magistrate solomon",
+  "marcus jonathan",
+  "reginald windsor",
+  "stormwind army",
+  "stormwind defense",
+  "valley of heroes"
+ ],
+ "related": [
+  "subzone:valley-of-heroes",
+  "zone:stormwind",
+  "quest:120",
+  "npc:magistrate-solomon",
+  "subzone:lakeshire",
+  "topic:stormwind-army",
+  "topic:second-war",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "General Marcus Jonathan"
+ ]
+}

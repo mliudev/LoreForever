@@ -1,0 +1,91 @@
+{
+ "key": "npc:lord-jorach-ravenholdt",
+ "type": "npc",
+ "name": "Lord Jorach Ravenholdt",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "wiki": "Lord Jorach Ravenholdt",
+  "refs": 2
+ },
+ "summary": "Lord Jorach Ravenholdt is the master of Ravenholdt, an elite guild of rogues and assassins operating out of a secluded estate in the Alterac Mountains. He directs the league's clandestine operations, training promising operatives while waging a bitter war against the regional bandits of the Syndicate.",
+ "sections": [
+  {
+   "title": "Master of the Assassin's League",
+   "body": "Lord Jorach Ravenholdt presides over the Assassin's League from his hidden manor nestled in the crags between Alterac and Hillsbrad. A nobleman of mysterious heritage, he opens his halls to outlaws, cutpurses, and assassins regardless of allegiance, provided they exhibit exceptional skill and respect his authority. Under his command, the league acts as both a fraternity for master thieves and an independent syndicate for wetwork and espionage. Ravenholdt harbors a fierce hatred for the Syndicate\u2014the band of disgraced Alterac nobles turned outlaws\u2014and routinely directs his subordinates and visiting freelancers to sabotage their camps and plunder their assets.",
+   "spoiler": 0
+  },
+  {
+   "title": "Secrets in the Shadows",
+   "body": "While ostensibly preoccupied with local skirmishes, Lord Ravenholdt directs far-reaching operations across Azeroth. Rogues who prove their loyalty are enlisted in intricate, continent-spanning tasks to retrieve guarded artifacts. Among these was the recovery of a mysterious Sealed Azure Bag, stolen from him and ferried to furbolgs in Azshara, which required the arcane decoding of Archmage Xylem and an Azure Key wrested from the Sunken Temple. Ravenholdt also coordinates the development of lethal new compounds, dispatching his scouts to gather lethal venom from ancient horrors across the realm.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lord Jorach Ravenholdt?",
+   "aliases": [
+    "who is jorach",
+    "ravenholdt leader",
+    "jorach lore"
+   ],
+   "answer": "He is the aristocratic leader of the Assassin's League, a covert society of rogues headquartered at Ravenholdt Manor in the mountains above Hillsbrad Foothills. He trains master stealth operatives and coordinates discrete assassinations and intelligence gathering."
+  },
+  {
+   "q": "Why does Ravenholdt hate the Syndicate?",
+   "aliases": [
+    "why syndicate enemy",
+    "ravenholdt vs syndicate",
+    "syndicate rivalry"
+   ],
+   "answer": "Ravenholdt's estate sits directly within territory contested by the Syndicate, a network of former Alterac nobles turned ruthless outlaws. He views their crude banditry as an infection across the highlands and uses his guild's assassins to actively purge their strongholds."
+  },
+  {
+   "q": "Is Lord Ravenholdt affiliated with the Alliance or Horde?",
+   "aliases": [
+    "is ravenholdt alliance",
+    "is jorach horde",
+    "ravenholdt faction"
+   ],
+   "answer": "Ravenholdt operates strictly as an independent organization. Lord Jorach accepts rogues of both the Alliance and the Horde into his manor, caring only for professional prowess, stealth discipline, and absolute discretion rather than racial politics."
+  },
+  {
+   "q": "What is inside the Sealed Azure Bag Jorach seeks?",
+   "aliases": [
+    "sealed azure bag contents",
+    "azure bag mystery",
+    "what did jorach get"
+   ],
+   "answer": "The contents remain an intensely guarded secret. When presented with the Azure Key to finally unlock the enchanted satchel, Lord Jorach was bathed in an eerie golden light, staring inside with astonishment before swiftly stowing it away."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Lord Ravenholdt is the preeminent patron of master rogues across Azeroth, offering elite training, poisons, and prestigious contracts to those who earn his trust."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "assassin's league",
+  "azure key",
+  "jorach",
+  "ravenholdt",
+  "rogue",
+  "syndicate",
+  "xylem"
+ ],
+ "related": [
+  "subzone:ravenholdt-manor",
+  "topic:ravenholdt",
+  "topic:syndicate",
+  "zone:alterac",
+  "npc:archmage-xylem",
+  "subzone:temple-of-atal-hakkar",
+  "quest:2300",
+  "npc:mathias-shaw"
+ ],
+ "attribution": [
+  "Lord Jorach Ravenholdt"
+ ]
+}

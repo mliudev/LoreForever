@@ -1,0 +1,92 @@
+{
+ "key": "subzone:tranquil-gardens-cemetery",
+ "type": "subzone",
+ "name": "Tranquil Gardens Cemetery",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Tranquil Gardens Cemetery"
+ },
+ "summary": "Tranquil Gardens Cemetery sits just southeast of Darkshire in Duskwood. Despite its peaceful name, the grounds have become overrun with shambling skeletons and ghouls, turning the former burial site into an immediate hazard for the nearby town.",
+ "sections": [
+  {
+   "title": "Restless Grounds",
+   "body": "Once a quiet resting place for the departed of Grand Hamlet, Tranquil Gardens Cemetery is now anything but serene. As dark curses settled over Duskwood, the dead buried here began clawing their way out of their plots. While the skeletal warriors, skeletal mages, and wandering undead haunting these gravestones are relatively weak compared to the horrors lurking deeper in the woods, their close proximity to Darkshire poses a relentless threat to the townsfolk.",
+   "spoiler": 0
+  },
+  {
+   "title": "On the Town's Threshold",
+   "body": "Because the cemetery lies so close to Darkshire's edge, it serves as the frontline for the local militia. The Night Watch frequently sends fresh recruits and arriving adventurers here to cull the rising dead before they breach the settlement. Among the tumbled headstones and the ruined chapel, more dangerous threats such as the Insane Ghoul lurk, while Night Watch patrols like Watcher Eva keep vigil nearby.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is it called Tranquil Gardens if it is full of undead?",
+   "aliases": [
+    "why tranquil",
+    "tranquil gardens name origin",
+    "why is it called tranquil"
+   ],
+   "answer": "The cemetery was established back when Duskwood was known as Grand Hamlet, a peaceful region of Stormwind. It was meant to be a quiet, dignified resting place for local families. The moniker turned into a grim irony once the curse fell over the region and the dead began rising from their graves."
+  },
+  {
+   "q": "What threats wander around the cemetery?",
+   "aliases": [
+    "enemies in tranquil gardens",
+    "what mobs are here",
+    "cemetery mobs"
+   ],
+   "answer": "The grounds are infested with relatively weak undead, including shambling skeletons, skeletal warriors, and skeletal mages. A particularly vicious Insane Ghoul can also be found haunting the ruined chapel or roaming the headstones."
+  },
+  {
+   "q": "Why does the Night Watch send recruits here?",
+   "aliases": [
+    "night watch cemetery quest",
+    "why cull tranquil gardens",
+    "who protects the cemetery"
+   ],
+   "answer": "Because the cemetery sits immediately southeast of Darkshire, any unchecked rise in undead numbers threatens to spill directly into the town. The Night Watch uses the site to blood new defenders against the weaker undead before sending them deeper into the dangerous forest."
+  },
+  {
+   "q": "Who lives just north of the cemetery?",
+   "aliases": [
+    "house near tranquil gardens",
+    "ghost north of cemetery",
+    "blind mary house"
+   ],
+   "answer": "Just north of Tranquil Gardens Cemetery sits an isolated cottage inhabited by the spirit known as Blind Mary, who lingers near the blighted graveyard."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The desecration of Tranquil Gardens Cemetery is an affront to the Holy Light, making it an urgent proving ground for paladins seeking to grant peace to Duskwood's restless dead."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions arriving in Darkshire, defending this nearby graveyard is critical to keeping the town's perimeter secure from an undead breach."
+  }
+ ],
+ "keywords": [
+  "cemetery",
+  "darkshire",
+  "duskwood",
+  "gardens",
+  "insane ghoul",
+  "skeletons",
+  "tranquil",
+  "watcher eva"
+ ],
+ "related": [
+  "subzone:darkshire",
+  "topic:night-watch",
+  "quest:56",
+  "npc:blind-mary",
+  "zone:duskwood",
+  "topic:light"
+ ],
+ "attribution": [
+  "Tranquil Gardens Cemetery"
+ ]
+}

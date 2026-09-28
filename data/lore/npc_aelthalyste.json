@@ -1,0 +1,122 @@
+{
+ "key": "npc:aelthalyste",
+ "type": "npc",
+ "name": "Aelthalyste",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Aelthalyste",
+  "refs": 4
+ },
+ "summary": "Aelthalyste is a banshee priest trainer and prominent figure within the Cult of Forgotten Shadows, stationed in the War Quarter of the Undercity. She oversees the spiritual discipline of Forsaken acolytes, teaching them to wield the dark energies of Shadow. She also coordinates with other Horde faith leaders, directing troll acolytes to their own elders in Orgrimmar.",
+ "sections": [
+  {
+   "title": "Voice of the Forgotten Shadow",
+   "body": "Unlike many priests across Azeroth who revere the Holy Light, Aelthalyste guides the Forsaken through the tenets of the Cult of Forgotten Shadows. Rising as an incorporeal banshee, she embodies the spectral agony and relentless resolve of Sylvanas Windrunner's followers. From her chamber in the Undercity's War Quarter, she calls aspiring priests back from distant outposts to master the darker arts of their discipline, teaching them to harness suffering as a lethal weapon.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ties with the Horde",
+   "body": "While her focus remains firmly on her Forsaken flock, Aelthalyste maintains mutual respect with other Horde spiritual practitioners. Recognizing the distinct nature of Darkspear spiritualism, she directs troll initiates away from her own shadow doctrines and sends them across the sea to Ur'kyo in Orgrimmar. This gesture of deference ensures that Horde spellcasters develop within their cultural traditions while cementing alliances between Kalimdor and Lordaeron.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Aelthalyste?",
+   "aliases": [
+    "aelthalyste lore",
+    "who is the banshee priest",
+    "aelthalyste npc"
+   ],
+   "answer": "Aelthalyste is a banshee priest trainer residing in the War Quarter of the Undercity. She serves as a leading teacher in the Cult of Forgotten Shadows, instructing Forsaken practitioners in Shadow magic."
+  },
+  {
+   "q": "Where can I find Aelthalyste?",
+   "aliases": [
+    "aelthalyste location",
+    "where is aelthalyste",
+    "find aelthalyste"
+   ],
+   "answer": "She is located in the War Quarter beneath the ruins of Capital City in the Undercity, surrounded by fellow Forsaken instructors."
+  },
+  {
+   "q": "What is the Cult of Forgotten Shadows?",
+   "aliases": [
+    "forgotten shadows",
+    "forsaken priest religion",
+    "cult of forgotten shadows"
+   ],
+   "answer": "The Cult of Forgotten Shadows is the prevailing spiritual philosophy among the Forsaken. Born from the trauma of undeath and abandonment by the Holy Light, its adherents study the balance between Light and Shadow, embracing darkness, willpower, and personal discipline."
+  },
+  {
+   "q": "Why does Aelthalyste send troll priests to Orgrimmar?",
+   "aliases": [
+    "ur'kyo aelthalyste",
+    "why send trolls away",
+    "aelthalyste troll quest"
+   ],
+   "answer": "Aelthalyste recognizes that the troll relationship with the spirits and shadow differs greatly from Forsaken doctrine. As a sign of respect, she sends troll acolytes to train under Ur'kyo, the Darkspear priest trainer in the Valley of Spirits."
+  },
+  {
+   "q": "What does Aelthalyste teach?",
+   "aliases": [
+    "priest training aelthalyste",
+    "what spells does aelthalyste give",
+    "aelthalyste abilities"
+   ],
+   "answer": "She provides core priest instruction to Forsaken characters and directs advanced acolytes into signature undead rituals, including spells like Touch of Weakness and Devouring Plague."
+  },
+  {
+   "q": "Is Aelthalyste loyal to Sylvanas?",
+   "aliases": [
+    "aelthalyste faction",
+    "is she loyal to undercity",
+    "banshee loyalty"
+   ],
+   "answer": "Yes. As a banshee within the Undercity, she shares the plight of the Highborne spirits bound to Sylvanas Windrunner and works actively to strengthen the Forsaken through the mastery of dark magic."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "For Forsaken priests, Aelthalyste represents the core of their doctrine, granting specialized dark spells and guidance in the Cult of Forgotten Shadows."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Aelthalyste reflects the Forsaken transition away from the Holy Light of their former lives toward the pragmatic power of the Shadow."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Rather than forcing troll initiates to adopt Forsaken rites, Aelthalyste directs Darkspear priests back to Ur'kyo in Orgrimmar out of mutual respect."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Her cooperation with Kalimdor trainers like Ur'kyo demonstrates how religious respect helps bridge cultural gaps across the young Horde coalition."
+  }
+ ],
+ "keywords": [
+  "aelthalyste",
+  "banshee",
+  "cult of forgotten shadows",
+  "devouring plague",
+  "priest",
+  "shadow",
+  "undercity",
+  "ur'kyo",
+  "war quarter"
+ ],
+ "related": [
+  "zone:undercity",
+  "subzone:war-quarter",
+  "npc:ur-kyo",
+  "quest:5644",
+  "quest:5643",
+  "quest:5654",
+  "topic:forsaken",
+  "topic:darkspear-tribe"
+ ],
+ "attribution": [
+  "Aelthalyste"
+ ]
+}

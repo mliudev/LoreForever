@@ -1,0 +1,93 @@
+{
+ "key": "subzone:red-rocks",
+ "type": "subzone",
+ "name": "Red Rocks",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Red Rocks"
+ },
+ "summary": "Red Rocks is a towering sandstone bluff in northeastern Mulgore that serves as a sacred ancestral burial ground for the tauren. Here, fallen champions are commended to the Earth Mother through cleansing flame, and young braves travel to its quiet heights to seek the wisdom of their forebears.",
+ "sections": [
+  {
+   "title": "Hallowed Stones and Ancestral Pyres",
+   "body": "Rising high above the plains of northeastern Mulgore, the crimson formations of Red Rocks mark a sacred threshold between the living world and the next. Tauren tradition reserves this solemn ground for their most valiant heroes\u2014chieftains, defenders, and champions who gave their lives founding and protecting Thunder Bluff. Their remains are surrendered to the sky and soil through ceremonial pyres, returning their spirits to the Earth Mother and Sky Father. It is equally a place of spiritual beginning, where young tauren complete their rites of passage by honoring the ancestral graves and communing with the wind.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Quilboar Desecration",
+   "body": "The enduring peace of Red Rocks has been shattered by the Bristleback quilboar. Creeping out from their dens, these aggressive scavengers have infested the sandstone ledges and desecrated the ancestral burial pyres with filth. This violation deeply affronts the spiritual traditions of Thunder Bluff. Shaman and lorekeepers now summon aid to cleanse the crags, driving out the Bristlebacks and reclaiming the sanctity of their resting dead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of Red Rocks?",
+   "aliases": [
+    "why is red rocks important",
+    "red rocks purpose",
+    "what happens at red rocks"
+   ],
+   "answer": "Red Rocks serves as the premier ancestral burial ground and ceremonial rite site for the tauren of Mulgore. Fallen heroes and honored braves are cremated here to return their spirits to the Earth Mother, and young tauren visit its heights to honor the dead during their trials of adulthood."
+  },
+  {
+   "q": "Why are there quilboar at Red Rocks?",
+   "aliases": [
+    "quilboar at red rocks",
+    "who is invading red rocks",
+    "why are bristlebacks here"
+   ],
+   "answer": "The Bristleback quilboar pushed out from their bramble burrows and overrun the plateau, defiling the burial mounds. Their intrusion is seen by the tauren as an intolerable sacrilege against the resting spirits of their ancestors."
+  },
+  {
+   "q": "Who is buried at Red Rocks?",
+   "aliases": [
+    "who is cremated here",
+    "red rocks dead",
+    "whose graves are these"
+   ],
+   "answer": "Burial at Red Rocks is an honor reserved for the most valiant tauren, including great warriors who fought alongside Cairne Bloodhoof to secure Mulgore and build Thunder Bluff, as well as heroes who died serving their tribes."
+  },
+  {
+   "q": "What ceremonies are performed here?",
+   "aliases": [
+    "rites at red rocks",
+    "tauren rituals red rocks"
+   ],
+   "answer": "Beyond funerary pyres commended to the Earth Mother and Sky Father, the bluff is a focal point for the Rite of Wisdom, where tauren braves leave offerings and listen for the guidance of ancestral spirits on the wind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For your people, Red Rocks is sacred soil. The presence of foul quilboar rooting among your honored ancestors' pyres is an open outrage that demands cleansing."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The wind carries the sorrow of unsettled spirits disturbed by quilboar defilement, calling on shamanic rites to restore elemental balance and ancestral peace."
+  }
+ ],
+ "keywords": [
+  "bristleback",
+  "burial ground",
+  "earth mother",
+  "mulgore",
+  "quilboar",
+  "red rocks",
+  "rite of wisdom",
+  "thunder bluff"
+ ],
+ "related": [
+  "zone:mulgore",
+  "npc:lorekeeper-raintotem",
+  "quest:833",
+  "quest:773",
+  "zone:thunderbluff",
+  "npc:cairne-bloodhoof",
+  "topic:tauren",
+  "topic:earth-mother"
+ ],
+ "attribution": [
+  "Red Rocks"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "subzone:isle-of-dread",
+ "type": "subzone",
+ "name": "Isle of Dread",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Isle of Dread"
+ },
+ "summary": "The Isle of Dread is a desolate, cliff-bound island situated in the Great Sea off the southwestern coast of Feralas, south of Sardor Isle. It is notorious for sheltering monstrous two-headed chimaeroks and an entrenched coven of hostile naga hidden within its subterranean sea caves.",
+ "sections": [
+  {
+   "title": "A Land of Monsters and Tides",
+   "body": "Rising out of the crashing surf of the South Seas, the Isle of Dread lives up to its ominous name. Ringed by sheer cliffs, the island's interior valley is only accessible through a narrow pathway on its southeastern coast. Within this enclosed highland roams a lethal population of chimaeroks\u2014ravenous, two-headed beasts empowered by ambient arcane energies. These beasts are led by the monstrous matriarch Lord Lakmaeran, making the island a deadly deathtrap for unwary explorers who cross the channel from Sardor Isle.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Northern Caverns",
+   "body": "While the inland plateau belongs to the chimaeroks, the island's northern shore conceals a cavern system occupied by the Hatecrest naga. Led by Lord Shalzaru, these serpent-folk lurk within deep submerged chambers, plotting against the night elven sentinels stationed at nearby Feathermoon Stronghold. Their subterranean lair includes hidden underwater passages that wind into secluded grottoes, serving as a heavily fortified outpost away from mainland scrutiny.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you reach the interior of the Isle of Dread?",
+   "aliases": [
+    "isle of dread entrance",
+    "how to get up isle of dread",
+    "climb isle of dread"
+   ],
+   "answer": "The island is surrounded by high, sheer cliffs that block ascent from almost every shoreline. The only way to access the central plateau on foot is via a natural path located along the southeastern side of the island."
+  },
+  {
+   "q": "What kinds of creatures inhabit the island?",
+   "aliases": [
+    "isle of dread mobs",
+    "monsters on isle of dread",
+    "chimaeroks feralas"
+   ],
+   "answer": "The high plateau is populated by fierce chimaeroks, including arcane chimaeroks and massive devourers led by the apex beast Lord Lakmaeran. Along the northern coast, deep sea caverns are infested with hostile Hatecrest naga."
+  },
+  {
+   "q": "Who leads the naga in the sea caves?",
+   "aliases": [
+    "isle of dread naga boss",
+    "lord shalzaru cave",
+    "naga leader feralas island"
+   ],
+   "answer": "The coven of naga occupying the northern cave complex is led by Lord Shalzaru. Their presence poses an active threat to the nearby night elves at Feathermoon Stronghold."
+  },
+  {
+   "q": "What makes chimaerok meat so famous?",
+   "aliases": [
+    "chimaerok tenderloin",
+    "dirge kickin chimaerok chops",
+    "isle of dread food"
+   ],
+   "answer": "Chimaeroks yield exceptionally rich tenderloins prized by master gourmands. Culinary masters like Dirge Quikcleave seek out meat from the island\u2014including the prized carcass of Lord Lakmaeran\u2014to craft legendary feasts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "The chimaeroks of the Isle of Dread are the only known source of Chimaerok Tenderloin, the key ingredient for Dirge Quikcleave's legendary Chimaerok Chops."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The night elven sentinels at nearby Feathermoon Stronghold keep a watchful eye on the isle, seeking brave champions to strike at Lord Shalzaru and halt the naga presence off their shores."
+  }
+ ],
+ "keywords": [
+  "chimaerok",
+  "feathermoon",
+  "feralas",
+  "isle of dread",
+  "lakmaeran",
+  "naga",
+  "sardor isle",
+  "shalzaru",
+  "szallah"
+ ],
+ "related": [
+  "zone:feralas",
+  "subzone:sardor-isle",
+  "subzone:feathermoon-stronghold",
+  "npc:lord-shalzaru",
+  "topic:naga"
+ ],
+ "attribution": [
+  "Isle of Dread"
+ ]
+}

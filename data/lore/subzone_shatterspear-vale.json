@@ -1,0 +1,100 @@
+{
+ "key": "subzone:shatterspear-vale",
+ "type": "subzone",
+ "name": "Shatterspear Vale",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Shatterspear Vale"
+ },
+ "summary": "Shatterspear Vale is a hidden valley tucked deep in the jagged mountains between Darkshore, Moonglade, and Felwood. It houses an isolated village of the Shatterspear troll tribe, living quietly around a secluded mountain lake. Largely sealed off from the wider world by sheer cliffs, it remains one of the most enigmatic settlements in northern Kalimdor.",
+ "sections": [
+  {
+   "title": "A Secluded Sanctuary",
+   "body": "Ringed completely by steep mountain cliffs, Shatterspear Vale was carved over millennia by a towering waterfall that cascades into a wide, gray-blue lake. Scattered around the shoreline are simple wooden huts, fishing tents, and carved tribal dwellings. Split into two halves by a tumbling mountain river crossed by a rope bridge, the settlement feels entirely isolated from the tumultuous politics of modern Kalimdor. Flight paths connecting northern Kalimdor to Nighthaven in Moonglade occasionally offer passing travelers a fleeting aerial glimpse of the vibrant, dancing villagers far below.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Uneasy Truce",
+   "body": "The Shatterspear tribe originally split from the ancient Gurubashi Empire following the fall of Hakkar the Soulflayer, wandering far north until settling in this verdant basin. To survive in lands claimed by the night elves, the tribe struck an ancient pact: they were permitted to dwell unmolested so long as they remained strictly within their hidden vale. Should they leave, or should disaster strike them, the elves pledged no aid. To this day, the Shatterspear maintain their insular existence, friendly toward emissaries of the Horde yet wary of outsiders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Shatterspear Vale located?",
+   "aliases": [
+    "shatterspear village location",
+    "where is the troll village in darkshore",
+    "how to get to shatterspear vale"
+   ],
+   "answer": "The vale is nestled high in the mountain ridge bordering Darkshore, Moonglade, Felwood, and Winterspring. It is virtually enclosed by sheer cliffs and has no established road connecting it to the lowlands of Darkshore."
+  },
+  {
+   "q": "Who lives in Shatterspear Vale?",
+   "aliases": [
+    "who lives here",
+    "what tribe is this",
+    "shatterspear tribe"
+   ],
+   "answer": "It is home to the Shatterspear tribe, a splinter group of jungle trolls who migrated north centuries ago following the defeat of Hakkar the Soulflayer in the ancient Gurubashi Empire."
+  },
+  {
+   "q": "Why don't the night elves attack them?",
+   "aliases": [
+    "why night elves allow trolls here",
+    "night elf troll truce"
+   ],
+   "answer": "The Shatterspear trolls established a historic pact with the local night elves. They agreed to remain entirely confined to their isolated valley and mind their own affairs; in exchange, the Kaldorei left them in peace, neither aiding nor harassing them."
+  },
+  {
+   "q": "How can you view the village?",
+   "aliases": [
+    "see troll village flight path",
+    "flight path view of village"
+   ],
+   "answer": "Adventurers traveling on flight paths to or from Nighthaven in Moonglade can often look down into the gorge and spot the village huts, the waterfall, and dancing trolls below."
+  },
+  {
+   "q": "Are the Shatterspear trolls hostile?",
+   "aliases": [
+    "are shatterspear trolls friendly",
+    "can horde visit shatterspear"
+   ],
+   "answer": "The Shatterspear villagers are friendly toward members of the Horde, though they remain neutral and cautious toward the Alliance, defending their valley fiercely if provoked."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "The Shatterspear demonstrate that jungle trolls migrated far beyond Stranglethorn Vale, having managed to survive surrounded on all sides by suspicious night elves."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "While your people generally harbor an ancient enmity toward all trolls, an exception was made for the Shatterspear, bound by a strict agreement that they never stray from their valley."
+  }
+ ],
+ "keywords": [
+  "darkshore",
+  "jungle trolls",
+  "kaldorei pact",
+  "moonglade",
+  "shatterspear vale",
+  "shatterspear village",
+  "trolls",
+  "waterfall"
+ ],
+ "related": [
+  "zone:darkshore",
+  "subzone:nighthaven",
+  "zone:felwood",
+  "zone:winterspring",
+  "topic:troll",
+  "topic:night-elf",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Shatterspear Vale"
+ ]
+}

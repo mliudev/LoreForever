@@ -1,0 +1,95 @@
+{
+ "key": "subzone:shadow-hold",
+ "type": "subzone",
+ "name": "Shadow Hold",
+ "era": "classic",
+ "zone": "felwood",
+ "meta": {
+  "wiki": "Shadow Hold"
+ },
+ "summary": "Shadow Hold is a sprawling subterranean complex hidden within the blighted canyon of Jaedenar in western Felwood. Once a sacred night elf barrow den, it has been seized and desecrated by the Shadow Council to serve as their primary bastion on Kalimdor.",
+ "sections": [
+  {
+   "title": "A Defiled Sanctuary",
+   "body": "Beneath the corrupted red earth of Jaedenar lies Shadow Hold, a vast underground labyrinth carved out of what was once an ancient night elf barrow den. Where sleeping druids once rested to tend the Emerald Dream, dark warlocks and demonic servitors now stalk twisted corridors illuminated by fel fire. At its deepest tiers, the cult commands a formidable force under the dreadlord Lord Banehollow, Prince Xavalis, and Shadow Lord Fel'dan, making it the supreme seat of demonic influence in the region.",
+   "spoiler": 0
+  },
+  {
+   "title": "Horrors in the Deep",
+   "body": "The Shadow Council uses the caverns to coordinate their corruption of Felwood and conduct brutal interrogations. Alliance scouts, including the night elf Arko'narin Starshade and the human paladin Trey Lightforge, fell into cultist hands deep inside the hold. While Arko'narin survived through timely rescue, Trey was tortured to death by the cult's torturers, his spirit briefly twisted into malice before being laid to rest. The Emerald Circle and local shamans work constantly to pierce the dark barriers shielding the hold in hopes of striking down its demonic masters.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Shadow Hold before the Shadow Council took it over?",
+   "aliases": [
+    "shadow hold history",
+    "who built shadow hold",
+    "what was shadow hold originally"
+   ],
+   "answer": "Shadow Hold was originally an ancient night elf barrow den, dedicated to the slumbering druids who tended the land and communion with the Emerald Dream. Following the Third War and the demonic corruption of Felwood, the Shadow Council seized the underground complex and desecrated its sacred halls into a fel fortress."
+  },
+  {
+   "q": "Who rules inside Shadow Hold?",
+   "aliases": [
+    "shadow hold boss",
+    "who is in charge of shadow hold",
+    "leaders of shadow hold"
+   ],
+   "answer": "The stronghold is overseen by the dreadlord Lord Banehollow, alongside powerful lieutenants including the satyr Prince Xavalis and the warlock Shadow Lord Fel'dan, who commands the mortal cultists."
+  },
+  {
+   "q": "Why would an adventurer infiltrate Shadow Hold peacefully?",
+   "aliases": [
+    "infiltrate shadow hold",
+    "shadow council disguise shadow hold",
+    "xorothian stardust shadow hold"
+   ],
+   "answer": "Practitioners of the dark arts seeking powerful summoning reagents, such as Xorothian Stardust, sometimes enter the hold disguised as loyal Shadow Council cultists. Lord Banehollow allows trade with outsiders only if they prove their loyalty by rooting out spies and traitors within his ranks."
+  },
+  {
+   "q": "What happened to the captives in the hold?",
+   "aliases": [
+    "jaedenar prisoners",
+    "trey lightforge and arkonarin",
+    "shadow hold cage"
+   ],
+   "answer": "The night elf Arko'narin Starshade and the paladin Trey Lightforge were captured while scouting the Shadow Council. Trey was tortured to death by the cultist Rakaiah, while Arko'narin was rescued from her cage by adventurers, who later recovered Trey's remains for a proper burial."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The deepest recesses of Shadow Hold house rare demonic reagents like Xorothian Stardust, obtainable only by winning the favor of Lord Banehollow through cunning infiltration."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The hold is a horrifying sight for night elves\u2014an ancestral barrow den defiled with fel sludge, imprisonment cages, and demonic rituals."
+  }
+ ],
+ "keywords": [
+  "arko'narin",
+  "banehollow",
+  "barrow den",
+  "fel'dan",
+  "felwood",
+  "jaedenar",
+  "shadow council",
+  "shadow hold",
+  "trey lightforge"
+ ],
+ "related": [
+  "subzone:jaedenar",
+  "zone:felwood",
+  "topic:shadow-council",
+  "npc:greta-mosshoof",
+  "npc:islen-waterseer",
+  "topic:satyr",
+  "topic:night-elf",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Shadow Hold"
+ ]
+}

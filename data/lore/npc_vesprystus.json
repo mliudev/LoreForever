@@ -1,0 +1,80 @@
+{
+ "key": "npc:vesprystus",
+ "type": "npc",
+ "name": "Vesprystus",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Vesprystus",
+  "refs": 2
+ },
+ "summary": "Vesprystus is the night elf flight master stationed at the docks of Rut'theran Village at the base of Teldrassil. He oversees the roost of trained hippogryphs that carry travelers between the great World Tree and mainland Kalimdor.",
+ "sections": [
+  {
+   "title": "Keeper of the Rut'theran Roost",
+   "body": "Perched at the southern base of Teldrassil in Rut'theran Village, Vesprystus tends the hippogryphs that bridge the isolated elven boughs to the rest of the world. While a magical portal connects Rut'theran directly to the canopy city of Darnassus above, crossing the sea toward Darkshore and the mainland requires wings. Vesprystus works in coordination with the flight master at Auberdine across the straight, ensuring safe passage for sentinels, emissaries, and adventurers journeying into Kalimdor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Vesprystus fly travelers?",
+   "aliases": [
+    "where can he take me",
+    "vesprystus flight paths",
+    "rut'theran flight route"
+   ],
+   "answer": "Vesprystus connects Rut'theran Village directly across the water to the port of Auberdine on the coast of Darkshore. From Auberdine, travelers can catch connecting hippogryph routes south toward Ashenvale and other night elf enclaves across Kalimdor."
+  },
+  {
+   "q": "What creatures does Vesprystus tend?",
+   "aliases": [
+    "what mounts does he have",
+    "vesprystus animals",
+    "what does he fly"
+   ],
+   "answer": "He manages a roost of loyal night elf hippogryphs, ancient winged beasts native to northern Kalimdor. Night elves have raised and bonded with hippogryphs for generations to navigate forest canopies and rugged coastlines."
+  },
+  {
+   "q": "How do you reach Darnassus from where Vesprystus stands?",
+   "aliases": [
+    "how to get to darnassus from vesprystus",
+    "vesprystus to darnassus",
+    "path to darnassus"
+   ],
+   "answer": "You do not need a flight to reach Darnassus from Rut'theran Village. A shimmering pink-tinted portal stands just up the path from Vesprystus's roost, instantly transporting travelers up to the city canopy."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young night elf adventurers leaving Teldrassil for the first time, Vesprystus is often the handler who sends them soaring toward their very first glimpse of mainland Kalimdor."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Vesprystus forms a vital transit link for any Alliance traveler arriving at Teldrassil's docks and needing swift transport to coastal Darkshore."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "flight master",
+  "hippogryph master",
+  "rut'theran village",
+  "teldrassil",
+  "vesprystus"
+ ],
+ "related": [
+  "subzone:rut-theran-village",
+  "quest:6342",
+  "quest:6341",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "zone:darnassus",
+  "quest:940",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Vesprystus"
+ ]
+}

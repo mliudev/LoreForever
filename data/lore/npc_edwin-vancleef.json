@@ -1,0 +1,122 @@
+{
+ "key": "npc:edwin-vancleef",
+ "type": "npc",
+ "name": "Edwin VanCleef",
+ "era": "classic",
+ "zone": "deadmines",
+ "meta": {
+  "wiki": "Edwin VanCleef",
+  "refs": 7
+ },
+ "summary": "Edwin VanCleef was the brilliant Guildmaster of the Stonemasons who rebuilt Stormwind City after the Second War. After being cheated of payment by the House of Nobles, he led a violent workers' revolt and formed the outlaw Defias Brotherhood. Operating from deep within the Deadmines of Westfall, he seeks vengeance against the kingdom he helped restore.",
+ "sections": [
+  {
+   "title": "Architect of the Kingdom",
+   "body": "Following the devastation of the First War, Edwin VanCleef was chosen to lead the Stonemasons Guild in the monumental task of rebuilding Stormwind City. A peerless craftsman and an idealist, VanCleef directed the construction of the capital's grand ramparts and towering cathedrals, and even oversaw the erection of Nethergarde Keep to watch over the Dark Portal. Alongside his mastery of architecture, VanCleef was a remarkably deadly operative; he was trained in stealth, subterfuge, and bladecraft by his childhood friend, Mathias Shaw.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Riot and the Brotherhood",
+   "body": "When the years of labor concluded, the House of Nobles ran up colossal debts through military campaigns and refused to provide the Stonemasons their promised compensation. Enraged, VanCleef demanded restitution, only for the nobles to officially dissolve the guild. The artisans revolted, triggering chaotic street riots in Stormwind during which King Varian Wrynn's wife, Queen Tiffin, was slain. Driven out of the capital by the crown's retribution, VanCleef gathered his exiled workers and allied outcasts in Westfall, uniting them beneath the banner of the Defias Brotherhood.",
+   "spoiler": 0
+  },
+  {
+   "title": "Retribution from the Shadows",
+   "body": "Taking advantage of the crown's neglect of the countryside, the Defias drove off Westfall's farmers and claimed its rich gold deposits. Within the depths of Moonbrook's Deadmines, VanCleef oversaw the construction of a massive juggernaut warship, preparing an armed assault against Stormwind itself. While the House of Nobles dismissed the thieves as disorganized brigands, VanCleef forged alliances with river crooks, gnolls, and the Bloodsail Buccaneers, turning an embittered labor union into an army poised to crush the monarchy.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Edwin VanCleef?",
+   "aliases": [
+    "who is vancleef",
+    "edwin vancleef lore",
+    "vancleef identity"
+   ],
+   "answer": "He is the mastermind behind the Defias Brotherhood and the former Guildmaster of the Stonemasons. He is the master architect who rebuilt Stormwind City after the Horde destroyed it during the First War."
+  },
+  {
+   "q": "Why did the Stonemasons revolt against Stormwind?",
+   "aliases": [
+    "why did defias rebel",
+    "why did stonemasons riot",
+    "reason for defias riot"
+   ],
+   "answer": "After the rebuilding of Stormwind City, the House of Nobles refused to pay the Stonemasons Guild their agreed wages due to excessive kingdom debt. When VanCleef and the workers protested, the nobles disbanded the guild, igniting violent riots in the streets."
+  },
+  {
+   "q": "Where is Edwin VanCleef hiding?",
+   "aliases": [
+    "where is vancleef",
+    "vancleef location",
+    "deadmines boss location"
+   ],
+   "answer": "He commands the Defias Brotherhood from the innermost sanctum of the Deadmines in Westfall, stationed aboard a massive warship hidden in an underground iron cove beneath Moonbrook."
+  },
+  {
+   "q": "What is his connection to Mathias Shaw?",
+   "aliases": [
+    "vancleef and shaw",
+    "is vancleef related to shaw",
+    "mathias shaw friend"
+   ],
+   "answer": "Mathias Shaw was a childhood friend of Edwin. Shaw personally trained VanCleef in the arts of stealth, thievery, and combat, originally hoping VanCleef would join him in the royal intelligence agency SI:7."
+  },
+  {
+   "q": "What happened to Queen Tiffin during the riot?",
+   "aliases": [
+    "how did tiffin die",
+    "who killed tiffin wrynn",
+    "queen tiffin death"
+   ],
+   "answer": "During the chaotic street riots stirred by the unpaid Stonemasons, a hurled stone struck and killed King Varian's young wife, Queen Tiffin Wrynn. Her death drove King Varian into a furious crackdown, forcing VanCleef and his men to flee the city."
+  },
+  {
+   "q": "What is he building in the Deadmines?",
+   "aliases": [
+    "deadmines ship",
+    "what is inside deadmines",
+    "vancleef warship"
+   ],
+   "answer": "VanCleef is constructing a massive iron-plated juggernaut warship inside the flooded subterranean docks of the Deadmines, using stolen Westfall gold and foundry machinery to prepare an armed naval strike against Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, VanCleef embodies the tragedy of the kingdom's postwar recovery: a loyal hero whose denied livelihood turned him into the realm's deadliest insurgent."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "VanCleef was trained by SI:7 leader Mathias Shaw himself, making him one of the most capable rogues in Azeroth, blending formal guild leadership with elite assassination techniques."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance commanders consider VanCleef the premier internal security threat to southern human lands, paralyzing Westfall and the borders of Elwynn Forest."
+  }
+ ],
+ "keywords": [
+  "brotherhood",
+  "deadmines",
+  "defias",
+  "moonbrook",
+  "stonemasons",
+  "stormwind",
+  "vancleef",
+  "westfall"
+ ],
+ "related": [
+  "topic:defias-brotherhood",
+  "topic:stonemasons-guild",
+  "zone:deadmines",
+  "zone:westfall",
+  "npc:mathias-shaw",
+  "npc:baros-alexston",
+  "npc:gryan-stoutmantle",
+  "quest:373"
+ ],
+ "attribution": [
+  "Edwin VanCleef"
+ ]
+}

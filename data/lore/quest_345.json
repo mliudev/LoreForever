@@ -1,0 +1,123 @@
+{
+ "key": "quest:345",
+ "type": "quest",
+ "name": "Ink Supplies",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   345
+  ],
+  "level": "24",
+  "faction": "Alliance",
+  "start": "Brother Paxton",
+  "end": "Foreman Oslow",
+  "previous": "Brother Paxton (quest)",
+  "next": "Rethban Ore (quest)",
+  "wiki": "Ink Supplies",
+  "chain": []
+ },
+ "summary": "Ink Supplies is an Alliance errand on behalf of Brother Paxton, a monastic scribe residing in Northshire Abbey. Needing a specialized mineral component to brew his fast-drying ink, Paxton sends an adventurer east into the embattled township of Lakeshire to secure Rethban ore from Foreman Oslow.",
+ "sections": [
+  {
+   "title": "A Scribe's Formula",
+   "body": "Brother Paxton takes immense pride in his literary craft, refusing to rely on standard inks for vital transcriptions like The Stresses of Iron. Instead, he brews a custom recipe noted for its resistance to smearing and its rapid drying time. The formula's chief flaw is that it dries out even in the pot if left unattended too long. Replenishing his stock requires raw Rethban iron ore, a distinctive mineral mined in the rocky reaches of the Redridge Mountains.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Town Under Siege",
+   "body": "When travelers arrive in Lakeshire carrying Paxton's humble requisition, they find the settlement in no condition to indulge a distant monk. Foreman Oslow oversees the strained town laborers, who are wholly occupied with shoring up barricades, rebuilding ruined structures, and bracing against ongoing raids from the Blackrock orcs. Oslow has neither the men nor the patience to dig ore for Stormwind's scribes, leaving outsiders to brave the perilous Rethban Caverns on their own.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Brother Paxton need iron ore for ink?",
+   "aliases": [
+    "why iron for ink",
+    "paxton ore ink",
+    "brother paxton ink recipe"
+   ],
+   "answer": "Brother Paxton utilizes a proprietary recipe designed to produce permanent, smear-proof script that dries almost immediately. Ground Rethban iron ore provides the crucial mineral pigment and setting qualities necessary for his distinct ink."
+  },
+  {
+   "q": "Who is Foreman Oslow?",
+   "aliases": [
+    "foreman oslow",
+    "oslow lakeshire",
+    "who is oslow"
+   ],
+   "answer": "Foreman Oslow is the head overseer in charge of civic construction and repairs in Lakeshire. With the town under constant pressure from Blackrock orcs, he directs the fortification and rebuilding efforts along the lake."
+  },
+  {
+   "q": "Where does Brother Paxton send you?",
+   "aliases": [
+    "ink supplies destination",
+    "where is oslow",
+    "where do i go for ink supplies"
+   ],
+   "answer": "Paxton sends you east from Elwynn Forest to Lakeshire, the central township of the Redridge Mountains, to track down Foreman Oslow."
+  },
+  {
+   "q": "Why won't Foreman Oslow just give you the ore?",
+   "aliases": [
+    "why no ore",
+    "oslow refuses ore",
+    "why oslow mad"
+   ],
+   "answer": "Lakeshire is facing relentless attacks from Blackrock clan orcs. Oslow's crew is completely committed to repairing damaged buildings and fortifying the town's perimeter, leaving no hands to spare for mining errands."
+  },
+  {
+   "q": "What book is Brother Paxton attempting to copy?",
+   "aliases": [
+    "paxton book",
+    "what is paxton copying",
+    "the stresses of iron"
+   ],
+   "answer": "He is in the middle of transcribing a volume titled The Stresses of Iron, a task brought to a halt when his previous batch of quick-drying ink solidified in its container."
+  },
+  {
+   "q": "What happens after speaking with Foreman Oslow?",
+   "aliases": [
+    "next quest after ink supplies",
+    "what next after oslow",
+    "follow up ink supplies"
+   ],
+   "answer": "Oslow tells you that if you want Rethban iron ore, you will have to harvest it yourself from the dangerous Rethban Caverns north of Lake Everstill."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "Brother Paxton's quest chain is part of the early trials tied to the virtues of Fortitude, guiding acolytes of the Holy Light to aid the clergy's scholarly duties."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The quest highlights Rethban iron ore, a localized mineral deposit nestled high in the crags of Redridge."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The journey shows the stark contrast between the tranquil seclusion of Northshire Abbey and the violent frontier crisis consuming Lakeshire."
+  }
+ ],
+ "keywords": [
+  "brother paxton",
+  "foreman oslow",
+  "ink supplies",
+  "lakeshire",
+  "northshire abbey",
+  "redridge mountains",
+  "rethban ore",
+  "the stresses of iron"
+ ],
+ "related": [
+  "npc:foreman-oslow",
+  "quest:344",
+  "quest:343",
+  "subzone:lakeshire",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Ink Supplies"
+ ]
+}

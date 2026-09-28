@@ -1,0 +1,88 @@
+{
+ "key": "subzone:dragonmaw-gates",
+ "type": "subzone",
+ "name": "Dragonmaw Gates",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Dragonmaw Gates"
+ },
+ "summary": "The Dragonmaw Gates are a series of imposing fortifications along the mountain road leading up from the eastern Wetlands. Built to guard the steep ascent to the mountain fortress of Grim Batol, these heavy barricades bar entry into the cursed heights of the dwarven ruins.",
+ "sections": [
+  {
+   "title": "Sentinels of Grim Batol",
+   "body": "Carved into the rugged peaks bordering the eastern Wetlands, the Dragonmaw Gates seal the winding road that climbs into the mountains toward Grim Batol. Named after the Dragonmaw clan of orcs who held the dwarven mountain city during the Second War, these defensive barriers remain deeply fortified checkpoints. Anyone attempting to ascend toward the heights must contend with the lingering perils of the pass, where powerful drakes and grim reminders of the clan's dark history still cast a long shadow.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Contested Threshold",
+   "body": "Though the Dragonmaw orcs were broken and scattered following the destruction of the Demon Soul, the mountain path remains exceptionally dangerous. Powerful red dragons have been seen watching over the winding slopes and perches around the gates. Between monstrous drakes and remnants of the Dragonmaw clan lurking in the nearby hills, the gates stand as a firm barrier against any travelers bold enough to venture up the heights.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do the Dragonmaw Gates lead?",
+   "aliases": [
+    "path past dragonmaw gates",
+    "what is behind dragonmaw gates",
+    "road past gates"
+   ],
+   "answer": "The gates seal the winding mountain path ascending east from the Wetlands directly into the cursed fortress-city of Grim Batol and the surrounding mountain heights."
+  },
+  {
+   "q": "Why are they called the Dragonmaw Gates?",
+   "aliases": [
+    "why called dragonmaw gates",
+    "dragonmaw gate name",
+    "dragonmaw orcs wetlands"
+   ],
+   "answer": "They take their name from the Dragonmaw clan of orcs, who occupied the nearby dwarven stronghold of Grim Batol during the Second War and used foul sorcery to enslave red dragons."
+  },
+  {
+   "q": "Can travelers pass through the gates?",
+   "aliases": [
+    "can you open dragonmaw gates",
+    "getting through dragonmaw gates"
+   ],
+   "answer": "The massive gates are firmly shut and heavily defended, barring any normal passage into the high mountains."
+  },
+  {
+   "q": "Who guards the road around the gates?",
+   "aliases": [
+    "who is at dragonmaw gates",
+    "dragons at dragonmaw gates",
+    "axtroz dragonmaw gates"
+   ],
+   "answer": "The road and the rugged passes nearby are haunted by fierce red dragonspawn and drakes, along with scattered orcs and dark threats still clinging to the slopes of the mountains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, the gates represent the sealed threshold to Grim Batol\u2014an ancestral home abandoned after the War of the Three Hammers and later desecrated by the Dragonmaw orcs."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance keeps a wary eye on the gates, knowing that anything emerging from the high road threatens the stability of the entire Wetlands."
+  }
+ ],
+ "keywords": [
+  "axtroz",
+  "dragonmaw clan",
+  "dragonmaw gates",
+  "grim batol",
+  "mountain pass",
+  "red dragonflight",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:grim-batol",
+  "zone:wetlands",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Dragonmaw Gates"
+ ]
+}

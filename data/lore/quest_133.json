@@ -1,0 +1,122 @@
+{
+ "key": "quest:133",
+ "type": "quest",
+ "name": "Ghoulish Effigy",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   133
+  ],
+  "level": "27",
+  "faction": "Alliance",
+  "start": "Abercrombie",
+  "end": "",
+  "previous": "Juice Delivery (Classic)",
+  "next": "Ogre Thieves (Classic)",
+  "wiki": "Ghoulish Effigy (Classic)",
+  "chain": []
+ },
+ "summary": "Deep in the gloomy wilderness of Duskwood, the eccentric hermit Abercrombie claims his isolated shack is under siege by the walking dead. To protect his home, he tasks passing adventurers with harvesting ghoul ribs to assemble a bizarre protective scarecrow.",
+ "sections": [
+  {
+   "title": "A Hermit's Plight",
+   "body": "Abercrombie lives far beyond the guarded boundaries of Darkshire, isolated amidst the shadowed trees of Duskwood. Out here, wandering ghouls like Flesh Eaters and Bone Chewers roam unchecked. Claiming that ravenous corpses recently battered down his walls, the panicked hermit requests the ribs of these horrors to fashion a deterrent, hoping a grisly effigy will keep the hungry dead at bay.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bizarre Defense",
+   "body": "While common sense might suggest running toward the safety of the Night Watch or fortifying his wooden shack, Abercrombie insists on macabre methods. He believes erecting an effigy made from ghoul remains will frighten off other scavenging dead. Though building a scarecrow out of slaughtered undead seems unsettling, travelers in Duskwood often take the eccentric hermit at his word to earn some needed coin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Abercrombie live?",
+   "aliases": [
+    "abercrombie location",
+    "where is abercrombies shack",
+    "hermit shack duskwood"
+   ],
+   "answer": "Abercrombie resides in a solitary shack in northern Duskwood, perched on a hill west of Beggar's Haunt and northeast of Darkshire."
+  },
+  {
+   "q": "Why does Abercrombie need ghoul ribs?",
+   "aliases": [
+    "ghoul ribs purpose",
+    "why ghoul ribs",
+    "what is the effigy for"
+   ],
+   "answer": "Abercrombie claims packs of ghouls are pounding on his shack's walls. He intends to use the bones to craft a gruesome scarecrow effigy to frighten away scavenging undead."
+  },
+  {
+   "q": "Which creatures drop the Ghoul Ribs?",
+   "aliases": [
+    "where to get ribs",
+    "ghoul rib drops",
+    "which ghouls drop ribs"
+   ],
+   "answer": "The ribs can be gathered from any of the local undead wandering Duskwood's roads and cemeteries, specifically Flesh Eaters, Bone Chewers, Brain Eaters, Rotted Ones, and Plague Spreaders."
+  },
+  {
+   "q": "Does building an undead scarecrow actually repel ghouls?",
+   "aliases": [
+    "do effigies work on ghouls",
+    "ghoul scarecrow logic"
+   ],
+   "answer": "Undead rarely show fear, making Abercrombie's plan dubious to seasoned monster hunters. Still, the hermit insists on his strange project, and few question a paying employer in such desperate woods."
+  },
+  {
+   "q": "Why doesn't Abercrombie simply relocate to Darkshire?",
+   "aliases": [
+    "why live in woods",
+    "why doesn't abercrombie move",
+    "darkshire safety"
+   ],
+   "answer": "Abercrombie chooses to live in isolation away from the Night Watch and town governance. Despite the obvious perils of Duskwood's wilderness, he prefers managing his shack alone with his own peculiar defenses."
+  },
+  {
+   "q": "What comes next after gathering the ribs?",
+   "aliases": [
+    "next quest",
+    "what after ghoulish effigy"
+   ],
+   "answer": "After receiving the ghoul ribs, Abercrombie finds yet another bizarre dilemma to resolve, sending adventurers further into the wild to deal with local ogres who stole his belongings."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Night Watch struggles to protect the roads, leaving isolated forest dwellers like Abercrombie to rely on passing Alliance travelers for protection against the rotting Scourge remnant."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Hunting down Flesh Eaters and Bone Chewers cleanses the blight from Duskwood's soil, even if handing their remains to a hermit feels distinctly unsettling."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Lending aid to a frightened hermit stranded among dark spirits is noble work, though assembling effigies from harvested remains tests one's stomach."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "bone chewers",
+  "darkshire",
+  "duskwood",
+  "effigy",
+  "flesh eaters",
+  "ghoul rib",
+  "hermit"
+ ],
+ "related": [
+  "npc:abercrombie",
+  "zone:duskwood",
+  "subzone:beggar-s-haunt",
+  "subzone:manor-mistmantle",
+  "subzone:darkshire",
+  "quest:938"
+ ],
+ "attribution": [
+  "Ghoulish Effigy (Classic)"
+ ]
+}

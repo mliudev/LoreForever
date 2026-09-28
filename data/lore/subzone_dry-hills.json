@@ -1,0 +1,91 @@
+{
+ "key": "subzone:dry-hills",
+ "type": "subzone",
+ "name": "Dry Hills",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Dry Hills"
+ },
+ "summary": "The Dry Hills form the rugged northwestern corner of the Barrens, nestled against the foothills of the Stonetalon Mountains. Contrary to their name, these uplands are noticeably greener than the arid plains below, though they are notoriously dangerous due to the aggressive Witchwing harpies roosting along their crags.",
+ "sections": [
+  {
+   "title": "A Green Haven for Harpies",
+   "body": "Tucked away where the arid plains rise toward the Stonetalon Mountains, the Dry Hills are somewhat of a misnomer, possessing far more verdant brush and shrubbery than the sun-bleached savannas to the south. Yet this lush foothill region offers little safety for travelers. The bluffs are dominated by the Witchwing harpies, led by the matriarch Serena Bloodfeather. From these heights, their raiding parties sweep down to prey on supply caravans using the northern stretch of the Gold Road, leaving abandoned orcish fortifications and derelict siege engines rotting in the brush.",
+   "spoiler": 0
+  },
+  {
+   "title": "Threat to the Crossroads",
+   "body": "Because the Witchwing harpies routinely strike out of the hills to bleed trade routes and harass nearby settlements, the Horde maintains a standing bounty on their feathers. Adventurers venturing deep into the rocky ravines will encounter not only heavily defended harpy nests and roosts, but also prowling Hecklefang hyenas and fierce Sunscale raptors that hunt throughout the highlands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is it called the Dry Hills if it's so green?",
+   "aliases": [
+    "why called dry hills",
+    "dry hills green",
+    "dry hills terrain"
+   ],
+   "answer": "Despite the moniker, the hills receive runoff and cooler air from the adjacent Stonetalon range, making them significantly greener than the arid plains stretching across the rest of the Barrens."
+  },
+  {
+   "q": "Who lives in the Dry Hills?",
+   "aliases": [
+    "who is in dry hills",
+    "dry hills inhabitants",
+    "harpies dry hills"
+   ],
+   "answer": "The hills are controlled almost entirely by the Witchwing tribe of harpies, ruled by Serena Bloodfeather. Wild beasts like Hecklefang hyenas and Sunscale raptors also roam the rocky slopes."
+  },
+  {
+   "q": "Why is the Horde interested in this area?",
+   "aliases": [
+    "horde dry hills",
+    "why fight harpies here",
+    "dry hills quests"
+   ],
+   "answer": "Witchwing raiders frequently descend from the hills to plunder supply caravans traveling along the northern Gold Road, prompting Horde commanders to issue bounties to cull their numbers and eliminate their leaders."
+  },
+  {
+   "q": "What are the ruined towers and catapults in the middle of the hills?",
+   "aliases": [
+    "orc tower dry hills",
+    "abandoned catapults dry hills",
+    "orc ruins dry hills"
+   ],
+   "answer": "They are remnants of an abandoned orcish outpost, likely established to watch the mountain passes or secure the northern routes before being overwhelmed or abandoned to the roosting harpies."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Witchwing harpies nesting in the Dry Hills pose a constant danger to the northern trade arteries linking the Crossroads to Stonetalon and Ashenvale, demanding regular culling from Horde champions."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The rugged uplands offer rich hunting grounds filled with swift Hecklefang hyenas, predatory Sunscale scytheclaws, and fierce harpies."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "dry hills",
+  "gold road",
+  "harpies",
+  "serena bloodfeather",
+  "stonetalon",
+  "witchwing"
+ ],
+ "related": [
+  "zone:barrens",
+  "topic:harpy",
+  "quest:867",
+  "quest:876",
+  "zone:stonetalon",
+  "subzone:gold-road"
+ ],
+ "attribution": [
+  "Dry Hills"
+ ]
+}

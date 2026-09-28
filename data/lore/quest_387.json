@@ -1,0 +1,120 @@
+{
+ "key": "quest:387",
+ "type": "quest",
+ "name": "Quell The Uprising",
+ "era": "classic",
+ "zone": "stockade",
+ "meta": {
+  "ids": [
+   387
+  ],
+  "level": "26",
+  "faction": "Alliance",
+  "start": "Warden Thelwater",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Quell The Uprising",
+  "chain": []
+ },
+ "summary": "Deep beneath the cobblestones of Stormwind, the high-security Stockade has fallen into total chaos. Following a coordinated breakout led by incarcerated members of the Defias Brotherhood, Warden Thelwater is urgently commissioning adventurers to cut down the rioting inmates and restore order before the capital learns how compromised the facility truly is.",
+ "sections": [
+  {
+   "title": "A Prison Lost to Its Inmates",
+   "body": "The Stockade was built to contain the most dangerous criminals, conspirators, and outlaws threatening the Kingdom of Stormwind. However, a sudden, violent uprising orchestrated by imprisoned Defias operatives has wrested control of the cell blocks directly from the guards. With the prison thoroughly overrun and corridors choked with armed felons, normal protocol has collapsed entirely. Rather than mounting a structured retaking, prison authorities are relying on visiting champions to fight their way through the riots.",
+   "spoiler": 0
+  },
+  {
+   "title": "Desperation and Cover-Up",
+   "body": "Warden Thelwater's command to execute Defias prisoners on sight reflects both sheer desperation and an effort of self-preservation. Suspecting foul play behind the coordinated mutiny, the warden fears that if the broader nobility or the House of Nobles discovers the facility is out of hand, his post will be forfeit. By decreeing death as the immediate penalty for insurgency, Thelwater hopes brute force will break the inmates' spirits and quell the rebellion before word leaks past the canal gates.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Warden Thelwater asking adventurers to put down the riot?",
+   "aliases": [
+    "why hire adventurers",
+    "thelwater motivation",
+    "why the stockade quest"
+   ],
+   "answer": "The Stockade guards have lost control of the interior cells to the rioting Defias inmates. Warden Thelwater fears losing his position if the full scale of the disaster reaches the ears of Stormwind's leadership, so he recruits capable mercenaries to eliminate the ringleaders and re-establish control swiftly."
+  },
+  {
+   "q": "Who are the inmates rioting in the Stockade?",
+   "aliases": [
+    "who is rioting",
+    "defias prisoners stockade",
+    "who broke out"
+   ],
+   "answer": "The core of the uprising consists of captured Defias Brotherhood members\u2014including common prisoners, hardened convicts, and coordinated insurgents\u2014who were locked away as the brotherhood waged its clandestine war across Westfall and Elwynn Forest."
+  },
+  {
+   "q": "Does Thelwater believe the riot was an inside job?",
+   "aliases": [
+    "was it treason",
+    "foul play stockade",
+    "inside job prison"
+   ],
+   "answer": "Yes. Warden Thelwater openly suspects foul play, believing that a revolt this sudden and absolute could not have occurred purely by chance without outside interference or compromised security within the city."
+  },
+  {
+   "q": "Where does this uprising take place?",
+   "aliases": [
+    "where is the stockade",
+    "stockade entrance",
+    "prison location"
+   ],
+   "answer": "The uprising is contained\u2014barely\u2014inside The Stockade, a subterranean maximum-security dungeon located along the canals in the Mage Quarter of Stormwind City."
+  },
+  {
+   "q": "What happens after these Defias rioters are killed?",
+   "aliases": [
+    "does the prison get safe",
+    "after quell the uprising"
+   ],
+   "answer": "While clearing out the insurgents dents the mutineers' ranks, Warden Thelwater admits upon your return that the crisis runs much deeper than a simple scuffle, requiring further strikes against high-profile leaders deeper within the cells."
+  },
+  {
+   "q": "Is lethal force authorized against all escaped convicts?",
+   "aliases": [
+    "why kill them",
+    "punishment for insurgency",
+    "is killing prisoners legal"
+   ],
+   "answer": "Warden Thelwater declares that the legal penalty for active insurgency during the takeover is immediate death, ordering champions to execute prisoners, convicts, and insurgents on the spot to force the surviving inmates into submission."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The rebellion inside the Stockade sits directly beneath Stormwind's streets, representing a catastrophic security lapse at the very heart of the Alliance's primary kingdom."
+  },
+  {
+   "target": "race:Human",
+   "text": "Many of the Defias inmates fighting in the cells are former kingdom stonemasons and common folk driven to rebellion, making the bloody riot a painful civil conflict for the people of Stormwind."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Restoring order in the bowels of the city tests the line between righteous justice and desperate, lethal retribution against rebellious citizens."
+  }
+ ],
+ "keywords": [
+  "convicts",
+  "defias",
+  "insurgents",
+  "quell the uprising",
+  "stockade",
+  "stormwind",
+  "uprising",
+  "warden thelwater"
+ ],
+ "related": [
+  "zone:stockade",
+  "npc:warden-thelwater",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Quell The Uprising"
+ ]
+}

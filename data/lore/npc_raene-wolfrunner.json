@@ -1,0 +1,124 @@
+{
+ "key": "npc:raene-wolfrunner",
+ "type": "npc",
+ "name": "Raene Wolfrunner",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Raene Wolfrunner",
+  "refs": 13
+ },
+ "summary": "Raene Wolfrunner is an accomplished Sentinel officer and hunter stationed at the heart of Astranaar in Ashenvale. Accompanied by her loyal wolf and saber cat companions, she coordinates defense efforts across the forest against encroaching Horde forces and corrupted furbolg tribes. She serves as a vital anchor for Alliance champions striving to protect the sacred wilderness.",
+ "sections": [
+  {
+   "title": "Defender of Astranaar",
+   "body": "Raene Wolfrunner stands watchful in Astranaar alongside her trusty saber cat Korra and wolf Dagri. As an officer among the Sentinels, she oversees patrols throughout Ashenvale and coordinates intelligence reaching beyond its borders, dispatching scouts like Kaela Shadowspear into neighboring regions such as the Stonetalon Mountains. Raene's devotion to the ancient woods is absolute; she has declared she would sooner face the Horde's lumbering forces alone than watch them hack and burn through the sacred timber unhindered.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stemming the Forest's Corruption",
+   "body": "Beyond the tensions with the Horde, Raene is deeply invested in addressing the dark taint sickening Ashenvale's native denizens. She directs campaigns against hostile furbolg tribes, including aggressive strikes against the Foulweald camps harassing travelers and targeted culls against rising Thistlefur leadership. Her subordinate scouts keep close watch over changing furbolg behavior, relying on Raene's steady command to protect local settlements and passing wayfarers from coordinated ambushes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dartol's Rod",
+   "body": "Raene's most personal crusade involves Dartol's Rod, an ancient relic tied to furbolg purification. Her longtime friend Teronis was slain while searching for the rod's missing gemstone, prompting Raene to order his body recovered and pledge to see his research fulfilled. Working in tandem with the dryad Shael'dryn, she helps champions assemble the relic, ultimately enabling an adventurer to assume furbolg guise, confer with chieftain Krolg, and defeat the tainted leader Ran Bloodtooth to purge the regional threat.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Raene Wolfrunner be found?",
+   "aliases": [
+    "raene wolfrunner location",
+    "where is raene",
+    "raene astranaar spot"
+   ],
+   "answer": "Raene is stationed in Astranaar, the central night elf town of Ashenvale. She stands ready outdoors, flanked by her two animal companions."
+  },
+  {
+   "q": "Who are the animals standing next to Raene?",
+   "aliases": [
+    "raene wolfrunner pets",
+    "raene wolf and cat",
+    "raene companions"
+   ],
+   "answer": "They are her trained hunting companions: a saber cat named Korra and a wolf named Dagri, who remain by her side in Astranaar."
+  },
+  {
+   "q": "What is Raene's role within the Sentinels?",
+   "aliases": [
+    "raene rank",
+    "is raene an officer",
+    "raene sentinel role"
+   ],
+   "answer": "She acts as a ranking Sentinel officer in central Ashenvale, issuing orders to scouts, managing outposts, and coordinating tactical operations against local threats."
+  },
+  {
+   "q": "What happened to Raene's friend Teronis?",
+   "aliases": [
+    "who is teronis",
+    "raene friend teronis",
+    "teronis death"
+   ],
+   "answer": "Teronis was aiding the Sentinels by seeking a gemstone needed for Dartol's Rod. He was slain in the field, leading Raene to recover his remains and complete his mission."
+  },
+  {
+   "q": "Why is Raene focusing so heavily on the furbolgs?",
+   "aliases": [
+    "raene furbolg quest",
+    "why fight thistlefur",
+    "foulweald ashenvale problem"
+   ],
+   "answer": "Corrupted tribes like the Foulweald and Thistlefur have grown increasingly aggressive, ambushing travelers on forest roads and threatening the stability of Astranaar."
+  },
+  {
+   "q": "What is the purpose of Dartol's Rod in her questline?",
+   "aliases": [
+    "dartols rod purpose",
+    "what does dartols rod do",
+    "raenes cleansing rod"
+   ],
+   "answer": "The reconstructed rod allows an adventurer to temporarily adopt the form of a furbolg, opening communication with Krolg to target and vanquish the corrupt chieftain Ran Bloodtooth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers arriving from Darkshore, Raene is the principal officer coordinating the military and ecological defense of Ashenvale."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Raene embodies the Sentinel dedication to Elune and Kalimdor's wilderness, refusing to allow the woodland sanctuaries of Ashenvale to be despoiled."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "As a seasoned hunter who commands both a wolf and a saber cat, Raene represents the wilderness mastery and kinship with beasts prized by her class."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "dagri",
+  "dartol",
+  "korra",
+  "raene",
+  "sentinels",
+  "teronis",
+  "thistlefur",
+  "wolfrunner"
+ ],
+ "related": [
+  "subzone:astranaar",
+  "quest:991",
+  "zone:ashenvale",
+  "npc:shael-dryn",
+  "npc:krolg",
+  "npc:kaela-shadowspear",
+  "quest:1025",
+  "quest:1054"
+ ],
+ "attribution": [
+  "Raene Wolfrunner"
+ ]
+}

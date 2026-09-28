@@ -1,0 +1,118 @@
+{
+ "key": "quest:1498",
+ "type": "quest",
+ "name": "Path of Defense",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1498
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Uzzek",
+  "end": "",
+  "previous": "Veteran Uzzek",
+  "next": "Thun'grim Firegaze (quest)",
+  "wiki": "Path of Defense",
+  "chain": []
+ },
+ "summary": "Path of Defense is a rite of passage for young Horde warriors, assigned by the veteran fighter Uzzek at the Far Watch Post. Initiates are tasked with hunting the electric beasts of Thunder Ridge to prove they possess the resilience necessary to serve as the shield of the Horde.",
+ "sections": [
+  {
+   "title": "The Shield of the Horde",
+   "body": "Warfare in the Horde is not solely about charging headlong into battle with wild fury. At the Far Watch Post, nestled along the border between the Barrens and Durotar, the veteran warrior Uzzek instructs fledgling warriors on the sobering duty of defense. To Uzzek, a warrior's highest calling is to stand between danger and those unable to defend themselves, absorbing punishing blows so that the Horde endures.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trial of Thunder",
+   "body": "To prove they possess the stamina and resolve required for disciplined defense, Uzzek dispatches novices into Thunder Ridge. Situated north across the Southfury River in Durotar, the canyon roils with thunder lizards and lightning hides. Surviving the concussive jolts of these beasts and harvesting their singed scales demonstrates that an initiate has the fortitude to hold the front line.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the Path of Defense quest?",
+   "aliases": [
+    "quest giver",
+    "who starts path of defense",
+    "uzzek location"
+   ],
+   "answer": "The quest is given by Veteran Uzzek, an experienced warrior stationed at the Far Watch Post, which guards the border where Durotar meets the eastern edge of the Barrens."
+  },
+  {
+   "q": "Where is Thunder Ridge located?",
+   "aliases": [
+    "thunder ridge location",
+    "where are thunder lizards",
+    "singed scales location"
+   ],
+   "answer": "Thunder Ridge is located across the bridge over the Southfury River into western Durotar, situated north of the main road. The ravine is populated by aggressive thunder lizards and lightning hides."
+  },
+  {
+   "q": "Why does Uzzek demand singed scales specifically?",
+   "aliases": [
+    "why singed scales",
+    "purpose of scales"
+   ],
+   "answer": "Singed scales can only be obtained by hunting the shock-wielding beasts of Thunder Ridge. Enduring their electrical assaults proves that a warrior has the physical toughness and resilience needed to learn advanced defensive techniques."
+  },
+  {
+   "q": "What is the philosophical lesson behind this trial?",
+   "aliases": [
+    "warrior philosophy",
+    "lore behind path of defense",
+    "defensive stance lore"
+   ],
+   "answer": "Uzzek teaches that being a warrior is not merely about slaughter, but about serving as an impenetrable bulwark. Surviving the fury of wild beasts teaches initiates how to pair tough skin with calculated movement to safeguard weaker allies."
+  },
+  {
+   "q": "What comes next after completing Path of Defense?",
+   "aliases": [
+    "next quest",
+    "what after path of defense",
+    "follow up"
+   ],
+   "answer": "After proving your defensive mettle to Uzzek, he directs you to continue your martial training by seeking out Thun'grim Firegaze."
+  },
+  {
+   "q": "Can non-warriors undertake this trial?",
+   "aliases": [
+    "is this warrior only",
+    "who can do this quest"
+   ],
+   "answer": "No. Path of Defense is exclusively a warrior rite of passage designed to test and instruct recruits in the fundamentals of guard duty and defensive combat."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This quest marks an initiate's transition into defensive discipline, teaching that true martial strength lies in shielding your allies from devastation."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Far Watch Post serves as a critical checkpoint defending the road into the Barrens, making the resilience of its guards vital to Horde security."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "durotar",
+  "far watch post",
+  "path of defense",
+  "singed scales",
+  "thunder lizards",
+  "thunder ridge",
+  "uzzek"
+ ],
+ "related": [
+  "npc:uzzek",
+  "subzone:far-watch-post",
+  "subzone:thunder-ridge",
+  "zone:barrens",
+  "zone:durotar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Path of Defense"
+ ]
+}

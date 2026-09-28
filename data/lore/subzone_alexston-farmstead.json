@@ -1,0 +1,87 @@
+{
+ "key": "subzone:alexston-farmstead",
+ "type": "subzone",
+ "name": "Alexston Farmstead",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Alexston Farmstead"
+ },
+ "summary": "The Alexston Farmstead is a derelict farm in Westfall, overgrown and prowled by haywire Harvest Watchers. Once the childhood home of Stormwind's city architect, Baros Alexston, it has fallen into ruin like much of the breadbasket around it.",
+ "sections": [
+  {
+   "title": "A Fallen Homestead",
+   "body": "Situated amidst the dry plains of Westfall, the Alexston Farmstead stands as another grim testament to the kingdom's neglect. Like neighboring estates, the farm was abandoned by its caretakers when banditry erupted across the countryside. Today, the fields are overgrown, and the mechanical Harvest Watchers left behind to tend the crops have spun out of control, violently attacking anyone who approaches the barren farmhouse.",
+   "spoiler": 0
+  },
+  {
+   "title": "Humble Roots",
+   "body": "Despite its bleak state, the farm is tied to one of Stormwind's most prominent citizens. Baros Alexston, the skilled architect who helped design parts of the rebuilt capital, spent his youth toiling on these very fields. He left the farmstead long before the unrest began to pursue his trade in masonry and construction, leaving behind a memento of his early life nestled among the ruins.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owns the Alexston Farmstead?",
+   "aliases": [
+    "who owns this farm",
+    "alexston owner",
+    "whose farm is this"
+   ],
+   "answer": "The farmstead takes its name from the family of Baros Alexston, the city architect of Stormwind. Baros worked the land here as a young boy before moving to the capital to pursue architecture."
+  },
+  {
+   "q": "Why is the farm abandoned?",
+   "aliases": [
+    "why abandoned",
+    "what happened to alexston farm",
+    "who ruined the farm"
+   ],
+   "answer": "Like much of Westfall, the farmstead was abandoned in the wake of widespread unrest and banditry by the Defias Brotherhood. With the kingdom unable to offer protection, the farmers fled, leaving the homestead to rot."
+  },
+  {
+   "q": "Why are mechanical scarecrows attacking people here?",
+   "aliases": [
+    "why harvest watchers attack",
+    "hostile scarecrows",
+    "harvest golems hostile"
+   ],
+   "answer": "The mechanical Harvest Watchers were originally built to work the soil and protect crops from scavengers. Left unmaintained after the farmers fled, their internal clockwork has malfunctioned, turning them violently hostile to any living creature."
+  },
+  {
+   "q": "Is there anything hidden inside the farmhouse?",
+   "aliases": [
+    "quest here",
+    "loot in farm",
+    "baros item"
+   ],
+   "answer": "Baros Alexston left behind a personal compass in the farmhouse from his youth. Travelers doing work in Stormwind City are sometimes asked to retrieve it from the abandoned homestead."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The farm is a reminder of the quiet, hardworking roots that built Stormwind's finest minds, as well as the Alliance's ongoing struggle to protect its own borders."
+  }
+ ],
+ "keywords": [
+  "alexston",
+  "architect",
+  "baros",
+  "compass",
+  "farmstead",
+  "harvest watcher",
+  "westfall"
+ ],
+ "related": [
+  "npc:baros-alexston",
+  "quest:399",
+  "zone:westfall",
+  "zone:stormwind",
+  "topic:defias-brotherhood",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Alexston Farmstead"
+ ]
+}

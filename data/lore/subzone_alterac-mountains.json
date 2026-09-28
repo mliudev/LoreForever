@@ -1,0 +1,93 @@
+{
+ "key": "subzone:alterac-mountains",
+ "type": "subzone",
+ "name": "Alterac Mountains",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Alterac Mountains"
+ },
+ "summary": "The Alterac Mountains are a rugged, snow-capped range rising directly above the rolling pastures of Hillsbrad. Once the heart of a proud human kingdom, the slopes now harbor ruined settlements, bandit factions, and dangerous wilderness where travelers rarely walk unguarded.",
+ "sections": [
+  {
+   "title": "A Fallen Realm",
+   "body": "Long before the hills fell into chaos, these highlands formed the sovereign nation of Alterac, one of the seven kingdoms born from ancient Arathor. That legacy shattered during the Second War when King Aiden Perenolde struck a clandestine pact with the Old Horde, allowing orcish forces passage through the peaks in exchange for his kingdom's safety. The Alliance of Lordaeron uncovered the betrayal and deposed Perenolde, leaving the region fractured by martial law and territorial disputes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Wilderness and Bandits",
+   "body": "Following the devastation of the Third War, the mountains collapsed into complete lawlessness. The disinherited nobles of the realm banded together to form the Syndicate, operating out of the ruins of Strahnbrad and plotting to reclaim their lost dominion through sabotage and assassination. Between ruthless Crushridge ogres occupying the shattered capital, marauding gnolls, and the shattered magical ruins around Dalaran, the passes of Alterac remain some of the most perilous pathways in Lordaeron.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What kingdom used to rule these mountains?",
+   "aliases": [
+    "who owned alterac",
+    "what was alterac",
+    "alterac kingdom lore"
+   ],
+   "answer": "The human kingdom of Alterac held these mountains for generations after the splintering of the Empire of Arathor. Its capital sat among the highest peaks, commanding the roads between Lordaeron, Dalaran, and the Arathi highlands until its fall during the Second War."
+  },
+  {
+   "q": "Why is Alterac in ruins?",
+   "aliases": [
+    "what happened to alterac",
+    "who destroyed alterac",
+    "ruins of alterac backstory"
+   ],
+   "answer": "During the Second War, King Aiden Perenolde betrayed the Alliance of Lordaeron by assisting the Horde. When the treason was exposed, Alliance armies crushed Alterac's forces and deposed the crown. With no legitimate ruler and subsequent devastation from the Third War, the nation collapsed into rubble."
+  },
+  {
+   "q": "Who are the Syndicate lurking in the hills?",
+   "aliases": [
+    "who is the syndicate",
+    "what is the syndicate",
+    "why are there bandits in alterac"
+   ],
+   "answer": "The Syndicate is an outlaw syndicate made up of former Alteraci nobility and their retainers. Led by Aliden Perenolde, they employ brigands, assassins, and rogue mercenaries to destabilize the region in hopes of violently restoring their kingdom."
+  },
+  {
+   "q": "What threats wander the snowy peaks?",
+   "aliases": [
+    "what lives in alterac",
+    "alterac monsters",
+    "threats in alterac"
+   ],
+   "answer": "Travelers brave enough to climb the slopes must contend with the brutal Crushridge ogres, packs of Highland gnolls, scavenging kobolds, and opportunistic Syndicate brigands patrolling the passes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For the Alliance, Alterac stands as a bitter monument to betrayal, where Perenolde's treachery nearly doomed humanity during the Second War."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The mountain passes are rife with Syndicate agents and hired cutthroats, making the hills a prime testing ground for survival and counter-espionage."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "crushridge",
+  "hillsbrad",
+  "mountains",
+  "perenolde",
+  "strahnbrad",
+  "syndicate"
+ ],
+ "related": [
+  "zone:hillsbrad",
+  "zone:alterac",
+  "subzone:ruins-of-alterac",
+  "subzone:strahnbrad",
+  "topic:alterac-kingdom",
+  "topic:syndicate",
+  "topic:alliance-of-lordaeron",
+  "subzone:dalaran"
+ ],
+ "attribution": [
+  "Alterac Mountains"
+ ]
+}

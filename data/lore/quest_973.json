@@ -1,0 +1,129 @@
+{
+ "key": "quest:973",
+ "type": "quest",
+ "name": "The Tower of Althalaxx",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   973
+  ],
+  "level": "24",
+  "faction": "Alliance",
+  "start": "Delgren the Purifier",
+  "end": "",
+  "previous": "The Tower of Althalaxx (4)",
+  "next": "The Tower of Althalaxx (6)",
+  "wiki": "The Tower of Althalaxx (5)",
+  "chain": []
+ },
+ "summary": "This quest is the fifth chapter in the investigation of the Tower of Althalaxx, leading Alliance adventurers south from Darkshore into Ashenvale. Delgren the Purifier dispatches you to strike down Ilkrud Magthrull, an orc warlock residing at the corrupted Fire Scar Shrine, and retrieve his esoteric tome.",
+ "sections": [
+  {
+   "title": "A Hunt Into Ashenvale",
+   "body": "Following the trail of dark cultist activity uncovered at the Tower of Althalaxx in Darkshore, the holy warrior Delgren the Purifier recognizes the signature of a dangerous practitioner: the orc warlock Ilkrud Magthrull. Operating out of the demonic blight known as Fire Scar Shrine in southwestern Ashenvale, Ilkrud's shadowy dealings threaten to spread foul magic across the pristine elven woodlands. Delgren tasks you with slaying the warlock and seizing his grimoire to expose his master's designs.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Warlock's Lair",
+   "body": "Fire Scar Shrine is a fel-scarred ruin swarming with demonic thralls. Marked by ominous red pillars along its rocky ascent, the shrine houses Ilkrud alongside a summoned succubus and guardian felslayers. Defeating the orc in the heart of his fel domain allows Delgren to scour Ilkrud's tome for the dark knowledge and commands tying back to the sinister rituals unfolding at Althalaxx.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Delgren the Purifier?",
+   "aliases": [
+    "delgren",
+    "delgren lore",
+    "who starts quest"
+   ],
+   "answer": "Delgren the Purifier is an Alliance champion stationed at Maestra's Post, a night elf outpost on the border between Darkshore and Ashenvale. He directs operations against demonic corruption and cultists operating in the region."
+  },
+  {
+   "q": "Who is Ilkrud Magthrull?",
+   "aliases": [
+    "ilkrud",
+    "who is ilkrud magthrull",
+    "orc warlock ashenvale"
+   ],
+   "answer": "Ilkrud Magthrull is a formidable orc warlock making his lair at the Fire Scar Shrine in southwestern Ashenvale. Though initially deemed a minor annoyance by Delgren, his connection to the dark rites at the Tower of Althalaxx makes him a critical target."
+  },
+  {
+   "q": "Where is the Fire Scar Shrine located?",
+   "aliases": [
+    "fire scar shrine location",
+    "where is ilkrud",
+    "how to reach ilkrud"
+   ],
+   "answer": "The shrine is situated in southwestern Ashenvale, south of the Shrine of Aessina and west of Astranaar. It is a corrupted, demon-infested enclave flanked by two distinct red pillars leading up to Ilkrud's altar."
+  },
+  {
+   "q": "Why does Delgren need Ilkrud Magthrull's tome?",
+   "aliases": [
+    "why tome",
+    "what is in ilkrud's tome",
+    "purpose of tome"
+   ],
+   "answer": "Ilkrud's tome contains his dark rituals and communications. Delgren aims to decipher the writings to uncover what sinister plot links the orc warlock to the cultists lingering around the Tower of Althalaxx."
+  },
+  {
+   "q": "How does this quest connect Darkshore to Ashenvale?",
+   "aliases": [
+    "darkshore to ashenvale quest",
+    "althalaxx chain connection"
+   ],
+   "answer": "The storyline begins with investigations at the Tower of Althalaxx on the northern coast of Darkshore. As the mystery deepens, the cultists' network leads adventurers down through Darkshore into the contested forests of Ashenvale."
+  },
+  {
+   "q": "What happens after recovering the tome?",
+   "aliases": [
+    "next quest",
+    "what follows althalaxx 5"
+   ],
+   "answer": "Delgren examines the text to deduce the deeper schemes behind the cultist presence at the Tower of Althalaxx, leading into the final confrontations of the quest chain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This task takes Alliance adventurers out of the safety of Darkshore and deep into the demon-tainted corners of Ashenvale to cleanse a growing dark menace."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Working alongside Delgren the Purifier to strike down fel summoners and confiscate corrupt tomes reflects the classic calling of the Holy Light against demonic corruption."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Confronting Ilkrud Magthrull pits you against a fellow practitioner of the dark arts who uses summoned succubi and voidwalkers to guard his unholy texts."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The Fire Scar Shrine represents a vile defilement of Ashenvale's ancient forests, making the elimination of Ilkrud a matter of defending sacred ancestral lands."
+  }
+ ],
+ "keywords": [
+  "althalaxx",
+  "ashenvale",
+  "delgren",
+  "fire scar shrine",
+  "ilkrud",
+  "maestra",
+  "magthrull",
+  "tome",
+  "warlock"
+ ],
+ "related": [
+  "npc:delgren-the-purifier",
+  "subzone:fire-scar-shrine",
+  "subzone:maestra-s-post",
+  "zone:ashenvale",
+  "zone:darkshore",
+  "subzone:shrine-of-aessina",
+  "subzone:astranaar",
+  "npc:lars"
+ ],
+ "attribution": [
+  "The Tower of Althalaxx (5)"
+ ]
+}

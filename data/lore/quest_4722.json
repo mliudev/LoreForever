@@ -1,0 +1,118 @@
+{
+ "key": "quest:4722",
+ "type": "quest",
+ "name": "Beached Sea Turtle",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   4722
+  ],
+  "level": "13",
+  "faction": "Alliance",
+  "start": "Beached Sea Turtle",
+  "end": "Gwennyth Bly'Leggonde",
+  "previous": null,
+  "next": null,
+  "wiki": "Beached Sea Turtle (1)",
+  "chain": []
+ },
+ "summary": "Along the misty, surf-battered shores of Darkshore lies the carcass of a massive beached sea turtle, surrounded by scavenging murlocs. Though picked over, viable biological samples can still be recovered from the remains. Naturalists in Auberdine collect such specimens to ship back to the Temple of the Moon in Darnassus for formal study.",
+ "sections": [
+  {
+   "title": "A Stranded Leviathan",
+   "body": "The long coastline of Darkshore frequently catches the casualties of the Great Sea, including massive ancient sea turtles that drift ashore after death or beach themselves in confusion. Once grounded, the carcasses quickly attract scavengers. Hostile Greymist murlocs have established crude camps around this turtle's skeletal frame, carving away flesh and shell. Despite their foraging, viable bone, shell, or tissue samples often remain intact within the wreckage.",
+   "spoiler": 0
+  },
+  {
+   "title": "Field Research for Darnassus",
+   "body": "Gwennyth Bly'Leggonde, stationed in the settlement of Auberdine, serves as a field researcher documenting the unusual marine life and ecological disturbances along the coast. The night elves observe these stranded beasts with both reverence and scientific curiosity. Once recovered, suitable remains are carefully cataloged and prepared for shipment to scholars in Darnassus, who seek to understand why so many pelagic giants are washing ashore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are there so many beached sea creatures in Darkshore?",
+   "aliases": [
+    "why dead sea turtle",
+    "darkshore beached creatures",
+    "why stranded"
+   ],
+   "answer": "Darkshore's turbulent waters and strong coastal currents naturally push drifting debris and dying sea beasts onto the sand. Night elf scholars suspect unnatural disturbances in the deep ocean are driving marine life toward the shallows, prompting local naturalists to study every corpse that washes up."
+  },
+  {
+   "q": "Who wants the sea turtle remains?",
+   "aliases": [
+    "who do i turn this in to",
+    "gwennyth auberdine",
+    "where to turn in turtle remains"
+   ],
+   "answer": "Gwennyth Bly'Leggonde, a night elf researcher located in Auberdine, collects washed-up samples from adventurers on behalf of naturalists and scholars based in Darnassus."
+  },
+  {
+   "q": "Why are murlocs gathered around the turtle?",
+   "aliases": [
+    "murlocs near turtle",
+    "greymist scavengers",
+    "murloc camp"
+   ],
+   "answer": "The local Greymist murlocs are opportunists who scavenge whatever drifts onto the beaches. A beached giant sea turtle provides them with an abundant supply of meat, tough hide, and bone for tools and shelters."
+  },
+  {
+   "q": "What happens to the samples once Gwennyth receives them?",
+   "aliases": [
+    "what does darnassus do with remains",
+    "turtle sample research"
+   ],
+   "answer": "Gwennyth packages the viable tissue and skeletal samples for transport across the sea to Darnassus, where scholars and priestesses examine them to monitor the health and behavior of the coastal ecosystem."
+  },
+  {
+   "q": "Is this the only beached creature along the coast?",
+   "aliases": [
+    "other beached animals",
+    "more dead turtles",
+    "washed ashore creatures"
+   ],
+   "answer": "No. Darkshore's long coastline holds multiple beached sea turtles as well as stranded sea behemoths, several of which yield research specimens for Auberdine's scholars."
+  },
+  {
+   "q": "Are sea turtles sacred to the night elves?",
+   "aliases": [
+    "night elf turtles",
+    "druids and turtles"
+   ],
+   "answer": "The night elves revere the native beasts of Kalimdor as part of the natural balance under Elune and the wild gods. While sea turtles are not solitary divine avatars, their unexpected deaths and beachings are treated as grave ecological warning signs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The unexplained beaching of ancient sea creatures signals a deeper disruption in Kalimdor's waters, motivating the researchers of Auberdine and Darnassus to investigate every washed-up leviathan."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids view the stranded sea life and the scavenging murlocs as symptoms of an ecological imbalance along Darkshore that demands close observation and healing."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "beached",
+  "darkshore",
+  "darnassus",
+  "gwennyth bly'leggonde",
+  "murloc",
+  "remains",
+  "sea turtle"
+ ],
+ "related": [
+  "npc:gwennyth-bly-leggonde",
+  "quest:3524",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "zone:darnassus",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Beached Sea Turtle (1)"
+ ]
+}

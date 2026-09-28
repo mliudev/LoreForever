@@ -1,0 +1,90 @@
+{
+ "key": "subzone:beezil-s-wreck",
+ "type": "subzone",
+ "name": "Beezil's Wreck",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Beezil's Wreck"
+ },
+ "summary": "Beezil's Wreck marks the crash site of an unfortunate goblin zeppelin deep within the quagmires of Dustwallow Marsh. Resting east of Tabetha's Farm, the shattered vessel's cargo holds scattered supplies and volatile engineering components that attract scavengers.",
+ "sections": [
+  {
+   "title": "A Calamitous Landing",
+   "body": "Hidden away in the humid muck east of Tabetha's Farm lies the splintered skeleton of a goblin zeppelin known as Beezil's Wreck. The craft was hauling cargo southward across Kalimdor before suffering a disastrous plunge into the swamp. While the wreckage still smolders amid tangled reeds, its eccentric captain, Beezil, has seemingly vanished from the marsh, leaving behind scattered crates and ticking machinery to slowly rot in the brine.",
+   "spoiler": 0
+  },
+  {
+   "title": "Salvage in the Muck",
+   "body": "Despite the harsh environment, the crash site remains a prime target for opportunistic explorers and enterprising goblins from settlements like Mudsprocket. The airship carried a payload of volatile goods, notably Seaforium boosters and heavy crates that survived the impact. Scavengers daring enough to wade through the surrounding beasts often risk life and limb to secure what is left of the lost shipment before corrosive marsh water ruins the haul entirely.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Beezil's Wreck?",
+   "aliases": [
+    "beezils wreck",
+    "crashed zeppelin dustwallow",
+    "what is this wreck"
+   ],
+   "answer": "Beezil's Wreck is the crash site of a goblin zeppelin situated deep in Dustwallow Marsh, directly east of Tabetha's Farm. The airship came down while transporting cargo across the marsh."
+  },
+  {
+   "q": "Where is the pilot, Beezil?",
+   "aliases": [
+    "where is beezil",
+    "who is beezil",
+    "beezil location"
+   ],
+   "answer": "The pilot, Beezil, is nowhere to be found around the crash site. Whether he escaped into the treacherous wilderness or fled the marsh entirely remains a mystery to those searching the hull."
+  },
+  {
+   "q": "What valuable cargo was the zeppelin carrying?",
+   "aliases": [
+    "what was in the zeppelin",
+    "seaforium boosters",
+    "wreck cargo"
+   ],
+   "answer": "The zeppelin was loaded with trade goods and volatile goblin technology, including Seaforium boosters. These valuable engineering components make the site a frequent target for adventurers and salvagers."
+  },
+  {
+   "q": "Who is interested in the wreckage?",
+   "aliases": [
+    "who wants the wreck",
+    "mudsprocket zeppelin",
+    "tabetha zeppelin"
+   ],
+   "answer": "Goblins based in Mudsprocket and associates near Tabetha's Farm take an interest in recovering the lost cargo, seeking to retrieve salvage and halt corrosion before the swamp swallows it whole."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The twisted wreckage of a goblin zeppelin holds volatile mechanical components, particularly Seaforium boosters that any tinkerer would covet."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Examining the smoking remains of rival goblin aviation offers a morbid reminder of the perils inherent in non-gnomish aerial design."
+  }
+ ],
+ "keywords": [
+  "beezil",
+  "beezil's wreck",
+  "dustwallow marsh",
+  "mudsprocket",
+  "seaforium",
+  "tabetha",
+  "zeppelin crash"
+ ],
+ "related": [
+  "zone:dustwallow",
+  "subzone:mudsprocket",
+  "subzone:tabetha-s-farm",
+  "npc:tabetha",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Beezil's Wreck"
+ ]
+}

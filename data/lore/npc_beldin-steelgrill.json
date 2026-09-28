@@ -1,0 +1,77 @@
+{
+ "key": "npc:beldin-steelgrill",
+ "type": "npc",
+ "name": "Beldin Steelgrill",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Beldin Steelgrill",
+  "refs": 2
+ },
+ "summary": "Beldin Steelgrill is a renowned dwarven engineer and the master technician operating Steelgrill's Depot in Dun Morogh. Widely regarded as one of the finest siege engine mechanics in Khaz Modan, he oversees the maintenance of the Ironforge military's heavy armor and treaded warmachines. Keeping those massive contraptions running requires an endless supply of high-grade specialized tools.",
+ "sections": [
+  {
+   "title": "Master of the Treaded Beast",
+   "body": "Situated just down the road from Kharanos, Steelgrill's Depot serves as the primary proving ground and service station for dwarven steam tanks and siege engines. Beldin Steelgrill stands as its chief technician, celebrated far and wide for his unmatched expertise in repairing and tuning armored war wagons. Taming heavy metal and rumbling boilers is unforgiving work, and Beldin burns through gear rapidly. His constant demand for heavy wrenches, cutters, and precision instruments frequently pushes local ironworkers to their limits just to keep his workbench supplied.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Beldin Steelgrill?",
+   "aliases": [
+    "beldin steelgrill",
+    "who is beldin",
+    "tank mechanic dun morogh"
+   ],
+   "answer": "Beldin Steelgrill is a master dwarven mechanic and the proprietor of Steelgrill's Depot in Dun Morogh. He is famed throughout Khaz Modan as the preeminent technician for dwarven siege engines and war wagons."
+  },
+  {
+   "q": "What happens at Steelgrill's Depot?",
+   "aliases": [
+    "steelgrills depot",
+    "what is steelgrill depot",
+    "depot purpose"
+   ],
+   "answer": "Located just northeast of Kharanos, the depot functions as a busy maintenance and testing yard for the Alliance's steam tanks and heavy mechanized hardware."
+  },
+  {
+   "q": "Why does Beldin go through so many tools?",
+   "aliases": [
+    "why does he need tools",
+    "steelgrill tools",
+    "tools for steelgrill"
+   ],
+   "answer": "Servicing heavy armor plating, complex gears, and high-pressure steam boilers requires intense labor and specialized equipment. Beldin's heavy-handed work wears out tools at an astonishing pace, leading him to place demanding orders with nearby smiths."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "For engineers, Beldin represents the pinnacle of dwarven vehicular technology, offering a front-row view of the Alliance's most formidable mechanized war assets."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Beldin's yard showcases the industrial might of Ironforge, proving that dwarven craftsmanship extends far beyond hand-held hammers and axes to devastating siege artillery."
+  }
+ ],
+ "keywords": [
+  "beldin steelgrill",
+  "dun morogh",
+  "ironforge",
+  "kharanos",
+  "mechanic",
+  "siege engine",
+  "steam tank",
+  "steelgrill"
+ ],
+ "related": [
+  "subzone:steelgrill-s-depot",
+  "quest:400",
+  "zone:dunmorogh",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Beldin Steelgrill"
+ ]
+}

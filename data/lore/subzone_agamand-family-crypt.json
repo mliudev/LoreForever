@@ -1,0 +1,80 @@
+{
+ "key": "subzone:agamand-family-crypt",
+ "type": "subzone",
+ "name": "Agamand Family Crypt",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Agamand Family Crypt"
+ },
+ "summary": "Tucked into the hills just north of Agamand Mills, the Agamand Family Crypt is the ancient resting ground of one of Tirisfal's wealthiest farming dynasties. Now claimed by the Scourge under Captain Dargol, its tombs have been ripped open, and the slumbering ancestors raised as mindless terrors.",
+ "sections": [
+  {
+   "title": "Restless Ancestors",
+   "body": "Before the Third War, the Agamand family held expansive estates across northern Tirisfal Glades, entombing their forebears within this hillside mausoleum. When the Plague brought ruin to the kingdom, the crypt fell into the clutches of Captain Dargol, an agent of the Scourge. Rather than letting the wealthy lineage rest in peace, Dargol employed dark necromancy to awaken the entombed skeletons and vengeful apparitions, transforming a sacred burial ground into an aggressive Scourge foothold right on the edge of Forsaken territory.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Agamand Family Crypt located?",
+   "aliases": [
+    "agamand crypt location",
+    "where is the crypt",
+    "how to find agamand crypt"
+   ],
+   "answer": "The crypt is carved into the hillside just north of Agamand Mills in the northern reaches of Tirisfal Glades."
+  },
+  {
+   "q": "Who controls the crypt right now?",
+   "aliases": [
+    "who is in agamand crypt",
+    "crypt boss",
+    "captain dargol"
+   ],
+   "answer": "The tomb is held by Captain Dargol, a servant of the Scourge who orchestrates the dark magic within and commands the raised dead."
+  },
+  {
+   "q": "What will I encounter inside the crypt?",
+   "aliases": [
+    "crypt enemies",
+    "what is inside agamand crypt",
+    "agamand crypt mobs"
+   ],
+   "answer": "The crypt is filled with awakened skeletons and restless spirits of the Agamand ancestors. Driven by dark magic, these vengeful undead assault anyone who steps into the tombs."
+  },
+  {
+   "q": "Are the undead inside the crypt allied with the Forsaken?",
+   "aliases": [
+    "are they forsaken",
+    "agamand crypt friendly",
+    "why attack undead"
+   ],
+   "answer": "No. The creatures inside are thralls of the Scourge answering to Captain Dargol, making them hostile to the Forsaken and living travelers alike."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, Captain Dargol's occupation of the crypt is an intolerable Scourge presence in Tirisfal, mocking the dead and threatening the Undercity's northern frontier."
+  }
+ ],
+ "keywords": [
+  "agamand family crypt",
+  "agamand mills",
+  "captain dargol",
+  "crypt",
+  "mausoleum",
+  "scourge",
+  "skeletons",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:agamand-mills",
+  "zone:tirisfal",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Agamand Family Crypt"
+ ]
+}

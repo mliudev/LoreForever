@@ -1,0 +1,122 @@
+{
+ "key": "npc:arugal",
+ "type": "npc",
+ "name": "Arugal",
+ "era": "classic",
+ "zone": "shadowfang",
+ "meta": {
+  "wiki": "Arugal",
+  "refs": 5
+ },
+ "summary": "Archmage Arugal is a former wizard of Dalaran and Gilneas who unleashed the feral worgen upon Lordaeron. Overcome by madness and grief, he now rules from the heights of Shadowfang Keep, treating the savage beasts as his beloved children while menacing all of Silverpine Forest.",
+ "sections": [
+  {
+   "title": "A Desperate Summons",
+   "body": "Before the fall of Lordaeron, Arugal was a member of the Kirin Tor, though some peers like Dalar Dawnweaver dismissed him as a charlatan whose weak spellcraft relied heavily on enchanted trinkets. When the Scourge swept across the north during the Third War, Arugal sought a weapon powerful enough to stem the tide. Drawing upon the esoteric research of the late Dalaran mage Ur, Arugal pierced the veil between realms and summoned the worgen into the mortal world. The ravenous beasts tore through the undead legions as intended, but their feral ferocity could not be contained, and their savage hunger swiftly turned against innocent mortals.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fall into Madness",
+   "body": "The summoned horrors slaughtered the Gilnean soldiers stationed outside the Greymane Wall and spread their dreadful affliction across northern Silverpine. Rather than flee from his monstrous creation, Arugal's mind fractured under the weight of guilt. He adopted the beasts as his own offspring and led them against the ancestral seat of Baron Silverlaine. The keep fell swiftly to claws and fangs, its lord and retainers slain in the massacre. Renaming the fortress Shadowfang Keep, Arugal entrenched himself within its ramparts, surrounded by ghostly victims and loyal hound-packs.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scourge of Silverpine",
+   "body": "From his high perch in Shadowfang Keep, Arugal extends his twisted dominion over the surrounding countryside. His dark sorcery blankets Pyrewood Village, where townsfolk live under a nocturnal curse, and infests the Deep Elem Mine with ravenous Moonrage beasts. He works intricate enchantments allowing select favored servants to retain human intellect while yielding entirely to his will. Both the Kirin Tor and the Forsaken now view him as an intolerable threat; Sylvanas Windrunner's Deathstalkers and apothecaries actively plot the mad archmage's execution to secure the borders of their fledgling kingdom.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Arugal?",
+   "aliases": [
+    "who is arugal",
+    "arugal backstory",
+    "shadowfang boss lore"
+   ],
+   "answer": "Arugal is a former human archmage of the Kirin Tor and Gilneas. Driven mad during the Third War, he summoned the monstrous worgen to battle the Scourge. Overwhelmed by his actions, he retreated into Shadowfang Keep, where he now leads packs of worgen as their self-proclaimed father."
+  },
+  {
+   "q": "Why did Arugal summon the worgen?",
+   "aliases": [
+    "why worgen",
+    "why summon beasts",
+    "arugal worgen motive"
+   ],
+   "answer": "During the Third War, the Scourge threatened to overrun northern Lordaeron and Gilneas. Desperate for a weapon to halt the undead, Arugal utilized the extraplanar research of the Dalaran mage Ur. He believed the savage beasts could destroy the Scourge, but he lost control of the creatures once summoned."
+  },
+  {
+   "q": "Where does Arugal reside right now?",
+   "aliases": [
+    "where is arugal",
+    "arugal location",
+    "find arugal"
+   ],
+   "answer": "Arugal makes his lair at the pinnacle of Shadowfang Keep, an ancient fortress situated on the sea cliffs above Pyrewood Village in southern Silverpine Forest. He is guarded by his monstrous wolf pet, Fenrus, alongside swarms of loyal worgen and restless spirits."
+  },
+  {
+   "q": "What happened to Baron Silverlaine?",
+   "aliases": [
+    "baron silverlaine fate",
+    "who owned shadowfang",
+    "keep history"
+   ],
+   "answer": "Baron Silverlaine was the noble lord who originally ruled the fortress and the village of Pyrewood. When Arugal's worgen besieged the castle, Silverlaine and his court were brutally slaughtered. Their vengeful, tortured ghosts now haunt the blood-stained halls of the keep."
+  },
+  {
+   "q": "Why do the Forsaken want Arugal dead?",
+   "aliases": [
+    "forsaken vs arugal",
+    "arugal must die quest",
+    "why kill arugal"
+   ],
+   "answer": "Arugal's packs terrorize Silverpine Forest, attacking Forsaken scouts, ambushing patrols, and even infecting loyal servants of the Royal Apothecary Society. Sylvanas Windrunner considers the mad archmage a direct threat to the security and expansion of the Undercity's borders."
+  },
+  {
+   "q": "What is the curse on Pyrewood Village?",
+   "aliases": [
+    "pyrewood curse",
+    "why are pyrewood villagers wolves",
+    "pyrewood arugal"
+   ],
+   "answer": "Arugal cast wretched enchantments across the region, subjecting the human inhabitants of Pyrewood Village to the worgen curse. By daylight, the villagers appear as normal human subjects, but come nightfall, they transform into vicious beasts bound to defend Arugal's territory."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Arugal's worgen infest the road south of the Sepulcher, and Lady Sylvanas has ordered his execution to secure Silverpine Forest for the Forsaken."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Arugal's beasts have killed several Deathstalkers and apothecaries; putting an end to his madness is a vital task for the Royal Apothecary Society."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Arugal represents the catastrophic danger of reckless conjuration, turning the deep research of the Kirin Tor into an uncontrollable nightmare."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "kirin tor",
+  "pyrewood",
+  "shadowfang",
+  "silverlaine",
+  "silverpine",
+  "ur",
+  "worgen"
+ ],
+ "related": [
+  "zone:shadowfang",
+  "zone:silverpine",
+  "topic:worgen",
+  "quest:1014",
+  "quest:99",
+  "subzone:pyrewood-village",
+  "npc:baron-silverlaine",
+  "npc:dalar-dawnweaver"
+ ],
+ "attribution": [
+  "Arugal"
+ ]
+}

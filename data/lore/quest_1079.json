@@ -1,0 +1,128 @@
+{
+ "key": "quest:1079",
+ "type": "quest",
+ "name": "Covert Ops - Alpha",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1079
+  ],
+  "level": "22",
+  "faction": "Alliance",
+  "start": "Gaxim Rustfizzle",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Covert Ops - Alpha",
+  "chain": []
+ },
+ "summary": "Covert Ops - Alpha is an Alliance infiltration mission directed by the gnome tinker Gaxim Rustfizzle in the Stonetalon Mountains. While operating out of the peaks, operatives are tasked with penetrating the Venture Company's lumber mill in Windshear Crag to recover proprietary engineering schematics. Securing these blueprints allows the Alliance to decipher the mechanical vulnerabilities of goblin machinery while co-opting their logging technology.",
+ "sections": [
+  {
+   "title": "Sabotage and Espionage",
+   "body": "Operating from Windshear Crag, Gaxim Rustfizzle conducts a persistent covert campaign to disrupt the aggressive logging operations of the Venture Company. While goblin deforesters fell the primeval timber south of Cragpool Lake, Gaxim recognizes that wanton destruction alone cannot halt the enterprise. Instead of merely detonating industrial hardware, Plan Alpha prioritizes intelligence gathering, requiring agents to slip past goblin loggers and overseers to seize their core technical schematics directly from the lumber mill.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reverse Engineering",
+   "body": "Gnomish interest in the Venture Company extends beyond ecological sympathy for the night elves. The recovered schematics detail the inner workings of heavy-duty goblin loggers, mechanical cutters, and mechanized transports. By studying these blueprints, Alliance engineers can expose critical structural flaws to dismantle future operations\u2014while simultaneously borrowing refined goblin designs to enhance their own mechanical projects back in Ironforge and Gnomeregan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the primary goal of Covert Ops - Alpha?",
+   "aliases": [
+    "what is covert ops alpha",
+    "alpha mission goal",
+    "what does gaxim want"
+   ],
+   "answer": "The primary objective is the recovery of the Venture Company's engineering plans from their lumber mill in Windshear Crag, located south of Cragpool Lake. While explosive devices are involved in the overall covert effort, securing these blueprints is the sole measure of the mission's success."
+  },
+  {
+   "q": "Who gives the quest Covert Ops - Alpha?",
+   "aliases": [
+    "who starts covert ops alpha",
+    "gaxim rustfizzle quest",
+    "covert ops quest giver"
+   ],
+   "answer": "The mission is assigned by Gaxim Rustfizzle, an Alliance gnome tinker stationed in the Stonetalon Mountains overseeing covert sabotage operations against goblin industrial efforts."
+  },
+  {
+   "q": "Where are the engineering plans located?",
+   "aliases": [
+    "where are the venture co plans",
+    "engineering plans location",
+    "windshear crag lumber mill plans"
+   ],
+   "answer": "The Venture Company Engineering Plans are kept inside the operational lumber mill in Windshear Crag, situated just south of Cragpool Lake amidst heavy goblin logging defenses."
+  },
+  {
+   "q": "Why does Gaxim Rustfizzle want the Venture Co. blueprints?",
+   "aliases": [
+    "why steal venture co plans",
+    "what will gaxim do with plans",
+    "reason for covert ops alpha"
+   ],
+   "answer": "Gaxim seeks the plans to study the structural vulnerabilities of goblin logging machines. Discovering their mechanical flaws allows the Alliance to sabotage future machinery more effectively, while also adopting practical goblin engineering designs for Alliance devices."
+  },
+  {
+   "q": "Is sheer destruction the point of the mission?",
+   "aliases": [
+    "do i blow up the mill",
+    "should i destroy machines",
+    "mission destruction focus"
+   ],
+   "answer": "No. Gaxim explicitly reminds operatives that mission success does not depend on the amount of destruction inflicted, but rather on successfully extracting the schematics intact from the mill."
+  },
+  {
+   "q": "Why is the Alliance fighting the Venture Company here?",
+   "aliases": [
+    "why fight venture company in stonetalon",
+    "alliance venture co conflict",
+    "stonetalon logging war"
+   ],
+   "answer": "The Venture Company is pillaging the natural resources of Stonetalon through unchecked deforestation and industrial pollution. Alliance operatives intervene to undermine their industrial footprint and preserve strategic territory in Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For a gnome tinker, analyzing goblin blueprints is the ultimate prize: it offers the rare chance to mock goblin design oversights while stealing their most lucrative mechanical tricks."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The recovered schematics expose the gritty, high-combustion mechanisms favored by the Venture Company, providing valuable technical insights into industrial motor works."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The Venture Company's deforestation in Windshear Crag wounds Stonetalon's ancient forests, making any sabotage of their logging infrastructure an urgent priority for the kaldorei."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing footholds and curbing industrial extraction across Kalimdor ensures the Alliance maintains tactical parity against rival powers encroaching on contested wilderness."
+  }
+ ],
+ "keywords": [
+  "alpha",
+  "covert ops",
+  "cragpool lake",
+  "engineering plans",
+  "gaxim rustfizzle",
+  "lumber mill",
+  "stonetalon",
+  "venture co",
+  "windshear crag"
+ ],
+ "related": [
+  "npc:gaxim-rustfizzle",
+  "subzone:windshear-crag",
+  "subzone:cragpool-lake",
+  "zone:stonetalon",
+  "quest:764"
+ ],
+ "attribution": [
+  "Covert Ops - Alpha"
+ ]
+}

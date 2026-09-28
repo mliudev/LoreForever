@@ -1,0 +1,78 @@
+{
+ "key": "subzone:bluegill-marsh",
+ "type": "subzone",
+ "name": "Bluegill Marsh",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Bluegill Marsh"
+ },
+ "summary": "Bluegill Marsh is a sodden mire in the western Wetlands that serves as the sprawling settlement for the hostile Bluegill murloc tribe. The waterways and huts are fiercely guarded by these aquatic humanoids under the rule of the brute known as Gobbler. Travelers heading through the western fens must navigate carefully to avoid being surrounded in the shallows.",
+ "sections": [
+  {
+   "title": "A Swarming Hazard",
+   "body": "Situated amidst the boggy flats of the western Wetlands, Bluegill Marsh is thick with mud, reeds, and the squawking war cries of its resident murlocs. The Bluegill tribe has erected crude primitive camps throughout the stagnant water, claiming this territory as their own. Unlike more isolated beasts of the swamp, these murlocs live and hunt in tightly knit packs. Wary wanderers and scouts from Menethil Harbor know that wading into their territory invites swift ambushes from every direction, especially with the formidable chieftain Gobbler prowling the murky shallows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Bluegill Marsh?",
+   "aliases": [
+    "where is bluegill marsh",
+    "what is this place",
+    "wetlands murloc swamp"
+   ],
+   "answer": "Bluegill Marsh is a boggy subzone in the western region of the Wetlands. It is the primary dwelling and nesting ground of the aggressive Bluegill tribe of murlocs."
+  },
+  {
+   "q": "Who rules over the marsh?",
+   "aliases": [
+    "murloc leader wetlands",
+    "gobbler",
+    "who leads the bluegill murlocs"
+   ],
+   "answer": "The Bluegill tribe is led by a powerful and vicious murloc known as Gobbler, who keeps watch over the clustered encampments and strikes down any land-walkers who encroach upon their waters."
+  },
+  {
+   "q": "Why is it dangerous to travel here alone?",
+   "aliases": [
+    "why are there so many murlocs",
+    "is bluegill marsh hard",
+    "murloc aggro"
+   ],
+   "answer": "The murlocs here rarely roam solo. They congregate around huts and shorelines in close-knit bands of two or three, making it very easy for lone travelers to be overwhelmed in the deep, slowing mud."
+  },
+  {
+   "q": "Why do travelers venture into Bluegill Marsh?",
+   "aliases": [
+    "why go here",
+    "bluegill marsh quests",
+    "reasons to visit"
+   ],
+   "answer": "Scouts and adventurers from nearby settlements like Menethil Harbor are regularly directed into the marsh to thin the aggressive murloc population and recover stolen goods carried off into their camps."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Positioned not far from Menethil Harbor, the aggressive Bluegill murlocs pose a constant nuisance to travelers and supply lines moving through the western Wetlands."
+  }
+ ],
+ "keywords": [
+  "bluegill",
+  "bluegill marsh",
+  "gobbler",
+  "menethil",
+  "murloc",
+  "swamp",
+  "wetlands"
+ ],
+ "related": [
+  "zone:wetlands",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Bluegill Marsh"
+ ]
+}

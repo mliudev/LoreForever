@@ -1,0 +1,136 @@
+{
+ "key": "quest:2139",
+ "type": "quest",
+ "name": "Tharnariun's Hope",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   2139
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Tharnariun Treetender",
+  "end": "",
+  "previous": "Cleansing of the Infected",
+  "next": null,
+  "wiki": "Tharnariun's Hope (quest)",
+  "chain": [
+   "Plagued Lands",
+   "Cleansing of the Infected",
+   "Tharnariun's Hope (quest)"
+  ]
+ },
+ "summary": "Tharnariun's Hope is the somber conclusion to Tharnariun Treetender's efforts to curb Darkshore's wildlife sickness. After mercy-killing numerous infected beasts across the woodlands, an Alliance champion is tasked with slaying the rabid Den Mother northeast of Auberdine.",
+ "sections": [
+  {
+   "title": "A Tragic Necessity",
+   "body": "Following the Third War, the wild creatures of Darkshore began succumbing to an unnatural, rabid sickness. Tharnariun Treetender, stationed in Auberdine, spent days tasking travelers with putting down infected beasts to ease the forest's agony. However, culling rabid thistle bears was merely treating the symptom. To halt the spread, he determined that the source within the local bears had to be excised: the matriarch known as the Den Mother.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Den Mother",
+   "body": "Lurking in a cavern northeast of Auberdine near the ancient ruins of Bashal'Aran, the Den Mother was once a vital guardian of the woodland fauna. Consumed by the maddening affliction spreading across northern Kalimdor, she continuously bore and raised litters of rabid cubs. By hunting down the matriarch within her den, Alliance heroes put an end to her torment and stemmed the tide of frenzied bears prowling the coastal highway.",
+   "spoiler": 1
+  },
+  {
+   "title": "The Grim Reality of Kalimdor",
+   "body": "Upon the Den Mother's demise, Tharnariun expresses profound gratitude, albeit clouded by melancholy. For the kaldorei, raising weapons against woodland creatures is an agonizing duty. Yet as dark forces press against their new home and many despair or seek shelter, deeds like this prove that the defenders of Auberdine are willing to bear the heavy moral burden required to protect their wilderness.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tharnariun Treetender?",
+   "aliases": [
+    "tharnariun",
+    "who gives tharnariun's hope",
+    "treetender auberdine"
+   ],
+   "answer": "Tharnariun Treetender is a night elf caretaker stationed in Auberdine. Distraught over the blight and madness warping Darkshore's wildlife, he oversees efforts to study, track, and ultimately put suffering animals out of their misery."
+  },
+  {
+   "q": "Where is the Den Mother located?",
+   "aliases": [
+    "where is den mother",
+    "den mother cave location",
+    "find den mother"
+   ],
+   "answer": "She dwells inside a cave nestled into the hills northeast of Auberdine, just east of the ruins of Bashal'Aran."
+  },
+  {
+   "q": "Why must the Den Mother be killed instead of cured?",
+   "aliases": [
+    "can den mother be saved",
+    "why kill den mother",
+    "cure den mother"
+   ],
+   "answer": "The affliction ravaging Darkshore's wildlife is deeply ingrained and actively driving the beasts into violent frenzies. With no immediate cure and the Den Mother actively raising rabid offspring, Tharnariun determined that putting her down was the only way to stop the sickness from proliferating further."
+  },
+  {
+   "q": "What quests lead up to Tharnariun's Hope?",
+   "aliases": [
+    "prerequisites for tharnariuns hope",
+    "quest chain tharnariun"
+   ],
+   "answer": "This quest is the final step in a three-part chain. It begins with 'Plagued Lands', continues through 'Cleansing of the Infected', and concludes with 'Tharnariun's Hope'."
+  },
+  {
+   "q": "What is making the animals of Darkshore sick?",
+   "aliases": [
+    "why are bears rabid in darkshore",
+    "darkshore animal plague cause",
+    "what corrupted the bears"
+   ],
+   "answer": "The woodlands of Darkshore suffer lingering corruption from demonic energies left behind after the Third War, compounded by twilight cultists, corrupted elemental remnants, and the lingering scars around Felwood and Mount Hyjal."
+  },
+  {
+   "q": "Why does Tharnariun mention people escaping to fortified lands?",
+   "aliases": [
+    "fleeing auberdine",
+    "fortified alliance lands"
+   ],
+   "answer": "Auberdine is an exposed coastal outpost beset by ghosts, corrupted wildlife, and hostile creatures. With night elf civilization struggling to rebuild in the aftermath of the Burning Legion's invasion, some residents feel overwhelmed and choose to hide or retreat toward safer Alliance bastions."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, slaying woodland beasts\u2014especially a matriarch bear\u2014goes against their fundamental reverence for nature, making this duty a bitter and sorrowful necessity."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold bears in high spiritual esteem through the teachings of Ursoc. Executing a corrupted Den Mother serves as a solemn reminder of nature's delicate balance and the tragedies of corruption."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters understand the tragedy of an apex predator driven mad by disease, recognizing when culling an infected beast is the truest act of mercy."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Protecting Auberdine strengthens the Alliance's foothold along northern Kalimdor's coast, proving their readiness to defend night elf lands from escalating wilderness threats."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "bashal'aran",
+  "cleansing of the infected",
+  "darkshore",
+  "den mother",
+  "rabid thistle bear",
+  "tharnariun treetender",
+  "tharnariun's hope"
+ ],
+ "related": [
+  "npc:tharnariun-treetender",
+  "quest:2138",
+  "quest:2118",
+  "subzone:auberdine",
+  "quest:954",
+  "zone:darkshore",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Tharnariun's Hope (quest)"
+ ]
+}

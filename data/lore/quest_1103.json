@@ -1,0 +1,114 @@
+{
+ "key": "quest:1103",
+ "type": "quest",
+ "name": "Call of Water",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   1103
+  ],
+  "level": "23",
+  "faction": "Horde",
+  "start": "Tiev Mordune",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Call of Water (Silverpine)",
+  "chain": []
+ },
+ "summary": "This quest offers a second chance for shamans completing their spiritual trials along the coast of Silverpine Forest. If a shaman's spirit-sight fades before communing with the purified manifestation of water, Tiev Mordune stands by to rekindle the communion. By providing another Water Sapta, the petitioner can witness the ritual anew and finish their communion.",
+ "sections": [
+  {
+   "title": "A Helping Hand in the Mist",
+   "body": "The path to mastering water is fraught with delicate spiritual timings. Shamans drink a potent draught known as a Water Sapta to perceive the spirits lingering around the elemental shrines. Should the draught's magic lapse before the shaman speaks with the Minor Manifestation of Water, they find themselves locked outside the spirit realm, unable to complete their trial. Fortunately, fellow shaman Tiev Mordune lingers on the fog-shrouded shores of Silverpine Forest to assist those whose visions ended too soon.",
+   "spoiler": 0
+  },
+  {
+   "title": "Renewing the Ritual",
+   "body": "Tiev Mordune, having already conquered the corrupt water spirit lurking off the coast, waits with his gathered ritual remnants. He requires proof of readiness in the form of a fresh Water Sapta from Islen Waterstrider in the Barrens. Once presented with the sapta, Tiev casts his gathered bracers and droplets into the shrine's brazier, summoning forth the pure manifestation once more so his fellow shaman can speak with it and seal their elemental bond.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tiev Mordune?",
+   "aliases": [
+    "tiev mordune",
+    "who is tiev",
+    "tiev silverpine"
+   ],
+   "answer": "Tiev Mordune is a fellow Horde shaman stationed on the coast of Silverpine Forest. He has completed the battle against the local corrupt elemental and remains by the shore to help other initiates who lose their spiritual vision before finishing their communion."
+  },
+  {
+   "q": "Why do I need a Water Sapta for this quest?",
+   "aliases": [
+    "why need sapta",
+    "water sapta tiev",
+    "where to get sapta"
+   ],
+   "answer": "A Water Sapta allows a shaman's mind to cross the threshold into the spirit world. Tiev requires a fresh draught from Islen Waterstrider to ensure you have the vision needed to perceive the elemental once he summons it again."
+  },
+  {
+   "q": "What happens if I missed speaking to the water spirit?",
+   "aliases": [
+    "missed the water spirit",
+    "failed water manifestation",
+    "manifestation despawned"
+   ],
+   "answer": "If the spirit draught wears off or the Minor Manifestation of Water vanishes before you can speak with it, you cannot finish the trial on your own. Tiev Mordune steps in to re-ignite the brazier using his own gathered trophies so you can commune with the spirit."
+  },
+  {
+   "q": "Where does this ritual take place?",
+   "aliases": [
+    "where is water shrine",
+    "silverpine water shrine location"
+   ],
+   "answer": "The trial takes place along the western coast of Silverpine Forest, near an elemental shrine facing the Great Sea."
+  },
+  {
+   "q": "Who sent shamans on this pilgrimage?",
+   "aliases": [
+    "who gave the call of water",
+    "islen waterstrider"
+   ],
+   "answer": "Islen Waterstrider, a reclusive shaman dwelling along the Southfury River in the Barrens, guides initiates through their Call of Water trials and brews the necessary saptas."
+  },
+  {
+   "q": "What is the Minor Manifestation of Water?",
+   "aliases": [
+    "what is the water spirit",
+    "minor manifestation"
+   ],
+   "answer": "It is a purified elemental spirit summoned at the shrine after the corruption poisoning the local waters has been cleansed. Communing with it marks the successful completion of this leg of a shaman's elemental trials."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This rite represents the camaraderie among shamans walking the grueling path to earn their Water Totem, ensuring no initiate is stranded by a fading trance."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde's shamanic traditions rely heavily on mutual aid and respect for natural spirits, extending even into the haunted lands of Lordaeron."
+  }
+ ],
+ "keywords": [
+  "call of water",
+  "islen waterstrider",
+  "minor manifestation of water",
+  "shaman",
+  "silverpine forest",
+  "tiev mordune",
+  "water sapta"
+ ],
+ "related": [
+  "quest:63",
+  "quest:972",
+  "npc:minor-manifestation-of-water",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Call of Water (Silverpine)"
+ ]
+}

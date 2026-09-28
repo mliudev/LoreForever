@@ -1,0 +1,93 @@
+{
+ "key": "subzone:slaughtered-lamb",
+ "type": "subzone",
+ "name": "Slaughtered Lamb",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Slaughtered Lamb"
+ },
+ "summary": "Tucked away in Stormwind's Mage Quarter, the Slaughtered Lamb appears to be nothing more than a quiet, seedy tavern. Beneath its floorboards, however, sprawling catacombs hide the sanctum and training grounds of the Alliance's illicit warlocks.",
+ "sections": [
+  {
+   "title": "A Thin Disguise",
+   "body": "On the surface, the Slaughtered Lamb offers little more than dark corners and sparse patronage, attended by barkeep Jarel Moor, who warns casual visitors to stay away from the shadows. That warning is literal. Descending through the back passages reveals a subterranean complex of crypts and summoning circles, where human warlocks and transfer practitioners from Khaz Modan openly study fel arcana sheltered from the disapproving eyes of the Church of the Holy Light and the Kirin Tor.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Noble's Tab",
+   "body": "Operating a fel coventry in the heart of the capital invites constant peril. When Lord Baurles K. Wishock discovered the warlocks lurking in the basement, he threatened to rally the House of Nobles and petition the throne for a full investigation. In truth, the aristocrat was merely trying to dodge a ruinous bar tab. Before his agitation could draw real scrutiny, Zardeth of the Black Claw arranged for Wishock to drink a fatal concoction, permanently silencing the meddler and preserving the haven's secrets.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What actually goes on under the Slaughtered Lamb?",
+   "aliases": [
+    "what is under slaughtered lamb",
+    "slaughtered lamb basement",
+    "who is in slaughtered lamb"
+   ],
+   "answer": "The catacombs beneath the tavern serve as the hidden sanctum for Stormwind's warlocks. Practitioners of demonology and shadow magic gather there to teach apprentices, conduct summonings, and practice fel arts forbidden in the streets above."
+  },
+  {
+   "q": "Does the Stormwind City Guard know about the warlocks?",
+   "aliases": [
+    "do guards know about warlocks",
+    "why aren't warlocks arrested",
+    "is slaughtered lamb illegal"
+   ],
+   "answer": "The tavern operates under a precarious veil of plausible deniability. Fel magic is viewed with deep distrust by the Church of the Holy Light and the Mage Academy, forcing the coven to operate in secrecy and aggressively quiet anyone who threatens to expose them to the royal authorities."
+  },
+  {
+   "q": "Who was Lord Wishock, and what happened to him?",
+   "aliases": [
+    "baurles wishock",
+    "lord wishock fate",
+    "who is wishock"
+   ],
+   "answer": "Lord Baurles K. Wishock was an influential nobleman who ran up an enormous bar tab at the tavern. To escape paying his debts, he threatened to petition the House of Nobles to raid the warlock sanctum below. In response, Zardeth of the Black Claw orchestrated his discreet poisoning, protecting the coven."
+  },
+  {
+   "q": "Why do dwarven and gnome warlocks come here?",
+   "aliases": [
+    "gnome warlocks stormwind",
+    "khaz modan warlocks"
+   ],
+   "answer": "Practitioners of dark magic are heavily persecuted in Ironforge. Aspiring warlocks from Khaz Modan are frequently directed to the Slaughtered Lamb to complete their training in the safety of Stormwind's hidden network."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The catacombs below are your primary sanctuary in Stormwind, offering class trainers, demon-binding rituals, and tasks essential to mastering the dark arts."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "While the Alliance champions the Light and order, the Slaughtered Lamb reveals the kingdom's unspoken willingness to tolerate dark magic in its shadow."
+  }
+ ],
+ "keywords": [
+  "catacombs",
+  "jarel moor",
+  "mage quarter",
+  "slaughtered lamb",
+  "stormwind",
+  "warlock",
+  "wishock",
+  "zardeth"
+ ],
+ "related": [
+  "subzone:mage-quarter",
+  "zone:stormwind",
+  "quest:1715",
+  "quest:335",
+  "quest:397",
+  "npc:zardeth-of-the-black-claw",
+  "npc:lord-baurles-k-wishock",
+  "topic:house-of-nobles"
+ ],
+ "attribution": [
+  "Slaughtered Lamb"
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "key": "npc:taragaman-the-hungerer",
+ "type": "npc",
+ "name": "Taragaman the Hungerer",
+ "era": "classic",
+ "zone": "ragefire",
+ "meta": {
+  "wiki": "Taragaman the Hungerer",
+  "refs": 5
+ },
+ "summary": "Taragaman the Hungerer is a hulking felguard lurking within the molten caverns of Ragefire Chasm beneath Orgrimmar. While widely feared as the demonic master behind the Searing Blade cult, his presence in the fiery depths serves a darker, more deceptive purpose. The Horde seeks his destruction to eliminate the demonic taint poisoning the city's underbelly.",
+ "sections": [
+  {
+   "title": "The Beast Below",
+   "body": "Prowling amidst the magma pools of Ragefire Chasm, Taragaman the Hungerer represents an immediate and terrifying threat to the safety of Orgrimmar. For many scouts and young warriors sent into the dark chasm, the demonic felguard appears to be the central ringleader of the shadow council cultists, wielding infernal strength to bend the weak-willed and corrupt the subterranean passages beneath Thrall's fortress.",
+   "spoiler": 0
+  },
+  {
+   "title": "Lethal Decoy",
+   "body": "Despite his commanding demeanor and devastating brutality, Taragaman is not the mastermind directing the Searing Blade. True leadership of the cult rests in the shadows with the satyr Bazzalan and the warlock Jergosh the Invoker. To these calculating schemers, the towering felguard is little more than expendable bait\u2014a monstrous distraction designed to draw aspiring Horde defenders into the searing volcanic depths where they can be slaughtered.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What kind of demon is Taragaman the Hungerer?",
+   "aliases": [
+    "what race is taragaman",
+    "taragaman demon type",
+    "is taragaman a demon"
+   ],
+   "answer": "Taragaman is a felguard, a brutal demonic shock trooper of the Burning Legion. He wields heavy melee strikes and fiery magic to crush intruders within the magma caverns of Ragefire Chasm."
+  },
+  {
+   "q": "Is Taragaman the Hungerer the leader of the Searing Blade cult?",
+   "aliases": [
+    "who leads searing blade",
+    "is taragaman in charge",
+    "taragaman cult leader"
+   ],
+   "answer": "No. While often mistaken for the mastermind behind the subterranean corruption, Taragaman is actually manipulated by the true leaders of the cult, the satyr Bazzalan and the warlock Jergosh the Invoker. Taragaman is kept around as lethal muscle and bait for the Horde."
+  },
+  {
+   "q": "Why does the Horde want Taragaman dead?",
+   "aliases": [
+    "why kill taragaman",
+    "slaying the beast quest lore",
+    "taragaman orgrimmar threat"
+   ],
+   "answer": "The Horde cannot allow an active demonic presence to fester beneath their capital city. Taragaman's infernal corruption threatens to poison Orgrimmar from within, and eliminating him is vital to securing the cavern passages beneath the streets."
+  },
+  {
+   "q": "Where can Taragaman be found?",
+   "aliases": [
+    "taragaman location",
+    "where is taragaman",
+    "taragaman ragefire chasm"
+   ],
+   "answer": "Taragaman resides deep within Ragefire Chasm, located in the subterranean volcanic tunnels accessible from the Cleft of Shadow inside Orgrimmar."
+  },
+  {
+   "q": "What happens to Taragaman's heart?",
+   "aliases": [
+    "taragaman heart",
+    "heart of taragaman",
+    "slaying the beast heart"
+   ],
+   "answer": "Victorious adventurers carve out Taragaman the Hungerer's Heart as proof of the beast's demise to complete the task of clearing out the demonic vanguard festering below Orgrimmar."
+  },
+  {
+   "q": "How does Taragaman fight in combat?",
+   "aliases": [
+    "taragaman abilities",
+    "taragaman boss fight",
+    "taragaman mechanics"
+   ],
+   "answer": "Taragaman relies on devastating physical attacks, a powerful uppercut that knocks foes through the air, and occasional bursts of Fire Nova that scorch anyone standing close to him."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For the young warriors and spellcasters of the Horde, slaying Taragaman in the depths beneath Orgrimmar is a critical proving ground to protect their capital from demonic corruption."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "While warlocks practice their dark arts within the Cleft of Shadow above, a wild and hostile felguard like Taragaman poses an untamed danger to the secrecy and safety of their hidden craft."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Facing Taragaman requires standing firm against crushing physical blows and avoiding being tossed into the surrounding lava by his brutal uppercuts."
+  }
+ ],
+ "keywords": [
+  "bazzalan",
+  "demon",
+  "felguard",
+  "hungerer",
+  "jergosh",
+  "orgrimmar",
+  "ragefire chasm",
+  "searing blade",
+  "taragaman"
+ ],
+ "related": [
+  "quest:5761",
+  "zone:ragefire",
+  "npc:bazzalan",
+  "zone:orgrimmar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Taragaman the Hungerer"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "subzone:burning-blade-coven",
+ "type": "subzone",
+ "name": "Burning Blade Coven",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Burning Blade Coven"
+ },
+ "summary": "Tucked into the northern cliffs of the Valley of Trials, the Burning Blade Coven is an infested cave network threatening the Horde's newest recruits. Corrupted cultists and summoned demons lurk within, turning an old mineral cavern into a staging ground for dark magic right on Durotar's doorstep.",
+ "sections": [
+  {
+   "title": "A Shadow Over the Proving Grounds",
+   "body": "The dusty red mountains rimming the Valley of Trials were once simply a testing wilderness for young orcs and Darkspear trolls taking their first steps in service to the Horde. In recent days, however, dark rituals have taken hold of the northern caves. Imps and lesser fiends spill from the cavern mouth, stirring chaos and threatening recruits. Led by the shadowy warlock Yarrog Baneshadow, the Burning Blade cult has entrenched itself deep inside, turning what was once a routine training ground into an active battleground against demonic corruption.",
+   "spoiler": 0
+  },
+  {
+   "title": "Corruption in the Rocks",
+   "body": "Before the demons took root, the caves attracted the attention of local overseers hoping to harvest raw materials for the settlement. Foreman Thazz'ril ventured deep inside on a mineral survey, only to be driven out in haste, leaving valuable equipment behind as the cultists made their presence known. Now, driving back Baneshadow's coven serves as the ultimate proving trial for aspiring warriors, rogues, and spellcasters before they are deemed ready to venture out into greater Durotar.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Burning Blade Coven located?",
+   "aliases": [
+    "coven location",
+    "where is burning blade coven",
+    "valley cave location"
+   ],
+   "answer": "The cave is embedded in the high red rock ridges directly along the northern edge of the Valley of Trials in Durotar."
+  },
+  {
+   "q": "Who leads the cultists here?",
+   "aliases": [
+    "coven leader",
+    "who leads burning blade coven",
+    "yarrog"
+   ],
+   "answer": "The coven is led by a warlock named Yarrog Baneshadow, who directs the local rituals and commands the summoned demons."
+  },
+  {
+   "q": "What kinds of enemies lurk inside?",
+   "aliases": [
+    "what mobs are in the cave",
+    "coven monsters",
+    "demons in valley of trials"
+   ],
+   "answer": "The cave is infested with rogue imps, minor demonic servitors, and mortal acolytes aligned with the shadowy Burning Blade cult."
+  },
+  {
+   "q": "Why do new recruits go into the cave?",
+   "aliases": [
+    "why go to coven",
+    "coven purpose",
+    "coven final test"
+   ],
+   "answer": "Braving the dark depths of the cave, recovering lost tools like Foreman Thazz'ril's pick, and slaying Yarrog Baneshadow serves as the final initiation rite for new orc and troll adventurers before leaving the valley."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The demonic imps and dark rituals here are an early, cautionary glimpse into what happens when fel power is wielded recklessly in open defiance of the Horde."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The presence of the Burning Blade cult so close to the Valley of Trials is an intolerable insult to Thrall's new Horde and a stark reminder of the demon worship the orcs fought to leave behind."
+  }
+ ],
+ "keywords": [
+  "burning blade coven",
+  "demon",
+  "durotar",
+  "imps",
+  "thazz'ril",
+  "valley of trials",
+  "yarrog baneshadow"
+ ],
+ "related": [
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Burning Blade Coven"
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "key": "quest:897",
+ "type": "quest",
+ "name": "The Harvester",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   897
+  ],
+  "level": "24",
+  "faction": "Horde",
+  "start": "Harvester's Head",
+  "end": "Jorn Skyseer",
+  "previous": null,
+  "next": null,
+  "wiki": "The Harvester (quest)",
+  "chain": []
+ },
+ "summary": "The Harvester is a quest initiated by discovering the severed head of a strange, alien insectoid predator in the southern Barrens. Bringing this unsettling specimen to Jorn Skyseer at Camp Taurajo reveals disturbing implications for the land's spiritual and ecological balance.",
+ "sections": [
+  {
+   "title": "An Unnatural Intruder",
+   "body": "Amid the savannahs of the southern Barrens, travelers occasionally come across an unsettling sight: the severed head of a silithid known as the Harvester. Unlike the native lions, raptors, and kodo that roam the grasslands, this chitinous insectoid seems completely outside the natural order of Kalimdor. Its presence suggests an encroaching alien ecology that does not belong in the open plains.",
+   "spoiler": 0
+  },
+  {
+   "title": "Jorn Skyseer's Premonition",
+   "body": "Upon receiving the creature's head at Camp Taurajo, the tauren mystic Jorn Skyseer examines the remains. Because the beast's spirit has already fled, he cannot divine its origin, but he immediately recognizes that it represents a profound threat. Jorn fears that the creature's intrusion into the Barrens may herald a grim future for the Horde and warns that darker mysteries are brewing beneath the sands.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Harvester?",
+   "aliases": [
+    "who is the harvester",
+    "what kind of bug is the harvester",
+    "harvester creature"
+   ],
+   "answer": "The Harvester is a large silithid insectoid prowling the southern reaches of the Barrens. Its chitinous, alien physiology is completely distinct from the region's indigenous wildlife."
+  },
+  {
+   "q": "Who is Jorn Skyseer?",
+   "aliases": [
+    "jorn skyseer",
+    "who is the turn in npc",
+    "jorn taurajo"
+   ],
+   "answer": "Jorn Skyseer is a respected tauren elder and spiritual guide stationed at Camp Taurajo. He observes the spiritual health of the plains and offers counsel on matters that threaten the balance of the land."
+  },
+  {
+   "q": "Where does the Harvester come from?",
+   "aliases": [
+    "where do silithid come from",
+    "harvester origin",
+    "silithid source"
+   ],
+   "answer": "While Jorn Skyseer cannot divine its exact origins from the severed head alone, it is an offshoot of the silithid hives spreading upward from the deep deserts to the south."
+  },
+  {
+   "q": "Why does the creature disturb Jorn Skyseer?",
+   "aliases": [
+    "why is jorn worried",
+    "jorn skyseer reaction",
+    "grim future"
+   ],
+   "answer": "The creature's unnatural form and foreign spirit deeply disturb Jorn. He senses that its presence in the Barrens is not a random occurrence, but an ominous warning of a looming, unnatural threat."
+  },
+  {
+   "q": "How do you start this quest?",
+   "aliases": [
+    "how to get quest",
+    "harvester head drop",
+    "start harvester"
+   ],
+   "answer": "The quest begins by slaying the rare silithid known as the Harvester in the southern Barrens and looting its severed head, which prompts you to seek the guidance of elders in Camp Taurajo."
+  },
+  {
+   "q": "What does Jorn tell you to do next?",
+   "aliases": [
+    "follow up quest",
+    "what after harvester head",
+    "jorn next step"
+   ],
+   "answer": "Jorn offers no immediate counterattack, recognizing that the Horde must first prepare themselves and remain vigilant as the mystery of the encroaching silithid slowly unravels."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the Shu'halo, maintaining the Earth Mother's harmony is paramount; encountering an entity that defies the natural order signals profound spiritual disharmony."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman will note Jorn Skyseer's frustration that the spirit had fled the head, preventing communion with the elemental forces to discover the creature's true origin."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids studying the regrowth of Kalimdor can immediately perceive the corruptive, parasitic nature of these alien burrowers invading the savannah."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Camp Taurajo acts as the Horde's southern shield in the Barrens, making any invasive predator in the surrounding bluffs a vital security concern."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "camp taurajo",
+  "harvester",
+  "harvester's head",
+  "insectoid",
+  "jorn skyseer",
+  "silithid"
+ ],
+ "related": [
+  "quest:3261",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "The Harvester (quest)"
+ ]
+}

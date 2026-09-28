@@ -1,0 +1,95 @@
+{
+ "key": "npc:anduin-wrynn",
+ "type": "npc",
+ "name": "Anduin Wrynn",
+ "era": "classic",
+ "zone": "multi",
+ "meta": {
+  "wiki": "Anduin Wrynn",
+  "refs": 0
+ },
+ "summary": "Anduin Llane Wrynn is the ten-year-old crowned King of Stormwind, reigning in the absence of his missing father, King Varian Wrynn. Due to his young age, the true administration of the kingdom rests in the hands of Highlord Bolvar Fordragon and the royal court.",
+ "sections": [
+  {
+   "title": "A Boy on the Throne",
+   "body": "Born in the peaceful interlude following the Second War, Prince Anduin was named in honor of both his grandfather King Llane and the legendary knight Sir Anduin Lothar. Following the death of his mother, Queen Tiffin, and the mysterious disappearance of his father en route to a diplomatic summit in Theramore, the child was abruptly crowned to maintain stability throughout the kingdom. Though intelligent and empathetic beyond his years, the ten-year-old monarch has little actual say in state affairs, leaving rule of the realm divided between Highlord Bolvar Fordragon and royal councilor Lady Katrana Prestor.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Pawn in the Court",
+   "body": "Within the gilded walls of Stormwind Keep, young Anduin is surrounded by escalating political tension. While Highlord Bolvar manages military defenses and strives to maintain the integrity of the kingdom, the noblewoman Katrana Prestor constantly whispers counsel into the court's ear, actively undermining troop deployments to outlying human settlements. Anduin senses the precarious nature of his court and misses his father dearly, yet for now, he remains a figurehead surrounded by scheming nobles and watchful guardians.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is a child ruling Stormwind?",
+   "aliases": [
+    "why is anduin king",
+    "where is varian",
+    "who is the kid king"
+   ],
+   "answer": "King Varian Wrynn vanished under mysterious circumstances while sailing toward a diplomatic summit in Theramore. To avoid a succession crisis and retain order across the realm, ten-year-old Prince Anduin was formally crowned king, while Highlord Bolvar Fordragon was named regent to govern in his stead."
+  },
+  {
+   "q": "Who actually runs the kingdom right now?",
+   "aliases": [
+    "who rules stormwind",
+    "who is in charge",
+    "stormwind regent"
+   ],
+   "answer": "Highlord Bolvar Fordragon serves as Regent of Stormwind, commanding the realm's armies and holding ultimate executive power until Anduin comes of age. However, the noblewoman Lady Katrana Prestor serves as a senior advisor, wielding significant influence over the royal court and the House of Nobles."
+  },
+  {
+   "q": "Who is Anduin named after?",
+   "aliases": [
+    "anduin name origin",
+    "anduin namesake",
+    "why named anduin"
+   ],
+   "answer": "He is named after two heroes of Stormwind's history: his grandfather, the fallen King Llane Wrynn, and Sir Anduin Lothar, the Lion of Azeroth who led the Alliance during the First and Second Wars."
+  },
+  {
+   "q": "Where is Anduin located in the city?",
+   "aliases": [
+    "where is anduin",
+    "anduin location",
+    "anduin wrynn location"
+   ],
+   "answer": "King Anduin can be found in the throne room of Stormwind Keep, seated on the royal throne flanked closely by Highlord Bolvar Fordragon and Lady Katrana Prestor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "To the citizens and soldiers of the Alliance, King Anduin is an innocent symbol of the realm's resilience, even as many worry that his youth leaves the throne vulnerable to shadowy court intrigue."
+  },
+  {
+   "target": "race:Human",
+   "text": "For the people of Stormwind, the boy-king represents the survival of the Wrynn dynasty, carrying the memory of his fallen mother Tiffin and missing father Varian."
+  }
+ ],
+ "keywords": [
+  "anduin",
+  "bolvar",
+  "boy-king",
+  "prestor",
+  "prince",
+  "stormwind",
+  "throne room",
+  "wrynn"
+ ],
+ "related": [
+  "subzone:stormwind-keep",
+  "npc:bolvar-fordragon",
+  "topic:varian-wrynn",
+  "npc:onyxia",
+  "npc:tiffin-ellerian-wrynn",
+  "topic:anduin-lothar",
+  "topic:stormwind-kingdom",
+  "quest:1431"
+ ],
+ "attribution": [
+  "Anduin Wrynn"
+ ]
+}

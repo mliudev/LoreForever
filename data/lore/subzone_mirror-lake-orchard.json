@@ -1,0 +1,81 @@
+{
+ "key": "subzone:mirror-lake-orchard",
+ "type": "subzone",
+ "name": "Mirror Lake Orchard",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Mirror Lake Orchard"
+ },
+ "summary": "Mirror Lake Orchard is a quiet grove and cottage nestled on the southern banks of Mirror Lake in western Elwynn Forest. Once a peaceful homestead near Thunder Falls, it has fallen into the hands of Defias bandits who exploit the countryside while Stormwind's guards look elsewhere.",
+ "sections": [
+  {
+   "title": "A Grove Under Seizure",
+   "body": "Tucked away near the cascading waters of Thunder Falls, Mirror Lake Orchard was once a productive farmstead benefiting from the clean waters of Mirror Lake. Today, the peaceful cottage sits overrun, claimed by opportunistic thieves and brigands flying the colors of the Defias Brotherhood. With the kingdom's military stretched thin and King Varian Wrynn missing, rural properties like this orchard have become easy pickings for outlaws looking to secure hideouts across the Elwynn countryside.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Mirror Lake Orchard right now?",
+   "aliases": [
+    "who is at mirror lake orchard",
+    "who lives here",
+    "orchard enemies"
+   ],
+   "answer": "Defias bandits currently occupy Mirror Lake Orchard and the cottage alongside it. They have driven away whatever honest folk once tended the trees and now use the secluded grounds as a base in western Elwynn."
+  },
+  {
+   "q": "Where is Mirror Lake Orchard located?",
+   "aliases": [
+    "mirror lake orchard location",
+    "where is the orchard",
+    "find orchard elwynn"
+   ],
+   "answer": "The orchard sits along the southern shore of Mirror Lake in western Elwynn Forest, just east of Thunder Falls and north of the main road heading toward Westfall."
+  },
+  {
+   "q": "Why hasn't Stormwind reclaimed the orchard?",
+   "aliases": [
+    "why are defias here",
+    "where are the guards"
+   ],
+   "answer": "Stormwind's standing army is largely absent from rural Elwynn due to political deadlock and the mysterious disappearance of King Varian Wrynn. With local garrisons shorthanded, distant farmsteads and orchards are frequently left to fend for themselves against the Defias Brotherhood."
+  },
+  {
+   "q": "What is the connection between the orchard and Thunder Falls?",
+   "aliases": [
+    "thunder falls connection",
+    "orchard and waterfall"
+   ],
+   "answer": "Mirror Lake drains directly into Thunder Falls, placing the orchard just above the roaring cascade. Its secluded position near the cliffs makes it an ideal, defensible spot for bandits."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers, the occupied orchard is another bitter sign of the Defias Brotherhood's bold expansion across the heartland of the kingdom."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The orchard demonstrates classic Defias strategy: seizing defensible, overlooked properties near water and cliffs to monitor roads while evading city patrols."
+  }
+ ],
+ "keywords": [
+  "defias brotherhood",
+  "elwynn forest",
+  "mirror lake",
+  "mirror lake orchard",
+  "stormwind bandits",
+  "thunder falls"
+ ],
+ "related": [
+  "zone:elwynn",
+  "quest:1861",
+  "subzone:thunder-falls",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Mirror Lake Orchard"
+ ]
+}

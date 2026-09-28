@@ -1,0 +1,119 @@
+{
+ "key": "quest:9533",
+ "type": "quest",
+ "name": "A Helping Hand",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   9533
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Vindicator Palanaar",
+  "end": "Architect Nemos",
+  "previous": null,
+  "next": null,
+  "wiki": "A Helping Hand (BC Classic)",
+  "chain": []
+ },
+ "summary": "A Helping Hand directs Alliance travelers toward eastern Ashenvale, where an ambitious construction effort is underway at Forest Song. Entrusted by Vindicator Palanaar, adventurers journey to reinforce Architect Nemos and his fellow builders as they rebuild a ruined outpost.",
+ "sections": [
+  {
+   "title": "A Beacon in Eastern Ashenvale",
+   "body": "Eastern Ashenvale is a hostile frontier thick with satyrs, ferocious wild beasts, and Horde aggression pushed out from the Warsong logging operations. In response, an effort has begun to reclaim and revitalize Forest Song, an ancient night elf outpost that long stood quiet. Vindicator Palanaar directs capable travelers eastward to assist in fortifying the perimeter and laying the groundwork for a secure sanctuary.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cooperation at Forest Song",
+   "body": "The restoration of Forest Song is a shared venture overseen on the ground by Architect Nemos and Vindicator Vedaar. Working closely with their night elf allies, the builders aim to transform weather-worn elven foundations into a sturdy, enduring settlement. However, carving out a home in the ancient woods requires constant vigilance, abundant raw materials, and willing hands to turn back local threats while the work proceeds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Forest Song?",
+   "aliases": [
+    "forest song outpost",
+    "what is forest song",
+    "forest song ashenvale"
+   ],
+   "answer": "Forest Song is an ancient night elf site located in eastern Ashenvale. Architect Nemos and Vindicator Vedaar are leading an effort to rebuild and revitalize the ruins into a functioning, fortified settlement with the cooperation of the kaldorei."
+  },
+  {
+   "q": "Who sends you to Forest Song?",
+   "aliases": [
+    "quest giver",
+    "who gives a helping hand",
+    "vindicator palanaar"
+   ],
+   "answer": "Vindicator Palanaar offers the quest, directing capable Alliance adventurers across the forest to lend their strength to the construction efforts headed by Architect Nemos."
+  },
+  {
+   "q": "Who is Architect Nemos?",
+   "aliases": [
+    "nemos",
+    "who is nemos",
+    "architect nemos"
+   ],
+   "answer": "Architect Nemos is the planner and overseer directing construction and restoration efforts at Forest Song. He coordinates building projects and relies on passing volunteers to secure the outpost and gather needed resources."
+  },
+  {
+   "q": "Why does Forest Song need outside help?",
+   "aliases": [
+    "why need help",
+    "forest song danger",
+    "why help nemos"
+   ],
+   "answer": "Eastern Ashenvale is surrounded by hostile forces, including corrupted satyrs, aggressive predators, and encroaching Horde lumber parties. Rebuilding the outpost requires defense and physical labor beyond what the small initial crew can supply alone."
+  },
+  {
+   "q": "Where is Forest Song located?",
+   "aliases": [
+    "forest song location",
+    "where is forest song",
+    "how to find forest song"
+   ],
+   "answer": "Forest Song lies nestled in the eastern woodlands of Ashenvale, situated east of Iris Lake and Astranaar along the route heading toward the border of Azshara."
+  },
+  {
+   "q": "Who works with Architect Nemos at the site?",
+   "aliases": [
+    "who is at forest song",
+    "vedaar and nemos",
+    "forest song leaders"
+   ],
+   "answer": "Alongside Architect Nemos, Vindicator Vedaar helps oversee defense and operations at Forest Song, supported by local night elf allies who share an interest in reclaiming the ancient outpost."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Restoring Forest Song breathes new life into neglected kaldorei lands, fortifying the eastern woods against corruption and foreign intrusion."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Establishing a firm foothold in eastern Ashenvale provides the Alliance with crucial strategic support to counter Horde territorial expansion and local threats."
+  }
+ ],
+ "keywords": [
+  "architect nemos",
+  "ashenvale",
+  "forest song",
+  "helping hand",
+  "kaldorei",
+  "vindicator palanaar",
+  "vindicator vedaar"
+ ],
+ "related": [
+  "subzone:forest-song",
+  "npc:architect-nemos",
+  "npc:vindicator-palanaar",
+  "npc:vindicator-vedaar",
+  "zone:ashenvale",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "A Helping Hand (BC Classic)"
+ ]
+}

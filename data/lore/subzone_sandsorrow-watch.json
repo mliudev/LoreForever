@@ -1,0 +1,89 @@
+{
+ "key": "subzone:sandsorrow-watch",
+ "type": "subzone",
+ "name": "Sandsorrow Watch",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Sandsorrow Watch"
+ },
+ "summary": "Sandsorrow Watch is a sprawling desert outpost located just west of Gadgetzan in Tanaris. While the surrounding dunes and ruins are overrun by hostile Sandfury trolls and their reanimated dead, an eastern watch tower serves as an outpost overlooking the waste.",
+ "sections": [
+  {
+   "title": "A Precarious Perch",
+   "body": "Situated directly west of the bustling goblin trading hub of Gadgetzan, Sandsorrow Watch is a grim borderland in the Tanaris desert. The broad expanse is dominated by the Sandfury tribe\u2014also known as the Farraki trolls\u2014who aggressively defend the arid territory alongside legions of shambling troll zombies. An elevated watch tower at the eastern edge anchors the position, providing a fortified vantage point amidst the encroaching desert wilderness and the hostile indigenous tribes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Frontier Outpost",
+   "body": "The eastern outpost has been secured as a neutral foothold overlooking the Sandfury lands. Travelers and artisans, including the blacksmith Trenton Lighthammer, operate within this small camp while keeping a wary eye on Farraki activities. The encampment even keeps captured Sandfury specimens securely caged for study and interrogation, demonstrating the volatile frontier tension between Tanaris's opportunistic settlers and the native sand trolls.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Sandsorrow Watch located?",
+   "aliases": [
+    "sandsorrow watch location",
+    "where is sandsorrow",
+    "how to get to sandsorrow watch"
+   ],
+   "answer": "Sandsorrow Watch is located directly west of Gadgetzan in the northern desert plains of Tanaris. Travelers heading out through Gadgetzan's western gate will encounter it almost immediately."
+  },
+  {
+   "q": "Who controls Sandsorrow Watch?",
+   "aliases": [
+    "who lives at sandsorrow",
+    "sandsorrow watch faction",
+    "who holds sandsorrow watch"
+   ],
+   "answer": "The wider ruins and surrounding dunes are occupied by hostile Sandfury trolls and their undead minions. However, the eastern watch tower itself is maintained as a neutral frontier camp, frequented by independent travelers and artisans like the smith Trenton Lighthammer."
+  },
+  {
+   "q": "Why are there undead trolls at Sandsorrow Watch?",
+   "aliases": [
+    "sandfury zombies",
+    "why troll zombies tanaris",
+    "sandsorrow zombies"
+   ],
+   "answer": "The Sandfury tribe practices dark necromantic arts and voodoo, frequently raising fallen Farraki warriors as Sandfury Zombies to guard their desolate territory and outposts across Tanaris."
+  },
+  {
+   "q": "What threats can adventurers expect in the surrounding dunes?",
+   "aliases": [
+    "sandsorrow mobs",
+    "sandsorrow watch enemies",
+    "hostile trolls sandsorrow"
+   ],
+   "answer": "The area is heavily patrolled by Sandfury Axe Throwers, Firecallers, and Hideskinners, alongside their reanimated troll zombies. Unprepared travelers venturing off the main path west of Gadgetzan can easily be overwhelmed by roving Farraki warbands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The camp at the watch tower is home to Trenton Lighthammer, a talented smith positioned deep in the desert sands."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear trolls will find no kinship here: the hostile Sandfury Farraki tribe views all outsiders as invaders to be crushed and raised as shambling corpses."
+  }
+ ],
+ "keywords": [
+  "farraki",
+  "gadgetzan",
+  "sand troll",
+  "sandfury",
+  "sandsorrow",
+  "sandsorrow watch",
+  "tanaris",
+  "trenton lighthammer"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:gadgetzan",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Sandsorrow Watch"
+ ]
+}

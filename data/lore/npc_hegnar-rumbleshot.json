@@ -1,0 +1,78 @@
+{
+ "key": "npc:hegnar-rumbleshot",
+ "type": "npc",
+ "name": "Hegnar Rumbleshot",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Hegnar Rumbleshot",
+  "refs": 1
+ },
+ "summary": "Hegnar Rumbleshot is a dwarven gunsmith stationed along the snowy roadway leading from Coldridge Pass toward Kharanos. He maintains a busy shooting range and equips local hunters and mountaineers with firearms and ammunition.",
+ "sections": [
+  {
+   "title": "A Gunsmith on the Road",
+   "body": "Set up at a small campsite between Coldridge Pass and Kharanos, Hegnar Rumbleshot caters to dwarven marksmen, travelers, and the local militia. His camp features a popular shooting range where mountain folk hone their aim against the wild beasts prowling Dun Morogh. Supplying so many eager shooters means Hegnar burns through munitions at a brisk pace, leaving him perpetually reliant on fresh shipments of ammunition from his supplier, the gnome engineer Loslor Rudge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hegnar Rumbleshot?",
+   "aliases": [
+    "who is hegnar",
+    "hegnar rumbleshot npc",
+    "gunsmith in dun morogh"
+   ],
+   "answer": "Hegnar Rumbleshot is a dwarven gunsmith who operates an outdoor target range and camp along the main path between Coldridge Pass and Kharanos."
+  },
+  {
+   "q": "Where does Hegnar get his ammunition?",
+   "aliases": [
+    "hegnar supplier",
+    "who supplies rumbleshot",
+    "ammo for rumbleshot quest"
+   ],
+   "answer": "Hegnar relies on Loslor Rudge, a gnome engineer stationed in Coldridge Valley, to manufacture and supply the ammunition needed to keep his shooting range running."
+  },
+  {
+   "q": "What does Hegnar do for the local dwarves?",
+   "aliases": [
+    "why is hegnar here",
+    "hegnar shooting range",
+    "rumbleshot role"
+   ],
+   "answer": "He outfits local hunters and militia members with firearms and shot, while providing a practice range for marksmen traveling through Dun Morogh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For marksmen heading out from Coldridge Valley into the wider snowy peaks of Dun Morogh, Hegnar provides essential shot, ammunition pouches, and spare firearms."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarves take pride in craftsmanship and marksmanship, making Hegnar's roadside practice range a natural gathering spot for travelers looking to test their triggers."
+  }
+ ],
+ "keywords": [
+  "ammo",
+  "coldridge pass",
+  "dun morogh",
+  "gunsmith",
+  "hegnar rumbleshot",
+  "kharanos",
+  "shooting range"
+ ],
+ "related": [
+  "quest:5541",
+  "npc:loslor-rudge",
+  "zone:dunmorogh",
+  "subzone:coldridge-pass",
+  "subzone:kharanos",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Hegnar Rumbleshot"
+ ]
+}

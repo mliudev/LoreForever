@@ -1,0 +1,113 @@
+{
+ "key": "npc:aggem-thorncurse",
+ "type": "npc",
+ "name": "Aggem Thorncurse",
+ "era": "classic",
+ "zone": "razorfenkraul",
+ "meta": {
+  "wiki": "Aggem Thorncurse",
+  "refs": 5
+ },
+ "summary": "Aggem Thorncurse is a spectral quilboar encountered deep within the thorned tunnels of Razorfen Kraul. Bound beyond death to the service of his tribe, he fights alongside Warlord Ramtusk and Death Speaker Jargba to defend their sacred redoubt against intruders.",
+ "sections": [
+  {
+   "title": "Guardian in Death",
+   "body": "Within the heart of Razorfen Kraul, the quilboar fight desperately to protect their ancestral dens from outsiders. Aggem Thorncurse is not among the living defenders; instead, he lingers as a restless spirit. Bound to the physical realm by dark geomancy and shamanic rites, Aggem takes up arms when intruders threaten the tribe's warlord.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Warlord's Entourage",
+   "body": "Aggem does not battle alone. When outsiders challenge Warlord Ramtusk, Thorncurse manifests beside Death Speaker Jargba. Through potent mystical links, the spirits and flesh of these three defenders are bound together in combat, sharing the wounds dealt to them and proving that in Razorfen, loyalty to the tribe endures long past the grave.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Aggem Thorncurse?",
+   "aliases": [
+    "aggem thorncurse",
+    "who is aggem",
+    "aggem rf kraul"
+   ],
+   "answer": "Aggem Thorncurse is a spectral quilboar found in Razorfen Kraul. He appears alongside Death Speaker Jargba as one of the defenders accompanying Warlord Ramtusk."
+  },
+  {
+   "q": "Where can Aggem Thorncurse be found?",
+   "aliases": [
+    "aggem location",
+    "where is aggem",
+    "where to find aggem thorncurse"
+   ],
+   "answer": "Aggem is encountered inside Razorfen Kraul, deep within the southern Barrens. He manifests directly in the chamber of Warlord Ramtusk when the chieftain is challenged."
+  },
+  {
+   "q": "Why is Aggem a ghost?",
+   "aliases": [
+    "why is he dead",
+    "why is aggem a spirit",
+    "ghost quilboar"
+   ],
+   "answer": "Through the death magic and ancestral geomancy practiced by the Death's Head tribe and quilboar priests, powerful ancestors and fallen champions can be called back to defend the Kraul from invaders."
+  },
+  {
+   "q": "How does Aggem fight in combat?",
+   "aliases": [
+    "aggem abilities",
+    "how does aggem fight",
+    "spirit link boss"
+   ],
+   "answer": "Aggem fights in concert with Warlord Ramtusk and Death Speaker Jargba. Connected by potent shamanic magic like Spirit Link, damage inflicted upon him or his allies is shared across the trio, requiring attackers to weather their combined assault."
+  },
+  {
+   "q": "Is Aggem Thorncurse affiliated with a specific quilboar tribe?",
+   "aliases": [
+    "aggem tribe",
+    "what tribe is aggem",
+    "razorfen quilboar"
+   ],
+   "answer": "He belongs to the Razorfen quilboar residing in the Kraul, fighting directly in defense of Warlord Ramtusk."
+  },
+  {
+   "q": "Can you encounter Aggem Thorncurse outside of the Ramtusk fight?",
+   "aliases": [
+    "aggem solo",
+    "can you fight aggem alone",
+    "aggem wandering"
+   ],
+   "answer": "No. Aggem Thorncurse is strictly bound to the Warlord Ramtusk encounter, manifesting alongside his warlord and fellow advisor when battle begins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Seeing ancestral spirits chained to the mortal world through totems and geomantic rites is a potent display of raw quilboar spiritualism."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The binding of spirits beyond the grave by the quilboar hints at dark necromantic practices taking root deep within Razorfen."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "With the quilboar constantly menacing the Barrens, putting down persistent defenders like Aggem Thorncurse helps secure the lands of Durotar and Mulgore."
+  }
+ ],
+ "keywords": [
+  "aggem",
+  "ghost",
+  "jargba",
+  "kraul",
+  "quilboar",
+  "ramtusk",
+  "razorfen",
+  "spirit link",
+  "thorncurse"
+ ],
+ "related": [
+  "zone:razorfenkraul",
+  "topic:quilboar",
+  "topic:razorfen"
+ ],
+ "attribution": [
+  "Aggem Thorncurse"
+ ]
+}

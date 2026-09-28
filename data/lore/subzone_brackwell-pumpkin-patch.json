@@ -1,0 +1,94 @@
+{
+ "key": "subzone:brackwell-pumpkin-patch",
+ "type": "subzone",
+ "name": "Brackwell Pumpkin Patch",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Brackwell Pumpkin Patch"
+ },
+ "summary": "Brackwell Pumpkin Patch is an overrun farmstead in southeastern Elwynn Forest. Once home to the Brackwell family, the fields and cottage have been thoroughly seized by the Defias Brotherhood as an operational hideout. It serves as a meeting point for rogue conspirators and a staging ground for smuggling stolen gold.",
+ "sections": [
+  {
+   "title": "A Bandit Haven",
+   "body": "Situated southeast of the Stonefield homestead, the Brackwell farm was once a productive patch of Elwynn farmland. Today, the rightful owners have vanished without a trace, driven out or worse by the rising criminal tide. In their absence, the Defias Brotherhood claimed the farm's sturdy cottage and overgrown fields. The area functions as a safehouse and transfer post, where brigands regroup away from the watchful eyes of Goldshire's patrols. High-profile conspirators like Morgan the Collector use the isolated patch to receive shipments of illicitly gathered gold skimmed from the forest's mines.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pigs and Dark Magic",
+   "body": "The Defias are not the only troublemakers prowling the pumpkin vines. The Brackwells left behind an enormous prize-winning sow named Princess, who roams the patch and constantly terrorizes neighboring fields. Meanwhile, the farmhouse attic and outbuildings shelter dangerous personal dealings: bandit Erlan Drudgemoor seduced Surena Caledon, a rogue warlock apprentice who fled her master in Stormwind with a stolen bloodstone artifact, bringing the attention of dark practitioners down upon the hideout.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to the Brackwell family?",
+   "aliases": [
+    "where are the brackwells",
+    "who lived at brackwell farm",
+    "brackwell family fate"
+   ],
+   "answer": "Their exact fate remains unknown. When the Defias Brotherhood expanded their presence throughout southeastern Elwynn Forest, the Brackwells were either forced to flee or killed, leaving their pumpkin fields and farmhouse to the bandits."
+  },
+  {
+   "q": "Why is the Defias Brotherhood using this farm?",
+   "aliases": [
+    "why are defias here",
+    "what are bandits doing at the pumpkin patch",
+    "defias at brackwell"
+   ],
+   "answer": "The farm provides an out-of-the-way base close to the forest's borders. It allows the brotherhood to store plundered goods and coordinate smuggling operations, such as receiving shipments of stolen mine gold via couriers like Morgan the Collector, well away from the Stormwind Guard."
+  },
+  {
+   "q": "Who is Princess?",
+   "aliases": [
+    "giant pig",
+    "princess pig",
+    "why is there a huge boar here"
+   ],
+   "answer": "Princess is an enormous, prize-winning pig originally raised by the Brackwells. Left behind when the farm fell, she has grown even larger by regularly breaking into the nearby Stonefield Farm to devour their prized crops."
+  },
+  {
+   "q": "Why do warlocks come to the pumpkin patch?",
+   "aliases": [
+    "warlock quest brackwell",
+    "surena caledon",
+    "gakin voidwalker quest"
+   ],
+   "answer": "Surena Caledon, an apprentice of the Stormwind warlock trainer Gakin the Darkbinder, stole a powerful bloodstone choker and fled to the farm to hide alongside her lover, the Defias bandit Erlan Drudgemoor. Gakin sends novice warlocks here to execute her and recover the relic."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The farm's shack shelters the fugitive apprentice Surena Caledon, whose stolen bloodstone choker is needed to bind a voidwalker."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The overrun patch marks one of the easternmost operational bases of the Defias inside Elwynn, directly threatening nearby farms and trade routes."
+  }
+ ],
+ "keywords": [
+  "brackwell",
+  "defias",
+  "elwynn",
+  "erlan drudgemoor",
+  "morgan the collector",
+  "princess",
+  "pumpkin patch",
+  "surena caledon"
+ ],
+ "related": [
+  "topic:defias-brotherhood",
+  "zone:elwynn",
+  "quest:123",
+  "quest:330",
+  "quest:1688",
+  "subzone:stonefield-farm",
+  "npc:marshal-dughan",
+  "npc:gakin-the-darkbinder"
+ ],
+ "attribution": [
+  "Brackwell Pumpkin Patch"
+ ]
+}

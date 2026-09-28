@@ -1,0 +1,127 @@
+{
+ "key": "quest:971",
+ "type": "quest",
+ "name": "Knowledge in the Deeps",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "ids": [
+   971
+  ],
+  "level": "23",
+  "faction": "Alliance",
+  "start": "Gerrig Bonegrip",
+  "end": "",
+  "previous": "",
+  "next": "",
+  "wiki": "Knowledge in the Deeps (Classic)",
+  "chain": []
+ },
+ "summary": "Knowledge in the Deeps is an Alliance quest offered by Gerrig Bonegrip in Ironforge's Forlorn Cavern. He tasks adventurers with trekking across the sea to the sunken ruins of Blackfathom Deeps in Ashenvale to recover the ancient Lorgalis Manuscript. Beneath Bonegrip's scholar veneer lies an ominous agenda tied to dark entities and apocalyptic prophecy.",
+ "sections": [
+  {
+   "title": "A Scholar in the Shadows",
+   "body": "Hidden away in the damp reaches of Ironforge's Forlorn Cavern, Gerrig Bonegrip presents himself as a devoted collector of ancient texts. Yet his scholarly pursuits carry a distinctly sinister undertone. Bonegrip is not interested in mundane history or civic chronicles; he explicitly hunts for forgotten lore capable of opening doorways and awakening 'Those Who Sleep.' His talk of surviving beyond 'the end days' marks him as an eccentric\u2014or a dangerous devotee of shadowy, slumbering powers.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Sunken Ruin of Lorgalis",
+   "body": "Bonegrip directs seekers halfway across Azeroth to the shadowed shores of Ashenvale, where the ancient night elven sanctuary of Blackfathom Deeps lies drowned. Before the Great Sundering tore Kalimdor apart, night elven scholars gathered immense magical knowledge in their coastal temples. Amidst the flooded corridors, now crawling with naga, satyrs, and Twilight's Hammer cultists, rests the Lorgalis Manuscript\u2014a relic containing potent pre-Sundering secrets that survived millennia underwater.",
+   "spoiler": 0
+  },
+  {
+   "title": "Brothers and Sisters",
+   "body": "When presented with the watersoaked manuscript, Bonegrip makes no effort to file it in Ironforge's Hall of Explorers. Instead, he openly rejoices that duplicates will be produced and disseminated among his mysterious 'brothers and sisters.' While grateful to the Alliance adventurer who retrieved it, Bonegrip's loyalties clearly lie with a clandestine sect eager to utilize the recovered lore for esoteric, world-altering rites.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Knowledge in the Deeps?",
+   "aliases": [
+    "quest giver",
+    "where to get quest",
+    "who starts knowledge in the deeps"
+   ],
+   "answer": "The quest is given by Gerrig Bonegrip, a human lore-seeker found residing in the dimly lit Forlorn Cavern within the dwarven mountain city of Ironforge."
+  },
+  {
+   "q": "What is the Lorgalis Manuscript?",
+   "aliases": [
+    "what is lorgalis manuscript",
+    "lorgalis lore",
+    "what book do i find"
+   ],
+   "answer": "The Lorgalis Manuscript is an ancient night elven text surviving from before the Great Sundering. Preserved within the flooded sanctuary of Blackfathom Deeps, it holds potent, forgotten knowledge regarding esoteric magics and entities of the deep."
+  },
+  {
+   "q": "Where is the Lorgalis Manuscript located?",
+   "aliases": [
+    "lorgalis manuscript location",
+    "where is the book in bfd",
+    "bfd book location"
+   ],
+   "answer": "The manuscript rests deep inside the Blackfathom Deeps dungeon, located along the Zoram Strand on the northwestern coast of Ashenvale in Kalimdor."
+  },
+  {
+   "q": "Who are 'Those Who Sleep' mentioned by Gerrig Bonegrip?",
+   "aliases": [
+    "those who sleep",
+    "who is bonegrip talking about",
+    "what does gerrig worship"
+   ],
+   "answer": "While Bonegrip speaks cryptically, 'Those Who Sleep' and his mentions of 'the end days' refer to slumbering cosmic terrors and Old God entities, the same powers revered by the Twilight's Hammer cultists inhabiting Blackfathom Deeps."
+  },
+  {
+   "q": "Who are the 'brothers and sisters' Gerrig plans to share the manuscript with?",
+   "aliases": [
+    "gerrig brothers and sisters",
+    "who is gerrig working for",
+    "bonegrip faction"
+   ],
+   "answer": "Gerrig belongs to a secretive cult or cabal operating beneath the notice of Ironforge authorities. Upon obtaining the manuscript, he plans to duplicate it for his fellow adherents rather than handing it over to the dwarven Explorers' League."
+  },
+  {
+   "q": "Why does a quest in Ironforge send players all the way to Ashenvale?",
+   "aliases": [
+    "why go to ashenvale",
+    "ironforge to bfd quest",
+    "travel to blackfathom"
+   ],
+   "answer": "Ironforge's Forlorn Cavern attracts unsanctioned magic users, warlocks, and rogues seeking secrets hidden from the light. Bonegrip stays in the cavern's shadows specifically to recruit unwitting Alliance champions travelling toward Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Bonegrip operates right alongside the warlocks hiding in Ironforge's Forlorn Cavern, sharing their hunger for forbidden, planar-bending texts."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The Lorgalis Manuscript is an ancient remnant of your people's ancestral golden age, making its recovery from cult-infested ruins a matter of cultural preservation."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "While helping an Alliance scholar appears harmless, Bonegrip's true motives and shadowy associates hint at darker designs operating within Ironforge's walls."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "blackfathom deeps",
+  "forlorn cavern",
+  "gerrig bonegrip",
+  "ironforge",
+  "knowledge in the deeps",
+  "lorgalis manuscript"
+ ],
+ "related": [
+  "npc:gerrig-bonegrip",
+  "zone:blackfathom",
+  "subzone:forlorn-cavern",
+  "zone:ironforge",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Knowledge in the Deeps (Classic)"
+ ]
+}

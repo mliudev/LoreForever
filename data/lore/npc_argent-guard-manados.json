@@ -1,0 +1,86 @@
+{
+ "key": "npc:argent-guard-manados",
+ "type": "npc",
+ "name": "Argent Guard Manados",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Argent Guard Manados",
+  "refs": 1
+ },
+ "summary": "Argent Guard Manados is a night elf sentry stationed in Darnassus on behalf of the Argent Dawn. Resting at the Craftsmen's Terrace, he keeps watch over Kalimdor's growing corruption and directs adventurers toward the sinister forces lurking in Blackfathom Deeps.",
+ "sections": [
+  {
+   "title": "A Sentinel of the Dawn",
+   "body": "While most of the Argent Dawn focuses its vigilance on the blighted lands of Lordaeron and the Scourge, Argent Guard Manados represents their watchful eyes in the night elf capital of Darnassus. Standing among the artisans and tradefolk of the Craftsmen's Terrace, Manados monitors emerging threats that menace the balance of northern Kalimdor. When rumors reach him of the Twilight's Hammer cult establishing a foul foothold beneath the waves of Ashenvale, Manados enlists capable heroes to strike at Blackfathom Deeps and recover artifacts of their dark devotion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Argent Guard Manados?",
+   "aliases": [
+    "who is manados",
+    "argent guard manados role",
+    "manados darnassus"
+   ],
+   "answer": "Manados is a night elf operative of the Argent Dawn stationed in Darnassus. Rather than battling the Scourge in the Eastern Kingdoms, he remains in Kalimdor to keep watch for dark cults and otherworldly corruption."
+  },
+  {
+   "q": "Where can I find Argent Guard Manados?",
+   "aliases": [
+    "manados location",
+    "where is argent guard manados",
+    "manados craftsman terrace"
+   ],
+   "answer": "He can be found standing in the Craftsmen's Terrace within Darnassus, watching over the city and coordinating with local adventurers."
+  },
+  {
+   "q": "What quests does Argent Guard Manados give?",
+   "aliases": [
+    "manados quests",
+    "twilight falls quest giver",
+    "blackfathom deeps argent dawn quest"
+   ],
+   "answer": "He offers the quest 'Twilight Falls', tasking adventurers to enter Blackfathom Deeps in Ashenvale and retrieve Twilight Pendants from the cultists lurking inside."
+  },
+  {
+   "q": "Why is the Argent Dawn interested in Blackfathom Deeps?",
+   "aliases": [
+    "why argent dawn bfd",
+    "argent dawn twilight cult"
+   ],
+   "answer": "The Argent Dawn combats malignant forces that threaten Azeroth. The sudden emergence of the Twilight's Hammer cult worshipping ancient, corrupt entities in the submerged ruins of Ashenvale presents a peril they cannot ignore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Manados shows that not all night elves limit their duty to the Cenarion Circle or the Sentinels; some dedicate their lives to neutral cross-faction orders like the Argent Dawn to preserve Azeroth."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions visiting Darnassus, Manados provides a crucial link between the distant crusades in Lordaeron and the creeping menace of cultists in northern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "argent guard manados",
+  "blackfathom deeps",
+  "craftsmen's terrace",
+  "darnassus",
+  "manados",
+  "twilight falls"
+ ],
+ "related": [
+  "topic:argent-dawn",
+  "zone:darnassus",
+  "zone:blackfathom",
+  "quest:1199",
+  "subzone:craftsmen-s-terrace",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Argent Guard Manados"
+ ]
+}

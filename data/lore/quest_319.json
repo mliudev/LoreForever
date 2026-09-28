@@ -1,0 +1,127 @@
+{
+ "key": "quest:319",
+ "type": "quest",
+ "name": "A Favor for Evershine",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   319
+  ],
+  "level": "8",
+  "faction": "Alliance",
+  "start": "Rejold Barleybrew",
+  "end": "",
+  "previous": "Evershine",
+  "next": "Return to Bellowfiz",
+  "wiki": "A Favor for Evershine",
+  "chain": [
+   "Stocking Jetsteam",
+   "Evershine",
+   "A Favor for Evershine",
+   "Return to Bellowfiz"
+  ]
+ },
+ "summary": "To secure a cask of Evershine for the gnomes at Steelgrill's Depot, an adventurer must first lend a hand to Brewnall Village. Brewer Rejold Barleybrew refuses to part with his liquor until the dangerous predators roaming the nearby snowdrifts are thinned out.",
+ "sections": [
+  {
+   "title": "A Brewer's Bargain",
+   "body": "Rejold Barleybrew has the cask of Evershine that Pilot Bellowfiz requires, but he is in no hurry to surrender his prized brew for free. Rather than asking for coin, Rejold asks for protection. The wild beasts of western Dun Morogh\u2014ravenous Ice Claw Bears, thick-hided Elder Crag Boars, and prowling Snow Leopards\u2014wander uncomfortably close to Brewnall Village, creating constant distraction and peril for the locals.",
+   "spoiler": 0
+  },
+  {
+   "title": "Peace for the Craftsmen",
+   "body": "While Rejold is quick to insist that no self-respecting dwarf cowers before wild animals, dealing with predators around the clock consumes valuable hours. Culling the local wildlife gives the villagers the peace they need to focus on distillation and smithing without keeping one eye perpetually on the tree line.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Rejold want these animals killed?",
+   "aliases": [
+    "why kill bears",
+    "why cull animals brewnall",
+    "rejold task reason"
+   ],
+   "answer": "Prowling bears, boars, and snow leopards wander close to Brewnall Village. While the dwarves are not afraid of them, driving them off wastes valuable working hours that could be spent brewing and crafting."
+  },
+  {
+   "q": "What is Evershine?",
+   "aliases": [
+    "what is evershine",
+    "evershine brew",
+    "rejold liquor"
+   ],
+   "answer": "Evershine is a potent, celebrated liquor brewed exclusively in Brewnall Village by Rejold Barleybrew. Gnomish pilots and engineers find it remarkably useful, both as a beverage and as a volatile fuel additive."
+  },
+  {
+   "q": "Who originally asked for the Evershine?",
+   "aliases": [
+    "who sent me for evershine",
+    "who wants evershine",
+    "quest chain start"
+   ],
+   "answer": "Pilot Bellowfiz back at Steelgrill's Depot sent you to procure it to help stock Pilot Stonegear's reconnaissance gyro-drill, the Jetsteam."
+  },
+  {
+   "q": "Where can the animals be found?",
+   "aliases": [
+    "where are ice claw bears",
+    "snow leopard location",
+    "elder crag boar location"
+   ],
+   "answer": "They wander the frozen fields and crags immediately surrounding Brewnall Village and Iceflow Lake in western Dun Morogh."
+  },
+  {
+   "q": "What happens after completing the favor?",
+   "aliases": [
+    "next quest",
+    "what after favor for evershine"
+   ],
+   "answer": "Once the beasts are culled, Rejold hands over the cask of Evershine, allowing you to return it directly to Pilot Bellowfiz at Steelgrill's Depot."
+  },
+  {
+   "q": "Are the villagers in actual danger from the predators?",
+   "aliases": [
+    "is brewnall in danger",
+    "are dwarves scared"
+   ],
+   "answer": "Rejold maintains that no self-respecting dwarf fears a beast in the snow, but having dangerous predators snarl outside the doorstep is a persistent disruption and danger to daily work."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Every dwarf understands the importance of keeping wild predators away from an honest still, ensuring Brewnall's legendary casks remain undisturbed."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "The tinkerers at Steelgrill's Depot urgently await this cask, relying on adventurers to appease the stubborn brewer so the Jetsteam's preparations can continue."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Thinning the aggressive predators of western Dun Morogh tests marksmanship against the hardiest winter beasts of the crags."
+  }
+ ],
+ "keywords": [
+  "bellowfiz",
+  "brewnall village",
+  "dun morogh",
+  "elder crag boar",
+  "evershine",
+  "ice claw bear",
+  "rejold barleybrew",
+  "snow leopard"
+ ],
+ "related": [
+  "npc:rejold-barleybrew",
+  "quest:318",
+  "subzone:brewnall-village",
+  "quest:317",
+  "zone:dunmorogh",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "A Favor for Evershine"
+ ]
+}

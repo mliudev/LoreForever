@@ -1,0 +1,119 @@
+{
+ "key": "quest:907",
+ "type": "quest",
+ "name": "Enraged Thunder Lizards",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   907
+  ],
+  "level": "18",
+  "faction": "Horde",
+  "start": "Jorn Skyseer",
+  "end": "",
+  "previous": "Ishamuhale (quest)",
+  "next": "Cry of the Thunderhawk",
+  "wiki": "Enraged Thunder Lizards",
+  "chain": []
+ },
+ "summary": "Enraged Thunder Lizards is a Horde hunting trial given by Jorn Skyseer in Camp Taurajo. As part of a larger rite of passage through the Barrens, hunters are tasked with facing the massive thunder lizards roaming the southern plains and returning with their blood.",
+ "sections": [
+  {
+   "title": "A Test of the Southern Plains",
+   "body": "After proving their mettle against the raptor Ishamuhale, hunters are directed south toward Camp Taurajo. There, the tauren elder Jorn Skyseer tests whether the hunter can handle the sheer bulk and fury of the land's largest grazers. The thunder lizards that shake the southern Barrens\u2014ranging from Stormsnouts to Thunderheads\u2014are formidable opponents whose heavy strides can crush the unwary beneath their feet.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Way of the Predator",
+   "body": "To tauren and orc hunters alike, taking down a thunder lizard is not merely an act of extermination, but a display of poise, positioning, and strength. Jorn requires samples of their potent blood as physical proof that the hunter stood directly in the path of the rumbling behemoths and emerged with unbroken bones. Successfully claiming this trophy opens the path to Jorn's final quarry in the skies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find the thunder lizards for this hunt?",
+   "aliases": [
+    "thunder lizard location",
+    "where are stormsnouts",
+    "where to find thunder lizards"
+   ],
+   "answer": "Thunder lizards roam the plains surrounding Camp Taurajo in the southern Barrens. You can find Stormsnouts, Stormhides, and Thunderheads grazing to the north, east, and south of the camp."
+  },
+  {
+   "q": "Who sends me on this hunt?",
+   "aliases": [
+    "quest giver",
+    "who gives enraged thunder lizards",
+    "jorn skyseer"
+   ],
+   "answer": "Jorn Skyseer, an elder tauren hunter stationed in Camp Taurajo, gives this quest. It directly follows the hunt for the swift raptor Ishamuhale."
+  },
+  {
+   "q": "What makes thunder lizards particularly dangerous?",
+   "aliases": [
+    "why are they dangerous",
+    "thunder lizard combat"
+   ],
+   "answer": "Their sheer physical mass and electrical nature pose a significant threat. They can easily crush a careless hunter underfoot or stun them with concussive, storm-charged stomps."
+  },
+  {
+   "q": "What does Jorn do with the blood collected?",
+   "aliases": [
+    "why thunder lizard blood",
+    "blood purpose"
+   ],
+   "answer": "The blood serves primarily as undeniable proof that you stood toe-to-toe with the creatures and felled them in close combat. Jorn inspects it to verify that you survived the trampling beasts with your bones intact."
+  },
+  {
+   "q": "What comes after this quest?",
+   "aliases": [
+    "next quest",
+    "what after enraged thunder lizards"
+   ],
+   "answer": "Returning the blood to Jorn Skyseer leads into 'Cry of the Thunderhawk', the next stage of the southern hunting trials, sending you after the winged predators of the plains."
+  },
+  {
+   "q": "How does this fit into Sergra Darkthorn's trials?",
+   "aliases": [
+    "crossroads hunting trials",
+    "sergra darkthorn questline"
+   ],
+   "answer": "Sergra Darkthorn begins your hunting progression in the northern Barrens near the Crossroads with plainstriders, zhevras, and raptors before sending you south to Taurajo to learn from Jorn Skyseer against heavier game."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the Shu'halo, hunting the great thunder lizards around Camp Taurajo is a traditional display of respect, fortitude, and balance within their ancestral plains."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tackling a thunder lizard tests your footwork, keeping distance from crushing stomps while wearing down an opponent with an immense hide."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Culling enraged beasts secures the pathways around Camp Taurajo, protecting caravans and traveling warriors traversing the southern Barrens."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "camp taurajo",
+  "enraged thunder lizards",
+  "jorn skyseer",
+  "stormhide",
+  "stormsnout",
+  "thunderhead"
+ ],
+ "related": [
+  "quest:3261",
+  "quest:913",
+  "subzone:camp-taurajo",
+  "quest:860",
+  "subzone:crossroads",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Enraged Thunder Lizards"
+ ]
+}

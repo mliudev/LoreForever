@@ -1,0 +1,118 @@
+{
+ "key": "quest:6101",
+ "type": "quest",
+ "name": "Taming the Beast",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   6101
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Dazalar",
+  "end": "",
+  "previous": "Taming the Beast (night elf)",
+  "next": "Taming the Beast (night elf 3)",
+  "wiki": "Taming the Beast (night elf 2)",
+  "chain": []
+ },
+ "summary": "This trial marks the second phase of a night elf hunter's pet taming training under Dazalar in Dolanaar. Hunters are tasked with subduing a nightsaber stalker using an enchanted taming rod to better appreciate the shifting diversity of wild beasts. It deepens the bond of understanding between the wilderness of Teldrassil and the sentinel trackers who walk beneath its boughs.",
+ "sections": [
+  {
+   "title": "The Changing Nature of Beasts",
+   "body": "While early lessons focus on understanding fundamental instincts, Dazalar emphasizes that nature's only constant is its continuous change. Every species of the forest carries a distinct temperament, and a hunter must learn to adapt their will accordingly. In the shadow of Teldrassil's canopy, this means engaging creatures that are cunning, stealthy, and far more predatory than simple webspinners.",
+   "spoiler": 0
+  },
+  {
+   "title": "Subduing the Nightsaber",
+   "body": "Nightsabers are revered by the kaldorei as sacred predators, fierce guardians, and stealthy companions of the Sentinels. For a novice hunter, channeling the power of the taming rod against a nightsaber stalker requires steady nerve and calm authority. By bending the predatory aggression of the stalker into a receptive bond, the hunter proves they can command more than merely docile or lesser creatures of the woods.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do this quest",
+    "pet taming quest 2",
+    "nightsaber taming goal"
+   ],
+   "answer": "It is the intermediate trial in the night elf hunter chain that unlocks permanent beast taming. Dazalar sends you to tame a nightsaber stalker so you can observe the temperamental differences between varied predatory creatures."
+  },
+  {
+   "q": "Where can nightsaber stalkers be found?",
+   "aliases": [
+    "where are nightsaber stalkers",
+    "stalker location",
+    "where to find the cat"
+   ],
+   "answer": "Nightsaber stalkers roam the wooded paths and undergrowth to the south of Dolanaar in central Teldrassil."
+  },
+  {
+   "q": "Do I get to keep the nightsaber stalker as my permanent pet?",
+   "aliases": [
+    "do i keep the pet",
+    "can i keep the nightsaber",
+    "is this my pet forever"
+   ],
+   "answer": "No. The beast tamed with the rod is temporary and serves solely as a practice subject. Once the full three-part trial is finished and you return the rod, you will learn the true taming ability and can choose a permanent companion."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "who starts this",
+    "dazalar location"
+   ],
+   "answer": "Dazalar, the hunter trainer situated in Dolanaar within Teldrassil, issues this instruction after you have completed your first taming test."
+  },
+  {
+   "q": "Why do night elves revere nightsabers so deeply?",
+   "aliases": [
+    "night elf cats lore",
+    "why nightsabers matter",
+    "lore on nightsabers"
+   ],
+   "answer": "Nightsabers have lived alongside the kaldorei for millennia as companions, scouts, and war mounts for the Sentinels and Priestesses of Elune. Taming one is considered a proud hallmark of kaldorei woodland mastery."
+  },
+  {
+   "q": "What comes after completing this task?",
+   "aliases": [
+    "next quest",
+    "what is after nightsaber stalker",
+    "hunter trial next"
+   ],
+   "answer": "Dazalar will grant a final taming task involving another Teldrassil creature before teaching the innate ability to tame, feed, and manage permanent companion beasts across Azeroth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This rite represents the core education of a hunter, teaching you how to respect diverse animal temperaments before you are trusted with a lifelong companion."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Nightsabers are deeply entwined with kaldorei history and culture, making the taming of a stalker a traditional milestone for local woodland scouts."
+  }
+ ],
+ "keywords": [
+  "beast taming",
+  "dazalar",
+  "dolanaar",
+  "hunter",
+  "nightsaber stalker",
+  "taming rod",
+  "teldrassil"
+ ],
+ "related": [
+  "npc:dazalar",
+  "subzone:dolanaar",
+  "zone:teldrassil",
+  "quest:6061",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Taming the Beast (night elf 2)"
+ ]
+}

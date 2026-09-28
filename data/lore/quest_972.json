@@ -1,0 +1,110 @@
+{
+ "key": "quest:972",
+ "type": "quest",
+ "name": "Water Sapta",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   972
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Islen Waterseer",
+  "end": "",
+  "previous": "Call of Water (6)",
+  "next": null,
+  "wiki": "Water Sapta (quest)",
+  "chain": []
+ },
+ "summary": "Water Sapta is a transitional task bestowed upon young Horde shaman by Islen Waterseer along the coast of the Barrens. Imbued with a ritual brew, the shaman is sent across the Great Sea to the blighted lands of Silverpine Forest to face a corrupted spring.",
+ "sections": [
+  {
+   "title": "A Vision of Water",
+   "body": "In the elemental traditions of the Horde's shaman, a sapta is an alchemical draught crafted to attune the senses directly to the spirits of the world. While common eyes perceive only tranquil streams or stagnant ponds, drinking a sapta pierces the veil of the physical plane, revealing the elemental beings dwelling within the current.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Silverpine",
+   "body": "Having demonstrated their dedication to the spirits, the shaman receives the concoction directly from Islen Waterseer, a hermit dwelling along the desolate shores south of Ratchet. Rather than testing the sapta in the arid valleys of Kalimdor, Islen commands the initiate to journey far across the Great Sea to the shadowy, forsaken woods of Silverpine Forest to confront an elemental corruption poisoning Lordaeron's streams.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a water sapta?",
+   "aliases": [
+    "what is sapta",
+    "water sapta meaning",
+    "what does sapta do"
+   ],
+   "answer": "A sapta is a ceremonial elixir prepared by shamanic mentors. When consumed, it heightens spiritual perception, allowing the imbiber to see and communicate directly with elemental spirits that are otherwise invisible to mortal eyes."
+  },
+  {
+   "q": "Who is Islen Waterseer?",
+   "aliases": [
+    "islen waterseer lore",
+    "who is islen"
+   ],
+   "answer": "Islen Waterseer is a master shaman who lives in solitary contemplation along the eastern coast of the Barrens, south of the Merchant Coast. She guides young Horde shaman along the arduous path to commune with and bind the element of water."
+  },
+  {
+   "q": "Why must the shaman travel to Silverpine Forest?",
+   "aliases": [
+    "why silverpine",
+    "why go to eastern kingdoms"
+   ],
+   "answer": "The elemental spirits of water are suffering from widespread affliction in Silverpine Forest. To complete their initiation, the shaman must bear the sapta across the sea to gaze upon a corrupted water source firsthand and cleanse the taint."
+  },
+  {
+   "q": "What happens after drinking the sapta?",
+   "aliases": [
+    "drinking sapta",
+    "sapta effect"
+   ],
+   "answer": "Consuming the water sapta allows the shaman to witness the corrupted water elementals lurking within Silverpine's tainted pools, opening the way to confront the source of decay."
+  },
+  {
+   "q": "Is this trial required for all Horde shaman?",
+   "aliases": [
+    "who takes this quest",
+    "is this class quest"
+   ],
+   "answer": "Yes. Orc, tauren, and troll shaman alike must heed the Call of Water, receiving this sapta as an essential rite of passage before they can earn their Water Totem."
+  },
+  {
+   "q": "Where in Silverpine is the corrupted pool located?",
+   "aliases": [
+    "silverpine pool location",
+    "where is the water pool"
+   ],
+   "answer": "The corrupted spring lies in the northern reaches of Silverpine Forest, near the borders of the Forsaken territories and close to the ruined orchards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The Water Sapta marks a critical turning point in your elemental trials, opening your eyes to the spirit world before granting command over your healing Water Totem."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The trial demonstrates the cross-continental unity of the new Horde, sending initiates from the sun-bleached plains of Kalimdor into the haunted woods of Lordaeron."
+  }
+ ],
+ "keywords": [
+  "call of water",
+  "islen waterseer",
+  "shaman trial",
+  "silverpine forest",
+  "the barrens",
+  "totem quest",
+  "water sapta"
+ ],
+ "related": [
+  "npc:islen-waterseer",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Water Sapta (quest)"
+ ]
+}

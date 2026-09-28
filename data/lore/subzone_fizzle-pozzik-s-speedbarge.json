@@ -1,0 +1,90 @@
+{
+ "key": "subzone:fizzle-pozzik-s-speedbarge",
+ "type": "subzone",
+ "name": "Fizzle & Pozzik's Speedbarge",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Fizzle & Pozzik's Speedbarge"
+ },
+ "summary": "Fizzle & Pozzik's Speedbarge is a massive floating installation in Thousand Needles, serving as a joint haven for rival gnome and goblin tinkerers. Sponsored by the Mechanical Engineers' Guild of Azeroth, this artificial island allows both races to push the boundaries of extreme engineering and racing despite the world's broader political tensions.",
+ "sections": [
+  {
+   "title": "A Monument to Engineering Rivalry",
+   "body": "Constructed by engineers including Jinky Twizzlefixxit and Razzeric, the Speedbarge is a chaotic fusion of gnome ingenuity and goblin bombast. Anchored in the waters of Thousand Needles, this city-sized vessel bristles with strange contraptions, pulsating pipes, docks, and attached sub-barges. Named after its prominent leaders, Fizzle Brassbolts and Pozzik, the craft provides a staging ground for experimental watercraft testing and relentless speed trials overseen by the Mechanical Engineers' Guild of Azeroth.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tenuous Neutrality",
+   "body": "What makes the Speedbarge truly distinct is that it operates as a cooperative venture between Alliance-leaning gnomes and Horde-friendly goblins without a formal third-party peacekeeper enforcing harmony. While full-scale war is avoided for the sake of science and competition, the peace remains volatile. Down below deck in the barge's tavern, heated arguments over blueprints, piston tolerances, and faction loyalties routinely boil over into raucous brawls.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Speedbarge?",
+   "aliases": [
+    "what is this place",
+    "speedbarge info",
+    "floating barge"
+   ],
+   "answer": "It is a massive artificial island and floating workshop in Thousand Needles run jointly by gnome and goblin engineers. It serves as a testing hub, racing marina, and social outpost."
+  },
+  {
+   "q": "Who actually built the barge?",
+   "aliases": [
+    "who made the speedbarge",
+    "speedbarge builders"
+   ],
+   "answer": "Although named for Fizzle Brassbolts and Pozzik, builders such as Jinky Twizzlefixxit and Razzeric claim primary credit for the barge's construction and dispute who deserves the honor of its name."
+  },
+  {
+   "q": "Why aren't the gnomes and goblins here fighting each other to the death?",
+   "aliases": [
+    "why peace on speedbarge",
+    "gnome goblin alliance here"
+   ],
+   "answer": "The tinkerers have worked alongside each other for so long that their shared obsession with engineering and racing eclipses outright warfare, leading to an informal and unmonitored truce."
+  },
+  {
+   "q": "Who sponsors the races here?",
+   "aliases": [
+    "speedbarge races",
+    "who runs the races"
+   ],
+   "answer": "Speedboat trials and vehicle contests are sponsored by the Mechanical Engineers' Guild of Azeroth (MEGA), in which both Fizzle and Pozzik hold prominent membership."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomes, the barge is a vital stage to demonstrate precision engineering and intellectual superiority over crude goblin craftsmanship."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Any practicing engineer will find the barge an eccentric masterpiece of experimental propulsion, schematics, and fierce trade rivalry."
+  }
+ ],
+ "keywords": [
+  "engineering",
+  "fizzle",
+  "mega",
+  "pozzik",
+  "razzeric",
+  "speedbarge",
+  "thousand needles",
+  "twizzlefixxit"
+ ],
+ "related": [
+  "npc:fizzle-brassbolts",
+  "npc:pozzik",
+  "zone:thousandneedles",
+  "subzone:speedbarge-bar",
+  "subzone:shimmering-deep",
+  "topic:gnome",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Fizzle & Pozzik's Speedbarge"
+ ]
+}

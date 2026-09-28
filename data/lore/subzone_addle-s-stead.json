@@ -1,0 +1,91 @@
+{
+ "key": "subzone:addle-s-stead",
+ "type": "subzone",
+ "name": "Addle's Stead",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Addle's Stead"
+ },
+ "summary": "Addle's Stead is an abandoned farmstead in southwestern Duskwood, lying quiet under the forest's gloom south of Raven Hill. While its original homesteaders fled long ago, the farm has become a hidden staging ground for the Defias Brotherhood.",
+ "sections": [
+  {
+   "title": "A Outpost in the Dark",
+   "body": "Like many of the forgotten homesteads scattered across Duskwood, Addle's Stead fell into disrepair when darkness and ruin enveloped the region. Rather than remaining empty, the farm has been repurposed by the Defias Brotherhood. Agents prowl the perimeter, lurk within the decrepit farmhouse, and stash supplies in the barn, using the shadowy cover of southwestern Duskwood to escape the notice of both the Night Watch and Stormwind authorities.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tangled in the King's Disappearance",
+   "body": "The presence of the Defias here goes beyond simple banditry. Addle's Stead functions as an operational safehouse holding sensitive records for the Brotherhood. Crucial documents and dockets linking regional conspirators to the disappearance of King Varian Wrynn can be traced back to this very plot of land, turning an unassuming derelict farm into a vital thread in unraveling treason within the Alliance.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Addle's Stead located?",
+   "aliases": [
+    "addle's stead location",
+    "where is addles stead",
+    "find addles stead"
+   ],
+   "answer": "Addle's Stead is in southwestern Duskwood, situated just south of the Raven Hill township and directly west of the Vul'Gol Ogre Mound."
+  },
+  {
+   "q": "Who controls Addle's Stead right now?",
+   "aliases": [
+    "who is at addles stead",
+    "mobs at addles stead",
+    "addles stead enemies"
+   ],
+   "answer": "The farmstead is heavily occupied by the Defias Brotherhood, including night runners, night blades, and enchanters who use the old house and barn as a remote hideout."
+  },
+  {
+   "q": "Why is the farm abandoned?",
+   "aliases": [
+    "what happened to the farm",
+    "who was addle",
+    "why is addles stead ruined"
+   ],
+   "answer": "Like much of Duskwood, the farm was abandoned by its original inhabitants when the forest fell under a pervasive curse of darkness, beasts, and undead, driving common folk away."
+  },
+  {
+   "q": "What brings Alliance adventurers to Addle's Stead?",
+   "aliases": [
+    "why go to addles stead",
+    "addles stead quest",
+    "missing king duskwood"
+   ],
+   "answer": "Adventurers investigating the disappearance of King Varian Wrynn are guided toward Addle's Stead to retrieve an important Defias docket linking rogue agents to the royal abduction."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance investigators tracking the missing King Varian Wrynn, this dilapidated farmhouse holds vital conspiratorial dockets left by the Defias Brotherhood."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The covert outpost shows how deeply the Defias syndicates slip unnoticed across territorial borders, embedding their operatives behind the veil of Duskwood's gloom."
+  }
+ ],
+ "keywords": [
+  "addle's stead",
+  "addles stead",
+  "defias",
+  "defias brotherhood",
+  "duskwood",
+  "raven hill",
+  "varian wrynn"
+ ],
+ "related": [
+  "zone:duskwood",
+  "topic:defias-brotherhood",
+  "topic:varian-wrynn",
+  "quest:163",
+  "subzone:vul-gol-ogre-mound",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Addle's Stead"
+ ]
+}

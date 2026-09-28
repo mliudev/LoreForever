@@ -1,0 +1,77 @@
+{
+ "key": "subzone:hatchet-ridge",
+ "type": "subzone",
+ "name": "Hatchet Ridge",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Hatchet Ridge"
+ },
+ "summary": "Hatchet Ridge is a wooded rise situated in the northwestern reaches of the Arathi Highlands. Rich in timber, it serves as a critical logging area in a windswept region largely dominated by open grassland and rocky bluffs.",
+ "sections": [
+  {
+   "title": "Timber in the Highlands",
+   "body": "While much of the Arathi Highlands consists of expansive plains, rugged mesas, and ancient ruins, stands of harvestable lumber are hard to come by. Hatchet Ridge provides essential wood for fortification and fuel, making its slopes a point of interest for forces seeking to establish a lasting foothold in the territory.",
+   "spoiler": 0
+  },
+  {
+   "title": "Contested Slopes",
+   "body": "Because timber is a finite and vital commodity across Arathi, logging operations here face constant pressure. The wildlife native to the highlands poses a persistent danger to workers, while rival factions roaming the region keep the ridge perpetually contested.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Hatchet Ridge located?",
+   "aliases": [
+    "hatchet ridge location",
+    "where is hatchet ridge",
+    "find hatchet ridge"
+   ],
+   "answer": "Hatchet Ridge lies in the northwestern region of the Arathi Highlands, set among the wooded hills overlooking the central plains."
+  },
+  {
+   "q": "Why is this area important?",
+   "aliases": [
+    "hatchet ridge importance",
+    "why lumber mill arathi",
+    "what is hatchet ridge for"
+   ],
+   "answer": "The Arathi Highlands is predominantly grassy and rocky, making concentrated timberlands scarce. Hatchet Ridge provides vital lumber needed for constructing outposts, wagons, and defenses."
+  },
+  {
+   "q": "What threats inhabit the ridge?",
+   "aliases": [
+    "monsters at hatchet ridge",
+    "hatchet ridge enemies",
+    "who controls hatchet ridge"
+   ],
+   "answer": "The ridge is stalked by dangerous highlands predators and aggressive creatures native to the woodlands, alongside hostile scouting patrols from opposing factions competing for control of Arathi."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "With the Horde expanding its encampments across Arathi, securing local lumber is vital for fueling forward garrisons without relying entirely on distant supply lines."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance forces operating in Arathi depend heavily on timber to shore up defenses against aggressive rivals contesting the highlands."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "hatchet ridge",
+  "logging",
+  "lumber",
+  "timber"
+ ],
+ "related": [
+  "zone:arathi",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Hatchet Ridge"
+ ]
+}

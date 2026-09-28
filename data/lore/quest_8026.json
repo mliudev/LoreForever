@@ -1,0 +1,122 @@
+{
+ "key": "quest:8026",
+ "type": "quest",
+ "name": "Redeem iCoke Prize Voucher",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   8026
+  ],
+  "level": "1",
+  "faction": null,
+  "start": "",
+  "end": "Bethina Antonia Dart Tresa MacGregor Nyx Bloodrage Hovrak Gutrender Rygal Rocknell",
+  "previous": null,
+  "next": null,
+  "wiki": "Redeem iCoke Prize Voucher",
+  "chain": []
+ },
+ "summary": "Redeem iCoke Prize Voucher is an unusual promotional turn-in tied to regional prize vouchers across Azeroth. It directs travelers to contact select merchants and handlers scattered across both Alliance and Horde lands to redeem promotional prize tokens.",
+ "sections": [
+  {
+   "title": "A Curious Promotion",
+   "body": "Across both continents, select regional merchants and couriers stand ready to inspect curious vouchers from distant lands. Whether visiting Antonia Dart in Elwynn Forest, Bethina in Teldrassil, Tresa MacGregor in the Wetlands, Nyx Bloodrage in Durotar, Hovrak Gutrender in Silverpine Forest, or Rygal Rocknell in Desolace, adventurers find a peculiar network of trade representatives offering to trade stamped vouchers for rare trinkets.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cross-Continental Handlers",
+   "body": "The widespread presence of handlers across both Kalimdor and the Eastern Kingdoms makes this errand uniquely agnostic of faction lines. Representatives embedded within small frontier settlements or starting territories were tasked with processing vouchers directly, bringing oddities and exotic companions into the hands of wandering heroes regardless of allegiance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the iCoke Prize Voucher quest?",
+   "aliases": [
+    "icoke prize voucher",
+    "what is this quest",
+    "coke quest"
+   ],
+   "answer": "It is a promotional turn-in quest that allows players carrying a specific prize voucher to redeem it with selected handlers located in various outposts across Azeroth."
+  },
+  {
+   "q": "Where can Alliance players turn in the voucher?",
+   "aliases": [
+    "alliance turn in",
+    "who takes the voucher alliance",
+    "antonia dart voucher"
+   ],
+   "answer": "Alliance heroes can take the voucher to Antonia Dart in Elwynn Forest, Bethina in Teldrassil, or Tresa MacGregor in the Wetlands."
+  },
+  {
+   "q": "Where can Horde players turn in the voucher?",
+   "aliases": [
+    "horde turn in",
+    "who takes the voucher horde",
+    "nyx bloodrage voucher"
+   ],
+   "answer": "Horde adventurers can complete the redemption by speaking with Nyx Bloodrage in Durotar, Hovrak Gutrender in Silverpine Forest, or Rygal Rocknell in Desolace."
+  },
+  {
+   "q": "What is required to complete the quest?",
+   "aliases": [
+    "quest requirement",
+    "what item do i need",
+    "voucher turn in item"
+   ],
+   "answer": "Completing the task requires bringing an authentic iCoke Prize Voucher item directly to any of the designated redemption handlers."
+  },
+  {
+   "q": "Why is this quest available in so many zones?",
+   "aliases": [
+    "why so many turn ins",
+    "different quest givers",
+    "multiple locations"
+   ],
+   "answer": "To ensure that players of any race or faction could conveniently redeem their promotional item without having to travel across the entire world, handlers were stationed across several low-to-mid level zones in both Kalimdor and the Eastern Kingdoms."
+  },
+  {
+   "q": "Can players share this quest with each other?",
+   "aliases": [
+    "share quest",
+    "can i share icoke",
+    "battleground sharing"
+   ],
+   "answer": "Historically, adventurers have been able to pass the quest log entry directly to party members and allies across faction activities and battlegrounds, allowing curious travelers outside the promotion's original territories to hold the task."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance citizens will find convenient redemption representatives stationed in Goldshire's vicinity in Elwynn Forest, outside Darnassus in Teldrassil, and within the Wetlands harbor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde travelers can find handlers stationed in Durotar near the capital, within Silverpine Forest, or out in the barren frontier of Desolace."
+  }
+ ],
+ "keywords": [
+  "antonia dart",
+  "bethina",
+  "hovrak gutrender",
+  "icoke",
+  "nyx bloodrage",
+  "promotion",
+  "rygal rocknell",
+  "tresa macgregor",
+  "voucher"
+ ],
+ "related": [
+  "zone:elwynn",
+  "zone:durotar",
+  "zone:silverpine",
+  "zone:wetlands",
+  "zone:desolace",
+  "quest:940",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Redeem iCoke Prize Voucher"
+ ]
+}

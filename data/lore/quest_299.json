@@ -1,0 +1,125 @@
+{
+ "key": "quest:299",
+ "type": "quest",
+ "name": "Uncovering the Past",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   299
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Prospector Whelgar",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Uncovering the Past",
+  "chain": []
+ },
+ "summary": "Prospector Whelgar tasks adventurers with venturing into the overrun Whelgar's Excavation Site in the Wetlands to recover four missing pieces of an ancient tablet known as the Goaz Stone. Piecing together these fragments reveals chilling lore concerning the Titans and the primeval entities imprisoned beneath Azeroth.",
+ "sections": [
+  {
+   "title": "The Broken Stone",
+   "body": "Before raptors swarmed the dig site in the Wetlands, Prospector Whelgar unearthed a significant relic: the Goaz Stone. Initial attempts to decipher its ancient script yielded fragmented references to a 'divine plan' and a 'doomed prophecy.' Unfortunately, key sections broke off in four distinct places, scattering critical passages across the fossil-strewn dirt.",
+   "spoiler": 0
+  },
+  {
+   "title": "Braving the Dig Site",
+   "body": "Reconstructing the stone requires scouring the raptor-infested excavation grounds for the four missing fragments: Ados, Modr, Golm, and Neru. Buried among loose soil and half-excavated relics guarded by aggressive Razormaws and Scytheclaws, finding every piece demands cutting through the apex predators of the marshland.",
+   "spoiler": 0
+  },
+  {
+   "title": "Chained Beneath the Land",
+   "body": "Once reunited, the Goaz Stone reveals the delicate and enigmatic language of the Titans. Translating the reassembled glyphs, Whelgar uncovers a chilling inscription: 'Old Gods... Chained Beneath the Land.' Far from a simple historical oddity, the tablet hints at titanic struggles from the dawn of the world and shadowy evils buried under the crust of Azeroth.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Goaz Stone?",
+   "aliases": [
+    "goaz stone lore",
+    "what is the goaz tablet",
+    "tablet fragments wetlands"
+   ],
+   "answer": "The Goaz Stone is an ancient Titan relic discovered by Prospector Whelgar in the Wetlands excavation site. It contains cryptic inscriptions concerning cosmic history, a divine plan, and ancient entities bound deep underground."
+  },
+  {
+   "q": "Who gives the quest Uncovering the Past?",
+   "aliases": [
+    "who starts uncovering the past",
+    "where to get uncovering the past"
+   ],
+   "answer": "Prospector Whelgar offers the quest from his vantage point overlooking Whelgar's Excavation Site in the southern hills of the Wetlands, having been driven away from his dig by feral raptors."
+  },
+  {
+   "q": "What fragments are needed to complete the tablet?",
+   "aliases": [
+    "which fragments",
+    "tablet piece names",
+    "ados modr golm neru"
+   ],
+   "answer": "You need four specific stone fragments: Ados, Modr, Golm, and Neru. They are scattered throughout loose soil mounds and ancient urns across the raptor-infested quarry floor."
+  },
+  {
+   "q": "Why can't Prospector Whelgar recover the fragments himself?",
+   "aliases": [
+    "why doesn't whelgar get the stones",
+    "why whelgar asks you"
+   ],
+   "answer": "Whelgar is an elderly dwarven scholar. When vicious raptors suddenly invaded and overtook the quarry, he was forced to retreat and lacks the physical strength to fight through the packs alone."
+  },
+  {
+   "q": "What do the translated Titan glyphs reveal?",
+   "aliases": [
+    "what does the goaz stone say",
+    "titan translation wetlands",
+    "old gods chained beneath the land"
+   ],
+   "answer": "Once the four missing pieces are set into place, Whelgar deciphers the Titan script, reading the phrase: 'Old Gods... Chained Beneath the Land.' This hints at the ancient cosmic entities locked away during the shaping of Azeroth."
+  },
+  {
+   "q": "Does this quest tie into any other nearby expeditions?",
+   "aliases": [
+    "quests near excavation site",
+    "ormer ironbraid connection",
+    "ormer's revenge link"
+   ],
+   "answer": "Yes. It directly complements Ormer Ironbraid's questline, Ormer's Revenge, which tasks adventurers with thinning the raptor population in the same excavation quarry."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The Explorers' League considers every recovered relic vital to unlocking dwarven origins, and the Titan inscriptions on the Goaz Stone tie directly into that ancient heritage."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Supporting League excavations throughout the Wetlands strengthens the Alliance's presence and secures valuable knowledge before it falls into wild or hostile hands."
+  }
+ ],
+ "keywords": [
+  "ados",
+  "goaz stone",
+  "golm",
+  "modr",
+  "neru",
+  "old gods",
+  "prospector whelgar",
+  "titans",
+  "uncovering the past",
+  "wetlands",
+  "whelgar's excavation site"
+ ],
+ "related": [
+  "npc:prospector-whelgar",
+  "quest:294",
+  "topic:titan",
+  "topic:old-god",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "Uncovering the Past"
+ ]
+}

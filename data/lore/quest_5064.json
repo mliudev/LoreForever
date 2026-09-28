@@ -1,0 +1,133 @@
+{
+ "key": "quest:5064",
+ "type": "quest",
+ "name": "Grimtotem Spying",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   5064
+  ],
+  "level": "28",
+  "faction": "Horde",
+  "start": "Cliffwatcher Longhorn",
+  "end": "",
+  "previous": "Pacify the Centaur",
+  "next": null,
+  "wiki": "Grimtotem Spying",
+  "chain": [
+   "Message to Freewind Post",
+   "Pacify the Centaur",
+   "Grimtotem Spying"
+  ]
+ },
+ "summary": "Cliffwatcher Longhorn tasks Horde champions with infiltrating Darkcloud Pinnacle to discover what the elusive Grimtotem clan is plotting. Three unknown couriers were spotted visiting the mesa, leaving guarded correspondence scattered across their mountaintop village. Uncovering these secret notes exposes a brewing scheme that threatens the tauren settlements of Thousand Needles.",
+ "sections": [
+  {
+   "title": "Eyes in the Wind",
+   "body": "Freewind Post sits precariously on high spires, but its defenders must constantly look over their shoulders at their hostile cousins. The Grimtotem clan has long maintained a tense, resentful stance toward the Horde, clinging to their isolationist strongholds atop Darkcloud Pinnacle. Cliffwatcher Longhorn noticed a shift in their behavior when three mysterious agents arrived over successive weeks, conferring with clan leadership in secret. Longhorn suspects these emissaries carried marching orders or alliances meant to undermine Thunder Bluff's presence in the canyon.",
+   "spoiler": 0
+  },
+  {
+   "title": "Infiltration of Darkcloud Pinnacle",
+   "body": "Darkcloud Pinnacle is a fortified network of sheer mesas connected by wooden rope bridges. Penetrating the village requires braving dense patrols of hostile Grimtotem warriors and shamans. Longhorn's scouts confirmed that the mysterious messages were locked away in separate chests spread across the outpost's central dwellings and outer bluffs. Securing the three secret notes requires sneaking or fighting across the entire settlement to snatch the clan's private communications from under their watchful eyes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dire Portents",
+   "body": "Returning the three retrieved notes to Cliffwatcher Longhorn validates Freewind Post's darkest fears. The correspondence reveals that the Grimtotem are not merely posturing; they are actively coordinating with outside agents for an impending move. While the full extent of their machinations remains shrouded, Longhorn immediately begins drafting contingencies to protect the canyon posts from sudden betrayal.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is sending agents to meet with the Grimtotem?",
+   "aliases": [
+    "who visited grimtotem",
+    "grimtotem secret agents",
+    "who sent the notes"
+   ],
+   "answer": "Cliffwatcher Longhorn only knows that three agents of unknown origin were seen visiting Darkcloud Pinnacle over recent weeks. The exact identity of their backers is kept strictly under wraps within the guarded notes."
+  },
+  {
+   "q": "Where is Darkcloud Pinnacle located?",
+   "aliases": [
+    "where is darkcloud pinnacle",
+    "how to get to darkcloud pinnacle",
+    "darkcloud pinnacle entrance"
+   ],
+   "answer": "Darkcloud Pinnacle is situated in western Thousand Needles, southeast of the Great Lift. A marked path with a blue totem leads up the mesa cliffs into the village, where wooden bridges connect several high pinnacles."
+  },
+  {
+   "q": "Why are the Grimtotem hostile to other tauren?",
+   "aliases": [
+    "why do grimtotem hate horde",
+    "grimtotem vs thunder bluff",
+    "are grimtotem evil"
+   ],
+   "answer": "The Grimtotem believe the tauren are superior to all other races and fiercely reject Cairne Bloodhoof's alliance with the Horde. While some Grimtotem reside under a fragile peace in Thunder Bluff, clans like those on Darkcloud Pinnacle operate with open hostility toward both the Horde and the Alliance."
+  },
+  {
+   "q": "Who gives the quest Grimtotem Spying?",
+   "aliases": [
+    "who starts grimtotem spying",
+    "grimtotem spying quest giver"
+   ],
+   "answer": "Cliffwatcher Longhorn offers the quest at Freewind Post in Thousand Needles, but only after you have proven your reliability by completing earlier tasks for the post."
+  },
+  {
+   "q": "What prerequisite quests are required before this one?",
+   "aliases": [
+    "prereqs for grimtotem spying",
+    "how to unlock grimtotem spying",
+    "grimtotem spying chain"
+   ],
+   "answer": "You must complete 'Message to Freewind Post' and 'Pacify the Centaur' before Cliffwatcher Longhorn trusts you enough to entrust you with the espionage mission against the Grimtotem."
+  },
+  {
+   "q": "What happens when you turn in the three secret notes?",
+   "aliases": [
+    "grimtotem spying completion",
+    "what do the notes say"
+   ],
+   "answer": "Upon reading the contents, Cliffwatcher Longhorn reacts with shock, declaring the news to be dire. He acknowledges that Freewind Post must urgently prepare defenses for whatever scheme the Grimtotem are preparing."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Grimtotem clan's treachery strikes deeply at the tauren, whose society values harmony and family honor. Discovering that kin are meeting secretly with unknown conspirators threatens everything Cairne Bloodhoof has built."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Freewind Post is a critical Horde lifeline through southern Kalimdor. Any subversive plotting among the Grimtotem at Darkcloud Pinnacle endangers the tenuous supply lines running between the Barrens and Tanaris."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Recovering the three chests across Darkcloud Pinnacle's suspended bridges and heavily patrolled buildings is an ideal covert operation, rewarding stealth over outright confrontation."
+  }
+ ],
+ "keywords": [
+  "cliffwatcher longhorn",
+  "darkcloud pinnacle",
+  "freewind post",
+  "grimtotem",
+  "secret notes",
+  "spying",
+  "tauren",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:cliffwatcher-longhorn",
+  "subzone:darkcloud-pinnacle",
+  "subzone:freewind-post",
+  "quest:4841",
+  "quest:4542",
+  "quest:5147",
+  "npc:lakota-windsong",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Grimtotem Spying"
+ ]
+}

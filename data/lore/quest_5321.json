@@ -1,0 +1,130 @@
+{
+ "key": "quest:5321",
+ "type": "quest",
+ "name": "The Sleeper Has Awakened",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   5321
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Kerlonian Evershade",
+  "end": "Liladris Moonriver",
+  "previous": null,
+  "next": null,
+  "wiki": "The Sleeper Has Awakened (Classic)",
+  "chain": []
+ },
+ "summary": "Kerlonian Evershade, a recently awakened Druid of the Claw, struggles to remain awake on his journey toward Maestra's Post in Ashenvale. Entrusted with his Horn of Awakening, travelers must shepherd the lethargic druid along the forested border, rousing him when he drifts into slumber and defending him against wild furbolgs and sinister cultists.",
+ "sections": [
+  {
+   "title": "A Slumbering Mind",
+   "body": "For millennia, the Druids of the Claw slept within barrows, communing with the wild spirits across the Emerald Dream. Though the Third War demanded their awakening, shaking off centuries of hibernation does not come easily to every mind. Kerlonian Evershade set out south from Darkshore toward Ashenvale to rendezvous with Liladris Moonriver, but exhaustion overtook him shortly into his trek. Finding himself helplessly prone to sudden naps along the wilds, he relies on a brass Horn of Awakening and passing allies to keep his feet moving.",
+   "spoiler": 0
+  },
+  {
+   "title": "Peril Along the Road",
+   "body": "The path connecting Darkshore to Ashenvale is far from tranquil. As Kerlonian meanders southward, his vulnerable state invites aggression from the surrounding wilderness. In Twilight Vale, corrupted Blackwood furbolgs stalk the roadway, while farther south into Ashenvale, members of the shadowy Dark Strand cult lurk in ambush. Escorting the groggy druid requires a vigilant watch, as Kerlonian will simply lie down to sleep wherever he stands unless forcefully roused with the horn.",
+   "spoiler": 0
+  },
+  {
+   "title": "Arrival at the Outpost",
+   "body": "Upon surviving the ambushes and reaching Maestra's Post, Kerlonian promptly slips away to find another comfortable patch of grass to continue his interrupted nap. His contact, Liladris Moonriver, expresses little surprise at his habitual daze, greeting his arrival with fond exasperation. Kerlonian's struggle reflects the lingering disorientation shared by many druids who find the waking world jarring compared to the timeless tranquility of the Dream.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Kerlonian keep falling asleep?",
+   "aliases": [
+    "why is kerlonian sleeping",
+    "why is he so sleepy",
+    "druid falling asleep"
+   ],
+   "answer": "Kerlonian Evershade is a Druid of the Claw who only recently awoke from centuries of hibernation in the Emerald Dream. Returning to the waking world leaves many druids disoriented and profoundly lethargic, making it nearly impossible for him to stay awake without constant external stimulation."
+  },
+  {
+   "q": "How do you wake Kerlonian up when he naps?",
+   "aliases": [
+    "how to wake kerlonian",
+    "kerlonian horn",
+    "horn of awakening use"
+   ],
+   "answer": "You must use the Horn of Awakening, which is retrieved from a chest beside Kerlonian when the journey begins. Whenever he collapses into slumber along the trail, blowing the horn will snap him back to his senses so he can continue following."
+  },
+  {
+   "q": "Who is waiting for Kerlonian at Maestra's Post?",
+   "aliases": [
+    "who is liladris",
+    "who is kerlonian meeting"
+   ],
+   "answer": "He is traveling to meet Liladris Moonriver, an elf stationed at Maestra's Post in northern Ashenvale. She is familiar with his chronic sleepiness and is simply relieved to see him arrive intact."
+  },
+  {
+   "q": "What enemies attack along the way?",
+   "aliases": [
+    "ambushes during escort",
+    "what attacks kerlonian",
+    "twilight vale ambush"
+   ],
+   "answer": "The road leads past Twilight Vale, where hostile Blackwood furbolgs ambush the party. Further south into Ashenvale, excavators, adepts, and cultists belonging to the secretive Dark Strand strike from the shadows."
+  },
+  {
+   "q": "Where does the title 'The sleeper has awakened' come from?",
+   "aliases": [
+    "sleeper has awakened quote",
+    "druid voiceline"
+   ],
+   "answer": "It is the iconic greeting spoken by Druids of the Claw upon being called into service during the Third War, highlighting Kerlonian's nature as an awakened shapeshifter."
+  },
+  {
+   "q": "What happens to the horn if you take too long?",
+   "aliases": [
+    "horn expired",
+    "horn of awakening disappeared"
+   ],
+   "answer": "The Horn of Awakening carries a limited duration before it vanishes from your possessions. If the escort takes too long or must be restarted after a failure, a replacement must be gathered from the chest at Kerlonian's resting spot."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Druids will recognize the heavy toll of deep communion with the Emerald Dream, as prolonged hibernation often leaves the waking mind slow to regain full consciousness."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, Kerlonian is a familiar sight of their culture's recent upheaval, representing the thousands of druids who answered the call of the horn during the Third War and now adjust to daylight."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing the safe passage of travelers between Darkshore and northern Ashenvale helps maintain vital communication lines between Auberdine and outlying sentry posts."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "dark strand",
+  "darkshore",
+  "druid of the claw",
+  "evershade",
+  "horn of awakening",
+  "kerlonian",
+  "liladris",
+  "maestra's post",
+  "twilight vale"
+ ],
+ "related": [
+  "npc:kerlonian-evershade",
+  "subzone:maestra-s-post",
+  "zone:darkshore",
+  "zone:ashenvale",
+  "subzone:twilight-vale",
+  "topic:emerald-dream",
+  "topic:druid",
+  "quest:2561"
+ ],
+ "attribution": [
+  "The Sleeper Has Awakened (Classic)"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "subzone:thunk-s-abode",
+ "type": "subzone",
+ "name": "Thunk's Abode",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Thunk's Abode"
+ },
+ "summary": "Thunk's Abode is an isolated encampment in northeastern Desolace, situated between Sargeron and the Cenarion Wildlands. Established by Cenarion Ambassador Thunk, the outpost serves as an operational base for the Cenarion Circle's ongoing mission to reclaim the arid wilderness.",
+ "sections": [
+  {
+   "title": "A Foothold in the Wastes",
+   "body": "Tucked away in the shadow of Sargeron's demonic ruins, Thunk's Abode is a quiet haven amidst the bleak expanse of Desolace. Run by Cenarion Ambassador Thunk, the camp operates under the authority of the Cenarion Circle with an ambitious mandate: to coax vibrant prairie life from the grey, blighted soil. Lacking obvious roads or prominent scouts to guide travelers in, the post is easy for wanderers to miss. Yet for those who stumble across it, the camp offers both a brief respite and an active frontline in the druidic effort to restore balance to Kalimdor's fractured wilds.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reclamation and Regional Ties",
+   "body": "Beyond its local cultivation efforts, Thunk's Abode functions as a minor logistics and flight nexus for wilderness scouts. Thunk's wyvern provides swift aerial connections across Desolace to sites like Furien's Post, Ethel Rethor, and Karnum's Glade, as well as routes reaching back toward Thunder Bluff. The work conducted from this small shelter extends toward other regional oddities and allies, including tasks that bridge Cenarion ecological study with the ventures of local goblin opportunists looking to turn a profit on the wasteland's strange properties.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of Thunk's Abode?",
+   "aliases": [
+    "why is thunk here",
+    "thunks abode purpose",
+    "what is this camp"
+   ],
+   "answer": "The camp was established by Cenarion Ambassador Thunk on behalf of the Cenarion Circle. Its primary mission is ecological restoration: attempting to turn the blighted, barren ground of Desolace into fertile prairie."
+  },
+  {
+   "q": "Where is Thunk's Abode located?",
+   "aliases": [
+    "thunk location",
+    "where is thunks abode",
+    "find thunks abode"
+   ],
+   "answer": "It is located in northeastern Desolace, positioned south of the demon-infested ruins of Sargeron and northeast of the Cenarion Wildlands."
+  },
+  {
+   "q": "Can players fly out from this camp?",
+   "aliases": [
+    "thunks abode flight master",
+    "is there a flight path here",
+    "thunk wyvern"
+   ],
+   "answer": "Yes. Thunk keeps a wyvern that functions as a flight transport, connecting travelers to regional posts such as Ethel Rethor, Karnum's Glade, Furien's Post, and the tauren capital of Thunder Bluff."
+  },
+  {
+   "q": "Why isn't there any quest directing me to this location?",
+   "aliases": [
+    "breadcrumb to thunk",
+    "how to find thunk",
+    "no quest to thunks abode"
+   ],
+   "answer": "Thunk's Abode does not have an introductory breadcrumb quest guiding adventurers to its doorstep. It is meant to be discovered organically while traversing the northeastern foothills of Desolace."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For Cenarion druids, Thunk represents the difficult, ground-level toil of restoring life to land scarred by ancient demonic and elemental devastation."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "With direct wyvern travel back to Thunder Bluff, the camp serves as a convenient frontier post for Horde travelers trekking through the northern wastes."
+  }
+ ],
+ "keywords": [
+  "cenarion ambassador",
+  "cenarion circle",
+  "desolace",
+  "prairie",
+  "sargeron",
+  "thunk",
+  "thunk's abode",
+  "wyvern"
+ ],
+ "related": [
+  "topic:cenarion-circle",
+  "zone:desolace",
+  "subzone:sargeron",
+  "subzone:cenarion-wildlands",
+  "subzone:karnum-s-glade",
+  "subzone:furien-s-post",
+  "subzone:ethel-rethor",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Thunk's Abode"
+ ]
+}

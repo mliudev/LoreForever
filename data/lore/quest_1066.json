@@ -1,0 +1,120 @@
+{
+ "key": "quest:1066",
+ "type": "quest",
+ "name": "Blood of Innocents",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   1066
+  ],
+  "level": "23",
+  "faction": "Horde",
+  "start": "Apothecary Lydon",
+  "end": "",
+  "previous": "Journey to Tarren Mill",
+  "next": null,
+  "wiki": "Blood of Innocents (quest)",
+  "chain": []
+ },
+ "summary": "Blood of Innocents is an errand undertaken for Apothecary Lydon in Tarren Mill to harvest sinister alchemical components. Seeking to pacify the encroaching Venture Company in Stonetalon Mountains, the Royal Apothecary Society utilizes dark ingredients gathered from regional bandits.",
+ "sections": [
+  {
+   "title": "A Chemical Solution",
+   "body": "The Horde faces persistent friction in the Stonetalon Mountains, where the rapacious Venture Company ravages the wilderness without regard for the earth or its inhabitants. Rather than dispatching armies to blunt their axes, Apothecary Lydon proposes an alchemical remedy. His plan involves concocting a paralyzing, pacifying agent designed to sap the mercenaries of their aggression, leaving them weak and docile.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stolen from the Wicked",
+   "body": "Brewing such an insidious concoction demands an exceedingly rare and morally questionable reagent: the blood of innocents. Rather than forcing Horde agents to slaughter innocents directly, Lydon capitalizes on the crimes of the local Syndicate. The fallen nobles and cutthroats infesting Durnholde Keep employ rogue shadow mages who harvest innocent blood for their own profane rituals, making them an opportune target for alchemical requisition.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Apothecary Lydon need innocent blood?",
+   "aliases": [
+    "what is innocent blood for",
+    "why blood of innocents",
+    "lydon blood quest"
+   ],
+   "answer": "Apothecary Lydon needs it as a key reagent for an experimental concoction. He plans to brew a debilitating toxin that drains the violent drive from the Venture Company in Stonetalon Mountains, rendering the defilers subdued and easily handled."
+  },
+  {
+   "q": "Who has the vials of innocent blood?",
+   "aliases": [
+    "who drops the blood",
+    "where to get blood of innocents",
+    "innocent blood location"
+   ],
+   "answer": "The vials are carried by Syndicate shadow mages. These rogue casters lurk among the ruins of Durnholde Keep southeast of Tarren Mill, hoarding the blood for their own unsavory spellwork."
+  },
+  {
+   "q": "Why does a Hillsbrad quest involve the Stonetalon Mountains?",
+   "aliases": [
+    "connection to stonetalon",
+    "why tarren mill stonetalon"
+   ],
+   "answer": "Horde leaders in Kalimdor reached out to the Royal Apothecary Society in the Eastern Kingdoms for scientific aid. While the conflict against the Venture Company unfolds in Stonetalon, specialists like Apothecary Lydon in Tarren Mill possess the sinister craft required to brew specialized biological remedies."
+  },
+  {
+   "q": "What is the Syndicate?",
+   "aliases": [
+    "who are the syndicate",
+    "syndicate lore"
+   ],
+   "answer": "The Syndicate is an organization of former human nobility from the ruined kingdom of Alterac turned brigands, assassins, and cutthroats. Desperate to reclaim their lost lands, they stoop to extortion, dark magic, and preying upon anyone crossing through the Hillsbrad and Alterac regions."
+  },
+  {
+   "q": "Where is Durnholde Keep located?",
+   "aliases": [
+    "find durnholde keep",
+    "where is durnholde"
+   ],
+   "answer": "Durnholde Keep lies to the southeast of Tarren Mill in the Hillsbrad Foothills. Once a notorious human fortress and orc internment camp, it now lies half in ruins and serves as a major redoubt for the Syndicate."
+  },
+  {
+   "q": "Is the Horde committing murder to get this blood?",
+   "aliases": [
+    "did horde kill innocents",
+    "innocent blood source"
+   ],
+   "answer": "No. While the Royal Apothecary Society rarely shies away from gruesome methods, Lydon specifically directs agents to scavenge blood that the Syndicate's shadow mages have already harvested from their own victims."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, moral qualms take a backseat to efficiency. Lydon's calculated approach illustrates how the Royal Apothecary Society uses cold logic to solve the problems of their living allies."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Tauren may find the harvesting of innocent blood deeply unsettling, yet the overarching goal is ending the Venture Company's environmental devastation in Kalimdor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The mission highlights the trans-continental ties holding the Horde together, utilizing Forsaken alchemical dark arts in Lordaeron to protect territories in Kalimdor."
+  }
+ ],
+ "keywords": [
+  "apothecary lydon",
+  "blood of innocents",
+  "durnholde keep",
+  "shadow mages",
+  "stonetalon mountains",
+  "syndicate",
+  "tarren mill",
+  "venture company"
+ ],
+ "related": [
+  "subzone:tarren-mill",
+  "subzone:durnholde-keep",
+  "quest:1065",
+  "topic:syndicate",
+  "topic:venture-company",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Blood of Innocents (quest)"
+ ]
+}

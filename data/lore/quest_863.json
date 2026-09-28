@@ -1,0 +1,136 @@
+{
+ "key": "quest:863",
+ "type": "quest",
+ "name": "The Escape",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   863
+  ],
+  "level": "18",
+  "faction": null,
+  "start": "Wizzlecrank's Shredder",
+  "end": "Sputtervalve",
+  "previous": "Ignition (Classic)",
+  "next": null,
+  "wiki": "The Escape (Classic)",
+  "chain": [
+   "Ignition (Classic)",
+   "The Escape (Classic)"
+  ]
+ },
+ "summary": "The Escape is an escort quest in the northern Barrens where adventurers help the gnome engineer Wizzlecrank flee the Venture Company's drill site at the Sludge Fen. Trapped inside a stolen prototype shredder, Wizzlecrank requires protection against waves of company mercenaries until he clears the industrial pit. The mission concludes by reporting back to his contact, Sputtervalve, in the port town of Ratchet.",
+ "sections": [
+  {
+   "title": "A Clumsy Getaway",
+   "body": "Having ignited the stolen prototype deep within the Sludge Fen drill site, Wizzlecrank quickly discovers that commandeering goblin engineering is easier said than done. With only a rudimentary grasp of the control levers and switches, the gnome lurches the heavy machine across the muddy quarry floor. His erratic driving and roaring mechanical joints inevitably alert nearby laborers and armed guards, turning what should have been a stealthy extraction into a chaotic running battle up the western ramp of the excavation pit.",
+   "spoiler": 0
+  },
+  {
+   "title": "Venture Company Pursuit",
+   "body": "The Venture Company does not take the theft of proprietary prototypes lightly. As the machine claws its way up the slope toward open ground, squads of company mercenaries deploy to intercept and disable the runaway construct. Despite the prototype lashing out to defend itself, the clumsy contraption cannot withstand concerted sabotage without outside bodyguard work. Clearing the rim allows the craft to stagger clear of the main drilling depression, though the machine suffers critical failure shortly thereafter.",
+   "spoiler": 0
+  },
+  {
+   "title": "Salvage and Payoff",
+   "body": "Once out of the immediate danger zone, the prototype shredder breaks down entirely and collapses onto the savanna turf. Wizzlecrank scrambles out alive, instructing his rescuers to report to Sputtervalve in Ratchet while he stays behind with the wreckage. Sputtervalve, desperate to dissect the Venture Company's cutting-edge designs before his window of opportunity closes, immediately mobilizes a goblin salvage squad to haul whatever intact mechanisms survive back to port.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Wizzlecrank and why is he inside a shredder?",
+   "aliases": [
+    "who is wizzlecrank",
+    "why is gnome in shredder",
+    "wizzlecrank shredder"
+   ],
+   "answer": "Wizzlecrank is an operative and mechanic working with Sputtervalve in Ratchet. He infiltrated the Venture Company's northern drill site to steal their latest experimental shredder prototype, but ended up trapped inside while figuring out the unfamiliar cockpit controls."
+  },
+  {
+   "q": "Where does this escape take place?",
+   "aliases": [
+    "where is the escape quest",
+    "escape location",
+    "sludge fen escort"
+   ],
+   "answer": "The escort begins deep inside the Sludge Fen, a fouled industrial drilling site operated by the Venture Company in the northern Barrens, just north of the dry savanna basin."
+  },
+  {
+   "q": "Do you have to escort the shredder all the way to Ratchet?",
+   "aliases": [
+    "how far do i walk",
+    "escort path",
+    "do you go to ratchet"
+   ],
+   "answer": "No. You only escort Wizzlecrank out of the drill pit depression and up the western ramp. Once safely away from the quarry rim, the machine breaks down and Wizzlecrank tells you to report back to Ratchet on your own."
+  },
+  {
+   "q": "Who is Sputtervalve?",
+   "aliases": [
+    "who is sputtervalve",
+    "turn in npc sputtervalve",
+    "sputtervalve lore"
+   ],
+   "answer": "Sputtervalve is a goblin technician stationed near the docks in Ratchet. He coordinates industrial intelligence against the rival Venture Company and seeks their mechanical designs to profit off their technological innovations."
+  },
+  {
+   "q": "Why does the shredder fall over at the end?",
+   "aliases": [
+    "why shredder break",
+    "shredder wrecked",
+    "prototype failure"
+   ],
+   "answer": "Wizzlecrank is barely familiar with the controls and the experimental machine is pushed to its limits during the ambush. It suffered severe mechanical strain breaking through the perimeter, causing the prototype to give out as soon as it cleared the drill site."
+  },
+  {
+   "q": "What happens after the prototype crashes?",
+   "aliases": [
+    "salvage crew",
+    "what happens next",
+    "escape quest conclusion"
+   ],
+   "answer": "Wizzlecrank stays with the downed machine while you report to Sputtervalve in Ratchet. Sputtervalve immediately prepares a goblin salvage team to harvest the prototype's high-value components before the Venture Company can reclaim them."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The prototype shredder showcases cutting-edge Venture Company pneumatics and cockpit designs, making its salvage a goldmine of industrial insight."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Wizzlecrank's willingness to pilot a wildly volatile goblin machine on sheer guesswork highlights the classic gnomish impulse to tinker first and ask questions later."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Venture Company's polluting oil operations at the Sludge Fen are an eye-sore on the Barrens, making any disruptive sabotage welcome to local tribes."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "escort",
+  "ignition",
+  "prototype",
+  "ratchet",
+  "shredder",
+  "sludge fen",
+  "sputtervalve",
+  "venture co",
+  "wizzlecrank"
+ ],
+ "related": [
+  "quest:858",
+  "npc:wizzlecrank-s-shredder",
+  "npc:sputtervalve",
+  "subzone:sludge-fen",
+  "subzone:ratchet",
+  "quest:764",
+  "topic:goblin",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "The Escape (Classic)"
+ ]
+}

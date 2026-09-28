@@ -1,0 +1,120 @@
+{
+ "key": "npc:strahad-farsan",
+ "type": "npc",
+ "name": "Strahad Farsan",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Strahad Farsan",
+  "refs": 8
+ },
+ "summary": "Strahad Farsan is a master human warlock who dwells in a secluded stone tower overlooking Ratchet in the Barrens. Renowned across faction lines, he operates outside conventional Alliance and Horde politics, training aspiring summoners in the dangerous arts of binding higher demons. Practitioners of fel magic from Stormwind, Orgrimmar, and the Undercity alike seek his severe guidance.",
+ "sections": [
+  {
+   "title": "The Tower Above Ratchet",
+   "body": "Perched on the bluffs above the goblin port of Ratchet, Strahad Farsan's tower stands apart from the bustling trade docks below. Ratchet's neutrality offers Strahad the freedom to conduct perilous demonic summonings away from the prying eyes of Alliance magistrates or Horde shamans. Surrounded by his acolytes, he studies the deeper mysteries of the Twisting Nether in relative seclusion, unbothered by petty territorial squabbles.",
+   "spoiler": 0
+  },
+  {
+   "title": "Master of Demonic Binding",
+   "body": "Strahad earned his formidable reputation through direct, deadly experience. When first binding a felhunter into service, he barely escaped with his life\u2014an ordeal that left him both acutely cautious and unyielding in his expectations. Despite his human heritage, he has earned the respect of shadowy figures across Azeroth, including Gakin the Darkbinder in Stormwind and demonic scholars in the Undercity and Orgrimmar. Warlocks of any banner who wish to command creatures as volatile as felhunters or fiery steeds are inevitably directed to his doorstep.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Strahad Farsan?",
+   "aliases": [
+    "strahad lore",
+    "who is strahad",
+    "strahad farsan info"
+   ],
+   "answer": "Strahad Farsan is an accomplished human warlock and master trainer residing in a stone tower above Ratchet. He belongs to the inner circle of the prominent Stormwind warlock Gakin the Darkbinder, but his immense skill in demonic summoning makes him an authority sought by warlocks of both the Alliance and the Horde."
+  },
+  {
+   "q": "Why is a human warlock living in the Barrens?",
+   "aliases": [
+    "why is strahad in ratchet",
+    "human in the barrens",
+    "strahad location"
+   ],
+   "answer": "Ratchet is a neutral port run by the Steamwheedle Cartel, providing an ideal haven for dark spellcasters. Living on the bluffs allows Strahad to experiment with dangerous summoning rituals far from the restrictive laws of the Alliance and the watchful scrutiny of the Horde."
+  },
+  {
+   "q": "Why do Horde warlocks visit Strahad?",
+   "aliases": [
+    "horde visiting strahad",
+    "can horde talk to strahad",
+    "why do orcs go to strahad"
+   ],
+   "answer": "Strahad's mastery over demonic entities transcends factional allegiance. Mentors in Orgrimmar and the Undercity acknowledge his expertise in binding complex demons, such as felhunters, and send their most promising pupils across the sea to learn directly from him."
+  },
+  {
+   "q": "What happened to Strahad when he summoned his first felhunter?",
+   "aliases": [
+    "strahad felhunter encounter",
+    "strahad backstory felhunter"
+   ],
+   "answer": "When Strahad first attempted to bind a felhunter, the ritual nearly cost him his life. He barely survived the confrontation, an experience that taught him the brutal precision required to subjugate such magic-consuming predators."
+  },
+  {
+   "q": "Is Strahad related to Godrick Farsan?",
+   "aliases": [
+    "godrick farsan connection",
+    "godrick farsan relative",
+    "is strahad related to godrick"
+   ],
+   "answer": "They share the uncommon surname Farsan, which strongly suggests a family connection, though Strahad remains focused entirely on his dark craft and reveals nothing about his familial ties."
+  },
+  {
+   "q": "Who are the acolytes around his tower?",
+   "aliases": [
+    "strahad acolytes",
+    "acolytes in tower ratchet"
+   ],
+   "answer": "Strahad oversees several dedicated acolytes, including Magaz, Fenrick, and Wytula. They assist him with maintaining protective wards, preparing intricate summoning circles, and tending to the demanding rituals carried out at the tower."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Strahad is a pivotal mentor for intermediate summoners, guiding you through the harrowing rituals required to bind felhunters and summon steeds from the Nether."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Despite being an Alliance-born human, Strahad remains open to dealing with Horde practitioners under the neutral aegis of Ratchet."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Sent by Gakin the Darkbinder from the crypts of the Slaughtered Lamb, Alliance warlocks travel to Kalimdor specifically to study under Strahad."
+  },
+  {
+   "target": "race:Human",
+   "text": "Strahad demonstrates that human masters of the dark arts operate far beyond the kingdom of Stormwind when seeking greater power."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "cabal",
+  "farsan",
+  "felhunter",
+  "gakin",
+  "ratchet",
+  "strahad",
+  "summoner",
+  "warlock"
+ ],
+ "related": [
+  "subzone:ratchet",
+  "zone:barrens",
+  "npc:gakin-the-darkbinder",
+  "npc:menara-voidrender",
+  "quest:1471",
+  "quest:1758",
+  "quest:1798",
+  "npc:godrick-farsan"
+ ],
+ "attribution": [
+  "Strahad Farsan"
+ ]
+}

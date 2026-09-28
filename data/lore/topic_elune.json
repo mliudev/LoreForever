@@ -1,0 +1,120 @@
+{
+ "key": "topic:elune",
+ "type": "topic",
+ "name": "Elune",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Elune"
+ },
+ "summary": "Elune is the revered moon goddess of Azeroth, worshipped primarily by the night elves as their benevolent protector and mother of the forest demigod Cenarius. Associated with the larger moon, the White Lady, she governs peace, healing, and lunar fury across the world. In tauren myth, she is honored as Mu'sha, the gentle left eye of the Earth Mother.",
+ "sections": [
+  {
+   "title": "The White Lady",
+   "body": "Elune is one of the few true deities acknowledged across Azeroth, bound inseparably to the night sky and the larger of the world's two moons, the White Lady. While never appearing in a physical form on the world, night elven artisans portray her as a kaldorei of transcendent grace, bathed in luminescence with alabaster skin, silver hair, and eyes of pure moonlight. Ancient legends among the kaldorei claim she once rested in the depths of the Well of Eternity during the daylight hours, whispering wisdom to the early night elves and teaching them the speech of the world.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Sisters and the Forest",
+   "body": "Night elven spiritual and civil life is anchored in devotion to Elune through the Sisterhood of Elune, an ancient matriarchal priesthood led by High Priestess Tyrande Whisperwind. The Sisters invoke Elune's grace to mend lethal wounds, but they can also channel her radiant wrath to call down searing starlight upon their enemies. Her divine union with the Great White Stag, Malorne, produced Cenarius, binding Elune's heavenly mysteries directly to the druidic traditions that tend the wildlands of Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Aspects and Names",
+   "body": "Though renowned for peace, harmony, and tranquil restoration, Elune is not a gentle pacifist. As the Night Warrior, she acts as a fierce patron of battle who gathers the spirits of fallen heroes from the field and places them in the heavens to ride across the night as stars. Beyond the kaldorei, the nomadic tauren know her as Mu'sha, the radiant left eye of the Earth Mother, who illuminates the night and guides wandering hunters alongside her fiery twin brother, An'she the sun.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Elune?",
+   "aliases": [
+    "what is elune",
+    "elune lore",
+    "who is the moon goddess"
+   ],
+   "answer": "Elune is the primary deity of the night elves, a moon goddess associated with healing, nature, peace, and the White Lady\u2014Azeroth's larger moon. She is widely revered as one of the few true divine beings in the world."
+  },
+  {
+   "q": "Has Elune ever appeared in person?",
+   "aliases": [
+    "has elune taken physical form",
+    "what does elune look like"
+   ],
+   "answer": "Elune has never been observed in physical form on Azeroth. Kaldorei artisans depict her as a radiant, platinum-crowned night elf maiden with long silver hair and glowing moonlight eyes, though her true cosmic shape remains a mystery."
+  },
+  {
+   "q": "What is the Night Warrior?",
+   "aliases": [
+    "elune night warrior",
+    "wrath of elune"
+   ],
+   "answer": "The Night Warrior is Elune's fiercest aspect. Rather than offering gentle peace and healing, this manifestation represents her righteous wrath in combat, lifting the spirits of courageous fallen warriors into the night sky to ride among the stars."
+  },
+  {
+   "q": "How is Elune related to Cenarius?",
+   "aliases": [
+    "is elune cenarius mother",
+    "cenarius parents"
+   ],
+   "answer": "Elune conceived Cenarius with the wild stag demigod Malorne. Through this union, Cenarius inherited both his mother's profound love for Azeroth's living creatures and his father's deep connection to the natural wild and the Emerald Dream."
+  },
+  {
+   "q": "Do the tauren worship Elune?",
+   "aliases": [
+    "musha",
+    "tauren moon goddess",
+    "who is musha"
+   ],
+   "answer": "Yes, though by a different name. Tauren myth refers to her as Mu'sha, the gentle left eye of the Earth Mother, who watches over the world by night alongside her solar brother, An'she."
+  },
+  {
+   "q": "Who leads the worship of Elune in Kalimdor?",
+   "aliases": [
+    "priestesses of elune leader",
+    "sisters of elune"
+   ],
+   "answer": "The Sisterhood of Elune is led by High Priestess Tyrande Whisperwind from the Temple of the Moon in Darnassus. The Sisterhood serves as the primary spiritual and civic authority among the night elves."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Every aspect of kaldorei civilization\u2014from the ruling Sisterhood to the moonlight bathing your woodland settlements\u2014flows from your eternal devotion to the Mother Moon."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The moon in the night sky is Mu'sha, the left eye of the Earth Mother, praised in your ancestral myths for watching over the tribes and the creatures of the dark."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Night elf priests draw their divine spells and celestial fury directly from Elune's guidance, wielding radiant moonlight rather than the holy light worshipped in the eastern kingdoms."
+  },
+  {
+   "target": "class:Druid",
+   "text": "As the divine mother of Lord Cenarius, Elune's celestial influence is woven directly into your astral powers and ancient kinship with the living wild."
+  }
+ ],
+ "keywords": [
+  "cenarius",
+  "elune",
+  "mother moon",
+  "mu'sha",
+  "night warrior",
+  "sisterhood of elune",
+  "tyrande",
+  "white lady"
+ ],
+ "related": [
+  "npc:tyrande-whisperwind",
+  "topic:cenarius",
+  "topic:earth-mother",
+  "npc:malfurion-stormrage",
+  "topic:druid",
+  "topic:tauren",
+  "topic:emerald-dream"
+ ],
+ "attribution": [
+  "Elune"
+ ]
+}

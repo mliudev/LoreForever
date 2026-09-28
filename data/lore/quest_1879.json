@@ -1,0 +1,126 @@
+{
+ "key": "quest:1879",
+ "type": "quest",
+ "name": "Speak with Bink",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   1879
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Magis Sparkmantle",
+  "end": "Bink",
+  "previous": null,
+  "next": "Mage-tastic Gizmonitor",
+  "wiki": "Speak with Bink",
+  "chain": [
+   "Speak with Bink",
+   "Mage-tastic Gizmonitor"
+  ]
+ },
+ "summary": "\"Speak with Bink\" is an Alliance summons directing novice mages from Dun Morogh to the capital city of Ironforge. Dispatched by Magis Sparkmantle, the call sends promising spellcasters to assist Bink, an arcane researcher working out of the Hall of Mysteries.",
+ "sections": [
+  {
+   "title": "A Colleague's Summons",
+   "body": "Novice mages training in the cold crags of Dun Morogh eventually catch the eye of Magis Sparkmantle. Recognizing when an apprentice has outgrown the rudimentary exercises around Kharanos, Sparkmantle passes along word from his colleague, Bink. The request is specific and uncompromising: Bink requires an arcane specialist and refuses to trust the matter to anyone who cannot wield magic.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Hall of Mysteries",
+   "body": "The assignment carries young mages into Ironforge's Mystic Ward, where scholars, priests, and arcanists convene beneath the soaring stone vaults of the Hall of Mysteries. Here Bink conducts her studies, evaluating arriving apprentices with sharp-eyed scrutiny. In her view, raw potential is merely a beginning; an undisciplined spellcaster quickly becomes a hazard rather than an asset in arcane matters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "where to start",
+    "who starts speak with bink"
+   ],
+   "answer": "Magis Sparkmantle offers the quest to novice Alliance mages who have advanced their early training in Dun Morogh."
+  },
+  {
+   "q": "Where can I find Bink?",
+   "aliases": [
+    "bink location",
+    "where is bink",
+    "find bink"
+   ],
+   "answer": "Bink resides in the Hall of Mysteries, located within the Mystic Ward in the northern district of Ironforge."
+  },
+  {
+   "q": "Why does Bink only want a mage?",
+   "aliases": [
+    "why mages only",
+    "mage requirement",
+    "bink only wants mages"
+   ],
+   "answer": "Bink is undertaking research that deals directly with arcane energies and sensitive monitoring equipment. She considers non-mages ill-suited to handle the magical nuances and dangers involved."
+  },
+  {
+   "q": "What happens after meeting Bink?",
+   "aliases": [
+    "next quest",
+    "bink follow up",
+    "what comes after speak with bink"
+   ],
+   "answer": "Upon greeting you and assessing your abilities, Bink enlists your help with her research, continuing into the quest 'Mage-tastic Gizmonitor'."
+  },
+  {
+   "q": "Is this quest available to classes other than mages?",
+   "aliases": [
+    "can other classes do this",
+    "is this mage only",
+    "mage specific"
+   ],
+   "answer": "No. This quest is exclusively tailored for mages as a transition from local novice training into specialized capital city assignments."
+  },
+  {
+   "q": "What is the Hall of Mysteries?",
+   "aliases": [
+    "ironforge hall of mysteries",
+    "what is hall of mysteries"
+   ],
+   "answer": "The Hall of Mysteries is Ironforge's center for arcane and holy study, housing trainers, scholars, and researchers representing the magical arts of both dwarves and gnomes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "This summons marks your departure from introductory valley training into the broader affairs of Ironforge's academic arcanists."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Bink and Magis Sparkmantle represent the continuation of gnomish arcane tradition within the hospitable halls of Ironforge following the loss of Gnomeregan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The shared study within the Hall of Mysteries showcases the close integration of gnomish intellect and dwarven hospitality under the Alliance banner."
+  }
+ ],
+ "keywords": [
+  "bink",
+  "dun morogh",
+  "hall of mysteries",
+  "ironforge",
+  "mage",
+  "magis sparkmantle",
+  "mystic ward"
+ ],
+ "related": [
+  "npc:bink",
+  "npc:magis-sparkmantle",
+  "subzone:hall-of-mysteries",
+  "subzone:mystic-ward",
+  "zone:ironforge",
+  "zone:dunmorogh",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Speak with Bink"
+ ]
+}

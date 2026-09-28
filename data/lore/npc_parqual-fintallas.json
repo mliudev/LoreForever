@@ -1,0 +1,92 @@
+{
+ "key": "npc:parqual-fintallas",
+ "type": "npc",
+ "name": "Parqual Fintallas",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Parqual Fintallas",
+  "refs": 2
+ },
+ "summary": "Parqual Fintallas is a Forsaken scholar and former human historian of Lordaeron, currently residing in the Undercity's Apothecarium. Despite the grim surroundings of his undead existence, he retains a polite demeanor and an enduring passion for ancient lore, often assisting travelers sent to consult his deep historical expertise.",
+ "sections": [
+  {
+   "title": "Scholar of Lost Lordaeron",
+   "body": "In life, Parqual was a respected human scholar who resided in Lordaeron's Capital City with his family, immersing himself in historical texts. When the plague of undeath struck, Parqual was among the many citizens slain and raised, only to eventually break free under Lady Sylvanas Windrunner. While the Forsaken largely embrace cold pragmatism and turn away from their former lives, Parqual retains his scholarly passion and pleasant manners, quietly longing for the historical tomes and memories of the world that once was.",
+   "spoiler": 0
+  },
+  {
+   "title": "Keeper of Ancient Lore",
+   "body": "Parqual dwells among the bubbling vats and alchemists of the Apothecarium in the Undercity. Despite his macabre surroundings, he remains an invaluable font of knowledge regarding Azeroth's history. When adventurers undertake rigorous intellectual trials\u2014such as the elusive 'Test of Lore'\u2014they are directed to Parqual to retrieve answers and historical records that few others in the Horde possess.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Parqual Fintallas?",
+   "aliases": [
+    "parqual fintallas location",
+    "where is parqual",
+    "parqual undercity"
+   ],
+   "answer": "Parqual Fintallas can be found standing in the Apothecarium within the Undercity, the capital city of the Forsaken situated beneath the ruins of Lordaeron."
+  },
+  {
+   "q": "What is Parqual Fintallas known for?",
+   "aliases": [
+    "who is parqual",
+    "what does parqual do",
+    "parqual fintallas lore"
+   ],
+   "answer": "Parqual was an accomplished historian in life who knew almost everything there was to know about the kingdom of Lordaeron. Even in undeath, he serves as an intellectual authority, assisting adventurers seeking obscure historical texts and ancient knowledge."
+  },
+  {
+   "q": "Why is Parqual involved in the Test of Lore?",
+   "aliases": [
+    "parqual test of lore",
+    "test of lore undercity",
+    "parqual fintallas quest"
+   ],
+   "answer": "The Test of Lore requires adventurers to demonstrate knowledge and retrieve esoteric records from around Azeroth. Parqual serves as an important contact because of his unmatched scholarly background and access to historical tomes in Lordaeron."
+  },
+  {
+   "q": "Does Parqual share the hostile demeanor of most Forsaken?",
+   "aliases": [
+    "is parqual friendly",
+    "parqual personality"
+   ],
+   "answer": "Unlike many bitter and cynical Forsaken, Parqual is remarkably gentle and polite. He greets adventurers with genuine warmth, noting how nice it is whenever someone takes the time to speak with him."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Parqual is a rare reminder of the kingdom of Lordaeron's intellectual past, clinging quietly to scholarship and civilized conversation amidst the bleakness of the Apothecarium."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "When Horde adventurers face trials of the mind rather than the blade, Parqual provides the deep historical wisdom needed to uncover Azeroth's ancient truths."
+  }
+ ],
+ "keywords": [
+  "apothecarium",
+  "fintallas",
+  "historian",
+  "lordaeron",
+  "parqual",
+  "scholar",
+  "test of lore",
+  "undercity"
+ ],
+ "related": [
+  "quest:1152",
+  "zone:undercity",
+  "subzone:apothecarium",
+  "topic:forsaken",
+  "topic:lordaeron",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Parqual Fintallas"
+ ]
+}

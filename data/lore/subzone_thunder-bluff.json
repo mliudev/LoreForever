@@ -1,0 +1,94 @@
+{
+ "key": "subzone:thunder-bluff",
+ "type": "subzone",
+ "name": "Thunder Bluff",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Thunder Bluff"
+ },
+ "summary": "Thunder Bluff is the high-perched capital city of the tauren, rising hundreds of feet above the rolling plains of Mulgore. Founded by Cairne Bloodhoof following the Third War, it serves as the united sanctuary and cultural heart for a people who roamed as nomads for generations.",
+ "sections": [
+  {
+   "title": "A Refuge Upon the Mesas",
+   "body": "For countless generations, the tauren lived as nomadic wanderers across central Kalimdor, constantly beset by brutal centaur raiding parties. That era of flight ended during the Third War, when Cairne Bloodhoof forged a bond of honor with Warchief Thrall and the New Horde. Together, they drove back the centaur menace and claimed the fertile grasslands of Mulgore. Cairne gathered the scattered tribes and established Thunder Bluff atop a series of sweeping, natural stone mesas. Today, the city is connected by dizzying rope bridges and accessed by ingenious wooden elevators, offering both absolute defense and a bustling center of trade and spiritual assembly.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unity and Gathering Mists",
+   "body": "While Thunder Bluff stands as a beacon of harmony, its towering heights house diverse factions. Most tribes revere the wisdom of Cairne Bloodhoof, yet dissent quietly simmers among traditionalists such as Magatha Grimtotem and her kin on the Elder Rise. Deep beneath the city's surface lie the subterranean Pools of Vision, where spirit walkers and shaman peer into the ancestors' will. Despite underlying tribal rivalries, Thunder Bluff remains the true spiritual pillar of Kalimdor's Horde, welcoming hunters returning from the Barrens, traveling artisans, and druids communing with the Earth Mother.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do travelers get up to Thunder Bluff?",
+   "aliases": [
+    "thunder bluff elevator",
+    "how to get up to tb",
+    "entering thunder bluff"
+   ],
+   "answer": "Travelers reach the city via massive wooden rope-and-pulley elevators located on the southwestern and northeastern bluffs, or by taking flight directly to the city's wind rider roost atop the central mesa."
+  },
+  {
+   "q": "Why did the tauren build their city on cliffs?",
+   "aliases": [
+    "why mesas",
+    "why build on high bluffs",
+    "thunder bluff defense"
+   ],
+   "answer": "After enduring centuries of relentless centaur raids on open ground, Cairne Bloodhoof chose the towering stone mesas to grant his nomadic people an impregnable sanctuary overlooking the sacred grazing grounds of Mulgore."
+  },
+  {
+   "q": "Who rules Thunder Bluff?",
+   "aliases": [
+    "leader of thunder bluff",
+    "who is the chief",
+    "cairne thunder bluff"
+   ],
+   "answer": "High Chieftain Cairne Bloodhoof leads Thunder Bluff. He united the scattered tribes and secured the peace of Mulgore, ruling with the counsel of tribal leaders and elders across the rises."
+  },
+  {
+   "q": "Are all tauren tribes loyal to Cairne?",
+   "aliases": [
+    "grimtotem thunder bluff",
+    "tribes of thunder bluff",
+    "tauren political rivals"
+   ],
+   "answer": "While the vast majority revere Cairne's wisdom, some groups\u2014most notably the Grimtotem tribe led by the elder crone Magatha\u2014harbor doubts about the Horde alliance and seek their own course for the tauren people."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, Thunder Bluff represents their first true permanent home after generations of wandering, holding their sacred totems, spirit lodges, and greatest chieftains."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Thunder Bluff provides the Horde with an essential bastion on southern Kalimdor, resting as a steady anchor of wisdom and resources alongside orcish Orgrimmar."
+  }
+ ],
+ "keywords": [
+  "cairne bloodhoof",
+  "earth mother",
+  "grimtotem",
+  "mesas",
+  "mulgore",
+  "pools of vision",
+  "tauren",
+  "thunder bluff"
+ ],
+ "related": [
+  "npc:cairne-bloodhoof",
+  "zone:mulgore",
+  "topic:tauren",
+  "subzone:pools-of-vision",
+  "npc:magatha-grimtotem",
+  "npc:baine-bloodhoof",
+  "topic:horde",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Thunder Bluff"
+ ]
+}

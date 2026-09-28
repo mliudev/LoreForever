@@ -1,0 +1,123 @@
+{
+ "key": "quest:896",
+ "type": "quest",
+ "name": "Miner's Fortune",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   896
+  ],
+  "level": "18",
+  "faction": null,
+  "start": "Wharfmaster Dizzywig",
+  "end": "",
+  "previous": "",
+  "next": "",
+  "wiki": "Miner's Fortune (Classic)",
+  "chain": []
+ },
+ "summary": "Wharfmaster Dizzywig of Ratchet catches wind of an extraordinary discovery at the Venture Company's Boulder Lode Mine: an emerald the size of a fist. Rather than letting the ruthless mining syndicate profit from it, Dizzywig hires an adventurer to liberate the Cats Eye Emerald from the mine's supervisors for a split of the profits.",
+ "sections": [
+  {
+   "title": "Eyes on the Docks",
+   "body": "As the port official managing the bustling harbor between Ratchet and Booty Bay, Wharfmaster Dizzywig overhears virtually every secret whispered on the merchant routes. When rumors arrived detailing an enormous fist-sized gem struck deep inside the Boulder Lode Mine, Dizzywig immediately recognized a lucrative opportunity. The Venture Company's reckless strip-mining across the northern Barrens makes them few friends, meaning few questions would be asked if their greatest recent find quietly vanished from their custody.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Cut of the Lode",
+   "body": "The boulder-rich shaft northeast of the Sludge Fen is packed with laborers, but Dizzywig knew an ordinary digger wouldn't be allowed to keep a prize that rare. The Cats Eye Emerald was quickly confiscated by the Venture Co. Overseers and Enforcers guarding the site. Recovering the gem requires confronting these heavily armed managers directly, securing the stone, and delivering it back to Dizzywig so it can be appraised against the lucrative market rates of Undermine.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Wharfmaster Dizzywig?",
+   "aliases": [
+    "dizzywig",
+    "who gives miners fortune",
+    "ratchet wharfmaster"
+   ],
+   "answer": "Wharfmaster Dizzywig is a goblin dock official stationed in Ratchet. Responsible for overseeing the cargo and passenger traffic moving across the sea to and from Booty Bay, he uses his vantage point to trade in valuable gossip, rumors, and merchant intelligence."
+  },
+  {
+   "q": "Where is the Boulder Lode Mine located?",
+   "aliases": [
+    "boulder lode mine location",
+    "where is the emerald",
+    "venture co mine barrens"
+   ],
+   "answer": "The Boulder Lode Mine is located in the northern reaches of the Barrens, nestled into the hills just northeast of the oil-choked industrial operation at the Sludge Fen."
+  },
+  {
+   "q": "Who holds the Cats Eye Emerald at the mine?",
+   "aliases": [
+    "who drops cats eye emerald",
+    "cats eye emerald drop",
+    "where is cats eye emerald"
+   ],
+   "answer": "The gem was taken by the site's authority figures rather than left with the grunts. It can be retrieved by defeating the Venture Co. Overseers and Venture Co. Enforcers who direct and guard the mining operations in and around the Boulder Lode Mine."
+  },
+  {
+   "q": "What is the Venture Company's interest in the Barrens?",
+   "aliases": [
+    "why is venture co in barrens",
+    "venture company barrens"
+   ],
+   "answer": "The Venture Company is an aggressive, unchecked goblin trade syndicate focused purely on rapid resource exploitation. In the northern Barrens, they run destructive drilling operations at the Sludge Fen and intensive excavations at Boulder Lode Mine, harvesting timber, oil, and mineral wealth with disregard for local ecology."
+  },
+  {
+   "q": "Why does Dizzywig reference Undermine?",
+   "aliases": [
+    "undermine mention",
+    "gem rates undermine"
+   ],
+   "answer": "Undermine is the subterranean island metropolis and ancestral capital of the goblin cartels. As the primary economic and trade center for goblin commerce, its markets set the going rates for precious gems and rare commodities across Azeroth."
+  },
+  {
+   "q": "Does Dizzywig actually share the profits?",
+   "aliases": [
+    "does dizzywig split 50 50",
+    "dizzywig payout"
+   ],
+   "answer": "True to his goblin sense of business ethics, Dizzywig honors the bargain and gives you your promised fifty percent cut of the estimated Undermine market value upon delivering the Cats Eye Emerald."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "Miners can appreciate the sheer rarity of an intact emerald the size of a fist, a specimen that almost never survives excavation without cracking or breaking."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Slipping into a hostile mining encampment to relieve greedy overseers of a heavily guarded gemstone fits every trick in a rogue's playbook."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Striking at the Venture Company's management at Boulder Lode Mine disrupts an invasive industrial cartel encroaching directly upon Horde-held lands in the Barrens."
+  }
+ ],
+ "keywords": [
+  "boulder lode mine",
+  "cats eye emerald",
+  "dizzywig",
+  "enforcer",
+  "overseer",
+  "ratchet",
+  "sludge fen",
+  "venture co"
+ ],
+ "related": [
+  "subzone:boulder-lode-mine",
+  "subzone:ratchet",
+  "topic:venture-company",
+  "subzone:sludge-fen",
+  "quest:1492",
+  "quest:764",
+  "subzone:booty-bay",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Miner's Fortune (Classic)"
+ ]
+}

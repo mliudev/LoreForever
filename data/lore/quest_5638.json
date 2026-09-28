@@ -1,0 +1,122 @@
+{
+ "key": "quest:5638",
+ "type": "quest",
+ "name": "Desperate Prayer",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   5638
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Nara Meideros",
+  "end": "High Priestess Laurena",
+  "previous": null,
+  "next": null,
+  "wiki": "Desperate Prayer (Park)",
+  "chain": []
+ },
+ "summary": "Desperate Prayer is a rite-of-passage summons for developing priests visiting the Park in Stormwind City. Directed by the night elf priestess Nara Meideros, novice clerics are sent across the canals to the Cathedral of Light to continue their holy instruction under High Priestess Laurena. It marks the moment an initiate transitions from basic field duty to deeper, specialized communion with the Holy Light.",
+ "sections": [
+  {
+   "title": "A Word in the Park",
+   "body": "Within the serene grove of the Park, night elf priestesses like Nara Meideros maintain communion with Elune amid the bustle of Stormwind. Yet the bonds of faith among the Alliance's spiritual guides cross cultural divides. When an envoy from the Cathedral Square seeks out a promising student, Nara passes along the summons with quiet encouragement, assuring the initiate that the call carries good tidings rather than cause for alarm.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Call of the Cathedral",
+   "body": "Upon crossing Cathedral Square and stepping beneath the soaring white stone arches of the Cathedral of Light, the initiate reports to High Priestess Laurena. As one of Stormwind's most senior clerical leaders, Laurena guides young acolytes beyond mere foundational prayers. She imparts the sacred invocation known as Desperate Prayer\u2014a personal plea for divine intervention that can instantly mend grievous wounds when a servant of the Light stands on the precipice of death.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me on this quest?",
+   "aliases": [
+    "quest giver",
+    "who gives desperate prayer",
+    "nara meideros"
+   ],
+   "answer": "Priestess Nara Meideros, a night elf cleric located in the Park district of Stormwind City, delivers the message that the Cathedral leadership is looking for you."
+  },
+  {
+   "q": "Who do I need to report to in Stormwind?",
+   "aliases": [
+    "where to go",
+    "quest turn in",
+    "who is laurena"
+   ],
+   "answer": "You must speak with High Priestess Laurena, who resides within the Cathedral of Light in Stormwind's Cathedral Square."
+  },
+  {
+   "q": "What is the significance of Desperate Prayer?",
+   "aliases": [
+    "what does desperate prayer do",
+    "priest ability lore",
+    "desperate prayer spell"
+   ],
+   "answer": "Desperate Prayer represents a vital discipline taught to human and dwarven clerics of the Holy Light. It is an instantaneous invocation that calls down divine grace to instantly revitalize the caster in moments of extreme peril."
+  },
+  {
+   "q": "Why is a night elf directing priests to the human cathedral?",
+   "aliases": [
+    "why nara meideros",
+    "park to cathedral",
+    "night elf elune stormwind"
+   ],
+   "answer": "Though night elf priestesses worship Elune rather than the Holy Light practiced by humans and dwarves, the spiritual orders in Stormwind maintain close contact and mutual respect, sharing word when clerics of the Alliance require training."
+  },
+  {
+   "q": "At what point in training does this summons occur?",
+   "aliases": [
+    "what level is this",
+    "when do i get desperate prayer"
+   ],
+   "answer": "This summons arrives around the tenth circle of experience, signaling that a young priest has proven capable enough in the field to handle more demanding divine rituals."
+  },
+  {
+   "q": "Where is the Cathedral of Light located?",
+   "aliases": [
+    "cathedral location",
+    "where is cathedral square"
+   ],
+   "answer": "The Cathedral of Light dominates Cathedral Square, situated in the northern quarter of Stormwind City between the Dwarven District and the Park."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This summons marks your formal induction into higher spiritual disciplines, opening the path to master the life-saving invocation of Desperate Prayer."
+  },
+  {
+   "target": "race:Human",
+   "text": "The Cathedral of Light serves as the supreme sanctuary for human worship in the southern Eastern Kingdoms, making Laurena's guidance a cultural and spiritual milestone."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The cooperation between Nara Meideros in the Park and the clergy in Cathedral Square highlights the quiet solidarity between Darnassus and Stormwind's holy orders."
+  }
+ ],
+ "keywords": [
+  "cathedral of light",
+  "desperate prayer",
+  "high priestess laurena",
+  "holy light",
+  "nara meideros",
+  "priest quest",
+  "stormwind",
+  "the park"
+ ],
+ "related": [
+  "npc:high-priestess-laurena",
+  "npc:nara-meideros",
+  "subzone:cathedral-of-light",
+  "topic:light",
+  "topic:elune",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Desperate Prayer (Park)"
+ ]
+}

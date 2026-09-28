@@ -1,0 +1,132 @@
+{
+ "key": "quest:905",
+ "type": "quest",
+ "name": "The Angry Scytheclaws",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   905
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Sergra Darkthorn",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "The Angry Scytheclaws",
+  "chain": []
+ },
+ "summary": "Sergra Darkthorn sends ambitious hunters south of the Crossroads to confront the savage scytheclaws stalking the Barrens. By claiming feathers from sunscale raptors and planting them directly within the beasts' breeding nests, hunters prove their courage and earn respect in a hostile wilderness.",
+ "sections": [
+  {
+   "title": "A Test of Nerve",
+   "body": "For Sergra Darkthorn, hunting in the Barrens is never purely about slaughter; it is an enduring rite of passage. Having already tested travelers against lesser beasts, she tasks hunters with seeking out the vicious sunscale raptors south of the Crossroads. Taking their feathers is only the initial trial. To truly prove their mettle, hunters must carry these trophies directly into the heart of raptor territory southwest of the Stagnant Oasis, desecrating their nests to broadcast utter fearlessness.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scytheclaw Nests",
+   "body": "Southwest of the Stagnant Oasis and near the Gold Road, three distinct raptor nests\u2014marked by distinctive red, blue, and yellow eggs\u2014serve as communal grounds for the aggressive scytheclaws. Entering these nesting sites is extraordinarily hazardous, as raptors aggressively defend their clutches against anything that steps near. Depositing the feathers of fallen kin right into these clutches serves as an undeniable declaration of dominance over the beasts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tempered by the Savanna",
+   "body": "Returning to the Crossroads after braving the nests demonstrates more than just martial prowess\u2014it proves that the arid plains are transforming the hunter. As Sergra observes upon completion, walking out of a raptor den alive demands a fair portion of raw courage. In the unforgiving ecosystem of the Barrens, every confrontation either hardens an aspiring warrior or leaves their bones among the kodo ribs scattered across the dirt.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Sergra Darkthorn want me to put feathers in the raptor nests?",
+   "aliases": [
+    "why scytheclaw nests",
+    "purpose of feathers in nests",
+    "why defile nests"
+   ],
+   "answer": "Sergra Darkthorn wants you to demonstrate supreme dominance and courage. By killing the sunscale raptors and planting their feathers directly into their colored breeding clutches, you prove to their pack and their kin that you do not fear them."
+  },
+  {
+   "q": "Where are the scytheclaw nests located?",
+   "aliases": [
+    "where are nests",
+    "scytheclaw nest location",
+    "blue yellow red nest location"
+   ],
+   "answer": "The nests lie south of the Crossroads and southwest of the Stagnant Oasis, near the Gold Road. They sit close to a small hill marked by giant kodo bones just east of the roadway ditch."
+  },
+  {
+   "q": "What kinds of raptors live in this part of the Barrens?",
+   "aliases": [
+    "barrens raptor types",
+    "sunscale raptors",
+    "what are scytheclaws"
+   ],
+   "answer": "The area is populated by sunscale scytheclaws and their kin. They are cunning, aggressive reptilian predators that hunt in packs and fiercely defend their clutches around the Gold Road and the nearby Raptor Grounds."
+  },
+  {
+   "q": "Where do I collect the Sunscale Feathers?",
+   "aliases": [
+    "where to get feathers",
+    "sunscale feather drops",
+    "how to get raptor feathers"
+   ],
+   "answer": "Sunscale feathers drop from the sunscale raptors and scytheclaws roaming the plains south of the Crossroads and throughout the adjacent Raptor Grounds toward the eastern hills."
+  },
+  {
+   "q": "Who is Sergra Darkthorn?",
+   "aliases": [
+    "who is sergra",
+    "sergra darkthorn lore"
+   ],
+   "answer": "Sergra Darkthorn is an experienced orc huntress stationed at the Crossroads. She evaluates arriving Horde adventurers by sending them on trials across the Barrens to test their survival instincts and fighting discipline."
+  },
+  {
+   "q": "Does this quest lead to other hunts?",
+   "aliases": [
+    "what comes after angry scytheclaws",
+    "hunt chain crossroad",
+    "next quest after nests"
+   ],
+   "answer": "Yes. This task is part of Sergra Darkthorn's broader chain of hunts throughout the Barrens, culminating in encounters with elite predators such as the legendary crocolisk Isha Awak."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Entering a territorial predator's breeding den to challenge its dominance is one of the most direct applications of wilderness mastery found in Kalimdor."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Testing oneself against harsh wildlife reflects the core orcish belief that survival in Durotar and the Barrens requires strength, fortitude, and unwavering nerve."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Raptor packs along the Gold Road continually threaten vital caravans and lone messengers running between the Crossroads and southern outposts."
+  }
+ ],
+ "keywords": [
+  "crossroads",
+  "eggs",
+  "gold road",
+  "nests",
+  "raptor grounds",
+  "raptors",
+  "scytheclaws",
+  "sergra darkthorn",
+  "stagnant oasis",
+  "sunscale"
+ ],
+ "related": [
+  "quest:860",
+  "quest:873",
+  "quest:877",
+  "subzone:stagnant-oasis",
+  "subzone:crossroads",
+  "subzone:raptor-grounds",
+  "subzone:gold-road",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "The Angry Scytheclaws"
+ ]
+}

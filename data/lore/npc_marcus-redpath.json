@@ -1,0 +1,109 @@
+{
+ "key": "npc:marcus-redpath",
+ "type": "npc",
+ "name": "Marcus Redpath",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Marcus Redpath",
+  "refs": 4
+ },
+ "summary": "Marshal Marcus Redpath is the senior military authority defending the Alliance town of Southshore in the Hillsbrad Foothills. Having served the town since before the Second War, he now organizes patrols and bounty contracts to hold off surrounding ogres, murlocs, and naga. His leadership is essential to maintaining Lordaeron's last southern bastion on the coast.",
+ "sections": [
+  {
+   "title": "A Sentinel of Southshore",
+   "body": "Marcus Redpath's service to Southshore spans decades. Years ago, before the Second War engulfed the north, he served as the village headman who received Lord Anduin Lothar, the young mage Khadgar, and thousands of exhausted refugees fleeing the sack of Stormwind. Recognizing the gravity of their plight, he dispatched his swiftest courier north to alert King Terenas Menethil II, playing an early role in forging the Grand Alliance of Lordaeron. Through the fall of the capital and the devastating Scourge invasion, Redpath remained at his post, transitioning from civil administrator to military marshal to guard the port's beleaguered survivors.",
+   "spoiler": 0
+  },
+  {
+   "title": "Holding the Coast",
+   "body": "In the wake of the Third War, Southshore stands virtually alone against hostile forces pressing in from every side. Marshal Redpath coordinates defense operations across the Hillsbrad Foothills, enlisting seasoned adventurers to push back the Crushridge ogres creeping down from Alterac and purge dangerous naga and murloc encampments along the coastline. With the Forsaken occupying the north and Tarren Mill heavily fortified nearby, Redpath's vigilance is one of the few barriers preventing the regional Alliance presence from collapsing entirely.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Marcus Redpath?",
+   "aliases": [
+    "marcus redpath lore",
+    "who is the marshal in southshore",
+    "marcus redpath info"
+   ],
+   "answer": "Marcus Redpath is the marshal and military commander of Southshore in the Hillsbrad Foothills. He was originally the town's headman during the Second War and now oversees local defense against surrounding wilderness threats and hostile neighbors."
+  },
+  {
+   "q": "What role did he play in the Second War?",
+   "aliases": [
+    "second war marcus",
+    "did marcus redpath meet lothar"
+   ],
+   "answer": "When the Kingdom of Stormwind fell to the Orcish Horde, refugees led by Anduin Lothar and Khadgar made landfall at Southshore. Redpath welcomed them ashore and immediately sent his rider, Willem, to notify King Terenas Menethil II in Capital City."
+  },
+  {
+   "q": "What threats does he focus on fighting?",
+   "aliases": [
+    "marcus redpath quests",
+    "what does redpath want killed"
+   ],
+   "answer": "Redpath organizes military efforts against local predators and invaders encroaching on Southshore. He issues bounties and missions targeting the Crushridge ogre tribe in the Alterac foothills, coastal murlocs, and raiding naga."
+  },
+  {
+   "q": "Is he related to the Redpaths of Darrowshire?",
+   "aliases": [
+    "redpath family",
+    "is marcus related to joseph redpath",
+    "redpath relatives"
+   ],
+   "answer": "While he shares the Redpath surname made famous by Captain Joseph Redpath of Darrowshire in the Eastern Plaguelands, no direct kinship has been formally established beyond their shared heritage in the Kingdom of Lordaeron."
+  },
+  {
+   "q": "Why does he wear Stormwind-style armor?",
+   "aliases": [
+    "marcus redpath armor",
+    "why stormwind gear southshore"
+   ],
+   "answer": "Following the First War, many southern refugees settled permanently in Southshore, creating deep historical and military ties between the port and Stormwind. Local garrison forces often utilize standardized Alliance arms and uniforms derived from those southern traditions."
+  },
+  {
+   "q": "Where can Marcus Redpath be found?",
+   "aliases": [
+    "where is marcus redpath",
+    "marcus redpath location"
+   ],
+   "answer": "Marshal Redpath is stationed in the center of Southshore, an Alliance haven situated on the southern coast of the Hillsbrad Foothills."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Marshal Redpath provides Alliance champions with vital tasks to secure Hillsbrad against encroaching ogres and coastal hazards."
+  },
+  {
+   "target": "race:Human",
+   "text": "Redpath is a living link to the opening days of the Grand Alliance, having greeted Anduin Lothar and the refugees of Stormwind when they first fled north."
+  }
+ ],
+ "keywords": [
+  "anduin lothar",
+  "crushridge",
+  "headman",
+  "hillsbrad",
+  "marcus redpath",
+  "marshal",
+  "southshore",
+  "terenas"
+ ],
+ "related": [
+  "subzone:southshore",
+  "zone:hillsbrad",
+  "topic:anduin-lothar",
+  "topic:terenas-menethil-ii",
+  "npc:willem",
+  "quest:559",
+  "topic:second-war",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Marcus Redpath"
+ ]
+}

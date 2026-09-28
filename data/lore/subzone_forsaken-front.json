@@ -1,0 +1,90 @@
+{
+ "key": "subzone:forsaken-front",
+ "type": "subzone",
+ "name": "Forsaken Front",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Forsaken Front"
+ },
+ "summary": "The Forsaken Front marks the fortified forward staging ground in southern Silverpine Forest where Undercity forces contest the borders of Gilneas. Stationed along the front line, Forsaken troopers, dreadguards, and catapults wage an ongoing war against worgen commandos and Gilnean defenders.",
+ "sections": [
+  {
+   "title": "The Edge of the Battlefront",
+   "body": "Situated in the southern reaches of Silverpine Forest, the Forsaken Front serves as the staging ground for military pushes southward. Here, lines of dreadguards, dark rangers, and plague catapults confront worgen commandos and resilient Gilnean forces head-on. The constant clashes keep southern Silverpine locked in brutal border warfare as the Forsaken maneuver to secure their territorial borders against hostile counterattacks.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bitter Clash of Arms",
+   "body": "The front lines see heavy fighting between Forsaken troopers and savage worgen berserkers who refuse to cede any ground. Siege machinery, dark ranger archery batteries, and alchemical warfare from the Royal Apothecary Society clash constantly against Gilnean guerrilla fighters using the dense woodland and ruins for cover, turning the border into a meat grinder.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Forsaken Front?",
+   "aliases": [
+    "forsaken front silverpine",
+    "what is this camp",
+    "silverpine front line"
+   ],
+   "answer": "It is an active forward outpost and defensive line in southern Silverpine Forest where the Forsaken assemble their troops and war engines to combat hostile worgen forces defending the Gilnean border."
+  },
+  {
+   "q": "Who is fighting here?",
+   "aliases": [
+    "who is at war here",
+    "who fights at the front",
+    "forsaken front enemies"
+   ],
+   "answer": "Forsaken dreadguards, dark rangers, and siege crews are locked in direct combat with worgen commandos and Bloodfang berserkers contesting control of the territory."
+  },
+  {
+   "q": "Why are the Forsaken fighting so heavily in southern Silverpine?",
+   "aliases": [
+    "why fight worgen",
+    "forsaken goal in silverpine",
+    "gilneas border conflict"
+   ],
+   "answer": "The Forsaken seek to secure the southern frontier of Silverpine Forest, subduing dangerous worgen packs and driving back Gilnean resistance to ensure the Undercity's dominion over the region remains uncontested."
+  },
+  {
+   "q": "What kind of defenses are stationed at the front?",
+   "aliases": [
+    "front line artillery",
+    "forsaken weapons here"
+   ],
+   "answer": "The Forsaken have deployed heavy catapults, barricades, and apothecary support alongside elite dreadguards to repel any forward assaults by the ferocious worgen forces."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, the front represents the gritty reality of securing their young nation's borders against relentless enemies bent on driving them out of Lordaeron."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde soldiers arriving in Silverpine see firsthand the brutal war of attrition fought by the Undercity to hold the line against feral worgen packs."
+  }
+ ],
+ "keywords": [
+  "battlefront",
+  "bloodfang",
+  "catapults",
+  "dreadguards",
+  "forsaken front",
+  "gilneas",
+  "silverpine",
+  "worgen"
+ ],
+ "related": [
+  "subzone:battlefront",
+  "zone:silverpine",
+  "topic:forsaken",
+  "topic:worgen",
+  "subzone:vice"
+ ],
+ "attribution": [
+  "Forsaken Front"
+ ]
+}

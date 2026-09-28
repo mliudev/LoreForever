@@ -1,0 +1,69 @@
+{
+ "key": "npc:guard-howe",
+ "type": "npc",
+ "name": "Guard Howe",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Guard Howe",
+  "refs": 1
+ },
+ "summary": "Guard Howe is a town guardsman stationed near the southern foot of the Lakeshire bridge in the Redridge Mountains. Driven by a personal vendetta against the Blackrock orcs encroaching on the valley, he offers bounties to any adventurer willing to cut down the invaders.",
+ "sections": [
+  {
+   "title": "A Grudge on the Bridge",
+   "body": "Positioned just south of the large stone bridge spanning Lake Everstill, Guard Howe stands watch over the heart of Lakeshire. Like many in the beleaguered town, he sees the encroaching Blackrock orcs as an existential threat to Redridge. Harbouring a bitter desire for revenge against the clan, Howe actively recruits passing mercenaries to hunt orcs in the eastern hills, offering pay in exchange for tangible proof of their defeat.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Guard Howe?",
+   "aliases": [
+    "guard howe",
+    "howe lakeshire",
+    "who is howe"
+   ],
+   "answer": "Guard Howe is a human town guard stationed just south of the bridge in Lakeshire within the Redridge Mountains. He helps protect the settlement and directs capable fighters to strike back against the invading Blackrock orcs."
+  },
+  {
+   "q": "Why does Guard Howe want Blackrock orcs killed?",
+   "aliases": [
+    "why blackrock bounty",
+    "howe orcs",
+    "why does howe hate orcs"
+   ],
+   "answer": "Howe harbors a personal vendetta against the Blackrock clan, who have pushed deep into the Redridge Mountains and placed Lakeshire under relentless pressure. He seeks vengeance and offers bounties to anyone who thins their ranks."
+  },
+  {
+   "q": "Is Guard Howe related to anyone else in the region?",
+   "aliases": [
+    "howe relatives",
+    "soloman howe relation"
+   ],
+   "answer": "He shares a surname with Soloman Howe, suggesting they may be kin, though he keeps his focus strictly on his duties guarding the town and fighting the orcs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Lakeshire receives little direct aid from Stormwind, leaving frontline guards like Howe to rely on visiting Alliance champions to keep the Blackrock orcs from overrunning the town."
+  }
+ ],
+ "keywords": [
+  "blackrock bounty",
+  "blackrock orcs",
+  "guard howe",
+  "howe",
+  "lakeshire",
+  "redridge"
+ ],
+ "related": [
+  "quest:128",
+  "subzone:lakeshire",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Guard Howe"
+ ]
+}

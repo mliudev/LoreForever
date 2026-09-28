@@ -1,0 +1,89 @@
+{
+ "key": "subzone:trade-district",
+ "type": "subzone",
+ "name": "Trade District",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Trade District"
+ },
+ "summary": "The Trade District is the bustling commercial heart of Stormwind City, located immediately past the main gates and the Valley of Heroes. It serves as the primary hub for adventurers and citizens alike, housing the city's central bank, auction house, guild registry, and diverse merchant shops.",
+ "sections": [
+  {
+   "title": "The Crossroads of Commerce",
+   "body": "Crossing beneath the stone arches from the Valley of Heroes brings travelers directly into the Trade District. This vibrant open plaza acts as Stormwind's primary marketplace and logistical hub. At its center stands the Auction House, flanked nearby by the Stormwind Counting House, the city's main bank, and the popular tavern known as The Gilded Rose. The district directly bridges the gap between the military enclave of Old Town, the serene Cathedral Square, and the arcane avenues of the Mage Quarter, ensuring that coin, raw goods, and adventuring supplies circulate swiftly through the realm.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bazaars and Guild Halls",
+   "body": "Every essential commodity can be acquired along the paved avenues and flanking canals. Weapon smiths at Weller's Arsenal and Lionheart Armory supply blades and mail, fletchers peddle bows at The Empty Quiver, and artisanal stalls offer everything from fresh flowers to fine aged vintages from the Gallina Winery. Just inside the gates, the Stormwind Visitor's Center coordinates newly registered charters and tabard designs for organized adventuring guilds, while an elevated ramp on the eastern side climbs toward the Gryphon Roost, linking the capital's mercantile life to the rest of the Alliance territories.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Trade District located?",
+   "aliases": [
+    "trade district location",
+    "where is trade district",
+    "how to get to trade district"
+   ],
+   "answer": "The Trade District sits just past the city's main entrance gates and the Valley of Heroes. It connects directly to Cathedral Square to the northwest, Old Town to the east, and the Mage Quarter across the canals to the southwest."
+  },
+  {
+   "q": "Where can I find the bank and the inn?",
+   "aliases": [
+    "trade district bank",
+    "gilded rose location",
+    "stormwind bank trade district"
+   ],
+   "answer": "The Stormwind Counting House (the primary city bank) and The Gilded Rose inn are situated along the southwest perimeter of the Trade District, directly convenient to the main thoroughfare."
+  },
+  {
+   "q": "Where do I register a guild or design a tabard in Stormwind?",
+   "aliases": [
+    "guild master stormwind",
+    "guild registrar",
+    "make a guild"
+   ],
+   "answer": "The Stormwind Visitor's Center, located on your left immediately upon entering the Trade District from the city gates, houses the Guild Master and tabard design services."
+  },
+  {
+   "q": "Where can I take a gryphon flight from the Trade District?",
+   "aliases": [
+    "flight master stormwind",
+    "gryphon roost stormwind",
+    "where is flight master"
+   ],
+   "answer": "A stone ramp on the eastern side of the Trade District leads directly up to the Gryphon Roost, where the flight master dispatches gryphons across the kingdom and beyond."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions, the Trade District is the quintessential hub for banking, trading at the Auction House, organizing guilds, and taking flight across the Eastern Kingdoms."
+  }
+ ],
+ "keywords": [
+  "auction house",
+  "bazaar",
+  "counting house",
+  "gilded rose",
+  "gryphon roost",
+  "stormwind",
+  "trade district",
+  "visitor center"
+ ],
+ "related": [
+  "zone:stormwind",
+  "subzone:valley-of-heroes",
+  "subzone:gryphon-roost",
+  "subzone:cathedral-square",
+  "subzone:old-town",
+  "subzone:mage-quarter",
+  "subzone:canals-stormwind-city"
+ ],
+ "attribution": [
+  "Trade District"
+ ]
+}

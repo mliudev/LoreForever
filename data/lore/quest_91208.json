@@ -1,0 +1,120 @@
+{
+ "key": "quest:91208",
+ "type": "quest",
+ "name": "Coming to Terms",
+ "era": "forever",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   91208
+  ],
+  "level": "4",
+  "faction": "Horde",
+  "start": "Aramis Hammerhand",
+  "end": "",
+  "previous": "",
+  "next": "Continue Your Training",
+  "wiki": "Coming to Terms (quest)",
+  "chain": []
+ },
+ "summary": "Offered by Aramis Hammerhand in Deathknell, this quest tasks newly risen paladins with reaching out to a fellow knight struggling to accept undeath. Fleeing into the hills in terror, the newly returned warrior faces the agonizing realization of becoming what she once fought against.",
+ "sections": [
+  {
+   "title": "A Bitter Resurrection",
+   "body": "Awakening from death into the ranks of the Forsaken is jarring for anyone, but for former paladins of the Silver Hand, the shock is visceral. Having dedicated their mortal lives to destroying the undead in service to the Holy Light, these individuals suddenly find their souls tethered back to decomposing flesh. While some adapt under the guidance of Aramis Hammerhand, others are overwhelmed by horror and confusion, fleeing into the Tirisfal wilderness rather than confronting their grim new existence.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Merciful Release",
+   "body": "Aramis Hammerhand hopes that a fellow knight can reach the panicked paladin who hid in the hills west of the chapel with compassion and understanding. Tragically, the weight of the transformation drives her into complete madness. When approached, she lashes out blindly in fear and fury, leaving no choice but to strike her down. For those Forsaken whose minds shatter upon the grave, a swift end is the only remaining mercy.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the frightened paladin?",
+   "aliases": [
+    "frightened paladin",
+    "who is the paladin in the hills",
+    "who do i find in coming to terms"
+   ],
+   "answer": "She is a recently risen Forsaken who practiced as a paladin in life. Overcome with dread upon waking as an undead creature, she fled Deathknell into the nearby western hills in total panic."
+  },
+  {
+   "q": "Why does the frightened paladin attack?",
+   "aliases": [
+    "why does she turn hostile",
+    "why attack",
+    "can you save the frightened paladin"
+   ],
+   "answer": "The psychological agony of waking up as the exact monster she spent her life battling shatters her sanity. Consumed by terror and madness, she cannot be reasoned with and violently attacks anyone who tries to reach out."
+  },
+  {
+   "q": "Who gives the quest Coming to Terms?",
+   "aliases": [
+    "quest giver coming to terms",
+    "aramis hammerhand quest",
+    "where to start coming to terms"
+   ],
+   "answer": "Aramis Hammerhand, a paladin mentor situated at the church in Deathknell, offers the task to newly risen knights who need to understand the fragile mental state of their resurrected peers."
+  },
+  {
+   "q": "Can Forsaken still wield the Light?",
+   "aliases": [
+    "undead paladins light",
+    "do forsaken paladins use the light",
+    "undead use light"
+   ],
+   "answer": "Yes, through profound willpower and faith, though channeling holy energy causes intense physical agony to an undead vessel. Mentors like Aramis Hammerhand strive to preserve their spiritual bonds despite the pain of their condition."
+  },
+  {
+   "q": "Where is the frightened paladin located?",
+   "aliases": [
+    "frightened paladin location",
+    "where is she",
+    "where in deathknell"
+   ],
+   "answer": "She fled directly west from the church in Deathknell, hiding among the wooded hills overlooking the settlement."
+  },
+  {
+   "q": "What happens after completing Coming to Terms?",
+   "aliases": [
+    "next quest coming to terms",
+    "after coming to terms"
+   ],
+   "answer": "After reporting the tragic outcome to Aramis Hammerhand, he offers a prayer for her departed soul and directs you toward further training to hone your discipline as a Forsaken paladin."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "This task strikes at the heart of the paladin's dilemma in undeath: confronting the horror of having become what you were sworn to purge."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The psychological toll of awakening in Tirisfal breaks many minds; dealing with those lost to panic is a tragic reality of early Forsaken life."
+  }
+ ],
+ "keywords": [
+  "aramis hammerhand",
+  "coming to terms",
+  "deathknell",
+  "frightened paladin",
+  "holy light",
+  "paladin",
+  "tirisfal glades",
+  "undead paladin"
+ ],
+ "related": [
+  "npc:aramis-hammerhand",
+  "quest:91209",
+  "subzone:deathknell",
+  "topic:forsaken",
+  "topic:light",
+  "zone:tirisfal",
+  "quest:6381"
+ ],
+ "attribution": [
+  "Coming to Terms (quest)"
+ ]
+}

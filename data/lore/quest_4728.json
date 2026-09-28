@@ -1,0 +1,125 @@
+{
+ "key": "quest:4728",
+ "type": "quest",
+ "name": "Beached Sea Creature",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   4728
+  ],
+  "level": "14",
+  "faction": "Alliance",
+  "start": "Beached Sea Creature",
+  "end": "Gwennyth Bly'Leggonde",
+  "previous": null,
+  "next": null,
+  "wiki": "Beached Sea Creature (2)",
+  "chain": []
+ },
+ "summary": "Along the misty coast of Darkshore lies the massive carcass of a sea mammal, abandoned mid-excavation. Scattered tools and an idle wheelbarrow reveal an expedition cut short, leaving the specimen to opportunistic murlocs and the curious eyes of passing travelers.",
+ "sections": [
+  {
+   "title": "A Halted Excavation",
+   "body": "The carcass resting upon the sands of Darkshore is that of an enormous marine mammal, partially gutted and heavily weathered by sea spray. Strewn about its decaying frame are a rusted wheelbarrow and discarded excavation tools, clearly showing that someone attempted an organized study of the beast before being driven off or abandoning the site in haste.",
+   "spoiler": 0
+  },
+  {
+   "title": "The League and the Murlocs",
+   "body": "The abandoned equipment belonged to dwarven field researchers of the Explorer's League operating in Darkshore. Their examination of the massive carcass came to an abrupt halt when local murlocs swarmed the site, claiming the washed-up giant for scavenging. Gwennyth Bly'Leggonde in Auberdine, acting on behalf of the Temple of the Moon, gladly accepts any salvaged bone samples to further study the unnatural wash-ups plaguing the coastline.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is this creature lying on the beach?",
+   "aliases": [
+    "beached sea creature identity",
+    "what is this carcass",
+    "what died here"
+   ],
+   "answer": "It is the remains of a giant sea mammal that washed ashore on Darkshore's coast. The species is not definitively identified, but it is large enough to attract both scavenging murlocs and dwarven researchers."
+  },
+  {
+   "q": "Who left the tools and wheelbarrow behind?",
+   "aliases": [
+    "who left the tools",
+    "abandoned wheelbarrow darkshore",
+    "who was digging here"
+   ],
+   "answer": "The tools were left by members of the dwarven Explorer's League. They set up an excavation site to study the beached beast, but were attacked and driven off by hostile coastal murlocs before they could finish."
+  },
+  {
+   "q": "Why does Gwennyth Bly'Leggonde want these bones?",
+   "aliases": [
+    "why does gwennyth want bones",
+    "temple of the moon sea creature",
+    "auberdine sea bones"
+   ],
+   "answer": "Gwennyth Bly'Leggonde collects samples on behalf of the Temple of the Moon in Darnassus. The night elves are actively investigating the strange and unsettling phenomenon of massive sea creatures washing up dead along Darkshore's shores."
+  },
+  {
+   "q": "Why are murlocs prowling around the carcass?",
+   "aliases": [
+    "murlocs around carcass",
+    "why are murlocs here",
+    "murloc scavengers"
+   ],
+   "answer": "The murlocs were drawn by the colossal feast of meat and blubber, subsequently chasing off the dwarven scholars to scavenge and defend the remains for themselves."
+  },
+  {
+   "q": "Is the Explorer's League officially allied with Auberdine here?",
+   "aliases": [
+    "explorers league auberdine",
+    "dwarves in darkshore",
+    "explorers league alliance darkshore"
+   ],
+   "answer": "Yes. As fellow members of the Alliance, the Explorer's League maintains a presence in Darkshore and collaborates with local night elf authorities, frequently sharing reports of their scientific discoveries and coastal investigations."
+  },
+  {
+   "q": "Are there other beached creatures along the Darkshore coast?",
+   "aliases": [
+    "more beached creatures",
+    "other carcasses darkshore",
+    "multiple beached sea creatures"
+   ],
+   "answer": "Yes. Multiple enormous marine beasts and skeletal remains have washed up along the length of Darkshore's misty beaches, suggesting widespread disturbance in the waters off Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The abandoned tools around the carcass belong to your kin in the Explorer's League, who were chased from their dig site by native murlocs."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The Temple of the Moon is deeply concerned by the unnatural frequency of massive sea life dying and washing up on the sacred shores of Darkshore."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This discovery highlights the cooperative efforts between Darnassus and the Ironforge Explorer's League to catalog the mysteries of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "beached",
+  "bones",
+  "darkshore",
+  "explorers league",
+  "gwennyth",
+  "murloc",
+  "sea creature"
+ ],
+ "related": [
+  "npc:gwennyth-bly-leggonde",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "topic:murloc",
+  "subzone:temple-of-the-moon",
+  "quest:4723",
+  "quest:2519"
+ ],
+ "attribution": [
+  "Beached Sea Creature (2)"
+ ]
+}

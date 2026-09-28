@@ -1,0 +1,70 @@
+{
+ "key": "subzone:den-of-flame",
+ "type": "subzone",
+ "name": "Den of Flame",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Den of Flame"
+ },
+ "summary": "The Den of Flame is a fortified cavern in western Dustwallow Marsh, situated just west of the Stonemaul Ruins. Originally constructed by the Stonemaul ogres as their mound, it has since been overrun by the dragonkin of the black dragonflight serving Onyxia.",
+ "sections": [
+  {
+   "title": "A Conquered Mound",
+   "body": "Built by the Stonemaul ogres to serve as their main mound and sanctuary, the Den of Flame bears the unmistakable, rough-hewn stone architecture of ogre masonry. However, when the black dragonflight laid waste to the Stonemaul clan's settlement, the brood did not merely scatter the ogres\u2014they seized the stronghold for themselves. Today, black dragonspawn patrol the burning perimeter and cavern entrance under the shadow of Onyxia's nearby lair. Despite the infestation, vestiges of the former masters remain inside, including an abandoned Stonemaul clan banner left behind in the chaos.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was the Den of Flame originally built for?",
+   "aliases": [
+    "who built den of flame",
+    "den of flame origin",
+    "ogre mound dustwallow"
+   ],
+   "answer": "The structure was originally built by the Stonemaul ogres to serve as their clan's primary mound. Its stonework and layout mirror classic ogre clan architecture."
+  },
+  {
+   "q": "Why are black dragonkin infesting this mound?",
+   "aliases": [
+    "why are there dragons here",
+    "who lives in den of flame",
+    "dragonspawn dustwallow"
+   ],
+   "answer": "The great black dragon Onyxia established her lair in the marsh nearby. Her dragonkin drove the Stonemaul ogres out of their settlement and claimed the cavern as a forward outpost for the brood."
+  },
+  {
+   "q": "Can the Stonemaul ogres reclaim the cave?",
+   "aliases": [
+    "stonemaul banner",
+    "reclaiming the den"
+   ],
+   "answer": "The surviving Stonemaul ogres, now displaced to Brackenwall Village, still consider the cavern sacred ground. They seek brave champions to venture inside and recover their lost clan banner from the dragonspawn."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Stonemaul ogres are sworn allies of the Horde; clearing out the dragonkin and retrieving their clan banner from the Den of Flame helps avenge their fallen settlement."
+  }
+ ],
+ "keywords": [
+  "black dragonflight",
+  "den of flame",
+  "dragonspawn",
+  "dustwallow marsh",
+  "onyxia",
+  "stonemaul banner",
+  "stonemaul ruins"
+ ],
+ "related": [
+  "subzone:stonemaul-ruins",
+  "npc:onyxia",
+  "topic:black-dragonflight",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Den of Flame"
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "key": "npc:darkmaster-gandling",
+ "type": "npc",
+ "name": "Darkmaster Gandling",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Darkmaster Gandling",
+  "refs": 2
+ },
+ "summary": "Darkmaster Gandling is the mortal headmaster of Scholomance, overseeing the instruction and training of necromancers for the Cult of the Damned. Operating from the depths of the ruined Keep of Caer Darrow, he serves the Scourge by orchestrating gruesome magical experiments upon the living and dead alike.",
+ "sections": [
+  {
+   "title": "The Headmaster's Domain",
+   "body": "Within the dark halls beneath Caer Darrow, Darkmaster Gandling governs Scholomance, the premier academy for the Scourge's aspiring necromancers. A living human serving the Cult of the Damned, Gandling worked alongside the lich Ras Frostwhisper to orchestrate atrocities against countless innocent captives taken from the surrounding lands. Students who enter his classrooms are instructed in plague brewing, reanimation, and flesh sculpting. Gandling demands ruthless excellence from his pupils; those who fail to meet his exacting standards often find themselves serving the academy not as students, but as raw materials for dissection and lab work.",
+   "spoiler": 0
+  },
+  {
+   "title": "Master of the Reliquary",
+   "body": "Residing deep within the Headmaster's Study, Gandling commands the dark relics and spirits trapped inside the ancient school. He wields devastating fiery magic in conjunction with forbidden necromantic arts, testing intruders by isolating them within his personal torture chambers and side studies. There, isolated adventurers are forced to fight through waves of failed experiments while Gandling summons legions of animated skeletons to overrun any who attempt to put an end to his academy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Darkmaster Gandling?",
+   "aliases": [
+    "who is gandling",
+    "darkmaster gandling lore",
+    "scholomance boss"
+   ],
+   "answer": "Darkmaster Gandling is a human necromancer belonging to the Cult of the Damned. He acts as the headmaster of Scholomance, running the dark school and training new necromancers to serve the Lich King."
+  },
+  {
+   "q": "Is Gandling an undead or a living human?",
+   "aliases": [
+    "is gandling undead",
+    "is gandling alive",
+    "gandling race"
+   ],
+   "answer": "Despite his mastery of death magic and allegiance to the Scourge, Gandling remains a living human mortal. He leads mortal acolytes and cultists within Scholomance, serving the Scourge willingly."
+  },
+  {
+   "q": "What is his connection to Ras Frostwhisper?",
+   "aliases": [
+    "frostwhisper gandling",
+    "ras frostwhisper teacher"
+   ],
+   "answer": "Ras Frostwhisper was Gandling's teacher. Together, the human headmaster and the powerful lich established Scholomance as the center of dark instruction and supervised the horrors committed against the Barov family and captives within Caer Darrow."
+  },
+  {
+   "q": "Where is Darkmaster Gandling found?",
+   "aliases": [
+    "gandling location",
+    "where is gandling",
+    "how to find gandling"
+   ],
+   "answer": "Gandling resides in the Headmaster's Study at the very bottom of Scholomance, accessible through the catacombs beneath Caer Darrow in Darrowmere Lake."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Gandling represents the ultimate corruption of Dalaran's scholarly traditions, twisting academic rigor into a horrifying factory of undeath."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, Gandling is a hated overseer of Scourge indoctrination who binds free souls into eternal enslavement beneath Caer Darrow."
+  }
+ ],
+ "keywords": [
+  "caer darrow",
+  "cult of the damned",
+  "darkmaster gandling",
+  "gandling",
+  "headmaster",
+  "necromancer",
+  "scholomance"
+ ],
+ "related": [
+  "subzone:scholomance",
+  "zone:westernplaguelands",
+  "topic:cult-of-the-damned",
+  "topic:scourge",
+  "subzone:andorhal"
+ ],
+ "attribution": [
+  "Darkmaster Gandling"
+ ]
+}

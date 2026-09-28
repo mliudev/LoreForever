@@ -1,0 +1,74 @@
+{
+ "key": "subzone:hall-of-the-brave",
+ "type": "subzone",
+ "name": "Hall of the Brave",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Hall of the Brave"
+ },
+ "summary": "The Hall of the Brave is the grand warrior barracks situated in the eastern heights of Orgrimmar's Valley of Honor. It serves as the primary training compound and guild house for the Horde's front-line combatants, drillmasters, and battlemasters.",
+ "sections": [
+  {
+   "title": "The Warriors' Bastion",
+   "body": "Overlooking the tranquil waters and training rings of the Valley of Honor, the Hall of the Brave serves as a vital military hub for the burgeoning Horde. Inside, veteran officers and seasoned warriors instruct initiates in the brutal fundamentals of melee combat, stance mastery, and discipline. The hall is lined with training dummies and armaments, housing battlemasters who organize combatants for major military engagements across Azeroth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Hall of the Brave?",
+   "aliases": [
+    "what is hall of the brave",
+    "what is this building",
+    "hall of the brave purpose"
+   ],
+   "answer": "It serves as the main barracks and guild hall for warriors in Orgrimmar. Here, warriors learn their techniques from veteran trainers, hone their strikes on practice dummies, and consult battlemasters regarding military deployments across contested lands."
+  },
+  {
+   "q": "Where in Orgrimmar is the hall located?",
+   "aliases": [
+    "where is hall of the brave",
+    "hall of the brave location",
+    "find warrior trainer orgrimmar"
+   ],
+   "answer": "The Hall of the Brave is situated on the eastern side of the Valley of Honor, nestled along the red canyon walls overlooking the valley's central pond."
+  },
+  {
+   "q": "Who can be found inside the hall?",
+   "aliases": [
+    "who is in hall of the brave",
+    "hall of the brave npcs"
+   ],
+   "answer": "The hall houses various warrior class trainers, battlemasters coordinating large-scale conflicts, and Horde grunts resting between active patrols."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "The Hall of the Brave is your martial home in the capital, housing trainers who unlock advanced stances and battle maneuvers as your prowess grows."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "This barracks stands as a living demonstration of the Horde's frontline discipline, housing battlemasters who muster troops to fight across the continent."
+  }
+ ],
+ "keywords": [
+  "barracks",
+  "battlemaster",
+  "hall of the brave",
+  "orgrimmar",
+  "valley of honor",
+  "warrior trainer",
+  "warriors guild"
+ ],
+ "related": [
+  "subzone:valley-of-honor",
+  "zone:orgrimmar",
+  "subzone:hall-of-legends",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Hall of the Brave"
+ ]
+}

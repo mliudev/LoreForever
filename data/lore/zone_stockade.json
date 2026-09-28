@@ -1,0 +1,144 @@
+{
+ "key": "zone:stockade",
+ "type": "dungeon",
+ "name": "The Stockade",
+ "era": "classic",
+ "zone": "stockade",
+ "meta": {
+  "wiki": [
+   "Stormwind Stockade (Classic)",
+   "Stormwind Stockade"
+  ],
+  "levels": "24-32",
+  "aliases": [
+   "Stormwind Stockade",
+   "Stockade"
+  ],
+  "bosses": [
+   "Targorr the Dread",
+   "Kam Deepfury",
+   "Hamhock",
+   "Bazil Thredd",
+   "Dextren Ward",
+   "Bruegal Ironknuckle"
+  ]
+ },
+ "summary": "The Stockade is Stormwind's high-security prison complex, tucked beneath the city's canal district near the Mage Quarter. Built to hold the kingdom's most dangerous cutthroats, political insurgents, and captured enemies of state, the facility has recently collapsed into violent anarchy. Warden Thelwater has been forced back to the threshold, desperately recruiting capable adventurers to crush the riot from within before it spills out into the capital.",
+ "sections": [
+  {
+   "title": "A Prison Under Siege",
+   "body": "Beneath the tranquil canals of Stormwind, the Stockade has become a war zone. When the regular army marched out to fight on distant fronts, the understaffed prison leaned on inexperienced youth\u2014including fourteen-year-old recruits\u2014to maintain order. It did not hold. The inmates launched a bloody, coordinated rebellion, tearing their wool blankets into gang scarves and cutting down the remaining guards. Warden Thelwater barely maintained control of the entryway, leaving the cells, hallways, and holding blocks in the ruthless hands of the convicts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Nobles and Assassins",
+   "body": "The riot laid bare the ugly underbelly of Stormwind's political machine. Outside territories had long grown frustrated with the House of Nobles halting executions for their own leverage. Redridge guard Berton wanted the captured orc Targorr the Dread executed for atrocities, only to watch nobles freeze the sentence. Darkshire councilman Millstipe watched the grave-robber Dextren Ward get spared the gallows despite desecrating graves for the necromancer Morbent Fel. Even the dwarves of Dun Modr sent word demanding the death of Dark Iron saboteur Kam Deepfury. With the Stockade in chaos, local authorities quietly hired adventurers to carry out the executions the capital's courts refused to enforce.",
+   "spoiler": 1
+  },
+  {
+   "title": "The Mastermind and the Enforcer",
+   "body": "Behind the prison's synchronized collapse sits Bazil Thredd, a cunning felon tied directly to the Defias Brotherhood who orchestrated the uprising from his cell. Deep in the eastern cellblock lurks Bruegal Ironknuckle, a brutal dwarven brawler serving as the muscle of the revolt. While Thredd orchestrates the political disruption, Ironknuckle and his cohorts enforce absolute brutality within the halls. Striking down both the mastermind and his heavy enforcers is the only way Warden Thelwater can hope to break the inmates' spirits and reclaim the complex for the crown.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Stockade in open rebellion?",
+   "aliases": [
+    "why riot",
+    "what happened in stockades",
+    "stockades riot cause"
+   ],
+   "answer": "The Defias Brotherhood orchestrated a prison-wide riot while the facility was severely understaffed. With the Stormwind Army deployed to distant battlefronts, teenage volunteers were left guarding hardened killers. The convicts ambushed the staff, seized weapons, and forced Warden Thelwater out of the cellblocks."
+  },
+  {
+   "q": "Who is running the uprising inside?",
+   "aliases": [
+    "stockades boss",
+    "who leads the riot",
+    "who runs stockades"
+   ],
+   "answer": "The mastermind behind the revolt is Bazil Thredd, an influential Defias felon incarcerated in the central corridor. He coordinated the prisoners across factions, using enforcers like the dwarven rogue Bruegal Ironknuckle, the ogre Hamhock, and Dark Iron infiltrator Kam Deepfury to hold the wings."
+  },
+  {
+   "q": "Why are prisoners like Targorr and Dextren Ward still alive?",
+   "aliases": [
+    "why wasn't targorr executed",
+    "dextren ward court",
+    "house of nobles corruption"
+   ],
+   "answer": "Both were condemned to death, but corrupt politicians within the House of Nobles placed bureaucratic holds on their executions to use them as political leverage. This interference outraged allies in Lakeshire and Darkshire, prompting them to send adventurers to eliminate the prisoners during the chaos."
+  },
+  {
+   "q": "What does defeating Bruegal Ironknuckle mean for the prison?",
+   "aliases": [
+    "bruegal ironknuckle lore",
+    "kill bruegal",
+    "who is bruegal"
+   ],
+   "answer": "Bruegal Ironknuckle is the most fearsome enforcer among the rioters. Striking down this rare dwarven brawler shatters the physical intimidation holding the inmates together, leaving Bazil Thredd without his primary muscle and allowing Warden Thelwater to begin restoring order."
+  },
+  {
+   "q": "Why are there Dark Iron dwarves and orcs inside a human jail?",
+   "aliases": [
+    "why dark irons here",
+    "kam deepfury lore",
+    "targorr stockades"
+   ],
+   "answer": "The Stockade serves as a maximum-security holding pen for high-value prisoners of war. Targorr the Dread led Blackrock orc attacks in Redridge, while Kam Deepfury conducted sabotage for the Dark Iron clan in the Wetlands before both were captured and transferred to the capital."
+  },
+  {
+   "q": "Can Horde players enter the Stockade?",
+   "aliases": [
+    "can horde do stockades",
+    "horde in stormwind prison"
+   ],
+   "answer": "Yes, but it is exceptionally hazardous. The dungeon entrance sits directly inside Stormwind City near the Mage Quarter canals. Horde infiltrators must sneak past city guards and Alliance players through the harbor and sewer system to reach the portal."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The rebellion threatens the very heart of the capital; putting down the uprising preserves Stormwind's internal security while honoring off-the-books bounties for Redridge, Duskwood, and Ironforge."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The presence of Kam Deepfury in Stormwind's cells is an affront to Dun Modr; the Kingdom of Ironforge demands his head to avenge dwarven lives lost in the Wetlands."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The prison layout presents an intricate web of locked iron cells and Defias connections, offering unique lockpicking practice and insight into Bazil Thredd's underworld syndicate."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Located right on the canal edge of the Mage Quarter, the riot's physical brawlers and lack of hostile spellcasters make defensive wards and Amplify Magic especially effective for support."
+  }
+ ],
+ "keywords": [
+  "bazil thredd",
+  "bruegal ironknuckle",
+  "canals",
+  "defias",
+  "dextren ward",
+  "hamhock",
+  "kam deepfury",
+  "riot",
+  "stockade",
+  "stormwind",
+  "targorr",
+  "warden thelwater"
+ ],
+ "related": [
+  "npc:warden-thelwater",
+  "npc:bruegal-ironknuckle",
+  "npc:kam-deepfury",
+  "npc:targorr-the-dread",
+  "npc:dextren-ward",
+  "quest:391",
+  "quest:389"
+ ],
+ "attribution": [
+  "Stormwind Stockade (Classic)",
+  "Stormwind Stockade"
+ ]
+}

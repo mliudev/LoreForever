@@ -1,0 +1,121 @@
+{
+ "key": "quest:3261",
+ "type": "quest",
+ "name": "Jorn Skyseer",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   3261
+  ],
+  "level": "18",
+  "faction": "Horde",
+  "start": "Sergra Darkthorn",
+  "end": "Jorn Skyseer",
+  "previous": "The Angry Scytheclaws",
+  "next": "Ishamuhale (quest)",
+  "wiki": "Jorn Skyseer (quest)",
+  "chain": []
+ },
+ "summary": "Jorn Skyseer is a Horde journey quest directing seasoned hunters from the Crossroads south across the Barrens to Camp Taurajo. After proving their tracking skills against the local raptors for Sergra Darkthorn, hunters are sent to seek deeper spiritual and physical guidance under the elder tauren tracker Jorn Skyseer.",
+ "sections": [
+  {
+   "title": "Passing the Mantle",
+   "body": "Having hunted the cunning sunscale and scytheclaw raptors stalking the northern savannah, an adventurer earns the respect of Sergra Darkthorn at the Crossroads. Knowing that raw martial skill must eventually be paired with greater understanding of the land's great beasts, Sergra declares her mentorship complete and sends the hunter south.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Taurajo",
+   "body": "Following the long Gold Road south leads through increasingly rugged plains toward Camp Taurajo, a vital tauren settlement nestled near the southern wilds. There waits Jorn Skyseer, a skilled elder tracker ready to teach hunters how to pursue elusive, legendary quarry across the Barrens.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me to Jorn Skyseer?",
+   "aliases": [
+    "who gives jorn skyseer",
+    "who starts jorn skyseer",
+    "sergra darkthorn quest"
+   ],
+   "answer": "Sergra Darkthorn, the raptor hunter stationed at the Crossroads, sends you to him after you prove your tracking and hunting prowess against the local scytheclaws."
+  },
+  {
+   "q": "Where is Jorn Skyseer located?",
+   "aliases": [
+    "where is jorn skyseer",
+    "jorn skyseer location",
+    "find jorn skyseer"
+   ],
+   "answer": "Jorn Skyseer is stationed in Camp Taurajo, located far to the south along the main road running through the Barrens."
+  },
+  {
+   "q": "What happens after reaching Jorn Skyseer?",
+   "aliases": [
+    "what does jorn teach",
+    "jorn skyseer followup",
+    "next quest after jorn skyseer"
+   ],
+   "answer": "Once you report to him, Jorn welcomes you to walk the hunter's path and begins directing you to track and hunt elusive beasts across the southern Barrens, starting with the legendary raptor Ishamuhale."
+  },
+  {
+   "q": "Do I need to be a hunter class to do this quest?",
+   "aliases": [
+    "is this hunter only",
+    "class requirement jorn skyseer"
+   ],
+   "answer": "No. While the storyline revolves around learning the ways of a plains tracker and walking the hunter's path, any Horde adventurer who completes Sergra Darkthorn's raptor tasks can undertake it."
+  },
+  {
+   "q": "Why does Sergra stop teaching you herself?",
+   "aliases": [
+    "why does sergra send you away",
+    "sergra guidance finished"
+   ],
+   "answer": "Sergra Darkthorn focuses her work around the northern raptor nests near the Crossroads. Once an adventurer masters those hunts, she refers them south to Jorn Skyseer, who oversees deeper expeditions into southern game."
+  },
+  {
+   "q": "What is Camp Taurajo?",
+   "aliases": [
+    "about camp taurajo",
+    "what is taurajo"
+   ],
+   "answer": "Camp Taurajo is a tauren encampment in the southern Barrens. It serves as a hunting post, trading hub, and cultural waystation for travelers journeying between the northern plains and Mulgore or Thousand Needles."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This quest directly introduces you to Jorn Skyseer, who tests your ability to outsmart and conquer the legendary apex predators of the central and southern plains."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For tauren returning south toward Camp Taurajo, this journey reconnects tribal huntsmanship with the spiritual guardianship of the Barrens' wilderness."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Linking the Crossroads to Camp Taurajo, this transit guides Horde forces deeper into the contested southern territory of the Barrens."
+  }
+ ],
+ "keywords": [
+  "camp taurajo",
+  "hunter's path",
+  "jorn skyseer",
+  "scytheclaws",
+  "sergra darkthorn",
+  "the barrens",
+  "the crossroads"
+ ],
+ "related": [
+  "subzone:camp-taurajo",
+  "subzone:crossroads",
+  "quest:860",
+  "quest:905",
+  "zone:barrens",
+  "topic:tauren",
+  "quest:6065"
+ ],
+ "attribution": [
+  "Jorn Skyseer (quest)"
+ ]
+}

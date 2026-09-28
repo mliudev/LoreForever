@@ -1,0 +1,125 @@
+{
+ "key": "quest:370",
+ "type": "quest",
+ "name": "At War With The Scarlet Crusade",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   370
+  ],
+  "level": "9",
+  "faction": "Horde",
+  "start": "Executor Zygand",
+  "end": "",
+  "previous": "At War With The Scarlet Crusade (Classic)",
+  "next": "At War With The Scarlet Crusade (3)",
+  "wiki": "At War With The Scarlet Crusade (2)",
+  "chain": [
+   "At War With The Scarlet Crusade (Classic)",
+   "At War With The Scarlet Crusade (2)",
+   "At War With The Scarlet Crusade (3)",
+   "At War With The Scarlet Crusade (4)"
+  ]
+ },
+ "summary": "Executor Zygand directs Forsaken champions to strike down Captain Perrine and her garrison stationed at a ruined tower southwest of Brill. Using intelligence recovered in Deathknell, the Forsaken aim to push back the zealous crusaders threatening their borders.",
+ "sections": [
+  {
+   "title": "Intelligence Put to Use",
+   "body": "Documents recovered from the Scarlet Crusade in Deathknell by Executor Arren revealed active troop movements across Tirisfal Glades. Rather than waiting for the fanatics to mount an offensive against the newly fortified town of Brill, Executor Zygand uses this captured intelligence to orchestrate preemptive strikes against their field commanders.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat at the Ruined Tower",
+   "body": "Stationed at a dilapidated watchtower southwest of Brill, Captain Perrine oversees a contingent of Scarlet Zealots and Missionaries. From this vantage, the Crusade attempts to monitor Forsaken movements and project power deeper into Tirisfal, making Perrine's death crucial to the defense of the Dark Lady's young kingdom.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Captain Perrine?",
+   "aliases": [
+    "captain perrine",
+    "perrine",
+    "who is perrine"
+   ],
+   "answer": "Captain Perrine is a Scarlet Crusade officer stationed at a ruined watchtower southwest of Brill, tasked with commanding a detachment of Zealots and Missionaries encroaching upon Tirisfal Glades."
+  },
+  {
+   "q": "Where did the Forsaken get information on Captain Perrine?",
+   "aliases": [
+    "strategic documents zygand",
+    "arren's documents",
+    "scarlet documents deathknell"
+   ],
+   "answer": "Executor Arren recovered strategic Crusade documents during the initial defense of Deathknell, which detailed troop assignments and outpost locations, including Perrine's post."
+  },
+  {
+   "q": "Why are Scarlet Missionaries and Zealots in Tirisfal?",
+   "aliases": [
+    "why is scarlet crusade in tirisfal",
+    "scarlet missionaries tirisfal",
+    "scarlet zealots"
+   ],
+   "answer": "The Scarlet Crusade considers all undead abominations that must be exterminated, regardless of whether they serve the Scourge or the Forsaken. Their missionaries and zealots push deep into Tirisfal to wage a holy war and reclaim Lordaeron for the living."
+  },
+  {
+   "q": "How does this quest fit into the campaign against the Crusade?",
+   "aliases": [
+    "at war with the scarlet crusade chain",
+    "what comes next after perrine"
+   ],
+   "answer": "This is the second step in the Tirisfal campaign against the Crusade. Slaying Perrine dismantles their local scouting post before Executor Zygand escalates operations against larger encampments further across the glades."
+  },
+  {
+   "q": "Can this quest be done together with anything else nearby?",
+   "aliases": [
+    "proof of demise pairing",
+    "quest pairing perrine",
+    "brill tower quests"
+   ],
+   "answer": "Yes, it pairs directly with Proof of Demise, which also directs Forsaken adventurers to Perrine's ruined tower to retrieve the captain's signet ring as evidence of her death."
+  },
+  {
+   "q": "Who is Executor Zygand?",
+   "aliases": [
+    "zygand",
+    "executor zygand brill"
+   ],
+   "answer": "Executor Zygand is the primary military commander stationed in Brill, responsible for securing Tirisfal Glades and directing strategic offensives on behalf of Sylvanas Windrunner."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, eliminating the Scarlet Crusade is an existential necessity; the zealots draw no distinction between free-willed undead and the Scourge."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde's foothold in the Eastern Kingdoms relies on the Forsaken securing Tirisfal Glades against hostile human zealots."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "captain perrine",
+  "executor arren",
+  "executor zygand",
+  "proof of demise",
+  "ruined tower",
+  "scarlet crusade",
+  "scarlet missionary",
+  "scarlet zealot",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:executor-zygand",
+  "topic:scarlet-crusade",
+  "quest:374",
+  "subzone:brill",
+  "npc:executor-arren",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "At War With The Scarlet Crusade (2)"
+ ]
+}

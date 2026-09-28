@@ -1,0 +1,126 @@
+{
+ "key": "topic:twilight-s-hammer",
+ "type": "topic",
+ "name": "Twilight's Hammer",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Twilight's Hammer"
+ },
+ "summary": "The Twilight's Hammer is a nihilistic, apocalyptic cult dedicated to awakening the Old Gods and bringing about the end of Azeroth. Originally an orcish clan led by the ogre-mage Cho'gall, it has evolved into a secretive, multiracial order actively conducting dark rituals across Kalimdor and the Eastern Kingdoms.",
+ "sections": [
+  {
+   "title": "Origins in Shadow",
+   "body": "The Twilight's Hammer began on Draenor as an exiled clan of Pale orcs residing in the cavernous Underpale beneath Oshu'gun. Communion with Void forces drove them to embrace a grim prophecy: the Hour of Twilight, an inevitable cosmic doom when shadow engulfs all existence. Seeking to bend their terrifying shadow magic to the Horde's war effort, Gul'dan sent the two-headed ogre-mage Cho'gall to lead them. Cho'gall convinced the Pale that the Horde was merely an engine of destruction meant to usher in their beloved apocalypse. Bound by this prophecy, the clan codified their mad teachings into the Twilight Canticle\u2014pages crafted from the flayed, inscribed skin of the Pale themselves.",
+   "spoiler": 0
+  },
+  {
+   "title": "Arrival on Azeroth",
+   "body": "When the Twilight's Hammer crossed the Dark Portal during the First War, their apocalyptic fanaticism only deepened. In the soil of Azeroth, the cultists sensed the genuine whispers of the Old Gods\u2014ancient horrors chained beneath the earth. Blackhand tolerated their erratic, ritualistic behavior solely because Cho'gall managed their bloodlust, deploying them alongside Kilrogg Deadeye's Bleeding Hollow clan in early assaults on Stormwind Keep. The clan later operated deep within Grim Batol during the Second War, overseeing critical refineries until Gul'dan's betrayal fractured the Horde. Though Orgrim Doomhammer ordered the traitorous clan butchered near the Tomb of Sargeras, Cho'gall and a core cadre of zealots survived and fled west across the Great Sea.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Spreading Cancer",
+   "body": "Upon reaching the forgotten shores of Kalimdor, the cult transformed from a shattered orc clan into a clandestine, multiracial conspiracy. Seducing disillusioned members of both the Alliance and the Horde, the Twilight's Hammer recruits any soul broken enough to welcome oblivion. In northern Kalimdor, led by Twilight Lord Kelris, cultists have entrenched themselves within the submerged halls of Blackfathom Deeps, feeding sacrifices to Aku'mai, a monstrous pet of the Old Gods. Further north in Darkshore, their excavators disturb the colossal fossilized remains at the Master's Glaive. Across the southern deserts of Silithus, camps of robed fanatics tend abyssal windstones, listening for the stirring of ancient horrors entombed beneath the sands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Twilight's Hammer trying to achieve?",
+   "aliases": [
+    "what do cultists want",
+    "twilights hammer goal",
+    "twilight hammer purpose"
+   ],
+   "answer": "They seek the Hour of Twilight: the total annihilation of all life and order on Azeroth. Rather than seeking conquest or wealth, the cult views oblivion as a sacred blessing and actively works to release the ancient Old Gods chained beneath the world."
+  },
+  {
+   "q": "Are they an orc clan or a cult?",
+   "aliases": [
+    "are they orcs",
+    "is twilights hammer a clan",
+    "twilights hammer races"
+   ],
+   "answer": "They began as an orc clan on Draenor composed of deranged Pale outcasts led by Cho'gall. After fleeing the Second War, they abandoned clan boundaries and transformed into a secret, multiracial cult, enlisting humans, night elves, dwarves, and anyone willing to worship the Void."
+  },
+  {
+   "q": "Who leads the Twilight's Hammer?",
+   "aliases": [
+    "who is twilight hammer boss",
+    "twilights hammer leader",
+    "cho'gall"
+   ],
+   "answer": "The cult was founded and overseen by Cho'gall, a cunning two-headed ogre-mage and former apprentice of Gul'dan. Local chapters operate under regional commanders, such as Twilight Lord Kelris in Blackfathom Deeps."
+  },
+  {
+   "q": "Why are they in Blackfathom Deeps?",
+   "aliases": [
+    "blackfathom cultists",
+    "kelris bfd",
+    "what are they doing in ashenvale"
+   ],
+   "answer": "Led by Twilight Lord Kelris, the cultists occupied the sunken night elven temple along the Zoram Strand to worship and feed sacrificial victims to Aku'mai, a primordial three-headed hydra favored by the Old Gods."
+  },
+  {
+   "q": "What are they doing at the Master's Glaive in Darkshore?",
+   "aliases": [
+    "masters glaive cultists",
+    "darkshore twilight hammer",
+    "soggoth"
+   ],
+   "answer": "The Master's Glaive marks the petrified carcass of Soggoth the Slitherer, a colossal ancient servant of the Old Gods slain during the mythic wars of Kalimdor. Cultists congregate there to commune with its lingering dark energies and seek portents of their masters' awakening."
+  },
+  {
+   "q": "Why did Orgrim Doomhammer try to wipe them out?",
+   "aliases": [
+    "doomhammer twilights hammer",
+    "second war betrayal"
+   ],
+   "answer": "During the height of the Second War, Cho'gall and Gul'dan abandoned the Horde's march on Lordaeron to seek godhood at the Tomb of Sargeras. Furious at the treachery that cost the Horde its victory, Warchief Doomhammer dispatched loyal troops to slaughter the defecting clans."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "The Twilight's Hammer manipulates the same Void and shadow magic that shadow priests draw upon, serving as a dark warning of what happens when communion with the whispers overwhelms mortal sanity."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Though originally affiliated with Gul'dan's Shadow Council, the Twilight's Hammer abandoned demonic fel mastery in favor of the primordial madness of the Old Gods, making them unpredictable rivals rather than allies."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The cult is a shameful relic of the Old Horde's darkest days. Thrall's new Horde has rejected their madness entirely and actively executes any zealots attempting to seduce young orcs back into nihilism."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The defilement of holy sites like Blackfathom Deeps and the Master's Glaive by alien cultists represents a direct spiritual and physical assault on the sacred lands of northern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "aku'mai",
+  "blackfathom deeps",
+  "cho'gall",
+  "hour of twilight",
+  "kelris",
+  "master's glaive",
+  "old gods",
+  "silithus",
+  "twilight's hammer",
+  "void"
+ ],
+ "related": [
+  "npc:twilight-lord-kelris",
+  "npc:aku-mai",
+  "subzone:master-s-glaive",
+  "zone:blackfathom",
+  "topic:old-god",
+  "zone:silithus",
+  "topic:shadow-council",
+  "npc:orgrim-doomhammer"
+ ],
+ "attribution": [
+  "Twilight's Hammer"
+ ]
+}

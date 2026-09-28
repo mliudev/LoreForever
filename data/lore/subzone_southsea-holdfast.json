@@ -1,0 +1,85 @@
+{
+ "key": "subzone:southsea-holdfast",
+ "type": "subzone",
+ "name": "Southsea Holdfast",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Southsea Holdfast"
+ },
+ "summary": "Southsea Holdfast is a pirate stronghold perched high on the cliff walls overlooking the eastern reaches of Thousand Needles. From this elevated camp, Southsea Freebooters stage smuggling operations and direct attacks throughout the canyon flats. Led locally by the pirate boss Tony Two-Tusk, the holdfast serves as a fortified haven for cutthroats far inland from the open ocean.",
+ "sections": [
+  {
+   "title": "A Den of Scoundrels",
+   "body": "Carved into the cliffs bordering the Shimmering Flats, the Southsea Holdfast gives the Southsea Pirates commanding vantage points over the surrounding canyon. Despite being surrounded by desert stone and salt, these corsairs have established a thriving inland redoubt. They raid supply lines heading to and from Tanaris, prey on passing caravans, and stockpile stolen goods away from naval patrols.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Admiral's Reach",
+   "body": "Deep within the camp grounds lies the Admiral's Den, the personal shelter of Tony Two-Tusk. Under his leadership, the crew fiercely defends their mountain perch against meddling adventurers and encroaching competitors alike. Anyone venturing into the holdfast must contend with a tight network of sentries, cutthroats, and dockhands who treat intruders with no mercy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are pirates doing out in the middle of a desert canyon?",
+   "aliases": [
+    "why are pirates here",
+    "southsea pirates in thousand needles",
+    "pirates inland"
+   ],
+   "answer": "The Southsea Pirates operate throughout southern Kalimdor, maintaining hideouts where maritime authorities and major factions cannot easily project force. The cliffs of Thousand Needles allow them to overlook trade routes across the salt flats and raid travellers heading between the canyon and Tanaris."
+  },
+  {
+   "q": "Who leads the pirates at Southsea Holdfast?",
+   "aliases": [
+    "holdfast boss",
+    "who is the boss here",
+    "tony two tusk"
+   ],
+   "answer": "The outpost is commanded by Tony Two-Tusk, a ruthless Southsea pirate boss who keeps watch from the Admiral's Den, a cavern tucked securely inside the holdfast."
+  },
+  {
+   "q": "Where is Southsea Holdfast located?",
+   "aliases": [
+    "holdfast location",
+    "where is southsea holdfast",
+    "how to find holdfast"
+   ],
+   "answer": "It is situated high along the cliffs in the southeastern portion of Thousand Needles, bordering the path leading down toward the Shimmering Flats and Tanaris."
+  },
+  {
+   "q": "Are the pirates here affiliated with the Southsea Freebooters in Tanaris?",
+   "aliases": [
+    "tanaris pirates",
+    "southsea connection",
+    "are they same pirates"
+   ],
+   "answer": "Yes. They belong to the broader Southsea Pirates syndicate, operating inland support outposts that connect their coastal strongholds in Tanaris and the Barrens to overland raiding networks."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The bustling encampment offers ample opportunity for pickpockets and scoundrels to relieve pirate sentries of coin pouches and lockboxes."
+  }
+ ],
+ "keywords": [
+  "admiral's den",
+  "freebooters",
+  "pirate outpost",
+  "southsea holdfast",
+  "southsea pirates",
+  "thousand needles",
+  "tony two-tusk"
+ ],
+ "related": [
+  "topic:pirate",
+  "zone:thousandneedles",
+  "topic:goblin",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Southsea Holdfast"
+ ]
+}

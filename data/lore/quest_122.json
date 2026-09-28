@@ -1,0 +1,132 @@
+{
+ "key": "quest:122",
+ "type": "quest",
+ "name": "Underbelly Scales",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   122
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Verner Osgood",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Underbelly Scales",
+  "chain": [
+   "The Price of Shoes",
+   "Return to Verner",
+   "Underbelly Scales",
+   "A Baying of Gnolls",
+   "Howling in the Hills"
+  ]
+ },
+ "summary": "Verner Osgood needs black dragon whelp underbelly scales to clear a trade debt with Smith Argus of Goldshire. Gathering these materials requires hunting the young drakes wandering the crags south of Lakeshire. Securing the scales settles Verner's account and provides enough raw hide to craft a piece of gear.",
+ "sections": [
+  {
+   "title": "A Frontier Debt",
+   "body": "Running a forge on the outskirts of Lakeshire requires scarce supplies, and Verner Osgood frequently trades with craftsmen beyond the Redridge Mountains. After receiving a shipment of horseshoes from Smith Argus in Goldshire, Verner finds himself short on conventional coin. Instead, Argus demands payment in valuable dragonhide: specifically, the softer, highly prized underbelly scales of the black dragon whelps nesting in the region. Without them, Verner risks having collectors sent out from Elwynn Forest to claim what he owes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Brood of the Black Flight",
+   "body": "The presence of black dragon whelps in the Redridge Mountains is an alarming sign for the local defenders. While gnolls and orcs openly contest the roads, the brood of the Black Dragonflight nests in the high peaks and wanders the skies south of Lake Everstill. The underbelly scales of these young predators are tough yet pliable, making them prized crafting components for armorers, smiths, and leatherworkers across the kingdom who are daring enough to harvest them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Verner Osgood need dragon scales?",
+   "aliases": [
+    "why dragon scales",
+    "verner debt",
+    "argus scales"
+   ],
+   "answer": "Verner owes Smith Argus of Goldshire for a shipment of horseshoes. Argus demanded payment in underbelly scales taken from black dragon whelps rather than regular coin. Verner needs the scales delivered quickly before Argus sends collectors to enforce the debt."
+  },
+  {
+   "q": "Where are the black dragon whelps found in Redridge?",
+   "aliases": [
+    "whelp locations",
+    "where are whelps",
+    "dragon whelp location redridge"
+   ],
+   "answer": "Black dragon whelps commonly roam the rocky crags and valleys south of Lakeshire. They tend to wander freely across the southern foothills, meaning hunters often have to patrol the trails and ridges to spot them in flight."
+  },
+  {
+   "q": "Who is Smith Argus?",
+   "aliases": [
+    "argus goldshire",
+    "who is argus",
+    "smith argus"
+   ],
+   "answer": "Smith Argus is the resident blacksmith stationed at Goldshire in Elwynn Forest. He provides metalwork and forged goods to surrounding settlements, including horseshoes for Verner Osgood in Redridge."
+  },
+  {
+   "q": "Why are black dragon whelps in Redridge Mountains?",
+   "aliases": [
+    "why are there dragons in redridge",
+    "black dragons redridge",
+    "black flight redridge"
+   ],
+   "answer": "The Black Dragonflight maintains a presence throughout the Burning Steppes and the surrounding peaks of Redridge. Their whelps hunt and wander southward through the mountain passes into the Redridge foothills."
+  },
+  {
+   "q": "What makes underbelly scales special?",
+   "aliases": [
+    "why underbelly scales",
+    "scale value",
+    "dragonhide quality"
+   ],
+   "answer": "While dorsal scales on drakes are thick and rigid, underbelly scales are supple and flexible while maintaining high heat and puncture resistance. This makes them ideal for specialized leatherworking, tailored reinforcement, and exotic trade goods."
+  },
+  {
+   "q": "Does clearing this debt lead to other tasks for Verner?",
+   "aliases": [
+    "what comes next",
+    "verner questline",
+    "osgood follow up"
+   ],
+   "answer": "This task is part of Verner Osgood's requests after you bring him his horseshoe shipment. Aside from this optional gathering job, Verner directs adventurers to address the growing gnoll threat in Redridge through hunting their scouts and leaders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Smith Argus's demand highlights how rare reagents like dragon scales are leveraged as high-value barter between smiths when standard coin is scarce."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The creeping threat of the Black Dragonflight south of Lakeshire is another burden on an already overstretched garrison struggling to hold Redridge."
+  },
+  {
+   "target": "race:Human",
+   "text": "Trade routes between Elwynn and Redridge keep towns like Lakeshire supplied, but frontier craftsmen must often pay steep prices to city merchants."
+  }
+ ],
+ "keywords": [
+  "black dragon whelp",
+  "dragonflight",
+  "goldshire",
+  "lakeshire",
+  "redridge",
+  "smith argus",
+  "underbelly scales",
+  "verner osgood"
+ ],
+ "related": [
+  "npc:verner-osgood",
+  "quest:118",
+  "quest:119",
+  "quest:124",
+  "quest:126",
+  "zone:redridge",
+  "subzone:lakeshire",
+  "subzone:goldshire"
+ ],
+ "attribution": [
+  "Underbelly Scales"
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "key": "npc:kuray-bin",
+ "type": "npc",
+ "name": "Kuray'bin",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Kuray'bin",
+  "refs": 1
+ },
+ "summary": "Kuray'bin is a Darkspear jungle troll scout stationed at a guard post outside Splintertree Post in Ashenvale. He watches the surrounding forest trails for night elf scouts sneaking close to the Horde encampment.",
+ "sections": [
+  {
+   "title": "Eyes on the Forest Edge",
+   "body": "Positioned just outside Splintertree Post, Kuray'bin keeps watch against Alliance infiltration in the deep woods of Ashenvale. The Silverwing Sentinels constantly patrol the surrounding canopy, sending agile outrunners across the border to gather intelligence on Horde lumber operations and defenses. Knowing that unmonitored scouts quickly become ambushing forces, Kuray'bin directs capable Horde fighters to hunt down the outrunners before they can report back to Silverwing Refuge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kuray'bin?",
+   "aliases": [
+    "kuraybin",
+    "who is kuraybin",
+    "splintertree troll scout"
+   ],
+   "answer": "Kuray'bin is a Darkspear troll watchman stationed outside Splintertree Post in Ashenvale. He tasks Horde adventurers with culling hostile night elf scouts lurking in the surrounding woodland."
+  },
+  {
+   "q": "Where can I find Kuray'bin?",
+   "aliases": [
+    "kuraybin location",
+    "where is kuraybin"
+   ],
+   "answer": "He is located just outside the stockade gates of Splintertree Post, guarding the road approaches in central-eastern Ashenvale."
+  },
+  {
+   "q": "Why does Kuray'bin want the Silverwing Outrunners dead?",
+   "aliases": [
+    "why kill outrunners",
+    "ashenvale outrunners quest lore"
+   ],
+   "answer": "The outrunners are Silverwing Sentinels infiltrating close to Splintertree Post. Kuray'bin wants them eliminated before they gather tactical intelligence on the Horde's positions or coordinate surprise assaults."
+  },
+  {
+   "q": "Does Kuray'bin offer any other tasks?",
+   "aliases": [
+    "kuraybin quests",
+    "kuray bin task"
+   ],
+   "answer": "No. His single duty at the outpost perimeter is overseeing counter-scouting against the elusive night elf outrunners."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Kuray'bin represents the frontline vigilance necessary to keep Splintertree Post from being surrounded and overrun by night elf guerillas."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Like many Darkspear scouts serving the Horde, Kuray'bin uses his jungle tracking instincts to detect night elf infiltrators where others see only trees."
+  }
+ ],
+ "keywords": [
+  "ashenvale outrunners",
+  "darkspear",
+  "kuray'bin",
+  "kuraybin",
+  "silverwing sentinels",
+  "splintertree post"
+ ],
+ "related": [
+  "subzone:splintertree-post",
+  "quest:6503",
+  "zone:ashenvale",
+  "topic:sentinels",
+  "topic:horde",
+  "topic:troll",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Kuray'bin"
+ ]
+}

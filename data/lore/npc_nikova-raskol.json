@@ -1,0 +1,88 @@
+{
+ "key": "npc:nikova-raskol",
+ "type": "npc",
+ "name": "Nikova Raskol",
+ "era": "classic",
+ "zone": "stockade",
+ "meta": {
+  "wiki": "Nikova Raskol",
+  "refs": 1
+ },
+ "summary": "Nikova Raskol is an elderly human townsperson who walks the cobblestone streets of Old Town in Stormwind City. Grieving the murder of her grandson at the hands of the Defias Brotherhood, she seeks justice against the rioting criminals locked inside the Stockade.",
+ "sections": [
+  {
+   "title": "A Grandmother's Grief",
+   "body": "Nikova wanders Old Town carrying the weight of a recent and devastating personal tragedy. Her beloved grandson, Mac, was slain by brigands belonging to the Defias Brotherhood. While the kingdom grapples with treason on a political scale, Nikova represents the intimate human cost inflicted upon everyday citizens by the Brotherhood's lawless rampage.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vengeance in the Stockade",
+   "body": "Though many of the criminals who wrecked havoc were captured and thrown into the Stockade, prison bars offer little solace now that a violent inmate rebellion has seized the facility. Frustrated by the guards' inability to restore order, Nikova appeals directly to brave adventurers heading into the prison, asking them to collect red Defias bandanas as proof that her grandson's killers have finally faced retribution.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Nikova Raskol?",
+   "aliases": [
+    "who is nikova",
+    "nikova raskol role",
+    "nikova raskol lore"
+   ],
+   "answer": "Nikova Raskol is an elderly resident of Stormwind who walks the oval road in Old Town. She is mourning her grandson, Mac, who was murdered by Defias thugs."
+  },
+  {
+   "q": "What happened to her grandson Mac?",
+   "aliases": [
+    "who is mac",
+    "what happened to mac",
+    "how did mac die"
+   ],
+   "answer": "Mac was slain in cold blood by members of the Defias Brotherhood. Many of the perpetrators ended up incarcerated in the Stormwind Stockade, where they later revolted."
+  },
+  {
+   "q": "Why does she want red bandanas from the Stockade?",
+   "aliases": [
+    "color of blood",
+    "why red bandanas",
+    "defias bandanas"
+   ],
+   "answer": "The red bandana is the identifying mark worn by the Defias Brotherhood. Nikova asks fighters entering the rebellious Stockade to bring back these neckerchiefs to prove that the criminals responsible for taking innocent lives have been dealt with."
+  },
+  {
+   "q": "Where can Nikova Raskol be found?",
+   "aliases": [
+    "where is nikova",
+    "nikova location",
+    "nikova raskol path"
+   ],
+   "answer": "Nikova paces in a steady loop along the main thoroughfare of Old Town, not far from the Pig and Whistle Tavern and the training grounds in Stormwind City."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions visiting Stormwind, helping Nikova is a reminder that defending the kingdom means protecting ordinary townsfolk whose families have been torn apart by civil unrest."
+  }
+ ],
+ "keywords": [
+  "defias bandana",
+  "mac",
+  "nikova raskol",
+  "old town",
+  "stockade",
+  "stormwind",
+  "the color of blood"
+ ],
+ "related": [
+  "quest:388",
+  "subzone:stormwind-stockade",
+  "subzone:old-town",
+  "topic:defias-brotherhood",
+  "zone:stormwind",
+  "quest:65"
+ ],
+ "attribution": [
+  "Nikova Raskol"
+ ]
+}

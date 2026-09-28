@@ -1,0 +1,116 @@
+{
+ "key": "npc:baron-silverlaine",
+ "type": "npc",
+ "name": "Baron Silverlaine",
+ "era": "classic",
+ "zone": "shadowfang",
+ "meta": {
+  "wiki": "Baron Silverlaine",
+  "refs": 5
+ },
+ "summary": "Baron Silverlaine was the rightful human lord of the fortress once known as Keep Silverlaine, perched high above Pyrewood Village. When Archmage Arugal unleashed the savage worgen upon the region, the baron and his household were mercilessly slaughtered. Now, his tormented spirit lingers in the ruined dining hall, bound in undeath to defend the very lair that became his tomb.",
+ "sections": [
+  {
+   "title": "The Fall of Keep Silverlaine",
+   "body": "Before the shadow of the wolf-beasts blanketed the southern hills of Silverpine, Baron Silverlaine ruled over a proud noble estate. His fortress provided safety and oversight to the surrounding Gilnean lands. That peace shattered when Archmage Arugal, seeking a weapon against the rampaging Scourge, unleashed summoned worgen into the region. The feral monstrosities could not be controlled; they stormed the stronghold, overran its guards, and butchered the baron along with his entire family.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Tormented Specter",
+   "body": "Death brought no release to Baron Silverlaine. Bound to the keep's ancient Great Hall, his restless ghost now wanders the trashed dining tables where he once feasted. In a cruel twist of dark magic, the cursed lord lashes out at any intruders who enter his ruined home, strangely compelled to summon the spectral forms of the very beasts that tore his flesh apart in life.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Baron Silverlaine?",
+   "aliases": [
+    "baron silverlaine lore",
+    "who is silverlaine",
+    "who ruled shadowfang"
+   ],
+   "answer": "He was the noble Gilnean human master of the fortress originally named Keep Silverlaine, situated above Pyrewood Village. He was slain alongside his family when worgen overran the fortress."
+  },
+  {
+   "q": "Why is he haunting Shadowfang Keep?",
+   "aliases": [
+    "why is silverlaine a ghost",
+    "is silverlaine dead",
+    "silverlaine spirit"
+   ],
+   "answer": "Silverlaine was slaughtered in his own home during the worgen onslaught unleashed by Archmage Arugal. Cursed in death, his ghost remains tethered to the dining hall of his ruined keep, unable to move on."
+  },
+  {
+   "q": "Why does he summon worgen spirits if they killed him?",
+   "aliases": [
+    "why does silverlaine use worgen",
+    "silverlaine worgen ghosts",
+    "silverlaine adds"
+   ],
+   "answer": "The dark curse binding him within Shadowfang Keep twists his tragic fate into a perpetual nightmare. In his spectral madness, the baron's anguish manifests the phantoms of the very wolf-beasts that butchered his household."
+  },
+  {
+   "q": "Where in the keep can he be found?",
+   "aliases": [
+    "where is silverlaine",
+    "baron silverlaine location",
+    "silverlaine dining hall"
+   ],
+   "answer": "Baron Silverlaine haunts the Great Hall, which served as the keep's lavish dining room before it was wrecked during the fall of his estate."
+  },
+  {
+   "q": "What was Shadowfang Keep called before the worgen attack?",
+   "aliases": [
+    "shadowfang original name",
+    "keep silverlaine lore",
+    "old name of shadowfang"
+   ],
+   "answer": "It was originally called Keep Silverlaine, named after the baron's noble family who held dominion over it before Arugal took control."
+  },
+  {
+   "q": "Did anyone in Silverlaine's family survive?",
+   "aliases": [
+    "silverlaine family",
+    "did silverlaines family live",
+    "silverlaine heirs"
+   ],
+   "answer": "No. Historical accounts confirm that Baron Silverlaine and his entire family were slaughtered inside the keep when the feral worgen invaded."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Silverlaine stands as a bitter testament to the downfall of human noble authority on the borders of Gilneas, his family wiped out by the magical hubris of a Dalaran-trained wizard."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken pushing across Silverpine, Silverlaine's specter is merely another remnant of old Gilnean aristocracy that must be cleared to break Arugal's grip on the keep."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Silverlaine's fate serves as a grim warning of magical recklessness; the summoner's art, when mishandled as Archmage Arugal did, destroys innocent lives and leaves indelible scars."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "baron",
+  "ghost",
+  "great hall",
+  "keep",
+  "pyrewood",
+  "shadowfang",
+  "silverlaine",
+  "worgen"
+ ],
+ "related": [
+  "zone:shadowfang",
+  "npc:arugal",
+  "topic:worgen",
+  "topic:scourge",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Baron Silverlaine"
+ ]
+}

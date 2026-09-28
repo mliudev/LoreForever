@@ -1,0 +1,89 @@
+{
+ "key": "npc:brother-sarno",
+ "type": "npc",
+ "name": "Brother Sarno",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Brother Sarno",
+  "refs": 1
+ },
+ "summary": "Brother Sarno is an affable human cleric stationed at the entrance of the Cathedral of Light in Stormwind City. Serving as the primary greeter for worshipers and visitors, he also helps direct brave Alliance travelers toward engineers in Ironforge who need aid in reclaiming Gnomeregan.",
+ "sections": [
+  {
+   "title": "A Welcoming Voice in the Cathedral",
+   "body": "Standing just inside the archways of Stormwind's magnificent Cathedral of Light, Brother Sarno is often the very first face pilgrims and travelers encounter. As a dedicated brother of the Church of the Holy Light, his role is simple yet vital: offering a kind greeting to anyone who enters the sacred hall seeking solace, prayer, or guidance. His warmth extends even to the most unexpected visitors, making him a reassuring presence amid the city's busy clerical life.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ties to Ironforge",
+   "body": "Beyond his pastoral greetings, Brother Sarno maintains communication with allies across the Alliance. When Tinkmaster Overspark in Ironforge urgently needed assistance dealing with his rogue invention, Techbot, deep within the irradiated halls of Gnomeregan, Sarno took it upon himself to guide capable adventurers toward Dun Morogh. Though a humble brother of the cloth, he understands that supporting the displaced gnomes is an act of genuine fraternity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Brother Sarno?",
+   "aliases": [
+    "sarno location",
+    "where is brother sarno",
+    "cathedral greeter"
+   ],
+   "answer": "Brother Sarno is located inside the Cathedral of Light in Stormwind City's Cathedral Square. He stands just to the left of the main entrance, ready to greet anyone who walks through the doors."
+  },
+  {
+   "q": "What does Brother Sarno do?",
+   "aliases": [
+    "brother sarno role",
+    "what does sarno do"
+   ],
+   "answer": "Sarno serves as a welcoming attendant for the Church of the Holy Light, greeting visitors and worshipers. He also directs adventurers to Tinkmaster Overspark in Ironforge to assist with troubles brewing in Gnomeregan."
+  },
+  {
+   "q": "Why does a Stormwind priest send people to Gnomeregan?",
+   "aliases": [
+    "sarno gnomeregan quest",
+    "why does sarno care about gnomes"
+   ],
+   "answer": "The Church of the Holy Light promotes cooperation and aid across the Grand Alliance. When word reached the clergy that Tinkmaster Overspark needed help reclaiming errant technology like Techbot, Brother Sarno helped steer capable champions toward Ironforge to assist."
+  },
+  {
+   "q": "Does he belong to any specific order?",
+   "aliases": [
+    "sarno faction",
+    "brother sarno order"
+   ],
+   "answer": "He is an ordained member of the Church of the Holy Light, serving beneath the leadership of the cathedral's prelates and Archbishop Benedictus in Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "Brother Sarno is the welcoming hand of your order in Stormwind, modeling the hospitality and gentle grace central to the virtues of the Holy Light."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Despite serving in a human house of worship, Brother Sarno gladly steers willing hands toward Ironforge to support Gnomeregan's recovery efforts."
+  }
+ ],
+ "keywords": [
+  "brother sarno",
+  "cathedral of light",
+  "church of the holy light",
+  "stormwind",
+  "techbot",
+  "tinkmaster overspark"
+ ],
+ "related": [
+  "subzone:cathedral-of-light",
+  "quest:2923",
+  "zone:stormwind",
+  "topic:church-of-the-holy-light",
+  "zone:ironforge",
+  "zone:gnomeregan",
+  "topic:light"
+ ],
+ "attribution": [
+  "Brother Sarno"
+ ]
+}

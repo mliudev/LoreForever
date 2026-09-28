@@ -1,0 +1,94 @@
+{
+ "key": "npc:korran",
+ "type": "npc",
+ "name": "Korran",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Korran",
+  "refs": 1
+ },
+ "summary": "Korran is a Darkspear troll researcher stationed at the Crossroads in the Barrens. Serving Belgrom Rockmaul in Orgrimmar, he monitors odd happenings across the scrublands and studies the emerging menace of the insectoid silithid.",
+ "sections": [
+  {
+   "title": "A Scout at the Crossroads",
+   "body": "While most at the Crossroads concern themselves with aggressive quilboar and local centaur clans, Korran keeps a watchful eye on subtler, more insidious threats. Stationed on orders from Belgrom Rockmaul in Orgrimmar, the troll scout observes the changing land and coordinates the collection of intelligence for the Horde's leadership.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Silithid Incursion",
+   "body": "Korran's primary concern has shifted south toward the Field of Giants, where strange insectoid creatures known as silithid have begun burrowing into the earth. Disturbed by their aggressive nature and rapid encroachment, he enlists passing adventurers to dig up intact eggs using his claw tool, attempting to decipher where the swarm originated and what danger it poses to the young Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Korran?",
+   "aliases": [
+    "who is korran",
+    "korran troll",
+    "crossroads troll"
+   ],
+   "answer": "Korran is a Darkspear troll stationed at the Crossroads in the Barrens. He acts as an observer and researcher reporting back to Belgrom Rockmaul in Orgrimmar."
+  },
+  {
+   "q": "What is Korran investigating in the Barrens?",
+   "aliases": [
+    "what does korran study",
+    "korran research",
+    "field of giants insects"
+   ],
+   "answer": "He is investigating the strange, aggressive insectoid creatures known as silithid that have cropped up in the southern Barrens at the Field of Giants, as well as similar swarms reported further south in Thousand Needles."
+  },
+  {
+   "q": "Who does Korran work for?",
+   "aliases": [
+    "who sent korran",
+    "korran superior",
+    "belgrom rockmaul"
+   ],
+   "answer": "Korran serves Belgrom Rockmaul, a seasoned warrior stationed in the Valley of Honor in Orgrimmar who monitors emerging threats across Kalimdor for the Horde."
+  },
+  {
+   "q": "Why does Korran need silithid eggs?",
+   "aliases": [
+    "why silithid eggs",
+    "egg hunt quest",
+    "korran claw"
+   ],
+   "answer": "He needs intact eggs to examine the life cycle and origins of the silithid swarm. By studying early specimens, Korran hopes to understand what the creatures are and determine how great of a threat they pose to Horde territory."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Korran represents the Horde's watchful eye on Kalimdor's shifting ecology, ensuring new threats like the silithid do not blindside Orgrimmar while it secures its borders."
+  },
+  {
+   "target": "race:Troll",
+   "text": "As a Darkspear troll, Korran brings keen scouting and survival instincts to the arid Barrens, applying pragmatic cunning to dissect strange, alien beasts."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "belgrom rockmaul",
+  "crossroads",
+  "egg hunt",
+  "field of giants",
+  "korran",
+  "silithid"
+ ],
+ "related": [
+  "subzone:crossroads",
+  "subzone:field-of-giants",
+  "zone:barrens",
+  "quest:868",
+  "zone:orgrimmar",
+  "zone:thousandneedles",
+  "topic:troll",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Korran"
+ ]
+}

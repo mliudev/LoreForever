@@ -1,0 +1,93 @@
+{
+ "key": "subzone:silverwing-outpost",
+ "type": "subzone",
+ "name": "Silverwing Outpost",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Silverwing Outpost"
+ },
+ "summary": "Silverwing Outpost is a fortified night elf garrison positioned in south-central Ashenvale, east of the Falfarren River. Commanded by Duriel Moonfire, it stands as the easternmost bastion of the Alliance against the Horde in the contested woodland.",
+ "sections": [
+  {
+   "title": "East of the Falfarren",
+   "body": "Situated southwest of Splintertree Post and just north of the border with the Barrens, Silverwing Outpost holds an inherently perilous strategic position. By sitting on the eastern side of the Falfarren River\u2014territory heavily contested and patrolled by the Horde\u2014the outpost serves as a direct shield for night elf holdings deeper in the forest. Duriel Moonfire and her Silverwing Sentinels remain under constant siege from nearby orcs determined to purge night elf forces from the area entirely.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Constant Front",
+   "body": "The skirmishes surrounding Silverwing Outpost are among the fiercest in Ashenvale. Orcish war parties based out of Splintertree Post, such as raiders led by Torek, launch relentless ambushes against the garrison's walls. For the Horde, neutralizing the outpost is essential to securing the road and expanding resource operations without the constant threat of Sentinel counterattacks.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Silverwing Outpost located?",
+   "aliases": [
+    "silverwing location",
+    "where is silverwing",
+    "silverwing outpost map"
+   ],
+   "answer": "It is located in south-central Ashenvale, southwest of Splintertree Post, north of the Barrens border, and on the eastern side of the Falfarren River."
+  },
+  {
+   "q": "Who commands Silverwing Outpost?",
+   "aliases": [
+    "silverwing leader",
+    "who leads silverwing outpost",
+    "duriel moonfire"
+   ],
+   "answer": "The outpost is commanded by Duriel Moonfire, a night elf officer leading the Silverwing Sentinels defending the eastern reaches of the forest."
+  },
+  {
+   "q": "Why does the Horde target this outpost so aggressively?",
+   "aliases": [
+    "why attack silverwing",
+    "horde interest in silverwing",
+    "splintertree vs silverwing"
+   ],
+   "answer": "Silverwing Outpost sits directly on the eastern side of the Falfarren River near Splintertree Post. Its presence allows the Sentinels to cut off Horde supply lines and directly threaten orcish operations in Ashenvale."
+  },
+  {
+   "q": "Who are the Silverwing Sentinels?",
+   "aliases": [
+    "what are silverwings",
+    "silverwing sentinels lore",
+    "silverwing faction"
+   ],
+   "answer": "The Silverwing Sentinels are a militant order of night elf warriors and huntresses dedicated to protecting Ashenvale from incursions, particularly against the encroaching lumber camps and war parties of the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Silverwing Outpost serves as your vital forward redoubt on the Horde side of the river, checking orc expansion out of Splintertree Post."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde, the outpost is an intolerable thorn in the side of Splintertree Post, directly obstructing your movements and supply lines through southern Ashenvale."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "duriel moonfire",
+  "falfarren river",
+  "silverwing outpost",
+  "silverwing sentinels",
+  "splintertree post",
+  "torek"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "subzone:splintertree-post",
+  "subzone:falfarren-river",
+  "quest:6544",
+  "topic:sentinels",
+  "topic:horde",
+  "topic:alliance",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Silverwing Outpost"
+ ]
+}

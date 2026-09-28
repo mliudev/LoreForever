@@ -1,0 +1,127 @@
+{
+ "key": "quest:2260",
+ "type": "quest",
+ "name": "Erion's Behest",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   2260
+  ],
+  "level": "16",
+  "faction": "Alliance",
+  "start": "Erion Shadewhisper",
+  "end": "Renzik \"The Shiv\"",
+  "previous": "Erion Shadewhisper (quest)",
+  "next": null,
+  "wiki": "Erion's Behest",
+  "chain": [
+   "Erion Shadewhisper (quest)",
+   "Erion's Behest"
+  ]
+ },
+ "summary": "Erion's Behest is a summons dispatched to promising night elf rogues operating out of Darnassus. Recognizing their budding stealthcraft, the rogue mentor Erion Shadewhisper sends them across the sea to Stormwind City to report directly to Stormwind Intelligence.",
+ "sections": [
+  {
+   "title": "A Summons Across the Sea",
+   "body": "Night elf rogues operating in the shadow of Teldrassil typically hone their skills under the quiet watch of mentors like Erion Shadewhisper. However, when an operative demonstrates exceptional talent, word travels well beyond the boughs of the World Tree. Through Erion, Stormwind Intelligence\u2014better known as SI:7\u2014extends a direct invitation to travel across the Great Sea to the human capital.",
+   "spoiler": 0
+  },
+  {
+   "title": "Entering the Service of SI:7",
+   "body": "The journey is arduous, taking the operative from Kalimdor's northern reaches through the docks of Darkshore or the Wetlands and into the bustling streets of Stormwind City. Once in the capital, the operative must slip into Old Town and report to SI:7 headquarters. There, Renzik \"The Shiv\" awaits to assess the newcomer, opening the door to advanced espionage, poison mastery, and covert operations on behalf of the Alliance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me on this mission?",
+   "aliases": [
+    "quest giver",
+    "erion shadewhisper",
+    "who gave me this"
+   ],
+   "answer": "Erion Shadewhisper, the rogue trainer in Darnassus, gives you this assignment after your early deeds catch the attention of intelligence networks across the sea."
+  },
+  {
+   "q": "Why is Stormwind Intelligence contacting a night elf?",
+   "aliases": [
+    "why si:7",
+    "why stormwind",
+    "why do humans care"
+   ],
+   "answer": "Though the night elves have their own stealth traditions, the Alliance relies heavily on SI:7 to coordinate covert intelligence and sabotage. Stormwind Intelligence regularly seeks out capable rogues of any Alliance race to bolster their operational ranks."
+  },
+  {
+   "q": "Where do I find Renzik 'The Shiv'?",
+   "aliases": [
+    "renzik location",
+    "where is the shiv",
+    "find renzik"
+   ],
+   "answer": "Renzik 'The Shiv' is stationed inside the SI:7 headquarters, located tucked away within the Old Town district of Stormwind City."
+  },
+  {
+   "q": "Is this quest only for rogues?",
+   "aliases": [
+    "rogue only",
+    "can other classes do this",
+    "is this rogue quest"
+   ],
+   "answer": "Yes. This is an Alliance rogue class quest intended to guide Kalimdor-based operatives to the central hub of Alliance intelligence training in Stormwind."
+  },
+  {
+   "q": "What happens after meeting Renzik?",
+   "aliases": [
+    "next quest",
+    "what do i get",
+    "after renzik"
+   ],
+   "answer": "Reporting to Renzik integrates you into SI:7's training operations in the Eastern Kingdoms, setting you up for specialized training and covert assignments throughout the human lands."
+  },
+  {
+   "q": "How does a night elf get to Stormwind City at this stage?",
+   "aliases": [
+    "how to get to stormwind",
+    "travel to stormwind",
+    "path to stormwind"
+   ],
+   "answer": "A traveler must take a boat from Auberdine in Darkshore across the sea to Menethil Harbor in the Wetlands, make the dangerous trek through Loch Modan and Dun Morogh to Ironforge, and ride the Deeprun Tram into Stormwind City."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This summons marks your graduation from local Kalimdor scuffles into the broader realm of continental espionage and lethal training under SI:7."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Leaving the shelter of Darnassus and Teldrassil to serve human intelligence networks in the stone alleys of Stormwind is often a stark culture shock for Kaldorei prowlers."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "SI:7 centralizes covert operations for the Alliance, ensuring talented scouts from every member race can be deployed where the crown needs them most."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "erion shadewhisper",
+  "erion's behest",
+  "old town",
+  "renzik the shiv",
+  "rogue",
+  "si:7",
+  "stormwind"
+ ],
+ "related": [
+  "npc:renzik-the-shiv",
+  "quest:2259",
+  "quest:2300",
+  "subzone:old-town",
+  "zone:stormwind",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Erion's Behest"
+ ]
+}

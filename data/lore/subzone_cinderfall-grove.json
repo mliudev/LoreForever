@@ -1,0 +1,87 @@
+{
+ "key": "subzone:cinderfall-grove",
+ "type": "subzone",
+ "name": "Cinderfall Grove",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Cinderfall Grove"
+ },
+ "summary": "Cinderfall Grove is a wooded area situated along the rugged coastline of Darkshore, nestled north of the ancient ruins of Bashal'Aran. In the present era, the grove stands quiet beneath the misty canopy, though the shifting tensions along northern Kalimdor leave the woodlands perpetually vulnerable. It remains an untamed stretch of wilderness watching over the shadowy shores.",
+ "sections": [
+  {
+   "title": "A Misty Coastal Wilderness",
+   "body": "Positioned just north of the ancient highborne grounds of Bashal'Aran, Cinderfall Grove rests amidst the perpetual gloom of Darkshore. Tall, mist-draped pines define the landscape, their roots digging deep into soil saturated with age-old kaldorei history and coastal dampness. While tranquil compared to the blighted ruins and corrupted dens scattered across the shore, travelers passing along the coastal road must remain wary, as the wild beasts of the forest and roving threats constantly test the boundaries of civilization.",
+   "spoiler": 0
+  },
+  {
+   "title": "Frontier of Kalimdor",
+   "body": "Darkshore as a whole serves as the front doorstep of night elven territory on mainland Kalimdor. With settlements like Auberdine managing fragile coastal trade and defense, woodlands like Cinderfall Grove stand on the periphery of that vigilance. The surrounding lands are continually harassed by lingering demonic corruption, furbolg unrest, and the encroaching interests of foreign powers seeking timber and foothold in the north.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Cinderfall Grove located?",
+   "aliases": [
+    "cinderfall location",
+    "where is cinderfall",
+    "cinderfall grove map"
+   ],
+   "answer": "Cinderfall Grove lies in the misty coastal region of Darkshore, situated just north of the ruins of Bashal'Aran and east of the main road heading toward northern reaches."
+  },
+  {
+   "q": "Who controls Cinderfall Grove?",
+   "aliases": [
+    "who owns cinderfall",
+    "cinderfall grove faction"
+   ],
+   "answer": "In 25 ADP, the territory falls under the broader ancestral domain of the night elves of Darkshore, though the wilderness itself is largely untamed and wild rather than formally fortified."
+  },
+  {
+   "q": "What nearby landmarks should I look out for?",
+   "aliases": [
+    "cinderfall landmarks",
+    "what is near cinderfall"
+   ],
+   "answer": "Just south of the grove lies the tragic highborne ruin of Bashal'Aran, haunted by ancient spirits and twisted satyrs, while Auberdine rests further down the coast to the southwest."
+  },
+  {
+   "q": "Is Cinderfall Grove dangerous to wander through?",
+   "aliases": [
+    "is cinderfall grove safe",
+    "cinderfall dangers"
+   ],
+   "answer": "Yes. Darkshore's native wildlife, including prowling moonstalkers and bears, can be perilous to unwary explorers, and ancient curses linger heavily across the surrounding lands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, protecting these ancient coastal forests from corruption, deforestation, and outside encroachment is a matter of natural duty and sacred guardianship."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The damp groves of Darkshore are deeply connected to the natural balance, where druids constantly work to soothe agitated spirits and forest creatures."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "bashal'aran",
+  "cinderfall grove",
+  "darkshore",
+  "grove",
+  "kaldorei",
+  "kalimdor",
+  "woods"
+ ],
+ "related": [
+  "zone:darkshore",
+  "quest:954",
+  "topic:night-elf",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Cinderfall Grove"
+ ]
+}

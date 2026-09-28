@@ -1,0 +1,125 @@
+{
+ "key": "quest:131",
+ "type": "quest",
+ "name": "Delivering Daffodils",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   131
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Martie Jainrose",
+  "end": "Darcy",
+  "previous": "Visit the Herbalist",
+  "next": null,
+  "wiki": "Delivering Daffodils",
+  "chain": [
+   "A Free Lunch",
+   "Visit the Herbalist",
+   "Delivering Daffodils"
+  ]
+ },
+ "summary": "Delivering Daffodils concludes a small domestic errand running between the guard post and town square in Lakeshire. After fetching lunch for Guard Parker and picking up a bouquet from herbalist Martie Jainrose, you hand over the blooms to Darcy at the Lakeshire Inn, only to stumble straight into an awkward local rivalry.",
+ "sections": [
+  {
+   "title": "A Fragrant Errand",
+   "body": "What began as a simple favor delivering a hot meal to Guard Parker turns into a delicate romantic gesture. Grateful for his lunch, Parker asks you to fetch flowers from Martie Jainrose as a surprise for Darcy, the cook who prepared his food. Martie arranges a fresh bouquet of her own favorite blooms\u2014daffodils\u2014unaware of who is intended to receive them.",
+   "spoiler": 0
+  },
+  {
+   "title": "Town Rivalries",
+   "body": "Upon bringing the bouquet back to the Lakeshire Inn, Darcy's initial delight quickly curdles into suspicion. Recognizing daffodils as Martie's personal favorite, Darcy immediately suspects Parker dealt with a woman she considers a jealous vixen. While worried Martie might have spitefully poisoned the stems had she known the recipient, Darcy relieves you of blame and hands over a hot portion of sauteed sunfish for your trouble.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Darcy?",
+   "aliases": [
+    "darcy",
+    "who is darcy in lakeshire",
+    "lakeshire cook darcy"
+   ],
+   "answer": "Darcy works at the Lakeshire Inn in Redridge Mountains, preparing meals for locals and town guards. She is the cook who sent a lunch to Guard Parker, prompting Parker to send back a bouquet of flowers in gratitude."
+  },
+  {
+   "q": "Who is Martie Jainrose?",
+   "aliases": [
+    "martie jainrose",
+    "lakeshire herbalist",
+    "who gave the flowers"
+   ],
+   "answer": "Martie Jainrose is Lakeshire's resident herbalist and flower enthusiast. Guard Parker directs you to her to purchase a nice bouquet, and Martie happily assembles daffodils, noting they happen to be her own favorite flowers."
+  },
+  {
+   "q": "Why is Darcy upset about the daffodils?",
+   "aliases": [
+    "why is darcy angry",
+    "darcy martie feud",
+    "why poisoned flowers"
+   ],
+   "answer": "Darcy instantly recognizes daffodils as Martie's favorite flower. She considers Martie a jealous rival and fears Martie would have poisoned the stems had she known the bouquet was meant for Darcy."
+  },
+  {
+   "q": "Did Martie actually poison the bouquet?",
+   "aliases": [
+    "are daffodils poisoned",
+    "is bouquet poisoned"
+   ],
+   "answer": "No. Martie had no idea the flowers were intended for Darcy, as Parker simply asked you to pick up an arrangement, and Martie casually chose her own favorites for the bundle."
+  },
+  {
+   "q": "What quests lead up to this delivery?",
+   "aliases": [
+    "quest chain",
+    "daffodils prerequisites",
+    "delivering daffodils chain"
+   ],
+   "answer": "The chain starts with 'A Free Lunch', where you carry Darcy's meal to Guard Parker. Parker then gives you 'Visit the Herbalist' to buy a gift from Martie Jainrose, which ends with 'Delivering Daffodils'."
+  },
+  {
+   "q": "What reward do you get for delivering the flowers?",
+   "aliases": [
+    "quest reward",
+    "daffodils rewards"
+   ],
+   "answer": "Darcy thanks you with a hearty bundle of sauteed sunfish, some copper and experience, along with standing with the kingdom of Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Darcy rewards your delivery with seasoned sauteed sunfish, offering an example of simple Redridge lakeside home cooking."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The errand relies on Martie Jainrose's botanical knowledge and her eye for fresh lakeside blooms, showcasing the peaceful side of herb gathering."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Assisting the town guard and innkeeper in Lakeshire helps maintain civilian morale while the town struggles under Blackrock and gnoll incursions."
+  }
+ ],
+ "keywords": [
+  "daffodil bouquet",
+  "darcy",
+  "delivering daffodils",
+  "guard parker",
+  "lakeshire",
+  "martie jainrose",
+  "redridge",
+  "sauteed sunfish"
+ ],
+ "related": [
+  "quest:130",
+  "quest:129",
+  "npc:martie-jainrose",
+  "zone:redridge",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Delivering Daffodils"
+ ]
+}

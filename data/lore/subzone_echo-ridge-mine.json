@@ -1,0 +1,82 @@
+{
+ "key": "subzone:echo-ridge-mine",
+ "type": "subzone",
+ "name": "Echo Ridge Mine",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Echo Ridge Mine"
+ },
+ "summary": "Echo Ridge Mine is a small excavation carved into the northwestern cliffs of Northshire Valley. Rich in stone and ore, it has recently fallen into the clutches of a destructive kobold infestation, halting Northshire's local operations.",
+ "sections": [
+  {
+   "title": "A Foothold for Vermin",
+   "body": "Tucked away in the hills above Northshire Abbey, Echo Ridge Mine was meant to supply the valley with useful stone and metal. Instead, opportunistic kobolds swarmed through the tunnels, driving out the local workers. Marshal McBride views the infestation as an unacceptable security risk to Northshire's safety and recruitment efforts, directing new recruits straight into the tunnels to cull their numbers and reclaim the site.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat Beneath Northshire",
+   "body": "The occupation of Echo Ridge is part of a broader pattern of kobold encroachment spreading across Elwynn Forest. If left unchecked in the northwestern ridge, these subterranean pests threaten to disrupt Northshire's peaceful training grounds and choke off crucial resources from reaching the abbey.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are kobolds in Echo Ridge Mine?",
+   "aliases": [
+    "why kobolds here",
+    "echo ridge kobolds",
+    "who took the mine"
+   ],
+   "answer": "Kobolds are natural burrowers drawn to dark, mineral-rich tunnels. Sensing weak defenses, they overran Echo Ridge Mine to dig for treasures and claim the territory as their own."
+  },
+  {
+   "q": "Who is trying to reclaim Echo Ridge Mine?",
+   "aliases": [
+    "who wants echo ridge back",
+    "echo ridge quests",
+    "mcbride echo ridge"
+   ],
+   "answer": "Marshal McBride at Northshire Abbey oversees efforts to clear the mine. He enlists newly arrived adventurers to scout the tunnels and cull the infesting vermin before they expand further into the valley."
+  },
+  {
+   "q": "Where is Echo Ridge Mine located?",
+   "aliases": [
+    "echo ridge location",
+    "where is echo ridge",
+    "find echo ridge mine"
+   ],
+   "answer": "The mine entrance sits in the northwestern corner of Northshire Valley, carved directly into the rocky hillside just north of the abbey vineyards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The shafts of Echo Ridge are rich in early mineral deposits, though any prospector seeking ore will have to fight through hordes of candle-bearing kobolds first."
+  },
+  {
+   "target": "race:Human",
+   "text": "For fresh recruits answering Stormwind's call, purging Echo Ridge Mine serves as an essential trial by fire to defend Northshire Abbey."
+  }
+ ],
+ "keywords": [
+  "echo ridge",
+  "echo ridge mine",
+  "kobold",
+  "marshal mcbride",
+  "mine",
+  "northshire",
+  "northshire valley"
+ ],
+ "related": [
+  "subzone:northshire-valley",
+  "npc:marshal-mcbride",
+  "quest:15",
+  "quest:21",
+  "topic:kobold",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Echo Ridge Mine"
+ ]
+}

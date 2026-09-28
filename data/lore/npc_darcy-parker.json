@@ -1,0 +1,90 @@
+{
+ "key": "npc:darcy-parker",
+ "type": "npc",
+ "name": "Darcy Parker",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Darcy Parker",
+  "refs": 2
+ },
+ "summary": "Darcy is a waitress serving drinks and warm meals at the Lakeshire Inn. Amid the constant threats looming over Redridge, she keeps her spirits up by looking after local defenders\u2014particularly Guard Parker.",
+ "sections": [
+  {
+   "title": "A Friendly Face at the Inn",
+   "body": "Behind the busy counter of the Lakeshire Inn, Darcy works day and night to keep the town's weary militia fed and watered. Lakeshire sits under constant pressure from gnolls and Blackrock orcs, making the tavern one of the few places of warmth left in the settlement. Darcy takes a personal interest in the guards posted around town, frequently recruiting traveling adventurers to run hot meals and friendly errands out to those stationed along the borders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Romance on the Guard Post",
+   "body": "Darcy's warmth extends especially toward Guard Parker, who watches the entrance into the township. Convinced he works too hard on an empty stomach, she regularly sends travelers out with lunch to keep him on his feet. Her affections have not gone unnoticed\u2014Darcy keeps a watchful eye on Martie Jainrose, whom she considers a jealous rival for Parker's favor, turning the defense of Lakeshire into the backdrop for an earnest small-town romance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Darcy?",
+   "aliases": [
+    "who is darcy",
+    "darcy parker npc",
+    "lakeshire waitress"
+   ],
+   "answer": "Darcy is a human waitress working inside the Lakeshire Inn in the Redridge Mountains. She prepares food for the town's defenders and regularly asks passing travelers to help deliver meals to guards stationed on duty."
+  },
+  {
+   "q": "What is Darcy's relationship with Guard Parker?",
+   "aliases": [
+    "darcy and guard parker",
+    "guard parker darcy",
+    "who does darcy like"
+   ],
+   "answer": "Darcy holds a deep affection for Guard Parker. She goes out of her way to pack him fresh lunches and send them along via travelers so he stays fed while guarding the bridge into Lakeshire."
+  },
+  {
+   "q": "Why is Darcy suspicious of Martie Jainrose?",
+   "aliases": [
+    "darcy and martie",
+    "martie jainrose",
+    "darcy rival"
+   ],
+   "answer": "Darcy believes Martie Jainrose is the jealous type and views her as romantic competition for the attention of Guard Parker, adding a bit of personal rivalry to daily life in town."
+  },
+  {
+   "q": "Where can Darcy be found?",
+   "aliases": [
+    "darcy location",
+    "where is darcy",
+    "find darcy"
+   ],
+   "answer": "She can be found serving patrons inside the Lakeshire Inn, situated right in the heart of Lakeshire by the northern shore of Lake Everstill in Redridge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Darcy represents the resilient everyday folk of Lakeshire, keeping spirits high and bellies full while the town waits on aid from Stormwind."
+  }
+ ],
+ "keywords": [
+  "darcy",
+  "darcy parker",
+  "guard parker",
+  "lakeshire",
+  "lakeshire inn",
+  "martie jainrose",
+  "redridge",
+  "waitress"
+ ],
+ "related": [
+  "npc:watch-captain-parker",
+  "npc:martie-jainrose",
+  "subzone:lakeshire-inn",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "quest:129",
+  "quest:131"
+ ],
+ "attribution": [
+  "Darcy Parker"
+ ]
+}

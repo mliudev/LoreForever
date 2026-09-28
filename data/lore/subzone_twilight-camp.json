@@ -1,0 +1,86 @@
+{
+ "key": "subzone:twilight-camp",
+ "type": "subzone",
+ "name": "Twilight Camp",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Twilight Camp"
+ },
+ "summary": "Twilight Camp is an ominous encampment established by the Twilight's Hammer cult within the mountainous borderlands of Loch Modan. Positioned beneath the crags leading up toward the highlands, the enclave serves as a staging ground for the cultists' sinister elemental and terraforming rituals.",
+ "sections": [
+  {
+   "title": "A Scorched Foothold",
+   "body": "Nestled along the jagged ridges of Loch Modan, Twilight Camp is a stark and unnatural blight upon the dwarven landscape. The sky above it hangs oppressive and dark, hovering over ground scorched black and studded with jagged elementium spikes and crude cultist fortifications. The Twilight's Hammer uses this advance post to overlook the valley while maintaining a foothold tied to the heights above.",
+   "spoiler": 0
+  },
+  {
+   "title": "Corrupting the Earth",
+   "body": "The true menace within Twilight Camp lies in the cult's foul devices. Deep inside the outpost sits a strange landshaping contraption, engineered to tear into the earth and twist the local terrain. If left undisturbed, the cultists intend to channel chaotic elemental forces through these engines, threatening to fracture the surrounding hills and spread their ruin across the rest of the loch.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Twilight Camp?",
+   "aliases": [
+    "twilight camp loch modan",
+    "twilight outpost",
+    "what is this cultist camp"
+   ],
+   "answer": "It is an advance outpost established by the Twilight's Hammer cult in Loch Modan. The encampment features crude fortifications, warped architecture, and elementium spikes driven deep into scorched earth."
+  },
+  {
+   "q": "Who controls this camp?",
+   "aliases": [
+    "who lives here",
+    "who owns twilight camp",
+    "who are these cultists"
+   ],
+   "answer": "The outpost is manned by zealots of the Twilight's Hammer, an apocalyptic cult devoted to elemental chaos and ruin."
+  },
+  {
+   "q": "What are the cultists doing here?",
+   "aliases": [
+    "why are cultists in loch modan",
+    "twilight camp purpose",
+    "cultist plan"
+   ],
+   "answer": "The cult is using the camp as a staging ground to conduct dark rituals and operate a bizarre landshaping machine, which threatens to devastate the surrounding terrain and destabilize the valley."
+  },
+  {
+   "q": "What is the machine in the center of the camp?",
+   "aliases": [
+    "twilight camp device",
+    "landshaping machine",
+    "strange machine loch modan"
+   ],
+   "answer": "It is a destructive landshaping engine built by the Twilight's Hammer. Cultists use it to wrench and twist the earth, posing a severe danger to the geography of Loch Modan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For the dwarves of Khaz Modan, seeing foreign cultists desecrating the earth with dark machines on the threshold of their homeland is an intolerable offense to both the land and Ironforge."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The camp's landshaping engine tortures the local earth spirits, forcing shamans to confront a direct perversion of the elemental harmony they seek to protect."
+  }
+ ],
+ "keywords": [
+  "cultists",
+  "elementium",
+  "landshaping",
+  "loch modan",
+  "twilight camp",
+  "twilight's hammer"
+ ],
+ "related": [
+  "topic:twilight-s-hammer",
+  "zone:lochmodan"
+ ],
+ "attribution": [
+  "Twilight Camp"
+ ]
+}

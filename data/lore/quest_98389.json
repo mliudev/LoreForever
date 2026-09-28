@@ -1,0 +1,118 @@
+{
+ "key": "quest:98389",
+ "type": "quest",
+ "name": "A Light in the Darkness",
+ "era": "forever",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   98389
+  ],
+  "level": "4",
+  "faction": "Horde",
+  "start": "Aramis Hammerhand",
+  "end": "",
+  "previous": "",
+  "next": null,
+  "wiki": "A Light in the Darkness (Forever)",
+  "chain": []
+ },
+ "summary": "Offered by Aramis Hammerhand in Deathknell, this quest tasks Forsaken adventurers with rescuing newly raised undead trapped in Night's Web Hollow. It highlights the delicate relationship between undead wielders of the Holy Light and a populace that deeply distrusts them. By aiding their fallen kin, these holy practitioners hope to prove their loyalty to Sylvanas and the Forsaken cause.",
+ "sections": [
+  {
+   "title": "A Precarious Faith",
+   "body": "The Holy Light is notoriously agonizing and hazardous to the undead, yet some Forsaken retain their connection to the sacred magic they wielded in life. In Deathknell, figures like Aramis Hammerhand strive to demonstrate that their faith has not turned them against their people. To combat the suspicion that holy practitioners will turn on other undead as monstrosities, they actively use their abilities and compassion to safeguard their kin.",
+   "spoiler": 0
+  },
+  {
+   "title": "Night's Web Hollow",
+   "body": "Northwest of Deathknell lies Night's Web Hollow, a dank cavern crawling with vicious spiders. Freshly raised undead, still disoriented by their awakening and lacking the wits to defend themselves, frequently stumble into the hollow and end up cocooned in sticky webbing. Rescuing these unfortunate Forsaken serves a dual purpose: saving new recruits for the Dark Lady and proving to leaders like Executor Arren that practitioners of the Light are devoted servants of the Forsaken.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest A Light in the Darkness?",
+   "aliases": [
+    "quest giver",
+    "who starts a light in the darkness",
+    "aramis hammerhand quest"
+   ],
+   "answer": "The quest is given by Aramis Hammerhand, a holy practitioner stationed in Deathknell in Tirisfal Glades."
+  },
+  {
+   "q": "Where is Night's Web Hollow located?",
+   "aliases": [
+    "nights web hollow location",
+    "where are the webbed victims",
+    "where is the cave"
+   ],
+   "answer": "Night's Web Hollow is located northwest of Deathknell within the hills of Tirisfal Glades."
+  },
+  {
+   "q": "Why do the Forsaken distrust wielders of the Light?",
+   "aliases": [
+    "why fear the light",
+    "why do forsaken hate paladins",
+    "forsaken holy fear"
+   ],
+   "answer": "The Holy Light is deeply searing and dangerous to undead flesh. Many Forsaken fear that anyone wielding holy powers might view them as abominations to be eradicated rather than brethren to be embraced."
+  },
+  {
+   "q": "Who are the victims trapped in the webs?",
+   "aliases": [
+    "who is webbed",
+    "what is inside the webs",
+    "trapped victims"
+   ],
+   "answer": "The victims inside the cocoons are newly awakened Forsaken adventurers who blundered into the spider caves before finding their bearings."
+  },
+  {
+   "q": "Who is Executor Arren, and why does Aramis want to impress him?",
+   "aliases": [
+    "who is executor arren",
+    "why arren matters"
+   ],
+   "answer": "Executor Arren oversees military and civic order in Deathknell. Gaining his trust is essential for holy wielders who wish to integrate smoothly into the Forsaken forces."
+  },
+  {
+   "q": "Can the undead really wield the Holy Light?",
+   "aliases": [
+    "can forsaken use light",
+    "undead light lore"
+   ],
+   "answer": "Yes, through incredible willpower and devotion, some undead retain their bond with the Light, even though channeling it causes immense discomfort and their own society views them with suspicion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "This task demonstrates the complex internal struggles of the Forsaken, showing how individuals can overcome prejudice among their own freshly risen people."
+  },
+  {
+   "target": "class:Priest",
+   "text": "For Forsaken who channel holy energy, this mission illustrates the delicate tightrope walked between lingering mortal faith and the harsh reality of undeath."
+  }
+ ],
+ "keywords": [
+  "aramis hammerhand",
+  "deathknell",
+  "executor arren",
+  "forsaken",
+  "holy light",
+  "night's web hollow",
+  "tirisfal glades",
+  "webbed victims"
+ ],
+ "related": [
+  "npc:aramis-hammerhand",
+  "subzone:deathknell",
+  "npc:executor-arren",
+  "topic:light",
+  "topic:forsaken",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "A Light in the Darkness (Forever)"
+ ]
+}

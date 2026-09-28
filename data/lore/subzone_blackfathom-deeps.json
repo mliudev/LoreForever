@@ -1,0 +1,95 @@
+{
+ "key": "subzone:blackfathom-deeps",
+ "type": "subzone",
+ "name": "Blackfathom Deeps",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Blackfathom Deeps"
+ },
+ "summary": "Blackfathom Deeps is a flooded subterranean temple ruin buried beneath the Zoram Strand along Ashenvale's northwestern coast. Once a glorious house of worship dedicated to the moon goddess Elune, its drowned halls have been overtaken by naga, satyr, and the sinister Twilight's Hammer cult.",
+ "sections": [
+  {
+   "title": "From Elune's Temple to Darkest Abyss",
+   "body": "Before the Great Sundering shattered ancient Kalimdor ten thousand years ago, this complex was known as Lathar'Lazal, the \"Seat of the Sky.\" Dedicated to the goddess Elune, its gem-encrusted bridges, sacred lakes, and moonwell were constructed under the personal supervision of Queen Azshara. When the Well of Eternity collapsed, the magnificent shrine sank beneath the ocean waves, presumed lost forever. Over millennia, receding shorelines and subterranean shifting left its remains partly flooded beneath the cliffs of Ashenvale.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Rise of Aku'mai",
+   "body": "In recent years, an insidious rot reached the temple's forgotten moonwell as Old God corruption seeped upward from the deep earth. Drawn by dark dreams and whispers, the Twilight's Hammer cult established a stronghold within the drowned ruins under the command of Twilight Lord Kelris. The cultists tend and nurture Aku'mai the Devourer, a monstrous three-headed hydra cherished by their ancient patrons. Alongside visiting naga headed by Lady Sarevess and prowling satyr, the cult conducts foul sacrificial rites in hopes of unleashing their beast upon the surface world.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Blackfathom Deeps originally built for?",
+   "aliases": [
+    "bfd history",
+    "what was blackfathom deeps",
+    "lathar'lazal"
+   ],
+   "answer": "Originally named Lathar'Lazal, it was an elven temple dedicated to the moon goddess Elune. It featured crystal-clear pools, gem-adorned architecture, and a sacred moonwell overseen by the ancient Highborne before it sank beneath the waves during the Sundering."
+  },
+  {
+   "q": "Why is the Twilight's Hammer cult here?",
+   "aliases": [
+    "why are cultists in bfd",
+    "twilight's hammer blackfathom",
+    "kelris goal"
+   ],
+   "answer": "Guided by dark whispers and nightmares, the Twilight's Hammer came to worship and feed Aku'mai, a primeval hydra favored by the Old Gods. Led by Twilight Lord Kelris, the cult feeds captives and innocents to the beast to hasten its awakening."
+  },
+  {
+   "q": "Where is the entrance located?",
+   "aliases": [
+    "where is bfd",
+    "blackfathom deeps location",
+    "how to enter bfd"
+   ],
+   "answer": "The entrance is tucked inside cavernous ruins along the Zoram Strand, located on the far northwestern coast of Ashenvale. Adventurers must navigate through submerged chambers and hostile naga outposts to reach the temple portal."
+  },
+  {
+   "q": "Who is Ghamoo-ra?",
+   "aliases": [
+    "giant turtle boss",
+    "ghamoo-ra lore",
+    "tortoise bfd"
+   ],
+   "answer": "Ghamoo-ra was one of the last peaceful ancient creatures inhabiting the sunken temple. Upon claiming the ruins, the Twilight's Hammer cult captured the giant turtle and tormented it for years, driving it mad to serve as a vicious guard beast."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The desecration of Lathar'Lazal is a profound grievance for the Kaldorei, who mourn the defilement of a once-sacred shrine of Elune and its moonwell by void cultists and naga."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde maintains a blood debt against the deeps; an earlier scouting venture into the ruins ended in disaster, with only the Darkspear scout Hekazi and Rokhan barely escaping with their lives."
+  }
+ ],
+ "keywords": [
+  "aku'mai",
+  "blackfathom",
+  "deeps",
+  "ghamoo-ra",
+  "kelris",
+  "lathar'lazal",
+  "sarevess",
+  "twilight's hammer",
+  "zoram strand"
+ ],
+ "related": [
+  "zone:blackfathom",
+  "zone:ashenvale",
+  "subzone:zoram-strand",
+  "npc:twilight-lord-kelris",
+  "npc:aku-mai",
+  "npc:lady-sarevess",
+  "npc:ghamoo-ra-classic",
+  "topic:twilight-s-hammer"
+ ],
+ "attribution": [
+  "Blackfathom Deeps"
+ ]
+}

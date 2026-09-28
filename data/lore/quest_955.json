@@ -1,0 +1,122 @@
+{
+ "key": "quest:955",
+ "type": "quest",
+ "name": "Bashal'Aran",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   955
+  ],
+  "level": "12",
+  "faction": "Alliance",
+  "start": "Asterion",
+  "end": "",
+  "previous": "Bashal'Aran (quest)",
+  "next": "Bashal'Aran (3)",
+  "wiki": "Bashal'Aran (2)",
+  "chain": []
+ },
+ "summary": "Asterion, a sorrowful highborne ghost haunting the ancient ruins of Bashal'Aran, seeks a way to undo the binding magic that tethers his spectral form. Believing the mischievous local grells have touched the seal holding him, he tasks travelers with gathering their earrings to trace its lingering magical resonance.",
+ "sections": [
+  {
+   "title": "A Centuries-Old Torment",
+   "body": "Amid the shattered marble of Bashal'Aran lingers Asterion, an ancient night elf spirit who has endured centuries of confinement. Trapped between life and true death, his existence has dwindled into an agonizing wait under the canopy of Darkshore. Bound directly to the ruined settlement by arcane craft, Asterion lacks the means to dispel his shackles alone, his mind worn thin by uncounted years of solitude and despair.",
+   "spoiler": 0
+  },
+  {
+   "title": "Traces in the Wild",
+   "body": "Asterion suspects that the key to his release is an ancient seal hidden somewhere in the ruins. While he cannot physically scour the brush and collapsed stones himself, the feral grells infesting Bashal'Aran constantly forage and steal small baubles. Asterion asks travelers to collect the earrings worn by these creatures, intending to read the residual magical impressions on the trinkets and locate the seal that holds his soul in torment.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Asterion?",
+   "aliases": [
+    "asterion lore",
+    "who is the ghost in bashal'aran",
+    "asterion quest giver"
+   ],
+   "answer": "Asterion is an ancient night elf ghost bound to the ruins of Bashal'Aran in Darkshore. Trapped for centuries by a mystical seal, he has watched the ages pass in torment while longing for release from his spectral state."
+  },
+  {
+   "q": "Why does Asterion want grell earrings?",
+   "aliases": [
+    "why grell earrings",
+    "grell earring purpose",
+    "earrings quest darkshore"
+   ],
+   "answer": "Grells are notorious scavengers that hoard shiny trinkets and jewelry. Asterion believes the creatures have handled the magical seal that binds him, meaning their worn earrings may carry enough magical residue to help him locate it."
+  },
+  {
+   "q": "What is Bashal'Aran?",
+   "aliases": [
+    "what is bashal'aran",
+    "bashal'aran history",
+    "ruins of bashal'aran"
+   ],
+   "answer": "Bashal'Aran is an ancient night elf ruin located along the forested coast of Darkshore, dating back to before the Great Sundering. It is overrun by wild grells, satyrs, and spectral remnants of its long-fallen inhabitants."
+  },
+  {
+   "q": "What happens after collecting the earrings?",
+   "aliases": [
+    "what do the earrings show",
+    "did the grells have the seal",
+    "grell earring result"
+   ],
+   "answer": "Asterion examines the earrings and senses that while the grells do not carry the seal itself, they have brushed against it in what he considers relatively recent times. This trace allows him to narrow down its location within the ruins."
+  },
+  {
+   "q": "Why is Asterion trapped here?",
+   "aliases": [
+    "who bound asterion",
+    "how is asterion bound",
+    "asterion's seal"
+   ],
+   "answer": "Asterion was bound to Bashal'Aran by an ancient magical seal created centuries ago. The binding anchors his spirit to the physical site of the ruins, preventing him from moving on to a peaceful rest."
+  },
+  {
+   "q": "What are grells?",
+   "aliases": [
+    "what is a grell",
+    "grells lore",
+    "darkshore grells"
+   ],
+   "answer": "Grells are small, malicious woodland creatures native to Kalimdor's forests. Known for their mischievous nature, sharp claws, and love of trinkets, they frequently infest old ruins and attack passing travelers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei, encountering Asterion is a sobering reminder of the ancient civilization that fell during the Sundering, leaving tortured souls bound in ruin for millennia."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Asterion's method of using enchanted trinkets to trace residual magical emanations reflects ancient Highborne practices of arcane divination."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Clearing out the chaotic grells around Bashal'Aran helps pacify the treacherous northern reaches of Darkshore for the Alliance."
+  }
+ ],
+ "keywords": [
+  "asterion",
+  "bashal'aran",
+  "binding",
+  "darkshore",
+  "ghost",
+  "grell",
+  "grell earring",
+  "seal"
+ ],
+ "related": [
+  "npc:asterion",
+  "zone:darkshore",
+  "quest:954",
+  "quest:99141"
+ ],
+ "attribution": [
+  "Bashal'Aran (2)"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "key": "subzone:darkened-bank",
+ "type": "subzone",
+ "name": "Darkened Bank",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Darkened Bank"
+ },
+ "summary": "The Darkened Bank is the northern shoreline of Duskwood, bordering the river that separates the shadowed woods from Elwynn Forest. Stretching from the far west all the way east toward the Redridge Mountains, it marks the boundary between the relative safety of the north and the dark terrors of the forest.",
+ "sections": [
+  {
+   "title": "A Precarious Boundary",
+   "body": "Running along the southern bank of the river opposite Elwynn Forest, the Darkened Bank forms the northern edge of Duskwood. It extends from the western riverbends east toward the stone span leading to the Redridge Mountains. While visually gloomy under the pervasive canopy of Duskwood's curse, this shoreline is often the first foothold for travelers venturing south from Elwynn. Near its far western tip sits a makeshift campsite where displaced refugees, including Sven Yorgen and Lars, have taken shelter just barely outside the grasp of the deep woods.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Darkened Bank located?",
+   "aliases": [
+    "darkened bank location",
+    "where is darkened bank",
+    "darkened bank duskwood"
+   ],
+   "answer": "The Darkened Bank stretches across the entire northern shore of Duskwood along the river, directly across the water from Elwynn Forest. It extends from the far western edges of the zone east to the bridge crossing into the Redridge Mountains."
+  },
+  {
+   "q": "Who lives along the Darkened Bank?",
+   "aliases": [
+    "camp on darkened bank",
+    "who is at darkened bank",
+    "darkened bank npcs"
+   ],
+   "answer": "A modest refuge camp sits at the far western edge of the bank, occupied by Sven Yorgen and Lars. Driven from their former lives deeper in the territory, they use this northern riverbank as a fragile haven while looking for aid against the threats of Duskwood."
+  },
+  {
+   "q": "How do travelers usually reach this area?",
+   "aliases": [
+    "how to get to darkened bank",
+    "getting to darkened bank"
+   ],
+   "answer": "Travelers can easily reach the western stretch of the Darkened Bank by swimming south across the river from the southwestern reaches of Elwynn Forest, or by following the northern riverbank west from the Redridge bridge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance adventurers heading out of Elwynn Forest, the Darkened Bank serves as an initial staging ground before venturing deeper into the haunted heart of Duskwood."
+  }
+ ],
+ "keywords": [
+  "darkened bank",
+  "duskwood",
+  "elwynn forest",
+  "lars",
+  "river",
+  "shoreline",
+  "sven yorgen"
+ ],
+ "related": [
+  "zone:duskwood",
+  "zone:elwynn",
+  "zone:redridge",
+  "npc:sven-yorgen",
+  "npc:lars"
+ ],
+ "attribution": [
+  "Darkened Bank"
+ ]
+}

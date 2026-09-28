@@ -1,0 +1,120 @@
+{
+ "key": "quest:1940",
+ "type": "quest",
+ "name": "Pristine Spider Silk",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1940
+  ],
+  "level": "26",
+  "faction": "Alliance",
+  "start": "High Sorcerer Andromath",
+  "end": "Wynne Larson",
+  "previous": "Ur's Treatise on Shadow Magic (quest)",
+  "next": "Astral Knot Garment",
+  "wiki": "Pristine Spider Silk (quest)",
+  "chain": []
+ },
+ "summary": "Pristine Spider Silk is an initiation task for rising Alliance mages entrusted by High Sorcerer Andromath in Stormwind. To earn a garment fitting an adept's station, the spellcaster is dispatched into the darkened woods of Duskwood to harvest prime silk from carrion recluses. The gathered spools are delivered to tailor Wynne Larson in the Mage Quarter to prepare enchanted robes.",
+ "sections": [
+  {
+   "title": "Vestments of the Adept",
+   "body": "Within the Wizard's Sanctum, recognition is measured not only by mastery over the arcane but in the regalia worn by its practitioners. High Sorcerer Andromath recognizes when a student has graduated from mere apprentice work and directs them to commission vestments proper to an adept. Rather than simply purchasing finished goods, the mage must prove both field competence and discernment by gathering pristine, unblemished silk directly from perilous beasts.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Loom of Duskwood",
+   "body": "The required material cannot be found in conventional merchant stalls. It must be carefully extracted from the venomous carrion recluse spiders stalking the haunted gloom of Duskwood. Once eight prime samples are gathered, they are brought across the city to Larson Clothiers in the Mage Quarter, where tailor Wynne Larson stands ready to spin the delicate threads into a robe of arcane significance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends mages on this assignment?",
+   "aliases": [
+    "who gives pristine spider silk",
+    "quest giver pristine spider silk",
+    "andromath quest"
+   ],
+   "answer": "High Sorcerer Andromath, presiding over the Wizard's Sanctum in Stormwind City, offers this task to spellcasters who have proved their dedication."
+  },
+  {
+   "q": "Where is the silk harvested?",
+   "aliases": [
+    "where do i get pristine silk",
+    "spider location",
+    "carrion recluse location"
+   ],
+   "answer": "The silk is gathered from carrion recluse spiders found roaming the haunted forests and webbed clearings of Duskwood."
+  },
+  {
+   "q": "Who crafts the robe from the silk?",
+   "aliases": [
+    "who weaves the silk",
+    "wynne larson",
+    "larson clothiers"
+   ],
+   "answer": "Wynne Larson, a professional tailor working out of Larson Clothiers in Stormwind's Mage Quarter, handles the weaving and tailoring."
+  },
+  {
+   "q": "Why do mages use spider silk for garments?",
+   "aliases": [
+    "why spider silk",
+    "spider silk magic robes"
+   ],
+   "answer": "Pristine spider silk offers natural resilience and an exceptionally fine weave, creating lightweight fabric capable of holding subtle enchantments without weighing down the spellcaster."
+  },
+  {
+   "q": "What comes after delivering the silk?",
+   "aliases": [
+    "next quest after pristine spider silk",
+    "what happens next"
+   ],
+   "answer": "After Wynne inspects the silk and works at her loom, she asks the mage to obtain additional arcane components to complete the garment."
+  },
+  {
+   "q": "Is any spider silk from Duskwood acceptable?",
+   "aliases": [
+    "can i use regular spider silk",
+    "pristine vs normal silk"
+   ],
+   "answer": "No. The delicate enchantments woven by Larson Clothiers require specifically pristine samples extracted carefully from carrion recluses, rejecting coarser webbing."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "This rite of passage bridges apprenticeship and true adepts, ensuring every Stormwind mage wears robes woven from hazards they personally surmounted."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Wynne Larson's methods show how high-grade wild monster fibers can be turned into magically receptive fabrics far superior to common sheep's wool or linen."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Duskwood remains a dangerous frontier for Stormwind subjects, requiring mages to step out of the sanctuary of the capital to retrieve rare regional resources."
+  }
+ ],
+ "keywords": [
+  "andromath",
+  "carrion recluse",
+  "duskwood",
+  "larson clothiers",
+  "mage robes",
+  "pristine spider silk",
+  "wizard's sanctum",
+  "wynne larson"
+ ],
+ "related": [
+  "npc:wynne-larson",
+  "quest:1942",
+  "zone:duskwood",
+  "topic:stormwind-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Pristine Spider Silk (quest)"
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "key": "npc:mutanus-the-devourer",
+ "type": "npc",
+ "name": "Mutanus the Devourer",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "wiki": "Mutanus the Devourer",
+  "refs": 5
+ },
+ "summary": "Mutanus the Devourer is a monstrous, pale murloc manifested directly from the Emerald Nightmare. Lurking in the darkest recesses of the sleeping druid Naralex's mind, it emerges to devour anyone attempting to break the Nightmare's hold over the Wailing Caverns. Slaying this twisted aberration is the final step in freeing Naralex from his tormented slumber.",
+ "sections": [
+  {
+   "title": "A Dreamer's Worst Fear",
+   "body": "When the night elf druid Naralex tapped into the underground springs beneath the Barrens, he aimed to restore life to the arid wastes by connecting them to the Emerald Dream. Instead, an ancient corruption known as the Emerald Nightmare invaded his thoughts. Trapped in an agonizing vision, Naralex's subconscious fears took physical form. The corruption seized upon a bizarre, primal revulsion in the druid's psyche\u2014his deep-seated terror of murlocs\u2014and amplified it into an immense, albino predator.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Waking Nightmare",
+   "body": "Mutanus was sent forth into the waking world by the dark force infesting Naralex's mind, tasked with ensuring the druid never awakens. When a Disciple of Naralex performs the ritual to revive their master, Mutanus breaches the boundary between dream and reality. Along with his unnatural form, he brings alien relics from the dreamscape, such as the mysterious Deep Fathom Ring. Until Mutanus falls, Naralex remains a prisoner of his own corrupted imagination.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Mutanus the Devourer?",
+   "aliases": [
+    "who is mutanus",
+    "what kind of creature is mutanus",
+    "is mutanus a murloc"
+   ],
+   "answer": "Mutanus the Devourer is an enormous, pale murloc-like aberration born from the Emerald Nightmare. He is not a normal denizen of Azeroth, but a living nightmare summoned into reality from the corrupted mind of the sleeping druid Naralex."
+  },
+  {
+   "q": "Why does Mutanus look like a giant murloc?",
+   "aliases": [
+    "why murloc",
+    "why is mutanus a murloc",
+    "naralex murloc fear"
+   ],
+   "answer": "The Nightmare twisted Naralex's subconscious thoughts and drew out his worst personal enemy: murlocs. The corruption weaponized that deep-seated fear, manifesting it as a colossal albino monstrosity."
+  },
+  {
+   "q": "Why does Mutanus appear at the end of the ritual?",
+   "aliases": [
+    "when does mutanus spawn",
+    "why summon mutanus",
+    "naralex ritual boss"
+   ],
+   "answer": "The dark presence corrupting the Emerald Dream ordered Mutanus to prevent anyone from breaking Naralex's slumber. When Naralex's disciples begin the awakening ritual, Mutanus crosses over into the physical cavern to devour the rescuers."
+  },
+  {
+   "q": "Where does Mutanus come from?",
+   "aliases": [
+    "mutanus origin",
+    "is mutanus from the nightmare",
+    "emerald nightmare mutanus"
+   ],
+   "answer": "Mutanus originates from the Emerald Nightmare, the corrupted realm that has ensnared Naralex. Crossing over from the dreamscape into Azeroth, he even brought along strange relics like the Deep Fathom Ring."
+  },
+  {
+   "q": "Does killing Mutanus save Naralex?",
+   "aliases": [
+    "is naralex saved",
+    "what happens after mutanus dies",
+    "waking naralex"
+   ],
+   "answer": "Yes. Once Mutanus is slain, the nightmare's immediate hold over Naralex's mind is shattered, allowing his disciples to successfully awaken the druid and break the cavern's dark trance."
+  },
+  {
+   "q": "Why is Mutanus immune to shadow magic?",
+   "aliases": [
+    "mutanus shadow immunity",
+    "shadow spells mutanus",
+    "is mutanus shadow immune"
+   ],
+   "answer": "Mutanus is an aberration woven from dark nightmare energies, making him naturally resilient against necrotic and shadow spells that would harm mundane beasts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Mutanus represents the terrifying hazards of delving too deeply into the Emerald Dream without safeguards, as a fellow druid's mind was completely overtaken by corruption."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, Mutanus is a tragedy brought to life, embodying how Naralex's noble ambitions to heal the Barrens warped into a monstrous nightmare."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde cannot allow Mutanus and the Nightmare to corrupt the heart of the Barrens, threatening the vital oasis waters needed to sustain Durotar and Mulgore."
+  }
+ ],
+ "keywords": [
+  "albino murloc",
+  "barrens",
+  "deep fathom ring",
+  "devourer",
+  "emerald nightmare",
+  "murloc",
+  "mutanus",
+  "naralex",
+  "wailing caverns"
+ ],
+ "related": [
+  "npc:naralex",
+  "zone:wailing",
+  "topic:emerald-dream",
+  "topic:murloc",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Mutanus the Devourer"
+ ]
+}

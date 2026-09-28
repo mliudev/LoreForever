@@ -1,0 +1,116 @@
+{
+ "key": "quest:5847",
+ "type": "quest",
+ "name": "Welcome!",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   5847
+  ],
+  "level": "1",
+  "faction": "Horde",
+  "start": "Brill Gift Voucher",
+  "end": "Claire Willower",
+  "previous": null,
+  "next": null,
+  "wiki": "Welcome! (Brill)",
+  "chain": []
+ },
+ "summary": "This errand delivers a unique gift voucher to Claire Willower in the Forsaken hamlet of Brill. Honoring notable travelers upon their arrival in Tirisfal Glades, the gesture grants a rare miniature companion to accompany them through Azeroth. It marks one of the warmest greetings an undead traveler will find in these shadowy lands.",
+ "sections": [
+  {
+   "title": "A Rare Greeting in Brill",
+   "body": "Newly arisen travelers making their way south from Deathknell eventually cross the mist-laden road into Brill. Among the somber alchemists and bitter magistrates, Claire Willower stands ready to greet specific heroes who carry an unusual token of patronage. Exchanging the voucher provides a harmless pet to follow along on the long journey ahead.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Touch of Warmth in Tirisfal",
+   "body": "Tirisfal Glades is an inhospitable expanse haunted by Scourge remnants, zealous crusaders, and rot. Having a dedicated small companion following at one's heels offers a strange sliver of cheer amid the dreary decay of Lordaeron's fallen heartlands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do i have this voucher",
+    "what does this quest do",
+    "brill gift voucher quest"
+   ],
+   "answer": "It allows newly arrived adventurers who possess a special voucher to exchange it with Claire Willower in Brill for a unique miniature pet to accompany them on their travels."
+  },
+  {
+   "q": "Who is Claire Willower?",
+   "aliases": [
+    "where is claire willower",
+    "who takes the voucher in brill",
+    "claire willower"
+   ],
+   "answer": "Claire Willower is a Forsaken resident stationed in the town of Brill in Tirisfal Glades. She collects these unique vouchers and distributes exotic pets to travelers."
+  },
+  {
+   "q": "Where do you turn in the voucher?",
+   "aliases": [
+    "where to turn in brill gift voucher",
+    "turn in location",
+    "voucher drop off"
+   ],
+   "answer": "The voucher is turned in directly to Claire Willower inside the town of Brill, just a short walk south from the starting crypts of Deathknell."
+  },
+  {
+   "q": "Is this quest available to everyone?",
+   "aliases": [
+    "who gets this quest",
+    "why don't i have this quest",
+    "how do you get the voucher"
+   ],
+   "answer": "No. The starting voucher is only carried by specific adventurers arriving in Azeroth with recognized patronage, specifically from the collector's edition of the journey."
+  },
+  {
+   "q": "What kind of companions can you receive?",
+   "aliases": [
+    "what are the pets",
+    "what gift do i get",
+    "pet choices"
+   ],
+   "answer": "Turning in the voucher lets you choose a small vanity pet, such as a miniature diablo, a panda cub, or a zergling leash, providing a harmless companion on your adventures."
+  },
+  {
+   "q": "Does this companion fight in combat?",
+   "aliases": [
+    "do collector pets fight",
+    "pet combat abilities",
+    "can pet attack"
+   ],
+   "answer": "No. The companion is entirely passive, following you as an ornamental companion rather than participating in battles."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, whose existence is marked by blight, rot, and vengeance, traveling with a playful companion is a bizarrely wholesome diversion on the road across Lordaeron."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Brill serves as the primary gateway for Horde adventurers operating in northern Eastern Kingdoms, making Claire Willower's station a prominent stop for incoming travelers."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "claire willower",
+  "collector",
+  "companion",
+  "gift voucher",
+  "pet",
+  "tirisfal glades",
+  "welcome"
+ ],
+ "related": [
+  "subzone:brill",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Welcome! (Brill)"
+ ]
+}

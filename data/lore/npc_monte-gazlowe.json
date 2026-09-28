@@ -1,0 +1,126 @@
+{
+ "key": "npc:monte-gazlowe",
+ "type": "npc",
+ "name": "Monte Gazlowe",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Monte Gazlowe",
+  "refs": 5
+ },
+ "summary": "Monte Gazlowe is the pragmatic goblin engineer and overseer who established and rules the port town of Ratchet. After serving as the Horde's chief engineer during the founding of Durotar and Orgrimmar, he used his substantial earnings to build a bustling, neutral trading hub for the Steamwheedle Cartel.",
+ "sections": [
+  {
+   "title": "The Mastermind of Ratchet",
+   "body": "Gazlowe hails from the goblin metropolis of Undermine, a place he grew to detest because every hard-earned coin was stolen and every creative idea crushed by rivals. Fleeing across the Great Sea to Kalimdor alongside other ambitious goblins, he carved out an entirely new life. After securing a handsome payday for his engineering work with the new Horde, Gazlowe invested directly into the barren coastline, founding the port of Ratchet. Operating under the Steamwheedle Cartel, he runs the dockside town as a strictly neutral port where Horde, Alliance, and independent traders can barter freely\u2014provided they keep their weapons sheathed and their purses heavy.",
+   "spoiler": 0
+  },
+  {
+   "title": "Engineer for the Horde",
+   "body": "Following the Third War, Warchief Thrall hired Gazlowe as Durotar's chief engineer to solve critical infrastructure challenges for the nascent orc capital. Gazlowe took on the perilous job of securing a freshwater supply for Orgrimmar, digging extensive tunnels that inadvertently breached subterranean kobold dens. With the timely assistance of the wandering beastmaster Rexxar, Gazlowe managed to blast the caverns shut and complete his assignments. He remains a favored contractor and friend to Thrall, even dispatching his own foreman, Rezlak, to continue assisting orcish construction efforts across Durotar.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trouble on the Merchant Coast",
+   "body": "Though business in Ratchet is lucrative, Gazlowe faces continuous headaches from maritime competition and thievery. The Southsea Freebooters have established camps along the nearby Merchant Coast, intercepting cargo bound for Ratchet and stealing everything from raw ore to Gazlowe's custom-ordered boots. To protect his bottom line, the port boss frequently hires passing sellswords of any allegiance to clean out pirate encampments, retrieve stolen shipments, and settle scores with dockside troublemakers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gazlowe?",
+   "aliases": [
+    "who is monte gazlowe",
+    "gazlowe lore",
+    "ratchet boss"
+   ],
+   "answer": "Gazlowe is the goblin boss and overseer of Ratchet, the primary trading port on the coast of the Barrens. Originally from Undermine, he made his fortune as the chief engineer who oversaw the construction of Orgrimmar before establishing Ratchet as an open, neutral harbor under the Steamwheedle Cartel."
+  },
+  {
+   "q": "Is Gazlowe loyal to the Horde or the Alliance?",
+   "aliases": [
+    "is gazlowe horde",
+    "is ratchet neutral",
+    "gazlowe faction"
+   ],
+   "answer": "Officially, Gazlowe is entirely neutral, operating Ratchet under the Steamwheedle Cartel and opening its docks to both Alliance and Horde travelers. However, he shares a close personal bond and lucrative history with Warchief Thrall, having personally engineered key parts of Durotar's settlements."
+  },
+  {
+   "q": "What did Gazlowe build in Durotar?",
+   "aliases": [
+    "gazlowe orgrimmar",
+    "gazlowe thal",
+    "gazlowe water supply"
+   ],
+   "answer": "During the founding of Durotar, Warchief Thrall contracted Gazlowe as his chief engineer. Gazlowe oversaw the tunneling expeditions to locate an underground water reservoir for Orgrimmar. When the miners accidentally unleashed a swarm of hostile kobolds, Gazlowe hired Rexxar to help sappers seal the tunnels."
+  },
+  {
+   "q": "Why is Gazlowe hiring adventurers in Ratchet?",
+   "aliases": [
+    "gazlowe quests",
+    "southsea freebooters ratchet",
+    "gazlowe problems"
+   ],
+   "answer": "Gazlowe regularly needs private muscle to deal with the Southsea Freebooters, who have camped along the Merchant Coast and routinely plunder cargo meant for Ratchet's docks. He pays bounty hunters to eliminate the pirates, recover stolen cargo manifests, and retrieve missing shipments."
+  },
+  {
+   "q": "What is Gazlowe's connection to the Mirage Raceway?",
+   "aliases": [
+    "gazlowe shimmering flats",
+    "gazlowe thousand needles",
+    "gazlowe racing"
+   ],
+   "answer": "Gazlowe is an avid enthusiast of engineering and speed, belonging to the Mechanical Engineers' Guild of Azeroth. He sponsors goblin teams racing against gnomes in the Shimmering Flats of Thousand Needles, helping Pozzik build racing rigs and attempting to source prototype fuel regulators."
+  },
+  {
+   "q": "Why did Gazlowe leave Undermine?",
+   "aliases": [
+    "undermine gazlowe",
+    "gazlowe backstory"
+   ],
+   "answer": "Gazlowe hated Undermine because honest enterprise and clever engineering were constantly met with extortion, theft, and corporate sabotage. Convinced that the city offered no future for someone trying to keep their own earnings, he took his skills to Kalimdor and swore never to look back."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Though he demands your coin like any good goblin, Gazlowe has been a steadfast ally of Thrall since the dust settled after the Third War, having helped dig the very foundations of your capital."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Gazlowe does not care who sits on Stormwind's throne or what quarrels you bring from the Eastern Kingdoms; as long as your gold is real and your blade remains sheathed, Ratchet welcomes you."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Gazlowe is one of the premier minds of goblin engineering on Kalimdor, coordinating everything from city water grids to high-speed race rigs at the Mirage Raceway."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcs owe their water supply in Orgrimmar directly to Gazlowe's sappers, and he still stations his goblin mechanics in Durotar to assist with heavy construction."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "durotar",
+  "freebooters",
+  "gazlowe",
+  "monte",
+  "orgrimmar",
+  "pozzik",
+  "ratchet",
+  "steamwheedle"
+ ],
+ "related": [
+  "subzone:ratchet",
+  "npc:thrall",
+  "topic:steamwheedle-cartel",
+  "quest:887",
+  "quest:890",
+  "npc:rezlak",
+  "subzone:mirage-raceway",
+  "quest:959"
+ ],
+ "attribution": [
+  "Monte Gazlowe"
+ ]
+}

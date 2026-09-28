@@ -1,0 +1,122 @@
+{
+ "key": "quest:266",
+ "type": "quest",
+ "name": "Inquire at the Inn",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   266
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Clerk Daltry",
+  "end": "Tavernkeep Smitts",
+  "previous": "The Shadowy Search Continues",
+  "next": "Finding the Shadowy Figure",
+  "wiki": "Inquire at the Inn",
+  "chain": []
+ },
+ "summary": "Inquire at the Inn is an Alliance quest in Darkshire that continues the investigation into the mysterious stranger connected to Sven Yorgen's ruined camp. Directed by Clerk Daltry, adventurers take a recovered journal to the Scarlet Raven Tavern to question Tavernkeep Smitts about who stayed there.",
+ "sections": [
+  {
+   "title": "A Lead at the Scarlet Raven",
+   "body": "After Clerk Daltry finishes examining the tattered book recovered from Sven Yorgen's camp, he suggests that any stranger visiting Darkshire would almost certainly have passed through the local tavern. The Scarlet Raven Inn stands across town as Darkshire's only gathering hall and lodging house, making it the most sensible place to track down transient visitors.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Paranoid Guest",
+   "body": "Presenting the book to Tavernkeep Smitts confirms Daltry's hunch. Smitts immediately recognizes the tome, recalling a patron who took a room for several days and spent his evenings scribbling obsessively at the bar. According to the innkeeper, the guest fled Darkshire in a state of terror, convinced he was being relentlessly hunted by an unseen pursuer. His path led west down the gloom of the road toward Raven Hill.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to the inn?",
+   "aliases": [
+    "who gives this quest",
+    "quest giver",
+    "where does inquire at the inn start"
+   ],
+   "answer": "Clerk Daltry, the town record-keeper situated in Darkshire's town hall, hands back the journal and suggests checking the local inn for anyone who might recognize its owner."
+  },
+  {
+   "q": "What is the book you are carrying?",
+   "aliases": [
+    "what is the book",
+    "book from svens farm",
+    "journal"
+   ],
+   "answer": "It is the worn journal retrieved from the wrecked campsite of Sven Yorgen in northwest Duskwood, believed to belong to the shadowy figure seen prowling around the area."
+  },
+  {
+   "q": "Who runs the Scarlet Raven Inn?",
+   "aliases": [
+    "who is the tavernkeeper",
+    "innkeeper darkshire",
+    "who is smitts"
+   ],
+   "answer": "Tavernkeep Smitts manages the Scarlet Raven Tavern, pouring drinks and renting rooms to whatever travelers still dare to venture into Duskwood."
+  },
+  {
+   "q": "What does Tavernkeep Smitts reveal about the guest?",
+   "aliases": [
+    "what did smitts say",
+    "what happened to the shadowy figure",
+    "what does the innkeeper know"
+   ],
+   "answer": "Smitts recalls that the journal's owner rented a room for a few days and spent his nights drinking and writing. The traveler then fled west in a panic, muttering about being hunted by something terrifying."
+  },
+  {
+   "q": "Where did the shadowy figure flee?",
+   "aliases": [
+    "where did he go",
+    "where is the shadowy figure",
+    "where to next"
+   ],
+   "answer": "He hurried westward out of Darkshire seeking a hiding place, pointing searchers toward the abandoned settlement and sprawling cemetery grounds of Raven Hill."
+  },
+  {
+   "q": "What quest follows Inquire at the Inn?",
+   "aliases": [
+    "next quest",
+    "what comes after inquire at the inn",
+    "following quest"
+   ],
+   "answer": "Tavernkeep Smitts directs you to follow the stranger's trail westward in the quest 'Finding the Shadowy Figure'."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Investigating threats inside Darkshire helps protect one of the Alliance's most vulnerable and isolated frontier settlements in the southern Eastern Kingdoms."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Tracking a paranoid fugitive from tavern hearsay to desolate ruins plays directly into an operative's investigative tradecraft."
+  }
+ ],
+ "keywords": [
+  "clerk daltry",
+  "darkshire",
+  "duskwood",
+  "inquire at the inn",
+  "raven hill",
+  "scarlet raven",
+  "shadowy figure",
+  "sven yorgen",
+  "tavernkeep smitts"
+ ],
+ "related": [
+  "npc:tavernkeep-smitts",
+  "npc:clerk-daltry",
+  "quest:265",
+  "quest:453",
+  "quest:262",
+  "quest:163",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Inquire at the Inn"
+ ]
+}

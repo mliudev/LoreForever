@@ -1,0 +1,91 @@
+{
+ "key": "subzone:tor-kren-farm",
+ "type": "subzone",
+ "name": "Tor'kren Farm",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Tor'kren Farm"
+ },
+ "summary": "Tor'kren Farm is a quiet, struggling swine farm nestled in northwestern Durotar, tucked between Thunder Ridge and the Southfury Watershed. It is maintained solely by Misha Tor'kren, an aging orc widow whose life has been weighed down by grief and the harsh frontier.",
+ "sections": [
+  {
+   "title": "A Lonely Homestead",
+   "body": "Carving out a living from the dry, unforgiving red dirt of Durotar is never simple, but Tor'kren Farm has had a harder time than most. Situated southeast of Thunder Ridge, the homestead focuses on raising pigs in a rugged climate where feed and water are scarce. Unlike the bustling trade posts or heavily defended barracks of the Horde, the farm stands isolated and quiet, producing meager yields in the shadow of nearby bluffs.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Mother's Loss",
+   "body": "The farm's greatest burden is not poor soil, but tragedy. Misha Tor'kren once worked these pens alongside her beloved son, Kron. That life ended when Kron journeyed down to the Southfury River to hunt the ferocious crocolisks lurking along the banks and never returned. Left to carry on alone, Misha tends the swine by herself, holding fast to her homestead and clinging to the memory of her fallen child.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Tor'kren Farm located?",
+   "aliases": [
+    "tor'kren farm location",
+    "where is torkren farm",
+    "find tor'kren farm"
+   ],
+   "answer": "Tor'kren Farm lies in northwestern Durotar, situated southeast of the canyon known as Thunder Ridge and just north of the Southfury Watershed."
+  },
+  {
+   "q": "Who lives at Tor'kren Farm?",
+   "aliases": [
+    "who runs tor'kren farm",
+    "tor'kren farm npcs",
+    "who is misha tor'kren"
+   ],
+   "answer": "The farm is tended solely by Misha Tor'kren, an elderly orc widow who raises pigs on the homestead by herself."
+  },
+  {
+   "q": "What happened to Misha's son?",
+   "aliases": [
+    "misha son",
+    "kron tor'kren death",
+    "who is kron"
+   ],
+   "answer": "Misha's son, Kron, was killed while hunting crocolisks along the nearby Southfury River several years ago, leaving his mother to manage the farm on her own."
+  },
+  {
+   "q": "What does Tor'kren Farm produce?",
+   "aliases": [
+    "torkren farm business",
+    "what kind of farm is torkren",
+    "tor'kren pigs"
+   ],
+   "answer": "It operates as a swine farm, though harsh terrain and isolation keep its profits far leaner than other livestock operations in Durotar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The quiet tragedy at Tor'kren Farm reveals the everyday sacrifices made by ordinary Horde settlers striving to tame Durotar's wild frontier."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The fate of Kron serves as a grim warning to young hunters about the deadly predators lurking along the Southfury River."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "kron",
+  "misha tor'kren",
+  "pig farm",
+  "southfury river",
+  "southfury watershed",
+  "thunder ridge",
+  "tor'kren farm"
+ ],
+ "related": [
+  "npc:misha-tor-kren",
+  "subzone:southfury-watershed",
+  "subzone:southfury-river",
+  "subzone:thunder-ridge",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Tor'kren Farm"
+ ]
+}

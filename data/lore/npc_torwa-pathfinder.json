@@ -1,0 +1,113 @@
+{
+ "key": "npc:torwa-pathfinder",
+ "type": "npc",
+ "name": "Torwa Pathfinder",
+ "era": "classic",
+ "zone": "ungoro",
+ "meta": {
+  "wiki": "Torwa Pathfinder",
+  "refs": 4
+ },
+ "summary": "Torwa Pathfinder is a lone tauren hunter and tracker camped at the entrance to Un'Goro Crater, just below the ramp descending from Tanaris. He observes the basin's primordial wildlife, studying the dangerous predators that rule the jungle floor. Adventurers seeking to test their mettle against the crater's legendary beasts often seek his guidance.",
+ "sections": [
+  {
+   "title": "Watcher at the Threshold",
+   "body": "Perched at the eastern base of the crater where the desert sands of Tanaris give way to humid jungle steam, Torwa Pathfinder serves as an informal warden for newcomers. He respects the wild forces of Un'Goro, understanding that careless wanderers quickly become fodder for the local fauna. His campsite provides a rare moment of respite before travelers dive into the sweltering depths.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Hunt for Lar'korwi",
+   "body": "Much of Torwa's attention is consumed by Lar'korwi, a notoriously cunning and fierce raptor roaming the northern reaches of the crater. Torwa understands that brute strength alone cannot bring down such an apex predator. Instead, he instructs hunters to study its feeding habits, using fresh carcase meat and glands to craft a bait potent enough to lure the beast out into the open.",
+   "spoiler": 0
+  },
+  {
+   "title": "Primal Poisons and Beasts",
+   "body": "Beyond hunting the crater's apex raptors, Torwa maintains a deep curiosity regarding the toxic flora and aggressive ape colonies that inhabit the basin. He directs travelers to harvest venom from volatile bloodpetals and observe the strength of dominant beasts like the mighty gorilla U'cha, constantly analyzing how nature's deadliest adaptations function in isolation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Torwa Pathfinder?",
+   "aliases": [
+    "torwa location",
+    "where is torwa",
+    "find torwa pathfinder"
+   ],
+   "answer": "Torwa is camped near the eastern edge of Un'Goro Crater, right near the base of the winding ramp that climbs up into the desert of Tanaris."
+  },
+  {
+   "q": "What is Lar'korwi?",
+   "aliases": [
+    "larkorwi",
+    "who is larkorwi",
+    "what is larkorwi"
+   ],
+   "answer": "Lar'korwi is a legendary and elusive raptor stalking Un'Goro Crater. Renowned for its ferocity and cunning, it cannot easily be tracked by normal means and must be lured out using specialized bait."
+  },
+  {
+   "q": "Does Torwa only offer quests to Horde players?",
+   "aliases": [
+    "is torwa horde only",
+    "can alliance talk to torwa",
+    "torwa faction"
+   ],
+   "answer": "No. Despite being a tauren, Torwa Pathfinder acts independently in the wilderness. He offers his tracking wisdom and hunting challenges to capable adventurers of both the Alliance and the Horde."
+  },
+  {
+   "q": "Why is Torwa interested in Bloodpetals?",
+   "aliases": [
+    "bloodpetal quest",
+    "why bloodpetals",
+    "torwa poison"
+   ],
+   "answer": "Torwa is fascinated by the lethal defenses of Un'Goro's native plants. He asks adventurers to collect secretions from aggressive bloodpetals to understand and test the potency of their natural toxins."
+  },
+  {
+   "q": "Who is U'cha?",
+   "aliases": [
+    "mighty u'cha",
+    "gorilla boss ungoro",
+    "ucha quest"
+   ],
+   "answer": "U'cha is an exceptionally powerful gorilla residing in the caves and ape territories of Un'Goro. Torwa challenges hunters to defeat U'cha to prove their prowess against the basin's strongest beasts."
+  },
+  {
+   "q": "Is Torwa Pathfinder related to Nura Pathfinder?",
+   "aliases": [
+    "nura pathfinder",
+    "torwa family",
+    "pathfinder family"
+   ],
+   "answer": "They share the Pathfinder surname, suggesting a kinship among tauren trackers, though Torwa remains focused entirely on the perilous wilderness of Un'Goro."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Torwa embodies the patience and craft of a master tracker, demonstrating that luring an apex predator requires understanding its diet, scent, and territorial habits rather than relying on raw force."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For wandering tauren, finding Torwa at the edge of the crater is a reassuring reminder of their people's reverence for nature, even amidst the prehistoric chaos of Un'Goro."
+  }
+ ],
+ "keywords": [
+  "bloodpetal",
+  "lar'korwi",
+  "pathfinder",
+  "raptor",
+  "tanaris",
+  "torwa",
+  "u'cha",
+  "ungoro"
+ ],
+ "related": [
+  "zone:ungoro",
+  "zone:tanaris",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Torwa Pathfinder"
+ ]
+}

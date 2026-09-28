@@ -1,0 +1,73 @@
+{
+ "key": "npc:deathguard-simmer",
+ "type": "npc",
+ "name": "Deathguard Simmer",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Deathguard Simmer",
+  "refs": 1
+ },
+ "summary": "Deathguard Simmer is a Forsaken soldier stationed at the Calston Estate just east of Deathknell in Tirisfal Glades. Tasked with securing the perimeter against human zealots, he directs newly risen Forsaken to combat the relentless incursions of the Scarlet Crusade.",
+ "sections": [
+  {
+   "title": "Guardian of the Estate",
+   "body": "Positioned at the ruins of Calston Estate, Deathguard Simmer represents the Forsaken military line holding the border between the safe haven of Deathknell and the wider perils of Tirisfal Glades. The region crawls with living humans\u2014most notably the fanatical Scarlet Crusade\u2014who view all undead as abominations to be purged with fire and blade. Simmer coordinates local counter-offensives, dispatching adventurers to strike at Scarlet encampments like the nearby Scarlet Palisade and disrupt their operations before they can march on newly awakened Forsaken.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Deathguard Simmer?",
+   "aliases": [
+    "deathguard simmer",
+    "who is simmer",
+    "simmer npc"
+   ],
+   "answer": "Deathguard Simmer is a Forsaken sentry stationed at the Calston Estate in Tirisfal Glades. He assists in defending the local territory by tasking adventurers with neutralizing nearby hostile forces, particularly the Scarlet Crusade."
+  },
+  {
+   "q": "Where is Deathguard Simmer located?",
+   "aliases": [
+    "deathguard simmer location",
+    "where is simmer",
+    "find deathguard simmer"
+   ],
+   "answer": "He is located at Calston Estate, an abandoned farmstead found just east of the exit road leading out of Deathknell in southwestern Tirisfal Glades."
+  },
+  {
+   "q": "What threats does Deathguard Simmer fight?",
+   "aliases": [
+    "simmer enemies",
+    "what does simmer fight",
+    "scarlet palisade quests"
+   ],
+   "answer": "Simmer focuses on the Scarlet Crusade, a faction of zealous humans occupying fortifications like the Scarlet Palisade. He enlists scouts and soldiers to recover intelligence and eliminate the crusaders threatening the Forsaken hold on the area."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Simmer offers some of the first missions directly targeting the Scarlet Crusade, marking an undead adventurer's graduation from the crypts of Deathknell into the broader defense of Lordaeron."
+  }
+ ],
+ "keywords": [
+  "calston estate",
+  "deathguard",
+  "deathguard simmer",
+  "deathknell",
+  "scarlet palisade",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:calston-estate",
+  "subzone:deathknell",
+  "subzone:scarlet-palisade",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "quest:365"
+ ],
+ "attribution": [
+  "Deathguard Simmer"
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "key": "quest:1135",
+ "type": "quest",
+ "name": "Highperch Venom",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   1135
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Fiora Longears",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Highperch Venom",
+  "chain": []
+ },
+ "summary": "Fiora Longears in Auberdine tasks Alliance adventurers with journeying far south to the canyons of Thousand Needles. There, atop the elevated bluffs of Highperch, roost dangerous wyverns prized for their exceptionally potent venom.",
+ "sections": [
+  {
+   "title": "A Lucrative Expedition",
+   "body": "While resting in the seaside port of Auberdine, travelers may cross paths with Fiora Longears. While orcs commonly capture and domesticate wyverns as aerial mounts, Fiora points out a far more clandestine trade: the creature's lethal venom. Certain buyers across Kalimdor value fresh venom sacs far more than the beasts themselves, prompting Fiora to recruit hunters willing to brave long distances and precarious heights.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Crags of Highperch",
+   "body": "The quarry nests far south of Darkshore, within the towering sandstone mesas of Thousand Needles. At a roost known as Highperch, the local wyverns possess an unusually concentrated toxin. Reaching their nests requires navigating hostile Horde territory and scaling treacherous terrain, where hunters must slay wyverns to extract intact venom sacs before hauling the prize back to Darkshore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find the wyverns for this quest?",
+   "aliases": [
+    "highperch location",
+    "where is highperch",
+    "wyvern location"
+   ],
+   "answer": "The wyverns inhabit Highperch, a tall mesa nestled in the western stretches of Thousand Needles, far south of Darkshore."
+  },
+  {
+   "q": "Who is Fiora Longears?",
+   "aliases": [
+    "fiora longears",
+    "who gives highperch venom"
+   ],
+   "answer": "Fiora Longears is an Alliance contact stationed in Auberdine on the Darkshore coast. She recruits daring adventurers to procure rare and valuable natural reagents from across Kalimdor."
+  },
+  {
+   "q": "Why is wyvern venom so valuable?",
+   "aliases": [
+    "why wyvern venom",
+    "wyvern poison use"
+   ],
+   "answer": "Wyvern venom is extremely potent and prized in select underground circles, apothecaries, and trade networks. While the Horde primarily values wyverns as aerial mounts, their venom glands fetch a handsome price among alchemists and poison-makers."
+  },
+  {
+   "q": "Why is an Auberdine quest sending me so far south?",
+   "aliases": [
+    "why thousand needles",
+    "why send to thousand needles"
+   ],
+   "answer": "Fiora is an enterprising dealer seeking exotic specimens that cannot be found along the calm shores of Darkshore. Highperch in Thousand Needles harbors a distinct, concentrated breed of wyvern not found in the northern forests."
+  },
+  {
+   "q": "What happens when you return the venom sacs?",
+   "aliases": [
+    "fiora reaction",
+    "quest completion highperch venom"
+   ],
+   "answer": "Fiora inspects the sacs and notes they are bursting with venom, remarking that such quality usually only comes from young wyverns or fertile females, congratulating you on the hunt."
+  },
+  {
+   "q": "Is Highperch safe for Alliance travelers?",
+   "aliases": [
+    "is highperch dangerous",
+    "alliance in thousand needles"
+   ],
+   "answer": "No. Thousand Needles contains heavy Horde presence, centering around nearby settlements like Freewind Post. Scaling Highperch means contending with both wild predators and hostile Horde scouts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Rogues naturally understand the dark allure of exotic toxins. Sourcing pure, unrefined wyvern venom gives an intimate appreciation for Kalimdor's deadliest biological agents."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei of Auberdine, sending hunters deep into the arid barrens of Thousand Needles highlights how far trade interests and curious reagents reach outside Ashenvale and Darkshore."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Venturing into Thousand Needles places Alliance adventurers deep behind enemy lines, right beneath the watchful eyes of the Horde's tauren and orc patrols."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "fiora",
+  "highperch",
+  "longears",
+  "thousand needles",
+  "venom",
+  "wyvern"
+ ],
+ "related": [
+  "quest:1132",
+  "subzone:highperch",
+  "zone:thousandneedles",
+  "subzone:auberdine",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "Highperch Venom"
+ ]
+}

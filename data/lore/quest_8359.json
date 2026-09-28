@@ -1,0 +1,119 @@
+{
+ "key": "quest:8359",
+ "type": "quest",
+ "name": "Flexing for Nougat",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   8359
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Innkeeper Gryshka",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Flexing for Nougat (Horde)",
+  "chain": []
+ },
+ "summary": "During the festive autumn celebration of Hallow's End, Innkeeper Gryshka in Orgrimmar offers sweet seasonal confections to those willing to play along. To earn a piece of Orgrimmar Nougat for a bedridden child, champions of the Horde must swallow their warrior pride and show off their muscles on command.",
+ "sections": [
+  {
+   "title": "Tricks for Treats",
+   "body": "Hallow's End brings high spirits, pranks, and confection gathering to the bustling capitals of Azeroth. While adventuring heroes often face dragons and dark sorcery, the traditions of the autumn holiday require a much lighter touch. Innkeeper Gryshka, presiding over the common room of Orgrimmar's inn, is happy to share her supply of holiday sweets, but only if patrons adhere to the oldest rule of the season: perform a trick, or leave empty-handed.",
+   "spoiler": 0
+  },
+  {
+   "title": "Muscle on Display",
+   "body": "Taking amusement in whatever disguise or armor an adventurer arrives in, Gryshka demands a show of raw Orcish strength. Before parting with a single piece of Orgrimmar Nougat meant for young Spoops, she insists on seeing the mighty traveler strike a muscular pose. It is a lighthearted reminder that even the most feared combatants in the Horde can be made to entertain the common folk for candy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the flex?",
+   "aliases": [
+    "who gives the quest",
+    "gryshka",
+    "innkeeper gryshka"
+   ],
+   "answer": "Innkeeper Gryshka, the proprietor of the main tavern in the Valley of Strength within Orgrimmar, demands the trick before handing over her holiday sweets."
+  },
+  {
+   "q": "Why do I need to flex for candy?",
+   "aliases": [
+    "why flex",
+    "what is the trick",
+    "nougat condition"
+   ],
+   "answer": "Hallow's End custom dictates that trick-or-treaters must perform a small trick in exchange for treats. Gryshka decides to tease the adventurer by requesting a display of sheer physical power before rewarding them."
+  },
+  {
+   "q": "What is the Orgrimmar Nougat used for?",
+   "aliases": [
+    "why do i need nougat",
+    "nougat use",
+    "spoops candy"
+   ],
+   "answer": "The nougat is one of four distinct sweets gathered across the Horde's capitals to cheer up Spoops, a sick orphan boy unable to go trick-or-treating on his own."
+  },
+  {
+   "q": "Where does Innkeeper Gryshka reside?",
+   "aliases": [
+    "where is gryshka",
+    "orgrimmar innkeeper location"
+   ],
+   "answer": "She can be found behind the counter of the main inn located in Orgrimmar's Valley of Strength, serving weary travelers and locals alike."
+  },
+  {
+   "q": "Can any Horde member participate in this?",
+   "aliases": [
+    "who can flex",
+    "faction restrictions",
+    "horde only"
+   ],
+   "answer": "Yes, any member of the Horde can visit Innkeeper Gryshka during Hallow's End to strike a pose and claim the seasonal confection."
+  },
+  {
+   "q": "What holiday is this a part of?",
+   "aliases": [
+    "which event",
+    "what holiday",
+    "hallows end quest"
+   ],
+   "answer": "This task is part of Hallow's End, an autumn festival celebrating the end of the harvest and the defiance of mortality through costume, pranks, and sweets."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Even veteran champions who face down deadly warlords are reduced to flexing their biceps for tavernkeepers to gather festive sweets for the children of the Horde."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orgrimmar's innkeeper expects an impressive display of muscle, a quintessential Orcish test of pride turned into lighthearted holiday theater."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Warriors who pride themselves on devastating frontline feats may find it amusing\u2014or mildly humbling\u2014to pose like stage performers for a square of festive candy."
+  }
+ ],
+ "keywords": [
+  "candy",
+  "flexing",
+  "gryshka",
+  "hallow's end",
+  "nougat",
+  "orgrimmar",
+  "spoops",
+  "trick or treat"
+ ],
+ "related": [
+  "npc:innkeeper-gryshka",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Flexing for Nougat (Horde)"
+ ]
+}

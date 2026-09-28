@@ -1,0 +1,92 @@
+{
+ "key": "subzone:olsen-s-farthing",
+ "type": "subzone",
+ "name": "Olsen's Farthing",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Olsen's Farthing"
+ },
+ "summary": "Olsen's Farthing was once a flourishing farmstead situated along the primary trade road running through Silverpine Forest. In the wake of the Third War, the fields fell into ruin and became overrun by reanimated thralls bound to the renegade necromancer Thule Ravenclaw.",
+ "sections": [
+  {
+   "title": "A Blighted Homestead",
+   "body": "Before the plague consumed Lordaeron, Olsen's Farthing was a busy agricultural homestead with direct access to Silverpine's main overland trading route. Today, its tilled fields are choked with weeds, its structures lie broken, and any memory of honest farming has been erased by Scourge necromancy. Undead thralls, bound as slaves and raiders under the command of Thule Ravenclaw, wander the barren grounds to slaughter any travelers who stray too close.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Grasp of Ravenclaw",
+   "body": "The shambling horrors haunting Olsen's Farthing are not mindless wanderers, but servants answering to Thule Ravenclaw, a powerful necromancer operating from Fenris Isle in the center of Lake Lordamere. Using dark sorcery to animate and enslave the dead of the surrounding countryside, Thule's reach extends through Olsen's Farthing and poses a direct threat to the Forsaken seeking to secure the northern reaches of Silverpine Forest.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Olsen's Farthing before the Third War?",
+   "aliases": [
+    "olsens farthing history",
+    "what was this place",
+    "who lived at olsens farthing"
+   ],
+   "answer": "It was a productive roadside farmstead supporting local commerce along Silverpine Forest's main trade thoroughfare, feeding the settlements of Lordaeron before the kingdom fell to the Scourge."
+  },
+  {
+   "q": "Why is the farm infested with undead?",
+   "aliases": [
+    "why are there undead here",
+    "who controls the undead at olsens farthing",
+    "ravenclaw slaves silverpine"
+   ],
+   "answer": "The farm was destroyed during the Third War and its remnants were seized by the necromancer Thule Ravenclaw, who raised the dead as thralls and raiders to terrorize travelers along the road."
+  },
+  {
+   "q": "Who is Thule Ravenclaw?",
+   "aliases": [
+    "who is thule ravenclaw",
+    "thule ravenclaw lore",
+    "who commands ravenclaw raiders"
+   ],
+   "answer": "Thule Ravenclaw is a dangerous necromancer aligned with the Scourge who orchestrates undead incursions across Silverpine Forest from his stronghold on Fenris Isle."
+  },
+  {
+   "q": "Does the Horde or Forsaken hold any presence here?",
+   "aliases": [
+    "is olsens farthing horde",
+    "do forsaken live at olsens farthing",
+    "is there a quest hub here"
+   ],
+   "answer": "No. The farm is completely overrun by hostile undead loyal to Thule Ravenclaw, making it hostile ground for Forsaken scouts and Horde travelers alike."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, places like Olsen's Farthing are grim reminders of the lingering Scourge threat that seeks to enslave the dead rather than liberate them."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Clearing the raiders from Olsen's Farthing is vital for securing the supply road linking the Sepulcher to the north and the road toward Tirisfal Glades."
+  }
+ ],
+ "keywords": [
+  "fenris isle",
+  "lordaeron farm",
+  "olsen's farthing",
+  "olsens farthing",
+  "ravenclaw raiders",
+  "ravenclaw slaves",
+  "silverpine forest",
+  "thule ravenclaw"
+ ],
+ "related": [
+  "quest:446",
+  "zone:silverpine",
+  "subzone:fenris-isle",
+  "topic:forsaken",
+  "topic:horde",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Olsen's Farthing"
+ ]
+}

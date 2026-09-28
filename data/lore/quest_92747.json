@@ -1,0 +1,120 @@
+{
+ "key": "quest:92747",
+ "type": "quest",
+ "name": "Moonbrook Espionage",
+ "era": "forever",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   92747
+  ],
+  "level": "16",
+  "faction": "Alliance",
+  "start": "Alba Fairmoon",
+  "end": "",
+  "previous": "",
+  "next": "",
+  "wiki": "Moonbrook Espionage",
+  "chain": []
+ },
+ "summary": "Moonbrook Espionage is an Alliance task assigned by Alba Fairmoon to scout the overrun settlement of Moonbrook. Believing a mysterious toxin did not come from lesser Westfall dig sites, investigators turn their attention toward the ancient, long-abandoned Deadmines beneath the town to uncover evidence of active industrial operations.",
+ "sections": [
+  {
+   "title": "A Toxic Trail",
+   "body": "After looking into local mines across Westfall, investigators hit a dead end: the poison plaguing the region does not appear to originate from any known surface excavation. This leaves only one major excavation left unexplored\u2014the cavernous, sprawling shafts of the Deadmines resting directly beneath the ruined township of Moonbrook.",
+   "spoiler": 0
+  },
+  {
+   "title": "Secrets of the Deadmines",
+   "body": "Official accounts claim the Deadmines were abandoned following the First War when the Horde overran the region. However, the discovery of modern industrial gear and supplies scattered throughout Moonbrook strongly suggests that someone is secretly running an extensive mining and manufacturing operation behind the facade of a ruined ghost town.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who assigns Moonbrook Espionage?",
+   "aliases": [
+    "quest giver",
+    "who gives moonbrook espionage",
+    "alba fairmoon"
+   ],
+   "answer": "The quest is assigned by Alba Fairmoon, who has been investigating suspicious toxins and industrial activities across the contested territory of Westfall."
+  },
+  {
+   "q": "Why is Alba investigating Moonbrook?",
+   "aliases": [
+    "why moonbrook",
+    "what is in moonbrook",
+    "investigate moonbrook"
+   ],
+   "answer": "Other local mines showed no signs of producing the poison under investigation. Because Moonbrook sits directly over the Deadmines, Alba suspects someone is running an illicit operation hidden beneath the town."
+  },
+  {
+   "q": "What are the Deadmines?",
+   "aliases": [
+    "deadmines lore",
+    "what are deadmines",
+    "history of deadmines"
+   ],
+   "answer": "The Deadmines are the deepest, most expansive gold mines in the region. Abandoned since the First War after the fall of Stormwind, they have long been assumed to be empty ruins haunted by vermin and bandits."
+  },
+  {
+   "q": "What items are gathered during this scouting mission?",
+   "aliases": [
+    "suspicious industrial supplies",
+    "quest items moonbrook espionage"
+   ],
+   "answer": "Scouts are sent to retrieve Suspicious Industrial Supplies scattered throughout Moonbrook, proving that active industrial work and refining are taking place near the mine shafts."
+  },
+  {
+   "q": "What threats occupy Moonbrook right now?",
+   "aliases": [
+    "moonbrook enemies",
+    "who controls moonbrook"
+   ],
+   "answer": "Moonbrook is currently overrun by the Defias Brotherhood, who use the derelict buildings as a forward staging ground and guard the surface entrance leading down into the subterranean network."
+  },
+  {
+   "q": "What does finding these supplies prove?",
+   "aliases": [
+    "what do the supplies mean",
+    "defias industry"
+   ],
+   "answer": "The presence of modern, heavy industrial equipment in an allegedly abandoned town confirms that a coordinated faction is undertaking large-scale fabrication, hidden away from the prying eyes of Stormwind's authorities."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Slipping through Moonbrook unspotted offers rogues a textbook opportunity to gather intelligence on Defias operations without raising the alarm."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Miners understand better than anyone the sheer wealth and logistical scale hidden within the deep shafts beneath Moonbrook."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Uncovering active industry in Moonbrook signals a direct threat to the breadbasket of Westfall and the security of Stormwind itself."
+  }
+ ],
+ "keywords": [
+  "alba fairmoon",
+  "deadmines",
+  "espionage",
+  "industrial supplies",
+  "mines",
+  "moonbrook",
+  "poison",
+  "westfall"
+ ],
+ "related": [
+  "subzone:moonbrook",
+  "zone:deadmines",
+  "subzone:deadmines",
+  "zone:westfall",
+  "topic:first-war"
+ ],
+ "attribution": [
+  "Moonbrook Espionage"
+ ]
+}

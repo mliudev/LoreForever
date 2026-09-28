@@ -1,0 +1,119 @@
+{
+ "key": "quest:1094",
+ "type": "quest",
+ "name": "Further Instructions",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1094
+  ],
+  "level": "21",
+  "faction": null,
+  "start": "Ziz Fizziks",
+  "end": "Sputtervalve",
+  "previous": "Super Reaper 6000",
+  "next": "Further Instructions (2)",
+  "wiki": "Further Instructions",
+  "chain": []
+ },
+ "summary": "Further Instructions is a delivery task connecting the chaotic logging operations of the Stonetalon Mountains to the trade hub of Ratchet. The disgruntled tinkerer Ziz Fizziks sends a courier with stolen blueprints and internal documents to his counterpart, Sputtervalve, aiming to turn corporate espionage into personal advantage.",
+ "sections": [
+  {
+   "title": "Corporate Espionage",
+   "body": "When Ziz Fizziks was booted out of the Venture Company's logging operations in the Windshear Crag, he did not leave empty-handed. Bitter over his dismissal, Fizziks snatched up an assortment of sensitive documents, internal manuals, and technical schematics, culminating in the prized blueprints for the experimental Super Reaper 6000. Desperate to find a buyer or ally willing to exploit the data, he sealed the gathered secrets into an envelope marked for Ratchet.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ratchet Connection",
+   "body": "The recipient of the stolen documents is Sputtervalve, an engineer stationed within the neutral port of Ratchet in the Barrens. While Sputtervalve harbors little personal affection or trust for Fizziks, the rivalry with the Venture Company makes the offering impossible to refuse. The Steamwheedle-aligned goblins are constantly looking for ways to diminish their ruthless competitor's footprint while happily reverse-engineering any superior mechanical innovations they stumble across.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Sealed Envelope?",
+   "aliases": [
+    "envelope contents",
+    "what is fizziks sending",
+    "stolen documents"
+   ],
+   "answer": "The envelope contains internal Venture Company documents, technical manuals, and blueprints for the Super Reaper 6000 that Ziz Fizziks stole when he was ousted from their logging operation."
+  },
+  {
+   "q": "Who is Sputtervalve?",
+   "aliases": [
+    "sputtervalve identity",
+    "who is the recipient",
+    "ratchet engineer"
+   ],
+   "answer": "Sputtervalve is a goblin engineer residing in Ratchet in the Barrens. Though he does not fully trust Ziz Fizziks, he is eager to weaken the Venture Company and examine their mechanical advancements."
+  },
+  {
+   "q": "Why is Ziz Fizziks working against the Venture Company?",
+   "aliases": [
+    "why fizziks betrayed venture co",
+    "fizziks motive"
+   ],
+   "answer": "Fizziks was unceremoniously kicked out of the Venture Company's ranks in Stonetalon. Spiteful and out for revenge, he began leaking their trade secrets to rivals."
+  },
+  {
+   "q": "Where can Sputtervalve be found?",
+   "aliases": [
+    "where is sputtervalve",
+    "sputtervalve location",
+    "find sputtervalve"
+   ],
+   "answer": "Sputtervalve is stationed in the neutral port town of Ratchet, located along the eastern coast of the Barrens."
+  },
+  {
+   "q": "Does Sputtervalve trust Ziz Fizziks?",
+   "aliases": [
+    "does sputtervalve trust fizziks",
+    "fizziks and sputtervalve relationship"
+   ],
+   "answer": "No, Sputtervalve openly admits he does not trust Fizziks, but the value of the technical manuals and blueprints outweighs his wariness of the messenger."
+  },
+  {
+   "q": "What is the Super Reaper 6000?",
+   "aliases": [
+    "super reaper 6000",
+    "what is the machine",
+    "venture co reaper"
+   ],
+   "answer": "It is an advanced industrial shredder developed by the Venture Company to clear forests and process lumber at high speed, making its blueprints highly coveted."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The envelope represents classic goblin industry at work: ruthless corporate espionage, patent theft, and reverse-engineering complex lumber harvesters."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Running stolen Venture Company plans to Ratchet helps fuel the simmering trade wars that undermine dangerous industrial encroachment near Horde territories."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "further instructions",
+  "ratchet",
+  "sputtervalve",
+  "stonetalon",
+  "super reaper 6000",
+  "venture company",
+  "ziz fizziks"
+ ],
+ "related": [
+  "quest:1093",
+  "npc:sputtervalve",
+  "subzone:ratchet",
+  "zone:barrens",
+  "topic:venture-company",
+  "zone:stonetalon",
+  "quest:1483"
+ ],
+ "attribution": [
+  "Further Instructions"
+ ]
+}

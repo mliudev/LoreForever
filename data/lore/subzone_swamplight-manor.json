@@ -1,0 +1,91 @@
+{
+ "key": "subzone:swamplight-manor",
+ "type": "subzone",
+ "name": "Swamplight Manor",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Swamplight Manor"
+ },
+ "summary": "Swamplight Manor is an ironically named, ramshackle wooden shack nestled deep within Witch Hill in Dustwallow Marsh. It serves as the eccentric home and kitchen of 'Swamp Eye' Jarl, an isolated recluse known across the mire for his strange culinary appetites. Despite its humble, eerie isolation, the surrounding garden conceals intrigue that catches the attention of both Theramore and Brackenwall Village.",
+ "sections": [
+  {
+   "title": "A Hermit's Respite in the Mire",
+   "body": "Despite what its grandiose title suggests, Swamplight Manor is far from a lordly estate. It is merely a crooked, weather-beaten shack tucked into the haunted wetlands of Witch Hill. Its lone resident, the odd recluse known as 'Swamp Eye' Jarl, lives a solitary existence surrounded by fog, muck, and restless marsh ghosts. Jarl spends his days concocting unusual regional delicacies out of local wildlife, frequently recruiting wandering adventurers to hunt down bizarre ingredients like marsh frog legs and creature eyes to satisfy his strange craft.",
+   "spoiler": 0
+  },
+  {
+   "title": "Secrets in the Garden",
+   "body": "While travelers usually stumble upon the manor seeking eccentric cooking or shelter from the spirits of Witch Hill, the grounds conceal a much darker border conflict. Buried under a loose pile of dirt in Jarl's makeshift garden lies a discarded orcish spy's report, complete with a severed head nearby. Both the Theramore guards under Captain Garran Vimes and the Horde forces at Brackenwall Village have keen interests in recovering these documents, making the hermit's patch of overgrown soil an unexpected flashpoint in the regional cold war.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is a tiny shack called a 'Manor'?",
+   "aliases": [
+    "swamplight manor name origin",
+    "why manor",
+    "is swamplight a real manor"
+   ],
+   "answer": "The name is purely ironic. The structure is little more than a soggy, rundown wooden hovel, named with a touch of eccentricity by its reclusive inhabitant, 'Swamp Eye' Jarl, to contrast with the dreary gloom of Witch Hill."
+  },
+  {
+   "q": "Who lives at Swamplight Manor?",
+   "aliases": [
+    "who is swamp eye jarl",
+    "swamplight manor resident",
+    "who lives here"
+   ],
+   "answer": "'Swamp Eye' Jarl lives here alone. He is an infamous, half-crazed hermit and cook who chooses to dwell isolated in the haunted mire, hiring passing travelers to supply him with peculiar culinary ingredients and aid with the local spirits."
+  },
+  {
+   "q": "What is buried in the garden outside?",
+   "aliases": [
+    "swamplight manor dirt pile",
+    "loose dirt swamplight",
+    "orc spy report"
+   ],
+   "answer": "Hidden in a pile of disturbed earth in Jarl's yard is a lost spy report penned by an orc, along with a severed head. Both Alliance authorities in Theramore and Horde scouts from Brackenwall Village are anxious to secure this intelligence."
+  },
+  {
+   "q": "Can both Alliance and Horde players visit Jarl?",
+   "aliases": [
+    "is jarl neutral",
+    "can horde talk to swamp eye jarl",
+    "swamplight faction"
+   ],
+   "answer": "Yes. Jarl lives so far removed from civilization that he maintains neutrality, gladly accepting help or trading recipes with both Alliance and Horde travelers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "For culinarians braving the marshlands, Jarl represents the eccentric pinnacle of swamp foraging, crafting regional meals out of creatures most chefs would dread to touch."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Theramore scouts sent by Captain Garran Vimes keep a watchful eye on rumors surrounding the manor, particularly concerning missing scouts and intercepted Horde correspondence."
+  }
+ ],
+ "keywords": [
+  "brackenwall village",
+  "dustwallow marsh",
+  "garran vimes",
+  "lost report",
+  "swamp eye jarl",
+  "swamplight manor",
+  "witch hill"
+ ],
+ "related": [
+  "subzone:witch-hill",
+  "zone:dustwallow",
+  "subzone:brackenwall-village",
+  "quest:165",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Swamplight Manor"
+ ]
+}

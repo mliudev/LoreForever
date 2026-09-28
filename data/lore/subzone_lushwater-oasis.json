@@ -1,0 +1,83 @@
+{
+ "key": "subzone:lushwater-oasis",
+ "type": "subzone",
+ "name": "Lushwater Oasis",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Lushwater Oasis"
+ },
+ "summary": "Lushwater Oasis is one of the three life-giving watering holes nestled in the arid Northern Barrens, located just south of the Crossroads. Despite its verdant appearance, the oasis is fraught with danger, infested by aggressive Kolkar centaur and harboring the entrance to the Wailing Caverns. Its tainted waters are well-known to anglers seeking the peculiar Deviate Fish.",
+ "sections": [
+  {
+   "title": "A Precarious Sanctuary",
+   "body": "Situated a short march south of the Crossroads, Lushwater Oasis offers a deceptive respite amid the sun-bleached expanse of the Barrens. While its palm canopies and fresh springs draw thirsty beasts from across the savanna, Kolkar centaur claim the banks, lying in wait to butcher both game and unwary travelers. The oasis is also the gateway to the Wailing Caverns, whose sprawling underground networks seep corruptive energies into the pools above, breeding unnatural wildlife and bizarre mutations.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the entrance to the Wailing Caverns located?",
+   "aliases": [
+    "where is wc",
+    "wc cave entrance",
+    "wailing caverns entrance"
+   ],
+   "answer": "The entrance to the Wailing Caverns cavern system lies carved into the natural rock faces overlooking the eastern side of Lushwater Oasis."
+  },
+  {
+   "q": "Who controls Lushwater Oasis?",
+   "aliases": [
+    "who lives at lushwater oasis",
+    "lushwater enemies",
+    "centaur at the oasis"
+   ],
+   "answer": "The Kolkar centaur maintain a dominant presence throughout the oasis, using the lush cover to hunt passing wildlife and attack travelers making their way from the Crossroads."
+  },
+  {
+   "q": "Why are the fish here strange?",
+   "aliases": [
+    "deviate fish location",
+    "why deviate fish",
+    "mutated fish oasis"
+   ],
+   "answer": "The deep energies leaking from the Wailing Caverns have corrupted the waterways across the oasis, causing local fish to mutate into unusual Deviate Fish."
+  },
+  {
+   "q": "Did Thrall's Horde travel through here?",
+   "aliases": [
+    "thrall long march oasis",
+    "orcs in barrens oasis"
+   ],
+   "answer": "During the orcs' Long March through the Barrens alongside the tauren, Thrall led his troops through the region's scattered oases to secure vital drinking water while fending off relentless centaur ambushes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "The pools here are among the few waters where anglers can land Deviate Fish, a vital ingredient prized across Kalimdor for preparing Savory Deviate Delights."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Lushwater Oasis exhibits a troubling, unnatural overgrowth driven by the twisted energies escaping the nearby Wailing Caverns."
+  }
+ ],
+ "keywords": [
+  "crossroads",
+  "deviate fish",
+  "kolkar",
+  "lushwater oasis",
+  "the barrens",
+  "wailing caverns"
+ ],
+ "related": [
+  "zone:wailing",
+  "subzone:crossroads",
+  "topic:centaur",
+  "zone:barrens",
+  "npc:thrall"
+ ],
+ "attribution": [
+  "Lushwater Oasis"
+ ]
+}

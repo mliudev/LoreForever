@@ -1,0 +1,89 @@
+{
+ "key": "subzone:noxious-lair",
+ "type": "subzone",
+ "name": "Noxious Lair",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Noxious Lair"
+ },
+ "summary": "The Noxious Lair is a sunken silithid hive situated in the southwestern deserts of Tanaris, bordering Un'Goro Crater. Once a verdant basin with flowing water, the territory has been infested and drained of its vital resources by the burrowing Centipaar swarm. Now, it stands as an acidic breeding ground filled with swarming insectoids and rich mineral veins.",
+ "sections": [
+  {
+   "title": "A Drained Basin",
+   "body": "Resting against the western ridges overlooking Un'Goro Crater, the Noxious Lair occupies a depression in the sand that once held a lake or shallow river. When the Centipaar silithid invaded, they consumed the desert's remaining underground moisture and transformed the basin into an encroaching colony. Vast pincers and twitching limbs rise directly from the sand dunes, surrounding subterranean tunnels slick with corrosive insect secretions and clusters of incubating eggs.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Centipaar Swarm",
+   "body": "Subterranean tunnels link the surface entrances to humid, acid-coated breeding chambers beneath the sands. Centipaar workers, tunnelers, wasps, and colossal sandreavers patrol the perimeter, defending their brood from outside threats. Beyond its biological dangers, the upheaval caused by silithid excavation has unearthed deep mineral deposits, creating an unusually diverse hunting and prospecting ground where subterranean ores sit exposed amid the swarming hives.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What kind of creatures live in the Noxious Lair?",
+   "aliases": [
+    "what mobs are in noxious lair",
+    "noxious lair insects",
+    "centipaar silithid"
+   ],
+   "answer": "The lair is populated by the Centipaar, a colony of the insectoid silithid. The hive is defended by workers, burrowing tunnelers, flying wasps, and predatory sandreavers, all guarded under the rule of rare hive terrors like Soriid the Devourer and Ainamiss the Hive Queen."
+  },
+  {
+   "q": "What was here before the silithid took over?",
+   "aliases": [
+    "noxious lair history",
+    "was noxious lair a lake",
+    "water in noxious lair"
+   ],
+   "answer": "The sunken topography indicates that the area was once a riverbed or shallow desert lake. The arriving silithid burrowed beneath the earth, drained western Tanaris of its vital water and natural resources, and left behind a desolate, acid-soaked basin."
+  },
+  {
+   "q": "Why are goblins interested in this hive?",
+   "aliases": [
+    "goblin quests noxious lair",
+    "steamwheedle noxious lair",
+    "thunderdrome silithid"
+   ],
+   "answer": "Gadgetzan goblins view the hive as both a hazard to desert commerce and a profitable venture. Beast wranglers and gamblers have captured specimens here\u2014such as Sarinexx\u2014to pit them against challengers in the Thunderdrome arena, while others investigate egg gathering and silithid expansion."
+  },
+  {
+   "q": "Is the Noxious Lair connected to other insect hives in the desert?",
+   "aliases": [
+    "other hives tanaris",
+    "centipaar hive connection",
+    "silithid expansion"
+   ],
+   "answer": "The Noxious Lair represents the Centipaar hive, one of several insectoid colonies spreading out from the southern wastes. While physically distinct from hives farther south, its tunnels share the same eerie subterranean architecture and threaten to choke out life across Tanaris."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The silithid burrowing in the basin has exposed an unusually diverse selection of ore, letting miners gather Iron, Mithril, Truesilver, and Thorium veins in the same territory."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The hive is a disturbing perversion of nature, demonstrating how quickly the invasive silithid can drain a once-watered basin into an arid, acidic wasteland."
+  }
+ ],
+ "keywords": [
+  "ainamiss",
+  "centipaar",
+  "hive",
+  "noxious lair",
+  "sandreaver",
+  "silithid",
+  "soriid",
+  "tanaris"
+ ],
+ "related": [
+  "zone:tanaris",
+  "zone:ungoro",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Noxious Lair"
+ ]
+}

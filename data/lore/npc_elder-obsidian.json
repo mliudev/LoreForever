@@ -1,0 +1,82 @@
+{
+ "key": "npc:elder-obsidian",
+ "type": "npc",
+ "name": "Elder Obsidian",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Elder Obsidian",
+  "refs": 1
+ },
+ "summary": "Elder Obsidian is an ancestral earthen spirit who manifests at the Sepulcher in Silverpine Forest during the annual Lunar Festival. Appearing among the graves claimed by the Forsaken, he offers the wisdom and blessings of the ancient world to travelers honoring the festival.",
+ "sections": [
+  {
+   "title": "A Spirit at the Sepulcher",
+   "body": "Standing amid the somber tombs of the Sepulcher, Elder Obsidian provides a striking contrast to Silverpine Forest's gloomy expanse. As an ethereal earthen elder, his spirit manifests during the Lunar Festival to celebrate the ancient heritage of Azeroth. While the surrounding crypts are held by the Forsaken and menaced by feral worgen, Obsidian greets wayfarers of all allegiances in peace, bestowing Coin of Ancestry and ancient blessings upon those who take the time to seek out his wisdom.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Elder Obsidian?",
+   "aliases": [
+    "elder obsidian lore",
+    "who is obsidian",
+    "sepulcher elder"
+   ],
+   "answer": "Elder Obsidian is an ancient earthen ghost who appears in Silverpine Forest. He surfaces exclusively during the Lunar Festival, greeting travelers who honor the world's ancestral heritage."
+  },
+  {
+   "q": "Where can Elder Obsidian be found?",
+   "aliases": [
+    "elder obsidian location",
+    "where is obsidian",
+    "find elder obsidian"
+   ],
+   "answer": "He can be found resting within the graveyard grounds of the Sepulcher, a Forsaken-controlled hamlet situated along the road in central Silverpine Forest."
+  },
+  {
+   "q": "Why does an earthen elder appear in Silverpine Forest?",
+   "aliases": [
+    "why is obsidian in silverpine",
+    "earthen in silverpine"
+   ],
+   "answer": "During the Lunar Festival, the spirits of ancient elders manifest in lands across Azeroth to share their ancestral wisdom. Obsidian's spiritual presence transcends local territorial conflicts, allowing him to commune quietly amidst the ancient graves."
+  },
+  {
+   "q": "Can Alliance adventurers speak with Elder Obsidian?",
+   "aliases": [
+    "can alliance visit elder obsidian",
+    "elder obsidian alliance friendly"
+   ],
+   "answer": "Yes. Festival elders remain neutral toward all travelers regardless of faction. However, because he rests in the Sepulcher, Alliance adventurers must carefully navigate the hostile Forsaken guards stationed nearby to reach him."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves curious about their Titan-forged lineage, speaking with an earthen spirit like Elder Obsidian offers a rare glimpse into the primordial past of their stone-hewn ancestors."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance pilgrims seeking Elder Obsidian must tread carefully, as his chosen resting place lies in the heart of the Forsaken settlement of the Sepulcher."
+  }
+ ],
+ "keywords": [
+  "ancestor",
+  "coin of ancestry",
+  "earthen",
+  "elder obsidian",
+  "lunar festival",
+  "sepulcher",
+  "silverpine"
+ ],
+ "related": [
+  "quest:8645",
+  "subzone:sepulcher",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Elder Obsidian"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "key": "npc:brock-stoneseeker",
+ "type": "npc",
+ "name": "Brock Stoneseeker",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Brock Stoneseeker",
+  "refs": 2
+ },
+ "summary": "Brock Stoneseeker is a dwarven mining instructor based in the settlement of Thelsamar in Loch Modan. As the proprietor of Brock's School of Mining and Surveying, he instructs novice prospectors in the craft of extracting valuable ores and minerals from the earth.",
+ "sections": [
+  {
+   "title": "Master of Mining and Surveying",
+   "body": "Operating out of Thelsamar, Brock Stoneseeker directs Brock's School of Mining and Surveying. In the mineral-rich hills of Loch Modan, seasoned expertise with a pickaxe and an eye for geological veins are indispensable. Brock guides aspiring miners through the foundational techniques of identifying ore nodes, extracting raw metals, and properly surveying subterranean deposits, ensuring Alliance tradesfolk can fuel Ironforge's legendary smithies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Brock Stoneseeker?",
+   "aliases": [
+    "brock stoneseeker",
+    "who is brock",
+    "brock thelsamar"
+   ],
+   "answer": "Brock Stoneseeker is a dwarf mining trainer stationed in Thelsamar within Loch Modan. He runs Brock's School of Mining and Surveying, teaching tradesfolk how to extract ore and survey raw mineral deposits."
+  },
+  {
+   "q": "Where can Brock Stoneseeker be found?",
+   "aliases": [
+    "where is brock",
+    "brock stoneseeker location",
+    "brock map"
+   ],
+   "answer": "Brock resides in Thelsamar, the main dwarven town in Loch Modan, operating his mining establishment near the local tradesmen."
+  },
+  {
+   "q": "What profession does Brock teach?",
+   "aliases": [
+    "what does brock teach",
+    "brock trainer type",
+    "mining trainer thelsamar"
+   ],
+   "answer": "He is a Mining trainer, teaching travelers the basics of gathering rough stone, copper, and other early ores found scattered across the Khaz Modan countryside."
+  },
+  {
+   "q": "What is Brock's School of Mining and Surveying?",
+   "aliases": [
+    "brocks school",
+    "school of mining thelsamar"
+   ],
+   "answer": "It is Brock's training establishment in Thelsamar dedicated to teaching prospective prospectors how to safely extract minerals and read subterranean veins throughout the mountains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "Miners traveling through Loch Modan seek out Brock Stoneseeker in Thelsamar to begin or advance their training in unearthing and smelting regional ores."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves of Khaz Modan, stone and metal are foundational, making teachers like Brock a vital link in sustaining Ironforge's deep-rooted craft traditions."
+  }
+ ],
+ "keywords": [
+  "brock stoneseeker",
+  "loch modan",
+  "mining trainer",
+  "school of mining",
+  "thelsamar"
+ ],
+ "related": [
+  "subzone:thelsamar",
+  "zone:lochmodan",
+  "topic:dwarf",
+  "quest:6387",
+  "quest:6392"
+ ],
+ "attribution": [
+  "Brock Stoneseeker"
+ ]
+}

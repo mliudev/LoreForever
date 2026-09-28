@@ -1,0 +1,121 @@
+{
+ "key": "quest:8249",
+ "type": "quest",
+ "name": "Junkboxes Needed",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   8249
+  ],
+  "level": "",
+  "faction": null,
+  "start": "Winstone Wolfe",
+  "end": "Winstone Wolfe",
+  "previous": "The Manor, Ravenholdt",
+  "next": null,
+  "wiki": "Junkboxes Needed",
+  "chain": []
+ },
+ "summary": "At Ravenholdt Manor, Winstone Wolfe maintains an endless demand for sturdy, locked containers to train the guild's rising rogues. Because the practice locks provided by the manor's own craftsman are too simple for advanced students, Wolfe trades specialized throwing knives to anyone willing to supply authentic heavy junkboxes.",
+ "sections": [
+  {
+   "title": "Sharpening Ravenholdt's Talons",
+   "body": "Within the hidden redoubt of Ravenholdt Manor, nestled in the mountains above Hillsbrad Foothills, training never ceases. Master thief Winstone Wolfe oversees instruction for the guild's operatives, placing high value on practical lockpicking mastery. While Zan provides practice contraptions for new recruits, Wolfe considers that crude work entirely unfit for experienced operatives who must crack real, stubborn mechanisms in the field.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Curiously Open Arrangement",
+   "body": "To keep the manor supplied with real-world mechanisms, Wolfe contracts out for heavy junkboxes swiped from dangerous targets across Azeroth. Though only skilled thieves can lift these boxes from marks in the wild, Wolfe does not restrict his business solely to rogues. Anyone who delivers batches of these locked chests\u2014even if already picked clean of major valuables\u2014earns Wolfe's favor and a supply of the manor's lethally balanced throwing blades, provided a token coin remains inside to motivate the initiates.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Winstone Wolfe want these junkboxes?",
+   "aliases": [
+    "why junkboxes",
+    "junkboxes purpose",
+    "why wolfe wants boxes"
+   ],
+   "answer": "Ravenholdt's apprentice rogues need realistic mechanisms to practice lockpicking. Wolfe finds the practice chests made by the manor's resident craftsman, Zan, far too elementary for anyone past rank beginners, requiring true lockboxes harvested from dangerous marks."
+  },
+  {
+   "q": "Where does this task take place?",
+   "aliases": [
+    "junkboxes needed location",
+    "where is winstone wolfe",
+    "ravenholdt location"
+   ],
+   "answer": "The exchange takes place at Ravenholdt Manor, a secret refuge for the guild of thieves concealed within the mountains north of the Hillsbrad Foothills."
+  },
+  {
+   "q": "Can only rogues turn in this quest?",
+   "aliases": [
+    "is this rogue only",
+    "can anyone do junkboxes needed",
+    "other classes junkboxes"
+   ],
+   "answer": "While the heavy junkboxes themselves are originally procured through the rogue art of pickpocketing, Winstone Wolfe accepts deliveries from anyone capable of bringing them to the manor."
+  },
+  {
+   "q": "Why must there still be coins left inside the boxes?",
+   "aliases": [
+    "why leave coins in box",
+    "do boxes need loot",
+    "empty junkboxes"
+   ],
+   "answer": "Wolfe insists that a few coins remain inside each chest because even rogues in training need practical incentive and tangible reward to spur their lockpicking efforts."
+  },
+  {
+   "q": "What does Ravenholdt offer in exchange?",
+   "aliases": [
+    "junkboxes needed reward",
+    "what does wolfe give",
+    "ravenholdt throwing knives"
+   ],
+   "answer": "Wolfe rewards contributors with guild standing and finely crafted throwing knives, which he sardonically wishes will find a place directly in someone's heart."
+  },
+  {
+   "q": "Who is Zan that Wolfe complains about?",
+   "aliases": [
+    "who is zan",
+    "zan ravenholdt",
+    "zan locks"
+   ],
+   "answer": "Zan is Ravenholdt's in-house locks supplier. Wolfe considers Zan's practice mechanisms crude and suitable only for the rawest neophytes rather than serious operatives."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Sourcing these heavy chests relies entirely on the art of pickpocketing seasoned adversaries, cementing Ravenholdt as the ultimate clearinghouse for a rogue's illicit skills."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though hidden in contested Lordaeron territory, Ravenholdt operates independently, accepting contracts from Alliance wanderers without regard for faction lines."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde operatives who brave the trek into the Hillsbrad mountains find Ravenholdt strictly indifferent to faction loyalties, prizing useful illicit goods above all else."
+  }
+ ],
+ "keywords": [
+  "heavy junkbox",
+  "hillsbrad",
+  "junkboxes",
+  "lockpicking",
+  "pickpocket",
+  "ravenholdt",
+  "winstone wolfe",
+  "zan"
+ ],
+ "related": [
+  "npc:winstone-wolfe",
+  "topic:ravenholdt",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Junkboxes Needed"
+ ]
+}

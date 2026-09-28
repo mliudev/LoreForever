@@ -1,0 +1,86 @@
+{
+ "key": "subzone:circle-of-east-binding",
+ "type": "subzone",
+ "name": "Circle of East Binding",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Circle of East Binding"
+ },
+ "summary": "The Circle of East Binding is a mysterious ancient ritual site situated in the eastern reaches of the Arathi Highlands, just southwest of Hammerfall. Anchored by the Stone of East Binding, the site is violently contested and guarded by roaming water elementals known as cresting exiles.",
+ "sections": [
+  {
+   "title": "The Eastern Ward",
+   "body": "Positioned amidst the rugged highlands east of Stromgarde, the Circle of East Binding is one of several ancient sites of power scattered across the Arathi basin. At its focal point stands the Stone of East Binding, an enigmatic monument radiating potent elemental magic. Swirling water elementals, including cresting exiles, goliaths, and guardians, roam the surrounding earth and fiercely defend the stone against any mortals who dare approach.",
+   "spoiler": 0
+  },
+  {
+   "title": "Elemental Imprisonment",
+   "body": "The stones throughout Arathi are not mere natural anomalies; they function as ancient binding wards intended to suppress and imprison volatile elemental forces. The restless water spirits surrounding the eastern circle betray the strain on these wards, as the entities drawn to or trapped by the stone's magic lash out at travelers and adventurers navigating the nearby road to Hammerfall.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Circle of East Binding located?",
+   "aliases": [
+    "east binding location",
+    "where is circle of east binding",
+    "circle of east binding map"
+   ],
+   "answer": "The Circle of East Binding is located in the eastern region of the Arathi Highlands, south of the main road and slightly southwest of the Horde encampment of Hammerfall."
+  },
+  {
+   "q": "What creatures are found here?",
+   "aliases": [
+    "east binding mobs",
+    "what monsters are at east binding",
+    "cresting exiles"
+   ],
+   "answer": "The circle is overrun by aggressive water elementals, primarily cresting exiles, cresting guardians, and massive cresting goliaths that relentlessly guard the Stone of East Binding."
+  },
+  {
+   "q": "Why are there water elementals in the highlands?",
+   "aliases": [
+    "why water elementals arathi",
+    "east binding elemental lore"
+   ],
+   "answer": "The stones scattered across Arathi serve as ancient elemental bindings. The presence of water elementals here points to the containment or attraction of aqueous elemental energy channeled through the eastern ward stone."
+  },
+  {
+   "q": "What is the purpose of the Stone of East Binding?",
+   "aliases": [
+    "stone of east binding purpose",
+    "what does east binding stone do"
+   ],
+   "answer": "The Stone of East Binding is part of a coordinated network of binding stones throughout the Arathi Highlands designed to anchor, channel, and lock away volatile elemental entities."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The binding stones in Arathi represent crude or ancient methods of elemental suppression, contrasting sharply with a shaman's pursuit of elemental balance and communion."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Lying just down the road from Hammerfall, the volatile water spirits around the circle pose an ongoing territorial nuisance for Horde patrols and supply lines."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "circle of east binding",
+  "cresting exile",
+  "cresting goliath",
+  "cresting guardian",
+  "elementals",
+  "hammerfall",
+  "stone of east binding"
+ ],
+ "related": [
+  "zone:arathi",
+  "subzone:hammerfall"
+ ],
+ "attribution": [
+  "Circle of East Binding"
+ ]
+}

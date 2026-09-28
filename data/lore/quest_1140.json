@@ -1,0 +1,132 @@
+{
+ "key": "quest:1140",
+ "type": "quest",
+ "name": "The Tower of Althalaxx",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   1140
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Delgren the Purifier",
+  "end": "",
+  "previous": "The Tower of Althalaxx (5)",
+  "next": "The Tower of Althalaxx (7)",
+  "wiki": "The Tower of Althalaxx (6)",
+  "chain": []
+ },
+ "summary": "This quest represents the sixth chapter in the crusade against the cultists of the Tower of Althalaxx, directed by Delgren the Purifier from Maestra's Post. Delgren deciphers orcish writings recovered from the cult's emissaries to reveal that the warlock Athrikus Narassin has hidden two trapped Highborne soulgems inside demonic satyr strongholds deep in Ashenvale. Champions are dispatched to Night Run and Satyrnaar to shatter these vessels, freeing the tormented ancient spirits and shattering Athrikus's dark source of power.",
+ "sections": [
+  {
+   "title": "Deciphering the Scribblings",
+   "body": "After cutting down the orcish courier Ilkrud Magthrull, Delgren the Purifier puts his controversial studies of the Orcish tongue to good use. While his peers in the Holy Light often scoffed at learning the language of their adversaries, Delgren's pragmatic insight unravels the cult's clandestine trade. The notes reveal that Athrikus Narassin secured two potent soulgems containing the essences of ancient Highborne, hiding them far to the northeast within the defiled groves of Night Run and Satyrnaar.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unholy Alliances",
+   "body": "The presence of Highborne soulgems inside satyr encampments exposes a foul convergence between Athrikus's dark cabal and the demonic scions of the Burning Legion. Bound above ritual circles of imprisonment, these ancient spirits suffer endless torment to fuel dark spellcraft. Venturing into the blood-soaked altars of the satyr requires confronting not only wild demonic corruption, but the lurking daggers of hidden satyr stalkers sworn to guard these arcane conduits.",
+   "spoiler": 1
+  },
+  {
+   "title": "Weakening Athrikus",
+   "body": "By smashing the crimson stones and liberating the Highborne souls from their circles of agony, adventurers strike a devastating blow to Athrikus's reservoir of mystic strength. Delgren notes that with these soulgems destroyed, the leader of the Althalaxx cult is severely weakened. The deed also leaves the holy crusader unsettled by the night elves' quiet unease regarding the satyrs, prompting him to resolve to bring the lingering demonic blight to the attention of Auberdine's leaders.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Delgren know how to read Orcish?",
+   "aliases": [
+    "delgren reads orc",
+    "how does delgren know orcish",
+    "delgren translation"
+   ],
+   "answer": "Delgren took the initiative to study the language of the orcs, despite being ridiculed by others in his holy order. He believes that understanding an enemy's tongue is vital to gaining tactical insight, which directly allows him to translate the recovered notes from Ilkrud Magthrull."
+  },
+  {
+   "q": "What are the soulgems and why are they held by satyrs?",
+   "aliases": [
+    "althalaxx soulgems",
+    "why do satyrs have the gems",
+    "trapped highborne souls"
+   ],
+   "answer": "The soulgems are crimson focus stones binding the ancient spirits of Highborne elves, suspended over ritual circles of imprisonment. Athrikus Narassin bargained or placed them within satyr sanctuaries like Night Run and Satyrnaar, drawing upon their misery to fuel the cult's arcane power."
+  },
+  {
+   "q": "Where are Night Run and Satyrnaar located?",
+   "aliases": [
+    "where is night run",
+    "where is satyrnaar",
+    "satyr camp locations"
+   ],
+   "answer": "Both locations are demonic satyr strongholds nestled in the forested heights of northeastern Ashenvale, east of Maestra's Post."
+  },
+  {
+   "q": "Why are the night elves reluctant to talk about the satyrs?",
+   "aliases": [
+    "why secretive about satyr",
+    "night elf satyr connection",
+    "satyr history elven"
+   ],
+   "answer": "Delgren notices that his elven hosts avoid discussing the satyrs because the creatures were once night elves themselves. The satyrs were warped into goat-legged fiends during the ancient War of the Ancients after surrendering to demonic corruption, making their existence an enduring source of grief and shame for the Kaldorei."
+  },
+  {
+   "q": "How does freeing these souls help stop the Tower of Althalaxx cult?",
+   "aliases": [
+    "why shatter soulgems",
+    "athrikus power source",
+    "weakening athrikus"
+   ],
+   "answer": "Athrikus Narassin relies heavily on the stolen spiritual energy held within the Highborne soulgems. Shattering the floating gems and releasing the trapped ghosts starves his rituals of power, leaving him vulnerable to a direct assault at the tower."
+  },
+  {
+   "q": "Who is Elissa that Delgren mentions speaking to?",
+   "aliases": [
+    "elissa auberdine",
+    "who is elissa",
+    "delgren elissa"
+   ],
+   "answer": "Elissa Starbreeze is a prominent night elf priestess stationed in Auberdine who coordinates local defenses in Darkshore. Delgren plans to confer with her regarding the entrenched satyr infestation threatening northern Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Delgren the Purifier reflects a pragmatic brand of holy crusader, using the language of his foes to unearth demonic corruption and cleanse the tormented dead."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Liberating Highborne ancestors from satyr desecration is a solemn duty, confronting the tragic remnants of your people's ancient past."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Shattering the circles of imprisonment brings peace to anguished spirits suffering centuries of demonic torment."
+  }
+ ],
+ "keywords": [
+  "althalaxx",
+  "ashenvale",
+  "athrikus",
+  "delgren",
+  "highborne",
+  "maestra's post",
+  "night run",
+  "satyrnaar",
+  "soulgems"
+ ],
+ "related": [
+  "npc:delgren-the-purifier",
+  "subzone:maestra-s-post",
+  "subzone:night-run",
+  "subzone:satyrnaar",
+  "topic:highborne",
+  "topic:satyr",
+  "zone:ashenvale",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "The Tower of Althalaxx (6)"
+ ]
+}

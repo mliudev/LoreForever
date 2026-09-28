@@ -1,0 +1,132 @@
+{
+ "key": "quest:5728",
+ "type": "quest",
+ "name": "Hidden Enemies",
+ "era": "classic",
+ "zone": "ragefire",
+ "meta": {
+  "ids": [
+   5728
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Thrall",
+  "end": "",
+  "previous": "Hidden Enemies (2)",
+  "next": "Hidden Enemies (4)",
+  "wiki": "Hidden Enemies (3)",
+  "chain": []
+ },
+ "summary": "Hidden Enemies is a pivotal infiltration task assigned by Warchief Thrall to eliminate the insidious cult flourishing beneath Orgrimmar. Having tricked the treacherous Neeru Fireblade into thinking you are an ally, Thrall sends you into the molten depths of Ragefire Chasm to assassinate the Searing Blade's top commanders.",
+ "sections": [
+  {
+   "title": "A Cancer Beneath the Streets",
+   "body": "Orgrimmar was built as a haven for a free Orcish race, yet its very foundations harbor old demonic shackles. Beneath the bustling markets lies the Cleft of Shadow, leading further down into the subterranean tunnels of Ragefire Chasm. Within these volcanic depths, remnants of the Shadow Council known as the Searing Blade gather strength, practicing dark arts and scheming to usurp the young Horde from within its own capital.",
+   "spoiler": 0
+  },
+  {
+   "title": "Playing the Double Agent",
+   "body": "Direct assault without intelligence would leave the Shadow Council's network intact. Thrall orchestrated an undercover gambit, using you to bait out information from Neeru Fireblade, a seemingly cooperative warlock in the Cleft of Shadow. Convinced of your loyalty to their twisted cause, Neeru unwittingly surrendered the names of the cult's underground leadership: the corrupt satyr Bazzalan and the warlock Jergosh the Invoker.",
+   "spoiler": 1
+  },
+  {
+   "title": "Decapitating the Searing Blade",
+   "body": "Thrall tasks you with descending into Ragefire Chasm to butcher Bazzalan and Jergosh, plunging the cultists into chaos. Crucially, the hits must remain deniable\u2014Neeru cannot discover who carried out the slaughter, as Thrall intends to keep the warlock under watchful observation. Eliminating these ringleaders sends shockwaves through the cult, buying precious breathing room for the Horde's fledgling city.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who orders the hit in Hidden Enemies?",
+   "aliases": [
+    "who gives hidden enemies",
+    "hidden enemies quest giver",
+    "thrall ragefire quest"
+   ],
+   "answer": "Warchief Thrall directly commands this mission from the Valley of Wisdom in Orgrimmar, choosing to trust you with sensitive espionage to secure the city's underbelly."
+  },
+  {
+   "q": "Why doesn't Thrall just execute Neeru Fireblade?",
+   "aliases": [
+    "why not kill neeru",
+    "why keep neeru alive",
+    "neeru fireblade traitor"
+   ],
+   "answer": "Thrall prefers keeping Neeru alive under surveillance. Knowing who the traitor is allows the Warchief's scouts to monitor the Shadow Council's communications and anticipate future plots rather than letting a hidden replacement take his place."
+  },
+  {
+   "q": "Where are Bazzalan and Jergosh the Invoker located?",
+   "aliases": [
+    "where is bazzalan",
+    "where is jergosh",
+    "ragefire chasm bosses"
+   ],
+   "answer": "Both leaders reside deep within Ragefire Chasm, the dungeon accessible through the Cleft of Shadow in Orgrimmar. Jergosh occupies a volcanic ledge commanding the cultists, while the satyr Bazzalan lurks in an elevated cavern nearby."
+  },
+  {
+   "q": "Who are the Searing Blade?",
+   "aliases": [
+    "what is searing blade",
+    "searing blade cult",
+    "burning blade orgrimmar"
+   ],
+   "answer": "The Searing Blade is a local sect aligned with the Burning Blade and Shadow Council. They worship demonic powers, practicing fel magic beneath Orgrimmar with the ultimate goal of overthrowing Thrall and enslaving the Horde anew."
+  },
+  {
+   "q": "Why is a satyr like Bazzalan working beneath an Orc city?",
+   "aliases": [
+    "why is there a satyr in orgrimmar",
+    "bazzalan lore",
+    "satyr in ragefire"
+   ],
+   "answer": "Satyrs are ancient servants of the Burning Legion. Bazzalan serves as a demonic handler and instigator, guiding the mortal cultists of the Searing Blade to execute the Legion's will directly under Thrall's feet."
+  },
+  {
+   "q": "How does this quest fit into the broader Ragefire Chasm run?",
+   "aliases": [
+    "is hidden enemies ragefire",
+    "rfc quest line",
+    "hidden enemies chain"
+   ],
+   "answer": "Hidden Enemies is the climax of Thrall's infiltration chain. It aligns with multiple other dungeon quests targeting Ragefire Chasm, directing players to execute the dungeon's primary humanoid bosses in a single coordinated strike."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Demonic corruption within the heart of Durotar threatens everything the new Horde fought to establish; cleansing Ragefire Chasm is vital to preserving their hard-won autonomy."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs seeking redemption from the blood-haze, eradicating the Shadow Council's remnants beneath Orgrimmar is a matter of profound cultural survival and honor."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "While Thrall tolerates warlocks practicing dark arts for the defense of the Horde, Jergosh and the Searing Blade cross into treasonous servitude of demonic masters."
+  }
+ ],
+ "keywords": [
+  "bazzalan",
+  "cleft of shadow",
+  "hidden enemies",
+  "jergosh the invoker",
+  "neeru fireblade",
+  "ragefire chasm",
+  "searing blade",
+  "shadow council",
+  "thrall"
+ ],
+ "related": [
+  "npc:thrall",
+  "quest:5726",
+  "zone:ragefire",
+  "quest:829",
+  "npc:bazzalan",
+  "npc:jergosh-the-invoker",
+  "topic:shadow-council",
+  "subzone:cleft-of-shadow"
+ ],
+ "attribution": [
+  "Hidden Enemies (3)"
+ ]
+}

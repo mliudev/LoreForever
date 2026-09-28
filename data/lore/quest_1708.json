@@ -1,0 +1,125 @@
+{
+ "key": "quest:1708",
+ "type": "quest",
+ "name": "Iron Coral",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   1708
+  ],
+  "level": "29",
+  "faction": "Alliance",
+  "start": "Klockmort Spannerspan",
+  "end": "",
+  "previous": "Klockmort Spannerspan (quest)",
+  "next": "Klockmort's Creation",
+  "wiki": "Iron Coral (quest)",
+  "chain": []
+ },
+ "summary": "Iron Coral is an Alliance quest given by the gnome engineer Klockmort Spannerspan in Tinker Town, Ironforge. Eager to test newly shared smithing methods on a custom suit of armor, Klockmort sends you to dive for rare searing coral along the coast of the Wetlands. Completing his request allows him to fuse gnomish ingenuity with dwarven craftsmanship.",
+ "sections": [
+  {
+   "title": "A Fusion of Crafts",
+   "body": "After exchanging insights with the master dwarven smith Furen Longbeard, Klockmort Spannerspan is bursting with inspiration. The eccentric gnome engineer wants to combine Furen's metallurgy with his own tinkering ideas to craft an exceptionally resilient suit of armor. To pull off this daring metallurgical experiment, standard mountain ores will not suffice; Klockmort requires an unusual, naturally hardened marine element known as searing coral.",
+   "spoiler": 0
+  },
+  {
+   "title": "Diving the Wetlands Shore",
+   "body": "Searing coral is a volatile, tough oceanic deposit found in only one specific region: submerged off the coast south of Menethil Harbor in the Wetlands. Retrieving twenty clusters means wading through treacherous marshland waters, braving native aquatic predators, and hauling the dripping harvests back to Ironforge. For Klockmort, however, the prize is well worth the damp excursion, as he intends to smelt and hammer the coral directly into his experimental plating.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Klockmort Spannerspan?",
+   "aliases": [
+    "klockmort",
+    "who gives iron coral",
+    "quest giver iron coral"
+   ],
+   "answer": "Klockmort Spannerspan is a skilled gnome engineer residing in Tinker Town within the mountain city of Ironforge. Passionate about mechanical tinkering and cutting-edge metallurgy, he collaborates closely with dwarven artisans to invent new armor-crafting methods."
+  },
+  {
+   "q": "What is searing coral?",
+   "aliases": [
+    "searing coral lore",
+    "what is searing coral used for"
+   ],
+   "answer": "Searing coral is a rare oceanic growth harvested from the seabed south of Menethil Harbor in the Wetlands. It possesses unique chemical and physical qualities that allow an inventive artisan to smelt and hammer it into heavy plate reinforcement."
+  },
+  {
+   "q": "Where do I find the searing coral?",
+   "aliases": [
+    "searing coral location",
+    "where is iron coral located",
+    "wetlands coral location"
+   ],
+   "answer": "The coral beds grow exclusively underwater along the ocean shoreline situated directly south of Menethil Harbor in the Wetlands. Divers must look beneath the waves to pry the mineral-rich branches loose."
+  },
+  {
+   "q": "Why does Klockmort need searing coral instead of metal ore?",
+   "aliases": [
+    "why coral for armor",
+    "coral metallurgy"
+   ],
+   "answer": "Klockmort is attempting to innovate upon the smithing techniques he learned from the dwarf Furen Longbeard. Rather than relying solely on traditional Ironforge ores, he hopes the unusual properties of searing coral will yield a lighter, significantly more durable finish when smelted."
+  },
+  {
+   "q": "How is Furen Longbeard involved in this task?",
+   "aliases": [
+    "furen connection",
+    "furen longbeard iron coral"
+   ],
+   "answer": "Furen Longbeard previously developed new armor-crafting techniques with your assistance. Grateful for the aid, Furen shared his trade secrets with Klockmort, inspiring the gnome to adapt them into his own protective inventions."
+  },
+  {
+   "q": "What happens after bringing the coral to Klockmort?",
+   "aliases": [
+    "iron coral follow up",
+    "next quest iron coral"
+   ],
+   "answer": "Once supplied with twenty loads of searing coral, Klockmort immediately sets to work smelting and hammering the substance at his workbench, leading directly to the unveiling of his experimental gear in the quest Klockmort's Creation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Klockmort's pursuit of strange coastal minerals over standard mined iron reflects typical gnomish inventiveness, always striving to improve upon traditional craftsmanship through experimentation."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The experiment is born directly from the metallurgic discoveries of the Ironforge master smith Furen Longbeard, showing the close collaboration between gnomes and dwarves in Tinker Town."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Blacksmiths will appreciate the unconventional smelting technique Klockmort attempts, turning harvested oceanic deposits into hardened plating for personal armor."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The quest showcases the tinkering philosophy of testing wild material properties to achieve superior defensive utility."
+  }
+ ],
+ "keywords": [
+  "armor smelting",
+  "furen longbeard",
+  "iron coral",
+  "ironforge",
+  "klockmort spannerspan",
+  "menethil harbor",
+  "searing coral",
+  "tinker town",
+  "wetlands"
+ ],
+ "related": [
+  "quest:1704",
+  "quest:1709",
+  "npc:furen-longbeard",
+  "zone:ironforge",
+  "zone:wetlands",
+  "subzone:menethil-harbor"
+ ],
+ "attribution": [
+  "Iron Coral (quest)"
+ ]
+}

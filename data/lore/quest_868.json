@@ -1,0 +1,117 @@
+{
+ "key": "quest:868",
+ "type": "quest",
+ "name": "Egg Hunt",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   868
+  ],
+  "level": "22",
+  "faction": "Horde",
+  "start": "Korran",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Egg Hunt (Classic)",
+  "chain": []
+ },
+ "summary": "Egg Hunt is a Horde task assigned by the scholar Korran at the Crossroads. Disturbed by the emergence of intelligent, insectoid creatures in the southern Barrens, Korran recruits adventurers to excavate intact silithid eggs from the mounds in the Field of Giants for study in Orgrimmar.",
+ "sections": [
+  {
+   "title": "Eyes in the Crossroads",
+   "body": "Stationed at the dusty crossroads of the central savannah, the troll Korran serves as an observer reporting back to masters in Orgrimmar. While tribal conflicts and Alliance incursions occupy the Horde military, Korran pays attention to strange disturbances across the ecosystem. Chief among these oddities is the emergence of alien, hive-minded insectoids burrowing into the southern reaches of the Barrens.",
+   "spoiler": 0
+  },
+  {
+   "title": "Excavating the Swarm",
+   "body": "To learn where these insect creatures come from and what drives them, Korran requires biological samples before they mature. Armed with an excavation claw, adventurers head down to the Field of Giants to harvest eggs straight from the silithid dirt mounds. Disturbing these brooding pods triggers frantic defense from the surrounding brood, hinting at the unnatural intelligence and shared will uniting the swarm.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the Egg Hunt quest?",
+   "aliases": [
+    "quest giver",
+    "korran location",
+    "who starts egg hunt"
+   ],
+   "answer": "Korran gives the quest at the Crossroads in the Barrens. He is a troll observer studying the flora, fauna, and emerging anomalies of the region on behalf of patrons in Orgrimmar."
+  },
+  {
+   "q": "Where are the silithid eggs found?",
+   "aliases": [
+    "egg location",
+    "where to find eggs",
+    "field of giants eggs"
+   ],
+   "answer": "The eggs are located inside silithid dirt mounds within the Field of Giants, situated in the southern half of the Barrens. The mounds cluster around the hive tunnels burrowed into the landscape."
+  },
+  {
+   "q": "What tool is needed to collect the eggs?",
+   "aliases": [
+    "digging tool",
+    "digging claw",
+    "how to get eggs"
+   ],
+   "answer": "Korran provides a sturdy Digging Claw to carefully scoop out intact eggs without crushing their fragile shells. The tool must be returned along with twelve undamaged eggs."
+  },
+  {
+   "q": "What makes these insects different from typical beasts?",
+   "aliases": [
+    "why are silithid special",
+    "insect intelligence",
+    "silithid nature"
+   ],
+   "answer": "Unlike simple vermin or local wildlife, these creatures display an eerie coordination and high cunning. Korran notes that they exhibit intelligence far beyond ordinary animals, suggesting a unified hive purpose."
+  },
+  {
+   "q": "Why does Orgrimmar want silithid eggs?",
+   "aliases": [
+    "orgrimmar silithid study",
+    "why study eggs",
+    "korran purpose"
+   ],
+   "answer": "The leadership in Orgrimmar wants early intelligence on unknown threats taking root near Horde borders. Studying the eggs helps researchers understand the creatures' growth cycle, strengths, and underlying biology before the infestation spreads."
+  },
+  {
+   "q": "What happens when you disturb an egg mound?",
+   "aliases": [
+    "mound ambush",
+    "silithid defenders"
+   ],
+   "answer": "Touching the nesting mounds agitates the surrounding swarm. Nearby silithid immediately react to protect the brood, ambushing anyone caught raiding the nest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Horde relies on scouts like Korran to watch the desolate stretches of Kalimdor, ensuring strange ecological threats are analyzed before they endanger Durotar and Mulgore."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Trolls familiar with primeval creatures recognize that the silithid are no mere bugs, sharing Korran's wariness of beasts with an unnatural, calculating mind."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "digging claw",
+  "egg hunt",
+  "field of giants",
+  "korran",
+  "silithid"
+ ],
+ "related": [
+  "npc:korran",
+  "subzone:field-of-giants",
+  "subzone:crossroads",
+  "zone:barrens",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Egg Hunt (Classic)"
+ ]
+}

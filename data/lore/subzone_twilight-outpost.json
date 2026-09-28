@@ -1,0 +1,90 @@
+{
+ "key": "subzone:twilight-outpost",
+ "type": "subzone",
+ "name": "Twilight Outpost",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Twilight Outpost"
+ },
+ "summary": "The Twilight Outpost is a fortified encampment of the Twilight's Hammer cult nestled in the southwestern sands of Silithus. Located just northwest of the ancient Scarab Wall, it serves as a staging ground where cultists conduct dark rituals to commune with and summon elemental horrors.",
+ "sections": [
+  {
+   "title": "A Bastion of Whispers",
+   "body": "Tucked away in the southwestern reaches of Silithus, the Twilight Outpost serves as one of several major cultist strongholds dotting the desert wastes. Positioned in the shadow of the colossal Scarab Wall and west of the Bronzebeard Encampment, the outpost teems with fanatical Twilight Avengers, Geolords, and Stonecallers. Under the command of leaders like Twilight Keeper Exeter and the rare Twilight Lord Everun, these zealots toil tirelessly in service of their maddening apocalyptic masters.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Wind Stones",
+   "body": "Scattered throughout the encampment are mysterious Wind Stones, varying in size from Lesser to Greater conduits. Through the use of enchanted cultist regalia and foul incantations, the cult utilizes these monoliths to tear into the elemental planes, dragging forth Abyssal commanders and elemental lords. For adventurers brave enough to infiltrate their ranks, disrupting these summonings remains one of the primary means to strike back against the cult's influence in the desert.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Twilight Outpost located?",
+   "aliases": [
+    "twilight outpost location",
+    "where is twilight outpost",
+    "find twilight outpost"
+   ],
+   "answer": "The Twilight Outpost is situated in the far southwestern corner of Silithus. It sits northwest of the ancient Scarab Wall and directly west of the dwarven Bronzebeard Encampment."
+  },
+  {
+   "q": "Who occupies the Twilight Outpost?",
+   "aliases": [
+    "who is at twilight outpost",
+    "twilight outpost enemies",
+    "cultists in silithus"
+   ],
+   "answer": "The encampment is occupied by the Twilight's Hammer cult. Its ranks include various mortal zealots such as Twilight Avengers, Geolords, Stonecallers, and Twilight Masters, overseen by leaders such as Twilight Keeper Exeter and Twilight Lord Everun."
+  },
+  {
+   "q": "What are the Wind Stones found in the camp?",
+   "aliases": [
+    "what are wind stones",
+    "greater wind stone silithus",
+    "lesser wind stone silithus"
+   ],
+   "answer": "The Wind Stones\u2014ranging from Lesser to Greater\u2014are mystical foci used by the cult to breach the elemental planes. Cultists channel dark energies through these stones to summon potent elemental lords and Abyssal commanders into Azeroth."
+  },
+  {
+   "q": "Why is the Twilight's Hammer gathered near the Scarab Wall?",
+   "aliases": [
+    "why are cultists in silithus",
+    "twilight hammer purpose silithus"
+   ],
+   "answer": "The cult is drawn to the potent and ancient dark energies slumbering beneath Silithus. Establishing encampments near the Scarab Wall allows them to perform elemental summonings and harness the chaotic forces stirring beyond the sealed gates."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The Twilight's Hammer corrupts and commands elemental spirits through their Wind Stones, defying the natural balance of the elements that shamans strive to preserve."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The nihilistic zealotry of the Twilight's Hammer stands as an affront to the Light, demanding holy wrath to cleanse their foul summonings from the desert."
+  }
+ ],
+ "keywords": [
+  "bronzebeard encampment",
+  "scarab wall",
+  "silithus",
+  "twilight keeper exeter",
+  "twilight lord everun",
+  "twilight outpost",
+  "twilight's hammer",
+  "wind stone"
+ ],
+ "related": [
+  "zone:silithus",
+  "topic:twilight-s-hammer",
+  "subzone:scarab-wall",
+  "subzone:bronzebeard-encampment",
+  "topic:light"
+ ],
+ "attribution": [
+  "Twilight Outpost"
+ ]
+}

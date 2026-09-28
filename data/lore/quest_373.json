@@ -1,0 +1,125 @@
+{
+ "key": "quest:373",
+ "type": "quest",
+ "name": "The Unsent Letter",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   373
+  ],
+  "level": "22",
+  "faction": "Alliance",
+  "start": ":An Unsent Letter",
+  "end": "Baros Alexston",
+  "previous": null,
+  "next": "Bazil Thredd (quest)",
+  "wiki": "The Unsent Letter",
+  "chain": []
+ },
+ "summary": "Found upon the corpse of Edwin VanCleef deep within the Deadmines, this sealed missive is addressed to Baros Alexston, the City Architect of Stormwind. Its delivery pulls back the curtain on the personal grievances and history binding the Defias leader to the city's master builders.",
+ "sections": [
+  {
+   "title": "A Message From the Grave",
+   "body": "When Edwin VanCleef falls aboard his juggernaut in the subterranean depths of Moonbrook, he leaves behind more than a broken rebellion. Tucked into his clothing is a newly penned, sealed letter. Strangely, the Defias kingpin did not address it to one of his criminal lieutenants or shadowy financiers, but to an official inside the heart of the kingdom he swore to destroy: Baros Alexston, Stormwind's City Architect.",
+   "spoiler": 0
+  },
+  {
+   "title": "Architects of Old",
+   "body": "Carrying the correspondence to City Hall in Cathedral Square reveals a shared past between the architect and the outlaw. Alexston, once a peer of VanCleef during the ambitious reconstruction of Stormwind following the Second War, reacts with disbelief at the news of Edwin's death. Though horrified by the bandit leader's descent into indiscriminate violence, Alexston acknowledges the root of his bitter crusade: VanCleef was an uncompromising idealist consumed by betrayal, one whose rightful grievance morphed into destructive madness.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find the Unsent Letter?",
+   "aliases": [
+    "unsent letter drop",
+    "how to get unsent letter",
+    "who drops unsent letter"
+   ],
+   "answer": "The item An Unsent Letter drops from Edwin VanCleef, the final boss found aboard the ironclad ship within the Deadmines instance in Westfall."
+  },
+  {
+   "q": "Who is Baros Alexston?",
+   "aliases": [
+    "baros alexston location",
+    "where is baros alexston",
+    "city architect stormwind"
+   ],
+   "answer": "Baros Alexston is the City Architect of Stormwind. He resides in the City Hall building, located along the northeast edge of Cathedral Square."
+  },
+  {
+   "q": "Why was Edwin VanCleef writing to the City Architect?",
+   "aliases": [
+    "why write baros",
+    "vancleef and baros relationship",
+    "letter to architect"
+   ],
+   "answer": "VanCleef and Alexston were fellow stonemasons who worked together rebuilding Stormwind after the Second War. Even after turning to banditry, VanCleef still viewed Alexston as a former peer connected to the work and betrayal of the Stonemasons Guild."
+  },
+  {
+   "q": "What does the letter reveal about VanCleef?",
+   "aliases": [
+    "vancleef motive",
+    "what does the letter say",
+    "letter lore"
+   ],
+   "answer": "Upon reading it, Alexston notes that VanCleef remained an idealist and a romantic to the end, but one thoroughly poisoned by vengeance. VanCleef believed his violent war against the kingdom was entirely justified by the ruling nobility's refusal to pay the masons."
+  },
+  {
+   "q": "Do I need to finish the main Defias Brotherhood chain before turning this in?",
+   "aliases": [
+    "quest prerequisite",
+    "can i do unsent letter early",
+    "do i need defias chain"
+   ],
+   "answer": "No. While the extended Defias Brotherhood questline leads directly to VanCleef, the Unsent Letter can be looted and completed by any Alliance adventurer who defeats him, regardless of prior quest progression."
+  },
+  {
+   "q": "Where does this questline lead next?",
+   "aliases": [
+    "next quest after unsent letter",
+    "lescovar chain",
+    "what follows baros alexston"
+   ],
+   "answer": "Delivering the letter prompts Alexston to direct you toward the Stockade to interrogate an imprisoned Defias leader, Bazil Thredd, beginning an investigation into conspirators within Stormwind's own government."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, this letter exposes the lingering wounds of the kingdom's reconstruction, proving that the banditry plaguing Westfall was born directly out of political betrayals within their own capital."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "VanCleef was legendary among rogues for his skill as a peerless fighter and organizer; recovering his private correspondence offers a stark look at how easily an operative's discipline can curdle into suicidal obsession."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Delivering the letter provides crucial evidence that the Defias threat is not merely a regional outlaw uprising, but a targeted vendetta with deep ties to Stormwind's civic administration."
+  }
+ ],
+ "keywords": [
+  "baros alexston",
+  "cathedral square",
+  "city hall",
+  "deadmines",
+  "defias",
+  "edwin vancleef",
+  "stonemasons",
+  "unsent letter"
+ ],
+ "related": [
+  "npc:baros-alexston",
+  "npc:edwin-vancleef",
+  "topic:defias-brotherhood",
+  "quest:65",
+  "subzone:cathedral-square",
+  "zone:deadmines",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "The Unsent Letter"
+ ]
+}

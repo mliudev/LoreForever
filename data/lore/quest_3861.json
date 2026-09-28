@@ -1,0 +1,118 @@
+{
+ "key": "quest:3861",
+ "type": "quest",
+ "name": "CLUCK!",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   3861
+  ],
+  "level": "",
+  "faction": "Neutral",
+  "start": "Chicken",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "CLUCK!",
+  "chain": []
+ },
+ "summary": "CLUCK! is an unusual, secretive interaction that allows an adventurer to gain the trust of ordinary barnyard poultry. By mimicking chicken calls and providing the proper grain, travelers can receive a prize egg to hatch a feathered companion of their own.",
+ "sections": [
+  {
+   "title": "A Strange Communion",
+   "body": "While most travelers pay little mind to the simple chickens wandering the farmsteads of Azeroth, these birds hold a surprisingly perceptive nature. If an adventurer stoops to mimic their gestures and clucking long enough, the chicken ceases its mindless pecking and regards the mortal with uncanny interest. In that brief moment of connection, the bird scratches letters in the dirt, hinting at its hunger and directing the curious toward the proper farmer who can feed it.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Farmer's Feed",
+   "body": "Satisfying the bird's cryptic request requires acquiring Special Chicken Feed. In Westfall, the Saldean family keeps such grain on hand for their flock. Presenting this specialized feed and offering enthusiastic encouragement causes the bird to eagerly peck down the meal. In exchange, the chicken produces a warm, freshly laid egg that can be nurtured into a loyal companion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How does a chicken offer a quest?",
+   "aliases": [
+    "chicken quest start",
+    "how to talk to chicken",
+    "cluck quest unlock"
+   ],
+   "answer": "If you mimic the bird by using chicken or flapping gestures repeatedly in front of it, it will eventually pause and inspect you curiously. At that point, the chicken becomes responsive and communicates its hunger by scratching a name into the dirt."
+  },
+  {
+   "q": "What does the chicken spell out in the dirt?",
+   "aliases": [
+    "chicken scratch words",
+    "what does the chicken write",
+    "saldean chicken"
+   ],
+   "answer": "The chicken scratches out the letters 'S-A-L-D-E-A-N' into the soil before wandering off. This points the traveler toward Farmer Saldean and his wife at the Saldean Farm in central Westfall, who sell the specialized grain the bird craves."
+  },
+  {
+   "q": "Where do you get the Special Chicken Feed?",
+   "aliases": [
+    "chicken feed vendor",
+    "where to buy chicken feed",
+    "saldean feed"
+   ],
+   "answer": "In Westfall, Farmer Saldean stocks Special Chicken Feed at the Saldean Farmstead. Across the sea in the Tirisfal Glades, a vendor in the town of Brill also sells the grain."
+  },
+  {
+   "q": "Can you do this with any chicken in the world?",
+   "aliases": [
+    "which chickens work",
+    "does any chicken work",
+    "where to find chicken"
+   ],
+   "answer": "Any standard barnyard chicken found throughout settled lands can respond to the gesture, though they are most commonly encountered around human farmlands such as those in Westfall."
+  },
+  {
+   "q": "How do you complete the quest once you have the feed?",
+   "aliases": [
+    "how to turn in cluck",
+    "feed chicken egg",
+    "cluck quest hand in"
+   ],
+   "answer": "Find a chicken while carrying the Special Chicken Feed and cheer at it enthusiastically. The chicken will look at you expectantly, accept the feed, and lay an egg underneath itself that you can collect."
+  },
+  {
+   "q": "What do you get for finishing the quest?",
+   "aliases": [
+    "cluck quest reward",
+    "chicken egg pet",
+    "westfall chicken reward"
+   ],
+   "answer": "The fed chicken lays a Farm Chicken Egg at its feet. Looting this egg grants a Chicken Egg item, which allows you to summon your own faithful Westfall chicken to follow you on your adventures."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The quest revolves around the Saldean Farmstead in Westfall, making this bizarre feathered ritual a staple tale among young Alliance adventurers exploring the battered rural kingdom."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "The Special Chicken Feed required by the fowl is entirely edible, though most cooks prefer to save the coarse grain for the birds rather than snack on it themselves."
+  }
+ ],
+ "keywords": [
+  "chicken",
+  "chicken egg",
+  "cluck",
+  "poultry",
+  "saldean",
+  "saldean farm",
+  "special chicken feed",
+  "westfall chicken"
+ ],
+ "related": [
+  "zone:westfall",
+  "subzone:brill",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "CLUCK!"
+ ]
+}

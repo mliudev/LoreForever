@@ -1,0 +1,123 @@
+{
+ "key": "quest:556",
+ "type": "quest",
+ "name": "Stone Tokens",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   556
+  ],
+  "level": "32",
+  "faction": "Horde",
+  "start": "Keeper Bel'varil",
+  "end": "",
+  "previous": null,
+  "next": "Bracers of Binding",
+  "wiki": "Stone Tokens",
+  "chain": [
+   "Stone Tokens",
+   "Bracers of Binding"
+  ]
+ },
+ "summary": "Stone Tokens is a Horde assignment issued by Keeper Bel'varil in Tarren Mill to retrieve magical binding artifacts from Dalaran agents in the Alterac region. The Forsaken seek to study the arcane methods Dalaran's mages use to enslave and command powerful elementals. Gathering these inert tokens serves as the foundation for the Magus's research into elemental subjugation.",
+ "sections": [
+  {
+   "title": "Arcane Subjugation",
+   "body": "The magi of Dalaran have long possessed a formidable command over elemental entities, using specialized conduits and enchanted foci to bind creatures from other dimensions into servitude. While the city itself lies shrouded under a massive violet dome, its agents and remnant forces patrol the surrounding territory, relying on elementals as laborers and defensive shock troops. Magus Voidglare, an arcane researcher working on behalf of the Forsaken in Tarren Mill, seeks to dissect the precise sorcery Dalaran uses to compel these entities into obedience.",
+   "spoiler": 0
+  },
+  {
+   "title": "Inert Specimen Gathering",
+   "body": "Rather than demanding potent and volatile magical instruments right away, Keeper Bel'varil directs agents to secure worn and faded tokens. By gathering these exhausted charms from Dalaran personnel stationed around the outskirts and the nearby internment camp, Voidglare can safely analyze the lingering enchantments without risking uncontrolled planar backlash. These weathered tokens provide the baseline theoretical knowledge needed before testing more potent binding mechanisms.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the stone tokens used for?",
+   "aliases": [
+    "stone token purpose",
+    "why do dalaran wizards have stone tokens",
+    "what do the tokens do"
+   ],
+   "answer": "The wizards of Dalaran craft and carry these stone tokens as magical foci to command and subjugate elementals, forcing creatures from other dimensions to serve as guards, sentries, and laborers."
+  },
+  {
+   "q": "Why does Magus Voidglare want worn tokens specifically?",
+   "aliases": [
+    "why worn stone tokens",
+    "why not active tokens"
+   ],
+   "answer": "Worn stone tokens retain the foundational magical matrix of Dalaran's binding spells while having faded in active arcane power. This makes them far safer for Magus Voidglare to dissect and study without risking violent elemental retaliation or explosive magical feedback during his initial experiments."
+  },
+  {
+   "q": "Who is Keeper Bel'varil?",
+   "aliases": [
+    "belvaril",
+    "who gives stone tokens quest"
+   ],
+   "answer": "Keeper Bel'varil is a Forsaken questgiver stationed at Tarren Mill in the Hillsbrad Foothills. He oversees tactical operations against human forces in the region and assists researchers like Magus Voidglare by procuring magical artifacts and hostile reagents from nearby territories."
+  },
+  {
+   "q": "Where are the Dalaran forces holding these tokens?",
+   "aliases": [
+    "where to find stone tokens",
+    "dalaran forces location"
+   ],
+   "answer": "The tokens are carried by Dalaran wizards and their personnel occupying the frontier borders between western Hillsbrad and the Alterac Mountains, particularly near the Dalaran bubble and the nearby ruins of the old orc internment camp."
+  },
+  {
+   "q": "What happens after these tokens are delivered?",
+   "aliases": [
+    "what comes after stone tokens",
+    "stone tokens follow up"
+   ],
+   "answer": "Once Bel'varil inspects the inert specimens, Magus Voidglare advances his research from theoretical study to physical containment, commissioning the procurement of heavier Bracers of Binding directly from the elementals themselves."
+  },
+  {
+   "q": "Why is the Horde studying Dalaran's magic?",
+   "aliases": [
+    "why horde wants dalaran magic",
+    "forsaken dalaran interest"
+   ],
+   "answer": "The Forsaken view the surviving mages of Dalaran as a direct territorial and magical threat in the Lordaeron region. Deciphering their arcane methods allows Forsaken spellcasters to counter Kirin Tor operations, protect their borders, and potentially turn elemental forces to their own advantage."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Dalaran's conjurers are renowned for binding elementals to their will; examining these tokens reveals how human magi tether extraplanar spirits to material foci."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken of Tarren Mill, unraveling Dalaran's arcane secrets is vital to securing Lordaeron from human sorcerers lurking just beyond the violet dome."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "While shaman revere elementals through reciprocal pacts, Dalaran's wizards use arcane tokens to dominate and enslave them, a practice antithetical to spiritual harmony."
+  }
+ ],
+ "keywords": [
+  "alterac mountains",
+  "binding",
+  "dalaran",
+  "elementals",
+  "hillsbrad foothills",
+  "keeper bel'varil",
+  "magus voidglare",
+  "stone tokens",
+  "tarren mill",
+  "worn stone token"
+ ],
+ "related": [
+  "npc:keeper-bel-varil",
+  "subzone:tarren-mill",
+  "subzone:dalaran",
+  "zone:hillsbrad",
+  "zone:alterac"
+ ],
+ "attribution": [
+  "Stone Tokens"
+ ]
+}

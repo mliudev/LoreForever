@@ -1,0 +1,85 @@
+{
+ "key": "npc:elder-goldwell",
+ "type": "npc",
+ "name": "Elder Goldwell",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Elder Goldwell",
+  "refs": 1
+ },
+ "summary": "Elder Goldwell is an ancient earthen spirit lingering near the dwarven settlement of Kharanos in Dun Morogh. Appearing during the Lunar Festival, this revered ancestor represents the forgotten origins of modern dwarven civilization.",
+ "sections": [
+  {
+   "title": "A Spirit of the Earthen",
+   "body": "Elder Goldwell manifests as a translucent earthen spirit, watching over the snowy slopes of Kharanos. Unlike modern mortal dwarves of flesh and bone, his stony form echoes the ancient Titan-forged race from which the Bronzebeard clan descended. Honoring him during seasonal ancestor celebrations grants wandering travelers his blessing and a token of ancestral coin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Elder Goldwell?",
+   "aliases": [
+    "elder goldwell identity",
+    "who is goldwell",
+    "goldwell lore"
+   ],
+   "answer": "Elder Goldwell is an earthen ancestor spirit found in Dun Morogh. He visits Kharanos during seasonal ancestor observances so that modern travelers can pay their respects to the ancestors of dwarvenkind."
+  },
+  {
+   "q": "Where is Elder Goldwell located?",
+   "aliases": [
+    "elder goldwell location",
+    "where to find elder goldwell",
+    "find goldwell"
+   ],
+   "answer": "He can be found standing outside the dwarven town of Kharanos in Dun Morogh, usually near the local inn and gathering areas."
+  },
+  {
+   "q": "Why does Elder Goldwell look like an earthen rather than a dwarf?",
+   "aliases": [
+    "why is goldwell earthen",
+    "is goldwell an earthen",
+    "goldwell rock dwarf"
+   ],
+   "answer": "Dwarves trace their ancestry back to the stone-skinned earthen created by the Titans. As one of the most ancient spirits honoring past generations, Goldwell retains the original earthen visage rather than the mortal flesh of living dwarves."
+  },
+  {
+   "q": "Is Elder Goldwell tied to the Bronzebeard clan?",
+   "aliases": [
+    "is goldwell bronzebeard",
+    "goldwell clan"
+   ],
+   "answer": "Given his location in Dun Morogh near Ironforge, Elder Goldwell is venerated as an ancient forebear closely tied to the lineage that became the Bronzebeard clan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, meeting Elder Goldwell offers a rare, direct look at their ancient stone-wrought heritage and the lineage connecting modern Ironforge to the earthen."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance travelers passing through Kharanos often seek out Goldwell to pay their respects and receive traditional blessings of good fortune."
+  }
+ ],
+ "keywords": [
+  "ancestor",
+  "bronzebeard",
+  "dun morogh",
+  "earthen",
+  "elder goldwell",
+  "goldwell",
+  "kharanos",
+  "lunar festival"
+ ],
+ "related": [
+  "quest:8653",
+  "subzone:kharanos",
+  "zone:dunmorogh",
+  "topic:bronzebeard-clan"
+ ],
+ "attribution": [
+  "Elder Goldwell"
+ ]
+}

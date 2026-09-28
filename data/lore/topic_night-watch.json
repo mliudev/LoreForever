@@ -1,0 +1,126 @@
+{
+ "key": "topic:night-watch",
+ "type": "topic",
+ "name": "Night Watch",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Night Watch"
+ },
+ "summary": "The Night Watch is the beleaguered town militia responsible for defending Darkshire and the shadowy roads of Duskwood. Abandoned by the House of Nobles in Stormwind, these local volunteers stand alone against roaming undead, feral worgen, and lurking necromancy. Led by Commander Althea Ebonlocke, they rely heavily on visiting adventurers to keep darkness from overtaking their home.",
+ "sections": [
+  {
+   "title": "Abandoned by the Crown",
+   "body": "When foul magic overtook the once-vibrant Grand Hamlet and turned the forest into Duskwood, the kingdom of Stormwind turned its back. Under the subtle political steerage of Lady Katrana Prestor following King Varian Wrynn's disappearance, the royal garrison was pulled back to the capital. Stripped of official royal troops and supplies, the townsfolk formed their own volunteer militia\u2014the Night Watch\u2014swearing to hold the borders of Darkshire against the creeping horrors of the woods.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Frontline in the Mist",
+   "body": "Operating out of their headquarters in Darkshire, the Watchers patrol along roads perpetually choked with unnatural mist. Their adversaries are relentless: ravenous skeletal fiends and ghouls spilling outward from Raven Hill and Tranquil Gardens cemeteries, alongside terrifying feral worgen prowling Roland's Doom and Brightwood Grove. Severely outmatched in numbers and resources, the militia has lost many of its finest defenders to ruthless threats like the wandering abomination Mor'Ladim.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Vigil of Commander Ebonlocke",
+   "body": "Commander Althea Ebonlocke, daughter of Darkshire's mayor, directs the defensive effort with grim pragmatism. Lacking veteran reinforcements, she enlists any capable traveler arriving at town to thin out skeletal legions, cull starving wolf packs, or investigate mysterious local murders. The Night Watch views itself as the final bulwark preserving human life in the region; if their lines break, Darkshire falls entirely into the shadow.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Stormwind not send troops to help the Night Watch?",
+   "aliases": [
+    "why no stormwind guards",
+    "where is stormwind army",
+    "why duskwood abandoned"
+   ],
+   "answer": "With King Varian Wrynn missing, the Stormwind House of Nobles is gripped by political gridlock and the machinations of Lady Katrana Prestor. Claiming military resources must remain concentrated around the capital and Elwynn Forest, the crown withdrew its garrisons, leaving Duskwood's citizenry entirely to their own devices."
+  },
+  {
+   "q": "Who commands the Night Watch?",
+   "aliases": [
+    "who leads the night watch",
+    "night watch commander",
+    "who is in charge of darkshire watch"
+   ],
+   "answer": "Commander Althea Ebonlocke leads the militia from the Night Watch office in Darkshire. She is the daughter of Mayor Lord Ello Ebonlocke and personally organizes road patrols, bounties, and defense strategies across Duskwood."
+  },
+  {
+   "q": "What threats does the Night Watch fight most often?",
+   "aliases": [
+    "duskwood enemies",
+    "what do watchers fight",
+    "night watch threats"
+   ],
+   "answer": "Their most frequent foes are the risen undead pouring out of Tranquil Gardens Cemetery and Raven Hill, feral wolf packs, and the mysterious wolf-beasts known as worgen who stalk Brightwood Grove and Roland's Doom."
+  },
+  {
+   "q": "Who is Mor'Ladim, and why do the Watchers fear him?",
+   "aliases": [
+    "mor'ladim lore",
+    "morladim night watch",
+    "cemetery boss duskwood"
+   ],
+   "answer": "Mor'Ladim is a wandering, exceptionally powerful undead terror haunting Raven Hill Cemetery. He cut down several of the Night Watch's strongest patrols, making him one of the deadliest and most feared entities in the zone."
+  },
+  {
+   "q": "Are the Watchers professional soldiers or volunteers?",
+   "aliases": [
+    "are watchers guards",
+    "night watch background",
+    "is night watch an army"
+   ],
+   "answer": "They are local volunteers, farmers, hunters, and townsfolk who took up weapons out of survival. Although trained by local veterans, they lack formal military backing, royal equipment, and regular military wages."
+  },
+  {
+   "q": "Where is the Night Watch headquarters located?",
+   "aliases": [
+    "night watch building",
+    "where to find watchers",
+    "darkshire watch hall"
+   ],
+   "answer": "Their headquarters is situated in the heart of Darkshire, where Commander Althea Ebonlocke and her officers plan patrols and receive scouting reports from sentries stationed along the trails."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of the kingdom, the plight of the Night Watch exposes the rot and negligence within Stormwind's noble court, which has left fellow citizens to die in the shadows."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance heroes who visit Darkshire find a frontline community holding the border against nightmarish forces without any official aid from the high command."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Paladins view the Night Watch's desperate vigil as a sacred duty, stepping in with holy magic to shield ordinary townsfolk from rampant necromancy."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Warriors find kindred spirits in the rugged militia members who stand ground against ghouls, giant spiders, and worgen with basic steel and raw grit."
+  }
+ ],
+ "keywords": [
+  "althea ebonlocke",
+  "darkshire",
+  "duskwood",
+  "militia",
+  "mor'ladim",
+  "night watch",
+  "raven hill",
+  "stormwind",
+  "worgen"
+ ],
+ "related": [
+  "subzone:darkshire",
+  "zone:duskwood",
+  "npc:althea-ebonlocke",
+  "quest:56",
+  "subzone:raven-hill-cemetery",
+  "topic:mor-ladim",
+  "topic:worgen",
+  "quest:145"
+ ],
+ "attribution": [
+  "Night Watch"
+ ]
+}

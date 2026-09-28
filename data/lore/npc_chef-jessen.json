@@ -1,0 +1,86 @@
+{
+ "key": "npc:chef-jessen",
+ "type": "npc",
+ "name": "Chef Jessen",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Chef Jessen",
+  "refs": 1
+ },
+ "summary": "Chef Jessen is Southshore's resident meat vendor and culinarian, working to keep the coastal town fed amidst constant border tensions. Known for his short temper regarding noise while preparing meals, he is best remembered for his famous turtle bisque.",
+ "sections": [
+  {
+   "title": "A Cook in Southshore",
+   "body": "Operating out of Southshore in the southern Hillsbrad Foothills, Chef Jessen provides provisions and meat to locals and visiting Alliance soldiers alike. Though he grumbles about disturbances while trying to work, he possesses notable culinary expertise. Years past, before plague and war disrupted northern Lordaeron, he regularly ventured north beyond the magical dome of Dalaran to the shores of Lordamere Lake. There, he harvested meat from native snapjaw turtles to concoct his prized Soothing Turtle Bisque, a hearty recipe he is willing to share with aspiring travelers who assist him in gathering ingredients.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Chef Jessen?",
+   "aliases": [
+    "jessen",
+    "chef jessen southshore",
+    "who is jessen"
+   ],
+   "answer": "Chef Jessen is a human butcher and cook located in Southshore within the Hillsbrad Foothills. He sells meats and shares local culinary recipes with travelers supporting the Alliance."
+  },
+  {
+   "q": "What is Chef Jessen's famous dish?",
+   "aliases": [
+    "turtle bisque recipe",
+    "jessen specialty",
+    "soothing turtle bisque"
+   ],
+   "answer": "His signature recipe is Soothing Turtle Bisque. Historically, he harvested fresh turtle meat from the snapjaws dwelling around Lordamere Lake, just north past Dalaran, to craft the hearty broth."
+  },
+  {
+   "q": "Why does Chef Jessen ask travelers for help?",
+   "aliases": [
+    "jessen quest",
+    "turtle meat quest"
+   ],
+   "answer": "Gathering snapjaw turtle meat around Lordamere Lake has grown dangerous due to regional instability and nearby Forsaken presence. Jessen relies on capable adventurers to collect turtle meat so he can prepare his bisque."
+  },
+  {
+   "q": "Does Chef Jessen sell anything unusual?",
+   "aliases": [
+    "jessens special slop",
+    "jessen food vendor"
+   ],
+   "answer": "Aside from standard roasted fowl, Jessen has been known to concoct his own 'Special Slop,' alongside training others in the regional preparation of turtle bisque."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Jessen is a valuable contact for cooks passing through Hillsbrad, as his turtle bisque recipe provides a substantial meal for hardy travelers."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Operating in Southshore, Jessen helps sustain the Alliance soldiers and adventurers holding the defensive line against northern threats."
+  }
+ ],
+ "keywords": [
+  "chef jessen",
+  "cooking",
+  "hillsbrad foothills",
+  "jessen",
+  "lordamere lake",
+  "snapjaw",
+  "southshore",
+  "turtle bisque"
+ ],
+ "related": [
+  "subzone:southshore",
+  "quest:555",
+  "zone:hillsbrad",
+  "subzone:lordamere-lake",
+  "subzone:dalaran",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Chef Jessen"
+ ]
+}

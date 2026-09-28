@@ -1,0 +1,119 @@
+{
+ "key": "quest:114",
+ "type": "quest",
+ "name": "The Escape",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   114
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "William Pestle",
+  "end": "Maybell Maclure",
+  "previous": "Collecting Kelp",
+  "next": null,
+  "wiki": "The Escape (Alliance)",
+  "chain": []
+ },
+ "summary": "\"The Escape\" is the culmination of the forbidden romance between Maybell Maclure and Tommy Joe Stonefield in Elwynn Forest. After gathering ingredients across the region, you deliver William Pestle's brewed Invisibility Liquor to Maybell so she can slip past her family unnoticed. It marks a fleeting, clandestine victory of young love over an entrenched rural feud.",
+ "sections": [
+  {
+   "title": "A Concoction for True Love",
+   "body": "The generational rivalry between the Maclures and the Stonefields leaves no room for harmony, let alone courtship. With both families fiercely protective and hostile toward one another, Tommy Joe Stonefield turned to William Pestle, the alchemist in Goldshire's Lion's Pride Inn. Using crystal kelp harvested from nearby lakes, Pestle formulated a draught of Invisibility Liquor potent enough to mask Maybell's escape from the Maclure homestead.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vanishing into the Woods",
+   "body": "Delivering the flask to Maybell Maclure allows her to slip away into the trees toward Tommy Joe. Though racked with guilt over deceiving her kin, her devotion outweighs her fear of discovery. Upon downing the liquor, she vanishes before your eyes, buying the young lovers a precious few moments together beyond the watchful glare of their feuding elders.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest The Escape?",
+   "aliases": [
+    "quest giver the escape",
+    "who starts the escape",
+    "where to pick up the escape"
+   ],
+   "answer": "William Pestle, the apothecary and alchemical assistant residing inside the Lion's Pride Inn in Goldshire, hands you the Invisibility Liquor once you have supplied him with crystal kelp."
+  },
+  {
+   "q": "What is the Invisibility Liquor used for?",
+   "aliases": [
+    "why invisibility liquor",
+    "what does the potion do",
+    "invisibility liquor purpose"
+   ],
+   "answer": "The liquor allows Maybell Maclure to turn completely invisible long enough to sneak away from her family's farm and visit Tommy Joe Stonefield without provoking her relatives' wrath."
+  },
+  {
+   "q": "Why do Maybell and Tommy Joe have to hide their relationship?",
+   "aliases": [
+    "why are they hiding",
+    "stonefield maclure feud",
+    "why can't maybell and tommy joe be together"
+   ],
+   "answer": "The Maclure and Stonefield families are bitter rivals embroiled in an ongoing grudge. Because of the deep hostility between the two households, any open courtship between their children is strictly forbidden."
+  },
+  {
+   "q": "What happens when you deliver the potion to Maybell?",
+   "aliases": [
+    "what happens at the end",
+    "does maybell vanish",
+    "the escape quest completion"
+   ],
+   "answer": "Maybell thanks you, expresses mixed feelings of guilt and excitement, and promptly drinks the brew. She turns invisible right before your eyes to slip off toward Tommy Joe."
+  },
+  {
+   "q": "What quest leads directly into The Escape?",
+   "aliases": [
+    "prerequisite for the escape",
+    "quest before the escape",
+    "what leads to the escape"
+   ],
+   "answer": "\"The Escape\" follows immediately after \"Collecting Kelp,\" in which you retrieve crystal kelp from the murlocs at Crystal Lake for William Pestle to brew the invisibility potion."
+  },
+  {
+   "q": "Does this quest resolve the feud between the families?",
+   "aliases": [
+    "do the families make peace",
+    "is the feud over",
+    "does the feud end"
+   ],
+   "answer": "No. The potion merely offers a temporary, secret meeting for the lovers. The broader feud between Grandma Stonefield and the Maclures remains as bitter and unresolved as ever."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For young adventurers starting in Elwynn Forest, aiding Tommy Joe and Maybell offers a lighthearted break from combating Defias bandits and gnolls, showing that everyday rural grievances persist even on Stormwind's doorstep."
+  },
+  {
+   "target": "race:Human",
+   "text": "Local human settlers in Elwynn know well that stubborn family grudges run deep, making small acts of covert neighborly aid essential to keeping the peace."
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "invisibility liquor",
+  "maclure vineyards",
+  "maybell maclure",
+  "stonefield farm",
+  "the escape",
+  "tommy joe stonefield",
+  "william pestle"
+ ],
+ "related": [
+  "npc:maybell-maclure",
+  "npc:tommy-joe-stonefield",
+  "npc:william-pestle",
+  "quest:112",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "The Escape (Alliance)"
+ ]
+}

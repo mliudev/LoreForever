@@ -1,0 +1,93 @@
+{
+ "key": "npc:cerellean-whiteclaw",
+ "type": "npc",
+ "name": "Cerellean Whiteclaw",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Cerellean Whiteclaw",
+  "refs": 1
+ },
+ "summary": "Cerellean Whiteclaw is a night elf resting near the docks and inn of Auberdine in Darkshore. Haunted by the memory of his lost love from the ancient Sundering, he struggles to lay her restless spirit to peace.",
+ "sections": [
+  {
+   "title": "A Love Torn asunder",
+   "body": "Ten thousand years ago, prior to the War of the Ancients, Cerellean Whiteclaw shared his life with Anaya Dawnrunner. When the demonic invasion tore ancient Kalimdor apart, Anaya perished in the destruction of her city, Ameth'Aran. Stricken with grief, Cerellean followed Malfurion Stormrage into the long druidic slumber, yet the Emerald Dream offered him little respite from her memory. Upon awakening millennia later, he wandered Darkshore in a grief-stricken haze, only to discover that Anaya's ghost remained bound to the very stones where she fell.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Plea for Release",
+   "body": "Though he yearns to grant Anaya peace, Cerellean cannot bear the sorrow of striking down her tormented shade himself. He appeals to passing travelers to venture south into the haunted ruins of Ameth'Aran, put her spirit to rest, and recover her pendant. Once freed, Anaya's shade briefly visits Cerellean on the docks of Auberdine, reassuring him of her enduring love and promising that they will one day be reunited in the afterlife.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Cerellean Whiteclaw?",
+   "aliases": [
+    "who is cerellean",
+    "cerellean whiteclaw",
+    "auberdine docks elf"
+   ],
+   "answer": "Cerellean Whiteclaw is an ancient night elf residing near the docks of Auberdine in Darkshore. He mourns his lost love, Anaya Dawnrunner, who perished during the War of the Ancients ten millennia ago."
+  },
+  {
+   "q": "Who was Anaya Dawnrunner?",
+   "aliases": [
+    "anaya dawnrunner",
+    "cerellean's love",
+    "cerellean lover"
+   ],
+   "answer": "Anaya Dawnrunner was Cerellean's beloved who lived in the ancient city of Ameth'Aran. She was killed during the War of the Ancients when the city fell to ruin, and her tortured spirit lingered among the wreckage for thousands of years."
+  },
+  {
+   "q": "Why doesn't Cerellean lay Anaya's spirit to rest himself?",
+   "aliases": [
+    "why doesn't cerellean fight anaya",
+    "why need adventurer"
+   ],
+   "answer": "Cerellean remains so deeply attached and heartbroken that he lacks the emotional strength to confront and destroy her ghostly form himself. He relies on sympathetic travelers to deliver her final release."
+  },
+  {
+   "q": "Where are the ruins of Ameth'Aran?",
+   "aliases": [
+    "where is ameth'aran",
+    "anaya location",
+    "where is anaya"
+   ],
+   "answer": "The ruins of Ameth'Aran lie in southern Darkshore, east of the main road. The area is haunted by ghosts of ancient kaldorei who perished during the Great Sundering."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Cerellean's tragic story reflects the deep, enduring scars left upon the kaldorei by the War of the Ancients and the Great Sundering."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Like many druids, Cerellean entered the long slumber alongside Malfurion Stormrage, though the Emerald Dream proved unable to wash away his earthly heartbreak."
+  }
+ ],
+ "keywords": [
+  "ameth'aran",
+  "anaya dawnrunner",
+  "auberdine",
+  "cerellean whiteclaw",
+  "darkshore",
+  "for love eternal",
+  "ghost",
+  "sundering"
+ ],
+ "related": [
+  "quest:963",
+  "subzone:ameth-aran",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "npc:malfurion-stormrage",
+  "topic:war-of-the-ancients",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Cerellean Whiteclaw"
+ ]
+}

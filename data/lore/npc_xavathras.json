@@ -1,0 +1,85 @@
+{
+ "key": "npc:xavathras",
+ "type": "npc",
+ "name": "Xavathras",
+ "era": "classic",
+ "zone": "felwood",
+ "meta": {
+  "wiki": "Xavathras",
+  "refs": 2
+ },
+ "summary": "Xavathras is a vicious satyr commander residing among the tents at the Ruins of Constellas in Felwood. Leading a band of Jadefire satyrs, he oversees the corruption of an ancient moonwell in service to his master, Xavaric.",
+ "sections": [
+  {
+   "title": "Corruptor of Constellas",
+   "body": "Within the tainted glades of Felwood, the Ruins of Constellas have fallen into the clutches of the Jadefire satyrs. Stationed in an encampment pitched amidst the elven stonework, Xavathras directs the defilement of a nearby moonwell on behalf of another cruel satyr, Xavaric. By poisoning the pure waters with demonic energy, Xavathras deepens the corruption that grips the forest. His presence poses a direct threat to any attempts to restore the woodland, earning the ire of night elves like Arcanist Delaris who mark him for death.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Xavathras?",
+   "aliases": [
+    "who is xavathras",
+    "xavathras lore",
+    "who is the satyr boss constellas"
+   ],
+   "answer": "Xavathras is a cruel satyr leader who commands the Jadefire satyrs entrenched in the Ruins of Constellas within Felwood. He serves Xavaric and is tasked with corrupting the ancient elven moonwell located among the ruins."
+  },
+  {
+   "q": "Where can Xavathras be found?",
+   "aliases": [
+    "xavathras location",
+    "where is xavathras",
+    "ruins of constellas satyr"
+   ],
+   "answer": "Xavathras makes his camp among the satyr tents at the Ruins of Constellas, an ancient night elf site located in southern-central Felwood."
+  },
+  {
+   "q": "Why does Arcanist Delaris want Xavathras dead?",
+   "aliases": [
+    "why kill xavathras",
+    "delaris xavathras"
+   ],
+   "answer": "Arcanist Delaris seeks to defend Felwood and halt the rampant spread of demonic defilement. Xavathras is actively cultivating a corrupted moonwell, making his elimination a top priority for those attempting to cleanse the land."
+  },
+  {
+   "q": "Who is Xavathras working for?",
+   "aliases": [
+    "who is xavathras master",
+    "xavaric xavathras"
+   ],
+   "answer": "Xavathras works on behalf of Xavaric, another cruel and powerful satyr operating within Felwood to further the Legion's lingering grasp on the corrupted forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, Xavathras represents the tragedy of their ancient kin turned demonic beasts, as well as an active desecrator of their sacred moonwells."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids seeking to undo the demonic blighting of Felwood view Xavathras's deliberate poisoning of pure waters as an affront to nature that must be stopped."
+  }
+ ],
+ "keywords": [
+  "constellas",
+  "delaris",
+  "felwood",
+  "jadefire",
+  "moonwell",
+  "satyr",
+  "xavaric",
+  "xavathras"
+ ],
+ "related": [
+  "subzone:ruins-of-constellas",
+  "zone:felwood",
+  "topic:satyr",
+  "subzone:moonwell-ashenvale",
+  "quest:6921"
+ ],
+ "attribution": [
+  "Xavathras"
+ ]
+}

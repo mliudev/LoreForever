@@ -1,0 +1,115 @@
+{
+ "key": "quest:96627",
+ "type": "quest",
+ "name": "The Adventurer",
+ "era": "forever",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   96627
+  ],
+  "level": "6",
+  "faction": "Alliance",
+  "start": "Marshal McBride",
+  "end": "Sam Sarsaparilla",
+  "previous": "",
+  "next": "",
+  "wiki": "The Adventurer (Elwynn Forest)",
+  "chain": []
+ },
+ "summary": "The Adventurer is a breadcrumb assignment given by Marshal McBride in Northshire Valley. Recognising your early competence, McBride directs you beyond the cloistered abbey grounds toward Goldshire to look into a newcomer named Sam Sarsaparilla.",
+ "sections": [
+  {
+   "title": "Leaving the Valley",
+   "body": "Once recruits clear Northshire Valley of immediate threats like the local Defias and vermin, Marshal McBride begins looking down the road. With Stormwind's regular military presence stretched thin across the kingdom, the local garrison must rely on promising fighters to keep tabs on travelers and wanderers roaming the surrounding woods.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Curious Newcomer",
+   "body": "Rather than a military order or a bounty hunt, McBride tasks you with an unusual errand: checking up on a specific new adventurer spotted near Goldshire named Sam Sarsaparilla. The request serves as a transition out of Northshire's secluded valley into the wider, more perilous expanse of Elwynn Forest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me on this task?",
+   "aliases": [
+    "quest giver",
+    "who gives the adventurer",
+    "marshal mcbride quest"
+   ],
+   "answer": "Marshal McBride, the commander of the Stormwind garrison stationed in Northshire Valley, offers this task once you have proven your mettle defending the abbey."
+  },
+  {
+   "q": "Who is Sam Sarsaparilla?",
+   "aliases": [
+    "sam sarsaparilla",
+    "who is sam",
+    "goldshire adventurer"
+   ],
+   "answer": "Sam Sarsaparilla is an adventurer lingering along the road near Goldshire. Marshal McBride catches wind of his presence and asks you to investigate what he is up to."
+  },
+  {
+   "q": "Where do I find Sam Sarsaparilla?",
+   "aliases": [
+    "sam sarsaparilla location",
+    "where is sam",
+    "find sam sarsaparilla"
+   ],
+   "answer": "He is located down the main road leading out of Northshire toward the town of Goldshire in Elwynn Forest."
+  },
+  {
+   "q": "Why does Marshal McBride care about a random adventurer?",
+   "aliases": [
+    "why send me",
+    "mcbride motives",
+    "why look for sam"
+   ],
+   "answer": "Northshire remains on high alert against bandits and intruders. McBride prefers to keep a close eye on unfamiliar sellswords and wanderers passing through the region, utilizing dependable local talent to make initial contact."
+  },
+  {
+   "q": "Do I need to leave Northshire Valley to finish this?",
+   "aliases": [
+    "outside northshire",
+    "does this leave northshire",
+    "go to goldshire"
+   ],
+   "answer": "Yes. This task directs you through the southern gates of Northshire Valley and out onto the forest road leading toward Goldshire."
+  },
+  {
+   "q": "Is this part of the normal Stormwind military chain of command?",
+   "aliases": [
+    "stormwind military",
+    "is this standard duty",
+    "official business"
+   ],
+   "answer": "While issued by an officer of Stormwind, McBride explicitly calls it an unusual task rather than standard guard duty, relying on your discretion as an independent protector rather than formal military protocol."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For fresh Alliance recruits finishing their service in Northshire, this marks the first official push out into the broader realm of Elwynn Forest."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human defenders stepping out of Northshire Abbey take their first steps toward Goldshire, the bustling heart of Elwynn."
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "goldshire",
+  "marshal mcbride",
+  "northshire",
+  "sam sarsaparilla",
+  "the adventurer"
+ ],
+ "related": [
+  "npc:marshal-mcbride",
+  "subzone:goldshire",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "The Adventurer (Elwynn Forest)"
+ ]
+}

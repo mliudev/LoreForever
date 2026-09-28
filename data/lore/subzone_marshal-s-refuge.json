@@ -1,0 +1,90 @@
+{
+ "key": "subzone:marshal-s-refuge",
+ "type": "subzone",
+ "name": "Marshal's Refuge",
+ "era": "classic",
+ "zone": "ungoro",
+ "meta": {
+  "wiki": "Marshal's Refuge"
+ },
+ "summary": "Marshal's Refuge is a precarious, neutral haven tucked into the northern cliffs of Un'Goro Crater. Established by Williden Marshal and his expedition party, it serves as an emergency redoubt after the basin's primeval beasts routed their lower camps.",
+ "sections": [
+  {
+   "title": "A Precarious Perch",
+   "body": "When Williden and Hol'anyee Marshal led their expedition into Un'Goro Crater, they drastically underestimated the ferocity of its prehistoric denizens. After their initial base camps were repeatedly overrun by rampaging beasts, the battered survivors scrambled up into the cavernous northern cliffside to escape slaughter. Re-established as Marshal's Refuge, the camp clings high above the jungle floor, offering the only stable resting ground, basic supplies, and flight masters for weary explorers in the northern crater.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Crossroads of Curiosity",
+   "body": "Because Un'Goro Crater contains ancient biological wonders and mysterious crystal formations, Marshal's Refuge attracts a motley band of researchers, fortune seekers, and eccentric wanderers. Both Alliance and Horde naturalists, including tauren emissaries and gnomish tinkers, share the crowded ledge alongside the surviving Marshal crew. From here, scouts strike out toward volcanic summits like Fire Plume Ridge or bubbling landmarks like the Golakka Hot Springs, hoping to catalog the primordial wilderness before it consumes them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why was Marshal's Refuge built so high up the cliff?",
+   "aliases": [
+    "why is it in a cave",
+    "marshals refuge location",
+    "why cliffside camp"
+   ],
+   "answer": "The Marshal expedition originally established camps lower in the basin, but Un'Goro's ferocious dinosaurs and aggressive creatures constantly trampled and overran them. The survivors retreated up the northern rock wall to gain a defensible vantage point safely out of reach of the larger beasts."
+  },
+  {
+   "q": "Is Marshal's Refuge friendly to both Horde and Alliance?",
+   "aliases": [
+    "is marshals refuge neutral",
+    "can horde go here",
+    "can alliance go here"
+   ],
+   "answer": "Yes. It operates as a neutral outpost. The primeval perils of Un'Goro Crater make faction rivalries an unaffordable luxury, so members of both factions mingle here peacefully to resupply and trade research."
+  },
+  {
+   "q": "Who leads the encampment?",
+   "aliases": [
+    "who is in charge",
+    "who runs marshals refuge",
+    "camp leader"
+   ],
+   "answer": "The outpost is led by Williden Marshal and Hol'anyee Marshal, the figures who organized the ill-fated Marshal Expeditions into the crater."
+  },
+  {
+   "q": "What services are available at the Refuge?",
+   "aliases": [
+    "flight path",
+    "repairs",
+    "vendors"
+   ],
+   "answer": "The refuge provides essential survival necessities in the remote basin, including flight masters for both factions, basic trade merchants, repair services, and a gathering spot for researchers offering bounties and investigations across the crater."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Perched safely above the caldera floor, the Refuge offers hunters a vantage point to study Un'Goro's rarest and deadliest beasts before descending into the tracking grounds."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnome scholars and field-engineers find the Refuge an ideal outpost for testing apparatuses on the crater's bizarre power crystals and volatile geysers."
+  }
+ ],
+ "keywords": [
+  "cave",
+  "expedition",
+  "hol'anyee",
+  "marshal's refuge",
+  "un'goro crater",
+  "williden marshal"
+ ],
+ "related": [
+  "zone:ungoro",
+  "subzone:fire-plume-ridge",
+  "subzone:golakka-hot-springs",
+  "topic:gnome",
+  "topic:tauren",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Marshal's Refuge"
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "key": "subzone:scarlet-basilica",
+ "type": "subzone",
+ "name": "Scarlet Basilica",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Scarlet Basilica"
+ },
+ "summary": "The Scarlet Basilica is a grand cathedral standing at the heart of Tyr's Hand in the Eastern Plaguelands. It serves as the high seat of spiritual and military authority for the Scarlet Crusade in the east. Overseen by Crusader Lord Valdelmar, its halls represent the zealots' unyielding bastion against the Scourge.",
+ "sections": [
+  {
+   "title": "Heart of the Eastern Crusade",
+   "body": "Rising prominently over the fortified enclave of Tyr's Hand, the Scarlet Basilica acts as the central cathedral and command hub for the Scarlet Crusade's operations in the Eastern Plaguelands. While the Scarlet Monastery far to the west in Tirisfal Glades serves as the order's spiritual heart, this basilica anchors their surviving territorial stronghold against the blighted horrors of Lordaeron. Guarded fiercely by elite crusaders, the cathedral houses Crusader Lord Valdelmar, who directs the local defense and zealously purges any outsiders who dare approach.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Scarlet Basilica?",
+   "aliases": [
+    "scarlet basilica info",
+    "what is this cathedral",
+    "tyrs hand church"
+   ],
+   "answer": "The Scarlet Basilica is the grand cathedral located inside the fortress city of Tyr's Hand in the Eastern Plaguelands. It serves as the primary seat of religious and military authority for the Scarlet Crusade in the region."
+  },
+  {
+   "q": "Who leads the forces inside the Basilica?",
+   "aliases": [
+    "who is in scarlet basilica",
+    "valdelmar",
+    "scarlet basilica boss"
+   ],
+   "answer": "Crusader Lord Valdelmar commands the forces within the Scarlet Basilica, standing as one of the Scarlet Crusade's high-ranking leaders holding Tyr's Hand against the Scourge and other perceived enemies."
+  },
+  {
+   "q": "How does this compare to the Scarlet Monastery?",
+   "aliases": [
+    "monastery vs basilica",
+    "is this the scarlet monastery"
+   ],
+   "answer": "While the Scarlet Monastery in Tirisfal Glades is the order's primary spiritual headquarters, the Scarlet Basilica functions as their eastern counterpart, providing a commanding religious and fortified center deep within the Plaguelands."
+  },
+  {
+   "q": "Are travelers welcome inside the Basilica?",
+   "aliases": [
+    "can alliance enter",
+    "is scarlet basilica hostile",
+    "can i visit"
+   ],
+   "answer": "No. The Scarlet Crusade has descended into xenophobic madness, believing that anyone not clad in their crimson colors is tainted by undeath. Both Alliance and Horde intruders are attacked immediately on sight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The basilica stands as a twisted monument to holy devotion gone astray, where former knights of the Silver Hand have turned their fervor into merciless fanaticism."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, the basilica represents one of the most entrenched outposts of the zealots who actively seek the total eradication of all undead regardless of free will."
+  }
+ ],
+ "keywords": [
+  "cathedral",
+  "crusader lord valdelmar",
+  "eastern plaguelands",
+  "scarlet basilica",
+  "scarlet crusade",
+  "tyr's hand"
+ ],
+ "related": [
+  "subzone:tyr-s-hand",
+  "topic:scarlet-crusade",
+  "zone:easternplaguelands",
+  "subzone:tyr-s-hand-abbey",
+  "subzone:high-seat",
+  "zone:scarlet",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Scarlet Basilica"
+ ]
+}

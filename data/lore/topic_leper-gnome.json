@@ -1,0 +1,125 @@
+{
+ "key": "topic:leper-gnome",
+ "type": "topic",
+ "name": "Leper gnome",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Leper gnome"
+ },
+ "summary": "Leper gnomes are the tragic, mutated survivors of Gnomeregan's catastrophic irradiation during the Third War. Maddened by toxic fallout and lingering fumes, most have sworn fealty to the usurper Sicco Thermaplugg, fiercely defending their ruined city against all outsiders.",
+ "sections": [
+  {
+   "title": "The Fall of the Great City",
+   "body": "When trogg invaders breached Gnomeregan during the Third War, Mekgineer Sicco Thermaplugg advised High Tinker Gelbin Mekkatorque to flood the city with radioactive toxins. Thermaplugg claimed the poison would exterminate the troggs while sparing the gnomish population. Instead, the catastrophe wiped out eighty percent of the city's inhabitants. Those who survived within the sealed lower levels were warped in mind and flesh by toxic fallout, mutating into pale, pustulant wretches dubbed leper gnomes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Thermaplugg's Enclave",
+   "body": "Thermaplugg himself succumbed to the poisonous fallout, losing both his complexion and his sanity. Naming himself techno-overlord and King of Gnomeregan, he gathered the crazed survivors in the Tinkers' Court. In their fractured mental state, many leper gnomes perceive all surface dwellers as trogg intruders, driving them to attack returning rescue parties with frantic savagery. They pilot salvaged mechanical constructs and assemble volatile ordnance, guarding Thermaplugg's twisted kingdom with fanatical devotion.",
+   "spoiler": 0
+  },
+  {
+   "title": "Scattered Across Azeroth",
+   "body": "While the majority remain trapped within Gnomeregan's contaminated corridors, a handful of leper gnomes have found their way into the wider world. Driven by desperation or dark ambition, individuals have turned up among the Dark Iron dwarves in Blackrock Depths, operated machinery for the Venture Company in Stonetalon, or taken up service as lab assistants under the Forsaken's Royal Apothecary Society in the bowels of the Undercity.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Search for a Cure",
+   "body": "Gnome scholars exiled in Ironforge refuse to abandon their irradiated kin. In Dun Morogh, engineers and tinkers such as Ozzie Togglevolt and Razzle Sprysprocket work tirelessly on 'Operation Recombobulation,' attempting to devise alchemical or mechanical means to reverse the mutation. Whether a mind broken by toxic fallout can truly be restored remains a painful and unanswered question.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What turned the gnomes into leper gnomes?",
+   "aliases": [
+    "why are leper gnomes green",
+    "how did they become leper gnomes",
+    "gnome radiation cause"
+   ],
+   "answer": "During the trogg invasion of Gnomeregan, Sicco Thermaplugg urged High Tinker Mekkatorque to release radioactive vents to purge the caverns. The toxic fallout failed to kill the troggs and instead irradiated the trapped gnomish citizenry, mutating their skin and destroying their sanity."
+  },
+  {
+   "q": "Are leper gnomes undead?",
+   "aliases": [
+    "are leper gnomes zombies",
+    "are they undead",
+    "leper gnome scourge"
+   ],
+   "answer": "No. Leper gnomes are living gnomes who have suffered severe radiation poisoning and physical mutation. While some serve alongside the Forsaken in Lordaeron due to their affinity for blight and toxins, their affliction stems from irradiated gnomish engineering, not necromancy."
+  },
+  {
+   "q": "Can leper gnomes be cured?",
+   "aliases": [
+    "can leper gnomes be saved",
+    "leper gnome cure",
+    "operation recombobulation"
+   ],
+   "answer": "Allied gnome inventors like Ozzie Togglevolt and Razzle Sprysprocket are actively testing treatments, such as recombobulation devices and alchemical washes. While some experimental devices show minor promise, no reliable cure currently exists to reverse both the physical rot and the deep mental degradation."
+  },
+  {
+   "q": "Who leads the leper gnomes?",
+   "aliases": [
+    "leper gnome leader",
+    "king of gnomeregan",
+    "thermaplugg boss"
+   ],
+   "answer": "Mekgineer Sicco Thermaplugg acts as their despotic techno-overlord. Mutated by the very radiation he insisted on unleashing, he rules from the Tinkers' Court inside Gnomeregan, manipulating the survivors' fractured minds to maintain absolute control over the ruins."
+  },
+  {
+   "q": "Why do leper gnomes attack anyone who enters Gnomeregan?",
+   "aliases": [
+    "why are leper gnomes hostile",
+    "why do they fight us"
+   ],
+   "answer": "The prolonged exposure to radioactive gasses shattered their minds. In their paranoia and delirium, most leper gnomes view any outsider\u2014even an uncorrupted gnome from the surface\u2014as an invading trogg bent on their destruction."
+  },
+  {
+   "q": "Why are some leper gnomes working with the Forsaken?",
+   "aliases": [
+    "leper gnomes in undercity",
+    "forsaken leper gnomes",
+    "apprentice crispin"
+   ],
+   "answer": "A few wandering leper gnomes, such as Apprentice Crispin in Tirisfal Glades, offered their service to Lady Sylvanas Windrunner. The Royal Apothecary Society tolerates and employs them as research assistants, recognizing a shared appreciation for plague, blighted alchemy, and survival despite severe bodily degradation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Every leper gnome is a tragic reminder of Gnomeregan's downfall and the heavy cost of Mekkatorque's trust in Thermaplugg. Exiled gnomes in Tinker Town view them with a mixture of profound sorrow and determination to find a cure."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken apothecaries find common ground with these irradiated outcasts, viewing their diseased forms without the disgust typical of living surface races and putting their mechanical skills to work in Undercity labs."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Even in their state of utter madness, leper gnomes retain an uncanny aptitude for assembly lines, automated defense turrets, and high-voltage machinations."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "gnomeregan",
+  "leper gnome",
+  "mekkatorque",
+  "radiation",
+  "recombobulation",
+  "thermaplugg",
+  "toxic"
+ ],
+ "related": [
+  "zone:gnomeregan",
+  "npc:sicco-thermaplugg",
+  "topic:gnome",
+  "npc:gelbin-mekkatorque",
+  "quest:412",
+  "subzone:tinkers-court",
+  "topic:trogg",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "Leper gnome"
+ ]
+}

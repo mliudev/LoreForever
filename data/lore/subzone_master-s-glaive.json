@@ -1,0 +1,94 @@
+{
+ "key": "subzone:master-s-glaive",
+ "type": "subzone",
+ "name": "Master's Glaive",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Master's Glaive"
+ },
+ "summary": "The Master's Glaive is an ancient, unsettling landmark tucked into southwestern Darkshore where a colossal adamantine weapon stands impaled in a massive petrified skull. Long revered by local night elves as a sacred mystery, the site now swarms with Twilight's Hammer cultists drawn to the lingering malevolence of an ancient entity.",
+ "sections": [
+  {
+   "title": "A Monument of an Ancient Clash",
+   "body": "Rising out of the Darkshore earth, the Master's Glaive is a massive blade buried deep into the horned skull of Soggoth the Slitherer, a herald of the Old Gods. According to ancient tablets uncovered by the dwarven Explorers' League nearby, the site preserves the climax of a primordial battle between Soggoth and twenty titan-forged stone giants. The largest giant, Kronn, allowed Soggoth's thrashing tendrils to snare him so he could pull himself close enough to drive his titanic blade directly into the monster's skull. Today, the impaled monolith stands as a stark, petrified monument to that titanic struggle.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dark Excavations",
+   "body": "Though the site was held in solemn reverence by night elves for generations, sinister forces have recently seized the grounds. Fanatics of the Twilight's Hammer cult have established a camp around the sunken carcass, carving out trenches and uncovering petrified ribs. Drawn by whispers beneath the stone, the cultists obsessively study the remains and commune with the malevolent power that still clings to the ancient herald, seeking to revive or harness whatever fell essence slumbers within the earth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the massive weapon stuck in the skull?",
+   "aliases": [
+    "what is the sword",
+    "masters glaive sword",
+    "who put the sword there"
+   ],
+   "answer": "The blade is the colossal sword of Kronn, the greatest of twenty titan-forged stone giants sent to destroy Soggoth the Slitherer. Kronn permitted himself to be seized by the herald's tendrils to draw close enough to plunge the massive adamantine weapon into the monster's skull, ending the battle."
+  },
+  {
+   "q": "What creature's skull is buried here?",
+   "aliases": [
+    "what died here",
+    "soggoth skull",
+    "who is buried at masters glaive"
+   ],
+   "answer": "The enormous skull belongs to Soggoth the Slitherer, a herald of the Old Gods who waged war against the titans and their stone giant servants in primordial times before being struck down and petrified."
+  },
+  {
+   "q": "Why is the Twilight's Hammer cult gathered here?",
+   "aliases": [
+    "why are cultists here",
+    "twilight hammer darkshore",
+    "what are cultists digging"
+   ],
+   "answer": "The Twilight's Hammer cult worships the Old Gods and their ancient servants. They have overrun the Master's Glaive to excavate Soggoth's petrified remains, drawn by the lingering dark power and hoping to revive the fallen herald."
+  },
+  {
+   "q": "Who knows about the history of this site?",
+   "aliases": [
+    "who studies the glaive",
+    "how do we know about soggoth"
+   ],
+   "answer": "Onu, the Ancient of Lore residing in Darkshore, recognizes the site as the resting place of an ancient lord of the earth and bids investigators to look into it. Meanwhile, dwarven archaeologists of the Explorers' League at Remtravel's Excavation uncovered stone tablets detailing the battle between Soggoth and the titan giants."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For generations, night elves treated the strange petrified monument as a solemn holy place, making the recent intrusion of the Twilight's Hammer cult an intolerable defilement of Darkshore's sacred grounds."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven members of the Explorers' League at nearby Remtravel's Excavation take keen interest in the site, as the tablets they uncovered link the monument directly to the works and constructs of the ancient Titans."
+  }
+ ],
+ "keywords": [
+  "darkshore",
+  "kronn",
+  "master's glaive",
+  "old god",
+  "remtravel",
+  "slitherer",
+  "soggoth",
+  "stone giant",
+  "twilight's hammer"
+ ],
+ "related": [
+  "quest:944",
+  "zone:darkshore",
+  "subzone:remtravel-s-excavation",
+  "topic:twilight-s-hammer",
+  "topic:old-god",
+  "topic:titan",
+  "topic:explorers-league",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Master's Glaive"
+ ]
+}

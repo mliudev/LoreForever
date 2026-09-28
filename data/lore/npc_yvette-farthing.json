@@ -1,0 +1,91 @@
+{
+ "key": "npc:yvette-farthing",
+ "type": "npc",
+ "name": "Yvette Farthing",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Yvette Farthing",
+  "refs": 1
+ },
+ "summary": "Yvette Farthing is a Forsaken resident of Brill in Tirisfal Glades, dwelling in the Gallows' End Tavern alongside her father, Coleman. Though she appears as hardened and detached as any of Sylvanas's people, she carries the lingering ghost of a mortal romance cut short by the Scourge.",
+ "sections": [
+  {
+   "title": "Echoes of the Mills",
+   "body": "Before the Third War swept Lordaeron into ruin, Yvette was in love with Thurman Agamand, one of the heirs of the prosperous Agamand Mills. When the Scourge plague approached, Yvette and her father, Coleman, begged Thurman to abandon the estate and flee with them. Thurman refused out of devotion to his family's legacy. Both would eventually perish and rise into undeath, but while Yvette found a place among the free-willed Forsaken in Brill, Thurman's tragic final fate remained unknown to her.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Final Farewell",
+   "body": "Before the mills were overrun, Thurman penned an urgent love letter to Yvette, detailing the treachery of his brother Devlin and lamenting his choice to stay. The Scourge intercepted the message, leaving it lost among the ruins of Agamand Mills until recovered by adventurers. Upon reading Thurman's dying confession, Yvette briefly displays genuine mortal despair before forcing herself back into cold detachment, bitter that such past attachments have no place in the grim reality of the Forsaken.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Yvette Farthing?",
+   "aliases": [
+    "yvette farthing lore",
+    "who is yvette",
+    "brill yvette"
+   ],
+   "answer": "Yvette Farthing is a Forsaken woman living in Brill's Gallows' End Tavern. She is the daughter of Coleman Farthing and formerly lived in the farmlands of Tirisfal Glades before the Third War destroyed the kingdom."
+  },
+  {
+   "q": "What is Yvette's connection to Agamand Mills?",
+   "aliases": [
+    "yvette agamand",
+    "thurman agamand and yvette",
+    "yvette lover"
+   ],
+   "answer": "In life, Yvette was romantically involved with Thurman Agamand. When the plague threatened the region, she tried to convince him to flee with her, but he chose to remain and defend his family's estate."
+  },
+  {
+   "q": "What happens when you deliver Thurman's letter to her?",
+   "aliases": [
+    "a letter undelivered turn in",
+    "thurmans letter reward",
+    "yvette reaction letter"
+   ],
+   "answer": "When an adventurer delivers Thurman's long-lost letter, Yvette is momentarily crushed by sorrow upon reading his final words of love and betrayal. However, she quickly hardens her demeanor, declaring that she is Forsaken now and that mortal sentiment is useless."
+  },
+  {
+   "q": "Who is Yvette's father?",
+   "aliases": [
+    "yvette father",
+    "coleman and yvette",
+    "who is coleman farthing"
+   ],
+   "answer": "Her father is Coleman Farthing, a Forsaken also residing in the Gallows' End Tavern in Brill. They both managed to survive long enough to flee together initially, though both eventually succumbed to the plague and became Forsaken."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Yvette represents the deep emotional conflict many Forsaken endure, struggling between lingering human memories of love and the bitter, hardened reality of undeath."
+  }
+ ],
+ "keywords": [
+  "a letter undelivered",
+  "agamand mills",
+  "brill",
+  "coleman farthing",
+  "gallows' end tavern",
+  "thurman agamand",
+  "tirisfal glades",
+  "yvette farthing"
+ ],
+ "related": [
+  "npc:coleman-farthing",
+  "quest:361",
+  "subzone:agamand-mills",
+  "subzone:brill",
+  "subzone:gallows-end-tavern",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Yvette Farthing"
+ ]
+}

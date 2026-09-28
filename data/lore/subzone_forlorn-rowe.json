@@ -1,0 +1,90 @@
+{
+ "key": "subzone:forlorn-rowe",
+ "type": "subzone",
+ "name": "Forlorn Rowe",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Forlorn Rowe"
+ },
+ "summary": "The Forlorn Rowe is an ominous, shadowy hill perched on the northern boundary of the Raven Hill Cemetery in Duskwood. It is infamous as the dark abode of Morbent Fel, a necromancer whose malevolent magic animates the restless dead throughout the forest.",
+ "sections": [
+  {
+   "title": "A Seat of Necromancy",
+   "body": "Rising along the northern edge of the Raven Hill Cemetery, the Forlorn Rowe is perpetually cloaked in gloom. Atop this rise sits the home of Morbent Fel, the lich-like necromancer responsible for much of the walking dead haunting the surrounding wilderness. Bound by foul arcane enchantments, the master of the hill directs his skeletal servants from this vantage, rendering the entire northwestern corner of Duskwood perilous for travelers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cleansing the Hill",
+   "body": "Morbent Fel's grasp on the Forlorn Rowe cannot be broken by ordinary steel alone. His dark enchantments protect his physical form from mortal weapons until he is weakened by specialized relics of holy power. Bringing down the necromancer and breaking his hold over the woods requires adventurers to secure consecrated armaments, striking at the heart of the curse smothering the cemetery grounds.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Forlorn Rowe located?",
+   "aliases": [
+    "forlorn rowe location",
+    "where is forlorn rowe",
+    "find forlorn rowe"
+   ],
+   "answer": "The Forlorn Rowe is situated in northwestern Duskwood, resting directly on the northern ridge overlooking the sprawling Raven Hill Cemetery."
+  },
+  {
+   "q": "Who lives at the Forlorn Rowe?",
+   "aliases": [
+    "who is at forlorn rowe",
+    "forlorn rowe boss",
+    "house on the hill duskwood"
+   ],
+   "answer": "It is the lair of Morbent Fel, a powerful and malevolent necromancer who uses dark arcane rites to raise and command the legions of undead wandering Duskwood."
+  },
+  {
+   "q": "Why is Morbent Fel so hard to fight here?",
+   "aliases": [
+    "morbent fel shield",
+    "morbent fel immune",
+    "how to kill morbent fel"
+   ],
+   "answer": "Morbent Fel shields himself with foul sorcery, rendering mundane attacks almost useless until he is stripped of his dark protections by a consecrated relic crafted to dispel his magic."
+  },
+  {
+   "q": "Is the Forlorn Rowe part of the cemetery?",
+   "aliases": [
+    "is forlorn rowe raven hill",
+    "raven hill connection"
+   ],
+   "answer": "Yes, it stands as an elevated bluff along the northern boundary of the Raven Hill Cemetery, directly overlooking the graves and crypts below."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The dark rites woven at the Forlorn Rowe represent an affront to the Holy Light, requiring consecrated relics and righteous wrath to pierce the necromancer's wards."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Rooting out Morbent Fel from the Forlorn Rowe is critical for restoring a semblance of safety to Duskwood's western border."
+  }
+ ],
+ "keywords": [
+  "cemetery",
+  "duskwood",
+  "forlorn rowe",
+  "morbent fel",
+  "necromancer",
+  "raven hill",
+  "undead"
+ ],
+ "related": [
+  "quest:55",
+  "subzone:raven-hill-cemetery",
+  "zone:duskwood",
+  "quest:163",
+  "topic:light",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Forlorn Rowe"
+ ]
+}

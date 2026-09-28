@@ -1,0 +1,92 @@
+{
+ "key": "subzone:warsong-labor-camp",
+ "type": "subzone",
+ "name": "Warsong Labor Camp",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Warsong Labor Camp"
+ },
+ "summary": "The Warsong Labor Camp is an isolated Horde timber-harvesting outpost tucked away in southeastern Ashenvale. Operated by Warsong loggers and defended by orcish sentries, the work site cuts lumber to fuel the growth of Durotar while braving the hostility of the surrounding forest.",
+ "sections": [
+  {
+   "title": "Timber for the Horde",
+   "body": "Situated east of Fallen Sky Lake and southwest of the Dor'Danil Barrow Den, the Warsong Labor Camp exists for one vital purpose: harvesting the dense timber of Ashenvale. The dry plains of Durotar offer little usable lumber to build cities like Orgrimmar, forcing the Warsong clan to push deep into the contested woods. Staffed by hardy loggers and orcish guards, the site operates in relative isolation, grinding through ancient trees despite the ever-present threat of night elf scouts and passing Alliance warbands.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Vulnerable Outpost",
+   "body": "Because of its remote location far from the main road and fortified bases like Splintertree Post, the camp is exceptionally vulnerable. Alliance raiders often strike the working peons and watchmen, knowing reinforcements will not arrive swiftly. To the night elves, every felled tree is an act of sacrilege, turning this mundane logging camp into a perennial flashpoint in the regional war.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Warsong Labor Camp located?",
+   "aliases": [
+    "warsong labor camp location",
+    "where is warsong labor camp",
+    "finding labor camp"
+   ],
+   "answer": "The labor camp lies in southeastern Ashenvale, east of Fallen Sky Lake and southwest of the Dor'Danil Barrow Den."
+  },
+  {
+   "q": "What is the purpose of this camp?",
+   "aliases": [
+    "why are orcs here",
+    "what do they do here",
+    "warsong logging camp purpose"
+   ],
+   "answer": "The outpost serves as a timber harvesting operation. Orc loggers cut and process the ancient woods of Ashenvale to provide building materials for Orgrimmar and other settlements in Durotar."
+  },
+  {
+   "q": "Why is the camp frequently attacked?",
+   "aliases": [
+    "alliance attacks labor camp",
+    "why is it targeted",
+    "is the camp safe"
+   ],
+   "answer": "The camp sits in isolation, far from major Horde fortifications. Night elves fiercely despise the harvesting of their sacred forests, and Alliance champions often raid the outpost because its remote position prevents nearby guards from offering swift backup."
+  },
+  {
+   "q": "Did Grommash Hellscream found this camp?",
+   "aliases": [
+    "did grom make this",
+    "grom hellscream labor camp",
+    "history of the camp"
+   ],
+   "answer": "Warchief Thrall originally sent Grommash Hellscream and the Warsong clan into Ashenvale during the Third War specifically to harvest lumber. The Labor Camp stands as an active continuation of those original logging efforts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The lumber harvested by these loggers is crucial to building and maintaining Orgrimmar, making their remote work station a vital economic lifeline in contested territory."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The camp represents a continuous wound in the living woods of Ashenvale, deforesting ancestral groves to fuel the warmachine of Durotar."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "dor'danil",
+  "fallen sky lake",
+  "labor camp",
+  "loggers",
+  "lumber",
+  "timber",
+  "warsong"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "quest:1035",
+  "subzone:dor-danil-barrow-den",
+  "topic:grommash-hellscream",
+  "npc:thrall",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Warsong Labor Camp"
+ ]
+}

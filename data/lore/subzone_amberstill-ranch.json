@@ -1,0 +1,87 @@
+{
+ "key": "subzone:amberstill-ranch",
+ "type": "subzone",
+ "name": "Amberstill Ranch",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Amberstill Ranch"
+ },
+ "summary": "Amberstill Ranch is a tranquil dwarven homestead nestled along the snowy roadway toward Loch Modan, directly north of Gol'Bolar Quarry. It serves as the primary breeding and training grounds for Ironforge's celebrated mountain rams. Adventurers visit the ranch to acquire hardy dwarven mounts, train in riding, or help the family defend their livestock from local predators.",
+ "sections": [
+  {
+   "title": "Home of the Mountain Rams",
+   "body": "Tucked against the crags of Dun Morogh, Amberstill Ranch is renowned throughout Khaz Modan for raising the sturdiest mountain rams in the Eastern Kingdoms. The Amberstill family manages the stables and paddocks, training these sure-footed beasts to navigate treacherous snowy passes and steep alpine cliffs. Outside of supplying riding mounts and domestic livestock, the family often contends with the savage fauna of the hills, particularly wandering wendigos drawn by the scent of fresh flock.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Amberstill Ranch known for?",
+   "aliases": [
+    "amberstill purpose",
+    "why visit amberstill",
+    "amberstill rams"
+   ],
+   "answer": "The ranch is the Alliance's central hub for breeding Barak Tor'ol mountain rams. Dwarves and honored Alliance champions come here to learn ram riding and purchase mounts from the local stable masters."
+  },
+  {
+   "q": "Can non-dwarves purchase mounts here?",
+   "aliases": [
+    "buy rams non dwarf",
+    "human buy ram",
+    "ram mount requirements"
+   ],
+   "answer": "Rams are traditionally reserved for dwarven riders who understand their stubborn temperament. Members of other Alliance races may only learn to ride and purchase them if they have earned the utmost trust and exalted standing with Ironforge."
+  },
+  {
+   "q": "What threats does the ranch face?",
+   "aliases": [
+    "amberstill danger",
+    "wendigo threat",
+    "vagash quest"
+   ],
+   "answer": "The herd is under constant threat from hungry wendigos descending from the frozen bluffs. The most notorious predator prowling the surrounding heights is Vagash, a massive wendigo that regularly targets the vulnerable livestock."
+  },
+  {
+   "q": "Can you obtain anything else at the ranch?",
+   "aliases": [
+    "amberstill rabbit",
+    "snowshoe rabbit pet",
+    "yarlyn amberstill"
+   ],
+   "answer": "Young Yarlyn Amberstill keeps a collection of domestic snowshoe rabbits and is willing to sell crated rabbits to travelers looking for a companion pet on the road."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarven adventurers, the ranch is a proud cultural cornerstone where young heroes acquire their first Barak Tor'ol ram mount."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The sturdy rams raised by the Amberstills provide the Alliance with dependable, cold-weather cavalry suitable for rugged mountain terrain."
+  }
+ ],
+ "keywords": [
+  "amberstill",
+  "mount vendor",
+  "rams",
+  "ranch",
+  "riding trainer",
+  "snowshoe rabbit",
+  "vagash",
+  "yarlyn"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "zone:lochmodan",
+  "zone:ironforge",
+  "subzone:gol-bolar-quarry",
+  "quest:314",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Amberstill Ranch"
+ ]
+}

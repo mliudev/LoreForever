@@ -1,0 +1,129 @@
+{
+ "key": "quest:1011",
+ "type": "quest",
+ "name": "Forsaken Diseases",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1011
+  ],
+  "level": "29",
+  "faction": "Alliance",
+  "start": "Kayneth Stillwind",
+  "end": "",
+  "previous": null,
+  "next": "Insane Druids (Classic)",
+  "wiki": "Forsaken Diseases",
+  "chain": [
+   "Forsaken Diseases",
+   "Insane Druids (Classic)"
+  ]
+ },
+ "summary": "Deep in eastern Ashenvale, the night elf scout Kayneth Stillwind watches the encroaching Forsaken with growing alarm. Believing the undead are brewing blights to ravage sacred elven lands, he directs Alliance champions to raid an encampment near the Dor'Danil Barrow Den and secure a sample of their foul concoctions.",
+ "sections": [
+  {
+   "title": "A Plague on the Forests",
+   "body": "The night elves of Forest Song have long contended with satyrs, raging elementals, and orcish logging crews, but the arrival of the Forsaken marks a darker turn. Rather than merely felling timber, the undead arm of the Horde is establishing footholds near ancient ruins and sacred barrow dens. Their presence brings not only war, but the horrific specter of alchemical plague into pristine Kaldorei groves.",
+   "spoiler": 0
+  },
+  {
+   "title": "Infiltration at Dor'Danil",
+   "body": "South of Forest Song, near the Dor'Danil Barrow Den, Forsaken apothecaries and scouts have set up a fortified camp. There, amidst brewing caldrons and foul reagents, they bottle untested toxins. Kayneth Stillwind tasks scouts with infiltrating the camp to retrieve an intact Bottle of Disease so its volatile contents can be analyzed before the Forsaken can unleash it across the forest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kayneth Stillwind?",
+   "aliases": [
+    "kayneth stillwind",
+    "who gives forsaken diseases",
+    "forest song questgiver"
+   ],
+   "answer": "Kayneth Stillwind is an Alliance scout stationed at the outpost of Forest Song in eastern Ashenvale. He monitors hostile movements throughout the region, specifically tracking threats posed by the Forsaken and corrupting influences near the barrow dens."
+  },
+  {
+   "q": "Where is the Forsaken camp located?",
+   "aliases": [
+    "where is the camp",
+    "where are the diseased bottles",
+    "dor'danil camp location"
+   ],
+   "answer": "The Forsaken encampment lies directly south of Forest Song, established in the vicinity of the Dor'Danil Barrow Den. The undead forces have gathered there around brewing tables and tents to concoct their biological mixtures."
+  },
+  {
+   "q": "Why are the Forsaken in Ashenvale?",
+   "aliases": [
+    "why forsaken in ashenvale",
+    "undead in ashenvale",
+    "forsaken motives"
+   ],
+   "answer": "While the orcs primarily seek lumber and territory in Ashenvale, the Forsaken pursue sinister alchemical and biological goals. Operating near ancient Kaldorei barrows, they gather reagents and brew toxic compounds, raising elven fears that they intend to infect the land itself."
+  },
+  {
+   "q": "What happens after retrieving the bottle?",
+   "aliases": [
+    "what next",
+    "after forsaken diseases",
+    "quest follow up"
+   ],
+   "answer": "Kayneth Stillwind examines the captured bottle to identify its composition. His investigation immediately leads into discovering the plight of the sleeping druids inside the nearby Dor'Danil Barrow Den, prompting the follow-up quest Insane Druids."
+  },
+  {
+   "q": "What is Forest Song?",
+   "aliases": [
+    "forest song outpost",
+    "what is forest song"
+   ],
+   "answer": "Forest Song is an Alliance encampment and ruined night elf settlement in far eastern Ashenvale, situated near the border of Azshara. It serves as a vital staging post for night elf scouts watching the surrounding wilderness."
+  },
+  {
+   "q": "What are the barrow dens in Ashenvale?",
+   "aliases": [
+    "what is a barrow den",
+    "dor'danil purpose",
+    "barrow dens"
+   ],
+   "answer": "Barrow dens are sacred underground sanctuaries where night elf druids slumber in communion with the Emerald Dream. Dor'Danil Barrow Den is one such site, making the nearby presence of the Forsaken particularly alarming to the Kaldorei."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei, the undead intrusion near a sacred barrow den is an intolerable desecration. Defending the slumbering druids and the purity of Ashenvale from vile toxins is a matter of survival and honor."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold the barrow dens as sacred ground for their communion with the Emerald Dream. Uncovering bottled blights near Dor'Danil strikes at the very heart of the Cenarion Circle's guardianship."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Horde's Forsaken allies bring horrifying chemical warfare to Ashenvale, proving to Alliance leadership that the conflict in the forest extends far beyond simple border disputes over wood."
+  }
+ ],
+ "keywords": [
+  "apothecary",
+  "ashenvale",
+  "bottle of disease",
+  "dor'danil barrow den",
+  "forest song",
+  "forsaken",
+  "forsaken diseases",
+  "kayneth stillwind",
+  "night elf"
+ ],
+ "related": [
+  "quest:1012",
+  "quest:4581",
+  "subzone:forest-song",
+  "subzone:dor-danil-barrow-den",
+  "zone:ashenvale",
+  "topic:forsaken",
+  "topic:druid",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Forsaken Diseases"
+ ]
+}

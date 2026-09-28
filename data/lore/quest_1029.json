@@ -1,0 +1,111 @@
+{
+ "key": "quest:1029",
+ "type": "quest",
+ "name": "Raene's Cleansing",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1029
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Shael'dryn",
+  "end": "Raene Wolfrunner",
+  "previous": "Raene's Cleansing (7)",
+  "next": "Raene's Cleansing (9)",
+  "wiki": "Raene's Cleansing (8)",
+  "chain": []
+ },
+ "summary": "This step in the long-running Ashenvale investigation sees Dartol's Rod of Transformation fully restored. Entrusted with the completed artifact by the priestess Shael'dryn, you return to Raene Wolfrunner in Astranaar to report success and honor the memory of the fallen scout Teronis.",
+ "sections": [
+  {
+   "title": "The Rod Restored",
+   "body": "After scouring the corrupted reaches of Ashenvale for components and ancient gem fragments, the relic known as Dartol's Rod of Transformation has finally been reforged. Entrusted to the dryad and priestess Shael'dryn at Iris Lake, its magical properties were cleansed and renewed. With the craftsmanship complete, she directs you back across the forest roads to Astranaar to present the artifact to Raene Wolfrunner.",
+   "spoiler": 0
+  },
+  {
+   "title": "Honoring Teronis",
+   "body": "The entire endeavor began as an expedition led by Teronis, a promising young night elf sentinel who sought ancient relics to push back against demonic and satyr corruption in Ashenvale. Teronis died at the hands of the vile murlocs of the lake before he could see his task fulfilled. Returning the restored rod to Raene Wolfrunner marks a bittersweet victory, ensuring his dangerous sacrifice was not in vain.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Dartol's Rod of Transformation?",
+   "aliases": [
+    "dartols rod",
+    "what does the rod do"
+   ],
+   "answer": "It is an ancient night elf artifact sought by the fallen scout Teronis. When assembled and empowered, it holds subtle shapeshifting magic capable of altering the bearer's form into a furbolg, though its primary purpose here is serving as a cleansed relic for the defense of Ashenvale."
+  },
+  {
+   "q": "Who was Teronis?",
+   "aliases": [
+    "who is teronis",
+    "teronis death"
+   ],
+   "answer": "Teronis was a young night elf sentinel tasked by Raene Wolfrunner to locate components of ancient magic in Ashenvale. He was ambushed and slain by corrupted murlocs near Lake Falathim, leaving the completion of his vital mission to passing Alliance travelers."
+  },
+  {
+   "q": "Who is Raene Wolfrunner?",
+   "aliases": [
+    "raene",
+    "raene wolfrunner"
+   ],
+   "answer": "Raene Wolfrunner is an experienced night elf sentinel commander stationed in the heart of Astranaar. She oversees the defense of central Ashenvale against invading demonic taint, hostile satyrs, and local beast corruptions."
+  },
+  {
+   "q": "Who is Shael'dryn?",
+   "aliases": [
+    "shaeldryn",
+    "iris lake priestess"
+   ],
+   "answer": "Shael'dryn is an Elune-devoted priestess residing quietly near the Moonwell at Iris Lake. Her deep spiritual knowledge and attunement to sacred night elf rituals allow her to purify corrupted relics and restore ancient tools of power."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "quest location",
+    "where do i go"
+   ],
+   "answer": "This errand takes you from the tranquil banks of Iris Lake in north-central Ashenvale back south along the main trails into Astranaar, the primary Alliance hub of the zone."
+  },
+  {
+   "q": "What happens after presenting the rod to Raene?",
+   "aliases": [
+    "next quest",
+    "raenes cleansing continuation"
+   ],
+   "answer": "Raene expresses deep relief and pride that Teronis's final mission succeeded. However, the cleansing of Ashenvale is far from over, and she immediately looks for ways to employ the rod's power against the woodland's persistent corruption."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Carrying Teronis's legacy brings closure to Astranaar, proving that fallen kin will not be forgotten amid the rising threats to Kalimdor's sacred groves."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Astranaar stands as the Alliance's anchor in Ashenvale; assisting Raene Wolfrunner directly cements your standing among the reclusive Sentinels."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "dartol's rod",
+  "raene wolfrunner",
+  "raene's cleansing",
+  "shael'dryn",
+  "teronis"
+ ],
+ "related": [
+  "npc:raene-wolfrunner",
+  "npc:shael-dryn",
+  "subzone:astranaar",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Raene's Cleansing (8)"
+ ]
+}

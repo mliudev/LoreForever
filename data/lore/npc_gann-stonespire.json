@@ -1,0 +1,90 @@
+{
+ "key": "npc:gann-stonespire",
+ "type": "npc",
+ "name": "Gann Stonespire",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Gann Stonespire",
+  "refs": 2
+ },
+ "summary": "Gann Stonespire is an aggrieved tauren nomad found wandering the roads of the southern Barrens near Bael Modan. Driven from his tribe's ancestral hunting grounds by dwarven excavators, he seeks retaliation against the encroaching dig site.",
+ "sections": [
+  {
+   "title": "Displaced from Bael Modan",
+   "body": "Before the dwarven expedition arrived from Ironforge to carve out the fortress of Bael Modan, the surrounding land served as ancestral territory and hunting grounds for Gann Stonespire's tribe. The dwarven miners drove the indigenous tauren from their soil with pickaxes, firearms, and heavy machinery, refusing peaceful overtures. Now camping along the dusty southern Barrens road, Gann refuses to quietly surrender his heritage, marshaling travelers to strike back at the excavators.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reclamation and Sabotage",
+   "body": "Recognizing that peaceful diplomacy has completely failed, Gann directs Horde operatives to break the dwarves' hold over the dig site. His retribution targets key expedition leadership, notably Prospector Khazgorm, before repurposing dwarven blasting powder and ordnance into an explosive charge. By detonating the contraption directly beneath the dwarven flying machine, Gann aims to cripple their technological advantage and reclaim honor for his displaced people.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gann Stonespire?",
+   "aliases": [
+    "who is gann",
+    "gann stonespire lore",
+    "tauren outside bael modan"
+   ],
+   "answer": "Gann Stonespire is a tauren warrior whose tribe once inhabited the lands now occupied by the dwarven fortress of Bael Modan. Having been displaced when the dwarves established their dig site, he now waits by the roadside in the southern Barrens seeking vengeance and the reclamation of his people's homeland."
+  },
+  {
+   "q": "Why is Gann fighting the dwarves of Bael Modan?",
+   "aliases": [
+    "why does gann hate dwarves",
+    "why attack bael modan",
+    "gann bael modan conflict"
+   ],
+   "answer": "The Bael'dun dwarven expedition arrived in the southern Barrens and forcefully ejected the local tauren from their ancestral hunting grounds to construct their excavation fortress. After the dwarves rejected all diplomatic efforts, Gann resolved to dismantle their operation through force."
+  },
+  {
+   "q": "What is Gann's plan against the excavation?",
+   "aliases": [
+    "gann's revenge plan",
+    "what does gann do",
+    "bael modan bomb"
+   ],
+   "answer": "Gann first commissions the death of dwarven overseers, including Prospector Khazgorm, to seize excavation records. Using stolen dwarven ordnance and blasting supplies, he then orchestrates the assembly of a bomb to destroy the expedition's flying machine and disrupt their technological dominance."
+  },
+  {
+   "q": "Where does Gann Stonespire make his camp?",
+   "aliases": [
+    "where is gann",
+    "gann stonespire location"
+   ],
+   "answer": "He can be found wandering near the Spearhead camp alongside the road in the southern Barrens, positioned just outside the perimeter of the Bael Modan excavation site."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Gann's plight represents the broader struggle of the nomadic tauren, whose ancestral ranges and sacred earth are repeatedly desecrated by foreign Alliance expeditions."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Assisting Gann provides the Horde a vital tactical opportunity to blunt Alliance expansionism entrenched within the southern Barrens."
+  }
+ ],
+ "keywords": [
+  "bael modan",
+  "bael'dun",
+  "gann stonespire",
+  "prospector khazgorm",
+  "southern barrens",
+  "stonespire"
+ ],
+ "related": [
+  "subzone:bael-modan",
+  "quest:843",
+  "quest:846",
+  "topic:tauren",
+  "zone:barrens",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Gann Stonespire"
+ ]
+}

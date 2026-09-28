@@ -1,0 +1,126 @@
+{
+ "key": "npc:thrall",
+ "type": "npc",
+ "name": "Thrall",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Thrall",
+  "refs": 5
+ },
+ "summary": "Thrall is the Warchief of the Horde and the ruler of Durotar, holding court from the Valley of Wisdom in Orgrimmar. Once a human slave raised to be an arena gladiator, he broke the chains of his people, rediscovered their ancient shamanic traditions, and led them across the Great Sea to build a new homeland.",
+ "sections": [
+  {
+   "title": "From Slave to Shaman",
+   "body": "Born Go'el, the son of Frostwolf chieftain Durotan and Draka, Thrall was orphaned as an infant when his parents were murdered by Gul'dan's assassins. He was discovered by human commander Aedelas Blackmoore, who named him 'Thrall'\u2014meaning slave\u2014and raised him at Durnholde Keep as an arena fighter with an education in human tactics. Aided by his foster sister Taretha Foxton, Thrall eventually escaped his captors. Guided by the Frostwolf exile Drek'Thar, he cast aside demonic corruption to master the elemental spirits, becoming the first of a new generation of orcish shaman.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Mantle of the Warchief",
+   "body": "Thrall joined forces with the legendary Orgrim Doomhammer to liberate the lethargic orcs languishing in Alliance internment camps after the Second War. When Doomhammer fell in battle, he bestowed his black plate armor and mighty warhammer upon Thrall, naming him the new Warchief. Following prophetic visions from the mysterious Prophet Medivh, Thrall led his people to commandeer human ships and sail across the Great Sea to the forgotten continent of Kalimdor, escaping the doom falling upon the Eastern Kingdoms.",
+   "spoiler": 0
+  },
+  {
+   "title": "Forging the New Horde",
+   "body": "In Kalimdor, Thrall reshaped the Horde from a warmongering engine into an alliance of survival and honor. He rescued the Darkspear trolls led by Vol'jin and allied with Cairne Bloodhoof's tauren before leading the coalition alongside human and night elf forces to defeat the Burning Legion atop Mount Hyjal. Afterward, Thrall founded the nation of Durotar and its capital Orgrimmar, named after his father and mentor. Despite maintaining an uneasy peace with Jaina Proudmoore's Theramore, Thrall now balances the defense of his fragile nation with controversial alliances, such as admitting the Forsaken of Lordaeron into the Horde fold.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Thrall?",
+   "aliases": [
+    "who is the warchief",
+    "thrall backstory",
+    "who is thrall"
+   ],
+   "answer": "Thrall is the Warchief of the Horde and the leader of the orcish people. Born Go'el of the Frostwolf clan, he was raised as an enslaved gladiator by humans before breaking free, learning the shamanic arts, and leading the orcs to Kalimdor to found their new capital of Orgrimmar."
+  },
+  {
+   "q": "Where does Thrall's name come from?",
+   "aliases": [
+    "why is he called thrall",
+    "what does thrall mean",
+    "thrall real name"
+   ],
+   "answer": "His birth name is Go'el, given by his parents Durotan and Draka. His human captor, Aedelas Blackmoore, named him 'Thrall'\u2014an old human word meaning slave. Thrall retained the name as a reminder of where he came from and the oppression his people swore never to endure again."
+  },
+  {
+   "q": "Why does Thrall wear black armor and carry a hammer?",
+   "aliases": [
+    "doomhammer",
+    "thrall weapon",
+    "black armor"
+   ],
+   "answer": "Thrall wears the black plate armor and wields the Doomhammer passed to him by Orgrim Doomhammer, the former Warchief. Upon receiving a mortal wound during the liberation of the internment camps, Orgrim bestowed both the weapon and the mantle of Warchief upon Thrall with his dying breath."
+  },
+  {
+   "q": "Where can I find Thrall in the game?",
+   "aliases": [
+    "where is thrall",
+    "thrall location",
+    "thrall room"
+   ],
+   "answer": "Thrall resides inside the Valley of Wisdom within Orgrimmar, the Horde capital in Durotar. He stands inside Grommash Hold accompanied by his bodyguards and advisers."
+  },
+  {
+   "q": "What is Thrall's relationship with Jaina Proudmoore?",
+   "aliases": [
+    "thrall and jaina",
+    "jaina alliance",
+    "peace with theramore"
+   ],
+   "answer": "Thrall and Lady Jaina Proudmoore forged a mutual respect and pact of cooperation while fighting alongside each other during the Third War at Mount Hyjal. Though their respective factions remain deeply distrustful, the two leaders strive to preserve a fragile peace between Orgrimmar and Theramore."
+  },
+  {
+   "q": "Why did Thrall allow the Forsaken into the Horde?",
+   "aliases": [
+    "why are undead in horde",
+    "forsaken alliance",
+    "sylvanas horde entry"
+   ],
+   "answer": "While cautious of the undead, Thrall recognized the desperate plight of Sylvanas Windrunner's Forsaken, who had freed themselves from the Lich King's control. Aided by the diplomatic urging of the tauren, who believe the Forsaken can be redeemed, Thrall granted them membership to secure a strategic foothold in the Eastern Kingdoms."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Thrall is your supreme commander and Warchief, having led the Horde out of enslavement and ruin to claim an honorable future on Kalimdor."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance leaders view Thrall as a dangerous yet pragmatic leader whose disciplined Horde is vastly preferable to the bloodthirsty conquerors of the First and Second Wars."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Thrall is revered as the first new orcish shaman in a generation, having restored the sacred communion between his people and the elemental spirits after decades of demonic corruption."
+  },
+  {
+   "target": "race:Orc",
+   "text": "To the orcs, Thrall is a living savior who broke the lethargy of the human internment camps and returned the race to its ancestral honor."
+  }
+ ],
+ "keywords": [
+  "blackmoore",
+  "doomhammer",
+  "durotar",
+  "go'el",
+  "orgrimmar",
+  "shaman",
+  "thrall",
+  "warchief"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "zone:durotar",
+  "npc:orgrim-doomhammer",
+  "topic:new-horde",
+  "npc:vol-jin",
+  "npc:sylvanas-windrunner",
+  "subzone:durnholde-keep",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Thrall"
+ ]
+}

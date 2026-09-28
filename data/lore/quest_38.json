@@ -1,0 +1,122 @@
+{
+ "key": "quest:38",
+ "type": "quest",
+ "name": "Westfall Stew",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   38
+  ],
+  "level": "13",
+  "faction": "Alliance",
+  "start": "Salma Saldean",
+  "end": "",
+  "previous": "Westfall Stew (Classic)",
+  "next": null,
+  "wiki": "Westfall Stew (Classic 2)",
+  "chain": [
+   "Westfall Stew (Classic)",
+   "Westfall Stew (Classic 2)"
+  ]
+ },
+ "summary": "Westfall Stew is a hearty local recipe prepared by Salma Saldean on the Saldean Farm. Cobbled together from the rugged wildlife and foraging grounds of Westfall, the dish represents the resilient survival spirit of the region's homesteaders.",
+ "sections": [
+  {
+   "title": "A Homesteader's Necessity",
+   "body": "Westfall is a harsh frontier beset by bandits, famine, and rampaging beasts, leaving frontier settlers with little access to the lavish larders of Stormwind. Families like the Saldeans have learned to make do with what the land provides. Salma Saldean's stew transforms what many city folk would consider pests or inedible scraps into a sustaining staple capable of keeping working farmhands on their feet.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ingredients of Survival",
+   "body": "The recipe calls for a peculiar blend of frontier forage: local okra to thicken the bubbling broth, stringy scavenger meat cut from circling vultures, and snouts from the wild goretusks that root across the plains. Most notorious of all are fresh murloc eyes gathered from coastal raiders. While the thought of eating river beasts and carrion birds turns delicate stomachs in Elwynn, Westfall cooks swear the strange combination makes for a rich, fortifying meal.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does the recipe use murloc eyes?",
+   "aliases": [
+    "murloc eyes in food",
+    "why eat murlocs",
+    "murloc stew"
+   ],
+   "answer": "Westfall farmers face constant resource shortages and frequent raids by aggressive murlocs along the coast and riverbanks. Salma Saldean uses fresh murloc eyes to add unique moisture and flavor to the broth, turning an invasive threat into a practical source of food."
+  },
+  {
+   "q": "Who is Salma Saldean?",
+   "aliases": [
+    "salma",
+    "salma saldean lore",
+    "who makes westfall stew"
+   ],
+   "answer": "Salma Saldean is an Alliance homesteader living with her husband, Farmer Saldean, at the Saldean Farm in northern Westfall. Known for her hospitality and culinary resourcefulness, she feeds travelers and farmhands despite the encroaching banditry and chaos in the region."
+  },
+  {
+   "q": "Where does the okra come from?",
+   "aliases": [
+    "where to find okra",
+    "saldean okra",
+    "okra origin"
+   ],
+   "answer": "Okra is one of the few hardy vegetable crops still harvested on Westfall's struggling farms. Its pods release natural juices when boiled, serving as an essential thickening agent for frontier broths."
+  },
+  {
+   "q": "Is Westfall Stew considered good food?",
+   "aliases": [
+    "does westfall stew taste good",
+    "is westfall stew gross"
+   ],
+   "answer": "To refined nobles in Stormwind, a broth filled with boiled goretusk snouts and murloc eyes sounds grotesque. To the dirt-poor farmers and weary wanderers of Westfall, it is a warm, filling, and deeply cherished comfort meal."
+  },
+  {
+   "q": "Why do the Saldeans need adventurers to gather the ingredients?",
+   "aliases": [
+    "why gather ingredients",
+    "why salma needs help"
+   ],
+   "answer": "Westfall has become exceedingly dangerous. Wild goretusks, aggressive vultures, and hostile murlocs roam the fields and beaches, making foraging too hazardous for ordinary farmers who must remain behind to defend their homestead."
+  },
+  {
+   "q": "What animal provides the meat for the stew?",
+   "aliases": [
+    "what meat is in westfall stew",
+    "westfall stew meat"
+   ],
+   "answer": "The stew relies primarily on stringy vulture meat taken from the carrion birds soaring across Westfall, along with the snouts of wild goretusks hunted across the plains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Salma's dish is a masterclass in rustic frontier cooking, teaching aspiring chefs how to turn rough game, pungent snouts, and unusual shoreline harvests into a fortifying meal."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans outside the safety of Elwynn's protective walls, dishes like Westfall Stew embody the sheer grit and endurance needed to scratch out a living in the kingdom's forgotten breadbasket."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "While Stormwind's court enjoys fine wine and polished poultry, frontier Alliance outposts rely on rustic dishes like this to sustain their defense against local threats."
+  }
+ ],
+ "keywords": [
+  "goretusk snout",
+  "murloc eye",
+  "okra",
+  "saldean farm",
+  "salma saldean",
+  "vulture meat",
+  "westfall",
+  "westfall stew"
+ ],
+ "related": [
+  "quest:36",
+  "npc:salma-saldean",
+  "zone:westfall",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Westfall Stew (Classic 2)"
+ ]
+}

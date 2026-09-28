@@ -1,0 +1,69 @@
+{
+ "key": "subzone:sorrowmurk",
+ "type": "subzone",
+ "name": "Sorrowmurk",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Sorrowmurk"
+ },
+ "summary": "The Sorrowmurk is the treacherous wetland expanse lying directly east of the Pool of Tears in the Swamp of Sorrows. Long dominated by patrolling green dragonkin guarding the approach to the Sunken Temple, it remains one of the most perilous regions in the eastern marshes.",
+ "sections": [
+  {
+   "title": "A Perilous Border",
+   "body": "Stretching out along the eastern edge of the Pool of Tears, the Sorrowmurk is a dense and murky mire that borders the Great Sea. For years, the waters and tangled boughs have crawled with ferocious green dragonspawn and towering drakes, remnants of the brood sent to watch over the submerged temple of Atal'Hakkar. Their presence ensures that only seasoned travelers dare wander through its sodden reaches.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Sorrowmurk located?",
+   "aliases": [
+    "sorrowmurk location",
+    "where is sorrowmurk",
+    "sorrowmurk map"
+   ],
+   "answer": "The Sorrowmurk lies in the easternmost section of the Swamp of Sorrows, just beyond the Pool of Tears and the sunken ruins of the Temple of Atal'Hakkar, bordering the coast."
+  },
+  {
+   "q": "What creatures inhabit the Sorrowmurk?",
+   "aliases": [
+    "sorrowmurk mobs",
+    "what lives in sorrowmurk",
+    "sorrowmurk enemies"
+   ],
+   "answer": "The region is notorious for green dragonkin, including aggressive dragonspawn and large drakes that fiercely patrol the marsh around the temple waters."
+  },
+  {
+   "q": "Why are there green dragons in the Sorrowmurk?",
+   "aliases": [
+    "why dragons here",
+    "green dragonflight swamp of sorrows",
+    "temple dragons"
+   ],
+   "answer": "The Green Dragonflight was tasked by Ysera to watch over the Pool of Tears and ensure that the evil sunken within the Temple of Atal'Hakkar remained contained."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The sorrowful corruption touching the Emerald Dream's guardians in these wetlands makes the green dragonkin here a tragic sight for any servant of nature."
+  }
+ ],
+ "keywords": [
+  "atal'hakkar",
+  "dragonspawn",
+  "green dragonflight",
+  "green drake",
+  "pool of tears",
+  "sorrowmurk",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "zone:swampofsorrows",
+  "subzone:pool-of-tears"
+ ],
+ "attribution": [
+  "Sorrowmurk"
+ ]
+}

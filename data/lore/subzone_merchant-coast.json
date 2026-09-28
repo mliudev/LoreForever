@@ -1,0 +1,74 @@
+{
+ "key": "subzone:merchant-coast",
+ "type": "subzone",
+ "name": "Merchant Coast",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Merchant Coast"
+ },
+ "summary": "The Merchant Coast is the stretch of eastern shoreline in the Barrens bordering the Great Sea. Dominated by the bustling goblin port of Ratchet, the coast derives its name from lucrative sea trade, though it remains constantly contested by pirates.",
+ "sections": [
+  {
+   "title": "A Gateway for Commerce and Conflict",
+   "body": "Running along the eastern edge of the Barrens, the Merchant Coast serves as a vital maritime artery connecting central Kalimdor to the Eastern Kingdoms and Theramore. Its name honors the industrious goblin traders of the Steamwheedle Cartel, whose neutral port of Ratchet handles cargo for anyone with coin. However, the open sea lanes attract more than merchant vessels: Southsea Freebooters prowl the sands and nearby waters, preying on merchant ships and setting up illicit operations along the beaches.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is it called the Merchant Coast?",
+   "aliases": [
+    "merchant coast name origin",
+    "why called merchant coast"
+   ],
+   "answer": "The shoreline earned its name from the lucrative trade conducted through the goblin port of Ratchet. Steamwheedle merchants move cargo across the Great Sea from this coast to ports all around Azeroth."
+  },
+  {
+   "q": "What major settlements are on the Merchant Coast?",
+   "aliases": [
+    "towns on merchant coast",
+    "what is on merchant coast"
+   ],
+   "answer": "The most prominent settlement is Ratchet, a neutral goblin port city run by Gazlowe. Farther south along the coast lies the Alliance stronghold of Northwatch Hold, while Fray Island sits just offshore."
+  },
+  {
+   "q": "Who controls the beaches around here?",
+   "aliases": [
+    "pirates on merchant coast",
+    "who is attacking merchant coast"
+   ],
+   "answer": "While Ratchet controls the immediate harbor, the Southsea Freebooters have established encampments along the surrounding beaches. These pirates actively disrupt trade, rob goblin convoys, and challenge Ratchet's authority."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Merchant Coast is the Horde's primary commercial lifeline to the sea in the Barrens, making the security of Ratchet and suppression of local pirates vital for regional supply lines."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance maintains a nearby naval presence at Northwatch Hold, keeping a wary eye on both the goblin trade passing through Ratchet and the unruly Southsea pirates along the shore."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "great sea",
+  "merchant coast",
+  "ratchet",
+  "southsea freebooters",
+  "steamwheedle cartel"
+ ],
+ "related": [
+  "subzone:ratchet",
+  "zone:barrens",
+  "subzone:fray-island",
+  "quest:887",
+  "topic:goblin",
+  "topic:pirate",
+  "subzone:longshore"
+ ],
+ "attribution": [
+  "Merchant Coast"
+ ]
+}

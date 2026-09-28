@@ -1,0 +1,137 @@
+{
+ "key": "quest:5043",
+ "type": "quest",
+ "name": "Agamaggan's Agility",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   5043
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Mangletooth",
+  "end": "",
+  "previous": "Blood Shards of Agamaggan",
+  "next": null,
+  "wiki": "Agamaggan's Agility",
+  "chain": [
+   "Blood Shards of Agamaggan",
+   "Agamaggan's Agility",
+   "Agamaggan's Strength",
+   "Razorhide",
+   "Rising Spirit",
+   "Spirit of the Wind",
+   "Wisdom of Agamaggan"
+  ]
+ },
+ "summary": "Agamaggan's Agility is a repeatable blood shard ritual offered by the captive quilboar Mangletooth in Camp Taurajo. By offering crystalline blood shards mined from the earth of the Barrens, travelers are blessed with the unerring swiftness and accuracy of the quilboar's ancient boar god.",
+ "sections": [
+  {
+   "title": "The Power of Blood Shards",
+   "body": "Throughout the Barrens, strange crimson minerals known as blood shards jut from the soil, especially near quilboar encampments and colossal brambles. Quilboar tradition teaches that these crystals were formed from the spilled blood of Agamaggan, the Great Boar Ancient who perished fighting the Burning Legion in the War of the Ancients. Even locked inside a wooden cage at Camp Taurajo, the elder quilboar Mangletooth retains the knowledge to channel this dormant divine power for anyone willing to supply the stones.",
+   "spoiler": 0
+  },
+  {
+   "title": "Blessing of the Boar Scouts",
+   "body": "Quilboar hunters and scouts pride themselves on ruthless accuracy and blinding quickness in the scrublands. In exchange for four blood shards, Mangletooth invokes the latent energy of the fallen demi-god, infusing the petitioner with the predatory instincts and supple grace of his people's best stalkers. Though he grunts with disdain at outsiders, Mangletooth honors his pact, weaving Agamaggan's power into a temporary mantle of agility.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers Agamaggan's Agility?",
+   "aliases": [
+    "who gives quest",
+    "quest giver",
+    "where is mangletooth"
+   ],
+   "answer": "The quest is offered by Mangletooth, a quilboar geomancer kept captive in a cage at Camp Taurajo in the southern Barrens. Despite his imprisonment by the Horde, he gladly bargains with adventurers who bring him blood shards."
+  },
+  {
+   "q": "What are blood shards?",
+   "aliases": [
+    "blood shards lore",
+    "what is a blood shard",
+    "red crystals in barrens"
+   ],
+   "answer": "Blood shards are crystalline stones found throughout the Barrens, primarily gathered from slain quilboar and mineral outcrops near thorn thickets. Quilboar lore holds that they formed millennia ago when the blood of the Great Boar Ancient Agamaggan drenched the earth."
+  },
+  {
+   "q": "Why is a captive quilboar helping Horde members?",
+   "aliases": [
+    "why help us",
+    "mangletooth motives",
+    "why does mangletooth talk"
+   ],
+   "answer": "Mangletooth's loyalties lie with his god, Agamaggan, and his own survival. While he snorts contemptuously at non-quilboar, he eagerly trades Agamaggan's divine blessings for blood shards, allowing him to handle his deity's sacred essence even from inside an enemy cage."
+  },
+  {
+   "q": "Can you receive this blessing more than once?",
+   "aliases": [
+    "is this repeatable",
+    "can i redo this",
+    "repeatable buff"
+   ],
+   "answer": "Yes. This ritual is fully repeatable. As long as you present four fresh blood shards to Mangletooth, he will invoke the blessing of the Great Boar anew."
+  },
+  {
+   "q": "Who was Agamaggan?",
+   "aliases": [
+    "who is agamaggan",
+    "boar god",
+    "great boar"
+   ],
+   "answer": "Agamaggan was a colossal boar Ancient who walked Kalimdor during the ancient mythic era. During the War of the Ancients ten thousand years ago, he fought and fell against the demons of the Burning Legion. His blood nourished the Barrens, giving rise to its impenetrable razor thorns and the quilboar race."
+  },
+  {
+   "q": "What other blessings does Mangletooth provide?",
+   "aliases": [
+    "other blood shard quests",
+    "other buffs",
+    "mangletooth rewards"
+   ],
+   "answer": "Beyond agility, Mangletooth offers rites honoring other aspects of Agamaggan. In exchange for blood shards, he can grant blessings enhancing raw physical strength, intellectual wisdom, swift running speed, and skin as thick as razorhide."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Mangletooth specifically scoffs at the speed of non-quilboar rogues, making this ritual a quiet vindication when turning the beast's sacred speed against the tribes of the scrublands."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The focus of Agamaggan's agility lies in unerring aim and swift stalking, virtues deeply prized by sharpshooters traversing the open expanses of Kalimdor."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Tauren respect the power of the ancient Ancients who died in the War of the Ancients, though dealing with a caged quilboar in Taurajo is an uneasy compromise."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde forces at Camp Taurajo tolerate Mangletooth's presence and blood shard bargains solely because harnessing the boar god's residual power aids their hard-fought campaign across the Barrens."
+  }
+ ],
+ "keywords": [
+  "agamaggan",
+  "agility",
+  "barrens",
+  "blood shards",
+  "mangletooth",
+  "quilboar",
+  "taurajo"
+ ],
+ "related": [
+  "npc:mangletooth",
+  "quest:5052",
+  "quest:5042",
+  "quest:5044",
+  "quest:5046",
+  "topic:agamaggan",
+  "topic:quilboar",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Agamaggan's Agility"
+ ]
+}

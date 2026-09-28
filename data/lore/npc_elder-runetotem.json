@@ -1,0 +1,89 @@
+{
+ "key": "npc:elder-runetotem",
+ "type": "npc",
+ "name": "Elder Runetotem",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Elder Runetotem",
+  "refs": 1
+ },
+ "summary": "Elder Runetotem is an ancestral tauren spirit appearing outside Razor Hill in Durotar during the Lunar Festival. As one of the revered elders of the Horde, she offers wisdom and her blessing to travelers who seek her out across the red canyons.",
+ "sections": [
+  {
+   "title": "A Spirit in Durotar",
+   "body": "Though ancestral tauren spirits are typically tied to the grassy plains and sacred burial grounds of Mulgore, Elder Runetotem lingers far from the pastures of her people. She manifests beside the dusty settlement of Razor Hill in Durotar. To young orcs and wandering adventurers, her ethereal presence serves as a bridge between the ancient traditions of the Shu'halo and the harsh new home the Horde has carved along the Great Sea.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ancestral Honors",
+   "body": "During the Lunar Festival, the spirits of great leaders, shamans, and heroes manifest throughout the world to commune with the living. Elder Runetotem represents the Runetotem line\u2014a lineage known for deep reverence for the Earth Mother and spiritual communion. Travelers honoring her presence are granted ancestral tokens and her spiritual blessing.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Elder Runetotem?",
+   "aliases": [
+    "elder runetotem lore",
+    "who is the tauren ghost in razor hill",
+    "runetotem ghost"
+   ],
+   "answer": "Elder Runetotem is a ghostly tauren ancestor who manifests near Razor Hill in Durotar. She is one of the honored elders who returns during the Lunar Festival to greet travelers and grant ancestral blessings."
+  },
+  {
+   "q": "Why is a tauren spirit located in Durotar?",
+   "aliases": [
+    "why is runetotem in razor hill",
+    "tauren ghost durotar"
+   ],
+   "answer": "While most tauren ancestral spirits are rooted in Mulgore, the spirits of the Lunar Festival wander far and wide across Kalimdor and the Eastern Kingdoms. Her presence in Razor Hill allows Horde travelers passing through Durotar to pay their respects to the wisdom of the Earth Mother's children."
+  },
+  {
+   "q": "What connection does she have to the Runetotem tribe?",
+   "aliases": [
+    "runetotem tribe elder",
+    "runetotem family"
+   ],
+   "answer": "She bears the name of the Runetotem clan, one of the prominent tauren lineages renowned for their shamans, spiritual guides, and connections to the natural world."
+  },
+  {
+   "q": "What does speaking with her grant?",
+   "aliases": [
+    "what does elder runetotem give",
+    "runetotem reward"
+   ],
+   "answer": "Speaking with Elder Runetotem honors her memory during the Lunar Festival, rewarding adventurers with a Coin of Ancestry and a temporary blessing from the spirits."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Finding a venerable ancestor of the Runetotem tribe so far from Mulgore is a humbling reminder that the spirits of the Shu'halo watch over their allies across all lands."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Standing outside the heavily fortified settlement of Razor Hill, her presence embodies the spiritual alliance between the orcs of Durotar and the tauren of Mulgore."
+  }
+ ],
+ "keywords": [
+  "coin of ancestry",
+  "durotar",
+  "elder runetotem",
+  "lunar festival",
+  "razor hill",
+  "runetotem",
+  "tauren ghost"
+ ],
+ "related": [
+  "subzone:razor-hill",
+  "zone:durotar",
+  "quest:8670",
+  "topic:tauren",
+  "zone:mulgore",
+  "subzone:red-rocks"
+ ],
+ "attribution": [
+  "Elder Runetotem"
+ ]
+}

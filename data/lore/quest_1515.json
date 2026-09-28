@@ -1,0 +1,136 @@
+{
+ "key": "quest:1515",
+ "type": "quest",
+ "name": "Dogran's Captivity",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1515
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Grunt Logmar",
+  "end": "Grunt Dogran",
+  "previous": "Ken'zigla's Draught (quest)",
+  "next": "Love's Gift",
+  "wiki": "Dogran's Captivity",
+  "chain": [
+   "Devourer of Souls (Orgrimmar)",
+   "Blind Cazul",
+   "News of Dogran",
+   "News of Dogran (2)",
+   "Ken'zigla's Draught (quest)",
+   "Dogran's Captivity",
+   "Love's Gift",
+   "The Binding (Succubus, Orgrimmar)"
+  ]
+ },
+ "summary": "Dogran's Captivity is a vital trial in an aspiring Horde warlock's training, sending practitioners into the heart of a quilboar camp to rescue a captured orc warrior. Entrusted with a revitalizing concoction, the warlock must locate the battered Grunt Dogran and supply him with the strength needed to escape his captors.",
+ "sections": [
+  {
+   "title": "A Lonely Rescue",
+   "body": "Grunt Logmar at Camp Taurajo refuses to risk Horde military manpower on a costly raid against the entrenched quilboar, leaving the fate of his comrade Dogran entirely in the hands of an enterprising warlock. Armed solely with Ken'zigla's Draught, the rescuer must venture north among the brambles and hostile camps to locate where Dogran is held captive.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of Blood",
+   "body": "Dogran is discovered brutally battered and surrounded by hostile quilboar in a cluster of huts north of Taurajo. Though the bitter draught provides just enough vigor to allow the warrior to hobble away to safety, the rescue comes at a heavy cost: Dogran's severe injuries leave him permanently maimed, costing him an arm and a leg.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Grunt Dogran held?",
+   "aliases": [
+    "dogran location",
+    "where is dogran",
+    "find dogran barrens"
+   ],
+   "answer": "Grunt Dogran is held captive in a small cluster of two quilboar huts directly north of Camp Taurajo in the Barrens."
+  },
+  {
+   "q": "Why won't Grunt Logmar send soldiers to help?",
+   "aliases": [
+    "why no horde guard help",
+    "logmar soldiers",
+    "taurajo reinforcements"
+   ],
+   "answer": "Grunt Logmar cannot spare any troops from Camp Taurajo's defense, believing a rescue mission into heavily guarded quilboar territory too risky to justify committing additional military lives."
+  },
+  {
+   "q": "What is Ken'zigla's Draught?",
+   "aliases": [
+    "kenzigla potion",
+    "what is the draught",
+    "dogran medicine"
+   ],
+   "answer": "It is a potent, foul-tasting restorative tonic brewed specifically to give the gravely injured Dogran enough physical strength to stand and escape quilboar captivity."
+  },
+  {
+   "q": "What condition is Dogran in when found?",
+   "aliases": [
+    "dogran injuries",
+    "is dogran alive",
+    "dogran arm leg"
+   ],
+   "answer": "Dogran is on the brink of death, having suffered extensive wounds and torture at the hands of the quilboar. Even after drinking the draught, his arm and leg are damaged beyond repair."
+  },
+  {
+   "q": "How does this rescue relate to summoning a succubus?",
+   "aliases": [
+    "why do warlocks do this",
+    "succubus quest connection",
+    "warlock quest dogran"
+   ],
+   "answer": "Dogran possesses a token connected to love and mortal devotion\u2014emotions and concepts warlocks exploit to summon and bind a succubus to their will."
+  },
+  {
+   "q": "Who captured Dogran?",
+   "aliases": [
+    "who took dogran",
+    "dogran captors",
+    "barrens kidnappers"
+   ],
+   "answer": "He was captured by the indigenous quilboar tribes dwelling in the brambles north of Camp Taurajo."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This rescue serves as an essential stepping stone toward understanding mortal passion and sacrifice, prerequisites for summoning a succubus."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Dogran's predicament illustrates the constant danger quilboar pose to Horde patrols and outposts throughout the central Barrens."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Even when faced with maiming and torture at the hands of quilboar captors, Dogran's endurance showcases the fierce resilience expected of an orcish grunt."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "dogran",
+  "draught",
+  "ken'zigla",
+  "logmar",
+  "quilboar",
+  "succubus",
+  "taurajo",
+  "warlock"
+ ],
+ "related": [
+  "quest:1511",
+  "quest:1512",
+  "quest:1471",
+  "quest:1509",
+  "npc:grunt-dogran",
+  "npc:grunt-logmar",
+  "topic:quilboar",
+  "subzone:camp-taurajo"
+ ],
+ "attribution": [
+  "Dogran's Captivity"
+ ]
+}

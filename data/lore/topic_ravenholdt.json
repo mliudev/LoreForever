@@ -1,0 +1,123 @@
+{
+ "key": "topic:ravenholdt",
+ "type": "topic",
+ "name": "Ravenholdt",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Ravenholdt"
+ },
+ "summary": "Ravenholdt, also known as the Assassin's League, is an elite guild of rogues, thieves, and killers based out of a secluded mountain manor above the Hillsbrad Foothills. Led by Lord Jorach Ravenholdt, the league maintains strict neutrality from faction politics while waging an unending shadow war against their bitter rivals, the Syndicate. They test and recruit only the most cunning operatives across Azeroth, valuing peerless discipline, stealth, and lethal efficiency above all else.",
+ "sections": [
+  {
+   "title": "The Hidden League",
+   "body": "Tucked away in the craggy mountains connecting Hillsbrad to Alterac, Ravenholdt Manor serves as the nerve center for Azeroth's premier brotherhood of assassins. Led by Lord Jorach Ravenholdt, the organization operates far beyond the jurisdiction of kings and warchiefs. Within its walls, master specialists hone every lethal art: Master Kang instructs disciples in close combat and assassination, the Thunderwood brothers brew rare and deadly poisons, and gnome craftsmen engineer intricate locks to test fledglings. To non-rogues, entering the estate is an overt flirtation with death, where an unwary step easily ends with a poisoned dagger in the ribs.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadow War with the Syndicate",
+   "body": "For years, Ravenholdt has been locked in an escalating feud with the Syndicate, an aristocratic criminal cartel infesting Alterac and Arathi. While the League regards the Syndicate as clumsy, arrogant amateurs, their sheer numbers make them impossible to eradicate through simple slaughter. Instead, Ravenholdt employs psychological and structural disruption: by tasking contracted rogues with pickpocketing the signet emblems worn by Syndicate ringleaders, the League relies on the Syndicate's own paranoia and cutthroat hierarchy to execute disgraced members internally.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Independent Guild of Shadows",
+   "body": "Though Ravenholdt cooperates on occasion with other intelligence apparatuses like Stormwind's SI:7, they answer to no crown. Master Mathias Shaw occasionally finds Ravenholdt an ally in checking the Syndicate, yet Jorach Ravenholdt fiercely guards his autonomy. When SI:7 suffered heavy losses investigating the fallen ranger Nathanos Marris in the Plaguelands, Ravenholdt flatly refused Shaw's plea to intervene. The League picks its own battles, dedicating their resources to acquiring ancient relics, perfecting deadly arts, and keeping their blade at the throat of anyone foolish enough to cross them.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Ravenholdt?",
+   "aliases": [
+    "who are ravenholdt",
+    "what is the assassin's league",
+    "ravenholdt faction"
+   ],
+   "answer": "Ravenholdt is an ancient, clandestine guild of thieves, assassins, and shadow-dancers governed by Lord Jorach Ravenholdt. Known informally as the Assassin's League, they operate from a secret estate nestled deep in the mountains above Hillsbrad Foothills, training promising rogues and offering deadly contracts."
+  },
+  {
+   "q": "Why are they fighting the Syndicate?",
+   "aliases": [
+    "why syndicate vs ravenholdt",
+    "ravenholdt syndicate war",
+    "why do they hate the syndicate"
+   ],
+   "answer": "The Syndicate and Ravenholdt vie for dominance across the ruins of Alterac and the surrounding highlands. The League considers the Syndicate undisciplined, dishonorable brigands whose messy criminal operations threaten the subtle balance of power in the region. Rather than wipe them out through sheer attrition, Ravenholdt methodically undermines their leadership by stealing their emblems of rank."
+  },
+  {
+   "q": "Can non-rogues visit Ravenholdt Manor?",
+   "aliases": [
+    "can other classes go to ravenholdt",
+    "warrior at ravenholdt manor",
+    "is ravenholdt rogues only"
+   ],
+   "answer": "Non-rogues can physically reach the manor, but the residents do not welcome outsiders. Guards and assassins make thinly veiled threats about poisoned drinks and daggers in the back to anyone who wanders in without shadowcraft credentials or business with Lord Ravenholdt."
+  },
+  {
+   "q": "Who is Lord Jorach Ravenholdt?",
+   "aliases": [
+    "who leads ravenholdt",
+    "jorach ravenholdt",
+    "ravenholdt leader"
+   ],
+   "answer": "Lord Jorach Ravenholdt is the elusive master of the Assassin's League. Operating from his mountain estate, he maintains an extensive network of rogue trainers and informants across the continents, dispatching trusted disciples to recover powerful artifacts and neutralize rival threats."
+  },
+  {
+   "q": "What is the Rite of Cunning?",
+   "aliases": [
+    "rite of cunning",
+    "ravenholdt rogue trial",
+    "ravenholdt tunnel test"
+   ],
+   "answer": "It is an introductory test given to prospective disciples seeking Ravenholdt Manor. In the mountain tunnel leading to the grounds, an initiate must rely on their ability to detect traps to spot a warning sign near a treasure chest. Those who greedily tamper with the chest without sensing the danger trigger an ambush by the manor's warden, Milton Beats."
+  },
+  {
+   "q": "How does Ravenholdt view the Alliance and the Horde?",
+   "aliases": [
+    "is ravenholdt alliance or horde",
+    "ravenholdt alignment",
+    "who does ravenholdt work for"
+   ],
+   "answer": "Ravenholdt is entirely neutral regarding factional politics, accepting skilled cutthroats regardless of whether they hail from Orgrimmar or Ironforge. While they maintain cordial lines of communication with organizations like Stormwind's SI:7, they refuse to act as pawns for any kingdom's war effort."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Ravenholdt is your global fraternity and proving ground. The trainers, poison-brewers, and shadowmasters here offer trials, rare weapon schematics, and recognition that cannot be earned anywhere else in Azeroth."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "While Mathias Shaw and SI:7 occasionally coordinate with Ravenholdt to suppress the Syndicate, Lord Ravenholdt owes no allegiance to Stormwind and will casually rebuff high-stakes Alliance requests."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Despite its noble human exterior and location in the northern highlands, Ravenholdt judges operatives solely by their prowess, welcoming Horde stalkers who prove their mettle."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "assassin",
+  "fahrad",
+  "hillsbrad",
+  "jorach",
+  "lockpicking",
+  "manor",
+  "poisons",
+  "ravenholdt",
+  "syndicate"
+ ],
+ "related": [
+  "subzone:ravenholdt-manor",
+  "npc:lord-jorach-ravenholdt",
+  "topic:syndicate",
+  "zone:hillsbrad",
+  "zone:alterac",
+  "quest:8249",
+  "npc:mathias-shaw",
+  "quest:2300"
+ ],
+ "attribution": [
+  "Ravenholdt"
+ ]
+}

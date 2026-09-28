@@ -1,0 +1,118 @@
+{
+ "key": "quest:240",
+ "type": "quest",
+ "name": "Return to Jitters",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   240
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Chef Grual",
+  "end": "Jitters",
+  "previous": "Dusky Crab Cakes (Classic)",
+  "next": null,
+  "wiki": "Return to Jitters",
+  "chain": [
+   "Jitters' Growling Gut",
+   "Dusky Crab Cakes (Classic)",
+   "Return to Jitters"
+  ]
+ },
+ "summary": "Return to Jitters concludes Chef Grual's culinary errand in Duskwood. Having prepared his infamous 'crab' cakes using goo from the local pygmy spiders, Grual sends you back to the starving, terrified hermit in Darkshire. Delivering the meal finally satisfies Jitters' desperate hunger.",
+ "sections": [
+  {
+   "title": "A Dubious Delicacy",
+   "body": "Duskwood is short on conventional livestock and sea life, leaving Chef Grual at the Scarlet Raven Tavern to improvise with whatever the blighted forest provides. His renowned 'Dusky Crab Cakes' contain no actual crab meat at all, relying instead on gooey extracts harvested from the venomous pygmy spiders creeping through the wood. Grual considers this resourceful cooking; anyone with a delicate stomach might view it with horror.",
+   "spoiler": 0
+  },
+  {
+   "title": "Soothing Jitters' Nerves",
+   "body": "Jitters spends his days huddled in Darkshire, utterly consumed by fright and paralyzed by whatever horrors drove him out of the woods. Weak with terror and unable to muster the courage to hunt or forage for himself, his empty stomach only amplifies his distress. Receiving the warm cakes brings a rare moment of relief to the trembling vagrant, who is far too hungry to question what kind of 'crab' Chef Grual used.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in the Dusky Crab Cakes?",
+   "aliases": [
+    "crab cakes ingredients",
+    "what are dusky crab cakes made of",
+    "are they real crab"
+   ],
+   "answer": "There are no crabs in Duskwood. Chef Grual makes his specialty cakes using the gooey insides of local pygmy spiders, seasoning them to mimic traditional seafood cakes."
+  },
+  {
+   "q": "Does Jitters know the cakes are made of spider goo?",
+   "aliases": [
+    "does jitters know",
+    "does jitters know about the spiders"
+   ],
+   "answer": "Chef Grual keeps his culinary secret to himself, and Jitters is far too starved and terrified to ask about the recipe. He eagerly eats them without suspecting their true origin."
+  },
+  {
+   "q": "Why couldn't Jitters get his own food?",
+   "aliases": [
+    "why is jitters starving",
+    "why doesn't jitters hunt"
+   ],
+   "answer": "Jitters is completely overwhelmed by fear following his encounters in the wild woods of Duskwood. Paralyzed by panic, he refuses to venture far from town and relies on sympathetic travelers to bring him sustenance."
+  },
+  {
+   "q": "Who is Chef Grual?",
+   "aliases": [
+    "chef grual role",
+    "cook in darkshire"
+   ],
+   "answer": "Chef Grual is the cook at the Scarlet Raven Tavern in Darkshire. Faced with a town isolated by shadows and beasts, he uses whatever unconventional ingredients scavengers bring him to keep the local tavern fed."
+  },
+  {
+   "q": "Where does this quest chain begin?",
+   "aliases": [
+    "how to start jitters food quest",
+    "jitters quest chain start"
+   ],
+   "answer": "The errand begins with Jitters in Darkshire asking for help with his rumbling stomach in 'Jitters' Growling Gut', which leads to hunting pygmy spiders for Chef Grual before returning here with the finished meal."
+  },
+  {
+   "q": "Does Jitters recover after eating?",
+   "aliases": [
+    "is jitters cured",
+    "does food help jitters"
+   ],
+   "answer": "The meal satisfies his physical hunger and earns you his heartfelt gratitude, but food does not cure his deep-seated psychological terror. He remains anxious and haunted by the dark secrets of the forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Chef Grual's ability to turn toxic pygmy spider goo into palatable cakes is a testament to the gritty resourcefulness demanded of cooks on the frontier."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The meager, unconventional diet in Darkshire reflects how cut off the town is from Stormwind's broader supply lines, leaving locals to rely on whatever creeps in the shadows."
+  }
+ ],
+ "keywords": [
+  "chef grual",
+  "darkshire",
+  "duskwood",
+  "dusky crab cakes",
+  "growling gut",
+  "jitters",
+  "pygmy spider",
+  "scarlet raven tavern"
+ ],
+ "related": [
+  "quest:93",
+  "quest:5",
+  "npc:jitters",
+  "npc:chef-grual",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Return to Jitters"
+ ]
+}

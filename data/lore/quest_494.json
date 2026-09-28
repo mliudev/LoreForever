@@ -1,0 +1,119 @@
+{
+ "key": "quest:494",
+ "type": "quest",
+ "name": "Time to Strike",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   494
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Deathstalker Lesh",
+  "end": "High Executor Darthalia",
+  "previous": null,
+  "next": null,
+  "wiki": "Time To Strike",
+  "chain": []
+ },
+ "summary": "\"Time to Strike\" is a Horde reconnaissance mission that transitions scouts across the Hillsbrad Foothills border to the military hub of Tarren Mill. Delivering Deathstalker Lesh's coded signal to High Executor Darthalia marks the transition from quiet surveillance to coordinated offensive operations against the local human populace.",
+ "sections": [
+  {
+   "title": "A Watcher at the Border",
+   "body": "Perched along the high ground near the border between Silverpine Forest and the Hillsbrad Foothills, Deathstalker Lesh monitors the movements of human settlers and militia in the valley below. The Deathstalkers operate as the eyes and ears of the Undercity, surveying enemy settlements before any military deployment. Rather than risk abandoning his watchpost, Lesh entrusts passing Horde travelers to relay his gathered intelligence down the road to Tarren Mill.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Coded Beckon",
+   "body": "The message Lesh sends is deliberately veiled: \"The raven's cry from the west doth beckon.\" Carried east down the beaten roads, this signal informs High Executor Darthalia that human defenses around the town of Hillsbrad are vulnerable. To Darthalia and the dreadlord Varimathras, this confirms that the hour has arrived to mobilize Forsaken forces and execute their campaigns against Hillsbrad's human defenders.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Deathstalker Lesh's message mean?",
+   "aliases": [
+    "raven's cry meaning",
+    "what does the raven cry mean",
+    "lesh message"
+   ],
+   "answer": "The phrase \"The raven's cry from the west doth beckon\" is a coded reconnaissance update. It signals to High Executor Darthalia that the western approaches to Hillsbrad are inadequately guarded and ripe for an immediate offensive."
+  },
+  {
+   "q": "Who is High Executor Darthalia?",
+   "aliases": [
+    "who is darthalia",
+    "darthalia role"
+   ],
+   "answer": "High Executor Darthalia serves as the supreme Forsaken military commander in the Hillsbrad Foothills. Operating from the fortified hamlet of Tarren Mill, she directs offensive operations against the Southshore humans and coordinates strategy closely with Varimathras in the Undercity."
+  },
+  {
+   "q": "Why does Lesh send a courier instead of going himself?",
+   "aliases": [
+    "why doesn't lesh leave",
+    "why couriers"
+   ],
+   "answer": "Lesh is actively engaged in a critical reconnaissance mission on Hillsbrad's western edge. Leaving his post would create a blind spot in Forsaken surveillance, so he relies on passing Horde travelers to deliver urgent dispatches."
+  },
+  {
+   "q": "Where is this message meant to be delivered?",
+   "aliases": [
+    "where do i go",
+    "message destination"
+   ],
+   "answer": "The message must be carried along the main road eastward through the Hillsbrad Foothills to Tarren Mill, the primary Horde stronghold in the region."
+  },
+  {
+   "q": "Why is Varimathras involved in Hillsbrad's affairs?",
+   "aliases": [
+    "varimathras hillsbrad",
+    "why varimathras"
+   ],
+   "answer": "As Sylvanas Windrunner's chief lieutenant and dreadlord advisor, Varimathras oversees significant portions of the Forsaken military and strategic planning from the Royal Quarter in Undercity. High Executor Darthalia executes his campaign directives on the regional front."
+  },
+  {
+   "q": "What happens after this message is received?",
+   "aliases": [
+    "what happens next",
+    "after time to strike"
+   ],
+   "answer": "Once Darthalia receives confirmation that Hillsbrad is vulnerable, she authorizes aggressive offensive strikes, sending Horde champions to dismantle the farms, militia, and infrastructure of the town of Hillsbrad."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For Forsaken operatives, carrying Lesh's dispatch helps secure the eastern frontier of Lordaeron against remnants of the human Alliance."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Lesh's covert watch post and coded messaging reflect the tradecraft of the Deathstalkers, the Undercity's elite guild of assassins and scouts."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "This dispatch draws non-Undead Horde allies deeper into the strategic conflict unfolding between the Forsaken and the southern human settlements."
+  }
+ ],
+ "keywords": [
+  "deathstalker lesh",
+  "high executor darthalia",
+  "hillsbrad",
+  "hillsbrad foothills",
+  "scouting",
+  "tarren mill",
+  "varimathras"
+ ],
+ "related": [
+  "npc:deathstalker-lesh",
+  "npc:high-executor-darthalia",
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "zone:silverpine",
+  "npc:varimathras",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Time To Strike"
+ ]
+}

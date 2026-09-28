@@ -1,0 +1,121 @@
+{
+ "key": "quest:35",
+ "type": "quest",
+ "name": "Further Concerns",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   35
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Marshal Dughan",
+  "end": "Guard Thomas",
+  "previous": "A Fishy Peril",
+  "next": "Find the Lost Guards",
+  "wiki": "Further Concerns",
+  "chain": []
+ },
+ "summary": "Further Concerns is an Alliance courier quest dispatched by Marshal Dughan in Goldshire to investigate rumors of an amphibious threat. The marshal sends you eastward across Elwynn Forest to consult Guard Thomas at the river crossing. It shifts your attention from central garrison duties to the worsening security crisis along the eastern frontier.",
+ "sections": [
+  {
+   "title": "Eyes on the Eastern Crossing",
+   "body": "While central Elwynn Forest struggles under the weight of banditry and vermin, alarming rumors have begun circulating about aquatic creatures creeping along the riverbanks. Marshal Dughan, commanding the garrison at Goldshire, refuses to dismiss the panic outright. Rather than pulling guards away from town, he sends travelers eastward aboard a fresh mount to consult Guard Thomas, the sentry posted at the bridge spanning the eastern river toward Redridge.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Frontier Stretched Thin",
+   "body": "Guard Thomas has held the bridge outpost for over a week, witnessing firsthand what Goldshire's leadership could only suspect. Semi-intelligent, hostile murlocs have established camps all along the waterways of eastern Elwynn. With Stormwind's army absent and local garrisons pinned down protecting town walls and supply lines, rural bridgeheads like Thomas's post are left critically isolated against this encroaching peril.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Marshal Dughan send me to Guard Thomas?",
+   "aliases": [
+    "why guard thomas",
+    "dughan purpose",
+    "talk to thomas"
+   ],
+   "answer": "Marshal Dughan received reports and rumors of murlocs creeping into the eastern waterways. Because Guard Thomas has been stationed at the eastern Elwynn bridge for a week, Dughan relies on him to confirm whether the threat is genuine."
+  },
+  {
+   "q": "Where is Guard Thomas stationed?",
+   "aliases": [
+    "guard thomas location",
+    "where is thomas",
+    "eastern bridge guard"
+   ],
+   "answer": "Guard Thomas is posted at the wooden bridge spanning the river in far eastern Elwynn Forest, guarding the road that leads toward the Redridge Mountains."
+  },
+  {
+   "q": "What threat does Guard Thomas confirm?",
+   "aliases": [
+    "murloc threat",
+    "what did thomas find",
+    "eastern river threat"
+   ],
+   "answer": "Guard Thomas confirms that hostile, semi-intelligent murlocs have indeed settled along eastern Elwynn's streams and waterways, presenting an immediate danger to travelers and nearby farmsteads."
+  },
+  {
+   "q": "How do you reach Guard Thomas?",
+   "aliases": [
+    "fast travel to thomas",
+    "horse ride dughan",
+    "charger to bridge"
+   ],
+   "answer": "Marshal Dughan offers the use of a Stormwind charger right outside the Goldshire inn, providing a quick ride down the eastern road straight to Guard Thomas at the bridge."
+  },
+  {
+   "q": "Why doesn't Stormwind send an army to help eastern Elwynn?",
+   "aliases": [
+    "where are stormwind guards",
+    "why is elwynn undefended",
+    "stormwind military help"
+   ],
+   "answer": "Stormwind's standing military forces are heavily constrained with King Varian Wrynn missing and resources diverted away from the countryside. Outlying sentries like Guard Thomas are largely left to rely on passing adventurers."
+  },
+  {
+   "q": "What happens after reporting to Guard Thomas?",
+   "aliases": [
+    "next quest after further concerns",
+    "thomas follow up",
+    "lost guards quest"
+   ],
+   "answer": "Once Guard Thomas confirms the murloc presence, he asks you to help investigate the fate of other sentries who were patrolling the riverbank and have failed to return."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The quest highlights the growing operational cracks in the Kingdom of Stormwind, showing how thin human defenses are stretched even a short walk from the capital."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Elwynn, the spread of aggressive murlocs threatens the breadbasket farms and trade arteries connecting Goldshire to Lakeshire."
+  }
+ ],
+ "keywords": [
+  "eastern bridge",
+  "elwynn forest",
+  "further concerns",
+  "goldshire",
+  "guard thomas",
+  "marshal dughan",
+  "murloc",
+  "stormwind charger"
+ ],
+ "related": [
+  "npc:marshal-dughan",
+  "npc:guard-thomas",
+  "quest:40",
+  "quest:37",
+  "zone:elwynn",
+  "topic:stormwind-kingdom",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Further Concerns"
+ ]
+}

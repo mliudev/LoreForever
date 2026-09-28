@@ -1,0 +1,128 @@
+{
+ "key": "quest:177",
+ "type": "quest",
+ "name": "Look To The Stars",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   177
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Blind Mary",
+  "end": "Viktori Prism'Antras",
+  "previous": "Look To The Stars (2)",
+  "next": "Look To The Stars (4)",
+  "wiki": "Look To The Stars (3)",
+  "chain": [
+   "Look To The Stars (Classic)",
+   "Look To The Stars (2)",
+   "Look To The Stars (3)",
+   "Look To The Stars (4)"
+  ]
+ },
+ "summary": "This quest sends adventurers to recover Blind Mary's discarded looking glass for the astronomer Viktori Prism'Antras. The fragile mirror fell into the hands of an Insane Ghoul that wanders the desolate Tranquil Gardens Cemetery in southern Duskwood.",
+ "sections": [
+  {
+   "title": "A Relic of Better Days",
+   "body": "Before the creeping gloom overran Grand Hamlet and turned her into a weeping spirit, Blind Mary treasured an ornate looking glass. Following the horrific incident that claimed her sight and sanity, she cast the keepsake into the dirt behind her family barn. The reflective mirror is exactly what Viktori Prism'Antras needs to build his grand telescope in Darkshire, but it was snatched away into the shadows long before the astronomer dreamed of studying the heavens.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Graveyard Scavenger",
+   "body": "The mirror was scavenged by an Insane Ghoul that prowled behind the ruined farmsteads. Driven south by restless hunger, the wretched undead creature carried the looking glass into the Tranquil Gardens Cemetery, haunting an abandoned chapel amid the overgrown tombstones. Reclaiming the delicate lens means navigating the flesh-eating horrors that infest the southern woods to pry Mary's lost treasure from rotting claws.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Viktori need Mary's looking glass?",
+   "aliases": [
+    "viktori mirror",
+    "why looking glass",
+    "what is the mirror for"
+   ],
+   "answer": "Viktori Prism'Antras is assembling a powerful telescope atop the town hall in Darkshire. He requires high-quality reflective lenses and mirrors to channel the dim starlight, and Mary's prized heirloom fits the precise optical requirements for his invention."
+  },
+  {
+   "q": "Who is the Insane Ghoul that stole the mirror?",
+   "aliases": [
+    "where is the insane ghoul",
+    "who has the looking glass",
+    "ghoul in chapel"
+   ],
+   "answer": "The Insane Ghoul is a scavening undead fiend that gathered trinkets from the abandoned homesteads near Mary's house. It fled south and took refuge in the ruined chapel inside the Tranquil Gardens Cemetery."
+  },
+  {
+   "q": "Why did Blind Mary throw her looking glass away?",
+   "aliases": [
+    "why did mary throw it away",
+    "blind mary mirror",
+    "mary looking glass incident"
+   ],
+   "answer": "Mary prized her looking glass until 'the incident' that took her sight, tore her mind, and bound her as a restless shade. After that calamity, she could no longer bear to look upon it or hold it, discarding it in despair behind her barn."
+  },
+  {
+   "q": "Where is the Tranquil Gardens Cemetery?",
+   "aliases": [
+    "tranquil gardens location",
+    "where is cemetery"
+   ],
+   "answer": "The Tranquil Gardens Cemetery lies in the southeastern reaches of Duskwood, south of the main road. Once a peaceful burial ground for Grand Hamlet, it is now infested with aggressive ghouls, skeletons, and carrion beasts."
+  },
+  {
+   "q": "Who is Cog?",
+   "aliases": [
+    "who is cog",
+    "viktori cog"
+   ],
+   "answer": "Cog is a gnome tinkerer residing in Darkshire. Viktori relies on Cog's engineering expertise to evaluate and assist in constructing the delicate mechanisms of his star-viewing machine."
+  },
+  {
+   "q": "What happens after returning the mirror to Viktori?",
+   "aliases": [
+    "look to the stars next quest",
+    "what comes next"
+   ],
+   "answer": "With the reflective device in hand, Viktori is thrilled with the progress of the apparatus. He then moves forward with the final stage of assembling his telescope, asking for one last crucial component to finish the lens system."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers can appreciate Viktori's improvised optical mechanics, turning ordinary polished hand mirrors into reflective components for an astronomical instrument."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests walking the tainted soil of Tranquil Gardens Cemetery witness the horrific indignity suffered by Duskwood's dead, where fallen villagers are reduced to insane scavengers."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Recovering lost town relics from the hands of ravenous undead highlights the bitter fate of Duskwood's people, abandoned on the dangerous fringes of the Kingdom of Stormwind."
+  }
+ ],
+ "keywords": [
+  "blind mary",
+  "cog",
+  "darkshire",
+  "insane ghoul",
+  "look to the stars",
+  "mary's looking glass",
+  "telescope",
+  "tranquil gardens cemetery",
+  "viktori prism'antras"
+ ],
+ "related": [
+  "quest:174",
+  "npc:viktori-prism-antras",
+  "npc:blind-mary",
+  "subzone:tranquil-gardens-cemetery",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "quest:1599"
+ ],
+ "attribution": [
+  "Look To The Stars (3)"
+ ]
+}

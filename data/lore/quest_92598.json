@@ -1,0 +1,120 @@
+{
+ "key": "quest:92598",
+ "type": "quest",
+ "name": "The Gift of Skysight",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92598
+  ],
+  "level": "4",
+  "faction": "Horde",
+  "start": "Ventaari Brightwish",
+  "end": "",
+  "previous": "",
+  "next": "",
+  "wiki": "The Gift of Skysight",
+  "chain": []
+ },
+ "summary": "The Gift of Skysight is an early rite of passage for young Windshapers learning to harness their innate connection to the spiritual realm. Under the direction of Ventaari Brightwish, initiates travel to an Elemental Convergence to awaken their perception and listen directly to the whispers of the spirits.",
+ "sections": [
+  {
+   "title": "A Sacred Perception",
+   "body": "Windshapers possess an inherent bond with the elemental forces that shape their world, embodied by the sacred faculty known as Skysight. This gift allows mortal senses to attune to spiritual wavelengths, bridging the physical gap between the living and the unseen. While a Windshaper can invoke this inner vision across the wilds, doing so near points of concentrated power deepens the connection, unlocking resonant boons and hidden wisdom whispered on the wind.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Convergence of Thendal Grove",
+   "body": "Northeast of the settlement, amidst ancient standing stones, lies an Elemental Convergence in Thendal Grove. Places such as these act as focal points where raw energies gather and spirit entities linger. Ventaari Brightwish sends novices to this sacred site not simply to complete a task, but to test their spiritual constitution. Like any faculty of body or mind, Skysight requires deliberate exercise to mature, ensuring that a growing Windshaper can interpret the shifting omens of the elements upon which their people's survival depends.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "gift of skysight purpose",
+    "why do this quest",
+    "skysight training"
+   ],
+   "answer": "The quest serves to instruct novice Windshapers in the practical use of their Skysight ability. Ventaari Brightwish directs initiates to an Elemental Convergence to experience how environmental power amplifies their spiritual senses."
+  },
+  {
+   "q": "Who is Ventaari Brightwish?",
+   "aliases": [
+    "ventaari",
+    "who is ventaari brightwish",
+    "brightwish"
+   ],
+   "answer": "Ventaari Brightwish is a spiritual guide and mentor who oversees the early training of Windshapers on Zephras Isle, teaching them to respect and hone their elemental heritage."
+  },
+  {
+   "q": "What is an Elemental Convergence?",
+   "aliases": [
+    "what is elemental convergence",
+    "elemental convergence lore",
+    "thendal grove convergence"
+   ],
+   "answer": "An Elemental Convergence is a focal point of heightened spiritual energy, often marked by ancient standing stones. These locations naturally attract elemental spirits and magnify abilities like Skysight."
+  },
+  {
+   "q": "Where is the Elemental Convergence located?",
+   "aliases": [
+    "where is the convergence",
+    "thendal grove location",
+    "standing stones location"
+   ],
+   "answer": "The convergence is found among the standing stones located in Thendal Grove, just northeast of the settlement on Zephras Isle."
+  },
+  {
+   "q": "Can Skysight be used anywhere?",
+   "aliases": [
+    "can i use skysight anywhere",
+    "skysight outside convergence",
+    "where to use skysight"
+   ],
+   "answer": "Yes. A Windshaper can call upon Skysight anywhere, but standing within an Elemental Convergence grants a far more potent boon and invites additional insights from nearby spirits."
+  },
+  {
+   "q": "Why is Skysight considered essential for survival?",
+   "aliases": [
+    "why is skysight important",
+    "skysight survival",
+    "elements survival"
+   ],
+   "answer": "Skysight bridges the gap between mortals and elemental spirits. According to Ventaari, being able to perceive and heed the warnings of the elements is critical for navigating looming dangers and preserving their people."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "For the Skyborne, Skysight is not merely an uncanny trick but a birthright bestowed by elemental patrons, grounding their cultural and spiritual identity."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shamans will recognize the Elemental Convergence as sacred ground, where the boundary between mortal will and the elemental planes grows thinnest."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As allies on Zephras Isle, the Horde relies on the Windshapers' supernatural foresight to navigate the unmapped dangers of the island."
+  }
+ ],
+ "keywords": [
+  "elemental convergence",
+  "elemental spirits",
+  "skysight",
+  "standing stones",
+  "thendal grove",
+  "ventaari brightwish",
+  "windshaper",
+  "zephras"
+ ],
+ "related": [
+  "npc:ventaari-brightwish",
+  "zone:zephras"
+ ],
+ "attribution": [
+  "The Gift of Skysight"
+ ]
+}

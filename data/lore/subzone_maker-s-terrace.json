@@ -1,0 +1,88 @@
+{
+ "key": "subzone:maker-s-terrace",
+ "type": "subzone",
+ "name": "Maker's Terrace",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Maker's Terrace"
+ },
+ "summary": "The Maker's Terrace is a sprawling outdoor excavation site situated in the northern Badlands, directly fronting the entrance to the ancient titan vault of Uldaman. Travelers venturing south from Loch Modan must navigate its rugged perimeter, which is aggressively occupied by Dark Iron dwarves. The dig represents a contested threshold between the surface wastes and the titan mysteries entombed below.",
+ "sections": [
+  {
+   "title": "Threshold of the Vault",
+   "body": "Sprawling across the northern bluffs of the Badlands, the Maker's Terrace serves as the exterior staging ground for the subterranean halls of Uldaman. Long before travelers delve into the subterranean ruins, they must contend with the sun-scorched earthworks, scaffolding, and stone trenches of this grand excavation. It sits right along the pass coming down from Loch Modan, making it the first landmark greeting any traveler daring to venture into the arid wastes. The Terrace buzzes with violent industry as rival factions seek a way into the ancient secrets buried beneath the rock.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dark Iron Occupation",
+   "body": "The site is firmly under the boot of the Dark Iron clan, who patrol its ditches and perimeters with hostile vigilance. Drawn by the scent of titan relics and subterranean dominance, these subterranean dwarves dig incessantly into the hillside, seeking whatever armaments, records, or earthen relics the ancient Makers left behind. Anyone trying to reach the deep halls of Uldaman without clearing through these fortified sentries will quickly find themselves overwhelmed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Maker's Terrace located?",
+   "aliases": [
+    "maker's terrace location",
+    "where is makers terrace",
+    "how to find makers terrace"
+   ],
+   "answer": "The Maker's Terrace sits in the far north of the Badlands, right near the valley pass that connects the zone to Loch Modan. It surrounds the exterior entrance leading into the ancient complex of Uldaman."
+  },
+  {
+   "q": "Who controls the Maker's Terrace?",
+   "aliases": [
+    "who is at makers terrace",
+    "makers terrace enemies",
+    "who controls makers terrace"
+   ],
+   "answer": "The site is occupied and patrolled by hostile Dark Iron dwarves, who run active digging operations and fiercely guard the exterior approach to Uldaman against outsiders."
+  },
+  {
+   "q": "What is the purpose of the excavation?",
+   "aliases": [
+    "why are they digging here",
+    "makers terrace dig",
+    "what are dark irons looking for"
+   ],
+   "answer": "The Dark Iron dwarves are excavating the ancient titan complex of Uldaman. They seek to uncover relics, powerful machinery, and ancient titan secrets buried within the subterranean vaults before rival factions can claim them."
+  },
+  {
+   "q": "Is Maker's Terrace part of Uldaman?",
+   "aliases": [
+    "is this uldaman",
+    "makers terrace vs uldaman",
+    "terrace connection to dungeon"
+   ],
+   "answer": "Yes, Maker's Terrace functions as the outer, open-air excavation pit that leads directly into the dungeon and caves of Uldaman."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves of Ironforge, seeing the Maker's Terrace in the hands of the treacherous Dark Iron clan is a bitter sight, as Uldaman holds the deepest secrets of dwarven origins."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The expansive quarries and earthworks carved into the sandstone cliffs show clear signs of heavy ore exploitation by dwarven excavators."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "dark iron",
+  "excavation",
+  "maker's terrace",
+  "makers terrace",
+  "titans",
+  "uldaman"
+ ],
+ "related": [
+  "subzone:uldaman",
+  "zone:badlands",
+  "zone:lochmodan"
+ ],
+ "attribution": [
+  "Maker's Terrace"
+ ]
+}

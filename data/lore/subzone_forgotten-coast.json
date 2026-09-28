@@ -1,0 +1,91 @@
+{
+ "key": "subzone:forgotten-coast",
+ "type": "subzone",
+ "name": "Forgotten Coast",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Forgotten Coast"
+ },
+ "summary": "The Forgotten Coast forms the wild western shore of Feralas, where the ancient rainforest meets the Veiled Sea. Roamed by lumbering sea giants and water elementals, this battered strand is also home to local murlocs facing raids from inland predators.",
+ "sections": [
+  {
+   "title": "Edge of the Rainforest",
+   "body": "Stretching along the western edge of Feralas, the Forgotten Coast is a windswept shoreline confronting the expanse of the Veiled Sea. Unlike the dense canopy inland, this frontier is exposed to the elements and dominated by towering sea giants and roving water elementals pacing the surf. Travelers emerging from the forest canopy must contend with these primeval coastal guardians while navigating access to the sea, where ferry connections link to the night elven bastion of Sardor Isle.",
+   "spoiler": 0
+  },
+  {
+   "title": "Perils of the Shallows",
+   "body": "The coast is not uninhabited; clustered near the water are native murloc encampments trying to carve out an existence along the shallows. Life here is brutal, as these settlements are frequently harassed by local gnolls and predatory beasts. Worse still, the Gordunni ogres from the ruins of Dire Maul regularly sweep down from the interior forests to raid the shore, capturing murlocs and dragging them back to their crumbling stronghold in chains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What threats wander the Forgotten Coast?",
+   "aliases": [
+    "monsters on forgotten coast",
+    "forgotten coast dangers",
+    "what is on the coast"
+   ],
+   "answer": "The shoreline is patrolled by immense sea giants and restless water elementals emerging from the Veiled Sea. In addition, the native murloc tribes are hostile to trespassers, and roaming Gordunni ogres from inland frequently descend upon the coast to pillage and take prisoners."
+  },
+  {
+   "q": "How do you reach Feathermoon Stronghold from here?",
+   "aliases": [
+    "how to get to feathermoon",
+    "boat to feathermoon",
+    "feathermoon ferry"
+   ],
+   "answer": "The shore serves as the primary mainland departure point across the channel to Sardor Isle, where the Night Elves maintain Feathermoon Stronghold. A small ferry dock on the coast provides safe passage across the water away from the dangerous sea giants."
+  },
+  {
+   "q": "Why are the Gordunni ogres raiding the coast?",
+   "aliases": [
+    "ogres attacking murlocs",
+    "why ogres on beach",
+    "dire maul ogres coast"
+   ],
+   "answer": "The Gordunni ogres of Dire Maul launch slave raids down from their forest ruins toward the beaches. They capture coastal murlocs and other travelers along the Forgotten Coast, hauling their captives back into Dire Maul as labor or prisoners."
+  },
+  {
+   "q": "Is the Forgotten Coast accessible to the Horde?",
+   "aliases": [
+    "horde access forgotten coast",
+    "how does horde reach coast",
+    "safe horde path forgotten coast"
+   ],
+   "answer": "Yes. While the southern road leads directly toward the night elven crossing to Feathermoon Stronghold, a secondary path cuts down to the coast further to the north, allowing Horde travelers to reach the shore without straying into Alliance sentinels."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The coast is a vital conduit between the Kalimdor mainland and Feathermoon Stronghold on Sardor Isle, requiring vigilance against wandering sea giants and ogre raiders."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Approaching the coast requires care, as the southern trail nears night elven ferry points; navigating the northern forest pathways provides safer passage to the water."
+  }
+ ],
+ "keywords": [
+  "feralas",
+  "forgotten coast",
+  "gordunni",
+  "murloc",
+  "sardor isle",
+  "sea giants",
+  "veiled sea"
+ ],
+ "related": [
+  "zone:feralas",
+  "subzone:feathermoon-stronghold",
+  "subzone:dire-maul",
+  "topic:murloc",
+  "topic:gnoll",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Forgotten Coast"
+ ]
+}

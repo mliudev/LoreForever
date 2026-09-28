@@ -1,0 +1,91 @@
+{
+ "key": "subzone:valley-of-honor",
+ "type": "subzone",
+ "name": "Valley of Honor",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Valley of Honor"
+ },
+ "summary": "The Valley of Honor serves as the martial core and warrior district of Orgrimmar, nestled in the northeastern canyons of the capital. It houses the city's barracks, warrior and hunter guilds, and the battlemasters directing Horde forces across Azeroth. With active forges, training rings, and quiet waters, it is where the Horde hones its strength and remembers its martial heritage.",
+ "sections": [
+  {
+   "title": "Heart of the Horde's Might",
+   "body": "Situated behind high canyon ridges, the Valley of Honor acts as Orgrimmar's primary military quarter. Here, the clatter of practice weaponry and the ringing of blacksmith anvils define daily life. The Hall of the Brave dominates the valley, serving as a gathering point for seasoned warriors and battlemasters coordinating campaigns across battlefronts like Alterac Valley and Warsong Gulch. Flanked by training facilities for beastmasters and hunters, the district is dedicated entirely to equipping, drilling, and mobilizing the Horde's frontline defenders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Craft, Trade, and Respite",
+   "body": "Beyond arms and drill grounds, the valley supports the logistics of war. The Burning Anvil and Red Canyon Mining supply armor and raw iron, while engineers tinker nearby in Nogg's Machine Shop. Between duties, grunts and visiting adventurers frequent The Wyvern's Tail tavern or cast a line into the valley's surprisingly serene central lake, offering brief moments of calm away from the dusty bustle of the Valley of Strength.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Valley of Honor?",
+   "aliases": [
+    "valley of honor purpose",
+    "what is here",
+    "what's in valley of honor"
+   ],
+   "answer": "It is the military and martial hub of Orgrimmar. It contains the city's barracks, warrior and hunter trainers, weaponsmiths, and the battlemasters responsible for dispatching soldiers to major battlefronts."
+  },
+  {
+   "q": "Where can I find battlemasters in Orgrimmar?",
+   "aliases": [
+    "battlemaster location",
+    "orgrimmar pvp",
+    "queue bg orgrimmar"
+   ],
+   "answer": "The Horde battlemasters are stationed inside the Hall of the Brave, located in the Valley of Honor. From there, soldiers are enlisted and dispatched to ongoing engagements across Azeroth."
+  },
+  {
+   "q": "What professions are trained in the Valley of Honor?",
+   "aliases": [
+    "professions valley of honor",
+    "trainers here",
+    "blacksmithing orgrimmar"
+   ],
+   "answer": "The valley is home to trainers and supply vendors for blacksmithing, mining, and fishing, along with goblin engineering specialists operating out of Nogg's Machine Shop."
+  },
+  {
+   "q": "What is The Wyvern's Tail?",
+   "aliases": [
+    "wyverns tail",
+    "inn in valley of honor",
+    "valley of honor tavern"
+   ],
+   "answer": "The Wyvern's Tail is the local tavern and inn situated along the edge of the valley, providing food, drink, and rest for weary warriors, hunters, and travelers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "The Valley of Honor is your spiritual home in Orgrimmar, housing the Hall of the Brave, veteran combat instructors, and the armorers who forge the Horde's front lines."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The Hunter's Hall and beast-taming grounds make this valley an essential stop for replenishing ammunition, honing marksmanship, and stabling companions."
+  }
+ ],
+ "keywords": [
+  "barracks",
+  "battlemasters",
+  "blacksmithing",
+  "hall of the brave",
+  "nogg",
+  "orgrimmar",
+  "the wyvern's tail",
+  "valley of honor"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "subzone:hall-of-the-brave",
+  "subzone:wyvern-s-tail",
+  "npc:nogg",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Valley of Honor"
+ ]
+}

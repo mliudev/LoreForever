@@ -1,0 +1,86 @@
+{
+ "key": "npc:daio-the-decrepit",
+ "type": "npc",
+ "name": "Daio the Decrepit",
+ "era": "classic",
+ "zone": "blastedlands",
+ "meta": {
+  "wiki": "Daio the Decrepit",
+  "refs": 2
+ },
+ "summary": "Daio the Decrepit is an elderly human warlock dwelling on an isolated cliffside overlooking the Tainted Scar in the Blasted Lands. Formerly an arcane scholar of Dalaran, he abandoned the Kirin Tor to dedicate his life to understanding, summoning, and suppressing demons.",
+ "sections": [
+  {
+   "title": "A Life in the Shadows of Dalaran",
+   "body": "Long before taking up his solitary roost above the demon-infested red wastes, Daio was a mage of the Kirin Tor. His life changed forever when he assisted an ambitious conjurer named Arrexis in a catastrophic ritual. The spell went horrifically wrong, summoning an eredar mage-hunter that slaughtered Arrexis and his entire assembly of arcane apprentices. Following the massacre and his subsequent exile from the Violet Citadel, Daio turned away from pure arcane magic. Believing that ignorance of the Nether was the Kirin Tor's greatest flaw, he devoted his remaining years to studying fel magic, binding demonic entities, and understanding the precise sacrifices demanded by such terrible power.",
+   "spoiler": 0
+  },
+  {
+   "title": "Master of Demonic Suppression",
+   "body": "Perched precariously in the northern reaches of the Tainted Scar, Daio spends his days experimenting with the dark forces that saturate the Blasted Lands. Seasoned warlocks who seek out his altar learn that mastery over the Nether requires rigid discipline, intricate containment vessels, and absolute mental fortitude. Daio insists that raw power means nothing without the will to suppress and enslave what has been called forth, reminding pupils that wielding fel energy always demands a grave and inevitable cost.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Daio the Decrepit?",
+   "aliases": [
+    "who is daio",
+    "daio backstory",
+    "daio lore"
+   ],
+   "answer": "Daio is an exiled human mage of Dalaran who renounced the arcane to study demonic magic. He now lives as an hermit warlock on the cliffs overlooking the Tainted Scar."
+  },
+  {
+   "q": "Why was Daio exiled from Dalaran?",
+   "aliases": [
+    "why was daio kicked out of kirin tor",
+    "daio arrexis ritual"
+   ],
+   "answer": "He assisted a mage named Arrexis with a reckless conjuration ritual. The spell breached the Nether and summoned a lethal demon that slaughtered Arrexis and his followers, leading to Daio's permanent banishment."
+  },
+  {
+   "q": "What is he doing in the Blasted Lands?",
+   "aliases": [
+    "why is daio in blasted lands",
+    "daio location"
+   ],
+   "answer": "Daio studies fel energy and demonology in the shadow of the Dark Portal, using the proximity of the Burning Legion forces in the Tainted Scar to experiment with binding rituals and demonic containment."
+  },
+  {
+   "q": "Why do warlocks seek him out?",
+   "aliases": [
+    "warlock quest daio",
+    "what does daio teach"
+   ],
+   "answer": "Advanced practitioners travel to his altar to study the arts of demonic suppression and confinement, learning how to prepare the necessary prisons and wards required to enslave potent greater demons."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Daio serves as an invaluable, cynical mentor for practitioners seeking to master the dangerous art of subjugating greater demons through containment rituals."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Daio represents a grim cautionary tale of what happens when Kirin Tor conjuration experiments spin out of control and arcane scholars fall into fel obsession."
+  }
+ ],
+ "keywords": [
+  "arrexis",
+  "blasted lands",
+  "daio",
+  "daio the decrepit",
+  "demonology",
+  "kirin tor",
+  "suppression",
+  "tainted scar"
+ ],
+ "related": [
+  "subzone:tainted-scar",
+  "zone:blastedlands"
+ ],
+ "attribution": [
+  "Daio the Decrepit"
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "key": "topic:mor-ladim",
+ "type": "topic",
+ "name": "Mor'Ladim",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Mor'Ladim"
+ },
+ "summary": "Mor'Ladim is a dangerous, vengeful skeletal warrior wandering the grounds of Raven Hill Cemetery in Duskwood. Formerly the noble knight Morgan Ladimore, he succumbed to profound grief and madness upon discovering the loss of his family, rising in undeath to slaughter anyone crossing his path.",
+ "sections": [
+  {
+   "title": "A Knight of the Silver Hand",
+   "body": "Before he became the terror of Raven Hill, Mor'Ladim lived as Morgan Ladimore, a devoted knight and defender of the helpless from Grand Hamlet\u2014the town now known as Darkshire. Married at eighteen to his wife Lys, he raised three children in peace until war summoned him north. Morgan marched alongside Uther the Lightbringer to Lordaeron during the Third War, witnessing the downfall of the Knights of the Silver Hand, the spread of Kel'Thuzad's plague, and the tragic death of Uther himself.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fall of Morgan Ladimore",
+   "body": "Returning home after the war, Morgan found Duskwood twisted by darkness and his homestead ruined. Driven toward Raven Hill Cemetery, he searched among the headstones until he discovered the graves of Lys and two of their children. Overcome by grief and fury, Morgan lashed out, striking at the gravestones. When graveyard attendants attempted to calm him, the knight slaughtered them in a blind frenzy. Horrified by his heinous act once clarity returned, Morgan drove his own blade into his heart. Ashamed, the townsfolk buried his corpse in an unmarked, remote corner of the cemetery.",
+   "spoiler": 1
+  },
+  {
+   "title": "The Scourge of Raven Hill",
+   "body": "Burial brought Morgan no peace. Bound by the heavy guilt of innocent blood and suffocating grief, his corrupted remains rose from the dirt as a hulking skeletal revenant. Calling him Mor'Ladim, travelers and members of the Night Watch quickly learned to dread his name. Armed with his ancestral blade Archeus, the mindless apparition patrols the mist-choked graves, cutting down both beasts and unwary adventurers who venture too close to his resting place.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Mor'Ladim in life?",
+   "aliases": [
+    "who is morladim",
+    "morladim backstory",
+    "morgan ladimore lore",
+    "who was morladim"
+   ],
+   "answer": "Mor'Ladim was originally Morgan Ladimore, an honorable paladin and knight from Grand Hamlet who fought alongside Uther the Lightbringer during the Third War in Lordaeron."
+  },
+  {
+   "q": "Why is Mor'Ladim hostile?",
+   "aliases": [
+    "why does morladim attack",
+    "why is he angry",
+    "morladim madness"
+   ],
+   "answer": "Morgan went mad with grief upon discovering the graves of his family. After slaughtering innocent cemetery attendants and taking his own life, his soul became trapped by guilt and anguish, reanimating his body as a murderous undead fiend."
+  },
+  {
+   "q": "Where does Mor'Ladim roam?",
+   "aliases": [
+    "morladim path",
+    "where to find morladim",
+    "morladim location"
+   ],
+   "answer": "He patrols the sprawling paths and mausoleums of Raven Hill Cemetery in western Duskwood, frequently catching travelers unaware due to his sweeping patrol route."
+  },
+  {
+   "q": "Did all of Morgan Ladimore's family die?",
+   "aliases": [
+    "did morgan ladimore family survive",
+    "morgan ladimore daughter",
+    "who survived in ladimore family"
+   ],
+   "answer": "No. While his wife Lys and two of his children perished, a third child survived Duskwood's decline\u2014a detail Morgan missed entirely in his blind despair at the graveyard."
+  },
+  {
+   "q": "What is the weapon Mor'Ladim carries?",
+   "aliases": [
+    "morladim sword",
+    "archeus sword",
+    "what sword does morladim use"
+   ],
+   "answer": "Mor'Ladim wields Archeus, a fine blade that served him faithfully as a knight throughout his lifetime before becoming an instrument of slaughter in undeath."
+  },
+  {
+   "q": "Who wants Mor'Ladim destroyed?",
+   "aliases": [
+    "who wants morladim dead",
+    "night watch morladim",
+    "althea ebonlocke morladim"
+   ],
+   "answer": "Commander Althea Ebonlocke and the Night Watch of Darkshire actively seek his destruction to protect patrols and travelers from his relentless ambushes in western Duskwood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Morgan Ladimore was once an honorable warrior of the Light who fought alongside Uther the Lightbringer. His fall illustrates the dreadful danger of allowing sorrow and wrath to eclipse sacred vows."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The tragic ruin of Morgan Ladimore serves as a grim reminder of how deeply the Third War shattered southern kingdoms like Stormwind, leaving veteran soldiers to return to ruined families."
+  }
+ ],
+ "keywords": [
+  "althea ebonlocke",
+  "archeus",
+  "duskwood",
+  "grand hamlet",
+  "lys ladimore",
+  "mor'ladim",
+  "morgan ladimore",
+  "raven hill"
+ ],
+ "related": [
+  "subzone:raven-hill-cemetery",
+  "zone:duskwood",
+  "subzone:darkshire",
+  "npc:althea-ebonlocke",
+  "topic:knights-of-the-silver-hand",
+  "topic:third-war",
+  "topic:lordaeron",
+  "topic:light"
+ ],
+ "attribution": [
+  "Mor'Ladim"
+ ]
+}

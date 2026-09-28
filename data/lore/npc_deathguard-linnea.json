@@ -1,0 +1,77 @@
+{
+ "key": "npc:deathguard-linnea",
+ "type": "npc",
+ "name": "Deathguard Linnea",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Deathguard Linnea",
+  "refs": 2
+ },
+ "summary": "Deathguard Linnea is a Forsaken soldier stationed at Death's Watch Waystation in southeastern Tirisfal Glades. She helps secure the roads between Brill and the eastern borders, watching for threats posed by the Scarlet Crusade and lingering Scourge. Adventurers passing along the main thoroughfares often assist her unit with patrol duties.",
+ "sections": [
+  {
+   "title": "A Vigil on the Roadside",
+   "body": "Deathguard Linnea stands sentinel at Death's Watch Waystation, a small fortified post southeast of Brill. Life\u2014or unlife\u2014on patrol in Tirisfal Glades is treacherous, as the Forsaken must vigilantly defend their fledgling realm against Scarlet Crusade infiltrators and mindless Scourge prowling the wilderness. Stationed alongside her fellow guards, Linnea oversees patrol efforts along the roadway, coordinating reports with local authorities such as Magistrate Sevren in Brill to keep the realm's southern approach secure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Deathguard Linnea?",
+   "aliases": [
+    "linnea",
+    "deathguard linnea lore",
+    "who is linnea"
+   ],
+   "answer": "Linnea is an undead soldier serving in the Deathguard, the military force charged with defending Forsaken territory. She is posted at Death's Watch Waystation along the road southeast of Brill in Tirisfal Glades."
+  },
+  {
+   "q": "What is Death's Watch Waystation?",
+   "aliases": [
+    "deaths watch",
+    "deaths watch waystation",
+    "waystation tirisfal"
+   ],
+   "answer": "It is an outpost established by the Forsaken to monitor and secure the eastern and southern thoroughfares of Tirisfal Glades. The station provides a forward staging ground against Scarlet Crusade scouts and roaming undead."
+  },
+  {
+   "q": "Why does she need help patrolling?",
+   "aliases": [
+    "rear guard patrol lore",
+    "why help linnea"
+   ],
+   "answer": "Forsaken military resources are stretched thin across Tirisfal Glades. Linnea relies on passing travelers and rising champions to help clear out surrounding threats, ensuring messengers and supply runners can travel safely back and forth to Brill."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For Forsaken newly risen from Deathknell, aiding Deathguard Linnea at the waystation is one of the earliest duties undertaken to secure the borders of their new kingdom."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Allies of the Forsaken traversing Tirisfal Glades can earn goodwill by assisting Linnea in stabilizing the outlying roadways against hostile forces."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "death's watch waystation",
+  "deathguard linnea",
+  "forsaken",
+  "magistrate sevren",
+  "rear guard patrol",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:death-s-watch-waystation",
+  "subzone:brill",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "quest:356",
+  "quest:360"
+ ],
+ "attribution": [
+  "Deathguard Linnea"
+ ]
+}

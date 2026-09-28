@@ -1,0 +1,130 @@
+{
+ "key": "quest:1683",
+ "type": "quest",
+ "name": "Vorlus Vilehoof",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   1683
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Elanaria",
+  "end": "",
+  "previous": "Elanaria (quest)",
+  "next": "The Shade of Elura",
+  "wiki": "Vorlus Vilehoof (quest)",
+  "chain": []
+ },
+ "summary": "Vorlus Vilehoof is a rite of passage for young night elf warriors training in Darnassus. Under instruction from the warrior trainer Elanaria, candidates must hunt down a vile satyr who has defiled a hidden moonwell near the Ban'ethil Barrow Den.",
+ "sections": [
+  {
+   "title": "A Test of Resolve",
+   "body": "Before Elanaria will impart advanced martial techniques to young night elf warriors, she demands proof of their dedication and discipline. Words alone mean nothing in the defense of Kalimdor; a true guardian must be willing to confront corruption face-to-face and cleanse the sacred boughs of Teldrassil from taint.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defiling the Sacred Waters",
+   "body": "The target of this trial is Vorlus Vilehoof, a satyr who has infiltrated a secluded moonwell nestled in the mountains southeast of Ban'ethil Barrow Den. The satyrs, ancient betrayers twisted by demonic influence, harbor an enduring hatred for sacred Kaldorei relics. Vorlus has taken to bathing in the moonwell, fouling its blessed waters with his presence and mocking the grace of Elune.",
+   "spoiler": 0
+  },
+  {
+   "title": "Claiming the Horn",
+   "body": "Finding Vorlus requires tracking a concealed mountain trail guarded by hostile Gnarlpine furbolgs. Once cornered at the tainted spring, the satyr must be slain in martial combat. Taking Vorlus's horn back to the Warrior's Terrace in Darnassus proves the beast's demise, restoring sanctity to the secluded glade and opening the path to specialized martial weapons.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Vorlus Vilehoof?",
+   "aliases": [
+    "vorlus vilehoof lore",
+    "who is vorlus",
+    "vorlus the satyr"
+   ],
+   "answer": "Vorlus Vilehoof is a corrupted satyr dwelling on Teldrassil. He discovered a secluded moonwell southeast of the Ban'ethil Barrow Den and began bathing in it, actively defiling its consecrated waters."
+  },
+  {
+   "q": "Why does Elanaria send warriors after Vorlus?",
+   "aliases": [
+    "why kill vorlus",
+    "elanaria quest reason",
+    "purpose of vorlus vilehoof quest"
+   ],
+   "answer": "Elanaria uses the hunt as a proving trial for promising warriors. Defeating a dangerous, corrupt fiend like Vorlus demonstrates the focus, courage, and resolve required before she will teach advanced martial skills or guide them in forging specialized weaponry."
+  },
+  {
+   "q": "Where is the hidden moonwell located?",
+   "aliases": [
+    "vorlus location",
+    "how to find vorlus",
+    "hidden moonwell path"
+   ],
+   "answer": "The moonwell sits hidden in the ridges southeast of Ban'ethil Barrow Den. Reaching it requires finding a subtle mountain path lined with torches, located just behind an encampment of Gnarlpine furbolgs east of the barrows."
+  },
+  {
+   "q": "What is a moonwell, and why does his presence matter?",
+   "aliases": [
+    "why are moonwells important",
+    "moonwell desecration",
+    "night elf moonwells"
+   ],
+   "answer": "Moonwells are sacred basins filled with blessed waters that channel the light of Elune and sustain nature's vitality. For a demonic satyr like Vorlus to wallow in one is considered a direct desecration of Kaldorei faith and a dangerous vector of corruption on Teldrassil."
+  },
+  {
+   "q": "What comes after defeating Vorlus Vilehoof?",
+   "aliases": [
+    "next quest after vorlus",
+    "what happens next",
+    "shade of elura quest"
+   ],
+   "answer": "Returning Vorlus's severed horn satisfies Elanaria, confirming the warrior's readiness. She will then direct the warrior onward to pursue the legendary Weapons of Elunite, beginning with uncovering the Shade of Elura."
+  },
+  {
+   "q": "Are there other satyrs on Teldrassil?",
+   "aliases": [
+    "satyrs on teldrassil",
+    "teldrassil satyr threat"
+   ],
+   "answer": "Yes. Despite Teldrassil being relatively young, satyrs lurk in places like Shadowthread Keep and scattered corrupt hollows, constantly seeking to infect the World Tree with demonic taint."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Hunting Vorlus Vilehoof serves as your initiation into advanced martial training, demonstrating that your blade serves the protection of Kaldorei lands and the sanctity of the goddess."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Moonwells represent the purity of Elune and the lifeblood of Kaldorei spirituality; tolerating a satyr bathing in their waters is an intolerable insult to all night elves."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing Teldrassil's interior from lurking demonic remnants ensures that Darnassus remains a steadfast redoubt for the Alliance in Northern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "ban'ethil",
+  "darnassus",
+  "elanaria",
+  "horn of vorlus",
+  "moonwell",
+  "satyr",
+  "teldrassil",
+  "vorlus vilehoof",
+  "warrior quest"
+ ],
+ "related": [
+  "npc:elanaria",
+  "quest:1686",
+  "quest:1693",
+  "topic:satyr",
+  "subzone:ban-ethil-barrow-den",
+  "zone:darnassus",
+  "quest:940"
+ ],
+ "attribution": [
+  "Vorlus Vilehoof (quest)"
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "key": "quest:5713",
+ "type": "quest",
+ "name": "One Shot. One Kill.",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   5713
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Sentinel Aynasha",
+  "end": "Sentinel Onaeya",
+  "previous": null,
+  "next": null,
+  "wiki": "One Shot. One Kill.",
+  "chain": []
+ },
+ "summary": "While carrying an urgent message toward Lor'danel, Sentinel Aynasha was ambushed and poisoned by a hostile furbolg named Marosh the Devious and his pack of trackers. Immobilized while mixing an antidote, she relies on nearby travelers to hold off incoming attackers so she can survive and see her duty through.",
+ "sections": [
+  {
+   "title": "Ambush on the Forest Road",
+   "body": "The trails through northern Kalimdor have grown treacherous as corruption takes deeper root among the wild denizens. Sentinel Aynasha was journeying toward Lor'danel bearing important communications when she was intercepted by hostile furbolgs. Led by Marosh the Devious, the ambushers struck fast, inflicting a debilitating venom that left the scout unsteady and unable to complete her trek on foot.",
+   "spoiler": 0
+  },
+  {
+   "title": "Holding the Line",
+   "body": "Though skilled with natural concoctions, concocting and administering an antidote under the canopy takes time Aynasha does not possess while hunted. As Marosh's trackers close in, Aynasha must rely on travelers to guard her position while she works. Despite her failing strength, she steadies her bow to rain covering fire into the brush, determined that neither she nor her missive will fall in the wilds.",
+   "spoiler": 0
+  },
+  {
+   "title": "Report to Maestra's Post",
+   "body": "Once the assault is broken and Marosh is slain, the antidote restores Aynasha's strength enough for her to finish her journey to Lor'danel. To ensure the outpost south in Ashenvale is alerted to the aggressive furbolg activity threatening regional supply routes, she bids her protectors report directly to Sentinel Onaeya at Maestra's Post.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sentinel Aynasha?",
+   "aliases": [
+    "sentinel aynasha",
+    "aynasha",
+    "who is aynasha"
+   ],
+   "answer": "Sentinel Aynasha is a night elf scout tasked with carrying critical messages across the borders of Darkshore and Ashenvale. Skilled with a bow and woodland survival, she was nearly undone by an unexpected poison ambush while on duty."
+  },
+  {
+   "q": "Who attacked Sentinel Aynasha?",
+   "aliases": [
+    "who attacked her",
+    "marosh the devious",
+    "marosh",
+    "who poisoned her"
+   ],
+   "answer": "She was ambushed by a pack of hostile furbolg led by Marosh the Devious. They poisoned her during the initial clash, hoping to overwhelm the immobilized scout before she could recover."
+  },
+  {
+   "q": "Where was Sentinel Aynasha traveling?",
+   "aliases": [
+    "where was aynasha going",
+    "aynasha destination",
+    "lor'danel"
+   ],
+   "answer": "Aynasha was bound for Lor'danel to deliver an important dispatch before being trapped on the road by Marosh and his trackers."
+  },
+  {
+   "q": "Why must you report to Sentinel Onaeya?",
+   "aliases": [
+    "sentinel onaeya",
+    "why maestra's post",
+    "onaeya"
+   ],
+   "answer": "Because Aynasha must press forward immediately to Lor'danel to deliver her message, she asks you to travel south to Maestra's Post in Ashenvale to inform Sentinel Onaeya about the furbolg hostility."
+  },
+  {
+   "q": "Why are the furbolgs in the area hostile?",
+   "aliases": [
+    "why are furbolgs attacking",
+    "furbolg hostility",
+    "corrupted furbolg"
+   ],
+   "answer": "Across Darkshore and Ashenvale, many furbolg tribes have succumbed to demonic taint and madness stemming from the Third War, driving them to attack traveling Sentinels and wayside travelers indiscriminately."
+  },
+  {
+   "q": "Does Aynasha fight during the ambush?",
+   "aliases": [
+    "does aynasha help",
+    "aynasha bow",
+    "does she fight"
+   ],
+   "answer": "Yes. Even though the venom leaves her barely able to stand, she supports her defender by providing covering fire with her bow while preparing the antidote."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Defending Aynasha preserves both a sister of the Sentinels and critical communications moving between outposts in Ashenvale and northern Darkshore."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Keeping the woodland paths clear of aggressive furbolg packs ensures safe passage between Ashenvale and the Alliance strongholds to the north."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Aynasha demonstrates the unwavering resolve of a marksman, continuing to loose deadly shots into the brush even while succumbing to potent venom."
+  }
+ ],
+ "keywords": [
+  "ambush",
+  "antidote",
+  "aynasha",
+  "darkshore",
+  "furbolg",
+  "lor'danel",
+  "maestra's post",
+  "marosh",
+  "onaeya",
+  "sentinel"
+ ],
+ "related": [
+  "npc:sentinel-aynasha",
+  "npc:sentinel-onaeya",
+  "subzone:maestra-s-post",
+  "subzone:lor-danel",
+  "zone:darkshore",
+  "zone:ashenvale",
+  "topic:furbolg",
+  "topic:elune"
+ ],
+ "attribution": [
+  "One Shot. One Kill."
+ ]
+}

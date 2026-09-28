@@ -1,0 +1,77 @@
+{
+ "key": "npc:marisa-du-paige",
+ "type": "npc",
+ "name": "Marisa du'Paige",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Marisa du'Paige",
+  "refs": 0
+ },
+ "summary": "Marisa du'Paige is a rare human rogue spellcaster found lurking within the sprawling cave network outside the entrance to the Deadmines in southwestern Westfall. Aligned with the outlaws operating beneath Moonbrook, she wields arcane magic alongside the laborers and highwaymen guarding the tunnels.",
+ "sections": [
+  {
+   "title": "Arcane Talent in the Tunnels",
+   "body": "Deep inside the winding caverns that lead toward the Deadmines beneath Moonbrook, most defenders are rough-hewn cutpurses, renegade miners, and thugs. Marisa du'Paige stands out among them as a skilled human mage. While most spellcasters of the kingdom train within the sanctioned halls of Stormwind's Mage Quarter or serve the Kirin Tor, du'Paige has cast her lot with the outlaws and brigands hiding in Westfall's subterranean depths.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Marisa du'Paige?",
+   "aliases": [
+    "marisa dupaige",
+    "who is marisa",
+    "rare in deadmines cave"
+   ],
+   "answer": "Marisa du'Paige is a rare human mage lurking in the outer cave system leading into the Deadmines. Unlike the typical common thieves and laborers found patrolling these passages, she wields arcane spells in defense of the underground network."
+  },
+  {
+   "q": "Where can she be found?",
+   "aliases": [
+    "marisa du'paige location",
+    "where is marisa dupaige",
+    "marisa spawn"
+   ],
+   "answer": "She spawns infrequently within the public cavern system beneath Moonbrook in Westfall, in the tunnels just outside the portal threshold of the Deadmines instance."
+  },
+  {
+   "q": "Why is a human mage hiding in the Deadmines caves?",
+   "aliases": [
+    "why is she here",
+    "marisa lore",
+    "marisa dupaige faction"
+   ],
+   "answer": "Not every arcane practitioner remains loyal to the high towers of Stormwind. Deserters, renegades, and sympathetic commoners have flocked to the outlaw cause across Westfall, lending both steel and sorcery to their fortifications beneath Moonbrook."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Marisa du'Paige is a reminder that arcane training in the kingdom is not confined to the towers of the Kirin Tor or Stormwind's wizard sanctum; rogue spellcasters readily sell their talents to criminal networks."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance adventurers scouting the tunnels beneath Moonbrook must stay alert for du'Paige, as an unexpected spellcaster amid hordes of cutpurses can quickly turn a skirmish deadly."
+  }
+ ],
+ "keywords": [
+  "deadmines",
+  "human",
+  "mage",
+  "marisa du'paige",
+  "marisa dupaige",
+  "moonbrook",
+  "rare",
+  "westfall"
+ ],
+ "related": [
+  "zone:westfall",
+  "zone:deadmines",
+  "topic:defias-brotherhood",
+  "topic:human"
+ ],
+ "attribution": [
+  "Marisa du'Paige"
+ ]
+}

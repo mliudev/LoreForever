@@ -1,0 +1,126 @@
+{
+ "key": "topic:terenas-menethil-ii",
+ "type": "topic",
+ "name": "Terenas Menethil II",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Terenas Menethil II"
+ },
+ "summary": "King Terenas Menethil II was the venerable sovereign of Lordaeron who ruled for over five decades and forged the original Alliance of Lordaeron during the Second War. Renowned as a wise and diplomatic leader, he shielded humanity from the initial Horde invasion and sheltered the young Prince Varian Wrynn. His tragic murder by his corrupted son, Prince Arthas, directly triggered the collapse of Lordaeron to the Scourge.",
+ "sections": [
+  {
+   "title": "Architect of the Alliance",
+   "body": "When refugees from Stormwind arrived in the north led by Sir Anduin Lothar, King Terenas Menethil II answered their call. Convening the monarchs of the fractured human kingdoms alongside envoys from Ironforge and Quel'Thalas, Terenas orchestrated the formation of the Alliance of Lordaeron. Rather than seizing military command for himself, he wisely nominated Lothar as supreme commander, uniting humanity's kingdoms for the first time in millennia to triumph over the Old Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Strains of Victory",
+   "body": "In the wake of the Second War, Terenas insisted upon placing surviving orcs into internment camps rather than executing them, believing that peace could be preserved if their demonic fury dissipated. This humane but costly decision placed staggering taxes on Lordaeron's allies. Gilneas sealed itself behind the Greymane Wall, Stromgarde seceded over political disputes, and the high elves withdrew entirely, leaving Terenas to shoulder the burden with a fracturing coalition.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fall of the Throne",
+   "body": "In his twilight years, Terenas faced rising orc revolts led by Thrall, whispers of northern death cults, and a mysterious plague. When a wandering prophet warned the king to abandon Lordaeron and flee across the sea to Kalimdor, Terenas dismissed him as a madman. Shortly after, Prince Arthas returned from his northern campaign hailed as a victor. In the midst of the royal celebrations, Arthas knelt before his father, drew the runeblade Frostmourne, and ran Terenas through the heart, shattering the kingdom forever.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was King Terenas Menethil II?",
+   "aliases": [
+    "who is terenas",
+    "terenas menethil",
+    "king of lordaeron"
+   ],
+   "answer": "He was the benevolent and revered monarch of the kingdom of Lordaeron. Ruling for more than fifty years, he stood at the center of northern politics, founded the Alliance of Lordaeron to battle the Horde in the Second War, and governed from Capital City until his murder."
+  },
+  {
+   "q": "How did Terenas die?",
+   "aliases": [
+    "how did terenas die",
+    "arthas kills dad",
+    "terenas death"
+   ],
+   "answer": "Terenas was murdered directly in his own throne room by his son, Prince Arthas Menethil. Arthas, having succumbed to madness and corruption through the runeblade Frostmourne during his expedition to Northrend, returned to Capital City under the guise of victory and impaled his father through the heart."
+  },
+  {
+   "q": "What was Terenas's relationship with Stormwind?",
+   "aliases": [
+    "terenas and stormwind",
+    "terenas and varian",
+    "did terenas help stormwind"
+   ],
+   "answer": "Terenas played a pivotal role in Stormwind's survival. When the southern kingdom fell during the First War, he gave haven to its survivors and raised Prince Varian Wrynn alongside his own son Arthas, treating young Varian like a second son until Stormwind could be reclaimed and rebuilt."
+  },
+  {
+   "q": "Why did the Alliance of Lordaeron break apart under his rule?",
+   "aliases": [
+    "why did alliance break",
+    "why did kingdoms leave lordaeron",
+    "internment camp taxes"
+   ],
+   "answer": "Following the Second War, Terenas chose to imprison captive orcs in internment camps rather than execute them. The massive financial cost of these camps incited bitter outrage among the member realms. Gilneas constructed the Greymane Wall to isolate itself, Stromgarde departed over policy disputes, and the elves of Quel'Thalas withdrew entirely."
+  },
+  {
+   "q": "Did Terenas know about the Plague of Undeath?",
+   "aliases": [
+    "did terenas know about plague",
+    "terenas plague response"
+   ],
+   "answer": "Terenas was aware of strange cults and a spreading sickness in the north, but he underestimated the threat. Dalaran urged him to institute a strict quarantine of northern towns, yet Terenas hesitated, fearing further suffering for his people. He dispatched Prince Arthas and Uther the Lightbringer to investigate, unaware of the trap that awaited them."
+  },
+  {
+   "q": "Why didn't Terenas listen to the mysterious Prophet?",
+   "aliases": [
+    "terenas and prophet",
+    "medivh and terenas",
+    "why didnt terenas flee"
+   ],
+   "answer": "When a cloaked prophet appeared in his council chamber imploring him to evacuate Lordaeron's citizens west to Kalimdor, Terenas dismissed him as an unhinged zealot. Terenas believed that his armies, paladins, and sturdy kingdom could endure whatever trials approached, sealing the kingdom's doom."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Humanity remembers King Terenas as a legendary patriarch who united the seven kingdoms against impossible odds, making his sudden betrayal and death at the hands of his own son an enduring national tragedy."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Grand Alliance of today owes its heritage to the coalition Terenas forged with Anduin Lothar to turn back the Old Horde during the Second War."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Terenas worked alongside Archbishop Alonsus Faol and Uther the Lightbringer to foster the Knights of the Silver Hand, guiding his own son into the order."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken who once called Capital City home, Terenas was their last living sovereign, whose fall doomed the realm to the Scourge."
+  }
+ ],
+ "keywords": [
+  "alliance of lordaeron",
+  "arthas",
+  "capital city",
+  "frostmourne",
+  "lordaeron",
+  "menethil",
+  "second war",
+  "terenas",
+  "third war",
+  "uther"
+ ],
+ "related": [
+  "topic:lordaeron",
+  "topic:alliance-of-lordaeron",
+  "topic:second-war",
+  "topic:third-war",
+  "topic:varian-wrynn",
+  "topic:anduin-lothar",
+  "topic:scourge",
+  "subzone:greymane-wall"
+ ],
+ "attribution": [
+  "Terenas Menethil II"
+ ]
+}

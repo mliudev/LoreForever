@@ -1,0 +1,86 @@
+{
+ "key": "subzone:decrepit-ferry",
+ "type": "subzone",
+ "name": "Decrepit Ferry",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Decrepit Ferry"
+ },
+ "summary": "The Decrepit Ferry is a ruined dock on the eastern shore of Silverpine Forest that once provided passage across Lordamere Lake to Fenris Isle. Following the fall of Lordaeron, the ferry was destroyed, its operator murdered, and the shoreline overrun by undead and vicious Rot Hide gnolls.",
+ "sections": [
+  {
+   "title": "A Lifeline Cut Short",
+   "body": "Before the Third War, this dock bustled with daily traffic across Lordamere Lake. Local farmers brought fresh produce down to the water, selling their crops directly to the wealthy lord of Fenris Isle and his household. For a modest fee, the ferryman carried trade goods, messengers, and visiting nobles back and forth between the mainland and the keep. That peaceful commerce ended abruptly when the Scourge swept through the kingdom. The ferryman was brutally killed, the boats were smashed, and the pier fell into decay.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Corrupted Shoreline",
+   "body": "Today, the docks are a hazard to any traveler passing along the lake shore. With the ferry out of commission, Fenris Isle sits isolated across the water, while the ruins themselves crawl with ghouls, skeletal warriors, and roving Rot Hide gnolls. What was once an orderly point of transit has become another festering pocket of danger in Silverpine.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was the Decrepit Ferry used for originally?",
+   "aliases": [
+    "ferry history",
+    "what was this dock",
+    "why is there a ferry here"
+   ],
+   "answer": "It was the main crossing point between mainland Silverpine and Fenris Isle. Local farmers used the ferry to haul their harvests across Lordamere Lake to sell to the island's noble lord, paying the local ferryman a small fare for each voyage."
+  },
+  {
+   "q": "What happened to the ferry and its ferryman?",
+   "aliases": [
+    "what happened to ferryman",
+    "who broke the ferry"
+   ],
+   "answer": "When the Scourge invaded Lordaeron, the dock was attacked. The ferryman was murdered, the boats and crossing gear were destroyed, and the location was abandoned to the undead."
+  },
+  {
+   "q": "What monsters lurk around the ferry docks now?",
+   "aliases": [
+    "decrepit ferry mobs",
+    "what lives at the ferry"
+   ],
+   "answer": "The shoreline is infested with remnants of the Scourge, including ghouls and skeletal warriors, alongside dangerous Rot Hide gnolls prowling the nearby banks."
+  },
+  {
+   "q": "Can you still take a boat to Fenris Isle from here?",
+   "aliases": [
+    "take boat to fenris",
+    "how to get to fenris isle",
+    "does the ferry work"
+   ],
+   "answer": "No. The ferry was wrecked during the invasion and lies in ruins. Anyone wishing to reach Fenris Isle must swim or find alternative passage across the lake."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The ruins are a grim reminder of Lordaeron's fall, now overrun by mind-numbing Scourge remnants and filthy gnolls that threaten Forsaken operations in eastern Silverpine."
+  }
+ ],
+ "keywords": [
+  "decrepit ferry",
+  "fenris isle",
+  "ferryman",
+  "ghouls",
+  "lordamere lake",
+  "rot hide",
+  "scourge",
+  "silverpine forest"
+ ],
+ "related": [
+  "subzone:fenris-isle",
+  "zone:silverpine",
+  "topic:gnoll",
+  "topic:scourge",
+  "topic:lordaeron",
+  "quest:438"
+ ],
+ "attribution": [
+  "Decrepit Ferry"
+ ]
+}

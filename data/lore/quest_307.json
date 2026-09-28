@@ -1,0 +1,122 @@
+{
+ "key": "quest:307",
+ "type": "quest",
+ "name": "Filthy Paws",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   307
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Mountaineer Stormpike",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Filthy Paws (Classic)",
+  "chain": []
+ },
+ "summary": "Filthy Paws is a task given by Mountaineer Stormpike to salvage valuable equipment from the infested Silver Stream Mine. Though depleted of ore, the mine was repurposed as a depot by the Miners' League before encroaching kobolds overran the tunnels. Dwarven authorities want their sturdy tools recovered before the Mountaineers launch a destructive purge of the site.",
+ "sections": [
+  {
+   "title": "A Depleted Depot",
+   "body": "The Silver Stream Mine, tucked along the ridges east of Loch Modan, yielded its last silver veins long ago. Rather than abandon the subterranean complex, the dwarven Miners' League repurposed the dry shafts as a secure storage depot for spare excavation equipment, picks, and staging materials. Sturdy subterranean tunnels make natural storehouses in Khaz Modan, provided they remain garrisoned and locked against the wilderness.",
+   "spoiler": 0
+  },
+  {
+   "title": "Paws in the Depot",
+   "body": "Dwarven vigilance has thinned across Loch Modan, and kobolds have seized the opportunity to infiltrate the shafts. Attracted by dark tunnels and the gleaming iron tools left behind, the pests quickly claimed the site as a warren. Mountaineer Stormpike is eager to lead a contingent of warriors into the tunnels to wipe them out, but heavy boots and sweeping cleaves would shatter the crates. An adventurer must sneak or fight their way in to extract the league's supplies before the full-scale assault begins.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why was gear left in the mine if it had already run dry?",
+   "aliases": [
+    "why is gear in silver stream mine",
+    "why tools in mine",
+    "miners league depot"
+   ],
+   "answer": "The Miners' League converted the Silver Stream Mine into a centralized storage depot after the ore dried up. Subterranean dwarven tunnels provide solid, dry shelters to stockpile bulky tools and supplies until needed elsewhere."
+  },
+  {
+   "q": "Why doesn't Mountaineer Stormpike clear the mine himself?",
+   "aliases": [
+    "why stormpike not going",
+    "why mountaineers waiting",
+    "stormpike quest reason"
+   ],
+   "answer": "Stormpike is under orders to wait. Additionally, the Miners' League wants their gear pulled out beforehand; sentry warriors storming into the narrow, dark shafts would likely smash the delicate crated tools in the heat of combat."
+  },
+  {
+   "q": "Where is the Silver Stream Mine located?",
+   "aliases": [
+    "silver stream mine location",
+    "where is silver stream mine",
+    "where filthy paws takes place"
+   ],
+   "answer": "The mine is located in the hills directly to the east of Thelsamar and the main road in Loch Modan."
+  },
+  {
+   "q": "What makes kobolds so interested in dwarven tools?",
+   "aliases": [
+    "why do kobolds want gear",
+    "kobold tool theft",
+    "kobolds silver stream mine"
+   ],
+   "answer": "Kobolds are compulsive subterranean scavengers. They covet metal picks, shovels, candles, and finished ironmongery that make their perpetual burrowing easier, making a warehouse of dwarven tools an irresistible prize."
+  },
+  {
+   "q": "Is the Silver Stream Mine dangerous to explore alone?",
+   "aliases": [
+    "is filthy paws hard",
+    "silver stream mine difficulty",
+    "can i solo filthy paws"
+   ],
+   "answer": "The mine's narrow passageways and dense clusters of kobolds make it hazardous. Mountaineer Stormpike explicitly warns that solitary adventurers may want to bring companions along."
+  },
+  {
+   "q": "Who owns the supplies stored in the mine?",
+   "aliases": [
+    "who owns the gear",
+    "miners league crates",
+    "who runs miners league"
+   ],
+   "answer": "The supplies belong to the Ironforge Miners' League, the trade guild responsible for quarrying, mining, and managing subterranean resources across the dwarven kingdom."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, seeing crude kobolds defile the craftsmanship of the Miners' League is an insult that calls for swift reclamation and sharp steel."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Miners can appreciate the value of high-grade dwarven gear and the tragedy of letting functional tools rust in the paws of cave vermin."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "With dwarven defensive forces stretched thin across Khaz Modan, clearing supply depots ensures vital infrastructure remains open for the Alliance."
+  }
+ ],
+ "keywords": [
+  "filthy paws",
+  "kobold",
+  "loch modan",
+  "miners gear",
+  "miners' league",
+  "mountaineer stormpike",
+  "silver stream mine",
+  "thelsamar"
+ ],
+ "related": [
+  "npc:mountaineer-stormpike",
+  "subzone:silver-stream-mine",
+  "topic:kobold",
+  "zone:lochmodan"
+ ],
+ "attribution": [
+  "Filthy Paws (Classic)"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "subzone:bogpaddle",
+ "type": "subzone",
+ "name": "Bogpaddle",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Bogpaddle"
+ },
+ "summary": "Bogpaddle is a lively neutral goblin port perched on the coast of the Swamp of Sorrows, ruled by Trade Baron Silversnap. Positioned as an eccentric blend of beachfront resort and arms bazaar, it caters openly to both Alliance and Horde forces despite the tensions simmering across the marsh.",
+ "sections": [
+  {
+   "title": "A Port in the Mire",
+   "body": "Tucked away on the northeastern shore of the Swamp of Sorrows, Bogpaddle is a typical goblin enterprise: part holiday retreat, part heavy munitions bazaar. Its eccentric ruler, Trade Baron Silversnap, touts the settlement as the premier beachfront resort and weapons yard in the Eastern Kingdoms. The salty coastline provides a brisk escape from the stifling humidity of the interior marshes, drawing enterprising merchants, rowdy vacationers, and weapons buyers to its docks.",
+   "spoiler": 0
+  },
+  {
+   "title": "Neutrality for Profit",
+   "body": "Affiliated with the Steamwheedle Cartel out of Gadgetzan, Bogpaddle strictly enforces goblin neutrality. Troops from nearby outposts\u2014whether orcs from Stonard or Alliance soldiers from Marshtide Watch\u2014can often be seen nursing drinks side by side in the local tavern. As long as gold changes hands and weapons are kept sheathed within town limits, Silversnap and his armed enforcers welcome all comers with open arms and inflated prices.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules Bogpaddle?",
+   "aliases": [
+    "bogpaddle leader",
+    "who is in charge of bogpaddle",
+    "trade baron silversnap"
+   ],
+   "answer": "The settlement is governed by Trade Baron Silversnap, an ambitious goblin entrepreneur who operates the outpost as both a leisure resort and a military-grade arms market."
+  },
+  {
+   "q": "Why are Alliance and Horde soldiers drinking together here?",
+   "aliases": [
+    "why is bogpaddle neutral",
+    "horde and alliance together swamp of sorrows"
+   ],
+   "answer": "Bogpaddle is a neutral Steamwheedle Cartel port. In typical goblin fashion, business and carousing come before faction squabbles, making the port a common meeting ground for soldiers from Stonard and Marshtide Watch to blow off steam."
+  },
+  {
+   "q": "What goblin faction operates this town?",
+   "aliases": [
+    "bogpaddle faction",
+    "is bogpaddle steamwheedle",
+    "bogpaddle reputation"
+   ],
+   "answer": "Bogpaddle is aligned with the Steamwheedle Cartel, sharing commercial ties and reputation standing with Gadgetzan in Tanaris."
+  },
+  {
+   "q": "What lies along the coast near Bogpaddle?",
+   "aliases": [
+    "what is south of bogpaddle",
+    "bogpaddle beach"
+   ],
+   "answer": "To the south along the shoreline lie the Misty Reed Strand and the soggy reaches of the Sorrowmurk, where more adventurous goblin foragers, beachgoers, and fishers frequently venture."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The goblin engineers in Bogpaddle are always tinkering with unconventional armaments, coastal contraptions, and rapid transit mechanisms along the Eastern coast."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For Horde scouts and grunts garrisoned at nearby Stonard, Bogpaddle offers cold drinks, coastal air, and military hardware, provided you can tolerate drinking under the same roof as Alliance rivals."
+  }
+ ],
+ "keywords": [
+  "bogpaddle",
+  "gadgetzan",
+  "misty reed strand",
+  "resort",
+  "silversnap",
+  "sorrowmurk",
+  "steamwheedle cartel",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "zone:swampofsorrows",
+  "topic:steamwheedle-cartel",
+  "topic:goblin",
+  "subzone:gadgetzan",
+  "subzone:stonard",
+  "subzone:marshtide-watch",
+  "subzone:misty-reed-strand",
+  "subzone:sorrowmurk"
+ ],
+ "attribution": [
+  "Bogpaddle"
+ ]
+}

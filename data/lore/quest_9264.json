@@ -1,0 +1,121 @@
+{
+ "key": "quest:9264",
+ "type": "quest",
+ "name": "Investigate the Scourge of Thunder Bluff",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   9264
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Lieutenant Lisande",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Investigate the Scourge of Thunder Bluff",
+  "chain": []
+ },
+ "summary": "Investigate the Scourge of Thunder Bluff is a defensive mission issued by the Argent Dawn outside the tauren capital. As the Lich King's airborne necropolises menace the skies of Kalimdor, defenders are tasked with culling invading undead and discovering the purpose of strange glowing runic circles on the bluffs below.",
+ "sections": [
+  {
+   "title": "A Plague on the Mesas",
+   "body": "The Scourge invasion does not discriminate between the fractured kingdoms of Lordaeron and the peaceful plains of Mulgore. When the Lich King dispatches necropolises to hover menacingly over major settlements across the world, Thunder Bluff finds itself directly threatened. Lieutenant Lisande of the Argent Dawn calls upon able-bodied Horde champions to confront the encroaching horrors encamped beneath the great city's shadows.",
+   "spoiler": 0
+  },
+  {
+   "title": "Runic Whispers",
+   "body": "Beyond simply cutting down ranks of marching corpses and gathering dim necrotic stones as trophies of war, investigators must inspect the glowing runic circles that hum with foul power near the enemy camps. Stepping near these arcane conduits exposes the mind to eerie voices carrying across vast distances, revealing that the circles serve as dark telepathic relays linking the field forces to the grim minds directing the invasion.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this quest?",
+   "aliases": [
+    "quest giver",
+    "who gives quest",
+    "lieutenant lisande"
+   ],
+   "answer": "Lieutenant Lisande, an officer serving with the Argent Dawn stationed near Thunder Bluff, assigns this mission to help repel the surrounding Scourge forces."
+  },
+  {
+   "q": "Why is the Scourge attacking Thunder Bluff?",
+   "aliases": [
+    "why mulgore",
+    "why attack tauren",
+    "scourge in thunder bluff"
+   ],
+   "answer": "The Lich King has mobilized floating necropolises to strike simultaneously at population centers across Azeroth, seeking to overwhelm and eradicate the living on every continent, including the Horde bastions in Kalimdor."
+  },
+  {
+   "q": "What are the glowing runic circles used for?",
+   "aliases": [
+    "runic circles",
+    "what do circles do",
+    "glowing runes purpose"
+   ],
+   "answer": "The glowing runic circles function as dark magical relays used by the Scourge to communicate directly with distant necropolises or the necromancers and overseers commanding the assault."
+  },
+  {
+   "q": "What are Dim Necrotic Stones?",
+   "aliases": [
+    "necrotic stones",
+    "dim necrotic stone",
+    "what are stones"
+   ],
+   "answer": "Dim Necrotic Stones are fragments carried by lesser Scourge invaders that thrum with necromantic energy. The Argent Dawn collects them as proof of the dead being slain and to study the foul magic sustaining them."
+  },
+  {
+   "q": "Why is the Argent Dawn here in Mulgore?",
+   "aliases": [
+    "argent dawn mulgore",
+    "argent dawn horde"
+   ],
+   "answer": "The Argent Dawn is a neutral organization devoted entirely to stopping the Scourge. Because the invasion threatens every living mortal, Argent Dawn officers coordinate defense efforts alongside both the Horde and the Alliance."
+  },
+  {
+   "q": "Do I have to climb the floating necropolis for this mission?",
+   "aliases": [
+    "go inside necropolis",
+    "enter necropolis"
+   ],
+   "answer": "No. The investigation takes place entirely on the ground near the encampments beneath the floating necropolis, where the runic circles and foot soldiers are gathered."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Earth Mother's sacred plains are violated by floating citadels and rotting corpses, making the defense of the bluffs a sacred duty for every tauren."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "With the war front spreading to Mulgore, Horde defenders must demonstrate that their territory will not collapse under the Lich King's sudden offensive."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The vile necromantic circles pervert the natural spirits of the earth, demanding that shamanic protectors cleanse the corruption spreading across the soil."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "lich king",
+  "lisande",
+  "mulgore",
+  "necrotic stone",
+  "runic circle",
+  "scourge",
+  "thunder bluff"
+ ],
+ "related": [
+  "npc:lieutenant-lisande",
+  "topic:argent-dawn",
+  "zone:thunderbluff",
+  "topic:scourge",
+  "topic:lich-king"
+ ],
+ "attribution": [
+  "Investigate the Scourge of Thunder Bluff"
+ ]
+}

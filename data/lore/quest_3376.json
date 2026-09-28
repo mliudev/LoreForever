@@ -1,0 +1,129 @@
+{
+ "key": "quest:3376",
+ "type": "quest",
+ "name": "Break Sharptusk!",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   3376
+  ],
+  "level": "5",
+  "faction": "Horde",
+  "start": "Brave Windfeather",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Break Sharptusk!",
+  "chain": []
+ },
+ "summary": "Break Sharptusk! is a decisive rite of passage issued by Brave Windfeather on Red Cloud Mesa. To secure the tauren homeland against ongoing raids, young champions are sent east into Brambleblade Ravine to slay Chief Sharptusk Thornmantle. Eliminating the Bristleback chieftain strikes a severe blow against the quilboar encroaching upon Mulgore.",
+ "sections": [
+  {
+   "title": "A Home Won in Blood",
+   "body": "The grassy heights of Red Cloud Mesa have long served as a peaceful sanctuary where young tauren learn the traditions of the hunt and attunement with the Earth Mother. However, this peace is constantly contested. To the east lies Brambleblade Ravine, a thorn-choked gulch claimed by the hostile Bristleback quilboar tribe. The quilboar view the tauren as invaders stealing sacred ground, launching relentless skirmishes against the tribes attempting to establish a stable life in Mulgore.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat of Thornmantle",
+   "body": "The persistent attacks on the mesa are not aimless frenzy; they are coordinated under the brutal leadership of Chief Sharptusk Thornmantle. Residing in a fortified makeshift village deep within the ravine, Sharptusk directs his warriors and geomancers against the Shu'halo. Recognizing that the Bristleback will never cease their raids while their chief still draws breath, Brave Windfeather commands an aspiring hero to breach the ravine, strike down Thornmantle, and return with his severed head as proof.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Lessons of the Hunt",
+   "body": "For young tauren and their allies, hunting Sharptusk is more than a simple execution\u2014it is an initiation into the harsh realities of survival. As Brave Windfeather teaches, the hunt against beasts teaches patience, but hunting an enemy cunning enough to hunt back tests courage, awareness, and martial discipline. Bringing down Sharptusk delivers justice for fallen kin and marks the hunter's readiness to venture out into the wider plains of Mulgore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Chief Sharptusk Thornmantle?",
+   "aliases": [
+    "who is sharptusk",
+    "sharptusk thornmantle lore",
+    "who is the quilboar chief"
+   ],
+   "answer": "Chief Sharptusk Thornmantle is the ruthless leader of the Bristleback quilboar inhabiting Brambleblade Ravine. Under his command, the tribe continuously stages raids and skirmishes against the tauren settlement on Red Cloud Mesa."
+  },
+  {
+   "q": "Where can Chief Sharptusk Thornmantle be found?",
+   "aliases": [
+    "where is sharptusk",
+    "sharptusk location",
+    "how to find sharptusk"
+   ],
+   "answer": "Sharptusk resides deep within Brambleblade Ravine, situated on the eastern edge of Red Cloud Mesa. He oversees his tribe from their makeshift village nestled inside the thorn-covered canyon."
+  },
+  {
+   "q": "Who gives the quest Break Sharptusk!?",
+   "aliases": [
+    "quest giver break sharptusk",
+    "who starts break sharptusk",
+    "brave windfeather location"
+   ],
+   "answer": "The quest is offered by Brave Windfeather, a seasoned tauren warrior who guards Camp Narache on Red Cloud Mesa. He charges promising newcomers with proving their mettle by removing the Bristleback threat."
+  },
+  {
+   "q": "Why do the Bristleback quilboar hate the tauren?",
+   "aliases": [
+    "why do quilboar attack",
+    "tauren quilboar conflict",
+    "why are quilboar hostile"
+   ],
+   "answer": "Quilboar believe that all land adorned with bloodstone and sacred thorn brambles belongs to them by divine right of their demigod creator, Agamaggan. They view the tauren founding settlements in Mulgore as encroaching trespassers on ancestral hunting grounds."
+  },
+  {
+   "q": "What proof does Brave Windfeather demand?",
+   "aliases": [
+    "what do i bring windfeather",
+    "sharptusk proof",
+    "quest objective sharptusk"
+   ],
+   "answer": "Brave Windfeather demands the severed head of Chief Sharptusk Thornmantle. Bringing the head proves beyond doubt that the leader has fallen and serves as a stern warning to any remaining Bristlebacks."
+  },
+  {
+   "q": "What is the cultural significance of this hunt for young tauren?",
+   "aliases": [
+    "why kill sharptusk lore",
+    "tauren rite of passage sharptusk",
+    "meaning of the hunt"
+   ],
+   "answer": "In tauren culture, true maturity comes from understanding the balance between hunter and hunted. Windfeather emphasizes that stalking a thinking, cunning adversary like Sharptusk teaches young warriors the gravity of mortal combat and the responsibility of defending the tribe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Slaying Sharptusk Thornmantle is one of the final trials a young tauren undertakes before departing Camp Narache, proving they possess the resolve to defend the tribes from hostile neighbors."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "By executing Chief Sharptusk, allies of the Horde demonstrate their commitment to stabilizing Mulgore and securing peaceful lands for their new tauren brothers."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "For hunters, this quest is the ultimate early test: tracking a quarry that possesses its own cunning, weapons, and intent to hunt you in return."
+  }
+ ],
+ "keywords": [
+  "brambleblade",
+  "bristleback",
+  "mulgore",
+  "narache",
+  "quilboar",
+  "red cloud mesa",
+  "sharptusk",
+  "thornmantle",
+  "windfeather"
+ ],
+ "related": [
+  "subzone:brambleblade-ravine",
+  "subzone:red-cloud-mesa",
+  "topic:quilboar",
+  "topic:tauren",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Break Sharptusk!"
+ ]
+}

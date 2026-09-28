@@ -1,0 +1,72 @@
+{
+ "key": "subzone:marshal-s-stand",
+ "type": "subzone",
+ "name": "Marshal's Stand",
+ "era": "classic",
+ "zone": "ungoro",
+ "meta": {
+  "wiki": "Marshal's Stand"
+ },
+ "summary": "Marshal's Stand is an outpost established within Un'Goro Crater near the southern road and the Marshlands. Founded by survivors of Marshal Expeditions after abandoning their earlier camp, it serves as a fortified staging ground against the crater's primordial dangers.",
+ "sections": [
+  {
+   "title": "A Hard-Won Foothold",
+   "body": "Exploration in Un'Goro Crater is fraught with peril, where massive predators, fiery elementals, and volatile terrain make survival tenuous at best. After their initial encampment at Marshal's Refuge proved unsustainable or compromised, members of Marshal Expeditions retreated toward the southern rim to regroup. Establishing Marshal's Stand near the path winding from the Marshlands and south of Fire Plume Ridge, the expedition built sturdier defenses. Determined not to be driven out of the crater entirely, the camp provides an essential foothold for explorers braving the valley.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who founded Marshal's Stand?",
+   "aliases": [
+    "who made marshals stand",
+    "marshals stand founders",
+    "who runs marshals stand"
+   ],
+   "answer": "The outpost was founded by Marshal Expeditions, a crew of intrepid explorers and researchers operating in Un'Goro Crater who fortified this new location after being displaced from Marshal's Refuge."
+  },
+  {
+   "q": "Where is Marshal's Stand located?",
+   "aliases": [
+    "where is marshals stand",
+    "marshals stand location",
+    "how do i get to marshals stand"
+   ],
+   "answer": "It lies along the road near the Marshlands in Un'Goro Crater, just south of the central volcano, Fire Plume Ridge."
+  },
+  {
+   "q": "How does Marshal's Stand differ from Marshal's Refuge?",
+   "aliases": [
+    "marshal refuge vs marshals stand",
+    "marshals stand vs refuge"
+   ],
+   "answer": "Marshal's Refuge was the expedition's primary camp tucked along the northern edge of the crater. Marshal's Stand represents a fortified repositioning near the southern path, built with stronger defenses so the expedition would not be chased off so easily again."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For trackers and big-game hunters exploring the primeval basin, Marshal's Stand provides a defended vantage point and a vital stop between hunts in the Marshlands."
+  }
+ ],
+ "keywords": [
+  "fire plume ridge",
+  "kalimdor",
+  "marshal expeditions",
+  "marshal's stand",
+  "marshals stand",
+  "marshlands",
+  "un'goro crater"
+ ],
+ "related": [
+  "subzone:marshal-s-refuge",
+  "zone:ungoro",
+  "subzone:fire-plume-ridge",
+  "subzone:marshlands",
+  "zone:tanaris",
+  "subzone:gadgetzan"
+ ],
+ "attribution": [
+  "Marshal's Stand"
+ ]
+}

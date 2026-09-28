@@ -1,0 +1,89 @@
+{
+ "key": "subzone:writhing-haunt",
+ "type": "subzone",
+ "name": "Writhing Haunt",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Writhing Haunt"
+ },
+ "summary": "The Writhing Haunt is a blighted farmstead situated east of the Ruins of Andorhal in the Western Plaguelands. Once fertile land that fed Lordaeron, it has been seized by the Scourge and transformed into a toxic spreading ground for plague vapors.",
+ "sections": [
+  {
+   "title": "A Field of Disease",
+   "body": "Like many of the old human homesteads surrounding Andorhal, the farmstead now called the Writhing Haunt fell swiftly during the Third War. Today, the fields do not grow crops but instead harvest rot. The Scourge planted an enormous plague cauldron squarely in the center of the tilled earth, continuously venting noxious, diseased vapors into the air. Rotting ghouls, freezing ghouls, and fetid zombies wander the overgrown furrows, guarding the machinery under the command of Cauldron Lord Razarch.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Watcher in the Ruins",
+   "body": "Despite the omnipresent danger of the Scourge and the choking miasma from the cauldron, the farm is not entirely abandoned by the living. Tucked away inside one of the dilapidated farmhouses hides Mulgris Deepriver. Seeking a way to neutralize the spreading contagion and strike back against the plague apparatus, he observes the cauldron's operation and awaits capable travelers willing to confront Razarch and disrupt the Scourge's foul enterprise.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was the Writhing Haunt before the plague?",
+   "aliases": [
+    "writhing haunt history",
+    "what was this farm",
+    "old farm andorhal"
+   ],
+   "answer": "Before the Third War, the Writhing Haunt was a productive, life-sustaining human farm that helped supply grain and livestock to nearby Andorhal and the greater Kingdom of Lordaeron."
+  },
+  {
+   "q": "Why is there a giant cauldron in the middle of the field?",
+   "aliases": [
+    "plague cauldron writhing haunt",
+    "why cauldron here",
+    "green smoke farm"
+   ],
+   "answer": "The cauldron was placed by the Scourge to actively brew and disperse plague vapors across the surrounding countryside, poisoning the soil, the water, and any living creatures nearby."
+  },
+  {
+   "q": "Who controls the Writhing Haunt?",
+   "aliases": [
+    "who is in charge writhing haunt",
+    "writhing haunt boss",
+    "razarch"
+   ],
+   "answer": "The site is commanded by Cauldron Lord Razarch, an undead servant of the Scourge who guards the plague cauldron alongside a host of ghouls and zombies."
+  },
+  {
+   "q": "Who is hiding in the farmhouse?",
+   "aliases": [
+    "npc in house",
+    "mulgris deepriver",
+    "who is mulgris"
+   ],
+   "answer": "Mulgris Deepriver is sheltered inside the abandoned farmhouse, monitoring the cauldron and coordinating efforts to dismantle the Scourge's operations in the area."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The desecration of rich farming soil by plague vapors makes the Writhing Haunt an active offense against the natural order, demanding that the cauldron be silenced."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Seeing the farmland outside Andorhal reduced to a diseased wasteland under Scourge rule is a bitter reminder of the fall of Lordaeron."
+  }
+ ],
+ "keywords": [
+  "andorhal",
+  "cauldron lord razarch",
+  "mulgris deepriver",
+  "plague cauldron",
+  "western plaguelands",
+  "writhing haunt"
+ ],
+ "related": [
+  "zone:westernplaguelands",
+  "subzone:ruins-of-andorhal",
+  "topic:scourge",
+  "subzone:cauldron",
+  "subzone:andorhal"
+ ],
+ "attribution": [
+  "Writhing Haunt"
+ ]
+}

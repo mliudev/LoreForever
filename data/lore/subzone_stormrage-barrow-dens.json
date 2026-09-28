@@ -1,0 +1,93 @@
+{
+ "key": "subzone:stormrage-barrow-dens",
+ "type": "subzone",
+ "name": "Stormrage Barrow Dens",
+ "era": "classic",
+ "zone": "moonglade",
+ "meta": {
+  "wiki": "Stormrage Barrow Dens"
+ },
+ "summary": "The Stormrage Barrow Dens are an ancient subterranean sanctuary carved beneath the sacred valley of Moonglade. Named for Malfurion Stormrage, these quiet earth-hewn chambers serve as a dedicated resting place where druids enter long, restorative slumbers to wander the Emerald Dream.",
+ "sections": [
+  {
+   "title": "Chambers of the Slumbering",
+   "body": "Barrow dens serve as sacred havens throughout night elven lands, providing druids a safe subterranean refuge where their physical bodies can lie undisturbed during lengthy immersions in the Emerald Dream. The Stormrage Barrow Dens are particularly esteemed within the sacred realm of Moonglade. Named in honor of Archdruid Malfurion Stormrage, these winding earthen halls hold both ancient reverence and quiet vigil. While some druids like Clintar Dreamwalker still slumber safely within its alcoves, the absence of the great Archdruid himself casts a somber shadow over the hollowed roots and peaceful glowing lanterns.",
+   "spoiler": 0
+  },
+  {
+   "title": "Echoes of the Third War",
+   "body": "During the desperate days of the Third War, these dens stood on the brink of total ruin. The dreadlord Tichondrius and the Burning Legion's forces sought to eradicate the sleeping druids before they could rally. High Priestess Tyrande Whisperwind fought her way through invading demons and hostile corrupted wildlife deep into these earthen tunnels to blow the Horn of Cenarius, waking Malfurion Stormrage in the nick of time. Following Archimonde's defeat at Mount Hyjal, Malfurion returned to Moonglade to commune with the spirits, but his essence has once more drifted into the Dream, leaving his brethren to watch over these sacred earthen depths.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Stormrage Barrow Dens?",
+   "aliases": [
+    "what are the barrow dens for",
+    "why sleep in barrow dens",
+    "stormrage barrow dens purpose"
+   ],
+   "answer": "Barrow dens provide protected, tranquil subterranean sanctuaries for night elf druids. While their minds and spirits traverse the vast pathways of the Emerald Dream, their mortal bodies remain motionless and defenseless for months or years, requiring a quiet and sheltered retreat to rest safely under the vigil of their brethren."
+  },
+  {
+   "q": "Is Malfurion Stormrage currently inside these dens?",
+   "aliases": [
+    "where is malfurion",
+    "is malfurion in the barrow dens",
+    "can i find malfurion here"
+   ],
+   "answer": "Malfurion Stormrage famously rested in the barrow dens during the Third War before Tyrande awakened him. After the war concluded and debates arose regarding planting a new World Tree, he entered a deep communion with nature and his spirit became lost within the Emerald Dream, leaving the Cenarion Circle to tend to his resting place."
+  },
+  {
+   "q": "Who is currently sleeping within these dens?",
+   "aliases": [
+    "who is asleep here",
+    "clintar dreamwalker",
+    "sleeping druids moonglade"
+   ],
+   "answer": "Among the druids resting within the dens is Clintar Dreamwalker, who lies in a deep, dream-bound slumber beneath the earth while his spirit journeys through the ethereal pathways of nature."
+  },
+  {
+   "q": "What happened to this place during the Third War?",
+   "aliases": [
+    "third war barrow dens",
+    "tichondrius attack moonglade",
+    "tyrande awakening of stormrage"
+   ],
+   "answer": "During the Third War, the dreadlord Tichondrius and the demonic forces of the Burning Legion invaded the barrow dens in an effort to slaughter the slumbering night elf druids. High Priestess Tyrande Whisperwind led an assault into the depths, fighting through demonic forces to sound the Horn of Cenarius and awaken Malfurion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids of both races, the Stormrage Barrow Dens represent the hallowed heart of Cenarion heritage, demonstrating the traditional earth-sheltered sanctuaries where elder practitioners slip between Azeroth and the Emerald Dream."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "This hollow holds profound historical weight for the Kaldorei, remembering both the millennia-long vigilance of their slumbering men and Tyrande Whisperwind's perilous descent to awaken Malfurion against the Burning Legion."
+  }
+ ],
+ "keywords": [
+  "barrow den",
+  "cenarion circle",
+  "clintar dreamwalker",
+  "emerald dream",
+  "malfurion",
+  "moonglade",
+  "stormrage barrow dens"
+ ],
+ "related": [
+  "zone:moonglade",
+  "npc:malfurion-stormrage",
+  "topic:emerald-dream",
+  "topic:cenarion-circle",
+  "topic:druid",
+  "npc:tyrande-whisperwind",
+  "topic:third-war",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Stormrage Barrow Dens"
+ ]
+}

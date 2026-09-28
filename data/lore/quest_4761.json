@@ -1,0 +1,105 @@
+{
+ "key": "quest:4761",
+ "type": "quest",
+ "name": "Thundris Windweaver",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   4761
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Terenthis",
+  "end": "Thundris Windweaver",
+  "previous": "How Big a Threat?",
+  "next": "The Cliffspring River",
+  "wiki": "Thundris Windweaver (quest)",
+  "chain": []
+ },
+ "summary": "Thundris Windweaver is an Alliance quest connecting the ranger Terenthis's reconnaissance of the local furbolgs to the civic leadership of Auberdine. Having confirmed the growing aggression of the nearby Blackwood tribe, adventurers are directed to report directly to Elder Windweaver. The elder seeks to understand the root causes of the encroaching taint warping Darkshore's wilderness.",
+ "sections": [
+  {
+   "title": "A Report to the Elder",
+   "body": "Following your scouting mission into the corrupted furbolg camps of Darkshore, the ranger Terenthis directs you to Auberdine's village elder, Thundris Windweaver. While Terenthis monitors martial threats along the woodland borders, Thundris oversees the daily welfare of the settlement and weighs the broader spiritual and environmental perils facing the kaldorei. The report provides leadership with clear evidence that the furbolgs are not simply territorial, but actively deteriorating under an unnatural malice.",
+   "spoiler": 0
+  },
+  {
+   "title": "Corruption Along the Coast",
+   "body": "Upon receiving word of the furbolg encampment, Thundris confirms that Auberdine has been wrestling with mounting hostility from native forest dwellers for some time. More distressing than the aggression alone is the creeping corruption infecting Darkshore's soil, flora, and waters. Believing that healing the land requires discovering the wellspring of this blight, Thundris turns his focus toward tracing the taint upstream, enlisting capable allies to investigate the region's waterways.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Thundris Windweaver?",
+   "aliases": [
+    "thundris windweaver",
+    "auberdine elder",
+    "who is thundris"
+   ],
+   "answer": "Thundris Windweaver serves as the elder of Auberdine, acting as a sage steward over the town's governance and daily affairs. He works closely with sentinels and druids to understand and combat the strange corruption spreading through Darkshore."
+  },
+  {
+   "q": "Why does Terenthis send you to Thundris?",
+   "aliases": [
+    "why go to thundris",
+    "terenthis report",
+    "auberdine report"
+   ],
+   "answer": "After scouting the Blackwood furbolg camps, Terenthis determines that the town's civic leadership must be briefed. Thundris Windweaver holds theories on why the wildlife and furbolgs are falling to madness and requires firsthand intelligence to coordinate a response."
+  },
+  {
+   "q": "What is happening to the furbolgs in Darkshore?",
+   "aliases": [
+    "corrupted furbolgs",
+    "furbolg hostility",
+    "why are furbolgs mad"
+   ],
+   "answer": "The native furbolgs of Darkshore have grown increasingly violent, succumbing to a dark corruption that is warping the forest itself. Rather than simple border disputes, their hostility stems from a sinister taint poisoning the land."
+  },
+  {
+   "q": "Where does this investigation lead next?",
+   "aliases": [
+    "next quest",
+    "what after thundris",
+    "cliffspring river quest"
+   ],
+   "answer": "Elder Windweaver suspects that Darkshore's water sources may be carrying the source of the rot. He promptly directs adventurers to sample the Cliffspring River to determine where the contamination originates."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Auberdine represents the kaldorei's primary port and foothold on the mainland coast; bringing intelligence to Elder Windweaver directly aids your people's effort to preserve their sacred wilderness."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The rapid corruption of the local furbolgs and forest dwellers signals a severe ecological imbalance that Cenarion allies and village elders cannot afford to ignore."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing Auberdine from hostile woodland tribes is vital for ensuring the safety of Alliance supply lines and travelers crossing between Kalimdor and Teldrassil."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "blackwood",
+  "cliffspring",
+  "darkshore",
+  "furbolg",
+  "terenthis",
+  "thundris windweaver"
+ ],
+ "related": [
+  "npc:terenthis",
+  "quest:984",
+  "quest:4762",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "topic:furbolg"
+ ],
+ "attribution": [
+  "Thundris Windweaver (quest)"
+ ]
+}

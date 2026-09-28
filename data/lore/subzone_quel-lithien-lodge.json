@@ -1,0 +1,101 @@
+{
+ "key": "subzone:quel-lithien-lodge",
+ "type": "subzone",
+ "name": "Quel'Lithien Lodge",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Quel'Lithien Lodge"
+ },
+ "summary": "Quel'Lithien Lodge is an isolated high elven refuge nestled in the forested northern hills of the Eastern Plaguelands near the border of Quel'Thalas. Led by Renthar Hawkspear, its Farstrider rangers are exiles from their homeland who reject the radical magical practices adopted by their kin in Silvermoon. Surrounded by the Scourge and hunted by Forsaken scouts, the lodge clings to survival while guarding centuries-old elven archives.",
+ "sections": [
+  {
+   "title": "A Bitter Exile",
+   "body": "Before the Third War, Quel'Lithien was a favored woodland retreat for the Farstriders of Quel'Thalas, frequently visited by veteran rangers like Lor'themar Theron. Its fortune soured when the elven kingdom was ravaged by the Scourge and new magical teachings were brought back to ease the survivors' withdrawal. Renthar Hawkspear and a cohort of rangers fiercely objected to these dubious methods on moral grounds. Unwilling to endure internal discord while struggling to rebuild, Regent Lord Lor'themar banished the dissenters south. Renthar led his followers to Quel'Lithien Lodge, where they maintain their high elven identity, severed from their home yet resolutely standing apart from the corrupted ruins surrounding them.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hunted in the Plaguelands",
+   "body": "The rangers' quiet vigil has not gone unnoticed. Deep within the tainted woods, Nathanos Blightcaller\u2014once the solitary human Ranger Lord trained alongside these very elves\u2014has directed Horde champions to infiltrate Quel'Lithien Lodge. Nathanos seeks the Quel'Thalas Registry, an official record containing details of the ranger order and elven lineages, ordering the slaughter of the lodge's defenders to retrieve it. Cut off from Silvermoon and refusing aid, the rangers at Quel'Lithien find themselves besieged by former allies and the surrounding undead alike.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are there living high elves in the Eastern Plaguelands?",
+   "aliases": [
+    "why high elves here",
+    "who lives at quel'lithien",
+    "quellithien elves"
+   ],
+   "answer": "The lodge's inhabitants are Farstriders and priests who were banished from Quel'Thalas by Regent Lord Lor'themar Theron. They refused to adopt the dark, desperate methods taught to cope with the destruction of the Sunwell, choosing exile over what they viewed as a moral corruption of their people."
+  },
+  {
+   "q": "Who leads Quel'Lithien Lodge?",
+   "aliases": [
+    "quellithien leader",
+    "renthar hawkspear",
+    "who is renthar"
+   ],
+   "answer": "The lodge is led by Renthar Hawkspear, a veteran elven ranger captain who commanded hunters here as far back as the Second War. Following his disagreement with Silvermoon's leadership, he guided the exiled dissenters to the lodge to make a stand together."
+  },
+  {
+   "q": "Are the elves at Quel'Lithien Lodge part of the Alliance?",
+   "aliases": [
+    "are quellithien elves alliance",
+    "quellithien faction"
+   ],
+   "answer": "No. While they are friendly to Alliance travelers and openly hostile toward the Horde, the lodge functions as an entirely autonomous high elven settlement receiving no formal support or direction from Stormwind or Ironforge."
+  },
+  {
+   "q": "Why does Nathanos Blightcaller target the lodge?",
+   "aliases": [
+    "why nathanos attack quellithien",
+    "the ranger lord's behest",
+    "quel'thalas registry"
+   ],
+   "answer": "Nathanos Blightcaller sends Horde agents to attack the lodge specifically to secure the Quel'Thalas Registry, an important historical document chronicling elven ranger personnel and records that remains stored in the lodge's archives."
+  },
+  {
+   "q": "How does Quel'Lithien differ from Quel'Danil Lodge?",
+   "aliases": [
+    "queldanil vs quellithien",
+    "hinterlands lodge comparison"
+   ],
+   "answer": "Both were historic high elven hunting lodges, but Quel'Danil is situated safely among friendly Wildhammer dwarves in the Hinterlands. Quel'Lithien sits isolated on the frontline of the Eastern Plaguelands, trapped between the blighted ruins and the closed gates of Quel'Thalas."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The Farstriders stationed here represent centuries of classical Thalassian marksmanship, maintaining their survival skills in a hostile wilderness completely cut off from civil society."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Operating on orders from Nathanos Blightcaller out of the Marris Stead, Horde champions are dispatched here on a deadly mission to seize high elven records through sheer force."
+  }
+ ],
+ "keywords": [
+  "aurora skycaller",
+  "farstrider",
+  "high elves",
+  "marris stead",
+  "quel'lithien",
+  "quel'thalas registry",
+  "quellithien",
+  "renthar hawkspear"
+ ],
+ "related": [
+  "npc:nathanos-blightcaller",
+  "npc:lor-themar-theron",
+  "zone:easternplaguelands",
+  "topic:scourge",
+  "topic:lordaeron",
+  "topic:alliance",
+  "topic:horde",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Quel'Lithien Lodge"
+ ]
+}

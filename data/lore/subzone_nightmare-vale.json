@@ -1,0 +1,85 @@
+{
+ "key": "subzone:nightmare-vale",
+ "type": "subzone",
+ "name": "Nightmare Vale",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Nightmare Vale"
+ },
+ "summary": "Nightmare Vale is a shadowed hollow nestled in southwestern Tirisfal Glades, just west of the Scarlet Watchtower. Once a lush forest haven, its trees have withered under the blight, and vicious predators now roam among the twisted trunks.",
+ "sections": [
+  {
+   "title": "A Decayed Wilderness",
+   "body": "Before the Third War, this valley was a verdant part of the Tirisfal countryside, filled with songbirds and standard woodland game. In the wake of the Scourge's plague, the vegetation has blackened and rotted away. Ravenous darkhounds and massive vampire bats have devoured the native wildlife, turning the hollow into a grim haven for scavengers and beasts of prey.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stalkers of the Hollow",
+   "body": "Lurking in the shadows of Nightmare Vale is Ressan the Needler, an unusually large, pale vampire bat notorious among local travelers. Wedged uncomfortably between the haunted wilderness and the zealous sentries at the nearby Scarlet Watchtower, the vale is an unforgiving expanse where unwary adventurers quickly become prey.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Nightmare Vale located?",
+   "aliases": [
+    "nightmare vale location",
+    "where is nightmare vale",
+    "find nightmare vale"
+   ],
+   "answer": "Nightmare Vale lies in the southwestern reaches of Tirisfal Glades, tucked just west of the Scarlet Watchtower."
+  },
+  {
+   "q": "Why is the valley called Nightmare Vale?",
+   "aliases": [
+    "why nightmare vale",
+    "nightmare vale lore"
+   ],
+   "answer": "Once a peaceful, vibrant forest, the valley succumbed completely to the plague that devastated Lordaeron. Its withered trees and aggressive predators\u2014hungry darkhounds and blood-drinking bats\u2014make it a waking nightmare for anyone passing through."
+  },
+  {
+   "q": "What creatures roam Nightmare Vale?",
+   "aliases": [
+    "nightmare vale mobs",
+    "monsters in nightmare vale",
+    "beasts here"
+   ],
+   "answer": "The vale is overrun by savage darkhounds and giant vampire bats that have driven out or consumed the native forest animals. The rare white vampire bat, Ressan the Needler, also prowls this hollow."
+  },
+  {
+   "q": "Who is Ressan the Needler?",
+   "aliases": [
+    "ressan",
+    "ressan the needler",
+    "rare bat tirisfal"
+   ],
+   "answer": "Ressan the Needler is a rare, stark-white vampire bat known to stalk the darkened skies and withered canopy of Nightmare Vale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The twisted wildlife of Nightmare Vale serves as a reminder of the plague's lingering footprint across Tirisfal, posing an immediate threat to Forsaken travelers venturing beyond Brill."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The vale is home to vicious darkhounds and vampire bats, including the rare white bat Ressan the Needler, making it a noteworthy proving ground for hunters seeking fearsome beasts."
+  }
+ ],
+ "keywords": [
+  "darkhounds",
+  "nightmare vale",
+  "ressan the needler",
+  "scarlet watchtower",
+  "tirisfal glades",
+  "vampire bats"
+ ],
+ "related": [
+  "zone:tirisfal",
+  "subzone:scarlet-watchtower"
+ ],
+ "attribution": [
+  "Nightmare Vale"
+ ]
+}

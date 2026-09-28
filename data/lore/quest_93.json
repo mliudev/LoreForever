@@ -1,0 +1,126 @@
+{
+ "key": "quest:93",
+ "type": "quest",
+ "name": "Dusky Crab Cakes",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   93
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Chef Grual",
+  "end": "",
+  "previous": "Jitters' Growling Gut",
+  "next": "Return to Jitters",
+  "wiki": "Dusky Crab Cakes (Classic)",
+  "chain": [
+   "Jitters' Growling Gut",
+   "Dusky Crab Cakes (Classic)",
+   "Return to Jitters"
+  ]
+ },
+ "summary": "Chef Grual of Darkshire's Scarlet Raven Tavern has a secret behind his famous Dusky Crab Cakes: they contain no crab at all. Tasked with aiding the famished and nervous Jitters, adventurers are sent to harvest spider legs from the deadly arachnids roaming northern Duskwood to prepare the town's beloved snack.",
+ "sections": [
+  {
+   "title": "A Questionable Delicacy",
+   "body": "Duskwood has long suffered from isolation, dark magic, and severed supply routes, forcing the locals of Darkshire to adapt their cuisine. Chef Grual, the resident cook at the Scarlet Raven Tavern, solved his meat shortages by inventing the Dusky Crab Cake. Despite the name suggesting seafood from distant shores, Grual readily admits that the dish's distinctively tangy flavor comes entirely from the gooey legs of local giant spiders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hunting the Venom Webs",
+   "body": "To fulfill the order, Grual directs hunters north toward the foothills and riverbanks where Venom Web Spiders spin their snares. In a gloomy forest crawling with undead and feral beasts, harvesting fresh spider meat is hazardous work, yet it remains one of the few readily available protein sources in the blighted woods. Grual fries the seasoned arachnid limbs on a hot skillet until they skitter to a crisp.",
+   "spoiler": 0
+  },
+  {
+   "title": "Comfort for a Cursed Soul",
+   "body": "The culinary errand is born out of concern for Jitters, an agitated vagrant sheltering at Sven's abandoned camp in western Duskwood. Consumed by guilt and trembling terror after inadvertently unleashing horrors upon the region, Jitters can think of little else besides his starving stomach. A hot batch of Grual's savory spider cakes serves as a rare, albeit bizarre, comfort in his wretched exile.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Are Dusky Crab Cakes actually made of crab?",
+   "aliases": [
+    "is it real crab",
+    "crab cakes secret",
+    "what are crab cakes made of"
+   ],
+   "answer": "No. Chef Grual openly confesses to adventurers that Dusky Crab Cakes are made entirely from gooey spider legs. Darkshire has no access to the sea or fresh crab, so Grual relies on local giant spiders to mimic the texture and deliver a sharp, tangy snack."
+  },
+  {
+   "q": "Where does Chef Grual get the spider legs?",
+   "aliases": [
+    "where to find spider legs",
+    "spider locations duskwood",
+    "venom web spiders location"
+   ],
+   "answer": "Grual relies on adventurers to harvest gooey legs from Venom Web Spiders. These aggressive arachnids nest predominantly in northern Duskwood, between the forest foothills and the river."
+  },
+  {
+   "q": "Who are these crab cakes being made for?",
+   "aliases": [
+    "who wants the crab cakes",
+    "who eats the crab cakes",
+    "why make crab cakes"
+   ],
+   "answer": "While Grual serves them to patrons in Darkshire, this particular batch is ordered for Jitters. Jitters is a frightened hermit starving out in Sven's camp in western Duskwood, desperate for something to fill his growling stomach."
+  },
+  {
+   "q": "Will Chef Grual teach me how to make Dusky Crab Cakes?",
+   "aliases": [
+    "can i learn crab cakes recipe",
+    "crab cake recipe cooking"
+   ],
+   "answer": "Chef Grual keeps his precise recipe for Dusky Crab Cakes a strictly guarded secret, refusing to share his trademark spice blend. However, he does reward helpful adventurers with an alternative recipe from his culinary repertoire."
+  },
+  {
+   "q": "Why does Darkshire rely on spiders for food?",
+   "aliases": [
+    "why eat spiders in darkshire",
+    "duskwood food shortages"
+   ],
+   "answer": "Duskwood's roads are besieged by undead, Nightbane worgen, and hostile creatures, severely disrupting trade caravans and farming. As fresh livestock and imported goods are scarce, Darkshire's inhabitants make creative use of whatever wildlife they can catch."
+  },
+  {
+   "q": "Does Jitters know the cakes are made of spiders?",
+   "aliases": [
+    "does jitters know about the spiders",
+    "jitters reaction to spider meat"
+   ],
+   "answer": "Jitters specifically craves Grual's famous crab cakes and cares little about the ingredients. Paralyzed by dread and starvation out in the woods, he is eager for any familiar meal from Darkshire, regardless of its creepy origin."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Chef Grual demonstrates the grit required of frontier cooks, showing that even terrifying wilderness predators like giant venomous spiders can be turned into a town's prized regional delicacy."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The dish illustrates the precarious state of the Alliance's southern frontier, where towns like Darkshire are pushed to subsisting on giant vermin due to neglected infrastructure and severed supply lines."
+  }
+ ],
+ "keywords": [
+  "chef grual",
+  "darkshire",
+  "duskwood",
+  "dusky crab cakes",
+  "jitters",
+  "scarlet raven tavern",
+  "spider legs",
+  "venom web spider"
+ ],
+ "related": [
+  "quest:5",
+  "quest:240",
+  "npc:chef-grual",
+  "npc:jitters",
+  "subzone:darkshire",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Dusky Crab Cakes (Classic)"
+ ]
+}

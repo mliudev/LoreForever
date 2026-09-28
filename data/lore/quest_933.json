@@ -1,0 +1,103 @@
+{
+ "key": "quest:933",
+ "type": "quest",
+ "name": "Crown of the Earth",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   933
+  ],
+  "level": "9",
+  "faction": "Alliance",
+  "start": "Corithras Moonrage",
+  "end": "",
+  "previous": "Crown of the Earth (3)",
+  "next": "Crown of the Earth (5)",
+  "wiki": "Crown of the Earth (4)",
+  "chain": []
+ },
+ "summary": "Crown of the Earth is an Alliance quest given by Corithras Moonrage in Dolanaar. He directs you to draw water from the moonwell near the Pools of Arlithrien, an area increasingly threatened by crazed Gnarlpine furbolgs. Completing this task uncovers how Arch Druid Fandral Staghelm rallied the night elves to raise Teldrassil in the wake of Malfurion Stormrage's disappearance.",
+ "sections": [
+  {
+   "title": "A Perilous Moonwell",
+   "body": "Corithras Moonrage tasks you with taking a tourmaline phial to a moonwell resting southeast of Darnassus's entrance, along the shores of the Pools of Arlithrien. The journey is far from quiet. The once peaceful Gnarlpine furbolgs have succumbed to sudden, violent fury, ambushing travelers and harrying Sentinel patrols throughout the region. What early reports wrote off as isolated skirmishes has escalated into a pervasive threat haunting the new home of the night elves.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fandral Staghelm's Ambition",
+   "body": "Upon receiving the filled phial, Corithras shares critical history regarding Teldrassil's creation. Following the Third War, Shan'do Malfurion Stormrage vanished, leaving the Cenarion druids leaderless and fractured. In his absence, Arch Druid Fandral Staghelm seized the mantle of leadership. Staghelm persuaded the Circle of Ancients in Darkshore that the night elves could not afford idle mourning; they needed to reclaim their lost immortality and heal their civilization by planting a massive new World Tree.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the moonwell for this quest?",
+   "aliases": [
+    "arlithrien moonwell",
+    "moonwell location",
+    "where to fill phial"
+   ],
+   "answer": "The moonwell is located southeast of the main entrance to Darnassus, situated along the southern shores of the Pools of Arlithrien."
+  },
+  {
+   "q": "Why are the Gnarlpine furbolgs attacking?",
+   "aliases": [
+    "furbolgs mad",
+    "gnarlpine aggressive",
+    "why furbolgs attack"
+   ],
+   "answer": "The Gnarlpine were traditionally a peaceful kin of bear-men, but a dark, mindless rage has recently consumed them across Teldrassil. The Sentinels initially dismissed the early attacks as isolated incidents, but the corruption has spread rapidly, turning them into a constant menace to nearby settlements and patrols."
+  },
+  {
+   "q": "What happened to Malfurion Stormrage?",
+   "aliases": [
+    "where is malfurion",
+    "what happened to stormrage",
+    "malfurion missing"
+   ],
+   "answer": "Shan'do Malfurion Stormrage vanished without explanation following the Third War. Even to this day, neither the Cenarion druids nor the night elf leadership know what became of him or where he currently sleeps."
+  },
+  {
+   "q": "Who decided to plant Teldrassil?",
+   "aliases": [
+    "who made teldrassil",
+    "staghelm world tree",
+    "why was teldrassil grown"
+   ],
+   "answer": "With Malfurion missing, Arch Druid Fandral Staghelm stepped up to guide the druids. He convinced the Circle of Ancients in Darkshore to support raising a new World Tree, arguing it was essential for the kaldorei to rebuild and regain the immortality lost during the destruction of Nordrassil."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "This leg of your journey explains the controversial political momentum that brought Teldrassil into existence following Malfurion's sudden disappearance."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The Cenarion Circle's fracture under Fandral Staghelm's leadership becomes clearer as Corithras recounts the desperate push to regain ancient immortality."
+  }
+ ],
+ "keywords": [
+  "corithras moonrage",
+  "dolanaar",
+  "fandral staghelm",
+  "gnarlpine",
+  "malfurion stormrage",
+  "pools of arlithrien",
+  "tourmaline phial"
+ ],
+ "related": [
+  "npc:corithras-moonrage",
+  "subzone:pools-of-arlithrien",
+  "subzone:dolanaar",
+  "npc:fandral-staghelm",
+  "topic:furbolg",
+  "topic:druid",
+  "topic:sentinels",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Crown of the Earth (4)"
+ ]
+}

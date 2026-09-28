@@ -1,0 +1,122 @@
+{
+ "key": "quest:384",
+ "type": "quest",
+ "name": "Beer Basted Boar Ribs",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   384
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Ragnar Thunderbrew",
+  "end": "Ragnar Thunderbrew",
+  "previous": null,
+  "next": null,
+  "wiki": "Beer Basted Boar Ribs (quest)",
+  "chain": []
+ },
+ "summary": "Ragnar Thunderbrew of the Thunderbrew Distillery in Kharanos needs fresh crag boar ribs and a mug of Rhapsody Malt to feed his hungry tavern patrons. With his regular meat supplier away fighting in the King's Army, Ragnar relies on passing travelers to keep his famed ribs on the menu.",
+ "sections": [
+  {
+   "title": "A Tavern in Need",
+   "body": "The Thunderbrew Distillery in Kharanos is famous for hearty dwarven ale and hearty tavern fare. Chief among its offerings are the legendary Beer Basted Boar Ribs. However, tavern keeper Ragnar Thunderbrew finds himself in a bind: the local hunter who usually kept the pantry stocked with fresh meat recently enlisted in the King's Army to reinforce the Alliance front, leaving Ragnar with plenty of eager customers and completely empty larders.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Secret Ingredient",
+   "body": "To recreate the dish, fresh meat must be harvested from the tough crag boars roaming the snowy foothills around Kharanos. The true magic of the recipe, however, lies in the baste. Ragnar insists on using fresh Rhapsody Malt drawn straight from the taps of the distillery. The malt breaks down the tough game meat, turning rough mountain game into a savory feast worthy of a dwarf's praise.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Ragnar Thunderbrew short on meat?",
+   "aliases": [
+    "why ragnar need boar ribs",
+    "what happened to ragnar meat supplier",
+    "who supplies the ribs"
+   ],
+   "answer": "Ragnar's regular meat supplier, a local mountain trapper, left Kharanos to enlist in the King's Army to support Alliance operations abroad, leaving the tavern without a steady supply of game."
+  },
+  {
+   "q": "Where does Rhapsody Malt come from?",
+   "aliases": [
+    "where get rhapsody malt",
+    "how to get malt for ragnar",
+    "who sells rhapsody malt"
+   ],
+   "answer": "Rhapsody Malt is brewed and served directly inside the Thunderbrew Distillery in Kharanos, available straight from the innkeeper at the tavern bar."
+  },
+  {
+   "q": "What kind of boars provide the ribs?",
+   "aliases": [
+    "which boars drop ribs",
+    "where find boar ribs dun morogh",
+    "crag boars dun morogh"
+   ],
+   "answer": "The meat is taken from the crag boars that roam the hills, snowdrifts, and frozen valleys surrounding Kharanos throughout Dun Morogh."
+  },
+  {
+   "q": "What is the secret to Ragnar's rib recipe?",
+   "aliases": [
+    "secret to beer basted ribs",
+    "beer basted boar ribs secret"
+   ],
+   "answer": "The secret is basting the tough boar ribs in Rhapsody Malt, which tenderizes the cold-weather game and infuses it with the rich flavor of dwarven brewing."
+  },
+  {
+   "q": "Who is fighting on the front lines for the King's Army?",
+   "aliases": [
+    "why did the trapper enlist",
+    "what war is the kings army fighting",
+    "alliance front lines 25 adp"
+   ],
+   "answer": "Dwarven recruits regularly join the King's Army under Highforge leadership to support the Alliance in ongoing conflicts against troggs, dark iron incursions, and broader military fronts across the Eastern Kingdoms."
+  },
+  {
+   "q": "Where is the Thunderbrew Distillery located?",
+   "aliases": [
+    "where is thunderbrew distillery",
+    "where is ragnar thunderbrew",
+    "kharanos inn location"
+   ],
+   "answer": "The distillery serves as the primary tavern and inn of Kharanos, situated along the main roadway running through central Dun Morogh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Adventurers with an interest in hearthside cooking can learn the secret to blending malt liquor with wild game directly from one of Dun Morogh's most famed brewmasters."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, hearty ale and roasted boar are the bedrock of mountain hospitality, making stocking the distillery a matter of local pride."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Even domestic tavern shortages in Kharanos stem from the broader Alliance war effort, as local mountain folk leave their trades to answer the call to arms."
+  }
+ ],
+ "keywords": [
+  "beer basted boar ribs",
+  "crag boar",
+  "dun morogh",
+  "kharanos",
+  "ragnar thunderbrew",
+  "rhapsody malt",
+  "thunderbrew distillery"
+ ],
+ "related": [
+  "npc:ragnar-thunderbrew",
+  "subzone:thunderbrew-distillery",
+  "subzone:kharanos",
+  "quest:117",
+  "zone:dunmorogh",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Beer Basted Boar Ribs (quest)"
+ ]
+}

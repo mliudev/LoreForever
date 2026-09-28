@@ -1,0 +1,125 @@
+{
+ "key": "quest:1008",
+ "type": "quest",
+ "name": "The Zoram Strand",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1008
+  ],
+  "level": "19",
+  "faction": "Alliance",
+  "start": "Shindrell Swiftfire",
+  "end": "",
+  "previous": "",
+  "next": "Pridewings of Stonetalon",
+  "wiki": "The Zoram Strand (quest)",
+  "chain": []
+ },
+ "summary": "Shindrell Swiftfire of Astranaar charges Alliance champions with scouring the northwestern coast of Ashenvale, where an ancient ruined city lies. Naga have surfaced in force along the Zoram Strand, threatening to push inward from the sea. Halting their foothold protects the forest from a haunting echo of the night elves' distant past.",
+ "sections": [
+  {
+   "title": "Shadows on the Shore",
+   "body": "Northwest of Astranaar, where the dense canopy of Ashenvale meets the Great Sea, lies the windswept shore known as the Zoram Strand. Long quiet and littered with the bleached stones of a civilization torn apart ten millennia ago, the beach has suddenly teemed with serpentine horrors. The Wrathtail naga have slithered out from the dark tides, establishing a hostile beachhead right on the borders of night elven territory.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Drowned City of Zoram",
+   "body": "Beneath the pounding surf rests the doomed city of Zoram, shattered and submerged during the Great Sundering. For ages it remained an abandoned relic, nearly forgotten by the kaldorei. The sudden emergence of the naga among its ruins stirs bitter memories among the defenders in Astranaar. Sentinels like Shindrell Swiftfire recognize the serpentine invaders as twisted cousins borne of their own ancient catastrophe, and they refuse to allow the depths to claim the shore once more.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Zoram Strand?",
+   "aliases": [
+    "zoram strand",
+    "where is zoram strand",
+    "what is zoram"
+   ],
+   "answer": "The Zoram Strand is the rugged northwestern shoreline of Ashenvale, facing the Veiled Sea. It marks the site of ancient Zoram, a kaldorei city swallowed by the ocean during the Sundering ten thousand years ago."
+  },
+  {
+   "q": "Why are the naga attacking Ashenvale's coast?",
+   "aliases": [
+    "why are naga here",
+    "naga motive zoram",
+    "why wrathtails"
+   ],
+   "answer": "Their precise motives remain mysterious to the Sentinels in Astranaar. Whatever drew them up from the deeps, their military encampments and aggression make them an immediate threat to the forests, forcing the night elves to strike preemptively."
+  },
+  {
+   "q": "Who is Shindrell Swiftfire?",
+   "aliases": [
+    "shindrell",
+    "quest giver astranaar",
+    "swiftfire"
+   ],
+   "answer": "Shindrell Swiftfire is a night elf sentinel stationed in the heart of Astranaar. She monitors regional threats to Ashenvale and organizes strikes against hostile incursions, including the naga upon the coast."
+  },
+  {
+   "q": "What history do the night elves share with the naga?",
+   "aliases": [
+    "naga elf connection",
+    "history with naga",
+    "shared history"
+   ],
+   "answer": "The naga were once Highborne night elves who served Queen Azshara. When the Well of Eternity collapsed during the Sundering, they were dragged into the abyssal depths and transformed into serpentine creatures, making every encounter deeply bitter for modern kaldorei."
+  },
+  {
+   "q": "What happens after clearing the Zoram Strand?",
+   "aliases": [
+    "next quest",
+    "what after zoram strand",
+    "pridewings"
+   ],
+   "answer": "After thinning the naga along the strand, Shindrell Swiftfire redirects Alliance defenders to handle other emerging aerial threats along the border, sending scouts south toward Stonetalon to deal with vicious pridewings."
+  },
+  {
+   "q": "Is the Horde also present at the Zoram Strand?",
+   "aliases": [
+    "horde zoram strand",
+    "zoram'gar",
+    "is the horde there"
+   ],
+   "answer": "Yes. While Alliance champions hunt the shoreline's naga from Astranaar, the Horde maintains a fortified seaside outpost called Zoram'gar Post on the strand, contesting the region and battling both the naga and Alliance alike."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Every naga slain on the strand is a grim reminder of Azshara's arrogance and the Sundering that broke the ancient world. Sentinels will never permit these twisted kin to regain ground in Kalimdor."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing the western flank of Ashenvale prevents Astranaar from being caught between coastal invaders and encroaching Horde lumber operations."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The wind-battered coast and broken ruins provide prime vantage points for tracking the amphibious raiders as they emerge from the breakers."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "naga",
+  "shindrell",
+  "strand",
+  "sundering",
+  "swiftfire",
+  "wrathtail",
+  "zoram"
+ ],
+ "related": [
+  "subzone:zoram-strand",
+  "npc:shindrell-swiftfire",
+  "subzone:astranaar",
+  "topic:naga",
+  "zone:ashenvale",
+  "quest:1134"
+ ],
+ "attribution": [
+  "The Zoram Strand (quest)"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "key": "npc:force-commander-valen",
+ "type": "npc",
+ "name": "Force Commander Valen",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Force Commander Valen",
+  "refs": 2
+ },
+ "summary": "Force Commander Valen is the commanding officer of the Alliance outpost at the Northwatch Expedition Base Camp in the Stonetalon Mountains. Charged with safeguarding Theramore's territorial push into the region, he coordinates operations against the surrounding Horde forces and hostile Grimtotem tauren.",
+ "sections": [
+  {
+   "title": "Frontier Commander",
+   "body": "Positioned at the Northwatch Expedition Base Camp, Force Commander Valen oversees Alliance military strategy in the crags of Stonetalon. His command serves as an arm of the broader Northwatch presence originating from Theramore. Valen must balance multiple conflicts at once: monitoring local Horde maneuvers, clearing out native hazards like the Deep Reaches, and repelling raids led by the aggressive Grimtotem clan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Force Commander Valen?",
+   "aliases": [
+    "who is valen",
+    "commander valen lore",
+    "northwatch commander"
+   ],
+   "answer": "Force Commander Valen is the commanding officer of the Northwatch Expedition Base Camp in the Stonetalon Mountains. He represents the Alliance forces tied to Theramore and directs defensive and offensive strikes across the region."
+  },
+  {
+   "q": "What threats is Valen facing in Stonetalon?",
+   "aliases": [
+    "why is northwatch in stonetalon",
+    "valen enemies",
+    "valen threats"
+   ],
+   "answer": "Valen oversees operations against aggressive Horde forces contesting the region and the ruthless Grimtotem tauren led by Grundig Darkcloud. He also directs reconnaissance and containment efforts regarding subterranean threats in the nearby Deep Reaches."
+  },
+  {
+   "q": "Is Valen affiliated with Theramore or Stormwind?",
+   "aliases": [
+    "valen allegiance",
+    "northwatch expedition faction"
+   ],
+   "answer": "Valen commands a Northwatch expedition, meaning his forces are directly linked to Theramore Isle's military infrastructure, operating under the broader banner of the Alliance in central Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions venturing into Stonetalon, Valen serves as the frontline military authority providing missions to secure high ground against both the Horde and the Grimtotem."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Valen represents the encroachment of Theramore's military might deep into Kalimdor, directly menacing Horde travel routes through the Stonetalon Mountains."
+  }
+ ],
+ "keywords": [
+  "deep reaches",
+  "expedition",
+  "force commander valen",
+  "grimtotem",
+  "northwatch",
+  "stonetalon",
+  "valen"
+ ],
+ "related": [
+  "subzone:northwatch-expedition-base-camp",
+  "zone:stonetalon",
+  "subzone:deep-reaches",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Force Commander Valen"
+ ]
+}

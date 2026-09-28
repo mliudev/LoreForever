@@ -1,0 +1,74 @@
+{
+ "key": "subzone:camp-kosh",
+ "type": "subzone",
+ "name": "Camp Kosh",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Camp Kosh"
+ },
+ "summary": "Camp Kosh is an ogre encampment in the northern Badlands, inhabited by the aggressive Dustbelcher ogres. Perched near vital travel routes, its brutes prey on passing caravans and scavenge whatever equipment travelers leave behind in the harsh desert.",
+ "sections": [
+  {
+   "title": "A Den of Scavengers",
+   "body": "Situated in the northern wastes of the Badlands, Camp Kosh serves as the northernmost settlement of the Dustbelcher ogres, who also occupy neighboring camps like Boff, Cagg, and Wurg. The ogres stationed here take advantage of their proximity to the roads, raiding vulnerable supply lines journeying toward Kargath or westward into the Searing Gorge. When dwarven prospectors led by Sigrun Ironhew were forced to flee the excavation at Uldaman, the brutes of Camp Kosh swiftly raided their abandoned wagons, hauling away precious food rations and armaments into the dusty encampment.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives in Camp Kosh?",
+   "aliases": [
+    "camp kosh mobs",
+    "who is at camp kosh",
+    "ogres camp kosh"
+   ],
+   "answer": "Camp Kosh is inhabited by the Dustbelcher ogres, a tribe of brutal ogres that controls several small encampments across the arid Badlands."
+  },
+  {
+   "q": "Why is Camp Kosh located here?",
+   "aliases": [
+    "why camp kosh",
+    "camp kosh location"
+   ],
+   "answer": "Its northern position allows the Dustbelcher ogres to ambushing supply caravans and unwary travelers moving between the Searing Gorge, Uldaman, and the Horde outpost of Kargath."
+  },
+  {
+   "q": "What did the ogres steal from the dwarves?",
+   "aliases": [
+    "dwarf supplies camp kosh",
+    "sigrun ironhew supplies",
+    "uldaman wagons"
+   ],
+   "answer": "When Sigrun Ironhew's dwarven expedition retreated from the dangers inside Uldaman, they abandoned supply wagons in the desert. The ogres of Camp Kosh scavenged the wreckage, making off with crates of food and weapon shipments."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The scavenging ogres of Camp Kosh plundered the vital rations and weapon caches left behind by Sigrun Ironhew's beleaguered Uldaman expedition."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance scouts traveling the northern pass toward Searing Gorge must keep their guard up around Camp Kosh, as the brutes readily ambush passing supply caravans."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "camp kosh",
+  "dustbelcher",
+  "ogres",
+  "sigrun ironhew",
+  "uldaman"
+ ],
+ "related": [
+  "zone:badlands",
+  "subzone:uldaman",
+  "zone:searinggorge",
+  "subzone:kargath",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Camp Kosh"
+ ]
+}

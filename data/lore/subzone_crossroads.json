@@ -1,0 +1,94 @@
+{
+ "key": "subzone:crossroads",
+ "type": "subzone",
+ "name": "Crossroads",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Crossroads"
+ },
+ "summary": "The Crossroads is the beating heart of Horde travel through central Kalimdor, situated where the north-south Gold Road intersects the path from Ratchet to the Stonetalon Mountains. It serves as a bustling trading outpost, military staging area, and transit hub for travelers journeying between Durotar, Mulgore, and northern frontlines.",
+ "sections": [
+  {
+   "title": "A Vital Junction in the Savannah",
+   "body": "True to its name, the Crossroads sits squarely at the crossing of the Gold Road and the east-west route cutting from the goblin port of Ratchet into the Stonetalon Mountains. Despite having modest lodgings, the outpost functions as a bustling regional hub. Wind rider masters, merchants, blacksmiths, and trainers maintain permanent setups beneath its watchtowers. For young warriors traveling out from Durotar or Mulgore, the settlement is often the first place they witness the vast, multi-front logistics binding the new Horde together.",
+   "spoiler": 0
+  },
+  {
+   "title": "Frontier Outpost Under Siege",
+   "body": "Maintaining order at the Crossroads is a relentless struggle. Local wildlife\u2014including plains raptors bold enough to plunder payroll silver from the guard towers\u2014poses a persistent nuisance, while harpies, quilboar, and centaur tribes continually pressure the perimeter. Beyond the threats native to the Barrens, the settlement's proximity to neutral Ratchet and the contested forests of Ashenvale makes it a prime target for encroaching Alliance scouting parties, leading to frequent skirmishes just outside its defensive barricades.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Crossroads so important to the Horde?",
+   "aliases": [
+    "why is crossroads important",
+    "crossroads purpose",
+    "why crossroads matters"
+   ],
+   "answer": "It anchors the major transit arteries of central Kalimdor. Every traveler moving overland between Durotar, Mulgore, Ratchet, Stonetalon, or Ashenvale must pass through or near the Crossroads, making it the primary hub for logistics and reinforcements."
+  },
+  {
+   "q": "Who provides flight transport at the Crossroads?",
+   "aliases": [
+    "crossroads flight master",
+    "who has wyverns here",
+    "flight master crossroads"
+   ],
+   "answer": "Devrak serves as the flight master at the Crossroads, managing the settlement's wind rider roost and connecting travelers directly to outposts across Kalimdor, including Orgrimmar and Thunder Bluff."
+  },
+  {
+   "q": "Why does the Alliance attack the Crossroads so frequently?",
+   "aliases": [
+    "why alliance raids crossroads",
+    "alliance pvp crossroads",
+    "crossroads attacks"
+   ],
+   "answer": "Because the Crossroads is central to Horde transit and located within easy striking distance of both Ashenvale to the north and the neutral port of Ratchet to the east, Alliance raiding parties regularly target the outpost to disrupt Horde supply lines."
+  },
+  {
+   "q": "What happened to the outpost's payroll silver?",
+   "aliases": [
+    "stolen payroll crossroads",
+    "who took the silver",
+    "crossroads silver stolen"
+   ],
+   "answer": "Barrens raptors raided the Crossroads guard tower and made off with a shipment of silver intended to pay the settlement's defending guards, scattering it into the surrounding savannah."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Crossroads is the central proving ground and crossroads of your fledgling nation, linking the homelands of the orcs, tauren, and trolls while coordinating supplies across Kalimdor."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Striking the Crossroads directly cuts off the flow of Horde reinforcements moving between Orgrimmar, Mulgore, and the disputed borders of Ashenvale."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "devrak",
+  "gold road",
+  "raptors",
+  "ratchet",
+  "stonetalon",
+  "wind rider"
+ ],
+ "related": [
+  "zone:barrens",
+  "subzone:gold-road",
+  "npc:devrak",
+  "subzone:ratchet",
+  "zone:orgrimmar",
+  "zone:thunderbluff",
+  "quest:869",
+  "quest:3281"
+ ],
+ "attribution": [
+  "Crossroads"
+ ]
+}

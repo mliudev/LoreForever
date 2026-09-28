@@ -1,0 +1,131 @@
+{
+ "key": "quest:318",
+ "type": "quest",
+ "name": "Evershine",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   318
+  ],
+  "level": "7",
+  "faction": "Alliance",
+  "start": "Pilot Bellowfiz",
+  "end": "Rejold Barleybrew",
+  "previous": "Stocking Jetsteam",
+  "next": "A Favor for Evershine",
+  "wiki": "Evershine",
+  "chain": [
+   "Stocking Jetsteam",
+   "Evershine",
+   "A Favor for Evershine",
+   "Return to Bellowfiz"
+  ]
+ },
+ "summary": "Evershine is an Alliance delivery quest beginning with Pilot Bellowfiz near Kharanos. The gnome aviator sends travelers westward to Brewnall Village to fetch a potent dwarven brew concocted by Rejold Barleybrew. The liquor doubles as a warming drink and an emergency, high-octane fuel for Bellowfiz's flying machine.",
+ "sections": [
+  {
+   "title": "A Potent Concoction",
+   "body": "Dwarven brewing is famed throughout Khaz Modan, but Rejold Barleybrew's recipes in Brewnall Village push the boundaries of standard fermentation. His experimental beverage, Evershine, is infamous for knocking all but the sturdiest dwarves flat on their backs. Despite its fierce potency, it is prized in the bitter cold of Dun Morogh for its sheer heating power.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fuel for Pilot Bellowfiz",
+   "body": "Gnome ingenuity often finds unorthodox uses for everyday materials, and Pilot Bellowfiz is no exception. Operating out of the snowfields outside Kharanos, Bellowfiz relies on Evershine not just as a nip to stave off the freezing winds, but as supplementary fuel. Dumping the volatile alcohol directly into the furnace of his flying machine, Jetsteam, provides an explosive surge of emergency power that has saved his neck on more than one rough flight.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Evershine?",
+   "aliases": [
+    "what is evershine",
+    "evershine brew",
+    "what kind of drink is evershine"
+   ],
+   "answer": "Evershine is an exceptionally strong, experimental alcoholic brew concocted by the dwarven brewmaster Rejold Barleybrew in Brewnall Village. It is famous for its fiery kick and ability to fell even hardy dwarven drinkers."
+  },
+  {
+   "q": "Why does Pilot Bellowfiz want Evershine?",
+   "aliases": [
+    "why bellowsfiz wants brew",
+    "pilot bellowfiz evershine",
+    "why does bellowfiz need it"
+   ],
+   "answer": "Pilot Bellowfiz uses Evershine both to keep warm against Dun Morogh's chill and as emergency combustible fuel. When poured into the furnace of his flying machine, Jetsteam, the volatile spirit yields an immediate burst of propulsion."
+  },
+  {
+   "q": "Where is Brewnall Village?",
+   "aliases": [
+    "where is brewnall",
+    "brewnall village location",
+    "find brewnall"
+   ],
+   "answer": "Brewnall Village is located in western Dun Morogh, directly along the road west of Kharanos. It sits nestled near the snowy hills and is home to local brewers like Rejold Barleybrew."
+  },
+  {
+   "q": "Who is Rejold Barleybrew?",
+   "aliases": [
+    "who is rejold",
+    "rejold barleybrew info",
+    "barleybrew brewer"
+   ],
+   "answer": "Rejold Barleybrew is an experimental dwarven brewer stationed in Brewnall Village. He crafts a wide variety of drinks, ranging from pleasant ales to fierce concoctions potent enough to ignite machine furnaces."
+  },
+  {
+   "q": "What comes next after reaching Rejold Barleybrew?",
+   "aliases": [
+    "next quest after evershine",
+    "what after evershine",
+    "rejold quest followup"
+   ],
+   "answer": "Rejold does not part with his prized liquor without assistance. Arriving at Brewnall Village leads into the quest 'A Favor for Evershine', where players must help the brewer before he hands over a cask for Pilot Bellowfiz."
+  },
+  {
+   "q": "Is Evershine truly safe to drink?",
+   "aliases": [
+    "can you drink evershine",
+    "is evershine poison",
+    "evershine dangerous"
+   ],
+   "answer": "According to Pilot Bellowfiz, Evershine will flatten almost any dwarf who tries it. While technically consumable by the most iron-stomached mountain folk, its extreme flammability makes it just as suitable for fueling an engine furnace."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Pilot Bellowfiz perfectly illustrates the gnomish talent for repurposing mundane objects\u2014even dwarven booze\u2014into improvised fuel sources for cutting-edge engineering."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Rejold Barleybrew's potent spirit represents the fiery extremes of dwarven brewing tradition in the cold peaks of Dun Morogh."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Using volatile distilled spirits as an auxiliary fuel booster shows how pilots like Bellowfiz keep their flying machines running in harsh environments."
+  }
+ ],
+ "keywords": [
+  "brewnall village",
+  "dun morogh",
+  "evershine",
+  "flying machine",
+  "jetsteam",
+  "kharanos",
+  "pilot bellowfiz",
+  "rejold barleybrew"
+ ],
+ "related": [
+  "npc:pilot-bellowfiz",
+  "npc:rejold-barleybrew",
+  "quest:319",
+  "quest:317",
+  "subzone:brewnall-village",
+  "subzone:kharanos",
+  "zone:dunmorogh",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Evershine"
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "key": "quest:1098",
+ "type": "quest",
+ "name": "Deathstalkers in Shadowfang",
+ "era": "classic",
+ "zone": "shadowfang",
+ "meta": {
+  "ids": [
+   1098
+  ],
+  "level": "25",
+  "faction": "Horde",
+  "start": "High Executor Hadrec",
+  "end": "Deathstalker Vincent",
+  "previous": null,
+  "next": null,
+  "wiki": "Deathstalkers in Shadowfang",
+  "chain": []
+ },
+ "summary": "High Executor Hadrec dispatches Horde adventurers into Shadowfang Keep to locate two missing reconnaissance agents, Deathstalker Adamant and Deathstalker Vincent. The Forsaken military relies on their gathered intelligence to coordinate an assault against Archmage Arugal and his worgen packs. Breaching the fortress reveals the grim reality of espionage behind enemy lines.",
+ "sections": [
+  {
+   "title": "Into the Worgen Den",
+   "body": "Silverpine Forest remains contested ground, with Archmage Arugal's feral worgen holding the towering redoubt of Shadowfang Keep. Seeking to break this siege on their southern borders, the Forsaken command stationed at the Sepulcher organized an intelligence operation. High Executor Hadrec sent two seasoned Deathstalkers\u2014Adamant and Vincent\u2014to infiltrate the fortress and chart its defenses. When days passed without word, Hadrec grew desperate for their field reports, tasking capable Horde champions with entering the stronghold to recover the agents and salvage the mission.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bitter Discovery",
+   "body": "Upon fighting their way through the lower ramparts, adventurers discover the heavy price of the infiltration. While Deathstalker Adamant survives in captivity and assists in unbarring the courtyard gates, Vincent met a brutal end. His broken corpse lies motionless within the keep, his personal intelligence lost to the dark halls. Only a small trinket remains clenched in his cold fingers, serving as quiet testament to a spy who gave his unlife for the Dark Lady's conquest.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why were Deathstalkers sent to Shadowfang Keep?",
+   "aliases": [
+    "why send spies to shadowfang",
+    "hadrec mission purpose",
+    "deathstalker goal shadowfang"
+   ],
+   "answer": "High Executor Hadrec ordered the infiltration to gather vital tactical intelligence on Archmage Arugal's forces and fortifications before committing Forsaken troops to a full-scale assault on Shadowfang Keep."
+  },
+  {
+   "q": "Who are Deathstalkers Adamant and Vincent?",
+   "aliases": [
+    "who are adamant and vincent",
+    "adamant and vincent lore"
+   ],
+   "answer": "They are elite Forsaken operatives belonging to the Deathstalkers, the espionage and assassination branch of the Undercity. Sent ahead as advance scouts, they were tasked with mapping Shadowfang Keep and observing the worgen defenses."
+  },
+  {
+   "q": "What happened to Deathstalker Vincent?",
+   "aliases": [
+    "did vincent die",
+    "where is vincent",
+    "vincent fate"
+   ],
+   "answer": "Vincent was killed by the denizens of the keep during the mission. Adventurers find his broken body lying just beyond the courtyard gate, clutching a small trinket in his hand."
+  },
+  {
+   "q": "What role does Deathstalker Adamant play inside the keep?",
+   "aliases": [
+    "what does adamant do",
+    "deathstalker adamant role"
+   ],
+   "answer": "Adamant survives the initial infiltration, though he is trapped. When adventurers reach him, he helps unlock the courtyard gate, allowing the assault deeper into the fortress to proceed while he relays what intelligence he can back to Hadrec."
+  },
+  {
+   "q": "Where does this mission begin?",
+   "aliases": [
+    "where to get deathstalkers in shadowfang",
+    "quest giver deathstalkers in shadowfang"
+   ],
+   "answer": "The mission is given by High Executor Hadrec, the Forsaken military commander stationed at the Sepulcher in Silverpine Forest."
+  },
+  {
+   "q": "Why does the Forsaken leadership want Shadowfang Keep cleared?",
+   "aliases": [
+    "why attack shadowfang",
+    "forsaken beef with arugal"
+   ],
+   "answer": "Archmage Arugal unleashes violent worgen packs across Silverpine Forest from his perch in Shadowfang Keep, constantly threatening Forsaken holdings, supply lines, and the overall security of Lordaeron."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, reclaiming Silverpine from Arugal's beasts is essential to securing the borders of Lordaeron, making Vincent's sacrifice a somber reminder of the cost of their freedom."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The fallen Vincent and the captured Adamant demonstrate the lethal risks of deep reconnaissance work behind heavily fortified enemy lines."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "High Executor Hadrec relies on Horde champions to support Forsaken operations when conventional troops cannot breach Arugal's cursed fortress."
+  }
+ ],
+ "keywords": [
+  "adamant",
+  "arugal",
+  "deathstalkers in shadowfang",
+  "hadrec",
+  "sepulcher",
+  "shadowfang keep",
+  "silverpine",
+  "vincent"
+ ],
+ "related": [
+  "npc:high-executor-hadrec",
+  "npc:deathstalker-vincent",
+  "zone:shadowfang",
+  "quest:1886",
+  "quest:448"
+ ],
+ "attribution": [
+  "Deathstalkers in Shadowfang"
+ ]
+}

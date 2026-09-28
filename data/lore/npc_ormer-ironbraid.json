@@ -1,0 +1,112 @@
+{
+ "key": "npc:ormer-ironbraid",
+ "type": "npc",
+ "name": "Ormer Ironbraid",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Ormer Ironbraid",
+  "refs": 3
+ },
+ "summary": "Ormer Ironbraid is a dwarven archaeologist stationed at Whelgar's Excavation Site in the southern Wetlands. His team's historical research has been violently interrupted by ravenous raptors that overran the dig. Ormer seeks adventurous allies to clear out the beasts and avenge the miners driven from the site.",
+ "sections": [
+  {
+   "title": "A Dig Derailed",
+   "body": "Ormer Ironbraid arrived in the Wetlands as part of the dwarven effort to uncover Titan relics and ancient history at Whelgar's Excavation Site. Unfortunately, uncovering ancient stones also unearthed\u2014or at least provoked\u2014packs of fierce Wetlands raptors. Rather than cataloging ancient earthenware and tablets, Ormer spends his days watching the beasts prowl among the ruins, nursing a fierce hatred for the creatures that disrupted their work.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bitter Feud with Claws",
+   "body": "Ormer refuses to abandon the dig, but he lacks the raw muscle to purge the site alone. He directs his frustration into a systematic campaign of extermination, enlisting passing travelers to slay raptors of increasing size and ferocity. For Ormer, reclaiming the excavation is not just about the artifacts\u2014it is a deeply personal matter of dwarven pride and vengeance against the local wildlife.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ormer Ironbraid?",
+   "aliases": [
+    "who is ormer",
+    "ormer ironbraid",
+    "ormer wetlands"
+   ],
+   "answer": "Ormer Ironbraid is a dwarven researcher overseeing work at Whelgar's Excavation Site in the Wetlands. He represents the Explorers' League's interests in studying the ancient ruins buried in the marsh."
+  },
+  {
+   "q": "Where can I find Ormer Ironbraid?",
+   "aliases": [
+    "ormer location",
+    "where is ormer",
+    "find ormer ironbraid"
+   ],
+   "answer": "He can be found standing on the overlook above Whelgar's Excavation Site, located in the southern cliffs of the Wetlands, just east of the main road heading toward Loch Modan."
+  },
+  {
+   "q": "Why does Ormer hate raptors so much?",
+   "aliases": [
+    "why raptors",
+    "ormer raptors",
+    "ormers revenge lore"
+   ],
+   "answer": "The local raptor packs overran the excavation site, driving out the dwarven workers and halting all archaeological progress. Ormer took the disruption as a personal insult and seeks total payback."
+  },
+  {
+   "q": "What is Whelgar's Excavation Site?",
+   "aliases": [
+    "whelgars excavation site",
+    "what is this dig site",
+    "wetlands dig site"
+   ],
+   "answer": "It is an archaeological dig site founded by Ironforge dwarves to unearth ancient Titan and earthen ruins beneath the Wetlands. However, aggressive wildlife has turned the dig into a dangerous battleground."
+  },
+  {
+   "q": "What quests does Ormer offer?",
+   "aliases": [
+    "ormer quests",
+    "strike the earth",
+    "ormers revenge quest"
+   ],
+   "answer": "Ormer offers the 'Ormer's Revenge' quest chain, tasking adventurers with culling the raptor population in the excavation site, as well as the follow-up quest 'Strike the Earth!' to resume digging operations."
+  },
+  {
+   "q": "Is Ormer affiliated with the Explorers' League?",
+   "aliases": [
+    "ormer explorers league",
+    "is ormer an archaeologist"
+   ],
+   "answer": "Yes. Like many dwarves excavating ancient ruins across Khaz Modan, Ormer operates on behalf of the Ironforge archaeological efforts dedicated to uncovering their race's Titan heritage."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Ormer embodies dwarven tenacity\u2014refusing to yield ancient ancestral grounds to a pack of overgrown lizards."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Assisting Ormer secures the southern Wetlands road and aids Ironforge's vital archaeological endeavors."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters will find Ormer's request a familiar task, pitting their tracking and beast-slaying prowess against some of the fiercest raptors in Khaz Modan."
+  }
+ ],
+ "keywords": [
+  "dwarf",
+  "excavation",
+  "explorers league",
+  "ironbraid",
+  "ormer",
+  "raptors",
+  "wetlands",
+  "whelgar"
+ ],
+ "related": [
+  "subzone:whelgar-s-excavation-site",
+  "quest:294",
+  "zone:wetlands",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Ormer Ironbraid"
+ ]
+}

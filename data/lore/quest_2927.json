@@ -1,0 +1,112 @@
+{
+ "key": "quest:2927",
+ "type": "quest",
+ "name": "The Day After",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "ids": [
+   2927
+  ],
+  "level": "27",
+  "faction": "Alliance",
+  "start": "Gnoarn",
+  "end": "Ozzie Togglevolt",
+  "previous": null,
+  "next": "Gnogaine",
+  "wiki": "The Day After",
+  "chain": [
+   "The Day After",
+   "Gnogaine",
+   "The Only Cure is More Green Glow"
+  ]
+ },
+ "summary": "The Day After is an Alliance quest that bridges the survivors outside Gnomeregan with researchers stationed in Dun Morogh. Gnoarn, lamenting the catastrophic radiation leak that cost him his legendary hair and his homeland, sends adventurers to assist Ozzie Togglevolt in Kharanos as he searches for a solution.",
+ "sections": [
+  {
+   "title": "A Tragic Loss",
+   "body": "Gnomeregan's downfall took a deeply personal toll on every survivor, and Gnoarn is no exception. A refugee lingering near the irradiated ruins, Gnoarn mourns not only the mechanical wonderland stolen by trogg invaders, but also his prized gnomefro\u2014a glorious mane lost in an instant when a bolt of toxic fallout blasted him. Driven by lingering fury toward the troggs and a desperate hope to recover the city, he directs sympathetic travelers to colleagues who might still possess the scientific prowess to salvage what remains.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Kharanos",
+   "body": "Rather than surrender to despair, Gnoarn points Alliance champions toward Kharanos, where inventive minds have begun tackling the fallout. Chief among them is Ozzie Togglevolt, working alongside his partner Razzle Sprysprocket. Ozzie remembers the horrifying moment of the catastrophe vividly, recalling how Gnoarn's locks fell out in clumps while madness and thirst for vengeance took hold. Now, in the relative safety of the snowbound town, Ozzie turns his engineering genius toward analyzing the contamination in hopes of finding an antidote.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gnoarn?",
+   "aliases": [
+    "gnoarn",
+    "bald gnome",
+    "who gives the day after"
+   ],
+   "answer": "Gnoarn is a gnome refugee found near Gnomeregan. Deeply embittered by the trogg invasion and the city's radioactive vent catastrophe, he is especially traumatized by the sudden loss of his once-proud gnomefro."
+  },
+  {
+   "q": "Why does Gnoarn send you to Ozzie Togglevolt?",
+   "aliases": [
+    "why go to ozzie",
+    "ozzie togglevolt quest",
+    "kharanos engineer"
+   ],
+   "answer": "Gnoarn believes there might still be hope to save Gnomeregan. Ozzie Togglevolt and his partner Razzle are stationed in Kharanos, conducting research into the toxic radiation clinging to the city and attempting to engineer a cure."
+  },
+  {
+   "q": "What happened to Gnomeregan to cause this?",
+   "aliases": [
+    "what happened to gnomeregan",
+    "why is gnomeregan irradiated",
+    "trogg invasion"
+   ],
+   "answer": "During a massive subterranean invasion by barbaric troggs, High Tinker Gelbin Mekkatorque was persuaded to vent radioactive toxic waste into the lower halls to eradicate them. The gambit failed tragically, mutating or killing countless gnomes and rendering the techno-city unlivable without wiping out the troggs."
+  },
+  {
+   "q": "Where does this quest chain lead after reaching Ozzie?",
+   "aliases": [
+    "the day after follow up",
+    "what comes after the day after",
+    "next quest"
+   ],
+   "answer": "Reporting to Ozzie unlocks the quest 'Gnogaine', where Ozzie asks you to gather radioactive fallout directly from the irradiated troggs and gnomes outside Gnomeregan to test experimental neutralizing mixtures."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomes, Gnoarn's peculiar lament captures the mixture of profound tragedy, eccentric pride, and bitter vengeance felt by every refugee exiled from their wondrous capital."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance heroes assist Dun Morogh's gnomish thinkers in containing the bizarre biochemical disaster threatening the mountain realm."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Ozzie Togglevolt's efforts highlight the trial-and-error approach gnomish tinkerers take when confronting runaway techno-disasters."
+  }
+ ],
+ "keywords": [
+  "gnoarn",
+  "gnomefro",
+  "gnomeregan",
+  "kharanos",
+  "ozzie togglevolt",
+  "radiation leak",
+  "the day after",
+  "troggs"
+ ],
+ "related": [
+  "npc:gnoarn",
+  "npc:ozzie-togglevolt",
+  "quest:2926",
+  "quest:2962",
+  "zone:gnomeregan",
+  "subzone:kharanos",
+  "topic:gnome",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "The Day After"
+ ]
+}

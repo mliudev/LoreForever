@@ -1,0 +1,88 @@
+{
+ "key": "subzone:lakkari-tar-pits",
+ "type": "subzone",
+ "name": "Lakkari Tar Pits",
+ "era": "classic",
+ "zone": "ungoro",
+ "meta": {
+  "wiki": "Lakkari Tar Pits"
+ },
+ "summary": "The Lakkari Tar Pits are a series of foul-smelling, bubbling pools of thick black sludge in northern Un'Goro Crater. Situated just below the cliffs of Marshal's Refuge, they act as a natural death trap for unwary beasts and an incubator for hostile tar elementals.",
+ "sections": [
+  {
+   "title": "A Grasping Trap",
+   "body": "The Lakkari Tar Pits dominate the low ground of northern Un'Goro Crater, directly south of Marshal's Refuge. Thick, reeking pools of pitch entrap anything careless enough to step into them, quickly bogging down beasts and adventurers alike. The protruding bones of hundreds of prehistoric creatures break the black surface, bearing witness to generations of animals sucked into the mire. Opportunistic scavengers circle the margins waiting for trapped prey to exhaust itself, while living tar beasts, lurkers, and creepers rise directly from the muck to batter interlopers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hidden Botanicals",
+   "body": "Despite the choking conditions, the pits nurture unique life. Rare flora known as tarblossoms root deep at the bottom of the tar lakes. These flowers are prized among botanists and herbalists for their astonishing durability and vibrant appearance, though recovering them requires braving the suffocating sludge and fending off the predatory tar lords that rule the bubbling morass.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happens if you step into the tar?",
+   "aliases": [
+    "tar pits effect",
+    "tar slow",
+    "stepping in tar"
+   ],
+   "answer": "The pitch is extraordinarily thick and clinging. Wading into the tar immediately reduces movement speed to a crawl, making it agonizingly difficult to evade the aggressive tar elementals that patrol the surface."
+  },
+  {
+   "q": "What creatures live in the Lakkari Tar Pits?",
+   "aliases": [
+    "tar beasts",
+    "tar pit monsters",
+    "tar creepers"
+   ],
+   "answer": "The pits are inhabited by sentient ooze and elemental life forms known as tar beasts, tar creepers, tar lurkers, and tar lords. The rare behemoth Gormashh also stalks the sludge, accompanied by local scavengers that circle the pools looking for stuck prey."
+  },
+  {
+   "q": "What are tarblossoms?",
+   "aliases": [
+    "tar blossom",
+    "tar flowers",
+    "un'goro tar flower"
+   ],
+   "answer": "Tarblossoms are hardy, beautiful flowers that manage to grow submerged along the beds of the tar pits. Because the viscous pitch preserves and shields them, they are durable and sought after by naturalists, though exceptionally hazardous to harvest."
+  },
+  {
+   "q": "Where are the Lakkari Tar Pits located?",
+   "aliases": [
+    "tar pits location",
+    "where is lakkari",
+    "how to find tar pits"
+   ],
+   "answer": "They are located in northern Un'Goro Crater, sitting directly in the basin beneath the cliffside outpost of Marshal's Refuge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "The pits are infamous for the rare tarblossom, an elusive flower that thrives deep under the suffocating pitch."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Keep pets on firm ground near Lakkari; any creature caught in the thick sludge becomes an immobilized target for predatory tar lurkers."
+  }
+ ],
+ "keywords": [
+  "creeper",
+  "gormashh",
+  "lakkari",
+  "marshal's refuge",
+  "tar beast",
+  "tar pits",
+  "tarblossom",
+  "un'goro"
+ ],
+ "related": [
+  "zone:ungoro",
+  "subzone:marshal-s-refuge"
+ ],
+ "attribution": [
+  "Lakkari Tar Pits"
+ ]
+}

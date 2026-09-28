@@ -1,0 +1,119 @@
+{
+ "key": "quest:6623",
+ "type": "quest",
+ "name": "Horde Trauma",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   6623
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Krenk Choplimb",
+  "end": "Doctor Gregory Victor",
+  "previous": null,
+  "next": "Triage (Horde)",
+  "wiki": "Horde Trauma (quest)",
+  "chain": [
+   "Horde Trauma (quest)",
+   "Triage (Horde)"
+  ]
+ },
+ "summary": "Horde Trauma is a summons directing accomplished Horde medics to report to Hammerfall in the Arathi Highlands. Doctor Gregory Victor, the chief physician of the Horde's trauma division, is looking to recruit and evaluate skilled hands capable of saving lives under extreme pressure. Answering the call places a medic directly into the grim, high-stakes reality of front-line field surgery.",
+ "sections": [
+  {
+   "title": "A Summons from Hammerfall",
+   "body": "In Orgrimmar, surgical instructor Krenk Choplimb delivers word to proficient healers that they have caught the attention of Doctor Gregory Victor himself. Victor oversees Horde Trauma from the fortified outpost of Hammerfall, tucked away in the contested hills of the Arathi Highlands. Choplimb views the summons not merely as an order, but as the pinnacle of professional advancement for any battlefield surgeon.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Brutal Work of Battlefield Triage",
+   "body": "Reaching Hammerfall reveals that the post is far from comfortable. Operating amidst constant skirmishes with the League of Arathor and local hostile factions, Victor is inundated with wounded grunts, raiders, and scouts. The chief physician wastes no time welcoming newcomers with pleasantries; instead, recruits are immediately ordered into their scrubs to prove their worth during brutal, fast-paced emergency triage.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Horde Trauma?",
+   "aliases": [
+    "horde trauma faction",
+    "what is horde trauma",
+    "who are horde trauma"
+   ],
+   "answer": "Horde Trauma represents the dedicated medical and surgical branch serving the front lines of the Horde. Led by Doctor Gregory Victor out of Hammerfall, its members specialize in battlefield medicine, emergency triage, and treating severe combat injuries under chaotic conditions."
+  },
+  {
+   "q": "Who sends me on this assignment?",
+   "aliases": [
+    "quest giver horde trauma",
+    "who starts horde trauma",
+    "krenk choplimb"
+   ],
+   "answer": "Krenk Choplimb, a medical trainer residing in Orgrimmar, issues the summons. He considers serving under Doctor Gregory Victor to be the highest honor an aspiring field medic could hope to achieve."
+  },
+  {
+   "q": "Where is Doctor Gregory Victor located?",
+   "aliases": [
+    "doctor gregory victor location",
+    "where is victor",
+    "hammerfall doctor"
+   ],
+   "answer": "Doctor Gregory Victor is stationed in the medical infirmary at Hammerfall, the primary Horde stronghold located in the northeastern Arathi Highlands."
+  },
+  {
+   "q": "What happens after reporting to Hammerfall?",
+   "aliases": [
+    "what comes after horde trauma",
+    "next quest after horde trauma",
+    "triage quest"
+   ],
+   "answer": "Upon arriving, Doctor Victor immediately instructs you to don your scrubs for the follow-up assignment, Triage. You are placed in a high-stress test where you must prioritize and treat rapidly deteriorating wounded soldiers before they succumb to their injuries."
+  },
+  {
+   "q": "Why is Hammerfall so desperate for field medics?",
+   "aliases": [
+    "why hammerfall need medics",
+    "hammerfall medical situation"
+   ],
+   "answer": "Hammerfall is surrounded by hostilities in Arathi, facing relentless conflict with human forces, syndicate operatives, and local beasts. Casualties stream into the encampment constantly, pushing the base's small medical staff to its limits."
+  },
+  {
+   "q": "Can Alliance players take this assignment?",
+   "aliases": [
+    "can alliance do horde trauma",
+    "alliance version of horde trauma"
+   ],
+   "answer": "No. Horde Trauma is exclusively for members of the Horde. The Alliance operates an equivalent medical evaluation led by Doctor Gustaf VanHowzen in the stronghold of Theramore Isle."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Horde's military strength depends heavily on rugged battlefield surgeons who keep grunts patched up and swinging in brutal frontier conflicts like the Arathi basin."
+  },
+  {
+   "target": "class:Priest",
+   "text": "While divine magic seals wounds instantly, secular triage teaches essential discipline in identifying who can be saved when mana runs bone dry."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "doctor gregory victor",
+  "first aid",
+  "hammerfall",
+  "horde trauma",
+  "krenk choplimb",
+  "triage"
+ ],
+ "related": [
+  "npc:doctor-gregory-victor",
+  "npc:krenk-choplimb",
+  "subzone:hammerfall",
+  "zone:arathi",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Horde Trauma (quest)"
+ ]
+}

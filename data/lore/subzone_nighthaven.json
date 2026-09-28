@@ -1,0 +1,92 @@
+{
+ "key": "subzone:nighthaven",
+ "type": "subzone",
+ "name": "Nighthaven",
+ "era": "classic",
+ "zone": "moonglade",
+ "meta": {
+  "wiki": "Nighthaven"
+ },
+ "summary": "Nighthaven is a secluded settlement resting on the northern shores of Lake Elune'ara in Moonglade. Serving as the heart of the Cenarion Circle, it is a haven where night elf and tauren druids study together in peace beyond the factional wars of Azeroth.",
+ "sections": [
+  {
+   "title": "A Sanctuary of the Cenarion Circle",
+   "body": "Built with traditional night elf architecture along the calm shores of Lake Elune'ara, Nighthaven is a tranquil retreat largely secluded from the outside world. Here, moonwells cast a gentle glow over groves and halls dedicated to preserving the natural balance. As the primary enclave of the Cenarion Circle, it provides trainers, herbalists, and specialized suppliers for druidic initiates. The settlement maintains a strict neutrality, welcoming practitioners regardless of whether their home loyalties lie with the Alliance or the Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ancient History and Sacred Gatherings",
+   "body": "Nighthaven's peace has been tested throughout history. Centuries after the War of the Ancients, champions gathered here to confront the enraged demigod Omen, driving him beneath the depths of Lake Elune'ara. The village also opens its secluded borders during the Lunar Festival, welcoming pilgrims from all over Azeroth to honor the ancestors and celebrate under Elune's watchful gaze.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules or oversees Nighthaven?",
+   "aliases": [
+    "who runs nighthaven",
+    "nighthaven leaders",
+    "who is in charge here"
+   ],
+   "answer": "Nighthaven is administered by the Cenarion Circle under the guidance of Keeper Remulos and senior druids such as Loganaar. It exists as an independent, neutral sanctuary rather than a territory of the night elven government."
+  },
+  {
+   "q": "Can non-druids visit Nighthaven?",
+   "aliases": [
+    "can non druids go to nighthaven",
+    "how do non druids get here"
+   ],
+   "answer": "Yes, although the village is remote and lacks public flight paths for non-druids. Outsiders must trek on foot through the timbermaw tunnels connecting Felwood and Winterspring, except during the annual Lunar Festival when magical invitations allow broader access."
+  },
+  {
+   "q": "Why are night elves and tauren living together peacefully here?",
+   "aliases": [
+    "why no fighting here",
+    "why are tauren allowed here",
+    "horde alliance peace"
+   ],
+   "answer": "The Cenarion Circle is committed to healing nature and the Emerald Dream above all faction politics. Members take vows of neutrality while within Moonglade, putting aside Alliance and Horde rivalries to study druidism as equals."
+  },
+  {
+   "q": "What flight routes are available from Nighthaven?",
+   "aliases": [
+    "nighthaven flight masters",
+    "where can i fly from here"
+   ],
+   "answer": "Exclusive Cenarion flight masters offer direct travel for druids: hippogryphs provide passage back to Rut'theran Village for the Alliance, while wind riders carry Horde druids back to Thunder Bluff."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Nighthaven is your spiritual home away from home. Through the Teleport: Moonglade ability, it provides immediate access to your order's mentors, animal form trials, and unique flight connections to Rut'theran Village or Thunder Bluff."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The tranquil flora of Nighthaven and surrounding Moonglade make it a peaceful place to consult herbalism trainers and harvest undisturbed reagents around Lake Elune'ara."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "druid",
+  "lake elune'ara",
+  "loganaar",
+  "lunar festival",
+  "moonglade",
+  "nighthaven",
+  "remulos"
+ ],
+ "related": [
+  "zone:moonglade",
+  "topic:cenarion-circle",
+  "subzone:lake-elune-ara",
+  "npc:remulos",
+  "npc:loganaar",
+  "topic:druid",
+  "subzone:rut-theran-village",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Nighthaven"
+ ]
+}

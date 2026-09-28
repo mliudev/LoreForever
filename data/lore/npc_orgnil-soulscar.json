@@ -1,0 +1,113 @@
+{
+ "key": "npc:orgnil-soulscar",
+ "type": "npc",
+ "name": "Orgnil Soulscar",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Orgnil Soulscar",
+  "refs": 3
+ },
+ "summary": "Orgnil Soulscar is an orc investigator stationed at Razor Hill in central Durotar. He serves as an informal officer of the peace, coordinating defense and intelligence against internal threats to the fledgling nation. His primary concern is the shadow cast by the Burning Blade cult within Durotar's canyons.",
+ "sections": [
+  {
+   "title": "Watcher of Razor Hill",
+   "body": "Positioned at Razor Hill, Orgnil Soulscar takes on the grim responsibility of tracking subversion and insidious threats across Durotar. While grunt patrols look outward toward Alliance footholds and centaur raiding parties, Orgnil focuses on rot brewing from within. He collects reports from scouts across the region, piecing together evidence of ritual corruption and illicit gatherings.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hunting the Shadow Council's Remnants",
+   "body": "Orgnil's chief focus is the clandestine resurgence of the Burning Blade cult, whose warlocks hide in caves such as Skull Rock. Knowing the devastation fel magic brought upon the orcish people in past generations, Orgnil refuses to let demon worship gain another foothold near Orgrimmar. He directs trusted recruits to strike down cultists, gather ritual talismans, and consult with local hermits and shamans like Margoz to understand the dark magics at play.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Orgnil Soulscar?",
+   "aliases": [
+    "who is orgnil",
+    "orgnil soulscar lore",
+    "razor hill quest giver"
+   ],
+   "answer": "Orgnil Soulscar is an orc official based in Razor Hill who acts as an investigator and coordinator for Durotar's defense. He directs warriors and scouts against covert dangers threatening the newly settled orc lands."
+  },
+  {
+   "q": "What threat is Orgnil most worried about?",
+   "aliases": [
+    "what does orgnil want",
+    "orgnil enemies",
+    "who does orgnil fight"
+   ],
+   "answer": "Orgnil is dedicated to rooting out the Burning Blade cult. He sees their presence in Durotar's hidden caverns and their corruptive fel magic as a lethal threat to the fresh start Thrall envisions for the Horde."
+  },
+  {
+   "q": "Why does Orgnil send travelers to Margoz?",
+   "aliases": [
+    "why margoz",
+    "orgnil and margoz",
+    "who is margoz to orgnil"
+   ],
+   "answer": "Margoz is a knowledgeable hermit living north of Razor Hill who understands the dark signs and rituals of the Burning Blade. Orgnil directs scouts to Margoz to decipher the cult's movements and unravel the brewing magical corruption."
+  },
+  {
+   "q": "Where can Orgnil Soulscar be found?",
+   "aliases": [
+    "orgnil location",
+    "where is orgnil",
+    "find orgnil soulscar"
+   ],
+   "answer": "Orgnil is stationed outdoors in the settlement of Razor Hill, near the central crossroads of Durotar."
+  },
+  {
+   "q": "What is the Burning Blade in Durotar?",
+   "aliases": [
+    "burning blade durotar",
+    "burning blade cult",
+    "who are burning blade"
+   ],
+   "answer": "The Burning Blade is a sinister cult beholden to demonic masters and the Shadow Council. They hide in ravines like Skull Rock and the Dustwind Cave, attempting to poison Durotar's wildlife and seduce young orcs back to demonic subservience."
+  },
+  {
+   "q": "Does Orgnil work directly for Thrall?",
+   "aliases": [
+    "orgnil thrall",
+    "is orgnil warchief guard"
+   ],
+   "answer": "Orgnil operates as part of the regional defense apparatus centered in Razor Hill, carrying out the Warchief's mandate to safeguard Durotar from sedition and demonic influence."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "For young orcs, Orgnil represents the frontline against the demonic taint that once enslaved the clans, reminding new recruits of the vigilance required to keep their new homeland pure."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks must tread carefully around Orgnil, as his entire focus is hunting down and eradicating unchecked demonic corruption within Durotar's borders."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Orgnil ensures that while the Horde looks outward to build a new nation, its heartland is not hollowed out by cultists from within."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "durotar",
+  "margoz",
+  "orgnil soulscar",
+  "razor hill",
+  "shadow council",
+  "skull rock"
+ ],
+ "related": [
+  "subzone:razor-hill",
+  "zone:durotar",
+  "quest:828",
+  "quest:823",
+  "quest:806",
+  "subzone:dranosh-ar-blockade"
+ ],
+ "attribution": [
+  "Orgnil Soulscar"
+ ]
+}

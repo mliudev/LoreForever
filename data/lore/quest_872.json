@@ -1,0 +1,123 @@
+{
+ "key": "quest:872",
+ "type": "quest",
+ "name": "The Disruption Ends",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   872
+  ],
+  "level": "15",
+  "faction": "Horde",
+  "start": "Thork",
+  "end": "",
+  "previous": "Disrupt the Attacks",
+  "next": null,
+  "wiki": "The Disruption Ends",
+  "chain": []
+ },
+ "summary": "Following evidence of targeted raids on Horde supply lines, Thork commands the execution of Kreenig Snarlsnout, the Razormane quilboar warband leader orchestrating caravan attacks from Durotar. By breaking their defensive line and claiming Kreenig's tusk, the Horde aims to throw the aggressive tribe into disarray.",
+ "sections": [
+  {
+   "title": "Cutting the Head",
+   "body": "The vital trade route running between Durotar and the Crossroads has suffered continuous ambushes, threatening the flow of provisions and reinforcements across the northern Barrens. Scout reports pinpointed the culprit: an aggressive Razormane quilboar raiding party organized and directed by a chieftain named Kreenig Snarlsnout. Recognizing that scattered skirmishes would never permanently secure the road, Thork ordered a direct decapitation strike against the leader to break the tribe's tactical cohesion.",
+   "spoiler": 0
+  },
+  {
+   "title": "Breaching the Encampment",
+   "body": "Kreenig entrenched his war party in the craggy hills northeast of the Crossroads, shielded by hardy Razormane Defenders and geomancers who manipulate the arid earth. Eliminating his guard and striking down Snarlsnout in his own redoubt was intended to send a harsh message across the plains. Claiming Kreenig's severed tusk served as undeniable proof that the Horde would brook no predation upon its lifelines.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kreenig Snarlsnout?",
+   "aliases": [
+    "who is kreenig",
+    "kreenig snarlsnout lore",
+    "who leads the razormane raiders"
+   ],
+   "answer": "Kreenig Snarlsnout is a prominent Razormane quilboar raid leader based northeast of the Crossroads. He organized coordinated attacks against Horde caravans traveling the main road out of Durotar, prompting Thork to order his execution."
+  },
+  {
+   "q": "Where is Kreenig Snarlsnout located?",
+   "aliases": [
+    "where is kreenig",
+    "kreenig location",
+    "find kreenig snarlsnout"
+   ],
+   "answer": "He can be found in the quilboar encampments situated northeast of the Crossroads, nested against the mountain foothills just south of the main road arriving from Durotar."
+  },
+  {
+   "q": "Why does Thork want Kreenig's tusk?",
+   "aliases": [
+    "why kreenigs tusk",
+    "why take the tusk",
+    "thork tusk trophy"
+   ],
+   "answer": "Trophies hold cultural weight among both orcs and quilboar. Taking Kreenig's tusk serves as indisputable proof of the leader's demise while adding public insult to the defeat, demoralizing the remaining Razormane fighters."
+  },
+  {
+   "q": "How does killing Kreenig help the Crossroads?",
+   "aliases": [
+    "why kill kreenig",
+    "strategic value of killing kreenig",
+    "crossroads caravan defense"
+   ],
+   "answer": "Thork's strategy relies on the belief that quilboar warbands fall into chaos without strong leadership. Slaying Kreenig disrupts their tactical organization, curtailing coordinated caravan ambushes and making the high road from Durotar safer for travelers."
+  },
+  {
+   "q": "What role do Razormane Geomancers play in the tribe?",
+   "aliases": [
+    "what are geomancers",
+    "razormane geomancer lore",
+    "quilboar earth magic"
+   ],
+   "answer": "Geomancers are quilboar spellcasters who commune with the spirits of the earth and stone, using nature magic to raise jagged thorn barriers and shape the rugged terrain around their bramble encampments to repel invaders."
+  },
+  {
+   "q": "What quest precedes this assignment?",
+   "aliases": [
+    "prerequisite quest",
+    "what comes before the disruption ends",
+    "previous quest"
+   ],
+   "answer": "This mission directly follows 'Disrupt the Attacks', where scouts first identified the extent of the Razormane tribe's involvement in the caravan raids along the eastern frontier."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The supply route between Durotar and the Crossroads is the vital spine of early Horde expansion in Kalimdor; keeping it open ensures the survival of inland outposts."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Thork's military philosophy reflects traditional orcish combat doctrine: shatter the enemy's resolve by cutting down their chieftain in plain view of their warriors."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "caravans",
+  "crossroads",
+  "defender",
+  "durotar",
+  "geomancer",
+  "kreenig snarlsnout",
+  "quilboar",
+  "razormane",
+  "thork"
+ ],
+ "related": [
+  "npc:thork",
+  "quest:871",
+  "topic:quilboar",
+  "subzone:crossroads",
+  "quest:5041",
+  "zone:barrens",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "The Disruption Ends"
+ ]
+}

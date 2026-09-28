@@ -1,0 +1,90 @@
+{
+ "key": "npc:hogger",
+ "type": "npc",
+ "name": "Hogger",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Hogger",
+  "refs": 0
+ },
+ "summary": "Hogger is the vicious chieftain of the Riverpaw gnolls prowling southwestern Elwynn Forest. Towering over his kin and remarkably aggressive, he has become notorious for raiding local farms and butchering unsuspecting travelers. His violent rampages have earned him an official bounty from the Stormwind Marshals.",
+ "sections": [
+  {
+   "title": "Terror of the Riverpaw",
+   "body": "Prowling atop Hogger Hill in southwestern Elwynn Forest, Hogger commands the local Riverpaw pack with unmatched savagery. In the years following the Third War, gnoll raids across local homesteads grew increasingly bold and coordinated. Behind this rise in violence lies an unsettling alliance: the Riverpaw have begun colluding with the Defias Brotherhood, trading raw ferocity for arms, tactical direction, and magical support. To safeguard Elwynn's borders and protect trade routes from further bloodshed, Marshal Dughan has posted a generous bounty on Hogger's head.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hogger?",
+   "aliases": [
+    "hogger lore",
+    "who is hogger",
+    "riverpaw leader"
+   ],
+   "answer": "Hogger is a massive, exceptionally dangerous gnoll who leads the Riverpaw pack in southwestern Elwynn Forest. Known for raiding nearby farmsteads, he is wanted dead by Stormwind authorities for his brutal attacks on human settlements."
+  },
+  {
+   "q": "Why is there a bounty on Hogger?",
+   "aliases": [
+    "wanted hogger",
+    "why kill hogger",
+    "hogger bounty"
+   ],
+   "answer": "Marshal Dughan and the Stormwind guard issued an official bounty on Hogger due to his escalating raids on rural farms and travelers. Anyone daring enough to end his rampage must bring his huge claw back to Goldshire as proof of the deed."
+  },
+  {
+   "q": "Are the Riverpaw gnolls working with the Defias Brotherhood?",
+   "aliases": [
+    "hogger defias",
+    "gnoll defias connection",
+    "riverpaw defias"
+   ],
+   "answer": "Yes. The Defias Brotherhood has been conspiring with the Riverpaw pack, supplying the brutish gnolls with refined weaponry, tactical guidance, and mystical support to further destabilize Stormwind's grip on the region."
+  },
+  {
+   "q": "Where does Hogger make his camp?",
+   "aliases": [
+    "hogger location",
+    "where is hogger",
+    "hogger hill"
+   ],
+   "answer": "Hogger resides atop Hogger Hill in the southwestern reaches of Elwynn Forest, surrounded by his loyal Riverpaw packmates near the border of Westfall."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For young defenders of Stormwind, confronting Hogger is an early trial by fire and a direct response to the threats destabilizing Elwynn's heartland."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Hogger's raids demonstrate how stretched thin the Stormwind army is, forcing the Marshals to rely on roaming adventurers to maintain order near the capital."
+  }
+ ],
+ "keywords": [
+  "bounty",
+  "defias",
+  "dughan",
+  "elwynn",
+  "gnoll",
+  "goldshire",
+  "hogger",
+  "riverpaw"
+ ],
+ "related": [
+  "quest:176",
+  "topic:riverpaw-pack",
+  "zone:elwynn",
+  "subzone:hogger-hill",
+  "npc:marshal-dughan",
+  "topic:defias-brotherhood",
+  "subzone:goldshire",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Hogger"
+ ]
+}

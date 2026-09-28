@@ -1,0 +1,91 @@
+{
+ "key": "subzone:greenpaw-village",
+ "type": "subzone",
+ "name": "Greenpaw Village",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Greenpaw Village"
+ },
+ "summary": "Greenpaw Village is a furbolg settlement nestled in central Ashenvale, situated between Raynewood Retreat and Silverwind Refuge. It serves as the primary home of the Foulweald tribe, led by Chief Murgut and the shaman Oakpaw. Gripped by demonic corruption and embattled by outside forces, the village is an active conflict point for both Alliance and Horde travelers.",
+ "sections": [
+  {
+   "title": "A Corrupted Settlement",
+   "body": "Situated south of Raynewood Retreat and northeast of Silverwind Refuge, Greenpaw Village was once a quiet home for the forest's ursine denizens. In the wake of the Third War, its resident furbolgs\u2014the Foulweald tribe\u2014succumbed to the insidious corruption tainting Ashenvale's soil and spirits. Under the dominion of Chief Murgut and their corrupted spiritual guide, Shaman Oakpaw, the Foulweald have become hostile and unstable, attacking any travelers who stray into their forest territory.",
+   "spoiler": 0
+  },
+  {
+   "title": "Caught in the Crosshairs",
+   "body": "Because of their relentless aggression and proximity to major roadways, Greenpaw Village draws hostility from every side. Alliance sentinels and night elf druids seek to purge the mad furbolgs to protect their nearby outposts and sacred moonwells. Simultaneously, Horde forces advancing into Ashenvale have fought bloody skirmishes against the Foulweald, leaving portions of the village shattered and its denizens captive as both factions push through the ancient woodland.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Greenpaw Village located?",
+   "aliases": [
+    "greenpaw location",
+    "where is greenpaw village",
+    "find greenpaw"
+   ],
+   "answer": "Greenpaw Village lies in central Ashenvale, directly south of Raynewood Retreat, northeast of Silverwind Refuge, and just northwest of the southern moonwell."
+  },
+  {
+   "q": "Who lives in Greenpaw Village?",
+   "aliases": [
+    "who is here",
+    "greenpaw mobs",
+    "greenpaw furbolgs"
+   ],
+   "answer": "The settlement is populated by the Foulweald furbolg tribe, who are governed by Chief Murgut alongside their corrupted spiritual advisor, Shaman Oakpaw."
+  },
+  {
+   "q": "Why are the furbolgs in Greenpaw Village hostile?",
+   "aliases": [
+    "why are furbolgs mad",
+    "are greenpaw furbolgs corrupt"
+   ],
+   "answer": "Like many furbolg tribes across northern Kalimdor, the Foulweald tribe fell victim to the demonic corruption left behind after the Burning Legion invaded Ashenvale, driving their minds into maddened aggression."
+  },
+  {
+   "q": "Why are the Alliance and Horde fighting here?",
+   "aliases": [
+    "greenpaw quests",
+    "who attacks greenpaw"
+   ],
+   "answer": "Both factions view the aggressive Foulweald as a threat to their roads and settlements. The night elves seek to cleanse or contain the madness near their moonwells, while the Horde has actively struck into the camp, leaving sections damaged and furbolgs captured."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves, seeing the Foulweald succumb to corruption so near Raynewood Retreat and their sacred moonwells is a tragic reminder of Ashenvale's lingering demonic scars."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids witness the pain of the ancient bear folk firsthand at Greenpaw Village, where the balance of nature has broken down into rampant feral madness."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "foulweald",
+  "furbolg",
+  "greenpaw village",
+  "murgut",
+  "oakpaw",
+  "raynewood retreat",
+  "silverwind refuge"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "topic:furbolg",
+  "subzone:raynewood-retreat",
+  "subzone:silverwind-refuge",
+  "subzone:moonwell-ashenvale",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Greenpaw Village"
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "key": "zone:feralas",
+ "type": "zone",
+ "name": "Feralas",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": [
+   "Feralas (Classic)",
+   "Feralas"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "Feralas is a vast, mist-shrouded rainforest nestled between Desolace, Thousand Needles, and the Veiled Sea. Sheltered by soaring mountain walls, it preserves an ancient ecosystem dotted with overgrown Kaldorei ruins and primordial beasts. Today, the wilderness is contested territory, caught between ancient Highborne remnants, invasive Gordunni ogres, and rival outposts established by the Alliance and the Horde.",
+ "sections": [
+  {
+   "title": "A Forest Untouched by the Wastes",
+   "body": "While neighboring Desolace and Thousand Needles have dried into barren badlands and desiccated canyons, Feralas remains intensely verdant. Mountain ranges seal off the canopy, sustaining a warm microclimate of deep mists, ancient trees, and towering waterfalls. Before the Great Sundering, much of Kalimdor looked like this. Over millennia, the deep jungle swallowed the monuments of the Kaldorei civilization that once ruled here, hiding forgotten temples and pavilions beneath strangling moss and thick fern brush.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ruins of Eldre'Thalas",
+   "body": "Dominating central Feralas is the ruined metropolis of Eldre'Thalas, now called Dire Maul. Built at the peak of the Kaldorei empire, its vast stone courtyards have fallen into ruin, desecrated by the savage Gordunni ogre clan. These ogres spread across the valley, pillaging sacred sites, defiling pristine groves, and driving indigenous wildlife into territorial frenzy. Deep within Dire Maul's sealed chambers, whispers persist of Highborne remnants and trapped powers dating back ten thousand years.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Struggle for Footholds",
+   "body": "Both the Alliance and the Horde have mounted major expeditions into the jungle, though traversing it remains dangerous. From Feathermoon Stronghold on Sardor Isle, General Shandris Feathermoon directs Sentinels against both ogre expansion and encroaching naga. To the east lies Camp Mojache, a central Horde garrison struggling against aggressive Woodpaw gnolls, hostile Grimtotem tauren, and the relentless ogre clans. Neither faction commands true control over the untamable interior.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Dire Maul?",
+   "aliases": [
+    "eldre'thalas",
+    "ogre city",
+    "ancient ruins center"
+   ],
+   "answer": "Dire Maul is the present-day name for Eldre'Thalas, a glorious elven city that survived the Sundering. Over the millennia, it fell into decline and was overrun by the brutal Gordunni clan. The complex is now partitioned into contested wings harboring ogres, treacherous spirits, and ancient Highborne secrets."
+  },
+  {
+   "q": "How do Alliance travelers safely reach Feathermoon Stronghold?",
+   "aliases": [
+    "getting to feathermoon",
+    "alliance entrance to feralas",
+    "how to get to feralas alliance"
+   ],
+   "answer": "Alliance explorers coming from Desolace can pass south through the Twin Colossals, though the beasts there are perilous. Alternatively, travelers can slip into the ocean along the Sar'theris Strand in Desolace and swim south along the Forgotten Coast directly to Sardor Isle, entirely bypassing the dangerous overland road and Camp Mojache."
+  },
+  {
+   "q": "Why is the Horde fighting the Gordunni ogres so aggressively?",
+   "aliases": [
+    "why kill gordunni",
+    "horde ogre war",
+    "camp mojache ogres"
+   ],
+   "answer": "The Gordunni ogres are violently expanding out of Dire Maul, raiding supply caravans and attacking travelers across the jungle. Their destructive war parties actively threaten Camp Mojache, prompting Horde leaders like Belgrom Rockmaul to call for swift, aggressive strikes against the clan's outposts."
+  },
+  {
+   "q": "What is the Dream Bough?",
+   "aliases": [
+    "green dragon portal",
+    "great tree feralas",
+    "emerald dream tree"
+   ],
+   "answer": "The Dream Bough is one of the four Great Trees of Azeroth, housing a mystical natural portal that connects physical reality to the Emerald Dream. Like its counterparts in Ashenvale, Duskwood, and the Hinterlands, it is watched by the green dragonflight and ancient guardians."
+  },
+  {
+   "q": "Why are Grimtotem tauren present in Feralas?",
+   "aliases": [
+    "grimtotem feralas",
+    "grimtotem compound",
+    "hostile tauren"
+   ],
+   "answer": "A renegade sect of Grimtotem tauren maintains a compound in the wilderness, operating outside the authority of Thunder Bluff. Their presence is hostile toward both the Alliance and the Horde; they have trapped local faerie dragons and are actively targeted by Horde scouts."
+  },
+  {
+   "q": "Are there Silithid in Feralas?",
+   "aliases": [
+    "writhing deep",
+    "bugs in feralas",
+    "silithid hive"
+   ],
+   "answer": "Yes. South of the main road lies The Writhing Deep, a swarming subterranean hive of silithid insectoids. Their emergence in the lush rainforest is an unsettling sign that the hive mind is expanding far beyond the desert borders of southern Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Feralas holds profound cultural weight as a cradle of ancient Kaldorei civilization, yet the sight of sacred ruins like Eldre'Thalas defiled by ogres stirs deep sorrow and anger."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Operations are anchored out of Feathermoon Stronghold under Shandris Feathermoon, tasking operatives with policing coastal naga and defending elven legacy."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Camp Mojache serves as a vital frontier bastion, requiring reliable warriors to push back aggressive Gordunni incursions, rogue Grimtotem, and Woodpaw gnolls."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The Dream Bough and its connection to the Emerald Dream make Feralas sacred ground, demanding vigilance against encroaching corruption and defilers."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The damp, shaded floor of the canopy yields prized temperate and tropical flora, including Sungrass, Purple Lotus, and Khadgar's Whisker."
+  }
+ ],
+ "keywords": [
+  "camp mojache",
+  "dire maul",
+  "dream bough",
+  "eldre'thalas",
+  "feathermoon",
+  "feralas",
+  "gordunni",
+  "shandris",
+  "thalanaar"
+ ],
+ "related": [
+  "subzone:dire-maul",
+  "subzone:feathermoon-stronghold",
+  "subzone:camp-mojache",
+  "subzone:thalanaar",
+  "subzone:dream-bough",
+  "subzone:forgotten-coast",
+  "subzone:twin-colossals",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Feralas (Classic)",
+  "Feralas"
+ ]
+}

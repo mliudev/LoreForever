@@ -1,0 +1,127 @@
+{
+ "key": "quest:963",
+ "type": "quest",
+ "name": "For Love Eternal",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   963
+  ],
+  "level": "16",
+  "faction": "Alliance",
+  "start": "Cerellean Whiteclaw",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "For Love Eternal",
+  "chain": []
+ },
+ "summary": "\"For Love Eternal\" is a tragic quest given by Cerellean Whiteclaw in Auberdine. Haunted by memories of his lost lover, Anaya Dawnrunner, Cerellean asks an adventurer to travel to the shattered ruins of Ameth'Aran to release her restless spirit from an eternity of torment.",
+ "sections": [
+  {
+   "title": "A Slumber Full of Grief",
+   "body": "Ten thousand years ago during the War of the Ancients, the catastrophe surrounding the Well of Eternity tore ancient Kalimdor apart. Among the casualties was the city of Ameth'Aran, where Cerellean Whiteclaw lost his beloved, Anaya Dawnrunner. Stricken with despair, Cerellean followed Shan'do Malfurion Stormrage into the long hibernation of the druids, hoping the millennia spent walking the Emerald Dream would quiet his aching heart. Instead, his sorrow only lingered, following him through the ages.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ghost of Ameth'Aran",
+   "body": "Upon awakening in recent times, Cerellean wandered through Darkshore in a stupor until his feet brought him back to the melancholy ruins of Ameth'Aran. There, wandering among the ancient stones, he beheld the tortured ghost of Anaya. Unable to bear raising a weapon against the woman he loved, he pleads with passing travelers to destroy her tormented manifestation, retrieve her pendant, and finally grant her troubled soul peace.",
+   "spoiler": 0
+  },
+  {
+   "title": "Parting Across the Veil",
+   "body": "When Anaya's pendant is returned to Auberdine, a spectral remnant of Anaya appears before Cerellean one last time. Freed from the lingering anguish that bound her to the ruins, she shares a brief, silent goodbye before fading away into the ether, leaving the grieving druid to weep in bittersweet solace by the seaside.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Cerellean Whiteclaw?",
+   "aliases": [
+    "cerellean whiteclaw",
+    "who gives for love eternal",
+    "cerellean lore"
+   ],
+   "answer": "Cerellean Whiteclaw is a night elf druid resting in Auberdine. After losing his beloved Anaya during the Sundering ten thousand years ago, he entered the long druidic hibernation alongside Shan'do Malfurion Stormrage, carrying his unhealed sorrow across millennia."
+  },
+  {
+   "q": "Who was Anaya Dawnrunner?",
+   "aliases": [
+    "anaya dawnrunner",
+    "who is anaya",
+    "anaya darkshore"
+   ],
+   "answer": "Anaya Dawnrunner was a night elf who lived in the city of Ameth'Aran prior to the Great Sundering. She was killed when the city fell during the aftermath of the War of the Ancients, and her ghost has remained trapped in the ruins ever since."
+  },
+  {
+   "q": "Where is Anaya's spirit located?",
+   "aliases": [
+    "anaya location",
+    "where is anaya dawnrunner",
+    "anaya's pendant location"
+   ],
+   "answer": "Her spirit wanders among the ancient, ghost-infested ruins of Ameth'Aran, located in southern Darkshore east of the main road."
+  },
+  {
+   "q": "Why couldn't Cerellean free Anaya himself?",
+   "aliases": [
+    "why doesn't cerellean kill anaya",
+    "why cerellean asks for help"
+   ],
+   "answer": "Despite the passage of ten thousand years, Cerellean's love for Anaya was so profound that he could not bear the heartbreak of raising his own hand or casting a spell against her apparition, even to end her suffering."
+  },
+  {
+   "q": "What happened to Ameth'Aran?",
+   "aliases": [
+    "ameth'aran history",
+    "fall of ameth'aran",
+    "what is ameth'aran"
+   ],
+   "answer": "Ameth'Aran was an ancient night elven settlement destroyed ten millennia ago during the Sundering that followed the War of the Ancients. Its ruins in Darkshore remain thick with lingering ghosts and lingering arcane echoes."
+  },
+  {
+   "q": "What happens when you return Anaya's pendant?",
+   "aliases": [
+    "quest turn in anaya",
+    "cerellean ending",
+    "for love eternal ending"
+   ],
+   "answer": "Returning Anaya's pendant to Cerellean in Auberdine causes Anaya's ghost to appear briefly before him. She shares a final, silent moment of closure before dissolving, leaving Cerellean alone by the shore with his grief."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Cerellean's fate reflects the personal cost paid by the druids who entered thousands of years of slumber at Shan'do Stormrage's side, only to find the waking world still marked by their ancient losses."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves of Darkshore, this tragic reunion is a poignant reminder of the enduring scars left behind by the Great Sundering and the fall of their ancient cities."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Helping Cerellean offers Alliance heroes a glimpse into the tragic, millennia-spanning lives of their night elven allies as they adjust to the waking world."
+  }
+ ],
+ "keywords": [
+  "ameth'aran",
+  "anaya dawnrunner",
+  "anaya's pendant",
+  "auberdine",
+  "cerellean whiteclaw",
+  "darkshore",
+  "for love eternal",
+  "sundering"
+ ],
+ "related": [
+  "npc:cerellean-whiteclaw",
+  "subzone:ameth-aran",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "topic:shan-do"
+ ],
+ "attribution": [
+  "For Love Eternal"
+ ]
+}

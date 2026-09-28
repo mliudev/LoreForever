@@ -1,0 +1,123 @@
+{
+ "key": "quest:767",
+ "type": "quest",
+ "name": "Rite of Vision",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   767
+  ],
+  "level": "6",
+  "faction": "Horde",
+  "start": "Baine Bloodhoof",
+  "end": "Zarlman Two-Moons",
+  "previous": "Rites of the Earthmother (2)",
+  "next": "Rite of Vision (2)",
+  "wiki": "Rite of Vision",
+  "chain": []
+ },
+ "summary": "The Rite of Vision is a pivotal coming-of-age trial within the Rites of the Earthmother, testing a young adventurer's spiritual maturity. Initiated by Baine Bloodhoof, the quest directs aspirants to seek counsel from the village seer, Zarlman Two-Moons. Undertaking this journey is essential for anyone seeking the blessings and respect of the elders on the rises of Thunder Bluff.",
+ "sections": [
+  {
+   "title": "A Sacred Stepping Stone",
+   "body": "For generations, the nomadic tauren have turned to the Earthmother to guide their people across the plains of Kalimdor. Now gathered within the safe borders of Mulgore, their spiritual traditions remain the cornerstone of their society. The Rite of Vision is one of the ancient trials known as the Rites of the Earthmother. While earlier trials test an initiate's physical strength and connection to the hunt, the Rite of Vision demands an inward journey, directing young tauren and honored allies to commune directly with the spirits.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Seer's Guidance",
+   "body": "Before any spiritual vision can be sought, an initiate must be prepared by someone steeped in ancient wisdom. In Bloodhoof Village, that responsibility falls to the revered shaman Zarlman Two-Moons. Entrusted by Baine Bloodhoof to prepare travelers, Zarlman possesses the keen sight to recognize those walking the path of the ancestors, offering the preliminary rites and sacred preparations necessary to pierce the veil of the physical world.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Rite of Vision?",
+   "aliases": [
+    "rite of vision quest",
+    "what is rite of vision",
+    "rite of vision lore"
+   ],
+   "answer": "The Rite of Vision is a sacred ritual within the Rites of the Earthmother. It is designed to broaden an adventurer's spiritual sight, allowing them to commune with ancestral spirits and demonstrate their spiritual readiness to the elders of Thunder Bluff."
+  },
+  {
+   "q": "Who starts this quest?",
+   "aliases": [
+    "who gives rite of vision",
+    "rite of vision quest giver"
+   ],
+   "answer": "The quest is given by Baine Bloodhoof, the son of High Chieftain Cairne Bloodhoof. Baine watches over the settlement of Bloodhoof Village and directs worthy travelers toward the village's spiritual elders."
+  },
+  {
+   "q": "Who is Zarlman Two-Moons?",
+   "aliases": [
+    "who is zarlman",
+    "zarlman two moons lore"
+   ],
+   "answer": "Zarlman Two-Moons is a seasoned tauren shaman and the spiritual leader of Bloodhoof Village. He prepares travelers and initiates who seek to undergo sacred trials such as the Rite of Vision."
+  },
+  {
+   "q": "Why are the Rites of the Earthmother important to the tauren?",
+   "aliases": [
+    "earthmother rites meaning",
+    "why do rites of earthmother"
+   ],
+   "answer": "The Rites of the Earthmother represent a traditional rite of passage for tauren coming of age. Successfully completing them demonstrates physical capability, spiritual attunement, and an enduring respect for the land, earning the honor of the high elders."
+  },
+  {
+   "q": "Can non-tauren undertake the Rite of Vision?",
+   "aliases": [
+    "can orcs do rite of vision",
+    "non tauren earthmother"
+   ],
+   "answer": "Yes. Horde allies who travel through Mulgore and earn the trust of the Bloodhoof tribe are permitted to walk the path of the Earthmother, showing respect to tauren tradition in exchange for the elders' favor."
+  },
+  {
+   "q": "Where does this trial take place?",
+   "aliases": [
+    "where is rite of vision",
+    "rite of vision location"
+   ],
+   "answer": "The trial begins in Bloodhoof Village, a prominent tauren settlement situated near the banks of Stonebull Lake in central Mulgore, south of Thunder Bluff."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Rite of Vision is an essential cultural milestone for every young tauren, marking your transition into a trusted defender and spirit-walker of the tribes."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Seeking Zarlman Two-Moons and walking the path of visions resonates deeply with the shamanic duty to balance worldly affairs with the will of the ancestors."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Communing with the Earthmother's visions directly reinforces the druidic calling to listen closely to the wisdom and whispers of the living world."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Undertaking these traditional sacred rites proves your loyalty and cultural reverence to the tauren elders who help guide the Horde."
+  }
+ ],
+ "keywords": [
+  "baine bloodhoof",
+  "bloodhoof village",
+  "mulgore",
+  "rite of vision",
+  "rites of the earthmother",
+  "tauren trial",
+  "thunder bluff",
+  "zarlman two-moons"
+ ],
+ "related": [
+  "quest:763",
+  "npc:baine-bloodhoof",
+  "npc:zarlman-two-moons",
+  "subzone:bloodhoof-village",
+  "zone:thunderbluff",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Rite of Vision"
+ ]
+}

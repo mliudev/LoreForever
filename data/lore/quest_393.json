@@ -1,0 +1,127 @@
+{
+ "key": "quest:393",
+ "type": "quest",
+ "name": "Shadow of the Past",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   393
+  ],
+  "level": "29",
+  "faction": "Alliance",
+  "start": "Baros Alexston",
+  "end": "Master Mathias Shaw",
+  "previous": "The Curious Visitor",
+  "next": "Look to an Old Friend",
+  "wiki": "Shadow of the Past (quest)",
+  "chain": []
+ },
+ "summary": "Shadow of the Past is an Alliance investigation quest leading from City Architect Baros Alexston to Master Mathias Shaw, head of SI:7. Following inquiries into a mysterious visitor who spoke with the imprisoned Defias leader Bazil Thredd, the trail shifts from public construction scandals into Stormwind's covert intelligence network.",
+ "sections": [
+  {
+   "title": "A Lead in the Shadows",
+   "body": "After questioning Warden Thelwater regarding suspicious visitors to the Stockade's chief prisoner, Bazil Thredd, investigators hit a dead end with Baros Alexston. While the city architect cannot identify the mysterious figure, he points toward the one man whose business is knowing every secret whispered in the capital: Master Mathias Shaw, leader of the secretive intelligence agency SI:7.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unmasking the Visitor",
+   "body": "Delivering the sealed physical description to SI:7 headquarters in Old Town yields immediate results. Shaw quickly sees through the visitor's alias of 'Maelik.' Recognizing the marks of a professional killer who casts off names like cloaks, Shaw identifies him as an assassin frequently going by the moniker Marzon.",
+   "spoiler": 1
+  },
+  {
+   "title": "Treachery in the Nobility",
+   "body": "Shaw reveals that Marzon is currently employed by Lord Gregor Lescovar, a Stormwind nobleman already notorious for deceit. The connection exposes a chilling reality: the criminal uprising of the Defias Brotherhood is not merely a distant rebellion in Westfall, but a conspiracy reaching deep into Stormwind's aristocratic halls.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Mathias Shaw?",
+   "aliases": [
+    "who gives this quest",
+    "quest giver shadow of the past"
+   ],
+   "answer": "Baros Alexston, the City Architect of Stormwind, directs you to Mathias Shaw after admitting he cannot identify the visitor described in the Stockade warden's notes. Alexston calls in an old personal favor from Shaw to get the spymaster's attention."
+  },
+  {
+   "q": "Where is Master Mathias Shaw located?",
+   "aliases": [
+    "mathias shaw location",
+    "where is shaw",
+    "find mathias shaw"
+   ],
+   "answer": "Master Mathias Shaw is located inside the SI:7 headquarters in Old Town, Stormwind. The building serves as the secretive nerve center for the crown's rogues, scouts, and intelligence officers."
+  },
+  {
+   "q": "Who was the mysterious visitor to the Stockade?",
+   "aliases": [
+    "who is maelik",
+    "who is thredds visitor",
+    "who is the assassin"
+   ],
+   "answer": "The visitor gave the name Maelik, but Mathias Shaw identifies him as a notorious assassin often known as Marzon. Shaw notes that professional killers use and discard aliases constantly, and Marzon is simply another mask."
+  },
+  {
+   "q": "Why is Lord Gregor Lescovar involved?",
+   "aliases": [
+    "who does marzon work for",
+    "lescovar connection"
+   ],
+   "answer": "According to Mathias Shaw, the assassin Marzon is on the payroll of Lord Gregor Lescovar, a Stormwind noble known for crooked dealings. This links the imprisoned Defias leadership directly to Stormwind's aristocracy."
+  },
+  {
+   "q": "What does SI:7 stand for?",
+   "aliases": [
+    "what is si7",
+    "si:7 meaning"
+   ],
+   "answer": "SI:7 stands for Stormwind Intelligence, 7th Division. It is the covert operations and espionage arm of the Kingdom of Stormwind, gathering intelligence and executing black-ops missions at home and abroad."
+  },
+  {
+   "q": "Why does Baros Alexston have pull with SI:7?",
+   "aliases": [
+    "why does shaw owe baros",
+    "baros and shaw connection"
+   ],
+   "answer": "Baros Alexston mentions that Mathias Shaw owes him a favor, though he deliberately declines to share the details. As the city's chief architect, Alexston likely holds knowledge of Stormwind's subterranean routes, secret passages, and building layouts that proved invaluable to the spy network."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Reporting to Master Mathias Shaw in Old Town offers rogues a direct look at the pinnacle of Alliance tradecraft and political surveillance."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This leg of the investigation marks the exact point where low-level Defias banditry ties directly into the corrupt nobility of Stormwind City."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, this assignment exposes how fractured the kingdom's ruling class has become during King Varian Wrynn's absence."
+  }
+ ],
+ "keywords": [
+  "baros alexston",
+  "bazil thredd",
+  "gregor lescovar",
+  "maelik",
+  "marzon",
+  "mathias shaw",
+  "shadow of the past",
+  "si:7",
+  "stormwind"
+ ],
+ "related": [
+  "npc:mathias-shaw",
+  "npc:baros-alexston",
+  "quest:392",
+  "quest:350",
+  "quest:2300",
+  "subzone:old-town",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Shadow of the Past (quest)"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "key": "npc:shanda",
+ "type": "npc",
+ "name": "Shanda",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Shanda",
+  "refs": 1
+ },
+ "summary": "Shanda is a night elf priestess and mentor located within the hollow trunk of Aldrassil in Shadowglen. Serving the Sisterhood of Elune, she instructs novice night elf priests in the fundamental prayers, wards, and rites of the Moon Goddess. Her guidance helps fledgling acolytes balance the light of Elune with their duties in defending Teldrassil.",
+ "sections": [
+  {
+   "title": "Acolyte of the Moon Mother",
+   "body": "Standing within the tranquil sanctuary of Aldrassil, Shanda serves as one of the first spiritual guides for young night elves dedicated to Elune. While the druids tend to the waking roots and boughs of Teldrassil, priestesses like Shanda ensure that the spiritual heart of the Kaldorei remains tethered to the White Lady. She instructs new initiates on channeling lunar grace for healing and protective wards, preparing them to face the corruption creeping into the boughs of the World Tree.",
+   "spoiler": 0
+  },
+  {
+   "title": "Guiding New Initiates",
+   "body": "When young priests awaken to their calling in Shadowglen, they are directed to Shanda to prove their devotion and learn their first prayers. Through rites such as In Favor of Elune, she tests their resolve and provides them with blessed regalia and basic incantations. Under her tutelage, students learn that a priestess of the Kaldorei must be both a gentle hand to the wounded and a steadfast shield against the shadows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Shanda?",
+   "aliases": [
+    "who is this npc",
+    "shanda lore",
+    "priest trainer aldrassil"
+   ],
+   "answer": "Shanda is a night elf priest trainer located inside Aldrassil, the central hollow tree settlement of Shadowglen in Teldrassil. She instructs newly awakened night elf priests in the teachings of the Sisterhood of Elune."
+  },
+  {
+   "q": "What role does Shanda play for new priests?",
+   "aliases": [
+    "priest trainer role",
+    "what does shanda teach",
+    "what does shanda do"
+   ],
+   "answer": "She introduces novice priests to basic prayers, curative spells, and protective magic gifted by Elune. She also offers early quests to equip young acolytes with their initial robes and holy sigils."
+  },
+  {
+   "q": "Where can I find Shanda?",
+   "aliases": [
+    "where is shanda",
+    "shanda location",
+    "how to find shanda"
+   ],
+   "answer": "Shanda is found on the ground level inside the hollow trunk of Aldrassil, the massive tree that serves as the starter hub in Shadowglen on Teldrassil."
+  },
+  {
+   "q": "What organization does Shanda belong to?",
+   "aliases": [
+    "shanda faction",
+    "sisterhood of elune",
+    "is shanda a priestess of the moon"
+   ],
+   "answer": "Shanda is a member of the Sisterhood of Elune, the ancient religious order of night elf priestesses that has guided Kaldorei spiritual and cultural life for thousands of years."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "For night elf priests starting their journey in Shadowglen, Shanda is the very first mentor to bestow sacred words, holy sigils, and guidance in Elune's grace."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Shanda represents the enduring tradition of the Sisterhood of Elune, tending to the spiritual well-being of the Kaldorei youth as they take their first steps on Teldrassil."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "elune",
+  "night elf",
+  "priest trainer",
+  "shadowglen",
+  "shanda",
+  "sisterhood of elune",
+  "teldrassil"
+ ],
+ "related": [
+  "subzone:aldrassil",
+  "zone:teldrassil",
+  "topic:elune",
+  "topic:night-elf",
+  "quest:5622",
+  "quest:940"
+ ],
+ "attribution": [
+  "Shanda"
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "key": "quest:2997",
+ "type": "quest",
+ "name": "Tome of Divinity",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   2997
+  ],
+  "level": "12",
+  "faction": "Alliance",
+  "start": "Azar Stronghammer",
+  "end": "Tiza Battleforge",
+  "previous": null,
+  "next": "The Tome of Divinity (dwarf 1)",
+  "wiki": "Tome of Divinity (Azar Stronghammer)",
+  "chain": []
+ },
+ "summary": "The Tome of Divinity is an introductory summons calling young dwarven paladins from their field duties in Dun Morogh to the mountain city of Ironforge. Dispatched by Azar Stronghammer, the initiate is directed to seek guidance from Tiza Battleforge high in the Hall of Mysteries. It marks the formal beginning of a paladin's deeper trials in service to the Holy Light.",
+ "sections": [
+  {
+   "title": "A Call to the High Seat",
+   "body": "While dwarven initiates begin their training protecting the snowbound villages and roads of Dun Morogh, martial prowess alone does not make a paladin. Azar Stronghammer recognizes when a defender has grown ready for deeper spiritual instruction. Rather than continuing standard martial drills, he sends promising candidates into the heart of Ironforge to begin their true initiation under the city's revered holy elders.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Hall of Mysteries",
+   "body": "The summons directs the initiate to the Mystic Ward, climbing into the quiet chambers of the Hall of Mysteries. There, surrounded by sacred relics and solemn study, stands Tiza Battleforge. As one of the most respected dwarven champions of the Light, she tests incoming paladins on their readiness to embrace self-sacrifice, mercy, and the heavy moral duties of their holy calling.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do i need this quest",
+    "what is tome of divinity for",
+    "tome of divinity purpose"
+   ],
+   "answer": "It serves as the opening summons directing a dwarven paladin from the outlying training grounds of Dun Morogh to Tiza Battleforge in Ironforge, initiating the trials required to understand the Holy Light and earn the power of resurrection."
+  },
+  {
+   "q": "Who is Tiza Battleforge?",
+   "aliases": [
+    "who is tiza",
+    "tiza battleforge lore",
+    "who is battleforge"
+   ],
+   "answer": "Tiza Battleforge is a veteran dwarven paladin and respected mentor stationed upstairs in Ironforge's Hall of Mysteries. She oversees the spiritual instruction of young paladins and guides them through the sacred trials of the Tome of Divinity."
+  },
+  {
+   "q": "Where is the Hall of Mysteries located?",
+   "aliases": [
+    "where is hall of mysteries",
+    "find hall of mysteries",
+    "hall of mysteries ironforge"
+   ],
+   "answer": "The Hall of Mysteries is situated within the Mystic Ward in western Ironforge. It is the spiritual and arcane center of the dwarven capital, housing priests, paladins, and mages."
+  },
+  {
+   "q": "Who sends the paladin on this errand?",
+   "aliases": [
+    "who starts tome of divinity",
+    "quest giver tome of divinity",
+    "azar stronghammer"
+   ],
+   "answer": "Azar Stronghammer, a paladin trainer operating in Dun Morogh, sends promising initiates to Ironforge once they have demonstrated their martial dedication to defending the local dwarven settlements."
+  },
+  {
+   "q": "Why must dwarven paladins study in Ironforge?",
+   "aliases": [
+    "why go to ironforge",
+    "why train in ironforge"
+   ],
+   "answer": "Field trainers like Azar teach basic combat arts, but the formal teachings, sacred texts, and elders of the Holy Light reside within the Hall of Mysteries. Advanced rites and spiritual doctrines must be studied directly under senior mentors like Tiza Battleforge."
+  },
+  {
+   "q": "What follows after speaking with Tiza Battleforge?",
+   "aliases": [
+    "what comes next",
+    "next quest after tome of divinity",
+    "what does tiza give me"
+   ],
+   "answer": "Speaking with Tiza begins the true dwarven trials of the Tome of Divinity, challenging the paladin to demonstrate devotion, compassion, and sacrifice in service to the Light."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "This rite of passage bridges practical military service in the snows with the deep spiritual discipline expected of holy warriors."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven paladins combine the rugged endurance of their kin with the teachings of the Holy Light, centered around the sanctum of Ironforge's Hall of Mysteries."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The shared veneration of the Light unites the dwarven defenders of Khaz Modan with their human allies in Lordaeron and Stormwind."
+  }
+ ],
+ "keywords": [
+  "azar stronghammer",
+  "dun morogh",
+  "hall of mysteries",
+  "holy light",
+  "ironforge",
+  "mystic ward",
+  "paladin",
+  "redemption",
+  "tiza battleforge",
+  "tome of divinity"
+ ],
+ "related": [
+  "npc:tiza-battleforge",
+  "npc:azar-stronghammer",
+  "subzone:hall-of-mysteries",
+  "subzone:mystic-ward",
+  "zone:ironforge",
+  "zone:dunmorogh",
+  "topic:light"
+ ],
+ "attribution": [
+  "Tome of Divinity (Azar Stronghammer)"
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "key": "subzone:broken-hall",
+ "type": "subzone",
+ "name": "Broken Hall",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Broken Hall"
+ },
+ "summary": "The Broken Hall serves as the flooded outer threshold of the sunken Temple of Atal'Hakkar in the Swamp of Sorrows. Shattered when the Great Dragon Aspect Ysera and her flight dragged the grand ziggurat beneath the waters, this ruin now stands deserted as the Atal'ai zealots retreat into deeper sanctums.",
+ "sections": [
+  {
+   "title": "Flooded Threshold",
+   "body": "When the green dragons brought down their wrath upon the Atal'ai priesthood and submerged their unholy ziggurat beneath the Pool of Tears, the outermost architecture bore the brunt of the cataclysm. The floor of the Broken Hall collapsed completely, allowing murky swamp waters to flood the chamber. Because of the damage and submersion, the troll cultists abandoned this entrance hall, withdrawing further into the complex. Adventurers entering the sunken temple must wade through these sodden ruins before mounting the stairs to reach the Hall of Masks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Broken Hall?",
+   "aliases": [
+    "broken hall overview",
+    "what is this place",
+    "temple entrance hall"
+   ],
+   "answer": "It is the outermost entry chamber of the Temple of Atal'Hakkar, situated right past the flooded submerged entrance beneath the Pool of Tears."
+  },
+  {
+   "q": "Why is the Broken Hall flooded and ruined?",
+   "aliases": [
+    "why broken hall wet",
+    "why is broken hall submerged",
+    "who broke the hall"
+   ],
+   "answer": "The chamber was shattered when the green dragonflight dragged the entire temple beneath the marsh waters to halt the summoning of the Blood God Hakkar, breaking the floor and drowning the hall."
+  },
+  {
+   "q": "Are there any Atal'ai trolls living in this hall?",
+   "aliases": [
+    "enemies in broken hall",
+    "is broken hall empty"
+   ],
+   "answer": "The Broken Hall itself lies largely abandoned. Following the drowning of the upper temple, the Atal'ai cultists withdrew into drier, more defensible chambers deeper within the complex."
+  },
+  {
+   "q": "Where do the stairs in the Broken Hall lead?",
+   "aliases": [
+    "broken hall stairs",
+    "broken hall exit",
+    "where to go from broken hall"
+   ],
+   "answer": "Ascending the stone stairs leading out of the flooded Broken Hall brings explorers directly into the Hall of Masks."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For trolls who revere the loa, the Broken Hall is a grim reminder of the ruin brought upon Atal'ai zealots who defied the rest of their kind to serve Hakkar the Soulflayer."
+  }
+ ],
+ "keywords": [
+  "atal'ai",
+  "broken hall",
+  "hall of masks",
+  "pool of tears",
+  "sunken temple",
+  "swamp of sorrows",
+  "temple of atal'hakkar"
+ ],
+ "related": [
+  "subzone:temple-of-atal-hakkar",
+  "subzone:hall-of-masks",
+  "subzone:pool-of-tears",
+  "zone:swampofsorrows",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Broken Hall"
+ ]
+}

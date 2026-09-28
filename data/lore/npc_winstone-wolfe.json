@@ -1,0 +1,70 @@
+{
+ "key": "npc:winstone-wolfe",
+ "type": "npc",
+ "name": "Winstone Wolfe",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Winstone Wolfe",
+  "refs": 2
+ },
+ "summary": "Winstone Wolfe is a human operative affiliated with the secretive Ravenholdt organization, stationed at their secluded estate nestled between Hillsbrad and the Alterac Mountains. He keeps watch over the estate's grounds and groundskeepers, serving as one of the trusted contacts within the hidden league of thieves and assassins.",
+ "sections": [
+  {
+   "title": "A Fixer in the Mountains",
+   "body": "Tucked away in the hidden valley of Ravenholdt Manor, Winstone Wolfe operates among the ranks of Lord Jorach Ravenholdt's syndicate. Quiet, watchful, and practical, Wolfe is one of the capable hands who handles business around the manor, ensuring that only those with proper discretion and talent walk the grounds undisturbed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Winstone Wolfe?",
+   "aliases": [
+    "who is wolfe",
+    "winstone wolfe lore",
+    "ravenholdt wolfe"
+   ],
+   "answer": "Winstone Wolfe is a human rogue operating within Ravenholdt Manor, the secluded headquarters of the League of Assassins tucked high above Hillsbrad Foothills and the Alterac Mountains."
+  },
+  {
+   "q": "Where can I find Winstone Wolfe?",
+   "aliases": [
+    "wolfe location",
+    "where is winstone wolfe",
+    "find winstone wolfe"
+   ],
+   "answer": "He is located at Ravenholdt Manor, which can be reached via a hidden path winding north through the mountains from the Durnholde Keep area in Hillsbrad Foothills."
+  },
+  {
+   "q": "What is his role in Ravenholdt?",
+   "aliases": [
+    "what does wolfe do",
+    "wolfe purpose"
+   ],
+   "answer": "Wolfe acts as an operative and guard around the manor, keeping watch over the grounds and assisting in the syndicate's shadowy logistical affairs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "As an operative at Ravenholdt Manor, Wolfe is a familiar face to rogues who travel into the mountains to hone their craft with the syndicate."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "hillsbrad",
+  "ravenholdt",
+  "ravenholdt manor",
+  "rogue",
+  "winstone wolfe"
+ ],
+ "related": [
+  "subzone:ravenholdt-manor",
+  "topic:ravenholdt",
+  "zone:hillsbrad",
+  "zone:alterac"
+ ],
+ "attribution": [
+  "Winstone Wolfe"
+ ]
+}

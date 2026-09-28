@@ -1,0 +1,93 @@
+{
+ "key": "subzone:coldridge-valley",
+ "type": "subzone",
+ "name": "Coldridge Valley",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Coldridge Valley"
+ },
+ "summary": "Coldridge Valley is a sheltered, snow-covered vale tucked into the southwestern heights of Dun Morogh. Centered around the hamlet of Anvilmar, it serves as the training ground where young dwarves and gnome refugees first take up arms in service of Ironforge. A single tunnel, Coldridge Pass, connects this secluded hollow to the wider mountain realm.",
+ "sections": [
+  {
+   "title": "A Secluded Proving Ground",
+   "body": "Cradled by sheer mountain cliffs, Coldridge Valley remains largely cut off from the bustling trade routes of Dun Morogh. At its heart sits Anvilmar, a sturdy stone hall and hamlet where veteran dwarven instructors and displaced gnome scholars train fresh recruits in the arts of battle, stealth, and sorcery. Outside the warmth of Anvilmar's hearths, the valley floor is carpeted in thick snow and prowled by boars and hungry winter wolves, providing novices with their first real taste of frontier survival.",
+   "spoiler": 0
+  },
+  {
+   "title": "Encroaching Foes",
+   "body": "Despite its isolation, Coldridge Valley faces immediate danger from two relentless enemies. Indigenous Frostmane trolls have established camps like the Frostmane Hovel, skirmishing with mountaineers and defending their ancestral claims against dwarven encroachment. Worse still, savage Rockjaw troggs have overrun Coldridge Pass, the natural tunnel linking the valley to Kharanos. Until these subterranean brutes are pushed back, travelers and supplies cannot freely move between the valley and the high seat of Ironforge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you leave Coldridge Valley?",
+   "aliases": [
+    "exit coldridge",
+    "how to get out",
+    "path to kharanos"
+   ],
+   "answer": "The only overland route out of the valley leads through Coldridge Pass, a snowy tunnel cutting northeast through the mountain ridge. Once through the pass, the road heads east directly toward the town of Kharanos and onward to the great gates of Ironforge."
+  },
+  {
+   "q": "Why are gnomes starting here alongside dwarves?",
+   "aliases": [
+    "gnomes in coldridge",
+    "why are gnomes here",
+    "gnome starting area"
+   ],
+   "answer": "Following the tragic fall of Gnomeregan to troggs and radioactive fallout, surviving gnomes fled into Dun Morogh as refugees. High Tinker Mekkatorque's people were welcomed by King Magni Bronzebeard, leading many exiled gnomish apprentices to train side by side with young dwarves in Anvilmar."
+  },
+  {
+   "q": "What threats are troubling the valley?",
+   "aliases": [
+    "coldridge enemies",
+    "valley threats",
+    "who is attacking"
+   ],
+   "answer": "The valley faces two major menaces: the hostile Frostmane trolls, who resent dwarven settlements on their mountain territory, and crude Rockjaw troggs, who have clawed up from the deep earth to choke Coldridge Pass. Local predators like wolves and boars also harass unwary travelers."
+  },
+  {
+   "q": "What is Anvilmar?",
+   "aliases": [
+    "anvilmar town",
+    "what is the town here"
+   ],
+   "answer": "Anvilmar is the central fortress-lodge and settlement within Coldridge Valley. It houses class trainers, forge-masters, and local mountaineer officers who coordinate the defense of the valley and prepare newly forged adventurers for the wider world."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "As the traditional starting ground for Bronzebeard mountaineers and clerics, the valley represents a dwarf's first steps beyond the hearth and into service of the High Seat."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "For gnome exiles forced from Gnomeregan, the snows of Coldridge Valley offer a safe haven to master their spells and machinery alongside their dwarven hosts."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge pass",
+  "coldridge valley",
+  "dun morogh",
+  "frostmane",
+  "ironforge",
+  "starting area",
+  "troggs"
+ ],
+ "related": [
+  "subzone:anvilmar",
+  "zone:dunmorogh",
+  "subzone:coldridge-pass",
+  "subzone:frostmane-hovel",
+  "subzone:kharanos",
+  "topic:dwarf",
+  "topic:gnome",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "Coldridge Valley"
+ ]
+}

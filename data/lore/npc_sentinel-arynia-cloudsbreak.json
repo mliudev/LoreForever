@@ -1,0 +1,107 @@
+{
+ "key": "npc:sentinel-arynia-cloudsbreak",
+ "type": "npc",
+ "name": "Sentinel Arynia Cloudsbreak",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Sentinel Arynia Cloudsbreak",
+  "refs": 3
+ },
+ "summary": "Sentinel Arynia Cloudsbreak is a night elf guardian stationed within the serene groves of the Oracle Glade on Teldrassil. Charged with monitoring the sacred balance of the northern boughs, she keeps a wary watch over the glade's enchanted waters and woodland wildlife.",
+ "sections": [
+  {
+   "title": "Watcher of the Oracle Glade",
+   "body": "Arynia Cloudsbreak serves the Sentinel army in one of the most secluded and mystical reaches of Teldrassil: the Oracle Glade. Amid ancient trees and ethereal springs, she carries out her watch far from the bustling avenues of Darnassus, ensuring the sanctity of the wilderness remains undisturbed.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trouble in the Glade",
+   "body": "Despite Teldrassil's sacred birth, creeping disharmony has begun to unsettle its creatures. Arynia relies on passing adventurers and young night elves to investigate local disruptions, such as strange behaviors among the glade's wildlife and mystical phenomena around the enchanted springs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sentinel Arynia Cloudsbreak?",
+   "aliases": [
+    "arynia cloudsbreak",
+    "who is arynia",
+    "sentinel arynia"
+   ],
+   "answer": "She is a night elf Sentinel standing guard in the Oracle Glade, deep in northern Teldrassil. She looks after the mystical glade and recruits travelers to assist in preserving its natural harmony."
+  },
+  {
+   "q": "Where can Arynia Cloudsbreak be found?",
+   "aliases": [
+    "arynia location",
+    "where is arynia",
+    "arynia cloudsbreak map"
+   ],
+   "answer": "Arynia is stationed out in the open at the Oracle Glade, located in the northwestern reaches of Teldrassil, north of Dolanaar."
+  },
+  {
+   "q": "What duties does she perform in the Sentinels?",
+   "aliases": [
+    "arynia role",
+    "what does arynia do"
+   ],
+   "answer": "As a Sentinel stationed in the wilderness, she patrols the outlying forest boughs, monitoring the local spirits, wildlife, and natural phenomena for any signs of corruption or imbalance."
+  },
+  {
+   "q": "Is she related to anyone else on Teldrassil?",
+   "aliases": [
+    "arynia family",
+    "mavoris cloudsbreak"
+   ],
+   "answer": "She shares her surname with Mavoris Cloudsbreak, suggesting a familial bond among the night elves dwelling on the world tree."
+  },
+  {
+   "q": "What tasks does she give to adventurers?",
+   "aliases": [
+    "arynia quests",
+    "oracle glade quests"
+   ],
+   "answer": "She offers tasks that involve investigating the enchanted glade and tending to mysterious disturbances and wandering beasts nearby, including aiding creatures caught in distress."
+  },
+  {
+   "q": "Why is the Oracle Glade significant to the night elves?",
+   "aliases": [
+    "why oracle glade",
+    "oracle glade lore"
+   ],
+   "answer": "The Oracle Glade is a sacred sanctuary within Teldrassil known for its tranquil pools and spiritual reverence, overseen by druids and Sentinels seeking guidance and omen from nature."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young night elves coming of age on Teldrassil, assisting Sentinel Cloudsbreak offers practical experience in protecting the wild balance of their new homeland."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Arynia represents the vigilance of the Kaldorei Sentinels, maintaining defense over the Alliance's vital woodland stronghold in Kalimdor."
+  }
+ ],
+ "keywords": [
+  "arynia cloudsbreak",
+  "enchanted glade",
+  "kaldorei",
+  "mist",
+  "night elf",
+  "oracle glade",
+  "sentinel",
+  "teldrassil"
+ ],
+ "related": [
+  "subzone:oracle-glade",
+  "zone:teldrassil",
+  "quest:937",
+  "quest:938",
+  "quest:940",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Sentinel Arynia Cloudsbreak"
+ ]
+}

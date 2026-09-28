@@ -1,0 +1,118 @@
+{
+ "key": "quest:6547",
+ "type": "quest",
+ "name": "Warsong Scout Update",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   6547
+  ],
+  "level": "21",
+  "faction": "Horde",
+  "start": "Warsong Scout",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Warsong Scout Update (quest)",
+  "chain": []
+ },
+ "summary": "Warsong Scout Update is a Horde communication task connecting the outpost commanders along the borders of Ashenvale with forward scouts watching the contested forest. Carrying strategic orders from Kadrak, couriers ensure the Warsong Clan maintains tight surveillance against ambushing night elves. It highlights the tenuous, hostile grip the Horde strives to maintain over their newly claimed territory.",
+ "sections": [
+  {
+   "title": "Eyes in the Shadows",
+   "body": "The borderlands of Ashenvale remain a powder keg where neither side yields an inch. Horde forces under Kadrak rely heavily on dispersed Warsong scouts stationed in high-risk outposts to track night elf movements and secure contested supply lines. Because the forest itself provides natural cover to the stealthy sentinels of the Alliance, regular reports and written updates are critical to keeping isolated scouts from being cut off and overwhelmed.",
+   "spoiler": 0
+  },
+  {
+   "title": "Holding the Ground",
+   "body": "For the Warsong clan, every stretch of forest cleared or occupied has been paid for in blood. The scouts watch constantly for retaliatory night elf raids aiming to reclaim the woodlands. Delivering Kadrak's orders reassures the vanguard that reinforcements and coordination remain active, allowing the scouts to report back that their defensive measures are succeeding despite continuous elven resistance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kadrak?",
+   "aliases": [
+    "kadrak",
+    "who is kadrak",
+    "kadrak role"
+   ],
+   "answer": "Kadrak is a Horde commander stationed along the boundary between the Barrens and Ashenvale. He coordinates scouting missions, border defense, and logistical support for Warsong operations encroaching into the ancient forest."
+  },
+  {
+   "q": "Why are the Warsong scouts so paranoid about night elves?",
+   "aliases": [
+    "why fear night elves",
+    "night elves in shadows",
+    "warsong scout elven danger"
+   ],
+   "answer": "Night elves naturally blend into the shadows of their ancestral forests, executing sudden ambushes on Horde patrols. Because the Warsong Clan is actively clearing lumber and settling land the elves consider sacred, the scouts are under constant threat of lethal surprise attacks."
+  },
+  {
+   "q": "Why is Ashenvale being fought over?",
+   "aliases": [
+    "why fight over ashenvale",
+    "ashenvale war",
+    "horde ashenvale conflict"
+   ],
+   "answer": "The Horde requires lumber and resources from Ashenvale to construct Orgrimmar and fuel its settlements in the arid Barrens and Durotar. The native night elves view the forest as sacred ground and aggressively fight to drive the orcish loggers and garrisons out."
+  },
+  {
+   "q": "What is the Warsong Clan's role here?",
+   "aliases": [
+    "warsong clan ashenvale",
+    "warsong role"
+   ],
+   "answer": "The Warsong Clan spearheads the Horde's expansion and resource harvesting in Ashenvale. Originally led into the woods by Grom Hellscream during the Third War, their presence has remained deeply entrenched, operating lumber camps and fighting ongoing skirmishes against the Sentinels."
+  },
+  {
+   "q": "Where does this report go after reaching the scout?",
+   "aliases": [
+    "who gets report",
+    "kadrak report",
+    "scout update result"
+   ],
+   "answer": "After the scout receives Kadrak's updated instructions, they send word back regarding their local success against elven counterattacks, ensuring Horde leadership remains fully aware of the front lines' stability."
+  },
+  {
+   "q": "Are the Horde's plans in Ashenvale succeeding at this point?",
+   "aliases": [
+    "is horde winning ashenvale",
+    "warsong progress"
+   ],
+   "answer": "The frontline scouts consider their defensive efforts a success, managing to hold their fortified positions and fend off elven strikes, though the region remains a fiercely contested battleground with neither side securing absolute dominance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Every runner who carries orders between Kadrak and the outer scouts helps keep the Horde's foothold in Ashenvale secure against unrelenting night elf ambushes."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The legacy of the Warsong Clan is defined by their tenacity in Ashenvale, claiming vital timber despite the hostility of the land and its ancient defenders."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The presence of Warsong scouts lurking along the borders represents an ongoing desecration of the sacred forests of Elune that the Sentinels strive to purge."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "barrens",
+  "kadrak",
+  "night elves",
+  "report",
+  "scout",
+  "sentinels",
+  "warsong"
+ ],
+ "related": [
+  "npc:kadrak",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Warsong Scout Update (quest)"
+ ]
+}

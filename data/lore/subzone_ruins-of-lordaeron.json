@@ -1,0 +1,93 @@
+{
+ "key": "subzone:ruins-of-lordaeron",
+ "type": "subzone",
+ "name": "Ruins of Lordaeron",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Ruins of Lordaeron"
+ },
+ "summary": "The Ruins of Lordaeron are the hollowed-out surface remnants of Capital City, the once-glorious heart of humanity's northern empire. Destroyed when Prince Arthas murdered his father and unleashed the Scourge, the blasted courtyards and throne room now serve as the fortified gateway to the Undercity below.",
+ "sections": [
+  {
+   "title": "A Fallen Empire's Gateway",
+   "body": "Capital City was once the radiant summit of human civilization, uniting the northern realms under King Terenas Menethil II. When Prince Arthas returned from Northrend carrying the cursed runeblade Frostmourne, the celebrations turned into a slaughterhouse. Arthas slew his father on the throne, leaving the metropolis to rot under Scourge rule. Following the civil war that tore the Scourge apart, Lady Sylvanas Windrunner claimed the devastated palace, securing the surface while expanding the crypts and dungeons beneath into the Undercity.",
+   "spoiler": 0
+  },
+  {
+   "title": "Echoes of Betrayal",
+   "body": "The palace ruins remain psychically scarred by their violent fall. Travelers walking through the entryway and courtyards often hear the ghostly chime of celebration bells, hushed murmurs of adoring crowds, and the chilling dialogue between Arthas and his father just before the regicide. Blood still stains the floor of the grand throne room, and those possessing magical detection can glimpse spectral citizens eternally reliving the afternoon their prince doomed them all.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do I hear bells and whispers when walking through the entrance?",
+   "aliases": [
+    "creepy sounds lordaeron",
+    "throne room whispers",
+    "haunted castle sounds"
+   ],
+   "answer": "The sudden slaughter of King Terenas and his city left a psychic imprint on the stone. Anyone passing through the outer gate and the shattered throne room can hear phantom bells, spectral cheers, and the final conversation between Terenas and Arthas echoed across time."
+  },
+  {
+   "q": "Who rules the ruins today?",
+   "aliases": [
+    "who owns lordaeron ruins",
+    "who controls ruins of lordaeron"
+   ],
+   "answer": "The surface ruins are held and patrolled by the Forsaken under Lady Sylvanas Windrunner. While Sylvanas and her court reside directly below in the Undercity, the ruins above serve as the grand fortified entrance to her subterranean realm."
+  },
+  {
+   "q": "What happened to the people who used to live here?",
+   "aliases": [
+    "where did lordaeron people go",
+    "what happened to capital city humans"
+   ],
+   "answer": "Most of the inhabitants were slaughtered when Arthas unleashed the Scourge upon the city. Many were raised into mindless undead and later broke free to join Sylvanas as the Forsaken, while the unseen spirits of others still drift through the palace courtyards."
+  },
+  {
+   "q": "What is the dark stain in the throne room?",
+   "aliases": [
+    "blood on throne room floor",
+    "stain in lordaeron throne room"
+   ],
+   "answer": "The dark, dried residue marking the royal dais is the blood of King Terenas Menethil II, spilled by his own son Arthas when the prince drove Frostmourne through his heart."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "These ruined ramparts are your ancestral home. What was once the seat of the living kingdom that birthed you is now the hallowed doorway guarding the Undercity and the Banshee Queen."
+  },
+  {
+   "target": "race:Human",
+   "text": "Standing within these halls is a bitter reminder of the greatest betrayal in human history, where Prince Arthas shattered the Alliance of Lordaeron and left humanity's jewel in the hands of the dead."
+  }
+ ],
+ "keywords": [
+  "arthas",
+  "capital city",
+  "haunted",
+  "lordaeron",
+  "palace",
+  "scourge",
+  "sylvanas",
+  "terenas",
+  "throne room",
+  "undercity"
+ ],
+ "related": [
+  "zone:undercity",
+  "topic:lordaeron",
+  "topic:arthas-menethil",
+  "topic:forsaken",
+  "npc:sylvanas-windrunner",
+  "topic:scourge",
+  "topic:alliance",
+  "topic:knights-of-the-silver-hand"
+ ],
+ "attribution": [
+  "Ruins of Lordaeron"
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "key": "npc:grelin-whitebeard",
+ "type": "npc",
+ "name": "Grelin Whitebeard",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Grelin Whitebeard",
+  "refs": 8
+ },
+ "summary": "Grelin Whitebeard is a dwarven scout stationed in Coldridge Valley by royal decree to assess the Frostmane troll threat. Operating out of an isolated camp with an apprentice and a lost gnome, he relies on rising adventurers to keep the trolls contained while Ironforge's attention remains consumed by the trogg crisis.",
+ "sections": [
+  {
+   "title": "A Royal Mandate",
+   "body": "Grelin Whitebeard and his brother Senir were dispatched to Coldridge Valley under direct orders from the Senate of Ironforge and King Magni Bronzebeard himself. Their mission was clear: assess and neutralize the threat posed by the native Frostmane trolls. With Ironforge's official military fully bogged down combating trogg outbreaks across Dun Morogh, the brothers were given very few resources to accomplish their task. Grelin had to establish an outpost in the snowy hills and look toward local recruits and passing initiates to carry out the necessary work.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trouble in the South",
+   "body": "From his camp, Grelin monitors the encroaching Frostmane tribe south of Coldridge Valley. The trolls have grown increasingly aggressive, staging bolder incursions outside their mountain caverns. During one such raid, a heavily painted brute named Grik'nir the Cold slipped into the unattended camp and made off with Grelin's field journal, containing his critical observations. Unwilling to fail the King, Grelin uses intrepid travelers to strike deep into the Frostmane caves, recover his stolen writings, and ensure his final intelligence reaches Senir in Kharanos.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Grelin Whitebeard out here in the snow?",
+   "aliases": [
+    "why is grelin here",
+    "grelin whitebeard purpose",
+    "who is grelin whitebeard"
+   ],
+   "answer": "Grelin was officially commissioned by the Senate of Ironforge and King Magni Bronzebeard to investigate and quell the Frostmane troll threat in Coldridge Valley. Because the dwarven military is tied down fighting the trogg menace elsewhere, Grelin must rely on independent volunteers."
+  },
+  {
+   "q": "Who stole Grelin's journal?",
+   "aliases": [
+    "who stole the journal",
+    "stolen journal thief",
+    "grelin journal"
+   ],
+   "answer": "A Frostmane troll named Grik'nir the Cold raided Grelin's camp while it was left unattended. Grelin only caught a glimpse of a heavily marked brute fleeing into the southern troll caves with his field notes."
+  },
+  {
+   "q": "Who is Grelin's brother?",
+   "aliases": [
+    "grelin brother",
+    "senir whitebeard",
+    "who is senir"
+   ],
+   "answer": "His brother is Senir Whitebeard, an operative stationed further down the mountain in the town of Kharanos. Grelin compiles his findings on troll movements into reports and sends trusted runners to deliver them directly to Senir."
+  },
+  {
+   "q": "Who is with Grelin at his camp?",
+   "aliases": [
+    "whitebeard camp npcs",
+    "who is with grelin",
+    "grelin companions"
+   ],
+   "answer": "Grelin shares his small encampment with an absent-minded dwarven apprentice and a lost gnome traveler, leaving him with little competent help until capable recruits arrive."
+  },
+  {
+   "q": "Why doesn't Ironforge send regular soldiers to help him?",
+   "aliases": [
+    "why no dwarven army",
+    "where is the ironforge guard",
+    "why no soldiers"
+   ],
+   "answer": "Ironforge's defenders and Senate forces are almost entirely consumed by the widespread trogg infestations that have erupted across Dun Morogh. This leaves scouts like Grelin to solve regional threats using local recruits."
+  },
+  {
+   "q": "What is Grelin's connection to Jona Ironstock?",
+   "aliases": [
+    "grelin and jona",
+    "jona ironstock"
+   ],
+   "answer": "Jona Ironstock is an old and trusted friend of Grelin. Stationed near the starting grounds of Coldridge Valley, Jona helps direct new dwarven and gnomish recruits toward Grelin's camp."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Serving King Magni directly, Grelin represents the quiet, stubborn perseverance of Ironforge scouts holding Dun Morogh's borders together against mounting internal threats."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Fresh out of Gnomeregan's tragedy, gnome refugees passing through Coldridge Valley find Grelin working alongside a wandering gnome at his remote camp."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Grelin's plight reveals just how thin the Alliance and Ironforge armies are stretched in Dun Morogh, forcing solitary scouts to wage quiet wars against troll enclaves."
+  }
+ ],
+ "keywords": [
+  "coldridge valley",
+  "dun morogh",
+  "frostmane",
+  "grelin whitebeard",
+  "grik'nir",
+  "ironforge senate",
+  "senir whitebeard",
+  "the stolen journal"
+ ],
+ "related": [
+  "subzone:coldridge-valley",
+  "npc:senir-whitebeard",
+  "quest:218",
+  "quest:182",
+  "quest:282",
+  "subzone:kharanos",
+  "zone:dunmorogh",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Grelin Whitebeard"
+ ]
+}

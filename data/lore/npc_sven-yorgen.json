@@ -1,0 +1,119 @@
+{
+ "key": "npc:sven-yorgen",
+ "type": "npc",
+ "name": "Sven Yorgen",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Sven Yorgen",
+  "refs": 11
+ },
+ "summary": "Sven Yorgen is a grieving farmer camped along the Hushed Bank in northern Duskwood, accompanied by his companion Lars. Having survived the brutal slaughter of his family at the Yorgen Farmstead, Sven is consumed by a relentless drive to uncover who brought ruin upon his home and exact vengeance.",
+ "sections": [
+  {
+   "title": "A Life Shattered",
+   "body": "Sven was born before the First War, old enough to recall the days before the region became shrouded in gloom following Medivh's fall. For years he worked the soil at the Yorgen Farmstead in western Duskwood alongside his wife and children. That quiet existence ended in sudden violence when mysterious Dark Riders raided his homestead while he was away, butchering his family and turning the farm into a graveyard.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vengeance from the Hushed Bank",
+   "body": "Unable to return to the ruins of his home, Sven established a secluded refuge on the Hushed Bank with his friend Lars. Distrustful of outsiders, he demands proof of loyalty from travelers before sharing his burden. Sven spotted a skulking figure lurking near his devastated farmstead and became convinced this interloper was either directly responsible for the massacre or tied to the sinister horsemen who tore his world apart.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uncovering the Truth",
+   "body": "The shadowy figure stalking Sven's property turns out to be Jitters, an errant vagrant whose blundering inadvertently drew the Dark Riders into Duskwood in their search for the Scythe of Elune. Though Jitters did not strike the fatal blows, his actions unchained the nightmare that obliterated the Yorgen family, directing Sven's fury toward the dark forces haunting Raven Hill and the necromancer Morbent Fel.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sven Yorgen?",
+   "aliases": [
+    "sven yorgen",
+    "who is sven",
+    "sven lore"
+   ],
+   "answer": "Sven Yorgen is a human farmer residing at a small camp on the northern edge of the Hushed Bank in Duskwood. After his family was massacred at their homestead, he dedicated his life to seeking retribution against those responsible."
+  },
+  {
+   "q": "What happened to Sven's family?",
+   "aliases": [
+    "yorgen farmstead tragedy",
+    "sven family dead",
+    "what happened to sven's farm"
+   ],
+   "answer": "While Sven was away from home, terrifying black-cloaked figures known as the Dark Riders arrived at the Yorgen Farmstead. Hunting for a powerful artifact, they mercilessly slaughtered Sven's wife and children and left the land tainted by undead."
+  },
+  {
+   "q": "Why is Sven hiding in the Hushed Bank?",
+   "aliases": [
+    "where is sven",
+    "sven's camp",
+    "why is sven camped out"
+   ],
+   "answer": "Sven abandoned his ruined farmstead after the massacre. He set up a temporary camp along the riverbank alongside Lars to stay hidden from the undead roaming western Duskwood while planning his revenge."
+  },
+  {
+   "q": "Who is the shadowy figure Sven saw?",
+   "aliases": [
+    "shadowy figure sven",
+    "who was at yorgen farmstead",
+    "shadowy figure duskwood"
+   ],
+   "answer": "The mysterious figure Sven saw creeping around the ruins of his homestead is Jitters, a terrified local whose misadventures helped bring the Dark Riders into the region."
+  },
+  {
+   "q": "Why did the Dark Riders attack Sven's farm?",
+   "aliases": [
+    "why dark riders attack",
+    "what were dark riders looking for",
+    "scythe of elune sven"
+   ],
+   "answer": "The Dark Riders were searching Duskwood for the Scythe of Elune, an ancient artifact of immense power. Their pursuit of this relic led them directly across Sven's lands, leaving death in their wake."
+  },
+  {
+   "q": "How long has Sven lived in Duskwood?",
+   "aliases": [
+    "sven age",
+    "how old is sven",
+    "sven before dark"
+   ],
+   "answer": "Sven is old enough to remember Duskwood before it fell into darkness, meaning he lived in the area prior to the First War when the region was still known as the bright and peaceful Grand Hamlet."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Sven represents the tragic collapse of rural life in the kingdom's frontier territories, where ordinary subjects are left undefended against dark magic and shadowy horrors."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Sven's heartbreak and thirst for justice offer paladins a direct duty to avenge innocent blood and purge the lingering undead raised across his family's soil."
+  }
+ ],
+ "keywords": [
+  "dark riders",
+  "duskwood",
+  "hushed bank",
+  "jitters",
+  "lars",
+  "morbent fel",
+  "scythe of elune",
+  "sven yorgen",
+  "yorgen farmstead"
+ ],
+ "related": [
+  "subzone:yorgen-farmstead",
+  "subzone:hushed-bank",
+  "npc:lars",
+  "npc:jitters",
+  "topic:dark-riders",
+  "quest:55",
+  "quest:95",
+  "quest:262"
+ ],
+ "attribution": [
+  "Sven Yorgen"
+ ]
+}

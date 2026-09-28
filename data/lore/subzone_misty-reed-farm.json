@@ -1,0 +1,65 @@
+{
+ "key": "subzone:misty-reed-farm",
+ "type": "subzone",
+ "name": "Misty Reed Farm",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Misty Reed Farm"
+ },
+ "summary": "Misty Reed Farm is a secluded, swampy homestead located in the wetlands of the Swamp of Sorrows. Surrounded by stagnant waters and thick mists, it stands as a fragile pocket of cultivation in a hostile marshland.",
+ "sections": [
+  {
+   "title": "A Homestead in the Mire",
+   "body": "Carved out of the damp wilderness of the Swamp of Sorrows, Misty Reed Farm represents an uneasy attempt to carve out settled ground amid waterlogged reeds and creeping wildlife. The surrounding mire is notorious for territorial crocolisks, treacherous footing, and the ever-present gloom filtering through the canopy, leaving the farm an isolated and precarious outpost far from major trade lines.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Misty Reed Farm?",
+   "aliases": [
+    "misty reed farm",
+    "what is this farm",
+    "where am i swamp of sorrows"
+   ],
+   "answer": "It is a small, isolated farmstead established amid the murky waters and overgrowth of the Swamp of Sorrows."
+  },
+  {
+   "q": "Is the farm safe from the surrounding wildlife?",
+   "aliases": [
+    "is misty reed farm safe",
+    "monsters near farm"
+   ],
+   "answer": "Not particularly. The Swamp of Sorrows is teeming with dangerous beasts, including giant crocolisks, swamp beasts, and lurking dragonkin, making life at any remote homestead hazardous."
+  },
+  {
+   "q": "Was this place previously known as anything else?",
+   "aliases": [
+    "misty reed post",
+    "misty reed name"
+   ],
+   "answer": "Travelers and older cartographers have also noted the area under the name Misty Reed Post."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "The perpetually damp soil and stagnant waterways surrounding the farm offer fertile ground for wild swamp vegetation like Fadeleaf and Stranglekelp along nearby coastlines."
+  }
+ ],
+ "keywords": [
+  "marsh",
+  "mire",
+  "misty reed farm",
+  "misty reed post",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "subzone:misty-reed-post",
+  "zone:swampofsorrows"
+ ],
+ "attribution": [
+  "Misty Reed Farm"
+ ]
+}

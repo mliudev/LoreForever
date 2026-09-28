@@ -1,0 +1,122 @@
+{
+ "key": "npc:althea-ebonlocke",
+ "type": "npc",
+ "name": "Althea Ebonlocke",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Althea Ebonlocke",
+  "refs": 8
+ },
+ "summary": "Commander Althea Ebonlocke leads the Night Watch, the beleaguered town guard protecting Darkshire from the terrors of Duskwood. The daughter of Mayor Ello Ebonlocke, she shoulders the defense of an isolated region abandoned by Stormwind's regular military. She organizes patrols, tasks adventurers with culling local horrors, and coordinates the town's survival against constant monstrous threats.",
+ "sections": [
+  {
+   "title": "Commander of the Watch",
+   "body": "While her father, Mayor Ello Ebonlocke, handles civil governance within the town hall, Commander Althea directs Darkshire's thin line of physical defense. When Stormwind failed to deploy royal troops to guard Duskwood against creeping horrors, the citizenry formed the Night Watch. Under Althea's steady, unyielding command, these volunteers patrol the fog-shrouded roads, keeping skeletal undead, ferocious wolves, and spiders from overrunning the town perimeter.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Town on the Brink",
+   "body": "Althea is pragmatic and understands the limits of her militia. Outnumbered and continually bleeding recruits, she freely enlists passing mercenaries and travelers to thin the threats at Darkshire's doorstep. She directs campaigns against the ghouls and skeletons at the tranquil and sorrowful graveyards of the forest, while remaining vigilant against darker rumors stirring deep in the woods.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tragedies of the Wood",
+   "body": "Beyond common forest vermin, Althea coordinates the investigation and destruction of Duskwood's greatest blights. She assists in unraveling the dark fate of Stalvan Mistmantle and seeks answers to the restless wandering of Mor'Ladim, the fallen knight Morgan Ladimore. When Abercrombie unleashes the monstrous abomination Stitches down the main road, it is Althea who rallies the Watch for Darkshire's desperate last stand.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Althea Ebonlocke?",
+   "aliases": [
+    "who is althea",
+    "commander ebonlocke",
+    "who is the night watch commander"
+   ],
+   "answer": "Commander Althea Ebonlocke is the leader of the Night Watch, the town militia of Darkshire in Duskwood. She is responsible for organizing the defense of the region against the undead and beasts that lurk in the shadows."
+  },
+  {
+   "q": "What is the Night Watch?",
+   "aliases": [
+    "what is night watch",
+    "who are the night watch",
+    "darkshire militia"
+   ],
+   "answer": "The Night Watch is a volunteer militia raised by the citizens of Darkshire. Because Stormwind has provided virtually no military support to Duskwood, the local townspeople banded together under Althea's leadership to patrol the roads and fight back the horrors of the woods."
+  },
+  {
+   "q": "How is Althea related to Mayor Ello Ebonlocke?",
+   "aliases": [
+    "ello ebonlocke relative",
+    "is althea ello daughter",
+    "althea family"
+   ],
+   "answer": "Althea is the daughter of Lord Ello Ebonlocke, the mayor of Darkshire. While her father governs town affairs from the town hall, Althea commands the militia in the field."
+  },
+  {
+   "q": "Why is Stormwind not helping Althea defend Darkshire?",
+   "aliases": [
+    "why no stormwind guards",
+    "stormwind duskwood support",
+    "where are the soldiers"
+   ],
+   "answer": "With King Varian Wrynn missing and Stormwind's resources strained, the House of Nobles has largely neglected the kingdom's outer territories. Darkshire receives virtually no soldiers or relief, forcing Althea to depend on local volunteers and freelance adventurers."
+  },
+  {
+   "q": "What quests does Commander Althea offer?",
+   "aliases": [
+    "althea quests",
+    "night watch questline"
+   ],
+   "answer": "Althea offers the core Night Watch questline, dispatching adventurers to hunt wolves, skeletal fiends, and ghouls across Duskwood. She also assists in investigating the Legend of Stalvan and dealing with the wandering terror Mor'Ladim."
+  },
+  {
+   "q": "What does Althea do when Stitches attacks Darkshire?",
+   "aliases": [
+    "althea stitches",
+    "who fights stitches",
+    "darkshire under attack"
+   ],
+   "answer": "When the stitched abomination created by Abercrombie marches on Darkshire, Althea sounds the alarm and leads the town's remaining Night Watch guards in a direct, bloody stand to stop the monster before it enters the town square."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Althea represents the grim determination of the Alliance's forgotten frontiers, holding the kingdom together where the crown's armies have withdrawn."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Warriors find in Althea a stern, practical commander who respects martial discipline and values frontline fighters willing to hold the line against overwhelming odds."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Paladins walking the gloomy roads of Duskwood can assist Althea in putting restless souls to peace, lifting some of the spiritual dread weighing on her militia."
+  }
+ ],
+ "keywords": [
+  "althea",
+  "commander",
+  "darkshire",
+  "duskwood",
+  "ebonlocke",
+  "militia",
+  "mor'ladim",
+  "night watch",
+  "stitches"
+ ],
+ "related": [
+  "topic:night-watch",
+  "npc:lord-ello-ebonlocke",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "quest:56",
+  "topic:stitches",
+  "topic:mor-ladim",
+  "quest:66"
+ ],
+ "attribution": [
+  "Althea Ebonlocke"
+ ]
+}

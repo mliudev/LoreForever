@@ -1,0 +1,125 @@
+{
+ "key": "topic:bronzebeard-clan",
+ "type": "topic",
+ "name": "Bronzebeard clan",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Bronzebeard clan"
+ },
+ "summary": "The Bronzebeard clan is the ruling dwarven royal line and dominant population of Ironforge. Following their victory in the ancient War of the Three Hammers, they forged strong ties with humanity and the gnomes, standing today under King Magni Bronzebeard as a cornerstone of the Alliance.",
+ "sections": [
+  {
+   "title": "The War of the Three Hammers",
+   "body": "Long ago, dwarven society in Ironforge flourished under High King Modimus Anvilmar. When the king died of old age roughly 230 years ago, simmering rivalries erupted into civil war. Thane Madoran Bronzebeard commanded the traditional garrison and largest standing army within Ironforge, successfully driving both the Wildhammer and Dark Iron clans from under the mountain. When Sorcerer-Thane Thaurissan mounted an assault to reconquer Khaz Modan, Madoran Bronzebeard led his clan in a decisive campaign that shattered the Dark Iron host, solidifying Bronzebeard supremacy over Ironforge.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Pillar of the Alliance",
+   "body": "Human kingdoms first encountered the Bronzebeards nearly two millennia ago, building mutual respect through shared mastery of metalcraft, trade, and a passion for battle. When the Orcish Horde swept through the continent in the Second War, King Magni Bronzebeard brought his realm into the Alliance of Lordaeron. Despite withstanding brutal sieges within their subterranean fortress, Bronzebeard engineers, gunners, and demolitionists provided pivotal firepower and arms that helped turn the tide of the war.",
+   "spoiler": 0
+  },
+  {
+   "title": "Grief at the High Seat",
+   "body": "Today, King Magni governs from the High Seat in the Great Forge, yet his reign is shadowed by loss. His younger brother, Muradin Bronzebeard, served as an Alliance emissary in Lordaeron and vanished in the frozen wastes of Northrend alongside Prince Arthas Menethil, presumed dead when the prince claimed the cursed blade Frostmourne. Compounding this grief, Magni's daughter, Princess Moira, has gone missing, leaving the lineage facing an uncertain succession while the clan searches ancient Titan excavation sites to divine their origins.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules the Bronzebeard clan?",
+   "aliases": [
+    "bronzebeard leader",
+    "who is king of ironforge",
+    "current bronzebeard king"
+   ],
+   "answer": "King Magni Bronzebeard sits upon the High Seat within the Great Forge. A veteran of the Second War and master smith, he leads both his clan and the allied dwarves of Khaz Modan."
+  },
+  {
+   "q": "How did the Bronzebeard clan win control of Ironforge?",
+   "aliases": [
+    "war of the three hammers",
+    "dwarf civil war",
+    "why bronzebeards rule"
+   ],
+   "answer": "Following the death of High King Modimus Anvilmar roughly 230 years ago, civil war broke out between the three major clans. Commanding Ironforge's central standing army, Thane Madoran Bronzebeard drove the Wildhammers and Dark Irons from the mountain and later crushed Thaurissan's invading Dark Iron army."
+  },
+  {
+   "q": "What is the difference between Bronzebeard and other dwarven clans?",
+   "aliases": [
+    "dwarf clans difference",
+    "ironforge vs wildhammer",
+    "types of dwarves"
+   ],
+   "answer": "The Bronzebeards inhabit Ironforge and represent the traditional mountain dwarves who excel in heavy plate, firearms, and subterranean architecture. In contrast, the Wildhammers dwell in the crags and skies as gryphon riders, while the hostile Dark Irons master dark sorcery and pyromancy beneath Blackrock Mountain."
+  },
+  {
+   "q": "What happened to Muradin Bronzebeard?",
+   "aliases": [
+    "where is muradin",
+    "is muradin alive",
+    "muradin fate"
+   ],
+   "answer": "Muradin Bronzebeard traveled to Northrend as an Alliance emissary and explorer. He guided Prince Arthas Menethil in the hunt for the runeblade Frostmourne and was reported dead when the cursed weapon was freed from its pedestal."
+  },
+  {
+   "q": "Why are the Bronzebeards so devoted to archaeological digs?",
+   "aliases": [
+    "why dwarves dig",
+    "dwarven excavations",
+    "earthen origins"
+   ],
+   "answer": "Bronzebeard scholars have uncovered relics linking their ancestry to the ancient, stone-hewn earthen. Driven to discover the roots of their race and the transformation known as the curse of flesh, the clan finances digs and expeditions across Azeroth."
+  },
+  {
+   "q": "Where is the Bronzebeard royal family's seat of power?",
+   "aliases": [
+    "where is the throne room",
+    "high seat location",
+    "bronzebeard throne"
+   ],
+   "answer": "The royal throne, known as the High Seat, is situated in the heart of Ironforge along the Great Forge, where King Magni conducts state affairs surrounded by councilors and royal guards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Every playable dwarf hails from or answers to the Bronzebeard kingdom, serving King Magni as steadfast defenders of Khaz Modan."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "The Bronzebeards offered unconditional refuge in Ironforge's Tinkertown when Gnomeregan fell to the trogg invasion."
+  },
+  {
+   "target": "race:Human",
+   "text": "Humanity and the Bronzebeards have maintained an enduring alliance for over two thousand years, bonded by shared martial traditions and mutual trade."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The Bronzebeards are renowned across Azeroth for their unparalleled mastery of smelting, weapon crafting, and heavy armors."
+  }
+ ],
+ "keywords": [
+  "bronzebeard",
+  "high seat",
+  "ironforge",
+  "khaz modan",
+  "madoran",
+  "magni",
+  "muradin",
+  "three hammers"
+ ],
+ "related": [
+  "npc:magni-bronzebeard",
+  "topic:dwarf",
+  "zone:ironforge",
+  "topic:muradin-bronzebeard",
+  "subzone:high-seat",
+  "topic:dark-iron-clan",
+  "topic:wildhammer-clan",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Bronzebeard clan"
+ ]
+}

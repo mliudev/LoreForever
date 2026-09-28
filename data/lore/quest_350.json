@@ -1,0 +1,118 @@
+{
+ "key": "quest:350",
+ "type": "quest",
+ "name": "Look to an Old Friend",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   350
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Master Mathias Shaw",
+  "end": "Elling Trias",
+  "previous": "Shadow of the Past (quest)",
+  "next": "Infiltrating the Castle",
+  "wiki": "Look to an Old Friend",
+  "chain": []
+ },
+ "summary": "Master Mathias Shaw directs an investigator to seek out an unconventional contact in Stormwind's Trade District. Because noble corruption shields powerful traitors from standard legal justice, the spymaster reluctantly relies on the intelligence network of the city's finest cheesemonger.",
+ "sections": [
+  {
+   "title": "Above the Law",
+   "body": "Following the discovery that Lord Gregor Lescovar and the assassin Marzon the Silent Blade maintain direct ties to the Defias Brotherhood, Master Mathias Shaw faces an intelligence dead end. With Edwin VanCleef dead in the Deadmines and Bazil Thredd eliminated in the Stockade, no living bandit leaders remain to testify. Furthermore, Lescovar's aristocratic status and extensive political ties place him effectively beyond the reach of standard Royal Guard justice and formal SI:7 warrants.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Cheesemonger's Ear",
+   "body": "To pierce the defenses of a Stormwind noble, Shaw directs his agent to Elling Trias, the proprietor of Trias' Cheese in the Trade District. While outwardly a temperamental merchant known across the city for imported wedges and wheels, Trias runs an independent network of eyes and ears that rivals SI:7 itself. Shaw loathes calling upon his former colleague, but unmasking treason inside Stormwind Keep demands methods beyond official royal channels.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Mathias Shaw send you to a cheese merchant?",
+   "aliases": [
+    "why elling trias",
+    "why talk to trias",
+    "why cheese shop"
+   ],
+   "answer": "Elling Trias is far more than a simple cheesemonger. While he runs Trias' Cheese near the Trade District entrance, he maintains an independent, far-reaching underground intelligence web. Shaw loathes asking him for assistance, but SI:7 requires unconventional means to move against a nobleman who sits out of reach of standard law enforcement."
+  },
+  {
+   "q": "Why can't Mathias Shaw simply arrest Lord Lescovar?",
+   "aliases": [
+    "why not arrest lescovar",
+    "why cant shaw arrest lescovar",
+    "why lescovar untouchable"
+   ],
+   "answer": "Lord Lescovar is a high-ranking Stormwind nobleman with deep connections across the House of Nobles. With Edwin VanCleef slain in the Deadmines and Bazil Thredd eliminated in the Stockade, SI:7 has no surviving high-ranking Defias witnesses whose confessions would legally stick to an aristocrat."
+  },
+  {
+   "q": "Who is Marzon the Silent Blade?",
+   "aliases": [
+    "who is marzon",
+    "marzon silent blade role"
+   ],
+   "answer": "Marzon the Silent Blade is a lethal operative working closely with the Defias conspiracy and maintaining secret communications with Lord Lescovar inside Stormwind's court."
+  },
+  {
+   "q": "Why does Trias mention Deathwing when you speak to him?",
+   "aliases": [
+    "why does trias say deathwing",
+    "trias deathwing line",
+    "deathwing attacking stormwind"
+   ],
+   "answer": "When informed of the conspiracy involving the Defias Brotherhood, Trias responds with bitter sarcasm, scoffing that next you will be telling him that the long-lost Black Dragon Aspect Deathwing is still alive and assailing the kingdom."
+  },
+  {
+   "q": "What happens after meeting with Elling Trias?",
+   "aliases": [
+    "next quest after trias",
+    "where to after look to an old friend"
+   ],
+   "answer": "After listening to the full account of the conspiracy, Trias begins planning a quiet infiltration of Stormwind Keep to corner Lord Lescovar without alerting the rest of the noble court."
+  },
+  {
+   "q": "Where is Elling Trias located?",
+   "aliases": [
+    "trias location",
+    "where is trias cheese"
+   ],
+   "answer": "Elling Trias can be found inside his shop, Trias' Cheese, located in Stormwind's Trade District just off the main road entering from the city gates."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The quiet rivalry between Mathias Shaw and Elling Trias illustrates the fractured nature of Stormwind's covert operatives, where street-level informants often possess better leverage than the crown's official intelligence division."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This task demonstrates how the corruption of the House of Nobles paralyzes Stormwind's internal security while King Varian Wrynn remains missing."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "elling trias",
+  "lescovar",
+  "marzon",
+  "mathias shaw",
+  "stormwind",
+  "trade district",
+  "trias cheese"
+ ],
+ "related": [
+  "npc:elling-trias",
+  "quest:2745",
+  "quest:65",
+  "topic:defias-brotherhood",
+  "subzone:trade-district",
+  "topic:stormwind-kingdom",
+  "npc:deathwing"
+ ],
+ "attribution": [
+  "Look to an Old Friend"
+ ]
+}

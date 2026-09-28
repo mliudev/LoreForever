@@ -1,0 +1,92 @@
+{
+ "key": "subzone:feathermoon-stronghold-classic",
+ "type": "subzone",
+ "name": "Feathermoon Stronghold (Classic)",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Feathermoon Stronghold (Classic)"
+ },
+ "summary": "Feathermoon Stronghold is a fortified night elf bastion situated on Sardor Isle off the western shores of Feralas. Established by General Shandris Feathermoon, it serves as the Alliance's primary staging ground and military anchor in southern Kalimdor.",
+ "sections": [
+  {
+   "title": "Sentinel Bastion of the South",
+   "body": "Perched on Sardor Isle just off the Forgotten Coast, Feathermoon Stronghold stands as a crucial bulwark for the Night Elves and the broader Alliance. Built under the direction of General Shandris Feathermoon\u2014Tyrande Whisperwind's trusted lieutenant for ten millennia\u2014the fortress projects Sentinel power deep into southern Kalimdor. Its isolated island geography shields it from the beasts, ogres, and Horde interlopers prowling the primeval jungles of mainland Feralas.",
+   "spoiler": 0
+  },
+  {
+   "title": "Lifeline Across the Waves",
+   "body": "Given its insular position, Feathermoon relies heavily on sea and air links to maintain logistics. A small passenger boat regularly shuttles travellers across the channel between Sardor Isle and the Forgotten Coast dock. For distant travel, a dedicated hippogryph roost ties the stronghold directly to major Alliance hubs, including Thalanaar on the Thousand Needles border, Nijel's Point in the Desolace highlands, and Auberdine in the north.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you reach Feathermoon Stronghold from mainland Feralas?",
+   "aliases": [
+    "how to get to feathermoon",
+    "feathermoon boat",
+    "getting to sardor isle"
+   ],
+   "answer": "Travelers can catch a ferry boat that departs from a dock on the Forgotten Coast directly across the strait, or simply swim the narrow channel to Sardor Isle. Alliance members can also fly in by hippogryph once the flight master is discovered."
+  },
+  {
+   "q": "Who commands Feathermoon Stronghold?",
+   "aliases": [
+    "who leads feathermoon",
+    "feathermoon leader",
+    "shandris feathermoon"
+   ],
+   "answer": "The outpost is commanded by General Shandris Feathermoon, the high-ranking leader of the Sentinels and long-serving military subordinate to High Priestess Tyrande Whisperwind."
+  },
+  {
+   "q": "Why is the stronghold located on an island instead of the mainland?",
+   "aliases": [
+    "why on sardor isle",
+    "why island fortress",
+    "feathermoon location lore"
+   ],
+   "answer": "Sardor Isle provides natural isolation and security from the dense threats of the Feralas wilderness, including aggressive wildlife, primal ruins, and hostile forces, allowing the Sentinels to maintain an unassailable redoubt."
+  },
+  {
+   "q": "Where do flight paths from Feathermoon connect?",
+   "aliases": [
+    "feathermoon flight master",
+    "where do feathermoon hippogryphs go"
+   ],
+   "answer": "Feathermoon's hippogryph master maintains routes connecting across western Kalimdor, including Auberdine in Darkshore, Nijel's Point in Desolace, Thalanaar in Feralas, and Cenarion Hold in Silithus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Feathermoon Stronghold represents the primary safe haven, vendor post, and staging center for Alliance operations deep within southern Kalimdor."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The stronghold serves as the southern military seat of General Shandris Feathermoon and the Sentinels, standing as a vital guardian of the ancient wilderness."
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "feathermoon stronghold",
+  "feralas",
+  "forgotten coast",
+  "sardor isle",
+  "sentinels",
+  "shandris feathermoon"
+ ],
+ "related": [
+  "subzone:sardor-isle",
+  "zone:feralas",
+  "subzone:forgotten-coast",
+  "topic:sentinels",
+  "topic:alliance",
+  "subzone:thalanaar",
+  "subzone:nijel-s-point",
+  "subzone:auberdine"
+ ],
+ "attribution": [
+  "Feathermoon Stronghold (Classic)"
+ ]
+}

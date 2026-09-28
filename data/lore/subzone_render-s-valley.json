@@ -1,0 +1,85 @@
+{
+ "key": "subzone:render-s-valley",
+ "type": "subzone",
+ "name": "Render's Valley",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Render's Valley"
+ },
+ "summary": "Render's Valley is a tucked-away encampment held by Blackrock orcs in the southeastern Redridge Mountains. Far less entrenched than the massive fortresses of Stonewatch, it nonetheless poses a persistent threat to nearby travelers and hosts captives taken from surrounding lands.",
+ "sections": [
+  {
+   "title": "A Foothold in the Southeast",
+   "body": "Tucked among the rocky ridges southeast of Lake Everstill, Render's Valley serves as an auxiliary camp for the Blackrock orcs operating in Redridge. Unlike the heavily fortified keeps and stone towers of the northern cliffs, the valley consists of a modest cluster of war tents, banners, and sentry outposts. Despite being smaller and less armed than the clan's core forces, the warriors here raid local roads, harass travelers, and keep captured prisoners in crude cages under guard.",
+   "spoiler": 0
+  },
+  {
+   "title": "Secret Paths and Captives",
+   "body": "Beyond the war parties roaming its dirt paths, the valley holds unexpected points of interest for intrepid scouts. Human prisoners have occasionally been sighted within the camp, including a captive servant connected to the Tower of Azora who managed to trade specialist goods right under his captors' noses. Additionally, rugged and unmarked pathways through the high southern bluffs behind the valley allow daring pathfinders to slip across the border into the murky bogs of the Swamp of Sorrows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Render's Valley?",
+   "aliases": [
+    "who is in renders valley",
+    "renders valley orcs",
+    "what clan is in renders valley"
+   ],
+   "answer": "The valley is occupied by the Blackrock clan, an aggressive orcish faction that has pushed south from the Burning Steppes into Redridge to conquer territory and harass human settlements."
+  },
+  {
+   "q": "Are the orcs here as dangerous as the ones at Stonewatch?",
+   "aliases": [
+    "renders valley difficulty",
+    "how strong are the orcs here"
+   ],
+   "answer": "No. The Blackrock warriors stationed in Render's Valley are generally younger or less formidable skirmishers compared to the hardened elite forces garrisoning Stonewatch Keep to the north."
+  },
+  {
+   "q": "Who is the prisoner kept in the camp?",
+   "aliases": [
+    "renders valley captive",
+    "servant of azora redridge",
+    "renders valley tailor"
+   ],
+   "answer": "A servant affiliated with the Tower of Azora in Elwynn Forest was captured by the Blackrock clan and held here in a cage. Those brave enough to reach him can acquire specialized tailoring supplies."
+  },
+  {
+   "q": "Can you reach the Swamp of Sorrows from here?",
+   "aliases": [
+    "path to swamp of sorrows",
+    "renders valley mountain pass",
+    "redridge to swamp shortcut"
+   ],
+   "answer": "Yes. A steep, unofficial mountain trail winds through the southern bluffs just past Render's Valley, offering a hidden shortcut directly into the northern marches of the Swamp of Sorrows."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The camp is a secondary Blackrock raiding outpost that threatens southern Redridge, making its clearing vital for securing trade and travel in Lakeshire."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "The Captured Servant of Azora imprisoned in the orc camp offers unique tailoring patterns and materials to craftsmen willing to fight through the sentries to reach him."
+  }
+ ],
+ "keywords": [
+  "blackrock orcs",
+  "redridge",
+  "render's valley",
+  "renders valley",
+  "servant of azora",
+  "swamp of sorrows pass"
+ ],
+ "related": [
+  "zone:redridge",
+  "zone:swampofsorrows"
+ ],
+ "attribution": [
+  "Render's Valley"
+ ]
+}

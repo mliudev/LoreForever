@@ -1,0 +1,126 @@
+{
+ "key": "npc:pelturas-whitemoon",
+ "type": "npc",
+ "name": "Pelturas Whitemoon",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Pelturas Whitemoon",
+  "refs": 4
+ },
+ "summary": "Pelturas Whitemoon is a night elf father dwelling in Astranaar whose young daughter, Relara, has been struck by a terrible, corrupting illness. Desperate to save her, he works closely with local herbalist Orendil Broadleaf and traveling Alliance champions to gather sacred remedies from the surrounding wilds. His quest to heal Relara takes adventurers into some of Ashenvale's oldest sacred groves and ruins.",
+ "sections": [
+  {
+   "title": "A Father's Plight in Astranaar",
+   "body": "Residing in the serene boughs of Astranaar, Pelturas Whitemoon lives the quiet life typical of forest-dwelling Kaldorei, often venturing out with his young daughter Relara to collect shimmering moonstones around Fallen Sky Lake. However, when Relara falls critically ill with a mysterious affliction, his quiet world collapses into frantic desperation. Astranaar is besieged on many fronts, but for Pelturas, nothing in the great forest matters more than saving his child.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ancient Cures and Corrupted Groves",
+   "body": "Normal herbal remedies fail to break Relara's condition, prompting Pelturas to turn to the herbalist Orendil Broadleaf. Treating the affliction requires rare and sacred reagents tied to the land and the Moon Goddess, including an Elune's Tear and shimmering stardust from ancient Kaldorei ruins to cool her burning fever. Each step only narrowly keeps death at bay, highlighting how deeply the corruption spreading through Ashenvale's soil and waters has begun to touch its people.",
+   "spoiler": 1
+  },
+  {
+   "title": "Fallen Sky Lake",
+   "body": "To fully restore Relara's vitality, Pelturas seeks a moonstone from the Shadethicket Oracle at Fallen Sky Lake. The lake, once a tranquil spot where father and daughter peacefully gathered stones together, has grown perilous due to the violent emergence of corrupted bog beasts. By crushing the recovered moonstone into a restorative tea, Pelturas finally breaks the lingering weakness, restoring Relara to health.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Pelturas Whitemoon?",
+   "aliases": [
+    "pelturas",
+    "who is pelturas whitemoon",
+    "pelturas astranaar"
+   ],
+   "answer": "Pelturas Whitemoon is a night elf resident of Astranaar in central Ashenvale. He is best known for seeking the aid of passing Alliance travelers to gather sacred ingredients to cure his seriously ill daughter, Relara."
+  },
+  {
+   "q": "What is wrong with his daughter, Relara?",
+   "aliases": [
+    "relara illness",
+    "why is relara sick",
+    "relara disease"
+   ],
+   "answer": "Relara suffers from a sudden, virulent disease that causes a severe fever and deep weakness. The sickness appears tied to the unnatural corruption spreading through Ashenvale's wilds, resisting mundane medicine and requiring sacred reagents to cleanse."
+  },
+  {
+   "q": "Who helps Pelturas treat the sickness?",
+   "aliases": [
+    "pelturas herbalist",
+    "who helps relara",
+    "orendil broadleaf pelturas"
+   ],
+   "answer": "Pelturas seeks council from Orendil Broadleaf, a knowledgeable local night elf who prescribes traditional Kaldorei remedies, including cleansing stones and herbal poultices."
+  },
+  {
+   "q": "What reagents are needed to cure Relara?",
+   "aliases": [
+    "cure reagents pelturas",
+    "relara cure ingredients",
+    "what cures relara"
+   ],
+   "answer": "Saving Relara requires a progression of treatments: an initial herbal draught from Orendil, a purifying Elune's Tear, powdered stardust from ancient ruins to break her burning fever, and a moonstone from Fallen Sky Lake brewed into tea to restore her vigor."
+  },
+  {
+   "q": "Why is Fallen Sky Lake significant to Pelturas?",
+   "aliases": [
+    "fallen sky lake pelturas",
+    "moonstone fallen sky lake"
+   ],
+   "answer": "Fallen Sky Lake was a place where Pelturas and Relara used to spend time together gathering moonstones. The lake has recently been overtaken by hostile Shadethicket bog beasts, forcing Pelturas to ask adventurers to retrieve the moonstone needed for his daughter's recovery."
+  },
+  {
+   "q": "Is Pelturas a member of the Cenarion Circle or the Sentinels?",
+   "aliases": [
+    "is pelturas a sentinel",
+    "pelturas faction role"
+   ],
+   "answer": "No. Pelturas is a civilian town resident of Astranaar, representing the everyday Kaldorei families who live within Ashenvale and suffer from the forest's encroaching dangers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Pelturas's struggle reflects the vulnerability of everyday Kaldorei families as ancient glades fall prey to corruption and regional conflict."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Helping Pelturas save his daughter reinforces the Alliance's commitment to defending and aiding the Kaldorei settlements in Kalimdor."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The cleansing rites and holy reagents consecrated to Elune showcase the healing power and sacred reverence that the Sisterhood of Elune brings to night elf culture."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The sequence of natural draughts, poultices, and botanical tinctures needed for Relara highlights the deep connection between Kaldorei medicine and herbal lore."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "elune's tear",
+  "fallen sky lake",
+  "moonstone",
+  "orendil broadleaf",
+  "pelturas",
+  "relara",
+  "ruins of stardust",
+  "whitemoon"
+ ],
+ "related": [
+  "subzone:astranaar",
+  "zone:ashenvale",
+  "npc:orendil-broadleaf",
+  "quest:1020",
+  "quest:1033",
+  "quest:1034",
+  "quest:1035",
+  "topic:elune"
+ ],
+ "attribution": [
+  "Pelturas Whitemoon"
+ ]
+}

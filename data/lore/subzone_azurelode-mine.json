@@ -1,0 +1,90 @@
+{
+ "key": "subzone:azurelode-mine",
+ "type": "subzone",
+ "name": "Azurelode Mine",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Azurelode Mine"
+ },
+ "summary": "Azurelode Mine is an active Alliance iron mine nestled in the southwestern hills of Hillsbrad Foothills. Guarded by Southshore's militia and worked by human laborers, its steady supply of ore fuels the local human war effort against the Forsaken of Tarren Mill.",
+ "sections": [
+  {
+   "title": "Veins of the Foothills",
+   "body": "Situated southwest of the open farmland and just west of Southshore, Azurelode Mine has long tapped into the mineral-rich ridges along the coast. Before the Greymane Wall was sealed, these hills were considered part of Gilnean territory. Today, human miners labor deep underground under the watchful eye of Foreman Bonds, extracting iron to forge arms and armor for the Alliance defenders holding the region against the Undercity.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Vital Military Target",
+   "body": "Because Azurelode Mine supplies the bulk of the raw iron needed to maintain Southshore's garrisons and town militia, it sits directly in the crosshairs of the Horde. Tarren Mill has targeted its workforce and guards in an effort to shatter the supply lines that sustain Hillsbrad's human strongholds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Azurelode Mine?",
+   "aliases": [
+    "who runs azurelode",
+    "azurelode mine faction",
+    "who owns azurelode"
+   ],
+   "answer": "Azurelode Mine is controlled by the Alliance and operated by human miners affiliated with Southshore and the Hillsbrad township, overseen on-site by Foreman Bonds."
+  },
+  {
+   "q": "Why is the mine important to the Horde?",
+   "aliases": [
+    "why attack azurelode",
+    "battle of hillsbrad mine",
+    "horde interest in mine"
+   ],
+   "answer": "The mine supplies vital iron to the armories of Southshore and local Alliance militia. Tarren Mill's leadership targets the miners and overseers to cripple human weapon production in the Foothills."
+  },
+  {
+   "q": "Was Azurelode Mine always part of Hillsbrad?",
+   "aliases": [
+    "greymane wall history",
+    "was azurelode gilneas",
+    "gilneas mine"
+   ],
+   "answer": "Historically, the rugged ridge holding Azurelode Mine fell within the outer borders of Gilneas before King Genn Greymane erected the Greymane Wall, walling his kingdom off from the rest of Lordaeron."
+  },
+  {
+   "q": "What metals are mined here?",
+   "aliases": [
+    "what ore in azurelode",
+    "azurelode resources"
+   ],
+   "answer": "The mine primarily produces iron ore for nearby human armories, though its name also reflects historical deposits of azurite along the coastal hills."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The tunnels inside and the ridges around Azurelode are rich in iron deposits, though Alliance miners guard the interior fiercely."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Striking at Azurelode Mine cuts off Southshore's supply of fresh iron, directly supporting the Forsaken offensive in the Foothills."
+  }
+ ],
+ "keywords": [
+  "azurelode mine",
+  "foreman bonds",
+  "hillsbrad foothills",
+  "hillsbrad miners",
+  "iron mine",
+  "southshore"
+ ],
+ "related": [
+  "zone:hillsbrad",
+  "quest:527",
+  "subzone:southshore",
+  "subzone:hillsbrad-fields",
+  "subzone:greymane-wall",
+  "topic:forsaken",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Azurelode Mine"
+ ]
+}

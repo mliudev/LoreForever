@@ -1,0 +1,86 @@
+{
+ "key": "npc:greatmother-hawkwind",
+ "type": "npc",
+ "name": "Greatmother Hawkwind",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Greatmother Hawkwind",
+  "refs": 2
+ },
+ "summary": "Greatmother Hawkwind is a revered tauren elder resting by the water well on Red Cloud Mesa. As the mother of Camp Narache's leader, Chief Hawkwind, she embodies the enduring spirit and communal responsibility of the tribe despite her advanced age.",
+ "sections": [
+  {
+   "title": "Elder of the Mesa",
+   "body": "Greatmother Hawkwind spends her days beside the fresh water well at Camp Narache, serving as the spiritual matriarch for young tauren beginning their rites of passage. Though years have slowed her stride, she refuses to let age sideline her duty to the village. She believes that every member of the tribe, young or old, has an active role to play in sustaining the community, often asking fledgling youths to lend a hand with simple domestic chores like fetching fresh water.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Mother's Guidance",
+   "body": "As the mother of Chief Hawkwind, the chieftain of Camp Narache, Greatmother Hawkwind provides steady counsel and quiet dignity amidst the threats facing Red Cloud Mesa. While her son organizes hunters and warriors against encroaching Bristleback quilboar and local predators, she tends to the moral heart of the settlement, reminding the newly awakened that strength begins with humility and service to one's kin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Greatmother Hawkwind?",
+   "aliases": [
+    "greatmother hawkwind lore",
+    "who is greatmother hawkwind",
+    "camp narache elder"
+   ],
+   "answer": "Greatmother Hawkwind is an elderly tauren matriarch residing in Camp Narache on Red Cloud Mesa. She is the mother of the camp's chieftain, Chief Hawkwind, and acts as an elder guide to young adventurers."
+  },
+  {
+   "q": "Where can she be found?",
+   "aliases": [
+    "greatmother hawkwind location",
+    "where is greatmother hawkwind"
+   ],
+   "answer": "She sits near the central water well in Camp Narache, located within Red Cloud Mesa in southwestern Mulgore."
+  },
+  {
+   "q": "What tasks does she ask of young tauren?",
+   "aliases": [
+    "greatmother hawkwind quest",
+    "a humble task"
+   ],
+   "answer": "She charges young tauren with 'A Humble Task,' asking them to gather water from the village well and deliver it to others in the camp. The chore teaches that no task is beneath a true servant of the tribe."
+  },
+  {
+   "q": "What is her relation to Chief Hawkwind?",
+   "aliases": [
+    "chief hawkwind mother",
+    "is she related to chief hawkwind"
+   ],
+   "answer": "She is the mother of Chief Hawkwind, who oversees the defense and training of young braves at Camp Narache."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young tauren starting their journey on Red Cloud Mesa, Greatmother Hawkwind embodies the core values of the Earth Mother: respect for elders, community solidarity, and humbleness in service."
+  }
+ ],
+ "keywords": [
+  "a humble task",
+  "camp narache",
+  "chief hawkwind",
+  "greatmother hawkwind",
+  "mulgore",
+  "red cloud mesa",
+  "tauren elder",
+  "unaya"
+ ],
+ "related": [
+  "npc:chief-hawkwind",
+  "subzone:camp-narache",
+  "subzone:red-cloud-mesa",
+  "quest:752",
+  "topic:tauren",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Greatmother Hawkwind"
+ ]
+}

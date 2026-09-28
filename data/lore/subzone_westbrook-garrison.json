@@ -1,0 +1,93 @@
+{
+ "key": "subzone:westbrook-garrison",
+ "type": "subzone",
+ "name": "Westbrook Garrison",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Westbrook Garrison"
+ },
+ "summary": "Westbrook Garrison is a Stormwind Guard outpost situated on the western edge of Elwynn Forest near the Westfall border. Manned by an overworked, under-supplied skeleton crew under Deputy Rainer, it serves as the realm's first line of defense against the encroaching Riverpaw gnolls and rogue bandits.",
+ "sections": [
+  {
+   "title": "A Beleaguered Border Post",
+   "body": "Positioned where Elwynn Forest begins to thin toward Westfall, Westbrook Garrison stands as a vital but struggling watchpoint. With much of the Stormwind Army committed abroad or tied down by political inertia in the capital, the outpost has been left critically shorthanded. Deputy Rainer and his handful of guards must patrol the western roads while fending off emboldened thieves and the vicious Riverpaw gnolls who have overrun the southern woods. Unable to secure formal reinforcements from Marshal Dughan in Goldshire, the garrison relies almost entirely on traveling adventurers to secure the highway.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Menace of Forest's Edge",
+   "body": "The primary threat facing Westbrook is the swelling gnoll presence centered around the south of Forest's Edge. The packs have grown bold enough to stage raids directly on supply lines and homesteads, organized under the fearsome gnoll chieftain known as Hogger. Outnumbered and overwhelmed by the brute strength of Hogger's forces, the garrison has posted a high bounty across its grounds, desperately seeking capable fighters willing to venture into the hills and bring down the beast before he pushes farther east.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Westbrook Garrison so understaffed?",
+   "aliases": [
+    "why so few guards",
+    "westbrook reinforcements",
+    "deputy rainer lacking troops"
+   ],
+   "answer": "The bulk of the Stormwind Army is deployed abroad, and political indecision within the capital's House of Nobles has starved regional garrisons of fresh troops and supplies. Westbrook's commanders must rely heavily on wandering adventurers to pick up the slack."
+  },
+  {
+   "q": "Who is in command at the garrison?",
+   "aliases": [
+    "who leads westbrook garrison",
+    "deputy rainer role",
+    "westbrook commander"
+   ],
+   "answer": "Deputy Rainer oversees operations at Westbrook Garrison. He answers directly to Marshal Dughan stationed at Goldshire, though his requests for additional soldiers have largely gone unanswered."
+  },
+  {
+   "q": "What threats does the garrison face?",
+   "aliases": [
+    "threats to westbrook",
+    "gnolls westbrook",
+    "who attacks westbrook garrison"
+   ],
+   "answer": "The garrison deals with wandering bandits spilling out of Westfall and the ferocious Riverpaw gnolls who camp in the surrounding woods, led by their dangerous chieftain Hogger."
+  },
+  {
+   "q": "What is the relation between Westbrook and Westfall?",
+   "aliases": [
+    "is westbrook in westfall",
+    "border to westfall"
+   ],
+   "answer": "Westbrook Garrison is the final outpost in Elwynn Forest along the western road before crossing the bridge into Westfall, guarding the border against the lawlessness rising from the west."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "The beleaguered guards at Westbrook represent an overstretched kingdom holding back wilderness predators with sheer grit, offering plenty of straightforward, brutal work clearing gnoll war bands."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions setting out from Elwynn toward Westfall, securing Westbrook's perimeter and claiming the bounty on Hogger is essential to keeping the heartland's western borders secure."
+  }
+ ],
+ "keywords": [
+  "deputy rainer",
+  "elwynn forest",
+  "forest's edge",
+  "hogger",
+  "marshal dughan",
+  "riverpaw",
+  "westbrook garrison",
+  "westfall"
+ ],
+ "related": [
+  "npc:deputy-rainer",
+  "quest:176",
+  "quest:11",
+  "subzone:forest-s-edge",
+  "subzone:goldshire",
+  "npc:marshal-dughan",
+  "zone:elwynn",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Westbrook Garrison"
+ ]
+}

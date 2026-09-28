@@ -1,0 +1,111 @@
+{
+ "key": "npc:calor",
+ "type": "npc",
+ "name": "Calor",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Calor",
+  "refs": 4
+ },
+ "summary": "Calor is a dedicated resident of Darkshire who aids the Night Watch and the Carevin family in defending Duskwood. Operating under the direction of Jonathan Carevin, he actively coordinates efforts to hunt down the vicious worgen stalking the gloomy forests. Adventurers looking to push back the ravenous beasts haunting the woods often find their assignments through him.",
+ "sections": [
+  {
+   "title": "A Loyalist in the Shadows",
+   "body": "Stationed within the beleaguered settlement of Darkshire, Calor works closely with Jonathan Carevin, one of the town's prominent defenders. Amid the endless gloom and creeping terrors of Duskwood, Calor devotes himself to supporting the Carevin household's mission: eradicating the supernatural horrors encroaching upon the town's perimeter before the remaining townsfolk are slaughtered.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Worgen Menace",
+   "body": "Calor's primary duty centers on confronting the feral worgen prowling the woods, particularly around blighted areas like the Rotting Orchard. These ferocious wolf-men are far more aggressive and dangerous than common beasts, slaughtering travelers and patrols alike. Calor enlists capable fighters to cull their ranks and investigate their origins, desperate to stem the bloodthirsty tide.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Calor?",
+   "aliases": [
+    "calor darkshire",
+    "who is calor",
+    "calor duskwood"
+   ],
+   "answer": "Calor is a human allied with the Carevin family living in Darkshire. He assists in the town's defense by dispatching adventurers to hunt down dangerous threats in Duskwood."
+  },
+  {
+   "q": "Where can Calor be found?",
+   "aliases": [
+    "where is calor",
+    "calor location",
+    "calor coordinates"
+   ],
+   "answer": "Calor is stationed in Darkshire, the primary Alliance town nestled in the shadowed forests of Duskwood."
+  },
+  {
+   "q": "What is Calor's relationship with Jonathan Carevin?",
+   "aliases": [
+    "calor and carevin",
+    "who does calor work for",
+    "carevin family calor"
+   ],
+   "answer": "Calor is a staunch supporter of the Carevin family. He follows the directives of Jonathan Carevin, helping him wage war against the deadly monsters plaguing the forest."
+  },
+  {
+   "q": "What enemies does Calor have you fight?",
+   "aliases": [
+    "calor quests",
+    "what does calor want",
+    "worgen quests calor"
+   ],
+   "answer": "Calor tasks adventurers with hunting the bloodthirsty worgen packs that infest the woods, particularly directing strikes against them near places such as the Rotting Orchard."
+  },
+  {
+   "q": "Why is the worgen threat so urgent in Duskwood?",
+   "aliases": [
+    "why kill worgen duskwood",
+    "duskwood worgen threat"
+   ],
+   "answer": "The worgen are vicious, ravenous predators that attack anything on sight. Without regular culls coordinated by figures like Calor and the Night Watch, the beasts would quickly overrun Darkshire's thin defense lines."
+  },
+  {
+   "q": "Is Calor a member of the Night Watch?",
+   "aliases": [
+    "calor night watch",
+    "is calor in night watch"
+   ],
+   "answer": "While Calor works in close conjunction with town defenders and aligns with Jonathan Carevin, he primarily operates as a direct agent and supporter of the Carevin family's anti-worgen crusade."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Calor serves as a vital contact for Alliance champions willing to brave the gloomy woods to defend the isolated townsfolk of Darkshire."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters will find steady work with Calor, tracking and culling savage, otherworldly beasts that defy the natural order of the forest."
+  }
+ ],
+ "keywords": [
+  "calor",
+  "carevin",
+  "darkshire",
+  "duskwood",
+  "jonathan carevin",
+  "night watch",
+  "rotting orchard",
+  "worgen"
+ ],
+ "related": [
+  "npc:jonathan-carevin",
+  "quest:173",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "topic:worgen",
+  "topic:night-watch",
+  "subzone:rotting-orchard",
+  "quest:1042"
+ ],
+ "attribution": [
+  "Calor"
+ ]
+}

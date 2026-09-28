@@ -1,0 +1,124 @@
+{
+ "key": "npc:baine-bloodhoof",
+ "type": "npc",
+ "name": "Baine Bloodhoof",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Baine Bloodhoof",
+  "refs": 12
+ },
+ "summary": "Baine Bloodhoof is the son of High Chieftain Cairne Bloodhoof and the acting protector of Bloodhoof Village in Mulgore. While his father governs the tribes from the towering heights of Thunder Bluff, Baine directly oversees local defense, investigating encroaching industrial exploitation and defending against feral predators. He serves as an essential bridge between youthful tauren braves and the ancestral wisdom of his clan.",
+ "sections": [
+  {
+   "title": "Son of the High Chieftain",
+   "body": "Born to Cairne and the late Tamaala, Baine spent his youth traveling alongside his nomadic people before they claimed the rich grasslands of Mulgore. His early life was marked by the ever-present threat of the centaur clans. Shortly after the Third War, a centaur warband under Khiragg captured young Baine, plunging Cairne into a grief-stricken stupor that nearly shattered the newly founded settlements. It was only through the courage of the champion Rexxar that Baine was liberated from captivity. That rescue restored Cairne's spirit, allowing the tauren to unite with Thrall's Horde and secure their foothold on the continent.",
+   "spoiler": 0
+  },
+  {
+   "title": "Guardian of Bloodhoof Village",
+   "body": "Rather than lingering in the relative comfort of the capital mesas, Baine chooses to reside among his kin in Bloodhoof Village. As Cairne advances in age, Baine carries an increasing burden of stewardship, representing the next generation of tauren leadership. He directs braves and visiting allies to combat the unruly Palemane gnolls who pester the borders, and keeps a watchful eye on suspicious outside influences threatening Mulgore's natural balance. Whenever Cairne departs the capital on state affairs, Baine steps forward as the acting leader for the united tribes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defending the Earth Mother",
+   "body": "Beyond territorial border clashes, Baine faces modern encroachers unconcerned with spiritual balance. To the east, the goblin Venture Company cuts deep into the sacred landscape, while dwarven prospectors from Bael Modan dig into ancestral soil at the Bael'dun Digsite. Baine advocates for a firm yet measured response: attempting to warn the miners and destroy their destructive equipment rather than rushing into senseless bloodshed. He recognizes early that disturbing the deep stones will eventually awake enraged earth spirits, threatening anyone who walks the plains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Baine Bloodhoof?",
+   "aliases": [
+    "baine lore",
+    "who is baine",
+    "cairnes son"
+   ],
+   "answer": "Baine is the only son of Cairne Bloodhoof, the High Chieftain of the tauren tribes. He oversees defense and tribal affairs in Bloodhoof Village, stepping in to direct local braves and protect Mulgore while his father rules from Thunder Bluff."
+  },
+  {
+   "q": "Where can Baine be found right now?",
+   "aliases": [
+    "baine location",
+    "where is baine",
+    "baine bloodhoof spot"
+   ],
+   "answer": "Baine stands in Bloodhoof Village, situated in central Mulgore just south of Thunder Bluff. He can be found near the town center organizing tasks for newly arrived adventurers."
+  },
+  {
+   "q": "How was Baine rescued from the centaur?",
+   "aliases": [
+    "baine kidnapped",
+    "rexxar saves baine",
+    "baine captured"
+   ],
+   "answer": "Following the Third War, a centaur leader named Khiragg captured Baine, plunging Cairne into debilitating despair. The beastmaster Rexxar sought out Bovan Windtotem's outcasts, tracked the centaur to their encampment, slew the captors, and safely returned Baine to his father."
+  },
+  {
+   "q": "What problems does Baine manage in Bloodhoof Village?",
+   "aliases": [
+    "baine quests",
+    "what does baine do",
+    "bloodhoof village troubles"
+   ],
+   "answer": "Baine coordinates efforts against the aggressive Palemane gnolls harassing local herds and keeps a close watch on foreign invaders, such as the goblin Venture Company and Alliance dwarven excavators disrupting the earth."
+  },
+  {
+   "q": "What is Baine's stance on the Bael'dun dwarven digsite?",
+   "aliases": [
+    "baine dwarves",
+    "bael dun mining",
+    "dwarf digsite mulgore"
+   ],
+   "answer": "Baine believes the violent blasting techniques of the Prospector Khazgorm and his miners harm the spirits of the earth. He seeks to sabotage their industrial tools and scare them off before their reckless digging brings elemental retribution upon the region."
+  },
+  {
+   "q": "Will Baine succeed Cairne as High Chieftain?",
+   "aliases": [
+    "does baine become leader",
+    "future high chieftain",
+    "cairne heir"
+   ],
+   "answer": "As Cairne's beloved son and right-hand advisor, Baine already acts as temporary leader whenever Cairne is away from Thunder Bluff. He is widely considered the natural heir to lead the united tauren tribes in the future."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Baine represents both the honorable lineage of High Chieftain Cairne and the living hope of the young tribes gathered across the plains of Mulgore."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Baine embodies the calm wisdom and quiet martial strength that anchors the tauren within Thrall's Horde, offering guidance to those passing through central Mulgore."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Baine respects the spirits above all else, sending travelers to silence dwarven machines and reckless miners before the fury of the earth elementals is unleashed."
+  }
+ ],
+ "keywords": [
+  "baine",
+  "bloodhoof",
+  "bloodhoof village",
+  "cairne",
+  "centaur",
+  "khiragg",
+  "mulgore",
+  "palemane",
+  "rexxar",
+  "thunder bluff"
+ ],
+ "related": [
+  "subzone:bloodhoof-village",
+  "npc:cairne-bloodhoof",
+  "zone:mulgore",
+  "zone:thunderbluff",
+  "subzone:bael-dun-digsite",
+  "topic:centaur",
+  "topic:tauren",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Baine Bloodhoof"
+ ]
+}

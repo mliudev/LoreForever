@@ -1,0 +1,102 @@
+{
+ "key": "subzone:shadowfang-keep",
+ "type": "subzone",
+ "name": "Shadowfang Keep",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Shadowfang Keep"
+ },
+ "summary": "Perched on a rugged bluff overlooking Pyrewood Village in southern Silverpine Forest, Shadowfang Keep is the dark lair of the mad Archmage Arugal and his feral worgen. Formerly known as Silverlaine Keep, the fortress fell to ravenous wolf-beasts summoned during the Third War, leaving its ancient halls haunted by the slain nobility and crawling with lupine horrors.",
+ "sections": [
+  {
+   "title": "Fall of the Silverlaines",
+   "body": "Before the Third War, this towering fortress was called Silverlaine Keep, the ancestral seat of Baron Silverlaine and the center of authority for nearby Pyrewood Village. When the Scourge swept through Lordaeron, desperate wizards sought forbidden means to stem the undead tide. Relying on the dimensional research of the Dalaran mage Ur, the Archmage Arugal summoned the extra-dimensional worgen into Azeroth. The savage beasts tore through the Scourge, but quickly spiraled out of control. Rampaging across southern Silverpine, the pack besieged the stronghold, slaughtering Baron Silverlaine, his family, and Commander Springvale's defenders. Guilt and grief shattered Arugal's sanity; rather than flee, he claimed the fortress, renaming it Shadowfang Keep and adopting the monstrous predators as his 'children.'",
+   "spoiler": 0
+  },
+  {
+   "title": "A Haunted Bastion",
+   "body": "Today, Shadowfang Keep serves as the epicenter of a growing wolf curse that plagues Silverpine Forest. Arugal dwells in the highest observatory, flanked by his ravenous worgen\u2014including the Moonrage and Shadowfang packs\u2014and sinister beasts like his massive pet wolf, Fenrus. Below his sanctum, the restless ghosts of the keep's former lords, such as Baron Silverlaine and Commander Springvale, remain trapped in torment, cursed to endlessly defend the halls they failed to protect in life. From atop these walls, Arugal extends his insidious influence down into Pyrewood Village and the surrounding woodlands, posing a dire threat to the neighboring Forsaken who seek to purge the forest of his madness.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Shadowfang Keep called before Arugal took over?",
+   "aliases": [
+    "original name",
+    "who used to own shadowfang",
+    "silverlaine keep"
+   ],
+   "answer": "It was originally named Silverlaine Keep. It was the ancestral fortress of Baron Silverlaine, a nobleman whose forces, led by the paladin Commander Springvale, oversaw Pyrewood Village and the surrounding lands before the worgen overrun."
+  },
+  {
+   "q": "Why did Arugal summon the worgen here?",
+   "aliases": [
+    "why did arugal summon worgen",
+    "arugal backstory",
+    "how did worgen get here"
+   ],
+   "answer": "During the Third War, the Scourge was relentlessly crushing the forces of Dalaran and raising slain wizards into undeath. Against the warnings of the Kirin Tor, Archmage Arugal used the research of the wizard Ur to summon extra-dimensional worgen to turn the tide. While they decimated the undead, the beasts quickly turned on the living and ran wild across Silverpine."
+  },
+  {
+   "q": "Who rules Shadowfang Keep right now?",
+   "aliases": [
+    "current master of shadowfang",
+    "who lives in shadowfang keep",
+    "arugal keep"
+   ],
+   "answer": "The keep is held by Archmage Arugal. Driven mad with guilt over releasing the monsters, he embraced the worgen as his own 'children' and rules from the fortress heights alongside his deadly pack."
+  },
+  {
+   "q": "Why are there ghosts in Shadowfang Keep?",
+   "aliases": [
+    "silverlaine ghost",
+    "commander springvale ghost",
+    "undead inside shadowfang"
+   ],
+   "answer": "The ghosts belong to Baron Silverlaine, Commander Springvale, and the keep's former household. When the worgen swarmed the keep and slaughtered everyone inside, the inhabitants' spirits remained bound to the stone, cursed to wander the ruined corridors."
+  },
+  {
+   "q": "What connection does Pyrewood Village have to the keep?",
+   "aliases": [
+    "pyrewood and shadowfang",
+    "pyrewood village curse"
+   ],
+   "answer": "Pyrewood sits in the shadow of the keep and was historically governed by Baron Silverlaine. Under Arugal's creeping influence, the villagers were afflicted with the worgen curse, appearing as ordinary humans by day but transforming into rabid beasts under the night sky."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For the Forsaken, Arugal's worgen are an unpredictable menace sprawling right on the doorstep of the Undercity's outer territory in Silverpine, demanding swift extermination."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Shadowfang Keep stands as a grim reminder of Kirin Tor arrogance, showing the disaster of delving into extra-dimensional summoning without restraint."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "fenrus",
+  "pyrewood",
+  "shadowfang",
+  "silverlaine",
+  "silverpine",
+  "springvale",
+  "worgen"
+ ],
+ "related": [
+  "npc:arugal",
+  "zone:silverpine",
+  "npc:baron-silverlaine",
+  "npc:commander-springvale",
+  "subzone:pyrewood-village",
+  "topic:worgen",
+  "quest:1014",
+  "subzone:greymane-wall"
+ ],
+ "attribution": [
+  "Shadowfang Keep"
+ ]
+}

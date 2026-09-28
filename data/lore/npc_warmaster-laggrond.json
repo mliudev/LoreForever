@@ -1,0 +1,111 @@
+{
+ "key": "npc:warmaster-laggrond",
+ "type": "npc",
+ "name": "Warmaster Laggrond",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Warmaster Laggrond",
+  "refs": 3
+ },
+ "summary": "Warmaster Laggrond is a seasoned orc commander stationed outside the Horde entrance to Alterac Valley in the Alterac Mountains. He oversees recruitment and frontline recognition for warriors answering the call to aid the Frostwolf clan. Through his trials, fighters prove their mettle and earn the respect of the Horde vanguard.",
+ "sections": [
+  {
+   "title": "Frontline Commander",
+   "body": "Standing watch in the bitter cold at the threshold of Alterac Valley, Warmaster Laggrond organizes the Horde's war effort against the Stormpike Expedition. He ensures that only capable fighters enter the valley to represent the Frostwolf clan and the wider Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Path of Honor",
+   "body": "Laggrond tests arriving combatants through the Proving Grounds before directing them into the thick of battle. As warriors spill blood across the frozen peaks, it is Laggrond who measures their standing, bestowing honors upon those who earn renown among the Frostwolves.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Warmaster Laggrond located?",
+   "aliases": [
+    "laggrond location",
+    "where is laggrond",
+    "alterac valley entrance warmaster"
+   ],
+   "answer": "Warmaster Laggrond is posted near the Horde encampment at the entrance portal to Alterac Valley, high in the snowy passes of the Alterac Mountains north of Hillsbrad Foothills."
+  },
+  {
+   "q": "What is Warmaster Laggrond's role?",
+   "aliases": [
+    "what does laggrond do",
+    "laggrond purpose",
+    "why talk to laggrond"
+   ],
+   "answer": "He serves as a recruitment officer and battlemaster for the Horde's Alterac Valley war effort, assessing recruits through initial combat trials and rewarding those who achieve standing with the Frostwolf clan."
+  },
+  {
+   "q": "What is the Proving Grounds quest?",
+   "aliases": [
+    "proving grounds horde",
+    "laggrond initial quest"
+   ],
+   "answer": "The Proving Grounds is the trial given by Laggrond to prospective fighters, directing them into the valley to prove their capability in battle before they fully join the clan's campaigns."
+  },
+  {
+   "q": "Why is the Horde fighting in Alterac Valley?",
+   "aliases": [
+    "why alterac valley",
+    "frostwolf war",
+    "alterac valley conflict"
+   ],
+   "answer": "The Frostwolf clan has long claimed the valley as their home after being exiled during the First War. The Stormpike Guard, an Alliance dwarven expedition, has pushed into the region searching for relics and territory, sparking a bitter territorial war."
+  },
+  {
+   "q": "Does Warmaster Laggrond offer reputation rewards?",
+   "aliases": [
+    "frostwolf reputation turn in",
+    "rise and be recognized",
+    "laggrond rep"
+   ],
+   "answer": "Yes. As you earn renown fighting beside the Frostwolves, Laggrond provides successive honors, acknowledging warriors as they advance from recognized fighters to exalted legends of the valley."
+  },
+  {
+   "q": "Can Alliance players interact with Warmaster Laggrond?",
+   "aliases": [
+    "can alliance talk to laggrond",
+    "laggrond hostile"
+   ],
+   "answer": "No. Warmaster Laggrond is a devoted champion of the Horde and will attack any Alliance trespassers who approach his outpost in the mountains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Warmaster Laggrond serves as your initial point of contact for the Alterac Valley war effort, acknowledging your battlefield achievements on behalf of the Frostwolf clan."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs, answering Laggrond's summons is a matter of heritage, defending the ancestral refuge of the venerable Frostwolf clan from dwarven intrusion."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Laggrond values raw frontline courage and tests prospective champions to ensure they can hold the line against heavy dwarven armor and vanguard charges."
+  }
+ ],
+ "keywords": [
+  "alterac mountains",
+  "alterac valley",
+  "frostwolf",
+  "laggrond",
+  "proving grounds",
+  "pvp",
+  "stormpike",
+  "warmaster laggrond"
+ ],
+ "related": [
+  "zone:alterac",
+  "quest:7161",
+  "topic:horde",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Warmaster Laggrond"
+ ]
+}

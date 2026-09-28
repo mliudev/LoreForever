@@ -1,0 +1,120 @@
+{
+ "key": "npc:asterion",
+ "type": "npc",
+ "name": "Asterion",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Asterion",
+  "refs": 4
+ },
+ "summary": "Asterion is an ancient Highborne spirit bound to the ruins of Bashal'Aran in Darkshore. Once the trusted second to governor Athrikus Narassin ten millennia ago, he was mysteriously imprisoned in a magical moonstone seal that held him through mortal life and into the afterlife. Today, his specter remains shackled to the ruined shrine, surrounded by demonic beasts and dreaming of liberation.",
+ "sections": [
+  {
+   "title": "A Servant of Ancient Splendor",
+   "body": "Before the Great Sundering shattered ancient Kalimdor, Bashal'Aran and Ameth'Aran were sister cities blessed by Queen Azshara herself. Azshara appointed Athrikus Narassin to govern the twin settlements, and Asterion served as his right hand. Respected for both his physical combat prowess and his command of arcane sorcery, Asterion lived among the people of Bashal'Aran while frequently traveling between the sister cities to manage the needs of their citizens.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Moonstone Prison",
+   "body": "For reasons lost to time, Asterion fell out of favor with his master. Athrikus fashioned a powerful moonstone seal, forging an inescapable magical cage to confine Asterion within Bashal'Aran. The imprisonment stretched through centuries of agonizing confinement; worse still, when Asterion finally perished, he discovered death offered no release. His spirit remained bound to the ruined shrine, left behind when the world cracked open and demons overran the ancient settlement.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vengeance from the Grave",
+   "body": "Though vile satyrs and grells roam the ruins of Bashal'Aran feeding on residual arcane power, they shun the shrine where Asterion's ghost lingers. If an Alliance adventurer retrieves the moonstone seal from the satyrs and shatters it in Ameth'Aran, Asterion's spectral chains finally break. Yet freedom does not bring him peace; sensing that Athrikus Narassin still endures, the ancient mage turns his thoughts from ten thousand years of despair toward vengeance.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Asterion?",
+   "aliases": [
+    "asterion lore",
+    "who is the ghost in bashal'aran",
+    "ghost elf darkshore"
+   ],
+   "answer": "Asterion is an ancient Highborne ghost found at the ruins of Bashal'Aran in Darkshore. Before the Sundering, he was an accomplished mage and the second-in-command to governor Athrikus Narassin."
+  },
+  {
+   "q": "Why is Asterion imprisoned?",
+   "aliases": [
+    "why is asterion trapped",
+    "asterion prison",
+    "why did athrikus trap asterion"
+   ],
+   "answer": "Athrikus Narassin bound Asterion using a magical moonstone seal. The exact reasons for their falling out remain unknown, but the sorcery was so potent that even Asterion's death failed to break the enchantment, trapping his ghost for millennia."
+  },
+  {
+   "q": "Why don't the satyrs in Bashal'Aran attack him?",
+   "aliases": [
+    "do satyrs attack asterion",
+    "why demons leave asterion alone"
+   ],
+   "answer": "While the satyrs and grells in the ruins feast on the lingering arcane energies of Bashal'Aran, they keep their distance from the shrine where Asterion is bound. They held possession of the moonstone seal that anchors his captivity rather than meddling directly with his spirit."
+  },
+  {
+   "q": "Where did Asterion live in life?",
+   "aliases": [
+    "asterion home",
+    "where was asterion from"
+   ],
+   "answer": "Asterion made his home among the people of Bashal'Aran, traveling frequently south to its twin city of Ameth'Aran to tend to civic affairs under the authority of Queen Azshara's governor."
+  },
+  {
+   "q": "What happens after you free him?",
+   "aliases": [
+    "what happens to asterion",
+    "does asterion move on",
+    "asterion vengeance"
+   ],
+   "answer": "Once his seal is shattered in Ameth'Aran, Asterion is finally released from his agonizing spectral prison. However, instead of passing peacefully into the afterlife, he realizes that his old tormentor Athrikus still lives and turns his focus toward revenge."
+  },
+  {
+   "q": "Is Asterion hostile to modern night elves?",
+   "aliases": [
+    "is asterion friendly",
+    "asterion alliance"
+   ],
+   "answer": "No. Despite being an ancient Highborne from Queen Azshara's court, Asterion is peaceful toward Alliance travelers and seeks their assistance in breaking his ancient magical bondage."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Asterion is a tragic relic from before the Sundering, showing the cruel internal politics that consumed the Highborne even before Azshara invited the Burning Legion into their lands."
+  },
+  {
+   "target": "class:Mage",
+   "text": "In life, Asterion was celebrated for his mastery of the arcane alongside his prowess in physical combat, making him an intriguing study in early Kaldorei spellcraft."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Asterion is one of the rare Highborne spirits willing to trust and aid Alliance adventurers, seeking their help to break his ten-thousand-year-old prison."
+  }
+ ],
+ "keywords": [
+  "ameth'aran",
+  "asterion",
+  "athrikus",
+  "bashal'aran",
+  "darkshore",
+  "highborne",
+  "moonstone",
+  "narassin",
+  "satyr"
+ ],
+ "related": [
+  "quest:954",
+  "zone:darkshore",
+  "subzone:ameth-aran",
+  "topic:highborne",
+  "topic:satyr",
+  "topic:night-elf",
+  "topic:alliance",
+  "zone:azshara"
+ ],
+ "attribution": [
+  "Asterion"
+ ]
+}

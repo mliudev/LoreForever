@@ -1,0 +1,118 @@
+{
+ "key": "quest:3107",
+ "type": "quest",
+ "name": "Consecrated Rune",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   3107
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "Sten Stoutarm",
+  "end": "Bromos Grummner",
+  "previous": null,
+  "next": null,
+  "wiki": "Consecrated Rune (Classic)",
+  "chain": []
+ },
+ "summary": "The Consecrated Rune is an introductory summons delivered to fledgling dwarven paladins in Coldridge Valley. Passed along by Sten Stoutarm on behalf of Bromos Grummner, it marks an initiate's formal induction into the Knights of the Silver Hand.",
+ "sections": [
+  {
+   "title": "A Summons to Anvilmar",
+   "body": "While novice adventurers clear out troggs and wolves around Coldridge Valley, the local leaders keep a close eye on those who display a gift for divine martial prowess. Sten Stoutarm delivers this inscribed rune to young paladins, instructing them to seek out Bromos Grummner inside the warmth of Anvilmar. It serves as both an invitation and an official notice that raw potential must now be tempered with discipline.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dwarves and the Holy Light",
+   "body": "Though the Knights of the Silver Hand originated among the humans of Lordaeron, Ironforge dwarves embraced the philosophy of the Holy Light with fierce devotion. Bromos Grummner welcomes initiates into the brotherhood, reminding them that dwarven paladins now share the solemn duty of protecting Azeroth. Grounded in sacrifice, tradition, and martial virtue, the order demands that recruits take up hammer and faith in equal measure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Consecrated Rune?",
+   "aliases": [
+    "consecrated rune item",
+    "what does the rune do",
+    "paladin rune coldridge"
+   ],
+   "answer": "It is an inscribed token delivered to novice dwarven paladins in Coldridge Valley, instructing them to report to Bromos Grummner inside Anvilmar for formal training."
+  },
+  {
+   "q": "Who is Bromos Grummner?",
+   "aliases": [
+    "who is bromos",
+    "paladin trainer anvilmar",
+    "bromos grummner lore"
+   ],
+   "answer": "Bromos Grummner is the resident paladin trainer stationed in Anvilmar. He instructs new dwarven members of the Knights of the Silver Hand and prepares them for the perils threatening Dun Morogh."
+  },
+  {
+   "q": "Why are dwarves part of the Knights of the Silver Hand?",
+   "aliases": [
+    "dwarf paladin lore",
+    "why do dwarves have paladins",
+    "silver hand dwarves"
+   ],
+   "answer": "During the Second War and its aftermath, human priests and paladins introduced the tenets of the Holy Light to the dwarves of Ironforge. Dwarves deeply respect the order's martial discipline and willingness to sacrifice for the defense of Azeroth."
+  },
+  {
+   "q": "Who gives you the Consecrated Rune?",
+   "aliases": [
+    "where do i get the rune",
+    "who hands you the rune"
+   ],
+   "answer": "Sten Stoutarm passes the rune to you outside Anvilmar after you assist him with local tasks, noting that Bromos Grummner asked for it to be delivered."
+  },
+  {
+   "q": "Where is Bromos Grummner located?",
+   "aliases": [
+    "bromos location",
+    "where is bromos",
+    "find bromos grummner"
+   ],
+   "answer": "Bromos Grummner can be found inside the great hall of Anvilmar in Coldridge Valley, standing alongside other class mentors."
+  },
+  {
+   "q": "What happens after presenting the rune to Bromos?",
+   "aliases": [
+    "what comes next",
+    "after consecrated rune"
+   ],
+   "answer": "Bromos acknowledges your acceptance into the Silver Hand and offers your first formal combat and holy training before sending you back out into Dun Morogh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "This rune marks your first formal step into the Knights of the Silver Hand, establishing your duty to channel the Light in defense of Ironforge."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven paladins combine traditional dwarven fortitude with human-taught theology, bringing stalwart resolve to the teachings of the Holy Light."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "bromos grummner",
+  "coldridge valley",
+  "consecrated rune",
+  "holy light",
+  "paladin trainer",
+  "silver hand",
+  "sten stoutarm"
+ ],
+ "related": [
+  "npc:bromos-grummner",
+  "npc:sten-stoutarm",
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "topic:light",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Consecrated Rune (Classic)"
+ ]
+}

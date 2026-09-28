@@ -1,0 +1,91 @@
+{
+ "key": "npc:drusilla-la-salle",
+ "type": "npc",
+ "name": "Drusilla La Salle",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Drusilla La Salle",
+  "refs": 1
+ },
+ "summary": "Drusilla La Salle is a human warlock trainer situated in the shadowed graveyard outside Northshire Abbey. Operating on the fringes of the Holy Order of Northshire, she mentors fledgling spellcasters in the dark arts of summoning and shadow. When forbidden knowledge slips beyond the abbey walls, she does not hesitate to use opportunism and dark magic to claim it.",
+ "sections": [
+  {
+   "title": "Shadows in Holy Ground",
+   "body": "While paladins and priests practice beneath the stained glass of Northshire Abbey, Drusilla La Salle remains outdoors among the headstones of the graveyard. Practicing demonology and fel magic is deeply taboo within the kingdom of Stormwind, forcing warlocks to dwell on the periphery of polite society. Drusilla provides early instruction to novice warlocks who have received tainted correspondence, teaching them how to harness shadow power without drawing the immediate wrath of abbey authorities.",
+   "spoiler": 0
+  },
+  {
+   "title": "Powers of the Void",
+   "body": "Northshire Abbey\u2019s library wing secretly preserves several hazardous and forbidden tomes, including 'Powers of the Void'. Drusilla long covets the manuscript, but a warlock loitering in the secure archives would provoke immediate suspicion. Her chance arrives when an apostate novice flees the abbey to join the Defias Brotherhood, taking the text with him. Taking advantage of the theft, Drusilla dispatches her apprentices to hunt the turncoat down and deliver the grimoire into her hands under the pretense of recovering abbey property.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is a warlock allowed near Northshire Abbey?",
+   "aliases": [
+    "why is drusilla at abbey",
+    "warlock in holy abbey",
+    "why is she in the graveyard"
+   ],
+   "answer": "Warlocks are viewed with deep distrust by the Church of the Holy Light and Stormwind's leadership. Drusilla La Salle stays outside the abbey proper, secluded in the nearby graveyard where she conducts her instruction away from the devout priests and clerics studying inside."
+  },
+  {
+   "q": "What book is Drusilla trying to obtain?",
+   "aliases": [
+    "what book does she want",
+    "powers of the void book",
+    "the stolen tome quest book"
+   ],
+   "answer": "She seeks a grimoire titled 'Powers of the Void'. It was originally locked away in a protected section of Northshire Abbey's Library Wing, far out of reach of open warlock investigation until a Defias defector stole it."
+  },
+  {
+   "q": "Who stole the book from the library?",
+   "aliases": [
+    "who took the tome",
+    "defias book thief",
+    "who stole powers of the void"
+   ],
+   "answer": "A novice studying at Northshire Abbey broke his vows, allied with the Defias Brotherhood, and plundered the tome before fleeing to a nearby camp in Northshire Valley."
+  },
+  {
+   "q": "What role does she play for new human warlocks?",
+   "aliases": [
+    "human warlock trainer northshire",
+    "who trains warlocks in northshire"
+   ],
+   "answer": "Drusilla acts as the very first trainer for human warlocks, accepting tainted letters sent to recruits and instructing them in basic curses and summoned servitors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Drusilla serves as your first mentor in the dark arts, guiding you toward practical mastery of curses and fel summoning while teaching you to keep your ambition hidden in plain sight."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Standing outside the holy halls of Northshire, Drusilla represents the dark inversion of your calling, trafficking in shadow and demonic pacts right beside the consecrated graveyard."
+  }
+ ],
+ "keywords": [
+  "abbey",
+  "drusilla la salle",
+  "graveyard",
+  "northshire",
+  "powers of the void",
+  "stolen tome",
+  "warlock trainer"
+ ],
+ "related": [
+  "quest:1598",
+  "subzone:northshire-abbey",
+  "subzone:northshire-valley",
+  "subzone:library-wing-northshire",
+  "topic:defias-brotherhood",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Drusilla La Salle"
+ ]
+}

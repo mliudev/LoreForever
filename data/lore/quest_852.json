@@ -1,0 +1,136 @@
+{
+ "key": "quest:852",
+ "type": "quest",
+ "name": "Hezrul Bloodmark",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   852
+  ],
+  "level": "19",
+  "faction": "Horde",
+  "start": "Regthar Deathgate",
+  "end": "",
+  "previous": "Verog the Dervish (Classic)",
+  "next": "Counterattack! (Classic)",
+  "wiki": "Hezrul Bloodmark (Classic)",
+  "chain": [
+   "Kolkar Leaders (Classic)",
+   "Verog the Dervish (Classic)",
+   "Hezrul Bloodmark (Classic)",
+   "Counterattack! (Classic)"
+  ]
+ },
+ "summary": "Hezrul Bloodmark is a mission assigned by the orc veteran Regthar Deathgate to eliminate the overall warlord of the Kolkar centaur in the Barrens. By claiming Hezrul's head at the Lushwater Oasis, the Horde aims to shatter the invaders' command hierarchy once and for all.",
+ "sections": [
+  {
+   "title": "Decapitating the Kolkar",
+   "body": "Following the deaths of Barak Kodobane and Verog the Dervish, only one paramount chieftain remains among the Barrens Kolkar: Hezrul Bloodmark. Regthar Deathgate identifies Hezrul as the brutal and cunning spearhead orchestrating the centaur incursions across the savanna. Striking down Hezrul is intended to sow chaos and fracture their ranks beyond recovery, cutting the head from an already volatile beast before they can overwhelm Horde settlements.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Lushwater Stronghold",
+   "body": "Hezrul commands his warbands from Lushwater Oasis, located south of the Crossroads. Control over the few watering holes in the Barrens is essential for survival, making the oasis a strategic hub and staging ground for Kolkar raiding parties. In confronting Hezrul on his own territory, Horde champions deny the centaur their most vital redoubt and sever their grip on the region's southern trails.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Dangerous Aftermath",
+   "body": "While Regthar commends the victory over Hezrul, noting that the centaur lack the focused discipline of the orcs, the assassination does not pacify the clan quietly. Instead of scattering peacefully, the enraged Kolkar rally their remaining forces to stage a desperate, full-scale assault directly against Regthar's encampment in a bid for bloody vengeance.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hezrul Bloodmark?",
+   "aliases": [
+    "who is hezrul",
+    "hezrul bloodmark lore",
+    "centaur leader barrens"
+   ],
+   "answer": "Hezrul Bloodmark is the supreme chieftain of the Kolkar centaur operating within the Barrens. Recognized by the Horde as fierce, cunning, and brutal, he directs the various clans and raiders from his stronghold at Lushwater Oasis."
+  },
+  {
+   "q": "Where can Hezrul Bloodmark be found?",
+   "aliases": [
+    "where is hezrul",
+    "hezrul location",
+    "where to find hezrul"
+   ],
+   "answer": "Hezrul patrols the southern Barrens around the shores of the Lushwater Oasis, south of the Crossroads, flanked by his Kolkar bodyguards."
+  },
+  {
+   "q": "Who gives the quest to kill Hezrul?",
+   "aliases": [
+    "who gives hezrul bloodmark",
+    "regthar deathgate quest",
+    "quest giver hezrul"
+   ],
+   "answer": "Regthar Deathgate, an orc warrior stationed at a small camp west of the Crossroads along the road toward the Stonetalon Mountains, assigns the task."
+  },
+  {
+   "q": "Why does the Horde want Hezrul dead?",
+   "aliases": [
+    "why kill hezrul",
+    "hezrul bloodmark purpose",
+    "kolkar threat barrens"
+   ],
+   "answer": "The Kolkar continually threaten the Horde's trade routes and settlements. Regthar believes that eliminating their head chieftain will fracture the clan's unity and drastically reduce their ability to wage coordinated war."
+  },
+  {
+   "q": "What happens after Hezrul is slain?",
+   "aliases": [
+    "counterattack after hezrul",
+    "what happens next",
+    "consequences of killing hezrul"
+   ],
+   "answer": "Rather than surrendering, the surviving Kolkar unite in blind fury and launch an immediate counterattack against Regthar Deathgate's outpost west of the Crossroads."
+  },
+  {
+   "q": "How does Hezrul relate to Barak and Verog?",
+   "aliases": [
+    "barak verog hezrul",
+    "kolkar chieftains",
+    "three centaur leaders"
+   ],
+   "answer": "Barak Kodobane and Verog the Dervish were subordinate Kolkar leaders overseeing individual oases and warbands, while Hezrul Bloodmark stood as the paramount leader commanding the entire clan across the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Regthar Deathgate views the battle against the Kolkar through the lens of orcish warfare, noting that while the centaur are fierce, their wild fury lacks the iron discipline honed by the Horde."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For generations, the nomadic tauren suffered brutal displacement and bloodshed at the hands of the centaur; putting an end to warlords like Hezrul brings hard-earned retribution."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing the Crossroads and the Barrens requires breaking the centaur stranglehold on the three major oases that sustain regional travel."
+  }
+ ],
+ "keywords": [
+  "bloodmark",
+  "centaur",
+  "crossroads",
+  "deathgate",
+  "hezrul",
+  "kolkar",
+  "lushwater",
+  "oasis",
+  "regthar"
+ ],
+ "related": [
+  "quest:851",
+  "quest:4021",
+  "quest:850",
+  "subzone:lushwater-oasis",
+  "subzone:crossroads",
+  "zone:barrens",
+  "topic:centaur"
+ ],
+ "attribution": [
+  "Hezrul Bloodmark (Classic)"
+ ]
+}

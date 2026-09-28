@@ -1,0 +1,83 @@
+{
+ "key": "subzone:sishir-canyon",
+ "type": "subzone",
+ "name": "Sishir Canyon",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Sishir Canyon"
+ },
+ "summary": "Sishir Canyon is a rugged gorge in the Stonetalon Mountains, carving an eastward path through the craggy heights. Thickly swarmed by monstrous Deepmoss spiders and choked in webbing, it serves as the dangerous approach to the Ruins of Eldre'thar. Travelers who brave its tangled depths must contend with venomous arachnids and their brooding matriarch.",
+ "sections": [
+  {
+   "title": "The Webbed Pass",
+   "body": "Branching off the mountain roads of the Stonetalon range, Sishir Canyon is a treacherous natural corridor cutting toward the ancient Ruins of Eldre'thar. Rather than a quiet mountain trail, the gorge has been thoroughly overrun by Deepmoss spiders. Their sticky silken sheets and clusters of egg sacs smother the stony ground and rock walls, transforming the ravine into a living nest. Travelers and sentinels seeking the night elven ruins beyond must cut their way through swarms of aggressive webspinners.",
+   "spoiler": 0
+  },
+  {
+   "title": "Besseleth's Domain",
+   "body": "Lurking in the deepest recess of the canyon is Besseleth, the massive and deadly matriarch of the Deepmoss brood. Her venom and monstrous size make her a terror to anyone attempting to secure the pass. Local forces in Stonetalon keep a wary watch on the canyon, warning adventurers that venturing into the webbed recesses means facing not just scattered spiders, but an apex predator fiercely guarding her brood.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Sishir Canyon?",
+   "aliases": [
+    "where is sishir canyon",
+    "sishir canyon location"
+   ],
+   "answer": "Sishir Canyon is a spider-infested gorge in the Stonetalon Mountains that winds from the main mountain paths toward the ancient Ruins of Eldre'thar."
+  },
+  {
+   "q": "What creatures live in the canyon?",
+   "aliases": [
+    "monsters in sishir canyon",
+    "spiders in stonetalon canyon"
+   ],
+   "answer": "The canyon is thoroughly claimed by predatory Deepmoss spiders. The arachnids have coated the ravine in dense webbing and egg sacs, preying on anything that enters their territory."
+  },
+  {
+   "q": "Who is Besseleth?",
+   "aliases": [
+    "besseleth location",
+    "giant spider sishir canyon"
+   ],
+   "answer": "Besseleth is the formidable spider matriarch dwelling deep within Sishir Canyon. She leads the Deepmoss brood and poses the greatest threat to travelers passing through the area."
+  },
+  {
+   "q": "Where does Sishir Canyon lead?",
+   "aliases": [
+    "what is at the end of sishir canyon",
+    "path through sishir canyon"
+   ],
+   "answer": "Following the canyon eastward leads directly out to the Ruins of Eldre'thar, an ancient night elven site tucked high in the mountains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The overrun canyon cuts off easy, safe passage to the ancestral Ruins of Eldre'thar, requiring Kaldorei sentinels and scholars to fight through dense spider nests to reach their heritage."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The dangerous webbing and venomous Deepmoss spiders make Sishir Canyon a demanding testing ground for hunters tracking and trapping wild beasts in tight ravine quarters."
+  }
+ ],
+ "keywords": [
+  "besseleth",
+  "deepmoss",
+  "eldre'thar",
+  "sishir canyon",
+  "spiders",
+  "stonetalon",
+  "webbing"
+ ],
+ "related": [
+  "zone:stonetalon",
+  "subzone:ruins-of-eldre-thar"
+ ],
+ "attribution": [
+  "Sishir Canyon"
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "key": "npc:farmer-saldean",
+ "type": "npc",
+ "name": "Farmer Saldean",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Farmer Saldean",
+  "refs": 1
+ },
+ "summary": "Farmer Saldean is a resilient human homesteader residing at Saldean's Farm in central Westfall alongside his wife, Salma. Unlike many neighboring farmers who fled or gave up, Saldean stubbornly tends his troubled fields in the face of rogue harvest golems and mounting banditry.",
+ "sections": [
+  {
+   "title": "Holding the Plow",
+   "body": "Farmer Saldean remembers when Westfall was considered the lushest breadbasket this side of Stranglethorn Vale. Those prosperous years have crumbled into dust. Surrounded by overgrown fields, rampaging mechanical harvest watchers, and predatory bandits, Saldean refuses to yield his land. While other homesteaders abandoned their acres or turned to thievery, he and his wife Salma remain determined to harvest what little grain they can. Driven to practical desperation, he recruits wandering adventurers to dismantle the rogue harvest golems scouring his fields so he can salvage their parts and clear his soil for planting.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scythe of Westfall",
+   "body": "Saldean's stubborn defense of his homestead makes him one of the few surviving anchors of civilian life between Sentinel Hill and the northern bridge. Despite his harsh circumstances, he maintains ties with the People's Militia, sending able-bodied travelers along to Gryan Stoutmantle once his own immediate troubles are settled. Saldean knows all too well that clearing out wild harvest reapers will only buy his farm temporary reprieve unless the broader lawlessness strangling the countryside is dealt with.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Farmer Saldean?",
+   "aliases": [
+    "saldean",
+    "who is saldean",
+    "saldean npc"
+   ],
+   "answer": "Saldean is a veteran human farmer residing at Saldean's Farm in Westfall with his wife, Salma. He is one of the few local homesteaders stubbornly refusing to abandon his soil despite famine, rogue harvest golems, and the region's spiraling banditry."
+  },
+  {
+   "q": "Why is Farmer Saldean's farm in trouble?",
+   "aliases": [
+    "why are harvest golems attacking",
+    "saldean farm problem"
+   ],
+   "answer": "Westfall's automated harvest golems have malfunctioned and gone wild, prowling the cropland and attacking anyone in sight. Saldean needs adventurers to hunt down the mechanical watchers and reap their parts so he can reclaim his wheat fields."
+  },
+  {
+   "q": "Where can Farmer Saldean be found?",
+   "aliases": [
+    "saldean location",
+    "where is saldean",
+    "saldean farm location"
+   ],
+   "answer": "He is located outside his farmhouse at Saldean's Farm, situated right off the main road in central Westfall, just north of Sentinel Hill."
+  },
+  {
+   "q": "Does Saldean support the People's Militia?",
+   "aliases": [
+    "saldean gryan stoutmantle",
+    "saldean militia"
+   ],
+   "answer": "Yes. While Saldean focuses entirely on defending his crops and home, he directs capable adventurers down the road to Gryan Stoutmantle at Sentinel Hill to assist the People's Militia in defending the region."
+  },
+  {
+   "q": "What unique items does Saldean sell?",
+   "aliases": [
+    "saldean vendor",
+    "special chicken feed vendor"
+   ],
+   "answer": "Saldean sells staple bread and is the primary purveyor of Special Chicken Feed, a curious grain sought after by travelers hoping to befriend the local fowl wandering Westfall."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Saldean exemplifies the stubborn resolve of Westfall's remaining loyalists, clinging to Kingdom soil even when the crown's soldiers are nowhere to be seen."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Farmers like Saldean are the crumbling backbone of Stormwind's food supply; securing his crop keeps basic bread on tables across the kingdom."
+  }
+ ],
+ "keywords": [
+  "chicken feed",
+  "farmer saldean",
+  "harvest watcher",
+  "saldean",
+  "saldean's farm",
+  "salma",
+  "the killing fields",
+  "westfall"
+ ],
+ "related": [
+  "subzone:saldean-s-farm",
+  "quest:9",
+  "quest:109",
+  "npc:gryan-stoutmantle",
+  "zone:westfall",
+  "topic:stormwind-kingdom",
+  "topic:defias-brotherhood",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Farmer Saldean"
+ ]
+}

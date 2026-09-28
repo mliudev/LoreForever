@@ -1,0 +1,83 @@
+{
+ "key": "subzone:tower-of-eldara",
+ "type": "subzone",
+ "name": "Tower of Eldara",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Tower of Eldara"
+ },
+ "summary": "The Tower of Eldara is an ancient, sealed night elven spire situated on the far northeastern promontory overlooking the Bay of Storms in Azshara. Though long abandoned, its sturdy stone architecture has survived the Sundering, standing silent above coasts roamed by aggressive coastal beasts.",
+ "sections": [
+  {
+   "title": "A Relic of Ancient Azshara",
+   "body": "Perched on a remote cliff edge northeast of the Bay of Storms, the Tower of Eldara stands as a lonely testament to the vast kaldorei empire that once dominated this coastline. Like much of Azshara's ruined architecture, it fell into disuse following the Great Sundering thousands of years ago. Today, the entrance remains firmly closed and barred against the outside world, giving no hint of whatever relics or chambers lie sealed inside. The surrounding shores are fraught with danger, prowled constantly by wandering murlocs, clawing makrura, and predatory hydras that keep all but the most daring travelers away.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Tower of Eldara?",
+   "aliases": [
+    "tower of eldara lore",
+    "what is this tower",
+    "eldara tower"
+   ],
+   "answer": "It is an ancient night elven tower located on the northeastern cliff edge of Azshara, overlooking the Bay of Storms. It was built prior to the Great Sundering as part of the sprawling kaldorei empire that once spanned the region."
+  },
+  {
+   "q": "Can you enter the Tower of Eldara?",
+   "aliases": [
+    "can i go inside tower of eldara",
+    "how to open tower of eldara",
+    "is the tower open"
+   ],
+   "answer": "No. The tower stands closed and firmly sealed against outsiders. Whatever chambers or vaults remain intact within are barred from modern explorers."
+  },
+  {
+   "q": "What threats wander around the tower?",
+   "aliases": [
+    "mobs near tower of eldara",
+    "enemies around eldara",
+    "bay of storms creatures"
+   ],
+   "answer": "The rocky bluffs and nearby sandy beaches surrounding the promontory are heavily patrolled by hostile murlocs, armored makrura, and coastal hydras."
+  },
+  {
+   "q": "Where exactly is the tower located?",
+   "aliases": [
+    "tower of eldara location",
+    "where is tower of eldara",
+    "how to find eldara"
+   ],
+   "answer": "You can find it on the far eastern tip of land jutting into the Great Sea, just northeast across the waters of the Bay of Storms in Azshara."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The Tower of Eldara is a poignant reminder of the grand empire your ancestors ruled before Queen Azshara and the Highborne shattered the ancient world."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Like many Highborne structures across Azshara, the sealed tower likely once hummed with arcane studies before being locked away from mortal meddling."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "bay of storms",
+  "eldara",
+  "highborne",
+  "kaldorei",
+  "ruins",
+  "tower of eldara"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:bay-of-storms",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Tower of Eldara"
+ ]
+}

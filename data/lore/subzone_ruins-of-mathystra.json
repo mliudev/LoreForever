@@ -1,0 +1,90 @@
+{
+ "key": "subzone:ruins-of-mathystra",
+ "type": "subzone",
+ "name": "Ruins of Mathystra",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Ruins of Mathystra"
+ },
+ "summary": "The Ruins of Mathystra are the crumbled remnants of an ancient night elven city sitting along the northern coast of Darkshore. Shattered during the Great Sundering ten thousand years ago, the coastal ruins are now overrun by hostile Stormscale naga and prowled by elusive Ghost Sabers.",
+ "sections": [
+  {
+   "title": "A City Cast into the Sea",
+   "body": "Ten millennia ago, Mathystra stood as a bustling night elven settlement, home to high-ranking Highborne nobility. When the Well of Eternity collapsed during the Great Sundering, cataclysmic waves shattered the coastal city, toppling its grand marble arches and washing much of its stonework into the sea. The surviving night elves abandoned the ruined city in favor of smaller woodland villages further south, leaving Mathystra's sunken courtyards and cracked foundations to the relentless coastal elements.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Stormscale Vipers and Ghost Sabers",
+   "body": "In the modern era, Mathystra has become a dangerous domain ruled by the Stormscale naga. Creeping up from the dark depths, these serpentine abominations guard the broken halls fiercely, driving away any travelers who venture north past the Tower of Althalaxx. Among the shattered flagstones, ancient Highborne relics still lie half-buried in sand and seafoam. Daring young night elves sometimes brave the naga vipers hoping to recover remnants of their lost heritage, often contending not only with serpent blades but also with the spectral Ghost Sabers that stalk the broken streets.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What used to be here before the ruins?",
+   "aliases": [
+    "mathystra history",
+    "who built mathystra",
+    "what was mathystra"
+   ],
+   "answer": "Mathystra was a thriving night elven city built during the height of the ancient Highborne empire. It was shattered and largely drowned ten thousand years ago during the Great Sundering, when the Well of Eternity exploded and cleaved Kalimdor apart."
+  },
+  {
+   "q": "Who controls the Ruins of Mathystra right now?",
+   "aliases": [
+    "who lives in mathystra",
+    "mathystra mobs",
+    "who is at mathystra"
+   ],
+   "answer": "The ruins are currently occupied by the Stormscale naga, who have emerged from the sea to claim the sunken pavilions and coastlines. They aggressively attack any land-dwellers who intrude upon their territory."
+  },
+  {
+   "q": "What are Ghost Sabers?",
+   "aliases": [
+    "ghost saber mathystra",
+    "glowing cat darkshore",
+    "ghost sabers"
+   ],
+   "answer": "Ghost Sabers are ethereal, translucent felines that haunt the ruined stonework of Mathystra. Hunters often seek them out along the coast, though disturbing the ancient figurines in the area is known to draw these spirits out from the shadows."
+  },
+  {
+   "q": "Why do night elves visit these ruins today?",
+   "aliases": [
+    "mathystra relics",
+    "why go to mathystra"
+   ],
+   "answer": "Young night elves and scholars occasionally venture into the ruins to recover ancient Highborne relics left behind after the Sundering. However, the presence of fierce Stormscale naga makes recovering these historical treasures extremely perilous."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Mathystra stands as a somber monument to the hubris of the ancient Highborne, whose reckless sorcery brought cataclysm down upon their own grand coastal settlements."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The translucent Ghost Sabers prowling among the rubble of Mathystra are renowned beasts for beastmasters seeking a striking companion with ties to the spirit world."
+  }
+ ],
+ "keywords": [
+  "darkshore",
+  "ghost saber",
+  "great sundering",
+  "highborne",
+  "mathystra",
+  "naga",
+  "ruins of mathystra",
+  "stormscale"
+ ],
+ "related": [
+  "zone:darkshore",
+  "subzone:tower-of-althalaxx",
+  "topic:naga",
+  "topic:highborne",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Ruins of Mathystra"
+ ]
+}

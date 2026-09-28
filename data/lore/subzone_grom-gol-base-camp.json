@@ -1,0 +1,93 @@
+{
+ "key": "subzone:grom-gol-base-camp",
+ "type": "subzone",
+ "name": "Grom'gol Base Camp",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Grom'gol Base Camp"
+ },
+ "summary": "Grom'gol Base Camp is the Horde's primary fortified outpost in Stranglethorn Vale, situated along the northern coastline. Commanded by Commander Aggro'gosh, the settlement secures a critical foothold and supply chain in the southern Eastern Kingdoms. With direct zeppelin towers linking to Orgrimmar and the Undercity, it stands as an armed staging ground against local jungle troll tribes and hostile Alliance forces.",
+ "sections": [
+  {
+   "title": "A Bastion in the Jungle",
+   "body": "Carved into the dense jungle of northwestern Stranglethorn Vale, Grom'gol Base Camp is a fortified military bastion commanded by Commander Aggro'gosh. Ringed by defensive palisades and heavily armed grunts, the base camp endures non-stop harassment from Bloodscalp headhunters, lurking naga, and prowling beasts. Despite these threats, its vital strategic location secures safe supply routes north toward Stonard in the Swamp of Sorrows while keeping a watchful eye on Alliance traffic descending from Duskwood or traveling up from Booty Bay.",
+   "spoiler": 0
+  },
+  {
+   "title": "Airbridge of the Horde",
+   "body": "Grom'gol's prominent wooden zeppelin towers serve as one of the most vital logistical hubs in the Eastern Kingdoms. Goblin skycraft tethered here maintain regular routes directly to the capital cities of Orgrimmar and the Undercity. This uninterrupted airbridge allows Horde forces to rapidly deploy reinforcements and resources straight into the heart of Stranglethorn without braving Alliance-dominated highways or the deep sea.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of Grom'gol Base Camp?",
+   "aliases": [
+    "why is gromgol here",
+    "gromgol purpose",
+    "what is gromgol"
+   ],
+   "answer": "Grom'gol serves as the Horde's fortified military staging point in Stranglethorn Vale. Under the command of Commander Aggro'gosh, it establishes a logistical lifeline to the outpost of Stonard in the Swamp of Sorrows and protects Horde interests against hostile jungle trolls and Alliance incursions."
+  },
+  {
+   "q": "How do you travel to and from Grom'gol?",
+   "aliases": [
+    "gromgol zeppelin",
+    "gromgol flight paths",
+    "how to get to gromgol"
+   ],
+   "answer": "Grom'gol is home to major zeppelin towers that offer direct flights to both Orgrimmar in Kalimdor and the Undercity in Tirisfal Glades. It also maintains a bat and wind rider roost connected to the flight network linking Kargath, Stonard, and Booty Bay."
+  },
+  {
+   "q": "Who leads Grom'gol Base Camp?",
+   "aliases": [
+    "gromgol leader",
+    "who runs gromgol",
+    "commander of gromgol"
+   ],
+   "answer": "The outpost is commanded by the orc Commander Aggro'gosh, who oversees the defense of the stockade against hostile native troll tribes, savage wild raptors, and Alliance scouts."
+  },
+  {
+   "q": "What threats does the camp face?",
+   "aliases": [
+    "gromgol enemies",
+    "who attacks gromgol"
+   ],
+   "answer": "Grom'gol is hemmed in on all sides by dangerous adversaries. The Bloodscalp jungle trolls actively hunt along its borders, savage raptors stalk the fields to the north, and Alliance soldiers constantly venture down from Duskwood or up from the port of Booty Bay."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Grom'gol is the primary safe haven and logistical staging area for Horde adventurers navigating the treacherous jungles and contested roads of Stranglethorn Vale."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Grom'gol is a heavily defended enemy bastion that gives the Horde an immediate foothold and rapid zeppelin access deep inside southern Lordaeron's neighboring territories."
+  }
+ ],
+ "keywords": [
+  "aggro'gosh",
+  "grom'gol",
+  "gromgol",
+  "orgrimmar",
+  "stonard",
+  "stranglethorn",
+  "undercity",
+  "zeppelin"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "subzone:stonard",
+  "zone:undercity",
+  "zone:orgrimmar",
+  "subzone:booty-bay",
+  "zone:duskwood",
+  "subzone:kargath",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Grom'gol Base Camp"
+ ]
+}

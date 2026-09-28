@@ -1,0 +1,91 @@
+{
+ "key": "subzone:fuselight-by-the-sea",
+ "type": "subzone",
+ "name": "Fuselight-by-the-Sea",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Fuselight-by-the-Sea"
+ },
+ "summary": "Fuselight-by-the-Sea is a goblin port settlement nestled along the eastern shoreline of the Badlands. Established under the Steamwheedle Cartel banner, it serves as a coastal gateway and testbed for enthusiastic explosives experts.",
+ "sections": [
+  {
+   "title": "A Seaside Haven for Pyrotechnics",
+   "body": "Perched on the rugged coast of the Badlands, Fuselight-by-the-Sea was conceived by the Steamwheedle Cartel as a commercial harbor and coastal outpost. Built by explosives enthusiasts for explosives enthusiasts, the settlement aims to open trade routes while providing ample open water for dangerous experiments. Despite high mercantile hopes, observers like Master Mathias Shaw have noted that establishing a fully functional commercial port against the harsh eastern bluffs remains an uphill battle.",
+   "spoiler": 0
+  },
+  {
+   "title": "Connecting the Coast",
+   "body": "The port maintains close logistical links with Fuselight, its inland sister settlement higher up in the arid bluffs. Goblin ingenuity links the coastal camp to the plateau through advanced teleportation devices, sparing travelers the treacherous cliffs. Between experimental transports and coastal rocket landings, the outpost remains a bustling, if precarious, pocket of neutral enterprise.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Fuselight-by-the-Sea?",
+   "aliases": [
+    "who runs fuselight by the sea",
+    "fuselight-by-the-sea faction",
+    "is fuselight alliance or horde"
+   ],
+   "answer": "Fuselight-by-the-Sea is operated by the Steamwheedle Cartel. Like most goblin-run outposts, it maintains a stance of profitable neutrality, accepting business and travelers from both the Alliance and the Horde."
+  },
+  {
+   "q": "What is the settlement's main purpose?",
+   "aliases": [
+    "why is fuselight by the sea here",
+    "purpose of fuselight-by-the-sea",
+    "fuselight seaside lore"
+   ],
+   "answer": "The outpost was founded as an ambitious effort to establish a functioning trade port in the Badlands, alongside giving reckless goblin tinkerers and explosives enthusiasts a secluded waterfront to test their volatile creations."
+  },
+  {
+   "q": "How is Fuselight-by-the-Sea linked to inland Fuselight?",
+   "aliases": [
+    "how to get to fuselight",
+    "fuselight teleporter",
+    "fuselight transporter"
+   ],
+   "answer": "The coastal camp is directly connected to the inland settlement of Fuselight via a specialized goblin transporter, allowing personnel and cargo to bypass the sheer, impassable cliffs dividing the coast from the plateau."
+  },
+  {
+   "q": "Why do outsiders consider the port a failure?",
+   "aliases": [
+    "failed port badlands",
+    "mathias shaw fuselight",
+    "is fuselight successful"
+   ],
+   "answer": "Alliance intelligence reports, including accounts by Spymaster Mathias Shaw, describe the outpost as a failed attempt at a functional port due to the treacherous shoreline, logistical hurdles, and the goblins' habit of prioritizing dangerous fireworks over stable maritime infrastructure."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "For engineers, this seaside goblin camp is a living monument to experimental pyrotechnics and rapid-transit teleporters, even if safety measures are treated as an afterthought."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though open to neutral trade, Alliance scouts and leaders like Mathias Shaw keep a close watch on goblin developments along the Badlands shore."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "explosives",
+  "fuselight",
+  "fuselight-by-the-sea",
+  "goblins",
+  "port",
+  "steamwheedle cartel"
+ ],
+ "related": [
+  "subzone:fuselight",
+  "zone:badlands",
+  "topic:steamwheedle-cartel",
+  "npc:mathias-shaw",
+  "subzone:light-s-hope-chapel",
+  "zone:easternplaguelands"
+ ],
+ "attribution": [
+  "Fuselight-by-the-Sea"
+ ]
+}

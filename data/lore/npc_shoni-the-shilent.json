@@ -1,0 +1,95 @@
+{
+ "key": "npc:shoni-the-shilent",
+ "type": "npc",
+ "name": "Shoni the Shilent",
+ "era": "classic",
+ "zone": "deadmines",
+ "meta": {
+  "wiki": "Shoni the Shilent",
+  "refs": 2
+ },
+ "summary": "Shoni the Shilent is an industrious gnome engineer stationed in Stormwind City's bustling Dwarven District. As commander of the Gnomeregan underground assault crew, she directs Alliance adventurers to recover stolen gnomish technology from the Defias Brotherhood lurking deep within the Deadmines.",
+ "sections": [
+  {
+   "title": "Commander of the Deep",
+   "body": "Operating out of the smoky workshops of the Dwarven District, Shoni represents gnomish strategic ingenuity far from the lost halls of Gnomeregan. Though quiet in demeanor\u2014earning her the moniker 'the Shilent'\u2014her engineering plans are ambitious. When the Defias Brotherhood absconded with advanced mining apparatuses, Shoni stepped forward to organize a recovery effort, sending operatives into the subterranean tunnels beneath Westfall.",
+   "spoiler": 0
+  },
+  {
+   "title": "Subterranean Reclamation",
+   "body": "Shoni's primary concern in the Deadmines centers on heavy gnomish drilling equipment. The Brotherhood seized gyrodrillmatic excavationators\u2014complex machinery capable of carving out subterranean waterways and iron vaults. Recognizing the immense threat posed by outlaw hands wielding advanced mechanized burrowing tools, she insists on recovering or neutralizing the stolen tech before Edwin VanCleef's workforce can turn it fully against the Kingdom of Stormwind.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Shoni the Shilent?",
+   "aliases": [
+    "who is shoni",
+    "shoni lore",
+    "shoni the shilent npc"
+   ],
+   "answer": "Shoni the Shilent is a gnome quest giver located in Stormwind's Dwarven District. She acts as the commander of the Gnomeregan underground assault crew and coordinates subterranean reclamation missions."
+  },
+  {
+   "q": "Where can I find Shoni?",
+   "aliases": [
+    "where is shoni",
+    "shoni location",
+    "find shoni"
+   ],
+   "answer": "She is stationed among the anvils and workshops of the Dwarven District in Stormwind City, near the blacksmithing and engineering areas."
+  },
+  {
+   "q": "Why is Shoni interested in the Deadmines?",
+   "aliases": [
+    "shoni deadmines",
+    "why send to deadmines",
+    "gyrodrillmatic quest"
+   ],
+   "answer": "The Defias Brotherhood managed to acquire advanced gnomish gyrodrillmatic excavationators for their secretive mining operations. Shoni enlists adventurers to delve into the mines and recover this vital machinery."
+  },
+  {
+   "q": "Why is she called 'the Shilent'?",
+   "aliases": [
+    "shoni nickname",
+    "why shilent",
+    "silent gnome"
+   ],
+   "answer": "Her moniker is a playful gnomish epithet highlighting her focused, understated nature, which stands in stark contrast to the typically noisy, eccentric chatter found among gnomish tinkers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomish heroes, assisting Shoni ensures that stolen Gnomeregan engineering does not remain in the hands of common thieves while their people struggle to reclaim their fallen home."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers can appreciate the sheer mechanical complexity of the gyrodrillmatic excavationators Shoni seeks to recover from the depths of Moonbrook."
+  }
+ ],
+ "keywords": [
+  "deadmines",
+  "dwarven district",
+  "excavationators",
+  "gnome",
+  "gyrodrillmatic",
+  "shilent",
+  "shoni",
+  "stormwind"
+ ],
+ "related": [
+  "subzone:dwarven-district",
+  "zone:stormwind",
+  "zone:deadmines",
+  "quest:2040",
+  "quest:2928",
+  "quest:2041",
+  "topic:gnome",
+  "zone:gnomeregan"
+ ],
+ "attribution": [
+  "Shoni the Shilent"
+ ]
+}

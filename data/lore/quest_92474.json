@@ -1,0 +1,113 @@
+{
+ "key": "quest:92474",
+ "type": "quest",
+ "name": "Falling With Style",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92474
+  ],
+  "level": "2",
+  "faction": null,
+  "start": "Myriaal Mistwake",
+  "end": "Rorian the Dayseeker",
+  "previous": null,
+  "next": null,
+  "wiki": "Falling With Style (Skyborne)",
+  "chain": []
+ },
+ "summary": "\"Falling With Style\" is an introductory rite of passage for young Skyborne in Thendal Village. Offered atop the local watchtower by the mischievous Myriaal Mistwake, it challenges novices to test their innate slow-fall ability by leaping from the platform toward Rorian the Dayseeker below.",
+ "sections": [
+  {
+   "title": "A Leap from the Tower",
+   "body": "Perched high above Thendal Village on Zephras Isle, Myriaal Mistwake invites young Skyborne to test their heritage through a game of daring. Rather than treating their innate magical gifts as sacred relics kept under strict restraint, Myriaal encourages newcomers to leap into the open air from the watchtower ledge. The purpose is practical as well as playful: mastering the instinctive art of walking upon air before life beyond the grove demands it in perilous situations.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Difference in Temperament",
+   "body": "The exercise serves as a vivid demonstration of two contrasting Skyborne attitudes. While Myriaal delights in sudden descents and startles onlookers for amusement, Rorian the Dayseeker embodies traditional caution. When novices glide down to land squarely before him, Rorian admonishes the reckless display, warning that thoughtlessly exhausting one's magical gifts can leave a traveler helpless when danger strikes. Even so, he concedes that controlled practice within the safety of the village has its place.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "what does this quest do",
+    "falling with style purpose",
+    "why do this quest"
+   ],
+   "answer": "The quest teaches novice Skyborne how to handle their innate Walk on Air ability, familiarizing them with controlling slow descents from elevated heights."
+  },
+  {
+   "q": "Who gives the quest and where?",
+   "aliases": [
+    "quest giver",
+    "where to start falling with style",
+    "who gives falling with style"
+   ],
+   "answer": "It is given by Myriaal Mistwake, who waits atop the wooden watchtower overlooking Thendal Village on Zephras Isle."
+  },
+  {
+   "q": "Who do you land in front of?",
+   "aliases": [
+    "who to land near",
+    "who is rorian",
+    "falling with style turn in"
+   ],
+   "answer": "You land near Rorian the Dayseeker, a village elder or guardian who is annoyed by Myriaal's antics but accepts the turn-in."
+  },
+  {
+   "q": "Why is Rorian upset by the jump?",
+   "aliases": [
+    "why is rorian mad",
+    "rorian reaction",
+    "why does rorian scold you"
+   ],
+   "answer": "Rorian believes innate magical gifts should be conserved and treated with discipline, rather than wasted on practical jokes that startle people."
+  },
+  {
+   "q": "What ability is being practiced?",
+   "aliases": [
+    "what ability is used",
+    "walk on air quest",
+    "skyborne racial ability"
+   ],
+   "answer": "It teaches the use of Walk on Air, an innate Skyborne ability that slows a character's descent and prevents falling damage."
+  },
+  {
+   "q": "Where does this take place?",
+   "aliases": [
+    "quest location",
+    "where is thendal village",
+    "what zone is this"
+   ],
+   "answer": "The exercise takes place in Thendal Village, located on Zephras Isle, the ancestral starting grounds of the Skyborne."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "This early trial introduces Skyborne novices to the practical mechanics and cultural debates surrounding their innate wind-walking magic."
+  }
+ ],
+ "keywords": [
+  "falling with style",
+  "myriaal mistwake",
+  "rorian the dayseeker",
+  "slow fall",
+  "thendal village",
+  "walk on air",
+  "watchtower",
+  "zephras isle"
+ ],
+ "related": [
+  "npc:rorian-the-dayseeker",
+  "topic:skyborne",
+  "zone:zephras"
+ ],
+ "attribution": [
+  "Falling With Style (Skyborne)"
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "key": "npc:kin-weelay",
+ "type": "npc",
+ "name": "Kin'weelay",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Kin'weelay",
+  "refs": 4
+ },
+ "summary": "Kin'weelay is a renowned Darkspear witch doctor stationed at Grom'gol Base Camp in Stranglethorn Vale. Dispatched directly from Orgrimmar, he offers mystical aid and counsel to the Horde vanguard in the jungle. His spiritual expertise is vital in unravelling dark mojo and aiding the rescue of young Yenniku.",
+ "sections": [
+  {
+   "title": "A Master of Darkspear Mojo",
+   "body": "Recognized among the Darkspear as one of their most powerful practitioners of traditional witchcraft, Kin'weelay commands deep knowledge of spirits, hexes, and soul magic. When matters involving ancestral spirits or hostile troll enchantments arise, Horde scouts in Stranglethorn Vale look to him to pierce the magical veil.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Mission to Grom'gol",
+   "body": "Kin'weelay was sent south from the dusty streets of Orgrimmar specifically to support Nimboya at Grom'gol Base Camp. His purpose extends beyond simple military support; he focuses on breaking the sinister bindings placed upon Yenniku, the abducted son of Chieftain Vol'jin's trusted bloodline. To undo such dark craft, Kin'weelay seeks powerful reagents\u2014most notably the Mind's Eye\u2014to fashion a soul gem capable of freeing captured spirits.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kin'weelay?",
+   "aliases": [
+    "kinweelay lore",
+    "who is kin'weelay",
+    "gromgol witch doctor"
+   ],
+   "answer": "Kin'weelay is an esteemed Darkspear troll witch doctor stationed at Grom'gol Base Camp in northern Stranglethorn Vale. Known for his mastery of spiritual and soul magic, he was dispatched by the Horde leadership from Orgrimmar."
+  },
+  {
+   "q": "Why is Kin'weelay in Stranglethorn Vale?",
+   "aliases": [
+    "why is kinweelay in gromgol",
+    "kinweelay purpose"
+   ],
+   "answer": "He was sent to Grom'gol Base Camp to lend his mystical talents to Nimboya and the local Darkspear expedition, particularly in finding and restoring young Yenniku from the grip of hostile jungle trolls."
+  },
+  {
+   "q": "What is Kin'weelay trying to create?",
+   "aliases": [
+    "kinweelay minds eye",
+    "what does kinweelay make"
+   ],
+   "answer": "Kin'weelay seeks to acquire a relic known as the Mind's Eye. With his witchcraft, he intends to refine it into a soul gem that can capture and safely preserve the soul of Yenniku, severing the dark control holding the boy."
+  },
+  {
+   "q": "Where does Kin'weelay come from?",
+   "aliases": [
+    "kinweelay background",
+    "where did kinweelay come from"
+   ],
+   "answer": "He traveled from Orgrimmar, where the Darkspear tribe has maintained strong ties and presence since joining the Horde and settling the Echo Isles."
+  },
+  {
+   "q": "How does he view the other troll tribes of Stranglethorn?",
+   "aliases": [
+    "kinweelay other trolls",
+    "kinweelay and bloodscalp"
+   ],
+   "answer": "He views hostile jungle tribes, like the Bloodscalp and Skullsplitter, as dangerous rivals steeped in violent, corrupted rituals. He actively uses his craft to counter their charms and recover stolen Darkspear youth."
+  },
+  {
+   "q": "What kind of items does Kin'weelay study?",
+   "aliases": [
+    "kinweelay items",
+    "singing crystals kinweelay"
+   ],
+   "answer": "Kin'weelay investigates local curiosities possessing natural or hexed resonance, including the mysterious singing crystals and bone necklaces worn by hostile jungle trolls, studying their mojo to devise countermeasures."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls, Kin'weelay represents one of the tribe's most respected spiritual authorities, dedicated to undoing the cruel curses of their jungle kin."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Kin'weelay demonstrates the value of troll spiritualism to the Horde war effort, providing magical counter-strategies against threats that pure strength cannot break."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "grom'gol",
+  "kin'weelay",
+  "kinweelay",
+  "mind's eye",
+  "stranglethorn",
+  "witch doctor",
+  "yenniku"
+ ],
+ "related": [
+  "subzone:grom-gol-base-camp",
+  "zone:stranglethorn",
+  "topic:troll",
+  "topic:horde",
+  "zone:orgrimmar",
+  "subzone:vile-reef"
+ ],
+ "attribution": [
+  "Kin'weelay"
+ ]
+}

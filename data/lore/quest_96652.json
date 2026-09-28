@@ -1,0 +1,115 @@
+{
+ "key": "quest:96652",
+ "type": "quest",
+ "name": "The Adventurer",
+ "era": "forever",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   96652
+  ],
+  "level": "6",
+  "faction": "Horde",
+  "start": "Object #654925",
+  "end": "Brakk",
+  "previous": "",
+  "next": "",
+  "wiki": "The Adventurer (Durotar)",
+  "chain": []
+ },
+ "summary": "While exploring the rugged wastes of Durotar, travelers stumble across a plain, discarded journal chronicling the quiet travels of an unfamiliar figure. Its pages speak warmly of outdoor life and camping out under the stars, awaiting delivery to Brakk near Razor Hill.",
+ "sections": [
+  {
+   "title": "A Wanderer's Notes",
+   "body": "Durotar is a harsh land where survival usually takes precedence over leisurely travel, making the discovery of a wandering chronicler's book an unusual sight. Found lying unattended in the red dirt, the modest journal contains the musings and exploits of someone completely unknown to the common heroes of the Horde. Rather than detailing bloody battles or grand campaigns, its pages dwell on the humble joys of sleeping under the open sky and making camp in the wild.",
+   "spoiler": 0
+  },
+  {
+   "title": "Delivery to Brakk",
+   "body": "Whoever penned the entries left enough of an impression\u2014or connection\u2014to point toward Brakk, an orc stationed near the settlement of Razor Hill. Carrying the personal effects of lost travelers to local scouts and encampment hands is often the only way scattered wanderers are ever reunited with their belongings, or at least remembered by those watching the dusty roads.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the lost journal?",
+   "aliases": [
+    "what does the journal say",
+    "lost journal contents",
+    "journal text"
+   ],
+   "answer": "The book is remarkably ordinary, filled with day-to-day entries detailing the quiet exploits of an obscure adventurer. In particular, it repeatedly highlights the simple joys and fun of setting up camp in the wilderness."
+  },
+  {
+   "q": "Who wrote the journal?",
+   "aliases": [
+    "who is the adventurer",
+    "author of lost journal",
+    "who wrote this book"
+   ],
+   "answer": "The identity of the author remains unnamed in the recovered pages; it describes the life and travels of someone you have never heard of before encountering the book in the wilds."
+  },
+  {
+   "q": "Who is Brakk?",
+   "aliases": [
+    "brakk razor hill",
+    "who is brakk",
+    "where is brakk"
+   ],
+   "answer": "Brakk is an orc located near Razor Hill in central Durotar who takes delivery of the lost journal."
+  },
+  {
+   "q": "Where is the journal found?",
+   "aliases": [
+    "where do i find the journal",
+    "lost journal location",
+    "adventurer quest start"
+   ],
+   "answer": "The plain journal is discovered lying abandoned amidst the terrain of Durotar, waiting for a passing Horde traveler to recover it."
+  },
+  {
+   "q": "Why does Brakk care about this journal?",
+   "aliases": [
+    "why bring it to brakk",
+    "brakk purpose",
+    "brakk journal"
+   ],
+   "answer": "Positioned just outside Razor Hill along Durotar's active trails, Brakk serves as a key contact point for items, reports, and wandering business passing through central Horde territory."
+  },
+  {
+   "q": "Is the adventurer who wrote it in danger?",
+   "aliases": [
+    "is the author alive",
+    "did the adventurer die",
+    "lost adventurer status"
+   ],
+   "answer": "The recovered pages give no indication of foul play, merely containing fond recollections of camping out. However, leaving behind one's travel journal in the red dust of Durotar suggests the writer either dropped it by mistake or moved on unexpectedly."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The arid trails of Durotar are walked by many new recruits; retrieving lost property and reporting back to scouts near Razor Hill helps maintain order along the central frontier."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters who spend their lives surviving off the land can easily relate to the journal's fond, repeated entries on the joys of wilderness camping."
+  }
+ ],
+ "keywords": [
+  "adventurer",
+  "brakk",
+  "camping",
+  "durotar",
+  "journal",
+  "lost journal",
+  "razor hill"
+ ],
+ "related": [
+  "zone:durotar",
+  "subzone:razor-hill"
+ ],
+ "attribution": [
+  "The Adventurer (Durotar)"
+ ]
+}

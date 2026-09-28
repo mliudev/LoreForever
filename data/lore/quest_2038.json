@@ -1,0 +1,140 @@
+{
+ "key": "quest:2038",
+ "type": "quest",
+ "name": "Bingles' Missing Supplies",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   2038
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Bingles Blastenheimer",
+  "end": "",
+  "previous": "Find Bingles",
+  "next": null,
+  "wiki": "Bingles' Missing Supplies",
+  "chain": [
+   "Find Bingles",
+   "Bingles' Missing Supplies"
+  ]
+ },
+ "summary": "After crash-landing his gyrocopter into the waters of the Loch, the eccentric gnome engineer Bingles Blastenheimer was ambushed by local troggs who made off with his essential gear. Stranded on the lake's western shore, he needs his stolen wrench, screwdriver, hammer, and customized Blastencapper explosives recovered so he can repair his craft and rejoin the fight for Gnomeregan.",
+ "sections": [
+  {
+   "title": "A Damp Descent",
+   "body": "Bingles Blastenheimer was piloting his gyrocopter over Loch Modan when an unexpected crash sent him plummeting directly into the cold waters of the Loch. Surviving the impact was fortunate enough, but dragging himself ashore proved to be only half the ordeal. The troggs infesting the lake's central islands took immediate advantage of his predicament, swarming the dazed pilot and looting his most valuable belongings.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gnomish Ingenuity Under Siege",
+   "body": "The marauding troggs scattered Bingles' essential gear across their island camps. Among the missing supplies are his standard field tools\u2014a wrench, screwdriver, and hammer\u2014alongside his prized invention, the Blastenheimer Blastencapper. While mundane salvage is bothersome enough to lose, parting with volatile high-yield explosives in a region already crawling with troggs poses an immediate danger to anyone traveling through Loch Modan.",
+   "spoiler": 0
+  },
+  {
+   "title": "For Gnomeregan",
+   "body": "Bingles is not merely joyriding through the Khaz Modan skies; he considers himself an aerial vanguard for the liberation of his fallen homeland. With Gnomeregan currently overrun by subterranean troggs and irradiated leper gnomes, Bingles envisions a decisive aerial assault to break the enemy hold. Without his tools and blastencappers to rebuild his flying machine, however, his grand airborne campaign remains thoroughly grounded in the reeds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Bingles Blastenheimer stranded in Loch Modan?",
+   "aliases": [
+    "why is bingles here",
+    "how did bingles crash",
+    "bingles crash"
+   ],
+   "answer": "Bingles crashed his gyrocopter straight into the Loch. While trying to recover from the wreck on the western banks, he was ambushed by nearby island troggs who plundered his tools and experimental ordnance."
+  },
+  {
+   "q": "What supplies were stolen by the troggs?",
+   "aliases": [
+    "what did troggs steal",
+    "bingles supplies",
+    "what items bingles"
+   ],
+   "answer": "The troggs made off with four key items: Bingles' wrench, screwdriver, hammer, and a specialized explosive charge known as the Blastenheimer Blastencapper."
+  },
+  {
+   "q": "Where did the troggs take Bingles' gear?",
+   "aliases": [
+    "where are bingles tools",
+    "trogg island location",
+    "where is blastencapper"
+   ],
+   "answer": "The troggs carried the stolen gear back to their encampments on the islands situated in the northern portion of the Loch, scattering the tool buckets and explosives along the rocky shores."
+  },
+  {
+   "q": "What is the Blastencapper?",
+   "aliases": [
+    "what is blastencapper",
+    "blastenheimer blastencapper",
+    "bingles explosive"
+   ],
+   "answer": "The Blastencapper is a proprietary explosive device engineered by Bingles Blastenheimer, intended for combat use in air strikes against the enemies occupying Gnomeregan."
+  },
+  {
+   "q": "What movement is Bingles referring to?",
+   "aliases": [
+    "what movement",
+    "for gnomeregan",
+    "bingles cause"
+   ],
+   "answer": "Bingles is dedicated to the reclamation of Gnomeregan. He aims to mobilize an aerial bombardment campaign to purge the subterranean troggs and leper gnomes holding the gnomish capital hostage."
+  },
+  {
+   "q": "Why can't Bingles retrieve the supplies himself?",
+   "aliases": [
+    "why doesnt bingles get them",
+    "why bingles waiting"
+   ],
+   "answer": "Bingles is isolated, soaking wet, and completely unarmed after surviving a catastrophic crash. Facing a fortified camp of aggressive troggs across open water without weapons or aircraft would be suicide for a solitary engineer."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Every tool recovered brings the gnomish people one step closer to launching an aerial counteroffensive against the troggs and leper gnomes suffocating Gnomeregan."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The trogg outbreak on the islands of the Loch threatens local trade and travel, making any strike against their camps a welcome service to the Mountaineers."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Leaving specialized tools and volatile ordnance like the Blastenheimer Blastencapper in the crude hands of troggs is an affront to craftsmanship and a catastrophic accident waiting to happen."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Assisting an Alliance pilot in the heart of Loch Modan secures the waterways and aids the broader strategic war effort to reclaim Khaz Modan's lost territories."
+  }
+ ],
+ "keywords": [
+  "bingles",
+  "blastencapper",
+  "blastenheimer",
+  "gnomeregan",
+  "gyrocopter",
+  "hammer",
+  "loch modan",
+  "screwdriver",
+  "the loch",
+  "trogg",
+  "wrench"
+ ],
+ "related": [
+  "npc:bingles-blastenheimer",
+  "quest:2039",
+  "zone:lochmodan",
+  "subzone:the-loch",
+  "topic:trogg",
+  "zone:gnomeregan",
+  "topic:gnome",
+  "topic:leper-gnome"
+ ],
+ "attribution": [
+  "Bingles' Missing Supplies"
+ ]
+}

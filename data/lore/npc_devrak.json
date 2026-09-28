@@ -1,0 +1,116 @@
+{
+ "key": "npc:devrak",
+ "type": "npc",
+ "name": "Devrak",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Devrak",
+  "refs": 4
+ },
+ "summary": "Devrak is an orc wind rider master stationed at the Crossroads in the Barrens. Serving as the primary aerial conduit of central Kalimdor, he oversees the Horde's network of wyverns shuttling supplies and couriers between Durotar, Mulgore, and frontier outposts. He also ensures that crucial logistics, such as game meats and prepared hides, travel smoothly to the Horde's capitals.",
+ "sections": [
+  {
+   "title": "Keeper of the Crossroads Roosts",
+   "body": "Positioned at the intersection of Kalimdor's major trade routes, Devrak tends the wyverns that keep the Horde unified across vast distances. The Crossroads sits exposed under the baking sun, vulnerable to quillboar, centaur, and Alliance scouts alike, making rapid aerial transit indispensable. Devrak handles both seasoned wayfarers and untested messengers, pairing riders with trained wind riders capable of crossing the savannah and reaching the mountain heights of Mulgore or the stone canyons of Durotar.",
+   "spoiler": 0
+  },
+  {
+   "title": "Supplies for the Warchief and the Chieftain",
+   "body": "Beyond ferrying travelers, Devrak plays a vital role in frontier logistics. The hunters of the Barrens harvest meat and pelts in abundance, which Devrak helps channel directly to the cooking fires of Orgrimmar and the tanners of Thunder Bluff. By introducing budding couriers to flight masters across the continents, he cements the aerial lifeline that feeds the Horde's heartlands.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Deadly Roost",
+   "body": "Flight masters in contested frontier territories cannot afford to be defenseless. Devrak is far more than a simple beast handler; when the Crossroads falls under attack, he calls upon enraged wyverns to tear into hostile intruders with venomous stingers and talons, making his roost a dangerous target for anyone bold enough to strike the settlement.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Devrak's role at the Crossroads?",
+   "aliases": [
+    "who is devrak",
+    "what does devrak do",
+    "devrak job",
+    "crossroads flight master"
+   ],
+   "answer": "Devrak is the Horde flight master stationed at the Crossroads in the Barrens. He tends the outpost's wind riders, granting flight paths to connecting settlements across Kalimdor and coordinating the transport of couriers, soldiers, and essential trade goods."
+  },
+  {
+   "q": "Where can Devrak fly me?",
+   "aliases": [
+    "devrak flight paths",
+    "where can i fly from crossroads",
+    "crossroads flight routes"
+   ],
+   "answer": "From his roost at the Crossroads, Devrak connects to major capitals like Orgrimmar and Thunder Bluff, as well as frontier outposts in Ashenvale, Stonetalon Mountains, Dustwallow Marsh, Thousand Needles, and southern frontiers, assuming you have spoken to those flight masters first."
+  },
+  {
+   "q": "What quests does Devrak offer?",
+   "aliases": [
+    "devrak quests",
+    "crossroads flight quest"
+   ],
+   "answer": "Devrak assists in courier tasks that teach young Horde adventurers how to use the flight network, including sending fresh meat to Gryshka in Orgrimmar and bundles of hides to Thunder Bluff."
+  },
+  {
+   "q": "How does Devrak defend himself if the Crossroads is attacked?",
+   "aliases": [
+    "can devrak fight",
+    "killing devrak",
+    "devrak defense"
+   ],
+   "answer": "Devrak is guarded by his roost. If assaulted by Alliance raiders or hostile beasts, he can summon ferocious enraged wyverns to aid him in combat, driving attackers off with tooth and talon."
+  },
+  {
+   "q": "Why is having a flight master at the Crossroads so critical?",
+   "aliases": [
+    "why is crossroads flight master important",
+    "crossroads location significance"
+   ],
+   "answer": "The Barrens is the connective spine of central Kalimdor. Because the Crossroads links Durotar, Mulgore, Ashenvale, and Stonetalon, Devrak's roost allows the Horde to rapidly reposition forces and coordinate supplies without relying on days-long journeys on foot."
+  },
+  {
+   "q": "What creatures does Devrak handle?",
+   "aliases": [
+    "what mounts does devrak have",
+    "crossroads mounts"
+   ],
+   "answer": "Devrak manages wind riders, also known as wyverns. These draconic, winged predators native to the peaks and mesas of Kalimdor were befriended by the Horde to serve as reliable flying mounts across rough terrain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Devrak is an indispensable ally for any Horde adventurer navigating Kalimdor, serving as the central hub connecting the territories of the orcs, trolls, and tauren."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Stationed in the dry heart of the Barrens, Devrak demonstrates the orcish talent for working with Kalimdor's wind riders, bonding with the fierce beasts to secure aerial dominance."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "devrak",
+  "flight master",
+  "orgrimmar",
+  "thunder bluff",
+  "wind rider",
+  "wyvern"
+ ],
+ "related": [
+  "subzone:crossroads",
+  "zone:barrens",
+  "quest:6365",
+  "quest:6384",
+  "quest:6361",
+  "quest:6362",
+  "zone:orgrimmar",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Devrak"
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "key": "quest:309",
+ "type": "quest",
+ "name": "Protecting the Shipment",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   309
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Miran",
+  "end": "Prospector Ironband",
+  "previous": null,
+  "next": null,
+  "wiki": "Protecting the Shipment (Classic)",
+  "chain": []
+ },
+ "summary": "Protecting the Shipment is an escort quest in southern Loch Modan where adventurers safeguard the courier Miran on his way to Ironband's Excavation Site. Miran carries a crate of volatile blasting powder urgently needed by Prospector Ironband. The journey exposes lingering Dark Iron subversion threatening the dwarven hinterlands.",
+ "sections": [
+  {
+   "title": "A Powder Run in Peril",
+   "body": "Prospector Ironband's archaeological dig in the hills of southern Loch Modan requires a steady supply of blasting powder to cut through stubborn stone. When supply lines break down and courier wagons come under threat, the courier Miran is left stranded on the road with a heavy load of powder. Guiding Miran safely across the uneven roads to the excavation site ensures Ironband's work does not stall completely.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dark Iron Sympathizers",
+   "body": "The road to the dig site is not merely beset by wild beasts; Dark Iron infiltrators actively lie in wait to intercept the explosive cargo. Their brazen ambush near the site reveals a darker truth to Ironband: Dark Iron forces are securing illicit materials and actively sowing discord in the heart of Loch Modan. While the delivery ensures the dig continues, it raises alarm about how deeply enemy sabotage reaches within Alliance territory.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Miran?",
+   "aliases": [
+    "who is miran",
+    "miran loch modan",
+    "courier miran"
+   ],
+   "answer": "Miran is an Alliance courier tasked with moving vital supplies, particularly blasting powder, along the dangerous back roads of Loch Modan toward Ironband's Excavation Site."
+  },
+  {
+   "q": "Why does Prospector Ironband need the powder?",
+   "aliases": [
+    "why ironband needs powder",
+    "powder purpose",
+    "ironband blasting powder"
+   ],
+   "answer": "Prospector Ironband leads an important archaeological excavation in southern Loch Modan. His team relies on heavy blasting powder to clear rock, unearth ancient titan artifacts, and sustain their digging operations."
+  },
+  {
+   "q": "Who attacks during the escort?",
+   "aliases": [
+    "who ambushes miran",
+    "ambush attackers",
+    "escort attackers"
+   ],
+   "answer": "Dark Iron dwarf saboteurs ambush the courier just short of the excavation site, seeking to seize the explosives and thwart Ironforge's operations in the region."
+  },
+  {
+   "q": "Where does the escort lead?",
+   "aliases": [
+    "escort destination",
+    "where does miran go",
+    "where is ironband"
+   ],
+   "answer": "The escort begins along the southern road of Loch Modan and concludes at Ironband's Excavation Site, located in the hills southeast of the lake."
+  },
+  {
+   "q": "Why are Dark Irons in Loch Modan?",
+   "aliases": [
+    "dark iron loch modan",
+    "why dark iron dwarves here",
+    "dark iron presence"
+   ],
+   "answer": "The Dark Iron clan maintains secret enclaves and spies throughout Khaz Modan. They actively raid supply lines, sabotage Explorers' League digs, and seek to destabilize Ironforge's defensive perimeter."
+  },
+  {
+   "q": "What happens after the shipment arrives?",
+   "aliases": [
+    "quest continuation",
+    "what after protecting the shipment",
+    "next quest"
+   ],
+   "answer": "Prospector Ironband accepts the powder with relief, thanking the Light that the supplies arrived despite the unsettling revelation that Dark Iron sympathizers are operating nearby."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves of Ironforge, defending Ironband's supplies is a direct defense of heritage, protecting ancestral discoveries from the sabotage of their bitter Dark Iron kin."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance relies on clear logistics in Loch Modan; keeping couriers safe from subterranean raiders preserves the link between Ironforge and the eastern frontiers."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Miners understand all too well the value\u2014and volatility\u2014of blasting powder when carving into Khaz Modan's stubborn bedrock."
+  }
+ ],
+ "keywords": [
+  "blasting powder",
+  "dark iron ambush",
+  "ironband's excavation site",
+  "loch modan escort",
+  "miran",
+  "prospector ironband"
+ ],
+ "related": [
+  "quest:302",
+  "npc:prospector-ironband",
+  "subzone:ironband-s-excavation-site",
+  "quest:436",
+  "zone:lochmodan",
+  "topic:light"
+ ],
+ "attribution": [
+  "Protecting the Shipment (Classic)"
+ ]
+}

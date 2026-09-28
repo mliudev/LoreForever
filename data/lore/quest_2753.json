@@ -1,0 +1,118 @@
+{
+ "key": "quest:2753",
+ "type": "quest",
+ "name": "Trampled Under Foot",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   2753
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Orokk Omosh",
+  "end": "",
+  "previous": "On Iron Pauldrons",
+  "next": "Horns of Frenzy",
+  "wiki": "Trampled Under Foot",
+  "chain": [
+   "Barbaric Battlements",
+   "On Iron Pauldrons",
+   "Trampled Under Foot",
+   "Horns of Frenzy"
+  ]
+ },
+ "summary": "Trampled Under Foot is an advanced blacksmithing trial assigned by Orokk Omosh in the Valley of Honor in Orgrimmar. By forging an array of green iron armor pieces, smiths prove their endurance and master the craft of heavy iron boots. Completion of the task earns the secret techniques passed down through the Omosh bloodline.",
+ "sections": [
+  {
+   "title": "The Trials of Omosh",
+   "body": "Orokk Omosh trains armorsmiths in Orgrimmar with relentless, physical demands. To Orokk, metalworking is not merely heating ore and hammering shapes; it is an endurance test designed to honor his ancestral clan. Trampled Under Foot represents the third trial in his rigorous chain of tasks, demanding repeated crafting of tempered green iron armor to forge muscle and discipline in the artisan.",
+   "spoiler": 0
+  },
+  {
+   "title": "Legacy of Chief Gorokk",
+   "body": "Smiths who deliver the requested suits of green iron gear earn rare praise from the gruff armorsmith. Orokk likens an artisan who survives this grueling workload to his grandfather, Chief Gorokk of Omosh. In exchange for the crafted armor, Orokk imparts the ancestral design for sturdy iron boots\u2014footwear intended to ensure Horde warriors crush their enemies beneath their heel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers the quest Trampled Under Foot?",
+   "aliases": [
+    "quest giver",
+    "who gives trampled under foot",
+    "orokk omosh location"
+   ],
+   "answer": "The quest is given by Orokk Omosh, an ogre armorsmith located in the Valley of Honor within Orgrimmar."
+  },
+  {
+   "q": "What does Orokk Omosh require for this trial?",
+   "aliases": [
+    "trampled under foot turn in",
+    "what items needed",
+    "materials needed"
+   ],
+   "answer": "Orokk requires four Green Iron Helms, four Green Iron Bracers, and two Green Iron Leggings, proving the smith's mastery over green iron craftsmanship."
+  },
+  {
+   "q": "What is the lore behind the Omosh training chain?",
+   "aliases": [
+    "why does orokk make you craft armor",
+    "omosh clan lore"
+   ],
+   "answer": "Orokk Omosh tests young smiths through punishing physical labor to uphold the martial heritage of his ancestors. He believes that grueling armorsmithing builds the strength necessary to create gear that withstands brutal warfare."
+  },
+  {
+   "q": "Who is Chief Gorokk of Omosh?",
+   "aliases": [
+    "chief gorokk",
+    "orokk grandfather"
+   ],
+   "answer": "Chief Gorokk of Omosh is the grandfather of Orokk Omosh. Orokk holds his grandfather's martial prowess in high esteem, comparing any smith who endures his heavy ironwork trials to the legendary chieftain."
+  },
+  {
+   "q": "What quest precedes Trampled Under Foot?",
+   "aliases": [
+    "prerequisite quest",
+    "previous quest in chain"
+   ],
+   "answer": "Trampled Under Foot directly follows the quest On Iron Pauldrons, continuing Orokk's multi-part series of armorsmithing challenges."
+  },
+  {
+   "q": "What is the next quest after completing Trampled Under Foot?",
+   "aliases": [
+    "next quest",
+    "what comes after trampled under foot"
+   ],
+   "answer": "Upon completing this task, Orokk Omosh offers Horns of Frenzy, which serves as the final trial in his armor-crafting lesson series."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "This quest represents a key milestone for aspiring armorsmiths in the Horde, requiring extensive iron smelting and green dye preparation to unlock exclusive boot plans."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Orokk's lessons supply durable iron armor patterns tailored to the brutal combat doctrine favored across Horde warfronts."
+  }
+ ],
+ "keywords": [
+  "armorsmithing",
+  "blacksmithing",
+  "gorokk",
+  "green iron",
+  "orgrimmar",
+  "orokk omosh",
+  "trampled under foot",
+  "valley of honor"
+ ],
+ "related": [
+  "npc:orokk-omosh",
+  "quest:2751",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Trampled Under Foot"
+ ]
+}

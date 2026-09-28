@@ -1,0 +1,121 @@
+{
+ "key": "npc:alanndarian-nightsong",
+ "type": "npc",
+ "name": "Alanndarian Nightsong",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Alanndarian Nightsong",
+  "refs": 4
+ },
+ "summary": "Alanndarian Nightsong is a night elf resident of Auberdine in Darkshore dedicated to tending to the region's beleaguered fauna. She works alongside travelers to remedy the blights plaguing the local wildlife, particularly the native striders and forest creatures corrupted by dark forces.",
+ "sections": [
+  {
+   "title": "A Caretaker in Auberdine",
+   "body": "Situated in the coastal settlement of Auberdine, Alanndarian Nightsong watches over the fragile ecological balance of Darkshore. As mysterious taints seep into the soil and waters, the creatures of the ancient woods have begun to succumb to sickness and unnatural aggression. Alanndarian acts as a guardian and naturalist, seeking practical remedies to ease their suffering and restore their natural vigor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Healing the Stront and Sick",
+   "body": "Much of Alanndarian's attention is focused on identifying the root causes of the afflictions spreading through the local fauna. Through careful gathering of botanical reagents and researching the principal water sources of the region, she crafts salves and curative draughts. She enlists wandering adventurers to apply these cures directly to ailing forest creatures, attempting to stave off the spreading corruption before it permanently overtakes Darkshore's wildlife.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Alanndarian Nightsong?",
+   "aliases": [
+    "alanndarian",
+    "who is alanndarian nightsong",
+    "alanndarian nightsong lore"
+   ],
+   "answer": "Alanndarian Nightsong is a night elf naturalist located in the port town of Auberdine in Darkshore. She focuses on caring for afflicted local wildlife and finding herbal cures for the unnatural sicknesses plaguing the coast."
+  },
+  {
+   "q": "Where can Alanndarian Nightsong be found?",
+   "aliases": [
+    "alanndarian location",
+    "where is alanndarian",
+    "find alanndarian nightsong"
+   ],
+   "answer": "She makes her home in Auberdine, the primary night elf hub along the foggy coastline of Darkshore."
+  },
+  {
+   "q": "What tasks does she ask adventurers to perform?",
+   "aliases": [
+    "alanndarian quests",
+    "auberdine sick animal quests",
+    "what does alanndarian want"
+   ],
+   "answer": "Alanndarian asks adventurers to track down the sources of sickness tainting Darkshore's creatures, collect vital curative components from the wilderness, and administer remedies directly to ailing animals such as deer and striders."
+  },
+  {
+   "q": "Is she related to other Nightsongs?",
+   "aliases": [
+    "nightsong family",
+    "master nightsong relation",
+    "falara nightsong"
+   ],
+   "answer": "Her surname connects her to other prominent night elves of the Nightsong lineage, such as Master Nightsong in Darnassus and Falara Nightsong, though her immediate daily focus remains the stewardship of Darkshore's wilderness."
+  },
+  {
+   "q": "Why are the creatures in Darkshore sick?",
+   "aliases": [
+    "why are darkshore animals sick",
+    "corrupted striders darkshore",
+    "darkshore blight"
+   ],
+   "answer": "The woodlands and waterways of Darkshore suffer from an creeping corruption seeping through ancient ruins and corrupted elementals, driving native wildlife to madness and wasting sickness."
+  },
+  {
+   "q": "Can she train tallstrider pets?",
+   "aliases": [
+    "tallstrider trainer",
+    "strider training auberdine",
+    "train my strider"
+   ],
+   "answer": "Though rumor holds she has great knowledge of striders, she does not actively train tamed pets for hunters in the field, keeping her focus instead on wild populations."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alanndarian serves as a vital contact for Alliance travelers landing in Auberdine, helping newcomers understand the delicate state of northern Kalimdor's wilderness."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Her reverence for the forest and dedication to purifying corrupted wildlife reflect the core preservationist ideals of the kaldorei."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids will find a kindred spirit in Alanndarian's pursuit to identify waterborne taints and physically cure poisoned creatures across Darkshore."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters attuned to beast behaviors assist Alanndarian closely, using their tracking skills to locate wild striders and distressed game."
+  }
+ ],
+ "keywords": [
+  "alanndarian",
+  "auberdine",
+  "cure",
+  "darkshore",
+  "kaldorei",
+  "nightsong",
+  "strider",
+  "wildlife"
+ ],
+ "related": [
+  "subzone:auberdine",
+  "zone:darkshore",
+  "quest:6124",
+  "quest:6123",
+  "quest:6122",
+  "quest:2178",
+  "topic:night-elf",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Alanndarian Nightsong"
+ ]
+}

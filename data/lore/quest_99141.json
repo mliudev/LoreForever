@@ -1,0 +1,119 @@
+{
+ "key": "quest:99141",
+ "type": "quest",
+ "name": "Patience",
+ "era": "forever",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   99141
+  ],
+  "level": "6",
+  "faction": "Horde",
+  "start": "Executor Zygand",
+  "end": "",
+  "previous": null,
+  "next": "",
+  "wiki": "Patience (quest)",
+  "chain": []
+ },
+ "summary": "Patience is a task assigned by Executor Zygand in Tirisfal Glades, demanding strict military accountability for the Dark Lady. With routine field reports overdue, Zygand dispatches an adventurer to collect updates from nearby Deathguards and an unusual sentry. The assignment highlights the rigorous, uncompromising discipline enforced across Forsaken holdings.",
+ "sections": [
+  {
+   "title": "Enforcing the Dark Lady's Will",
+   "body": "Executor Zygand holds command over local security in Tirisfal Glades and tolerates no lapses in vigilance. To Zygand, serving Lady Sylvanas requires nothing less than absolute efficiency. When regular field dispatches fail to arrive at his post on schedule, he sees it as an unacceptable breach of duty rather than a minor delay. Rather than abandon his post to investigate, he sends incoming Forsaken agents to rein in delinquent subordinates and ensure that the borders remain secure.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sentinels of the Glades",
+   "body": "The dispatches involve sentries stationed at critical vantage points surrounding Brill. Deathguard Dillinger keeps watch over the graveyard to the west, where rogue undead and Scourge remnants often stir. To the east, Deathguard Kristof oversees a waystation guarding the approaches to the Capital City and the eastern roads. Most unusual among them is Gordo, a hulking abomination wandering near Stillwater Pond whose simple mind makes military record-keeping a deeply dubious expectation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Executor Zygand?",
+   "aliases": [
+    "zygand",
+    "who is zygand",
+    "executor zygand role"
+   ],
+   "answer": "Executor Zygand is a high-ranking Forsaken officer tasked with maintaining order and defense around Brill in Tirisfal Glades. He answers directly to the command hierarchy serving Lady Sylvanas and demands flawless execution from all troops under his oversight."
+  },
+  {
+   "q": "Why does Zygand send an adventurer to collect reports?",
+   "aliases": [
+    "why do patience",
+    "why fetch reports"
+   ],
+   "answer": "Several field sentries have failed to submit their scheduled reports on time. Lacking patience for delays and unwilling to abandon his central post, Zygand employs newly proven Forsaken to run down the overdue dispatches across the countryside."
+  },
+  {
+   "q": "Who is Gordo and why does he have a report?",
+   "aliases": [
+    "gordo",
+    "why does an abomination have a report",
+    "who is gordo"
+   ],
+   "answer": "Gordo is an abomination who wanders west near Stillwater Pond. Zygand expected a status report from him just like any other field sentry, though upon receiving it, the Executor quickly realizes that expecting written intelligence from an abomination was an embarrassing lapse in judgment."
+  },
+  {
+   "q": "Where is Deathguard Dillinger located?",
+   "aliases": [
+    "dillinger location",
+    "find dillinger",
+    "where is dillinger"
+   ],
+   "answer": "Deathguard Dillinger is posted just west of Brill, standing watch near the local graveyard to monitor lingering Scourge activity and newly risen corpses."
+  },
+  {
+   "q": "Where is Deathguard Kristof stationed?",
+   "aliases": [
+    "kristof location",
+    "find kristof",
+    "where is kristof"
+   ],
+   "answer": "Deathguard Kristof is stationed at the waystation along the road to the east of Brill, guarding the approaches against intruders and monitoring road traffic."
+  },
+  {
+   "q": "What happens when Gordo's report is turned in?",
+   "aliases": [
+    "gordo report outcome",
+    "gordo writing"
+   ],
+   "answer": "Executor Zygand concedes that expecting an abomination to produce a coherent written report was a foolish mistake. He quietly accepts the outcome and asks that the embarrassing oversight be kept strictly between you and him."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For newly liberated Forsaken, carrying out Zygand's orders reinforces the harsh realities of survival in Lordaeron: complete devotion to the Dark Lady and zero tolerance for failure."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The quest offers visiting Horde allies a glimpse into the grim, highly disciplined command structure that Sylvanas Windrunner's officers enforce throughout Tirisfal."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "dark lady",
+  "deathguard",
+  "dillinger",
+  "gordo",
+  "kristof",
+  "patience",
+  "stillwater pond",
+  "tirisfal glades",
+  "zygand"
+ ],
+ "related": [
+  "npc:executor-zygand",
+  "npc:deathguard-dillinger",
+  "subzone:stillwater-pond",
+  "zone:tirisfal",
+  "quest:938"
+ ],
+ "attribution": [
+  "Patience (quest)"
+ ]
+}

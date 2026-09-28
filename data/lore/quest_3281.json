@@ -1,0 +1,120 @@
+{
+ "key": "quest:3281",
+ "type": "quest",
+ "name": "Stolen Silver",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   3281
+  ],
+  "level": "18",
+  "faction": "Horde",
+  "start": "Gazrog",
+  "end": "",
+  "previous": "Raptor Thieves",
+  "next": null,
+  "wiki": "Stolen Silver (quest)",
+  "chain": [
+   "Raptor Thieves",
+   "Stolen Silver (quest)"
+  ]
+ },
+ "summary": "Stolen Silver is a Horde assignment from Gazrog at the Crossroads to recover a cache of payroll coin pilfered by raptors. Following rumors of their uncanny cunning, travelers track the missing currency deep into the Raptor Grounds south of Ratchet. Recovering the lockbox ensures the Crossroads garrison actually gets paid.",
+ "sections": [
+  {
+   "title": "A Beastly Heist",
+   "body": "The Crossroads serves as the vital hub of the Barrens, connecting Orgrimmar, Mulgore, and Ratchet. Maintaining order across this vast savanna requires vigilant guards, and guards require steady pay. When raptors ambushed the payroll shipment, Gazrog initially sought vengeance against the beasts. Yet killing the pack does not balance the settlement's ledgers, forcing the Horde to investigate how and why simple animals hauled off heavy crates of coin.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Raptor Grounds",
+   "body": "Scouts identified a dense nest of raptors nestled between two craggy peaks south of Ratchet and northwest of Northwatch Hold. The creatures had dragged the intact lockbox directly into their nesting territory, defending it alongside their eggs and fresh kills. Gazrog is forced to admit that tales of raptor intelligence and hoarding behaviors are surprisingly accurate, as ordinary beasts would rarely stash away metallic valuables.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why did raptors steal silver in the first place?",
+   "aliases": [
+    "why do raptors want silver",
+    "why silver raptors",
+    "raptor coin motive"
+   ],
+   "answer": "Barrens raptors are noted for startling cunning and curious scavenging habits. Whether drawn by the shiny metal, the smell of treated leather on the chest, or simply aggressive hoarding instincts, they dragged the intact strongbox back to their communal nests in the Raptor Grounds."
+  },
+  {
+   "q": "Who is Gazrog?",
+   "aliases": [
+    "gazrog",
+    "who gives stolen silver",
+    "crossroads questgiver gazrog"
+   ],
+   "answer": "Gazrog is an orc officer stationed in the main bunker of the Crossroads. He manages security and logistics for the outpost, dealing with threats from local wildlife, centaur incursions, and payroll disruptions."
+  },
+  {
+   "q": "Where are the Raptor Grounds located?",
+   "aliases": [
+    "raptor grounds location",
+    "where to find stolen silver",
+    "stolen silver chest location"
+   ],
+   "answer": "The Raptor Grounds lie in eastern Barrens, south of the goblin port of Ratchet and northwest of the Alliance fortress at Northwatch Hold. The nests fill a rugged passage wedged between two mountains."
+  },
+  {
+   "q": "What happens if the silver is not recovered?",
+   "aliases": [
+    "why is stolen silver important",
+    "crossroads guards pay"
+   ],
+   "answer": "The stolen silver contains the monthly wages for the Crossroads guards. Without it, the outpost's defenders face working without pay, threatening morale in a fortress constantly beset by quillboar, centaur, and Alliance raiders."
+  },
+  {
+   "q": "Is this part of a longer quest chain?",
+   "aliases": [
+    "stolen silver prerequisites",
+    "raptor thieves follow up"
+   ],
+   "answer": "Yes. Before searching for the cache, adventurers must first complete Raptor Thieves for Gazrog, culling the Barrens raptors that attacked the initial transport before tracking down the location of the stash itself."
+  },
+  {
+   "q": "Is the Alliance involved in the theft?",
+   "aliases": [
+    "did northwatch steal silver",
+    "alliance raptors barrens"
+   ],
+   "answer": "No. While Northwatch Hold sits southeast of the Raptor Grounds, the theft was carried out entirely by native raptors, surprising even veteran Horde commanders with their thievery and hoarding instincts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Crossroads is the logistical spine of Kalimdor for the Horde; keeping its guards paid and fed is essential for maintaining hold over the frontier."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Raptor behavior in the Barrens defies typical beast profiles, displaying complex social nesting and an unusual attraction to artificial, shiny cargo."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "gazrog",
+  "payroll",
+  "raptor grounds",
+  "raptor thieves",
+  "ratchet",
+  "stolen silver"
+ ],
+ "related": [
+  "quest:869",
+  "npc:gazrog",
+  "subzone:raptor-grounds",
+  "subzone:crossroads",
+  "subzone:ratchet",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Stolen Silver (quest)"
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "key": "quest:906",
+ "type": "quest",
+ "name": "Betrayal from Within",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   906
+  ],
+  "level": "25",
+  "faction": "Horde",
+  "start": "Mangletooth",
+  "end": "Thork",
+  "previous": "Betrayal from Within (1)",
+  "next": null,
+  "wiki": "Betrayal from Within (2)",
+  "chain": []
+ },
+ "summary": "Betrayal from Within is a Horde quest concluding the hunt for the leader behind aggressive Razormane raids in the central Barrens. By presenting Lok Orcbane's severed head to Sergra Darkthorn's command at the Crossroads, players demonstrate that the quillboar's fiercest tactician has finally fallen.",
+ "sections": [
+  {
+   "title": "A Traitor's Head",
+   "body": "Held in a cage at Camp Taurajo, the captured Razormane geomancer Mangletooth reveals that Lok Orcbane directs the vicious quillboar assaults against Horde caravans. Once the chieftain is slain deep in the southern thorn mazes, Mangletooth hands over Lok's skull, amused that the orcs will reap the benefits of internal tribal betrayal without ever guessing a captive quillboar aided them.",
+   "spoiler": 0
+  },
+  {
+   "title": "Securing the Crossroads",
+   "body": "Carrying Lok's grisly trophy north to Thork at the Crossroads relieves intense pressure on Horde supply lines throughout the central savannah. Thork expresses disbelief that a solitary traveler managed to fell the formidable leader, admitting he had expected an entirely different mastermind behind the organized strikes. Lok's death fractures the Razormane offensive, leaving their crags disorganized.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mangletooth?",
+   "aliases": [
+    "mangletooth",
+    "captive quilboar",
+    "taurajo prisoner"
+   ],
+   "answer": "Mangletooth is a captured Razormane quillboar kept in a wooden cage at Camp Taurajo. Disillusioned with his rivals or seeking vengeance against his own kin, he readily guides Horde adventurers to assassinate his tribe's warlords in exchange for bloodstones."
+  },
+  {
+   "q": "Who was Lok Orcbane?",
+   "aliases": [
+    "lok",
+    "lok orcbane",
+    "razormane leader"
+   ],
+   "answer": "Lok Orcbane was a prominent chieftain within the Razormane tribe who coordinated fierce ambush raids against Horde outposts and supply lines winding through the Barrens."
+  },
+  {
+   "q": "Why does Thork care about Lok's death?",
+   "aliases": [
+    "why thork wants lok dead",
+    "crossroads supply raids"
+   ],
+   "answer": "As commander defending the Crossroads, Thork coordinates the defense against persistent thorn-dwelling raiders. Eliminating Lok Orcbane removes the primary tactician orchestrating attacks along the Gold Road."
+  },
+  {
+   "q": "Why did Mangletooth help eliminate his own chieftain?",
+   "aliases": [
+    "why did mangletooth betray",
+    "mangletooth motive"
+   ],
+   "answer": "Mangletooth harbors deep bitterness toward his tribe's leadership and respects raw strength above kin. By guiding Horde champions to execute Lok, he indulges his hatred while maintaining his mystical connection to Agamaggan from behind bars."
+  },
+  {
+   "q": "Where does this quest chain lead?",
+   "aliases": [
+    "next quest after betrayal from within",
+    "what follows betrayal from within"
+   ],
+   "answer": "This turn-in marks the end of the immediate assassination chain, though Mangletooth continues to trade Agamaggan's elemental blessings in exchange for Blood Shards gathered from quillboar across the Barrens."
+  },
+  {
+   "q": "Where is Thork located?",
+   "aliases": [
+    "thork location",
+    "where is thork"
+   ],
+   "answer": "Thork stands on guard inside the Crossroads settlement in the northern central Barrens, overseeing defensive operations and logistics."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The death of Lok Orcbane secures essential travel corridors between Camp Taurajo and the Crossroads, blunting the Razormanes' threat to new settlements in Kalimdor."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Lok's surname, Orcbane, speaks directly to his long history of butchering orcish settlers and supply convoys in the arid flats."
+  }
+ ],
+ "keywords": [
+  "agamaggan",
+  "barrens",
+  "camp taurajo",
+  "crossroads",
+  "lok orcbane",
+  "mangletooth",
+  "quilboar",
+  "razormane",
+  "thork"
+ ],
+ "related": [
+  "npc:thork",
+  "npc:mangletooth",
+  "topic:quilboar",
+  "subzone:crossroads",
+  "zone:barrens",
+  "topic:agamaggan"
+ ],
+ "attribution": [
+  "Betrayal from Within (2)"
+ ]
+}

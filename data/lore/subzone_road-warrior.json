@@ -1,0 +1,78 @@
+{
+ "key": "subzone:road-warrior",
+ "type": "subzone",
+ "name": "Road Warrior",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Road Warrior"
+ },
+ "summary": "The Road Warrior is the bustling, shaded tavern of Gadgetzan in northern Tanaris. Managed by Innkeeper Fizzgrimble, it offers dusty mercenaries, engineers, and desert wanderers a cool drink and a brief sanctuary from the baking sands outside.",
+ "sections": [
+  {
+   "title": "A Tavern in the Wastes",
+   "body": "Tucked safely within the fortified walls of Gadgetzan, the Road Warrior is the beating heart of hospitality in Tanaris. Run by the goblin Innkeeper Fizzgrimble, the establishment welcomes Alliance and Horde adventurers alike under the neutral peace enforced by Steamwheedle muscle. Inside its shaded walls, thirsty travelers can wash down the gritty desert sand with the house specialty, Mechs on the Beach, swap stories about the surrounding perils of the Southsea pirates and the Wastewander bandits, or set down their hearthstones before braving the scorching dunes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Road Warrior?",
+   "aliases": [
+    "what is road warrior",
+    "gadgetzan inn name",
+    "tanaris tavern"
+   ],
+   "answer": "The Road Warrior is the primary inn and tavern in Gadgetzan, the bustling goblin trading hub located in Tanaris. It serves as a neutral rest stop for adventurers traversing the desert."
+  },
+  {
+   "q": "Who runs the Road Warrior inn?",
+   "aliases": [
+    "who is the innkeeper",
+    "fizzgrimble",
+    "innkeeper gadgetzan"
+   ],
+   "answer": "The inn is operated by Innkeeper Fizzgrimble, a goblin proprietor who happily sells rooms, refreshments, and hearthstone ties to anyone with coin, regardless of their faction allegiance."
+  },
+  {
+   "q": "What drinks or specialties are served here?",
+   "aliases": [
+    "mechs on the beach",
+    "road warrior drink",
+    "tavern drink"
+   ],
+   "answer": "The tavern's best-known concoction is the Mechs on the Beach, a popular local specialty favored by travelers looking to wash down the dry grit of the Tanaris wastes."
+  },
+  {
+   "q": "Can Horde and Alliance both use this inn?",
+   "aliases": [
+    "is it neutral",
+    "can alliance rest here",
+    "can horde use inn"
+   ],
+   "answer": "Yes. Because Gadgetzan is operated by the Steamwheedle Cartel, the Road Warrior is strictly neutral territory. Members of both factions can bind their hearthstones and rest under the watchful eyes of the Bruisers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "For culinarians traveling the desert, the Road Warrior is an essential stop to purchase provisions, quench their thirst, and sample local tastes like the Mechs on the Beach."
+  }
+ ],
+ "keywords": [
+  "fizzgrimble",
+  "gadgetzan",
+  "innkeeper",
+  "mechs on the beach",
+  "road warrior",
+  "tanaris",
+  "tavern"
+ ],
+ "related": [
+  "subzone:gadgetzan",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Road Warrior"
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "key": "npc:tyrande-whisperwind",
+ "type": "npc",
+ "name": "Tyrande Whisperwind",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Tyrande Whisperwind",
+  "refs": 3
+ },
+ "summary": "Tyrande Whisperwind is the High Priestess of Elune and the supreme leader of the night elves. Alongside her beloved, the Archdruid Malfurion Stormrage, she guided her people through the cataclysmic War of the Ancients and ten millennia of the Long Vigil. Now governing from the sacred boughs of Teldrassil, she commands the Sisterhood of Elune and directs the Sentinel army in defense of Kalimdor's sacred wilderness.",
+ "sections": [
+  {
+   "title": "Chosen of the Moon Goddess",
+   "body": "Born in the ancient city of Suramar, Tyrande grew up alongside the twin brothers Malfurion and Illidan Stormrage. While the brothers followed druidism and sorcery, Tyrande entered the service of Elune as a novice in the sisterhood. When the demonic Burning Legion first invaded Azeroth during the War of the Ancients, the dying High Priestess Dejahna chose Tyrande as her successor. Blessed with direct favor from the Moon Goddess, Tyrande transformed the Sisterhood into a radiant fighting force, wielding both divine restoration and searing lunar wrath to deliver her people from the brink of total annihilation.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Long Vigil and the Sentinels",
+   "body": "Following the Great Sundering and the sealing of the Well of Eternity, Malfurion and the druids entered the Emerald Dream for deep, prolonged hibernations. Tyrande took upon herself the lonely burden of defending their recovering realm. She organized the Sentinels\u2014an elite cadre of warrior-women who patrolled Kalimdor's forests for ten thousand years. Throughout this Long Vigil, she stood watchful guard over ancient evils and lingering demonic remnants, maintaining unbroken faith in Elune while she waited centuries between brief reunions with Malfurion.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Third War and a New Haven",
+   "body": "When the Burning Legion returned during the Third War, Tyrande acted decisively to wake the sleeping druids and face the catastrophic threat. Overcoming fierce mistrust toward the newly arrived orcs and humans, she helped forge the desperate coalition at Mount Hyjal, sacrificing the night elves' immortality atop Nordrassil to shatter Archimonde. With Mount Hyjal scarred and Malfurion once again occupied with safeguarding the Emerald Dream, Tyrande governs the kaldorei from the grand Temple of the Moon in Darnassus, watching cautiously over both Horde incursions and the growing Alliance alliance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tyrande Whisperwind?",
+   "aliases": [
+    "who is tyrande",
+    "tyrande whisperwind lore",
+    "night elf leader"
+   ],
+   "answer": "Tyrande Whisperwind is the High Priestess of Elune and the supreme spiritual and political leader of the night elves. She has guided her people for over ten thousand years from the War of the Ancients through the Third War, and currently leads the kaldorei from the Temple of the Moon in Darnassus."
+  },
+  {
+   "q": "Where does Tyrande reside right now?",
+   "aliases": [
+    "where is tyrande",
+    "tyrande location",
+    "where to find tyrande"
+   ],
+   "answer": "Tyrande resides in the capital city of Darnassus, situated high in the branches of the world tree Teldrassil. She presides from the upper sanctuary of the Temple of the Moon, surrounded by the Priestesses of Elune and Sentinel guards."
+  },
+  {
+   "q": "What is the relationship between Tyrande and Malfurion?",
+   "aliases": [
+    "tyrande malfurion",
+    "is tyrande married",
+    "tyrande and illidan"
+   ],
+   "answer": "Tyrande and Malfurion Stormrage are lifelong partners who have guided the night elf civilization together for ten millennia. Though both Malfurion and his twin brother Illidan sought her love in their youth, Tyrande chose Malfurion, whose deep devotion to balance and nature mirrored her faith in Elune."
+  },
+  {
+   "q": "What is the Sisterhood of Elune?",
+   "aliases": [
+    "sisterhood of elune",
+    "priestesses of elune",
+    "tyrande priests"
+   ],
+   "answer": "The Sisterhood of Elune is the ancient religious order of night elf priestesses dedicated to worshiping the Moon Goddess. Under Tyrande's leadership as High Priestess, the sisters serve not only as healers and spiritual guides, but also as fierce martial commanders and combatants."
+  },
+  {
+   "q": "What role did Tyrande play in the Long Vigil?",
+   "aliases": [
+    "what was the long vigil",
+    "tyrande long vigil",
+    "sentinel leader"
+   ],
+   "answer": "During the ten thousand years after the Sundering, while Malfurion and the male druids slumbered in the Emerald Dream, Tyrande established and commanded the Sentinels. She patrolled the wilds of Kalimdor, hunted remaining satyrs and demons, and kept her people safe in isolation."
+  },
+  {
+   "q": "Why is Tyrande wary of the Horde?",
+   "aliases": [
+    "tyrande horde",
+    "why does tyrande hate orcs",
+    "night elves vs horde"
+   ],
+   "answer": "During the Third War, the orcs entered Ashenvale and began clear-cutting sacred forests, slaying the demigod Cenarius under the influence of demon blood. While an uneasy truce was struck at Mount Hyjal, the Horde's ongoing logging operations in Ashenvale ensure Tyrande keeps her Sentinels on high alert."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Tyrande is your supreme leader and High Priestess. For over ten thousand years, she has kept vigil over your race, championing the light of Elune through every trial."
+  },
+  {
+   "target": "class:Priest",
+   "text": "As the living vessel of Elune's divine favor, Tyrande embodies the pinnacle of kaldorei priesthood, calling down lunar stars and mending wounds through pure faith."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though historically reclusive and fiercely independent, Tyrande leads the night elves within the Alliance to secure mutual defense against Kalimdor's growing perils."
+  },
+  {
+   "target": "class:Druid",
+   "text": "While Malfurion slumbers in the Emerald Dream, Tyrande coordinates closely with the Cenarion Circle to protect sacred groves and nurture Teldrassil."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "To the Horde, Tyrande is a formidable, uncompromising adversary who has commanded the Sentinels to violently resist resource harvesting across Ashenvale."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "elune",
+  "kaldorei",
+  "malfurion",
+  "priestess",
+  "sentinels",
+  "teldrassil",
+  "tyrande",
+  "whisperwind"
+ ],
+ "related": [
+  "npc:malfurion-stormrage",
+  "npc:shandris-feathermoon",
+  "quest:940",
+  "topic:night-elf",
+  "topic:elune",
+  "topic:sentinels",
+  "topic:war-of-the-ancients",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Tyrande Whisperwind"
+ ]
+}

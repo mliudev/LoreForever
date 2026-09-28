@@ -1,0 +1,118 @@
+{
+ "key": "npc:high-priestess-laurena",
+ "type": "npc",
+ "name": "High Priestess Laurena",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "High Priestess Laurena",
+  "refs": 10
+ },
+ "summary": "High Priestess Laurena is a respected human priest trainer stationed behind the grand altar within Stormwind City's Cathedral of Light. Having escaped the destruction of Lordaeron as a refugee during the Third War, she now instructs budding Alliance priests in spiritual devotion and arcane wards.",
+ "sections": [
+  {
+   "title": "A Refugee of Lordaeron",
+   "body": "Before taking her post within the towering halls of the Cathedral of Light, Laurena dwelt in the northern kingdom of Lordaeron. When the Scourge swept across the land during the Third War, she and her entire family were fortunate enough to survive and flee southward, arriving in Stormwind City as displaced refugees. Despite the immense grief and chaos that shattered her homeland, Laurena remained steadfast in her devotion, eventually rising to become a High Priestess in service to the Church of the Holy Light.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tending the Faithful",
+   "body": "Positioned directly behind the central altar within the cathedral sanctuary, High Priestess Laurena dedicates herself to mentoring aspiring priests. When promising acolytes demonstrate sufficient dedication and piety, they are directed to her to deepen their studies. Laurena guides them in the invocation of sacred boons such as Desperate Prayer and instructs them in defensive arts, including spells designed to turn enemy arcane magic back against those who wield it. Once an initiate has learned all she can offer, she sends them onward to other master priests across the Alliance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find High Priestess Laurena?",
+   "aliases": [
+    "laurena location",
+    "where is priestess laurena",
+    "find laurena"
+   ],
+   "answer": "She stands behind the main altar inside the Cathedral of Light, which is located in Cathedral Square within Stormwind City."
+  },
+  {
+   "q": "What does High Priestess Laurena teach?",
+   "aliases": [
+    "laurena spells",
+    "priest trainer laurena",
+    "what does laurena teach"
+   ],
+   "answer": "Laurena is a priest trainer. She provides foundational instruction to human priests and teaches specialized racial prayers such as Desperate Prayer, as well as wards like Arcane Feedback to protect against hostile spellcasters."
+  },
+  {
+   "q": "Where did Laurena come from before Stormwind?",
+   "aliases": [
+    "laurena backstory",
+    "is laurena from stormwind",
+    "laurena lordaeron"
+   ],
+   "answer": "Laurena originally lived in the kingdom of Lordaeron. During the Third War, her family managed to escape the horrors of the Scourge and fled to Stormwind City as refugees, where she continued her religious calling."
+  },
+  {
+   "q": "Does she serve under Archbishop Benedictus?",
+   "aliases": [
+    "laurena and benedictus",
+    "who is laurena's boss",
+    "benedictus laurena"
+   ],
+   "answer": "Yes. Archbishop Benedictus is the spiritual leader of the Church of the Holy Light and presides over the Cathedral of Light, where Laurena serves as a High Priestess."
+  },
+  {
+   "q": "Why does she direct me to other priest trainers?",
+   "aliases": [
+    "laurena sends me away",
+    "a lack of fear quest",
+    "elunes grace quest"
+   ],
+   "answer": "Different cultures and races within the Alliance commune with the divine in unique ways. Once Laurena has taught her students the foundational prayers of the Holy Light, she sends them to master priests of other disciplines\u2014such as dwarven masters in Ironforge or night elf priestesses in Darnassus\u2014to expand their spiritual horizons."
+  },
+  {
+   "q": "Did Laurena lose her family to the undead?",
+   "aliases": [
+    "laurena family dead",
+    "what happened to laurena family"
+   ],
+   "answer": "Remarkably, her immediate family survived the fall of Lordaeron. They were among the fortunate refugees who managed to escape the Scourge intact and make the long voyage south to the safety of Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "High Priestess Laurena acts as one of Stormwind's primary priest mentors, guiding human acolytes through sacred trials, blessing them with Desperate Prayer, and teaching methods to disrupt enemy spellcasters."
+  },
+  {
+   "target": "race:Human",
+   "text": "Like many humans in Stormwind, Laurena carries the sorrow of the fallen northern realm of Lordaeron, having rebuilt her life as a spiritual pillar for fellow survivors."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "From within the Cathedral of Light, Laurena helps strengthen the spiritual backbone of the Alliance, ensuring its champions can withstand dark magic and undead horrors."
+  }
+ ],
+ "keywords": [
+  "arcane feedback",
+  "benedictus",
+  "cathedral of light",
+  "desperate prayer",
+  "high priestess",
+  "holy light",
+  "laurena",
+  "lordaeron",
+  "priest trainer",
+  "stormwind"
+ ],
+ "related": [
+  "subzone:cathedral-of-light",
+  "npc:archbishop-benedictus",
+  "topic:church-of-the-holy-light",
+  "quest:5634",
+  "quest:5676",
+  "quest:5645",
+  "quest:5672",
+  "zone:stormwind"
+ ],
+ "attribution": [
+  "High Priestess Laurena"
+ ]
+}

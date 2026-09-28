@@ -1,0 +1,63 @@
+{
+ "key": "subzone:stagalbog-cave",
+ "type": "subzone",
+ "name": "Stagalbog Cave",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Stagalbog Cave"
+ },
+ "summary": "Stagalbog Cave is a damp subterranean cavern situated in the Stagalbog within the eastern reaches of the Swamp of Sorrows. It serves as a fortified den for the Marsh murlocs and their sinister spiritual leader, the Swamp Talker.",
+ "sections": [
+  {
+   "title": "Den of the Marsh Tribe",
+   "body": "Tucked away in the murky eastern wetlands of the Swamp of Sorrows, Stagalbog Cave provides shelter from the relentless swamp rains for the local murlocs. Known as the Marsh tribe, these amphibious creatures aggressively guard the winding cavern chambers alongside their chief mystic, the Swamp Talker. Travelers venturing near the sunken mire of the Stagalbog often hear their gurgling calls echoing out across the mossy banks, warning trespassers away from their nesting grounds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Stagalbog Cave?",
+   "aliases": [
+    "where is stagalbog cave",
+    "what's in stagalbog cave"
+   ],
+   "answer": "Stagalbog Cave is a natural cavern located in the Stagalbog within the eastern region of the Swamp of Sorrows. It is primarily occupied by a vicious settlement of Marsh murlocs."
+  },
+  {
+   "q": "Who rules the cave?",
+   "aliases": [
+    "stagalbog boss",
+    "swamp talker",
+    "who leads the murlocs here"
+   ],
+   "answer": "The cavern is dominated by the Marsh tribe and their leader, the Swamp Talker, an influential murloc mystic who oversees the tribe's rituals and defenses within the damp interior."
+  },
+  {
+   "q": "Are there friendly settlements nearby?",
+   "aliases": [
+    "nearest town",
+    "vendors near stagalbog"
+   ],
+   "answer": "The cave is surrounded by wild, hostile marshlands. However, the wider Swamp of Sorrows hosts the Horde outpost of Stonard to the west, while neutral and goblin travelers occasionally scout the surrounding waterways."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "marsh murlocs",
+  "murloc den",
+  "stagalbog",
+  "stagalbog cave",
+  "swamp of sorrows",
+  "swamp talker"
+ ],
+ "related": [
+  "subzone:stagalbog",
+  "zone:swampofsorrows",
+  "topic:murloc",
+  "topic:steamwheedle-cartel"
+ ],
+ "attribution": [
+  "Stagalbog Cave"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "key": "subzone:tundrid-hills",
+ "type": "subzone",
+ "name": "Tundrid Hills",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Tundrid Hills"
+ },
+ "summary": "The Tundrid Hills are a rugged, snowbound stretch of highland in south-central Dun Morogh, lying just west of the Gol'Bolar Quarry. Inhabited by dangerous mountain wildlife and encroaching Frostmane trolls, the rocky passes are rarely traversed by casual travelers.",
+ "sections": [
+  {
+   "title": "A Treacherous Wilderness",
+   "body": "Stretching between Coldridge Valley and the lowlands of eastern Dun Morogh, the Tundrid Hills offer a rugged cross-country route for those looking to bypass the main roads through Kharanos. However, convenience comes at a steep price. The jagged snowy slopes are prowled by ferocious predators and claimed by bands of Frostmane trolls, making the territory perilous for unwary travelers who venture off the beaten path without a drawn weapon.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Tundrid Hills located?",
+   "aliases": [
+    "tundrid hills location",
+    "where is tundrid hills",
+    "tundrid hills map"
+   ],
+   "answer": "The Tundrid Hills span the south-central portion of Dun Morogh, positioned west of the Gol'Bolar Quarry and forming a natural, elevated boundary south of the main road connecting Kharanos to eastern lands."
+  },
+  {
+   "q": "Why would anyone travel through the Tundrid Hills?",
+   "aliases": [
+    "why go to tundrid hills",
+    "tundrid hills shortcut"
+   ],
+   "answer": "Adventurers sometimes navigate these harsh ridges as an overland shortcut between Coldridge Valley and eastern Dun Morogh, bypassing the established settlement routes, though it is far more hazardous than sticking to the patrolled roads."
+  },
+  {
+   "q": "What threats can be found in the Tundrid Hills?",
+   "aliases": [
+    "what lives here",
+    "tundrid hills enemies",
+    "monsters in tundrid hills"
+   ],
+   "answer": "The hills are home to fierce native wildlife accustomed to the freezing heights, as well as aggressive Frostmane troll camps established in the snowy valleys."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For mountaineers of Ironforge, these heights serve as an ever-present reminder that wilderness and hostile Frostmane trolls press close against Dun Morogh's heartland."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The wind-battered crags provide rugged tracking grounds filled with hardy beasts adapted to Dun Morogh's punishing mountain chill."
+  }
+ ],
+ "keywords": [
+  "coldridge valley",
+  "dun morogh",
+  "frostmane",
+  "gol'bolar quarry",
+  "ironforge",
+  "kharanos",
+  "tundrid hills"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "subzone:gol-bolar-quarry",
+  "subzone:coldridge-valley",
+  "subzone:kharanos",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Tundrid Hills"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "key": "subzone:razorfen-kraul-classic",
+ "type": "subzone",
+ "name": "Razorfen Kraul (Classic)",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Razorfen Kraul (Classic)"
+ },
+ "summary": "Razorfen Kraul is the ancestral heartland of the quilboar, carved deep into the colossal thorns that sprang from the blood of the fallen boar demigod Agamaggan. Ruled by the ruthless crone Charlga Razorflank, this fortified labyrinth serves as a staging ground for bloody raids across the Southern Barrens.",
+ "sections": [
+  {
+   "title": "Blood of the Boar God",
+   "body": "Ten thousand years ago during the War of the Ancients, the colossal boar demigod Agamaggan perished battling the Burning Legion to save Azeroth. Wherever his sacred blood seeped into the soil of southern Kalimdor, massive, impenetrable thorn vines erupted from the earth. The quilboar, believing themselves the mortal progeny of the Great Boar, gathered within these dense briars to dwell and venerate his sacrifice. The dense mass known as Razorfen Kraul stands as their most revered redoubt, thick with quilboar warriors, beast trainers, and earth-shaping shamans.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Crone's Ambition",
+   "body": "Control over the Kraul has fallen to the aging geomancer Charlga Razorflank. Under her iron rule, the Razorfen tribe has waged merciless war against rival quilboar bands and nearby Horde encampments alike. Far more chilling than mere territorial raiding, however, are reports from watchful scouts noting undead figures lurking around the thorny briars. Whispers suggest that Charlga has begun bargaining with agents of the Scourge, endangering not only the Barrens but threatening to open a grim foothold for undeath on Kalimdor.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What created the giant thorns around Razorfen Kraul?",
+   "aliases": [
+    "why are there thorns here",
+    "giant thorn vines barrens",
+    "agamaggan thorns lore"
+   ],
+   "answer": "According to legend, the colossal thorn vines sprouted wherever the blood of the boar demigod Agamaggan struck the ground during the War of the Ancients ten thousand years ago."
+  },
+  {
+   "q": "Who rules Razorfen Kraul?",
+   "aliases": [
+    "razorfen kraul leader",
+    "who leads the kraul",
+    "charlga razorflank"
+   ],
+   "answer": "Razorfen Kraul is commanded by Charlga Razorflank, a ruthless quilboar crone and geomancer who directs raids against neighboring tribes and settlements."
+  },
+  {
+   "q": "Why are there undead near the Kraul?",
+   "aliases": [
+    "scourge in razorfen",
+    "undead quilboar",
+    "why scourge barrens"
+   ],
+   "answer": "Charlga Razorflank has reportedly entered secret negotiations with agents of the Scourge, seeking an unholy alliance that could bring the power of undeath into the quilboar folds."
+  },
+  {
+   "q": "Where is Razorfen Kraul located?",
+   "aliases": [
+    "where is rfk",
+    "rfk entrance",
+    "razorfen kraul location"
+   ],
+   "answer": "Razorfen Kraul is situated in the southernmost reaches of the Barrens, nestled on the western side of the colossal thorn thickets just north of the Great Lift."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Charlga Razorflank's aggressive raids directly threaten southern settlements and trade routes, making pacifying the Kraul an urgent security priority for the Horde."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Tauren hunters and shamans hold deep historical enmity with the quilboar, and the rumors of unholy Scourge corruption taking root in the revered earth of Agamaggan demand their swift intervention."
+  }
+ ],
+ "keywords": [
+  "agamaggan",
+  "agathelos",
+  "barrens",
+  "charlga razorflank",
+  "quilboar",
+  "ramtusk",
+  "razorfen kraul",
+  "rfk",
+  "scourge"
+ ],
+ "related": [
+  "topic:agamaggan",
+  "topic:quilboar",
+  "npc:charlga-razorflank",
+  "npc:overlord-ramtusk",
+  "npc:agathelos-the-raging",
+  "zone:barrens",
+  "topic:scourge",
+  "quest:1101"
+ ],
+ "attribution": [
+  "Razorfen Kraul (Classic)"
+ ]
+}

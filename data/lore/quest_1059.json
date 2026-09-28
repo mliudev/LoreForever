@@ -1,0 +1,120 @@
+{
+ "key": "quest:1059",
+ "type": "quest",
+ "name": "Reclaiming the Charred Vale",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1059
+  ],
+  "level": "27",
+  "faction": "Alliance",
+  "start": "Keeper Albagorm",
+  "end": "Falfindel Waywarder",
+  "previous": "Reclaiming the Charred Vale",
+  "next": null,
+  "wiki": "Reclaiming the Charred Vale (2)",
+  "chain": [
+   "Reclaiming the Charred Vale",
+   "Reclaiming the Charred Vale (2)"
+  ]
+ },
+ "summary": "Reclaiming the Charred Vale is a messenger quest tasked by Keeper Albagorm in Stonetalon Peak. Having temporarily suppressed the local harpies, Albagorm sends an Alliance traveler far south to Feralas to recruit the aid of the druid Falfindel Waywarder.",
+ "sections": [
+  {
+   "title": "The Scars of the Vale",
+   "body": "The Charred Vale in southern Stonetalon Mountains remains an ash-choked reminder of catastrophic devastation. While Alliance forces under Keeper Albagorm have struck back against the rampant Bloodfury harpies nesting in the ruins, driving them off is merely a holding action. Albagorm recognizes that physical force alone cannot mend the ravaged earth before the harpies rally and reclaim their dominance.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Plea to the South",
+   "body": "To permanently restore the scorched lands, the grove tenders need mystical intervention beyond their current means. Albagorm dispatches a courier far to the south, skirting past the salt flats and canyons of Thousand Needles to Forest's Edge on the border of Feralas. There waits Falfindel Waywarder, a night elf druid reputed to possess the rare power to call forth primordial forest spirits capable of rejuvenating the dead soil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Keeper Albagorm?",
+   "aliases": [
+    "who is albagorm",
+    "keeper albagorm"
+   ],
+   "answer": "Keeper Albagorm is a night elf keeper stationed at Stonetalon Peak who oversees Alliance efforts to cleanse and restore the blighted Charred Vale."
+  },
+  {
+   "q": "Where is Falfindel Waywarder located?",
+   "aliases": [
+    "where is falfindel",
+    "falfindel waywarder location",
+    "find waywarder"
+   ],
+   "answer": "Falfindel Waywarder is stationed at the Forest's Edge, positioned on the western border where Thousand Needles transitions into the lush wilderness of Feralas."
+  },
+  {
+   "q": "Why send for a druid all the way in Feralas?",
+   "aliases": [
+    "why go to feralas",
+    "why falfindel"
+   ],
+   "answer": "Keeper Albagorm considers Falfindel uniquely capable of summoning powerful ancient forest spirits that can reverse the deep ecological devastation of the Charred Vale."
+  },
+  {
+   "q": "What threat resides in the Charred Vale?",
+   "aliases": [
+    "charred vale enemies",
+    "what is attacking the vale"
+   ],
+   "answer": "The valley is overrun by hostile Bloodfury harpies alongside fire elementals and wild beasts that thrived in the wake of the land's burning."
+  },
+  {
+   "q": "Does this quest require combat?",
+   "aliases": [
+    "is this quest hard",
+    "combat in charred vale quest"
+   ],
+   "answer": "No. The second part of Reclaiming the Charred Vale is purely an overland travel quest requiring you to deliver Albagorm's message across central and southern Kalimdor."
+  },
+  {
+   "q": "How do you reach Thousand Needles from Stonetalon?",
+   "aliases": [
+    "how to get to thousand needles",
+    "travel route to feralas"
+   ],
+   "answer": "Travelers must journey east out of Stonetalon Mountains into the Barrens, head south along the Great Divide, descend the Great Lift into Thousand Needles, and continue west toward Feralas."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This mission highlights the Cenarion duty to reach beyond local garrisons and summon primal nature spirits to heal lands scarred by unnatural ruin."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance's foothold at Stonetalon Peak relies on connecting frontier outposts across vast, contested stretches of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "bloodfuries",
+  "charred vale",
+  "falfindel waywarder",
+  "feralas",
+  "forest's edge",
+  "keeper albagorm",
+  "stonetalon peak",
+  "thousand needles"
+ ],
+ "related": [
+  "quest:1057",
+  "npc:keeper-albagorm",
+  "npc:falfindel-waywarder",
+  "subzone:charred-vale",
+  "subzone:forest-s-edge",
+  "zone:stonetalon",
+  "zone:feralas",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Reclaiming the Charred Vale (2)"
+ ]
+}

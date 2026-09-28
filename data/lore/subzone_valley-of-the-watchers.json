@@ -1,0 +1,79 @@
+{
+ "key": "subzone:valley-of-the-watchers",
+ "type": "subzone",
+ "name": "Valley of the Watchers",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Valley of the Watchers"
+ },
+ "summary": "Tucked away in the far southern reaches of the Tanaris desert, the Valley of the Watchers is a sun-scorched canyon defined by monumental stonework. At its end stands a colossal, sealed stone gate leading into the mysterious complex of Uldum, guarded by lumbering giants and ancient stone sentinels.",
+ "sections": [
+  {
+   "title": "The Sealed Threshold",
+   "body": "The Valley of the Watchers marks the southern boundary where the shifting sands of Tanaris meet the mountainous edge of the continent. Dominating the canyon is a massive gate crafted from ancient stone, locked tight against the outside world. This sealed portal is believed to guard the entrance to Uldum, a subterranean facility of the enigmatic Titans. Massive Dune Smasher mountain giants roam the dusty approach, ensuring that whatever secrets lie buried beneath the sands remain undisturbed by travelers, tomb robbers, and scholars alike.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is behind the huge stone gate here?",
+   "aliases": [
+    "gate of uldum",
+    "what is uldum",
+    "what is behind the door"
+   ],
+   "answer": "The monumental doors are the entrance to Uldum, an ancient subterranean facility constructed by the Titans long before recorded mortal history. For now, the mechanisms remain entirely sealed, keeping its true contents and purpose a total mystery."
+  },
+  {
+   "q": "Can the gate to Uldum be opened?",
+   "aliases": [
+    "can you open the uldum gate",
+    "open uldum door",
+    "how to get into uldum"
+   ],
+   "answer": "No. The massive stone gates are completely impassable. No mortal key, spell, or force currently known in Kalimdor can bypass the Titan safeguards locking the complex shut."
+  },
+  {
+   "q": "Why are there giants wandering the valley?",
+   "aliases": [
+    "why are there dune smashers",
+    "valley giants",
+    "mountain giants tanaris"
+   ],
+   "answer": "Colossal mountain giants known as Dune Smashers prowl the canyon floor. Drawn to the area's potent earthen energy, they fiercely guard the approach, crushing any adventurers who stray too close to the southern cliffs."
+  },
+  {
+   "q": "Where in Tanaris is this valley located?",
+   "aliases": [
+    "valley of the watchers location",
+    "how to find valley of the watchers",
+    "where is the gate"
+   ],
+   "answer": "The valley lies at the far southern edge of Tanaris, south of the Thistleshrub Valley and the gaping chasms of the Southbreak Shores, carved directly into the towering southern mountain wall."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarven explorers and members of the Explorer's League, the massive stone gateway represents another tantalizing puzzle piece in the search for their Titan creators."
+  }
+ ],
+ "keywords": [
+  "dune smasher",
+  "kalimdor",
+  "tanaris",
+  "titan gate",
+  "titans",
+  "uldum",
+  "valley of the watchers"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:uldum",
+  "topic:titan"
+ ],
+ "attribution": [
+  "Valley of the Watchers"
+ ]
+}

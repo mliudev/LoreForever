@@ -1,0 +1,94 @@
+{
+ "key": "subzone:zul-farrak",
+ "type": "subzone",
+ "name": "Zul'Farrak",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Zul'Farrak"
+ },
+ "summary": "Zul'Farrak is a sprawling, sun-baked sandstone city tucked into the northwestern cliffs of Tanaris. Long isolated from the rest of their kind, the Sandfury trolls defend this ancient stronghold with fanatic zeal, dark voodoo, and a hoard of undead risen from their sandy graves.",
+ "sections": [
+  {
+   "title": "The Withered Remnant",
+   "body": "Before the Great Sundering shattered ancient Kalimdor, Tanaris was a lush jungle belonging to the Gurubashi Empire, and Zul'Farrak was one of its prominent settlements. Severed from their brethren when the seas broke the world, the resident Farraki trolls adapted to the searing, arid wastes, transforming over millennia into the hardened sand trolls seen today. Desperate to reclaim lost prominence, their priests now practice a brutal brand of dark mysticism, exhuming their own dead to build a shambling army within their sun-bleached walls.",
+   "spoiler": 0
+  },
+  {
+   "title": "Legends of the Sand",
+   "body": "Whispers throughout Gadgetzan tell of treasures and terrors hidden behind Zul'Farrak's guarded gates. Troll lore speaks of Sul'thraze the Lasher, a legendary broadsword broken into two separate blades that remain hidden somewhere in the city. More alarming are the tales of a band of mercenaries led by Sergeant Bly who wandered into the city and were captured, as well as rumors of Gahz'rilla, an ancient hydra demigod slumbering within a sacred pool at the city's heart.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What tribe of trolls lives here?",
+   "aliases": [
+    "who lives in zulfarrak",
+    "sand troll tribe",
+    "what trolls are these"
+   ],
+   "answer": "Zul'Farrak is held by the Sandfury tribe (also called the Farraki). They were once part of the southern Gurubashi Empire before the Great Sundering turned their lush home into a desert, forcing them to adapt to the scorching sands."
+  },
+  {
+   "q": "Why are there so many zombies and graves inside?",
+   "aliases": [
+    "why undead in zulfarrak",
+    "sandfury zombies",
+    "troll graves"
+   ],
+   "answer": "Pushed to the brink of desperation and isolation, the Sandfury witch doctors and shadow hunters have turned to dark necromancy. They have begun raising their fallen kin as undead thralls to bolster their ranks and wage war across Tanaris."
+  },
+  {
+   "q": "What is the ancient monster sleeping in the city?",
+   "aliases": [
+    "hydra boss",
+    "ancient creature in pool",
+    "gahzrilla"
+   ],
+   "answer": "The creature is Gahz'rilla, a colossal hydra demigod. Kept slumbering in a deep sacred pool within the city, it is revered by the Sandfury, though disturbing rumors suggest the beast can be called forth with the proper ritual instrument."
+  },
+  {
+   "q": "What is Sul'thraze the Lasher?",
+   "aliases": [
+    "sandfury sword",
+    "sulthraze",
+    "zul farrak sword legend"
+   ],
+   "answer": "Sul'thraze the Lasher is a legendary blade from ancient troll folklore, renowned for sapping the strength and will of anyone struck by it. Long ago it was shattered into two distinct swords, Jang'thraze and Sang'thraze, both of which are rumored to be kept inside the city."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "The Sandfury view the Darkspear as weak traitors allied with foreign conquerors, while Darkspear elders like Master Gadrin watch their corrupted desert cousins with grim concern."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Human and dwarven explorers are frequently drawn here to recover ancient relics or rescue missing mercenaries who vanished into the ruins from Gadgetzan."
+  }
+ ],
+ "keywords": [
+  "farraki",
+  "gadgetzan",
+  "gahz'rilla",
+  "sand trolls",
+  "sandfury",
+  "sul'thraze",
+  "tanaris",
+  "zul'farrak"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:gadgetzan",
+  "topic:troll",
+  "npc:master-gadrin",
+  "subzone:sen-jin-village",
+  "quest:1179",
+  "subzone:mirage-raceway",
+  "subzone:tabetha-s-farm"
+ ],
+ "attribution": [
+  "Zul'Farrak"
+ ]
+}

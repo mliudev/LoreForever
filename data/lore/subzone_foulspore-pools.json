@@ -1,0 +1,81 @@
+{
+ "key": "subzone:foulspore-pools",
+ "type": "subzone",
+ "name": "Foulspore Pools",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Foulspore Pools"
+ },
+ "summary": "The Foulspore Pools are a subterranean cavern system beneath Desolace that serves as the orange-crystal approach to Maraudon. Bathed in unnatural fungal warmth, the cavern is filled with polluted pools, basilisks, and aggressive earth elementals. It is also the sanctuary of the dryad Cavindra, who watches over one of the few clean springs remaining in the depths.",
+ "sections": [
+  {
+   "title": "The Orange Tunnels",
+   "body": "Reached through the southern passage out of Zaetar's Choice, the Foulspore Pools form a humid, eerie threshold to Maraudon. Glittering orange crystals hang from the stone overhead, dripping foul moisture into stagnant ponds that bubble across the cavern floor. Hostile subterranean basilisks and corrupted earth elementals stalk the shores of these tainted waters. Deeper in the hollow lies the instance portal leading into Maraudon's Foulspore Caverns, flanked by the grim reminder of Princess Theradras's festering influence on the earth.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cavindra's Respite",
+   "body": "Amid the oppressive rot and sulfurous orange glow, a solitary dryad named Cavindra maintains a delicate sanctuary. Resting beside a tiny pool of untainted water, she aids travelers willing to delve into the tomb-city beyond. Her presence stands in stark contrast to the surrounding decay, embodying the Cenarion circle's desperate hope to heal the tragedy wrought by Zaetar and Theradras.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I get to the Foulspore Pools?",
+   "aliases": [
+    "where are foulspore pools",
+    "how to reach foulspore pools",
+    "foulspore pools entrance"
+   ],
+   "answer": "Head down into the cavern complex beneath Desolace to the crossroads known as Zaetar's Choice. From there, take the southern tunnel glowing with orange crystals, which leads straight into the Foulspore Pools."
+  },
+  {
+   "q": "Who is Cavindra?",
+   "aliases": [
+    "dryad in maraudon",
+    "cavindra",
+    "orange side dryad"
+   ],
+   "answer": "Cavindra is a dryad found beside an unpolluted pool within the caverns. As a child of the Cenarion bloodline, she keeps vigil near Maraudon's entrance and offers guidance and quests to adventurers seeking to cleanse the corruption within."
+  },
+  {
+   "q": "Where does the portal at the end lead?",
+   "aliases": [
+    "foulspore portal",
+    "orange instance portal maraudon"
+   ],
+   "answer": "The dungeon portal at the far end of the cavern leads into the orange wing of Maraudon, specifically the Foulspore Cavern. It brings adventurers directly into the territory overrun by fungal horrors, oozes, and the Corruptor Noxxion."
+  },
+  {
+   "q": "Why are the waters orange and polluted?",
+   "aliases": [
+    "why is water orange",
+    "foulspore water corruption"
+   ],
+   "answer": "The glowing orange crystals and tainted waters are the result of the elemental and fungal corruption spreading outward from Princess Theradras's deep lair within Maraudon, blighting the earth and twisting subterranean wildlife."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The foul waters and twisted elementals here represent the tragic fallout of Zaetar's union with Theradras, making this cavern a place of mourning and duty for Cenarion druids."
+  }
+ ],
+ "keywords": [
+  "basilisks",
+  "cavindra",
+  "desolace",
+  "foulspore pools",
+  "maraudon",
+  "orange crystals",
+  "zaetar's choice"
+ ],
+ "related": [
+  "zone:desolace",
+  "subzone:zaetar-s-choice"
+ ],
+ "attribution": [
+  "Foulspore Pools"
+ ]
+}

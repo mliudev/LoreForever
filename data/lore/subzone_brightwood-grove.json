@@ -1,0 +1,82 @@
+{
+ "key": "subzone:brightwood-grove",
+ "type": "subzone",
+ "name": "Brightwood Grove",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Brightwood Grove"
+ },
+ "summary": "Brightwood Grove is a shadowed expanse of woodland located just west of Darkshire in Duskwood. Once part of the region's serene agrarian landscape, it is now infested with savage Nightbane worgen who make camp among ruined homesteads and attack any travelers wandering too close.",
+ "sections": [
+  {
+   "title": "A Grove in Shadow",
+   "body": "Situated within sight of Darkshire's perimeter, Brightwood Grove represents the creeping peril threatening the town's borders. The homesteads and fences that once demarcated peaceful farmland now lie collapsed and rotting. In their place, crude camps have been erected by the Nightbane worgen, who prowl the overgrown clearings. The proximity of these wolf-beasts poses an ongoing threat to the town, forcing the Night Watch and passing adventurers to continually cull their numbers before the settlement is overrun.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Brightwood Grove?",
+   "aliases": [
+    "brightwood grove location",
+    "where is brightwood grove",
+    "brightwood duskwood"
+   ],
+   "answer": "Brightwood Grove is located in eastern Duskwood, lying just west of the town of Darkshire along the main paths."
+  },
+  {
+   "q": "What creatures inhabit Brightwood Grove?",
+   "aliases": [
+    "monsters in brightwood grove",
+    "brightwood enemies",
+    "what lives in brightwood"
+   ],
+   "answer": "The grove is heavily infested by savage Nightbane worgen. These cursed wolf-men have established crude camps throughout the ruined buildings and attack anyone who approaches."
+  },
+  {
+   "q": "Why is the grove dangerous to Darkshire?",
+   "aliases": [
+    "why is brightwood grove dangerous",
+    "darkshire brightwood threat"
+   ],
+   "answer": "Because Brightwood Grove sits immediately west of Darkshire, the aggressive worgen packs lurking in the brush are an immediate hazard to town patrols, supply lines, and any travelers arriving along the road."
+  },
+  {
+   "q": "Are there any friendly settlements in the grove?",
+   "aliases": [
+    "is anyone friendly in brightwood",
+    "brightwood town"
+   ],
+   "answer": "No. The few stone buildings and farmsteads on the outskirts of the grove lie entirely in ruins, abandoned to the elements and occupied by roving worgen."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Brightwood Grove sits right outside the gates of Darkshire, making the elimination of its worgen packs vital to keeping the beleaguered town from being cut off from the west."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The dark thickets of the grove provide harsh terrain for tracking the vicious Nightbane, testing any hunter's awareness against ambushes lurking behind the tree line."
+  }
+ ],
+ "keywords": [
+  "brightwood grove",
+  "darkshire",
+  "duskwood",
+  "night watch",
+  "nightbane",
+  "wolf men",
+  "worgen"
+ ],
+ "related": [
+  "zone:duskwood",
+  "subzone:darkshire",
+  "topic:worgen",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Brightwood Grove"
+ ]
+}

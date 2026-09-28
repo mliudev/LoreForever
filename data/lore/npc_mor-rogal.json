@@ -1,0 +1,85 @@
+{
+ "key": "npc:mor-rogal",
+ "type": "npc",
+ "name": "Mor'rogal",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Mor'rogal",
+  "refs": 2
+ },
+ "summary": "Mor'rogal is a tauren resident of Sun Rock Retreat in the Stonetalon Mountains. He serves as an advisor and guide for travelers seeking glory and peril within the rugged subterranean reaches of the crags.",
+ "sections": [
+  {
+   "title": "Watcher in the Crags",
+   "body": "Perched within the refuge of Sun Rock Retreat, Mor'rogal takes a keen interest in the deep crevices and caverns that cut through the Stonetalon Mountains. Recognizing that the region's twisting subterranean passes offer both great riches and lethal danger, he directs brave Horde wanderers to investigate troubled areas like the Boulderslide Ravine. For Mor'rogal, delving into these treacherous depths is not merely a matter of survival, but a test of spirit for those who follow their heart and soul in search of glory.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mor'rogal?",
+   "aliases": [
+    "morrogal",
+    "who is mor'rogal",
+    "mor rogal lore"
+   ],
+   "answer": "Mor'rogal is a tauren quest giver residing in Sun Rock Retreat within the Stonetalon Mountains. He acts as a local guide, urging Horde adventurers to test their mettle in the dangerous caves and ravines scattered across the craggy mountain range."
+  },
+  {
+   "q": "Where can I find Mor'rogal?",
+   "aliases": [
+    "mor'rogal location",
+    "where is mor'rogal",
+    "morrogal spot"
+   ],
+   "answer": "He can be found standing in Sun Rock Retreat, the primary Horde outpost situated around the peaceful mountain lake in the central Stonetalon Mountains."
+  },
+  {
+   "q": "What tasks does Mor'rogal offer?",
+   "aliases": [
+    "mor'rogal quests",
+    "what does mor'rogal want"
+   ],
+   "answer": "Mor'rogal enlists capable champions to venture into Boulderslide Ravine to deal with the hostile elementals and troggs stirring in the rocky defiles."
+  },
+  {
+   "q": "Why is Mor'rogal focused on caves and ravines?",
+   "aliases": [
+    "why caves",
+    "mor'rogal caves"
+   ],
+   "answer": "Mor'rogal believes that the perilous subterranean caverns of Stonetalon hold true adventures and tests of spiritual resolve, offering glory and riches to those willing to risk their lives."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Mor'rogal embodies the tauren respect for physical and spiritual testing, viewing the deep stone hollows of Kalimdor as sacred ground to prove one's worth."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For travelers reaching the haven of Sun Rock Retreat, Mor'rogal provides crucial intelligence on the threats lurking in the crags beyond the settlement's borders."
+  }
+ ],
+ "keywords": [
+  "boulderslide ravine",
+  "earthen arise",
+  "mor'rogal",
+  "morrogal",
+  "stonetalon",
+  "sun rock retreat",
+  "tauren"
+ ],
+ "related": [
+  "subzone:sun-rock-retreat",
+  "zone:stonetalon",
+  "quest:6421",
+  "quest:6481",
+  "topic:tauren",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Mor'rogal"
+ ]
+}

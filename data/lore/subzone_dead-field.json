@@ -1,0 +1,92 @@
+{
+ "key": "subzone:dead-field",
+ "type": "subzone",
+ "name": "Dead Field",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Dead Field"
+ },
+ "summary": "The Dead Field is a blighted, abandoned farmstead situated in northern Silverpine Forest. Once quiet rural farmland, it has been seized by the Rot Hide gnolls and transformed into a forward staging ground for Scourge forces. Repeated Forsaken attempts to clear the area have faltered under the command of the banshee Nightlash.",
+ "sections": [
+  {
+   "title": "A Blighted Staging Ground",
+   "body": "Little remains of the original farmstead in the northern reaches of Silverpine Forest, its previous living occupants long lost to the Third War. Today, the ruined plot serves as a base of operations for the Rot Hide gnolls, who act as willing servants to the Scourge. As their numbers swelled, Deathstalker scouts passing through the region noted signs of imminent military mobilization threatening Forsaken supply lines and outposts. Small Forsaken assaults against the farm have repeatedly failed, turned back by the wailing apparition Nightlash\u2014a banshee who manifests whenever her gnoll thralls are endangered.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ravenclaw's Ambition",
+   "body": "The Rot Hide gnolls do not act alone. Their operations in the Dead Field are orchestrated from afar by the necromancer Thule Ravenclaw, based out of Fenris Isle. Intending to assert Scourge dominance over Silverpine and drive Sylvanas's forces out of Lordaeron, Ravenclaw projects magical apparitions to the farmstead to survey his undead horde and issue warnings to Forsaken intruders.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Dead Field?",
+   "aliases": [
+    "dead field silverpine",
+    "where is dead field",
+    "what happened to dead field"
+   ],
+   "answer": "The Dead Field is a decrepit, blighted farmstead located in northern Silverpine Forest. Once an ordinary human farm, it has fallen into ruin and is now occupied by Scourge-aligned Rot Hide gnolls."
+  },
+  {
+   "q": "Why are there gnolls at the farm?",
+   "aliases": [
+    "why rot hide gnolls",
+    "rot hides dead field",
+    "scourge gnolls"
+   ],
+   "answer": "These Rot Hide gnolls are under the sway of the Scourge. They use the farmstead as a forward staging ground to gather forces and prepare attacks against Forsaken positions in northern Silverpine Forest."
+  },
+  {
+   "q": "Who is Nightlash?",
+   "aliases": [
+    "nightlash banshee",
+    "banshee in dead field",
+    "who protects the gnolls"
+   ],
+   "answer": "Nightlash is a Scourge banshee commanding the Rot Hide gnolls at the farm. Whenever Forsaken strike forces assault the encampment, she materializes to defend her servants, repelling previous attempts to reclaim the land."
+  },
+  {
+   "q": "Who commands the Scourge forces here?",
+   "aliases": [
+    "who controls dead field",
+    "thule ravenclaw dead field",
+    "who is in charge"
+   ],
+   "answer": "The encampment answers to Thule Ravenclaw, a powerful necromancer operating from nearby Fenris Isle. He coordinates the gnolls through apparitions and magical oversight to harass Forsaken expansion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, the Scourge foothold at the Dead Field poses an immediate threat to the road between the Sepulcher and northern Lordaeron, demanding swift extermination."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Deathstalker recon teams monitor the farm closely; infiltrating the gnoll ranks and striking their command structure is a critical tactical priority."
+  }
+ ],
+ "keywords": [
+  "banshee",
+  "dead field",
+  "deathstalkers",
+  "nightlash",
+  "rot hide",
+  "silverpine forest",
+  "thule ravenclaw"
+ ],
+ "related": [
+  "quest:437",
+  "quest:446",
+  "quest:1886",
+  "zone:silverpine",
+  "topic:gnoll",
+  "topic:scourge",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Dead Field"
+ ]
+}

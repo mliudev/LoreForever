@@ -1,0 +1,116 @@
+{
+ "key": "quest:2498",
+ "type": "quest",
+ "name": "Return to Denalan",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   2498
+  ],
+  "level": "9",
+  "faction": "Alliance",
+  "start": "Rellian Greenspyre",
+  "end": "Denalan",
+  "previous": null,
+  "next": "Oakenscowl (Classic)",
+  "wiki": "Return to Denalan",
+  "chain": []
+ },
+ "summary": "Return to Denalan is an Alliance quest connecting the botanists investigating corruption within Teldrassil. After studying the mossy tumors afflicting local timberlings, Rellian Greenspyre sends you back south to Lake Al'Ameth to assist Denalan with an alarming new discovery.",
+ "sections": [
+  {
+   "title": "A Message Across the Boughs",
+   "body": "While examining the strange mossy tumors afflicting Teldrassil's timberlings, Rellian Greenspyre receives urgent word from his colleague Denalan. Stationed beside the tranquil waters of Lake Al'Ameth, Denalan believes he has finally isolated what is causing these unnatural growths on the forest's nature spirits. Recognizing the gravity of the situation, Rellian dispatches you back south immediately to lend a hand.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat at the Lake",
+   "body": "Denalan's research at Lake Al'Ameth is critical to understanding the ailments creeping across the young World Tree. What began as an investigation into corrupted plant life and diseased timberlings quickly escalates into a direct confrontation with the blighted entities poisoning the boughs, starting with the ancient treant Oakenscowl.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Denalan?",
+   "aliases": [
+    "denalan lore",
+    "who is denalan",
+    "denalan lake al'ameth"
+   ],
+   "answer": "Denalan is a night elf researcher and naturalist stationed at Lake Al'Ameth in southern Teldrassil. He dedicates his time to studying the island's flora, strange seedling mutations, and the unnatural afflictions spreading among the local timberlings."
+  },
+  {
+   "q": "Why does Rellian Greenspyre send you back to Lake Al'Ameth?",
+   "aliases": [
+    "why go to denalan",
+    "rellian greenspyre mission"
+   ],
+   "answer": "Rellian receives word that Denalan has discovered the likely root cause behind the tumors corrupting the timberlings. Because the situation is developing rapidly and poses a growing danger to the forest, Rellian sends you to provide immediate field assistance."
+  },
+  {
+   "q": "What are the tumors afflicting the timberlings?",
+   "aliases": [
+    "timberling tumors",
+    "why do timberlings have tumors",
+    "mossy tumors"
+   ],
+   "answer": "Timberlings are peaceful nature spirits born from the island's plant life, but a pervasive corruption taking root in Teldrassil causes them to sprout bizarre mossy growths. These tumors drive the creatures hostile and maddened."
+  },
+  {
+   "q": "Where can I find Denalan?",
+   "aliases": [
+    "denalan location",
+    "where is denalan"
+   ],
+   "answer": "Denalan makes his camp along the shores of Lake Al'Ameth, just south of Dolanaar in the southern woodlands of Teldrassil."
+  },
+  {
+   "q": "What happens after you reach Denalan?",
+   "aliases": [
+    "what comes next",
+    "oakenscowl follow up"
+   ],
+   "answer": "Upon arriving, Denalan reveals that a corrupted treant named Oakenscowl is responsible for the blighted tumors spreading through the grove, tasking you with destroying the beast to halt the contamination."
+  },
+  {
+   "q": "Why did this quest disappear in later eras?",
+   "aliases": [
+    "why was this quest removed",
+    "return to denalan removed"
+   ],
+   "answer": "In later updates, Denalan relocated from his lakeside camp directly to the Wellspring Hovel beside Rellian Greenspyre, rendering a travel quest between the two botanists unnecessary."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The timberlings are living manifestations of Teldrassil's vitality; aiding Denalan is part of the sacred duty to heal the growing corruption threatening your people's new home."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Investigating unnatural tumors on woodland spirits cuts to the core of the Cenarion mandate to maintain the natural balance and cleanse insidious blights."
+  }
+ ],
+ "keywords": [
+  "denalan",
+  "dolanaar",
+  "lake al'ameth",
+  "oakenscowl",
+  "rellian greenspyre",
+  "teldrassil",
+  "timberlings",
+  "tumors"
+ ],
+ "related": [
+  "quest:923",
+  "quest:2499",
+  "npc:denalan",
+  "quest:922",
+  "subzone:lake-al-ameth",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Return to Denalan"
+ ]
+}

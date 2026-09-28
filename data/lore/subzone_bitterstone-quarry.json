@@ -1,0 +1,78 @@
+{
+ "key": "subzone:bitterstone-quarry",
+ "type": "subzone",
+ "name": "Bitterstone Quarry",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Bitterstone Quarry"
+ },
+ "summary": "Bitterstone Quarry is an excavation site located in central Darkshore, lying in the hills east of Auberdine. Tucked between coastal cliffs and ancient forest slopes, the rocky pit serves as a rugged landmark amid the misty wilderness.",
+ "sections": [
+  {
+   "title": "A Carved Hollow in the Mist",
+   "body": "Carved into the rugged terrain of Darkshore east of Auberdine, Bitterstone Quarry represents an uncharacteristic gouge in lands otherwise jealously guarded by the night elves. The quarry cuts into the stony hillside, nestled north of the rocky coastline and the churning currents of the shore. Travelers moving through the misty expanse often have to navigate the jagged rock faces and hazardous ridges surrounding the excavation.",
+   "spoiler": 0
+  },
+  {
+   "title": "Wilds and Strife",
+   "body": "The quarry sits amid a precarious landscape where encroaching perils constantly brush against night elf territory. The rugged ridges nearby are stalked by territorial wildlife, including the ferocious wildkin Madfeather roaming between the quarry and the turbulent shore. As conflicts ripple across northern Kalimdor, such mineral-rich hollows stand as contested ground caught between natural predators and outside eyes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Bitterstone Quarry located?",
+   "aliases": [
+    "bitterstone quarry location",
+    "where is bitterstone quarry",
+    "how to find bitterstone quarry"
+   ],
+   "answer": "Bitterstone Quarry is located in central Darkshore, set inland into the rocky hills east of Auberdine and north of the coastal vortex waters."
+  },
+  {
+   "q": "What threats wander around the quarry?",
+   "aliases": [
+    "bitterstone quarry monsters",
+    "who is in bitterstone quarry",
+    "madfeather location"
+   ],
+   "answer": "The rugged wilderness bordering the quarry is home to fierce local wildlife, notably the enraged wildkin known as Madfeather, who prowls the rocky trails between the quarry and the nearby shoreline."
+  },
+  {
+   "q": "Why do the night elves care about this site?",
+   "aliases": [
+    "why night elves care bitterstone",
+    "kaldorei in bitterstone quarry"
+   ],
+   "answer": "The night elves are deeply protective of Darkshore's pristine wilderness. Any quarrying or intrusion into the natural stone disrupts the balance of the ancient coastal woodlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the Sentinels of Darkshore, rocky scars like Bitterstone Quarry represent an ongoing challenge to preserve the wild coast against foreign intrusion and rampaging beasts."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The exposed rock faces of the quarry cut deep into Darkshore's coastal bedrock, providing visible mineral veins amidst the thick moss and roots."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "bitterstone quarry",
+  "darkshore",
+  "kaldorei",
+  "madfeather",
+  "quarry"
+ ],
+ "related": [
+  "zone:darkshore",
+  "subzone:auberdine",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Bitterstone Quarry"
+ ]
+}

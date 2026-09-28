@@ -1,0 +1,75 @@
+{
+ "key": "subzone:crystal-shore",
+ "type": "subzone",
+ "name": "Crystal Shore",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Crystal Shore"
+ },
+ "summary": "Crystal Shore is a stretch of sandy coastline along the southeastern edge of Stranglethorn Vale, washed by the waves of the South Seas. Tucked beneath steep coastal bluffs, the beach lies just south of the ancient Ruins of Aboraz and across the waters from Jaguero Isle.",
+ "sections": [
+  {
+   "title": "A Secluded Coastal Strip",
+   "body": "Running along the southeastern perimeter of Stranglethorn Vale, the Crystal Shore forms a natural boundary between the dense tropical interior and the open waters of the South Seas. The beach itself is walled off from the inland jungles by steep ridges, leaving only a couple of rugged passes for travelers attempting to move between the coast and the deeper wilderness of Mistvale Valley. To the north lie the crumbling troll structures of the Ruins of Aboraz, while the Wild Shore extends along the southern curves of the cape. Its location makes it a quiet, windswept margin far removed from the bustling docks of Booty Bay.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Crystal Shore located?",
+   "aliases": [
+    "crystal shore location",
+    "where is crystal shore",
+    "crystal shore map"
+   ],
+   "answer": "The Crystal Shore is situated on the far southeastern coast of Stranglethorn Vale. It stretches along the waters facing the South Seas, positioned south of the Ruins of Aboraz and northeast of the Wild Shore."
+  },
+  {
+   "q": "How do you access the Crystal Shore from inland?",
+   "aliases": [
+    "how to get to crystal shore",
+    "path to crystal shore",
+    "reach crystal shore"
+   ],
+   "answer": "A steep ridge divides the beach from the mainland jungle. However, a couple of narrow natural passes cut through the high cliffs, including a trail leading directly into Mistvale Valley."
+  },
+  {
+   "q": "What landmarks are nearby?",
+   "aliases": [
+    "landmarks near crystal shore",
+    "what is near crystal shore"
+   ],
+   "answer": "Just to the north of the shore stand the ancient Ruins of Aboraz, while across the channel to the southwest sits Jaguero Isle. Further down the coastline to the south lies the Wild Shore."
+  },
+  {
+   "q": "Is the Crystal Shore settled by any faction?",
+   "aliases": [
+    "who lives at crystal shore",
+    "crystal shore settlement",
+    "crystal shore towns"
+   ],
+   "answer": "No formal faction maintains a town or settlement along the Crystal Shore. It remains an untamed stretch of beach dominated by native wildlife, ancient troll ruins to the north, and the crashing waves of the South Seas."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crystal shore",
+  "jaguero isle",
+  "mistvale valley",
+  "ruins of aboraz",
+  "south seas",
+  "stranglethorn vale",
+  "wild shore"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "subzone:ruins-of-aboraz",
+  "subzone:wild-shore",
+  "subzone:jaguero-isle",
+  "subzone:south-seas"
+ ],
+ "attribution": [
+  "Crystal Shore"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "key": "npc:katie-hunter",
+ "type": "npc",
+ "name": "Katie Hunter",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Katie Hunter",
+  "refs": 1
+ },
+ "summary": "Katie Hunter is a horse breeder stationed at the stables in the Eastvale Logging Camp within eastern Elwynn Forest. She provides trained riding horses and steeds to citizens of Stormwind and trusted champions of the Alliance. Alongside her relative Randal Hunter, she ensures travelers and soldiers have reliable mounts to navigate the kingdom's roads.",
+ "sections": [
+  {
+   "title": "Stables of Eastvale",
+   "body": "Tucked away in the quiet, wooded clearings of the Eastvale Logging Camp, Katie Hunter manages the kingdom's primary horse stock for aspiring riders in Elwynn Forest. While the lumberjacks harvest timber for Stormwind's reconstruction, Katie tends to the stables, raising a variety of dependable breeds including pintos, mares, and swift steeds. Her stock represents the classic equestrian tradition of the kingdom, offering faithful companions capable of braving dangerous roads across southern Azeroth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Katie Hunter?",
+   "aliases": [
+    "katie hunter elwynn",
+    "who is katie hunter",
+    "katie hunter horse vendor"
+   ],
+   "answer": "Katie Hunter is the horse breeder and mount vendor for the Kingdom of Stormwind, located at the stables of the Eastvale Logging Camp in Elwynn Forest."
+  },
+  {
+   "q": "Where can I find Katie Hunter?",
+   "aliases": [
+    "katie hunter location",
+    "where is katie hunter",
+    "find katie hunter"
+   ],
+   "answer": "She is located in the northern section of the Eastvale Logging Camp, tending the corral and stables near riding trainer Randal Hunter in eastern Elwynn Forest."
+  },
+  {
+   "q": "Can non-humans buy horses from her?",
+   "aliases": [
+    "dwarf buy horse",
+    "night elf horse mount",
+    "stormwind reputation mount"
+   ],
+   "answer": "Yes, but only if they have earned an exalted reputation with the Kingdom of Stormwind. Human adventurers can purchase her horses without any special standing."
+  },
+  {
+   "q": "What horses does she sell?",
+   "aliases": [
+    "what mounts does katie sell",
+    "katie hunter horse types"
+   ],
+   "answer": "Katie provides standard riding horses\u2014including pinto, brown, and chestnut varieties\u2014as well as swift, armored steeds such as the Swift Palomino, Swift Brown Steed, and Swift White Steed."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For human travelers, Katie's stables represent a natural rite of passage, offering classic Stormwind horses as soon as you have mastered the basics of horsemanship."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Allied races who earn high standing and respect with the court of Stormwind can earn the privilege of riding Katie's prized steeds into battle."
+  }
+ ],
+ "keywords": [
+  "eastvale",
+  "elwynn forest",
+  "horse vendor",
+  "katie hunter",
+  "logging camp",
+  "mounts",
+  "stables",
+  "stormwind"
+ ],
+ "related": [
+  "subzone:eastvale-logging-camp",
+  "zone:elwynn",
+  "topic:stormwind-kingdom",
+  "quest:7677",
+  "quest:7678"
+ ],
+ "attribution": [
+  "Katie Hunter"
+ ]
+}

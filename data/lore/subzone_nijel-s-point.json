@@ -1,0 +1,93 @@
+{
+ "key": "subzone:nijel-s-point",
+ "type": "subzone",
+ "name": "Nijel's Point",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Nijel's Point"
+ },
+ "summary": "Nijel's Point is a fortified Alliance and Cenarion Circle redoubt perched high on the northern bluffs of Desolace. Tucked safely away from the blighted valleys below, it serves as the sole safe haven for Alliance travelers, researchers, and soldiers navigating the harsh wasteland.",
+ "sections": [
+  {
+   "title": "A Bastion Above the Wastes",
+   "body": "Carved into the sheer cliffs bordering the Stonetalon Mountains, Nijel's Point stands well above the gray dust and marauding centaur packs of Desolace. The settlement is held by a detachment of the Stormwind Army under Captain Pentigast, charged with monitoring the violent clan wars that threaten Alliance interests across southern Kalimdor. Its high elevation and narrow access trails make it readily defensible, providing a secure staging ground for couriers, scouts, and griffin riders travelling between Stonetalon Peak, Theramore, and Feathermoon Stronghold.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cenarion and Crusade Expeditions",
+   "body": "Beyond the Stormwind garrison, the outpost shelters emissaries with distinct and perilous agendas. Keeper Marandis and his dryads use the camp as an operational base to confront Princess Theradras deep within Maraudon, seeking to recover the fallen demigod Zaetar. Even the Scarlet Crusade maintains an emissary here in Brother Anton, who seeks to scour the undead ravaging the valley floor. Despite the bustling presence of soldiers and druids, the identity of Nijel himself remains an ancient mystery lost even to those garrisoned atop the ridge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Alliance stationed in Desolace?",
+   "aliases": [
+    "why is alliance here",
+    "stormwind army in desolace",
+    "why nijels point exists"
+   ],
+   "answer": "Captain Pentigast leads a Stormwind Army detachment to monitor the warring centaur clans. The Alliance fears that once one clan wipes out the others, the victorious horde will turn its aggression toward neighboring territories and settlements like Stonetalon and Feralas."
+  },
+  {
+   "q": "Who was Nijel?",
+   "aliases": [
+    "who is nijel",
+    "nijel lore",
+    "who was nijels point named after"
+   ],
+   "answer": "Nobody at the outpost seems to know. It is widely presumed that Nijel was the founder of the ancient, ruined settlement atop the ridge, but his true history has been lost to time."
+  },
+  {
+   "q": "What is the Cenarion Circle doing at Nijel's Point?",
+   "aliases": [
+    "druids in nijels point",
+    "keeper marandis mission",
+    "why are dryads here"
+   ],
+   "answer": "Keeper Marandis and his dryad sisters have come to Desolace to purge Maraudon, slay Princess Theradras, and reclaim the remains of Zaetar to return them to the sacred groves of the Stonetalon Mountains."
+  },
+  {
+   "q": "Why is the Scarlet Crusade at Nijel's Point?",
+   "aliases": [
+    "brother anton scarlet crusade",
+    "scarlet crusade in desolace"
+   ],
+   "answer": "Brother Anton serves as a distant emissary of the Scarlet Crusade, directed by Brother Crowley to recruit capable Alliance adventurers in the fight against the undead blighting Desolace."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Nijel's Point is your sole fortified refuge and flight staging ground in Desolace, linking supply lines between Stonetalon, Theramore, and Feralas."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Keeper Marandis uses this high mountain sanctuary to organize the reclamation of Zaetar's remains from the corruption festering inside Maraudon."
+  }
+ ],
+ "keywords": [
+  "brother anton",
+  "centaur",
+  "desolace",
+  "marandis",
+  "maraudon",
+  "nijel's point",
+  "outpost",
+  "pentigast"
+ ],
+ "related": [
+  "zone:desolace",
+  "topic:stormwind-army",
+  "topic:cenarion-circle",
+  "topic:centaur",
+  "zone:stonetalon",
+  "subzone:feathermoon-stronghold",
+  "subzone:theramore-isle",
+  "topic:scarlet-crusade"
+ ],
+ "attribution": [
+  "Nijel's Point"
+ ]
+}

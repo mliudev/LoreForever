@@ -1,0 +1,113 @@
+{
+ "key": "npc:guard-thomas",
+ "type": "npc",
+ "name": "Guard Thomas",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Guard Thomas",
+  "refs": 9
+ },
+ "summary": "Guard Thomas is a dedicated soldier of the Stormwind Army stationed at the bridge west of the Eastvale Logging Camp. Isolated on the eastern frontier of Elwynn Forest, he oversees the defense of local settlers against predatory wildlife and encroaching murlocs.",
+ "sections": [
+  {
+   "title": "On the Eastern Border",
+   "body": "While much of the realm's attention is focused inward toward the capital or west toward Westfall, Guard Thomas holds one of the quietest yet most precarious posts in Elwynn Forest. Positioned at the stone bridge crossing the river toward Eastvale Logging Camp, Thomas acts as the thin blue line between everyday forestry workers and the aggressive creatures roaming the woods. With the Stormwind military stretched thin, guards like Thomas must rely heavily on passing adventurers to maintain order and carry messages back to central command.",
+   "spoiler": 0
+  },
+  {
+   "title": "Frontier Troubles",
+   "body": "The eastern edges of Elwynn face persistent pressures. Aggressive bears and prowlers stalk the treeline, threatening lumberjacks and travelers, while strange murloc tribes have established camps along the waterways. Thomas tracks the movements of these aquatic predators and issues bounties to cull their numbers. Worse still, scouting patrols along the river occasionally vanish without a trace, leaving Thomas to piece together the fate of his fellow guards amidst rising regional instability.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Guard Thomas?",
+   "aliases": [
+    "guard thomas location",
+    "where is thomas",
+    "guard thomas bridge"
+   ],
+   "answer": "Guard Thomas is posted on the stone bridge spanning the river just west of the Eastvale Logging Camp, along the eastern road in Elwynn Forest."
+  },
+  {
+   "q": "What is Guard Thomas's duty in Elwynn Forest?",
+   "aliases": [
+    "what does thomas do",
+    "guard thomas role",
+    "thomas eastvale"
+   ],
+   "answer": "He is an officer of the Stormwind Army assigned to protect the eastern frontier of Elwynn. His responsibilities include securing the trade bridge, defending nearby workers from wild predators, and monitoring hostile murloc encroachments along the riverbanks."
+  },
+  {
+   "q": "Why is Guard Thomas asking for help with lost guards?",
+   "aliases": [
+    "lost guards elwynn",
+    "guard thomas missing scouts",
+    "what happened to the guards"
+   ],
+   "answer": "Routine patrols dispatched into the river basins have failed to report back. Without sufficient reinforcements to leave his post unmanned, Thomas enlists traveling adventurers to search the waterways and find out what happened to his missing comrades."
+  },
+  {
+   "q": "Why are murlocs a problem for Guard Thomas?",
+   "aliases": [
+    "murlocs eastvale",
+    "why kill murlocs",
+    "guard thomas murloc bounty"
+   ],
+   "answer": "Murloc tribes have increasingly crept up the river systems of eastern Elwynn. Their growing presence threatens both local logging operations and overland supply routes, prompting Thomas to place open bounties on their fins to keep the waterways clear."
+  },
+  {
+   "q": "Who does Guard Thomas report to?",
+   "aliases": [
+    "thomas superior",
+    "stormwind army chain of command",
+    "who does thomas work for"
+   ],
+   "answer": "Thomas serves within the Stormwind Army, reporting through the military hierarchy back to regional command in Goldshire and the capital. As matters deteriorate across the borders, his dispatches also coordinate with frontier leadership like Gryan Stoutmantle out in Westfall."
+  },
+  {
+   "q": "Where does Guard Thomas send adventurers once their work in Elwynn is done?",
+   "aliases": [
+    "after guard thomas",
+    "where to go after eastvale",
+    "westfall report"
+   ],
+   "answer": "Once the immediate threats around Eastvale and the eastern river are handled, Thomas provides reports directing seasoned travelers toward Westfall to aid Captain Gryan Stoutmantle and the struggling People's Militia."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Guard Thomas embodies the overstretched state of the Stormwind Army, holding a vital outpost on the frontier with minimal support from the crown."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "For young warriors of the Alliance, Thomas represents frontline discipline and the unglamorous realities of regional border defense."
+  }
+ ],
+ "keywords": [
+  "eastvale",
+  "eastvale logging camp",
+  "elwynn forest",
+  "guard thomas",
+  "lost guards",
+  "murloc",
+  "stormwind army",
+  "thomas"
+ ],
+ "related": [
+  "subzone:eastvale-logging-camp",
+  "zone:elwynn",
+  "topic:stormwind-army",
+  "quest:37",
+  "quest:46",
+  "quest:52",
+  "quest:39",
+  "npc:gryan-stoutmantle"
+ ],
+ "attribution": [
+  "Guard Thomas"
+ ]
+}

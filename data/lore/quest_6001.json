@@ -1,0 +1,116 @@
+{
+ "key": "quest:6001",
+ "type": "quest",
+ "name": "Body and Heart",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   6001
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Mathrengyl Bearwalker",
+  "end": "",
+  "previous": "Back to Darnassus",
+  "next": null,
+  "wiki": "Body and Heart (Alliance)",
+  "chain": []
+ },
+ "summary": "Body and Heart is the culminating trial in a young night elf druid's initiation into the path of the claw. Instructed by Mathrengyl Bearwalker in Darnassus, an initiate must travel into the darkshore wilderness, summon the moonkin guardian Lunaclaw, and prove they possess both inner resilience and martial strength before claiming the form of the bear.",
+ "sections": [
+  {
+   "title": "The Trial of Lunaclaw",
+   "body": "Night elf druid initiates are directed by Mathrengyl Bearwalker in Darnassus to venture east of the coastal settlement of Auberdine. There, tucked inside a natural cavern inhabited by wild moonkin, sits an ancient Moonkin Stone. By anointing this sacred monolith with Cenarion Moondust, the initiate rouses Lunaclaw, the ancient defender of the stone, who will challenge any claimant wishing to inherit the sacred strength of the claw.",
+   "spoiler": 0
+  },
+  {
+   "title": "Strength of Body and Heart",
+   "body": "Taking on the mantle of the bear requires far more than brute force. While the Great Bear Spirit imparts the foundational teachings of nature's ferocity, the trial against Lunaclaw tests whether an initiate possesses the fortitude of heart necessary to tame and harness that primal power. By overcoming the guardian in combat and heeding the spirit's lingering wisdom, the druid proves ready to wield the bear form without losing themselves to beastly instinct.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lunaclaw?",
+   "aliases": [
+    "what is lunaclaw",
+    "lunaclaw lore",
+    "moonkin boss auberdine"
+   ],
+   "answer": "Lunaclaw is a fierce moonkin spirit guardian dwelling in a cavern directly east of Auberdine in Darkshore. It defends the sacred Moonkin Stone and answers the call of initiates who sprinkle Cenarion Moondust upon the relic."
+  },
+  {
+   "q": "What is the purpose of this trial?",
+   "aliases": [
+    "why do body and heart",
+    "what does this quest do",
+    "bear form quest lore"
+   ],
+   "answer": "This rite of passage is the final test for a night elf initiate seeking to join the ranks of the Druids of the Claw. Conquering Lunaclaw demonstrates that the initiate possesses the balance of physical resilience and mental composure required to take on the spirit and shape of the bear."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver body and heart",
+    "who gives bear form quest"
+   ],
+   "answer": "Mathrengyl Bearwalker, an elder druid trainer located in the Cenarion Enclave within Darnassus, tasks initiates with this trial once they have commune with the Great Bear Spirit."
+  },
+  {
+   "q": "What is Cenarion Moondust?",
+   "aliases": [
+    "what is moondust",
+    "cenarion moondust lore"
+   ],
+   "answer": "Cenarion Moondust is a consecrated ritual powder given to initiates by their elders. When cast upon the Moonkin Stone, its magical properties awaken Lunaclaw and initiate the ritual combat."
+  },
+  {
+   "q": "Where does this trial take place?",
+   "aliases": [
+    "where is moonkin stone",
+    "moonkin cave auberdine"
+   ],
+   "answer": "The trial takes place in a cavern east of Auberdine in Darkshore, where wild moonkin nest around an ancient carved Moonkin Stone."
+  },
+  {
+   "q": "What happens after Lunaclaw is defeated?",
+   "aliases": [
+    "what happens after killing lunaclaw",
+    "spirit of lunaclaw"
+   ],
+   "answer": "Upon defeating the creature, the Spirit of Lunaclaw manifests above its physical shell to bestow its blessing and acknowledge the druid's dual strength of heart and body before they return to Darnassus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This rite represents the defining threshold of early druidic training, transforming a novice spellcaster into a shapeshifting protector capable of assuming the mighty bear form."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves, communing with ancient beast spirits and honoring sacred stones in Darkshore renews ties to Cenarion customs established millennia ago."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "bear form",
+  "body and heart",
+  "cenarion moondust",
+  "druid of the claw",
+  "lunaclaw",
+  "mathrengyl bearwalker",
+  "moonkin stone"
+ ],
+ "related": [
+  "npc:mathrengyl-bearwalker",
+  "quest:5931",
+  "quest:2561",
+  "subzone:auberdine",
+  "zone:darnassus",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Body and Heart (Alliance)"
+ ]
+}

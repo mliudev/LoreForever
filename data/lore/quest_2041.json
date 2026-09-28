@@ -1,0 +1,127 @@
+{
+ "key": "quest:2041",
+ "type": "quest",
+ "name": "Speak with Shoni",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   2041
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "",
+  "end": "",
+  "previous": null,
+  "next": "Underground Assault",
+  "wiki": "Speak with Shoni",
+  "chain": [
+   "Speak with Shoni",
+   "Underground Assault"
+  ]
+ },
+ "summary": "This breadcrumb summons Alliance adventurers from the halls of Ironforge to find Shoni the Shilent in Stormwind City. Shoni heads an underground assault unit intended to support the ongoing reclamation of Gnomeregan.",
+ "sections": [
+  {
+   "title": "A Call from Tinkertown",
+   "body": "Following the radioactive downfall and betrayal of Gnomeregan, the surviving gnomes established an exile quarter in Ironforge. Their engineers, tinkers, and strategists are constantly scheming to breach their lost home. While central planning remains rooted in Tinkertown, frontline preparations stretch far beyond Khaz Modan. Enterprising adventurers in the mountain city are redirected south to Stormwind, where specialized military hardware is being prepared for subterranean warfare.",
+   "spoiler": 0
+  },
+  {
+   "title": "Subterranean Ambitions",
+   "body": "Shoni the Shilent commands an elite underground assault crew stationed among the anvils and forges of Stormwind's Dwarven District. To burrow deep toward trogg-infested sectors, her sappers require specialized machinery known as gyrodrillmatic excavationators. Reaching Shoni is straightforward thanks to the newly operational Deeprun Tram, which links Ironforge directly to Stormwind beneath the mountains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Shoni the Shilent?",
+   "aliases": [
+    "who is shoni",
+    "shoni the shilent",
+    "who is the npc"
+   ],
+   "answer": "Shoni the Shilent is a gnomish officer stationed in Stormwind City. Despite her quiet moniker, she commands an underground assault unit tasked with building and deploying heavy excavation gear to aid in the effort to retake Gnomeregan."
+  },
+  {
+   "q": "Where can I find Shoni the Shilent?",
+   "aliases": [
+    "where is shoni",
+    "shoni location",
+    "shoni coordinates"
+   ],
+   "answer": "Shoni is located in the Dwarven District of Stormwind City, near the blacksmithing trainers and forges just steps outside the Deeprun Tram terminal."
+  },
+  {
+   "q": "How do I get to Stormwind from Ironforge?",
+   "aliases": [
+    "travel to stormwind",
+    "ironforge to stormwind",
+    "how to reach stormwind"
+   ],
+   "answer": "The fastest route is the Deeprun Tram, an engineering marvel located on the northeastern side of Tinkertown in Ironforge. It takes travelers straight to Stormwind's Dwarven District without traversing the wilderness."
+  },
+  {
+   "q": "What does Shoni need help with?",
+   "aliases": [
+    "shoni quest goal",
+    "what does shoni want"
+   ],
+   "answer": "Shoni is outfitting an underground assault crew and needs essential components for her gyrodrillmatic excavationators, a task that eventually directs adventurers toward Westfall and the Deadmines."
+  },
+  {
+   "q": "Is this quest required to get Underground Assault?",
+   "aliases": [
+    "is speak with shoni mandatory",
+    "can i skip to shoni"
+   ],
+   "answer": "No, it is an optional breadcrumb quest. You can travel directly to the Dwarven District in Stormwind and speak with Shoni to pick up Underground Assault on your own."
+  },
+  {
+   "q": "How does this connect to Gnomeregan?",
+   "aliases": [
+    "why gnomeregan",
+    "gnome connection"
+   ],
+   "answer": "Gnomish leadership is assembling forces and excavation technology to pierce the defenses of Gnomeregan. Shoni's team is developing the subterranean drill apparatus necessary to break into the contaminated city."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Every gnome in Ironforge dreams of reclaiming their irradiated home; taking Shoni's orders means actively contributing to the technological effort to retake Gnomeregan."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Shoni's project involves gyrodrillmatic excavationators, a complex feat of gnomish mechanical engineering designed for deep-earth tunneling."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This mission demonstrates the close logistics between the Alliance capitals, utilizing the Deeprun Tram to move personnel between Ironforge and Stormwind."
+  }
+ ],
+ "keywords": [
+  "deeprun tram",
+  "dwarven district",
+  "gnomeregan",
+  "gyrodrillmatic excavationator",
+  "ironforge",
+  "shoni the shilent",
+  "stormwind",
+  "tinkertown",
+  "underground assault"
+ ],
+ "related": [
+  "npc:shoni-the-shilent",
+  "quest:2040",
+  "subzone:dwarven-district",
+  "subzone:deeprun-tram",
+  "zone:stormwind",
+  "zone:ironforge",
+  "zone:gnomeregan",
+  "zone:deadmines"
+ ],
+ "attribution": [
+  "Speak with Shoni"
+ ]
+}

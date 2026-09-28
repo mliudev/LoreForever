@@ -1,0 +1,83 @@
+{
+ "key": "subzone:slithering-scar",
+ "type": "subzone",
+ "name": "Slithering Scar",
+ "era": "classic",
+ "zone": "ungoro",
+ "meta": {
+  "wiki": "Slithering Scar"
+ },
+ "summary": "The Slithering Scar is a sprawling silithid hive dominating the southern cliffs of Un'Goro Crater. Home to the aggressive Gorishi swarm, its excavated tunnels and organic spires represent a dangerous insectoid encroachment into the primeval basin.",
+ "sections": [
+  {
+   "title": "The Gorishi Hive",
+   "body": "Gouged into the red earth and rock of southern Un'Goro, the Slithering Scar stands as an alien intrusion against the lush prehistoric landscape. The hive is controlled by the Gorishi silithid, an organized strain of insectoids that have honeycombed the cliffs with damp burrows and egg chambers. Within these subterranean warrens, workers and tunnelers nurture vast clutches of eggs and grubs alongside towering wasp broods. More alarmingly, the colony cultivates fledgling silithid colossi, monstrous behemoths intended to carve an uncontested path through the crater's ecology. Strange crystalline formations nestled within the hive pulse with unnatural resonance, acting as focal points for the colony's dark, coordinated will.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Missing Ward",
+   "body": "Scholars and explorers who traverse the perimeter of Un'Goro often notice a disturbing anomaly regarding the hive's location. While ancient crystalline pylons stand sentinel across the northern, eastern, and western boundaries of the basin, the southern reaches possess no such pillar. It is precisely in this unprotected gap that the Gorishi have burrowed inward from the neighboring deserts. Whether the silithid purposefully undermined a forgotten southern ward or simply invaded where the crater's primordial wards were weakest remains an unsettling mystery to those watching their rapid expansion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Slithering Scar?",
+   "aliases": [
+    "what is this place",
+    "slithering scar overview",
+    "ungoro bug hive"
+   ],
+   "answer": "It is a silithid hive complex carved into the southern cliff walls of Un'Goro Crater, inhabited by the Gorishi swarm."
+  },
+  {
+   "q": "What are the silithid doing here?",
+   "aliases": [
+    "why are bugs here",
+    "silithid purpose ungoro",
+    "gorishi goal"
+   ],
+   "answer": "The Gorishi swarm is digging vast subterranean tunnels, tending nursery chambers full of grubs and eggs, and raising massive silithid colossi to establish dominance over the crater."
+  },
+  {
+   "q": "Why is there no pylon in the south like the other regions?",
+   "aliases": [
+    "missing southern pylon",
+    "why no south pylon",
+    "where is the south pylon"
+   ],
+   "answer": "While the northern, eastern, and western edges of Un'Goro are marked by ancient crystal pylons, the southern cliff has none. The Slithering Scar emerged precisely where this protective boundary is missing."
+  },
+  {
+   "q": "What dangerous creatures inhabit the hive?",
+   "aliases": [
+    "hive bosses",
+    "notable bugs",
+    "clutchmother zavas"
+   ],
+   "answer": "Aside from legions of workers, reavers, and stingers, the Scar is stalked by developing colossi and notoriously ferocious broodmothers like Clutchmother Zavas."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The aggressive spread of the Gorishi hive threatens the delicate, untamed vitality of the crater, demanding vigilance against unnatural infestation."
+  }
+ ],
+ "keywords": [
+  "clutchmother zavas",
+  "colossus",
+  "gorishi",
+  "hive",
+  "silithid",
+  "slithering scar",
+  "ungoro"
+ ],
+ "related": [
+  "zone:ungoro",
+  "npc:grub"
+ ],
+ "attribution": [
+  "Slithering Scar"
+ ]
+}

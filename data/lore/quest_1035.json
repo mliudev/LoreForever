@@ -1,0 +1,139 @@
+{
+ "key": "quest:1035",
+ "type": "quest",
+ "name": "Fallen Sky Lake",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1035
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Pelturas Whitemoon",
+  "end": "",
+  "previous": "The Ruins of Stardust",
+  "next": null,
+  "wiki": "Fallen Sky Lake (quest)",
+  "chain": [
+   "Bathran's Hair (Classic)",
+   "Orendil's Cure (Classic)",
+   "Elune's Tear (Classic)",
+   "The Ruins of Stardust (quest)",
+   "Fallen Sky Lake (quest)"
+  ]
+ },
+ "summary": "\"Fallen Sky Lake\" is the emotional culmination of Pelturas Whitemoon's quest chain to save his dying daughter, Relara, in Astranaar. Although her initial fever has broken, her vitality remains dangerously depleted, requiring a celestial moonstone to restore her life force. Players must journey into the untamed waters of Fallen Sky Lake to wrest one of these hoarded stones from a corrupted Shadethicket Oracle.",
+ "sections": [
+  {
+   "title": "A Daughter's Fading Breaths",
+   "body": "Pelturas Whitemoon has spent agonizing days watching his young daughter, Relara, slip closer to death. While powerful curatives brewed from Bathran's hair and stardust helped break her raging fever, the ordeal left her body hollowed and frail. Time is no longer on her side; Pelturas fears that without supernatural intervention, she has only breaths remaining before her spirit fades permanently into the night.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fallen Moonstone",
+   "body": "To revitalize the girl, Pelturas turns to the magic of the moonstones\u2014celestial fragments that once fell freely into the waters of Fallen Sky Lake, southeast of Astranaar. Traditionally gathered by the night elves for their restorative properties, these remnants of lunar grace have been claimed by aggressive elemental or corrupted bark, making their collection a matter of blade and spell rather than peaceful harvesting.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shadethicket Domain",
+   "body": "The night elves lost easy access to the lake when the Shadethicket treants moved in and seized the surrounding wilderness. Their leader, the Shadethicket Oracle, hoards every fallen moonstone on an isolated islet in the center of the waters. Reclaiming even a single relic requires confronting and slaying the Oracle before Relara's strength runs out entirely.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Relara need a moonstone if her fever already broke?",
+   "aliases": [
+    "why moonstone",
+    "relara still sick",
+    "relara fever gone"
+   ],
+   "answer": "The intense fever drained Relara's life force so severely that natural rest cannot revive her. Her father Pelturas believes only the pure restorative power held within a fallen moonstone can restore her depleted spirit before she succumbs to exhaustion."
+  },
+  {
+   "q": "Where is Fallen Sky Lake located?",
+   "aliases": [
+    "where is fallen sky lake",
+    "lake location",
+    "shadethicket lake location"
+   ],
+   "answer": "Fallen Sky Lake lies in central-eastern Ashenvale, southeast of Astranaar. It is dominated by ancient, hostile treants and features a small central island."
+  },
+  {
+   "q": "Who has the fallen moonstone?",
+   "aliases": [
+    "who drops moonstone",
+    "shadethicket oracle location",
+    "where to get moonstone"
+   ],
+   "answer": "The moonstone is held by the Shadethicket Oracle, the leader of the hostile treants inhabiting the lake. The Oracle lairs on an island right in the center of Fallen Sky Lake."
+  },
+  {
+   "q": "What happens after this quest?",
+   "aliases": [
+    "is there a follow up",
+    "what next",
+    "quest continuation"
+   ],
+   "answer": "This quest marks the final chapter in the quest chain concerning Relara's illness. Once you bring the fallen moonstone to Pelturas, her life is saved, and he offers a treasured family keepsake as his deepest gratitude."
+  },
+  {
+   "q": "Why are the Shadethickets hoarding the moonstones?",
+   "aliases": [
+    "why treants taking stones",
+    "oracle hoarding moonstones"
+   ],
+   "answer": "As wild creatures and treants of Ashenvale grow increasingly volatile and corrupted, the Shadethickets began violently driving off outsiders. Their Oracle systematically gathered and guarded the lunar relics, denying them to the night elves of Astranaar."
+  },
+  {
+   "q": "What previous quests lead up to this task?",
+   "aliases": [
+    "chain before fallen sky lake",
+    "quest prerequisites",
+    "what comes before"
+   ],
+   "answer": "The chain begins with Bathran's Hair, followed by Orendil's Cure, Elune's Tear, and The Ruins of Stardust. Each step gathers rare components to treat Relara's worsening condition."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei, protecting Astranaar's young is a sacred communal duty, and retrieving holy moonstones tied to Elune's blessings is an act of both mercy and reverence."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Culling the hostile Shadethicket treants highlights the tragic discord spreading through Ashenvale's natural guardians, demanding a heavy heart to restore balance."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Sought for their divine energies, the fallen moonstones represent the tangible, healing grace of the Moon Goddess Elune channeled to save a dying child."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Helping Pelturas Whitemoon cements the Alliance's commitment to defending Astranaar's citizens against the creeping corruption overtaking Ashenvale."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "fallen moonstone",
+  "fallen sky lake",
+  "pelturas whitemoon",
+  "relara",
+  "shadethicket oracle"
+ ],
+ "related": [
+  "npc:pelturas-whitemoon",
+  "subzone:astranaar",
+  "quest:1034",
+  "quest:1033",
+  "quest:1020",
+  "quest:1010",
+  "zone:ashenvale",
+  "topic:elune"
+ ],
+ "attribution": [
+  "Fallen Sky Lake (quest)"
+ ]
+}

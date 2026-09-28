@@ -1,0 +1,130 @@
+{
+ "key": "quest:9516",
+ "type": "quest",
+ "name": "Destroy the Legion",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   9516
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Vindicator Vedaar",
+  "end": "",
+  "previous": "",
+  "next": null,
+  "wiki": "Destroy the Legion (BC Classic Alliance)",
+  "chain": []
+ },
+ "summary": "At the night elf outpost of Forest Song, Vindicator Vedaar rallies the Alliance to strike at lingering Burning Legion remnants in southern Ashenvale. Hauntings from the Third War and earlier invasions still fester across Felfire Hill and Demon Fall Canyon, demanding immediate purge before they can spread.",
+ "sections": [
+  {
+   "title": "A Bitter History",
+   "body": "For Vindicator Vedaar, fighting the Burning Legion is deeply personal. His people endured catastrophic devastation across worlds, repeatedly forced to flee demonic onslaughts. Finding demonic entities festering openly in Kalimdor's sacred woods is an affront he refuses to abide. Instead of running again, he chooses to take a definitive stand.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cleansing Southern Ashenvale",
+   "body": "The targets of this offensive occupy the blighted lands of Felfire Hill, Demon Fall Canyon, and Demon Fall Ridge. Lingering fiends\u2014Mannoroc lashers, roaming felguards, and searing infernals\u2014still stalk the jagged crags where demonic blood once corrupted the land. Eliminating them weakens the Legion's persistent foothold in eastern Ashenvale and protects Forest Song's fragile rebuilding efforts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers the quest Destroy the Legion?",
+   "aliases": [
+    "who gives destroy the legion",
+    "destroy the legion questgiver",
+    "where to get destroy the legion"
+   ],
+   "answer": "Vindicator Vedaar gives this quest. You can find him stationed at the Alliance outpost of Forest Song in eastern Ashenvale."
+  },
+  {
+   "q": "Why is Vedaar so determined to destroy these demons?",
+   "aliases": [
+    "vedaar motivation",
+    "why fight demons ashenvale",
+    "why vedaar hates legion"
+   ],
+   "answer": "The Burning Legion chased his people across worlds, forcing endless retreats and slaughter. Seeing demons roaming freely in Kalimdor is unacceptable to him, prompting him to purge their presence rather than retreat again."
+  },
+  {
+   "q": "Where are the demons located?",
+   "aliases": [
+    "demon locations ashenvale",
+    "where are felguards ashenvale",
+    "where are searing infernals"
+   ],
+   "answer": "The demons are concentrated south of Forest Song in the scarred regions of Felfire Hill, Demon Fall Canyon, and Demon Fall Ridge."
+  },
+  {
+   "q": "What kinds of enemies must be slain?",
+   "aliases": [
+    "destroy the legion objectives",
+    "what mobs to kill destroy the legion",
+    "mobs for destroy the legion"
+   ],
+   "answer": "You need to eliminate Mannoroc lashers, roaming felguards, and searing infernals that roam the canyons and blighted hills to the south."
+  },
+  {
+   "q": "How did these demons end up in Ashenvale?",
+   "aliases": [
+    "why are there demons in ashenvale",
+    "demon fall canyon lore",
+    "how did demons get here"
+   ],
+   "answer": "They are remnants left behind from prior demonic invasions, notably the Third War when the pit lord Mannoroth corrupting orcs and fought Grommash Hellscream in the nearby canyon."
+  },
+  {
+   "q": "What does completing this mission achieve for Forest Song?",
+   "aliases": [
+    "destroy the legion outcome",
+    "why help forest song",
+    "forest song demon threat"
+   ],
+   "answer": "Culling the roaming demons reduces the immediate threat to Forest Song, giving the Alliance a safer staging ground to rebuild and secure eastern Ashenvale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The demonic presence in the south directly jeopardizes Forest Song, one of the Alliance's key outposts holding the line against both demonic corruption and Horde expansion."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Purging fiends from corrupted soil fulfills the holy calling to root out demonic corruption wherever it lingers."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The forests of Ashenvale have suffered millennia of demonic affliction; clearing the blighted ridges brings the woods one step closer to healing."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Facing loose, wild demons of the Legion provides a sharp contrast to the controlled, bound servants commanded through dark pacts."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "burning legion",
+  "demon fall canyon",
+  "demon fall ridge",
+  "felfire hill",
+  "felguard",
+  "forest song",
+  "infernal",
+  "vedaar"
+ ],
+ "related": [
+  "npc:vindicator-vedaar",
+  "subzone:forest-song",
+  "topic:burning-legion",
+  "subzone:demon-fall-canyon",
+  "subzone:demon-fall-ridge",
+  "subzone:felfire-hill",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Destroy the Legion (BC Classic Alliance)"
+ ]
+}

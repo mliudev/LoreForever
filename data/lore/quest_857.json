@@ -1,0 +1,123 @@
+{
+ "key": "quest:857",
+ "type": "quest",
+ "name": "The Tear of the Moons",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   857
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Feegly the Exiled",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "The Tear of the Moons",
+  "chain": []
+ },
+ "summary": "High above the southern Barrens, a crazed dwarf named Feegly the Exiled demands the return of a mysterious relic unearthed at Bael Modan. Known as the Tear of the Moons, the artifact drove Feegly into madness and obsession before General Twinbraid had it locked away as an ill-omened curse.",
+ "sections": [
+  {
+   "title": "Unearthed at Bael Modan",
+   "body": "When the dwarven Prospectors of the Explorers' League began cutting into the hills of southern Kalimdor to build Bael Modan, the Tear of the Moons was their first major discovery. While the dig site was ostensibly meant to trace ancient titan heritage, the strange artifact immediately exerted a powerful and unsettling influence over Feegly, one of the expedition's workers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Twinbraid's Quarantine",
+   "body": "Feegly claimed the Tear granted him immense personal power, violently turning on his comrades to protect his prize. Recognizing the relic's corrupting influence, General Twinbraid branded it cursed, wrested it from Feegly's clutches, and secured it inside the keep. Banished from the excavation camp, Feegly took refuge among the cliffs, festering in bitter obsession and begging wandering travelers to steal it back.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Terrible Cost",
+   "body": "Twinbraid's warnings prove far more literal than Feegly realized. Upon recovering the Tear of the Moons, Feegly's joy is cut short as the relic's latent transformative magic consumes him. Rather than elevating him to glory, the artifact violently mutates the dwarf into a devolved, feral trogg, ending his life seconds after reclaiming his prize.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Tear of the Moons?",
+   "aliases": [
+    "what is tear of the moons",
+    "tear of the moons relic",
+    "bael modan artifact"
+   ],
+   "answer": "It is an ancient, potent relic uncovered by dwarven excavators during their early digs at Bael Modan in the southern Barrens. It exerts an intoxicating, corrupting effect on those who handle it."
+  },
+  {
+   "q": "Who is Feegly the Exiled?",
+   "aliases": [
+    "who is feegly",
+    "feegly lore",
+    "feegly dwarf"
+   ],
+   "answer": "Feegly was once an excavator with General Twinbraid's expedition at Bael Modan. After the Tear of the Moons was uncovered, Feegly grew obsessed and violent, prompting Twinbraid to cast him out of the fortress."
+  },
+  {
+   "q": "Why does General Twinbraid lock the Tear away?",
+   "aliases": [
+    "why twinbraid locked tear",
+    "twinbraid curse",
+    "bael modan keep relic"
+   ],
+   "answer": "General Twinbraid recognized the artifact as a dangerous curse rather than a harmless historical finding. After watching Feegly turn violent toward his fellow excavators, Twinbraid locked the relic securely within Bael Modan's keep."
+  },
+  {
+   "q": "What happens when you return the Tear to Feegly?",
+   "aliases": [
+    "feegly turns into trogg",
+    "what happens to feegly",
+    "feegly ending"
+   ],
+   "answer": "The moment Feegly takes the relic into his hands, its dark power overwhelms him. He violently mutates into a trogg before collapsing dead from the strain of the transformation."
+  },
+  {
+   "q": "Why does Feegly mutate into a trogg?",
+   "aliases": [
+    "why trogg",
+    "feegly trogg curse",
+    "dwarf trogg connection"
+   ],
+   "answer": "Dwarves and troggs share a subterranean titan-forged origin. The ancient magic contained in the Tear appears to reverse Feegly's physical form, forcibly devolving him into a primitive trogg."
+  },
+  {
+   "q": "Why is this a Horde quest if Feegly is a dwarf?",
+   "aliases": [
+    "why horde quest",
+    "is feegly horde",
+    "bael modan horde"
+   ],
+   "answer": "Feegly is an outcast hiding in the Barrens who despises the Alliance forces occupying Bael Modan. Because Horde adventurers are naturally hostile to Twinbraid's excavation, Feegly appeals to them to raid the keep and recover the artifact."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Striking into Bael Modan to recover the relic gives the Horde a chance to disrupt dwarven operations that infringe directly upon the Barrens."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The tragic devolution of Feegly into a trogg offers an unsettling glimpse into the volatile titan energies and ancestral curses bound to dwarven origins."
+  }
+ ],
+ "keywords": [
+  "bael modan",
+  "barrens",
+  "dwarf curse",
+  "feegly",
+  "feegly the exiled",
+  "general twinbraid",
+  "tear of the moons",
+  "trogg"
+ ],
+ "related": [
+  "npc:feegly-the-exiled",
+  "subzone:bael-modan",
+  "topic:trogg",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "The Tear of the Moons"
+ ]
+}

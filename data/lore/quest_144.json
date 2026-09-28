@@ -1,0 +1,124 @@
+{
+ "key": "quest:144",
+ "type": "quest",
+ "name": "Messenger to Westfall",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   144
+  ],
+  "level": "14",
+  "faction": "Alliance",
+  "start": "Gryan Stoutmantle",
+  "end": "Magistrate Solomon",
+  "previous": "Messenger to Westfall",
+  "next": "Messenger to Darkshire",
+  "wiki": "Messenger to Westfall (2)",
+  "chain": []
+ },
+ "summary": "Messenger to Westfall is a diplomatic errand that carries Gryan Stoutmantle's sober reply from Sentinel Hill back to Magistrate Solomon in Lakeshire. Solomon, beleaguered by local threats in Redridge, sought military reinforcement from the People's Militia, only to learn that Westfall is equally forsaken by the crown.",
+ "sections": [
+  {
+   "title": "A Plea Across Shifting Frontiers",
+   "body": "Magistrate Solomon of Lakeshire found himself facing mounting crises in the Redridge Mountains without the backing of Stormwind's royal garrison. Looking across the southern regions of the kingdom for allies, he reached out to Gryan Stoutmantle, commander of the People's Militia in Westfall. Solomon hoped the organized volunteer force securing Sentinel Hill might spare troops to bolster Lakeshire's defenses, unaware of the grim realities gripping the western plains.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bitter Refusal",
+   "body": "Gryan Stoutmantle's response is an unambiguous, heavy-hearted refusal. Westfall is consumed by its own desperate war against the Defias Brotherhood and marauding gnolls, a struggle made necessary only because the House of Nobles and the crown have abandoned their breadbasket. Stoutmantle makes clear that the People's Militia exists out of sheer survival; they are losing good men daily and cannot spare a single fighter to rescue Redridge.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Kingdom's Fracturing Realm",
+   "body": "Returning Stoutmantle's reply to Lakeshire shatters Solomon's illusions. The Magistrate realizes that the kingdom's frontier territories share the same abandonment, with local magistrates and citizen militias left to fend for themselves while the Stormwind Army remains inexplicably withheld. This disappointment drives Solomon to look further east, setting his sights on Darkshire in Duskwood for aid.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why did Magistrate Solomon ask Westfall for help?",
+   "aliases": [
+    "why ask westfall",
+    "solomon letter to stoutmantle",
+    "why westfall militia"
+   ],
+   "answer": "Magistrate Solomon faces mounting threats in Lakeshire without support from Stormwind's army. Knowing that Gryan Stoutmantle organized the People's Militia to defend Westfall, Solomon hoped the frontier force had spare strength to offer military aid to Redridge."
+  },
+  {
+   "q": "Why does Gryan Stoutmantle refuse to send aid?",
+   "aliases": [
+    "why stoutmantle says no",
+    "militia refuse lakeshire",
+    "stoutmantle response"
+   ],
+   "answer": "The People's Militia is already stretched past its breaking point fighting the Defias Brotherhood and defending Westfall's farms. Stoutmantle explains that if Stormwind had not deserted Westfall, the Militia would not even need to exist, and they have no soldiers to spare."
+  },
+  {
+   "q": "Where is the Stormwind Army during these crises?",
+   "aliases": [
+    "why stormwind not helping",
+    "where is the army",
+    "stormwind desertion"
+   ],
+   "answer": "The royal army is concentrated around Stormwind City and withheld from the rural territories by the ruling council. Both Solomon and Stoutmantle express bewilderment and resentment that the capital leaves its outer provinces undefended."
+  },
+  {
+   "q": "What happens after returning Stoutmantle's letter to Solomon?",
+   "aliases": [
+    "next quest after messenger to westfall",
+    "what does solomon do next"
+   ],
+   "answer": "Realizing Westfall cannot help, Magistrate Solomon turns his attention to Duskwood, sending the courier on to Darkshire in the hope that Mayor Ello Ebonlocke's Night Watch might send aid instead."
+  },
+  {
+   "q": "What is the People's Militia?",
+   "aliases": [
+    "who are the peoples militia",
+    "westfall militia"
+   ],
+   "answer": "The People's Militia is a volunteer army organized by Gryan Stoutmantle and based at Sentinel Hill. Composed of local farmers, veterans, and residents, they defend Westfall from outlaws and gnolls in the total absence of crown troops."
+  },
+  {
+   "q": "Who is Gryan Stoutmantle?",
+   "aliases": [
+    "gryan stoutmantle lore",
+    "who is stoutmantle"
+   ],
+   "answer": "Gryan Stoutmantle is a veteran soldier who took command of the defense of Westfall. Operating from the tower at Sentinel Hill, he rallies volunteers and coordinates the war against the Defias Brotherhood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This correspondence exposes the deep fracture between the rulers in Stormwind Keep and the outlying provinces, revealing that Westfall and Redridge are left entirely to their own devices."
+  },
+  {
+   "target": "race:Human",
+   "text": "For human travelers, delivering this message highlights the tragic isolation of provincial towns, where commoners and veterans bleed to hold territory that Stormwind's nobles refuse to protect."
+  }
+ ],
+ "keywords": [
+  "gryan stoutmantle",
+  "lakeshire",
+  "magistrate solomon",
+  "messenger to westfall",
+  "peoples militia",
+  "redridge",
+  "sentinel hill",
+  "westfall"
+ ],
+ "related": [
+  "npc:gryan-stoutmantle",
+  "npc:magistrate-solomon",
+  "quest:143",
+  "quest:145",
+  "quest:12",
+  "zone:westfall",
+  "subzone:lakeshire",
+  "topic:stormwind-army"
+ ],
+ "attribution": [
+  "Messenger to Westfall (2)"
+ ]
+}

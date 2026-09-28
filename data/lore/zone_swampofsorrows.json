@@ -1,0 +1,136 @@
+{
+ "key": "zone:swampofsorrows",
+ "type": "zone",
+ "name": "Swamp of Sorrows",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": [
+   "Swamp of Sorrows (Classic)",
+   "Swamp of Sorrows"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "The Swamp of Sorrows is a murky, brackish wetland tucked between Deadwind Pass and the arid Blasted Lands. Once the northern expanse of the ancient Black Morass, its salt-crusted bogs are home to dangerous wildlife, green dragonspawn, and the ruined Temple of Atal'Hakkar sunken beneath the Pool of Tears. While the Horde maintains the fortified garrison of Stonard, the Alliance has no safe haven within the mire, leaving the wilderness largely untamed.",
+ "sections": [
+  {
+   "title": "A Drowned History",
+   "body": "Long before the coming of the Orcish Horde, these marshes formed the northern half of an enormous wetlands known as the Black Morass. Following the shattering of the Gurubashi Empire, the fanatical Atal'ai trolls fled into the mire to erect the Temple of Atal'Hakkar, intending to summon their bloodthirsty loa, Hakkar the Soulflayer. Sensing the catastrophe, the Aspect Ysera unleashed her powers, drowning the cursed pyramid beneath the waters of the Pool of Tears. Green dragonflight guardians led by Eranikus were stationed to vigilantly watch over the drowned structure. When the Dark Portal's cataclysm later scorched the southern morass into the Blasted Lands, this northern fen earned its current sorrowful name.",
+   "spoiler": 0
+  },
+  {
+   "title": "Outposts and Broken Exiles",
+   "body": "Stonard serves as the primary civilized foothold in the swamp. Originally established during the First War alongside the now-ruined settlements of Rockard and Kyross, the outpost was rebuilt under Thrall to serve as the Horde's southernmost staging ground in the Eastern Kingdoms. Beyond Stonard's palisades, strange wanderers roam the fen. A group of draenei stragglers stranded on Azeroth succumbed to homesickness and madness, degenerating into feral Lost Ones. However, a small enclave of lucid Broken exiles persists at the Harborage, wary but willing to trade peacefully with travelers.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Sinking Mire",
+   "body": "Surviving the swamp requires constant vigilance against its predatory wildlife. Deep bogs hide lunging crocolisks, venomous spiders, prowling swamp jaguars, and wandering bog beasts encrusted with marsh debris. Coastal caverns and the Misty Reed Strand crawl with vicious murlocs, while the salt-laden tide creeps continually inland, preserving rotten logs in thick briny crusts. Farther east lies Sorrowmurk, where aggressive elite dragonspawn fiercely guard the approaches to the Sunken Temple, attacking anyone who strays near their vigil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I reach the Swamp of Sorrows?",
+   "aliases": [
+    "how to get to swamp of sorrows",
+    "swamp of sorrows road",
+    "getting to stonard"
+   ],
+   "answer": "The most common overland route leads east from Darkshire in Duskwood, through the perilous haunted defile of Deadwind Pass, and straight down into the marsh. Alternatively, travelers coming from the south can walk north along the main road out of the Blasted Lands."
+  },
+  {
+   "q": "Why is the Temple of Atal'Hakkar underwater?",
+   "aliases": [
+    "why is sunken temple sunk",
+    "who sank the temple",
+    "sunken temple lore"
+   ],
+   "answer": "Centuries ago, the Atal'ai priesthood tried to summon Hakkar the Soulflayer into Azeroth. Ysera, the Dragon Aspect of the Green Flight, discovered their demonic blood rites and drowned the entire temple into the bog to avert the disaster, leaving behind green dragonspawn to guard the submerged halls."
+  },
+  {
+   "q": "What is Stonard?",
+   "aliases": [
+    "stonard history",
+    "orc base in swamp",
+    "who built stonard"
+   ],
+   "answer": "Stonard was one of the first settlements built by the Orcish Horde after crossing through the Dark Portal during the First War. Though ravaged during the fighting, it was recently reclaimed and rebuilt under Thrall's orders to anchor Horde logistics near the Blasted Lands."
+  },
+  {
+   "q": "Are there any Alliance settlements here?",
+   "aliases": [
+    "alliance base swamp of sorrows",
+    "alliance flight path swamp",
+    "where is alliance camp"
+   ],
+   "answer": "No. The Alliance maintains no towns, guards, or flight paths in the Swamp of Sorrows. Alliance adventurers operating in the area must base themselves out of Darkshire in Duskwood to the west or Nethergarde Keep in the Blasted Lands to the south."
+  },
+  {
+   "q": "Who are the strange mutated humanoids in the swamp?",
+   "aliases": [
+    "who are the lost ones",
+    "what is the harborage",
+    "draenei in swamp"
+   ],
+   "answer": "They are draenei who were stranded on Azeroth following the collapse of the Dark Portal. Severed from their world, most went mad from despair and turned into hostile Lost Ones. A small pocket of sane Broken exiles took refuge in the northwest at the Harborage, choosing neutral survival over mindless rage."
+  },
+  {
+   "q": "What is Sorrowmurk?",
+   "aliases": [
+    "dragon area swamp of sorrows",
+    "sorrowmurk dragons",
+    "green dragonspawn swamp"
+   ],
+   "answer": "Sorrowmurk is the dense tract of marshland directly east of the Pool of Tears. It serves as a patrol ground for elite green dragonspawn and whelps who violently turn away mortals to safeguard the secrets of the Sunken Temple."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Stonard serves as your vital forward redoubt in the southern continent, hosting direct wyvern routes to Kargath, Flame Crest, and Grom'gol Base Camp."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Without an outpost to rally behind, traveling through the swamp is an isolated, hostile venture requiring careful preparation from Darkshire or Nethergarde Keep."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The marsh is one of the few places in Azeroth rich in blindweed, alongside generous growths of liferoot, fadeleaf, and stranglekelp."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Tough adventurers can gather iron, gold, mithril, and truesilver along the mountainous crags framing the swamp's northern and southern edges."
+  },
+  {
+   "target": "race:Troll",
+   "text": "The sunken ruins of Atal'Hakkar stand as a dire reminder of the dark blood magic that fractured the Gurubashi Empire and drew the wrath of the Dragon Aspects."
+  }
+ ],
+ "keywords": [
+  "black morass",
+  "broken",
+  "harborage",
+  "lost ones",
+  "pool of tears",
+  "sorrowmurk",
+  "stonard",
+  "sunken temple",
+  "swamp of sorrows",
+  "temple of atal'hakkar"
+ ],
+ "related": [
+  "subzone:stonard",
+  "subzone:temple-of-atal-hakkar",
+  "subzone:pool-of-tears",
+  "subzone:harborage",
+  "subzone:sorrowmurk",
+  "zone:blastedlands",
+  "npc:fel-zerul"
+ ],
+ "attribution": [
+  "Swamp of Sorrows (Classic)",
+  "Swamp of Sorrows"
+ ]
+}

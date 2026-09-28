@@ -1,0 +1,114 @@
+{
+ "key": "quest:902",
+ "type": "quest",
+ "name": "Samophlange",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   902
+  ],
+  "level": "16",
+  "faction": null,
+  "start": "Control Console",
+  "end": "Sputtervalve",
+  "previous": "Samophlange (Classic 3)",
+  "next": "Wenikee Boltbucket (Classic)",
+  "wiki": "Samophlange (Classic 4)",
+  "chain": []
+ },
+ "summary": "This quest marks the culmination of the investigation into the Venture Company machinery in the northern Barrens. Having dismantled the system's defenses and shut down the control console, you extract the elusive samophlange itself and bring it back to Ratchet for evaluation. It proves to be far more finicky and fragile than anyone could have predicted.",
+ "sections": [
+  {
+   "title": "Unearthing the Core",
+   "body": "Behind the faceplate of the Venture Company console lies a baffling nest of wiring, purposeless tubing, and idiosyncratic engineering. Deep within this mechanized labyrinth rests the core component that baffled engineers across the region: the samophlange. With a firm tug, the device breaks free from its housing, ready to be presented to the goblin who set the entire recovery effort in motion.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fragile Innovations",
+   "body": "Returning to Ratchet, Sputtervalve eagerly claims the curious device, promising to route it to the Tinkers' Union headquarters back in Undermine for thorough study. Yet goblin curiosity gets the better of him. The moment he sets the samophlange down to take an eager preliminary glance, the delicate mechanism instantly shatters on the floor, leaving him scrambling to salvage the research.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What actually is a samophlange?",
+   "aliases": [
+    "what is samophlange",
+    "samophlange purpose",
+    "what does it do"
+   ],
+   "answer": "Even to experienced mechanics, the samophlange is an incomprehensible jumble of wires, pipes, and odd trinkets. While it ostensibly serves as the linchpin inside the Venture Company's control console, neither Sputtervalve nor its scavengers ever fully understand how it works."
+  },
+  {
+   "q": "Why does Sputtervalve want the samophlange?",
+   "aliases": [
+    "why sputtervalve wants it",
+    "who wants samophlange"
+   ],
+   "answer": "Sputtervalve intends to ship the component south across the Great Sea to the Tinkers' Union headquarters in Undermine. Goblin inventors there are known to reverse-engineer and study competing technological designs\u2014assuming the device survives long enough to be inspected."
+  },
+  {
+   "q": "What happens when you hand the samophlange over?",
+   "aliases": [
+    "does the samophlange break",
+    "what does sputtervalve do with it"
+   ],
+   "answer": "Unable to contain his excitement, Sputtervalve places the device on the ground to inspect it before packaging it for transit. Almost immediately upon touching the ground, the brittle mechanism breaks into pieces."
+  },
+  {
+   "q": "Who built the control console housing the device?",
+   "aliases": [
+    "who made samophlange",
+    "console creator"
+   ],
+   "answer": "The console and the samophlange were constructed by the Venture Company operating out of the Sludge Fen in the northern Barrens. Their operations are notorious for slapdash, high-polluting technological experiments."
+  },
+  {
+   "q": "Where does Sputtervalve send you after this?",
+   "aliases": [
+    "next quest after samophlange",
+    "what to do next"
+   ],
+   "answer": "With the samophlange reduced to broken parts, Sputtervalve looks for outside expertise to make sense of the catastrophe, sending you down the road to consult his associate, the engineer Wenikee Boltbucket."
+  },
+  {
+   "q": "Where is Sputtervalve located?",
+   "aliases": [
+    "sputtervalve location",
+    "where is sputtervalve",
+    "where to turn in samophlange"
+   ],
+   "answer": "Sputtervalve stands on the docks and works the workshops inside the port town of Ratchet, located along the eastern coast of the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The samophlange is an enduring running joke among tinkerers: a machine packed with redundant pipes and wires designed to look functional while being fragile enough to shatter upon ordinary handling."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Dealing with the goblin ports of Ratchet means handling volatile Venture Company scrap, reminding local Horde adventurers that neutral goblin enterprise often comes with explosive incompetence."
+  }
+ ],
+ "keywords": [
+  "control console",
+  "ratchet",
+  "samophlange",
+  "sputtervalve",
+  "the barrens",
+  "tinkers' union",
+  "undermine",
+  "venture company"
+ ],
+ "related": [
+  "npc:sputtervalve",
+  "subzone:ratchet",
+  "zone:barrens",
+  "quest:894"
+ ],
+ "attribution": [
+  "Samophlange (Classic 4)"
+ ]
+}

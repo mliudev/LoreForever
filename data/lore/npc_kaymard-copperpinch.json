@@ -1,0 +1,92 @@
+{
+ "key": "npc:kaymard-copperpinch",
+ "type": "npc",
+ "name": "Kaymard Copperpinch",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Kaymard Copperpinch",
+  "refs": 1
+ },
+ "summary": "Kaymard Copperpinch is a goblin merchant representing Smokywood Pastures in Orgrimmar during the Feast of Winter Veil. Stationed in the Valley of Strength, he hawks festive goods and directs travelers toward holiday cheer and missing holiday supplies. His brisk trade brings seasonal merriment\u2014and Goblin commercial enterprise\u2014to the Horde capital.",
+ "sections": [
+  {
+   "title": "A Goblin's Winter Veil",
+   "body": "When the Feast of Winter Veil arrives, Smokywood Pastures sets up shop right in the bustling Valley of Strength in Orgrimmar, fronted by the enterprising Kaymard Copperpinch. While Great-father Winter receives visitors nearby, Kaymard makes sure the season remains profitable. Selling higher-end treats, festive wrapping paper, and holiday necessities, he embodies the goblin view that no grand cultural festival is complete without a lively exchange of coin.",
+   "spoiler": 0
+  },
+  {
+   "title": "Holiday Complications",
+   "body": "Beyond peddling festive wares, Kaymard often serves as a point of contact for the seasonal mishaps that plague Smokywood Pastures. From stolen shipments of holiday confections to the mysterious disappearance of Metzen the Reindeer, Kaymard eagerly enlists Horde adventurers to sort out trouble in the snow and keep the festival running smoothly.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kaymard Copperpinch?",
+   "aliases": [
+    "who is kaymard",
+    "kaymard copperpinch lore",
+    "what does kaymard do"
+   ],
+   "answer": "Kaymard Copperpinch is a goblin merchant affiliated with Smokywood Pastures. During the Feast of Winter Veil, he operates in Orgrimmar's Valley of Strength, selling premium seasonal goods and offering festive tasks to passersby."
+  },
+  {
+   "q": "What is Smokywood Pastures?",
+   "aliases": [
+    "what is smokywood pastures",
+    "who does he work for",
+    "smokywood pastures lore"
+   ],
+   "answer": "Smokywood Pastures is a vendor consortium that handles the food, treats, and seasonal merchandise of the Feast of Winter Veil across Azeroth. They supply both the Horde and the Alliance with festival goods while turning a tidy profit."
+  },
+  {
+   "q": "Where can I find Kaymard Copperpinch?",
+   "aliases": [
+    "kaymard location",
+    "where is kaymard copperpinch",
+    "where is he in orgrimmar"
+   ],
+   "answer": "He can be found standing in the Valley of Strength in Orgrimmar, stationed near the central festival display where Great-father Winter sits during the Feast of Winter Veil."
+  },
+  {
+   "q": "Why does he ask adventurers for help during the holidays?",
+   "aliases": [
+    "kaymard quests",
+    "winter veil treats quest",
+    "metzen quest horde"
+   ],
+   "answer": "Smokywood Pastures frequently runs into logistical disasters during Winter Veil, including stolen holiday sweets and the kidnapping of their prized reindeer, Metzen. Kaymard hires willing adventurers to recover their assets and safeguard the season's profits."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde, Kaymard represents the commercial side of Winter Veil in Orgrimmar, balancing traditional winter celebrations with goblin entrepreneurship."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Kaymard and his fellow Smokywood Pastures associates provide seasonal recipes and specialty ingredients essential for baking traditional holiday treats."
+  }
+ ],
+ "keywords": [
+  "copperpinch",
+  "goblin",
+  "kaymard",
+  "metzen",
+  "orgrimmar",
+  "smokywood pastures",
+  "valley of strength",
+  "winter veil"
+ ],
+ "related": [
+  "subzone:valley-of-strength",
+  "zone:orgrimmar",
+  "npc:great-father-winter",
+  "quest:6984",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Kaymard Copperpinch"
+ ]
+}

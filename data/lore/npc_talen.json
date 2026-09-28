@@ -1,0 +1,88 @@
+{
+ "key": "npc:talen",
+ "type": "npc",
+ "name": "Talen",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Talen",
+  "refs": 2
+ },
+ "summary": "Talen is a night elf amateur archaeologist encamped near the Zoram Strand in northwestern Ashenvale. Despite the constant danger posed by nearby naga and Horde outposts, he is dedicated to recovering ancient kaldorei relics buried along the coast.",
+ "sections": [
+  {
+   "title": "Scholar on the Coast",
+   "body": "Perched at Blackfathom Camp on the edge of the Zoram Strand, Talen spends his days pursuing historical curiosities rather than waging war. While the wilderness of Ashenvale is fraught with territorial skirmishes and hostile shoreline denizens, Talen remains focused on gathering long-lost treasures from the ruins submerged beneath the waves and sands. He relies heavily on passing adventurers to braving the savage Wrathscale naga and retrieve elusive artifacts\u2014including pristine statuettes and the talismans of dangerous sea-dwelling matriarchs like Ruuzel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Talen?",
+   "aliases": [
+    "who is this night elf",
+    "talen ashenvale",
+    "talen zoram strand"
+   ],
+   "answer": "Talen is a night elf scholar and amateur archaeologist residing at Blackfathom Camp in Ashenvale. Rather than serving as a sentinel or soldier, he studies the ancient relics buried along the seashore."
+  },
+  {
+   "q": "Why is Talen camping near the Zoram Strand?",
+   "aliases": [
+    "why is talen here",
+    "talen purpose",
+    "blackfathom camp purpose"
+   ],
+   "answer": "He is investigating the sunken ruins and shores of the Zoram Strand to recover ancient kaldorei artifacts. Because the beach is crawling with violent naga and lies close to the Horde outpost of Zoram'gar, he stays at a small campsite tucked away from the main shoreline."
+  },
+  {
+   "q": "What artifacts does Talen want?",
+   "aliases": [
+    "talen quests",
+    "what does talen need",
+    "ruuzel quest"
+   ],
+   "answer": "Talen enlists travelers to search the coastline for ancient statuettes washed ashore and tasks them with hunting down the powerful naga Ruuzel on a nearby offshore isle to retrieve a unique scrying ring."
+  },
+  {
+   "q": "Is Talen hostile to the Horde?",
+   "aliases": [
+    "does talen attack horde",
+    "horde friendly talen"
+   ],
+   "answer": "While Talen is allied with the night elves, he is primarily a scholar and does not aggressively attack Horde travelers unless provoked or attacked first."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, the Zoram Strand is a tragic reminder of the Sundering; Talen represents a desire to preserve and recover the heritage lost when ancient coastal estates slid into the Great Sea."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Talen provides Alliance travelers with a valuable field contact in the contested northern reaches of Ashenvale, not far from Maestra's Post."
+  }
+ ],
+ "keywords": [
+  "ancient statuette",
+  "archaeologist",
+  "ashenvale",
+  "blackfathom camp",
+  "ruuzel",
+  "talen",
+  "zoram strand"
+ ],
+ "related": [
+  "subzone:blackfathom-camp",
+  "subzone:zoram-strand",
+  "quest:1007",
+  "quest:1009",
+  "zone:ashenvale",
+  "subzone:zoram-gar-outpost",
+  "subzone:maestra-s-post",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Talen"
+ ]
+}

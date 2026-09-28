@@ -1,0 +1,129 @@
+{
+ "key": "quest:858",
+ "type": "quest",
+ "name": "Ignition",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   858
+  ],
+  "level": "18",
+  "faction": null,
+  "start": "Wizzlecrank's Shredder",
+  "end": "",
+  "previous": null,
+  "next": "The Escape (Classic)",
+  "wiki": "Ignition (Classic)",
+  "chain": [
+   "Ignition (Classic)",
+   "The Escape (Classic)"
+  ]
+ },
+ "summary": "Ignition begins when an adventurer stumbles upon an operative trapped inside a Venture Company shredder in the northern Barrens. Having impulsively hijacked the machine without its starter key, the pilot needs someone to fetch the ignition key from the site supervisor before their cover is blown.",
+ "sections": [
+  {
+   "title": "A Heist Gone Sideways",
+   "body": "Deep within the bustling Venture Company logging grounds of the northern Barrens, an ambitious heist has run into an embarrassing snag. An operative sent on behalf of Sputtervalve managed to slip inside one of the corporation's cutting-edge shredders, intending to commandeer the machine and study its inner workings. However, the thief overlooked a fundamental detail: the steering and movement column is locked tight without a dedicated ignition key.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bluffing Under Pressure",
+   "body": "When a suspicious goblin co-worker asked why the newly boarded shredder was idling motionless, the interloper panicked and bluffed about sudden engine failure. Trapped inside the glass canopy with curious workers wandering nearby, the hijacker directs incoming adventurers to infiltrate the central derrick. The site's supervisor keeps the spare ignition keys in the upper control office, offering the only ticket out before the bluff falls apart.",
+   "spoiler": 0
+  },
+  {
+   "title": "Corporate Jealousy",
+   "body": "Once the supervisor is dealt with and the key turned in the dash, the thief is mesmerized rather than humbled. The Venture Company's shredder controls\u2014complete with precision arm movement levers, rotation controls, and stability dampeners\u2014far outshine the clumsy machinery currently operating out of Ratchet. Recovering the shredder is no longer just about survival; it is a priceless prize of industrial espionage.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is inside the shredder?",
+   "aliases": [
+    "shredder pilot",
+    "who is in wizzlecrank shredder",
+    "wizzlecrank"
+   ],
+   "answer": "The shredder is piloted by an operative connected to Sputtervalve, an engineer stationed in the neutral port town of Ratchet. The pilot infiltrated the Venture Company's operation to steal one of their advanced wood-clearing machines."
+  },
+  {
+   "q": "Why can't the shredder simply drive away?",
+   "aliases": [
+    "why need key",
+    "why stuck",
+    "shredder locked"
+   ],
+   "answer": "The shredder's movement column is mechanically locked without its ignition key. Even though the hijacker managed to enter the cockpit, the vehicle cannot maneuver or flee until the key unlocks the drive controls."
+  },
+  {
+   "q": "Where is the Ignition Key found?",
+   "aliases": [
+    "ignition key location",
+    "where is supervisor",
+    "how to find key"
+   ],
+   "answer": "The ignition key is held by the Venture Company supervisor overseeing the logging operation. The supervisor stays stationed in the control room perched at the top of the large wooden derrick tower nearby."
+  },
+  {
+   "q": "Why does Ratchet want a Venture Company shredder?",
+   "aliases": [
+    "why steal shredder",
+    "ratchet shredder",
+    "sputtervalve shredder"
+   ],
+   "answer": "The Venture Company possesses engineering designs that significantly outclass the standard models used by engineers in Ratchet. Capturing an intact unit allows local tinkerers to reverse-engineer its fine arm controls, speed regulators, and stability systems."
+  },
+  {
+   "q": "Who is Sputtervalve?",
+   "aliases": [
+    "sputtervalve identity",
+    "who sent wizzlecrank",
+    "sputtervalve ratchet"
+   ],
+   "answer": "Sputtervalve is a goblin engineer and operative based in Ratchet who monitors the Venture Company's predatory expansion and seeks to acquire their mechanical innovations."
+  },
+  {
+   "q": "What happens after the shredder is started?",
+   "aliases": [
+    "what next ignition",
+    "after ignition key",
+    "ignition follow up"
+   ],
+   "answer": "Turning the key unlocks the movement systems, immediately setting off a frantic escort operation as the pilot attempts to drive the hijacked machine out of the hostile logging camp and back to safety."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The Venture Company's shredder mechanics show surprising sophistication, utilizing fine arm manipulation controls and responsive rotation governors that outmatch typical tinkering found in Ratchet."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Venture Company's reckless deforestation threatens the northern borders of the Barrens, making any sabotage or theft of their heavy machinery a welcome disruption."
+  }
+ ],
+ "keywords": [
+  "derrick",
+  "ignition",
+  "ignition key",
+  "ratchet",
+  "shredder",
+  "sputtervalve",
+  "the barrens",
+  "venture company",
+  "wizzlecrank"
+ ],
+ "related": [
+  "npc:wizzlecrank-s-shredder",
+  "quest:114",
+  "npc:sputtervalve",
+  "topic:venture-company",
+  "subzone:ratchet",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Ignition (Classic)"
+ ]
+}

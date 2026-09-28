@@ -1,0 +1,70 @@
+{
+ "key": "npc:magga",
+ "type": "npc",
+ "name": "Magga",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Magga",
+  "refs": 1
+ },
+ "summary": "Magga is an orc resident living in the dusty settlement of Razor Hill within Durotar. Stationed near the town's lively tavern, she serves as a welcoming face for newly arrived Horde adventurers making their way out of the Valley of Trials.",
+ "sections": [
+  {
+   "title": "A Welcoming Face in Razor Hill",
+   "body": "Razor Hill serves as the first real taste of the wider world for young orcs and darkspear trolls emerging from the Valley of Trials. Positioned right beside the local inn, Magga helps orient new arrivals to the outpost, introducing them to local amenities and the hospitality of Innkeeper Grosk. While she keeps a low profile among the outpost's busy grunts and tradespeople, she helps bind the small settlement together.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Magga?",
+   "aliases": [
+    "magga durotar",
+    "magga razor hill",
+    "who is magga"
+   ],
+   "answer": "Magga is an orc civilian stationed in Razor Hill, Durotar. She stands near the inn, welcoming new Horde travelers and pointing them toward lodging and rest."
+  },
+  {
+   "q": "What is Magga's connection to Innkeeper Grosk?",
+   "aliases": [
+    "magga and grosk",
+    "magga innkeeper"
+   ],
+   "answer": "Magga directs weary travelers to Innkeeper Grosk inside the Razor Hill inn so they can bind their hearthstones and rest after their journey from the Valley of Trials."
+  },
+  {
+   "q": "Does Magga offer any quests?",
+   "aliases": [
+    "magga quests",
+    "welcome quest"
+   ],
+   "answer": "Yes, Magga offers a brief introductory greeting task titled 'Welcome!', which directs new adventurers to speak directly with the local innkeeper."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For fresh recruits leaving the harsh trials of the Valley of Trials behind, Magga provides a reassuring welcome to Durotar's first true settlement."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "horde",
+  "innkeeper grosk",
+  "magga",
+  "orc",
+  "razor hill",
+  "welcome"
+ ],
+ "related": [
+  "subzone:razor-hill",
+  "zone:durotar",
+  "npc:innkeeper-grosk",
+  "quest:5805"
+ ],
+ "attribution": [
+  "Magga"
+ ]
+}

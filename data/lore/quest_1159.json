@@ -1,0 +1,127 @@
+{
+ "key": "quest:1159",
+ "type": "quest",
+ "name": "Test of Lore",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1159
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Braug Dimspirit",
+  "end": "Parqual Fintallas",
+  "previous": "Test of Lore (3)",
+  "next": "Test of Lore (5)",
+  "wiki": "Test of Lore (4)",
+  "chain": []
+ },
+ "summary": "This leg of the Test of Lore sends Horde adventurers across the Great Sea to the ruins of Lordaeron. Having answered Braug Dimspirit's initial riddle in the heights of Thousand Needles, you are directed to seek a former human scholar among the Forsaken in the Undercity.",
+ "sections": [
+  {
+   "title": "A Scholarly Alliance",
+   "body": "After proving your mettle and unraveling the history of the tauren and their centaur foes in the arid canyons of Thousand Needles, Braug Dimspirit admits his own knowledge has limits. Rather than keeping the trial confined to Kalimdor, Braug demonstrates the broad, surprising reach of the Horde's ties by pointing you toward the undead capital beneath the ruins of Lordaeron.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Sceptical Historian",
+   "body": "In the damp corridors of the Apothecarium dwells Parqual Fintallas. Once an esteemed human chronicler of the northern kingdoms, Parqual's pursuit of knowledge survived the Scourge and his transformation into one of the Forsaken. Confronted by an outsider claiming to have completed the spiritual and physical trials of Thousand Needles, Parqual refuses to believe you are anything more than an opportunistic mercenary until you prove your worth to him directly.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does a tauren trial send me all the way to Undercity?",
+   "aliases": [
+    "why go to undercity",
+    "why lordaeron",
+    "braug sending to undead"
+   ],
+   "answer": "Braug Dimspirit acknowledges that true mastery of lore extends beyond the history of Kalimdor. He directs you to Parqual Fintallas, a renowned human scholar whose knowledge survived the fall of Lordaeron into undeath, to test your understanding of broader world history."
+  },
+  {
+   "q": "Where exactly is Parqual Fintallas located?",
+   "aliases": [
+    "where is parqual",
+    "parqual location",
+    "find fintallas"
+   ],
+   "answer": "Parqual Fintallas resides in the Undercity, specifically standing along the southern bridge in the Apothecarium quarter."
+  },
+  {
+   "q": "Who was Parqual Fintallas in life?",
+   "aliases": [
+    "parqual fintallas lore",
+    "who is parqual",
+    "fintallas backstory"
+   ],
+   "answer": "In life, Parqual Fintallas was an accomplished human historian within the kingdom of Lordaeron. After succumbing to the Plague of Undeath and joining Sylvanas's Forsaken, he maintained his scholarly pursuits, turning his intellect toward different, darker inquiries."
+  },
+  {
+   "q": "Why doesn't Parqual believe Braug sent me?",
+   "aliases": [
+    "why is parqual rude",
+    "parqual reaction",
+    "parqual doesn't believe me"
+   ],
+   "answer": "Parqual is deeply skeptical of outsiders. He finds it incredible that an ordinary adventurer could leap from the spires of Thousand Needles, defeat primeval elementals, and retrieve ancient relics, assuming instead you merely overheard rumors in a tavern."
+  },
+  {
+   "q": "What larger trial is this quest part of?",
+   "aliases": [
+    "what chain is this",
+    "test of faith chain",
+    "what is test of lore"
+   ],
+   "answer": "This quest is the midpoint of the Test of Lore chain, which itself evolved out of the trial initiated by Dorn Plainstalker at the Weathered Nook. It assesses whether an initiate possesses not just combat prowess and courage, but the intellect and historical awareness worthy of a Horde champion."
+  },
+  {
+   "q": "What comes next after reaching Parqual?",
+   "aliases": [
+    "what next after parqual",
+    "next quest after undercity",
+    "after talking to fintallas"
+   ],
+   "answer": "Before Parqual will deign to ask you his own historical riddle, he demands you undertake an errand on his behalf in the Eastern Kingdoms to verify that you are truly the capable hero Braug claims you to be."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Meeting Parqual highlights that despite their rot and undeath, Forsaken scholars like him retained the vast academic traditions and records of the fallen kingdom of Lordaeron."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For a tauren initiate, leaving the open plains and high mesas of Kalimdor to navigate the poisonous, claustrophobic sewers of Undercity makes this journey as much a cultural trial as a historical one."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "This quest demonstrates the cross-continental cooperation binding the newly forged Horde, pairing tauren wisdom seekers with the grim archivists of Lordaeron."
+  }
+ ],
+ "keywords": [
+  "apothecarium",
+  "braug dimspirit",
+  "dorn plainstalker",
+  "lordaeron",
+  "parqual fintallas",
+  "test of lore",
+  "thousand needles",
+  "undercity",
+  "weathered nook"
+ ],
+ "related": [
+  "quest:1152",
+  "npc:parqual-fintallas",
+  "zone:undercity",
+  "subzone:apothecarium",
+  "quest:1149",
+  "zone:thousandneedles",
+  "subzone:weathered-nook",
+  "npc:dorn-plainstalker"
+ ],
+ "attribution": [
+  "Test of Lore (4)"
+ ]
+}

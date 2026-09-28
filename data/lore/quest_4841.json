@@ -1,0 +1,125 @@
+{
+ "key": "quest:4841",
+ "type": "quest",
+ "name": "Pacify The Centaur",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   4841
+  ],
+  "level": "25",
+  "faction": "Horde",
+  "start": "Cliffwatcher Longhorn",
+  "end": "",
+  "previous": "Message to Freewind Post",
+  "next": "Grimtotem Spying",
+  "wiki": "Pacify the Centaur",
+  "chain": [
+   "Message to Freewind Post",
+   "Pacify the Centaur",
+   "Grimtotem Spying"
+  ]
+ },
+ "summary": "Pacify the Centaur is a retaliatory hunting mission issued by Cliffwatcher Longhorn atop Freewind Post. Charged with clearing the threat gathering beneath the canyon spires, Horde adventurers strike deep into the Galak centaur encampments of Splithoof Crag.",
+ "sections": [
+  {
+   "title": "A Threat on the Canyon Floor",
+   "body": "Perched upon its precarious desert mesa, Freewind Post grants the tauren a commanding vantage over the canyon floor of Thousand Needles. However, that high ground offers little peace when hostile enemies mass directly beneath the ropes and elevators. The Galak centaur have established a sprawling war camp nestled directly north along the canyon wall at Splithoof Crag, directly menacing supply lines and tauren movement through the needles.",
+   "spoiler": 0
+  },
+  {
+   "title": "Retaliation and Bloodshed",
+   "body": "To counter the growing danger, Cliffwatcher Longhorn sends capable Horde travelers to thin the Galak ranks through unsparing violence. Rather than merely defending the access lifts, the tauren believe the only way to safeguard Freewind Post is to break the centaur vanguard in their own camp. Taking down their scouts, beast-wranglers, and windchaser mystics is meant to blunt any concerted assault on the post before it can begin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Pacify the Centaur?",
+   "aliases": [
+    "quest giver",
+    "who starts pacify the centaur",
+    "cliffwatcher longhorn"
+   ],
+   "answer": "Cliffwatcher Longhorn gives the quest atop Freewind Post in Thousand Needles. He serves as one of the post's key defenders, monitoring the dangers lurking across the surrounding salt flats and canyons."
+  },
+  {
+   "q": "Where are the Galak centaur located?",
+   "aliases": [
+    "galak camp location",
+    "where is splithoof crag",
+    "centaur location"
+   ],
+   "answer": "The Galak centaur are encamped directly north of Freewind Post up against the northern cliff wall of Thousand Needles, in an area designated as Splithoof Crag."
+  },
+  {
+   "q": "Why do the tauren want the centaur killed?",
+   "aliases": [
+    "why kill centaur",
+    "tauren centaur conflict",
+    "why revenge"
+   ],
+   "answer": "The centaur have long waged a brutal, genocidal war against the nomadic tauren across central Kalimdor. With the Galak clan establishing a forward camp right at the foot of Freewind Post, Cliffwatcher Longhorn demands swift retribution to ensure the safety of the Horde's desert stronghold."
+  },
+  {
+   "q": "What kinds of centaur need to be slain?",
+   "aliases": [
+    "galak targets",
+    "which centaur to kill",
+    "quest objectives"
+   ],
+   "answer": "The quest tasks you with hunting down twelve Galak Scouts, ten Galak Wranglers, and six Galak Windchasers from their encampment at Splithoof Crag."
+  },
+  {
+   "q": "What comes after completing Pacify the Centaur?",
+   "aliases": [
+    "next quest",
+    "what follows pacify the centaur",
+    "quest chain after centaur"
+   ],
+   "answer": "Once the Galak ranks are thinned, Cliffwatcher Longhorn turns his attention toward other regional threats, directing you into the follow-up mission Grimtotem Spying."
+  },
+  {
+   "q": "What pre-requisite leads into this mission?",
+   "aliases": [
+    "prereq",
+    "previous quest",
+    "how to unlock pacify the centaur"
+   ],
+   "answer": "The mission opens up following the delivery quest Message to Freewind Post, which directs travelers to report directly to Cliffwatcher Longhorn."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the shu'halo, the sight of centaur camps encroaching upon a settlement triggers memories of generational slaughter. Thinning the Galak is a matter of pure cultural survival."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Freewind Post is the Horde's vital lifeline connecting the Southern Barrens and the shimmering salt flats of the Great Lift. Leaving aggressive centaur beneath its towers endangers every caravan traversing the zone."
+  }
+ ],
+ "keywords": [
+  "cliffwatcher longhorn",
+  "freewind post",
+  "galak scout",
+  "galak windchaser",
+  "galak wrangler",
+  "pacify the centaur",
+  "splithoof crag",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:cliffwatcher-longhorn",
+  "subzone:freewind-post",
+  "subzone:splithoof-crag",
+  "zone:thousandneedles",
+  "quest:4542",
+  "quest:5064",
+  "topic:centaur"
+ ],
+ "attribution": [
+  "Pacify the Centaur"
+ ]
+}

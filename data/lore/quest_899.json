@@ -1,0 +1,117 @@
+{
+ "key": "quest:899",
+ "type": "quest",
+ "name": "Consumed by Hatred",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   899
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Mankrik",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Consumed by Hatred (Classic)",
+  "chain": []
+ },
+ "summary": "Consumed by Hatred is a grim task given by Mankrik at the Crossroads in the Barrens. Tormented by the violent ambush that separated him from his wife, the grieving orc directs his agonizing uncertainty into a relentless vendetta against the Bristleback quilboar. He calls upon Horde travelers to slaughter the creatures in droves and return with a massive tally of their tusks.",
+ "sections": [
+  {
+   "title": "A Father of Vengeance",
+   "body": "Standing under the harsh sun of the Crossroads, Mankrik is a warrior possessed by grief. After surviving a vicious raid by the quilboar that left him battered and his wife missing, he spends his waking hours watching the arid horizon for any sign of the pig men. His thirst for their blood remains unquenched despite the many he has personally cut down, driving him to seek help from fellow members of the Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tusks of the Bristleback",
+   "body": "Rather than seeking peace or solace, Mankrik demands trophies of raw slaughter: sixty Bristleback quilboar tusks. To him, each shattered tusk represents a measure of suffering returned upon the monsters that tore his life apart. While piles of bone cannot heal his grief or quell his desire for retribution, seeing the Bristlebacks bleed brings a fleeting, bitter satisfaction to the wounded warrior.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Mankrik want sixty quilboar tusks?",
+   "aliases": [
+    "why 60 tusks",
+    "mankrik tusks quest",
+    "why so many tusks"
+   ],
+   "answer": "Mankrik is utterly consumed by grief and anger following a savage quilboar ambush that separated him from his wife. Sixty tusks is a deliberately brutal tally designed to inflict heavy casualties upon the Bristleback tribe, bringing him a small measure of solace in seeing his tormentors suffer."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "where is consumed by hatred",
+    "consumed by hatred location"
+   ],
+   "answer": "Mankrik offers this quest from the Crossroads in the central Barrens, sending adventurers against the Bristleback quilboar that inhabit the scrublands and thorned redoubts nearby."
+  },
+  {
+   "q": "Does turning in the tusks satisfy Mankrik's revenge?",
+   "aliases": [
+    "does mankrik stop hating quilboar",
+    "mankrik quest ending"
+   ],
+   "answer": "Not entirely. Mankrik admits that although his desire for revenge remains unquenched, seeing the quilboar endure devastating losses brings a grim smile to his face, acknowledging that they have finally felt his pain."
+  },
+  {
+   "q": "Why does Mankrik mention Camp Taurajo?",
+   "aliases": [
+    "why taurajo",
+    "camp taurajo mankrik"
+   ],
+   "answer": "In his bitter brooding, Mankrik wonders whether he should have fled south toward Camp Taurajo instead of north to the Crossroads after the ambush, questioning if the outcome of the battle and his search would have been different."
+  },
+  {
+   "q": "Who are the Bristlebacks?",
+   "aliases": [
+    "what are bristlebacks",
+    "bristleback tribe"
+   ],
+   "answer": "The Bristlebacks are an aggressive tribe of quilboar native to the Barrens. Intensely territorial and xenophobic, they clash constantly with the Horde and attack travelers across the plains from their thorn-choked encampments."
+  },
+  {
+   "q": "Is this connected to finding Mankrik's wife?",
+   "aliases": [
+    "lost in battle connection",
+    "mankriks wife quest"
+   ],
+   "answer": "Yes. Mankrik's burning hatred stems directly from the ambush where he and his wife were overwhelmed. While adventurers scour the plains trying to discover her fate in the companion quest 'Lost in Battle', this mission represents his sheer desire to retaliate against her attackers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Mankrik's grief and unyielding urge to avenge fallen kin resonate deeply with traditional orcish honor and the harsh realities of carving out a home in Kalimdor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The quilboar threaten vital travel routes between Durotar, Mulgore, and the Southern Barrens, making Mankrik's personal crusade align directly with securing Horde territory."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "A warrior knows that a wound to the heart cannot always be bandaged, and Mankrik's only remedy is meeting steel with steel across the thorned plains."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "bristleback",
+  "consumed by hatred",
+  "crossroads",
+  "mankrik",
+  "quilboar",
+  "taurajo",
+  "tusks"
+ ],
+ "related": [
+  "npc:mankrik",
+  "topic:quilboar",
+  "subzone:crossroads",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Consumed by Hatred (Classic)"
+ ]
+}

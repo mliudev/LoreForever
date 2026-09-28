@@ -1,0 +1,81 @@
+{
+ "key": "subzone:hall-of-masks",
+ "type": "subzone",
+ "name": "Hall of Masks",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Hall of Masks"
+ },
+ "summary": "The Hall of Masks is an ominous chamber inside the sunken Temple of Atal'Hakkar in the Swamp of Sorrows. Lined with giant skull masks and marred by a bone-strewn trench, it marks one of the early thresholds deeper into the Atal'ai stronghold.",
+ "sections": [
+  {
+   "title": "A Gruesome Threshold",
+   "body": "Located just past the staircase descending from the Broken Hall, the Hall of Masks serves as a central junction within the Sunken Temple. The chamber earns its name from the imposing, stylized skull masks mounted along its stone walls. Below them runs a deep trench choked with discarded bones, testifying to the gruesome sacrificial rites once enacted by the fanatical Atal'ai priesthood. Beyond this eerie hall lie passages branching out to the Butchery, the Chamber of Blood, and the Den of the Caller.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Hall of Masks located?",
+   "aliases": [
+    "hall of masks location",
+    "where is hall of masks",
+    "find hall of masks"
+   ],
+   "answer": "The Hall of Masks is an interior wing of the Temple of Atal'Hakkar, situated beneath the waters of the Pool of Tears in the Swamp of Sorrows. You reach it by descending past the Broken Hall near the entrance of the sunken complex."
+  },
+  {
+   "q": "Why is it called the Hall of Masks?",
+   "aliases": [
+    "hall of masks name meaning",
+    "why masks"
+   ],
+   "answer": "It takes its name from the massive carved skull masks that decorate the walls of the chamber, looming over anyone who treads through the temple corridors."
+  },
+  {
+   "q": "What was the purpose of the trench in the floor?",
+   "aliases": [
+    "why are there bones in the floor",
+    "hall of masks bone pit",
+    "trench of bones"
+   ],
+   "answer": "While the exact rituals remain obscured by the passage of time and temple secrecy, the trench is littered with old bones, indicating it served a dark, sacrificial purpose during the height of the Atal'ai cult's ceremonies."
+  },
+  {
+   "q": "Where do the passages from this hall lead?",
+   "aliases": [
+    "hall of masks exits",
+    "where does hall of masks lead"
+   ],
+   "answer": "Venturing beyond the Hall of Masks leads deeper into the temple's lower complexes, connecting directly toward areas like the Butchery, the Chamber of Blood, and the Den of the Caller."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls, the chamber represents the sinister lengths to which the Atal'ai zealots were willing to go in their desperate pursuit of Hakkar the Soulflayer."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The macabre architecture and bone-filled trench stand as chilling relics of dark priesthood rites, twisted toward blood worship."
+  }
+ ],
+ "keywords": [
+  "atal'ai",
+  "broken hall",
+  "hall of masks",
+  "sunken temple",
+  "swamp of sorrows",
+  "temple of atal'hakkar"
+ ],
+ "related": [
+  "subzone:temple-of-atal-hakkar",
+  "subzone:broken-hall",
+  "zone:swampofsorrows",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Hall of Masks"
+ ]
+}

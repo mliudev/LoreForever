@@ -1,0 +1,76 @@
+{
+ "key": "npc:cazul",
+ "type": "npc",
+ "name": "Cazul",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Cazul",
+  "refs": 2
+ },
+ "summary": "Cazul is an ancient, blind orc warlock dwelling in the darkened cavern of the Cleft of Shadow beneath Orgrimmar. Despite having lost his physical sight, he possesses profound occult insight and guides rising practitioners of the dark arts seeking to expand their demonic command.",
+ "sections": [
+  {
+   "title": "Eyes in the Dark",
+   "body": "Tucked away in the cavernous depths of the Cleft of Shadow, Cazul endures as a relic of old warlock traditions. Though entirely blind, his senses are attuned to the shifting currents of the Twisting Nether and the whispers of demonic entities. Rising warlocks are often directed to him when seeking to expand their mastery and bind more dangerous servitors. His sharp awareness and occult wisdom make it clear that losing his eyes cost him nothing of his arcane power.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Cazul?",
+   "aliases": [
+    "who is cazul",
+    "cazul lore",
+    "blind cazul npc"
+   ],
+   "answer": "Cazul is an elderly, blind orc warlock residing in the Cleft of Shadow beneath Orgrimmar. He is known for his deep knowledge of dark sorcery and demonology, serving as an advisor to aspiring warlocks."
+  },
+  {
+   "q": "Why is Cazul blind?",
+   "aliases": [
+    "why is cazul blind",
+    "how did cazul lose his sight"
+   ],
+   "answer": "The exact cause of Cazul's blindness is unrecorded, though it is not uncommon for veteran warlocks to sacrifice physical senses or suffer injury from prolonged communion with fel energy and demonic entities."
+  },
+  {
+   "q": "What role does Cazul play for warlocks?",
+   "aliases": [
+    "cazul quests",
+    "what does cazul teach",
+    "warlock quest cazul"
+   ],
+   "answer": "Cazul plays a crucial role in directing warlocks seeking to advance their craft, particularly those learning to summon and bind powerful lesser demons such as the voidwalker."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks of the Horde are directed to Cazul in the Cleft of Shadow when seeking guidance on binding deeper powers from the Nether."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Cazul represents the enduring presence of dark magic among the orcs, practicing his crafts away from the watchful eyes of Thrall's honor guard."
+  }
+ ],
+ "keywords": [
+  "blind cazul",
+  "cazul",
+  "cleft of shadow",
+  "demonology",
+  "orgrimmar",
+  "voidwalker",
+  "warlock"
+ ],
+ "related": [
+  "subzone:cleft-of-shadow",
+  "quest:1508",
+  "quest:1472",
+  "zone:orgrimmar",
+  "subzone:cleft"
+ ],
+ "attribution": [
+  "Cazul"
+ ]
+}

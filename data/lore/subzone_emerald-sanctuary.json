@@ -1,0 +1,71 @@
+{
+ "key": "subzone:emerald-sanctuary",
+ "type": "subzone",
+ "name": "Emerald Sanctuary",
+ "era": "classic",
+ "zone": "felwood",
+ "meta": {
+  "wiki": "Emerald Sanctuary"
+ },
+ "summary": "The Emerald Sanctuary is an outpost of the Cenarion Circle situated at the southern entrance of Felwood. Here, night elven and tauren druids unite to study the pervasive demonic taint and attempt the arduous task of healing the corrupted woodland.",
+ "sections": [
+  {
+   "title": "A Beacon in the Blight",
+   "body": "Perched on the southern edge of Felwood near the Ashenvale border, the Emerald Sanctuary serves as the primary base of operations for the Cenarion Circle in this blighted wilderness. Unlike the bitter factional conflicts burning across Kalimdor, this sanctuary offers a neutral foothold where druids look past politics to focus entirely on ecological restoration. From here, researchers track corrupted flora and direct investigations toward Jaedenar, seeking any viable method to cleanse the poisoned soil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Emerald Sanctuary?",
+   "aliases": [
+    "why is emerald sanctuary here",
+    "what do druids do here",
+    "emerald sanctuary purpose"
+   ],
+   "answer": "The Cenarion Circle established the camp to study and counter the demonic taint choking Felwood. Druids stationed here investigate corrupted plants, beasts, and water sources while coordinating efforts to combat the Shadow Council cultists entrenched deeper in the woods."
+  },
+  {
+   "q": "Can both Alliance and Horde visit the Emerald Sanctuary?",
+   "aliases": [
+    "is emerald sanctuary neutral",
+    "horde allowed emerald sanctuary",
+    "alliance sanctuary friendly"
+   ],
+   "answer": "Yes. The Cenarion Circle operates as an independent, neutral organization. Both Alliance and Horde adventurers are welcomed so long as they are willing to assist in cleansing Felwood's deep corruption."
+  },
+  {
+   "q": "What threat concerns the druids here the most?",
+   "aliases": [
+    "biggest threat in felwood",
+    "what are druids fighting",
+    "jaedenar threat"
+   ],
+   "answer": "While the entire forest is warped by demonic energies left behind after the Third War, the druids are especially alarmed by Jaedenar, a sprawling cavern complex to the north where the Shadow Council actively festers and spreads corruption."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids of both Darnassus and Thunder Bluff, the Emerald Sanctuary is a crucial reminder of their shared calling, demonstrating that the mandate to heal the land transcends worldly faction loyalties."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "corruption",
+  "druids",
+  "emerald sanctuary",
+  "felwood",
+  "jaedenar"
+ ],
+ "related": [
+  "zone:felwood",
+  "subzone:jaedenar",
+  "subzone:talonbranch-glade",
+  "subzone:bloodvenom-post",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Emerald Sanctuary"
+ ]
+}

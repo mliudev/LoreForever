@@ -1,0 +1,88 @@
+{
+ "key": "subzone:magni-s-encampment",
+ "type": "subzone",
+ "name": "Magni's Encampment",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Magni's Encampment"
+ },
+ "summary": "Magni's Encampment is an outpost situated west of the colossal sword plunged into Silithus. Established around an ancient titan translocator, it serves as a rallying ground where druids, shamans, and earthen protectors assemble to tend the stricken land.",
+ "sections": [
+  {
+   "title": "A Gathering on the Edge of the Scar",
+   "body": "Positioned within the blighted expanse of Silithus, Magni's Encampment hosts a rare congregation focused entirely on the planet's preservation. Members of the Cenarion Circle, representatives of the Earthen Ring, and vigilant earthen guardians maintain a perimeter around the devastation. While tensions usually run deep across Kalimdor, the encampment functions under a shared imperative to monitor the site and tend to the shattered earth. At the heart of the outpost stands an active titan device, allowing direct passage into deep subterranean chambers that house ancient titan machinery.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Magni's Encampment?",
+   "aliases": [
+    "what is this camp",
+    "magni camp silithus",
+    "who is at magni camp"
+   ],
+   "answer": "It is an outpost established in the desert of Silithus just west of the massive blade embedded in the earth. Leaders, druids of the Cenarion Circle, and shamans of the Earthen Ring congregate here to address the catastrophic damage inflicted upon the land."
+  },
+  {
+   "q": "Who can be found at this outpost?",
+   "aliases": [
+    "npcs at magni camp",
+    "who is here",
+    "camp members"
+   ],
+   "answer": "The camp hosts notable figures including Magni Bronzebeard, Archdruid Hamuul Runetotem, Broll Bearmantle, and Zen'kiki, alongside various Earthen Guardians, druids, and shamans working together."
+  },
+  {
+   "q": "What is the purpose of the device in the camp?",
+   "aliases": [
+    "titan teleporter",
+    "titan translocator",
+    "chamber of heart portal"
+   ],
+   "answer": "The outpost is situated around a titan translocator. This mechanism teleports explorers directly into the Chamber of Heart, an ancient titan vault buried deep beneath the desert surface."
+  },
+  {
+   "q": "Why are Cenarion Circle and Earthen Ring members here together?",
+   "aliases": [
+    "why are druids and shamans here",
+    "druids and shamans silithus",
+    "earthen ring silithus"
+   ],
+   "answer": "Both orders are dedicated to the balance and preservation of the natural world. The staggering trauma dealt to the earth in Silithus demands the joint focus of druidic nature arts and shamanic communion with the elements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The camp is a focal point of Cenarion Circle efforts, where prominent archdruids stand watch over nature's distress."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Earthen Ring shamans and earthen guardians work here side-by-side to soothe the agony of the surrounding earth."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "chamber of heart",
+  "earthen ring",
+  "hamuul runetotem",
+  "magni's encampment",
+  "silithus",
+  "translocator"
+ ],
+ "related": [
+  "subzone:silithus-the-wound",
+  "zone:silithus",
+  "npc:magni-bronzebeard",
+  "quest:1489",
+  "topic:cenarion-circle",
+  "topic:titan",
+  "topic:druid",
+  "topic:sargeras"
+ ],
+ "attribution": [
+  "Magni's Encampment"
+ ]
+}

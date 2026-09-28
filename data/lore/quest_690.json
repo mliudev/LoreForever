@@ -1,0 +1,124 @@
+{
+ "key": "quest:690",
+ "type": "quest",
+ "name": "Malin's Request",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   690
+  ],
+  "level": "32",
+  "faction": "Alliance",
+  "start": "Archmage Malin",
+  "end": "Skuerto",
+  "previous": "",
+  "next": "Worth Its Weight in Gold (Classic)",
+  "wiki": "Malin's Request",
+  "chain": []
+ },
+ "summary": "Malin's Request is an Alliance task offered by Archmage Malin in Stormwind City's Mage Quarter. Malin asks seasoned adventurers to travel far north to Refuge Pointe in the Arathi Highlands, where an expedition attempts to recover valuable magical relics left behind during the fall of Stromgarde.",
+ "sections": [
+  {
+   "title": "A Master's Lost Belongings",
+   "body": "Archmage Malin, stationed in the Wizard's Sanctum of Stormwind, acts on behalf of his former mentor, Archmage Trelane. When the martial kingdom of Stromgarde collapsed into chaos and ruin, Trelane made a desperate stand at the Tower of Arathor. Forced to abandon his post as the city fell to hostile forces, Trelane left behind powerful enchanted possessions. Eager to reclaim these lost artifacts before hostile hands seize them, Malin directs capable mercenaries north to reinforce his operatives in the field.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Strained Outpost at Refuge Pointe",
+   "body": "The road to recovering Trelane's relics leads through Refuge Pointe, the beleaguered bastion of Stromgarde loyalists in the central Arathi Highlands. Malin's primary contact among the defenders is the dwarf Skuerto. However, Refuge Pointe is severely hard-pressed by surrounding Syndicate outlaws, Witherbark trolls, and Boulderfist ogres. Arriving travelers quickly find that Skuerto and the outpost garrison are stretched far too thin to offer a warm reception without immediate assistance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Archmage Malin?",
+   "aliases": [
+    "archmage malin",
+    "who is malin",
+    "malin stormwind"
+   ],
+   "answer": "Archmage Malin is a senior human wizard residing in the Wizard's Sanctum of Stormwind. He was once an apprentice to Archmage Trelane of Stromgarde and now coordinates efforts from Stormwind to recover his former master's magical research."
+  },
+  {
+   "q": "Why does Malin need help in Arathi?",
+   "aliases": [
+    "why go to arathi",
+    "malin mission purpose",
+    "why arathi highlands"
+   ],
+   "answer": "Stromgarde recently collapsed under siege, forcing Archmage Trelane to flee the Tower of Arathor. Malin's agents in the region are working to recover Trelane's abandoned magical relics, but they are overwhelmed and require reinforcements."
+  },
+  {
+   "q": "Where is Skuerto located?",
+   "aliases": [
+    "find skuerto",
+    "skuerto location",
+    "where is refuge pointe"
+   ],
+   "answer": "Skuerto is a dwarven scout stationed at Refuge Pointe, the fortified Alliance encampment situated along the main trade road through the central Arathi Highlands."
+  },
+  {
+   "q": "What happened to the Tower of Arathor?",
+   "aliases": [
+    "tower of arathor fall",
+    "what happened to stromgarde",
+    "trelane tower"
+   ],
+   "answer": "The Tower of Arathor was an arcane redoubt within Stromgarde. During the kingdom's downfall, Archmage Trelane attempted to hold the fortification against invading Syndicate rogues and Boulderfist ogres, but the defenses failed and he was forced to flee."
+  },
+  {
+   "q": "What happens after reporting to Skuerto?",
+   "aliases": [
+    "malin request follow up",
+    "next quest after malin",
+    "skuerto next quest"
+   ],
+   "answer": "Skuerto is overwhelmed and dismissive upon arrival, immediately directing you toward his companions at Refuge Pointe to begin recovering Trelane's scattered belongings."
+  },
+  {
+   "q": "Who is Archmage Trelane?",
+   "aliases": [
+    "archmage trelane",
+    "who is trelane",
+    "trelane stromgarde"
+   ],
+   "answer": "Archmage Trelane is a prominent mage of Stromgarde and the mentor of Archmage Malin. He was one of the key defenders of the Arathi capital before the kingdom fell."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For mages visiting the Wizard's Sanctum, assisting Malin directly preserves precious arcane research and relics tied to the legacy of Arathor's mages."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Refuge Pointe represents the fragile, remaining foothold of the Alliance in Arathi, making any reinforcement sent from Stormwind critical to maintaining the region."
+  },
+  {
+   "target": "race:Human",
+   "text": "Stromgarde was the cradle of human civilization; aiding in the retrieval of its treasures is a matter of honor and historical survival for the sons and daughters of Arathor."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "malin",
+  "refuge pointe",
+  "skuerto",
+  "stormwind",
+  "stromgarde",
+  "tower of arathor",
+  "trelane",
+  "wizard's sanctum"
+ ],
+ "related": [
+  "npc:archmage-malin",
+  "npc:skuerto",
+  "subzone:refuge-pointe",
+  "zone:arathi",
+  "subzone:tower-of-arathor"
+ ],
+ "attribution": [
+  "Malin's Request"
+ ]
+}

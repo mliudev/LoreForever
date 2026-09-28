@@ -1,0 +1,112 @@
+{
+ "key": "npc:morin-cloudstalker",
+ "type": "npc",
+ "name": "Morin Cloudstalker",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Morin Cloudstalker",
+  "refs": 8
+ },
+ "summary": "Morin Cloudstalker is a tauren scout keeping watch along the southern road connecting Bloodhoof Village to the Great Gate in Mulgore. Standing vigil over the plains, he monitors local trade routes and investigates the encroaching threats endangering tauren travelers.",
+ "sections": [
+  {
+   "title": "Watcher on the Southern Trail",
+   "body": "Positioned beside the dirt path winding south toward the Great Gate, Morin Cloudstalker acts as both a scout and a guardian for travelers through southern Mulgore. The grassy plains here are usually peaceful, but the opening of trade routes and shifting territories have drawn opportunists and bandits dangerously close to the heart of the tauren homeland.",
+   "spoiler": 0
+  },
+  {
+   "title": "Investigating the Caravan",
+   "body": "Morin is among the first to notice when a supply caravan goes missing along the southern roadway. Upon finding the wreckage of the ravaged wagon, he coordinates investigations to track down the raiders and determine whether local quillboar or other marauders are responsible for pillaging essential goods.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defending Against Venture Co.",
+   "body": "Beyond common brigands, Morin is deeply concerned by the industrial presence of the Venture Company establishing operations within Mulgore. He directs passing Horde adventurers to strike at their logging and mining outposts, targeting key leaders like Supervisor Fizsprocket to curtail the environmental devastation threatening the sacred plains.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Morin Cloudstalker?",
+   "aliases": [
+    "morin location",
+    "where is morin",
+    "morin cloudstalker map"
+   ],
+   "answer": "Morin Cloudstalker stands by the dirt trail south of Bloodhoof Village in Mulgore, along the route leading toward the Great Gate."
+  },
+  {
+   "q": "What is Morin's role in Mulgore?",
+   "aliases": [
+    "who is morin cloudstalker",
+    "morin role"
+   ],
+   "answer": "He is a watchful tauren scout responsible for monitoring travel through southern Mulgore and organizing defense against bandits and corporate intruders."
+  },
+  {
+   "q": "Why is Morin investigating the ruined caravan?",
+   "aliases": [
+    "ravaged caravan quest",
+    "caravan attack mulgore"
+   ],
+   "answer": "A supply wagon was ambushed along the trail, and Morin tasks adventurers with surveying the scene, uncovering clues, and dealing with the raiders who attacked it."
+  },
+  {
+   "q": "Why does Morin want the Venture Company stopped?",
+   "aliases": [
+    "venture co mulgore",
+    "why kill fizsprocket"
+   ],
+   "answer": "The Venture Company is stripping Mulgore's natural resources with machinery and deforestation. Morin seeks to disrupt their destructive enterprise by eliminating their overseers, including Supervisor Fizsprocket."
+  },
+  {
+   "q": "Who does Morin report to?",
+   "aliases": [
+    "morin allegiance",
+    "who sent morin"
+   ],
+   "answer": "Morin operates on behalf of the elders and chieftains of Bloodhoof Village and the broader tauren leadership across Mulgore."
+  },
+  {
+   "q": "Does Morin offer quests to Alliance players?",
+   "aliases": [
+    "can alliance talk to morin",
+    "morin faction"
+   ],
+   "answer": "No. Morin is an NPC loyal strictly to the Horde and will only interact with Horde adventurers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren journeying outward from Bloodhoof Village, Morin represents the vigilant defense of your homeland against both opportunistic bandits and corporate defilers."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Morin offers Horde champions an early opportunity to protect the supplies and sacred lands of their new tauren allies."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "great gate",
+  "morin cloudstalker",
+  "mulgore",
+  "ravaged caravan",
+  "supervisor fizsprocket",
+  "venture co"
+ ],
+ "related": [
+  "quest:749",
+  "quest:764",
+  "quest:765",
+  "subzone:bloodhoof-village",
+  "subzone:great-gate",
+  "subzone:ravaged-caravan",
+  "zone:mulgore",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Morin Cloudstalker"
+ ]
+}

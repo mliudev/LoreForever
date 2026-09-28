@@ -1,0 +1,93 @@
+{
+ "key": "npc:razzle-sprysprocket",
+ "type": "npc",
+ "name": "Razzle Sprysprocket",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Razzle Sprysprocket",
+  "refs": 1
+ },
+ "summary": "Razzle Sprysprocket is a gnomish engineer and pilot residing in Kharanos in Dun Morogh. Known for his technical tinkering alongside Ozzie Togglevolt, he enlists travelers to help salvage disrupted gnomish machinery and components around the snowy hills.",
+ "sections": [
+  {
+   "title": "Tinkering in Kharanos",
+   "body": "Following the tragedy at Gnomeregan, Razzle Sprysprocket found refuge among the snowdrifts of Dun Morogh, setting up his workshop in Kharanos. Renowned among his peers as a record-holding pilot with a knack for delicate mechanical parts, Razzle works alongside fellow engineer Ozzie Togglevolt. Their efforts frequently involve recovering gyro-mechanisms and cog assemblies that were lost or scavenged during the flight from their irradiated homeland.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defense of the Workshop",
+   "body": "Life in Dun Morogh is far from peaceful for a gnome inventor. Between the wild beasts of the frozen ridges and raids by local Frostmane trolls, Razzle's experiments have sometimes led to chaotic mishaps\u2014such as mistaking ticking time bombs for standard explosive ordnance. Despite such engineering misadventures, he remains dedicated to keeping gnomish contraptions functional and recovering the lost wonders of Gnomeregan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Razzle Sprysprocket?",
+   "aliases": [
+    "razzle sprysprocket",
+    "who is razzle",
+    "razzle kharanos"
+   ],
+   "answer": "Razzle Sprysprocket is an eccentric gnome tinkerer and reputed record-holding pilot stationed in Kharanos within Dun Morogh, working alongside Ozzie Togglevolt."
+  },
+  {
+   "q": "What does Razzle Sprysprocket need help with?",
+   "aliases": [
+    "razzle quest",
+    "operation recombobulation help",
+    "what does razzle want"
+   ],
+   "answer": "Razzle frequently requires adventurers to venture out into Dun Morogh to gather errant gizmos, cog assemblies, and parts to aid in the recombobulation of gnomish engineering projects."
+  },
+  {
+   "q": "Where can I find Razzle Sprysprocket?",
+   "aliases": [
+    "razzle location",
+    "where is razzle",
+    "razzle sprysprocket map"
+   ],
+   "answer": "He can be found working outdoors near the tinker's post in Kharanos, just outside the inn and forge in central Dun Morogh."
+  },
+  {
+   "q": "Is Razzle Sprysprocket related to other Sprysprockets?",
+   "aliases": [
+    "crazzle sprysprocket brother",
+    "sprysprocket family",
+    "razzle relatives"
+   ],
+   "answer": "Razzle is believed to be closely related to Crazzle Sprysprocket, sporting an identical beard style, and has a cousin named Gimble, though he shares no close ties to Rizzle Sprysprocket."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For exiled gnomes passing through Dun Morogh, Razzle represents the enduring inventive spirit and the determination to rebuild and recover after the fall of Gnomeregan."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will find a kindred spirit in Razzle, whose projects highlight the fine line between brilliant gnomish invention and explosive miscalculation."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "engineer",
+  "kharanos",
+  "ozzie togglevolt",
+  "pilot",
+  "razzle",
+  "recombobulation",
+  "sprysprocket"
+ ],
+ "related": [
+  "subzone:kharanos",
+  "zone:dunmorogh",
+  "npc:ozzie-togglevolt",
+  "quest:412",
+  "topic:gnome",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Razzle Sprysprocket"
+ ]
+}

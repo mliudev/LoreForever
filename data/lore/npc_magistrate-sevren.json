@@ -1,0 +1,110 @@
+{
+ "key": "npc:magistrate-sevren",
+ "type": "npc",
+ "name": "Magistrate Sevren",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Magistrate Sevren",
+  "refs": 8
+ },
+ "summary": "Magistrate Sevren is the chief administrative official presiding over the settlement of Brill in Tirisfal Glades. Standing inside the town hall, he organizes early Forsaken defense and directs arriving champions to stabilize the territory around the Undercity.",
+ "sections": [
+  {
+   "title": "Town Magistrate of Brill",
+   "body": "Operating from the town hall in Brill, Magistrate Sevren coordinates civil authority and strategic efforts in the lands just north of the Undercity. As new Forsaken step forth into Tirisfal Glades, Sevren assesses local crises and dispatches adventurers to restore order, secure ruined infrastructure, and suppress persistent threats lingering in the surrounding hills.",
+   "spoiler": 0
+  },
+  {
+   "title": "Securing the Graves",
+   "body": "Sevren's primary concerns center on the preservation and recovery of the Tirisfal dead. Local graverobbers, rot hides, and rogue undead disrupt burial grounds, threatening the emerging dominion of Sylvanas Windrunner. Sevren ensures that ancestral tombs\u2014such as the Agamand Family Crypt\u2014are reclaimed and that deserters or uncooperative forces do not subvert Forsaken authority in the region.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Magistrate Sevren?",
+   "aliases": [
+    "magistrate sevren",
+    "who is sevren",
+    "brill magistrate"
+   ],
+   "answer": "Magistrate Sevren is the administrative head of Brill, stationed within the town hall. He serves as an overseer for Forsaken territorial management, handing out tasks to adventurers who arrive from Deathknell to aid the fledgling realm."
+  },
+  {
+   "q": "Where can Magistrate Sevren be found?",
+   "aliases": [
+    "sevren location",
+    "where is magistrate sevren",
+    "find sevren"
+   ],
+   "answer": "He is located inside the Town Hall in the center of Brill, in Tirisfal Glades."
+  },
+  {
+   "q": "What threats does Magistrate Sevren deal with?",
+   "aliases": [
+    "sevren quests",
+    "what does sevren want",
+    "brill problems"
+   ],
+   "answer": "Sevren contends with local threats to Tirisfal Glades, including human graverobbers, rogue rot hides, Scourge remnants desecrating local crypts, and rogue undead figures who refuse allegiance to Lady Sylvanas."
+  },
+  {
+   "q": "What is Magistrate Sevren's allegiance?",
+   "aliases": [
+    "sevren faction",
+    "who does sevren serve"
+   ],
+   "answer": "He is loyal to the Forsaken and governs Brill on behalf of Lady Sylvanas Windrunner and the Undercity."
+  },
+  {
+   "q": "Why does Sevren send adventurers to the family crypt?",
+   "aliases": [
+    "agamand crypt",
+    "sevren crypt quest"
+   ],
+   "answer": "The crypts belonging to the old Agamand dynasty are overrun with undead and scavenging threats. Sevren demands that adventurers secure the ancestral resting places to prevent enemies from exploiting them."
+  },
+  {
+   "q": "Does Sevren have ties to the Undercity leadership?",
+   "aliases": [
+    "sevren undercity",
+    "sevren raleigh"
+   ],
+   "answer": "Yes. As the local magistrate, he frequently liaises with agents and officials from the Undercity, dispatching messengers and directing adventurers deeper into the capital once their competence in Brill is proven."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For newly liberated Forsaken leaving Deathknell, Magistrate Sevren represents the civic face of Sylvanas's realm, providing your first major assignments to safeguard your homeland."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Allies of the Horde arriving in Tirisfal will find Sevren coordinating the front-line pacification of Tirisfal Glades against bandits, Scourge remnants, and rebel factions."
+  }
+ ],
+ "keywords": [
+  "agamand",
+  "brill",
+  "forsaken",
+  "magistrate",
+  "sevren",
+  "tirisfal",
+  "town hall",
+  "undercity"
+ ],
+ "related": [
+  "subzone:brill",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "quest:355",
+  "quest:360",
+  "quest:358",
+  "quest:408",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "Magistrate Sevren"
+ ]
+}

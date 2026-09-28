@@ -1,0 +1,77 @@
+{
+ "key": "subzone:dust-plains",
+ "type": "subzone",
+ "name": "Dust Plains",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Dust Plains"
+ },
+ "summary": "The Dust Plains form the dry, wind-scoured southern frontier of Westfall. Marked by arid ground and scarce scrub, the region is overrun by aggressive gnoll encampments and borders an old wizard's tower along its eastern rise.",
+ "sections": [
+  {
+   "title": "A Barren Frontier",
+   "body": "Stretching across southern Westfall, the Dust Plains mark the transition from troubled farmland to desolate wilderness. Unlike the plundered farmsteads to the north, this arid reach has long been surrendered to packs of feral gnolls who ambush travelers and challenge anyone venturing toward the coast or the nearby hills. On the eastern boundary sits Mortwake's Tower, a lonely magical retreat that offers no shelter from the beasts prowling the surrounding wastes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Dust Plains located?",
+   "aliases": [
+    "dust plains location",
+    "where is dust plains",
+    "where dust plains"
+   ],
+   "answer": "The Dust Plains occupy the southernmost portion of Westfall, lying south of the abandoned farmsteads and extending toward the cliffs and Mortwake's Tower on the east."
+  },
+  {
+   "q": "What threats can travelers find in the Dust Plains?",
+   "aliases": [
+    "what lives in dust plains",
+    "dust plains enemies",
+    "mobs in dust plains"
+   ],
+   "answer": "The region is heavily populated by savage gnolls, who maintain crude camps throughout the dusty landscape and violently assault anyone who wanders near."
+  },
+  {
+   "q": "What is the tower on the eastern edge of the plains?",
+   "aliases": [
+    "dust plains tower",
+    "eastern tower westfall",
+    "what is mortwake's tower"
+   ],
+   "answer": "That is Mortwake's Tower, an old wizard's spire that overlooks the eastern verge of the Dust Plains."
+  },
+  {
+   "q": "Does the People's Militia hold any control over the Dust Plains?",
+   "aliases": [
+    "militia dust plains",
+    "is westfall guard here"
+   ],
+   "answer": "No. The People's Militia is already stretched dangerously thin defending Sentinel Hill and the northern farms from the Defias Brotherhood, leaving the Dust Plains entirely in the hands of prowling gnolls."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Dust Plains represent another lawless fringe where Stormwind's neglect is starkly visible, forcing travelers and local defenders to fend off relentless gnoll packs without official reinforcement."
+  }
+ ],
+ "keywords": [
+  "dust plains",
+  "gnolls",
+  "mortwake's tower",
+  "plains",
+  "southern westfall",
+  "westfall"
+ ],
+ "related": [
+  "zone:westfall",
+  "subzone:mortwake-s-tower",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Dust Plains"
+ ]
+}

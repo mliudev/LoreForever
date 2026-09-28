@@ -1,0 +1,123 @@
+{
+ "key": "npc:zardeth-of-the-black-claw",
+ "type": "npc",
+ "name": "Zardeth of the Black Claw",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Zardeth of the Black Claw",
+  "refs": 3
+ },
+ "summary": "Zardeth of the Black Claw is a warlock dwelling in the dim subterranean chambers beneath the Slaughtered Lamb in Stormwind's Mage Quarter. Operating under the guise of an unassuming patron, he coordinates covert measures to protect the city's hidden warlock cabal from outside scrutiny. When inquisitive nobles begin looking too closely into their activities, Zardeth ensures those inquiries end permanently.",
+ "sections": [
+  {
+   "title": "A Shadow Beneath the Lamb",
+   "body": "While the Mage Quarter's towering spires study arcane discipline in the open, the underground tunnels beneath the Slaughtered Lamb house those who traffic in darker arts. Zardeth of the Black Claw operates from these crypts, functioning as a watchful guardian for the practitioners hiding right beneath the city guard's nose. Because the Alliance officially condemns fel magic, survival requires an ironclad secret and a willingness to eliminate any threat before royal investigators come knocking.",
+   "spoiler": 0
+  },
+  {
+   "title": "Silencing the Nobility",
+   "body": "When Lord Baurles K. Wishock discovered whispers of the hidden warlock coven, the nobleman began lobbying the House of Nobles for an immediate, full-scale investigation. Aware that such scrutiny would destroy their underground haven, Zardeth arranged a clandestine countermeasure. Capitalizing on the lord's known indulgence in fine liquor, Zardeth dispatched an operative across the eastern kingdoms to gather rare, lethal flora\u2014the Tear of Tilloa from Duskwood and Musquash Root from beneath the Stonewrought Dam.",
+   "spoiler": 1
+  },
+  {
+   "title": "A Noble Brew",
+   "body": "Blending the gathered reagents with stout ale, Zardeth concocted the Black Claw Stout, a lethal vintage engineered to look like an ordinary luxury gift. Once delivered to Wishock's estate, the poisoned brew did its work swiftly and quietly. With Wishock dead and his campaign extinguished before the crown could intervene, Zardeth and his fellow warlocks successfully safeguarded the subterranean enclave beneath the Slaughtered Lamb.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zardeth of the Black Claw?",
+   "aliases": [
+    "zardeth",
+    "who is zardeth",
+    "zardeth stormwind"
+   ],
+   "answer": "Zardeth is a human warlock stationed in the underground crypts beneath the Slaughtered Lamb tavern in Stormwind's Mage Quarter. He acts on behalf of the hidden warlock brotherhood to deflect suspicion and handle threats to their secret presence in the city."
+  },
+  {
+   "q": "Where can I find Zardeth?",
+   "aliases": [
+    "zardeth location",
+    "where is zardeth",
+    "zardeth slaughter lamb"
+   ],
+   "answer": "He can be found beneath the Slaughtered Lamb, an inn situated in the southern half of the Mage Quarter in Stormwind City. Enter the tavern, find the descending passageway in the back, and follow the winding catacombs down to the warlock enclave."
+  },
+  {
+   "q": "Why does Zardeth want Lord Wishock dead?",
+   "aliases": [
+    "why kill wishock",
+    "lord wishock target",
+    "noble brew reason"
+   ],
+   "answer": "Lord Baurles K. Wishock discovered evidence that warlocks were operating beneath the city and began lobbying Stormwind's nobility for a formal investigation. If an official inquiry took place, the Slaughtered Lamb coven would have been rooted out and executed by city authorities."
+  },
+  {
+   "q": "What is Black Claw Stout?",
+   "aliases": [
+    "black claw stout",
+    "what is the brew",
+    "wishock poison"
+   ],
+   "answer": "Black Claw Stout is a lethal concoction brewed by Zardeth. It combines regular stout with two rare, poisonous plants: the Tear of Tilloa from Darkshire and Musquash Root from the Wetlands. It was designed to mimic an expensive drink while quietly assassinating Lord Wishock."
+  },
+  {
+   "q": "What is the Black Claw?",
+   "aliases": [
+    "black claw meaning",
+    "who are the black claw",
+    "black claw warlock"
+   ],
+   "answer": "The Black Claw refers to the shadowy affiliation or title held by Zardeth within the covert network of warlocks practicing in Stormwind. They operate beneath the radar of the Stormwind guard and the Kirin Tor, using lethal discretion to protect their members."
+  },
+  {
+   "q": "Why are warlocks allowed in Stormwind at all?",
+   "aliases": [
+    "are warlocks legal",
+    "stormwind warlock lore",
+    "why warlock in city"
+   ],
+   "answer": "They are not openly tolerated. While dark spellcasters lurk in the city, they are forced to hide deep in the cellars beneath the Slaughtered Lamb. The authorities either turn a blind eye due to pragmatic utility or remain oblivious because agents like Zardeth eliminate anyone who prepares to expose them."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Zardeth embodies the cold pragmatism required of human warlocks surviving in the heart of the Alliance, proving that survival often depends on pre-emptive assassinations."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance loyalists, Zardeth is a stark reminder of the corruptive underbelly festering right beneath Stormwind's gleaming streets."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Zardeth's plot relies on toxic botanical specimens like the Tear of Tilloa and Musquash Root, demonstrating the lethal potential of rare wild flora."
+  }
+ ],
+ "keywords": [
+  "a noble brew",
+  "baurles wishock",
+  "black claw",
+  "mage quarter",
+  "musquash root",
+  "slaughtered lamb",
+  "tear of tilloa",
+  "warlock",
+  "zardeth"
+ ],
+ "related": [
+  "subzone:slaughtered-lamb",
+  "npc:lord-baurles-k-wishock",
+  "quest:335",
+  "quest:397",
+  "subzone:mage-quarter",
+  "zone:stormwind",
+  "subzone:darkshire",
+  "subzone:stonewrought-dam"
+ ],
+ "attribution": [
+  "Zardeth of the Black Claw"
+ ]
+}

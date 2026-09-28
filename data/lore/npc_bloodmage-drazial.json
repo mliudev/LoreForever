@@ -1,0 +1,86 @@
+{
+ "key": "npc:bloodmage-drazial",
+ "type": "npc",
+ "name": "Bloodmage Drazial",
+ "era": "classic",
+ "zone": "blastedlands",
+ "meta": {
+  "wiki": "Bloodmage Drazial",
+  "refs": 2
+ },
+ "summary": "Bloodmage Drazial is a blood elf practitioner of arcane and blood magic camped in the northern reaches of the Blasted Lands. Alongside his sister Lynnore, he studies the native beasts of the red wastes to craft potent alchemical concoctions for traveling adventurers.",
+ "sections": [
+  {
+   "title": "Alchemical Studies in the Red Wastes",
+   "body": "Perched near the northern pass where the Swamp of Sorrows gives way to the Blasted Lands, Bloodmage Drazial pursues a peculiar brand of magic. While many high elves shun the forbidden arts or despair over Quel'Thalas, Drazial and his sister Lynnore harness blood magic to harvest power from the harsh environment. The blighted fauna of the wastes\u2014scorpoks, snickerfangs, and blasted boars\u2014absorb unusual magical energies through their diet and survival in the crimson soil. By harvesting specific organs and tissues from these creatures, Drazial brews volatile concoctions that grant immense bursts of physical strength, agility, and endurance.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Independent Supplier",
+   "body": "Unlike many factional agents stationed in the Blasted Lands, Drazial operates with practical detachment. He holds no official allegiance to either the Alliance or the Horde, choosing instead to trade his alchemical expertise to anyone hardy enough to brave the wasteland and gather the raw ingredients he requires. As long as travelers bring him the organs of the local predators, Drazial is content to keep his cauldrons bubbling.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bloodmage Drazial?",
+   "aliases": [
+    "who is drazial",
+    "drazial lore",
+    "bloodmage drazial npc"
+   ],
+   "answer": "Bloodmage Drazial is a blood elf mage stationed near the northern entrance of the Blasted Lands. Together with his sister Lynnore, he studies the local wildlife and brews powerful alchemical reagents using parts collected from the area's corrupted beasts."
+  },
+  {
+   "q": "Why is Drazial collecting animal parts?",
+   "aliases": [
+    "why does drazial want boar lungs",
+    "drazial quest items",
+    "drazial animal organs"
+   ],
+   "answer": "The creatures of the Blasted Lands have adapted to survive on blighted, magically charged terrain. Drazial uses the potent internal organs of boars, hyenas, scorpions, and basilisks to concoct specialized elixirs that bolster a warrior's physical prowess."
+  },
+  {
+   "q": "Does Drazial work for the Alliance or the Horde?",
+   "aliases": [
+    "drazial faction",
+    "is drazial horde or alliance",
+    "can alliance talk to drazial"
+   ],
+   "answer": "Drazial is neutral toward both factions. He and Lynnore do not concern themselves with the war between Stormwind and the Horde, readily dealing with any adventurer willing to supply their magical and alchemical research."
+  },
+  {
+   "q": "Who is the other blood elf camped with him?",
+   "aliases": [
+    "drazial companion",
+    "who is with drazial",
+    "lynnore"
+   ],
+   "answer": "The elf beside him is his sister, Bloodmage Lynnore. Together, the siblings practice blood magic and brew distinct concoctions from the various beasts roaming the Blasted Lands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Drazial represents the controversial divergence of the blood elves, openly utilizing blood magic and biological reagents to synthesize arcane enhancements rather than relying strictly on traditional Kirin Tor spellcraft."
+  }
+ ],
+ "keywords": [
+  "blasted boar",
+  "blasted lands",
+  "bloodmage",
+  "concoctions",
+  "drazial",
+  "lynnore",
+  "scorpok",
+  "snickerfang"
+ ],
+ "related": [
+  "zone:blastedlands",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Bloodmage Drazial"
+ ]
+}

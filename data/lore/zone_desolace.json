@@ -1,0 +1,137 @@
+{
+ "key": "zone:desolace",
+ "type": "zone",
+ "name": "Desolace",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": [
+   "Desolace (Classic)",
+   "Desolace"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "Desolace is a bleak, windswept desert on Kalimdor's western coast, defined by cracked gray earth, constant stormy skies, and the bones of fallen beasts. It is the ancestral cradle of the vicious centaur race and a contested wasteland scarred by ancient Highborne ruins, encroaching demonic cults, and bitter tribal warfare. Both the Horde and Alliance maintain precarious footholds amidst the dust, each seeking to carve out influence while warding off spreading corruption.",
+ "sections": [
+  {
+   "title": "A Land Cursed and Broken",
+   "body": "Desolace was not always a barren expanse of ash and yellowed pools. Over a millennium ago, it was Mashan'she\u2014a lush meadowland tended by tauren shaman. That paradise unraveled when the earth elemental Princess Theradras awakened from beneath the soil, draining the surrounding life force to regenerate her form. The calamity summoned Zaetar, son of Cenarius, but rather than subduing her, he took the princess as his mate. From their unnatural union sprang the first centaur. In shame and bloodthirsty wrath, the newborn race murdered their father, overran the verdant plains, and drove the tauren away, leaving behind the scarred wasteland known today.",
+   "spoiler": 0
+  },
+  {
+   "title": "Warring Hooves",
+   "body": "The interior of Desolace echoes with the thunder of thousands of hooves as four splintered centaur tribes wage endless war against all interlopers and each other. The Kolkar roam the eastern cliffs, the Magram hold crude yurts around brackish sinkholes, the Gelkis dwell behind rope bridges in deep southern ravines, and the fanatical Maraudine defend the approach to Maraudon itself. Travelers venturing across the wastes frequently find themselves drawn into this ancient blood feud, forced to slaughter one tribe to gain safe passage and tenuous parley with another.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cults and Shadowed Coasts",
+   "body": "Beyond the warring centaur, darker perils fester along the borders. The Burning Blade cult operates freely out of Thunder Axe Fortress and Shadowbreak Ravine, summoning demons and satyrs that threaten to drown the region in fel fire. Along the stormy shoreline, naga creep onto the beaches of Ethel Rethor, while Darkspear trolls spear fish from the stilted platforms of Shadowprey Village. Tucked high in the northern crags, the Alliance watches from Nijel's Point, suspicious of the Horde's expansion and ever wary of the demonic taint spreading from Mannoroc Coven.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Desolace such a dead wasteland?",
+   "aliases": [
+    "why is desolace dead",
+    "what happened to mashan'she",
+    "desolace lore origin"
+   ],
+   "answer": "Centuries ago, the land was a fertile meadow called Mashan'she. Tauren shaman accidentally roused the slumbering earth elemental Princess Theradras, who consumed the vitality of the region to rebuild her physical form. The birth and violent expansion of the centaur shortly after destroyed whatever plant life survived, leaving only gray dust and ash."
+  },
+  {
+   "q": "Where did the centaur come from?",
+   "aliases": [
+    "centaur origin",
+    "who made the centaur",
+    "zaetar theradras"
+   ],
+   "answer": "The centaur are the offspring of Zaetar, son of the demigod Cenarius, and the elemental Princess Theradras. Disgusted and enraged by their own twisted appearance, the first khans slew their father immediately after birth and multiplied across the plains in a frenzy of brutality."
+  },
+  {
+   "q": "Can I ally with the centaur tribes here?",
+   "aliases": [
+    "centaur reputation",
+    "gelkis or magram",
+    "how to befriend centaur"
+   ],
+   "answer": "Yes. Adventurers can earn reputation with either the Gelkis or the Magram tribe by slaying members of their rival clan. Gaining enough standing with one unlocks access to their village, tribal quests, and peace within their territory, though it makes the opposing tribe permanently hostile."
+  },
+  {
+   "q": "What is Maraudon?",
+   "aliases": [
+    "where is maraudon",
+    "maraudon dungeon",
+    "what lies under desolace"
+   ],
+   "answer": "Maraudon is the sacred ancestral burial ground of the centaur race, hidden deep within the twisting western cliffs of Desolace. It serves as both the tomb of Zaetar and the subterranean lair of Princess Theradras, who continues to channel dark elemental corruption through its cavernous halls."
+  },
+  {
+   "q": "Who is the wanderer roaming Desolace with a bear?",
+   "aliases": [
+    "rexxar desolace",
+    "beastmaster in desolace",
+    "who is the orc with a bear"
+   ],
+   "answer": "That is Rexxar, the Champion of the Horde, accompanied by his loyal bear companion Misha. The Mok'Nathal wanderer patrols the dusty highways of Desolace and the Stonetalon Mountains, keeping a watchful eye on the wilderness and assisting those on vital Horde business."
+  },
+  {
+   "q": "Why are the Alliance and Horde fighting the Burning Blade here?",
+   "aliases": [
+    "burning blade desolace",
+    "thunder axe fortress cultists",
+    "why are demons here"
+   ],
+   "answer": "The Burning Blade cult has taken over strongholds like Thunder Axe Fortress to summon demons and bind felsteeds. Alliance leaders suspect the Horde of tolerating or colluding with the cult, prompting Warchief Thrall to order the swift, ruthless eradication of the coven to prove the Horde has truly abandoned demonic ties."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, Desolace is sacred and tragic ground. Once known as Mashan'she, it was the nomadic home of your ancestors before the awakening of Theradras and the scourge of the centaur drove your people onto the brink of extinction."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The arid plains and demonic sites like Mannoroc Coven draw dark practitioners seeking the secrets of felsteeds, majestic wild horses twisted into fire-breathing horrors through forbidden Shadow Council rites."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Cenarion Circle druids view Desolace as a horrifying scar upon the natural order, where Zaetar met his tragic demise and elemental decay chokes the earth."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Operating out of Nijel's Point, the Alliance monitors both the treacherous centaur tribes and the suspicious spread of Horde settlements like Shadowprey Village alongside demonic cults."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde strives to secure the coastline at Shadowprey Village and protect the kodo herds at Ghost Walker Post, while fighting relentlessly to crush the Burning Blade and prove the modern Horde is free of demonic influence."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "centaur",
+  "desolace",
+  "gelkis",
+  "magram",
+  "maraudon",
+  "nijel's point",
+  "shadowprey village",
+  "theradras",
+  "zaetar"
+ ],
+ "related": [
+  "subzone:nijel-s-point",
+  "subzone:shadowprey-village",
+  "subzone:kodo-graveyard",
+  "subzone:gelkis-village",
+  "subzone:magram-village",
+  "subzone:thunder-axe-fortress",
+  "subzone:mannoroc-coven",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Desolace (Classic)",
+  "Desolace"
+ ]
+}

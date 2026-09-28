@@ -1,0 +1,90 @@
+{
+ "key": "subzone:nethander-stead",
+ "type": "subzone",
+ "name": "Nethander Stead",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Nethander Stead"
+ },
+ "summary": "Nethander Stead is an abandoned farmstead lying along the road just east of Southshore in the Hillsbrad Foothills. Once a working human farm, it has fallen into ruin and is completely overrun by the Mudsnout gnoll pack. The fields are overgrown with giant white mushrooms known as Mudsnout Blossoms, attracting the interest of Forsaken alchemists.",
+ "sections": [
+  {
+   "title": "A Ruined Homestead",
+   "body": "Situated within sight of Southshore's eastern borders, Nethander Stead was once an active piece of the region's agricultural belt. Like much of the eastern foothills, the farm was abandoned as regional security eroded and wild packs moved in. Today, it serves as the sole enclave of the Mudsnout gnolls in the foothills. The brutes dwell among the ruined fences and outbuildings, aggressively driving off any travelers who wander too close to their claimed territory.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Mudsnout Blossoms",
+   "body": "The untended soil of the stead provides fertile ground for unusual fungal growth. Giant, pale mushrooms known as Mudsnout Blossoms carpet the abandoned plots. These fungi harbor potent natural toxins, drawing the attention of the Royal Apothecary Society in Tarren Mill. Apothecaries seek samples harvested directly from the gnolls' grounds to distill caustic concoctions, making this otherwise petty farmstead a target of covert Horde expeditions into Alliance territory.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Nethander Stead?",
+   "aliases": [
+    "what is this farm",
+    "nethander stead info",
+    "where is nethander stead"
+   ],
+   "answer": "Nethander Stead is an abandoned human farm located just east of Southshore in the Hillsbrad Foothills. It has been entirely overrun by a hostile pack of Mudsnout gnolls."
+  },
+  {
+   "q": "Who controls Nethander Stead right now?",
+   "aliases": [
+    "who lives here",
+    "who is at nethander stead",
+    "what mobs are here"
+   ],
+   "answer": "The farmstead is occupied by the Mudsnout gnoll tribe. It is the only place in the Hillsbrad Foothills where this particular pack makes its camp."
+  },
+  {
+   "q": "What are the giant white mushrooms growing in the fields?",
+   "aliases": [
+    "white mushrooms",
+    "mudsnout mushrooms",
+    "mudsnout blossoms"
+   ],
+   "answer": "They are Mudsnout Blossoms, large white fungi that thrive in the unworked soil of the stead. They contain toxic properties that make them valuable to Forsaken alchemists researching poisons."
+  },
+  {
+   "q": "Why does the Horde care about this ruined farm?",
+   "aliases": [
+    "why go here horde",
+    "forsaken interest",
+    "horde quest nethander"
+   ],
+   "answer": "Apothecary Lydon in Tarren Mill seeks the Mudsnout Blossoms that grow in the stead's fields. Their potent juices are an essential reagent in brewing the Elixir of Agony."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The overrun farm is an unsettling reminder of how fragile Southshore's perimeter remains, with feral gnolls entrenched just down the eastern road."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Infiltrating this farmstead near Southshore is required to gather the Mudsnout Blossoms needed by the Royal Apothecary Society for their lethal research."
+  }
+ ],
+ "keywords": [
+  "blossoms",
+  "gnolls",
+  "hillsbrad",
+  "mudsnout",
+  "mushrooms",
+  "nethander",
+  "southshore",
+  "stead"
+ ],
+ "related": [
+  "zone:hillsbrad",
+  "subzone:southshore",
+  "quest:509",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Nethander Stead"
+ ]
+}

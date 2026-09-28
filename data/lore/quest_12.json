@@ -1,0 +1,126 @@
+{
+ "key": "quest:12",
+ "type": "quest",
+ "name": "The People's Militia",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   12
+  ],
+  "level": "12",
+  "faction": "Alliance",
+  "start": "Gryan Stoutmantle",
+  "end": "",
+  "previous": null,
+  "next": "The People's Militia (2)",
+  "wiki": "The People's Militia (quest)",
+  "chain": []
+ },
+ "summary": "This quest marks your first official trial under Gryan Stoutmantle at Sentinel Hill to prove yourself worthy of joining the People's Militia. With Stormwind's throne distracted and its army absent, local volunteers have taken up arms to defend Westfall against the brazen Defias Brotherhood. Your initial task sends you across the northern fields and mines to cull the outlaws choking local farmland.",
+ "sections": [
+  {
+   "title": "The Price of Peace",
+   "body": "Westfall was once the fertile breadbasket of Stormwind, but today it is overrun by outlaws, vagrants, and thieves. With the capital refusing to send royal soldiers to patrol the countryside, Gryan Stoutmantle organized the People's Militia as a desperate homegrown defense force based out of Sentinel Hill. To Stoutmantle, reclaiming the region requires decisive action, and anyone hoping to wear the militia's badge must demonstrate both combat readiness and absolute devotion to the protection of innocent settlers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Clearing the Breadbasket",
+   "body": "Before new recruits are trusted with deeper tactical operations, they are sent to break the Defias presence encroaching upon northern homesteads. Defias Trappers and Smugglers operate openly near the Jangolode Mine, Molsen Farm, and Furlbrow's Pumpkin Patch, pillaging stores and ambushing travelers. By cutting down these outlaws, prospective militia fighters disrupt the thieves' front-line foraging while proving to Stoutmantle's scouts that they possess the grit necessary to wage a protracted war on crime.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the People's Militia?",
+   "aliases": [
+    "peoples militia",
+    "who are the militia",
+    "what is peoples militia"
+   ],
+   "answer": "The People's Militia is a volunteer army organized by Gryan Stoutmantle and based at Sentinel Hill. Formed from local farmers, veterans, and commoners, they defend Westfall from the Defias Brotherhood because Stormwind's royal army has refused or failed to garrison the region."
+  },
+  {
+   "q": "Why isn't Stormwind sending its royal army?",
+   "aliases": [
+    "where is the army",
+    "why no guards in westfall",
+    "stormwind garrison"
+   ],
+   "answer": "With King Varian Wrynn missing, Stormwind's noble House of Nobles and council leadership have focused the kingdom's resources elsewhere, leaving outlying rural territories like Westfall to fend for themselves against rising outlaw bands."
+  },
+  {
+   "q": "Where can I find Defias Trappers and Smugglers?",
+   "aliases": [
+    "trapper location",
+    "smuggler location",
+    "where are trappers"
+   ],
+   "answer": "They operate heavily in northern Westfall, particularly surrounding Furlbrow's Pumpkin Farm, Molsen Farm, and around the entrance to Jangolode Mine."
+  },
+  {
+   "q": "Who is Gryan Stoutmantle?",
+   "aliases": [
+    "who is stoutmantle",
+    "gryan stoutmantle lore",
+    "militia leader"
+   ],
+   "answer": "Gryan Stoutmantle is a seasoned veteran and the commander of the People's Militia stationed at Sentinel Hill. Dedicated to defending the settlers of Westfall, he rallies volunteers to drive out the Defias Brotherhood and restore order to the countryside."
+  },
+  {
+   "q": "Does this quest lead to more militia assignments?",
+   "aliases": [
+    "is this a chain",
+    "next quest",
+    "militia progression"
+   ],
+   "answer": "Yes. This task is only the introductory trial. Successful volunteers are assigned follow-up duties targeting increasingly dangerous echelons of the Defias Brotherhood scattered across the plains of Westfall."
+  },
+  {
+   "q": "What is happening at Furlbrow's Pumpkin Farm?",
+   "aliases": [
+    "furlbrow farm",
+    "what happened to furlbrows",
+    "pumpkin farm"
+   ],
+   "answer": "The Furlbrows were driven away from their homestead when the Defias Brotherhood took control of the farmland, leaving outlaws and scavengers to pillage the fields and terrorize the northern roads."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This task demonstrates the stark divide within the kingdom: while Stormwind's nobility remains insulated behind capital walls, Alliance adventurers must stand alongside common settlers to preserve Westfall from ruin."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of the kingdom, the plight of Westfall is deeply personal, as working-class families and generational farms fall victim to bandits while royal authorities look the other way."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Serving the People's Militia embodies the core calling of a paladin: offering protection to the defenseless and bringing righteous judgment to outlaws who exploit the vulnerable."
+  }
+ ],
+ "keywords": [
+  "defias smuggler",
+  "defias trapper",
+  "furlbrow",
+  "gryan stoutmantle",
+  "jangolode",
+  "molsen farm",
+  "peoples militia",
+  "sentinel hill",
+  "westfall"
+ ],
+ "related": [
+  "npc:gryan-stoutmantle",
+  "zone:westfall",
+  "subzone:sentinel-hill",
+  "subzone:jangolode-mine",
+  "subzone:furlbrow-s-pumpkin-farm",
+  "subzone:molsen-farm",
+  "topic:light"
+ ],
+ "attribution": [
+  "The People's Militia (quest)"
+ ]
+}

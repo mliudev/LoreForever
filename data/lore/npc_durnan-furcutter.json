@@ -1,0 +1,92 @@
+{
+ "key": "npc:durnan-furcutter",
+ "type": "npc",
+ "name": "Durnan Furcutter",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Durnan Furcutter",
+  "refs": 2
+ },
+ "summary": "Durnan Furcutter is a dwarven clothier and leather merchant operating out of Anvilmar in Coldridge Valley. Standing just outside the local pub, he equips freshly trained dwarven and gnomish adventurers with lightweight attire suited to withstand the biting mountain chills.",
+ "sections": [
+  {
+   "title": "A Warm Stitch in the Cold",
+   "body": "Anvilmar serves as the first proving ground for young dwarves and exiled gnomes, and not every warrior steps forth clad in heavy iron. Durnan Furcutter caters to scouts, rogues, and spellcasters who need light, pliable layers to stay agile without succumbing to the bitter winds of Dun Morogh. Positioned right near the hearth of Anvilmar, he sells everyday tailoring and stitched leather, claiming his stock is the finest to be found in the entire valley.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Mug in Hand",
+   "body": "Like any true dwarf stationed in the snowy foothills, Durnan appreciates a strong drink almost as much as an honest trade. He frequents Anvilmar's tavern and enjoys a steaming mug of Scalding Mornbrew to fight off the freezing draft. Adventurers running errands across the camp often find themselves delivering fresh brews directly into his welcoming hands or returning his empties to the barkeep.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Durnan Furcutter?",
+   "aliases": [
+    "durnan",
+    "furcutter",
+    "who is durnan furcutter"
+   ],
+   "answer": "Durnan Furcutter is a dwarven armor merchant stationed in Anvilmar within Coldridge Valley. He sells basic cloth and leather gear to novice adventurers starting their journeys in Dun Morogh."
+  },
+  {
+   "q": "Where can I find Durnan Furcutter?",
+   "aliases": [
+    "durnan location",
+    "where is durnan",
+    "anvilmar cloth vendor"
+   ],
+   "answer": "He can be found standing outside near the entrance of Anvilmar's main hall in Coldridge Valley, close to the training masters and local tradesfolk."
+  },
+  {
+   "q": "What does Durnan sell?",
+   "aliases": [
+    "durnan wares",
+    "what does durnan sell"
+   ],
+   "answer": "He offers an assortment of introductory cloth and leather armor pieces, catering to classes that rely on agility or spellcasting rather than heavy mail."
+  },
+  {
+   "q": "Why is he involved with Scalding Mornbrew deliveries?",
+   "aliases": [
+    "durnan beer quest",
+    "scalding mornbrew durnan",
+    "durnan drink"
+   ],
+   "answer": "Durnan works long hours in the icy coldridge winds and relies on warm pints of Scalding Mornbrew from the nearby inn to stay sharp and warm."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Durnan embodies the practical side of dwarven life in Coldridge Valley: sturdy craftwork, an appreciation for a hot brew, and friendly banter in the snow."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "For fledging stitchers, vendors like Durnan represent the basic garments that keep scouts and apprentices alive in the snowy passes before mastercrafted cloth takes over."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "cloth vendor",
+  "coldridge valley",
+  "dun morogh",
+  "durnan furcutter",
+  "leather vendor",
+  "scalding mornbrew"
+ ],
+ "related": [
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "zone:dunmorogh",
+  "quest:3364",
+  "quest:3365",
+  "quest:59",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Durnan Furcutter"
+ ]
+}

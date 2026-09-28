@@ -1,0 +1,125 @@
+{
+ "key": "quest:347",
+ "type": "quest",
+ "name": "Rethban Ore",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   347
+  ],
+  "level": "24",
+  "faction": "Alliance",
+  "start": "Foreman Oslow",
+  "end": "Brother Paxton",
+  "previous": "Ink Supplies",
+  "next": "Return to Kristoff",
+  "wiki": "Rethban Ore (quest)",
+  "chain": []
+ },
+ "summary": "Foreman Oslow directs adventurers into the Rethban Caverns of Redridge to retrieve a peculiar dark mineral. While too soft to forge reliable armor or weapons, its unique pigmentation makes it indispensable to the scribes of Northshire Abbey for crafting specialized ink.",
+ "sections": [
+  {
+   "title": "A Curious Mineral",
+   "body": "Rethban Ore is named after its discoverer, Bart Rethban. Unlike common iron or copper, this ore holds little value at an armorer's anvil\u2014when smelted down, the resulting metal lacks the tensile strength required for sturdy weapons or plate. Its true value lies in its raw, dark, flat coloration, which monks and scribes prize as a pigment base for rich manuscript dyes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Contested Caverns",
+   "body": "The primary deposits of the mineral lie within the Rethban Caverns, nestled in the northern mountains of Redridge. Unfortunately for the stoneworkers of Lakeshire, the local miners have abandoned the cavern. A fierce band of Redridge gnolls has seized the tunnels, putting gnoll drudgers to work chipping away at the rocky veins for their own crude purposes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Preserving the Word",
+   "body": "Brother Paxton, a monk residing within the quiet walls of Northshire Abbey, depends on this pigment to reproduce historic texts. His current undertaking\u2014a transcribed copy of the treatise 'The Stresses of Iron'\u2014has ground to an abrupt halt without the proper dye, sending messengers and adventurers deep into gnoll-infested territory to secure the raw stone.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Rethban Ore used for?",
+   "aliases": [
+    "why do we need rethban ore",
+    "rethban ore purpose",
+    "what is rethban ore for"
+   ],
+   "answer": "While it is too weak when smelted to forge durable weapons or armor, its dark, flat color makes it an excellent base pigment for inks and dyes. Scribes such as Brother Paxton in Northshire Abbey rely on it to illuminate and transcribe historic manuscripts."
+  },
+  {
+   "q": "Who was Bart Rethban?",
+   "aliases": [
+    "who discovered rethban ore",
+    "bart rethban lore"
+   ],
+   "answer": "Bart Rethban was the explorer and prospector who originally discovered the dark ore veins in the northern mountains of Redridge, giving both the mineral and the Rethban Caverns their name."
+  },
+  {
+   "q": "Why hasn't Lakeshire mined the ore recently?",
+   "aliases": [
+    "why isn't oslow mining it",
+    "why are the mines abandoned"
+   ],
+   "answer": "Foreman Oslow and the town's workers are completely consumed by defending Lakeshire against Blackrock orc incursions. To make matters worse, Redridge gnolls moved into the Rethban Caverns, forcing civilian miners out."
+  },
+  {
+   "q": "What book is Brother Paxton copying?",
+   "aliases": [
+    "what book is paxton writing",
+    "paxton manuscript"
+   ],
+   "answer": "Brother Paxton is diligently copying an informational work titled 'The Stresses of Iron'. He requires the dark dye produced from Rethban Ore to finish transcribing the text for the abbey's library."
+  },
+  {
+   "q": "Why do gnolls want the ore?",
+   "aliases": [
+    "why are gnolls mining",
+    "gnoll drudgers rethban"
+   ],
+   "answer": "The Redridge gnolls have set their drudgers to dig throughout the caverns. While gnolls rarely keep extensive written records, they covet metal deposits for crude implements, trading, or simply fortifying their mountain warrens against intruders."
+  },
+  {
+   "q": "Where does this quest chain lead next?",
+   "aliases": [
+    "what quest comes after rethban ore",
+    "return to kristoff next"
+   ],
+   "answer": "Once Brother Paxton receives the ore and finishes preparing his inks, he directs you back to Stormwind to report your success to Kristoff, concluding the errand for Northshire's scribes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "Miners can extract Rethban Ore directly from cavern veins with a pick, bypassing the need to scavenge raw chunks from gnoll drudgers."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The errand highlights how stretched the Kingdom of Stormwind's supply lines are, requiring monastery scribes to rely on traveling adventurers to fetch basic writing supplies from war zones."
+  },
+  {
+   "target": "race:Human",
+   "text": "Preserving historical manuscripts at Northshire Abbey is a sacred duty for Stormwind's scholars, who work to restore knowledge lost during the First and Second Wars."
+  }
+ ],
+ "keywords": [
+  "bart rethban",
+  "brother paxton",
+  "foreman oslow",
+  "northshire abbey",
+  "redridge drudgers",
+  "rethban caverns",
+  "rethban ore",
+  "stresses of iron"
+ ],
+ "related": [
+  "subzone:rethban-caverns",
+  "npc:foreman-oslow",
+  "quest:344",
+  "subzone:northshire-abbey",
+  "quest:345",
+  "quest:346",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Rethban Ore (quest)"
+ ]
+}

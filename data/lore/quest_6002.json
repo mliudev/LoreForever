@@ -1,0 +1,126 @@
+{
+ "key": "quest:6002",
+ "type": "quest",
+ "name": "Body and Heart",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   6002
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Turak Runetotem",
+  "end": "",
+  "previous": "Back to Thunder Bluff",
+  "next": null,
+  "wiki": "Body and Heart (Horde)",
+  "chain": []
+ },
+ "summary": "Body and Heart is the culminating trial for young tauren druids seeking to master Bear Form. Dispatched by Turak Runetotem in Thunder Bluff, the initiate must travel to the border of Mulgore and the Barrens to summon and best Lunaclaw at the Moonkin Stone.",
+ "sections": [
+  {
+   "title": "The Way of the Claw",
+   "body": "To truly follow the path of the Druid of the Claw, tauren initiates must unite spiritual conviction with physical resilience. After communion with the Great Bear Spirit in Moonglade, a druid's training is put to an active test. Turak Runetotem, the elder druid trainer atop the Elder Rise in Thunder Bluff, bestows Cenarion Lunardust upon worthy aspirants, charging them to seek out a sacred stone resting near the arid frontier where Mulgore meets the Barrens.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Trial of Lunaclaw",
+   "body": "Resting west of Camp Taurajo, the Moonkin Stone marks a rare Cenarion site in southern Kalimdor. Moonkin are not native to the sun-scorched plains of central Kalimdor, making the presence of the guardian beast Lunaclaw deeply significant. By scattering the lunardust across the ancient monument, the druid calls forth Lunaclaw in battle. Defeating the creature proves the aspirant commands both strength of body and clarity of heart, earning the beast's blessing and unlocking the inner essence of the bear.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this trial?",
+   "aliases": [
+    "why do body and heart",
+    "what does body and heart do",
+    "what do i get from body and heart"
+   ],
+   "answer": "This quest is the final step in earning Bear Form for Horde druids. By completing the challenge, you prove yourself ready to take on the mantle of a Druid of the Claw under the tutelage of Turak Runetotem."
+  },
+  {
+   "q": "Where is the Moonkin Stone located?",
+   "aliases": [
+    "moonkin stone location",
+    "where is moonkin stone",
+    "where to find moonkin stone"
+   ],
+   "answer": "The Moonkin Stone is located in the Barrens, west of Camp Taurajo along the road leading toward the Mulgore gate. Just south of the road, tucked behind a tree near a lone tent, lies the sacred stone."
+  },
+  {
+   "q": "Who is Lunaclaw?",
+   "aliases": [
+    "who is lunaclaw",
+    "what is lunaclaw"
+   ],
+   "answer": "Lunaclaw is a fierce moonkin guardian bound to the Moonkin Stone. Summonsed with Cenarion Lunardust, it tests whether a druid possesses the raw tenacity and emotional temperance required to wield the power of the bear."
+  },
+  {
+   "q": "What happens if I lose the battle against Lunaclaw?",
+   "aliases": [
+    "failed lunaclaw",
+    "lost lunardust",
+    "died to lunaclaw"
+   ],
+   "answer": "If you are defeated, your Cenarion Lunardust is expended. You must return to Turak Runetotem atop the Elder Rise in Thunder Bluff to receive another pouch of dust before attempting the summoning again."
+  },
+  {
+   "q": "Are moonkin native to the Barrens?",
+   "aliases": [
+    "moonkin in barrens",
+    "why are moonkin here",
+    "barrens moonkin"
+   ],
+   "answer": "No. As Turak Runetotem notes, moonkin are not native to the Barrens or Mulgore. The creature is an unnatural sight on the savannah, tied specifically to Cenarion rites and ancient sites of celestial power."
+  },
+  {
+   "q": "Who gives the quest Body and Heart?",
+   "aliases": [
+    "who starts body and heart",
+    "body and heart questgiver"
+   ],
+   "answer": "The quest is given by Turak Runetotem, the senior druid trainer located on the Elder Rise in Thunder Bluff, following the initiate's return from Moonglade."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This rite of passage bridges the gap between night elven Cenarion teachings and tauren heritage, allowing young druids to finally manifest the ferocious resilience of Bear Form."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For the Shu'halo, awakening the bear within is both a holy communion with nature spirits and a practical means to protect the plains of Mulgore from encroaching threats."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Tauren druids bring vital resilience to the Horde's front lines, grounding the faction's magical power in deep wilderness guardianship."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "bear form",
+  "body and heart",
+  "camp taurajo",
+  "cenarion lunardust",
+  "lunaclaw",
+  "moonkin stone",
+  "mulgore",
+  "thunder bluff",
+  "turak runetotem"
+ ],
+ "related": [
+  "quest:5932",
+  "npc:turak-runetotem",
+  "zone:thunderbluff",
+  "zone:barrens",
+  "subzone:camp-taurajo",
+  "zone:mulgore",
+  "quest:6001",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Body and Heart (Horde)"
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "key": "subzone:render-s-rock",
+ "type": "subzone",
+ "name": "Render's Rock",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Render's Rock"
+ },
+ "summary": "Render's Rock is a cavern stronghold tucked into the northwestern crags of the Redridge Mountains, sitting near the high pass leading toward the Burning Steppes. Controlled by the fierce Blackrock orcs, it serves as a forward redoubt and an active staging ground for their raids on the valleys below.",
+ "sections": [
+  {
+   "title": "A Blackrock Bastion in the Heights",
+   "body": "Carved into the rugged heights north of Lakeshire, Render's Rock serves as a fortified cave system for the invading Blackrock clan. From this defensible redoubt near the mountain pass to the Burning Steppes, veteran Blackrock orcs orchestrate attacks against the local defenders of Redridge. Its shadowed depths are strictly guarded, making any foray inside a perilous undertaking for those seeking to disrupt the orcish supply lines or recover captives lost in the ongoing conflict.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Hostage in the Shadows",
+   "body": "Beyond its strategic value to the orcs, Render's Rock holds grim importance for the defenders of Lakeshire. The wounded Bravo Company veteran, Corporal Keeshan, is held captive within its recesses. Deep behind enemy lines and isolated from his companions, Keeshan's captivity represents both the audacity of the Blackrock incursions and the high price the local garrison has paid trying to keep the mountain road open.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Render's Rock located?",
+   "aliases": [
+    "renders rock location",
+    "where is renders rock",
+    "find renders rock"
+   ],
+   "answer": "Render's Rock is situated in the far northwestern peaks of the Redridge Mountains, nestled near the path leading north into the Burning Steppes."
+  },
+  {
+   "q": "Who controls Render's Rock?",
+   "aliases": [
+    "who lives in renders rock",
+    "renders rock enemies",
+    "who holds renders rock"
+   ],
+   "answer": "The cave is occupied by formidable Blackrock orcs who use the crag as a redoubt to coordinate attacks and oversee the mountain passes bordering the Burning Steppes."
+  },
+  {
+   "q": "Who is imprisoned inside the cave?",
+   "aliases": [
+    "keeshan location",
+    "captive in renders rock",
+    "who is trapped in renders rock"
+   ],
+   "answer": "Corporal Keeshan, a wounded veteran soldier of the Alliance garrison, is held captive inside Render's Rock and requires assistance to safely escape back to Lakeshire."
+  },
+  {
+   "q": "Why is this cave important to Lakeshire's defense?",
+   "aliases": [
+    "why attack renders rock",
+    "renders rock threat",
+    "importance of renders rock"
+   ],
+   "answer": "Because it harbors experienced Blackrock warriors right above the Redridge valley, Render's Rock poses an immediate threat to the town of Lakeshire and allows the orcs to maintain a foothold south of the Burning Steppes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance fighters, Render's Rock represents one of the most entrenched Blackrock positions in Redridge, and clearing it is vital for freeing Corporal Keeshan and protecting Lakeshire."
+  }
+ ],
+ "keywords": [
+  "blackrock orcs",
+  "burning steppes",
+  "corporal keeshan",
+  "keeshan",
+  "redridge",
+  "render's rock",
+  "renders rock"
+ ],
+ "related": [
+  "zone:redridge",
+  "subzone:lakeshire",
+  "zone:burningsteppes"
+ ],
+ "attribution": [
+  "Render's Rock"
+ ]
+}

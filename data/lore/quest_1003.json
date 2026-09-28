@@ -1,0 +1,119 @@
+{
+ "key": "quest:1003",
+ "type": "quest",
+ "name": "Buzzbox 525",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   1003
+  ],
+  "level": "16",
+  "faction": "Alliance",
+  "start": "Buzzbox 323",
+  "end": "Buzzbox 525",
+  "previous": "Buzzbox 323 (quest)",
+  "next": null,
+  "wiki": "Buzzbox 525 (quest)",
+  "chain": []
+ },
+ "summary": "Buzzbox 525 is the second stage in a series of communicative machines scattered along the coast of Darkshore. Created by the eccentric gnome tinkerer Wizbang Cranktoggle, the contraption demands animal remnants to function\u2014while slowly unraveling the inventor's true, illicit ambitions.",
+ "sections": [
+  {
+   "title": "A Slurred Transmission",
+   "body": "After servicing Buzzbox 323, travelers receive garbled instructions broadcast straight through the machine's rattling speakers. Wizbang Cranktoggle's speech grows increasingly slurred, filled with drunken chuckles and rambling directions leading far south along the main road of Darkshore. He directs his helpers to hunt down the local grizzled thistle bears and deliver four of their thick scalps into the compartment of Buzzbox 525, concealed carefully behind a fence in the roadside brush.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Distiller's Secret",
+   "body": "Upon arriving at the hidden machine, the curious hum of machinery is drowned out by raucous singing echoing from within the iron plating. As the grizzly bear scalps are deposited into the receptacle, Wizbang finally comes clean about his network. The contraptions are far more than mere communications equipment: they double as automated micro-breweries and distilleries. Disdainful of the night elves' strict and abstemious customs in Auberdine, the gnome built his contraptions to distill forbidden woodland spirits\u2014using animal harvest like bear scalps to brew potent batches of 'thistle bear beer.'",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Buzzbox 525 located?",
+   "aliases": [
+    "buzzbox 525 location",
+    "where is buzzbox 525",
+    "buzzbox 525 find"
+   ],
+   "answer": "Buzzbox 525 sits far south down the main road from Auberdine. Wizbang tucked it away just off the path near a rustic fence line, partially concealed beneath bushes."
+  },
+  {
+   "q": "Why does Wizbang want grizzled scalps?",
+   "aliases": [
+    "why grizzled scalps",
+    "buzzbox bear scalps",
+    "what are scalps for"
+   ],
+   "answer": "While Wizbang initially claims the scalps are required repairs or fuel for his network, they actually serve as bizarre brewing ingredients. He uses the organic material within the Buzzbox mechanism to distill what he calls thistle bear beer."
+  },
+  {
+   "q": "Why does Wizbang hide the Buzzboxes out in the wilderness?",
+   "aliases": [
+    "why are buzzboxes hidden",
+    "why hide buzzbox",
+    "wizbang secret"
+   ],
+   "answer": "The night elves residing in Auberdine do not appreciate reckless moonshining or an illicit alcohol trade within their serene settlements. By scattering the machines along the desolate Darkshore road, Wizbang keeps his brewing network hidden from elven authorities."
+  },
+  {
+   "q": "Who is speaking through the Buzzbox?",
+   "aliases": [
+    "who talks in buzzbox",
+    "buzzbox voice",
+    "wizbang identity"
+   ],
+   "answer": "The voice belongs to Wizbang Cranktoggle, an enterprising gnome tinkerer who installed voice transmitters inside his makeshift brewing apparatuses across Darkshore."
+  },
+  {
+   "q": "Can Wizbang speak through the machine without the scalps?",
+   "aliases": [
+    "is the buzzbox broken",
+    "did wizbang lie"
+   ],
+   "answer": "Yes. Upon completing the task, Wizbang admits that the audio transceivers function regardless of whether materials are fed into the hatch. His request for ingredients was entirely to keep his automated distilling operation supplied."
+  },
+  {
+   "q": "What song does the Buzzbox sing?",
+   "aliases": [
+    "buzzbox singing",
+    "thistle bear beer song"
+   ],
+   "answer": "Before you deposit the scalps, the speaker repeatedly chants a drunken limerick: 'Though crawler wine's sweet, and thresher ale fine, and moonstalker moonshine is grand. There's nothing so dear, as a thistle bear beer, and soon I shall have some on hand!'"
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The strict stewardship of Darkshore leaves little patience for reckless gnomish tinkering, let alone a clandestine bootlegging network operating right under the sentinels' noses."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Wizbang's multi-purpose brewing transceivers showcase typical gnomish ambition, blending complex engineering with questionable practical priorities."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The Buzzbox system cleverly combines two-way acoustic communications with automated distillation boilers in a single, compact chassis."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "buzzbox 525",
+  "darkshore",
+  "distillery",
+  "grizzled scalp",
+  "thistle bear",
+  "thistle bear beer",
+  "wizbang cranktoggle"
+ ],
+ "related": [
+  "quest:1002",
+  "zone:darkshore",
+  "subzone:auberdine"
+ ],
+ "attribution": [
+  "Buzzbox 525 (quest)"
+ ]
+}

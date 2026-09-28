@@ -1,0 +1,72 @@
+{
+ "key": "subzone:mo-grosh-stronghold",
+ "type": "subzone",
+ "name": "Mo'grosh Stronghold",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Mo'grosh Stronghold"
+ },
+ "summary": "Mo'grosh Stronghold is a fortified den of ogres dug into the northeastern hills of Loch Modan. Nestled among ancient, weathered ruins, these brutal giants pose a constant threat to the dwarven settlements below.",
+ "sections": [
+  {
+   "title": "A Looming Threat",
+   "body": "Tucked away in the crags of northeastern Loch Modan, Mo'grosh Stronghold serves as the primary base for the Mo'grosh clan of ogres in the region. The brute forces lurking within the caves and outer camps raid traveling dwarven supply caravans and present an enduring danger to the peace of Thelsamar. The rugged stonework scattered around the camp suggests the site once belonged to an older settlement, likely trolls, before the lumbering ogres claimed the territory and raised their distinctive mounds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Mo'grosh Stronghold?",
+   "aliases": [
+    "mogrosh stronghold",
+    "ogre camp loch modan",
+    "mogrosh cave"
+   ],
+   "answer": "It is an ogre compound built into the hills of northeastern Loch Modan. The Mo'grosh ogres inhabit the caves and surrounding grounds, forming the largest hostile ogre enclave in the territory."
+  },
+  {
+   "q": "Who used to live here before the ogres?",
+   "aliases": [
+    "ancient ruins loch modan",
+    "who built mogrosh",
+    "trolls in loch modan"
+   ],
+   "answer": "The ancient stonework around the stronghold indicates it was once an old troll settlement. It remains uncertain whether the Mo'grosh ogres drove the trolls out through violence or simply took over ruins that had long been abandoned."
+  },
+  {
+   "q": "Why are the ogres a problem for the dwarves?",
+   "aliases": [
+    "why kill mogrosh ogres",
+    "ironforge threat mogrosh"
+   ],
+   "answer": "Their proximity to key travel routes makes them a severe hazard to local traffic and trade caravans moving through Loch Modan. Dwarven authorities regularly call upon adventurers to thin their numbers and keep the mountain passes safe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The Mo'grosh ogres constantly menace dwarven patrols and travelers, making the eradication of their stronghold a matter of civic defense for the Mountaineers of Loch Modan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing Loch Modan requires keeping the Mo'grosh ogres in check, ensuring safe passage between Ironforge and the northern mountain roads."
+  }
+ ],
+ "keywords": [
+  "loch modan",
+  "mo'grosh",
+  "mogrosh",
+  "mountaineers",
+  "ogre",
+  "ruins",
+  "stronghold"
+ ],
+ "related": [
+  "zone:lochmodan",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Mo'grosh Stronghold"
+ ]
+}

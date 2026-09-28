@@ -1,0 +1,135 @@
+{
+ "key": "topic:burning-legion",
+ "type": "topic",
+ "name": "Burning Legion",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Burning Legion"
+ },
+ "summary": "The Burning Legion is an infinite, apocalyptic host of demons led by the fallen titan Sargeras, dedicated to scouring all life from creation. Having already shattered ancient Kalimdor ten thousand years ago, the demons remain Azeroth's most relentless nemesis, orchestrating the corruption of the orcs and the horrors of the Third War.",
+ "sections": [
+  {
+   "title": "Genesis of the Host",
+   "body": "Long ago, Sargeras stood as the champion of the titan Pantheon, tasked with hunting down chaotic fiends across the Great Dark Beyond. In his travels, he uncovered the horrifying schemes of the Void Lords, who sought to corrupt sleeping worldsouls into engines of utter darkness. Horrified and disillusioned, Sargeras concluded that creation itself was fatally flawed and must be unmade in flame. To enact his crusade, he shattered the prison realm of Mardum, bending its captive demons to his will through fel magic. He augmented their chaos with the intellect of the corrupted eredar\u2014elevating Archimonde and Kil'jaeden as his chief lieutenants\u2014and forged an unstoppable engine of cosmic annihilation.",
+   "spoiler": 0
+  },
+  {
+   "title": "The War of the Ancients",
+   "body": "Ten millennia ago, the reckless sorceries of the Highborne drew the Legion's gaze to Azeroth. Whispering through the Well of Eternity, Sargeras seduced Queen Azshara and her councilor Xavius with promises of reshaping the world into paradise. Instead, the portal unleashed commanders like Mannoroth and Archimonde alongside swarms of doomguard, felhounds, and flaming infernals. The ensuing war reduced Kalimdor's civilization to ruin before an alliance of night elves, dragonflights, and demigods collapsed the gateway. The catastrophic implosion tore the supercontinent apart in the Great Sundering, casting the ruined lands across vast new seas.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows over Azeroth",
+   "body": "Though cast back into the Twisting Nether, the Legion never abandoned Azeroth. Deciding that direct invasion invited failure, Kil'jaeden orchestrated proxy cataclysms from afar. The deceiver bound the orcs of Draenor through demonic blood pacts, sending the Horde charging through the Dark Portal to weaken mortal defenses. When that failed, the Legion forged the Lich King and unleashed the undead Scourge across Lordaeron, paving the way for Archimonde's return in the Third War. Even after Archimonde fell at Mount Hyjal, remnants of the Legion linger across Felwood, the Blasted Lands, and hidden cults throughout the world.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Burning Legion?",
+   "aliases": [
+    "who are the legion",
+    "what is the burning legion",
+    "legion demons",
+    "what are demons"
+   ],
+   "answer": "The Burning Legion is an infinite army of demons, corrupted races, and destructive horrors forged by the fallen titan Sargeras. Its singular objective is the Burning Crusade: scouring all life and ordered existence from the cosmos so that the Void cannot corrupt it."
+  },
+  {
+   "q": "Who leads the Burning Legion?",
+   "aliases": [
+    "who rules the legion",
+    "legion leader",
+    "who is the demon king",
+    "archimonde boss"
+   ],
+   "answer": "The Legion's ultimate master is the fallen titan Sargeras. Below him serve the demon lords of the eredar, most notably Archimonde the Defiler, who spearheaded military assaults until his demise at Mount Hyjal, and Kil'jaeden the Deceiver, who orchestrates insidious plots across worlds."
+  },
+  {
+   "q": "Why does the Legion want to destroy Azeroth?",
+   "aliases": [
+    "why do demons attack",
+    "legion motive",
+    "why invade azeroth",
+    "sargeras goal"
+   ],
+   "answer": "Azeroth has repeatedly defied the Legion, standing as the only world known to have repelled their assaults. Furthermore, Sargeras is obsessed with purging the potent world before the shadowy Old Gods and their Void masters can warp it into an unstoppable evil."
+  },
+  {
+   "q": "How did the demons first arrive on Azeroth?",
+   "aliases": [
+    "first demon invasion",
+    "how did legion get here",
+    "well of eternity portal",
+    "queen azshara demons"
+   ],
+   "answer": "Ten thousand years ago, Queen Azshara and her Highborne channeled the vast energies of the Well of Eternity, inadvertently attracting Sargeras. Deceived by promises of limitless power, the Highborne opened a massive portal beneath the palace, allowing the Legion to invade Kalimdor."
+  },
+  {
+   "q": "What happened to the Legion during the Third War?",
+   "aliases": [
+    "third war demons",
+    "mount hyjal invasion",
+    "did legion lose third war",
+    "what happened to archimonde"
+   ],
+   "answer": "Summoned back to Azeroth using the book of Medivh, Archimonde marched across Lordaeron and sailed west to devour the World Tree, Nordrassil. At Mount Hyjal, mortal races bought time for Malfurion Stormrage to call upon the ancestral spirits, detonating the tree's power and obliterating Archimonde."
+  },
+  {
+   "q": "Are demons still a threat right now?",
+   "aliases": [
+    "are demons still around",
+    "legion remnants",
+    "demons in classic",
+    "where are demons now"
+   ],
+   "answer": "Yes. Though their main host fractured after Archimonde's fall, dangerous remnants remain entrenched across Azeroth. Dreadlords, infernals, and lingering fiends occupy corrupted zones like Felwood and the Blasted Lands, while mortal cultists such as the Shadow Council work in secret."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The night elves bear the deepest scars of the Legion's invasions; their ancient empire was shattered in the Sundering, and the recent sacrifice of their World Tree at Mount Hyjal cost them their very immortality."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcs carry a bitter legacy with the Legion, having been enslaved through the demonic blood pact of Mannoroth before Grom Hellscream sacrificed himself to break the curse once and for all."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks walk a razor's edge, bending the raw fel magic and subservient demons of the Legion to their own mortal will despite constant suspicion and the ever-present threat of corruption."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Paladins view the Burning Legion as the antithesis of the Holy Light, dedicating their martial vows and righteous power to purging demonic filth wherever it festers."
+  }
+ ],
+ "keywords": [
+  "archimonde",
+  "burning legion",
+  "demons",
+  "eredar",
+  "fel",
+  "hyjal",
+  "kil'jaeden",
+  "mannoroth",
+  "sargeras",
+  "sundering",
+  "twisting nether",
+  "well of eternity"
+ ],
+ "related": [
+  "topic:sargeras",
+  "topic:third-war",
+  "topic:highborne",
+  "topic:night-elf",
+  "topic:titan",
+  "topic:old-god",
+  "topic:lich-king",
+  "npc:malfurion-stormrage"
+ ],
+ "attribution": [
+  "Burning Legion"
+ ]
+}

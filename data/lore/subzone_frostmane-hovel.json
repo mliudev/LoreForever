@@ -1,0 +1,72 @@
+{
+ "key": "subzone:frostmane-hovel",
+ "type": "subzone",
+ "name": "Frostmane Hovel",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Frostmane Hovel"
+ },
+ "summary": "Frostmane Hovel is a rugged cave den tucked into the southern crags of Coldridge Valley in Dun Morogh. It serves as an entrenched shelter for aggressive Frostmane trolls pressing directly into dwarven training grounds.",
+ "sections": [
+  {
+   "title": "A Troll Den in the Valley",
+   "body": "Carved into the southern mountains flanking Coldridge Valley, the Frostmane Hovel shelters indigenous Frostmane trolls who refuse to yield the high snows to Ironforge. Operating out of crude caverns like this, the trolls mount continuous raids against local dwarven camps and disrupt supply lines into the valley.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Frostmane Hovel?",
+   "aliases": [
+    "frostmane hovel",
+    "what is this cave",
+    "coldridge troll cave"
+   ],
+   "answer": "The Frostmane Hovel is a natural cavern in southern Coldridge Valley used as a foul-weather encampment by indigenous Frostmane trolls encroaching on dwarven territory."
+  },
+  {
+   "q": "Why are there trolls in Coldridge Valley?",
+   "aliases": [
+    "why trolls here",
+    "dun morogh trolls",
+    "frostmane presence"
+   ],
+   "answer": "The Frostmane tribe has inhabited the snowy peaks of Dun Morogh for generations. Bitter rivals of the Bronzebeard dwarves, they constantly push inward from the high ridges to raid supply paths and challenge dwarven settlements."
+  },
+  {
+   "q": "Who controls this cave?",
+   "aliases": [
+    "who leads the cave",
+    "who lives in frostmane hovel"
+   ],
+   "answer": "The cave is occupied by raiding Frostmane trolls who use the sheltered crevice to stage incursions across the southern shelf of the valley."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For young Bronzebeard recruits training in Coldridge Valley, securing the perimeter against the hostile Frostmane tribe in caves like this is an essential rite of passage."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The persistent Frostmane presence right outside Anvilmar highlights how even the heartland of Ironforge must constantly defend itself against local adversaries."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "frostmane",
+  "hovel",
+  "trolls"
+ ],
+ "related": [
+  "subzone:coldridge-valley",
+  "zone:dunmorogh",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Frostmane Hovel"
+ ]
+}

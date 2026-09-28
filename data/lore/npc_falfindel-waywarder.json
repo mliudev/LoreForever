@@ -1,0 +1,120 @@
+{
+ "key": "npc:falfindel-waywarder",
+ "type": "npc",
+ "name": "Falfindel Waywarder",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Falfindel Waywarder",
+  "refs": 7
+ },
+ "summary": "Falfindel Waywarder is a night elf sentinel stationed at Thalanaar, the outpost guarding the border between Feralas and the Thousand Needles. From this frontier watchpost, he works to heal corrupted lands and safeguard the southern wilderness of Kalimdor. Travelers wandering down from Stonetalon or the Barrens often find him seeking aid to restore balance to the wild.",
+ "sections": [
+  {
+   "title": "Watch at the Southern Border",
+   "body": "Thalanaar marks the gateway where the lush forests of Feralas descend into the towering mesas and dry salt plains of Thousand Needles. Falfindel Waywarder stands watch at this remote outpost, greeting weary travelers who have ventured far across the continent. Surrounded by natural grandeur and lurking dangers, he serves as a point of contact for the night elves seeking to monitor both local threats and broader environmental calamities across Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Healing the Charred Vale",
+   "body": "Despite his southern post, Falfindel remains deeply concerned with the devastation far to the north in Stonetalon Mountains. The Charred Vale, ruined by dark sorcery and fiery destruction, stands as a painful scar upon Kalimdor's wilderness. When adventurers deliver aid to Falfindel to assist in its recovery, he calls upon the spirits of the forest. Summoning forth swarms of wisps, he directs them to make haste north to Stonetalon to begin mending the scorched earth.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes on the Quillboar and the Wastes",
+   "body": "In addition to coordinating restoration efforts, Falfindel keeps a close watch on the surrounding region, including the quilboar dens of Razorfen Kraul. By reviewing recovered journals and gathering intelligence on quilboar leadership, Falfindel ensures that the Alliance understands the rising dangers threatening the passes between Feralas and the central deserts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Falfindel Waywarder located?",
+   "aliases": [
+    "falfindel location",
+    "where is falfindel",
+    "falfindel waywarder map"
+   ],
+   "answer": "Falfindel is stationed at Thalanaar, the night elf outpost situated on the border between Feralas and Thousand Needles."
+  },
+  {
+   "q": "What is Falfindel's role at Thalanaar?",
+   "aliases": [
+    "what does falfindel do",
+    "falfindel purpose",
+    "falfindel quests"
+   ],
+   "answer": "He serves as a sentinel and guide at the outpost, monitoring regional threats such as the quilboar in Thousand Needles and coordinating restoration efforts for ruined lands like the Charred Vale."
+  },
+  {
+   "q": "How does Falfindel help the Charred Vale?",
+   "aliases": [
+    "falfindel stonetalon",
+    "falfindel charred vale",
+    "reclaiming the charred vale falfindel"
+   ],
+   "answer": "When adventurers assist in efforts to reclaim the Charred Vale, Falfindel channels an incantation to summon forest wisps, dispatching them north to Stonetalon to heal the blighted land."
+  },
+  {
+   "q": "Why is Falfindel interested in Razorfen Kraul?",
+   "aliases": [
+    "crone of the kraul falfindel",
+    "lonebrow journal falfindel",
+    "falfindel quilboar"
+   ],
+   "answer": "He studies the threat posed by the quilboar of the Kraul and inspects items like Lonebrow's journal to track the influence of their leaders, such as the Crone of the Kraul."
+  },
+  {
+   "q": "Is Falfindel aligned with the Alliance or neutral?",
+   "aliases": [
+    "is falfindel alliance",
+    "falfindel faction"
+   ],
+   "answer": "Falfindel is a member of the night elf sentinels and is allied with the Alliance. Horde travelers approaching Thalanaar will find the outpost hostile."
+  },
+  {
+   "q": "What does Falfindel say to travelers?",
+   "aliases": [
+    "falfindel gossip",
+    "falfindel quote"
+   ],
+   "answer": "He warmly greets friendly visitors by acknowledging their long journey, remarking, 'You look as though you have traveled from afar.'"
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Falfindel represents your people's vigilance on the frontiers of Kalimdor, striving to mend nature's scars and guard against encroaching wilderness perils."
+  },
+  {
+   "target": "class:Druid",
+   "text": "His efforts to send forest spirits and wisps to heal the scorched soils of Stonetalon reflect the sacred druidic mission of restoration."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers making the long trek south from the Barrens or Stonetalon, Falfindel and the watch at Thalanaar offer a welcoming sanctuary."
+  }
+ ],
+ "keywords": [
+  "charred vale",
+  "falfindel",
+  "feralas",
+  "stonetalon",
+  "thalanaar",
+  "thousand needles",
+  "waywarder",
+  "wisps"
+ ],
+ "related": [
+  "subzone:thalanaar",
+  "quest:1057",
+  "quest:1100",
+  "quest:1101",
+  "zone:feralas",
+  "zone:thousandneedles",
+  "subzone:charred-vale",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Falfindel Waywarder"
+ ]
+}

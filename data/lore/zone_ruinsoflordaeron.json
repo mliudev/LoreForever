@@ -1,0 +1,133 @@
+{
+ "key": "zone:ruinsoflordaeron",
+ "type": "dungeon",
+ "name": "Ruins of Lordaeron",
+ "era": "classic",
+ "zone": "ruinsoflordaeron",
+ "meta": {
+  "wiki": [
+   "Ruins of Lordaeron (instance)"
+  ],
+  "levels": "15-20",
+  "aliases": [],
+  "bosses": [
+   "Witherfang",
+   "The Baron",
+   "Viktor the Vile",
+   "The Abandoned",
+   "Bjork",
+   "Rath'mael",
+   "Lordaeron Captain"
+  ]
+ },
+ "summary": "Perched directly above the subterranean Undercity, the Ruins of Lordaeron are the hollow remains of humanity's once-mighty northern kingdom. Fallen to the Scourge and Prince Arthas during the Third War, the surface streets and cracked plazas now crawl with wandering monstrosities, vengeful specters, and vile experimenters. Both the Alliance and the Horde dispatch ventures into this blighted citadel to reclaim relics of the fallen past or purge the horrors lurking above the Forsaken capital.",
+ "sections": [
+  {
+   "title": "A Fallen Empire's Courtyard",
+   "body": "Capital City was once the crown jewel of the Eastern Kingdoms, the seat of King Terenas Menethil II and the beating heart of human civilization. When Prince Arthas returned from Northrend, he slew his father in the throne room and unleashed the undead upon the citizenry. Today, while the Forsaken dwell in the catacombs of the Undercity below, the surface ruins remain a forsaken twilight zone. Broken archways and weed-choked cobbles shelter feral beasts like Witherfang and deranged remnants of the past.",
+   "spoiler": 0
+  },
+  {
+   "title": "Torment and Pestilence",
+   "body": "The dangers within the ruined grounds go beyond restless dead. Apothecaries and sinister figures like Viktor the Vile work on testing new plagues among the shadows, while twisted experiments like The Abandoned roam freely. Wrathful spirits such as Rath'mael and cursed retainers like The Baron haunt the collapsed hallways, locked in unending torment and striking out against any living or undead trespassers who cross their paths.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ghosts of the Royal Guard",
+   "body": "Among the most poignant hazards in the upper ruins are the spectral remnants of the city's defenders, culminating in the appearance of a ghostly Lordaeron Captain. Still clinging to their shattered oaths, these apparitions perceive anyone approaching the throne as invaders. Putting the Captain and their soldiers to rest brings a bittersweet closure to an unbroken vigil that has lasted since the day the capital fell.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Ruins of Lordaeron dungeon located?",
+   "aliases": [
+    "ruins of lordaeron location",
+    "where is lordaeron dungeon",
+    "undercity dungeon entrance"
+   ],
+   "answer": "The dungeon is situated directly on the surface levels of Capital City in Tirisfal Glades, sitting right above the entrance network that leads down into the Forsaken capital of the Undercity."
+  },
+  {
+   "q": "Why are both the Horde and Alliance interested in this place?",
+   "aliases": [
+    "why go to lordaeron ruins",
+    "alliance quests lordaeron",
+    "horde quests lordaeron"
+   ],
+   "answer": "For the Alliance, venturing into Lordaeron is a sacred pilgrimage to recover lost family heirlooms, collect royal crests, and grant final peace to fallen ancestors. For the Horde, particularly the Forsaken, clearing out the upper ruins is essential for securing the perimeter of the Undercity and acquiring research samples for the Royal Apothecary Society's new plague."
+  },
+  {
+   "q": "Who is Viktor the Vile?",
+   "aliases": [
+    "viktor the vile lore",
+    "who is viktor the vile"
+   ],
+   "answer": "Viktor the Vile is one of the malevolent figures taking advantage of the ruins' lawlessness, operating foul experiments and contributing to the festering corruption that keeps the upper capital infested with twisted abominations."
+  },
+  {
+   "q": "What is 'The Abandoned' encountered in the ruins?",
+   "aliases": [
+    "the abandoned boss",
+    "who is the abandoned"
+   ],
+   "answer": "The Abandoned is a grotesque undead monstrosity left behind in the ruins. Like many patchwork horrors created during and after the Scourge's conquest, it wanders the derelict chambers aimlessly, attacking anything it encounters."
+  },
+  {
+   "q": "What does defeating the Lordaeron Captain mean for the story?",
+   "aliases": [
+    "defeating lordaeron captain",
+    "lordaeron captain significance",
+    "what happens when captain dies"
+   ],
+   "answer": "Defeating the spectral Lordaeron Captain releases a high-ranking royal defender from a perpetual, maddening duty. Bound by honor since the Scourge's initial massacre, the Captain has spent years guarding a destroyed kingdom against all who approach. Laying the Captain to rest breaks an agonizing cycle of phantom servitude and allows their bloodied insignia to be reclaimed."
+  },
+  {
+   "q": "Is the Ruins of Lordaeron separate from the Undercity?",
+   "aliases": [
+    "is undercity in this dungeon",
+    "ruins vs undercity"
+   ],
+   "answer": "Yes. While the Forsaken make their home in the Undercity caverns below, the surface ruins are an active combat zone overrun with restless ghosts, feral predators, and experimental threats that the Forsaken have not fully eradicated."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, the ruins above are their former home and eternal graveyard. Clearing it secures their front door and supplies the apothecaries with components to develop the New Plague."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human adventurers view the ruined capital as hallowed ground stolen by betrayal, seeking to reclaim lost heirlooms and honor fallen kin."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Venturing into Lordaeron allows the Alliance to strike at the threshold of the Forsaken capital while bringing justice and peace to the spirits of their slaughtered northern brothers."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Lordaeron was the cradle of the Knights of the Silver Hand; walking its desecrated halls to purge horrors and lay restless captains to rest is a solemn duty of the Light."
+  }
+ ],
+ "keywords": [
+  "bjork",
+  "lordaeron captain",
+  "new plague",
+  "rath'mael",
+  "ruins of lordaeron",
+  "the abandoned",
+  "the baron",
+  "tirisfal glades",
+  "undercity",
+  "viktor the vile",
+  "witherfang"
+ ],
+ "related": [
+  "zone:undercity",
+  "topic:lordaeron",
+  "topic:light"
+ ],
+ "attribution": [
+  "Ruins of Lordaeron (instance)"
+ ]
+}

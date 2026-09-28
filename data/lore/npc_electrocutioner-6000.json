@@ -1,0 +1,115 @@
+{
+ "key": "npc:electrocutioner-6000",
+ "type": "npc",
+ "name": "Electrocutioner 6000",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Electrocutioner 6000",
+  "refs": 5
+ },
+ "summary": "The Electrocutioner 6000 is a deadly, super-charged spider tank deployed to defend the Launch Bay within the irradiated halls of Gnomeregan. Piloted by the notorious leper gnome Lieutenant Tom 'Sizzlepants' Crankle, it represents Mekgineer Thermaplugg's reckless ambition to weaponize high-voltage electricity.",
+ "sections": [
+  {
+   "title": "Thermaplugg's Shocking Prototype",
+   "body": "Mekgineer Thermaplugg has never been known for rigorous safety testing. Driven by megalomania and haste, he regularly rushes unproven war machines straight from the drawing board into live combat. The Electrocutioner 6000 was his initial attempt to harness raw electrical currents as an offensive system mounted to an armored spider tank chassis. Rather than working out lethal power surges in a laboratory, Thermaplugg sent it immediately to guard the upper tiers of Gnomeregan's Launch Bay.",
+   "spoiler": 0
+  },
+  {
+   "title": "Lieutenant 'Sizzlepants'",
+   "body": "Operating experimental machinery is often a death sentence, particularly when lethal voltage is involved. Early test pilots perished in agonizing mishaps, but Lieutenant Tom Crankle managed to withstand the lethal surges and survived at the controls. Earning the grim moniker 'Sizzlepants,' he became an idol of resilience among the irradiated leper gnomes loyal to Thermaplugg, fiercely guarding the path toward the inner workshops.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can the Electrocutioner 6000 be found?",
+   "aliases": [
+    "electrocutioner 6000 location",
+    "where is electrocutioner",
+    "find electrocutioner 6000"
+   ],
+   "answer": "The Electrocutioner 6000 is positioned on an elevated catwalk platform overlooking the Launch Bay inside the fallen city of Gnomeregan."
+  },
+  {
+   "q": "Who pilots the Electrocutioner 6000?",
+   "aliases": [
+    "who drives electrocutioner 6000",
+    "sizzlepants",
+    "tom sizzlepants crankle",
+    "pilot of electrocutioner"
+   ],
+   "answer": "It is piloted by Lieutenant Tom Crankle, better known as 'Sizzlepants.' He is a crazed leper gnome officer who achieved renown among Thermaplugg's forces as the sole pilot to survive the tank's dangerous internal electrical discharge."
+  },
+  {
+   "q": "Why is the machine so volatile?",
+   "aliases": [
+    "why does it shock",
+    "electrocutioner prototype",
+    "thermaplugg design"
+   ],
+   "answer": "Mekgineer Thermaplugg refuses to spend time conducting proper safety evaluations, preferring to rush inventions immediately into service. The Electrocutioner 6000 was his first trial with an electrified spider tank, leaving its lethal power feeds volatile and perilous even to its own operator."
+  },
+  {
+   "q": "Why is defeating the Electrocutioner 6000 important for explorers?",
+   "aliases": [
+    "workshop key",
+    "why kill electrocutioner",
+    "electrocutioner 6000 loot"
+   ],
+   "answer": "The pilot holds the Workshop Key, an essential device that unlocks the back door entrance into Gnomeregan's deeper engineering sectors, allowing strike teams a faster route through the reclaimed facilities."
+  },
+  {
+   "q": "What happens to the machine after it is destroyed?",
+   "aliases": [
+    "electrocutioner leg",
+    "salvage electrocutioner",
+    "ironforge trophy"
+   ],
+   "answer": "Following its defeat, Alliance scavengers and tinkerers have retrieved components of the ruined chassis\u2014including the celebrated Electrocutioner Leg\u2014and brought them back to Tinker Town in Ironforge for study and safekeeping."
+  },
+  {
+   "q": "Is the Electrocutioner an automaton or a vehicle?",
+   "aliases": [
+    "is electrocutioner a robot",
+    "electrocutioner spider tank type"
+   ],
+   "answer": "It is a modified spider tank, functioning as an armored mechano-vehicle guided manually by its pilot from an internal cockpit, rather than an autonomous robotic construct."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For the exiled gnomes of Ironforge, the Electrocutioner 6000 is an insult to their craft: a dangerous, untested monstrosity that reflects Thermaplugg's twisted disregard for proper engineering ethics and gnome lives."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers marvel at the raw high-voltage output harnessed within the chassis, even if Thermaplugg's reckless lack of grounding makes it a lethal hazard to its own crew."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Breaching the Launch Bay and eliminating Crankle is vital to securing the Workshop Key, bypassing hazardous front corridors during liberation efforts into Gnomeregan."
+  }
+ ],
+ "keywords": [
+  "crankle",
+  "electrocutioner",
+  "gnomeregan",
+  "launch bay",
+  "sizzlepants",
+  "spider tank",
+  "thermaplugg",
+  "workshop key"
+ ],
+ "related": [
+  "zone:gnomeregan",
+  "subzone:launch-bay",
+  "topic:leper-gnome",
+  "subzone:tinker-town",
+  "topic:gnome",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Electrocutioner 6000"
+ ]
+}

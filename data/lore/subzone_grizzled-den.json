@@ -1,0 +1,78 @@
+{
+ "key": "subzone:grizzled-den",
+ "type": "subzone",
+ "name": "Grizzled Den",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Grizzled Den"
+ },
+ "summary": "The Grizzled Den is a cavern nestled in the snowy hills just southwest of Kharanos. It serves as a notorious lair for the ferocious, frost-breathing wendigos indigenous to Dun Morogh.",
+ "sections": [
+  {
+   "title": "A Frost-Chilled Lair",
+   "body": "Carved deep into the crags southwest of Kharanos, the Grizzled Den is notorious among local mountaineers as the nesting ground of Dun Morogh's wendigo packs. These aggressive, ape-like beasts wield frosty breath against intruders and band together to protect their hollows. Despite the peril, daring hunters regularly brave the cavern's depths to harvest thick wendigo manes, which fetch a respectable sum among craftsmen looking to line cold chairs and carriage seats with insulated fur.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hidden Treasures",
+   "body": "Beyond its fearsome inhabitants, the twisting tunnels of the Grizzled Den draw opportunists searching for natural wealth. Prospectors frequently venture past the outer entrance to hammer at copper veins jutting from the frozen stone walls, while adventurous scouts often scour the darker corners for discarded footlockers. However, delve too far into the inner reaches, and you are bound to face the dens' largest and most vicious predators lurking in the shadows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Grizzled Den located?",
+   "aliases": [
+    "grizzled den location",
+    "where is grizzled den",
+    "how to get to grizzled den"
+   ],
+   "answer": "The Grizzled Den is found southwest of Kharanos in Dun Morogh, tucked away into the snow-covered mountain ridges."
+  },
+  {
+   "q": "What creatures live in the Grizzled Den?",
+   "aliases": [
+    "what is in grizzled den",
+    "grizzled den mobs",
+    "creatures inside grizzled den"
+   ],
+   "answer": "The cavern is overrun with packs of ferocious wendigos. These aggressive, white-furred beasts can exhale freezing frost and will readily swarm any interloper."
+  },
+  {
+   "q": "Why do people venture into the Grizzled Den?",
+   "aliases": [
+    "why go to grizzled den",
+    "grizzled den quests",
+    "wendigo manes"
+   ],
+   "answer": "Hunters and adventurers brave the den primarily to hunt wendigos for their thick manes, which are highly prized for crafting warm seat covers. Others brave the freezing tunnels to extract raw copper ore from the cavern walls."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The outer and inner tunnels of the den hold exposed copper deposits, making it a viable early digging spot if you can keep the wendigos off your back."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Clearing the Grizzled Den is practically a rite of passage for young dwarven mountaineers training around Kharanos."
+  }
+ ],
+ "keywords": [
+  "cave",
+  "dun morogh",
+  "frost",
+  "grizzled den",
+  "kharanos",
+  "wendigo"
+ ],
+ "related": [
+  "quest:313",
+  "subzone:kharanos",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Grizzled Den"
+ ]
+}

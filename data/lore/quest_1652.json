@@ -1,0 +1,116 @@
+{
+ "key": "quest:1652",
+ "type": "quest",
+ "name": "The Tome of Valor",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1652
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Daphne Stilwell",
+  "end": "Duthorian Rall",
+  "previous": "The Tome of Valor (4)",
+  "next": "The Test of Righteousness",
+  "wiki": "The Tome of Valor (5)",
+  "chain": []
+ },
+ "summary": "This quest marks the conclusion of the trials of valor set forth by the Church of the Holy Light in Stormwind. After defending the isolated Stilwell homestead from bandits in Westfall, an aspiring paladin returns to Duthorian Rall to report Daphne's safety. It cements the sacred duty of the paladin to serve as a selfless shield for the innocent.",
+ "sections": [
+  {
+   "title": "A Sacred Shield",
+   "body": "The path of a paladin is not merely defined by combat prowess, but by the will to stand between danger and the defenseless. When Daphne Stilwell found herself besieged on her farm in Westfall, the Church of the Holy Light dispatched an initiate to hold the line. Returning to the Cathedral of Light in Stormwind, the initiate delivers the news that the homestead holds firm, proving that their courage matches their conviction.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ties Between Kingdoms",
+   "body": "Daphne's husband, Jordan Stilwell, is away in Ironforge assisting the efforts of the Alliance with his renowned craftsmanship. With the homestead guarded and Daphne secure, Duthorian Rall prepares word to travel north to the dwarven mountain city. Reassuring Jordan that his family remains protected allows the artisan to focus on his work, highlighting how mutual aid and paladin devotion bind the Alliance together across distant lands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Duthorian Rall?",
+   "aliases": [
+    "duthorian rall",
+    "who is duthorian",
+    "paladin trainer stormwind"
+   ],
+   "answer": "Duthorian Rall is a senior paladin trainer within the Cathedral of Light in Stormwind. He oversees the spiritual and martial trials of young paladins, guiding them through the lessons recorded in the holy texts to ensure they embody the virtues of valor, righteousness, and humility."
+  },
+  {
+   "q": "Why was Daphne Stilwell in danger?",
+   "aliases": [
+    "daphne stilwell",
+    "stilwell farm",
+    "who attacked daphne"
+   ],
+   "answer": "Daphne Stilwell lives on an isolated farmstead in Westfall. Surrounded by Defias bandits and lawlessness, the farm became an easy target while her husband Jordan was away working in Ironforge."
+  },
+  {
+   "q": "Who is Jordan Stilwell?",
+   "aliases": [
+    "jordan stilwell",
+    "daphne husband",
+    "jordan ironforge"
+   ],
+   "answer": "Jordan Stilwell is a skilled blacksmith and craftsman devoted to the Church of the Holy Light and the Alliance. He is currently working in Ironforge, lending his expertise to their cause while relying on the Church to protect his wife back home."
+  },
+  {
+   "q": "What is the Tome of Valor?",
+   "aliases": [
+    "tome of valor meaning",
+    "what is tome of valor"
+   ],
+   "answer": "The Tome of Valor represents both a holy book of lessons and a series of practical trials administered by the Cathedral of Light. Through these trials, paladins prove they possess the courage to confront darkness and protect the vulnerable at great personal risk."
+  },
+  {
+   "q": "What comes after completing this trial?",
+   "aliases": [
+    "next quest after tome of valor",
+    "what is next"
+   ],
+   "answer": "Once Duthorian Rall acknowledges your valor in defending Daphne Stilwell, he guides you toward the next step in your spiritual and martial progression, the Test of Righteousness, continuing your advancement within the order."
+  },
+  {
+   "q": "Why does the Church care about the Stilwell homestead?",
+   "aliases": [
+    "why church help daphne",
+    "church and stilwells"
+   ],
+   "answer": "Daphne and Jordan Stilwell have long aided the Church of the Holy Light through faithful service and craftsmanship. Protecting Daphne during Jordan's absence is an act of reciprocal honor and Christian charity, fulfilling the Church's promise to look after its own."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Reporting back to Duthorian Rall concludes your lesson in valor, proving you possess the selflessness required to serve as a holy protector of the Alliance."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Stilwell family's plight links human farmlands in Westfall directly to dwarven workshops in Ironforge, showing the practical interdependence of the Alliance."
+  }
+ ],
+ "keywords": [
+  "cathedral of light",
+  "daphne stilwell",
+  "duthorian rall",
+  "ironforge",
+  "jordan stilwell",
+  "stormwind",
+  "tome of valor",
+  "westfall"
+ ],
+ "related": [
+  "npc:duthorian-rall",
+  "npc:daphne-stilwell",
+  "quest:1653",
+  "topic:stormwind-kingdom",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "The Tome of Valor (5)"
+ ]
+}

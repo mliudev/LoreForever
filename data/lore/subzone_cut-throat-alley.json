@@ -1,0 +1,80 @@
+{
+ "key": "subzone:cut-throat-alley",
+ "type": "subzone",
+ "name": "Cut-Throat Alley",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Cut-Throat Alley"
+ },
+ "summary": "Cut-Throat Alley is a secluded, unpopulated back corner of Stormwind City hidden away behind the canal shops. Tucked behind a storefront called the Shady Lady near the Dwarven District border, it consists of a quiet courtyard and an empty residence cut off from normal city foot traffic.",
+ "sections": [
+  {
+   "title": "A Secluded Nook",
+   "body": "Cut-Throat Alley is one of Stormwind's quietest and most secretive corners. Though technically charted alongside the Dwarven District, it shares none of the district's roaring forge fires or heavy soot. The alley cannot be reached from any of the city's main avenues; the only foot path leads straight through the Shady Lady, a small shop lining the canals just south of the bridge from Cathedral Square. Beyond the shop door lies a small paved dead-end lined with stacked crates, forgotten barrels, and a single unoccupied two-story residence. Completely hidden from passing guards and ordinary citizens, it sits entirely silent amidst the bustle of the capital.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you get to Cut-Throat Alley?",
+   "aliases": [
+    "find cut throat alley",
+    "cut throat alley location",
+    "where is cut-throat alley",
+    "how to enter cut-throat alley"
+   ],
+   "answer": "Head to the canal front along the edge of the Dwarven District, just south of the footbridge leading to Cathedral Square. Look for a shop named the Shady Lady. Walking straight through the back of this establishment brings you right out into the tucked-away alley."
+  },
+  {
+   "q": "Why does the map call this the Dwarven District?",
+   "aliases": [
+    "minimap dwarven district",
+    "why does it say dwarven district",
+    "cut-throat alley name bug"
+   ],
+   "answer": "The outdoor passage shares the broader Dwarven District subzone label on common maps. The name 'Cut-Throat Alley' only reveals itself on your compass once you step inside the empty two-story home at the back of the lot."
+  },
+  {
+   "q": "Is anyone living in Cut-Throat Alley?",
+   "aliases": [
+    "cut throat alley npcs",
+    "who lives in cut throat alley",
+    "empty house cut throat alley"
+   ],
+   "answer": "No. The alley and its lone two-story house are completely abandoned. Aside from stacked cargo crates and empty barrels, there are no residents, shopkeepers, or city watchmen stationed here."
+  },
+  {
+   "q": "Are there any quests in Cut-Throat Alley?",
+   "aliases": [
+    "cut throat alley quests",
+    "cut throat alley storyline"
+   ],
+   "answer": "There are no formal duties or civic assignments that lead into the alley. It serves purely as an overlooked, secluded backdrop within the capital."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Accessible only through the rear door of a shady canal shop, this unpatrolled dead-end offers an ideal hideout for anyone who prefers to stay out of sight of the Stormwind City Guard."
+  }
+ ],
+ "keywords": [
+  "cathedral square",
+  "cut-throat alley",
+  "dwarven district",
+  "secret alley",
+  "shady lady",
+  "stormwind canals"
+ ],
+ "related": [
+  "subzone:dwarven-district",
+  "subzone:canals-stormwind-city",
+  "subzone:cathedral-square",
+  "topic:stormwind-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Cut-Throat Alley"
+ ]
+}

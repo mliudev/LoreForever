@@ -1,0 +1,122 @@
+{
+ "key": "quest:895",
+ "type": "quest",
+ "name": "WANTED: Baron Longshore",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   895
+  ],
+  "level": "16",
+  "faction": null,
+  "start": "WANTED",
+  "end": "Gazlowe",
+  "previous": null,
+  "next": null,
+  "wiki": "WANTED: Baron Longshore",
+  "chain": []
+ },
+ "summary": "WANTED: Baron Longshore is a bounty contract posted on the docks of Ratchet by Chief Engineer Gazlowe. It targets Baron Longshore, a notorious pirate captain originally from Gilneas who commands vessels of the Southsea Freebooters. Longshore's presence along the Merchant Coast poses a direct threat to goblin merchant shipping throughout the region.",
+ "sections": [
+  {
+   "title": "Piracy on the Merchant Coast",
+   "body": "The waters off the Barrens are vital sea lanes for the Steamwheedle Cartel, connecting Ratchet to Booty Bay and beyond. Unfortunately, the Southsea Freebooters have fortified encampments along the coast south of town. Operating under the command of figures like Baron Longshore, these cutthroats harass merchant vessels, disrupt trade, and bleed the local goblin administration dry.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Captain from Gilneas",
+   "body": "Longshore is identified as hailing from the isolated human kingdom of Gilneas, making his presence on Kalimdor an unusual and dangerous curiosity. Captain of the pirate vessel 'Heedless', he leads crews ashore just north of Northwatch Hold. Rather than engaging in grand diplomacy, Gazlowe solves the problem through practical goblin means: placing an open bounty demanding the pirate's identifiable head.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Baron Longshore?",
+   "aliases": [
+    "baron longshore",
+    "who is longshore",
+    "captain longshore"
+   ],
+   "answer": "Baron Longshore is a pirate captain hailing from Gilneas who commands the vessel Heedless for the Southsea Freebooters. He operates along the shoreline south of Ratchet, raiding shipping lanes."
+  },
+  {
+   "q": "Why does Gazlowe want him dead?",
+   "aliases": [
+    "why kill longshore",
+    "gazlowe bounty reason",
+    "why is longshore wanted"
+   ],
+   "answer": "Longshore's piratical activities directly threaten Gazlowe's merchant shipping out of Ratchet. To keep trade flowing safely and protect Steamwheedle profits, Gazlowe placed a bounty demanding Longshore's head."
+  },
+  {
+   "q": "Where can Baron Longshore be found?",
+   "aliases": [
+    "longshore location",
+    "where is longshore",
+    "baron longshore spot"
+   ],
+   "answer": "He frequents the Southsea Freebooter campsites situated along the Merchant Coast south of Ratchet, just north of Northwatch Hold."
+  },
+  {
+   "q": "What ship does Baron Longshore captain?",
+   "aliases": [
+    "longshore ship",
+    "name of longshore boat",
+    "heedless ship"
+   ],
+   "answer": "He captains the 'Heedless', a feared pirate ship known among sailors across the open seas around the Merchant Coast."
+  },
+  {
+   "q": "Is Baron Longshore an Alliance noble?",
+   "aliases": [
+    "is longshore alliance",
+    "gilneas noble pirate",
+    "longshore gilneas"
+   ],
+   "answer": "While he holds the title of Baron and originally comes from Gilneas, he acts strictly as a renegade corsair leading Southsea Freebooters, unaffiliated with the current Alliance leadership."
+  },
+  {
+   "q": "Where is the bounty poster located?",
+   "aliases": [
+    "where is wanted poster",
+    "longshore poster location",
+    "how to start longshore quest"
+   ],
+   "answer": "The wanted poster is posted on the boards near the bank in the port town of Ratchet."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Seeing a Gilnean baron commanding cutthroats on Kalimdor is a reminder of how far deserters and outcasts from the Eastern Kingdoms have scattered across the seas."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Clearing out the Southsea Freebooters near Ratchet keeps the port open and friendly for Horde supplies moving into the Barrens."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though Longshore hails from Gilneas, his piracy disrupts neutral shipping that Alliance travelers rely upon between Kalimdor and the Eastern Kingdoms."
+  }
+ ],
+ "keywords": [
+  "baron longshore",
+  "gazlowe",
+  "gilneas",
+  "heedless",
+  "merchant coast",
+  "pirate bounty",
+  "ratchet",
+  "southsea freebooters"
+ ],
+ "related": [
+  "subzone:ratchet",
+  "subzone:merchant-coast",
+  "quest:887",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "WANTED: Baron Longshore"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "subzone:brightwater-lake",
+ "type": "subzone",
+ "name": "Brightwater Lake",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Brightwater Lake"
+ },
+ "summary": "Brightwater Lake is the largest body of water in Tirisfal Glades, stretching across the mist-shrouded lowlands northeast of Brill. Once a tranquil retreat for the kingdom of Lordaeron, its waters now lie cold and dark, surrounding a central isle where an outcast necromancer conducts his forbidden research.",
+ "sections": [
+  {
+   "title": "Waters of the North",
+   "body": "Spanning the northern plains between the town of Brill and the Scarlet Watch Post, Brightwater Lake is a quiet and eerie landmark in the heart of Tirisfal. Thousands of years ago, its misty banks bore witness to ancient conflicts, including early clashes against the dreadlord Kathra'natir. In the peaceful centuries that followed under the Kingdom of Lordaeron, the lake served as a scenic country haven. Today, like the rest of the glades, its pristine character is long gone. The Plaguelands lie not far to the east, and the murky, chilled waters reflect only grey skies, withered trees, and the constant threat of roving murlocs and hostile undead.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Hermit's Refuge",
+   "body": "Rising from the center of Brightwater Lake is an island known as Gunther's Retreat. Here dwells Gunther Arcanus, a powerful necromancer who broke free of the Lich King's grasp by his own formidable willpower. Suspicious of the Dark Lady and the newly established Forsaken in the Undercity, Gunther chose seclusion over servitude, raising his own skeletal defenders to guard the island perimeter. His stubborn independence draws keen interest from Forsaken magistrates, who are eager to either recruit his formidable talents or ensure his autonomous existence poses no threat to Sylvanas's realm.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Brightwater Lake located?",
+   "aliases": [
+    "brightwater lake location",
+    "where is brightwater lake",
+    "find brightwater lake"
+   ],
+   "answer": "Brightwater Lake sits in northeastern Tirisfal Glades, just northeast of the Forsaken hub of Brill. It lies directly south of the jagged North Coast and west of the Scarlet Watch Post that guards the mountain passes toward the Western Plaguelands."
+  },
+  {
+   "q": "Who lives on the island in the middle of the lake?",
+   "aliases": [
+    "who is on the island",
+    "gunther arcanus",
+    "brightwater island npc"
+   ],
+   "answer": "The island, known as Gunther's Retreat, is inhabited by Gunther Arcanus. He is a rogue necromancer who managed to shatter the Lich King's mental enslavement entirely on his own. Rather than joining the Forsaken in the Undercity, he remains secluded in his camp with his personal skeletal minions."
+  },
+  {
+   "q": "What threats are found around the waters?",
+   "aliases": [
+    "lake monsters",
+    "brightwater enemies",
+    "dangers at brightwater lake"
+   ],
+   "answer": "Travelers along the shorelines frequently encounter aggressive vile fins and murlocs scavenging the banks. Approaching the central island brings danger from the reanimated skeletons and servants sworn to protect Gunther Arcanus from intruders."
+  },
+  {
+   "q": "Why do the guards in Brill talk about a summer camp here?",
+   "aliases": [
+    "summer camp rumor",
+    "brill guards lake joke",
+    "masked psycho camp"
+   ],
+   "answer": "Town deathguards in Brill dryly joke that the Forsaken attempted to run a children's summer camp along the shores of Brightwater Lake, but were forced to shut it down due to masked psychos terrorizing the grounds\u2014a morbid local quip mirroring human campfire tales."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, securing Brightwater Lake is vital for defending Brill's eastern approaches and assessing whether the autonomous necromancer Gunther Arcanus will become an asset or an enemy."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The lake holds lingering arcana from ancient battles fought in Tirisfal, as well as the unique, unguided mastery displayed by the renegade wizard Gunther Arcanus."
+  }
+ ],
+ "keywords": [
+  "brightwater lake",
+  "brill",
+  "gunther arcanus",
+  "gunther's retreat",
+  "necromancer",
+  "scarlet watch post",
+  "tirisfal glades",
+  "undead"
+ ],
+ "related": [
+  "subzone:gunther-s-retreat",
+  "zone:tirisfal",
+  "subzone:brill",
+  "subzone:scarlet-watch-post",
+  "subzone:north-coast",
+  "topic:forsaken",
+  "topic:lordaeron",
+  "subzone:crystal-lake"
+ ],
+ "attribution": [
+  "Brightwater Lake"
+ ]
+}

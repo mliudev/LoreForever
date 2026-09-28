@@ -1,0 +1,122 @@
+{
+ "key": "quest:9520",
+ "type": "quest",
+ "name": "Diabolical Plans",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   9520
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Diabolical Plans (starter)",
+  "end": "Vindicator Vedaar",
+  "previous": null,
+  "next": "Never Again! (Alliance)",
+  "wiki": "Diabolical Plans (Alliance)",
+  "chain": []
+ },
+ "summary": "Recovered from Legion forces wandering the corrupted pockets of Ashenvale, these dropped orders reveal a coordinated plot targeting the fledgling settlement of Forest Song. Penned surprisingly in Common, the parchment outlines preparations directed by two dreadlords overseeing the local demonic presence. Delivering the missive alerts the defenders before the Burning Legion can strike.",
+ "sections": [
+  {
+   "title": "A Plot Against Forest Song",
+   "body": "Forest Song stands as a developing Alliance outpost in eastern Ashenvale, where draenei arrivals work alongside night elves to restore ancient ruins. The discovery of these diabolical plans exposes that the settlement has drawn the malignant gaze of the Burning Legion. Rather than aimless marauders, the demons in the region are actively marshaling forces to wipe out the new enclave before it can take root.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Dreadlord Overseers",
+   "body": "The intercepted parchment explicitly references Diathorus and Gorgannon, two dreadlords commanding the local demonic thralls. Strangely scribed in the Common tongue\u2014perhaps intended to be deciphered by cultists or merely ensuring universal comprehension among varied servants\u2014the orders lay out systematic preparations for an offensive, requiring immediate intervention from Vindicator Vedaar.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Diabolical Plans?",
+   "aliases": [
+    "what are these plans",
+    "diabolical plans item",
+    "who wrote the plans"
+   ],
+   "answer": "They are written orders dropped by demons in Ashenvale detailing an impending assault against the settlement of Forest Song. Amazingly penned in the Common tongue, they name the dreadlords Diathorus and Gorgannon as the orchestrators."
+  },
+  {
+   "q": "Who should I bring the plans to?",
+   "aliases": [
+    "where do i take the plans",
+    "turn in diabolical plans",
+    "vedaar location"
+   ],
+   "answer": "Deliver the plans to Vindicator Vedaar at Forest Song in eastern Ashenvale. As a protector of the burgeoning enclave, he needs the advance warning to organize a defense."
+  },
+  {
+   "q": "Who are Diathorus and Gorgannon?",
+   "aliases": [
+    "dreadlords ashenvale",
+    "diathorus",
+    "gorgannon"
+   ],
+   "answer": "They are two infamous dreadlords directing the remnants of the Burning Legion throughout Ashenvale's corrupted woods, using lesser demons to orchestrate terror against the Alliance."
+  },
+  {
+   "q": "Why is the Legion targeting Forest Song?",
+   "aliases": [
+    "why attack forest song",
+    "why forest song"
+   ],
+   "answer": "Forest Song is a new draenei and night elf settlement built amidst ancient ruins. The Burning Legion seeks to crush any Alliance foothold and purge draenei presence wherever it surfaces."
+  },
+  {
+   "q": "Why is the document written in Common?",
+   "aliases": [
+    "why common tongue",
+    "why is demon parchment in common"
+   ],
+   "answer": "While demons typically speak Eredun, they often employ mortal languages to coordinate with mortal pawns, cultists, or simply to ensure their commands are broadly understood across disparate servant races."
+  },
+  {
+   "q": "How does Vindicator Vedaar react to the parchment?",
+   "aliases": [
+    "vedaar reaction",
+    "what does vedaar say"
+   ],
+   "answer": "Vedaar reacts with righteous anger, invoking the Seven Crystals of Ata'mal and crumpling the parchment in his fist while swearing that the Legion will never take Forest Song on his watch."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Uncovering this intercepted missive protects an Alliance frontier post from being wiped out by Legion forces."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Handing enemy battle plans to a fellow champion of the Light at Forest Song directly aids the crusade against the Legion's dreadlords."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Demons scheming within Ashenvale threaten the sanctity of the sacred forests, making this discovery vital for defending the woods."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Interpreting demon field commands offers insight into how dreadlord commanders direct their lesser minions on the Kalimdor front."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "burning legion",
+  "diabolical plans",
+  "diathorus",
+  "dreadlord",
+  "forest song",
+  "gorgannon",
+  "vindicator vedaar"
+ ],
+ "related": [
+  "npc:vindicator-vedaar",
+  "subzone:forest-song",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Diabolical Plans (Alliance)"
+ ]
+}

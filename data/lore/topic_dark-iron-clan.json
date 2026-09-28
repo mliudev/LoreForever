@@ -1,0 +1,155 @@
+{
+ "key": "topic:dark-iron-clan",
+ "type": "topic",
+ "name": "Dark Iron clan",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Dark Iron clan"
+ },
+ "summary": "The Dark Iron clan is an ancient, ash-skinned dwarven faction ruling from the volcanic depths of Blackrock Mountain. Cast out of Ironforge during the War of the Three Hammers, they accidentally summoned Ragnaros the Firelord, who enslaved their empire. Today, under Emperor Dagran Thaurissan, they wage shadow wars against both the Alliance and the Horde while serving their fiery elemental master.",
+ "sections": [
+  {
+   "title": "The War of the Three Hammers",
+   "body": "Long ago, three dwarven factions lived together in Ironforge under High King Modimus Anvilmar. When the king died without an heir, civil war erupted. The Bronzebeards defeated both rival factions, casting out the Wildhammers and Sorcerer-Thane Thaurissan's Dark Irons. Vowing vengeance, Thaurissan established a settlement in the Redridge Mountains while his sorceress wife, Modgud, led an army against Grim Batol. When both assaults failed and the united Bronzebeard and Wildhammer armies marched on his stronghold, Thaurissan attempted to unleash an apocalyptic subterranean entity to save himself. His ritual breached the core of the world and freed Ragnaros the Firelord.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shattered Lands and Bondage",
+   "body": "The rebirth of Ragnaros violently shattered the surrounding peaks, carving out the blazing caldera of Blackrock Mountain flanked by the Searing Gorge and the Burning Steppes. The sorcerer-thane perished in the cataclysm, and the surviving Dark Irons found themselves bound into perpetual servitude to the Firelord. Over centuries within the lower chambers of the mountain, they constructed the sprawling subterranean capital of Shadowforge City. Their artisans and sorcerers became masters of stone golems, dark sorceries, and steam-driven siege machinery, weaponizing the molten elements around them under the gaze of flamewakers and elemental overlords.",
+   "spoiler": 0
+  },
+  {
+   "title": "Spreading Shadow",
+   "body": "In 25 ADP, Emperor Dagran Thaurissan rules the clan from his Imperial Seat deep in Blackrock Depths. While secretly plotting to overthrow Ragnaros using the combined strength of all dwarven lands, Thaurissan obeys the Firelord's commands to prepare for total war. Dark Iron infiltrators and raiding parties strike far from their mountain, launching incursions into Loch Modan, Dun Morogh, the Badlands, and the Wetlands. They have even forged an insidious alliance inside Gnomeregan, providing aid to the traitor Sicco Thermaplugg to ensure their rivals remain overwhelmed.",
+   "spoiler": 1
+  },
+  {
+   "title": "The Stolen Princess",
+   "body": "Tensions reached a boiling point when Princess Moira Bronzebeard, daughter and sole heir of King Magni, was taken by Dark Iron agents while traveling to Lakeshire. Magni believes his daughter is an enchanted hostage held against her will in Blackrock Depths. Rumors filtering out of Shadowforge City paint a far more complex picture: the princess has become the emperor's bride, embracing a place of power among the very dwarves her father despises.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Dark Iron capital located?",
+   "aliases": [
+    "where do dark iron dwarves live",
+    "dark iron home",
+    "dark iron capital name",
+    "shadowforge city location"
+   ],
+   "answer": "Their capital is Shadowforge City, carved deep within the subterranean caverns of Blackrock Depths beneath Blackrock Mountain. It features enormous stonework, Senate chambers, barracks, and the emperor's Imperial Seat."
+  },
+  {
+   "q": "Why do the Dark Iron dwarves have dark skin and glowing eyes?",
+   "aliases": [
+    "why do dark iron look different",
+    "dark iron dwarf appearance",
+    "why are they ashen"
+   ],
+   "answer": "Generations of dwelling deep subterranean beneath volcanic stone and working close to Ragnaros's primordial fires altered their appearance, giving them ash-gray skin, dark hair, and smoldering fiery eyes."
+  },
+  {
+   "q": "Who is Emperor Dagran Thaurissan?",
+   "aliases": [
+    "dagran thaurissan",
+    "who leads dark iron clan",
+    "dark iron king"
+   ],
+   "answer": "Emperor Dagran Thaurissan is the direct descendant of the original Sorcerer-Thane Thaurissan. He rules the Dark Iron clan from Blackrock Depths and answers directly to the elemental lord Ragnaros, though he privately dreams of breaking free from the Firelord's bondage."
+  },
+  {
+   "q": "Why did the Dark Iron clan summon Ragnaros?",
+   "aliases": [
+    "how was ragnaros summoned",
+    "thaurissan ragnaros summon",
+    "why summoned firelord"
+   ],
+   "answer": "During the War of the Three Hammers, Sorcerer-Thane Thaurissan faced certain defeat when the combined armies of Ironforge and Grim Batol marched upon his city. Desperate for a weapon to destroy his enemies, he performed an ancient ritual that accidentally released the slumbering Firelord, shattering the mountains and enslaving his people."
+  },
+  {
+   "q": "What is the Thorium Brotherhood?",
+   "aliases": [
+    "thorium brotherhood dark iron",
+    "are thorium brotherhood dark irons",
+    "friendly dark iron dwarves"
+   ],
+   "answer": "The Thorium Brotherhood is a splinter faction of Dark Iron craftsmen who broke away from the clan and the Firelord's dominion. Based out of Thorium Point in Searing Gorge, they trade with outsiders and seek their own fortunes, earning the permanent enmity of their former kin."
+  },
+  {
+   "q": "Why are Dark Iron dwarves fighting in Gnomeregan?",
+   "aliases": [
+    "dark iron in gnomeregan",
+    "dark iron ambassador gnomeregan",
+    "why are dark irons with troggs"
+   ],
+   "answer": "The Dark Iron clan dispatched covert forces, including the Dark Iron Ambassador, to ally with the treacherous Sicco Thermaplugg during the fall of Gnomeregan. By keeping the gnomes crippled and Ironforge distracted, the Dark Irons weaken their northern rivals."
+  },
+  {
+   "q": "Are the Dark Irons allied with the Blackrock orcs?",
+   "aliases": [
+    "dark iron orc alliance",
+    "dark iron vs blackrock clan",
+    "who owns blackrock mountain"
+   ],
+   "answer": "No. While they once tolerated the Old Horde occupying the upper spire, the Dark Irons and the Blackrock orcs of the upper levels now fight a vicious turf war. The Dark Irons hold the depths, while Rend Blackhand's orcs control the upper citadel."
+  },
+  {
+   "q": "Why did the Dark Irons attack Grim Batol?",
+   "aliases": [
+    "modgud grim batol",
+    "why grim batol abandoned",
+    "curse of grim batol"
+   ],
+   "answer": "During the War of the Three Hammers, Sorceress Modgud led a Dark Iron army to destroy the Wildhammer clan at Grim Batol. Although Modgud was slain by Khardros Wildhammer, her foul sorceries cursed the fortress so deeply that the Wildhammers could never live there again."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For a Bronzebeard, the Dark Irons are ancestral traitors and sorcerers whose ancient grudges still threaten Ironforge's borders from Loch Modan to Dun Morogh."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "The discovery of a Dark Iron Ambassador deep inside fallen Gnomeregan proves that these subterranean schemers had a direct hand in enabling Sicco Thermaplugg's betrayal."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Dark Iron smiths are unmatched masters of fiery metallurgy; their specialized Dark Iron anvils and forges deep in Blackrock Depths are required to craft legendary armaments."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance views the Dark Irons as an urgent existential threat, not only for their constant border raids, but for the kidnapping of Ironforge's crown princess Moira Bronzebeard."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde actively clashes with the Dark Iron armies across the Badlands and the Burning Steppes as both seek supremacy over the ruins surrounding Blackrock Spire."
+  }
+ ],
+ "keywords": [
+  "blackrock",
+  "bronzebeard",
+  "dark iron",
+  "flamelash",
+  "modgud",
+  "moira",
+  "ragnaros",
+  "shadowforge",
+  "sorcerer-thane",
+  "thaurissan"
+ ],
+ "related": [
+  "topic:dark-iron-dwarf",
+  "subzone:blackrock-mountain",
+  "topic:bronzebeard-clan",
+  "topic:wildhammer-clan",
+  "zone:searinggorge",
+  "zone:burningsteppes",
+  "npc:magni-bronzebeard",
+  "npc:dark-iron-ambassador"
+ ],
+ "attribution": [
+  "Dark Iron clan"
+ ]
+}

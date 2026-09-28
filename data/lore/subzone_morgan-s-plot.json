@@ -1,0 +1,91 @@
+{
+ "key": "subzone:morgan-s-plot",
+ "type": "subzone",
+ "name": "Morgan's Plot",
+ "era": "classic",
+ "zone": "deadwind",
+ "meta": {
+  "wiki": "Morgan's Plot"
+ },
+ "summary": "Morgan's Plot is a desolate burial ground and crumbling chapel tucked away just behind the tower of Karazhan in Deadwind Pass. Dominated by restless undead and brooding silence, it holds the forgotten crypts and final resting places of those once tied to Medivh's domain.",
+ "sections": [
+  {
+   "title": "A Grave in the Shadow of the Tower",
+   "body": "Nestled against the sheer rocky slopes directly behind Karazhan, Morgan's Plot is a sorrowful, overgrown cemetery centered on a ruined chapel and underground crypts. Long before the land decayed into Deadwind Pass, the estate served the burial needs of the tower's inhabitants and nearby grounds. Following the downfall of the Last Guardian, Medivh, dark energies seeped into the earth, driving away all normalcy. Today, restless unliving wander the chapel grounds, haunting the headstones of servants and historic figures alike.",
+   "spoiler": 0
+  },
+  {
+   "title": "Resting Place of Guardians and Servants",
+   "body": "Beneath the crooked tombstones and inside the subterranean catacombs lie the remains of several figures tied intimately to Karazhan's history. Medivh's mother, the former Guardian Aegwynn, laid the bodies of Medivh, his seneschal Moroes, and their cook to rest here following the tragedy that shattered the tower. While mysteries linger as to what truly remains in the crypts beneath the soil, the soil itself feels heavy with old, lingering arcana and unquiet spirits.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Morgan's Plot located?",
+   "aliases": [
+    "where is morgans plot",
+    "morgans plot location",
+    "how to get to morgans plot"
+   ],
+   "answer": "Morgan's Plot lies in southern Deadwind Pass, situated in a gloomy hollow directly behind the high spire of Karazhan."
+  },
+  {
+   "q": "Who is buried here?",
+   "aliases": [
+    "who is buried at morgans plot",
+    "medivh grave",
+    "moroes grave",
+    "aegwynn burial"
+   ],
+   "answer": "Historically, the graveyard and crypts served Karazhan's household. Following Medivh's fall, his mother Aegwynn buried the Guardian here alongside his loyal seneschal Moroes and the tower's cook."
+  },
+  {
+   "q": "What threats can be found at Morgan's Plot?",
+   "aliases": [
+    "morgans plot mobs",
+    "what enemies are here",
+    "chapel monsters"
+   ],
+   "answer": "The chapel and surrounding grounds are haunted by unliving residents and restless spirits that linger around the gravestones and the entrance to the crypt."
+  },
+  {
+   "q": "Who is Lydia Accoste?",
+   "aliases": [
+    "lydia accoste",
+    "npc at morgans plot"
+   ],
+   "answer": "Lydia Accoste is a lone human woman who can be encountered lingering near the abandoned, overgrown chapel grounds despite the surrounding dangers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "The defiled graves and roaming unliving residents make Morgan's Plot a stark reminder of the corrupting taint that lingers wherever the Guardian's dark fate unfolded."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Mages of Dalaran regard this place with quiet dread, knowing it holds the burial soil chosen by Aegwynn to inter those struck down during Medivh's tragic end."
+  }
+ ],
+ "keywords": [
+  "aegwynn",
+  "crypt",
+  "deadwind pass",
+  "karazhan",
+  "lydia accoste",
+  "medivh",
+  "morgan's plot",
+  "morgans plot",
+  "moroes"
+ ],
+ "related": [
+  "subzone:karazhan",
+  "zone:deadwind",
+  "topic:medivh",
+  "topic:burning-legion"
+ ],
+ "attribution": [
+  "Morgan's Plot"
+ ]
+}

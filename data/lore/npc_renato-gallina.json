@@ -1,0 +1,72 @@
+{
+ "key": "npc:renato-gallina",
+ "type": "npc",
+ "name": "Renato Gallina",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Renato Gallina",
+  "refs": 1
+ },
+ "summary": "Renato Gallina is an energetic barker found promoting business in Stormwind City's bustling Trade District. A member of the Gallina winemaking family, his job is to drum up patrons and direct thirsty travelers to the family winery nestled along the city canals.",
+ "sections": [
+  {
+   "title": "Voice of the Gallina Winery",
+   "body": "Standing amidst the busy stalls of the Trade District, Renato Gallina spends his days calling out to passers-by, boldly proclaiming that his family sells the finest vintages in all of Stormwind. His family operates the Gallina Winery located nearby along the Canals, and Renato serves as their public promoter, handing out advertisements to anyone willing to help spread word of their cellar to thirsty travelers across the kingdom.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Renato Gallina?",
+   "aliases": [
+    "renato gallina",
+    "who is renato",
+    "wine barker stormwind"
+   ],
+   "answer": "Renato is a human barker working in Stormwind City's Trade District. He belongs to the Gallina family and spends his time promoting their family-owned winery to locals and visiting adventurers."
+  },
+  {
+   "q": "Where is the Gallina Winery located?",
+   "aliases": [
+    "where is gallina winery",
+    "stormwind wine shop location",
+    "gallina winery"
+   ],
+   "answer": "The Gallina Winery is situated along the Canals of Stormwind City, tucked just off the bustling streets of the main commercial quarters."
+  },
+  {
+   "q": "What does Renato ask adventurers to do?",
+   "aliases": [
+    "renato gallina quest",
+    "wine shop advert quest",
+    "what does renato want"
+   ],
+   "answer": "Renato provides an advertisement for his family's wine shop, hoping willing couriers will help distribute the word and bring fresh business to their canal cellar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers arriving in the capital, Renato offers a quick introduction to Stormwind's local commerce and domestic trades."
+  }
+ ],
+ "keywords": [
+  "canals",
+  "gallina winery",
+  "renato gallina",
+  "stormwind wine",
+  "trade district",
+  "wine shop advert"
+ ],
+ "related": [
+  "subzone:trade-district",
+  "subzone:canals-stormwind-city",
+  "quest:332",
+  "zone:stormwind",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Renato Gallina"
+ ]
+}

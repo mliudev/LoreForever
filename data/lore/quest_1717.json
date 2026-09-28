@@ -1,0 +1,130 @@
+{
+ "key": "quest:1717",
+ "type": "quest",
+ "name": "Gakin's Summons",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   1717
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Lago Blackwrench",
+  "end": "Gakin the Darkbinder",
+  "previous": null,
+  "next": "Devourer of Souls (Stormwind)",
+  "wiki": "Gakin's Summons (Succubus)",
+  "chain": [
+   "Gakin's Summons (Succubus)",
+   "Devourer of Souls (Stormwind)",
+   "Heartswood (quest)",
+   "The Binding (Succubus, Stormwind)"
+  ]
+ },
+ "summary": "A summons delivered to promising Alliance warlocks in Ironforge, directing them south to Stormwind. Gakin the Darkbinder awaits beneath the city's Mage Quarter to oversee their advancement into commanding greater fiends.",
+ "sections": [
+  {
+   "title": "A Message from the Underground",
+   "body": "Demonology remains a practice conducted entirely in shadows across Alliance lands. In Ironforge, Lago Blackwrench quietly keeps tabs on wandering practitioners on behalf of the brotherhood in Stormwind. When a warlock shows sufficient mastery over their initial minions, word travels quickly. Lago passes along the directive: drop whatever business keeps you in the snowy mountains of Khaz Modan and report south without delay.",
+   "spoiler": 0
+  },
+  {
+   "title": "Return to the Slaughtered Lamb",
+   "body": "Deep beneath the cobblestones of Stormwind's Mage Quarter, beneath the tavern known as The Slaughtered Lamb, Gakin the Darkbinder coordinates the development of the city's warlocks. Gakin views every capable student as a valuable, hazardous investment. Receiving his summons marks the threshold of true demonic binding, beginning the trials required to subjugate a succubus from the Twisting Nether.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me this summons?",
+   "aliases": [
+    "who gives quest",
+    "who starts this",
+    "lago blackwrench"
+   ],
+   "answer": "Lago Blackwrench, a warlock trainer located in Ironforge, delivers the summons on behalf of Gakin the Darkbinder, who leads demonology instruction in Stormwind."
+  },
+  {
+   "q": "Where do I find Gakin the Darkbinder?",
+   "aliases": [
+    "gakin location",
+    "where is gakin",
+    "slaughtered lamb location"
+   ],
+   "answer": "Gakin resides hidden in the dark, winding catacombs beneath The Slaughtered Lamb, a tavern tucked away in the Mage Quarter of Stormwind."
+  },
+  {
+   "q": "Why is Gakin summoning me?",
+   "aliases": [
+    "quest purpose",
+    "what is this for",
+    "why summoned"
+   ],
+   "answer": "You have advanced far enough in your craft to undertake the rituals required to summon and subjugate a succubus, expanding your demonic arsenal."
+  },
+  {
+   "q": "What happens after I speak to Gakin?",
+   "aliases": [
+    "next step",
+    "what follows this",
+    "quest chain"
+   ],
+   "answer": "Gakin will send you on a quest called Devourer of Souls, dispatching you into dangerous lands to acquire the ritual components needed to conjure and bind a succubus."
+  },
+  {
+   "q": "Why is a warlock in Ironforge taking orders from Stormwind?",
+   "aliases": [
+    "ironforge warlocks",
+    "gnome warlocks stormwind",
+    "warlock organization"
+   ],
+   "answer": "Alliance warlocks operate as a discreet, covert network out of necessity. Practitioners across Ironforge and Stormwind maintain contact and direct promising apprentices to Gakin, who possesses specialized ritual equipment and lore beneath the Slaughtered Lamb."
+  },
+  {
+   "q": "Can I ignore this summons if I want to stay in Khaz Modan?",
+   "aliases": [
+    "is this required",
+    "can i skip",
+    "do i need to go to stormwind"
+   ],
+   "answer": "While you can delay visiting Stormwind, you cannot learn to summon a succubus without completing Gakin's trial, making the journey essential for any aspiring warlock."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This breadcrumb quest directs warlocks in Ironforge back to Stormwind to begin the multi-part ritual questline to bind their succubus minion."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Shows how the covert warlock network maintains communication across Alliance capitals despite practicing demonology in secret away from civilian eyes."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnome warlocks training under Lago Blackwrench in Ironforge are directed to Stormwind's subterranean network to access deeper demonic teachings."
+  }
+ ],
+ "keywords": [
+  "gakin",
+  "gakin's summons",
+  "ironforge",
+  "lago blackwrench",
+  "mage quarter",
+  "slaughtered lamb",
+  "succubus",
+  "warlock"
+ ],
+ "related": [
+  "npc:gakin-the-darkbinder",
+  "quest:1472",
+  "quest:1471",
+  "quest:1738",
+  "subzone:mage-quarter",
+  "topic:stormwind-kingdom",
+  "quest:1685"
+ ],
+ "attribution": [
+  "Gakin's Summons (Succubus)"
+ ]
+}

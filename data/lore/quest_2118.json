@@ -1,0 +1,131 @@
+{
+ "key": "quest:2118",
+ "type": "quest",
+ "name": "Plagued Lands",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   2118
+  ],
+  "level": "14",
+  "faction": "Alliance",
+  "start": "Tharnariun Treetender",
+  "end": "",
+  "previous": null,
+  "next": "Cleansing of the Infected",
+  "wiki": "Plagued Lands",
+  "chain": [
+   "Plagued Lands",
+   "Cleansing of the Infected",
+   "Tharnariun's Hope (quest)"
+  ]
+ },
+ "summary": "Plagued Lands is an Alliance quest offered by Tharnariun Treetender in Darkshore. Driven to remedy the spreading corruption afflicting the native wildlife, Tharnariun tasks adventurers with trapping a rabid thistle bear alive using an enchanted relic to attempt a cure.",
+ "sections": [
+  {
+   "title": "A Blight on the Wilderness",
+   "body": "A sinister affliction creeps through Darkshore's woods, twisting its beasts into maddened, aggressive shadows of their former selves. The native thistle bears have suffered the worst of this madness, succumbing to a rabid frenzy that threatens both passing travelers and the fragile ecological harmony of the coast. Where night elf sentinels often respond with steel, the druids seek to understand and heal the root cause.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tharnariun's Hope",
+   "body": "Refusing to slaughter the corrupted beasts without trying to save them, Tharnariun Treetender fashioned a specialized trap known as Tharnariun's Hope. Adventurers place the device on the forest floor, using its soothing light to temporarily calm a raging thistle bear's mind. Once pacified, the creature meekly follows the traveler back to Tharnariun's outpost for study.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tragic Medicine",
+   "body": "When an adventurer successfully guides an infected bear into camp, Tharnariun immediately attempts to purge the sickness with restorative magic. Sadly, his initial efforts prove catastrophic: the swirling cleansing energies overwhelm the creature's weakened constitution, causing the beast to collapse and die on the spot. The failure reveals just how deeply the dark plague has taken hold.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Plagued Lands?",
+   "aliases": [
+    "quest giver plagued lands",
+    "tharnariun darkshore quest",
+    "who starts plagued lands"
+   ],
+   "answer": "The quest is given by Tharnariun Treetender, a night elf druid situated in northern Darkshore who seeks to cure the afflicted wildlife."
+  },
+  {
+   "q": "What is the objective of Plagued Lands?",
+   "aliases": [
+    "plagued lands goal",
+    "what to do in plagued lands",
+    "how to catch bear darkshore"
+   ],
+   "answer": "You must use the provided item, Tharnariun's Hope, to trap and pacify a Rabid Thistle Bear in Darkshore, then lead the subdued creature back to Tharnariun alive."
+  },
+  {
+   "q": "What happens to the bear when you bring it back?",
+   "aliases": [
+    "does the bear die",
+    "tharnariun bear cure result",
+    "bear death plagued lands"
+   ],
+   "answer": "Tharnariun attempts to cleanse the animal with healing magic, but the sickness has progressed too deeply. The strain overwhelms the creature, and it dies immediately after the treatment."
+  },
+  {
+   "q": "What item do you use to capture the bear?",
+   "aliases": [
+    "plagued lands trap",
+    "tharnariun's hope item",
+    "bear cage darkshore"
+   ],
+   "answer": "Tharnariun provides an enchanted trapping device named Tharnariun's Hope, which emits a calming light that pacifies the enraged bear so it will follow you."
+  },
+  {
+   "q": "What quest follows Plagued Lands?",
+   "aliases": [
+    "next quest after plagued lands",
+    "plagued lands chain",
+    "tharnariun follow up"
+   ],
+   "answer": "Plagued Lands is the first chapter of a three-part chain. Completing it unlocks the follow-up quest, Cleansing of the Infected, which eventually leads to the final quest, Tharnariun's Hope."
+  },
+  {
+   "q": "Why are the thistle bears rabid?",
+   "aliases": [
+    "why are bears sick in darkshore",
+    "darkshore plague bears",
+    "darkshore corruption"
+   ],
+   "answer": "A creeping, corruptive plague is spreading across Darkshore, poisoning the minds and bodies of the local wildlife and driving noble thistle bears into mindless aggression."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei, seeing Darkshore's native flora and fauna decay into rabid madness is an affront to Cenarius and the balance of nature they are sworn to protect."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids share Tharnariun's grief upon witnessing nature corrupted, and the tragic loss of the bear underscores the insidious depth of the land's spreading disease."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance travelers journeying through northern Kalimdor must reckon with untamed corruption encroaching right on the borders of settled territories."
+  }
+ ],
+ "keywords": [
+  "cleansing of the infected",
+  "darkshore",
+  "plagued lands",
+  "rabid thistle bear",
+  "tharnariun treetender",
+  "tharnariun's hope",
+  "thistle bear"
+ ],
+ "related": [
+  "npc:tharnariun-treetender",
+  "quest:2138",
+  "quest:2139",
+  "zone:darkshore",
+  "topic:light"
+ ],
+ "attribution": [
+  "Plagued Lands"
+ ]
+}

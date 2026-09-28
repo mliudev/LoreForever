@@ -1,0 +1,91 @@
+{
+ "key": "subzone:hall-of-legends",
+ "type": "subzone",
+ "name": "Hall of Legends",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Hall of Legends"
+ },
+ "summary": "The Hall of Legends is the elite military sanctuary and officer barracks of the Horde, nestled within Orgrimmar's Valley of Strength. Behind its warded threshold, champions of the Horde gather around battle plans and arm themselves with premier weapons taken from conflicts across Azeroth and beyond.",
+ "sections": [
+  {
+   "title": "Sanctuary of Horde Champions",
+   "body": "Located off the bustling avenues of the Valley of Strength, the Hall of Legends serves as the private redoubt for proven officers of the Horde. Beyond its guarded entrance, strategists and delegates from across the factions\u2014including Chieftain Earthbind of Thunder Bluff, Blood Guard Hini'wana of the Darkspear, and Advisor Willington of the Undercity\u2014confer over maps of contested lands and the military standing of both factions. Here, only warriors who have tested their mettle and achieved the rank of Stone Guard or higher are permitted entry to claim the spoils and armaments befitting their status.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Spoils of War",
+   "body": "More than just an officer lounge, the hall houses armories containing battle-tested wargear from across Azeroth and the orcs' shattered homeworld of Draenor. Many of these weapons were claimed as spoils from the ongoing clashes against the Alliance and other adversaries. For those climbing the martial ranks, it represents the physical manifestation of Horde honor, martial prowess, and hard-won victory.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is allowed inside the Hall of Legends?",
+   "aliases": [
+    "can i enter hall of legends",
+    "hall of legends requirement",
+    "rank required for hall of legends"
+   ],
+   "answer": "Only Horde champions who have achieved the rank of Stone Guard (Rank 6) or higher in the military honor system are granted passage through its threshold. Lower-ranking soldiers and ordinary citizens are turned away at the entrance."
+  },
+  {
+   "q": "Where is the Hall of Legends located?",
+   "aliases": [
+    "where is hall of legends",
+    "hall of legends location",
+    "how to get to hall of legends"
+   ],
+   "answer": "The Hall of Legends is situated in the Valley of Strength in Orgrimmar, near the city's primary barracks and administrative seat."
+  },
+  {
+   "q": "What is inside the Hall of Legends?",
+   "aliases": [
+    "what is in hall of legends",
+    "hall of legends interior"
+   ],
+   "answer": "Inside lies a central strategy table flanked by military representatives of the Horde's various races, surrounded by maps of Azeroth and military records. Quartermasters also maintain armories here, distributing prestigious arms, armor, and mounts to accomplished officers."
+  },
+  {
+   "q": "Does the Alliance have an equivalent location?",
+   "aliases": [
+    "alliance hall of legends",
+    "alliance counterpart"
+   ],
+   "answer": "Yes. The Alliance counterpart is the Champions' Hall, situated in the Old Town district of Stormwind City, which similarly serves as an officer barracks and armory for honored Alliance combatants."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Hall of Legends is the ultimate testament to Horde military achievement, offering recognition, strategic council, and prized wargear to those who shed blood for the Warchief."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "For front-line fighters, gaining entry to the Hall of Legends represents the pinnacle of martial respect, granting access to weapons forged in conflicts across multiple worlds."
+  }
+ ],
+ "keywords": [
+  "hall of legends",
+  "officer barracks",
+  "orgrimmar",
+  "pvp",
+  "spoils of war",
+  "stone guard",
+  "valley of strength"
+ ],
+ "related": [
+  "subzone:valley-of-strength",
+  "zone:orgrimmar",
+  "subzone:champions-hall",
+  "topic:horde",
+  "zone:thunderbluff",
+  "zone:undercity",
+  "topic:troll",
+  "zone:stormwind"
+ ],
+ "attribution": [
+  "Hall of Legends"
+ ]
+}

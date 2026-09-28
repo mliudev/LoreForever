@@ -1,0 +1,129 @@
+{
+ "key": "quest:1057",
+ "type": "quest",
+ "name": "Reclaiming the Charred Vale",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1057
+  ],
+  "level": "27",
+  "faction": "Alliance",
+  "start": "Keeper Albagorm",
+  "end": "",
+  "previous": null,
+  "next": "Reclaiming the Charred Vale (2)",
+  "wiki": "Reclaiming the Charred Vale",
+  "chain": [
+   "Reclaiming the Charred Vale",
+   "Reclaiming the Charred Vale (2)"
+  ]
+ },
+ "summary": "Reclaiming the Charred Vale is an Alliance quest offered by Keeper Albagorm atop Stonetalon Peak. It charges adventurers with culling the aggressive Bloodfury harpies who occupy the ruined valley of the Charred Vale, clearing a path so druids and caretakers can begin healing the scorched landscape.",
+ "sections": [
+  {
+   "title": "The Wounded Valley",
+   "body": "To the south of Stonetalon Peak lies the Charred Vale, a once-lush alpine haven reduced to ash and smoldering ruins. The devastation began when a mechanized logging and mining army swept through the sacred crags, stripping trees and fueling uncontrolled blazes. For the guardians stationed around Stonetalon, watching ancient woodland succumb to industrial greed is an intolerable wound upon the wilderness.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Harpy Menace",
+   "body": "While mechanical fires sparked the ruin, an opportunistic infestation took root in the ashes. The vicious Bloodfury harpies swarmed into the smoking lowlands, establishing nests and aggressively ambushing anyone approaching the valley. Keeper Albagorm and his allies cannot even walk the soil to sow the seeds of renewal, as the Bloodfuries violently refuse passage to all outsiders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Clearing the Path to Renewal",
+   "body": "Before any meaningful restoration can take place, the roosts of the Bloodfury tribe must be broken. Albagorm tasks seasoned Alliance fighters with carving deep into their numbers\u2014slaying hunters, ambushers, and roguefeathers alike. Thinning their predatory flocks is the vital first step toward reclaiming what belongs to nature and giving the forest spirits room to breathe once more.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Charred Vale?",
+   "aliases": [
+    "charred vale lore",
+    "what happened to charred vale",
+    "why is it burned"
+   ],
+   "answer": "The Charred Vale is a valley nestled in the southwestern heights of the Stonetalon Mountains. Once a lush, verdant forest, it was consumed by fire and scorched to bedrock during the unchecked exploitation of the land by industrial logging forces."
+  },
+  {
+   "q": "Who is Keeper Albagorm?",
+   "aliases": [
+    "keeper albagorm",
+    "who gives reclaiming the charred vale",
+    "albagorm lore"
+   ],
+   "answer": "Keeper Albagorm is a woodland keeper and caretaker residing at the Alliance settlement on Stonetalon Peak. As a protector of nature and forest spirits, he dedicates himself to curbing desolation in the mountains and driving back encroaching beasts."
+  },
+  {
+   "q": "Why are harpies living in the Charred Vale?",
+   "aliases": [
+    "bloodfury harpies",
+    "why harpies here",
+    "bloodfuries in stonetalon"
+   ],
+   "answer": "The Bloodfury harpies are aggressive, opportunistic scavengers who thrive in disrupted and blighted territory. When fire leveled the valley, the flock moved in to dominate the desolate basin, attacking anyone attempting to enter."
+  },
+  {
+   "q": "Who set fire to the Charred Vale in the first place?",
+   "aliases": [
+    "who burned charred vale",
+    "mechanized army industrialists",
+    "venture company charred vale"
+   ],
+   "answer": "Keeper Albagorm identifies the culprits as a greedy mechanized army of industrialists who tore into the hills. Unchecked logging machinery and explosive expansion caused devastating blazes that consumed the woodland."
+  },
+  {
+   "q": "What must be done after thinning the harpies?",
+   "aliases": [
+    "next quest charred vale",
+    "reclaiming the charred vale part 2",
+    "what happens next"
+   ],
+   "answer": "Clearing out the harpies is merely securing the perimeter. Once the Bloodfury numbers are curbed, Keeper Albagorm shifts focus toward planting seeds and channeling restorative magic to coax new life from the scorched soil."
+  },
+  {
+   "q": "Is this quest available to Horde adventurers?",
+   "aliases": [
+    "can horde do this quest",
+    "horde reclaiming charred vale"
+   ],
+   "answer": "No. Keeper Albagorm operates out of the Alliance-aligned redoubt atop Stonetalon Peak, meaning this specific task to purge the Bloodfury harpies is restricted to Alliance heroes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Night elves revere the wild forests of Stonetalon; purging the vile harpies from sacred groves defiled by foreign engines is an urgent calling."
+  },
+  {
+   "target": "class:Druid",
+   "text": "As stewards of the Cenarion circle and defenders of natural harmony, druids directly aid the Keepers in clearing out blighted nests to permit magical reforestation."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing the high passes and southern valleys protects the vulnerable night elf settlements and sanctuaries across Stonetalon Peak from predatory threats."
+  }
+ ],
+ "keywords": [
+  "bloodfury",
+  "charred vale",
+  "harpies",
+  "keeper albagorm",
+  "reclaiming the charred vale",
+  "stonetalon",
+  "stonetalon peak"
+ ],
+ "related": [
+  "subzone:charred-vale",
+  "subzone:stonetalon-peak",
+  "npc:keeper-albagorm",
+  "topic:harpy",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Reclaiming the Charred Vale"
+ ]
+}

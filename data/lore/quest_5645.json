@@ -1,0 +1,119 @@
+{
+ "key": "quest:5645",
+ "type": "quest",
+ "name": "A Lack of Fear",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   5645,
+   5641
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "High Priest Rohan / High Priestess Laurena / Priestess Alathea",
+  "end": "High Priest Rohan",
+  "previous": null,
+  "next": null,
+  "wiki": "A Lack of Fear",
+  "chain": []
+ },
+ "summary": "A Lack of Fear is a rite-of-passage summons for Alliance priests, calling promising disciples back to the grand halls of Ironforge. High Priest Rohan awaits in the Mystic Ward to test their discipline and bestow teachings tailored to their growing resilience.",
+ "sections": [
+  {
+   "title": "A Summons to Ironforge",
+   "body": "Priests serving the Alliance abroad are routinely directed by their local mentors to report back to their order's senior clergy. For dwarven disciples and their close allies, that guidance leads straight to High Priest Rohan in the heart of Ironforge's Mystic Ward. The summons marks a turning point where basic spiritual practice gives way to deeper, trial-tested applications of holy magic.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Trials of Fortitude",
+   "body": "High Priest Rohan does not simply teach liturgy; dwarven tradition views the Light as a shield and an unyielding bulwark in physical conflict. Reporting for this test acknowledges that the initiate has survived baptism through fire in the wider world and possesses the mettle required to master fear itself on the front lines.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do i have to go to rohan",
+    "what does a lack of fear do",
+    "priest quest level 20 ironforge"
+   ],
+   "answer": "It serves as a formal summons from local priest trainers to High Priest Rohan in Ironforge, directing seasoned initiates to undertake advanced instruction and earn the specialized spiritual gifts practiced by the city's priesthood."
+  },
+  {
+   "q": "Who is High Priest Rohan?",
+   "aliases": [
+    "who is rohan",
+    "high priest rohan lore"
+   ],
+   "answer": "High Priest Rohan is the senior leader of the dwarven priesthood in Ironforge. He trains disciples within the Hall of Mysteries in the Mystic Ward, focusing on steadfast devotion and martial resilience."
+  },
+  {
+   "q": "Where can High Priest Rohan be found?",
+   "aliases": [
+    "where is rohan",
+    "rohan location",
+    "how to find high priest rohan"
+   ],
+   "answer": "Rohan resides inside the Hall of Mysteries, located within the Mystic Ward in the western quarters of Ironforge."
+  },
+  {
+   "q": "Why is this called 'A Lack of Fear'?",
+   "aliases": [
+    "meaning of lack of fear",
+    "fear ward quest"
+   ],
+   "answer": "The quest represents the priest's preparation to receive Fear Ward, a unique protective blessing cultivated by dwarven devotees of the Holy Light to safeguard minds against panic and supernatural terror."
+  },
+  {
+   "q": "Who sends the priest to Ironforge?",
+   "aliases": [
+    "who starts a lack of fear",
+    "quest givers for lack of fear"
+   ],
+   "answer": "Initiates are typically dispatched by their local trainers, such as High Priestess Laurena in Stormwind or Priestess Alathea in Darnassus, who direct their students to honor their heritage or study under Rohan's tutelage."
+  },
+  {
+   "q": "Does this quest involve combat?",
+   "aliases": [
+    "do i have to fight",
+    "is there combat in a lack of fear"
+   ],
+   "answer": "No, this quest is purely a breadcrumb journey requiring the priest to travel to Ironforge and report to High Priest Rohan to unlock subsequent training."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This summons marks your coming of age within the priesthood, qualifying you to learn specific holy techniques refined by Ironforge's stalwart clergy."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Returning to Rohan honors your people's distinct blend of unshakeable faith, physical fortitude, and martial grit in service to the Holy Light."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance priesthoods maintain close communion across capitals, sending acolytes across borders to study under master clergy in Ironforge."
+  }
+ ],
+ "keywords": [
+  "alathea",
+  "fear ward",
+  "hall of mysteries",
+  "ironforge",
+  "laurena",
+  "mystic ward",
+  "priest",
+  "rohan"
+ ],
+ "related": [
+  "npc:high-priest-rohan",
+  "zone:ironforge",
+  "subzone:mystic-ward",
+  "topic:light"
+ ],
+ "attribution": [
+  "A Lack of Fear"
+ ]
+}

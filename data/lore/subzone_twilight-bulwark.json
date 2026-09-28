@@ -1,0 +1,92 @@
+{
+ "key": "subzone:twilight-bulwark",
+ "type": "subzone",
+ "name": "Twilight Bulwark",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Twilight Bulwark"
+ },
+ "summary": "Perched upon the high canyon shelves of southern Thousand Needles, the Twilight Bulwark serves as an entrenched redoubt for the doomsday cult known as the Twilight's Hammer. From this elevated bastion overlooking the gorge, cultists conduct insidious rituals and guard captive prisoners away from prying eyes. Their menacing presence threatens travelers and poses an active danger to nearby settlements across the Needles.",
+ "sections": [
+  {
+   "title": "A Bastion in the Needles",
+   "body": "The Twilight Bulwark is a fortified outpost carved into the craggy shelves of southern Thousand Needles. Occupied by cultists loyal to the Twilight's Hammer, this outpost is thoroughly fortified against outside intrusion. The enclave is overseen by an entrenched leadership that coordinates cult activity across the area, coordinating dark elemental experiments while maintaining tight security along the rugged cliffs.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hostages and Infiltration",
+   "body": "Beyond mere territorial ambitions, the Bulwark functions as a high-security holding camp for enemies of the cult. The Grimtotem matriarch Magatha has been captured and bound within the eastern perimeter by specialized cult wards. Recognizing the strategic threat, infiltrators seeking to disrupt the cult's plans have lurked at the outpost's approaches, donning captured cultist vestments to slip past watchful eyes and bypass the garrison's formidable defenses.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Twilight Bulwark?",
+   "aliases": [
+    "twilight bulwark",
+    "what is twilight bulwark",
+    "twilight bulwark thousand needles"
+   ],
+   "answer": "The Twilight Bulwark is a fortified encampment belonging to the Twilight's Hammer cult, situated high on the southern cliff shelves of Thousand Needles."
+  },
+  {
+   "q": "Who controls this outpost?",
+   "aliases": [
+    "who runs twilight bulwark",
+    "bulwark leaders",
+    "twilight bulwark bosses"
+   ],
+   "answer": "The stronghold is commanded by key figures of the Twilight's Hammer hierarchy, specifically Commander Fastfuse, Codemaster Deethuk, and Elementalist Starion, who manage the cultist forces and their captives."
+  },
+  {
+   "q": "Who is being held prisoner here?",
+   "aliases": [
+    "twilight bulwark prisoner",
+    "magatha captive",
+    "who is locked up at twilight bulwark"
+   ],
+   "answer": "Magatha Grimtotem is held prisoner in the eastern part of the Bulwark, bound by specialized security bindings that require an exact code to dismantle."
+  },
+  {
+   "q": "Who is Lakota Windsong and what is she doing near the Bulwark?",
+   "aliases": [
+    "lakota windsong",
+    "tauren in disguise",
+    "disguised cultist lakota"
+   ],
+   "answer": "Lakota Windsong is an operative who positions herself near the approach to the outpost, having slain a cult member to wear their robes as an undercover disguise to infiltrate the stronghold."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Twilight's Hammer operations so close to Freewind Post pose a direct security hazard to the Horde's hold over Thousand Needles, particularly with Magatha Grimtotem held captive in their clutches."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The presence of Elementalist Starion demonstrates the cult's relentless corruption and coercion of elemental forces, a grave offense that every servant of the elements must oppose."
+  }
+ ],
+ "keywords": [
+  "deethuk",
+  "fastfuse",
+  "lakota windsong",
+  "magatha grimtotem",
+  "starion",
+  "thousand needles",
+  "twilight bulwark",
+  "twilight's hammer"
+ ],
+ "related": [
+  "topic:twilight-s-hammer",
+  "zone:thousandneedles",
+  "subzone:freewind-post",
+  "npc:magatha-grimtotem",
+  "npc:lakota-windsong",
+  "subzone:roguefeather-den"
+ ],
+ "attribution": [
+  "Twilight Bulwark"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "key": "npc:caretaker-folsom",
+ "type": "npc",
+ "name": "Caretaker Folsom",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Caretaker Folsom",
+  "refs": 2
+ },
+ "summary": "Caretaker Folsom is a somber human servant found along the Canals of Stormwind City near the Park. Once the trusted overseer of the noble Flintridge family's estate, he now handles the bitter remnants of their tragic downfall.",
+ "sections": [
+  {
+   "title": "A House in Ruins",
+   "body": "Like his father before him, Folsom devoted his life to serving the Flintridge family as their estate caretaker. That quiet life of service came to a bloody end with the brutal murder of the Flintridge household at the hands of their tutor, Stalvan Mistmantle. With the bloodline wiped out, the manor sat abandoned until its remaining funds completely dried up. Left alone to oversee the remnants of the household, Folsom bears the sorrowful duty of liquidating the family's surviving heirlooms and possessions at auction.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ties to a Dark Tale",
+   "body": "Investigators tracing the bloody history of Stalvan Mistmantle are often directed to Folsom along the Stormwind canal walkways. Though burdened by grief and reluctance, the caretaker holds key pieces of the tragedy, including surviving possessions and documents from the Flintridge household that reveal Stalvan's disturbing descent and eventual disappearance into the shadows of Duskwood.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Caretaker Folsom?",
+   "aliases": [
+    "folsom",
+    "who is folsom",
+    "caretaker folsom lore"
+   ],
+   "answer": "He is a human servant in Stormwind City who formerly tended the Flintridge noble estate. Following the tragic murder of the entire Flintridge family, he has been left in charge of their remaining property."
+  },
+  {
+   "q": "Where can I find Caretaker Folsom?",
+   "aliases": [
+    "where is caretaker folsom",
+    "folsom location",
+    "caretaker folsom stormwind"
+   ],
+   "answer": "He stands along the stone walkways of the Canals in Stormwind City, close to the entrance of the Park."
+  },
+  {
+   "q": "What happened to the Flintridge family?",
+   "aliases": [
+    "flintridge murder",
+    "what happened to flintridge",
+    "who killed the flintridges"
+   ],
+   "answer": "The entire family was murdered by their tutor, Stalvan Mistmantle. With no heirs remaining to claim the estate, the property was shuttered and left to languish until its funds ran out."
+  },
+  {
+   "q": "Why is Folsom selling off family heirlooms?",
+   "aliases": [
+    "why auction",
+    "flintridge auction",
+    "folsom auction"
+   ],
+   "answer": "After the family's demise, their remaining funds eventually dried up entirely. Folsom was tasked with the grim duty of sending what was left of the estate's possessions to auction."
+  },
+  {
+   "q": "What is his role in The Legend of Stalvan?",
+   "aliases": [
+    "stalvan quest folsom",
+    "the legend of stalvan folsom"
+   ],
+   "answer": "Folsom assists adventurers piecing together the tragedy of Stalvan Mistmantle by providing access to the remaining personal effects and clues left behind from the Flintridge manor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance investigators tracking the grim fate of Duskwood's most infamous murderer, Folsom provides an indispensable living link to the final days of the Flintridge household."
+  }
+ ],
+ "keywords": [
+  "canals",
+  "caretaker folsom",
+  "flintridge",
+  "folsom",
+  "mistmantle",
+  "park",
+  "stalvan",
+  "stormwind"
+ ],
+ "related": [
+  "quest:66",
+  "subzone:canals-stormwind-city",
+  "subzone:park",
+  "zone:duskwood",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Caretaker Folsom"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "subzone:alcaz-island",
+ "type": "subzone",
+ "name": "Alcaz Island",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Alcaz Island"
+ },
+ "summary": "Alcaz Island is an isolated landmass off the northeast coast of Dustwallow Marsh, notable for its palm trees and fortification ruins. Long controlled by the hostile Strashaz naga, the secluded isle harbors dark secrets tied to political abductions and regional power struggles.",
+ "sections": [
+  {
+   "title": "A Fortified Outpost in the Marsh Waters",
+   "body": "Unlike the sunken bogs of the Dustwallow mainland, Alcaz Island shares the tropical vegetation and sandy bluffs of the nearby Echo Isles across the bay. Despite its natural setting, the isle has been converted into a fortified compound complete with an Alliance-style watchtower and subterranean holding cells. For years, the island has remained under the iron grip of the Strashaz naga, led by figures such as Tidelord Rrurgaz, making any coastal approach lethal for solitary scouts.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Secret Prison",
+   "body": "Behind its naga guardians and secluded shorelines, Alcaz Island served as the secret holding site for King Varian Wrynn of Stormwind following his abduction en route to Theramore Isle. Orchestrated through Defias agents and the subtle influence of Lady Katrana Prestor\u2014secretly the black dragon Onyxia\u2014the prison was meant to keep the ruler of Stormwind out of public view while rituals fractured his will. The island remains an active theater of covert hostility, drawing the attention of Theramore's intelligence network.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Alcaz Island located?",
+   "aliases": [
+    "alcaz island location",
+    "how to get to alcaz island",
+    "where is alcaz"
+   ],
+   "answer": "Alcaz Island sits in the Great Sea off the northeastern coast of Dustwallow Marsh, south of Durotar and the Echo Isles. It can be reached by swimming or sailing across the coastal waters from Theramore Isle."
+  },
+  {
+   "q": "Who controls Alcaz Island?",
+   "aliases": [
+    "who is on alcaz island",
+    "what mobs are on alcaz",
+    "alcaz island enemies"
+   ],
+   "answer": "The island is primarily held by the Strashaz naga, including sea witches, warriors, and their master, Tidelord Rrurgaz. They guard the exterior bluffs and the underground internment cells against any trespassers."
+  },
+  {
+   "q": "Why is King Varian Wrynn connected to Alcaz Island?",
+   "aliases": [
+    "is varian on alcaz",
+    "alcaz island king",
+    "varian prison"
+   ],
+   "answer": "When King Varian was abducted during a diplomatic voyage to Theramore, his captors brought him to Alcaz Island to be imprisoned. His disappearance triggered the regency crisis in Stormwind under Highlord Bolvar Fordragon."
+  },
+  {
+   "q": "Why does Alcaz Island look different from Dustwallow Marsh?",
+   "aliases": [
+    "alcaz climate",
+    "why palm trees alcaz"
+   ],
+   "answer": "Rather than the brackish, murky swamp characteristic of Dustwallow Marsh, Alcaz Island features sandy shores and tropical palm vegetation, resembling the climate of the southern Durotar coastline and the nearby Echo Isles."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance loyalists, Alcaz Island is a crucial focal point in the search for the missing King Varian Wrynn, whose disappearance brought Stormwind under the rule of the young prince Anduin and Regent Bolvar Fordragon."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human scouts and agents answering to Lady Jaina Proudmoore in Theramore view the island as a dangerous naga stronghold situated uncomfortably close to their shipping channels and harbor."
+  }
+ ],
+ "keywords": [
+  "alcaz island",
+  "dustwallow marsh",
+  "internment",
+  "naga",
+  "prison",
+  "strashaz",
+  "theramore",
+  "tidelord rrurgaz",
+  "varian wrynn"
+ ],
+ "related": [
+  "zone:dustwallow",
+  "subzone:theramore-isle",
+  "topic:varian-wrynn",
+  "npc:onyxia",
+  "topic:naga",
+  "topic:alliance",
+  "subzone:echo-isles",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Alcaz Island"
+ ]
+}

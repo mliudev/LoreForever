@@ -1,0 +1,126 @@
+{
+ "key": "quest:6383",
+ "type": "quest",
+ "name": "The Ashenvale Hunt",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   6383
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Senani Thunderheart",
+  "end": "",
+  "previous": "The Ashenvale Hunt (The Barrens) / The Ashenvale Hunt (Thunder Bluff) / The Ashenvale Hunt (Orgrimmar)",
+  "next": "",
+  "wiki": "The Ashenvale Hunt (Ashenvale)",
+  "chain": []
+ },
+ "summary": "The Ashenvale Hunt is a traditional rite overseen by Senani Thunderheart at Silverwind Refuge and Splintertree Post. Horde hunters are challenged to track and overcome three legendary woodland predators prowling the ancient forest: the bear Ursangous, the nightsaber Shadumbra, and the fierce hippogryph Sharptalon. It is conceived not merely as a test of arms, but as a journey to learn cunning, respect, and self-knowledge.",
+ "sections": [
+  {
+   "title": "A Tauren Tradition in an Ancient Forest",
+   "body": "As the Horde establishes footholds deep within Ashenvale, the spiritual teachings of the Earth Mother find expression through Senani Thunderheart. Unlike the Orcs' aggressive lumber gathering, Senani's hunt treats the shadowed woodlands as a sacred testing ground. By matching wits with the forest's apex predators, a hunter is expected to commune with the untamed wilderness and develop the quiet humility that survival in Ashenvale demands.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Three Great Beasts",
+   "body": "The hunt centers on three solitary legends wandering the boughs. Near the Talondeep Path roams Ursangous, an immense elder bear whose strength tests physical resilience. Further west, prowling the borders near Raynewood Retreat and the elusive Laughing Sisters, stalks Shadumbra, a stealthy nightsaber revered for her cunning. Finally, south of Splintertree Post wheels Sharptalon, a vicious hippogryph whose mastery of the forest canopy completes the trial.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts the Ashenvale Hunt?",
+   "aliases": [
+    "quest giver ashenvale hunt",
+    "who gives the hunt",
+    "senani thunderheart quest"
+   ],
+   "answer": "The hunt is directed by Senani Thunderheart, a tauren hunter stationed in Ashenvale. She issues the challenge to Horde travelers seeking to prove their survival skills against the wilderness."
+  },
+  {
+   "q": "What beasts do I need to track down?",
+   "aliases": [
+    "what animals to kill",
+    "three beasts",
+    "ashenvale hunt targets"
+   ],
+   "answer": "You must track and slay three legendary predators: Ursangous the great bear, Shadumbra the nightsaber cat, and Sharptalon the fierce hippogryph."
+  },
+  {
+   "q": "Where can Ursangous be found?",
+   "aliases": [
+    "ursangous location",
+    "where is the bear",
+    "find ursangous"
+   ],
+   "answer": "Ursangous roams a small territory slightly west of the Talondeep Path, pacing amongst other wild bears of the woodland."
+  },
+  {
+   "q": "Where is Shadumbra prowling?",
+   "aliases": [
+    "shadumbra location",
+    "where is shadumbra",
+    "nightsaber location"
+   ],
+   "answer": "Shadumbra prowls the region south of Raynewood Retreat, hunting near the road where the dryads known as Laughing Sisters dwell."
+  },
+  {
+   "q": "Where can Sharptalon be tracked?",
+   "aliases": [
+    "sharptalon location",
+    "where is sharptalon",
+    "hippogryph location"
+   ],
+   "answer": "Sharptalon patrols a wide expanse of territory south of Splintertree Post, sweeping through the trees and clearing."
+  },
+  {
+   "q": "Why does Senani Thunderheart send hunters after these beasts?",
+   "aliases": [
+    "why do the hunt",
+    "purpose of the hunt",
+    "hunt lore"
+   ],
+   "answer": "Senani intends the hunt as an honorable trial rather than wanton slaughter. By testing their mettle against the forest's deadliest natural residents, hunters are meant to understand the wilderness and gain insight into their own inner strength."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren hunters, stalking Ursangous, Shadumbra, and Sharptalon reflects traditional reverence for the Earth Mother's creation, balancing respect for nature's ferocity with the honor of the stalk."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The hunt serves as a classic rite of passage, forcing a tracker to scour vast stretches of forest, read terrain, and tackle beasts capable of easily overcoming an unwary scout."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Contrasting with the Warsong's destructive clear-cutting of the forest, the hunt offers the Horde a path of martial honor and spiritual integration within contested Ashenvale."
+  }
+ ],
+ "keywords": [
+  "ashenvale hunt",
+  "raynewood retreat",
+  "senani thunderheart",
+  "shadumbra",
+  "sharptalon",
+  "splintertree post",
+  "talondeep path",
+  "ursangous"
+ ],
+ "related": [
+  "npc:senani-thunderheart",
+  "quest:24",
+  "quest:2",
+  "zone:ashenvale",
+  "subzone:splintertree-post",
+  "subzone:raynewood-retreat",
+  "subzone:talondeep-path",
+  "quest:1945"
+ ],
+ "attribution": [
+  "The Ashenvale Hunt (Ashenvale)"
+ ]
+}

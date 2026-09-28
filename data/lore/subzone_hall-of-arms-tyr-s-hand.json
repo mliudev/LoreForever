@@ -1,0 +1,84 @@
+{
+ "key": "subzone:hall-of-arms-tyr-s-hand",
+ "type": "subzone",
+ "name": "Hall of Arms (Tyr's Hand)",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Hall of Arms (Tyr's Hand)"
+ },
+ "summary": "The Hall of Arms is a heavily guarded wing within Tyr's Hand Abbey in southeastern Eastern Plaguelands. It serves as a staging ground and barracks for the martial vanguard of the Scarlet Crusade garrisoned at the stronghold. Positioned across the abbey from the library, it houses some of the crusade's most zealous and well-armored fighters.",
+ "sections": [
+  {
+   "title": "A Bastion of Steel",
+   "body": "Situated to the south of the abbey's main hall, the Hall of Arms functions as an armory and quarters for the militant forces of Tyr's Hand. While the opposing wing holds archives and holy texts, this wing is dedicated purely to the discipline of war. Clad in heavy armor and sworn to eradicate the undead and anyone deemed impure, the Scarlet defenders stationed here maintain a tireless watch over their eastern bastion, keeping weapons sharpened and shields polished against the surrounding horrors of the Plaguelands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Hall of Arms located?",
+   "aliases": [
+    "hall of arms location",
+    "where is hall of arms",
+    "tyrs hand abbey hall of arms"
+   ],
+   "answer": "The Hall of Arms is located within Tyr's Hand Abbey, the grand cathedral fortress situated inside Tyr's Hand in the southeastern corner of the Eastern Plaguelands. It forms the southern wing of the abbey complex, opposite the Library Wing."
+  },
+  {
+   "q": "Who occupies the Hall of Arms?",
+   "aliases": [
+    "who lives in hall of arms",
+    "hall of arms enemies",
+    "scarlet crusade hall of arms"
+   ],
+   "answer": "The wing is held exclusively by elite martial forces of the Scarlet Crusade. Seasoned warriors, paladins, and guards assemble here, maintaining armaments and preparing for battle against the Scourge and any outsiders entering their sanctuary."
+  },
+  {
+   "q": "What is the purpose of this wing compared to the rest of the abbey?",
+   "aliases": [
+    "purpose of hall of arms",
+    "what is hall of arms for"
+   ],
+   "answer": "While the abbey's opposite wing focuses on study, contemplation, and scriptures, the Hall of Arms is built specifically for physical defense, troop housing, and weaponry upkeep. It ensures that the holy bastion remains militarily formidable against Scourge incursions."
+  },
+  {
+   "q": "Can members of the Alliance enter peacefully?",
+   "aliases": [
+    "is scarlet crusade friendly to alliance",
+    "can alliance visit hall of arms",
+    "will tyrs hand attack me"
+   ],
+   "answer": "No. Despite sharing human roots and venerating the Holy Light, the Scarlet Crusade in Tyr's Hand is completely fanatical. They view all outsiders as potential carriers of the plague or sympathizers with evil, attacking both Alliance and Horde travelers on sight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For knights of the Silver Hand, stepping into the Hall of Arms is a bitter sight, watching the sacred traditions of holy martial combat twisted into zealous isolationism."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "The armaments and disciplined martial readying in the Hall of Arms represent peak human militarism, even if wielded in service of fanaticism."
+  }
+ ],
+ "keywords": [
+  "abbey",
+  "armory",
+  "eastern plaguelands",
+  "hall of arms",
+  "scarlet crusade",
+  "tyr's hand",
+  "tyrs hand"
+ ],
+ "related": [
+  "subzone:tyr-s-hand-abbey",
+  "subzone:tyr-s-hand",
+  "topic:scarlet-crusade",
+  "zone:easternplaguelands",
+  "topic:light"
+ ],
+ "attribution": [
+  "Hall of Arms (Tyr's Hand)"
+ ]
+}

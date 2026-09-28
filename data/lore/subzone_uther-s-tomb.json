@@ -1,0 +1,92 @@
+{
+ "key": "subzone:uther-s-tomb",
+ "type": "subzone",
+ "name": "Uther's Tomb",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Uther's Tomb"
+ },
+ "summary": "Uther's Tomb is the sacred resting place of Uther the Lightbringer, situated atop Sorrow Hill in the Western Plaguelands. Constructed by his surviving followers after his defeat at nearby Andorhal, this monument stands as one of the few remaining bastions of the Holy Light amidst a blighted and haunted region.",
+ "sections": [
+  {
+   "title": "A Bastion in the Blight",
+   "body": "Perched south of the ruins of Andorhal at Sorrow Hill, Uther's Tomb marks the final resting place of the legendary paladin who founded the Knights of the Silver Hand. Following the collapse of Lordaeron, Uther made his last stand in Andorhal, defending the royal urn holding the ashes of King Terenas Menethil II against Prince Arthas Menethil and the Scourge. Arthas struck down his former mentor and desecrated the urn to recover Kel'Thuzad's remains. Surviving soldiers salvaged Uther's body, laying him to rest within a stone sanctuary. Despite the relentless corruption engulfing the surrounding lands, the tomb remains miraculously untouched by decay, held under the steadfast vigil of High Priest Thel'danis.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Lightbringer's Legacy",
+   "body": "Approached via the Path of Uther, the monument centers on a grand stone effigy depicting the paladin with a tome of the Holy Light in one hand and his warhammer in the other. Pilgrims who travel these treacherous roads frequently seek out the tomb to pay homage, pray, or reflect upon the devotion that defined the first paladins. Even amid the horrors of the Plaguelands, faithful visitors who show reverence before Uther's likeness often find themselves touched by a lingering aura of grace and resolve.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is buried in this tomb?",
+   "aliases": [
+    "who is uther",
+    "who is buried here",
+    "uther the lightbringer"
+   ],
+   "answer": "Uther the Lightbringer is entombed here. He was the supreme commander and founder of the Knights of the Silver Hand, the first paladin order in human history, and served as Prince Arthas Menethil's mentor before Lordaeron fell to the Scourge."
+  },
+  {
+   "q": "How did Uther die?",
+   "aliases": [
+    "who killed uther",
+    "how did uther die",
+    "arthas kills uther"
+   ],
+   "answer": "Uther was slain in Andorhal by his former student, Arthas Menethil, who had returned from Northrend as a death knight. Uther fell while fiercely defending the urn containing the ashes of Arthas's father, King Terenas Menethil II."
+  },
+  {
+   "q": "Who is High Priest Thel'danis?",
+   "aliases": [
+    "theldanis",
+    "priest at uther's tomb",
+    "who protects the tomb"
+   ],
+   "answer": "High Priest Thel'danis is the devoted caretaker of the monument. He maintains a quiet, sacred vigil over Uther's resting place, braving the surrounding undead to ensure the shrine remains a sanctuary of the Light."
+  },
+  {
+   "q": "Why isn't the tomb corrupted by the plague?",
+   "aliases": [
+    "why is uther's tomb clean",
+    "why no plague at tomb"
+   ],
+   "answer": "The persistent holiness of Uther's memory and the enduring power of the Holy Light consecrate the grounds. While the surrounding forests of Sorrow Hill have withered and fallen to rot, the shrine itself remains an unbroken sanctuary against the blight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Standing before Uther's statue is a profound pilgrimage for any paladin, honoring the father of their order whose sacrifice embodies the virtues of the Silver Hand."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The tomb serves as an enduring testament to Lordaeron's fallen legacy and a place of quiet reflection for Alliance travelers braving the horrors of the Plaguelands."
+  }
+ ],
+ "keywords": [
+  "andorhal",
+  "arthas",
+  "lightbringer",
+  "silver hand",
+  "sorrow hill",
+  "theldanis",
+  "uther"
+ ],
+ "related": [
+  "subzone:sorrow-hill",
+  "subzone:path-of-uther",
+  "subzone:ruins-of-andorhal",
+  "topic:knights-of-the-silver-hand",
+  "topic:arthas-menethil",
+  "topic:terenas-menethil-ii",
+  "topic:light",
+  "zone:westernplaguelands"
+ ],
+ "attribution": [
+  "Uther's Tomb"
+ ]
+}

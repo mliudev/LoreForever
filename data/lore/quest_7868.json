@@ -1,0 +1,116 @@
+{
+ "key": "quest:7868",
+ "type": "quest",
+ "name": "Outrider Advanced Care Package",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   7868
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Kelm Hargunth",
+  "end": "",
+  "previous": "Outrider Standard Care Package (quest)",
+  "next": null,
+  "wiki": "Outrider Advanced Care Package (quest)",
+  "chain": []
+ },
+ "summary": "The Outrider Advanced Care Package is a direct requisition provided by the Warsong Outriders to Horde warriors who have earned their standing on the battlefield. Bestowed by Kelm Hargunth in the northern Barrens, this supply bundle contains combat rations and field bandages specially reserved for the skirmishes in Warsong Gulch.",
+ "sections": [
+  {
+   "title": "Supplies for the Front",
+   "body": "The skirmishes tearing through the forest border between Ashenvale and the Barrens demand a steady flow of resources. The Warsong Outriders are charged with defending the Horde's logging claims and repelling the Silverwing Sentinels. In return for fierce devotion and repeated victories in the Gulch, quartermasters like Kelm Hargunth distribute specialized medical bandages and field rations to keep battle-tested soldiers fighting.",
+   "spoiler": 0
+  },
+  {
+   "title": "Earning Standing with the Outriders",
+   "body": "The Warsong Clan does not bestow its military stores upon novices. Only champions who have distinguished themselves beyond the rank and file receive an advanced care package. As Horde fighters prove their reliability, quartermasters unlock additional stockpiles, granting greater access to specialized provisions meant solely to sustain the clash within Warsong Gulch.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Outrider Advanced Care Package?",
+   "aliases": [
+    "what is in the care package",
+    "advanced care package contents",
+    "what do i get"
+   ],
+   "answer": "The package contains specialized field supplies, including combat rations and medical bandages, prepared specifically for use during the ongoing skirmishes inside Warsong Gulch."
+  },
+  {
+   "q": "Who hands out this care package?",
+   "aliases": [
+    "who gives quest",
+    "quest giver",
+    "where to turn in"
+   ],
+   "answer": "Kelm Hargunth, a supply officer and representative of the Warsong Outriders stationed at the Mor'shan Rampart in the northern Barrens, awards the care package."
+  },
+  {
+   "q": "Where can the supplies inside this package be used?",
+   "aliases": [
+    "can i use outside wsg",
+    "where do rations work",
+    "wsg bandages"
+   ],
+   "answer": "The rations and bandages found in the care package are enchanted or treated exclusively for combat operations within Warsong Gulch and cannot be used in the wider world."
+  },
+  {
+   "q": "Why do the Warsong Outriders provide these supplies?",
+   "aliases": [
+    "why care packages",
+    "outriders purpose",
+    "warsong logistics"
+   ],
+   "answer": "The Outriders are locked in a relentless territorial struggle against the Night Elf Silverwing Sentinels. Ensuring dependable, loyal soldiers have combat-ready nourishment and bandages keeps the Horde battle line unbroken."
+  },
+  {
+   "q": "How does a soldier earn access to these advanced provisions?",
+   "aliases": [
+    "how to get",
+    "reputation required",
+    "reputation"
+   ],
+   "answer": "You must establish a proven record of service with the Warsong Outriders by fighting in Warsong Gulch, advancing past the standard enlistment tier before receiving higher-grade logistical support."
+  },
+  {
+   "q": "Can these provisions be bought again later?",
+   "aliases": [
+    "buy more rations",
+    "rep vendors",
+    "purchasing bandages"
+   ],
+   "answer": "Yes. Once you gain sufficient standing with the Warsong Outriders\u2014earning friendly and honored recognition\u2014their quartermasters permit you to purchase more field rations and bandages directly."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Warsong Gulch is one of the Horde's most vital resource fronts, and earning the trust of the Warsong Outriders brings essential military support to the frontline."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The Warsong Clan carries Grom Hellscream's fierce legacy, and proving yourself in their logging grounds is a matter of profound honor for any orc warrior."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "barrens",
+  "care package",
+  "kelm hargunth",
+  "mor'shan rampart",
+  "warsong gulch",
+  "warsong outriders"
+ ],
+ "related": [
+  "npc:kelm-hargunth",
+  "npc:warsong-outrider",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Outrider Advanced Care Package (quest)"
+ ]
+}

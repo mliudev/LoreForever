@@ -1,0 +1,114 @@
+{
+ "key": "quest:683",
+ "type": "quest",
+ "name": "Sara Balloo's Plea",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   683
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Sara Balloo",
+  "end": "King Magni Bronzebeard",
+  "previous": "Sully Balloo's Letter (quest)",
+  "next": "A King's Tribute",
+  "wiki": "Sara Balloo's Plea (quest)",
+  "chain": []
+ },
+ "summary": "Sara Balloo's Plea is a somber errand undertaken on behalf of a grieving dwarven widow in Ironforge. Unable to face her monarch directly in her state of sorrow, Sara entrusts a personal appeal to King Magni Bronzebeard regarding her fallen husband, Sully Balloo.",
+ "sections": [
+  {
+   "title": "A Widow's Request",
+   "body": "After receiving the tragic final letter recovered from the watery depths of the Thandol Span, Sara Balloo finds herself paralyzed by mourning. Rather than let her husband Sully's sacrifice fade into obscurity, she writes a plea addressed directly to the throne of Ironforge. Too overwhelmed by heartbreak to appear before court etiquette herself, she entrusts the sealed parchment to a trusted champion of the Alliance to petition King Magni Bronzebeard on her behalf.",
+   "spoiler": 0
+  },
+  {
+   "title": "Audience with the King",
+   "body": "Carrying a private petition to the High Seat of Ironforge is no routine chore, but Magni Bronzebeard takes personal note of the brave defenders of Khaz Modan. Upon receiving the message, the King pauses the affairs of state to read the humble plea of an artisan's widow, demonstrating his bond with the common dwarves who built and defend his mountain kingdom.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sara Balloo?",
+   "aliases": [
+    "sara balloo",
+    "who is sara"
+   ],
+   "answer": "Sara Balloo is an Ironforge dwarf whose husband, the mason Sully Balloo, died defending the Thandol Span during the Third War. She lives in the city, holding his memory dear."
+  },
+  {
+   "q": "Why does Sara want me to see the King instead of going herself?",
+   "aliases": [
+    "why cant sara go",
+    "sara grief"
+   ],
+   "answer": "Sara is overcome by grief after finally learning the definitive fate of her husband. She feels she cannot maintain the composure expected when petitioning King Magni Bronzebeard in the High Seat."
+  },
+  {
+   "q": "Who was Sully Balloo?",
+   "aliases": [
+    "sully balloo",
+    "saras husband"
+   ],
+   "answer": "Sully Balloo was a renowned dwarf mason who helped construct and later defend the Thandol Span. He perished during fighting along the bridge, leaving behind a waterlogged letter to his wife."
+  },
+  {
+   "q": "Where do I deliver Sara Balloo's Plea?",
+   "aliases": [
+    "where is magni",
+    "king magni location",
+    "turn in location"
+   ],
+   "answer": "You deliver the plea directly to King Magni Bronzebeard in the High Seat at the center of Ironforge."
+  },
+  {
+   "q": "What happens after King Magni reads the plea?",
+   "aliases": [
+    "quest continuation",
+    "next quest"
+   ],
+   "answer": "Reading Sara's plea moves King Magni to honor the fallen mason properly, leading directly into the quest 'A King's Tribute' to establish a lasting monument."
+  },
+  {
+   "q": "What faction can undertake this task?",
+   "aliases": [
+    "can horde do this",
+    "faction requirement"
+   ],
+   "answer": "This errand is exclusive to members of the Alliance, as it involves internal dwarven affairs and an audience with King Magni Bronzebeard."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Delivering a grieving widow's plea directly to your King touches the deep cultural importance dwarves place on stonework, lineage, and honoring ancestral sacrifice."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Carrying word between grieving citizens and Alliance leadership highlights the personal costs borne by common folk during the conflicts preserving the realm."
+  }
+ ],
+ "keywords": [
+  "a king's tribute",
+  "dun morogh",
+  "ironforge",
+  "magni bronzebeard",
+  "sara balloo",
+  "sully balloo",
+  "thandol span"
+ ],
+ "related": [
+  "npc:sara-balloo",
+  "npc:magni-bronzebeard",
+  "quest:686",
+  "zone:ironforge",
+  "zone:dunmorogh",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Sara Balloo's Plea (quest)"
+ ]
+}

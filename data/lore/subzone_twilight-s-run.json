@@ -1,0 +1,70 @@
+{
+ "key": "subzone:twilight-s-run",
+ "type": "subzone",
+ "name": "Twilight's Run",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Twilight's Run"
+ },
+ "summary": "Twilight's Run is a secluded subterranean cavern carved into the northern mountains of Silithus beneath Staghelm Point. Occupied by the fanatical Twilight's Hammer cult, it serves as a secluded sanctuary and ritual redoubt away from the harsh desert winds.",
+ "sections": [
+  {
+   "title": "A Subterranean Redoubt",
+   "body": "Tucked away in the northern cliffside below Staghelm Point, Twilight's Run provides the Twilight's Hammer cultists with a natural bastion amidst the windswept hazards of Silithus. Rather than weathering the dust storms or contending directly with roaming silithid hives across the surface dunes, cultists retreat into these shadowy tunnels to commune with dark forces, guard ritual materials, and marshal their forces. Under the direction of overseers such as Vyral the Vile, cult members within the cave maintain a vigilant, hostile presence, ready to strike down any curious travelers or scouts who draw too close to their subterranean encampment.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Twilight's Run located?",
+   "aliases": [
+    "where is twilights run",
+    "twilights run location",
+    "how to find twilights run"
+   ],
+   "answer": "Twilight's Run is a cave situated in the northern mountains of Silithus, right at the rocky base beneath Staghelm Point."
+  },
+  {
+   "q": "Who occupies Twilight's Run?",
+   "aliases": [
+    "who is inside twilights run",
+    "twilights run mobs",
+    "who lives in twilights run"
+   ],
+   "answer": "The cavern is controlled entirely by members of the Twilight's Hammer, including figures such as Vyral the Vile, Twilight Overlords, and Twilight Flamereavers."
+  },
+  {
+   "q": "What is the cult doing inside the cavern?",
+   "aliases": [
+    "twilight cult purpose silithus cave",
+    "why are cultists in twilights run"
+   ],
+   "answer": "The cult uses the cave as a sheltered redoubt and operational outpost in Silithus, keeping out of the desert elements while furthering their apocalyptic work."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The cloistered depths of Twilight's Run harbor zealous nihilists whose servitude to dark powers stands as an affront to the holy tenets of the Light."
+  }
+ ],
+ "keywords": [
+  "silithus",
+  "staghelm point",
+  "twilight cult",
+  "twilight's hammer",
+  "twilight's run",
+  "twilights run",
+  "vyral the vile"
+ ],
+ "related": [
+  "zone:silithus",
+  "topic:twilight-s-hammer",
+  "subzone:staghelm-point",
+  "topic:light"
+ ],
+ "attribution": [
+  "Twilight's Run"
+ ]
+}

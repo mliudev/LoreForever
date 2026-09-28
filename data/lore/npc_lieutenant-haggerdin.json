@@ -1,0 +1,118 @@
+{
+ "key": "npc:lieutenant-haggerdin",
+ "type": "npc",
+ "name": "Lieutenant Haggerdin",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Lieutenant Haggerdin",
+  "refs": 3
+ },
+ "summary": "Lieutenant Haggerdin is a dwarven officer stationed upon the Headland in the Alterac Mountains. Standing watch outside the fortified gate to Alterac Valley, he acts as the primary recruitment and liaison officer for the Stormpike Guard. He evaluates aspiring Alliance champions and rewards those who prove their valor against the Frostwolf Clan.",
+ "sections": [
+  {
+   "title": "Gatekeeper of the Headland",
+   "body": "Perched in the snowy heights of the Headland above the Hillsbrad Foothills, Lieutenant Haggerdin oversees the muster point for the Alliance's ongoing campaign in Alterac Valley. Dwarven banners flutter beside the massive wooden gate as recruits and veterans assemble under his watchful eye, preparing to plunge into the frigid warzone.",
+   "spoiler": 0
+  },
+  {
+   "title": "Voice of the Stormpike Guard",
+   "body": "Serving the Stormpike Expedition, Haggerdin ensures that only tested warriors represent Ironforge and the Grand Alliance in the valley. Through challenges like the Proving Grounds, he tasks recruits with recovering banners and relics, and bestows official commendations, insignias, and rank recognitions as soldiers rise through the ranks of the Stormpike Guard.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lieutenant Haggerdin?",
+   "aliases": [
+    "haggerdin",
+    "who is haggerdin",
+    "lieutenant haggerdin alterac"
+   ],
+   "answer": "Lieutenant Haggerdin is a dwarf officer representing the Stormpike Guard. Stationed at the entrance to Alterac Valley on the Headland in the Alterac Mountains, he oversees Alliance recruitment and rewards battlefield honors."
+  },
+  {
+   "q": "Where can I find Lieutenant Haggerdin?",
+   "aliases": [
+    "haggerdin location",
+    "where is lieutenant haggerdin",
+    "alterac valley entrance alliance"
+   ],
+   "answer": "He is located in the northern Alterac Mountains on the Headland, standing just outside the portal and gates leading directly into Alterac Valley."
+  },
+  {
+   "q": "What role does Haggerdin play in the Stormpike Guard?",
+   "aliases": [
+    "what does haggerdin do",
+    "haggerdin quests",
+    "stormpike guard officer"
+   ],
+   "answer": "He serves as a field liaison and quartermaster officer, administering recruitment trials such as the Proving Grounds and rewarding Alliance fighters with higher ranks and insignia as their reputation with the Stormpike Guard grows."
+  },
+  {
+   "q": "Why is the Alliance fighting in Alterac Valley?",
+   "aliases": [
+    "why alterac valley",
+    "stormpike expedition goal",
+    "alterac conflict"
+   ],
+   "answer": "The Stormpike Expedition journeyed into the valley to excavate ancient relics and dwarven history, but their arrival sparked a fierce territorial conflict with the indigenous Frostwolf orcs and their Horde allies."
+  },
+  {
+   "q": "Can Horde players interact with Lieutenant Haggerdin?",
+   "aliases": [
+    "is haggerdin hostile to horde",
+    "horde haggerdin",
+    "can horde talk to haggerdin"
+   ],
+   "answer": "No. Lieutenant Haggerdin is an active Alliance officer and will attack any Horde champions who venture near the Headland gate."
+  },
+  {
+   "q": "What is the Proving Grounds trial?",
+   "aliases": [
+    "proving grounds quest",
+    "proving grounds alterac",
+    "haggerdin proving grounds"
+   ],
+   "answer": "The Proving Grounds is an introductory assignment Haggerdin gives to prospective Alliance soldiers to verify their competence and resolve before committing fully to the Alterac Valley war effort."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Lieutenant Haggerdin is your primary contact outside Alterac Valley, offering the credentials and official honors earned while clashing with the Frostwolf Clan."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "A proud officer of the Stormpike clan, Haggerdin embodies Ironforge's resolute determination to uncover their titan heritage in the snowy crags of Alterac."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "A stalwart sentinel guarding the Alliance portal into Alterac Valley, Haggerdin directs the reinforcements sent to crush the Frostwolf orcs."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "dwarf",
+  "frostwolf",
+  "haggerdin",
+  "headland",
+  "ironforge",
+  "lieutenant",
+  "proving grounds",
+  "stormpike"
+ ],
+ "related": [
+  "quest:7161",
+  "subzone:headland",
+  "zone:alterac",
+  "topic:dwarf",
+  "topic:alliance",
+  "topic:horde",
+  "zone:hillsbrad",
+  "topic:alterac-kingdom"
+ ],
+ "attribution": [
+  "Lieutenant Haggerdin"
+ ]
+}

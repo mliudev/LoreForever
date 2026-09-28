@@ -1,0 +1,91 @@
+{
+ "key": "subzone:rustmaul-dig-site",
+ "type": "subzone",
+ "name": "Rustmaul Dig Site",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Rustmaul Dig Site"
+ },
+ "summary": "The Rustmaul Dig Site is a ruined excavation in the southern reaches of the Shimmering Flats. Originally established by the dwarven Explorers' League to unearth ancient ruins, the camp fell into tragedy when a Horde war party slaughtered the miners, only to inadvertently awaken a subterranean silithid swarm. Now abandoned by mortals, the site crawls with hostile insectoids emerging from the caverns below.",
+ "sections": [
+  {
+   "title": "A Slaughter in the Salt",
+   "body": "Prospectors from the Ironforge Explorers' League set up the Rustmaul Dig Site hoping to uncover forgotten artifacts buried beneath the salt flats. Their efforts were brutally cut short when an aggressive Horde war party, led by Moktar Krin, fell upon the camp and wiped out the dwarven excavators. However, the conquerors enjoyed no triumph. The violent clash and deep digging disturbed a dormant cave network beneath the site, releasing an endless horde of silithid insects that quickly overwhelmed and drove off the battered survivors.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Awakening Swarm",
+   "body": "Today, Rustmaul stands entirely lost to the surface races. What remains of the mining equipment and scaffolds is buried under skittering mandibles and alien carapaces. The surviving members of Moktar Krin's war party retreated north to Ironstone Camp, terrified by the unrelenting tide of insectoids they accidentally unleashed upon the Shimmering Flats.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Rustmaul Dig Site?",
+   "aliases": [
+    "what is rustmaul",
+    "rustmaul lore",
+    "shimmering flats dig site"
+   ],
+   "answer": "It is an excavation camp in the Shimmering Flats within Thousand Needles. Dwarven explorers originally founded it to unearth ancient ruins, but it has since been overrun by deadly silithid swarms."
+  },
+  {
+   "q": "Who used to live and work here?",
+   "aliases": [
+    "who dug rustmaul",
+    "who owned rustmaul",
+    "dwarves at rustmaul"
+   ],
+   "answer": "Prospectors and excavators from the dwarven Explorers' League originally operated the dig, uncovering artifacts and ruins buried beneath the salt flats."
+  },
+  {
+   "q": "Why is the dig site abandoned and full of bugs?",
+   "aliases": [
+    "what happened at rustmaul",
+    "why are there bugs at rustmaul",
+    "who attacked rustmaul"
+   ],
+   "answer": "A Horde war party led by Moktar Krin assaulted the camp and slaughtered the dwarves. The commotion disturbed a subterranean nest of silithid insects within the mine cave, unleashing a swarm that drove the surviving attackers away."
+  },
+  {
+   "q": "Where did the surviving attackers go?",
+   "aliases": [
+    "where is moktar krin",
+    "survivors of rustmaul",
+    "ironstone camp connection"
+   ],
+   "answer": "The battered remnants of Moktar Krin's Horde war party fled north across the flats to recuperate at Ironstone Camp, with messengers carrying warnings as far as Orgrimmar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves of Ironforge, Rustmaul is a tragic reminder of the hazards facing the Explorers' League, whose scholars were slaughtered here before the earth itself gave way to monstrous insects."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Though Moktar Krin's war party claimed victory over the dwarven excavators, their reckless violence stirred an ancient, creeping silithid menace that now threatens the entire region."
+  }
+ ],
+ "keywords": [
+  "explorers' league",
+  "ironstone camp",
+  "moktar krin",
+  "rustmaul dig site",
+  "shimmering flats",
+  "silithid",
+  "thousand needles"
+ ],
+ "related": [
+  "subzone:shimmering-flats",
+  "zone:thousandneedles",
+  "subzone:ironstone-camp",
+  "topic:explorers-league",
+  "topic:horde",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Rustmaul Dig Site"
+ ]
+}

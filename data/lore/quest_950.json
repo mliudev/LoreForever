@@ -1,0 +1,118 @@
+{
+ "key": "quest:950",
+ "type": "quest",
+ "name": "Return to Onu",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   950
+  ],
+  "level": "17",
+  "faction": "Alliance",
+  "start": "Twilight Tome",
+  "end": "Onu",
+  "previous": "The Twilight Camp",
+  "next": "Mathystra Relics",
+  "wiki": "Return to Onu",
+  "chain": []
+ },
+ "summary": "Return to Onu is an Alliance quest concluding an initial investigation into the cultists encamped along the coast of Darkshore. After raiding the cultists' encampment and attempting to read the Twilight Tome, an adventurer recovers a single page of maddening scribbles to deliver to the ancient treant Onu in the Grove of the Ancients.",
+ "sections": [
+  {
+   "title": "A Glimpse into Madness",
+   "body": "Upon discovering the Twilight Tome within the Twilight's Hammer encampment, anyone peering into its leaves suffers an immediate assault on the senses. The written text swims and dances across the parchment, and once-ornate scrollwork morphs into grotesque figures. The mental strain is so overwhelming that ripping free a single page of scribbled notes is all a mortal mind can endure before succumbing to vertigo.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ancient Suspicions",
+   "body": "When delivered to Onu, the towering treant recognizes the unnatural aura suffusing the scrap. The parchment radiates a chaotic, primal magic that Onu attributes directly to the work of the ancient, shadowy forces buried beneath the earth. While the scribblings are difficult to decipher, they confirm that the presence of the Twilight's Hammer in Darkshore is not mere banditry, but part of a deeper, blasphemous design.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the page taken from the Twilight Tome?",
+   "aliases": [
+    "insane scribbles",
+    "what are the scribbles",
+    "twilight tome page"
+   ],
+   "answer": "The page, known simply as Insane Scribbles, is a torn leaf from the cult's sacred book. Looking upon it causes severe mental distress, as the script twists into grotesque, shifting patterns tied to primeval void magic."
+  },
+  {
+   "q": "Who is Onu?",
+   "aliases": [
+    "who is onu",
+    "onu darkshore",
+    "treant onu"
+   ],
+   "answer": "Onu is an Ancient of Lore rooted in the Grove of the Ancients in southern Darkshore. He acts as an elder guardian and scholar, guiding night elves and Alliance allies against emerging corruptions in the forest."
+  },
+  {
+   "q": "What does Onu learn from the scribbles?",
+   "aliases": [
+    "what did onu find",
+    "meaning of scribbles"
+   ],
+   "answer": "Onu senses chaotic, primal energies emanating from the page, identifying the influence of ancient, malevolent entities. The writings suggest the Twilight's Hammer cultists are actively pursuing relic sites and buried powers across Darkshore."
+  },
+  {
+   "q": "Why is the Twilight's Hammer in Darkshore?",
+   "aliases": [
+    "cultists in darkshore",
+    "why twilight hammer here"
+   ],
+   "answer": "The cult is drawn to Darkshore to excavate ruined elven sites and uncover vestiges of ancient power linked to primeval darkness and the Old Gods, using the chaos of the land to mask their rites."
+  },
+  {
+   "q": "Where does this investigation lead next?",
+   "aliases": [
+    "what quest is next",
+    "next after return to onu"
+   ],
+   "answer": "Following the discovery of the cult's presence, Onu turns attention toward the ancient elven ruins of Mathystra to the north, directing adventurers to secure ancient relics before the cultists can seize them."
+  },
+  {
+   "q": "Why does reading the tome cause dizziness?",
+   "aliases": [
+    "why dizziness tome",
+    "twilight tome effects"
+   ],
+   "answer": "The Twilight Tome is inscribed with dark, maddening magic of void and chaos. The glyphs actively bewilder mortal minds, causing hallucinations and swoons to prevent outsiders from unraveling their secrets."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The desecration of Darkshore's shores by dark cultists threatens the balance guarded by the Ancients of Lore, making Onu's warnings deeply personal for the kaldorei."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The chaotic, unnatural resonance of the scribbles represents an affront to the natural order that druids serve to preserve alongside treants like Onu."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Investigating cult activity along Darkshore's coastline ensures that night elf settlements like Auberdine remain secure against hidden threats."
+  }
+ ],
+ "keywords": [
+  "darkshore",
+  "grove of the ancients",
+  "insane scribbles",
+  "old ones",
+  "onu",
+  "twilight tome",
+  "twilight's hammer"
+ ],
+ "related": [
+  "quest:949",
+  "quest:948",
+  "quest:951",
+  "topic:twilight-s-hammer",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "Return to Onu"
+ ]
+}

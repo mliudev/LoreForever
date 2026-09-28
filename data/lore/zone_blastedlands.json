@@ -1,0 +1,162 @@
+{
+ "key": "zone:blastedlands",
+ "type": "zone",
+ "name": "Blasted Lands",
+ "era": "classic",
+ "zone": "blastedlands",
+ "meta": {
+  "wiki": [
+   "Blasted Lands (Classic)",
+   "Blasted Lands"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "The Blasted Lands are a desolate expanse of red clay and barren rock at the southeastern tip of the Eastern Kingdoms, ruined by the chaotic energies of the Dark Portal. Once part of the verdant Black Morass, the shattered earth now harbors demonic remnants of the Burning Legion, brutal Dreadmaul ogres, and hardy desert beasts. Nethergarde Keep stands vigil over the desolate wasteland, guarding Azeroth from whatever horrors may spill out of the dormant gateway.",
+ "sections": [
+  {
+   "title": "A Scarred Wasteland",
+   "body": "Before the First War, this region was a continuation of the dense fenlands known as the Black Morass. That lush swamp was utterly eradicated when the warlock Gul'dan and the possessed Medivh tore open the Dark Portal to unleash the orcish Horde. Chaotic fel energies bled through the dimensional breach, stripping all moisture and baking the earth into cracked red clay. When the portal frame was later destroyed at the end of the Second War, catastrophic shockwaves scorched the terrain further, transmuting the native stone into its unearthly crimson hue.",
+   "spoiler": 0
+  },
+  {
+   "title": "Nethergarde's Lonely Vigil",
+   "body": "Perched upon the northern bluffs, Nethergarde Keep watches over the only road entering the valley. Commissioned by Archmage Khadgar and the Kirin Tor following the Second War, this stone bastion is manned by grim mages and stalwart soldiers sworn to prevent any renewed demonic or orcish incursions. It is an uninviting and strictly disciplined posting; infractions among the garrison are punished with banishment to the Stockade in Stormwind. The defenders face relentless pressure from the Dreadmaul ogres who stayed behind after Draenor's fall, raiding the roads and attacking the fortress gates under fell guidance.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Legion's Remnant",
+   "body": "In the southwestern reaches lies the Tainted Scar, a cratered canyon teeming with the deadliest demonic force on the continent. Stranded after the defeat at Mount Hyjal, the doomguard commander Lord Kazzak gathers wandering demons, doomguard, and felhounds to his banner. High above the red barrens, his dreadlord lieutenant, Razelikh the Defiler, orchestrates mortal servitude among the Shadowsworn cultists at the Altar of Storms and commands the local Dreadmaul ogres.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Power of the Blood",
+   "body": "Despite the land's desolation, scholars and wanderers brave its horrors for unique discoveries. Just inside the northern pass, Bloodmage Drazial and Bloodmage Lynnore conduct eccentric alchemical experiments, extracting organs from local scorpids, basilisks, and boars to brew extraordinarily potent physical enhancers. Farther into the wastes, a lone draenei hermit named Kum'isha seeks scattered draenethyst fragments, rewarding travelers who recover these alien remnants left behind by Draenor's shattered past.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the ground red and barren?",
+   "aliases": [
+    "why is blasted lands red",
+    "why is it dead",
+    "what happened to the swamp"
+   ],
+   "answer": "The Blasted Lands were once part of the marshy Black Morass. When the Dark Portal opened, raw demonic magic drained the region of life and moisture. When Khadgar later destroyed the portal's stone framework with the Skull of Gul'dan, the resulting catastrophic explosion seared the clay into hard crimson earth."
+  },
+  {
+   "q": "What is the Dark Portal?",
+   "aliases": [
+    "where does dark portal go",
+    "is the portal open",
+    "what is the gateway"
+   ],
+   "answer": "The Dark Portal is a massive dimensional gateway constructed to link Azeroth to Draenor, the sundered homeworld of the orcs now known as Outland. Though its stone frame was shattered to sever the bridge between worlds, the focal rift remains, guarded perpetually by Nethergarde Keep."
+  },
+  {
+   "q": "Who controls Nethergarde Keep?",
+   "aliases": [
+    "who runs nethergarde",
+    "is nethergarde alliance",
+    "nethergarde mages"
+   ],
+   "answer": "Nethergarde Keep is an Alliance bastion overseen by mages of the Kirin Tor and soldiers loyal to Stormwind. Built after the Second War under Archmage Khadgar's direction, its garrison maintains a strictly disciplined, dour watch over the Dark Portal and repels nearby ogre and demon attacks."
+  },
+  {
+   "q": "What is the Tainted Scar?",
+   "aliases": [
+    "tainted scar elite area",
+    "who is in tainted scar",
+    "demon valley blasted lands"
+   ],
+   "answer": "The Tainted Scar is a demon-infested canyon in the southern Blasted Lands. It serves as a refuge for the remaining forces of the Burning Legion in the Eastern Kingdoms, spearheaded by the powerful doomguard Lord Kazzak and populated by doomguards, felguards, and felhounds."
+  },
+  {
+   "q": "Who are the blood elves camping near the entrance?",
+   "aliases": [
+    "blood elf buff potions",
+    "drazial and lynnore",
+    "boar lung quest"
+   ],
+   "answer": "Bloodmage Drazial and Bloodmage Lynnore are researchers studying how the corrupted fauna adapted to the harsh fel landscape. In exchange for the entrails, brains, and lungs of native basilisks, vultures, scorpids, and boars, they brew powerful singular elixirs that bolster mortal attributes."
+  },
+  {
+   "q": "Who is Kum'isha the Collector?",
+   "aliases": [
+    "draenei in blasted lands",
+    "kumisha",
+    "draenethyst quest"
+   ],
+   "answer": "Kum'isha is an enigmatic draenei mystic dwelling in the central wastes. He collects draenethyst fragments and spheres\u2014crystalline remnants originating from Draenor\u2014and trades sealed packs of rare equipment and goods to anyone who brings them to him."
+  },
+  {
+   "q": "How do you reach the Blasted Lands on foot?",
+   "aliases": [
+    "getting to blasted lands",
+    "how to get there",
+    "blasted lands entrance"
+   ],
+   "answer": "Travel through Deadwind Pass east into the Swamp of Sorrows. From the Swamp of Sorrows, follow the primary road southward past the Horde settlement of Stonard until you reach the narrow mountain pass leading directly onto the red clay of the Blasted Lands."
+  },
+  {
+   "q": "Why are there ogres living in the desert?",
+   "aliases": [
+    "dreadmaul ogres lore",
+    "why are ogres here",
+    "dreadmaul hold"
+   ],
+   "answer": "The Dreadmaul ogres crossed through the Dark Portal during the Second War. Rather than retreating back through the rift, they entrenched themselves within Dreadmaul Hold and fell under the thrall of the dreadlord Razelikh and the Shadowsworn cult."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The mages of Nethergarde Keep embody the stern, defensive application of the arcane, holding vigil against fel corruption and dimensional rifts left by Medivh's fall."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "With the Tainted Scar swarming with high-ranking demons and Daio the Decrepit dwelling among the rocks, this desolate land offers seasoned warlocks unprecedented opportunities to bind dangerous fel entities."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The arid red clay is one of the extremely rare natural environments where Gromsblood grows, sprouted from ancient drops of demonic blood spilled upon the earth."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Nethergarde Keep stands as your sole fortified haven in the region, guarding the southern reaches of the kingdom from horrors that could threaten Duskwood and Stormwind."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Though the Horde maintains no fortress here, the ruins of the Dark Portal serve as a grim monument to the Old Horde's crossing and the devastation wrought by demonic corruption."
+  }
+ ],
+ "keywords": [
+  "black morass",
+  "blasted lands",
+  "dark portal",
+  "drazial",
+  "dreadmaul",
+  "gromsblood",
+  "kum'isha",
+  "lord kazzak",
+  "lynnore",
+  "nethergarde keep",
+  "razelikh",
+  "tainted scar"
+ ],
+ "related": [
+  "subzone:dark-portal",
+  "subzone:nethergarde-keep",
+  "subzone:tainted-scar",
+  "zone:swampofsorrows",
+  "npc:bloodmage-drazial",
+  "npc:bloodmage-lynnore",
+  "npc:daio-the-decrepit",
+  "subzone:altar-of-storms-burning-steppes"
+ ],
+ "attribution": [
+  "Blasted Lands (Classic)",
+  "Blasted Lands"
+ ]
+}

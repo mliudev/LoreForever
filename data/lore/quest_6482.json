@@ -1,0 +1,118 @@
+{
+ "key": "quest:6482",
+ "type": "quest",
+ "name": "Freedom to Ruul",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   6482
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Ruul Snowhoof",
+  "end": "Yama Snowhoof",
+  "previous": null,
+  "next": null,
+  "wiki": "Freedom to Ruul",
+  "chain": []
+ },
+ "summary": "Deep within the Thistlefur Hold in northern Ashenvale, a captive bear turns out to be Ruul Snowhoof, a wandering tauren druid. Mistaken for wild game by the corrupted Thistlefur furbolgs, he relies on Horde champions to fight his way out and reunite him with his sister at Splintertree Post.",
+ "sections": [
+  {
+   "title": "A Druid in Chains",
+   "body": "While venturing into the corrupted woods of northern Ashenvale, the druid Ruul Snowhoof wandered too close to Thistlefur Hold while in his bear form. The corrupted furbolgs, lacking their ancestral wisdom and driven by feral paranoia, mistook the shapeshifted tauren for a common beast. Rather than treating him with reverence, they caged and starved him, sapping his magical reserves and leaving him unable to break free on his own.",
+   "spoiler": 0
+  },
+  {
+   "title": "Escape from the Den",
+   "body": "Weakened by hunger and imprisonment, Ruul cannot shift forms or fight through the cavernous furbolg settlement unassisted. Once freed by an ally of the Horde, he relies on his rescuer to clear a path past waves of hostile Thistlefurs. Upon safely reaching the outskirts of Splintertree Post, he briefly reveals his true tauren form to offer heartfelt thanks before returning to the wilderness to sleep off his exhaustion.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why was Ruul Snowhoof locked up by the furbolgs?",
+   "aliases": [
+    "why is ruul trapped",
+    "how did ruul get captured",
+    "why caged"
+   ],
+   "answer": "Ruul was exploring the forests in his bear form. The corrupted Thistlefur furbolgs failed to recognize him as a druid, mistaking him for a wild beast, and locked him in a cage where they starved him until he lacked the strength to escape."
+  },
+  {
+   "q": "Who is Yama Snowhoof?",
+   "aliases": [
+    "ruul sister",
+    "yama splintertree",
+    "who is yama"
+   ],
+   "answer": "Yama Snowhoof is Ruul's sister, stationed at Splintertree Post in Ashenvale. She had grown deeply worried after Ruul disappeared into the forest days earlier without returning."
+  },
+  {
+   "q": "Why couldn't Ruul just shift out of bear form to escape?",
+   "aliases": [
+    "why didnt ruul shapeshift",
+    "druid bear trap"
+   ],
+   "answer": "The prolonged captivity and deliberate starvation inflicted by the Thistlefur furbolgs left Ruul severely weakened. Without food and strength, his reserves of natural energy were completely depleted, leaving him helpless until rescued."
+  },
+  {
+   "q": "What happens after Ruul reaches safety?",
+   "aliases": [
+    "where does ruul go",
+    "ruul ending"
+   ],
+   "answer": "Once escorted out of the hostile den to the borders of Splintertree Post, Ruul briefly shifts into his natural tauren form to express his gratitude before retreating back into bear form to find a quiet place to sleep and recover."
+  },
+  {
+   "q": "Are all furbolgs in Ashenvale hostile like the Thistlefurs?",
+   "aliases": [
+    "are furbolgs evil",
+    "thistlefur corruption"
+   ],
+   "answer": "No. While many furbolg tribes possess a noble heritage and deep ties to nature, the Thistlefurs of northern Ashenvale have succumbed to dark, corruptive influences that have turned them aggressive and unpredictable."
+  },
+  {
+   "q": "Where does the rescue take place?",
+   "aliases": [
+    "where is ruul",
+    "ruul snowhoof location"
+   ],
+   "answer": "Ruul is imprisoned inside Thistlefur Hold, a furbolg den located in the hills northwest of Splintertree Post and north of Astranaar in Ashenvale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Ruul's capture is a humbling reminder of the risks of wandering feral territories in animal guise, where corrupted locals cannot tell friend from quarry."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Rescuing a stranded brother of the Cenarion circle and easing the worries of his kin at Splintertree Post honors the bonds of the Earthmother and the Horde."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Every soul rescued from the corrupted hollows of northern Ashenvale strengthens the Horde's precarious outpost at Splintertree Post."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "druid escort",
+  "furbolg",
+  "ruul snowhoof",
+  "splintertree post",
+  "thistlefur hold",
+  "yama snowhoof"
+ ],
+ "related": [
+  "npc:ruul-snowhoof",
+  "subzone:splintertree-post",
+  "zone:ashenvale",
+  "topic:furbolg",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Freedom to Ruul"
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "key": "quest:3000",
+ "type": "quest",
+ "name": "Tome of Divinity",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   3000
+  ],
+  "level": "12",
+  "faction": "Alliance",
+  "start": "Lord Grayson Shadowbreaker",
+  "end": "Tiza Battleforge",
+  "previous": null,
+  "next": "The Tome of Divinity (dwarf 1)",
+  "wiki": "Tome of Divinity (Lord Grayson Shadowbreaker)",
+  "chain": []
+ },
+ "summary": "This errand directs dwarven paladins wandering abroad to return home to Ironforge to further their sacred calling. Offered by Lord Grayson Shadowbreaker in Stormwind, it points fledgling champions toward Tiza Battleforge, one of the most respected instructors in the Hall of Mysteries. Returning home marks the beginning of their formal trials with the Tome of Divinity.",
+ "sections": [
+  {
+   "title": "A Summons Home",
+   "body": "While dwarven paladins frequently aid the kingdom of Stormwind and venture throughout human territories, their spiritual and martial roots remain anchored in Khaz Modan. Lord Grayson Shadowbreaker, recognizing when a dwarf's training in the field has progressed enough, advises them to return to the heart of Ironforge. There, their own people oversee the profound spiritual obligations expected of a full Knight of the Silver Hand.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Hall of Mysteries",
+   "body": "Upon returning to the mountainous capital, the paladin is directed to the Mystic Ward. Deep within the Hall of Mysteries, atop its upper level, resides Tiza Battleforge. She serves as a venerated mentor to the younger generation of dwarven paladins, preparing them to shoulder the burden of the Holy Light through the sacred trials recorded in the Tome of Divinity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Lord Grayson Shadowbreaker send me back to Ironforge?",
+   "aliases": [
+    "why go to ironforge",
+    "why grayson sends me away",
+    "why visit tiza"
+   ],
+   "answer": "Lord Grayson recognizes that while you have proven your mettle in the field, young dwarven paladins are meant to learn the deeper tenets and trials of the Holy Light directly from their own kin under Tiza Battleforge's guidance."
+  },
+  {
+   "q": "Who is Tiza Battleforge?",
+   "aliases": [
+    "tiza battleforge",
+    "who is tiza",
+    "paladin trainer tiza"
+   ],
+   "answer": "Tiza Battleforge is one of Ironforge's most respected dwarven paladins. Stationed upstairs in the Hall of Mysteries, she mentors developing paladins and oversees the trials that test their dedication to the Light."
+  },
+  {
+   "q": "Where can I find Tiza Battleforge?",
+   "aliases": [
+    "where is tiza",
+    "tiza battleforge location",
+    "how to find tiza"
+   ],
+   "answer": "She is located inside the Hall of Mysteries, which sits in the Mystic Ward of Ironforge. Head upstairs within the sanctuary to find her."
+  },
+  {
+   "q": "What is the Tome of Divinity?",
+   "aliases": [
+    "tome of divinity meaning",
+    "what is the tome",
+    "paladin book"
+   ],
+   "answer": "The Tome of Divinity encompasses the holy teachings and rigorous trials paladins must undergo to master the Holy Light, particularly the power of resurrection and selfless devotion to fallen allies."
+  },
+  {
+   "q": "Can human paladins do this version of the quest?",
+   "aliases": [
+    "can humans do this",
+    "is this quest dwarf only"
+   ],
+   "answer": "No. This particular summons specifically directs dwarven paladins to return to their homeland's instructors, whereas human paladins pursue their trials directly under Lord Grayson Shadowbreaker and Duthorian Rall in Stormwind."
+  },
+  {
+   "q": "What happens after reporting to Tiza Battleforge?",
+   "aliases": [
+    "what comes next",
+    "next quest after tome of divinity",
+    "after speaking to tiza"
+   ],
+   "answer": "Once you introduce yourself to Tiza, she presents you with your formal dwarven trials through the Tome of Divinity, testing your readiness to wield the Light's redemptive power."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "This quest bridges your adventures in human lands with your duty to Khaz Modan, calling you back to your ancestral seat in Ironforge to train under your own elders."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "This marks a major rite of passage for dwarven paladins, setting them on the path to study the Tome of Divinity and master the gift of resurrection."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The shared training and mutual respect between Stormwind's paladins and Ironforge's mentors highlight the close spiritual alliance between dwarves and humans."
+  }
+ ],
+ "keywords": [
+  "dwarf paladin",
+  "hall of mysteries",
+  "ironforge",
+  "lord grayson shadowbreaker",
+  "mystic ward",
+  "redemption",
+  "tiza battleforge",
+  "tome of divinity"
+ ],
+ "related": [
+  "npc:tiza-battleforge",
+  "npc:lord-grayson-shadowbreaker",
+  "subzone:hall-of-mysteries",
+  "subzone:mystic-ward",
+  "zone:ironforge",
+  "topic:light"
+ ],
+ "attribution": [
+  "Tome of Divinity (Lord Grayson Shadowbreaker)"
+ ]
+}

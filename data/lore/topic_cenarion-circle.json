@@ -1,0 +1,127 @@
+{
+ "key": "topic:cenarion-circle",
+ "type": "topic",
+ "name": "Cenarion Circle",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Cenarion Circle"
+ },
+ "summary": "The Cenarion Circle is an ancient, independent order of druids founded by Malfurion Stormrage under the guidance of the demigod Cenarius. Operating from their sacred haven in Moonglade, they strive to maintain the balance of nature, safeguard the Emerald Dream, and mend Azeroth's blighted lands. Though historically composed of night elves, they have recently welcomed the tauren into their ranks, transcending factional divides to defend the living world.",
+ "sections": [
+  {
+   "title": "Origins of the Circle",
+   "body": "The roots of the Cenarion Circle go back thousands of years to the teachings of Cenarius, the Patron of Druids, who mentored the first mortal druid, Malfurion Stormrage. Following the Great Sundering, Malfurion bound together those who wished to study nature's ways. The organization was formally convened in Moonglade during the ancient War of the Satyr, partly to curb the savage fury of the Druids of the Scythe, who had turned into feral worgen. Armed with the Scythe of Elune, the druids contained the beastform threat, sealing the mad pack within the Emerald Dream. Ever since, the Circle has held sacred vigil over Azeroth's wild places.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Sacred Neutrality",
+   "body": "While deeply intertwined with night elf history, the Cenarion Circle exists independently of Darnassus and the Sisterhood of Elune. Their heart remains the enchanted valley of Moonglade, centered around the peaceful town of Nighthaven, where weapons are sheathed and the wars of mortals hold no sway. This ancient neutrality was demonstrated anew following the Third War, when Malfurion befriended the tauren elder Hamuul Runetotem. Recognizing the tauren people's profound spiritual reverence for the Earth Mother, the Circle formally inducted Hamuul, reintroducing druidism to his race after thousands of years.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tension and the Absent Archdruid",
+   "body": "Following the devastation at Mount Hyjal, Malfurion fell into an unnatural, impenetrable coma deep within his barrow den, leaving the druids leaderless. In his absence, Archdruid Fandral Staghelm claimed practical leadership of the Circle. Fandral took advantage of Malfurion's silence to rally support for growing Teldrassil, hoping to restore the kaldorei's lost immortality. However, the Dragon Aspects refused to bless the new tree, and strange corruptions have begun taking root in its branches. Today, internal division simmers within the order as Fandral rules with a stern hand, while ancient guardians sense a creeping darkness spreading from both Silithus and the Emerald Dream.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Cenarion Circle?",
+   "aliases": [
+    "cenarion circle lore",
+    "who are the cenarion circle",
+    "what is the circle"
+   ],
+   "answer": "The Cenarion Circle is an ancient society of druids dedicated to preserving nature's balance, studying the wild ways, and tending to the Emerald Dream. Named after the demigod Cenarius and founded by Malfurion Stormrage, the order governs druidic teachings across Azeroth from its sanctuary in Moonglade."
+  },
+  {
+   "q": "Where is the headquarters of the Cenarion Circle?",
+   "aliases": [
+    "cenarion circle base",
+    "where are cenarion druids based",
+    "nighthaven cenarion"
+   ],
+   "answer": "The Circle is headquartered in the moonlit, secluded haven of Moonglade, specifically around the village of Nighthaven and the shores of Lake Elune'ara. They maintain smaller outposts and barrow dens across Kalimdor, including a major vigil in the desert wastes of Silithus at Cenarion Hold."
+  },
+  {
+   "q": "Why are tauren in the Cenarion Circle?",
+   "aliases": [
+    "why are tauren druids",
+    "hamuul cenarion circle",
+    "tauren night elf druids"
+   ],
+   "answer": "During the Third War, the tauren elder Hamuul Runetotem fought alongside Malfurion Stormrage at Mount Hyjal. The two developed mutual respect, and Malfurion shared deep druidic secrets with Hamuul. Hamuul became the first tauren druid in millennia and was warmly inducted into the Circle, bringing the tauren and night elf druids into rare partnership."
+  },
+  {
+   "q": "Who leads the Cenarion Circle?",
+   "aliases": [
+    "leader of cenarion circle",
+    "who is the archdruid",
+    "archdruid leader"
+   ],
+   "answer": "Historically, Malfurion Stormrage led the order alongside elder archdruids. With Malfurion currently trapped in an unexplained barrow coma, leadership has effectively fallen to Archdruid Fandral Staghelm in Darnassus, though respected elders like Hamuul Runetotem and keepers in Moonglade guide their respective factions."
+  },
+  {
+   "q": "Is the Cenarion Circle part of the Alliance?",
+   "aliases": [
+    "is cenarion circle alliance",
+    "cenarion circle faction",
+    "are cenarion druids neutral"
+   ],
+   "answer": "No. The Cenarion Circle is entirely neutral. While its membership was once strictly night elven, their primary oath is to nature, not mortal thrones. In Moonglade and other Cenarion encampments, Alliance and Horde druids walk side by side without bloodshed."
+  },
+  {
+   "q": "What happened at the Scarab Wall in Silithus?",
+   "aliases": [
+    "cenarion hold silithus",
+    "war of the shifting sands",
+    "druids scarab wall"
+   ],
+   "answer": "A thousand years ago during the War of the Shifting Sands, Archdruid Fandral Staghelm rallied the Circle and dragons to combat the insectoid qiraji swarm. Working with the bronze dragon Anachronos, the druids channeled their magic to erupt colossal roots and stone from the earth, forming the Scarab Wall to seal the hive away. The Circle established Cenarion Hold to ensure that seal never fails."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The Cenarion Circle is your order and spiritual authority. Whether you trace your tutelage to Darnassus or the plains of Mulgore, all druidic power, trials, and callings flow through the Circle's rites in Moonglade."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For ten millennia your people's men primarily slept in barrows serving the Circle while the Sentinels guarded your borders; the Circle's deep bond with the wild shaped every facet of kaldorei culture."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Through Hamuul Runetotem's fellowship with Malfurion Stormrage, your people have reclaimed ancient traditions tied directly to the Earth Mother, earning an honored place within the Circle."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The druids of the Cenarion Circle possess unmatched understanding of Azeroth's botanical life and the delicate ecosystems that nurture rare and magical flora."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "cenarion hold",
+  "cenarius",
+  "druid",
+  "emerald dream",
+  "fandral staghelm",
+  "hamuul runetotem",
+  "malfurion",
+  "moonglade",
+  "nighthaven"
+ ],
+ "related": [
+  "quest:5921",
+  "npc:malfurion-stormrage",
+  "topic:cenarius",
+  "quest:1489",
+  "npc:fandral-staghelm",
+  "subzone:nighthaven",
+  "subzone:cenarion-hold",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Cenarion Circle"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "key": "subzone:darkspear-strand",
+ "type": "subzone",
+ "name": "Darkspear Strand",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Darkspear Strand"
+ },
+ "summary": "Darkspear Strand is the stretch of coastline in southern Durotar where the Darkspear trolls washed ashore following their exile from the Echo Isles. Located directly beside Sen'jin Village, this beach marks the bitter beginning of the tribe's mainland refuge under Vol'jin's leadership.",
+ "sections": [
+  {
+   "title": "A Shore of Exile",
+   "body": "When the witch doctor Zalazane went mad and seized control of the Echo Isles, the surviving Darkspear trolls were forced to abandon their offshore home. Desperate refugees crossed the narrow waters and landed along this sun-bleached coast. Rather than scatter into the hostile red wastes of Durotar, the survivors banded together just yards inland from the shoreline to construct Sen'jin Village. Today, the strand serves as a quiet reminder of their displacement, looking out across the surf toward the islands they still hope to reclaim.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened at Darkspear Strand?",
+   "aliases": [
+    "why is it called darkspear strand",
+    "darkspear strand lore",
+    "what is this beach"
+   ],
+   "answer": "This coastline is where the Darkspear trolls made landfall after fleeing the Echo Isles. When Zalazane turned his dark magic against his own people, the survivors evacuated across the water and came ashore here, immediately gathering nearby to establish Sen'jin Village."
+  },
+  {
+   "q": "Why did the Darkspear leave the Echo Isles?",
+   "aliases": [
+    "why did trolls leave echo isles",
+    "zalazane exile",
+    "echo isles evacuation"
+   ],
+   "answer": "The witch doctor Zalazane betrayed his kin and used dark voodoo to enslave the minds of his fellow tribesfolk. Chief Vol'jin led the remaining uncorrupted Darkspear off the islands to escape total subjugation, landing on this strand."
+  },
+  {
+   "q": "What settlement is located next to Darkspear Strand?",
+   "aliases": [
+    "village near darkspear strand",
+    "town next to beach",
+    "sen'jin village location"
+   ],
+   "answer": "Sen'jin Village sits just yards inland from the beach. It was established by the refugees immediately after landing on the strand and serves as the primary Darkspear outpost and spiritual center in Durotar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls, stepping onto this shore carries the sting of Zalazane's betrayal and the bittersweet memory of escaping with their lives to found Sen'jin Village."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The strand marks the southern coast where the Darkspear cemented their place on the Kalimdor mainland beside their Orc allies after losing their island settlement."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "darkspear strand",
+  "durotar",
+  "echo isles",
+  "sen'jin village",
+  "vol'jin",
+  "zalazane"
+ ],
+ "related": [
+  "subzone:sen-jin-village",
+  "subzone:echo-isles",
+  "zone:durotar",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Darkspear Strand"
+ ]
+}

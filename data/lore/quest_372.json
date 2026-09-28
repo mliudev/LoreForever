@@ -1,0 +1,125 @@
+{
+ "key": "quest:372",
+ "type": "quest",
+ "name": "At War With The Scarlet Crusade",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   372
+  ],
+  "level": "12",
+  "faction": "Horde",
+  "start": "Executor Zygand",
+  "end": "",
+  "previous": "At War With The Scarlet Crusade (3)",
+  "next": null,
+  "wiki": "At War With The Scarlet Crusade (4)",
+  "chain": [
+   "At War With The Scarlet Crusade (Classic)",
+   "At War With The Scarlet Crusade (2)",
+   "At War With The Scarlet Crusade (3)",
+   "At War With The Scarlet Crusade (4)"
+  ]
+ },
+ "summary": "This mission represents the culmination of Executor Zygand's early campaign to secure Tirisfal Glades against Scarlet Crusade incursions. Operating out of Brill, Forsaken agents are directed to strike directly at Captain Melrache and his personal vanguard at a ruined watchtower past Faol's Rest.",
+ "sections": [
+  {
+   "title": "A Strike at the Vanguard",
+   "body": "While the Forsaken consolidate their hold over the ruins of Lordaeron, the Scarlet Crusade relentlessly probes the borders of Tirisfal. From an elevated watchtower situated in northern Tirisfal past Faol's Rest, zealous crusaders have organized raiding parties against Forsaken patrols and territory. Rather than waiting to repel another assault, Executor Zygand chooses decapitation: eliminating the command structure that directs the local raids.",
+   "spoiler": 0
+  },
+  {
+   "title": "Captain Melrache's Hold",
+   "body": "Commanding this northern encampment is Captain Melrache, an uncompromising officer flanked constantly by two sworn bodyguards. Melrache's position gives the Crusade observation over the coastal roads and surrounding woods. Slaying him breaks the immediate coordination of the crusaders near Brill, neutralizing a direct threat to Lady Sylvanas's fledgling kingdom and driving the zealots back toward their stronger fortifications further east.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Captain Melrache?",
+   "aliases": [
+    "melrache",
+    "captain melrache lore",
+    "who is the scarlet captain"
+   ],
+   "answer": "Captain Melrache is a field commander of the Scarlet Crusade overseeing a raiding camp at a ruined tower in northern Tirisfal Glades, beyond Faol's Rest. He leads aggressive incursions into Forsaken lands alongside his personal bodyguards."
+  },
+  {
+   "q": "Where is the ruined tower located?",
+   "aliases": [
+    "melrache location",
+    "where is the tower",
+    "faol's rest tower"
+   ],
+   "answer": "The tower stands in the northern wilderness of Tirisfal Glades, perched on the bluffs just past the graveyard of Faol's Rest, overlooking the northern coast."
+  },
+  {
+   "q": "Why does Executor Zygand want Melrache dead?",
+   "aliases": [
+    "why kill melrache",
+    "zygand's motive"
+   ],
+   "answer": "Melrache's contingent has been actively raiding out of their tower base, harassing Forsaken troops and threatening the security of Brill and the Undercity. Zygand orders his assassination to break the Crusade's local offensive momentum."
+  },
+  {
+   "q": "How does this fight connect to the wider war against Arthas?",
+   "aliases": [
+    "arthas connection",
+    "why mention arthas"
+   ],
+   "answer": "Executor Zygand views the Scarlet Crusade as a dangerous distraction. Removing aggressive Crusade officers allows the Forsaken to solidify control over Tirisfal and preserve strength for their ultimate vengeance against the Lich King."
+  },
+  {
+   "q": "Does slaying Melrache clear the Scarlet Crusade from Tirisfal?",
+   "aliases": [
+    "is scarlet crusade defeated",
+    "do they leave tirisfal"
+   ],
+   "answer": "No. Melrache's death eliminates an immediate raiding cell and weakens northern pressure on Brill, but the Crusade maintains massive strongholds nearby, including the Scarlet Monastery to the east."
+  },
+  {
+   "q": "What is Faol's Rest?",
+   "aliases": [
+    "faols rest",
+    "faol resting place"
+   ],
+   "answer": "Faol's Rest is a secluded, solemn burial site in northern Tirisfal named after Alonsus Faol, the former Archbishop of the Church of the Holy Light. Melrache's tower sits in the rugged hills just beyond it."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, every crusader slain is one less fanatic denying their right to exist in the homeland they inhabited in life."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing the perimeter of Tirisfal protects the Horde's solitary, vulnerable foothold in the Eastern Kingdoms."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Striking deep behind enemy lines to isolate a commander from his surrounding army is the quintessential work of Deathstalkers."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "captain melrache",
+  "executor zygand",
+  "faol's rest",
+  "scarlet bodyguard",
+  "scarlet crusade",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:executor-zygand",
+  "subzone:brill",
+  "subzone:faol-s-rest",
+  "topic:scarlet-crusade",
+  "topic:forsaken",
+  "zone:tirisfal",
+  "quest:370"
+ ],
+ "attribution": [
+  "At War With The Scarlet Crusade (4)"
+ ]
+}

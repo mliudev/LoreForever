@@ -1,0 +1,74 @@
+{
+ "key": "subzone:woodpaw-den",
+ "type": "subzone",
+ "name": "Woodpaw Den",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Woodpaw Den"
+ },
+ "summary": "Woodpaw Den is a rugged gnoll stronghold nestled in northern Feralas, just north of the ancient Darkmist Ruins. The settlement serves as a major gathering point for the Woodpaw gnolls and their fiercest pack alphas, making it a dangerous pocket of wilderness within the dense canopy.",
+ "sections": [
+  {
+   "title": "Heart of the Pack",
+   "body": "Situated amidst the towering boughs of Feralas, Woodpaw Den stands as the fortified heartland of the local Woodpaw gnolls. Unlike smaller scout camps scattered along the jungle tracks, this encampment is heavily guarded by the pack's seasoned Alphas. The gnolls here defend their territory fiercely against both intruding adventurers and the encroaching wilderness. Located just north of the elven remnants at Darkmist Ruins, the den represents an ever-present predatory threat to travelers attempting to traverse the central wilderness of the region.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Woodpaw Den?",
+   "aliases": [
+    "woodpaw den feralas",
+    "gnoll camp feralas",
+    "where is woodpaw den"
+   ],
+   "answer": "Woodpaw Den is a prominent settlement and encampment of the Woodpaw gnolls in northern Feralas, situated just north of the Darkmist Ruins. It is heavily inhabited by the pack's dangerous Alphas."
+  },
+  {
+   "q": "What creatures live here?",
+   "aliases": [
+    "who lives here",
+    "woodpaw den mobs",
+    "what enemies are in woodpaw den"
+   ],
+   "answer": "The den is populated primarily by the Woodpaw clan of gnolls, particularly the formidable Woodpaw Alphas who lead and protect the pack from outsiders."
+  },
+  {
+   "q": "What landmarks are nearby?",
+   "aliases": [
+    "landmarks near woodpaw den",
+    "what is next to woodpaw den"
+   ],
+   "answer": "Immediately to the south lie the ancient Night Elven ruins known as Darkmist Ruins. The encampment itself is bordered by the dense rainforests characteristic of central Feralas."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei based out of Feathermoon Stronghold, the feral expansion of gnoll packs near ancient ancestral sites like Darkmist Ruins is a constant nuisance requiring watchful containment."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Camp Mojache huntsmen view the vicious Woodpaw clan as dangerous competitors for game and territory within the primeval woods of Feralas."
+  }
+ ],
+ "keywords": [
+  "darkmist ruins",
+  "feralas",
+  "gnoll",
+  "woodpaw",
+  "woodpaw alpha",
+  "woodpaw den"
+ ],
+ "related": [
+  "topic:gnoll",
+  "zone:feralas",
+  "subzone:darkmist-ruins",
+  "quest:1089",
+  "quest:938"
+ ],
+ "attribution": [
+  "Woodpaw Den"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "subzone:ruins-of-ordil-aran",
+ "type": "subzone",
+ "name": "Ruins of Ordil'Aran",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Ruins of Ordil'Aran"
+ },
+ "summary": "The Ruins of Ordil'Aran are the crumbling remnants of an ancient night elf settlement in northwestern Ashenvale, situated between Maestra's Post and Bathran's Haunt. Once a hidden redoubt for shadow cultists, the fallen stones have recently been overrun by the corrupted Thistlefur furbolgs.",
+ "sections": [
+  {
+   "title": "A Contested Ruin",
+   "body": "Little remains of the original Kaldorei architecture at Ordil'Aran save for weathered pillars, cracked arches, and moss-draped stonework. For a time, the isolated ruins served as a lair for the Cult of the Dark Strand, who lurked among the debris to ambush travelers along the northwestern paths of Ashenvale. Recently, however, violent furbolgs of the Thistlefur tribe drove out the cultists in a bloody takeover. The bodies of fallen Dark Strand practitioners still litter the ground while aggressive furbolgs patrol the perimeter, fiercely guarding the site and the ancient Heartswood tree growing within.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Ordil'Aran originally?",
+   "aliases": [
+    "ordilaran history",
+    "what is ordil aran",
+    "who built ordil'aran"
+   ],
+   "answer": "Ordil'Aran was an ancient night elf settlement dating back before the Great Sundering. Like many Kaldorei outposts across Ashenvale, it fell into decay over millennia, leaving behind only overgrown stone arches and crumbling masonry."
+  },
+  {
+   "q": "Why are there dead cultists lying around the ruins?",
+   "aliases": [
+    "dead cultists",
+    "dark strand corpses",
+    "why are cultists dead here"
+   ],
+   "answer": "The Cult of the Dark Strand previously used these ruins as a base of operations. The Thistlefur furbolgs violently attacked and ousted them, seizing the ruins for themselves and leaving slain cultists strewn across the site."
+  },
+  {
+   "q": "What is the Heartswood?",
+   "aliases": [
+    "heartswood tree",
+    "heartswood quest",
+    "heartswood ordil'aran"
+   ],
+   "answer": "The Heartswood is a distinctive ancient tree growing within the Ruins of Ordil'Aran. Its branches and wood are sought after for their potent magical and natural properties."
+  },
+  {
+   "q": "Who currently controls the ruins?",
+   "aliases": [
+    "who lives here",
+    "who is at ordil aran",
+    "ordilaran mobs"
+   ],
+   "answer": "The aggressive Thistlefur furbolgs currently occupy the ruins, having slain or driven out the Dark Strand cultists who previously inhabited the area."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The ruins are another painful reminder of the Kalimdor empire's collapse, now defiled by corrupt furbolgs and dark cultists."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Positioned just north of Maestra's Post, the aggressive occupants of Ordil'Aran threaten Alliance scouts and travelers heading toward Darkshore."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "cult of the dark strand",
+  "heartswood",
+  "maestra's post",
+  "ordil'aran",
+  "ordilaran",
+  "ruins",
+  "thistlefur"
+ ],
+ "related": [
+  "subzone:maestra-s-post",
+  "subzone:bathran-s-haunt",
+  "subzone:tower-of-althalaxx",
+  "quest:1738",
+  "quest:965",
+  "zone:ashenvale",
+  "topic:furbolg",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Ruins of Ordil'Aran"
+ ]
+}

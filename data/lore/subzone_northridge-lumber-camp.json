@@ -1,0 +1,92 @@
+{
+ "key": "subzone:northridge-lumber-camp",
+ "type": "subzone",
+ "name": "Northridge Lumber Camp",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Northridge Lumber Camp"
+ },
+ "summary": "Northridge Lumber Camp is an active lumber mill nestled in the northern hills of the Western Plaguelands near Hearthglen. Currently held and fortified by the Scarlet Crusade, it provides timber vital to sustaining their nearby strongholds. Both the Alliance and the Horde view the facility as a prime target to cripple the zealots' regional infrastructure.",
+ "sections": [
+  {
+   "title": "Fueling the Crusade",
+   "body": "Situated just down the road from Hearthglen, the Northridge Lumber Camp serves as a vital logistics node for the Scarlet Crusade. Despite the lingering plague choking the surrounding forests, the camp fells and processes regional timber to construct fortifications, repair watchtowers, and furnish the crusade's war effort in Lordaeron. Heavily garrisoned by fanatical laborers and guards, the mill is fiercely protected against both the Scourge and outside trespassers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Target for Sabotage",
+   "body": "Because Hearthglen depends heavily on this lumber to maintain its defenses, outside forces actively conspire to disrupt it. Both Alliance commanders and Horde scouts recognize that an overt assault on fortified crusader positions carries high costs. Instead, agents look to unconventional sabotage\u2014such as unleashing voracious wood-boring termites into the mill's lumber stores\u2014to quietly rot the Crusade's supplies from the inside out.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Northridge Lumber Camp?",
+   "aliases": [
+    "who runs northridge",
+    "who controls the lumber mill",
+    "northridge faction"
+   ],
+   "answer": "The Scarlet Crusade currently controls and operates the lumber camp, using its guards and laborers to harvest timber for nearby Hearthglen."
+  },
+  {
+   "q": "Why is this lumber mill important?",
+   "aliases": [
+    "why does northridge matter",
+    "significance of northridge",
+    "what is this camp for"
+   ],
+   "answer": "It supplies essential timber and building materials to maintain the Scarlet Crusade's fortifications and outposts throughout the northern Western Plaguelands."
+  },
+  {
+   "q": "Why do the Alliance and Horde want to sabotage it?",
+   "aliases": [
+    "why attack northridge",
+    "termites quest",
+    "why ruin the lumber"
+   ],
+   "answer": "Both factions view the aggressive and fanatical Scarlet Crusade as a dangerous threat in the Plaguelands. Depriving them of lumber weakens their ability to fortify Hearthglen without requiring a costly direct invasion."
+  },
+  {
+   "q": "Who ran the mill before the Third War?",
+   "aliases": [
+    "who owned northridge lumber camp",
+    "history of northridge mill"
+   ],
+   "answer": "Before the Kingdom of Lordaeron fell to the Scourge, local civilian families such as the Dumahs and Levines lived and worked the mill as a quiet regional enterprise."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Though the Scarlet Crusade claims to fight the undead, their violent xenophobia makes them a menace to Alliance reconnaissance and regional operations in northern Lordaeron."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For the Forsaken and their Horde allies, disrupting the crusade's lumber operations weakens Hearthglen and pushes zealots further back toward their strongholds."
+  }
+ ],
+ "keywords": [
+  "dumah",
+  "hearthglen",
+  "levine",
+  "lumber",
+  "mill",
+  "northridge",
+  "plaguelands",
+  "scarlet crusade",
+  "termites"
+ ],
+ "related": [
+  "subzone:hearthglen",
+  "topic:scarlet-crusade",
+  "zone:westernplaguelands",
+  "topic:alliance",
+  "topic:horde",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Northridge Lumber Camp"
+ ]
+}

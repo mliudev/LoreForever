@@ -1,0 +1,81 @@
+{
+ "key": "npc:tormus-deepforge",
+ "type": "npc",
+ "name": "Tormus Deepforge",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Tormus Deepforge",
+  "refs": 2
+ },
+ "summary": "Tormus Deepforge is a dwarven smith working at the center of the Great Forge in Ironforge. A dependable craftsman, he coordinates iron deliveries and supplies armaments for Alliance defense efforts across Khaz Modan and beyond.",
+ "sections": [
+  {
+   "title": "Master of the Great Forge",
+   "body": "Positioned right beside the roaring fires of the Great Forge, Tormus Deepforge oversees substantial metalworking tasks on behalf of the Bronzebeard clan. Beyond hammering steel himself, Tormus serves as a vital logistics contact for smiths and outposts in need of raw iron, arranging supplies for besieged settlements like Lakeshire in Redridge and coordinating with dwarven excavation teams such as Ironband's Compound in Loch Modan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Tormus Deepforge?",
+   "aliases": [
+    "tormus location",
+    "where is tormus",
+    "tormus deepforge map"
+   ],
+   "answer": "Tormus stands on the circular walkway encircling the lava pool of the Great Forge, the central hub of Ironforge."
+  },
+  {
+   "q": "What role does Tormus play in the Alliance war effort?",
+   "aliases": [
+    "what does tormus do",
+    "tormus purpose",
+    "why talk to tormus"
+   ],
+   "answer": "Tormus handles orders for military hardware and raw metal. He directs travelers to deliver weapons and tools to outposts that desperately need them, including human lands like Redridge that are facing mounting assaults."
+  },
+  {
+   "q": "Who are the other Deepforges?",
+   "aliases": [
+    "deepforge clan",
+    "deepforge family",
+    "is tormus related to murgot"
+   ],
+   "answer": "The Deepforge name belongs to an established dwarven smithing lineage found throughout Dun Morogh and Ironforge, including figures like Bengus, Murgot, and Kaita Deepforge, who are known for their expertise in mining and metallurgy."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "For smiths plying their trade at the Great Forge, Tormus represents the essential link between raw bar stock and frontline military outfitting."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "A proud artisan of the mountain kingdom, Tormus demonstrates Ironforge's readiness to smelt and deliver arms whenever allies in the Grand Alliance call for aid."
+  }
+ ],
+ "keywords": [
+  "blacksmith",
+  "deepforge",
+  "dwarf",
+  "great forge",
+  "ironforge",
+  "lochinver",
+  "redridge",
+  "supplying the front",
+  "tormus"
+ ],
+ "related": [
+  "subzone:great-forge",
+  "zone:ironforge",
+  "topic:dwarf",
+  "quest:1618",
+  "quest:1578",
+  "subzone:ironband-s-compound",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Tormus Deepforge"
+ ]
+}

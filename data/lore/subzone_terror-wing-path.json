@@ -1,0 +1,75 @@
+{
+ "key": "subzone:terror-wing-path",
+ "type": "subzone",
+ "name": "Terror Wing Path",
+ "era": "classic",
+ "zone": "burningsteppes",
+ "meta": {
+  "wiki": "Terror Wing Path"
+ },
+ "summary": "Terror Wing Path is a rocky canyon winding through the eastern reaches of the Burning Steppes. Infested by whelps and dragonkin of the black dragonflight, it serves as a perilous thoroughfare connecting the rugged slopes toward the southern mountains.",
+ "sections": [
+  {
+   "title": "A Dragonkin Roost",
+   "body": "Carved into the craggy, ash-covered foothills of the eastern Burning Steppes, Terror Wing Path earns its name from the aerial predators and wyrmkin that claim it. Broods of the black dragonflight prowl these defiles, fiercely guarding clutches and hunting anything foolish enough to wander into their shadow. Ash and soot blanket the stone trails, making any trek beneath the canyon walls a treacherous venture.",
+   "spoiler": 0
+  },
+  {
+   "title": "Passage to the South",
+   "body": "Despite the constant danger of dragon attacks, the path is an important geographical corridor. Toward the southeastern edges of the canyon, trails climb into the mountainous heights toward the Redridge Pass. Travelers seeking routes across the rugged divide toward Redridge Mountains or down toward distant swamps must brave the brood's territory to reach these southern trails.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures live in Terror Wing Path?",
+   "aliases": [
+    "terror wing mobs",
+    "what is here",
+    "dragonkin terror wing"
+   ],
+   "answer": "The path is infested by whelps, broodlings, and larger dragonkin of the black dragonflight. They patrol the slopes aggressively and hunt ground prey across the eastern pass."
+  },
+  {
+   "q": "Where does Terror Wing Path lead?",
+   "aliases": [
+    "where does terror wing go",
+    "terror wing path route",
+    "terror wing directions"
+   ],
+   "answer": "It winds through the eastern side of the Burning Steppes, connecting the interior volcanic plains with the highland approaches toward Redridge Pass to the south."
+  },
+  {
+   "q": "Why is the black dragonflight active in this canyon?",
+   "aliases": [
+    "why are dragons here",
+    "black dragonflight terror wing",
+    "dragonflight presence"
+   ],
+   "answer": "The black dragonflight maintains a strong grip over the Burning Steppes under Blackrock Mountain. Terror Wing Path provides nesting grounds, hunting terrain, and an eastern perimeter guarding the mountain's flanks."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The steep terrain and flying whelps make Terror Wing Path a proving ground for marksmen tracking draconic beasts among smoke and canyon winds."
+  }
+ ],
+ "keywords": [
+  "black dragonflight",
+  "burning steppes",
+  "dragonkin",
+  "redridge pass",
+  "terror wing path",
+  "whelps"
+ ],
+ "related": [
+  "zone:burningsteppes",
+  "topic:black-dragonflight",
+  "subzone:redridge-pass",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Terror Wing Path"
+ ]
+}

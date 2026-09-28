@@ -1,0 +1,120 @@
+{
+ "key": "quest:1054",
+ "type": "quest",
+ "name": "Culling the Threat",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1054
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Raene Wolfrunner",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Culling the Threat",
+  "chain": []
+ },
+ "summary": "Culling the Threat is an Alliance defensive operation issued by Raene Wolfrunner in Astranaar. Faced with rapidly multiplying Thistlefur furbolgs directly to the north, the night elves seek to preempt an assault on the settlement by slaying their warlord, Dal Bloodclaw. It reflects the grim reality that former woodland allies must now be culled to safeguard kaldorei homes.",
+ "sections": [
+  {
+   "title": "A Looming Peril to the North",
+   "body": "Astranaar lies in the heart of Ashenvale, constantly surrounded by danger. Just north of the settlement dwell the Thistlefur furbolgs. Once peaceable dwellers of the ancient forest, they have fallen into madness and aggression like so many of their kin. Sentinel scouts watched their populations swell over recent months, raising fears that a coordinated assault on Astranaar itself was only a matter of time.",
+   "spoiler": 0
+  },
+  {
+   "title": "Striking the Chieftain",
+   "body": "Rather than waiting for the Thistlefur horde to overrun Astranaar's modest palisades, Raene Wolfrunner commissions travelers to take offensive action. The objective is Dal Bloodclaw, the chieftain whose leadership organizes and emboldens the den. By severing the tribe's head and bringing Dal's skull back to Astranaar, the Sentinels hope to break the furbolgs' coordination and buy precious time for the beleaguered town.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Culling the Threat?",
+   "aliases": [
+    "quest giver",
+    "who starts culling the threat",
+    "where do i get culling the threat"
+   ],
+   "answer": "Raene Wolfrunner, a Sentinel commander stationed in the night elf town of Astranaar in Ashenvale, offers this task."
+  },
+  {
+   "q": "Why does Astranaar want Dal Bloodclaw dead?",
+   "aliases": [
+    "why kill dal bloodclaw",
+    "dal bloodclaw lore",
+    "why attack thistlefur"
+   ],
+   "answer": "Dal Bloodclaw leads the Thistlefur tribe directly north of Astranaar. With their numbers multiplying rapidly, Wolfrunner fears Bloodclaw will lead a direct raid on the town if his leadership is not severed."
+  },
+  {
+   "q": "Why are the Thistlefur furbolgs hostile to the night elves?",
+   "aliases": [
+    "why do furbolgs attack",
+    "corrupted furbolgs ashenvale",
+    "thistlefur lore"
+   ],
+   "answer": "Although furbolgs and night elves were historic allies, demonic and corrupting influences across Ashenvale have driven many tribes, including the Thistlefur, into violent frenzy and territorial paranoia."
+  },
+  {
+   "q": "Where can Dal Bloodclaw be found?",
+   "aliases": [
+    "dal bloodclaw location",
+    "where is dal bloodclaw"
+   ],
+   "answer": "Dal Bloodclaw resides in the Thistlefur Village and its nearby barrows directly north of Astranaar in Ashenvale."
+  },
+  {
+   "q": "Does killing Dal Bloodclaw solve the furbolg threat permanently?",
+   "aliases": [
+    "is thistlefur defeated",
+    "did we save astranaar"
+   ],
+   "answer": "No. Raene Wolfrunner notes that slaying Dal Bloodclaw only stifles their aggression for a time. As long as corruption grips Ashenvale, the furbolg population remains an enduring danger."
+  },
+  {
+   "q": "What proof of Dal Bloodclaw's death is required?",
+   "aliases": [
+    "what do i bring raene",
+    "culling the threat turn in item"
+   ],
+   "answer": "You must take Dal Bloodclaw's Skull and deliver it directly to Raene Wolfrunner in Astranaar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For kaldorei, striking down the furbolgs is a tragic necessity, mourning the corruption of ancient allies while taking brutal measures to shield Astranaar from ruin."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Holding Astranaar is essential for Alliance supply lines and communication across central Kalimdor, making any threat north of town an urgent tactical priority."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids view the madness of the Thistlefur tribe with deep sorrow, witnessing how the lingering taint upon Ashenvale drives noble wildkin into bloodthirsty beasts."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "culling the threat",
+  "dal bloodclaw",
+  "furbolg",
+  "raene wolfrunner",
+  "thistlefur"
+ ],
+ "related": [
+  "npc:raene-wolfrunner",
+  "subzone:astranaar",
+  "zone:ashenvale",
+  "topic:furbolg",
+  "zone:darnassus",
+  "topic:elune"
+ ],
+ "attribution": [
+  "Culling the Threat"
+ ]
+}

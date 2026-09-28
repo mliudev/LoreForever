@@ -1,0 +1,126 @@
+{
+ "key": "quest:827",
+ "type": "quest",
+ "name": "Skull Rock",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   827
+  ],
+  "level": "12",
+  "faction": "Horde",
+  "start": "Margoz",
+  "end": "",
+  "previous": "Margoz (Classic)",
+  "next": "Neeru Fireblade (quest)",
+  "wiki": "Skull Rock (Classic)",
+  "chain": []
+ },
+ "summary": "Assigned by the hermit Margoz, this task directs Horde adventurers into the cavern of Skull Rock just east of Orgrimmar. The cave has been overrun by the Burning Blade cult, who use painful demonic devices to bind themselves to dark magic. Securing these cursed artifacts allows Margoz to study the cult's presence right on the capital's doorstep.",
+ "sections": [
+  {
+   "title": "A Den of Shadows",
+   "body": "Skull Rock is a forbidding sea cave nestled along the craggy eastern coastline of Durotar. While seemingly isolated, it sits distressingly close to the mighty gates of Orgrimmar. Rather than housing wild beasts or mere outlaws, the caverns harbor a cell of the Burning Blade\u2014the shadowy demonic cult that has long plagued orcish society. Within these dim tunnels, cultists conduct unholy rituals under the nose of the Warchief's scouts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Demonic Attunement",
+   "body": "The cultists operating within Skull Rock wear Searing Collars, torcs designed to scorch and brand their own flesh. According to Margoz, this self-inflicted torment is far from mindless cruelty; the searing agony and fel sorcery embedded in the metal serve to attune the wearers to demonic power. By recovering these artifacts, Margoz intends to unravel the exact spells and bindings empowering the Burning Blade's ranks.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Looming Threat",
+   "body": "Uncovering the secret behind the collars confirms that the cult's presence in Durotar is deliberate and organized. The Burning Blade does not simply operate as scattered brigands; their sorceries run deep and pose an active, insidious threat to the newly established Horde territories. Analyzing the collars sets off a chain of inquiries that leads directly into the shadowy circles of Orgrimmar itself.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Skull Rock located?",
+   "aliases": [
+    "skull rock location",
+    "where is skull rock",
+    "skull rock cave durotar"
+   ],
+   "answer": "Skull Rock is a coastal cavern located in northeastern Durotar, tucked along the shoreline east of Orgrimmar and north of Sen'jin Village. It is identified by the craggy cliffside framing the entrance."
+  },
+  {
+   "q": "Who is the Burning Blade?",
+   "aliases": [
+    "what is burning blade",
+    "who are burning blade cultists",
+    "burning blade lore"
+   ],
+   "answer": "The Burning Blade is a dangerous cult of orcs and fel-worshipers dedicated to demonic entities and dark magic. Though the modern Horde broke away from demonic servitude, splinter groups like the Burning Blade continue to practice forbidden rituals to corrupt the Horde from the shadows."
+  },
+  {
+   "q": "What do the cultists use the Searing Collars for?",
+   "aliases": [
+    "searing collars purpose",
+    "why wear searing collars",
+    "what are searing collars"
+   ],
+   "answer": "The cultists wear the fiery metal bands around their necks to burn their own flesh. Margoz suspects that this ritualistic pain and demonic enchantment allows them to channel and attune themselves to dark fel energies."
+  },
+  {
+   "q": "Who is Margoz?",
+   "aliases": [
+    "who is margoz",
+    "margoz durotar",
+    "margoz questgiver"
+   ],
+   "answer": "Margoz is an orcish hermit dwelling in a small camp atop the bluffs of Durotar, near Skull Rock. He keeps a watchful eye on cultist movements along the coast and works to dismantle the Burning Blade's dark operations."
+  },
+  {
+   "q": "Why does the Horde allow the cult so close to Orgrimmar?",
+   "aliases": [
+    "why is skull rock near orgrimmar",
+    "orgrimmar burning blade nearby"
+   ],
+   "answer": "They do not knowingly tolerate it. The cult operates in deep secrecy, hiding within sea caves and desolate ravines where regular patrols rarely reach. Adventurers are sent to investigate precisely because the cultists manage to conceal their footholds until their dark rituals begin."
+  },
+  {
+   "q": "What happens after Margoz examines the collars?",
+   "aliases": [
+    "next quest after skull rock",
+    "where do collars lead",
+    "margoz spell"
+   ],
+   "answer": "Margoz casts an investigative spell over the gathered collars to divine their origin and magical signature. The magical backlash and revealed secrets urge him to send you into Orgrimmar to seek out others knowledgeable in fel sorcery."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "The Burning Blade represents the dark past the orcs fight every day to leave behind; purging them from the rocks of Durotar is a matter of survival and honor."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The Searing Collars demonstrate crude but potent fel bindings, offering dark practitioners a glimpse into how the cult channels demonic sacrifice into raw power."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "A demonic cult festering just outside the walls of Orgrimmar threatens the very heart and security of the young Horde."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "cultists",
+  "demonic",
+  "durotar",
+  "fel",
+  "margoz",
+  "orgrimmar",
+  "searing collar",
+  "skull rock"
+ ],
+ "related": [
+  "quest:828",
+  "zone:durotar",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Skull Rock (Classic)"
+ ]
+}

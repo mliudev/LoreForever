@@ -1,0 +1,127 @@
+{
+ "key": "quest:875",
+ "type": "quest",
+ "name": "Harpy Lieutenants",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   875
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Darsok Swiftdagger",
+  "end": "",
+  "previous": "Harpy Raiders (Classic)",
+  "next": "Serena Bloodfeather (Classic)",
+  "wiki": "Harpy Lieutenants (Classic)",
+  "chain": [
+   "Harpy Raiders (Classic)",
+   "Harpy Lieutenants (Classic)",
+   "Serena Bloodfeather (Classic)",
+   "Letter to Jin'Zil (quest)"
+  ]
+ },
+ "summary": "Harpy Lieutenants is a Horde quest directed by Darsok Swiftdagger at the Crossroads. Continuing the military campaign against the Witchwing coven in the northern Barrens, champions are sent into the Dry Hills to assassinate the flock's front-line officers and shatter their chain of command.",
+ "sections": [
+  {
+   "title": "Targeting the Officers",
+   "body": "Following initial clashes against common Witchwing raiders, Darsok Swiftdagger escalates the offensive against the harpies roosting in the Dry Hills. Rather than continuing to thin the rank and file, Darsok tasks Horde scouts with targeting the Witchwing Slayers serving as lieutenants. These officers maintain discipline among the lower flock and coordinate raids against Horde supply paths, making their elimination critical to securing the northern approaches of the Barrens.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tokens of Rank",
+   "body": "Because Witchwing Slayers lead their kin through brutal strength and dominance, only the most vicious among them carry the ornate rings denoting authority within their matriarchy. Taking these rings serves as proof of death, breaking the tactical coordination of the roost and sending a direct, ruthless message to the coven that attacks on Horde territory will be met with decisive retribution.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Path to the Matriarch",
+   "body": "Executing these officers leaves the lower flock in disarray, but it serves a broader strategic purpose. Stripping the Witchwing roost of its field commanders weakens the perimeter around the heights of the Dry Hills, laying bare the inner sanctum of their matriarch, Serena Bloodfeather.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find the harpy lieutenants?",
+   "aliases": [
+    "lieutenant location",
+    "where are witchwing slayers",
+    "harpy lieutenant rings location"
+   ],
+   "answer": "The harpy lieutenants are found in the Dry Hills, a jagged canyon region in the far northern reaches of the Barrens, northwest of the Crossroads. Look for Witchwing Slayers patrolling the hills."
+  },
+  {
+   "q": "How are these lieutenants identified among the flock?",
+   "aliases": [
+    "which harpies have rings",
+    "witchwing slayer identification"
+   ],
+   "answer": "Within the Witchwing coven, only the Witchwing Slayers serve as lieutenants. They carry distinctive harpy rings that signify their authority over lesser scouts and raiders."
+  },
+  {
+   "q": "Who issues this bounty?",
+   "aliases": [
+    "who gives harpy lieutenants",
+    "darsok swiftdagger role"
+   ],
+   "answer": "Darsok Swiftdagger, an orc scout and coordinator stationed at the Crossroads in the Barrens, assigns the contract to protect Horde interests and punish harpy incursions."
+  },
+  {
+   "q": "Why does the Horde want to kill the lieutenants instead of just regular harpies?",
+   "aliases": [
+    "why kill lieutenants",
+    "harpy chain of command"
+   ],
+   "answer": "The lieutenants direct the lower underlings and organize predatory strikes. Eliminating them shatters the matriarchy's leadership and leaves the remaining harpies disorganized and vulnerable."
+  },
+  {
+   "q": "What comes after eliminating the lieutenants?",
+   "aliases": [
+    "next quest after lieutenants",
+    "what to do next"
+   ],
+   "answer": "Once the lieutenants are slain, Darsok Swiftdagger directs champions to hunt down the matriarch of the flock herself, Serena Bloodfeather, atop the highest bluffs of the Dry Hills."
+  },
+  {
+   "q": "Why are the Witchwing harpies a threat to the Crossroads?",
+   "aliases": [
+    "why fight harpies",
+    "witchwing threat"
+   ],
+   "answer": "The Witchwing coven infests the northern passes of the Barrens, preying on travelers, supply caravans, and patrols attempting to traverse between the Crossroads, Durotar, and Ashenvale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Securing the northern corridors of the Barrens is essential for establishing stable lines of communication between Durotar, Mulgore, and the Ashenvale logging camps."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Darsok Swiftdagger relies on surgical assassinations against high-value officers rather than costly open warfare, playing directly into rogue expertise."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "darsok swiftdagger",
+  "dry hills",
+  "harpy lieutenant ring",
+  "harpy lieutenants",
+  "serena bloodfeather",
+  "witchwing slayer"
+ ],
+ "related": [
+  "quest:867",
+  "quest:876",
+  "npc:darsok-swiftdagger",
+  "subzone:dry-hills",
+  "subzone:crossroads",
+  "topic:harpy",
+  "zone:barrens",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Harpy Lieutenants (Classic)"
+ ]
+}

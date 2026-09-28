@@ -1,0 +1,87 @@
+{
+ "key": "subzone:sea-of-cinders",
+ "type": "subzone",
+ "name": "Sea of Cinders",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Sea of Cinders"
+ },
+ "summary": "The Sea of Cinders is an expanse of scorched, windblown terrain lying across the southern stretch of the Searing Gorge, directly north of Blackrock Mountain. Ravaged by elemental heat and relentless gusts, the flat ground constantly vents ash and embers, creating a choking wasteland where very little can endure.",
+ "sections": [
+  {
+   "title": "A Wasteland of Embers",
+   "body": "Stretching between the rocky cliffs of the Searing Gorge and the imposing bulk of Blackrock Mountain, the Sea of Cinders earns its name from the suffocating haze of particulate and burning grit that constantly sweeps its plains. When the Firelord Ragnaros was summoned into the mortal world centuries ago, the violent upheaval fractured the Redridge Mountains and transformed the surrounding landscape into an arid slag heap. The Sea of Cinders is among the most barren remnants of that cataclysm, an uninhabitable plain where the earth itself refuses to cool.",
+   "spoiler": 0
+  },
+  {
+   "title": "Peril Beneath the Slopes",
+   "body": "Because it borders the north approach to Blackrock Mountain, travelers and scavengers often have no choice but to cross these scorching flats. The winds here kick up dense clouds of blinding ash that hide sudden fissures, elemental horrors, and wandering predators adapted to the searing heat. Between the hostile environment and the looming presence of the Dark Iron dwarves who claim the region, any trek across the cinders demands vigilance and swift passage.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sea of Cinders?",
+   "aliases": [
+    "what is sea of cinders",
+    "sea of cinders lore",
+    "where is sea of cinders"
+   ],
+   "answer": "It is a desolate, ash-covered flatland located in southern Searing Gorge, right against the northern face of Blackrock Mountain. It is blanketed in smoldering dirt and flying embers."
+  },
+  {
+   "q": "Why is the ground constantly burning?",
+   "aliases": [
+    "why is it on fire",
+    "why are there cinders",
+    "why does the ground smoke"
+   ],
+   "answer": "The region was utterly devastated centuries ago when Sorcerer-Thane Thaurissan summoned the Firelord Ragnaros during the War of the Three Hammers. The catastrophic eruption superheated the earth and shattered the mountains, leaving plains that still smolder to this day."
+  },
+  {
+   "q": "Does anyone live here?",
+   "aliases": [
+    "who lives here",
+    "sea of cinders inhabitants",
+    "settlements"
+   ],
+   "answer": "No organized settlement exists within the Sea of Cinders itself. The suffocating heat, poor air, and lack of water make permanent habitation impossible, leaving the expanse occupied only by wandering beasts, fire elementals, and patrols affiliated with Blackrock Mountain."
+  },
+  {
+   "q": "What makes traveling through here dangerous?",
+   "aliases": [
+    "is it safe",
+    "dangers of sea of cinders"
+   ],
+   "answer": "Aside from the hostile fauna and Dark Iron dwarves lurking near the mountain, the environment itself is lethal. The air is thick with blinding soot and burning ash, and deep thermal rifts riddle the flat terrain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The volatile, heat-cracked stone skirting Blackrock Mountain frequently exposes rich mineral deposits and dark iron veins to those brave enough to prospect among the drifting ash."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "For Bronzebeard and Wildhammer dwarves, walking through these burning wastes is a grim reminder of Thaurissan's folly and the dark powers that shattered the Redridge Mountains."
+  }
+ ],
+ "keywords": [
+  "ash",
+  "blackrock mountain",
+  "dark iron",
+  "embers",
+  "ragnaros",
+  "sea of cinders",
+  "searing gorge",
+  "wasteland"
+ ],
+ "related": [
+  "zone:searinggorge",
+  "subzone:blackrock-mountain"
+ ],
+ "attribution": [
+  "Sea of Cinders"
+ ]
+}

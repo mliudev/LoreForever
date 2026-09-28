@@ -1,0 +1,124 @@
+{
+ "key": "quest:1025",
+ "type": "quest",
+ "name": "An Aggressive Defense",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1025
+  ],
+  "level": "24",
+  "faction": "Alliance",
+  "start": "Raene Wolfrunner",
+  "end": "",
+  "previous": "Raene's Cleansing (2)",
+  "next": null,
+  "wiki": "An Aggressive Defense",
+  "chain": []
+ },
+ "summary": "An Aggressive Defense is an Alliance quest given by Sentinel Raene Wolfrunner in Astranaar. Faced with rampant furbolg corruption along the central thoroughfares of Ashenvale, the night elves are forced to mount an active cull against the maddened Foulweald tribe.",
+ "sections": [
+  {
+   "title": "Threat to the Highway",
+   "body": "The road running east from Astranaar toward the Falfarren River serves as a vital lifeline through Ashenvale, but it has grown exceedingly dangerous. Furbolgs driven mad by demonic corruption have begun raiding travelers directly off the main trail. Rather than simply manning barricades and waiting for the next ambush, Sentinel Raene Wolfrunner dispatches capable adventurers to break the Foulweald camps located just south of the highway.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bitter History",
+   "body": "Striking down the Foulweald furbolgs carries a tragic weight for the night elves. The bear-folk were longtime friends and allies of the kaldorei throughout ancient ages, sharing reverence for nature and the wild gods. However, the lingering taint of the Burning Legion's invasion shattered the minds of many tribes, warping peaceful neighbors into bloodthirsty reavers whose violence threatens innocent travelers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this task and where are they located?",
+   "aliases": [
+    "quest giver",
+    "who gives an aggressive defense",
+    "raene wolfrunner location"
+   ],
+   "answer": "The quest is provided by Raene Wolfrunner, a Sentinel commander stationed in Astranaar, the principal night elf settlement in central Ashenvale."
+  },
+  {
+   "q": "Why are the furbolgs in Ashenvale hostile?",
+   "aliases": [
+    "why are furbolgs mad",
+    "foulweald hostile",
+    "furbolg corruption"
+   ],
+   "answer": "The Foulweald tribe, like several other furbolg clans across Kalimdor, succumbed to the demonic taint left behind by the Burning Legion during the Third War. Their minds became warped and violent, driving them to butcher travelers and attack former allies."
+  },
+  {
+   "q": "Where are the Foulweald camps found?",
+   "aliases": [
+    "foulweald location",
+    "where to find foulweald",
+    "where are the furbolgs"
+   ],
+   "answer": "Their encampments lie south of the main eastern road running out of Astranaar, situated west of the Falfarren River."
+  },
+  {
+   "q": "Were the furbolgs always enemies of the night elves?",
+   "aliases": [
+    "furbolg night elf lore",
+    "were furbolgs good",
+    "kaldorei and furbolgs"
+   ],
+   "answer": "No. For thousands of years, the furbolgs and night elves lived side by side in harmony. It was only after demonic corruption swept through Ashenvale and Felwood that tribes like the Foulweald lost their sanity and turned hostile."
+  },
+  {
+   "q": "Does this quest connect to other events in Astranaar?",
+   "aliases": [
+    "quest prerequisites",
+    "raene cleansing connection"
+   ],
+   "answer": "Yes. Raene Wolfrunner offers this task as an interim defensive strike while directing heroes on investigations into corrupted moonwells and the broader cleansing of the forest."
+  },
+  {
+   "q": "What specific furbolgs must be eliminated?",
+   "aliases": [
+    "quest targets",
+    "who do i kill",
+    "foulweald targets"
+   ],
+   "answer": "Raene requires the culling of a Foulweald Den Watcher, two Ursas, ten Totemics, and twelve Warriors in order to shatter their command structure and disperse the threat near the road."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, executing the Foulweald is a somber necessity born of tragedy, turning blades upon former forest brethren who have completely lost their minds to corruption."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Clearing the Foulweald protects vital Alliance supply and transit lanes connecting Astranaar to eastern outposts across Ashenvale."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids view the madness of the Foulweald as a harrowing reminder of the fel taint afflicting Kalimdor's sacred wild sanctuaries."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "falfarren",
+  "foulweald",
+  "furbolg",
+  "raene wolfrunner",
+  "sentinels"
+ ],
+ "related": [
+  "npc:raene-wolfrunner",
+  "subzone:astranaar",
+  "topic:furbolg",
+  "topic:sentinels",
+  "zone:ashenvale",
+  "subzone:falfarren-river",
+  "subzone:moonwell-ashenvale",
+  "quest:1066"
+ ],
+ "attribution": [
+  "An Aggressive Defense"
+ ]
+}

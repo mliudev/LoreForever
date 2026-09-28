@@ -1,0 +1,84 @@
+{
+ "key": "subzone:whelgar-s-excavation-site",
+ "type": "subzone",
+ "name": "Whelgar's Excavation Site",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Whelgar's Excavation Site"
+ },
+ "summary": "Whelgar's Excavation Site is a dwarven archaeological dig in the eastern hills of the Wetlands. Intended to unearth ancient Titan relics and prehistoric secrets, the expedition ended in disaster when vicious mottled raptors overran the quarry. The surviving excavators were forced to abandon their findings and flee down the road to safety.",
+ "sections": [
+  {
+   "title": "A Ruined Expedition",
+   "body": "Spearheaded by dwarven prospectors searching for ancient fossils and earthen mysteries, the excavation carved out a massive quarry between Menethil Harbor and Dun Modr. However, unearthing prehistoric remnants drew the wrath of native mottled raptors and awakened bizarre fossilized monstrosities. Overwhelmed and under-equipped, the archaeologists retreated to a nearby camp overlooking the road, leaving their tents, tools, and unearthed relics scattered among prowling predators.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why was the excavation site abandoned?",
+   "aliases": [
+    "why is it abandoned",
+    "what happened to the digsite",
+    "why leave the dig"
+   ],
+   "answer": "The dwarven excavators accidentally disturbed the territory of aggressive mottled raptors and disturbed ancient, animate fossils. Overrun by these ferocious creatures, the surviving crew evacuated to an encampment known as Whelgar's Retreat just off the main road."
+  },
+  {
+   "q": "What were the dwarves looking for here?",
+   "aliases": [
+    "what are they digging for",
+    "purpose of the excavation",
+    "whelgar digsite goal"
+   ],
+   "answer": "The dwarves were digging for prehistoric fossils and subterranean artifacts in hopes of uncovering ancient clues about their Titan heritage and the world's distant past."
+  },
+  {
+   "q": "What threats roam the digsite now?",
+   "aliases": [
+    "what is in the excavation site",
+    "digsite mobs",
+    "raptors in wetlands"
+   ],
+   "answer": "The quarry floor and surrounding ridges are swarming with mottled raptors, animated fossil creatures, and dangerous primordial elementals, including the feared raptor matriarch Sarltooth."
+  },
+  {
+   "q": "Where did the surviving excavators go?",
+   "aliases": [
+    "where is whelgar",
+    "where are the dwarves",
+    "digsite survivors location"
+   ],
+   "answer": "The surviving dig crew fled southwest to Whelgar's Retreat, an encampment perched near the main road where they regroup and seek brave adventurers to recover their lost research."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Every dig abandoned to feral beasts is an insult to the Explorers' League. Reclaiming Whelgar's research means defending your heritage and taking back stolen Titan secrets."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The massive exposed quarry walls and unearthed bedrock offer prime veins for miners daring enough to work beneath the snarls of hungry raptors."
+  }
+ ],
+ "keywords": [
+  "digsite",
+  "excavation",
+  "fossils",
+  "raptors",
+  "sarltooth",
+  "wetlands",
+  "whelgar"
+ ],
+ "related": [
+  "subzone:whelgar-s-retreat",
+  "zone:wetlands",
+  "subzone:menethil-harbor",
+  "subzone:dun-modr"
+ ],
+ "attribution": [
+  "Whelgar's Excavation Site"
+ ]
+}

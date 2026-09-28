@@ -1,0 +1,120 @@
+{
+ "key": "npc:carendin-halgar",
+ "type": "npc",
+ "name": "Carendin Halgar",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Carendin Halgar",
+  "refs": 7
+ },
+ "summary": "Carendin Halgar is a prominent Forsaken warlock trainer residing in the Magic Quarter of the Undercity. Sharp-tongued and notoriously short on patience, he oversees the training of fledgling practitioners of the dark arts. He instructs aspiring warlocks on how to subjugate powerful demonic entities from the Twisting Nether, notably teaching the rituals to bind Voidwalkers and Succubi.",
+ "sections": [
+  {
+   "title": "Master of the Dark Arts",
+   "body": "Within the noxious gloom of the Undercity's Magic Quarter, Carendin Halgar instructs those who delve into the Twisting Nether. He demands focus and obedience, holding little tolerance for failure, hesitation, or weakness. Under his watchful gaze, warlocks are pushed beyond basic incantations into the dangerous mastery of summonings and soul manipulation, cementing the Forsaken's ruthless approach to demonic servitude.",
+   "spoiler": 0
+  },
+  {
+   "title": "Subjugating the Nether",
+   "body": "Carendin's core tutelage revolves around binding ever more dangerous demons to the summoner's will. He sends his students across Lordaeron and beyond to retrieve ancient runes, runic stones, and the distilled pure essence of mortals to complete treacherous summoning circles. Whether commanding a shadowy creature of the void or luring a temptress succubus into subjugation, Carendin ensures the warlock dominates the demon before it can devour its master.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Carendin Halgar be found?",
+   "aliases": [
+    "carendin halgar location",
+    "undercity warlock trainer location",
+    "where is halgar"
+   ],
+   "answer": "Carendin Halgar is located in the Magic Quarter of the Undercity, gathered among the other practitioners of fel and shadow magic."
+  },
+  {
+   "q": "What role does Carendin Halgar play for warlocks?",
+   "aliases": [
+    "what does carendin do",
+    "halgar purpose",
+    "carendin quests"
+   ],
+   "answer": "He serves as a mentor and questgiver for Horde warlocks, instructing them in the rituals required to summon and permanently bind major demons, such as the Voidwalker and the Succubus."
+  },
+  {
+   "q": "What is Carendin Halgar's personality like?",
+   "aliases": [
+    "halgar temperament",
+    "is carendin nice",
+    "carendin halgar lore"
+   ],
+   "answer": "He is notoriously blunt, demanding, and utterly devoid of patience. He expects prompt results from his pupils and despises wasting time or dealing with excuses."
+  },
+  {
+   "q": "Why does Carendin require pure hearts for summoning rituals?",
+   "aliases": [
+    "hearts of the pure purpose",
+    "succubus summoning carendin",
+    "why hearts of the pure"
+   ],
+   "answer": "In his lessons on summoning a succubus, Halgar tasks acolytes with procuring the untainted hearts of the pure, using their innocence and essence as bait to entice and ensnare the fiendish demon in a binding circle."
+  },
+  {
+   "q": "Does Carendin Halgar interact with warlocks outside the Undercity?",
+   "aliases": [
+    "carendin connections",
+    "halgar orgrimmar",
+    "gan'rul bloodeye carendin"
+   ],
+   "answer": "Yes, Carendin maintains contact with other senior warlocks across the Horde, including Gan'rul Bloodeye in Orgrimmar, coordinating efforts to advance the dark arts across Kalimdor and the Eastern Kingdoms."
+  },
+  {
+   "q": "Who does Carendin send advanced warlocks to see?",
+   "aliases": [
+    "seeking strahad",
+    "who does carendin send you to",
+    "halgar next mentor"
+   ],
+   "answer": "Once an acolyte demonstrates sufficient mastery over basic demons, Carendin directs them outward to seek further esoteric instruction, such as sending them to find the eccentric summoner Strahad Farsan in the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Carendin Halgar is a crucial mentor in Lordaeron, guiding warlocks through the grueling trials required to dominate and bind both Voidwalkers and Succubi."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Reflecting the uncompromising spirit of the Forsaken, Carendin shows no pity or hesitation, viewing demonic entities strictly as tools to be broken and exploited."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Carendin serves as the primary eastern conduit for Horde warlocks, coordinating training with fellow dark practitioners across the sea in Kalimdor."
+  }
+ ],
+ "keywords": [
+  "carendin halgar",
+  "creature of the void",
+  "forsaken",
+  "halgar",
+  "magic quarter",
+  "succubus",
+  "the binding",
+  "trainer",
+  "undercity",
+  "voidwalker",
+  "warlock"
+ ],
+ "related": [
+  "subzone:magic-quarter",
+  "zone:undercity",
+  "quest:1473",
+  "quest:1471",
+  "quest:1476",
+  "quest:1472",
+  "quest:1798",
+  "npc:gan-rul-bloodeye"
+ ],
+ "attribution": [
+  "Carendin Halgar"
+ ]
+}

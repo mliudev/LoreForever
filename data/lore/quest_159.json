@@ -1,0 +1,112 @@
+{
+ "key": "quest:159",
+ "type": "quest",
+ "name": "Juice Delivery",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   159
+  ],
+  "level": "24",
+  "faction": "Alliance",
+  "start": "Tavernkeep Smitts",
+  "end": "Abercrombie",
+  "previous": "Gather Rot Blossoms (Classic)",
+  "next": "Ogre Thieves (Classic)",
+  "wiki": "Juice Delivery (Classic)",
+  "chain": []
+ },
+ "summary": "Juice Delivery is an errand running between Darkshire and the western edge of Duskwood. Tavernkeep Smitts entrusts you with a potent concoction known as Zombie Juice to deliver to the reclusive hermit, Abercrombie. While ostensibly meant to keep the shivering old man warm, the brew's uncanny potency raises eyebrows.",
+ "sections": [
+  {
+   "title": "A Dubious Concoction",
+   "body": "Tavernkeep Smitts of Darkshire brews a legendary draught known colloquially as Zombie Juice. When the order is finally filled, Smitts hands over the bottle with a stern warning to handle it gingerly, remarking that the concoction is stout enough to raise the dead. For a tired adventurer running errands across a haunted forest, delivering high-proof moonshine to an eccentric loner feels like routine charity.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Hermit's Slip",
+   "body": "Carrying the volatile brew west past the howling worgen and restless dead leads straight to Abercrombie's shack on the edge of the woods. Upon receiving the bottle, the frail recluse claims he requires the liquor merely to warm his aching bones through Duskwood's freezing, fog-choked nights. Yet upon taking possession of it, he nearly thanks the traveler for their 'foolishness' before quickly correcting himself to praise their 'kindness'\u2014a momentary lapse that hints there is far more brewing in the hermit's mind than a simple evening drink.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Zombie Juice?",
+   "aliases": [
+    "zombie juice lore",
+    "what is smitts juice",
+    "abercrombie drink"
+   ],
+   "answer": "Zombie Juice is an extremely potent brew crafted by Tavernkeep Smitts at the Scarlet Raven Tavern in Darkshire. While treated as a strong alcoholic drink, Smitts notes that the brew is potent enough to wake the dead, making it far more volatile than ordinary spirits."
+  },
+  {
+   "q": "Who orders the Zombie Juice?",
+   "aliases": [
+    "who wants the juice",
+    "who is juice delivery for"
+   ],
+   "answer": "The delivery is requested by Abercrombie, an eccentric old hermit living in a lonely shack out near the western boundary of Duskwood."
+  },
+  {
+   "q": "Why does Abercrombie want the drink?",
+   "aliases": [
+    "why does abercrombie need juice",
+    "abercrombie cold"
+   ],
+   "answer": "Abercrombie claims he needs the drink to keep him warm during the bitterly cold, damp nights in Duskwood. However, his slip of the tongue when receiving the bottle hints he has far more sinister designs for the concoction."
+  },
+  {
+   "q": "Who brews the Zombie Juice?",
+   "aliases": [
+    "who makes zombie juice",
+    "smitts barkeep"
+   ],
+   "answer": "Tavernkeep Smitts, the barkeep running the Scarlet Raven Tavern in the heart of Darkshire, brews the drink personally once provided with the necessary pungent ingredients."
+  },
+  {
+   "q": "Where is Abercrombie's shack?",
+   "aliases": [
+    "abercrombie location",
+    "where is abercrombie shack"
+   ],
+   "answer": "Abercrombie's shack sits isolated in western Duskwood, northwest of the cemetery hills and just east of the mountain pass leading toward Westfall."
+  },
+  {
+   "q": "What does Abercrombie do next after receiving the juice?",
+   "aliases": [
+    "next quest after juice delivery",
+    "what happens next"
+   ],
+   "answer": "Once he secures the Zombie Juice, Abercrombie continues imposing on gullible travelers, sending them on further errands into the dangerous territory of local ogres to fetch his stolen belongings."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Darkshire's citizens rely on brave Alliance couriers to traverse the peril-filled roads of Duskwood, though trusting every hermit in the woods can lead to unforeseen trouble."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Tavernkeep Smitts' recipe for Zombie Juice leans heavily on pungent, unconventional ingredients, testing the limits of what passes for a tavern beverage."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "darkshire",
+  "duskwood",
+  "juice delivery",
+  "scarlet raven",
+  "tavernkeep smitts",
+  "zombie juice"
+ ],
+ "related": [
+  "quest:158",
+  "npc:abercrombie",
+  "npc:tavernkeep-smitts",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Juice Delivery (Classic)"
+ ]
+}

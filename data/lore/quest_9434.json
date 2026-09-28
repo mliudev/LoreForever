@@ -1,0 +1,115 @@
+{
+ "key": "quest:9434",
+ "type": "quest",
+ "name": "Testing the Tonic",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   9434
+  ],
+  "level": "28",
+  "faction": "Horde",
+  "start": "Wizlo Bearingshiner",
+  "end": "Magistrix Elosai",
+  "previous": "A Dip in the Moonwell",
+  "next": null,
+  "wiki": "Testing the Tonic",
+  "chain": [
+   "A Different Approach (BC Classic)",
+   "A Dip in the Moonwell",
+   "Testing the Tonic"
+  ]
+ },
+ "summary": "Testing the Tonic is the culmination of Magistrix Elosai's research in Thousand Needles to find a remedy for the blood elves' magic addiction. Players deliver the final crate of assembled reagents from the goblin engineer Wizlo Bearingshiner at Whitereach Post to Freewind Post so the concoction can be tested.",
+ "sections": [
+  {
+   "title": "The Goblin's Contribution",
+   "body": "Wizlo Bearingshiner at Whitereach Post packs the final components of Magistrix Elosai's request into a single crate. Alongside earth collected from local boulderkin and specialized samples gathered across the canyons, the crate includes moonwell water secured by a mechanical diver. With his mechanical task accomplished, the goblin hands off the package, sending his regards and best wishes to the elven scholar high atop Freewind Post.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Desperate Quest for a Cure",
+   "body": "At Freewind Post, Magistrix Elosai eagerly receives the crate. Ever since the destruction of the Sunwell in Quel'Thalas, her people have suffered from a debilitating craving for arcane energy. Elosai believes that combining primordial earthen reagents with purified moonwell water may yield a restorative tonic capable of dampening or curing the magical withdrawal plaguing the blood elves, treating this trial run as a potential turning point in history.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in the Crate of Reagents?",
+   "aliases": [
+    "crate contents",
+    "what did wizlo give me",
+    "tonic ingredients"
+   ],
+   "answer": "The crate holds an assortment of exotic materials gathered throughout Thousand Needles, including boulderkin earth, miscellaneous local reagents, and purified moonwell water gathered via Wizlo's mechanical submersible."
+  },
+  {
+   "q": "Who is Magistrix Elosai?",
+   "aliases": [
+    "magistrix elosai lore",
+    "who is elosai",
+    "blood elf at freewind"
+   ],
+   "answer": "Magistrix Elosai is a blood elf researcher staying at Freewind Post in Thousand Needles. She is investigating experimental alchemical methods to ease the crippling magical addiction afflicting her kin after the fall of the Sunwell."
+  },
+  {
+   "q": "Why does Magistrix Elosai need moonwell water?",
+   "aliases": [
+    "why moonwell water",
+    "moonwell tonic"
+   ],
+   "answer": "Moonwells hold pristine, potent magic nurtured by nature and the cosmos. Elosai hopes that blending this purest form of untainted water with primordial earth will yield a stabilizing tonic to satisfy or suppress arcane withdrawal."
+  },
+  {
+   "q": "Where do I take the crate?",
+   "aliases": [
+    "turn in location",
+    "where is elosai",
+    "deliver crate"
+   ],
+   "answer": "Take the crate to Magistrix Elosai, who can be found high atop the mesa of Freewind Post in Thousand Needles, overlooking the canyon floor."
+  },
+  {
+   "q": "Who is Wizlo Bearingshiner?",
+   "aliases": [
+    "wizlo",
+    "goblin engineer whitereach"
+   ],
+   "answer": "Wizlo Bearingshiner is a goblin engineer stationed at Whitereach Post who assisted Elosai by building and operating mechanical apparatuses to retrieve rare water samples."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Although blood elves are distant travelers navigating their own hardships, Horde adventurers assist Elosai's research atop Freewind Post as part of broader cooperation across Kalimdor."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Arcanists understand all too well the gnawing hunger of arcane dependence and the profound stakes behind Elosai's experimental tonic."
+  }
+ ],
+ "keywords": [
+  "blood elf tonic",
+  "crate of reagents",
+  "freewind post",
+  "magic addiction",
+  "magistrix elosai",
+  "testing the tonic",
+  "whitereach post",
+  "wizlo bearingshiner"
+ ],
+ "related": [
+  "quest:9433",
+  "quest:9431",
+  "npc:magistrix-elosai",
+  "npc:wizlo-bearingshiner",
+  "subzone:freewind-post",
+  "subzone:whitereach-post",
+  "zone:thousandneedles",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Testing the Tonic"
+ ]
+}

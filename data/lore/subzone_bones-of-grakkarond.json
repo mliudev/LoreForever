@@ -1,0 +1,66 @@
+{
+ "key": "subzone:bones-of-grakkarond",
+ "type": "subzone",
+ "name": "Bones of Grakkarond",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Bones of Grakkarond"
+ },
+ "summary": "The Bones of Grakkarond are the skeletal remains of a massive bronze dragon lying bleached under the sun of central Silithus. Slain during the ancient War of the Shifting Sands, this fallen wyrm serves as a grim monument held sacred by the qiraji's Anubisath sentinels.",
+ "sections": [
+  {
+   "title": "A Monument of the Shifting Sands",
+   "body": "Sprawled across the windswept dunes of central Silithus lies the colossal ribcage and skull of Grakkarond, a bronze dragon who met his demise during the ancient War of the Shifting Sands. In that apocalyptic clash a millennium ago, the great dragon was struck down by Ossirian the Unscarred, an Anubisath warrior elevated by the dark powers of the city-kingdom. To the Anubisath, this battlefield trophy is a sacred testament to their might over the dragonflights, left untouched where he fell.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Whose bones are these?",
+   "aliases": [
+    "who was grakkarond",
+    "what dragon died here",
+    "dragon skeleton silithus"
+   ],
+   "answer": "These are the remains of Grakkarond, a great bronze dragon of the Bronze Dragonflight. He fell in battle against the insectoid forces of Ahn'Qiraj a thousand years ago during the War of the Shifting Sands."
+  },
+  {
+   "q": "Who killed Grakkarond?",
+   "aliases": [
+    "who killed the dragon",
+    "how did grakkarond die"
+   ],
+   "answer": "Grakkarond was slain by the Anubisath warrior Ossirian the Unscarred. Ossirian's triumph over the bronze wyrm earned him immense renown and dark blessings from the masters of Ahn'Qiraj."
+  },
+  {
+   "q": "Why do the Anubisath revere this place?",
+   "aliases": [
+    "why are the bones sacred",
+    "anubisath bones"
+   ],
+   "answer": "The Anubisath consider the skeleton sacred because it commemorates their decisive victory over a mighty dragonflight. It stands in the open dunes as a triumphant symbol of their strength against those who came to seal them away."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The skeleton serves as a stark reminder of the War of the Shifting Sands, where kaldorei and the four dragonflights fought side-by-side to push back the qiraji onslaught."
+  }
+ ],
+ "keywords": [
+  "anubisath",
+  "bones of grakkarond",
+  "bronze dragon",
+  "grakkarond",
+  "ossirian the unscarred",
+  "silithus",
+  "war of the shifting sands"
+ ],
+ "related": [
+  "zone:silithus"
+ ],
+ "attribution": [
+  "Bones of Grakkarond"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "subzone:tinker-town",
+ "type": "subzone",
+ "name": "Tinker Town",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Tinker Town"
+ },
+ "summary": "Tinker Town is the bustling gnomish quarter nestled within the subterranean dwarven city of Ironforge. Established to shelter refugees following the tragic fall of Gnomeregan, the district serves as the seat of High Tinker Gelbin Mekkatorque's government-in-exile and the primary terminus for the Deeprun Tram.",
+ "sections": [
+  {
+   "title": "A Home in Exile",
+   "body": "When subterranean troggs overran the high-tech city of Gnomeregan, the dwarven hosts of Ironforge opened their gates to the survivors. To accommodate the sudden influx of refugees, a cavernous district\u2014previously home to dwarven residents and the entrance to the Deeprun Tram\u2014was set aside for them. Under the watchful eye of High Tinker Gelbin Mekkatorque and his council, Tinker Town quickly became an energetic hub of whirring gears, experimental alchemy, and gadgetry. Despite being cramped guests in a stone city, the gnomes have rebuilt a semblance of their civilization around a massive spherical contraption, determined to reclaim their subterranean homeland.",
+   "spoiler": 0
+  },
+  {
+   "title": "Subway and Secrets",
+   "body": "Beyond housing the gnomish leadership, Tinker Town is one of the most strategically significant transit hubs on the continent. The district hosts the Ironforge entrance to the Deeprun Tram, an engineering wonder that swiftly links the dwarven capital to Stormwind. The dizzying hum of gizmos and the constant flow of travelers also makes the district ideal for covert activities. SI:7 master Mathias Shaw frequently seeks recruits among the district's gnomes, citing their intellect, nimble hands, and unassuming demeanor as ideal assets for gathering intelligence across Azeroth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are gnomes living in Ironforge instead of their own city?",
+   "aliases": [
+    "why are gnomes here",
+    "why do gnomes live in ironforge",
+    "gnome refugees ironforge"
+   ],
+   "answer": "Gnomeregan fell to a sudden, devastating invasion of primitive troggs. Rather than burdening the Alliance during the Third War, the gnomes fought alone and were ultimately forced to evacuate. King Magni Bronzebeard offered Ironforge as a sanctuary, allowing High Tinker Mekkatorque to establish this district as their temporary capital in exile."
+  },
+  {
+   "q": "What is the Deeprun Tram entrance doing here?",
+   "aliases": [
+    "where does the tram go",
+    "tram in tinkertown",
+    "tinkertown portal"
+   ],
+   "answer": "The Deeprun Tram was built as a collaborative engineering marvel between gnomes and dwarves to connect Ironforge directly to Stormwind City. The tram's Ironforge terminus opens right into Tinker Town, providing high-speed transit between the two Alliance capitals."
+  },
+  {
+   "q": "Did dwarves get displaced to make room for Tinker Town?",
+   "aliases": [
+    "dwarves kicked out for gnomes",
+    "who lived here before"
+   ],
+   "answer": "Yes. When the sudden mass of refugees flooded out of Gnomeregan, Ironforge quickly repurposed this ward to house them. Several former dwarven residents, such as Skuerto, found themselves pushed out of the city entirely to make space for the newcomers."
+  },
+  {
+   "q": "Why does SI:7 recruit in Tinker Town?",
+   "aliases": [
+    "spies in tinkertown",
+    "mathias shaw gnomes",
+    "si7 tinkertown"
+   ],
+   "answer": "Mathias Shaw values gnomes for their sharp intelligence, technological aptitude, and physical dexterity. Their small stature and non-threatening appearance allow them to move through places unseen or underestimated, making them exceptionally capable field operatives for Stormwind intelligence."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Tinker Town is the heart of your exiled people. Here, surrounded by clanking prototypes and fellow survivors, High Tinker Mekkatorque directs ongoing efforts to reclaim Gnomeregan."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "For engineers, Tinker Town is an essential stop in Ironforge, offering specialized trainers, gadget vendors, and parts alongside the Deeprun Tram."
+  }
+ ],
+ "keywords": [
+  "deeprun tram",
+  "engineering",
+  "gnomeregan",
+  "ironforge",
+  "mekkatorque",
+  "skuerto",
+  "tinker town",
+  "tinkertown"
+ ],
+ "related": [
+  "zone:ironforge",
+  "zone:gnomeregan",
+  "subzone:deeprun-tram",
+  "topic:gnome",
+  "topic:trogg",
+  "npc:skuerto",
+  "npc:mathias-shaw"
+ ],
+ "attribution": [
+  "Tinker Town"
+ ]
+}

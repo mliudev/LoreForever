@@ -1,0 +1,90 @@
+{
+ "key": "subzone:mirage-raceway",
+ "type": "subzone",
+ "name": "Mirage Raceway",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Mirage Raceway"
+ },
+ "summary": "The Mirage Raceway is an impromptu engineering proving ground situated in the shimmering salt flats of Thousand Needles. Founded on the heated rivalry between goblin tinkerer Pozzik and gnome engineer Fizzle Brassbolts, it pits high-speed rocket cars against one another across the baked earth. The track serves as a neutral gathering place where members of both the Alliance and Horde come to wager, tinker, and cheer on their favored machines.",
+ "sections": [
+  {
+   "title": "Speed, Salt, and Rivalry",
+   "body": "Sprawled across the vast white desert floor of the Shimmering Flats, the Mirage Raceway was born out of an unrelenting grudge match between two master tinkerers: the goblin Pozzik and the gnome Fizzle Brassbolts. Determined to settle once and for all whose race possesses superior technical ingenuity, the two constructed custom rocket-powered drag cars and recruited rival crews to pit them against each other in daily high-velocity showdowns. The relentless competition has turned the barren flats into a bustling hub of invention, sabotage, and testing as each crew desperately looks for any mechanical advantage.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Neutral Crossroads",
+   "body": "Because both teams need supplies, fuel, and test pilots, the raceway maintains an uneasy truce between the Horde and Alliance. Spectators gather from across Kalimdor to cheer on either gnome precision or goblin firepower, while gamblers and shady opportunists thrive on the constant wagers placed on the results. Beyond the roar of rocket thrusters, the camps serve as a busy trading depot for travelers journeying between Thousand Needles and the blazing sands of Tanaris.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Mirage Raceway?",
+   "aliases": [
+    "what is mirage raceway",
+    "raceway purpose",
+    "shimmering flats track"
+   ],
+   "answer": "The Mirage Raceway is an open-air rocket-car drag strip laid across the salt flats of Thousand Needles. It was built by rival engineers seeking to prove whether goblin or gnome mechanics are superior."
+  },
+  {
+   "q": "Who runs the races here?",
+   "aliases": [
+    "who leads raceway",
+    "fizzle and pozzik",
+    "who built this track"
+   ],
+   "answer": "The track is maintained jointly by the gnome engineer Fizzle Brassbolts and the goblin tinkerer Pozzik. Each operates a dedicated crew and workshop along the raceway to field competing rocket cars."
+  },
+  {
+   "q": "Can Horde and Alliance both use this area?",
+   "aliases": [
+    "is mirage raceway neutral",
+    "can alliance visit",
+    "can horde visit"
+   ],
+   "answer": "Yes. The raceway operates under an informal neutral truce so that both factions can visit the camps, place wagers, aid the rival engineering crews, and purchase supplies without interference."
+  },
+  {
+   "q": "Why race out in the salt flats?",
+   "aliases": [
+    "why thousand needles",
+    "why race on salt",
+    "why in shimmering flats"
+   ],
+   "answer": "The flat, wide expanse of the Shimmering Flats provides a smooth, unobstructed surface ideal for rocket-propelled vehicles that require miles of room to reach top speeds and safely slow down."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "For tinkerers of any faction, the Raceway represents the ultimate clash between goblin risk-taking and gnomish meticulous design, offering field tests of raw speed, volatile fuel, and experimental vehicle parts."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Fizzle Brassbolts flies the banner of Gnomeregan here, relying on fellow gnomes and allies to prove that disciplined innovation easily outperforms reckless goblin combustion."
+  }
+ ],
+ "keywords": [
+  "fizzle brassbolts",
+  "mirage raceway",
+  "pozzik",
+  "rocket car",
+  "shimmering flats",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:pozzik",
+  "npc:fizzle-brassbolts",
+  "zone:thousandneedles",
+  "topic:gnome",
+  "topic:goblin",
+  "subzone:gadgetzan"
+ ],
+ "attribution": [
+  "Mirage Raceway"
+ ]
+}

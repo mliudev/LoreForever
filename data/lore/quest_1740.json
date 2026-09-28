@@ -1,0 +1,115 @@
+{
+ "key": "quest:1740",
+ "type": "quest",
+ "name": "The Orb of Soran'ruk",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1740
+  ],
+  "level": "25",
+  "faction": null,
+  "start": "Doan Karhan",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "The Orb of Soran'ruk",
+  "chain": []
+ },
+ "summary": "The Orb of Soran'ruk is a warlock rite of passage assigned by the hermit Doan Karhan in the southern Barrens. Aspiring practitioners track down broken demonic relics across Azeroth to reconstitute a vessel binding the essence of a disgraced demon.",
+ "sections": [
+  {
+   "title": "Vessels of the Disgraced",
+   "body": "Within the hierarchy of the Burning Legion, failure carries an eternal punishment. When lesser demons fall out of favor with their demonic masters, their spirits are bound and imprisoned within crystalline orbs. These artifacts are then distributed to the Legion's mortal conjurers and warlocks to serve as conduits of raw, subjugated power. Even when shattered into shards, the demonic essence entrapped within retains potent magical strength.",
+   "spoiler": 0
+  },
+  {
+   "title": "Scattered Across Continents",
+   "body": "The orb of Soran'ruk did not remain whole. Shattered into fragments, its remnants found their way into dark corners on both major continents. One half was shattered further, held by the cultists of the Twilight's Hammer within the damp caverns of Blackfathom Deeps in Ashenvale. The larger intact half made its way across the sea to Silverpine Forest, claimed by one of the sorcerers within the haunted ruins of Shadowfang Keep. Doan Karhan, a lifelong scholar of Legion orbs who previously assembled the Orb of Zargain, uses the recovered shards to reconstruct Soran'ruk into a functional implement.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Orb of Soran'ruk?",
+   "aliases": [
+    "soranruk lore",
+    "what is soranruk",
+    "who was soranruk"
+   ],
+   "answer": "Soran'ruk was a demon of the Burning Legion who fell out of favor. In accordance with demonic custom, its spirit was imprisoned within a magical orb and given to mortal practitioners. It was later shattered, but even its fragments retain the trapped demon's power."
+  },
+  {
+   "q": "Who is Doan Karhan?",
+   "aliases": [
+    "who is doan karhan",
+    "doan karhan backstory"
+   ],
+   "answer": "Doan Karhan is a reclusive warlock living in the southern Barrens who has dedicated his life to studying and reconstituting the Burning Legion's orbs. He spent many years assembling his own artifact, the Orb of Zargain, and assists emerging warlocks in piecing together Soran'ruk."
+  },
+  {
+   "q": "Why is the orb broken across two different dungeons?",
+   "aliases": [
+    "why are pieces in bfd and sfk",
+    "where are soranruk fragments"
+   ],
+   "answer": "The original orb was split into two primary pieces. One part was shattered into smaller fragments used by Twilight's Hammer cultists in Blackfathom Deeps, while the large remnant was claimed by a wizard within the shadowed walls of Shadowfang Keep."
+  },
+  {
+   "q": "Who can undertake this task?",
+   "aliases": [
+    "who can do this quest",
+    "is orb of soranruk warlock only"
+   ],
+   "answer": "This quest is exclusively pursued by warlocks seeking to advance their craft and master artifacts forged from imprisoned demonic spirits."
+  },
+  {
+   "q": "What does Doan Karhan do with the recovered fragments?",
+   "aliases": [
+    "what happens after collecting shards",
+    "reforming soranruk"
+   ],
+   "answer": "Doan Karhan studies the pieces to further his research into Legion relics, then reassembles the fragments into a fully reconstructed magical implement shaped to the warlock's choosing."
+  },
+  {
+   "q": "What is the Orb of Zargain?",
+   "aliases": [
+    "orb of zargain",
+    "zargain lore"
+   ],
+   "answer": "The Orb of Zargain is a demonic prison orb that Doan Karhan tracked down and reconstructed over many years for his own use, binding another disgraced demon of the Legion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Reconstructing Soran'ruk marks a major milestone for warlocks, teaching them how the Legion disciplines its own kind and how bound demonic entities can be harnessed into working implements."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Doan Karhan resides in the harsh expanse of the Barrens, making the southern plains an essential destination for traveling conjurers seeking advanced dark lore."
+  }
+ ],
+ "keywords": [
+  "blackfathom",
+  "demon",
+  "doan karhan",
+  "orb of soran'ruk",
+  "orb of zargain",
+  "shadowfang",
+  "soranruk",
+  "warlock"
+ ],
+ "related": [
+  "npc:doan-karhan",
+  "zone:barrens",
+  "zone:blackfathom",
+  "zone:shadowfang",
+  "topic:twilight-s-hammer",
+  "topic:burning-legion"
+ ],
+ "attribution": [
+  "The Orb of Soran'ruk"
+ ]
+}

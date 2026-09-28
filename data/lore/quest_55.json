@@ -1,0 +1,126 @@
+{
+ "key": "quest:55",
+ "type": "quest",
+ "name": "Morbent Fel",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   55
+  ],
+  "level": "32",
+  "faction": "Alliance",
+  "start": "Sven Yorgen",
+  "end": "",
+  "previous": "Armed and Ready (Classic)",
+  "next": null,
+  "wiki": "Morbent Fel (quest)",
+  "chain": []
+ },
+ "summary": "This quest is the final reckoning with Morbent Fel, the necromancer haunting the heights above Raven Hill Cemetery. Armed with the enchanted relic Morbent's Bane, heroes are sent by the grieving Sven Yorgen to shatter the sorcerer's wards and end his reign of terror over western Duskwood.",
+ "sections": [
+  {
+   "title": "The Perch Above the Dead",
+   "body": "Morbent Fel makes his lair in an abandoned house perched atop a rocky ridge just east of Sven's camp, overlooking the sprawl of Raven Hill Cemetery. From this grim vantage, the necromancer has directed waves of undead to terrorize the surrounding forest and defile the graves of Duskwood. Protected by formidable dark magic and attended by loyal undead thralls, he has remained untouchable to ordinary steel.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sven's Vengeance",
+   "body": "Sven Yorgen was driven mad with grief when dark forces butchered his family and drove him into hiding. While Sven knows that the enigmatic Dark Riders of Karazhan are the true culprits behind the massacre at his farm, Morbent Fel's vile sorcery has perpetuated the region's nightmare. Smiting the necromancer offers Sven the only tangible shred of justice left to him in this blighted land.",
+   "spoiler": 1
+  },
+  {
+   "title": "Morbent's Bane",
+   "body": "Direct assault against Morbent Fel is suicide without supernatural aid; his defensive sorceries deflect conventional attacks. To bypass these wards, Sven entrusts adventurers with Morbent's Bane, an enchanted artifact designed specifically to unravel the necromancer's magical shielding. Once invoked, the barrier collapses, leaving Fel vulnerable to a mortal strike.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Morbent Fel?",
+   "aliases": [
+    "morbent fel lore",
+    "who is morbent fel",
+    "morbent fel background"
+   ],
+   "answer": "Morbent Fel is a powerful necromancer who oversees the undead infesting the Raven Hill region. He lurks in a house atop a hill overlooking Raven Hill Cemetery, using dark sorcery to shield himself while tormenting the living of Duskwood."
+  },
+  {
+   "q": "Why is Morbent's Bane necessary to kill him?",
+   "aliases": [
+    "morbents bane",
+    "why use morbents bane",
+    "how to beat morbent fel"
+   ],
+   "answer": "Morbent Fel surrounds himself with potent wards that render him almost completely invulnerable to mundane damage. Morbent's Bane is an enchanted relic specifically forged to dispel these protective enchantments, exposing him to harm."
+  },
+  {
+   "q": "What is Sven Yorgen's connection to Morbent Fel?",
+   "aliases": [
+    "why does sven want morbent dead",
+    "sven yorgen morbent fel",
+    "sven revenge"
+   ],
+   "answer": "Sven lost his family and farm to the dark entities stalking Duskwood. While mysterious Dark Riders were responsible for the slaughter, Morbent Fel's necromantic grip on the surrounding countryside represents the festering evil plaguing western Duskwood, making him a prime target for Sven's vengeance."
+  },
+  {
+   "q": "Where can Morbent Fel be found?",
+   "aliases": [
+    "morbent fel location",
+    "where is morbent fel",
+    "morbent house"
+   ],
+   "answer": "He resides on the upper floor of a decrepit, ruined house located on a hill directly east of Sven Yorgen's camp, looming over the western side of Raven Hill Cemetery."
+  },
+  {
+   "q": "Did Morbent Fel kill Sven's family?",
+   "aliases": [
+    "did morbent kill sven family",
+    "who slaughtered sven family"
+   ],
+   "answer": "No. Sven's family was slaughtered by the mysterious Dark Riders seeking the Scythe of Elune. However, Morbent Fel's necromancy plagued the surrounding region and desecrated the graves of Duskwood, making his destruction essential to reclaiming peace."
+  },
+  {
+   "q": "What happens after Morbent Fel is slain?",
+   "aliases": [
+    "after morbent fel",
+    "quest conclusion",
+    "does sven get peace"
+   ],
+   "answer": "Returning Morbent's Bane to Sven brings the grieving hermit a small measure of solace. Though the elusive Dark Riders remain at large, the elimination of Fel breaks the necromantic grip over Raven Hill and secures the adventurer's reputation across Duskwood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Slaying Morbent Fel removes one of the gravest threats looming over the people of Duskwood, securing the road and honoring the suffering of western settlements like Raven Hill."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Striking down a foul necromancer and purifying Raven Hill of his unnatural wards is a quintessential calling for knights of the Holy Light."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The desecration of Raven Hill Cemetery cries out for spiritual cleansing, making the dispelling of Fel's sorcerous wards a holy duty."
+  }
+ ],
+ "keywords": [
+  "duskwood",
+  "morbent fel",
+  "morbent's bane",
+  "necromancer",
+  "raven hill",
+  "raven hill cemetery",
+  "sven yorgen"
+ ],
+ "related": [
+  "npc:sven-yorgen",
+  "subzone:raven-hill-cemetery",
+  "zone:duskwood",
+  "quest:163",
+  "topic:dark-riders"
+ ],
+ "attribution": [
+  "Morbent Fel (quest)"
+ ]
+}

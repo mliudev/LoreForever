@@ -1,0 +1,128 @@
+{
+ "key": "quest:369",
+ "type": "quest",
+ "name": "A New Plague",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   369
+  ],
+  "level": "11",
+  "faction": "Horde",
+  "start": "Apothecary Johaan",
+  "end": "",
+  "previous": "A New Plague (2)",
+  "next": "A New Plague (4)",
+  "wiki": "A New Plague (3)",
+  "chain": [
+   "A New Plague",
+   "A New Plague (2)",
+   "A New Plague (3)",
+   "A New Plague (4)"
+  ]
+ },
+ "summary": "In Brill, Apothecary Johaan turns his attention toward developing a potent new biological agent for the Forsaken. By studying ancient texts, he discovers that a historic, deadly plague survived through the venom of eastern Tirisfal's night web spiders, prompting an urgent retrieval effort.",
+ "sections": [
+  {
+   "title": "Unearthing Ancient Contagions",
+   "body": "While pursuing his alchemy for the Royal Apothecary Society in Brill, Apothecary Johaan scours aged tomes in search of deadlier mixtures. He uncovers records of an ancient pestilence that once ravaged thousands of lives. Crucially, the texts indicate that the deadly pathogen survived across generations by harboring within the local arachnids of Tirisfal Glades, making their venom an invaluable biological reagent.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hunting the Venomweb Vale",
+   "body": "To acquire a viable sample of the pathogen, Johaan directs agents toward the eastern reaches of Tirisfal Glades. South of the Scarlet Monastery lies Venomweb Vale, a fog-shrouded hollow infested with vicious night web spiders. Harvesters must venture into their dens to extract fresh venom glands, securing the final ingredient needed to finalize Johaan's experimental brew.",
+   "spoiler": 0
+  },
+  {
+   "title": "Brewing the Final Formulation",
+   "body": "Upon receiving the harvested venom, Johaan incorporates it into a simmering cauldron alongside previously gathered reagents. With the mixture boiled down and primed, the contagious element from the spiders completes the compound, bringing the Royal Apothecary Society one step closer to practical field trials.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Apothecary Johaan want spider venom?",
+   "aliases": [
+    "why spider venom",
+    "apothecary johaan spiders",
+    "spider venom use"
+   ],
+   "answer": "Johaan uncovered an old text describing an ancient plague that killed thousands, whose virulent strain was naturally preserved in the venom of Tirisfal's night web spiders. He intends to harness that contagious element for his concoction."
+  },
+  {
+   "q": "Where do the vicious night web spiders live?",
+   "aliases": [
+    "where are night web spiders",
+    "night web spider location",
+    "venomweb vale location"
+   ],
+   "answer": "They dwell in eastern Tirisfal Glades within Venomweb Vale, located just south of the Scarlet Monastery."
+  },
+  {
+   "q": "What is the goal of the Royal Apothecary Society's research here?",
+   "aliases": [
+    "why make a new plague",
+    "forsaken plague goals",
+    "royal apothecary society plague"
+   ],
+   "answer": "The society seeks to synthesize a lethal new strain capable of exterminating both the Scourge and the living, cementing the Forsaken's survival and independence in Lordaeron."
+  },
+  {
+   "q": "Who is Apothecary Johaan?",
+   "aliases": [
+    "who is johaan",
+    "apothecary johaan lore"
+   ],
+   "answer": "Johaan is a Forsaken researcher stationed in Brill under the Royal Apothecary Society. He oversees local chemical and biological experiments, blending dark alchemy with field-harvested Tirisfal reagents."
+  },
+  {
+   "q": "What happens after this venom is gathered?",
+   "aliases": [
+    "what happens next",
+    "new plague quest sequel",
+    "after a new plague 3"
+   ],
+   "answer": "Once Johaan boils the venom down into his brew, he prepares to test the compound directly to determine if the resulting toxic agent produces the desired lethality."
+  },
+  {
+   "q": "Is this the same plague that created the Scourge?",
+   "aliases": [
+    "is this scourge plague",
+    "plague of undeath difference"
+   ],
+   "answer": "No. The Scourge spread the Plague of Undeath created by the Lich King. The Forsaken's apothecaries are deliberately formulating an entirely distinct biological weapon of their own design."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, crafting an original weapon offers the only lasting security against relentless Scourge remnants and Scarlet crusaders on their doorstep."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While Forsaken researchers welcome assistance from orc or tauren allies, the visceral nature of their biological experiments frequently unsettles the wider Horde."
+  }
+ ],
+ "keywords": [
+  "a new plague",
+  "apothecary johaan",
+  "brill",
+  "night web spider",
+  "royal apothecary society",
+  "tirisfal glades",
+  "venom",
+  "venomweb vale"
+ ],
+ "related": [
+  "npc:apothecary-johaan",
+  "subzone:brill",
+  "subzone:venomweb-vale",
+  "zone:tirisfal",
+  "zone:scarlet",
+  "quest:367"
+ ],
+ "attribution": [
+  "A New Plague (3)"
+ ]
+}

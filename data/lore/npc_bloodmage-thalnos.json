@@ -1,0 +1,102 @@
+{
+ "key": "npc:bloodmage-thalnos",
+ "type": "npc",
+ "name": "Bloodmage Thalnos",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Bloodmage Thalnos",
+  "refs": 5
+ },
+ "summary": "Bloodmage Thalnos is a skeletal spellcaster who haunts the Graveyard wing of the Scarlet Monastery. Once a sadistic interrogator within the Scarlet Crusade, he succumbed to the plague of undeath he fanatically fought against, yet he remains entrenched deep within their holy grounds.",
+ "sections": [
+  {
+   "title": "The Inquisitor's Fall",
+   "body": "Within the zealous ranks of the Scarlet Crusade, Thalnos earned dark notoriety for his brutal methods of torture, used under the guise of purifying prospective recruits of taint. Yet despite his fanatical devotion to rooting out corruption, the sadistic mage ultimately succumbed to the plague of undeath. Rather than being cleansed or permanently destroyed, he rose as a withered skeleton, still clinging to his fiery magic and arcane mastery.",
+   "spoiler": 0
+  },
+  {
+   "title": "Master of the Graveyard",
+   "body": "Confined to the deepest corner of the monastery's courtyard tombs, Thalnos commands apparitions and shambling undead minions against anyone who disturbs his domain. His continued presence poses a bitter contradiction for the Crusade: an undead monstrosity lingering right beneath their sacred halls, embodying the very horror they swore an eternity to eradicate.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bloodmage Thalnos?",
+   "aliases": [
+    "who is thalnos",
+    "thalnos lore",
+    "bloodmage thalnos info"
+   ],
+   "answer": "Thalnos was once a cruel inquisitor and mage of the Scarlet Crusade who used horrific torture to test recruits for corruption. Ironically, he contracted the plague of undeath himself and transformed into a skeletal spellcaster haunting the Monastery's graveyard."
+  },
+  {
+   "q": "Why is an undead skeleton allowed in the Scarlet Monastery?",
+   "aliases": [
+    "why is thalnos in monastery",
+    "why does scarlet crusade keep thalnos",
+    "scarlet crusade undead mage"
+   ],
+   "answer": "The Crusade fanatically executes all undead on sight, making Thalnos's survival anomalous. Stowed away at the far end of the Graveyard amidst risen crypts and spirits, he prowls his own blighted domain rather than walking freely among the living crusaders."
+  },
+  {
+   "q": "What powers does Thalnos wield?",
+   "aliases": [
+    "thalnos spells",
+    "bloodmage thalnos magic",
+    "what does thalnos do"
+   ],
+   "answer": "Despite retaining the title of Bloodmage and rising as a skeleton, Thalnos commands fiery spells, shadow magic, and summons vengeful spirits and walking dead to overwhelm trespassers in the graveyard."
+  },
+  {
+   "q": "Was Thalnos a blood elf?",
+   "aliases": [
+    "is thalnos high elf",
+    "thalnos race",
+    "what race was thalnos"
+   ],
+   "answer": "His title suggests arcane blood magic traditions often tied to high elves or blood elves, and the Crusade has occasionally included elven members. However, as an animated skeleton stripped of flesh and features, his original mortal lineage remains uncertain."
+  },
+  {
+   "q": "Who wants Thalnos dead?",
+   "aliases": [
+    "thalnos quest",
+    "who wants thalnos killed",
+    "the dark side of the light thalnos"
+   ],
+   "answer": "Both Forsaken agents and dissident voices seek his destruction. Those dispatching adventurers to end him are often shocked and baffled to learn that a high-ranking Scarlet inquisitor has become an undead skeleton."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Thalnos represents the catastrophic corruption of arcane ambition when entwined with fanatical madness and the plague."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Forsaken view Thalnos as living proof of the Scarlet Crusade's hypocritical madness\u2014a monster who tortured others for taint only to succumb to the very undeath he reviled."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Standing amidst the tombs, Thalnos is an unsettling testament to how easily zealotry and torture invite darkness instead of divine grace."
+  }
+ ],
+ "keywords": [
+  "bloodmage",
+  "graveyard",
+  "inquisitor",
+  "scarlet monastery",
+  "skeleton",
+  "thalnos"
+ ],
+ "related": [
+  "zone:scarlet",
+  "topic:scarlet-crusade",
+  "topic:plague-of-undeath",
+  "topic:light"
+ ],
+ "attribution": [
+  "Bloodmage Thalnos"
+ ]
+}

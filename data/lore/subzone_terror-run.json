@@ -1,0 +1,83 @@
+{
+ "key": "subzone:terror-run",
+ "type": "subzone",
+ "name": "Terror Run",
+ "era": "classic",
+ "zone": "ungoro",
+ "meta": {
+  "wiki": "Terror Run"
+ },
+ "summary": "Terror Run is a perilous swath of land situated in the southwestern reaches of Un'Goro Crater, directly west of the insectoid hives of the Slithering Scar. True to its fearsome name, the territory is stalked by predatory beasts, ranging from massive devilsaurs to ravenous diemetradons and swooping pterrordax.",
+ "sections": [
+  {
+   "title": "A Hunt in the Open",
+   "body": "Stretching across the southwestern shelf of Un'Goro Crater, Terror Run lives up to its ominous reputation. Fierce pterrordax wheel through the humid air above while massive diemetradons, stegodons, and apex devilsaurs roam the low brush below. The territory sits directly in the shadow of the mountainous rim, wedged uncomfortably close to the chittering alien mounds of the Slithering Scar. Along the eastern edge of the flats lie the ruined remnants of a camp left behind by Williden Marshal's expedition, a sobering reminder of researchers who were caught unprepared when the crater's primeval predators closed in.",
+   "spoiler": 0
+  },
+  {
+   "title": "Red Crystals and Ancient Predators",
+   "body": "Beyond the sheer concentration of hungry fauna, Terror Run draws naturalists and adventurers alike for a geological rarity: it is the primary ground in the crater where curious Red Power Crystals emerge from the fertile soil. The crimson formations hum with primeval energy akin to the blue, green, and yellow crystals found elsewhere in the basin. Surviving long enough to gather them, however, means contending with the sovereign hunters of the plains\u2014including nesting apex devilsaurs that brook no trespassers in the deep south.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is this area called Terror Run?",
+   "aliases": [
+    "terror run name meaning",
+    "why terror run",
+    "who named terror run"
+   ],
+   "answer": "The name reflects the deadly concentration of apex predators that stalk this open corridor. Between massive devilsaurs, territorial diemetradons, and watchful pterrordax soaring overhead, anyone crossing the flats on foot is liable to find themselves sprinting for their life."
+  },
+  {
+   "q": "What can be found here besides dangerous beasts?",
+   "aliases": [
+    "what is in terror run",
+    "terror run crystals",
+    "terror run resources"
+   ],
+   "answer": "Terror Run is the only region in Un'Goro Crater where Red Power Crystals can be gathered from the earth. You can also find an abandoned research camp on its eastern edge, discarded by Williden Marshal's expedition during their perilous survey of the crater."
+  },
+  {
+   "q": "What is the abandoned camp on the eastern edge?",
+   "aliases": [
+    "marshals camp terror run",
+    "abandoned research camp",
+    "lost expedition camp"
+   ],
+   "answer": "The abandoned campsite belonged to members of Williden Marshal's expedition. The scientists and explorers were forced to abandon their research equipment and flee when the local wildlife overwhelmed their position."
+  },
+  {
+   "q": "Where does Terror Run lie in relation to other landmarks?",
+   "aliases": [
+    "terror run location",
+    "where is terror run"
+   ],
+   "answer": "It spans southwestern Un'Goro Crater, situated directly west of the silithid-infested hives known as the Slithering Scar and south of the central volcano, Fire Plume Ridge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The vast plains of Terror Run are a lethal proving ground, boasting some of the fiercest beasts in Kalimdor\u2014from swift raptors and savage pterrordax to towering devilsaurs."
+  }
+ ],
+ "keywords": [
+  "devilsaur",
+  "diemetradon",
+  "marshal expedition",
+  "pterrordax",
+  "red power crystal",
+  "slithering scar",
+  "terror run",
+  "ungoro"
+ ],
+ "related": [
+  "zone:ungoro",
+  "subzone:slithering-scar"
+ ],
+ "attribution": [
+  "Terror Run"
+ ]
+}

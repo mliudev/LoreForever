@@ -1,0 +1,128 @@
+{
+ "key": "zone:badlands",
+ "type": "zone",
+ "name": "Badlands",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": [
+   "Badlands (Classic)",
+   "Badlands"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "The Badlands is an arid, sun-baked expanse of cracked earth, dust storms, and rocky canyons nestled between Loch Modan and Searing Gorge. Despite being deep within dwarven Khaz Modan, it serves as a volatile frontier dominated by Dark Iron dwarves, troggs, Dustbelcher ogres, and nesting black dragonkin. It also houses the titan ruins of Uldaman and the Horde stronghold of Kargath, making it a critical strategic waypoint.",
+ "sections": [
+  {
+   "title": "A Bleak Frontier",
+   "body": "Wedged south of Loch Modan's verdant hills, the Badlands quickly turns into a sweltering basin of barren flats and rugged ravines. Surviving here requires contending with merciless coyotes, cougars, vultures, and fierce sandstorms that obscure the horizon. Scattered across the plateaus are the crude encampments of the Dustbelcher ogres, while the brooding Dark Iron clan fortifies Angor Fortress and clashes with anyone trespassing on their territory.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Secrets of Uldaman",
+   "body": "In the northern bluffs lies Uldaman, an ancient subterranean complex carved out by the titan-forged earthen. Recently uncovered by Ironforge prospectors, the excavation unearthed monumental secrets regarding the ancient ancestry of the dwarven race. However, digging into the subterranean vaults awoke hordes of vicious Stonevault troggs and animated earthen guardians, slaughtering archaeological teams and turning the digsites outside into bloody skirmish grounds.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shadows of Kargath and Lethlor",
+   "body": "The Badlands is one of the Horde's most precarious footholds in the southern Eastern Kingdoms. Established in the northwest, the fortress of Kargath gives Warchief Thrall's forces a base of operations to keep watch on the rogue Dark Horde in nearby Blackrock Mountain. Meanwhile, to the far east lies Lethlor Ravine, a treacherous chasm where black whelps and dangerous black dragonkin guard their brooding grounds under the shadow of the mountains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Horde stationed in the Badlands?",
+   "aliases": [
+    "why kargath",
+    "horde in badlands",
+    "what is kargath"
+   ],
+   "answer": "The outpost of Kargath was established by the Kargath Expeditionary Force on orders from Warchief Thrall. Stationed under Warlord Goretooth, the encampment provides the Horde a vital staging ground to strike against Rend Blackhand and his renegade Blackrock clan entrenched within Blackrock Mountain."
+  },
+  {
+   "q": "How do you get to the Badlands?",
+   "aliases": [
+    "getting to badlands",
+    "how to reach badlands",
+    "badlands entrance"
+   ],
+   "answer": "Alliance travelers can walk directly south from Loch Modan through the Maker's Terrace pass. Horde travelers face a longer trek on foot through the southern hills of Loch Modan or through Searing Gorge via the western mountain pass before unlocking Kargath's flight master."
+  },
+  {
+   "q": "What is Uldaman?",
+   "aliases": [
+    "what's uldaman",
+    "uldaman dungeon lore",
+    "who made uldaman"
+   ],
+   "answer": "Uldaman is a massive underground vault built by the ancient titans and their earthen servants. Though recently excavated by dwarven prospectors seeking the secrets of dwarven origins, the dig awoke buried earthen constructs and primitive Stonevault troggs, turning the ruin into a lethal battleground."
+  },
+  {
+   "q": "What are the black dragons doing in Lethlor Ravine?",
+   "aliases": [
+    "dragons in badlands",
+    "lethlor ravine dragons",
+    "black dragonflight badlands"
+   ],
+   "answer": "Lethlor Ravine serves as an eastern breeding and nesting canyon for the black dragonflight. Guarded by drakes and whelps, the clutch maintains a dangerous presence near the mountains, preying upon wanderers and guarding the eastern reaches from trespassers."
+  },
+  {
+   "q": "Who controls Angor Fortress?",
+   "aliases": [
+    "angor fortress",
+    "badlands fortress",
+    "dark irons badlands"
+   ],
+   "answer": "Angor Fortress is held by the hostile Dark Iron clan. Situated south of Uldaman, the fortress serves as a regional base where the Dark Irons conduct reconnaissance, contest the titan digsites, and battle neighboring ogres and surface explorers."
+  },
+  {
+   "q": "Are there any friendly settlements for Alliance players here?",
+   "aliases": [
+    "alliance town badlands",
+    "alliance flight path badlands",
+    "friendly alliance badlands"
+   ],
+   "answer": "No. The Badlands has no fortified Alliance settlements or flight masters. Ironforge prospectors and solitary hermits maintain scattered, fragile camps near the digsites, but Alliance adventurers must rely on bases in Loch Modan or Searing Gorge for extensive supplies."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The Badlands holds the answers to your very ancestry within Uldaman, where the discovery of the titan-forged earthen reshaped dwarven understanding of history."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Kargath serves as your sole military sanctuary deep in Khaz Modan, acting as the frontline against the Dark Horde occupying Blackrock Mountain."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The arid landscape is rich in iron, gold, truesilver, and mithril, including rare Indurium deposits found within Uldaman and the surrounding terrain."
+  }
+ ],
+ "keywords": [
+  "angor fortress",
+  "badlands",
+  "dustbelcher",
+  "earthen",
+  "goretooth",
+  "kargath",
+  "lethlor",
+  "troggs",
+  "uldaman"
+ ],
+ "related": [
+  "subzone:uldaman",
+  "subzone:kargath",
+  "zone:lochmodan",
+  "zone:searinggorge",
+  "subzone:lethlor-ravine",
+  "npc:warlord-goretooth",
+  "topic:dark-iron-clan",
+  "topic:black-dragonflight"
+ ],
+ "attribution": [
+  "Badlands (Classic)",
+  "Badlands"
+ ]
+}

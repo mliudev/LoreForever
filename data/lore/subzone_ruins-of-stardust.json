@@ -1,0 +1,92 @@
+{
+ "key": "subzone:ruins-of-stardust",
+ "type": "subzone",
+ "name": "Ruins of Stardust",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Ruins of Stardust"
+ },
+ "summary": "The Ruins of Stardust are an ancient, fallen night elven holy sanctuary nestled on a lake island in southwestern Ashenvale. Once a serene place of worship, the island's waters and native bog beasts have suffered corruption from demonic rot washing down from Felwood. Despite this pervasive blight, luminous stardust shrubs still thrive amidst the crumbling stones, retaining potent restorative power.",
+ "sections": [
+  {
+   "title": "A Blighted Sanctuary",
+   "body": "Resting on a solitary island south of Astranaar, the Ruins of Stardust were once a venerated night elf holy site. Today, an eerie, sickly yellowish-green hue hangs over the water\u2014a consequence of foul demonic rot draining south from Felwood, much like at nearby Iris Lake. The local plant life has twisted into hostile bog beasts that prowl the fallen masonry, their temperaments warped by the tainted lake.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Enduring Stardust",
+   "body": "Despite the corruption saturating the soil and shoreline, the island possesses an unyielding spark of resilience. Scattered among the ruins are stardust shrubs, blooming unmarred by the demonic taint. Their leaves and blossoms hold remarkable cleansing and healing virtues, attracting shamans, herbalists, and local night elf defenders seeking remedies against Ashenvale's encroaching decay.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What were the Ruins of Stardust originally used for?",
+   "aliases": [
+    "what are the ruins",
+    "stardust lore",
+    "who built stardust"
+   ],
+   "answer": "In ancient times, the site was a sacred holy ground tended by the night elves. Its classical marble pillars and lakeside perch served as a tranquil place of reverence long before demonic corruption took root in the forest."
+  },
+  {
+   "q": "Why is the water around the island discolored?",
+   "aliases": [
+    "why is water green",
+    "why is the lake corrupted",
+    "stardust water"
+   ],
+   "answer": "Demonic corruption seeping down from the blighted peaks of Felwood into Ashenvale's waterways has tainted the lake, tinting the waters a murky, yellowish-green shade and disturbing the natural balance."
+  },
+  {
+   "q": "What makes the stardust shrubs special?",
+   "aliases": [
+    "what is stardust shrub",
+    "stardust plant",
+    "stardust bushes"
+   ],
+   "answer": "Despite growing in soil soaked in demonic runoff, stardust shrubs remain completely pure. They resist the ambient taint and possess exceptional restorative and healing properties, making them valuable reagents for cleansing rituals."
+  },
+  {
+   "q": "What creatures wander the ruins?",
+   "aliases": [
+    "stardust mobs",
+    "what monsters are here",
+    "bog beasts"
+   ],
+   "answer": "The island is overrun by large, corrupted bog beasts. The lake's tainted water has warped these nature elementals from peaceful forest guardians into aggressive, lumbering threats to anyone crossing the shallows."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The uncorrupted stardust found here serves as a vital cleansing reagent during spiritual trials, including the vital Call of Water trials to master the restorative elements."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Watching this former sanctuary succumb to Felwood's slow, putrid runoff is a painful reminder of the ongoing struggle to protect Ashenvale from enduring demonic corruption."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "bog beasts",
+  "felwood taint",
+  "night elf ruins",
+  "ruins of stardust",
+  "stardust shrubs",
+  "water corruption"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "quest:63",
+  "quest:1034",
+  "subzone:iris-lake",
+  "zone:felwood",
+  "subzone:astranaar",
+  "subzone:talondeep-path"
+ ],
+ "attribution": [
+  "Ruins of Stardust"
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "key": "quest:689",
+ "type": "quest",
+ "name": "A King's Tribute",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   689
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Grand Mason Marblesten",
+  "end": "",
+  "previous": "A King's Tribute",
+  "next": "A King's Tribute (3)",
+  "wiki": "A King's Tribute (2)",
+  "chain": []
+ },
+ "summary": "King Magni Bronzebeard has commissioned a monument to Sully Balloo, a dwarven soldier who perished defending the Thandol Span. To honor the fallen warrior with enduring dignity, Grand Mason Marblesten dispatches travelers to Hillsbrad to retrieve pristine Alterac Granite.",
+ "sections": [
+  {
+   "title": "A Royal Commission",
+   "body": "When King Magni Bronzebeard decided that fallen soldier Sully Balloo deserved a lasting memorial, the task fell directly to Ironforge's finest craftsman, Grand Mason Marblesten. Balloo lost his life during the disaster at the Thandol Span, a vital artery connecting the dwarven lands to northern kingdoms that has suffered brutal attacks by Dark Iron saboteurs. To Marblesten, fulfilling the king's royal decree means creating a sculpture that will withstand both time and war, ensuring that dwarven sacrifice is neither overlooked nor forgotten in the Great Forge.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stone of the North",
+   "body": "A master dwarven mason will not settle for ordinary quarry rock for a king's project. Marblesten insists that Sully Balloo's likeness can only be captured in Alterac Granite, a dense, resilient stone prized for its durability and clean texture. The challenge lies in securing it: the best deposits lie around Darrow Hill within the contested foothills of Hillsbrad. Venturing deep into the troubled north is dangerous, but dwarven stonework demands materials worthy of the heroism they commemorate.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sully Balloo?",
+   "aliases": [
+    "sully balloo",
+    "who was sully balloo",
+    "sully balloo lore"
+   ],
+   "answer": "Sully Balloo was an Alliance soldier who died defending the Thandol Span during its catastrophic sabotage. Struck by his bravery and the letter retrieved from his body, King Magni Bronzebeard ordered a permanent statue erected in his honor."
+  },
+  {
+   "q": "Who is Grand Mason Marblesten?",
+   "aliases": [
+    "grand mason marblesten",
+    "marblesten ironforge",
+    "who is marblesten"
+   ],
+   "answer": "Grand Mason Marblesten is the master sculptor and stoneworker of Ironforge. Operating out of the city's Great Forge, he handles royal commissions and takes fierce pride in working with only the finest regional stones."
+  },
+  {
+   "q": "Why is Alterac Granite needed?",
+   "aliases": [
+    "why alterac granite",
+    "alterac granite purpose",
+    "what is alterac granite"
+   ],
+   "answer": "Alterac Granite is celebrated across the Eastern Kingdoms for its exceptional density, fine grain, and endurance against erosion. Marblesten insists that only stone of this caliber is worthy of a royal tribute that will last through the ages."
+  },
+  {
+   "q": "Where is Darrow Hill?",
+   "aliases": [
+    "where is darrow hill",
+    "darrow hill location",
+    "find darrow hill"
+   ],
+   "answer": "Darrow Hill is an elevated ridge located in eastern Hillsbrad Foothills, overlooking the surrounding grasslands and roads running near the borders of Alterac and the Arathi Highlands."
+  },
+  {
+   "q": "What happened at the Thandol Span?",
+   "aliases": [
+    "thandol span tragedy",
+    "thandol span catastrophe",
+    "what happened to thandol span"
+   ],
+   "answer": "The Thandol Span, the colossal bridge spanning the chasm between the Wetlands and the Arathi Highlands, suffered an assault by Dark Iron saboteurs who planted explosives to cut Alliance supply routes, claiming many defenders' lives."
+  },
+  {
+   "q": "What happens after bringing the granite to Marblesten?",
+   "aliases": [
+    "after turning in granite",
+    "marblesten statue progress"
+   ],
+   "answer": "Once supplied with the Alterac Granite, Marblesten immediately descends into his lower workshop to hammer out the rough shape of the memorial before preparing the final touches."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Honoring Sully Balloo touches the heart of dwarven culture, where stonework, martial sacrifice, and steadfast loyalty to King Bronzebeard are deeply intertwined."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Miners understand Marblesten's selective eye; the hard, unyielding veins of Alterac Granite require seasoned hands to extract cleanly without fracturing."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing materials from Hillsbrad reinforces the Alliance presence in the fractured north while honoring an ordinary soldier who gave his life for the common cause."
+  }
+ ],
+ "keywords": [
+  "alterac granite",
+  "darrow hill",
+  "ironforge",
+  "magni bronzebeard",
+  "marblesten",
+  "stonemason",
+  "sully balloo",
+  "thandol span"
+ ],
+ "related": [
+  "npc:grand-mason-marblesten",
+  "quest:686",
+  "subzone:thandol-span",
+  "subzone:darrow-hill",
+  "zone:ironforge",
+  "topic:alterac-kingdom",
+  "quest:631",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "A King's Tribute (2)"
+ ]
+}

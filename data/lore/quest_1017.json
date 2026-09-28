@@ -1,0 +1,134 @@
+{
+ "key": "quest:1017",
+ "type": "quest",
+ "name": "Mage Summoner",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1017
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Sentinel Velene Starstrike",
+  "end": "Sentinel Velene Starstrike",
+  "previous": "Elemental Bracers (quest)",
+  "next": null,
+  "wiki": "Mage Summoner",
+  "chain": [
+   "Elemental Bracers (quest)",
+   "Mage Summoner"
+  ]
+ },
+ "summary": "Mage Summoner is an Alliance strike mission directed by Sentinel Velene Starstrike from Silverwind Refuge. After investigating corrupted water elementals near Mystral Lake, the Sentinels dispatch adventurers across the border into the Barrens to execute the undead mage Sarilus Foulborne atop Dreadmist Peak.",
+ "sections": [
+  {
+   "title": "A Crossing of Borders",
+   "body": "The night elves rarely send scouts southward into the sun-scorched savannas of the Barrens without dire cause. After investigating unnatural disturbances among the water elementals around Mystral Lake, Sentinel Velene Starstrike traces the meddling directly to Sarilus Foulborne, a Forsaken conjurer practicing his arts just across the border. For the Sentinels guarding Silverwind Refuge, letting an enemy sorcerer defile nature right on their doorstep is intolerable.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Conjurer on the Peak",
+   "body": "Sarilus Foulborne has taken up roost high upon Dreadmist Peak, an craggy mountain crawling with Burning Blade cultists. From this elevation, he summons and bends ranks of water elementals to his will, mocking night elf authority from within Horde-dominated lands. Taking him down requires braving enemy territory, cutting through his summoned forces, and severing his head as proof that the Sentinels' vengeance reaches beyond the forest line.",
+   "spoiler": 0
+  },
+  {
+   "title": "Blessing of Elune",
+   "body": "Upon receiving Foulborne's severed head, Velene Starstrike wipes away the sorcerer's mockery and rewards the slayer with an extraordinary gift: the Light of Elune. This sacred draught of moonlight is a treasured ward among the priestesses and Sentinels, granting absolute invulnerability in the face of imminent death. It serves as a potent reminder of the night elves' divine favor against the foul magic creeping into Kalimdor.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sarilus Foulborne?",
+   "aliases": [
+    "sarilus foulborne",
+    "who is the mage summoner",
+    "foulborne lore"
+   ],
+   "answer": "Sarilus Foulborne is an undead mage who fled into the Barrens and established himself atop Dreadmist Peak. He uses arcane summoning to enslave water elementals, drawing the wrath of the Sentinels in nearby Ashenvale."
+  },
+  {
+   "q": "Where is Dreadmist Peak located?",
+   "aliases": [
+    "where is dreadmist peak",
+    "dreadmist peak location",
+    "how to find dreadmist peak"
+   ],
+   "answer": "Dreadmist Peak is a prominent craggy mountain located in the northern Barrens, directly south of the border with Ashenvale. Sarilus Foulborne waits at its highest vantage point."
+  },
+  {
+   "q": "Why does Sentinel Velene Starstrike want Sarilus dead?",
+   "aliases": [
+    "why kill sarilus",
+    "velene starstrike motive"
+   ],
+   "answer": "Sarilus has been defiling and corrupting water elementals near the Ashenvale border. Velene finds his insolence intolerable and seeks to put an end to his unnatural conjurations while proving that enemies cannot mock the Sentinels from across the border."
+  },
+  {
+   "q": "What is the Light of Elune given as a reward?",
+   "aliases": [
+    "light of elune potion",
+    "light of elune lore"
+   ],
+   "answer": "The Light of Elune is a rare consumable vial blessed with divine moonlight. When ingested in dire moments, it renders the user entirely immune to all damage and spell effects for a brief period, saving them from otherwise certain death."
+  },
+  {
+   "q": "What comes before this quest?",
+   "aliases": [
+    "prerequisite for mage summoner",
+    "quest before mage summoner"
+   ],
+   "answer": "This quest immediately follows 'Elemental Bracers', where adventurers gather intact bracers from the divining water elementals around Mystral Lake in Ashenvale to help Velene identify who is manipulating them."
+  },
+  {
+   "q": "Why is entering the Barrens dangerous for Alliance players?",
+   "aliases": [
+    "barrens dangerous",
+    "horde territory quest"
+   ],
+   "answer": "The Barrens is sovereign territory of the Horde, home to the tauren and orcs. Alliance soldiers and adventurers entering the region risk being intercepted by Horde patrols and rival champions."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Sarilus's arcane defilement of nature right across the forest border is an insult to the Kaldorei, making his execution a matter of both woodland balance and pride."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Striking at a Forsaken target deep inside the Barrens offers a bold show of force against Horde encroachments along the southern Ashenvale frontier."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Confronting Foulborne pits the disciplined arcanists of the Alliance against a rogue undead practitioner twisting elemental conjuration to reckless extremes."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Earning the Light of Elune directly from the Sentinels connects the mission to the Goddess's rare, miraculous grace against the corruption of the undead."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "dreadmist peak",
+  "light of elune",
+  "sarilus foulborne",
+  "silverwind refuge",
+  "the barrens",
+  "velene starstrike",
+  "water elementals"
+ ],
+ "related": [
+  "npc:sentinel-velene-starstrike",
+  "quest:1016",
+  "subzone:silverwind-refuge",
+  "subzone:dreadmist-peak",
+  "topic:sentinels",
+  "topic:elune",
+  "zone:barrens",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Mage Summoner"
+ ]
+}

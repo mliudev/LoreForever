@@ -1,0 +1,92 @@
+{
+ "key": "subzone:valley-of-ashes",
+ "type": "subzone",
+ "name": "Valley of Ashes",
+ "era": "classic",
+ "zone": "burningsteppes",
+ "meta": {
+  "wiki": "Valley of Ashes"
+ },
+ "summary": "The Valley of Ashes is a scorched, smoldering depression in the southern Burning Steppes. Hemmed in by hostile strongholds and molten rock, it serves as a desolate corridor connecting the charred wastes to the pass into the Redridge Mountains.",
+ "sections": [
+  {
+   "title": "A Smoldering Corridor",
+   "body": "Curving through the southern hills of the Burning Steppes, the Valley of Ashes is a desolate expanse framed by molten flows to the south and charred plains to the north. Surrounded on all sides by danger\u2014the Blackrock clan at Black Tooth Hovel to the west, the ogres of Dreadmaul Rock to the northeast, and the Dark Iron remnants at the Ruins of Thaurissan to the northwest\u2014the valley offers little shelter to weary travelers. Aside from hardy scorched beasts, the only intelligent inhabitants stalking the ashen crags are agents of the black dragonflight.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Redridge",
+   "body": "Despite its bleak landscape, the valley remains strategically vital as a thoroughfare. The southern road winding through the ash leads directly toward Blackrock Pass, the fortified gateway linking the volatile volcanic basin to the comparatively serene highlands of Redridge Mountains. Anyone seeking to march between the heart of the Blackrock territory and the southern human kingdoms must navigate this sunbaked trench.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Valley of Ashes located?",
+   "aliases": [
+    "valley of ashes location",
+    "where is valley of ashes",
+    "burning steppes valley of ashes"
+   ],
+   "answer": "The Valley of Ashes is located in the southern portion of the Burning Steppes, curving between the rugged hills north of Blackrock Pass."
+  },
+  {
+   "q": "What creatures inhabit the Valley of Ashes?",
+   "aliases": [
+    "valley of ashes mobs",
+    "who lives in valley of ashes",
+    "valley of ashes enemies"
+   ],
+   "answer": "The valley is populated primarily by hardy local wildlife capable of enduring extreme heat, alongside wandering members of the black dragonflight."
+  },
+  {
+   "q": "Where does the road through the valley lead?",
+   "aliases": [
+    "road in valley of ashes",
+    "blackrock pass connection",
+    "where does valley of ashes road go"
+   ],
+   "answer": "The road running south through the Valley of Ashes leads directly into Blackrock Pass, which provides passage over the mountains into the Redridge Mountains."
+  },
+  {
+   "q": "What landmarks surround the Valley of Ashes?",
+   "aliases": [
+    "landmarks near valley of ashes",
+    "what is next to valley of ashes"
+   ],
+   "answer": "The valley sits bordered by several hostile regions: Black Tooth Hovel lies to the west, Dreadmaul Rock to the northeast, and the Ruins of Thaurissan to the northwest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For travelers pushing north from the Redridge Mountains through Blackrock Pass, the Valley of Ashes is their first grim glimpse into the volcanic heartland of the Burning Steppes."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The scorched wildlife roaming the smoldering scrub here are hardened survivalists adapted to sulfurous fumes and searing temperatures."
+  }
+ ],
+ "keywords": [
+  "black dragonflight",
+  "black tooth hovel",
+  "blackrock pass",
+  "burning steppes",
+  "dreadmaul rock",
+  "redridge",
+  "valley of ashes"
+ ],
+ "related": [
+  "zone:burningsteppes",
+  "subzone:blackrock-pass",
+  "zone:redridge",
+  "topic:black-dragonflight",
+  "subzone:black-tooth-hovel",
+  "subzone:dreadmaul-rock",
+  "subzone:ruins-of-thaurissan",
+  "topic:blackrock-clan"
+ ],
+ "attribution": [
+  "Valley of Ashes"
+ ]
+}

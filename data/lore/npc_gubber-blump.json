@@ -1,0 +1,91 @@
+{
+ "key": "npc:gubber-blump",
+ "type": "npc",
+ "name": "Gubber Blump",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Gubber Blump",
+  "refs": 2
+ },
+ "summary": "Gubber Blump is a dwarf fisherman and trainer stationed along the shores of Auberdine in Darkshore. Positioned on the sands between the docks and the flight master, he is an enthusiastic lover of the angling craft and seafood, particularly fresh crab meat.",
+ "sections": [
+  {
+   "title": "The Angler of Auberdine",
+   "body": "While most dwarves find comfort beneath stone or beside a roaring forge, Gubber Blump prefers the misty coastline of Darkshore. Stationed along the beach at Auberdine, between the flight master and the ferry pier, Gubber teaches the art of fishing and sells basic angling gear to passing travelers. He holds a deep culinary appreciation for crab meat, though he frequently relies on adventurers to help secure his catches along the dangerous coast, as well as reclaim sentimental family fishing tackle.",
+   "spoiler": 0
+  },
+  {
+   "title": "Family Ties and Ocean Favors",
+   "body": "Gubber is known to share candid stories about his family, notably his cousin Graun Blump, whom he insists possesses both a beard and an unusual odor. Travelers who lend a hand with his coastal errands\u2014whether hauling in crawler legs or retrieving his family pole\u2014often earn a thoughtful handwritten letter of thanks from Gubber, usually accompanied by a shiny fishing lure to encourage their future casts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gubber Blump?",
+   "aliases": [
+    "who is gubber blump",
+    "gubber blump npc",
+    "where is gubber blump"
+   ],
+   "answer": "Gubber Blump is a dwarf fishing trainer and vendor located on the beach in Auberdine, situated right between the village docks and the hippogryph master."
+  },
+  {
+   "q": "What does Gubber Blump teach or sell?",
+   "aliases": [
+    "what does gubber sell",
+    "gubber blump trainer",
+    "darkshore fishing trainer"
+   ],
+   "answer": "He trains novices in the fishing profession and stocks basic gear for prospective anglers, including standard fishing poles and shiny baubles."
+  },
+  {
+   "q": "What tasks does Gubber Blump give out?",
+   "aliases": [
+    "gubber blump quests",
+    "fruit of the sea",
+    "the family and the fishing pole"
+   ],
+   "answer": "Gubber asks travelers to recover his lost family fishing pole and gather fine crab meat from the coast in quests such as 'The Family and the Fishing Pole' and 'Fruit of the Sea'."
+  },
+  {
+   "q": "Who is Graun Blump?",
+   "aliases": [
+    "graun blump",
+    "gubber blump cousin"
+   ],
+   "answer": "Graun Blump is Gubber's dwarven cousin. Gubber candidly remarks that she sports a notable beard and has a rather unusual smell."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Gubber is passionate about coastal fare, particularly fresh reef crawler meat, making him a kindred spirit to cooks seeking ingredients from Darkshore's waters."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Seeing a dwarf happily settled on a foggy Kalimdor shoreline rather than in Khaz Modan is an uncommon sight, though his forthright banter about kin proves he has not lost his Ironforge roots."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "blump",
+  "darkshore",
+  "fishing",
+  "graun blump",
+  "gubber",
+  "reef crawler",
+  "shiny bauble"
+ ],
+ "related": [
+  "subzone:auberdine",
+  "zone:darkshore",
+  "quest:1141",
+  "quest:1138",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Gubber Blump"
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "key": "quest:880",
+ "type": "quest",
+ "name": "Altered Beings",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   880
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Tonga Runetotem",
+  "end": "",
+  "previous": "The Stagnant Oasis (Classic)",
+  "next": "Hamuul Runetotem (quest), Mura Runetotem (quest)",
+  "wiki": "Altered Beings (Classic)",
+  "chain": []
+ },
+ "summary": "Altered Beings is a Horde quest directed by Tonga Runetotem at the Crossroads in the Barrens. Following discoveries of mysterious fissures feeding the local water sources, Tonga tasks adventurers with gathering shells from altered snapjaws to investigate how the unnatural waters affect local wildlife.",
+ "sections": [
+  {
+   "title": "Unnatural Waters",
+   "body": "The arid savannas of the Barrens are dotted with a handful of fertile oases, yet their vitality is not entirely natural. Druid Tonga Runetotem's investigation into these bodies of water revealed peculiar subterranean fissures that emanate strange, potent energies. Suspecting that an unknown power source\u2014either introduced from outside or welling up from deep within the earth\u2014is altering the ecosystem, Tonga turns his attention to the creatures that drink from and dwell in these pools.",
+   "spoiler": 0
+  },
+  {
+   "title": "Signs in the Shell",
+   "body": "To measure the ecological impact of the fissures, Tonga directs hunters to the Lushwater Oasis and the Stagnant Oasis. The native snapjaws inhabiting the shallows have absorbed the mysterious essence through diet and exposure, causing noticeable biological mutations in their carapaces. By inspecting these altered shells, Tonga hopes to decode the exact magical or natural disturbance influencing the land before it spreads further across Kalimdor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Altered Beings?",
+   "aliases": [
+    "quest giver",
+    "where to get altered beings",
+    "who starts altered beings"
+   ],
+   "answer": "The quest is given by Tonga Runetotem, a tauren druid located at the Crossroads in the central Barrens."
+  },
+  {
+   "q": "What creatures need to be hunted for this task?",
+   "aliases": [
+    "which mobs drop shells",
+    "altered snapjaw targets",
+    "what to kill"
+   ],
+   "answer": "You need to hunt oasis snapjaws found dwelling around the waters of both the Lushwater Oasis and the Stagnant Oasis in the Barrens."
+  },
+  {
+   "q": "Why are the snapjaws altered?",
+   "aliases": [
+    "why are snapjaws mutated",
+    "what altered the turtles",
+    "what is wrong with the oasis beasts"
+   ],
+   "answer": "Mysterious fissures beneath the oases are leaching strange energies into the water. Animals that dwell in or drink from the pools have developed mutations, resulting in noticeable changes to their shells."
+  },
+  {
+   "q": "Where are the Lushwater and Stagnant Oases?",
+   "aliases": [
+    "oasis locations barrens",
+    "lushwater location",
+    "stagnant oasis location"
+   ],
+   "answer": "Both oases lie south of the Crossroads in the Barrens. The Stagnant Oasis sits southeast toward the border of Dustwallow Marsh, while the Lushwater Oasis is situated southwest near the entrance to the Wailing Caverns."
+  },
+  {
+   "q": "What happens after completing Altered Beings?",
+   "aliases": [
+    "next quest after altered beings",
+    "where does the chain go",
+    "altered beings follow up"
+   ],
+   "answer": "Tonga Runetotem realizes the mystery runs deeper than simple wild beasts and directs adventurers to report their findings to higher-ranking druidic elders, sending them toward Hamuul Runetotem or Mura Runetotem."
+  },
+  {
+   "q": "Why is Tonga Runetotem studying the oases?",
+   "aliases": [
+    "tonga runetotem motive",
+    "why investigate the oasis",
+    "cenarion circle barrens"
+   ],
+   "answer": "As a druid, Tonga seeks to understand the balance of nature in the Barrens. The sudden unnatural growth around the oases hints at deep subterranean forces at work, which druids fear could disrupt the delicate savanna ecosystem."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids, studying the snapjaws highlights the fragile boundary between natural vitality and corrupted mutation, offering a frontline look at the disturbance brewing beneath the Barrens."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The Earthmother's balance is visibly shaken in the Barrens, making Tonga Runetotem's efforts deeply personal to tauren seeking harmony in their ancestral lands."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Ensuring the safety and purity of water sources around the Crossroads is critical for securing the Horde's heartland against unexpected magical hazards."
+  }
+ ],
+ "keywords": [
+  "altered beings",
+  "altered snapjaw shell",
+  "crossroads",
+  "lushwater oasis",
+  "snapjaws",
+  "stagnant oasis",
+  "the barrens",
+  "tonga runetotem"
+ ],
+ "related": [
+  "npc:tonga-runetotem",
+  "subzone:crossroads",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Altered Beings (Classic)"
+ ]
+}

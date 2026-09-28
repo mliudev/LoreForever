@@ -1,0 +1,111 @@
+{
+ "key": "npc:viscous-fallout",
+ "type": "npc",
+ "name": "Viscous Fallout",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Viscous Fallout",
+  "refs": 5
+ },
+ "summary": "Viscous Fallout is a corrupted water elemental wandering the irradiated corridors of Gnomeregan. Once a pure spirit inhabiting the city's pristine aquifers, it was twisted into a toxic monstrosity by Mekgineer Thermaplugg's devastating radiation release.",
+ "sections": [
+  {
+   "title": "A Polluted Spirit",
+   "body": "Before the fall of Gnomeregan, the gnomish capital relied on sophisticated, intricate waterways and clean subterranean aquifers to power and sustain its mechanical marvels. A solitary water elemental dwelt peacefully within this pristine water supply. When Mekgineer Thermaplugg opened the radiation vents to wipe out the invading troggs, the resulting chemical contamination seeped deep into the city's reservoirs, trapping the elemental and corrupting its very substance.",
+   "spoiler": 0
+  },
+  {
+   "title": "Agony in the Runoff",
+   "body": "Now, the creature is little more than a living pool of toxic sludge, drifting aimlessly through the irradiated lower passages. Transformed into an embodiment of Thermaplugg's treachery, Viscous Fallout lashes out at anything in its path, consumed by constant pain and fury. Striking it down is a grim necessity for those venturing into Gnomeregan to cleanse the tainted depths.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Viscous Fallout?",
+   "aliases": [
+    "who is viscous fallout",
+    "viscous fallout lore",
+    "what kind of mob is viscous fallout"
+   ],
+   "answer": "Viscous Fallout is a water elemental mini-boss located inside the ruined city of Gnomeregan. Formerly a pure water spirit native to the city's deep aquifers, it became thoroughly tainted by toxic sludge and radioactive fallout."
+  },
+  {
+   "q": "How did it become corrupted?",
+   "aliases": [
+    "why is it green",
+    "why is the elemental toxic",
+    "how was viscous fallout created"
+   ],
+   "answer": "When Mekgineer Thermaplugg deliberately flooded Gnomeregan with radioactive waste to repel the trogg invasion, the contaminated runoff infiltrated the city's plumbing and aquifers. The trapped water elemental absorbed the deadly chemical stew, warping into an acidic, irradiated horror."
+  },
+  {
+   "q": "Where in Gnomeregan does it wander?",
+   "aliases": [
+    "viscous fallout location",
+    "where to find viscous fallout",
+    "how to find viscous fallout"
+   ],
+   "answer": "Viscous Fallout patrols the lower irradiated passages and runoff canals below the main entry paths of Gnomeregan, often blending in among the ordinary mutated slimes and toxic wastes infesting the area."
+  },
+  {
+   "q": "Why is it hostile?",
+   "aliases": [
+    "why does it attack",
+    "can it be saved"
+   ],
+   "answer": "The elemental is driven mad by relentless agony and toxic corruption. Stripped of its natural purity, it lashes out furiously at any living creature trespassing in the tainted waterways."
+  },
+  {
+   "q": "Does it have any connection to Ironforge?",
+   "aliases": [
+    "hydrocane ironforge",
+    "gnome connection"
+   ],
+   "answer": "Gnomish refugees in Tinker Town inside Ironforge remember the complex waterways that once supported Gnomeregan. Items associated with the waterworks, such as the Hydrocane, are tied to these corrupted chambers and sought after for recovery."
+  },
+  {
+   "q": "Can the elemental be cleansed or cured?",
+   "aliases": [
+    "can you cure viscous fallout",
+    "cleanse viscous fallout"
+   ],
+   "answer": "No cure exists for the elemental. The radiation and toxic chemicals have permeated its form so entirely that destroying it is the only way to end its suffering."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomes, Viscous Fallout is a tragic reminder of the damage Mekgineer Thermaplugg inflicted upon their home, corrupting even the pristine subterranean springs that once sustained Gnomeregan."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "A shaman will recognize the perversion of the elemental plane, seeing in Viscous Fallout a pure water spirit driven mad and defiled by artificial toxic waste."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids view the creature as a living wound upon nature, illustrating the horrific consequences of reckless industrial contamination seeping into natural underground waters."
+  }
+ ],
+ "keywords": [
+  "aquifer",
+  "gnomeregan",
+  "hydrocane",
+  "radiation",
+  "thermaplugg",
+  "tinker town",
+  "viscous fallout",
+  "water elemental"
+ ],
+ "related": [
+  "zone:gnomeregan",
+  "subzone:tinker-town",
+  "zone:ironforge",
+  "topic:gnome",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Viscous Fallout"
+ ]
+}

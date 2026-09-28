@@ -1,0 +1,91 @@
+{
+ "key": "npc:grunth",
+ "type": "npc",
+ "name": "Grunth",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Grunth",
+  "refs": 1
+ },
+ "summary": "Grunth is an energetic young orc orphan living under the care of the Orgrimmar orphanage in the Drag. During Children's Week, he eagerly accompanies Horde champions on grand journeys across Kalimdor and the Eastern Kingdoms to learn what it means to be a hero.",
+ "sections": [
+  {
+   "title": "A Curious Child of the Horde",
+   "body": "Residing in the Drag of Orgrimmar under the watchful gaze of Orphan Matron Battlewail, Grunth represents the next generation of the newly established Horde. Like many young greenskins raised in Durotar's harsh red wastes, he looks upon armored adventurers with wide-eyed awe and an inexhaustible stream of questions\u2014wondering whether armored warriors are truly terrifying, why lightning on water doesn't kill every fish, and whether he will ever see someone fight an actual dragon.",
+   "spoiler": 0
+  },
+  {
+   "title": "Children's Week Journeys",
+   "body": "When festival season arrives, adventurers blow an Orcish Orphan Whistle to summon Grunth and take him on an expansive tour across the world. His bucket list spans the breadth of the Horde's domain: seeking an audience with High Chieftain Cairne Bloodhoof in Mulgore, venturing deep into the ruins of Lordaeron to see the Banshee Queen Sylvanas Windrunner, and visiting the rugged frontiers where his people fight for their future.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Grunth?",
+   "aliases": [
+    "grunth npc",
+    "orc orphan",
+    "orgrimmar orphan"
+   ],
+   "answer": "Grunth is an orc child residing at the Orgrimmar orphanage in the Drag. He is cared for by Orphan Matron Battlewail and dreams of becoming a legendary hero of the Horde."
+  },
+  {
+   "q": "Where can Grunth be found?",
+   "aliases": [
+    "grunth location",
+    "where is grunth",
+    "find grunth"
+   ],
+   "answer": "He stays in the Drag in Orgrimmar with the other orphans, but during Children's Week, an adventurer can summon him anywhere using an Orcish Orphan Whistle obtained from Orphan Matron Battlewail."
+  },
+  {
+   "q": "What places does Grunth want to visit?",
+   "aliases": [
+    "grunth quests",
+    "what does the orphan want",
+    "grunth tour"
+   ],
+   "answer": "Grunth yearns to see the greatest icons of the Horde. His requests include visiting High Chieftain Cairne Bloodhoof in Thunder Bluff, touring the Ratchet docks, and traveling all the way to the ruined throne room of Lordaeron to glimpse Lady Sylvanas Windrunner."
+  },
+  {
+   "q": "What kind of personality does Grunth have?",
+   "aliases": [
+    "grunth quotes",
+    "grunth dialogue",
+    "what does grunth say"
+   ],
+   "answer": "Grunth is loud, curious, and intensely imaginative. He constantly fires off absurd riddles and childlike inquiries to the adventurers shepherding him, such as asking what 'zug zug' actually means, whether a wingless fly is called a walk, and casually mentioning he shoved a rock up his nose."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Mentoring Grunth during Children's Week reminds Horde champions of what their faction strives to protect: a rising generation born into freedom rather than demonic servitude."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Grunth embodies the youth of Durotar, growing up knowing tribal honor and survival rather than the dark lethargy of the internment camps."
+  }
+ ],
+ "keywords": [
+  "children's week",
+  "grunth",
+  "orc orphan",
+  "orgrimmar",
+  "orphan matron battlewail",
+  "orphan whistle",
+  "the drag"
+ ],
+ "related": [
+  "npc:orphan-matron-battlewail",
+  "subzone:drag",
+  "zone:orgrimmar",
+  "topic:horde",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Grunth"
+ ]
+}

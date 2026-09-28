@@ -1,0 +1,75 @@
+{
+ "key": "npc:altsoba-ragetotem",
+ "type": "npc",
+ "name": "Altsoba Ragetotem",
+ "era": "classic",
+ "zone": "felwood",
+ "meta": {
+  "wiki": "Altsoba Ragetotem",
+  "refs": 2
+ },
+ "summary": "Altsoba Ragetotem is a tauren weaponsmith stationed at Bloodvenom Post in Felwood. From this remote Horde outpost, he keeps passing champions armed with reliable maces, staves, and axes to face the blighted horrors of the forest.",
+ "sections": [
+  {
+   "title": "Armorer of Bloodvenom Post",
+   "body": "Bloodvenom Post is a treacherous outpost, situated in the heart of Felwood amidst demonic corruption and tainted wildlife. Maintaining a supply line out here is a grim necessity, and Altsoba Ragetotem does his part by outfitting Horde scouts and travelers. Whether someone requires a sturdy crescent axe or a heavy war maul, Altsoba ensures warriors heading into the corrupted timberlands do not enter the fray unarmed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Altsoba Ragetotem?",
+   "aliases": [
+    "who is altsoba",
+    "altsoba ragetotem",
+    "tauren at bloodvenom post"
+   ],
+   "answer": "Altsoba Ragetotem is a tauren vendor stationed at Bloodvenom Post, the Horde encampment in Felwood. He provides basic heavy weaponry to travelers and defenders braving the blighted valley."
+  },
+  {
+   "q": "What does Altsoba sell?",
+   "aliases": [
+    "altsoba wares",
+    "altsoba vendor items",
+    "what weapons does altsoba sell"
+   ],
+   "answer": "He sells a variety of standard melee weapons, including battle staves, morning stars, war mauls, and axes, offering dependable steel for adventurers venturing deep into Felwood."
+  },
+  {
+   "q": "Where can I find Altsoba Ragetotem?",
+   "aliases": [
+    "altsoba location",
+    "where is altsoba",
+    "bloodvenom post vendor location"
+   ],
+   "answer": "He can be found resting within Bloodvenom Post, perched along the cliffs overlooking the foul waters and tainted glades of Felwood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Altsoba provides essential martial supplies to Horde operatives holding their ground in one of Kalimdor's most corrupted regions."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "As a member of the Ragetotem tribe, Altsoba brings traditional tauren steadfastness to a land suffering profoundly under demonic blight."
+  }
+ ],
+ "keywords": [
+  "altsoba",
+  "bloodvenom post",
+  "felwood",
+  "ragetotem",
+  "tauren",
+  "vendor",
+  "weaponsmith"
+ ],
+ "related": [
+  "subzone:bloodvenom-post",
+  "zone:felwood",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Altsoba Ragetotem"
+ ]
+}

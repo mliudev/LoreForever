@@ -1,0 +1,121 @@
+{
+ "key": "quest:1858",
+ "type": "quest",
+ "name": "The Shattered Hand",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   1858
+  ],
+  "level": "13",
+  "faction": "Horde",
+  "start": "Therzok",
+  "end": "",
+  "previous": "The Shattered Hand (Classic)",
+  "next": null,
+  "wiki": "The Shattered Hand (2)",
+  "chain": [
+   "Therzok (quest)",
+   "The Shattered Hand (Classic)",
+   "The Shattered Hand (2)"
+  ]
+ },
+ "summary": "This rogue trial serves as the final initiation into the ranks of the Shattered Hand within Orgrimmar. Therzok tasks aspiring rogues with unlocking a recovered satchel by lifting the key from an unwitting accomplice.",
+ "sections": [
+  {
+   "title": "A Test of Subtlety",
+   "body": "Having retrieved Tazan's locked satchel, aspiring rogues find the prize useless without its key. Rather than forcing the complex lock by brute strength, the Shattered Hand insists on genuine craft. Therzok points his initiates toward Gamon, an easily distracted tauren drunkard who frequent's Orgrimmar's tavern and previously assisted Tazan, making him an ideal mark for quiet thievery.",
+   "spoiler": 0
+  },
+  {
+   "title": "Welcome to the Shadows",
+   "body": "Relieving Gamon of the key without alerting the entire tavern allows an initiate to unlock the satchel and secure Tazan's logbook. Bringing these stolen contents back to Therzok in the Cleft of Shadow satisfies the guild's rigorous standards. With the job done cleanly, the candidate is formally inducted as a recognized operative of the Shattered Hand.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gamon and why does he have the key?",
+   "aliases": [
+    "why gamon",
+    "who has the key",
+    "gamon key"
+   ],
+   "answer": "Gamon was an assistant to Tazan, the operative whose satchel Therzok is investigating. While Tazan carried the satchel, he left the key in the hands of Gamon, an unsuspecting drunkard who spends his days drinking in Orgrimmar's central tavern."
+  },
+  {
+   "q": "What is inside Tazan's satchel?",
+   "aliases": [
+    "tazan's logbook",
+    "satchel contents",
+    "what is in the satchel"
+   ],
+   "answer": "Inside the locked satchel rests Tazan's logbook. Its contents detail intelligence of interest to Therzok and the Shattered Hand, proving the initiate's ability to recover vital information under covert circumstances."
+  },
+  {
+   "q": "What is the Shattered Hand in Orgrimmar?",
+   "aliases": [
+    "what is shattered hand",
+    "shattered hand rogues",
+    "orgrimmar rogues"
+   ],
+   "answer": "Originally an infamous orcish clan from Draenor known for self-mutilation and ruthlessness, the Shattered Hand has evolved in Orgrimmar into the Horde's premier guild of assassins, spies, and rogues, operating out of the subterranean Cleft of Shadow."
+  },
+  {
+   "q": "Where does Therzok operate?",
+   "aliases": [
+    "where is therzok",
+    "therzok location",
+    "cleft of shadow rogue trainer"
+   ],
+   "answer": "Therzok operates out of the Cleft of Shadow, the dim cavern network hidden beneath the rocky ridges of Orgrimmar where warlocks, rogues, and shadowcraft thrive away from daylight."
+  },
+  {
+   "q": "Why doesn't Therzok just break open the satchel?",
+   "aliases": [
+    "why pickpocket",
+    "why need key"
+   ],
+   "answer": "The satchel is fitted with a complex locking mechanism, but more importantly, this is a test of a rogue's discipline. The Shattered Hand values surgical theft and finesse over noisy destruction."
+  },
+  {
+   "q": "What happens after this quest?",
+   "aliases": [
+    "shattered hand reward",
+    "end of chain"
+   ],
+   "answer": "This assignment marks the conclusion of the initiation chain. By handing over Tazan's logbook, you are formally declared a recognized member of the Shattered Hand and rewarded with tools to aid your future covert endeavors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This rite of passage teaches the core tenets of the rogue craft: stalking an oblivious target in crowded quarters, lifting a key unnoticed, and securing vital intelligence."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Beneath the martial honor of Thrall's new Horde lies the necessity of covert reconnaissance, quietly managed by the Shattered Hand deep within Orgrimmar."
+  }
+ ],
+ "keywords": [
+  "cleft of shadow",
+  "gamon",
+  "orgrimmar",
+  "pickpocket",
+  "rogue",
+  "shattered hand",
+  "tazan",
+  "therzok"
+ ],
+ "related": [
+  "quest:1859",
+  "subzone:cleft-of-shadow",
+  "zone:orgrimmar",
+  "topic:horde",
+  "subzone:cleft"
+ ],
+ "attribution": [
+  "The Shattered Hand (2)"
+ ]
+}

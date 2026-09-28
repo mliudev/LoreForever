@@ -1,0 +1,127 @@
+{
+ "key": "npc:witch-doctor-uzer-i",
+ "type": "npc",
+ "name": "Witch Doctor Uzer'i",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Witch Doctor Uzer'i",
+  "refs": 4
+ },
+ "summary": "Witch Doctor Uzer'i is a jungle troll mystic residing at Camp Mojache in the primordial forests of Feralas. Dedicated to advancing the magical capabilities of the Horde, he researches techniques to trap and harness the muisek\u2014the spiritual essence of powerful natural creatures. By capturing these ancient forest spirits, Uzer'i seeks to channel the raw primal energies traditionally favored by night elves directly into enchanted weapons.",
+ "sections": [
+  {
+   "title": "Harnessing the Muisek",
+   "body": "Rooted in traditional troll spiritualism, Witch Doctor Uzer'i has spent considerable effort studying the natural magic inherent to the untamed wilderness of Feralas. He argues that night elves have drawn upon the spirits of forest beasts for millennia, and believes the time has come for the Horde to seize those same primal forces. Central to his study is the concept of muisek: the vibrant spiritual essence that remains within a creature. To harness it, Uzer'i crafts specialized vessels capable of rapidly shrinking fallen beings before their escaping spirit disperses, allowing the essence to be stored and studied.",
+   "spoiler": 0
+  },
+  {
+   "title": "Grisly Bargains and Ritual Vessels",
+   "body": "Perfecting the containment vessels required dark and potent reagents that Uzer'i could not procure in the wilds alone. After slaying an Alliance dwarf wandering the Feralas timber, Uzer'i severed the intruder's head and arranged for it to be traded to Neeru Fireblade, a warlock dwelling in Orgrimmar's shadowy Cleft of Shadow. In return for the grisly prize, Neeru provided rare herbs necessary to finalize the binding enchantments. With these components, Uzer'i successfully completed his first vessels, opening the way to capture the spirits of regional wildkin, hippogryphs, faerie dragons, treants, and mountain giants.",
+   "spoiler": 1
+  },
+  {
+   "title": "Forging Weapons of Spirit",
+   "body": "Extracting muisek was merely the first phase of Uzer'i's broader ambition. Gathering resilient sinew, enchanted minerals, and petrified splintered logs from the very creatures whose spirits he trapped, the witch doctor fused physical materials with bound muisek. Through these rites, he learned to permanently bind ancient forest spirits into arms and armaments, providing the Horde with magically charged weapons. Beyond his ritual craftsmanship, Uzer'i maintains a deep curiosity regarding hidden places of power throughout Azeroth, actively tracking rumors of the ancient, submerged Sunken Temple.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is muisek?",
+   "aliases": [
+    "what is muisek",
+    "muisek meaning",
+    "define muisek"
+   ],
+   "answer": "Muisek is the lingering spiritual essence of living creatures. Witch Doctor Uzer'i uses specially enchanted vessels to shrink the bodies of slain beasts and natural guardians, trapping their escaping spirits before they dissolve into the surrounding environment."
+  },
+  {
+   "q": "Why is Uzer'i trading dwarf heads to Orgrimmar?",
+   "aliases": [
+    "dwarf head quest",
+    "why send head to neeru",
+    "neeru fireblade trade"
+   ],
+   "answer": "Uzer'i needed specialized reagents to prepare his ritual vessels. After killing an Alliance dwarf in Feralas, he had the severed head delivered to Neeru Fireblade in Orgrimmar in exchange for rare herbs required to bind the muisek spirits."
+  },
+  {
+   "q": "What kind of creatures does Uzer'i target?",
+   "aliases": [
+    "what beasts does uzeri hunt",
+    "uzeri spirit targets",
+    "which animals for muisek"
+   ],
+   "answer": "He targets creatures intrinsically tied to the natural world and long allied with the night elves, including wildkin from the Hinterlands, as well as hippogryphs, faerie dragons, treants, and mountain giants in Feralas."
+  },
+  {
+   "q": "What does Uzer'i do with the captured spirits?",
+   "aliases": [
+    "weapons of spirit",
+    "why collect muisek",
+    "muisek weapon rewards"
+   ],
+   "answer": "Once gathered alongside raw natural components like splintered logs, sinew, and minerals, Uzer'i permanently binds the muisek into weaponry, imbuing mundane arms with the raw mystical power of ancient forest guardians."
+  },
+  {
+   "q": "Where is Witch Doctor Uzer'i located?",
+   "aliases": [
+    "uzeri location",
+    "where is uzeri",
+    "witch doctor uzeri spot"
+   ],
+   "answer": "Witch Doctor Uzer'i resides within Camp Mojache, the primary Horde settlement situated in the lush, dangerous canopy of central Feralas."
+  },
+  {
+   "q": "What does Uzer'i know about the Sunken Temple?",
+   "aliases": [
+    "uzeri sunken temple",
+    "sunken temple feralas quest",
+    "temple of atal hakkar uzeri"
+   ],
+   "answer": "As a scholar of spirits and mystical sites across Azeroth, Uzer'i has caught wind of the submerged Atal'ai sanctuary known as the Sunken Temple, and directs interested adventurers to the goblin explorer Marvon Rivetseeker to investigate further."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Uzer'i provides the Horde with an avenue to master the primal magic of Kalimdor's wilderness, turning the land's spiritual power against Alliance allies like the night elves."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Uzer'i represents classic troll spiritual practices, employing traditional witch doctor rituals, shrunken vessels, and voodoo to harness raw life essences."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman will recognize Uzer'i's relentless focus on communion with spirits, though his aggressive containment of elemental and wild essences leans toward forceful witchery rather than reverent balance."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Night elves view Uzer'i's practices as a blasphemy, watching in horror as sacred creatures like treants, hippogryphs, and mountain giants are slaughtered and bound into weapons."
+  }
+ ],
+ "keywords": [
+  "camp mojache",
+  "faerie dragon",
+  "feralas",
+  "mountain giant",
+  "muisek",
+  "neeru fireblade",
+  "treant",
+  "uzer'i",
+  "witch doctor"
+ ],
+ "related": [
+  "subzone:camp-mojache",
+  "zone:feralas",
+  "quest:829",
+  "topic:troll",
+  "topic:horde",
+  "subzone:high-wilderness",
+  "zone:hinterlands",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Witch Doctor Uzer'i"
+ ]
+}

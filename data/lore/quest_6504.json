@@ -1,0 +1,119 @@
+{
+ "key": "quest:6504",
+ "type": "quest",
+ "name": "The Lost Pages",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   6504
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Gurda Ragescar",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "The Lost Pages",
+  "chain": []
+ },
+ "summary": "While transporting a newly acquired goblin shredder from Ratchet to the Warsong Lumber Camp, the orc Gurda Ragescar lost the machine's operating manual to a sudden gust of wind. Stranded near Splintertree Post, she cannot run the complex engineering marvel without recovering the scattered pages.",
+ "sections": [
+  {
+   "title": "A Gust of Bad Luck",
+   "body": "The Warsong Clan relies heavily on steam-powered shredders bought from the goblins of the Venture Company and the port of Ratchet to clear lumber across Ashenvale. Operating these delicate, noisy contraptions is far from intuitive for an ordinary orc warrior. When Gurda Ragescar made the journey north with a freshly purchased shredder, a sudden blast of wind tore the instruction booklet from her hands, scattering twelve fragile parchment leaves across the forest floor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pages in the Wilderness",
+   "body": "Because the wild winds swept the manual over the canopy, individual pages have drifted into the hands of wandering creatures, cultists, and forest denizens across the entire region. Without all three gathered chapters, the complex machine remains an inert block of steel and whirring sawblades, leaving Gurda stranded along the road to Splintertree Post unable to report for logging duty.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gurda Ragescar?",
+   "aliases": [
+    "gurda",
+    "ragescar",
+    "who is the quest giver"
+   ],
+   "answer": "Gurda Ragescar is a Horde laborer tasked with ferrying a goblin shredder from the merchant port of Ratchet up into Ashenvale to join the logging efforts of the Warsong Lumber Camp."
+  },
+  {
+   "q": "Why does Gurda need an instruction manual to drive the shredder?",
+   "aliases": [
+    "why manual",
+    "why cant she drive it",
+    "shredder operating manual"
+   ],
+   "answer": "Goblin engineering is famously finicky and counterintuitive, reliant on volatile boilers, intricate pressure valves, and complex levers. Even an eager orc cannot safely operate the contraption without reading the manufacturer's manual."
+  },
+  {
+   "q": "How did the manual pages end up scattered all over Ashenvale?",
+   "aliases": [
+    "how did pages get lost",
+    "wind blew pages"
+   ],
+   "answer": "While traveling north along the forest road, a violent gust of wind whipped the book from Gurda's grip. The loose pages fluttered across the woods, leaving her holding only the empty front cover."
+  },
+  {
+   "q": "Where does the shredder ultimately belong?",
+   "aliases": [
+    "where is the shredder going",
+    "warsong shredder destination"
+   ],
+   "answer": "The machine is destined for the Warsong Lumber Camp, where the Horde maintains an aggressive clear-cutting campaign to supply timber for Orgrimmar and Durotar."
+  },
+  {
+   "q": "Where can the missing pages be found?",
+   "aliases": [
+    "where to find pages",
+    "who drops the pages"
+   ],
+   "answer": "The winds swept the pages far and wide, and they have been picked up by various humanoids and hostile forest denizens roaming across Ashenvale."
+  },
+  {
+   "q": "Why does the Horde purchase machinery from Ratchet?",
+   "aliases": [
+    "horde goblin machinery",
+    "ratchet trade horde"
+   ],
+   "answer": "Ratchet is the nearest neutral port with active trade networks connected to goblin cartels. The Horde regularly purchases specialized engineering, demolition tools, and steam-driven vehicles to augment its military logistics."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Tinkers will understand Gurda's dilemma all too well: piloting a goblin-built shredder without the manufacturer's guidelines is an easy recipe for catastrophic boiler failure."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Every shredder that reaches the Warsong Lumber Camp speeds up the gathering of precious timber needed to construct walls, huts, and warships in Durotar."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Manual labor and warrior traditions leave little patience for detailed goblin paperwork, making Gurda's exasperation with lost technical sheets deeply relatable."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "gurda ragescar",
+  "ratchet",
+  "shredder",
+  "shredder operating manual",
+  "splintertree post",
+  "the lost pages",
+  "warsong lumber camp"
+ ],
+ "related": [
+  "npc:gurda-ragescar",
+  "subzone:splintertree-post",
+  "subzone:warsong-lumber-camp",
+  "subzone:ratchet",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "The Lost Pages"
+ ]
+}

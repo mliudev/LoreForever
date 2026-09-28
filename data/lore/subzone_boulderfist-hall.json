@@ -1,0 +1,81 @@
+{
+ "key": "subzone:boulderfist-hall",
+ "type": "subzone",
+ "name": "Boulderfist Hall",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Boulderfist Hall"
+ },
+ "summary": "Boulderfist Hall is a heavily fortified ogre mound nestled in the southern hills of the Arathi Highlands, just north of Thandol Span. It serves as the local stronghold for the Boulderfist ogres, who exert their brute influence across the neighboring trade routes and valleys under the command of Kor'gresh Coldrage.",
+ "sections": [
+  {
+   "title": "A Bastion of Brute Strength",
+   "body": "Carved into the rugged southern bluffs of the Arathi Highlands, Boulderfist Hall is the principal redoubt of the Boulderfist clan in the region. Sheltered within its earthen ramparts and deep caverns, ogre brutes and magi maintain a fortified settlement mere steps from Witherbark Village and the strategic bridge at Thandol Span. Deep within the mound lurks their regional chieftain, Kor'gresh Coldrage, alongside enforcers like Phalanax and Molok the Crusher. From this stronghold, the ogres project violent control over the surrounding roads, making any peaceful transit between Arathi and the Wetlands perilous for travelers and supply caravans alike.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Boulderfist Hall?",
+   "aliases": [
+    "what is this place",
+    "boulderfist mound",
+    "ogre cave arathi"
+   ],
+   "answer": "It is a fortified ogre mound and cave complex in the southern Arathi Highlands, serving as the base of operations for the Boulderfist clan in this territory."
+  },
+  {
+   "q": "Who rules Boulderfist Hall?",
+   "aliases": [
+    "who leads boulderfist hall",
+    "ogre boss arathi",
+    "kor'gresh"
+   ],
+   "answer": "The stronghold is led by the ogre chief Kor'gresh Coldrage, who directs his clan from the deep cavern inside the mound alongside champions like Phalanax."
+  },
+  {
+   "q": "Why is this location strategically important?",
+   "aliases": [
+    "why ogres here",
+    "thandol span danger"
+   ],
+   "answer": "Its proximity to Thandol Span allows the Boulderfist ogres to threaten the vital overland route connecting the Arathi Highlands to Khaz Modan, choking off traffic and skirmishing with neighboring trolls and travelers."
+  },
+  {
+   "q": "Are the Boulderfist allied with the nearby Witherbark trolls?",
+   "aliases": [
+    "ogres and trolls friends",
+    "witherbark alliance"
+   ],
+   "answer": "No. The Boulderfist ogres and the forest trolls of Witherbark Village dwell in close proximity but remain independent and hostile factions competing for regional dominance in Arathi."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Positioned just above Thandol Span, the Boulderfist ogres pose a constant ambush hazard for Alliance couriers and reinforcements moving north from Ironforge into Arathi."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing the Arathi Highlands requires breaking the independent power of the ogres, clearing the southern ridge to safeguard Horde movement from Hammerfall."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "boulderfist",
+  "boulderfist hall",
+  "kor'gresh coldrage",
+  "ogre mound",
+  "phalanax",
+  "thandol span"
+ ],
+ "related": [
+  "zone:arathi",
+  "subzone:thandol-span",
+  "subzone:witherbark-village"
+ ],
+ "attribution": [
+  "Boulderfist Hall"
+ ]
+}

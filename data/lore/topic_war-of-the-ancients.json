@@ -1,0 +1,129 @@
+{
+ "key": "topic:war-of-the-ancients",
+ "type": "topic",
+ "name": "War of the Ancients",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "War of the Ancients"
+ },
+ "summary": "Ten thousand years ago, the reckless sorcery of Queen Azshara and her Highborne tore a portal through the Well of Eternity, unleashing the demonic Burning Legion onto Azeroth. Led by the young druid Malfurion Stormrage, Priestess Tyrande Whisperwind, and commander Jarod Shadowsong, a desperate coalition of mortals and ancient forest demigods repelled the invaders. The resulting destruction of the Well triggered the Great Sundering, violently shattering the ancient continent of Kalimdor and permanently altering the face of the world.",
+ "sections": [
+  {
+   "title": "The Highborne's Folly",
+   "body": "At the height of the ancient Kaldorei Empire, Queen Azshara and her elite caste of sorcerers, the Highborne, relentlessly drew upon the vast arcane depths of the Well of Eternity. Their reckless manipulation sent massive ripples into the Great Dark Beyond, attracting Sargeras, the master of the Burning Legion. Entranced by promises of ultimate power and perfection, Azshara and her advisor Xavius opened a trans-dimensional rift within the Well. Legions of felhounds, felguard, doomguard, and monstrous commanders poured into the capital city of Zin-Azshari, slaughtering all non-Highborne and beginning their crusade to purge the world of life.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Kaldorei Resistance",
+   "body": "Horrified by the slaughter, night elves outside the Highborne caste rallied under the seasoned general Lord Kur'talos Ravencrest. The resistance was bolstered by remarkable heroes: the first mortal druid Malfurion Stormrage, the devout priestess of Elune Tyrande Whisperwind, and Malfurion's gifted brother Illidan. When imperial forces assassinated Ravencrest and the demon armies pressed hard, command fell to the brilliant tactician Jarod Shadowsong. Realizing the elves could not survive alone, Jarod reached across old racial boundaries, recruiting the earthen, the furbolgs, and the mountain tauren into a unified frontline against the Legion's onslaught.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of Victory",
+   "body": "The war escalated to world-shattering proportions when the demigod Cenarius rallied the ancient Wild Gods and dragonflights into the fray. Determined to stop Sargeras himself from stepping foot onto Azeroth, Malfurion and the resistance made a desperate push to collapse the portal over the Well of Eternity. Their desperate gambit succeeded in casting the demonic host back into the Twisting Nether, but the strain proved too great. The Well violently imploded, triggering the Great Sundering that shattered Kalimdor into separate continents and flooded the center of the world, birthing the Great Sea and forever marking Kaldorei culture.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What caused the War of the Ancients?",
+   "aliases": [
+    "why did the war start",
+    "who caused the war of the ancients",
+    "well of eternity portal"
+   ],
+   "answer": "Queen Azshara and her Highborne sorcerers relentlessly experimented with the arcane energies of the Well of Eternity. Their spells sent waves across the cosmos that attracted the dark titan Sargeras, who convinced the Highborne to open a gateway within the Well so the Burning Legion could enter Azeroth."
+  },
+  {
+   "q": "What was the Great Sundering?",
+   "aliases": [
+    "what is the sundering",
+    "how did kalimdor break",
+    "well of eternity explosion"
+   ],
+   "answer": "The Great Sundering was the cataclysm that ended the war. To stop Sargeras from entering the world, the resistance collapsed the portal inside the Well of Eternity. The backlash caused the Well to violently implode, tearing the single supercontinent of Kalimdor apart into separate landmasses and forming the Great Sea."
+  },
+  {
+   "q": "Who led the mortal forces against the Legion?",
+   "aliases": [
+    "who led the resistance",
+    "kaldorei resistance leaders"
+   ],
+   "answer": "Lord Kur'talos Ravencrest initially rallied the resistance. Following his death on the battlefield, commander Jarod Shadowsong took over supreme leadership, directing the combined ground forces alongside crucial battlefield heroes including Malfurion Stormrage and Tyrande Whisperwind."
+  },
+  {
+   "q": "Did other races fight alongside the night elves?",
+   "aliases": [
+    "tauren in war of the ancients",
+    "who helped the night elves"
+   ],
+   "answer": "Yes. Breaking long-held elven prejudices, commander Jarod Shadowsong accepted the aid of several mortal races, uniting earthen, furbolg tribes, and mountain tauren against the demonic invasion alongside the woodland demigod Cenarius and his wild brethren."
+  },
+  {
+   "q": "What happened to Queen Azshara during the war?",
+   "aliases": [
+    "where is azshara",
+    "did queen azshara die"
+   ],
+   "answer": "Azshara remained inside her palace at Zin-Azshari until the bitter end, obsessed with bringing Sargeras into Azeroth. When the Well of Eternity imploded and the oceans swallowed the capital, the queen and her surviving Highborne loyalists sank into the churning depths."
+  },
+  {
+   "q": "Why is arcane magic mistrusted by night elves today?",
+   "aliases": [
+    "why do night elves hate mages",
+    "kaldorei magic ban"
+   ],
+   "answer": "The Kaldorei witnessed firsthand how the Highborne's unchecked thirst for arcane magic summoned the Burning Legion and obliterated ancient Kalimdor. In the aftermath, the night elves strictly outlawed arcane sorcery, turning instead to druidism and faith in Elune to protect their lands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The war shaped every aspect of modern Kaldorei society, explaining their deep mistrust of arcane magic, their reverence for Cenarius, and the enduring leadership of Malfurion and Tyrande."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The conflict marks the birth of mortal druidism, when Malfurion Stormrage learned the ways of the wild from Cenarius and proved that the power of nature could defeat cosmic ruin."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Highborne reckless arrogance during the war serves as the ultimate historical warning across Azeroth about the catastrophic dangers of unchecked arcane draw."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Tauren warriors preserve the proud memory of standing shoulder-to-shoulder with forest gods and ancient mortals to drive the Legion back ten millennia ago."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Tyrande Whisperwind's mastery of Elune's grace during the war elevated the Priesthood of the Moon into the heart of night elven military and civic leadership."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "burning legion",
+  "cenarius",
+  "highborne",
+  "jarod shadowsong",
+  "malfurion",
+  "ravencrest",
+  "sargeras",
+  "sundering",
+  "tyrande",
+  "war of the ancients",
+  "well of eternity"
+ ],
+ "related": [
+  "topic:burning-legion",
+  "npc:malfurion-stormrage",
+  "npc:tyrande-whisperwind",
+  "topic:cenarius",
+  "topic:highborne",
+  "topic:night-elf",
+  "topic:sargeras",
+  "zone:azshara"
+ ],
+ "attribution": [
+  "War of the Ancients"
+ ]
+}

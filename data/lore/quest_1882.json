@@ -1,0 +1,126 @@
+{
+ "key": "quest:1882",
+ "type": "quest",
+ "name": "The Balnir Farmstead",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   1882
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Anastasia Hartwell",
+  "end": "",
+  "previous": "Speak with Anastasia",
+  "next": null,
+  "wiki": "The Balnir Farmstead",
+  "chain": [
+   "Speak with Anastasia",
+   "The Balnir Farmstead"
+  ]
+ },
+ "summary": "\"The Balnir Farmstead\" is an early rite of passage for young Forsaken mages, directed by Anastasia Hartwell in the Undercity's Mage Quarter. Initiates are sent to eastern Tirisfal Glades to gather snapdragons from an abandoned farmstead sitting dangerously close to the border of the Plaguelands. The floral samples serve as barometers for the encroaching magical corruption spreading from the Scourge-blighted east.",
+ "sections": [
+  {
+   "title": "A Magical Barometer",
+   "body": "While the Royal Apothecary Society frequently studies the effects of necromancy and decay, the mages of the Forsaken maintain their own watchful eye on the borderlands. Anastasia Hartwell tasks novice spellcasters with travelling to the Balnir Farmstead in eastern Tirisfal Glades. Snapdragons native to the farm's gardens are naturally sensitive to shifting magical currents, absorbing ambient energies from the soil and atmosphere. By examining these blooms, arcane scholars in the Undercity can measure whether the corruptive contagion of the Lich King's domain has seeped past the bulwark into Tirisfal proper.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Eastern Border",
+   "body": "The Balnir Farmstead sits near the fringes of the glades, uncomfortably near the blight-scarred wilderness of the Western Plaguelands. The Forsaken recognize that the Lich King's plague is an unruly and destructive power that actively rots the land itself. Although the Forsaken harness their own dark arts, uncontained Scourge corruption threatens their territorial borders and security. Anastasia intends to pass the gathered snapdragons along to the apothecaries, uniting arcane observation with alchemical investigation to defend Lordaeron's reclaimed heartland.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Anastasia Hartwell want snapdragons specifically?",
+   "aliases": [
+    "why snapdragons",
+    "balnir snapdragons purpose",
+    "what are snapdragons for"
+   ],
+   "answer": "Balnir snapdragons possess a distinct natural sensitivity to ambient magical forces. Because they absorb energies directly from the earth and air, studying them allows Forsaken mages to determine whether the arcane and necromantic blight of the nearby Plaguelands is contaminating Tirisfal Glades."
+  },
+  {
+   "q": "Where is the Balnir Farmstead located?",
+   "aliases": [
+    "balnir farmstead location",
+    "where is balnir farm",
+    "find balnir farmstead"
+   ],
+   "answer": "The farmstead lies in eastern Tirisfal Glades, tucked toward the border where the glades approach the blighted frontier of the Western Plaguelands. The snapdragons grow within the overgrown plots and gardens surrounding the decrepit farm buildings."
+  },
+  {
+   "q": "Who is Anastasia Hartwell?",
+   "aliases": [
+    "anastasia hartwell lore",
+    "who is anastasia"
+   ],
+   "answer": "Anastasia Hartwell is a prominent Forsaken mage and trainer residing in the Mage Quarter of the Undercity. She guides newly emergent undead casters, instructing them on discipline, arcane balance, and the practical defense of their borders against rival powers."
+  },
+  {
+   "q": "Why do Forsaken mages care about stopping the plague?",
+   "aliases": [
+    "why stop the plague",
+    "do forsaken hate the plague"
+   ],
+   "answer": "Though the Forsaken experiment with their own plagues and blights, the Lich King's infectious scourge magic is considered an uncontrolled aberration. Left unchecked, the Scourge's corruption would swallow Tirisfal Glades whole and undermine the Forsaken's independence."
+  },
+  {
+   "q": "What happens to the flowers after you collect them?",
+   "aliases": [
+    "what does anastasia do with the flowers",
+    "who gets the snapdragons"
+   ],
+   "answer": "Upon receiving the snapdragons, Anastasia prepares to hand them over to the Undercity's apothecaries. The alchemists and mages dissect the specimens together to assess how deeply the soil and flora have been tainted by the Scourge."
+  },
+  {
+   "q": "Is this quest restricted to mages?",
+   "aliases": [
+    "is balnir farmstead mage only",
+    "mage class quest"
+   ],
+   "answer": "Yes. This task serves as a dedicated class quest offered exclusively to young Forsaken mages who have advanced beyond their initial lessons in Deathknell and arrived in the capital to prove their grasp of arcane theory."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "This early trial teaches novice mages that their study of the arcane is essential for monitoring and defending against foreign magical corruption."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, safeguarding the borders of Tirisfal Glades against the encroaching Scourge is a matter of immediate survival and sovereignty."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The Balnir snapdragon provides an example of how botanical specimens can serve as direct reservoirs and indicators of magical pollution."
+  }
+ ],
+ "keywords": [
+  "anastasia",
+  "balnir",
+  "farmstead",
+  "hartwell",
+  "mage",
+  "plaguelands",
+  "snapdragons",
+  "tirisfal",
+  "undercity"
+ ],
+ "related": [
+  "npc:anastasia-hartwell",
+  "quest:1881",
+  "subzone:balnir-farmstead",
+  "subzone:mage-quarter",
+  "zone:undercity",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "topic:lich-king"
+ ],
+ "attribution": [
+  "The Balnir Farmstead"
+ ]
+}

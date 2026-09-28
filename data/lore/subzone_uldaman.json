@@ -1,0 +1,101 @@
+{
+ "key": "subzone:uldaman",
+ "type": "subzone",
+ "name": "Uldaman",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Uldaman"
+ },
+ "summary": "Carved deep beneath the northern mountains of the Badlands, Uldaman is an ancient titan vault dating back to the ordering of the world. Recently unsealed by dwarven excavators, its halls contain the buried origins of the dwarven race alongside savage troggs and vigilant stone sentinels.",
+ "sections": [
+  {
+   "title": "The Vault of the First Creations",
+   "body": "Uldaman was constructed by titan watchers as a subterranean redoubt and research facility. When early experiments in shaping living stone produced the misshapen troggs, the titans sealed their failed creations within the vault's stasis chambers and began anew, culminating in the stone-skinned earthen. Later, the great watcher Archaedas and the giantess Ironaya expanded the site to secure vital archives, including the fabled Discs of Norgannon. Over millennia, the earthen slept through global cataclysms, only to awake transformed by the curse of flesh into the modern dwarven race, leaving their cradle buried and forgotten beneath the hills.",
+   "spoiler": 0
+  },
+  {
+   "title": "Excavation and Turmoil",
+   "body": "When Ironforge prospectors broke through Uldaman's exterior gates, their pickaxes inadvertently cracked open the stasis chambers. Hordes of awakened troggs overran the upper tunnels, driving back dwarven teams and severing early dig sites. Compounding the chaos, Dark Iron dwarves marched into the ruins seeking artifacts of supreme power for their fiery master, Ragnaros. Today, the deep shafts remain a war ground between rival dig teams, bloodthirsty troggs, and titan constructs that awaken to smash any trespasser regardless of clan or cause.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Uldaman?",
+   "aliases": [
+    "uldaman lore",
+    "what is this place",
+    "about uldaman"
+   ],
+   "answer": "Uldaman is a massive underground titan facility situated along the northern border of the Badlands. It was built in the world's dawn to quarantine failed titan experiments and house vast historical records, most notably the Discs of Norgannon."
+  },
+  {
+   "q": "Why is Uldaman important to the dwarves?",
+   "aliases": [
+    "why do dwarves care about uldaman",
+    "dwarf origins",
+    "discs of norgannon"
+   ],
+   "answer": "Dwarven legends suggest their ancestors, the stone-skinned earthen, were created within titan facilities like Uldaman. Finding and decoding the Discs of Norgannon buried at the heart of the ruins could unlock the definitive truth of dwarven origins."
+  },
+  {
+   "q": "Why are troggs infesting the ruins?",
+   "aliases": [
+    "where did troggs come from",
+    "why are troggs here",
+    "trogg origin"
+   ],
+   "answer": "Troggs were the titans' first attempt at fashioning stone servants. When the experiment went awry, the titans locked them away in Uldaman's stasis vaults. Ironforge miners accidentally breached these pens, setting the troggs loose into the corridors and the surrounding mountains."
+  },
+  {
+   "q": "What are the Dark Iron dwarves doing here?",
+   "aliases": [
+    "dark irons in uldaman",
+    "why are dark irons here"
+   ],
+   "answer": "Dark Iron incursions are searching for ancient titan artifacts, hoping to unearth powerful relics like the Discs of Norgannon to serve their elemental master, the Firelord Ragnaros."
+  },
+  {
+   "q": "Who guards the lowest chambers?",
+   "aliases": [
+    "archaedas",
+    "who is the boss of uldaman",
+    "uldaman guardian"
+   ],
+   "answer": "The deepest vault is protected by Archaedas, a massive stonekeeper who was tasked with safeguarding the complex and its knowledge alongside a legion of living stone constructs and golems."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Uldaman represents the threshold to your earliest heritage. For generations, the Ironforge clans wondered how they came to be; the answer lies engraved upon stone discs buried beneath these trogg-infested halls."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The titan-worked halls feature rich veins of rare earth and metals untouched for millennia, though extracting them means braving trogg ambushes and awakened stone sentinels."
+  }
+ ],
+ "keywords": [
+  "archaedas",
+  "badlands",
+  "discs of norgannon",
+  "earthen",
+  "explorers league",
+  "ironaya",
+  "titan",
+  "trogg",
+  "uldaman"
+ ],
+ "related": [
+  "zone:badlands",
+  "topic:titan",
+  "topic:explorers-league",
+  "topic:trogg",
+  "zone:ironforge",
+  "zone:lochmodan"
+ ],
+ "attribution": [
+  "Uldaman"
+ ]
+}

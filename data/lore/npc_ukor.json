@@ -1,0 +1,77 @@
+{
+ "key": "npc:ukor",
+ "type": "npc",
+ "name": "Ukor",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Ukor",
+  "refs": 1
+ },
+ "summary": "Ukor is an orc peon resting near the eastern path outside the Valley of Trials in Durotar. Eager to help his people, he carried supplies all the way from Razor Hill, only to find the training grounds already had plenty of provisions.",
+ "sections": [
+  {
+   "title": "A Peon's Errand",
+   "body": "While many orc peons spend their lives under the watchful eye of harsh taskmasters cutting lumber or hauling rocks, Ukor attempted to perform a service of his own initiative. Tasked or inspired to bring food from Razor Hill to the recruits training in the Valley of Trials, he made the dangerous trek across Durotar's red plains past prowling scorpid and boars. Upon arrival, he discovered the Valley was already well-stocked and had no need for his bundle. Exhausted and somewhat disheartened by the roadside, he relies on passing young adventurers to return the unused provisions back north to Innkeeper Grosk.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ukor?",
+   "aliases": [
+    "ukor lore",
+    "who is ukor",
+    "what does ukor do"
+   ],
+   "answer": "Ukor is an earnest orc peon stationed along the road leading east out of the Valley of Trials in southern Durotar."
+  },
+  {
+   "q": "Why is Ukor standing by the road with a sack of food?",
+   "aliases": [
+    "why is ukor here",
+    "ukor quest reason",
+    "ukor food bundle"
+   ],
+   "answer": "Ukor carried a heavy bundle of rations down from Razor Hill to feed the young warriors training in the Valley of Trials. When he arrived, he found they had no shortage of provisions, leaving him stranded with unneeded food."
+  },
+  {
+   "q": "What does Ukor ask passing travelers to do?",
+   "aliases": [
+    "ukor task",
+    "what does ukor want",
+    "peons burden quest"
+   ],
+   "answer": "Too weary to haul the heavy sack all the way back up the trail himself, Ukor asks fledgling adventurers heading north toward Razor Hill to return the bundle to Innkeeper Grosk."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Orc peons bear the hard physical labor that builds the new Horde, and Ukor shows that even humble laborers possess a strong desire to support the warriors of Durotar."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For new recruits emerging from their trials, aiding Ukor marks one of the first opportunities to support everyday Horde logistics between settlements."
+  }
+ ],
+ "keywords": [
+  "a peon's burden",
+  "durotar",
+  "grosk",
+  "peon",
+  "razor hill",
+  "ukor",
+  "valley of trials"
+ ],
+ "related": [
+  "quest:2161",
+  "npc:innkeeper-grosk",
+  "subzone:valley-of-trials",
+  "subzone:razor-hill",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Ukor"
+ ]
+}

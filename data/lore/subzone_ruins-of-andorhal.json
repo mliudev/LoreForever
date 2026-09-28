@@ -1,0 +1,87 @@
+{
+ "key": "subzone:ruins-of-andorhal",
+ "type": "subzone",
+ "name": "Ruins of Andorhal",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Ruins of Andorhal"
+ },
+ "summary": "Once the agricultural hub and grain distribution center of northern Lordaeron, the Ruins of Andorhal now lie at the heart of the Western Plaguelands as a devastated Necropolis stronghold. Under the dominion of the lich Araj the Summoner, the shattered township crawls with legions of undead abominations, ghouls, and wraiths.",
+ "sections": [
+  {
+   "title": "Heart of the Plague",
+   "body": "Andorhal was the initial staging ground for the plague of undeath in Lordaeron, where grain tainted by the Cult of the Damned was packed and distributed across the human kingdom. Today, the ruined city serves as a sprawling bastion of the Scourge in the Western Plaguelands. Araj the Summoner presides over the center of the ruins, flanked by ghouls, skeletal horrors, and towering flesh golems. Scouting parties of the Scarlet Crusade periodically probe the city's outskirts, but the Scourge maintains iron control over the shattered streets.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unraveling Time",
+   "body": "Beyond the physical presence of the undead, Andorhal suffers from peculiar temporal anomalies. The town hall clock and discarded pocket watches scattered through the streets remain perpetually stopped at three o'clock. The bronze dragon Chromie, sheltering in the inn on the edge of the ruins, investigates temporal parasites nesting within the grain silos. Scourge forces appear to be meddling with the flow of time itself, attempting to alter the timeline of the city's tragic downfall.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules the Ruins of Andorhal?",
+   "aliases": [
+    "who leads andorhal",
+    "andorhal boss",
+    "araj the summoner"
+   ],
+   "answer": "The ruins are governed by Araj the Summoner, a powerful lich who coordinates Scourge activities in the area. He resides in the city center, surrounded by an elite vanguard of skeletal guards and flesh constructs."
+  },
+  {
+   "q": "Why is Chromie inside the ruins?",
+   "aliases": [
+    "what is chromie doing in andorhal",
+    "why is chromie here",
+    "chromie andorhal"
+   ],
+   "answer": "Chromie, taking the guise of a female gnome, observes and seeks to repair unnatural disturbances in the timeline. The Scourge forces here are actively breeding temporal parasites inside the city silos, seeking to disrupt historical events."
+  },
+  {
+   "q": "Why are all the clocks stopped at three o'clock?",
+   "aliases": [
+    "three oclock watch",
+    "andorhal clock frozen",
+    "why stopped at 3"
+   ],
+   "answer": "The town hall clock and the personal watches found among the debris are locked at precisely three o'clock. This temporal freezing is tied to the unnatural time manipulation and temporal parasites warping reality throughout the district."
+  },
+  {
+   "q": "Why does the Scarlet Crusade attack Andorhal?",
+   "aliases": [
+    "scarlet crusade in andorhal",
+    "scarlet patrols andorhal"
+   ],
+   "answer": "Small strike teams consisting of Scarlet Medics, Hunters, and Invokers attempt to infiltrate the city. The fanatical crusade seeks to reclaim Lordaeron and extinguish the Scourge, though their incursions into the fortified center rarely succeed."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For the Knights of the Silver Hand and paladins across the Alliance, Andorhal is consecrated ground turned nightmare\u2014the very site where the plague poisoned Lordaeron's grain stores and doomed the northern kingdom."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken travelers view the ruined city with grim remembrance: many who walk the Undercity today were citizens of Lordaeron who originally ingested the poisoned grain harvested from these surrounding fields."
+  }
+ ],
+ "keywords": [
+  "andorhal",
+  "araj the summoner",
+  "chromie",
+  "grain silos",
+  "scourge",
+  "temporal parasites",
+  "western plaguelands"
+ ],
+ "related": [
+  "subzone:andorhal",
+  "zone:westernplaguelands",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Ruins of Andorhal"
+ ]
+}

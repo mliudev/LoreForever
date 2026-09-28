@@ -1,0 +1,81 @@
+{
+ "key": "subzone:dunemaul-compound",
+ "type": "subzone",
+ "name": "Dunemaul Compound",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Dunemaul Compound"
+ },
+ "summary": "Dunemaul Compound serves as the central settlement and ogre mound for the Dunemaul clan in Tanaris. Tucked into the rocky ridges bordering the desert wastes, it houses the clan's brute enforcers, spellcasters, and their chieftain, Sandscraper.",
+ "sections": [
+  {
+   "title": "A Stronghold in the Sands",
+   "body": "Carved into the rugged desert rock of western Tanaris, the Dunemaul Compound is the primary stronghold of the Dunemaul ogres. These hulking desert dwellers have adapted to the harsh arid climate, scratching out an existence through brute force and opportunism. The compound itself centers on an ogre mound and cave network overseen by their leader, Sandscraper. Though primitive, the clan fields a dangerous mix of warriors, enforcers, and twisted spellcasters practicing dark warlock and mage magics. For travelers journeying across the dunes, the settlement is a treacherous den of aggressive giants who violently reject uninvited guests.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules the Dunemaul Compound?",
+   "aliases": [
+    "dunemaul leader",
+    "who is sandscraper",
+    "dunemaul boss"
+   ],
+   "answer": "The compound is ruled by Sandscraper, the chieftain of the Dunemaul ogres. He resides deep within the central cave at the heart of the settlement, directing his clan's raids and defenses across the sands."
+  },
+  {
+   "q": "What kinds of ogres live here?",
+   "aliases": [
+    "dunemaul types",
+    "dunemaul mobs"
+   ],
+   "answer": "The settlement contains a wide variety of Dunemaul ogres, ranging from common brutes and enforcers to cunning ogre mages and warlocks wielding dark fel and shadow magic."
+  },
+  {
+   "q": "Why is the Horde interested in this compound?",
+   "aliases": [
+    "horde dunemaul",
+    "why recruit ogres",
+    "dunemaul recruitment"
+   ],
+   "answer": "Goblins aligned with the Horde operate a nearby post just to the east, aiming to strong-arm or negotiate with the Dunemaul clan to recruit their brute strength into the Horde's ranks."
+  },
+  {
+   "q": "Who is Omgorn the Lost?",
+   "aliases": [
+    "omgorn",
+    "rare ogre tanaris"
+   ],
+   "answer": "Omgorn the Lost is an elusive, solitary ogre known to occasionally wander the edges of the Dunemaul Compound, distinct from the common sentries patrolling the mound."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Horde maintains an active interest in the Dunemaul ogres, deploying agents just east of the compound in hopes of bending these stubborn desert giants into allied shock troops."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The presence of Dunemaul warlocks among a seemingly primitive desert clan is a curious sight, showing that shadow and fel traditions have taken root even within isolated ogre mounds."
+  }
+ ],
+ "keywords": [
+  "dunemaul compound",
+  "dunemaul ogres",
+  "ogre mound",
+  "omgorn",
+  "sandscraper",
+  "tanaris"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:dunemaul-recruitment-camp",
+  "subzone:southmoon-ruins",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Dunemaul Compound"
+ ]
+}

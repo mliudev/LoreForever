@@ -1,0 +1,95 @@
+{
+ "key": "npc:cairne-bloodhoof",
+ "type": "npc",
+ "name": "Cairne Bloodhoof",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Cairne Bloodhoof",
+  "refs": 2
+ },
+ "summary": "Cairne Bloodhoof is the venerable High Chieftain of the united tauren tribes and ruler of Thunder Bluff. A towering warrior of immense wisdom, he bound the fate of the tauren to Thrall's Horde after the orcs aided his people in escaping extinction at the hands of the centaur.",
+ "sections": [
+  {
+   "title": "A Nation in Mulgore",
+   "body": "For generations, the tauren lived as wandering nomads across the Barrens, continually hunted and driven toward extinction by savage centaur marauders. When Thrall and his orcs arrived on the shores of Kalimdor, Cairne recognized a rare nobility in them. Thrall offered military protection, escorting Cairne's desperate caravan across the plains to the safety of Mulgore in exchange for guidance to the Oracle at Stonetalon Peak. Settling upon the towering mesas of Thunder Bluff, Cairne finally established a permanent, unified home for all tauren tribes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pledge to the Horde",
+   "body": "Indebted to Thrall, Cairne followed the orcs to Stonetalon Peak and fought side by side with the Horde and Jaina Proudmoore's humans against the Burning Legion during the Third War. Later, when Admiral Daelin Proudmoore invaded Durotar, Cairne personally took up his ancestral runespear once more to fight alongside Rexxar after his captured son, Baine, was safely recovered. Today, Cairne stands as one of the Horde's most respected elders and Thrall's closest confidant, offering calm council against reckless warmongering.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Cairne Bloodhoof?",
+   "aliases": [
+    "who is cairne",
+    "tauren leader",
+    "high chieftain"
+   ],
+   "answer": "Cairne Bloodhoof is the High Chieftain of the united tauren tribes, chieftain of the Bloodhoof tribe, and leader of Thunder Bluff. He is an ancient warrior whose leadership and strength led the tauren out of nomadic exile and into a secure homeland."
+  },
+  {
+   "q": "Why are the tauren allied with the orcs?",
+   "aliases": [
+    "why tauren join horde",
+    "cairne thrall friendship",
+    "tauren orc alliance"
+   ],
+   "answer": "During the Third War, marauding centaur tribes were hunting the tauren to extinction. Thrall and his newly arrived orcs fought off the marauders and escorted Cairne's great caravan to Mulgore. In gratitude, Cairne pledged his people's loyalty and strength to Thrall's Horde."
+  },
+  {
+   "q": "Where does Cairne reside?",
+   "aliases": [
+    "where is cairne",
+    "cairne location",
+    "find cairne bloodhoof"
+   ],
+   "answer": "He presides atop Thunder Bluff, the capital city built on the high mesas of Mulgore, ruling alongside the leaders of the various reunited tauren tribes."
+  },
+  {
+   "q": "Who is Baine Bloodhoof to Cairne?",
+   "aliases": [
+    "cairne son",
+    "is baine cairne's son",
+    "baine bloodhoof relation"
+   ],
+   "answer": "Baine is Cairne's beloved son and heir. When Baine was abducted by centaur raiders, Cairne fell into deep grief, refusing to fight until Rexxar and his companions tracked Baine down and returned him safely home."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Cairne is the savior of your people, having united the scattered tribes, repelled the centaur, and led the construction of Thunder Bluff."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Alongside Thrall, Cairne is a founding father of the modern Horde on Kalimdor, serving as a pillar of honor, wisdom, and military power."
+  }
+ ],
+ "keywords": [
+  "baine",
+  "bloodhoof",
+  "cairne",
+  "centaur",
+  "high chieftain",
+  "mulgore",
+  "thrall",
+  "thunder bluff"
+ ],
+ "related": [
+  "npc:thrall",
+  "topic:tauren",
+  "zone:thunderbluff",
+  "zone:mulgore",
+  "npc:baine-bloodhoof",
+  "topic:centaur",
+  "topic:horde",
+  "subzone:stonetalon-peak"
+ ],
+ "attribution": [
+  "Cairne Bloodhoof"
+ ]
+}

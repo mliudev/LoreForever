@@ -1,0 +1,80 @@
+{
+ "key": "subzone:darkspear-training-grounds",
+ "type": "subzone",
+ "name": "Darkspear Training Grounds",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Darkspear Training Grounds"
+ },
+ "summary": "The Darkspear Training Grounds occupy a significant portion of Darkspear Isle off the southern coast of Durotar. Here, young trolls and new recruits hone their skills in martial combat, shamanic rites, and jungle survival to serve the tribe and the wider Horde.",
+ "sections": [
+  {
+   "title": "A Crucible for the Exiled",
+   "body": "Ever since the Darkspear tribe fled their ancestral home and settled in the Echo Isles, carving out a secure domain has demanded constant vigilance. The Darkspear Training Grounds serve as the proving field where novice fighters, hunters, and spellcasters prepare for the harsh perils of Durotar. Under the watchful eyes of seasoned veterans, young trolls learn to wield weapons, channel elemental spirits, and adapt to the dangers posed by hostile wildlife, Kul Tiran interlopers, and the treacherous witch doctor Zalazane.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Darkspear Training Grounds used for?",
+   "aliases": [
+    "darkspear training purpose",
+    "why train here",
+    "what happens at training grounds"
+   ],
+   "answer": "The grounds are used to train new members of the Darkspear tribe in the arts of warfare, hunting, and magic, ensuring they are capable of surviving the wilds of Durotar and defending their people."
+  },
+  {
+   "q": "Where are the training grounds located?",
+   "aliases": [
+    "where is darkspear training grounds",
+    "training grounds location",
+    "echo isles training grounds"
+   ],
+   "answer": "They encompass much of Darkspear Isle, situated among the Echo Isles off the southeastern coast of Durotar, near Sen'jin Village."
+  },
+  {
+   "q": "Why is rigorous training so vital for the Darkspear right now?",
+   "aliases": [
+    "why do trolls need training",
+    "darkspear threat level",
+    "troll survival"
+   ],
+   "answer": "The Darkspear are a displaced people who recently escaped destruction in their ancestral island home. With the treacherous witch doctor Zalazane seizing control of the Echo Isles and driving them back toward Sen'jin Village, every able-bodied troll must know how to fight to ensure the tribe's survival."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls, these grounds represent survival, resilience, and the grit required to overcome displacement and rebuild their strength."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The warriors forged here strengthen Thrall's new Horde, supplying disciplined scouts, berserkers, and witch doctors to reinforce Durotar's frontier."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "durotar",
+  "echo isles",
+  "sen'jin",
+  "training grounds",
+  "troll",
+  "vol'jin",
+  "zalazane"
+ ],
+ "related": [
+  "subzone:darkspear-isle",
+  "topic:darkspear-tribe",
+  "topic:troll",
+  "quest:826",
+  "zone:durotar",
+  "npc:vol-jin",
+  "npc:master-gadrin",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Darkspear Training Grounds"
+ ]
+}

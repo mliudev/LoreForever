@@ -1,0 +1,82 @@
+{
+ "key": "subzone:infectis-scar",
+ "type": "subzone",
+ "name": "Infectis Scar",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Infectis Scar"
+ },
+ "summary": "The Infectis Scar is a deep, unnatural chasm carved into the blighted terrain of the Eastern Plaguelands near Corin's Crossing. Unlike natural ravines, this wound in the earth was ripped open by necromantic power when a cursed runeblade shattered against a dwarven shield. The blight festering at the bottom of the fissure remains an enduring testament to the Scourge's dark sorcery.",
+ "sections": [
+  {
+   "title": "A Wound of Dark Magic",
+   "body": "While neighboring gorges like the Pestilent Scar originated as natural terrain features poisoned by the plague, the Infectis Scar is entirely artificial. It was created during the third war's violent clashes near Corin's Crossing. When the notorious death knight Marduk Blackpool clashed with a stalwart dwarf captain, Marduk's cursed runesword shattered against the captain's shield. Discarding the broken weapon, Marduk kept the hilt, but the severed runeblade sank deep into the soil. Its foul enchantment violently tore open the crust of the earth, creating the jagged chasm that sits festering in the Plaguelands today.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How was the Infectis Scar formed?",
+   "aliases": [
+    "infectis scar origin",
+    "how did infectis scar happen",
+    "who made the infectis scar"
+   ],
+   "answer": "It was created during a battle near Corin's Crossing when the death knight Marduk Blackpool's runesword broke upon the shield of a dwarven captain. When the shattered blade hit the ground, its dark magic burrowed deep into the earth and tore open a massive rift."
+  },
+  {
+   "q": "How is it different from the Pestilent Scar?",
+   "aliases": [
+    "difference between infectis and pestilent scar",
+    "pestilent scar comparison"
+   ],
+   "answer": "The Pestilent Scar was originally a natural gorge that was corrupted by the Scourge's plague. The Infectis Scar did not exist naturally; it was entirely blasted into existence by the malevolent sorcery leaking from Marduk Blackpool's broken runeblade."
+  },
+  {
+   "q": "Who was Marduk Blackpool?",
+   "aliases": [
+    "marduk blackpool",
+    "who is marduk"
+   ],
+   "answer": "Marduk Blackpool, known as the Black, was a death knight in service to the Scourge who participated in the slaughter across Lordaeron, including the assault on Darrowshire and skirmishes around Corin's Crossing."
+  },
+  {
+   "q": "Where is the sword now?",
+   "aliases": [
+    "runeblade location",
+    "where is the blade"
+   ],
+   "answer": "The blade of the shattered runesword sank deep into the bottom of the chasm it created, while Marduk Blackpool kept only the hilt with him after the clash."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The scar stands as a monument to dwarven resilience: it was carved only because an unnamed dwarf captain's shield held firm against a death knight's dark runeblade, shattering the cursed steel."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The chasm radiates the corrupting residue of necromantic sorcery, demonstrating how profoundly cursed runes can desecrate the earth when severed from their wielder."
+  }
+ ],
+ "keywords": [
+  "chasm",
+  "corin's crossing",
+  "darrowshire",
+  "infectis scar",
+  "marduk blackpool",
+  "pestilent scar",
+  "runesword"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "subzone:corin-s-crossing",
+  "subzone:pestilent-scar",
+  "subzone:darrowshire",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Infectis Scar"
+ ]
+}

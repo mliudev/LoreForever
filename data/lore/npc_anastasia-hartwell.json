@@ -1,0 +1,125 @@
+{
+ "key": "npc:anastasia-hartwell",
+ "type": "npc",
+ "name": "Anastasia Hartwell",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Anastasia Hartwell",
+  "refs": 6
+ },
+ "summary": "Anastasia Hartwell is a prominent Forsaken mage trainer residing in the Magic Quarter of the Undercity. She guides fledgling and developing spellcasters in mastering the arcane arts and oversees vital magical research and field missions across Lordaeron and beyond.",
+ "sections": [
+  {
+   "title": "Arcane Mastery in the Ruins",
+   "body": "Standing within the dark, echoing chambers of the Undercity's Magic Quarter, Anastasia Hartwell instructs Forsaken and Horde mages in channeling arcane energies. Though the kingdom of Lordaeron fell to ruin, former human practitioners like Anastasia have preserved their scholarly traditions in undeath. She maintains that magic demands strict discipline, warning any traveler she meets that careless incantations will quickly consume the untrained.",
+   "spoiler": 0
+  },
+  {
+   "title": "Field Research and Relics",
+   "body": "Beyond fundamental spell instruction, Anastasia directs promising students toward vital field investigations. She dispatches mages into Tirisfal Glades, including the blighted grounds of the Balnir Farmstead and ruined alchemist workshops, to recover lost reagents and salvage remnants of forgotten arcane lore. Through her tasks, practitioners learn that securing magical dominance requires braving the hazardous ruins of their former homeland.",
+   "spoiler": 0
+  },
+  {
+   "title": "Allies of the Craft",
+   "body": "Anastasia's connections reach well beyond the borders of Tirisfal. As Horde spellcasters grow in proficiency, she coordinates with fellow trainers in distant lands, such as Deino in Orgrimmar, and directs advanced students toward solitary masters like Tabetha in the swamplands of Dustwallow Marsh. Her guidance ensures that Forsaken mages remain woven into the wider tapestry of the Horde's magical pursuits.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Anastasia Hartwell?",
+   "aliases": [
+    "anastasia hartwell",
+    "who is anastasia",
+    "hartwell undercity"
+   ],
+   "answer": "Anastasia Hartwell is a Forsaken mage trainer located in the Magic Quarter of the Undercity. She teaches spells to developing mages and provides specialized assignments to retrieve arcane artifacts and reagents across Lordaeron."
+  },
+  {
+   "q": "Where can I find Anastasia Hartwell?",
+   "aliases": [
+    "anastasia hartwell location",
+    "where is anastasia hartwell",
+    "undercity mage trainer location"
+   ],
+   "answer": "She is located in the Magic Quarter of the Undercity, gathered among other arcane practitioners and trainers under the city's vaulted subterranean ceilings."
+  },
+  {
+   "q": "What does Anastasia say to non-mages?",
+   "aliases": [
+    "anastasia gossip",
+    "anastasia dialogue",
+    "hartwell advice"
+   ],
+   "answer": "She offers cautious advice to non-mage visitors, warning them to be wary of magic as they journey across the world, noting that it readily burns the untrained."
+  },
+  {
+   "q": "What quests does Anastasia Hartwell offer?",
+   "aliases": [
+    "anastasia quests",
+    "hartwell tasks",
+    "undercity mage quests"
+   ],
+   "answer": "Anastasia offers various training assignments for mages, including investigating the Balnir Farmstead, exploring ruined alchemist shops for supplies, and liaising with distant teachers such as Deino in Orgrimmar and Tabetha in Dustwallow Marsh."
+  },
+  {
+   "q": "Is Anastasia Hartwell related to other Hartwells in Tirisfal?",
+   "aliases": [
+    "hartwell family",
+    "andrew hartwell",
+    "geoffrey hartwell"
+   ],
+   "answer": "She shares a surname with other Forsaken in Tirisfal Glades, such as Andrew Hartwell and Geoffrey Hartwell, pointing to common familial roots in pre-plague Lordaeron."
+  },
+  {
+   "q": "Why does Anastasia send mages to the Balnir Farmstead?",
+   "aliases": [
+    "balnir farmstead quest",
+    "why balnir farmstead",
+    "hartwell balnir"
+   ],
+   "answer": "She directs mages to the Balnir Farmstead in Tirisfal Glades to recover specific items and conduct research into arcane remnants preserved in the blighted countryside."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Anastasia Hartwell is an essential mentor for Horde mages passing through the Undercity, training higher spell ranks and commissioning vital class quests."
+  },
+  {
+   "target": "race:Undead",
+   "text": "She represents the continuation of Dalaran and Lordaeron's esteemed arcane traditions among the Forsaken, preserved even through the tragedy of undeath."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Through partnerships with trainers like Deino in Orgrimmar, Anastasia bridges Lordaeron's arcane heritage with the broader magical endeavors of the Horde."
+  }
+ ],
+ "keywords": [
+  "anastasia",
+  "balnir",
+  "deino",
+  "forsaken",
+  "hartwell",
+  "lordaeron",
+  "mage",
+  "magic quarter",
+  "tabetha",
+  "trainer",
+  "undercity"
+ ],
+ "related": [
+  "subzone:magic-quarter",
+  "zone:undercity",
+  "topic:forsaken",
+  "quest:1882",
+  "quest:1960",
+  "quest:1943",
+  "npc:deino",
+  "npc:tabetha"
+ ],
+ "attribution": [
+  "Anastasia Hartwell"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "key": "subzone:bladefist-bay",
+ "type": "subzone",
+ "name": "Bladefist Bay",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Bladefist Bay"
+ },
+ "summary": "Bladefist Bay is the rugged stretch of coast lining eastern Durotar just outside the gates of Orgrimmar. Named in honor of Kargath Bladefist, the bay serves as a natural harbor facing the Great Sea, shadowed by craggy bluffs and the nearby southern shores of Azshara.",
+ "sections": [
+  {
+   "title": "A Harbor on the Great Sea",
+   "body": "Stretching along the northeastern edge of Durotar, Bladefist Bay opens directly into the vast waters of the Great Sea. Flanked by rocky cliffs and treacherous surf, it functions as a primary maritime threshold for the Horde capital of Orgrimmar. The tides frequently deposit driftwood, ocean refuse, and flotsam onto the coastline, earning it a reputation among locals as a natural collection point for ocean debris. Directly north, the ancient red cliffs and ruins of Azshara loom across the water, making the bay a vital maritime boundary for Durotar.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadow of the Shattered Hand",
+   "body": "The bay honors Kargath Bladefist, the famed chieftain of the Shattered Hand clan who severed his own hand to replace it with a blade during the old Horde's trials on Draenor. The proximity of the bay to places like Skull Rock\u2014where cultists and hidden rogue networks operate in the shadows\u2014echoes the fierce and ruthless legacy of the clan whose chieftain gave the waters their name.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bladefist Bay named after?",
+   "aliases": [
+    "who is bladefist",
+    "bladefist namesake",
+    "kargath bladefist bay"
+   ],
+   "answer": "The bay is named after Kargath Bladefist, the legendary chieftain of the Shattered Hand clan known for replacing his severed hand with a lethal scythe blade."
+  },
+  {
+   "q": "Where is Bladefist Bay located?",
+   "aliases": [
+    "bladefist bay location",
+    "where is bladefist bay",
+    "how to get to bladefist bay"
+   ],
+   "answer": "It lies along the northeastern coast of Durotar, directly east of Orgrimmar's main gates and south across the water from Azshara."
+  },
+  {
+   "q": "What threats lurk around Bladefist Bay?",
+   "aliases": [
+    "bladefist bay danger",
+    "dangers at bladefist bay",
+    "enemies in bladefist bay"
+   ],
+   "answer": "The shoreline is situated right beside Skull Rock, a cavern infamous for harboring warlocks, demons, and members of the sinister Burning Blade cult."
+  },
+  {
+   "q": "Why is the bay sometimes called a midden heap?",
+   "aliases": [
+    "midden heap",
+    "bladefist flotsam",
+    "ocean trash bay"
+   ],
+   "answer": "Ocean currents from the Great Sea routinely sweep sea detritus, wreckage, and rubble straight onto its shores, giving it a reputation as a dumping ground for the sea's refuse."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "The bay bears the proud and brutal name of Kargath Bladefist, serving as a reminder of the trials of the Shattered Hand clan on Draenor."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The Shattered Hand operates within Orgrimmar's shadows as the Horde's guild of thieves and assassins, giving this coast quiet resonance for covert operatives."
+  }
+ ],
+ "keywords": [
+  "bay",
+  "bladefist",
+  "durotar",
+  "great sea",
+  "kargath",
+  "orgrimmar",
+  "shattered hand",
+  "skull rock"
+ ],
+ "related": [
+  "zone:durotar",
+  "zone:orgrimmar",
+  "quest:827",
+  "zone:azshara",
+  "quest:1858"
+ ],
+ "attribution": [
+  "Bladefist Bay"
+ ]
+}

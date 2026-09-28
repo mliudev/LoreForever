@@ -1,0 +1,133 @@
+{
+ "key": "zone:felwood",
+ "type": "zone",
+ "name": "Felwood",
+ "era": "classic",
+ "zone": "felwood",
+ "meta": {
+  "wiki": [
+   "Felwood (Classic)",
+   "Felwood"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "Felwood is a blighted forest nestled between Ashenvale and Mount Hyjal, deeply poisoned by demonic magic during the Third War. Once a lush paradise of meadows and groves tended by the night elves, it now crawls with demonic satyrs, slavering beasts, and twisted ancients. Cenarion Circle druids, alongside outposts of the Alliance and Horde, desperately work to cleanse the land and purge the Shadow Council from its depths.",
+ "sections": [
+  {
+   "title": "A Paradise Befouled",
+   "body": "Before the Third War, this valley was a peaceful haven of singing birds, clear streams, and tranquil groves guarded by ancient protectors. That ended when the dreadlord Tichondrius and the Burning Legion deployed the Skull of Gul'dan to poison northern Kalimdor ahead of their assault on Mount Hyjal. The skull's vile sorceries twisted the forest floor into a blackened mire. Though Illidan Stormrage eventually slew Tichondrius and consumed the artifact's essence, the land remained steeped in fel corruption. Mighty treants and ancients rotted from within, rivers turned to boiling bile, and the forest's beasts were driven into cannibalistic madness.",
+   "spoiler": 0
+  },
+  {
+   "title": "The War for Cleansing",
+   "body": "Healing Felwood has proven agonizingly slow. At the Emerald Sanctuary along the southern border, the Cenarion Circle wages an uphill battle against the blighted corruption. Druids equip wanderers with Cenarion beacons and cleansing salves, laboring to heal poisoned plants like songflowers and night dragon bulbs. Both factions maintain footholds in the tainted wilds\u2014the night elves at Talonbranch Glade in the north and the Horde at Bloodvenom Post. These outposts serve as fragile bulwarks amid a deadly wilderness where nature has turned against all mortal flesh.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shadow in Jaedenar",
+   "body": "The lingering fel taint is actively nurtured by dark cultists. Within the subterranean labyrinth of Jaedenar and Shadow Hold, remnants of the Shadow Council conduct foul rituals under the direction of Lord Banehollow. Allied with deceitful satyrs who desecrate ancient moonwells, these warlocks harvest the forest's agony and summon forth demonic reinforcements. Any lasting hope of redeeming Felwood requires tearing this insidious council out by its roots.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Felwood corrupted?",
+   "aliases": [
+    "how did felwood get corrupted",
+    "what happened to felwood",
+    "why are the trees dead"
+   ],
+   "answer": "During the Third War, the dreadlord Tichondrius used the demonic artifact known as the Skull of Gul'dan to corrupt the forest. This was intended to weaken the night elves' defenses during the Burning Legion's march toward Mount Hyjal, blighting the wildlife, water, and ancients."
+  },
+  {
+   "q": "Can the corrupted plants in the forest be cleansed?",
+   "aliases": [
+    "how to cleanse plants",
+    "cenarion plant salve",
+    "corrupted songflower"
+   ],
+   "answer": "Yes. Druids of the Cenarion Circle provide adventurers with salves brewed from collected fel taints and mineral residues. Applying these salves to plants like songflowers, whiplash tubers, and night dragons purges their corruption and yields potent restorative fruit and blessings."
+  },
+  {
+   "q": "Who controls Jaedenar?",
+   "aliases": [
+    "what is jaedenar",
+    "who is in shadow hold",
+    "jaedenar boss"
+   ],
+   "answer": "Jaedenar is held by the Shadow Council, a clandestine sect of mortal warlocks and demon worshippers. From deep within the subterranean caverns of Shadow Hold, the dreadlord Lord Banehollow oversees their dark rituals and commands the satyrs inhabiting the region."
+  },
+  {
+   "q": "Are the furbolgs in Felwood hostile?",
+   "aliases": [
+    "felwood furbolgs",
+    "timbermaw furbolgs",
+    "deadwood village"
+   ],
+   "answer": "Most are hostile. Tribes such as the Deadwood have completely succumbed to demonic corruption and fel madness. However, the Timbermaw tribe holding the northern tunnel network remains uncorrupted, though they are deeply distrustful of outsiders until proven friendly."
+  },
+  {
+   "q": "How do you get to Moonglade or Winterspring through Felwood?",
+   "aliases": [
+    "timbermaw tunnel",
+    "road to winterspring",
+    "pass to moonglade"
+   ],
+   "answer": "The road leads north directly into Timbermaw Hold, a fortified cavern complex. The uncorrupted Timbermaw furbolgs control the tunnels connecting Felwood to Moonglade and Winterspring. Travelers must either earn their trust or fight their way through."
+  },
+  {
+   "q": "Why do the corrupted ancients attack night elves?",
+   "aliases": [
+    "mad treants",
+    "corrupted ancients",
+    "why ancients hostile"
+   ],
+   "answer": "The once-noble ancients and treants were warped and poisoned by demonic magic. Bound in eternal agony, their shattered minds harbor deep resentment toward the night elves, whom they perceive as having abandoned them to the Burning Legion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Felwood is a profound tragedy for the Cenarion Circle, where druids dedicate their lives to cleansing blighted plants and calming maddened nature spirits."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The desecration of these ancient woods is a source of immense grief and shame for the kaldorei, who failed to protect them from the Legion's touch."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The dark tunnels of Jaedenar and the lingering demonic forces make Felwood a focal point for hunting rival cultists of the Shadow Council."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The fel-soaked earth yields rare and volatile flora, serving as one of the few places in Azeroth to gather Gromsblood and Arthas' Tears."
+  }
+ ],
+ "keywords": [
+  "banehollow",
+  "bloodvenom",
+  "deadwood",
+  "emerald sanctuary",
+  "felwood",
+  "jaedenar",
+  "songflower",
+  "talonbranch",
+  "tichondrius",
+  "timbermaw"
+ ],
+ "related": [
+  "subzone:emerald-sanctuary",
+  "subzone:jaedenar",
+  "subzone:timbermaw-hold",
+  "subzone:talonbranch-glade",
+  "subzone:bloodvenom-post",
+  "topic:cenarion-circle",
+  "topic:shadow-council",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Felwood (Classic)",
+  "Felwood"
+ ]
+}

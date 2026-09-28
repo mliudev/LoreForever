@@ -1,0 +1,119 @@
+{
+ "key": "quest:254",
+ "type": "quest",
+ "name": "Digging Through the Dirt",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   254
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Eliza's Grave Dirt",
+  "end": "",
+  "previous": "Bride of the Embalmer (in-progress)",
+  "next": null,
+  "wiki": "Digging Through the Dirt",
+  "chain": []
+ },
+ "summary": "Digging Through the Dirt marks the grim culmination of the hunt for the Embalmer's missing heart in Duskwood. Deep in the ravenous quiet of Raven Hill Cemetery, a disturbed mound of earth conceals a buried horror that refuses to stay dead.",
+ "sections": [
+  {
+   "title": "A Grave Disturbed",
+   "body": "Amid the countless weathered headstones of Raven Hill Cemetery sits a patch of recently turned, semi-loose soil marked with the name Eliza. While many graves in Duskwood lie desecrated by scavengers or feral ghouls, this earth was placed with deliberate intent. Digging past the topsoil reveals the splintered timber of a buried coffin, sealing away whatever remnant Abercrombie sought to hide away from the light of day.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scratching Within",
+   "body": "Beneath the splintered wood lies no resting corpse. Pressing against the lid, one can feel frantic vibrations\u2014the frantic scraping of long, clawed fingers and the hollow clatter of rotting jaws. Abercrombie's morbid experiment, Eliza, stirs violently within her pine prison, clutching the Embalmer's missing heart and waiting for unwary hands to pry open the grave.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is buried in Eliza's grave?",
+   "aliases": [
+    "what is in the grave",
+    "who is eliza",
+    "eliza grave contents"
+   ],
+   "answer": "Buried beneath the dirt is a coffin containing Eliza, an undead monstrosity created by Abercrombie the Embalmer. She has been sealed underground clutching Abercrombie's missing heart."
+  },
+  {
+   "q": "Where is this grave located?",
+   "aliases": [
+    "where is elizas grave",
+    "eliza grave location",
+    "grave dirt location"
+   ],
+   "answer": "Eliza's grave is located within Raven Hill Cemetery in western Duskwood, amid the sea of haunted crypts and roving undead."
+  },
+  {
+   "q": "Why do you have to dig into the coffin?",
+   "aliases": [
+    "why dig the grave",
+    "purpose of digging",
+    "why open the coffin"
+   ],
+   "answer": "You must dig into the grave to confront Eliza and recover the Embalmer's heart, completing the investigation surrounding Abercrombie's twisted machinations."
+  },
+  {
+   "q": "What happens when the coffin is opened?",
+   "aliases": [
+    "what happens next",
+    "coffin opened",
+    "opening elizas coffin"
+   ],
+   "answer": "Opening the coffin unleashes Eliza from her shallow prison, forcing you to destroy the clawing, ravenous ghoul to retrieve the heart locked away inside with her."
+  },
+  {
+   "q": "Who put Eliza in the ground?",
+   "aliases": [
+    "who buried eliza",
+    "who put her there"
+   ],
+   "answer": "Abercrombie the Embalmer placed her there, concealing his gruesome creation within the sprawling burial grounds of Raven Hill alongside his prized heart."
+  },
+  {
+   "q": "Is Eliza an ordinary ghoul?",
+   "aliases": [
+    "what kind of monster is eliza",
+    "is eliza a ghoul"
+   ],
+   "answer": "Eliza is a specially crafted undead monstrosity pieced together and raised by the Embalmer, far tougher and more deliberate than the mindless ghouls wandering Duskwood's roads."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Disturbing fresh graves goes against every funeral rite of the Holy Light, but releasing and destroying the unnatural fiend trapped inside is a necessary act of cleansing."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The sounds of scratching claws and gnashing teeth beneath consecrated soil are an affront to the peaceful repose promised by the Light to the deceased of Duskwood."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Night Watch struggles constantly against the terror spilling out of Raven Hill; rooting out the buried horrors hidden by the Embalmer is vital for Darkshire's safety."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "bride of the embalmer",
+  "coffin",
+  "digging through the dirt",
+  "duskwood",
+  "eliza",
+  "eliza's grave dirt",
+  "embalmer's heart",
+  "raven hill cemetery"
+ ],
+ "related": [
+  "quest:253",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Digging Through the Dirt"
+ ]
+}

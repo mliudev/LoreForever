@@ -1,0 +1,81 @@
+{
+ "key": "npc:brewmeister-bilger",
+ "type": "npc",
+ "name": "Brewmeister Bilger",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Brewmeister Bilger",
+  "refs": 1
+ },
+ "summary": "Brewmeister Bilger is an intoxicated dwarven brewer residing in the cellar of the inn at Southshore in the Hillsbrad Foothills. Once an upright, sober defender known as Bilger the Straight-laced, the passage of grueling years and the tragedies of Lordaeron have led him to trade his former discipline for the bottom of a barrel. Today, he whiles away his hours tasting potent spirits and waiting on deliveries from distant lands.",
+ "sections": [
+  {
+   "title": "From the Light to the Barrel",
+   "body": "Long before taking up the title of Brewmeister, Bilger was known across Southshore as Bilger the Straight-laced. Back during the height of the Knights of the Silver Hand and Lordaeron's proudest days, he carried himself with rigid, sober discipline among renowned figures in the town's tavern. The fall of Lordaeron, the Scourge plague, and the loss of so many comrades broke that stern resolve. Now, Bilger spends his days pacing the cool cellar beneath Southshore's inn, nursing hiccups and seeking out the strongest brews Azeroth can offer.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Taste for Potent Imports",
+   "body": "Despite his perpetual stupor, Bilger remains a discerning judge of spirits. He maintains an appetite for heavy dwarven moonshines and potent liquors crafted in the south, eagerly receiving special batches sent up the coast from distant ports like Menethil Harbor in the Wetlands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Brewmeister Bilger?",
+   "aliases": [
+    "bilger location",
+    "where is bilger",
+    "southshore cellar dwarf"
+   ],
+   "answer": "Brewmeister Bilger is located downstairs in the cellar of the inn at Southshore, the Alliance port town in Hillsbrad Foothills."
+  },
+  {
+   "q": "Why is he called 'Bilger the Straight-laced' in old stories?",
+   "aliases": [
+    "bilger the straight-laced",
+    "bilger history",
+    "bilger paladin"
+   ],
+   "answer": "Years ago, before the fall of Lordaeron, Bilger was a sober, strictly disciplined dwarf who associated with paladins and Alliance defenders in Southshore. The tragedies and wars that swept the region over the decades wore away his strict demeanor, leading him to abandon his old asceticism for heavy drinking."
+  },
+  {
+   "q": "What quests involve Brewmeister Bilger?",
+   "aliases": [
+    "bilger quest",
+    "mackreel's moonshine quest"
+   ],
+   "answer": "Bilger is the recipient of rare liquor delivered from the Wetlands, including strong spirits like MacKreel's Moonshine shipped north to Southshore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Bilger shows that even the most stoic dwarf can be driven to excessive drinking by the grim horrors that fell upon the northern kingdoms."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Standing as a quiet relic of Southshore's past, Bilger watched the town shift from a staging post for heroes of the Alliance into a beleaguered frontier haven."
+  }
+ ],
+ "keywords": [
+  "bilger",
+  "brewmeister bilger",
+  "hillsbrad foothills",
+  "inn cellar",
+  "mackreel",
+  "southshore"
+ ],
+ "related": [
+  "subzone:southshore",
+  "zone:hillsbrad",
+  "quest:647",
+  "topic:dwarf",
+  "zone:wetlands",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Brewmeister Bilger"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "npc:veronica-nials",
+ "type": "npc",
+ "name": "Veronica Nials",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Veronica Nials",
+  "refs": 1
+ },
+ "summary": "Captain Veronica Nials is an officer of the Stromgarde military stationed at Refuge Pointe in the Arathi Highlands. Amid the kingdom's collapse, she coordinates defensive operations against the Syndicate and ogres that overrun the fallen capital.",
+ "sections": [
+  {
+   "title": "Defender of a Broken Realm",
+   "body": "Following the Third War, the human kingdom of Stromgarde shattered, leaving its remnants struggling to survive against invading Boulderfist ogres and the treachery of the Syndicate. Captain Veronica Nials stands as one of the central commanders of the surviving Stromgarde defenders at Refuge Pointe. Tasked with holding the line, she directs Alliance champions against key Syndicate leadership, such as Lord Falconcrest and the warlock Marez Cowl, while striving to recover fallen soldiers' badges so their grieving families can find closure.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Plea Denied",
+   "body": "Captain Nials's loyalties are strictly tied to her battered homeland. When Rhag Garmason and the dwarven defenders of Dun Modr begged for Stromgarde's assistance after Dark Iron saboteurs devastated the Thandol Span, Nials was forced to turn them away. Bound by honor and duty, her troops cannot spare a single blade beyond the Arathi Highlands while their own ancestral kingdom remains occupied.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Veronica Nials?",
+   "aliases": [
+    "who is veronica nials",
+    "captain nials",
+    "refuge pointe captain"
+   ],
+   "answer": "Veronica Nials is a human captain of the Stromgarde army. She is stationed at Refuge Pointe, directing the military resistance against Syndicate infiltrators and ogres occupying the Arathi Highlands."
+  },
+  {
+   "q": "Why won't Captain Nials help Dun Modr and the Thandol Span?",
+   "aliases": [
+    "thandol span plea",
+    "why no help for dwarfs",
+    "plea to the alliance quest"
+   ],
+   "answer": "Although the dwarves holding the Thandol Span desperately need reinforcements against the Dark Iron Clan, Nials cannot spare any soldiers. Stromgarde is on the brink of total destruction, and duty obligates her forces to remain focused entirely on reclaiming their own fallen kingdom."
+  },
+  {
+   "q": "What does Nials do with Stromgarde badges?",
+   "aliases": [
+    "stromgarde badges",
+    "why collect badges",
+    "badges quest"
+   ],
+   "answer": "The Syndicate offers bounties for Stromgarde badges taken from slaughtered soldiers. Nials asks Alliance adventurers to retrieve these stolen badges from Syndicate cutthroats so she can confirm the deaths and notify the fallen defenders' families."
+  },
+  {
+   "q": "What is Nials's connection to the Scarlet Monastery?",
+   "aliases": [
+    "scarlet monastery letter",
+    "crusader joseph letter"
+   ],
+   "answer": "Brother Joseph of the Scarlet Crusade attempts to correspond with her, sending letters urging her and Stromgarde's remnants to support their cause, though Captain Nials has little interest in answering the zealots."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Captain Nials represents the tragic reality of the northern Alliance: fractured, isolated kingdoms struggling for basic survival while unable to offer meaningful aid to neighboring allies."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans, Nials is an emblem of Stromgarde's enduring martial pride, refusing to abandon the ancestral realm of Arathor despite devastating odds."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "falconcrest",
+  "marez cowl",
+  "refuge pointe",
+  "stromgarde",
+  "syndicate",
+  "thandol span",
+  "veronica nials"
+ ],
+ "related": [
+  "subzone:refuge-pointe",
+  "zone:arathi",
+  "quest:634",
+  "subzone:thandol-span",
+  "subzone:dun-modr",
+  "topic:syndicate",
+  "topic:alliance",
+  "zone:scarlet"
+ ],
+ "attribution": [
+  "Veronica Nials"
+ ]
+}

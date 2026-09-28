@@ -1,0 +1,121 @@
+{
+ "key": "quest:374",
+ "type": "quest",
+ "name": "Proof of Demise",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   374
+  ],
+  "level": "7",
+  "faction": "Horde",
+  "start": "Deathguard Burgess",
+  "end": "",
+  "previous": "At War With The Scarlet Crusade (Classic)",
+  "next": null,
+  "wiki": "Proof of Demise (quest)",
+  "chain": []
+ },
+ "summary": "Proof of Demise is a military directive issued by Deathguard Burgess in Brill to thin the ranks of the Scarlet Crusade in Tirisfal Glades. Initiated on the orders of Varimathras, Sylvanas Windrunner's dreadlord lieutenant, it tests a soldier's loyalty to the Forsaken cause. Recruits are ordered to strip signet rings from fallen crusaders as tangible evidence of their slaughter.",
+ "sections": [
+  {
+   "title": "A Mandate from the Dreadlord",
+   "body": "The campaign across northern Tirisfal Glades is not merely defensive; it is a coordinated war of eradication. Varimathras, the dreadlord who surrendered and pledged his blade to Sylvanas Windrunner, oversees many of the Forsaken's aggressive military maneuvers against the living. His directives trickle down to commanders like Executor Zygand and frontline officers such as Deathguard Burgess. Burgess makes the directive clear: the human race is viewed as vermin to be purged from Lordaeron, and the zealous crusaders nearby are the immediate target.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tokens of Slaughter",
+   "body": "Words alone do not satisfy the commanders in Brill. To prove obedience to the Dark Lady and her lieutenant, soldiers must plunder Scarlet Insignia Rings straight from the fingers of slain zealots. These rings bear the iconography of the Scarlet Crusade, marking their bearers as sworn enemies of the Forsaken. Returning with a handful of these trophies serves as unassailable proof of dead crusaders and a demonstration of uncompromising allegiance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who assigns the task to collect these rings?",
+   "aliases": [
+    "who gives proof of demise",
+    "quest giver",
+    "deathguard burgess quest"
+   ],
+   "answer": "Deathguard Burgess, a Forsaken guard stationed in the town of Brill, gives the order. He acts on reports from Executor Zygand and follows the overarching military goals set by Varimathras."
+  },
+  {
+   "q": "Why does Burgess demand Scarlet Insignia Rings specifically?",
+   "aliases": [
+    "why rings",
+    "scarlet rings purpose",
+    "what are insignia rings"
+   ],
+   "answer": "Scarlet Insignia Rings serve as indisputable physical proof that a crusader has been slain. They are personal tokens carried by the zealots, making them convenient, undeniable trophies of war that confirm a soldier's loyalty to the Forsaken leadership."
+  },
+  {
+   "q": "Who is Varimathras and why is he mentioned?",
+   "aliases": [
+    "who is varimathras",
+    "dreadlord in undercity",
+    "why varimathras"
+   ],
+   "answer": "Varimathras is a dreadlord who allied with Queen Sylvanas Windrunner after the Forsaken broke free from the Lich King. Currently serving as her chief lieutenant in the Undercity, he directs military strategy against remaining human enclaves in Lordaeron, including the Scarlet Crusade."
+  },
+  {
+   "q": "Where are the Scarlet Crusaders located for this task?",
+   "aliases": [
+    "where to find scarlet crusade",
+    "scarlet crusader locations",
+    "crusader camps tirisfal"
+   ],
+   "answer": "Scarlet zealots maintain several armed encampments across Tirisfal Glades, particularly around their watchtowers, garrisons, and outposts in the northern and eastern reaches of the woods."
+  },
+  {
+   "q": "How does this connect to Executor Zygand's orders?",
+   "aliases": [
+    "executor zygand connection",
+    "at war with the scarlet crusade link"
+   ],
+   "answer": "Executor Zygand oversees the broader campaign against the Scarlet Crusade from Brill. While Zygand directs recruits to break the crusaders' field presence, Burgess follows up by requiring personal trophies as proof of obedience directly to Varimathras and the Dark Lady."
+  },
+  {
+   "q": "Why is the Forsaken leadership so hostile to the Scarlet Crusade?",
+   "aliases": [
+    "why fight scarlet crusade",
+    "forsaken vs scarlet crusade",
+    "why do forsaken hate humans"
+   ],
+   "answer": "The Scarlet Crusade considers all undead abominations destined for holy fire, making no distinction between the mindless Scourge and the free-willed Forsaken. Because they aggressively hunt down the Forsaken on their own borders, Sylvanas and her officers view them as a dangerous existential threat that must be annihilated."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, every crusader ring brought to Brill represents one fewer fanatic sworn to cleanse Lordaeron of free-willed undead."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "This task demonstrates the ruthless, total-war mindset of Sylvanas's regime in the north, orchestrated in part by the dreadlord Varimathras."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "dark lady",
+  "deathguard burgess",
+  "executor zygand",
+  "proof of demise",
+  "scarlet crusade",
+  "scarlet insignia ring",
+  "tirisfal glades",
+  "varimathras"
+ ],
+ "related": [
+  "npc:deathguard-burgess",
+  "quest:370",
+  "npc:executor-zygand",
+  "npc:varimathras",
+  "topic:scarlet-crusade",
+  "subzone:brill",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Proof of Demise (quest)"
+ ]
+}

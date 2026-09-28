@@ -1,0 +1,122 @@
+{
+ "key": "quest:6283",
+ "type": "quest",
+ "name": "Bloodfury Bloodline",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   6283
+  ],
+  "level": "26",
+  "faction": "Horde",
+  "start": "Maggran Earthbinder",
+  "end": "",
+  "previous": "Harpies Threaten",
+  "next": null,
+  "wiki": "Bloodfury Bloodline",
+  "chain": [
+   "Harpies Threaten",
+   "Bloodfury Bloodline"
+  ]
+ },
+ "summary": "Bloodfury Bloodline is a Horde task issued by Maggran Earthbinder at Sun Rock Retreat to strike down the leader of the Bloodfury harpies. Culminating Maggran's efforts to cleanse the Charred Vale, the hunt aims to break the flock's ferocious hold over the scarred wilderness.",
+ "sections": [
+  {
+   "title": "Striking the Matron",
+   "body": "Culling lesser harpies along the edge of the Charred Vale provides only temporary relief for Sun Rock Retreat. Maggran Earthbinder believes that the only lasting way to curb their aggression is to eliminate their matriarch, Bloodfury Ripper. Revering her as something akin to a queen, the flock draws its ruthless coordination and boldness directly from her leadership along the craggy western ridge.",
+   "spoiler": 0
+  },
+  {
+   "title": "Peace in the Earth",
+   "body": "Once Bloodfury Ripper falls and her remains are presented as proof, the immediate threat to the retreat subsides. With their brood queen destroyed, the disorganized harpies become far easier to keep at bay. The victory also lifts a spiritual burden from Maggran himself, freeing his thoughts from bitter vigilance so he can return to the customary tauren pursuit of harmony and balance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Bloodfury Bloodline?",
+   "aliases": [
+    "quest giver bloodfury bloodline",
+    "who starts bloodfury bloodline",
+    "maggran earthbinder quest"
+   ],
+   "answer": "The quest is provided by Maggran Earthbinder, a tauren shaman located near the pool of water inside Sun Rock Retreat."
+  },
+  {
+   "q": "What prerequisite must be finished before this hunt unlocks?",
+   "aliases": [
+    "bloodfury bloodline prequest",
+    "prereq for bloodfury bloodline",
+    "harpies threaten follow up"
+   ],
+   "answer": "You must complete 'Harpies Threaten', where Maggran first sends you into the Charred Vale to thin the general ranks of the Bloodfury harpies."
+  },
+  {
+   "q": "Where is Bloodfury Ripper located?",
+   "aliases": [
+    "where is bloodfury ripper",
+    "find bloodfury ripper",
+    "bloodfury ripper spawn"
+   ],
+   "answer": "She stalks the rocky hills along the northwestern edge of the Charred Vale. She can be distinguished from her flock by her distinct blue coloration."
+  },
+  {
+   "q": "Why does Maggran want Bloodfury Ripper dead?",
+   "aliases": [
+    "why kill bloodfury ripper",
+    "harpy leader charred vale lore",
+    "maggran earthbinder motive"
+   ],
+   "answer": "Maggran recognizes Bloodfury Ripper as the guiding queen behind the flock's ferocious territorial expansion. Slaying her splinters their leadership and permanently weakens their grip on the vale."
+  },
+  {
+   "q": "How does Bloodfury Ripper's death affect the tauren of Sun Rock Retreat?",
+   "aliases": [
+    "stonetalon harpy threat lore",
+    "what happens when bloodfury ripper dies",
+    "maggran reaction"
+   ],
+   "answer": "Her death brings Maggran peace of mind, freeing him from the lingering anger and constant dread of an impending attack so he can redirect his focus toward healing the land."
+  },
+  {
+   "q": "What is the quickest path to reach the Charred Vale from Sun Rock Retreat?",
+   "aliases": [
+    "how to get to charred vale from sun rock",
+    "sun rock retreat back way",
+    "charred vale shortcut"
+   ],
+   "answer": "A mountain trail leads directly out the back of Sun Rock Retreat, bypassing the winding main roads of Stonetalon and descending straight into the Charred Vale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Stonetalon's scarred landscape pains the tauren, and removing the violent harpy queen allows local shamans like Maggran to turn their minds back to harmony and healing."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing the perimeter around Sun Rock Retreat safeguards the Horde's solitary haven nestled deep within the contested Stonetalon Mountains."
+  }
+ ],
+ "keywords": [
+  "bloodfury bloodline",
+  "bloodfury ripper",
+  "charred vale",
+  "harpies",
+  "maggran earthbinder",
+  "stonetalon",
+  "sun rock retreat"
+ ],
+ "related": [
+  "quest:6282",
+  "npc:maggran-earthbinder",
+  "subzone:charred-vale",
+  "subzone:sun-rock-retreat",
+  "zone:stonetalon",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Bloodfury Bloodline"
+ ]
+}

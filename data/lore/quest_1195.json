@@ -1,0 +1,133 @@
+{
+ "key": "quest:1195",
+ "type": "quest",
+ "name": "The Sacred Flame",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   1195
+  ],
+  "level": "25",
+  "faction": "Horde",
+  "start": "Zangen Stonehoof",
+  "end": "",
+  "previous": null,
+  "next": "The Sacred Flame (2)",
+  "wiki": "The Sacred Flame (quest)",
+  "chain": [
+   "The Sacred Flame (quest)",
+   "The Sacred Flame (2)",
+   "The Sacred Flame (3)"
+  ]
+ },
+ "summary": "The Sacred Flame is a Horde task initiated by Zangen Stonehoof in Thunder Bluff. Seeking to recover an ancient relic guarded by the Galak centaur in Thousand Needles, Zangen sends adventurers deep into Ashenvale to acquire a sacred moonwell phial from the local dryads.",
+ "sections": [
+  {
+   "title": "Centaur Relics and Elven Waters",
+   "body": "The Galak tribe of centaur inhabiting the canyon floor of Thousand Needles fiercely protects an artifact dating back to the creation of their race. To pierce their defenses and extinguish their sacred flames, Zangen Stonehoof requires water touched by lunar divinity, drawing the tauren's gaze northward to the ancestral forests of Ashenvale.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trespassing in Ashenvale",
+   "body": "Obtaining pure moonwell water is no simple task. Unblessed vessels cannot hold the sacred liquid without corrupting its virtue, forcing Horde emissaries to hunt the Laughing Sisters near Raynewood Retreat to secure an etched phial. Once retrieved, the phial must be submerged into a moonwell along the western banks of the Falfarren River before being carried back to Mulgore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Zangen Stonehoof need moonwell water?",
+   "aliases": [
+    "why moonwell water",
+    "purpose of moonwell water",
+    "why get water from ashenvale"
+   ],
+   "answer": "The water is intended for Zangen's associate, Rau Cliffrunner, in Thousand Needles. Rau plans to use the potent magical properties of the moonwell water to extinguish the sacred flame guarded by the hostile Galak centaur, allowing the Horde to recover an ancient relic."
+  },
+  {
+   "q": "Where can the etched phial be found?",
+   "aliases": [
+    "where is etched phial",
+    "how to get etched phial",
+    "phial location"
+   ],
+   "answer": "The etched phial is carried by dryads known as Laughing Sisters, who wander the woods around Raynewood Retreat in central Ashenvale, just off the northern road leading west from Splintertree Post."
+  },
+  {
+   "q": "Which moonwell should be used to fill the phial?",
+   "aliases": [
+    "which moonwell",
+    "moonwell location",
+    "where to fill phial"
+   ],
+   "answer": "The required moonwell sits near the western bank of the Falfarren River, south of the main road that runs across central Ashenvale."
+  },
+  {
+   "q": "Who are the Galak centaur?",
+   "aliases": [
+    "galak tribe",
+    "galak centaur",
+    "who are galak"
+   ],
+   "answer": "The Galak are an aggressive centaur clan residing in the dusty expanses of Thousand Needles. They possess an ancient relic from the founding era of their kind, surrounded by a sacred bonfire that Zangen and Rau intend to douse."
+  },
+  {
+   "q": "Who receives the filled phial after Zangen?",
+   "aliases": [
+    "who is rau",
+    "where does the water go next",
+    "next step after zangen"
+   ],
+   "answer": "Once Zangen inspects the filled phial in Thunder Bluff, he instructs the adventurer to travel south to Thousand Needles and deliver the vessel directly to Rau Cliffrunner, who requested it."
+  },
+  {
+   "q": "Why kill dryads for their phials?",
+   "aliases": [
+    "why attack dryads",
+    "why laughing sisters",
+    "dryad vessels"
+   ],
+   "answer": "Dryad vessels are specially crafted to hold pure, enchanted liquids without tainting them. Ordinary bottles cannot safely transport water imbued with the celestial energies of a night elf moonwell."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Centaur hostility has plagued the tauren for generations. Securing a relic from their race's genesis gives the tribes of Mulgore valuable insight and leverage against their bitterest foes."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Tauren druids face an uneasy paradox on this assignment: slaying nature's daughters, the dryads, to harvest sanctified waters for a strike against the elemental flames of the centaur."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Stirring up trouble around Raynewood Retreat risks inflaming night elf tensions in Ashenvale, but claiming centaur relics in Thousand Needles bolsters the Horde's southern frontiers."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "etched phial",
+  "falfarren river",
+  "galak centaur",
+  "laughing sisters",
+  "moonwell",
+  "rau cliffrunner",
+  "raynewood retreat",
+  "the sacred flame",
+  "thousand needles",
+  "zangen stonehoof"
+ ],
+ "related": [
+  "npc:zangen-stonehoof",
+  "subzone:raynewood-retreat",
+  "subzone:falfarren-river",
+  "subzone:moonwell-ashenvale",
+  "zone:thousandneedles",
+  "zone:ashenvale",
+  "zone:thunderbluff",
+  "topic:centaur"
+ ],
+ "attribution": [
+  "The Sacred Flame (quest)"
+ ]
+}

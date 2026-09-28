@@ -1,0 +1,125 @@
+{
+ "key": "quest:760",
+ "type": "quest",
+ "name": "Wildmane Cleansing",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   760
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Mull Thunderhorn",
+  "end": "",
+  "previous": "Wildmane Totem (Classic)",
+  "next": null,
+  "wiki": "Wildmane Cleansing (Classic)",
+  "chain": []
+ },
+ "summary": "Wildmane Cleansing marks the culmination of the tauren ritual efforts to purify the vital watering holes of Mulgore. Entrusted by Mull Thunderhorn in Bloodhoof Village, heroes take the completed Wildmane Totem north to cleanse the final poisoned well. Driving back goblin pollutants restores balance to the plains and secures the pastoral livelihood of the tauren tribes.",
+ "sections": [
+  {
+   "title": "Purifying the Earth Mother's Gift",
+   "body": "Water is sacred lifeblood across the sun-drenched plains of Mulgore, sustaining the herds, the soil, and the nomadic tribes who have recently gathered around Thunder Bluff. When the Venture Company and encroaching goblins began contaminating these aquifers with toxic industrial runoff, the tauren elders recognized an existential threat. Following the purification of the Winterhoof and Thunderhorn wells, the Wildmane Water Well stands as the third and final corrupted site requiring spiritual intervention.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Wildmane Totem",
+   "body": "Crafted from specific elements gathered across the region, the Wildmane Cleansing Totem channels the restorative power of ancestral spirits and elemental earth. Planting the totem beside the foul waters north of Thunder Bluff disperses the foul chemicals, drawing out the toxins and reviving the natural flow. By completing the ritual, the tauren safeguard their people from disease and send an unmistakable message that the despoiling of their sacred ground will not be tolerated.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why was the Wildmane Water Well poisoned?",
+   "aliases": [
+    "who poisoned the well",
+    "why is the well dirty",
+    "goblin poison"
+   ],
+   "answer": "Goblin operations, driven by industrial greed and logging enterprises, introduced foul poisons and chemical waste into Mulgore's subterranean waters, threatening local wildlife and tribal settlements alike."
+  },
+  {
+   "q": "Where is the Wildmane Water Well located?",
+   "aliases": [
+    "wildmane well location",
+    "where is wildmane well",
+    "finding wildmane well"
+   ],
+   "answer": "The Wildmane Water Well is situated on the plains directly north of the towering mesas of Thunder Bluff."
+  },
+  {
+   "q": "Who initiates this cleansing ritual?",
+   "aliases": [
+    "who gives wildmane cleansing",
+    "quest giver",
+    "mull thunderhorn location"
+   ],
+   "answer": "Mull Thunderhorn, an elder stationed in Bloodhoof Village, guides you through the creation of the totems and sends you to purify the wells."
+  },
+  {
+   "q": "What other wells are part of this purification effort?",
+   "aliases": [
+    "other wells",
+    "mulgore wells",
+    "winterhoof thunderhorn wells"
+   ],
+   "answer": "The Wildmane Well is the third in a trio of vital water sources, preceded by the Winterhoof Water Well to the south and the Thunderhorn Water Well to the east."
+  },
+  {
+   "q": "How does the cleansing totem work?",
+   "aliases": [
+    "cleansing totem mechanic",
+    "how does totem clean water"
+   ],
+   "answer": "The totem is infused with ancestral magic and purified natural elements, channeling restorative spiritual energy into the water table to neutralize goblin pollutants."
+  },
+  {
+   "q": "What does completing this ritual mean for Bloodhoof Village?",
+   "aliases": [
+    "outcome of quest",
+    "why cleanse the wells",
+    "tauren lore importance"
+   ],
+   "answer": "Cleansing the three wells guarantees safe drinking water for all tribes in central Mulgore and honors the tauren sacred duty to heal the Earth Mother from industrial exploitation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Restoring Mulgore's three ancestral wells is a foundational rite of passage that proves a young brave's devotion to preserving the Earth Mother's gifts."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Employing ritual totems to undo mechanical pollution exemplifies the shamanic duty to maintain harmony between natural elements and living communities."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Reversing goblin environmental destruction directly reflects the Cenarion mandate to heal blighted ecosystems and protect verdant pastures."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "cleansing",
+  "earth mother",
+  "mulgore",
+  "mull thunderhorn",
+  "totem",
+  "venture company",
+  "water well",
+  "wildmane"
+ ],
+ "related": [
+  "npc:mull-thunderhorn",
+  "quest:759",
+  "subzone:wildmane-water-well",
+  "subzone:bloodhoof-village",
+  "zone:mulgore",
+  "zone:thunderbluff",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Wildmane Cleansing (Classic)"
+ ]
+}

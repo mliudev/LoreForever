@@ -1,0 +1,109 @@
+{
+ "key": "npc:wizlo-bearingshiner",
+ "type": "npc",
+ "name": "Wizlo Bearingshiner",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Wizlo Bearingshiner",
+  "refs": 4
+ },
+ "summary": "Wizlo Bearingshiner is an enterprising goblin tinkerer stationed at Whitereach Post in Thousand Needles. Ever keen to harness unusual power sources and volatile alchemical concoctions, he looks to adventurous travelers to assist with his ambitious mechanical experiments. His inventive curiosity frequently pits goblin technical ambition against the dangerous wildlife and mystical energies of the region.",
+ "sections": [
+  {
+   "title": "An Engineer at the Post",
+   "body": "Perched alongside the Tauren at Whitereach Post high above the canyon floor of Thousand Needles, Wizlo Bearingshiner represents typical goblin industriousness. While the local grimtotem and wildlife present constant hazards below, Wizlo remains laser-focused on acquiring components for his latest gadgets. He operates with typical goblin pragmatism, willing to trade coin and knowledge with anyone willing to brave the harsh canyon to gather field materials.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unconventional Power Sources",
+   "body": "Wizlo's tinkerings are far from mundane; he often seeks unconventional methods to supercharge his devices. Rather than relying solely on conventional fuels or standard parts, his schemes involve experimenting with potent alchemical mixtures and unusual energetic catalysts, such as his notorious Hypercapacitor Gizmo. His willingness to mix mystical resources, including waters drawn from night elven moonwells, with raw mechanical engineering highlights the reckless innovation goblins are famous for.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Wizlo Bearingshiner?",
+   "aliases": [
+    "wizlo bearingshiner",
+    "who is wizlo",
+    "whitereach goblin"
+   ],
+   "answer": "Wizlo Bearingshiner is a goblin engineer and quest giver stationed at Whitereach Post in Thousand Needles. He recruits adventurers to retrieve specialized reagents and test volatile mechanical inventions."
+  },
+  {
+   "q": "Where can I find Wizlo Bearingshiner?",
+   "aliases": [
+    "wizlo location",
+    "where is wizlo",
+    "find wizlo"
+   ],
+   "answer": "He is located atop the bluffs at Whitereach Post in northern Thousand Needles, a camp overlooking the sweeping canyon basin."
+  },
+  {
+   "q": "What kind of experiments does he run?",
+   "aliases": [
+    "wizlo quests",
+    "what does wizlo do",
+    "wizlo gadgets"
+   ],
+   "answer": "Wizlo focuses on unorthodox engineering projects, including calibrating devices like his Hypercapacitor Gizmo and brewing curious tonics infused with potent mystical waters."
+  },
+  {
+   "q": "Why is a goblin working with the Horde at Whitereach Post?",
+   "aliases": [
+    "why is wizlo here",
+    "is wizlo horde",
+    "goblin at whitereach"
+   ],
+   "answer": "Goblins frequently set up shop wherever commerce, adventure, and opportunity intersect. Whitereach Post offers Wizlo safety on high ground and a convenient staging point to employ passing mercenaries."
+  },
+  {
+   "q": "Does Wizlo belong to the Steamwheedle Cartel?",
+   "aliases": [
+    "wizlo faction",
+    "steamwheedle wizlo",
+    "wizlo cartel"
+   ],
+   "answer": "Like many independent goblin tinkerers in Kalimdor's frontier, Wizlo operates with neutral, commercial aims, focusing strictly on business, invention, and personal profit."
+  },
+  {
+   "q": "What is the Hypercapacitor Gizmo?",
+   "aliases": [
+    "hypercapacitor gizmo",
+    "wizlo device",
+    "gizmo quest"
+   ],
+   "answer": "The Hypercapacitor Gizmo is one of Wizlo's specialized mechanical devices designed to draw or regulate intense electrical and kinetic energy during his field experiments."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will appreciate Wizlo's eccentric drive to push mechanical design past safe tolerances, especially through volatile devices like the Hypercapacitor Gizmo."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While making camp at Whitereach Post alongside the local Tauren, Horde travelers can easily employ Wizlo's mechanical expertise to secure useful gadgets."
+  }
+ ],
+ "keywords": [
+  "goblin engineer",
+  "hypercapacitor gizmo",
+  "thousand needles",
+  "whitereach post",
+  "wizlo bearingshiner"
+ ],
+ "related": [
+  "subzone:whitereach-post",
+  "zone:thousandneedles",
+  "quest:5151",
+  "quest:9433",
+  "quest:9434",
+  "topic:goblin",
+  "subzone:moonwell-ashenvale"
+ ],
+ "attribution": [
+  "Wizlo Bearingshiner"
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "key": "quest:8852",
+ "type": "quest",
+ "name": "Ten Signets for War Supplies",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   8852
+  ],
+  "level": "29",
+  "faction": "Horde",
+  "start": "Warlord Gorchuk",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Ten Signets for War Supplies (Horde)",
+  "chain": []
+ },
+ "summary": "Ten Signets for War Supplies is a logistical exchange coordinated by Warlord Gorchuk in Orgrimmar. Champions of the Horde can trade surplus commendation signets for practical battlefield equipment and supplies. While this trade forfeits official glory and recognition, it directly equips front-line soldiers for the looming conflicts ahead.",
+ "sections": [
+  {
+   "title": "Materiel for the Front",
+   "body": "As the Horde mobilizes its legions for war, gathering supplies is just as vital as assembling warriors. Warlord Gorchuk oversees logistics in the Valley of Spirits, ensuring that crates of weapons, rations, and armor flow toward the front lines. Those who have proven their dedication can surrender commendation signets to draw useful equipment from the army's reserves.",
+   "spoiler": 0
+  },
+  {
+   "title": "Practical Survival over Glory",
+   "body": "Horde Commendation Signets are typically surrendered as proof of service, earning a soldier prestige and renown among the leadership. Exchanging them directly for gear bypasses this formal recognition in favor of raw survival. Gorchuk understands that an extra satchel of supplies or a sturdy weapon can mean the difference between life and death once the clash of armies begins.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Horde Commendation Signets?",
+   "aliases": [
+    "commendation signet",
+    "horde signets",
+    "war signets"
+   ],
+   "answer": "Horde Commendation Signets are official tokens awarded to champions who gather critical raw materials and resources for the Horde's war mobilization."
+  },
+  {
+   "q": "Who is Warlord Gorchuk?",
+   "aliases": [
+    "gorchuk",
+    "warlord gorchuk location",
+    "who is gorchuk"
+   ],
+   "answer": "Warlord Gorchuk is a Horde logistics officer stationed in Orgrimmar, responsible for collecting war resources and distributing battlefield provisions to mobilized troops."
+  },
+  {
+   "q": "Why turn signets in for supplies instead of faction reputation?",
+   "aliases": [
+    "signets vs supplies",
+    "why supplies",
+    "commendation rewards"
+   ],
+   "answer": "Trading signets for supplies sacrifices political standing and formal recognition in exchange for practical items, bandages, and gear that aid immediate survival on the front lines."
+  },
+  {
+   "q": "Can this exchange be repeated?",
+   "aliases": [
+    "is this repeatable",
+    "repeat signets",
+    "turn in again"
+   ],
+   "answer": "Yes. Warlord Gorchuk will continue to trade field supplies as long as you have the required batches of commendation signets to offer."
+  },
+  {
+   "q": "Where does this exchange take place?",
+   "aliases": [
+    "where to turn in signets",
+    "signet turn in location",
+    "gorchuk location"
+   ],
+   "answer": "The exchange takes place in the capital city of Orgrimmar, where the Horde's war preparations and stockpiles are centered."
+  },
+  {
+   "q": "What kind of war is the Horde preparing for?",
+   "aliases": [
+    "what war",
+    "why gathering supplies",
+    "war effort"
+   ],
+   "answer": "The Horde is amassing massive stockpiles of metal, cloth, herbs, and rations to arm an expeditionary force capable of facing an impending, cataclysmic threat."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Every crate of supplies gathered in Orgrimmar directly fuels the Horde's readiness for the brutal battles on the horizon."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Front-line fighters know that cold steel and ample rations win prolonged wars just as reliably as martial courage."
+  }
+ ],
+ "keywords": [
+  "commendation",
+  "gorchuk",
+  "logistics",
+  "orgrimmar",
+  "signets",
+  "supplies",
+  "war effort",
+  "warlord gorchuk"
+ ],
+ "related": [
+  "npc:warlord-gorchuk",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Ten Signets for War Supplies (Horde)"
+ ]
+}

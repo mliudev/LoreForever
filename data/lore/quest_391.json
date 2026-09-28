@@ -1,0 +1,123 @@
+{
+ "key": "quest:391",
+ "type": "quest",
+ "name": "The Stockade Riots",
+ "era": "classic",
+ "zone": "stockade",
+ "meta": {
+  "ids": [
+   391
+  ],
+  "level": "29",
+  "faction": "Alliance",
+  "start": "Warden Thelwater",
+  "end": "",
+  "previous": "Bazil Thredd (quest)",
+  "next": "The Curious Visitor",
+  "wiki": "The Stockade Riots",
+  "chain": []
+ },
+ "summary": "The Stockade Riots is an Alliance quest issued by Warden Thelwater at the gates of Stormwind's prison. To quell the ongoing uprising and prove your loyalty to the city guards, you are ordered to descend into the chaos and execute the riot's ringleader, Bazil Thredd.",
+ "sections": [
+  {
+   "title": "Blood on the Stone",
+   "body": "Deep beneath the cobblestones of the Mage Quarter, the Stockade has descended into utter lawlessness. Criminals, Defias insurgents, and violent cutthroats have broken containment and seized the cell blocks, turning the facility into an impenetrable war zone. Warden Thelwater and his guards are clinging desperately to the entrance, entirely unable to push inward and restore order through ordinary means.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of Trust",
+   "body": "Suspicious of anyone inquiring after Bazil Thredd, Warden Thelwater offers a brutal test of allegiances. Rather than granting a simple audience, he commands you to fight through the raging cell blocks, slay Thredd in his cell, and return carrying the rebel leader's severed head. Only by cutting down the figurehead of the uprising can an outsider prove they are not secretly aligned with the rebellion.",
+   "spoiler": 1
+  },
+  {
+   "title": "A Severed Thread",
+   "body": "Killing Bazil Thredd delivers a decisive blow to the organization of the riot, though it also silences any direct answers he might have given regarding the conspiracy gripping Stormwind. Upon seeing Thredd's head, a surprised Thelwater concedes that the prisoner's death may make the prison manageable again, offering his own clues regarding Thredd's clandestine contacts before the insurrection erupted.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest The Stockade Riots?",
+   "aliases": [
+    "who gives the stockade riots",
+    "stockade riots quest giver",
+    "where to start stockade riots"
+   ],
+   "answer": "The quest is given by Warden Thelwater, who stands just inside the entrance tunnel of the Stockade in Stormwind's Mage Quarter."
+  },
+  {
+   "q": "What do I need to do to complete the quest?",
+   "aliases": [
+    "stockade riots objective",
+    "how to beat stockade riots"
+   ],
+   "answer": "You must venture into the prison dungeon, locate the ringleader Bazil Thredd in the eastern cell block, execute him, and return his severed head to Warden Thelwater."
+  },
+  {
+   "q": "Where is Bazil Thredd located inside the Stockade?",
+   "aliases": [
+    "where is thredd",
+    "bazil thredd location",
+    "how to find thredd"
+   ],
+   "answer": "From the entrance, follow the northern corridor up to the T-intersection, then proceed down the eastern cell block. Bazil Thredd is found in the center cell of a three-room chamber guarded by the ogre Hamhock."
+  },
+  {
+   "q": "Why does Warden Thelwater want Bazil Thredd dead?",
+   "aliases": [
+    "why kill thredd",
+    "why thelwater wants thredd dead"
+   ],
+   "answer": "Bazil Thredd is the primary ringleader orchestrating the uprising within the facility. Thelwater believes cutting off the head of the revolt is the only way the guards can regain control of the rioting cell blocks, while also ensuring you are not secretly working for the rebels."
+  },
+  {
+   "q": "What happens after completing The Stockade Riots?",
+   "aliases": [
+    "stockade riots follow up",
+    "what comes after stockade riots"
+   ],
+   "answer": "After turning in Thredd's head, Warden Thelwater directs you into the next stage of the investigation, sending you to investigate a mysterious figure who visited the prison prior to the riot in the quest The Curious Visitor."
+  },
+  {
+   "q": "Can Horde players obtain this quest?",
+   "aliases": [
+    "is stockade riots alliance only",
+    "horde stockade riots"
+   ],
+   "answer": "No. The Stockade Riots is strictly an Alliance quest, as the dungeon sits deep inside the capital city of Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "A full-scale revolt right beneath the Mage Quarter threatens the stability of Stormwind while the King remains missing and the kingdom is stretched thin."
+  },
+  {
+   "target": "race:Human",
+   "text": "Many of the rioters are Defias operatives and disgruntled stonemasons who turned on their own kingdom after the reconstruction dispute."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Infiltrating the riot offers a grim look at what happens when the Defias Brotherhood's clandestine underground network loses all restraint."
+  }
+ ],
+ "keywords": [
+  "bazil thredd",
+  "defias",
+  "hamhock",
+  "stockade riots",
+  "stormwind",
+  "the stockade",
+  "warden thelwater"
+ ],
+ "related": [
+  "quest:389",
+  "zone:stockade",
+  "npc:warden-thelwater",
+  "npc:hamhock",
+  "quest:392"
+ ],
+ "attribution": [
+  "The Stockade Riots"
+ ]
+}

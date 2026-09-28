@@ -1,0 +1,128 @@
+{
+ "key": "topic:orc",
+ "type": "topic",
+ "name": "Orc",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Orc"
+ },
+ "summary": "Originally a shamanistic clan people hailing from the alien world of Draenor, the orcs were deceived and corrupted into a bloodthirsty conquering force by the demonic Burning Legion. After invading Azeroth and suffering eventual defeat and internment, they were rallied by Warchief Thrall to reclaim their spiritual heritage. In this new era, the orcs lead the Horde from their newly carved nation of Durotar, striving for honor while grappling with the lingering shadow of their demonic past.",
+ "sections": [
+  {
+   "title": "Children of Draenor",
+   "body": "Before their fall, orcs lived as nomadic hunter-gatherers and spiritual clans across the rugged landscapes of Draenor. Their culture was grounded in ancestral reverence and deep communion with elemental spirits, guided primarily by revered shamans. The disparate clans\u2014such as the Frostwolves, Warsongs, and Shadowmoon\u2014maintained a fragile peace mediated at biannual gatherings known as the Kosh'harg festival. Though physically formidable and deeply proud, traditional orcish society was defined by survival, honor, and harmony with the natural elements rather than mindless conquest.",
+   "spoiler": 0
+  },
+  {
+   "title": "Corruption and the Great Wars",
+   "body": "The fate of the orcs shattered when Kil'jaeden and the warlock Gul'dan orchestrated their corruption. Tricked into drinking the blood of the demon Mannoroth, the orcs were seized by a supernatural bloodlust that warped their natural brown skin to a sickly green. Forged into the original Horde, they nearly eradicated Draenor's draenei before pouring through the Dark Portal into Azeroth. The First and Second Wars saw human kingdoms fall and orcish armies reach Lordaeron's gates, but internal treachery and the unified Alliance of Lordaeron eventually crushed the invaders, herding survivors into miserable internment camps.",
+   "spoiler": 0
+  },
+  {
+   "title": "A New Beginning in Kalimdor",
+   "body": "Imprisonment stripped the orcs of their demonic frenzy, leaving them lethargic and broken until Thrall, an orc raised in human captivity, escaped. Reconnecting with shamanism, Thrall rallied the Frostwolf clan, freed his kin from the camps, and established a renewed Horde. Heeding prophetic warnings, he led his people across the Great Sea to Kalimdor. There, the sacrifice of Grom Hellscream finally broke Mannoroth's blood curse forever. Today, the orcs have carved out the arid realm of Durotar and built the fortress-city of Orgrimmar, striving to maintain their hard-won honor amidst renewed tensions with the Alliance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are orcs green?",
+   "aliases": [
+    "why is orc skin green",
+    "orc green skin origin",
+    "brown orcs vs green orcs"
+   ],
+   "answer": "Originally, orcs had brown skin. Their green complexion is the result of pervasive exposure to fel magic and demonic corruption, sparked by the warlocks of the Shadow Council and solidified when chieftains drank the blood of the pit lord Mannoroth."
+  },
+  {
+   "q": "Where did the orcs come from?",
+   "aliases": [
+    "orc homeworld",
+    "are orcs native to azeroth",
+    "where are orcs from"
+   ],
+   "answer": "Orcs are not native to Azeroth; they originated on the alien world of Draenor. They traveled to Azeroth through the Dark Portal when Gul'dan and the demon-possessed human sorcerer Medivh opened the rift between worlds."
+  },
+  {
+   "q": "Who is the leader of the orcs?",
+   "aliases": [
+    "orc warchief",
+    "orc faction leader",
+    "who leads the orcs"
+   ],
+   "answer": "The orcs are led by Warchief Thrall, son of Durotan. Raised by humans as a gladiator slave, Thrall rediscovered the ancestral art of shamanism, liberated the orc internment camps, and guided the new Horde to Kalimdor."
+  },
+  {
+   "q": "What is the blood curse?",
+   "aliases": [
+    "blood of mannoroth",
+    "orc bloodlust curse",
+    "mannoroth blood"
+   ],
+   "answer": "The blood curse was the demonic enslavement inflicted upon the orcs when they drank the blood of the annihilan Mannoroth. It instilled an uncontrollable bloodlust that fueled their wars, but it was finally shattered when Grom Hellscream sacrificed his life to slay Mannoroth."
+  },
+  {
+   "q": "Why do the orcs live in Durotar?",
+   "aliases": [
+    "why is durotar a desert",
+    "why orgrimmar",
+    "why durotar"
+   ],
+   "answer": "Following the Third War, Thrall settled the orcs in the harsh, dry coastal realm he named Durotar in honor of his father, Durotan. Its punishing terrain serves as both penance for past sins and a forge to keep his people strong and resilient."
+  },
+  {
+   "q": "Are all orcs part of Thrall's Horde?",
+   "aliases": [
+    "evil orcs",
+    "hostile orcs",
+    "are all orcs friendly to horde"
+   ],
+   "answer": "No. While Thrall leads the New Horde, rogue clans remain. The Dragonmaw clan still clings to their enslaver traditions in the Wetlands, while the Blackrock clan under Rend Blackhand continues to wage war from Blackrock Mountain, rejecting Thrall's peace."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Orcs form the military and ideological backbone of the modern Horde, championing honor and survival alongside their troll, tauren, and Forsaken allies."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance races still view orcs with deep suspicion and lingering resentment, remembering the slaughter of the First and Second Wars and the destruction of Stormwind."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "For orcs, shamanism is not merely magic\u2014it represents their reclaimed cultural soul and spiritual redemption after decades of demonic servitude."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Orc warlocks are viewed with deep distrust and revulsion by their kin, as fel magic is the exact force that corrupted and enslaved their race."
+  }
+ ],
+ "keywords": [
+  "bloodlust",
+  "draenor",
+  "durotar",
+  "fel",
+  "koshharg",
+  "mannoroth",
+  "orc",
+  "orcs",
+  "orgrimmar",
+  "shamanism",
+  "thrall"
+ ],
+ "related": [
+  "npc:thrall",
+  "topic:new-horde",
+  "zone:orgrimmar",
+  "zone:durotar",
+  "topic:burning-legion",
+  "subzone:dark-portal",
+  "topic:warsong-clan",
+  "topic:dragonmaw-clan"
+ ],
+ "attribution": [
+  "Orc"
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "key": "quest:5545",
+ "type": "quest",
+ "name": "A Bundle of Trouble",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   5545
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Supervisor Raelen",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "A Bundle of Trouble",
+  "chain": []
+ },
+ "summary": "Supervisor Raelen at the Eastvale Logging Camp faces a looming lumber delivery deadline with no time to spare. Local bears and wolves have driven her laborers away from freshly cut timber, leaving valuable bundles of wood abandoned in the northern woods. She relies on helpful adventurers to venture into the beast-infested forest and retrieve the logs before the contract is lost.",
+ "sections": [
+  {
+   "title": "A Looming Deadline",
+   "body": "Eastvale Logging Camp supplies vital timber for the reconstruction and defense efforts of the Kingdom of Stormwind. Running a commercial forestry operation on the edge of the wilderness is fraught with danger, and Supervisor Raelen currently finds herself in a bind. Her crew has fallen behind schedule on a critical shipment of cut timber, and the clock is ticking.",
+   "spoiler": 0
+  },
+  {
+   "title": "Predators in the Timber",
+   "body": "The issue is not a shortage of fallen trees, but the aggressive local wildlife. Hungry wolves and territorial bears north of the camp have chased off the woodcutters, forcing them to abandon the neatly tied bundles of wood scattered across the forest floor. While town authorities have been alerted to the beast menace, Raelen cannot afford to wait for guards to secure the area and must hire wandering heroes to dash in and collect the timber.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Supervisor Raelen?",
+   "aliases": [
+    "supervisor raelen",
+    "raelen",
+    "eastvale supervisor"
+   ],
+   "answer": "Supervisor Raelen manages day-to-day operations at the Eastvale Logging Camp in eastern Elwynn Forest. She oversees woodcutting crews and ensures that shipments of timber meet the demands of Stormwind and local settlements."
+  },
+  {
+   "q": "Why is the wood abandoned in the woods?",
+   "aliases": [
+    "why wood left",
+    "abandoned lumber",
+    "forest wood"
+   ],
+   "answer": "Laborers had already cut, trimmed, and tied the logs into bundles before wild bears and prowling wolves drove them out of the clearing. Fearing for their lives, the workers fled back to camp without hauling the cargo."
+  },
+  {
+   "q": "Why does Raelen mention Deputy Rainer?",
+   "aliases": [
+    "deputy rainer raelen",
+    "why deputy rainer",
+    "rainer connection"
+   ],
+   "answer": "Raelen states she contacted Deputy Rainer regarding the aggressive predators. Curiously, Deputy Rainer is stationed far across Elwynn Forest at the Westbrook Garrison, suggesting that either messages were carried through official guard channels or local authority is stretched thin across the province."
+  },
+  {
+   "q": "Where is the lumber needed?",
+   "aliases": [
+    "who needs the wood",
+    "lumber delivery",
+    "timber purpose"
+   ],
+   "answer": "Eastvale Logging Camp provides timber throughout the kingdom, from rebuilding town infrastructure to reinforcing palisades and bridges. Missing deadlines hurts the local economy and stalls construction projects across Elwynn."
+  },
+  {
+   "q": "Why can't the loggers collect the wood themselves?",
+   "aliases": [
+    "why loggers scared",
+    "why not loggers",
+    "loggers wolves"
+   ],
+   "answer": "The woodcutters are ordinary laborers equipped for felling trees, not fighting off wild predators. After being attacked and routed by aggressive wolves and bears, none of the workers are willing to risk their lives returning to the thicket unarmed."
+  },
+  {
+   "q": "Where can the bundles of wood be found?",
+   "aliases": [
+    "wood location",
+    "where are bundles",
+    "find bundles"
+   ],
+   "answer": "The bundles of cut wood are lying on the ground in the wooded areas immediately north of the Eastvale Logging Camp, where the laborers were working before being chased off by local beasts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Securing lumber from Eastvale ensures the rebuilding of Stormwind and the upkeep of regional outposts continue without costly supply disruptions."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Navigating predator-thick groves to recover supplies while managing dangerous local beasts plays directly to a tracker's core survival instincts."
+  }
+ ],
+ "keywords": [
+  "bears",
+  "bundle of wood",
+  "deputy rainer",
+  "eastvale",
+  "elwynn forest",
+  "logging camp",
+  "supervisor raelen",
+  "timber",
+  "wolves"
+ ],
+ "related": [
+  "npc:supervisor-raelen",
+  "subzone:eastvale-logging-camp",
+  "npc:deputy-rainer",
+  "zone:elwynn",
+  "subzone:westbrook-garrison"
+ ],
+ "attribution": [
+  "A Bundle of Trouble"
+ ]
+}

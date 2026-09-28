@@ -1,0 +1,84 @@
+{
+ "key": "subzone:bitter-reaches",
+ "type": "subzone",
+ "name": "Bitter Reaches",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Bitter Reaches"
+ },
+ "summary": "The Bitter Reaches is a rugged, windswept wilderness in northeastern Azshara. Largely untouched by civilization, the rugged cliffs are prowled by predatory beasts and massive mountain giants.",
+ "sections": [
+  {
+   "title": "A Dangerous Coastal Frontier",
+   "body": "Occupying the northeastern cliffs of Azshara, the Bitter Reaches remains a stark and untamed stretch of rocky terrain overlooking the Great Sea. Flocks of feral hippogryphs and two-headed chimaeras nest amidst the heights, while acidic oozes seep through the cold ground. Along the high northern ridges, colossal mountain giants have claimed the slopes as their own, driving away lesser creatures and turning the frozen approaches into a perilous hazard for any solitary traveler.",
+   "spoiler": 0
+  },
+  {
+   "title": "Flora of the Crags",
+   "body": "Despite the harsh winds and aggressive predators, the craggy landscape sustains rare mountain flora. Sparse clusters of Mountain Silversage cling to the high rock faces and windy perches, making the dangerous terrain occasionally worth traversing for intrepid herbalists daring enough to avoid the giants and territorial chimaeras.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Bitter Reaches?",
+   "aliases": [
+    "bitter reaches location",
+    "where is bitter reaches",
+    "bitter reaches azshara"
+   ],
+   "answer": "The Bitter Reaches form the northeastern quadrant of Azshara, covering the high coastal cliffs and ridges above the bay."
+  },
+  {
+   "q": "What creatures live here?",
+   "aliases": [
+    "bitter reaches mobs",
+    "what lives in bitter reaches",
+    "monsters in bitter reaches"
+   ],
+   "answer": "The region is home to territorial hippogryphs, two-headed chimaeras, and oozes. Towering mountain giants roam the northern boundary."
+  },
+  {
+   "q": "Why are there mountain giants here?",
+   "aliases": [
+    "mountain giants azshara",
+    "why are giants in bitter reaches"
+   ],
+   "answer": "The ancient mountain giants inhabit the high northern peaks and edges of Azshara, carving out their own territory and driving out most local wildlife from their stomping grounds."
+  },
+  {
+   "q": "What valuable resources grow in the Bitter Reaches?",
+   "aliases": [
+    "herbs bitter reaches",
+    "bitter reaches gathering"
+   ],
+   "answer": "Rare high-altitude herbs such as Mountain Silversage can be found growing sparsely across the rocky outcrops and ridgelines."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "The wind-battered heights of the Bitter Reaches are one of the few places in Azshara where prized Mountain Silversage grows, though you will have to contend with chimaeras and giants to harvest it."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The cliffside aeries of the Bitter Reaches are prime hunting territory, teeming with wild hippogryphs and aggressive chimaeras native to the ancient coastline."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "bitter reaches",
+  "chimaera",
+  "hippogryph",
+  "mountain giant",
+  "mountain silversage",
+  "ooze"
+ ],
+ "related": [
+  "zone:azshara"
+ ],
+ "attribution": [
+  "Bitter Reaches"
+ ]
+}

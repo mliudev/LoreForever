@@ -1,0 +1,115 @@
+{
+ "key": "npc:fenrus-the-devourer",
+ "type": "npc",
+ "name": "Fenrus the Devourer",
+ "era": "classic",
+ "zone": "shadowfang",
+ "meta": {
+  "wiki": "Fenrus the Devourer",
+  "refs": 5
+ },
+ "summary": "Fenrus the Devourer is an enormous worg that prowls the upper sanctum of Shadowfang Keep. Kept as a personal pet and guardian by Archmage Arugal, the ravenous beast is bloated on unnatural magics. Anyone daring to breach the archmage's personal study must contend with this feral horror and the master who watches over it.",
+ "sections": [
+  {
+   "title": "A Beast in the Master's Study",
+   "body": "Deep within Shadowfang Keep, just outside Archmage Arugal's personal chambers, lurks the monstrous worg known as Fenrus the Devourer. Unlike the lupine worgen roaming the ramparts, Fenrus is an actual worg, swollen to gargantuan proportions. Prowling the shelves, scrolls, and arcane apparatuses of Arugal's private study, the beast serves both as a pet and as a violent perimeter guard against any intruder seeking the mad mage's head.",
+   "spoiler": 0
+  },
+  {
+   "title": "Corrupted Might",
+   "body": "Fenrus's unnatural bulk suggests he was subjected to the dark magics saturating the keep since Baron Silverlaine's downfall. Archmage Arugal or his unleashed worgen clearly warped the creature with arcane or shadowy experiments, transforming a native predator into a ravenous juggernaut. Fenrus is so feral and magically bound that no hunter can charm or tame his mind.",
+   "spoiler": 0
+  },
+  {
+   "title": "Arugal's Watchful Eye",
+   "body": "Disturbing Fenrus is an immediate death sentence for the careless. When the beast spots an intruder, it lets loose an ear-splitting howl that echoes across the entire fortress, drawing the direct attention of Arugal himself. Rather than leaving his pet undefended, the archmage projects his dark will into the chamber, summoning voidwalkers to assist Fenrus in overwhelming and devouring invaders.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What kind of creature is Fenrus?",
+   "aliases": [
+    "is fenrus a worgen",
+    "fenrus creature type",
+    "fenrus wolf"
+   ],
+   "answer": "Fenrus is an exceptionally large worg, a natural wolf-like predator indigenous to Lordaeron, rather than a bipedal worgen. His unnatural bulk and vicious ferocity are the direct results of prolonged exposure to the dark magic practicing within Shadowfang Keep."
+  },
+  {
+   "q": "Where can Fenrus be found?",
+   "aliases": [
+    "where is fenrus",
+    "fenrus location",
+    "fenrus room"
+   ],
+   "answer": "Fenrus prowls the study chambers high inside Shadowfang Keep in Silverpine Forest. His lair is situated directly along the approach to Archmage Arugal's inner redoubt."
+  },
+  {
+   "q": "Can hunters tame Fenrus as a pet?",
+   "aliases": [
+    "can i tame fenrus",
+    "is fenrus tameable",
+    "taming fenrus"
+   ],
+   "answer": "No. Despite being an ordinary beast by classification, Fenrus cannot be tamed. His mind is thoroughly broken, feral, and tied to Archmage Arugal's dark will."
+  },
+  {
+   "q": "Why does Arugal summon demons when Fenrus is attacked?",
+   "aliases": [
+    "arugal voidwalkers",
+    "why does arugal help fenrus",
+    "fenrus voidwalker add"
+   ],
+   "answer": "Arugal views Fenrus as his prized pet and final line of defense before his sanctum. When Fenrus bellows upon entering combat, Arugal intervenes directly, conjuring voidwalkers into the chamber to overwhelm whoever threatens his beast."
+  },
+  {
+   "q": "Why is Fenrus so much larger than normal worgs?",
+   "aliases": [
+    "why is fenrus huge",
+    "fenrus size lore",
+    "giant worg"
+   ],
+   "answer": "Fenrus's massive size is believed to be the consequence of Archmage Arugal's dark magical experimentation, or magical fallout from the worgen infestation overtaking the keep."
+  },
+  {
+   "q": "What happens across the dungeon when Fenrus is engaged?",
+   "aliases": [
+    "fenrus roar",
+    "fenrus howl across dungeon",
+    "loud roar sfk"
+   ],
+   "answer": "When Fenrus engages in combat, he unleashes a thunderous roar so loud it can be heard by anyone anywhere inside Shadowfang Keep, alerting all to the battle taking place outside Arugal's door."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Do not waste time attempting to charm Fenrus. The beast's mind is irrevocably twisted by Shadowfang's dark arts and cannot be bound by the wild."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Archmage Arugal's ability to summon voidwalkers to aid his hound reveals how deeply the former Dalaran mage has delved into shadowy, forbidden conjurations."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Fenrus stands as a grim reminder of how far Archmage Arugal has fallen, using arcane arts to warp wild beasts into grotesque domestic guardians."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "fenrus",
+  "fenrus the devourer",
+  "shadowfang keep",
+  "silverpine",
+  "worg"
+ ],
+ "related": [
+  "npc:arugal",
+  "zone:shadowfang",
+  "topic:worgen"
+ ],
+ "attribution": [
+  "Fenrus the Devourer"
+ ]
+}

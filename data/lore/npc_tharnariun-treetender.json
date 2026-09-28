@@ -1,0 +1,113 @@
+{
+ "key": "npc:tharnariun-treetender",
+ "type": "npc",
+ "name": "Tharnariun Treetender",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Tharnariun Treetender",
+  "refs": 3
+ },
+ "summary": "Tharnariun Treetender is a night elf naturalist stationed in the coastal settlement of Auberdine in Darkshore. Dedicated to safeguarding the delicate balance of the wild, he monitors the creeping corruption afflicting the regional flora and fauna. Travelers passing through the port often find him calling upon allies to heal diseased beasts and protect nature from further decline.",
+ "sections": [
+  {
+   "title": "A Guardian in Auberdine",
+   "body": "Perched on the rugged coast of Darkshore, the port town of Auberdine faces threats on multiple fronts, from hostile satyrs to foul shoreline washaways. Tharnariun Treetender focuses his efforts squarely on the natural world that surrounds the village. Firmly believing that neglecting nature invites ruin, he spends his time observing the decline of the local woods and seeking ways to push back the sickness spreading across the forest floor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Healing the Afflicted",
+   "body": "Much of Darkshore's wildlife has fallen prey to strange plagues and corrupted blights, driving creatures mad and twisting peaceful animals into rabid threats. Rather than merely slaughtering them out of fear, Tharnariun seeks a remedy. Through carefully concocted cleansers and targeted efforts to eliminate the worst of the contagion, he endeavors to rescue what remains of the wilderness before the woodland falls entirely into decay.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tharnariun Treetender?",
+   "aliases": [
+    "who is tharnariun",
+    "tharnariun lore",
+    "tharnariunreetender"
+   ],
+   "answer": "Tharnariun is a night elf caretaker stationed in Auberdine along the coast of Darkshore. He dedicates his life to watching over the forest and diagnosing the unnatural afflictions troubling the local wildlife."
+  },
+  {
+   "q": "Where can I find Tharnariun Treetender?",
+   "aliases": [
+    "where is tharnariun",
+    "tharnariun treetender location",
+    "tharnariun map"
+   ],
+   "answer": "He is located in the night elf coastal village of Auberdine, situated on the western edge of the Darkshore wilderness."
+  },
+  {
+   "q": "What problems is Tharnariun investigating in Darkshore?",
+   "aliases": [
+    "what does tharnariun want",
+    "tharnariun purpose",
+    "why help tharnariun"
+   ],
+   "answer": "He investigates the spreading corruption and foul plagues infecting the land and its wildlife, sending adventurers out to cleanse infected beasts and halt the blight."
+  },
+  {
+   "q": "Why does Tharnariun care so much about diseased animals?",
+   "aliases": [
+    "why save the beasts",
+    "tharnariun animal quest"
+   ],
+   "answer": "As a protector of the wilds, Tharnariun believes that night elves cannot neglect nature without suffering the consequences. He works to cleanse the sick creatures rather than abandoning the forest to corruption."
+  },
+  {
+   "q": "What quests does Tharnariun Treetender offer?",
+   "aliases": [
+    "tharnariun quests",
+    "tharnariun treetender tasks"
+   ],
+   "answer": "He directs adventurers through tasks involving the blighted lands and wildlife, notably 'Plagued Lands', 'Cleansing of the Infected', and 'Tharnariun's Hope'."
+  },
+  {
+   "q": "Is Tharnariun a druid?",
+   "aliases": [
+    "is tharnariun druid",
+    "tharnariun class"
+   ],
+   "answer": "While he shares the naturalist convictions of the Cenarion Circle regarding the preservation of beasts and flora, he acts primarily as a dedicated caretaker and treetender for the wilderness of Darkshore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, Tharnariun's warnings resonate deeply with their ancient duty to watch over the natural balance of northern Kalimdor."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids will find Tharnariun's concern for blighted wildlife closely aligned with their own sacred mission to restore harmony to corrupted lands."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Auberdine serves as the Alliance's primary coastal gateway in northern Kalimdor, making Tharnariun's defense of the surrounding woods vital to the outpost's safety."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "cleansing",
+  "corruption",
+  "darkshore",
+  "infected",
+  "kaldorei",
+  "plagued lands",
+  "tharnariun",
+  "treetender"
+ ],
+ "related": [
+  "subzone:auberdine",
+  "zone:darkshore",
+  "quest:2118",
+  "quest:2138",
+  "quest:2139",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Tharnariun Treetender"
+ ]
+}

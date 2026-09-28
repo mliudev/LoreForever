@@ -1,0 +1,117 @@
+{
+ "key": "npc:tavernkeep-smitts",
+ "type": "npc",
+ "name": "Tavernkeep Smitts",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Tavernkeep Smitts",
+  "refs": 7
+ },
+ "summary": "Tavernkeep Smitts is the barkeep of the Scarlet Raven Tavern in Darkshire. Operating at the social center of Duskwood, Smitts possesses an encyclopedic knowledge of town gossip and unsolved local tragedies. His long memory and keen eye make him an invaluable contact for anyone investigating the region's dark history.",
+ "sections": [
+  {
+   "title": "Heart of Darkshire",
+   "body": "Behind the bar of the Scarlet Raven Tavern, Tavernkeep Smitts offers warm hearth fires and drink to the weary travelers, local townspeople, and nervous Night Watch guards braving Duskwood's perils. As one of the longest-standing public faces in town, Smitts hears every rumor that filters through the gloom. While other townsfolk shrink behind locked shutters, Smitts maintains a pragmatic, observant eye on everyone who passes through his door, noting unusual behavior, hurried departures, and strange patrons.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Memory of Stalvan",
+   "body": "Smitts has spent years quietly tracking the legend of Stalvan Mistmantle. When a visiting family of Stormwind nobles was butchered years ago, Smitts joined Marshal Haggard to examine the scene of the slaughter. Smitts recovered torn, muddy journal pages from the carnage, but investigators were never able to formally connect the handwriting to Stalvan at the time. Smitts held onto those faded scraps for years, convinced that the grim truth would eventually come to light.",
+   "spoiler": 1
+  },
+  {
+   "title": "The Shadowy Patron",
+   "body": "Smitts's attentiveness extends to contemporary threats as well. When the terrified hermit Jitters took refuge in the Scarlet Raven, Smitts watched him scribbling feverishly into a personal diary before fleeing the tavern in blind panic. When an investigator recovers the abandoned journal, Smitts readily recognizes the book and points the tracker toward Raven Hill, aiding the effort to unravel the cursed events plaguing the woods.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Tavernkeep Smitts?",
+   "aliases": [
+    "smitts location",
+    "where is tavernkeep smitts",
+    "scarlet raven barkeep"
+   ],
+   "answer": "Smitts stands behind the counter on the ground floor of the Scarlet Raven Tavern, the central inn located on the town square in Darkshire."
+  },
+  {
+   "q": "What does Smitts know about Stalvan Mistmantle?",
+   "aliases": [
+    "smitts stalvan",
+    "stalvan legend smitts",
+    "muddy pages stalvan"
+   ],
+   "answer": "Years ago, Smitts accompanied Marshal Haggard to investigate the slaughter of visiting nobles. Smitts discovered muddy, torn pages at the scene, which he preserved. If presented with new evidence linking Stalvan to the crime, Smitts hands over the muddy journal pages so they can be delivered to Commander Althea Ebonlocke."
+  },
+  {
+   "q": "What does Smitts know about Jitters?",
+   "aliases": [
+    "smitts jitters",
+    "jitters journal smitts",
+    "inquire at the inn smitts"
+   ],
+   "answer": "Jitters spent time staying at the Scarlet Raven Tavern, where Smitts observed him frantically writing in a journal before fleeing in terror. When you bring Jitters's journal back to the tavern, Smitts identifies it and directs you toward Raven Hill Cemetery to track him down."
+  },
+  {
+   "q": "What drinks does Smitts brew or request?",
+   "aliases": [
+    "zombie juice",
+    "smitts rot blossoms",
+    "smitts brew"
+   ],
+   "answer": "Smitts is involved in procuring components for local concoctions, including sending adventurers into the cursed wilds for Rot Blossoms to brew a potent local mixture known colloquially as Zombie Juice."
+  },
+  {
+   "q": "Who is Marshal Haggard, and how does Smitts know him?",
+   "aliases": [
+    "smitts haggard",
+    "haggard connection"
+   ],
+   "answer": "Marshal Haggard is an old veteran of the Stormwind Guard who lives in a secluded cottage in the hills. He and Smitts worked together years ago to investigate the grisly noble murders, forming a bond over the unsolved case."
+  },
+  {
+   "q": "Does Smitts have any known family in Darkshire?",
+   "aliases": [
+    "smitts relatives",
+    "mary smitts"
+   ],
+   "answer": "He shares a surname with Mary Smitts, who also lives in Darkshire, suggesting they are family members surviving together in the blighted town."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers stepping out of the shadowed woods, Smitts provides not just shelter and drinks, but essential local intelligence regarding the threats haunting Duskwood."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Rogues investigating cold cases and shadowy figures will find Smitts an ideal informant, as he notices what patrons write, when they panic, and what they leave behind."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "duskwood",
+  "haggard",
+  "jitters",
+  "scarlet raven",
+  "smitts",
+  "stalvan",
+  "tavernkeep",
+  "zombie juice"
+ ],
+ "related": [
+  "subzone:scarlet-raven-tavern",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "quest:66",
+  "quest:266",
+  "quest:453",
+  "quest:158",
+  "npc:althea-ebonlocke"
+ ],
+ "attribution": [
+  "Tavernkeep Smitts"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "key": "subzone:moonbrook-schoolhouse",
+ "type": "subzone",
+ "name": "Moonbrook Schoolhouse",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Moonbrook Schoolhouse"
+ },
+ "summary": "Standing in the northwestern corner of Moonbrook, the Schoolhouse is a prominent building resembling a town hall with a small graveyard behind it. Originally erected to educate local children under headmaster Stalvan Mistmantle, it now stands derelict amidst the Defias occupation of Westfall.",
+ "sections": [
+  {
+   "title": "A Beacon Fallen into Shadow",
+   "body": "Before Moonbrook fell to ruin and bandits, the community invested in the education of its youth by raising this grand schoolhouse. Stalvan Mistmantle, an educated scholar from the north, was invited to Westfall specifically to serve as its headmaster. In those brighter days, the hall bustled with students rather than thieves, standing as proof of Moonbrook's former prosperity. Now, the schoolhouse lies abandoned to the elements and infested with outlaws, while the weathered headstones of its rear cemetery silently oversee Westfall's steady decay.",
+   "spoiler": 0
+  },
+  {
+   "title": "Secrets in the Floorboards",
+   "body": "Though long abandoned by scholars, the schoolhouse holds the beginning of a grim mystery. An old footlocker left behind on the main floor contains unsent correspondence detailing Stalvan's departure from Westfall. Frustrated by meager pay and the isolation of rustic life, Mistmantle left his post in Moonbrook to seek fortune tutoring the nobility of Elwynn Forest\u2014a fateful decision that set off a tragic chain of events across the southern kingdoms.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was this building originally used for?",
+   "aliases": [
+    "why was it built",
+    "moonbrook school purpose",
+    "what is this place"
+   ],
+   "answer": "It served as Moonbrook's schoolhouse, constructed specifically to provide local children with a formal education. Its spacious design, resembling a town hall, reflects the ambition and pride the township held before its fall."
+  },
+  {
+   "q": "Who was Stalvan Mistmantle?",
+   "aliases": [
+    "who is stalvan",
+    "stalvan mistmantle lore",
+    "school headmaster"
+   ],
+   "answer": "Stalvan Mistmantle was a learned scholar hired to be the schoolhouse's headmaster. Unhappy with his meager wages and country life in Moonbrook, he eventually resigned to pursue work as a private tutor for an aristocratic family in Elwynn Forest."
+  },
+  {
+   "q": "Why is the schoolhouse abandoned now?",
+   "aliases": [
+    "why abandoned",
+    "what happened to moonbrook school",
+    "who lives here now"
+   ],
+   "answer": "When Moonbrook collapsed under economic strife and the Defias Brotherhood took over southern Westfall, the town's civic institutions collapsed. The schoolhouse was abandoned along with the rest of the town and is now overrun by bandits."
+  },
+  {
+   "q": "What can be found inside the schoolhouse today?",
+   "aliases": [
+    "footlocker location",
+    "loot in schoolhouse",
+    "quest item inside"
+   ],
+   "answer": "Alliance investigators tracking the history of Stalvan Mistmantle can find an old, dusty footlocker on the ground floor. Inside rests an unsent letter that reveals his reasons for leaving Moonbrook behind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The derelict schoolhouse serves as a stark reminder of how far Westfall has fallen from the Crown's protection, turning centers of learning into hideouts for outlaws."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "footlocker",
+  "headmaster",
+  "mistmantle",
+  "moonbrook",
+  "schoolhouse",
+  "stalvan",
+  "westfall"
+ ],
+ "related": [
+  "subzone:moonbrook",
+  "quest:66",
+  "zone:westfall",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Moonbrook Schoolhouse"
+ ]
+}

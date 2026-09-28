@@ -1,0 +1,122 @@
+{
+ "key": "quest:385",
+ "type": "quest",
+ "name": "Crocolisk Hunting",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   385
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Marek Ironheart",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Crocolisk Hunting",
+  "chain": []
+ },
+ "summary": "Farstrider Lodge in Loch Modan does a steady, if dangerous, trade in the skins and meat of the local crocolisks. Marek Ironheart regularly seeks out hardy trackers willing to brave the lake's shores and islands to harvest these prized beasts. For hunters eager to test their mettle against snapping jaws and tough hides, the Loch offers both sport and profit.",
+ "sections": [
+  {
+   "title": "A Lucrative Quarry",
+   "body": "While Loch Modan is prized for its serene mountain waters, the lake harbors fierce predators beneath its surface. Crocolisks thrive along the shallows and muddy banks, making crossing or fishing perilous for the unwary. Yet for the outdoorsmen stationed at Farstrider Lodge, these dangerous reptiles are valuable game. Craftsmen and tailors throughout Khaz Modan constantly seek out durable crocolisk hides to fashion into rugged armor and leather goods, while rustic taverns pay good coin for fresh cuts of their flavorful, lean tail meat.",
+   "spoiler": 0
+  },
+  {
+   "title": "Jaws in the Shallows",
+   "body": "Hunting the Loch's crocolisks is no task for novice trappers. Entrenched primarily around the rocky islets dotting the lake, these brutes possess bone-crushing jaws lined with razor-sharp teeth. Dwarven veterans like Marek Ironheart carry plenty of scars from wrestling the beasts into submission, warning newcomers that a single misstep in the water can cost a limb. Successfully skinning and butchering them requires patience, sturdy steel, and a willingness to step right into the reptile's hunting ground.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are crocolisks hunted in Loch Modan?",
+   "aliases": [
+    "why hunt crocolisks",
+    "crocolisk meat skin use",
+    "why marek wants crocs"
+   ],
+   "answer": "Merchants and craftsmen value crocolisk hides for fashioning rugged clothing and leather armor, while their meat is considered a tasty local delicacy. Farstrider Lodge conducts a steady trade in these resources to supply traders passing through Khaz Modan."
+  },
+  {
+   "q": "Where are the crocolisks usually found?",
+   "aliases": [
+    "crocolisk location",
+    "where to find crocs loch modan",
+    "where are crocolisks"
+   ],
+   "answer": "The crocolisks populate the muddy shallows, shoreline banks, and especially the rocky islands nestled in the center of the Loch."
+  },
+  {
+   "q": "Who is Marek Ironheart?",
+   "aliases": [
+    "marek ironheart",
+    "who gives crocolisk hunting",
+    "quest giver marek"
+   ],
+   "answer": "Marek Ironheart is a veteran dwarven mountaineer and hunter stationed at Farstrider Lodge in southeastern Loch Modan. He trades in local wildlife materials and loves recounting tales of surviving close calls with the Loch's fiercest beasts."
+  },
+  {
+   "q": "What makes hunting them so hazardous?",
+   "aliases": [
+    "are crocs dangerous",
+    "danger of crocolisks",
+    "why are crocs hard to hunt"
+   ],
+   "answer": "Crocolisks in Loch Modan are aggressive, territorial predators with immense jaw strength and teeth like daggers. Hunters must enter deep water or isolated islets to engage them, risking sudden ambushes in terrain favoring the reptiles."
+  },
+  {
+   "q": "Is crocolisk meat actually safe and edible?",
+   "aliases": [
+    "can you eat crocolisk",
+    "crocolisk meat edible",
+    "croc taste"
+   ],
+   "answer": "Yes, crocolisk meat is prized by frontier cooks and tavern patrons across the dwarven lands for its firm texture and rich, hearty flavor once properly dressed and roasted."
+  },
+  {
+   "q": "What is the Farstrider Lodge?",
+   "aliases": [
+    "what is farstrider lodge",
+    "farstrider lodge purpose",
+    "where is farstrider lodge"
+   ],
+   "answer": "Farstrider Lodge is a scenic outpost in southeastern Loch Modan serving as a haven and staging ground for Alliance hunters, trackers, and mountaineers who monitor the wild reaches of the valley."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Farstrider Lodge is an ideal proving ground for aspiring marksmen and beastmasters testing their nerve against Loch Modan's aquatic terrors."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Tough, lean crocolisk meat provides frontier campfires with a hearty staple for savory stews and roasts."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Mountaineers take pride in taming the wilderness of Loch Modan, viewing crocolisk hunting as both practical survival and an honest living."
+  }
+ ],
+ "keywords": [
+  "crocolisk hunting",
+  "crocolisk meat",
+  "crocolisk skin",
+  "dwarf hunter",
+  "farstrider lodge",
+  "loch modan",
+  "marek ironheart",
+  "the loch"
+ ],
+ "related": [
+  "npc:marek-ironheart",
+  "subzone:farstrider-lodge",
+  "subzone:the-loch",
+  "zone:lochmodan"
+ ],
+ "attribution": [
+  "Crocolisk Hunting"
+ ]
+}

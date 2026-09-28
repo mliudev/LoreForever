@@ -1,0 +1,126 @@
+{
+ "key": "topic:darkspear-tribe",
+ "type": "topic",
+ "name": "Darkspear tribe",
+ "era": "classic",
+ "zone": "multi",
+ "meta": {
+  "wiki": "Darkspear tribe"
+ },
+ "summary": "The Darkspear are a tribe of jungle trolls who joined Thrall's Horde after being driven from their ancestral home in Stranglethorn Vale and rescued from a sea witch in the Great Sea. Led by Shadow Hunter Vol'jin from their temporary refuge at Sen'jin Village, they now serve as core members of the Horde across Kalimdor and the Eastern Kingdoms. Despite their alliance, they currently struggle to reclaim their new home, the Echo Isles, from the traitorous witch doctor Zalazane.",
+ "sections": [
+  {
+   "title": "Exile and Salvation",
+   "body": "Originally a smaller, less ruthless tribe within the broken Gurubashi Empire of Stranglethorn Vale, the Darkspear endured centuries of warfare and famine against brutal neighbors like the Bloodscalp and Skullsplitter tribes. Driven out to sea, they settled on remote islands, only to face aquatic murlocs, Kul Tiran sailors, and the naga sea witch Zar'jira. Their elder chieftain, Sen'jin, was captured and slain in dark sacrificial rites beneath the sea, but before dying he foretold that the orc Warchief Thrall would lead the Darkspear to a new destiny. Rescued by Thrall's passing fleet, the survivors pledged their undying loyalty to the new Horde and sailed westward to Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fall of the Echo Isles",
+   "body": "Upon reaching Durotar, the Darkspear established a home on the tropical Echo Isles just off the mainland coast. That peace was short-lived. First, Admiral Daelin Proudmoore's fleet drove them temporarily into the swamps of Dustwallow Marsh before Horde forces destroyed the invaders. Worse betrayal followed from within. A prominent witch doctor named Zalazane embraced twisted voodoo, seizing control of the minds of his kin. To preserve his free people, Sen'jin's son and successor, Vol'jin, ordered another evacuation. Today, the Darkspear dwell in the coastal encampment of Sen'jin Village, sending champions across the water to slay Zalazane and release their thrall-bound brothers.",
+   "spoiler": 1
+  },
+  {
+   "title": "Voodoo and the New Horde",
+   "body": "Unlike their cannibalistic jungle kin, the Darkspear have adapted rapidly to the Horde's values of honor, establishing enclaves like Malaka'jin in the Stonetalon Mountains, Shadowprey Village in Desolace, and Zoram'gar Outpost in Ashenvale. In Orgrimmar, they make their spiritual home within the Valley of Spirits, where shadow hunters and witch doctors commune with the loa, such as Bwonsamdi, Lukou, and Kevo ya Siti. Though respected for their scouts, bat riders, and powerful hexes, old traditions run deep; some ancient rituals frowned upon by their allies are still practiced quietly in the dark.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the Darkspear trolls in the Horde?",
+   "aliases": [
+    "why trolls horde",
+    "darkspear thrall origin",
+    "how did trolls join horde"
+   ],
+   "answer": "During the Third War, Warchief Thrall's fleet took shelter on the Darkspear islands during a violent storm. When the naga sea witch Zar'jira and her murlocs captured the trolls and orcs alike, Thrall freed them. Though Chieftain Sen'jin died in the escape, his dying vision foresaw Thrall guiding the Darkspear to safety. In gratitude, Sen'jin's son Vol'jin swore the tribe's allegiance to the Horde."
+  },
+  {
+   "q": "Who leads the Darkspear tribe right now?",
+   "aliases": [
+    "darkspear leader",
+    "who is troll leader",
+    "troll chieftain"
+   ],
+   "answer": "The tribe is led by Vol'jin, the son of the revered fallen chieftain Sen'jin. Vol'jin is a cunning shadow hunter and one of Warchief Thrall's closest, most trusted confidants, advising the Horde from the Valley of Spirits in Orgrimmar and overseeing the struggle to reclaim the Echo Isles."
+  },
+  {
+   "q": "Why do the Darkspear live in Sen'jin Village instead of the Echo Isles?",
+   "aliases": [
+    "why senjin village",
+    "what happened to echo isles",
+    "why are echo isles hostile"
+   ],
+   "answer": "The Echo Isles were meant to be the tribe's permanent sanctuary in Durotar, but they were betrayed from within. A power-mad witch doctor named Zalazane used dark magic to enslave the minds of his fellow trolls. Rather than slaughter their own enchanted kin, Vol'jin ordered the free Darkspear to retreat to the mainland shore, founding Sen'jin Village as a base to fight back."
+  },
+  {
+   "q": "Where did the Darkspear originally come from?",
+   "aliases": [
+    "darkspear original home",
+    "darkspear stranglethorn",
+    "where are darkspear from"
+   ],
+   "answer": "The Darkspear originated in the jungles of Stranglethorn Vale as part of the fractured Gurubashi Empire. Being smaller and less merciless than rival tribes like the Bloodscalp and Skullsplitter, they suffered constant warfare and starvation until they were driven out of the Eastern Kingdoms entirely."
+  },
+  {
+   "q": "Do Darkspear trolls still practice cannibalism?",
+   "aliases": [
+    "are darkspear cannibals",
+    "troll cannibalism horde",
+    "do horde trolls eat people"
+   ],
+   "answer": "Officially, no. To live in harmony with Thrall's Horde and honor their alliance, the Darkspear renounced cannibalism and headhunting as tribal policy. However, centuries of jungle heritage do not vanish overnight, and whispers persist that darker traditional rites are still observed in secret far from prying eyes."
+  },
+  {
+   "q": "What deities do the Darkspear worship?",
+   "aliases": [
+    "darkspear religion",
+    "darkspear gods",
+    "troll loa"
+   ],
+   "answer": "The Darkspear revere the loa, powerful primal spirits and animal gods. Their faith centers around a vast pantheon, with the three most prominent loa being Bwonsamdi, Lukou, and Kevo ya Siti\u2014viewed respectively as the soul, heart, and head of the tribe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "As a Darkspear troll, you carry the heavy weight of an exiled people rebuilding on foreign shores. Every blow struck against Zalazane on the Echo Isles or against your brutal Gurubashi cousins in Stranglethorn Vale helps secure your tribe's survival."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The bond between orc and troll was forged in the blood of the Third War. Thrall considers Vol'jin his closest brother-in-arms, and the Darkspear's scouts and witch doctors serve faithfully beside the warrior clans of Durotar."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "From bat riders defending the skies to herbalists brewing draughts in Stonetalon, the Darkspear provide mystical cunning and stealth that balance the raw martial might of the Horde."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Darkspear shamans bridge the ancient worship of primal loa spirits with the elemental teachings learned from their orc and tauren allies, with figures like Je'neu Sancrea representing the tribe within the Earthen Ring."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "echo isles",
+  "gurubashi",
+  "loa",
+  "malaka'jin",
+  "sen'jin",
+  "shadowprey",
+  "vol'jin",
+  "zalazane"
+ ],
+ "related": [
+  "npc:vol-jin",
+  "subzone:sen-jin-village",
+  "subzone:echo-isles",
+  "quest:826",
+  "subzone:valley-of-spirits",
+  "topic:troll",
+  "npc:thrall",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Darkspear tribe"
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "key": "quest:985",
+ "type": "quest",
+ "name": "How Big a Threat?",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   985
+  ],
+  "level": "14",
+  "faction": "Alliance",
+  "start": "Terenthis",
+  "end": "",
+  "previous": "How Big a Threat?",
+  "next": null,
+  "wiki": "How Big a Threat? (2)",
+  "chain": []
+ },
+ "summary": "How Big a Threat? is an Alliance quest offered by the night elf Terenthis in Auberdine. Having already scouted the hostile Blackwood furbolg camp south of town, adventurers are sent to cull the corrupted pathfinders and windtalkers before their frenzy threatens the settlement.",
+ "sections": [
+  {
+   "title": "A Necessary Cull",
+   "body": "Following initial scouting south of Auberdine, the Sentinels have determined that the Blackwood furbolgs pose an immediate danger to Darkshore's refugees and defenders. Terenthis tasks combat-capable travelers with striking directly at their camp, eliminating Blackwood Pathfinders and Windtalkers to break their offensive momentum.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tragedy of the Corrupted",
+   "body": "Night elves traditionally view furbolgs as spiritual kin and historic allies of the wilderness. However, the malignant spread of fel moss and demonic taint across northern Kalimdor has driven the Blackwood tribe mad. With no known remedy to restore the furbolgs' minds, the defenders of Auberdine view violence as a grim necessity to prevent innocent deaths.",
+   "spoiler": 0
+  },
+  {
+   "title": "Grimclaw's Arrival",
+   "body": "Upon reporting the cull back to Terenthis, a white bear named Grimclaw rushes into Auberdine toward the night elf. The arrival signals urgent new developments regarding the wildlife and corruption ravaging the coastline, setting off the next stage in Auberdine's defensive efforts.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Terenthis want the Blackwood furbolgs killed?",
+   "aliases": [
+    "why kill blackwood furbolgs",
+    "reason for furbolg cull",
+    "terenthis furbolg quest"
+   ],
+   "answer": "The Blackwood tribe south of Auberdine has fallen to corruption, turning violent and irrational. Because their camp poses an imminent threat to the settlement and no cure exists for their madness, Terenthis orders a preemptive strike to keep Auberdine safe."
+  },
+  {
+   "q": "Where is the Blackwood furbolg camp located?",
+   "aliases": [
+    "blackwood furbolg location",
+    "where are pathfinders and windtalkers",
+    "furbolg camp darkshore"
+   ],
+   "answer": "The camp lies just south of Auberdine along the coastal forest of Darkshore, nestled among the corrupted trees where the Blackwood tribe has gathered."
+  },
+  {
+   "q": "Who is Grimclaw?",
+   "aliases": [
+    "white bear auberdine",
+    "who is the bear running to terenthis",
+    "grimclaw the bear"
+   ],
+   "answer": "Grimclaw is a white bear companion tied to the wilderness investigations in Darkshore. When you complete the cull of the Blackwood furbolgs, Grimclaw sprints into Auberdine to alert Terenthis of further troubles in the wild."
+  },
+  {
+   "q": "What is causing the furbolgs to go mad?",
+   "aliases": [
+    "why are furbolgs mad",
+    "darkshore furbolg corruption",
+    "what corrupted blackwood"
+   ],
+   "answer": "The furbolgs have been poisoned by fel moss and lingering demonic corruption left behind after the Third War. The dark energies ravaging Darkshore warp both mind and body, driving peaceful tribes into uncontrollable aggression."
+  },
+  {
+   "q": "Why are night elves reluctant to kill furbolgs?",
+   "aliases": [
+    "night elves and furbolgs",
+    "why mourn furbolgs"
+   ],
+   "answer": "The furbolgs and night elves have shared a bond of friendship and reverence for nature for thousands of years. Putting them down feels to the night elves like slaughtering their own brothers of the wild, but the corruption leaves them no alternative."
+  },
+  {
+   "q": "What is the difference between the first and second 'How Big a Threat?' quests?",
+   "aliases": [
+    "how big a threat parts",
+    "how big a threat difference"
+   ],
+   "answer": "The first quest tests scouting ability by requiring you to locate and observe the Blackwood camp. The second quest is a direct combat assignment to thin out the camp's pathfinders and windtalkers once the threat is confirmed."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, culling the Blackwood is a bitter grief; centuries of kinship with the furbolgs have been shattered by the lingering demonic blight of the Third War."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids feel the tragedy keenly, as the furbolgs' plight reflects the ongoing suffering of Cenarius's creations beneath the taint of fel moss."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Auberdine serves as the vital port anchor for the Alliance in Darkshore, making the elimination of nearby hostile encampments crucial to securing the region."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "blackwood",
+  "darkshore",
+  "fel moss",
+  "furbolg",
+  "grimclaw",
+  "pathfinder",
+  "terenthis",
+  "windtalker"
+ ],
+ "related": [
+  "npc:terenthis",
+  "quest:984",
+  "subzone:auberdine",
+  "topic:furbolg",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "How Big a Threat? (2)"
+ ]
+}

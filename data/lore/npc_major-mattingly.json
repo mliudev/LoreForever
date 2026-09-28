@@ -1,0 +1,85 @@
+{
+ "key": "npc:major-mattingly",
+ "type": "npc",
+ "name": "Major Mattingly",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Major Mattingly",
+  "refs": 1
+ },
+ "summary": "Major Mattingly is a seasoned officer of the Stormwind Army stationed at the grand gates in the Valley of Heroes. Serving under General Hammond Clay, he assists in safeguarding the capital's main entrance and advising capable crafters on protecting heroes against draconic threats.",
+ "sections": [
+  {
+   "title": "Sentinel of the Capital Gates",
+   "body": "Standing watch in the Valley of Heroes, Major Mattingly is one of the high-ranking officers directly responsible for Stormwind City's primary landward defense. A grizzled veteran soldier whose face bears the lines of hard-won experience, he serves under General Hammond Clay alongside the city's standing garrison. Beyond his daily duties overseeing gate patrols and incoming travelers, Mattingly possesses specialized tactical knowledge regarding the lethal nature of dragons. He is recognized by seasoned adventurers as a vital contact when learning to craft protective dragonscale gear necessary for braving the realm's deadliest lairs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Major Mattingly be found?",
+   "aliases": [
+    "mattingly location",
+    "where is major mattingly",
+    "find major mattingly"
+   ],
+   "answer": "Major Mattingly is stationed near the entrance of Stormwind City in the Valley of Heroes, standing watch alongside fellow garrison troops just inside the main gates."
+  },
+  {
+   "q": "What is Major Mattingly's rank and role in Stormwind?",
+   "aliases": [
+    "who is mattingly",
+    "mattingly job",
+    "what does mattingly do"
+   ],
+   "answer": "He is an officer in the Stormwind Army serving under General Hammond Clay. He helps oversee the defense of the city's gates and provides military guidance to adventurers."
+  },
+  {
+   "q": "Why do leatherworkers seek out Major Mattingly?",
+   "aliases": [
+    "onyxia scale cloak mattingly",
+    "mattingly quest",
+    "the journey has just begun mattingly"
+   ],
+   "answer": "Mattingly possesses instructions on how to treat and craft scale cloaks from black dragonhide, guiding skilled crafters who wish to protect their allies from draconic flame."
+  },
+  {
+   "q": "Is Major Mattingly involved in any broader conflicts?",
+   "aliases": [
+    "mattingly background",
+    "mattingly lore"
+   ],
+   "answer": "He is a battle-hardened veteran of the Kingdom of Stormwind, dedicated to the defense of the realm while King Varian Wrynn remains missing and the kingdom contends with lingering threats."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions seeking to challenge great dragons like Onyxia, Major Mattingly provides the crucial guidance needed to craft defensive cloaks out of dragon scales."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "As a disciplined veteran wielding his longsword at the city gates, Mattingly represents the steadfast resolve of the Stormwind Army's infantry officers."
+  }
+ ],
+ "keywords": [
+  "dragonscale cloak",
+  "hammond clay",
+  "major mattingly",
+  "mattingly",
+  "stormwind army",
+  "valley of heroes"
+ ],
+ "related": [
+  "subzone:valley-of-heroes",
+  "zone:stormwind",
+  "topic:stormwind-army",
+  "quest:7493",
+  "topic:stormwind-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Major Mattingly"
+ ]
+}

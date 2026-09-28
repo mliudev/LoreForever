@@ -1,0 +1,86 @@
+{
+ "key": "subzone:karazhan-raid",
+ "type": "subzone",
+ "name": "Karazhan (raid)",
+ "era": "classic",
+ "zone": "deadwind",
+ "meta": {
+  "wiki": "Karazhan (raid)"
+ },
+ "summary": "Karazhan is the towering citadel of Medivh, the last Guardian of Tirisfal, situated at the southern edge of Deadwind Pass. Following Medivh's fall during the First War, the citadel was sealed off from the world, leaving its halls haunted by restless spirits, unbound magic, and encroaching demonic forces.",
+ "sections": [
+  {
+   "title": "The Haunted Spire",
+   "body": "Built upon an ancient focal point of telluric energy in Deadwind Pass, Karazhan was once the seat of the Guardian Medivh. Following his demise, the fortress became an echo chamber of tragic history. Its lower reaches house phantom banquets, spectral stables, and an automated theatrical stage where illusions repeat endlessly. Farther up, the tower unravels into an untamed spire of arcane menageries, forbidden libraries, and unstable spatial anomalies. Though its master is gone, the tower's enchanted defenses and twisted denizens remain active, guarding centuries of hoarded esoteric knowledge against any who dare seek entry.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Beacon for the Nether",
+   "body": "Karazhan's wards have steadily decayed since the First War, allowing foul intruders to breach its uppermost sanctums. Deep within the upper chambers and the dimensional rift of Netherspace, demonic agents and otherworldly entities have taken root, drawn by the lingering power of the Guardian. The tower's twisted geometry and unhinged magical reserves make it one of the most perilous sites in the Eastern Kingdoms.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Karazhan?",
+   "aliases": [
+    "what is this place",
+    "karazhan lore",
+    "who lives in karazhan"
+   ],
+   "answer": "Karazhan is the abandoned citadel of Medivh, the last Guardian of Tirisfal. Located in Deadwind Pass, it is an enormous mystical tower steeped in arcane power, now populated by lingering ghosts, constructs, and demonic interlopers."
+  },
+  {
+   "q": "Can you enter Karazhan right now?",
+   "aliases": [
+    "is karazhan open",
+    "how to get into karazhan",
+    "can i enter the tower"
+   ],
+   "answer": "The tower remains sealed to ordinary travelers. Its gates are locked, though the magical emanations and disturbances surrounding its perimeter make it a prime point of interest for researchers and adventurers wandering Deadwind Pass."
+  },
+  {
+   "q": "Who was Medivh?",
+   "aliases": [
+    "medivh backstory",
+    "who is the guardian"
+   ],
+   "answer": "Medivh was the last Guardian of Tirisfal, chosen to safeguard Azeroth against demonic incursions. Corrupted by the Dark Titan Sargeras, he opened the Dark Portal and brought the orcish Horde into Azeroth before he was slain inside this very tower during the First War."
+  },
+  {
+   "q": "Why is the tower full of ghosts?",
+   "aliases": [
+    "why are there phantoms",
+    "spirits in karazhan"
+   ],
+   "answer": "When Medivh died, the intense magical backlash and temporal distortions anchored the souls of his servants, guests, and retainers to the stone. Phantom revelers, stable hands, and stage actors endlessly repeat the routines of the tower's final days."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Karazhan represents the ultimate cautionary tale of unchecked arcane power and the towering legacy left behind by the last Guardian."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The planar fractures atop the tower offer a tantalizing glimpse of Twisting Nether incursions into Azeroth."
+  }
+ ],
+ "keywords": [
+  "deadwind pass",
+  "guardian",
+  "karazhan",
+  "medivh",
+  "moroes",
+  "netherspace",
+  "tirisfal"
+ ],
+ "related": [
+  "subzone:karazhan",
+  "zone:deadwind",
+  "topic:medivh"
+ ],
+ "attribution": [
+  "Karazhan (raid)"
+ ]
+}

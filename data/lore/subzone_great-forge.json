@@ -1,0 +1,92 @@
+{
+ "key": "subzone:great-forge",
+ "type": "subzone",
+ "name": "Great Forge",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Great Forge"
+ },
+ "summary": "The Great Forge is the fiery heart and namesake of the dwarven capital of Ironforge. Situated at the very center of the city, its massive furnaces and famed Great Anvil never rest, producing legendary armaments and serving as the bustling center of civic life.",
+ "sections": [
+  {
+   "title": "Heart of the Mountain",
+   "body": "The Great Forge was the very first structure built by the early dwarves beneath Ironforge Mountain, and the grand capital grew in concentric rings around it. Molten stone and slag pour constantly from giant foundries into glowing channels, illuminating the cavern with an amber haze. At its center stands the massive Great Anvil, overseen by Master of the Forge Myolor Sunderfury. Renowned masters of metalwork gather around its rim, hammering out armor, tools, and weapons day and night.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hub of the Alliance",
+   "body": "Beyond its smithing operations, the Great Forge is the bustling crossroads of the entire mountain city. Ringed with guild offices, supply shops, and the city's primary gryphon roost maintained by Gryth Thurden, travelers from every corner of the Alliance mingle amid the clatter of hammers. The master spy Mathias Shaw famously noted that the loud, crowded ring is an unmatched place for gathering rumors, as envoys and adventurers constantly bring tales from across the continent straight from the flight master's perch.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the city named after this forge?",
+   "aliases": [
+    "why ironforge named ironforge",
+    "city namesake",
+    "ironforge origin"
+   ],
+   "answer": "When the dwarves first carved out the mountain, the Great Forge was the first part of the settlement they constructed. As the subterranean halls expanded outward from this central chamber, the entire mountain city was named Ironforge in honor of the colossal furnace at its center."
+  },
+  {
+   "q": "What notable items have been created here?",
+   "aliases": [
+    "what was made at the great anvil",
+    "great forge famous weapons",
+    "ashbringer forged here"
+   ],
+   "answer": "The Great Anvil has yielded historic masterpieces throughout dwarven history. King Magni Bronzebeard personally forged the legendary blade Ashbringer upon its surface. The dwarves also crafted two monumental alliance bells here, sending one as a gift to Lordaeron and the other to Stormwind City, alongside ancient relics like the Aerie Battle Mace."
+  },
+  {
+   "q": "Who oversees the forge?",
+   "aliases": [
+    "keeper of the great forge",
+    "who runs the forge"
+   ],
+   "answer": "The day-to-day operations and maintenance of the massive hearth are directed by Myolor Sunderfury, who bears the title Keeper of the Great Forge."
+  },
+  {
+   "q": "Why is it always so crowded here?",
+   "aliases": [
+    "why so many people at the forge",
+    "why is the forge busy"
+   ],
+   "answer": "The forge sits at the geographic center of Ironforge, connecting directly to the outer ring and nearby districts. It hosts essential crafting trainers, merchant shops, and Ironforge's central gryphon roost, ensuring that citizens, couriers, and foreign adventurers pass through constantly."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The Great Anvil is considered the premier smithing site in the Alliance, home to high-ranking trainers and the legendary anvil where King Magni forged the Ashbringer."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The forge represents the very foundation of dwarven civilization under the mountain, keeping centuries of smithing tradition alive without ever letting its fires go cold."
+  }
+ ],
+ "keywords": [
+  "ashbringer",
+  "foundry",
+  "great anvil",
+  "great forge",
+  "gryth thurden",
+  "ironforge",
+  "magni bronzebeard",
+  "myolor sunderfury"
+ ],
+ "related": [
+  "zone:ironforge",
+  "subzone:high-seat",
+  "npc:magni-bronzebeard",
+  "quest:6388",
+  "topic:dwarf",
+  "topic:alliance",
+  "subzone:cask-n-anvil",
+  "zone:stormwind"
+ ],
+ "attribution": [
+  "Great Forge"
+ ]
+}

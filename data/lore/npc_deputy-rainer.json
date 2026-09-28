@@ -1,0 +1,91 @@
+{
+ "key": "npc:deputy-rainer",
+ "type": "npc",
+ "name": "Deputy Rainer",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Deputy Rainer",
+  "refs": 2
+ },
+ "summary": "Deputy Rainer is a Stormwind Army officer stationed outside Westbrook Garrison along Elwynn Forest's western boundary. Tasked with holding the line against encroaching gnoll packs and bandits bleeding over from Westfall, he coordinates local defense efforts when official military reinforcements fail to arrive.",
+ "sections": [
+  {
+   "title": "Holding the Western Border",
+   "body": "Westbrook Garrison serves as Elwynn Forest's westernmost bulwark, positioned just along the boundary road leading into Westfall. As political paralysis in Stormwind City keeps the bulk of the army stationed abroad or tied up in bureaucracy, border posts like Westbrook are left severely understaffed. Deputy Rainer stands outside the tower to organize what little defense the garrison can muster. With local roads constantly threatened by aggressive Riverpaw gnolls and wandering thieves, Rainer is forced to rely on passing travelers and mercenary adventurers rather than official crown regiments to keep the forest trails secure.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Westfall",
+   "body": "Beyond managing the immediate threat of the Riverpaw pack and cautioning travelers against the infamous gnoll chieftain Hogger, Rainer serves as a vital communications link to the troubled lands beyond the river. Knowing that the chaos plaguing Elwynn's borders originates in the lawless farmlands to the west, he directs capable volunteers across the threshold into Westfall, pointing them toward Gryan Stoutmantle and the struggling People's Militia.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Deputy Rainer?",
+   "aliases": [
+    "rainer elwynn",
+    "who is rainer",
+    "westbrook garrison officer"
+   ],
+   "answer": "Deputy Rainer is an officer of the Stormwind Army stationed at Westbrook Garrison on the western edge of Elwynn Forest. He oversees local road security and contracts adventurers to fight surrounding threats."
+  },
+  {
+   "q": "Why is Westbrook Garrison undermanned?",
+   "aliases": [
+    "why no guards at westbrook",
+    "why is the garrison struggling",
+    "westbrook needs help"
+   ],
+   "answer": "The Stormwind Army has the bulk of its forces deployed elsewhere, and political disarray in the capital prevents regular reinforcements from reaching outlying regions. As a result, Marshal Dughan in Goldshire must rely on independent adventurers to assist Rainer."
+  },
+  {
+   "q": "What threats is Rainer trying to counter?",
+   "aliases": [
+    "what enemies are near westbrook",
+    "riverpaw gnolls westbrook",
+    "westbrook gnolls"
+   ],
+   "answer": "Rainer focuses primarily on containment of the Riverpaw gnoll pack infesting the woods south of the garrison, roving thieves, and the notorious gnoll chieftain Hogger, who preys on travelers along the border."
+  },
+  {
+   "q": "Where does Rainer send adventurers after clearing the gnolls?",
+   "aliases": [
+    "where to go after rainer",
+    "rainer quest westfall",
+    "after westbrook garrison"
+   ],
+   "answer": "Once the gnoll menace near the garrison is suppressed, Rainer directs seasoned adventurers across the western border into Westfall to assist Gryan Stoutmantle and the People's Militia at Sentinel Hill."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Deputy Rainer represents the fraying edges of Stormwind's military reach, offering Alliance heroes a direct look at how local garrisons must adapt to survive without regular royal support."
+  }
+ ],
+ "keywords": [
+  "deputy rainer",
+  "elwynn forest",
+  "gryan stoutmantle",
+  "hogger",
+  "marshal dughan",
+  "riverpaw",
+  "westbrook garrison",
+  "westfall"
+ ],
+ "related": [
+  "subzone:westbrook-garrison",
+  "quest:11",
+  "quest:109",
+  "quest:239",
+  "quest:176",
+  "npc:marshal-dughan",
+  "npc:gryan-stoutmantle",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Deputy Rainer"
+ ]
+}

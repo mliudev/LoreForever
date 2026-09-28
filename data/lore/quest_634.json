@@ -1,0 +1,132 @@
+{
+ "key": "quest:634",
+ "type": "quest",
+ "name": "Plea To The Alliance",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   634
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Rhag Garmason",
+  "end": "Captain Nials",
+  "previous": "The Thandol Span (3)",
+  "next": null,
+  "wiki": "Plea To The Alliance",
+  "chain": [
+   "The Thandol Span",
+   "The Thandol Span (2)",
+   "The Thandol Span (3)",
+   "Plea To The Alliance"
+  ]
+ },
+ "summary": "Plea to the Alliance carries a desperate request for reinforcements from the surviving dwarven defenders of Dun Modr across the Thandol Span into Arathi. Faced with the slaughter of their garrison by Dark Iron infiltrators, the dwarves seek aid from the human forces stationed at Refuge Pointe, only to find the Alliance stretched beyond its limits.",
+ "sections": [
+  {
+   "title": "A Cry Across the Chasm",
+   "body": "Following the devastation of Dun Modr and the sabotage of the Thandol Span by Dark Iron dwarves, the dwarven survivors hold a precarious foothold at the northern rim of the Wetlands. With Ironforge's main reserves yet to arrive, Rhag Garmason and Commander Longbraid look north toward the Arathi Highlands. Learning of an Alliance encampment established at Refuge Pointe, Garmason dispatches an emissary across the shattered bridge to appeal to Captain Nials for urgent military aid.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Plight of Stromgarde",
+   "body": "Upon reaching Refuge Pointe, the grim reality of the northern Alliance becomes apparent. Captain Nials offers heartfelt sympathies to Longbraid's soldiers, but he cannot spare a single fighter. Stromgarde itself has fallen into ruin, overwhelmed by Syndicate rogues, Boulderfist ogres, and Witherbark trolls. The surviving Stromgarde defenders are entirely committed to reclaiming their ancestral capital. Bound by honor and desperate circumstances of their own, Nials is forced to send word back that the dwarves at the Span must stand alone.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends the plea to Refuge Pointe?",
+   "aliases": [
+    "who gives plea to the alliance",
+    "rhag garmason quest",
+    "who asks for help"
+   ],
+   "answer": "Rhag Garmason, stationed near the ruined bridgehead of the Thandol Span on the Wetlands border, sends the plea on behalf of Commander Longbraid and the remnants of Dun Modr's defense."
+  },
+  {
+   "q": "Why do the dwarves need help from Refuge Pointe?",
+   "aliases": [
+    "why need alliance help",
+    "why ask refuge pointe",
+    "dun modr reinforcements"
+   ],
+   "answer": "Dun Modr fell to a sudden and brutal assault by Dark Iron clan infiltrators, who also sabotaged the Thandol Span. While the survivors await heavy reserves from Ironforge, their immediate numbers are too few to retake their settlement and secure the crossing alone."
+  },
+  {
+   "q": "Why does Captain Nials refuse to send soldiers?",
+   "aliases": [
+    "why no help from nials",
+    "why refuge pointe refuses",
+    "captain nials answer"
+   ],
+   "answer": "Captain Nials cannot spare any troops because the Kingdom of Stromgarde has itself collapsed into ruins. The human forces at Refuge Pointe are wholly engaged in a desperate campaign to retake Stromgarde from the Syndicate, ogres, and forest trolls."
+  },
+  {
+   "q": "Where is Refuge Pointe located?",
+   "aliases": [
+    "refuge pointe location",
+    "where is captain nials",
+    "how to find refuge pointe"
+   ],
+   "answer": "Refuge Pointe lies just off the main road in the central Arathi Highlands, north of the Thandol Span crossing between the Wetlands and Arathi."
+  },
+  {
+   "q": "What happened to Dun Modr?",
+   "aliases": [
+    "dun modr lore",
+    "what happened dun modr",
+    "who attacked dun modr"
+   ],
+   "answer": "Dun Modr was overwhelmed and sacked by the Dark Iron clan, who infiltrated through the mountains to sever the land route between the southern dwarven lands and the northern Alliance territories."
+  },
+  {
+   "q": "What happens after Captain Nials turns down the request?",
+   "aliases": [
+    "what next plea to the alliance",
+    "next quest after plea",
+    "chain continuation"
+   ],
+   "answer": "Captain Nials sends his regrets to Commander Longbraid, confirming that no human reinforcements are coming. The dwarven survivors at the bridge must rely on their own wits, wandering adventurers, and distant Ironforge reinforcements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, this mission highlights the painful isolation of northern garrisons like Dun Modr, proving that even longtime human allies are too besieged to lend a hand."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human travelers witness the bitter sorrow of Captain Nials, who is torn between honoring Alliance brotherhood and fighting for the survival of fallen Stromgarde."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The exchange underscores how fractured the Alliance remains in the northern Eastern Kingdoms, where local garrisons fight separate, desperate battles with no shared reserves."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "captain nials",
+  "dark iron",
+  "dun modr",
+  "longbraid",
+  "refuge pointe",
+  "rhag garmason",
+  "stromgarde",
+  "thandol span"
+ ],
+ "related": [
+  "subzone:thandol-span",
+  "quest:631",
+  "subzone:dun-modr",
+  "subzone:refuge-pointe",
+  "zone:arathi",
+  "quest:472",
+  "zone:wetlands",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Plea To The Alliance"
+ ]
+}

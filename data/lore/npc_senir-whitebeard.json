@@ -1,0 +1,112 @@
+{
+ "key": "npc:senir-whitebeard",
+ "type": "npc",
+ "name": "Senir Whitebeard",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Senir Whitebeard",
+  "refs": 7
+ },
+ "summary": "Senir Whitebeard is a dwarven dignitary and field agent stationed outside the Thunderbrew Distillery in Kharanos. Serving as a special envoy from the Senate of Ironforge, he is tasked with monitoring the growing threats encircling Dun Morogh. His mission centers on evaluating the Frostmane troll offensive and reporting their movements directly back to the dwarven leadership.",
+ "sections": [
+  {
+   "title": "Envoy of the Senate",
+   "body": "While most travelers visit Kharanos for its bustling inn and famous stout, Senir Whitebeard is here on official business. As a representative sent directly by the Senate of Ironforge, his presence highlights how seriously the high halls take the destabilization of Dun Morogh. He serves as an essential bridge between local scouts facing danger on the snowy frontier and the legislators arguing policy behind the city's stone gates.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes on the Frostmanes",
+   "body": "Senir's primary concern is the escalating aggression of the Frostmane trolls. Displaced and desperate in the frozen crags, the trolls have begun pushing dangerously close to dwarven settlements and roads. Rather than charging into battle himself, the venerable envoy gathers reconnaissance on troll positions, particularly around their stronghold, compiling meticulous reports so Ironforge's military commanders can strike decisively.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Senir Whitebeard?",
+   "aliases": [
+    "who is this dwarf",
+    "senir whitebeard lore",
+    "who is senir"
+   ],
+   "answer": "Senir Whitebeard is an envoy sent by the Senate of Ironforge to Dun Morogh. He stands outside Kharanos gathering intelligence on regional threats, especially the local Frostmane troll tribes."
+  },
+  {
+   "q": "What is Senir doing in Kharanos?",
+   "aliases": [
+    "why is senir here",
+    "senir kharanos role",
+    "what does senir do"
+   ],
+   "answer": "Senir is stationed in Kharanos to observe troll activity and coordinate scout reports. Because Kharanos is the crossroad of Dun Morogh, it serves as the ideal hub to receive field intelligence before relaying it to the Senate in Ironforge."
+  },
+  {
+   "q": "Why does the Senate of Ironforge need an envoy here?",
+   "aliases": [
+    "why envoy",
+    "ironforge senate kharanos",
+    "senate business"
+   ],
+   "answer": "The Ironforge Senate requires reliable, firsthand field data to allocate resources and direct guards. Senir serves as an impartial official assessing whether the Frostmane threat warrants immediate military escalation from the capital."
+  },
+  {
+   "q": "What is Senir's primary concern in Dun Morogh?",
+   "aliases": [
+    "senir main problem",
+    "what threat is senir watching",
+    "senir trolls"
+   ],
+   "answer": "His chief focus is the Frostmane troll incursions. The trolls have been pushing aggressively out of their camps into dwarf territory, culminating in direct threats against nearby settlements like Kharanos."
+  },
+  {
+   "q": "Does Senir fight the trolls himself?",
+   "aliases": [
+    "does senir fight",
+    "is senir a warrior",
+    "senir combat"
+   ],
+   "answer": "No, Senir functions as an administrator and intelligence gatherer. He depends on local scouts, Mountaineers, and passing adventurers to enter hostile sites like Frostmane Hold and retrieve critical reconnaissance for him."
+  },
+  {
+   "q": "Where do Senir's reports go?",
+   "aliases": [
+    "where do reports go",
+    "senir reports destination",
+    "who gets the reports"
+   ],
+   "answer": "Once Senir has compiled field notes regarding troll positions and strengths, the finished reports are sent directly up the mountain road to the Senate and leadership in Ironforge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, Senir represents the bureaucratic yet essential connection between frontier defenders and the governing body in Ironforge."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance recruits passing through Dun Morogh aid Senir to safeguard the heartland of Ironforge from being cut off by indigenous troll uprisings."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "frostmane",
+  "ironforge",
+  "kharanos",
+  "reports",
+  "senate",
+  "senir",
+  "whitebeard"
+ ],
+ "related": [
+  "subzone:kharanos",
+  "zone:dunmorogh",
+  "zone:ironforge",
+  "topic:dwarf",
+  "quest:282",
+  "quest:287",
+  "quest:291"
+ ],
+ "attribution": [
+  "Senir Whitebeard"
+ ]
+}

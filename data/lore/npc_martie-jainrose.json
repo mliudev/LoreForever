@@ -1,0 +1,76 @@
+{
+ "key": "npc:martie-jainrose",
+ "type": "npc",
+ "name": "Martie Jainrose",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Martie Jainrose",
+  "refs": 2
+ },
+ "summary": "Martie Jainrose is Lakeshire's local herbalist, tending to her garden along the edge of Lake Everstill in the Redridge Mountains. Beside cultivating remedies and flowers for the beleaguered town, she contends with wild beasts trampling her plots and harbors a quiet affection for Guard Parker.",
+ "sections": [
+  {
+   "title": "A Garden by the Lake",
+   "body": "Residing in Lakeshire, Martie Jainrose works diligently as the settlement's resident herbalist. Even as Blackrock orcs, gnolls, and local brigands threaten the region, Martie focuses on keeping the town supplied with fresh herbs and floral arrangements. Her daily labors are often disrupted by local wildlife\u2014most notably the monstrous boar Bellygrub, who frequently ravages her prized garden beds. Beyond her herbal pursuits, Martie is known to hold a gentle fondness for Guard Parker, occasionally sending bouquets of handpicked daffodils to brighten his watchful watch over the town.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Martie Jainrose?",
+   "aliases": [
+    "martie jainrose",
+    "who is martie",
+    "lakeshire herbalist"
+   ],
+   "answer": "Martie Jainrose is a human herbalist living in Lakeshire within the Redridge Mountains. She tends a garden beside Lake Everstill, cultivating flora and preparing herbal remedies for the local residents."
+  },
+  {
+   "q": "What trouble does Martie have with the local wildlife?",
+   "aliases": [
+    "martie boar problem",
+    "bellygrub garden",
+    "who is destroying her garden"
+   ],
+   "answer": "A massive and notoriously stubborn wild boar named Bellygrub has taken to raiding her garden plots, trampling her delicate plantings and eating her herbs before she can harvest them."
+  },
+  {
+   "q": "Who does Martie fancy in Lakeshire?",
+   "aliases": [
+    "martie crush",
+    "martie guard parker",
+    "delivering daffodils romance"
+   ],
+   "answer": "Martie has romantic feelings for Guard Parker, one of the town guards stationed nearby. She frequently arranges bunches of fresh daffodils to be delivered to him while he stands watch."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "For practicing herbalists traveling through Redridge, Martie represents a familiar kinship, tending fragile flora despite the harsh predations of wild boars and encroaching enemies."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Martie's perseverance in Lakeshire reflects the resilience of Redridge's folk, striving to maintain ordinary domestic life even while Stormwind leaves the town largely to fend for itself."
+  }
+ ],
+ "keywords": [
+  "bellygrub",
+  "daffodils",
+  "guard parker",
+  "herbalist",
+  "lakeshire",
+  "martie jainrose",
+  "redridge"
+ ],
+ "related": [
+  "subzone:lakeshire",
+  "zone:redridge",
+  "quest:131",
+  "quest:130"
+ ],
+ "attribution": [
+  "Martie Jainrose"
+ ]
+}

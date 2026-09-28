@@ -1,0 +1,127 @@
+{
+ "key": "quest:6921",
+ "type": "quest",
+ "name": "Amongst the Ruins",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "ids": [
+   6921
+  ],
+  "level": "27",
+  "faction": "Horde",
+  "start": "Je'neu Sancrea",
+  "end": "",
+  "previous": "",
+  "next": "",
+  "wiki": "Amongst the Ruins (Classic)",
+  "chain": []
+ },
+ "summary": "Tasked by Je'neu Sancrea at Zoram'gar Outpost, Horde adventurers delve into the flooded temple of Blackfathom Deeps to recover a fathom core. The Earthen Ring seeks this relic to uncover the dark elemental plots of the invading Twilight's Hammer cult.",
+ "sections": [
+  {
+   "title": "A Threat in the Deep",
+   "body": "The ancient night elven temple of Blackfathom Deeps, once sacred to Elune, has fallen under the dominion of sinister forces. Deep within its submerged passages, the cultists of the Twilight's Hammer have established a stronghold. Stationed at the windswept shore of Zoram'gar Outpost in Ashenvale, the Darkspear shaman Je'neu Sancrea observes the growing taint with rising alarm, recognizing that the cult intends to subjugate the local elements against the land and its defenders.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fathom Stone",
+   "body": "To counter the cult's designs, Je'neu tasks Horde champions with securing a fathom core from the underwater fathom stone within the Moonshrine Ruins. When correctly deciphered by skilled shamans, the core reveals an exhaustive chronicle of elemental currents and disturbances. With this artifact in hand, the Earthen Ring hopes to pierce the veil of the Twilight's Hammer's operations and shield the region from elemental catastrophe.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Amongst the Ruins?",
+   "aliases": [
+    "quest giver",
+    "where to get quest",
+    "who starts amongst the ruins"
+   ],
+   "answer": "The quest is provided by Je'neu Sancrea, a troll representative of the Earthen Ring stationed at Zoram'gar Outpost along the Zoram Strand in western Ashenvale."
+  },
+  {
+   "q": "What is a fathom core?",
+   "aliases": [
+    "what is the fathom core",
+    "fathom stone purpose",
+    "what does the core do"
+   ],
+   "answer": "A fathom core is a specialized artifact housed within a submerged fathom stone in the ruins. When read by shamans, it provides a comprehensive history of elemental activity, revealing how the local elements are being coerced and manipulated."
+  },
+  {
+   "q": "Why is the Earthen Ring concerned about Blackfathom Deeps?",
+   "aliases": [
+    "earthen ring motive",
+    "why does the earthen ring care",
+    "blackfathom deeps cultists"
+   ],
+   "answer": "The Earthen Ring seeks balance between the natural elements. The Twilight's Hammer cultists who have overtaken the submerged ruins are actively corrupting and coercing the elements to serve their dark ends, threatening the stability of the entire region."
+  },
+  {
+   "q": "Where is the fathom stone located?",
+   "aliases": [
+    "where is the stone",
+    "fathom core location",
+    "moonshrine ruins fathom core"
+   ],
+   "answer": "The fathom stone rests submerged in the waters of the Moonshrine Ruins inside Blackfathom Deeps, requiring explorers to dive beneath the surface to retrieve the core."
+  },
+  {
+   "q": "Can Alliance players take this quest?",
+   "aliases": [
+    "is this horde only",
+    "alliance version",
+    "can alliance do amongst the ruins"
+   ],
+   "answer": "No. The quest is exclusive to the Horde, as Je'neu Sancrea operates out of the Horde outpost of Zoram'gar and aids the Horde's strategic presence in Ashenvale alongside his Earthen Ring duties."
+  },
+  {
+   "q": "What group is occupying Blackfathom Deeps?",
+   "aliases": [
+    "who is in blackfathom",
+    "enemies in bfd",
+    "twilight's hammer blackfathom"
+   ],
+   "answer": "The cavernous temple complex has been seized by the Twilight's Hammer, an apocalyptic cult dedicated to serving sinister Old God entities and twisting the elements toward catastrophic ends."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Retrieving the fathom core directly serves the Earthen Ring's mission to protect the spirits of water and earth from being coerced by the Twilight's Hammer."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "By clearing out threats within Blackfathom Deeps, you safeguard Zoram'gar Outpost and secure the Horde's contested foothold on the Ashenvale coast."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Aiding Je'neu Sancrea helps a fellow Darkspear who bridges the divide between the Horde and the elemental caretakers of the Earthen Ring."
+  }
+ ],
+ "keywords": [
+  "amongst the ruins",
+  "ashenvale",
+  "blackfathom deeps",
+  "earthen ring",
+  "fathom core",
+  "fathom stone",
+  "je'neu sancrea",
+  "moonshrine ruins",
+  "twilight's hammer",
+  "zoram'gar outpost"
+ ],
+ "related": [
+  "npc:je-neu-sancrea",
+  "zone:blackfathom",
+  "subzone:zoram-gar-outpost",
+  "subzone:moonshrine-ruins",
+  "topic:twilight-s-hammer",
+  "zone:ashenvale",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Amongst the Ruins (Classic)"
+ ]
+}

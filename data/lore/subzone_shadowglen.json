@@ -1,0 +1,92 @@
+{
+ "key": "subzone:shadowglen",
+ "type": "subzone",
+ "name": "Shadowglen",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Shadowglen"
+ },
+ "summary": "Shadowglen is a secluded, twilit vale nestled within the northeastern boughs of Teldrassil. Dominated by the great barrow-tree Aldrassil, it serves as the safe haven where young night elves take their first steps into service before journeying out into the wider world.",
+ "sections": [
+  {
+   "title": "A Sheltered Cradle",
+   "body": "Tucked away in the northeastern canopy of Teldrassil, Shadowglen is ringed by high ridges that shelter it from the rest of the world. Bathed in eternal dusk, the vale centers on Aldrassil, a massive barrow-tree whose hollowed trunk houses elders, priestesses, and mentors for young night elves beginning their training. The only route out of the valley leads south through a narrow mountain pass toward Starbreeze Village and Dolanaar, making Shadowglen one of the most naturally fortified and peaceful sanctuaries on the World Tree.",
+   "spoiler": 0
+  },
+  {
+   "title": "Creeping Shadows",
+   "body": "Despite its tranquil seclusion, Shadowglen is not entirely free from danger. In the extreme northwest lies Shadowthread Cave, a dark cavern infested with venomous spiders that constantly threaten the tranquil glade. Even on the pristine branches of Teldrassil, vigilance is required, and fledgling defenders are tasked with driving back the encroaching vermin and untamed wildlife before venturing into the broader expanse of the boughs beyond.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Shadowglen?",
+   "aliases": [
+    "what is this place",
+    "shadowglen lore",
+    "about shadowglen"
+   ],
+   "answer": "Shadowglen is the sheltered starting grove for the night elves, located in the northeastern reaches of Teldrassil. It is a peaceful, secluded haven centered around the grand tree Aldrassil, where novices train under mentors before journeying across the World Tree."
+  },
+  {
+   "q": "What is the massive tree at the center of the glen?",
+   "aliases": [
+    "big tree in shadowglen",
+    "aldrassil",
+    "shadowglen tree"
+   ],
+   "answer": "The tree is Aldrassil, a barrow-tree that forms the heart of Shadowglen. Its hollowed interior serves as an administrative lodge and training hub where novice night elves meet class trainers, mentors, and caretakers."
+  },
+  {
+   "q": "What threats exist in Shadowglen?",
+   "aliases": [
+    "why are there spiders here",
+    "shadowglen dangers",
+    "shadowthread cave"
+   ],
+   "answer": "The primary threat comes from the northwest in Shadowthread Cave, a cavern infested with venomous spiders that regularly creep out into the glade. Young defenders are tasked with culling the spiders and calming the restless local wildlife."
+  },
+  {
+   "q": "How do you leave Shadowglen?",
+   "aliases": [
+    "exit shadowglen",
+    "where does the path lead",
+    "way out of shadowglen"
+   ],
+   "answer": "Shadowglen is entirely surrounded by ridges except for a single path to the south. Passing through this narrow mountain gap leads southward toward Starbreeze Village and the settlement of Dolanaar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Every young night elf begins their active journey here among the sheltered roots of Aldrassil, receiving their first blessings and instructions before facing the perils of Kalimdor."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Situated high on the boughs of Teldrassil and deep behind guarded ports, Shadowglen stands as one of the Alliance's most insulated and well-defended sanctuary vales."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "kaldorei",
+  "night elf starting area",
+  "shadowglen",
+  "shadowthread cave",
+  "teldrassil"
+ ],
+ "related": [
+  "zone:teldrassil",
+  "subzone:aldrassil",
+  "subzone:shadowthread-cave",
+  "subzone:dolanaar",
+  "subzone:starbreeze-village",
+  "topic:night-elf",
+  "zone:darnassus",
+  "subzone:rut-theran-village"
+ ],
+ "attribution": [
+  "Shadowglen"
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "key": "quest:6083",
+ "type": "quest",
+ "name": "Taming the Beast",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   6083
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Thotar",
+  "end": "",
+  "previous": "Taming the Beast (Orc and Troll 1)",
+  "next": "Taming the Beast (Orc and Troll 3)",
+  "wiki": "Taming the Beast (Orc and Troll 2)",
+  "chain": [
+   "The Hunter's Path (Orc and Troll)",
+   "Taming the Beast (Orc and Troll 1)",
+   "Taming the Beast (Orc and Troll 2)",
+   "Taming the Beast (Orc and Troll 3)",
+   "Training the Beast (Orc and Troll)"
+  ]
+ },
+ "summary": "The second trial in a young hunter's rite of mastery in Durotar, directed by the trainer Thotar in Razor Hill. Aspiring orc and troll hunters are sent to the coastline near the Echo Isles to pacify a surf crawler, expanding their bond beyond terrestrial beasts to coastal wildlife.",
+ "sections": [
+  {
+   "title": "Bonding with the Coast",
+   "body": "Having successfully mastered a land stalker, a fledgling hunter is tasked by Thotar to turn their attention toward the sea. Durotar's harsh environment includes jagged coasts and shallow reefs teeming with armored crustaceans. Facing a surf crawler requires patience and fortitude, as these armored crabs resist intrusion into their coastal domain.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Extension of Will",
+   "body": "Thotar teaches that any beast a hunter binds must become an extension of their own strength. By subduing an aquatic creature like the surf crawler with the taming rod, the hunter learns to adapt their commanding presence across different temperaments and environments, proving their readiness for permanent companions.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are surf crawlers found?",
+   "aliases": [
+    "surf crawler location",
+    "where is surf crawler",
+    "crab location"
+   ],
+   "answer": "Surf crawlers skitter along the eastern shores of Durotar, specifically in the shallows across from Sen'jin Village near the waters leading out toward the Echo Isles."
+  },
+  {
+   "q": "What is the purpose of taming a surf crawler?",
+   "aliases": [
+    "why tame crab",
+    "surf crawler quest purpose"
+   ],
+   "answer": "Thotar assigns the surf crawler to teach hunters how to command diverse beasts. Learning to tame an armored aquatic creature broadens a hunter's control, proving they can master animals from water as easily as those from dry land."
+  },
+  {
+   "q": "Do I keep the surf crawler permanently?",
+   "aliases": [
+    "do i keep the crab",
+    "is surf crawler permanent"
+   ],
+   "answer": "No. The beasts tamed during these initial trials are temporary practice subjects subdued through the magic of Thotar's taming rod. Only after completing the entire trial series will you learn the permanent taming skill."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "who starts taming the beast 2"
+   ],
+   "answer": "Thotar, the hunter trainer situated in Razor Hill, offers this trial after you prove your ability to tame a dire mottled boar."
+  },
+  {
+   "q": "What comes after taming the surf crawler?",
+   "aliases": [
+    "next quest",
+    "what's next in the chain"
+   ],
+   "answer": "Upon returning the rod to Thotar, he will test you with a third and final trial, tasking you to track down and tame an Armored Scorpid before teaching you permanent beast mastery."
+  },
+  {
+   "q": "Why use a taming rod instead of natural skills?",
+   "aliases": [
+    "why taming rod",
+    "what is taming rod"
+   ],
+   "answer": "Novice hunters have not yet cultivated the innate spiritual authority required to bond wild beasts permanently. The taming rod acts as a conduit, allowing beginners to safely practice channeling their will before learning the true technique."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This trial instills the foundational discipline required to command defensive beasts, demonstrating how a creature's natural armor and tenacity complement a ranged marksman."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs carving out a permanent home in Durotar, subduing the shoreline's hardy fauna reinforces their mastery over the rugged landscape."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear trolls are deeply familiar with the waters near the Echo Isles and Sen'jin Village, making this trial an encounter with the familiar wildlife of their coastal refuge."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "echo isles",
+  "pet taming",
+  "razor hill",
+  "sen'jin village",
+  "surf crawler",
+  "taming rod",
+  "thotar"
+ ],
+ "related": [
+  "npc:thotar",
+  "subzone:razor-hill",
+  "subzone:sen-jin-village",
+  "subzone:echo-isles",
+  "zone:durotar",
+  "quest:6061",
+  "quest:6081",
+  "quest:6065"
+ ],
+ "attribution": [
+  "Taming the Beast (Orc and Troll 2)"
+ ]
+}

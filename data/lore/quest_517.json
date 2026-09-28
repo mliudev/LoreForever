@@ -1,0 +1,134 @@
+{
+ "key": "quest:517",
+ "type": "quest",
+ "name": "Elixir of Agony",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   517
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Apothecary Lydon",
+  "end": "",
+  "previous": "Elixir of Agony (3)",
+  "next": "Elixir of Agony (5)",
+  "wiki": "Elixir of Agony (4)",
+  "chain": []
+ },
+ "summary": "This quest is the fourth chapter in Apothecary Lydon's relentless development of a devastating Forsaken poison in Tarren Mill. With the deadly Elixir of Agony finally brewed, Lydon dispatches Horde champions to Dun Garok to steal a keg of dwarven Shindigger Stout for delivery.",
+ "sections": [
+  {
+   "title": "A Bitter Brew",
+   "body": "In the damp reaches of Tarren Mill, Apothecary Lydon works tirelessly on behalf of the Royal Apothecary Society and Lady Sylvanas. Having gathered lethal ingredients from across Hillsbrad, his new concoction is complete. Lydon has no interest in wasting such a potent strain on trivial creatures like frogs or stray dogs; he seeks a real, tangible test against living adversaries.",
+   "spoiler": 0
+  },
+  {
+   "title": "Infiltrating Dun Garok",
+   "body": "To stage his experiment, Lydon needs an inconspicuous delivery vehicle. South of Hillsbrad, the Stormpike dwarves have fortified the stronghold of Dun Garok. Lydon directs agents of the Horde to infiltrate the underground barracks and mess halls, slipping past dwarven rifles and axes to purloin a prized keg of Shindigger Stout.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Recipe for Disaster",
+   "body": "Lydon intends to blend his lethal toxin straight into the dwarves' favorite brew. Once infused into the stolen keg, the elixir can be unleashed upon an unwitting target under the guise of festive refreshment, turning a beloved dwarven stout into an instrument of horrific agony.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Apothecary Lydon?",
+   "aliases": [
+    "lydon",
+    "who gives this quest",
+    "apothecary lydon lore"
+   ],
+   "answer": "Apothecary Lydon is a Forsaken alchemist stationed in Tarren Mill. Representing the Royal Apothecary Society, he conducts experiments to develop deadly plagues and elixirs for the Banshee Queen, Lady Sylvanas."
+  },
+  {
+   "q": "Why does Lydon need a keg of Shindigger Stout?",
+   "aliases": [
+    "why dwarven beer",
+    "why shindigger stout",
+    "purpose of the keg"
+   ],
+   "answer": "Lydon wants to test the finished Elixir of Agony on living targets. By blending the toxin into a keg of popular dwarven ale, he creates a covert and potent delivery method to poison his victims."
+  },
+  {
+   "q": "Where is Dun Garok located?",
+   "aliases": [
+    "where is dun garok",
+    "dun garok location",
+    "where do i find the keg"
+   ],
+   "answer": "Dun Garok is a heavily fortified dwarven redoubt situated in southeastern Hillsbrad Foothills, manned by Stormpike mountaineers and riflemen guarding their northern interests."
+  },
+  {
+   "q": "Who is Umpi?",
+   "aliases": [
+    "umpi",
+    "who is umpi",
+    "lydon assistant"
+   ],
+   "answer": "Umpi is Apothecary Lydon's assistant in Tarren Mill. Lydon playfully notes that opening jars of formaldehyde around the lab tends to make Umpi visibly nervous."
+  },
+  {
+   "q": "What is the ultimate goal of the Elixir of Agony?",
+   "aliases": [
+    "what does elixir of agony do",
+    "plague purpose",
+    "forsaken poison goal"
+   ],
+   "answer": "The Elixir of Agony is an experimental poison engineered by the Royal Apothecary Society to eradicate the living, serving the Forsaken's campaign to secure Lordaeron from human and dwarven footholds."
+  },
+  {
+   "q": "What comes next after retrieving the keg?",
+   "aliases": [
+    "next quest",
+    "what after dun garok",
+    "elixir part 5"
+   ],
+   "answer": "Once the keg is in hand, Lydon laces the Shindigger Stout with the toxic elixir and tasks you with delivering the tainted ale to an unsuspecting test subject."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Every batch perfected by Lydon brings the Forsaken closer to weaponizing death against the living enemies encroaching on Lordaeron."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The desecration of traditional dwarven ale into a vessel for chemical slaughter represents a profound insult to Ironforge craftsmanship."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Undermining the Alliance presence at Dun Garok helps Tarren Mill maintain a delicate foothold against relentless southern threats."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Slipping through the crowded mess halls of Dun Garok unseen is a masterclass in covert thievery right under the mountaineers' noses."
+  }
+ ],
+ "keywords": [
+  "apothecary lydon",
+  "dun garok",
+  "dwarves",
+  "elixir of agony",
+  "hillsbrad",
+  "shindigger stout",
+  "stormpike",
+  "tarren mill",
+  "umpi"
+ ],
+ "related": [
+  "quest:509",
+  "subzone:tarren-mill",
+  "subzone:dun-garok",
+  "zone:hillsbrad",
+  "npc:umpi",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Elixir of Agony (4)"
+ ]
+}

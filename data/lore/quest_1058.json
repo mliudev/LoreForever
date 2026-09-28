@@ -1,0 +1,128 @@
+{
+ "key": "quest:1058",
+ "type": "quest",
+ "name": "Jin'Zil's Forest Magic",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1058
+  ],
+  "level": "26",
+  "faction": "Horde",
+  "start": "Witch Doctor Jin'Zil",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Jin'Zil's Forest Magic",
+  "chain": []
+ },
+ "summary": "At the small outpost of Malaka'jin, Witch Doctor Jin'Zil has captured three night elven scouts in crude iron cages. Rather than executing them outright or holding them for ransom, the eccentric troll tasks Horde adventurers with gathering wilderness reagents from Stonetalon Peak to concoct a gruesome dose of 'forest magic.'",
+ "sections": [
+  {
+   "title": "A Bitter Brew",
+   "body": "In the red-rock defile of Malaka'jin, Witch Doctor Jin'Zil conducts his craft under the watchful gaze of the Horde. When three night elf captives fall into his clutches, Jin'Zil decides against ordinary butchery, concocting instead a mocking ritual tailored specifically for his captive woodland foes. He directs travelers north into the untamed peaks to collect an array of indigenous parts: thick tree sap, feline whiskers from predatory twilight runners, a shimmering fey dragon scale, and scores of eyes plucked from the local forest coursers.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Taste of Home",
+   "body": "Behind Jin'Zil's playful demeanor lies a cruel troll sense of humor. Under the pretense of making the imprisoned elves 'feel right at home' without a forest to frolic in, the mixture of magical fauna and concentrated sap forms a lethal, volatile venom. When released within the cave, the noxious concoction chokes the life from the caged captives on the spot. As their physical bodies perish, the elves' ancestral spirits dissolve into luminous wisps that float out into the mountains, leaving their empty cages behind.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Witch Doctor Jin'Zil?",
+   "aliases": [
+    "who is jin'zil",
+    "witch doctor jin'zil",
+    "jinzil lore"
+   ],
+   "answer": "Witch Doctor Jin'Zil is a Darkspear troll stationed at Malaka'jin in the southern Stonetalon Mountains. He serves the Horde war effort against the night elves by practicing traditional troll alchemy, voodoo, and interrogation."
+  },
+  {
+   "q": "Why does Jin'Zil want so many courser eyes?",
+   "aliases": [
+    "why courser eyes",
+    "30 courser eyes",
+    "why so many eyes"
+   ],
+   "answer": "Jin'Zil claims that you simply cannot brew fierce forest magic without an abundance of eyes. While troll witch doctors often utilize strange organic components in their potions, the absurd quantity also reflects his eccentric and vindictive personality."
+  },
+  {
+   "q": "What happens to the caged night elves when the quest finishes?",
+   "aliases": [
+    "what happens to the elves",
+    "caged elves fate",
+    "prisoners of jin'zil"
+   ],
+   "answer": "Upon delivering the reagents, Jin'Zil releases the toxic brew throughout his cave. The concoction lethally poisons the three captives, killing them and releasing their spirits as wisps that drift away into the wild."
+  },
+  {
+   "q": "Where are all these reagents found?",
+   "aliases": [
+    "where to find forest magic reagents",
+    "stonetalon sap location",
+    "fey dragon scale spot"
+   ],
+   "answer": "The courser eyes and Stonetalon sap can be gathered around Mirkfallon Lake and the northern highlands. The twilight whiskers and the rare fey dragon scale are found farther north near Stonetalon Peak, where the mountain's magical beasts roam."
+  },
+  {
+   "q": "Why is the Horde fighting night elves in Stonetalon?",
+   "aliases": [
+    "why fight night elves in stonetalon",
+    "horde night elf conflict stonetalon",
+    "stonetalon war"
+   ],
+   "answer": "The Horde's logging efforts in the region, centered near the lower crags and the borders of Ashenvale, have triggered fierce resistance from the Sentinels and druids guarding the sacred groves of Stonetalon."
+  },
+  {
+   "q": "Why do the dying elves turn into wisps?",
+   "aliases": [
+    "why do elves become wisps",
+    "elven wisps in cave",
+    "wisp lore"
+   ],
+   "answer": "Wisps are the spirits of deceased night elves who remain intimately bonded to nature. Upon death, their souls take on this glowing arboreal form rather than lingering as ordinary ghosts or shades."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "Jin'Zil's macabre humor and practical application of voodoo alchemy are classic hallmarks of Darkspear witch doctor craft."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The agonizing execution of night elven captives through twisted woodland materials stands as one of the crueler Horde acts in Stonetalon."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Seeing sacred fey drakes, majestic coursers, and ancient forest sap harvested to brew a lethal poison is a grim perversion of nature's balance."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing Malaka'jin means subduing night elf resistance across the range, even through the unorthodox methods of a recluse witch doctor."
+  }
+ ],
+ "keywords": [
+  "courser eye",
+  "fey dragon",
+  "forest magic",
+  "jin'zil",
+  "malaka'jin",
+  "prisoners",
+  "stonetalon",
+  "twilight runner",
+  "witch doctor"
+ ],
+ "related": [
+  "npc:witch-doctor-jin-zil",
+  "subzone:malaka-jin",
+  "subzone:stonetalon-peak",
+  "subzone:mirkfallon-lake",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Jin'Zil's Forest Magic"
+ ]
+}

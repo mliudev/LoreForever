@@ -1,0 +1,83 @@
+{
+ "key": "subzone:ruins-of-jubuwal",
+ "type": "subzone",
+ "name": "Ruins of Jubuwal",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Ruins of Jubuwal"
+ },
+ "summary": "The Ruins of Jubuwal are the crumbling remnants of an ancient Gurubashi settlement located just east of the Gurubashi Arena in Stranglethorn Vale. Once a place of empire and ritual, the ruins have fallen under the sway of the rogue witch doctor Zanzil the Outcast and his bizarre retinue of minions.",
+ "sections": [
+  {
+   "title": "A Refuge for the Exiled",
+   "body": "Situated off the primary thoroughfare cutting through Stranglethorn Vale, Jubuwal was once part of the grand Gurubashi civilization. Today, stone carvings and ivy-draped masonry have been overtaken by Zanzil the Outcast, an eccentric witch doctor known for his potent concoctions and foul voodoo. Zanzil has filled the ruins with an unnatural menagerie of followers, including enthralled ghouls, subjugated naga, and renegade trolls. Desperate fugitives also lurk among the stone arches, such as Jon-Jon the Crow and Maury 'Club Foot' Wilkins, both hiding from the ruthless debt collector 'Sea Wolf' MacKinley back in Booty Bay.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Ruins of Jubuwal located?",
+   "aliases": [
+    "ruins of jubuwal location",
+    "where is jubuwal",
+    "jubuwal map"
+   ],
+   "answer": "The ruins lie in central Stranglethorn Vale, just east of the Gurubashi Arena and immediately adjacent to the main dirt road connecting northern and southern Stranglethorn."
+  },
+  {
+   "q": "Who controls the Ruins of Jubuwal?",
+   "aliases": [
+    "who lives in jubuwal",
+    "jubuwal enemies",
+    "who controls jubuwal"
+   ],
+   "answer": "The ruins are held by Zanzil the Outcast and his minions. His eclectic followers include brainwashed trolls, reanimated ghouls, allied naga, and miscellaneous scoundrels seeking shelter from outside law."
+  },
+  {
+   "q": "Why are ghouls and naga working together here?",
+   "aliases": [
+    "why are there ghouls in jubuwal",
+    "zanzil minions"
+   ],
+   "answer": "Zanzil the Outcast uses toxic voodoo mixtures and mind-altering potions to subdue and command those around him. Through these mixtures, he binds risen undead, naga, and trolls into an obedient fighting force."
+  },
+  {
+   "q": "Why are outlaws like Jon-Jon and Maury hiding here?",
+   "aliases": [
+    "jon-jon the crow",
+    "maury club foot wilkins",
+    "mackinley debtors"
+   ],
+   "answer": "Both Jon-Jon the Crow and Maury 'Club Foot' Wilkins fled to Jubuwal to escape the wrath of 'Sea Wolf' MacKinley, a notorious goblin debt collector operating out of Booty Bay."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls, Jubuwal represents both the tragic collapse of Gurubashi heritage and the twisted perversion of ancestral voodoo practiced by rogues like Zanzil."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The shadows and crumbling masonry of Jubuwal make ideal cover for ambushing outlaws hiding from Booty Bay's bounty hunters."
+  }
+ ],
+ "keywords": [
+  "gurubashi",
+  "jon-jon",
+  "jubuwal",
+  "mackinley",
+  "maury club foot",
+  "stranglethorn",
+  "zanzil"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "subzone:gurubashi-arena",
+  "topic:troll",
+  "topic:naga"
+ ],
+ "attribution": [
+  "Ruins of Jubuwal"
+ ]
+}

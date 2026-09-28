@@ -1,0 +1,91 @@
+{
+ "key": "subzone:foothold-citadel",
+ "type": "subzone",
+ "name": "Foothold Citadel",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Foothold Citadel"
+ },
+ "summary": "Foothold Citadel serves as the central military barracks and command post within Theramore Isle. Overlooking the fortified settlement, it houses the officers and guards who protect the Alliance's primary bastion on southern Kalimdor.",
+ "sections": [
+  {
+   "title": "Heart of the Theramore Guard",
+   "body": "Rising within the fortified stone walls of Theramore Isle, Foothold Citadel is the nerve center of local Alliance defense. The citadel houses the high command of the Theramore Guard, including Captain Garran Vimes and Commander Samaul, along with field medics, logistics officers, and quartermasters. Its utilitarian stone halls bustle with regular patrols and drills, keeping Lady Jaina Proudmoore's forces prepared against threats creeping out of the surrounding swamplands.",
+   "spoiler": 0
+  },
+  {
+   "title": "Echoes of the Admiral's Fall",
+   "body": "The citadel bears a grim history tied to the founding days of Theramore. When Grand Admiral Daelin Proudmoore seized control of the city to wage his personal crusade against the Horde, this very fortress became the battleground of his final stand. Thrall's allied strike force, spearheaded by the Mok'Nathal warrior Rexxar, breached the citadel and struck the Admiral down. Today, the fortress stands repaired and steadfast, though the memory of that bloody conflict still hangs over its stone ramparts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Foothold Citadel used for?",
+   "aliases": [
+    "foothold citadel purpose",
+    "theramore barracks",
+    "what is this building"
+   ],
+   "answer": "Foothold Citadel functions as the headquarters and military barracks for the Theramore Guard. It houses command officers, tactical planners, training facilities, and logistics staff like the local paymaster and medical personnel."
+  },
+  {
+   "q": "What happened to Grand Admiral Daelin Proudmoore here?",
+   "aliases": [
+    "daelin death",
+    "daelin proudmoore last stand",
+    "who killed daelin"
+   ],
+   "answer": "During the conflict following the Third War, Grand Admiral Daelin Proudmoore commandeered Theramore to wage war on the young Horde. A combined force led by the champion Rexxar stormed the citadel, slaying the Admiral in his own headquarters."
+  },
+  {
+   "q": "Who is currently in charge at Foothold Citadel?",
+   "aliases": [
+    "who leads the citadel",
+    "theramore guard commander",
+    "citadel leader"
+   ],
+   "answer": "Operational command of the garrison falls to officers like Captain Garran Vimes and Commander Samaul, who oversee daily patrols and regional security under the ultimate authority of Lady Jaina Proudmoore."
+  },
+  {
+   "q": "Can I receive medical aid inside the citadel?",
+   "aliases": [
+    "citadel doctor",
+    "theramore medic",
+    "first aid trainer theramore"
+   ],
+   "answer": "Yes. Doctor Gustaf VanHowzen resides inside Foothold Citadel, tending to wounded guardsmen and instructing Alliance travelers in advanced field medicine and triage."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The citadel is the primary military anchor for the Alliance in southern Kalimdor, coordinating defense against swamp beasts, Grimtotem marauders, and watchful Horde scouts."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde, Foothold Citadel is remembered as the site where Rexxar and Thrall brought an end to Grand Admiral Proudmoore's vengeful campaign to ensure Durotar's survival."
+  }
+ ],
+ "keywords": [
+  "barracks",
+  "daelin proudmoore",
+  "dustwallow marsh",
+  "foothold citadel",
+  "garran vimes",
+  "gustaf vanhowzen",
+  "samaul",
+  "theramore"
+ ],
+ "related": [
+  "subzone:theramore-isle",
+  "zone:dustwallow",
+  "topic:alliance",
+  "npc:doctor-gustaf-vanhowzen",
+  "npc:thrall"
+ ],
+ "attribution": [
+  "Foothold Citadel"
+ ]
+}

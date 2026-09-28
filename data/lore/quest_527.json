@@ -1,0 +1,127 @@
+{
+ "key": "quest:527",
+ "type": "quest",
+ "name": "Battle of Hillsbrad",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   527
+  ],
+  "level": "24",
+  "faction": "Horde",
+  "start": "High Executor Darthalia",
+  "end": "",
+  "previous": null,
+  "next": "Battle of Hillsbrad (2)",
+  "wiki": "Battle of Hillsbrad (quest)",
+  "chain": [
+   "Souvenirs of Death"
+  ]
+ },
+ "summary": "Battle of Hillsbrad is the opening strike in the Forsaken campaign to eradicate the human settlement of Hillsbrad. Handed down by High Executor Darthalia under orders from Varimathras, this mission targets the farmers and infrastructure of the northern Hillsbrad Fields to sever the town's food supply.",
+ "sections": [
+  {
+   "title": "Starving the Resistance",
+   "body": "Tarren Mill stands as the southern spearhead of the Forsaken empire, facing an entrenched human populace clinging to the Hillsbrad Foothills. High Executor Darthalia operates under strict directives straight from Varimathras in the Undercity. Her strategy is total attrition: before marching directly on the heavily defended town of Hillsbrad, she orders the systematic disruption of its agriculture. Striking the northern fields deprives the human militia of critical provisions while sowing chaos across their homesteads.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Delaying Action",
+   "body": "The broader campaign against the human presence in Hillsbrad serves a grim tactical purpose. While the Forsaken armies pin down and bleed the local defenders, the Royal Apothecary Society works tirelessly to concoct a new plague capable of eradicating the living and Scourge alike. High Executor Darthalia views these early skirmishes\u2014and the deaths of local landowners like Farmer Ray and Farmer Getz\u2014as necessary steps to suppress the human infestation until that ultimate weapon is ready to deploy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the Forsaken attacking simple farmers?",
+   "aliases": [
+    "why kill farmers",
+    "hillsbrad farm targets",
+    "why attack farms"
+   ],
+   "answer": "The human farmers and farmhands in the Hillsbrad Fields form the logistical foundation of the town of Hillsbrad. By burning through their workforce and slaying prominent landowners like Farmer Ray and Farmer Getz, the Forsaken cut off the human garrison's food supply and weaken their defenses before a direct assault."
+  },
+  {
+   "q": "Who orders this attack?",
+   "aliases": [
+    "who gives quest",
+    "darthalia orders",
+    "who is darthalia"
+   ],
+   "answer": "High Executor Darthalia, the Forsaken military commander stationed at Tarren Mill, issues the mission. She serves under the direct command of the dreadlord Varimathras and Lady Sylvanas Windrunner."
+  },
+  {
+   "q": "What is the Royal Apothecary Society's role in this campaign?",
+   "aliases": [
+    "why the new plague",
+    "apothecaries hillsbrad",
+    "forsaken plague plan"
+   ],
+   "answer": "Darthalia notes that conventional warfare against the humans is meant to quell the living population and buy time while Forsaken apothecaries develop a new plague designed to eliminate their enemies entirely."
+  },
+  {
+   "q": "Where are Farmer Ray and Farmer Getz located?",
+   "aliases": [
+    "find farmer ray",
+    "find farmer getz",
+    "ray and getz location"
+   ],
+   "answer": "Both landowners oversee the northern section of the Hillsbrad Fields. Farmer Ray is typically found near the large farmhouse or working in the garden just east of it, while Farmer Getz frequents the barn, the secondary house, or the surrounding tilled plots."
+  },
+  {
+   "q": "What happens after completing this raid?",
+   "aliases": [
+    "battle of hillsbrad follow up",
+    "what comes next",
+    "chain progression"
+   ],
+   "answer": "Returning victorious to Darthalia advances the assault onto the southern fields and the town of Hillsbrad itself, while also opening side operations like collecting grim trophies in Souvenirs of Death."
+  },
+  {
+   "q": "Why does Darthalia threaten her soldiers?",
+   "aliases": [
+    "darthalia dialogue",
+    "darthalia beheading threat"
+   ],
+   "answer": "High Executor Darthalia demands absolute discipline and ruthlessness. She views any hesitation or levity regarding the war with the Alliance as treason punishable by immediate execution on the spot."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, reclaiming Lordaeron means wiping away every surviving pocket of the living who treat their homeland as stolen ground."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While Thrall preaches honor, the northern campaign run out of Tarren Mill reveals the uncompromising brutality of Sylvanas's war against the Alliance."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The slaughter of the northern homesteaders demonstrates the terrifying reality facing the remaining human enclaves in Lordaeron."
+  }
+ ],
+ "keywords": [
+  "battle of hillsbrad",
+  "darthalia",
+  "farmer getz",
+  "farmer ray",
+  "hillsbrad fields",
+  "new plague",
+  "tarren mill",
+  "varimathras"
+ ],
+ "related": [
+  "npc:high-executor-darthalia",
+  "subzone:hillsbrad-fields",
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "npc:varimathras",
+  "quest:546",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Battle of Hillsbrad (quest)"
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "key": "quest:1820",
+ "type": "quest",
+ "name": "Speak with Coleman",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   1820
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Deathguard Dillinger",
+  "end": "Coleman Farthing",
+  "previous": "Ulag the Cleaver (quest)",
+  "next": "Agamand Heirlooms",
+  "wiki": "Speak with Coleman",
+  "chain": []
+ },
+ "summary": "Speak with Coleman is a transitional task in Tirisfal Glades offered to champions who have proven their worth against the Scourge. Deathguard Dillinger directs capable warriors from the town square to the local tavern to assist Coleman Farthing with personal and factional vendettas.",
+ "sections": [
+  {
+   "title": "A Word from the Guard",
+   "body": "After assisting in the containment of severe local threats\u2014such as laying to rest dangerous Scourge remnants like Ulag the Cleaver\u2014adventurers earn the personal trust of Deathguard Dillinger. As one of the sentinels watching the roads into Brill, Dillinger judges who is capable of handling more than routine perimeter patrols and points capable fighters toward citizens in need of specialized service.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Private Vendetta",
+   "body": "Not every conflict in Tirisfal Glades is fought on high command orders from the Undercity. Across the ruined kingdom of Lordaeron, surviving undead carry deep grudges tied to the lands, families, and fortunes they left behind. Coleman Farthing bides his time within the Gallow's End Tavern, seeking an instrument of vengeance to strike back at the threats lingering near former settlements like the Agamand Mills.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Coleman Farthing?",
+   "aliases": [
+    "coleman farthing location",
+    "where is coleman farthing",
+    "find farthing brill"
+   ],
+   "answer": "Coleman Farthing waits inside the Gallow's End Tavern, located on the eastern side of the town of Brill in Tirisfal Glades."
+  },
+  {
+   "q": "Who sends you to talk to Coleman?",
+   "aliases": [
+    "who gives speak with coleman",
+    "dillinger quest"
+   ],
+   "answer": "Deathguard Dillinger, who guards the entrance path into Brill, sends you to speak with Coleman after you prove your martial prowess."
+  },
+  {
+   "q": "What kind of work does Coleman Farthing have?",
+   "aliases": [
+    "what does coleman want",
+    "coleman farthing task"
+   ],
+   "answer": "Coleman seeks a capable combatant to serve as an instrument of revenge against the enemies of the Forsaken, specifically concerning matters around the old Agamand properties."
+  },
+  {
+   "q": "What prerequisites are needed before receiving this task?",
+   "aliases": [
+    "prereqs for speak with coleman",
+    "ulag requirement"
+   ],
+   "answer": "Deathguard Dillinger only refers you to Coleman once you have proven your loyalty and combat skill to the Forsaken by defeating Ulag the Cleaver."
+  },
+  {
+   "q": "Does this mission grant substantial rewards directly?",
+   "aliases": [
+    "speak with coleman rewards",
+    "is it worth doing"
+   ],
+   "answer": "This assignment simply connects you with Farthing in the tavern, opening up his personal line of requests rather than providing substantial gear or coin on its own."
+  },
+  {
+   "q": "What is the Gallow's End Tavern?",
+   "aliases": [
+    "brill tavern",
+    "gallows end tavern"
+   ],
+   "answer": "The Gallow's End Tavern is the central inn of Brill, serving as a gathering spot, resting point, and informal center for private contracts among the local undead."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Many Forsaken hold personal grudges alongside their loyalty to the Dark Lady; Coleman Farthing's requests reflect how personal loss and national defense intertwine in Tirisfal."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For travelers helping secure Lordaeron, connecting with local townsfolk in Brill provides vital footing for operations throughout Tirisfal Glades."
+  }
+ ],
+ "keywords": [
+  "agamand",
+  "brill",
+  "coleman farthing",
+  "deathguard dillinger",
+  "forsaken",
+  "gallow's end tavern",
+  "horde",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:deathguard-dillinger",
+  "npc:coleman-farthing",
+  "quest:1821",
+  "subzone:brill",
+  "zone:tirisfal",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Speak with Coleman"
+ ]
+}

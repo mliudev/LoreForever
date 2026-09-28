@@ -1,0 +1,128 @@
+{
+ "key": "quest:2928",
+ "type": "quest",
+ "name": "Gyrodrillmatic Excavationators",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "ids": [
+   2928
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Shoni the Shilent",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Gyrodrillmatic Excavationators",
+  "chain": []
+ },
+ "summary": "Deep in the Dwarven District of Stormwind, Shoni the Shilent is preparing a fleet of massive tunneling machines intended for transit to Dun Morogh. Stalled by a shortage of mechanical parts, she dispatches adventurers into the irradiated ruins of Gnomeregan to harvest intact gears and innards from rogue automatons.",
+ "sections": [
+  {
+   "title": "A Fleet in Need of Guts",
+   "body": "In Stormwind's Dwarven District, gnomish engineers work tirelessly to support their displaced kin. Among them is Shoni the Shilent, who oversees an ambitious subterranean venture: a fleet of gyrodrillmatic excavationators destined for Dun Morogh. The project faces a critical bottleneck, as she lacks the necessary components to get the massive digging rigs operational.",
+   "spoiler": 0
+  },
+  {
+   "title": "Salvage in the Fallen City",
+   "body": "Rather than forge new parts from scratch, Shoni looks directly to the source of gnomish high technology: the lost city of Gnomeregan. The ruins and surrounding tunnels crawl with malfunctioning defense bots, mechanical sentries, and clockwork laborers roaming unchecked. Venturers are sent to pry apart these rogue machines and haul two dozen bundles of robo-mechanical guts back to human lands.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Monumental Undertaking",
+   "body": "Bringing back two dozen mechanical guts provides enough scrap to patch together exactly one excavationator. With nearly four hundred machines remaining in her fleet, Shoni's dream of mass subterranean transport remains a monumental, agonizingly slow endeavor. Even so, every functioning machine represents a small step toward regaining ground lost in the cataclysm of Gnomeregan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a gyrodrillmatic excavationator?",
+   "aliases": [
+    "gyrodrillmatic excavationators",
+    "what is excavationator",
+    "gnome drill"
+   ],
+   "answer": "They are heavy gnomish tunneling rigs or mole machines designed for subterranean excavation and transport. Shoni the Shilent is attempting to assemble an entire fleet of them to move people or supplies to Dun Morogh."
+  },
+  {
+   "q": "Who is Shoni the Shilent?",
+   "aliases": [
+    "shoni the shilent",
+    "shoni",
+    "who is shoni"
+   ],
+   "answer": "Shoni is a gnomish engineer stationed in the Dwarven District of Stormwind. Despite her moniker, she is an outspoken and demanding overseer bent on repairing hundreds of mechanical diggers."
+  },
+  {
+   "q": "Why does Shoni need parts from Gnomeregan specifically?",
+   "aliases": [
+    "why gnomeregan parts",
+    "why robot guts",
+    "gnomeregan salvage"
+   ],
+   "answer": "Gnomeregan is overrun with hundreds of haywire automatons, clockwork servitors, and defensive mechs. Because standard manufacturing supply lines were severed when the city fell, these rogue bots are the richest available source of compatible gnomish spare parts."
+  },
+  {
+   "q": "Where are the Robo-Mechanical Guts found?",
+   "aliases": [
+    "robo-mechanical guts",
+    "where to get guts",
+    "mechanical guts gnomeregan"
+   ],
+   "answer": "The salvageable guts can be scavenged from the mechanical sentries, clockwork constructs, and other hostiles wandering the corridors of Gnomeregan, both within the ruined facility and along its upper tunnel approaches."
+  },
+  {
+   "q": "Does fixing one machine finish Shoni's fleet?",
+   "aliases": [
+    "how many excavationators",
+    "shoni fleet size",
+    "how many drills"
+   ],
+   "answer": "No. Two dozen mechanical guts are only enough to repair a single drill. Upon turning them in, Shoni notes that she still has 398 excavationators left to go."
+  },
+  {
+   "q": "Why is an excavation fleet being prepared for Dun Morogh?",
+   "aliases": [
+    "fleet to dun morogh",
+    "why dun morogh",
+    "excavators purpose"
+   ],
+   "answer": "Dun Morogh is the gnomes' ancestral home and the location of their fallen capital. Preparing heavy tunneling rigs offers a means to dig, clear debris, and support operations in the snow-covered mountain reaches."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Every salvaged component brings Shoni's subterranean fleet closer to viability, keeping the dream of reclamation and industrial recovery alive from within Stormwind."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Stripping high-precision clockwork innards from fallen Gnomeregan servitors offers a practical lesson in advanced gnomish design and heavy machinery repair."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Supporting gnomish excavation logistics out of Stormwind strengthens the ties between human hosts and the exiled survivors working to reclaim their heritage."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "dwarven district",
+  "excavationators",
+  "gnomeregan",
+  "gnomish engineering",
+  "gyrodrillmatic",
+  "robo-mechanical guts",
+  "shoni the shilent"
+ ],
+ "related": [
+  "npc:shoni-the-shilent",
+  "zone:gnomeregan",
+  "zone:dunmorogh",
+  "topic:gnome",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Gyrodrillmatic Excavationators"
+ ]
+}

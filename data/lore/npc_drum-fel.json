@@ -1,0 +1,102 @@
+{
+ "key": "npc:drum-fel",
+ "type": "npc",
+ "name": "Drum Fel",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Drum Fel",
+  "refs": 1
+ },
+ "summary": "Drum Fel is an orc commander stationed at the Horde outpost of Hammerfall in the Arathi Highlands. Alongside his wife, Korin, he directs military efforts to secure the refuge against encroaching trolls, ogres, and human remnants. His strategic push is vital to carving out a lasting foothold for the Horde in Arathi.",
+ "sections": [
+  {
+   "title": "Warden of Hammerfall",
+   "body": "Situated within the fortified refuge of Hammerfall, Drum Fel oversees the defense and territorial expansion of the Horde in Arathi. Surrounded by rival factions, he coordinates military strikes against the Witherbark forest trolls and the Boulderfist ogre clan holding Boulder'gor and Boulderfist Hall. Drum recognizes that Hammerfall cannot merely survive through isolation; it must break its neighbors' strength to thrive. To that end, he regularly directs veteran champions into hostile territory to disrupt regional threats before they can mount an assault on the Horde encampment.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat in Stromgarde",
+   "body": "Drum Fel's campaign extends into the ruins of Stromgarde Keep, where Boulderfist ogres have entrenched themselves amidst the fallen human kingdom. Years ago, Drum defeated the ogre brute Or'Kalar, earning an enduring grudge. Unknown to Drum, Or'Kalar waits within Stromgarde seeking vengeance. To protect her husband from falling into an ambush fueled by this rivalry, his wife Korin quietly takes measures to obscure Or'Kalar's presence, relying on outside adventurers to eliminate the threat before Drum charges in himself.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Drum Fel?",
+   "aliases": [
+    "drum fel",
+    "who is drum fel",
+    "hammerfall drum"
+   ],
+   "answer": "Drum Fel is an orc leader located in Hammerfall in the Arathi Highlands. He coordinates the stronghold's military campaigns against rival factions in the region."
+  },
+  {
+   "q": "Where can Drum Fel be found?",
+   "aliases": [
+    "drum fel location",
+    "where is drum fel",
+    "find drum fel"
+   ],
+   "answer": "He is located inside the Horde settlement of Hammerfall, situated in northeastern Arathi Highlands just east of the main road heading north into the Hinterlands."
+  },
+  {
+   "q": "Who is Korin Fel?",
+   "aliases": [
+    "korin fel",
+    "drum fel wife"
+   ],
+   "answer": "Korin Fel is Drum's wife. She also resides in Hammerfall and quietly works to shield him from dangerous personal vendettas, including a trap laid by an ogre adversary."
+  },
+  {
+   "q": "Why does the ogre Or'Kalar want Drum Fel dead?",
+   "aliases": [
+    "orkalar grudge",
+    "why does orkalar hate drum fel",
+    "or'kalar drum fel"
+   ],
+   "answer": "Years ago, Drum Fel defeated Or'Kalar in battle. Deeply humiliated, the ogre now lurks within the ruins of Stromgarde Keep, plotting vengeance against the orc commander."
+  },
+  {
+   "q": "What threats does Drum Fel target?",
+   "aliases": [
+    "drum fel quests",
+    "drum fel enemies",
+    "who does drum fel fight"
+   ],
+   "answer": "Drum Fel directs strikes against the Boulderfist ogres at Boulder'gor, Boulderfist Hall, and Stromgarde Keep, as well as the Witherbark troll tribe nearby."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For Horde warriors advancing through the Eastern Kingdoms, Drum Fel serves as a primary military coordinator securing the fragile lifeline between the Undercity and southern territories."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Drum Fel embodies the practical military grit required to rebuild orcish lives in the Eastern Kingdoms, holding fast in the very land where the internment camps once stood."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "boulderfist",
+  "drum fel",
+  "hammerfall",
+  "korin fel",
+  "orkalar",
+  "witherbark"
+ ],
+ "related": [
+  "subzone:hammerfall",
+  "zone:arathi",
+  "npc:tallow",
+  "subzone:stromgarde-keep",
+  "subzone:boulder-gor",
+  "subzone:boulderfist-hall",
+  "quest:676",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Drum Fel"
+ ]
+}

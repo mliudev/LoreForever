@@ -1,0 +1,117 @@
+{
+ "key": "quest:92481",
+ "type": "quest",
+ "name": "A Student of the Arcane",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92481
+  ],
+  "level": "2",
+  "faction": "Alliance",
+  "start": "Rorian the Dayseeker",
+  "end": "Dorii Brightwhisper",
+  "previous": "Harmony in Balance",
+  "next": null,
+  "wiki": "A Student of the Arcane",
+  "chain": []
+ },
+ "summary": "A Student of the Arcane is an introductory trial and summons for novice spellcasters on Zephras Isle. Initiated by Rorian the Dayseeker after newcomers prove their basic mettle, it directs budding mages to review a Glowing Recall Crystal and report to the local mentor, Dorii Brightwhisper.",
+ "sections": [
+  {
+   "title": "A Message in Crystal",
+   "body": "After helping manage the troublesome vuldren lurking near Thendal Grove, fledgling mages are entrusted with a curious artifact: a Glowing Recall Crystal. Left behind by Dorii Brightwhisper, the island's resident arcane instructor, the crystal serves as a magically recorded missive designed to test an initiate's aptitude and welcome them into deeper mystical study.",
+   "spoiler": 0
+  },
+  {
+   "title": "Rediscovering the Arcane",
+   "body": "According to Dorii Brightwhisper, mastery of the arcane has slowly dwindled among their people during their long millennia spent secluded high in the clouds. Dorii views each new practitioner not merely as a student, but as an essential pioneer meant to recover lost knowledge and restore their people's once-mighty magical heritage.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Glowing Recall Crystal?",
+   "aliases": [
+    "recall crystal",
+    "crystal message",
+    "what does the crystal do"
+   ],
+   "answer": "The Glowing Recall Crystal is a small magical focus entrusted to Rorian the Dayseeker by Dorii Brightwhisper. It holds an inscribed message intended to introduce young apprentices to the fundamentals of arcane communication."
+  },
+  {
+   "q": "Who is Dorii Brightwhisper?",
+   "aliases": [
+    "who is dorii",
+    "mage trainer zephras",
+    "dorii location"
+   ],
+   "answer": "Dorii Brightwhisper is the resident mage trainer situated in the structure behind Rorian the Dayseeker in Thendal Grove on Zephras Isle. Dorii guides young mages who seek to reclaim their people's ancient arcane traditions."
+  },
+  {
+   "q": "Why has arcane magic waned among the people of Zephras?",
+   "aliases": [
+    "why did magic fade",
+    "skyborne arcane lore",
+    "lost arcane magic"
+   ],
+   "answer": "As Dorii explains, the arcane arts gradually fell into decline over the thousands of years their people lived secluded up in the clouds. Consequently, instructors like Dorii are eager to train new novices to search for and recover what was lost."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "who starts a student of the arcane",
+    "rorian quest"
+   ],
+   "answer": "Rorian the Dayseeker offers this quest in Thendal Grove on Zephras Isle once an aspiring mage has completed the preliminary task 'Harmony in Balance'."
+  },
+  {
+   "q": "Where can I find Dorii Brightwhisper?",
+   "aliases": [
+    "dorii brightwhisper location",
+    "where is the mage trainer",
+    "find dorii"
+   ],
+   "answer": "Dorii Brightwhisper resides in the structure directly behind Rorian the Dayseeker within Thendal Grove."
+  },
+  {
+   "q": "What prerequisite must be completed before starting this quest?",
+   "aliases": [
+    "prereq",
+    "prerequisites",
+    "what quest comes before"
+   ],
+   "answer": "You must first complete 'Harmony in Balance', which involves handling the local vuldren problem for Rorian the Dayseeker."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "This task marks the formal commencement of a mage's formal tutelage under Dorii Brightwhisper, framing your magical journey as an effort to restore long-lost cloudborne arcane secrets."
+  },
+  {
+   "target": "race:Skyborne",
+   "text": "Dorii highlights that millennia of isolation among the clouds caused arcane traditions to wane, making young apprentices central to revitalizing their cultural heritage."
+  }
+ ],
+ "keywords": [
+  "dorii brightwhisper",
+  "glowing recall crystal",
+  "mage quest",
+  "rorian the dayseeker",
+  "student of the arcane",
+  "thendal grove",
+  "vuldren",
+  "zephras isle"
+ ],
+ "related": [
+  "quest:92461",
+  "npc:rorian-the-dayseeker",
+  "zone:zephras"
+ ],
+ "attribution": [
+  "A Student of the Arcane"
+ ]
+}

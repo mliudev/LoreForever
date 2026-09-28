@@ -1,0 +1,71 @@
+{
+ "key": "npc:rhinag",
+ "type": "npc",
+ "name": "Rhinag",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Rhinag",
+  "refs": 1
+ },
+ "summary": "Rhinag is an afflicted jungle troll seeking shelter within a modest homestead at Rocktusk Farm in Durotar. Paralyzed by the harsh venom of the region's scorpions, he relies entirely on passing travelers to secure him a timely remedy.",
+ "sections": [
+  {
+   "title": "A Venomous Peril",
+   "body": "While traversing the arid terrain of Durotar, Rhinag fell victim to the vicious sting of a local Venomtail Scorpid. Overwhelmed by the potent poison, he managed to drag himself into the dilapidated shelter at Rocktusk Farm. Incapacitated and isolated, his survival hinges on anyone who happens by with the resolve to procure a venomtail antidote before the toxins take their final toll.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rhinag?",
+   "aliases": [
+    "who is rhinag",
+    "rhinag lore",
+    "troll at rocktusk"
+   ],
+   "answer": "Rhinag is a jungle troll traveler who found himself stranded and paralyzed at Durotar's Rocktusk Farm after suffering a venomous sting from a native scorpion."
+  },
+  {
+   "q": "Where can Rhinag be found?",
+   "aliases": [
+    "rhinag location",
+    "where is rhinag",
+    "rocktusk farm troll"
+   ],
+   "answer": "He is resting inside the small building at Rocktusk Farm, situated in central Durotar south of Razor Hill."
+  },
+  {
+   "q": "What happened to him?",
+   "aliases": [
+    "why is rhinag sick",
+    "what poisoned rhinag",
+    "need for a cure backstory"
+   ],
+   "answer": "While traversing the plains of Durotar, Rhinag was stung by a dangerous Venomtail Scorpid. The virulent toxin left him incapacitated, requiring an antidote to neutralize the poison before it proves fatal."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "Finding a kinsman struck down by native wildlife in the arid wastes of Durotar is a stark reminder of the trials the Darkspear tribe faces in carving out a home alongside the Horde."
+  }
+ ],
+ "keywords": [
+  "antidote",
+  "durotar",
+  "need for a cure",
+  "rhinag",
+  "rocktusk farm",
+  "venomtail scorpid"
+ ],
+ "related": [
+  "quest:812",
+  "subzone:rocktusk-farm",
+  "zone:durotar",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Rhinag"
+ ]
+}

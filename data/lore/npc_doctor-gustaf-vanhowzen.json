@@ -1,0 +1,85 @@
+{
+ "key": "npc:doctor-gustaf-vanhowzen",
+ "type": "npc",
+ "name": "Doctor Gustaf VanHowzen",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Doctor Gustaf VanHowzen",
+  "refs": 1
+ },
+ "summary": "Doctor Gustaf VanHowzen serves as the trauma surgeon and chief physician of Alliance Trauma in Theramore Isle. Stationed within Foothold Citadel, he trains the island's healers and evaluates medics who wish to master the highest tiers of field triage and bandage work.",
+ "sections": [
+  {
+   "title": "Chief Physician of Theramore",
+   "body": "Located on the ground floor of Foothold Citadel in Theramore Isle, Doctor Gustaf VanHowzen oversees the medical care of Lady Jaina Proudmoore's forces and trains the outpost's frontline healers. Facing harsh conditions in Dustwallow Marsh, VanHowzen insists on rigorous field competence, personally putting experienced medics through an intense triage test to ensure they can prioritize critical wounds under severe pressure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Doctor Gustaf VanHowzen be found?",
+   "aliases": [
+    "vanhowzen location",
+    "where is gustaf vanhowzen",
+    "gustaf vanhowzen spot"
+   ],
+   "answer": "Doctor VanHowzen is stationed on the ground floor of Foothold Citadel, the main fortress situated on Theramore Isle in Dustwallow Marsh."
+  },
+  {
+   "q": "What role does VanHowzen serve for the Alliance?",
+   "aliases": [
+    "what does vanhowzen do",
+    "vanhowzen role",
+    "who is doctor vanhowzen"
+   ],
+   "answer": "He is the chief physician of Alliance Trauma and the leading trauma surgeon in Theramore. In addition to overseeing the garrison's medical ward, he serves as an Artisan First Aid trainer for seasoned Alliance field medics."
+  },
+  {
+   "q": "What does Doctor VanHowzen teach players?",
+   "aliases": [
+    "what can i learn from vanhowzen",
+    "vanhowzen training",
+    "first aid from vanhowzen"
+   ],
+   "answer": "He offers the Artisan First Aid triage assessment, allowing skilled medics to raise their skill cap, and instructs qualified practitioners in crafting advanced bandages such as Heavy Mageweave and Runecloth bandages."
+  },
+  {
+   "q": "Does the Horde have a counterpart to Doctor VanHowzen?",
+   "aliases": [
+    "horde triage trainer",
+    "horde vanhowzen counterpart",
+    "who is horde first aid master"
+   ],
+   "answer": "Yes. The Horde's equivalent trauma specialist is Doctor Gregory Victor, who trains field medics and conducts triage examinations at Hammerfall in the Arathi Highlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Every Alliance medic aspiring to master field surgery must travel to Theramore and prove their triage skills under Doctor VanHowzen's watchful eye."
+  }
+ ],
+ "keywords": [
+  "alliance trauma",
+  "artisan first aid",
+  "first aid",
+  "foothold citadel",
+  "gustaf vanhowzen",
+  "theramore",
+  "triage",
+  "vanhowzen"
+ ],
+ "related": [
+  "subzone:foothold-citadel",
+  "subzone:theramore-isle",
+  "zone:dustwallow",
+  "quest:6625",
+  "npc:doctor-gregory-victor",
+  "npc:jaina-proudmoore",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Doctor Gustaf VanHowzen"
+ ]
+}

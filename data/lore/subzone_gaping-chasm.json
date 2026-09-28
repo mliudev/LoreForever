@@ -1,0 +1,88 @@
+{
+ "key": "subzone:gaping-chasm",
+ "type": "subzone",
+ "name": "Gaping Chasm",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Gaping Chasm"
+ },
+ "summary": "The Gaping Chasm is a sprawling silithid hive carved deep into the sands of southeastern Tanaris. Infested by aggressive insectoid horrors of the Hazzali brood, it serves as a grim warning of the growing silithid menace spreading beyond the western deserts.",
+ "sections": [
+  {
+   "title": "The Hive in the Dunes",
+   "body": "Breaking the rolling expanses of Tanaris, the Gaping Chasm plunges down into a teeming subterranean warren of tunnels, resinous mounds, and twitching carapaces. This hive belongs to the Hazzali, an aggressive brood of silithid that have burrowed beneath the desert wastes. Between subterranean stingers, swarmers, and hulking sandreavers, any travelers or treasure-hunters foolish enough to descend into the chasm quickly find themselves hunted as prey or preserved in sticky cocoons.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Surveyor's Grave",
+   "body": "The expanding hive caught the attention of Gadgetzan's enterprising minds, prompting Senior Surveyor Fizzledowser to dispatch his junior surveyor, Scrimshank, into the pit to map and measure the geological shifts caused by the insect tunnels. Unsurprisingly, the expedition ended in disaster. Scrimshank met a grim end amidst the chittering broods, leaving behind scattered gear and measuring instruments that caution anyone against underestimating the silithid threat.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures dwell inside the Gaping Chasm?",
+   "aliases": [
+    "what lives in gaping chasm",
+    "bugs in tanaris chasm",
+    "gaping chasm mobs"
+   ],
+   "answer": "The chasm is infested entirely by the Hazzali silithid. The hive includes numerous castes of the insectoid species, such as worker drones, winged stingers, overwhelming swarms, and massive, chitin-plated sandreavers."
+  },
+  {
+   "q": "Where is the Gaping Chasm located?",
+   "aliases": [
+    "where is gaping chasm",
+    "gaping chasm location",
+    "how to find gaping chasm"
+   ],
+   "answer": "The chasm lies in southeastern Tanaris, carved out of the desert sands south of Gadgetzan and east of the mountainous ridge dividing Tanaris from the western wilderness."
+  },
+  {
+   "q": "Why was a gnome surveyor sent into the chasm?",
+   "aliases": [
+    "who was scrimshank",
+    "fizzledowser surveyor quest",
+    "why did scrimshank go there"
+   ],
+   "answer": "Senior Surveyor Fizzledowser in Gadgetzan sent Junior Surveyor Scrimshank to survey the cavern and assess its geological activity. Unfortunately, Scrimshank was overwhelmed and killed by the Hazzali silithid before he could complete his assignment."
+  },
+  {
+   "q": "Are the silithid here related to the ones in other parts of Kalimdor?",
+   "aliases": [
+    "are these silithid connected to silithus",
+    "why are bugs in tanaris"
+   ],
+   "answer": "Yes. The Hazzali silithid in Tanaris share the same insectoid nature and hive-mind structure as broods found in the southern barrens and the blighted wastes of Silithus to the west, signaling a dangerous, coordinated expansion across southern Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "The unfortunate demise of Junior Surveyor Scrimshank inside the chasm serves as a sobering reminder that field research in Kalimdor demands serious firepower alongside scientific curiosity."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The exposed subterranean clefts and sunken earth of the silithid hive occasionally reveal rich mineral deposits, though digging them out requires fending off dozens of vicious burrowing insects."
+  }
+ ],
+ "keywords": [
+  "fizzledowser",
+  "gaping chasm",
+  "hazzali",
+  "hive",
+  "sandreaver",
+  "scrimshank",
+  "silithid",
+  "tanaris"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:gadgetzan",
+  "npc:senior-surveyor-fizzledowser"
+ ],
+ "attribution": [
+  "Gaping Chasm"
+ ]
+}

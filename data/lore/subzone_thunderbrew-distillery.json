@@ -1,0 +1,88 @@
+{
+ "key": "subzone:thunderbrew-distillery",
+ "type": "subzone",
+ "name": "Thunderbrew Distillery",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Thunderbrew Distillery"
+ },
+ "summary": "Thunderbrew Distillery serves as the bustling tavern and central gathering place of Kharanos in Dun Morogh. Renowned far and wide for its potent ales, it functions as both an active brewhouse and an essential rest stop for travelers passing through the snowy mountain passes. Inside, patrons find warm hearths, cold pints, and a wide array of class mentors and local tradesfolk.",
+ "sections": [
+  {
+   "title": "The Warm Hearth of Kharanos",
+   "body": "Perched in the center of Kharanos, the Thunderbrew Distillery is the heart of civic life in southern Dun Morogh. Founded by the Thunderbrew clan\u2014established by Arkilus Thunderbrew and maintained by his kin\u2014the brewhouse is famous across Khaz Modan for producing robust, warming ales built to ward off the biting mountain chill. It operates as the local inn, managed on the floor by Innkeeper Belm, offering weary mountaineers a roaring fire, hearty fare, and beds to escape the blizzards outside.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Crossroads of Knowledge and Craft",
+   "body": "Beyond pouring renowned stouts, the distillery doubles as a vital hub for developing adventurers. Because Kharanos is the first major settlement travelers reach after departing Coldridge Valley, the Thunderbrew tavern plays host to diverse trainers. Mentors in martial arts, holy rites, arcane studies, and roguecraft congregate under its sturdy timber rafters alongside instructors in cooking and emergency medical aid, turning a boisterous drinking hall into an indispensable preparation post.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owns and operates the Thunderbrew Distillery?",
+   "aliases": [
+    "distillery owner",
+    "who runs thunderbrew",
+    "thunderbrew family"
+   ],
+   "answer": "The establishment belongs to the Thunderbrew family, founded by Arkilus Thunderbrew. His son Ragnar Thunderbrew actively looks after the family brewing traditions, while Innkeeper Belm handles hospitality and rooms for travelers resting in Kharanos."
+  },
+  {
+   "q": "What services are available inside the distillery?",
+   "aliases": [
+    "what is in thunderbrew distillery",
+    "distillery trainers",
+    "kharanos inn services"
+   ],
+   "answer": "The distillery serves as the primary inn of Kharanos. Inside, travelers can bind their hearthstones with Innkeeper Belm, purchase drinks and supplies from vendors, and seek instruction from trainers for warriors, paladins, priests, mages, rogues, cooking, and first aid."
+  },
+  {
+   "q": "Why is the distillery so famous?",
+   "aliases": [
+    "why is thunderbrew ale famous",
+    "thunderbrew ale reputation"
+   ],
+   "answer": "The distillery is celebrated throughout the Eastern Kingdoms for crafting exceptionally potent dwarven ales, particularly Thunderbrew Ale. Its brews are known to fortify travelers against the harsh freezing temperatures of the Dun Morogh peaks."
+  },
+  {
+   "q": "Did Chen Stormstout really visit the distillery?",
+   "aliases": [
+    "chen stormstout kharanos",
+    "pandaren thunderbrew"
+   ],
+   "answer": "Yes, dwarven accounts recall the wandering pandaren brewmaster Chen Stormstout visiting the distillery in Kharanos years ago, crossing paths with the Thunderbrew family during his travels across the continent."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves leaving Coldridge Valley, the distillery is a beloved homecoming, providing familiar stout, a seat near a blazing hearth, and trusted mentors in iron and faith."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "The kitchen inside the distillery offers culinary training and supplies, making it a key stop for cooks looking to learn how to prepare hearty mountain provisions."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "dwarven ale",
+  "innkeeper belm",
+  "kharanos",
+  "ragnar thunderbrew",
+  "thunderbrew distillery"
+ ],
+ "related": [
+  "subzone:kharanos",
+  "npc:ragnar-thunderbrew",
+  "npc:grimbooze-thunderbrew",
+  "zone:dunmorogh",
+  "npc:marleth-barleybrew",
+  "quest:117"
+ ],
+ "attribution": [
+  "Thunderbrew Distillery"
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "key": "quest:783",
+ "type": "quest",
+ "name": "A Threat Within",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   783
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "",
+  "end": "",
+  "previous": null,
+  "next": "Kobold Camp Cleanup, Eagan Peltskinner (quest), Brotherhood of Thieves",
+  "wiki": "A Threat Within",
+  "chain": [
+   "A Threat Within"
+  ]
+ },
+ "summary": "A Threat Within marks the beginning of service for defenders answering Stormwind's call in Northshire Valley. Directed into Northshire Abbey to meet Marshal McBride, fresh volunteers discover that the kingdom's military is spread thin abroad, leaving local garrisons unable to handle domestic troubles without civilian aid.",
+ "sections": [
+  {
+   "title": "A Kingdom Stretched Thin",
+   "body": "Northshire Valley was once a quiet retreat dedicated to prayer, farming, and monastic study. Today, it stands as the first line of defense against domestic unrest in Elwynn Forest. Stormwind's regular military forces have been widely deployed across distant fronts, leaving the capital's heartlands dangerously understaffed. With few official soldiers stationed locally, the Stormwind Guard must recruit any willing volunteer who arrives at the abbey gates.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Marshal's Call",
+   "body": "Inside Northshire Abbey, Marshal McBride coordinates the valley's defenses amidst growing regional pressures. While foreign perils threaten the Alliance from afar, lawless bandits, infesting vermin, and subterranean pests exploit the power vacuum right on the kingdom's doorstep. Answering this summons draws recruits into immediate martial service, beginning with clearing the abbey's immediate perimeter before confronting the deeper rot taking root across Elwynn.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "threat within quest",
+    "what is this quest",
+    "northshire intro quest"
+   ],
+   "answer": "It serves as the introductory summons for newly arrived recruits in Northshire Valley. You are instructed to walk inside Northshire Abbey and report directly to Marshal McBride to join the local defense effort."
+  },
+  {
+   "q": "Who is Marshal McBride?",
+   "aliases": [
+    "marshal mcbride",
+    "who is mcbride",
+    "abbey commander"
+   ],
+   "answer": "Marshal McBride is the senior officer of the Stormwind Guard stationed at Northshire Abbey. He oversees the valley's defense, coordinating recruits and handing out assignments to curb threats emerging in the immediate countryside."
+  },
+  {
+   "q": "Why is Stormwind recruiting volunteers instead of sending regular soldiers?",
+   "aliases": [
+    "why volunteers",
+    "where are the guards",
+    "why is stormwind understaffed"
+   ],
+   "answer": "Stormwind's standing armies have been deployed abroad on distant campaigns to protect Alliance interests. This heavy commitment overseas leaves heartland garrisons critically understaffed, forcing local commanders to rely on newly arrived adventurers and volunteers to defend their own homes."
+  },
+  {
+   "q": "What threats are currently plaguing Northshire Valley?",
+   "aliases": [
+    "valley threats",
+    "what is attacking northshire",
+    "northshire problems"
+   ],
+   "answer": "The valley faces simultaneous pressures: aggressive kobolds infesting the nearby mines and hills, diseased or predatory pests bothering the surrounding vineyards, and organized groups of brigands and outlaws taking advantage of the depleted local garrison."
+  },
+  {
+   "q": "Where does this assignment lead next?",
+   "aliases": [
+    "next quest",
+    "what comes after threat within",
+    "mcbride follow up"
+   ],
+   "answer": "Reporting to Marshal McBride opens several immediate tasks around Northshire, directing recruits to clear kobold incursions in the hills, aid local farmers and workers, and investigate the growing presence of organized bandits."
+  },
+  {
+   "q": "Why is Northshire Abbey being used as a military command post?",
+   "aliases": [
+    "why military in abbey",
+    "northshire church military",
+    "holy abbey soldiers"
+   ],
+   "answer": "Though Northshire Abbey is a holy site of study and faith, its fortified stone walls and central location make it the only practical base of operations in the valley. As local authority strained, the Stormwind Guard set up administrative command directly within its halls."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "As Northshire is the starting valley for human defenders, answering Marshal McBride's summons represents your first official pledge to protect your homeland and the Kingdom of Stormwind."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The quest underscores the strain facing the Grand Alliance: maintaining military commitments across distant territories leaves even the most secure core lands vulnerable to internal collapse."
+  }
+ ],
+ "keywords": [
+  "a threat within",
+  "abbey",
+  "elwynn forest",
+  "marshal mcbride",
+  "northshire",
+  "recruitment",
+  "stormwind guard",
+  "volunteers"
+ ],
+ "related": [
+  "npc:marshal-mcbride",
+  "zone:elwynn",
+  "topic:stormwind-guard",
+  "topic:stormwind-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "A Threat Within"
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "key": "zone:thunderbluff",
+ "type": "city",
+ "name": "Thunder Bluff",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": [
+   "Thunder Bluff"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "Thunder Bluff is the magnificent capital city of the tauren, perched atop windswept red-rock mesas rising above the grasslands of Mulgore. Founded by High Chieftain Cairne Bloodhoof after uniting the nomadic tribes with the aid of the New Horde, it serves as the cultural, spiritual, and mercantile heart of his people. Connected by swaying rope bridges and wooden lifts, the city offers safety from centaur marauders and a peaceful sanctuary for travelers across Kalimdor.",
+ "sections": [
+  {
+   "title": "A Permanent Haven",
+   "body": "For countless generations, the tauren lived as nomadic wanderers across Kalimdor, locked in a brutal struggle for survival against ravenous centaur tribes. That desperate era ended during the Third War when Cairne Bloodhoof joined forces with Warchief Thrall. Together, the orcs and tauren broke the centaur assaults and secured the lush pastures of Mulgore. To protect their future, Cairne led the allied tribes to the safety of these natural stone bastions, founding Thunder Bluff as the first unified, permanent home the tauren had possessed in centuries.",
+   "spoiler": 0
+  },
+  {
+   "title": "A City in the Clouds",
+   "body": "Spanning several high mesas linked by suspended rope bridges, Thunder Bluff seamlessly blends natural architecture with tauren practicality. The central bluffs host the bustling markets, bank, inn, and towering Wind Rider roost, while three specialized mesas branch out across the abyss. Hunter Rise serves the city's scouts and trackers; Elder Rise hosts lorekeepers and the Cenarion Circle under Archdruid Hamuul Runetotem; and Spirit Rise is devoted to spiritual communion, sheltering shamans, priests, and the mysterious subterranean caverns known as the Pools of Vision.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uneasy Unity",
+   "body": "While Cairne Bloodhoof commands immense respect from almost every tribe, governing a recently settled, proud people is not without friction. Notably, the Grimtotem tribe\u2014led by the shrewd and sharp-tongued Elder Crone Magatha Grimtotem\u2014maintains a brooding presence on Elder Rise. Magatha openly questions Cairne's conciliatory methods and allegiance to the foreign races of the Horde. Though peace endures beneath the chieftain's watchful gaze, ideological rifts murmur among the council fires above the plains.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules Thunder Bluff?",
+   "aliases": [
+    "leader of thunder bluff",
+    "who is in charge",
+    "thunder bluff chieftain",
+    "cairne"
+   ],
+   "answer": "High Chieftain Cairne Bloodhoof rules Thunder Bluff and leads the united tauren tribes. Revered for his wisdom, patience, and mighty strength, Cairne founded the city after allying with Thrall's Horde and driving the centaur from Mulgore."
+  },
+  {
+   "q": "How do you get up to Thunder Bluff?",
+   "aliases": [
+    "thunder bluff elevator",
+    "how to get in",
+    "thunder bluff entrance",
+    "getting up"
+   ],
+   "answer": "Visitors arriving on foot or kodo must ride massive wooden platform elevators located on the southwestern and northeastern sides of the central mesa. Alternatively, the city features a Wind Rider roost with flight paths across Kalimdor, as well as a direct zeppelin tower on Spirit Rise connecting to Orgrimmar."
+  },
+  {
+   "q": "Why did the tauren build on high mesas instead of the ground?",
+   "aliases": [
+    "why mesas",
+    "why are they on cliffs",
+    "thunder bluff cliffs",
+    "tauren high ground"
+   ],
+   "answer": "Centuries of nomadic existence were marked by relentless hit-and-run attacks from aggressive centaur clans. The sheer cliffs of Mulgore's bluffs provide natural defense, shielding the tauren's dwellings, smiths, and sacred elders from ground ambushes and allowing them to permanently settle in peace."
+  },
+  {
+   "q": "What are the different rises of the city?",
+   "aliases": [
+    "thunder bluff areas",
+    "what are the rises",
+    "districts of thunder bluff"
+   ],
+   "answer": "The city spans a central mesa (divided into lower, middle, and high tiers) surrounded by three outer mesas. Hunter Rise is dedicated to warriors, hunters, and tracking lodges. Elder Rise is home to druids, wisemen, and the Grimtotem faction. Spirit Rise holds shrines to the Earth Mother, trainers of shamans, priests, and mages, and the cavernous Pools of Vision."
+  },
+  {
+   "q": "What are the Pools of Vision?",
+   "aliases": [
+    "pools of vision",
+    "spirit rise cave",
+    "thunder bluff cave"
+   ],
+   "answer": "The Pools of Vision are sacred underground caverns tucked beneath Spirit Rise. Tauren seers, spiritwalkers, and practitioners of the arcane gather in these quiet, mist-shrouded waters to commune with the elements and interpret omens regarding the future of their people."
+  },
+  {
+   "q": "Who is Magatha Grimtotem?",
+   "aliases": [
+    "magatha",
+    "elder crone",
+    "who is the grimtotem leader"
+   ],
+   "answer": "Magatha Grimtotem is the matriarch and Elder Crone of the formidable Grimtotem clan. While she resides on Elder Rise and outwardly participates in Cairne's council, she is fiercely traditional, distrusting outsiders and quietly challenging the Bloodhoof tribe's soft stance toward the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Thunder Bluff represents the hard-won unity and rebirth of your people after generations of nomadic wandering and centaur harassment under High Chieftain Cairne Bloodhoof."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Elder Rise serves as the Horde's supreme sanctuary of nature magic, headed by Archdruid Hamuul Runetotem, the first tauren druid taught in thousands of years."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Spirit Rise and the subterranean Pools of Vision provide a serene nexus where the elemental spirits and spirits of tauren ancestors are revered and heard."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Far more tranquil and spiritual than the harsh battlements of Orgrimmar, Thunder Bluff serves as the pastoral anchor of the New Horde's southern influence in Kalimdor."
+  }
+ ],
+ "keywords": [
+  "cairne bloodhoof",
+  "elder rise",
+  "elevators",
+  "hamuul runetotem",
+  "hunter rise",
+  "magatha grimtotem",
+  "mulgore",
+  "pools of vision",
+  "spirit rise",
+  "thunder bluff"
+ ],
+ "related": [
+  "npc:cairne-bloodhoof",
+  "zone:mulgore",
+  "npc:magatha-grimtotem",
+  "subzone:pools-of-vision",
+  "subzone:elder-rise",
+  "subzone:hunter-rise",
+  "subzone:spirit-rise"
+ ],
+ "attribution": [
+  "Thunder Bluff"
+ ]
+}

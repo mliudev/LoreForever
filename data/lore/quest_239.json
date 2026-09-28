@@ -1,0 +1,124 @@
+{
+ "key": "quest:239",
+ "type": "quest",
+ "name": "Westbrook Garrison Needs Help!",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   239
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Marshal Dughan",
+  "end": "Deputy Rainer",
+  "previous": "The Jasperlode Mine",
+  "next": "Riverpaw Gnoll Bounty",
+  "wiki": "Westbrook Garrison Needs Help!",
+  "chain": [
+   "Westbrook Garrison Needs Help!",
+   "Riverpaw Gnoll Bounty"
+  ]
+ },
+ "summary": "Marshal Dughan orders available adventurers west to Westbrook Garrison, the outpost guarding Elwynn Forest's border with Westfall. With the Stormwind army stretched thin across the kingdom, Deputy Rainer and his guards find themselves facing mounting pressure from aggressive Riverpaw gnolls and wandering thieves without regular reinforcements.",
+ "sections": [
+  {
+   "title": "A Frontier Stretched Thin",
+   "body": "Westbrook Garrison marks the western edge of Elwynn Forest, situated right where the settled woodlands begin to give way to the troubled plains of Westfall. As gnoll warbands and bandits grow bolder along the waterways and western roads, the outpost's small garrison has pleaded for more men. However, Marshal Dughan and the Goldshire administration have no professional Stormwind soldiers to spare, leaving local commanders with no choice but to hire traveling mercenaries and wandering adventurers.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat Across the Brook",
+   "body": "The primary threat facing Deputy Rainer and his men is the Riverpaw gnoll pack, whose raiding parties harass travelers and nearby homesteads. Operating in the borderlands between Elwynn and Westfall, these gnolls have taken advantage of Stormwind's political and military distraction to press deeper into inhabited territory. Westbrook Garrison stands as the final line of defense keeping them from roaming unchecked into the heart of the forest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why can't Stormwind send regular soldiers to Westbrook Garrison?",
+   "aliases": [
+    "why no stormwind troops",
+    "why send adventurers",
+    "where is stormwind army"
+   ],
+   "answer": "Stormwind's standing military is severely overstretched across multiple frontiers. With King Varian Wrynn missing and the realm contending with internal strife, high command has refused or been unable to deploy regular soldiers to rural outposts, forcing town marshals like Dughan to rely on freelance volunteers."
+  },
+  {
+   "q": "Where is Westbrook Garrison located?",
+   "aliases": [
+    "westbrook garrison location",
+    "how to get to westbrook",
+    "where is deputy rainer"
+   ],
+   "answer": "The garrison sits on the western edge of Elwynn Forest. Follow the main road west out of Goldshire past the small brook; the fortified tower will be on your right just before the border into Westfall."
+  },
+  {
+   "q": "What threats are troubling the garrison?",
+   "aliases": [
+    "what attacks westbrook",
+    "why does rainer need help",
+    "who is attacking westbrook garrison"
+   ],
+   "answer": "Deputy Rainer is dealing with persistent raids by the Riverpaw gnolls, as well as an uptick in thief and bandit activity operating in the border country between Westfall and Elwynn Forest."
+  },
+  {
+   "q": "Who is Deputy Rainer?",
+   "aliases": [
+    "rainer lore",
+    "deputy rainer",
+    "who is rainer"
+   ],
+   "answer": "Deputy Rainer is the Stormwind officer stationed in command of Westbrook Garrison. Tasked with holding the western border, he is forced to look to civilian volunteers and mercenaries due to a severe shortage of official military reinforcements."
+  },
+  {
+   "q": "What happens after reporting to Deputy Rainer?",
+   "aliases": [
+    "what comes next",
+    "westbrook quest chain",
+    "rainer quest"
+   ],
+   "answer": "Deputy Rainer immediately enlists your aid against the local Riverpaw gnolls, placing a bounty on their collars to thin their numbers and protect the border road."
+  },
+  {
+   "q": "Why are the gnolls pushing into Elwynn Forest?",
+   "aliases": [
+    "riverpaw gnolls elwynn",
+    "why are gnolls here",
+    "gnoll problem"
+   ],
+   "answer": "The Riverpaw gnolls have established camps along the rivers separating Elwynn and Westfall. Taking advantage of the reduced military presence along the border, they have grown bold enough to raid trade routes and push toward Elwynn's interior farms."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, this dispatch is an unsettling sign of the kingdom's neglect, showing firsthand how thin the crown's defenses have worn in the wake of the King's disappearance."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance volunteers take up the mantle of regular soldiers here, doing the groundwork necessary to keep core territories from descending into complete chaos."
+  }
+ ],
+ "keywords": [
+  "deputy rainer",
+  "elwynn forest",
+  "gnolls",
+  "goldshire",
+  "marshal dughan",
+  "riverpaw",
+  "westbrook garrison"
+ ],
+ "related": [
+  "subzone:westbrook-garrison",
+  "npc:deputy-rainer",
+  "npc:marshal-dughan",
+  "quest:11",
+  "quest:76",
+  "zone:elwynn",
+  "topic:gnoll",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Westbrook Garrison Needs Help!"
+ ]
+}

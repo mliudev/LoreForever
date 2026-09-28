@@ -1,0 +1,71 @@
+{
+ "key": "subzone:stonewatch-falls",
+ "type": "subzone",
+ "name": "Stonewatch Falls",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Stonewatch Falls"
+ },
+ "summary": "Stonewatch Falls is a scenic waterfall and deep mountain pool situated in the eastern reaches of the Redridge Mountains, fed by the outflow of Lake Everstill. Cascading down the hillside beneath the looming heights of Stonewatch, its isolated waters are claimed by a hostile tribe of murlocs.",
+ "sections": [
+  {
+   "title": "A Perilous Mountain Basin",
+   "body": "Pouring from the eastern river of Lake Everstill, Stonewatch Falls cascades down the rugged terrain beneath the Shadowhide gnoll stronghold of Stonewatch. The plunging water carves out a deep pool tucked against the mountainside. Despite its natural beauty, travelers rarely linger to admire the view; a vicious band of murlocs infests the pool, building crude reed hovels and preying upon any foolish enough to trespass along the water's edge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the water from Stonewatch Falls come from?",
+   "aliases": [
+    "where does stonewatch falls start",
+    "falls water source",
+    "stonewatch river source"
+   ],
+   "answer": "The falls are fed by the river draining out of the eastern side of Lake Everstill, tumbling downhill into a secluded mountain basin beneath the cliffs of Stonewatch."
+  },
+  {
+   "q": "What creatures live around Stonewatch Falls?",
+   "aliases": [
+    "what is at stonewatch falls",
+    "murlocs at stonewatch falls",
+    "mobs near falls"
+   ],
+   "answer": "A local tribe of murlocs occupies the shores of the falls. They subsist on fish drawn from the deep mountain pool and build rough lean-tos and shoreline shelters along the banks."
+  },
+  {
+   "q": "Is Stonewatch Falls connected to Stonewatch Keep?",
+   "aliases": [
+    "falls connection to keep",
+    "is stonewatch keep near the falls",
+    "stonewatch relationship"
+   ],
+   "answer": "The falls sit at the foot of the hillside directly below Stonewatch and its ruined keep. While Shadowhide gnolls command the fortified heights above, the murlocs dominate the water basin below."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The murloc settlement at Stonewatch Falls represents yet another dangerous pocket of monsters harassing travelers in the already beleaguered eastern Redridge countryside."
+  }
+ ],
+ "keywords": [
+  "lake everstill",
+  "murlocs",
+  "redridge",
+  "stonewatch",
+  "stonewatch falls",
+  "waterfall"
+ ],
+ "related": [
+  "zone:redridge",
+  "subzone:lake-everstill",
+  "subzone:stonewatch",
+  "subzone:stonewatch-keep",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Stonewatch Falls"
+ ]
+}

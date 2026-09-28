@@ -1,0 +1,115 @@
+{
+ "key": "npc:kravel-koalbeard",
+ "type": "npc",
+ "name": "Kravel Koalbeard",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Kravel Koalbeard",
+  "refs": 6
+ },
+ "summary": "Kravel Koalbeard is a scheming dwarven entrepreneur and con artist stationed out at the Mirage Raceway in the Shimmering Flats. Rather than cheering purely for the love of the sport, he views the fierce gnome and goblin racing rivalry as a golden opportunity to fill his pockets. From scavenging stray machine parts to fixing race results through blackmail and booze, Kravel is always hunting for his next profitable scheme.",
+ "sections": [
+  {
+   "title": "A Con Artist in the Flats",
+   "body": "While most spectators and crew members at the Mirage Raceway are consumed by mechanical rivalries and the roar of rocket engines, Kravel Koalbeard has his eyes squarely on everyone's coin purses. He is an opportunist who operates in the dusty cracks of the raceway encampment, quick to offer contracts and favors that rarely have clean motives. Kravel sees the high-stakes friction between gnome and goblin engineers not as an inspiring competition, but as a fertile ground for extortion, sabotage, and theft.",
+   "spoiler": 0
+  },
+  {
+   "title": "Rigging the Track",
+   "body": "Kravel's operations stretch far beyond picking up discarded salvage on the salt flats. To manipulate odds and ensure outcomes tip his way, Kravel is known to send willing adventurers on illicit errands\u2014peddling rumors, running blackmail schemes, and even inebriating pit crews right before a showdown. Whether plying goblin mechanics with potent spirits or slipping strong drinks to gnomish pilots, Kravel will stoop to whatever underhanded trick is necessary to line his pockets on race day.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kravel Koalbeard?",
+   "aliases": [
+    "who is kravel",
+    "kravel koalbeard identity",
+    "mirage raceway dwarf"
+   ],
+   "answer": "Kravel Koalbeard is a dwarf schemer and opportunist stationed at the Mirage Raceway in the Shimmering Flats. He uses the rivalry between gnomes and goblins to line his pockets through salvage, race-fixing, and extortion."
+  },
+  {
+   "q": "What does Kravel Koalbeard do at the Mirage Raceway?",
+   "aliases": [
+    "kravel purpose",
+    "what does kravel want",
+    "kravel schemes"
+   ],
+   "answer": "Kravel hires travelers to run underhanded errands around the track. His schemes include collecting scavenged rocket car parts, digging up blackmail material, and sabotaging racing teams by getting their mechanics and pilots drunk to sway race outcomes."
+  },
+  {
+   "q": "Why is Kravel trying to get race crews drunk?",
+   "aliases": [
+    "get the gnomes drunk quest",
+    "get the goblins drunk",
+    "kravel sabotage"
+   ],
+   "answer": "Kravel wagers heavily on the outcome of the rocket car races. By getting either the gnomes or the goblins intoxicated before race time, he rigs the contest to favor whatever outcome makes him the most profit."
+  },
+  {
+   "q": "Where can Kravel Koalbeard be found?",
+   "aliases": [
+    "kravel location",
+    "where is kravel",
+    "kravel thousand needles"
+   ],
+   "answer": "He is located in the Shimmering Flats of Thousand Needles, lingering right around the bustling pit camps of the Mirage Raceway."
+  },
+  {
+   "q": "Does Kravel have ties outside Thousand Needles?",
+   "aliases": [
+    "kravel booty bay",
+    "kravel connections"
+   ],
+   "answer": "Yes. His shady dealings involve contacts in the goblin port of Booty Bay, including dealings tied to Wharfmaster Dizzywig, rumormongers, and exotic brews from Stranglethorn Vale."
+  },
+  {
+   "q": "Will Kravel work with both Alliance and Horde?",
+   "aliases": [
+    "is kravel alliance only",
+    "can horde talk to kravel"
+   ],
+   "answer": "Like many figures operating in neutral venues like the Mirage Raceway, Kravel is interested in gold rather than faction loyalties. He will happily employ both Alliance and Horde adventurers to carry out his schemes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Unlike the honest miners, prospectors, and mountaineers of Ironforge, Kravel is an unabashed rogue and swindler who embarrasses traditional dwarven values."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomes should keep a close eye on their drinks and blueprints around Kravel, who is just as eager to drug gnomish pilots as he is to sabotage their machines."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Rogues will find Kravel's line of work familiar: theft, sabotage, blackmail, and manipulating greedy targets from the shadows."
+  }
+ ],
+ "keywords": [
+  "blackmail",
+  "koalbeard",
+  "kravel",
+  "mirage raceway",
+  "rocket car",
+  "sabotage",
+  "shimmering flats",
+  "thousand needles"
+ ],
+ "related": [
+  "subzone:mirage-raceway",
+  "zone:thousandneedles",
+  "quest:1110",
+  "quest:1492",
+  "subzone:booty-bay",
+  "topic:dwarf",
+  "topic:gnome",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Kravel Koalbeard"
+ ]
+}

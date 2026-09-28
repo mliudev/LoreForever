@@ -1,0 +1,90 @@
+{
+ "key": "npc:doan-karhan",
+ "type": "npc",
+ "name": "Doan Karhan",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Doan Karhan",
+  "refs": 1
+ },
+ "summary": "Doan Karhan is a human scholar and practitioner of the dark arts dwelling isolated in the Southern Barrens. He has dedicated his life to researching the demonic artifacts of the Burning Legion, especially the enigmatic Orb of Soran'ruk.",
+ "sections": [
+  {
+   "title": "The Hermit of the Barrens",
+   "body": "Tucked away in a solitary camp in the wild savannah of the Southern Barrens, Doan Karhan lives far from the civilized bastions of the Alliance. Rather than seeking ordinary solitude, he retreated to the wilderness to study dangerous demonic relics unmolested. Doan holds deep lore concerning powerful fel vessels, possessing the Orb of Zargain and obsessing over the legendary Orb of Soran'ruk. Practicing warlocks often seek him out when delving into artifact crafting and dark rituals.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tragedy and Betrayal",
+   "body": "Doan's reckless pursuit of Legion knowledge carried a terrible cost. He once placed his trust in a companion named Raszel Ander, whom he considered a close friend. Raszel was secretly the dreadlord Des'Altek in disguise, who ruthlessly butchered Doan's acolytes. The slaughter left Doan a haunted recluse, yet his obsession with unlocking the secrets of fel orbs remains undeterred.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Doan Karhan located?",
+   "aliases": [
+    "doan karhan location",
+    "where is doan karhan",
+    "doan karhan southern barrens"
+   ],
+   "answer": "Doan Karhan makes his camp in the Southern Barrens, tucked away east of Camp Taurajo and the main road. He resides alone in a small, easily overlooked clearing."
+  },
+  {
+   "q": "Why is a human living alone in the Barrens?",
+   "aliases": [
+    "why is doan here",
+    "why is there a human in barrens",
+    "doan karhan lore"
+   ],
+   "answer": "Doan Karhan chose exile in the hostile wilderness to pursue research into the Burning Legion's magical relics. Such dark studies into demonic orbs are forbidden or heavily scrutinized in civil Alliance territories."
+  },
+  {
+   "q": "What is the Orb of Soran'ruk?",
+   "aliases": [
+    "soranruk orb",
+    "orb of soran'ruk",
+    "what is orb of soran'ruk"
+   ],
+   "answer": "The Orb of Soran'ruk is an ancient, potent Legion relic imbued with dark power. Doan Karhan possesses extensive knowledge regarding its construction and the similar Orb of Zargain, guiding warlocks seeking to reconstruct it."
+  },
+  {
+   "q": "What happened to Doan Karhan's apprentices?",
+   "aliases": [
+    "doan acolytes",
+    "who killed doan's acolytes",
+    "raszel ander betrayal"
+   ],
+   "answer": "Doan's apprentices were slaughtered by a dreadlord named Des'Altek. The demon had infiltrated Doan's inner circle disguised as his friend, Raszel Ander, before turning on the study group and killing the acolytes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Doan Karhan is an invaluable resource for seasoned warlocks, possessing the arcane knowledge needed to uncover, mend, and wield legendary demonic orbs."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though human, Doan operates far from Stormwind or Theramore, preferring lonely exile in Kalimdor's heartland over the constraints of the Grand Alliance."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "des'altek",
+  "doan karhan",
+  "orb of soran'ruk",
+  "orb of zargain",
+  "raszel ander",
+  "warlock"
+ ],
+ "related": [
+  "quest:1740",
+  "zone:barrens",
+  "topic:burning-legion",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Doan Karhan"
+ ]
+}

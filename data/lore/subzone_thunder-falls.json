@@ -1,0 +1,72 @@
+{
+ "key": "subzone:thunder-falls",
+ "type": "subzone",
+ "name": "Thunder Falls",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Thunder Falls"
+ },
+ "summary": "Thunder Falls is a secluded mountain ravine tucked away in the northwestern heights of Elwynn Forest. Cradled between sheer cliffs and fed by roaring cascades, it features a quiet riverside cottage that has fallen into the hands of local bandits.",
+ "sections": [
+  {
+   "title": "A Hidden Mountain Hollow",
+   "body": "Tucked away in the jagged ridges above Mirror Lake, Thunder Falls is an unusual geographical cleft. The ravine is carved by a swift mountain stream that enters via an inaccessible northern cascade, only to drop away on both sides in dramatic waterfalls. One side plunges down into Mirror Lake, while the downstream course flows west toward the rugged borders of Westfall. Despite the roaring waters, a small cottage, a dock, and an outdoor forge sit along the shore, though outlaws now claim the peaceful clearing for themselves.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you reach Thunder Falls?",
+   "aliases": [
+    "how to get to thunder falls",
+    "thunder falls location",
+    "where is thunder falls"
+   ],
+   "answer": "You can reach Thunder Falls by heading to the northern side of Mirror Lake in Elwynn Forest. A steep, narrow trail winds up into the hills along the right side of the Mirror Lake waterfall, leading directly into the secluded ravine."
+  },
+  {
+   "q": "Who lives in the cottage at Thunder Falls?",
+   "aliases": [
+    "who is at the cottage",
+    "thunder falls house",
+    "cottage bandits"
+   ],
+   "answer": "The secluded cabin appears to have once belonged to a solitary fisherman or frontiersman, complete with a dock, rowing boat, and outdoor anvil. Today, however, it serves as a remote hideout for bandits operating in the wilderness of Elwynn Forest."
+  },
+  {
+   "q": "Where does the river at Thunder Falls flow?",
+   "aliases": [
+    "where does the water go",
+    "thunder falls river"
+   ],
+   "answer": "The stream flows through the narrow mountain gap from an upper mountain cascade. Downstream, it winds past the cottage and cascades down another steep fall that empties near the eastern boundary of Westfall."
+  },
+  {
+   "q": "What wildlife or resources are found here?",
+   "aliases": [
+    "what fish are in thunder falls",
+    "thunder falls fishing"
+   ],
+   "answer": "The high, rushing mountain water is famous among anglers for Violet Perch. Aside from the fish living in the swift current, visitors will find wild beasts prowling the mountain ridges and hostile outlaws guarding the hollow."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bandits",
+  "cottage",
+  "elwynn forest",
+  "mirror lake",
+  "thunder falls",
+  "violet perch",
+  "waterfall"
+ ],
+ "related": [
+  "quest:1861",
+  "zone:elwynn",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Thunder Falls"
+ ]
+}

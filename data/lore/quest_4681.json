@@ -1,0 +1,127 @@
+{
+ "key": "quest:4681",
+ "type": "quest",
+ "name": "Washed Ashore",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   4681
+  ],
+  "level": "14",
+  "faction": "Alliance",
+  "start": "Gwennyth Bly'Leggonde",
+  "end": "",
+  "previous": "Washed Ashore",
+  "next": null,
+  "wiki": "Washed Ashore (2)",
+  "chain": []
+ },
+ "summary": "Washed Ashore is an investigation initiated by Gwennyth Bly'Leggonde in Auberdine to examine deceased marine life along Darkshore's mist-shrouded coast. Acting on behalf of the Temple of the Moon in Darnassus, she sends adventurers to inspect the skeletal remains of a giant sea turtle submerged west of the village. The research seeks to explain why so many sea creatures are stranding themselves or dying off the shore.",
+ "sections": [
+  {
+   "title": "A Disturbing Tide",
+   "body": "The misty beaches of Darkshore have become a graveyard for oceanic giants. Beached behemoths and drowned leviathans line the sands and shallows, baffling the night elves of Auberdine. Having already looked into a grounded sea creature along the strand, Gwennyth Bly'Leggonde tasks travelers with diving into the waters west of the docks, near a sunken vessel, to examine the bones of a massive sea turtle and gather evidence for the Temple of the Moon.",
+   "spoiler": 0
+  },
+  {
+   "title": "Flight from the World Tree",
+   "body": "Gwennyth's ultimate goal is gathering enough physical evidence to submit a formal report to the Priestesses of Elune in Darnassus. Her preliminary findings point toward a deeply unsettling hypothesis: these gentle marine animals may not be dying by accident, but deliberately fleeing something out in the open sea\u2014potentially the waters encircling Teldrassil itself.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are sea creatures washing ashore in Darkshore?",
+   "aliases": [
+    "why turtles dying",
+    "beached creatures darkshore",
+    "why beached whales"
+   ],
+   "answer": "Gwennyth Bly'Leggonde suspects these marine creatures are deliberately fleeing something disturbing in the surrounding ocean. Preliminary findings suggest they may be escaping the waters encircling the newly grown World Tree of Teldrassil."
+  },
+  {
+   "q": "Who is Gwennyth Bly'Leggonde?",
+   "aliases": [
+    "gwennyth",
+    "auberdine researcher",
+    "quest giver washed ashore"
+   ],
+   "answer": "Gwennyth Bly'Leggonde is a night elf researcher stationed in Auberdine who reports directly to the Temple of the Moon in Darnassus. She is documenting the wave of dead and beached sea creatures along Darkshore's coastline."
+  },
+  {
+   "q": "Where is the skeletal sea turtle located?",
+   "aliases": [
+    "turtle remains location",
+    "where skeletal turtle",
+    "sea turtle bones"
+   ],
+   "answer": "The skeletal sea turtle rests on the ocean floor due west of Auberdine's docks, lying close to the wreckage of a sunken vessel off the Darkshore coast."
+  },
+  {
+   "q": "What does the Temple of the Moon have to do with this?",
+   "aliases": [
+    "why darnassus care",
+    "temple of the moon role",
+    "priestesses of elune involvement"
+   ],
+   "answer": "The Temple of the Moon directs ecological and spiritual matters for night elf lands. Gwennyth requires concrete physical samples to present a formal report to the priestesses regarding the strange die-off."
+  },
+  {
+   "q": "Are there more beached creatures to find?",
+   "aliases": [
+    "other beached sea creatures",
+    "more sea creature quests",
+    "darkshore beached behemoth"
+   ],
+   "answer": "Yes. Gwennyth notes that beached creatures lie strewn all along the Darkshore coastline, encouraging adventurers to search the sands and recover remains from other stranded behemoths."
+  },
+  {
+   "q": "What is the difference between the two 'Washed Ashore' quests?",
+   "aliases": [
+    "washed ashore part 1 vs part 2",
+    "two washed ashore quests",
+    "washed ashore chain"
+   ],
+   "answer": "The first quest sends you to investigate a creature stranded on the beach nearby, while the follow-up asks you to swim west of the docks to inspect a submerged skeletal sea turtle."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The mass death and erratic flight of Darkshore's ancient marine beasts hints at a corruption or disruption in the balance of nature radiating from the waters around Teldrassil."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Carrying out this inquiry supports the Priestesses of Elune at the Temple of the Moon, who oversee the spiritual and natural well-being of northern Kalimdor."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Auberdine serves as the gateway between Teldrassil and the mainland; evidence that ocean life is actively fleeing your new home is a troubling omen."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "beached creature",
+  "darkshore",
+  "darnassus",
+  "gwennyth bly'leggonde",
+  "sea turtle",
+  "sea turtle remains",
+  "teldrassil",
+  "temple of the moon"
+ ],
+ "related": [
+  "npc:gwennyth-bly-leggonde",
+  "quest:3524",
+  "subzone:auberdine",
+  "subzone:temple-of-the-moon",
+  "quest:940",
+  "quest:2519",
+  "zone:darkshore",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "Washed Ashore (2)"
+ ]
+}

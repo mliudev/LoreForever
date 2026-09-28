@@ -1,0 +1,119 @@
+{
+ "key": "quest:1090",
+ "type": "quest",
+ "name": "Gerenzo's Orders",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1090
+  ],
+  "level": "22",
+  "faction": null,
+  "start": "Piznik",
+  "end": "",
+  "previous": null,
+  "next": "Gerenzo's Orders (2)",
+  "wiki": "Gerenzo's Orders",
+  "chain": [
+   "Gerenzo's Orders",
+   "Gerenzo's Orders (2)"
+  ]
+ },
+ "summary": "At the Venture Company dig site in Stonetalon Mountains, an ousted goblin named Piznik schemes to expose his new boss, Gerenzo. By defending Piznik from camp patrols while he extracts a strange gold-green ore, adventurers help uncover the lucrative secrets behind the company's aggressive excavation.",
+ "sections": [
+  {
+   "title": "Corporate Betrayal in the Crag",
+   "body": "The Venture Company's massive operations within Stonetalon rely on cutthroat competition, where promotions are won through ruthlessness rather than loyalty. Piznik once enjoyed the status of being second-in-command at the excavation until Gerenzo seized power, ousted supervisor Ziz Fizziks, and demoted Piznik to swinging a pick in the dirt. Rather than walking away, Piznik stayed on as an informant under Ziz's instructions, watching Gerenzo's every move and biding his time to strike back at his treacherous new supervisor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unearthing the Gold-Green Vein",
+   "body": "Gerenzo's sudden takeover is driven by an obsession with a mysterious gold-green ore running through the Stonetalon rocks. Believing the mineral holds extraordinary commercial value, Gerenzo ordered miners to rip massive quantities out of the earth. Suspecting that Ziz Fizziks's mysterious new employer will pay handsomely for information on the venture, Piznik risks discovery to dig up a pristine sample while reliant on an ally to fend off aggressive diggers, vermin, and overseers who police the operation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Piznik?",
+   "aliases": [
+    "piznik",
+    "who is the goblin miner",
+    "piznik stonetalon"
+   ],
+   "answer": "Piznik is a goblin laborer at the Windshear Crag operation in the Stonetalon Mountains. He was once the second most important manager at the dig site under Ziz Fizziks, but after Gerenzo seized control, Piznik was demoted to working the mines as simple labor."
+  },
+  {
+   "q": "Why is Piznik mining this ore secretly?",
+   "aliases": [
+    "why mine ore",
+    "mysterious ore",
+    "gold green ore"
+   ],
+   "answer": "Piznik is secretly gathering a sample of a strange gold-green mineral that Gerenzo has ordered harvested in huge quantities. His former boss, Ziz Fizziks, promised that his new employer will pay generously for intelligence on whatever valuable operation Gerenzo is running."
+  },
+  {
+   "q": "Who is Gerenzo?",
+   "aliases": [
+    "gerenzo",
+    "who is gerenzo",
+    "gerenzo venture co"
+   ],
+   "answer": "Gerenzo is the ruthless Venture Company supervisor who took control of the Stonetalon excavation by firing Ziz Fizziks. He immediately redirected company resources toward aggressively excavating an unfamiliar, valuable gold-green ore found throughout the crag."
+  },
+  {
+   "q": "Who does Ziz Fizziks work for now?",
+   "aliases": [
+    "ziz new boss",
+    "who hired ziz",
+    "ziz employer"
+   ],
+   "answer": "After getting fired by Gerenzo, Ziz Fizziks allied with new backers interested in monitoring Venture Company activities in the region. He pays operatives and informants like Piznik to sabotage Gerenzo and uncover what the Venture Company is unearthing."
+  },
+  {
+   "q": "What attacks Piznik while he digs?",
+   "aliases": [
+    "piznik ambush",
+    "who attacks piznik",
+    "windshear patrols"
+   ],
+   "answer": "The noise and illicit activity quickly attract local cave vermin, Windshear diggers, geomancers, and company overseers who patrol the dig site to prevent theft and keep laborers under tight control."
+  },
+  {
+   "q": "What happens once the sample is mined?",
+   "aliases": [
+    "where to take ore",
+    "what to do with the sample"
+   ],
+   "answer": "Once Piznik successfully extracts the ore sample, he gives it to his protector to deliver directly to Ziz Fizziks, hoping it provides the leverage needed to thwart Gerenzo's ambitious plans."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The strange gold-green ore discovered by Venture Company miners in Stonetalon does not match conventional iron or tin veins, piquing the curiosity of any prospector interested in rare minerals."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Venture Company's reckless, invasive mining despoils Stonetalon's natural landscape, making any effort to monitor, disrupt, or exploit their operations useful to Horde forces nearby."
+  }
+ ],
+ "keywords": [
+  "gerenzo",
+  "gold-green ore",
+  "mysterious ore",
+  "piznik",
+  "stonetalon mountains",
+  "venture company",
+  "windshear crag",
+  "ziz fizziks"
+ ],
+ "related": [
+  "npc:piznik",
+  "quest:1483",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Gerenzo's Orders"
+ ]
+}

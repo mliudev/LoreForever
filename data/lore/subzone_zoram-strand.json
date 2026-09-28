@@ -1,0 +1,94 @@
+{
+ "key": "subzone:zoram-strand",
+ "type": "subzone",
+ "name": "Zoram Strand",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Zoram Strand"
+ },
+ "summary": "The Zoram Strand is a windswept coastline lining the northwestern edge of Ashenvale along the Veiled Sea. Once the site of an ancient night elven city swallowed by the Great Sundering, the shore is now plagued by Wrathtail naga, shipwrecks, and beached leviathans. It also holds the entrance to the submerged temple complex of Blackfathom Deeps.",
+ "sections": [
+  {
+   "title": "Ruins of the Sundered Coast",
+   "body": "Ten thousand years ago, the grand night elven city of Zoram graced these shores before the Great Sundering tore Kalimdor apart and cast the settlement into the ocean depths. Today, the tide continually washes up ancient relics, remnants of shattered vessels, and the carcasses of massive sea beasts. The Wrathtail naga have overrun the beaches and tidal pools, fiercely guarding the flooded ruins and ancient artifacts against anyone daring to approach.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Contested Shoreline",
+   "body": "Despite the naga menace, both mainland travelers and coastal wanderers find themselves drawn to the strand. To the south lies the fortified Horde encampment of Zoram'gar Outpost, whose warriors fight a continuous battle to secure the coast. Deep within the nearby caverns sits Blackfathom Deeps, an ancient temple of Elune that has fallen into dark hands, making the strand a gathering ground for scouts, scholars, and treasure seekers braving the surf.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Zoram before it was destroyed?",
+   "aliases": [
+    "zoram history",
+    "ancient zoram",
+    "what was zoram"
+   ],
+   "answer": "Prior to the Great Sundering ten thousand years ago, Zoram was a majestic night elven city. The cataclysm shattered the coast, plunging the city beneath the Veiled Sea and leaving only jagged ruins and washed-up statuettes along the shore."
+  },
+  {
+   "q": "Who controls the Zoram Strand today?",
+   "aliases": [
+    "who lives at zoram strand",
+    "zoram strand enemies",
+    "who controls zoram strand"
+   ],
+   "answer": "The shoreline itself is largely overrun by the Wrathtail naga, who fiercely defend the shallows and ancient ruins. The Horde maintains a fortified foothold at Zoram'gar Outpost along the southern cliffs, while dangerous wildlife such as hydras and crabs prowl the sand."
+  },
+  {
+   "q": "Where is the entrance to Blackfathom Deeps?",
+   "aliases": [
+    "blackfathom deeps location",
+    "how to find bfd",
+    "bfd entrance zoram"
+   ],
+   "answer": "The entrance to Blackfathom Deeps is located in the submerged caverns along the Zoram Strand. Travelers venture into the coastal caves along the water's edge to reach the descent into the sunken temple."
+  },
+  {
+   "q": "Why are there so many beached sea creatures here?",
+   "aliases": [
+    "beached sea creature quest",
+    "dead whales zoram strand",
+    "beached creatures"
+   ],
+   "answer": "The tumultuous tides and dark currents of the Veiled Sea frequently wash massive marine creatures ashore. Researchers and naturalists from both factions often seek out these remains to investigate what drives ocean behemoths to perish along the rocks."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The strand is a sobering reminder of the ancient world lost to the Sundering, where sacred relics and submerged temples to Elune now suffer beneath the tread of the naga."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Defending the approaches to Zoram'gar Outpost is vital to maintaining a northern naval and coastal presence in Ashenvale against the relentless Wrathtail brood."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "blackfathom deeps",
+  "naga",
+  "ruuzel",
+  "veiled sea",
+  "wrathtail",
+  "zoram",
+  "zoram strand"
+ ],
+ "related": [
+  "subzone:zoram-gar-outpost",
+  "zone:blackfathom",
+  "zone:ashenvale",
+  "quest:1008",
+  "quest:6442",
+  "quest:1007",
+  "quest:1009",
+  "topic:naga"
+ ],
+ "attribution": [
+  "Zoram Strand"
+ ]
+}

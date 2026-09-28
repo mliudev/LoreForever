@@ -1,0 +1,118 @@
+{
+ "key": "quest:13",
+ "type": "quest",
+ "name": "The People's Militia",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   13
+  ],
+  "level": "14",
+  "faction": "Alliance",
+  "start": "Gryan Stoutmantle",
+  "end": "",
+  "previous": "The People's Militia (quest)",
+  "next": "The People's Militia (3)",
+  "wiki": "The People's Militia (2)",
+  "chain": []
+ },
+ "summary": "This task marks the escalating campaign of Gryan Stoutmantle's volunteer force to push the Defias Brotherhood out of Westfall. With the thieves moving from petty highway robbery to organized ransacking of key sites like Moonbrook and the Gold Coast Quarry, the People's Militia demands harsher retaliation.",
+ "sections": [
+  {
+   "title": "Escalating Violence",
+   "body": "While early skirmishes with the Defias involved petty bandits harassing travelers on the roads, the threat rapidly deepens. Defias Looters and fire-slinging Pillagers have overrun critical economic centers across Westfall, thoroughly occupying Moonbrook, stripping the Alexston Farmstead, and commandeering the Gold Coast Quarry. Gryan Stoutmantle recognizes that if these brigands solidify their grip on these hubs, reclaiming the region will become impossible without a formal royal army.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Militia's Philosophy",
+   "body": "Lacking official soldiers or resources from Stormwind, Gryan Stoutmantle invokes the Holy Light and the moral fortitude of Westfall's remaining farmers. The Militia's war of attrition relies entirely on volunteers taking the fight directly into Defias strongholds. Driving out the looters is meant to deny the Brotherhood resources while signaling to fearful residents that there are still defenders willing to fight for Westfall's peace and prosperity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the People's Militia?",
+   "aliases": [
+    "peoples militia",
+    "who are the militia",
+    "westfall militia"
+   ],
+   "answer": "The People's Militia is an armed volunteer defensive force organized by Gryan Stoutmantle. Composed largely of displaced Westfall farmers and sympathetic travelers, they formed to defend the province against the Defias Brotherhood after the royal court in Stormwind refused to deploy city guards."
+  },
+  {
+   "q": "Who is Gryan Stoutmantle?",
+   "aliases": [
+    "gryan",
+    "who is stoutmantle",
+    "stoutmantle lore"
+   ],
+   "answer": "Gryan Stoutmantle is a veteran human commander leading the defense of Westfall from the redoubt atop Sentinel Hill. Dedicated to the Light and his home, he coordinates the People's Militia in their desperate resistance against outlaw control."
+  },
+  {
+   "q": "Why are the Defias looting farms and quarries?",
+   "aliases": [
+    "why defias looting",
+    "defias in moonbrook",
+    "why pillagers at quarry"
+   ],
+   "answer": "The Defias Brotherhood aims to cripple Westfall's food supply and seize raw materials. Taking the Gold Coast Quarry gives them control over stone and minerals, while capturing Moonbrook and farmsteads drives off honest folk and secures bases of operation for their criminal enterprise."
+  },
+  {
+   "q": "Why hasn't Stormwind sent soldiers to Westfall?",
+   "aliases": [
+    "where are stormwind guards",
+    "why no help from stormwind",
+    "king varian westfall"
+   ],
+   "answer": "King Varian Wrynn has mysteriously vanished, leaving the boy-king Anduin on the throne under Highlord Bolvar Fordragon's regency. Stormwind's noble House of Nobles is heavily gridlocked, leaving crown resources stretched thin and outlying territories like Westfall completely abandoned to local defenders."
+  },
+  {
+   "q": "Where are Defias Pillagers and Looters found?",
+   "aliases": [
+    "pillager location",
+    "where are looters",
+    "defias locations"
+   ],
+   "answer": "They concentrate heavily around captured settlements in south and western Westfall, notably the abandoned town of Moonbrook, the Gold Coast Quarry along the western bluffs, and the ruined Alexston Farmstead."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This struggle highlights the bitter divide between the comfortable walls of Stormwind City and its starving borderlands, which are left entirely to their own devices."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Gryan Stoutmantle explicitly calls upon the Light to purge Westfall of criminal corruption, making this campaign a direct mission of justice for paladins."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of the kingdom, fighting here is a tragic confrontation against former stonemasons and neighbors who have turned violently against their own people."
+  }
+ ],
+ "keywords": [
+  "alexston farmstead",
+  "defias looter",
+  "defias pillager",
+  "gold coast quarry",
+  "gryan stoutmantle",
+  "moonbrook",
+  "peoples militia",
+  "sentinel hill",
+  "westfall"
+ ],
+ "related": [
+  "quest:12",
+  "npc:gryan-stoutmantle",
+  "subzone:sentinel-hill",
+  "zone:westfall",
+  "subzone:moonbrook",
+  "subzone:gold-coast-quarry",
+  "subzone:alexston-farmstead",
+  "topic:light"
+ ],
+ "attribution": [
+  "The People's Militia (2)"
+ ]
+}

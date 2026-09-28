@@ -1,0 +1,105 @@
+{
+ "key": "topic:shan-do",
+ "type": "topic",
+ "name": "Shan'do",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Shan'do"
+ },
+ "summary": "Shan'do is a revered Darnassian honorific meaning \"honored teacher\" or \"honored instructor.\" Traditionally used within night elven society and druidic circles, it denotes deep reverence toward a mentor who guides another along the path of wisdom and natural magic. Its direct counterpart is thero'shan, meaning \"honored student.\"",
+ "sections": [
+  {
+   "title": "A Title of Deep Reverence",
+   "body": "In the Darnassian language, shan'do translates directly to \"honored teacher\" or \"honored instructor.\" The prefix \"shan\" carries the meaning of honor, while the suffix \"do\" denotes authority, seniority, or mastery\u2014a linguistic root shared with words like minn'do (\"mother\"). It is far more than an occupational label: addressing an elder or mentor as shan'do expresses solemn humility, filial devotion, and enduring respect for their guidance.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Lineage of the Druids",
+   "body": "The title is most famously intertwined with the history of the Cenarion Circle. The demigod Cenarius was the original shan'do to Malfurion Stormrage, instructing him in the ways of nature before the War of the Ancients. In turn, Malfurion became shan'do to generations of mortal druids, to the point where \"Shan'do Stormrage\" is his standard styling among night elves, forest keepers, and reverent allies across Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mentors Beyond the Circle",
+   "body": "While most common among Cenarion druids\u2014such as disciples addressing Archdruid Naralex or the slumbering Malfurion\u2014the honorific is fundamentally Darnassian, not exclusively religious. During the War of the Ancients, Illidan Stormrage briefly addressed the human sorcerer Rhonin as shan'do while learning from his peculiar arcane techniques. The title represents the bond of transmission between master and pupil, irrespective of the school of thought.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the word shan'do actually mean?",
+   "aliases": [
+    "shando meaning",
+    "what does shando translate to",
+    "shando translation",
+    "darnassian shando"
+   ],
+   "answer": "In Darnassian, shan'do translates to \"honored teacher\" or \"honored instructor.\" It is used to show deep deference and gratitude toward a mentor."
+  },
+  {
+   "q": "What is the opposite or student version of shan'do?",
+   "aliases": [
+    "opposite of shando",
+    "student word in darnassian",
+    "theroshan meaning",
+    "what is thero'shan"
+   ],
+   "answer": "The complementary honorific is thero'shan, which translates to \"honored student.\" Mentors address their apprentices as thero'shan to acknowledge their devotion and discipline."
+  },
+  {
+   "q": "Who is most commonly called Shan'do?",
+   "aliases": [
+    "who is shando",
+    "shando stormrage",
+    "who has the title shando"
+   ],
+   "answer": "Archdruid Malfurion Stormrage is the figure most commonly hailed as Shan'do by the night elves and the Cenarion Circle. Cenarius was also addressed as shan'do by his original pupils, and other prominent leaders such as Naralex carry the honorific from their followers."
+  },
+  {
+   "q": "Is the title shan'do only used by druids?",
+   "aliases": [
+    "can non druids be shando",
+    "is shando only for druids",
+    "shando outside druidism"
+   ],
+   "answer": "No. While it is deeply rooted in Cenarion druidic tradition, shan'do is a Darnassian linguistic courtesy. Any master of craft, magic, or wisdom can theoretically be addressed as shan'do by their student; for instance, Illidan Stormrage once called the human wizard Rhonin shan'do while studying his spellcraft."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "As part of your native tongue, shan'do is among the most solemn courtesies you can offer an elder or teacher, carrying millennia of cultural weight."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Every druid traces their teachings through a chain of mentors back to Shan'do Stormrage and Cenarius himself; uttering the title honors that unbroken chain."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Tauren druids studying alongside the night elves in Moonglade recognize the title, using it respectfully when addressing mentors like Malfurion Stormrage."
+  }
+ ],
+ "keywords": [
+  "cenarius",
+  "darnassian",
+  "druid",
+  "honored teacher",
+  "malfurion",
+  "shan'do",
+  "shando",
+  "thero'shan"
+ ],
+ "related": [
+  "npc:malfurion-stormrage",
+  "topic:cenarius",
+  "topic:druid",
+  "npc:naralex",
+  "topic:war-of-the-ancients",
+  "npc:remulos",
+  "quest:952",
+  "quest:963"
+ ],
+ "attribution": [
+  "Shan'do"
+ ]
+}

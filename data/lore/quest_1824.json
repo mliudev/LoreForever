@@ -1,0 +1,122 @@
+{
+ "key": "quest:1824",
+ "type": "quest",
+ "name": "Trial at the Field of Giants",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1824
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Ruga Ragetotem",
+  "end": "",
+  "previous": "Speak with Ruga",
+  "next": "Speak with Thun'grim",
+  "wiki": "Trial at the Field of Giants",
+  "chain": []
+ },
+ "summary": "Trial at the Field of Giants is a warrior rites quest issued by Ruga Ragetotem at Camp Taurajo. As part of their training, martial aspirants are dispatched south into the swarming mounds of the Field of Giants to slay alien insectoid invaders. Candidates must harvest several still-twitching antennae and rush them back before the biological proof goes dormant.",
+ "sections": [
+  {
+   "title": "A Test of Speed and Steel",
+   "body": "Warrior trainers among the Horde rarely accept mere martial competence without testing fortitude and urgency. Ruga Ragetotem challenges growing warriors at Camp Taurajo to prove themselves against an unfamiliar adversary. Aspirants are not just ordered to slay the encroaching creatures; they must sever fresh antennae and return to Taurajo within half an hour before the harvested tissue ceases twitching, demanding rapid navigation of the southern Barrens.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unwelcome Intruders",
+   "body": "The targets of the trial are the silithid hives burgeoning in the Field of Giants, nestled beneath massive fossilized ribcages. These crawling, chitinous insects are recent arrivals to the Barrens, disturbing the tauren hunters and shamans who watch the savannas. Ruga notes with dread that their presence bodes ill for Kalimdor, making the extermination test serve a dual purpose: proving a young warrior's combat instincts while gathering intelligence on a looming ecological menace.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is there a time limit on the antennae?",
+   "aliases": [
+    "why timed",
+    "twitching antennae timer",
+    "how much time"
+   ],
+   "answer": "Ruga Ragetotem demands that the antennae still be twitching when brought to Camp Taurajo, giving warriors only thirty minutes to complete the hunt and journey back. The biological freshness ensures the aspirant took down the silithid swiftly in direct combat rather than scavenging dead carapaces."
+  },
+  {
+   "q": "What creatures live at the Field of Giants?",
+   "aliases": [
+    "what are the bugs",
+    "field of giants mobs",
+    "what are silithid"
+   ],
+   "answer": "The Field of Giants is infested by silithid, a bizarre and aggressive race of insectoid burrowers. They have excavated massive mounds and hives beneath ancient fossils, disturbing the local ecology and alarming the Horde."
+  },
+  {
+   "q": "Who is Ruga Ragetotem?",
+   "aliases": [
+    "ruga",
+    "who gives quest",
+    "ruga ragetotem lore"
+   ],
+   "answer": "Ruga Ragetotem is a tauren warrior trainer stationed at Camp Taurajo in the southern Barrens. He oversees trials that test the skill, resilience, and speed of Horde warriors looking to advance their standing."
+  },
+  {
+   "q": "Where is the Field of Giants located?",
+   "aliases": [
+    "where is field of giants",
+    "field of giants location",
+    "where do i find the bugs"
+   ],
+   "answer": "The Field of Giants lies directly south of Camp Taurajo, flanking the road before the southern pass that leads toward Thousand Needles. It is recognizable by towering skeletal ribcages and silithid mounds."
+  },
+  {
+   "q": "Where does this training chain lead next?",
+   "aliases": [
+    "next quest",
+    "what comes after",
+    "warrior chain continuation"
+   ],
+   "answer": "Upon returning the twitching antennae in time, Ruga directs the warrior to speak with Thun'grim Firegaze, an elder orc blacksmith and veteran dwelling near the Crossroads, to further their combat instruction."
+  },
+  {
+   "q": "Why are the tauren concerned about the insects?",
+   "aliases": [
+    "why do tauren care",
+    "insect herald",
+    "silithid threat"
+   ],
+   "answer": "The silithid are unnatural newcomers to the Barrens. Ruga states that their arrival bodes ill for the land, suspecting that their aggressive burrowing and expansion herald a far greater danger stirring beneath the sands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This trial forms an essential rite of passage around level twenty, testing a warrior's ability to clear swarming adversaries quickly and maintain physical endurance under strict time constraints."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For tauren defenders, cleansing the desecrated Field of Giants helps protect their hunting grounds around Camp Taurajo from an unnatural, invasive hive."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde keeps a wary eye on the expanding silithid presence in the southern Barrens, treating individual training trials as frontline reconnaissance against a creeping threat."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "camp taurajo",
+  "field of giants",
+  "ruga ragetotem",
+  "silithid",
+  "twitching antenna",
+  "warrior trial"
+ ],
+ "related": [
+  "subzone:field-of-giants",
+  "npc:ruga-ragetotem",
+  "subzone:camp-taurajo",
+  "quest:1825",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Trial at the Field of Giants"
+ ]
+}

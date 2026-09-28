@@ -1,0 +1,83 @@
+{
+ "key": "subzone:hive-regal",
+ "type": "subzone",
+ "name": "Hive'Regal",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Hive'Regal"
+ },
+ "summary": "Hive'Regal is a massive silithid hive burrowed into the southern reaches of Silithus. As one of the three primary insectoid colonies dominating the arid wastes, it teems with aggressive silithid castes that threaten to overrun the surrounding desert.",
+ "sections": [
+  {
+   "title": "The Southern Hive",
+   "body": "Sprawling across southern Silithus, Hive'Regal represents one of the greatest concentrations of silithid activity in Kalimdor. Its towering resin spires and cavernous underground tunnels churn with dangerous insectoid broods, from venomous spitfires and burrowers to predatory slavemakers. The hive acts as a coordinated warren, aggressively defending its perimeter and harvesting organic material from any unfortunate travelers who wander too close to its borders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Subterranean Network",
+   "body": "Beneath the red sands, Hive'Regal's labyrinthine passages delve deep into the earth. Strange glyphs etched near its entrance and deep inside the tunnels suggest an organized intelligence directing the swarm rather than mere feral instinct. Scholars and scouts studying the silithid threat believe that Hive'Regal, along with its sister hives, functions as part of a larger emergent power stirring beneath the wastes of Silithus.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Hive'Regal located?",
+   "aliases": [
+    "hive regal location",
+    "where is hive regal",
+    "find hive regal"
+   ],
+   "answer": "Hive'Regal is located in the southern region of Silithus, marked by distinct towering insectoid mounds and infested red sands."
+  },
+  {
+   "q": "What kinds of creatures live in Hive'Regal?",
+   "aliases": [
+    "hive regal mobs",
+    "what is inside hive regal",
+    "hive regal enemies"
+   ],
+   "answer": "The nest is inhabited by various hostile silithid breeds, including burrowers, ambushers, spitfires, and slavemakers that aggressively defend the hive."
+  },
+  {
+   "q": "Why are researchers interested in Hive'Regal?",
+   "aliases": [
+    "why go to hive regal",
+    "hive regal research",
+    "hive regal glyphs"
+   ],
+   "answer": "Scouts and scholars study the hive to decipher strange communicative glyphs found on its walls and to monitor the growing threat of the silithid swarm across southern Kalimdor."
+  },
+  {
+   "q": "How does Hive'Regal differ from the other hives in Silithus?",
+   "aliases": [
+    "other hives silithus",
+    "three hives",
+    "difference between hives"
+   ],
+   "answer": "Hive'Regal is the southernmost of the three major colonies in Silithus, alongside Hive'Ashi and Hive'Zora. Each colony houses specialized castes of silithid, though all appear to share a unified, insidious purpose."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The Cenarion Circle closely monitors the spread of Hive'Regal, recognizing the invasive silithid corruption as an existential blight upon the desert ecosystem."
+  }
+ ],
+ "keywords": [
+  "burrowers",
+  "hive",
+  "hive'regal",
+  "regal",
+  "silithid",
+  "silithus",
+  "slavemakers",
+  "spitfires"
+ ],
+ "related": [
+  "zone:silithus"
+ ],
+ "attribution": [
+  "Hive'Regal"
+ ]
+}

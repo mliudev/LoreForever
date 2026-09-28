@@ -1,0 +1,118 @@
+{
+ "key": "quest:334",
+ "type": "quest",
+ "name": "Package for Thurman",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   334
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Rema Schneider",
+  "end": "Thurman Schneider",
+  "previous": null,
+  "next": null,
+  "wiki": "Package for Thurman",
+  "chain": []
+ },
+ "summary": "Package for Thurman is a brief errand through the streets of Stormwind City. A worried mother, Rema Schneider, asks passing travelers to bring forgotten tailoring supplies to her slacking apprentice son at Larson Clothiers in the Mage Quarter.",
+ "sections": [
+  {
+   "title": "A Mother's Errand",
+   "body": "In the daily hustle of Stormwind, not every task involves fighting gnolls or uncovering Defias conspiracies. Rema Schneider, concerned for her son Thurman's livelihood, notices he left home in a rush without his shears and needles. Fearing he will fall behind in his trade duties, she entreats an adventurer to deliver the kit across the canals to his workshop.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Reluctant Apprentice",
+   "body": "Larson Clothiers sits nestled deep within the Mage Quarter, not far from the soaring spires of the Mage Tower. Upon receiving his tools, Thurman reveals that leaving his shears behind was entirely deliberate\u2014a scheme to escape his daily chores and spend the day having fun. With his mother's intervention, however, his afternoon of freedom evaporates, and he is forced back to his stitching.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts the quest Package for Thurman?",
+   "aliases": [
+    "who gives quest",
+    "rema schneider quest",
+    "quest giver"
+   ],
+   "answer": "Rema Schneider starts the quest. She is looking for someone to deliver a sewing kit to her son, who works across town in the Mage Quarter."
+  },
+  {
+   "q": "Where can Thurman Schneider be found?",
+   "aliases": [
+    "thurman location",
+    "where is thurman",
+    "find thurman"
+   ],
+   "answer": "Thurman Schneider is located inside Larson Clothiers in the Mage Quarter of Stormwind. The shop is positioned deeper into the quarter, close to the path leading up to the Mage Tower."
+  },
+  {
+   "q": "Did Thurman actually forget his tools by accident?",
+   "aliases": [
+    "did thurman forget",
+    "why did thurman leave tools",
+    "thurman slacking"
+   ],
+   "answer": "No. Thurman deliberately left his needles and shears behind at home, hoping the missing tools would excuse him from his tailoring chores so he could shirk his apprentice duties for the day."
+  },
+  {
+   "q": "What shop does Thurman apprentice for?",
+   "aliases": [
+    "where does thurman work",
+    "larson clothiers",
+    "who does thurman work for"
+   ],
+   "answer": "Thurman works as an apprentice tailor for Larson Clothiers, a garment shop in Stormwind's Mage Quarter run by the Larson family."
+  },
+  {
+   "q": "Why does Rema Schneider ask an adventurer for help?",
+   "aliases": [
+    "why ask player",
+    "rema help"
+   ],
+   "answer": "Rema believes her son's apprenticeship is in jeopardy without his kit. Unable to leave her own obligations, she appeals to passing adventurers who might be headed toward the Mage Quarter."
+  },
+  {
+   "q": "What happens after you deliver the sewing kit?",
+   "aliases": [
+    "quest reward",
+    "after package for thurman",
+    "thurman reaction"
+   ],
+   "answer": "Thurman begrudgingly accepts the kit with a groan, admitting his plan to skip work was ruined and that he must now get back to sewing for the Larsons."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "Every grand tailor started at the bottom: running seams, holding pins, and trying to slip away from apprentice chores at Larson Clothiers."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Beneath the high politics of Stormwind Keep, ordinary citizens and artisans keep the capital clothed, fed, and running one errand at a time."
+  }
+ ],
+ "keywords": [
+  "apprentice",
+  "clothiers",
+  "larson",
+  "mage quarter",
+  "rema",
+  "schneider",
+  "sewing kit",
+  "stormwind",
+  "thurman"
+ ],
+ "related": [
+  "npc:rema-schneider",
+  "subzone:mage-quarter",
+  "npc:lars",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Package for Thurman"
+ ]
+}

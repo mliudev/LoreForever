@@ -1,0 +1,78 @@
+{
+ "key": "npc:kil-hala",
+ "type": "npc",
+ "name": "Kil'hala",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Kil'hala",
+  "refs": 2
+ },
+ "summary": "Kil'hala is a jungle troll tailoring trainer stationed at the Crossroads in the Barrens. Skilled in working with both everyday cloth and exotic woven materials, he instructs Horde crafters looking to refine their needlework. Beyond common thread, he directs ambitious tailors north into Ashenvale to procure rare reagents like nether-lace.",
+ "sections": [
+  {
+   "title": "Tailor of the Barrens",
+   "body": "Positioned at the bustling hub of the Crossroads, Kil'hala offers his tailoring expertise to passing travelers and Horde recruits. While much of his craft involves common spun bolts and garments fit for dry plains life, his knowledge extends into rare magical textiles. To craft truly remarkable robes, Kil'hala challenges weavers to venture into the untamed canopies of Ashenvale, where ethereal materials like nether-lace can be harvested from magical dryads.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kil'hala?",
+   "aliases": [
+    "kilhala identity",
+    "who is kilhala",
+    "crossroads tailor"
+   ],
+   "answer": "Kil'hala is a Darkspear troll and a tailoring trainer located at the Crossroads in the Barrens. He assists Horde tradesfolk in learning the basics of weaving cloth and garment construction."
+  },
+  {
+   "q": "Where can I find Kil'hala?",
+   "aliases": [
+    "kilhala location",
+    "where is kilhala",
+    "kilhala spot"
+   ],
+   "answer": "He is located in the Barrens within the central settlement of the Crossroads, situated alongside other Horde trade trainers."
+  },
+  {
+   "q": "What tasks does Kil'hala give to tailors?",
+   "aliases": [
+    "kilhala quests",
+    "laughing sisters quest",
+    "nether lace garment"
+   ],
+   "answer": "He directs weavers seeking advanced cloth crafting to venture into Ashenvale to hunt dryads known as the Laughing Sisters. Kil'hala uses their ethereal locks to create a unique Nether-lace Garment."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "Kil'hala is an essential stop for journeyman Horde tailors traversing Kalimdor, teaching craft techniques and offering quests to weave exotic magical robes."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Providing textile goods and tradecraft training in the Crossroads, Kil'hala helps equip the warband and travelers carving a foothold in the Barrens."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "kil'hala",
+  "kilhala",
+  "laughing sisters",
+  "nether-lace",
+  "tailoring",
+  "trainer"
+ ],
+ "related": [
+  "subzone:crossroads",
+  "quest:1945",
+  "quest:1946",
+  "zone:ashenvale",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Kil'hala"
+ ]
+}

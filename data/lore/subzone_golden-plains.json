@@ -1,0 +1,70 @@
+{
+ "key": "subzone:golden-plains",
+ "type": "subzone",
+ "name": "Golden Plains",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Golden Plains"
+ },
+ "summary": "The Golden Plains form a vast, sun-drenched basin stretching southeast of Thunder Bluff in central Mulgore. Cherished by the tauren, these sweeping grasslands serve as prime hunting territory and a vital grazing habitat for wandering herds of kodo.",
+ "sections": [
+  {
+   "title": "Heart of the Hunt",
+   "body": "Spreading out beneath the towering mesas of Thunder Bluff, the Golden Plains represent the untamed heart of Mulgore. The shifting sea of golden and green grass offers an abundant sanctuary for local wildlife, making it one of the most treasured traditional hunting grounds of the nomadic tauren. Broad kodo herds roam across the rolling basin, while hunters share stories of legendary quarry, most notably the great kodo Arra'chea, who wanders quietly through the tall stalks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Golden Plains?",
+   "aliases": [
+    "golden plains mulgore",
+    "where are golden plains"
+   ],
+   "answer": "The Golden Plains are a broad grassland basin located southeast of Thunder Bluff in Mulgore. They are a beloved cultural hunting ground for the tauren, defined by wide vistas and sprawling wildlife."
+  },
+  {
+   "q": "What animals roam the Golden Plains?",
+   "aliases": [
+    "golden plains beasts",
+    "kodos in golden plains"
+   ],
+   "answer": "The basin is famous for its abundant herds of wild kodo, alongside other native creatures of Mulgore. The most famous beast said to wander these grasslands is the elusive and revered kodo named Arra'chea."
+  },
+  {
+   "q": "Why is this area important to the tauren?",
+   "aliases": [
+    "tauren golden plains",
+    "why tauren hunt here"
+   ],
+   "answer": "The plains serve as a vital source of game and hides, providing sustenance for the newly founded settlements across Mulgore and celebrating the tauren tradition of tracking and honoring their quarry."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, the Golden Plains are an enduring symbol of their homeland's bounty, offering sacred hunting grounds beneath the shadow of Thunder Bluff."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The vast open expanse and roaming kodo herds make these plains a prime testing ground for trackers seeking legendary beasts like Arra'chea."
+  }
+ ],
+ "keywords": [
+  "arra'chea",
+  "golden plains",
+  "hunting grounds",
+  "kodo",
+  "mulgore",
+  "thunder bluff"
+ ],
+ "related": [
+  "zone:mulgore",
+  "zone:thunderbluff",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Golden Plains"
+ ]
+}

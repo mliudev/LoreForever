@@ -1,0 +1,93 @@
+{
+ "key": "subzone:moonwell-ashenvale",
+ "type": "subzone",
+ "name": "Moonwell (Ashenvale)",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Moonwell (Ashenvale)"
+ },
+ "summary": "This secluded shrine, known to the night elves as the Moonwell of Purity, rests in central Ashenvale east of Iris Lake and west of Raynewood Retreat. Its blessed waters channel the grace of Elune to nourish the ancient forest and cleanse creeping foulness from the land. Alliance travelers and night elf sentinels often seek out its tranquil basin to purify corrupted artifacts found in the woodland.",
+ "sections": [
+  {
+   "title": "Sanctuary of Purity",
+   "body": "Tucked away beneath the canopy of central Ashenvale, this moonwell serves as a spiritual anchor for the kaldorei. Tended by wardens like Felore Moonray, its luminescent waters tap into nature's latent magic and the light of the Moon Goddess. As the surrounding forest suffers from satyr corruption, fel taint, and logging incursions, pure shrines like this one become vital lifelines for those trying to heal the woods.",
+   "spoiler": 0
+  },
+  {
+   "title": "Healing the Wood",
+   "body": "The basin acts as the cleansing font in efforts to restore contaminated relics. Adventurers aiding Raene Wolfrunner come here to immerse defiled rod fragments, using the untouched lunar energies to banish corruption where ordinary remedies fail.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is this specific moonwell called?",
+   "aliases": [
+    "which moonwell is this",
+    "moonwell name",
+    "moonwell of purity"
+   ],
+   "answer": "This site is known as the Moonwell of Purity. It is one of several moonwells across Ashenvale, located east of Iris Lake and west of Raynewood Retreat."
+  },
+  {
+   "q": "What are moonwells used for?",
+   "aliases": [
+    "what does a moonwell do",
+    "moonwell purpose",
+    "why moonwells exist"
+   ],
+   "answer": "Moonwells are sacred basins consecrated to Elune that blend lunar power with natural magic. Night elves use them to sustain the land, replenish their spiritual strength, and purify items tainted by dark or demonic influences."
+  },
+  {
+   "q": "Who tends this moonwell?",
+   "aliases": [
+    "who is felore moonray",
+    "moonwell keeper"
+   ],
+   "answer": "Felore Moonray watches over the Moonwell of Purity, tending to its sacred waters and offering guidance to those seeking Elune's aid in the forest."
+  },
+  {
+   "q": "Why do Alliance adventurers visit this moonwell?",
+   "aliases": [
+    "raene's cleansing moonwell",
+    "why come here",
+    "cleanse rod here"
+   ],
+   "answer": "Alliance heroes are directed here during the task of cleansing corrupted relics recovered from the forest, such as during the investigations led by Raene Wolfrunner out of Astranaar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Every moonwell is a sacred home away from home for the kaldorei, serving as both a spiritual font of Elune's grace and a frontline bulwark against the demonic taint threatening Ashenvale."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Tailors can harness the dense lunar energies pooling within the waters to weave pure Mooncloth from felcloth."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "cleansing",
+  "elune",
+  "felore moonray",
+  "iris lake",
+  "moonwell",
+  "moonwell of purity",
+  "raynewood retreat"
+ ],
+ "related": [
+  "quest:991",
+  "zone:ashenvale",
+  "subzone:iris-lake",
+  "subzone:raynewood-retreat",
+  "subzone:moonwell-of-cleansing",
+  "subzone:silverwing-outpost",
+  "subzone:greenpaw-village",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Moonwell (Ashenvale)"
+ ]
+}

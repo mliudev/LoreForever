@@ -1,0 +1,125 @@
+{
+ "key": "quest:541",
+ "type": "quest",
+ "name": "Battle of Hillsbrad",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   541
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "High Executor Darthalia",
+  "end": "",
+  "previous": "Battle of Hillsbrad (5)",
+  "next": "Battle of Hillsbrad (7) (Classic) (Classic) or Battle of Hillsbrad (7) (WotLK Classic)",
+  "wiki": "Battle of Hillsbrad (6)",
+  "chain": []
+ },
+ "summary": "This critical phase of the Forsaken campaign in Hillsbrad targets the dwarven stronghold of Dun Garok. High Executor Darthalia dispatches Horde champions to dismantle the dwarven garrison assisting the local humans and execute their commanding officer, Captain Ironhill.",
+ "sections": [
+  {
+   "title": "Testing the Alliance",
+   "body": "Having pressured the human farmers and town militia across the foothills, High Executor Darthalia turns Tarren Mill's fury against Ironforge's military contingent. Dwarven troops have taken up arms in support of Southshore, reinforcing the human presence in Lordaeron. To Darthalia, this solidarity is an obstacle that must be shattered, proving to the Alliance that aiding the human remnants will bring only devastation.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fall of Dun Garok",
+   "body": "Tucked against the ancient ramparts of Thoradin's Wall in southeastern Hillsbrad, Dun Garok serves as a heavily fortified dwarven bastion. Storming the outpost requires breaking through ranks of disciplined mountaineers, crack riflemen, and battle-hardened priests. The assault culminates in the death of Captain Ironhill, breaking Ironforge's forward tactical command in the region and leaving the remaining human enclaves isolated.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are dwarves fighting in Hillsbrad?",
+   "aliases": [
+    "why are there dwarves in hillsbrad",
+    "dwarves dun garok",
+    "why dwarves helping humans"
+   ],
+   "answer": "The dwarves of Ironforge maintain strong ties to the Alliance and have sent armed forces north to Dun Garok to aid the surviving human populations of Southshore and Hillsbrad against Forsaken expansion."
+  },
+  {
+   "q": "Where is Dun Garok located?",
+   "aliases": [
+    "dun garok location",
+    "where is dun garok",
+    "find dun garok"
+   ],
+   "answer": "Dun Garok is situated in the southeastern corner of Hillsbrad Foothills, built directly into the foundations of Thoradin's Wall."
+  },
+  {
+   "q": "Who is Captain Ironhill?",
+   "aliases": [
+    "captain ironhill",
+    "who is ironhill",
+    "dun garok leader"
+   ],
+   "answer": "Captain Ironhill is the dwarven commander in charge of the garrison at Dun Garok. His presence keeps the mountaineers organized and operational in the region."
+  },
+  {
+   "q": "Who gives this order?",
+   "aliases": [
+    "who gives quest",
+    "questgiver darthalia",
+    "darthalia hillsbrad"
+   ],
+   "answer": "High Executor Darthalia, the Forsaken military commander stationed at Tarren Mill, issues the mission to crush the dwarven garrison."
+  },
+  {
+   "q": "What happens if Horde forces fail here?",
+   "aliases": [
+    "what if fail",
+    "darthalia threat",
+    "consequences"
+   ],
+   "answer": "High Executor Darthalia makes it clear that failure is intolerable, warning that anyone unable to break Dun Garok will be demoted to digging graves back in Tirisfal Glades."
+  },
+  {
+   "q": "Why is Dun Garok so difficult to assault?",
+   "aliases": [
+    "dun garok elite",
+    "why is dun garok hard",
+    "dun garok defense"
+   ],
+   "answer": "Unlike the rural militia of Hillsbrad, Dun Garok is manned by trained dwarven soldiers, rifle squads, and holy priests who fight in tight, fortified formations within their underground and elevated bunker."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Striking Dun Garok cuts off vital military reinforcements sent by Ironforge to assist the beleaguered humans of Southshore."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, eliminating the dwarven garrison secures southeastern Lordaeron and ensures no southern Alliance vanguard can easily march through Thoradin's Wall."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dun Garok represents Ironforge's steadfast loyalty to their human allies, enduring Forsaken siege to hold the northern frontier."
+  }
+ ],
+ "keywords": [
+  "battle of hillsbrad",
+  "captain ironhill",
+  "dun garok",
+  "high executor darthalia",
+  "mountaineer",
+  "rifleman",
+  "tarren mill",
+  "thoradin's wall"
+ ],
+ "related": [
+  "subzone:dun-garok",
+  "npc:high-executor-darthalia",
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "subzone:thoradin-s-wall",
+  "zone:tirisfal",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Battle of Hillsbrad (6)"
+ ]
+}

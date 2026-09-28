@@ -1,0 +1,129 @@
+{
+ "key": "quest:1063",
+ "type": "quest",
+ "name": "The Elder Crone",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   1063
+  ],
+  "level": "18",
+  "faction": "Horde",
+  "start": "Seereth Stonebreak",
+  "end": "Magatha Grimtotem",
+  "previous": "Goblin Invaders",
+  "next": "Forsaken Aid",
+  "wiki": "The Elder Crone",
+  "chain": []
+ },
+ "summary": "The Elder Crone is a Horde summons directing adventurers from the scarred crags of Stonetalon Mountains to the towering mesa of Thunder Bluff. Seeking spiritual guidance to mend Stonetalon's enraged elements, Seereth Stonebreak sends emissaries to consult the influential tauren elder Magatha Grimtotem on Elder Rise.",
+ "sections": [
+  {
+   "title": "Cry from Stonetalon",
+   "body": "In the crags of Stonetalon Mountains, goblin deforestation and mining ventures have enraged the local elemental spirits. Seereth Stonebreak, recognizing that raw force alone cannot quell the land's spiritual anguish, concludes that the wisdom of elder shamans is needed. Aware of few tribal leaders by name, Seereth knows of Magatha Grimtotem, an elder reputed for her deep knowledge and commanding presence.",
+   "spoiler": 0
+  },
+  {
+   "title": "Audience on Elder Rise",
+   "body": "Magatha holds court upon the heights of Elder Rise in Thunder Bluff, where shamanic and spiritual affairs congregate. Though the Grimtotem tribe maintains a precarious, often confrontational relationship with Cairne Bloodhoof's leadership, Magatha is recognized as a formidable elder whose counsel carries immense weight across the Horde. Adventurers arrive not knowing that bringing Stonetalon's troubles to her doorstep will redirect their efforts toward far darker remedies.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Pragmatic Alliance",
+   "body": "Upon hearing of the elemental turmoil, Magatha does not turn solely to traditional tauren rituals. Instead, she routes the problem toward the Forsaken alchemists dwelling within the city. Her willingness to entangle the Horde's newest, most cynical allies in Kalimdor's spiritual matters reveals her cunning and unconventional approach to power and problem-solving.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me to find Magatha?",
+   "aliases": [
+    "quest giver",
+    "who starts this",
+    "seereth stonebreak"
+   ],
+   "answer": "Seereth Stonebreak, stationed in the Stonetalon Mountains, gives you this task after you combat the Venture Company goblin invaders tearing through the mountain forests."
+  },
+  {
+   "q": "Where is Magatha Grimtotem located?",
+   "aliases": [
+    "magatha location",
+    "where is magatha",
+    "elder rise"
+   ],
+   "answer": "Magatha Grimtotem resides in Thunder Bluff atop the Elder Rise, which is the northeastern bluff connected to the central mesa by wooden bridges."
+  },
+  {
+   "q": "Why is Seereth asking an elder tauren for help?",
+   "aliases": [
+    "why elder crone",
+    "why consult magatha"
+   ],
+   "answer": "The destructive goblin industrial efforts in Stonetalon have deeply disturbed the regional spirits. Seereth realizes military force alone cannot heal the land and that true spiritual guidance is required to calm the agitated elements."
+  },
+  {
+   "q": "Who is Magatha Grimtotem?",
+   "aliases": [
+    "elder crone lore",
+    "who is the elder crone",
+    "magatha background"
+   ],
+   "answer": "Magatha is the matriarch and elder crone of the Grimtotem tribe. While her tribe is known for being fiercely aggressive and skeptical of the united Horde, Magatha maintains a seat of prominent political and spiritual influence atop Thunder Bluff."
+  },
+  {
+   "q": "What happens after speaking with Magatha?",
+   "aliases": [
+    "what next",
+    "quest follow up"
+   ],
+   "answer": "Magatha listens to your report of Stonetalon's plight and immediately sends you to consult with the Forsaken emissaries residing on the nearby pools of Elder Rise in the quest Forsaken Aid."
+  },
+  {
+   "q": "Why is this quest called 'The Elder Crone'?",
+   "aliases": [
+    "why crone",
+    "elder crone title"
+   ],
+   "answer": "The title refers directly to Magatha Grimtotem herself. Among both her own clan and the wider tauren people, she is widely known as the Elder Crone due to her advanced age, potent shamanic knowledge, and matriarchal authority."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren travelers, visiting Magatha is a reminder of the fragile balance between Cairne's united tribes and the aloof, fiercely traditional Grimtotem faction who dwell in the heart of Thunder Bluff."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman understand the gravity of Stonetalon's elemental rebellion; consulting an elder like Magatha on Elder Rise highlights the profound spiritual crisis unfolding in Kalimdor's peaks."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "This errand exposes the pragmatic threads binding the Horde together, linking a frontier crisis in Stonetalon directly to the high halls of Thunder Bluff's leadership."
+  }
+ ],
+ "keywords": [
+  "elder crone",
+  "elder rise",
+  "grimtotem",
+  "magatha",
+  "seereth stonebreak",
+  "spirits",
+  "stonetalon",
+  "tauren",
+  "thunder bluff"
+ ],
+ "related": [
+  "npc:magatha-grimtotem",
+  "npc:seereth-stonebreak",
+  "quest:1062",
+  "quest:1064",
+  "quest:1061",
+  "subzone:elder-rise",
+  "zone:thunderbluff",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "The Elder Crone"
+ ]
+}

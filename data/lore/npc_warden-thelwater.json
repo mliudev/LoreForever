@@ -1,0 +1,117 @@
+{
+ "key": "npc:warden-thelwater",
+ "type": "npc",
+ "name": "Warden Thelwater",
+ "era": "classic",
+ "zone": "stockade",
+ "meta": {
+  "wiki": "Warden Thelwater",
+  "refs": 4
+ },
+ "summary": "Warden Thelwater is the besieged overseer of the Stockade, Stormwind City's underground maximum-security prison. Caught unprepared when a violent riot erupted among the Defias prisoners, he now desperately recruits capable adventurers to quell the rebellion before word spreads to the city above.",
+ "sections": [
+  {
+   "title": "A Crisis in the Canals",
+   "body": "Hidden beneath the canals of Stormwind, the Stockade holds the kingdom's most dangerous miscreants, petty thieves, and political conspirators. Warden Thelwater was charged with keeping them securely locked away, but an organized revolt took the guards completely off guard. With the prisoners overwhelming security and taking control of the cells, Thelwater found himself barricaded at the threshold, struggling to contain an armed insurrection right beneath the streets of the capital.",
+   "spoiler": 0
+  },
+  {
+   "title": "Containing the Truth",
+   "body": "Rather than allowing panic to spill into the streets of Stormwind, Thelwater has chosen to handle the uprising with absolute discretion. The mastermind behind the breakout, Bazil Thredd, holds tremendous influence among the Defias Brotherhood locked inside. To prevent the riot from exposing wider vulnerabilities within Stormwind's governance, Thelwater relies on outside mercenaries to infiltrate the cellblocks, strike down the ringleaders, and quietly reclaim the facility.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Warden Thelwater?",
+   "aliases": [
+    "thelwater",
+    "stockade warden",
+    "who is thelwater"
+   ],
+   "answer": "Warden Thelwater is the human official stationed at the entrance of the Stockade in Stormwind City. He is responsible for managing the high-security prison complex."
+  },
+  {
+   "q": "What happened to the Stockade?",
+   "aliases": [
+    "stockade riot",
+    "what happened in stockades",
+    "why is stockades broken"
+   ],
+   "answer": "A coordinated revolt broke out among the prisoners, primarily driven by incarcerated members of the Defias Brotherhood. The inmates overpowered the guards and took over the cellblocks, leaving Thelwater and his remaining men pinned near the entrance."
+  },
+  {
+   "q": "Who is leading the prison riot?",
+   "aliases": [
+    "stockade leader",
+    "who leads the uprising",
+    "who is bazil thredd"
+   ],
+   "answer": "Bazil Thredd is the mastermind orchestrating the revolt from deep inside the prison. He commands the Defias inmates and directed the sudden strike against the guards."
+  },
+  {
+   "q": "Why hasn't the Stormwind City Guard intervened in force?",
+   "aliases": [
+    "why no guards",
+    "why hire adventurers",
+    "secret riot"
+   ],
+   "answer": "Thelwater aims to resolve the disaster quietly. Broadcasting that Stormwind's most fortified dungeon fell to its own inmates would ignite widespread panic across the city, so he enlists discreet adventurers to clean up the mess inside."
+  },
+  {
+   "q": "What kind of prisoners are kept here?",
+   "aliases": [
+    "stockade prisoners",
+    "who is in stockade",
+    "types of criminals"
+   ],
+   "answer": "The facility holds petty crooks, thieves, murderers, hostile gnolls, and dangerous political insurgents, most notably high-ranking members of the Defias Brotherhood."
+  },
+  {
+   "q": "Where can Warden Thelwater be found?",
+   "aliases": [
+    "thelwater location",
+    "where is warden",
+    "find thelwater"
+   ],
+   "answer": "He is stationed just inside the entrance corridor of the Stockade, located near the canals between the Mage Quarter and Cathedral Square in Stormwind City."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Warden Thelwater represents the fragile order within Stormwind, relying on loyal Alliance champions to squash the prison mutiny before it threatens the capital's citizens."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "For holy warriors dedicated to order and justice, Thelwater's desperate struggle to restore containment provides a direct call to bring righteous discipline to violent criminals."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Rogues entering the Stockade for Thelwater find themselves navigating the messy fallout of Defias intrigue and underground prison politics."
+  }
+ ],
+ "keywords": [
+  "bazil thredd",
+  "defias",
+  "prison",
+  "riot",
+  "stockade",
+  "stormwind",
+  "thelwater",
+  "warden thelwater"
+ ],
+ "related": [
+  "zone:stockade",
+  "subzone:stormwind-stockade",
+  "quest:391",
+  "quest:389",
+  "quest:387",
+  "quest:392",
+  "zone:stormwind",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Warden Thelwater"
+ ]
+}

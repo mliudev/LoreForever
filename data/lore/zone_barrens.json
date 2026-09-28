@@ -1,0 +1,132 @@
+{
+ "key": "zone:barrens",
+ "type": "zone",
+ "name": "The Barrens",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": [
+   "Barrens"
+  ],
+  "levels": "10-25",
+  "aliases": [
+   "Barrens"
+  ]
+ },
+ "summary": "The Barrens is an expansive, sun-baked savanna that serves as the beating geographical and logistical heart of the Horde in central Kalimdor. Once a verdant forest prior to the Great Sundering, it is now an arid plain of red dust, hardy scrub, and wandering wildlife. Centered around the strategic hub of the Crossroads, the land remains locked in constant struggle against quilboar tribes, centaur raiders, and creeping corruption.",
+ "sections": [
+  {
+   "title": "Heart of the New Horde",
+   "body": "For countless generations, nomadic tauren hunted kodo and zhevra across these plains while waging a defensive, cyclical war against marauding Kolkar centaur. When Thrall led the orcs to Kalimdor during the Third War, he aided Cairne Bloodhoof in repelling the centaur and traversing the savanna into Mulgore. Today, the Barrens connects Durotar, Mulgore, and Ashenvale. Outposts like the Crossroads and Camp Taurajo secure trade along the Gold Road, while orcish homesteads brave the arid climate to forge a lasting home.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Land Under Siege",
+   "body": "Despite Horde dominance, control over the savanna is hotly contested. Porcupine-like Razormane quilboar aggressively raid farms and supply lines from their thorn-choked redoubts, backed by the looming dens of Razorfen Kraul to the south. Along the eastern coast, Theramore forces garrison Northwatch Hold, while dwarven prospectors dig into the titan complex of Bael Modan. Meanwhile, the goblins of Ratchet enforce an uneasy mercantile neutrality, welcoming any traveler with coin.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Emerald Corruption",
+   "body": "Several oases punctuate the northern plains, their waters unnaturally surging with life-giving vigor. This surge originates from the Wailing Caverns, where the night elf druid Naralex attempted to tap into the Emerald Dream to restore the Barrens to its ancient, forested glory. Instead, a nightmare twisted Naralex's vision. Corrupted water now seeps across the Forgotten Pools and Stagnant Oasis, spawning bizarre deviate flora, unnatural beasts, and the rogue Druids of the Fang.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are there lush oases in the middle of a desert?",
+   "aliases": [
+    "barrens oases",
+    "why is there water in barrens",
+    "wailing caverns water"
+   ],
+   "answer": "The sudden pools\u2014such as the Forgotten Pools and Lushwater Oasis\u2014are fed by underground springs flowing out of the Wailing Caverns. The night elf druid Naralex tapped into the Emerald Dream to channel spring waters and regreen the arid land, but the venture went awry, saturating the northern Barrens with potent, volatile natural magic."
+  },
+  {
+   "q": "Who controls the Crossroads?",
+   "aliases": [
+    "who runs crossroads",
+    "crossroads horde",
+    "crossroads guards"
+   ],
+   "answer": "The Crossroads is garrisoned by the Horde, primarily orc and tauren warriors serving Warchief Thrall. Because it sits at the intersection of the primary trade routes linking Durotar, Mulgore, and Ashenvale, it serves as the Horde's chief strategic military and transit hub in central Kalimdor."
+  },
+  {
+   "q": "Why are the quilboar attacking everyone?",
+   "aliases": [
+    "quilboar lore",
+    "why quilboar aggressive",
+    "razormane motive"
+   ],
+   "answer": "The quilboar consider the Barrens their ancestral birthright, believing the colossal brambles sprouted from the blood of their demigod, Agamaggan, during the War of the Ancients. They view both the arriving Horde and the native tauren as trespassers stealing their sacred foraging grounds and hunting territory."
+  },
+  {
+   "q": "Why are Alliance soldiers in the Barrens?",
+   "aliases": [
+    "northwatch hold alliance",
+    "bael modan dwarves",
+    "alliance in barrens"
+   ],
+   "answer": "The Alliance maintains a presence along the edges of the savanna. Northwatch Hold is garrisoned by human troops from Theramore keeping watch over Horde movements, while the dwarves of Bael Modan and Bael'dun Keep are deeply invested in excavating ancient titan artifacts buried in the southern hills."
+  },
+  {
+   "q": "Is Ratchet part of the Horde?",
+   "aliases": [
+    "is ratchet horde",
+    "ratchet faction",
+    "gazlowe ratchet"
+   ],
+   "answer": "No. Ratchet is an independent goblin port run by Gazlowe. It maintains strict neutrality, acting as a gateway for maritime trade, smugglers, and adventurers of both the Horde and the Alliance, provided everyone respects goblin commerce and keeps weapons sheathed in town."
+  },
+  {
+   "q": "What is going on with the silithid in the south?",
+   "aliases": [
+    "barrens bugs",
+    "field of giants bugs",
+    "silithid south barrens"
+   ],
+   "answer": "Insectoid creatures called silithid have emerged from earthen hives in the southern Barrens, particularly around the Field of Giants. Their sudden appearance and rapid colony growth pose an escalating threat to travelers and local outposts, prompting the Horde to investigate their origins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Barrens is the logistical backbone of your realm; securing the Crossroads and defending supply convoys across the Gold Road ensures the survival of Orgrimmar and Thunder Bluff."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Before the orcs landed on Kalimdor, your nomadic ancestors wandered these savannas for generations, hunting sacred game and fighting for survival against the ruthless Kolkar centaur."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The twisted waters flowing from the Wailing Caverns represent a profound tragedy, where Naralex's noble attempt to restore the Barrens succumbed to the nightmare."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The arid plains test your connection to the elements, from the dry earth spirits of the plains to the enchanted, altered waters that bubble up in isolated oases."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "gold road",
+  "kolkar",
+  "naralex",
+  "quilboar",
+  "ratchet",
+  "taurajo",
+  "wailing caverns"
+ ],
+ "related": [
+  "subzone:crossroads",
+  "zone:wailing",
+  "subzone:ratchet",
+  "subzone:camp-taurajo",
+  "subzone:gold-road",
+  "zone:razorfenkraul",
+  "subzone:bael-modan",
+  "npc:naralex"
+ ],
+ "attribution": [
+  "Barrens"
+ ]
+}

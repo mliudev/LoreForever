@@ -1,0 +1,124 @@
+{
+ "key": "quest:1679",
+ "type": "quest",
+ "name": "Muren Stormpike",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   1679
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Granis Swiftaxe",
+  "end": "Muren Stormpike",
+  "previous": null,
+  "next": "Vejrek (quest)",
+  "wiki": "Muren Stormpike (quest)",
+  "chain": []
+ },
+ "summary": "Muren Stormpike is an introductory quest for developing Alliance warriors, given once a recruit proves their basic mettle in Dun Morogh. Directed by Granis Swiftaxe in Kharanos, the young fighter travels into the mountain city of Ironforge to seek formal instruction in martial discipline. Meeting Muren marks the beginning of deeper training in tactical stances and dwarven military traditions.",
+ "sections": [
+  {
+   "title": "A Summons to Ironforge",
+   "body": "After cutting their teeth against local threats in the snowy valleys of Dun Morogh, warrior novices catch the eye of Granis Swiftaxe in Kharanos. Recognizing that crude skirmishing can only take a brawler so far, Swiftaxe sends promising fighters to the heart of dwarven martial prowess: the Military Ward of Ironforge. There, within the echoing halls of the forge-city, senior combatants oversee the formal schooling of those bound for battle.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Master of Arms",
+   "body": "Upon reaching the Hall of Arms, recruits are introduced to Muren Stormpike, a seasoned veteran of a storied dwarven clan. Muren cares little for tavern tales and demands proof that his new charges can withstand real combat. Reporting to him opens the pathway toward mastering the defensive arts, learning to absorb and control enemy aggression, and earning well-crafted iron armaments fit for true front-line duty.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to find Muren Stormpike?",
+   "aliases": [
+    "who gives muren stormpike quest",
+    "where do i get muren stormpike",
+    "quest giver muren stormpike"
+   ],
+   "answer": "Granis Swiftaxe, the warrior trainer stationed in Kharanos, gives you the quest once you have proven your basic martial capability in Dun Morogh."
+  },
+  {
+   "q": "Where is Muren Stormpike located?",
+   "aliases": [
+    "where is muren stormpike",
+    "muren stormpike location",
+    "how to find muren"
+   ],
+   "answer": "Muren Stormpike is located in the Hall of Arms, situated within the Military Ward on the eastern side of Ironforge."
+  },
+  {
+   "q": "Why is this quest important for warriors?",
+   "aliases": [
+    "what does muren stormpike unlock",
+    "why do muren stormpike",
+    "muren stormpike rewards"
+   ],
+   "answer": "Reporting to Muren initiates advanced warrior training. This leads directly to tasks that unlock the Defensive Stance, teach vital defensive skills like Taunt, and reward a reliable early-career weapon."
+  },
+  {
+   "q": "Who is Muren Stormpike?",
+   "aliases": [
+    "who is muren",
+    "muren stormpike lore",
+    "is muren stormpike clan"
+   ],
+   "answer": "Muren is a veteran combat instructor in Ironforge belonging to the renowned Stormpike clan, an influential dwarven family known for its fierce warriors and expeditionary engineers."
+  },
+  {
+   "q": "Can any class take this quest?",
+   "aliases": [
+    "can non warriors do muren stormpike",
+    "is muren stormpike warrior only",
+    "muren stormpike classes"
+   ],
+   "answer": "No. This quest is strictly reserved for warrior novices ready to undergo specialized martial instruction."
+  },
+  {
+   "q": "What happens after reporting to Muren?",
+   "aliases": [
+    "what is next after muren stormpike",
+    "next quest after muren stormpike",
+    "vejrek quest"
+   ],
+   "answer": "After arriving and speaking with Muren, he immediately tests your resolve by directing you toward a combat trial, beginning with the quest to confront Vejrek."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This summons marks your rite of passage from a scrappy recruit into a disciplined soldier capable of holding the line and protecting allies."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarven fighters, reporting to the Hall of Arms connects you directly with the storied martial lineage and tactical discipline of the mountain clans."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomish warriors, having evacuated to Dun Morogh following the fall of Gnomeregan, rely on Ironforge's Hall of Arms to master traditional heavy frontline combat."
+  }
+ ],
+ "keywords": [
+  "defensive stance",
+  "granis swiftaxe",
+  "hall of arms",
+  "ironforge",
+  "kharanos",
+  "military ward",
+  "muren stormpike",
+  "warrior trainer"
+ ],
+ "related": [
+  "npc:granis-swiftaxe",
+  "zone:ironforge",
+  "subzone:military-ward",
+  "subzone:kharanos",
+  "zone:dunmorogh",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Muren Stormpike (quest)"
+ ]
+}

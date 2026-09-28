@@ -1,0 +1,92 @@
+{
+ "key": "subzone:ravencrest-monument",
+ "type": "subzone",
+ "name": "Ravencrest Monument",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Ravencrest Monument"
+ },
+ "summary": "Perched upon the windswept cliffs of southern Azshara, the Ravencrest Monument marks the shattered remnant of an ancient night elven colossus. Once a towering tribute overlooking the Great Sea, the statue has long since broken apart, leaving only towering legs and scattered stone ruins now stalked by hostile Spitelash naga.",
+ "sections": [
+  {
+   "title": "Ruins of a Colossus",
+   "body": "Standing high above the ocean southeast of the Ruins of Eldarath, the Ravencrest Monument was once an awe-inspiring marvel of Kaldorei stonework. Today, little remains of the majestic colossus beyond its pair of gigantic broken legs rooted to the stone plinth, with the shattered fragments of its torso and head either buried in the cliffside dirt or lost beneath the waves below. Reaching this remote coastal promontory requires trekking across the mainland bridges of Azshara, as sheer, rocky drops prevent any approach from the sea.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Forgotten Legacy",
+   "body": "Scholars often speculate that the monument commemorates Lord Kur'talos Ravencrest, the famed noble who rallied and led the night elven host during the War of the Ancients after the fall of Zin-Azshari. However, its close proximity to the pre-Sundering city of Eldarath and ambiguous surviving stonework leave its true origins debated. Rather than pilgrims or night elven caretakers, the surrounding cliff is currently claimed by the serpentine Spitelash naga, who defend the fallen monument with vicious territorial aggression.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Ravencrest Monument?",
+   "aliases": [
+    "ravencrest statue",
+    "what is this statue",
+    "giant legs azshara"
+   ],
+   "answer": "It is the ruined base of a massive night elven colossus located on a coastal promontory in southern Azshara. Only its gigantic stone legs still stand upright, while the rest of the sculpture lies shattered and scattered across the clifftop."
+  },
+  {
+   "q": "Who was the monument built to honor?",
+   "aliases": [
+    "who is ravencrest",
+    "who is the statue of",
+    "kurtalos ravencrest"
+   ],
+   "answer": "It bears the name of House Ravencrest, most famous for Lord Kur'talos Ravencrest, the noble commander who led the mortal resistance against the Burning Legion during the War of the Ancients. However, because it sits near the ancient ruins of Eldarath, it is unclear whether it honors Kur'talos directly or an earlier ancestor from before the Great Sundering."
+  },
+  {
+   "q": "How do you reach the monument?",
+   "aliases": [
+    "how to get to ravencrest monument",
+    "ravencrest path",
+    "ravencrest access"
+   ],
+   "answer": "The monument cannot be climbed or entered from the sea due to sheer cliffs. Travelers must navigate through southern Azshara by land, crossing over stone bridges near the Ruins of Eldarath to reach the promontory."
+  },
+  {
+   "q": "What creatures inhabit the monument today?",
+   "aliases": [
+    "what lives here",
+    "monument enemies",
+    "azshara naga"
+   ],
+   "answer": "The clifftop and surrounding terraces are infested with the Spitelash naga, making any exploration of the ancient ruins perilous for solitary travelers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, the monument is a sobering reminder of the ancient Kaldorei Empire and the noble lineage of Ravencrest, whose heroic resistance in the War of the Ancients saved Azeroth from demonic annihilation."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "The Ravencrest name carries mythic weight among battle commanders, as Kur'talos Ravencrest was the foremost general of the mortal forces during the catastrophic invasion of the Burning Legion."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "colossus",
+  "eldarath",
+  "kurtalos ravencrest",
+  "ravencrest",
+  "ravencrest monument",
+  "spitelash",
+  "statue"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:ruins-of-eldarath",
+  "topic:night-elf",
+  "topic:war-of-the-ancients",
+  "topic:naga",
+  "topic:burning-legion"
+ ],
+ "attribution": [
+  "Ravencrest Monument"
+ ]
+}

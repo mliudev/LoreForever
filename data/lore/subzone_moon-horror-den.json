@@ -1,0 +1,82 @@
+{
+ "key": "subzone:moon-horror-den",
+ "type": "subzone",
+ "name": "Moon Horror Den",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Moon Horror Den"
+ },
+ "summary": "Moon Horror Den is a secluded, frost-rimed cave located just northeast of the goblin trading post of Everlook in Winterspring. Tucked against the jagged mountainside, the cavern serves as a nesting hollow for ferocious raging owlbeasts. Travelers must take care when venturing near its icy mouth, as these territorial wildkin fiercely defend their shelter.",
+ "sections": [
+  {
+   "title": "A Den of Feathers and Frost",
+   "body": "Situated only a short trek northeast from Everlook's guarded gates, the Moon Horror Den cuts deep into the mountain rock. The cave is home to powerful raging owlbeasts\u2014formidable wildkin known for their brute strength and feral disposition in the harsh snows of Winterspring. Although geographically close to the furbolg settlement of Winterfall Village to the south, the sheer mountain face creates an impassable natural barrier, ensuring the den remains an isolated refuge for the wildkin rather than a corridor of travel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures live in the Moon Horror Den?",
+   "aliases": [
+    "what is in moon horror den",
+    "moon horror den mobs",
+    "owlbeasts in cave"
+   ],
+   "answer": "The cavern is inhabited by raging owlbeasts, large and aggressive wildkin adapted to the freezing climate of Winterspring. These territorial beasts violently attack anyone wandering into their subterranean lair."
+  },
+  {
+   "q": "Where is the Moon Horror Den located?",
+   "aliases": [
+    "moon horror den location",
+    "how to find moon horror den",
+    "where is moon horror den"
+   ],
+   "answer": "It is located in eastern Winterspring, just a short walk northeast of the goblin town of Everlook. The mouth of the cave is nestled into the northern rock face."
+  },
+  {
+   "q": "Can you reach Winterfall Village from the den?",
+   "aliases": [
+    "path to winterfall village",
+    "shortcut to winterfall",
+    "den to winterfall"
+   ],
+   "answer": "No. Although Winterfall Village lies directly south on the map, the high mountain ridge forms an impassable natural wall behind the den. Reaching the village requires traveling around the mountain slopes through the open valley."
+  },
+  {
+   "q": "Why do travelers venture into this cave?",
+   "aliases": [
+    "why go to moon horror den",
+    "moon horror den quests"
+   ],
+   "answer": "Adventurers typically enter the den to hunt the raging owlbeasts while assisting naturalists and researchers studying the corrupted or aggressive wildkin populations of Winterspring."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As stewards of Elune's sacred creatures, druids find the violent frenzy of the owlbeasts dwelling in the den to be a sobering sight, reflecting the wild turbulence gripping Winterspring."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The cavern offers a tight, dangerous arena for tracking ferocious wildkin, where close-quarters combat against thick-hided owlbeasts tests any tracker's nerve."
+  }
+ ],
+ "keywords": [
+  "cave",
+  "everlook",
+  "moon horror den",
+  "owlbeasts",
+  "raging owlbeast",
+  "wildkin",
+  "winterspring"
+ ],
+ "related": [
+  "subzone:everlook",
+  "zone:winterspring",
+  "subzone:winterfall-village"
+ ],
+ "attribution": [
+  "Moon Horror Den"
+ ]
+}

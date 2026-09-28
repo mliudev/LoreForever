@@ -1,0 +1,115 @@
+{
+ "key": "npc:mountaineer-thalos",
+ "type": "npc",
+ "name": "Mountaineer Thalos",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Mountaineer Thalos",
+  "refs": 3
+ },
+ "summary": "Mountaineer Thalos is a dwarven sentry stationed at the Coldridge Valley mouth of Coldridge Pass. Tasked with guarding the route, he warns travelers about the sudden trogg infestation choking the tunnel. Adventurers carrying urgent reports from the valley rely on him to point the way safely toward Kharanos.",
+ "sections": [
+  {
+   "title": "Guardian of Coldridge Pass",
+   "body": "Perched on the snowy border where Coldridge Valley gives way to the deeper crags of Dun Morogh, Mountaineer Thalos serves as the first line of defense for travelers leaving the dwarven training grounds. Coldridge Pass has become a treacherous chokepoint overrun by hostile troggs who have burrowed up from the subterranean depths. Thalos stands vigil in the cold, warning the unready to turn back and assessing whether hardy couriers possess the grit to fight their way through to the wider kingdom.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Courier's Checkpoint",
+   "body": "When Senir Whitebeard gathers intelligence on the trogg incursions and frostmane troll movements within the secluded valley, Mountaineer Thalos is the designated recipient of those urgent field dispatches. After verifying that an adventurer is capable of braving the infested passage, Thalos directs them onward to Kharanos, where regional commanders coordinate Dun Morogh's defense. His watchful presence ensures that vital intelligence reaches Ironforge's military leaders rather than dying in the snow.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mountaineer Thalos?",
+   "aliases": [
+    "thalos lore",
+    "who is thalos",
+    "mountaineer thalos"
+   ],
+   "answer": "Mountaineer Thalos is an Ironforge mountaineer stationed at the southern opening of Coldridge Pass. His post guards the threshold between Coldridge Valley and the broader expanses of Dun Morogh."
+  },
+  {
+   "q": "Why is Mountaineer Thalos warning travelers away?",
+   "aliases": [
+    "why is pass closed",
+    "troggs in pass",
+    "coldridge pass danger"
+   ],
+   "answer": "A vicious infestation of Rockjaw troggs has overrun Coldridge Pass. Thalos warns civilians and novice fighters against attempting the crossing, allowing only capable couriers and hardened fighters to venture inside."
+  },
+  {
+   "q": "Where does Mountaineer Thalos send adventurers?",
+   "aliases": [
+    "where do i go after thalos",
+    "thalos destination",
+    "next town"
+   ],
+   "answer": "After reviewing urgent field reports arriving from Coldridge Valley, Thalos points travelers through the pass toward Kharanos, the nearest settlement on the road to Ironforge."
+  },
+  {
+   "q": "What report does Thalos receive from Senir Whitebeard?",
+   "aliases": [
+    "senirs observations",
+    "senir dispatch",
+    "what does thalos read"
+   ],
+   "answer": "Thalos takes delivery of Senir's Observations, a reconnaissance report detailing the severity of the trogg and troll threats disrupting Coldridge Valley, before sending the messenger ahead to town."
+  },
+  {
+   "q": "What faction does Mountaineer Thalos belong to?",
+   "aliases": [
+    "thalos faction",
+    "is thalos ironforge",
+    "mountaineers alliance"
+   ],
+   "answer": "Thalos is a sworn member of the Ironforge Mountaineers, the rugged frontier rangers tasked with patrolling Dun Morogh's borders, tunnels, and snow-swept mountain trails for the Alliance."
+  },
+  {
+   "q": "Is Coldridge Pass impassable without speaking to Thalos?",
+   "aliases": [
+    "do i need to talk to thalos",
+    "bypass thalos"
+   ],
+   "answer": "The pass is physically open to anyone daring enough to walk into it, but speaking to Thalos ensures an adventurer delivers vital reconnaissance to Kharanos and learns the hazards lying ahead."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For young dwarves leaving their homeland's nursery, Thalos is the solemn reminder that the trogg threat is no mere training drill, but a siege pressing hard against Ironforge's thresholds."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomes traveling outward from Gnomeregan's refugee shelters find Thalos standing guard along the main overland route leading down toward Kharanos and Ironforge."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Thalos maintains communication along the vital mountain conduit linking the valley's defensive forces with central Ironforge command."
+  }
+ ],
+ "keywords": [
+  "coldridge pass",
+  "coldridge valley",
+  "dun morogh",
+  "ironforge mountaineer",
+  "kharanos",
+  "mountaineer thalos",
+  "senir whitebeard",
+  "troggs"
+ ],
+ "related": [
+  "subzone:coldridge-pass",
+  "subzone:coldridge-valley",
+  "quest:282",
+  "subzone:kharanos",
+  "zone:dunmorogh",
+  "topic:trogg",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Mountaineer Thalos"
+ ]
+}

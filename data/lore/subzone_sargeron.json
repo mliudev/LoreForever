@@ -1,0 +1,86 @@
+{
+ "key": "subzone:sargeron",
+ "type": "subzone",
+ "name": "Sargeron",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Sargeron"
+ },
+ "summary": "Sargeron is the crumbled ruin of an ancient night elf city located in northern Desolace. Shattered during the Great Sundering, its former temples of Elune have been defiled and claimed by the Hatefury satyrs, who renamed the grounds in tribute to their master, Sargeras.",
+ "sections": [
+  {
+   "title": "A Defiled Sanctuary",
+   "body": "Before the War of the Ancients broke the continent, this settlement was a flourishing center of worship dedicated to Elune, housing sacred grounds such as Elune's Temple, Sanctuary, and Cathedral. Its true name is lost to antiquity. When the world shattered, the city collapsed into rubble, leaving behind sanctified relics like the Cup of Elune, Elune's Brazier, and Elune's Handmaiden. In the millennia since, corrupted Hatefury satyrs overran the stones, repurposing the sacred Kaldorei architecture into a stronghold honoring the titan Sargeras.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Sargeron called before the Sundering?",
+   "aliases": [
+    "original name",
+    "sargeron original name",
+    "what was it called"
+   ],
+   "answer": "Its original night elven name has been lost to time. The current name, Sargeron, was given to the ruins by the Hatefury satyrs in homage to the fallen titan Sargeras."
+  },
+  {
+   "q": "Who occupies Sargeron now?",
+   "aliases": [
+    "who lives here",
+    "sargeron mobs",
+    "enemies in sargeron"
+   ],
+   "answer": "The ruins are occupied by the Hatefury satyrs, corrupt demonic beings spawned during the War of the Ancients who actively desecrate the ancient elven sites."
+  },
+  {
+   "q": "What holy sites were originally located here?",
+   "aliases": [
+    "elune temples",
+    "holy sites",
+    "what buildings were here"
+   ],
+   "answer": "The city held several major sites devoted to the Moon Goddess, including Elune's Temple, Elune's Sanctuary, and Elune's Cathedral, which once sheltered revered relics such as the Cup of Elune."
+  },
+  {
+   "q": "Why is Sargeron significant to night elves?",
+   "aliases": [
+    "night elf lore sargeron",
+    "why do night elves care"
+   ],
+   "answer": "It serves as a grim reminder of the War of the Ancients and the defilement of Kaldorei holy spaces by demonic forces, harboring ancient elven artifacts that risk being lost or corrupted."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The ruins are a painful sight for any Kaldorei, as sacred altars of Elune are openly defiled by demonic satyrs who mock the goddess in Sargeras's name."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests of the Moon will recognize remnants of Elune's Cathedral and holy relics scattered across the broken stones, urging purification."
+  }
+ ],
+ "keywords": [
+  "cup of elune",
+  "desolace",
+  "elune",
+  "hatefury",
+  "kaldorei",
+  "sargeras",
+  "sargeron",
+  "satyr"
+ ],
+ "related": [
+  "zone:desolace",
+  "topic:satyr",
+  "topic:elune",
+  "topic:sargeras",
+  "topic:night-elf",
+  "topic:war-of-the-ancients"
+ ],
+ "attribution": [
+  "Sargeron"
+ ]
+}

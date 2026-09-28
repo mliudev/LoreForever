@@ -1,0 +1,81 @@
+{
+ "key": "subzone:lost-point",
+ "type": "subzone",
+ "name": "Lost Point",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Lost Point"
+ },
+ "summary": "Lost Point is a dilapidated wooden watchtower standing in western Dustwallow Marsh, originally constructed by Theramore's forces as an advance scout post. It has since fallen into disrepair and slipped from the control of Lady Jaina Proudmoore's guard, now serving as a hideout for rogue deserters.",
+ "sections": [
+  {
+   "title": "A Forsaken Outpost",
+   "body": "Erected by the expeditionary forces of Theramore to monitor traffic and threats emerging from the Barrens, Lost Point has long outlived its intended military function. The outpost has decayed under the relentless moisture of the marsh, its timber rotting and its defenses abandoned by regular troops. Instead of garrison sentries, the tower and its immediate surroundings are occupied by human deserters who broke away from Theramore's service, finding shelter in the isolated wilderness far from the discipline of the city's commanders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Den of Deserters",
+   "body": "The deserters ensconced at Lost Point answer to Balos Jacken, a disgruntled former soldier who has banded these rogues together. Their presence is far more than a simple matter of military insubordination. Jacken and his cohorts hold key testimonies regarding traitorous elements within Theramore's ranks, including the involvement of Private Hendel in a high-stakes conspiracy that reaches into the upper echelons of the Alliance.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Lost Point?",
+   "aliases": [
+    "lost point overview",
+    "what is this tower",
+    "about lost point"
+   ],
+   "answer": "Lost Point is a rundown watchtower built by the humans of Theramore in the western marshes of Dustwallow. Though meant to serve as an advance scout tower, it has been abandoned by the military and taken over by deserters."
+  },
+  {
+   "q": "Who lives at Lost Point right now?",
+   "aliases": [
+    "who is at lost point",
+    "lost point enemies",
+    "lost point mobs"
+   ],
+   "answer": "The tower and surrounding camp are currently inhabited by Theramore deserters. These renegade human soldiers have abandoned their oaths to Theramore and operate under the leadership of Balos Jacken."
+  },
+  {
+   "q": "Who is Balos Jacken?",
+   "aliases": [
+    "balos jacken",
+    "deserter leader",
+    "who leads lost point"
+   ],
+   "answer": "Balos Jacken is the ringleader of the Theramore deserters hiding at Lost Point. Despite his criminal standing, he possesses crucial intelligence exposing treacherous personnel within the Theramore guard, particularly Private Hendel."
+  },
+  {
+   "q": "Why did Theramore abandon the tower?",
+   "aliases": [
+    "why abandoned",
+    "why is lost point ruined",
+    "why run down"
+   ],
+   "answer": "Dustwallow Marsh is hostile and difficult to supply. As garrison morale broke and discipline strained, the isolated outpost fell into disrepair, becoming an ideal sanctuary for soldiers seeking to escape duty without fleeing into Horde territory."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance loyalists, Lost Point is a bitter symbol of fraying discipline within Theramore's ranks and a den of renegades harboring dark secrets about military treason."
+  }
+ ],
+ "keywords": [
+  "balos jacken",
+  "dustwallow marsh",
+  "hendel",
+  "lost point",
+  "scout tower",
+  "theramore deserters"
+ ],
+ "related": [
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Lost Point"
+ ]
+}

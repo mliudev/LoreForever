@@ -1,0 +1,88 @@
+{
+ "key": "subzone:apothecary-darkshore",
+ "type": "subzone",
+ "name": "Apothecary (Darkshore)",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Apothecary (Darkshore)"
+ },
+ "summary": "Tucked along the misty northern coast of Darkshore, this Forsaken apothecary camp stands out starkly against the ancient kaldorei woods. Equipped with alchemical vats and plague cauldrons, the outpost marks a sinister Undercity foothold on northern Kalimdor. Its presence so far from Lordaeron poses a silent, toxic threat to the local woodland and sea life.",
+ "sections": [
+  {
+   "title": "A Chemical Encampment",
+   "body": "The Apothecary setup on the Gloomtide Strand brings the bleak industry of the Royal Apothecary Society straight to ancient elven shores. Centered around bubbling alchemy vats and makeshift tents, Forsaken researchers have established a working lab far from the Undercity. Their goal remains shrouded in secrecy, but the apparatus present mirrors the tools used across Tirisfal Glades to brew volatile concotions and experimental blights.",
+   "spoiler": 0
+  },
+  {
+   "title": "Intruders on Kaldorei Soil",
+   "body": "Darkshore's delicate coastal ecosystem already buckles under the corrupting influence of beached behemoths, lingering ghosts, and vile cultists. The intrusion of Forsaken apothecaries introduces a direct alchemical menace to the strand. Night elf sentinels and druids view this unauthorized lab as a foul desecration of their ancestral home, watching warily for whatever foul brew the Society intends to unleash upon the shore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Forsaken Apothecary doing in Darkshore?",
+   "aliases": [
+    "forsaken darkshore tent",
+    "why are undead in darkshore",
+    "apothecary camp gloomtide"
+   ],
+   "answer": "The Royal Apothecary Society frequently sends forward researchers across Kalimdor to study local reagents, test strange chemicals, and brew alchemical compounds away from prying eyes. Their encampment along the coast gives them a quiet staging point to conduct experiments far from the watchful gaze of the Alliance capitals."
+  },
+  {
+   "q": "Where is this apothecary camp located?",
+   "aliases": [
+    "where is apothecary darkshore",
+    "darkshore apothecary location"
+   ],
+   "answer": "It lies along the Gloomtide Strand and the northern reaches of Mist's Edge in Darkshore, pitched directly against the cold, gray sands near the surf."
+  },
+  {
+   "q": "What equipment is kept at the site?",
+   "aliases": [
+    "alchemy vat darkshore",
+    "apothecary tent tools"
+   ],
+   "answer": "The camp is marked by Forsaken-style leather canopies housing bubbling alchemy vats, chemical jars, and testing equipment identical to those used by the Royal Apothecary Society in Lordaeron."
+  },
+  {
+   "q": "How do the local night elves react to this camp?",
+   "aliases": [
+    "do night elves know about apothecary",
+    "alliance reaction apothecary"
+   ],
+   "answer": "The kaldorei consider any Forsaken alchemical presence an utter blasphemy against nature. Sentinel scouts and druids from Auberdine treat chemical testing on their coastline as an immediate ecological and territorial threat."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The stench of Forsaken chemicals upon sacred kaldorei shores is an outrage to Elune and nature alike, demanding immediate cleansing before the land is poisoned."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Establishing remote testing vats allows the Royal Apothecary Society to research rare coastal reagents without interference from the Living or meddling Horde allies."
+  }
+ ],
+ "keywords": [
+  "alchemy vat",
+  "apothecary",
+  "darkshore",
+  "forsaken",
+  "gloomtide strand",
+  "mist's edge",
+  "undercity"
+ ],
+ "related": [
+  "subzone:gloomtide-strand",
+  "subzone:mist-s-edge",
+  "zone:darkshore",
+  "topic:forsaken",
+  "topic:druid",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Apothecary (Darkshore)"
+ ]
+}

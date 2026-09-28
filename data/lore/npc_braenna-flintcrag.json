@@ -1,0 +1,86 @@
+{
+ "key": "npc:braenna-flintcrag",
+ "type": "npc",
+ "name": "Braenna Flintcrag",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Braenna Flintcrag",
+  "refs": 1
+ },
+ "summary": "Braenna Flintcrag is a dwarven priest trainer stationed within the Hall of Mysteries in Ironforge's Mystic Ward. She instructs devout followers of the Holy Light, guiding dwarven acolytes as they develop their spiritual disciplines and healing arts. She also assists traveling priests returning to the mountain city after their duties across Azeroth.",
+ "sections": [
+  {
+   "title": "A Guide in the Hall of Mysteries",
+   "body": "Residing within the quiet alcoves of the Hall of Mysteries in Ironforge's Mystic Ward, Braenna Flintcrag serves the Alliance as a dedicated priest trainer. While Ironforge is renowned for its roaring forges and martial warriors, devout dwarves like Braenna tend to the spiritual welfare of Khaz Modan. She mentors novices answering the call of the Holy Light, teaching the dual disciplines of restorative mending and defensive warding required to survive in an increasingly dangerous world.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Braenna Flintcrag?",
+   "aliases": [
+    "braenna flintcrag",
+    "who is braenna",
+    "priest trainer braenna"
+   ],
+   "answer": "Braenna Flintcrag is a dwarven priest trainer situated in the Hall of Mysteries within Ironforge's Mystic Ward. She educates priests in new holy prayers, spells, and spiritual disciplines."
+  },
+  {
+   "q": "Where can I find Braenna Flintcrag?",
+   "aliases": [
+    "where is braenna",
+    "braenna flintcrag location",
+    "find braenna flintcrag"
+   ],
+   "answer": "You can find her inside the Hall of Mysteries, a large sanctuary dedicated to the arcane and divine arts located in the Mystic Ward of Ironforge."
+  },
+  {
+   "q": "What services does she provide to travelers?",
+   "aliases": [
+    "braenna services",
+    "what does braenna do",
+    "can braenna train me"
+   ],
+   "answer": "She provides training and rank progression for priests of the Alliance. She also serves as a point of contact for priests directed back to Ironforge through quests like Returning Home."
+  },
+  {
+   "q": "Is she related to anyone else in Khaz Modan?",
+   "aliases": [
+    "flintcrag family",
+    "thulman flintcrag relative",
+    "braenna flintcrag relatives"
+   ],
+   "answer": "She shares the Flintcrag surname with Thulman Flintcrag, suggesting she belongs to a notable dwarven lineage within Khaz Modan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "For dwarven and Alliance priests, Braenna is a reliable mentor in Ironforge to learn essential spells, master the Light, and report back after travels afar."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Braenna represents the deep-seated spiritual devotion found among the dwarves of Ironforge, balancing martial grit with devout service to the Holy Light."
+  }
+ ],
+ "keywords": [
+  "braenna flintcrag",
+  "hall of mysteries",
+  "holy light",
+  "ironforge",
+  "mystic ward",
+  "priest trainer",
+  "returning home"
+ ],
+ "related": [
+  "subzone:hall-of-mysteries",
+  "subzone:mystic-ward",
+  "zone:ironforge",
+  "topic:dwarf",
+  "quest:5628"
+ ],
+ "attribution": [
+  "Braenna Flintcrag"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "subzone:train-depot",
+ "type": "subzone",
+ "name": "Train Depot",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Train Depot"
+ },
+ "summary": "The Train Depot is a subterranean transit hub located just below the surface entrances of Gnomeregan in Dun Morogh. Once a bustling center of gnomish locomotion, it now swarms with hostile leper gnomes and invading troggs.",
+ "sections": [
+  {
+   "title": "A Ruined Transit Hub",
+   "body": "Situated at the bottom of the grand elevator leading down from Dun Morogh, the Train Depot once served as the primary nexus for rail transport across the subterranean marvel of Gnomeregan. Today, the platforms and railbeds lie in shambles. The fallout that irradiated the city transformed its remaining workers into crazed leper gnomes, while subterranean troggs have overrun the tracks. Explorers descending into the ruined city must navigate this staging ground to reach deeper sectors such as Clockwerk Run, the Loading Room, and the inner engineering facilities.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Train Depot located?",
+   "aliases": [
+    "train depot location",
+    "how to get to train depot",
+    "train depot entrance"
+   ],
+   "answer": "The Train Depot lies directly beneath the surface entrance elevator in Dun Morogh, acting as one of the outer threshold areas before venturing into the core of Gnomeregan."
+  },
+  {
+   "q": "What creatures inhabit the Train Depot now?",
+   "aliases": [
+    "train depot enemies",
+    "mobs in train depot",
+    "who is in train depot"
+   ],
+   "answer": "The depot is overrun by feral troggs who burrowed up from the deep earth and wretched leper gnomes who lost their sanity during the radioactive disaster."
+  },
+  {
+   "q": "Where do the paths from the Train Depot lead?",
+   "aliases": [
+    "train depot exits",
+    "where does train depot go",
+    "train depot connections"
+   ],
+   "answer": "Passages lead west into Clockwerk Run and toward the Loading Room, while a northern workshop area houses a back door down into the upper Engineering Labs."
+  },
+  {
+   "q": "Who is hiding in the Train Depot?",
+   "aliases": [
+    "namdo bizzfizzle",
+    "train depot npc",
+    "train depot vendor"
+   ],
+   "answer": "Namdo Bizzfizzle, an engineering supplier, manages to survive tucked away beneath the north side of the main platform on the depot's lower level."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For exiled gnomes, the abandoned depot is a tragic sight, showing the ruin of the advanced locomotion systems that once united their subterranean metropolis."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers seeking rare schematics often scout the depot's lower platforms, where surviving gnome peddlers like Namdo Bizzfizzle still ply their trade amidst the wreckage."
+  }
+ ],
+ "keywords": [
+  "clockwerk run",
+  "dun morogh",
+  "gnomeregan",
+  "leper gnome",
+  "loading room",
+  "namdo bizzfizzle",
+  "train depot",
+  "trogg"
+ ],
+ "related": [
+  "zone:gnomeregan",
+  "zone:dunmorogh",
+  "subzone:clockwerk-run",
+  "subzone:loading-room",
+  "subzone:engineering-labs",
+  "topic:leper-gnome",
+  "topic:trogg",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Train Depot"
+ ]
+}

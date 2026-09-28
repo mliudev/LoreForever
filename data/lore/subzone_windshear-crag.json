@@ -1,0 +1,104 @@
+{
+ "key": "subzone:windshear-crag",
+ "type": "subzone",
+ "name": "Windshear Crag",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Windshear Crag"
+ },
+ "summary": "Windshear Crag is a heavily despoiled valley in the central Stonetalon Mountains, stripped of its ancient timber by the Venture Company. Once a lush forest, the region is now an industrial wasteland dominated by whirring shredders, murky runoff, and aggressive logging crews. In the shadows of the machinery, local kobolds burrow for ore while mountain passes connect the scarred landscape to Ashenvale.",
+ "sections": [
+  {
+   "title": "Industrial Devastation",
+   "body": "Not long ago, Windshear Crag was a thick, old-growth woodland flanking the slopes of Stonetalon. That tranquil wilderness vanished when the Venture Company arrived in search of profit. Today, the basin is filled with severed stumps, acrid smog, and clanking machinery. The entire logging enterprise is overseen by Gerenzo Wrenchwhistle, a leper gnome whose engineering genius produced the Super Reaper 6000\u2014a mechanical terror capable of reducing massive trunks to kindling in moments. From an elevated platform above the polluted Cragpool Lake, Gerenzo directs an unchecked operation that strips the mountain bare, earning the hostility of rival engineers and local inhabitants alike.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mines and Mountain Passes",
+   "body": "Beyond the active timberyards, Windshear Crag holds other hazards and crossroads. To the southeast lies Windshear Mine, where territorial kobolds dig through the rock for Smoky Iron Ingots, fiercely attacking anyone who nears their haul. In the crag's northeast reaches, travelers can find the Talondeep Path, an underground cavern tunnel threading straight beneath the ridges into Ashenvale. Stationed near this shadowed portal stands the tauren elder Braug Dimspirit, who tests the historical wisdom and resolve of Horde wayfarers venturing through the contested peaks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is running the logging operation here?",
+   "aliases": [
+    "who leads venture co here",
+    "who is the boss of windshear",
+    "gerenzo wrenchwhistle lore"
+   ],
+   "answer": "The logging venture is commanded on-site by Gerenzo Wrenchwhistle, a brilliant but contaminated leper gnome engineer. Operating under contract with the Venture Company, he watches over the crag from a timber platform raised directly over Cragpool Lake."
+  },
+  {
+   "q": "What is the Super Reaper 6000?",
+   "aliases": [
+    "super reaper 6000",
+    "what is the big shredder",
+    "venture co reaper"
+   ],
+   "answer": "The Super Reaper 6000 is an advanced mechanical logging prototype engineered by Gerenzo Wrenchwhistle. Designed to clear timber at unprecedented speeds, it can grind ancient mountain trees into sawdust within moments, accelerating the company's clear-cutting."
+  },
+  {
+   "q": "Why is the Undermine Tinkers' Union targeting Gerenzo?",
+   "aliases": [
+    "why kill gerenzo",
+    "ziz fizziks motives",
+    "tinkers union vendetta"
+   ],
+   "answer": "Director Riddlevox of the Tinkers' Union in Undermine dispatched the goblin Ziz Fizziks to recover Gerenzo's stolen designs and execute him. The Union considers Gerenzo's unauthorized modifications to their shredder schematics a blatant theft of intellectual property."
+  },
+  {
+   "q": "Where does the cave in the northeast lead?",
+   "aliases": [
+    "talondeep path destination",
+    "windshear cave exit",
+    "tunnel in windshear crag"
+   ],
+   "answer": "The cave in the northeast corner is the Talondeep Path. It cuts through the subterranean roots of the mountains, providing a foot route between Windshear Crag and the dense forests of Ashenvale."
+  },
+  {
+   "q": "Who are the kobolds digging in the southeast?",
+   "aliases": [
+    "windshear mine kobolds",
+    "why are kobolds here",
+    "smoky iron ingots"
+   ],
+   "answer": "The Windshear kobolds have overrun the local mine in the southeastern corner of the crag. They vigorously defend their subterranean claim, excavating deposits of Smoky Iron Ingots used by regional smiths."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The industrial equipment throughout the crag showcases cutthroat goblin trade secrets and Gerenzo Wrenchwhistle's lethal Super Reaper designs."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde travelers heading toward Ashenvale encounter Braug Dimspirit near the Talondeep Path, where he tests their knowledge of Kalimdor's history."
+  }
+ ],
+ "keywords": [
+  "braug dimspirit",
+  "cragpool lake",
+  "gerenzo wrenchwhistle",
+  "super reaper 6000",
+  "talondeep path",
+  "venture company",
+  "windshear crag",
+  "windshear mine",
+  "ziz fizziks"
+ ],
+ "related": [
+  "zone:stonetalon",
+  "topic:venture-company",
+  "subzone:cragpool-lake",
+  "subzone:talondeep-path",
+  "quest:1096",
+  "quest:1093",
+  "quest:1483",
+  "quest:1152"
+ ],
+ "attribution": [
+  "Windshear Crag"
+ ]
+}

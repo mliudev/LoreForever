@@ -1,0 +1,116 @@
+{
+ "key": "quest:103",
+ "type": "quest",
+ "name": "Keeper of the Flame",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   103
+  ],
+  "level": "16",
+  "faction": null,
+  "start": "Captain Grayson",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Keeper of the Flame (Classic)",
+  "chain": []
+ },
+ "summary": "Keeper of the Flame is a quest offered by Captain Grayson, a spectral sailor haunting the rocky shores of the Westfall Lighthouse. In the wake of a brutal murloc massacre that wiped out the living keepers, Grayson seeks oil to keep the coastal beacon burning and guide ships safely past treacherous reefs.",
+ "sections": [
+  {
+   "title": "A Spectral Duty",
+   "body": "Perched on a craggy islet off the southwest shore of Westfall, the lighthouse once safely guided mariners navigating the treacherous shallows of the Great Sea. That came to a bloody end when the murloc raider Old Murk-Eye led an assault, slaughtering the keeper and his family. The ghost of Captain Grayson, who met his own watery demise upon these very rocks, now watches over the tower. Powerless to stop the massacre in death, Grayson refuses to allow the lighthouse to go dark.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fueling the Beacon",
+   "body": "Without a living keeper to tend the flame, maintaining the light requires an unusual source of fuel. The rogue Harvest Watchers wandering the abandoned farmlands of Westfall carry flasks of machinery oil in their rusted bellies. Grayson sends adventurers back ashore to salvage this oil from the haywire constructs, ensuring the flame endures and preventing other wayward captains from sharing his grim fate.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Captain Grayson?",
+   "aliases": [
+    "captain grayson",
+    "lighthouse ghost",
+    "who is the ghost at westfall lighthouse"
+   ],
+   "answer": "Captain Grayson is the restless spirit of a mariner who shipwrecked and died along the perilous coastline of Westfall. Unable to move on, he took it upon himself to watch over the Westfall Lighthouse and protect living sailors from suffering the same tragic end."
+  },
+  {
+   "q": "What happened to the original lighthouse keepers?",
+   "aliases": [
+    "what happened to lighthouse keeper",
+    "who killed the lighthouse keeper",
+    "keeper family dead"
+   ],
+   "answer": "The lighthouse keeper and his family were brutally murdered in a raid led by Old Murk-Eye, an infamous murloc chieftain prowling the shoreline. Captain Grayson was forced to watch helplessly as an apparition while the massacre unfolded."
+  },
+  {
+   "q": "Where does the oil for the lighthouse flame come from?",
+   "aliases": [
+    "where to get oil",
+    "harvest monster oil",
+    "flask of oil"
+   ],
+   "answer": "The oil is scavenged from the mechanical Harvest Watchers that run rampant through the fallow fields and abandoned grain farms of Westfall."
+  },
+  {
+   "q": "Why does Grayson care about keeping the beacon lit?",
+   "aliases": [
+    "why light the torch",
+    "grayson motivation",
+    "lighthouse flame purpose"
+   ],
+   "answer": "Grayson considers it his afterlife's solemn duty to save mortal sailors on the Great Sea from steering into the jagged rocks of the coastline, having died needlessly upon those exact reefs in life."
+  },
+  {
+   "q": "Who is Old Murk-Eye?",
+   "aliases": [
+    "old murk-eye",
+    "murk eye",
+    "murloc leader westfall"
+   ],
+   "answer": "Old Murk-Eye is a notorious and vicious murloc that prowls the Westfall coastline. He is infamous for organizing attacks on mortal settlements along the shore, including the slaughter of the lighthouse keeper's household."
+  },
+  {
+   "q": "Where is the Westfall Lighthouse located?",
+   "aliases": [
+    "lighthouse location",
+    "where is westfall lighthouse",
+    "find lighthouse"
+   ],
+   "answer": "The lighthouse stands on a jagged rocky islet just off the southwestern coast of Westfall, accessible by swimming out across the shallow coastal waters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Keeping the Westfall beacon burning protects trade ships and naval vessels bound for Stormwind Harbor from running aground along the kingdom's crumbling coast."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The mechanical Harvest Watchers running wild across Westfall's farms carry volatile machine fluids that double as lantern fuel in a pinch."
+  }
+ ],
+ "keywords": [
+  "beacon",
+  "captain grayson",
+  "flask of oil",
+  "great sea",
+  "harvest monsters",
+  "old murk-eye",
+  "westfall lighthouse"
+ ],
+ "related": [
+  "npc:captain-grayson",
+  "subzone:westfall-lighthouse",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Keeper of the Flame (Classic)"
+ ]
+}

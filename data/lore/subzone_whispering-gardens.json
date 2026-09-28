@@ -1,0 +1,87 @@
+{
+ "key": "subzone:whispering-gardens",
+ "type": "subzone",
+ "name": "Whispering Gardens",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Whispering Gardens"
+ },
+ "summary": "The Whispering Gardens occupy the terraced hillside just south of the Scarlet Monastery in northeastern Tirisfal Glades. Once a place of quiet contemplation, it became the site of a savage clash between early crusade defenders and a massive host of the Scourge. Today, crusaders patrol its overgrown pathways while the faint voices of the fallen linger in the air.",
+ "sections": [
+  {
+   "title": "A Battle Echoing in the Mist",
+   "body": "Before the Scarlet Crusade fully retreated behind the fortress walls of the Monastery, a fierce battle erupted across these terraced slopes against an encroaching army of undead. The clash claimed countless lives on both sides. In the twilight, travelers through the gardens report hearing strange, soft murmurings on the wind\u2014believed to be the restless echoes of the soldiers and priests who perished defending the holy grounds.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crusader Outpost",
+   "body": "Despite the haunting presence, the Scarlet Crusade maintains an active watch over the gardens. Scarlet scouts, magicians, and preservers guard the trails to intercept any intruders approaching from the lower glades. For the zealots within the nearby monastery, these overgrown steps serve as both a defensive bulwark and a solemn reminder of the ceaseless war against the undead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Whispering Gardens located?",
+   "aliases": [
+    "whispering gardens location",
+    "where is whispering gardens",
+    "how to get to whispering gardens"
+   ],
+   "answer": "The Whispering Gardens lie in northeastern Tirisfal Glades, blanketing the hillside immediately south of the entrance to the Scarlet Monastery."
+  },
+  {
+   "q": "Why are they called the Whispering Gardens?",
+   "aliases": [
+    "why is it called whispering gardens",
+    "what are the whispers",
+    "whispering gardens name"
+   ],
+   "answer": "The name comes from the faint, spectral murmurs heard in the twilight air, said to be the lingering spirits of the defenders and undead who fell in a bloody battle on these slopes."
+  },
+  {
+   "q": "What battle took place here?",
+   "aliases": [
+    "battle of whispering gardens",
+    "what happened at whispering gardens"
+   ],
+   "answer": "A desperate battle was fought here between the early forces that became the Scarlet Crusade and an invading army of the Scourge. The combatants died in droves before the Scourge was halted outside the monastery."
+  },
+  {
+   "q": "Who controls the gardens now?",
+   "aliases": [
+    "who lives in whispering gardens",
+    "monsters in whispering gardens"
+   ],
+   "answer": "The Scarlet Crusade controls the grounds. Scarlet scouts, preservers, and magicians patrol the terraces to secure the southern approach to their stronghold."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, the gardens represent an active pocket of fanatical Scarlet resistance lingering right on the doorstep of Tirisfal, haunted by the very war that doomed Lordaeron."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests walking the terraces can sense the lingering spiritual residue of holy defenders who met violent ends against the Scourge, their souls forever tied to the winds."
+  }
+ ],
+ "keywords": [
+  "scarlet crusade",
+  "scarlet monastery",
+  "scourge",
+  "tirisfal glades",
+  "whispering gardens",
+  "whispers"
+ ],
+ "related": [
+  "zone:scarlet",
+  "zone:tirisfal",
+  "topic:scarlet-crusade",
+  "topic:scourge",
+  "topic:light"
+ ],
+ "attribution": [
+  "Whispering Gardens"
+ ]
+}

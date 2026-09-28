@@ -1,0 +1,128 @@
+{
+ "key": "quest:6384",
+ "type": "quest",
+ "name": "Ride to Orgrimmar",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   6384
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Devrak",
+  "end": "Innkeeper Gryshka",
+  "previous": "Meats to Orgrimmar (Classic)",
+  "next": "Doras the Wind Rider Master (Classic)",
+  "wiki": "Ride to Orgrimmar (Classic)",
+  "chain": [
+   "Meats to Orgrimmar (Classic)",
+   "Ride to Orgrimmar (Classic)",
+   "Doras the Wind Rider Master (Classic)",
+   "Return to the Crossroads."
+  ]
+ },
+ "summary": "This errand introduces Horde adventurers to aerial travel across Kalimdor by commissioning a wind rider from the Crossroads to Orgrimmar. Entrusted with Zargh's fresh cuts of meat, travelers land at the capital's Skytower to deliver the package directly to Innkeeper Gryshka.",
+ "sections": [
+  {
+   "title": "Wings Over the Savanna",
+   "body": "Crossing the arid expanse between the Crossroads and the red cliffs of Durotar on foot is grueling, but the Horde maintains a reliable network of trained wind riders to bridge the distance. Devrak, the Crossroads flight master, oversees these wyverns, dispatching messengers and travelers high above the dusty canyon trails to deliver vital dispatches and trade goods directly into the capital.",
+   "spoiler": 0
+  },
+  {
+   "title": "Special Delivery for Gryshka",
+   "body": "The flight is not merely a sight-seeing trip; it carries a personal touch. Zargh of the Crossroads prepared a parcel of prime raw cuts destined for Innkeeper Gryshka in Orgrimmar's Valley of Strength. Once the wind rider touches down upon Orgrimmar's central Skytower, Gryshka's inn is only a brief walk away, where she eagerly accepts the gift\u2014noting with fondness that Zargh certainly knows his way into a lady's heart.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this flight?",
+   "aliases": [
+    "why fly to orgrimmar",
+    "flight to orgrimmar purpose",
+    "why meat to orgrimmar"
+   ],
+   "answer": "The journey serves as a practical introduction to the Horde's wind rider travel network. You are paying Devrak for passage from the Crossroads to Orgrimmar to deliver Zargh's fresh cuts of meat to Innkeeper Gryshka."
+  },
+  {
+   "q": "Where does the wind rider land in Orgrimmar?",
+   "aliases": [
+    "where do i land in org",
+    "skytower location",
+    "orgrimmar flight landing"
+   ],
+   "answer": "The wind rider lands at the Orgrimmar Skytower, perched high above the Valley of Strength. From the tower platform, you can descend ramps to reach the main square, nearby vendors, and Gryshka's inn."
+  },
+  {
+   "q": "Who is Gryshka?",
+   "aliases": [
+    "innkeeper gryshka",
+    "who is gryshka",
+    "gryshka location"
+   ],
+   "answer": "Innkeeper Gryshka manages the busy tavern located in Orgrimmar's Valley of Strength. She welcomes tired travelers into the capital and maintains a fond friendship with Zargh, who regularly supplies her with choice raw cuts for her kitchen."
+  },
+  {
+   "q": "Who is Devrak?",
+   "aliases": [
+    "devrak crossroads",
+    "who is devrak",
+    "crossroads wind rider master"
+   ],
+   "answer": "Devrak is the wind rider master stationed at the Crossroads in the Barrens. He tends the wyverns and coordinates air transport connecting the Barrens outpost to Durotar and other Horde settlements."
+  },
+  {
+   "q": "Why is Zargh sending raw meat to Gryshka?",
+   "aliases": [
+    "zargh meats",
+    "why send meat to gryshka",
+    "zargh and gryshka"
+   ],
+   "answer": "Zargh considers fresh game from the Barrens a prized offering. Gryshka appreciates the gift immensely, noting that prime rare cuts are a surefire way into her heart."
+  },
+  {
+   "q": "What should I do after delivering the meat?",
+   "aliases": [
+    "what next after ride to orgrimmar",
+    "next quest after gryshka",
+    "where to go after delivery"
+   ],
+   "answer": "After completing the delivery at the inn, Gryshka directs travelers back toward the Skytower to speak with Doras, Orgrimmar's wind rider master, in preparation for the return trip."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The wind rider flight between the Crossroads and Orgrimmar is the foundational lifeline connecting the central Barrens to the seat of Warchief Thrall's power."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Gryshka makes her culinary preferences unmistakable upon receiving Zargh's gift: the finest beasts of Kalimdor should be served rare to preserve their flavor."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "devrak",
+  "doras",
+  "gryshka",
+  "orgrimmar",
+  "skytower",
+  "wind rider",
+  "zargh"
+ ],
+ "related": [
+  "quest:6365",
+  "quest:6385",
+  "quest:6386",
+  "npc:devrak",
+  "npc:innkeeper-gryshka",
+  "npc:zargh",
+  "npc:doras",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Ride to Orgrimmar (Classic)"
+ ]
+}

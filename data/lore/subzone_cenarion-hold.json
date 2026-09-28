@@ -1,0 +1,93 @@
+{
+ "key": "subzone:cenarion-hold",
+ "type": "subzone",
+ "name": "Cenarion Hold",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Cenarion Hold"
+ },
+ "summary": "Cenarion Hold is the fortified stronghold of the Cenarion Circle situated in the harsh desert of Silithus. Established to keep watch over ancient dangers buried beneath the sands, it stands as one of the largest druidic settlements on Kalimdor and a rare safe haven in an unforgiving wasteland.",
+ "sections": [
+  {
+   "title": "A Bastion in the Dunes",
+   "body": "Perched among the desolate sands of Silithus, Cenarion Hold serves as the southern command hub for the Cenarion Circle. Reached by winding past Un'Goro Crater, the fortress was raised to monitor the dormant threats sealed beneath the desert after the historic War of the Shifting Sands. In an inhospitable expanse teeming with insectoid silithid and arid storms, the stronghold provides vital shelter, trade, and logistical support for night elf and tauren druids alike who stand sentinel over the imprisoned horrors of the past.",
+   "spoiler": 0
+  },
+  {
+   "title": "Neutral Ground",
+   "body": "Because the duty of safeguarding the world from ancient evils transcends mortal squabbles, Cenarion Hold operates under strict Cenarion Circle neutrality. Both Alliance and Horde travelers are admitted inside its walls, welcomed by local quartermasters and wardens whose supply lines remain precarious. With flight routes connecting it back to outposts in Feralas, Tanaris, and Un'Goro Crater, the hold acts as the lone staging ground for mortal adventurers brave enough to investigate the rising unrest in the desert.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Cenarion Hold?",
+   "aliases": [
+    "who runs cenarion hold",
+    "cenarion hold faction",
+    "is cenarion hold neutral"
+   ],
+   "answer": "The stronghold is governed and garrisoned entirely by the Cenarion Circle, the druidic order founded by Malfurion Stormrage. It maintains complete neutrality, welcoming members of both the Alliance and the Horde."
+  },
+  {
+   "q": "Why was the fortress built out here in the desert?",
+   "aliases": [
+    "why is cenarion hold in silithus",
+    "purpose of cenarion hold",
+    "why did druids build here"
+   ],
+   "answer": "It was established following the War of the Shifting Sands to stand watch over the imprisoned Old God buried deep beneath Silithus and to suppress the resurgence of the insectoid silithid swarming the region."
+  },
+  {
+   "q": "How do you travel to Cenarion Hold?",
+   "aliases": [
+    "how to get to cenarion hold",
+    "cenarion hold path",
+    "getting into silithus"
+   ],
+   "answer": "Travelers on foot typically take the steep mountain path leading northwest from the Mossy Pile in Un'Goro Crater. Flight networks also link the hold to flight masters in Gadgetzan, Un'Goro, and Feralas."
+  },
+  {
+   "q": "Can members of both factions use services here?",
+   "aliases": [
+    "is it safe for horde",
+    "can alliance rest here",
+    "cenarion hold vendors"
+   ],
+   "answer": "Yes. The merchants and flight handlers inside Cenarion Hold trade freely with any adventurer willing to brave the desert, regardless of political allegiances."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As one of the largest druidic enclaves outside of Moonglade, Cenarion Hold embodies the Circle's pledge to preserve natural balance against cosmic horrors."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves, this fortress honors ancient sacrifices made during the catastrophic War of the Shifting Sands millennia ago."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "cenarion hold",
+  "druids",
+  "kalimdor",
+  "shifting sands",
+  "silithid",
+  "silithus"
+ ],
+ "related": [
+  "topic:cenarion-circle",
+  "zone:silithus",
+  "quest:5921",
+  "zone:ungoro",
+  "zone:feralas",
+  "subzone:gadgetzan",
+  "subzone:mossy-pile",
+  "topic:old-god"
+ ],
+ "attribution": [
+  "Cenarion Hold"
+ ]
+}

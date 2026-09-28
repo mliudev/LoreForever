@@ -1,0 +1,119 @@
+{
+ "key": "quest:5724",
+ "type": "quest",
+ "name": "Returning the Lost Satchel",
+ "era": "classic",
+ "zone": "ragefire",
+ "meta": {
+  "ids": [
+   5724
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Maur Grimtotem",
+  "end": "Rahauro",
+  "previous": "Searching for the Lost Satchel",
+  "next": null,
+  "wiki": "Returning the Lost Satchel",
+  "chain": []
+ },
+ "summary": "This errand concludes the search for Maur Grimtotem deep inside Ragefire Chasm beneath Orgrimmar. Having discovered the slain tauren clinging tightly to his pack, adventurers must carry the recovered satchel back to Rahauro on Elder Rise in Thunder Bluff.",
+ "sections": [
+  {
+   "title": "A Grim Discovery",
+   "body": "Beneath the red rock and fiery depths of Ragefire Chasm, Maur Grimtotem met a brutal end at the hands of the troggs. Even in death, his arms remained locked around his personal satchel, guarding its contents with his final breath. Prying the bag loose from his stiffened grip provides the only clue as to what brought a member of the Grimtotem clan down into the volcanic caverns below Thrall's capital.",
+   "spoiler": 0
+  },
+  {
+   "title": "Magatha's Interest",
+   "body": "Upon delivering the satchel to Rahauro on Elder Rise, it becomes apparent that the mission was overseen by Magatha Grimtotem herself. Rahauro accepts the package gratefully, seeking answers for why one of his clan died needlessly, and delivers a reward authorized directly by the Elder Crone. What Maur was carrying\u2014or why Magatha sent him into the trogg-infested fissures of Orgrimmar\u2014remains known only to the leadership of the Grimtotem clan.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Maur Grimtotem located?",
+   "aliases": [
+    "maur grimtotem corpse",
+    "find maur grimtotem",
+    "where is maur"
+   ],
+   "answer": "Maur Grimtotem's corpse lies deep inside the Ragefire Chasm dungeon beneath Orgrimmar, surrounded by hostile troggs."
+  },
+  {
+   "q": "Who do I turn the satchel in to?",
+   "aliases": [
+    "turn in lost satchel",
+    "where is rahauro",
+    "satchel turn in"
+   ],
+   "answer": "The Grimtotem Satchel must be brought back to Rahauro, who stands on the Elder Rise in Thunder Bluff."
+  },
+  {
+   "q": "Why was Maur Grimtotem in Ragefire Chasm?",
+   "aliases": [
+    "why was maur in rfc",
+    "maur mission",
+    "what was maur doing"
+   ],
+   "answer": "Rahauro claims not to know why his clansman had to die needlessly, but Magatha Grimtotem personally ordered the recovery effort, suggesting Maur was acting on clan business."
+  },
+  {
+   "q": "What is inside the Grimtotem Satchel?",
+   "aliases": [
+    "what was in the bag",
+    "satchel contents"
+   ],
+   "answer": "The exact contents are never revealed to the courier. Maur protected it fiercely until his death, and it is handed over unopened directly to Rahauro on Magatha's behalf."
+  },
+  {
+   "q": "What killed Maur Grimtotem?",
+   "aliases": [
+    "how did maur die",
+    "who killed maur"
+   ],
+   "answer": "Maur was ambushed and killed by the savage troggs that infest the tunnels of Ragefire Chasm."
+  },
+  {
+   "q": "Who is behind this task?",
+   "aliases": [
+    "who sent rahauro",
+    "magatha connection"
+   ],
+   "answer": "While Rahauro acts as the contact on Elder Rise, the reward and directive come directly from Elder Crone Magatha Grimtotem."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Grimtotem clan has an uneasy relationship with Cairne Bloodhoof's people, making any clandestine operation by Magatha's followers in Orgrimmar a cause for suspicion."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Troggs and cultists threaten the tunnels beneath Orgrimmar, and the covert presence of Grimtotem agents beneath Thrall's fortress raises unanswered political questions."
+  }
+ ],
+ "keywords": [
+  "elder rise",
+  "grimtotem satchel",
+  "magatha",
+  "maur grimtotem",
+  "ragefire chasm",
+  "rahauro",
+  "returning the lost satchel",
+  "thunder bluff"
+ ],
+ "related": [
+  "quest:5722",
+  "npc:maur-grimtotem",
+  "npc:rahauro",
+  "zone:ragefire",
+  "zone:thunderbluff",
+  "subzone:elder-rise",
+  "topic:tauren",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "Returning the Lost Satchel"
+ ]
+}

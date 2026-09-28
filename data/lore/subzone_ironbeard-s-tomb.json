@@ -1,0 +1,81 @@
+{
+ "key": "subzone:ironbeard-s-tomb",
+ "type": "subzone",
+ "name": "Ironbeard's Tomb",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Ironbeard's Tomb"
+ },
+ "summary": "Ironbeard's Tomb is a defiled dwarven burial site situated west of the road leading north toward Dun Modr in the Wetlands. Marked by an outdoor graveyard and a stone statue of its namesake, the crypt has fallen into disuse as acidic oozes swarm the grounds. Travelers rarely set foot in the hollow unless searching for lost possessions swallowed by the slime.",
+ "sections": [
+  {
+   "title": "A Befouled Resting Place",
+   "body": "Overlooking the marshes along the road north to Dun Modr, Ironbeard's Tomb stands as a testament to the dwarven presence in the Wetlands. A monumental stone statue, presumed to depict Ironbeard himself, watches over the surrounding burial plot. Yet solemn peace no longer keeps vigil here. The subterranean crypt has been completely overrun by oozes of various black and crimson strains, leaving the tomb contaminated. Dwarves no longer bring their dead to this ruined sanctuary, and those brave enough to disturb the vaults do so primarily to hunt through the remains digested by the lurking slimes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Ironbeard?",
+   "aliases": [
+    "ironbeard lore",
+    "who is ironbeard",
+    "statue identity"
+   ],
+   "answer": "Very little is recorded about Ironbeard himself, though the massive statue and crypt grounds suggest he was an honored dwarven figure of note in the Wetlands. The monument erected in his likeness watches over the hillside above the cemetery."
+  },
+  {
+   "q": "Why is the tomb abandoned?",
+   "aliases": [
+    "why abandoned",
+    "oozes in tomb",
+    "what happened to the crypt"
+   ],
+   "answer": "The crypt has been completely overrun by acidic black and crimson oozes. With the burial grounds defiled and infested with dangerous slimes, mourning families have ceased bringing their dead here."
+  },
+  {
+   "q": "Why do adventurers explore Ironbeard's Tomb?",
+   "aliases": [
+    "why go here",
+    "sida bag",
+    "tomb quests"
+   ],
+   "answer": "Beyond fighting back the foul infestation, travelers frequently search the tomb's slimes hoping to recover swallowed items, most notably Sida's lost bag."
+  },
+  {
+   "q": "Where is Ironbeard's Tomb located?",
+   "aliases": [
+    "tomb location",
+    "how to get to ironbeard tomb",
+    "ironbeard wetlands map"
+   ],
+   "answer": "The tomb sits in north-central Wetlands, nestled into the hill just west of the main road heading north toward the dwarven redoubt of Dun Modr."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Seeing a clan hero's final resting place infested by mindless marsh oozes is a bitter disgrace for any dwarf traveling the road toward the Thandol Span."
+  }
+ ],
+ "keywords": [
+  "crypt",
+  "dun modr",
+  "graveyard",
+  "ironbeard",
+  "ironbeard's tomb",
+  "oozes",
+  "sida",
+  "wetlands"
+ ],
+ "related": [
+  "zone:wetlands",
+  "subzone:dun-modr",
+  "npc:sida",
+  "zone:stormwind"
+ ],
+ "attribution": [
+  "Ironbeard's Tomb"
+ ]
+}

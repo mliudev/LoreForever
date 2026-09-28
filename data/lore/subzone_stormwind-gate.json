@@ -1,0 +1,82 @@
+{
+ "key": "subzone:stormwind-gate",
+ "type": "subzone",
+ "name": "Stormwind Gate",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Stormwind Gate"
+ },
+ "summary": "The Stormwind Gate is the monumental fortified entryway connecting Elwynn Forest to Stormwind City. Guarded constantly by royal sentries, this threshold stands as the primary boundary between the tranquil woodlands and the grand Valley of Heroes.",
+ "sections": [
+  {
+   "title": "The Threshold of the Kingdom",
+   "body": "Towering over the southern road of Elwynn Forest, the Stormwind Gate serves as both a defensive bulwark and a ceremonial threshold for the capital. Sentinels of the Stormwind City Guard maintain a constant watch across the stone portal, guarding the approaches from the forest while regular patrols march between the outer arch and the Valley of Heroes. Despite lingering unrest throughout Elwynn, the massive iron-and-stone gates remain wide open to welcome travelers, merchants, and returning defenders into the heart of the Alliance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Stormwind Gate lead?",
+   "aliases": [
+    "where does stormwind gate go",
+    "what is past the gate",
+    "stormwind entrance"
+   ],
+   "answer": "Passing through the gate from Elwynn Forest brings you directly into the Valley of Heroes, the grand entryway to Stormwind City lined with towering monuments of the Second War."
+  },
+  {
+   "q": "Why is the gate left open if Elwynn Forest is dangerous?",
+   "aliases": [
+    "why are the gates open",
+    "is stormwind gate closed",
+    "why open"
+   ],
+   "answer": "Stormwind thrives on open trade and steady travel from Goldshire and across the Alliance. While banditry and Defias activity trouble the surrounding woods, the city keeps the passage manned with vigilant guards rather than shutting out its own citizenry and commerce."
+  },
+  {
+   "q": "Who guards the gates?",
+   "aliases": [
+    "stormwind gate guards",
+    "who defends the gate"
+   ],
+   "answer": "The entryway is garrisoned by the Stormwind City Guard. Two sentries stand watch immediately outside in Elwynn Forest, two more guard the inner passage, and armed footmen patrol the bridge leading through the Valley of Heroes."
+  },
+  {
+   "q": "Are there special events held at the gate?",
+   "aliases": [
+    "holidays at stormwind gate",
+    "events at gate"
+   ],
+   "answer": "Yes. The open ground around the Stormwind Gate frequently hosts major citywide holidays and seasonal gatherings for the Alliance, serving as an open assembly area outside the crowded districts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The gate represents the safety and endurance of the Grand Alliance, serving as the first glimpse of majesty for traveling soldiers and young adventurers."
+  },
+  {
+   "target": "race:Human",
+   "text": "To the people of Stormwind, returning through these stone arches means returning home to safety after long journeys through Elwynn and beyond."
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "goldshire",
+  "stormwind city guard",
+  "stormwind gate",
+  "valley of heroes"
+ ],
+ "related": [
+  "zone:stormwind",
+  "zone:elwynn",
+  "subzone:valley-of-heroes",
+  "subzone:goldshire",
+  "topic:stormwind-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Stormwind Gate"
+ ]
+}

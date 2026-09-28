@@ -1,0 +1,70 @@
+{
+ "key": "npc:harlan-bagley",
+ "type": "npc",
+ "name": "Harlan Bagley",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Harlan Bagley",
+  "refs": 1
+ },
+ "summary": "Harlan Bagley is a human armorer and merchant operating out of the Lionheart Armory in Stormwind City's bustling Trade District. He tends his shop on the northern side of the district center, looking after arms and equipment for citizens and visiting adventurers alike.",
+ "sections": [
+  {
+   "title": "The Lionheart Armory",
+   "body": "Situated along the northern side of the Trade District, the Lionheart Armory serves as a steady commercial fixture within the heart of Stormwind. From behind his counter, Harlan Bagley manages inventory and deals in defensive gear, relying on incoming trade and regional couriers to keep his shelves stocked while the capital contends with distant border conflicts and supply constraints.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Harlan Bagley?",
+   "aliases": [
+    "who is harlan",
+    "harlan bagley lore",
+    "lionheart armory vendor"
+   ],
+   "answer": "Harlan Bagley is a human shopkeeper and tradesman who runs the Lionheart Armory, an equipment shop located in the Trade District of Stormwind City."
+  },
+  {
+   "q": "Where can I find Harlan Bagley?",
+   "aliases": [
+    "harlan bagley location",
+    "where is harlan",
+    "lionheart armory location"
+   ],
+   "answer": "He is located inside the Lionheart Armory on the northern side of the central square in Stormwind City's Trade District."
+  },
+  {
+   "q": "What role does he play in Stormwind's commerce?",
+   "aliases": [
+    "what does harlan sell",
+    "harlan bagley business"
+   ],
+   "answer": "As a local merchant in the kingdom's capital, Bagley supplies armor and gear, occasionally hiring adventurers to run delivery errands and secure supply shipments essential to keeping his armory open."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Merchants like Harlan Bagley keep the Alliance's primary capital supplied with gear and goods while regular supply lines are threatened across the surrounding territories."
+  }
+ ],
+ "keywords": [
+  "armorer",
+  "harlan bagley",
+  "lionheart armory",
+  "merchant",
+  "stormwind",
+  "trade district"
+ ],
+ "related": [
+  "subzone:trade-district",
+  "zone:stormwind",
+  "quest:333",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Harlan Bagley"
+ ]
+}

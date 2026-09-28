@@ -1,0 +1,74 @@
+{
+ "key": "subzone:nethergarde-supply-camps",
+ "type": "subzone",
+ "name": "Nethergarde Supply Camps",
+ "era": "classic",
+ "zone": "blastedlands",
+ "meta": {
+  "wiki": "Nethergarde Supply Camps"
+ },
+ "summary": "The Nethergarde Supply Camps sit directly outside the Nethergarde Mines in the northern reaches of the Blasted Lands. What was meant to be a secure logistical hub providing provisions and smithing facilities for the fortress has erupted into an active skirmish between Alliance defenders and attacking Horde troops.",
+ "sections": [
+  {
+   "title": "A Frontline at the Gates",
+   "body": "Positioned just outside the entrance to the Nethergarde Mines, the supply camps provide vital staging, equipment, and field repair facilities for Nethergarde Keep. Complete with working anvils and forges, the post should be an orderly depot keeping the fortress supplied. Instead, it has become a hot combat zone. The Horde, pushing forces into the Blasted Lands, has launched an assault led by Captain Metlek and his Okril'lon infantry, leaving Alliance defenders fighting desperately among the scattered crates and tents to prevent their vital logistics from falling into enemy hands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the Horde and Alliance fighting here?",
+   "aliases": [
+    "why fighting nethergarde camps",
+    "who is attacking supply camps",
+    "why horde here"
+   ],
+   "answer": "The camps contain key logistical infrastructure, stockpiled provisions, and metalworking equipment for Nethergarde Keep. Captain Metlek has led the Okril'lon vanguard to sever these supply lines and weaken the Alliance foothold in the Blasted Lands."
+  },
+  {
+   "q": "Who leads the Horde assault on the camps?",
+   "aliases": [
+    "supply camps horde leader",
+    "captain metlek",
+    "who leads okrillon here"
+   ],
+   "answer": "Captain Metlek commands the Okril'lon infantry attacking the camps, orchestrating the push to overrun the defenders and secure the supply hub."
+  },
+  {
+   "q": "What amenities exist in these camps?",
+   "aliases": [
+    "forge in supply camps",
+    "anvil blasted lands nethergarde"
+   ],
+   "answer": "One of the encampments maintains a working forge and anvil, utilized for maintaining and repairing the weapons and gear needed by troops stationed in the harsh environment."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Holding these supply depots is essential for sustaining Nethergarde Keep against growing threats across the blasted red wastes."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Striking the supply camps cuts into Nethergarde's critical resources and asserts Horde dominance in the region."
+  }
+ ],
+ "keywords": [
+  "blasted lands",
+  "captain metlek",
+  "nethergarde",
+  "nethergarde mines",
+  "nethergarde supply camps",
+  "okrillon",
+  "supply camp"
+ ],
+ "related": [
+  "subzone:nethergarde-mines",
+  "zone:blastedlands",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Nethergarde Supply Camps"
+ ]
+}

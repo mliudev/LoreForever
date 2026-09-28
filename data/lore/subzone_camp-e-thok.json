@@ -1,0 +1,71 @@
+{
+ "key": "subzone:camp-e-thok",
+ "type": "subzone",
+ "name": "Camp E'thok",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Camp E'thok"
+ },
+ "summary": "Camp E'thok is a Galak centaur settlement located in northwestern Thousand Needles. The aggressive centaur tribe uses this canyon encampment as a base to stage ambushes against passing caravans traveling through the riverbed below.",
+ "sections": [
+  {
+   "title": "A Galak Stronghold",
+   "body": "Tucked into the rugged northwestern reaches of Thousand Needles, Camp E'thok serves as a key settlement for the hostile Galak centaur. Like their kin across Kalimdor, the Galak are relentlessly predatory, preying upon any travelers wandering into the canyon shadows. The camp is notorious for orchestrating raids against merchant caravans, notably ambushing the goblin Wizlo Bearingshiner and seizing his goods\u2014though his prized gadget managed to slip beyond their grasp, guarded by his fierce pet panther.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives in Camp E'thok?",
+   "aliases": [
+    "who is in camp ethok",
+    "camp ethok inhabitants",
+    "who controls camp ethok"
+   ],
+   "answer": "The encampment is occupied by the Galak clan of centaur, an aggressive tribe dominating parts of northwestern Thousand Needles."
+  },
+  {
+   "q": "What happened to Wizlo Bearingshiner here?",
+   "aliases": [
+    "wizlo bearingshiner raid",
+    "goblin caravan attacked",
+    "what did centaur steal from wizlo"
+   ],
+   "answer": "A merchant caravan containing the goblin Wizlo Bearingshiner was ambushed by the Galak centaur from Camp E'thok. While they ransacked the caravan, they failed to take Wizlo's prized gadget because it was secured around the collar of his fierce pet panther."
+  },
+  {
+   "q": "Where is Camp E'thok located?",
+   "aliases": [
+    "camp ethok location",
+    "where is camp ethok",
+    "camp ethok map"
+   ],
+   "answer": "Camp E'thok is situated in northwestern Thousand Needles, nestled along the base of the canyon walls near Splithoof Heights."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The relentless aggression of the Galak centaur at Camp E'thok is a constant reminder of the ancestral war between the tauren and centaur throughout southern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "camp e'thok",
+  "centaur",
+  "ethok",
+  "galak",
+  "thousand needles",
+  "wizlo bearingshiner"
+ ],
+ "related": [
+  "zone:thousandneedles",
+  "topic:centaur",
+  "npc:wizlo-bearingshiner",
+  "subzone:splithoof-heights",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Camp E'thok"
+ ]
+}

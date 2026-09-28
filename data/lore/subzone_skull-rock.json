@@ -1,0 +1,72 @@
+{
+ "key": "subzone:skull-rock",
+ "type": "subzone",
+ "name": "Skull Rock",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Skull Rock"
+ },
+ "summary": "Skull Rock is a cavern tucked into the eastern coastal cliffs of Durotar, just east of Orgrimmar. It serves as a fortified coven for the demonic Burning Blade cult right under the capital's nose.",
+ "sections": [
+  {
+   "title": "A Den of Cultists",
+   "body": "Hidden beneath the crags of northeastern Durotar, Skull Rock is one of the most perilous strongholds of the Burning Blade cult in the region. Dark cultists, fel-worshipping orcs, and summoners gather deep within the winding tunnels to practice demonic arts and weave conspiracies against the nascent Horde. The cell is led by the dangerous warlock Gazz'uz, whose operations pose an imminent threat to the nearby gates of Orgrimmar and travelers traversing the eastern shoreline.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Skull Rock?",
+   "aliases": [
+    "skull rock cave",
+    "where is skull rock",
+    "what is in skull rock"
+   ],
+   "answer": "Skull Rock is a cave system situated in northeastern Durotar along the coast. It is occupied by cultists of the Burning Blade who use its natural cover to plot against Thrall's Horde."
+  },
+  {
+   "q": "Who controls Skull Rock?",
+   "aliases": [
+    "who leads skull rock",
+    "who runs skull rock",
+    "skull rock boss"
+   ],
+   "answer": "The cavern is infested by the Burning Blade cult, led by the orc warlock Gazz'uz from the deepest chamber of the cave."
+  },
+  {
+   "q": "Why does the Horde care about this cave?",
+   "aliases": [
+    "why clear skull rock",
+    "why is skull rock dangerous"
+   ],
+   "answer": "Its proximity to Orgrimmar makes it a severe security hazard. The Burning Blade actively seeks to undermine Thrall's new realm and plunge the orcs back into demonic servitude."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The dark arts practiced within Skull Rock showcase the unchecked spread of demonic influence that Thrall's Horde seeks to root out and control."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Clearing the cultists from Skull Rock is vital to securing the coastal approaches to Durotar and protecting Orgrimmar from subversion from within."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "cultists",
+  "durotar",
+  "gazz'uz",
+  "orgrimmar",
+  "skull rock"
+ ],
+ "related": [
+  "quest:827",
+  "zone:durotar",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Skull Rock"
+ ]
+}

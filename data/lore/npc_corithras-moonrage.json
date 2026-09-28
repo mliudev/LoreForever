@@ -1,0 +1,119 @@
+{
+ "key": "npc:corithras-moonrage",
+ "type": "npc",
+ "name": "Corithras Moonrage",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Corithras Moonrage",
+  "refs": 5
+ },
+ "summary": "Corithras Moonrage is a night elf scholar and quest giver stationed in the village of Dolanaar on Teldrassil. He guides newly arrived adventurers in understanding the nature of the great World Tree and tasks them with maintaining its sacred moonwells. Through his lessons, he reveals both the spiritual importance of Teldrassil and the growing burdens carried by the kaldorei.",
+ "sections": [
+  {
+   "title": "Scholar of Dolanaar",
+   "body": "Residing in the shaded settlement of Dolanaar, Corithras Moonrage serves as an instructor to travelers leaving the sheltered bounds of Shadowglen. As young kaldorei venture into the wider boughs of Teldrassil, Corithras ensures they understand the history of their new home. He teaches that survival in this changing era requires vigilance and reverence for the natural order.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crown of the Earth",
+   "body": "Much of Corithras's duty revolves around overseeing the ritual purification of the Crown of the Earth. He directs adventurers to collect pure waters from moonwells across Teldrassil and cleanse sacred phials throughout the forest. Through these trials, he monitors the health of the World Tree and seeks to maintain the delicate balance of the wilderness against creeping corruption.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Burden of the Kaldorei",
+   "body": "Beneath Corithras's guidance lies an uneasy truth regarding Teldrassil's creation. Unlike the ancient Nordrassil, this new World Tree was raised without the blessings of the Dragon Aspects, who refused Fandral Staghelm's ambitious creation. Corithras reflects on the loss of night elven immortality and the fragile, uncertain future the kaldorei now face under the boughs of an unblessed bough.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Corithras Moonrage?",
+   "aliases": [
+    "corithras moonrage role",
+    "who is corithras",
+    "dolanaar quest giver"
+   ],
+   "answer": "Corithras Moonrage is a night elf scholar located in Dolanaar. He introduces adventurers to the history of Teldrassil and tasks them with tending to the sacred moonwells and testing the waters of the World Tree."
+  },
+  {
+   "q": "Where can Corithras Moonrage be found?",
+   "aliases": [
+    "corithras location",
+    "where is corithras",
+    "find corithras"
+   ],
+   "answer": "He can be found standing outdoors in Dolanaar, the central crossroads village situated in the southern reaches of Teldrassil."
+  },
+  {
+   "q": "What is the Crown of the Earth questline about?",
+   "aliases": [
+    "crown of the earth meaning",
+    "corithras quests",
+    "moonwell quests"
+   ],
+   "answer": "The Crown of the Earth quests involve drawing water from various moonwells scattered across Teldrassil and applying it to sacred groves. Corithras uses these rituals to observe the vitality and purity of the boughs."
+  },
+  {
+   "q": "Why is Corithras concerned about Teldrassil's origins?",
+   "aliases": [
+    "why burden of kaldorei",
+    "aspects refusal",
+    "why no immortality"
+   ],
+   "answer": "Corithras shares the history of how Teldrassil was planted after the Third War to restore night elven immortality. Because the Dragon Aspects refused to bless the tree, Corithras remains acutely aware that the tree lacks divine protection and that his people remain mortal."
+  },
+  {
+   "q": "What does Corithras teach new adventurers?",
+   "aliases": [
+    "corithras lore",
+    "dolanaar history",
+    "what does corithras tell you"
+   ],
+   "answer": "He imparts lessons on the recent sacrifices of the Third War, the founding of Teldrassil, and the responsibility each kaldorei bears to defend their new woodland home."
+  },
+  {
+   "q": "Is Corithras aligned with the Cenarion Circle or Darnassus?",
+   "aliases": [
+    "corithras faction",
+    "is corithras a druid"
+   ],
+   "answer": "He serves as a loyal citizen and scholar of Darnassus in Dolanaar, working closely with druids and priests alike to monitor the well-being of the forest and its waters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, speaking with Corithras is a foundational lesson in the post-Third War reality, confronting the loss of ancient immortality and the disputed creation of Teldrassil."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids will find Corithras's tasks deeply connected to their calling, as his moonwell rites directly track the health and creeping ailments of the World Tree."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests of Elune assist Corithras in carrying the blessed waters of the moonwells, maintaining the spiritual and physical harmony of Dolanaar's surrounding wilds."
+  }
+ ],
+ "keywords": [
+  "corithras moonrage",
+  "crown of the earth",
+  "dolanaar",
+  "fandral staghelm",
+  "kaldorei",
+  "moonwell",
+  "night elf",
+  "teldrassil"
+ ],
+ "related": [
+  "subzone:dolanaar",
+  "zone:teldrassil",
+  "quest:929",
+  "quest:7383",
+  "quest:940",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Corithras Moonrage"
+ ]
+}

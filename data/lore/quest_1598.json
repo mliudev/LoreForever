@@ -1,0 +1,125 @@
+{
+ "key": "quest:1598",
+ "type": "quest",
+ "name": "The Stolen Tome",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   1598
+  ],
+  "level": "4",
+  "faction": "Alliance",
+  "start": "Drusilla La Salle",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "The Stolen Tome",
+  "chain": []
+ },
+ "summary": "The Stolen Tome is an initiation task for novice human warlocks training in Northshire Valley. Tasked by trainer Drusilla La Salle, the practitioner must infiltrate a nearby Defias encampment to recover a forbidden text titled 'Powers of the Void.' In doing so, the fledgling warlock proves their competence and earns the knowledge required to bind their first demonic servant.",
+ "sections": [
+  {
+   "title": "A Forbidden Opportunity",
+   "body": "Warlocks tread carefully in Stormwind's domains, practicing their volatile craft in secret corners and keeping prying eyes off their research. Northshire Abbey holds ancient knowledge within its archives, including forbidden grimoires held under lock and key. Drusilla La Salle, the resident warlock mentor lurking on the abbey grounds, coveted one such volume\u2014the Powers of the Void\u2014but dared not risk the suspicion of the abbey's clerics and paladins by attempting to breach the library's protected wing herself.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defias Opportunism",
+   "body": "La Salle's opportunity arrived when an abbey novice threw his lot in with the Defias Brotherhood. Fleeing into the Northshire Vineyards to join the bandits, the rogue scholar pilfered several valuable texts on his way out. Taking refuge around the Defias campsite in the vineyards, the thieves stashed their prize in a field tent, blissfully unaware of the true danger posed by the dark arts contained inside the volume.",
+   "spoiler": 0
+  },
+  {
+   "title": "The First Binding",
+   "body": "For an aspiring warlock, recovering the tome is both a test of nerve and a practical shortcut to darker mysteries. Braving the bandit encampment and returning the text satisfies Drusilla's ambition and establishes the novice's readiness. With the grimoire secured in her hands, she rewards the pupil with the dark rites necessary to summon and bind an imp, the very first demon an apprentice learns to command.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Powers of the Void?",
+   "aliases": [
+    "powers of the void book",
+    "what is the book",
+    "what did the novice steal"
+   ],
+   "answer": "It is a forbidden grimoire detailing dark magical concepts and planar control. Originally stored inside a guarded, protected wing of the Northshire Abbey library, it contains esoteric insights that warlock instructors like Drusilla La Salle covet for their personal study and teachings."
+  },
+  {
+   "q": "Why didn't Drusilla La Salle steal the book herself?",
+   "aliases": [
+    "why drusilla didn't steal it",
+    "why send me"
+   ],
+   "answer": "Drusilla must be cautious to preserve her standing around Northshire Abbey. Creeping into the library's secured archives would have raised immediate alarms among the clerics. When a disgruntled novice stole the tome and joined the Defias, it gave her the perfect chance to acquire it cleanly using an apprentice."
+  },
+  {
+   "q": "Where is the stolen tome hidden?",
+   "aliases": [
+    "where is the book",
+    "tome location",
+    "stolen tome tent"
+   ],
+   "answer": "The Defias bandits stashed the tome inside a campsite tent pitched within the Northshire Vineyards, just east of the abbey, where their scouts and renegades have taken up residence."
+  },
+  {
+   "q": "Why did a Northshire novice join the Defias Brotherhood?",
+   "aliases": [
+    "why novice joined defias",
+    "abbey defias traitor",
+    "who stole the book"
+   ],
+   "answer": "Discontent and social strife have spread throughout the kingdom, driving laborers, farmers, and even church students to side with the Defias Brotherhood. The novice abandoned his vows, grabbed several important books from the library as loot, and fled to the vineyard bandits."
+  },
+  {
+   "q": "What reward does a warlock get for retrieving the tome?",
+   "aliases": [
+    "what do you learn",
+    "warlock quest reward",
+    "why do this quest"
+   ],
+   "answer": "Returning the book convinces Drusilla that the pupil possesses the nerve and resilience to practice the dark arts. She provides the foundational teachings required to summon an imp, marking the apprentice's first successful demonic pact."
+  },
+  {
+   "q": "Do the Defias know how to use the book?",
+   "aliases": [
+    "can defias use the tome",
+    "what defias do with book"
+   ],
+   "answer": "The bandits see the stolen books primarily as valuable plunder taken from the abbey. Though the Defias employ renegade spellcasters, the novice and his comrades merely tucked the volume away in a tent crate rather than mastering its dark secrets."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This rite of passage tests whether a fledgling warlock can navigate dangerous territory without flinching. Securing the tome grants you the secret rites needed to call upon your first imp."
+  },
+  {
+   "target": "race:Human",
+   "text": "The quest exposes how deeply the Defias Brotherhood's reach has penetrated Northshire, enticing even cloistered abbey students to steal sacred texts and join the insurrection."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Operating right beneath the noses of Northshire's paladins and clerics, Alliance warlocks must tread softly, using outlaws' missteps to claim restricted occult knowledge."
+  }
+ ],
+ "keywords": [
+  "defias brotherhood",
+  "drusilla la salle",
+  "northshire abbey",
+  "novice thief",
+  "powers of the void",
+  "stolen book",
+  "vineyards",
+  "warlock imp"
+ ],
+ "related": [
+  "npc:drusilla-la-salle",
+  "topic:defias-brotherhood",
+  "quest:65",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "The Stolen Tome"
+ ]
+}

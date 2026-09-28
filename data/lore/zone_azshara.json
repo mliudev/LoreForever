@@ -1,0 +1,133 @@
+{
+ "key": "zone:azshara",
+ "type": "zone",
+ "name": "Azshara",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": [
+   "Azshara (Classic)",
+   "Azshara"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "Azshara is a rugged, windswept coastline in northeastern Kalimdor cloaked in vibrant, perpetual autumn foliage. Once part of the glorious night elven capital before the Great Sundering shattered it into the sea, it remains a dangerous wilderness littered with ancient ruins, brooding naga, and isolated practitioners of magic. Both the Horde and the Alliance maintain precarious outposts along its borders, wary of the restless ghosts and ocean horrors lurking within.",
+ "sections": [
+  {
+   "title": "A Drowned Empire",
+   "body": "Ten thousand years ago, this coast was the beating heart of the kaldorei civilization, surrounding the royal capital of Zin-Azshari. When Queen Azshara and her Highborne court drew the Burning Legion into Azeroth, the resulting War of the Ancients culminated in the catastrophic collapse of the Well of Eternity. The sea thundered inward, swallowing most of the magnificent city and leaving behind fractured cliffs, treacherous coral reefs, and waterlogged spires. The survivors renamed the ruined landscape after their fallen monarch, branding it as a cursed monument to pride and catastrophic betrayal.",
+   "spoiler": 0
+  },
+  {
+   "title": "Autumn Splendor and Hidden Perils",
+   "body": "Azshara is famous for its stunning crimson, orange, and gold canopy, giving the impression of an eternal autumn unbroken by changing seasons. Beneath this tranquil canopy, however, lies an inhospitable expanse. Corrupted satyrs practice dark rituals in forested hollows, lingering Highborne apparitions haunt drowned foundations, and Spitelash naga prowl the shallow reefs of the Coral Sea. Ferocious beasts, giant hydras, and mountain giants roam unchecked across the highlands and ivory beaches.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Realm of Exiles and Outcasts",
+   "body": "Because of its isolation and harsh terrain, Azshara draws recluse figures pursuing forgotten crafts or watching over dangerous powers. The enigmatic Archmage Xylem inhabits a secluded tower perched high above the cliffs, testing promising spellcasters and cunning rogues alike. Farther along the coast, the demon hunter Loramus Thalipedes watches the waves from a barren isle, while the immense sea giant Lord Arkkoroc demands blood sacrifices from his temple overlooking the churning waters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are all the trees red and orange here?",
+   "aliases": [
+    "why is azshara autumn",
+    "why are trees red",
+    "azshara fall foliage"
+   ],
+   "answer": "Azshara is cloaked in a perpetual autumn. The vibrant orange, gold, and red canopy never sheds its leaves, giving the coastal woods a strikingly beautiful yet melancholy atmosphere that has persisted for thousands of years."
+  },
+  {
+   "q": "How did Azshara become a ruin?",
+   "aliases": [
+    "what happened to azshara",
+    "why is azshara broken",
+    "azshara history"
+   ],
+   "answer": "This coastline once formed the outskirts of the kaldorei capital, Zin-Azshari. During the War of the Ancients, the Well of Eternity imploded during the Great Sundering, sundering the continent and sending vast portions of the city tumbling into the sea."
+  },
+  {
+   "q": "Who rules Azshara today?",
+   "aliases": [
+    "who controls azshara",
+    "who runs azshara",
+    "is azshara alliance or horde"
+   ],
+   "answer": "No single faction holds dominion over the territory. The Alliance maintains a small watch at Talrendis Point near Ashenvale, while the Horde operates out of the encampment of Valormok. The surrounding land is dominated by dangerous Spitelash naga, violent satyrs, and untamed monsters."
+  },
+  {
+   "q": "Who is Archmage Xylem?",
+   "aliases": [
+    "xylem azshara",
+    "mage tower azshara",
+    "wizard in azshara"
+   ],
+   "answer": "Archmage Xylem is an eccentric human sorcerer residing in a remote cliffside tower overlooking Azshara. Unaligned with regional politics, he aids visiting mages and rogues in unlocking unique martial and arcane potential through challenging trials."
+  },
+  {
+   "q": "What is the blue dragon doing in the ruins?",
+   "aliases": [
+    "azuregos in azshara",
+    "blue dragon azshara",
+    "dragon in eldarath"
+   ],
+   "answer": "The great blue dragon Azuregos and his brood watch over the ancient ruins of Eldarath. He fiercely protects the powerful Highborne magical artifacts still buried in the rubble from being plundered by mortal hands."
+  },
+  {
+   "q": "Why do the night elves consider this land cursed?",
+   "aliases": [
+    "is azshara cursed",
+    "why do night elves hate azshara",
+    "night elf curse azshara"
+   ],
+   "answer": "The kaldorei consider Azshara cursed because it bears the name and architectural legacy of their treacherous Queen Azshara, whose pact with the Burning Legion shattered their empire and brought ruin to the world."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Every drowned pillar and wailing Highborne shade in Azshara serves as a grim, haunting testament to Queen Azshara's reckless arrogance and the cataclysmic ruin of the ancient kaldorei civilization."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The shattered stones of Eldarath still crackle with forgotten Highborne sorcery, and high above the cliffs, the reclusive Archmage Xylem tests those seeking mastery of arcane teleportation and spellcraft."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The steep coastal cliffs and jagged ridges of Azshara are rich in precious mineral veins, containing abundant deposits of Mithril, Truesilver, and Thorium."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Azshara's perpetual autumn climate sustains rare and potent herbs, including Dreamfoil, Golden Sansam, Mountain Silversage, and Purple Lotus among the ruins."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "azuregos",
+  "bay of storms",
+  "coral sea",
+  "eldarath",
+  "highborne",
+  "spitelash",
+  "talrendis point",
+  "valormok",
+  "xylem"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "zone:durotar",
+  "subzone:ruins-of-eldarath",
+  "subzone:bay-of-storms",
+  "subzone:talrendis-point",
+  "subzone:temple-of-arkkoran",
+  "subzone:lake-mennar",
+  "zone:winterspring"
+ ],
+ "attribution": [
+  "Azshara (Classic)",
+  "Azshara"
+ ]
+}

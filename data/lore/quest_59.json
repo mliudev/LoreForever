@@ -1,0 +1,125 @@
+{
+ "key": "quest:59",
+ "type": "quest",
+ "name": "Cloth and Leather Armor",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   59
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Guard Thomas",
+  "end": "Sara Timberlain",
+  "previous": "Report to Thomas",
+  "next": null,
+  "wiki": "Cloth and Leather Armor",
+  "chain": []
+ },
+ "summary": "Cloth and Leather Armor is an errand commissioned by Guard Thomas at the eastern bridge in Elwynn Forest. Impressed by an adventurer's service, Thomas issues an official military armor marker redeemable with local artisan Sara Timberlain. This task directs recruits deeper east into the Eastvale Logging Camp to obtain proper gear for the defense of the realm.",
+ "sections": [
+  {
+   "title": "A Guard's Token",
+   "body": "Guard Thomas stands vigil at the eastern crossing over the river in Elwynn, holding the border against hostile murlocs and roving gnolls. Recognizing the efforts of capable travelers who aid his lonely post, he provides an official Stormwind Armor Marker rather than pulling equipment from his own meager field rations. This marker acts as a military requisition voucher, officially recognizing the bearer's service to the crown.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Weaver of Eastvale",
+   "body": "Across the bridge to the east lies the Eastvale Logging Camp, Elwynn's primary timber operation. Working out of the settlement, Sara Timberlain holds an official commission from the Stormwind Army to produce cloth and leather gear. Because the kingdom's centralized armories are strained and stretched thin, local artisans like Sara are vital for outfitting troops and auxiliary scouts on the frontier.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Stormwind Armor Marker?",
+   "aliases": [
+    "armor marker",
+    "stormwind voucher",
+    "what is the marker"
+   ],
+   "answer": "It is an official military requisition slip issued by officers like Guard Thomas. Rather than stocking bulky armor sets at isolated watch posts, guards carry markers that allow trusted recruits to claim custom-fitted armor from commissioned civilian artisans."
+  },
+  {
+   "q": "Who is Sara Timberlain?",
+   "aliases": [
+    "sara timberlain",
+    "eastvale tailor",
+    "who makes the armor"
+   ],
+   "answer": "Sara Timberlain is a tailor and crafter residing in the Eastvale Logging Camp. She holds a contract with the Stormwind Army to manufacture cloth and leather equipment for kingdom personnel and authorized auxiliary fighters."
+  },
+  {
+   "q": "Where is the Eastvale Logging Camp?",
+   "aliases": [
+    "eastvale location",
+    "where is eastvale",
+    "how to get to timberlain"
+   ],
+   "answer": "Eastvale Logging Camp is located in far eastern Elwynn Forest. From Guard Thomas's post at the river bridge, follow the road east into the wooded valley where woodcutters harvest timber for the kingdom."
+  },
+  {
+   "q": "Why does Guard Thomas send adventurers to Eastvale?",
+   "aliases": [
+    "why guard thomas marker",
+    "thomas purpose",
+    "why eastvale"
+   ],
+   "answer": "Thomas does not carry a surplus of finished gear at his river checkpoint. Instead, he rewards brave deeds by sending recruits to Sara Timberlain, directing travelers toward Eastvale while ensuring they are properly protected to defend Elwynn."
+  },
+  {
+   "q": "Why is the army relying on local tailors for supplies?",
+   "aliases": [
+    "stormwind supply problems",
+    "why local artisan",
+    "army logistics"
+   ],
+   "answer": "With King Varian Wrynn missing and Stormwind's military spread thin responding to Defias activity and wild beasts, local defense posts depend heavily on contracted regional workers to sustain their supply lines."
+  },
+  {
+   "q": "Who is Guard Thomas defending against?",
+   "aliases": [
+    "guard thomas enemies",
+    "threats at bridge",
+    "eastern elwynn threats"
+   ],
+   "answer": "Guard Thomas monitors the eastern border of Elwynn Forest, watching over the bridge against incursions from the Stonefield gnolls, river murlocs, and the dangerous wilderness bordering the Redridge Mountains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Outfitting defenders through local contracts demonstrates how rural Elwynn communities keep the Alliance functioning despite political paralysis in the capital."
+  },
+  {
+   "target": "race:Human",
+   "text": "Serving Guard Thomas and trading with Sara Timberlain reflects the shared civic bonds that hold the small homesteads of Elwynn Forest together."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Sara Timberlain's commission with the army shows that cloth crafting is a critical, officially sponsored military trade in the kingdom."
+  }
+ ],
+ "keywords": [
+  "armor marker",
+  "cloth and leather armor",
+  "eastvale",
+  "elwynn forest",
+  "guard thomas",
+  "logging camp",
+  "sara timberlain",
+  "stormwind army"
+ ],
+ "related": [
+  "npc:guard-thomas",
+  "npc:sara-timberlain",
+  "subzone:eastvale-logging-camp",
+  "quest:71",
+  "topic:stormwind-army",
+  "zone:elwynn",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Cloth and Leather Armor"
+ ]
+}

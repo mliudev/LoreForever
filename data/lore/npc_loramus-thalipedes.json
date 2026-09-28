@@ -1,0 +1,92 @@
+{
+ "key": "npc:loramus-thalipedes",
+ "type": "npc",
+ "name": "Loramus Thalipedes",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Loramus Thalipedes",
+  "refs": 2
+ },
+ "summary": "Loramus Thalipedes is a reclusive night elf demon hunter secluded on a remote isle off the coast of Azshara. Flanked by loyal felhounds, he dedicates his existence to destroying Razelikh the Defiler, directing seasoned champions through rituals to strike down the dreadlord.",
+ "sections": [
+  {
+   "title": "The Blind Hunter of the Isles",
+   "body": "Perched on a solitary, storm-tossed island southeast of Hetaera's Clutch, Loramus Thalipedes stands apart from the rest of his kin. He is a demon hunter\u2014an exile who underwent the agonizing ritual of blinding himself under his master's guidance to gain spectral sight. Surrounded by three towering felhounds named Raytaf, Shahiar, and Zaman, Loramus watches the unseen currents of demonic corruption across Azeroth while keeping a watchful vigil over the shattered ruins of Azshara.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Vendetta Across Continents",
+   "body": "Loramus's fixation lies across the sea in the Blasted Lands, focused entirely on the dreadlord Razelikh the Defiler. Knowing that conventional steel cannot permanently end a cunning demon, Loramus guides travelers through ancient rituals, requiring them to gather enchanted Azsharite and reforge the legendary weapon Felbane. Through these esoteric preparations, he seeks to strip away Razelikh's wards, bind the demon's true name, and finish the vendetta once and for all.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Loramus Thalipedes?",
+   "aliases": [
+    "loramus identity",
+    "who is the demon hunter in azshara",
+    "who is loramus"
+   ],
+   "answer": "Loramus Thalipedes is a night elf demon hunter residing on an isolated island off the coast of Azshara. He is dedicated to thwarting powerful demons, notably the dreadlord Razelikh the Defiler."
+  },
+  {
+   "q": "Why is Loramus blindfolded?",
+   "aliases": [
+    "why does loramus have no eyes",
+    "loramus blind",
+    "demon hunter blindfold"
+   ],
+   "answer": "Like other demon hunters, Loramus removed his own eyes with the guidance of his master. In exchange for ordinary mortal vision, this ritual granted him the spectral sight necessary to detect demonic energies."
+  },
+  {
+   "q": "Why are there felhounds guarding him?",
+   "aliases": [
+    "loramus felhounds",
+    "why does loramus have demons",
+    "raytaf shahiar zaman"
+   ],
+   "answer": "Loramus has mastered and bound three powerful felhounds\u2014Raytaf, Shahiar, and Zaman\u2014turning their own predatory instincts toward serving his demonic hunts rather than the Burning Legion."
+  },
+  {
+   "q": "What is his connection to the Blasted Lands?",
+   "aliases": [
+    "loramus blasted lands",
+    "razelikh quest",
+    "why does he care about the blasted lands"
+   ],
+   "answer": "He orchestrates the campaign to slay the dreadlord Razelikh the Defiler, who rules the heights of the Blasted Lands. Loramus provides the crucial knowledge, rites, and weapons needed to pierce Razelikh's protections."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Night elves traditionally view demon hunters with profound horror and distrust, seeing their ritualistic self-mutilation and demonic pacts as an unforgivable path that mirrors the betrayal of the Illidari."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks will recognize his controlled felhounds as proof of exceptional demonic subjugation, though Loramus binds demons strictly to slaughter their own kind."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "demon hunter",
+  "felbane",
+  "felhound",
+  "hetaera's clutch",
+  "loramus",
+  "razelikh",
+  "thalipedes"
+ ],
+ "related": [
+  "zone:azshara",
+  "zone:blastedlands",
+  "subzone:hetaera-s-clutch",
+  "topic:night-elf",
+  "subzone:altar-of-storms-burning-steppes"
+ ],
+ "attribution": [
+  "Loramus Thalipedes"
+ ]
+}

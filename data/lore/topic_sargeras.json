@@ -1,0 +1,124 @@
+{
+ "key": "topic:sargeras",
+ "type": "topic",
+ "name": "Sargeras",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Sargeras"
+ },
+ "summary": "Sargeras is the fallen titan and supreme creator of the Burning Legion, bent on scouring all life from the cosmos. Once the noble champion and defender of the Pantheon, his descent into madness led to the Sundering of ancient Azeroth and nearly every demonic catastrophe since.",
+ "sections": [
+  {
+   "title": "Champion of the Pantheon",
+   "body": "Before his fall, Sargeras was the greatest and noblest warrior among the titans. Entrusted by the Pantheon of Order to safeguard their grand creations across the Great Dark Beyond, he waged war against the chaotic demons spawned from the Twisting Nether. Incapable of conceiving pure evil, Sargeras trapped countless fiends away within the prison world of Mardum. Yet eons of relentless warfare against cosmic horrors gradually wore down his altruistic spirit.",
+   "spoiler": 0
+  },
+  {
+   "title": "Despair and the Burning Crusade",
+   "body": "While traversing the cosmos, Sargeras encountered a world thoroughly corrupted by the monstrous Old Gods and learned of the dark powers lurking in the Void. Horrified by the prospect of a slumbering titan worldsoul falling into utter corruption, he concluded that creation was fundamentally flawed. Believing that a lifeless universe was preferable to one consumed by void, he shattered Mardum, bathed himself in chaotic fel fire, and marshaled the liberated demons into the unstoppable Burning Legion.",
+   "spoiler": 0
+  },
+  {
+   "title": "Obsession with Azeroth",
+   "body": "Ten thousand years ago, the reckless magic of Queen Azshara and her Highborne reached across the stars, alerting Sargeras to Azeroth's existence. Whispering through the depths of the Well of Eternity, the Dark Titan seduced Azshara into opening a portal for his vanguard. Though that ancient invasion culminated in the catastrophic Sundering, Sargeras never ceased scheming to consume Azeroth\u2014orchestrating the opening of the Dark Portal and guiding the demonic corruption of the orcish Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sargeras?",
+   "aliases": [
+    "sargeras backstory",
+    "who is the dark titan",
+    "creator of the burning legion"
+   ],
+   "answer": "Sargeras is a fallen titan who once served as the Pantheon's greatest warrior. Driven by despair over cosmic corruption, he betrayed his kind and forged the Burning Legion to purge all life from the universe."
+  },
+  {
+   "q": "Why does Sargeras want to destroy the universe?",
+   "aliases": [
+    "sargeras motive",
+    "why burning crusade",
+    "why does sargeras want to destroy everything"
+   ],
+   "answer": "He discovered that cosmic entities known as the Void Lords had sent Old Gods to infect slumbering titan worldsouls. Fearing the birth of an unstoppable, corrupted dark titan, he chose to destroy all creation rather than let it be claimed by darkness."
+  },
+  {
+   "q": "What is Sargeras's connection to Queen Azshara?",
+   "aliases": [
+    "sargeras and azshara",
+    "well of eternity sargeras",
+    "ancient invasion azshara"
+   ],
+   "answer": "Ten thousand years ago, Queen Azshara's reckless use of the Well of Eternity drew Sargeras's attention. Viewing him as a god, Azshara and her Highborne attempted to summon the Dark Titan through the Well, triggering the devastating War of the Ancients and the Great Sundering."
+  },
+  {
+   "q": "Did Sargeras create the demons?",
+   "aliases": [
+    "did sargeras make demons",
+    "where did the burning legion come from"
+   ],
+   "answer": "No. Demons originally spawned naturally within the chaotic Twisting Nether. Sargeras fought and imprisoned them for ages before choosing to shatter their prison world of Mardum, uniting the demonic races under his command to form the Burning Legion."
+  },
+  {
+   "q": "What happened to the other titans?",
+   "aliases": [
+    "where are the other titans",
+    "pantheon fate",
+    "did sargeras kill the pantheon"
+   ],
+   "answer": "When the Pantheon confronted Sargeras at Nihilam to plead with him to halt his Burning Crusade, he refused to turn back. In the ensuing clash, the fallen titan overwhelmed the Pantheon with chaotic fel power and destroyed their physical forms."
+  },
+  {
+   "q": "How was Sargeras connected to the opening of the Dark Portal?",
+   "aliases": [
+    "sargeras orcs",
+    "sargeras dark portal",
+    "did sargeras bring orcs"
+   ],
+   "answer": "Long after the Sundering, Sargeras continued his designs on Azeroth from afar, orchestrating events to corrupt the orcs of Draenor and using the guardian Medivh to tear open the Dark Portal, bringing invasion once again to mortal shores."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, Sargeras is the ultimate architect of the Great Sundering, whose seductive whispers corrupted Queen Azshara and shattered ancient Kalimdor ten millennia ago."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks draw upon the very fel powers and demon servitors bound together by the Dark Titan, wielding the ruinous sorceries that formed the Legion."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The tragic history of the orcish clans\u2014blood-curse, madness, and the invasion of Azeroth\u2014traces directly back to the manipulations of Sargeras and his demonic lieutenants."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Mages remember Sargeras as a cautionary terror, proving that unchecked arcane ambition will inevitably attract the gaze of the Burning Legion across the stars."
+  }
+ ],
+ "keywords": [
+  "aggramar",
+  "azshara",
+  "burning legion",
+  "dark titan",
+  "fel",
+  "mardum",
+  "pantheon",
+  "sargeras",
+  "sundering"
+ ],
+ "related": [
+  "topic:burning-legion",
+  "topic:titan",
+  "topic:old-god",
+  "topic:highborne",
+  "zone:azshara",
+  "subzone:dark-portal",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Sargeras"
+ ]
+}

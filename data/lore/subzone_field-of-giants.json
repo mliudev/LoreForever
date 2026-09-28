@@ -1,0 +1,92 @@
+{
+ "key": "subzone:field-of-giants",
+ "type": "subzone",
+ "name": "Field of Giants",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Field of Giants"
+ },
+ "summary": "The Field of Giants is an expansive plain covering the southern Barrens between Camp Taurajo and the marshes of Dustwallow. Named for the towering kodo, thunder lizards, and massive beasts that graze its arid scrub, the region has recently grown far more perilous due to an encroaching silithid infestation.",
+ "sections": [
+  {
+   "title": "A Wild Frontier in the South",
+   "body": "Stretching along the southern span of the Gold Road, the Field of Giants is remote, rugged, and lightly defended compared to the Barrens to the north. While the road's wooden watchtowers stand largely abandoned, the land itself thrums with life. Tremendous herds of Kalimdor's megafauna wander the vast flats, drawing hunters and naturalists alike. However, safety is elusive here: dwarven excavators from Bael Modan dig aggressively to the south, and a far more sinister menace has begun burrowing beneath the earth.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Creeping Swarm",
+   "body": "In recent times, insectoid silithid hives have erupted from the ground across the Field of Giants, marking the northernmost known sighting of these ravenous creatures in Kalimdor. These strange mounds and aggressive swarms have alarmed the Horde. Scouts such as the troll Korran from the Crossroads and tauren warriors like Ruga Ragetotem at Camp Taurajo urge adventurers to probe the hives, seeking to uncover what draws these subterranean horrors so far from the deep deserts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is it called the Field of Giants?",
+   "aliases": [
+    "field of giants name origin",
+    "why field of giants"
+   ],
+   "answer": "The plain earns its name from the sheer scale of the wildlife roaming it. Great herds of towering kodo beasts and thunder lizards graze here, dominating the landscape alongside massive Kalimdorean wildlife."
+  },
+  {
+   "q": "What are those bug mounds in the ground?",
+   "aliases": [
+    "bug mounds barrens",
+    "insects in southern barrens",
+    "what are the silithid"
+   ],
+   "answer": "Those are silithid mounds. These insectoid predators have tunneled up from deep underground, creating the northernmost hives discovered in Kalimdor. Their sudden presence poses a dire threat to passing travelers and local wildlife."
+  },
+  {
+   "q": "Who lives near the Field of Giants?",
+   "aliases": [
+    "who lives here",
+    "field of giants npcs"
+   ],
+   "answer": "The plain itself has few settlements, but prominent figures watch its borders. The tauren shaman Brine lives on a southern ridge, while the displaced exile Gann Stonespire watches from nearby, plotting against the dwarven excavation at Bael Modan."
+  },
+  {
+   "q": "Why are the watchtowers along the road abandoned?",
+   "aliases": [
+    "abandoned towers gold road",
+    "southern barrens watchtowers"
+   ],
+   "answer": "The Horde's military presence is concentrated heavily along the northern Gold Road around the Crossroads. The southernmost reaches receive far fewer patrols, leaving these towers neglected amidst the creeping threats of silithid and aggressive wildlife."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The roaming herds of thunder lizards and massive kodo make the Field of Giants one of the premier hunting grounds in the Barrens for those seeking formidable beasts."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The emergence of silithid hives so close to the road between Camp Taurajo and Dustwallow Marsh threatens travel lines, prompting leaders across the Barrens to call for scouts."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "camp taurajo",
+  "field of giants",
+  "gold road",
+  "kodo",
+  "korran",
+  "ruga ragetotem",
+  "silithid",
+  "thunder lizard"
+ ],
+ "related": [
+  "subzone:camp-taurajo",
+  "subzone:gold-road",
+  "quest:1824",
+  "npc:korran",
+  "npc:ruga-ragetotem",
+  "npc:brine",
+  "subzone:bael-modan",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Field of Giants"
+ ]
+}

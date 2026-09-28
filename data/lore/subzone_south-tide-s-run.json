@@ -1,0 +1,65 @@
+{
+ "key": "subzone:south-tide-s-run",
+ "type": "subzone",
+ "name": "South Tide's Run",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "South Tide's Run"
+ },
+ "summary": "South Tide's Run is the lonely southwestern coastline of Silverpine Forest, stretching along the cold waters of the Great Sea. Flanking the forested interior, these damp sands and surf serve as the southern complement to North Tide's Run.",
+ "sections": [
+  {
+   "title": "The Western Shore",
+   "body": "Stretching along the southwestern edge of Silverpine Forest, South Tide's Run forms a desolate boundary between the woods and the Great Sea. Unlike the protected eastern roads that lead down toward the Greymane Wall, this open shore takes the brunt of the western tides, serving as a bleak coastal wilderness largely untouched by the settlements inland.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is South Tide's Run located?",
+   "aliases": [
+    "where is south tides run",
+    "south tides run location",
+    "south tide run map"
+   ],
+   "answer": "South Tide's Run occupies the southwestern coastline of Silverpine Forest, bordering the open expanse of the Great Sea."
+  },
+  {
+   "q": "How does South Tide's Run differ from North Tide's Run?",
+   "aliases": [
+    "north tides run vs south tides run",
+    "difference between tide runs"
+   ],
+   "answer": "Both are long stretches of beach defining Silverpine Forest's western shoreline, but South Tide's Run covers the southern portion of the coast, whereas North Tide's Run extends along the northwest near the border with Tirisfal Glades."
+  },
+  {
+   "q": "Are there any settlements along South Tide's Run?",
+   "aliases": [
+    "towns in south tides run",
+    "who lives in south tides run"
+   ],
+   "answer": "There are no major towns or outposts along the beach itself. Most Forsaken activity remains inland near the main thoroughfares, leaving the shoreline isolated."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The wild southwestern coast lies far from the protection of the Sepulcher, making it an empty frontier rarely trodden by the Forsaken."
+  }
+ ],
+ "keywords": [
+  "great sea",
+  "silverpine coast",
+  "silverpine forest",
+  "south tide's run",
+  "south tides run"
+ ],
+ "related": [
+  "subzone:north-tide-s-run",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "South Tide's Run"
+ ]
+}

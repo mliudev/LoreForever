@@ -1,0 +1,89 @@
+{
+ "key": "subzone:beren-s-peril",
+ "type": "subzone",
+ "name": "Beren's Peril",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Beren's Peril"
+ },
+ "summary": "Beren's Peril is a secluded mountain cavern tucked in the rocky hills southwest of Ambermill in Silverpine Forest. It serves as an entrenched redoubt for rogue Scourge loyalists serving the necromancer Thule Ravenclaw, plotting against the nearby Forsaken.",
+ "sections": [
+  {
+   "title": "A Hidden Threat in the Hills",
+   "body": "Tucked away high in the crags southwest of Ambermill, Beren's Peril consists of a shadowed cave and winding mountain path hidden from the main roadway. Following the devastation of the Third War, rogue Scourge undead under the command of the renegade necromancer Thule Ravenclaw fortified this enclave. Rather than bowing to the Dark Lady or retreating north, Ravenclaw's thralls\u2014regents, guardians, and drudgers\u2014gathered here in secret to muster an assault against the Forsaken base at the Sepulcher. Their presence was uncovered by Forsaken scouts, turning the quiet cliffside into an active warzone for Horde operatives sent to eliminate the threat before an attack could materialize.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Beren's Peril?",
+   "aliases": [
+    "berens peril",
+    "where is berens peril",
+    "beren's peril cave"
+   ],
+   "answer": "It is a cave and surrounding hillside pass located southwest of Ambermill in Silverpine Forest, situated between the central highway and the Ambermill side road."
+  },
+  {
+   "q": "Who controls Beren's Peril?",
+   "aliases": [
+    "who lives at berens peril",
+    "enemies at berens peril",
+    "ravenclaw undead"
+   ],
+   "answer": "The cave is occupied by Scourge undead loyal to the necromancer Thule Ravenclaw, including Ravenclaw guardians, drudgers, and regents."
+  },
+  {
+   "q": "Why do the Forsaken care about this location?",
+   "aliases": [
+    "allister berens peril",
+    "why attack berens peril",
+    "sepulcher threat"
+   ],
+   "answer": "Forsaken scouts discovered that the undead holed up inside Beren's Peril were amassing troops and arming for an impending assault on the Sepulcher, prompting Shadow Priest Allister to order preemptive strikes against them."
+  },
+  {
+   "q": "Who is Thule Ravenclaw?",
+   "aliases": [
+    "thule ravenclaw",
+    "thule silverpine"
+   ],
+   "answer": "Thule Ravenclaw is a powerful necromancer operating in Silverpine Forest who maintained control over pockets of mindless and hostile Scourge minions, using sites like Beren's Peril and Fenris Keep to menace the region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Ravenclaw minions at Beren's Peril are a bitter reminder of the Scourge's lasting grip, threatening the safety of the Sepulcher and requiring swift, merciless eradication by Sylvanas's loyalists."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing the rugged paths of Silverpine Forest means clearing out rogue undead nests before they can sever supply lines between the Sepulcher and the southern territories."
+  }
+ ],
+ "keywords": [
+  "allister",
+  "ambermill",
+  "beren's peril",
+  "berens peril",
+  "ravenclaw drudge",
+  "scourge",
+  "sepulcher",
+  "silverpine",
+  "thule ravenclaw"
+ ],
+ "related": [
+  "quest:516",
+  "quest:446",
+  "npc:shadow-priest-allister",
+  "zone:silverpine",
+  "subzone:sepulcher",
+  "subzone:ambermill",
+  "topic:forsaken",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Beren's Peril"
+ ]
+}

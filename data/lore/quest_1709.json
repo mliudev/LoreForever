@@ -1,0 +1,119 @@
+{
+ "key": "quest:1709",
+ "type": "quest",
+ "name": "Klockmort's Creation",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   1709
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Klockmort Spannerspan",
+  "end": "",
+  "previous": "Iron Coral",
+  "next": null,
+  "wiki": "Klockmort's Creation",
+  "chain": []
+ },
+ "summary": "Klockmort's Creation marks the successful forging of a specialized suit of armor in Ironforge's Tinker Town. Utilizing an unconventional technique devised by the master armorsmith Furen Longbeard, the gnome engineer Klockmort Spannerspan shapes raw materials into an extraordinarily resilient piece of gear.",
+ "sections": [
+  {
+   "title": "A Fusion of Disciplines",
+   "body": "Forging heavy armor typically belongs to the great anvils of the Great Forge, but Klockmort Spannerspan operates out of Tinker Town. The creation of this armor represents a collaborative triumph between dwarven metallurgical tradition and gnomish mechanical innovation. By adapting Furen Longbeard's rigorous methods, Klockmort finishes an armored breastplate engineered to endure punishment that would crush ordinary steel.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unrivaled Resilience",
+   "body": "According to Klockmort, the resulting armor boasts structural integrity so great that a siege engine could roll directly over it without causing permanent distortion. The secret lies in the peculiar treatment of rare components, proving that combining ancient dwarven forging techniques with gnomish ingenuity yields armor capable of withstanding the fiercest frontline battles.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Klockmort Spannerspan?",
+   "aliases": [
+    "klockmort",
+    "who is klockmort",
+    "gnome in tinker town"
+   ],
+   "answer": "Klockmort Spannerspan is a skilled gnome engineer residing in Tinker Town within Ironforge. He assists with intricate mechanical tasks and works in conjunction with dwarven craftsmen like Furen Longbeard to fashion unique, durable gear."
+  },
+  {
+   "q": "Who designed the process to make this armor?",
+   "aliases": [
+    "who made the process",
+    "furen longbeard armor",
+    "furen method"
+   ],
+   "answer": "The forging process was devised by Furen Longbeard, an accomplished dwarven armorsmith. Klockmort followed Furen's exact methodology to treat the materials and bring the armor to completion."
+  },
+  {
+   "q": "Why was a gnome engineer needed to make plate armor?",
+   "aliases": [
+    "why a gnome",
+    "gnome blacksmithing",
+    "engineering armor"
+   ],
+   "answer": "While dwarven smiths excel at raw metallurgical strength, the unusual components and exacting structural specifications required the delicate mechanical expertise of a gnome engineer to properly temper and balance the final product."
+  },
+  {
+   "q": "What makes this armor special compared to standard plate?",
+   "aliases": [
+    "how strong is it",
+    "siege engine armor",
+    "armor durability"
+   ],
+   "answer": "Klockmort claims the completed armor possesses remarkable spring and elasticity alongside rigid durability. He boasts that even if flattened beneath the tracks of a heavy siege engine, the metal would snap right back into its original shape."
+  },
+  {
+   "q": "Where does this armor fit in the path of a warrior's training?",
+   "aliases": [
+    "warrior quest armor",
+    "why do this quest",
+    "warrior reward"
+   ],
+   "answer": "This creation is the culmination of a dedicated series of tasks undertaken by promising Alliance warriors seeking to arm themselves with resilient plate armor custom-forged by Ironforge's finest minds."
+  },
+  {
+   "q": "Where is Klockmort found?",
+   "aliases": [
+    "klockmort location",
+    "where is spannerspan"
+   ],
+   "answer": "Klockmort Spannerspan can be found amidst the workshops, clanking gears, and steam vents of Tinker Town, the gnomish quarter of Ironforge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Commissioning this breastplate is an important milestone for Alliance warriors, providing custom-tempered armor built specifically to endure the crushing blows of frontline combat."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Klockmort's work demonstrates that gnomish ingenuity has a vital role even in heavy armorsmithing, showing how mechanical precision enhances traditional dwarven crafts."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The successful application of Furen Longbeard's formula highlights the value of experimenting with unconventional tempering methods and rare oceanic materials."
+  }
+ ],
+ "keywords": [
+  "furen longbeard",
+  "iron coral",
+  "ironforge",
+  "klockmort",
+  "siege engine",
+  "spannerspan",
+  "tinker town",
+  "warrior armor"
+ ],
+ "related": [
+  "quest:1708",
+  "quest:1704"
+ ],
+ "attribution": [
+  "Klockmort's Creation"
+ ]
+}

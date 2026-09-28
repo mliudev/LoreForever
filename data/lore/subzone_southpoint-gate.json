@@ -1,0 +1,74 @@
+{
+ "key": "subzone:southpoint-gate",
+ "type": "subzone",
+ "name": "Southpoint Gate",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Southpoint Gate"
+ },
+ "summary": "Southpoint Gate marks the fortified passage connecting western Hillsbrad Foothills to Silverpine Forest. Under the control of the Forsaken, it functions as a strategic choke point watching the road between the regions.",
+ "sections": [
+  {
+   "title": "Gateway to the Foothills",
+   "body": "Standing at the western threshold of Hillsbrad Foothills, Southpoint Gate serves as the Forsaken's territorial threshold leading back into Silverpine Forest. Nestled in a rocky pass near the historic remnants of Southpoint Tower, the fortified barricade allows Undercity forces to monitor transit, move supplies between settlements, and secure the highway against hostile incursions along the border.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Southpoint Gate?",
+   "aliases": [
+    "what is this gate",
+    "southpoint blockade",
+    "hillsbrad border gate"
+   ],
+   "answer": "Southpoint Gate is a fortified Forsaken outpost and checkpoint situated on the high road linking Hillsbrad Foothills with Silverpine Forest."
+  },
+  {
+   "q": "Who controls this outpost?",
+   "aliases": [
+    "who owns southpoint gate",
+    "is southpoint gate horde"
+   ],
+   "answer": "The gate is held and guarded by the Forsaken on behalf of the Horde, securing the border crossing between their Silverpine territories and Hillsbrad."
+  },
+  {
+   "q": "Where does this road lead?",
+   "aliases": [
+    "where does the gate go",
+    "path past southpoint"
+   ],
+   "answer": "Heading west through the pass leads directly into Silverpine Forest toward the Sepulcher and Undercity, while traveling east descends into the pastures of Hillsbrad Foothills."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For travelers departing Silverpine, this gate represents the primary fortified access point into the disputed lands of Hillsbrad."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken sentries stationed along the frontier depend on this chokepoint to maintain communication and transit lines with Undercity."
+  }
+ ],
+ "keywords": [
+  "border",
+  "checkpoint",
+  "forsaken",
+  "hillsbrad foothills",
+  "silverpine forest",
+  "southpoint blockade",
+  "southpoint gate"
+ ],
+ "related": [
+  "zone:hillsbrad",
+  "zone:silverpine",
+  "subzone:southpoint-tower",
+  "topic:forsaken",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Southpoint Gate"
+ ]
+}

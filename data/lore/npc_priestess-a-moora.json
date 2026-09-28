@@ -1,0 +1,112 @@
+{
+ "key": "npc:priestess-a-moora",
+ "type": "npc",
+ "name": "Priestess A'moora",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Priestess A'moora",
+  "refs": 3
+ },
+ "summary": "Priestess A'moora is a devout night elf servant of the Moon Goddess residing within the Temple of the Moon in Darnassus. Working closely under the guidance of High Priestess Tyrande Whisperwind's priesthood, she attends to rituals of spiritual purification and communion with Elune. Travelers exploring Teldrassil are often directed to her when matters involve sacred offerings and the mystical wildlife of the boughs.",
+ "sections": [
+  {
+   "title": "A Servant of Elune",
+   "body": "Within the serene marble halls of the Temple of the Moon, Priestess A'moora spends her days in contemplation and service. As an ordained priestess of Elune, she assists in tending the spiritual needs of Darnassus and preserving the delicate rituals passed down through millennia. While much of the Sisterhood oversees military defenses or diplomacy, A'moora focuses on traditional devotions and sacred matters concerning the natural spirits of Teldrassil.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tears of the Moon",
+   "body": "A'moora is intimately tied to the rites involving the Oracle Glade and its divine denizens. When young adventurers are directed to Darnassus from the outer groves, she guides them in consecrating sacred relics such as the Tears of the Moon. Her tasks often center on honoring the great silithid or spider spirits of the boughs, including Sathrah, ensuring that Elune's grace purifies the troubled essence of the new World Tree.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Priestess A'moora?",
+   "aliases": [
+    "a'moora location",
+    "where is priestess amoora",
+    "amoora darnassus"
+   ],
+   "answer": "Priestess A'moora is located inside the Temple of the Moon in Darnassus, the capital city resting in the canopy of Teldrassil. She stands among the priestesses serving the altar of Elune."
+  },
+  {
+   "q": "What is Priestess A'moora's role in Darnassus?",
+   "aliases": [
+    "what does amoora do",
+    "priestess amoora purpose"
+   ],
+   "answer": "She is a member of the Sisterhood of Elune who oversees specific religious ceremonies and sacred offerings. She acts as a quest giver and guide for travelers seeking to perform ancient rites of cleansing and sacrifice on Teldrassil."
+  },
+  {
+   "q": "What quests does Priestess A'moora offer?",
+   "aliases": [
+    "amoora quests",
+    "priestess amoora questline"
+   ],
+   "answer": "She is central to the quest chain involving the Tears of the Moon and the sacrifice of Sathrah, directing adventurers back toward the Oracle Glade to commune with sacred nature spirits."
+  },
+  {
+   "q": "How is Priestess A'moora related to the Temple of the Moon?",
+   "aliases": [
+    "is amoora a temple priestess",
+    "sisterhood of elune amoora"
+   ],
+   "answer": "She is an active attendant in the Temple of the Moon, the spiritual heart of night elf culture ruled by High Priestess Tyrande Whisperwind. A'moora facilitates the spiritual instruction and ritual duties conducted under the temple's roof."
+  },
+  {
+   "q": "Who is Sathrah, and why does A'moora speak of her?",
+   "aliases": [
+    "sathrah sacrifice",
+    "who is sathrah"
+   ],
+   "answer": "Sathrah is a sacred, venomous creature residing in the Oracle Glade of Teldrassil. Priestess A'moora instructs acolytes on making proper offerings to Sathrah to receive consecrated tears used in holy ceremonies."
+  },
+  {
+   "q": "Does A'moora belong to the Alliance?",
+   "aliases": [
+    "is amoora alliance",
+    "can horde talk to amoora"
+   ],
+   "answer": "Yes. As a night elf priestess stationed within the capital city of Darnassus, she is fully aligned with the Alliance and will not offer assistance or quests to members of the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, Priestess A'moora represents the timeless traditions of Elune worship, anchoring the young boughs of Teldrassil to the ancient spiritual heritage of their people."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests walking the halls of the Temple of the Moon can see in A'moora an example of dedicated devotion, bridging the gap between temple ritual and the natural world outside the city gates."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Priestess A'moora assists Alliance travelers exploring the holy heart of Darnassus, introducing them to the Sisterhood of Elune's sacred customs."
+  }
+ ],
+ "keywords": [
+  "a'moora",
+  "darnassus",
+  "elune",
+  "priestess",
+  "sathrah",
+  "tears of the moon",
+  "teldrassil",
+  "temple of the moon"
+ ],
+ "related": [
+  "subzone:temple-of-the-moon",
+  "quest:2518",
+  "quest:2519",
+  "quest:2520",
+  "zone:darnassus",
+  "subzone:oracle-glade",
+  "quest:940",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Priestess A'moora"
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "key": "subzone:demon-fall-ridge",
+ "type": "subzone",
+ "name": "Demon Fall Ridge",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Demon Fall Ridge"
+ },
+ "summary": "Demon Fall Ridge is a blighted highland in south-eastern Ashenvale, overlooking the canyon where Mannoroth fell. Swarming with lesser demons and corrupting magic, the ridge centers around a desecrated night elf barrow den claimed by the Burning Legion.",
+ "sections": [
+  {
+   "title": "A Perch Over Corruption",
+   "body": "Rising directly west and above Demon Fall Canyon, Demon Fall Ridge is stained with lingering fel residue from the Third War. While the canyon below marks the site of the catastrophic clash between Grommash Hellscream and the pit lord Mannoroth, this high ground serves as a staging area for surviving demonic invaders. Lesser demons patrol the rocky cliffs, defiling the ancient woodland and threatening any travelers traversing the southern border of Ashenvale.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Desecrated Barrow",
+   "body": "Carved into the side of the ridge rests an abandoned night elf barrow den, hollowed out and converted into a stronghold of dark sorcery. Rather than slumbering druids, the subterranean passages teem with fel fiends. Deep in the subterranean depths lurks Diathorus the Seeker, a cunning dreadlord who rules over this conclave, directing the remaining demonic remnants throughout the forest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Demon Fall Ridge?",
+   "aliases": [
+    "ridge location",
+    "where is demon fall ridge",
+    "ashenvale demon ridge"
+   ],
+   "answer": "Demon Fall Ridge is located in south-eastern Ashenvale. It sits elevated directly west and above Demon Fall Canyon, near the border with the Barrens."
+  },
+  {
+   "q": "Why are there demons on this ridge?",
+   "aliases": [
+    "why demons here",
+    "demon fall ridge demons",
+    "burning legion presence"
+   ],
+   "answer": "The ridge overlooks the site where the pit lord Mannoroth met his end during the Third War. Demons that survived the Legion's defeat scattered into the surrounding heights, entrenching themselves upon the ridge and inside an abandoned barrow den."
+  },
+  {
+   "q": "Who leads the demons here?",
+   "aliases": [
+    "who is the boss here",
+    "demon leader",
+    "diathorus the seeker"
+   ],
+   "answer": "The conclave on the ridge is commanded by Diathorus the Seeker, a powerful nathrezim dreadlord who dwells in the deepest recesses of the barrow den."
+  },
+  {
+   "q": "What is the structure carved into the ridge?",
+   "aliases": [
+    "barrow den",
+    "demon fall cave",
+    "what is the den"
+   ],
+   "answer": "It is an ancient night elf barrow den. Once a sanctum used by druids for entering the Emerald Dream, it was abandoned and has since been overrun and desecrated by the Burning Legion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Seeing a barrow den\u2014once a sacred haven of the Emerald Dream\u2014desecrated and occupied by demons makes this ridge an affront to the Cenarion Circle."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The fel presence here is led by an active dreadlord, offering dark practitioners a glimpse of organized Legion remnants in Kalimdor."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "barrow den",
+  "burning legion",
+  "demon fall canyon",
+  "demon fall ridge",
+  "diathorus the seeker",
+  "dreadlord"
+ ],
+ "related": [
+  "subzone:demon-fall-canyon",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Demon Fall Ridge"
+ ]
+}

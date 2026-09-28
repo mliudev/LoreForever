@@ -1,0 +1,75 @@
+{
+ "key": "subzone:silverwind-refuge",
+ "type": "subzone",
+ "name": "Silverwind Refuge",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Silverwind Refuge"
+ },
+ "summary": "Silverwind Refuge is a serene night elven settlement nestled in south-central Ashenvale, situated just north of Mystral Lake. Protected by Sentinels and allied water elementals, it offers a welcoming haven for travelers along the forest's wooded trails.",
+ "sections": [
+  {
+   "title": "A Forest Sanctuary",
+   "body": "Resting between the placid waters of Mystral Lake and Iris Lake to the north, Silverwind Refuge stands as one of the major night elven waystations in central Ashenvale alongside Astranaar. It boasts a comfortable inn, craftsmen, and wilderness trainers who instruct travelers in herbalism, alchemy, skinning, and hunting. Guarded by stalwart Sentinels alongside local water spirits, the retreat serves as a peaceful rest stop for allies moving through the shaded ancient woods.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Silverwind Refuge?",
+   "aliases": [
+    "who owns silverwind refuge",
+    "is silverwind alliance or horde",
+    "who lives at silverwind"
+   ],
+   "answer": "Silverwind Refuge is an Alliance settlement, built and maintained by the night elves. It is heavily guarded by the Sentinels, alongside water elementals who help protect the tranquil grounds."
+  },
+  {
+   "q": "Where is Silverwind Refuge located?",
+   "aliases": [
+    "silverwind refuge location",
+    "where is silverwind refuge",
+    "how to get to silverwind"
+   ],
+   "answer": "It is located in south-central Ashenvale, positioned directly north of Mystral Lake and south of Iris Lake."
+  },
+  {
+   "q": "What services are found at the refuge?",
+   "aliases": [
+    "what is at silverwind refuge",
+    "silverwind refuge trainers",
+    "silverwind vendors"
+   ],
+   "answer": "Travelers can find an inn, trade supply vendors, and professional trainers offering instruction in herbalism, alchemy, skinning, and hunter skills."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance wanderers traversing Ashenvale, Silverwind Refuge provides a reliable camp to rest, restock supplies, and refine wilderness trades without venturing all the way to Astranaar."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The refuge serves as a vital stop in Ashenvale for gatherers, offering on-site herbalism training surrounded by the rich flora of Mystral Lake."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "iris lake",
+  "mystral lake",
+  "night elf",
+  "sentinels",
+  "silverwind refuge"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "subzone:mystral-lake",
+  "subzone:iris-lake",
+  "subzone:astranaar",
+  "topic:sentinels"
+ ],
+ "attribution": [
+  "Silverwind Refuge"
+ ]
+}

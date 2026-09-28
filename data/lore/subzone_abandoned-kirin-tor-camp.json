@@ -1,0 +1,89 @@
+{
+ "key": "subzone:abandoned-kirin-tor-camp",
+ "type": "subzone",
+ "name": "Abandoned Kirin Tor Camp",
+ "era": "classic",
+ "zone": "deadwind",
+ "meta": {
+  "wiki": "Abandoned Kirin Tor Camp"
+ },
+ "summary": "Perched in the craggy hills of Deadwind Pass near the border of Duskwood, this desolate campsite once housed Dalaran scholars monitoring Karazhan. Today, it lies ruined and forgotten, haunted by wild magical apparitions drawn to its lingering ley energies.",
+ "sections": [
+  {
+   "title": "A Forgotten Watchpost",
+   "body": "Long before the First War, members of the Kirin Tor established this small outpost in the high rocks overlooking Karazhan. They came to study the strange, reality-bending anomalies emanating from the tower of the Guardian Medivh. An inscribed ritual circle still marks the stony ground, surrounded by discarded wagons, crates, and decayed tents. Instead of mages, however, the pass's volatile magic has drawn volatile Arcane Hunters and mana-feeding scavengers that prowl the perimeter, feasting on whatever dormant power remains.",
+   "spoiler": 0
+  },
+  {
+   "title": "Disaster and Erasure",
+   "body": "The camp was led by the Dalaran archmage Arrexis, who sought to anchor and stabilize the warped space around Karazhan. Encouraged into reckless overreach by Medivh\u2014who secretly plotted against his peers\u2014Arrexis tested warding rituals that tore open pathways to demonic entities. The catastrophic breach wiped out Arrexis and his apprentices. Horrified by the calamity and desperate to prevent another disaster, the Kirin Tor struck Arrexis's research and expedition from their official archives, abandoning the site to the elements and wild magical beasts.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is this camp doing in Deadwind Pass?",
+   "aliases": [
+    "kirin tor camp deadwind",
+    "why is dalaran here",
+    "who built this camp"
+   ],
+   "answer": "Scholars from the Kirin Tor set up this base prior to the First War to observe Karazhan and investigate the magical distortions surrounding the Guardian's tower."
+  },
+  {
+   "q": "What happened to the mages who lived here?",
+   "aliases": [
+    "what happened to arrexis",
+    "why is it abandoned",
+    "who died here"
+   ],
+   "answer": "Their leader, Archmage Arrexis, conducted dangerous warding rituals that breached planar boundaries and summoned hostile demonic forces. The entire research team was killed during the disaster."
+  },
+  {
+   "q": "Why are there arcane creatures prowling the camp?",
+   "aliases": [
+    "excited mana scavengers",
+    "arcane hunters",
+    "why are there magic dogs here"
+   ],
+   "answer": "The disastrous rituals cracked open local leylines and left residual magical energy behind, which naturally attracts arcane hunters and wild mana-hungry scavengers."
+  },
+  {
+   "q": "Why doesn't Dalaran maintain or reclaim the post?",
+   "aliases": [
+    "why did kirin tor leave it",
+    "kirin tor cover up"
+   ],
+   "answer": "After the catastrophe, the Kirin Tor expunged all records of Arrexis and his experiments to prevent anyone from repeating his fatal work, completely disavowing and deserting the location."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For mages trained in Dalaran, this ruined camp stands as a stark warning against unchecked planar research and meddling with Karazhan's fragile spatial boundaries."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The lingering remnants of planar tears and disastrous warding rituals make this hill an ominous example of what happens when arcane casters reach blindly into the nether."
+  }
+ ],
+ "keywords": [
+  "arcane hunters",
+  "arrexis",
+  "deadwind pass",
+  "karazhan",
+  "kirin tor",
+  "mana scavengers",
+  "medivh"
+ ],
+ "related": [
+  "subzone:karazhan",
+  "zone:deadwind",
+  "topic:medivh",
+  "zone:duskwood",
+  "topic:first-war"
+ ],
+ "attribution": [
+  "Abandoned Kirin Tor Camp"
+ ]
+}

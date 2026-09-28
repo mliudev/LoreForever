@@ -1,0 +1,67 @@
+{
+ "key": "npc:stanley",
+ "type": "npc",
+ "name": "Stanley",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Stanley",
+  "refs": 1
+ },
+ "summary": "Stanley is a mysterious wandering traveler who can occasionally be seen strolling through faction capitals. Clad in simple clothes, he observes the grand halls of leadership before quietly taking his leave.",
+ "sections": [
+  {
+   "title": "A Curious Traveler",
+   "body": "Little is known about the human traveler known simply as Stanley. Rather than taking up arms or pledging allegiance to worldly conflicts, he appears as an onlooker quietly taking in the sights of the world's greatest strongholds. Whether walking through Stormwind Keep or the Valley of Strength in Orgrimmar, he offers a gentle salute or a cheerful wave toward high command before continuing his solitary journey.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Stanley?",
+   "aliases": [
+    "who is stanley",
+    "stanley npc",
+    "who is the human wandering around"
+   ],
+   "answer": "Stanley is an unassuming human traveler who wanders through capital cities such as Stormwind and Orgrimmar. He acts as a peaceful observer, greeting leaders before heading on his way."
+  },
+  {
+   "q": "Why is a human walking freely in Orgrimmar?",
+   "aliases": [
+    "human in orgrimmar",
+    "why is stanley in orgrimmar",
+    "is stanley hostile to horde"
+   ],
+   "answer": "Despite being human, Stanley does not provoke hostility from the Horde guards. He simply wanders into Grommash Hold to wave at the leadership before quietly departing, behaving entirely neutrally."
+  },
+  {
+   "q": "Does Stanley offer any quests or services?",
+   "aliases": [
+    "stanley quests",
+    "stanley vendor",
+    "does stanley do anything"
+   ],
+   "answer": "Stanley does not offer any quests, sell goods, or teach skills. He is purely a flavor presence in the world, wandering past adventurers as a benign cameo figure."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cameo",
+  "orgrimmar",
+  "stanley",
+  "stormwind",
+  "traveler",
+  "wanderer"
+ ],
+ "related": [
+  "zone:stormwind",
+  "zone:orgrimmar",
+  "subzone:stormwind-keep",
+  "subzone:grommash-hold",
+  "subzone:valley-of-strength"
+ ],
+ "attribution": [
+  "Stanley"
+ ]
+}

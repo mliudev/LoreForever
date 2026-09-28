@@ -1,0 +1,84 @@
+{
+ "key": "subzone:gallywix-pleasure-palace",
+ "type": "subzone",
+ "name": "Gallywix Pleasure Palace",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Gallywix Pleasure Palace"
+ },
+ "summary": "Perched high in the hills of Azshara, the Gallywix Pleasure Palace stands as an extravagant tribute to wealth, luxury, and goblin excess. Owned by Trade Prince Jastor Gallywix of the Bilgewater Cartel, the lavish estate overlooks the surrounding rugged terrain. Complete with opulent amenities, it showcases the lengths to which a trade prince will go to indulge his personal comforts.",
+ "sections": [
+  {
+   "title": "A Monument to Bilgewater Opulence",
+   "body": "The Pleasure Palace is designed to provide every conceivable indulgence for Trade Prince Jastor Gallywix. Situated atop high ground reshaped through aggressive goblin engineering and strip-mining around Forlorn Ridge, the retreat commands a vast view of the bay. The grounds feature luxury pools, a private sauna, a grenade golf course, and hidden cellar stores. It serves as both an ironclad statement of the Bilgewater Cartel's mercantile dominance and a showcase for the eccentric, explosive tastes that define goblin high society.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Gallywix Pleasure Palace?",
+   "aliases": [
+    "pleasure palace",
+    "gallywix mansion",
+    "what is this place"
+   ],
+   "answer": "It is the personal luxury retreat and residence of Trade Prince Jastor Gallywix, head of the Bilgewater Cartel. Built high over western Azshara, it features extravagant amenities like private swimming pools, saunas, and an explosive golf course."
+  },
+  {
+   "q": "Who owns this estate?",
+   "aliases": [
+    "who runs pleasure palace",
+    "who owns this",
+    "jastor gallywix mansion"
+   ],
+   "answer": "The estate belongs to Trade Prince Jastor Gallywix, the ruthlessly cunning leader of the goblin Bilgewater Cartel, famed for his extravagant lifestyle and deep pockets."
+  },
+  {
+   "q": "Why was it built on these hills?",
+   "aliases": [
+    "why azshara",
+    "forlorn ridge build",
+    "why here"
+   ],
+   "answer": "The palace was erected atop the high terrain near Forlorn Ridge, where extensive goblin excavation and strip-mining cleared the ground to carve out both mineral riches and a scenic ocean view for the Trade Prince."
+  },
+  {
+   "q": "What features are found around the palace grounds?",
+   "aliases": [
+    "pleasure palace amenities",
+    "golf course",
+    "palace facilities"
+   ],
+   "answer": "The palace grounds boast a sprawling swimming pool, a sauna, an ocean overlook, a private booze cellar, and a full-size golf course designed for play with exploding grenade balls."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The palace represents engineering turned entirely to decadence, featuring elaborate plumbing and custom-designed explosive sporting equipment."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The estate reflects the chaotic influence and deep economic ties the Bilgewater Cartel maintains across the continent."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "bilgewater",
+  "forlorn ridge",
+  "gallywix",
+  "goblin",
+  "golf course",
+  "pleasure palace"
+ ],
+ "related": [
+  "subzone:forlorn-ridge",
+  "zone:azshara",
+  "topic:goblin",
+  "subzone:talrendis-point"
+ ],
+ "attribution": [
+  "Gallywix Pleasure Palace"
+ ]
+}

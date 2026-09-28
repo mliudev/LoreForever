@@ -1,0 +1,123 @@
+{
+ "key": "quest:1071",
+ "type": "quest",
+ "name": "A Gnome's Respite",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1071
+  ],
+  "level": "21",
+  "faction": "Alliance",
+  "start": "Gaxim Rustfizzle",
+  "end": "",
+  "previous": "On Guard in Stonetalon",
+  "next": null,
+  "wiki": "A Gnome's Respite",
+  "chain": []
+ },
+ "summary": "A Gnome's Respite is an Alliance quest offered by the eccentric tinkerer Gaxim Rustfizzle in the Stonetalon Mountains. Overwhelmed by the Venture Company's rapid industrial push into Windshear Crag, Gaxim hires adventurers to cull their loggers and deforesters so he can buy enough breathing room to invent new deterrents.",
+ "sections": [
+  {
+   "title": "A Clashing Alliance",
+   "body": "Gaxim Rustfizzle represents the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences. Stationed among the ancient groves of Stonetalon, his stated duty is proving to the nature-worshipping night elves that modern gnomish invention\u2014blending magic, chemical brews, and mechanics\u2014can actively protect their threatened lands. However, the relentless pace of the Venture Company has left him with barely any time to prototype his defensive devices.",
+   "spoiler": 0
+  },
+  {
+   "title": "Buying Time in Windshear Crag",
+   "body": "To stem the tide, Gaxim sends adventurers directly into the smoking operations at Windshear Crag. By targeting the frontline Venture Co. Loggers and Deforesters, travelers give Gaxim the respite he needs to organize his workshop and devise his next line of defense: strategic, controlled high explosives.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gaxim Rustfizzle?",
+   "aliases": [
+    "gaxim",
+    "who is gaxim rustfizzle",
+    "quest giver gaxim"
+   ],
+   "answer": "Gaxim Rustfizzle is an Alliance gnome engineer located in the Stonetalon Mountains. He serves as an operative of the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences, attempting to aid the night elves against industrial invaders."
+  },
+  {
+   "q": "Why is a gnome trying to protect night elf forests?",
+   "aliases": [
+    "why gnome in stonetalon",
+    "why help night elves",
+    "gnome ecology"
+   ],
+   "answer": "Gaxim believes it is his duty to prove to the skeptical night elves that advanced gnomish sciences\u2014specifically arcanology, alchemy, and engineering\u2014can coexist with nature and actively help defend their wilderness from unchecked industrial exploitation."
+  },
+  {
+   "q": "Who are the Venture Company in Windshear Crag?",
+   "aliases": [
+    "venture co stonetalon",
+    "who are venture co",
+    "windshear crag goblins"
+   ],
+   "answer": "The Venture Company is a ruthless goblin-run merchant syndicate strip-mining and clear-cutting Windshear Crag. Driven purely by profit, they have overrun the valley with loggers, deforesters, and heavy logging machinery."
+  },
+  {
+   "q": "Where can the loggers and deforesters be found?",
+   "aliases": [
+    "where are loggers",
+    "where to find deforesters",
+    "windshear crag location"
+   ],
+   "answer": "They operate throughout Windshear Crag, the heavily industrialized basin located directly east of Gaxim's position along the main road in the Stonetalon Mountains."
+  },
+  {
+   "q": "What does Gaxim plan to do once he gets time to think?",
+   "aliases": [
+    "gaxim plan",
+    "gnome respite continuation",
+    "explosives plan"
+   ],
+   "answer": "With the goblin workers driven back, Gaxim intends to replenish his stock of high explosives, using targeted mountain detonations to herd and frighten the Venture Company away from the groves."
+  },
+  {
+   "q": "What is the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences?",
+   "aliases": [
+    "gnomish assembly",
+    "arcanology assembly",
+    "what is enlightened assembly"
+   ],
+   "answer": "It is a gnomish academic society that explores the integration of arcane spellcraft, chemical mixtures, and mechanical engineering to solve practical problems across Azeroth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Gaxim's mission represents classic gnomish ambition: solving ancient, philosophical conflicts between nature and civilization through superior ingenuity and a bit of high explosives."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "While Kaldorei sentinels typically view gnomish machinery with deep suspicion, the relentless advance of the Venture Company makes any effective deterrent welcome in Stonetalon."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will appreciate Gaxim's philosophy that mechanisms and chemistry can solve environmental crises, as well as his fondness for high explosives."
+  }
+ ],
+ "keywords": [
+  "deforester",
+  "explosives",
+  "gaxim rustfizzle",
+  "gnome",
+  "logger",
+  "stonetalon",
+  "venture co",
+  "windshear crag"
+ ],
+ "related": [
+  "npc:gaxim-rustfizzle",
+  "subzone:windshear-crag",
+  "zone:stonetalon",
+  "topic:goblin",
+  "quest:1070"
+ ],
+ "attribution": [
+  "A Gnome's Respite"
+ ]
+}

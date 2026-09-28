@@ -1,0 +1,115 @@
+{
+ "key": "quest:4738",
+ "type": "quest",
+ "name": "In Search of Menara Voidrender",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   4738
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Demisette Cloyce",
+  "end": "Menara Voidrender",
+  "previous": null,
+  "next": "Components for the Enchanted Gold Bloodrobe",
+  "wiki": "In Search of Menara Voidrender (Stormwind)",
+  "chain": []
+ },
+ "summary": "An Alliance warlock seeking to craft powerful vestments is directed by the Mage Quarter's covert practitioners to seek out Menara Voidrender across the Great Sea. Stationed high above the neutral port of Ratchet, Menara trains dark spellcasters across faction divides in the dangerous arts of binding and artifact creation.",
+ "sections": [
+  {
+   "title": "A Reluctant Recommendation",
+   "body": "Within the dark crypts beneath the Slaughtered Lamb in Stormwind, warlock trainer Demisette Cloyce is known for her strict, unsparing standards. When an aspiring warlock reaches the threshold of weaving significant items of power, Demisette rarely believes they are truly ready. Nevertheless, higher authorities within the cabal mandate the student's advancement, dispatching them far from the safety of the capital to prove their mettle.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Tower Above Ratchet",
+   "body": "The destination is the arid hills overlooking the goblin port of Ratchet in the Barrens. There, Menara Voidrender maintains her laboratory in a stone tower. Isolated from the strict laws of Stormwind and the watchful eyes of Orgrimmar, Menara accepts apprentices regardless of race or political allegiance, knowing that the fiends and demonic entities warlocks contend with harbor equal malice toward every mortal soul.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is an Alliance warlock sent all the way to the Barrens?",
+   "aliases": [
+    "why ratchet",
+    "why go to barrens",
+    "why menara voidrender"
+   ],
+   "answer": "Few practitioners in the Alliance possess the arcane knowledge or freedom to craft advanced fel vestments like the Enchanted Gold Bloodrobe. Menara Voidrender operates out of a secluded tower above the neutral port of Ratchet, providing a rare sanctuary where warlocks of all backgrounds can study dangerous crafts beyond the reach of capital guards and inquisitors."
+  },
+  {
+   "q": "Who is Demisette Cloyce?",
+   "aliases": [
+    "demisette cloyce lore",
+    "who starts in search of menara"
+   ],
+   "answer": "Demisette Cloyce is a senior human warlock trainer who conducts clandestine operations beneath the Slaughtered Lamb in Stormwind's Mage Quarter. Stern and protective of dangerous knowledge, she sends students to Menara only when ordered by the unseen powers guiding the warlock enclave."
+  },
+  {
+   "q": "Does Menara Voidrender care about the Alliance or Horde conflict?",
+   "aliases": [
+    "is menara horde or alliance",
+    "does menara hate alliance"
+   ],
+   "answer": "No. Menara openly explains that warlocks must look past racial and factional boundaries. The demons and extraplanar forces they summon display equal savagery to all who falter, making mutual survival and shared dark arts far more vital than mortal wars."
+  },
+  {
+   "q": "What item is Menara Voidrender preparing the warlock to make?",
+   "aliases": [
+    "what does menara teach",
+    "what robe is this for",
+    "bloodrobe quest"
+   ],
+   "answer": "Reaching Menara is the first step toward forging the Robe of Arcana into the fabled Enchanted Gold Bloodrobe, a potent garment infused with rare reagents, fine tailoring, and bound demonic energies."
+  },
+  {
+   "q": "Is traveling to Ratchet dangerous for an Alliance warlock?",
+   "aliases": [
+    "how dangerous is ratchet",
+    "is the barrens safe"
+   ],
+   "answer": "The Barrens is primarily Horde territory populated by hostile wildlife, centaur, and orc patrols. However, Ratchet itself is a neutral port run by the Steamwheedle Cartel, making Menara's tower accessible if an Alliance traveler sticks to the coast or arrives safely by boat from Booty Bay."
+  },
+  {
+   "q": "Why does Demisette Cloyce think the player isn't ready?",
+   "aliases": [
+    "why demisette doubts player",
+    "demisette warning"
+   ],
+   "answer": "Demisette views the creation of fel-infused power items as reckless for untested novices. Warlock artifacts demand strict discipline; minor errors in binding reagents or demonic essences can destroy the practitioner or loose horrors into the world."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This rite of passage bridges the hidden warrens of Stormwind to the open frontiers of Kalimdor, teaching that the pursuit of demonic mastery transcends mortal factions."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Undertaking this journey forces Alliance casters out of their familiar eastern territories and into the untamed wilderness of the Barrens to find specialized instruction."
+  }
+ ],
+ "keywords": [
+  "bloodrobe",
+  "demisette cloyce",
+  "enchanted gold bloodrobe",
+  "menara voidrender",
+  "ratchet",
+  "slaughtered lamb",
+  "the barrens",
+  "warlock quest"
+ ],
+ "related": [
+  "npc:menara-voidrender",
+  "npc:demisette-cloyce",
+  "quest:1796",
+  "subzone:ratchet",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "In Search of Menara Voidrender (Stormwind)"
+ ]
+}

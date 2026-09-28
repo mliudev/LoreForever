@@ -1,0 +1,136 @@
+{
+ "key": "topic:third-war",
+ "type": "topic",
+ "name": "Third War",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Third War"
+ },
+ "summary": "The Third War was the apocalyptic conflict that shattered the old world order just a few years ago. Orchestrated by the Burning Legion and unleashed through the Lich King's Plague of Undeath, the war saw the fall of the Kingdom of Lordaeron and the near-total destruction of Quel'Thalas before culminating in a desperate, unified stand at Mount Hyjal.",
+ "sections": [
+  {
+   "title": "The Plague and the Prince",
+   "body": "The war began subtly in northern Lordaeron, disguised as a virulent sickness carried in infected grain distributed from Andorhal. The tainted harvest did not merely slaughter its victims; it raised them as ravenous ghouls bound to the Lich King's will. Prince Arthas Menethil raced to stem the contagion alongside the Kirin Tor sorceress Jaina Proudmoore. Blinded by grief, fury, and dreadlord manipulations, Arthas purged the infected population of Stratholme before pursuing his foe to the frozen waste of Northrend. There, he took up the cursed runeblade Frostmourne, casting aside his soul. He returned south only to murder his father, King Terenas, delivering Lordaeron into the hands of the Scourge.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Invasion of the Legion",
+   "body": "Empowered by death, Arthas crushed the high elven realm of Quel'Thalas to resurrect the necromancer Kel'Thuzad at the Sunwell. The undead army then laid siege to Dalaran, seizing the spellbooks necessary to summon the demon lord Archimonde into Azeroth. With the commander of the Burning Legion walking mortal soil, Dalaran was leveled in an arcane display of devastation. The Scourge had served its purpose as an advance guard, and the Burning Legion turned its sights toward the eternal power resting across the Great Sea.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Flight West and Mount Hyjal",
+   "body": "Guided by cryptic warnings from the mysterious Prophet\u2014later revealed as the redeemed Guardian Medivh\u2014Warchief Thrall led the New Horde across the Great Sea, while Lady Jaina Proudmoore evacuated surviving Alliance refugees. In ancient Kalimdor, the newcomers clashed with the reclusive night elves before all three factions recognized the supreme threat looming over them. Beneath the World Tree Nordrassil atop Mount Hyjal, mortals stood together against impossible odds. Archimonde was destroyed by ancestral wisps when he reached the tree, shattering the Legion's vanguard and ending the war.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Scarred World",
+   "body": "Although Archimonde fell, the peace of 25 ADP is fragile and stained with loss. The Alliance of Lordaeron is gone, leaving the kingdom of Stormwind and Ironforge to anchor the southern Alliance while Lordaeron sits rotting as the Plaguelands. In Kalimdor, Thrall's Horde carved out Durotar, yet tensions with the newly allied night elves remain volatile. The Scourge endures in the northern ruins, and the freed undead\u2014the Forsaken\u2014now hold the catacombs of Capital City, waging a war of survival against both former masters and vengeful crusaders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "When did the Third War happen?",
+   "aliases": [
+    "when was the third war",
+    "how long ago was the war",
+    "third war dates"
+   ],
+   "answer": "The Third War began in 20 ADP with the outbreak of the Plague of Undeath in Lordaeron and ended in 21 ADP at the Battle of Mount Hyjal. In the current year of 25 ADP, its devastation is only four years past, meaning the ruins are still fresh and nearly every adult living today fought in it or lost family to it."
+  },
+  {
+   "q": "How was the Third War different from the First and Second Wars?",
+   "aliases": [
+    "difference between third war and second",
+    "why was third war different",
+    "horde vs alliance third war"
+   ],
+   "answer": "The First and Second Wars were primarily struggles between the Old Horde and the kingdoms of the Alliance. The Third War was a global demonic invasion that shattered entire nations. Mortals fought not just one another, but the cosmic threat of the Burning Legion and its undead Scourge across three continents, forcing mortal enemies into a desperate truce."
+  },
+  {
+   "q": "What happened to the Kingdom of Lordaeron?",
+   "aliases": [
+    "fate of lordaeron",
+    "why is lordaeron destroyed",
+    "what happened to terenas"
+   ],
+   "answer": "Lordaeron was destroyed from within. The Cult of the Damned contaminated the regional grain supply with the Plague of Undeath, slaughtering the populace and raising them as monsters. Its own crown prince, Arthas, succumbed to corruption, assassinated his father King Terenas II, and handed the broken kingdom to the Scourge."
+  },
+  {
+   "q": "Who was the Prophet that warned everyone to go to Kalimdor?",
+   "aliases": [
+    "who was the prophet",
+    "raven prophet",
+    "medivh third war"
+   ],
+   "answer": "The Prophet was Medivh, the Last Guardian of Tirisfal. Brought back to atone for his past role in opening the Dark Portal, Medivh traveled in the guise of a raven-cloaked wanderer, warning leaders that Lordaeron was doomed and urging them to unite on the forgotten continent of Kalimdor."
+  },
+  {
+   "q": "Why are the night elves part of the Alliance now?",
+   "aliases": [
+    "why did night elves join alliance",
+    "night elves third war",
+    "kaldorei joining alliance"
+   ],
+   "answer": "For ten millennia, the night elves lived in strict isolation. The Third War brought the Legion back to their sacred forests and forced them to sacrifice their immortality to slay Archimonde at the World Tree. Facing a radically changed world, growing resource conflicts with Thrall's Horde, and surviving Scourge corruption, they abandoned their solitude and forged an alliance with the races of the Eastern Kingdoms."
+  },
+  {
+   "q": "How did the Horde escape the war in Lordaeron?",
+   "aliases": [
+    "how did thrall leave lordaeron",
+    "orcs sailing west",
+    "horde kalimdor flight"
+   ],
+   "answer": "Warchief Thrall trusted Medivh's prophetic dreams. He rallied the liberated clans from the internment camps, raided the human ports to commandeer sailing ships, and fled across the Great Sea before the Scourge or the Legion fully consumed Lordaeron."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The fall of Lordaeron shifted the center of Alliance leadership south to Stormwind and Ironforge, while survivors look northward with burning desires to reclaim their homeland."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For Thrall's Horde, the war was a crucible of redemption: Grommash Hellscream slew Mannoroth to break the demonic blood curse forever, allowing the orcs to build a sovereign nation in Kalimdor."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The Forsaken are living monuments to the war's horror\u2014citizens of Lordaeron slaughtered by the plague and forced to serve the Scourge until breaking free to claim the Undercity."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The defense of Nordrassil cost the kaldorei their immortality and exposed their ancient homelands to the wider world for the first time in ten thousand years."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The Knights of the Silver Hand were torn apart during the war when Arthas disbanded them, murdered Uther the Lightbringer, and turned their holy halls into charnel houses."
+  }
+ ],
+ "keywords": [
+  "archimonde",
+  "arthas",
+  "hyjal",
+  "mannoroth",
+  "medivh",
+  "nordrassil",
+  "scourge",
+  "stratholme",
+  "terenas",
+  "third war"
+ ],
+ "related": [
+  "topic:scourge",
+  "topic:burning-legion",
+  "topic:arthas-menethil",
+  "topic:nordrassil",
+  "topic:lordaeron",
+  "topic:plague-of-undeath",
+  "topic:medivh",
+  "topic:new-horde"
+ ],
+ "attribution": [
+  "Third War"
+ ]
+}

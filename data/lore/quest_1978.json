@@ -1,0 +1,126 @@
+{
+ "key": "quest:1978",
+ "type": "quest",
+ "name": "The Deathstalkers",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   1978
+  ],
+  "level": "13",
+  "faction": "Horde",
+  "start": "Mennet Carkad",
+  "end": "Varimathras",
+  "previous": "The Deathstalkers (3)",
+  "next": null,
+  "wiki": "The Deathstalkers (4)",
+  "chain": []
+ },
+ "summary": "This errand marks the formal induction of a capable operative into the ranks of the Deathstalkers, the Forsaken order of assassins and spies. Tasked with delivering Andron's Ledger directly to the dreadlord Varimathras, the courier brings proof of the Syndicate's covert activities to the highest tier of Undercity leadership.",
+ "sections": [
+  {
+   "title": "Induction into the Shadows",
+   "body": "After unearthing incriminating records from Andron Gant, Mennet Carkad officially welcomes the operative into the Deathstalkers. The organization serves as Lady Sylvanas's eyes, ears, and daggers throughout Lordaeron, relying on intelligence networks, ruthless efficiency, and stealth to eliminate threats before they surface. Gaining formal recognition within the order is a major milestone for any aspiring rogue or scout in the Undercity.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Syndicate Connection",
+   "body": "The prize of this covert investigation is Andron's Ledger, which exposes illicit ties between local agents and the Syndicate. Once the noble aristocracy of the fallen human kingdom of Alterac, the Syndicate turned to banditry and subversion after their realm collapsed in the Second War. Carkad expresses surprise and disdain at how far the fallen lords of Alterac have descended, stooping to petty conspiracies to claw back power.",
+   "spoiler": 1
+  },
+  {
+   "title": "Audience with the Dreadlord",
+   "body": "Because of the sensitive nature of the intelligence, the ledger is delivered directly to Varimathras in the Royal Quarter of the Undercity. The nathrezim commander oversees Forsaken tactical intelligence under Sylvanas Windrunner. Pleased with the Deathstalkers' initiative, Varimathras welcomes the operative's demonstrated capability, noting that his intelligence division can always make use of someone who delivers results.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Deathstalkers?",
+   "aliases": [
+    "who are the deathstalkers",
+    "deathstalker lore",
+    "forsaken assassins"
+   ],
+   "answer": "The Deathstalkers are the premier espionage, scouting, and assassination order of the Forsaken. Headquartered in the Rogues' Quarter of the Undercity, they operate across Lordaeron to neutralize political rivals, infiltrate hostile factions, and protect the Forsaken realm from external and internal subversion."
+  },
+  {
+   "q": "Why is the Syndicate involved?",
+   "aliases": [
+    "why syndicate",
+    "alterac connection",
+    "syndicate ledger"
+   ],
+   "answer": "The captured ledger reveals secret connections to the Syndicate, the displaced aristocracy of Alterac who turned to organized banditry. The Forsaken keep careful watch over Alterac remnants operating in their territory, as Syndicate agents continuously seek opportunities to reclaim lost land and plunder resources across northern Lordaeron."
+  },
+  {
+   "q": "Why report directly to Varimathras?",
+   "aliases": [
+    "why varimathras",
+    "who is varimathras",
+    "dreadlord role"
+   ],
+   "answer": "Varimathras serves as Queen Sylvanas's tactical advisor and oversees Undercity security and intelligence operations. Significant discoveries concerning foreign conspiracies\u2014such as the Syndicate's covert operations\u2014require review at the highest executive level to coordinate broader military and diplomatic countermeasures."
+  },
+  {
+   "q": "Who was Mennet Carkad?",
+   "aliases": [
+    "mennet carkad role",
+    "quest giver carkad"
+   ],
+   "answer": "Mennet Carkad is a senior handler and contact for the Deathstalkers operating in the Undercity. He oversees field agents, evaluates new recruits, and sifts through gathered intelligence before routing critical findings up the chain of command."
+  },
+  {
+   "q": "Where does this audience take place?",
+   "aliases": [
+    "where is varimathras",
+    "hall of the dark lady location"
+   ],
+   "answer": "The audience takes place in the Hall of the Dark Lady, located in the Royal Quarter deep within the Undercity. Varimathras stands beside Queen Sylvanas Windrunner at the heart of the Forsaken seat of power."
+  },
+  {
+   "q": "What happens after joining the Deathstalkers?",
+   "aliases": [
+    "deathstalker questline continuation",
+    "what next"
+   ],
+   "answer": "With your credentials established and your reliability proven to both Mennet Carkad and Varimathras, you are recognized as a trusted field operative for the Forsaken, setting the stage for future reconnaissance and elimination contracts across the contested lands of Lordaeron."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, induction into the Deathstalkers is a direct pledge to safeguard the fragile sovereignty of Lordaeron from human survivors and lurking traitors."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "This induction represents official entry into the Forsaken's dedicated rogue cadre, elevating simple cutpurses into state-sponsored intelligence operatives."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While internal to Forsaken security, monitoring the human remnants of Alterac protects the northern Horde territories from subversive sabotage."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "andron's ledger",
+  "deathstalkers",
+  "hall of the dark lady",
+  "mennet carkad",
+  "syndicate",
+  "undercity",
+  "varimathras"
+ ],
+ "related": [
+  "quest:1886",
+  "quest:1885",
+  "npc:varimathras",
+  "zone:undercity",
+  "topic:syndicate",
+  "topic:alterac-kingdom"
+ ],
+ "attribution": [
+  "The Deathstalkers (4)"
+ ]
+}

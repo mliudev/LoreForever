@@ -1,0 +1,133 @@
+{
+ "key": "quest:5046",
+ "type": "quest",
+ "name": "Razorhide",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   5046
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Mangletooth",
+  "end": "",
+  "previous": "Blood Shards of Agamaggan",
+  "next": null,
+  "wiki": "Razorhide",
+  "chain": [
+   "Blood Shards of Agamaggan",
+   "Agamaggan's Agility",
+   "Agamaggan's Strength",
+   "Razorhide",
+   "Rising Spirit",
+   "Spirit of the Wind",
+   "Wisdom of Agamaggan"
+  ]
+ },
+ "summary": "Razorhide is a repeatable ritual offered by the captive quilboar Mangletooth in Camp Taurajo. By offering him blood shards infused with the life essence of the Ancient boar god Agamaggan, warriors and wanderers can gain a powerful blessing of hardened skin and resilience before heading into combat.",
+ "sections": [
+  {
+   "title": "Blessings of the Boar God",
+   "body": "The quilboar trace their ancestry and power directly to Agamaggan, the Great Boar who perished battling the Burning Legion thousands of years ago. His blood soaked into the soils of the Barrens, calcifying into crystalline blood shards that still thrum with ancient power. Even though the quilboar remain sworn enemies of the Horde, Mangletooth\u2014held in a cage at Camp Taurajo\u2014is willing to trade their sacred knowledge in exchange for these precious fragments.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hardening the Hide",
+   "body": "Natural quilboar physiology grants them thick hides and protective quills, but tribal warriors invoke Agamaggan's blessing of Razorhide to further shield themselves from enemy blades and claws. By channeling four blood shards, Mangletooth mimics this tribal rite for outsiders, magically bolstering an adventurer's defenses so their bones remain unbroken and their skin resists trauma in the wilds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers the Razorhide ritual?",
+   "aliases": [
+    "who gives razorhide",
+    "mangletooth quest",
+    "who starts razorhide"
+   ],
+   "answer": "The quest is provided by Mangletooth, an imprisoned quilboar kept in a wooden cage at Camp Taurajo in the southern Barrens. Once you prove your familiarity with blood shards, he offers various blessings in exchange for more."
+  },
+  {
+   "q": "What are blood shards?",
+   "aliases": [
+    "what are blood shards",
+    "blood shard lore",
+    "blood of agamaggan"
+   ],
+   "answer": "Blood shards are crystalline formations found across the Barrens. According to quilboar belief, they formed from the spilled blood of the Ancient Boar Agamaggan during the War of the Ancients, and they retain an immense reservoir of primal magic."
+  },
+  {
+   "q": "Why is an imprisoned quilboar helping Horde travelers?",
+   "aliases": [
+    "why does mangletooth help",
+    "why is mangletooth in taurajo",
+    "friendly quilboar"
+   ],
+   "answer": "Mangletooth is a captive of the tauren at Camp Taurajo. While he retains his rough demeanor and loyalty to his god, he hungers for blood shards and is willing to teach outsiders quilboar rites to acquire them."
+  },
+  {
+   "q": "What kind of protection does Razorhide represent?",
+   "aliases": [
+    "what does razorhide do",
+    "razorhide lore",
+    "protective blessing"
+   ],
+   "answer": "Razorhide represents the tribal wardings quilboar invoke before heading into battle. It thickens the skin and fortifies the bones, augmenting natural defenses with the supernatural endurance of Agamaggan."
+  },
+  {
+   "q": "Can you receive Razorhide more than once?",
+   "aliases": [
+    "is razorhide repeatable",
+    "repeat razorhide",
+    "how many times can i do razorhide"
+   ],
+   "answer": "Yes. Like all of Mangletooth's boons, Razorhide is a repeatable transaction. Whenever you bring him four blood shards, he will invoke the blessing on your behalf."
+  },
+  {
+   "q": "Where can blood shards be found?",
+   "aliases": [
+    "blood shard locations",
+    "where to get blood shards",
+    "farm blood shards"
+   ],
+   "answer": "Blood shards are typically scavenged from geomancers, hunters, and warriors across various quilboar encampments, brambles, and crags throughout the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The hunters of Camp Taurajo keep a close eye on Mangletooth's cage, recognizing that while quilboar rites touch sacred Earthmother ground, their feral practitioners rarely share secrets without a price."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Frontline fighters entering the dangerous thorn thickets of the southern Barrens benefit greatly from magical armor and fortified hides that blunt heavy blows."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Camp Taurajo serves as the Horde's foothold against constant quilboar encroachment, turning the captive Mangletooth's reverence for Agamaggan into an asset for travelers."
+  }
+ ],
+ "keywords": [
+  "agamaggan",
+  "barrens",
+  "blood shards",
+  "camp taurajo",
+  "mangletooth",
+  "quilboar",
+  "razorhide"
+ ],
+ "related": [
+  "npc:mangletooth",
+  "topic:agamaggan",
+  "quest:5052",
+  "quest:5042",
+  "quest:5043",
+  "quest:5044",
+  "quest:5045",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Razorhide"
+ ]
+}

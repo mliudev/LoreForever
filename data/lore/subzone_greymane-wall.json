@@ -1,0 +1,92 @@
+{
+ "key": "subzone:greymane-wall",
+ "type": "subzone",
+ "name": "Greymane Wall",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Greymane Wall"
+ },
+ "summary": "The Greymane Wall is a massive stone bulwark spanning the southern frontier of Silverpine Forest. Built by King Genn Greymane after the Second War, it seals the kingdom of Gilneas away from the outside world behind impenetrable, locked gates.",
+ "sections": [
+  {
+   "title": "A Monument to Isolation",
+   "body": "Following the Second War, King Genn Greymane grew resentful of the Alliance of Lordaeron, particularly the taxes required to maintain the orc internment camps and build Nethergarde Keep. Deciding Gilneas had given enough of its coin and blood for foreign troubles, Greymane withdrew from the Alliance and ordered a colossal barrier raised across the head of the peninsula. In doing so, he abandoned lands belonging to Lord Darius Crowley\u2014including Pyrewood Village and Ambermill\u2014leaving them stranded on the northern side of the stones. When the Third War brought the Plague of Undeath and countless desperate refugees to its foot, the gates remained pitilessly barred.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of Seclusion",
+   "body": "While the rampart successfully kept the armies of the Scourge from overrunning the peninsula, safety brought a dark price. Gilnean forces briefly opened the gates during the war to fight the undead, only to be overwhelmed. In desperation, King Greymane ordered Archmage Arugal to summon the feral worgen. Though the beasts drove back the Scourge, they turned on their summoners. Greymane's soldiers retreated and sealed the gates shut once more, but infected fighters carried the beastly contagion back inside. Behind the cold, silent wall, internal rebellion and a creeping curse now tear the isolated kingdom apart.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What lies beyond the Greymane Wall?",
+   "aliases": [
+    "what is behind the wall",
+    "where does greymane wall lead",
+    "what kingdom is behind the wall"
+   ],
+   "answer": "Behind the wall lies the peninsula kingdom of Gilneas. Ruled by King Genn Greymane, it completely isolated itself from Lordaeron and the rest of the world before the Third War, barring all commerce and communication."
+  },
+  {
+   "q": "Can you open the gates of the Greymane Wall?",
+   "aliases": [
+    "how to get past greymane wall",
+    "can you open greymane wall",
+    "open the gate"
+   ],
+   "answer": "No. The massive portcullis and iron-banded doors are firmly barred from the southern side. Gilneas has severed all contact with the outside world, and nothing enters or leaves."
+  },
+  {
+   "q": "Why was the wall built here instead of farther south?",
+   "aliases": [
+    "why did they build it here",
+    "why cut off pyrewood",
+    "crowley lands cut off"
+   ],
+   "answer": "The wall utilized the surrounding mountainous terrain as a natural barrier. Building along this ridge forced the kingdom to abandon the northern holdings of Lord Darius Crowley\u2014including Pyrewood Village and Ambermill\u2014sowing bitter domestic dissent within Gilneas."
+  },
+  {
+   "q": "What happened to the refugees who fled here during the Third War?",
+   "aliases": [
+    "scourge refugees wall",
+    "refugees outside greymane wall"
+   ],
+   "answer": "When the Scourge ravaged Lordaeron, masses of fleeing human refugees gathered outside the wall begging for entry. King Greymane refused to unseal the gates to protect his kingdom, and the desperate refugees were eventually slaughtered by the undead outside."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Greymane Wall stands as a bitter reminder of Gilnean abandonment. When Lordaeron fell to the Scourge, Greymane turned a deaf ear to his former allies, leaving them to rot outside his gates."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For the Forsaken who now claim Silverpine Forest, the wall forms an impassable southern border, sealing away a human kingdom whose intentions and inner strength remain entirely unknown."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "darius crowley",
+  "genn greymane",
+  "gilneas",
+  "greymane wall",
+  "pyrewood",
+  "silverpine"
+ ],
+ "related": [
+  "zone:silverpine",
+  "subzone:pyrewood-village",
+  "subzone:ambermill",
+  "topic:worgen",
+  "npc:arugal",
+  "npc:darius-crowley",
+  "topic:alliance-of-lordaeron",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Greymane Wall"
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "key": "subzone:vestibule-of-the-silver-hand",
+ "type": "subzone",
+ "name": "Vestibule of the Silver Hand",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Vestibule of the Silver Hand"
+ },
+ "summary": "The Vestibule of the Silver Hand is a sunken, forgotten antechamber hidden beneath the waters of Tirisfal Glades. Positioned just beyond an ancient submerged passage, it serves as the grand entrance to the legendary Tomb of Tyr.",
+ "sections": [
+  {
+   "title": "The Threshold to Tyr's Rest",
+   "body": "Hidden deep beneath Tirisfal, this subterranean vestibule marks the true gateway into the resting place of the titan-forged keeper Tyr. Accessible only by braving deep submerged tunnels, the chamber stands sealed away from the surface world, shrouded in silence and protected by ancient warding mechanisms that have outlasted the rise and fall of mortal kingdoms.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Vestibule of the Silver Hand?",
+   "aliases": [
+    "vestibule silver hand",
+    "what is this place",
+    "vestibule of tyr"
+   ],
+   "answer": "It is an ancient entrance hall hidden beneath the waters of Tirisfal Glades, constructed directly before the inner chambers of the Tomb of Tyr."
+  },
+  {
+   "q": "How do you reach this chamber?",
+   "aliases": [
+    "how to get here",
+    "vestibule entrance",
+    "reaching vestibule"
+   ],
+   "answer": "Reaching the vestibule requires navigating a flooded underwater passage concealed far beneath the glades of Tirisfal."
+  },
+  {
+   "q": "Why is it named after the Silver Hand?",
+   "aliases": [
+    "why silver hand",
+    "name origin",
+    "tyr silver hand"
+   ],
+   "answer": "The hall honors Keeper Tyr, the legendary titan-forged guardian known for his sacrificial silver hand, whose mythical battle gave Tirisfal its name."
+  },
+  {
+   "q": "What lies beyond the vestibule?",
+   "aliases": [
+    "what is past here",
+    "where does it lead",
+    "inner tomb"
+   ],
+   "answer": "Beyond this antechamber lie the deeper vaults of the Tomb of Tyr, protected by ancient defensive systems."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The imagery of the Silver Hand originates in this subterranean vault, honoring the legendary sacrifice of Keeper Tyr long before mortal paladin orders ever took up the symbol."
+  },
+  {
+   "target": "race:Human",
+   "text": "Early human tribes named Tirisfal in awe of Tyr's fall, though few living souls today suspect the titan-forged keeper's tomb rests sealed deep beneath the soil."
+  }
+ ],
+ "keywords": [
+  "keeper tyr",
+  "silver hand",
+  "tirisfal glades",
+  "tomb of tyr",
+  "underwater passage",
+  "vestibule of the silver hand"
+ ],
+ "related": [
+  "subzone:tomb-of-tyr",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Vestibule of the Silver Hand"
+ ]
+}

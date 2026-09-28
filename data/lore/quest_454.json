@@ -1,0 +1,115 @@
+{
+ "key": "quest:454",
+ "type": "quest",
+ "name": "After the Ambush",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   454
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Huldar",
+  "end": "Miran",
+  "previous": "Resupplying the Excavation (Classic)",
+  "next": "Protecting the Shipment (Classic)",
+  "wiki": "After the Ambush",
+  "chain": []
+ },
+ "summary": "After a Dark Iron assault disrupts the delivery of blasting powder to the southern excavation site in Loch Modan, Huldar splits the duties with his partner Miran. Unwilling to risk another ambush alone, Miran requires a sturdy escort to carry the remaining supplies safely to the dig site.",
+ "sections": [
+  {
+   "title": "A Fractured Supply Line",
+   "body": "Transporting explosive mining powder through the hills of Loch Modan was never simple, but the open hostility of the Dark Iron dwarves turned routine labor into a lethal undertaking. Following an ambush spearheaded by Saean and his conspirators, the haulers Huldar and Miran find their routine shattered. With barrels scattered and the road perilous, the pair must divide their efforts: Huldar guards what remains behind, while Miran prepares to push forward with the next load.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to the Dig",
+   "body": "The excavation sites across Loch Modan depend on steady deliveries of blasting powder to break stone and unearth titan relics. Miran knows well that another ambush could erupt from any ridge along the path. By securing a traveling companion before strapping down his cargo, the hauler hopes to bypass whatever lurking traps the Dark Irons still hold in reserve.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are Huldar and Miran?",
+   "aliases": [
+    "who is huldar",
+    "who is miran",
+    "powder haulers loch modan"
+   ],
+   "answer": "Huldar and Miran are dwarven haulers tasked with moving heavy barrels of blasting powder across Loch Modan to support local excavation efforts."
+  },
+  {
+   "q": "Why can't Huldar and Miran travel together?",
+   "aliases": [
+    "why split up",
+    "why split powder"
+   ],
+   "answer": "Following an ambush along their route, the shipment was left vulnerable. They divided their responsibilities so Huldar can stay behind and guard the remaining barrels while Miran moves forward with the first batch."
+  },
+  {
+   "q": "Who attacked the shipment?",
+   "aliases": [
+    "who ambushed them",
+    "who is saean"
+   ],
+   "answer": "A group of hostile Dark Iron dwarves led by Saean ambushed the haulers, attempting to disrupt Alliance operations and seize or destroy their mining explosives."
+  },
+  {
+   "q": "Where is Miran taking the powder?",
+   "aliases": [
+    "where is powder going",
+    "miran destination"
+   ],
+   "answer": "Miran is hauling the barrels to the southern excavation site in Loch Modan, where Prospector Ironband's team requires blasting powder to clear rock and uncover buried ruins."
+  },
+  {
+   "q": "Why is blasting powder so heavily guarded in Loch Modan?",
+   "aliases": [
+    "why protect blasting powder",
+    "powder importance"
+   ],
+   "answer": "Blasting powder is crucial for the Explorers' League excavations, but in the wrong hands, it poses an immense danger. Dark Iron infiltrators operating throughout the region actively seek to sabotage supplies and disrupt Ironforge's hold on the territory."
+  },
+  {
+   "q": "What happens after talking to Miran?",
+   "aliases": [
+    "next step after the ambush",
+    "what does miran do"
+   ],
+   "answer": "Once Miran completes his final checks on the wagon and cargo, he asks you to escort him along the roadway to ensure the shipment reaches the excavation site intact."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Defending Ironforge's logistics from treacherous Dark Iron saboteurs directly preserves the safety of your homeland's mountain passes and mining operations."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Keeping the supply lines open in Loch Modan ensures that the League's research continues and the southern passes remain under Alliance control."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Blasting powder is the lifeblood of deep subterranean digs, making the protection of these barrels essential to any serious mining venture."
+  }
+ ],
+ "keywords": [
+  "ambush",
+  "blasting powder",
+  "dark iron",
+  "excavation",
+  "huldar",
+  "loch modan",
+  "miran",
+  "saean"
+ ],
+ "related": [
+  "npc:huldar",
+  "zone:lochmodan"
+ ],
+ "attribution": [
+  "After the Ambush"
+ ]
+}

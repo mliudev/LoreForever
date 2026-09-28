@@ -1,0 +1,119 @@
+{
+ "key": "quest:410",
+ "type": "quest",
+ "name": "The Dormant Shade",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   410
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Lillith's Dinner Table",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "The Dormant Shade",
+  "chain": []
+ },
+ "summary": "The Dormant Shade is a dark ritual performed within the ruined homesteads of Tirisfal Glades. By placing a mystic candle upon an old, blood-soaked table, a traveler summons forth a restless spirit tied to the Forsaken's dark rites of loyalty.",
+ "sections": [
+  {
+   "title": "A Gruesome Altar",
+   "body": "Amid the blighted ruins of Tirisfal Glades rests a battered, bloody dinner table. Far from an ordinary piece of neglected domestic furniture, it serves as the physical focus for a sinister conjuration. Stained with dried gore and abandoned to the shadows, the table acts as a makeshift ritual slab where death and dark magic linger.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Candle of Beckoning",
+   "body": "To awaken whatever lurks attached to the site, one must place the Candle of Beckoning upon the bloodied surface and ignite its flame. The candle's light cuts through the Tirisfal gloom, calling forth the spirit of Lillith Nefara from the veil of death. It is an intentional act of necromantic disturbance designed to challenge those who seek to prove their mettle and allegiance.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of lighting the candle on the table?",
+   "aliases": [
+    "why light candle",
+    "dormant shade objective",
+    "table ritual"
+   ],
+   "answer": "Lighting the Candle of Beckoning on the battered, bloody table summons the shade of Lillith Nefara, a dangerous apparition who must be vanquished."
+  },
+  {
+   "q": "Who is summoned by this ritual?",
+   "aliases": [
+    "who spawns",
+    "dormant shade ghost",
+    "who is the shade"
+   ],
+   "answer": "The ritual draws forth Lillith Nefara, an undead spirit haunting the ruined homesteads of Tirisfal Glades."
+  },
+  {
+   "q": "How does this relate to proving allegiance to the Forsaken?",
+   "aliases": [
+    "proving allegiance connection",
+    "why kill lillith",
+    "forsaken test"
+   ],
+   "answer": "Summoning and destroying Lillith Nefara is an essential test in the quest Proving Allegiance, demonstrating a Forsaken initiate's willingness and ability to root out stubborn apparitions in Tirisfal."
+  },
+  {
+   "q": "Where does this ritual take place?",
+   "aliases": [
+    "table location",
+    "where is the table",
+    "lilliths dinner table"
+   ],
+   "answer": "The ritual occurs at an old ruined homestead in Tirisfal Glades, at a battered wooden dinner table stained with dried blood."
+  },
+  {
+   "q": "Can anyone light the candle?",
+   "aliases": [
+    "who can do the ritual",
+    "class requirements",
+    "candle ritual"
+   ],
+   "answer": "Anyone possessing the Candle of Beckoning who is undertaking the trials of allegiance for the Forsaken can ignite the flame upon the altar."
+  },
+  {
+   "q": "Is the table naturally haunted?",
+   "aliases": [
+    "is the table magical",
+    "why the bloody table"
+   ],
+   "answer": "The table itself is a grim relic of Lordaeron's fall, steeped in violence and residual dark energies that allow the Candle of Beckoning to anchor and manifest the dormant shade."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, performing rituals over the bloodied ruins of Lordaeron's former homes is a grim reminder that their new existence is forged through death, dark magic, and unyielding loyalty to the Dark Lady."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks understand the resonant power of binding spirits to blood-drenched altars, making this ritual a familiar exercise in manipulating the boundary between life and death."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Shadow priests recognize the call of the candle as an exercise in shadowy communion, pulling a restless lingering soul back into physical conflict."
+  }
+ ],
+ "keywords": [
+  "bloody table",
+  "candle of beckoning",
+  "dormant shade",
+  "forsaken ritual",
+  "lillith nefara",
+  "proving allegiance",
+  "tirisfal glades"
+ ],
+ "related": [
+  "quest:409",
+  "zone:tirisfal",
+  "topic:light"
+ ],
+ "attribution": [
+  "The Dormant Shade"
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "key": "npc:sprite-jumpsprocket",
+ "type": "npc",
+ "name": "Sprite Jumpsprocket",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Sprite Jumpsprocket",
+  "refs": 5
+ },
+ "summary": "Sprite Jumpsprocket is an apprentice gnome engineer currently residing in the busy Dwarven District of Stormwind City. Like many gnomes who sought refuge following the fall of Gnomeregan, she pursues technical craft and innovation alongside her fellow tinkers. Her presence highlights the thriving community of dwarven and gnomish artisans who keep the capital city supplied with gears, gadgets, and mechanical expertise.",
+ "sections": [
+  {
+   "title": "A Tinker in Stormwind",
+   "body": "In the soot-covered streets and bustling workshops of the Dwarven District, gnomes and dwarves work shoulder-to-shoulder forging metal and designing intricate contraptions. Sprite Jumpsprocket serves as an apprentice engineer in this vibrant hub. Having integrated into the kingdom's capital, apprentice tinkers like Sprite hone their craft under experienced masters, contributing their inventive minds to the everyday mechanisms and technological marvels of the Alliance.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gnomish Ingenuity in Exile",
+   "body": "Following the devastating loss of Gnomeregan, displaced gnomes dispersed across Alliance lands, bringing their singular knack for tinkering, chemistry, and mechanics with them. In Stormwind City, gnomes found a welcoming sanctuary within the Dwarven District, where blast furnaces and workbenches are plentiful. Sprite Jumpsprocket represents this resilient, forward-looking spirit\u2014determined to master the complex discipline of engineering despite the hardships faced by her kin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sprite Jumpsprocket?",
+   "aliases": [
+    "sprite jumpsprocket",
+    "who is sprite",
+    "sprite jumpsprocket lore"
+   ],
+   "answer": "Sprite Jumpsprocket is a female gnome apprentice engineer living and working within the Dwarven District of Stormwind City."
+  },
+  {
+   "q": "Where can I find Sprite Jumpsprocket?",
+   "aliases": [
+    "sprite jumpsprocket location",
+    "where is sprite",
+    "find sprite jumpsprocket"
+   ],
+   "answer": "She can be found in the Dwarven District of Stormwind City, surrounded by workshops, anvils, and fellow engineering enthusiasts."
+  },
+  {
+   "q": "What role does she serve in Stormwind?",
+   "aliases": [
+    "sprite jumpsprocket role",
+    "what does she do",
+    "sprite jumpsprocket purpose"
+   ],
+   "answer": "Sprite is an apprentice engineer. She represents the ongoing presence of gnomish tinkerers honing their inventive crafts in the Alliance capital."
+  },
+  {
+   "q": "Why are gnomes like Sprite living in Stormwind?",
+   "aliases": [
+    "why gnomes in stormwind",
+    "gnomes dwarven district",
+    "gnome refugees"
+   ],
+   "answer": "After the catastrophic fall of Gnomeregan, many gnomes sought refuge among their dwarven cousins in Ironforge and throughout human lands, particularly Stormwind City, where their industrial ingenuity is in high demand."
+  },
+  {
+   "q": "Is Sprite Jumpsprocket tied to any notable quests?",
+   "aliases": [
+    "sprite jumpsprocket quest",
+    "quests for sprite"
+   ],
+   "answer": "Sprite plays a minor role in the local neighborhood of the Dwarven District, mainly standing as part of the district's engineering community."
+  },
+  {
+   "q": "Is she associated with Westfall?",
+   "aliases": [
+    "sprite jumpsprocket westfall",
+    "westfall engineer"
+   ],
+   "answer": "While sometimes indexed near surrounding southern kingdoms records, Sprite is stationed squarely in the Dwarven District of Stormwind City, though engineering creations throughout the region often share gnomish designs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "For budding tinkers, Sprite Jumpsprocket stands as a fellow student of sprockets, copper tubing, and volatile concoctions in Stormwind's most industrial enclave."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Sprite is a reminder of the perseverance of Gnomeregan's exiles, continuing their love of craft and mechanical mastery far from their lost homeland."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Her work in the Dwarven District illustrates the everyday cooperation between humans, dwarves, and gnomes supporting the capital's infrastructure."
+  }
+ ],
+ "keywords": [
+  "apprentice",
+  "dwarven district",
+  "engineer",
+  "gnome",
+  "jumpsprocket",
+  "sprite jumpsprocket",
+  "stormwind",
+  "tinker"
+ ],
+ "related": [
+  "subzone:dwarven-district",
+  "zone:stormwind",
+  "topic:gnome",
+  "topic:stormwind-kingdom",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Sprite Jumpsprocket"
+ ]
+}

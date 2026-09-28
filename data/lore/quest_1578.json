@@ -1,0 +1,122 @@
+{
+ "key": "quest:1578",
+ "type": "quest",
+ "name": "Supplying the Front",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   1578
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Tormus Deepforge",
+  "end": "Thorvald Deepforge",
+  "previous": null,
+  "next": null,
+  "wiki": "Supplying the Front",
+  "chain": []
+ },
+ "summary": "Supplying the Front is an early task for developing dwarven blacksmiths, commissioned by Tormus Deepforge in Ironforge. It tasks smiths with forging weapons and armor to support the Mountaineers stationed in Loch Modan against the relentless trogg incursions.",
+ "sections": [
+  {
+   "title": "Arming the Mountaineers",
+   "body": "In the great forges of Ironforge, master smith Tormus Deepforge keeps a keen eye on the Kingdom of Khaz Modan's borders. The Mountaineers defending the valleys of Loch Modan are hard-pressed by sudden trogg attacks spilling out from unearthed ruins and caverns. Keeping their defensive lines supplied requires a non-stop rotation of fresh blades, belts, and fittings, prompting local artisans to pitch in.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Deepforge Kinship",
+   "body": "To keep the defense supplied without pulling veteran craftspeople away from city forges, Tormus dispatches apprentices south to Loch Modan. There, his colleague Thorvald Deepforge maintains a field armory out of the southern guard tower. By delivering sturdy copper axes and copper chain belts directly to Thorvald, blacksmiths prove their reliability and earn advanced smithing techniques.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this quest and what is required?",
+   "aliases": [
+    "who gives supplying the front",
+    "quest starter",
+    "blacksmith quest requirements"
+   ],
+   "answer": "Tormus Deepforge, a blacksmithing trainer found in the Great Forge of Ironforge, offers this task to apprentice smiths with a skill level of at least thirty. You must craft six copper axes and six copper chain belts."
+  },
+  {
+   "q": "Where is Thorvald Deepforge located?",
+   "aliases": [
+    "where is thorvald",
+    "thorvald location",
+    "southern guard tower loch modan"
+   ],
+   "answer": "Thorvald Deepforge is stationed inside the southern guard tower of Loch Modan. To reach him, head south along the main road past Thelsamar toward the Badlands border, where the tower stands beside the mountain pass."
+  },
+  {
+   "q": "Why do the Mountaineers need so many copper supplies?",
+   "aliases": [
+    "why do they need axes",
+    "what is the copper for"
+   ],
+   "answer": "Mountaineers stationed in Loch Modan are engaged in constant skirmishes with violent troggs. The harsh combat rapidly chips, dulls, and breaks their equipment, requiring an endless influx of basic weapons and chain armor."
+  },
+  {
+   "q": "What relation is Thorvald to Tormus?",
+   "aliases": [
+    "are thorvald and tormus related",
+    "tormus colleague"
+   ],
+   "answer": "Tormus refers to Thorvald as his colleague, and sharing the Deepforge clan name, they are closely linked craftsmen working together to bridge Ironforge's industrial capacity with field defenses."
+  },
+  {
+   "q": "What kind of reward does Thorvald offer?",
+   "aliases": [
+    "quest reward",
+    "what does thorvald teach"
+   ],
+   "answer": "In appreciation for relieving the supply strain on the southern guard tower, Thorvald shares his craft knowledge by providing plans for new armor."
+  },
+  {
+   "q": "Why are the troggs such an issue in Loch Modan right now?",
+   "aliases": [
+    "why are troggs attacking",
+    "trogg problem loch modan"
+   ],
+   "answer": "Recent dwarven excavations have uncovered subterranean vaults and hollows throughout Khaz Modan, accidentally awakening and unearthing swarms of aggressive troggs that now menace surrounding settlements and watchtowers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "This task serves as an early rite of passage for aspiring metalworkers, testing their ability to produce reliable, uniform copper weapons and armor for real military use."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The defense of Loch Modan relies directly on dwarven craftsmanship, proving that an artisan working the bellows is just as crucial to the kingdom's survival as a mountaineer holding a rifle."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Khaz Modan's border security safeguards the mountain roads linking Ironforge with Stormwind and Alliance operations in the southern reaches."
+  }
+ ],
+ "keywords": [
+  "blacksmithing",
+  "copper axe",
+  "copper chain belt",
+  "ironforge",
+  "loch modan",
+  "supplying the front",
+  "thelsamar",
+  "thorvald deepforge",
+  "tormus deepforge",
+  "troggs"
+ ],
+ "related": [
+  "npc:tormus-deepforge",
+  "npc:thorvald-deepforge",
+  "zone:lochmodan",
+  "subzone:thelsamar",
+  "topic:trogg",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Supplying the Front"
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "key": "topic:kolkar-clan",
+ "type": "topic",
+ "name": "Kolkar clan",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Kolkar clan"
+ },
+ "summary": "The Kolkar are an aggressive clan of centaur native to central Kalimdor, claiming descent from the legendary first Khan, Kolk. They maintain strongholds in Desolace and across the Barrens, frequently raiding Horde settlements and fighting anyone who crosses their path.",
+ "sections": [
+  {
+   "title": "Sons of Kolk",
+   "body": "The Kolkar take their name from Khan Kolk, the legendary first centaur khan born from the union of Zaetar and Theradras. Driven by a deep hatred for other races and their fellow centaur clans alike, the Kolkar distinguish themselves by their red markings and an absolute refusal to form alliances. Historically based out of their ancient village in eastern Desolace near Maraudon, the restless spirit of Khan Kolk still wanders the subterranean depths of their ancestral lands.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scourge of the Barrens",
+   "body": "For generations, the nomadic tauren endured brutal raids from the Kolkar as they traversed the arid Barrens. When the orcs arrived on Kalimdor during the Third War, Thrall allied with Cairne Bloodhoof to push the marauding centaur back and escort the tauren to safety in Mulgore. Defeat did not break the clan; instead, it fueled a lingering blood feud. The Kolkar entrenched themselves around all three vital water sources in the Barrens: the Forgotten Pools, the Lushwater Oasis, and the Stagnant Oasis.",
+   "spoiler": 0
+  },
+  {
+   "title": "Encroachment on Durotar",
+   "body": "Emboldened by their fortified positions across the savanna, the Kolkar have pushed eastward past the Southfury River into Durotar itself. From Kolkar Crag in the south, raiding parties plot assaults against Sen'jin Village, the Valley of Trials, and the paths approaching Orgrimmar. While senior Horde leadership focuses on larger regional threats, young recruits guided by veterans like Lar Prowltusk are dispatched to cull the centaur advance before their raiding parties can strike the nascent orc capital.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are the Kolkar centaur?",
+   "aliases": [
+    "kolkar clan",
+    "who are kolkar",
+    "kolkar lore",
+    "centaur in barrens"
+   ],
+   "answer": "The Kolkar are one of five major centaur clans in Kalimdor. Named after their founding leader, Khan Kolk, they are a fierce and xenophobic tribe recognized by their red armor. They maintain settlements in Desolace, control the Barrens' primary water oases, and run raiding camps in southern Durotar."
+  },
+  {
+   "q": "Why do the Kolkar hate the Horde so much?",
+   "aliases": [
+    "why do kolkar attack orcs",
+    "kolkar tauren feud",
+    "centaur vs horde"
+   ],
+   "answer": "The Kolkar hunted and harassed the tauren for generations across the Barrens. When Thrall's Horde arrived, the orcs joined Cairne Bloodhoof to drive the centaur back so the tauren could settle Mulgore. This alliance humiliated the Kolkar Khans, turning centuries of predatory hunting into a bitter war against both orcs and tauren."
+  },
+  {
+   "q": "Why are the Kolkar occupying the Barrens oases?",
+   "aliases": [
+    "kolkar at oases",
+    "forgotten pools centaur",
+    "lushwater oasis centaur"
+   ],
+   "answer": "In the arid Barrens, controlling water means controlling survival. The Kolkar have occupied the Forgotten Pools, Lushwater Oasis, and Stagnant Oasis with command tents, tribal totems, and hyena packs, denying these precious watering holes to travelers, merchants, and the Horde."
+  },
+  {
+   "q": "Who leads the Kolkar clan?",
+   "aliases": [
+    "kolkar leader",
+    "kolkar khan",
+    "who is the kolkar boss"
+   ],
+   "answer": "The clan's first ruler was Khan Kolk, whose spirit lingers in Maraudon. In recent times, leadership in the Barrens fell to Khan Dez'hepah and his lieutenants. In Desolace, the clan's traditional stronghold is overseen by Khan Leh'Prah, while local warbands answer to regional khans like the fallen Khan Gragtor."
+  },
+  {
+   "q": "What is Kolkar Crag?",
+   "aliases": [
+    "where is kolkar crag",
+    "durotar centaur camp",
+    "kolkar in durotar"
+   ],
+   "answer": "Kolkar Crag is a rocky canyon outpost in southern Durotar. Centaur warbands established it as a forward staging ground to harass Horde initiates in the Valley of Trials, menace Sen'jin Village, and test the defenses of Orgrimmar."
+  },
+  {
+   "q": "Do the Kolkar work with other centaur clans?",
+   "aliases": [
+    "centaur clans alliance",
+    "kolkar allies",
+    "do centaur cooperate"
+   ],
+   "answer": "No. The Kolkar share no kinship or treaties with the other four centaur clans native to Desolace. Centaur society is violently fragmented, and the Kolkar wage war against other clans just as readily as they fight the Horde and Alliance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Kolkar hunted your people nearly to extinction across the Barrens before the orcs intervened, making every encounter with them a matter of ancestral survival."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Your first pact with the tauren was forged in blood against Kolkar marauders, and their scouts at Kolkar Crag now threaten the Valley of Trials where young orcs come of age."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Kolkar control over the three Barrens oases cuts off critical trade and water supplies between Durotar, Mulgore, and the Crossroads."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Kolkar raiding parties rely heavily on trained, semi-domesticated hyenas to track intruders and guard the perimeters of their watering holes."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "centaur",
+  "desolace",
+  "dezhepah",
+  "durotar",
+  "khan",
+  "kolk",
+  "kolkar",
+  "kolkar crag",
+  "lehprah",
+  "maraudon",
+  "oasis"
+ ],
+ "related": [
+  "topic:centaur",
+  "zone:barrens",
+  "zone:desolace",
+  "subzone:kolkar-crag",
+  "topic:tauren",
+  "topic:horde",
+  "quest:1362",
+  "subzone:lushwater-oasis"
+ ],
+ "attribution": [
+  "Kolkar clan"
+ ]
+}

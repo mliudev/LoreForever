@@ -1,0 +1,133 @@
+{
+ "key": "topic:argent-dawn",
+ "type": "topic",
+ "name": "Argent Dawn",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Argent Dawn"
+ },
+ "summary": "The Argent Dawn is a neutral, knightly order dedicated to stamping out malevolent threats across Azeroth, most notably the Scourge and the Burning Legion. Formed by survivors of the Knights of the Silver Hand who rejected the fanatical zealotry of the Scarlet Crusade, they welcome champions of any race or faction who honor the cause of the Light. From their fortified sanctuary at Light's Hope Chapel to far-flung outposts across Kalimdor, they stand on the front lines against darkness.",
+ "sections": [
+  {
+   "title": "A Schism of Faith",
+   "body": "When Highlord Alexandros Mograine fell and Lordaeron collapsed into ruin, the shattered remnants of the Knights of the Silver Hand broke into bitter disagreement. Many survivors surrendered to grief and paranoia, morphing into the xenophobic Scarlet Crusade. Yet veterans like Lord Maxwell Tyrosus and Pureheart recognized that their former comrades had abandoned the true tenets of the Holy Light. Refusing to succumb to madness or abandon the dead kingdom, they split away to form the Argent Dawn\u2014an order committed to defending Azeroth alongside anyone willing to fight, whether Alliance or Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "Front Lines of the Plaguelands",
+   "body": "The Dawn's primary stronghold is Light's Hope Chapel, situated in the blighted expanse of the Eastern Plaguelands. From this consecrated bastion, the order coordinates an unending war against Kel'Thuzad's necromancers and skeletal legions. Operating forward camps at Chillwind Point and outside the Bulwark in Tirisfal Glades, Argent officers issue enchanted commissions to adventurers, paying bounties in exchange for Scourgestones wrested from fallen undead. Despite lacking the raw manpower of the Scarlet Crusade, the Dawn holds the line through perseverance, unity, and unshakable discipline.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vigilance Across Azeroth",
+   "body": "While Lordaeron remains their principal battleground, the Argent Dawn maintains an active watch across Kalimdor and the capitals of the world. They keep diplomatic presences in Stormwind City, Darnassus, and the goblin trade town of Everlook. Farther afield, operatives like Delgren the Purifier contest demonic cults in Darkshore and Ashenvale, while scouts in Desolace and the flooded ruins of Blackfathom Deeps investigate sinister threats involving the Shadow Council and the Twilight's Hammer cult.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uneasy Truces and Hidden Foes",
+   "body": "Facing annihilation by the Scourge, a pragmatic sect within the order known as the Brotherhood of the Light strives to maintain a cold truce with the Scarlet Crusade. Yet relations remain deeply strained. High-ranking officers like Duke Nicholas Zverenhoff actively sanction covert strikes against Scarlet leadership in Stratholme to purge what they view as heretical madness. Compounding their perils, dark forces relentlessly seek to infiltrate the Dawn's ranks\u2014including secret agents who siphon necromantic secrets from the front lines for treacherous masters elsewhere.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the difference between the Argent Dawn and the Scarlet Crusade?",
+   "aliases": [
+    "argent dawn vs scarlet crusade",
+    "why did argent dawn split",
+    "difference between dawn and crusade"
+   ],
+   "answer": "Both orders were born from the remnants of the Silver Hand after Lordaeron's fall. The Scarlet Crusade became fanatical and xenophobic, viewing all outsiders and non-humans as potential carriers of the plague. The Argent Dawn refused to abandon the true tenets of the Holy Light, opening their ranks to both Alliance and Horde races to fight evil together."
+  },
+  {
+   "q": "Who leads the Argent Dawn?",
+   "aliases": [
+    "argent dawn leader",
+    "who is in charge of argent dawn",
+    "argent dawn commander"
+   ],
+   "answer": "Lord Maxwell Tyrosus commands the Argent Dawn from Light's Hope Chapel in the Eastern Plaguelands. He assumed leadership following the demise of the order's first commander, Lord Raymond George."
+  },
+  {
+   "q": "What do I do with Scourgestones?",
+   "aliases": [
+    "what are scourgestones for",
+    "argent dawn scourgestones",
+    "scourgestone turn in"
+   ],
+   "answer": "When wearing an Argent Dawn Commission trinket, defeating undead in the Plaguelands yields Minion's, Invader's, or Corruptor's Scourgestones. You can turn these in to officers at Chillwind Camp, the Bulwark, or Light's Hope Chapel to prove your deeds and earn reputation with the order."
+  },
+  {
+   "q": "Can Horde players join or work with the Argent Dawn?",
+   "aliases": [
+    "can horde join argent dawn",
+    "is argent dawn alliance only",
+    "argent dawn horde friendly"
+   ],
+   "answer": "Yes. The Argent Dawn is strictly neutral and operates outside political allegiances. They actively recruit orcs, trolls, tauren, and even Forsaken who are committed to combating the Scourge and the Burning Legion, maintaining recruitment stations like the Bulwark on the Tirisfal border."
+  },
+  {
+   "q": "What are they doing in Kalimdor?",
+   "aliases": [
+    "argent dawn in kalimdor",
+    "argent dawn ashenvale",
+    "why is argent dawn in darkshore"
+   ],
+   "answer": "The Dawn views its mandate as the protection of all Azeroth, not just Lordaeron. Agents have traveled to Darkshore, Ashenvale, and Desolace to eliminate cults of the Shadow Council, confront Twilight's Hammer conspirators, and guard against demonic incursions."
+  },
+  {
+   "q": "What is the Brotherhood of the Light?",
+   "aliases": [
+    "brotherhood of the light",
+    "brotherhood of light argent dawn",
+    "eligor dawnbringer faction"
+   ],
+   "answer": "The Brotherhood of the Light is a militant sub-faction of the Argent Dawn led by Commander Eligor Dawnbringer. They work to maintain a functional, if tense, working relationship with the Scarlet Crusade so both factions can direct their fury toward Kel'Thuzad rather than each other."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For holy warriors, the Argent Dawn represents the uncorrupted legacy of the Silver Hand, holding fast to compassion, sacrifice, and duty when the Scarlet Crusade succumbed to madness."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Though established by former knights of Lordaeron, the Dawn welcomes Horde champions without prejudice, making them one of the few avenues for Horde heroes to campaign directly in the Plaguelands."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken who despise the Scourge find a rare, pragmatic refuge in the Dawn's camps, where your actions against Kel'Thuzad matter far more than your rotting flesh."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Dawn maintains official embassies in Stormwind and Darnassus, offering Alliance soldiers a righteous path to reclaim Lordaeron from the grasp of the Lich King."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "bulwark",
+  "chillwind camp",
+  "commission",
+  "light's hope chapel",
+  "maxwell tyrosus",
+  "plaguelands",
+  "scarlet crusade",
+  "scourge",
+  "scourgestone",
+  "silver hand"
+ ],
+ "related": [
+  "subzone:light-s-hope-chapel",
+  "npc:lord-maxwell-tyrosus",
+  "topic:scarlet-crusade",
+  "topic:knights-of-the-silver-hand",
+  "topic:scourge",
+  "zone:easternplaguelands",
+  "subzone:chillwind-camp",
+  "subzone:bulwark"
+ ],
+ "attribution": [
+  "Argent Dawn"
+ ]
+}

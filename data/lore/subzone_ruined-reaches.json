@@ -1,0 +1,90 @@
+{
+ "key": "subzone:ruined-reaches",
+ "type": "subzone",
+ "name": "Ruined Reaches",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Ruined Reaches"
+ },
+ "summary": "The Ruined Reaches comprise the treacherous southern coastline of Azshara near the border with Durotar. Marked by crumbling ancient ruins, shattered shipwrecks, and jagged shallows, these beaches are overrun by aggressive shoreline predators. Amid the desolation, a small gnomish outpost perches high on a cliffside above the surf.",
+ "sections": [
+  {
+   "title": "A Battered Coast",
+   "body": "Stretching along the southern borders of Azshara just north of Durotar, the Ruined Reaches are a maze of rocky inlets, cliff faces, and debris-strewn sand. Like the Jagged Reef further north, hidden shallows make maritime travel extremely hazardous, leaving numerous ruined vessels broken along the shore. The waters and beaches teem with hostile wildlife, including territorial murlocs, vicious hydras, and armored makrura, making overland transit just as dangerous as navigating the surf.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Gadgetspring Outpost",
+   "body": "Perched upon a western cliff overlooking the beaches sits an unexpected pocket of tinker civilization: a gnomish workshop accessible via a steep trail from Azshara's mainland. Run by Blimo and Jubie Gadgetspring, this outpost offers engineering components and general trade goods to passing adventurers. The interior features an elevator ascending to private quarters with three beds, though who\u2014if anyone\u2014claims the third bunk remains a quiet domestic mystery.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Ruined Reaches located?",
+   "aliases": [
+    "ruined reaches location",
+    "where is ruined reaches",
+    "how to get to ruined reaches"
+   ],
+   "answer": "They form the southernmost coastal strip of Azshara, bordering the northern edge of Durotar. The area consists of sandy beaches, coastal inlets, and cliffs beneath the mainland bluffs."
+  },
+  {
+   "q": "What threats inhabit this stretch of coast?",
+   "aliases": [
+    "ruined reaches mobs",
+    "what lives here",
+    "monsters in ruined reaches"
+   ],
+   "answer": "The beaches and shallow waters are populated by hostile wildlife, primarily aggressive tribes of murlocs, multi-headed hydras, and makrura lurking along the tidal flats."
+  },
+  {
+   "q": "Who lives in the gnomish structure on the cliffs?",
+   "aliases": [
+    "gnomes in ruined reaches",
+    "gadgetspring house",
+    "who lives in the gnome house"
+   ],
+   "answer": "Blimo and Jubie Gadgetspring live and work there. They run a small shop offering engineering parts and trade supplies to travelers navigating the desolate coast."
+  },
+  {
+   "q": "Why are there so many shipwrecks here?",
+   "aliases": [
+    "shipwrecks in azshara",
+    "why are ships wrecked here",
+    "ruined reaches wrecks"
+   ],
+   "answer": "Like the neighboring Jagged Reef, the coastal waters are riddled with shallow rocks and hidden hazards that routinely catch ships unaware, dashing them against the cliffs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The lonely workshop run by Blimo and Jubie Gadgetspring provides valuable parts and supplies for engineers exploring the wilds of Azshara."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Finding a high-tech gnomish homestead thriving on the hostile cliffs of Azshara is a welcome reminder of gnomish resourcefulness far from Ironforge."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "blimo gadgetspring",
+  "durotar",
+  "jagged reef",
+  "jubie gadgetspring",
+  "makrura",
+  "murloc",
+  "ruined reaches"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:jagged-reef",
+  "zone:durotar",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Ruined Reaches"
+ ]
+}

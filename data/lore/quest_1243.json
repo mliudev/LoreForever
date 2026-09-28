@@ -1,0 +1,117 @@
+{
+ "key": "quest:1243",
+ "type": "quest",
+ "name": "The Missing Diplomat",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1243
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Elling Trias",
+  "end": "Watcher Backus",
+  "previous": "The Missing Diplomat (3)",
+  "next": "The Missing Diplomat (5)",
+  "wiki": "The Missing Diplomat (4)",
+  "chain": []
+ },
+ "summary": "This errand within the investigation of Stormwind's vanished emissary sends you south into the gloomy realm of Duskwood. Acting on leads secured in the capital, master of cheese Elling Trias dispatches you to contact Watcher Backus near Darkshire to uncover traces of Defias activity.",
+ "sections": [
+  {
+   "title": "Footwork in the Gloom",
+   "body": "Following a frustrating exchange involving Jorgen, master rogue and cheesemonger Elling Trias decides to leverage his broader network of informants. Rather than squander his own coin sending out professional agents, he directs you to undertake the legwork yourself. You are charged with carrying a sealed missive across the border into Duskwood, a shadowed land beleaguered by beasts, the undead, and worse.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Friendly Ear in the Night Watch",
+   "body": "Your target is Watcher Backus, a member of the Night Watch patrolling the northern approach to Darkshire. Despite the perils that make Duskwood treacherous for ordinary travelers, Trias relies on Backus as a dependable source of intelligence regarding illicit movements. Presenting the sealed dispatch opens the door to municipal guard records and local gossip concerning Defias Brotherhood operations in the south.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Elling Trias sending me to Duskwood?",
+   "aliases": [
+    "why go to duskwood",
+    "trias duskwood errand",
+    "why darkshire"
+   ],
+   "answer": "Elling Trias is pursuing every potential lead regarding the missing diplomat and suspicious Defias Brotherhood operations. To stretch his coin while mobilizing his contacts, he sends you to interview Watcher Backus in Duskwood for news on the ground."
+  },
+  {
+   "q": "Where can I find Watcher Backus?",
+   "aliases": [
+    "watcher backus location",
+    "where is backus",
+    "find backus"
+   ],
+   "answer": "Watcher Backus patrols the northern dirt road just outside Darkshire in Duskwood, guarding the thoroughfare leading toward Redridge and Elwynn Forest."
+  },
+  {
+   "q": "Who is Watcher Backus?",
+   "aliases": [
+    "backus lore",
+    "who is backus"
+   ],
+   "answer": "Watcher Backus is a soldier in Darkshire's civic militia, the Night Watch. He is also a personal associate of Elling Trias, willing to share observations on suspicious travelers and criminal movements in the region."
+  },
+  {
+   "q": "What is in the sealed note given to Backus?",
+   "aliases": [
+    "contents of sealed note",
+    "what does the note say",
+    "sealed note to watcher backus"
+   ],
+   "answer": "The note contains confidential inquiries from Elling Trias requesting intelligence on any local sightings or movements of the Defias Brotherhood passing through Duskwood."
+  },
+  {
+   "q": "What does Duskwood have to do with the Defias Brotherhood?",
+   "aliases": [
+    "defias in duskwood",
+    "are defias in duskwood"
+   ],
+   "answer": "Although centered in Westfall and hiding out beneath the Deadmines, the Defias maintain cells, couriers, and hideouts stretching throughout the southern human provinces, including the shadowed fringes of Duskwood."
+  },
+  {
+   "q": "Why does Trias complain about Jorgen?",
+   "aliases": [
+    "who is jorgen",
+    "trias and jorgen"
+   ],
+   "answer": "Jorgen previously stonewalled or drove a hard bargain during the investigation, irritating Trias enough that he curses Jorgen to the Twisting Nether before resorting to other field contacts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The disappearance of the diplomat strikes at the heart of Stormwind's royal interests, forcing heroes to coordinate between royal spymasters, independent crooks, and regional militias."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Elling Trias demonstrates how veteran operatives run networks, leaning on independent foot soldiers to gather reconnaissance while keeping their own hands clean."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "defias",
+  "duskwood",
+  "elling trias",
+  "jorgen",
+  "missing diplomat",
+  "night watch",
+  "watcher backus"
+ ],
+ "related": [
+  "quest:1241",
+  "npc:elling-trias",
+  "npc:watcher-backus",
+  "npc:jorgen",
+  "subzone:darkshire",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "The Missing Diplomat (4)"
+ ]
+}

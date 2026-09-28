@@ -1,0 +1,87 @@
+{
+ "key": "subzone:dreadmurk-shore",
+ "type": "subzone",
+ "name": "Dreadmurk Shore",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Dreadmurk Shore"
+ },
+ "summary": "Dreadmurk Shore encompasses the foggy coastline and scattered islands of Dustwallow Marsh running north toward the Barrens. Dominated by aggressive Mirefin murlocs and sea beasts, these treacherous waters have recently become the hiding ground for shipwrecked Defias Brotherhood outlaws.",
+ "sections": [
+  {
+   "title": "A Treacherous Coast",
+   "body": "Stretching along the northeastern edge of Dustwallow Marsh between Theramore Isle and Northwatch Hold, Dreadmurk Shore is a dismal expanse of muddy shoals, tide pools, and misty islands. The coast is overrun by the Mirefin tribe, a territorial clan of murlocs that aggressively attacks any travelers nearing their coastal villages. Sea turtles and aquatic predators prowl the shallows, making the shoreline dangerous to navigate even without factoring in the surrounding swamplands.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defias Infiltrators",
+   "body": "Beyond the indigenous swamp creatures, the shoreline has drawn heightened scrutiny from Theramore due to the presence of human outlaws. A ship bearing the Defias Brotherhood met disaster in the waters between the shore and Alcaz Island, spilling brigands onto the sand and islets. The presence of these Eastern Kingdoms criminals so close to Lady Jaina Proudmoore's stronghold is an alarming development that threatens the fragile balance of power across the bay.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Dreadmurk Shore located?",
+   "aliases": [
+    "dreadmurk shore location",
+    "where is dreadmurk shore"
+   ],
+   "answer": "Dreadmurk Shore stretches along the northeastern coast of Dustwallow Marsh, facing the Great Sea between the outskirts of Theramore Isle and the border of the Barrens near Northwatch Hold."
+  },
+  {
+   "q": "Why are there Defias bandits on this shore?",
+   "aliases": [
+    "defias in dustwallow",
+    "why are defias here",
+    "shipwrecked defias"
+   ],
+   "answer": "A Defias Brotherhood vessel recently wrecked in the waters offshore between Dreadmurk and Alcaz Island. The survivors scrambled ashore, establishing temporary camps along the isolated beach and outcroppings while trying to salvage their sunken cargo."
+  },
+  {
+   "q": "Who are the murlocs living along the beach?",
+   "aliases": [
+    "mirefin murlocs",
+    "dreadmurk shore murlocs"
+   ],
+   "answer": "The coast is heavily populated by the Mirefin murloc tribe. They have built crude fishing settlements along the sandbanks and rocky islets, fiercely guarding their territory from both Theramore patrols and shipwrecked intruders."
+  },
+  {
+   "q": "Is Dreadmurk Shore controlled by Theramore?",
+   "aliases": [
+    "who owns dreadmurk shore",
+    "is dreadmurk shore alliance"
+   ],
+   "answer": "Theramore claims nominal authority over the lands surrounding the island, but Dreadmurk Shore is functionally lawless. Its marshy shoals are too wild and infested with murlocs and brigands for Lady Jaina Proudmoore's sentries to maintain regular patrols."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The discovery of Defias Brotherhood survivors so close to Theramore suggests conspiracies that reach far beyond Westfall, directly threatening Alliance stability in Kalimdor."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The isolated camps and sunken wreckage along the shoreline offer prime opportunities to track clandestine Defias cargo and slip past the territory's violent Mirefin sentinels."
+  }
+ ],
+ "keywords": [
+  "alcaz island",
+  "defias",
+  "dreadmurk shore",
+  "dustwallow marsh",
+  "mirefin",
+  "murloc",
+  "shipwreck",
+  "theramore"
+ ],
+ "related": [
+  "zone:dustwallow",
+  "subzone:theramore-isle",
+  "topic:murloc",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Dreadmurk Shore"
+ ]
+}

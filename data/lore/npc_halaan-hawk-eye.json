@@ -1,0 +1,78 @@
+{
+ "key": "npc:halaan-hawk-eye",
+ "type": "npc",
+ "name": "Halaan Hawk-Eye",
+ "era": "classic",
+ "zone": "zephras",
+ "meta": {
+  "wiki": "Halaan Hawk-Eye",
+  "refs": 1
+ },
+ "summary": "Halaan Hawk-Eye is a Skyborne lookout stationed atop the watchtower of Thendal Village on Zephras Isle. Lacking both magical sensitivity and the mystic skysight of his peers, he relies instead on keen mundane vision to monitor the surrounding island. From his perch, he tracks the distant anchor pylons and warns visitors of their faltering arcane stability.",
+ "sections": [
+  {
+   "title": "A Watchman Without Magic",
+   "body": "Perched high above Thendal Village, Halaan Hawk-Eye serves his people without the gifts common to many Skyborne. He cannot draw upon the arcane power flowing through the ley lines beneath Zephras Isle, nor can he gaze between worlds through the mystical skysight. Instead, Halaan relies entirely on his sharp natural senses. From his vantage point on the watchtower, he scans the horizon to observe the island's anchor pylons, calling attention to their increasingly volatile and inconsistent arcane energies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Halaan Hawk-Eye?",
+   "aliases": [
+    "halaan hawkeye",
+    "who is halaan",
+    "thendal watchtower npc"
+   ],
+   "answer": "Halaan Hawk-Eye is a Skyborne sentry stationed atop the watchtower overlooking Thendal Village on Zephras Isle. He observes the surrounding land and alerts adventurers to the erratic magic afflicting the island's anchor pylons."
+  },
+  {
+   "q": "What makes Halaan different from other Skyborne?",
+   "aliases": [
+    "halaan abilities",
+    "can halaan use magic",
+    "halaan skysight"
+   ],
+   "answer": "Unlike many among his kin, Halaan possesses neither the mystical skysight that pierces the veil between worlds nor an innate ability to harness the subterranean ley lines of Zephras Isle. He relies on his keen physical eyesight and natural observation instead."
+  },
+  {
+   "q": "Why is Halaan worried about the anchor pylons?",
+   "aliases": [
+    "what is wrong with the pylons",
+    "anchors of zephras problem"
+   ],
+   "answer": "Halaan keeps watch over the distant anchor pylons and has noticed that their magical output has turned erratic and inconsistent, posing an unknown risk to the stability of Zephras Isle."
+  },
+  {
+   "q": "Where can I find Halaan Hawk-Eye?",
+   "aliases": [
+    "where is halaan",
+    "halaan location"
+   ],
+   "answer": "He can be found standing atop the wooden watchtower in Thendal Village on Zephras Isle, peering out over the horizon."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "Halaan represents those among the Skyborne who lack natural affinity for ley line manipulation or the skysight, serving their community through steadfast vigilance and martial duty instead."
+  }
+ ],
+ "keywords": [
+  "anchor pylon",
+  "halaan",
+  "hawk-eye",
+  "skyborne",
+  "skysight",
+  "thendal village",
+  "zephras isle"
+ ],
+ "related": [
+  "quest:94414",
+  "zone:zephras",
+  "topic:skyborne"
+ ],
+ "attribution": [
+  "Halaan Hawk-Eye"
+ ]
+}

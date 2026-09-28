@@ -1,0 +1,92 @@
+{
+ "key": "subzone:dor-danil-barrow-den",
+ "type": "subzone",
+ "name": "Dor'Danil Barrow Den",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Dor'Danil Barrow Den"
+ },
+ "summary": "Dor'Danil Barrow Den is an ancient night elven sanctuary carved into the earth of central Ashenvale, south of Splintertree Post. Once a tranquil resting place for slumbering druids commune with the Emerald Dream, it has fallen into horror following Forsaken meddling that severed the dreamers' spirits from their bodies.",
+ "sections": [
+  {
+   "title": "A Sanctuary Desecrated",
+   "body": "Barrow dens across Kalimdor are revered sanctuaries where night elven druids historically slept for centuries, roaming the Emerald Dream while their mortal frames remained protected underground. When the Horde pushed into Ashenvale, Dor'Danil fell deep behind enemy lines. The orcs largely ignored the comatose elves, but the newly allied Forsaken saw an opportunity. Forsaken operatives infiltrated the depths and began gruesome experiments designed to sever the sleeping druids from their spirits, fracturing their minds and driving them hopelessly insane. The darkened hollows now crawl with sinister Forsaken assassins and the furious, torment-maddened spirits of druids who can no longer return to their bodies.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Tormented Guardians",
+   "body": "The corruption within Dor'Danil reaches deep into the subterranean tunnels, where three prominent druidic spirits wander in madness: Uthil Mooncall, Mavoris Cloudsbreak, and Taneel Darkwood. Alongside them stalks Darkslayer Mordenthal, an elite Forsaken agent overseeing the dark research. For night elves and allies of the Cenarion Circle, putting these anguished souls to rest is a grim mercy, while the ongoing Forsaken presence exposes the ruthless, morbid curiosity Sylvanas's agents bring to the conflicts of Kalimdor.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Dor'Danil Barrow Den?",
+   "aliases": [
+    "what is this place",
+    "dor danil barrow den info",
+    "dor'danil lore"
+   ],
+   "answer": "Dor'Danil Barrow Den is an underground night elf refuge in Ashenvale, situated south of Splintertree Post and southwest of Felfire Hill. Traditionally, druids slept here in deep trances to enter the Emerald Dream while their physical bodies were sheltered."
+  },
+  {
+   "q": "Why are the druid spirits inside hostile and insane?",
+   "aliases": [
+    "why are druids crazy here",
+    "why are spirits angry",
+    "insane druids lore"
+   ],
+   "answer": "Forsaken agents entered the den to conduct experiments on the slumbering druids, severing their spirits from their physical forms. The trauma of being torn between the waking world and the dream drove the druids violently insane."
+  },
+  {
+   "q": "Who is Darkslayer Mordenthal?",
+   "aliases": [
+    "mordenthal",
+    "who is the undead inside"
+   ],
+   "answer": "Darkslayer Mordenthal is a Forsaken assassin and operative stationed deep inside the barrow den, responsible for preying upon the sleeping night elves and directing the experiments that drove their spirits mad."
+  },
+  {
+   "q": "Which notable spirits haunt the depths?",
+   "aliases": [
+    "named mobs dor danil",
+    "named druids inside"
+   ],
+   "answer": "Three prominent druidic spirits haunt the lower chambers: Uthil Mooncall, Mavoris Cloudsbreak, and Taneel Darkwood. All three were severed from their bodies and now wander the dark tunnels in unending rage."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Barrow dens are sacred places of communion with the Emerald Dream, making the torture and mental fracturing of the druids inside Dor'Danil an unforgivable sacrilege."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The twisted research conducted within Dor'Danil reflects the Forsaken's relentless curiosity regarding the threshold of life, death, and soul-severing magic, even on the distant battlefields of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "barrow den",
+  "dor danil",
+  "dor'danil",
+  "insane druids",
+  "mavoris cloudsbreak",
+  "mordenthal",
+  "taneel darkwood",
+  "uthil mooncall"
+ ],
+ "related": [
+  "quest:1012",
+  "subzone:splintertree-post",
+  "zone:ashenvale",
+  "topic:forsaken",
+  "topic:druid",
+  "subzone:felfire-hill",
+  "quest:1152"
+ ],
+ "attribution": [
+  "Dor'Danil Barrow Den"
+ ]
+}

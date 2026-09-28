@@ -1,0 +1,83 @@
+{
+ "key": "subzone:stonewatch-tower",
+ "type": "subzone",
+ "name": "Stonewatch Tower",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Stonewatch Tower"
+ },
+ "summary": "Stonewatch Tower is a stone guard tower standing within the overrun stronghold of Stonewatch in northeastern Redridge. Once maintained by the defenders of Lakeshire, the outpost was captured by the Blackrock clan to monitor the surrounding ridges and secure their mountain bastion.",
+ "sections": [
+  {
+   "title": "A Fallen Watchpost",
+   "body": "Built by the Kingdom of Stormwind to guard the high mountain passes above Lake Everstill, Stonewatch Tower served as the forward scouting sibling to Stonewatch Keep. From its elevated vantage point, sentries could easily watch the eastern ridges and alert Lakeshire to any threats advancing from the Burning Steppes. That early warning network collapsed when General Gath'Ilzogg's Blackrock orcs swept down from the heights, overrunning the human defenders and claiming the stronghold for their own war effort. Today, the tower bristles with Blackrock sentinels, ensuring no Alliance scouts approach the fortress undetected.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Stonewatch Tower?",
+   "aliases": [
+    "stonewatch tower lore",
+    "what is this tower",
+    "stonewatch lookout"
+   ],
+   "answer": "It is a fortified human watchtower located inside the greater Stonewatch complex in northeastern Redridge Mountains. Originally built to protect the region, it is currently held by invaders from the Blackrock clan."
+  },
+  {
+   "q": "Who controls Stonewatch Tower right now?",
+   "aliases": [
+    "who owns stonewatch tower",
+    "who is in stonewatch tower",
+    "stonewatch tower enemies"
+   ],
+   "answer": "The tower is occupied by orcs of the Blackrock clan serving under General Gath'Ilzogg, who captured the stronghold from the local humans of Redridge."
+  },
+  {
+   "q": "Why is the tower important to the Blackrock orcs?",
+   "aliases": [
+    "why do orcs want stonewatch tower",
+    "strategic importance of stonewatch tower"
+   ],
+   "answer": "Its high elevation allows the Blackrock clan to spot approaching Alliance forces and safeguard the approach to their primary fortress, Stonewatch Keep."
+  },
+  {
+   "q": "Can Lakeshire reclaim the tower?",
+   "aliases": [
+    "will lakeshire take it back",
+    "lakeshire plans for stonewatch tower"
+   ],
+   "answer": "Lakeshire lacks the military manpower to retake Stonewatch on its own and relies on wandering adventurers to thin out the Blackrock garrison holding the tower and keep."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Stonewatch Tower is a grim reminder of how far the Blackrock clan has pushed into Stormwind territory while the kingdom's central army remains absent."
+  },
+  {
+   "target": "race:Human",
+   "text": "For the folk of Lakeshire, seeing orcish standards flying above Stonewatch's towers is an ongoing threat to their very survival."
+  }
+ ],
+ "keywords": [
+  "blackrock clan",
+  "gath'ilzogg",
+  "lakeshire",
+  "redridge",
+  "scout tower",
+  "stonewatch",
+  "stonewatch tower"
+ ],
+ "related": [
+  "subzone:stonewatch",
+  "subzone:stonewatch-keep",
+  "subzone:lakeshire",
+  "topic:blackrock-clan",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Stonewatch Tower"
+ ]
+}

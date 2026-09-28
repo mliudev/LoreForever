@@ -1,0 +1,117 @@
+{
+ "key": "quest:1453",
+ "type": "quest",
+ "name": "Reclaimers' Business in Desolace",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   1453
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Roetten Stonehammer",
+  "end": "Kreldig Ungor",
+  "previous": null,
+  "next": null,
+  "wiki": "Reclaimers' Business in Desolace",
+  "chain": []
+ },
+ "summary": "Reclaimers' Business in Desolace is an Alliance breadcrumb quest directing adventurers from Ironforge out to the harsh badlands of Desolace. Issued by Roetten Stonehammer, it sends recruits across the sea to meet Kreldig Ungor at Nijel's Point to assist the Reclaimers in recovering lost treasures and relics for a price.",
+ "sections": [
+  {
+   "title": "A Call to the Wasteland",
+   "body": "While Ironforge bustles with tradesfolk and dwarven affairs, distant Kalimdor remains an untamed frontier. Roetten Stonehammer acts as an urban liaison for the Reclaimers, an enterprising group looking to capitalize on forgotten ruins and barren lands. He recruits eager adventurers passing through the great mountain city, warning them that Desolace is an atrocious expanse overrun by warring centaur clans, yet ripe with profitable opportunity for those brave enough to make the journey.",
+   "spoiler": 0
+  },
+  {
+   "title": "Nijel's Point and the Reclaimers",
+   "body": "The road leads far west through the Stonetalon Mountains into northern Desolace, where the Alliance maintains Nijel's Point\u2014a fortified haven tucked away high in the cliffs. There, Kreldig Ungor welcomes fresh hands into the fold. The Reclaimers operate on a straightforward premise: across the war-torn world, people are constantly losing heirlooms, magical artifacts, and family treasures. With enough grit and the right price, Kreldig and his associates ensure those lost valuables are reclaimed from the wild.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "who starts reclaimers business",
+    "roetten stonehammer location"
+   ],
+   "answer": "Roetten Stonehammer offers this quest in Ironforge. He directs adventurers seeking honest, lucrative work out to Kalimdor to connect with his associate."
+  },
+  {
+   "q": "Where is Nijel's Point?",
+   "aliases": [
+    "find nijels point",
+    "how to get to nijels point",
+    "nijels point location"
+   ],
+   "answer": "Nijel's Point is situated in the northeastern crags of Desolace. When traveling south out of the Stonetalon Mountains into Desolace, follow the cliffs eastward until you locate the torchlit mountain path winding up into the Alliance outpost."
+  },
+  {
+   "q": "Who are the Reclaimers?",
+   "aliases": [
+    "what are reclaimers",
+    "reclaimers faction",
+    "reclaimers lore"
+   ],
+   "answer": "The Reclaimers are an enterprising venture headed by dwarven operatives like Kreldig Ungor. They specialize in recovering lost heirlooms, rare antiquities, and magical relics from dangerous corners of the world on behalf of paying clients."
+  },
+  {
+   "q": "What threats await in Desolace?",
+   "aliases": [
+    "desolace dangers",
+    "what is in desolace"
+   ],
+   "answer": "Desolace is an arid, grim wasteland dominated by warring centaur tribes, undead remnants, and hostile wildlife. It presents a harsh testing ground for seasoned travelers venturing beyond Stonetalon."
+  },
+  {
+   "q": "Who is Kreldig Ungor?",
+   "aliases": [
+    "kreldig ungor lore",
+    "who is kreldig"
+   ],
+   "answer": "Kreldig Ungor is a dwarf stationed at Nijel's Point in Desolace. He coordinates salvage operations and relic hunts in the region, enlisting capable adventurers to brave the ruins and centaur camps."
+  },
+  {
+   "q": "Is this quest required to quest in Desolace?",
+   "aliases": [
+    "do i need this quest",
+    "is reclaimers business required"
+   ],
+   "answer": "No, it is an optional breadcrumb quest. You can travel directly to Nijel's Point on your own, but speaking with Roetten Stonehammer provides convenient background and direction before setting out."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Nijel's Point represents the primary Alliance sanctuary in central Kalimdor's western wastes, serving as a staging ground surrounded by hostile centaur clans."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Whether through the Explorers' Guild or independent salvage groups like the Reclaimers, dwarven enterprise reaches into even the bleakest corners of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "ironforge",
+  "kreldig ungor",
+  "nijel's point",
+  "reclaimers",
+  "roetten stonehammer",
+  "stonetalon"
+ ],
+ "related": [
+  "npc:roetten-stonehammer",
+  "npc:kreldig-ungor",
+  "subzone:nijel-s-point",
+  "zone:desolace",
+  "zone:stonetalon",
+  "topic:centaur"
+ ],
+ "attribution": [
+  "Reclaimers' Business in Desolace"
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "key": "npc:cliffwatcher-longhorn",
+ "type": "npc",
+ "name": "Cliffwatcher Longhorn",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Cliffwatcher Longhorn",
+  "refs": 8
+ },
+ "summary": "Cliffwatcher Longhorn is the stoic tauren leader stationed high atop Freewind Post in Thousand Needles. Tasked with safeguarding the isolated Horde outpost, he coordinates defenses against encroaching Galak centaur and monitors the suspicious machinations of the Grimtotem tribe.",
+ "sections": [
+  {
+   "title": "Guardian of the Mesas",
+   "body": "Perched upon the soaring rock spires of Thousand Needles, Freewind Post relies on sharp eyes and steady leadership to survive. Cliffwatcher Longhorn oversees the day-to-day security of this precarious settlement. With hostile forces gathering on the canyon floor below and along neighboring ridges, Longhorn acts as the settlement's primary coordinator for scouting reports and defensive military efforts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Centaur Hostility and Grimtotem Intrigue",
+   "body": "Longhorn contends with threats on multiple fronts. Down in the canyon, the aggressive Galak centaur relentlessly probe the perimeter, prompting him to dispatch adventurers to push them back and curb their numbers. Even more troubling to him, however, are the Grimtotem tauren. Deeply distrustful of their secretive camp near the post, Longhorn arranges reconnaissance to seize their hidden notes, uncovering troubling evidence of internal treachery, including the violent crimes of Arnak Grimtotem.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Cliffwatcher Longhorn?",
+   "aliases": [
+    "cliffwatcher longhorn info",
+    "who is longhorn",
+    "freewind post leader"
+   ],
+   "answer": "Cliffwatcher Longhorn is the tauren authority figure in command of Freewind Post, the Horde's towering outpost in Thousand Needles. He organizes scouts, defense patrols, and responses to local threats."
+  },
+  {
+   "q": "Where can I find Cliffwatcher Longhorn?",
+   "aliases": [
+    "cliffwatcher longhorn location",
+    "where is longhorn"
+   ],
+   "answer": "He is located atop the main mesa of Freewind Post in Thousand Needles, accessible by taking the lift up from the canyon floor and crossing the wooden bridges."
+  },
+  {
+   "q": "Why is Longhorn concerned about the centaur?",
+   "aliases": [
+    "why kill centaur",
+    "pacify the centaur lore",
+    "centaur threat thousand needles"
+   ],
+   "answer": "Reports brought in by scouts like Brave Moonhorn show an alarming surge in Galak centaur hostility. Longhorn orders proactive strikes to pacify the clan and prevent them from overwhelming the outpost's approaches."
+  },
+  {
+   "q": "What is his interest in the Grimtotem tribe?",
+   "aliases": [
+    "longhorn grimtotem",
+    "grimtotem spying reason"
+   ],
+   "answer": "While technically living among the Horde, the Grimtotem clan behaves with open secrecy and malice. Longhorn suspects foul play and commissions adventurers to steal their hidden notes to discover what they are plotting."
+  },
+  {
+   "q": "Who is Arnak Grimtotem and why does Longhorn want him?",
+   "aliases": [
+    "wanted arnak grimtotem",
+    "arnak bounty lore"
+   ],
+   "answer": "Arnak Grimtotem carried out a violent attack against the post's inhabitants. Longhorn issues a bounty on his head to ensure Arnak faces justice for his treachery."
+  },
+  {
+   "q": "Does Cliffwatcher Longhorn have any family?",
+   "aliases": [
+    "longhorn brother",
+    "nataka longhorn brother"
+   ],
+   "answer": "Yes, his brother Nataka Longhorn is stationed far to the west at Ghost Walker Post in Desolace. Preoccupied with duty, Cliffwatcher rarely finds the opportunity to write him."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren travelers, Longhorn represents the frontier spirit of the Shu'halo, keeping watch over contested sacred mesas while navigating the bitter, unresolved friction with the Grimtotem tribe."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Freewind Post is the vital link securing supply lines across southern Kalimdor, and Longhorn ensures the Horde retains its precarious foothold amidst hostile centaur territory."
+  }
+ ],
+ "keywords": [
+  "arnak grimtotem",
+  "brave moonhorn",
+  "cliffwatcher longhorn",
+  "freewind post",
+  "galak",
+  "grimtotem",
+  "nataka longhorn",
+  "thousand needles"
+ ],
+ "related": [
+  "subzone:freewind-post",
+  "zone:thousandneedles",
+  "npc:brave-moonhorn",
+  "quest:4542",
+  "quest:4841",
+  "quest:5064",
+  "quest:5147",
+  "zone:desolace"
+ ],
+ "attribution": [
+  "Cliffwatcher Longhorn"
+ ]
+}

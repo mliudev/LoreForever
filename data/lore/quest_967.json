@@ -1,0 +1,125 @@
+{
+ "key": "quest:967",
+ "type": "quest",
+ "name": "The Tower of Althalaxx",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   967
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Balthule Shadowstrike",
+  "end": "Delgren the Purifier",
+  "previous": "The Tower of Althalaxx (2)",
+  "next": "The Tower of Althalaxx (4)",
+  "wiki": "The Tower of Althalaxx (3)",
+  "chain": []
+ },
+ "summary": "This quest bridges the investigation of the Dark Strand cult in northern Darkshore with the broader defense of northern Kalimdor. Balthule Shadowstrike dispatches an Alliance courier south to Maestra's Post in Ashenvale to alert his mentor, Delgren the Purifier, of the cult's sinister gathering at the Tower of Althalaxx.",
+ "sections": [
+  {
+   "title": "A Plea for Reinforcements",
+   "body": "Following initial clashes with the Dark Strand cultists around the Tower of Althalaxx, the night elf scout Balthule Shadowstrike recognizes that the threat surpasses his solitary vigil. To mount a decisive response, he writes a detailed report and entrusts it to an Alliance messenger bound for his master, Delgren the Purifier. Because the cult's summoners are growing bolder by the hour, word must reach seasoned leadership capable of directing an eradication effort.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Ashenvale",
+   "body": "Carrying Balthule's dispatch requires a trek across the full length of Darkshore, following the long coastal highway south out of the mist and over the forested border into Ashenvale. Stationed at Maestra's Post along the western road, Delgren the Purifier has dedicated himself to cleansing demons and undead lingering in the woodland. Though initially unfamiliar with night elven customs, the human paladin has forged a deep mutual respect with the Sentinels as an indispensable ally.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Holy Warrior Awakened",
+   "body": "Delgren receives Balthule's urgent letter with grim resolve. As a warrior devoted to the Holy Light, he views the presence of dark cultists, soul corruption, and demonic fiends in these ancient woods as an intolerable blight. Reading of the Dark Strand's entrenched foothold at the ruined highborne tower, Delgren immediately prepares to take charge of the operation and strike back.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Delgren the Purifier?",
+   "aliases": [
+    "delgren the purifier",
+    "who is delgren",
+    "delgren lore"
+   ],
+   "answer": "Delgren the Purifier is a human paladin stationed at Maestra's Post in Ashenvale. Devoted to the Holy Light, he offers his martial and spiritual expertise to the night elf Sentinels to cleanse demons and undead encroaching upon their ancestral forests."
+  },
+  {
+   "q": "Why is Balthule Shadowstrike sending a messenger to Ashenvale?",
+   "aliases": [
+    "why send letter to delgren",
+    "balthule letter reason"
+   ],
+   "answer": "Balthule is a scout stationed outside the Tower of Althalaxx who has been studying the Dark Strand cult. Recognizing that the cult's dark rituals and numbers are escalating rapidly, he sends his findings to his mentor Delgren so an organized strike can be mounted."
+  },
+  {
+   "q": "What is the relationship between Balthule and Delgren?",
+   "aliases": [
+    "balthule and delgren",
+    "how do balthule and delgren know each other"
+   ],
+   "answer": "Delgren is Balthule's master. The human paladin has instructed the night elf in the art of battle and introduced him to the teachings of the Holy Light, fostering an unusually close bond across their cultural divides."
+  },
+  {
+   "q": "Where is Maestra's Post?",
+   "aliases": [
+    "maestras post location",
+    "where is maestras post"
+   ],
+   "answer": "Maestra's Post is an Alliance outpost situated in western Ashenvale along the main road leading south from Darkshore. It serves as an early sentry point for travelers moving between Darkshore and the depths of the forest."
+  },
+  {
+   "q": "What is the Dark Strand cult doing at the Tower of Althalaxx?",
+   "aliases": [
+    "dark strand cult althalaxx",
+    "tower of althalaxx cultists"
+   ],
+   "answer": "The Dark Strand is a cult operating out of the ruined highborne Tower of Althalaxx in northern Darkshore. They practice dark arts, consort with demonic powers, and threaten to unleash corrupting forces across the shoreline."
+  },
+  {
+   "q": "How does Delgren view his alliance with the night elves?",
+   "aliases": [
+    "delgren night elves",
+    "human paladin night elves"
+   ],
+   "answer": "Delgren admitted that he was initially unaccustomed to night elven manners and lifestyle when he first arrived in Kalimdor. Over time, however, standing alongside them against common evils has led him to develop immense respect for the Sentinels."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Meeting Delgren offers paladins an inspiring example of their holy calling in unfamiliar lands: a human crusader wielding the Light to earn the deep trust of Kalimdor's reclusive night elves."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, this mission highlights the growing, practical partnership between their Sentinels and the eastern races who have come to help purge demonic remnants from their woods."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The cooperation between Balthule in Darkshore and Delgren in Ashenvale shows the vital communication lines binding northern Kalimdor's scattered Alliance garrisons together."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "balthule shadowstrike",
+  "dark strand",
+  "darkshore",
+  "delgren the purifier",
+  "holy light",
+  "maestra's post",
+  "tower of althalaxx"
+ ],
+ "related": [
+  "npc:delgren-the-purifier",
+  "npc:balthule-shadowstrike",
+  "subzone:maestra-s-post",
+  "zone:darkshore",
+  "zone:ashenvale",
+  "topic:light",
+  "topic:sentinels"
+ ],
+ "attribution": [
+  "The Tower of Althalaxx (3)"
+ ]
+}

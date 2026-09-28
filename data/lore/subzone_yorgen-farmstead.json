@@ -1,0 +1,89 @@
+{
+ "key": "subzone:yorgen-farmstead",
+ "type": "subzone",
+ "name": "Yorgen Farmstead",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Yorgen Farmstead"
+ },
+ "summary": "The Yorgen Farmstead is a derelict farm nestled in southern Duskwood, fallen into ruin alongside the rest of the troubled region. Formerly owned by the farmer Sven Yorgen, the property has been seized and occupied by brigands of the Defias Brotherhood.",
+ "sections": [
+  {
+   "title": "A Ruined Homestead",
+   "body": "Situated amidst the gloomy woodlands of southern Duskwood, the Yorgen Farmstead was once a functioning homestead belonging to Sven Yorgen. Like many isolated holdings in the region, the farm could not withstand the encroaching perils of the territory. Sven was forced to abandon his lands, retreating north to a makeshift camp along the Darkened Bank. In his absence, the abandoned grounds were claimed by outlaws looking for a foothold far from the gaze of Stormwind's authorities.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defias Infiltration",
+   "body": "Rather than lying vacant, the farmstead has been repurposed as a staging ground by the Defias Brotherhood. Masked highwaymen and stealthy cutthroats lurk among the decaying fences and weathered outbuildings, using the dense tree cover to conceal their presence. Travelers approaching the farmstead must tread carefully, as Defias assassins patrol the perimeter and ambush anyone trespassing on their newly seized sanctuary.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owns the Yorgen Farmstead?",
+   "aliases": [
+    "who lived here",
+    "who owns yorgen farm",
+    "sven yorgen farm"
+   ],
+   "answer": "The farmstead was originally established and farmed by Sven Yorgen. After tragedy struck his home and driven away by rising dangers, Sven fled to a solitary camp located further north on the Darkened Bank."
+  },
+  {
+   "q": "Who occupies the farmstead now?",
+   "aliases": [
+    "who is at yorgen farmstead",
+    "what enemies are here",
+    "who lives here now"
+   ],
+   "answer": "The Defias Brotherhood has seized the deserted property. Cutpurses, bandits, and stealthed assassins prowl the overgrown yards and barnyards, making the farmstead extremely dangerous to visit."
+  },
+  {
+   "q": "Where did Sven Yorgen go?",
+   "aliases": [
+    "where is sven",
+    "sven yorgen location",
+    "find sven yorgen"
+   ],
+   "answer": "Sven abandoned the farm and can now be found residing in a modest camp along the Darkened Bank, situated to the north along the river separating Duskwood and Westfall."
+  },
+  {
+   "q": "Why is the Defias Brotherhood in Duskwood?",
+   "aliases": [
+    "defias in duskwood",
+    "why are bandits here",
+    "defias brotherhood farm"
+   ],
+   "answer": "The Defias Brotherhood has expanded its operations far beyond Westfall. Disorganized rural settlements and weakened regional defenses allow their agents to set up secret camps and strongholds out of reach of Stormwind's marshals."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The hidden Defias assassins stalking the farmstead make the area treacherous, demonstrating how readily rogue operatives turn neglected wilderness holdings into camouflaged hideouts."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The loss of Sven's farmstead to the Defias Brotherhood highlights how deeply the outlaw syndicates have penetrated Duskwood while the Night Watch struggles to maintain order in Darkshire."
+  }
+ ],
+ "keywords": [
+  "darkened bank",
+  "defias",
+  "defias brotherhood",
+  "duskwood",
+  "farm",
+  "sven yorgen",
+  "yorgen farmstead"
+ ],
+ "related": [
+  "npc:sven-yorgen",
+  "zone:duskwood",
+  "topic:defias-brotherhood",
+  "subzone:darkened-bank"
+ ],
+ "attribution": [
+  "Yorgen Farmstead"
+ ]
+}

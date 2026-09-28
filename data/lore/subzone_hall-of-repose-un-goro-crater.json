@@ -1,0 +1,67 @@
+{
+ "key": "subzone:hall-of-repose-un-goro-crater",
+ "type": "subzone",
+ "name": "Hall of Repose (Un'Goro Crater)",
+ "era": "classic",
+ "zone": "ungoro",
+ "meta": {
+  "wiki": "Hall of Repose (Un'Goro Crater)"
+ },
+ "summary": "The Hall of Repose is a chamber deep within the Shaper's Terrace, an ancient Titan facility carved into the cliffs of Un'Goro Crater. Its cold stone halls and cosmic architecture stand in stark contrast to the untamed, primeval jungle outside.",
+ "sections": [
+  {
+   "title": "Chamber of the Makers",
+   "body": "Built into the Shaper's Terrace at the northern cliffs of Un'Goro Crater, the Hall of Repose serves as a core interior chamber of the ancient Titan complex. The crater itself is widely recognized by scholars as a vast testing ground of the Makers, and structures like this hall were raised to house cosmic machinery, observation platforms, and caretakers of Azeroth's early design. Despite thousands of years passing without obvious Titan presence, the stonework remains impeccably preserved against the humid, vine-choked jungle surrounding it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Hall of Repose?",
+   "aliases": [
+    "what is hall of repose",
+    "hall of repose purpose",
+    "ungoro titan room"
+   ],
+   "answer": "It is an interior chamber of the Shaper's Terrace complex located along the northern perimeter of Un'Goro Crater. Like the rest of the terrace, it was engineered by the Titans during the ancient shaping and ordering of Azeroth."
+  },
+  {
+   "q": "Who built this chamber?",
+   "aliases": [
+    "who made hall of repose",
+    "who built shapers terrace",
+    "hall of repose creators"
+   ],
+   "answer": "It was crafted by the Titans or their stone creations. The smooth, immense masonry and architectural motifs match other ancient maker facilities scattered across the world."
+  },
+  {
+   "q": "Why is it called the Hall of Repose?",
+   "aliases": [
+    "why repose",
+    "name meaning hall of repose"
+   ],
+   "answer": "The Titans and their keepers often designated chambers according to administrative, contemplative, or dormant functions. While its exact ancient designation is lost to mortal memory, the name reflects a quiet, secluded sanctum away from the chaotic ecology of the crater."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves fascinated by their Titan heritage, standing within the Hall of Repose offers a direct glimpse into the seamless masonry and architectural artistry of the Makers."
+  }
+ ],
+ "keywords": [
+  "hall of repose",
+  "makers",
+  "shaper's terrace",
+  "shapers",
+  "titans",
+  "un'goro crater"
+ ],
+ "related": [
+  "subzone:shaper-s-terrace",
+  "zone:ungoro"
+ ],
+ "attribution": [
+  "Hall of Repose (Un'Goro Crater)"
+ ]
+}

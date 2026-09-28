@@ -1,0 +1,133 @@
+{
+ "key": "quest:893",
+ "type": "quest",
+ "name": "Weapons of Choice",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   893
+  ],
+  "level": "24",
+  "faction": "Horde",
+  "start": "Tatternack Steelforge",
+  "end": "",
+  "previous": null,
+  "next": "A New Ore Sample",
+  "wiki": "Weapons of Choice",
+  "chain": [
+   "Weapons of Choice",
+   "A New Ore Sample"
+  ]
+ },
+ "summary": "Tatternack Steelforge, a Horde blacksmith stationed at Camp Taurajo, is investigating reports that the southern Razormane quilboar are producing unusually sturdy armaments. Tasked by the Warchief to assess this threat, he enlists travelers to retrieve weapons directly from the quilboar forces beyond the Field of Giants. Examining these specimens reveals that the quilboar are far more dangerous and technically capable than the Horde initially believed.",
+ "sections": [
+  {
+   "title": "A Curious Advancement",
+   "body": "The quilboar of the Barrens are generally dismissed as feral, crude brutes wielding primitive implements of wood, bone, and stone. However, word reached Camp Taurajo that the Razormane tribe far to the south had begun fielding remarkably durable martial gear. Tatternack Steelforge, an orc smith operating under orders from Warchief Thrall, took an interest in these reports. Though skeptical that quilboar could grasp proper metallurgy, he sought proof to determine whether they had developed new techniques or uncovered better supplies.",
+   "spoiler": 0
+  },
+  {
+   "title": "Armaments of the Razormane",
+   "body": "To study their craft, Tatternack required a diverse cross-section of the tribe's arsenal. He directed scouts south past the colossal skeletons of the Field of Giants to confront Razormane war camps. There, warriors had to wrest backstabber daggers from quilboar stalkers, charred wands from their seers, and heavy war shields from frenzied shock troops. Each piece provided insight into the martial and mystic arts currently fueling the Razormane push against Horde territory.",
+   "spoiler": 0
+  },
+  {
+   "title": "Underestimating the Enemy",
+   "body": "Upon handling the recovered specimens, Tatternack's skepticism turned to concern. The weapons demonstrated a degree of craftsmanship and resilience that defied the Horde's assumptions about quilboar capabilities. Acknowledging that the Horde had dangerously underestimated the tribe, the smith set aside his forge work to scrutinize the materials further, suspecting that some outside element or newfound resource was aiding the Razormane war effort.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tatternack Steelforge?",
+   "aliases": [
+    "tatternack steelforge",
+    "who gives weapons of choice",
+    "taurajo blacksmith"
+   ],
+   "answer": "Tatternack Steelforge is an orc blacksmith and armorer stationed at Camp Taurajo in the southern Barrens. Acting on orders from Warchief Thrall to support the Horde's frontier defenses, he studies enemy weaponry and crafts gear for local forces."
+  },
+  {
+   "q": "Why does Tatternack want quilboar weapons?",
+   "aliases": [
+    "why collect quilboar weapons",
+    "reason for weapons of choice",
+    "tatternack motives"
+   ],
+   "answer": "Reports indicated that the southern Razormane tribe had begun wielding surprisingly durable weapons despite having no known tradition of skilled smithing. Tatternack wants to examine their daggers, wands, and shields to understand how they are making them and whether they pose an escalated threat."
+  },
+  {
+   "q": "Where are the Razormane quilboar located for this task?",
+   "aliases": [
+    "where are the quilboar",
+    "weapons of choice location",
+    "where to find razormane"
+   ],
+   "answer": "The target quilboar dwell in camps located in the far southern Barrens, past the Field of Giants and west of the road leading down toward the Great Lift and Thousand Needles."
+  },
+  {
+   "q": "Which quilboar carry the required weapons?",
+   "aliases": [
+    "who drops backstabber",
+    "who drops wand",
+    "who drops war shield"
+   ],
+   "answer": "Razormane Stalkers carry the Razormane Backstabber daggers, Razormane Seers wield the Charred Razormane Wands, and Razormane Warfrenzies carry the sturdy Razormane War Shields."
+  },
+  {
+   "q": "What does Tatternack discover from the weapons?",
+   "aliases": [
+    "what does tatternack find out",
+    "weapons of choice outcome",
+    "are quilboar smiths"
+   ],
+   "answer": "Upon inspecting the items, Tatternack confirms that the weapons are remarkably well made and far exceed what the Horde anticipated from quilboar. This realization prompts him to investigate the raw materials they are using in the follow-up task, 'A New Ore Sample'."
+  },
+  {
+   "q": "Why is the Horde worried about quilboar manufacturing weapons?",
+   "aliases": [
+    "why do quilboar weapons matter",
+    "quilboar threat level"
+   ],
+   "answer": "The Horde relies on superior metalwork and disciplined strength to hold the vast Barrens against numerous indigenous threats. If the prolific Razormane quilboar manage to mass-produce sturdy iron or steel weaponry, they could easily overwhelm frontier outposts like Camp Taurajo."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "For a smith, evaluating recovered arms highlights how an enemy's material quality directly dictates tactical readiness on the frontier."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Camp Taurajo remains vulnerable on the southern frontier, making intelligence on Razormane military advancements vital to defending the trade routes through the Barrens."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcish honor demands respect for martial strength, and Tatternack's duty to Thrall requires recognizing when an adversary is becoming genuinely dangerous."
+  }
+ ],
+ "keywords": [
+  "backstabber",
+  "barrens",
+  "quilboar",
+  "razormane",
+  "steelforge",
+  "tatternack",
+  "taurajo",
+  "wand",
+  "war shield"
+ ],
+ "related": [
+  "npc:tatternack-steelforge",
+  "quest:1153",
+  "subzone:camp-taurajo",
+  "topic:quilboar",
+  "subzone:field-of-giants",
+  "zone:barrens",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Weapons of Choice"
+ ]
+}

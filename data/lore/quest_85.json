@@ -1,0 +1,118 @@
+{
+ "key": "quest:85",
+ "type": "quest",
+ "name": "Lost Necklace",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   85
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "\"Auntie\" Bernice Stonefield",
+  "end": "Billy Maclure",
+  "previous": null,
+  "next": "Pie for Billy",
+  "wiki": "Lost Necklace",
+  "chain": []
+ },
+ "summary": "Lost Necklace is an introductory task in southern Elwynn Forest given by \"Auntie\" Bernice Stonefield. Suspecting theft by the rival clan's mischievous young boy, Bernice sends adventurers across the road to confront Billy Maclure and retrieve her missing heirloom.",
+ "sections": [
+  {
+   "title": "A Neighborly Accusation",
+   "body": "The Stonefield and Maclure families share adjoining land in southern Elwynn Forest, but very little goodwill passes between them. When \"Auntie\" Bernice Stonefield discovers her cherished necklace is missing, she wastes no time pointing the finger at the youngest of the rival household. Convinced that young Billy Maclure snuck onto her farm and snatched the jewelry, the bitter widow asks any willing traveler to cross over to the vineyards, track down the boy, and demand its return.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Boy with an Appetite",
+   "body": "Confronting Billy Maclure at the neighboring vineyard quickly complicates the matter. Billy indignantly denies taking the necklace, claiming he is no thief. However, with a knowing grin, he hints that he might just know what actually became of the trinket\u2014provided someone satisfies his rumbling stomach with a fresh pork pie first.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Auntie Bernice Stonefield?",
+   "aliases": [
+    "who is auntie bernice",
+    "bernice stonefield",
+    "who gives lost necklace"
+   ],
+   "answer": "Auntie Bernice Stonefield is an elderly widow living on the Stonefield Farm in southern Elwynn Forest. She is deeply suspicious of the neighboring Maclure family, especially their troublemaking young son, Billy."
+  },
+  {
+   "q": "Did Billy Maclure actually steal the necklace?",
+   "aliases": [
+    "is billy a thief",
+    "did billy steal it",
+    "did billy take the necklace"
+   ],
+   "answer": "Billy adamantly denies being a thief when confronted. While he did not take it himself, he admits he saw who or what did, though he refuses to share the secret until he is properly fed."
+  },
+  {
+   "q": "Where can I find Billy Maclure?",
+   "aliases": [
+    "billy maclure location",
+    "where is billy",
+    "find billy maclure"
+   ],
+   "answer": "Billy Maclure is typically found idling among the grapevines at the Maclure Vineyards, located just east across the road from the Stonefield Farm."
+  },
+  {
+   "q": "Why do the Stonefields and Maclures dislike each other?",
+   "aliases": [
+    "family feud",
+    "stonefield maclure feud",
+    "why do they hate each other"
+   ],
+   "answer": "The two neighboring families have been embroiled in a bitter rural feud for years. Tensions run high over property, pride, and longstanding personal grudges, leading both sides to immediately suspect the worst of one another."
+  },
+  {
+   "q": "What happens after talking to Billy Maclure?",
+   "aliases": [
+    "what next",
+    "after lost necklace",
+    "next quest"
+   ],
+   "answer": "Billy insists that he is far too hungry to recall where the necklace went, sending you right back to Auntie Bernice to bake him a pork pie in exchange for the information."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "quest zone",
+    "where is lost necklace"
+   ],
+   "answer": "The quest takes place entirely in southern Elwynn Forest, running back and forth between the Stonefield Farm and the adjacent Maclure Vineyards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance novices starting their careers in Elwynn Forest, settling petty disputes between the squabbling Stonefield and Maclure families is a quintessential taste of local frontier life."
+  },
+  {
+   "target": "race:Human",
+   "text": "The grudge between the Stonefields and the Maclures shows that not all strife in the Kingdom of Stormwind comes from Defias outlaws or gnoll warbands; old rural neighbor squabbles run just as deep."
+  }
+ ],
+ "keywords": [
+  "bernice",
+  "billy",
+  "elwynn",
+  "farm",
+  "maclure",
+  "necklace",
+  "stonefield",
+  "vineyards"
+ ],
+ "related": [
+  "npc:auntie-bernice-stonefield",
+  "npc:billy-maclure",
+  "quest:86",
+  "subzone:maclure-vineyards",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Lost Necklace"
+ ]
+}

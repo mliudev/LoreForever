@@ -1,0 +1,117 @@
+{
+ "key": "quest:1693",
+ "type": "quest",
+ "name": "Weapons of Elunite",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   1693
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Mathiel",
+  "end": "",
+  "previous": "Smith Mathiel",
+  "next": null,
+  "wiki": "Weapons of Elunite",
+  "chain": []
+ },
+ "summary": "Weapons of Elunite is the culmination of an early rite of passage for night elf warriors in Darnassus. After recovering raw ore blessed by Elune, the warrior brings the material to the skilled smith Mathiel to be forged into arms fit for a defender of Kalimdor.",
+ "sections": [
+  {
+   "title": "A Sacred Forge",
+   "body": "Night elf warriors carry a sacred duty to defend Teldrassil and the kaldorei people. Rather than relying on mundane steel alone, those who show promise are sent to gather elunite, a mineral imbued with the grace of the Moon Goddess. Fashioning such weapons requires an artisan who understands both metalcraft and the reverence owed to Elune's gifts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mathiel's Craft",
+   "body": "Based in the capital city of Darnassus, Smith Mathiel takes great pride in shaping the blessed ore into arms of war. For Mathiel, working with elunite is not simply routine metallurgy but an honor. Upon receiving the ore, he crafts a selection of implements tailored to the warrior's style, rewarding their service with arms blessed by their goddess.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "weapons of elunite quest",
+    "why do this quest",
+    "warrior level 10 darnassus"
+   ],
+   "answer": "This quest marks the completion of the early warrior trial based in Darnassus. After securing rare elunite ore, the warrior delivers it to Smith Mathiel, who crafts reliable weapons imbued with the essence of Elune to aid in their journey across Kalimdor."
+  },
+  {
+   "q": "Who is Mathiel?",
+   "aliases": [
+    "smith mathiel",
+    "who is mathiel",
+    "darnassus smith"
+   ],
+   "answer": "Mathiel is a skilled night elf armorsmith and weaponsmith residing in Darnassus. He possesses the specialized knowledge needed to forge elunite ore into finely balanced armaments for the city's burgeoning defenders."
+  },
+  {
+   "q": "What is elunite?",
+   "aliases": [
+    "what is elunite ore",
+    "elunite lore"
+   ],
+   "answer": "Elunite is a rare mineral sacred to the night elves, believed to be infused with the luminescence and favor of the Moon Goddess, Elune. Because of its divine nature, artisans consider shaping it into weapons a solemn honor."
+  },
+  {
+   "q": "Who can undertake this quest?",
+   "aliases": [
+    "who gets weapons of elunite",
+    "is this warrior only"
+   ],
+   "answer": "This quest is reserved strictly for Alliance warriors training around Darnassus who have completed the preliminary tasks to locate and gather elunite for Smith Mathiel."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "weapons of elunite location",
+    "where is mathiel"
+   ],
+   "answer": "The quest is turned in directly to Smith Mathiel within the night elven capital of Darnassus, located high in the boughs of the World Tree, Teldrassil."
+  },
+  {
+   "q": "Why does Mathiel thank the adventurer?",
+   "aliases": [
+    "why is mathiel honored",
+    "mathiel dialogue"
+   ],
+   "answer": "Mathiel considers working with elunite both a sacred honor and a personal pleasure. Shaping an ore tied to Elune is a privilege few smiths receive, making the warrior's delivery a boon for the craftsman as well."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This quest represents an essential early rite of martial service for young kaldorei warriors, rewarding their dedication with dependable, Elune-blessed weaponry."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The forging of elunite reflects how night elf society weaves reverence for the Moon Goddess directly into the practical craft of war and defense."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Smith Mathiel's craft demonstrates the delicate balance between conventional metalworking and the treatment of divine materials like elunite."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "elune",
+  "elunite",
+  "kaldorei",
+  "mathiel",
+  "teldrassil",
+  "warrior",
+  "weaponsmith"
+ ],
+ "related": [
+  "quest:1692",
+  "zone:darnassus",
+  "quest:1703"
+ ],
+ "attribution": [
+  "Weapons of Elunite"
+ ]
+}

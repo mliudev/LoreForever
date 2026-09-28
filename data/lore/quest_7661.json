@@ -1,0 +1,110 @@
+{
+ "key": "quest:7661",
+ "type": "quest",
+ "name": "Wolf Swapping - Red Wolf",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   7661
+  ],
+  "level": "1",
+  "faction": "Horde",
+  "start": "Ogunaro Wolfrunner",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Wolf Swapping - Red Wolf",
+  "chain": []
+ },
+ "summary": "Wolf Swapping - Red Wolf is an exchange offered by Ogunaro Wolfrunner in the Valley of Honor in Orgrimmar. It allows experienced Horde riders who possess an older breed of swift red wolf to trade their horn for an armored beast bred for modern warfare. This trade reflects the ongoing efforts of Orcish wolf breeders to better outfit Horde cavalry.",
+ "sections": [
+  {
+   "title": "A Change in the Kennels",
+   "body": "In the Valley of Honor, kennel master Ogunaro Wolfrunner oversees the training and breeding of the Horde's war wolves. As the threats facing Durotar and Kalimdor have grown, wolf breeders have begun equipping their swiftest mounts with reinforced war barding. Rather than forcing veteran riders to purchase a brand-new mount, Ogunaro offers an exchange for those who originally bonded with an older, unarmored swift red wolf.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Bond of Mount and Rider",
+   "body": "Orcish culture holds wolves in high esteem, viewing them not as beasts of burden, but as loyal partners on the battlefield. Swapping a red wolf is not a matter of discarding an old ally, but trading in the ceremonial horns used to summon and maintain these swift mounts in the Orgrimmar yards. Ogunaro ensures that the new pack wolf provided carries the exact same speed and endurance as the mount it replaces.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers the Wolf Swapping exchange?",
+   "aliases": [
+    "who gives wolf swapping",
+    "ogunaro quest",
+    "wolf swapping npc"
+   ],
+   "answer": "Ogunaro Wolfrunner, the wolf breeder and mount vendor found in the Valley of Honor in Orgrimmar, offers this exchange."
+  },
+  {
+   "q": "Why would a rider trade in their Red Wolf?",
+   "aliases": [
+    "why swap wolf",
+    "red wolf swap reason",
+    "wolf trade purpose"
+   ],
+   "answer": "Breeders introduced newly armored swift wolves to better withstand the rigors of combat. Riders holding an older swift red wolf can exchange it for one of the newer armored breeds with a refreshed appearance while retaining the mount's speed."
+  },
+  {
+   "q": "Does the new wolf run faster than the old one?",
+   "aliases": [
+    "is new wolf faster",
+    "speed difference wolf swap"
+   ],
+   "answer": "No. As Ogunaro explains, the new wolf runs at the exact same speed as the old swift mount, offering an updated war-ready look rather than a boost in pace."
+  },
+  {
+   "q": "Where can riders preview the new wolf?",
+   "aliases": [
+    "where to see new wolf",
+    "preview swift wolf"
+   ],
+   "answer": "Ogunaro keeps samples of the new swift pack around his yard in the Valley of Honor so riders can inspect the beasts before deciding to make an exchange."
+  },
+  {
+   "q": "Is this exchange open to Alliance players?",
+   "aliases": [
+    "can alliance swap wolves",
+    "alliance wolf swap"
+   ],
+   "answer": "No. The wolf yards in Orgrimmar serve only the Horde, and Ogunaro Wolfrunner deals exclusively with Horde champions."
+  },
+  {
+   "q": "What item is needed to complete the exchange?",
+   "aliases": [
+    "what item needed",
+    "wolf swap requirements"
+   ],
+   "answer": "Riders must bring the Horn of the Red Wolf, which proves their ownership of the older fast wolf, in order to trade it in."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Wolves are the traditional mount and spirit companions of the Orcish people, making Ogunaro's yard in the Valley of Honor a cornerstone of Orgrimmar's martial tradition."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde relies on swift outrunners and wolf cavalry across Kalimdor to keep watch on encroaching threats and maintain supply lines."
+  }
+ ],
+ "keywords": [
+  "horn of the red wolf",
+  "ogunaro wolfrunner",
+  "orgrimmar",
+  "red wolf",
+  "swift wolf",
+  "valley of honor",
+  "wolf swapping"
+ ],
+ "related": [
+  "npc:ogunaro-wolfrunner"
+ ],
+ "attribution": [
+  "Wolf Swapping - Red Wolf"
+ ]
+}

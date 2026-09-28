@@ -1,0 +1,88 @@
+{
+ "key": "subzone:warrior-s-terrace",
+ "type": "subzone",
+ "name": "Warrior's Terrace",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Warrior's Terrace"
+ },
+ "summary": "The Warrior's Terrace is the eastern district of Darnassus, acting as both a martial training hub and the capital's fortified gateway. Overlooking the road into greater Teldrassil, it houses the city's battlemasters, warrior trainers, and Sentinel patrols.",
+ "sections": [
+  {
+   "title": "Shield of Darnassus",
+   "body": "Positioned at the eastern threshold of Darnassus, the Warrior's Terrace\u2014sometimes referred to as the Hall of Justice\u2014stands as the primary defensive bulwark against incursions from the Teldrassil wilds. Heavily armed Sentinels mounted on nightsabers guard its high arched gates, maintaining a vigilant watch over incoming travelers. Within its open-air plazas, aspiring combatants drill alongside seasoned veterans on extensive dueling grounds and target ranges. The district also serves practical military needs, hosting weapon smiths, armorers, and the battlemasters coordinating night elf forces across the wider world.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Warrior's Terrace?",
+   "aliases": [
+    "what is warrior's terrace",
+    "warriors terrace purpose",
+    "why warriors terrace"
+   ],
+   "answer": "The Warrior's Terrace functions as the military heart of Darnassus and its main defensive gateway. It houses the city's martial trainers, battlemasters, dueling grounds, and target ranges, while stationed Sentinels guard the eastern gate leading into the broader boughs of Teldrassil."
+  },
+  {
+   "q": "Where does the road through the eastern gate lead?",
+   "aliases": [
+    "where does gate go",
+    "warriors terrace gate",
+    "east gate darnassus"
+   ],
+   "answer": "The grand gates on the eastern edge of the terrace lead directly out of Darnassus and onto the forest paths of greater Teldrassil, connecting the isolated capital to settlement hubs like Dolanaar and Rut'theran Village below."
+  },
+  {
+   "q": "Who guards the district?",
+   "aliases": [
+    "who protects warriors terrace",
+    "sentinels at warriors terrace",
+    "darnassus guards"
+   ],
+   "answer": "The district and its perimeter gates are guarded primarily by the Sentinels, the elite night elven standing army. Many patrol the terraces and gateways while mounted atop armored nightsabers."
+  },
+  {
+   "q": "Which other districts connect to the Warrior's Terrace?",
+   "aliases": [
+    "connections warriors terrace",
+    "how to get to warriors terrace",
+    "what connects to warriors terrace"
+   ],
+   "answer": "Bridges and walkways link the Warrior's Terrace directly to the Craftsmen's Terrace to the north, the Tradesmen's Terrace to the south, and the lush Temple Gardens toward the center of the city to the west."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "For warriors training in the night elf capital, this district is your base of operations, providing access to martial instructors, dueling areas, and battlemasters."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The terrace hosts the city's blacksmithing trainers and forge facilities, catering to armor and weapon craft alongside the garrison."
+  }
+ ],
+ "keywords": [
+  "battlemasters",
+  "darnassus",
+  "dueling grounds",
+  "east gate",
+  "hall of justice",
+  "sentinels",
+  "teldrassil",
+  "warrior's terrace"
+ ],
+ "related": [
+  "zone:darnassus",
+  "quest:940",
+  "subzone:craftsmen-s-terrace",
+  "subzone:tradesmen-s-terrace",
+  "subzone:temple-gardens",
+  "topic:sentinels",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Warrior's Terrace"
+ ]
+}

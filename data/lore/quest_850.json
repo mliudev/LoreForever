@@ -1,0 +1,137 @@
+{
+ "key": "quest:850",
+ "type": "quest",
+ "name": "Kolkar Leaders",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   850
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Regthar Deathgate",
+  "end": "",
+  "previous": null,
+  "next": "Verog the Dervish (Classic)",
+  "wiki": "Kolkar Leaders (Classic)",
+  "chain": [
+   "Kolkar Leaders (Classic)",
+   "Verog the Dervish (Classic)",
+   "Hezrul Bloodmark (Classic)",
+   "Counterattack! (Classic)"
+  ]
+ },
+ "summary": "Kolkar Leaders begins a campaign led by the orc Regthar Deathgate to crush rising centaur warlords in the Barrens. The nomadic Kolkar have plagued the tauren for generations, but newly emerged chieftains are organizing their disorganized bands into a genuine military threat. Regthar tasks champions of the Horde with cutting down Barak Kodobane at the Forgotten Pools before his influence can spread.",
+ "sections": [
+  {
+   "title": "A Rising Menace in the Drylands",
+   "body": "For countless years, the horse-bodied centaur have terrorized Kalimdor, driving the nomadic tauren nearly to extinction before Thrall's Horde arrived to turn the tide. In the Barrens, the dominant Kolkar tribe generally roams in scattered, fractured marauding parties. Recently, however, aggressive chieftains have begun uniting the disparate bands, turning simple raiding parties into a cohesive military threat capable of contesting the Horde's fortified outposts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Decapitating the Beast",
+   "body": "Stationed in an encampment west of the Crossroads, the orc warrior Regthar Deathgate recognized that the Kolkar rely heavily on sheer bravado and brute force to maintain cohesion. Without strong commanders, their raiders degenerate into infighting. To blunt their advance, Regthar directs Horde adventurers to cut off the head of the snake, starting with Barak Kodobane, an ambitious leader camping near the verdant waters of the Forgotten Pools.",
+   "spoiler": 0
+  },
+  {
+   "title": "The First of Many",
+   "body": "Slaying Barak Kodobane deals a significant blow to the northern Kolkar encampments, yet Regthar knows Barak is merely the vanguard of a broader movement. His elimination marks the opening salvo of a concerted campaign to dismantle the Kolkar high command, paving the way to hunt down fellow chieftains Verog the Dervish and Hezrul Bloodmark across the Barrens.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Barak Kodobane?",
+   "aliases": [
+    "barak",
+    "who is barak",
+    "barak kodobane lore"
+   ],
+   "answer": "Barak Kodobane is a fierce Kolkar centaur leader who rallied marauders around the Forgotten Pools north of the Crossroads. Known for his wit and cruelty, he proved far more dangerous than ordinary nomadic raiders by organizing disparate clans into an offensive threat against the Horde."
+  },
+  {
+   "q": "Where can I find Barak Kodobane?",
+   "aliases": [
+    "barak location",
+    "where is barak",
+    "forgotten pools barak"
+   ],
+   "answer": "Barak Kodobane maintains a camp at the Forgotten Pools, a lush oasis situated north of the Crossroads in the central Barrens. He is typically surrounded by loyal Kolkar guards."
+  },
+  {
+   "q": "Who is Regthar Deathgate?",
+   "aliases": [
+    "regthar",
+    "who gives kolkar leaders",
+    "regthar deathgate lore"
+   ],
+   "answer": "Regthar Deathgate is an orc veteran situated at a small bunker camp just west of the Crossroads. He monitors centaur movements in the Barrens and orchestrates pre-emptive strikes to safeguard Horde settlements from organized raids."
+  },
+  {
+   "q": "Why are the Kolkar such a problem for the Horde?",
+   "aliases": [
+    "why fight kolkar",
+    "kolkar threat",
+    "centaur horde rivalry"
+   ],
+   "answer": "The centaur have waged a ruthless, near-genocidal war against the tauren for generations. As full members of the Horde, the tauren rely on their allies to help secure their ancestral hunting grounds and trade routes across the Barrens from continued centaur expansion."
+  },
+  {
+   "q": "What happens after Barak is killed?",
+   "aliases": [
+    "next quest after barak",
+    "kolkar leaders follow up",
+    "what comes next"
+   ],
+   "answer": "Defeating Barak Kodobane reveals that other chieftains are marshaling forces elsewhere in the Barrens. Regthar immediately sends you to assassinate Verog the Dervish at the Stagnant Oasis, followed by Hezrul Bloodmark at the Lushwater Oasis, culminating in a defense against a direct Kolkar assault."
+  },
+  {
+   "q": "Why do the Kolkar gather around the oases?",
+   "aliases": [
+    "why are centaur at oases",
+    "kolkar water",
+    "forgotten pools centaur"
+   ],
+   "answer": "Water and fertile ground are precious treasures in the arid climate of the Barrens. By seizing natural springs like the Forgotten Pools, the Kolkar secure essential water supplies while denying strategic resting spots to travelers and tauren hunters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren, striking down Kolkar commanders is a matter of survival and vengeance. Centaur clans slaughtered tribes and drove the shu'halo from their ancestral pastures for decades before the Horde established a foothold in Kalimdor."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Thrall pledged the Horde to defend the tauren, and seasoned veterans like Regthar Deathgate take that blood-oath seriously, treating centaur warmongers as immediate strategic threats to orcish sovereignty in the Barrens."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The crossroads of the Barrens serve as the vital artery connecting Mulgore, Durotar, and Horde outposts farther afield. Neutralizing Kolkar leadership protects fragile supply caravans from devastating ambushes."
+  }
+ ],
+ "keywords": [
+  "barak",
+  "barrens",
+  "centaur",
+  "crossroads",
+  "deathgate",
+  "forgotten pools",
+  "kodobane",
+  "kolkar",
+  "regthar"
+ ],
+ "related": [
+  "zone:barrens",
+  "subzone:crossroads",
+  "subzone:forgotten-pools",
+  "quest:851",
+  "quest:852",
+  "quest:4021",
+  "topic:centaur",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Kolkar Leaders (Classic)"
+ ]
+}

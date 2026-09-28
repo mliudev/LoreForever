@@ -1,0 +1,120 @@
+{
+ "key": "quest:156",
+ "type": "quest",
+ "name": "Gather Rot Blossoms",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   156
+  ],
+  "level": "24",
+  "faction": "Alliance",
+  "start": "Tavernkeep Smitts",
+  "end": "",
+  "previous": "Zombie Juice (Classic)",
+  "next": "Juice Delivery (Classic)",
+  "wiki": "Gather Rot Blossoms (Classic)",
+  "chain": []
+ },
+ "summary": "Tavernkeep Smitts of Darkshire requires rot blossoms to concoct a batch of his infamous 'zombie juice'. These macabre flora sprout directly from the decaying skulls of skeletal horrors and fiends prowling Duskwood's restless graveyards.",
+ "sections": [
+  {
+   "title": "A Bizarre Ingredient",
+   "body": "While most barkeeps pride themselves on aged ales and fine wines, Tavernkeep Smitts of the Scarlet Raven Tavern occasionally brews more unsettling fare. His recipe for 'zombie juice' demands rot blossoms\u2014foul, necrotic vegetation that takes root within the empty skulls of animated skeletons. Smitts himself is sensible enough never to get close to the undead, leaving the gruesome harvest to passing mercenaries.",
+   "spoiler": 0
+  },
+  {
+   "title": "Graveyard Pest Control",
+   "body": "Gathering these blooms requires cutting down the skeletal horrors and fiends wandering the overgrown plots of Tranquil Gardens Cemetery or the vast expanse of Raven Hill Cemetery. Duskwood's local militia, the Night Watch, is perpetually stretched thin fighting back the creeping terrors of the woods. Smitts ensures that any adventurer braving the tombstones is duly commended to Commander Althea Ebonlocke for culling the restless dead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a rot blossom?",
+   "aliases": [
+    "rot blossom",
+    "what is rot blossom",
+    "where do rot blossoms come from"
+   ],
+   "answer": "A rot blossom is a foul plant that sprouts in conditions steeped in dark magic and decay. In Duskwood, they grow directly inside the cranial cavities of animated skeletal horrors and fiends."
+  },
+  {
+   "q": "Why does Tavernkeep Smitts need rot blossoms?",
+   "aliases": [
+    "why smitts want blossoms",
+    "zombie juice ingredients",
+    "smitts drink"
+   ],
+   "answer": "Smitts uses the blossoms as a key component to brew a concoction known as 'zombie juice', a potent drink requested by certain patrons in the region."
+  },
+  {
+   "q": "Where can the skeletons bearing these blossoms be found?",
+   "aliases": [
+    "where are skeletal horrors",
+    "rot blossom location",
+    "tranquil gardens skeletons"
+   ],
+   "answer": "Skeletal horrors and skeletal fiends congregate throughout the burial grounds of Duskwood, particularly within Tranquil Gardens Cemetery near Darkshire and across the vast Raven Hill Cemetery to the west."
+  },
+  {
+   "q": "Does this task help the defense of Darkshire?",
+   "aliases": [
+    "night watch help",
+    "althea ebonlocke skeleton killing"
+   ],
+   "answer": "Yes. Darkshire relies on the Night Watch for survival against constant undead attacks. Smitts notes that hunting skeletons for the blossoms assists Commander Althea Ebonlocke by thinning the ranks of monsters threatening the town."
+  },
+  {
+   "q": "What comes next after delivering the blossoms?",
+   "aliases": [
+    "next quest after rot blossoms",
+    "juice delivery follow up"
+   ],
+   "answer": "Once Smitts receives the blossoms and brews the zombie juice, he asks you to deliver the finished draught to Abercrombie, an eccentric hermit dwelling near Raven Hill Cemetery."
+  },
+  {
+   "q": "Is zombie juice a normal beverage served in Darkshire?",
+   "aliases": [
+    "is zombie juice normal",
+    "scarlet raven drinks"
+   ],
+   "answer": "No. The Scarlet Raven Tavern typically serves standard regional fare. Zombie juice is a bizarre, specialized brew prepared only when Smitts receives an eccentric order requiring necrotic ingredients."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Unlike standard herbs that flourish in rich soil and sunlight, rot blossoms are dark botanical anomalies rooted entirely in necromantic decay and animated bone."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Hunting the undead in Duskwood's cemeteries offers much-needed relief to the beleaguered Night Watch of Darkshire, who fight a daily battle to keep the town from falling."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "night watch",
+  "raven hill cemetery",
+  "rot blossom",
+  "skeletal fiend",
+  "skeletal horror",
+  "tavernkeep smitts",
+  "tranquil gardens cemetery",
+  "zombie juice"
+ ],
+ "related": [
+  "quest:158",
+  "npc:tavernkeep-smitts",
+  "subzone:tranquil-gardens-cemetery",
+  "subzone:raven-hill-cemetery",
+  "npc:althea-ebonlocke",
+  "topic:night-watch",
+  "subzone:darkshire",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Gather Rot Blossoms (Classic)"
+ ]
+}

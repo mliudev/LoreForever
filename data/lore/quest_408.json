@@ -1,0 +1,110 @@
+{
+ "key": "quest:408",
+ "type": "quest",
+ "name": "The Family Crypt",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   408
+  ],
+  "level": "13",
+  "faction": "Horde",
+  "start": "Magistrate Sevren",
+  "end": "Magistrate Sevren",
+  "previous": "Speak with Sevren (Classic)",
+  "next": null,
+  "wiki": "The Family Crypt (Classic)",
+  "chain": [
+   "The Haunted Mills (Classic)",
+   "Speak with Sevren (Classic)",
+   "The Family Crypt (Classic)"
+  ]
+ },
+ "summary": "The Family Crypt is a Horde quest tasking players with confronting the Scourge inside the Agamand Family Crypt. Commanded by Magistrate Sevren in Brill, adventurers must destroy the raised Agamand ancestors and slay the skeletal Scourge commander, Captain Dargol.",
+ "sections": [
+  {
+   "title": "A Foxtrot in Tirisfal",
+   "body": "While the Forsaken have carved out a fragile dominion in Tirisfal Glades, remnants of the Lich King's Scourge remain deeply entrenched in the countryside. The Agamand Mills, once a prosperous flour-producing heartland of Lordaeron, have become a dangerous Scourge stronghold. Magistrate Sevren in Brill watches this military buildup with grave concern, knowing that every inch yielded to mindless undead undermines the Forsaken's independence.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defiling the Tomb",
+   "body": "The center of the local Scourge occupation is the Agamand Family Crypt, where the skeletal commander Captain Dargol has set up headquarters. Using dark necromancy, Dargol has dragged generations of Agamand family dead from their rest, twisting them into Rotting and Wailing Ancestors to swell his ranks. Sevren dispatches Forsaken agents to purge the crypt, lay the disturbed dead back to rest, and severed Dargol's head to shatter Scourge coordination in northern Tirisfal.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Captain Dargol?",
+   "aliases": [
+    "captain dargol",
+    "who is dargol",
+    "dargol lore"
+   ],
+   "answer": "Captain Dargol is a skeletal Scourge officer stationed within the Agamand Family Crypt. From this tomb, he commands local Scourge forces and uses necromancy to reanimate the Agamand family ancestors to march against the Forsaken."
+  },
+  {
+   "q": "Why does Magistrate Sevren care about the Agamand Mills?",
+   "aliases": [
+    "why brill cares",
+    "sevren agamand",
+    "agamand importance"
+   ],
+   "answer": "Agamand Mills represents a major Scourge foothold dangerously close to Brill and the Undercity. Left unchecked, Captain Dargol's growing force of reanimated ancestors could mount an offensive against the newly liberated Forsaken settlements."
+  },
+  {
+   "q": "Who are the Wailing and Rotting Ancestors?",
+   "aliases": [
+    "wailing ancestors",
+    "rotting ancestors",
+    "agamand ancestors"
+   ],
+   "answer": "They are the deceased forebears of the wealthy Agamand lineage. Rather than resting peacefully in their ancestral burial grounds, their bodies and spirits have been corrupted and bound to the will of the Scourge by Captain Dargol's dark arts."
+  },
+  {
+   "q": "What happens after Dargol is killed?",
+   "aliases": [
+    "crypt aftermath",
+    "end of agamand chain",
+    "dargol defeated"
+   ],
+   "answer": "Returning Captain Dargol's skull to Magistrate Sevren breaks the Scourge's centralized leadership at the mills. Sevren hails the victory as a critical strike for the Forsaken and an early step toward purging the Lich King's influence from Lordaeron entirely."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, Captain Dargol represents everything they fought to escape: enslavement to the Lich King's will. Putting down the raised ancestors is both an act of self-defense and a grim duty to break the Scourge's grip on their homeland."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing Tirisfal Glades is vital to anchoring the Horde's presence in the Eastern Kingdoms, removing immediate threats to their northern stronghold."
+  }
+ ],
+ "keywords": [
+  "agamand family crypt",
+  "agamand mills",
+  "brill",
+  "captain dargol",
+  "magistrate sevren",
+  "rotting ancestor",
+  "scourge",
+  "the family crypt",
+  "tirisfal glades",
+  "wailing ancestor"
+ ],
+ "related": [
+  "subzone:agamand-family-crypt",
+  "subzone:agamand-mills",
+  "npc:magistrate-sevren",
+  "quest:355",
+  "quest:362",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "The Family Crypt (Classic)"
+ ]
+}

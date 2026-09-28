@@ -1,0 +1,127 @@
+{
+ "key": "topic:grommash-hellscream",
+ "type": "topic",
+ "name": "Grommash Hellscream",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Grommash Hellscream"
+ },
+ "summary": "Grommash Hellscream was the legendary chieftain of the Warsong clan, a close brother-in-arms to Warchief Thrall, and the first orc to drink the blood of Mannoroth. Though his thirst for battle once bound his people to the Burning Legion, he redeemed the orcish race by slaying the demon lord in Ashenvale at the cost of his own life.",
+ "sections": [
+  {
+   "title": "The First Drink and the Iron Will",
+   "body": "Before the Dark Portal ever bridged worlds, Grom Hellscream led the Warsong clan with unyielding ferocity, distinguished by his pitch-black tattooed jaw and the deadly sweep of his two-handed axe, Gorehowl. When Gul'dan and the Shadow Council offered the chalice of demonic strength on Draenor, Grom was the first chieftain to drink the blood of the pit lord Mannoroth. That fateful draught doomed the orcish race to demonic subservience and a burning bloodlust. Yet unlike many chieftains who perished or succumbed entirely, Grom possessed an iron will that kept his fierce spirit intact, surviving the horrors of the old Horde while harboring an unspoken ache for what his people had surrendered.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Brotherhood in the Wilds",
+   "body": "Kept behind on Draenor during the Second War, Grom later crossed through the Dark Portal only to be stranded when the rift was shattered. For nearly fifteen years, Grom and his surviving Warsong warriors evaded the Alliance of Lordaeron, enduring the lethargy and despair that fell upon the orcs after the demon blood faded. Hope rekindled when a young fugitive named Thrall sought him out in the wilderness. Recognizing Thrall's strength and noble heart, Grom mentored him in the proud heritage of their people. Alongside Orgrim Doomhammer, the two rallied their disparate clans, broke open the human internment camps, and ignited the birth of the New Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fall and Final Redemption",
+   "body": "Upon arriving in Kalimdor during the Third War, Grom's unquenched aggression resurfaced in the ancient forests of Ashenvale. Beset by the night elves and the demigod Cenarius, Grom succumbed once more, drinking from a corrupted fountain infused with Mannoroth's blood to save his clan. Enslaved anew by the demon lord, Grom turned against his own people until Thrall and Jaina Proudmoore captured and cleansed his corrupted spirit with ancient shamanic and arcane rites. Fully restored to his senses and burdened by immense guilt, Grom pursued Mannoroth into Demon Fall Canyon. In a desperate final strike, he drove Gorehowl into the demon lord's chest, severing the demonic curse forever as hellfire claimed his life.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Grommash Hellscream?",
+   "aliases": [
+    "who is grom",
+    "who was hellscream",
+    "grom hellscream backstory"
+   ],
+   "answer": "Grommash 'Grom' Hellscream was the chieftain of the Warsong clan and Thrall's trusted lieutenant. He was famous for his razor-sharp axe, Gorehowl, and infamous as the first orc to accept the demonic pact by drinking Mannoroth's blood. He later redeemed his legacy by slaying Mannoroth in Kalimdor, freeing the entire orcish race from the Blood Curse."
+  },
+  {
+   "q": "How did Grom die?",
+   "aliases": [
+    "grom death",
+    "how did grom hellscream die",
+    "who killed grom"
+   ],
+   "answer": "Grom died in Demon Fall Canyon within Ashenvale alongside Thrall. Confronting the pit lord Mannoroth, Grom launched himself into the air and cleaved the demon's chest with Gorehowl. The fatal strike shattered the demon's heart, but the ensuing burst of demonic hellfire fatally wounded Grom, who died declaring that he had finally freed himself and his people."
+  },
+  {
+   "q": "What is Grom's connection to Thrall?",
+   "aliases": [
+    "thrall and grom",
+    "how did thrall know grom",
+    "were thrall and grom friends"
+   ],
+   "answer": "When Thrall escaped the internment camp of Durnholde, Grom was the first clan chieftain he encountered. Grom took the young orc under his wing, teaching him orcish traditions, language, and culture. Thrall came to view Grom as an older brother and spiritual guide, while Grom saw Thrall as the visionary who could lead their shattered race back to honor."
+  },
+  {
+   "q": "Why was Grom's jaw tattooed black?",
+   "aliases": [
+    "grom black jaw",
+    "why is groms jaw black",
+    "grom tattooed lower jaw"
+   ],
+   "answer": "Upon his ascension to chieftain of the Warsong clan on Draenor, Grom ritually tattooed his lower jaw a solid shade of pitch-black. It served as a distinct emblem of his authority and iron will throughout his life, making his ferocious war cries instantly recognizable on the battlefield."
+  },
+  {
+   "q": "Why did Grom drink demon blood a second time?",
+   "aliases": [
+    "why did grom drink again",
+    "grom chaos orcs",
+    "grom drank blood twice"
+   ],
+   "answer": "While harvesting lumber in Ashenvale, Grom's clan was decimated by the night elves and the demigod Cenarius, whose divine nature made him nearly invincible to mortal weapons. Desperate to ensure his clan's survival, Grom discovered a pool of water corrupted by Mannoroth's blood. Despite knowing the dreadful cost, he drank from it to gain the demonic fury needed to defeat Cenarius."
+  },
+  {
+   "q": "Where is Grommash buried?",
+   "aliases": [
+    "grom grave",
+    "grom monument",
+    "where is groms tomb"
+   ],
+   "answer": "Grom rests in Demon Fall Canyon in southeastern Ashenvale, the exact ground where he struck down Mannoroth. A stone monument stands over his burial site, inscribed with an epitaph authored by Thrall celebrating his courage and ultimate sacrifice for the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Orcs revere Grommash as their ultimate savior. His sacrifice in Ashenvale broke the demonic Blood Curse that held the race in thrall for generations, allowing the New Horde to walk with pride and free will."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "To the Horde, Grom represents the tragic arc of their founding: a fierce warrior whose reckless temper led them into darkness, but whose unyielding courage bought their survival and freedom in Kalimdor."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Night elves view Grom's memory with lingering bitterness, remembering him as the demon-crazed invader who defiled Ashenvale's sacred groves and murdered the demigod Cenarius."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Warriors study Grom's battlefield prowess and mastery of Gorehowl as the pinnacle of martial aggression, seeing in him the terrible cost of unchecked rage and the sheer power of an indomitable fighting spirit."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "blood curse",
+  "cenarius",
+  "gorehowl",
+  "grom",
+  "grommash",
+  "hellscream",
+  "mannoroth",
+  "thrall",
+  "warsong"
+ ],
+ "related": [
+  "npc:thrall",
+  "topic:warsong-clan",
+  "topic:new-horde",
+  "zone:ashenvale",
+  "topic:third-war",
+  "npc:orgrim-doomhammer",
+  "topic:burning-legion",
+  "npc:jaina-proudmoore"
+ ],
+ "attribution": [
+  "Grommash Hellscream"
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "key": "quest:8828",
+ "type": "quest",
+ "name": "Winter's Presents",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   8828,
+   81561
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Wonderform Operator / Holiday Enthusiast",
+  "end": "Great-father Winter",
+  "previous": null,
+  "next": null,
+  "wiki": "Winter's Presents (Horde)",
+  "chain": []
+ },
+ "summary": "Winter's Presents is an invitation extended to adventurers in Orgrimmar during the Feast of Winter Veil. Guided by holiday organizers and goblin apparatus tenders, Horde heroes are directed to visit Great-father Winter beneath the decorated festive tree to claim gifts prepared for them.",
+ "sections": [
+  {
+   "title": "Season of Generosity",
+   "body": "As the chill winds of late year sweep across Durotar, the Feast of Winter Veil brings a rare moment of peace and celebration to the harsh red stones of Orgrimmar. Promoters from Smokywood Pastures, alongside holiday enthusiasts, ensure that every warrior, hunter, and wanderer resting in the capital knows that gifts await them beneath the decorated tree.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Patron and the Peddlers",
+   "body": "Seated amidst holiday ribbons and packaged cartons near the Smokywood Pastures market stands Great-father Winter himself. While the ancient figure embodies the renewal of the season, the savvy merchant goblins never miss an opportunity to remind visitors that the holiday spirit pairs exceptionally well with their stock of seasonal wares and festive treats.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I turn in Winter's Presents?",
+   "aliases": [
+    "where is great father winter",
+    "turn in location",
+    "presents hand in"
+   ],
+   "answer": "You turn in this quest to Great-father Winter, who sits near the Smokywood Pastures festive area and decorated tree in the Valley of Strength in Orgrimmar."
+  },
+  {
+   "q": "Who sends you to see Great-father Winter?",
+   "aliases": [
+    "who gives quest",
+    "quest starter",
+    "holiday enthusiast"
+   ],
+   "answer": "Either a Holiday Enthusiast or a goblin Wonderform Operator tending to the PX-238 Winter Wondervolt machines around the holiday setups will direct you to the tree."
+  },
+  {
+   "q": "What is Smokywood Pastures?",
+   "aliases": [
+    "smokywood pastures lore",
+    "who are smokywood pastures"
+   ],
+   "answer": "Smokywood Pastures is an entrepreneurial goblin merchant organization that sponsors and supplies the festivities, food, treats, and gift goods across major capitals during Winter Veil."
+  },
+  {
+   "q": "What does Great-father Winter do once you speak with him?",
+   "aliases": [
+    "great-father winter greeting",
+    "quest completion dialogue"
+   ],
+   "answer": "Great-father Winter welcomes you personally to the Feast of Winter Veil, directs you to the wrapped parcels waiting under the tree, and warmly suggests checking out Smokywood Pastures merchandise for your companions."
+  },
+  {
+   "q": "Why does the Horde celebrate Winter Veil in Orgrimmar?",
+   "aliases": [
+    "horde winter veil lore",
+    "why orcs celebrate winter veil"
+   ],
+   "answer": "While rooted in ancient legends of winter's renewal, the modern festival is embraced by the Horde as a time of respite, feasting, and community amid their struggle to build their new home in Kalimdor."
+  },
+  {
+   "q": "What is the PX-238 Winter Wondervolt mentioned by the operator?",
+   "aliases": [
+    "winter wondervolt",
+    "px 238 wondervolt"
+   ],
+   "answer": "It is a whimsical goblin contraption placed near the festival grounds that temporarily transforms volunteers into festively dressed Little Helpers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde, the bustling holiday camp within Orgrimmar offers a joyful, warm gathering spot away from the ongoing border conflicts across Kalimdor."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Even in the austere seat of the Warchief, orcs pause their duties to share winter feasts and accept hospitality beneath the boughs of the Winter Veil tree."
+  }
+ ],
+ "keywords": [
+  "great-father winter",
+  "holiday enthusiast",
+  "orgrimmar",
+  "presents",
+  "smokywood pastures",
+  "winter veil",
+  "winter's presents",
+  "wonderform operator"
+ ],
+ "related": [
+  "npc:great-father-winter",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Winter's Presents (Horde)"
+ ]
+}

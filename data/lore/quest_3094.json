@@ -1,0 +1,118 @@
+{
+ "key": "quest:3094",
+ "type": "quest",
+ "name": "Verdant Note",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   3094
+  ],
+  "level": "3",
+  "faction": "Horde",
+  "start": "Rohaku Stonehoof",
+  "end": "Gart Mistrunner",
+  "previous": null,
+  "next": "Moonfire (tauren)",
+  "wiki": "Verdant Note (quest)",
+  "chain": []
+ },
+ "summary": "The Verdant Note is a formal summons delivered to promising young tauren in the Red Cloud Mesa. Entrusted by the elder Rohaku Stonehoof, the message bids budding protectors of the wilds to seek out the druidic mentor Gart Mistrunner at Camp Narache.",
+ "sections": [
+  {
+   "title": "A Summons to the Path",
+   "body": "Young tauren stepping into their responsibilities on the Red Cloud Mesa are quickly singled out for their natural gifts. Rohaku Stonehoof passes along this missive on behalf of a messenger sent by Gart Mistrunner. The note acts as an invitation into the ancient fold of tauren druidism, calling the initiate away from basic village errands to heed the whispering balance of the plains.",
+   "spoiler": 0
+  },
+  {
+   "title": "Voices of the Earthmother",
+   "body": "Upon answering the summons, Gart Mistrunner warns the fledgling druid that ancestral and natural spirits have grown restless across Mulgore. Tauren druids are tasked to act as living avatars of nature, keeping harmony with the will of the Earthmother regardless of distant rivalries. While night elves also practice druidic arts, Gart cautions that their pride blinds them to the tauren's own deep-seated bond with the natural realm.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Verdant Note?",
+   "aliases": [
+    "verdant note",
+    "druid letter",
+    "mulgore druid quest note"
+   ],
+   "answer": "It is an introductory summons delivered to young tauren druids in Camp Narache. It instructs the bearer to seek out the local trainer, Gart Mistrunner, to begin structured training in the druidic arts."
+  },
+  {
+   "q": "Who delivers the note to the player?",
+   "aliases": [
+    "who gives verdant note",
+    "verdant note quest starter"
+   ],
+   "answer": "Rohaku Stonehoof hands the note to the young druid, mentioning that a messenger sent by Gart Mistrunner was recently searching for them."
+  },
+  {
+   "q": "Where can Gart Mistrunner be found?",
+   "aliases": [
+    "gart mistrunner location",
+    "where is gart"
+   ],
+   "answer": "Gart Mistrunner resides in Camp Narache, stationed under the shelter of the camp's natural bluffs where he oversees training for novice tauren druids."
+  },
+  {
+   "q": "Why does Gart Mistrunner warn against the night elves?",
+   "aliases": [
+    "tauren and night elf druids",
+    "night elf pride druid"
+   ],
+   "answer": "Although both races revere nature and practice druidism through the Cenarion Circle, Gart observes that night elf arrogance often colors their perception of other cultures. He encourages his student to ignore such attitudes and remain focused solely on the Earthmother's wisdom."
+  },
+  {
+   "q": "Why are the spirits in Mulgore restless?",
+   "aliases": [
+    "mulgore spirits restless",
+    "why are nature spirits angry"
+   ],
+   "answer": "Gart Mistrunner senses disturbances stirring ancestral and nature spirits throughout the plains of Mulgore, marking an early sign that balancing the wild will be the new druid's lifelong responsibility."
+  },
+  {
+   "q": "What ability does Gart teach next after completing this quest?",
+   "aliases": [
+    "what comes after verdant note",
+    "druid quest follow up"
+   ],
+   "answer": "After reporting to Gart Mistrunner, he directs the initiate toward learning Moonfire, beginning their mastery over primal celestial and natural magic."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, druidism is not merely a school of magic, but a sacred covenant inherited from their mythic devotion to the Earthmother."
+  },
+  {
+   "target": "class:Druid",
+   "text": "This summons represents a druid's earliest induction into channeling the wild energies and restless spirits of Azeroth."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Tauren druids represent the primary bridge between the modern Horde and the natural mysteries of Kalimdor, providing spiritual balance to the faction's raw martial strength."
+  }
+ ],
+ "keywords": [
+  "camp narache",
+  "druid",
+  "earthmother",
+  "gart mistrunner",
+  "mulgore",
+  "red cloud mesa",
+  "rohaku stonehoof",
+  "verdant note"
+ ],
+ "related": [
+  "npc:gart-mistrunner",
+  "npc:rohaku-stonehoof",
+  "subzone:camp-narache",
+  "zone:mulgore",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Verdant Note (quest)"
+ ]
+}

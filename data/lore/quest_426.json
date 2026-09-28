@@ -1,0 +1,121 @@
+{
+ "key": "quest:426",
+ "type": "quest",
+ "name": "The Mills Overrun",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   426
+  ],
+  "level": "8",
+  "faction": "Horde",
+  "start": "Deathguard Dillinger",
+  "end": "",
+  "previous": "A Putrid Task (Classic)",
+  "next": null,
+  "wiki": "The Mills Overrun (Classic)",
+  "chain": []
+ },
+ "summary": "Tasked by Deathguard Dillinger in Brill, this mission sends Forsaken soldiers to break the Scourge's foothold at the nearby Agamand Mills. Mindless undead gather among the ruined windmills, threatening to establish a forward base dangerously close to Tirisfal Glades' settlements. To halt this staging ground, recruits must shatter the ranks of skeletal soldiers and bonecasters.",
+ "sections": [
+  {
+   "title": "A Looming Threat on the Mills",
+   "body": "The Agamand Mills once anchored the agricultural heart of Tirisfal Glades, but in the wake of the Third War, their windmills overlook a far grimmer harvest. Scourge forces under the Lich King's thrall have begun massing on the grounds. If these mindless thralls successfully secure the mills, they will have an entrenched base of operations from which to push deeper into Tirisfal and strike directly at the fledgling Forsaken holdings.",
+   "spoiler": 0
+  },
+  {
+   "title": "Proof of Destruction",
+   "body": "Deathguard Dillinger wastes little time on sentiment. Tasked with fortifying Brill and policing the territory, Dillinger orders recruits to hunt down Rattlecage and Cracked Skull Soldiers alongside Darkeye Bonecasters. By demanding notched ribs and blackened skulls as proof of their destruction, Dillinger ensures the skeletal ranks are being physically battered apart, throwing the mindless remnants back toward the Plaguelands before their offensive can truly begin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the Scourge gathering at Agamand Mills?",
+   "aliases": [
+    "why agamand mills",
+    "scourge at the mills",
+    "why the mills"
+   ],
+   "answer": "The Scourge are attempting to establish a forward staging ground in western Tirisfal. If they entrench themselves at Agamand Mills, they can stage coordinated raids deeper into the glades and directly threaten nearby Forsaken settlements like Brill."
+  },
+  {
+   "q": "Who is Deathguard Dillinger?",
+   "aliases": [
+    "deathguard dillinger lore",
+    "who is dillinger",
+    "dillinger brill"
+   ],
+   "answer": "Deathguard Dillinger is a Forsaken sentry stationed in Brill. He coordinates tactical strikes against regional hazards in Tirisfal Glades, particularly the encroaching Scourge presence and hostile gnoll packs that threaten the road."
+  },
+  {
+   "q": "Where are the Agamand Mills located?",
+   "aliases": [
+    "where is agamand mills",
+    "mills location",
+    "how to get to the mills"
+   ],
+   "answer": "Agamand Mills sits north of the main western highway in Tirisfal Glades. Traveling west from Brill over the river bridge and following the north fork leads straight to the prominent ruined windmills."
+  },
+  {
+   "q": "Why does Dillinger want ribs and skulls?",
+   "aliases": [
+    "notched ribs blackened skulls",
+    "why ribs and skulls"
+   ],
+   "answer": "Dillinger requires tangible proof that the Scourge front line has been shattered. Bringing back notched ribs from the skeletal infantry and blackened skulls from the bonecasters guarantees the force has been battered and culled."
+  },
+  {
+   "q": "What is the relationship between the Forsaken and the Scourge here?",
+   "aliases": [
+    "forsaken vs scourge",
+    "why fight other undead"
+   ],
+   "answer": "The Forsaken are undead who broke free of the Lich King's mental domination. The Scourge remain mindless, obedient slaves bound to the Lich King's will, actively seeking to wipe out the Forsaken and reclaim Lordaeron for their master."
+  },
+  {
+   "q": "What happens after clearing these Scourge?",
+   "aliases": [
+    "what comes next",
+    "after the mills overrun"
+   ],
+   "answer": "Clearing the foot soldiers proves only an opening gambit against the infestation at Agamand Mills. Dillinger and the Deathguards continue pushing deeper into the mills to dismantle the lingering commanders and dark forces entrenched there."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, driving the Scourge out of Agamand Mills is deeply personal: it protects their new sovereign lands while crushing the mindless slaves of the Lich King who once held them in thrall."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Holding Tirisfal Glades is critical to securing the Horde's solitary foothold in northern Lordaeron, making the elimination of Scourge staging grounds a tactical priority."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Clashing with the armored skeletons at Agamand Mills serves as a brutal trial by combat against relentless enemies who feel no pain and give no quarter."
+  }
+ ],
+ "keywords": [
+  "agamand mills",
+  "blackened skulls",
+  "brill",
+  "darkeye bonecaster",
+  "deathguard dillinger",
+  "notched ribs",
+  "scourge",
+  "the mills overrun",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:agamand-mills",
+  "npc:deathguard-dillinger",
+  "subzone:brill",
+  "topic:scourge",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "The Mills Overrun (Classic)"
+ ]
+}

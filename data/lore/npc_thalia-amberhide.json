@@ -1,0 +1,74 @@
+{
+ "key": "npc:thalia-amberhide",
+ "type": "npc",
+ "name": "Thalia Amberhide",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Thalia Amberhide",
+  "refs": 1
+ },
+ "summary": "Thalia Amberhide is a tauren residing at Freewind Post in the jagged canyon of Thousand Needles. A loyal friend to her kin, she waits with mounting concern for the safe return of Lakota Windsong from the clutches of the Grimtotem clan.",
+ "sections": [
+  {
+   "title": "A Friend at the Post",
+   "body": "Perched atop the towering bluffs of Freewind Post, Thalia Amberhide is a quiet presence among the bustling tauren settlement. Her heart is heavy with worry for her close companion, Lakota Windsong, who was taken captive by Arnak Grimtotem and his treacherous kin. Thalia relies on passing Horde adventurers who brave the canyon depths to find Lakota, break her bonds, and guide her safely back up the lifts to the haven of the mesa.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Thalia Amberhide?",
+   "aliases": [
+    "thalia amberhide",
+    "who is thalia"
+   ],
+   "answer": "Thalia Amberhide is a tauren living at Freewind Post in Thousand Needles. She is a loyal friend to Lakota Windsong, another tauren who has run afoul of the treacherous Grimtotem clan."
+  },
+  {
+   "q": "Where can Thalia Amberhide be found?",
+   "aliases": [
+    "thalia location",
+    "where is thalia amberhide"
+   ],
+   "answer": "She can be found up on the high mesa of Freewind Post, located in the middle of Thousand Needles. Travelers must take the massive wooden elevators from the canyon floor to reach the settlement."
+  },
+  {
+   "q": "What is Thalia's connection to Lakota Windsong?",
+   "aliases": [
+    "thalia and lakota",
+    "who is lakota windsong"
+   ],
+   "answer": "Thalia is a close friend of Lakota Windsong. When Lakota is captured by Arnak Grimtotem, Thalia serves as the welcoming contact at Freewind Post once an adventurer successfully helps Lakota escape her captors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren travelers, aiding Thalia and rescuing Lakota strikes directly at the sinister treachery of the Grimtotem tribe, defending their fellow kin against clan discord."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Freewind Post is a crucial Horde waypoint in Thousand Needles, and helping Thalia Amberhide safeguards the settlement against Grimtotem aggression."
+  }
+ ],
+ "keywords": [
+  "arnak grimtotem",
+  "freewind post",
+  "grimtotem",
+  "lakota windsong",
+  "thalia amberhide",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:lakota-windsong",
+  "subzone:freewind-post",
+  "zone:thousandneedles",
+  "quest:4904",
+  "topic:tauren",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Thalia Amberhide"
+ ]
+}

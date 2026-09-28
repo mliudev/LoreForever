@@ -1,0 +1,123 @@
+{
+ "key": "npc:deathwing",
+ "type": "npc",
+ "name": "Deathwing",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Deathwing",
+  "refs": 4
+ },
+ "summary": "Deathwing the Destroyer, once known as Neltharion the Earth-Warder, is the fallen Dragon Aspect of the black dragonflight. Driven mad by the dark whispers of the Old Gods, he turned against the other Aspects and plunged the world into fire and turmoil. Though defeated near Grim Batol after the Second War and believed slain or hidden away, the terror of his legacy still haunts the deep places of Azeroth.",
+ "sections": [
+  {
+   "title": "The Fall of Neltharion",
+   "body": "Before he was known as the Destroyer, Neltharion was granted dominion over the earth and the subterranean vaults of Azeroth by the titan pantheon. Yet dwelling so close to the world's deepest chambers exposed him to the insidious whispers of the imprisoned Old Gods. During the ancient War of the Ancients, the madness took complete hold. He deceived the other Dragon Aspects into imbuing a golden disc, the Dragon Soul, with portions of their essence under the guise of halting the Burning Legion, only to turn the terrible weapon against his allies and unleash catastrophic devastation.",
+   "spoiler": 0
+  },
+  {
+   "title": "Scheme of the Human Lord",
+   "body": "Following the Second War, Deathwing sought to tear down mortal kingdoms from within. Taking the human identity of Lord Daval Prestor, a charismatic noble, he charmed King Terenas Menethil II and the high council of the Alliance of Lordaeron, plotting to install himself on the vacant throne of Alterac. Meanwhile, he aided the Dragonmaw clan at Grim Batol to keep Queen Alexstrasza enslaved while harvesting her clutches. His machinations unraveled when the four other Dragon Aspects rallied against him, shattering the Demon Soul and forcing the battered leviathan into hiding in the Elemental Plane.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Brood Left Behind",
+   "body": "In the present year, the mortal kingdoms largely assume Deathwing was destroyed or permanently driven from the world. However, the black dragonflight remains an active scourge across Azeroth. Led by his cunning brood, including his daughter Onyxia and son Nefarian, black drakes manipulate the politics of mortals and terrorize the landscape from mountain lairs. The scars of the black Aspect's ancient treachery run deep, and travelers wandering through craggy wastelands and deep subterranean tunnels still fear the stirring of the Great Dragon.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Deathwing originally?",
+   "aliases": [
+    "neltharion history",
+    "who is neltharion",
+    "earth warder origin"
+   ],
+   "answer": "Deathwing was originally Neltharion the Earth-Warder, the leader of the black dragonflight empowered by the titans to shepherd the land and mountains of Azeroth. Millennia ago, proximity to the deep earth made him vulnerable to the insidious whispers of the Old Gods, eroding his sanity."
+  },
+  {
+   "q": "Is Deathwing still alive?",
+   "aliases": [
+    "is deathwing dead",
+    "did deathwing survive",
+    "where is deathwing now"
+   ],
+   "answer": "Most mortal rulers and scholars believe Deathwing was killed or permanently neutralized after the battle of Grim Batol following the Second War. In truth, he was gravely wounded when the other Aspects confronted him, retreating into the Elemental Plane to recuperate."
+  },
+  {
+   "q": "What was the Dragon Soul?",
+   "aliases": [
+    "demon soul",
+    "what is the dragon soul",
+    "neltharion's artifact"
+   ],
+   "answer": "The Dragon Soul, later known as the Demon Soul, was a golden artifact forged by Neltharion during the War of the Ancients. He tricked the other four Aspects into channeling their powers into it, then turned the weapon's apocalyptic force against his fellow dragons and mortal defenders alike."
+  },
+  {
+   "q": "Who was Lord Daval Prestor?",
+   "aliases": [
+    "lord prestor",
+    "daval prestor identity",
+    "prestor lore"
+   ],
+   "answer": "Lord Daval Prestor was a human disguise adopted by Deathwing after the Second War. Through powerful charm magic and courtly deception, he attempted to claim the throne of Alterac and manipulate the Alliance of Lordaeron from within before his treachery was exposed."
+  },
+  {
+   "q": "What is Deathwing's connection to Grim Batol?",
+   "aliases": [
+    "deathwing grim batol",
+    "what happened at grim batol"
+   ],
+   "answer": "Deathwing covertly provided the Dragonmaw orcs with the Demon Soul at Grim Batol, ensuring the red dragon queen Alexstrasza remained chained and bred for war. Later, the remaining Aspects converged on Grim Batol, destroyed the artifact, and fought Deathwing in an epic aerial duel that drove him away."
+  },
+  {
+   "q": "Who leads the black dragonflight today?",
+   "aliases": [
+    "current black dragon leader",
+    "who leads black dragons",
+    "nefarian and onyxia"
+   ],
+   "answer": "With Deathwing absent and presumed dead, his primary scions operate independently. His daughter Onyxia weaves political intrigue among human courts, while his son Nefarian commands black dragons and experiments with dragonsblood high atop Blackrock Mountain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The nobility of the Alliance still shudders at how close Lord Daval Prestor came to seizing the crown of Alterac and manipulating the Council of Seven Nations to destroy the Alliance from within."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Old Horde made a wicked bargain with Deathwing during the Second War to secure red dragons via the Dragonmaw clan, a stain the new Horde seeks to leave in the past."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Kaldorei elders remember Neltharion's sudden, devastating betrayal ten thousand years ago during the War of the Ancients, an atrocity that broke dragonkind and sealed the doom of their ancient empire."
+  }
+ ],
+ "keywords": [
+  "aspect",
+  "black dragonflight",
+  "deathwing",
+  "demon soul",
+  "destroyer",
+  "dragon soul",
+  "earth-warder",
+  "grim batol",
+  "neltharion",
+  "prestor"
+ ],
+ "related": [
+  "topic:black-dragonflight",
+  "topic:war-of-the-ancients",
+  "subzone:grim-batol",
+  "topic:old-god",
+  "topic:elemental-plane",
+  "topic:alliance-of-lordaeron",
+  "topic:old-horde",
+  "topic:second-war"
+ ],
+ "attribution": [
+  "Deathwing"
+ ]
+}

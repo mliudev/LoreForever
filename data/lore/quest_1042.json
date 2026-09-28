@@ -1,0 +1,130 @@
+{
+ "key": "quest:1042",
+ "type": "quest",
+ "name": "The Carevin Family",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1042
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Clerk Daltry",
+  "end": "Jonathan Carevin",
+  "previous": "The Caravan Road",
+  "next": "The Scythe of Elune (Classic)",
+  "wiki": "The Carevin Family",
+  "chain": []
+ },
+ "summary": "The Carevin Family is a short Alliance investigation quest that connects the mystery of Velinde Starsong to the monster hunters of Duskwood. Guided by town records clerk Daltry, adventurers seeking the lost priestess turn to Jonathan Carevin, patriarch of a family dedicated to culling beasts and fiends.",
+ "sections": [
+  {
+   "title": "A Trail of Claws and Shadows",
+   "body": "Searching for Velinde Starsong leads away from the ancient forests of Kalimdor and deep into the haunted gloom of Duskwood. Upon arriving in Darkshire, municipal clerk Daltry finds no official log of an elven priestess ever boarding in town. However, mentioning the savage wolf-men she sought immediately catches his ear, as beasts fitting that description have recently begun terrorizing the surrounding woods.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hunters of the Night",
+   "body": "Rather than standard town guards, dealing with such unnatural terrors falls to the Carevin family. Renowned locally as relentless hunters of demons, undead, and other horrors, their tracker Calor recently dragged a grisly string of severed wolf-men heads right through Darkshire's streets. Clerk Daltry directs outsiders to Jonathan Carevin, the stern head of the household, to learn what the family knows of these ferocious worgen.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Cold Reception",
+   "body": "Approaching the patriarch of the Carevin household is no casual encounter. Beset by the relentless horrors consuming Duskwood, Jonathan Carevin treats any unannounced stranger probing into worgen with deep wariness. Before sharing what his hunters have discovered about the beasts, he demands to know who stands before him and why they seek things best left buried in the dark.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Jonathan Carevin?",
+   "aliases": [
+    "jonathan carevin",
+    "who is carevin",
+    "carevin family head"
+   ],
+   "answer": "Jonathan Carevin is the head of the Carevin household in Darkshire. He leads a family known throughout the blighted region as seasoned hunters specializing in tracking and slaying demons, undead, and monstrous beasts."
+  },
+  {
+   "q": "Why does Clerk Daltry direct you to the Carevin family?",
+   "aliases": [
+    "why see carevin",
+    "clerk daltry carevin",
+    "why go to jonathan"
+   ],
+   "answer": "While Clerk Daltry has no record of the missing night elf Velinde Starsong, he recognizes the description of the wolf-men she was tracking. The Carevins' tracker, Calor, recently brought severings of these creatures into Darkshire, making the family the town's premier experts on the monsters."
+  },
+  {
+   "q": "Who is Calor?",
+   "aliases": [
+    "calor",
+    "who is calor",
+    "carevin hunter calor"
+   ],
+   "answer": "Calor is a hunter and tracker allied with the Carevin family in Darkshire. He recently made a gruesome impression on the town by marching in with a string of severed worgen heads, proving that the wolf-men are active nearby."
+  },
+  {
+   "q": "How does this quest connect Ashenvale to Duskwood?",
+   "aliases": [
+    "velinde starsong connection",
+    "why duskwood",
+    "ashenvale to darkshire"
+   ],
+   "answer": "The quest chain originates in Ashenvale with the disappearance of Velinde Starsong and the mysterious appearance of the worgen. Tracking the caravan route leads from Kalimdor across the sea to Duskwood, where the same monstrous wolf-beasts have surfaced."
+  },
+  {
+   "q": "Why is Jonathan Carevin so suspicious of strangers?",
+   "aliases": [
+    "why carevin hostile",
+    "carevin suspicion"
+   ],
+   "answer": "Duskwood is thoroughly overrun by shadows, undead, and sinister forces, fostering deep paranoia among its surviving residents. When an unknown adventurer arrives suddenly inquiring about deadly worgen, Jonathan suspects ill intent until the traveler proves themselves."
+  },
+  {
+   "q": "What monsters do the Carevins specialize in fighting?",
+   "aliases": [
+    "carevin monsters",
+    "what do carevins hunt"
+   ],
+   "answer": "The Carevin family dedicates themselves to exterminating monstrous threats, primarily demons, undead, and bizarre aberrant beasts like the worgen that haunt Duskwood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Finding human monster hunters holding the severed heads of creatures tied to Velinde Starsong is an unsettling clue for night elves tracing the priestess's fateful journey."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The Carevin family represents a gritty, urban-adjacent cadre of beast hunters who specialize in purging unnatural fiends and cursed predators."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This leg of the investigation highlights how isolated and vigilant the Alliance settlements in Duskwood must remain in order to endure the blighted woods."
+  }
+ ],
+ "keywords": [
+  "calor",
+  "carevin",
+  "clerk daltry",
+  "darkshire",
+  "duskwood",
+  "jonathan carevin",
+  "velinde starsong",
+  "wolf-men",
+  "worgen"
+ ],
+ "related": [
+  "npc:jonathan-carevin",
+  "npc:clerk-daltry",
+  "npc:calor",
+  "quest:1041",
+  "subzone:darkshire",
+  "quest:1037",
+  "topic:worgen",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "The Carevin Family"
+ ]
+}

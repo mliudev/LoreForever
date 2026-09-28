@@ -1,0 +1,124 @@
+{
+ "key": "npc:jordan-stilwell",
+ "type": "npc",
+ "name": "Jordan Stilwell",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Jordan Stilwell",
+  "refs": 3
+ },
+ "summary": "Jordan Stilwell is a skilled human weaponsmith stationed outside the snowy Gates of Ironforge in Dun Morogh. Though originally called toward the priesthood of the Holy Light, he followed his father's craft to become an artisan whose work serves paladins across the Alliance. He is best known for forging Verigan's Fist in honor of his late friend, Bosch Verigan.",
+ "sections": [
+  {
+   "title": "A Calling at the Anvil",
+   "body": "Though Jordan Stilwell was expected to take holy vows and become a paladin within the Church of the Holy Light, he ultimately chose the way of the forge. He followed in his father's footsteps, taking up his father's enchanted smithing hammer. Jordan refined his craft under the tutelage of the dwarven blacksmith Bailor Stonehand. Despite setting aside the mantle of an anointed holy warrior, Jordan remains deeply faithful to the Light, dedicating his extraordinary craftsmanship to outfitting champions who fight in its name.",
+   "spoiler": 0
+  },
+  {
+   "title": "Flight from Silverpine",
+   "body": "Long before setting up shop in the biting cold of Dun Morogh, Jordan served as a smith at the keep of Baron Silverlaine in Silverpine Forest. When Archmage Arugal unleashed the feral worgen upon the fortress, turning it into the cursed bastion known as Shadowfang Keep, Jordan managed to escape the bloodshed. Forced to abandon his forge and his former home, he eventually found refuge among the dwarves of Dun Morogh.",
+   "spoiler": 0
+  },
+  {
+   "title": "Forging Verigan's Fist",
+   "body": "Jordan keeps his forge outdoors near the gates of Ironforge, favoring the brisk alpine air over the stifling heat of the Great Forge inside the mountain. When the Church of the Holy Light sends worthy paladins to him, Jordan tasks them with recovering rare materials from across the world to craft a legendary two-handed warhammer. Named Verigan's Fist after his fallen friend Bosch Verigan, the weapon stands as a testament to the enduring bond between devoted faith and masterful steel.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Jordan Stilwell?",
+   "aliases": [
+    "who is jordan stilwell",
+    "jordan stilwell lore",
+    "who is this blacksmith outside ironforge"
+   ],
+   "answer": "Jordan Stilwell is a master human blacksmith found working outside the Gates of Ironforge in Dun Morogh. He crafts sacred armaments for paladins of the Church of the Holy Light, most notably the legendary warhammer Verigan's Fist."
+  },
+  {
+   "q": "Why does Jordan Stilwell work outside in the snow instead of inside Ironforge?",
+   "aliases": [
+    "why is jordan outside ironforge",
+    "why work in dun morogh",
+    "why is he in the snow"
+   ],
+   "answer": "According to Duthorian Rall in Stormwind, Jordan prefers working in the crisp, cool mountain air of Dun Morogh rather than the stifling interior of the Great Forge within Ironforge."
+  },
+  {
+   "q": "What is Jordan Stilwell's connection to Shadowfang Keep?",
+   "aliases": [
+    "jordan stilwell shadowfang keep",
+    "jordan stilwell silverpine",
+    "did he live in pyrewood"
+   ],
+   "answer": "Jordan was once an armorer and blacksmith stationed at Baron Silverlaine's estate in Silverpine Forest. He managed to flee the keep before or during the disastrous uprising when Archmage Arugal and his feral worgen slaughtered the garrison and overtook the fortress."
+  },
+  {
+   "q": "What is Verigan's Fist?",
+   "aliases": [
+    "verigans fist",
+    "verigan hammer",
+    "who is verigan"
+   ],
+   "answer": "Verigan's Fist is a powerful two-handed holy hammer forged by Jordan Stilwell for Alliance paladins. It is named in memory of Jordan's close friend, Bosch Verigan, who perished in service to the Light."
+  },
+  {
+   "q": "Who trained Jordan Stilwell in blacksmithing?",
+   "aliases": [
+    "who trained jordan stilwell",
+    "jordan stilwell teacher",
+    "where did he learn smithing"
+   ],
+   "answer": "Jordan inherited his craft and an enchanted smithing hammer from his father, and went on to refine his expertise under the instruction of the dwarven blacksmith Bailor Stonehand."
+  },
+  {
+   "q": "Who is Jordan Stilwell's wife?",
+   "aliases": [
+    "jordan stilwell wife",
+    "daphne stilwell husband",
+    "daphne stilwell"
+   ],
+   "answer": "Jordan is married to Daphne Stilwell. Together, the couple has provided immense aid to the Church of the Holy Light over the years, and both are revered as deeply devout servants of the faith."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Jordan Stilwell is a crucial figure in a paladin's early trials, tasking them with scouring Azeroth for rare components to forge their signature warhammer, Verigan's Fist."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Trained by the dwarf Bailor Stonehand and wielding an enchanted hammer inherited from his father, Jordan represents the pinnacle of mortal holy metalworking."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Having fled the horrors of Arugal's worgen in Silverpine Forest, Jordan found sanctuary with the dwarves of Dun Morogh and now lends his craft directly to Alliance champions."
+  }
+ ],
+ "keywords": [
+  "bailor stonehand",
+  "bosch verigan",
+  "daphne stilwell",
+  "dun morogh",
+  "ironforge",
+  "jordan stilwell",
+  "shadowfang keep",
+  "tome of valor",
+  "verigan's fist",
+  "verigans fist"
+ ],
+ "related": [
+  "quest:1653",
+  "quest:1649",
+  "npc:duthorian-rall",
+  "npc:daphne-stilwell",
+  "npc:bailor-stonehand",
+  "zone:shadowfang",
+  "subzone:gates-of-ironforge",
+  "topic:church-of-the-holy-light"
+ ],
+ "attribution": [
+  "Jordan Stilwell"
+ ]
+}

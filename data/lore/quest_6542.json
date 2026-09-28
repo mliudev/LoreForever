@@ -1,0 +1,130 @@
+{
+ "key": "quest:6542",
+ "type": "quest",
+ "name": "Report to Kadrak",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   6542
+  ],
+  "level": "19",
+  "faction": "Horde",
+  "start": "Darn Talongrip",
+  "end": "Kadrak",
+  "previous": null,
+  "next": "The Warsong Reports",
+  "wiki": "Report to Kadrak (Stonetalon Mountains)",
+  "chain": [
+   "Report to Kadrak (Barrens)",
+   "Report to Kadrak (Stonetalon Mountains)",
+   "The Warsong Reports"
+  ]
+ },
+ "summary": "This military dispatch directs Horde warriors from Malaka'jin in the Stonetalon Mountains to Kadrak's watch post on the border of the northern Barrens. It marks the transition from defending the crags to reinforcing the Horde's contentious military campaign inside Ashenvale. By reporting to Kadrak, soldiers are marshaled to support forward encampments like Splintertree Post and the Zoram Strand.",
+ "sections": [
+  {
+   "title": "A Call to the Northern Front",
+   "body": "In the craggy pass of Malaka'jin, the tauren Darn Talongrip keeps an eye on the Horde's southern and mountain frontiers. Yet the greatest military pressure lies northward in the ancient forests of Ashenvale, where night elf sentinels clash incessantly with Warsong lumber gatherers. Recognizing blooded fighters passing through Stonetalon, Darn directs capable recruits toward the northern Barrens watch tower to assist with ongoing campaigns.",
+   "spoiler": 0
+  },
+  {
+   "title": "Kadrak's Watch",
+   "body": "Positioned squarely upon the northern threshold where the arid savannah meets the verdant canopy of Ashenvale, the orc Kadrak oversees Horde troop movement into contested territory. The Horde is aggressively securing its foothold, maintaining outposts at both the western Zoram Strand and Splintertree Post to the north. Kadrak serves as the vital junction for coordinating supplies, troops, and urgent reports across these embattled forest lines.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Kadrak from Stonetalon?",
+   "aliases": [
+    "quest giver report to kadrak",
+    "who starts report to kadrak stonetalon",
+    "darn talongrip quest"
+   ],
+   "answer": "Darn Talongrip, a tauren stationed at the Horde outpost of Malaka'jin in the Stonetalon Mountains, offers this dispatch to capable adventurers heading toward the forest border."
+  },
+  {
+   "q": "Where is Kadrak located?",
+   "aliases": [
+    "kadrak location",
+    "where is kadrak",
+    "find kadrak"
+   ],
+   "answer": "Kadrak is stationed at the northern watch tower in the Barrens, guarding the primary road that crosses northward into Ashenvale."
+  },
+  {
+   "q": "Why is the Horde recruiting warriors for Ashenvale?",
+   "aliases": [
+    "why go to ashenvale",
+    "horde ashenvale campaign",
+    "why fight in ashenvale"
+   ],
+   "answer": "The Horde needs lumber to sustain Orgrimmar and has established fortified positions such as the Zoram Strand and Splintertree Post. Because these efforts face intense resistance from the native night elves, commanders require constant reinforcements to secure the territory."
+  },
+  {
+   "q": "What happens after reporting to Kadrak?",
+   "aliases": [
+    "what next after kadrak",
+    "the warsong reports",
+    "kadrak follow up quest"
+   ],
+   "answer": "Kadrak will brief you on the strategic situation in Ashenvale and task you with delivering and collecting military reports across the forest's contested outposts via The Warsong Reports."
+  },
+  {
+   "q": "Is this quest different from the Barrens version?",
+   "aliases": [
+    "barrens vs stonetalon kadrak",
+    "two report to kadrak quests",
+    "kadrak breadcrumb duplicate"
+   ],
+   "answer": "Both are breadcrumb quests leading to Kadrak at the Ashenvale border. One is offered in the Barrens (at Crossroads) and this one in the Stonetalon Mountains; completing either one directs you into the Ashenvale storyline."
+  },
+  {
+   "q": "What is the Zoram Strand mentioned in the briefing?",
+   "aliases": [
+    "what is zoram strand",
+    "zoram strand outpost",
+    "ashenvale beach base"
+   ],
+   "answer": "The Zoram Strand is a coastal region in northwestern Ashenvale along the Veiled Sea. The Horde has established a fortified beach outpost there to support tactical movements and secure naval access."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This order integrates you into the Warchief's broader war effort, funneling frontier veterans into the active struggle for Ashenvale's resources."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The campaign in Ashenvale is crucial for the Warsong clan and the survival of Durotar, making Kadrak's post a proving ground for young orc warriors."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Tauren lookouts like Darn Talongrip guide travelers safely across the mountain borders, keeping the lines of communication open between bloodhoof lands and the Warchief's northern front."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "barrens",
+  "darn talongrip",
+  "kadrak",
+  "splintertree",
+  "stonetalon mountains",
+  "warsong reports",
+  "zoram strand"
+ ],
+ "related": [
+  "npc:kadrak",
+  "npc:darn-talongrip",
+  "quest:6543",
+  "zone:ashenvale",
+  "zone:stonetalon",
+  "subzone:zoram-strand",
+  "quest:6541",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Report to Kadrak (Stonetalon Mountains)"
+ ]
+}

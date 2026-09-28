@@ -1,0 +1,84 @@
+{
+ "key": "npc:alamar-grimm",
+ "type": "npc",
+ "name": "Alamar Grimm",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Alamar Grimm",
+  "refs": 1
+ },
+ "summary": "Alamar Grimm is a gnome warlock trainer stationed in Coldridge Valley at Anvilmar. Bitter over the tragic loss of Gnomeregan, he distrusts outsiders and focuses on teaching fledgling warlocks how to harness dark arts and summon their first demonic minions.",
+ "sections": [
+  {
+   "title": "A Bitter Exile",
+   "body": "While most gnomes in Coldridge Valley channel their energies into recovery and tinkering, Alamar Grimm harbors a deep resentment over the fall of Gnomeregan. He holds a cynical view of standard adventurers and even the host dwarves of Ironforge, grumbling that their allies care more about diplomacy with humans than reclaiming the fallen techno-city. Operating from Anvilmar, he seeks kindred spirits who understand that ruthless power may be what his people truly need.",
+   "spoiler": 0
+  },
+  {
+   "title": "Master of the Dark Arts",
+   "body": "To young gnomes walking the path of fel magic, Grimm serves as an initial guide. When presented with a tainted memorandum, he offers a rare warm reception and begins tutoring recruits in fundamental spells. Before granting a novice the dangerous knowledge required to bind a demonic imp, however, he demands proof of their magical and physical endurance by sending them to retrieve the strange feather charms carried by local Frostmane troll novices.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Alamar Grimm?",
+   "aliases": [
+    "alamar grimm",
+    "who is alamar",
+    "gnome warlock trainer anvilmar"
+   ],
+   "answer": "Alamar Grimm is a gnome warlock trainer located inside Anvilmar in Coldridge Valley. He trains starting gnomish warlocks in their foundational fel abilities and teaches them how to summon their first imp."
+  },
+  {
+   "q": "Why is Alamar Grimm angry at the dwarves?",
+   "aliases": [
+    "why does alamar hate dwarves",
+    "alamar dwarf opinion",
+    "why angry"
+   ],
+   "answer": "Alamar feels that despite sheltering the displaced gnomes, the dwarves of Ironforge do not truly prioritize the reclamation of Gnomeregan. He resents that dwarven interests seem tilted toward their alliance with humans rather than liberating his people's homeland."
+  },
+  {
+   "q": "What does Alamar Grimm ask new warlocks to do?",
+   "aliases": [
+    "alamar grimm imp quest",
+    "feather charms quest",
+    "frostmane charms warlock"
+   ],
+   "answer": "To prove they possess the stamina and magical capability to control a demon, Grimm instructs novice warlocks to hunt local Frostmane troll novices and gather their feather charms. Once brought back, he uses them to test the recruit before teaching the ritual to summon an imp."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "For gnome warlocks starting out in Coldridge Valley, Grimm provides your earliest spells and tasks you with proving your worth to earn your first imp minion."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Grimm exemplifies the quiet bitterness of exiles who feel abandoned by their allies while Gnomeregan remains in trogg hands."
+  }
+ ],
+ "keywords": [
+  "alamar",
+  "anvilmar",
+  "coldridge",
+  "gnomeregan",
+  "grimm",
+  "imp",
+  "trainer",
+  "warlock"
+ ],
+ "related": [
+  "subzone:anvilmar",
+  "zone:dunmorogh",
+  "zone:gnomeregan",
+  "topic:gnome",
+  "quest:1599",
+  "npc:sten-stoutarm"
+ ],
+ "attribution": [
+  "Alamar Grimm"
+ ]
+}

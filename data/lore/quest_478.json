@@ -1,0 +1,124 @@
+{
+ "key": "quest:478",
+ "type": "quest",
+ "name": "Maps and Runes",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   478
+  ],
+  "level": "14",
+  "faction": "Horde",
+  "start": "Dalaran Crate",
+  "end": "Shadow Priest Allister",
+  "previous": "Border Crossings",
+  "next": "Dalar's Analysis",
+  "wiki": "Maps and Runes",
+  "chain": []
+ },
+ "summary": "Maps and Runes is a Forsaken reconnaissance mission in Silverpine Forest. After discovering a suspicious shipment shipped toward Ambermill, adventurers recover a rune-inscribed pendant to deliver to Shadow Priest Allister at the Sepulcher for further investigation.",
+ "sections": [
+  {
+   "title": "A Hidden Cargo",
+   "body": "While intercepting logistics around Ambermill, Horde agents uncover a Dalaran crate concealed along the border routes. Rather than mundane supplies, the container holds detailed regional charts and an enigmatic, rune-inscribed pendant. Recognizing the potential danger of Dalaran's arcane reach so close to their borders, scouts carefully retrieve the artifact to avoid alarming the surrounding human sentries.",
+   "spoiler": 0
+  },
+  {
+   "title": "Whispers at the Sepulcher",
+   "body": "Returning to the Sepulcher, the recovered pendant is presented to Shadow Priest Allister. The Forsaken leadership recognizes that the Kirin Tor are operating within Ambermill with focused intent, yet the exact nature of their workings remains obscured. Unable to decipher the potent sorcery woven into the runes himself, Allister resolves to consult arcane experts among the undead to unravel Dalaran's plot.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Dalaran crate?",
+   "aliases": [
+    "what was in the crate",
+    "crate contents",
+    "dalaran crate loot"
+   ],
+   "answer": "The crate contains strategic maps of the Silverpine region and a strange rune-inscribed pendant. These items reveal that Dalaran's wizards are actively planning maneuvers around the town of Ambermill."
+  },
+  {
+   "q": "Who is Shadow Priest Allister?",
+   "aliases": [
+    "who is allister",
+    "shadow priest allister lore"
+   ],
+   "answer": "Shadow Priest Allister is a prominent Forsaken authority stationed at the Sepulcher. He oversees local intelligence gathering and coordinates defensive efforts against hostile human remnants and Kirin Tor operatives in Silverpine Forest."
+  },
+  {
+   "q": "Why are the Forsaken concerned about Dalaran in Ambermill?",
+   "aliases": [
+    "why ambermill matters",
+    "forsaken dalaran conflict"
+   ],
+   "answer": "Ambermill serves as an active foothold for the Kirin Tor right on the border of Lordaeron lands claimed by the Forsaken. Any mobilization of arcane relics or secretive troop movements poses an immediate threat to the Undercity's dominion over Silverpine."
+  },
+  {
+   "q": "Can Shadow Priest Allister decipher the pendant?",
+   "aliases": [
+    "does allister know the runes",
+    "can allister read the pendant"
+   ],
+   "answer": "No. While Allister recognizes that the artifact belongs to Dalaran sorcerers, its specific enchantments elude his priestly craft, prompting him to seek the aid of someone with deeper arcane mastery."
+  },
+  {
+   "q": "Where does this investigation lead next?",
+   "aliases": [
+    "what is the next quest",
+    "after maps and runes"
+   ],
+   "answer": "The investigation continues with Dalar's Analysis, where the pendant is passed along to Dalar Dawnweaver, an arcane specialist at the Sepulcher capable of breaking down Kirin Tor magic."
+  },
+  {
+   "q": "What quest leads up to Maps and Runes?",
+   "aliases": [
+    "prerequisite quest",
+    "maps and runes prereq"
+   ],
+   "answer": "This quest directly follows Border Crossings, in which the Forsaken assign an operative to inspect suspicious trade crates moving into Silverpine from the borders of Dalaran."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Dalaran's surviving wizards maintain outposts uncomfortably close to Undercity territory. Recovering their enchanted talismans is vital to safeguarding Forsaken sovereignty in Silverpine."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The rune-inscribed pendant displays signature Kirin Tor enchantment patterns, highlighting Dalaran's distinct tradition of shielding and arcane warding."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Though Shadow Priest Allister wields formidable shadow magic, divine and shadowy disciplines prove ill-suited for untangling the intricate arcane formulas carved into the pendant."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing Silverpine Forest from Alliance-aligned forces like the Kirin Tor ensures the Horde maintains a vital supply corridor across northern Lordaeron."
+  }
+ ],
+ "keywords": [
+  "ambermill",
+  "dalaran crate",
+  "kirin tor",
+  "maps and runes",
+  "rune-inscribed pendant",
+  "shadow priest allister",
+  "silverpine forest",
+  "the sepulcher"
+ ],
+ "related": [
+  "quest:477",
+  "quest:481",
+  "npc:shadow-priest-allister",
+  "subzone:sepulcher",
+  "subzone:ambermill",
+  "subzone:dalaran",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Maps and Runes"
+ ]
+}

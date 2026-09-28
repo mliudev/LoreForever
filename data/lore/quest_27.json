@@ -1,0 +1,112 @@
+{
+ "key": "quest:27",
+ "type": "quest",
+ "name": "A Lesson to Learn",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   27
+  ],
+  "level": "16",
+  "faction": "Alliance",
+  "start": "Mathrengyl Bearwalker",
+  "end": "Dendrite Starblaze",
+  "previous": null,
+  "next": "Trial of the Lake",
+  "wiki": "A Lesson to Learn (Alliance)",
+  "chain": []
+ },
+ "summary": "\"A Lesson to Learn\" is an early rite of passage for Alliance druids training in Darnassus. Offered by Mathrengyl Bearwalker, it directs initiates to travel to the sacred haven of Moonglade to begin mastering their aquatic aspect.",
+ "sections": [
+  {
+   "title": "The Call of the Wild",
+   "body": "Mathrengyl Bearwalker watches over young night elf druids practicing their craft within the boughs of Darnassus. Once an initiate demonstrates a steadfast bond with nature and the will to shoulder greater responsibility, Mathrengyl bids them prepare for their next major discipline: the mastery of the waters. The gifts bestowed by Cenarius demand rigorous focus, and the ability to traverse depths without drowning requires direct communion with the elders of the Cenarion Circle.",
+   "spoiler": 0
+  },
+  {
+   "title": "Journey to Nighthaven",
+   "body": "To proceed, the initiate must depart Darnassus and journey to Moonglade, the ancient sanctuary tucked beneath Mount Hyjal. Within the tranquil settlement of Nighthaven, Dendrite Starblaze awaits. Serving as an elder mentor of the Circle, Starblaze evaluates whether young shapeshifters are ready to take on the trials required to unlock the aquatic form, warning them that mastery over water demands both physical resilience and mental resolve.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me on this quest?",
+   "aliases": [
+    "quest giver",
+    "who gives a lesson to learn",
+    "who starts this"
+   ],
+   "answer": "Mathrengyl Bearwalker, the druid trainer residing in the Cenarion Enclave within Darnassus, gives this quest once you have grown sufficiently in your early druidic arts."
+  },
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do this quest",
+    "aquatic form intro",
+    "what do i get"
+   ],
+   "answer": "It serves as the opening step for druids seeking to earn their aquatic form. It summons the initiate to Moonglade to receive instruction and trials from elder Dendrite Starblaze."
+  },
+  {
+   "q": "Where is Dendrite Starblaze located?",
+   "aliases": [
+    "dendrite location",
+    "where is dendrite starblaze",
+    "find dendrite"
+   ],
+   "answer": "Dendrite Starblaze resides in the village of Nighthaven, nestled along the northern shores of Lake Elune'ara in Moonglade."
+  },
+  {
+   "q": "How do druids reach Moonglade for this quest?",
+   "aliases": [
+    "how to get to moonglade",
+    "getting to nighthaven"
+   ],
+   "answer": "Druids possess a spiritual attunement that allows them to teleport directly to the sacred grove of Moonglade using their Teleport: Moonglade ability, bypassing conventional overland routes."
+  },
+  {
+   "q": "What comes after speaking to Dendrite Starblaze?",
+   "aliases": [
+    "next quest",
+    "what's next",
+    "after a lesson to learn"
+   ],
+   "answer": "Upon completing your audience with Dendrite Starblaze, he immediately tasks you with the Trial of the Lake to test your endurance and clarity beneath the water."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This quest marks an important milestone in a druid's training, opening the path to communing with Cenarius's gifts beneath the waves."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei of Darnassus, answering the call of the Cenarion Circle in Moonglade is a revered tradition that connects them to their ancient teachers."
+  }
+ ],
+ "keywords": [
+  "a lesson to learn",
+  "aquatic form",
+  "darnassus",
+  "dendrite starblaze",
+  "druid quest",
+  "mathrengyl bearwalker",
+  "moonglade",
+  "nighthaven"
+ ],
+ "related": [
+  "npc:mathrengyl-bearwalker",
+  "npc:dendrite-starblaze",
+  "subzone:nighthaven",
+  "quest:5921",
+  "quest:31",
+  "topic:cenarion-circle",
+  "topic:cenarius",
+  "topic:druid"
+ ],
+ "attribution": [
+  "A Lesson to Learn (Alliance)"
+ ]
+}

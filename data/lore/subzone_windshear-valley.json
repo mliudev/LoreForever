@@ -1,0 +1,68 @@
+{
+ "key": "subzone:windshear-valley",
+ "type": "subzone",
+ "name": "Windshear Valley",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Windshear Valley"
+ },
+ "summary": "Windshear Valley is a rugged depression nestled within Windshear Crag in the central Stonetalon Mountains. In this era, the valley remains an untamed wilderness dominated by predatory spiders, roaming thunder lizards, and hardy mountain beasts rather than military encampments.",
+ "sections": [
+  {
+   "title": "A Wild Valley",
+   "body": "Tucked away among the slopes of Windshear Crag, Windshear Valley represents the wild, unsettled heart of the Stonetalon Mountains. While nearby logging operations and conflicts between the Alliance, the Horde, and the Venture Company draw blood across the crags, this valley remains largely left to nature. Dangerous deepmoss creepers spin webs between craggy stone outcrops, while thunder lizards stalk the scrubland, making it a hazardous route for solitary travelers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures live in Windshear Valley?",
+   "aliases": [
+    "windshear valley mobs",
+    "monsters in windshear valley",
+    "what is here"
+   ],
+   "answer": "The valley is primarily home to venomous spiders such as deepmoss creepers, thunder lizards, and hardy Stonetalon rams that graze upon the rocky heights."
+  },
+  {
+   "q": "Is Windshear Valley controlled by the Alliance or the Horde?",
+   "aliases": [
+    "who controls windshear valley",
+    "alliance in windshear valley",
+    "horde presence"
+   ],
+   "answer": "Neither faction holds a fortified presence within Windshear Valley itself. It remains an untamed wilderness, though both factions operate camps and patrols across the broader region of Stonetalon Mountains."
+  },
+  {
+   "q": "How does Windshear Valley relate to Windshear Crag?",
+   "aliases": [
+    "is this windshear crag",
+    "windshear crag connection"
+   ],
+   "answer": "Windshear Valley is a lower, forested depression situated directly within the larger region known as Windshear Crag."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The valley's rugged beasts, from tough thunder lizards to mountain rams, make it a natural training ground for trackers and beastmasters passing through Stonetalon."
+  }
+ ],
+ "keywords": [
+  "rams",
+  "spiders",
+  "stonetalon",
+  "thunder lizards",
+  "windshear crag",
+  "windshear valley"
+ ],
+ "related": [
+  "subzone:windshear-crag",
+  "zone:stonetalon",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Windshear Valley"
+ ]
+}

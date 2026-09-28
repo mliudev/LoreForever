@@ -1,0 +1,131 @@
+{
+ "key": "quest:1110",
+ "type": "quest",
+ "name": "Rocket Car Parts",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1110
+  ],
+  "level": "31",
+  "faction": null,
+  "start": "",
+  "end": "",
+  "previous": "",
+  "next": "",
+  "wiki": "Rocket Car Parts (quest)",
+  "chain": [
+   "Kravel Koalbeard",
+   "Mirage Raceway",
+   "Thousand Needles"
+  ]
+ },
+ "summary": "Rocket Car Parts is an errand undertaken for the opportunistic dwarf merchant Kravel Koalbeard on the blinding salt pans of the Shimmering Flats. Rather than letting the violently scattered debris of high-speed racer crashes go to waste, Koalbeard pays wanderers to comb the desert floor and recover wrecked mechanisms to resell directly to the rival gnome and goblin pit crews.",
+ "sections": [
+  {
+   "title": "Debris on the Salt Flats",
+   "body": "The Shimmering Flats serve as the proving ground for the fierce technological rivalry between goblin and gnomish engineers. High-velocity experimental rocket cars routinely suffer catastrophic malfunctions, leaving twisted gears, cylinders, and jagged sheets of metal scattered wide across the vast white desert. While the pit crews focus solely on building and tuning the next machine, the desert floor has quietly become a scrap yard of experimental engineering.",
+   "spoiler": 0
+  },
+  {
+   "title": "Koalbeard's Salvage Enterprise",
+   "body": "Rather than competing directly on the track, the dwarf entrepreneur Kravel Koalbeard recognized a lucrative middleman opportunity at the Mirage Raceway. Gnome and goblin mechanics burn through parts at a furious pace and are constantly desperate for spare mechanisms to slap onto their vehicles. Koalbeard hires travelers to gather thirty bundles of shattered debris, turning devastating crashes into fresh inventory and neatly profiting off the drivers' misfortunes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kravel Koalbeard?",
+   "aliases": [
+    "kravel koalbeard",
+    "who gives rocket car parts",
+    "raceway dwarf"
+   ],
+   "answer": "Kravel Koalbeard is a shrewd dwarf merchant stationed at the Mirage Raceway in the Shimmering Flats. He runs various entrepreneurial schemes around the track, primarily focusing on scavenging, odd jobs, and turning the rivalries of gnomes and goblins into personal profit."
+  },
+  {
+   "q": "Why are there so many rocket car parts scattered on the ground?",
+   "aliases": [
+    "why are there car parts in the desert",
+    "shimmering flats debris",
+    "broken rocket cars"
+   ],
+   "answer": "The Mirage Raceway is an active testing and racing track where goblin and gnomish engineers push experimental rocket vehicles to dangerous limits. Violent wrecks and sudden explosions happen regularly across the salt pans, throwing structural fragments, gears, and cylinders across the expanse."
+  },
+  {
+   "q": "What does Kravel do with the wrecked parts?",
+   "aliases": [
+    "what does kravel want with parts",
+    "why collect car parts"
+   ],
+   "answer": "Koalbeard cleans up the collected scrap and pawns it straight back to the gnomish and goblin race teams. The crews constantly burn through materials and are eager to buy back whatever contraptions and metal scraps they can bolt onto their next prototypes."
+  },
+  {
+   "q": "Where are these parts located?",
+   "aliases": [
+    "where to find rocket car parts",
+    "parts locations",
+    "car parts shimmering flats"
+   ],
+   "answer": "The parts lie scattered throughout the open desert floor across the Shimmering Flats, surrounding the central racing camp. They appear as discarded mechanical scrap heaps, twisted gears, cylinders, and flattened metal plates."
+  },
+  {
+   "q": "Does this quest tie into other tasks around the raceway?",
+   "aliases": [
+    "raceway quests",
+    "shimmering flats hunting quests",
+    "quests to do with rocket car parts"
+   ],
+   "answer": "Yes. Scavenging the flats pairs naturally with culling local wildlife for other raceway patrons, such as gathering venom from scorpid stingers, harvesting turtle shells, and thinning out the local buzzards and basilisks while traversing the wide salt pans."
+  },
+  {
+   "q": "What happens to the drivers involved in these wrecks?",
+   "aliases": [
+    "do drivers survive crashes",
+    "squashed ear",
+    "pilot deaths raceway"
+   ],
+   "answer": "Rocket car racing is notoriously lethal. When sorting through the salvaged scrap, Koalbeard casually notices a severed ear crushed between metal plates, highlighting the grim reality that many pilots do not walk away from high-speed test runs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Combing the salt flats reveals the reckless ingenuity of rival goblin and gnomish designs, where unstable rocket boosters and improvised chassis frequently end in spectacular structural failures."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "While many Ironforge dwarves look to the raceway for mechanical innovation or excavation, Kravel Koalbeard embodies a thoroughly mercenary streak, interested strictly in the coin salvage operations bring."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Recovering these parts highlights the relentless, if occasionally disastrous, drive of gnomish engineers attempting to outpace and out-innovate their goblin competitors on the open track."
+  }
+ ],
+ "keywords": [
+  "crashes",
+  "gnome",
+  "goblin",
+  "kravel koalbeard",
+  "mirage raceway",
+  "rocket car parts",
+  "salvage",
+  "scrap",
+  "shimmering flats",
+  "thousand needles"
+ ],
+ "related": [
+  "subzone:mirage-raceway",
+  "subzone:shimmering-flats",
+  "npc:kravel-koalbeard",
+  "zone:thousandneedles",
+  "quest:1104",
+  "quest:1105",
+  "quest:1176",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Rocket Car Parts (quest)"
+ ]
+}

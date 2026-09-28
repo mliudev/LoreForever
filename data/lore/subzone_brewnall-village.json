@@ -1,0 +1,87 @@
+{
+ "key": "subzone:brewnall-village",
+ "type": "subzone",
+ "name": "Brewnall Village",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Brewnall Village"
+ },
+ "summary": "Brewnall Village is a small dwarven settlement nestled in Chill Breeze Valley near the entrance to Gnomeregan. Established by the Barleybrew family, this outpost serves as a proving ground for bold brewing experiments and regional defense against wild beasts. Despite being called a village, it functions largely as a rustic encampment in the snowy gnomish lowlands of Dun Morogh.",
+ "sections": [
+  {
+   "title": "A Bitter Brew in the Valley",
+   "body": "Tucked away in the snowdrifts of Chill Breeze Valley, Brewnall Village lies squarely within the traditional gnomish reaches of western Dun Morogh. The settlement is home to the Barleybrew clan, stalwart dwarven brewers devoted to perfecting age-old recipes and crafting the ultimate stout. Though dubbed a village, the outpost consists mostly of tents and outdoor brewing equipment rather than permanent stone architecture. Between testing experimental batches of ale and defending against the ferocious local wolves and bears, the Barleybrews rely heavily on wandering mountaineers to gather rare ingredients and keep the valley secure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Brewnall Village?",
+   "aliases": [
+    "where is brewnall",
+    "what is brewnall village",
+    "brewnall info"
+   ],
+   "answer": "Brewnall Village is a small dwarven camp located in Chill Breeze Valley within western Dun Morogh, just east of Gnomeregan. It serves as an outpost where the Barleybrew clan experiments with new beer recipes and manages local wildlife threats."
+  },
+  {
+   "q": "Why is it called a village if there are no buildings?",
+   "aliases": [
+    "why is it a camp",
+    "where are the houses",
+    "brewnall buildings"
+   ],
+   "answer": "Despite carrying the name village, the site is essentially an open-air encampment made up of tents and supply kegs. The Barleybrews have staked out their brewing operation here in the cold climate without building formal stone houses."
+  },
+  {
+   "q": "Why is a dwarven settlement located in gnomish territory?",
+   "aliases": [
+    "dwarves near gnomeregan",
+    "why are dwarves here",
+    "gnome territory dwarf camp"
+   ],
+   "answer": "While the western half of Dun Morogh surrounds Gnomeregan and is primarily inhabited by gnomes, the close alliance between Ironforge and the gnomes makes shared settlement common. The Barleybrews settled here in Chill Breeze Valley to pursue their craft undisturbed."
+  },
+  {
+   "q": "What problems do the residents face?",
+   "aliases": [
+    "brewnall quests",
+    "what do the barleybrews need",
+    "village problems"
+   ],
+   "answer": "The encampment faces frequent attacks from the valley's aggressive wildlife, particularly crag boars, bears, and frost wolves. Additionally, the Barleybrews are constantly searching for rare and exotic ingredients to invent new, superior brews."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, the Barleybrews' quest for the ultimate recipe is an honorable pursuit that upholds one of Ironforge's finest traditions."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Situated close to Gnomeregan, the village is an unexpected dwarven outpost deep within western Dun Morogh's gnomish valleys."
+  }
+ ],
+ "keywords": [
+  "barleybrew",
+  "beer",
+  "brewnall",
+  "chill breeze valley",
+  "dun morogh",
+  "gnomeregan",
+  "stout"
+ ],
+ "related": [
+  "subzone:chill-breeze-valley",
+  "quest:315",
+  "quest:319",
+  "zone:dunmorogh",
+  "zone:gnomeregan",
+  "topic:gnome",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Brewnall Village"
+ ]
+}

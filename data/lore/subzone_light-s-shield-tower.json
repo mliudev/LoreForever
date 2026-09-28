@@ -1,0 +1,66 @@
+{
+ "key": "subzone:light-s-shield-tower",
+ "type": "subzone",
+ "name": "Light's Shield Tower",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Light's Shield Tower"
+ },
+ "summary": "Light's Shield Tower is an fortified watchtower standing near the blighted ruins of Corin's Crossing in the Eastern Plaguelands. Rising above the tainted ground, it serves as a defensive bulwark in a realm perpetually contested by the dead.",
+ "sections": [
+  {
+   "title": "A Beacon in the Blight",
+   "body": "Situated near the cursed settlement of Corin's Crossing, Light's Shield Tower looms over a broken landscape overrun by Scourge abominations and lingering horrors. Like many fortifications erected throughout the Plaguelands, towers of this design provide scouts, sentinels, and crusade forces with elevated vantage points and defensible strongholds amidst the choking mist of death.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Light's Shield Tower located?",
+   "aliases": [
+    "tower location",
+    "where is lights shield tower"
+   ],
+   "answer": "Light's Shield Tower is located in the Eastern Plaguelands, positioned near the plagued ruins of Corin's Crossing."
+  },
+  {
+   "q": "Why are there watchtowers built across the Eastern Plaguelands?",
+   "aliases": [
+    "why watchtowers",
+    "plaguelands towers purpose"
+   ],
+   "answer": "Towers across the Plaguelands serve as vital strategic lookout posts and strongholds, allowing living scouts and defenders to monitor the relentless movements of the Scourge and secure safe perimeters against the undead."
+  },
+  {
+   "q": "What threats surround the tower?",
+   "aliases": [
+    "threats nearby",
+    "what attacks here"
+   ],
+   "answer": "The tower is encircled by the blighted wilderness of the Eastern Plaguelands, specifically the infested streets and shambling horrors haunting nearby Corin's Crossing."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For knights of the holy light, fortified towers standing amid the Plaguelands represent crucial footholds where prayers and steel challenge the domain of the Scourge."
+  }
+ ],
+ "keywords": [
+  "corin's crossing",
+  "eastern plaguelands",
+  "light's shield tower",
+  "lights shield tower",
+  "scourge",
+  "tower"
+ ],
+ "related": [
+  "subzone:corin-s-crossing",
+  "zone:easternplaguelands",
+  "topic:light"
+ ],
+ "attribution": [
+  "Light's Shield Tower"
+ ]
+}

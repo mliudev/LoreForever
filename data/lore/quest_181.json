@@ -1,0 +1,123 @@
+{
+ "key": "quest:181",
+ "type": "quest",
+ "name": "Look To The Stars",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   181
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Viktori Prism'Antras",
+  "end": "",
+  "previous": "Look To The Stars (3)",
+  "next": null,
+  "wiki": "Look To The Stars (4)",
+  "chain": [
+   "Look To The Stars (Classic)",
+   "Look To The Stars (2)",
+   "Look To The Stars (3)",
+   "Look To The Stars (4)"
+  ]
+ },
+ "summary": "This quest marks the final chapter in Viktori Prism'Antras's endeavor to assemble a stargazing device atop Darkshire's town hall. With the telescope structure otherwise built, Viktori sends travelers to the dangerous Vul'Gol Ogre Mound to retrieve a lens large enough for his contraption: a monocle worn by the ogre Zzarc'Vul.",
+ "sections": [
+  {
+   "title": "The Final Piece",
+   "body": "Throughout the construction of his stargazing telescope, Viktori Prism'Antras has relied on plans drafted by the gnome engineer Cogglesteel. While brass tubes and sturdy mountings could be scavenged or assembled from local supplies, the apparatus required an exceptionally massive focusing lens. Standard magnifying glasses and optical components from Stormwind traders simply lacked the diameter called for by Cog's ambitious design, leading Viktori to look toward an unlikely and perilous alternative.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ogre's Eyepiece",
+   "body": "In the shadow of the southern hills lies the Vul'Gol Ogre Mound, an encampment swarming with hostile brute-kin. Among them dwells Zzarc'Vul, a singular ogre known for wearing a glass monocle large enough to serve as the observatory lens. Striking deep into the mound and taking the eyepiece from Zzarc'Vul fulfills Cog's schematics, allowing Viktori to finish his telescope and peer into the heavens above the shadowed canopy of Duskwood.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Viktori Prism'Antras?",
+   "aliases": [
+    "who is viktori",
+    "viktori prism'antras"
+   ],
+   "answer": "Viktori Prism'Antras is an astronomer and scholar stationed on the roof of the town hall in Darkshire. Despite the gloom shrouding Duskwood, he remains dedicated to completing his observatory telescope to study the stars."
+  },
+  {
+   "q": "Where can I find Zzarc'Vul?",
+   "aliases": [
+    "zzarc'vul location",
+    "where is the ogre",
+    "ogre monocle location"
+   ],
+   "answer": "Zzarc'Vul resides in the southern reaches of Duskwood within the Vul'Gol Ogre Mound. He prowls around the mound's camp and cave network, requiring searchers to navigate through heavily guarded ogre territory to find him."
+  },
+  {
+   "q": "Why does an ogre possess a monocle?",
+   "aliases": [
+    "why ogre monocle",
+    "ogre's monocle lore"
+   ],
+   "answer": "While ogres are not widely celebrated for their academic pursuits or fine optics, Zzarc'Vul carries an oversized monocle. Its unusual proportions make it the only lens in the region massive enough to fit Cog's telescope plans."
+  },
+  {
+   "q": "What happens once the device is completed?",
+   "aliases": [
+    "telescope finished",
+    "quest conclusion"
+   ],
+   "answer": "Securing the monocle allows Viktori to fit the final optic into place. With the telescope fully assembled, Viktori can resume his astronomical studies unobstructed by the bleak forest ground below."
+  },
+  {
+   "q": "Who designed the telescope?",
+   "aliases": [
+    "cog blueprints",
+    "who built telescope"
+   ],
+   "answer": "The blueprints for the device were provided by an engineer named Cog, whose complex design called for specialized parts, metal framing, and a lens far larger than standard dwarven or gnomish spectacles."
+  },
+  {
+   "q": "Is Vul'Gol Ogre Mound safe to enter alone?",
+   "aliases": [
+    "vul'gol difficulty",
+    "ogre mound safe"
+   ],
+   "answer": "No. The Vul'Gol Ogre Mound is densely populated by hostile ogres that often patrol in packs or guard narrow paths. Venturing deep into the mound to locate Zzarc'Vul poses significant danger to solitary travelers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Darkshire clings to fragile survival against horrors and beasts, making Viktori's pursuit of celestial knowledge an enduring, if eccentric, beacon of civilian perseverance."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "The contraption relies on schematics drawn up by gnomish craftsmanship, demanding ingenious field improvisations like converting brute eyewear into precision optics."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Mages and tinkers alike appreciate the audacity of substituting a massive ogre monocle to satisfy the focal requirements of an astronomical lens."
+  }
+ ],
+ "keywords": [
+  "cog",
+  "darkshire",
+  "look to the stars",
+  "monocle",
+  "telescope",
+  "viktori prism'antras",
+  "vul'gol ogre mound",
+  "zzarc'vul"
+ ],
+ "related": [
+  "npc:viktori-prism-antras",
+  "subzone:vul-gol-ogre-mound",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "quest:174"
+ ],
+ "attribution": [
+  "Look To The Stars (4)"
+ ]
+}

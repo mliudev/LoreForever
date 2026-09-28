@@ -1,0 +1,98 @@
+{
+ "key": "subzone:bilgewater-harbor",
+ "type": "subzone",
+ "name": "Bilgewater Harbor",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Bilgewater Harbor"
+ },
+ "summary": "Bilgewater Harbor is an artificial port city built along the rugged coast of Azshara by the goblins of the Bilgewater Cartel. Rapidly assembled as both an industrial shipyard and a bustling den of vice, it serves as a chaotic naval staging point for the Horde.",
+ "sections": [
+  {
+   "title": "A City Built Overnight",
+   "body": "Erected with staggering speed using modular goblin engineering, Bilgewater Harbor transformed Azshara's shoreline into a dizzying metropolis of docks, oil rigs, and entertainment dens. Following their perilous exodus from the isle of Kezan, the Bilgewater Cartel claimed this coastal foothold, re-creating the sensory overload of their lost home. Beneath towering cranes and billowing smokestacks, the port bustles with mercenary crews, slick vendors, and mechanics striving to outfit the Horde with modern naval war machines.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vice and Gunpowder",
+   "body": "The harbor is divided by a sharp contrast in purpose. One half functions as a fortified military naval base, launching ships and zeppelins under strict Horde oversight, while the civilian quarter explodes with gambling halls, cut-rate luxuries, and unrestricted commerce. This divide often sparks frustration among allied orc overseers, who struggle to impose discipline on a population that treats hazardous ordnance and lawless debauchery as everyday routine.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Bilgewater Harbor?",
+   "aliases": [
+    "who runs bilgewater harbor",
+    "bilgewater leadership",
+    "who rules here"
+   ],
+   "answer": "The harbor is governed by the Bilgewater Cartel under the authority of the Horde. While goblin cartel bosses manage the docks, trade concessions, and civilian sectors, Horde commanders oversee military operations and naval logistics."
+  },
+  {
+   "q": "Why was the harbor built so quickly?",
+   "aliases": [
+    "how did bilgewater harbor get built",
+    "city in a box"
+   ],
+   "answer": "The Bilgewater Cartel utilized prefabricated goblin construction techniques\u2014often joked about as a 'city-in-a-box'\u2014alongside aggressive excavation to assemble the entire port and its industrial works in record time after escaping Kezan."
+  },
+  {
+   "q": "What role does the harbor play in the Horde?",
+   "aliases": [
+    "why is bilgewater important to the horde",
+    "horde naval base azshara"
+   ],
+   "answer": "Bilgewater Harbor serves as a primary coastal outlet and industrial shipyard for the Horde in central Kalimdor. It manufactures munitions, repairs vessels, and launches naval expeditions directly into the Great Sea."
+  },
+  {
+   "q": "Why are orc commanders frustrated with the harbor?",
+   "aliases": [
+    "orc goblin tension",
+    "military discipline bilgewater"
+   ],
+   "answer": "Orc commanders tasked with securing the port constantly battle the cartel's unruly culture. Gambling houses, cheap liquor, and lack of regulation make enforcing military discipline difficult among both goblin workers and stationed troops."
+  },
+  {
+   "q": "What is the massive cannon pointed out to sea?",
+   "aliases": [
+    "big cannon bilgewater",
+    "gallywix pride cannon"
+   ],
+   "answer": "Mounted high above the harbor is Gallywix's Pride, a colossal artillery piece overlooking the ocean. Inside the control complex, targeting scopes are famously aimed across the Great Sea directly toward the human capital of Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The harbor grants the Horde industrial shipbuilding and naval power on Kalimdor's eastern shore, though commanders must contend with the chaotic vices of its goblin builders."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The port is an epicenter of unorthodox goblin machinery, explosive design, and mass-scale mechanical ingenuity operating without regulatory oversight."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "bay of storms",
+  "bilgewater cartel",
+  "bilgewater harbor",
+  "gallywix",
+  "goblin port",
+  "horde navy"
+ ],
+ "related": [
+  "zone:azshara",
+  "topic:goblin",
+  "topic:horde",
+  "zone:orgrimmar",
+  "subzone:bay-of-storms",
+  "subzone:southern-rocketway-terminus",
+  "subzone:valormok",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Bilgewater Harbor"
+ ]
+}

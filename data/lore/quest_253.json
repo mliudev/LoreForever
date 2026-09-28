@@ -1,0 +1,126 @@
+{
+ "key": "quest:253",
+ "type": "quest",
+ "name": "Bride of the Embalmer",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   253
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Lord Ello Ebonlocke",
+  "end": "",
+  "previous": "Translation to Ello",
+  "next": null,
+  "wiki": "Bride of the Embalmer",
+  "chain": []
+ },
+ "summary": "\"Bride of the Embalmer\" is a perilous task assigned by Lord Ello Ebonlocke in Darkshire. Having pieced together the disturbing truth behind the legendary Embalmer, town leadership sends you into the haunted cemeteries of Duskwood to find his resurrected wife's resting place. By tearing the alchemist's living heart from Eliza's cursed remains, you aim to strip him of his unholy power.",
+ "sections": [
+  {
+   "title": "A Bedtime Story Come Alive",
+   "body": "For years, parents in Duskwood told their frightened children the tale of the Embalmer. According to the folktale, he was once a kindly alchemist whose mind shattered following the tragic demise of his beloved wife, Eliza. Desperate to cheat mortality, he turned to foul sorceries and took the ultimate sacrifice: carving out his own beating heart and placing it into his wife's chest. Lord Ello Ebonlocke long dismissed this as mere village folklore, but recent revelations have proven that the Embalmer walks among them, his foul handiwork festering beneath the graveyard dirt.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Resurrected Bride",
+   "body": "The ritual succeeded in restoring Eliza to animation, but dark necromancy always demands a harrowing toll. Revived by the stolen spark of life, Eliza transformed into a ravenous abomination cursed with an insatiable hunger for living human flesh. Horrified and unwilling to destroy his creation, the Embalmer was forced to conceal his bride away in a lonely grave, visiting her in secret while plotting further depravities. To disarm the necromancer, Lord Ebonlocke directs brave souls to exhume Eliza, strike down the flesh-craving horror, and reclaim the still-pulsing organ that sustains his dark art.",
+   "spoiler": 1
+  },
+  {
+   "title": "Darkshire's Aegis",
+   "body": "When you tear the beating heart from Eliza's decomposing breast and carry it back to Darkshire, Lord Ebonlocke breathes a sigh of relief. Far from simply destroying it, the town mayor intends to turn the alchemist's dark craft against him. He believes the eldritch magic lingering within the heart will serve as a defensive talisman and aegis over Darkshire, shielding the beleaguered town from whatever wrath the weakened Embalmer might still summon in vengeance.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the Embalmer?",
+   "aliases": [
+    "embalmer lore",
+    "who is the embalmer",
+    "embalmer backstory"
+   ],
+   "answer": "The Embalmer was originally an alchemist in Duskwood who went mad after his wife Eliza died. Turning to necromantic arts, he cut out his own living heart and placed it inside Eliza's corpse to resurrect her, transforming himself into an elusive monster."
+  },
+  {
+   "q": "Why was Eliza buried if she was brought back to life?",
+   "aliases": [
+    "why is eliza buried",
+    "eliza grave",
+    "why keep eliza in a grave"
+   ],
+   "answer": "Although the alchemist successfully revived Eliza using his own heart, the dark magic cursed her with an insatiable hunger for living human flesh. Unable to keep her safely in society or quench her feral appetite, he was forced to keep her buried in a cemetery."
+  },
+  {
+   "q": "Why does Lord Ebonlocke want the Embalmer's Heart?",
+   "aliases": [
+    "why get the heart",
+    "embalmer heart purpose"
+   ],
+   "answer": "The heart contains the source of the Embalmer's supernatural power. Lord Ebonlocke believes that seizing the beating organ will shatter the necromancer's strength and allow Darkshire to use its foul sorcery as a protective ward against his evil."
+  },
+  {
+   "q": "Where does this quest chain begin?",
+   "aliases": [
+    "quest prerequisite",
+    "how to get bride of the embalmer",
+    "embalmer prequest"
+   ],
+   "answer": "The quest follows directly from 'Translation to Ello', wherein old letters and research are delivered to Lord Ello Ebonlocke, proving that the Embalmer of local nursery tales is an active and dangerous reality."
+  },
+  {
+   "q": "Does retrieving the heart defeat the Embalmer permanently?",
+   "aliases": [
+    "is the embalmer dead",
+    "does this kill the embalmer"
+   ],
+   "answer": "No. Stripping Eliza of the Embalmer's heart breaks the magical conduit of his power, but the Embalmer himself remains at large in Duskwood, plotting retribution against Darkshire for desecrating his beloved's resting place."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "who starts bride of the embalmer"
+   ],
+   "answer": "Lord Ello Ebonlocke, the mayor and leader of Darkshire, gives the quest from the Darkshire Town Hall after learning the chilling truth behind the town's folklore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Paladins view Eliza's foul reanimation as an affront to the Light and natural law, gladly purging the flesh-eating horror and severing the necromancer's blasphemous lifeline."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests recognize the tragedy behind a grieving widower fallen to dark arts, but know Eliza's flesh-hungry mockery of life must be laid to rest with holy finality."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "With the Night Watch stretched thin fighting the feral terrors of Duskwood, an Alliance champion must step in to defend Darkshire from this ancient, creeping madness."
+  }
+ ],
+ "keywords": [
+  "alchemist",
+  "bride of the embalmer",
+  "darkshire",
+  "duskwood",
+  "eliza",
+  "ello ebonlocke",
+  "embalmer's heart",
+  "grave",
+  "the embalmer"
+ ],
+ "related": [
+  "npc:lord-ello-ebonlocke",
+  "quest:252",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "quest:938"
+ ],
+ "attribution": [
+  "Bride of the Embalmer"
+ ]
+}

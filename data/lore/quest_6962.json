@@ -1,0 +1,114 @@
+{
+ "key": "quest:6962",
+ "type": "quest",
+ "name": "Treats for Great-father Winter",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   6962
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Great-father Winter",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Treats for Great-father Winter",
+  "chain": []
+ },
+ "summary": "Treats for Great-father Winter is a festive holiday request offered during the Feast of Winter Veil in Orgrimmar. The jolly figurehead seated at the Smokywood Pastures display finds himself exhausted after hearing holiday wishes and asks a helpful adventurer for fresh gingerbread cookies and milk.",
+ "sections": [
+  {
+   "title": "A Weary Patron of Winter",
+   "body": "While Greatfather Winter embodies the mythical spirit of winter and abundance across Azeroth, the figure greeting visitors in the Valley of Strength is a hardworking performer employed by Smokywood Pastures. Sitting through long shifts listening to hopeful citizens talk about festive goodies tends to work up an appetite. Tired of simply talking about seasonal treats, the Greatfather gladly enlists passing travelers to satisfy his craving for warm baking and a cold beverage.",
+   "spoiler": 0
+  },
+  {
+   "title": "Culinary Holiday Spirit",
+   "body": "Satisfying the Greatfather's request requires a touch of home cooking. Adventurers must acquire holiday spices sold directly by the goblin peddlers of Smokywood Pastures, forage small eggs from wild birds across the wilderness, and bake classic gingerbread cookies. Paired with a pitcher of ice cold milk purchased from a local tavern, the modest offering rewards the baker with festive cheer and a small token of gratitude from the feast's organizers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Greatfather Winter in Orgrimmar?",
+   "aliases": [
+    "who is great father winter",
+    "orgrimmar greatfather winter",
+    "is he the real winter father"
+   ],
+   "answer": "He is an actor hired by Smokywood Pastures to portray the legendary Greatfather Winter during the Feast of Winter Veil. Seated near their holiday trade display in the Valley of Strength, he greets the citizens of the Horde, listens to festive requests, and promotes seasonal merriment."
+  },
+  {
+   "q": "What treats does Greatfather Winter ask for?",
+   "aliases": [
+    "what does he want",
+    "treats requested",
+    "what cookies does he need"
+   ],
+   "answer": "Greatfather Winter asks for five freshly baked Gingerbread Cookies and a single serving of Ice Cold Milk to help him get through a long, tiring day of greeting holiday visitors."
+  },
+  {
+   "q": "How do you make Gingerbread Cookies?",
+   "aliases": [
+    "how to get gingerbread cookies",
+    "gingerbread cookie recipe",
+    "cookie ingredients"
+   ],
+   "answer": "The recipe and festive spices are sold by Smokywood Pastures vendors stationed around the holiday display. Bakers combine Holiday Spices with Small Eggs gathered from wild birds, then prepare the cookies over a cooking fire."
+  },
+  {
+   "q": "Where can Ice Cold Milk be found?",
+   "aliases": [
+    "where to get ice cold milk",
+    "buy milk",
+    "milk vendor"
+   ],
+   "answer": "Ice Cold Milk can be purchased from virtually any food and drink vendor, innkeeper, or barkeep throughout Orgrimmar and other major settlements."
+  },
+  {
+   "q": "Why is Greatfather Winter asking for food himself?",
+   "aliases": [
+    "why does he want treats",
+    "is greatfather winter hungry"
+   ],
+   "answer": "Listening to children and citizens chatter about food, gifts, and festivities all day leaves the performer thoroughly hungry. Since he cannot easily abandon his post in the Valley of Strength, he asks passing adventurers to bring him a quick snack."
+  },
+  {
+   "q": "Does this quest have an Alliance counterpart?",
+   "aliases": [
+    "alliance version",
+    "ironforge treats"
+   ],
+   "answer": "Yes. An identical request is made by the Greatfather Winter stationed in Ironforge, who similarly asks Alliance champions for gingerbread cookies and cold milk during the festival."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "This holiday tradition offers apprentice chefs an easy opportunity to practice simple baking, turning wild eggs and seasonal spices into festive gingerbread."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Brought to Orgrimmar by the entrepreneurial goblins of Smokywood Pastures, the feast introduces a rare moment of lighthearted domestic cheer to the rugged warrior city."
+  }
+ ],
+ "keywords": [
+  "gingerbread cookie",
+  "greatfather winter",
+  "holiday spices",
+  "ice cold milk",
+  "orgrimmar",
+  "smokywood pastures",
+  "treats for great-father winter",
+  "winter veil"
+ ],
+ "related": [
+  "npc:greatfather-winter",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Treats for Great-father Winter"
+ ]
+}

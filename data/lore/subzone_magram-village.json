@@ -1,0 +1,77 @@
+{
+ "key": "subzone:magram-village",
+ "type": "subzone",
+ "name": "Magram Village",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Magram Village"
+ },
+ "summary": "Magram Village is the settlement of the Magram centaur clan, situated among foul yellow pools in southeastern Desolace. It serves as the primary base for the Magram as they wage relentless war against their hated rivals, the Gelkis.",
+ "sections": [
+  {
+   "title": "A Stronghold in the Mire",
+   "body": "Sprawled across islands and shores around stagnant, sulfurous pools in southeast Desolace, Magram Village is a rugged settlement cobbled together with crude wooden bridges and hide tents. The Magram centaur dwell here in constant vigilance against neighboring clans. Known for their sheer brutality and deep-seated animosity toward the southern Gelkis clan, the Magram are willing to tolerate outsiders only if those travelers prove their worth by slaughtering their Gelkis enemies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives in Magram Village?",
+   "aliases": [
+    "who is here",
+    "magram residents",
+    "centaur village"
+   ],
+   "answer": "The village is home to the Magram clan, one of several warring centaur tribes native to Desolace. They live under crude hide canopies on islands connected by rough footbridges."
+  },
+  {
+   "q": "Can I enter Magram Village without being attacked?",
+   "aliases": [
+    "are magram friendly",
+    "magram hostile",
+    "how to visit magram village"
+   ],
+   "answer": "Initially, the Magram centaur are hostile to all outsiders. However, travelers can earn their trust by hunting down and killing their sworn enemies, the Gelkis centaur, to raise standing with the clan."
+  },
+  {
+   "q": "Why are the pools around the village yellow?",
+   "aliases": [
+    "yellow water",
+    "polluted pools",
+    "magram water"
+   ],
+   "answer": "The pools in and around the village are tainted with sulfur and mineral runoff typical of the barren wastes of Desolace, leaving them stagnant, discolored, and polluted."
+  },
+  {
+   "q": "Why are the Magram fighting the Gelkis?",
+   "aliases": [
+    "magram vs gelkis",
+    "centaur blood feud",
+    "centaur war"
+   ],
+   "answer": "The centaur clans of Desolace share a legendary, bloodthirsty rivalry. The Magram and Gelkis clans in particular have waged a bitter war for dominance over the southern reaches of the wasteland for generations."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Centaur savagery has plagued the tribes of Kalimdor for generations, making any settlement of these nomadic marauders an unsettling reminder of past bloodshed."
+  }
+ ],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "gelkis",
+  "magram",
+  "magram village",
+  "pools"
+ ],
+ "related": [
+  "topic:centaur",
+  "zone:desolace"
+ ],
+ "attribution": [
+  "Magram Village"
+ ]
+}

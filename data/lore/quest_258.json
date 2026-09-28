@@ -1,0 +1,127 @@
+{
+ "key": "quest:258",
+ "type": "quest",
+ "name": "A Hunter's Challenge",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   258
+  ],
+  "level": "17",
+  "faction": "Alliance",
+  "start": "Daryl the Youngling",
+  "end": "",
+  "previous": "A Hunter's Boast",
+  "next": "Vyrin's Revenge",
+  "wiki": "A Hunter's Challenge",
+  "chain": [
+   "A Hunter's Boast",
+   "A Hunter's Challenge",
+   "Vyrin's Revenge",
+   "Vyrin's Revenge (2)"
+  ]
+ },
+ "summary": "A Hunter's Challenge is a timed hunting trial issued by the brash dwarf Daryl the Youngling at Farstrider Lodge in southeastern Loch Modan. Annoyed by his own inability to belittle your previous success, Daryl wagers the shirt off his back that you cannot track and fell five elder mountain boars within twelve minutes. The task tests an adventurer's swiftness against the rugged terrain and dangerous wildlife of the highlands.",
+ "sections": [
+  {
+   "title": "A Youth's Boast",
+   "body": "Daryl the Youngling resides among the seasoned huntsmen of Farstrider Lodge, yet he carries none of their quiet patience. Instead, Daryl compensates for his lack of years with bluster and exaggerated hunting tales, including rambling yarns about how he earned his 'famous' scar. Unwilling to acknowledge anyone else's competence, he continuously botches his fellow hunters' names and devises strict trials meant to humble newcomers and restore his own inflated standing among the lodge's residents.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Highland Hunt",
+   "body": "Unlike the simpler boars of Coldridge Valley where fledgling dwarven scouts first learn their trade, the elder mountain boars wandering the crags and hillsides of Loch Modan are massive, thick-skinned, and dangerous when provoked. Daryl gives hunters a mere twelve minutes to locate, dispatch, and confirm the kill of five such beasts. Completing the hunt swiftly enough forces the loudmouthed youngster into an awkward retreat, feigning ignorance of the extravagant wager he so casually made.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Daryl the Youngling?",
+   "aliases": [
+    "who is daryl",
+    "daryl youngling lore",
+    "farstrider lodge daryl"
+   ],
+   "answer": "Daryl is a young, boastful dwarven huntsman living at Farstrider Lodge in southeastern Loch Modan. Desperate to appear as formidable as the older veterans around him, he incessantly talks up his own prowess, invents grand tales, and challenges passing adventurers to difficult hunting trials."
+  },
+  {
+   "q": "Where are the elder mountain boars located?",
+   "aliases": [
+    "elder mountain boar location",
+    "where to find boars",
+    "boar hunt area"
+   ],
+   "answer": "Elder mountain boars roam the foothills, meadows, and ridges surrounding Farstrider Lodge and the southern and eastern expanses of Loch Modan. They can be found grazing throughout the rolling high ground between the lodge and the central loch."
+  },
+  {
+   "q": "Why is this hunt timed?",
+   "aliases": [
+    "why twelve minutes",
+    "why is it timed",
+    "hunter challenge timer"
+   ],
+   "answer": "Daryl limits the hunt to twelve minutes because he fully expects you to fail. By setting a tight deadline, he hopes to embarrass you and prove that your earlier hunting accomplishments were nothing more than beginner's luck."
+  },
+  {
+   "q": "What bet did Daryl make?",
+   "aliases": [
+    "daryl's bet",
+    "shirt off his back",
+    "what did daryl wager"
+   ],
+   "answer": "While explaining the trial, Daryl boldly proclaimed he would give you the very shirt off his back if you managed to slay the five elder mountain boars in time. Naturally, upon your triumphant return, he quickly pretends to have no recollection of any such wager."
+  },
+  {
+   "q": "How does this compare to Coldridge Valley boars?",
+   "aliases": [
+    "coldridge boars vs mountain boars",
+    "coldridge comparison"
+   ],
+   "answer": "Daryl specifically points out that these elder mountain boars are far tougher and more aggressive than the small, tame boars novice dwarves hunt in Coldridge Valley. Loch Modan's mature boars possess thicker hides and dangerous tusks honed on highland granite."
+  },
+  {
+   "q": "Where does this hunting chain lead next?",
+   "aliases": [
+    "what quest is next",
+    "after a hunters challenge",
+    "hunting questline"
+   ],
+   "answer": "Once you silence Daryl's boasting by finishing his challenge, attention at the lodge shifts toward more serious business, leading into a confrontation with the dangerous elder bear Ol' Sooty in the quest Vyrin's Revenge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For tracking specialists, tracking five elder mountain boars through the highland brush within a strict time window offers a classic test of quarry management and rapid dispatch."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Any dwarf who came up through Coldridge Valley will recognize Daryl's comparison immediately, though tolerating his patronizing attitude is harder to stomach."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Farstrider Lodge serves as an essential staging ground for Alliance woodsmen protecting the eastern border of Loch Modan against wild beasts and highland threats."
+  }
+ ],
+ "keywords": [
+  "boar",
+  "coldridge",
+  "daryl",
+  "elder mountain boar",
+  "farstrider lodge",
+  "hunting",
+  "loch modan",
+  "youngling"
+ ],
+ "related": [
+  "npc:daryl-the-youngling",
+  "subzone:farstrider-lodge",
+  "quest:257",
+  "zone:lochmodan",
+  "subzone:coldridge-valley"
+ ],
+ "attribution": [
+  "A Hunter's Challenge"
+ ]
+}

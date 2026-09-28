@@ -1,0 +1,111 @@
+{
+ "key": "quest:8360",
+ "type": "quest",
+ "name": "Dancing for Marzipan",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   8360
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Innkeeper Pala",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Dancing for Marzipan (Horde)",
+  "chain": []
+ },
+ "summary": "Dancing for Marzipan is a festive Hallow's End quest offered by Innkeeper Pala in Thunder Bluff. To gather a sweet treat for a sick orphan, adventurers must put aside their battle-hardened dignity and perform a joyful dance for the innkeeper. It highlights the playful, community-focused spirit of the holiday even high upon the windswept mesas of Mulgore.",
+ "sections": [
+  {
+   "title": "A Dance on the Bluff",
+   "body": "During the autumn festival of Hallow's End, spirits run high across Azeroth, even in the serene heights of Thunder Bluff. Innkeeper Pala, overseeing the hospitality of the high mesas, gets into the festive spirit by demanding a trick before handing out any treats. Even when an adventurer arrives on behalf of an ailing child, tradition holds firm: Pala insists on seeing some festive dancing before parting with her prized Thunder Bluff Marzipan.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tricks for Treats",
+   "body": "The holiday custom of exchanging amusement for confections brings out a rare, lighthearted side of Horde culture. Pala's request requires nothing more than stepping forward, shaking loose the road weariness, and busting out your best moves. Upon being thoroughly entertained, the innkeeper gladly surrenders the marzipan and offers her warm wishes for the sick youth awaiting the treat.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of Dancing for Marzipan?",
+   "aliases": [
+    "why dance for marzipan",
+    "marzipan quest goal",
+    "dancing for marzipan objective"
+   ],
+   "answer": "The quest tasks you with performing a dance emote for Innkeeper Pala in Thunder Bluff. In return, she gives you a piece of Thunder Bluff Marzipan, which is part of a broader collection of holiday treats gathered for a sick orphan during Hallow's End."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "who starts dancing for marzipan",
+    "pala quest",
+    "innkeeper pala thunder bluff"
+   ],
+   "answer": "Innkeeper Pala, the tauren innkeeper serving visitors and locals within Thunder Bluff, offers this quest during the Hallow's End holiday."
+  },
+  {
+   "q": "Why does Pala insist on a dance if the candy is for a sick child?",
+   "aliases": [
+    "why do i have to dance",
+    "why does pala want a dance"
+   ],
+   "answer": "Pala emphasizes that holiday traditions must be respected, even for noble errands. In the spirit of trick-or-treating, one must perform a trick to earn the sweet reward, ensuring that Hallow's End remains joyous and lively."
+  },
+  {
+   "q": "What reward do you receive for dancing?",
+   "aliases": [
+    "marzipan reward",
+    "dancing for marzipan item"
+   ],
+   "answer": "You receive a piece of Thunder Bluff Marzipan, a local festive confection required to complete the overarching Hallow's End treat collection for the sick child."
+  },
+  {
+   "q": "Can Alliance players complete this quest?",
+   "aliases": [
+    "is this horde only",
+    "alliance dancing for marzipan"
+   ],
+   "answer": "No. Innkeeper Pala is a Horde vendor residing in the heart of Thunder Bluff, making this specific stop on the holiday treat run accessible only to members of the Horde."
+  },
+  {
+   "q": "When is this quest available?",
+   "aliases": [
+    "when can i get marzipan",
+    "hallows end marzipan quest"
+   ],
+   "answer": "This quest is only available during the annual autumn holiday of Hallow's End, when innkeepers across Azeroth offer special confectionery and festive games."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Innkeeper Pala brings traditional holiday cheer straight to Mulgore, proving that even towering, stoic tauren can enjoy a good dance for a sweet cause."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "A lighter moment in the Horde's harsh daily struggles, showing the faction's heart as travelers roam across capital cities to bring holiday joy to an orphan."
+  }
+ ],
+ "keywords": [
+  "dancing for marzipan",
+  "hallow's end",
+  "innkeeper pala",
+  "marzipan",
+  "mulgore",
+  "thunder bluff",
+  "trick-or-treat"
+ ],
+ "related": [
+  "npc:innkeeper-pala",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Dancing for Marzipan (Horde)"
+ ]
+}

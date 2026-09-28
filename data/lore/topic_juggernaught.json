@@ -1,0 +1,121 @@
+{
+ "key": "topic:juggernaught",
+ "type": "topic",
+ "name": "Juggernaught",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Juggernaught"
+ },
+ "summary": "A Juggernaught is an enormous, heavily armored battleship bristling with heavy naval cannons. Originally engineered by ogres to serve as the iron core of the Old Horde's fleet during the Second War, these floating fortresses were built to pulverize coastal strongholds and trade routes. Today, Edwin VanCleef and the Defias Brotherhood have secretly constructed their own juggernaught deep within the Deadmines, plotting a devastating naval strike against Stormwind.",
+ "sections": [
+  {
+   "title": "Terror of the Second War",
+   "body": "Orcs were not traditionally a seafaring culture, so when the Horde required a fleet capable of crossing the Great Sea and contesting the Alliance's naval superiority during the Second War, they relied heavily on ogre ingenuity. The resulting craft\u2014the ogre juggernaught\u2014became the backbone of the Horde armada. Though vastly slower and less nimble than swift troll destroyers, these behemoths carried immense plating and devastating broadside batteries that could shatter Alliance hulls and smash shore fortifications to rubble.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ironclad Cove",
+   "body": "Hidden beneath the hills of Westfall, deep within the subterranean caverns of the Deadmines, lies Ironclad Cove. There, secluded away from prying eyes and royal inspectors, Edwin VanCleef's craftsmen labored secretly to construct a fully armed juggernaught. By assembling a heavy warship in an underground cavern connected directly to the open sea, the Defias planned to bypass Stormwind's overland defenses and launch a surprise naval strike right into the heart of the kingdom.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a juggernaught?",
+   "aliases": [
+    "juggernaut warcraft",
+    "orc battleship",
+    "ogre juggernaut"
+   ],
+   "answer": "A juggernaught is a massive, heavily armored naval battleship armed with heavy bombardment cannons. Developed originally by the Horde with ogre aid during the Second War, it functions as a floating fortress built to overpower enemy fleets and shatter coastal defenses."
+  },
+  {
+   "q": "Why is there a huge ship inside the Deadmines?",
+   "aliases": [
+    "ship in deadmines",
+    "why boat in mines",
+    "deadmines ship"
+   ],
+   "answer": "Edwin VanCleef and the Defias Brotherhood used the secluded cavern of Ironclad Cove inside the Deadmines as a hidden shipyard. Constructing the juggernaught underground kept it safe from Alliance patrols until it was fully fitted out and ready to sail through an underwater passage out to sea."
+  },
+  {
+   "q": "What did Edwin VanCleef intend to do with the ship?",
+   "aliases": [
+    "vancleef boat plan",
+    "why did defias build a ship",
+    "defias juggernaught purpose"
+   ],
+   "answer": "VanCleef constructed the juggernaught as the ultimate instrument of vengeance against Stormwind's nobility. With its heavy cannons, the ship was intended to sail directly into Stormwind Harbor and bombard the city into submission."
+  },
+  {
+   "q": "Who originally invented the juggernaught?",
+   "aliases": [
+    "who made juggernauts",
+    "ogre ships lore",
+    "horde navy origin"
+   ],
+   "answer": "Juggernaughts were designed and built by ogres for the Old Horde during the Second War. Because the orcs were unaccustomed to naval warfare, ogre shipwrights designed massive, brute-force vessels capable of carrying heavy iron armor and siege-grade cannons."
+  },
+  {
+   "q": "How does the ship get out of the Deadmines cavern?",
+   "aliases": [
+    "how does deadmines ship leave",
+    "ironclad cove exit",
+    "deadmines water exit"
+   ],
+   "answer": "Ironclad Cove connects to the open waters of the Great Sea through a concealed coastal channel along the rocky shores of Westfall, permitting the warship to sail directly out into the ocean once completed."
+  },
+  {
+   "q": "Does the Horde still use juggernaughts?",
+   "aliases": [
+    "modern horde juggernauts",
+    "horde battleships"
+   ],
+   "answer": "While the modern Horde under Warchief Thrall focuses heavily on rebuilding land settlements across Kalimdor, orcish naval forces still recognize and employ juggernaught-class battleships when heavy firepower and armored transport are required across oceanic supply routes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The discovery of a finished juggernaught beneath Westfall exposes a grave threat to the safety of Stormwind Harbor and King Anduin's court."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Juggernaughts represent a storied chapter of the Horde's naval heritage from the Second War, proving that raw brute engineering could contest Alliance mastery of the seas."
+  },
+  {
+   "target": "race:Human",
+   "text": "Stormwind's rebuilders, betrayed and turned outlaw under VanCleef, applied their finest architectural and stonework skills into assembling a monstrous warship to burn the very kingdom they rebuilt."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The juggernaught in the Deadmines represents the ultimate audacity of Edwin VanCleef\u2014crafting a capital battleship right beneath the noses of SI:7 and the Stormwind guard."
+  }
+ ],
+ "keywords": [
+  "battleship",
+  "deadmines",
+  "defias",
+  "ironclad cove",
+  "juggernaught",
+  "juggernaut",
+  "ogre juggernaught",
+  "ship",
+  "stormwind",
+  "vancleef"
+ ],
+ "related": [
+  "subzone:ironclad-cove",
+  "zone:deadmines",
+  "npc:edwin-vancleef",
+  "topic:defias-brotherhood",
+  "zone:stormwind",
+  "topic:second-war",
+  "topic:horde",
+  "quest:65"
+ ],
+ "attribution": [
+  "Juggernaught"
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "key": "npc:raleigh-andrean",
+ "type": "npc",
+ "name": "Raleigh Andrean",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Raleigh Andrean",
+  "refs": 2
+ },
+ "summary": "Raleigh Andrean is a Forsaken resident found lingering in the Trade Quarter of the Undercity. Once a living citizen of Lordaeron, he exemplifies the cold, twisted detachment common among the undead, caring little for the loss of his wife but fiercely desiring retribution against the friend who murdered her.",
+ "sections": [
+  {
+   "title": "A Bitter Afterlife",
+   "body": "Before the Third War devastated Lordaeron, Raleigh Andrean lived an ordinary human life, married to a woman named Deliah and keeping company with his friend Valdred Moray. Like countless others, he fell when the Scourge tore through the kingdom, only to be raised as a mindless thrall in service to the Lich King. He regained his free will following the shattering of the Ner'zhul's grip and Sylvanas Windrunner's uprising, taking his place among the Forsaken in the Undercity.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vengeance over Grief",
+   "body": "When presented with his late wife's wedding ring, Raleigh displays the callous emotional decay of undeath. He harbors no sorrow or lingering love for Deliah, coldly dismissing her death. Instead, his focus fixates entirely on spite: he demands the severed hands of Valdred Moray, his former friend who murdered her. Raleigh keeps the gruesome trophies not out of affection for Deliah, but as an eternal memento of betrayal, rewarding whoever aids him with a ring forged of pure scorn.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Raleigh Andrean located?",
+   "aliases": [
+    "raleigh andrean location",
+    "where is raleigh",
+    "find raleigh andrean"
+   ],
+   "answer": "Raleigh Andrean resides within the bustling Trade Quarter of the Undercity, standing among the subterranean city's Forsaken populace."
+  },
+  {
+   "q": "Who was Raleigh when he was alive?",
+   "aliases": [
+    "raleigh backstory",
+    "who was raleigh",
+    "raleigh andrean lore"
+   ],
+   "answer": "In life, Raleigh was a mortal resident of the kingdom of Lordaeron. He was married to a woman named Deliah and shared a friendship with a man named Valdred Moray before the Scourge swept through the realm."
+  },
+  {
+   "q": "Why does Raleigh want revenge on Valdred Moray?",
+   "aliases": [
+    "why kill valdred",
+    "raleigh wife",
+    "valdred moray murder"
+   ],
+   "answer": "Valdred Moray murdered Raleigh's wife, Deliah. While Raleigh no longer feels love or grief for his deceased spouse due to his undead state, he remains driven by bitter fury over his former friend's treacherous betrayal."
+  },
+  {
+   "q": "How did Raleigh become free from the Scourge?",
+   "aliases": [
+    "how did raleigh become forsaken",
+    "raleigh scourge freedom"
+   ],
+   "answer": "Raleigh was slain and raised into servitude by the Scourge during the Third War. When the Lich King's control slipped following attacks on the Frozen Throne, Sylvanas Windrunner led an uprising, freeing Raleigh and many others to form the Forsaken."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Raleigh is a grim reflection of Forsaken reality: undeath strips away warmth and grief, leaving behind only the cold embers of spite, vengeance, and lingering hatred toward those who betrayed them in life."
+  }
+ ],
+ "keywords": [
+  "a husband's revenge",
+  "deliah",
+  "forsaken",
+  "raleigh andrean",
+  "ring of scorn",
+  "trade quarter",
+  "undercity",
+  "valdred moray"
+ ],
+ "related": [
+  "quest:530",
+  "quest:441",
+  "zone:undercity",
+  "subzone:trade-quarter",
+  "topic:forsaken",
+  "topic:scourge",
+  "topic:lordaeron",
+  "topic:lich-king"
+ ],
+ "attribution": [
+  "Raleigh Andrean"
+ ]
+}

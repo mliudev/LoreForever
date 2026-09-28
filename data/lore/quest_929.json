@@ -1,0 +1,118 @@
+{
+ "key": "quest:929",
+ "type": "quest",
+ "name": "Crown of the Earth",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   929
+  ],
+  "level": "5",
+  "faction": "Alliance",
+  "start": "Corithras Moonrage",
+  "end": "",
+  "previous": "Crown of the Earth (2)",
+  "next": "Crown of the Earth (4)",
+  "wiki": "Crown of the Earth (3)",
+  "chain": []
+ },
+ "summary": "Crown of the Earth is a sacred task assigned by Corithras Moonrage in Dolanaar to draw sanctified waters from the moonwell near Starbreeze Village. In exchange for replenishing the waters of Darnassus, young night elves learn the tragic history that led their people to cultivate the massive boughs of Teldrassil.",
+ "sections": [
+  {
+   "title": "Sustaining the Moonwells",
+   "body": "The great central moonwell of Darnassus demands constant communion with the lesser fonts scattered across the crown of the World Tree. Druids craft refined jade phials specifically to draw and carry these luminescent waters without disturbing their purity. By sending initiates on foot to Starbreeze Village, the elders ensure both that the civic fountains remain brimming with Elune's grace and that the youth understand the labor required to nourish Teldrassil.",
+   "spoiler": 0
+  },
+  {
+   "title": "Echoes of the Third War",
+   "body": "Completing this chore rewards the initiate with oral history. Corithras Moonrage recounts the despair that gripped the kaldorei immediately after the Battle of Mount Hyjal. The sacrifice of the ancestral World Tree Nordrassil stripped the night elves of their precious immortality, and amidst the ruin, Illidan Stormrage was unleashed while Shan'do Malfurion Stormrage vanished into the Emerald Dream. This climate of grief and isolation laid the groundwork for Teldrassil's controversial planting.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of drawing moonwell water?",
+   "aliases": [
+    "why get moonwell water",
+    "moonwell water use",
+    "purpose of jade phial"
+   ],
+   "answer": "The druids residing in Darnassus regularly replenish their primary city moonwell using the waters collected from surrounding forest shrines, sustaining the sacred network across Teldrassil."
+  },
+  {
+   "q": "Where is the moonwell for this task located?",
+   "aliases": [
+    "where is the moonwell",
+    "starbreeze moonwell location",
+    "starbreeze village well"
+   ],
+   "answer": "The moonwell sits just outside Starbreeze Village, situated to the east of Dolanaar along the forest path."
+  },
+  {
+   "q": "Who is Corithras Moonrage?",
+   "aliases": [
+    "who gives the quest",
+    "corithras moonrage lore"
+   ],
+   "answer": "Corithras Moonrage is a night elf druid stationed in Dolanaar who guides young adventurers through the ritual duties and histories surrounding the health of Teldrassil."
+  },
+  {
+   "q": "What history does Corithras teach upon return?",
+   "aliases": [
+    "what does corithras say",
+    "crown of the earth lore text"
+   ],
+   "answer": "He explains the catastrophic aftermath of the Battle of Mount Hyjal, recalling how Nordrassil was burned, kaldorei immortality vanished, Illidan was freed, and Shan'do Malfurion Stormrage disappeared."
+  },
+  {
+   "q": "Why do night elves feel lost after Mount Hyjal?",
+   "aliases": [
+    "why did elves lose immortality",
+    "what happened after hyjal"
+   ],
+   "answer": "Nordrassil had bestowed perpetual life and protection to the night elves. Sacrificing the tree's power to annihilate Archimonde shattered their timeless existence, leaving them mortal, directionless, and deeply vulnerable."
+  },
+  {
+   "q": "What is a Shan'do?",
+   "aliases": [
+    "what does shando mean",
+    "shando meaning"
+   ],
+   "answer": "Shan'do is an honorific in the Darnassian tongue meaning 'honored teacher', applied here to Malfurion Stormrage, the supreme leader of the druids."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Every night elf must confront the loss of immortality and the disappearance of Malfurion Stormrage, making this sacred collection ritual an essential lesson in your people's recent grief."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The moonwells are vital conduits of nature and astral magic, serving as living reservoirs that bind your order's duties in Darnassus to the roots of Teldrassil."
+  }
+ ],
+ "keywords": [
+  "corithras moonrage",
+  "crown of the earth",
+  "dolanaar",
+  "jade phial",
+  "moonwell",
+  "nordrassil",
+  "starbreeze village",
+  "teldrassil"
+ ],
+ "related": [
+  "npc:corithras-moonrage",
+  "subzone:dolanaar",
+  "subzone:starbreeze-village",
+  "zone:teldrassil",
+  "zone:darnassus",
+  "topic:nordrassil",
+  "topic:druid",
+  "topic:shan-do"
+ ],
+ "attribution": [
+  "Crown of the Earth (3)"
+ ]
+}

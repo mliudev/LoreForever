@@ -1,0 +1,93 @@
+{
+ "key": "subzone:tower-of-ilgalar",
+ "type": "subzone",
+ "name": "Tower of Ilgalar",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Tower of Ilgalar"
+ },
+ "summary": "The Tower of Ilgalar is an isolated spire perched high in the crags of the eastern Redridge Mountains. Once a wizard's retreat, it has fallen into shadow as the hideout of Morganth, a banished sorcerer from Stormwind who now commands the region's feral gnolls and practices dark magic.",
+ "sections": [
+  {
+   "title": "A Bastion of Dark Sorcery",
+   "body": "Looming over eastern Redridge, the Tower of Ilgalar serves as the personal sanctum of Morganth. Cast out from the Mage Quarter of Stormwind for dabbling in forbidden magic, the rogue sorcerer retreated into these rugged heights to delve deeper into the dark arts without imperial interference. Rather than living in solitude, Morganth asserted dominion over the local Shadowhide gnoll clan, employing them as savage sentries around the base of the spire. Inside, the tower crawls with conjured demonic hounds and crackles with shadowy power, posing a constant, brooding menace to the beleaguered town of Lakeshire below.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Rivalry with Azora",
+   "body": "Scholars often draw parallels between the Tower of Ilgalar and the Tower of Azora in Elwynn Forest. While the true identity of Ilgalar remains shrouded in mystery, the two towers stand in quiet, magical opposition. In Elwynn, the Kirin Tor mage Theocritus maintains careful watch over Ilgalar through enchanted scrying devices like the Eye of Azora, monitoring Morganth's sinister experiments and plotting to neutralize the renegade before his corruption spreads further through the kingdom.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives in the Tower of Ilgalar?",
+   "aliases": [
+    "who is in tower of ilgalar",
+    "tower of ilgalar boss",
+    "who controls the tower"
+   ],
+   "answer": "The tower is held by Morganth, a renegade human sorcerer who was exiled from Stormwind City for practicing forbidden dark magic. He now rules the tower alongside summoned demonic darkhounds and commands the local Shadowhide gnolls."
+  },
+  {
+   "q": "Why did Morganth flee to Redridge?",
+   "aliases": [
+    "why is morganth here",
+    "morganth backstory",
+    "why was morganth exiled"
+   ],
+   "answer": "Morganth was cast out of the Mage Quarter in Stormwind after pursuing the dark arts. He retreated to the remote crags of Redridge to conduct his forbidden experiments far away from the scrutiny of the realm's authorities and the Kirin Tor."
+  },
+  {
+   "q": "What is the connection between this tower and the Tower of Azora?",
+   "aliases": [
+    "tower of azora connection",
+    "ilgalar and azora",
+    "eye of azora redridge"
+   ],
+   "answer": "Both towers are prominent magical spires in southern Stormwind, seemingly mirrored in purpose. From the Tower of Azora in Elwynn Forest, the mage Theocritus actively scries upon the upper sanctum of Ilgalar using the Eye of Azora to keep watch over Morganth's dark rituals."
+  },
+  {
+   "q": "Why are there gnolls guarding the tower?",
+   "aliases": [
+    "why are gnolls here",
+    "shadowhide gnolls tower",
+    "gnolls around tower"
+   ],
+   "answer": "Morganth used his magical influence to subjugate the local Shadowhide clan of gnolls. They act as outer sentries and muscle, keeping intruders, scouts, and the Lakeshire militia from scaling the cliffs to his sanctum."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The tower serves as a stark warning of what happens when arcane studies delve into forbidden dark magic, drawing the watchful eye of Kirin Tor veterans like Theocritus."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Morganth's reliance on summoned darkhounds and shadowy hexes mirrors demonic arts, making his mountain retreat an intriguing example of rogue spellcraft outside of city covens."
+  }
+ ],
+ "keywords": [
+  "azora",
+  "darkhounds",
+  "ilgalar",
+  "lakeshire",
+  "morganth",
+  "redridge",
+  "shadowhide",
+  "theocritus",
+  "tower of ilgalar"
+ ],
+ "related": [
+  "zone:redridge",
+  "npc:theocritus",
+  "subzone:tower-of-azora",
+  "subzone:mage-quarter",
+  "zone:stormwind",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Tower of Ilgalar"
+ ]
+}

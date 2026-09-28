@@ -1,0 +1,75 @@
+{
+ "key": "subzone:jangolode-mine",
+ "type": "subzone",
+ "name": "Jangolode Mine",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Jangolode Mine"
+ },
+ "summary": "Jangolode Mine is a rich mineral excavation located in the rolling hills of Westfall. Once a vital source of ore and raw materials for Stormwind City, the mine was overrun by bandits and now crawls with opportunistic kobolds.",
+ "sections": [
+  {
+   "title": "A Plundered Resource",
+   "body": "Before Westfall fell into decline, the Jangolode Mine provided a steady flow of metals crucial to the reconstruction and supply of Stormwind City. As civil order deteriorated and the kingdom withdrew its garrisons, the Defias Brotherhood seized control of the site to feed their own operations. Following clashes that broke the bandits' hold over the shafts, scavenging kobolds surged into the tunnels, claiming the rich veins for themselves and fiercely defending their subterranean prize.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Jangolode Mine?",
+   "aliases": [
+    "jangolode mine info",
+    "what is jangolode",
+    "jangolode westfall"
+   ],
+   "answer": "It is an excavation site in Westfall that historically supplied Stormwind City with essential minerals and metal ore. With regional defense weakened, it fell into hostile hands."
+  },
+  {
+   "q": "Who controls the mine right now?",
+   "aliases": [
+    "who is in jangolode mine",
+    "jangolode mobs",
+    "who lives in jangolode"
+   ],
+   "answer": "Kobolds currently infest the underground shafts. Although the Defias Brotherhood previously drove out the original miners, the kobolds took advantage of the turmoil to occupy the tunnels."
+  },
+  {
+   "q": "Why does Stormwind not reclaim the mine?",
+   "aliases": [
+    "why doesnt stormwind clear jangolode",
+    "stormwind garrison westfall",
+    "why abandon the mine"
+   ],
+   "answer": "Stormwind is mired in political unrest and struggling to protect even its core borders. The kingdom lacks the troops to garrison Westfall's outlying mines, leaving the People's Militia and local adventurers to manage the threat."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The Jangolode Mine remains rich in basic copper and tin deposits, making it a lucrative stop for prospectors willing to fight past the subterranean pests."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Reclaiming Westfall's resources is vital for stabilizing the kingdom, and driving out the vermin from Jangolode is one step toward restoring the region's prosperity."
+  }
+ ],
+ "keywords": [
+  "defias brotherhood",
+  "jangolode",
+  "jangolode mine",
+  "kobold",
+  "stormwind",
+  "westfall"
+ ],
+ "related": [
+  "zone:westfall",
+  "topic:kobold",
+  "topic:defias-brotherhood",
+  "zone:stormwind",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Jangolode Mine"
+ ]
+}

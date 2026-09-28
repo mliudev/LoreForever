@@ -1,0 +1,69 @@
+{
+ "key": "subzone:death-s-breach",
+ "type": "subzone",
+ "name": "Death's Breach",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Death's Breach"
+ },
+ "summary": "Death's Breach is an elevated staging ground situated in the far eastern reaches of the Eastern Plaguelands, overlooking the Scarlet territories to the east. Connected to the Noxious Glade via a cavernous passage, this grim vantage point is gripped by the Scourge's insidious presence.",
+ "sections": [
+  {
+   "title": "A Grim Vantage",
+   "body": "Perched on a high ridge in the eastern portion of the Plaguelands, Death's Breach looks down upon the Scarlet Enclave and Havenshire below. It serves as a stark foothold carved against the mountain rim, reachable by navigating a dark tunnel that winds out of the Noxious Glade. Steep ramps lead downward from the high ground into the lower valleys, framing a perpetual flashpoint between the fanatical crusaders below and the creeping horrors of the Scourge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Death's Breach located?",
+   "aliases": [
+    "deaths breach location",
+    "how to get to deaths breach",
+    "where is it"
+   ],
+   "answer": "Death's Breach sits upon high ground in the eastern heights of the Eastern Plaguelands, west of Havenshire and the Scarlet lands. It can be reached directly on foot through a tunnel emerging from the Noxious Glade."
+  },
+  {
+   "q": "What overlooks Death's Breach?",
+   "aliases": [
+    "what is below deaths breach",
+    "surrounding area"
+   ],
+   "answer": "Ramps on either side of the high ridge descend toward the eastern lowlands, where the Scarlet Crusade maintains settlements and fortifications in their isolated enclave."
+  },
+  {
+   "q": "How do you reach Death's Breach from the western side?",
+   "aliases": [
+    "noxious glade tunnel",
+    "entrance to deaths breach"
+   ],
+   "answer": "Travelers navigate through the Noxious Glade in the Eastern Plaguelands, where a subterranean cave passage cuts eastward through the rock and opens directly onto the plateau."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Overlooking the embattled lands of the Scarlet Crusade, this high cliffside serves as a grim reminder of how far the Scourge's corrupting grasp has reached into Lordaeron."
+  }
+ ],
+ "keywords": [
+  "death's breach",
+  "deaths breach",
+  "eastern plaguelands",
+  "havenshire",
+  "noxious glade",
+  "scarlet enclave"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "subzone:noxious-glade",
+  "subzone:ruins-of-the-scarlet-enclave",
+  "subzone:crypt-of-remembrance",
+  "topic:light"
+ ],
+ "attribution": [
+  "Death's Breach"
+ ]
+}

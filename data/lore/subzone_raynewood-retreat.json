@@ -1,0 +1,102 @@
+{
+ "key": "subzone:raynewood-retreat",
+ "type": "subzone",
+ "name": "Raynewood Retreat",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Raynewood Retreat"
+ },
+ "summary": "Raynewood Retreat is an ancient night elf outpost perched around a massive great tree in north-central Ashenvale. Guarded by dryads and Cenarion protectors, it serves as a watchful sanctuary monitoring the northern passes toward corrupted Felwood. It is also the sanctuary of Keeper Ordanus, an elder son of Cenarius targeted by sinister outside forces.",
+ "sections": [
+  {
+   "title": "Bastion of the Great Tree",
+   "body": "Long before the modern conflicts between the Alliance and Horde, Raynewood Retreat served as a military staging ground for night elf defenders during the ancient War of the Satyr millennia ago. Today, the encampment retains its sacred martial purpose. Nestled between Shael'dryn's moonwell and the satyr-infested ruins of Night Run, the outpost is fiercely guarded by Cenarion Protectors, faerie dragons, and Laughing Sisters. Their collective vigilance keeps a wary eye on the encroaching taint descending from Felwood just to the north.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Hunt for Ordanus",
+   "body": "High atop the boughs of the great tree resides Keeper Ordanus, one of Cenarius's eldest sons. While the canopy offers him refuge, it has also become a focal point of dark intrigue. Agents aligned with the shadowy remnants of the Shadow Council, notably Braelyn Firehand, seek the keeper's demise. Horde mercenaries are dispatched to storm the heights and claim his head, turning what should be a peaceful forest sanctuary into a battleground.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Raynewood Retreat?",
+   "aliases": [
+    "raynewood retreat",
+    "what is this place",
+    "raynewood tree"
+   ],
+   "answer": "Raynewood Retreat is a night elf and Cenarion settlement situated around a Great Tree in north-central Ashenvale. It acts as an Alliance-aligned sanctuary and watchpost monitoring the approaches to Felwood."
+  },
+  {
+   "q": "Who lives at Raynewood Retreat?",
+   "aliases": [
+    "who is here",
+    "raynewood mobs",
+    "who guards raynewood"
+   ],
+   "answer": "The outpost is defended by Cenarion Protectors, dryads known as Laughing Sisters, and faerie dragons. Its most prominent resident is Keeper Ordanus, who dwells high within the great tree."
+  },
+  {
+   "q": "Who is Keeper Ordanus?",
+   "aliases": [
+    "keeper ordanus",
+    "who is ordanus",
+    "ordanus lore"
+   ],
+   "answer": "Keeper Ordanus is a powerful keeper of the grove and one of the eldest sons of the demigod Cenarius. He oversees the sanctuary but finds himself hunted by hostile infiltrators."
+  },
+  {
+   "q": "Why does the Horde attack Raynewood Retreat?",
+   "aliases": [
+    "horde raynewood quest",
+    "why kill ordanus",
+    "braelyn firehand quest"
+   ],
+   "answer": "A blood elf operative named Braelyn Firehand, acting on behalf of the Shadow Council, hires Horde adventurers to infiltrate the tree and assassinate Keeper Ordanus, seeking his head for dark purposes."
+  },
+  {
+   "q": "What is the history of this place?",
+   "aliases": [
+    "raynewood history",
+    "war of the satyr raynewood"
+   ],
+   "answer": "Nearly ten thousand years ago, during the War of the Satyr, the night elf military utilized Raynewood Retreat as an operational base to combat the demonic satyr forces threatening Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Raynewood Retreat is holy ground under the stewardship of Cenarius's children, serving as a bulwark against demonic and fel corruption."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "To the Horde, the retreat is an Alliance-friendly grove whose guardian, Keeper Ordanus, is targeted for elimination by covert questgivers."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "braelyn",
+  "cenarius",
+  "felwood",
+  "laughing sister",
+  "ordanus",
+  "raynewood",
+  "retreat"
+ ],
+ "related": [
+  "npc:braelyn-firehand",
+  "quest:1088",
+  "topic:cenarius",
+  "topic:satyr",
+  "zone:ashenvale",
+  "zone:felwood",
+  "subzone:night-run",
+  "npc:shael-dryn"
+ ],
+ "attribution": [
+  "Raynewood Retreat"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "subzone:cenarion-enclave",
+ "type": "subzone",
+ "name": "Cenarion Enclave",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Cenarion Enclave"
+ },
+ "summary": "The Cenarion Enclave is the verdant northwestern district of Darnassus, serving as the central gathering place and seat of power for the Cenarion Circle in the capital. While Archdruid Malfurion Stormrage lies slumbering within the Emerald Dream, Archdruid Fandral Staghelm leads the night elven druids from the great hollows and living boughs of this grove.",
+ "sections": [
+  {
+   "title": "Heart of the Circle",
+   "body": "Occupying a high terrace above the Temple Gardens, the Cenarion Enclave is shaped from ancient oaks and ashes marked with runic bark. Convocations of the Cenarion Circle gather within structures molded directly from living wood and stone. With Malfurion Stormrage absent in the Emerald Dream, Archdruid Fandral Staghelm oversees affairs here, pushing his ambitious vision for Teldrassil despite lingering political friction with High Priestess Tyrande Whisperwind. Beyond the druids who meditate among its streams, the enclave also hosts the capital's elven hunters and the stables where skilled riders learn to tame Darnassian nightsabers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows in the Boughs",
+   "body": "Though renowned as a tranquil sanctuary of nature, the enclave harbors more covert activities. Beneath the hollowed roots of the westernmost bough lies a subterranean refuge used by Darnassus's clandestine rogues, who conduct their quiet business shielded by the rustling canopy above. Druidic elders tolerate this presence, provided the balance of the grove is not disturbed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who leads the Cenarion Enclave?",
+   "aliases": [
+    "who is in charge here",
+    "cenarion enclave leader",
+    "fandral staghelm"
+   ],
+   "answer": "Archdruid Fandral Staghelm currently leads the grove and the night elven druids residing in Darnassus. Malfurion Stormrage, the supreme leader of the Cenarion Circle, remains trapped in a deep, unexplained slumber within the Emerald Dream, leaving Staghelm as the de facto authority."
+  },
+  {
+   "q": "What classes train here?",
+   "aliases": [
+    "trainers in cenarion enclave",
+    "druid trainer darnassus",
+    "hunter trainer darnassus"
+   ],
+   "answer": "The enclave is the primary home of the capital's druid trainers, who instruct novices among the living trees. Eastern boughs house the city's hunter trainers, while the root warrens beneath the western bough shelter a quiet den of rogue trainers."
+  },
+  {
+   "q": "Where can I buy a nightsaber mount?",
+   "aliases": [
+    "nightsaber trainer",
+    "night elf mount trainer",
+    "darnassus riding trainer"
+   ],
+   "answer": "Riding trainers and breeders tending to Darnassus's prized saber cats are stationed at the base of the eastern tree near the grove's entrance, providing both riding training and nightsaber mounts to eligible Alliance travelers."
+  },
+  {
+   "q": "What is the Cenarion Circle's stance toward the Alliance?",
+   "aliases": [
+    "is cenarion circle alliance",
+    "are druids alliance only"
+   ],
+   "answer": "While this district lies within an Alliance capital and is led by the staunchly nationalist Fandral Staghelm, the Cenarion Circle as a broader organization remains dedicated to safeguarding the natural order rather than fighting factional wars. However, the presence of Staghelm makes this particular enclave strongly aligned with night elven regional interests."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For night elf druids, the Cenarion Enclave is the civil center of your order on Teldrassil, offering training and guidance under the stern direction of Archdruid Fandral Staghelm."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters gather in the enclave's eastern boughs to hone their marksmanship and wilderness lore alongside beastmasters who rear the capital's nightsabers."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "cenarion enclave",
+  "darnassus",
+  "druid",
+  "fandral staghelm",
+  "nightsaber",
+  "teldrassil"
+ ],
+ "related": [
+  "npc:fandral-staghelm",
+  "zone:darnassus",
+  "topic:druid",
+  "topic:emerald-dream",
+  "npc:malfurion-stormrage",
+  "npc:tyrande-whisperwind",
+  "subzone:temple-gardens",
+  "quest:929"
+ ],
+ "attribution": [
+  "Cenarion Enclave"
+ ]
+}

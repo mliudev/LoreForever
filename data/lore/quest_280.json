@@ -1,0 +1,125 @@
+{
+ "key": "quest:280",
+ "type": "quest",
+ "name": "A Dark Threat Looms",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   280
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Chief Engineer Hinderweir VII",
+  "end": "Explosive Charge",
+  "previous": "A Dark Threat Looms (5)",
+  "next": "A Dark Threat Looms (7)",
+  "wiki": "A Dark Threat Looms (6)",
+  "chain": []
+ },
+ "summary": "A desperate emergency mission given by Chief Engineer Hinderweir VII to prevent the destruction of the Stonewrought Dam. Dark Iron saboteurs have planted an explosive Seaforium charge deep below the waterline, threatening to shatter one of the greatest engineering marvels of the dwarven kingdom.",
+ "sections": [
+  {
+   "title": "Sabotage Beneath the Surface",
+   "body": "Chief Engineer Hinderweir VII spotted Dark Iron Insurgents swimming toward the base of the Stonewrought Dam carrying a massive keg of explosive Seaforium. Without Mountaineers nearby to intervene, the infiltrators secured the weapon directly against the dam's underwater foundation. A breach would unleash the entire volume of the loch into the lowlands below, causing catastrophic flooding and crippling dwarven trade and travel across the region.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Volatile Neutralizer",
+   "body": "Having quickly combined reactive ingredients into a disarming mixture, Hinderweir sends a brave diver straight to the submerged bomb. Neutralizing the Seaforium requires unscrewing the submerged keg and stirring the chemical solution directly into the explosive powder. The mixture halts the countdown with a soft underwater fizz, stabilizing the charge before the blast can tear through the masonry.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the goal of this quest?",
+   "aliases": [
+    "quest objective",
+    "what do i do here",
+    "a dark threat looms 6 goal"
+   ],
+   "answer": "You must dive beneath the waters of Loch Modan to the foundation of the Stonewrought Dam, locate the planted keg of Seaforium, and stir in Chief Engineer Hinderweir's disarming mixture to neutralize the blast."
+  },
+  {
+   "q": "Who planted the explosive keg?",
+   "aliases": [
+    "who put the bomb here",
+    "who planted seaforium",
+    "dark threat looms culprits"
+   ],
+   "answer": "Dark Iron Insurgents infiltrated the waters of Loch Modan earlier in the day, taking advantage of the absence of local Mountaineers to plant a Seaforium charge directly against the underwater face of the dam."
+  },
+  {
+   "q": "What happens if the dam is destroyed?",
+   "aliases": [
+    "why save the dam",
+    "what happens if the bomb goes off",
+    "dam explosion stakes"
+   ],
+   "answer": "The Stonewrought Dam holds back the massive lake of Loch Modan. If the dam were shattered, millions of gallons of water would flood into the Wetlands and surrounding valleys, washing away roads, towns, and lives."
+  },
+  {
+   "q": "Who concocted the disarming mixture?",
+   "aliases": [
+    "who made the mixture",
+    "hinderweir role",
+    "who made the chemical"
+   ],
+   "answer": "Chief Engineer Hinderweir VII prepared the chemical neutralizer using gathered reagents, creating a mixture capable of neutralizing the Seaforium charge without triggering an accidental detonation."
+  },
+  {
+   "q": "Where is the explosive keg located?",
+   "aliases": [
+    "where is the bomb",
+    "keg location",
+    "powder keg underwater"
+   ],
+   "answer": "The keg is resting underwater against the deep submerged base of the Stonewrought Dam on the southern, lake-facing side."
+  },
+  {
+   "q": "What kind of explosive was used?",
+   "aliases": [
+    "what is the bomb made of",
+    "bomb type",
+    "what explosive"
+   ],
+   "answer": "The Dark Iron saboteurs utilized Seaforium, a powerful and volatile demolition compound, packed into a sealed waterproof keg."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The Stonewrought Dam is an enduring monument of dwarven architecture and pride; protecting it from Dark Iron treachery is of paramount importance to every son and daughter of Ironforge."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomish minds can appreciate both the sophisticated chemistry behind Hinderweir's neutralizer and the horrifying devastation a Seaforium breach would inflict on dwarven engineering."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Working directly with Seaforium and specialized disarming chemicals highlights the extreme, high-stakes application of demolitions and counter-explosive chemistry."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The destruction of the Stonewrought Dam would devastate vital transportation routes connecting Khaz Modan to the northern Alliance territories."
+  }
+ ],
+ "keywords": [
+  "dam",
+  "dark iron",
+  "disarming",
+  "explosive",
+  "hinderweir",
+  "insurgents",
+  "keg",
+  "seaforium",
+  "stonewrought"
+ ],
+ "related": [
+  "npc:chief-engineer-hinderweir-vii",
+  "zone:lochmodan"
+ ],
+ "attribution": [
+  "A Dark Threat Looms (6)"
+ ]
+}

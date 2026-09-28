@@ -1,0 +1,124 @@
+{
+ "key": "quest:479",
+ "type": "quest",
+ "name": "Ambermill Investigations",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   479
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Shadow Priest Allister",
+  "end": "",
+  "previous": "Dalaran's Intentions",
+  "next": "The Weaver (quest)",
+  "wiki": "Ambermill Investigations",
+  "chain": []
+ },
+ "summary": "Ambermill Investigations is a Forsaken mission assigned by Shadow Priest Allister from the Sepulcher. With Dalaran wizards weaving magic in the nearby town of Ambermill, the Forsaken must disrupt their spellwork and strip their magical foci to keep hold of Silverpine Forest.",
+ "sections": [
+  {
+   "title": "A Threat from the East",
+   "body": "The human town of Ambermill sits nestled in the hills of eastern Silverpine Forest, firmly occupied by wizards and defenders pledged to the Kirin Tor of Dalaran. As the mages engage in a vast, concerted ritual to weave magical energies, Shadow Priest Allister and his companion Dalar recognize an immediate peril. If the Kirin Tor are permitted to channel their power unchecked, the Forsaken risk being swept out of Silverpine entirely.",
+   "spoiler": 0
+  },
+  {
+   "title": "Disrupting the Weave",
+   "body": "While Dalar scries and traces the flow of magic across the forest, Allister dispatches agents to Ambermill to strike directly at the practitioners. Dalaran conjurers, mages, and their protectors wear enchanted pendants that aid in focusing and coordinating their arts. Stripping these talismans from the slain sorcerers disrupts their ritual, buying the Sepulcher critical time to pinpoint the ringleader directing the arcane weave.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Shadow Priest Allister targeting Ambermill?",
+   "aliases": [
+    "why attack ambermill",
+    "allister motive",
+    "ambermill threat"
+   ],
+   "answer": "The Kirin Tor mages entrenched in Ambermill are actively channeling powerful arcane energies. Allister fears that if their spellcasting succeeds, the Forsaken will lose control of Silverpine Forest."
+  },
+  {
+   "q": "What are the Dalaran Pendants used for?",
+   "aliases": [
+    "what are dalaran pendants",
+    "pendant purpose",
+    "why collect pendants"
+   ],
+   "answer": "Dalaran conjurers, mages, and protectors wear these pendants as focuses for their craft. Taking them weakens the wizards' efforts and helps Allister analyze the Kirin Tor's magical progress."
+  },
+  {
+   "q": "Where is Ambermill located?",
+   "aliases": [
+    "ambermill location",
+    "how to get to ambermill",
+    "where is ambermill"
+   ],
+   "answer": "Ambermill lies along the eastern hills of Silverpine Forest. From the Sepulcher, head south along the main thoroughfare and follow the fork leading east into the town."
+  },
+  {
+   "q": "Who is Dalar, and how is he involved?",
+   "aliases": [
+    "who is dalar",
+    "dalar role",
+    "dalar silverpine"
+   ],
+   "answer": "Dalar is a Forsaken practitioner stationed at the Sepulcher alongside Shadow Priest Allister, tasked with tracking and unmasking the magical sources fueling the Dalaran wizards in Ambermill."
+  },
+  {
+   "q": "What happens after recovering the pendants?",
+   "aliases": [
+    "what happens next",
+    "ambermill investigations follow up",
+    "after dalaran pendants"
+   ],
+   "answer": "Collecting the pendants reveals that the Dalaran ritual is already well advanced, led by an adept wizard who must be confronted directly to halt the spellcasting entirely."
+  },
+  {
+   "q": "Why are Dalaran humans still in Silverpine Forest?",
+   "aliases": [
+    "why are dalaran humans here",
+    "kirin tor in silverpine",
+    "ambermill lore"
+   ],
+   "answer": "Dalaran maintained several outposts and settlements across the region prior to the Third War. Even after the kingdom's devastation, surviving Kirin Tor forces continue to hold Ambermill against the Scourge and Forsaken."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Kirin Tor remnants in Ambermill sit right on the doorstep of the Undercity's territory, making their magical machinations an intolerable danger to Forsaken survival."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Mages recognize the precise coordination required to weave large-scale arcane rituals, understanding why severing the Kirin Tor's enchanted foci disrupts their spellcraft."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing Silverpine Forest keeps the western approaches to Lordaeron safe from Alliance-aligned outposts loyal to Dalaran."
+  }
+ ],
+ "keywords": [
+  "allister",
+  "ambermill",
+  "dalar",
+  "dalaran",
+  "kirin tor",
+  "pendant",
+  "sepulcher",
+  "silverpine"
+ ],
+ "related": [
+  "npc:shadow-priest-allister",
+  "quest:482",
+  "subzone:ambermill",
+  "subzone:sepulcher",
+  "subzone:dalaran",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Ambermill Investigations"
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "key": "subzone:jadefire-run",
+ "type": "subzone",
+ "name": "Jadefire Run",
+ "era": "classic",
+ "zone": "felwood",
+ "meta": {
+  "wiki": "Jadefire Run"
+ },
+ "summary": "Jadefire Run is a heavily fortified satyr encampment nestled in northern Felwood. It houses some of the most powerful and cunning satyrs in the region, serving as a bastion of demonic corruption deep within the tainted forest.",
+ "sections": [
+  {
+   "title": "A Bastion of Deceit",
+   "body": "Situated amid the blighted woods of northern Felwood, Jadefire Run functions as a stronghold for the Jadefire satyrs. Unlike lesser outposts scattered throughout the valley, this camp features substantial demonic construction and shelters formidable spellcasters and tricksters. The satyrs here actively conspire to spread corruption further across Kalimdor, employing dark sorcery and foul trickery against anyone who dares intrude on their territory.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Jadefire Run?",
+   "aliases": [
+    "jadefire run info",
+    "what is this place felwood"
+   ],
+   "answer": "Jadefire Run is a major satyr settlement located in northern Felwood. It serves as a central redoubt for some of the most dangerous and elite satyrs infesting the forest."
+  },
+  {
+   "q": "Who rules or lives in Jadefire Run?",
+   "aliases": [
+    "who lives here",
+    "jadefire run mobs"
+   ],
+   "answer": "The encampment is occupied by the Jadefire satyrs\u2014corrupted servants of the Burning Legion who wield fel magic and deceptive illusions to terrorize the surrounding forest."
+  },
+  {
+   "q": "Why is Jadefire Run so dangerous?",
+   "aliases": [
+    "is jadefire run hard",
+    "jadefire run danger"
+   ],
+   "answer": "The satyrs here are noticeably stronger and more organized than those in southern Felwood. Backed by demonic structures and potent spellcasters, they easily overpower unprepared adventurers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves, Jadefire Run is a grotesque reminder of ancient betrayal and demonic defilement that must be cleansed from sacred Kalimdor soil."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids view the vile rituals and fel presence festering in Jadefire Run as an open wound poisoning the natural spirits of Felwood."
+  }
+ ],
+ "keywords": [
+  "corrupted",
+  "demons",
+  "felwood",
+  "jadefire",
+  "jadefire run",
+  "satyr",
+  "xavaric"
+ ],
+ "related": [
+  "zone:felwood",
+  "topic:satyr"
+ ],
+ "attribution": [
+  "Jadefire Run"
+ ]
+}

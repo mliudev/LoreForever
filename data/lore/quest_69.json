@@ -1,0 +1,116 @@
+{
+ "key": "quest:69",
+ "type": "quest",
+ "name": "The Legend of Stalvan",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   69
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Clerk Daltry",
+  "end": "Innkeeper Farley",
+  "previous": "The Legend of Stalvan (3)",
+  "next": "The Legend of Stalvan (5)",
+  "wiki": "The Legend of Stalvan (4)",
+  "chain": []
+ },
+ "summary": "This errand marks a pivotal turn in the search for the elusive Stalvan Mistmantle, leading investigators out of the gloom of Duskwood and back toward the heart of the kingdom. A hasty, scratched-out entry discovered in Darkshire's town registry points across the river to Goldshire. Following the paper trail to the bustling Lion's Pride Inn is the next step in uncovering where the mysterious tutor went.",
+ "sections": [
+  {
+   "title": "A Clue in the Ledger",
+   "body": "While reviewing Darkshire's records, Clerk Daltry catches an oversight in the town registry. Tucked beneath an earlier entry for Stalvan Mistmantle lies a second destination, hastily written and partially scratched out as if someone had second thoughts or meant to obscure their movements. The note indicates that Stalvan intended to travel northwest toward Elwynn Forest, specifically to the Lion's Pride Inn.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crossing into Elwynn",
+   "body": "Departing the shadowed groves of Duskwood for the sunny roads of Goldshire offers a stark contrast, but the shadow of Stalvan's past reaches even here. The Lion's Pride Inn serves as the bustling crossroads of Elwynn Forest, welcoming travelers, merchants, and soldiers alike. Innkeeper Farley presides over the busy taproom, making him the ideal person to ask about an educated wanderer seeking lodging.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does the trail lead to Goldshire?",
+   "aliases": [
+    "why goldshire",
+    "why go to goldshire",
+    "stalvan in goldshire"
+   ],
+   "answer": "Clerk Daltry discovered a second, partially scratched-out address in the Darkshire registry beneath Stalvan's initial listing. It clearly indicated he was bound for the Lion's Pride Inn in Goldshire."
+  },
+  {
+   "q": "Who is Clerk Daltry?",
+   "aliases": [
+    "daltry",
+    "who is daltry"
+   ],
+   "answer": "Clerk Daltry is the record keeper stationed in the town hall of Darkshire. He maintains the local registries and helps dig up historical documents regarding past residents."
+  },
+  {
+   "q": "Who do I speak to at the Lion's Pride Inn?",
+   "aliases": [
+    "who to talk to",
+    "lion's pride contact",
+    "innkeeper goldshire"
+   ],
+   "answer": "You need to speak directly with Innkeeper Farley, who manages the Lion's Pride Inn and keeps track of travelers and patrons passing through Goldshire."
+  },
+  {
+   "q": "Why was the entry scratched out in the registry?",
+   "aliases": [
+    "scratched out note",
+    "why scratched out"
+   ],
+   "answer": "The ledger entry was only partially erased, suggesting a rushed or deliberate attempt to conceal Stalvan's route toward Elwynn Forest when he departed Duskwood."
+  },
+  {
+   "q": "Does this quest involve any combat?",
+   "aliases": [
+    "is there fighting",
+    "do i fight anything"
+   ],
+   "answer": "No. This step of the investigation is purely a matter of travel and inquiry, taking you safely from Darkshire's Town Hall to the taproom in Goldshire."
+  },
+  {
+   "q": "What is the Lion's Pride Inn?",
+   "aliases": [
+    "lions pride inn",
+    "goldshire inn"
+   ],
+   "answer": "The Lion's Pride Inn is the central hub of Goldshire in Elwynn Forest. It is a well-known resting point for travelers journeying between Stormwind City, Westfall, and Duskwood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Retracing Stalvan's steps takes you through the heartland of the Kingdom of Stormwind, linking the haunted frontiers of Duskwood back to the familiar comforts of Elwynn Forest."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Unraveling local histories and cold trails across the southern Alliance territories requires navigating between frontier outposts like Darkshire and core hamlets like Goldshire."
+  }
+ ],
+ "keywords": [
+  "clerk daltry",
+  "darkshire",
+  "duskwood",
+  "elwynn forest",
+  "goldshire",
+  "innkeeper farley",
+  "lion's pride inn",
+  "stalvan"
+ ],
+ "related": [
+  "npc:clerk-daltry",
+  "npc:innkeeper-farley",
+  "subzone:lion-s-pride-inn",
+  "subzone:goldshire",
+  "zone:duskwood",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "The Legend of Stalvan (4)"
+ ]
+}

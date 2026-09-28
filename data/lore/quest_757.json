@@ -1,0 +1,118 @@
+{
+ "key": "quest:757",
+ "type": "quest",
+ "name": "Rite of Strength",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   757
+  ],
+  "level": "4",
+  "faction": "Horde",
+  "start": "Seer Graytongue",
+  "end": "Chief Hawkwind",
+  "previous": "Rites of the Earthmother",
+  "next": "Rites of the Earthmother (2)",
+  "wiki": "Rite of Strength (Classic)",
+  "chain": []
+ },
+ "summary": "The Rite of Strength is the initial trial in the traditional Rites of the Earthmother undertaken by young tauren at Camp Narache. To demonstrate their bravery and defense of the tribe, initiates must cull encroaching Bristleback quilboar in Brambleblade Ravine and present their belts to Chief Hawkwind.",
+ "sections": [
+  {
+   "title": "The First Trial",
+   "body": "For a young tauren seeking recognition from tribal elders and eventual acceptance in Thunder Bluff, completing the Rites of the Earthmother is an essential duty. Bestowed by Seer Graytongue, the Rite of Strength serves as the starting trial. It demands physical courage and decisive action in defense of Red Cloud Mesa, testing whether an initiate can face the tribe's mortal foes without flinching.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Bristleback Threat",
+   "body": "The chosen crucible for this trial is Brambleblade Ravine, a thorn-choked gash east of Camp Narache occupied by Bristleback quilboar. These aggressive interlopers continuously trespass on ancestral lands, ambushing hunting parties and raiding camp supplies under cover of darkness. Slaying them and claiming their belts serves as both proof of valor and a necessary measure to keep the settlement secure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Rite of Strength?",
+   "aliases": [
+    "why do rite of strength",
+    "rite of strength lore",
+    "purpose of rite of strength"
+   ],
+   "answer": "It is the foundational step of the Rites of the Earthmother, designed to test a young tauren's bravery in combat. By eliminating hostile threats to the camp, an initiate earns the right to advance toward true respect in Thunder Bluff."
+  },
+  {
+   "q": "Who assigns and judges this trial?",
+   "aliases": [
+    "who gives rite of strength",
+    "who turns in rite of strength"
+   ],
+   "answer": "Seer Graytongue delivers the charge to the initiate, outlining the trial's spiritual and practical requirements. Once twelve Bristleback belts are gathered, the proof of valor must be presented directly to Chief Hawkwind in Camp Narache."
+  },
+  {
+   "q": "Where is Brambleblade Ravine located?",
+   "aliases": [
+    "where is brambleblade ravine",
+    "brambleblade location"
+   ],
+   "answer": "Brambleblade Ravine lies directly to the east of Camp Narache on the Red Cloud Mesa. It is a thorny canyon swarming with hostile Bristleback quilboar."
+  },
+  {
+   "q": "Why are the Bristlebacks being targeted?",
+   "aliases": [
+    "why kill bristlebacks",
+    "what did the quilboar do"
+   ],
+   "answer": "The Bristlebacks are encroaching upon the tribe's ancestral hunting grounds. They repeatedly stage ambushes against tauren hunters and steal provisions from Camp Narache in the dark, making them direct enemies of the tribe."
+  },
+  {
+   "q": "Why collect belts instead of other trophies?",
+   "aliases": [
+    "why bristleback belts",
+    "why belts"
+   ],
+   "answer": "Belts serve as tangible tokens of defeated warriors, proving that the initiate faced the quilboar in close quarters and brought down adult combatants rather than merely scavenging from a distance."
+  },
+  {
+   "q": "What comes after completing the Rite of Strength?",
+   "aliases": [
+    "what is after rite of strength",
+    "next earthmother rite"
+   ],
+   "answer": "Passing the Rite of Strength proves one's valor and qualifies the initiate for the subsequent trials of the Earthmother, continuing the formal path of adulthood and spiritual standing within the tribe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Every young tauren begins their journey through these ancient rites, demonstrating readiness to protect their people from the quilboar threat before leaving Red Cloud Mesa."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Defending the mesa secures one of the Horde's core recruiting grounds, ensuring young warriors and shamans can mature safely to aid the new union."
+  }
+ ],
+ "keywords": [
+  "brambleblade ravine",
+  "bristleback",
+  "camp narache",
+  "chief hawkwind",
+  "earthmother",
+  "mulgore",
+  "quilboar",
+  "rite of strength",
+  "seer graytongue"
+ ],
+ "related": [
+  "quest:763",
+  "npc:seer-graytongue",
+  "npc:chief-hawkwind",
+  "subzone:brambleblade-ravine",
+  "subzone:camp-narache",
+  "topic:tauren",
+  "zone:mulgore",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Rite of Strength (Classic)"
+ ]
+}

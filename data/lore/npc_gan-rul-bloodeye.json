@@ -1,0 +1,112 @@
+{
+ "key": "npc:gan-rul-bloodeye",
+ "type": "npc",
+ "name": "Gan'rul Bloodeye",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Gan'rul Bloodeye",
+  "refs": 7
+ },
+ "summary": "Gan'rul Bloodeye is a senior orc warlock trainer residing deep within the dark cavern of the Cleft of Shadow in Orgrimmar. Hidden away from the watchful gaze of the city above, he initiates Horde warlocks into darker demonic rites. Under his instruction, initiates learn to bend otherworldly entities like voidwalkers and succubi to their will.",
+ "sections": [
+  {
+   "title": "A Master in the Shadows",
+   "body": "While Warchief Thrall tolerates the presence of warlocks in the new Horde, their dark arts are not welcomed in the open sunlight of Durotar. Gan'rul Bloodeye makes his home in the Cleft of Shadow, a subterranean refuge beneath Orgrimmar where shadow weavers, rogues, and fel casters can study unmolested. From this subterranean perch, Gan'rul serves as a primary tutor for rising practitioners of fel magic.",
+   "spoiler": 0
+  },
+  {
+   "title": "Binding the Nether",
+   "body": "Gan'rul's primary duty is overseeing the dangerous summoning rituals required of ambitious warlocks. Practitioners seeking to bind greater demons\u2014such as the resilient voidwalker or the seductive succubus\u2014must consult Gan'rul to secure ritual components and learn the precise incantations needed to dominate the summoned creature before it consumes its master.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gan'rul Bloodeye?",
+   "aliases": [
+    "gan'rul bloodeye",
+    "who is ganrul",
+    "ganrul bloodeye role"
+   ],
+   "answer": "Gan'rul Bloodeye is an orc warlock trainer stationed in Orgrimmar. He mentors novice and intermediate Horde warlocks, teaching them how to summon and bind demons from the Twisting Nether."
+  },
+  {
+   "q": "Where can I find Gan'rul Bloodeye?",
+   "aliases": [
+    "ganrul location",
+    "where is gan'rul bloodeye",
+    "where is cleft of shadow trainer"
+   ],
+   "answer": "He is located in the Cleft of Shadow, the subterranean cavern network hidden beneath Orgrimmar. He stands alongside fellow dark practitioners, away from the main thoroughfares of the city."
+  },
+  {
+   "q": "Why are warlocks hidden in the Cleft of Shadow?",
+   "aliases": [
+    "why in caves",
+    "why hide warlocks",
+    "cleft of shadow lore"
+   ],
+   "answer": "Warchief Thrall and the shamanistic society of the new Horde strongly distrust fel magic and demonic corruption after the orcs' past enslavement. Warlocks are permitted within the Horde strictly for their utility, but their practice is relegated to the shadows to prevent civic unrest."
+  },
+  {
+   "q": "What demons does Gan'rul help summon?",
+   "aliases": [
+    "demons ganrul teaches",
+    "ganrul demon quests",
+    "voidwalker succubus trainer"
+   ],
+   "answer": "Gan'rul guides warlocks through the rituals required to summon and subjugate both the voidwalker and the succubus. Completing his tasks proves that the summoner possesses the necessary willpower to control these fiends."
+  },
+  {
+   "q": "Does Gan'rul have any known family?",
+   "aliases": [
+    "gan'rul relatives",
+    "halga bloodeye relative"
+   ],
+   "answer": "He shares a surname with Halga Bloodeye, though their precise relationship is not openly documented."
+  },
+  {
+   "q": "Who is Strahad, whom Gan'rul mentions?",
+   "aliases": [
+    "seeking strahad",
+    "who is strahad",
+    "strahad quest"
+   ],
+   "answer": "Strahad Farsan is an accomplished warlock residing in the Barrens near the Ratchet hills. Gan'rul eventually sends promising students to Strahad for more advanced instruction and greater challenges."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "For orc, undead, and troll warlocks, Gan'rul is a vital mentor in Kalimdor, providing the knowledge and trials needed to bind voidwalkers and succubi."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Gan'rul embodies the precarious position of fel magic in Thrall's Horde\u2014utilized for military strength, but confined to the underground recesses of the capital."
+  }
+ ],
+ "keywords": [
+  "bloodeye",
+  "cleft of shadow",
+  "gan'rul",
+  "orgrimmar",
+  "succubus",
+  "trainer",
+  "voidwalker",
+  "warlock"
+ ],
+ "related": [
+  "subzone:cleft-of-shadow",
+  "zone:orgrimmar",
+  "quest:1506",
+  "quest:1473",
+  "quest:1471",
+  "quest:1472",
+  "quest:1798",
+  "npc:carendin-halgar"
+ ],
+ "attribution": [
+  "Gan'rul Bloodeye"
+ ]
+}

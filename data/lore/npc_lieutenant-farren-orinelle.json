@@ -1,0 +1,111 @@
+{
+ "key": "npc:lieutenant-farren-orinelle",
+ "type": "npc",
+ "name": "Lieutenant Farren Orinelle",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Lieutenant Farren Orinelle",
+  "refs": 6
+ },
+ "summary": "Lieutenant Farren Orinelle is an officer of the Stormwind army currently stationed at the Southshore inn in the Hillsbrad Foothills. Deeply unhappy with his frontier posting, he spends most of his time drinking while outsourcing his duties to passing travelers. His primary military assignment is dealing with the encroaching murlocs along the coast, a chore he eagerly delegates in hopes of securing a transfer back south.",
+ "sections": [
+  {
+   "title": "Exile in Southshore",
+   "body": "Lieutenant Farren Orinelle did not choose Southshore. Dispatched far from Stormwind City, the lieutenant finds the damp, contested shores of Hillsbrad a miserable step down from the civilized comforts of the capital. Instead of patrolling the fields or coordinating defenses with his commanding officer, Marshal Redpath, Orinelle has practically taken up permanent residence inside Southshore's inn. His days are spent sulking, drinking, and dreaming of an official transfer order that will return him to the south.",
+   "spoiler": 0
+  },
+  {
+   "title": "Outsourcing Duty",
+   "body": "Despite his comfortable seat at the tavern, Orinelle still answers to Marshal Redpath, who tasked the lieutenant with clearing out the murlocs swarming the nearby shoreline. Unwilling to soil his boots in coastal mud, Orinelle relies on wandering adventurers to cull the creatures and gather proof of their demise. He hopes that presenting tangible results back to his superiors will show his duty is accomplished, hastening his eventual recall to Stormwind.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lieutenant Farren Orinelle?",
+   "aliases": [
+    "farren orinelle",
+    "who is orinelle",
+    "southshore lieutenant"
+   ],
+   "answer": "He is an officer of the Stormwind military stationed in Southshore, a town in the Hillsbrad Foothills. He can be found drinking inside the Southshore inn, grumbling about his posting."
+  },
+  {
+   "q": "Why is he in Southshore?",
+   "aliases": [
+    "why is farren in southshore",
+    "orinelle transfer"
+   ],
+   "answer": "He was transferred north from Stormwind City to bolster the local garrison and support Marshal Redpath. He thoroughly dislikes the assignment and longs to return home."
+  },
+  {
+   "q": "What is his official assignment?",
+   "aliases": [
+    "farren duty",
+    "orinelle mission",
+    "farren murlocs"
+   ],
+   "answer": "Marshal Redpath ordered him to deal with the hostile murlocs infesting the Hillsbrad coast, though Orinelle prefers paying traveling mercenaries to do the fighting for him."
+  },
+  {
+   "q": "Does he ever leave the Southshore inn?",
+   "aliases": [
+    "where to find farren",
+    "farren location",
+    "orinelle inn"
+   ],
+   "answer": "No. Orinelle spends almost all of his time lingering by the inn's bar, reluctant to brave the muddy beaches or hostile elements outside."
+  },
+  {
+   "q": "What is Farren's ultimate goal?",
+   "aliases": [
+    "what does farren want",
+    "reassignment"
+   ],
+   "answer": "He wants nothing more than to secure an official reassignment back to Stormwind City, away from the dangers and bleakness of Lordaeron's coast."
+  },
+  {
+   "q": "Who is Orinelle's commander?",
+   "aliases": [
+    "farren superior",
+    "farren boss",
+    "who commands farren"
+   ],
+   "answer": "He reports to Marshal Redpath, who commands the Alliance military detachment defending Southshore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions, Orinelle represents the disgruntled Southern troops holding a lonely Northern outpost, willing to offer coin and commendation to anyone handling his duties."
+  },
+  {
+   "target": "race:Human",
+   "text": "As a Stormwind soldier stuck far from Elwynn Forest, Orinelle's disdain for northern frontier duty highlights the rift between comfortable capital life and harsh overseas deployments."
+  }
+ ],
+ "keywords": [
+  "farren",
+  "hillsbrad",
+  "marshal redpath",
+  "murloc",
+  "orinelle",
+  "reassignment",
+  "southshore",
+  "stormwind"
+ ],
+ "related": [
+  "subzone:southshore",
+  "zone:hillsbrad",
+  "quest:536",
+  "quest:559",
+  "quest:562",
+  "quest:563",
+  "topic:stormwind-kingdom",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Lieutenant Farren Orinelle"
+ ]
+}

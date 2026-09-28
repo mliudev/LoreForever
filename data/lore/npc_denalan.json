@@ -1,0 +1,118 @@
+{
+ "key": "npc:denalan",
+ "type": "npc",
+ "name": "Denalan",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Denalan",
+  "refs": 14
+ },
+ "summary": "Denalan is an accomplished night elf herbalist and botanist who tends a quiet lakeside plot along the eastern shore of Lake Al'Ameth. Working under a simple awning, he devotes his days to studying the island's plant life and seeking botanical remedies for the strange corruption affecting Teldrassil. He frequently enlists young adventurers to gather samples, study violent timberlings, and test enchanted soils.",
+ "sections": [
+  {
+   "title": "A Botanist at Lake Al'Ameth",
+   "body": "While many kaldorei focus on martial vigilance or high druidic rites, Denalan pursues the patient, meticulous craft of herbalism. Stationed along the tranquil eastern banks of Lake Al'Ameth, he has established a modest research camp consisting of a cloth awning, simple field tools, and tidy rows of cultivated planter boxes. Rather than retreating to the grand barrows of Darnassus, he prefers to remain close to the loam, directly examining the unusual flora that has sprouted since the planting of the new World Tree.",
+   "spoiler": 0
+  },
+  {
+   "title": "Investigating Teldrassil's Blemishes",
+   "body": "Denalan's research is far more than an academic curiosity; it addresses the growing unrest among Teldrassil's native wildlife. The timberlings, normally docile woodland beings of wood and sprout, have turned increasingly aggressive. Denalan enchants specialized soil to nurse wild seeds in captivity and analyze how malignant forces seep into the root systems. By studying strange specimens like shimmering fronds, glowing fruit, and moss-twined growths, he seeks to isolate whatever dark taint is troubling the forest boughs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Denalan?",
+   "aliases": [
+    "denalan location",
+    "where is denalan",
+    "denalan map"
+   ],
+   "answer": "Denalan is located on the eastern bank of Lake Al'Ameth in southern Teldrassil, just east of Shadowglen and south of Dolanaar. He maintains a small camp with an awning and several cultivated planting beds right near the water's edge."
+  },
+  {
+   "q": "What is Denalan researching at his campsite?",
+   "aliases": [
+    "what does denalan do",
+    "denalan purpose",
+    "why is denalan at the lake"
+   ],
+   "answer": "Denalan is an herbalist studying the unusual flora of Teldrassil and the aggressive behavior of local woodland spirits. He uses enchanted planter boxes to grow timberling seeds, analyze curious wild plant specimens, and find ways to cleanse corruption seeping into the new World Tree's ecosystem."
+  },
+  {
+   "q": "Why are the timberlings attacking people?",
+   "aliases": [
+    "why are timberlings aggressive",
+    "timberling lore",
+    "corrupted timberlings"
+   ],
+   "answer": "Timberlings are plant-like nature spirits native to the boughs of Teldrassil. Normally peaceful parts of the forest ecology, they have become violent and erratic due to an unnatural corruption spreading through the soil and roots of the World Tree, prompting researchers like Denalan to investigate their seeds."
+  },
+  {
+   "q": "What are Denalan's planter boxes used for?",
+   "aliases": [
+    "denalan planter",
+    "denalans earth",
+    "denalan dirt boxes"
+   ],
+   "answer": "Denalan keeps specially prepared planter beds filled with enchanted earth. He uses them to cultivate wild seeds and strange botanical cuttings, allowing him to safely observe how the forest's flora reacts to purified soil away from wild contaminants."
+  },
+  {
+   "q": "Who does Denalan work with?",
+   "aliases": [
+    "denalan allies",
+    "who does denalan report to"
+   ],
+   "answer": "Denalan has worked closely with fellow herbalists such as Sylvia Whisperbloom and stays in regular communication with druidic researchers and scholars across Teldrassil, including Rellian Greenspyre in Darnassus."
+  },
+  {
+   "q": "What is the Moss-twined Heart that Denalan examines?",
+   "aliases": [
+    "moss twined heart",
+    "moss-twined heart quest",
+    "blackmoss heart"
+   ],
+   "answer": "The Moss-twined Heart is a blighted botanical core recovered from Blackmoss the Fetid, a corrupted timberling in Teldrassil. Denalan studies it in his enchanted soil to understand the unnatural sickness twisting the island's plant life."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Denalan exemplifies the kaldorei tradition of botanical study, demonstrating how gathering and cultivating wild plants can diagnose deeper ailments in the natural world."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids will find common cause with Denalan's lakeside experiments, as his work directly assists the Cenarion Circle's efforts to trace and purge the taint spreading through Teldrassil's roots."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Denalan's research at Lake Al'Ameth represents early kaldorei attempts to understand the unexpected flaws and growing pains of their new home, Teldrassil."
+  }
+ ],
+ "keywords": [
+  "blackmoss",
+  "botany",
+  "denalan",
+  "herbalist",
+  "kaldorei",
+  "lake al'ameth",
+  "oakenscowl",
+  "planter",
+  "teldrassil",
+  "timberlings"
+ ],
+ "related": [
+  "subzone:lake-al-ameth",
+  "zone:teldrassil",
+  "quest:997",
+  "quest:918",
+  "quest:919",
+  "quest:927",
+  "quest:941",
+  "quest:922"
+ ],
+ "attribution": [
+  "Denalan"
+ ]
+}

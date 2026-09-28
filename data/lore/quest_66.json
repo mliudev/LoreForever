@@ -1,0 +1,116 @@
+{
+ "key": "quest:66",
+ "type": "quest",
+ "name": "The Legend of Stalvan",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   66
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Madame Eva",
+  "end": "Clerk Daltry",
+  "previous": null,
+  "next": "The Legend of Stalvan (2)",
+  "wiki": "The Legend of Stalvan (Classic)",
+  "chain": []
+ },
+ "summary": "The Legend of Stalvan begins in Darkshire with a foreboding vision from the town diviner, Madame Eva. Disturbed by an omen portending death for her granddaughter Alyssa, Eva draws upon her cards and trance visions to divine a single lingering name: Stalvan. To untangle this thread of dread, she sends travelers to consult town records in the Darkshire Town Hall.",
+ "sections": [
+  {
+   "title": "A Vision of Death",
+   "body": "In the perpetual gloom of Duskwood, Madame Eva serves as Darkshire's resident seer, interpreting portents and reading cards for troubled locals. After being jolted awake by a terrible disturbance, Eva consulted her divination deck, only to draw the Death card in connection to her young granddaughter, Alyssa. Falling into a deep, shadowy trance to pierce the gloom, she pulled forth only a single clue: the name Stalvan. Terrified of what this omen means for her family and the town, she turns to capable adventurers to follow the thread before tragedy strikes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Inquiries at Town Hall",
+   "body": "Eva knows that uncovering the truth of Stalvan requires looking into Darkshire's written history. She directs adventurers across the square to the Darkshire Town Hall to speak with Clerk Daltry, the municipal keeper of ledgers and public archives. Daltry oversees the township's dusty documents, making him the only person capable of determining whether Stalvan was a former resident, a traveler passing through, or something far more sinister buried in Duskwood's past.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Madame Eva?",
+   "aliases": [
+    "madame eva",
+    "who is eva",
+    "darkshire fortune teller"
+   ],
+   "answer": "Madame Eva is a fortune teller and diviner who lives in Darkshire. She uses cards and trance rituals to glimpse portents of the future and senses magical disturbances shifting across Duskwood."
+  },
+  {
+   "q": "Why does Madame Eva need help?",
+   "aliases": [
+    "why start stalvan",
+    "eva vision",
+    "why help eva"
+   ],
+   "answer": "Madame Eva experienced a terrifying vision indicating that her granddaughter Alyssa is in mortal danger. Her cards drew the Death card, and her trance yielded only the name 'Stalvan', prompting her to seek outside aid to investigate the threat."
+  },
+  {
+   "q": "Who is Clerk Daltry?",
+   "aliases": [
+    "clerk daltry",
+    "daltry",
+    "who is town clerk"
+   ],
+   "answer": "Clerk Daltry is the civic record keeper stationed inside the Darkshire Town Hall. He manages the town's ledgers, registries, and historical documents, making him the best person to ask about unfamiliar names."
+  },
+  {
+   "q": "What is Darkshire Town Hall?",
+   "aliases": [
+    "darkshire town hall",
+    "town hall duskwood"
+   ],
+   "answer": "The Darkshire Town Hall is the administrative center of the town, housing the local government officials, historical records, and the Night Watch's command staff."
+  },
+  {
+   "q": "Who is Alyssa?",
+   "aliases": [
+    "alyssa",
+    "madame eva granddaughter"
+   ],
+   "answer": "Alyssa is Madame Eva's young granddaughter living in Darkshire. Eva's reading revealed that Alyssa is targeted by a deadly omen connected to someone named Stalvan."
+  },
+  {
+   "q": "Where does this investigation lead next?",
+   "aliases": [
+    "stalvan next step",
+    "what does daltry say"
+   ],
+   "answer": "Speaking to Clerk Daltry reveals town records and past inquiries, beginning an extensive investigation across Duskwood and neighboring regions to uncover Stalvan's history and fate."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As Duskwood struggles without regular army support from Stormwind, Alliance adventurers frequently step in to assist town elders and protect vulnerable families like Madame Eva's."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests walking the dark roads of Darkshire often take heed of spiritual warnings, making Madame Eva's chilling death omens an urgent matter of pastoral duty."
+  }
+ ],
+ "keywords": [
+  "alyssa",
+  "clerk daltry",
+  "darkshire",
+  "death card",
+  "duskwood",
+  "madame eva",
+  "stalvan",
+  "town hall"
+ ],
+ "related": [
+  "npc:madame-eva",
+  "npc:clerk-daltry",
+  "subzone:darkshire-town-hall",
+  "subzone:darkshire",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "The Legend of Stalvan (Classic)"
+ ]
+}

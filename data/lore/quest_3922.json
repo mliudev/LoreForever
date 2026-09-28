@@ -1,0 +1,118 @@
+{
+ "key": "quest:3922",
+ "type": "quest",
+ "name": "Nugget Slugs",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   3922
+  ],
+  "level": "15",
+  "faction": "Horde",
+  "start": "Wenikee Boltbucket",
+  "end": "",
+  "previous": "Wenikee Boltbucket (quest)",
+  "next": null,
+  "wiki": "Nugget Slugs (Classic)",
+  "chain": []
+ },
+ "summary": "Nugget Slugs is a quest in the northern Barrens given by the eccentric tinkerer Wenikee Boltbucket. Eager to repair and experiment on a recovered samophlange, she tasks adventurers with raiding the nearby Venture Company drilling operations at the Sludge Fen for spare parts.",
+ "sections": [
+  {
+   "title": "Wenikee's Engineering Needs",
+   "body": "Having come into possession of an intricate samophlange, Wenikee Boltbucket is determined to tinker with the strange machine and see how it works. However, precise goblinoid mechanics demand very specific hardware. Lacking the materials herself, Wenikee sends runners to pilfer seventeen-point-five gauge nugget slugs from the local Venture Company work crews, who carelessly leave their heavy tool buckets lying around the nearby Sludge Fen oilworks.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Volatile Breakthrough",
+   "body": "Gathering fifteen of the specialized metal slugs requires dodging Venture Company operators and deforesters tearing through the marshes east of the road. Once the hardware is delivered, Wenikee wastes no time setting the samophlange on the ground to begin immediate adjustments. True to goblin engineering form, the volatile combination of mismatched parts and hasty assembly results in a sudden, catastrophic explosion\u2014leaving Wenikee shaken but remarkably undeterred.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a nugget slug?",
+   "aliases": [
+    "nugget slug",
+    "nugget slugs",
+    "what are nugget slugs"
+   ],
+   "answer": "In goblin engineering parlance, nugget slugs are small, standardized metallic fasteners or ammunition components. Wenikee specifically requires seventeen-point-five gauge slugs to interface with the delicate internal gears of the samophlange."
+  },
+  {
+   "q": "Who is Wenikee Boltbucket?",
+   "aliases": [
+    "wenikee",
+    "who is wenikee",
+    "wenikee boltbucket"
+   ],
+   "answer": "Wenikee Boltbucket is an independent tinkerer camping out along the main trail in the northern Barrens. She has an obsessive curiosity with intricate mechanical contraptions, particularly samophlanges, regardless of the obvious safety hazards involved."
+  },
+  {
+   "q": "Where are the nugget slugs found?",
+   "aliases": [
+    "where are tool buckets",
+    "find nugget slugs",
+    "sludge fen buckets"
+   ],
+   "answer": "They are scavenged from tool buckets scattered around the Sludge Fen, an industrialized logging and oil extraction camp run by the Venture Company directly east of Wenikee's small roadside campsite."
+  },
+  {
+   "q": "What happens when Wenikee repairs the samophlange?",
+   "aliases": [
+    "does the samophlange work",
+    "samophlange explosion",
+    "wenikee explosion"
+   ],
+   "answer": "As soon as Wenikee receives the parts and begins wrenching on the machine, it overloads and detonates directly in her face, demonstrating the dangerously volatile nature of poorly calibrated machinery."
+  },
+  {
+   "q": "Why is the Venture Company at the Sludge Fen?",
+   "aliases": [
+    "why venture co sludge fen",
+    "sludge fen purpose",
+    "venture company barrens"
+   ],
+   "answer": "The Venture Company established the Sludge Fen to strip-mine and extract oil and natural resources from the marshlands of the Barrens, polluting the surrounding landscape with heavy drill rigs and refineries."
+  },
+  {
+   "q": "Does this quest unlock any further tasks?",
+   "aliases": [
+    "what comes next",
+    "follow up quest",
+    "after nugget slugs"
+   ],
+   "answer": "Nugget Slugs is the concluding task in Wenikee's brief errand chain. Following the explosive failure of her repair attempt, she has no further assignments for adventurers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Any practicing engineer will recognize the telltale warning signs of goblin handiwork long before Wenikee's hasty repairs blow up in her face."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Venture Company's invasive operations at the Sludge Fen are a persistent environmental nuisance to the Horde, making any excuse to steal their supplies a welcome one."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "nugget slugs",
+  "samophlange",
+  "sludge fen",
+  "tool buckets",
+  "venture company",
+  "wenikee boltbucket"
+ ],
+ "related": [
+  "quest:3921",
+  "quest:894",
+  "subzone:sludge-fen",
+  "topic:venture-company",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Nugget Slugs (Classic)"
+ ]
+}

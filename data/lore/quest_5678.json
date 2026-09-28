@@ -1,0 +1,103 @@
+{
+ "key": "quest:5678",
+ "type": "quest",
+ "name": "Arcane Feedback",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   5678
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Priestess Alathea",
+  "end": "High Priestess Laurena",
+  "previous": null,
+  "next": null,
+  "wiki": "Arcane Feedback (Darnassus)",
+  "chain": []
+ },
+ "summary": "\"Arcane Feedback\" is an Alliance priest quest that directs human priests training in Darnassus back home to Stormwind. Sent by Priestess Alathea at the Temple of the Moon, the journey highlights the deep cultural rift regarding magic between the night elves and the Eastern Kingdoms. Upon returning to the Cathedral of Light, High Priestess Laurena prepares the acolyte for deeper theological instruction.",
+ "sections": [
+  {
+   "title": "A Reluctant Summons",
+   "body": "Priestess Alathea oversees visiting priests within the tranquil halls of the Temple of the Moon in Darnassus. While she recognizes the formal alliance between the kaldorei and the humans of Stormwind, she harbors deep misgivings about human magical and spiritual practices. Night elf society views arcane power as inherently volatile and dangerous, shaped by ten millennia of grief following the War of the Ancients. Even divine rites from humanity that blur the lines between radiant faith and arcane mechanics make night elf clergy distinctly uneasy.",
+   "spoiler": 0
+  },
+  {
+   "title": "Return to the Cathedral",
+   "body": "Despite her hesitation, Alathea honors the bond between the Alliance races and releases the visiting acolyte to answer a recall from the Cathedral of Light. High Priestess Laurena has sent couriers across the seas to gather growing human priests for advanced training. Stepping back into Stormwind, the acolyte leaves behind the moonlit groves of Elune to embrace the grand stone sanctuaries and golden radiance of the Holy Light.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Priestess Alathea want me to leave Darnassus?",
+   "aliases": [
+    "why alathea sends me away",
+    "why return to stormwind",
+    "alathea arcane feedback"
+   ],
+   "answer": "Priestess Alathea is acting on summons sent by your superiors in Stormwind, but she is also uncomfortable with human theological practices. She openly admits her deep-seated distrust of arcane magic, whether divinely influenced or not, making her eager to send human acolytes back to their own grand cathedrals."
+  },
+  {
+   "q": "Why do night elves distrust human priestly magic?",
+   "aliases": [
+    "why night elves hate arcane",
+    "night elf arcane distrust",
+    "elune vs holy light"
+   ],
+   "answer": "Night elf culture is fundamentally defined by the catastrophic Sundering, which was caused by reckless arcane spellcraft ten thousand years ago. Kaldorei worship centers on Elune, and their priestesses view any tradition that borders on or incorporates arcane manipulation with profound suspicion, even if practiced by allies in the Holy Light."
+  },
+  {
+   "q": "Who is High Priestess Laurena?",
+   "aliases": [
+    "who is laurena",
+    "high priestess laurena stormwind"
+   ],
+   "answer": "High Priestess Laurena is a prominent spiritual leader within the Cathedral of Light in Stormwind City. She oversees the training and advancement of emerging human priests, guiding their understanding of the Holy Light as their power grows."
+  },
+  {
+   "q": "What does this quest lead into?",
+   "aliases": [
+    "what comes after arcane feedback",
+    "arcane feedback reward lore"
+   ],
+   "answer": "Reporting to High Priestess Laurena marks your transition into higher-level human priestly instruction in Stormwind, unlocking the discipline and blessings unique to human adherents of the Holy Light."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This pilgrimage marks a crucial threshold in your spiritual path, serving as a reminder of the sharp philosophical divide between Elune's sisterhood and the dogmas of the Holy Light."
+  },
+  {
+   "target": "race:Human",
+   "text": "Returning to Stormwind brings you home to the heart of the Church of the Holy Light, leaving behind the cloistered and skeptical kaldorei priesthood."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Priestess Alathea's candid wariness illustrates the ever-present kaldorei fear that arcane tampering by the younger mortal races could lead to renewed disaster."
+  }
+ ],
+ "keywords": [
+  "arcane feedback",
+  "cathedral of light",
+  "darnassus",
+  "high priestess laurena",
+  "holy light",
+  "priest quest",
+  "priestess alathea",
+  "stormwind"
+ ],
+ "related": [
+  "npc:priestess-alathea",
+  "npc:high-priestess-laurena",
+  "subzone:cathedral-of-light",
+  "topic:stormwind-kingdom",
+  "topic:light"
+ ],
+ "attribution": [
+  "Arcane Feedback (Darnassus)"
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "key": "quest:482",
+ "type": "quest",
+ "name": "Dalaran's Intentions",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   482
+  ],
+  "level": "14",
+  "faction": "Horde",
+  "start": "Dalar Dawnweaver",
+  "end": "Shadow Priest Allister",
+  "previous": "Dalar's Analysis",
+  "next": "Ambermill Investigations",
+  "wiki": "Dalaran's Intentions",
+  "chain": []
+ },
+ "summary": "Dalaran's Intentions is a Silverpine Forest quest delivered by Dalar Dawnweaver to Shadow Priest Allister. Having unraveled the magical artifacts worn by Kirin Tor operatives in Ambermill, Dalar realizes the wizards intend to tap a dormant ley energy node beneath the town, prompting the Forsaken leadership at the Sepulcher to plan a counter-offensive.",
+ "sections": [
+  {
+   "title": "A Dormant Spark",
+   "body": "While examining the pendants recovered from fallen Dalaran wizards, Dalar Dawnweaver remembers an old Kirin Tor survey. Ambermill was not chosen by the mages by coincidence; the quiet village rests directly atop a dormant ley energy node. Awaking such a subterranean nexus requires immense magical reserves, and the enchanted pendants worn by the wizards serve as key components in channeling and catalyzing that power.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat to Silverpine",
+   "body": "The Forsaken cannot tolerate a fortified, power-fueled Kirin Tor outpost threatening the southern approaches to the Sepulcher and Tirisfal Glades. Whatever grand ritual the magi are preparing, harnessing raw ley lines would grant Dalaran an enormous strategic advantage in Lordaeron. Dalar sends word urgently to Shadow Priest Allister to formulate a strategy that will stall the wizards' progress before their ritual reaches completion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Kirin Tor trying to do in Ambermill?",
+   "aliases": [
+    "ambermill ley line",
+    "what are dalaran wizards doing in silverpine",
+    "ambermill purpose"
+   ],
+   "answer": "The wizards of Dalaran are attempting to reactivate a dormant ley energy node situated beneath Ambermill. Tapping this arcane vein would grant them tremendous power to establish a permanent presence and pursue their broader plans in Silverpine Forest."
+  },
+  {
+   "q": "Why does Dalar send you to Shadow Priest Allister?",
+   "aliases": [
+    "why tell allister",
+    "who is allister",
+    "dalar dawnweaver allister"
+   ],
+   "answer": "Shadow Priest Allister acts as a senior military and spiritual leader for the Forsaken based out of the Sepulcher. Dalar Dawnweaver provides arcane insight and research, but tactical decisions and offensive countermeasures against Dalaran fall under Allister's authority."
+  },
+  {
+   "q": "How do the wizards' pendants tie into their plans?",
+   "aliases": [
+    "kirin tor pendants",
+    "ambermill pendants",
+    "why collect pendants"
+   ],
+   "answer": "Reawakening a dormant ley node demands massive reserves of power. The Dalaran wizards carry enchanted pendants that act as conduits and reservoirs for this magic. Depriving the mages of these pendants undermines their ability to complete the activation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Dalaran's presence so deep in Silverpine is a direct threat to the Forsaken's borders; stopping their ley line ritual protects the roads between Tirisfal and the southern borders."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Forsaken mages will recognize the Kirin Tor's methods: tapping dormant ley lines is an efficient way to establish a powerful arcane beachhead without hauling massive power sources across wilderness."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Shadow Priest Allister directs the Forsaken defense at the Sepulcher, blending cold military pragmatism with the dark teachings of the Cult of Forgotten Shadow to purge living threats."
+  }
+ ],
+ "keywords": [
+  "ambermill",
+  "dalar dawnweaver",
+  "dalaran's intentions",
+  "kirin tor",
+  "ley energy",
+  "sepulcher",
+  "shadow priest allister",
+  "silverpine forest"
+ ],
+ "related": [
+  "npc:dalar-dawnweaver",
+  "npc:shadow-priest-allister",
+  "quest:481",
+  "quest:479",
+  "subzone:ambermill",
+  "subzone:sepulcher",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Dalaran's Intentions"
+ ]
+}

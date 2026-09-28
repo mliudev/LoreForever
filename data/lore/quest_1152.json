@@ -1,0 +1,125 @@
+{
+ "key": "quest:1152",
+ "type": "quest",
+ "name": "Test of Lore",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1152
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Dorn Plainstalker",
+  "end": "Braug Dimspirit",
+  "previous": "Test of Strength",
+  "next": "Test of Lore (2)",
+  "wiki": "Test of Lore",
+  "chain": []
+ },
+ "summary": "Following trials of faith, endurance, and strength in Thousand Needles, Dorn Plainstalker directs Horde champions northward to Stonetalon Mountains. There, a wise shaman named Braug Dimspirit waits to administer the Test of Lore. This trial shifts the focus from physical resolve to an understanding of the world's deep history and widespread suffering.",
+ "sections": [
+  {
+   "title": "From Faith to Lore",
+   "body": "In the sheltered refuge of the Weathered Nook, Dorn Plainstalker pushes initiates through demanding trials meant to test their spiritual conviction, physical endurance, and martial prowess. Yet brute strength and blind faith alone do not make a true champion of the Horde. Dorn recognizes his own boundaries as a teacher and sends those who have proven themselves to Stonetalon Mountains, where an elder shaman can test their intellect and worldliness.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Stonetalon",
+   "body": "The journey takes travelers north across the dry scrub of the Barrens and into the crags of Stonetalon. High in the mountains, near the entrance to Talondeep Path\u2014the cavern cutting through the rock toward Ashenvale\u2014sits the hermitage of Braug Dimspirit. He watches over an embattled frontier where goblin logging ventures despoil the forests and hostile night elves fiercely defend their ancestral borders.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Broader Perspective",
+   "body": "Upon meeting Braug, the true purpose of the test becomes apparent. Rather than asking for blind factional pride, Braug reflects on the tragic state of Azeroth. He observes that while the orcs and Forsaken receive relentless blame for war and corruption, almost every civilization shares responsibility for the land's plight. Goblins tear down ancient timber, and night elves harbor deep distrust for the younger races. The Test of Lore demands that a champion see beyond immediate enmities and grasp the broader history of a wounded world.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Test of Lore?",
+   "aliases": [
+    "test of lore meaning",
+    "what is this quest"
+   ],
+   "answer": "It is an instructional trial within a larger rite of passage designed by tauren elders. Initiates must prove that they possess not only physical might and faith, but also historical awareness and an understanding of Azeroth's shared past."
+  },
+  {
+   "q": "Where can I find Braug Dimspirit?",
+   "aliases": [
+    "braug dimspirit location",
+    "where is braug"
+   ],
+   "answer": "Braug Dimspirit resides in the Stonetalon Mountains, situated near Windshear Crag right by the entrance to the Talondeep Path cave that connects Stonetalon to Ashenvale."
+  },
+  {
+   "q": "Why does Dorn Plainstalker send you away?",
+   "aliases": [
+    "why stonetalon",
+    "why dorn sends you"
+   ],
+   "answer": "Dorn oversees the trials of faith, endurance, and strength in Thousand Needles, but he admits that the lore of the world is not his domain to teach. He directs worthy initiates to Braug, a shaman with the necessary wisdom to test the mind."
+  },
+  {
+   "q": "What threats should travelers look out for on the way?",
+   "aliases": [
+    "dangers to braug",
+    "talondeep path danger"
+   ],
+   "answer": "Dorn specifically warns that night elves prowl the borderlands near Ashenvale and Stonetalon, viewing Horde presence as an intrusion. The surrounding area in Windshear Crag is also rife with volatile goblin logging operations."
+  },
+  {
+   "q": "What is Braug Dimspirit's view of the world's conflicts?",
+   "aliases": [
+    "braug dimspirit philosophy",
+    "what does braug believe"
+   ],
+   "answer": "Braug believes that all mortal races share blame for the world's suffering. While the orcs and Forsaken are frequently demonized by rivals, he points out that goblin greed and night elven arrogance have inflicted equal harm across Kalimdor and Lordaeron."
+  },
+  {
+   "q": "What is the Talondeep Path?",
+   "aliases": [
+    "what is talondeep path",
+    "talondeep cave"
+   ],
+   "answer": "Talondeep Path is a prominent mountain tunnel system linking Windshear Crag in the Stonetalon Mountains with the ancient woodland borders of southern Ashenvale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The trials embody traditional tauren philosophies, valuing spiritual harmony and historical understanding above raw bloodlust."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Braug Dimspirit represents the shamanic worldview that reads the land's suffering through the reckless deeds of mortals, from goblin exploitation to ancient elven isolation."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Braug's trial forces Horde champions to reflect candidly on their own allies' reputations, reminding them that neither the orcs nor the Forsaken are solely responsible for the land's troubles."
+  }
+ ],
+ "keywords": [
+  "braug dimspirit",
+  "dorn plainstalker",
+  "stonetalon mountains",
+  "talondeep path",
+  "test of lore",
+  "thousand needles",
+  "weathered nook",
+  "windshear crag"
+ ],
+ "related": [
+  "quest:1151",
+  "quest:1149",
+  "npc:dorn-plainstalker",
+  "subzone:weathered-nook",
+  "subzone:talondeep-path",
+  "subzone:windshear-crag",
+  "zone:stonetalon",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Test of Lore"
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "key": "quest:151",
+ "type": "quest",
+ "name": "Poor Old Blanchy",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   151
+  ],
+  "level": "14",
+  "faction": "Alliance",
+  "start": "Verna Furlbrow",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Poor Old Blanchy",
+  "chain": []
+ },
+ "summary": "Poor Old Blanchy is a task given by Verna Furlbrow along the main road in Westfall. After their wagon breaks down during an attempted escape, the Furlbrows find their elderly mare exhausted and starving. Adventurers are asked to scavenge scattered sacks of oats from nearby abandoned farmsteads to nourish the tired beast.",
+ "sections": [
+  {
+   "title": "A Stranded Household",
+   "body": "Traveling along the dusty highway of Westfall, travelers encounter Verna and Westley Furlbrow stranded by the roadside. Like many working families in the region, the Furlbrows have been displaced by rampant banditry and rogue mechanical harvest golems. Attempting to haul their worldly possessions to safety, their wagon suffered a catastrophic breakdown, leaving them marooned in open country.",
+   "spoiler": 0
+  },
+  {
+   "title": "Comfort for a Faithful Mare",
+   "body": "At the center of their immediate plight is Old Blanchy, a venerable working mare who has served the family across long seasons of plowing and hauling. Exhausted from pulling the overloaded cart and starved by the unexpected delay, the gentle horse is fading fast. Verna begs passersby to slip onto nearby compromised farmsteads to scavenge surviving sacks of grain, braving hostile threshers and gnoll scavengers just to give the faithful animal a decent meal.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Old Blanchy?",
+   "aliases": [
+    "who is blanchy",
+    "what is old blanchy",
+    "blanchy lore"
+   ],
+   "answer": "Old Blanchy is the beloved, aging workhorse of the Furlbrow family. Having pulled their plows and carts across Westfall for years, she is now exhausted and stranded on the roadside after their wagon axle broke."
+  },
+  {
+   "q": "Why is the Furlbrow wagon broken down?",
+   "aliases": [
+    "why are they stuck",
+    "furlbrow wagon",
+    "broken wagon road"
+   ],
+   "answer": "The Furlbrows were attempting to flee their farm with all their belongings when their wagon gave out under the strain. They are left stranded along the highway, exposed to bandits and prowling beasts."
+  },
+  {
+   "q": "Where do the oats come from?",
+   "aliases": [
+    "where are oats",
+    "find oats",
+    "sacks of oats"
+   ],
+   "answer": "Sacks of oats remain strewn across the fields and outbuildings of Westfall's overrun farmsteads, left behind when homesteaders fled rogue harvest machines and bandits."
+  },
+  {
+   "q": "What threats guard the grain in the fields?",
+   "aliases": [
+    "what attacks at farms",
+    "farm dangers",
+    "harvest golems oats"
+   ],
+   "answer": "The agricultural fields southwest of the road are plagued by rogue mechanical harvest watchers and roving bands of Riverpaw gnolls who scavenge the deserted barns."
+  },
+  {
+   "q": "Why hasn't the family moved Old Blanchy to safety?",
+   "aliases": [
+    "why stay with wagon",
+    "can horse walk",
+    "why not go sentinel hill"
+   ],
+   "answer": "Old Blanchy is completely spent and starving, unable to pull or travel far without sustenance, while the Furlbrows refuse to abandon both their loyal mare and their worldly goods."
+  },
+  {
+   "q": "Does Stormwind send aid to farmers like the Furlbrows?",
+   "aliases": [
+    "stormwind help westfall",
+    "where are guards",
+    "alliance aid westfall"
+   ],
+   "answer": "Stormwind's royal court provides almost no protection or assistance to Westfall's homesteaders. Rural folk are largely left to fend for themselves or rely on the struggling People's Militia."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The stranded Furlbrows demonstrate the desperate neglect suffered by rural human subjects while the capital remains paralyzed by political stagnation."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tending to a spent draft animal underscores the bond between working folk and the beasts that faithfully bear their burdens."
+  }
+ ],
+ "keywords": [
+  "harvest golem",
+  "horse",
+  "oats",
+  "old blanchy",
+  "poor old blanchy",
+  "verna furlbrow",
+  "wagon",
+  "westfall"
+ ],
+ "related": [
+  "npc:verna-furlbrow",
+  "zone:westfall",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Poor Old Blanchy"
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "key": "subzone:sludgewerks",
+ "type": "subzone",
+ "name": "Sludgewerks",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Sludgewerks"
+ },
+ "summary": "Sludgewerks is a small Horde industrial platform situated along the shores of Mirkfallon Lake in the Stonetalon Mountains. Operated by goblins, the facility balances crude industry with the nearby natural habitat of the region's native wyverns.",
+ "sections": [
+  {
+   "title": "Industrial Encroachment",
+   "body": "Perched on the edge of Mirkfallon Lake, Sludgewerks represents the Horde's mechanical and logistical footprint in Stonetalon. Run primarily by goblins, the installation was constructed with the unusual intent of minimizing direct disruption to the surrounding wyvern population. In practice, however, building a mechanical platform squarely beneath a roost of wild flying beasts has created unforeseen hazards for the technicians, who must regularly contend with falling wyvern guano and the harsh realities of Kalimdor's wilderness.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Sludgewerks?",
+   "aliases": [
+    "sludgewerks purpose",
+    "what is this place",
+    "sludgewerks horde"
+   ],
+   "answer": "Sludgewerks is an industrial Horde encampment located on the shores of Mirkfallon Lake in Stonetalon Mountains, overseen and maintained by goblin operators."
+  },
+  {
+   "q": "Who controls this camp?",
+   "aliases": [
+    "who runs sludgewerks",
+    "sludgewerks faction",
+    "horde or neutral"
+   ],
+   "answer": "The platform is controlled by the Horde, utilizing goblin labor, engineering, and logistics to establish a foothold near the lake."
+  },
+  {
+   "q": "Why is it located beneath a wyvern roost?",
+   "aliases": [
+    "wyverns at sludgewerks",
+    "why wyvern poop",
+    "sludgewerks beasts"
+   ],
+   "answer": "The facility was positioned intentionally near the native wyvern habitat with plans to operate without displacing the beasts, though this has resulted in the goblins enduring endless wyvern droppings directly on their equipment."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Sludgewerks provides vital logistical and mechanical infrastructure for Horde operations pushing deeper into the rugged terrain of Stonetalon."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The goblin machinery operating by the lakeshore showcases classic, soot-belching engineering clashing head-on with Kalimdor's rugged wildlife."
+  }
+ ],
+ "keywords": [
+  "goblin",
+  "horde",
+  "mirkfallon lake",
+  "platform",
+  "sludgewerks",
+  "stonetalon",
+  "wyvern"
+ ],
+ "related": [
+  "subzone:mirkfallon-lake",
+  "zone:stonetalon",
+  "topic:horde",
+  "topic:goblin",
+  "subzone:sun-rock-retreat",
+  "subzone:cliffwalker-post"
+ ],
+ "attribution": [
+  "Sludgewerks"
+ ]
+}

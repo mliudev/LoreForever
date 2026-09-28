@@ -1,0 +1,124 @@
+{
+ "key": "quest:509",
+ "type": "quest",
+ "name": "Elixir of Agony",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   509
+  ],
+  "level": "28",
+  "faction": "Horde",
+  "start": "Apothecary Lydon",
+  "end": "Apothecary Lydon",
+  "previous": null,
+  "next": "Elixir of Agony (2)",
+  "wiki": "Elixir of Agony",
+  "chain": []
+ },
+ "summary": "In Tarren Mill, Apothecary Lydon enlists Horde adventurers to gather toxic fungi from an overrun farmstead in Hillsbrad Foothills. These virulent Mudsnout Blossoms serve as vital raw material for the Royal Apothecary Society's grim chemical experimentation. The resulting concoction is meant to aid Lady Sylvanas's long-term design to eradicate both the living and the Scourge.",
+ "sections": [
+  {
+   "title": "A Plague in the Making",
+   "body": "While the Scourge ravages the north and the Alliance clings to towns like Southshore, the Forsaken pursue their own calculated solution: the development of a tailored, lethal plague. Operating from the chapel laboratories of Tarren Mill, Apothecary Lydon labors under the mandate of the Dark Lady. Though personally cynical about the tedious toil of alchemy, Lydon diligently gathers potent organic toxins from the surrounding countryside to brew elixirs capable of speeding along the mutual destruction of Sylvanas's enemies.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fields of Nethander Stead",
+   "body": "South of Tarren Mill and east of the river lies Nethander Stead, an abandoned human farmstead now overrun by the vicious Mudsnout gnolls. Amid the filth and neglected soil, strange and foul-smelling mushrooms known as Mudsnout Blossoms flourish. These large, pungent growths hold concentrated organic poisons prized by the Royal Apothecary Society. Procuring them requires cutting through gnoll packs or quietly weaving past their ramshackle camps.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Apothecary Lydon?",
+   "aliases": [
+    "lydon",
+    "who is lydon",
+    "apothecary lydon lore"
+   ],
+   "answer": "Apothecary Lydon is an alchemist of the Royal Apothecary Society stationed at Tarren Mill in Hillsbrad Foothills. Working on behalf of Lady Sylvanas Windrunner, his duties focus on refining lethal mixtures and developing a new plague to defeat both living mortals and the Scourge."
+  },
+  {
+   "q": "What are Mudsnout Blossoms used for?",
+   "aliases": [
+    "mudsnout blossoms",
+    "what are the mushrooms for",
+    "blossom use"
+   ],
+   "answer": "Mudsnout Blossoms are noxious, foul-smelling mushrooms harvested from Nethander Stead. Apothecary Lydon uses their potent, natural toxic properties as a base ingredient to brew the Elixir of Agony, part of the Forsaken's broader chemical and biological warfare research."
+  },
+  {
+   "q": "Where is Nethander Stead located?",
+   "aliases": [
+    "nethander stead location",
+    "where is nethander stead",
+    "where are the gnolls"
+   ],
+   "answer": "Nethander Stead is an overgrown farmstead situated south of Tarren Mill, east of the major river that runs past Southshore. The farm has been claimed by aggressive Mudsnout gnolls who guard the fields where the mushrooms grow."
+  },
+  {
+   "q": "Why do the Forsaken want to create a new plague?",
+   "aliases": [
+    "why make a plague",
+    "forsaken plague reason",
+    "sylvanas plague"
+   ],
+   "answer": "Lady Sylvanas and the Forsaken seek a weapon powerful enough to eliminate both the relentless Scourge and the hostile living races of the Alliance. By engineering their own plague, the Royal Apothecary Society aims to secure the sovereignty and survival of the Forsaken in Lordaeron."
+  },
+  {
+   "q": "Why does Lydon complain about having to brew these elixirs?",
+   "aliases": [
+    "lydon attitude",
+    "why is lydon cynical"
+   ],
+   "answer": "Lydon is somewhat weary and morbid, observing that the humans and the Scourge are already bent on slaughtering each other without outside help. However, because Lady Sylvanas wants to accelerate their mutual destruction, he follows orders and continues concocting deadly brews."
+  },
+  {
+   "q": "What happens after collecting the blossoms?",
+   "aliases": [
+    "next quest",
+    "what follows elixir of agony"
+   ],
+   "answer": "Once Lydon receives the Mudsnout Blossoms, he proceeds with brewing the toxic mixture and soon requires additional ingredients and field testing to ensure the elixir reaches maximum lethal potency."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For Forsaken agents, assisting Lydon contributes directly to the Royal Apothecary Society's vital work in defending Lordaeron from humanity and the Lich King alike."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Herbalists and foragers will recognize the Mudsnout Blossom as a rare, extraordinarily toxic fungal specimen thriving in unworked soil tainted by gnoll habitation."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde emissaries operating in Tarren Mill must balance assisting their Forsaken allies with the unsettling reality of their chemical experimentation."
+  }
+ ],
+ "keywords": [
+  "apothecary lydon",
+  "elixir of agony",
+  "hillsbrad",
+  "mudsnout blossom",
+  "nethander stead",
+  "new plague",
+  "royal apothecary society",
+  "tarren mill"
+ ],
+ "related": [
+  "zone:hillsbrad",
+  "subzone:tarren-mill",
+  "subzone:nethander-stead",
+  "quest:367",
+  "topic:gnoll",
+  "topic:scourge",
+  "subzone:southshore",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Elixir of Agony"
+ ]
+}

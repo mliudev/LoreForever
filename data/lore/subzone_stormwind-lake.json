@@ -1,0 +1,78 @@
+{
+ "key": "subzone:stormwind-lake",
+ "type": "subzone",
+ "name": "Stormwind Lake",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Stormwind Lake"
+ },
+ "summary": "Stormwind Lake is a quiet body of water nestled behind the Cathedral Square in northeastern Stormwind City. Framed by grassy banks and the city cemetery, it serves as a tranquil spot for contemplation and recreational fishing away from the crowded trade districts.",
+ "sections": [
+  {
+   "title": "A Quiet Corner of the Capital",
+   "body": "Tucked away behind the grand Cathedral of Light in the northeastern corner of Stormwind City, Stormwind Lake anchors an open, park-like district. The surrounding grounds provide a rare patch of greenery within the city walls, bounded to the north by the quiet monuments of the Stormwind City Cemetery. The calm freshwater offers a peaceful refuge for visitors seeking a reprieve from the clamor of the canals and bustling market squares.",
+   "spoiler": 0
+  },
+  {
+   "title": "Waters of Reflection and Sport",
+   "body": "Aside from providing a scenic backdrop for mourners visiting the nearby graveyard, the lake is well known to local anglers. Its gentle waters host distinctive freshwater catches, including the stubborn Hardened Walleye, though careless fishers are just as likely to pull up tangled fishing line, driftwood, and old boots.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Stormwind Lake located?",
+   "aliases": [
+    "lake location",
+    "where is stormwind lake",
+    "how to find lake in stormwind"
+   ],
+   "answer": "Stormwind Lake is situated in the northeastern section of Stormwind City, directly behind the Cathedral of Light and Cathedral Square."
+  },
+  {
+   "q": "What borders Stormwind Lake?",
+   "aliases": [
+    "what is next to the lake",
+    "lake cemetery",
+    "lake borders"
+   ],
+   "answer": "The lake is flanked by park-like grassy banks, with the Stormwind City Cemetery surrounding its northern shoreline and Cathedral Square lying to the southwest."
+  },
+  {
+   "q": "Can you fish in Stormwind Lake?",
+   "aliases": [
+    "lake fishing",
+    "what fish in stormwind lake",
+    "hardened walleye lake"
+   ],
+   "answer": "Yes. It is a favored spot for city anglers, known primarily for yields of Hardened Walleye, alongside typical freshwater debris and sickly fish."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "The quiet waters of the lake offer aspiring chefs a convenient nearby spot to hook fresh catches like Hardened Walleye without having to travel outside the city walls."
+  }
+ ],
+ "keywords": [
+  "cathedral",
+  "cemetery",
+  "fishing",
+  "hardened walleye",
+  "pond",
+  "stormwind lake",
+  "water"
+ ],
+ "related": [
+  "subzone:cathedral-of-light",
+  "subzone:stormwind-city-cemetery",
+  "zone:stormwind",
+  "subzone:park",
+  "topic:stormwind-kingdom",
+  "topic:light"
+ ],
+ "attribution": [
+  "Stormwind Lake"
+ ]
+}

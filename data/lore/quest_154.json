@@ -1,0 +1,118 @@
+{
+ "key": "quest:154",
+ "type": "quest",
+ "name": "Return the Comb",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   154
+  ],
+  "level": "24",
+  "faction": "Alliance",
+  "start": "Blind Mary",
+  "end": "Madame Eva",
+  "previous": "Ghost Hair Thread (Classic)",
+  "next": "Deliver the Thread (Classic)",
+  "wiki": "Return the Comb (Classic)",
+  "chain": []
+ },
+ "summary": "Return the Comb is an Alliance errand in Duskwood that concludes the haunting transaction with the spirit Blind Mary. After being presented with a comb to harvest strands of her spectral hair, the tortured ghost is overcome with despair over her lost beauty and casts the implement away. Returning the hair-laden comb to Madame Eva allows the mystic to spin the ethereal thread needed for an enchanted ceremonial shroud.",
+ "sections": [
+  {
+   "title": "A Bitter Reflection",
+   "body": "Blind Mary lingers in a decrepit shack south of Darkshire, eternally mourning her tragic death and changed state. When approached with Madame Eva's comb, the reminder of mundane grooming only deepens her sorrow. Realizing she is now nothing more than an apparition\u2014a monster stripped of mortal grace whom no one will ever love again\u2014she recoils in horror, thrusting the comb and the ghostly hair tangled in its teeth back into the traveler's hands.",
+   "spoiler": 0
+  },
+  {
+   "title": "Weaving the Supernatural",
+   "body": "Madame Eva awaits the return of the comb in Darkshire, well aware of the macabre nature of the task. With the ghostly hair secured, the fortune teller possesses the rare spiritual medium necessary to spin a spool of Ghost Hair Thread. Eva utilizes these ethereal fibers to craft warding garments and fabrics capable of channeling subtle enchantments, paying travelers for any stray hairs left over from the delicate spinning process.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Blind Mary react with horror to the comb?",
+   "aliases": [
+    "why is mary upset",
+    "why did blind mary scream",
+    "mary comb reaction"
+   ],
+   "answer": "The comb reminds Blind Mary of her mortal life and beauty. Seeing herself reduced to a withered, spectral form causes an outburst of grief, driving her to reject the comb and lament that she has become a monster whom no one will ever cherish again."
+  },
+  {
+   "q": "What does Madame Eva do with the hair on the comb?",
+   "aliases": [
+    "why ghost hair",
+    "what does eva do with ghost hair",
+    "madame eva thread"
+   ],
+   "answer": "Madame Eva weaves the strands collected in the comb into Ghost Hair Thread, a mystical crafting component with supernatural properties used to stitch enchanted garments."
+  },
+  {
+   "q": "Where is Blind Mary located?",
+   "aliases": [
+    "where is blind mary",
+    "blind mary location"
+   ],
+   "answer": "Blind Mary haunts an abandoned, dilapidated shack located just south of Darkshire, near Tranquil Gardens Cemetery in Duskwood."
+  },
+  {
+   "q": "Who is Madame Eva?",
+   "aliases": [
+    "who is madame eva",
+    "eva darkshire"
+   ],
+   "answer": "Madame Eva is a mysterious human mystic and diviner residing in Darkshire. She provides fortune readings, cryptic guidance, and crafts magical trinkets and reagents for those navigating the perils of Duskwood."
+  },
+  {
+   "q": "What follows after returning the comb to Madame Eva?",
+   "aliases": [
+    "what comes next",
+    "next quest after return the comb"
+   ],
+   "answer": "Once Madame Eva takes the comb and prepares the spool of Ghost Hair Thread, she asks you to deliver the completed thread to Abercrombie, the hermit dwelling near Raven Hill Cemetery."
+  },
+  {
+   "q": "Why does Madame Eva give you coins upon completion?",
+   "aliases": [
+    "why do i get coins",
+    "extra strands money"
+   ],
+   "answer": "Eva notes that the comb yielded more than enough ghostly hair to weave the spool of thread required, and she compensates you with a few coins to buy out the surplus strands for her own use."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "The spinning of Ghost Hair Thread highlights the eerie crafts of Duskwood, demonstrating that spectral material can be harvested and carded into durable supernatural textiles."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Witnessing Blind Mary's agonizing self-loathing offers a bleak study in the torment of unsettled spirits who remain bound to the mortal world through grief rather than malice."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Navigating the gloomy roads between Darkshire and Mary's desolate home exposes travelers to the pervasive decay gripping the heart of Duskwood."
+  }
+ ],
+ "keywords": [
+  "blind mary",
+  "darkshire",
+  "duskwood",
+  "ghost hair",
+  "ghost hair thread",
+  "madame eva",
+  "return the comb"
+ ],
+ "related": [
+  "quest:149",
+  "npc:blind-mary",
+  "npc:madame-eva",
+  "subzone:darkshire",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Return the Comb (Classic)"
+ ]
+}

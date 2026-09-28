@@ -1,0 +1,141 @@
+{
+ "key": "zone:duskwood",
+ "type": "zone",
+ "name": "Duskwood",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": [
+   "Duskwood (Classic)",
+   "Duskwood"
+  ],
+  "levels": "18-30",
+  "aliases": []
+ },
+ "summary": "Once a sunlit expanse of southern Elwynn known as Brightwood, Duskwood is now a cursed woodland trapped beneath an unnatural, perpetual gloom. Abandoned by the authorities in Stormwind, its besieged human inhabitants cling to survival in Darkshire under the watchful protection of the local Night Watch militia. Across its darkened groves and haunted barrows roam flesh-eating ghouls, gigantic venomous spiders, raiding ogres, and savage, mysterious worgen.",
+ "sections": [
+  {
+   "title": "From Brightwood to Shadow",
+   "body": "Before the darkness descended, this province was known as Brightwood, a rich agricultural tract of the Kingdom of Stormwind boasting prosperous settlements like Grand Hamlet and Raven Hill. The region's tragedy began when Guardian Medivh fell at Karazhan during the First War, unleashing waves of corrupted fel magic that twisted the serene woodland into a gnarled, shadowy morass. Spiders mutated into terrifying predatory beasts, while fleeing wolves spilled north into Elwynn Forest. Over time, Grand Hamlet was rechristened Darkshire, its terrified townsfolk left largely to fend for themselves as the realm's royal garrison withdrew to defend the capital.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scythe and the Wolf-Men",
+   "body": "The land's modern nightmare deepened with the arrival of a night elf priestess named Velinde Starsong, who carried an otherworldly artifact known as the Scythe of Elune. When she vanished within the disused mine called Roland's Doom, the relic was eventually unearthed by a prospecting laborer named Jitters. The careless handling of the weapon unleashed ravenous, bipedal wolf-beasts known as worgen into the woods. Clad in perpetual mist and bloodlust, these extradimensional predators tore through the western groves, compounding the miseries of a region already groaning under undead curses.",
+   "spoiler": 1
+  },
+  {
+   "title": "A Beleaguered Borderland",
+   "body": "Today, Darkshire survives only through the vigilance of Commander Althea Ebonlocke and her volunteer militia, the Night Watch, while Lord Ello Ebonlocke attempts to govern the crumbling settlement. Beyond the town's lantern-lit perimeter lies utter peril: the massive Raven Hill Cemetery churns with restless dead raised by the necromancer Morbent Fel, the Vul'Gol ogres have migrated from Deadwind Pass to claim the south, and sinister Dark Riders stalk the crossroads in relentless search of the lost Scythe.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Twilight Grove",
+   "body": "Near the center of Duskwood lies a deep, ancient crater that defies the surrounding corruption: the Twilight Grove. Long before human kingdoms walked these lands, the archdruid Fandral Staghelm planted a bough from Nordrassil here to contain foul saronite growths. The branch blossomed into a Great Tree hosting a dormant portal into the Emerald Dream. Bathed in a soft, ethereal twilight, the grove remains an unearthly sanctuary in an otherwise dying land, watched over by sleeping druidic energies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is it called Duskwood instead of Brightwood?",
+   "aliases": [
+    "why duskwood dark",
+    "brightwood history",
+    "what happened to brightwood"
+   ],
+   "answer": "The land was once Brightwood, a vibrant southern province of Elwynn. When the Guardian Medivh was slain in nearby Karazhan during the First War, volatile fel energies washed over the forest, choking out the sunlight, twisting the flora, and giving rise to the name Duskwood."
+  },
+  {
+   "q": "Where did the worgen come from?",
+   "aliases": [
+    "why are there worgen",
+    "worgen origin duskwood",
+    "scythe of elune worgen"
+   ],
+   "answer": "The night elf Velinde Starsong brought the mystical Scythe of Elune into the region and perished near Roland's Doom. Years later, a frightened worker named Jitters disturbed the scythe in the mine, unwittingly opening tears that summoned the savage wolf-men into the forest."
+  },
+  {
+   "q": "Why are there so many undead in Raven Hill?",
+   "aliases": [
+    "raven hill undead",
+    "why ghosts in duskwood",
+    "morbent fel undead"
+   ],
+   "answer": "Raven Hill Cemetery served as the resting place for countless souls lost to famine, beasts, and war. The vile necromancer Morbent Fel established his lair on Forlorn Rowe, using dark sorcery to animate the graves into ghouls, skeletons, and abominations."
+  },
+  {
+   "q": "Why hasn't Stormwind sent soldiers to help Darkshire?",
+   "aliases": [
+    "why no stormwind guard",
+    "stormwind abandoned darkshire",
+    "where is the army"
+   ],
+   "answer": "With King Varian Wrynn missing and resources stretched thin, Stormwind's regency has pulled its military back to protect Elwynn and the throne. Darkshire is left entirely to its own devices, defended solely by the volunteer militia known as the Night Watch."
+  },
+  {
+   "q": "Who are the Dark Riders stalking the woods?",
+   "aliases": [
+    "black riders deadwind",
+    "riders at yorgen farm",
+    "who are dark riders"
+   ],
+   "answer": "The Dark Riders are mysterious hooded horsemen originating from Deadwind Pass near Karazhan. Drawn by the release of the Scythe of Elune, they swept into Duskwood, ruthlessly slaughtering Sven Yorgen's family while hunting for the artifact."
+  },
+  {
+   "q": "What is the massive tree in the center crater?",
+   "aliases": [
+    "twilight grove tree",
+    "green portal duskwood",
+    "crater tree"
+   ],
+   "answer": "The crater is the Twilight Grove, home to a Great Tree grown thousands of years ago from a branch of Nordrassil planted by Fandral Staghelm. It contains a portal to the Emerald Dream and maintains a calm, mystical twilight distinct from the cursed dark of the forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Though technically an Alliance holding, Duskwood receives zero official troop support from Stormwind, relying purely on heroic adventurers and the Night Watch to stave off annihilation."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The desecrated barrows of Raven Hill and the sinister necromancy of Morbent Fel make Duskwood an urgent testing ground for holy crusaders wielding the Light."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The Twilight Grove cradles an ancient Great Tree with deep ties to the Emerald Dream, making Duskwood a focal point for druids investigating the world's slumbering magic."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The haunted barrows and cursed soil yield rare flora like Grave Moss and Kingsblood, drawing gatherers willing to braving restless undead in the cemeteries."
+  }
+ ],
+ "keywords": [
+  "althea ebonlocke",
+  "brightwood",
+  "darkshire",
+  "duskwood",
+  "ello ebonlocke",
+  "jitters",
+  "morbent fel",
+  "night watch",
+  "raven hill",
+  "scythe of elune",
+  "sven yorgen",
+  "twilight grove",
+  "worgen"
+ ],
+ "related": [
+  "subzone:darkshire",
+  "subzone:raven-hill-cemetery",
+  "subzone:twilight-grove",
+  "topic:night-watch",
+  "npc:althea-ebonlocke",
+  "npc:jitters",
+  "quest:1043",
+  "quest:55"
+ ],
+ "attribution": [
+  "Duskwood (Classic)",
+  "Duskwood"
+ ]
+}

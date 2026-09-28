@@ -1,0 +1,125 @@
+{
+ "key": "quest:218",
+ "type": "quest",
+ "name": "The Stolen Journal",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   218
+  ],
+  "level": "5",
+  "faction": "Alliance",
+  "start": "Grelin Whitebeard",
+  "end": "",
+  "previous": "The Troll Cave",
+  "next": "Senir's Observations",
+  "wiki": "The Stolen Journal",
+  "chain": [
+   "The Troll Cave",
+   "The Stolen Journal",
+   "Senir's Observations",
+   "Senir's Observations (2)"
+  ]
+ },
+ "summary": "The Stolen Journal is an early Alliance quest in Dun Morogh where Grelin Whitebeard tasks adventurers with entering Frostmane Hold to reclaim his stolen notebook. To recover it, you must defeat the formidable troll leader Grik'nir the Cold. Reclaiming the journal allows Grelin to finalize his appraisal of the troll threat within Coldridge Valley.",
+ "sections": [
+  {
+   "title": "A Scholar's Lost Notes",
+   "body": "Grelin Whitebeard has been observing the Frostmane trolls encroaching on Coldridge Valley, keeping detailed notes on their habits and sudden aggression. During the unrest, an unusually imposing troll made off with his personal journal and retreated into the depths of their den. For Grelin, the loss is not merely sentimental; the notebook contains the bulk of his reconnaissance, leaving his official assessment stalled until it is recovered from the cavern.",
+   "spoiler": 0
+  },
+  {
+   "title": "Confronting Grik'nir the Cold",
+   "body": "The brute responsible for taking the journal is Grik'nir the Cold, a powerful Frostmane troll marked with distinctive body and facial paint who holds court in the heart of Frostmane Hold. Slaying Grik'nir breaks the immediate local leadership of the cave's trolls and secures Grelin's journal. With the leader dispatched, Grelin feels confident enough to report that the valley's troll situation is manageable, sending his finished findings on to his brother Senir.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who took Grelin Whitebeard's journal?",
+   "aliases": [
+    "who stole the journal",
+    "who has grelin's journal",
+    "journal thief"
+   ],
+   "answer": "The journal was taken by Grik'nir the Cold, a large Frostmane troll distinguished by strange markings on his skin and face who lurks deep within the troll cave."
+  },
+  {
+   "q": "Where can Grik'nir the Cold be found?",
+   "aliases": [
+    "where is griknir",
+    "grik'nir location",
+    "how to find grik'nir"
+   ],
+   "answer": "Grik'nir the Cold is located inside Frostmane Hold, the troll cave situated in the southwestern reaches of Coldridge Valley."
+  },
+  {
+   "q": "Why is the journal important to Grelin?",
+   "aliases": [
+    "why does grelin want his journal",
+    "what is in grelin's journal"
+   ],
+   "answer": "The journal holds Grelin Whitebeard's notes and findings regarding troll activity in Coldridge Valley. He needs it returned to assemble a complete report for his brother Senir."
+  },
+  {
+   "q": "What happens after you return the journal?",
+   "aliases": [
+    "what is next after the stolen journal",
+    "stolen journal next quest"
+   ],
+   "answer": "Once the journal is recovered, Grelin finishes his report assessing the troll situation in Coldridge Valley and asks you to courier his observations to his brother Senir Whitebeard at Kharanos."
+  },
+  {
+   "q": "Are the Frostmane trolls driven out of Coldridge Valley after this?",
+   "aliases": [
+    "are trolls defeated in coldridge",
+    "is coldridge safe from trolls"
+   ],
+   "answer": "Grelin believes the troll situation in Coldridge Valley is under control following Grik'nir's defeat, though the Frostmane remain an enduring threat across the broader mountain passes of Dun Morogh."
+  },
+  {
+   "q": "Who is Senir Whitebeard?",
+   "aliases": [
+    "who is senir",
+    "grelin brother senir"
+   ],
+   "answer": "Senir Whitebeard is Grelin's brother, an Alliance scout stationed outside Coldridge Valley near Kharanos who gathers intelligence on threats facing the kingdom."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Clearing out Frostmane leadership in Coldridge Valley protects young dwarven recruits taking their first steps outside Anvilmar."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomish refugees sheltering in Anvilmar rely on the safety of Coldridge Valley's passes as they regroup in dwarven territory."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Suppressing the aggressive Frostmane tribe ensures that Dun Morogh's starting valleys remain secured against internal disruption."
+  }
+ ],
+ "keywords": [
+  "coldridge valley",
+  "dun morogh",
+  "frostmane hold",
+  "frostmane troll",
+  "grelin whitebeard",
+  "grik'nir the cold",
+  "senir whitebeard",
+  "stolen journal"
+ ],
+ "related": [
+  "npc:grelin-whitebeard",
+  "quest:182",
+  "quest:282",
+  "subzone:coldridge-valley",
+  "zone:dunmorogh",
+  "topic:troll"
+ ],
+ "attribution": [
+  "The Stolen Journal"
+ ]
+}

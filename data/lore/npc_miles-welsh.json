@@ -1,0 +1,84 @@
+{
+ "key": "npc:miles-welsh",
+ "type": "npc",
+ "name": "Miles Welsh",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Miles Welsh",
+  "refs": 1
+ },
+ "summary": "Miles Welsh is a Forsaken priest trainer residing deep within the Pools of Vision beneath Thunder Bluff. He offers spiritual instruction and shadow discipline to priests traversing the tauren capital.",
+ "sections": [
+  {
+   "title": "A Shadow in the Caverns",
+   "body": "Miles Welsh stands far from the plague-scarred ruins of Lordaeron, making his home in the humid, spirit-laden grotto beneath Thunder Bluff known as the Pools of Vision. As a Forsaken priest, he instructs travelers who channel divine and shadowy energies. His presence in the heart of Mulgore reflects the tenuous diplomatic ties binding the Forsaken to the Horde, sharing sanctuary with tauren mystics and shamans while guiding acolytes in the arts of shadow and faith.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Miles Welsh?",
+   "aliases": [
+    "miles welsh role",
+    "who is miles welsh",
+    "miles welsh priest trainer"
+   ],
+   "answer": "Miles Welsh is an undead priest trainer stationed in the Pools of Vision under Thunder Bluff, assisting Horde priests with their training and specialized disciplines."
+  },
+  {
+   "q": "Where can I find Miles Welsh?",
+   "aliases": [
+    "miles welsh location",
+    "where is miles welsh",
+    "how to find miles welsh"
+   ],
+   "answer": "He is located in the Pools of Vision, an underground cavern system beneath the Spirit Rise in Thunder Bluff, accessed through a cave entrance on the mesa."
+  },
+  {
+   "q": "Why is an undead priest trainer in Thunder Bluff?",
+   "aliases": [
+    "why forsaken in thunder bluff",
+    "undead priest in tauren city"
+   ],
+   "answer": "The Forsaken and the tauren are allies within the Horde. The tauren, particularly Archdruid Hamuul Runetotem, advocated for admitting the Forsaken into the faction, allowing emissaries and trainers like Miles Welsh to offer their services in Mulgore."
+  },
+  {
+   "q": "What abilities does he teach?",
+   "aliases": [
+    "priest spells thunder bluff",
+    "what does miles welsh teach"
+   ],
+   "answer": "Miles Welsh trains general priest spells and assists Forsaken and troll acolytes seeking specialized racial teachings, such as Devouring Plague, Touch of Weakness, or Shadowguard."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "For priests traveling through Kalimdor, Miles Welsh is one of the few places in central horde territories to study new spells and advance spiritual training."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Miles provides a familiar, cold face from Lordaeron in an otherwise earthy and sun-drenched tauren capital."
+  }
+ ],
+ "keywords": [
+  "devouring plague",
+  "forsaken",
+  "miles welsh",
+  "pools of vision",
+  "priest trainer",
+  "spirit rise",
+  "thunder bluff"
+ ],
+ "related": [
+  "subzone:pools-of-vision",
+  "zone:thunderbluff",
+  "topic:forsaken",
+  "quest:5644",
+  "quest:5643"
+ ],
+ "attribution": [
+  "Miles Welsh"
+ ]
+}

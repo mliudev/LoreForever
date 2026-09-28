@@ -1,0 +1,122 @@
+{
+ "key": "quest:5630",
+ "type": "quest",
+ "name": "Returning Home",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   5630
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Maxan Anvol",
+  "end": "Priestess Alathea",
+  "previous": null,
+  "next": "Stars of Elune",
+  "wiki": "Returning Home (Dun Morogh)",
+  "chain": [
+   "Returning Home",
+   "Stars of Elune"
+  ]
+ },
+ "summary": "Returning Home is a summons for wandering night elf priests operating far from Kalimdor in the snowy crags of Dun Morogh. Directed by the dwarven priest trainer Maxan Anvol, the novice is instructed to return to the Temple of the Moon in Darnassus to report to Priestess Alathea.",
+ "sections": [
+  {
+   "title": "A Summons Across the Sea",
+   "body": "Night elves who choose to begin their adventures alongside their dwarven allies face the bitter biting cold of Dun Morogh, a far cry from the serene forests of Teldrassil. In Kharanos, the dwarven priest trainer Maxan Anvol takes note of the elf's fortitude before passing along an urgent message: a priestess of Elune passed through seeking them out, carrying orders from Darnassus that require their immediate return.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Temple of the Moon",
+   "body": "The journey demands a trek back to the sacred boughs of Teldrassil, leading directly to the Temple of the Moon. There, Priestess Alathea welcomes the traveler back into the fold of the Sisterhood of Elune. Relieved to see another devotee return unscathed from foreign lands, Alathea swiftly prepares the priest for their next rites of devotion, beginning with the Stars of Elune.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me on this quest?",
+   "aliases": [
+    "quest giver",
+    "who starts returning home",
+    "maxan anvol"
+   ],
+   "answer": "Maxan Anvol, the dwarven priest trainer stationed in Kharanos within Dun Morogh, delivers the message to you. He notes that another night elf priestess had recently passed through seeking you out."
+  },
+  {
+   "q": "Where do I need to go to complete it?",
+   "aliases": [
+    "turn in location",
+    "where is priestess alathea",
+    "where do i go"
+   ],
+   "answer": "You must travel back to Darnassus on the island of Teldrassil in northern Kalimdor. Priestess Alathea awaits you inside the Temple of the Moon."
+  },
+  {
+   "q": "Why is the Temple of the Moon calling me back?",
+   "aliases": [
+    "why returning home",
+    "priest summons reason"
+   ],
+   "answer": "Priestess Alathea and High Priestess Tyrande Whisperwind monitor the development of young initiates. Alathea wishes to verify your safety, hear of your travels under Elune's grace, and initiate your next stage of spiritual training through the Stars of Elune."
+  },
+  {
+   "q": "What happens after speaking with Priestess Alathea?",
+   "aliases": [
+    "next quest",
+    "what comes next"
+   ],
+   "answer": "Once you report your return, Priestess Alathea offers the quest Stars of Elune, continuing your foundational rites as a priest of the Kaldorei."
+  },
+  {
+   "q": "Why would a night elf be in Dun Morogh at level 10?",
+   "aliases": [
+    "why dun morogh",
+    "night elf in ironforge"
+   ],
+   "answer": "Night elf adventurers often journey to the Eastern Kingdoms by boat from Darkshore to Menethil Harbor to explore the lands of the Alliance or adventure alongside dwarf and gnome comrades."
+  },
+  {
+   "q": "Is this quest available to other races?",
+   "aliases": [
+    "can dwarves do returning home",
+    "who can take this quest"
+   ],
+   "answer": "No, this quest is specifically intended for night elf priests who are training abroad in dwarven lands, directing them back to their cultural and spiritual home in Darnassus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This rite of passage connects wandering acolytes back to the leadership of the Sisterhood of Elune, ensuring that devotion to the Moon Goddess remains steadfast even while traveling across distant lands."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For a Kaldorei braving the frigid winds of Dun Morogh, the summons offers a welcome return to the familiar sanctuaries and ancestral forests of Teldrassil."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "dun morogh",
+  "kharanos",
+  "maxan anvol",
+  "priestess alathea",
+  "returning home",
+  "stars of elune",
+  "teldrassil",
+  "temple of the moon"
+ ],
+ "related": [
+  "npc:maxan-anvol",
+  "npc:priestess-alathea",
+  "quest:5627",
+  "subzone:temple-of-the-moon",
+  "zone:darnassus",
+  "topic:elune",
+  "quest:5628",
+  "quest:2519"
+ ],
+ "attribution": [
+  "Returning Home (Dun Morogh)"
+ ]
+}

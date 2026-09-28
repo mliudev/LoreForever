@@ -1,0 +1,81 @@
+{
+ "key": "npc:einar-stonegrip",
+ "type": "npc",
+ "name": "Einar Stonegrip",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Einar Stonegrip",
+  "refs": 1
+ },
+ "summary": "Einar Stonegrip is a dwarven trapper stationed along the main crossroads of the Wetlands. Rather than risk an uncomfortable reunion with his estranged wife in Menethil Harbor, he relies on passing adventurers to haul his crocolisk skins to town.",
+ "sections": [
+  {
+   "title": "A Trapper at the Crossroads",
+   "body": "Perched at the central intersection connecting Dun Algaz, Dun Modr, and Menethil Harbor, Einar Stonegrip earns his living braving the sodden marshes of the Wetlands. He hunts the local crocolisks for their sturdy hides, supplying leatherworkers and merchants along the coast. Though rugged enough to wrestle reptiles out of the mire, he is thoroughly cowed by domestic strife. Embroiled in a bitter falling-out with his wife, Sida, Einar stays out on the road, hiring travelers to deliver his bundles of skins to his trading partner James Halloran rather than set foot in Menethil Harbor himself.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Einar Stonegrip?",
+   "aliases": [
+    "who is einar",
+    "einar stonegrip lore",
+    "wetlands dwarf crossroads"
+   ],
+   "answer": "Einar Stonegrip is a dwarven skinner and hunter stationed at the crossroads in the Wetlands. He makes a living harvesting crocolisk hides to sell in Menethil Harbor."
+  },
+  {
+   "q": "Why won't Einar deliver his own goods to Menethil Harbor?",
+   "aliases": [
+    "why doesn't einar go to town",
+    "einar stonegrip wife",
+    "why hire adventurers"
+   ],
+   "answer": "Einar is on terribly bad terms with his wife, Sida, who resides in Menethil Harbor. To avoid facing her wrath, he prefers to remain out in the swamplands and pay passing couriers to deliver his trade goods."
+  },
+  {
+   "q": "Who does Einar work with in Menethil Harbor?",
+   "aliases": [
+    "einar business partner",
+    "who buys einar skins",
+    "james halloran connection"
+   ],
+   "answer": "Einar gathers crocolisk skins on contract for James Halloran, a merchant in Menethil Harbor who handles the distribution and sale of leather goods."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Einar reflects the rugged self-sufficiency common among dwarven mountaineers, even if his marital troubles drive him to sleep in the soggy marshes instead of a warm tavern."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Travelers moving between Ironforge and Menethil Harbor often pass Einar's roadside post, providing easy courier work along the Alliance supply routes."
+  }
+ ],
+ "keywords": [
+  "crocolisk",
+  "einar stonegrip",
+  "james halloran",
+  "menethil harbor",
+  "sida",
+  "skins",
+  "trapper",
+  "wetlands"
+ ],
+ "related": [
+  "npc:james-halloran",
+  "npc:sida",
+  "quest:469",
+  "zone:wetlands",
+  "subzone:menethil-harbor",
+  "topic:dwarf",
+  "subzone:dun-algaz",
+  "subzone:dun-modr"
+ ],
+ "attribution": [
+  "Einar Stonegrip"
+ ]
+}

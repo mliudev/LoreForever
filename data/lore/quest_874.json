@@ -1,0 +1,116 @@
+{
+ "key": "quest:874",
+ "type": "quest",
+ "name": "Mahren Skyseer",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   874
+  ],
+  "level": "27",
+  "faction": "Horde",
+  "start": "Jorn Skyseer",
+  "end": "Mahren Skyseer",
+  "previous": "Cry of the Thunderhawk",
+  "next": "Isha Awak (quest)",
+  "wiki": "Mahren Skyseer (quest)",
+  "chain": []
+ },
+ "summary": "Mahren Skyseer is a Horde journey that directs proven hunters from Camp Taurajo out toward the eastern shores of the Barrens. After mastering the plains' predators, adventurers are sent by Jorn Skyseer to learn coastal tracking from his sister. Finding her requires braving the waters and human encampments dotting the Merchant Coast.",
+ "sections": [
+  {
+   "title": "A Hunt Beyond the Plains",
+   "body": "Through the trials set by Jorn Skyseer at Camp Taurajo, hunters prove their tenacity against the most dangerous beasts stalking the red plains of the southern Barrens. Yet Jorn teaches that a true predator never limits themselves to dry earth and rolling savannas. To truly master the craft, a tracker must be ready to stalk prey through swamps, sheer crags, and the crashing waves of the Great Sea.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Eastern Shore",
+   "body": "Jorn's sister, Mahren Skyseer, makes her camp far to the east along the coast. While Jorn studies the spirits of thunderhawks and plains stalkers, Mahren dedicates herself to the elusive creatures dwelling in the salt spray. Traversing the region to find her is perilous, as Kul Tiras marines and Theramore expedition forces maintain fortified outposts and watchtowers across the coastal lowlands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Mahren Skyseer?",
+   "aliases": [
+    "who starts mahren skyseer",
+    "jorn skyseer quest giver"
+   ],
+   "answer": "Jorn Skyseer gives the quest at Camp Taurajo in the southern Barrens after you successfully complete his hunt for the thunderhawks."
+  },
+  {
+   "q": "Where is Mahren Skyseer located?",
+   "aliases": [
+    "where is mahren skyseer",
+    "mahren skyseer location",
+    "find mahren"
+   ],
+   "answer": "Mahren Skyseer is camped along the eastern coastline of the Barrens, south of Ratchet and near the shores frequented by coastal wildlife and Theramore troops."
+  },
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do i need to find mahren",
+    "mahren skyseer objective"
+   ],
+   "answer": "It serves as a bridge quest connecting Jorn Skyseer's hunting trials at Camp Taurajo with Mahren's coastal hunting challenges against sea creatures."
+  },
+  {
+   "q": "Why does Jorn send hunters to Mahren?",
+   "aliases": [
+    "why does jorn send me to his sister",
+    "lore behind mahren skyseer"
+   ],
+   "answer": "Jorn believes a complete hunter must master all environments, including the sea. His sister Mahren specializes in tracking and confronting aquatic beasts, making her the ideal teacher."
+  },
+  {
+   "q": "What dangers lie along the way to Mahren?",
+   "aliases": [
+    "dangers reaching mahren",
+    "who holds the coast"
+   ],
+   "answer": "The eastern coast of the Barrens is heavily occupied by hostile human expedition forces from Theramore and Kul Tiras, alongside aggressive coastal raptors and marine predators."
+  },
+  {
+   "q": "What comes after finding Mahren Skyseer?",
+   "aliases": [
+    "next quest after mahren",
+    "what does mahren give you"
+   ],
+   "answer": "Once you introduce yourself and earn her trust, Mahren tasks you with tracking down Isha Awak, a massive and ferocious sea creature haunting the waters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For hunters, this quest marks the transition from stalking classic savanna game to pursuing fierce aquatic beasts under the guidance of seasoned tauren stalkers."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The Skyseer siblings embody the traditional tauren hunting philosophies, testing whether the Earth Mother's children can endure trials in every ecosystem."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Journeying to the eastern coast brings Horde scouts into close proximity with hostile Alliance footholds encroaching from Theramore."
+  }
+ ],
+ "keywords": [
+  "camp taurajo",
+  "hunting trial",
+  "isha awak",
+  "jorn skyseer",
+  "mahren skyseer",
+  "sergra darkthorn",
+  "the barrens"
+ ],
+ "related": [
+  "quest:3261",
+  "quest:913",
+  "quest:860",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Mahren Skyseer (quest)"
+ ]
+}

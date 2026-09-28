@@ -1,0 +1,120 @@
+{
+ "key": "quest:92748",
+ "type": "quest",
+ "name": "Explosive Consultation",
+ "era": "forever",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   92748
+  ],
+  "level": "16",
+  "faction": "Alliance",
+  "start": "Alba Fairmoon",
+  "end": "Sprite Jumpsprocket",
+  "previous": "",
+  "next": "",
+  "wiki": "Explosive Consultation",
+  "chain": []
+ },
+ "summary": "Explosive Consultation is an Alliance assignment originating in Westfall to combat toxic industrial operations hidden deep within the Deadmines. Following discoveries that point to heavy machinery poisoning local farmland, adventurers are dispatched to the Dwarven District of Stormwind to enlist an engineering specialist capable of supplying heavy explosives.",
+ "sections": [
+  {
+   "title": "A Toxic Source",
+   "body": "While Westfall contends with displaced vagrants and banditry under the Defias Brotherhood, evidence gathered across the region reveals a far more coordinated and mechanised threat festering beneath the earth. Industrial refuse and caustic toxins creeping into the surrounding soil have been traced directly back into the labyrinthine tunnels of the Deadmines, indicating that an organized operation is working tirelessly underground.",
+   "spoiler": 0
+  },
+  {
+   "title": "Seeking Stormwind's Expertise",
+   "body": "Conventional weaponry is insufficient to sabotage fortified subterranean infrastructure. Halting the poisoning of Westfall requires industrial demolition, prompting an urgent summons to Stormwind City's Dwarven District. There, among the roaring forges, tinkerers, and blasting powder merchants, an engineering mind named Sprite Jumpsprocket must be recruited to devise an explosive remedy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do we need explosives in the Deadmines?",
+   "aliases": [
+    "why explosives deadmines",
+    "why do we need bombs",
+    "deadmines toxins reason"
+   ],
+   "answer": "Evidence recovered in Westfall indicates that a massive industrial operation hidden inside the Deadmines is actively generating toxins that foul the surrounding farmland. Smashing reinforced machinery by hand is impractical, requiring heavy-duty ordnance to disable."
+  },
+  {
+   "q": "Who starts this quest?",
+   "aliases": [
+    "who gives explosive consultation",
+    "explosive consultation start"
+   ],
+   "answer": "Alba Fairmoon gives this task to heroes investigating the unnatural contaminants and unrest threatening Westfall."
+  },
+  {
+   "q": "Who is Sprite Jumpsprocket?",
+   "aliases": [
+    "sprite jumpsprocket location",
+    "who is jumpsprocket"
+   ],
+   "answer": "Sprite Jumpsprocket is a gnome engineer residing in the Dwarven District of Stormwind. Known for working with complex mechanical devices and volatile compounds, she is sought out to craft high-yield demolitions."
+  },
+  {
+   "q": "Why travel to the Dwarven District for help?",
+   "aliases": [
+    "why dwarven district",
+    "stormwind dwarven district connection"
+   ],
+   "answer": "The Dwarven District serves as the industrial heart of Stormwind, housing the kingdom's premier blacksmiths, tinkerers, and suppliers of blasting powder and engineering components."
+  },
+  {
+   "q": "Are the Defias behind the toxins?",
+   "aliases": [
+    "is defias causing toxins",
+    "who is running the deadmines operation"
+   ],
+   "answer": "The Deadmines serves as the fortified base of operations for the Defias Brotherhood. The extensive production facilities and foundries established in its lower shafts are the direct cause of the environmental contamination spreading through Westfall."
+  },
+  {
+   "q": "Does Stormwind's government assist with this effort?",
+   "aliases": [
+    "does the army help",
+    "why stormwind engineer"
+   ],
+   "answer": "With King Varian Wrynn missing and the House of Nobles reluctant to commit formal military garrisons to Westfall, local defenders must rely on independent volunteers and private craftsmen in the capital rather than regular army regiments."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will appreciate that brute force cannot solve Westfall's ecological plight; disabling large-scale underground machinery demands specialized munitions and meticulous technical expertise."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomish technological ingenuity is vital for neutralizing underground industrial threats that regular Alliance military forces fail to address."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This task demonstrates the interdependence of Westfall's struggling frontier communities and the bustling workshops of Stormwind's Dwarven District."
+  }
+ ],
+ "keywords": [
+  "alba fairmoon",
+  "deadmines",
+  "dwarven district",
+  "engineering",
+  "explosive consultation",
+  "sprite jumpsprocket",
+  "stormwind",
+  "toxins",
+  "westfall"
+ ],
+ "related": [
+  "npc:sprite-jumpsprocket",
+  "zone:westfall",
+  "subzone:dwarven-district",
+  "zone:deadmines",
+  "subzone:deadmines",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Explosive Consultation"
+ ]
+}

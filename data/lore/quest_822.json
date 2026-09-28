@@ -1,0 +1,133 @@
+{
+ "key": "quest:822",
+ "type": "quest",
+ "name": "Chen's Empty Keg",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   822
+  ],
+  "level": "24",
+  "faction": "Horde",
+  "start": "Brewmaster Drohn",
+  "end": "",
+  "previous": "Chen's Empty Keg (2)",
+  "next": null,
+  "wiki": "Chen's Empty Keg (3)",
+  "chain": [
+   "Chen's Empty Keg (quest)",
+   "Chen's Empty Keg (2)",
+   "Chen's Empty Keg (3)"
+  ]
+ },
+ "summary": "Following the creation of the potent Stormstout, Brewmaster Drohn in Ratchet offers to craft another esoteric recipe learned from the elusive pandaren wanderer Chen Stormstout. This potent concoction, known as trogg ale, requires rare organs and glands harvested from the native beasts of the Barrens.",
+ "sections": [
+  {
+   "title": "A Second Pandaren Formula",
+   "body": "After assisting Brewmaster Drohn with reproducing the legendary Chen Stormstout's initial draught, the orc brewmaster reveals that the wandering pandaren shared more than one secret. Drohn possesses the formula for an eccentric beverage known as trogg ale. Unlike mundane spirits distilled from grains, this peculiar brew relies entirely on potent organic reagents scavenged from the fiercest wildlife in central Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ingredients of Trogg Ale",
+   "body": "To brew this pungent and invigorating draught, Drohn requires thunderous components: lightning glands from stormhides, a thunderhawk saliva gland from greater thunderhawks, and a hearty liver from the roaming kodos of the plains. Once distilled, the mixture produces a fiercely stimulating beverage tailored for survival in the wilderness.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Enduring Partnership",
+   "body": "Drohn's craft does not end with a single batch. Recognizing the demand among traveling adventurers and mercenaries passing through the neutral port of Ratchet, Drohn leaves the arrangement open-ended, willing to brew fresh trogg ale whenever an explorer brings in another fresh supply of beastly organs.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Chen Stormstout?",
+   "aliases": [
+    "who is chen",
+    "chen lore",
+    "pandaren chen"
+   ],
+   "answer": "Chen Stormstout is an elusive, wandering pandaren brewmaster who traveled across Kalimdor during the founding of Durotar. Along the way, he shared a few of his potent brewing techniques with Drohn in Ratchet before moving along on his wanderings."
+  },
+  {
+   "q": "Where is Brewmaster Drohn located?",
+   "aliases": [
+    "drohn location",
+    "where is brewmaster drohn",
+    "drohn npc"
+   ],
+   "answer": "Brewmaster Drohn resides in the neutral port town of Ratchet, located along the eastern coast of the Barrens. He spends his days refining eccentric brews learned during his encounter with Chen."
+  },
+  {
+   "q": "What is trogg ale?",
+   "aliases": [
+    "trogg ale",
+    "what is this drink",
+    "what does drohn brew"
+   ],
+   "answer": "Trogg ale is an unconventional and powerful concoction Chen taught to Drohn. Rather than standard brewing hops, it incorporates beast glands and organ meat, granting it a notorious kick suited for hardy adventurers."
+  },
+  {
+   "q": "Where do you gather lightning glands?",
+   "aliases": [
+    "lightning gland source",
+    "stormhide location",
+    "where to get lightning gland"
+   ],
+   "answer": "Lightning glands are harvested from stormhide beasts that prowl the arid expanses of the Barrens, carrying natural electrical charges within their bodies."
+  },
+  {
+   "q": "What beasts drop thunderhawk saliva glands?",
+   "aliases": [
+    "thunderhawk saliva gland",
+    "where are greater thunderhawks",
+    "thunderhawk location"
+   ],
+   "answer": "These glands are gathered specifically from greater thunderhawks, the majestic, shock-wielding avian predators that hunt in the open skies across the Barrens."
+  },
+  {
+   "q": "Can I brew trogg ale more than once?",
+   "aliases": [
+    "is this repeatable",
+    "can i do this again",
+    "repeat trogg ale"
+   ],
+   "answer": "Yes. Brewmaster Drohn remains willing to whip up additional batches of the ale whenever adventurers supply him with fresh glands and a kodo liver."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Culinary purists might balk at trogg ale, but extracting rich organ meats and potent glands mirrors the frontier cooking tradition of letting nothing on a kill go to waste."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Brewmaster Drohn represents an uncommon profession for an orc, having embraced Chen's exotic brewing methods over traditional warrior paths while keeping his business in Ratchet."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Chen Stormstout fought alongside the Horde during the defense of Durotar, leaving an enduring impression on orcs like Drohn who encountered him during those early days."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "brewmaster drohn",
+  "chen stormstout",
+  "chen's empty keg",
+  "kodo liver",
+  "ratchet",
+  "stormhide",
+  "thunderhawk",
+  "trogg ale"
+ ],
+ "related": [
+  "npc:brewmaster-drohn",
+  "quest:819",
+  "zone:barrens",
+  "subzone:ratchet",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "Chen's Empty Keg (3)"
+ ]
+}

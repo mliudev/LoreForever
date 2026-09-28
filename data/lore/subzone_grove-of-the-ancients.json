@@ -1,0 +1,89 @@
+{
+ "key": "subzone:grove-of-the-ancients",
+ "type": "subzone",
+ "name": "Grove of the Ancients",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Grove of the Ancients"
+ },
+ "summary": "The Grove of the Ancients is a sacred night elven sanctuary set amidst old temple ruins in southeastern Darkshore. Nestled beside the Wildbend River, this serene haven serves as a gathering ground for nature spirits and is watched over by the venerable Ancient of Lore, Onu.",
+ "sections": [
+  {
+   "title": "Sanctuary of the Wildbend",
+   "body": "Tucked away near the southeastern mountains of Darkshore, the Grove of the Ancients stands as a peaceful haven surrounded by aged temple stones. Through its heart flows the surging Wildbend River, providing a quiet refuge amidst a coastline increasingly plagued by corruption and restless wildlife. The grove serves as a meeting place for the Circle of Ancients, where nature spirits and kaldorei tend to the delicate balance of the forest.",
+   "spoiler": 0
+  },
+  {
+   "title": "Keepers and Watchers",
+   "body": "The focal presence within the grove is Onu, a towering Ancient of Lore who observes the land's shifting fortunes and offers ancient wisdom to passing travelers. Alongside Onu, wandering merchants and slumbering druids find rest beneath the boughs. Though quiet, the grove lies close to territorial furbolg camps to the southeast, making it an essential frontier outpost for Alliance sentinels and druids monitoring southern Darkshore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Grove of the Ancients?",
+   "aliases": [
+    "grove of ancients location",
+    "where is grove of the ancients",
+    "onu location"
+   ],
+   "answer": "The grove is located in the southeastern region of Darkshore, nestled against the mountain foothills near the banks of the Wildbend River."
+  },
+  {
+   "q": "Who is Onu?",
+   "aliases": [
+    "who is onu",
+    "ancient in grove of ancients",
+    "tree guy darkshore"
+   ],
+   "answer": "Onu is a wise Ancient of Lore residing in the grove. He acts as an elder guide, watching over the southeastern woods and advising druids and travelers attempting to mend the balance of Darkshore."
+  },
+  {
+   "q": "What is the Circle of Ancients?",
+   "aliases": [
+    "circle of ancients",
+    "ancients meeting darkshore"
+   ],
+   "answer": "The Circle of Ancients is an assembly of great nature spirits and ancient treants who gather at the grove to commune, share knowledge, and discuss the welfare of the wild lands."
+  },
+  {
+   "q": "Are there dangers near the grove?",
+   "aliases": [
+    "grove threats",
+    "is grove safe",
+    "monsters near grove"
+   ],
+   "answer": "While the grove itself is a safe sanctuary with friendly guardians and merchants, hostile wildlife and territorial furbolg encampments lie just across the river and to the southeast."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The grove is a revered natural sanctuary, offering druids a direct connection to the wisdom of the Ancient of Lore Onu and the spirits of the forest."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Surrounded by ancient temple ruins and tended by nature spirits, the grove serves as a solemn reminder of long-standing kaldorei harmony with the land."
+  }
+ ],
+ "keywords": [
+  "ancient of lore",
+  "circle of ancients",
+  "darkshore",
+  "grove of the ancients",
+  "onu",
+  "wildbend river"
+ ],
+ "related": [
+  "quest:952",
+  "zone:darkshore",
+  "subzone:wildbend-river",
+  "topic:druid",
+  "subzone:auberdine",
+  "topic:furbolg"
+ ],
+ "attribution": [
+  "Grove of the Ancients"
+ ]
+}

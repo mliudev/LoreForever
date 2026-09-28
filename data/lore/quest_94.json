@@ -1,0 +1,122 @@
+{
+ "key": "quest:94",
+ "type": "quest",
+ "name": "A Watchful Eye",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   94
+  ],
+  "level": "21",
+  "faction": "Alliance",
+  "start": "Theocritus",
+  "end": "Old Lion Statue",
+  "previous": null,
+  "next": "Looking Further",
+  "wiki": "A Watchful Eye",
+  "chain": [
+   "Theocritus' Retrieval",
+   "A Watchful Eye",
+   "Looking Further",
+   "Morganth (quest)"
+  ]
+ },
+ "summary": "A Watchful Eye is an Alliance quest issued by the wizard Theocritus from the Tower of Azora in Elwynn Forest. Having established a basic scrying link against his rival Morganth, Theocritus directs adventurers east into Redridge Mountains to plant an enchanted focus upon an ancient lion statue watching the Tower of Ilgalar.",
+ "sections": [
+  {
+   "title": "A Rivalry Across the Border",
+   "body": "From his tower in eastern Elwynn Forest, the mage Theocritus maintains a vigilant watch over dark spellcraft brewing in the nearby hills. His chief nemesis is Morganth, a vicious sorcerer of formidable power who has claimed the Tower of Ilgalar in the crags of Redridge Mountains. Seeking to uncover Morganth's sinister ambitions before they spill across the border, Theocritus developed the Eye of Azora to surveil the rogue wizard from a distance.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Lion's Vigil",
+   "body": "While visual scrying affords some information, it is not enough to divine Morganth's deeper schemes. Theocritus entrusts travelers with the Glyph of Azora, commanding them to trek to the shadow of the Tower of Ilgalar. There, carved centuries ago during the heyday of the kingdom, stands an Old Lion Statue. Setting the glyph into a worn depression at the statue's base awakens an arcane conduit, linking the stone back to Azora and allowing Theocritus to delve straight into his rival's mind.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Theocritus?",
+   "aliases": [
+    "theocritus",
+    "tower of azora mage",
+    "who gives a watchful eye"
+   ],
+   "answer": "Theocritus is a powerful Alliance wizard who resides atop the Tower of Azora in eastern Elwynn Forest. He dedicates his arcane studies to guarding the region against rogue magical threats, chief among them the renegade sorcerer Morganth."
+  },
+  {
+   "q": "Who is Morganth?",
+   "aliases": [
+    "morganth",
+    "who is morganth",
+    "rival mage"
+   ],
+   "answer": "Morganth is a malevolent, rogue human wizard who has made his stronghold in the Tower of Ilgalar in Redridge Mountains. He is the bitter rival of Theocritus, who fears the dark schemes Morganth is weaving against the surrounding territories."
+  },
+  {
+   "q": "Where is the Old Lion Statue located?",
+   "aliases": [
+    "lion statue location",
+    "where is the statue",
+    "where to put glyph of azora"
+   ],
+   "answer": "The Old Lion Statue stands weathered on the ridges overlooking the Tower of Ilgalar, in the northeastern hills of Redridge Mountains. A shallow depression sits at its base, designed to receive magical foci like the Glyph of Azora."
+  },
+  {
+   "q": "What does the Glyph of Azora do?",
+   "aliases": [
+    "glyph of azora",
+    "what is the glyph"
+   ],
+   "answer": "The Glyph of Azora is an enchanted stone crafted by Theocritus. When socketed into the lion statue near the Tower of Ilgalar, it acts as an arcane listening post and mind-probing relay, letting Theocritus communicate through the stone and study Morganth's thoughts."
+  },
+  {
+   "q": "What is the Tower of Ilgalar?",
+   "aliases": [
+    "tower of ilgalar",
+    "ilgalar"
+   ],
+   "answer": "The Tower of Ilgalar is a tall, isolated stone spire set high in the crags of northeastern Redridge Mountains. Once an outpost of the kingdom, it is currently occupied and defended by Morganth and his servitors."
+  },
+  {
+   "q": "What comes after placing the glyph?",
+   "aliases": [
+    "next quest",
+    "what after a watchful eye"
+   ],
+   "answer": "Once the Glyph of Azora is fixed to the statue, Theocritus speaks through the stone and immediately offers the follow-up quest, Looking Further, as he begins unraveling Morganth's machinations."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For practitioners of the arcane, this mission showcases long-distance divination and scrying relays, contrasting Theocritus's structured Elwynn academy methods with Morganth's illicit rogue sorcery."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Neutralizing renegade human spellcasters like Morganth is vital to securing the border between Elwynn Forest and the embattled settlements of Redridge Mountains."
+  }
+ ],
+ "keywords": [
+  "elwynn",
+  "glyph of azora",
+  "morganth",
+  "old lion statue",
+  "redridge",
+  "theocritus",
+  "tower of azora",
+  "tower of ilgalar"
+ ],
+ "related": [
+  "quest:178",
+  "quest:248",
+  "quest:249",
+  "npc:theocritus",
+  "subzone:tower-of-ilgalar",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "A Watchful Eye"
+ ]
+}

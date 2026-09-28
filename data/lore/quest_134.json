@@ -1,0 +1,125 @@
+{
+ "key": "quest:134",
+ "type": "quest",
+ "name": "Ogre Thieves",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   134
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Abercrombie",
+  "end": "",
+  "previous": "Ghoulish Effigy (Classic)",
+  "next": "Note to the Mayor (Classic)",
+  "wiki": "Ogre Thieves (Classic)",
+  "chain": []
+ },
+ "summary": "Abercrombie, the peculiar hermit dwelling in western Duskwood, asks travelers to venture into the ogre stronghold of Vul'Gol Ogre Mound. He claims that ogres ambushed him while he was foraging and made off with a crate filled with his irreplaceable herbs and tools.",
+ "sections": [
+  {
+   "title": "A Hermit's Lost Goods",
+   "body": "Isolated out along the damp roads of western Duskwood, the aged hermit Abercrombie claims he was attacked while gathering supplies in the wilderness. According to him, brutes from the southern ogre mound drove him off, forcing him to abandon a sturdy wooden crate packed with precious herbs and delicate instruments.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Vul'Gol Threat",
+   "body": "The Vul'Gol Ogre Mound in southern Duskwood is a fortified hive of hostile ogres who harass unwary wanderers and clash with Night Watch patrols like Watcher Dodds. The crate sits right near the entrance of their cavernous mound, daring outsiders to step past roaring brutes and spell-weaving magi to haul it back to the hermit.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Slip of the Tongue",
+   "body": "Upon recovering his missing goods, Abercrombie's eccentric demeanor cracks into manic excitement. He catches himself almost shouting praises to 'the Nec\u2014' before hastily pivoting to thank the adventurer instead, eager to lock himself away and put his retrieved supplies to use in the dark.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Abercrombie?",
+   "aliases": [
+    "abercrombie lore",
+    "who gave me this quest",
+    "who is the hermit"
+   ],
+   "answer": "Abercrombie is an eccentric, solitary hermit residing in a worn shack in western Duskwood. Though he acts frail, helpless, and in need of assistance, his frantic behavior and strange requests hint at darker, unsettling motives."
+  },
+  {
+   "q": "Where did the ogres take Abercrombie's crate?",
+   "aliases": [
+    "where is the crate",
+    "crate location",
+    "vul'gol crate"
+   ],
+   "answer": "The crate was brought to the Vul'Gol Ogre Mound in southern Duskwood. It rests exposed on the dirt right outside the mouth of the ogre cave."
+  },
+  {
+   "q": "Why are there ogres in Duskwood?",
+   "aliases": [
+    "duskwood ogres",
+    "vul'gol ogres origin",
+    "why ogres here"
+   ],
+   "answer": "The ogres of the Vul'Gol clan carved out a foothold in the rugged southern hills of Duskwood following the Second War. Aggressive and opportunistic, they regularly raid passersby, ambush solitary wanderers, and hoard stolen plunder around their mound."
+  },
+  {
+   "q": "What is actually inside the crate?",
+   "aliases": [
+    "what did abercrombie lose",
+    "contents of crate"
+   ],
+   "answer": "Abercrombie claims the crate contains rare herbs and specialized harvesting tools he abandoned during the attack. However, his slip of the tongue upon its return suggests the contents serve darker, necromantic pursuits."
+  },
+  {
+   "q": "What did Abercrombie almost say when receiving the crate?",
+   "aliases": [
+    "thank the nec",
+    "what was abercrombie saying",
+    "abercrombie quote"
+   ],
+   "answer": "Upon getting his crate back, Abercrombie blurts out 'Thank the Nec\u2014' before abruptly stopping and thanking the adventurer instead. This near-slip strongly points to him revering necromancy or the Necronomicon."
+  },
+  {
+   "q": "Does this quest connect to other tasks at the ogre mound?",
+   "aliases": [
+    "ogre mound quests",
+    "quests near vulgol"
+   ],
+   "answer": "Yes. Adventurers heading to the Vul'Gol Ogre Mound often combine this errand with duties from Watcher Dodds regarding the ogre threat, as well as tasks tied to Viktori Prism'Antras."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks familiar with forbidden arts will easily recognize Abercrombie's slip of the tongue as an ode to dark spellcraft rather than simple botanical zeal."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Abercrombie's near-invocation of necromantic powers should put any servant of the Holy Light on guard against aiding the reclusive hermit blindly."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "While Abercrombie claims his crate holds mere herbs, an herbalist might wonder what bizarre flora requires such desperate retrieval from an ogre mound."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "crate",
+  "duskwood",
+  "hermit",
+  "necromancer",
+  "ogre",
+  "vul'gol",
+  "watcher dodds"
+ ],
+ "related": [
+  "npc:abercrombie",
+  "zone:duskwood",
+  "npc:watcher-dodds",
+  "npc:viktori-prism-antras"
+ ],
+ "attribution": [
+  "Ogre Thieves (Classic)"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "key": "subzone:far-watch-post",
+ "type": "subzone",
+ "name": "Far Watch Post",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Far Watch Post"
+ },
+ "summary": "Far Watch Post is a fortified Horde outpost situated just west of the Southfury River bridge connecting Durotar to the Barrens. Serving as the front line of defense for the orcish homeland, the post guards vital trade caravans against aggressive quilboar packs and hostile Alliance incursions.",
+ "sections": [
+  {
+   "title": "Guardian of the Border",
+   "body": "Located at the western foot of the bridge out of Durotar, Far Watch Post is the first bastion of Horde authority travellers see when entering the vast, arid savannah of the Barrens. The settlement is Spartan but functional, built for tactical readiness rather than comfort. It features a sturdy orcish watchtower, a burrow, and pre-sighted siege catapults trained toward the dusty plains. Directly south of the main road, peons tend a pen of riding wolves ready to bear messengers or reinforcements. Far Watch Post exists primarily to keep the supply road to Crossroads secure, screening incoming traffic and repelling raids from roaming quilboar tribes and stealthy Alliance scouts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of Far Watch Post?",
+   "aliases": [
+    "why is far watch post here",
+    "purpose of far watch",
+    "far watch outpost role"
+   ],
+   "answer": "The post acts as the primary border station between Durotar and the Barrens. Its defenders protect vital Horde supply caravans and ensure that local dangers, notably aggressive quilboar tribes and Alliance trespassers, do not cross the Southfury River into Durotar."
+  },
+  {
+   "q": "Who controls this outpost?",
+   "aliases": [
+    "who runs far watch post",
+    "far watch post faction"
+   ],
+   "answer": "Far Watch Post is an active military encampment manned by the Horde. Orc grunts garrison the tower and maintain the siege engines, supported by peons overseeing riding wolves."
+  },
+  {
+   "q": "What threats does the outpost face?",
+   "aliases": [
+    "far watch post enemies",
+    "dangers at far watch"
+   ],
+   "answer": "The post faces frequent harassment from nearby quilboar packs that contest the surrounding thorn-covered scrubland. It also stands on guard against Alliance incursions that might attempt to strike across the Barrens toward Orgrimmar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For young warriors stepping out of Durotar for the first time, Far Watch Post is the final outpost of familiar ground before venturing into the rugged, dangerous heartland of Kalimdor."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Positioned squarely across the bridge from Durotar, Far Watch Post stands as a formidable roadblock that prevents scouting parties and saboteurs from easily approaching the orcish capital."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "burrow",
+  "durotar",
+  "far watch post",
+  "peons",
+  "quilboar",
+  "southfury river",
+  "watchtower",
+  "wolves"
+ ],
+ "related": [
+  "zone:barrens",
+  "zone:durotar",
+  "topic:horde",
+  "topic:quilboar",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Far Watch Post"
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "key": "quest:5674",
+ "type": "quest",
+ "name": "Elune's Grace",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   5674
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Laurna Morninglight",
+  "end": "Priestess Alathea",
+  "previous": null,
+  "next": null,
+  "wiki": "Elune's Grace (Dolanaar)",
+  "chain": []
+ },
+ "summary": "Elune's Grace is a rite of advancement for developing night elf priests, marking their readiness to wield divine talents unique to their people. Guided from local outposts like Dolanaar back to the sacred Temple of the Moon in Darnassus, candidates present themselves before Priestess Alathea to prove their devotion.",
+ "sections": [
+  {
+   "title": "A Sacred Milestone",
+   "body": "Within the Sisterhood of Elune, a priest's journey involves more than simply mastering standard prayers of mending and smiting. As acolytes grow in experience, they reach a threshold where they are deemed ready to receive blessings granted exclusively to the kaldorei. Local mentors such as Laurna Morninglight in Dolanaar lack the authority to bestow these deeper arts, directing promising disciples back to the cultural and spiritual heart of their order.",
+   "spoiler": 0
+  },
+  {
+   "title": "Audience at the Temple",
+   "body": "The quest directs initiates across Teldrassil to the grand Temple of the Moon in Darnassus. There, beneath the gaze of the high priesthood, Priestess Alathea evaluates whether the petitioner is truly prepared to bear the goddess's defensive mantle. Learning Elune's Grace symbolizes reaching true maturity within the priesthood, bridging the gap between raw potential and formal service to the goddess.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "what does this quest do",
+    "elunes grace quest purpose",
+    "why visit alathea"
+   ],
+   "answer": "This quest sends night elf priests who have gained enough practical experience back to Darnassus. It serves as a rite of passage, directing them to Priestess Alathea at the Temple of the Moon to be tested and taught the defensive art known as Elune's Grace."
+  },
+  {
+   "q": "Who is Priestess Alathea?",
+   "aliases": [
+    "priestess alathea lore",
+    "who is alathea",
+    "alathea darnassus"
+   ],
+   "answer": "Priestess Alathea is a high-ranking priest trainer residing within the Temple of the Moon in Darnassus. She oversees the formal training and advancement of night elf acolytes, ensuring they possess the spiritual focus required to handle advanced racial prayers."
+  },
+  {
+   "q": "Why can't local mentors teach this ability?",
+   "aliases": [
+    "why not train in dolanaar",
+    "why go to darnassus"
+   ],
+   "answer": "Outpost trainers like Laurna Morninglight guide novices through foundational teachings, but the sisterhood reserves sacred, kaldorei-specific blessings for formal conferral. Acolytes must present themselves at the order's central seat of devotion in Darnassus to undergo evaluation before learning these deeper gifts."
+  },
+  {
+   "q": "What does Elune's Grace actually represent in kaldorei faith?",
+   "aliases": [
+    "what is elunes grace",
+    "elunes grace lore"
+   ],
+   "answer": "Elune's Grace represents the direct protective guardianship of the Moon Goddess. Woven through prayer, it diminishes the impact of incoming attacks, reflecting Elune's shielding presence over her faithful champions when danger draws close."
+  },
+  {
+   "q": "Can priests of other races receive this blessing?",
+   "aliases": [
+    "can humans learn elunes grace",
+    "is elunes grace night elf only"
+   ],
+   "answer": "No. The art of Elune's Grace is tied strictly to the ancestral faith and worship of the kaldorei. Only night elf priests who commune directly with the Moon Goddess are instructed in its invocation."
+  },
+  {
+   "q": "Where does this journey begin and end?",
+   "aliases": [
+    "quest start and end",
+    "where to go"
+   ],
+   "answer": "The summons is delivered by mentor Laurna Morninglight in the settlement of Dolanaar on Teldrassil, sending the acolyte west to the Temple of the Moon nestled in Darnassus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This rite marks a defining transition for night elf priests, grounding their identity in the distinct celestial magic of the Sisterhood of Elune rather than universal holy practices."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The pilgrimage to the Temple of the Moon reinforces the central role Elune's worship plays in kaldorei society, summoning distant acolytes home to the heart of Darnassus."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "dolanaar",
+  "elune's grace",
+  "laurna morninglight",
+  "priestess alathea",
+  "sisterhood of elune",
+  "teldrassil",
+  "temple of the moon"
+ ],
+ "related": [
+  "npc:priestess-alathea",
+  "npc:laurna-morninglight",
+  "subzone:temple-of-the-moon",
+  "quest:5672",
+  "quest:2519",
+  "topic:elune",
+  "topic:night-elf",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "Elune's Grace (Dolanaar)"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "subzone:crypt-light-s-hope-chapel",
+ "type": "subzone",
+ "name": "Crypt (Light's Hope Chapel)",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Crypt (Light's Hope Chapel)"
+ },
+ "summary": "Tucked away behind Light's Hope Chapel sits a stone crypt nestled among the graves of the chapel's sprawling cemetery. It serves as an austere tomb on consecrated grounds where the Argent Dawn honors fallen champions and conducts trials of faith against lingering remnants of darkness.",
+ "sections": [
+  {
+   "title": "A Tomb in Consecrated Earth",
+   "body": "Behind the fortified sanctuary of Light's Hope Chapel stretches a somber graveyard, housing the remains of defenders who perished against the Scourge in the Plaguelands. Dominating this burial ground is the stone crypt, built to inter honored souls under the vigil of the Argent Dawn. Even in a sanctuary consecrated to the Holy Light, the underground confines of the crypt remain cold and shadow-strewn, requiring constant vigilance to ensure unhallowed spirits or lingering dark magic do not take root.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Trial of the Crypt",
+   "body": "The Argent Dawn does not merely treat the crypt as a monument, but as a crucible for proven crusaders. Initiates and champions who answer the Argent Dawn's summons are directed to test their mettle in this underground chamber. Through ritual trials, the spectral form of Lord Raymond George can be summoned forth within the tomb, challenging defenders of the Light to prove their devotion and combat prowess against restless manifestations of the past.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is this crypt located?",
+   "aliases": [
+    "crypt location",
+    "where is crypt lights hope",
+    "find the crypt"
+   ],
+   "answer": "The crypt is situated directly behind Light's Hope Chapel in the eastern reaches of the Eastern Plaguelands, nestled within the large cemetery grounds."
+  },
+  {
+   "q": "Who is buried in the cemetery and crypt?",
+   "aliases": [
+    "who is in the crypt",
+    "cemetery dead",
+    "who is buried here"
+   ],
+   "answer": "The graveyard and crypt house soldiers, paladins, and priests who fell defending Lordaeron and fighting the Scourge, preserved on holy ground by the Argent Dawn."
+  },
+  {
+   "q": "Who is Lord Raymond George?",
+   "aliases": [
+    "raymond george",
+    "lord raymond george lore",
+    "summon crypt boss"
+   ],
+   "answer": "Lord Raymond George is a fallen champion whose spirit can be summoned within the crypt by seasoned adventurers undertaking trials of strength and conviction for the Argent Dawn."
+  },
+  {
+   "q": "Is the crypt safe from the Scourge?",
+   "aliases": [
+    "is the crypt holy",
+    "can scourge enter crypt",
+    "crypt holy ground"
+   ],
+   "answer": "While the surrounding chapel grounds are profoundly blessed, the deep underground chambers of the crypt are cold and less touched by radiant Light, requiring constant watching by the Argent Dawn against corruption."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Standing before the crypt is a solemn reminder of the crusaders who preceded you, offering a place to reflect on sacrifice and the eternal duty to protect Lordaeron's dead."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The crypt provides an altar of quiet contemplation on holy ground, where prayers for the fallen shield their resting places from shadow."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "cemetery",
+  "crypt",
+  "eastern plaguelands",
+  "graveyard",
+  "light's hope chapel",
+  "lord raymond george"
+ ],
+ "related": [
+  "subzone:light-s-hope-chapel",
+  "zone:easternplaguelands",
+  "topic:light"
+ ],
+ "attribution": [
+  "Crypt (Light's Hope Chapel)"
+ ]
+}

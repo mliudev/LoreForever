@@ -1,0 +1,89 @@
+{
+ "key": "subzone:venomweb-vale",
+ "type": "subzone",
+ "name": "Venomweb Vale",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Venomweb Vale"
+ },
+ "summary": "Venomweb Vale is a shadowed valley in eastern Tirisfal Glades, sitting just south of the Scarlet Monastery. Once a lush woodland teeming with game, the vale has devolved into a blighted nest overrun by aggressive, venomous arachnids. Unknown to most who pass through, it also holds an ancient legacy as the sacred meeting place of the Council of Tirisfal.",
+ "sections": [
+  {
+   "title": "A Blighted Refuge",
+   "body": "Before the plague consumed Lordaeron, this valley was a peaceful retreat of lush grass and verdant trees, favored by local hunters tracking deer and rabbits. Today, rot and creeping gloom dominate the landscape. Giant, venomous spiders swarm among the trees and hollows, led by the monstrous arachnid Sri'skulk. The vale's northern edge borders the territory of the Scarlet Crusade, where darkhounds prowl near the fortified Scarlet Encampment under Lieutenant Sanders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Legacy of the Council",
+   "body": "Long before spiders infested the hollows, the vale served as the clandestine gathering ground for the ancient Council of Tirisfal. It was here that the very first Guardian of Tirisfal was empowered to battle demonic incursions. In a desperate and misguided attempt to secure their sanctuary against intruders, one council member bred and unleashed the deadly spiders that plague the basin today. An odd boulder of fool's gold\u2014the result of a centuries-old transmutation mishap by the apprentice Falric\u2014still marks the secluded spot where Guardian Aegwynn once convened with the Council.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are there so many spiders in Venomweb Vale?",
+   "aliases": [
+    "venomweb spiders origin",
+    "why so many spiders",
+    "who made the spiders"
+   ],
+   "answer": "The spiders are not simply wild beasts or products of the Scourge plague. Centuries ago, a member of the secret Council of Tirisfal magically created and unleashed them in a mad attempt to defend their secluded meeting grounds from trespassers. They multiplied and overtook the valley."
+  },
+  {
+   "q": "What is the Council of Tirisfal's connection to this valley?",
+   "aliases": [
+    "council of tirisfal vale",
+    "guardian meeting place",
+    "council history venomweb"
+   ],
+   "answer": "Venomweb Vale served as the traditional secret assembly site for the Council of Tirisfal. Within this quiet valley, elven and human magi gathered to bestow their collective might upon the realm's defenders, including empowering the very first Guardian of Tirisfal."
+  },
+  {
+   "q": "Who rules the arachnids in the vale?",
+   "aliases": [
+    "spider boss venomweb",
+    "sri'skulk",
+    "spider leader tirisfal"
+   ],
+   "answer": "The spider brood is led by a massive, deadly arachnid known as Sri'skulk, who stalks the shadowed hollows beneath the valley's blighted canopy."
+  },
+  {
+   "q": "What is the story behind the fool's gold rock in the vale?",
+   "aliases": [
+    "fools gold rock",
+    "aegwynn meeting rock",
+    "falric gold rock"
+   ],
+   "answer": "Centuries ago, an apprentice named Falric accidentally transformed a boulder into fool's gold during his studies. The strange landmark became the exact meeting point where the famed Guardian Aegwynn would gather with the Council of Tirisfal."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For practitioners of the arcane, the vale is hallowed ground: it was the historic meeting site of the Council of Tirisfal, where Guardians of old\u2014including Aegwynn\u2014were chosen and empowered."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken travelers traveling toward the Scarlet Monastery must navigate both the lethal toxins of Sri'skulk's brood and the watchful patrols of Lieutenant Sanders's Crusaders to the north."
+  }
+ ],
+ "keywords": [
+  "aegwynn",
+  "council of tirisfal",
+  "falric",
+  "lieutenant sanders",
+  "scarlet encampment",
+  "sri'skulk",
+  "tirisfal glades",
+  "venomweb vale"
+ ],
+ "related": [
+  "zone:tirisfal",
+  "zone:scarlet",
+  "topic:scarlet-crusade"
+ ],
+ "attribution": [
+  "Venomweb Vale"
+ ]
+}

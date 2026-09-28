@@ -1,0 +1,122 @@
+{
+ "key": "quest:1091",
+ "type": "quest",
+ "name": "Kaela's Update",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1091
+  ],
+  "level": "22",
+  "faction": "Alliance",
+  "start": "Gaxim Rustfizzle",
+  "end": "Kaela Shadowspear",
+  "previous": null,
+  "next": null,
+  "wiki": "Kaela's Update",
+  "chain": []
+ },
+ "summary": "Kaela's Update is an Alliance dispatch in the Stonetalon Mountains, carrying captured correspondence between frontline operatives. The gnome mage Gaxim Rustfizzle sends the adventurer back to Kaela Shadowspear with intercepted Venture Company letters. The intelligence helps the night elf Sentinels track the goblin cartel's destructive expansion across sacred lands.",
+ "sections": [
+  {
+   "title": "A Messenger in the Mountains",
+   "body": "After assisting the gnome mage Gaxim Rustfizzle in uncovering the movements of the Venture Company, he compiles recovered letters detailing the cartel's operations. Not one to pass up credit, Gaxim sends the player directly back to Kaela Shadowspear, the night elf Sentinel coordinator stationed in Stonetalon Peak. He makes sure to remind the courier to mention how his magical prowess made the investigation a success.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes of the Sentinels",
+   "body": "The Sentinels stationed in Stonetalon watch the crags with growing concern. While Horde forces contest the lower trails, the Venture Company's clear-cutting and mining apparatus pose an immediate ecological and tactical threat. The letters recovered by Gaxim grant Kaela valuable insights into the cartel's internal communications, bolstering the Alliance's defensive planning along the ridges.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kaela Shadowspear?",
+   "aliases": [
+    "kaela shadowspear",
+    "who is kaela",
+    "kaela stonetalon"
+   ],
+   "answer": "Kaela Shadowspear is an Alliance-aligned night elf Sentinel officer stationed at Stonetalon Peak. She oversees scouting and defensive efforts against both the encroaching Horde and the destructive ventures of goblin mining companies in the mountains."
+  },
+  {
+   "q": "Who is Gaxim Rustfizzle?",
+   "aliases": [
+    "gaxim",
+    "gaxim rustfizzle",
+    "gnome mage stonetalon"
+   ],
+   "answer": "Gaxim Rustfizzle is an energetic gnome mage based in the Stonetalon Mountains. He uses his arcane skills to investigate and disrupt Venture Company operations, cooperating closely with the local night elf Sentinels."
+  },
+  {
+   "q": "What is in the Venture Company letters?",
+   "aliases": [
+    "venture co letters",
+    "what are the letters",
+    "letters for kaela"
+   ],
+   "answer": "The letters contain internal Venture Company communications intercepted during operations against their camps. They provide Kaela Shadowspear and the Sentinels with crucial intelligence on the cartel's local logistics, excavations, and resource stripping."
+  },
+  {
+   "q": "Why are the Sentinels concerned about the Venture Company?",
+   "aliases": [
+    "why care about goblins",
+    "sentinels venture co",
+    "venture company stonetalon"
+   ],
+   "answer": "The Venture Company clear-cuts sacred forests and scars the earth with reckless mining machinery. To the Sentinels, this relentless industrialization is an affront to nature and a direct threat to the sanctity of Stonetalon."
+  },
+  {
+   "q": "Where does this quest start and end?",
+   "aliases": [
+    "quest location",
+    "turn in kaela update",
+    "where is kaela"
+   ],
+   "answer": "The quest begins with Gaxim Rustfizzle along the mountain pathways and finishes with Kaela Shadowspear at the Alliance outpost of Stonetalon Peak."
+  },
+  {
+   "q": "Does this quest lead to further investigations?",
+   "aliases": [
+    "next quest",
+    "what comes after kaela update",
+    "follow up quest"
+   ],
+   "answer": "Delivering the letters keeps the Sentinels informed of the cartel's activities, allowing Kaela to plan further military responses and reconnaissance throughout the Stonetalon range."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Delivering intercepted Venture Company correspondence bolsters the fragile Alliance foothold at Stonetalon Peak against corporate pillaging."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Every scrap of intelligence gathered against the Venture Company helps the Sentinels protect Kalimdor's scarred wilderness from industrial defilement."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gaxim Rustfizzle proudly represents gnomish arcane ingenuity, making certain his night elf allies recognize the indispensable value of gnome magic."
+  }
+ ],
+ "keywords": [
+  "gaxim rustfizzle",
+  "kaela shadowspear",
+  "kaela's update",
+  "letters",
+  "sentinels",
+  "stonetalon peak",
+  "venture co"
+ ],
+ "related": [
+  "npc:gaxim-rustfizzle",
+  "npc:kaela-shadowspear",
+  "quest:764",
+  "topic:sentinels",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Kaela's Update"
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "key": "quest:246",
+ "type": "quest",
+ "name": "Assessing the Threat",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   246
+  ],
+  "level": "17",
+  "faction": "Alliance",
+  "start": "",
+  "end": "",
+  "previous": "Encroaching Gnolls",
+  "next": null,
+  "wiki": "Assessing the Threat",
+  "chain": [
+   "Encroaching Gnolls",
+   "Assessing the Threat"
+  ]
+ },
+ "summary": "Assessing the Threat is a defensive scouting operation commissioned by Deputy Feldon in Lakeshire. With the local garrison stretched thin and denied reinforcements from Stormwind, adventurers are hired to cull encroaching gnoll packs along the southern road and measure the strength of the growing menace.",
+ "sections": [
+  {
+   "title": "A Strained Frontier",
+   "body": "The town of Lakeshire is fighting for its survival on multiple fronts. Between Blackrock orc warbands descending from the heights and aggressive gnoll packs harassing the valleys, the local defenders cannot spare troops for standard reconnaissance patrols. When initial reports confirmed gnolls encroaching on the border, Deputy Feldon turned to outside help. Rather than committing regular guardsmen to the wilderness, the town pays traveling champions to test the enemy's strength firsthand.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reconnaissance by Force",
+   "body": "The mission sends scouts along the southern road of Redridge, cutting into the encampments of Redridge Mongrels and Poachers. This is intelligence gathering by attrition: clearing out vanguard scouts, disrupting supply lines, and gauging whether the packs are simply roaming scavengers or part of an organized martial presence threatening the settlement. The bloody skirmishing provides Feldon the concrete numbers he needs to plan Lakeshire's strained defense.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Deputy Feldon send adventurers instead of town guards?",
+   "aliases": [
+    "why hire adventurers",
+    "where are the guards",
+    "lakeshire guard shortage"
+   ],
+   "answer": "Lakeshire's garrison is critically undermanned. With no reinforcements arriving from Stormwind City and hostile forces pressing in from all directions, the town guard cannot spare the soldiers required for extended patrols along the southern road."
+  },
+  {
+   "q": "Where are the gnolls located for this mission?",
+   "aliases": [
+    "where are redridge mongrels",
+    "gnoll locations redridge",
+    "southern road gnolls"
+   ],
+   "answer": "The Redridge Mongrels and Poachers form loose warcamps along the southern road and low foothills of the Redridge Mountains, south of Lakeshire and near the border passes."
+  },
+  {
+   "q": "What is the strategic purpose of culling these gnolls?",
+   "aliases": [
+    "why kill gnolls",
+    "threat assessment goal",
+    "lakeshire defense"
+   ],
+   "answer": "The operation serves two purposes: it pushes back forward scouts encroaching on the road, and it brings back firsthand military intelligence regarding the size, weapons, and discipline of the Redridge gnolls."
+  },
+  {
+   "q": "Does Stormwind City help with the gnoll threat?",
+   "aliases": [
+    "stormwind reinforcements",
+    "why won't stormwind help",
+    "stormwind army lakeshire"
+   ],
+   "answer": "No. The Stormwind House of Nobles and regency council have withheld regular military support from outlying regions like Redridge, forcing local authorities such as Magistrate Solomon and Deputy Feldon to rely on paid mercenaries."
+  },
+  {
+   "q": "What does Deputy Feldon do with your report?",
+   "aliases": [
+    "feldon's reaction",
+    "what happens after assessing threat",
+    "turn in report"
+   ],
+   "answer": "Deputy Feldon evaluates the strength and tenacity of the packs, confirming that the southern gnolls represent a serious military hazard rather than isolated beasts, and directs you to assist other town leaders in shore up defenses."
+  },
+  {
+   "q": "How does this task connect to the prior quest?",
+   "aliases": [
+    "quest line connection",
+    "encroaching gnolls followup",
+    "prerequisite quest"
+   ],
+   "answer": "It is the direct sequel to Encroaching Gnolls. After you first alerted the garrison to the gnoll movement, Feldon commissioned this combat patrol to assess just how bad the intrusion really is."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Redridge showcases the cracks in the Alliance's heartland, where neglected border settlements must hire freelance champions to survive while the capital looks away."
+  },
+  {
+   "target": "race:Human",
+   "text": "For human defenders, protecting Lakeshire is personal; these frontier families are enduring the consequences of political paralysis in Stormwind Keep."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Deputy Feldon asks for aggressive combat reconnaissance, testing an armed fighter's ability to wade into fortified enemy camps and break their vanguard."
+  }
+ ],
+ "keywords": [
+  "assessing",
+  "feldon",
+  "gnolls",
+  "lakeshire",
+  "mongrel",
+  "poacher",
+  "reconnaissance",
+  "redridge",
+  "threat"
+ ],
+ "related": [
+  "quest:244",
+  "npc:deputy-feldon",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "topic:gnoll",
+  "topic:stormwind-army",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Assessing the Threat"
+ ]
+}

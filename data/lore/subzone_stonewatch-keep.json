@@ -1,0 +1,93 @@
+{
+ "key": "subzone:stonewatch-keep",
+ "type": "subzone",
+ "name": "Stonewatch Keep",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Stonewatch Keep"
+ },
+ "summary": "Stonewatch Keep is a fortified stone stronghold looming in eastern Redridge Mountains, once built and manned by the Kingdom of Stormwind. It has fallen to an invading host of Blackrock orcs, serving as the forward operational base from which their warlords terrorize Lakeshire.",
+ "sections": [
+  {
+   "title": "A Fallen Bastion",
+   "body": "Stonewatch Keep originally defended the eastern ridges and guarded the settlers of Lakeshire against hostile incursions. That peace shattered when the renegade warlock Morganth struck an alliance with the Blackrock clan. Bolstered by dark magic, the orcs stormed the fortress with vicious ferocity, overwhelming the human defenders and taking the keep for themselves. Although Morganth later abandoned his allies to raise the nearby Tower of Ilgalar and subjugate local gnolls, the Blackrock invaders successfully consolidated their grip over Stonewatch, transforming a former bastion of the Alliance into a fortified staging ground for their assault on the valley.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Warlord's Seat",
+   "body": "Now occupied by a heavy garrison of Blackrock warriors, the keep is overseen by the formidable orcish warlord Gath'Ilzogg and his brutal lieutenant, Tharil'zun. From the stone ramparts, these commanders coordinate raids across Redridge, taking prisoners such as Stormwind's Corporal Keeshan. With the kingdom's military spread thin and unable to dispatch a full regiment to liberate the fortress, Magistrate Solomon and Marshal Marris have been forced to hire mercenary champions to infiltrate the stronghold and execute the Blackrock leadership before Lakeshire is completely overrun.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owns Stonewatch Keep right now?",
+   "aliases": [
+    "who controls stonewatch keep",
+    "who lives in stonewatch keep",
+    "stonewatch keep enemies"
+   ],
+   "answer": "The keep is currently occupied by the Blackrock clan, led on-site by Warlord Gath'Ilzogg and his lieutenant Tharil'zun. It was formerly an Alliance stronghold defending the town of Lakeshire before it was captured."
+  },
+  {
+   "q": "How did the Blackrock orcs capture the keep?",
+   "aliases": [
+    "how did orcs get stonewatch",
+    "fall of stonewatch keep",
+    "why did stonewatch fall"
+   ],
+   "answer": "The Blackrock clan allied with the rogue human warlock Morganth. Empowered by Morganth's dark sorcery, the orcs launched a ferocious assault that overwhelmed the human defenders stationed at Stonewatch."
+  },
+  {
+   "q": "Why doesn't the Stormwind Army retake Stonewatch Keep?",
+   "aliases": [
+    "why no stormwind army",
+    "where are the guards",
+    "lakeshire army help"
+   ],
+   "answer": "The Stormwind Army has left Redridge largely neglected due to internal politics and troop shortages across the kingdom. As a result, Lakeshire's town leaders must rely on independent adventurers to deal with the threat."
+  },
+  {
+   "q": "What is Morganth's connection to this fortress?",
+   "aliases": [
+    "morganth stonewatch",
+    "is morganth inside stonewatch keep"
+   ],
+   "answer": "Morganth helped the Blackrock clan conquer Stonewatch Keep, but betrayed them shortly after their victory. He relocated to construct his own lair, the Tower of Ilgalar, using ensorcelled Shadowhide gnolls rather than orcs to do his bidding."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Stonewatch Keep is a painful reminder of Stormwind's strained borders; clearing its ramparts is essential to protecting Lakeshire's vulnerable townsfolk."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human defenders shed blood defending these walls, and liberating the keep helps avenge the fallen soldiers and captives taken by the Blackrock clan."
+  }
+ ],
+ "keywords": [
+  "blackrock clan",
+  "gath'ilzogg",
+  "keeshan",
+  "lakeshire",
+  "morganth",
+  "redridge mountains",
+  "stonewatch keep",
+  "tharil'zun"
+ ],
+ "related": [
+  "subzone:stonewatch",
+  "subzone:stonewatch-tower",
+  "quest:169",
+  "quest:19",
+  "subzone:tower-of-ilgalar",
+  "subzone:lakeshire",
+  "npc:marshal-marris",
+  "npc:magistrate-solomon"
+ ],
+ "attribution": [
+  "Stonewatch Keep"
+ ]
+}

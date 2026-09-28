@@ -1,0 +1,73 @@
+{
+ "key": "npc:ogunaro-wolfrunner",
+ "type": "npc",
+ "name": "Ogunaro Wolfrunner",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Ogunaro Wolfrunner",
+  "refs": 2
+ },
+ "summary": "Ogunaro Wolfrunner is the Horde's premier wolf breeder and kennel keeper in Orgrimmar, stationed by the Hunter's Hall in the Valley of Honor. He tends the fierce wolves chosen to bear orc champions and their trusted allies into battle. For seasoned riders seeking a bond with Durotar's apex predators, Ogunaro is the master to see.",
+ "sections": [
+  {
+   "title": "Master of the Pack",
+   "body": "Situated near the Hunter's Hall within the Valley of Honor, Ogunaro Wolfrunner oversees the breeding and conditioning of Orgrimmar's battle wolves. The bond between orc and wolf dates back generations across the plains of Draenor and the rugged wilderness of Durotar, representing a partnership of mutual respect rather than mere domestication. Ogunaro ensures only the hardiest, fiercest beasts\u2014from dire wolves to agile timber prowlers\u2014are entrusted to warriors who have proven their strength and worth to the warchief.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ogunaro Wolfrunner?",
+   "aliases": [
+    "ogunaro",
+    "wolf vendor orgrimmar",
+    "orc mount vendor"
+   ],
+   "answer": "Ogunaro Wolfrunner is the primary wolf breeder and mount vendor for the Horde, found outside the Hunter's Hall in Orgrimmar's Valley of Honor."
+  },
+  {
+   "q": "Can anyone purchase a wolf from him?",
+   "aliases": [
+    "can non orcs buy wolves",
+    "wolf mount rep requirements"
+   ],
+   "answer": "By heritage, orcs can acquire wolves freely once properly trained. Non-orc members of the Horde must earn exalted standing and the utmost trust of Orgrimmar before Ogunaro will part with one of his prized beasts."
+  },
+  {
+   "q": "What kinds of wolves does he provide?",
+   "aliases": [
+    "types of wolf mounts",
+    "which wolves does ogunaro sell"
+   ],
+   "answer": "Ogunaro keeps a diverse kennel of battle-hardened mounts, including black, brown, dire, and timber wolves, as well as swift, armored breeds suited for veterans of war."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "For orcs, riding a wolf is an ancestral tradition linking back to the clans of Draenor; Ogunaro stands as the keeper of that sacred martial bond."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Trolls, tauren, and Forsaken must prove their dedication and honor to Orgrimmar before Ogunaro will entrust them with a wolf mount."
+  }
+ ],
+ "keywords": [
+  "dire wolf",
+  "ogunaro wolfrunner",
+  "orgrimmar mounts",
+  "timber wolf",
+  "valley of honor",
+  "wolf mount"
+ ],
+ "related": [
+  "subzone:valley-of-honor",
+  "zone:orgrimmar",
+  "quest:7660",
+  "quest:7661"
+ ],
+ "attribution": [
+  "Ogunaro Wolfrunner"
+ ]
+}

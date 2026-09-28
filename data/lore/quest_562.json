@@ -1,0 +1,128 @@
+{
+ "key": "quest:562",
+ "type": "quest",
+ "name": "Stormwind Ho!",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   562
+  ],
+  "level": "32",
+  "faction": "Alliance",
+  "start": "Lieutenant Farren Orinelle",
+  "end": "",
+  "previous": "Farren's Proof (3)",
+  "next": "Reassignment",
+  "wiki": "Stormwind Ho!",
+  "chain": [
+   "Down the Coast",
+   "Farren's Proof",
+   "Farren's Proof (2)",
+   "Farren's Proof (3)",
+   "Stormwind Ho!",
+   "Reassignment"
+  ]
+ },
+ "summary": "Lieutenant Farren Orinelle is desperate to escape his posting in Southshore and return south to Stormwind City. Sensing a career opportunity after hearing Alliance High Command fears the rising threat of the naga, he hires an adventurer to exterminate the serpent-folk so he can claim the credit and secure a reassignment.",
+ "sections": [
+  {
+   "title": "A Ticket Out of Southshore",
+   "body": "Southshore sits on the knife-edge of Lordaeron, hemmed in by Forsaken forces, syndicate brigands, and relentless sea fiends. For Lieutenant Farren Orinelle, an ordinary guardsman accustomed to city drunks and petty brawls in Stormwind, the posting is nothing short of miserable. When word arrives from his former mentor that Alliance High Command is increasingly anxious about the naga encroaching on the coasts, Farren spots his golden opportunity to leave the north behind.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stolen Valor on the Coast",
+   "body": "Despite his lofty ambitions, Farren is candid about his cowardice: facing ferocious Daggerspine sirens and shorehunters in open combat is far beyond his courage and ability. Instead of risking his neck, he commissions an adventurer to scour the beaches southeast of Southshore, cull the naga ranks, and provide the martial feats he needs to draft an impressive dispatch to Major Samuelson in Stormwind.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Farren Orinelle want to kill the naga?",
+   "aliases": [
+    "why naga",
+    "farren motive",
+    "why kill naga in southshore"
+   ],
+   "answer": "He does not personally care about the naga; he wants out of Southshore. Farren learned from his mentor that Alliance High Command is worried about the naga threat, making successful operations against them a fast track for promotion or reassignment back to Stormwind City."
+  },
+  {
+   "q": "Can Lieutenant Farren Orinelle fight the naga himself?",
+   "aliases": [
+    "why doesn't farren fight",
+    "is farren weak",
+    "farren combat"
+   ],
+   "answer": "No. Farren openly admits he is merely an urban guardsman suited for breaking up drunken tavern brawls or arresting rowdy beggars. The savage Daggerspine naga terrify him, forcing him to rely entirely on visiting adventurers to do his fighting."
+  },
+  {
+   "q": "Where are the Daggerspine naga located?",
+   "aliases": [
+    "where are naga",
+    "daggerspine location",
+    "southshore naga beach"
+   ],
+   "answer": "The Daggerspine shorehunters and sirens have established encampments along the coastline directly southeast of the town of Southshore, prowling the shores of the Great Sea in Hillsbrad Foothills."
+  },
+  {
+   "q": "Who is Major Samuelson?",
+   "aliases": [
+    "major samuelson",
+    "samuelson stormwind",
+    "who gets the letter"
+   ],
+   "answer": "Major Samuelson is Farren Orinelle's former mentor in the Stormwind City Guard. Farren prepares reports for him detailing the culled naga in hopes that Samuelson will pull the strings necessary to grant him a transfer back south."
+  },
+  {
+   "q": "What happens after completing this task?",
+   "aliases": [
+    "what comes next",
+    "next quest after stormwind ho",
+    "reassignment quest"
+   ],
+   "answer": "Once the naga threat is mitigated and Farren takes credit for your work, he sends you south to Stormwind Keep to personally deliver his report and reassignment plea to Major Samuelson."
+  },
+  {
+   "q": "Why does Farren hate Southshore so much?",
+   "aliases": [
+    "why does farren hate southshore",
+    "light forsaken port"
+   ],
+   "answer": "Farren views Southshore as a dismal, dangerous frontier outpost far removed from the civilized safety of Stormwind. Between undead neighbors and coastal monsters, he refers to it bitterly as a 'Light-forsaken port.'"
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance command structure in Hillsbrad is stretched thin, leaving ordinary city watchmen out of their depth against monstrous threats like the Daggerspine naga."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans serving in Lordaeron, Southshore is a grim reminder of lost northern glory, contrasting sharply with the rebuilt grandeur and safety of Stormwind to the south."
+  }
+ ],
+ "keywords": [
+  "daggerspine",
+  "farren orinelle",
+  "hillsbrad foothills",
+  "naga",
+  "reassignment",
+  "samuelson",
+  "southshore",
+  "stormwind ho"
+ ],
+ "related": [
+  "npc:lieutenant-farren-orinelle",
+  "quest:563",
+  "quest:559",
+  "npc:major-samuelson",
+  "subzone:southshore",
+  "zone:hillsbrad",
+  "topic:naga",
+  "zone:stormwind"
+ ],
+ "attribution": [
+  "Stormwind Ho!"
+ ]
+}

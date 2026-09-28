@@ -1,0 +1,78 @@
+{
+ "key": "subzone:mast-room",
+ "type": "subzone",
+ "name": "Mast Room",
+ "era": "classic",
+ "zone": "deadmines",
+ "meta": {
+  "wiki": "Mast Room"
+ },
+ "summary": "The Mast Room is a cavernous subterranean lumber mill nestled deep within the Deadmines. Overseen by the goblin taskmaster Sneed and his woodcarvers, this chamber processes timber stripped from Westfall to construct Edwin VanCleef's secret juggernaut.",
+ "sections": [
+  {
+   "title": "The Underground Sawmill",
+   "body": "Past the deeper mine tunnels of the Deadmines lies the Mast Room, a massive cavern converted into a fully functional lumber mill. Piles of felled timber, sawdust, and massive cutting equipment dominate the space. It is here that goblin woodcarvers shape the immense masts, ribs, and planks needed to assemble the massive warship hidden further within the Ironclad Cove. Under the watchful eye of Sneed, the Defias Brotherhood transforms Westfall's harvested wood into instruments of war.",
+   "spoiler": 0
+  },
+  {
+   "title": "Industrial Labor",
+   "body": "The chamber is an example of goblin industry at its most relentless. Sneed oversees operations from atop a mechanical shredder, ensuring the woodcarvers maintain grueling quotas. Massive logs are hoisted and planed in constant succession, turning what was once a dormant gold mine into a roaring, soot-choked naval shipyard.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is there a lumber mill inside an underground mine?",
+   "aliases": [
+    "why timber here",
+    "why wood in deadmines",
+    "mast room purpose"
+   ],
+   "answer": "The Defias Brotherhood is secretly building a massive warship inside the cove beneath the mines. The Mast Room serves as the assembly and shaping ground for the ship's masts, framing, and hull planks, using timber smuggled from the surface of Westfall."
+  },
+  {
+   "q": "Who runs the Mast Room?",
+   "aliases": [
+    "mast room boss",
+    "who leads mast room",
+    "who is sneed"
+   ],
+   "answer": "The chamber is overseen by Sneed, a goblin master craftsman who directs the goblin woodcarvers while piloting a lethal mechanical lumber shredder."
+  },
+  {
+   "q": "Why are goblins working here for the Defias?",
+   "aliases": [
+    "why are goblins in deadmines",
+    "defias goblins"
+   ],
+   "answer": "Edwin VanCleef hired goblin engineers and craftsmen to provide technical expertise that human stonemasons lacked. The goblins provide heavy machinery, explosives, and shipwright skills in exchange for gold and profit."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The goblin shredder operated by Sneed in this chamber is a marvel of crude steam-and-cog technology, repurposed from forest logging to crush intruders."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The timber processed in this chamber reveals that Defias pillaging across Westfall serves a coordinated industrial effort rather than simple banditry."
+  }
+ ],
+ "keywords": [
+  "deadmines",
+  "goblin woodcarver",
+  "juggernaut",
+  "lumber mill",
+  "mast room",
+  "shredder",
+  "sneed"
+ ],
+ "related": [
+  "npc:sneed",
+  "zone:deadmines",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Mast Room"
+ ]
+}

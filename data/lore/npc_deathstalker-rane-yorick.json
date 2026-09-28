@@ -1,0 +1,116 @@
+{
+ "key": "npc:deathstalker-rane-yorick",
+ "type": "npc",
+ "name": "Deathstalker Rane Yorick",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Deathstalker Rane Yorick",
+  "refs": 5
+ },
+ "summary": "Deathstalker Rane Yorick is an operative of the Forsaken intelligence guild stationed deep in Silverpine Forest. Together with her brother Deathstalker Erland, she conducts reconnaissance on hostile threats encroaching upon the southern woods.",
+ "sections": [
+  {
+   "title": "Eyes in the Woods",
+   "body": "The Deathstalkers serve as Lady Sylvanas Windrunner's eyes, ears, and blades across Lordaeron. Operating out of shadows and hidden posts, agents like Rane Yorick monitor the wilderness for threats that could disrupt Forsaken dominion. When sent south into Silverpine Forest, Rane and her fellow scout Erland found themselves hemmed in by surrounding feral dangers, turning an undercover reconnaissance mission into a battle for survival.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trapped at Ivar Patch",
+   "body": "Holed up inside a derelict farmhouse at the Ivar Patch, Rane Yorick finds her mission compromised. Feral predators, restless undead, and the shadow of the Lupine worgen pack isolate her outpost from the safety of the Sepulcher. Rather than abandon her assignment, she relies on passing Horde travelers to cull the beasts roaming the fields, deliver her intelligence back to command, and secure a route to escort her brother out.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Deathstalker Rane Yorick?",
+   "aliases": [
+    "who is rane yorick",
+    "rane yorick lore",
+    "who is deathstalker yorick"
+   ],
+   "answer": "She is an operative of the Deathstalkers, the Forsaken rogue order of assassins and intelligence gatherers. She is currently stationed at a dilapidated farmhouse at the Ivar Patch in Silverpine Forest."
+  },
+  {
+   "q": "What are the Deathstalkers?",
+   "aliases": [
+    "what are deathstalkers",
+    "deathstalker faction",
+    "who are the deathstalkers"
+   ],
+   "answer": "The Deathstalkers are the clandestine rogue guild of the Forsaken, answering to Lady Sylvanas Windrunner. They carry out covert scouting, espionage, and targeted assassinations across Lordaeron."
+  },
+  {
+   "q": "Why is she trapped in a farmhouse?",
+   "aliases": [
+    "why is rane trapped",
+    "ivar patch farmhouse",
+    "why is she hiding"
+   ],
+   "answer": "Rane and her brother Deathstalker Erland were dispatched on a scouting mission into southern Silverpine Forest, but dangerous wildlife and nearby worgen threats cut them off and forced them to barricade themselves inside the farmhouse."
+  },
+  {
+   "q": "Who is her brother?",
+   "aliases": [
+    "rane yorick brother",
+    "who is erland",
+    "deathstalker erland"
+   ],
+   "answer": "Her brother is Deathstalker Erland, a fellow agent assigned to the same reconnaissance mission at the Ivar Patch."
+  },
+  {
+   "q": "What threats are they tracking in Silverpine?",
+   "aliases": [
+    "what are they scouting",
+    "what is rane investigating"
+   ],
+   "answer": "Their mission involves monitoring the feral worgen prowling southern Silverpine, the rogue human elements near the Greymane Wall, and securing travel routes against vicious wildlife."
+  },
+  {
+   "q": "Where does she report her findings?",
+   "aliases": [
+    "where do reports go",
+    "who is rane's superior"
+   ],
+   "answer": "Her reconnaissance reports are funneled through the Sepulcher and forwarded directly to the leadership of the Deathstalkers in the Undercity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "For Forsaken rogues, Rane Yorick exemplifies the perilous fieldwork expected of the Deathstalkers, maintaining stealth and collecting intelligence under constant enemy pressure."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken champions encounter Rane as a frontline scout keeping the untamed frontier of Silverpine Forest from falling back into hostile hands."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Her intelligence operations help ensure Horde supply routes running through Silverpine remain clear of worgen and local ambushes."
+  }
+ ],
+ "keywords": [
+  "deathstalker",
+  "erland",
+  "forsaken",
+  "ivar patch",
+  "rane",
+  "rogue",
+  "scout",
+  "silverpine",
+  "yorick"
+ ],
+ "related": [
+  "quest:428",
+  "quest:435",
+  "quest:449",
+  "subzone:ivar-patch",
+  "quest:425",
+  "topic:worgen",
+  "zone:silverpine",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Deathstalker Rane Yorick"
+ ]
+}

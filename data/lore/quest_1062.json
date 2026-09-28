@@ -1,0 +1,127 @@
+{
+ "key": "quest:1062",
+ "type": "quest",
+ "name": "Goblin Invaders",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1062
+  ],
+  "level": "19",
+  "faction": "Horde",
+  "start": "Seereth Stonebreak",
+  "end": "",
+  "previous": "The Spirits of Stonetalon",
+  "next": "Shredding Machines, The Elder Crone",
+  "wiki": "Goblin Invaders",
+  "chain": []
+ },
+ "summary": "Goblin Invaders is a Horde quest tasked by Seereth Stonebreak at the border between the Barrens and the Stonetalon Mountains. It directs warriors of the Horde into Windshear Crag to strike directly at the Venture Company loggers despoiling the region's ancient woodlands.",
+ "sections": [
+  {
+   "title": "A Forest in Agony",
+   "body": "The Venture Company has pushed deep into the Stonetalon Mountains, carving wide swaths of destruction through the crags and valleys. Their logging operations strip the hillsides of timber and set fire to underbrush, leaving behind smoldering scars. To the tauren and their allies, this is not merely an unsightly mining and lumber operation; the primal spirits bound to Stonetalon are howling in torment. Seereth Stonebreak, stationed along the mountain border, observes that these spirits have grown blind with agony and fury under the goblins' relentless assault.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Language of Force",
+   "body": "Appeals to reason or diplomacy mean nothing to the cutthroat executives and hirelings of the Venture Company, whose sole concern is raw profit. Recognizing this, Seereth orders travelers to venture past Greatwood Vale and directly into Windshear Crag to cull fifteen loggers. By meeting corporate greed with armed force, the Horde aims to halt the deforestation in its tracks and buy time for tauren elders to soothe the agitated spirits of the land.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Seereth Stonebreak?",
+   "aliases": [
+    "seereth stonebreak",
+    "quest giver",
+    "who gives goblin invaders"
+   ],
+   "answer": "Seereth Stonebreak is a tauren scout and warden stationed near the southern boundary between the Barrens and the Stonetalon Mountains. He monitors the encroachment of hostile factions and works to protect the spiritual balance of the region."
+  },
+  {
+   "q": "Why are the goblins deforesting Stonetalon Mountains?",
+   "aliases": [
+    "why venture co logging",
+    "venture company motivation stonetalon",
+    "why cut trees"
+   ],
+   "answer": "The Venture Company is an unscrupulous, profit-driven enterprise. They see Stonetalon's dense ancient forests and mineral-rich hills purely as raw materials to be harvested, processed, and sold to the highest bidder, completely indifferent to the natural and spiritual devastation left behind."
+  },
+  {
+   "q": "Where is Windshear Crag located?",
+   "aliases": [
+    "windshear crag location",
+    "where are loggers",
+    "where to find venture co loggers"
+   ],
+   "answer": "Windshear Crag lies in the central portion of the Stonetalon Mountains. To reach it from the Barrens border, travel northwest up the mountain road through Greatwood Vale until the vibrant green forest gives way to the mechanical logging camps and clear-cut hills of the Venture Company."
+  },
+  {
+   "q": "How do the spirits react to the Venture Company's presence?",
+   "aliases": [
+    "stonetalon spirits angry",
+    "spirits of stonetalon reaction"
+   ],
+   "answer": "According to Seereth Stonebreak, the land spirits are driven near madness with rage and pain from the rampant logging and burning of the woodlands. Their suffering disrupts the natural balance, posing a spiritual threat to the entire region."
+  },
+  {
+   "q": "What happens after culling the Venture Company loggers?",
+   "aliases": [
+    "after goblin invaders",
+    "next quest after loggers"
+   ],
+   "answer": "Eliminating the loggers is only the initial blow against the operation. Seereth next turns the Horde's attention toward dismantling the company's mechanized infrastructure, while also recommending that the champion seek the guidance of tauren elders to help soothe the wounded spirits."
+  },
+  {
+   "q": "Why does the Horde care about logging in Stonetalon?",
+   "aliases": [
+    "horde interest stonetalon",
+    "why horde fight venture co"
+   ],
+   "answer": "The Stonetalon Mountains hold deep cultural and spiritual significance for the tauren, while the Horde as a whole views the unbridled aggression and resource theft of the Venture Company as a threat to their territorial influence and spiritual harmony."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The desecration of Stonetalon's forests and the agony of its earth spirits make confronting the Venture Company an urgent duty for every tauren who honors the Earth Mother."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The mindless destruction of living groves and slaughter of ancient trees in Windshear Crag represent a direct violation of the natural order that druids are sworn to defend."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman can acutely feel the cries of the local elementals and nature spirits, who have been driven blind with fury by the smoke and devastation of goblin machinery."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Halting the Venture Company secures the borderlands between the Barrens and the higher passes, ensuring hostile commercial syndicates do not fortify central Kalimdor."
+  }
+ ],
+ "keywords": [
+  "goblin",
+  "greatwood vale",
+  "logger",
+  "seereth stonebreak",
+  "spirits",
+  "stonetalon mountains",
+  "venture company",
+  "windshear crag"
+ ],
+ "related": [
+  "npc:seereth-stonebreak",
+  "subzone:windshear-crag",
+  "quest:1061",
+  "subzone:greatwood-vale",
+  "zone:stonetalon",
+  "topic:venture-company",
+  "topic:tauren",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Goblin Invaders"
+ ]
+}

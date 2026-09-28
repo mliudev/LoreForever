@@ -1,0 +1,127 @@
+{
+ "key": "quest:119",
+ "type": "quest",
+ "name": "Return to Verner",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   119
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Smith Argus",
+  "end": "Verner Osgood",
+  "previous": "The Price of Shoes",
+  "next": null,
+  "wiki": "Return to Verner",
+  "chain": [
+   "The Price of Shoes",
+   "Return to Verner",
+   "Underbelly Scales",
+   "A Baying of Gnolls",
+   "Howling in the Hills"
+  ]
+ },
+ "summary": "Return to Verner is an Alliance errand carrying a bulky delivery of fifty freshly forged horseshoes back to Lakeshire. Entrusted by Goldshire's blacksmith, Smith Argus, you must return across the border into Redridge to hand the crate over to an eager Verner Osgood.",
+ "sections": [
+  {
+   "title": "A Courier Across the Border",
+   "body": "Having traveled all the way from Lakeshire to Elwynn Forest to secure essential footwear for local mounts, your task concludes with hauling the finished crate of fifty horseshoes back eastward. Redridge Mountains remains strained by supply shortages and marauding gnolls, making every piece of ironmongery vital for keeping horses and draft animals functional on the rugged mountain roads.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Note on the Crate",
+   "body": "While Verner Osgood is relieved to see the horseshoes arrive, Smith Argus did not forge them purely out of fraternal goodwill. Attached to the shipment is a bill demanding payment. Verner is visibly annoyed to discover that the Goldshire smith actually expects compensation, though the pressing dangers facing Redridge leave little time to bicker over the tab before turning to more perilous problems.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I take the Crate of Horseshoes?",
+   "aliases": [
+    "where is verner",
+    "turn in location",
+    "who gets horseshoes"
+   ],
+   "answer": "Bring the crate back to Verner Osgood in Lakeshire, located in the Redridge Mountains just east of the bridge and lakeside docks."
+  },
+  {
+   "q": "Who sent this delivery back to Redridge?",
+   "aliases": [
+    "who gave the quest",
+    "smith argus",
+    "quest giver"
+   ],
+   "answer": "Smith Argus, the resident blacksmith stationed outside the Lion's Pride Inn in Goldshire, provides the crate once his forging work is finished."
+  },
+  {
+   "q": "Why is Verner upset when he receives the crate?",
+   "aliases": [
+    "why is verner mad",
+    "argus note",
+    "verner reaction"
+   ],
+   "answer": "Argus attached an invoice to the shipment demanding full payment for the fifty horseshoes, much to Verner's irritation, as he apparently hoped for a free favor or lighter terms."
+  },
+  {
+   "q": "What quests open up after completing this delivery?",
+   "aliases": [
+    "next quest",
+    "followup quests",
+    "what unlocks"
+   ],
+   "answer": "Completing this delivery leads directly into Verner's combat contracts against local threats: 'A Baying of Gnolls' to hunt the Redridge gnolls, alongside an errand for 'Underbelly Scales'."
+  },
+  {
+   "q": "Why does Lakeshire need supplies imported from Goldshire?",
+   "aliases": [
+    "why elwynn shoes",
+    "why import horseshoes",
+    "redridge supplies"
+   ],
+   "answer": "Lakeshire is under heavy siege by gnolls and Blackrock orcs, stretching local craftsmen thin. Everyday staples like bulk iron horseshoes often have to be ferried in from quieter settlements like Goldshire."
+  },
+  {
+   "q": "Does Smith Argus accompany you back to Redridge?",
+   "aliases": [
+    "does argus come with",
+    "escort smith argus"
+   ],
+   "answer": "No. Smith Argus remains at his forge in Goldshire, leaving the cross-zone courier duties entirely to traveling adventurers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Hauling fifty horseshoes highlights the logistical grind behind keeping frontier mounts shod when local red-hot anvils are overwhelmed by war."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Running supply lines between Elwynn Forest and Redridge is crucial for keeping beleaguered outlying settlements like Lakeshire tied to the kingdom's core."
+  }
+ ],
+ "keywords": [
+  "crate of horseshoes",
+  "elwynn forest",
+  "goldshire",
+  "lakeshire",
+  "redridge",
+  "smith argus",
+  "the price of shoes",
+  "verner osgood"
+ ],
+ "related": [
+  "quest:118",
+  "npc:verner-osgood",
+  "npc:smith-argus",
+  "quest:124",
+  "quest:122",
+  "quest:126",
+  "zone:elwynn",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Return to Verner"
+ ]
+}

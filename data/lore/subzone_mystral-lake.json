@@ -1,0 +1,89 @@
+{
+ "key": "subzone:mystral-lake",
+ "type": "subzone",
+ "name": "Mystral Lake",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Mystral Lake"
+ },
+ "summary": "Mystral Lake is the largest body of water in Ashenvale, resting in the south-central forest just below Silverwind Refuge. Once a tranquil sanctuary guarded by water elementals loyal to the night elves, its waters have become fraught with danger due to corruption of the local elementals.",
+ "sections": [
+  {
+   "title": "A Corrupted Sanctuary",
+   "body": "Spanning a vast expanse south of Silverwind Refuge and east of Talondeep Vale, Mystral Lake was long cherished by the kaldorei for its pure waters and peaceful guardian elementals. However, dark interference has broken that ancient peace. The rogue mage Sarilus Foulborne turned his arts upon the lake's water spirits, corrupting them into hostile, violent entities. Today, travelers from both the Horde and Alliance frequently find their journeys pulling them to these troubled shores, contending with the wrath of spirits that once sheltered the woods.",
+   "spoiler": 0
+  },
+  {
+   "title": "Spiritual Crossroads",
+   "body": "Beyond the corruption troubling the local night elves, Mystral Lake draws attention across faction lines. Horde shaman traveling the path of elemental communion seek out its deep waters during their trials to understand the element of water. Despite the corruption infesting its guardian spirits, the raw primal resonance of the lake makes it an essential pilgrimage site for those learning to bind and respect the tidal spirits.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Mystral Lake located?",
+   "aliases": [
+    "where is mystral lake",
+    "mystral lake location",
+    "lake mystral map"
+   ],
+   "answer": "Mystral Lake lies in south-central Ashenvale. It sits directly south of Silverwind Refuge and east of Talondeep Vale, making it the largest open body of water in the forest."
+  },
+  {
+   "q": "Why are the water elementals here hostile?",
+   "aliases": [
+    "why are water elementals attacking",
+    "corrupted water elementals",
+    "who corrupted mystral lake"
+   ],
+   "answer": "The water elementals were originally peaceful and loyal to the night elves of Ashenvale. However, a rogue caster named Sarilus Foulborne corrupted them, twisting their gentle nature into relentless hostility toward any who approach the lake."
+  },
+  {
+   "q": "Why do shaman visit Mystral Lake?",
+   "aliases": [
+    "call of water mystral lake",
+    "shaman quest mystral lake"
+   ],
+   "answer": "Horde shaman are directed to Mystral Lake during their spiritual trials for the Call of Water. The lake possesses a deep elemental resonance, making it an important location for understanding and attuning to water spirits."
+  },
+  {
+   "q": "Who controls Mystral Lake?",
+   "aliases": [
+    "is mystral lake horde or alliance",
+    "who owns mystral lake"
+   ],
+   "answer": "Neither faction holds direct military control over the lake itself. The night elves monitor it from nearby outposts like Silverwind Refuge, but hostile corrupted elementals currently dominate the waters, threatening members of both the Alliance and the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The turbulent depths of Mystral Lake serve as a vital stop during the Call of Water, where aspiring shaman must confront the local spirits to master their elemental craft."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Once home to peaceful guardians aligned with your people, the lake stands as a bitter reminder of the outside corruption encroaching upon Ashenvale's sacred groves."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "call of water",
+  "lake mystral",
+  "mystral lake",
+  "sarilus foulborne",
+  "silverwind refuge",
+  "water elementals"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "subzone:silverwind-refuge",
+  "subzone:talondeep-vale",
+  "quest:63",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Mystral Lake"
+ ]
+}

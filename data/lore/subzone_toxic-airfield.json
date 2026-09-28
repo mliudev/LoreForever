@@ -1,0 +1,84 @@
+{
+ "key": "subzone:toxic-airfield",
+ "type": "subzone",
+ "name": "Toxic Airfield",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Toxic Airfield"
+ },
+ "summary": "The Toxic Airfield is a contaminated stretch of land on the surface of Dun Morogh, directly outside the besieged city of Gnomeregan. Littered with wrecked flying machines and green radioactive sludge, it serves as a grim testament to the catastrophic venting of toxic radiation during the city's fall.",
+ "sections": [
+  {
+   "title": "Fallout on the Tarmac",
+   "body": "Once an active landing strip supporting Gnomeregan's cutting-edge aerial fleet, the airfield became a bio-industrial disaster zone when the irradiated vents erupted. Wrecked flying machines and bombers now rot among pools of glowing ooze. The site is swarming with toxic sludges, living contaminations, and irradiated remnants, demanding containment efforts from intrepid gnomish engineers and recruits who struggle to prevent the poison from seeping deeper into Dun Morogh.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the airfield radioactive?",
+   "aliases": [
+    "why toxic airfield poisoned",
+    "gnomeregan radiation outside",
+    "what happened to toxic airfield"
+   ],
+   "answer": "When the gnomes attempted to wipe out the trogg invaders using toxic radiation, the plan backfired catastrophically. The venting systems and surface explosions spewed irradiating sludge across Gnomeregan's exterior installations, including this former airstrip."
+  },
+  {
+   "q": "What are the sludges crawling around the airfield?",
+   "aliases": [
+    "living contaminations",
+    "toxic sludges origin",
+    "oozes at airfield"
+   ],
+   "answer": "The Toxic Sludges and Living Contaminations are the horrific byproduct of the Irradiator vents. Tragically, many gnomes caught in the fallout were dissolved, mutating alongside industrial waste into animate radioactive ooze."
+  },
+  {
+   "q": "Who is trying to clean up the area?",
+   "aliases": [
+    "cleanup effort",
+    "who is at toxic airfield",
+    "fizzwhistle airfield"
+   ],
+   "answer": "Gnomish forces, including Corporal Fizzwhistle and his recruits, actively fight the encroaching contamination on-site. Inventors like Engineer Grindspark deploy mechanized cleanup contraptions, such as the GS-9x Multi-Bot, to sweep up the radioactive waste."
+  },
+  {
+   "q": "Who is Gibblewilt?",
+   "aliases": [
+    "gibblewilt",
+    "toxic airfield boss"
+   ],
+   "answer": "Gibblewilt is a hostile, irradiated leper gnome roaming the area. While no organized faction holds dominion over the toxic runway, his maddened presence poses an immediate threat to anyone venturing near the wreckage."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "The ruined airfield stands as an open wound for Gnomeregan's survivors, showing the catastrophic surface devastation of the decision to deploy radioactive countermeasures."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Scattered with wrecked flying machines and experimental decontaminators, the airfield shows both the height of gnomish aviation and the brutal cost of technological catastrophes."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "fizzwhistle",
+  "gibblewilt",
+  "gnomeregan",
+  "grindspark",
+  "living contamination",
+  "radiation",
+  "toxic airfield",
+  "toxic sludge"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "zone:gnomeregan",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Toxic Airfield"
+ ]
+}

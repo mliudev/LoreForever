@@ -1,0 +1,120 @@
+{
+ "key": "quest:484",
+ "type": "quest",
+ "name": "Young Crocolisk Skins",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   484
+  ],
+  "level": "22",
+  "faction": "Alliance",
+  "start": "James Halloran",
+  "end": "",
+  "previous": null,
+  "next": "Apprentice's Duties",
+  "wiki": "Young Crocolisk Skins",
+  "chain": [
+   "Young Crocolisk Skins",
+   "Apprentice's Duties"
+  ]
+ },
+ "summary": "James Halloran, a prominent tanner based in Menethil Harbor, contracts travelers to supply fresh skins from the marsh's juvenile crocolisks. His cured hides enjoy international maritime demand, making reliable hunting essential to his trade. Supplying these softer materials earns his trust and opens the way to further leatherworking chores.",
+ "sections": [
+  {
+   "title": "A Harbor's Export",
+   "body": "Menethil Harbor is an essential maritime hub connecting the Eastern Kingdoms to distant continents, but it also supports a bustling local economy built around the resources of the surrounding marshland. James Halloran has established an international trade by tanning and curing the tough hides of the region's abundant reptilian predators. Merchants and ships sailing out of Menethil carry Halloran's leather goods to distant ports, creating constant pressure on his workshop to maintain a steady inventory.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hunting the Young Marsh Lurkers",
+   "body": "While veteran trappers like Einar provide regular hauls of mature hides, tanning specialized luxury goods requires far softer leather than fully grown marsh crocolisks can yield. To fill this shortage, Halloran relies on passing adventurers to wade into the shallow bogs right outside Menethil's palisades. Sourcing intact skins from juvenile beasts requires careful hunting, ensuring the hides remain intact enough to endure Halloran's meticulous curing process.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is James Halloran?",
+   "aliases": [
+    "james halloran lore",
+    "who is the tanner",
+    "halloran menethil"
+   ],
+   "answer": "James Halloran is a master tanner operating in Menethil Harbor. His cured crocolisk skins are famed across the world and regularly shipped out across the Great Sea to foreign ports."
+  },
+  {
+   "q": "Why does Halloran need young crocolisk skins specifically?",
+   "aliases": [
+    "why young crocs",
+    "softer skins",
+    "crocolisk hides use"
+   ],
+   "answer": "While adult crocolisks yield durable, heavy armor-grade leather, juvenile crocolisks have much softer and more pliable hides. These delicate skins are vital for specific luxury goods and fine leatherwork that adult hides are too rigid to produce."
+  },
+  {
+   "q": "Who is Einar?",
+   "aliases": [
+    "einar wetlands",
+    "hunter einar",
+    "einar lore"
+   ],
+   "answer": "Einar is a local hunter stationed in the Wetlands who works directly with James Halloran. He regularly treks into the marshes to cull wild crocolisks and supply the harbor workshop with raw skins."
+  },
+  {
+   "q": "Where are these young crocolisks found?",
+   "aliases": [
+    "croc locations",
+    "where are the young crocs",
+    "wetlands young crocs"
+   ],
+   "answer": "Young crocolisks inhabit the waterways, reeds, and marshy shallows immediately surrounding Menethil Harbor, just beyond the town gates and docks."
+  },
+  {
+   "q": "What happens after bringing the skins to Halloran?",
+   "aliases": [
+    "quest followup",
+    "next quest after young crocolisk skins",
+    "halloran next task"
+   ],
+   "answer": "Impressed by the quality of the hides, Halloran immediately asks for assistance handling other chores around his tanning operation, delegating typical apprentice tasks to help keep his workshop moving."
+  },
+  {
+   "q": "Why is crocolisk leather valuable in Menethil Harbor?",
+   "aliases": [
+    "menethil leather trade",
+    "crocolisk skin value"
+   ],
+   "answer": "Menethil Harbor serves as a bustling trading port connecting Ironforge and Stormwind to overseas territories like Kalimdor. Exotic waterproof marsh skins cured by skilled artisans find high value among merchants and sailors docking in town."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For hunters passing through the Wetlands, Halloran's request is routine field work, harvesting clean hides from native predators without spoiling the leather."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Supporting the maritime commerce of Menethil Harbor keeps vital supply lines and trade exports flowing smoothly across the Great Sea."
+  }
+ ],
+ "keywords": [
+  "crocolisk",
+  "einar",
+  "james halloran",
+  "leather",
+  "menethil harbor",
+  "skins",
+  "tanning",
+  "wetlands"
+ ],
+ "related": [
+  "npc:james-halloran",
+  "quest:471",
+  "subzone:menethil-harbor",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "Young Crocolisk Skins"
+ ]
+}

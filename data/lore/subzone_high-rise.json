@@ -1,0 +1,76 @@
+{
+ "key": "subzone:high-rise",
+ "type": "subzone",
+ "name": "High Rise",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "High Rise"
+ },
+ "summary": "The High Rise is the uppermost tier of Thunder Bluff's central mesa, crowning the tauren capital. It hosts a bustling amphitheater centered around a communal bonfire alongside seasoned artisans, weapon merchants, and culinary masters. Unlike the lower tiers, this summit relies entirely on suspension rope bridges and the wind rider roost for travel.",
+ "sections": [
+  {
+   "title": "Summit of the Mesa",
+   "body": "The High Rise perches atop Thunder Bluff's core plateau, catching the open winds high above the rolling plains of Mulgore. A focal gathering point for the united tribes, it centers around an open-air amphitheater and fire pit where citizens listen to important tribal announcements and fateful decisions. The surrounding tents and wooden stalls house renowned merchants, armories, and culinary trainers, including Aska's Kitchen and Mountaintop Bait & Tackle. While the lower tiers connect directly to Mulgore's prairie floor via massive wooden elevators, the High Rise stays aloft, accessible primarily through the wind rider roost and sweeping rope bridges linking to the neighboring Elder Rise and Hunter Rise.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you reach the High Rise?",
+   "aliases": [
+    "how to get to high rise",
+    "high rise access",
+    "getting up to high rise"
+   ],
+   "answer": "You can reach the High Rise by taking the central tower elevators from the lower tiers of the city up to the wind rider roost, or by crossing the great wooden suspension bridges that stretch across the open sky from Elder Rise and Hunter Rise. Unlike the lower bluffs, there are no ground lifts running directly from the Mulgore plains to the High Rise."
+  },
+  {
+   "q": "What services are found on the High Rise?",
+   "aliases": [
+    "trainers on high rise",
+    "shops high rise",
+    "what is on high rise"
+   ],
+   "answer": "The tier is known for its tradesfolk and outdoor gathering places. Notable establishments include Aska's Kitchen for cooking instruction, Mountaintop Bait & Tackle for fishing gear, and various weapon merchants like Ragetotem Arms and Thunderhoof's Firearms."
+  },
+  {
+   "q": "What is the amphitheater on the High Rise used for?",
+   "aliases": [
+    "high rise bonfire",
+    "high rise auditorium",
+    "tauren meeting place"
+   ],
+   "answer": "The open-air amphitheater surrounds a central bonfire, serving as a communal gathering area. Here, the tauren people assemble beneath the open sky to hear news, deliberate tribal affairs, and witness important proclamations delivered atop the mesa."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "The High Rise is home to Aska's Kitchen and renowned pit masters, making it the primary destination in Thunder Bluff to hone your culinary skills over open flame."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "As the crest of your capital city, the High Rise represents unity among the tribes, gathering hunters, shamans, and elders around its high communal fire."
+  }
+ ],
+ "keywords": [
+  "amphitheater",
+  "aska's kitchen",
+  "bonfire",
+  "high rise",
+  "mulgore",
+  "thunder bluff",
+  "wind rider roost"
+ ],
+ "related": [
+  "zone:thunderbluff",
+  "zone:mulgore",
+  "subzone:elder-rise",
+  "subzone:hunter-rise",
+  "quest:4767"
+ ],
+ "attribution": [
+  "High Rise"
+ ]
+}

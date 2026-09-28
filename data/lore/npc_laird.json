@@ -1,0 +1,89 @@
+{
+ "key": "npc:laird",
+ "type": "npc",
+ "name": "Laird",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Laird",
+  "refs": 2
+ },
+ "summary": "Laird is a night elf fish vendor found inside the seaside inn of Auberdine. Working along Darkshore's mist-shrouded coast, he provides trade goods and culinary recipes to travelers and fishermen braving the rugged shoreline.",
+ "sections": [
+  {
+   "title": "A Harbor Merchant",
+   "body": "Situated inside the bustling inn of Auberdine, Laird sells fresh fish and supplies to sailors, locals, and journeying adventurers. Darkshore's waters are notoriously turbulent and rife with danger compared to the sheltered shores of Teldrassil, but Laird knows well that risk brings reward. For daring anglers willing to cast their lines along the misty beaches, the local catch yields a handsome profit.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ties Across the Water",
+   "body": "Laird remains closely connected to fishing operations across the channel in Teldrassil. He serves as an essential contact for courier runs between the island boughs of Rut'theran Village and the mainland port, receiving shipments from his fellow fisher Nessa Shadowsong and ensuring the lines of coastal commerce stay open.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Laird?",
+   "aliases": [
+    "laird location",
+    "where is laird",
+    "laird auberdine"
+   ],
+   "answer": "Laird is located indoors on the ground floor of the inn in Auberdine, the main Alliance settlement along the coast of Darkshore."
+  },
+  {
+   "q": "What does Laird sell?",
+   "aliases": [
+    "laird vendor",
+    "what does laird sell",
+    "laird wares"
+   ],
+   "answer": "He sells various caught fish and cooking ingredients, as well as the culinary instruction for preparing a Fillet of Frenzy."
+  },
+  {
+   "q": "What quests involve Laird?",
+   "aliases": [
+    "laird quests",
+    "auberdine fish quest"
+   ],
+   "answer": "Laird is the recipient of a delivery originating from Nessa Shadowsong at Rut'theran Village in the quest Flight to Auberdine, after which he asks adventurers to carry word back across the sea."
+  },
+  {
+   "q": "Why does Laird think Darkshore fishing is worthwhile despite the danger?",
+   "aliases": [
+    "laird gossip",
+    "is darkshore good for fishing"
+   ],
+   "answer": "Laird notes that while the misty shoreline of Darkshore harbors far more hazards than the tranquil waters of Teldrassil, the abundant and exotic sea life makes the trade far more profitable for enterprising fishers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Culinary travelers visiting Darkshore often seek out Laird for his recipe on how to properly fillet and cook the fierce frenzy fish native to Kalimdor's waters."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Laird represents the everyday night elf tradesmen who have established themselves along the mainland shores to support Kalimdor's growing coastal network."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "fillet of frenzy",
+  "fish vendor",
+  "laird",
+  "nessa shadowsong"
+ ],
+ "related": [
+  "subzone:auberdine",
+  "zone:darkshore",
+  "quest:6342",
+  "quest:6343",
+  "topic:night-elf",
+  "quest:940"
+ ],
+ "attribution": [
+  "Laird"
+ ]
+}

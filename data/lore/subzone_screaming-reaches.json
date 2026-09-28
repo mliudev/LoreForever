@@ -1,0 +1,83 @@
+{
+ "key": "subzone:screaming-reaches",
+ "type": "subzone",
+ "name": "Screaming Reaches",
+ "era": "classic",
+ "zone": "ungoro",
+ "meta": {
+  "wiki": "Screaming Reaches"
+ },
+ "summary": "The Screaming Reaches is a rugged territory along the northwestern rim of Un'Goro Crater, famous for the deafening shrieks of the pterrordax that wheel overhead. Beyond its nesting winged reptiles, the area holds the only known deposits of Yellow Power Crystals in the crater and houses the winding ramp leading into the desolate wastes of Silithus.",
+ "sections": [
+  {
+   "title": "The Roost of the Pterrordax",
+   "body": "Stretching west from the Mossy Pile toward the crater's northwestern cliffs, the Screaming Reaches earned its moniker from the endless cries of the predatory pterrordax nesting across the rocky ledges. Travelers venturing beneath the canopy must watch both the dense undergrowth and the open sky, as these winged terrors swoop down upon anything entering their hunting grounds. The slopes also sparkle with vibrant, hum-charged Yellow Power Crystals, making the dangerous cliffs a frequent destination for naturalists and crystal hunters studying the strange energies coursing through Un'Goro.",
+   "spoiler": 0
+  },
+  {
+   "title": "Passage to Silithus",
+   "body": "Tucked away in the far northwestern corner of the Reaches lies an incline cutting up through the caldera wall. Mirroring the southern descent from Tanaris, this stone pathway forms the sole natural exit connecting Un'Goro Crater directly to the arid barrens of Silithus. While the crater floor bursts with primeval life, the top of this steep slope opens into harsh desert winds and swirling dust, marking the border between two vastly different Kalimdor wildernesses.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is this area called the Screaming Reaches?",
+   "aliases": [
+    "screaming reaches name meaning",
+    "why called screaming reaches",
+    "why screaming"
+   ],
+   "answer": "The region is named after the constant, piercing screeches of the pterrordax that nest along the northwestern cliffs. Their shrill calls echo continuously across the rock faces and forest canopy."
+  },
+  {
+   "q": "Where does the mountain ramp in the northwest lead?",
+   "aliases": [
+    "screaming reaches ramp",
+    "path in northwest ungoro",
+    "exit to silithus"
+   ],
+   "answer": "The winding stone ramp in the far northwestern edge of the Screaming Reaches leads up out of Un'Goro Crater and straight into the windblown desert of Silithus."
+  },
+  {
+   "q": "What kind of power crystals grow here?",
+   "aliases": [
+    "yellow crystals ungoro",
+    "screaming reaches crystals",
+    "where to find yellow power crystal"
+   ],
+   "answer": "The Screaming Reaches is the exclusive source of Yellow Power Crystals in Un'Goro Crater. These glowing crystal formations can be gathered off the ground and used in conjunction with the crater's mysterious pylon devices."
+  },
+  {
+   "q": "What threats should travelers expect here?",
+   "aliases": [
+    "screaming reaches mobs",
+    "what monsters live here",
+    "screaming reaches dangers"
+   ],
+   "answer": "The area is heavily populated by territorial pterrordax circling above and nesting on the ground. Visitors must keep an eye on the skies to avoid being ambushed by diving reptiles while traversing the uneven terrain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The high vantage points and abundant pterrordax make the Reaches a prime study ground for beast-trackers looking to understand the habits of primeval aerial predators."
+  }
+ ],
+ "keywords": [
+  "mossy pile",
+  "pterrordax",
+  "screaming reaches",
+  "silithus ramp",
+  "ungoro",
+  "yellow power crystal"
+ ],
+ "related": [
+  "zone:ungoro",
+  "zone:silithus",
+  "subzone:mossy-pile"
+ ],
+ "attribution": [
+  "Screaming Reaches"
+ ]
+}

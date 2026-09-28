@@ -1,0 +1,118 @@
+{
+ "key": "quest:1886",
+ "type": "quest",
+ "name": "The Deathstalkers",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   1886
+  ],
+  "level": "13",
+  "faction": "Horde",
+  "start": "Mennet Carkad",
+  "end": "",
+  "previous": "Mennet Carkad (quest)",
+  "next": "The Deathstalkers (2)",
+  "wiki": "The Deathstalkers",
+  "chain": []
+ },
+ "summary": "This task marks the trial for initiates seeking entry into the Deathstalkers, the covert and lethal arm answering to Lord Varimathras in the Undercity. Assigned by Mennet Carkad in the Rogues' Quarter, the mission demands ruthless initiative to intercept a traveling messenger. Completing it opens the door to deeper clandestine schemes within the Forsaken realm.",
+ "sections": [
+  {
+   "title": "A Test in the Shadows",
+   "body": "The Deathstalkers do not admit just anyone into their ranks. Operating directly under dreadlord Varimathras, this secretive order acts as both the secret police and elite assassination corps of the Forsaken. To earn their notice, a hopeful agent must demonstrate cunning, discretion, and an unhesitating willingness to eliminate targets. In the shadowy corners of the Rogues' Quarter, handler Mennet Carkad sets an initiation trial designed to weed out the weak or overscrupulous.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Interception",
+   "body": "The initiate's target is Astor Hadren, a courier traveling the road between the Undercity and Silverpine Forest. Carkad offers no tactical advice, leaving the method of securing Hadren's personal introduction entirely up to the operative. The task hinges on intercepting Astor, seizing his credentials, and ensuring the Deathstalkers can masquerade their recruit as the expected envoy to an operative named Andron.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are the Deathstalkers?",
+   "aliases": [
+    "deathstalkers lore",
+    "what are deathstalkers",
+    "undead rogues"
+   ],
+   "answer": "The Deathstalkers are the elite stealth and assassination branch of the Forsaken. Headquartered in the Undercity's Rogues' Quarter, they handle espionage, covert executions, and information gathering, reporting directly to Lord Varimathras."
+  },
+  {
+   "q": "Who is Mennet Carkad?",
+   "aliases": [
+    "mennet carkad role",
+    "who gives quest"
+   ],
+   "answer": "Mennet Carkad is a Deathstalker handler operating out of the Rogues' Quarter in the Undercity. He oversees early trials and tests recruits hoping to join their covert ranks."
+  },
+  {
+   "q": "Why does Mennet need Astor Hadren's letter?",
+   "aliases": [
+    "astor hadren letter",
+    "why intercept messenger",
+    "astor letter of introduction"
+   ],
+   "answer": "Astor Hadren is a courier traveling between Silverpine Forest and the Undercity. Securing his letter of introduction allows the Deathstalkers to substitute their new operative in Hadren's place to deceive an associate named Andron."
+  },
+  {
+   "q": "Where does Astor Hadren travel?",
+   "aliases": [
+    "astor hadren route",
+    "astor hadren location",
+    "where is astor"
+   ],
+   "answer": "Astor Hadren journeys along the path connecting the Undercity and Silverpine Forest, carrying correspondence between regions on behalf of his contacts."
+  },
+  {
+   "q": "Who is Lord Varimathras?",
+   "aliases": [
+    "varimathras role",
+    "dreadlord in undercity"
+   ],
+   "answer": "Varimathras is a Nathrezim dreadlord who allied with Queen Sylvanas Windrunner to preserve his own existence. He oversees the Undercity's security, defense, and rogue operations from the Royal Quarter."
+  },
+  {
+   "q": "What happens after this trial?",
+   "aliases": [
+    "what comes next",
+    "deathstalkers questline continuation"
+   ],
+   "answer": "Passing the trial proves an operative's competence, leading into a covert impersonation assignment to deliver Astor's papers and infiltrate Andron's dealings."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "For Forsaken rogues, joining the Deathstalkers represents the highest echelon of state service, transitioning streetwise scoundrels into sworn instruments of Varimathras and the Dark Lady."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The Deathstalkers represent the iron grip of internal security in Lordaeron, keeping a watchful, paranoid eye on both external foes and potential traitors within the Forsaken."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Deathstalkers operate in deep secrecy, ensuring that the Forsaken maintain vital intelligence networks while keeping the Horde's southern allies largely unaware of their shadier domestic affairs."
+  }
+ ],
+ "keywords": [
+  "astor hadren",
+  "deathstalkers",
+  "mennet carkad",
+  "rogues' quarter",
+  "silverpine",
+  "undercity",
+  "varimathras"
+ ],
+ "related": [
+  "npc:varimathras",
+  "subzone:rogues-quarter",
+  "zone:undercity",
+  "quest:1885"
+ ],
+ "attribution": [
+  "The Deathstalkers"
+ ]
+}

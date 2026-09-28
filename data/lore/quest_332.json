@@ -1,0 +1,121 @@
+{
+ "key": "quest:332",
+ "type": "quest",
+ "name": "Wine Shop Advert",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   332
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Renato Gallina",
+  "end": "Suzetta Gallina",
+  "previous": null,
+  "next": null,
+  "wiki": "Wine Shop Advert",
+  "chain": []
+ },
+ "summary": "Wine Shop Advert is a brief promotional errand handed out by Renato Gallina in the Trade District of Stormwind. He entices passersby with a voucher for a complimentary bottle of vintage wine from his family's storefront along the canals. It serves as an everyday glimpse into the domestic trade and small businesses flourishing within the reconstructed capital.",
+ "sections": [
+  {
+   "title": "A Taste of the Canals",
+   "body": "While adventurers often occupy themselves with martial threats and political intrigue, daily life in Stormwind revolves around brisk commerce. Renato Gallina walks the cobbled ways of the Trade District promoting Gallina Winery, the small shop he runs alongside his sister, Suzetta. To draw in thirsty travelers and locals alike, he hands out promotional flyers entitling the bearer to a complimentary tasting.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Dalaran Noir Vintage",
+   "body": "The prize offered by the Gallina family is a sample of Dalaran Noir, a famous northern red vintage prized across human settlements. Following the ticket to the winery entrance near the canal waterways, patrons find Suzetta Gallina ready to hand over the bottle, confident that one sip of their signature stock will turn any newcomer into a loyal regular.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Gallina Winery located?",
+   "aliases": [
+    "where is gallina winery",
+    "suzetta gallina location",
+    "where is wine shop advert turned in"
+   ],
+   "answer": "The Gallina Winery sits in Stormwind City's Trade District, tucked right along the edge of the scenic canals not far from Renato Gallina's promotional route."
+  },
+  {
+   "q": "Who are Renato and Suzetta Gallina?",
+   "aliases": [
+    "who are the gallinas",
+    "renato gallina",
+    "suzetta gallina lore"
+   ],
+   "answer": "Renato and Suzetta Gallina are siblings running an independent vintner shop in Stormwind. Renato wanders the streets promoting their trade with flyers, while Suzetta tends the shop counter and pours the wine."
+  },
+  {
+   "q": "What is Dalaran Noir?",
+   "aliases": [
+    "dalaran noir wine",
+    "what wine do you get",
+    "pinot noir stormwind"
+   ],
+   "answer": "Dalaran Noir is a celebrated vintage of red wine styled after the traditional spirits of Dalaran. Even with the northern magocracy shielded behind an impenetrable dome, their cultural vintages remain legendary across the southern kingdoms."
+  },
+  {
+   "q": "Why does Renato give out free wine tickets?",
+   "aliases": [
+    "why free wine",
+    "wine shop ticket purpose"
+   ],
+   "answer": "It is classic street-level marketing. Renato uses free samples of their prized stock to draw foot traffic into their canal-side shop and build a returning customer base among Stormwind's citizens."
+  },
+  {
+   "q": "Does this errand involve any danger or combat?",
+   "aliases": [
+    "is wine shop advert dangerous",
+    "wine quest fights"
+   ],
+   "answer": "No. The errand simply involves taking a promotional ticket from Renato and strolling a short distance through the safe streets of the Trade District to Suzetta at the storefront."
+  },
+  {
+   "q": "Does the Gallina Winery sell other goods?",
+   "aliases": [
+    "what else does suzetta sell",
+    "gallina winery drinks"
+   ],
+   "answer": "Suzetta stocks a selection of standard wines and alcoholic beverages for thirsty travelers, guards on break, and local tavern suppliers in need of a refill."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Fine wines like the Dalaran Noir distributed by the Gallinas are prized companions for hearty meals prepared across the taverns of the Eastern Kingdoms."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans rebuilding their lives in Stormwind, the presence of family-run wineries along the canal banks is a comforting sign of urban revival."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Even during turbulent times of war and missing kings, Stormwind's bustling Trade District maintains an active market for domestic luxuries and imported tastes."
+  }
+ ],
+ "keywords": [
+  "canals",
+  "dalaran noir",
+  "gallina winery",
+  "renato gallina",
+  "suzetta gallina",
+  "trade district",
+  "wine shop advert",
+  "wine ticket"
+ ],
+ "related": [
+  "npc:renato-gallina",
+  "npc:suzetta-gallina",
+  "subzone:trade-district",
+  "subzone:canals-stormwind-city",
+  "subzone:dalaran",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Wine Shop Advert"
+ ]
+}

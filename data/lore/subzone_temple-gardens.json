@@ -1,0 +1,90 @@
+{
+ "key": "subzone:temple-gardens",
+ "type": "subzone",
+ "name": "Temple Gardens",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Temple Gardens"
+ },
+ "summary": "The Temple Gardens form the tranquil, water-filled heart of Darnassus, surrounding small islets just north of the Temple of the Moon. Decorated with bridges and pristine flora, the district hosts the city bank and the mystical tree portal leading to the base of Teldrassil.",
+ "sections": [
+  {
+   "title": "Heart of the Elven Capital",
+   "body": "Spanning the waters at the center of Darnassus, the Temple Gardens serve as the crossroads of the night elven capital. Wooden bridges connect its landscaped islets to the Cenarion Enclave in the north, the bustling terraces to the east, and the grand sanctuary of the Temple of the Moon to the south. The night elves carefully shape the district's flowing waters and lush foliage, creating a serene atmosphere that offers rest to travelers and priestesses alike.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gateway to Teldrassil",
+   "body": "Beyond housing the city's central vault and bank on its main island, the Temple Gardens hold critical importance for travelers entering or leaving the World Tree. On the western bank of the gardens stands a massive, glowing pink tree portal. This magical archway provides instantaneous passage down through the boughs to Rut'theran Village at Teldrassil's base, connecting the isolated boughs to the coastal docks and flight paths.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the glowing pink portal in the gardens?",
+   "aliases": [
+    "tree portal darnassus",
+    "pink tree portal",
+    "teleporter darnassus"
+   ],
+   "answer": "The glowing tree portal on the western edge of the gardens is the primary transport between the crown of Teldrassil and its base. Stepping through it instantly transports travelers to Rut'theran Village, where ships and hippogryphs connect the night elves to darkshore and the wider world."
+  },
+  {
+   "q": "Where is the Darnassus bank located?",
+   "aliases": [
+    "darnassus bank location",
+    "where is bank",
+    "banker darnassus"
+   ],
+   "answer": "The city's main bank is situated right in the Temple Gardens, housed in an open elven pavilion on the district's largest central island."
+  },
+  {
+   "q": "Why are they called the Temple Gardens?",
+   "aliases": [
+    "temple gardens name origin",
+    "why temple gardens"
+   ],
+   "answer": "The district takes its name from the magnificent Temple of the Moon, which sits directly adjacent to the gardens along their southern border."
+  },
+  {
+   "q": "Which districts connect to the Temple Gardens?",
+   "aliases": [
+    "where do temple gardens lead",
+    "bridges from temple gardens"
+   ],
+   "answer": "Bridges branch out across the water from the gardens to nearly every quarter: the Cenarion Enclave to the north, the Craftsmen's, Warrior's, and Tradesmen's Terraces to the east, and the Temple of the Moon to the south."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The gardens represent the harmonious blend of wilderness and civic architecture that defines Darnassian culture, offering peace for reflection amidst administrative daily life."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Any visitor sailing in through the docks must step through the Rut'theran portal into these tranquil waters to access the rest of the city."
+  }
+ ],
+ "keywords": [
+  "bank",
+  "darnassus",
+  "portal",
+  "rut'theran",
+  "teldrassil",
+  "temple gardens",
+  "temple of the moon"
+ ],
+ "related": [
+  "zone:darnassus",
+  "subzone:temple-of-the-moon",
+  "subzone:rut-theran-village",
+  "subzone:cenarion-enclave",
+  "subzone:tradesmen-s-terrace",
+  "quest:940",
+  "quest:2519"
+ ],
+ "attribution": [
+  "Temple Gardens"
+ ]
+}

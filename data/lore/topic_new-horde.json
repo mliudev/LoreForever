@@ -1,0 +1,126 @@
+{
+ "key": "topic:new-horde",
+ "type": "topic",
+ "name": "New Horde",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "New Horde"
+ },
+ "summary": "The New Horde is the modern coalition forged under Warchief Thrall, departing from the bloodthirsty, demon-corrupted Old Horde of the First and Second Wars. Founded upon shamanic tradition, honor, and mutual survival, it unites the liberated orcs, the Darkspear trolls, the tauren tribes of Kalimdor, and a tenuous pact with the Forsaken in Lordaeron.",
+ "sections": [
+  {
+   "title": "A Legacy Reborn",
+   "body": "The original Horde was a weapon crafted by the Burning Legion and the Shadow Council, fueling the orcs with demonic bloodlust and driving them across the Dark Portal. After the Second War ended in devastation, surviving orcs were rounded up into Alliance internment camps, sinking into a soul-draining lethargy. Through the efforts of Orgrim Doomhammer, Grommash Hellscream, and the young shaman Thrall, the orcs cast off their demonic shackles, rediscovered their ancestral shamanism, and fought their way to freedom.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crossing the Great Sea",
+   "body": "Following prophetic visions from the mysterious Prophet, Thrall led his people across the Great Sea to the untamed continent of Kalimdor. Along the way, the Horde welcomed Sen'jin's displaced Darkspear trolls. Upon arriving on Kalimdor, Thrall allied with Cairne Bloodhoof and the nomadic tauren, helping drive back hostile centaur tribes. Together, these disparate peoples fought alongside humans and night elves at Mount Hyjal, breaking the Burning Legion's invasion and carving out their new home of Durotar.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Modern Coalition",
+   "body": "Today, the New Horde strives to build a durable society from their fortified capital of Orgrimmar. While anchored by the strong bond between orcs, Darkspear trolls, and tauren, survival has forced Thrall to accept uncomfortable alliances\u2014chief among them Sylvanas Windrunner and the Forsaken in the ruins of Lordaeron. Thrall pursues an uneasy peace with the Alliance, but old enmities, resource shortages, and hawkish elements among both factions keep borders simmering on the brink of war.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What makes the New Horde different from the Old Horde?",
+   "aliases": [
+    "old horde vs new horde",
+    "how is this horde different",
+    "thrall horde difference"
+   ],
+   "answer": "The Old Horde was ruled by demonic corruption, dark warlocks, and brutal conquest during the First and Second Wars. The New Horde, founded by Thrall, explicitly rejected the Burning Legion, renewed the orcs' lost shamanic roots, and emphasizes honor, cultural survival, and self-determination."
+  },
+  {
+   "q": "Who leads the New Horde?",
+   "aliases": [
+    "warchief",
+    "who is the leader",
+    "thrall's role"
+   ],
+   "answer": "Thrall, son of Durotan, serves as Warchief. He governs from the Valley of Wisdom in Orgrimmar, working in close council with High Chieftain Cairne Bloodhoof of the tauren and Shadow Hunter Vol'jin of the Darkspear trolls."
+  },
+  {
+   "q": "Which races belong to the New Horde right now?",
+   "aliases": [
+    "horde races",
+    "who is in the horde",
+    "horde members"
+   ],
+   "answer": "The core of the New Horde consists of the orcs, the Darkspear tribe of trolls, and the tauren of Mulgore. Across the sea in the Eastern Kingdoms, the undead Forsaken under Lady Sylvanas Windrunner hold membership through a pragmatic military alliance."
+  },
+  {
+   "q": "Why did the Forsaken join the New Horde?",
+   "aliases": [
+    "undead in the horde",
+    "why forsaken horde",
+    "why are undead with thrall"
+   ],
+   "answer": "Surrounded by the Scarlet Crusade, hostile humans, and Scourge remnants, Sylvanas Windrunner sought powerful allies for survival. The tauren, led by Archdruid Hamuul Runetotem, advocated for them in Orgrimmar, believing the Forsaken could be redeemed, convincing Thrall to accept them into a mutual pact of convenience."
+  },
+  {
+   "q": "Are the orcs still corrupted by demon blood?",
+   "aliases": [
+    "demon blood",
+    "blood curse",
+    "are orcs still evil"
+   ],
+   "answer": "No. When Grommash Hellscream and Thrall confronted the pit lord Mannoroth in Ashenvale, Grom struck down the demon at the cost of his own life. Mannoroth's demise shattered the blood curse once and for all, liberating every orc from demonic enslavement."
+  },
+  {
+   "q": "Is the New Horde currently at war with the Alliance?",
+   "aliases": [
+    "are horde and alliance at war",
+    "peace with alliance",
+    "horde alliance conflict"
+   ],
+   "answer": "Open, all-out war is officially held in check by an uneasy truce established between Thrall and Lady Jaina Proudmoore of Theramore. However, bitter skirmishes rage across Ashenvale, Alterac Valley, and the Arathi Basin, as mistrust and resource disputes continually threaten to erupt into open conflict."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The New Horde is a sanctuary of outcasts. Membership offers mutual defense, cultural survival, and a shared oath of honor under Warchief Thrall."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Many in the Alliance still view the New Horde through the blood-soaked memories of the First and Second Wars, struggling to believe orcs can ever abandon their violent past."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The New Horde represents redemption: a chance to shed the lethargy of the internment camps, honor the sacrifice of Grom Hellscream, and live as free shamanic warriors."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shamanism is the spiritual backbone of the New Horde, reviving ancient traditions connecting mortals with the elements that were almost lost during the demonic corruption."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "doomhammer",
+  "durotar",
+  "new horde",
+  "orgrimmar",
+  "shamanism",
+  "tauren",
+  "thrall",
+  "warchief"
+ ],
+ "related": [
+  "topic:horde",
+  "npc:thrall",
+  "topic:old-horde",
+  "topic:tauren",
+  "topic:troll",
+  "topic:grommash-hellscream",
+  "npc:orgrim-doomhammer",
+  "quest:787"
+ ],
+ "attribution": [
+  "New Horde"
+ ]
+}

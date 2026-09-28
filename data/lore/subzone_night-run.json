@@ -1,0 +1,85 @@
+{
+ "key": "subzone:night-run",
+ "type": "subzone",
+ "name": "Night Run",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Night Run"
+ },
+ "summary": "Night Run is a small, secluded satyr outpost perched atop a cliff-ringed bluff in east-central Ashenvale. Inhabited by the demonic Felmusk satyr, it serves as a corrupted encampment harboring dark soul magic within ancient elven ruins.",
+ "sections": [
+  {
+   "title": "A Defended Cliffside Perch",
+   "body": "Night Run is the smallest and most isolated of Ashenvale's three major satyr strongholds, alongside Xavian and Satyrnaar. Sheltered among crumbling elven stonework and broken pillars, the settlement juts outward on a high ridge bounded by steep, impassable cliffs. Reaching it requires a circuitous trek along the Falfarren River near the waters of Xavian or navigating a precarious northern ledge above Raynewood Retreat. Despite its modest size, the enclave poses a severe danger: the Felmusk satyr who dwell here work in concert with the shadowy Cult of the Dark Strand, anchoring twisted soulgems to pool demonic essence within the forest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Night Run?",
+   "aliases": [
+    "who lives at night run",
+    "night run mobs",
+    "what is at night run"
+   ],
+   "answer": "Night Run is occupied by the Felmusk satyr, a faction of demonic night elf corrupters affiliated with the Cult of the Dark Strand."
+  },
+  {
+   "q": "How do you reach Night Run?",
+   "aliases": [
+    "how to get to night run",
+    "night run path",
+    "night run entrance"
+   ],
+   "answer": "Because it sits on an elevated bluff bordered by sheer cliffs, travelers must approach either via a narrow ledge north of Raynewood Retreat or by tracking along the Falfarren River toward Xavian before cutting west up the ridge."
+  },
+  {
+   "q": "What is the Cult of the Dark Strand doing here?",
+   "aliases": [
+    "cult of the dark strand night run",
+    "soulgem night run"
+   ],
+   "answer": "The cult works alongside the satyrs, maintaining a dark soulgem within Night Run to harvest and channel demonic energies across Ashenvale."
+  },
+  {
+   "q": "What historical events happened at Night Run?",
+   "aliases": [
+    "night run lore",
+    "war of the satyr night run"
+   ],
+   "answer": "Thousands of years ago, following the Great Sundering, early druids wielding the feral Pack Form attacked night elf Sentinels here, wounding Shandris Feathermoon and marking an explosive opening in the War of the Satyr."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The defilement of Night Run is an enduring scar: these ancient stones were soaked in night elf blood during the War of the Satyr and remain corrupted by the twisted Felmusk."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Nestled just north of Raynewood Retreat, Night Run represents an ever-present demonic menace overlooking crucial Sentinel supply lines."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "cult of the dark strand",
+  "falfarren river",
+  "felmusk",
+  "night run",
+  "satyr",
+  "soulgem"
+ ],
+ "related": [
+  "subzone:xavian",
+  "subzone:satyrnaar",
+  "subzone:raynewood-retreat",
+  "subzone:falfarren-river",
+  "zone:ashenvale",
+  "topic:satyr",
+  "topic:sentinels"
+ ],
+ "attribution": [
+  "Night Run"
+ ]
+}

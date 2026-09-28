@@ -1,0 +1,119 @@
+{
+ "key": "quest:549",
+ "type": "quest",
+ "name": "WANTED: Syndicate Personnel",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   549
+  ],
+  "level": "22",
+  "faction": "Horde",
+  "start": "WANTED",
+  "end": "High Executor Darthalia",
+  "previous": null,
+  "next": "WANTED: Baron Vardus",
+  "wiki": "WANTED: Syndicate Personnel",
+  "chain": [
+   "WANTED: Syndicate Personnel",
+   "WANTED: Baron Vardus"
+  ]
+ },
+ "summary": "Posted on the Tarren Mill bounty board under the authority of Lady Sylvanas, this decree condemns all members of the Syndicate to death. The Forsaken seek to purge the brigands gathering in the ruins of Durnholde Keep before they threaten Horde operations in the foothills.",
+ "sections": [
+  {
+   "title": "A Standing Execution Order",
+   "body": "The Syndicate's sudden presence southeast of Tarren Mill has not gone unnoticed by the Forsaken. Rather than offering parley or treating them as mere displaced nobles, Lady Sylvanas Windrunner and her commanders view the Syndicate as an active pestilence. The bounty dictates immediate death, specifying that any prisoners brought in will be executed without trial.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ruins of Durnholde",
+   "body": "Once an infamous internment camp fortress, Durnholde Keep now lies shattered and lawless. Syndicate Rogues and Watchmen have crept into its crumbled ramparts and towers, using the historic stronghold as an operations hub. For High Executor Darthalia, ridding the ruins of these armed bandits is essential to securing the road and safeguarding Tarren Mill's southeastern approach.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who posted the bounty for Syndicate personnel?",
+   "aliases": [
+    "who posted wanted syndicate personnel",
+    "who wants syndicate dead",
+    "bounty poster"
+   ],
+   "answer": "The bounty was issued under the direct authority of Lady Sylvanas Windrunner and posted on the notice board in Tarren Mill. Proof of execution is collected by High Executor Darthalia, the military commander of the settlement."
+  },
+  {
+   "q": "Where are these Syndicate members located?",
+   "aliases": [
+    "where are syndicate rogues",
+    "durnholde syndicate location",
+    "where to find watchmen"
+   ],
+   "answer": "They congregate among the shattered stones of Durnholde Keep, situated southeast of Tarren Mill across the river, as well as around the ruined guard tower just south of the main fortress."
+  },
+  {
+   "q": "Why do the Forsaken want them dead instead of captured?",
+   "aliases": [
+    "why kill syndicate",
+    "why no prisoners",
+    "darthalia syndicate"
+   ],
+   "answer": "The Forsaken view the Syndicate as treacherous pests and an armed threat encroaching on their territory. The decree explicitly orders that any members brought into custody are to be summarily executed, making capture entirely pointless."
+  },
+  {
+   "q": "What is the Syndicate doing in Durnholde Keep?",
+   "aliases": [
+    "why syndicate in durnholde",
+    "syndicate purpose hillsbrad",
+    "durnholde keep occupiers"
+   ],
+   "answer": "Composed primarily of disgraced Alteraci nobility and mercenaries, the Syndicate utilizes abandoned keeps, ruins, and towers across Lordaeron as staging grounds to raid settlements, rob travelers, and rebuild their shattered power base."
+  },
+  {
+   "q": "What happens after culling these Syndicate operatives?",
+   "aliases": [
+    "what quest is next",
+    "after wanted syndicate personnel",
+    "next bounty"
+   ],
+   "answer": "Thinning the ranks of the rogues and watchmen leads High Executor Darthalia to issue a high-priority bounty targeting their local leadership, specifically Baron Vardus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, clearing out the living remnants of Alterac's nobility is a practical necessity to ensure unchallenged control over the hills of Lordaeron."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Durnholde Keep holds grim memories as the internment fortress where orcs were once held in captivity; purging the brigands now occupying its ruins carries symbolic weight for the Horde."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The Syndicate fields skilled cutpurses and ambushers throughout Durnholde, making this contract a direct clash between rival practitioners of stealth."
+  }
+ ],
+ "keywords": [
+  "durnholde keep",
+  "high executor darthalia",
+  "hillsbrad foothills",
+  "syndicate",
+  "syndicate rogue",
+  "syndicate watchman",
+  "tarren mill",
+  "wanted"
+ ],
+ "related": [
+  "subzone:durnholde-keep",
+  "npc:high-executor-darthalia",
+  "topic:syndicate",
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "quest:498",
+  "topic:horde"
+ ],
+ "attribution": [
+  "WANTED: Syndicate Personnel"
+ ]
+}

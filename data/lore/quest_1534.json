@@ -1,0 +1,127 @@
+{
+ "key": "quest:1534",
+ "type": "quest",
+ "name": "Call of Water",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1534
+  ],
+  "level": "23",
+  "faction": "Horde",
+  "start": "Brine",
+  "end": "",
+  "previous": "Call of Water (4)",
+  "next": "Call of Water (6)",
+  "wiki": "Call of Water (5)",
+  "chain": []
+ },
+ "summary": "This quest represents the final gathering trial in a shaman's journey to earn the Call of Water. Directed by the hermit Brine in the southern Barrens, initiates must venture far north into the alien, twilight groves of Ashenvale to collect pure water from the ancient fountain within the Ruins of Stardust.",
+ "sections": [
+  {
+   "title": "Journey Into the Twilight Grove",
+   "body": "Having gathered samples from both the dry wells of the Barrens and the flowing falls of Tarren Mill, the shaman is tasked with finding a third and final essence. Brine sends the initiate across the northern border of the dry plains and into Ashenvale, a dense and ancient woodland held sacred by the night elves. The contrast between the arid Barrens and the deep canopy of Ashenvale underscores the elemental diversity a shaman must understand to truly harmonize with water.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ruins of Stardust",
+   "body": "Tucked away near the mountain pass dividing Ashenvale from the Stonetalon Mountains, beyond the shimmering expanse of Mystral Lake, lie the Ruins of Stardust. This secluded elven sanctum cradles a pristine fountain surrounded by quiet waters and ancient stones. Though steeped in wild serenity, the ruins are guarded by untamed elemental and natural spirits who resent intruders, forcing the shaman to tread cautiously to secure the fountain's sacred draft.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Draught of Purest Water",
+   "body": "Returning to Brine with the filled blue waterskin marks the completion of the pilgrimage across Kalimdor and the Eastern Kingdoms. Combining the pristine sample from the elven fountain with those from the Southfury watershed and Hillsbrad, Brine prepares a vial of consummate purity. This concoction serves as the catalyst for the next trial: communion with the water elemental spirits through the seer Islen Waterseer.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Ruins of Stardust located?",
+   "aliases": [
+    "ruins of stardust location",
+    "where is stardust",
+    "how to get to ruins of stardust"
+   ],
+   "answer": "The Ruins of Stardust are situated in south-western Ashenvale. After crossing north from the Barrens, follow the roads westward past Mystral Lake toward the foothills that border the Stonetalon Mountains."
+  },
+  {
+   "q": "Why does Brine need water from an elven ruin?",
+   "aliases": [
+    "why ashenvale water",
+    "why ruins of stardust",
+    "reason for stardust water"
+   ],
+   "answer": "To commune with the water spirits, a shaman must gather water representing different expressions of the element. The fountain in the Ruins of Stardust holds ancient, magically pure water untouched by the dry blight of the Barrens, completing the trio of essences required for Brine's ritual mixture."
+  },
+  {
+   "q": "What threats exist around the Ruins of Stardust?",
+   "aliases": [
+    "stardust enemies",
+    "is stardust dangerous",
+    "who guards the fountain"
+   ],
+   "answer": "The ruins and surrounding waters are guarded by protective beasts and nature spirits, including territorial water elementals and beasts native to the Ashenvale wilderness that attack any who disturb the grove."
+  },
+  {
+   "q": "Who is Brine and why is she helping?",
+   "aliases": [
+    "who is brine",
+    "brine lore",
+    "what is brine's role"
+   ],
+   "answer": "Brine is an ascetic tauren shaman residing in a lone hut in the southern Barrens. She serves as an elder guide assisting Islen Waterseer, testing prospective shamans on patience, endurance, and understanding of water's many faces before bestowing the element's blessings."
+  },
+  {
+   "q": "What happens after bringing this water to Brine?",
+   "aliases": [
+    "next step call of water",
+    "what happens next",
+    "where do i go after brine"
+   ],
+   "answer": "Once Brine receives the third sample, she combines them to forge a draught of purest water. She then sends the shaman back to Islen Waterseer on the eastern Barrens coast to begin the visionary communion with the elementals."
+  },
+  {
+   "q": "Is Ashenvale safe for low-level Horde shamans?",
+   "aliases": [
+    "is ashenvale dangerous",
+    "level for ashenvale quest"
+   ],
+   "answer": "Ashenvale is contested territory where the night elves and the Horde clash. While the route through the southern woods avoids major night elf settlements like Astranaar, wandering wildlife, aggressive elementals, and Alliance patrols pose real hazards for an initiate."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This rite tests a shaman's willingness to cross dangerous borders to find balance, gathering the final fluid essence needed to bind the Water Totem."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Entering Ashenvale requires trekking into ancient Kaldorei lands where the Warsong Outriders wage an ongoing timber war against hostile night elf sentinels."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The pilgrimage bridges the arid homelands of central Kalimdor with the sacred, dew-drenched groves remembered in myth and elder songs."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "blue waterskin",
+  "brine",
+  "call of water",
+  "islen waterseer",
+  "mystral lake",
+  "ruins of stardust",
+  "shaman"
+ ],
+ "related": [
+  "npc:brine",
+  "subzone:ruins-of-stardust",
+  "zone:ashenvale",
+  "zone:barrens",
+  "quest:1034"
+ ],
+ "attribution": [
+  "Call of Water (5)"
+ ]
+}

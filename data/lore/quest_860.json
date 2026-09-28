@@ -1,0 +1,126 @@
+{
+ "key": "quest:860",
+ "type": "quest",
+ "name": "Sergra Darkthorn",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   860
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Melor Stonehoof",
+  "end": "Sergra Darkthorn",
+  "previous": "The Hunter's Way (Classic)",
+  "next": "Plainstrider Menace (Classic)",
+  "wiki": "Sergra Darkthorn (quest)",
+  "chain": []
+ },
+ "summary": "Having proven their basic tracking and stalking skills in the rolling hills of Mulgore, young tauren are directed outward into the arid wilderness of the Barrens. Melor Stonehoof sends aspiring hunters north of the border to report to Sergra Darkthorn at the Crossroads. This journey marks the hunter's formal transition from local trials to the demanding predatory hierarchy of Kalimdor's broader plains.",
+ "sections": [
+  {
+   "title": "Leaving the Sacred Hills",
+   "body": "For a novice tauren hunter, completing initial rites in Mulgore is only the beginning. The lush valleys of their ancestral homeland are protected and familiar, nurturing beasts that test patience rather than sheer survival. Melor Stonehoof recognizes when a hunter's spirit has grown enough to require harsher trials. He instructs his pupils to pack their gear, leave the safety of Bloodhoof Village, and venture east across the mountain pass into the baked scrublands of the Barrens.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to the Crossroads",
+   "body": "The path through the red rock canyons leads straight into the wide, sun-scorched savanna where the young Horde stakes its claim. At the intersection of Kalimdor's central trade routes lies the Crossroads, a fortified settlement bustling with orcs, trolls, and tauren. There waits Sergra Darkthorn, an experienced orc huntress renowned for her unforgiving standards. She acts as a mentor to any bold enough to stalk the Barrens' fierce fauna, promising to temper raw eagerness into hardened wilderness discipline.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest and where do I find them?",
+   "aliases": [
+    "who gives sergra darkthorn quest",
+    "melor stonehoof location",
+    "where to start"
+   ],
+   "answer": "The quest is given by Melor Stonehoof, a tauren hunter mentor who resides on the Hunter Rise in Thunder Bluff."
+  },
+  {
+   "q": "Where is Sergra Darkthorn located?",
+   "aliases": [
+    "sergra darkthorn location",
+    "where is sergra",
+    "find sergra"
+   ],
+   "answer": "Sergra Darkthorn is stationed at the Crossroads in the central Barrens, standing near the eastern side of the settlement near the watchtowers and corrals."
+  },
+  {
+   "q": "How do I get to the Crossroads from Mulgore?",
+   "aliases": [
+    "directions to crossroads",
+    "mulgore to barrens",
+    "how to get to crossroads from thunder bluff"
+   ],
+   "answer": "Leave Thunder Bluff heading south past Bloodhoof Village, then take the eastern road out of Mulgore through the canyon pass into the Barrens. Once past the border gate, follow the main dirt road east until it forks, then head north until you reach the Crossroads."
+  },
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do this quest",
+    "sergra darkthorn purpose",
+    "is this a breadcrumb"
+   ],
+   "answer": "It serves as a breadcrumb quest guiding players who began their journey in Mulgore toward the next major leveling hub at the Crossroads in the Barrens, connecting them with local hunting questlines."
+  },
+  {
+   "q": "Do orcs and trolls get this quest?",
+   "aliases": [
+    "orc version",
+    "troll version",
+    "durotar breadcrumb"
+   ],
+   "answer": "Orcs and trolls receive a parallel breadcrumb quest called 'Conscript of the Horde' in Durotar, which sends them to the Barrens from Razor Hill, though they can still meet and take quests from Sergra once they arrive."
+  },
+  {
+   "q": "What does Sergra Darkthorn teach hunters?",
+   "aliases": [
+    "sergra role",
+    "what does sergra do",
+    "sergra hunting"
+   ],
+   "answer": "Sergra tests incoming hunters against the indigenous fauna of the Barrens, starting with plainstriders and prowlers, teaching that true mastery requires endurance, respect for the land, and mental resilience rather than brute force."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren who grew up in the verdant pastures of Mulgore, reporting to Sergra marks their first significant venture beyond their ancestral borders into the demanding service of the broader Horde."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "This journey represents the graduation from simple local game tracking to mastering the aggressive predators and harsh conditions of Kalimdor's interior savannas."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Crossroads serves as the beating logistical heart of the young Horde, binding together orcish resilience, darkspear cunning, and tauren tradition under the gaze of veterans like Sergra."
+  }
+ ],
+ "keywords": [
+  "crossroads",
+  "hunter's way",
+  "melor stonehoof",
+  "mulgore",
+  "plainstrider",
+  "sergra darkthorn",
+  "the barrens",
+  "thunder bluff"
+ ],
+ "related": [
+  "npc:melor-stonehoof",
+  "subzone:crossroads",
+  "zone:barrens",
+  "zone:mulgore",
+  "quest:840",
+  "topic:tauren",
+  "topic:horde",
+  "subzone:bloodhoof-village"
+ ],
+ "attribution": [
+  "Sergra Darkthorn (quest)"
+ ]
+}

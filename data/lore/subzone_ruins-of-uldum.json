@@ -1,0 +1,98 @@
+{
+ "key": "subzone:ruins-of-uldum",
+ "type": "subzone",
+ "name": "Ruins of Uldum",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Ruins of Uldum"
+ },
+ "summary": "Tucked into the jagged cliffs of the Valley of the Watchers in southern Tanaris, the Ruins of Uldum consist of an ancient stone antechamber guarding a sealed Titan facility. Massive stone doors and crumbling earthen constructs protect its secrets from grave robbers and curious explorers alike.",
+ "sections": [
+  {
+   "title": "The Antechamber of the Titans",
+   "body": "Carved deep into the bedrock of southern Tanaris, the Ruins of Uldum appear to be an antechamber or grand threshold to a far larger, sealed subterranean complex. Inside, silent Sandstone Earthen stand sentinel alongside exposed titan machinery and an ancient relic known as the Antediluvean Chest. Although violent tremors long ago ripped the outer doorway open, internal cave-ins and massive stone barriers have kept the deeper tunnels inaccessible. The dormant earthen do not stir unless threatened or unless an intruder tampers directly with the antechamber's safeguarded relics.",
+   "spoiler": 0
+  },
+  {
+   "title": "Secrets of the Biosphere",
+   "body": "According to ancient records and celestial watchers, Uldum was established by the Titans alongside facilities like Uldaman and Ulduar as a research site dedicated to modifying and monitoring the biosphere of Azeroth. When the Great Sundering tore the world apart ten thousand years ago, the earthen felt the agony of the world and retreated into these subterranean vaults to hibernate. Full access beyond the ruins' sealed inner threshold requires the lost Plates of Uldum, leaving the full extent of the facility locked away from modern surface-dwellers.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Ruins of Uldum?",
+   "aliases": [
+    "what's in uldum",
+    "what is uldum tanaris",
+    "ruins of uldum interior"
+   ],
+   "answer": "The ruins consist of an antechamber filled with dormant Sandstone Earthen, exposed titan machinery, and the Antediluvean Chest. The deeper tunnels leading further inside the complex are collapsed and blocked off by massive stone doors."
+  },
+  {
+   "q": "Can players enter the main facility behind the door?",
+   "aliases": [
+    "can you open the door to uldum",
+    "how to get into uldum",
+    "open uldum door"
+   ],
+   "answer": "No. The inner entrance is permanently sealed and collapsed. Ancient watchers note that access to the deeper complex requires the lost Plates of Uldum, which cannot currently be used to bypass the barrier."
+  },
+  {
+   "q": "Why are the Sandstone Earthen standing still?",
+   "aliases": [
+    "why are earthen friendly",
+    "why don't earthen attack",
+    "sandstone earthen passive"
+   ],
+   "answer": "The Sandstone Earthen inside the ruins are malfunctioning and dormant. Having hibernated within the facility since the Great Sundering, they remain inert unless an outsider attacks them or disturbs the Antediluvean Chest."
+  },
+  {
+   "q": "What was Uldum built for?",
+   "aliases": [
+    "why did titans build uldum",
+    "uldum purpose",
+    "lore of uldum"
+   ],
+   "answer": "Titan constructs such as the Stone Watcher of Norgannon describe Uldum as a research complex intended to study, sustain, and enhance Azeroth's biosphere, similar in origin to sites like Uldaman and Ulduar."
+  },
+  {
+   "q": "What happens if someone opens the Antediluvean Chest?",
+   "aliases": [
+    "antediluvean chest trap",
+    "what guards the chest",
+    "antechamber guardian"
+   ],
+   "answer": "Tampering with the chest triggers an ancient security mechanism, summoning a hostile construct known as the Antechamber Guardian to eliminate the trespasser."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves tracing their lineage back to the earthen, Uldum represents one of the original titan cr\u00e8ches where their ancestors first rested following the Sundering."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The stonework and machinery of Uldum showcase titan craftsmanship that has endured thousands of years of tectonic pressure and desert decay without faltering."
+  }
+ ],
+ "keywords": [
+  "antechamber guardian",
+  "antediluvean chest",
+  "earthen",
+  "tanaris",
+  "titans",
+  "uldum",
+  "valley of the watchers"
+ ],
+ "related": [
+  "subzone:valley-of-the-watchers",
+  "zone:tanaris",
+  "topic:titan",
+  "subzone:uldaman"
+ ],
+ "attribution": [
+  "Ruins of Uldum"
+ ]
+}

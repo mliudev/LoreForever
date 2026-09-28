@@ -1,0 +1,94 @@
+{
+ "key": "subzone:lakeshire",
+ "type": "subzone",
+ "name": "Lakeshire",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Lakeshire"
+ },
+ "summary": "Lakeshire is the primary human settlement in the Redridge Mountains, nestled along the northern shores of Lake Everstill. Led by Magistrate Solomon and guarded by Marshal Marris, the picturesque town is currently on the brink of collapse due to relentless assaults by Blackrock orcs, aggressive gnoll packs, and shoreline murlocs.",
+ "sections": [
+  {
+   "title": "A Town Under Siege",
+   "body": "Once a peaceful haven in the foothills east of Stormwind, Lakeshire has become the kingdom's most embattled frontier. The town's garrison at Stonewatch Keep was brutally overrun by Blackrock clan orcs sweeping down from the north, and dark wizardry has riled local Shadowhide gnoll packs into organized raiding parties. Blackrock saboteurs have even shattered parts of the Everstill Bridge, leaving Foreman Oslow and his crew struggling to repair the span while under constant threat of attack. With murlocs choking the lake's shores and gnolls stalking the high passes, Lakeshire's defenders are stretched to their breaking point.",
+   "spoiler": 0
+  },
+  {
+   "title": "Abandoned by the Crown",
+   "body": "Despite Magistrate Solomon's repeated and desperate pleas sent across the mountains, Stormwind City has provided virtually no military support. The kingdom's resources are drained by internal strife, and royal councilors dismiss Redridge's plight as exaggerated border skirmishes. Dwarven reinforcements dispatched from Ironforge were ambushed and vanished in the Burning Steppes, leaving Marshal Marris and his handful of remaining guards to hold the barricades alone. Lakeshire now survives solely on the courage of roving mercenaries and freelance adventurers hired straight out of the town hall.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who governs Lakeshire?",
+   "aliases": [
+    "lakeshire leader",
+    "who is in charge of lakeshire",
+    "magistrate of lakeshire"
+   ],
+   "answer": "Civic authority rests with Magistrate Solomon, who directs town administration from the town hall. Local defense and policing fall under Marshal Marris and the battered remnants of the town guard."
+  },
+  {
+   "q": "Why won't Stormwind send soldiers to help Lakeshire?",
+   "aliases": [
+    "why no stormwind reinforcements",
+    "stormwind army lakeshire",
+    "why is lakeshire abandoned"
+   ],
+   "answer": "Stormwind's forces are thinly stretched dealing with regional unrest, while royal councilors\u2014notably Lady Katrana Prestor\u2014have actively persuaded Highlord Bolvar Fordragon against committing standing troops to Redridge, forcing the Crown to rely on deputized adventurers instead."
+  },
+  {
+   "q": "What happened to the Everstill Bridge?",
+   "aliases": [
+    "broken bridge redridge",
+    "who broke everstill bridge",
+    "foreman oslow bridge"
+   ],
+   "answer": "Blackrock orcs damaged the massive stone bridge during their raids across the lake, severely disrupting trade and transport. Foreman Oslow oversees repairs, though missing tools and ongoing attacks keep work proceeding at a crawl."
+  },
+  {
+   "q": "What threats currently surround the town?",
+   "aliases": [
+    "who is attacking lakeshire",
+    "redridge threats",
+    "lakeshire enemies"
+   ],
+   "answer": "The town faces a three-front siege: Blackrock orcs occupying Stonewatch Keep to the east, Shadowhide gnolls directed by the rogue sorcerer Morganth in the northern hills, and aggressive murlocs infesting the waters and banks of Lake Everstill."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Lakeshire stands as Stormwind's eastern bulwark; if it falls to the Blackrock clan, the heartlands of Elwynn will face orcish incursions directly."
+  },
+  {
+   "target": "race:Human",
+   "text": "Rebuilt by the Alliance of Lordaeron following the devastation of the Second War, Lakeshire represents hard-won resilience for Stormwind refugees who refuse to flee their homeland a second time."
+  }
+ ],
+ "keywords": [
+  "blackrock orcs",
+  "everstill bridge",
+  "lake everstill",
+  "lakeshire",
+  "magistrate solomon",
+  "marshal marris",
+  "redridge",
+  "stonewatch"
+ ],
+ "related": [
+  "zone:redridge",
+  "subzone:lake-everstill",
+  "npc:magistrate-solomon",
+  "npc:marshal-marris",
+  "npc:foreman-oslow",
+  "quest:89",
+  "subzone:stonewatch",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Lakeshire"
+ ]
+}

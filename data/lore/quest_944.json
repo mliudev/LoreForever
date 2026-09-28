@@ -1,0 +1,113 @@
+{
+ "key": "quest:944",
+ "type": "quest",
+ "name": "The Master's Glaive",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   944
+  ],
+  "level": "17",
+  "faction": "Alliance",
+  "start": "Onu",
+  "end": "Scrying Bowl",
+  "previous": "Onu (quest)",
+  "next": "The Twilight Camp",
+  "wiki": "The Master's Glaive (quest)",
+  "chain": []
+ },
+ "summary": "This quest sends Alliance adventurers south across Darkshore to scout the eerie Master's Glaive on behalf of the ancient of lore, Onu. The goal is to investigate whether the sinister Twilight's Hammer cult has infiltrated the remains of the fallen ancient horror.",
+ "sections": [
+  {
+   "title": "A Disturbing Presence",
+   "body": "While investigating the lingering corruption and displaced wildlife along Darkshore, the ancient of lore Onu notices alarming clues. The naga along the coast are troubled enough, but the presence of the Twilight's Hammer cult is far more ominous. This fanatic sect does not worship ordinary dark powers; they venerate the ancient, primal lords of the world who were overthrown in ages past.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fallen Lord",
+   "body": "Southward lies the Master's Glaive, a grim excavation centered around a colossal creature impaled by an immense stone weapon. Onu provides a Phial of Scrying and tasks scouts with entering the pit to confirm if the cultists have gathered there. As Onu warns, even though the impaled behemoth has been dead for eons, slivers of its ancient, corruptive power still linger within its bones\u2014a prize the Twilight's Hammer cannot resist.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me on this mission?",
+   "aliases": [
+    "quest giver",
+    "who gives the masters glaive quest",
+    "start npc"
+   ],
+   "answer": "The quest is given by Onu, a venerable ancient of lore stationed along the road in southern Darkshore near the Grove of the Ancients."
+  },
+  {
+   "q": "What is the Master's Glaive?",
+   "aliases": [
+    "what is masters glaive",
+    "lore of masters glaive",
+    "giant skull in darkshore"
+   ],
+   "answer": "The Master's Glaive is an ancient site in southern Darkshore where a monstrous ancient lord fell eons ago, impaled through its skull by a titanic stone glaive. Its massive petrified skeleton remains embedded in the earth."
+  },
+  {
+   "q": "Why is the Twilight's Hammer cult interested in the site?",
+   "aliases": [
+    "twilight cult darkshore",
+    "why are twilight cultists here",
+    "twilights hammer masters glaive"
+   ],
+   "answer": "The Twilight's Hammer worships the old, dark powers of ancient Azeroth. Even though the titanic creature impaled at the glaive is long dead, dormant traces and slivers of its primeval power remain within its remains, which the cultists desperately seek to harness."
+  },
+  {
+   "q": "How do I report back to Onu?",
+   "aliases": [
+    "where to turn in quest",
+    "how to use scrying phial",
+    "scrying bowl"
+   ],
+   "answer": "You do not need to walk all the way back to Onu's physical location. Once you explore the excavation pit of the Master's Glaive, use the Phial of Scrying in your bags to conjure a Scrying Bowl on the ground, allowing you to speak directly with Onu via magic."
+  },
+  {
+   "q": "What follows this scout mission?",
+   "aliases": [
+    "next quest",
+    "followup to masters glaive"
+   ],
+   "answer": "After you use the Scrying Bowl to confirm the cultists' presence, Onu immediately directs you toward their encampment in the quest 'The Twilight Camp' to uncover further details about their activities."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, the Master's Glaive is a stark reminder of primeval terrors that predated their civilization, and seeing mad cultists trespass upon Darkshore's sacred soil is an intolerable defilement."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids answer Onu's call to understand how the ancient, dormant taint buried deep within the earth is disturbing the surrounding land and its wildlife."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance forces in Darkshore must keep the Twilight's Hammer from awakening ancient horrors that could overrun the struggling settlements of northern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "darkshore",
+  "master's glaive",
+  "old lord",
+  "onu",
+  "phial of scrying",
+  "scrying bowl",
+  "twilight's hammer"
+ ],
+ "related": [
+  "subzone:master-s-glaive",
+  "quest:948",
+  "quest:949",
+  "topic:twilight-s-hammer",
+  "zone:darkshore",
+  "topic:naga"
+ ],
+ "attribution": [
+  "The Master's Glaive (quest)"
+ ]
+}

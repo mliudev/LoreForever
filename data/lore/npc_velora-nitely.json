@@ -1,0 +1,95 @@
+{
+ "key": "npc:velora-nitely",
+ "type": "npc",
+ "name": "Velora Nitely",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Velora Nitely",
+  "refs": 2
+ },
+ "summary": "Velora Nitely is an undead armorsmith residing in the Trade Quarter of the Undercity. Renowned as one of the finest smiths in Lordaeron before the kingdom fell, she now puts her cold craftsmanship to work for the Forsaken and the Horde. Despite her grim existence, she attempts dry, deadpan jokes that rarely land.",
+ "sections": [
+  {
+   "title": "A Smith of Lordaeron",
+   "body": "Before the Third War devastated the north, Velora Nitely was celebrated across Lordaeron as an exceptional armorsmith. Though undeath stripped her of life and warmth, it left her technical skill untouched. Now stationed near the anvils of the Undercity's Trade Quarter, she collaborates across continents with Horde crafters like Thun'grim Firegaze in the Barrens. Her specialty includes reinforcing heavy battle plate, notably forging the formidable Brutal Legguards from hardened materials such as Dragonmaw shinbones.",
+   "spoiler": 0
+  },
+  {
+   "title": "Deadpan Humor",
+   "body": "Unlike many of her somber Forsaken kin who brood over their cursed fate, Velora maintains an appetite for levity. Unfortunately, dying seems to have thoroughly ruined her comedic timing. Her quips come across flat, morbid, and thoroughly unfunny to the living and dead alike, though she continues to crack them undeterred while working the forge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Velora Nitely?",
+   "aliases": [
+    "velora nitely lore",
+    "who is velora",
+    "velora nitely npc"
+   ],
+   "answer": "Velora Nitely is a Forsaken armorsmith found in the Trade Quarter of the Undercity. In life, she was renowned throughout the kingdom of Lordaeron for her extraordinary metalworking skills."
+  },
+  {
+   "q": "Where can Velora Nitely be found?",
+   "aliases": [
+    "velora nitely location",
+    "where is velora nitely",
+    "velora nitely map"
+   ],
+   "answer": "She is located in the Undercity, working near the forges and armor stands within the bustling Trade Quarter."
+  },
+  {
+   "q": "What is her connection to Thun'grim Firegaze?",
+   "aliases": [
+    "velora and thungrim",
+    "thungrim firegaze armor",
+    "brutal armor questline"
+   ],
+   "answer": "Velora is one of the specialized Horde smiths enlisted to aid the orc armorsmith Thun'grim Firegaze in the Barrens. She crafts the Brutal Legguards for promising warriors who bring her Dragonmaw shinbones."
+  },
+  {
+   "q": "Why are her jokes so bad?",
+   "aliases": [
+    "velora sense of humor",
+    "velora jokes",
+    "why does velora tell jokes"
+   ],
+   "answer": "Velora enjoys attempting humor, but death took a toll on her delivery. She lost her proper sense of humor when she died and rose into undeath, leaving her jokes awkward, deadpan, and rarely funny."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Rising Horde warriors seeking the legendary Brutal Armor are directed north to Velora in Undercity to forge sturdy legguards from the bones of Dragonmaw orcs."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Velora represents the enduring heritage of Lordaeron's legendary armorsmithing tradition, maintaining her precise metallurgical expertise long into undeath."
+  }
+ ],
+ "keywords": [
+  "armorsmith",
+  "brutal legguards",
+  "dragonmaw shinbones",
+  "lordaeron",
+  "thun'grim firegaze",
+  "trade quarter",
+  "undercity",
+  "velora nitely"
+ ],
+ "related": [
+  "zone:undercity",
+  "subzone:trade-quarter",
+  "quest:1841",
+  "quest:1846",
+  "quest:1838",
+  "quest:1502",
+  "topic:forsaken",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Velora Nitely"
+ ]
+}

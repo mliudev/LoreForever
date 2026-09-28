@@ -1,0 +1,116 @@
+{
+ "key": "quest:448",
+ "type": "quest",
+ "name": "Report to Hadrec",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   448
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Apothecary Renferrel",
+  "end": "High Executor Hadrec",
+  "previous": "Thule Ravenclaw (quest)",
+  "next": "Assault on Fenris Isle",
+  "wiki": "Report to Hadrec",
+  "chain": []
+ },
+ "summary": "Report to Hadrec is a Horde military dispatch directing champions within the Sepulcher to consult Silverpine's field commander. Following Apothecary Renferrel and Bethor Iceshard's investigation into the Scourge presence in Lake Lordamere, High Executor Hadrec coordinates the martial preparations required to storm Fenris Isle. It marks the transition from magical reconnaissance to direct tactical warfare.",
+ "sections": [
+  {
+   "title": "Escalation in Silverpine",
+   "body": "While Apothecary Renferrel and the mage Bethor Iceshard spent considerable effort divining the threat posed by the renegade necromancer Thule Ravenclaw, scholarly study alone cannot dislodge a rising Scourge stronghold. With Ravenclaw actively binding the restless dead across Fenris Isle, Renferrel recognized that the problem had grown far beyond alchemical or arcane solutions. Halting this burgeoning infection required the hard steel and disciplined forces of the Forsaken military, shifting the matter from the apothecaries' tables straight to the commander's desk.",
+   "spoiler": 0
+  },
+  {
+   "title": "The High Executor's Arsenal",
+   "body": "Stationed in the crypts of the Sepulcher, High Executor Hadrec directs all strategic operations across Silverpine Forest on behalf of the Dark Lady. When Bethor's grim warnings regarding Ravenclaw reached him, Hadrec acted without hesitation, knowing that an entrenched necromancer on Lordamere's western shore poses a lethal risk to Undercity's flanks. To ensure the strike on the island fortress succeeds, Hadrec opens the local garrison's armory, outfitting vanguard combatants before sending them directly into the fray.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is High Executor Hadrec?",
+   "aliases": [
+    "hadrec",
+    "who is hadrec",
+    "sepulcher commander"
+   ],
+   "answer": "High Executor Hadrec is the commanding officer of the Forsaken military forces stationed at the Sepulcher. He oversees frontline defense and offensive operations throughout Silverpine Forest, answering directly to Undercity leadership."
+  },
+  {
+   "q": "Why does Apothecary Renferrel send you to Hadrec?",
+   "aliases": [
+    "why report to hadrec",
+    "renferrel hadrec connection"
+   ],
+   "answer": "Apothecary Renferrel and Bethor Iceshard discovered that Thule Ravenclaw has amassed a dangerous Scourge force on Fenris Isle. Because eliminating an entrenched necromancer requires military power and proper equipment rather than mere alchemy, Renferrel directs you to the garrison's commander."
+  },
+  {
+   "q": "Where is the Sepulcher located?",
+   "aliases": [
+    "where is sepulcher",
+    "sepulcher location"
+   ],
+   "answer": "The Sepulcher is a fortified Forsaken settlement and tomb complex situated in central Silverpine Forest, serving as the main Horde hub and staging ground for operations in the region."
+  },
+  {
+   "q": "Who is Thule Ravenclaw?",
+   "aliases": [
+    "thule ravenclaw",
+    "thule lore"
+   ],
+   "answer": "Thule Ravenclaw is a powerful Scourge necromancer who seized Fenris Keep on Fenris Isle in Lake Lordamere, raising the dead to establish an active beachhead right off Silverpine's eastern shore."
+  },
+  {
+   "q": "What happens after reporting to Hadrec?",
+   "aliases": [
+    "what next after hadrec",
+    "next quest hadrec"
+   ],
+   "answer": "Hadrec grants you supplies from the Sepulcher's armory and orders an immediate military strike against Fenris Isle to eliminate Thule Ravenclaw and break the Scourge hold on Lake Lordamere."
+  },
+  {
+   "q": "Who is Bethor mentioned by Hadrec?",
+   "aliases": [
+    "who is bethor",
+    "bethor iceshard"
+   ],
+   "answer": "Bethor Iceshard is a Forsaken mage dwelling in the upper room of the Sepulcher's crypt, whose magical divinations helped uncover the exact nature and danger of Thule Ravenclaw's rituals."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Sepulcher coordinates the Horde's western defense in Lordaeron, securing the approaches to the Capital City ruins against both Scourge outposts and human survivors."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, Thule Ravenclaw represents the enslaving will of the Lich King encroaching on their doorstep, making his destruction a vital matter of national survival."
+  }
+ ],
+ "keywords": [
+  "fenris",
+  "hadrec",
+  "iceshard",
+  "ravenclaw",
+  "renferrel",
+  "sepulcher",
+  "silverpine",
+  "thule"
+ ],
+ "related": [
+  "npc:high-executor-hadrec",
+  "quest:442",
+  "quest:446",
+  "npc:apothecary-renferrel",
+  "subzone:sepulcher",
+  "subzone:fenris-isle",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Report to Hadrec"
+ ]
+}

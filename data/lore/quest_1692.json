@@ -1,0 +1,118 @@
+{
+ "key": "quest:1692",
+ "type": "quest",
+ "name": "Smith Mathiel",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   1692
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Elanaria",
+  "end": "Mathiel",
+  "previous": "The Shade of Elura",
+  "next": "Weapons of Elunite",
+  "wiki": "Smith Mathiel",
+  "chain": []
+ },
+ "summary": "Smith Mathiel is a pivotal warrior quest in Darnassus marking the transition from raw materials to forged arms. Having secured sacred elunite ore from Dolanaar, an aspiring warrior delivers the ore to the master blacksmith Mathiel. He agrees to work the blessed metal into a weapon fit for defending the Kaldorei.",
+ "sections": [
+  {
+   "title": "A Sacred Delivery",
+   "body": "After recovering elunite ore from the haunted environs of Dolanaar and securing it with the aid of the warrior trainer Elanaria, young night elf warriors are sent across the terrace in the Craftsmen's Terrace of Darnassus. Elanaria carefully packs the ore into a sturdy case, instructing the novice to seek out Mathiel, one of the premier smiths in the capital, to fashion a weapon worthy of their martial calling.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Blessing of Elunite",
+   "body": "Mathiel views his forge work not merely as manual labor, but as a devotional craft. Elunite is no ordinary ore\u2014it carries the sacred blessing of the Moon Goddess, Elune. When presented with the case, Mathiel readily takes on the task, considering it a profound honor to shape such holy metal into arms meant to defend the young boughs of Teldrassil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Smith Mathiel?",
+   "aliases": [
+    "who is mathiel",
+    "blacksmith mathiel",
+    "where is mathiel"
+   ],
+   "answer": "Mathiel is a skilled night elf blacksmith stationed in the Craftsmen's Terrace of Darnassus. He crafts specialty armaments and takes on custom forging for the defenders of Darnassus."
+  },
+  {
+   "q": "What is special about elunite ore?",
+   "aliases": [
+    "what is elunite",
+    "is elunite magical",
+    "elunite lore"
+   ],
+   "answer": "Elunite is a rare metal revered by the night elves because it is blessed by Elune herself. Smiths like Mathiel treat crafting with it as a high honor, utilizing its sacred properties to fashion potent weapons."
+  },
+  {
+   "q": "Who sends you to Mathiel?",
+   "aliases": [
+    "who gives smith mathiel quest",
+    "quest giver smith mathiel"
+   ],
+   "answer": "Elanaria, a prominent warrior trainer residing in the Warrior's Terrace of Darnassus, packs your recovered ore and directs you to seek Mathiel just across the terrace."
+  },
+  {
+   "q": "Is this quest only available to warriors?",
+   "aliases": [
+    "warrior only",
+    "can other classes do smith mathiel"
+   ],
+   "answer": "Yes. This quest is part of the level 10 warrior class questline designed to equip young warriors with their first specialized martial weaponry."
+  },
+  {
+   "q": "Where in Darnassus can Mathiel be found?",
+   "aliases": [
+    "mathiel location",
+    "find mathiel"
+   ],
+   "answer": "Mathiel works at his anvil in the Craftsmen's Terrace in Darnassus, located just south across the structure from Elanaria."
+  },
+  {
+   "q": "What happens after you deliver the ore to Mathiel?",
+   "aliases": [
+    "what comes after smith mathiel",
+    "next quest after smith mathiel"
+   ],
+   "answer": "Mathiel begins hammering the elunite ore into shape, immediately offering the follow-up quest where you choose which elunite-forged weapon best suits your fighting style."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "For young Kaldorei warriors, bringing elunite to Mathiel is a rite of passage, exchanging simple training blades for custom weapons blessed by the Moon Goddess."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Working elunite ore bridges night elf craftsmanship with holy devotion to Elune, demonstrating that martial strength and divine faith go hand in hand."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Mathiel's reverence for elunite highlights how Kaldorei smiths integrate sacred blessings into their forgecraft rather than relying solely on brute heat and hammer."
+  }
+ ],
+ "keywords": [
+  "craftsmen's terrace",
+  "darnassus",
+  "elanaria",
+  "elunite",
+  "mathiel",
+  "smith",
+  "warrior"
+ ],
+ "related": [
+  "quest:1693",
+  "quest:1686",
+  "npc:elanaria",
+  "topic:elune",
+  "quest:1703"
+ ],
+ "attribution": [
+  "Smith Mathiel"
+ ]
+}

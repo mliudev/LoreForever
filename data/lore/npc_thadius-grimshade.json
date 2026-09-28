@@ -1,0 +1,90 @@
+{
+ "key": "npc:thadius-grimshade",
+ "type": "npc",
+ "name": "Thadius Grimshade",
+ "era": "classic",
+ "zone": "blastedlands",
+ "meta": {
+  "wiki": "Thadius Grimshade",
+  "refs": 2
+ },
+ "summary": "Thadius Grimshade is a Wildhammer dwarf diviner dwelling within the mage tower of Nethergarde Keep in the Blasted Lands. Though he parted ways with Aerie Peak long ago to study esoteric and darker magical arts, he remains loyal to his kin at heart.",
+ "sections": [
+  {
+   "title": "A Wildhammer in the Wastes",
+   "body": "Unlike most Wildhammer dwarves who prefer the open skies and roaring winds of the Hinterlands, Thadius Grimshade makes his home inside Nethergarde Keep. Driven by a thirst for arcane divination and darker mystic lore, he relocated to the edge of the tainted Blasted Lands to pursue his esoteric studies. Despite his brooding discipline and separation from his clan, he retains a deep fondness for his homeland and gryphonkind, offering his rare scrying talents to those who come seeking aid on behalf of Aerie Peak.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of Divination",
+   "body": "When Gryphon Master Talonaxe seeks to locate the captured gryphon Sharpbeak, Thadius is called upon to perform a divination ritual using one of the beast's feathers. His magical insight does not come without a price: Thadius demands the medallion worn by the troll necromancer Nekrum Gutchewer. Seeking to unlock its secret of unnatural longevity while evading its harmful corruptions, he takes the artifact in exchange for piercing the veil of Jintha'Alor and revealing where Sharpbeak is held.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Thadius Grimshade?",
+   "aliases": [
+    "thadius grimshade",
+    "who is thadius",
+    "thadius npc"
+   ],
+   "answer": "He is an eccentric Wildhammer dwarf mage and diviner stationed in Nethergarde Keep. He left his mountain home to pursue darker, unorthodox magical arts far to the south."
+  },
+  {
+   "q": "Where can Thadius Grimshade be found?",
+   "aliases": [
+    "thadius location",
+    "where is thadius grimshade",
+    "thadius blasted lands"
+   ],
+   "answer": "He resides inside the high wizard tower of Nethergarde Keep, an Alliance stronghold situated in the northern reaches of the Blasted Lands."
+  },
+  {
+   "q": "Why does he want Nekrum's Medallion?",
+   "aliases": [
+    "nekrums medallion thadius",
+    "why thadius wants medallion",
+    "nekrum gutchewer medallion"
+   ],
+   "answer": "Thadius wishes to study the medallion carried by Nekrum Gutchewer to decipher how its magical power grants long life, hoping to claim that longevity without succumbing to its sinister side effects."
+  },
+  {
+   "q": "How does he help find Sharpbeak?",
+   "aliases": [
+    "thadius sharpbeak",
+    "divining sharpbeak",
+    "finding sharpbeak quest"
+   ],
+   "answer": "Using a feather shed by the lost gryphon and the power fueled by Nekrum's Medallion, Thadius conducts a scrying ritual that reveals Sharpbeak is imprisoned at the heights of Jintha'Alor in the Hinterlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Fellow dwarves will find Thadius an oddity among Wildhammers; rather than soaring on gryphons, he spends his years buried in arcane study within a human fortress."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Mages visiting Nethergarde will recognize Thadius as a practitioner of rare and esoteric divination methods, willing to examine troll relics to master longevity magic."
+  }
+ ],
+ "keywords": [
+  "blasted lands",
+  "diviner",
+  "nekrum gutchewer",
+  "nethergarde keep",
+  "sharpbeak",
+  "thadius grimshade",
+  "wildhammer"
+ ],
+ "related": [
+  "subzone:nethergarde-keep",
+  "zone:blastedlands",
+  "zone:hinterlands",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Thadius Grimshade"
+ ]
+}

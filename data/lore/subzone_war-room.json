@@ -1,0 +1,77 @@
+{
+ "key": "subzone:war-room",
+ "type": "subzone",
+ "name": "War Room",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "War Room"
+ },
+ "summary": "Tucked deep inside Stormwind Keep, the War Room serves as the strategic nerve center of the Alliance military. Ringed with armaments, historical war tomes, and tactical charts, it is where generals and strategists monitor distant fronts and coordinate the defense of the kingdom.",
+ "sections": [
+  {
+   "title": "Nerve Center of the Keep",
+   "body": "Branching off from the grand chambers of Stormwind Keep, the War Room is outfitted specifically for military logistics and high-level campaign planning. Its stone walls are decorated with rows of armaments, including swords, blunderbusses, and even heavy artillery cannons. Piles of military treatises and historical chronicles\u2014such as accounts of the Second War, the Fall of Stormwind, and the Battle of Grim Batol\u2014stand stacked on nearby tables. At the room's core lies a large tactical map table, allowing commanders and battlemasters to assess Alliance deployments across Azeroth while the royal court handles matters of state just steps away.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the War Room located?",
+   "aliases": [
+    "war room location",
+    "how to find war room",
+    "where is the map room"
+   ],
+   "answer": "The War Room is located inside Stormwind Keep, situated beyond the central corridors of the royal fortress. It is easily recognized by its heavy fortifications, weapon racks, and large tactical strategy table."
+  },
+  {
+   "q": "What is the purpose of this room?",
+   "aliases": [
+    "what is war room for",
+    "war room purpose",
+    "why does the keep have a war room"
+   ],
+   "answer": "It serves as the strategic planning headquarters for the Alliance military within Stormwind. High commanders and battlemasters gather here to review intelligence, coordinate troop movements, and study historical and ongoing conflicts."
+  },
+  {
+   "q": "What historical lore can be found here?",
+   "aliases": [
+    "war room books",
+    "books in stormwind keep",
+    "historical tomes war room"
+   ],
+   "answer": "The room houses several important Alliance historical volumes detailing pivotal conflicts, including accounts of the Dark Portal and the Fall of Stormwind, the Battle of Grim Batol, and the War of the Spider."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance soldiers and champions, the War Room represents the tactical brain of the realm's defense against lingering threats across the Eastern Kingdoms and beyond."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Surrounded by heavy munitions and strategic maps, martial commanders will appreciate the thorough military organization maintained inside the keep."
+  }
+ ],
+ "keywords": [
+  "battlemasters",
+  "dark portal",
+  "grim batol",
+  "map room",
+  "stormwind keep",
+  "strategy table",
+  "war room"
+ ],
+ "related": [
+  "subzone:stormwind-keep",
+  "zone:stormwind",
+  "topic:stormwind-kingdom",
+  "topic:alliance",
+  "subzone:grim-batol",
+  "subzone:dark-portal"
+ ],
+ "attribution": [
+  "War Room"
+ ]
+}

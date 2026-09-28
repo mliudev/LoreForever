@@ -1,0 +1,136 @@
+{
+ "key": "zone:orgrimmar",
+ "type": "city",
+ "name": "Orgrimmar",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": [
+   "Orgrimmar"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "Orgrimmar is the fortress capital of the orcs and the beating heart of Thrall's New Horde. Carved directly into the towering red-rock canyons of northern Durotar, the fortified city stands as a monument to orcish perseverance and an unyielding sanctuary for trolls, tauren, and Forsaken allies alike.",
+ "sections": [
+  {
+   "title": "A Home Chiseled from Stone",
+   "body": "Following the Third War, Warchief Thrall led the orcs to the arid coasts of Kalimdor to build a homeland free from demonic corruption and human bondage. Naming the harsh region Durotar after his father, Thrall established Orgrimmar in memory of his fallen mentor, Orgrim Doomhammer. Raising the city required blood and sweat; aided by the tauren, the Darkspear trolls, goblin engineers, and the Champion Rexxar, the Horde drove back encroaching centaur, harpies, and ferocious thunder lizards to secure the canyon stronghold.",
+   "spoiler": 0
+  },
+  {
+   "title": "Valleys of the Horde",
+   "body": "Orgrimmar is naturally fortified by rugged mountains that shield it from both foreign invaders and the violent razor-winds sweeping through Durotar. The settlement is partitioned into distinct natural hollows. The Valley of Strength serves as the bustling civic gatehouse, leading deeper into the trade bazaar of The Drag. Tauren druids and shaman congregate in the serene pools of the Valley of Wisdom, while Darkspear shadow hunters and witch doctors dwell among the stilted pavilions of the Valley of Spirits.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows in the Red Rock",
+   "body": "Beneath the martial pride of the Valley of Honor and the heights of Grommash Hold lies a dimmer reality. In the subterranean cavern known as the Cleft of Shadow, warlocks and rogues practice arts Thrall strictly watches yet grudgingly tolerates. Deeper still plunges Ragefire Chasm, a fiery labyrinth of volcanic tunnels beneath the canyon floor where dark cultists and subterranean beasts fester, threatening the fortress from directly within its own foundations.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules Orgrimmar?",
+   "aliases": [
+    "orgrimmar leader",
+    "who is in charge of orgrimmar",
+    "current warchief"
+   ],
+   "answer": "Warchief Thrall rules the city from his seat in Grommash Hold. He leads the New Horde with a focus on honor, survival, and shamanistic heritage, supported closely by Darkspear chieftain Vol'jin and veteran commander Varok Saurfang."
+  },
+  {
+   "q": "Why is the city named Orgrimmar?",
+   "aliases": [
+    "orgrimmar name origin",
+    "who is orgrimmar named after"
+   ],
+   "answer": "Thrall named the city in honor of Orgrim Doomhammer, the legendary former Warchief who broke the shadow council's hold on the Old Horde and passed his warplate and the Doomhammer to Thrall before dying in battle."
+  },
+  {
+   "q": "Who lives in Orgrimmar besides orcs?",
+   "aliases": [
+    "races in orgrimmar",
+    "who lives here",
+    "trolls in orgrimmar"
+   ],
+   "answer": "While founded by orcs, the city is a haven for the Darkspear troll tribe\u2014who occupy the Valley of Spirits\u2014and hosts visiting tauren ambassadors in the Valley of Wisdom. An emissary contingent of Forsaken has also established a presence following their recent entry into the Horde."
+  },
+  {
+   "q": "What is the Cleft of Shadow?",
+   "aliases": [
+    "cleft of shadow",
+    "underground orgrimmar",
+    "orgrimmar warlock area"
+   ],
+   "answer": "The Cleft of Shadow is a dim, cavernous fissure tucked beneath the canyon bluffs off The Drag. It houses the city's rogue and warlock guilds, keeping their illicit trade and dangerous demonic invocations secluded from the civilian districts."
+  },
+  {
+   "q": "What threats exist inside the city?",
+   "aliases": [
+    "dangers in orgrimmar",
+    "ragefire chasm threat",
+    "orgrimmar cultists"
+   ],
+   "answer": "Directly below the Cleft of Shadow lies Ragefire Chasm, a treacherous network of subterranean volcanic fissures infested with troggs, searing elementals, and treacherous warlocks seeking to undermine Thrall's rule from the depths."
+  },
+  {
+   "q": "How do you travel to other continents from Orgrimmar?",
+   "aliases": [
+    "orgrimmar zeppelins",
+    "getting to tirisfal from orgrimmar",
+    "travel from orgrimmar"
+   ],
+   "answer": "Goblin-engineered zeppelins dock atop towers outside the main gate, providing regular flights across the Great Sea to Tirisfal Glades near Undercity and south to Grom'gol Base Camp in Stranglethorn Vale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As the supreme military and cultural seat of the New Horde, Orgrimmar provides all Horde champions with essential weaponmasters, class mentors, trade hubs, and direct audience with Warchief Thrall."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For the orcs, Orgrimmar represents hard-won freedom from demonic lethargy and internment, serving as their proud ancestral fortress on the soil of Durotar."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Having lost the Darkspear Isles, the Darkspear trolls found enduring sanctuary alongside the orcs, claiming the Valley of Spirits as a secure spiritual home."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Thrall has restored shamanism to the core of Horde leadership; practitioners gather within the tranquil Valley of Wisdom to study the elements and commune with ancestral spirits."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks find an uneasy refuge here: banished to the secluded Cleft of Shadow, they operate under Thrall's watchful eye while honing their dark arts away from open judgment."
+  }
+ ],
+ "keywords": [
+  "cleft of shadow",
+  "drag",
+  "durotar",
+  "grommash hold",
+  "orgrim doomhammer",
+  "orgrimmar",
+  "ragefire chasm",
+  "thrall",
+  "valley of spirits",
+  "valley of strength",
+  "valley of wisdom",
+  "warchief"
+ ],
+ "related": [
+  "npc:thrall",
+  "npc:orgrim-doomhammer",
+  "zone:durotar",
+  "zone:ragefire",
+  "subzone:grommash-hold",
+  "subzone:cleft-of-shadow",
+  "topic:new-horde",
+  "npc:vol-jin"
+ ],
+ "attribution": [
+  "Orgrimmar"
+ ]
+}

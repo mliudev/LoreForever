@@ -1,0 +1,150 @@
+{
+ "key": "topic:alliance",
+ "type": "topic",
+ "name": "Alliance",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Alliance"
+ },
+ "summary": "The Alliance is a grand coalition of mortal races bound by shared ideals of honor, duty, and the defense of order across Azeroth. Born out of the ashes of the northern kingdom of Lordaeron, its current heart beats in Stormwind City, united alongside the dwarves of Ironforge, the exiled gnomes, and the night elves of Kalimdor.",
+ "sections": [
+  {
+   "title": "From Lordaeron to Stormwind",
+   "body": "The modern Alliance descends from the original Alliance of Lordaeron, founded when Sir Anduin Lothar led Stormwind refugees north during the Second War to unite the Seven Kingdoms, dwarves, and high elves against the Old Horde. While the Scourge and the Third War decimated the north\u2014leaving Lordaeron in ruins and driving the survivors into scattered resistance\u2014the restored Kingdom of Stormwind rose to fill the void. Today, Stormwind stands as the preeminent seat of human leadership, carrying the banners of honor and faith into a fractured world.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Coalition of Necessity and Kinship",
+   "body": "The faction's backbone in the Eastern Kingdoms relies on the steadfast bond between humans and the dwarves of Ironforge under King Magni Bronzebeard. Alongside the dwarves reside the gnomes, driven from Gnomeregan by a devastating trogg uprising and the treachery of Sicco Thermaplugg. Guided by High Tinker Gelbin Mekkatorque, the exiled gnomes lend their brilliant engineering to the Alliance war effort, believing the coalition's survival is paramount to ever reclaiming their irradiated home.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Kalimdor Front",
+   "body": "Across the Great Sea, the reclusive night elves abandoned millennia of isolation after the Battle of Mount Hyjal. Reeling from the loss of their immortality and engaged in bitter territorial clashes against the Horde over logging in Ashenvale, the kaldorei allied with their newfound mortal companions. Though cultural friction remains\u2014and some traditionalists decry the presence of humans and dwarves in ancient forests\u2014the Alliance provides vital military and diplomatic cooperation to safeguard Kalimdor against demonic remnants and Horde expansion.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uneasy Shadows",
+   "body": "Despite its outward strength, the Alliance is beset by internal strain. King Varian Wrynn vanished under mysterious circumstances en route to a diplomatic summit, leaving his young son Anduin on the throne under Highlord Bolvar Fordragon's regency. Relations with former human allies are fractured: the maritime kingdom of Kul Tiras severed ties in outrage over the death of Grand Admiral Proudmoore, while diplomatic overtures from Sylvanas Windrunner's undead Forsaken in Lordaeron were rejected outright with silent hostility.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What races make up the Alliance?",
+   "aliases": [
+    "alliance races",
+    "who is in the alliance",
+    "playable alliance races"
+   ],
+   "answer": "The core Alliance comprises four peoples: the humans of Stormwind, the mountain dwarves of Ironforge, the exiled gnomes of Gnomeregan, and the night elves of Kalimdor."
+  },
+  {
+   "q": "Who leads the Alliance right now?",
+   "aliases": [
+    "alliance leader",
+    "who is high king",
+    "who runs stormwind"
+   ],
+   "answer": "There is no single absolute monarch over the whole Alliance. In human lands, Stormwind is ruled by the boy-king Anduin Wrynn and his regent Highlord Bolvar Fordragon following the disappearance of King Varian Wrynn. The other member nations are led by King Magni Bronzebeard of Ironforge, High Tinker Gelbin Mekkatorque of the gnomes, and the night elf leadership on Kalimdor."
+  },
+  {
+   "q": "How did the Alliance of Lordaeron become the modern Alliance?",
+   "aliases": [
+    "alliance of lordaeron vs alliance",
+    "what happened to lordaeron",
+    "alliance origin"
+   ],
+   "answer": "The original Alliance was established by King Terenas Menethil II and Anduin Lothar to repel the Old Horde during the Second War. After Lordaeron was destroyed by the Scourge in the Third War, leadership shifted south to the reconstructed Kingdom of Stormwind, which forged new covenants with the dwarves, gnomes, and night elves."
+  },
+  {
+   "q": "Why did the night elves join the Alliance?",
+   "aliases": [
+    "why are night elves alliance",
+    "night elf alliance lore",
+    "kaldorei alliance"
+   ],
+   "answer": "Following the Third War and the Battle of Mount Hyjal, the night elves lost their immortality and could no longer remain secluded. With the Orcish Horde actively deforesting Warsong Gulch in Ashenvale, the kaldorei forged a military pact with the humans and dwarves to defend their ancestral lands."
+  },
+  {
+   "q": "Why is Kul Tiras not part of the Alliance right now?",
+   "aliases": [
+    "where is kul tiras",
+    "is kul tiras alliance",
+    "daelin proudmoore kul tiras"
+   ],
+   "answer": "After Grand Admiral Daelin Proudmoore invaded Durotar and was slain by the Horde, the grief-stricken realm of Kul Tiras demanded vengeance. When the rest of the war-weary Alliance refused to pursue an unprovoked war, Kul Tiras isolated itself in bitter resentment."
+  },
+  {
+   "q": "Why didn't the gnomes help during the Third War?",
+   "aliases": [
+    "where were gnomes in warcraft 3",
+    "gnomes third war",
+    "gnomeregan fall"
+   ],
+   "answer": "During the Third War, a subterranean trogg invasion struck Gnomeregan. Believing the Scourge threat to the surface was greater, the gnomes hid their crisis from their allies and fought alone. The city fell to radiation and invasion, forcing survivors into Ironforge."
+  },
+  {
+   "q": "What is the Alliance's stance toward the Forsaken?",
+   "aliases": [
+    "alliance view of forsaken",
+    "why hate undead",
+    "forsaken alliance relations"
+   ],
+   "answer": "The Alliance regards all undead as abominations and tools of the Scourge that destroyed Lordaeron. When Sylvanas Windrunner sent emissaries south seeking diplomacy, they vanished, and the Alliance maintains open hostility toward the undead reclaiming the northern kingdom."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "As the primary architects of the faction's recovery, humans view the Alliance as the rightful defender of civilization and the Church of the Holy Light against wild and demonic forces."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The dwarves of Ironforge are the most steadfast and loyal allies of humanity, lending their formidable iron, mountain infantry, and deep friendship to the Alliance cause."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Refugees in Ironforge, gnomes channel their scientific ingenuity into Alliance armadas, trusting that mutual loyalty will eventually yield the forces required to liberate Gnomeregan."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Driven out of isolation by the Third War, night elves navigate a strange, necessary kinship with the younger races to check Horde territorial aggression in Ashenvale."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Your sworn faction fights across two continents to maintain law, tradition, and mortal sovereignty against the Scourge, wild beasts, and the encroaching Horde."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde views the Alliance as an entrenched, expansionist power whose self-righteous ideals threaten the sovereignty and territorial survival of its members."
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "alliance of lordaeron",
+  "anduin wrynn",
+  "bolvar fordragon",
+  "darnassus",
+  "gnomeregan",
+  "grand alliance",
+  "ironforge",
+  "magni bronzebeard",
+  "mekkatorque",
+  "stormwind"
+ ],
+ "related": [
+  "topic:alliance-of-lordaeron",
+  "topic:horde",
+  "zone:stormwind",
+  "zone:ironforge",
+  "topic:stormwind-kingdom",
+  "topic:varian-wrynn",
+  "topic:anduin-wrynn",
+  "topic:second-war"
+ ],
+ "attribution": [
+  "Alliance"
+ ]
+}

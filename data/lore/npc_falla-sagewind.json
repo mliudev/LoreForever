@@ -1,0 +1,114 @@
+{
+ "key": "npc:falla-sagewind",
+ "type": "npc",
+ "name": "Falla Sagewind",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Falla Sagewind",
+  "refs": 3
+ },
+ "summary": "Falla Sagewind is a reclusive tauren mystic perched high upon a rocky peak overlooking the central Barrens. Stationed between the Crossroads and the Lushwater Oasis, she studies the natural and mystical anomalies troubling the surrounding land. Adventurers probing the twisted corruption seeping from the nearby Wailing Caverns often seek her guidance.",
+ "sections": [
+  {
+   "title": "Watcher of the High Crag",
+   "body": "Falla Sagewind makes her camp far above the dust and bustle of the Barrens trails, situated on a secluded summit just southwest of the Crossroads. From this vantage, she keeps a solemn watch over the fragile savannas below, observing the sudden shifts in wildlife behavior and the encroaching corruption rising from the subterranean fissures of the Wailing Caverns. Her solitary vigil separates her from the daily trade of the Crossroads, positioning her as an observant hermit tuned to the spirits and the land's silent wounds.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Waking Nightmare",
+   "body": "When strange, pulsating shards are pulled from the mutated beasts of the Barrens, wise travelers are directed to climb the crags toward Falla. She aids in interpreting the twisted magics unraveling the natural order of the oases. Recognizing the grim signs of the Emerald Dream turning foul beneath the earth, she guides heroes toward deeper answers concerning the slumbering Druids of the Fang and the spreading nightmare taking root within the region.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Falla Sagewind?",
+   "aliases": [
+    "who is falla sagewind",
+    "who is falla",
+    "falla sagewind lore"
+   ],
+   "answer": "Falla Sagewind is a solitary tauren mystic residing on a high cliff southwest of the Crossroads in the Barrens. She watches over the land and assists travelers seeking to understand the strange magical afflictions spreading across the region."
+  },
+  {
+   "q": "Where can I find Falla Sagewind?",
+   "aliases": [
+    "falla sagewind location",
+    "where is falla",
+    "how to reach falla sagewind"
+   ],
+   "answer": "She is located atop a steep mountain peak directly southwest of the Crossroads and north of the Lushwater Oasis. Reaching her camp requires winding up the rocky pathways ascending from the surrounding savanna."
+  },
+  {
+   "q": "Why is Falla Sagewind interested in the Wailing Caverns?",
+   "aliases": [
+    "falla wailing caverns",
+    "why does falla care about the oasis",
+    "falla glowing shard"
+   ],
+   "answer": "Falla monitors the balance of nature in the Barrens. When mutated beasts and corrupted remnants such as glowing shards appear around the Lushwater Oasis, she helps trace the foul source back to the corrupted druids resting inside the Wailing Caverns."
+  },
+  {
+   "q": "Is Falla Sagewind affiliated with any clan or family?",
+   "aliases": [
+    "sagewind family",
+    "who are the sagewinds",
+    "is falla related to tahu"
+   ],
+   "answer": "She carries the Sagewind surname, a name associated with other notable tauren such as Hunter Sagewind and Tahu Sagewind. While a familial connection is likely given tauren naming traditions, she keeps mostly to herself upon her overlook."
+  },
+  {
+   "q": "What quests involve Falla Sagewind?",
+   "aliases": [
+    "falla sagewind quests",
+    "quests from falla",
+    "in nightmares quest"
+   ],
+   "answer": "Falla is involved in the investigations surrounding the Wailing Caverns, notably turning in or continuing quests like The Glowing Shard and In Nightmares, which delve into the dark dream corrupting the local oases."
+  },
+  {
+   "q": "Can Alliance players interact with Falla Sagewind?",
+   "aliases": [
+    "is falla sagewind hostile",
+    "falla alliance friendly"
+   ],
+   "answer": "As a member of the tauren allied with the Horde, Falla Sagewind is naturally aligned with Thunder Bluff and the Crossroads. Alliance adventurers venturing into the heart of the Barrens will find her hostile."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Falla Sagewind exemplifies the tauren duty of quiet stewardship over the earth, watching for spiritual rot from high places while her brethren defend the roads below."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids will recognize Falla as a crucial ally in tracking down the tragic descent of Naralex and the Druids of the Fang within the Wailing Caverns."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Falla aids the Horde by interpreting strange omens and corrupted relics brought back by scouts from the contested savannas of the Barrens."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "falla",
+  "glowing shard",
+  "lushwater oasis",
+  "nightmares",
+  "sagewind",
+  "tauren",
+  "wailing caverns"
+ ],
+ "related": [
+  "quest:6981",
+  "quest:3369",
+  "subzone:lushwater-oasis",
+  "subzone:crossroads",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Falla Sagewind"
+ ]
+}

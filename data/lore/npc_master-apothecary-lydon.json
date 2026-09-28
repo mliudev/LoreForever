@@ -1,0 +1,121 @@
+{
+ "key": "npc:master-apothecary-lydon",
+ "type": "npc",
+ "name": "Master Apothecary Lydon",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Master Apothecary Lydon",
+  "refs": 16
+ },
+ "summary": "Apothecary Lydon is a morbid researcher of the Royal Apothecary Society stationed in Tarren Mill. Chronically depressed and intensely bored, he finds joy only in refining lethal concoctions and watching the living suffer. He spearheads the research into potent new toxins aimed at securing Hillsbrad for the Forsaken and furthering Sylvanas's New Plague.",
+ "sections": [
+  {
+   "title": "The Recluse of Tarren Mill",
+   "body": "Stationed inside the chapel turned laboratory of Tarren Mill, Apothecary Lydon represents the cold, calculating ethos of the Royal Apothecary Society. He is afflicted by a profound, languid melancholy, disgusted by the blooming flowers and crisp air of Hillsbrad Foothills. The only diversion that lifts his perpetual gloom is the art of deathcraft. When left unattended, he passes the time poisoning, dissecting, and reanimating his unfortunate pet frog, Umpi, repeatedly waiting for new reagents to arrive.",
+   "spoiler": 0
+  },
+  {
+   "title": "Concoctions of Agony",
+   "body": "Working in coordination with Master Apothecary Faranell in the Undercity, Lydon conducts extensive field experiments across Hillsbrad. His work escalates from the Elixir of Suffering to the virulent Elixir of Agony. To verify their potency, Lydon dispatches adventurers to test brews on local targets, ranging from innocent wildlife and domesticated animals to captured human farmers. His ultimate loyalty lies entirely with the Dark Lady, longing for the day when their finished New Plague cleanses the living world.",
+   "spoiler": 1
+  },
+  {
+   "title": "Venom of the Loa",
+   "body": "Beyond his standard concoctions, Lydon's intellectual curiosity extends to esoteric poisons. When mysterious venom bottles surface in the region, he consults with troll mystics such as Master Gadrin to trace their origin. This investigation unearths a trail leading directly to the spider goddess Shadra in the Hinterlands. Once secured, such primeval venom is shipped directly to the Apothecarium in the Undercity to further advance the Forsaken plague initiative.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Apothecary Lydon?",
+   "aliases": [
+    "who is lydon",
+    "lydon tarren mill",
+    "apothecary lydon lore"
+   ],
+   "answer": "He is an alchemist of the Royal Apothecary Society operating out of Tarren Mill in Hillsbrad Foothills. He oversees the development of various experimental plagues and toxins on behalf of Lady Sylvanas Windrunner."
+  },
+  {
+   "q": "Why is Lydon so depressed?",
+   "aliases": [
+    "why is he sad",
+    "lydon depression",
+    "why is lydon gloomy"
+   ],
+   "answer": "Lydon suffers from profound melancholy and finds the natural beauty and fresh air of Hillsbrad repulsive. The only things that lift his spirits are cruel experimentation, the suffering of the living, and the aroma of alchemical embalming fluids."
+  },
+  {
+   "q": "Who is Umpi?",
+   "aliases": [
+    "lydon frog",
+    "who is the frog",
+    "umpi lore"
+   ],
+   "answer": "Umpi is a frog that Lydon keeps in his workshop, wryly referring to her as his assistant. In reality, he relieves his extreme boredom by repeatedly poisoning, killing, and reanimating the helpless amphibian."
+  },
+  {
+   "q": "What is the Elixir of Agony?",
+   "aliases": [
+    "elixir of agony quest",
+    "what is elixir of agony",
+    "lydon elixir"
+   ],
+   "answer": "It is a potent experimental poison brewed by Lydon using ingredients from across the Eastern Kingdoms, including syndicate charms, dwarven ale, and creeper venom. Lydon ultimately tests it on captive humans in Hillsbrad to confirm its lethal effectiveness."
+  },
+  {
+   "q": "How did Lydon become Forsaken?",
+   "aliases": [
+    "lydon past",
+    "was lydon human",
+    "lydon third war"
+   ],
+   "answer": "He was a young human alchemist in Lordaeron who fell to the Scourge during the Third War. When Sylvanas broke the Lich King's control, Lydon rallied behind her, fully discarding his former human identity to dedicate his undead existence to the Dark Lady."
+  },
+  {
+   "q": "What does Lydon send to the Undercity?",
+   "aliases": [
+    "lydon undercity venom",
+    "shadra venom quest"
+   ],
+   "answer": "After discovering ancient venom vessels in Hillsbrad and coordinating the downfall of the troll spider god Shadra, Lydon collects her concentrated, divine venom and ships it straight to Master Apothecary Faranell to bolster the Society's plague research."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Lydon embodies the Royal Apothecary Society's singular mission: developing the New Plague to secure a future for the Forsaken and eradicate the living."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "To the humans of Southshore, Lydon is a horrific monster who brews lethal diseases and tests them indiscriminately on captive Hillsbrad farmers and wildlife."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Lydon's workshop is packed with reagents, cauldrons, and rotting flora, demonstrating how traditional gathering arts are weaponized by the Apothecary Society."
+  }
+ ],
+ "keywords": [
+  "apothecary",
+  "elixir of agony",
+  "faranell",
+  "hillsbrad",
+  "lydon",
+  "royal apothecary society",
+  "tarren mill",
+  "umpi"
+ ],
+ "related": [
+  "npc:master-apothecary-faranell",
+  "npc:umpi",
+  "npc:stanley",
+  "npc:master-gadrin",
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "topic:royal-apothecary-society",
+  "quest:509"
+ ],
+ "attribution": [
+  "Master Apothecary Lydon"
+ ]
+}

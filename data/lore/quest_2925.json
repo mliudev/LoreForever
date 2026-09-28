@@ -1,0 +1,122 @@
+{
+ "key": "quest:2925",
+ "type": "quest",
+ "name": "Klockmort's Essentials",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "ids": [
+   2925
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Mathiel",
+  "end": "Klockmort Spannerspan",
+  "previous": null,
+  "next": "Essential Artificials",
+  "wiki": "Klockmort's Essentials",
+  "chain": [
+   "Klockmort's Essentials",
+   "Essential Artificials"
+  ]
+ },
+ "summary": "Klockmort's Essentials is a summons carrying urgent word from the night elf Mathiel to his gnome friend, Klockmort Spannerspan. Unable to abandon his duties to travel to Dun Morogh, Mathiel enlists passing Alliance travelers to answer Klockmort's plea for help in Ironforge. The call directs adventurers into Tinkertown to prepare for a perilous venture into the irradiated halls of Gnomeregan.",
+ "sections": [
+  {
+   "title": "A Call Across Continents",
+   "body": "Word travels far even in troubled times. When Klockmort Spannerspan found himself in need of bold allies for a mission into Gnomeregan, he reached out across the sea to his night elf acquaintance, Mathiel. Mathiel, bound to his own post, cannot journey to the mountain kingdom himself, but he refuses to leave his friend's plea unanswered. Instead, he appeals to capable Alliance adventurers wandering through his encampment to make the trek to Dun Morogh on his behalf.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Tinkertown",
+   "body": "Klockmort Spannerspan operates out of Tinkertown, the bustling refugee district of Ironforge where displaced gnomes have gathered since the catastrophic fall of their underground city. Amid the whir of gears and clouds of steam, Klockmort is formulating plans to retrieve vital machinery left behind in Gnomeregan's contaminated corridors. Taking Mathiel's referral leads adventurers directly to Klockmort's workshop, enlisting them in his reclamation efforts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Klockmort's Essentials?",
+   "aliases": [
+    "quest giver",
+    "who starts klockmort essentials",
+    "mathiel quest"
+   ],
+   "answer": "The quest is offered by Mathiel, a night elf who has received word from his gnome friend Klockmort Spannerspan. Mathiel cannot travel to Ironforge himself, so he asks trusted Alliance adventurers to go in his stead."
+  },
+  {
+   "q": "Where do I find Klockmort Spannerspan?",
+   "aliases": [
+    "where is klockmort",
+    "klockmort location",
+    "klockmort spannerspan ironforge"
+   ],
+   "answer": "Klockmort Spannerspan resides in Tinkertown, the gnomish sector of Ironforge. He is located among the workshops and refugee apparatuses set up by gnomes displaced from their lost home."
+  },
+  {
+   "q": "Why does Klockmort need help in Gnomeregan?",
+   "aliases": [
+    "what does klockmort want",
+    "why gnomeregan mission",
+    "klockmort purpose"
+   ],
+   "answer": "Gnomeregan was overrun and irradiated by toxic fallout, leaving it crawling with troggs, deranged leper gnomes, and haywire automata. Klockmort requires intrepid adventurers to brave the hazards and retrieve essential mechanical components from within the ruins."
+  },
+  {
+   "q": "Is this quest required to enter Gnomeregan?",
+   "aliases": [
+    "is this quest mandatory",
+    "prereq for gnomeregan",
+    "can i skip klockmort essentials"
+   ],
+   "answer": "No, this quest is an optional breadcrumb leading you from Mathiel directly to Klockmort Spannerspan. You can speak to Klockmort in Ironforge and accept his dungeon assignments directly even without Mathiel's introduction."
+  },
+  {
+   "q": "What quest follows Klockmort's Essentials?",
+   "aliases": [
+    "next quest",
+    "followup",
+    "essential artificials followup"
+   ],
+   "answer": "Speaking to Klockmort Spannerspan completes this errand and immediately leads into the quest Essential Artificials, which directs adventurers deep inside the dungeon of Gnomeregan."
+  },
+  {
+   "q": "Why is Mathiel interested in helping a gnome in Ironforge?",
+   "aliases": [
+    "mathiel connection",
+    "why does mathiel care",
+    "mathiel and klockmort"
+   ],
+   "answer": "Mathiel and Klockmort are long-time personal friends. Even though Mathiel is stationed far away and unable to abandon his current post, his concern for his friend drives him to find someone trustworthy to lend a hand."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This quest bridges the far reaches of Alliance territory, linking night elf lands with the dwarven mountain halls of Ironforge in common defense."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "For gnomes, any errand directing adventurers to Tinkertown aids in the desperate, ongoing struggle to reclaim their lost home of Gnomeregan."
+  }
+ ],
+ "keywords": [
+  "essential artificials",
+  "gnomeregan",
+  "ironforge",
+  "klockmort spannerspan",
+  "klockmort's essentials",
+  "leper gnomes",
+  "mathiel",
+  "tinkertown"
+ ],
+ "related": [
+  "quest:1703",
+  "quest:2924",
+  "zone:gnomeregan",
+  "zone:ironforge",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Klockmort's Essentials"
+ ]
+}

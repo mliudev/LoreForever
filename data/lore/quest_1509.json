@@ -1,0 +1,140 @@
+{
+ "key": "quest:1509",
+ "type": "quest",
+ "name": "News of Dogran",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   1509
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Zankaja",
+  "end": "Gazrog",
+  "previous": "Blind Cazul",
+  "next": "News of Dogran (2)",
+  "wiki": "News of Dogran",
+  "chain": [
+   "Devourer of Souls (Orgrimmar)",
+   "Blind Cazul",
+   "News of Dogran",
+   "News of Dogran (2)",
+   "Ken'zigla's Draught (quest)",
+   "Dogran's Captivity",
+   "Love's Gift",
+   "The Binding (Succubus, Orgrimmar)"
+  ]
+ },
+ "summary": "This quest sends Horde warlocks from the clefts of Orgrimmar into the dry expanses of the Barrens in search of a missing grunt named Dogran. His mate, Zankaja, fears the worst after days of silence, sending the practitioner to question Dogran's superior at the Crossroads. Unraveling Dogran's fate forms a crucial step in the warlock ritual to bind a succubus.",
+ "sections": [
+  {
+   "title": "A Mate's Despair",
+   "body": "In the shadowy reaches of the Drag, Zankaja waits in quiet dread. Her mate Dogran was assigned to the Crossroads on an honorable promotion, yet his scheduled return has long passed without a single word. Unaware of the intricate dark arts pulling strings behind the scenes, she reaches out to a sympathetic traveler to seek answers from his commander, Gazrog.",
+   "spoiler": 0
+  },
+  {
+   "title": "Grim Tidings in the Barrens",
+   "body": "Reaching the central outpost of the Crossroads, the truth turns dark. Dogran is not merely delayed by duties; he has fallen into the hands of the ferocious quilboar infesting the plains. Gazrog acknowledges that while Dogran still lives, his capture presents a brutal reality he is hesitant to send back to Zankaja.",
+   "spoiler": 1
+  },
+  {
+   "title": "An Instrument of Summoning",
+   "body": "For an aspiring warlock, Dogran's tragedy is not merely a rescue mission. The path to summoning and mastering a succubus\u2014a creature bound by raw passion, despair, and torment\u2014demands relics touch by true emotion. Dogran's suffering and his bond with Zankaja provide the exact emotional conduit required for the binding ritual.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dogran?",
+   "aliases": [
+    "dogran lore",
+    "who is dogran",
+    "grunt dogran"
+   ],
+   "answer": "Dogran is an orc grunt stationed in the Barrens who recently earned a promotion to the Crossroads. He is also the mate of Zankaja, an orc woman living in Orgrimmar."
+  },
+  {
+   "q": "Why does a warlock care about a missing orc guard?",
+   "aliases": [
+    "why warlock quest",
+    "why do warlocks do this",
+    "succubus connection"
+   ],
+   "answer": "Warlock mentors in the Cleft of Shadow orchestrate this search because the binding ritual for a succubus requires tokens steeped in deep mortal emotions, such as love, devotion, and suffering."
+  },
+  {
+   "q": "Where is Gazrog located?",
+   "aliases": [
+    "where is gazrog",
+    "gazrog location",
+    "crossroads gazrog"
+   ],
+   "answer": "Gazrog is stationed at the Crossroads in the Barrens, serving as one of the primary Horde authorities managing defense against local threats."
+  },
+  {
+   "q": "What happened to Dogran?",
+   "aliases": [
+    "is dogran dead",
+    "where is dogran",
+    "dogran fate"
+   ],
+   "answer": "Dogran was ambushed and taken prisoner by the hostile quilboar of the Barrens. While badly wounded, he remains alive in captivity."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "where to start news of dogran"
+   ],
+   "answer": "The quest is given by Zankaja in the Drag within Orgrimmar, after being directed to her by the warlock trainer Cazul."
+  },
+  {
+   "q": "What comes next in the chain?",
+   "aliases": [
+    "what next",
+    "next quest",
+    "succubus chain continuation"
+   ],
+   "answer": "After speaking with Gazrog, warlocks are tasked with gathering a draught to treat Dogran's wounds and tracking down the quilboar encampment where he is held."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This leg of your journey transitions your training from dark texts in Orgrimmar into real-world exploitation of mortal tragedy to claim a succubus."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The mission illustrates the constant danger faced by Horde grunts attempting to secure the perilous crossroads of Kalimdor from hostile indigenous threats."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The quiet grief of Zankaja reveals the personal cost behind the Horde's expansion and defense throughout Durotar and the Barrens."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "cazul",
+  "crossroads",
+  "dogran",
+  "gazrog",
+  "news of dogran",
+  "quilboar",
+  "succubus",
+  "zankaja"
+ ],
+ "related": [
+  "npc:zankaja",
+  "npc:gazrog",
+  "npc:cazul",
+  "quest:1508",
+  "quest:1515",
+  "quest:1511",
+  "quest:1471",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "News of Dogran"
+ ]
+}

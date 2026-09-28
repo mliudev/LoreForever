@@ -1,0 +1,119 @@
+{
+ "key": "quest:6323",
+ "type": "quest",
+ "name": "Ride to the Undercity",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   6323
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Karos Razok",
+  "end": "Gordon Wendham",
+  "previous": "Supplying the Sepulcher",
+  "next": "Michael Garrett (Classic)",
+  "wiki": "Ride to the Undercity (Classic)",
+  "chain": []
+ },
+ "summary": "Ride to the Undercity introduces fledgling Forsaken adventurers to the Horde's aerial flight network across Lordaeron. Carrying weapon requisitions from the embattled outpost of the Sepulcher, couriers take a dread bat directly into the Undercity's Trade Quarter to resupply regional defenders.",
+ "sections": [
+  {
+   "title": "Wings Over Silverpine",
+   "body": "Maintaining lines of communication between the Forsaken capital and its frontline outposts requires swift, reliable transit. Karos Razok, the bat handler stationed at the Sepulcher in Silverpine Forest, manages the trained dread bats that ferry messengers and supplies across the plagued landscape. With roads crawling with hostile beasts, Moonrage worgen, and remnants of the Scourge, taking to the skies is the safest and fastest way to ensure urgent military requests reach the capital.",
+   "spoiler": 0
+  },
+  {
+   "title": "Arming the Front",
+   "body": "Upon touching down in the Undercity's bustling Trade Quarter, the courier delivers Podrig's equipment requisition directly to Gordon Wendham. As an Undercity weaponsmith dedicated to the Dark Lady's cause, Wendham ensures that regional outposts like the Sepulcher remain outfitted with clean, battle-ready armaments. Sustaining these defensive hubs is vital for the fledgling Forsaken nation as it secures its borders against surrounding enemies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this flight to the Undercity?",
+   "aliases": [
+    "why ride to undercity",
+    "ride to the undercity objective",
+    "podrig's order use"
+   ],
+   "answer": "The mission serves to deliver an official weapons requisition from Deathguard Podrig at the Sepulcher directly to Gordon Wendham, an armorer working in the Trade Quarter of the Undercity, while teaching new champions how to use the Forsaken flight network."
+  },
+  {
+   "q": "Who is Karos Razok?",
+   "aliases": [
+    "karos razok role",
+    "who is the sepulcher bat master"
+   ],
+   "answer": "Karos Razok is the bat master stationed at the Sepulcher in Silverpine Forest. He oversees the roost of dread bats used by the Forsaken to maintain rapid travel and communication with the Undercity."
+  },
+  {
+   "q": "Who is Gordon Wendham?",
+   "aliases": [
+    "gordon wendham",
+    "where is gordon wendham"
+   ],
+   "answer": "Gordon Wendham is a Forsaken weapon crafter located in the Trade Quarter of the Undercity, right near the bat handler's landing platform. He takes pride in keeping weapons cleaned, sharpened, and ready for Lady Sylvanas's frontline forces."
+  },
+  {
+   "q": "Why do the Forsaken use bats for transit?",
+   "aliases": [
+    "why bats",
+    "forsaken flight mounts"
+   ],
+   "answer": "Dread bats are native nocturnal predators well-suited to Lordaeron's blighted skies. They provide swift passage above treacherous ground hazards such as feral worgen, hostile rot hides, and the Scourge."
+  },
+  {
+   "q": "What happens after completing the delivery?",
+   "aliases": [
+    "what comes next",
+    "follow up to ride to the undercity"
+   ],
+   "answer": "After receiving the order, Gordon Wendham directs couriers to Michael Garrett, the Undercity bat handler, establishing a return flight path back toward the Sepulcher."
+  },
+  {
+   "q": "Where does the dread bat land in the Undercity?",
+   "aliases": [
+    "undercity bat landing",
+    "where does bat land"
+   ],
+   "answer": "The dread bat lands on the raised bat roost perched directly in the center of the Undercity's Trade Quarter, providing immediate access to the city's craftsmen and supply merchants."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Taking wing from Silverpine to the capital highlights the reach and organization of the Dark Lady's network, ensuring isolated garrisons are never cut off from Undercity's industry."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Delivering orders to Gordon Wendham offers smiths a look at the logistical spine of Lordaeron, where every piece of iron is kept sharp and ready for war."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Flight masters form the essential connective tissue of the Horde's territorial expansion, turning arduous wilderness treks into rapid tactical deployments."
+  }
+ ],
+ "keywords": [
+  "dread bat",
+  "flight master",
+  "gordon wendham",
+  "karos razok",
+  "podrig's order",
+  "ride to the undercity",
+  "sepulcher",
+  "trade quarter"
+ ],
+ "related": [
+  "npc:karos-razok",
+  "npc:gordon-wendham",
+  "zone:undercity",
+  "subzone:trade-quarter",
+  "subzone:sepulcher",
+  "quest:6321"
+ ],
+ "attribution": [
+  "Ride to the Undercity (Classic)"
+ ]
+}

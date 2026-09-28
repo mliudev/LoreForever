@@ -1,0 +1,118 @@
+{
+ "key": "quest:1782",
+ "type": "quest",
+ "name": "Furen's Armor",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1782
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Furen Longbeard",
+  "end": "",
+  "previous": "Fire Hardened Mail",
+  "next": null,
+  "wiki": "Furen's Armor",
+  "chain": []
+ },
+ "summary": "Furen's Armor marks the culmination of an aspiring warrior's quest to assist the master smith Furen Longbeard in Stormwind. By gathering rare metals and elemental components, the adventurer helps Longbeard forge a resilient suit of fire-hardened mail. In return for their aid, Longbeard rewards the warrior with the finished plate and pledges to share his newfound metallurgical techniques across the Alliance.",
+ "sections": [
+  {
+   "title": "A Master's Breakthrough",
+   "body": "Furen Longbeard, an esteemed dwarven armorer stationed in Stormwind, has dedicated his craft to pushing the limits of Alliance defensive metallurgy. By commissioning a stalwart adventurer to track down scarce ores and elemental reagents, Longbeard sought to test advanced techniques in tempering mail against searing heat and crushing impacts. The resulting craftwork proves to be a tremendous success, solidifying Longbeard's standing as one of the Alliance's foremost armor crafters.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sharing the Craft",
+   "body": "Upon presenting the newly finished fire-hardened mail to the adventurer who gathered the materials, Furen expresses deep gratitude for the partnership. The experiments did more than produce a single durable suit; they expanded his understanding of protective smithing. In the communal spirit of Ironforge and Stormwind artisans, Longbeard resolves to dispatch his notes and discoveries to fellow Alliance smiths, ensuring that his breakthrough strengthens frontline fighters across the faction.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Furen Longbeard?",
+   "aliases": [
+    "who is furen",
+    "furen longbeard",
+    "stormwind smith furen"
+   ],
+   "answer": "Furen Longbeard is a master dwarven armorer operating within the city of Stormwind. He works extensively with the Alliance's martial orders, particularly warriors seeking specialized, high-grade armor."
+  },
+  {
+   "q": "What kind of armor did Furen create?",
+   "aliases": [
+    "what armor does furen make",
+    "fire hardened mail",
+    "furen's reward"
+   ],
+   "answer": "Through extensive experimentation with rare ores and reagents, Furen forged a suit of Fire Hardened Mail. He designed it to withstand ferocious assaults and extreme heat on the battlefield."
+  },
+  {
+   "q": "Where does Furen Longbeard send his smithing discoveries?",
+   "aliases": [
+    "furen's notes",
+    "who gets furen's designs",
+    "alliance blacksmiths"
+   ],
+   "answer": "Furen promises to send his technical findings and notes to fellow blacksmiths across the Alliance, spreading the benefits of the newly tested tempering methods to armories and forges throughout the realm."
+  },
+  {
+   "q": "Why was the warrior asked to gather reagents for Furen?",
+   "aliases": [
+    "why gather reagents for furen",
+    "fire hardened mail quest materials"
+   ],
+   "answer": "Furen needed rare and volatile components to test untried smithing techniques. Lacking the ability to leave his forge to hunt down elemental agents and exotic minerals, he relied on an ambitious warrior to acquire them."
+  },
+  {
+   "q": "Where is this armor forged and delivered?",
+   "aliases": [
+    "where is furen longbeard",
+    "turn in location",
+    "furen location"
+   ],
+   "answer": "The exchange takes place directly at Furen Longbeard's forge in the city of Stormwind, where he completes the final hammering and cooling of the mail suit."
+  },
+  {
+   "q": "Does this work benefit other Alliance fighters?",
+   "aliases": [
+    "alliance benefit",
+    "furen's breakthrough"
+   ],
+   "answer": "Yes. Furen notes that the lessons learned from working with these materials will be shared with other Alliance armorers, which he hopes will encourage other smiths to craft and provide elite equipment for Alliance soldiers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "For Alliance warriors coming of age, earning Furen's custom-tempered armor represents a rite of passage and provides indispensable protection for early frontline campaigns."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Furen's successful experiment highlights the collaborative tradition of Alliance smiths, who share specialized metallurgical discoveries to elevate craft standards across Stormwind and Ironforge."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Strong armaments are crucial to keeping the Alliance's standing forces alive against persistent threats from the Defias, gnolls, and hostile elemental forces."
+  }
+ ],
+ "keywords": [
+  "alliance warrior",
+  "blacksmithing",
+  "fire hardened mail",
+  "furen longbeard",
+  "furen's armor",
+  "mail armor",
+  "stormwind"
+ ],
+ "related": [
+  "npc:furen-longbeard",
+  "quest:1701",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Furen's Armor"
+ ]
+}

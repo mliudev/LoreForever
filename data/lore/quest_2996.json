@@ -1,0 +1,129 @@
+{
+ "key": "quest:2996",
+ "type": "quest",
+ "name": "Seeking Strahad",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   2996
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Gan'rul Bloodeye",
+  "end": "Strahad Farsan",
+  "previous": null,
+  "next": "Tome of the Cabal",
+  "wiki": "Seeking Strahad (Orgrimmar)",
+  "chain": [
+   "Seeking Strahad (Orgrimmar)",
+   "Seeking Strahad (Undercity)",
+   "Tome of the Cabal (Horde)",
+   "Tome of the Cabal (Horde, 2)",
+   "Tome of the Cabal (Horde, 3)",
+   "The Binding (Felhunter)"
+  ]
+ },
+ "summary": "Seeking Strahad is an essential rite of passage for Horde warlocks who have outgrown their basic summoning arts. Instructed by Gan'rul Bloodeye in the shadowy clefts of Orgrimmar, practitioners must travel south to Ratchet to study beneath a renegade human summoner.",
+ "sections": [
+  {
+   "title": "Leaving the Shadows of Orgrimmar",
+   "body": "Within the dark crevices of the Cleft of Shadows, the orcish warlock trainer Gan'rul Bloodeye guides young practitioners in the treacherous art of commanding the Nether. Eventually, an apprentice warlock reaches a threshold where tribal tutelage is no longer sufficient. Gan'rul acknowledges that more volatile entities require specialized instruction, pointing his pupils outside the city walls to a figure possessing deeper mastery over dark arcana.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Unorthodox Alliance",
+   "body": "The tutor chosen by Gan'rul is Strahad Farsan, a human sorcerer dwelling in an isolated tower overlooking the goblin port of Ratchet. Despite the enduring hatred between the Horde and humankind, warlocks exist in a realm beyond conventional faction loyalties. Power, discipline, and ritual knowledge supersede ancestry, and Strahad cares far more for an apprentice's inner hatred and aptitude for subjugation than the color of their skin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is an orc warlock sending me to a human?",
+   "aliases": [
+    "why learn from human",
+    "strahad human warlock",
+    "why strahad"
+   ],
+   "answer": "Warlocks share a pragmatic philosophy that values dark knowledge over racial allegiances. Gan'rul Bloodeye recognizes that Strahad Farsan holds rare and formidable expertise in advanced demonology. In the pursuit of dangerous summons, a tutor's skill matters far more than faction boundaries."
+  },
+  {
+   "q": "Where can I find Strahad Farsan?",
+   "aliases": [
+    "strahad location",
+    "where is strahad",
+    "strahad tower ratchet"
+   ],
+   "answer": "Strahad Farsan resides on the high bluffs immediately overlooking the goblin port of Ratchet in the Barrens, standing outside his personal tower above the bustling docks."
+  },
+  {
+   "q": "What power does Strahad teach?",
+   "aliases": [
+    "what does strahad unlock",
+    "what do i get from strahad",
+    "seeking strahad reward"
+   ],
+   "answer": "Strahad guides warlocks through the complex rituals required to bind a felhunter\u2014a voracious, magic-devouring demon of the Twisting Nether. His lessons delve into deep occult texts before testing your ability to enslave the beast."
+  },
+  {
+   "q": "Who is Gan'rul Bloodeye?",
+   "aliases": [
+    "who is ganrul",
+    "ganrul bloodeye",
+    "orgrimmar warlock trainer"
+   ],
+   "answer": "Gan'rul Bloodeye is a prominent orc warlock mentor located in the Cleft of Shadows beneath Orgrimmar. He trains burgeoning Horde warlocks in the fundamentals of fel magic and summoning lesser minions."
+  },
+  {
+   "q": "Is there another way to start this quest?",
+   "aliases": [
+    "seeking strahad undercity",
+    "forsaken seeking strahad",
+    "undercity version"
+   ],
+   "answer": "Yes. Forsaken warlocks receive a parallel summons from the Magic Quarter in the Undercity, which directs them to the exact same human mentor above Ratchet."
+  },
+  {
+   "q": "Does Ratchet pose any danger to Horde warlocks?",
+   "aliases": [
+    "is ratchet safe",
+    "ratchet guards hostile",
+    "neutral port"
+   ],
+   "answer": "Ratchet is operated by the Steamwheedle Cartel and functions as a strictly neutral port. As long as you maintain peace and do not attack fellow travelers within city bounds, goblin bruisers will leave you alone."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This quest marks your transition into mastering mid-tier demonic entities, testing your readiness to subjugate the magic-consuming felhunter."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The willingness of Horde masters to send apprentices to a solitary human demonstrates how warlock covens operate independently of the Warchief's formal diplomacy."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "cleft of shadows",
+  "felhunter quest",
+  "gan'rul bloodeye",
+  "ratchet",
+  "seeking strahad",
+  "strahad farsan",
+  "tome of the cabal"
+ ],
+ "related": [
+  "npc:strahad-farsan",
+  "npc:gan-rul-bloodeye",
+  "quest:1758",
+  "quest:1471",
+  "quest:1798",
+  "subzone:ratchet",
+  "zone:orgrimmar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Seeking Strahad (Orgrimmar)"
+ ]
+}

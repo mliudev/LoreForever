@@ -1,0 +1,94 @@
+{
+ "key": "subzone:splinterspear-junction",
+ "type": "subzone",
+ "name": "Splinterspear Junction",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Splinterspear Junction"
+ },
+ "summary": "Splinterspear Junction is a strategic fork in the main road winding through the heart of the Swamp of Sorrows. Dominated by a rugged orc watchtower and regularly patrolled by Horde sentries, it divides the path between northern retreats and southern outposts.",
+ "sections": [
+  {
+   "title": "A Crossroads of Conflict",
+   "body": "Standing near the center of the Swamp of Sorrows, Splinterspear Junction divides travelers between two paths: the northern trail leading toward the Broken Draenei refuge of the Harborage and the Fallow Sanctuary, and the southern road running directly past the fortress of Stonard toward the Blasted Lands. An ancient orcish watchtower oversees the split, garrisoned and patrolled by active Horde troops. For members of the Horde, it serves as a secure landmark in a treacherous marsh; for Alliance travelers, it represents a deadly ambush point along an already unforgiving trail.",
+   "spoiler": 0
+  },
+  {
+   "title": "Echoes of Kyross",
+   "body": "Long before the current watchtower was manned, this spot held bitter military significance. During the First War, an orcish encampment known as Kyross was established here, serving as the closest Horde strongpoint threatening the human settlement of Grand Hamlet. Stormwind repeatedly dispatched strike forces into the swamp to eradicate the outpost. Among those who perished in the skirmishes was Lieutenant Blake Godwyn, a knight from Lordaeron whose remains and ancestral sword were swallowed by the mire.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do the roads at Splinterspear Junction lead?",
+   "aliases": [
+    "where does the road go",
+    "splinterspear paths",
+    "which way at splinterspear"
+   ],
+   "answer": "The road splits into two distinct routes. The northern fork leads past the Draenei haven of the Harborage and toward the Fallow Sanctuary, while the southern branch directs travelers south to Stonard and onward into the parched wastes of the Blasted Lands."
+  },
+  {
+   "q": "Is Splinterspear Junction safe for Alliance travelers?",
+   "aliases": [
+    "alliance safe splinterspear",
+    "are guards hostile",
+    "splinterspear pvp"
+   ],
+   "answer": "No. The junction is held by the Horde, who maintain a fortified watchtower and regular patrols around the intersection. These guards are openly hostile to the Alliance and will flag passing adventurers for combat on sight."
+  },
+  {
+   "q": "What was Kyross?",
+   "aliases": [
+    "what is kyross",
+    "kyross history",
+    "first war kyross"
+   ],
+   "answer": "Kyross was an orcish military outpost built at this very crossroads during the First War. Because it sat dangerously close to Grand Hamlet across the border, the Kingdom of Stormwind repeatedly sent sorties into the swamp to destroy it."
+  },
+  {
+   "q": "Who was Lieutenant Blake Godwyn?",
+   "aliases": [
+    "blake godwyn",
+    "ancestral sword owner",
+    "lordaeron knight swamp"
+   ],
+   "answer": "Lieutenant Blake Godwyn was an officer hailing from the northern kingdom of Lordaeron who aided Stormwind during the First War. He lost his life in the fierce fighting around the outpost of Kyross and was buried somewhere in the surrounding marshland alongside his family's ancestral blade."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Tread carefully around the junction; the orcish watchtower is heavily guarded by Horde sentries eager to cut down any intruders straying from Darkshire."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The watchtower at the junction provides a vital waypoint and security checkpoint when traveling between Stonard and northern destinations in the swamp."
+  }
+ ],
+ "keywords": [
+  "blake godwyn",
+  "grand hamlet",
+  "harborage",
+  "kyross",
+  "splinterspear junction",
+  "stonard",
+  "swamp of sorrows",
+  "watchtower"
+ ],
+ "related": [
+  "zone:swampofsorrows",
+  "subzone:stonard",
+  "subzone:harborage",
+  "subzone:fallow-sanctuary",
+  "zone:blastedlands",
+  "topic:first-war",
+  "topic:stormwind-kingdom",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Splinterspear Junction"
+ ]
+}

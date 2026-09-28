@@ -1,0 +1,93 @@
+{
+ "key": "subzone:dun-modr",
+ "type": "subzone",
+ "name": "Dun Modr",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Dun Modr"
+ },
+ "summary": "Dun Modr is an ancient fortified dwarven town in northern Wetlands, guarding the southern approach to the Thandol Span. Once a critical fortress held and contested across multiple wars, it has recently fallen to a hostile force of Dark Iron dwarves.",
+ "sections": [
+  {
+   "title": "A Contested Bastion",
+   "body": "Situated at the northern edge of the Wetlands, Dun Modr commands the primary overland highway linking Khaz Modan with the northern human kingdoms. Because of this vital location, the stronghold has seen heavy bloodshed over the decades. During the Second War, the Orcish Horde captured and entrenched themselves within the dwarven fortress, using it as a forward staging ground to launch raids and repel Alliance armies. Stromgarde warriors launched a brutal amphibious assault from Tol Barad to reclaim it, only for the Orcs to strike back in a bloody tug-of-war. Alliance forces led by Lord Anduin Lothar ultimately drove the invaders south across the Thandol Span, restoring dwarven custody over the bastion.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Dark Iron Incursion",
+   "body": "With Ironforge's attention divided and many of its finest mountaineers committed to Alliance duties abroad, Dun Modr was left vulnerable. Seizing the opportunity, Dark Iron invaders pushed north and sabotaged the Thandol Span with explosives before swarming the fortress. Under the command of the Dark Iron warlock Balgaras the Foul, these infiltrators overran the town's defenders, driving out the Bronzebeard garrison and transforming the strategic outpost into a hostile den. Surrounding Mountaineers now maintain a grim perimeter just down the road, desperately seeking aid to dislodge the occupiers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Dun Modr so important?",
+   "aliases": [
+    "why does dun modr matter",
+    "importance of dun modr",
+    "dun modr strategic value"
+   ],
+   "answer": "Dun Modr sits directly along the major northern road in the Wetlands leading to the Thandol Span. Controlling the fortress means controlling all overland traffic, supply lines, and military movement between Khaz Modan and the northern continent of Lordaeron."
+  },
+  {
+   "q": "Who controls Dun Modr right now?",
+   "aliases": [
+    "who is in dun modr",
+    "who runs dun modr",
+    "who lives in dun modr"
+   ],
+   "answer": "The stronghold has fallen to the Dark Iron clan, led on-site by a warlock named Balgaras the Foul. Bronzebeard Mountaineers loyal to Ironforge maintain a watchful camp nearby, hoping to reclaim it."
+  },
+  {
+   "q": "What happened to Dun Modr during the Second War?",
+   "aliases": [
+    "second war dun modr",
+    "orcs in dun modr",
+    "did horde take dun modr"
+   ],
+   "answer": "The Orcish Horde overran the town and turned it into a forward military base. Stromgarde forces struck from the island of Tol Barad to retake the ruins, sparking fierce clashes until Anduin Lothar's Alliance forces finally swept the Horde out of the region."
+  },
+  {
+   "q": "Who is Balgaras the Foul?",
+   "aliases": [
+    "balgaras the foul lore",
+    "balgaras who",
+    "dark iron leader dun modr"
+   ],
+   "answer": "Balgaras the Foul is the Dark Iron warlock leading the occupation of Dun Modr. Under his command, the Dark Irons managed to damage the Thandol Span and drive the local Ironforge defenders out of the fortress."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Seeing a storied Bronzebeard mountain settlement fall into the hands of the treacherous Dark Iron clan is a bitter insult that demands vengeance."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The fall of Dun Modr threatens the critical transit route across the Thandol Span, severing easy travel between Ironforge and the northern Alliance remnants."
+  }
+ ],
+ "keywords": [
+  "balgaras the foul",
+  "dark iron",
+  "dun modr",
+  "ironforge",
+  "mountaineers",
+  "thandol span",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:thandol-span",
+  "quest:303",
+  "zone:wetlands",
+  "subzone:dun-algaz",
+  "topic:second-war",
+  "topic:anduin-lothar",
+  "quest:631",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Dun Modr"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "key": "npc:doras",
+ "type": "npc",
+ "name": "Doras",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Doras",
+  "refs": 2
+ },
+ "summary": "Doras is the Horde's chief Wind Rider Master in Orgrimmar, perched high upon the wooden tower overlooking the Valley of Strength. He oversees the capital's wyverns, dispatching couriers, scouts, and travelers across Kalimdor.",
+ "sections": [
+  {
+   "title": "Master of the Skyway",
+   "body": "Perched on the wooden platform above the Valley of Strength, Doras tends the winged predators known as wind riders or wyverns. Since the Horde settled Durotar, these cunning, leathery-winged beasts have become the backbone of Horde communication and transit across Kalimdor. Doras manages their care, pairing resting mounts with riders and ensuring critical messages and reinforcements reach remote outposts like the Crossroads, Thunder Bluff, and settlements deep in Ashenvale or Dustwallow Marsh.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Doras?",
+   "aliases": [
+    "doras location",
+    "where is orgrimmar flight master",
+    "orgrimmar wyvern master"
+   ],
+   "answer": "Doras is stationed atop the flight tower directly overlooking the Valley of Strength in Orgrimmar. Travelers can reach his roost by taking the winding ramps up the central timber structures near the city entrance."
+  },
+  {
+   "q": "What creatures does Doras train?",
+   "aliases": [
+    "orgrimmar mounts",
+    "what does doras fly",
+    "what are wind riders"
+   ],
+   "answer": "Doras manages wind riders, also commonly referred to as wyverns. Native to the arid crags and savannas of Kalimdor, these intelligent, venomous winged predators were befriended by the Horde and serve as reliable flying steeds over vast distances."
+  },
+  {
+   "q": "Where can Doras send travelers?",
+   "aliases": [
+    "doras flight paths",
+    "where can i fly from orgrimmar",
+    "orgrimmar flight routes"
+   ],
+   "answer": "From his roost in Orgrimmar, Doras connects travelers to established Horde outposts across central and northern Kalimdor, including Razor Hill, the Crossroads in the Barrens, Thunder Bluff in Mulgore, and military camps in Ashenvale and beyond."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For any Horde adventurer, Doras provides the primary aerial artery out of the capital, allowing swift travel to allied settlements across Kalimdor."
+  }
+ ],
+ "keywords": [
+  "doras",
+  "flight master",
+  "orgrimmar",
+  "valley of strength",
+  "wind rider master",
+  "wyvern"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "subzone:valley-of-strength",
+  "quest:6385",
+  "quest:6386",
+  "topic:horde",
+  "subzone:crossroads",
+  "subzone:razor-hill",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Doras"
+ ]
+}

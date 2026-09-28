@@ -1,0 +1,120 @@
+{
+ "key": "quest:809",
+ "type": "quest",
+ "name": "Ak'Zeloth",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   809
+  ],
+  "level": "13",
+  "faction": "Horde",
+  "start": "Neeru Fireblade",
+  "end": "Ak'Zeloth",
+  "previous": "Neeru Fireblade (quest)",
+  "next": "The Demon Seed (quest)",
+  "wiki": "Ak'Zeloth (Classic)",
+  "chain": []
+ },
+ "summary": "Ak'Zeloth is an early Horde quest dispatched by the warlock Neeru Fireblade from deep within Orgrimmar's Cleft of Shadow. Driven by evidence of lingering demonic corruption, Neeru sends adventurers into the Barrens to rendezvous with his field contact stationed near the border.",
+ "sections": [
+  {
+   "title": "A Trail of Shadow",
+   "body": "Following the discovery of a Burning Blade insignia collar in Durotar, Neeru Fireblade claims to hunt down demonic remnants threatening the newly settled Horde. Presenting himself as a watchdog against fel taint, Neeru directs adventurers toward the arid plains of the Barrens, warning that a dark cult is gathering around an artifact of vile power known as the Demon Seed.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Outpost Contact",
+   "body": "To coordinate the strike against the cult, adventurers must seek out Ak'Zeloth, Neeru's assistant stationed near the Far Watch Post on the Durotar-Barrens border. Yet upon arrival, Ak'Zeloth greets the mission with quiet skepticism, openly musing on why his master would genuinely seek the artifact's demise before providing instructions on how to handle the Demon Seed atop Dreadmist Peak.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest starter",
+    "where to get ak'zeloth",
+    "neeru fireblade quest"
+   ],
+   "answer": "The quest is given by Neeru Fireblade, a warlock dwelling in the shadowy cavern of the Cleft of Shadow beneath Orgrimmar, immediately after you present him with a Burning Blade collar."
+  },
+  {
+   "q": "Where is Ak'Zeloth located?",
+   "aliases": [
+    "ak'zeloth location",
+    "where is ak'zeloth",
+    "find ak'zeloth"
+   ],
+   "answer": "Ak'Zeloth is located just outside the Far Watch Post, right along the eastern border of the Barrens where the bridge crosses over from Durotar."
+  },
+  {
+   "q": "What is the Demon Seed?",
+   "aliases": [
+    "demon seed lore",
+    "what is the seed"
+   ],
+   "answer": "The Demon Seed is a foul artifact of demonic power held by the Burning Blade cult atop Dreadmist Peak, an ominous mountain situated in the northern Barrens."
+  },
+  {
+   "q": "Why does Ak'Zeloth find Neeru's orders strange?",
+   "aliases": [
+    "why is ak'zeloth surprised",
+    "strange reaction ak'zeloth"
+   ],
+   "answer": "Ak'Zeloth is surprised because Neeru Fireblade and his associates secretly harbor dark affiliations of their own. Ordering the destruction of a potent demonic relic raises suspicion even among Neeru's own disciples."
+  },
+  {
+   "q": "What quest follows this one?",
+   "aliases": [
+    "next quest after ak'zeloth",
+    "ak'zeloth followup"
+   ],
+   "answer": "Speaking with Ak'Zeloth immediately leads into the quest 'The Demon Seed', which charges you with ascending Dreadmist Peak to neutralize the corrupting relic."
+  },
+  {
+   "q": "Is this quest part of the Burning Blade storyline?",
+   "aliases": [
+    "burning blade questline",
+    "orgrimmar cult quest"
+   ],
+   "answer": "Yes. It serves as a vital bridge connecting the local cultist conspiracies discovered in Durotar to the wider, organized cult activity entrenched in the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks familiar with Neeru Fireblade's teachings may recognize the subtle double-dealings of their mentor when his assistant questions the call to destroy a demonic relic."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcs have fought bitterly to escape the Burning Legion's grasp, making any sign of the Burning Blade cult and demonic relics on their doorstep an urgent threat."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing the Far Watch Post and clearing Dreadmist Peak is critical to safeguarding the nascent trade and transit routes linking Durotar with the Barrens."
+  }
+ ],
+ "keywords": [
+  "ak'zeloth",
+  "barrens",
+  "burning blade",
+  "cleft of shadow",
+  "demon seed",
+  "dreadmist peak",
+  "far watch post",
+  "neeru fireblade"
+ ],
+ "related": [
+  "quest:829",
+  "quest:924",
+  "subzone:far-watch-post",
+  "subzone:dreadmist-peak",
+  "zone:barrens",
+  "topic:burning-legion"
+ ],
+ "attribution": [
+  "Ak'Zeloth (Classic)"
+ ]
+}

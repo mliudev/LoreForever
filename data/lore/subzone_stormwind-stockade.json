@@ -1,0 +1,96 @@
+{
+ "key": "subzone:stormwind-stockade",
+ "type": "subzone",
+ "name": "Stormwind Stockade",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Stormwind Stockade"
+ },
+ "summary": "Tucked away beneath the canals along the northern edge of the Mage Quarter, the Stockade serves as Stormwind's high-security penitentiary. Intended to lock away murderers, political dissidents, and foreign enemies, the subterranean fortress has recently collapsed into total chaos following a coordinated inmate rebellion.",
+ "sections": [
+  {
+   "title": "A Prison Under Siege",
+   "body": "Ordinarily overseen by Warden Thelwater, the Stockade is where the kingdom deposits its most volatile prisoners, ranging from cutthroats and Defias operatives to captured Blackrock orcs and Dark Iron dwarves. However, a violent uprising orchestrated by the cunning Defias conspirator Bazil Thredd has entirely displaced the prison guards. The inmates now roam freely in the lower cells, turning the fortress into a fortress of riots. Thelwater, having barely secured the entry thresholds, relies on independent adventurers to plunge into the subterranean corridors and suppress the revolt before it spills out into the canals.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bureaucracy and Backroom Schemes",
+   "body": "The Stockade holds more than ordinary street convicts; it has long served as a bargaining chip for the kingdom's corrupt House of Nobles. Murderers and high-value prisoners who received death sentences elsewhere\u2014such as the graverobber Dextren Ward from Duskwood or the Blackrock warlord Targorr the Dread from Redridge\u2014have had their executions delayed by aristocratic interference to serve as political pawns. Even neighboring Ironforge has taken notice, covertly hiring mercenaries to execute dangerous inmates like Kam Deepfury when human bureaucracy stalls rightful justice.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the entrance to the Stockade located?",
+   "aliases": [
+    "stockade entrance",
+    "how to get to stockades",
+    "stockade location"
+   ],
+   "answer": "The entrance sits along the canal district in Stormwind City, tucked on the northern bend right next to the bridge leading into the Mage Quarter. A guarded doorway leads down a stone stairwell directly into the subterranean cells."
+  },
+  {
+   "q": "Who started the riot inside the prison?",
+   "aliases": [
+    "who is bazil thredd",
+    "who leads the stockade riot",
+    "who runs the stockade"
+   ],
+   "answer": "The revolt was planned and ignited by Bazil Thredd, a high-ranking Defias Brotherhood ringleader imprisoned within the compound. Under his command, the prisoners overpowered the guards, seized armaments, and established total control of the underground cellblocks."
+  },
+  {
+   "q": "Why are there orcs and Dark Iron dwarves in a Stormwind jail?",
+   "aliases": [
+    "why are there orcs in stockades",
+    "dark iron prisoners stockade"
+   ],
+   "answer": "Stormwind captures high-priority hostiles from across its contested territories. Notably, Targorr the Dread was seized from the Redridge Mountains, and Kam Deepfury represents the Dark Iron threat. Rather than being swiftly executed, many were brought here as military prisoners or kept alive by noble decree for political leverage."
+  },
+  {
+   "q": "Why are Duskwood and Redridge asking people to kill prisoners here?",
+   "aliases": [
+    "duskwood stockade quest",
+    "crime and punishment",
+    "what comes around"
+   ],
+   "answer": "Outlying settlements like Darkshire and Lakeshire sentenced criminals like Dextren Ward and Targorr the Dread to die, only to see the House of Nobles stay their executions. Frustrated by Stormwind's bureaucratic meddling, local leaders quietly enlist sellswords to bypass royal paperwork and finish the job."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Stockade sits directly in the capital, making its suppression vital to civil defense; clearing its halls exposes just how heavily the Defias Brotherhood has penetrated Stormwind."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The riot lays bare the operations of the Defias Brotherhood and Bazil Thredd, offering a glimpse into how deeply organized the criminal underworld has become right under the crown's nose."
+  }
+ ],
+ "keywords": [
+  "bazil thredd",
+  "canals",
+  "defias",
+  "dextren ward",
+  "kam deepfury",
+  "prison",
+  "riot",
+  "stockade",
+  "stormwind",
+  "targorr",
+  "warden thelwater"
+ ],
+ "related": [
+  "zone:stockade",
+  "zone:stormwind",
+  "npc:warden-thelwater",
+  "quest:389",
+  "quest:391",
+  "topic:defias-brotherhood",
+  "npc:targorr-the-dread",
+  "npc:dextren-ward"
+ ],
+ "attribution": [
+  "Stormwind Stockade"
+ ]
+}

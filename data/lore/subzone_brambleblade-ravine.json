@@ -1,0 +1,85 @@
+{
+ "key": "subzone:brambleblade-ravine",
+ "type": "subzone",
+ "name": "Brambleblade Ravine",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Brambleblade Ravine"
+ },
+ "summary": "Brambleblade Ravine is a rugged canyon cutting into the northeastern edge of Red Cloud Mesa. It serves as a fortified den for the Bristleback quilboar tribe, who persistently raid the nearby tauren settlement of Camp Narache. Young tauren braves are sent here to prove their strength and protect their homeland from these fierce interlopers.",
+ "sections": [
+  {
+   "title": "A Thorn in the Mesa's Side",
+   "body": "Carved into the sun-scorched earth of Red Cloud Mesa, Brambleblade Ravine is choked with dense, thorny briars and quilboar encampments. The Bristleback tribe uses this natural fortress as a staging ground for raids against Camp Narache, threatening the safety of young tauren coming of age. Bristleback shamans and warriors, led by Chief Sharptusk Thornmantle, dwell deep within the ravine among trained battleboars. For the Shu'halo, striking into the heart of the canyon is a crucial rite of passage and a grim necessity to secure the plains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Brambleblade Ravine?",
+   "aliases": [
+    "brambleblade ravine",
+    "what is brambleblade ravine",
+    "brambleblade mulgore"
+   ],
+   "answer": "Brambleblade Ravine is a canyon situated on the northeastern edge of Red Cloud Mesa in Mulgore. It is heavily inhabited by Bristleback quilboar and serves as their local stronghold."
+  },
+  {
+   "q": "Why are the Bristleback quilboar attacking from here?",
+   "aliases": [
+    "why quilboar attacking",
+    "bristleback motives",
+    "quilboar camp narache"
+   ],
+   "answer": "The Bristlebacks are fiercely territorial and view the presence of the tauren as an encroachment upon lands they claim. From Brambleblade Ravine, they launch frequent raids on the nearby settlement of Camp Narache."
+  },
+  {
+   "q": "Who leads the quilboar in Brambleblade Ravine?",
+   "aliases": [
+    "brambleblade leader",
+    "quilboar boss mulgore",
+    "chief sharptusk thornmantle"
+   ],
+   "answer": "The quilboar here are led by Chief Sharptusk Thornmantle, a formidable chieftain who resides in a large hut located towards the back of the ravine."
+  },
+  {
+   "q": "Why do young tauren travel to the ravine?",
+   "aliases": [
+    "tauren quests brambleblade",
+    "why go to brambleblade",
+    "camp narache quests"
+   ],
+   "answer": "Tauren elders and chieftains at Camp Narache task fledgling braves with entering the ravine to push back the Bristleback threat, cull their numbers, and defeat their leadership to keep the mesa safe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young tauren coming of age at Camp Narache, striking into Brambleblade Ravine is one of the very first tests of martial and spiritual endurance to defend the tribe."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Clearing out the aggressive Bristlebacks in Brambleblade Ravine helps solidify the Horde's early foothold across Mulgore."
+  }
+ ],
+ "keywords": [
+  "brambleblade",
+  "bristleback",
+  "camp narache",
+  "mulgore",
+  "quilboar",
+  "ravine",
+  "red cloud mesa",
+  "thornmantle"
+ ],
+ "related": [
+  "subzone:red-cloud-mesa",
+  "topic:quilboar",
+  "topic:tauren",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Brambleblade Ravine"
+ ]
+}

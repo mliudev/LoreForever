@@ -1,0 +1,122 @@
+{
+ "key": "quest:1881",
+ "type": "quest",
+ "name": "Speak with Anastasia",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   1881
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Cain Firesong",
+  "end": "Anastasia Hartwell",
+  "previous": null,
+  "next": "The Balnir Farmstead",
+  "wiki": "Speak with Anastasia",
+  "chain": [
+   "Speak with Anastasia",
+   "The Balnir Farmstead"
+  ]
+ },
+ "summary": "Speak with Anastasia is an introductory summons directing promising Forsaken mages to Anastasia Hartwell in the Undercity. Dispatched by mage trainer Cain Firesong, the young caster is called to the Magic Quarter to undertake critical work for the magi of the Forsaken. This brief summons sets the stage for investigations out into the blighted lands of Tirisfal Glades.",
+ "sections": [
+  {
+   "title": "A Call to the Magic Quarter",
+   "body": "As nascent spellcasters hone their early talents under the guidance of Cain Firesong, they are soon directed deeper into the capital. The mages of the Forsaken maintain a dedicated enclave within the Magic Quarter of the Undercity, organizing both arcane scholarship and strategic defensive efforts across Lordaeron. Cain Firesong acts as an evaluator, filtering out mere novices and sending those who demonstrate genuine talent directly to senior practitioners who require capable field hands.",
+   "spoiler": 0
+  },
+  {
+   "title": "Anastasia Hartwell's Ambition",
+   "body": "Anastasia Hartwell stands among the prominent mage instructors within the Undercity. Rather than leaving promising students to study trivial incantations in safety, she wastes little time pressing them into service for the Forsaken's territorial and practical interests. Answering her summons is both a rite of passage for arcane practitioners and an induction into the shadowy, pragmatic magical pursuits that define the post-Scourge undead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to speak with Anastasia Hartwell?",
+   "aliases": [
+    "who gives speak with anastasia",
+    "quest giver speak with anastasia",
+    "cain firesong summons"
+   ],
+   "answer": "Cain Firesong, a Forsaken mage trainer, sends you to her after recognizing that your arcane talents are developed enough to assist with more demanding matters within the capital."
+  },
+  {
+   "q": "Where can Anastasia Hartwell be found?",
+   "aliases": [
+    "where is anastasia hartwell",
+    "anastasia hartwell location",
+    "find anastasia"
+   ],
+   "answer": "Anastasia Hartwell resides in the Magic Quarter of the Undercity, where she coordinates and instructs practitioners of the arcane arts for the Forsaken."
+  },
+  {
+   "q": "What is the purpose of this summons?",
+   "aliases": [
+    "why does she want me",
+    "speak with anastasia purpose",
+    "what does anastasia need"
+   ],
+   "answer": "Anastasia is seeking a capable caster to perform practical tasks outside the city walls, starting with field assignments in Tirisfal Glades such as investigating the Balnir Farmstead."
+  },
+  {
+   "q": "What quest follows Speak with Anastasia?",
+   "aliases": [
+    "what quest comes next",
+    "next quest after speak with anastasia",
+    "speak with anastasia followup"
+   ],
+   "answer": "Reporting to Anastasia directly leads into 'The Balnir Farmstead', sending you back out into Tirisfal Glades to assist her associate Talen."
+  },
+  {
+   "q": "Is this quest limited to certain classes?",
+   "aliases": [
+    "is this a mage only quest",
+    "who can do speak with anastasia",
+    "class requirement"
+   ],
+   "answer": "Yes, this quest is specifically intended for mages of the Forsaken, serving as a class progression stepping stone as they reach early competence around circle ten."
+  },
+  {
+   "q": "Why do the Forsaken mages maintain their own quarters in Undercity?",
+   "aliases": [
+    "why magic quarter",
+    "forsaken mages undercity"
+   ],
+   "answer": "The Magic Quarter provides a dedicated sanctuary for Forsaken arcanists, warlocks, and researchers to study and cast away from the physical quarters, continuing their pre-Third War traditions within the underbelly of Lordaeron."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "This quest marks your transition from basic arcane training into active service for the mages of the Undercity."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For Forsaken arcanists, answering Hartwell's call represents an opportunity to leverage Lordaeron's intellectual past against its present perils."
+  }
+ ],
+ "keywords": [
+  "anastasia hartwell",
+  "balnir farmstead",
+  "cain firesong",
+  "mage quest",
+  "magic quarter",
+  "undercity"
+ ],
+ "related": [
+  "npc:anastasia-hartwell",
+  "npc:cain-firesong",
+  "quest:1882",
+  "subzone:magic-quarter",
+  "zone:undercity",
+  "npc:talen",
+  "subzone:balnir-farmstead",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Speak with Anastasia"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "subzone:howling-vale",
+ "type": "subzone",
+ "name": "Howling Vale",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Howling Vale"
+ },
+ "summary": "Tucked away in north-central Ashenvale near the Felwood border, the Howling Vale is a darkened dell overrun by savage, alien wolf-beasts known as the Terrowulf worgen. Hidden deep within its caves lies the ancient Shrine of Mel'Thandris, an Elune-blessed ruin tied intimately to the tragic origins of the worgen curse on Kalimdor.",
+ "sections": [
+  {
+   "title": "A Haunted Haven",
+   "body": "North of the road toward Felwood, the calm majesty of Ashenvale gives way to eerie, predatory howling. The vale shelters ancient trees alongside corrupted Terrowulf packlords and aggressive wildlife. At its heart lies a cave enshrining the memory of Mel'Thandris, an ancient night elf priestess. While the shrine once stood as a place of quiet devotion, its tranquil halls have fallen into ruined disrepair, defiled by feral wolf-men whose origin puzzles the Sentinels stationed nearby.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scythe and the Starsong Legacy",
+   "body": "During the ancient War of the Satyr, Mel'Thandris was entrusted with safeguarding the Scythe of Elune, a fateful artifact that bound away the feral Druids of the Scythe. After she fell in battle, her shrine sheltered the artifact for millennia. In recent times, the night elf Sentinel Velinde Starsong uncovered historical records in Darnassus, traveled here, and retrieved the Scythe. Her attempts to channel its power to fight demons inadvertently unleashed the worgen upon the surrounding woods, leaving the vale haunted by the very beasts she summoned.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is it called the Howling Vale?",
+   "aliases": [
+    "why howling vale",
+    "origin of howling vale name",
+    "why does it howl"
+   ],
+   "answer": "The vale earned its grim name from the chilling calls of the Terrowulf worgen who claimed it. Their constant, echoing howls reverberate through the canyon and cavern, drowning out the natural sounds of Ashenvale's canopy."
+  },
+  {
+   "q": "What is the Shrine of Mel'Thandris?",
+   "aliases": [
+    "shrine of melthandris",
+    "who was mel'thandris",
+    "melthandris shrine"
+   ],
+   "answer": "It is an ancient sanctuary dedicated to Elune and built in honor of Mel'Thandris, a night elf priestess who fought in the ancient War of the Satyr. Inscribed with Darnassian prayers, it served for millennia as the secret resting place of the Scythe of Elune."
+  },
+  {
+   "q": "Where did the worgen here come from?",
+   "aliases": [
+    "how did worgen get to ashenvale",
+    "terrowulf origin",
+    "why are worgen in ashenvale"
+   ],
+   "answer": "They were summoned by the Sentinel commander Velinde Starsong. After retrieving the Scythe of Elune from the shrine, she prayed to Elune for aid against the Burning Legion and was granted power over the wolf-beasts. Eventually, the creatures broke from her control and overran the vale."
+  },
+  {
+   "q": "What is the Tome of Mel'Thandris?",
+   "aliases": [
+    "tome of mel'thandris",
+    "tome in howling vale",
+    "melthandris book"
+   ],
+   "answer": "It is a sacred historical text resting at the shrine in the depths of the cave. Sentinel Melyria Frostshadow sends Alliance scouts to study the tome to understand the origins of the mysterious wolf-men plaguing the forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The defilement of Mel'Thandris's shrine and the tragic missteps of Velinde Starsong serve as a bitter reminder of the perils of meddling with forbidden, primal magics."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The feral packlords roaming the cave bear an ancient, cursed tie to forbidden shapeshifting traditions originating during the War of the Satyr."
+  }
+ ],
+ "keywords": [
+  "ashenvale worgen",
+  "howling vale",
+  "mel'thandris",
+  "scythe of elune",
+  "terrowulf",
+  "velinde starsong"
+ ],
+ "related": [
+  "quest:1022",
+  "quest:1037",
+  "zone:ashenvale",
+  "topic:worgen",
+  "topic:elune",
+  "topic:druid",
+  "npc:sentinel-melyria-frostshadow",
+  "zone:felwood"
+ ],
+ "attribution": [
+  "Howling Vale"
+ ]
+}

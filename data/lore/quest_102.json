@@ -1,0 +1,121 @@
+{
+ "key": "quest:102",
+ "type": "quest",
+ "name": "Patrolling Westfall",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   102
+  ],
+  "level": "14",
+  "faction": "Alliance",
+  "start": "Captain Danuvin",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Patrolling Westfall",
+  "chain": []
+ },
+ "summary": "Patrolling Westfall is a bounty quest issued by Captain Danuvin at Sentinel Hill. Frustrated by Stormwind's lack of military support, the local People's Militia recruits willing volunteers to cull the aggressive gnoll packs wandering the grasslands. Danuvin suspects these scavengers have aligned themselves with the thieves entrenched in the Deadmines.",
+ "sections": [
+  {
+   "title": "Abandoned by the Crown",
+   "body": "Sentinel Hill stands as the last organized line of defense in Westfall, but its garrison does not march under royal orders from Stormwind Keep. With the capital refusing to dispatch troops to safeguard the outer farmlands, the local populace organized into the People's Militia. Captain Danuvin, a former farmer himself, refuses to surrender his homeland. Without an official army, the militia relies heavily on passing travelers and adventurers to keep the perimeter from collapsing entirely.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scavengers of the Grasslands",
+   "body": "Gnolls have long lurked on the fringes of human civilization, but their growing audacity in Westfall is an immediate danger to the refugees and squatters clinging to survival. Worse still, Danuvin's scouts report that these feral packs appear to be working in coordination with the bandits operating out of the Deadmines. By sending hunters out to collect paws, Danuvin aims to suppress their expanding patrols and shatter whatever cooperation has formed between the beasts and the outlaws.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Captain Danuvin?",
+   "aliases": [
+    "captain danuvin",
+    "who is danuvin",
+    "quest giver sentinel hill"
+   ],
+   "answer": "Captain Danuvin is one of the defensive commanders stationed at Sentinel Hill. A former local farmer, he stepped up to lead volunteer defenders after Stormwind withdrew its official support, swearing never to abandon the citizens remaining in Westfall."
+  },
+  {
+   "q": "Why is the People's Militia fighting gnolls instead of Stormwind soldiers?",
+   "aliases": [
+    "why no stormwind army",
+    "where are stormwind guards",
+    "why militia"
+   ],
+   "answer": "The House of Nobles in Stormwind has largely turned a blind eye to Westfall's plight, leaving the region without royal soldiers. The displaced farmers and laborers had to form the People's Militia to defend their own land against bandits and wild beasts."
+  },
+  {
+   "q": "Are the gnolls in Westfall organized?",
+   "aliases": [
+    "are gnolls working with defias",
+    "gnoll alliance",
+    "deadmines thieves gnolls"
+   ],
+   "answer": "While gnolls are notoriously chaotic scavengers, Captain Danuvin notes troubling signs that these packs are coordinating with the thieves operating out of the Deadmines, effectively acting as an outer buffer for the criminal syndicate."
+  },
+  {
+   "q": "Why does Captain Danuvin ask for gnoll paws?",
+   "aliases": [
+    "why gnoll paws",
+    "paw bounty",
+    "proof of kills"
+   ],
+   "answer": "Bounties across the kingdoms require physical proof of confirmed kills. Gnoll paws serve as undeniable evidence that the roaming beasts have been permanently removed from the grasslands."
+  },
+  {
+   "q": "Where are the gnolls typically found?",
+   "aliases": [
+    "gnoll locations",
+    "where to find gnolls westfall"
+   ],
+   "answer": "Gnoll hunting parties and camps are scattered across the central and southern plains of Westfall, frequently roving the open fields around abandoned homesteads and near the hillsides."
+  },
+  {
+   "q": "What happens once the gnoll threat is pushed back?",
+   "aliases": [
+    "what next westfall",
+    "militia goal",
+    "breadbasket of stormwind"
+   ],
+   "answer": "The People's Militia hopes that by continuously thinning the ranks of gnolls and outlaws, the plains can eventually be reclaimed and restored to the prosperous breadbasket that once fed the kingdom."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This patrol highlights the deep political divide between the struggling rural peasantry of Westfall and the indifferent aristocracy presiding over Stormwind Keep."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans, witnessing Westfall's golden fields overrun by savage gnoll packs is a bitter reminder of how fragile the kingdom's recovery remains after the recent wars."
+  }
+ ],
+ "keywords": [
+  "danuvin",
+  "deadmines",
+  "gnolls",
+  "paws",
+  "peoples militia",
+  "sentinel hill",
+  "stormwind",
+  "westfall"
+ ],
+ "related": [
+  "npc:captain-danuvin",
+  "subzone:sentinel-hill",
+  "zone:westfall",
+  "quest:12",
+  "topic:gnoll",
+  "zone:deadmines",
+  "topic:stormwind-kingdom",
+  "subzone:deadmines"
+ ],
+ "attribution": [
+  "Patrolling Westfall"
+ ]
+}

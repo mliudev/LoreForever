@@ -1,0 +1,95 @@
+{
+ "key": "subzone:ragefire-chasm-classic",
+ "type": "subzone",
+ "name": "Ragefire Chasm (Classic)",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Ragefire Chasm (Classic)"
+ },
+ "summary": "Ragefire Chasm is a sprawling network of volcanic tunnels carved directly beneath Orgrimmar, accessible through the shadowy depths of the Cleft of Shadow. Despite being situated under the Horde's sovereign capital, these fiery caverns crawl with hostile troggs and a subversive coven of cultists loyal to the Shadow Council.",
+ "sections": [
+  {
+   "title": "A Hidden Peril",
+   "body": "Beneath the stone streets and fortified towers of Orgrimmar lies Ragefire Chasm, a treacherous network of magma-filled subterranean caverns. The tunnels recently became overrun by the savage Ragefire troggs, who pushed upward from deep subterranean fissures. Magatha Grimtotem of the tauren attempted peaceful diplomacy with the creatures, but her overtures were violently rejected. Left unchecked, the troggs threaten to tunnel further into the foundations of the city itself.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Searing Blade",
+   "body": "Far more dangerous than mindless troggs is the presence of the Searing Blade, an insurgent cult subordinate to the demonic Shadow Council. Led by the hulking felguard Taragaman the Hungerer, the orc warlock Jergosh the Invoker, and the corrupt satyr Bazzalan, these conspirators scheme to unravel everything Thrall's Horde has established in Durotar. Rather than immediately cleansing the caves, Warchief Thrall has maintained surveillance on their activities, hoping their foolish overconfidence will expose their masters higher up in the Shadow Council's hierarchy.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the entrance to Ragefire Chasm?",
+   "aliases": [
+    "where is ragefire",
+    "rfc entrance",
+    "how to get to rfc",
+    "where is rfc located"
+   ],
+   "answer": "The entrance portal is located deep within Orgrimmar, specifically in the subterranean canyon known as the Cleft of Shadow. It sits near the tent of the orc warlock Neeru Fireblade."
+  },
+  {
+   "q": "Why are there troggs beneath Orgrimmar?",
+   "aliases": [
+    "why are troggs here",
+    "ragefire troggs",
+    "orgrimmar troggs"
+   ],
+   "answer": "The troggs surfaced from ancient, deep cavern systems beneath Durotar, emerging directly into the volcanic underbelly of the city. Their sudden invasion poses a structural and physical hazard to the capital, refusing any attempts at peaceful containment."
+  },
+  {
+   "q": "Why does Thrall allow cultists to live under the capital?",
+   "aliases": [
+    "why doesn't thrall clear rfc",
+    "thrall shadow council",
+    "why is searing blade under orgrimmar"
+   ],
+   "answer": "Warchief Thrall is fully aware of the cult's presence beneath the city. Rather than launching a blunt assault that might cause the wider network to scatter, he allows them to operate under close watch in hopes they will inadvertently reveal the identity and whereabouts of the Shadow Council's true leadership."
+  },
+  {
+   "q": "Who leads the cultists inside the chasm?",
+   "aliases": [
+    "rfc bosses",
+    "who leads the searing blade",
+    "ragefire chasm leaders"
+   ],
+   "answer": "The Searing Blade inside Ragefire Chasm is commanded by three figures: Taragaman the Hungerer, a formidable felguard; Jergosh the Invoker, an orc warlock; and Bazzalan, a treacherous satyr."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Clearing Ragefire Chasm is a matter of homeland defense, securing the bedrock of Durotar against internal sabotage while rooting out demonic collaborators."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Elder Crone Magatha Grimtotem sent emissaries to sue for peace with the invading troggs; their bloody refusal proved diplomacy is impossible against these underground beasts."
+  }
+ ],
+ "keywords": [
+  "bazzalan",
+  "cleft of shadow",
+  "jergosh",
+  "ragefire chasm",
+  "rfc",
+  "searing blade",
+  "taragaman",
+  "troggs"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "subzone:cleft-of-shadow",
+  "npc:thrall",
+  "topic:shadow-council",
+  "npc:taragaman-the-hungerer",
+  "npc:jergosh-the-invoker",
+  "npc:bazzalan",
+  "quest:829"
+ ],
+ "attribution": [
+  "Ragefire Chasm (Classic)"
+ ]
+}

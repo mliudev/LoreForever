@@ -1,0 +1,96 @@
+{
+ "key": "subzone:scarlet-monastery",
+ "type": "subzone",
+ "name": "Scarlet Monastery",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Scarlet Monastery"
+ },
+ "summary": "Perched in the northeastern hills of Tirisfal Glades, the Scarlet Monastery was once a peaceful center of scholarship and worship for the Church of the Holy Light. In the wake of Lordaeron's fall, it has become a heavily fortified redoubt for the fanatical Scarlet Crusade. Anyone approaching without red colors is treated as an infected carrier of the plague and executed on sight.",
+ "sections": [
+  {
+   "title": "From Sanctuary to Stronghold",
+   "body": "Before the Third War, this complex was known simply as the Old Monastery. Under the stewardship of Lordaeron's priesthood and the patronage of noble houses, it served as a vital center for theological study, sacred archives, and paladin training. When the Kingdom of Lordaeron fell to the Scourge, surviving remnants of the Silver Hand reclaimed the site as a forward bastion to strike against the undead occupying Capital City. As the defenders devolved into the zealous Scarlet Crusade, they fortified the cloister, turning its peaceful libraries, gardens, and cathedral into an armed citadel.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bastion of Fanaticism",
+   "body": "Divided into four distinct wings\u2014a defiled graveyard, an expansive library, an armory, and a grand cathedral\u2014the Monastery now houses a massive garrison commanded by Scarlet Commander Mograine and High Inquisitor Whitemane. The Crusaders here view all outsiders, whether living or undead, Alliance or Horde, as plague-bearers. While the Forsaken seek to eliminate the garrison threatening their very doorstep, Alliance leadership increasingly views the Crusade's violent extremism as a dangerous perversion of the Light.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Scarlet Monastery here?",
+   "aliases": [
+    "what is scarlet monastery",
+    "why did they build monastery in tirisfal",
+    "monastery purpose"
+   ],
+   "answer": "It was originally built during the reign of Lordaeron as a peaceful sanctuary for study, housing sacred scriptures and training paladins. Surviving crusaders seized and fortified it after the kingdom fell to serve as a military staging ground against the undead in Tirisfal Glades."
+  },
+  {
+   "q": "Why does the Scarlet Crusade attack Alliance members?",
+   "aliases": [
+    "why are scarlet hostile to alliance",
+    "are scarlet crusade alliance",
+    "why do crusaders attack humans"
+   ],
+   "answer": "The Crusade's zealotry has spiraled into complete paranoia. They believe anyone who has traveled outside their secured compounds could be a carrier of the Scourge's plague of undeath, and they refuse to take chances with outsiders regardless of race or allegiance."
+  },
+  {
+   "q": "Who leads the forces within the Monastery?",
+   "aliases": [
+    "who is the boss of scarlet monastery",
+    "monastery leaders",
+    "who runs the scarlet crusade here"
+   ],
+   "answer": "The garrison is held by Scarlet Commander Mograine, who directs military operations from within the cathedral, and High Inquisitor Whitemane, a zealous priestess renowned for her devotion and resurrection powers."
+  },
+  {
+   "q": "What are the four wings of the complex?",
+   "aliases": [
+    "monastery sections",
+    "what wings are in scarlet monastery",
+    "monastery layout"
+   ],
+   "answer": "The complex is split into four distinct areas: the Graveyard, overrun by restless dead and torture chambers; the Library, preserving historical archives and tomes; the Armory, where the Crusade manufactures weapons and armor; and the Cathedral, the spiritual heart and commander's seat."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Monastery sits right on the Undercity's doorstep, making its heavily armed crusaders an active, existential threat to Forsaken territory."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The complex once trained paladins under the Silver Hand, making its corruption into an intolerant bastion of fanaticism a bitter sight for faithful holy warriors."
+  }
+ ],
+ "keywords": [
+  "armory",
+  "cathedral",
+  "graveyard",
+  "library",
+  "mograine",
+  "old monastery",
+  "scarlet crusade",
+  "scarlet monastery",
+  "tirisfal glades",
+  "whitemane"
+ ],
+ "related": [
+  "zone:scarlet",
+  "subzone:scarlet-monastery-cathedral",
+  "subzone:scarlet-monastery-armory",
+  "subzone:scarlet-monastery-library",
+  "subzone:scarlet-monastery-graveyard",
+  "npc:scarlet-commander-mograine",
+  "topic:scarlet-crusade",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Scarlet Monastery"
+ ]
+}

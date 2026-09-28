@@ -1,0 +1,93 @@
+{
+ "key": "subzone:camp-aparaje",
+ "type": "subzone",
+ "name": "Camp Aparaje",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Camp Aparaje"
+ },
+ "summary": "Camp Aparaje was once a peaceful tauren village nestled in the eastern heights of the Stonetalon Mountains. Today, it lies overrun and occupied by the hostile Grimtotem tribe, who slaughtered the original settlers and took the outpost for themselves.",
+ "sections": [
+  {
+   "title": "A Tragic Downfall",
+   "body": "Perched along the crags of the Stonetalon Mountains, Camp Aparaje was established by peaceful tauren looking to live quietly in the highlands. That tranquility was shattered when raiders from the nearby Grimtotem Post, led by Grundig Darkcloud, launched a brutal and unprovoked assault. The villagers were butchered or driven away, and survivors such as Makaba Flathoof were left mourning the destruction of their home while dreading the fate of captive kin.",
+   "spoiler": 0
+  },
+  {
+   "title": "Under Grimtotem Sway",
+   "body": "Now completely occupied by Grimtotem warriors, Camp Aparaje serves as a forward base of operations for the aggressive tribe in the region. Unlike typical Grimtotem settlements that fly blue markings, the great totem standing in Aparaje is carved with deep crimson paint, marking the bloody nature of its capture and the grim dominion of Grundig Darkcloud's brutes over the captured village.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who used to live at Camp Aparaje?",
+   "aliases": [
+    "who lived here",
+    "camp aparaje original villagers",
+    "makaba flathoof village"
+   ],
+   "answer": "Camp Aparaje was inhabited by peaceful tauren affiliated with the Horde and Bloodhoof tribe, including Makaba Flathoof and his daughter Kaya, before the settlement was invaded."
+  },
+  {
+   "q": "Why is the camp hostile to Horde players?",
+   "aliases": [
+    "why are tauren attacking me",
+    "who controls camp aparaje",
+    "why is camp aparaje red"
+   ],
+   "answer": "The village was violently seized by the Grimtotem tribe, a xenophobic and treacherous tauren clan that refuses allegiance to Cairne Bloodhoof and actively attacks outsiders, including members of the Horde."
+  },
+  {
+   "q": "Who led the assault on Camp Aparaje?",
+   "aliases": [
+    "who attacked aparaje",
+    "grundig darkcloud",
+    "who is the leader here"
+   ],
+   "answer": "The raid was spearheaded by Grundig Darkcloud, a brutal Grimtotem chieftain operating out of Grimtotem Post who seeks to expand his tribe's violent grip over Stonetalon."
+  },
+  {
+   "q": "What happened to the surviving villagers?",
+   "aliases": [
+    "kaya flathoof",
+    "where are the survivors",
+    "are there survivors"
+   ],
+   "answer": "Most inhabitants were killed during the raid. A few managed to flee, while others, like young Kaya Flathoof, were captured by the Grimtotem and held hostage within the occupied camp."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The ruins of Camp Aparaje serve as a bitter reminder of the cruelty of Magatha's Grimtotem tribe, proving that not all children of the Earth Mother share Cairne Bloodhoof's vision of honor and peace."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Clearing the Grimtotem from Camp Aparaje is a matter of vengeance and defense, ensuring the treacherous tribe is punished for butchering innocent Horde subjects in Stonetalon."
+  }
+ ],
+ "keywords": [
+  "camp aparaje",
+  "grimtotem",
+  "grimtotem post",
+  "grundig darkcloud",
+  "kaya flathoof",
+  "makaba flathoof",
+  "stonetalon"
+ ],
+ "related": [
+  "quest:6548",
+  "quest:6629",
+  "quest:6523",
+  "npc:makaba-flathoof",
+  "topic:grimtotem-tribe",
+  "zone:stonetalon",
+  "topic:tauren",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Camp Aparaje"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "key": "subzone:menethil-harbor",
+ "type": "subzone",
+ "name": "Menethil Harbor",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Menethil Harbor"
+ },
+ "summary": "Menethil Harbor is a heavily fortified dwarven port town perched on an island off the western shore of the Wetlands. Built over an old Orcish shipyard and named after King Terenas Menethil II, it acts as the primary maritime lifeline connecting the Eastern Kingdoms to the distant shores of Kalimdor. Sheltered behind massive stone battlements and the sturdy towers of Menethil Keep, it is a bustling hub for merchants, off-duty soldiers, and salty adventurers.",
+ "sections": [
+  {
+   "title": "A Port Carved from War",
+   "body": "The site of Menethil Harbor first served Warchief Orgrim Doomhammer during the Second War, when the Horde constructed an invasion armada out of timber and iron ransacked from Khaz Modan. After the orcs were routed, Grand Admiral Daelin Proudmoore oversaw the rebuilding of the anchorage into a premier Alliance haven, naming it in tribute to the late King Terenas Menethil II of Lordaeron. Despite its remote marshland setting, it remains a heavily defended bastion, reinforced by massive walls, a single bridged causeway, and the four stone watchtowers of Menethil Keep.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gateway Across the Great Sea",
+   "body": "Today, the harbor is the grand crossroads of the Alliance. Ships steam continually across the ocean toward Theramore Isle in Dustwallow Marsh and Auberdine in darkshore, carrying trade, diplomats, and off-duty Kul Tiran marines blowing their wages at the Deepwater Tavern. Yet peace is fragile here: inland supply paths through Dun Algaz are regularly contested by the Dragonmaw clan, while hostile Dark Iron raiders pressure the northern marshes, leaving Captain Stoutfist and the harbor garrison on constant alert.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do the ships in Menethil Harbor sail to?",
+   "aliases": [
+    "menethil harbor boat",
+    "where does the boat go",
+    "menethil ferries",
+    "kalimdor boats"
+   ],
+   "answer": "Vessels departing the docks of Menethil Harbor cross the Great Sea to the continent of Kalimdor. Scheduled passenger ships run regular routes to Theramore Isle in Dustwallow Marsh and north to the night elven haven of Auberdine."
+  },
+  {
+   "q": "Who rules Menethil Harbor?",
+   "aliases": [
+    "who is in charge of menethil",
+    "menethil harbor leader",
+    "who leads menethil"
+   ],
+   "answer": "Menethil Harbor operates as an Alliance settlement under the authority of Ironforge. Captain Stoutfist commands the town guard and coordinates harbor defense out of Menethil Keep, keeping the docks secure from swamp beasts, renegade orcs, and inland raiders."
+  },
+  {
+   "q": "Why is the town named Menethil?",
+   "aliases": [
+    "why menethil harbor",
+    "menethil name origin",
+    "who is menethil"
+   ],
+   "answer": "The harbor was named by Grand Admiral Daelin Proudmoore after the Second War in tribute to King Terenas Menethil II of Lordaeron, whose leadership united the human, dwarven, and elven realms into the original Alliance of Lordaeron."
+  },
+  {
+   "q": "What threats does the harbor face right now?",
+   "aliases": [
+    "is menethil harbor in danger",
+    "menethil threats",
+    "wetlands orcs menethil"
+   ],
+   "answer": "The harbor faces persistent danger from the Dragonmaw clan lurking in the Wetlands hills, who regularly try to cut off the pass through Dun Algaz to starve the port of reinforcements. Dark Iron incursions to the north near Dun Modr and marauding raptors add to the garrison's troubles."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For any Alliance traveler journeying west, Menethil Harbor is the vital staging ground and sole maritime bridge linking the Eastern Kingdoms to Theramore and Kalimdor."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Though bearing a human king's name, this port is maintained primarily by dwarven stonework and manned by Ironforge guards holding the outer threshold of Khaz Modan."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "boat",
+  "deepwater",
+  "docks",
+  "ferry",
+  "harbor",
+  "menethil",
+  "stoutfist",
+  "theramore",
+  "wetlands"
+ ],
+ "related": [
+  "zone:wetlands",
+  "subzone:menethil-keep",
+  "subzone:deepwater-tavern",
+  "subzone:theramore-isle",
+  "subzone:auberdine",
+  "npc:captain-stoutfist",
+  "topic:terenas-menethil-ii",
+  "subzone:dun-algaz"
+ ],
+ "attribution": [
+  "Menethil Harbor"
+ ]
+}

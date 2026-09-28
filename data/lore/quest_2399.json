@@ -1,0 +1,119 @@
+{
+ "key": "quest:2399",
+ "type": "quest",
+ "name": "The Sprouted Fronds",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   2399
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Sprouted Frond",
+  "end": "",
+  "previous": "The Shimmering Frond",
+  "next": null,
+  "wiki": "The Sprouted Fronds",
+  "chain": []
+ },
+ "summary": "Following Denalan's botanical experiments at Wellspring Lake, the planted frond seeds take root and bloom. This quiet moment marks a successful harvest in understanding Teldrassil's strange and vital flora. Travelers inspecting the garden beds can witness the rapid growth firsthand.",
+ "sections": [
+  {
+   "title": "A Garden by Wellspring Lake",
+   "body": "Tucked away near Wellspring Lake, the botanist Denalan dedicates himself to cataloging the peculiar plant life of Teldrassil. After sowing the seeds recovered from a mysterious shimmering frond, the soil quickly yields result. In his tended planter, strange, trembling fronds shoot up from the rich loam, eager to be gathered and examined.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Strange Flora of the World Tree",
+   "body": "Teldrassil is young, vast, and teeming with rapid natural development that both fascinates and troubles night elf herbalists. The shimmering fronds and their sprouted offshoots are emblematic of how swiftly life takes hold on the boughs of the great tree, hinting at the powerful yet unpredictable vitality woven into the island's soil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the sprouted fronds?",
+   "aliases": [
+    "sprouted fronds",
+    "what are these plants",
+    "denalans fronds"
+   ],
+   "answer": "They are the mature plants that sprouted from seeds sown by Denalan at his lakeside camp. Cultivated from the shimmering fronds found elsewhere in Teldrassil, these peculiar plants tremble with energy when ready for harvest."
+  },
+  {
+   "q": "Where is Denalan's garden located?",
+   "aliases": [
+    "denalan location",
+    "where is denalan",
+    "wellspring lake garden"
+   ],
+   "answer": "Denalan keeps his garden and research camp along the southern shores of Wellspring Lake, situated in the central wilds of Teldrassil."
+  },
+  {
+   "q": "Why does Denalan plant these fronds?",
+   "aliases": [
+    "why plant fronds",
+    "denalan experiment",
+    "purpose of fronds"
+   ],
+   "answer": "Denalan studies the curious and rapid growth patterns of Teldrassil's plant life. By planting seeds in controlled soil, he investigates their nature and tests whether they possess useful restorative or herbal properties."
+  },
+  {
+   "q": "Are the sprouted fronds dangerous?",
+   "aliases": [
+    "are fronds dangerous",
+    "do fronds attack",
+    "is the plant harmful"
+   ],
+   "answer": "No. Unlike some of the corrupted or hostile flora elsewhere on the boughs of Teldrassil, these sprouted fronds are harmless botanical specimens waiting to be plucked."
+  },
+  {
+   "q": "What comes before this quest?",
+   "aliases": [
+    "prereq for sprouted fronds",
+    "what quest comes first"
+   ],
+   "answer": "Adventurers first discover a shimmering frond in the wilds of Teldrassil and bring it to Denalan, who plants the seeds in his garden planter to await their sprouting."
+  },
+  {
+   "q": "Why do the fronds tremble?",
+   "aliases": [
+    "trembling fronds",
+    "why do they shake"
+   ],
+   "answer": "The soil and magic coursing through Teldrassil imbue native plants with vibrant, restless energy. The fronds tremble as a sign of their vitality and readiness to be harvested."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Denalan's research reflects the practical arts of gathering and studying Teldrassil's unique vegetation, demonstrating how quickly local seeds adapt to nurtured soil."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Tending the newly sprouted flora reflects the kaldorei responsibility to monitor and nurture the life taking root across their young World Tree."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids observing Denalan's planter can appreciate the quiet balance of nature, seeing life flourish under attentive care even amid Teldrassil's growing perils."
+  }
+ ],
+ "keywords": [
+  "denalan",
+  "herbalism",
+  "planter",
+  "seeds",
+  "shimmering frond",
+  "sprouted fronds",
+  "teldrassil",
+  "wellspring lake"
+ ],
+ "related": [
+  "quest:931",
+  "npc:denalan",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "The Sprouted Fronds"
+ ]
+}

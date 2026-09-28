@@ -1,0 +1,91 @@
+{
+ "key": "subzone:great-lift",
+ "type": "subzone",
+ "name": "Great Lift",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Great Lift"
+ },
+ "summary": "The Great Lift is a massive, tauren-engineered elevator system perched on the southern edge of the Barrens. It serves as the primary route lowering travelers and supplies hundreds of feet into the sheer canyon basin of Thousand Needles. Despite its strategic value, aggressive quilboar encroaching through the southern wastes have made approaching the rim increasingly perilous.",
+ "sections": [
+  {
+   "title": "A Gateway Carved from Wood and Rope",
+   "body": "Spanning the sheer cliff edge between the southern Barrens and the canyon floor of Thousand Needles, the Great Lift stands as a marvel of practical tauren construction. Built using heavy timber, braided rope, and counterweighted pulleys, its paired platforms carry caravans, couriers, and warriors safely across a vertical precipice that would otherwise break any wagon. At the top and bottom platforms, tauren like Brave Moonhorn and Grish Longrunner maintain watch, keeping travelers informed of the road ahead and ensuring cargo passes smoothly.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dangers at the Rim",
+   "body": "Operating the lift has become increasingly hazardous due to the hostile territory above it. Aggressive quilboar tribes in the southern Barrens have expanded aggressively southward, choking the road toward the lift and threatening to cut off Thousand Needles from the northern trails entirely. Those who make the long journey south must constantly fend off razorfen raiders before they can ever step foot onto the wooden platforms.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who built the Great Lift?",
+   "aliases": [
+    "who made the great lift",
+    "great lift builders",
+    "tauren elevator origin"
+   ],
+   "answer": "The Great Lift was designed and constructed by the tauren to bridge the massive vertical gap between the arid plateaus of the Barrens and the deep canyon floor of Thousand Needles."
+  },
+  {
+   "q": "Why is traveling to the lift dangerous?",
+   "aliases": [
+    "why are there quilboar here",
+    "southern barrens danger",
+    "lift road blocked"
+   ],
+   "answer": "The encroaching quilboar of the southern Barrens have aggressively expanded their territory toward the rim. Their raiding parties prowl the approaches, often harassing or outright ambushing supply caravans and couriers bound for the elevator platforms."
+  },
+  {
+   "q": "Who watches over the Great Lift?",
+   "aliases": [
+    "who guards the lift",
+    "lift keepers",
+    "tauren at the lift"
+   ],
+   "answer": "Brave Moonhorn and Grish Longrunner are stationed at the lift to watch the routes, assist Horde travelers, and keep an eye on the surrounding wilderness."
+  },
+  {
+   "q": "Where does the Great Lift lead?",
+   "aliases": [
+    "where does lift go",
+    "what is below the lift",
+    "lift destination"
+   ],
+   "answer": "Riding the platforms down brings travelers onto the canyon floor of Thousand Needles, while ascending leads straight into the southern Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The lift is a vital Horde arterial link connecting central Kalimdor to the isolated reaches of Thousand Needles and Shimmering Flats."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Constructed with sturdy timber and counterweights, the lift showcases your people's ingenious ability to overcome rugged landscape obstacles without scarring the earth."
+  }
+ ],
+ "keywords": [
+  "brave moonhorn",
+  "elevator",
+  "great lift",
+  "grish longrunner",
+  "quilboar",
+  "the barrens",
+  "thousand needles"
+ ],
+ "related": [
+  "zone:thousandneedles",
+  "zone:barrens",
+  "npc:brave-moonhorn",
+  "npc:grish-longrunner",
+  "topic:tauren",
+  "topic:quilboar"
+ ],
+ "attribution": [
+  "Great Lift"
+ ]
+}

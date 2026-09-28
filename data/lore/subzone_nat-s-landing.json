@@ -1,0 +1,93 @@
+{
+ "key": "subzone:nat-s-landing",
+ "type": "subzone",
+ "name": "Nat's Landing",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Nat's Landing"
+ },
+ "summary": "Nat's Landing is a modest fishing outpost nestled along the shores of Dustwallow Bay in Dustwallow Marsh. It serves as the personal camp and retreat of Nat Pagle, widely regarded as the most famous angler on Azeroth. Adventurers from across the world seek out this humble dock to hone their mastery of the fishing craft.",
+ "sections": [
+  {
+   "title": "A Master's Haven",
+   "body": "Tucked away southwest of Theramore Isle along the murky waters of Dustwallow Bay, Nat's Landing is little more than a weathered campsite. It consists of a simple canvas tent, drying racks heavy with the day's catch, extra tackle hung from trees, and a rickety wooden pier jutting into the bay. Despite the mists and hazards of the swamp, this quiet patch of shoreline provides the legendary angler Nat Pagle with a solitary place to cast his line and enjoy a quiet drink away from civilization's clamor.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fisherman's Pilgrimage",
+   "body": "Though unassuming at a glance, the landing is an essential stop for aspiring anglers. Fishermen who have exhausted the teachings of standard trainers in Ironforge, Orgrimmar, or elsewhere are directed here to prove their worth directly to Nat. Pagle cares nothing for politics or factional squabbles; any angler who braves the marshland predators to reach his dock must demonstrate patience and skill across the world's most perilous waters to earn his highest instruction.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Nat's Landing located?",
+   "aliases": [
+    "where is nats landing",
+    "nats landing location",
+    "how to get to nats landing"
+   ],
+   "answer": "Nat's Landing is situated on a small coastal outcrop along the waters of Dustwallow Bay, in the eastern stretches of Dustwallow Marsh just southwest of Theramore Isle."
+  },
+  {
+   "q": "Who lives at Nat's Landing?",
+   "aliases": [
+    "who is at nats landing",
+    "nats landing npc",
+    "who lives here"
+   ],
+   "answer": "The landing is the personal campsite of Nat Pagle, the renowned human angler who spends his days fishing off the pier with a drink in hand."
+  },
+  {
+   "q": "Why do anglers travel here?",
+   "aliases": [
+    "why come to nats landing",
+    "artisan fishing trainer",
+    "nat pagle training"
+   ],
+   "answer": "When anglers have mastered all their local trainers can teach them in major capitals, they are sent to Nat Pagle. He tests their dedication with challenging catches around the world before granting them artisan-level instruction."
+  },
+  {
+   "q": "Does Nat Pagle welcome both Alliance and Horde?",
+   "aliases": [
+    "is nats landing hostile",
+    "can horde talk to nat",
+    "is nat pagle neutral"
+   ],
+   "answer": "Yes. Nat Pagle is neutral toward dedicated anglers, welcoming both Alliance travelers from Theramore and Horde travelers venturing in from the Barrens, regardless of faction loyalties."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance citizens stationed in Theramore, Nat's Landing is a short, quiet walk down the coast, offering easy access to the world's premier fisherman."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde anglers trekking across the perilous swamp from the Barrens will find Nat indifferent to the war, judging visitors solely by the quality of their cast."
+  }
+ ],
+ "keywords": [
+  "angler",
+  "dock",
+  "dustwallow bay",
+  "dustwallow marsh",
+  "fishing",
+  "nat pagle",
+  "nats landing",
+  "theramore"
+ ],
+ "related": [
+  "npc:nat-pagle",
+  "zone:dustwallow",
+  "subzone:dustwallow-bay",
+  "quest:6608",
+  "subzone:zul-gurub",
+  "zone:ironforge",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Nat's Landing"
+ ]
+}

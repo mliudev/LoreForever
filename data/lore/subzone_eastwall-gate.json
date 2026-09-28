@@ -1,0 +1,87 @@
+{
+ "key": "subzone:eastwall-gate",
+ "type": "subzone",
+ "name": "Eastwall Gate",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Eastwall Gate"
+ },
+ "summary": "Eastwall Gate is a fortified side entrance set into the perimeter wall of the fallen city of Stratholme. Located in the northern reaches of the Eastern Plaguelands, it offers a direct secondary access point into Stratholme's interior ruins, bypassing the chaos of the city's main gates.",
+ "sections": [
+  {
+   "title": "The Back Door to Ruin",
+   "body": "While the grand main entrance of Stratholme opens directly onto King's Square, the Eastwall Gate pierces the city's eastern fortifications. Barred securely against intruders, this gateway leads straight into Elders' Square, close by the steps of Alonsus Chapel. For those venturing into the burning heart of the Scourge stronghold, bypassing the front barricades can mean the difference between a swift strike into the city's depths and a meatgrinder assault through the forward undead lines.",
+   "spoiler": 0
+  },
+  {
+   "title": "Through the Iron Lattice",
+   "body": "Gaining entry through the Eastwall Gate is no simple matter. It is sealed tightly by heavy ironwork that requires the Key to the City, recovered from inside Stratholme itself, or an exceptionally skilled infiltrator capable of picking masterwork locks. Once past the threshold, a heavy mechanical lever mounted on the inner wall allows travelers to raise the portcullis from the inside, opening a reliable path for allies to follow.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Eastwall Gate lead?",
+   "aliases": [
+    "where does eastwall gate go",
+    "eastwall gate destination",
+    "what is behind eastwall gate"
+   ],
+   "answer": "The gate opens into Elders' Square within the ruined city of Stratholme. It stands in close proximity to the historic Alonsus Chapel."
+  },
+  {
+   "q": "How can the gate be opened?",
+   "aliases": [
+    "how to open eastwall gate",
+    "unlock eastwall gate",
+    "eastwall gate key"
+   ],
+   "answer": "The Eastwall Gate is firmly locked. It can be opened using the Key to the City found within Stratholme, or picked by an expert rogue who has mastered lockpicking. Once inside, an inner lever can raise the gate manually."
+  },
+  {
+   "q": "Why would adventurers use this entrance over the main gate?",
+   "aliases": [
+    "why use eastwall gate",
+    "side entrance benefits",
+    "why side gate stratholme"
+   ],
+   "answer": "Entering through the Eastwall Gate allows strike teams to bypass the heavily infested front streets and begin their assault directly near Elders' Square, providing quicker access to specific quarters of the city."
+  },
+  {
+   "q": "Can you open the gate from the inside?",
+   "aliases": [
+    "lever inside eastwall gate",
+    "open eastwall gate from inside"
+   ],
+   "answer": "Yes. A lever located on the inner Stratholme side of the gate allows anyone inside to lift the gate and let others through without using a key."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The sturdy lock of the Eastwall Gate demands the absolute pinnacle of lockpicking skill, making a master rogue invaluable for bypassing the front entrance without the Key to the City."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Passing through the Eastwall Gate puts crusaders immediately near Alonsus Chapel, a holy sanctuary now surrounded by the ashes and horrors of the Scourge."
+  }
+ ],
+ "keywords": [
+  "alonsus chapel",
+  "eastern plaguelands",
+  "eastwall gate",
+  "elders' square",
+  "key to the city",
+  "portcullis",
+  "side entrance",
+  "stratholme"
+ ],
+ "related": [
+  "subzone:stratholme",
+  "zone:easternplaguelands"
+ ],
+ "attribution": [
+  "Eastwall Gate"
+ ]
+}

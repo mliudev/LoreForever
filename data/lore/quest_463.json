@@ -1,0 +1,115 @@
+{
+ "key": "quest:463",
+ "type": "quest",
+ "name": "The Greenwarden",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   463
+  ],
+  "level": "21",
+  "faction": "Alliance",
+  "start": "First Mate Fitzsimmons",
+  "end": "Rethiel the Greenwarden",
+  "previous": null,
+  "next": "Tramping Paws",
+  "wiki": "The Greenwarden",
+  "chain": []
+ },
+ "summary": "\"The Greenwarden\" is an Alliance breadcrumb quest directing travelers deeper into the marshes of the Wetlands. Sent by First Mate Fitzsimmons from Menethil Harbor, adventurers venture northeast into the swamp to seek out a mysterious entity rumored to dwell among the beasts.",
+ "sections": [
+  {
+   "title": "Tavern Rumors and Bog Tales",
+   "body": "Around the docks of Menethil Harbor, sailors and wanderers trade breathless stories of a beast lurking out in the swamp. First Mate Fitzsimmons paints the Greenwarden as an appetite with legs, warning gullible seekers that stepping off the dry road means being bitten in two by 'ol' Greenie.' To the dockside folk, anything massive lurking out in the murky waters is just another man-eating hazard of the marsh.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Guardian of the Marsh",
+   "body": "Those brave enough to heed the directions east of the fork toward Dun Modr find that the tavern tales missed the mark entirely. The Greenwarden is no mindless carnivore, but Rethiel, a towering ancient protector bound to the wild growth of the wetlands. Far from devouring wandering fools, Rethiel watches the sorrow of the spoiled land and enlists willing mortals to cleanse the blighted marsh.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the Greenwarden?",
+   "aliases": [
+    "who is greenwarden",
+    "greenwarden identity",
+    "who is rethiel"
+   ],
+   "answer": "The Greenwarden is Rethiel, an ancient nature guardian residing in the Wetlands. While coastal sailors think he is a savage monster, he is actually a wise protector attuned to the plants and wildlife."
+  },
+  {
+   "q": "Where can I find the Greenwarden?",
+   "aliases": [
+    "greenwarden location",
+    "where is rethiel",
+    "greenwarden coordinates"
+   ],
+   "answer": "Rethiel is located in the marshlands east of the main road, near the fork that branches toward Dun Modr in the northern Wetlands."
+  },
+  {
+   "q": "Why does First Mate Fitzsimmons think the Greenwarden is dangerous?",
+   "aliases": [
+    "why is fitzsimmons scared",
+    "is the greenwarden evil"
+   ],
+   "answer": "Fitzsimmons only knows the tavern rumors and superstitions of Menethil Harbor. Because the Wetlands are overrun with beasts, sailors assume any giant entity dwelling among crocodiles and predators is simply another man-eating brute."
+  },
+  {
+   "q": "What does Rethiel want with travelers?",
+   "aliases": [
+    "what does the greenwarden do",
+    "rethiel purpose",
+    "why meet the greenwarden"
+   ],
+   "answer": "Rethiel seeks champions to tend to the Wetlands, which he describes as weeping from festered wounds. He directs visitors to protect the wildlife and quell threats destabilizing the local ecosystem."
+  },
+  {
+   "q": "What happens after finding the Greenwarden?",
+   "aliases": [
+    "next quest after greenwarden",
+    "tramping paws quest"
+   ],
+   "answer": "Once you speak with Rethiel, he acknowledges that nature speaks well of you and gives you the quest 'Tramping Paws' to help address the troubles afflicting the marsh."
+  },
+  {
+   "q": "Does this quest require fighting anything to complete?",
+   "aliases": [
+    "greenwarden combat",
+    "do i fight greenwarden"
+   ],
+   "answer": "No. The quest simply requires surviving the trek through the Wetlands and speaking directly with Rethiel at his grove in the marsh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "While common dockworkers view Rethiel as a swamp monster, druids immediately recognize the presence of an ancient guardian attuned to the natural balance."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Night elves traveling far from Kalimdor find a familiar, comforting echo of nature's ancient wardens residing even in the damp, muddy soils of Khaz Modan."
+  }
+ ],
+ "keywords": [
+  "dun modr",
+  "fitzsimmons",
+  "greenwarden",
+  "menethil",
+  "rethiel",
+  "tramping paws",
+  "wetlands"
+ ],
+ "related": [
+  "npc:rethiel-the-greenwarden",
+  "npc:first-mate-fitzsimmons",
+  "quest:276",
+  "zone:wetlands",
+  "subzone:dun-modr"
+ ],
+ "attribution": [
+  "The Greenwarden"
+ ]
+}

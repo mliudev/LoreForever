@@ -1,0 +1,116 @@
+{
+ "key": "quest:92465",
+ "type": "quest",
+ "name": "Agitators",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92465
+  ],
+  "level": "3",
+  "faction": null,
+  "start": "Yala Windwatcher",
+  "end": "",
+  "previous": "Elemental Unrest (quest) (optional)",
+  "next": "Return to Rorian",
+  "wiki": "Agitators",
+  "chain": []
+ },
+ "summary": "Agitators is an early task on Zephras Isle issued by Yala Windwatcher. The aggressive Al'Aketh cult has pushed into Thendal Grove, agitating the peaceful native wind sprites into hostile elementals. Adventurers are sent to disperse the roiling winds and clear out the cultist converts threatening the area.",
+ "sections": [
+  {
+   "title": "Disturbing the Grove",
+   "body": "Thendal Grove has fallen under the shadow of the Al'Aketh cult. Known for their unsettling designs on Zephras Isle, the cultists have encroached on the grove and actively riled the delicate wind spirits dwelling there. Once peaceful sprites have turned violent, forming volatile roiling winds that threaten anyone passing through the region.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Painful Necessity",
+   "body": "Yala Windwatcher tasks passing champions with subduing both the enraged elementals and the Al'Aketh converts fomenting the unrest. While putting down the wind creatures restores a fragile calm to the grove, dealing with the cultists is a somber duty: Yala laments the shedding of shen'dorei blood among their own people, yet recognizes that the cult leaves little choice.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Agitators?",
+   "aliases": [
+    "quest giver",
+    "who starts agitators",
+    "yala windwatcher"
+   ],
+   "answer": "Yala Windwatcher offers the quest in the vicinity of Thendal Grove on Zephras Isle."
+  },
+  {
+   "q": "What is the Al'Aketh cult doing in Thendal Grove?",
+   "aliases": [
+    "what are cultists doing",
+    "why are alaketh here",
+    "alaketh convert purpose"
+   ],
+   "answer": "The Al'Aketh cult has moved into the grove and agitated the native wind spirits, driving the peaceful creatures into a hostile, violent frenzy."
+  },
+  {
+   "q": "What are the Roiling Winds?",
+   "aliases": [
+    "roiling winds",
+    "wind spirits",
+    "wind elementals in thendal grove"
+   ],
+   "answer": "They are simple, native wind sprites of Zephras Isle that have been stirred up and corrupted into aggressive elemental whirlwinds by the Al'Aketh cultists."
+  },
+  {
+   "q": "Why is Yala Windwatcher saddened by killing the converts?",
+   "aliases": [
+    "why does yala regret killing",
+    "shedding shendorei blood",
+    "yala completion quote"
+   ],
+   "answer": "Yala laments having to shed shen'dorei blood in the grove, showing that the Al'Aketh converts belong to their own people who have fallen sway to dangerous cult teachings."
+  },
+  {
+   "q": "What quest follows Agitators?",
+   "aliases": [
+    "what quest is next",
+    "agitators follow up",
+    "where do i go after agitators"
+   ],
+   "answer": "After finishing Agitators for Yala Windwatcher, you are directed to continue your duties in the quest Return to Rorian."
+  },
+  {
+   "q": "Where does this conflict take place?",
+   "aliases": [
+    "agitators location",
+    "thendal grove zone",
+    "where is thendal grove"
+   ],
+   "answer": "The conflict is centered in Thendal Grove, located on the island of Zephras Isle."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Witnessing natural wind sprites driven to violent frenzy by cultist meddling is an offense against elemental balance that demands intervention."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The desecration of Thendal Grove's natural harmony by rogue cultists makes the defense of its native spirits an urgent priority."
+  }
+ ],
+ "keywords": [
+  "agitators",
+  "al'aketh",
+  "al'aketh convert",
+  "roiling winds",
+  "shen'dorei",
+  "thendal grove",
+  "yala windwatcher",
+  "zephras isle"
+ ],
+ "related": [
+  "zone:zephras",
+  "quest:92469"
+ ],
+ "attribution": [
+  "Agitators"
+ ]
+}

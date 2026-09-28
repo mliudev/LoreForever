@@ -1,0 +1,73 @@
+{
+ "key": "subzone:karnum-s-glade",
+ "type": "subzone",
+ "name": "Karnum's Glade",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Karnum's Glade"
+ },
+ "summary": "Karnum's Glade is a sheltered Cenarion Circle refuge tucked within the Cenarion Wildlands of central Desolace. Overseen by the druid Karnum Marshweaver, the oasis serves as a crucial base of operations for druidic efforts to coax life back into the barren wastes.",
+ "sections": [
+  {
+   "title": "A Beacon in the Barrens",
+   "body": "Amid the ash and fractured stone of Desolace, Karnum's Glade stands as living proof that the ravaged land can be healed. Guided by the Cenarion Circle under the stewardship of Karnum Marshweaver, this verdant outpost nestles in the lush heart of the Cenarion Wildlands. Cenarion hippogryphs wheel through the skies overhead, while druids and nature spirits work tirelessly to spread vitality outward into the surrounding desolation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Karnum's Glade?",
+   "aliases": [
+    "what is this place",
+    "karnums glade lore",
+    "about karnum's glade"
+   ],
+   "answer": "It is an outpost and sanctuary tended by the Cenarion Circle, situated in the Cenarion Wildlands of central Desolace. It serves as a base for druids working to mend and revitalize the region."
+  },
+  {
+   "q": "Who is Karnum Marshweaver?",
+   "aliases": [
+    "who is karnum",
+    "karnum marshweaver"
+   ],
+   "answer": "Karnum Marshweaver is a druid of the Cenarion Circle who oversees the glade bearing his name, directing efforts to nurture flora and fauna in the surrounding wilderness."
+  },
+  {
+   "q": "Why is there lush green land in the middle of Desolace?",
+   "aliases": [
+    "why is it green here",
+    "cenarion wildlands green",
+    "oasis in desolace"
+   ],
+   "answer": "Desolace is largely a dead wasteland, but the Cenarion Circle has focused powerful nature magic here. Karnum's Glade and the surrounding Wildlands demonstrate that the earth can be coaxed back to health."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The glade represents the Cenarion Circle's deepest commitment: healing even the most broken lands through patience, care, and potent nature magic."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "cenarion wildlands",
+  "desolace",
+  "hippogryph",
+  "karnum marshweaver",
+  "karnum's glade"
+ ],
+ "related": [
+  "subzone:cenarion-wildlands",
+  "topic:cenarion-circle",
+  "zone:desolace",
+  "subzone:ethel-rethor",
+  "subzone:shadowprey-village",
+  "subzone:furien-s-post",
+  "subzone:thunk-s-abode",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Karnum's Glade"
+ ]
+}

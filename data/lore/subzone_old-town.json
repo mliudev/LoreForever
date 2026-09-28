@@ -1,0 +1,94 @@
+{
+ "key": "subzone:old-town",
+ "type": "subzone",
+ "name": "Old Town",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Old Town"
+ },
+ "summary": "Old Town is the oldest and grittiest quarter of Stormwind City, having largely survived the destruction of the First War intact. Rather than gleaming stone plazas, its narrow alleys feature weathered brick, working-class tenements, and bustling military facilities. It serves as home to the kingdom's military Command Center as well as the clandestine headquarters of SI:7.",
+ "sections": [
+  {
+   "title": "A Relic of the Old Kingdom",
+   "body": "While the rest of Stormwind was painstakingly rebuilt from the ground up by the Stonemasons following the First War, Old Town escaped total ruin. Because it did not require wholesale reconstruction, it never received the pristine marble facades and grand canals seen in the Trade District or Cathedral Square. Instead, it remains a rustic, crowded quarter where working folk, laborers, and the city's poorest residents reside. Its cobbled streets are narrower, dirtier, and far more chaotic than the rest of the capital, yet they preserve the authentic atmosphere of pre-war Stormwind.",
+   "spoiler": 0
+  },
+  {
+   "title": "Soldiers, Spies, and Taverns",
+   "body": "Behind its weathered tenements, Old Town functions as the martial backbone of the Alliance capital. The Command Center houses Stormwind's military officers, barracks, and combat trainers, alongside the Champions' Hall where the Alliance's finest warriors gather. Tucked away toward the district's edge sits the covert compound of SI:7, the kingdom's secretive intelligence agency led by Master Mathias Shaw. Off-duty footmen and shadowy operatives alike gather at the Pig and Whistle Tavern, rubbing shoulders in one of the city's liveliest watering holes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Old Town look so much dirtier than the rest of Stormwind?",
+   "aliases": [
+    "why is old town run down",
+    "old town poverty",
+    "why is old town gross"
+   ],
+   "answer": "Old Town largely survived the Horde's razing of Stormwind during the First War. Because it was not leveled, the Stonemasons did not rebuild it from scratch, meaning it missed out on the pristine new masonry and grand architecture granted to the rest of the city."
+  },
+  {
+   "q": "What is SI:7 and where is it located?",
+   "aliases": [
+    "si7 location",
+    "what is si:7",
+    "stormwind spies"
+   ],
+   "answer": "SI:7 is the secretive intelligence agency of Stormwind and the Alliance, overseen by Master Mathias Shaw. Their covert headquarters is tucked away in the back of Old Town, past the training yards and military stables."
+  },
+  {
+   "q": "What is the Command Center in Old Town used for?",
+   "aliases": [
+    "command center purpose",
+    "old town barracks",
+    "stormwind military headquarters"
+   ],
+   "answer": "The Command Center serves as the primary garrison and headquarters for Stormwind's military. Inside and around its yard, officers coordinate city defenses, while warriors and hunters train alongside stable masters and riding instructors."
+  },
+  {
+   "q": "Where is the tavern in Old Town?",
+   "aliases": [
+    "old town inn",
+    "pig and whistle location",
+    "where is pig and whistle"
+   ],
+   "answer": "The local watering hole is the Pig and Whistle Tavern, located near the center of the district. It is famous for hosting hungry soldiers, adventurers, and travelers looking for hearty cooking recipes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Old Town is your natural sanctuary in the capital; behind its ordinary alleys lies the headquarters of SI:7, where master spies and covert handlers offer guidance."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "The Command Center and Champions' Hall make Old Town the premier gathering place in Stormwind for battle-tested veterans seeking gear and combat training."
+  }
+ ],
+ "keywords": [
+  "champions hall",
+  "command center",
+  "first war",
+  "mathias shaw",
+  "old town",
+  "pig and whistle",
+  "si:7",
+  "stormwind"
+ ],
+ "related": [
+  "zone:stormwind",
+  "subzone:command-center",
+  "npc:mathias-shaw",
+  "subzone:pig-and-whistle-tavern",
+  "subzone:champions-hall",
+  "subzone:trade-district",
+  "subzone:dwarven-district",
+  "topic:first-war"
+ ],
+ "attribution": [
+  "Old Town"
+ ]
+}

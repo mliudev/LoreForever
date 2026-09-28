@@ -1,0 +1,120 @@
+{
+ "key": "quest:96391",
+ "type": "quest",
+ "name": "Underground Map",
+ "era": "forever",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   96391
+  ],
+  "level": "15",
+  "faction": null,
+  "start": "Dark Iron Map",
+  "end": "Earthseer Farsen",
+  "previous": "Nip 'Em in the Bud",
+  "next": "Old Ironforge Incursion",
+  "wiki": "Underground Map",
+  "chain": []
+ },
+ "summary": "Recovered from infiltrating spies near Ironband's Compound, the Underground Map reveals clandestine tunnel networks burrowing toward the roots of Ironforge. Its jagged Dark Iron runes outline a stealthy subterranean route piercing straight toward ancient chambers beneath the mountain. Delivering it to Earthseer Farsen marks the first step in uncovering an impending invasion below.",
+ "sections": [
+  {
+   "title": "A Blueprint of Infiltration",
+   "body": "The parchment recovered from Dark Iron spies near Ironband's Compound displays an intricate maze of subterranean roads. Inscribed in harsh, jagged runes unique to the Dark Iron clan, the diagrams map deep underground passages that converge directly beneath Ironforge. The purpose behind these excavated tunnels is unmistakably aggressive, demonstrating that the Dark Irons are actively charting a hidden back entrance right beneath the Bronzebeard capital.",
+   "spoiler": 0
+  },
+  {
+   "title": "Whispers on the Wind",
+   "body": "Upon studying the crude cartography, an unnatural gust of wind carries the faint murmur of a dwarven voice, urging swift action. The mystic prompt points straight to Earthseer Farsen. Reporting this intelligence exposes early movements toward the ancient halls sealed away deep below the city, threatening the sanctuary of the mountain kingdom.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where did this underground map come from?",
+   "aliases": [
+    "map drop",
+    "where find map",
+    "how to get underground map"
+   ],
+   "answer": "The map is carried by Dark Iron spies surveying the perimeter of Ironband's Compound in Dun Morogh. It can be found while dealing with their scouts in the foothills."
+  },
+  {
+   "q": "What does the map show?",
+   "aliases": [
+    "what is on the map",
+    "map details",
+    "dark iron map purpose"
+   ],
+   "answer": "It outlines a complex network of underground highways and newly dug tunnels snaking through the earth, all converging directly beneath the city of Ironforge."
+  },
+  {
+   "q": "Who is Earthseer Farsen?",
+   "aliases": [
+    "where is farsen",
+    "who is farsen",
+    "earthseer"
+   ],
+   "answer": "Earthseer Farsen is an earthen seer attuned to the deep rocks and spirits of the mountain. Sensing the unnatural subterranean movements, he requires the map to assess the breach beneath Ironforge."
+  },
+  {
+   "q": "Why are the Dark Irons tunneling under Ironforge?",
+   "aliases": [
+    "why dark iron tunneling",
+    "dark iron plot dun morogh"
+   ],
+   "answer": "The Dark Iron clan seeks a covert route into the ancient, forgotten underbelly of the city, aiming to bypass Ironforge's formidable surface defenses entirely."
+  },
+  {
+   "q": "What does this quest lead to?",
+   "aliases": [
+    "underground map follow up",
+    "next quest after underground map"
+   ],
+   "answer": "Delivering this map to Earthseer Farsen begins the investigative effort into the depths beneath the city, leading directly into the Old Ironforge Incursion and opening access toward the Hall of Thanes."
+  },
+  {
+   "q": "What language are the map's runes written in?",
+   "aliases": [
+    "map runes",
+    "dark iron language"
+   ],
+   "answer": "The annotations are inscribed in the jagged, severe runic script used by the Dark Iron dwarves, making it difficult for outsiders to translate without specialized knowledge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For Bronzebeard dwarves, discovering Dark Iron tunnels cutting directly toward Ironforge's foundation is a grave breach of the capital's territorial integrity."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The subtle gust of wind guiding you to Earthseer Farsen hints at elemental spirits warning of unnatural subterranean excavations beneath Dun Morogh."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Neutralizing this subterranean infiltration route is essential to preserving the security of Ironforge and the Alliance's northern anchor."
+  }
+ ],
+ "keywords": [
+  "dark iron map",
+  "dun morogh",
+  "earthseer farsen",
+  "hall of thanes",
+  "ironband's compound",
+  "ironforge",
+  "underground map"
+ ],
+ "related": [
+  "quest:96390",
+  "quest:96393",
+  "zone:hallofthanes",
+  "subzone:ironband-s-compound",
+  "zone:ironforge",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Underground Map"
+ ]
+}

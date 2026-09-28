@@ -1,0 +1,83 @@
+{
+ "key": "subzone:whispering-shore",
+ "type": "subzone",
+ "name": "Whispering Shore",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Whispering Shore"
+ },
+ "summary": "The Whispering Shore is a somber stretch of coastline in western Tirisfal Glades, resting just north of the Solliden Farmstead. Once a tranquil and bountiful retreat for Lordaeron's fishermen, its cold waters have since been overrun by a violent tribe of murlocs.",
+ "sections": [
+  {
+   "title": "A Ruined Haven",
+   "body": "Before the Third War swept across northern Lordaeron, the Whispering Shore was renowned among locals as a favored fishing haven, celebrated for its calm waters and plentiful catches. Today, the chilling spray of the Great Sea crashes against an empty coast stripped of its peaceful past. The waters have grown cold and dark, devoid of their former bounty, and any unfortunate traveler wandering down from the hills risks being ambushed by territorial coastal dwellers.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Murloc Menace",
+   "body": "The beach is now firmly claimed by a band of hostile murlocs who ruthlessly attack anyone approaching the surf. Led by a fierce chieftain named Muad, these aquatic scavengers guard the shallows and tidal flats aggressively, posing a constant danger to nearby roads and the nearby Solliden Farmstead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Whispering Shore located?",
+   "aliases": [
+    "whispering shore location",
+    "where is whispering shore",
+    "whispering shore map"
+   ],
+   "answer": "The Whispering Shore lies along the western coast of Tirisfal Glades, directly north of the Solliden Farmstead."
+  },
+  {
+   "q": "What used to be at the Whispering Shore before the Scourge?",
+   "aliases": [
+    "whispering shore history",
+    "what was whispering shore used for",
+    "whispering shore past"
+   ],
+   "answer": "In the days of the Kingdom of Lordaeron, the shore was a beloved and tranquil spot for local fishermen drawn to its rich coastal waters."
+  },
+  {
+   "q": "Who controls the Whispering Shore now?",
+   "aliases": [
+    "who lives on whispering shore",
+    "whispering shore enemies",
+    "whispering shore mobs"
+   ],
+   "answer": "A tribe of aggressive murlocs has taken over the coastline. They are led by a particularly vicious murloc chieftain named Muad, attacking anyone who strays near the water."
+  },
+  {
+   "q": "Can you still fish peacefully at the Whispering Shore?",
+   "aliases": [
+    "fishing at whispering shore",
+    "whispering shore fish"
+   ],
+   "answer": "The coastline is no longer the peaceful haven it once was. Its waters are cold and dark, having lost much of their former bounty, and hostile murlocs aggressively guard the shoreline."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken securing western Tirisfal Glades, the murloc infestation at Whispering Shore poses an unruly threat right along the perimeter of their holdings."
+  }
+ ],
+ "keywords": [
+  "coast",
+  "fishing",
+  "muad",
+  "murloc",
+  "solliden farmstead",
+  "tirisfal glades",
+  "whispering shore"
+ ],
+ "related": [
+  "zone:tirisfal",
+  "subzone:solliden-farmstead",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Whispering Shore"
+ ]
+}

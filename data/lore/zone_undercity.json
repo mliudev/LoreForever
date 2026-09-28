@@ -1,0 +1,131 @@
+{
+ "key": "zone:undercity",
+ "type": "city",
+ "name": "Undercity",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": [
+   "Undercity"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "Deep beneath the shattered ruins of Lordaeron's Capital City lies the Undercity, the dark stronghold of the Forsaken. Originally carved out of ancient royal crypts and dungeons by the Scourge, it was seized by Lady Sylvanas Windrunner and remade into an impenetrable subterranean sanctuary. Today it serves as the seat of Forsaken power and the Horde's vital bastion in the northern Eastern Kingdoms.",
+ "sections": [
+  {
+   "title": "From Royal Crypts to Scourge Redoubt",
+   "body": "Long before the plague swept Lordaeron, the catacombs, dungeons, and sewers beneath the palace were collectively known as the Undercity. It held the tombs of nobility, the kingdom's deepest prisons\u2014where the former Warchief Orgrim Doomhammer was once held before his escape\u2014and the poorest denizens of the realm. When Arthas Menethil murdered King Terenas and laid waste to the capital in 20 ADP, the prince ordered his undead servants to excavate and expand the subterranean passages into a fortified seat of Scourge rule.",
+   "spoiler": 0
+  },
+  {
+   "title": "Rise of the Forsaken",
+   "body": "The Scourge never saw their dark capital completed. When the Lich King's powers waned following the battle of Mount Hyjal, Lady Sylvanas Windrunner broke free from the hive mind, taking thousands of undead with her. She lured Arthas into an ambush and drove him back to Northrend. After a vicious three-way civil war against Scourge remnants, dreadlords, and human resistance, Sylvanas claimed the half-finished catacombs. Naming her people the Forsaken, she oversaw years of labor completing the sprawling subterranean city.",
+   "spoiler": 0
+  },
+  {
+   "title": "Architecture of the Damned",
+   "body": "The Undercity is laid out in concentric rings divided into functional quarters. At its heart lies the Trade Quarter, connected by great lifts to the palace ruins above. Surrounding it are the War Quarter, Rogues' Quarter, Magic Quarter, and the toxic Apothecarium, where the Royal Apothecary Society brews virulent plagues in green slime-filled canals. Deeper still lies the Royal Quarter, where the Banshee Queen holds court alongside her dreadlord commander, Varimathras, guarded by legions of towering abominations.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was the Undercity before the undead took it over?",
+   "aliases": [
+    "undercity origins",
+    "what was undercity originally",
+    "lordaeron sewers history"
+   ],
+   "answer": "Beneath the palace of Lordaeron lay the ancient crypts of human royalty, along with the city's dungeon complex and vast sewer network. It housed prisoners of war, including Orgrim Doomhammer, as well as destitute citizens living in the subterranean shadows. After sacking the capital, Prince Arthas began turning these catacombs into a Scourge fortress before Sylvanas captured them."
+  },
+  {
+   "q": "Why is the city built underground instead of on the surface?",
+   "aliases": [
+    "why live underground",
+    "why not rebuild lordaeron",
+    "why undercity beneath ruins"
+   ],
+   "answer": "The surface city of Lordaeron was utterly ruined during the Third War, making it difficult to defend against the Scarlet Crusade, Scourge forces, and Alliance survivors. The subterranean tunnels offered natural fortification, choke points, and secrecy, allowing the Forsaken to complete the Scourge's initial construction and thrive unseen."
+  },
+  {
+   "q": "Who rules the Undercity?",
+   "aliases": [
+    "who is leader of undercity",
+    "undercity ruler",
+    "who runs undercity"
+   ],
+   "answer": "The city is ruled by Lady Sylvanas Windrunner, the Banshee Queen and Queen of the Forsaken. She governs from the Royal Quarter, guarded by Forsaken royal sentries and her subjugated dreadlord lieutenant, Varimathras."
+  },
+  {
+   "q": "What is King Terenas's memorial in the ruins above?",
+   "aliases": [
+    "king terenas tomb",
+    "lordaeron throne room grave",
+    "who built the tomb above undercity"
+   ],
+   "answer": "Above the city's main lifts sits a stone memorial for the slain King Terenas Menethil II. It does not contain his body, as his corpse was cremated and his ashes discarded during Kel'Thuzad's resurrection. Surviving Alliance humans bravely carved the monument amidst the ruins so the memory of Lordaeron's last true king would endure."
+  },
+  {
+   "q": "What are the strange noises in the Lordaeron throne room?",
+   "aliases": [
+    "ghost sounds throne room",
+    "throne room whispering",
+    "voices in lordaeron throne room"
+   ],
+   "answer": "In the ruined throne room above the Undercity lifts, spectral echoes of the past still linger. Visitors standing in the center can hear faint phantom sounds: the celebratory bells and rose petals of Arthas's return, the warning words of the prophet Medivh, and the final conversation between King Terenas and his patricidal son."
+  },
+  {
+   "q": "Why do the Forsaken allow other Horde members here?",
+   "aliases": [
+    "why are orcs in undercity",
+    "horde in undercity",
+    "why is undercity part of horde"
+   ],
+   "answer": "The Forsaken formed an alliance of convenience with Warchief Thrall's Horde for survival, surrounded as they are by hostile Scarlet zealots and Scourge legions. While living Horde races find the toxic fumes and alchemical rivers stifling, emissaries and travelers are allowed access to foster diplomatic and military ties."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Undercity is your sovereign sanctuary and homeland, carved out by your own hands after breaking the Lich King's iron grip on your mind."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As the Horde's primary foothold in the Eastern Kingdoms, the Undercity secures zeppelin links directly back to Durotar and Grom'gol Base Camp."
+  },
+  {
+   "target": "race:Human",
+   "text": "Beneath the soil of your fallen ancestral kingdom lies a grim perversion of Lordaeron's royal crypts, occupied by the walking corpses of your former brethren."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Deep within these very dungeons, the legendary Warchief Orgrim Doomhammer was once imprisoned by the Alliance of Lordaeron before making his historic escape."
+  }
+ ],
+ "keywords": [
+  "apothecarium",
+  "arthas",
+  "forsaken",
+  "lordaeron",
+  "scourge",
+  "sylvanas",
+  "terenas",
+  "tirisfal",
+  "undercity",
+  "varimathras"
+ ],
+ "related": [
+  "npc:sylvanas-windrunner",
+  "topic:forsaken",
+  "zone:tirisfal",
+  "zone:ruinsoflordaeron",
+  "topic:lordaeron",
+  "topic:scourge",
+  "topic:arthas-menethil",
+  "subzone:apothecarium"
+ ],
+ "attribution": [
+  "Undercity"
+ ]
+}

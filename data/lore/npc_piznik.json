@@ -1,0 +1,85 @@
+{
+ "key": "npc:piznik",
+ "type": "npc",
+ "name": "Piznik",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Piznik",
+  "refs": 2
+ },
+ "summary": "Piznik is a disgruntled goblin surveyor hiding deep within Windshear Mine in the Stonetalon Mountains. Once a high-ranking overseer in the local Venture Company operations, he was sidelined by the ruthless Gerenzo Wrenchwhistle. Now nurseing a grudge, Piznik secretly gathers intel to undermine his former workplace.",
+ "sections": [
+  {
+   "title": "Fallen from Grace",
+   "body": "Before Gerenzo Wrenchwhistle seized supreme authority over Windshear Crag, Piznik held the enviable title of second-in-command across the entire operation. However, corporate restructuring in the Venture Company is unforgiving. Once Gerenzo took full control, Piznik found himself pushed aside and relegated to the murky depths of Windshear Mine. Rather than accepting his demotion quietly, Piznik bides his time underground, keeping a watchful eye on mine movements and quietly plotting revenge against the boss who demoted him.",
+   "spoiler": 0
+  },
+  {
+   "title": "Corporate Espionage",
+   "body": "Piznik's quiet rebellion took a practical turn through an alliance with Ziz Fizziks, an operative stationed outside who was similarly cast out by Gerenzo. Operating as Ziz's inside man, Piznik collects sensitive corporate correspondence and operational directives. By intercepting Gerenzo's personal orders and passing them along to adventurers, Piznik works to disrupt the Venture Company's deforestation and mining efforts from the shadows, ensuring that Gerenzo's ambitious leadership faces constant, agonizing setbacks.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Piznik?",
+   "aliases": [
+    "piznik location",
+    "where is piznik",
+    "find piznik stonetalon"
+   ],
+   "answer": "Piznik is tucked away inside Windshear Mine, a cavern complex carved into the slopes of Windshear Crag in the Stonetalon Mountains. You will find him deep within the tunnels surrounded by Venture Company workers."
+  },
+  {
+   "q": "What is Piznik's grudge against Gerenzo Wrenchwhistle?",
+   "aliases": [
+    "why does piznik hate gerenzo",
+    "piznik gerenzo feud"
+   ],
+   "answer": "Piznik was formerly the second-highest authority in Windshear Crag. When Gerenzo Wrenchwhistle took total command of the logging and mining project, he demoted Piznik, leaving the former supervisor resentful and eager to see Gerenzo ruined."
+  },
+  {
+   "q": "How does Piznik fit into Ziz Fizziks' plans?",
+   "aliases": [
+    "piznik and ziz",
+    "who does piznik work with"
+   ],
+   "answer": "Ziz Fizziks was fired outright by Gerenzo, whereas Piznik was merely demoted. Piznik uses his remaining access deep inside Windshear Mine to act as an informant, securing Gerenzo's written directives and passing them to Ziz to thwart the Crag's leadership."
+  },
+  {
+   "q": "Is Piznik still loyal to the Venture Company?",
+   "aliases": [
+    "is piznik venture co",
+    "piznik faction"
+   ],
+   "answer": "Only on paper. While he still wears the mantle of a Venture Company employee to remain within the mine, Piznik's true allegiance is entirely to his own self-interest and his desire to sabotage Gerenzo."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "Miners traversing Windshear Mine will cross paths with Piznik, a living example of how rapidly organizational rank can plummet beneath the weight of corporate greed."
+  }
+ ],
+ "keywords": [
+  "gerenzo wrenchwhistle",
+  "piznik",
+  "stonetalon",
+  "venture co",
+  "windshear crag",
+  "windshear mine",
+  "ziz fizziks"
+ ],
+ "related": [
+  "quest:1090",
+  "quest:1096",
+  "quest:1483",
+  "subzone:windshear-crag",
+  "zone:stonetalon",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Piznik"
+ ]
+}

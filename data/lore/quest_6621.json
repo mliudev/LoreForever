@@ -1,0 +1,124 @@
+{
+ "key": "quest:6621",
+ "type": "quest",
+ "name": "King of the Foulweald",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   6621
+  ],
+  "level": "26",
+  "faction": "Horde",
+  "start": "Karang Amakkar",
+  "end": "",
+  "previous": "Between a Rock and a Thistlefur",
+  "next": null,
+  "wiki": "King of the Foulweald (Classic)",
+  "chain": []
+ },
+ "summary": "King of the Foulweald is a Horde military strike commissioned by Karang Amakkar at Zoram'gar Outpost. Seeking to subdue the corrupted Foulweald furbolgs southeast of Astranaar, Horde champions plant a war banner directly atop the tribe's sacred totem mound, provoking and executing their chieftain, Chief Murgut.",
+ "sections": [
+  {
+   "title": "A Show of Force",
+   "body": "While the night elves struggle to contain Ashenvale's corrupted native tribes, the Horde approaches the threat with calculated aggression. Karang Amakkar at Zoram'gar Outpost recognizes that while the Foulweald tribe may not rival the vast numbers of the northern Thistlefur, their unchecked ferocity represents a lurking danger along the southern road. Rather than wait for ambushes on Horde patrols, Karang orders a preemptive demonstration of martial dominance to break the tribe's will.",
+   "spoiler": 0
+  },
+  {
+   "title": "Desecration and Challenge",
+   "body": "The strike targets Greenpaw Village, situated northeast of Mystral Lake. Karang crafts a tribal war banner intended to be driven directly into the center of the Foulweald totem mound\u2014an unforgivable insult to the tribe's ancestral spirits and pride. Furbolg defenders rush the mound in desperation to tear down the offending standard, compelling Chief Murgut to emerge and defend his honor in open combat. Claiming Murgut's personal totem shatters their leadership and establishes Horde supremacy in the area.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who orders the death of Chief Murgut?",
+   "aliases": [
+    "quest giver king of the foulweald",
+    "who gives king of the foulweald",
+    "karang amakkar quest"
+   ],
+   "answer": "Karang Amakkar, an orc stationed at Zoram'gar Outpost along the western coast of Ashenvale, issues the mission following his investigation into the neighboring Thistlefur furbolgs."
+  },
+  {
+   "q": "Where is Greenpaw Village located?",
+   "aliases": [
+    "where is greenpaw village",
+    "foulweald location",
+    "where to plant karang banner"
+   ],
+   "answer": "Greenpaw Village lies southeast of the night elf settlement of Astranaar, positioned northeast of Mystral Lake just south of Ashenvale's main eastern highway."
+  },
+  {
+   "q": "Why does the Horde plant a banner on the totem mound?",
+   "aliases": [
+    "why place banner",
+    "totem mound banner purpose",
+    "why challenge murgut"
+   ],
+   "answer": "Planting Karang's Banner directly into the tribe's sacred totem mound is an intentional provocation. Desecrating their sacred grounds forces the Foulweald to attack in a fury and compels Chief Murgut to fight openly to protect his standing."
+  },
+  {
+   "q": "Who are the Foulweald furbolgs?",
+   "aliases": [
+    "what are the foulweald",
+    "foulweald tribe lore",
+    "who is chief murgut"
+   ],
+   "answer": "The Foulweald are one of several furbolg tribes in Ashenvale that have fallen into madness and corruption following the Third War. Although fewer in number than the Thistlefur, they remain violent and hostile to outsiders."
+  },
+  {
+   "q": "What does retrieving Murgut's Totem accomplish?",
+   "aliases": [
+    "murgut totem purpose",
+    "what happens after murgut dies"
+   ],
+   "answer": "Taking Chief Murgut's totem back to Zoram'gar Outpost proves the chief's defeat. Without their leader and with their sacred mound disgraced, the surviving Foulweald are intimidated into avoiding further conflict with the Horde."
+  },
+  {
+   "q": "How does this quest fit into the earlier furbolg investigations?",
+   "aliases": [
+    "between a rock and a thistlefur connection",
+    "prerequisite king of the foulweald"
+   ],
+   "answer": "This mission directly follows 'Between a Rock and a Thistlefur.' After dealing with the northern Thistlefur tribe, Karang turns his attention southward to preemptively crush the Foulweald before they can launch coordinated raids."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Karang Amakkar uses open displays of martial dominance to cow hostile Ashenvale tribes, securing safe passage along the central trails for Horde supply caravans."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Placing a banner to provoke an enemy chieftain into single combat is classic orcish warfare, prioritizing strength and decisive confrontation over lengthy skirmishes."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The Foulweald's distorted totems and aggression reflect the ongoing spiritual imbalance that plagued Ashenvale's native tribes after the Burning Legion's invasion."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "foulweald",
+  "furbolg",
+  "greenpaw village",
+  "karang amakkar",
+  "murgut",
+  "totem mound",
+  "zoram'gar"
+ ],
+ "related": [
+  "npc:karang-amakkar",
+  "subzone:greenpaw-village",
+  "quest:216",
+  "topic:furbolg",
+  "zone:ashenvale",
+  "topic:horde",
+  "subzone:mystral-lake",
+  "subzone:astranaar"
+ ],
+ "attribution": [
+  "King of the Foulweald (Classic)"
+ ]
+}

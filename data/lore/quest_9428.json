@@ -1,0 +1,116 @@
+{
+ "key": "quest:9428",
+ "type": "quest",
+ "name": "Report to Splintertree Post",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   9428
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Ambassador Dawnsinger",
+  "end": "Advisor Sunsworn",
+  "previous": null,
+  "next": null,
+  "wiki": "Report to Splintertree Post",
+  "chain": []
+ },
+ "summary": "Report to Splintertree Post is a Horde directive issued by Ambassador Dawnsinger in Orgrimmar, dispatching promising adventurers into the perilous forests of Ashenvale. Operating as a diplomatic liaison, Dawnsinger directs travelers to Advisor Sunsworn to assist regional outposts and help solidify Horde alliances through direct frontier service.",
+ "sections": [
+  {
+   "title": "A Summons from the Ambassador",
+   "body": "Within the bustling halls of Orgrimmar, Ambassador Dawnsinger keeps a keen eye on rising heroes among the Horde. Speaking in hushed, discreet tones, she directs capable adventurers toward the disputed borderlands of Ashenvale. The journey leads west across the arid dirt of Durotar, traversing the dusty expanse of the Barrens, before turning north onto the lush, shadowed path toward Splintertree Post. While framed as a simple deployment, the posting serves a dual purpose: reinforcing a vulnerable frontier and proving diplomatic dependability.",
+   "spoiler": 0
+  },
+  {
+   "title": "Frontier Diplomacy at Splintertree",
+   "body": "Upon arrival at Splintertree Post, travelers report directly to Advisor Sunsworn, who has already received courier word of their dispatch. Sunsworn wastes little time with ceremony, clarifying Dawnsinger's underlying motive: by lending muscle and skill to the embattled defenders of Ashenvale, the ambassador's people hope to firmly cement their burgeoning ties with the wider Horde. Ashenvale remains contested ground, and Sunsworn encourages newly arrived adventurers to lend aid across the camp, as well as to seek out Zoram'gar Outpost far to the western coast.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends players on this assignment?",
+   "aliases": [
+    "quest giver",
+    "who gives quest",
+    "dawnsinger"
+   ],
+   "answer": "Ambassador Dawnsinger, stationed in the capital city of Orgrimmar, personally recruits capable adventurers and sends them out to Ashenvale."
+  },
+  {
+   "q": "Who is Advisor Sunsworn?",
+   "aliases": [
+    "advisor sunsworn",
+    "sunsworn",
+    "who is sunsworn"
+   ],
+   "answer": "Advisor Sunsworn is an official stationed at Splintertree Post in Ashenvale who oversees assignments and works in contact with Ambassador Dawnsinger to strengthen ties among Horde allies."
+  },
+  {
+   "q": "How do you reach Splintertree Post from Orgrimmar?",
+   "aliases": [
+    "how to get there",
+    "path to splintertree",
+    "splintertree directions"
+   ],
+   "answer": "Travel west out of Orgrimmar through Durotar into the Barrens. Continue westward until reaching the main road fork, then turn north across the border into Ashenvale, following the trail leading eastward into Splintertree Post."
+  },
+  {
+   "q": "Why does Ambassador Dawnsinger want adventurers to help in Ashenvale?",
+   "aliases": [
+    "why ashenvale",
+    "dawnsinger motive",
+    "cementing relations"
+   ],
+   "answer": "Dawnsinger wants to cement diplomatic standing with the rest of the Horde by providing skilled help to vulnerable frontier settlements like Splintertree Post and Zoram'gar Outpost."
+  },
+  {
+   "q": "What other settlements in Ashenvale does Advisor Sunsworn mention?",
+   "aliases": [
+    "other towns",
+    "other outposts",
+    "zoramgar"
+   ],
+   "answer": "Advisor Sunsworn notes the presence of Zoram'gar Outpost, a distant Horde enclave situated along the strand far to the western coast of Ashenvale."
+  },
+  {
+   "q": "Why is Ashenvale considered so dangerous for new travelers?",
+   "aliases": [
+    "danger in ashenvale",
+    "why is ashenvale dangerous"
+   ],
+   "answer": "Ashenvale is a fiercely contested ancient forest where the native night elves clash constantly with the Horde over territory and lumber, alongside prowling beasts and regional threats."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This mission exemplifies the Horde's ongoing struggle to hold its ground in Ashenvale, emphasizing cooperation and mutual assistance among allied members to secure territorial gains."
+  }
+ ],
+ "keywords": [
+  "advisor sunsworn",
+  "ambassador dawnsinger",
+  "ashenvale",
+  "barrens",
+  "orgrimmar",
+  "splintertree post",
+  "zoram'gar outpost"
+ ],
+ "related": [
+  "npc:ambassador-dawnsinger",
+  "npc:advisor-sunsworn",
+  "subzone:splintertree-post",
+  "subzone:zoram-gar-outpost",
+  "zone:ashenvale",
+  "zone:barrens",
+  "zone:durotar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Report to Splintertree Post"
+ ]
+}

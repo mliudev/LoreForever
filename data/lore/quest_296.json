@@ -1,0 +1,116 @@
+{
+ "key": "quest:296",
+ "type": "quest",
+ "name": "Ormer's Revenge",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   296
+  ],
+  "level": "29",
+  "faction": "Alliance",
+  "start": "Ormer Ironbraid",
+  "end": "",
+  "previous": "Ormer's Revenge (2)",
+  "next": null,
+  "wiki": "Ormer's Revenge (3)",
+  "chain": []
+ },
+ "summary": "Ormer's Revenge is the culmination of Ormer Ironbraid's campaign to avenge the dwarven excavators slaughtered at the Whelgar Excavation Site. Convinced that a cunning beast named Sarltooth spearheaded the savage raptor assault, Ormer sends an adventurer to slay the pack leader and claim his talon as proof.",
+ "sections": [
+  {
+   "title": "A Strike at the Pack Leader",
+   "body": "Following the slaughter of the Explorer's League diggers at the Whelgar Excavation Site, Ormer Ironbraid watched the teeming raptors from his ridge and observed a beast that dwarfed the rest. Known as Sarltooth, this particularly large and vicious raptor perched above the dig works, directing or leading the pack that drove the dwarves out. To Ormer, the beast was not merely wildlife, but the instigator of an attack on King Magni Bronzebeard's subjects.",
+   "spoiler": 0
+  },
+  {
+   "title": "Justice in the Wetlands",
+   "body": "Ormer demands capital justice for the massacre, instructing adventurers to climb the high paths of the excavation walls and put an end to Sarltooth. By retrieving one of the beast's formidable talons, the fallen workers are avenged, sending a harsh message across the marshes that attacks against dwarven expeditions will not go unanswered.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sarltooth?",
+   "aliases": [
+    "what is sarltooth",
+    "who is the raptor boss",
+    "sarltooth lore"
+   ],
+   "answer": "Sarltooth is a large, menacing raptor who leads the pack occupying the Whelgar Excavation Site in the Wetlands. Ormer Ironbraid believes he directed the assault that massacred the dwarven diggers."
+  },
+  {
+   "q": "Where is Sarltooth located?",
+   "aliases": [
+    "find sarltooth",
+    "where does sarltooth spawn",
+    "sarltooth path"
+   ],
+   "answer": "Sarltooth prowls along an elevated path running up the western wall in the northwest corner of the Whelgar Excavation Site."
+  },
+  {
+   "q": "Why does Ormer want Sarltooth dead instead of just driving him away?",
+   "aliases": [
+    "ormer revenge reason",
+    "why kill sarltooth"
+   ],
+   "answer": "Ormer views the raptor assault as a direct crime against King Magni's subjects. Because innocent dwarven workers lost their lives doing their jobs, Ormer believes only death can redeem the memory of the fallen."
+  },
+  {
+   "q": "What proof does Ormer require?",
+   "aliases": [
+    "sarltooth proof",
+    "sarltooth talon"
+   ],
+   "answer": "Ormer demands one of Sarltooth's talons to verify that the massive predator has truly been slain."
+  },
+  {
+   "q": "Who were the victims at the excavation site?",
+   "aliases": [
+    "who died at whelgar",
+    "excavation site victims"
+   ],
+   "answer": "Dwarven archaeologists and laborers sent by the Explorer's League to unearth titan artifacts were caught off guard and slaughtered when raptor packs overran the dig."
+  },
+  {
+   "q": "Does killing Sarltooth secure the excavation site?",
+   "aliases": [
+    "is whelgar safe now",
+    "did ormer win"
+   ],
+   "answer": "While killing Sarltooth removes the pack's deadliest threat and brings retribution for the fallen, raptors still crawl over the trenches, leaving the site dangerous and largely abandoned."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, avenging the butchered Explorer's League crew at the Whelgar Excavation Site is a matter of honouring King Magni's fallen subjects."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Sarltooth represents one of the Wetlands' apex predators, demanding keen tracking skills to scale the ridge and take down the pack leader."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing dwarven expeditions in the marshlands ensures that Alliance footholds between Ironforge and the northern lands remain intact."
+  }
+ ],
+ "keywords": [
+  "explorer's league",
+  "ormer ironbraid",
+  "raptors",
+  "sarltooth",
+  "talon",
+  "wetlands",
+  "whelgar excavation site"
+ ],
+ "related": [
+  "npc:ormer-ironbraid",
+  "quest:299",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "Ormer's Revenge (3)"
+ ]
+}

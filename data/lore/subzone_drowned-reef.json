@@ -1,0 +1,92 @@
+{
+ "key": "subzone:drowned-reef",
+ "type": "subzone",
+ "name": "Drowned Reef",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Drowned Reef"
+ },
+ "summary": "The Drowned Reef is a treacherous stretch of coastal waters off the southern cliffs of the Arathi Highlands. Beneath the waves lie ancient sunken ruins, claimed by hostile Daggerspine naga who manipulate the tides to dash passing vessels against the jagged shoals.",
+ "sections": [
+  {
+   "title": "A Graveyard of Ships",
+   "body": "Just outside the hidden entrance to Faldir's Cove, the Drowned Reef forms a watery graveyard for careless navigators. Shattered hulks, such as the Maiden's Folly and the Spirit of Silverpine, lie submerged beneath the waves. While treacherous rocks pose a natural hazard, the real peril stems from the resident Daggerspine naga led by Prince Nazjak. These serpentine creatures command the local tides, actively dragging vulnerable ships onto the stones to scavenge their cargo and drown their crews.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Sunken City",
+   "body": "Those brave or foolish enough to dive into the deep water will discover submerged architecture swallowed by the sea long ago. Though known to contain ancient elven relics and gems, the colossal stone structures and ruined walls bear a striking resemblance to ancient titan masonry. Whether these drowned halls were built by the Kaldorei before the Sundering or founded upon an even older titan complex remains a mystery lost beneath the surf.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Drowned Reef?",
+   "aliases": [
+    "drowned reef",
+    "where is drowned reef",
+    "arathi reef"
+   ],
+   "answer": "The Drowned Reef is a hazardous marine zone along the southern coast of the Arathi Highlands, situated just offshore from Faldir's Cove. It is known for its shallow, ship-breaking shoals and ancient ruins lurking beneath the sea."
+  },
+  {
+   "q": "Why are there so many sunken ships here?",
+   "aliases": [
+    "why are ships sinking",
+    "sunken ships arathi",
+    "maidens folly"
+   ],
+   "answer": "Ships attempting to reach Faldir's Cove or navigate the Arathi coast frequently run aground here. The Daggerspine naga who infest the reef possess the power to control the local tides, deliberately steering vessels into the jagged rocks to wreck them."
+  },
+  {
+   "q": "Who controls the Drowned Reef?",
+   "aliases": [
+    "who leads the naga here",
+    "prince nazjak",
+    "daggerspine naga arathi"
+   ],
+   "answer": "The reef is inhabited by the Daggerspine tribe of naga, who dwell within the flooded ruins. Their local forces are directed by Prince Nazjak, who commands them to prey upon stranded sailors and protect their submerged territory."
+  },
+  {
+   "q": "What are the ruins submerged beneath the reef?",
+   "aliases": [
+    "underwater ruins arathi",
+    "elven ruins drowned reef",
+    "titan ruins drowned reef"
+   ],
+   "answer": "Underwater explorers find ancient ruins containing calcified elven relics. Curiously, the massive carved stonework and walls strongly resemble ancient titan construction, suggesting either pre-Sundering elven settlement or even older titan architecture submerged in the ocean."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The flooded halls beneath the reef and the calcified gems resting in the seabed are somber reminders of the Kaldorei empire that shattered into the sea ten thousand years ago during the Great Sundering."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Explorers from the Explorer's League note with fascination that the underwater masonry bears uncanny similarities to the grand titan stonework found in Uldaman."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "daggerspine",
+  "drowned reef",
+  "faldir's cove",
+  "maiden's folly",
+  "naga",
+  "prince nazjak",
+  "spirit of silverpine",
+  "sunken ruins"
+ ],
+ "related": [
+  "zone:arathi",
+  "subzone:faldir-s-cove",
+  "topic:naga",
+  "topic:titan",
+  "subzone:uldaman"
+ ],
+ "attribution": [
+  "Drowned Reef"
+ ]
+}

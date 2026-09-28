@@ -1,0 +1,129 @@
+{
+ "key": "quest:5729",
+ "type": "quest",
+ "name": "Hidden Enemies",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   5729
+  ],
+  "level": "15",
+  "faction": "Horde",
+  "start": "Thrall",
+  "end": "Neeru Fireblade",
+  "previous": "Hidden Enemies (3)",
+  "next": "Hidden Enemies (5)",
+  "wiki": "Hidden Enemies (4)",
+  "chain": []
+ },
+ "summary": "Hidden Enemies is a pivotal step in Warchief Thrall's investigation into cultist infiltration within Orgrimmar. Having executed the ringleaders of the Burning Blade beneath the city, the player is sent to embed themselves further as a confidant to Neeru Fireblade.",
+ "sections": [
+  {
+   "title": "Thrall's Gambit",
+   "body": "Following the assassination of Bazzalan and Jergosh the Invoker in Ragefire Chasm, Thrall recognizes an opening. Rather than exposing Neeru Fireblade directly, the Warchief chooses to play the long game. Neeru is distressed by the sudden loss of his underground lieutenants, creating a void of leadership within the local cult. Thrall dispatches you back to the shadowy recesses of the Cleft of Shadow to present yourself as a dependable ally who can fill that vacuum.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Warlock's Deception",
+   "body": "When approached in the Cleft of Shadow, Neeru Fireblade is visibly furious over the sudden defeat of his conspirators. Unaware that the very adventurer standing before him carried out the executions on Thrall's orders, Neeru curses the 'do-gooders' who brought ruin to Ragefire Chasm. Caught off guard by the swift strike, Neeru begins to lower his guard around the player, paving the way for Thrall to monitor the Shadow Council's influence directly from within Orgrimmar.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why doesn't Thrall just execute Neeru Fireblade immediately?",
+   "aliases": [
+    "why spare neeru",
+    "why does thrall let neeru live",
+    "neeru alive"
+   ],
+   "answer": "Thrall prefers keeping an exposed enemy where he can watch them. By leaving Neeru in place while thinking his cover is intact, Thrall can monitor the Burning Blade's communications and trace their ties back to the Shadow Council, using the player as an inside operative."
+  },
+  {
+   "q": "Who were Bazzalan and Jergosh?",
+   "aliases": [
+    "bazzalan",
+    "jergosh",
+    "who died in ragefire"
+   ],
+   "answer": "Bazzalan was a satyr and Jergosh the Invoker was an orc warlock. Operating deep within Ragefire Chasm beneath Orgrimmar, they served as field leaders and conspirators for the Burning Blade cult before Thrall ordered their deaths."
+  },
+  {
+   "q": "Does Neeru realize you killed his lieutenants?",
+   "aliases": [
+    "does neeru know",
+    "neeru knows who killed them"
+   ],
+   "answer": "No. Neeru vents his fury believing unknown agents of Thrall surprised and slaughtered them, entirely unaware that the adventurer offering him condolences and aid is the assassin responsible."
+  },
+  {
+   "q": "Where is Neeru Fireblade located?",
+   "aliases": [
+    "neeru location",
+    "find neeru",
+    "where is neeru fireblade"
+   ],
+   "answer": "Neeru Fireblade resides in the Cleft of Shadow, a subterranean cavern tucked within the northern cliffs of Orgrimmar where warlocks, rogues, and shadow casters gather away from the rest of the city."
+  },
+  {
+   "q": "What is the Burning Blade?",
+   "aliases": [
+    "burning blade",
+    "burning blade cult"
+   ],
+   "answer": "Originally a fierce clan from Draenor, the Burning Blade degenerated into a demonic cult manipulated by the Shadow Council. In Kalimdor, its remnants seek to undermine Thrall's new Horde and restore demonic servitude."
+  },
+  {
+   "q": "What happens after speaking to Neeru?",
+   "aliases": [
+    "what next",
+    "quest continuation"
+   ],
+   "answer": "After securing Neeru's confidence and hearing his dismay over the losses in Ragefire Chasm, you return to Thrall in Grommash Hold to report your success and conclude the infiltration chain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Neeru Fireblade stands openly among the warlock trainers in the Cleft of Shadow, demonstrating how close Thrall's new Horde walks alongside darker magics without succumbing to outright corruption."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "This task is a textbook infiltration mission: eliminating an asset's network and immediately stepping in to become their most trusted confidant."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The mission underscores Thrall's pragmatic diplomacy and statecraft, using counter-espionage to secure Orgrimmar from within rather than relying solely on brute force."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs striving to shake off the demonic legacy of the old Horde, rooting out the Burning Blade from Orgrimmar's bedrock is essential to protecting their honor."
+  }
+ ],
+ "keywords": [
+  "bazzalan",
+  "burning blade",
+  "cleft of shadow",
+  "hidden enemies",
+  "jergosh",
+  "neeru fireblade",
+  "orgrimmar",
+  "ragefire chasm",
+  "shadow council",
+  "thrall"
+ ],
+ "related": [
+  "quest:5726",
+  "npc:thrall",
+  "quest:829",
+  "zone:ragefire",
+  "npc:bazzalan",
+  "subzone:cleft",
+  "zone:orgrimmar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Hidden Enemies (4)"
+ ]
+}

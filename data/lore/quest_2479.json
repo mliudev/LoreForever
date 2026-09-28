@@ -1,0 +1,120 @@
+{
+ "key": "quest:2479",
+ "type": "quest",
+ "name": "Hinott's Assistance",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   2479
+  ],
+  "level": "21",
+  "faction": "Horde",
+  "start": "Shenthul",
+  "end": "Serge Hinott",
+  "previous": "Mission: Possible But Not Probable",
+  "next": "Hinott's Assistance (2)",
+  "wiki": "Hinott's Assistance",
+  "chain": []
+ },
+ "summary": "Hinott's Assistance is an urgent journey undertaken by Horde rogues suffering from a debilitating tropical toxin. Contracted during an infiltration mission in the Barrens, the affliction requires the specialized expertise of Serge Hinott in Tarren Mill. Seeking his aid promises both a life-saving cure and instruction in the art of concocting deadly poisons.",
+ "sections": [
+  {
+   "title": "A Toxic Predicament",
+   "body": "Following the daring infiltration of the Venture Company's tower in the Merchant Coast, rogues find themselves afflicted by Zanzil's altered mixture. The poison wreaks havoc on the body, dulling reflexes and threatening life itself. Recognizing the severity of the affliction, rogue trainer Shenthul in Orgrimmar admits that local remedies are inadequate and directs the poisoned operative across the sea to the Eastern Kingdoms.",
+   "spoiler": 0
+  },
+  {
+   "title": "Journey to Tarren Mill",
+   "body": "The search for a cure leads south through the continent of Lordaeron to the village of Tarren Mill in Hillsbrad Foothills. There resides Serge Hinott, an apothecary whose fascination with virulent brews makes him ideally suited to analyze the exotic sample. While ordinary healers recoiled from Zanzil's venom, Hinott treats the deadly compound with professional glee, eager to dissect the foul concoction and instruct worthy rogues in brewing their own venoms.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do I need to see Serge Hinott?",
+   "aliases": [
+    "why hinott",
+    "who cures the poison",
+    "serge hinott role"
+   ],
+   "answer": "Serge Hinott is an expert apothecary residing in Tarren Mill who specializes in rare toxins and their antidotes. Ordinary healers cannot purge Zanzil's altered mixture, making Hinott the only contact capable of analyzing the compound, saving your life, and teaching the art of poisoncraft."
+  },
+  {
+   "q": "Where is Tarren Mill located?",
+   "aliases": [
+    "tarren mill location",
+    "how to get to tarren mill",
+    "where is hinott"
+   ],
+   "answer": "Tarren Mill is a Forsaken settlement in northern Hillsbrad Foothills. From Orgrimmar, take the zeppelin to the Undercity in Tirisfal Glades, then travel south through Silverpine Forest and turn east along the road into Hillsbrad."
+  },
+  {
+   "q": "How did I get poisoned in the first place?",
+   "aliases": [
+    "how did i get zanzil poison",
+    "mission possible poison",
+    "why am i poisoned"
+   ],
+   "answer": "You were infected during the covert task Mission: Possible But Not Probable at the Venture Company tower along the Merchant Coast of the Barrens. Opening the high-security chest exposed you to Zanzil's altered mixture, leaving a lingering, debilitating affliction."
+  },
+  {
+   "q": "What happens after Serge Hinott receives the sample?",
+   "aliases": [
+    "hinott quest follow up",
+    "do i get cured",
+    "after hinotts assistance"
+   ],
+   "answer": "Once Hinott receives the sample, he examines its properties and prepares an antidote to cleanse your system. After curing the toxin, he shares his expertise, allowing rogues to master the brewing and application of their own poisons."
+  },
+  {
+   "q": "Who is Shenthul and why did he send me away?",
+   "aliases": [
+    "who is shenthul",
+    "shenthul orgrimmar",
+    "why did trainer send me"
+   ],
+   "answer": "Shenthul is the rogue trainer located in the Shadowswift brotherhood's enclave in Orgrimmar. He oversaw your test of skill in the Barrens and recognized that Zanzil's concoction was far beyond Orgrimmar's medical knowledge, requiring a specialist in Hillsbrad."
+  },
+  {
+   "q": "Can any other class complete this quest?",
+   "aliases": [
+    "rogue only quest",
+    "can warriors do hinotts assistance"
+   ],
+   "answer": "No. This mission is part of the dedicated rogue training lineage that unlocks the fundamental discipline of brewing poisons and remedies."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This rite of passage bridges the gap between simple stealth and the alchemical arts, testing a rogue's stamina while opening the door to self-crafted venoms."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The mission illustrates the practical cooperation binding Kalimdor's orc and troll rogues with the sinister alchemical knowledge of the Forsaken in Lordaeron."
+  }
+ ],
+ "keywords": [
+  "hillsbrad foothills",
+  "hinott's assistance",
+  "rogue poison quest",
+  "serge hinott",
+  "shenthul",
+  "tarren mill",
+  "undercity zeppelin",
+  "zanzil",
+  "zanzil's mixture"
+ ],
+ "related": [
+  "npc:serge-hinott",
+  "quest:2478",
+  "npc:shenthul",
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "Hinott's Assistance"
+ ]
+}

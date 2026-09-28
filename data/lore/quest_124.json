@@ -1,0 +1,123 @@
+{
+ "key": "quest:124",
+ "type": "quest",
+ "name": "A Baying of Gnolls",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   124
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Verner Osgood",
+  "end": "",
+  "previous": null,
+  "next": "Howling in the Hills",
+  "wiki": "A Baying of Gnolls",
+  "chain": [
+   "The Price of Shoes",
+   "Return to Verner",
+   "Underbelly Scales",
+   "A Baying of Gnolls",
+   "Howling in the Hills"
+  ]
+ },
+ "summary": "Verner Osgood, the stable master in Lakeshire, finds his business under siege by gnolls raiding south from the Redridge foothills. Already strained by Blackrock orc incursions, he asks travelers to clear out the brutes and mystics threatening his livestock.",
+ "sections": [
+  {
+   "title": "Horses on the Ridge",
+   "body": "Running a stable in Lakeshire has become increasingly hazardous. Blackrock orcs command the heights of the region, while packs of gnolls roam the surrounding ridges. For Verner Osgood, the situation reached a breaking point when aggressive gnoll raiding bands crept close to the northern borders of his paddocks, preying on any horses that wandered too close to the bluffs.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Coordinated Menace",
+   "body": "These are not just scattered scavengers. The packs operating directly north of the town combine savage muscle with primitive spellcraft, employing tough brutes to overwhelm prey alongside mystics wielding wild magic. Thinning their numbers offers brief respite to the settlement, though it quickly becomes apparent that their aggression is driven by a larger power lurking higher in the hills.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Verner Osgood need help with gnolls?",
+   "aliases": [
+    "verner problem",
+    "why verner wants gnolls killed",
+    "lakeshire stable gnolls"
+   ],
+   "answer": "Gnolls from the northern ridges have begun encroaching on Verner's stables, snatching horses whenever they stray from the paddocks. Between that threat and the Blackrock orc invasion, he cannot safeguard his stock without outside aid."
+  },
+  {
+   "q": "Where are these gnolls located?",
+   "aliases": [
+    "where are redridge brutes",
+    "redridge mystic location",
+    "gnolls north of stables"
+   ],
+   "answer": "The Redridge brutes and mystics prowl along the elevated ridges and foothills directly north and east of Lakeshire, overlooking the town and the road toward the Everstill Bridge."
+  },
+  {
+   "q": "Why are gnolls an issue alongside the Blackrock orcs?",
+   "aliases": [
+    "orcs and gnolls redridge",
+    "why both gnolls and orcs"
+   ],
+   "answer": "While the Blackrock clan is the primary military force menacing Redridge, local gnoll packs exploit the distraction. With Lakeshire's defenders stretched thin and Stormwind offering minimal reinforcements, indigenous predators have expanded unchecked right up to the village perimeter."
+  },
+  {
+   "q": "What comes after dealing with these gnolls?",
+   "aliases": [
+    "baying of gnolls follow up",
+    "what next after baying of gnolls"
+   ],
+   "answer": "After thinning out the brutes and mystics, Verner notes that the howling in the hills continues, pointing toward a larger leadership threat that must be addressed in the surrounding heights."
+  },
+  {
+   "q": "Why are mystics particularly dangerous?",
+   "aliases": [
+    "redridge mystics lore",
+    "gnoll shamans redridge"
+   ],
+   "answer": "Redridge mystics practice rudimentary nature and elemental magic, turning erratic, feral incantations against trespassers. Their presence among the brutes suggests an organized clan structure rather than lone wild scavengers."
+  },
+  {
+   "q": "Is Stormwind sending soldiers to protect Lakeshire's stables?",
+   "aliases": [
+    "stormwind guard redridge",
+    "why no guards helping verner"
+   ],
+   "answer": "No. Stormwind's royal court has left Redridge largely to defend itself amid ongoing political turmoil and troop shortages, forcing Magistrate Solomon and citizens like Verner Osgood to recruit wandering adventurers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Every small community in the southern kingdom is feeling the strain of Stormwind's neglect, leaving humble tradesmen like Verner to hire private help to protect essential supply lines."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The wild beasts and feral packs of Redridge have grown brazen in the absence of organized culls, making them a volatile threat to domestic animals and travelers."
+  }
+ ],
+ "keywords": [
+  "gnolls",
+  "horses",
+  "lakeshire",
+  "redridge brute",
+  "redridge mountains",
+  "redridge mystic",
+  "stables",
+  "verner osgood"
+ ],
+ "related": [
+  "npc:verner-osgood",
+  "quest:126",
+  "quest:122",
+  "quest:119",
+  "quest:89",
+  "topic:gnoll",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "A Baying of Gnolls"
+ ]
+}

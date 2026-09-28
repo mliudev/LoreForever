@@ -1,0 +1,80 @@
+{
+ "key": "npc:moon-priestess-amara",
+ "type": "npc",
+ "name": "Moon Priestess Amara",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Moon Priestess Amara",
+  "refs": 1
+ },
+ "summary": "Moon Priestess Amara is a night elf priestess stationed along the main road west of Dolanaar in Teldrassil. Flanked by loyal huntress guards, she keeps watch over the woodland pathways connecting the heart of the bough to the capital city of Darnassus.",
+ "sections": [
+  {
+   "title": "Guardian of the Boughways",
+   "body": "Stationed at a quiet wayside post west of Dolanaar, Moon Priestess Amara represents both the spiritual authority of the Sisterhood of Elune and the practical vigilance required to keep Teldrassil's roadways secure. She travels and watches with two huntress companions, Nhemai and Yaeliura. To travelers journeying westward, Amara acts as a guiding hand, directing adventurers along the road toward Darnassus and tasking those with burdened spirits to seek out paths of redemption.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Moon Priestess Amara?",
+   "aliases": [
+    "who is amara",
+    "priestess amara",
+    "sentinel amara nightwalker"
+   ],
+   "answer": "Moon Priestess Amara, also known in sentinel duties as Amara Nightwalker, is a priestess of the Sisterhood of Elune stationed on the road between Dolanaar and Darnassus in Teldrassil. She oversees the security and spiritual health of travelers heading through the bough."
+  },
+  {
+   "q": "Where can I find Moon Priestess Amara?",
+   "aliases": [
+    "where is amara",
+    "amara location",
+    "priestess amara map"
+   ],
+   "answer": "She is located along the paved highway just west of Dolanaar in Teldrassil, standing watch beside two sentinel huntresses."
+  },
+  {
+   "q": "Who are the huntresses standing with her?",
+   "aliases": [
+    "amara companions",
+    "nhemai and yaeliura",
+    "amara guards"
+   ],
+   "answer": "She is guarded and accompanied by Huntress Nhemai and Huntress Yaeliura, two night elf sentinels who assist in protecting the thoroughfare from beasts and hostile corruption."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "As a member of the Sisterhood of Elune, Priestess Amara embodies the night elven devotion to the Moon Goddess, serving as a pastoral and spiritual guide to young acolytes venturing out from Shadowglen."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Amara marks an important milestone on your journey away from Dolanaar, offering guidance and tasks that lead into the great city of Darnassus."
+  }
+ ],
+ "keywords": [
+  "amara nightwalker",
+  "dolanaar",
+  "elanaria",
+  "moon priestess amara",
+  "nhemai",
+  "teldrassil",
+  "the road to darnassus",
+  "yaeliura"
+ ],
+ "related": [
+  "subzone:dolanaar",
+  "zone:darnassus",
+  "zone:teldrassil",
+  "npc:elanaria",
+  "quest:487",
+  "quest:489",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Moon Priestess Amara"
+ ]
+}

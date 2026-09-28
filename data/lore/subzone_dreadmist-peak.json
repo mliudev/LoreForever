@@ -1,0 +1,94 @@
+{
+ "key": "subzone:dreadmist-peak",
+ "type": "subzone",
+ "name": "Dreadmist Peak",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Dreadmist Peak"
+ },
+ "summary": "Dreadmist Peak is a jagged, desolate mountain looming northwest of the Crossroads in the Barrens. Shrouded in an unnatural, crimson miasma, the peak serves as a secluded redoubt for the demonic cultists of the Burning Blade.",
+ "sections": [
+  {
+   "title": "A Den of Corruption",
+   "body": "Rising high above the arid savannas of the Barrens, Dreadmist Peak stands out as a site of palpable evil. As travelers wind their way up the crags, the bright sky is blotted out by a dense, reddish haze\u2014the residual miasma of an ancient demonic curse. At the mountain's crest and within its subterranean hollows, the Burning Blade cult operates in secret, harboring warlocks, toxicologists, and fiendish grellkin. From this vantage, the cultists spread poisons into the nearby water table and scheme against the nascent powers establishing control over central Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Convergence of Schemes",
+   "body": "Beyond housing warlocks and their dark rituals around Dreadmist Den, the peak has drawn other malevolent figures. The rogue Forsaken mage Sarilus Foulborne made his camp upon the heights, bending elemental forces to corrupt water spirits as far north as Ashenvale. Furthermore, when the minor demon Zmodlor conspired to spark outright war between Thrall's Horde and Theramore, it was here that Lady Jaina Proudmoore and Aegwynn confronted and banished the entity, cutting short a catastrophic bloodbath.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the air red and foggy around Dreadmist Peak?",
+   "aliases": [
+    "red mist dreadmist",
+    "orange fog dreadmist peak",
+    "why is dreadmist red"
+   ],
+   "answer": "The reddish-orange fog smothering the peak is lingering miasma left behind by an ancient demonic curse, sustained and intensified by the foul rituals of the resident Burning Blade warlocks."
+  },
+  {
+   "q": "Who controls Dreadmist Peak?",
+   "aliases": [
+    "who lives on dreadmist peak",
+    "dreadmist peak enemies",
+    "burning blade dreadmist"
+   ],
+   "answer": "The mountain is controlled by the Burning Blade cult, who keep watch along its trails and guard Dreadmist Den beneath. It is also occupied by dark figures such as the renegade undead mage Sarilus Foulborne."
+  },
+  {
+   "q": "What happened here between Theramore and the Horde?",
+   "aliases": [
+    "jaina dreadmist peak",
+    "zmodlor dreadmist",
+    "theramore war barrens"
+   ],
+   "answer": "Three years after the Third War, a minor demon named Zmodlor used Dreadmist Peak as a base to orchestrate hostilities between the Horde and Theramore. Lady Jaina Proudmoore, accompanied by Aegwynn, tracked the plot here and banished the demon, narrowly averting war."
+  },
+  {
+   "q": "How do you reach Dreadmist Peak?",
+   "aliases": [
+    "getting to dreadmist peak",
+    "dreadmist peak location",
+    "dreadmist path"
+   ],
+   "answer": "Follow the main road north from the Crossroads until it forks toward Ashenvale and Stonetalon. Face northwest to see the crag looming overhead, then ascend the spiraling path up its eastern face."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Tauren druids from Camp Taurajo investigate Dreadmist Peak's water sources, seeking to identify the unnatural toxins poisoning the gazelles and wildlife of the plains."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance agents operating near Ashenvale trace corrupting magic bound to befouled water elementals straight to Sarilus Foulborne, an undead summoner lurking on the peak."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "burning blade",
+  "dreadmist den",
+  "dreadmist peak",
+  "jaina proudmoore",
+  "miasma",
+  "sarilus foulborne",
+  "zmodlor"
+ ],
+ "related": [
+  "subzone:dreadmist-den",
+  "zone:barrens",
+  "subzone:crossroads",
+  "quest:6122",
+  "quest:1017",
+  "npc:jaina-proudmoore",
+  "topic:druid",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Dreadmist Peak"
+ ]
+}

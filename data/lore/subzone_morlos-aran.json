@@ -1,0 +1,93 @@
+{
+ "key": "subzone:morlos-aran",
+ "type": "subzone",
+ "name": "Morlos'Aran",
+ "era": "classic",
+ "zone": "felwood",
+ "meta": {
+  "wiki": "Morlos'Aran"
+ },
+ "summary": "Morlos'Aran is an ancient night elf ruin nestled in the southern reaches of Felwood. Once a proud and thriving settlement before the Great Sundering, it now stands as a grim monument to a lost golden age, drowned under the demonic blight that plagues the surrounding forest.",
+ "sections": [
+  {
+   "title": "Echoes of the Golden Age",
+   "body": "Ten thousand years ago, prior to the Sundering, Morlos'Aran was a grand urban center of the ancient kaldorei civilization. Much like sister settlements such as Ameth'Aran, Bashal'Aran, and Ordil'Aran across northern Kalimdor, its marble arches and moonlit plazas bustled with elven life and arcana. When the Well of Eternity collapsed, the city broke, leaving only shattered colonnades behind as monuments to their civilization's zenith.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Blighted Relic",
+   "body": "While neighboring ruins in Darkshore and Ashenvale fell to decay and wilderness, Morlos'Aran met a far grimmer fate during the Third War. Positioned directly within the corridor trampled by the Burning Legion, its surviving foundations were choked by demonic corruption and toxic mire. Today, the ruins are haunted by wandering beasts, corrupted elementals, and remnants of the shadow forces lingering in Felwood.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Morlos'Aran originally?",
+   "aliases": [
+    "what is morlos aran",
+    "morlos'aran history",
+    "who built morlos aran"
+   ],
+   "answer": "It was a major night elf settlement that thrived before the Great Sundering. Along with sister cities across ancient Kalimdor, it formed part of the core civilization of the kaldorei golden age before falling into ruin ten thousand years ago."
+  },
+  {
+   "q": "Why does the name end in ''Aran'?",
+   "aliases": [
+    "meaning of aran",
+    "aran suffix",
+    "ameth aran connection"
+   ],
+   "answer": "The suffix appears in several pre-Sundering night elf cities, including Ameth'Aran and Bashal'Aran in Darkshore, Ordil'Aran in Ashenvale, and Tethris'Aran in Desolace. It denotes settlements built during the ancient empire."
+  },
+  {
+   "q": "Where exactly is Morlos'Aran located?",
+   "aliases": [
+    "morlos aran location",
+    "where is morlos'aran",
+    "finding morlos aran"
+   ],
+   "answer": "It lies in the southern portion of Felwood, near the border crossing from Ashenvale. Its crumbling marble architecture stands visible among the corrupted, withered trees just off the main path."
+  },
+  {
+   "q": "What threats wander these ruins today?",
+   "aliases": [
+    "what is inside morlos'aran",
+    "morlos aran mobs",
+    "dangers of morlos aran"
+   ],
+   "answer": "Corrupted wildlife, tainted treants, and lingering demonic spawn infest the surrounding forest and make Morlos'Aran extremely hazardous for passing travelers heading north into Felwood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Passing through Morlos'Aran offers a tragic reminder of how far the empire fell, seeing sacred ancestral stonework now swallowed by the foul demonic corruption of the Legion."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The twisted earth around the ruined foundations illustrates the extreme damage inflicted upon Felwood, spurring Cenarion efforts to purify the land."
+  }
+ ],
+ "keywords": [
+  "ameth'aran",
+  "bashal'aran",
+  "felwood",
+  "kaldorei",
+  "morlos aran",
+  "morlos'aran",
+  "ruins",
+  "sundering"
+ ],
+ "related": [
+  "zone:felwood",
+  "subzone:ameth-aran",
+  "quest:954",
+  "zone:ashenvale",
+  "zone:darkshore",
+  "zone:desolace",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Morlos'Aran"
+ ]
+}

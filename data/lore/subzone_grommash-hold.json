@@ -1,0 +1,93 @@
+{
+ "key": "subzone:grommash-hold",
+ "type": "subzone",
+ "name": "Grommash Hold",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Grommash Hold"
+ },
+ "summary": "Grommash Hold is the fortified seat of Warchief Thrall, nestled high in the red cliffs of the Valley of Wisdom in Orgrimmar. Named in honor of Grommash Hellscream's sacrifice, the fortress serves as the command center and political heart of the new Horde.",
+ "sections": [
+  {
+   "title": "The Seat of the Warchief",
+   "body": "Perched within the tranquil Valley of Wisdom, Grommash Hold serves as the royal court and strategic sanctum of the Horde. Built into the towering canyon walls, its thick stone interior remains notably dim and chilly\u2014a deliberate choice by Warchief Thrall to keep emissaries, petitioners, and warlords sharp and sober during audiences. Here, Thrall deliberates on the defense of Kalimdor, guided by veteran counselors like Eitrigg and visited by racial chieftains such as Vol'jin.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Monument to Freedom",
+   "body": "Just outside the stronghold rests the shattered armor and horned skull of the pit lord Mannoroth, mounted upon the trunk of an ancient tree. Placed there to honor Grom Hellscream, who traded his life to slay the demon in Ashenvale, the memorial stands as both a proud symbol of the orcs' liberation from the demonic blood curse and a permanent, solemn warning against falling into reckless savagery again.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is inside Grommash Hold?",
+   "aliases": [
+    "who is in the hold",
+    "who lives in grommash hold",
+    "who rules here"
+   ],
+   "answer": "Warchief Thrall holds court here, alongside key Horde leaders and advisors including the orcish elder Eitrigg, the Darkspear leader Vol'jin, and the warrior Nazgrel."
+  },
+  {
+   "q": "Why is it named Grommash Hold?",
+   "aliases": [
+    "why grommash hold",
+    "who was grommash",
+    "named after who"
+   ],
+   "answer": "It is named after Grommash 'Grom' Hellscream, the legendary chieftain of the Warsong clan. Grom struck down the pit lord Mannoroth during the Third War, paying with his life to permanently free the orcish race from demonic servitude."
+  },
+  {
+   "q": "What are the giant bones displayed outside?",
+   "aliases": [
+    "demon skull outside",
+    "mannoroth skull",
+    "bones in front"
+   ],
+   "answer": "The skull and armor belong to Mannoroth, the demon lord whose blood initially enslaved the orcs on Draenor. The remains were hauled from Ashenvale and mounted on a tree trunk outside the hold as a monument to the Horde's freedom."
+  },
+  {
+   "q": "Why do some city signs call it Thrall's Fortress?",
+   "aliases": [
+    "thrall's fortress",
+    "thralls fortress",
+    "hold vs fortress"
+   ],
+   "answer": "Many orcish guards and older directional signs still refer to the structure as Thrall's Fortress, which was its working name during the founding of Orgrimmar before its official dedication to Grommash."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This is the very heart of the Horde's sovereignty, where treaties are forged and campaigns against threats across Kalimdor and the Eastern Kingdoms are directed."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs, the hold and Mannoroth's remains outside are the ultimate testament to their liberation from the demonic blood curse by the sacrifice of Grom Hellscream."
+  }
+ ],
+ "keywords": [
+  "eitrigg",
+  "grommash hold",
+  "mannoroth",
+  "orgrimmar",
+  "thrall",
+  "thrall's fortress",
+  "valley of wisdom"
+ ],
+ "related": [
+  "npc:thrall",
+  "topic:grommash-hellscream",
+  "zone:orgrimmar",
+  "subzone:valley-of-wisdom",
+  "npc:vol-jin",
+  "npc:eitrigg",
+  "topic:burning-legion",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Grommash Hold"
+ ]
+}

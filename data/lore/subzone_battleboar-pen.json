@@ -1,0 +1,86 @@
+{
+ "key": "subzone:battleboar-pen",
+ "type": "subzone",
+ "name": "Battleboar Pen",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Battleboar Pen"
+ },
+ "summary": "The Battleboar Pen is a foul quilboar encampment nestled in the southern reaches of Red Cloud Mesa. Run by the hostile Bristleback tribe under Chief Squealer Thornmantle, the pens are used to breed and brutalize armored swine into ferocious weapons of war against the young tauren of Camp Narache.",
+ "sections": [
+  {
+   "title": "Breeding War Beasts",
+   "body": "Located southwest of Thornsnarl, the Battleboar Pen stands as a direct threat to the tauren youth training on Red Cloud Mesa. The Bristleback quilboar do not merely raise ordinary livestock here; they deliberately cultivate hatred and aggression in their battleboars by force-feeding them raw flesh and outfitting them in crude armor. The resulting beasts are extraordinarily vicious and serve on the front lines of the quilboar incursions into sacred tauren soil. Hunters like Adana Thunderhorn work relentlessly to cull these armored monstrosities before their numbers overwhelm the mesa.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Battleboar Pen?",
+   "aliases": [
+    "battleboar pen",
+    "quilboar pen",
+    "what is this place"
+   ],
+   "answer": "It is an encampment in southern Red Cloud Mesa where Bristleback quilboar breed, armor, and train ferocious battleboars to unleash against the tauren."
+  },
+  {
+   "q": "Why are the battleboars so aggressive?",
+   "aliases": [
+    "why are boars mad",
+    "vicious boars",
+    "boar feeding"
+   ],
+   "answer": "The Bristleback quilboar deliberately break the boars' natural temperament by force-feeding them raw flesh and conditioning them for pure violence."
+  },
+  {
+   "q": "Who leads the quilboar here?",
+   "aliases": [
+    "who leads the pen",
+    "squealer thornmantle",
+    "quilboar chief"
+   ],
+   "answer": "The Bristlebacks in the area answer to Chief Squealer Thornmantle, who orchestrates the tribe's aggressive push into southern Mulgore."
+  },
+  {
+   "q": "Why do the tauren want the pen cleared out?",
+   "aliases": [
+    "tauren mission here",
+    "why kill battleboars",
+    "adana quest"
+   ],
+   "answer": "The pens are an immediate hazard to novice tauren training at Camp Narache. Local hunters like Adana Thunderhorn seek to crush the quilboar's war effort and reclaim the stolen mesa ground."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The desecration of the land and the cruel warping of natural beasts into bloodthirsty weapons offends the Earth Mother and threatens the safe upbringing of young braves."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters find the pens a grim testament to how nature can be twisted through force, making the culling of these armored war beasts a grim necessity."
+  }
+ ],
+ "keywords": [
+  "adana thunderhorn",
+  "battleboar",
+  "battleboar pen",
+  "bristleback",
+  "mulgore",
+  "red cloud mesa",
+  "squealer thornmantle"
+ ],
+ "related": [
+  "subzone:red-cloud-mesa",
+  "quest:780",
+  "topic:quilboar",
+  "subzone:thornsnarl",
+  "zone:mulgore",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Battleboar Pen"
+ ]
+}

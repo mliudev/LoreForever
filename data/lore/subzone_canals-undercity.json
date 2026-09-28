@@ -1,0 +1,75 @@
+{
+ "key": "subzone:canals-undercity",
+ "type": "subzone",
+ "name": "Canals (Undercity)",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Canals (Undercity)"
+ },
+ "summary": "The Canals form a murky, circular moat winding between the distinct quarters of the Undercity. Filled with an unnatural, noxious green slime rather than fresh water, they serve as both a sewage system and a grim symbol of the Forsaken's subterranean stronghold.",
+ "sections": [
+  {
+   "title": "A Toxic Moat",
+   "body": "Carved into the subterranean depths beneath the ruins of Lordaeron, the Canals encircle the heart of the Undercity, dividing its quarters with wide channels of sluggish green sludge. While mortal cities channel flowing river water to clean their avenues, the Forsaken have filled these stone conduits with industrial refuse, chemical runoff, and alchemical waste. The liquid emits a faint, sickly glow and foul vapors, making it impossible to traverse by ordinary magical means like water walking. Despite the lethality of the slurry, desperate anglers occasionally haul bizarre, tainted curiosities from the muck.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the green liquid in the canals?",
+   "aliases": [
+    "undercity green water",
+    "what is the slime in undercity",
+    "green slime river"
+   ],
+   "answer": "It is an alchemical sludge composed of toxic runoff, plague byproducts, and industrial waste that collects within the Undercity's drainage system. Unlike clean water, it is visibly tainted and noxious."
+  },
+  {
+   "q": "Can you fish in the Undercity canals?",
+   "aliases": [
+    "fishing undercity",
+    "can you fish here",
+    "fishing in green slime"
+   ],
+   "answer": "Yes, patient anglers can cast a line into the sludge. Along with sickly, contaminated fish, people occasionally haul up discarded junk, including old human skulls from Lordaeron's fallen past."
+  },
+  {
+   "q": "Why doesn't Water Walking work on the canals?",
+   "aliases": [
+    "water walking undercity",
+    "shaman water walking bug",
+    "why cant i walk on water undercity"
+   ],
+   "answer": "The thick, chemical slurry does not behave like natural water. Its foul viscosity and unnatural composition prevent shamans and other spellcasters from holding surface tension through conventional water-walking magic."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, the foul canals are entirely harmless to their unliving physiology, serving as a functional moat and chemical runoff channel suited to their subterranean realm."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The elements hold little sway over the polluted muck filling the Undercity's waterways, causing conventional spells like Water Walking to fail entirely."
+  }
+ ],
+ "keywords": [
+  "canals",
+  "fishing",
+  "forsaken",
+  "green slime",
+  "lordaeron",
+  "sludge",
+  "toxic",
+  "undercity"
+ ],
+ "related": [
+  "zone:undercity",
+  "topic:forsaken",
+  "subzone:canals-stormwind-city"
+ ],
+ "attribution": [
+  "Canals (Undercity)"
+ ]
+}

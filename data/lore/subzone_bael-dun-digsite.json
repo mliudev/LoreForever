@@ -1,0 +1,90 @@
+{
+ "key": "subzone:bael-dun-digsite",
+ "type": "subzone",
+ "name": "Bael'dun Digsite",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Bael'dun Digsite"
+ },
+ "summary": "The Bael'dun Digsite is a dwarven excavation carved deep into the mountains along the western edge of Mulgore. Established by Prospector Khazgorm's team out of Bael Modan, the quarry is viewed by the local tauren as a direct desecration of their ancestral homeland and an insult to the Earth Mother.",
+ "sections": [
+  {
+   "title": "Intrusion in the Hills",
+   "body": "Perched on the mountain slopes of western Mulgore, the Bael'dun Digsite represents the southernmost reach of the dwarven Explorers' League expedition based out of Bael Modan in the southern Barrens. Unconcerned with territorial borders or the spiritual traditions of the newly settled tribes, dwarven prospectors arrived with picks, shovels, and blasting powder to unearth ancient Titan relics buried beneath the plains.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defending the Earth Mother",
+   "body": "The Bloodhoof tribe viewed this invasive quarrying as an outright assault on the Earth Mother. Baine Bloodhoof initially urged caution and attempted to warn the interlopers away, but the dwarves flatly refused to abandon their trenches. Concluding that diplomacy had failed, the tauren resolved to break the expedition's tools and forcibly expel the miners before their destructive digging tears further into Mulgore's sacred earth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are dwarves digging in Mulgore?",
+   "aliases": [
+    "why are dwarves here",
+    "dwarves in mulgore",
+    "baeldun dwarves"
+   ],
+   "answer": "The prospectors belong to the dwarven expedition headquartered at Bael Modan in the southern Barrens. Driven by the Explorers' League's quest to uncover ancient artifacts and Titan heritage, they established this outpost wherever their instruments suggested relics might lie, disregarding tauren sovereignty."
+  },
+  {
+   "q": "How does the Bloodhoof tribe respond to the digsite?",
+   "aliases": [
+    "what do tauren think",
+    "baine reaction",
+    "tauren response to digsite"
+   ],
+   "answer": "The tauren view the operation as an intolerable wound against the Earth Mother. After the dwarves refused early warnings to leave peacefully, Baine Bloodhoof and the village leaders sent warriors to destroy the miners' tools and drive the trespassers out of Mulgore."
+  },
+  {
+   "q": "What is the connection between Bael'dun and Bael Modan?",
+   "aliases": [
+    "bael modan link",
+    "where do these dwarves come from"
+   ],
+   "answer": "Bael'dun is a satellite digsite established directly from the fortress and primary excavation at Bael Modan, located just across the mountain ridge in the southern Barrens."
+  },
+  {
+   "q": "Why didn't the tauren simply negotiate with the expedition?",
+   "aliases": [
+    "did tauren try peace",
+    "diplomacy with dwarves"
+   ],
+   "answer": "Baine Bloodhoof initially pursued diplomatic solutions and issued formal warnings to the expedition leaders. However, the dwarves treated Mulgore as unclaimed wilderness and completely ignored tauren spiritual concerns, leaving force as the tribe's only recourse."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The intrusive scarring of Mulgore's western hills makes Bael'dun a direct insult to the Earth Mother, demanding decisive action to protect ancestral soil from foreign desecration."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though driven by an earnest thirst for historical discovery, the Bael'dun miners have overextended deep into sovereign Horde territory, sparking violent friction with the locals."
+  }
+ ],
+ "keywords": [
+  "bael modan",
+  "bael'dun",
+  "baeldun",
+  "baine bloodhoof",
+  "digsite",
+  "dwarves",
+  "earth mother",
+  "explorers league",
+  "mulgore"
+ ],
+ "related": [
+  "zone:mulgore",
+  "subzone:bael-modan",
+  "npc:baine-bloodhoof",
+  "topic:earth-mother",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Bael'dun Digsite"
+ ]
+}

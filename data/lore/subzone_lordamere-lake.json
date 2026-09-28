@@ -1,0 +1,94 @@
+{
+ "key": "subzone:lordamere-lake",
+ "type": "subzone",
+ "name": "Lordamere Lake",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Lordamere Lake"
+ },
+ "summary": "Lordamere Lake is one of the largest bodies of freshwater in the Eastern Kingdoms, bordered by Tirisfal Glades, Silverpine Forest, and the Alterac Mountains. Once the bustling aquatic heart of human civilization in the north, its cold waters and islands are now haunted by Scourge necromancers, feral murlocs, and the spreading shadow of the undead.",
+ "sections": [
+  {
+   "title": "Heart of the Fallen Kingdoms",
+   "body": "In the golden age of the Alliance of Lordaeron, Lordamere Lake sat at the crossroads of human power. The Capital City of Lordaeron guarded its northern shores, the sorcerous city-state of Dalaran rose near its southern reach, and the kingdom of Alterac lined its mountainous eastern edge. Merchant vessels and fishing boats once crossed its broad, mist-covered expanse without fear. Following the devastation of the Third War, the lake was transformed from a hub of commerce into a natural barrier dividing the Forsaken-held lands of Tirisfal and Silverpine from the treacherous heights of Alterac.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Contested Expanse",
+   "body": "Today, navigating the dark waters of Lordamere is fraught with peril. At the center of the lake sits Fenris Isle, where Scourge necromancer Thule Ravenclaw and his undead thralls hold out against the Forsaken, while vicious worgen prowl the vicinity. Further east lie the Dawning Isles, completely overrun by aggressive Vile Fin murlocs. From the ruins around Dalaran to the shoreline of the Undercity, the lake is no longer a peaceful highway, but a drowned frontier contested by remnant monsters and the armies of the dead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What kingdoms historically bordered Lordamere Lake?",
+   "aliases": [
+    "who lived on lordamere lake",
+    "lordamere lake history",
+    "kingdoms around lordamere"
+   ],
+   "answer": "Lordamere Lake was bordered by three major human kingdoms during the height of the Alliance of Lordaeron: the Kingdom of Lordaeron to the north and west, Dalaran to the south, and Alterac along its eastern mountain bluffs."
+  },
+  {
+   "q": "Who controls Fenris Isle in the middle of the lake?",
+   "aliases": [
+    "who is on fenris isle",
+    "fenris island lordamere",
+    "fenris isle ruler"
+   ],
+   "answer": "Fenris Isle is currently held by agents of the Scourge under the command of the necromancer Thule Ravenclaw, though they face relentless assaults from the Forsaken and constant pressure from ravenous worgen."
+  },
+  {
+   "q": "What are the Dawning Isles?",
+   "aliases": [
+    "dawning isles location",
+    "islands in lordamere lake",
+    "dawning isles monsters"
+   ],
+   "answer": "The Dawning Isles are a cluster of small islands situated in the eastern portion of Lordamere Lake, east of Fenris Isle. They have been overrun and claimed by hostile Vile Fin murlocs."
+  },
+  {
+   "q": "How did the lake get its name?",
+   "aliases": [
+    "lordamere name origin",
+    "why is it called lordamere"
+   ],
+   "answer": "The lake was named in conjunction with the nearby Capital City and kingdom of Lordaeron, which took their name from the ancient human general Lordain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, Lordamere Lake serves as both a defensive moat protecting Tirisfal and an active frontline where Scourge remnants on Fenris Isle must be purged."
+  },
+  {
+   "target": "race:Human",
+   "text": "The quiet, foggy waters of Lordamere are a somber reminder of the ruined glory of the northern human kingdoms, which once traded freely across its shores."
+  }
+ ],
+ "keywords": [
+  "alterac mountains",
+  "dawning isles",
+  "fenris isle",
+  "lake lordamere",
+  "lordamere lake",
+  "silverpine forest",
+  "thule ravenclaw",
+  "tirisfal glades",
+  "vile fin"
+ ],
+ "related": [
+  "subzone:fenris-isle",
+  "subzone:dawning-isles",
+  "zone:silverpine",
+  "zone:tirisfal",
+  "zone:alterac",
+  "subzone:dalaran",
+  "topic:lordaeron",
+  "quest:446"
+ ],
+ "attribution": [
+  "Lordamere Lake"
+ ]
+}

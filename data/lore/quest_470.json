@@ -1,0 +1,116 @@
+{
+ "key": "quest:470",
+ "type": "quest",
+ "name": "Digging Through the Ooze",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   470
+  ],
+  "level": "24",
+  "faction": "Alliance",
+  "start": "Sida",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Digging Through the Ooze",
+  "chain": []
+ },
+ "summary": "While paying her regular respects at Ironbeard's Tomb, Sida was startled by the foul oozes prowling the barrows and threw her bag to distract them. Unable to face the creeping sludge again, she asks brave adventurers in Menethil Harbor to track down the creature that swallowed her belongings.",
+ "sections": [
+  {
+   "title": "A Panicked Retreat",
+   "body": "Sida, a traveler residing in Menethil Harbor, regularly ventures northeast into the Wetlands to pay homage at Ironbeard's Tomb. On her latest visit, she found the ancient barrow crawling with foul, dripping oozes. Panicking at the sight of the shapeless horrors, she hurled her satchel at one of them. The creature simply engulfed the bag whole, though the distraction gave Sida just enough time to flee back to the safety of the port town.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sludge of Ironbeard's Tomb",
+   "body": "The burial site of the storied dwarven hero Ironbeard rests near the contested stronghold of Dun Modr. Despite its historical reverence, the surrounding marshland is prone to corruption, drawing amorphous acidic slimes that consume anything unfortunate enough to cross their path. Sida cannot remember which specific monstrosity swallowed her prized belongings, leaving travelers to scour the tomb grounds and carve through the creeping blight to recover her drenched satchel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sida?",
+   "aliases": [
+    "sida",
+    "who gives quest",
+    "who is sida"
+   ],
+   "answer": "Sida is an Alliance traveler located in Menethil Harbor. She makes regular pilgrimages out into the Wetlands to visit Ironbeard's Tomb, a habit that recently landed her in serious danger when hostile oozes ambushed her."
+  },
+  {
+   "q": "Where is Ironbeard's Tomb?",
+   "aliases": [
+    "ironbeard tomb location",
+    "where is ironbeard",
+    "where are the oozes"
+   ],
+   "answer": "Ironbeard's Tomb is located in the northeastern reaches of the Wetlands, south of Dun Modr. The area around the stone barrow has become infested with corrosive wetland oozes."
+  },
+  {
+   "q": "Which ooze swallowed Sida's bag?",
+   "aliases": [
+    "which ooze",
+    "ooze with bag",
+    "where is the bag"
+   ],
+   "answer": "Sida panicked during the attack and cannot tell the creatures apart. Any of the wandering slimes lurking outside Ironbeard's Tomb could be the one harboring her digested belongings."
+  },
+  {
+   "q": "Why was Sida visiting Ironbeard's Tomb?",
+   "aliases": [
+    "why sida visit tomb",
+    "sida weekly visit"
+   ],
+   "answer": "Sida makes a weekly visit to the tomb to pay respects to the ancient dwarf buried there, though her peaceful tradition was cut short by the unexpected presence of the oozes."
+  },
+  {
+   "q": "What happens after the bag is recovered?",
+   "aliases": [
+    "what was in the bag",
+    "bag reward"
+   ],
+   "answer": "Upon returning the slimy satchel to Menethil Harbor, Sida dumps its contents out onto the ground to retrieve her personal items. Finding the ruined container itself too repulsive to keep, she offers the cleaned-off bag to the adventurer who recovered it."
+  },
+  {
+   "q": "Is this related to the Dark Iron dwarves nearby?",
+   "aliases": [
+    "dark iron connection",
+    "dun modr connection"
+   ],
+   "answer": "While Dun Modr just to the north is embroiled in conflict with the Dark Iron clan, the slimes infesting Ironbeard's Tomb are wild marsh predators native to the damp, rotting corners of the Wetlands rather than dwarven soldiers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Ironbeard's Tomb holds the remains of an honored dwarven ancestor, making the defilement of the barrows by foul oozes an affront to any Bronzebeard loyalist."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Menethil Harbor serves as the Alliance's primary lifeline through the treacherous Wetlands, and aiding rattled citizens keeps the vital port secure and orderly."
+  }
+ ],
+ "keywords": [
+  "dun modr",
+  "ironbeard's tomb",
+  "menethil harbor",
+  "ooze",
+  "ooze-covered bag",
+  "sida",
+  "sida's bag",
+  "wetlands"
+ ],
+ "related": [
+  "npc:sida",
+  "subzone:ironbeard-s-tomb",
+  "subzone:menethil-harbor",
+  "zone:wetlands",
+  "subzone:dun-modr"
+ ],
+ "attribution": [
+  "Digging Through the Ooze"
+ ]
+}

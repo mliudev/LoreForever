@@ -1,0 +1,93 @@
+{
+ "key": "subzone:thorium-point",
+ "type": "subzone",
+ "name": "Thorium Point",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Thorium Point"
+ },
+ "summary": "Perched upon the northern bluffs of the Searing Gorge, Thorium Point serves as the primary staging camp for the Thorium Brotherhood. From this neutral outpost, these rogue Dark Iron dwarves recruit passing adventurers and strike back against their tyrannical kin deeper within the volcanic wastes.",
+ "sections": [
+  {
+   "title": "A Foothold Above the Ash",
+   "body": "Overlooking the scorched slag heaps of the Searing Gorge, Thorium Point is a modest mountain encampment built out of necessity. It is held by the Thorium Brotherhood, a renegade faction of Dark Iron dwarves who have severed ties with their enslaved brethren in Shadowforge City. Unwilling to bow to the Firelord or Emperor Dagran Thaurissan, these outcasts maintain an open-air forge, a busy flight master, and a well-guarded perimeter northeast of Firewatch Ridge. Because of their desperate struggle for survival and master-level smithing aspirations, the Brotherhood keeps the camp open to both the Alliance and the Horde, welcoming anyone willing to dig ores out of the ash or bash Dark Iron skulls.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Waystation for Wayfarers",
+   "body": "Beyond being a staging ground for the Brotherhood's war against their brethren, Thorium Point is an indispensable crossroads in the heart of the Redridge mountain chain. Perched safely above the ravenous spiders and fire elementals that prowl the volcanic basin, the outpost offers direct flight links to major cities like Ironforge and Stormwind, as well as forward camps across the Badlands, Burning Steppes, and beyond. For wandering mercenaries, prospectors, and crafters looking to earn the secretive favor of master dwarf smiths, this smoky cliffside is the safest hearth to be found in the Gorge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Thorium Point?",
+   "aliases": [
+    "who runs thorium point",
+    "thorium point owner",
+    "who lives at thorium point"
+   ],
+   "answer": "The outpost is controlled by the Thorium Brotherhood, a group of breakaway Dark Iron dwarves who reject the rule of their fiery emperor and seek to forge their own destiny free from elemental servitude."
+  },
+  {
+   "q": "Why is Thorium Point neutral to both the Alliance and Horde?",
+   "aliases": [
+    "why can horde use thorium point",
+    "is thorium point neutral",
+    "alliance horde thorium point"
+   ],
+   "answer": "The Thorium Brotherhood is vastly outnumbered by their hostile Dark Iron kin and the beasts of the Searing Gorge. They cannot afford to make enemies of traveling adventurers, so they trade freely and hire mercenaries regardless of faction allegiance."
+  },
+  {
+   "q": "What services are available at Thorium Point?",
+   "aliases": [
+    "flight path thorium point",
+    "what is at thorium point",
+    "thorium point vendors"
+   ],
+   "answer": "The encampment features flight masters connecting across Khaz Modan, Stormwind, and Lordaeron, alongside basic trade vendors, a working forge and anvil, and local work orders against the Dark Irons."
+  },
+  {
+   "q": "Where is Thorium Point located in Searing Gorge?",
+   "aliases": [
+    "how to find thorium point",
+    "thorium point location",
+    "where is thorium point"
+   ],
+   "answer": "It is perched along the northern rock wall of Searing Gorge, situated high northeast of Firewatch Ridge overlooking the caldera floor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The Dark Iron smiths here hold trade secrets coveted by metalworkers across the world, offering rare plans to crafters who supply them with volcanic ore and components."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Seeing Dark Iron dwarves who aren't immediately trying to murder you is rare, but Bronzebeard travelers know these outcasts are driven purely by craft and survival, not love for Ironforge."
+  }
+ ],
+ "keywords": [
+  "blacksmithing",
+  "dark iron",
+  "firewatch ridge",
+  "flight path",
+  "searing gorge",
+  "thorium brotherhood",
+  "thorium point"
+ ],
+ "related": [
+  "zone:searinggorge",
+  "subzone:firewatch-ridge",
+  "zone:burningsteppes",
+  "subzone:flame-crest",
+  "subzone:morgan-s-vigil",
+  "zone:ironforge",
+  "zone:badlands",
+  "subzone:kargath"
+ ],
+ "attribution": [
+  "Thorium Point"
+ ]
+}

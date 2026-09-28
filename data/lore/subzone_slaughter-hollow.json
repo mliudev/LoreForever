@@ -1,0 +1,84 @@
+{
+ "key": "subzone:slaughter-hollow",
+ "type": "subzone",
+ "name": "Slaughter Hollow",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Slaughter Hollow"
+ },
+ "summary": "Slaughter Hollow is a secluded ogre mound tucked away in the snowy heights of the Alterac Mountains. Controlled by the brutish Crushridge clan, it stands as a rough camp rather than a bustling settlement. Travelers rarely have reason to trespass unless hunting ogres or exploring the frozen mountain passes.",
+ "sections": [
+  {
+   "title": "A Den of Ogres",
+   "body": "Hidden high in the peaks bordering Hillsbrad and Alterac, Slaughter Hollow serves as an encampment for the local Crushridge ogres. Like many ogre mounds scattered across the highlands, it is littered with makeshift bonfires, discarded bones, and crude shelters. While other ogre dens in the mountains see frequent conflicts over territory or stolen supplies, Slaughter Hollow remains largely quiet and bypassed by major military campaigns.",
+   "spoiler": 0
+  },
+  {
+   "title": "Captives and Travelers",
+   "body": "Due to its seclusion, the mound occasionally serves as a holding place for unlucky prisoners taken along the mountain trails. Word among travelers once told of an unfortunate gnome named Rizz Loosebolt who found himself locked in a crude cage here, attempting to barter with anyone passing by. Such unfortunate captives rarely fare well against the appetite of the Crushridge clan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Slaughter Hollow?",
+   "aliases": [
+    "slaughter hollow lore",
+    "what is this place",
+    "slaughter hollow hillsbrad"
+   ],
+   "answer": "Slaughter Hollow is an ogre encampment in the Alterac Mountains inhabited by the Crushridge clan. It features primitive mound dwellings and fires typical of highland ogre settlements."
+  },
+  {
+   "q": "Who lives in Slaughter Hollow?",
+   "aliases": [
+    "who is here",
+    "slaughter hollow mobs",
+    "who controls slaughter hollow"
+   ],
+   "answer": "The hollow is inhabited entirely by Crushridge ogres, the same clan that holds the nearby ruins of Alterac City and various surrounding outposts."
+  },
+  {
+   "q": "Are there any quests here?",
+   "aliases": [
+    "slaughter hollow quests",
+    "any quests in slaughter hollow",
+    "why come here"
+   ],
+   "answer": "No formal quests send adventurers directly to Slaughter Hollow. It is largely an out-of-the-way den discovered while exploring the mountainous terrain."
+  },
+  {
+   "q": "Who was the gnome caged here?",
+   "aliases": [
+    "rizz loosebolt",
+    "gnome in cage",
+    "slaughter hollow vendor"
+   ],
+   "answer": "A gnome named Rizz Loosebolt was once held captive in a cage inside the hollow, hawking wares to anyone who found him before vanishing from the camp."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "The unfortunate capture of Rizz Loosebolt by the Crushridge serves as a stark warning to tinkerers and scouts who wander the Alterac passes unprepared."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "crushridge",
+  "hillsbrad",
+  "ogre mound",
+  "rizz loosebolt",
+  "slaughter hollow"
+ ],
+ "related": [
+  "zone:alterac",
+  "zone:hillsbrad",
+  "topic:gnome",
+  "topic:alterac-kingdom"
+ ],
+ "attribution": [
+  "Slaughter Hollow"
+ ]
+}

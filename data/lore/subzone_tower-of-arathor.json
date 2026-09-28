@@ -1,0 +1,94 @@
+{
+ "key": "subzone:tower-of-arathor",
+ "type": "subzone",
+ "name": "Tower of Arathor",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Tower of Arathor"
+ },
+ "summary": "The Tower of Arathor is a ruined wizard's tower situated in the former mage district in the southwestern reaches of Stromgarde Keep. Once the workshop of Archmage Trelane, it was overrun during the fall of the city and is currently occupied by Boulderfist ogres.",
+ "sections": [
+  {
+   "title": "A Bastion Overrun",
+   "body": "Erected in the heart of Stromgarde Keep's mage district and named after the ancient Empire of Arathor, this spire long served the realm's sorcerers. Its most notable resident, Archmage Trelane, devised a magical defensive grid keyed to enchanted gemstones to protect the sanctum. However, when the Syndicate and the Boulderfist ogre clan assaulted Stromgarde following the Third War, the kingdom fractured. Despite Trelane's desperate attempts to hold the tower using his arcane wards, the sheer brutish force of the ogres overwhelmed him. Forced to flee the city for his life, the archmage left behind his most prized arcane artifacts, leaving the spire in the hands of the Boulderfist brute Ruul Onestone and his followers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reclaiming the Lost Relics",
+   "body": "Even in exile, Trelane refused to abandon his life's work. Enlisting the aid of his former pupil, Archmage Malin of the Kirin Tor, an expedition was mounted to retrieve his phylactery, orb, and ember agate from the ruins. Operating out of Refuge Pointe, Malin's agents discovered that the ogres had pillaged the stones required to command the tower's automated defenses. By crafting a replacement enchanted agate and placing it upon the pedestals framing the tower's threshold, conjured water elementals could be awakened to purge the ogre occupiers and allow daring adventurers to recover the archmage's heirlooms.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Tower of Arathor?",
+   "aliases": [
+    "tower of arathor",
+    "stromgarde mage tower",
+    "arathi tower"
+   ],
+   "answer": "It is a mage tower located in the southwestern ruins of Stromgarde Keep. Named in honor of the ancient human empire of Arathor, it served as a center of study for the kingdom's mages until it fell to invading ogres."
+  },
+  {
+   "q": "Who lives in the tower now?",
+   "aliases": [
+    "who is in the tower of arathor",
+    "tower of arathor mobs",
+    "tower of arathor boss"
+   ],
+   "answer": "The tower and the surrounding mage district are occupied by Boulderfist ogres. Inside the spire dwells the ogre mage Ruul Onestone along with his guards, who have rooted out and guarded the relics left behind by its former master."
+  },
+  {
+   "q": "Who was Archmage Trelane?",
+   "aliases": [
+    "archmage trelane",
+    "who owned the tower",
+    "trelane"
+   ],
+   "answer": "Archmage Trelane was a prominent wizard of Stromgarde who lived and studied in the tower. He created its gemstone-powered warding systems and fled into exile after failing to defend the sanctum against the Boulderfist assault."
+  },
+  {
+   "q": "How do the tower's defenses work?",
+   "aliases": [
+    "how to activate tower defenses",
+    "trelane's defenses",
+    "tower pedestals"
+   ],
+   "answer": "Trelane keyed the tower to activate when an enchanted agate is placed against the pedestals flanking its entrance. When activated, the arcane matrix conjures hostile water elementals that battle any intruders occupying the entrance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The tower serves as a sobering reminder of what happened to Stromgarde's arcane enclave, while showcasing Archmage Trelane's clever mastery over defensive elemental constructs."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Stromgarde Keep is contested ground; helping Archmage Malin's agents recover Trelane's lost artifacts denies potent magical relics to the encroaching Boulderfist clan."
+  }
+ ],
+ "keywords": [
+  "arathi",
+  "boulderfist",
+  "malin",
+  "ruul onestone",
+  "skuerto",
+  "stromgarde",
+  "tower of arathor",
+  "trelane"
+ ],
+ "related": [
+  "subzone:stromgarde-keep",
+  "zone:arathi",
+  "npc:archmage-malin",
+  "npc:skuerto",
+  "quest:690",
+  "topic:syndicate",
+  "topic:alliance",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Tower of Arathor"
+ ]
+}

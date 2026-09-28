@@ -1,0 +1,113 @@
+{
+ "key": "quest:7672",
+ "type": "quest",
+ "name": "Nightsaber Replacement",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   7672
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "Lelanai",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Nightsaber Replacement",
+  "chain": []
+ },
+ "summary": "Nightsaber Replacement is an exchange offered by Lelanai, the saber handler in Darnassus. It allows riders who hold the reins of an older or unarmored nightsaber mount to trade them in. This simple service ensures that night elf cavaliers and their allies maintain their bond with these fierce predators of Teldrassil.",
+ "sections": [
+  {
+   "title": "The Saber Handlers of Darnassus",
+   "body": "Within the serene groves of Darnassus, Lelanai tends to the pride of the night elves: the fierce, predatory sabers native to Kalimdor. Night elves have fought alongside these massive cats for millennia, relying on their speed, keen night vision, and silent tread in the deep shadows of the forest. Caring for and outfitting these majestic beasts is an honored task among the Sentinels and their allies, ensuring every mount is fit for the trials of the wilds.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trading the Reins",
+   "body": "The exchange represented by this quest allows a rider in possession of an older pair of nightsaber reins to surrender them to Lelanai in return for a replacement. Whether due to changes in stable outfitting or replacing an older breed of mount, the saber handler assists riders in swapping their mounts to maintain proper care and readiness across the Alliance vanguard.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of Nightsaber Replacement?",
+   "aliases": [
+    "what does nightsaber replacement do",
+    "why replace nightsaber",
+    "nightsaber exchange purpose"
+   ],
+   "answer": "This exchange allows players to trade in an older version of their Nightsaber mount reins with Lelanai in Darnassus to receive a replacement mount."
+  },
+  {
+   "q": "Who offers this exchange?",
+   "aliases": [
+    "who gives nightsaber replacement",
+    "lelanai quest",
+    "who is lelanai"
+   ],
+   "answer": "Lelanai, the night elf saber trainer and vendor stationed in Darnassus, oversees the breeding, training, and exchange of nightsaber mounts."
+  },
+  {
+   "q": "Where is Lelanai located?",
+   "aliases": [
+    "where is lelanai",
+    "lelanai location",
+    "saber vendor darnassus"
+   ],
+   "answer": "Lelanai can be found in the Cenarion Enclave in Darnassus, tending to the stable of prowling nightsabers beneath the boughs of Teldrassil."
+  },
+  {
+   "q": "Why do night elves ride sabers?",
+   "aliases": [
+    "night elf mounts lore",
+    "why sabers",
+    "nightsaber lore"
+   ],
+   "answer": "Nightsabers are indigenous predators of northern Kalimdor. Renowned for their ferocity, agility, and keen nocturnal senses, they have served as loyal companions and war mounts for the Sentinels across thousands of years."
+  },
+  {
+   "q": "Can members of other Alliance races ride nightsabers?",
+   "aliases": [
+    "can humans ride nightsabers",
+    "cross faction mounts",
+    "can dwarves ride cats"
+   ],
+   "answer": "Yes, but non-night elf members of the Alliance must earn deep trust and exalted reputation with Darnassus before Lelanai and the night elves will permit them to purchase or train to ride a nightsaber."
+  },
+  {
+   "q": "Do you need special training to ride a nightsaber?",
+   "aliases": [
+    "riding skill for nightsaber",
+    "tiger riding training"
+   ],
+   "answer": "Yes. Handling a fierce nightsaber requires specific tiger riding training, which is taught by the saber trainers in Darnassus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Nightsabers are cultural symbols and combat partners for the kaldorei, nurtured from cubs to carry Sentinels through Ashenvale and Teldrassil."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance relies heavily on the swift scouting and shock cavalry provided by night elf saber riders in the untamed wilderness of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "exchange",
+  "lelanai",
+  "mount",
+  "nightsaber",
+  "reins",
+  "saber"
+ ],
+ "related": [
+  "npc:lelanai"
+ ],
+ "attribution": [
+  "Nightsaber Replacement"
+ ]
+}

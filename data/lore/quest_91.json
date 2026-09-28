@@ -1,0 +1,126 @@
+{
+ "key": "quest:91",
+ "type": "quest",
+ "name": "Solomon's Law",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   91
+  ],
+  "level": "23",
+  "faction": "Alliance",
+  "start": "Bailiff Conacher",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Solomon's Law",
+  "chain": []
+ },
+ "summary": "Solomon's Law is a local decree issued through Bailiff Conacher in the Lakeshire Town Hall. It condemns the Shadowhide gnolls of Redridge to death for colluding with Morganth, an exiled enemy of Stormwind. Adventurers are tasked with enforcing the town's harsh frontier justice by bringing back pendants taken from the gnolls.",
+ "sections": [
+  {
+   "title": "Frontier Justice in Lakeshire",
+   "body": "Lakeshire stands largely isolated from Stormwind's immediate military support, forcing Magistrate Solomon and his town officials to govern Redridge with strict frontier authority. Operating out of the town hall, Bailiff Conacher serves as the arm of the local magistrate court. When external threats menace the township, the court has little recourse other than putting bounties on offenders' heads, relying on freelance mercenaries and traveling defenders to uphold the kingdom's statutes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Aiding an Enemy of the Crown",
+   "body": "The legal justification for exterminating the Shadowhide clan rests on their alliance with Morganth, a rogue spellcaster entrenched in the eastern hills. Under the laws of Lakeshire and the Kingdom of Stormwind, directly aiding a declared enemy of the realm carries a mandatory sentence of death. Because the gnolls actively carry out Morganth's bidding, the court regards them not merely as wild scavengers, but as treasonous belligerents subject to execution.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Solomon and what is his law?",
+   "aliases": [
+    "who is solomon",
+    "solomon law meaning",
+    "what is solomons law"
+   ],
+   "answer": "Solomon refers to Magistrate Solomon, the civilian leader of Lakeshire. 'Solomon's Law' reflects his local edicts and the statutes of Stormwind, which state that aiding a declared criminal of the kingdom is a treasonous offense punishable by death."
+  },
+  {
+   "q": "Who is Morganth and why does Lakeshire care about him?",
+   "aliases": [
+    "who is morganth",
+    "morganth backstory",
+    "why morganth dangerous"
+   ],
+   "answer": "Morganth is a rogue practitioner of the Arcane living in the eastern foothills of Redridge. Branded an enemy of Stormwind, he uses foul magic to terrorize the local townsfolk and has bent the Shadowhide gnolls to his dark will."
+  },
+  {
+   "q": "Why are the Shadowhide gnolls being hunted specifically?",
+   "aliases": [
+    "why kill shadowhides",
+    "shadowhide gnolls redridge",
+    "why gnolls targeted"
+   ],
+   "answer": "While gnolls are always dangerous to local settlers, the Shadowhide clan has entered the direct service of the dark wizard Morganth. This active alliance makes them lawful targets for execution under town decree."
+  },
+  {
+   "q": "What are the pendants for?",
+   "aliases": [
+    "why shadowhide pendants",
+    "purpose of pendants",
+    "pendants proof"
+   ],
+   "answer": "The pendants worn by the Shadowhide gnolls serve as proof of their death. Bailiff Conacher requires adventurers to turn in ten of them to certify that the court's sentence has been carried out before awarding any bounty."
+  },
+  {
+   "q": "Where does Bailiff Conacher conduct his business?",
+   "aliases": [
+    "conacher location",
+    "where is bailiff conacher",
+    "lakeshire court"
+   ],
+   "answer": "Bailiff Conacher is stationed inside the Lakeshire Town Hall, alongside Magistrate Solomon and other civil administrators managing Redridge's affairs."
+  },
+  {
+   "q": "Why doesn't Stormwind send royal soldiers to deal with this?",
+   "aliases": [
+    "where is stormwind army",
+    "why no guards for gnolls",
+    "lakeshire abandoned by stormwind"
+   ],
+   "answer": "The Kingdom of Stormwind is stretched thin and currently troubled by political paralysis and unrest across its territories. Lakeshire's requests for formal military reinforcements have repeatedly been overlooked, leaving Magistrate Solomon to hire adventurers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Upholding Solomon's decree strengthens the rule of law on the eastern frontier where Stormwind's regular forces are conspicuously absent."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Punishing vile gnolls who willingly serve a dark sorcerer satisfies the call to bring holy justice and protection to besieged frontier towns."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Morganth represents the perversion of Arcane knowledge turned toward dark terror, making his agents a priority target for disciplined spellcasters."
+  }
+ ],
+ "keywords": [
+  "conacher",
+  "gnolls",
+  "lakeshire",
+  "morganth",
+  "pendants",
+  "redridge",
+  "shadowhide",
+  "solomon",
+  "town hall"
+ ],
+ "related": [
+  "npc:bailiff-conacher",
+  "subzone:lakeshire-town-hall",
+  "subzone:lakeshire",
+  "quest:249",
+  "topic:gnoll",
+  "zone:redridge",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Solomon's Law"
+ ]
+}

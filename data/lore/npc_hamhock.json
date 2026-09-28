@@ -1,0 +1,110 @@
+{
+ "key": "npc:hamhock",
+ "type": "npc",
+ "name": "Hamhock",
+ "era": "classic",
+ "zone": "stockade",
+ "meta": {
+  "wiki": "Hamhock",
+  "refs": 5
+ },
+ "summary": "Hamhock is a massive two-headed ogre confined within the depths of the Stormwind Stockade. Locked away beneath the capital alongside hardened Defias insurgents and cutthroats, he looms as a particularly brutal and unexpected inmate amidst the prison riot.",
+ "sections": [
+  {
+   "title": "A Brute Behind Bars",
+   "body": "The Stormwind Stockade was built to hold petty thieves, murderers, and political dissidents, making a towering two-headed ogre an imposing sight among the cells. When the prisoners rose up and took control of the facility, Hamhock remained entrenched in the chaos, crushing anyone foolish enough to intrude on his cellblock.",
+   "spoiler": 0
+  },
+  {
+   "title": "Murky Origins",
+   "body": "Stormwind authorities keep few public records regarding how Hamhock was captured. Popular speculation among guards and city residents suggests he may have been dragged north from the Splinter Fist clan at Duskwood's Vul'Gol Ogre Mound. Others suspect he was recruited into the Defias Brotherhood as mercenary muscle before falling into the custody of the city watch.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hamhock?",
+   "aliases": [
+    "hamhock",
+    "who is the ogre in stockade",
+    "ogre boss stockade"
+   ],
+   "answer": "Hamhock is an elite two-headed ogre prisoner held within the Stormwind Stockade. Amid the uprising led by the Defias convicts, he acts as a dangerous obstacle deep inside the prison corridors."
+  },
+  {
+   "q": "How did an ogre end up in the Stormwind Stockade?",
+   "aliases": [
+    "why is hamhock in jail",
+    "how did hamhock get captured",
+    "why is there an ogre in stockades"
+   ],
+   "answer": "Official records do not detail his capture, but he is widely thought to either be a captured brute from the Splinter Fist clan inhabiting Duskwood or a hired enforcer employed by the Defias Brotherhood who was caught during illicit operations."
+  },
+  {
+   "q": "Is Hamhock allied with the Defias rioters?",
+   "aliases": [
+    "is hamhock defias",
+    "hamhock defias brotherhood",
+    "does hamhock work for bazil"
+   ],
+   "answer": "While the entire facility has fallen into rebellion under Defias ringleaders, it is unclear whether Hamhock truly coordinates with them or simply revels in the unbridled mayhem of the broken cells."
+  },
+  {
+   "q": "Is Hamhock related to the ogres in Duskwood?",
+   "aliases": [
+    "is hamhock splinter fist",
+    "hamhock vulgol",
+    "vul'gol ogres stockade"
+   ],
+   "answer": "Many believe he originated from the Vul'Gol Ogre Mound in Duskwood, which would place him among the Splinter Fist clan led by Zzarc'Vul prior to being captured and brought to Stormwind."
+  },
+  {
+   "q": "Is Hamhock tied to any specific bounty or quest?",
+   "aliases": [
+    "hamhock quest",
+    "is there a quest for hamhock",
+    "hamhock bounty"
+   ],
+   "answer": "No official bounties or city warrants are offered specifically for Hamhock's head. He is an incidental menace whom adventurers encounter while clearing out the rioting stronghold."
+  },
+  {
+   "q": "Why are two-headed ogres significant?",
+   "aliases": [
+    "two headed ogre lore",
+    "why two heads"
+   ],
+   "answer": "Two-headed ogres possess distinct personalities between their heads and are often more cunning or magically adept than their single-headed kin, making Hamhock exceptionally dangerous to standard prison guards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Finding a two-headed ogre unrestrained directly beneath the capital's streets underscores just how catastrophically the city guards have lost control of the Stockade."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Subduing Hamhock requires meeting raw, hulking strength head-on within the tight confines of the prison hallways."
+  }
+ ],
+ "keywords": [
+  "duskwood",
+  "hamhock",
+  "ogre",
+  "prison",
+  "splinter fist",
+  "stockade",
+  "stormwind",
+  "two-headed"
+ ],
+ "related": [
+  "zone:stockade",
+  "subzone:stormwind-stockade",
+  "topic:defias-brotherhood",
+  "subzone:vul-gol-ogre-mound",
+  "zone:duskwood",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Hamhock"
+ ]
+}

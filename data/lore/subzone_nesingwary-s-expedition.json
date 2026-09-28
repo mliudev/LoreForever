@@ -1,0 +1,90 @@
+{
+ "key": "subzone:nesingwary-s-expedition",
+ "type": "subzone",
+ "name": "Nesingwary's Expedition",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Nesingwary's Expedition"
+ },
+ "summary": "Nesingwary's Expedition is a rustic hunting encampment situated in northern Stranglethorn Vale, just north of Lake Nazferiti. Established by the famed dwarven marksman Hemet Nesingwary, the outpost serves as a staging ground for hunters seeking to test their mettle against the jungle's fiercest predators.",
+ "sections": [
+  {
+   "title": "A Hunters' Outpost in the Jungle",
+   "body": "Tucked alongside the river north of Lake Nazferiti, this remote encampment is a bustling haven for big game hunters, trackers, and marksmen. Hemet Nesingwary established the camp to stalk the legendary beasts of Stranglethorn Vale, surrounded by seasoned peers like Sir S. J. Erlgadin, Ajeck Rouack, and Barnil Stonepot. Guarded by hired marksmen and supplied by neutral vendors, the camp welcomes anyone capable of handling a rifle or bow, regardless of their allegiances, uniting them under the singular pursuit of tracking down the deadliest predators the jungle has to offer.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pages and Predators",
+   "body": "Life in the expedition camp revolves around intense competition and grand tall tales. Hunters are continually challenged to master the tracking and slaying of the jungle's native panthers, raptors, and tigers, culminating in hunts for apex beasts. Aside from the thrill of the chase, the camp contends with its own small logistical disasters, notably the scattering of Nesingwary's sprawling manuscript across the wilds, leaving camp scholars eager to recover every missing chapter.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who runs Nesingwary's Expedition?",
+   "aliases": [
+    "who leads this camp",
+    "nesingwary camp leader",
+    "who is in charge here"
+   ],
+   "answer": "The camp was founded and is led by the legendary dwarven big game hunter Hemet Nesingwary, alongside his son Hemet Nesingwary Jr. and a circle of veteran marksmen."
+  },
+  {
+   "q": "Why is the expedition here in Stranglethorn Vale?",
+   "aliases": [
+    "what are they doing here",
+    "why nesingwary stranglethorn",
+    "purpose of camp"
+   ],
+   "answer": "The expedition traveled to Stranglethorn to hunt the dense jungle's most dangerous wildlife, including prowling panthers, aggressive raptors, ferocious tigers, and legendary trophy beasts."
+  },
+  {
+   "q": "Is Nesingwary's Expedition friendly to both Alliance and Horde?",
+   "aliases": [
+    "is nesingwary neutral",
+    "can horde visit nesingwary",
+    "can alliance visit nesingwary"
+   ],
+   "answer": "Yes. The camp operates as a neutral hunting outfit. Nesingwary's hired guns maintain peace so long as visitors respect the camp, welcoming both Alliance and Horde hunters who wish to prove their tracking skills."
+  },
+  {
+   "q": "What is the story behind the missing manuscript pages?",
+   "aliases": [
+    "green hills of stranglethorn story",
+    "why are pages scattered",
+    "barnil stonepot book"
+   ],
+   "answer": "Hemet Nesingwary authored an extensive hunting memoir titled 'The Green Hills of Stranglethorn.' Unfortunately, the manuscript's loose pages were lost throughout the wilderness, prompting camp archivist Barnil Stonepot to enlist travelers to recover them."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For marksmen and beast masters, this camp is a proving ground where you can hone your tracking skills against the deadliest predators of Stranglethorn Vale."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Seeing Hemet Nesingwary and fellow Khaz Modan mountaineers carving out a thriving camp amidst the humid tropical wilds is a familiar sight of dwarven grit and love for the hunt."
+  }
+ ],
+ "keywords": [
+  "camp",
+  "expedition",
+  "green hills",
+  "hemet",
+  "hunters",
+  "nazferiti",
+  "nesingwary",
+  "stranglethorn"
+ ],
+ "related": [
+  "quest:788",
+  "quest:5762",
+  "zone:stranglethorn",
+  "subzone:lake-nazferiti"
+ ],
+ "attribution": [
+  "Nesingwary's Expedition"
+ ]
+}

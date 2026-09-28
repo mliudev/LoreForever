@@ -1,0 +1,91 @@
+{
+ "key": "npc:ragnar-thunderbrew",
+ "type": "npc",
+ "name": "Ragnar Thunderbrew",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Ragnar Thunderbrew",
+  "refs": 2
+ },
+ "summary": "Ragnar Thunderbrew is a dwarven brewer and co-owner of the renowned Thunderbrew Distillery in Kharanos. Known across Dun Morogh for serving his family's signature Beer Basted Boar Ribs, he works constantly to keep the busy tavern stocked and its patrons satisfied.",
+ "sections": [
+  {
+   "title": "A Pillar of Kharanos Hospitality",
+   "body": "Standing inside the Thunderbrew Distillery at Kharanos, Ragnar Thunderbrew manages the establishment's culinary reputation alongside his family's brewing operations. The distillery is a central gathering place for local mountaineers, traveling adventurers, and gnome refugees fleeing Gnomeregan. Chief among his duties is preparing the family's renowned Beer Basted Boar Ribs, a hearty Dun Morogh specialty cooked with stout dwarven ale. However, maintaining steady supplies has become difficult; his usual meat provider enlisted in the King's Army, leaving Ragnar dependent on wandering mountaineers and hunters to keep fresh crag boar flanks coming into the kitchen.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Thunderbrew Legacy",
+   "body": "The Thunderbrew name is synonymous with dwarven alcohol and pub culture throughout Ironforge territory. Ragnar works closely with his kin, notably his brother Grimbooze Thunderbrew, defending their fiercely guarded brewing heritage against rival operations like the Barleybrews. Between restless patrons, missing supply lines, and rowdy tavern disputes, Ragnar keeps a steady hand on the taps, ensuring no traveler departs Kharanos with an empty mug or an empty belly.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ragnar Thunderbrew?",
+   "aliases": [
+    "who is ragnar",
+    "ragnar thunderbrew role",
+    "ragnar kharanos"
+   ],
+   "answer": "Ragnar Thunderbrew is a dwarven brewer and part-owner of the Thunderbrew Distillery in Kharanos. He tends the tavern and handles the preparation of the clan's famous ale-basted boar ribs."
+  },
+  {
+   "q": "Why is Ragnar looking for boar ribs?",
+   "aliases": [
+    "why need boar meat",
+    "beer basted ribs quest",
+    "boar rib supply"
+   ],
+   "answer": "Ragnar's regular meat supplier enlisted in King Magni's army, leaving the kitchen short on ingredients. To satisfy hungry patrons, he buys fresh flanks from passing hunters and travelers."
+  },
+  {
+   "q": "How is Ragnar related to Grimbooze Thunderbrew?",
+   "aliases": [
+    "ragnar and grimbooze",
+    "grimbooze thunderbrew relation"
+   ],
+   "answer": "Ragnar and Grimbooze are brothers and proud scions of the Thunderbrew family, dedicated to perfecting dwarven ales and recipes throughout Khaz Modan."
+  },
+  {
+   "q": "Where is Ragnar Thunderbrew located?",
+   "aliases": [
+    "ragnar location",
+    "where to find ragnar thunderbrew"
+   ],
+   "answer": "Ragnar can be found inside the Thunderbrew Distillery in the village of Kharanos, nestled in the central snowy hills of Dun Morogh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Ragnar is famous for the Thunderbrew family's Beer Basted Boar Ribs recipe, making him a worthwhile contact for aspiring cooks looking to master hearty dwarven pub dishes."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves passing through Dun Morogh, Ragnar's tavern is a home away from home, showcasing the finest ale and rib cooking the clan has to offer."
+  }
+ ],
+ "keywords": [
+  "ale",
+  "beer basted boar ribs",
+  "dun morogh",
+  "dwarf",
+  "grimbooze thunderbrew",
+  "kharanos",
+  "ragnar thunderbrew",
+  "thunderbrew distillery"
+ ],
+ "related": [
+  "subzone:thunderbrew-distillery",
+  "subzone:kharanos",
+  "quest:384",
+  "npc:grimbooze-thunderbrew",
+  "zone:dunmorogh",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Ragnar Thunderbrew"
+ ]
+}

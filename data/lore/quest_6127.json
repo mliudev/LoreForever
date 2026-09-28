@@ -1,0 +1,127 @@
+{
+ "key": "quest:6127",
+ "type": "quest",
+ "name": "The Principal Source",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   6127
+  ],
+  "level": "14",
+  "faction": "Horde",
+  "start": "Dendrite Starblaze",
+  "end": "Tonga Runetotem",
+  "previous": "Lessons Anew (Horde)",
+  "next": "Gathering the Cure (Horde)",
+  "wiki": "The Principal Source (Horde)",
+  "chain": []
+ },
+ "summary": "\"The Principal Source\" is a Horde druid quest tasked by Dendrite Starblaze in Moonglade. It sends initiating druids to Dreadmist Peak in the northern Barrens to sample tainted pool water and bring it to Tonga Runetotem at the Crossroads. The sample provides the foundation needed to understand a spreading poison afflicting the region's wildlife.",
+ "sections": [
+  {
+   "title": "A Mountain Tainted",
+   "body": "Dreadmist Peak looms northwest of the Crossroads, high enough that its elevated springs and pools influence the surrounding weather patterns and natural moisture of the arid northern Barrens. Unfortunately, demon-worshiping cultists of the Burning Blade have established a presence on its crags. Dendrite Starblaze recognizes that foul sorcery atop such a vital natural vantage point can contaminate the entire surrounding basin.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Plague on the Plains",
+   "body": "Across the northern savanna, sickly gazelles have been seen stumbling north of the main east-west crossroads trail. Tonga Runetotem, seeking aid on behalf of the local tauren, reached out to the Cenarion Circle to help discover what was poisoning the herd. By braving the peak and recovering a pure sample of the tainted waters, druids provide Tonga with the crucial catalyst required to analyze the malady and brew an antidote.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I get the water sample for this quest?",
+   "aliases": [
+    "dreadmist peak pool location",
+    "where is the water pool",
+    "principal source water sample"
+   ],
+   "answer": "The water must be drawn from the pool located at the very peak of Dreadmist Peak, northwest of the Crossroads in the Barrens. You must reach the mountaintop pool where the Burning Blade cultists gather and use the sampler provided by Dendrite Starblaze."
+  },
+  {
+   "q": "Why is the water on Dreadmist Peak so important to the Barrens?",
+   "aliases": [
+    "why dreadmist peak matters",
+    "barrens weather pool",
+    "dreadmist peak pools"
+   ],
+   "answer": "The airy heights of Dreadmist Peak hold pools that directly influence the local weather patterns and mist. When demonic cultists foul these waters, the poisoned vapor and runoff drift down to corrupt the plains below, sickening wildlife across the northern Barrens."
+  },
+  {
+   "q": "Who is Tonga Runetotem?",
+   "aliases": [
+    "who is tonga",
+    "tonga runetotem role",
+    "crossroads druid"
+   ],
+   "answer": "Tonga Runetotem is a tauren druid stationed at the Crossroads in the Barrens. Deeply alarmed by the unnatural afflictions spreading among local gazelles, he petitioned the Cenarion Circle in Moonglade for assistance in diagnosing and purifying the land."
+  },
+  {
+   "q": "Who is corrupting the water on the peak?",
+   "aliases": [
+    "who tainted the pool",
+    "dreadmist cultists",
+    "burning blade dreadmist"
+   ],
+   "answer": "The waters have been corrupted by the Burning Blade, a shadowy cult of demon-worshiping warlocks and fel practitioners who have occupied the winding paths and summit of Dreadmist Peak."
+  },
+  {
+   "q": "What ability does completing this chain teach?",
+   "aliases": [
+    "power over poison reward",
+    "druid poison cure spell",
+    "cure poison quest barrens"
+   ],
+   "answer": "This assignment is part of the larger 'Power over Poison' rite for young Horde druids, which culminates in mastering the spiritual and herbal lore required to cure poisons in the field."
+  },
+  {
+   "q": "Can Alliance druids do this quest?",
+   "aliases": [
+    "alliance equivalent",
+    "can night elves do principal source",
+    "alliance poison quest"
+   ],
+   "answer": "No. 'The Principal Source' is specifically the Horde version of the trial, sending players to the Barrens to aid Tonga Runetotem. Alliance druids undertake an equivalent journey in Darkshore and Westfall to earn their poison-cleansing abilities."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This rite of passage is an essential step in your path as a protector of the wild, proving you can trace corruption to its source and isolate magical toxins before they ruin an entire ecosystem."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The Barrens are ancestral lands to the tribes of Kalimdor; purifying the water helps protect the gazelle herds that have sustained your people for generations from demonic taint."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Crossroads is the logistical heart of the Horde's presence in Kalimdor, making the unchecked spread of demonic blight right in its backyard an immediate danger to trade and survival."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "cenarion circle",
+  "crossroads",
+  "dendrite starblaze",
+  "dreadmist peak",
+  "power over poison",
+  "principal source",
+  "sickly gazelle",
+  "tonga runetotem"
+ ],
+ "related": [
+  "quest:6125",
+  "npc:dendrite-starblaze",
+  "npc:tonga-runetotem",
+  "subzone:dreadmist-peak",
+  "subzone:crossroads",
+  "topic:cenarion-circle",
+  "zone:barrens",
+  "topic:druid"
+ ],
+ "attribution": [
+  "The Principal Source (Horde)"
+ ]
+}

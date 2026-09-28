@@ -1,0 +1,119 @@
+{
+ "key": "quest:40",
+ "type": "quest",
+ "name": "A Fishy Peril",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   40
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Remy \"Two Times\"",
+  "end": "Marshal Dughan",
+  "previous": null,
+  "next": "Further Concerns",
+  "wiki": "A Fishy Peril",
+  "chain": []
+ },
+ "summary": "A Fishy Peril is a short dispatch quest tasked by Remy \"Two Times\" in eastern Elwynn Forest. Disturbed by reports of amphibious predators encroaching on the waterways, Remy sends travelers to alert Marshal Dughan in Goldshire. The errand highlights the strained resources of Stormwind's local garrison in responding to emerging wilderness threats.",
+ "sections": [
+  {
+   "title": "A Plea from the East",
+   "body": "While conducting trade along the eastern roads of Elwynn Forest, Remy \"Two Times\" finds himself unnerved by a strange new menace. Murlocs have begun creeping up the streams and inland shallows, disrupting fishing and menacing innocent travelers. Convinced that the local guard is overlooking a brewing catastrophe, Remy pleads with passersby to take word back to the heart of the township.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Strained Garrison",
+   "body": "Upon receiving the report in Goldshire, Marshal Dughan remains skeptical. Tasked with protecting the realm while royal forces are stretched thin elsewhere, Dughan is already consumed by the violent resurgence of Riverpaw gnolls and Defias highwaymen. Without confirmed military intelligence, the marshal refuses to divert his scarce men to chase rumors of fish-men in the eastern streams.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest A Fishy Peril?",
+   "aliases": [
+    "quest giver a fishy peril",
+    "who starts a fishy peril",
+    "remy quest"
+   ],
+   "answer": "The quest is offered by Remy \"Two Times\", a nervous merchant found traveling along the roads of eastern Elwynn Forest."
+  },
+  {
+   "q": "Why is Remy \"Two Times\" worried about murlocs?",
+   "aliases": [
+    "why remy scared",
+    "murloc problem elwynn",
+    "fishy peril lore"
+   ],
+   "answer": "Remy has observed murlocs swimming up the rivers of eastern Elwynn, driving away the local fish and attacking travelers along the waterways."
+  },
+  {
+   "q": "Why won't Marshal Dughan send troops immediately?",
+   "aliases": [
+    "why dughan ignores murlocs",
+    "marshal dughan response",
+    "why no troops east"
+   ],
+   "answer": "Marshal Dughan considers the civilian rumors unverified. With Goldshire's garrison heavily preoccupied by gnoll attacks and organized banditry, he cannot commit soldiers without formal military scout reports."
+  },
+  {
+   "q": "Where does this quest lead next?",
+   "aliases": [
+    "what comes after a fishy peril",
+    "next quest after fishy peril",
+    "further concerns quest"
+   ],
+   "answer": "Marshal Dughan follows up this conversation with Further Concerns, requiring reliable confirmation from scouts before committing royal resources to the east."
+  },
+  {
+   "q": "Where does the player turn in A Fishy Peril?",
+   "aliases": [
+    "where turn in fishy peril",
+    "fishy peril turn in",
+    "dughan location"
+   ],
+   "answer": "The quest is delivered to Marshal Dughan inside or just outside the Lion's Pride Inn in Goldshire."
+  },
+  {
+   "q": "What larger threat are the murlocs part of in Elwynn?",
+   "aliases": [
+    "murlocs in elwynn",
+    "are murlocs dangerous elwynn"
+   ],
+   "answer": "While murlocs appear primitive and erratic, their aggressive colonization of inland lakes such as Stonecairn Lake and Crystal Lake threatens rural trade and agriculture alongside gnoll and bandit attacks."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This dispatch showcases the bureaucratic and logistical strain on Stormwind's home guard, forcing the township to rely on independent adventurers to investigate rumors."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans defending their homeland, the invasion of eastern waterways strikes close to home as familiar streams turn into dangerous hunting grounds for aquatic beasts."
+  }
+ ],
+ "keywords": [
+  "a fishy peril",
+  "elwynn forest",
+  "further concerns",
+  "goldshire",
+  "marshal dughan",
+  "murloc",
+  "remy two times"
+ ],
+ "related": [
+  "npc:remy-two-times",
+  "npc:marshal-dughan",
+  "quest:35",
+  "topic:murloc",
+  "subzone:goldshire",
+  "zone:elwynn",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "A Fishy Peril"
+ ]
+}

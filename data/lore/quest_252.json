@@ -1,0 +1,118 @@
+{
+ "key": "quest:252",
+ "type": "quest",
+ "name": "Translation to Ello",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   252
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Sirra Von'Indi",
+  "end": "Lord Ello Ebonlocke",
+  "previous": "Wait for Sirra to Finish",
+  "next": "Bride of the Embalmer",
+  "wiki": "Translation to Ello",
+  "chain": []
+ },
+ "summary": "Translation to Ello is the grim climax of the Abercrombie errand chain in Duskwood. Having asked Sirra Von'Indi to decipher the hermit's cryptic writings, the adventurer rushes the translation back to Town Hall, unaware of the horror about to unfold.",
+ "sections": [
+  {
+   "title": "A Belated Realization",
+   "body": "For days, the elderly hermit Abercrombie had travelers running errands across Duskwood under the pretense of frail survival. He requested thread, preserved reagents, and personal belongings. Only when Sirra Von'Indi finally deciphers his private parchment does the truth come out: the kindly old man is an unhinged embalmer, and the components gathered were used to construct a terrifying weapon of revenge aimed straight at Darkshire.",
+   "spoiler": 1
+  },
+  {
+   "title": "The Road to Darkshire",
+   "body": "Presenting the translated letter to Lord Ello Ebonlocke drains all color from the mayor's face. Whatever noble motives guided an adventurer's assistance, delivering those final supplies allowed Abercrombie to finish his monstrous creation, Stitches. Handing over the letter sets the behemoth marching directly eastward along the road from Raven Hill Cemetery, slaughtering any Night Watch patrols standing in its path.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is written in the translated letter?",
+   "aliases": [
+    "what does the letter say",
+    "abercrombie letter text",
+    "what was translated"
+   ],
+   "answer": "The letter details Abercrombie's bitter vengeance against Darkshire and Lord Ello Ebonlocke. It reveals that the reagents and materials gathered by unsuspecting travelers were used to assemble and animate Stitches, a massive undead abomination unleashed to destroy the town."
+  },
+  {
+   "q": "Who is Sirra Von'Indi?",
+   "aliases": [
+    "who is sirra",
+    "sirra von indi lore"
+   ],
+   "answer": "Sirra Von'Indi is a scholar residing in Darkshire. Her linguistic and analytical expertise allows her to decipher the cryptic notes and letters left behind by Abercrombie when others cannot read his script."
+  },
+  {
+   "q": "Why does Lord Ello blame the player?",
+   "aliases": [
+    "why is ello mad",
+    "did i cause stitches",
+    "ello reaction"
+   ],
+   "answer": "Lord Ello Ebonlocke reacts with horror because every task completed for the seemingly helpless hermit\u2014fetching thread, ghoul ribs, and embalming supplies\u2014directly facilitated the creation of Stitches. Although done out of charity, those errands effectively handed the mad embalmer the pieces he needed to construct his weapon."
+  },
+  {
+   "q": "What happens immediately after completing this quest?",
+   "aliases": [
+    "what triggers stitches",
+    "does stitches spawn",
+    "stitches event"
+   ],
+   "answer": "Handing the translated letter to Lord Ello Ebonlocke sets Stitches in motion. The massive abomination begins his slow, relentless march along the main path from Raven Hill Cemetery straight toward Darkshire, cutting down Night Watch guards as he approaches."
+  },
+  {
+   "q": "Where does Stitches go after this?",
+   "aliases": [
+    "stitches path",
+    "where is stitches marching"
+   ],
+   "answer": "Stitches follows the Duskwood thoroughfare eastward from the outskirts of Raven Hill Cemetery toward Darkshire. Along the road, he engages and overwhelms Night Watch defenders before reaching the town gates unless brought down by adventurers."
+  },
+  {
+   "q": "What quest comes next?",
+   "aliases": [
+    "next quest",
+    "after translation to ello"
+   ],
+   "answer": "Following the delivery of the letter, Lord Ello sends adventurers to investigate Abercrombie's remaining machinations in the quest 'Bride of the Embalmer', seeking to root out the rest of the necromancer's plots."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions, this moment is a painful lesson in Duskwood's treachery: misplaced trust in the woods can endanger an entire settlement of innocent citizens."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "A paladin's urge to offer charitable aid to a frail hermit is violently turned against them when they learn those good deeds fueled necromantic desecration."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "darkshire",
+  "ello ebonlocke",
+  "raven hill",
+  "sirra von'indi",
+  "stitches",
+  "translation to ello"
+ ],
+ "related": [
+  "npc:lord-ello-ebonlocke",
+  "topic:stitches",
+  "npc:abercrombie",
+  "npc:sirra-von-indi",
+  "quest:253",
+  "quest:401",
+  "subzone:darkshire",
+  "subzone:raven-hill-cemetery"
+ ],
+ "attribution": [
+  "Translation to Ello"
+ ]
+}

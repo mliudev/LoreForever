@@ -1,0 +1,92 @@
+{
+ "key": "subzone:ruins-of-constellas",
+ "type": "subzone",
+ "name": "Ruins of Constellas",
+ "era": "classic",
+ "zone": "felwood",
+ "meta": {
+  "wiki": "Ruins of Constellas"
+ },
+ "summary": "The Ruins of Constellas are the shattered remnants of an ancient night elf settlement in Felwood, nestled near the roots of Mount Hyjal. Today, the once-sacred grounds are overrun by the Jadefire satyrs, who have violently profaned the settlement's moonwell with demonic fel magic.",
+ "sections": [
+  {
+   "title": "A Defiled Sanctuary",
+   "body": "The classical stone arches and crumbling plazas of Constellas reveal that this was once an idyllic night elven community. During the Third War, the Burning Legion's march through Felwood shattered the haven, leaving it exposed to lingering demonic corruption. Now, the foul Jadefire satyrs hold dominion over the stones. Led by Xavathras, they actively tend to a defiled moonwell, transforming pure waters into a font of noxious fel power on behalf of their master, Lord Xavaric.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Struggle for Cleansing",
+   "body": "The defilement of Constellas has provoked active resistance from Kalimdor's defenders. Druidic Emerald Bearkin battle the satyrs throughout the ruins in an attempt to reclaim the forest, while night elven investigators observe from a nearby camp to the southeast. To protect their foul rituals and prevent intruders from reaching Xavathras, the satyrs have sealed the deeper pathways into the ruins behind an impenetrable wall of magical fire.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Constellas before the corruption?",
+   "aliases": [
+    "constellas history",
+    "what was constellas",
+    "who built constellas"
+   ],
+   "answer": "Constellas was an ancient night elf settlement near the base of Mount Hyjal. Its architecture and moonwell indicate it served as a serene grove dedicated to Elune and nature before the Burning Legion invaded the forest during the Third War."
+  },
+  {
+   "q": "Who controls the ruins now?",
+   "aliases": [
+    "who lives here",
+    "who rules constellas",
+    "jadefire satyrs constellas"
+   ],
+   "answer": "The ruins are occupied by the Jadefire satyrs, led on-site by Xavathras. They cultivate demonic energies throughout the area under the overarching commands of Lord Xavaric."
+  },
+  {
+   "q": "What happened to the moonwell in Constellas?",
+   "aliases": [
+    "corrupted moonwell felwood",
+    "constellas moonwell",
+    "why is the well green"
+   ],
+   "answer": "The moonwell was seized by the Jadefire satyrs and corrupted with fel magic. Instead of channeling the soothing blessings of Elune, it has been twisted into a toxic source of fel energy cultivated by Xavathras."
+  },
+  {
+   "q": "Why is there a wall of fire inside the ruins?",
+   "aliases": [
+    "constellas fire wall",
+    "fire barrier constellas",
+    "how to get past fire wall"
+   ],
+   "answer": "The satyrs erected a blazing barrier across the inner path to safeguard Xavathras and protect their ongoing rituals from retaliating druids and Emerald Bearkin."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The desecration of Constellas and its corrupted moonwell is an egregious affront to Elune, demanding that night elves drive out the Jadefire satyrs."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Watching Emerald Bearkin fight against demonic occupiers makes Constellas a stark reminder of the druidic vow to restore balance to Felwood."
+  }
+ ],
+ "keywords": [
+  "bearkin",
+  "constellas",
+  "felwood",
+  "jadefire",
+  "moonwell",
+  "satyr",
+  "xavaric",
+  "xavathras"
+ ],
+ "related": [
+  "zone:felwood",
+  "npc:xavathras",
+  "topic:satyr",
+  "topic:night-elf",
+  "topic:druid",
+  "subzone:moonwell-ashenvale"
+ ],
+ "attribution": [
+  "Ruins of Constellas"
+ ]
+}

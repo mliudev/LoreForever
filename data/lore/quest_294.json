@@ -1,0 +1,110 @@
+{
+ "key": "quest:294",
+ "type": "quest",
+ "name": "Ormer's Revenge",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   294
+  ],
+  "level": "24",
+  "faction": "Alliance",
+  "start": "Ormer Ironbraid",
+  "end": "",
+  "previous": null,
+  "next": "Ormer's Revenge (2)",
+  "wiki": "Ormer's Revenge",
+  "chain": []
+ },
+ "summary": "Ormer's Revenge begins the retributive campaign of Ormer Ironbraid, an explorer stranded high above the Whelgar Excavation Site in the Wetlands. After unearthing ancient fossilized bones, the dwarven dig team inadvertently drew packs of ravenous mottled raptors that slaughtered their companions and trapped the survivors on a rocky bluff.",
+ "sections": [
+  {
+   "title": "Unearthed Horrors",
+   "body": "The Whelgar Excavation Site was meant to be a triumph for dwarven archaeology, exposing massive prehistoric remains buried beneath the Wetlands muck. Instead, unearthing the colossal bones caught the attention of the marsh's native raptors. Drawn by the disturbance, packs of mottled predators swarmed the dig site, catching the excavators off guard and tearing through their ranks.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bitter Stand",
+   "body": "Only a handful of dwarves survived the initial slaughter. Ormer Ironbraid, Merrin Rockweaver, and Prospector Whelgar managed to scramble up a bluff overlooking the pit, but they remain pinned by aggressive packs below. Driven by raw grief and boiling anger, Ormer refuses to merely hide. Bound by duty to guard the trembling Prospector and Merrin, he enlists able travelers to thin the surrounding Mottled Raptors and Mottled Screechers as the opening salvo of his vengeance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to the excavators here?",
+   "aliases": [
+    "why are raptors here",
+    "whelgar excavation massacre",
+    "what killed the dwarves"
+   ],
+   "answer": "When the dwarven archaeologists uncovered the giant bones in the basin, the commotion and scent drew the local raptor packs out of the marsh. The predators overran the camp, massacring most of the crew and trapping the three survivors atop the high bluff."
+  },
+  {
+   "q": "Who is Ormer Ironbraid?",
+   "aliases": [
+    "who is ormer",
+    "ormer ironbraid backstory"
+   ],
+   "answer": "Ormer is one of the surviving dwarven excavators stranded at Whelgar's Excavation Site. While he feels bound by honor to stay and protect the shaken Prospector Whelgar and Merrin Rockweaver, his primary desire is bloody retribution against the raptors that butchered his comrades."
+  },
+  {
+   "q": "Where do these raptors come from?",
+   "aliases": [
+    "where are mottled raptors",
+    "raptor locations wetlands"
+   ],
+   "answer": "Mottled Raptors and Mottled Screechers are native predators of the Wetlands, lurking throughout the muddy slopes and marshland west of the excavation bluff as well as the paths leading up toward the dig site's caves."
+  },
+  {
+   "q": "Why doesn't Ormer hunt the raptors himself?",
+   "aliases": [
+    "why doesn't ormer fight",
+    "why is ormer stuck"
+   ],
+   "answer": "Although eager to shed raptor blood personally, Ormer is obligated to stand guard over the terrified Prospector Whelgar and Merrin Rockweaver to ensure their bluff refuge is not overrun."
+  },
+  {
+   "q": "Does culling these raptors end Ormer's grudge?",
+   "aliases": [
+    "is this the end of ormer's revenge",
+    "what happens next with ormer"
+   ],
+   "answer": "No. Slashing through the common Mottled Raptors and Screechers is only the first step in Ormer's plan to avenge his fallen friends, with harsher strikes against the raptor brood to follow."
+  },
+  {
+   "q": "Why did uncovering the bones attract the raptors?",
+   "aliases": [
+    "why did bones attract raptors",
+    "dinosaur bones raptors"
+   ],
+   "answer": "The raptors of the Wetlands are fiercely territorial and scavenge aggressively. Blasting and excavating ancient giant remains disrupted the basin's natural balance, drawing curious and hungry predators right into the center of the dig camp."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Seeing dwarven brethren slain at an Explorers' League archaeological endeavor turns clearing the raptor-infested quarry into an act of ancestral honor and righteous retribution."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The aggressive mottled raptors prowling the slopes outside the site provide keen hunters an opportunity to study dangerous reptilian tracking behavior in marsh terrain."
+  }
+ ],
+ "keywords": [
+  "mottled raptor",
+  "mottled screecher",
+  "ormer ironbraid",
+  "ormer's revenge",
+  "prospector whelgar",
+  "wetlands",
+  "whelgar excavation site"
+ ],
+ "related": [
+  "npc:ormer-ironbraid",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "Ormer's Revenge"
+ ]
+}

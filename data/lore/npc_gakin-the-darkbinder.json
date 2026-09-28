@@ -1,0 +1,118 @@
+{
+ "key": "npc:gakin-the-darkbinder",
+ "type": "npc",
+ "name": "Gakin the Darkbinder",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Gakin the Darkbinder",
+  "refs": 9
+ },
+ "summary": "Gakin the Darkbinder is a master warlock operating covertly deep beneath The Slaughtered Lamb tavern in Stormwind's Mage Quarter. He instructs aspiring Alliance practitioners in the dark arts, testing their resolve before initiating rituals to summon and bind otherworldly demons to their service.",
+ "sections": [
+  {
+   "title": "A Secret Gathering Place",
+   "body": "While Stormwind's mages practice openly in their towering sanctuaries, practitioners of shadow and fel must dwell where prying eyes cannot reach. Hidden below the taproom of The Slaughtered Lamb is a damp crypt-like cellar equipped with summoning circles and grim tomes. Gakin serves as the anchor of this hidden conclave, ensuring that young warlocks learn discipline and restraint before unleashing horrors they cannot control.",
+   "spoiler": 0
+  },
+  {
+   "title": "Master of Demons",
+   "body": "Gakin's expertise lies in demonology and binding rituals. Initiates who earn his notice are sent across the kingdom to acquire rare relics and ingredients\u2014from stolen bloodstone talismans to corrupt wood from the dark forests. Once the reagents are assembled, Gakin oversees rituals in the crypt's summoning circle, forcing novitiates to subjugate voidwalkers and succubi in life-or-death trials of willpower.",
+   "spoiler": 0
+  },
+  {
+   "title": "Betrayals and Loose Ends",
+   "body": "Not all of Gakin's students remain obedient. One former apprentice, Surena Caledon, absconded with a valuable Bloodstone Choker, fleeing into the wilds. Such internal treacheries threaten to expose the warlock circle to the city guards, prompting Gakin to dispatch loyal followers to recover lost artifacts and silence loose ends before the authorities take notice.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Gakin the Darkbinder?",
+   "aliases": [
+    "where is gakin",
+    "gakin location",
+    "slaughtered lamb basement"
+   ],
+   "answer": "Gakin is located deep beneath The Slaughtered Lamb tavern in the Mage Quarter of Stormwind. Head inside the tavern, find the downward ramp at the back, and descend through the stone tunnels until you reach the summoning circle in the lowest crypt."
+  },
+  {
+   "q": "What does Gakin the Darkbinder do?",
+   "aliases": [
+    "what does gakin do",
+    "gakin role",
+    "gakin quests"
+   ],
+   "answer": "He serves as a prominent warlock quest-giver and mentor for Alliance characters. He tests novitiates by sending them on trials across Azeroth and teaching them how to summon and bind demons like the Voidwalker and Succubus."
+  },
+  {
+   "q": "Why are warlocks allowed under The Slaughtered Lamb?",
+   "aliases": [
+    "why are warlocks allowed",
+    "are warlocks legal in stormwind",
+    "slaughtered lamb lore"
+   ],
+   "answer": "Demonic magic is forbidden and deeply mistrusted in Stormwind. The practitioners under The Slaughtered Lamb operate in strict secrecy, tolerated only as a dangerous covert asset and hidden away from the city's guards and citizens."
+  },
+  {
+   "q": "Who is Surena Caledon?",
+   "aliases": [
+    "surena caledon",
+    "gakin student",
+    "who stole from gakin"
+   ],
+   "answer": "Surena Caledon was a former student of Gakin who stole a powerful Bloodstone Choker from him. Her betrayal poses a danger to their hidden order, prompting Gakin to task warlocks with tracking her down."
+  },
+  {
+   "q": "Which demons does Gakin help summon?",
+   "aliases": [
+    "gakin demons",
+    "gakin voidwalker",
+    "gakin succubus"
+   ],
+   "answer": "Gakin oversees the binding rituals for both Voidwalkers and Succubi, guiding warlocks to draw the creatures into the subterranean circle and subdue them."
+  },
+  {
+   "q": "Who is Strahad and why does Gakin mention him?",
+   "aliases": [
+    "strahad",
+    "seeking strahad",
+    "where does gakin send me next"
+   ],
+   "answer": "Strahad Farsan is an experienced warlock residing in the Ratchet hills of Kalimdor. Once a student advances past Gakin's fundamental binding rituals, Gakin directs them across the sea to continue their darker education with Strahad."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Gakin is a vital mentor for human and gnome warlocks, offering pivotal class quests to master the voidwalker and succubus rituals in the crypts of Stormwind."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Operating secretly under the capital city, Gakin's coven demonstrates the pragmatic, shadow-drenched compromises made in the heart of the Alliance."
+  }
+ ],
+ "keywords": [
+  "darkbinder",
+  "gakin",
+  "mage quarter",
+  "slaughtered lamb",
+  "succubus",
+  "surena caledon",
+  "voidwalker",
+  "warlock"
+ ],
+ "related": [
+  "subzone:slaughtered-lamb",
+  "subzone:mage-quarter",
+  "zone:stormwind",
+  "quest:1471",
+  "quest:1472",
+  "quest:1688",
+  "quest:1715",
+  "quest:1798"
+ ],
+ "attribution": [
+  "Gakin the Darkbinder"
+ ]
+}

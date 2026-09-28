@@ -1,0 +1,93 @@
+{
+ "key": "subzone:cathedral-square",
+ "type": "subzone",
+ "name": "Cathedral Square",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Cathedral Square"
+ },
+ "summary": "Cathedral Square is the spiritual and civic heart of Stormwind City, dominated by the majestic Cathedral of Light. Beyond serving as a place of worship and devotion, the bustling plaza houses municipal institutions like City Hall, the city orphanage, and the regional headquarters of the Argent Dawn.",
+ "sections": [
+  {
+   "title": "The Holy District",
+   "body": "Situated northwest of the Trade District and southwest of the Dwarven District, Cathedral Square serves as the epicenter of faith in the Kingdom of Stormwind. Dominating the skyline is the Cathedral of Light, the preeminent sanctuary for followers of the Holy Light across Azeroth. Priests, paladins, and healers gather here to study, pray, and train. Between the cathedral's imposing spires and the open plaza lies a tranquil green space centered around a gazebo and the quiet grounds of the Stormwind City Cemetery to the north. Citizens, pilgrims, and local schoolchildren led by School Mistress Danna regularly mingle in the square for conversation and contemplation.",
+   "spoiler": 0
+  },
+  {
+   "title": "Civic Heart and Holy Order",
+   "body": "The district is not merely reserved for prayer; it is one of the capital's busiest civic centers. The square houses the Stormwind Orphanage as well as City Hall, anchoring the administrative life of the kingdom. Specialized armorers and weaponsmiths catering to holy crusaders, such as Righteous Plates and Just Maces, line the avenues. It also serves as the base of operations for the Argent Dawn within Stormwind, where recruiters and representatives coordinate relief efforts and rally champions against the encroaching threats of the Scourge in the northern kingdoms.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Cathedral Square?",
+   "aliases": [
+    "cathedral district",
+    "holy district",
+    "what is this place"
+   ],
+   "answer": "Cathedral Square is a major district in Stormwind City centered on the Cathedral of Light. It serves as both the spiritual hub for practitioners of the Light and a vital civic center housing City Hall, the local orphanage, and various shops."
+  },
+  {
+   "q": "Who trains in Cathedral Square?",
+   "aliases": [
+    "class trainers here",
+    "who trains here",
+    "paladin priest trainers"
+   ],
+   "answer": "Priests and Paladins of the Alliance come to Cathedral Square and the Cathedral of Light to hone their skills and study sacred doctrines. Medics and caregivers also study here under First Aid trainers."
+  },
+  {
+   "q": "Why is the Argent Dawn located here?",
+   "aliases": [
+    "argent dawn stormwind",
+    "argent dawn presence"
+   ],
+   "answer": "The Argent Dawn maintains a prominent embassy in Cathedral Square to recruit able-bodied champions and coordinate logistical support from Stormwind for their relentless crusade against the Scourge in the Plaguelands."
+  },
+  {
+   "q": "Where does Cathedral Square lead?",
+   "aliases": [
+    "connected districts",
+    "where does this go"
+   ],
+   "answer": "Bridges and canal paths link Cathedral Square directly to the bustling Trade District to the southeast, the industrial Dwarven District to the northeast, and the quiet gardens of the Park to the southwest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For paladins, Cathedral Square is the fountainhead of faith and duty, housing mentors, sacred vows, and specialized armorers tailored to holy warriors."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The quiet halls and towering spires of the square offer priests a tranquil sanctuary to commune with the Holy Light, advance their spiritual studies, and minister to the citizens of Stormwind."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "cathedral of light",
+  "cathedral square",
+  "city hall",
+  "holy district",
+  "orphanage",
+  "paladin",
+  "priest",
+  "stormwind"
+ ],
+ "related": [
+  "subzone:cathedral-of-light",
+  "zone:stormwind",
+  "subzone:stormwind-city-cemetery",
+  "topic:argent-dawn",
+  "topic:light",
+  "subzone:trade-district",
+  "subzone:dwarven-district",
+  "subzone:park"
+ ],
+ "attribution": [
+  "Cathedral Square"
+ ]
+}

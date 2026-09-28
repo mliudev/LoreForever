@@ -1,0 +1,95 @@
+{
+ "key": "npc:archmage-ansirem-runeweaver",
+ "type": "npc",
+ "name": "Archmage Ansirem Runeweaver",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "wiki": "Archmage Ansirem Runeweaver",
+  "refs": 2
+ },
+ "summary": "Archmage Ansirem Runeweaver is a senior human wizard and a ruling member of Dalaran's Council of Six. Having survived the Scourge's destruction of Dalaran in the Third War, he oversees Kirin Tor operations around the glowing dome of the Dalaran Crater. Though dedicated to the rebuilding of his city, he also maintains discreet interests abroad\u2014including keeping a watchful eye on his pirate daughter.",
+ "sections": [
+  {
+   "title": "A Pillar of the Kirin Tor",
+   "body": "A veteran mage who helped defend Dalaran across decades, Ansirem Runeweaver sits on the Council of Six, the ruling magocracy of the Kirin Tor. He fought on the front lines when Arthas Menethil and the Scourge marched upon the city, surviving the devastation that followed the summoning of Archimonde. In the wake of Dalaran's fall, Ansirem stood vigil over the immense, shimmering protective dome erected around the ruins, aiding the efforts to slowly rebuild the arcane city.",
+   "spoiler": 0
+  },
+  {
+   "title": "Far-Flung Interests",
+   "body": "Despite his scholarly duties and stern wizardly demeanor, Ansirem possesses personal ties far beyond the Alterac Mountains. His rebellious daughter, Catelyn, spurned the arcane arts to sail as a swashbuckler with the Blackwater Raiders. Rather than disown her, Ansirem pays informants in Booty Bay\u2014such as Baron Revilgaz\u2014to send word of her exploits. He has also engaged in arcane studies involving troll antiquities and maintains diplomatic conduits across distant realms.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Archmage Ansirem Runeweaver?",
+   "aliases": [
+    "who is ansirem",
+    "ansirem runeweaver lore",
+    "who is the archmage"
+   ],
+   "answer": "He is an accomplished human wizard and one of the six ruling archmages on the Kirin Tor's Council of Six. He has spent decades defending Dalaran and now oversees operations surrounding the reconstructed city and its arcane perimeter."
+  },
+  {
+   "q": "What happened to his daughter?",
+   "aliases": [
+    "ansirem daughter",
+    "catelyn the blade",
+    "catelyn runeweaver"
+   ],
+   "answer": "His daughter, Catelyn, grew bored of magical study and chose a life of piracy instead, sailing with the Blackwater Raiders in Stranglethorn Vale. Although Ansirem wishes she had chosen a more conventional career, he continues to support her from afar and pays contacts in Booty Bay to keep him updated on her safety."
+  },
+  {
+   "q": "What is his role at Dalaran Crater?",
+   "aliases": [
+    "why is ansirem in alterac",
+    "ansirem dalaran crater",
+    "what is he doing here"
+   ],
+   "answer": "Ansirem serves as a key Kirin Tor presence managing the perimeter of Dalaran in the Alterac Mountains, coordinating research, magical defense, and communication with allies while the city recovers from the destruction wrought during the Third War."
+  },
+  {
+   "q": "Did Ansirem fight in the Third War?",
+   "aliases": [
+    "ansirem scourge",
+    "did ansirem fight arthas"
+   ],
+   "answer": "Yes. When Arthas and the Scourge besieged Dalaran to enable Kel'Thuzad's summoning of Archimonde, Ansirem joined the battle outside the city walls alongside his fellow Kirin Tor defenders following the death of Archmage Antonidas."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Ansirem is a revered member of the Council of Six and the author of several core Kirin Tor texts, making him an enduring authority on disciplined arcane study."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "As a Kirin Tor leader based in Lordaeron, Ansirem remains aligned with Alliance interests as human spellcasters struggle to reclaim their lands from Scourge remnants."
+  }
+ ],
+ "keywords": [
+  "ansirem",
+  "booty bay",
+  "catelyn",
+  "council of six",
+  "dalaran",
+  "dalaran crater",
+  "kirin tor",
+  "revilgaz",
+  "runeweaver"
+ ],
+ "related": [
+  "subzone:dalaran-crater",
+  "subzone:dalaran",
+  "zone:alterac",
+  "subzone:booty-bay",
+  "npc:baron-revilgaz",
+  "topic:third-war",
+  "topic:arthas-menethil",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Archmage Ansirem Runeweaver"
+ ]
+}

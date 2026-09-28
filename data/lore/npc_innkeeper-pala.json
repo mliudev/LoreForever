@@ -1,0 +1,78 @@
+{
+ "key": "npc:innkeeper-pala",
+ "type": "npc",
+ "name": "Innkeeper Pala",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Innkeeper Pala",
+  "refs": 1
+ },
+ "summary": "Innkeeper Pala manages the Cat and the Shaman, the bustling tavern situated on the lower tier of Thunder Bluff. She offers visiting adventurers a hearthstone binding, cold drinks, and a place to rest between journeys across Mulgore and beyond.",
+ "sections": [
+  {
+   "title": "Hospitality on the Lower Rise",
+   "body": "Perched on the lower rise of Thunder Bluff's sweeping mesas, Innkeeper Pala tends the hearth at the Cat and the Shaman. The establishment serves as one of the primary gathering points for travelers stepping off the central lifts or arriving from the sprawling plains of Mulgore. Holding a steady vigil over her common room, Pala ensures that weary warriors, wandering druids, and visiting allies of the Horde find a dependable shelter, a warm drink, and a familiar home away from home.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Innkeeper Pala?",
+   "aliases": [
+    "pala location",
+    "where is pala",
+    "innkeeper pala map"
+   ],
+   "answer": "Pala is stationed inside the Cat and the Shaman tavern, which sits on the lower rise of Thunder Bluff, close to the city's main lifts."
+  },
+  {
+   "q": "What services does she provide to travelers?",
+   "aliases": [
+    "pala services",
+    "can i bind hearthstone thunder bluff",
+    "what does pala sell"
+   ],
+   "answer": "Like other innkeepers across Kalimdor, Pala can bind your hearthstone to the Cat and the Shaman so you can return instantly. She also sells simple food and drinks to replenish health and mana."
+  },
+  {
+   "q": "What is the name of her tavern?",
+   "aliases": [
+    "cat and the shaman",
+    "thunder bluff lower inn name",
+    "pala inn name"
+   ],
+   "answer": "Her tavern is called the Cat and the Shaman, an establishment serving the constant stream of Horde travelers moving through the city's lower tier."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren returning home from the frontiers of Kalimdor, Pala provides a familiar, welcoming face beneath the towering totems of the central mesas."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Orcs, trolls, and Forsaken visiting Mulgore find Pala's inn to be a comfortable base of operations right by the lifts."
+  }
+ ],
+ "keywords": [
+  "cat and the shaman",
+  "hearthstone",
+  "innkeeper",
+  "innkeeper pala",
+  "mulgore",
+  "pala",
+  "thunder bluff"
+ ],
+ "related": [
+  "zone:thunderbluff",
+  "zone:mulgore",
+  "topic:tauren",
+  "topic:horde",
+  "quest:5923",
+  "quest:8357"
+ ],
+ "attribution": [
+  "Innkeeper Pala"
+ ]
+}

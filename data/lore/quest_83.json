@@ -1,0 +1,117 @@
+{
+ "key": "quest:83",
+ "type": "quest",
+ "name": "Red Linen Goods",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   83
+  ],
+  "level": "9",
+  "faction": "Alliance",
+  "start": "Sara Timberlain",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Red Linen Goods",
+  "chain": []
+ },
+ "summary": "Red Linen Goods is an Elwynn Forest task offered by seamstress Sara Timberlain at the Eastvale Logging Camp. In need of fabric, she asks passing adventurers to hunt down local Defias bandits and strip them of their linen bandanas. In exchange, she uses the reclaimed cloth to tailor useful goods for travelers.",
+ "sections": [
+  {
+   "title": "Bandits and Burlap",
+   "body": "While the low-level Defias brigands skirmishing in Northshire Valley make do with cheap burlap masks, the organized outlaws prowling greater Elwynn Forest sport finer crimson linen bandanas. To local craftsmen short on raw materials, these gang identifiers represent a surprisingly practical supply of usable cloth.",
+   "spoiler": 0
+  },
+  {
+   "title": "Salvage at the Camp",
+   "body": "Operating out of the bustling Eastvale Logging Camp near the eastern border of Elwynn, Sara Timberlain is always on the lookout for workable textiles. By encouraging adventurers to thin out the Defias encampments hidden across the woods, she keeps her tailoring trade supplied while helping to curb the Brotherhood's brazen encroachment.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers the Red Linen Goods quest?",
+   "aliases": [
+    "who gives red linen goods",
+    "red linen goods questgiver",
+    "sara timberlain quest"
+   ],
+   "answer": "Sara Timberlain, a resident seamstress located at the Eastvale Logging Camp in eastern Elwynn Forest, offers this quest."
+  },
+  {
+   "q": "What items are needed for Red Linen Goods?",
+   "aliases": [
+    "what do i collect for red linen goods",
+    "items for red linen goods",
+    "bandanas needed"
+   ],
+   "answer": "You need to collect 6 Red Linen Bandanas, which can be looted from Defias gang members scattered throughout Elwynn Forest."
+  },
+  {
+   "q": "Where can I find Defias bandits in Elwynn Forest?",
+   "aliases": [
+    "defias locations elwynn",
+    "where are defias camps",
+    "where to get red bandanas"
+   ],
+   "answer": "Defias outlaws inhabit small campsites pocketed across Elwynn Forest, including locations around the Brackwell Pumpkin Patch, Stonefield Farm, and the woods surrounding Jerod's Landing."
+  },
+  {
+   "q": "Why do the Elwynn Defias wear linen instead of burlap?",
+   "aliases": [
+    "why red linen",
+    "burlap vs linen defias",
+    "defias mask material"
+   ],
+   "answer": "According to Sara Timberlain, low-ranking Defias in Northshire wear crude burlap masks, whereas the better-equipped members operating across broader Elwynn wear red linen, signaling a higher tier of organization and supply within the Brotherhood."
+  },
+  {
+   "q": "Why does Sara Timberlain want bandit bandanas?",
+   "aliases": [
+    "why collect bandanas",
+    "what does sara do with masks"
+   ],
+   "answer": "Sara is running low on fabric for her tailoring trade. She repurposes the cleanable linen from the Defias masks to sew practical goods for woodsmen and travelers at the logging camp."
+  },
+  {
+   "q": "Where is the Eastvale Logging Camp located?",
+   "aliases": [
+    "eastvale location",
+    "where is eastvale",
+    "how to find sara timberlain"
+   ],
+   "answer": "Eastvale Logging Camp is situated in far eastern Elwynn Forest, just north of the main road heading toward the bridge into Redridge Mountains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "Sara Timberlain's trade demonstrates the harsh realities of rural tailoring, where scarce bolts of fabric force local seamstresses to harvest cloth straight off the backs of regional bandits."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Clearing out the Defias bandits infesting Elwynn's groves not only yields useful salvage for Eastvale, but actively weakens the Brotherhood's grip on the heartland of the kingdom."
+  }
+ ],
+ "keywords": [
+  "burlap",
+  "defias brotherhood",
+  "eastvale logging camp",
+  "elwynn forest",
+  "red linen bandana",
+  "red linen goods",
+  "sara timberlain",
+  "tailoring"
+ ],
+ "related": [
+  "npc:sara-timberlain",
+  "subzone:eastvale-logging-camp",
+  "zone:elwynn",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Red Linen Goods"
+ ]
+}

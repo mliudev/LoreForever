@@ -1,0 +1,92 @@
+{
+ "key": "subzone:launch-bay",
+ "type": "subzone",
+ "name": "Launch Bay",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Launch Bay"
+ },
+ "summary": "The Launch Bay is a subterranean airfield and hangar tucked within the depths of Gnomeregan, located just beyond the Hall of Gears. Once the staging ground for gnomish flying machines and bombers, it has fallen completely under the control of hostile leper gnomes and corrupted mechanical contraptions.",
+ "sections": [
+  {
+   "title": "A Grounded Airfield",
+   "body": "Serving as the primary hangar for Gnomeregan's aerial fleet, the Launch Bay is split across two tiers. Its central platform, reached by ramps from the upper walkway, still houses parked gnomish flying machines and heavy bombers that never made it out before the city was evacuated. Instead of skilled pilots, the flight decks are now crawling with crazed leper gnomes who maintain and guard the idling war machines.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crossroads of the Deep City",
+   "body": "Beyond its military role, the Launch Bay serves as a vital junction within the complex. Ramps from its southeastern corridor descend into the Engineering Labs, while a southern passage on the lower deck is choked with invading Dark Iron dwarves. That southern tunnel provides a perilous path toward the heart of the city at Tinkers' Court.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Launch Bay used for?",
+   "aliases": [
+    "gnomeregan hangar",
+    "what is launch bay",
+    "launch bay purpose"
+   ],
+   "answer": "It was designed as an underground airfield and maintenance hangar for gnomish flying machines and bombers. Today, it stands neglected and repurposed by the leper gnomes dwelling in the ruins."
+  },
+  {
+   "q": "Who controls the Launch Bay now?",
+   "aliases": [
+    "who is in launch bay",
+    "launch bay enemies",
+    "who lives here"
+   ],
+   "answer": "The upper and lower levels are occupied by leper gnomes alongside aggressive mechanical contraptions. Further down near the southern exits, hostile Dark Iron dwarves have also carved out a foothold."
+  },
+  {
+   "q": "Where does the Launch Bay lead?",
+   "aliases": [
+    "launch bay exits",
+    "how to leave launch bay",
+    "launch bay directions"
+   ],
+   "answer": "The upper eastern tunnel leads back to the Hall of Gears. The southeastern ramps connect down to the Engineering Labs, while a southern lower tunnel pushes deeper into Gnomeregan toward Tinkers' Court."
+  },
+  {
+   "q": "Are the flying machines here operational?",
+   "aliases": [
+    "can i fly the planes",
+    "flying machines gnomeregan",
+    "hangar planes"
+   ],
+   "answer": "Several gnomish flying machines and bombers remain parked on the central platforms, but they sit idle and untended amid the chaos of the city's fall."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Seeing the crown jewels of gnomish aviation\u2014flying machines and bombers\u2014abandoned and crawled over by irradiated leper kin is a bitter reminder of the city's tragic loss."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The hangar showcases peak gnomish aeronautics and vehicle chassis, though scavengers must contend with hostile contraptions to get a close look."
+  }
+ ],
+ "keywords": [
+  "bomber",
+  "dark iron",
+  "engineering labs",
+  "flying machine",
+  "gnomeregan",
+  "hangar",
+  "launch bay",
+  "leper gnome"
+ ],
+ "related": [
+  "zone:gnomeregan",
+  "subzone:hall-of-gears",
+  "subzone:engineering-labs",
+  "subzone:tinkers-court",
+  "topic:leper-gnome",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Launch Bay"
+ ]
+}

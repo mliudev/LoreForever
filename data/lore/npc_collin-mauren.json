@@ -1,0 +1,122 @@
+{
+ "key": "npc:collin-mauren",
+ "type": "npc",
+ "name": "Collin Mauren",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Collin Mauren",
+  "refs": 4
+ },
+ "summary": "Collin Mauren is a human mage residing in the Mage Quarter of Stormwind City. A scholarly researcher and crafter of incantations, he experiments with exotic natural reagents to devise unique utility spells. Among his pursuits is assisting his acquaintance, the gnome engineer and explorer Gaxim Rustfizzle, with specialized arcane scrolls.",
+ "sections": [
+  {
+   "title": "Scholar of the Arcane",
+   "body": "Situated within Stormwind's bustling Mage Quarter, Collin Mauren spends his days pursuing the quieter, more practical applications of magic. Rather than chasing raw elemental power, he focuses on crafting arcane formulas that solve specific, logistical problems. Collin often turns to natural anomalies and raw components scavenged across Azeroth, weaving their intrinsic properties into functional magic scrolls and reagents for friends and travelers alike.",
+   "spoiler": 0
+  },
+  {
+   "title": "Aiding Gaxim Rustfizzle",
+   "body": "Collin maintains a close correspondence and friendship with the gnomish tinker Gaxim Rustfizzle. When Gaxim needed a reliable way to communicate across great distances during his travels, Collin designed a specialized messaging spell. To anchor the spell, he utilizes the whirling debris left behind by Westfall's erratic Dust Devils, capturing the essence of shifting wind to ensure long-distance messages reach his adventurous colleague.",
+   "spoiler": 0
+  },
+  {
+   "title": "Exotic Studies in Stonetalon",
+   "body": "Beyond his work with local elementals, Collin's research extends clear across the Great Sea to the crags of Kalimdor. Curiously captivated by the resilient hides of basilisks native to the Stonetalon Mountains, Collin seeks out their scales to synthesize new spells. Travelers venturing into Kalimdor frequently receive his requests for these rare hides, fueling Collin's ongoing fascination with how primal creature anatomy can stabilize complex enchantments.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Collin Mauren be found?",
+   "aliases": [
+    "collin mauren location",
+    "where is collin mauren",
+    "collin mauren stormwind"
+   ],
+   "answer": "Collin Mauren is located in the Mage Quarter of Stormwind City, tucked among the towers and shops frequented by the capital's arcane scholars."
+  },
+  {
+   "q": "What kind of magic does Collin specialize in?",
+   "aliases": [
+    "collin mauren research",
+    "what does collin mauren do",
+    "collin mauren magic"
+   ],
+   "answer": "Collin specializes in applied enchantments and utility spells. Rather than combat evocations, he experiments with raw natural components\u2014such as elemental debris and beast scales\u2014to devise long-distance messaging scrolls and unique dweomers."
+  },
+  {
+   "q": "Who is Gaxim Rustfizzle and how is Collin connected to him?",
+   "aliases": [
+    "gaxim rustfizzle friend",
+    "collin and gaxim",
+    "who is gaxim rustfizzle"
+   ],
+   "answer": "Gaxim Rustfizzle is an adventurous gnome tinkerer and a friend of Collin. Collin supports Gaxim's distant journeys by providing him with custom-crafted communication scrolls."
+  },
+  {
+   "q": "Why does Collin need elemental debris from Westfall?",
+   "aliases": [
+    "devils in westfall quest",
+    "why dust devils",
+    "westfall dust devils quest"
+   ],
+   "answer": "Collin uses the essence of Westfall's elemental Dust Devils to power a messaging spell. The windy debris of the elementals carries the harmonic energy required to craft reliable communication scrolls."
+  },
+  {
+   "q": "Why is Collin interested in the Stonetalon Mountains?",
+   "aliases": [
+    "stonetalon basilisks",
+    "retrieval for mauren",
+    "stonetalon scales collin"
+   ],
+   "answer": "Collin studies the magical properties of basilisk scales native to the Stonetalon Mountains in Kalimdor. He uses their sturdy, naturally resistant hides as reagent bases to synthesize new incantations."
+  },
+  {
+   "q": "Is Collin aligned with the Kirin Tor?",
+   "aliases": [
+    "is collin kirin tor",
+    "collin mauren dalaran",
+    "mage quarter collin"
+   ],
+   "answer": "While Collin resides in the Mage Quarter and practices the traditions common among Alliance wizards, he functions primarily as an independent researcher and reagent crafter rather than an active Dalaran representative."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Collin exemplifies the experimental craft of spell creation, demonstrating how earthly reagents like elemental debris and basilisk scales can be harnessed to weave utility magic."
+  },
+  {
+   "target": "race:Human",
+   "text": "Living quietly in Stormwind's Mage Quarter, Collin represents the scholarly pursuits of human wizards who study the broader world from the heart of the capital."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Collin facilitates communication and trade across the Alliance by supplying adventurers with utility magic spanning from Westfall to Kalimdor."
+  }
+ ],
+ "keywords": [
+  "basilisk",
+  "collin mauren",
+  "dust devils",
+  "gaxim rustfizzle",
+  "mage quarter",
+  "stonetalon",
+  "stormwind",
+  "westfall"
+ ],
+ "related": [
+  "npc:gaxim-rustfizzle",
+  "subzone:mage-quarter",
+  "zone:stormwind",
+  "quest:1076",
+  "quest:1077",
+  "quest:1078",
+  "quest:1075",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Collin Mauren"
+ ]
+}

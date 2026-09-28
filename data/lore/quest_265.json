@@ -1,0 +1,119 @@
+{
+ "key": "quest:265",
+ "type": "quest",
+ "name": "The Shadowy Search Continues",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   265
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Madame Eva",
+  "end": "Clerk Daltry",
+  "previous": "The Shadowy Figure",
+  "next": "Inquire at the Inn",
+  "wiki": "The Shadowy Search Continues",
+  "chain": []
+ },
+ "summary": "Following Madame Eva's divination, this investigation leads from her parlor to Clerk Daltry in Darkshire. It centers on tracing the origins of the journal recovered from the ruins of Sven Yorgen's ransacked farmstead.",
+ "sections": [
+  {
+   "title": "Tracing the Binding",
+   "body": "After examining the burnt journal salvaged from the tragedy at Sven's farm, Madame Eva discerned that while its author was an outsider, the physical volume itself came from within Darkshire. Clerk Daltry frequently sells blank ledgers and tomes to traveling scholars, spellcasters, and record-keepers. By following the trail of local commerce, investigators seek a mundane paper trail to identify an otherwise elusive and sinister trespasser lurking in the gloomy groves of Duskwood.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Jittery Buyer",
+   "body": "Upon inspecting the tome, Clerk Daltry recalls the transaction clearly despite the volume of records that pass through Darkshire's town hall. Roughly a month prior, a nervous, furtive traveler bought the blank book without ever giving a name. The customer's jittery demeanor and constant glances over his shoulder left a distinct impression on the clerk, confirming that Sven's mysterious tormentor walked openly among Darkshire's citizens before descending into dark necromantic arts.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where did the mysterious book come from?",
+   "aliases": [
+    "origin of book",
+    "who sold the book",
+    "book source"
+   ],
+   "answer": "The blank book was purchased directly in Darkshire from Clerk Daltry roughly a month ago, though the grim writings inside were authored by the stranger who bought it."
+  },
+  {
+   "q": "Why does Madame Eva send you to Clerk Daltry?",
+   "aliases": [
+    "why daltry",
+    "eva daltry connection",
+    "who made the book"
+   ],
+   "answer": "Madame Eva recognizes the book's physical binding and materials as having been purchased locally in town. Clerk Daltry handles the sale of blank ledgers and journals to locals and traveling scholars."
+  },
+  {
+   "q": "What does Clerk Daltry remember about the buyer?",
+   "aliases": [
+    "who bought book",
+    "buyer description",
+    "shadowy figure appearance"
+   ],
+   "answer": "Daltry recalls selling the tome to a shady, nervous man who refused to give his name and constantly looked over his shoulder as though being watched or pursued."
+  },
+  {
+   "q": "How does this connect to Sven's farm?",
+   "aliases": [
+    "sven connection",
+    "why are we looking",
+    "sven yorgen"
+   ],
+   "answer": "The book was salvaged from Sven Yorgen's destroyed farm in northwestern Duskwood, left behind during the murderous raid that wiped out his family and workers."
+  },
+  {
+   "q": "Where does the investigation lead next?",
+   "aliases": [
+    "what next",
+    "after daltry",
+    "next clue"
+   ],
+   "answer": "Since the nervous stranger spent time in town, the search continues at Darkshire's tavern, the Scarlet Raven Inn, to see if anyone witnessed where he stayed or who he spoke with."
+  },
+  {
+   "q": "Is Clerk Daltry in danger?",
+   "aliases": [
+    "clerk daltry danger",
+    "daltry safe"
+   ],
+   "answer": "Daltry was merely an unwitting merchant who sold a blank volume to a passing traveler, unaware of the horrific rituals and slaughter the buyer would soon commit."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Unraveling who supplied and aided the necromancers in Duskwood is vital for safeguarding Darkshire and bringing justice to slaughtered frontier homesteaders."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Tracking a nervous target through town by following purchase records and merchant impressions is classic investigative tradecraft."
+  }
+ ],
+ "keywords": [
+  "book",
+  "clerk daltry",
+  "darkshire",
+  "duskwood",
+  "journal",
+  "madame eva",
+  "shadowy figure",
+  "sven yorgen"
+ ],
+ "related": [
+  "npc:clerk-daltry",
+  "npc:madame-eva",
+  "quest:262",
+  "quest:266",
+  "subzone:darkshire",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "The Shadowy Search Continues"
+ ]
+}

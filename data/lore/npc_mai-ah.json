@@ -1,0 +1,76 @@
+{
+ "key": "npc:mai-ah",
+ "type": "npc",
+ "name": "Mai'ah",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Mai'ah",
+  "refs": 1
+ },
+ "summary": "Mai'ah is a jungle troll mage trainer stationed within the sun-scorched basin of the Valley of Trials in Durotar. She mentors fledgling spellcasters among the Darkspear trolls who step into the red canyons to hone their command of the arcane. For young trolls beginning the path of wizardry, she offers early guidance and instruction in the foundational arts of magic.",
+ "sections": [
+  {
+   "title": "Arcane Mentor of the Den",
+   "body": "While orcs overwhelmingly favor the primal call of the elements or the physical dominance of the warrior, Darkspear trolls possess a rare affinity for arcane study. Standing within the Valley of Trials, Mai'ah serves as an instructor for young troll mages arriving to undertake their rites of adulthood. She receives candidates carrying glyphic inscriptions and begins shaping their chaotic raw power into disciplined incantations, ensuring they learn the control required to survive Durotar's perils.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mai'ah?",
+   "aliases": [
+    "who is maiah",
+    "maiah lore",
+    "troll mage trainer"
+   ],
+   "answer": "Mai'ah is a Darkspear troll mage trainer situated in the Valley of Trials in Durotar. She provides initial guidance, training, and foundational spells to newly arrived troll spellcasters before they venture out into the wider lands of the Horde."
+  },
+  {
+   "q": "Why is there a troll mage trainer in an orc starting area?",
+   "aliases": [
+    "why troll mage here",
+    "valley of trials troll trainer",
+    "troll mage durotar"
+   ],
+   "answer": "Following the destruction of the Darkspear Isles and their relocation to Durotar alongside Thrall's orcs, young Darkspear trolls undergo their coming-of-age trials alongside orc youths. Because orc culture largely shuns arcane magic due to past demon corruption, troll mages like Mai'ah step in to guide their own kind."
+  },
+  {
+   "q": "What role does she play in training new mages?",
+   "aliases": [
+    "what does maiah do",
+    "glyphic parchment maiah",
+    "maiah quests"
+   ],
+   "answer": "Mai'ah welcomes new troll mages bearing written instructions such as glyphic parchments. She initiates their formal training, teaching the fundamentals of spellcasting so they can defend the Valley of Trials from local beasts and rogue Burning Blade infiltrators."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For Darkspear spellcasters, Mai'ah represents the beginning of their magical journey, teaching the discipline needed to weave fire, frost, and arcane energy under the harsh sun of Durotar."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Mai'ah provides Darkspear youths in the Valley of Trials with cultural mentorship in an art rarely practiced by their orcish allies."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "durotar",
+  "mage trainer",
+  "mai'ah",
+  "maiah",
+  "troll",
+  "valley of trials"
+ ],
+ "related": [
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "quest:98576",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Mai'ah"
+ ]
+}

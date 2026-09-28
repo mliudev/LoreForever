@@ -1,0 +1,123 @@
+{
+ "key": "topic:wildhammer-clan",
+ "type": "topic",
+ "name": "Wildhammer clan",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Wildhammer clan"
+ },
+ "summary": "The Wildhammer clan is a rugged, nature-dwelling branch of the dwarven race famed for taming wild gryphons and wielding storm-charged hammers. Driven from their ancestral fortress of Grim Batol centuries ago, they carved a fiercely independent home across the wooded peaks of the Hinterlands. Though reclusive by nature, they remain stalwart friends of the Alliance, defending the skies whenever called upon.",
+ "sections": [
+  {
+   "title": "Exile from Grim Batol",
+   "body": "Before the War of the Three Hammers, the Wildhammers lived in the foothills around Ironforge. When High King Modimus Anvilmar died, civil war fractured the dwarven kingdom, and the victorious Bronzebeards claimed Ironforge for themselves. Thane Khardros led his clan north to establish a magnificent hold inside the peak of Grim Batol. Yet peace was short-lived: the defeated Dark Irons soon laid siege to the fortress. While Khardros personally slew the Dark Iron sorceress Modgud, her dying curse blighted the mountain so deeply that the halls became uninhabitable. Refusing an invitation to move back under Bronzebeard rule, the Wildhammers chose self-reliance, marching north into the forests and rocky crags of the Hinterlands.",
+   "spoiler": 0
+  },
+  {
+   "title": "Riders of the Storm",
+   "body": "In the lush highlands of their new realm, the Wildhammers built Aerie Peak. Unlike their subterranean cousins, these dwarves embraced the open sky and living rock, developing a deep, spiritual kinship with the native gryphons. Forging enchanted stormhammers in secluded aviaries, the Wildhammers became the finest aerial cavalry in Azeroth. During the Second War, when Warchief Orgrim Doomhammer pushed his forces toward Quel'Thalas and assaulted Aerie Peak, Supreme Commander Anduin Lothar and the Alliance came to their aid. In gratitude, High Thane Kurdran Wildhammer pledged his gryphon riders to the coalition, dogfighting the Horde's enslaved red dragons across the skies of Lordaeron and the Great Sea.",
+   "spoiler": 0
+  },
+  {
+   "title": "Loyal to the End",
+   "body": "When the Dark Portal reopened, Kurdran Wildhammer led his riders into Draenor with the Alliance Expedition, sacrificing his return to seal the rift\u2014an act commemorated by a colossal statue in Stormwind's Valley of Heroes. Back in Aerie Peak, High Thane Falstad stepped up to lead the clan. Even as the human kingdoms squabbled and fractured in later years, the Wildhammers remained steadfast partners of King Terenas Menethil II. When the Scourge swept across Lordaeron in the Third War, Wildhammer flyers took to the air once more, fighting desperately to protect allied lands and innocent refugees from the walking dead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Wildhammer clan based right now?",
+   "aliases": [
+    "wildhammer home",
+    "where do wildhammers live",
+    "wildhammer location"
+   ],
+   "answer": "Their primary bastion is Aerie Peak, located in the mountainous forest of the Hinterlands, north of the Wetlands and the Thandol Span."
+  },
+  {
+   "q": "Why don't the Wildhammers live in Ironforge?",
+   "aliases": [
+    "why did wildhammer leave ironforge",
+    "war of the three hammers wildhammer"
+   ],
+   "answer": "Following the death of High King Modimus Anvilmar, the Wildhammer clan lost the civil war for control of Ironforge to the Bronzebeards. Thane Khardros led his clan north to build a new life in Grim Batol rather than bow to Bronzebeard rule."
+  },
+  {
+   "q": "What happened to their fortress at Grim Batol?",
+   "aliases": [
+    "why is grim batol abandoned",
+    "grim batol curse",
+    "modgud grim batol"
+   ],
+   "answer": "During the War of the Three Hammers, the Dark Iron sorceress Modgud laid siege to Grim Batol. Thane Khardros slew her, but her dark sorcery infected the halls with foul corruption, making the mountain completely uninhabitable and forcing the clan into the Hinterlands."
+  },
+  {
+   "q": "Who leads the Wildhammer clan today?",
+   "aliases": [
+    "wildhammer leader",
+    "high thane wildhammer",
+    "who rules aerie peak"
+   ],
+   "answer": "High Thane Falstad Wildhammer leads the clan from Aerie Peak. He took command after his predecessor, Kurdran Wildhammer, joined the Alliance Expedition through the Dark Portal."
+  },
+  {
+   "q": "How did the Wildhammers join the Alliance?",
+   "aliases": [
+    "why are wildhammers alliance",
+    "wildhammer alliance history"
+   ],
+   "answer": "During the Second War, Orgrim Doomhammer attacked the Hinterlands while marching toward Quel'Thalas. Supreme Commander Anduin Lothar led the Alliance to defend Aerie Peak, driving off the Horde and forest trolls. Moved by their bravery, the Wildhammers joined the Alliance of Lordaeron."
+  },
+  {
+   "q": "Are the Wildhammer dwarves closely allied with Ironforge?",
+   "aliases": [
+    "bronzebeard wildhammer relationship",
+    "do ironforge and wildhammer get along"
+   ],
+   "answer": "Yes. While the two clans fought during the War of the Three Hammers, they united to defeat the Dark Irons. To honor their friendship, they constructed the Valley of Kings in Loch Modan, and they have maintained a firm alliance ever since."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For a dwarf of Ironforge, the Wildhammers are kin bound by old oaths. Though they prefer windy crags and open skies over deep mines, their bravery with the stormhammer commands the deepest respect."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance owes much of its aerial supremacy to the Wildhammers, whose lightning-infused gryphon riders turned the tide against the Horde's red dragons during the Second War."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The bond Wildhammer mountaineers share with their wild gryphons represents the pinnacle of beast mastery, built on lifelong partnership rather than simple dominion."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Wildhammer tradition channels raw storm energy through mystic hammers, maintaining a bond with elemental lightning and nature far older than the modern church traditions of Ironforge."
+  }
+ ],
+ "keywords": [
+  "aerie peak",
+  "falstad",
+  "grim batol",
+  "gryphon",
+  "hinterlands",
+  "khardros",
+  "kurdran",
+  "stormhammer",
+  "wildhammer"
+ ],
+ "related": [
+  "topic:dwarf",
+  "zone:hinterlands",
+  "topic:bronzebeard-clan",
+  "subzone:grim-batol",
+  "topic:dark-iron-clan",
+  "topic:alliance-of-lordaeron",
+  "topic:second-war",
+  "subzone:valley-of-kings"
+ ],
+ "attribution": [
+  "Wildhammer clan"
+ ]
+}

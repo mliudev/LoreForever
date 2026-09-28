@@ -1,0 +1,125 @@
+{
+ "key": "quest:2206",
+ "type": "quest",
+ "name": "Snatch and Grab",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   2206
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Master Mathias Shaw",
+  "end": "",
+  "previous": "Seek out SI: 7",
+  "next": null,
+  "wiki": "Snatch and Grab",
+  "chain": [
+   "Seek out SI: 7",
+   "Snatch and Grab"
+  ]
+ },
+ "summary": "Snatch and Grab is an undercover assignment given to promising rogues by Master Mathias Shaw, leader of SI:7. It tasks operatives with infiltrating Jerod's Landing to steal shipping intelligence from the Defias Brotherhood.",
+ "sections": [
+  {
+   "title": "A Test of Tradecraft",
+   "body": "For an aspiring operative in Stormwind, standing before Master Mathias Shaw is the true test of entry into the kingdom's covert intelligence wing. Rather than relying on simple brute force, Shaw demands proof of finesse and stealth. Taking down key figures quietly and retrieving vital papers without drawing the realm into open scandal is the core mandate of SI:7, and this mission serves as an initiate's proving ground.",
+   "spoiler": 0
+  },
+  {
+   "title": "Smugglers on the Lake",
+   "body": "Jerod's Landing sits along the southern shore of Crystal Lake, just south of Goldshire. Though once a quiet local dock, the Defias Brotherhood seized control of the site to establish an illicit transit corridor. By ferrying smuggled arms, supplies, and contraband across the waters from Redridge down toward Westfall, the thieves bypass royal road patrols entirely.",
+   "spoiler": 0
+  },
+  {
+   "title": "Plausible Deniability",
+   "body": "Shaw makes SI:7's standing doctrine abundantly clear before dispatching agents into the field: should the operative be captured, compromised, or slain, the Crown and its spymasters will disavow all knowledge of their existence. Recovering the Defias Dockmaster's schedule secures crucial proof of the Brotherhood's supply lines while keeping Stormwind's official involvement in the shadows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who assigns the quest Snatch and Grab?",
+   "aliases": [
+    "who gives snatch and grab",
+    "quest giver snatch grab"
+   ],
+   "answer": "Master Mathias Shaw, leader of Stormwind's intelligence service SI:7, gives the quest from inside the SI:7 headquarters located in the Command Center of Old Town."
+  },
+  {
+   "q": "Where is Jerod's Landing?",
+   "aliases": [
+    "jerods landing location",
+    "where is jerod's landing",
+    "dockmaster location"
+   ],
+   "answer": "Jerod's Landing is on the southern edge of Crystal Lake in Elwynn Forest, directly south of Goldshire. The Defias Brotherhood has commandeered the docks and the dock house there."
+  },
+  {
+   "q": "What are the Defias smuggling through Jerod's Landing?",
+   "aliases": [
+    "what are they smuggling",
+    "defias contraband"
+   ],
+   "answer": "The Defias use Jerod's Landing to move large shipments of contraband and supplies across the water between Redridge and Westfall, circumventing kingdom watchposts and road checkpoints."
+  },
+  {
+   "q": "Who carries the Defias Shipping Schedule?",
+   "aliases": [
+    "where is shipping schedule",
+    "who drops schedule",
+    "defias dockmaster"
+   ],
+   "answer": "The shipping schedule is carried by the Defias Dockmaster, who can be found guarding the dock house at Jerod's Landing."
+  },
+  {
+   "q": "What happens if an operative is captured during this mission?",
+   "aliases": [
+    "what happens if i fail",
+    "disavowed by si7"
+   ],
+   "answer": "As Master Mathias Shaw warns, SI:7 operates with strict plausible deniability. If an operative is exposed or captured, SI:7 will disavow all connection to them."
+  },
+  {
+   "q": "Why does SI:7 care about this shipping schedule?",
+   "aliases": [
+    "why need schedule",
+    "si7 shipping schedule"
+   ],
+   "answer": "The document details how the Defias Brotherhood moves contraband between Redridge and Westfall. Securing it allows Stormwind's intelligence network to map out enemy logistics without alerting the syndicate."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This mission marks a rogue's formal introduction to SI:7, testing stealth and cutpurse instincts to earn recognition and a signature blade from Mathias Shaw."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Intercepting Defias supply chains at Jerod's Landing protects Elwynn Forest and chips away at the criminal syndicate threatening Stormwind's surrounding territories."
+  }
+ ],
+ "keywords": [
+  "crystal lake",
+  "defias",
+  "dockmaster",
+  "goldshire",
+  "jerod's landing",
+  "mathias shaw",
+  "shipping schedule",
+  "si:7",
+  "snatch and grab"
+ ],
+ "related": [
+  "quest:2205",
+  "npc:mathias-shaw",
+  "subzone:jerod-s-landing",
+  "subzone:goldshire",
+  "zone:westfall",
+  "quest:2300"
+ ],
+ "attribution": [
+  "Snatch and Grab"
+ ]
+}

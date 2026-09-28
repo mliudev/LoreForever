@@ -1,0 +1,131 @@
+{
+ "key": "quest:487",
+ "type": "quest",
+ "name": "The Road to Darnassus",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   487
+  ],
+  "level": "8",
+  "faction": "Alliance",
+  "start": "Moon Priestess Amara",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "The Road to Darnassus (Classic)",
+  "chain": []
+ },
+ "summary": "The main road connecting the settlement of Dolanaar to the night elf capital of Darnassus is under constant threat from corrupted Gnarlpine furbolgs. Moon Priestess Amara coordinates scouts and travelers to keep this crucial trade and messenger route clear of ambushes.",
+ "sections": [
+  {
+   "title": "A Lifeline Under Siege",
+   "body": "The road spanning west from Dolanaar toward Darnassus is the primary overland artery in Teldrassil. Vital trade goods, political missives, and travelers must move along it daily to maintain connection between the capital city and the boughs of the great tree. Because Teldrassil is relatively young and wild, maintaining secure roads is critical for the fledgling kaldorei communities.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Gnarlpine Menace",
+   "body": "Rather than peaceful forest dwellers, the Gnarlpine furbolg tribe in Teldrassil has fallen victim to a foul corruption. Driven mad by whatever sickness plagues the boughs of the World Tree, they strike outward from hidden dens beneath the ridges. Stalking the tree line alongside the road, Gnarlpine ambushers prey on unwary couriers and travelers, turning what should be a peaceful forest trek into a deadly gauntlet.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Sentinels' Vigil",
+   "body": "To counter the ambushers, Moon Priestess Amara keeps watch outside Dolanaar. Blending the spiritual authority of Elune's priesthood with the militant vigilance of the Sentinels, she directs capable adventurers to strike down the ambushers near their dens below the road, ensuring safe transit to the gates of Darnassus.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the road between Dolanaar and Darnassus so dangerous?",
+   "aliases": [
+    "why are furbolgs attacking",
+    "gnarlpine road attacks",
+    "why is the road unsafe"
+   ],
+   "answer": "Corrupted Gnarlpine furbolgs have established dens along the low ridges below the roadway. Driven mad by the corruption spreading through Teldrassil, they emerge from the underbrush to ambuscade travelers, couriers, and merchants."
+  },
+  {
+   "q": "Who is Moon Priestess Amara?",
+   "aliases": [
+    "who gives the road to darnassus quest",
+    "amara nightwalker",
+    "who is amara"
+   ],
+   "answer": "Moon Priestess Amara\u2014sometimes addressed by her full name, Sentinel Amara Nightwalker\u2014is a night elf commander stationed on the western outskirts of Dolanaar. She oversees the security of the highway and coordinates martial efforts against the nearby Gnarlpine threat."
+  },
+  {
+   "q": "Why are the Gnarlpine furbolgs aggressive?",
+   "aliases": [
+    "why gnarlpine mad",
+    "furbolg corruption teldrassil",
+    "are gnarlpine evil"
+   ],
+   "answer": "Furbolgs were historically allies and peaceful neighbors of the kaldorei. However, the Gnarlpine tribe on Teldrassil has been twisted by the strange malady infecting the World Tree, turning their minds violent and driving them to attack anyone entering the forest."
+  },
+  {
+   "q": "Where are the ambushers hiding?",
+   "aliases": [
+    "where are gnarlpine ambushers",
+    "find ambushers",
+    "ambusher den location"
+   ],
+   "answer": "The ambushers dwell below the bluffs and vantage points just off the main road west of Dolanaar, where their dens allow them to leap onto travelers moving toward Darnassus."
+  },
+  {
+   "q": "Why doesn't Darnassus send a full Sentinel garrison to clear the road?",
+   "aliases": [
+    "where are the guards",
+    "why sentinels need help",
+    "darnassus patrol"
+   ],
+   "answer": "The Sentinels are stretched thin across Teldrassil dealing with grell infestations, corrupted timberlings, and threats along the coast. Officers like Amara must rely on competent travelers and volunteers to keep the interior transit routes clear."
+  },
+  {
+   "q": "Why is Amara called both a Moon Priestess and a Sentinel?",
+   "aliases": [
+    "amara rank",
+    "priestess or sentinel amara",
+    "amara nightwalker title"
+   ],
+   "answer": "In kaldorei society, the sisterhood of Elune and the Sentinel military are closely intertwined. It is common for leaders within the priesthood to command Sentinel troops or to have served as front-line warriors throughout their lives."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The Gnarlpine were once honorable kindred of the wild; putting down corrupted ambushers along the highway to Darnassus is a grim necessity born of Teldrassil's sickness."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Assisting Moon Priestess Amara serves the Sisterhood of Elune, which provides both spiritual leadership and martial defence for the young tree."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Darnassus is the heart of the Alliance presence in northern Kalimdor; keeping trade and communications flowing securely along its main highway is essential."
+  }
+ ],
+ "keywords": [
+  "amara",
+  "ambusher",
+  "darnassus",
+  "dolanaar",
+  "furbolg",
+  "gnarlpine",
+  "nightwalker",
+  "road to darnassus",
+  "teldrassil"
+ ],
+ "related": [
+  "npc:moon-priestess-amara",
+  "subzone:dolanaar",
+  "zone:darnassus",
+  "topic:furbolg",
+  "topic:sentinels",
+  "zone:teldrassil",
+  "quest:940"
+ ],
+ "attribution": [
+  "The Road to Darnassus (Classic)"
+ ]
+}

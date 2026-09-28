@@ -1,0 +1,88 @@
+{
+ "key": "subzone:twilight-base-camp",
+ "type": "subzone",
+ "name": "Twilight Base Camp",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Twilight Base Camp"
+ },
+ "summary": "The Twilight Base Camp is a fortified outpost of the Twilight's Hammer cult situated in the arid wastes of Silithus. It serves as an active ritual site where cultists convene to commune with elemental powers and orchestrate their apocalyptic agenda. The camp is characterized by strange wind stones and heavily armed cult zealots.",
+ "sections": [
+  {
+   "title": "A Bastion of Doom",
+   "body": "Perched among the desolate sands of Silithus, the Twilight Base Camp is one of several enclaves established by the Twilight's Hammer cult. The outpost brims with zealots, geomancers, and stonecallers dedicated to summoning devastating elemental forces. Surrounded by jagged ritual stones, the camp acts as a staging ground where leaders like Twilight Keeper Havunth and Twilight Lord Everun direct efforts to hasten Azeroth's end, standing in open defiance of the Cenarion Hold forces attempting to restore balance to the region.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Wind Stones",
+   "body": "Scattered throughout the outpost are mysterious monuments known as wind stones, ranging in power from lesser conduits to greater monoliths. Through cryptic incantations and cult regalia, the Twilight's Hammer uses these focal points to pull chaotic elemental spirits directly into the physical realm. Disrupting these rituals remains a top priority for travelers and scouts hoping to prevent the cult's influence from spreading across Kalimdor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Twilight Base Camp?",
+   "aliases": [
+    "twilight camp silithus",
+    "what is twilight base camp",
+    "silithus cultist camp"
+   ],
+   "answer": "It is an armed outpost established by the apocalyptic Twilight's Hammer cult in the deserts of Silithus, used to conduct dark rituals and summon powerful elemental entities."
+  },
+  {
+   "q": "Who controls this camp?",
+   "aliases": [
+    "who leads twilight base camp",
+    "twilight base camp leader",
+    "who is in charge"
+   ],
+   "answer": "The outpost is manned by zealots of the Twilight's Hammer under the direction of overseers such as Twilight Keeper Havunth and the rare leader Twilight Lord Everun."
+  },
+  {
+   "q": "What are the strange stones in the camp?",
+   "aliases": [
+    "wind stones",
+    "lesser wind stone",
+    "greater wind stone silithus"
+   ],
+   "answer": "The structures are wind stones\u2014mystical focal conduits varying in size that cultists use to pierce planar barriers and bind elemental creatures into their service."
+  },
+  {
+   "q": "Why are the Twilight's Hammer in Silithus?",
+   "aliases": [
+    "why twilight hammer silithus",
+    "twilight cult silithus goal"
+   ],
+   "answer": "The cult is drawn to the ancient, chaotic energies lingering beneath the sands of Silithus, seeking to awaken dark powers and summon elementals to bring about the destruction of the world."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The blatant perversion and subjugation of elemental spirits at the camp's wind stones is an affront to any shaman dedicated to maintaining spiritual harmony."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The dark, apocalyptic rituals conducted by the cultists represent a direct threat to peace, calling for the righteous judgment of the Holy Light."
+  }
+ ],
+ "keywords": [
+  "silithus",
+  "twilight avenger",
+  "twilight base camp",
+  "twilight geolord",
+  "twilight keeper havunth",
+  "twilight lord everun",
+  "twilight's hammer",
+  "wind stones"
+ ],
+ "related": [
+  "zone:silithus",
+  "topic:twilight-s-hammer",
+  "topic:light"
+ ],
+ "attribution": [
+  "Twilight Base Camp"
+ ]
+}

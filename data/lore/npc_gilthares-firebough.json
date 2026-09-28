@@ -1,0 +1,86 @@
+{
+ "key": "npc:gilthares-firebough",
+ "type": "npc",
+ "name": "Gilthares Firebough",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Gilthares Firebough",
+  "refs": 1
+ },
+ "summary": "Gilthares Firebough is an elven deckhand held captive atop a tower inside Northwatch Hold. Formerly employed by the Thalo'dan Privateers aboard a moonshine transport between Ratchet and Booty Bay, he seeks any opportunity to escape his Theramore captors.",
+ "sections": [
+  {
+   "title": "A Smuggler Behind Bars",
+   "body": "While hauling illicit cargo between Ratchet and Booty Bay, Gilthares Firebough saw his ship blasted to splinters by naval forces out of Theramore. As the sole survivor of the assault, the privateer was dragged ashore in chains and locked away in a tower within Northwatch Hold. Though dressed in vivid red and bearing little affection for the Alliance zealots who slaughtered his crew, Gilthares is not picky about who aids his breakout\u2014so long as they can fight their way down from the ramparts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gilthares Firebough?",
+   "aliases": [
+    "who is gilthares",
+    "gilthares lore",
+    "who is this elf"
+   ],
+   "answer": "Gilthares is an elven deckhand affiliated with the Thalo'dan Privateers. He was captured when Northwatch forces intercepted and sank his merchant vessel off the coast of the Barrens."
+  },
+  {
+   "q": "Why is he imprisoned in Northwatch Hold?",
+   "aliases": [
+    "why is he in jail",
+    "why in a cage",
+    "northwatch prisoner"
+   ],
+   "answer": "Gilthares was serving aboard a transport hauling moonshine between Ratchet and Booty Bay. Theramore soldiers sank the ship, killed the rest of the crew, and imprisoned Gilthares at Northwatch Hold as contraband cargo and a prisoner of war."
+  },
+  {
+   "q": "Is Gilthares a high elf or a blood elf?",
+   "aliases": [
+    "what kind of elf is gilthares",
+    "high elf or blood elf",
+    "gilthares race"
+   ],
+   "answer": "Gilthares is an elf of Quel'Thalas who works as an independent sailor rather than serving either the Alliance or the regency in Silvermoon. While his red clothing is often associated with the sin'dorei, he serves privateers rather than any national faction."
+  },
+  {
+   "q": "Who are the Thalo'dan Privateers?",
+   "aliases": [
+    "thalodan privateers",
+    "who does he work for",
+    "gilthares crew"
+   ],
+   "answer": "The Thalo'dan Privateers are an independent maritime outfit involved in smuggling operations across the Great Sea, including the profitable moonshine run connecting Ratchet and Booty Bay."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Escorting Gilthares away from Northwatch strikes an easy blow against Theramore's aggression along the Barrens coastline."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "While initially indifferent to passersby, Gilthares harbors intense hostility toward the Alliance sailors who destroyed his vessel and locked him in a cell."
+  }
+ ],
+ "keywords": [
+  "booty bay",
+  "free from the hold",
+  "gilthares firebough",
+  "northwatch hold",
+  "ratchet",
+  "thalo'dan privateers"
+ ],
+ "related": [
+  "quest:898",
+  "zone:barrens",
+  "subzone:ratchet",
+  "subzone:booty-bay",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Gilthares Firebough"
+ ]
+}

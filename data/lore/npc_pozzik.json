@@ -1,0 +1,106 @@
+{
+ "key": "npc:pozzik",
+ "type": "npc",
+ "name": "Pozzik",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Pozzik",
+  "refs": 3
+ },
+ "summary": "Pozzik is an esteemed goblin tinkerer and racer stationed at the Mirage Raceway on the Shimmering Flats in Thousand Needles. Once one of the most respected engineers in Undermine, he now dedicates his technical genius to constructing experimental rocket cars and settling the ultimate debate of engineering supremacy against his gnome counterpart.",
+ "sections": [
+  {
+   "title": "A Master of Undermine",
+   "body": "Before retiring to the harsh salt flats of Thousand Needles, Pozzik built a legendary reputation on the Isle of Kezan. As one of the most respected tinkerers out of Undermine, his technical expertise spans complex internal combustion, propulsion, and hazardous chassis construction. Rather than settling into comfortable obscurity, however, Pozzik took his mechanical mastery into the desert to push high-speed machinery far past its breaking point.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Duel on the Salt Flats",
+   "body": "At the Mirage Raceway, Pozzik teamed up with his perennial gnome counterpart, Fizzle Brassbolts. Despite the historic rivalry between goblin explosives and delicate gnomish calibration, the two worked together to construct the sprawling racetrack across the dried lakebed. They field opposing racing outfits, testing prototype rocket cars to definitively prove whose racial design philosophy dominates the track. Naturally, Pozzik is always on the lookout for resourceful adventurers willing to acquire parts and shave weight off his designs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Pozzik?",
+   "aliases": [
+    "pozzik",
+    "who is pozzik",
+    "pozzik lore"
+   ],
+   "answer": "Pozzik is a veteran goblin tinkerer formerly from Undermine, now leading one side of the rocket-racing competition at the Mirage Raceway in Thousand Needles."
+  },
+  {
+   "q": "Why is Pozzik out in Thousand Needles?",
+   "aliases": [
+    "why is pozzik here",
+    "pozzik shimmering flats"
+   ],
+   "answer": "After retiring from formal work in Undermine, Pozzik came to the Shimmering Flats to build and race experimental rocket cars across the vast, uninterrupted salt flats."
+  },
+  {
+   "q": "What is his relationship with Fizzle Brassbolts?",
+   "aliases": [
+    "pozzik and fizzle",
+    "pozzik gnome rival"
+   ],
+   "answer": "Fizzle Brassbolts is Pozzik's longstanding gnomish rival and racetrack co-founder. Though they work side-by-side maintaining the Mirage Raceway, they constantly compete to prove goblin engineering is superior to gnomish craftsmanship."
+  },
+  {
+   "q": "Does Pozzik work for the Horde or the Alliance?",
+   "aliases": [
+    "is pozzik neutral",
+    "pozzik faction"
+   ],
+   "answer": "Pozzik is entirely neutral, working as an independent goblin entrepreneur at the raceway. He is willing to do business and offer tasks to both Alliance and Horde travelers."
+  },
+  {
+   "q": "What kind of projects is Pozzik working on right now?",
+   "aliases": [
+    "pozzik quests",
+    "what does pozzik build"
+   ],
+   "answer": "Pozzik is obsessed with squeezing more speed out of his rocket cars. He develops multi-engine racing chassis, gathers rare lightweight ores, and sends explorers out for salvaged parts and components."
+  },
+  {
+   "q": "What is MEGA?",
+   "aliases": [
+    "what is mega",
+    "mechanical engineers guild of azeroth"
+   ],
+   "answer": "MEGA stands for the Mechanical Engineers' Guild of Azeroth, a professional organization of top-tier tinkerers and machinists of which Pozzik is a member."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "For engineers of either persuasion\u2014goblin or gnomish\u2014Pozzik represents the absolute pinnacle of high-risk, high-velocity applied mechanics."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomes visiting the track will find in Pozzik their favorite foil: a boisterous goblin engineer convinced that brute thrust outmatches delicate precision."
+  }
+ ],
+ "keywords": [
+  "fizzle brassbolts",
+  "mirage raceway",
+  "pozzik",
+  "rocket car",
+  "shimmering flats",
+  "thousand needles",
+  "tinker",
+  "undermine"
+ ],
+ "related": [
+  "subzone:mirage-raceway",
+  "npc:fizzle-brassbolts",
+  "zone:thousandneedles",
+  "quest:1176",
+  "topic:goblin",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Pozzik"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "key": "subzone:vul-gol-ogre-mound",
+ "type": "subzone",
+ "name": "Vul'Gol Ogre Mound",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Vul'Gol Ogre Mound"
+ },
+ "summary": "Vul'Gol Ogre Mound is a sunken basin in southern Duskwood overrun by the Splinter Fist ogres under the brute Zzarc'Vul. Once a cluster of human homesteads, its ruined farmhouses and subterranean cavern are now littered with the carcasses and scavenged plunder of the clan.",
+ "sections": [
+  {
+   "title": "A Blighted Homestead",
+   "body": "Tucked away in the shadows southwest of the fork heading toward Stranglethorn Vale, the Vul'Gol Ogre Mound serves as the seat of the Splinter Fist clan in Duskwood. The basin was once peaceful farmland, but its human inhabitants have long since fled or perished, leaving behind hollowed-out cabins now claimed by lumbering ogres and used as crude shelters. Inside the cavern beneath the rise, piles of slaughtered black bears attest to the clan's voracious appetite. Their chieftain, Zzarc'Vul, rules over the encampment, hoarding odd trinkets alongside mundane scavenged goods.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Menace on the Southern Border",
+   "body": "Because the beleaguered Night Watch must stretch its thin ranks to guard Darkshire against rabid worgen and the restless dead, commander Sarah Ladimore and her militia rely on outside mercenaries to cull the Splinter Fist numbers before they push north. However, the ogres have made enemies beyond the town guard. They raided the recluse Abercrombie, stealing a crate of his alchemical tools, and attracted the attention of inquisitive mages seeking the arcane lenses that chieftain Zzarc'Vul is rumored to possess.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives in the Vul'Gol Ogre Mound?",
+   "aliases": [
+    "who is at vul'gol",
+    "vul'gol enemies",
+    "ogres in duskwood"
+   ],
+   "answer": "The mound is occupied by the Splinter Fist clan of ogres, led by the hulking chieftain Zzarc'Vul. They dwell among ruined human cottages and deep within an earthen cavern."
+  },
+  {
+   "q": "Why hasn't the Night Watch cleared out the ogres?",
+   "aliases": [
+    "night watch ogres",
+    "why doesn't darkshire attack vul'gol"
+   ],
+   "answer": "The Night Watch lacks the manpower to march in force on the southern basin. With Darkshire threatened on all sides by undead, worgen, and the horrors of Addle's Stead, the militia hires travelling adventurers to cull the Splinter Fist instead of risking town guards."
+  },
+  {
+   "q": "Who lived here before the ogres?",
+   "aliases": [
+    "ruined buildings vul'gol",
+    "vul'gol history"
+   ],
+   "answer": "Human homesteaders once farmed the fertile pocket in southern Duskwood, back when the region was still known as Brightwood. When the curse fell upon the land, the farms fell to ruin, and the invading ogres claimed the abandoned structures."
+  },
+  {
+   "q": "Why did the hermit Abercrombie send me here?",
+   "aliases": [
+    "abercrombie ogres",
+    "abercrombie crate"
+   ],
+   "answer": "The Splinter Fist ogres ambushed the hermit Abercrombie and made off with a crate containing his herbs and embalming tools. Unable to fight them himself, Abercrombie directs travelers into the mound to recover his stolen goods."
+  },
+  {
+   "q": "Where is the mound located?",
+   "aliases": [
+    "vul'gol location",
+    "how to get to vul'gol"
+   ],
+   "answer": "Vul'Gol lies in the far south of Duskwood, just southwest of the road junction that splits off and leads south toward the border of Stranglethorn Vale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers traversing the southern path toward Stranglethorn Vale, keeping the Splinter Fist contained at Vul'Gol is vital to maintaining an open supply route through an already treacherous forest."
+  },
+  {
+   "target": "race:Human",
+   "text": "The smashed remnants of farmsteads in the basin are a bitter reminder of how much territory the kingdom of Stormwind has lost in Duskwood over the past generation."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "duskwood",
+  "night watch",
+  "ogres",
+  "splinter fist",
+  "vul'gol",
+  "zzarc'vul"
+ ],
+ "related": [
+  "zone:duskwood",
+  "topic:night-watch",
+  "npc:abercrombie",
+  "quest:134",
+  "npc:viktori-prism-antras",
+  "zone:stranglethorn",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Vul'Gol Ogre Mound"
+ ]
+}

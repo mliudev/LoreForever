@@ -1,0 +1,117 @@
+{
+ "key": "quest:275",
+ "type": "quest",
+ "name": "Blisters on The Land",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   275
+  ],
+  "level": "26",
+  "faction": "Alliance",
+  "start": "Rethiel the Greenwarden",
+  "end": "",
+  "previous": "Fire Taboo",
+  "next": null,
+  "wiki": "Blisters on The Land",
+  "chain": []
+ },
+ "summary": "Blisters on The Land is an Alliance quest offered by Rethiel the Greenwarden along the eastern ridges of the Wetlands. Sensing an unnatural sickness stirring the swamp, the lone night elf warden tasks travelers with culling the diseased Fen Creepers that stalk the waterways. Putting these shambling plant horrors to rest is Rethiel's attempt to break the swamp's rising fever.",
+ "sections": [
+  {
+   "title": "A Festering Marshes",
+   "body": "Far from the ancient forests of Kalimdor, Rethiel the Greenwarden watches over the soggy expanse of the Wetlands. The marshes have never been gentle, but recently an unnatural sickness has begun to spread through the mire. Rethiel perceives this affliction as a growing fever in the earth itself, one that causes wild nature to warp into mindless, shambling monstrosities.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cleansing the Fen",
+   "body": "The primary symptom of this rot is the rise of Fen Creepers\u2014decaying elemental masses of swamp vegetation that shamble along the waterways. Rethiel describes them as diseased blisters swelling upon the surface of the land. Because their tormented existence only spreads agitation through the marsh, the Greenwarden charges passing allies with destroying them so their tangled remnants can settle harmlessly back into the mud.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rethiel the Greenwarden?",
+   "aliases": [
+    "who is rethiel",
+    "rethiel greenwarden lore",
+    "who gives blisters on the land"
+   ],
+   "answer": "Rethiel the Greenwarden is a night elf hermit residing at the Greenwarden's Grove in the eastern Wetlands. He dedicates himself to tending the natural balance of the marshlands, seeking to soothe the land's afflictions and curb corrupted elemental growths."
+  },
+  {
+   "q": "What are Fen Creepers?",
+   "aliases": [
+    "fen creepers",
+    "what is a fen creeper",
+    "creepers wetlands"
+   ],
+   "answer": "Fen Creepers are hostile plant and bog elementals that wander the waterways of the Wetlands. They appear as hulking, shambling masses of animated vines, mud, and decaying marsh flora."
+  },
+  {
+   "q": "Why does Rethiel want the Fen Creepers destroyed?",
+   "aliases": [
+    "why kill fen creepers",
+    "why blisters on the land"
+   ],
+   "answer": "Rethiel views the Fen Creepers as fevered, diseased manifestations of the marsh's growing sickness. He believes that destroying them allows their form to dissolve and settle back into the earth, soothing the agitated land."
+  },
+  {
+   "q": "What causes the festering in the Wetlands?",
+   "aliases": [
+    "why are wetlands diseased",
+    "cause of wetland sickness"
+   ],
+   "answer": "Rethiel admits he does not fully know what is causing the festering to grow within the Wetlands. He simply senses the land's weeping distress and treats the symptoms by calming elemental unrest wherever it surges."
+  },
+  {
+   "q": "Where are Fen Creepers found in the Wetlands?",
+   "aliases": [
+    "fen creeper locations",
+    "where to find fen creepers"
+   ],
+   "answer": "Fen Creepers roam along the damp waterways, muddy banks, and central channels crisscrossing the Wetlands, particularly near the deeper bogs west of the Greenwarden's Grove."
+  },
+  {
+   "q": "Does this quest connect to other tasks for Rethiel?",
+   "aliases": [
+    "greenwarden questline",
+    "rethiel quests"
+   ],
+   "answer": "Yes. Blisters on The Land follows Rethiel's concerns regarding the Dragonmaw orcs and fire magic in Fire Taboo, serving as part of his ongoing efforts to protect the balance of the marsh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Rethiel's mission directly reflects the druidic duty to heal the natural world, purging agitated elemental blights so the earth can return to balance."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Finding a solitary night elf warden in the Eastern Kingdoms underscores how far the children of Teldrassil are willing to travel to nurture wounded land."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The Fen Creepers represent twisted manifestations of earth and water, making their destruction an act of pacifying discordant elemental spirits."
+  }
+ ],
+ "keywords": [
+  "blisters on the land",
+  "fen creepers",
+  "greenwarden",
+  "marshes",
+  "rethiel",
+  "wetland bogs",
+  "wetlands"
+ ],
+ "related": [
+  "npc:rethiel-the-greenwarden",
+  "quest:277",
+  "quest:463",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "Blisters on The Land"
+ ]
+}

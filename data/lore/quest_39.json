@@ -1,0 +1,125 @@
+{
+ "key": "quest:39",
+ "type": "quest",
+ "name": "Deliver Thomas' Report",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   39
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Guard Thomas",
+  "end": "Marshal Dughan",
+  "previous": "Report to Thomas",
+  "next": "Cloth and Leather Armor",
+  "wiki": "Deliver Thomas' Report",
+  "chain": []
+ },
+ "summary": "Deliver Thomas' Report carries grim intelligence from eastern Elwynn Forest back to Goldshire's garrison command. Guard Thomas charges an adventurer with alerting Marshal Dughan to the deaths of two guards and the uncontrollable expansion of local murloc tribes. The report highlights how precariously thin Stormwind's military presence is across its own heartland.",
+ "sections": [
+  {
+   "title": "Bad Tidings from the East",
+   "body": "Stationed out along the bridges crossing into the wilderness of eastern Elwynn, Guard Thomas has reached a breaking point. Tasked with monitoring river traffic and frontier unrest, his detachment has suffered critical losses with the deaths of Guards Malakai and Rolf at the hands of aggressive murloc tribes. With his remaining numbers dwindling and unable to contain the aquatic menace, Thomas is forced to send an urgent courier back down the road to Goldshire.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Garrison Stretched to the Brink",
+   "body": "When Marshal Dughan receives the report at the Lion's Pride Inn, the news validates his worst strategic fears. Goldshire is already struggling to maintain basic patrols while contending with kobold infestations, Defias bandits, and a total lack of reinforcements from Stormwind City. The loss of two experienced guards and the realization that murlocs may soon threaten Goldshire itself illustrates just how close the regional defenses are to collapsing entirely.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are Malakai and Rolf?",
+   "aliases": [
+    "malakai and rolf",
+    "who died",
+    "dead guards"
+   ],
+   "answer": "Malakai and Rolf were Stormwind guards stationed in eastern Elwynn Forest under Guard Thomas. While patrolling near the rivers and lakes, both were overwhelmed and slain by aggressive murloc tribes that have infested the waterways."
+  },
+  {
+   "q": "Why is Guard Thomas asking an adventurer to deliver the report?",
+   "aliases": [
+    "why guard thomas needs help",
+    "why courier",
+    "cant thomas send a guard"
+   ],
+   "answer": "Guard Thomas simply has no troops left to spare. His outpost is operating under severe manpower shortages, and abandoning his watch or sending away one of his few surviving sentries would leave the eastern bridges completely undefended."
+  },
+  {
+   "q": "What threat do the murlocs pose to Goldshire?",
+   "aliases": [
+    "murloc threat",
+    "will murlocs attack goldshire",
+    "how bad are murlocs"
+   ],
+   "answer": "As Marshal Dughan notes upon reading the dispatch, the unchecked murloc presence along the eastern rivers is expanding rapidly westward. Without enough guards to hold the perimeter, Dughan fears that fighting will reach the outskirts of Goldshire itself within the week."
+  },
+  {
+   "q": "Why doesn't Stormwind City send reinforcements to Elwynn?",
+   "aliases": [
+    "why no stormwind army",
+    "where are the troops",
+    "why are defenses thin"
+   ],
+   "answer": "Stormwind's military resources are stretched perilously thin across multiple fronts, complicated by political paralysis in the capital following the disappearance of King Varian Wrynn. Outlying settlements and frontier bridges are largely left to fend for themselves using local town watches and hired adventurers."
+  },
+  {
+   "q": "What happens after Marshal Dughan reads the report?",
+   "aliases": [
+    "next quest",
+    "what does dughan do",
+    "chain after report"
+   ],
+   "answer": "Recognizing that his garrison lacks the manpower to directly stem the tide, Marshal Dughan must look for other ways to outfit and support those willing to hold the line, directing attention toward securing supplies and armor for the regional defense."
+  },
+  {
+   "q": "Where is Guard Thomas stationed?",
+   "aliases": [
+    "guard thomas location",
+    "where is thomas",
+    "thomas location"
+   ],
+   "answer": "Guard Thomas is posted on the eastern side of Elwynn Forest, guarding the bridges that cross the rivers separating the heart of the forest from the wilder borders near the Redridge Mountains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Delivering Thomas' report reveals the vulnerability at the core of the Alliance's primary kingdom, showing that even the roads outside the capital are slipping out of garrison control."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "For warriors serving the realm, the loss of Malakai and Rolf underscores the harsh reality of frontier garrison duty against relentless, non-human foes."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human defenders feel the bite of these losses directly, seeing their homeland's security eroded by manpower shortages and rising hostile incursions."
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "goldshire",
+  "guard thomas",
+  "malakai",
+  "marshal dughan",
+  "murlocs",
+  "report",
+  "rolf"
+ ],
+ "related": [
+  "npc:guard-thomas",
+  "npc:marshal-dughan",
+  "quest:71",
+  "quest:59",
+  "subzone:goldshire",
+  "topic:murloc",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Deliver Thomas' Report"
+ ]
+}

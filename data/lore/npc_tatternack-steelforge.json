@@ -1,0 +1,77 @@
+{
+ "key": "npc:tatternack-steelforge",
+ "type": "npc",
+ "name": "Tatternack Steelforge",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Tatternack Steelforge",
+  "refs": 2
+ },
+ "summary": "Tatternack Steelforge is an orc smith stationed out in the harsh savanna of the Barrens, offering work to travelers who can handle raw metal and dangerous frontier fauna. Adept in the ways of iron and fire, he looks to study local ores and arm Horde forces against threats across the plains.",
+ "sections": [
+  {
+   "title": "An Orc at the Forge",
+   "body": "In the arid sprawl of the Barrens, keeping Horde outposts armed is no small task. Tatternack Steelforge brings the traditional metalworking expertise of his people to the frontier, seeking both practical weapons and unusual geological specimens to bolster the Horde's foothold against wild beasts, centaur raiders, and hostile quilboar.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tatternack Steelforge?",
+   "aliases": [
+    "who is tatternack",
+    "tatternack steelforge lore",
+    "what does tatternack do"
+   ],
+   "answer": "Tatternack Steelforge is an orc weaponsmith stationed in the Barrens. He helps supply Horde defenders by inspecting minerals, studying local ores, and putting reliable weapons into the hands of nearby warriors."
+  },
+  {
+   "q": "Where can Tatternack Steelforge be found?",
+   "aliases": [
+    "where is tatternack",
+    "tatternack steelforge location",
+    "tatternack coords"
+   ],
+   "answer": "Tatternack operates within the Barrens, residing among the Horde camps situated along the central savanna trails."
+  },
+  {
+   "q": "What kind of tasks does Tatternack offer?",
+   "aliases": [
+    "tatternack quests",
+    "weapons of choice quest giver",
+    "ore sample quest"
+   ],
+   "answer": "Tatternack primarily asks adventurers to recover weapons and retrieve fresh ore samples from around the Barrens to assist his forging efforts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "For smiths traversing the Barrens, Tatternack is a kindred spirit who understands the constant need for good ore and quality steel in a lawless borderland."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Tatternack plays a vital role in keeping Horde forces armed and supplied against regional threats like quilboar and centaur."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "blacksmith",
+  "camp taurajo",
+  "crossroads",
+  "ore",
+  "steelforge",
+  "tatternack"
+ ],
+ "related": [
+  "quest:893",
+  "quest:1153",
+  "subzone:camp-taurajo",
+  "subzone:crossroads",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Tatternack Steelforge"
+ ]
+}

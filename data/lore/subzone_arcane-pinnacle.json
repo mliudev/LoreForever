@@ -1,0 +1,85 @@
+{
+ "key": "subzone:arcane-pinnacle",
+ "type": "subzone",
+ "name": "Arcane Pinnacle",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Arcane Pinnacle"
+ },
+ "summary": "Perched among the rugged cliffs of Azshara, the Arcane Pinnacle is a secluded mountaintop haven used by Archmage Xylem. High above the coastal ruins, the enigmatic wizard tests aspiring practitioners of the arcane through perilous personal trials.",
+ "sections": [
+  {
+   "title": "A Sanctuary Above the Ruins",
+   "body": "Azshara is strewn with the shattered remnants of the Highborne, but the Arcane Pinnacle belongs to contemporary wizardry. Towering over the cliffs, this summit serves as an elevated staging ground overseen by Archmage Xylem. The reclusive former Kirin Tor mage uses illusions, portals, and magical platforms to test those who manage the arduous climb. Surrounded by apprentices and arcane conduits, the peak is detached from the faction skirmishes below, focusing entirely on unraveling the esoteric mysteries of spellcraft.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Archmage's Trials",
+   "body": "At the summit, an image of Archmage Xylem guides visitors toward testing grounds attuned to different schools of magic. Using attuned stones, the summit's central portal can transport hopefuls into specialized testing grounds\u2014the Trial of Fire, the Trial of Frost, and the Trial of Shadow. These treacherous gauntlets demand quick wits and rigorous discipline, as evidenced by apprentices who routinely vanish into the trials only to find themselves thoroughly humbled by Xylem's eccentric standards.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Arcane Pinnacle?",
+   "aliases": [
+    "what is this place",
+    "arcane pinnacle lore",
+    "xylem peak"
+   ],
+   "answer": "The Arcane Pinnacle is a high mountain peak in Azshara where Archmage Xylem tests adventurers and apprentices through dangerous magical trials. It sits isolated high above the coastal terrain."
+  },
+  {
+   "q": "Who rules or controls the Pinnacle?",
+   "aliases": [
+    "who owns arcane pinnacle",
+    "who lives here",
+    "archmageylem tower"
+   ],
+   "answer": "The summit is commanded by Archmage Xylem, an eccentric and powerful wizard formerly associated with Dalaran's Kirin Tor, who maintains magical images and apprentices throughout the area."
+  },
+  {
+   "q": "What are the trials located here?",
+   "aliases": [
+    "what trials",
+    "xylem trials",
+    "fire frost shadow trials"
+   ],
+   "answer": "A portal at the peak connects to three distinct challenges: the Trial of Fire, the Trial of Frost, and the Trial of Shadow. Each tests an aspirant's mastery and endurance against elemental and shadowy forces."
+  },
+  {
+   "q": "Are the Horde or Alliance in control of this peak?",
+   "aliases": [
+    "is this alliance or horde",
+    "faction control arcane pinnacle"
+   ],
+   "answer": "Neither faction holds the peak. Archmage Xylem operates independently of both the Alliance and the Horde, concerning himself only with arcane research and testing capable spellcasters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For practitioners of the arcane, the Pinnacle is a rare showcase of Archmage Xylem's isolated mastery over elemental and shadowy conjurations outside Dalaran's orthodoxy."
+  }
+ ],
+ "keywords": [
+  "arcane pinnacle",
+  "archmage xylem",
+  "azshara",
+  "kirin tor",
+  "trial of fire",
+  "trial of frost",
+  "trial of shadow",
+  "xylem"
+ ],
+ "related": [
+  "npc:archmage-xylem",
+  "zone:azshara",
+  "subzone:trial-of-fire",
+  "subzone:trial-of-frost"
+ ],
+ "attribution": [
+  "Arcane Pinnacle"
+ ]
+}

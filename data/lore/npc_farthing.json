@@ -1,0 +1,91 @@
+{
+ "key": "npc:farthing",
+ "type": "npc",
+ "name": "Farthing",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Farthing",
+  "refs": 2
+ },
+ "summary": "Bishop Farthing is a human clergyman residing within the Cathedral of Light in Stormwind City. To visitors and worshippers, he presents himself as a devout servant of the Holy Light who guides parishioners and directs aid toward beleaguered settlements across the kingdom.",
+ "sections": [
+  {
+   "title": "A Bishop in Stormwind",
+   "body": "Within the serene marble halls of the Cathedral of Light, Bishop Farthing stands as one of the prominent figures attending to the spiritual needs of Stormwind City. Alongside Archbishop Benedictus and the gathered clergy, he offers counsel to travelers, assists those pursuing the holy arts, and attends to the civic and pastoral obligations of the Church of the Holy Light.",
+   "spoiler": 0
+  },
+  {
+   "title": "Aid to the Plagued Lands",
+   "body": "Despite remaining situated within the capital, Farthing directs earnest travelers toward darker corners of the kingdom that desperately require holy aid. When troubled reports filter in regarding the fallen hero Morbent Fel and the creeping undead blight overtaking Duskwood, Farthing serves as an advisor in seeking out methods to overcome dark sorceries and cleanse the blighted frontier.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Bishop Farthing be found?",
+   "aliases": [
+    "farthing location",
+    "where is farthing",
+    "farthing map"
+   ],
+   "answer": "Bishop Farthing resides inside the Cathedral of Light, located at the center of Cathedral Square within Stormwind City."
+  },
+  {
+   "q": "What role does Farthing play in the Cathedral?",
+   "aliases": [
+    "what does farthing do",
+    "who is farthing"
+   ],
+   "answer": "He serves as an ordained bishop within the Church of the Holy Light, offering guidance to visiting faithful, priests in training, and adventurers seeking holy wisdom on behalf of distant settlements."
+  },
+  {
+   "q": "How is Farthing involved with Duskwood?",
+   "aliases": [
+    "farthing duskwood",
+    "farthing morbent fel"
+   ],
+   "answer": "Farthing is sought out by adventurers dealing with the undead menace in Duskwood, advising on the dark arts sustaining the necromancer Morbent Fel and directing souls toward purification."
+  },
+  {
+   "q": "Is Farthing related to other citizens bearing the same name?",
+   "aliases": [
+    "coleman farthing relative",
+    "farthing family"
+   ],
+   "answer": "Several other individuals across human lands share the surname Farthing, including Coleman and Yvette Farthing, though he does not actively speak of any direct family ties."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "For priests visiting the Cathedral of Light, Farthing represents the established hierarchy and scholarly wisdom of the human clergy in Stormwind."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Adventurers battling the creeping corruption in southern Alliance territories such as Duskwood look to Farthing and his fellow clergy for divine insight and spiritual resolve."
+  }
+ ],
+ "keywords": [
+  "benedictus",
+  "bishop farthing",
+  "cathedral of light",
+  "farthing",
+  "morbent fel",
+  "seeking wisdom",
+  "stormwind"
+ ],
+ "related": [
+  "subzone:cathedral-of-light",
+  "npc:archbishop-benedictus",
+  "quest:269",
+  "quest:55",
+  "quest:270",
+  "zone:stormwind",
+  "zone:duskwood",
+  "topic:church-of-the-holy-light"
+ ],
+ "attribution": [
+  "Farthing"
+ ]
+}

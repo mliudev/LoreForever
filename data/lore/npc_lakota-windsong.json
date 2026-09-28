@@ -1,0 +1,85 @@
+{
+ "key": "npc:lakota-windsong",
+ "type": "npc",
+ "name": "Lakota Windsong",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Lakota Windsong",
+  "refs": 1
+ },
+ "summary": "Lakota Windsong is a young tauren held captive atop the bluffs of Darkcloud Pinnacle in Thousand Needles. After rejecting an unwanted proposal from Arnak Grimtotem, she was abducted by force and awaits rescue from the Grimtotem tribe's clutches.",
+ "sections": [
+  {
+   "title": "A Deadly Courtship",
+   "body": "Not long after the Third War, Lakota Windsong was pursued by Arnak Grimtotem. Unwilling to join his clan or accept his courtship, she turned down his proposal. Arnak refused to take no for an answer; he returned under cover of night, slaughtered Lakota's brother when he tried to intervene, and carried her off into the jagged heights of Thousand Needles. Confined high above the canyon floor at Darkcloud Pinnacle, she remains trapped under heavy guard while Arnak still insists on making her his bride.",
+   "spoiler": 0
+  },
+  {
+   "title": "Descent to Safety",
+   "body": "Surrounded by treacherous Grimtotem bandits, Lakota cannot fight her way down the cliffs alone. Only a brave escort can lead her across the suspension bridges and down the winding paths to the canyon basin below. Once she breaks free of Darkcloud Pinnacle, Lakota flees toward the safety of Freewind Post, carrying word of her rescue to Thalia Amberhide and the defenders stationed there.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Lakota Windsong being held at Darkcloud Pinnacle?",
+   "aliases": [
+    "why is lakota captured",
+    "who kidnapped lakota",
+    "why is lakota in darkcloud pinnacle"
+   ],
+   "answer": "She refused a marriage proposal from Arnak Grimtotem. Rather than accept her refusal, Arnak murdered her brother and abducted Lakota, dragging her to the Grimtotem stronghold at Darkcloud Pinnacle in hopes of forcing her hand."
+  },
+  {
+   "q": "Where does Lakota go once she is rescued?",
+   "aliases": [
+    "where does lakota run",
+    "where does she go after escort",
+    "lakota destination"
+   ],
+   "answer": "After reaching the base of Darkcloud Pinnacle safely, Lakota makes her way to Freewind Post, where she can find refuge among the Horde defenders and report her ordeal to Thalia Amberhide."
+  },
+  {
+   "q": "Who is Arnak Grimtotem?",
+   "aliases": [
+    "who is arnak",
+    "who kidnapped her",
+    "arnak lore"
+   ],
+   "answer": "Arnak is a violent warrior of the treacherous Grimtotem clan who murdered Lakota's brother and abducted her when she declined to marry him."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Lakota's ordeal is a stark reminder of the treachery festering among the Grimtotem, whose defiance of Cairne Bloodhoof's leadership regularly turns violent."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Rescuing Lakota strikes a blow against Grimtotem dominance over Thousand Needles and secures safe passage for travelers resting at Freewind Post."
+  }
+ ],
+ "keywords": [
+  "arnak grimtotem",
+  "darkcloud pinnacle",
+  "free at last",
+  "freewind post",
+  "lakota windsong",
+  "thalia amberhide",
+  "thousand needles"
+ ],
+ "related": [
+  "quest:4904",
+  "subzone:darkcloud-pinnacle",
+  "subzone:freewind-post",
+  "npc:thalia-amberhide",
+  "zone:thousandneedles",
+  "topic:tauren",
+  "topic:horde",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Lakota Windsong"
+ ]
+}

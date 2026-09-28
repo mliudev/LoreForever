@@ -1,0 +1,120 @@
+{
+ "key": "quest:11",
+ "type": "quest",
+ "name": "Riverpaw Gnoll Bounty",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   11
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Deputy Rainer",
+  "end": "",
+  "previous": "Westbrook Garrison Needs Help!",
+  "next": null,
+  "wiki": "Riverpaw Gnoll Bounty",
+  "chain": [
+   "Westbrook Garrison Needs Help!",
+   "Riverpaw Gnoll Bounty"
+  ]
+ },
+ "summary": "Riverpaw Gnoll Bounty is an official contract issued by Deputy Rainer at Westbrook Garrison to cull the encroaching gnolls threatening Elwynn Forest's western borders. The Stormwind Army offers a reward for painted armbands taken from the Riverpaw packs infesting the woods and waterways.",
+ "sections": [
+  {
+   "title": "A Threat on the Border",
+   "body": "Westbrook Garrison guards the critical borderlands between Elwynn Forest and Westfall. However, depleted garrison forces have left the outpost struggling to contain an aggressive influx of Riverpaw gnolls. These savage creatures have established encampments directly south of the guard tower and further east around the shores of Stone Cairn Lake, encroaching close enough to threaten peaceful travelers and local homesteads.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of Order",
+   "body": "Unable to spare regular infantry to sweep the woods, Deputy Rainer places a bounty on the raiders. To confirm the kills, Rainer requires proof of martial victory: painted gnoll armbands stripped from the slain beasts. By hiring wandering adventurers and recruits to thin the pack's numbers, the garrison hopes to blunt the Riverpaws' advance before they overrun the western marches.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Riverpaw gnolls be found in Elwynn Forest?",
+   "aliases": [
+    "gnoll locations",
+    "where are the gnolls",
+    "riverpaw locations"
+   ],
+   "answer": "Riverpaw gnolls gather primarily in two areas in Elwynn: in the dense woods directly south of Westbrook Garrison near the riverbanks, and farther east around the perimeter of Stone Cairn Lake."
+  },
+  {
+   "q": "Why is the garrison asking adventurers for help with gnolls?",
+   "aliases": [
+    "why deputy rainer needs help",
+    "why garrison hiring mercenaries"
+   ],
+   "answer": "Westbrook Garrison is understaffed and facing pressure along the borders of Elwynn. With too few guards to patrol the perimeter and simultaneously launch offensive sweeps, Deputy Rainer turns to independent champions to hunt the gnolls."
+  },
+  {
+   "q": "What proof does Deputy Rainer require?",
+   "aliases": [
+    "bounty proof",
+    "what to collect for rainer"
+   ],
+   "answer": "Deputy Rainer requires eight Painted Gnoll Armbands as physical proof that the encroaching beasts have been put down."
+  },
+  {
+   "q": "Who are the Riverpaw gnolls?",
+   "aliases": [
+    "what are riverpaw gnolls",
+    "riverpaw tribe lore"
+   ],
+   "answer": "The Riverpaws are a notoriously vicious tribe of hyena-like humanoids known for infesting river valleys and borders across human lands. They frequently raid settlements, travelers, and farmlands for food and plunder."
+  },
+  {
+   "q": "Does this quest connect to any other threats in Elwynn?",
+   "aliases": [
+    "quest continuation",
+    "what comes after riverpaw bounty"
+   ],
+   "answer": "Riverpaw Gnoll Bounty is the conclusion of the short Westbrook Garrison alert chain, though Deputy Rainer and Westbrook Garrison also monitor other lawless elements in the area, such as the notorious outlaw Hogger."
+  },
+  {
+   "q": "Who pays the bounty for these gnolls?",
+   "aliases": [
+    "who funds the bounty",
+    "bounty reward source"
+   ],
+   "answer": "The bounty is officially sanctioned and backed by the Stormwind Army, which authorizes local garrisons to commend and compensate those who assist in pacifying royal territories."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of the realm, hunting down the Riverpaws is a direct effort to protect Elwynn's frontiers and support the overextended crown guards."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Taking on border bounties builds standing with the Stormwind Army while securing vital trade routes through the heart of the kingdom."
+  }
+ ],
+ "keywords": [
+  "bounty",
+  "deputy rainer",
+  "elwynn",
+  "gnoll",
+  "painted gnoll armband",
+  "riverpaw",
+  "stone cairn lake",
+  "westbrook garrison"
+ ],
+ "related": [
+  "npc:deputy-rainer",
+  "subzone:westbrook-garrison",
+  "quest:239",
+  "subzone:stone-cairn-lake",
+  "zone:elwynn",
+  "topic:stormwind-army",
+  "topic:gnoll",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Riverpaw Gnoll Bounty"
+ ]
+}

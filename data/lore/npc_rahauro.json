@@ -1,0 +1,119 @@
+{
+ "key": "npc:rahauro",
+ "type": "npc",
+ "name": "Rahauro",
+ "era": "classic",
+ "zone": "ragefire",
+ "meta": {
+  "wiki": "Rahauro",
+  "refs": 3
+ },
+ "summary": "Rahauro is a tauren attendant found on the Elder Rise in Thunder Bluff, faithfully serving the elder crone Magatha Grimtotem. Acting on her behalf, he recruits brave adventurers to venture into the volcanic depths of Ragefire Chasm beneath Orgrimmar. He coordinates efforts to retaliate against the hostile troggs and recover missing possessions belonging to his mistress's fallen agents.",
+ "sections": [
+  {
+   "title": "Voice of the Elder Crone",
+   "body": "Standing loyally near Magatha Grimtotem on the high terrace of Elder Rise, Rahauro acts as her direct intermediary. Magatha often operates through trusted underlings rather than soiling her own hooves with public recruitment. When reports emerge of wild creatures swarming beneath the orcish capital, it is Rahauro who handles the logistical details, dispatching Horde mercenaries to deal with the uprising.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trouble in Ragefire Chasm",
+   "body": "The troggs infesting the subterranean caverns of Ragefire Chasm did not respond kindly to diplomatic outreach. Magatha originally dispatched envoys in an attempt to forge peace with the primitive beasts, but the troggs turned violently on the delegates and butchered them. Viewing them as an intolerable threat to the Horde, Rahauro directs champions into the caverns to cull the troggs and assess their true strength.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fallen Envoy's Satchel",
+   "body": "Among the victims of the trogg attack was Maur Grimtotem, one of Magatha's trusted servants. Before his demise in the fiery depths, Maur had uncovered something intriguing that he desperately intended to show his mistress. Rahauro charges explorers with scouring the volcanic paths to retrieve Maur's lost satchel, hoping to secure whatever sensitive findings the fallen emissary left behind.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rahauro?",
+   "aliases": [
+    "who is rahauro",
+    "rahauro lore",
+    "who is this tauren"
+   ],
+   "answer": "Rahauro is a tauren attendant situated on the Elder Rise in Thunder Bluff. He serves as an aide to Magatha Grimtotem, directing travelers to carry out missions in service of his mistress and the Horde."
+  },
+  {
+   "q": "Where can I find Rahauro?",
+   "aliases": [
+    "rahauro location",
+    "where is rahauro",
+    "find rahauro"
+   ],
+   "answer": "You can find Rahauro standing in Thunder Bluff on the Elder Rise, close to the Grimtotem matriarch Magatha Grimtotem."
+  },
+  {
+   "q": "Why does Rahauro want adventurers to go to Ragefire Chasm?",
+   "aliases": [
+    "rahauro ragefire",
+    "why send to ragefire",
+    "rahauro trogg quest"
+   ],
+   "answer": "Magatha Grimtotem attempted to send emissaries to negotiate with the troggs emerging from beneath Orgrimmar, but the beasts killed them. Rahauro recruits adventurers to thin the trogg numbers and put an end to the threat they pose to the Horde."
+  },
+  {
+   "q": "Who was Maur Grimtotem?",
+   "aliases": [
+    "maur grimtotem",
+    "who is maur",
+    "lost satchel guy"
+   ],
+   "answer": "Maur Grimtotem was a servant sent by Magatha into the depths of Ragefire Chasm. He discovered something noteworthy within the caves but was slain by the resident troggs before he could deliver his findings."
+  },
+  {
+   "q": "What is inside the lost satchel Rahauro seeks?",
+   "aliases": [
+    "lost satchel contents",
+    "what is in the satchel",
+    "maur's satchel"
+   ],
+   "answer": "The satchel contains a peculiar discovery made by Maur Grimtotem prior to his death. Rahauro asks adventurers to recover it from the trogg-infested caves and return it safely to Thunder Bluff."
+  },
+  {
+   "q": "Does Rahauro belong to the Grimtotem tribe?",
+   "aliases": [
+    "is rahauro grimtotem",
+    "rahauro tribe",
+    "rahauro faction"
+   ],
+   "answer": "He serves as a direct attendant to Magatha Grimtotem on the Elder Rise and oversees matters concerning Grimtotem agents like Maur, aligning him closely with Magatha's retinue within Thunder Bluff."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Rahauro offers early dungeon assignments to Horde members in Thunder Bluff, uniting the interests of the tauren leadership with the defense of the orcish capital in Orgrimmar."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For tauren wandering the terraces of Thunder Bluff, Rahauro represents the far-reaching influence of the Elder Rise and the quiet intrigues of Magatha's inner circle."
+  }
+ ],
+ "keywords": [
+  "elder rise",
+  "grimtotem",
+  "magatha",
+  "maur",
+  "ragefire chasm",
+  "rahauro",
+  "satchel",
+  "thunder bluff",
+  "troggs"
+ ],
+ "related": [
+  "npc:magatha-grimtotem",
+  "npc:maur-grimtotem",
+  "quest:5723",
+  "quest:5722",
+  "quest:5724",
+  "zone:ragefire",
+  "subzone:elder-rise",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Rahauro"
+ ]
+}

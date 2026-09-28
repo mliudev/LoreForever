@@ -1,0 +1,127 @@
+{
+ "key": "quest:6087",
+ "type": "quest",
+ "name": "Taming the Beast",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   6087
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Yaw Sharpmane",
+  "end": "",
+  "previous": "Taming the Beast (Tauren 1)",
+  "next": "Taming the Beast (Tauren 3)",
+  "wiki": "Taming the Beast (Tauren 2)",
+  "chain": [
+   "The Hunter's Path (Tauren)",
+   "Taming the Beast (Tauren 1)",
+   "Taming the Beast (Tauren 2)",
+   "Taming the Beast (Tauren 3)",
+   "Training the Beast (Tauren)"
+  ]
+ },
+ "summary": "This trial marks the second stage of a tauren hunter's initiation into the art of beast taming. Guided by hunter trainer Yaw Sharpmane in Bloodhoof Village, the novice is charged with mastering the swift and fearless prairie stalker.",
+ "sections": [
+  {
+   "title": "The Stalker's Lessons",
+   "body": "Having successfully mastered the defensive endurance of the adult plainstrider, Yaw Sharpmane challenges the young hunter to look beyond mere survival. The prairie stalker represents an entirely different hunting philosophy: relentless speed, pack coordination, and fearless aggression. To tame one requires approaching a cunning predator without breaking stride, mirroring the wolf's own decisive nature.",
+   "spoiler": 0
+  },
+  {
+   "title": "Muscle to Muscle",
+   "body": "For the tauren, hunting with a beast is never about servitude or raw subjugation. Yaw Sharpmane stresses that the hunter and predator must fight as one cohesive unit, bound by mutual respect and shared rhythm. By bonding with the prairie stalker under the open skies of Mulgore, the hunter learns to complement a partner's assault and move in tandem during the heat of battle.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What animal does Yaw Sharpmane ask me to tame in this trial?",
+   "aliases": [
+    "what beast do i tame",
+    "which pet is next",
+    "tame prairie stalker"
+   ],
+   "answer": "This second lesson requires you to tame a prairie stalker, one of the swift wolves that prowl the rolling plains of Mulgore."
+  },
+  {
+   "q": "Why does a tauren hunter learn to tame wolves?",
+   "aliases": [
+    "why wolves",
+    "prairie stalker lore",
+    "why tame a wolf"
+   ],
+   "answer": "Yaw Sharpmane teaches that the prairie stalker embodies speed and fearlessness. By bonding with such a predator, the hunter internalizes those exact traits, learning how to coordinate attacks seamlessly alongside a swift hunting partner."
+  },
+  {
+   "q": "Where can prairie stalkers usually be found?",
+   "aliases": [
+    "prairie stalker location",
+    "where are prairie stalkers",
+    "find prairie stalker"
+   ],
+   "answer": "Prairie stalkers roam the grassy plains of central and northern Mulgore, frequently stalking the prairies surrounding Bloodhoof Village."
+  },
+  {
+   "q": "Do I get to keep the prairie stalker after the quest?",
+   "aliases": [
+    "can i keep the wolf",
+    "keep prairie stalker",
+    "is this my permanent pet"
+   ],
+   "answer": "No. The taming rod creates only a temporary bond for training purposes. Once you complete the entire series of trials, you will gain the permanent ability to tame whatever wild companion you choose."
+  },
+  {
+   "q": "Who is Yaw Sharpmane?",
+   "aliases": [
+    "who is yaw",
+    "sharpmane lore",
+    "yaw bloodhoof"
+   ],
+   "answer": "Yaw Sharpmane is the resident hunter trainer stationed in Bloodhoof Village. He guides young tauren through the spiritual and practical milestones required to master the wilds of Mulgore."
+  },
+  {
+   "q": "What comes after taming the prairie stalker?",
+   "aliases": [
+    "next quest",
+    "what is after prairie stalker",
+    "third taming quest"
+   ],
+   "answer": "Once Yaw Sharpmane confirms your mastery over the wolf, he will send you to complete the third and final trial of the chain, testing your resolve against the stealthy swoop."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This rite of passage bridges foundational survival techniques with offensive coordination, teaching you how to fight side-by-side with a fast-striking companion."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Unlike cultures that view pets purely as working animals, the Shu'halo view beast taming as forging a sacred kinship under the watchful grace of the Earthmother."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "hunter trial",
+  "mulgore",
+  "prairie stalker",
+  "taming rod",
+  "taming the beast",
+  "tauren hunter",
+  "yaw sharpmane"
+ ],
+ "related": [
+  "npc:yaw-sharpmane",
+  "subzone:bloodhoof-village",
+  "quest:6061",
+  "quest:6081",
+  "quest:6065",
+  "zone:mulgore",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Taming the Beast (Tauren 2)"
+ ]
+}

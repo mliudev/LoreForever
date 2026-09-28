@@ -1,0 +1,113 @@
+{
+ "key": "quest:2953",
+ "type": "quest",
+ "name": "More Sparklematic Action",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "ids": [
+   2953
+  ],
+  "level": "",
+  "faction": "Neutral",
+  "start": "Sparklematic 5200",
+  "end": "",
+  "previous": "The Sparklematic 5200! (2)",
+  "next": null,
+  "wiki": "More Sparklematic Action",
+  "chain": [
+   "The Sparklematic 5200! (1)",
+   "The Sparklematic 5200! (2)",
+   "More Sparklematic Action"
+  ]
+ },
+ "summary": "Deep within the irradiated ruins of Gnomeregan stands the Sparklematic 5200, an automated cleaning apparatus left behind during the city's evacuation. For a small fee of silver, this machine vigorously scrubs salvageable curiosities from the muck and radioactive sludge coating the fallen capital.",
+ "sections": [
+  {
+   "title": "Automated Restoration",
+   "body": "The Sparklematic 5200 represents the ingenious automated infrastructure gnomes installed throughout Gnomeregan before the trogg invasion and subsequent fallout. Even with toxic waste and hostile automatons filling the corridors, this contraption still performs its exact programming whenever provided with three silver coins and a grime-encrusted artifact.",
+   "spoiler": 0
+  },
+  {
+   "title": "Wonders from the Muck",
+   "body": "When engaged, the Sparklematic lurches wildly while dousing and scrubbing the inserted relic in potent gnomish cleaning solvents. Once the cycle finishes with a cheerful chime, it dispenses a neatly packaged box containing whatever salvage was preserved beneath the corrosive trogg slime and toxic filth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sparklematic 5200?",
+   "aliases": [
+    "sparklematic 5200",
+    "what does the machine do",
+    "gnomeregan cleaner"
+   ],
+   "answer": "The Sparklematic 5200 is an automated gnomish cleaning device situated inside Gnomeregan. It strips caustic sludge, grime, and radioactive detritus from recovered objects, restoring them into identifiable salvage."
+  },
+  {
+   "q": "Why does the machine charge coins?",
+   "aliases": [
+    "why pay silver",
+    "sparklematic cost"
+   ],
+   "answer": "Gnomish infrastructure frequently relies on coin-operated automated service models to offset mechanical maintenance and chemical replenishment costs, requiring three silver coins to trigger its internal cleaning sequence."
+  },
+  {
+   "q": "What kinds of objects can be put inside?",
+   "aliases": [
+    "grime-encrusted object",
+    "what items can i clean"
+   ],
+   "answer": "The machine specifically cleans grime-encrusted objects, relics recovered from fallen troggs, corrupted sentries, and irradiated horrors wandering the tunnels of Gnomeregan."
+  },
+  {
+   "q": "Is the Sparklematic safe from radiation?",
+   "aliases": [
+    "sparklematic irradiated",
+    "sparklematic contamination"
+   ],
+   "answer": "While the exterior tunnels are steeped in radioactive waste, the Sparklematic 5200 remains functional, deploying specialized gnomish cleaning agents to scrub dangerous exterior residue off incoming objects."
+  },
+  {
+   "q": "Can both factions use the Sparklematic 5200?",
+   "aliases": [
+    "horde sparklematic",
+    "who can use it"
+   ],
+   "answer": "Yes. The Sparklematic 5200 is a completely mechanical, automated installation that operates neutrally, accepting payment and grime-encrusted items regardless of the visitor's allegiance."
+  },
+  {
+   "q": "Who designed the Sparklematic?",
+   "aliases": [
+    "sparklematic creator",
+    "who built sparklematic"
+   ],
+   "answer": "It was designed by Gnomeregan's municipal engineers prior to the city's fall, built as an easy, automated amenity for citizens and technicians handling muddy or contaminated machinery."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "The Sparklematic is a testament to gnomish mechanical endurance, functioning reliably amidst the toxic ruins of your homeland."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Operating the device gives engineers a firsthand look at robust gnomish solvent cycles and coin-activated automation."
+  }
+ ],
+ "keywords": [
+  "automation",
+  "clean machine",
+  "cleaning",
+  "gnomeregan",
+  "grime-encrusted",
+  "sparklematic"
+ ],
+ "related": [
+  "quest:2951",
+  "zone:gnomeregan"
+ ],
+ "attribution": [
+  "More Sparklematic Action"
+ ]
+}

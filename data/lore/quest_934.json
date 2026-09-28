@@ -1,0 +1,126 @@
+{
+ "key": "quest:934",
+ "type": "quest",
+ "name": "Crown of the Earth",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   934
+  ],
+  "level": "11",
+  "faction": "Alliance",
+  "start": "Corithras Moonrage",
+  "end": "",
+  "previous": "Crown of the Earth (4)",
+  "next": "Crown of the Earth (6)",
+  "wiki": "Crown of the Earth (5)",
+  "chain": []
+ },
+ "summary": "Crown of the Earth is a pivotal step in the Dolanaar quest chain investigating the ailments plaguing Teldrassil. Corithras Moonrage tasks adventurers with gathering water from the sacred moonwell in the Oracle Glade, using the journey to reveal the troubling truth behind the World Tree's creation.",
+ "sections": [
+  {
+   "title": "The Oracle Glade",
+   "body": "Corithras Moonrage directs travelers far to the northwest of Teldrassil, nestled beneath the majestic canopy of the Oracle Glade. Resting directly under the massive boughs of the Oracle Tree lies the first and most potent moonwell raised upon the island. Drawing an Amethyst Phial from its shimmering waters brings seekers face to face with the prime sanctuary from which the druids and the tree itself monitor the health of their new homeland.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Denied Blessing",
+   "body": "Upon returning the phial to Dolanaar, Corithras reveals the dark flaw in Archdruid Fandral Staghelm's grand design. After the sacrifice of Nordrassil at Mount Hyjal, Staghelm sought to restore night elven immortality by planting Teldrassil and asking the Dragon Aspects for their blessings. However, Nozdormu the Timeless One refused, rebuking Staghelm for his sheer arrogance. Queen Alexstrasza followed suit, withholding the Aspect of Life's vital blessing and leaving Teldrassil's growth volatile, imperfect, and vulnerable to deep corruption.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Oracle Glade moonwell located?",
+   "aliases": [
+    "where is oracle glade",
+    "oracle glade moonwell location",
+    "oracle well"
+   ],
+   "answer": "The moonwell is located in northwestern Teldrassil, situated directly north of the primary road leading into Darnassus. It lies beneath the great boughs of the Oracle Tree."
+  },
+  {
+   "q": "Why did Nozdormu refuse to bless Teldrassil?",
+   "aliases": [
+    "why nozdormu refused",
+    "dragon blessing teldrassil",
+    "why dragons say no"
+   ],
+   "answer": "Nozdormu, the Dragon Aspect of Time, chided Archdruid Fandral Staghelm for his hubris. The dragons viewed the rushed creation of Teldrassil as a selfish attempt by the night elves to reclaim their lost immortality rather than a selfless defense of nature."
+  },
+  {
+   "q": "Why didn't Alexstrasza bless the new World Tree?",
+   "aliases": [
+    "alexstrasza blessing",
+    "why did alexstrasza refuse",
+    "dragon queen teldrassil"
+   ],
+   "answer": "Alexstrasza the Life-Binder concurred with Nozdormu's judgment against Staghelm's pride. Without her life-giving blessing, Teldrassil's growth became wild, unstable, and susceptible to the afflictions creeping through its boughs."
+  },
+  {
+   "q": "Who is Corithras Moonrage?",
+   "aliases": [
+    "corithras",
+    "who is corithras moonrage"
+   ],
+   "answer": "Corithras Moonrage is a night elf keeper stationed at Dolanaar. He guides young defenders across the boughs of Teldrassil to sample its moonwells and imparts the history of the tree's flawed beginnings."
+  },
+  {
+   "q": "Did Teldrassil restore night elf immortality?",
+   "aliases": [
+    "are night elves immortal",
+    "teldrassil immortality",
+    "do elves live forever again"
+   ],
+   "answer": "No. Because Nozdormu refused to bestow his temporal blessing upon Teldrassil, the night elves remain mortal following the loss of Nordrassil at the end of the Third War."
+  },
+  {
+   "q": "What is the purpose of collecting water from the Oracle Glade?",
+   "aliases": [
+    "why get oracle water",
+    "amethyst phial purpose"
+   ],
+   "answer": "The moonwell beneath the Oracle Tree is the island's first and most powerful well. Drawing its water allows Corithras to assess the underlying spiritual and natural health of Teldrassil."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "This task strikes at the heart of modern kaldorei society, explaining why the grand hopes of recovering your immortality after the Third War collapsed under the scrutiny of the Great Aspects."
+  },
+  {
+   "target": "class:Druid",
+   "text": "For the Cenarion Circle, visiting the Oracle Tree highlights the ideological split between Fandral Staghelm's forceful ambitions and the natural balance traditionally preserved by Malfurion Stormrage."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Understanding the fragile state of Teldrassil explains the persistent blight and creature madness troubling the Alliance's newest capital territory."
+  }
+ ],
+ "keywords": [
+  "alexstrasza",
+  "amethyst phial",
+  "corithras moonrage",
+  "fandral staghelm",
+  "immortality",
+  "moonwell",
+  "nozdormu",
+  "oracle glade",
+  "oracle tree",
+  "teldrassil"
+ ],
+ "related": [
+  "npc:corithras-moonrage",
+  "subzone:oracle-glade",
+  "zone:teldrassil",
+  "subzone:dolanaar",
+  "topic:nordrassil",
+  "topic:druid",
+  "topic:night-elf",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "Crown of the Earth (5)"
+ ]
+}

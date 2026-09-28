@@ -1,0 +1,103 @@
+{
+ "key": "npc:zankaja",
+ "type": "npc",
+ "name": "Zankaja",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Zankaja",
+  "refs": 2
+ },
+ "summary": "Zankaja is a young orc woman living in Orgrimmar, residing along the path between the Valley of Strength and the Valley of Wisdom. She anxiously awaits news of her mate, Dogran, who was assigned to duty at the Crossroads in the dangerous frontier of the Barrens.",
+ "sections": [
+  {
+   "title": "A Watchful Heart",
+   "body": "Life in the fledgling Horde capital is demanding, but for Zankaja, the true ordeal is the waiting. Her mate Dogran earned a promotion that sent him south into the Barrens to bolster the outpost at the Crossroads. While an honor for a warrior, the Barrens is a brutal expanse crawling with quilboar, centaur, and aggressive beasts. When Dogran failed to send word or return home as expected, Zankaja began seeking out travelers willing to seek news of his fate.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tragic Tidings",
+   "body": "Zankaja's worst fears prove warranted when inquiries in the Barrens uncover that Dogran fell into the clutches of the Razormane quilboar. Though she holds onto hope within Orgrimmar's canyon walls, the frontier is unforgiving, and the news brought back by adventurers paints a grim picture of sacrifice on the Horde's perilous borders.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Zankaja?",
+   "aliases": [
+    "zankaja location",
+    "where is zankaja",
+    "find zankaja"
+   ],
+   "answer": "Zankaja stands along the path connecting the Valley of Strength and the Valley of Wisdom in the city of Orgrimmar."
+  },
+  {
+   "q": "Who is Dogran?",
+   "aliases": [
+    "who is dogran",
+    "dogran",
+    "zankaja mate"
+   ],
+   "answer": "Dogran is Zankaja's mate. He is an orc warrior whose recent promotion earned him a station at the Crossroads in the Barrens."
+  },
+  {
+   "q": "Why is Zankaja worried?",
+   "aliases": [
+    "what does zankaja want",
+    "zankaja problem",
+    "why is zankaja sad"
+   ],
+   "answer": "Dogran was sent into the harsh wilds of the Barrens for his duties at the Crossroads and failed to return or send word home, leading Zankaja to fear he met harm along the frontier."
+  },
+  {
+   "q": "What does Zankaja ask adventurers to do?",
+   "aliases": [
+    "zankaja quest",
+    "news of dogran quest"
+   ],
+   "answer": "She asks passing adventurers traveling out of Orgrimmar to visit Captain Gazrog at the Crossroads to inquire about Dogran's whereabouts and wellbeing."
+  },
+  {
+   "q": "What happened to Dogran in the Barrens?",
+   "aliases": [
+    "is dogran dead",
+    "dogran fate",
+    "what happened to dogran"
+   ],
+   "answer": "Dogran was ambushed and captured by the Razormane quilboar near the Crossroads. Despite his valiant struggle, he met a tragic end at their hands in the wild brushlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Zankaja embodies the personal cost borne by ordinary families in Durotar, where duty to the Warchief's new realm regularly sends loved ones into untamed, lethal frontiers."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Her plea reminds Horde adventurers that holding outposts like the Crossroads requires real blood and sacrifice from the grunts stationed there."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "dogran",
+  "gazrog",
+  "orgrimmar",
+  "valley of strength",
+  "valley of wisdom",
+  "zankaja"
+ ],
+ "related": [
+  "quest:1509",
+  "quest:1508",
+  "npc:gazrog",
+  "zone:barrens",
+  "subzone:crossroads",
+  "zone:orgrimmar",
+  "subzone:valley-of-strength",
+  "subzone:valley-of-wisdom"
+ ],
+ "attribution": [
+  "Zankaja"
+ ]
+}

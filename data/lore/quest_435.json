@@ -1,0 +1,116 @@
+{
+ "key": "quest:435",
+ "type": "quest",
+ "name": "Escorting Erland",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   435
+  ],
+  "level": "11",
+  "faction": "Horde",
+  "start": "Deathstalker Erland",
+  "end": "Rane Yorick",
+  "previous": null,
+  "next": "The Deathstalkers' Report",
+  "wiki": "Escorting Erland",
+  "chain": []
+ },
+ "summary": "Trapped indoors by aggressive prowling predators, Deathstalker Erland requires an escort through Silverpine Forest to regroup with his partner. Assisting him safely across the wilderness delivers him directly to Deathstalker Rane Yorick.",
+ "sections": [
+  {
+   "title": "Cornered by Wolves",
+   "body": "Even seasoned scouts of the Forsaken occasionally find themselves outmatched by the unforgiving ecology of Silverpine Forest. Deathstalker Erland finds himself cornered inside a dilapidated shelter, surrounded by starved wolves eager to pick at what little flesh remains on his withered frame. Alone, breaking through their pack is suicide.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Treacherous Crossing",
+   "body": "Erland's objective lies near the Ivar Patch, where his partner Deathstalker Rane Yorick maintains watch. The route cuts directly through predatory wolf territory. Once guided through the prowlers, Erland sprints the final stretch to reach the safety of Rane Yorick's outpost, where the scouts can consolidate their intelligence for the Undercity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the wolves hunting an undead scout?",
+   "aliases": [
+    "why wolves attack undead",
+    "why eat undead",
+    "erland wolves"
+   ],
+   "answer": "As Erland dryly observes, the beasts in Silverpine must be desperate with hunger if they view a desiccated Forsaken corpse as a viable meal. The feral wildlife of the forest is notoriously aggressive to anything moving through their territory."
+  },
+  {
+   "q": "Who is Deathstalker Erland reporting to?",
+   "aliases": [
+    "who is rane yorick",
+    "who does erland report to",
+    "erland partner"
+   ],
+   "answer": "Erland is reporting to Deathstalker Rane Yorick, his scouting partner stationed in a nearby farmhouse near the Ivar Patch. Together, they monitor threats in the woods for the Forsaken."
+  },
+  {
+   "q": "Where does the escort lead?",
+   "aliases": [
+    "escort destination",
+    "where does erland go",
+    "erland route"
+   ],
+   "answer": "Erland moves from his refuge out through the wilderness toward the Ivar Patch, ultimately running inside a farmhouse and heading upstairs to join Deathstalker Rane Yorick."
+  },
+  {
+   "q": "What happens after Erland is rescued?",
+   "aliases": [
+    "what next after escorting erland",
+    "the deathstalkers report quest",
+    "what follows erland escort"
+   ],
+   "answer": "Once Erland is safely reunited with Rane Yorick, the two scouts prepare their findings. Rane Yorick subsequently entrusts you with carrying their compiled dispatch back to the Sepulcher in the quest 'The Deathstalkers' Report'."
+  },
+  {
+   "q": "Are there other threats encountered during the escort?",
+   "aliases": [
+    "escort enemies",
+    "what attacks erland",
+    "what is on the road"
+   ],
+   "answer": "The primary danger comes from the packs of wolves patrolling the open ground between Erland's starting location and the farm near the Ivar Patch."
+  },
+  {
+   "q": "What role do Deathstalkers play in Silverpine?",
+   "aliases": [
+    "what are deathstalkers",
+    "deathstalker role",
+    "deathstalker lore"
+   ],
+   "answer": "Deathstalkers serve as the elite rogues, scouts, and assassins of the Forsaken. In Silverpine Forest, they are deployed ahead of main garrisons to track Scourge stragglers, Worgen incursions, feral beasts, and Alliance movements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Forsaken Deathstalkers rely heavily on teamwork and stealth; finding an operative pinned down by simple beasts highlights just how dangerous Silverpine's wilds can be for the newly risen."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Aiding isolated Deathstalkers secures crucial forward reconnaissance for Horde forces pushing outward from the Sepulcher."
+  }
+ ],
+ "keywords": [
+  "deathstalker erland",
+  "deathstalkers report",
+  "ivar patch",
+  "rane yorick",
+  "silverpine forest",
+  "wolves"
+ ],
+ "related": [
+  "npc:deathstalker-rane-yorick",
+  "quest:449",
+  "subzone:ivar-patch",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Escorting Erland"
+ ]
+}

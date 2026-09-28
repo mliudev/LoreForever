@@ -1,0 +1,135 @@
+{
+ "key": "zone:elwynn",
+ "type": "zone",
+ "name": "Elwynn Forest",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": [
+   "Elwynn Forest (Classic)",
+   "Elwynn Forest"
+  ],
+  "levels": "1-10",
+  "aliases": []
+ },
+ "summary": "Elwynn Forest is the verdant heartland of the Kingdom of Stormwind, providing the capital with essential timber, gold, fish, and crops. Sheltered beneath stately hardwoods, it serves as the proving ground for new human recruits stepping forth from Northshire Abbey. Yet beneath its idyllic pastoral canopy, the woods are sorely beleaguered by encroaching vermin, displaced wildlife, and widespread brigandage.",
+ "sections": [
+  {
+   "title": "The Breadbasket of the Realm",
+   "body": "Stretching south from the gates of Stormwind down to the Nazferiti River, Elwynn is a fertile region blessed with abundant rainfall and dense hardwood forests. Communities like Goldshire and the Eastvale Logging Camp provide crucial grain, livestock, lumber, and raw copper to sustain the grand capital. The region is also celebrated for breeding sturdy Evendale horses, favored by travelers and knights across the kingdom.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Precarious Peace",
+   "body": "Despite its outward serenity, the woods are on the brink of disorder. The Stormwind Army is stretched thin by distant obligations, leaving local marshals and deputies reliant on untested recruits. Kobolds have overrun the vital Fargodeep and Jasperlode mines, Riverpaw gnolls prowl the southwestern borders, and savage murlocs have claimed the shores of Stone Cairn Lake and Crystal Lake. In the wake of rising corruption across the river in Duskwood, even giant spiders and unnatural wolves have crept north across the border.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Red Bandana Threat",
+   "body": "Far more organized than mere scavengers, the Defias Brotherhood has deeply infiltrated the forest. Originating from Edwin VanCleef's disenfranchised Stonemasons Guild following bitter pay disputes with the House of Nobles, these masked outlaws have seized holdings across Elwynn, including the Northshire Vineyards, the Brackwell Pumpkin Patch, Jerod's Landing, and Mirror Lake Orchard. Rumors persist that their coordinated agents are subtly orchestrating the neighboring gnolls and kobolds to further destabilize the realm.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Stormwind Guard barely policing the forest?",
+   "aliases": [
+    "where are the guards",
+    "why no stormwind army",
+    "why is elwynn undefended"
+   ],
+   "answer": "Stormwind's armed forces are severely overstretched. The kingdom expanded heavy military deployments southward into Stranglethorn Vale, running up deep debts and draining local manpower. As a result, outposts like Westbrook Garrison and Goldshire rely on small skeleton crews and volunteer recruits to fight off bandits, gnolls, and murlocs."
+  },
+  {
+   "q": "Why are there kobolds inside all the mines?",
+   "aliases": [
+    "why are kobolds in the mines",
+    "elwynn kobolds",
+    "fargodeep infested"
+   ],
+   "answer": "With guards in short supply, opportunistic kobolds swarmed into Fargodeep Mine, Jasperlode Mine, and Echo Ridge Mine in search of precious gold and minerals. They drove out the human prospectors and miners, aggressively defending their subterranean claims with candles, crude picks, and scavenged tools."
+  },
+  {
+   "q": "Who are the bandits wearing red masks?",
+   "aliases": [
+    "red masks",
+    "red bandana bandits",
+    "who are the defias in elwynn"
+   ],
+   "answer": "They are members of the Defias Brotherhood, led by Edwin VanCleef. Many were originally artisans of the Stonemasons Guild who rebuilt Stormwind City after the First War. When the nobility refused to pay them their promised wages, riots broke out, leading to their banishment and descent into organized brigandage."
+  },
+  {
+   "q": "Where does the road south lead?",
+   "aliases": [
+    "what is across the river",
+    "where does duskwood bridge go",
+    "bridge across the nazferiti"
+   ],
+   "answer": "Crossing the bridge over the Nazferiti River takes you into Duskwood, historically known as Brightwood. That once-peaceful territory has fallen into unnatural darkness and is now infested with undead, monstrous spiders, and ravenous beasts."
+  },
+  {
+   "q": "What is the feud between the Maclures and Stonefields?",
+   "aliases": [
+    "maclure vs stonefield",
+    "elwynn farm rivalry",
+    "stonefield maclure feud"
+   ],
+   "answer": "The Stonefields and the Maclures are neighboring farming families in southern Elwynn who have maintained a bitter, longstanding grudge against each other. Despite their endless bickering and accusations, two of their younger kin\u2014Maybell Maclure and Tommy Joe Stonefield\u2014have secretly fallen in love, complicating the rivalry even further."
+  },
+  {
+   "q": "What is the Tower of Azora?",
+   "aliases": [
+    "tower on the road to eastvale",
+    "wizard tower elwynn",
+    "who lives in the tower of azora"
+   ],
+   "answer": "The Tower of Azora is an arcane spire located along the road between Goldshire and the Eastvale Logging Camp. It houses secluded mages, including Theocritus, who observe the region's leylines and conduct magical research outside the direct oversight of Stormwind's Wizard's Sanctum."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "This is the ancestral heart of the kingdom. Human adventurers begin here, training at Northshire Abbey before venturing out to defend their homeland from bandits, beasts, and political ruin."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The pervasive shadow of the Defias Brotherhood makes Elwynn an intriguing crossroads of thievery, smuggled goods, and underground rebel signals."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Echo Ridge, Fargodeep, and Jasperlode are laden with copper veins, making the forest an essential early proving ground for miners despite the kobold infestations."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Protecting Elwynn is vital to the survival of the Alliance's primary human kingdom; if the lumber, ore, and grain routes collapse, Stormwind City cannot sustain itself."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "eastvale",
+  "elwynn",
+  "elwynn forest",
+  "fargodeep",
+  "goldshire",
+  "hogger",
+  "jasperlode",
+  "nazferiti",
+  "northshire",
+  "northshire abbey",
+  "vancleef"
+ ],
+ "related": [
+  "zone:stormwind",
+  "subzone:goldshire",
+  "subzone:northshire-abbey",
+  "zone:westfall",
+  "zone:duskwood",
+  "zone:redridge",
+  "subzone:fargodeep-mine",
+  "quest:65"
+ ],
+ "attribution": [
+  "Elwynn Forest (Classic)",
+  "Elwynn Forest"
+ ]
+}

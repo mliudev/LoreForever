@@ -1,0 +1,92 @@
+{
+ "key": "subzone:fray-island",
+ "type": "subzone",
+ "name": "Fray Island",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Fray Island"
+ },
+ "summary": "Fray Island is a windswept, rocky islet lying just off the Merchant Coast of the Barrens. Dominated by privateers and a rough-and-tumble training ring, it is famous as a neutral haven where warriors from across Azeroth come to test their mettle.",
+ "sections": [
+  {
+   "title": "A Proving Ground for Brawlers",
+   "body": "Situated off the eastern bluffs of the Barrens, Fray Island is far removed from the watchful eyes of both Orgrimmar and Theramore. The island serves primarily as an outpost for the notorious Southsea Freebooters, who maintain encampments, docks, and drilling grounds across the crags. Amidst the rowdy pirate crews sits a fighting arena overseen by Klannoc Macleod, where seasoned fighters and raw recruits gather to compete in brutal brawls.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Trial of the Affray",
+   "body": "Despite the hostility of the surrounding waters and pirate garrisons, the island's central ring adheres to a simple code of martial combat. Warriors journey here on the instructions of their trainers to take part in 'The Affray'\u2014a grueling gauntlet against waves of challengers culminating in a bout against the champion Big Will. Here, allegiance to Horde or Alliance is set aside in favor of raw strength and martial discipline.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Fray Island used for?",
+   "aliases": [
+    "why go to fray island",
+    "fray island purpose",
+    "what is on fray island"
+   ],
+   "answer": "The island serves as an outpost for the Southsea Freebooters and the site of a brutal combat trial known as The Affray. Warriors of both factions travel here to prove their endurance and master advanced stances."
+  },
+  {
+   "q": "Who controls Fray Island?",
+   "aliases": [
+    "who runs fray island",
+    "who lives on fray island",
+    "fray island faction"
+   ],
+   "answer": "The island is overrun by the Southsea Freebooters, a cutthroat syndicate of pirates and privateers. However, the combat ring on the island operates under the watchful eye of warrior trainer Klannoc Macleod."
+  },
+  {
+   "q": "How do I reach Fray Island?",
+   "aliases": [
+    "getting to fray island",
+    "where is fray island",
+    "how to get to fray island"
+   ],
+   "answer": "Fray Island lies in the Great Sea off the eastern coast of the Barrens, south of Ratchet. Reaching it requires a long swim from the mainland shores through shark- and frenzy-infested waters."
+  },
+  {
+   "q": "What is The Affray?",
+   "aliases": [
+    "the affray",
+    "fray island arena",
+    "big will fight"
+   ],
+   "answer": "The Affray is a trial of endurance held in the island's fighting cage. A warrior must stand atop the grate and defeat successive waves of challengers before finally besting the brawler Big Will."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Fray Island is a crucial proving ground for your training. Klannoc Macleod and the trial of the Affray will test whether you have the discipline and power to adopt the Berserker Stance."
+  },
+  {
+   "target": "race:Human",
+   "text": "While many humans associate the Southsea Freebooters with villainy and brigandage, the warriors who gather in Klannoc's ring share a bond of combat that crosses racial lines."
+  }
+ ],
+ "keywords": [
+  "affray",
+  "barrens",
+  "berserker stance",
+  "big will",
+  "fray island",
+  "freebooters",
+  "klannoc macleod",
+  "southsea"
+ ],
+ "related": [
+  "npc:klannoc-macleod",
+  "quest:887",
+  "zone:barrens",
+  "zone:orgrimmar",
+  "npc:thrall",
+  "npc:jaina-proudmoore"
+ ],
+ "attribution": [
+  "Fray Island"
+ ]
+}

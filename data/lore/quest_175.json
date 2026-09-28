@@ -1,0 +1,127 @@
+{
+ "key": "quest:175",
+ "type": "quest",
+ "name": "Look To The Stars",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   175
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Viktori Prism'Antras",
+  "end": "Blind Mary",
+  "previous": "Look To The Stars (Classic)",
+  "next": "Look To The Stars (3)",
+  "wiki": "Look To The Stars (2)",
+  "chain": [
+   "Look To The Stars (Classic)",
+   "Look To The Stars (2)",
+   "Look To The Stars (3)",
+   "Look To The Stars (4)"
+  ]
+ },
+ "summary": "Following the blueprints provided by the tinker Cog, Viktori Prism'Antras seeks a reflective surface to assemble his observatory telescope in Darkshire. He directs travelers to southern Duskwood to locate Mary, a local woman remembered for carrying a looking glass.",
+ "sections": [
+  {
+   "title": "A Reflective Surface",
+   "body": "Having secured optical glass for his telescope, Viktori Prism'Antras turns to the next requirement outlined in Cog's blueprints: a reliable mirror to direct and reflect light through the device. Rather than forging fine silvered glass from scratch amidst the shortages plaguing Darkshire, Viktori recalls Mary, a local resident known across the region for always carrying a looking glass.",
+   "spoiler": 0
+  },
+  {
+   "title": "Searching the South",
+   "body": "Mary's former residence lies deep in southern Duskwood, just north of the haunted Tranquil Gardens Cemetery. Seeking her out takes adventurers past the safe patrol borders of the Night Watch and into blighted groves teeming with ravenous wolves, feral spiders, and wandering undead.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Tragic Resident",
+   "body": "Reaching Mary's humble southern shack reveals the bleak reality of Duskwood's fall. The woman Viktori remembered is no longer a living resident, but Blind Mary\u2014a wandering spirit lingering near her old dwelling and the nearby cemetery, tethered to the memories and possessions of her former life.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Viktori Prism'Antras building?",
+   "aliases": [
+    "viktori telescope",
+    "look to the stars project",
+    "what is viktori making"
+   ],
+   "answer": "Viktori is constructing an astronomical telescope at the tower in Darkshire, working off designs drawn up by a tinker named Cog."
+  },
+  {
+   "q": "Why does Viktori need a looking glass?",
+   "aliases": [
+    "why need mirror",
+    "reflective surface telescope"
+   ],
+   "answer": "Cog's optical blueprints require a mirror to reflect and focus light through the telescope housing. Viktori remembers Mary carrying a looking glass and hopes to acquire it for the assembly."
+  },
+  {
+   "q": "Where can Mary be found?",
+   "aliases": [
+    "where is mary",
+    "mary location duskwood",
+    "find blind mary"
+   ],
+   "answer": "Mary resides in a ruined home in southeastern Duskwood, situated just north of the Tranquil Gardens Cemetery."
+  },
+  {
+   "q": "Who is Mary?",
+   "aliases": [
+    "who is blind mary",
+    "blind mary backstory"
+   ],
+   "answer": "Mary was a resident of southern Duskwood before the land fell into cursed darkness. Now known as Blind Mary, she lingers as a ghost outside her dwelling near Tranquil Gardens Cemetery."
+  },
+  {
+   "q": "Does Mary still have her looking glass?",
+   "aliases": [
+    "does mary have mirror",
+    "blind mary looking glass"
+   ],
+   "answer": "When approached, Mary acknowledges that she once owned a looking glass, though obtaining it requires helping her navigate the lingering sorrows of her spectral existence."
+  },
+  {
+   "q": "What dangers surround Mary's cottage?",
+   "aliases": [
+    "hazards near mary",
+    "tranquil gardens cemetery threats"
+   ],
+   "answer": "The southeastern woods and the adjacent Tranquil Gardens Cemetery crawl with hostile undead, feral duskbats, venom web spiders, and rabid wolves that prey upon travelers venturing south of Darkshire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Helping Viktori build his telescope offers a rare glimmer of curiosity and progress in a town otherwise consumed by terror and rot."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Telescope assembly relies on precise optical specifications, borrowing from gnomish blueprints to mirror and magnify faint starlight."
+  }
+ ],
+ "keywords": [
+  "blind mary",
+  "darkshire",
+  "duskwood",
+  "look to the stars",
+  "looking glass",
+  "mary",
+  "telescope",
+  "tranquil gardens",
+  "viktori prism'antras"
+ ],
+ "related": [
+  "npc:viktori-prism-antras",
+  "npc:blind-mary",
+  "zone:duskwood",
+  "subzone:tranquil-gardens-cemetery",
+  "topic:light",
+  "quest:174"
+ ],
+ "attribution": [
+  "Look To The Stars (2)"
+ ]
+}

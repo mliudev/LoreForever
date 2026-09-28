@@ -1,0 +1,135 @@
+{
+ "key": "quest:2930",
+ "type": "quest",
+ "name": "Data Rescue",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "ids": [
+   2930
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Master Mechanic Castpipe",
+  "end": "",
+  "previous": "Castpipe's Task",
+  "next": null,
+  "wiki": "Data Rescue",
+  "chain": [
+   "Castpipe's Task",
+   "Data Rescue"
+  ]
+ },
+ "summary": "When the gnomes evacuated their irradiated capital, massive archives of vital technical knowledge and records were left behind. Master Mechanic Castpipe in Ironforge recruits daring operatives to infiltrate Gnomeregan and retrieve a high-security Prismatic Punch Card. Navigating through layers of computerized clearance, couriers must punch their way through progressively fortified terminals deep within the ruined city.",
+ "sections": [
+  {
+   "title": "Lost Archives of the Underground",
+   "body": "The sudden fall of Gnomeregan to troggs and deadly radiation forced the gnomish populace to abandon centuries of advanced research, schematics, and civic logs. Scattered throughout the technological corridors are Matrix Punchograph terminals, the automated data hubs that regulate security clearances and file storage. For exile leaders like Master Mechanic Castpipe, recovering these punch-encoded archives from the ruined depths represents one of the highest priorities of the refugee community in Tinker Town.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Hierarchy of Perforations",
+   "body": "Gnomish data protocol demands rigorous clearance before granting access to central mainframes. Operating the system requires starting with a basic White Punch Card found among the wreckage outside the inner gates. Inserting it into a Matrix Punchograph 3005-A in the Train Depot produces a Yellow card, which must then be carried into the Dormitory's 3005-B terminal for a Blue upgrade, advanced through model 3005-C for a Red card, and finally brought down into the Engineering Labs to encode the coveted Prismatic Punch Card.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gnomish Levity in Binary",
+   "body": "While Castpipe treats the quest as a matter of dire civic urgency, the actual punch cards feature binary data streams that reveal the eccentric, irreverent mindset of Gnomeregan's computing guilds. Amid genuine technical data, the punch patterns translate into humorous quips, absurd workplace complaints, and off-color jokes about High Tinker Gelbin Mekkatorque wearing night elven undergarments\u2014demonstrating that even in the heart of high-tech infrastructure, gnome engineers could never resist a practical joke.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Prismatic Punch Card?",
+   "aliases": [
+    "prismatic card",
+    "what is punch card",
+    "gnomeregan punch card"
+   ],
+   "answer": "The Prismatic Punch Card is the highest tier of security data card recognized by Gnomeregan's automated mainframes. It is created by processing a Red Punch Card at the Matrix Punchograph 3005-D terminal located deep inside the Engineering Labs."
+  },
+  {
+   "q": "Where does the sequence of punch cards begin?",
+   "aliases": [
+    "where to get white punch card",
+    "how to start punch cards",
+    "first punch card"
+   ],
+   "answer": "The sequence begins with a basic White Punch Card, salvaged from troggs and mechanical derelicts lingering just outside the main instance entrance, near the Train Depot."
+  },
+  {
+   "q": "Where are the Matrix Punchograph terminals located?",
+   "aliases": [
+    "terminal locations",
+    "where are punchographs",
+    "punch card machines"
+   ],
+   "answer": "Model 3005-A stands outside the instance in the Train Depot. Model 3005-B rests inside the Dormitory past the Clean Zone. Model 3005-C is situated on the catwalk platforms beyond, while Model 3005-D sits on the lower level of the Engineering Labs."
+  },
+  {
+   "q": "Who is Master Mechanic Castpipe?",
+   "aliases": [
+    "castpipe",
+    "who gives data rescue",
+    "castpipe lore"
+   ],
+   "answer": "Master Mechanic Castpipe is a senior gnome engineer living among the refugees in Ironforge's Tinker Town. Desperate to salvage Gnomeregan's intellectual heritage, he coordinates reconnaissance and retrieval missions into the fallen capital."
+  },
+  {
+   "q": "What data is actually on the cards?",
+   "aliases": [
+    "card text",
+    "binary translation",
+    "what does the binary say"
+   ],
+   "answer": "When translated from raw ASCII binary, the punch cards contain a mixture of gnomish engineering banter, lighthearted jokes about regional leaders like Thrall and Mekkatorque, and eccentric notes alongside the city's critical computational data."
+  },
+  {
+   "q": "Can Horde players access these terminals?",
+   "aliases": [
+    "horde data rescue",
+    "horde punch cards",
+    "can horde use terminals"
+   ],
+   "answer": "The quest itself is offered exclusively to the Alliance by Master Mechanic Castpipe in Ironforge, though the physical punchograph terminals inside the dungeon can technically be interfaced with by anyone carrying the requisite cards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Retrieving data from Gnomeregan represents reclaiming stolen heritage. Every punch card salvaged ensures that the ingenuity of your fallen city is preserved rather than lost to troggs and radiation."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The Matrix Punchograph network showcases automated data storage at its finest, demonstrating intricate algorithmic clearance mechanisms devised by the Tinkers' Court."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Supporting Castpipe's retrieval efforts aids the displaced gnomish government in Ironforge, strengthening unity and technological capabilities among the Grand Alliance."
+  }
+ ],
+ "keywords": [
+  "castpipe",
+  "data rescue",
+  "engineering labs",
+  "gnomeregan",
+  "matrix punchograph",
+  "prismatic punch card",
+  "punch card",
+  "tinker town",
+  "train depot"
+ ],
+ "related": [
+  "quest:2931",
+  "zone:gnomeregan",
+  "zone:ironforge",
+  "topic:gnome",
+  "subzone:train-depot",
+  "subzone:dormitory",
+  "subzone:engineering-labs",
+  "subzone:clean-zone"
+ ],
+ "attribution": [
+  "Data Rescue"
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "key": "npc:lady-sarevess",
+ "type": "npc",
+ "name": "Lady Sarevess",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Lady Sarevess",
+  "refs": 5
+ },
+ "summary": "Lady Sarevess is a twisted naga sorceress dwelling within the flooded ruins of Blackfathom Deeps. Allied with the Twilight's Hammer cultists who occupy the sunken temple, she experiments with dark sorceries in exchange for fresh sacrifices.",
+ "sections": [
+  {
+   "title": "A Bargain in the Deeps",
+   "body": "Within the Pool of Ask'ar, Lady Sarevess conducts her rituals undisturbed in a private grotto provided by the Twilight's Hammer. The doomsday cultists supply her with a steady stream of living sacrifices, hoping her twisted magical research will yield a ward potent enough to protect them from the monstrous hydra they revere deeper in the cavern.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sorcery of the Tides",
+   "body": "Much like a sea witch of the deep oceans, Sarevess commands elemental currents and crackling arcs of lightning. Surrounded by loyal naga sentinels and summoned water elementals, she fiercely defends her sanctuary against any intruders who threaten her dark work.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lady Sarevess?",
+   "aliases": [
+    "who is sarevess",
+    "sarevess lore",
+    "lady sarevess backstory"
+   ],
+   "answer": "Lady Sarevess is a naga spellcaster who has taken up residence within the subterranean Pool of Ask'ar inside Blackfathom Deeps. She works alongside the Twilight's Hammer cultists stationed in the temple."
+  },
+  {
+   "q": "Why is she working with the Twilight's Hammer?",
+   "aliases": [
+    "why naga with cultists",
+    "twilights hammer deal",
+    "sarevess cult connection"
+   ],
+   "answer": "The Twilight's Hammer cultists provide Lady Sarevess with her own private cove and regular living sacrifices. In exchange, they expect her to develop magical protections that will shield the cultists from being devoured by the massive hydra lurking in the depths."
+  },
+  {
+   "q": "Where can Lady Sarevess be found?",
+   "aliases": [
+    "sarevess location",
+    "where is lady sarevess",
+    "pool of askar"
+   ],
+   "answer": "She makes her lair in the Pool of Ask'ar, a flooded chamber situated in the early reaches of the Blackfathom Deeps temple complex along the Ashenvale coast."
+  },
+  {
+   "q": "What powers does Lady Sarevess command?",
+   "aliases": [
+    "sarevess magic",
+    "sarevess abilities"
+   ],
+   "answer": "Drawing upon the traditions of naga sea witches, Sarevess wields powerful water and elemental magic, particularly violent bursts of forked lightning, to strike down anyone who enters her cove."
+  },
+  {
+   "q": "Why do adventurers hunt Lady Sarevess?",
+   "aliases": [
+    "quest for sarevess",
+    "deep in the deeps quest",
+    "why kill sarevess"
+   ],
+   "answer": "Adventurers delving into Blackfathom Deeps are tasked with striking down the naga leadership and cultist hierarchy to disrupt their growing threat along the coast of Ashenvale."
+  },
+  {
+   "q": "What hydra are the cultists trying to protect themselves from?",
+   "aliases": [
+    "what hydra",
+    "who does sarevess protect them from"
+   ],
+   "answer": "The Twilight's Hammer revere Aku'mai, a primordial pet of the Old Gods dwelling deep in the temple. The cultists fear being eaten during their worship, which is why they seek Sarevess's magical wards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The ruins Lady Sarevess inhabits were once a sacred temple of Elune. Seeing her twisted naga kin defile the waters of Ask'ar is a bitter reminder of the Sundering."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Sarevess demonstrates how highborne magical practices degenerated into raw, chaotic lightning and tidal sorcery under centuries of oceanic corruption."
+  }
+ ],
+ "keywords": [
+  "aku'mai",
+  "blackfathom deeps",
+  "lady sarevess",
+  "naga",
+  "pool of ask'ar",
+  "sarevess",
+  "sea witch",
+  "twilight's hammer"
+ ],
+ "related": [
+  "zone:blackfathom",
+  "subzone:pool-of-ask-ar",
+  "topic:twilight-s-hammer",
+  "topic:naga",
+  "topic:old-god"
+ ],
+ "attribution": [
+  "Lady Sarevess"
+ ]
+}

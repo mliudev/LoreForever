@@ -1,0 +1,78 @@
+{
+ "key": "npc:furl-scornbrow",
+ "type": "npc",
+ "name": "Furl Scornbrow",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Furl Scornbrow",
+  "refs": 1
+ },
+ "summary": "Furl Scornbrow is an aging orc lookout stationed in the watchtower northwest of Razor Hill. No longer able to fight on the front lines due to his advancing years, he keeps watch over the red canyons of Durotar and crafts sturdy packs for young travelers setting out across the land.",
+ "sections": [
+  {
+   "title": "Watchman of the Ridge",
+   "body": "Perched high in the wooden watchtower just northwest of Razor Hill, Furl Scornbrow keeps a quiet vigil over the central plains of Durotar. In the tense early days following the founding of Orgrimmar, sentries like Furl were vital for sounding signal horns against hostile quilboar, centaur, and Kul Tiras interlopers. As Durotar has stabilized and Razor Hill has established firmer borders, emergencies have grown rarer, leaving Furl plenty of quiet hours at his post.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Useful Pair of Hands",
+   "body": "Furl freely admits that his old bones and fading strength render him useless in battle, but an orc does not easily surrender their purpose. Rather than sitting idle, he puts his hands to work fashioning canvas sacks and packs for fresh recruits who need to carry their supplies. In exchange for coarse thread and practical materials, he equips green adventurers venturing out to prove their worth to the Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Furl Scornbrow?",
+   "aliases": [
+    "who is furl",
+    "furl scornbrow lore",
+    "furl in razor hill"
+   ],
+   "answer": "Furl Scornbrow is an elderly orc watchman stationed in the lookout tower perched atop the bluffs northwest of Razor Hill. Unable to serve as a front-line warrior due to his age, he watches the horizon for danger and crafts bags for young travelers."
+  },
+  {
+   "q": "What is Furl's role in Durotar?",
+   "aliases": [
+    "what does furl do",
+    "furl purpose"
+   ],
+   "answer": "He mans the signal horn tower watching for invaders approaching Razor Hill. Because Durotar has grown increasingly secure under Horde control, he sounds the alarm far less often, spending his spare time helping incoming recruits organize their gear."
+  },
+  {
+   "q": "Why does Furl ask travelers for materials?",
+   "aliases": [
+    "carry your weight quest lore",
+    "why does furl want thread"
+   ],
+   "answer": "Furl believes every member of the Horde must carry their weight, regardless of circumstance. Since he can no longer fight, he stitches practical travel packs to aid newer warriors, asking only for basic materials like coarse thread to finish the work."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Furl embodies the orcish belief that even when age robs a warrior of their martial strength, an honorable life means finding another way to serve the clan and Horde."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Stationed along the ridges outside Razor Hill, Furl represents the vigilance required to protect Durotar's fledgling settlements against lingering threats."
+  }
+ ],
+ "keywords": [
+  "carry your weight",
+  "durotar",
+  "furl scornbrow",
+  "lookout",
+  "orc",
+  "razor hill",
+  "watchtower"
+ ],
+ "related": [
+  "subzone:razor-hill",
+  "zone:durotar",
+  "quest:791"
+ ],
+ "attribution": [
+  "Furl Scornbrow"
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "key": "subzone:winterfall-village",
+ "type": "subzone",
+ "name": "Winterfall Village",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Winterfall Village"
+ },
+ "summary": "Winterfall Village is a sprawling furbolg encampment nestled in the snowdrifts of eastern Winterspring, just east of Everlook. Once peaceful kin to the other ursine tribes of Kalimdor, the Winterfall furbolgs living here have descended into madness and violent corruption under the rule of High Chief Winterfall.",
+ "sections": [
+  {
+   "title": "A Tribe Consumed",
+   "body": "Sprawled across the terraced snowbanks east of the goblin trading post Everlook, Winterfall Village serves as the primary bastion of the Winterfall furbolgs in Winterspring. Like their cousins scattered across northern Kalimdor, these bear-folk were warped and driven mad by the lingering foulness of the Burning Legion's invasion. Led by High Chief Winterfall from a secluded cavern atop the settlement's highest tier, the tribe has abandoned its ancestral ways. Instead of communing peacefully with the wild spirits of the snow, the enraged furbolgs now aggressively assault travelers, patrol the mountain passes, and threaten any who come near their frost-bitten home.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Winterfall Village?",
+   "aliases": [
+    "winterfall village info",
+    "what is this place",
+    "furbolg town winterspring"
+   ],
+   "answer": "It is the central settlement of the Winterfall furbolgs, located on the snowy slopes just east of the goblin outpost Everlook in Winterspring."
+  },
+  {
+   "q": "Why are the furbolgs here hostile?",
+   "aliases": [
+    "why are furbolgs mad",
+    "corrupted furbolgs",
+    "why attack"
+   ],
+   "answer": "The Winterfall furbolgs succumbed to corruption following the Third War. The demonic taint left behind by the Burning Legion warped their minds, stripping away their peaceful customs and leaving them violently hostile to all outsiders."
+  },
+  {
+   "q": "Who leads the village?",
+   "aliases": [
+    "who is the boss",
+    "winterfall leader",
+    "chief"
+   ],
+   "answer": "The tribe is ruled by High Chief Winterfall, who keeps watch over his followers from a small cave perched at the very peak of the settlement."
+  },
+  {
+   "q": "Why does Everlook care about this village?",
+   "aliases": [
+    "everlook goblins",
+    "why fight winterfall"
+   ],
+   "answer": "The village sits uncomfortably close to Everlook. The crazed furbolgs constantly raid passing caravans, disrupt local trade routes, and threaten the goblins' mining and mercantile interests throughout eastern Winterspring."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Seeing the deep corruption of the Winterfall tribe is a bitter tragedy, as furbolgs were ancient allies of the night elves and the Cenarion Circle before demonic madness took them."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The fall of the Winterfall tribe marks another painful fracture in the ancient bonds between the night elves and the native peoples of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "everlook",
+  "furbolg",
+  "high chief winterfall",
+  "winterfall",
+  "winterfall village",
+  "winterspring"
+ ],
+ "related": [
+  "zone:winterspring",
+  "subzone:everlook",
+  "topic:furbolg"
+ ],
+ "attribution": [
+  "Winterfall Village"
+ ]
+}

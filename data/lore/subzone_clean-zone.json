@@ -1,0 +1,91 @@
+{
+ "key": "subzone:clean-zone",
+ "type": "subzone",
+ "name": "Clean Zone",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Clean Zone"
+ },
+ "summary": "The Clean Zone is a fortified, decontamination enclave nestled inside the ruined city of Gnomeregan just past the upper Hall of Gears. It serves as the sole safe haven within the irradiated facility where uncorrupted gnomish forces hold ground against surrounding troggs and leper gnomes. Here, field medics, technicians, and specialized Sparklematic machines offer respite and salvage operations amid the radioactive ruins.",
+ "sections": [
+  {
+   "title": "A Bastion in the Slag",
+   "body": "While most of Gnomeregan succumbed to Mekkatorque's disastrous venting of radioactive waste, the Clean Zone remains untainted. Positioned strategically between the trogg-infested Dormitory below and the contested corridors of the Hall of Gears above, it acts as a fortified forward base. Resolute gnome defenders, technicians, and field medics hold the barricades day and night, ensuring Alliance expeditions have a stable staging ground to regroup, mend wounds, and maintain machinery.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Sparklematic 5200",
+   "body": "Beyond serving as a military redoubt, the Clean Zone is a hub for salvaging the lost capital. Gnomish engineers installed Sparklematic 5200 units to chemically scrub and wash grime-encrusted relics hauled out of the city's radioactive underbelly. Technicians and merchants like Tink Sprocketwhistle process these reclaimed gears and baubles, outfitting adventurers while studying the lingering toxic fallout that plagues the deep tunnels.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why isn't this area irradiated like the rest of Gnomeregan?",
+   "aliases": [
+    "why clean zone not irradiated",
+    "why safe here",
+    "clean zone radiation"
+   ],
+   "answer": "The Clean Zone was heavily sealed and actively filtered by gnomish engineering, sparing it from the initial radiation discharge that poisoned the rest of the city. Technicians and active scrubbers work constantly to prevent radioactive contaminants from seeping in from the adjoining hallways."
+  },
+  {
+   "q": "What do the Sparklematic 5200 machines do?",
+   "aliases": [
+    "sparklematic 5200",
+    "what are sparklematics",
+    "clean grime"
+   ],
+   "answer": "Sparklematic 5200s are specialized gnomish laundering and decontamination devices. Adventurers can feed grime-encrusted objects retrieved from troggs and lepers into them, washing away radioactive grime to reveal useful ores, gems, coins, or engineering oddities."
+  },
+  {
+   "q": "Who controls and defends the Clean Zone?",
+   "aliases": [
+    "who is in clean zone",
+    "clean zone guards",
+    "who holds clean zone"
+   ],
+   "answer": "A dedicated detachment of uncorrupted gnomish guards, field medics, and technicians hold the perimeter. They fight off encroaching trogg incursions from the Dormitory and leper gnomes descending from the upper levels to keep the staging post secure."
+  },
+  {
+   "q": "Can players safely rest or repair here?",
+   "aliases": [
+    "repairs clean zone",
+    "can you rest in clean zone",
+    "mailbox in gnomeregan"
+   ],
+   "answer": "Yes. The Clean Zone acts as an operational field camp deep inside Gnomeregan, providing engineering supplies, repairs from vendor Tink Sprocketwhistle, and even a functioning mailbox for adventurers operating behind the front lines."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomes, standing in the Clean Zone is both a grim reminder of their home's fall and a stubborn beacon of hope that Gnomeregan's technology can still be reclaimed from the troggs."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The operational Sparklematic 5200 units and the presence of merchant Tink Sprocketwhistle make this outpost a vital spot for scouring irradiated junk for rare schematics and mechanical parts."
+  }
+ ],
+ "keywords": [
+  "clean zone",
+  "dormitory",
+  "gnomeregan",
+  "hall of gears",
+  "radiation",
+  "sparklematic 5200",
+  "tink sprocketwhistle",
+  "troggs"
+ ],
+ "related": [
+  "zone:gnomeregan",
+  "subzone:hall-of-gears",
+  "subzone:dormitory",
+  "topic:gnome",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "Clean Zone"
+ ]
+}

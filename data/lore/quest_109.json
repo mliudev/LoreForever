@@ -1,0 +1,122 @@
+{
+ "key": "quest:109",
+ "type": "quest",
+ "name": "Report to Gryan Stoutmantle",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   109
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Marshal Dughan,Guard Thomas,Deputy Rainer,Farmer Furlbrow, orFarmer Saldean",
+  "end": "Gryan Stoutmantle",
+  "previous": null,
+  "next": null,
+  "wiki": "Report to Gryan Stoutmantle",
+  "chain": []
+ },
+ "summary": "This directive points seasoned adventurers crossing out of Elwynn Forest toward Westfall's beleaguered frontier. With the crown neglecting the outer farmlands, local defenders rely on willing sellswords to rally under Gryan Stoutmantle at Sentinel Hill.",
+ "sections": [
+  {
+   "title": "A Plea Across the River",
+   "body": "Whether offered by guardsmen stationed along the Elwynn borders or desperate farmers fleeing westward, the summons remains the same: skilled fighters are needed across the river. Westfall is rapidly descending into chaos as brigands, gnolls, and hostile harvest golems overrun what was once the breadbasket of the kingdom. Without formal royal battalions answering the call, those who wish to defend the realm must look to local volunteers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sentinel Hill and the Militia",
+   "body": "Upon following the road into Westfall, recruits find Gryan Stoutmantle stationed in the fortified stone tower atop Sentinel Hill. Stoutmantle leads the People's Militia, an unsanctioned coalition of resident farmers, retired veterans, and mercenaries organized in direct response to royal inaction. Reaching him marks an adventurer's entry into the bitter guerrilla war waged to keep the farmlands from falling completely into lawlessness.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gryan Stoutmantle?",
+   "aliases": [
+    "gryan stoutmantle",
+    "who is stoutmantle",
+    "sentinel hill leader"
+   ],
+   "answer": "Gryan Stoutmantle is a veteran fighter and the commander of the People's Militia. Stationed inside the tower atop Sentinel Hill, he organizes defense efforts and recruits willing combatants to protect Westfall from the bandits and beasts threatening its farmers."
+  },
+  {
+   "q": "Why is the People's Militia needed?",
+   "aliases": [
+    "why militia",
+    "why no stormwind army",
+    "why is westfall abandoned"
+   ],
+   "answer": "The Stormwind army has withdrawn its focus to the immediate capital, leaving outer territories like Westfall with little to no crown support. The residents formed the People's Militia as a self-defense force to stave off bandits, rogue harvest automatons, and marauding Riverpaw gnolls."
+  },
+  {
+   "q": "Where is Sentinel Hill located?",
+   "aliases": [
+    "find sentinel hill",
+    "sentinel hill location",
+    "where to find stoutmantle"
+   ],
+   "answer": "Sentinel Hill stands near the center of Westfall along the main road. The hill is crowned with a sturdy stone watchtower and a fortified encampment where the People's Militia gathers."
+  },
+  {
+   "q": "Who sends adventurers on this assignment?",
+   "aliases": [
+    "who gives quest",
+    "quest givers",
+    "report to gryan quest giver"
+   ],
+   "answer": "Several concerned figures offer this referral once an adventurer proves capable, including Goldshire's Marshal Dughan, border guards like Guard Thomas and Deputy Rainer, or displaced locals like Farmer Furlbrow and Farmer Saldean."
+  },
+  {
+   "q": "What happens after reporting to Gryan?",
+   "aliases": [
+    "what next",
+    "stoutmantle follow up",
+    "militia quest chain"
+   ],
+   "answer": "Once you report to Stoutmantle, he enlists your combat prowess directly into the service of the People's Militia, beginning with assignments to cull the Defias brigands and gnolls threatening the region."
+  },
+  {
+   "q": "Is Westfall technically still part of the Alliance?",
+   "aliases": [
+    "is westfall alliance",
+    "does stormwind own westfall"
+   ],
+   "answer": "Yes, Westfall is an Alliance territory under the nominal authority of the Stormwind Kingdom. However, local frustration runs high because the crown's royal garrison has neglected the province, leaving its survival in the hands of armed citizens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of the kingdom, walking into Westfall highlights the stark divide between the safe marble streets of Stormwind City and the harsh, neglected realities of its outlying farmlands."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The assignment showcases the internal strain testing the Alliance: while the royal court argues over politics in Stormwind, ordinary citizens must organize their own militias to survive."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Gryan Stoutmantle values seasoned martial discipline above all else, making veteran frontline fighters indispensable assets to the outnumbered People's Militia."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "elwynn",
+  "gryan stoutmantle",
+  "marshal dughan",
+  "people's militia",
+  "sentinel hill",
+  "stormwind",
+  "westfall"
+ ],
+ "related": [
+  "npc:gryan-stoutmantle",
+  "subzone:sentinel-hill",
+  "zone:westfall",
+  "quest:12",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Report to Gryan Stoutmantle"
+ ]
+}

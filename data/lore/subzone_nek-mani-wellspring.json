@@ -1,0 +1,82 @@
+{
+ "key": "subzone:nek-mani-wellspring",
+ "type": "subzone",
+ "name": "Nek'mani Wellspring",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Nek'mani Wellspring"
+ },
+ "summary": "Perched high in the cliffs above the Southern Savage Coast, the Nek'mani Wellspring holds a fountain of remarkably pure holy water. It is renowned as the only pristine source of fresh water found south of Duskwood. However, this sacred site has recently been overrun by hostile naga explorers who jealously guard its flow.",
+ "sections": [
+  {
+   "title": "A Sacred Basin",
+   "body": "The Nek'mani Wellspring sits tucked away in the jagged coastal heights of western Stranglethorn Vale. Dispensing the only untainted freshwater south of Duskwood, the spring is hailed by various scholars and pilgrims as holy. Because differing cultures and traditions each claim its divine waters were blessed uniquely for their own kind, it remains a subject of intense theological fascination. Despite its spiritual renown, peaceful contemplation here is impossible: a vicious contingent of naga has recently seized the basin and guards the waters against all intruders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What makes the Nek'mani Wellspring special?",
+   "aliases": [
+    "why is nek'mani important",
+    "what is holy water of clarity",
+    "holy spring stv"
+   ],
+   "answer": "The wellspring produces exceptionally pure holy water, known to be the only untainted, completely fresh water source in the wilderness south of Duskwood. Many religious scholars consider its waters divine, though different faiths squabble over whose people it was originally intended for."
+  },
+  {
+   "q": "Where exactly is the wellspring located?",
+   "aliases": [
+    "where is nekmani wellspring",
+    "how to find nek'mani",
+    "nekmani location"
+   ],
+   "answer": "It is perched high along the cliffside overlooking the Southern Savage Coast on the western shores of Stranglethorn Vale."
+  },
+  {
+   "q": "Who controls the Nek'mani Wellspring right now?",
+   "aliases": [
+    "who is at nek'mani",
+    "nekmani monsters",
+    "naga at nekmani"
+   ],
+   "answer": "An expedition of hostile naga has recently advanced inland from the ocean to claim the sacred basin, viciously attacking anyone who approaches the water."
+  },
+  {
+   "q": "Why are adventurers sent to this spring?",
+   "aliases": [
+    "nekmani quests",
+    "holy water quest stv",
+    "clean water stv"
+   ],
+   "answer": "Travelers and researchers seek out the holy water of the spring for powerful enchantments, purifications, and alchemical mixtures that demand absolutely pristine water."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "The claims of divine provenance surrounding Nek'mani's waters make it a curiosity for priests, though the squabbling over which faith it belongs to is an enduring scholarly dispute."
+  }
+ ],
+ "keywords": [
+  "holy spring",
+  "holy water",
+  "naga",
+  "nek'mani",
+  "savage coast",
+  "stranglethorn",
+  "wellspring"
+ ],
+ "related": [
+  "subzone:southern-savage-coast",
+  "zone:stranglethorn",
+  "topic:naga",
+  "subzone:savage-coast",
+  "zone:duskwood",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Nek'mani Wellspring"
+ ]
+}

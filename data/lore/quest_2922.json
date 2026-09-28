@@ -1,0 +1,122 @@
+{
+ "key": "quest:2922",
+ "type": "quest",
+ "name": "Save Techbot's Brain!",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "ids": [
+   2922
+  ],
+  "level": "26",
+  "faction": "Alliance",
+  "start": "Tinkmaster Overspark",
+  "end": "",
+  "previous": "Tinkmaster Overspark (quest)",
+  "next": null,
+  "wiki": "Save Techbot's Brain!",
+  "chain": [
+   "Tinkmaster Overspark (quest)",
+   "Save Techbot's Brain!"
+  ]
+ },
+ "summary": "Tinkmaster Overspark tasks Alliance adventurers with retrieving the memory core of Techbot from the irradiated ruins of Gnomeregan. The once-helpful mechanical assistant suffered severe brain polarization during the city's fall, causing it to run amok. Overspark hopes recovering its core will allow him to reverse the damage and restore his beloved creation.",
+ "sections": [
+  {
+   "title": "A Mind Inverted",
+   "body": "Before the disaster that claimed Gnomeregan, Techbot served as a marvel of gnomish ingenuity. Designed by Chief Architect Tinkmaster Overspark, the automaton aided researchers with countless integrated gizmos and an encyclopedic repository of technical knowledge. However, the chaos of the trogg invasion and the venting of toxic radiation did not spare the machine. A stray electrical surge jolted Techbot's delicate internal architecture, completely polarizing its positronic brain into a volatile negatronic state.",
+   "spoiler": 0
+  },
+  {
+   "title": "Salvage Operation",
+   "body": "Trapped within the contaminated halls of Gnomeregan, Techbot now wanders in a manic frenzy, attacking anyone in sight. Despite its violent malfunction, Overspark refuses to write off his prized assistant as scrap. He recruits capable operatives to track down the berserk automaton, extract its memory core from the metal chassis, and deliver it safely to Ironforge so the Tinkmaster can unravel the polarization and repair Techbot's mind.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Techbot?",
+   "aliases": [
+    "what is techbot",
+    "techbot lore",
+    "overspark techbot"
+   ],
+   "answer": "Techbot is a mechanical assistant invented by Tinkmaster Overspark. Prior to the fall of Gnomeregan, it assisted the Tinkmaster and his associates with its massive database of knowledge and built-in gizmos."
+  },
+  {
+   "q": "Why did Techbot become hostile?",
+   "aliases": [
+    "why is techbot mad",
+    "what happened to techbot",
+    "techbot polarization"
+   ],
+   "answer": "During the fall of Gnomeregan, a stray electrical spark jolted Techbot's positronic brain. The shock reversed its neural alignment into a negatronic state, turning its helpful personality into a rampaging frenzy."
+  },
+  {
+   "q": "Where can Techbot be found?",
+   "aliases": [
+    "where is techbot",
+    "techbot location",
+    "find techbot"
+   ],
+   "answer": "Techbot wanders the outer corridors and staging halls of Gnomeregan, just beyond the perimeter lines where the exiled gnomes and dwarven expeditionary forces operate."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "who starts save techbots brain",
+    "overspark location"
+   ],
+   "answer": "Tinkmaster Overspark offers the quest from Tinker Town inside Ironforge, where he oversees salvage and research efforts on behalf of High Tinker Gelbin Mekkatorque."
+  },
+  {
+   "q": "Can Techbot truly be repaired?",
+   "aliases": [
+    "is techbot fixed",
+    "can you fix techbot",
+    "does techbot survive"
+   ],
+   "answer": "Tinkmaster Overspark believes retrieving Techbot's memory core will allow him to diagnose the exact cause of the negatronic polarization and restore the automaton to working order."
+  },
+  {
+   "q": "What happens after returning the memory core?",
+   "aliases": [
+    "techbot quest conclusion",
+    "turn in techbot core"
+   ],
+   "answer": "Upon receiving the core, Overspark immediately sets to work preparing to dismantle and reconfigure the inverted circuits, though finding the right tools in his cluttered workshop proves to be its own challenge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomish engineers, Techbot represents the tragic collateral damage of losing their home city, proving that even their finest intellectual achievements can be warped by the catastrophe."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The transition of Techbot's processor from positronic to negatronic is a cautionary tale for tinkerers working with high-complexity computational matrices."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Recovering valuable lost technology from within the contaminated perimeter of Gnomeregan is vital to supporting the gnomish refugees sheltering in Ironforge."
+  }
+ ],
+ "keywords": [
+  "gnomeregan",
+  "memory core",
+  "negatronic",
+  "overspark",
+  "positronic",
+  "techbot",
+  "tinker town"
+ ],
+ "related": [
+  "quest:2923",
+  "zone:gnomeregan",
+  "topic:gnome",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Save Techbot's Brain!"
+ ]
+}

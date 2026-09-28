@@ -1,0 +1,78 @@
+{
+ "key": "subzone:deepwater-tavern",
+ "type": "subzone",
+ "name": "Deepwater Tavern",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Deepwater Tavern"
+ },
+ "summary": "The Deepwater Tavern is the bustling seaside inn of Menethil Harbor, nestled in the damp marshlands of the Wetlands. It serves as the primary meeting spot, resupply point, and resting place for travelers and mariners navigating the busy port town. Between hearty drinks and harbor rumors, patrons frequently find work or run into volatile tavern brawls.",
+ "sections": [
+  {
+   "title": "Heart of Menethil Harbor",
+   "body": "Standing within the sodden streets of Menethil Harbor, the Deepwater Tavern offers travelers a welcome shelter from the perpetually drizzly, treacherous marshlands outside. Sailors, dockworkers, merchants, and weary adventurers gather beneath its timber beams to trade news, share a warm fire, and patch their wounds. Beyond the usual amenities of a harbor inn, it houses a resident first aid trainer and local merchants catering to those bound for the perils of the marsh or embarking across the Great Sea. The atmosphere is boisterous and occasionally hazardous; disputes flare up quickly over spilled ale, with notorious troublemakers like Tapoke 'Slim' Jahn known to spark the occasional tavern-wide brawl.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Deepwater Tavern located?",
+   "aliases": [
+    "deepwater tavern location",
+    "where is deepwater tavern",
+    "menethil harbor inn"
+   ],
+   "answer": "The Deepwater Tavern is situated near the waterfront of Menethil Harbor, the primary port town of the Wetlands on the western coast of Khaz Modan."
+  },
+  {
+   "q": "What services are available inside the tavern?",
+   "aliases": [
+    "deepwater tavern services",
+    "menethil tavern trainers",
+    "what can i find at deepwater tavern"
+   ],
+   "answer": "Besides typical innkeeper lodging and refreshments, the tavern houses merchants and a first aid trainer, making it a critical resupply and healing point for adventurers traveling through the marshlands."
+  },
+  {
+   "q": "Who frequently starts brawls in the tavern?",
+   "aliases": [
+    "bar brawl menethil",
+    "tapoke slim jahn",
+    "who starts fights at deepwater tavern"
+   ],
+   "answer": "The tavern is famous for spontaneous fights, with a shifty troublemaker named Tapoke 'Slim' Jahn frequently instigating brawls among the rowdy patrons and sailors."
+  },
+  {
+   "q": "Why is the tavern so busy?",
+   "aliases": [
+    "why visit deepwater tavern",
+    "why is deepwater tavern popular"
+   ],
+   "answer": "Menethil Harbor is the major shipping and naval gateway linking Khaz Modan to Kalimdor and northern ports. As the sole major inn in town, it gathers a steady flow of sailors, mercenaries, and Alliance adventurers heading into the Wetlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Deepwater Tavern serves as an indispensable rallying point and rest haven for Alliance members passing between Ironforge and the open sea."
+  }
+ ],
+ "keywords": [
+  "deepwater tavern",
+  "first aid trainer",
+  "innkeeper",
+  "menethil harbor",
+  "tapoke slim jahn",
+  "tavern brawl",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:menethil-harbor",
+  "zone:wetlands",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Deepwater Tavern"
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "key": "npc:argos-nightwhisper",
+ "type": "npc",
+ "name": "Argos Nightwhisper",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Argos Nightwhisper",
+  "refs": 1
+ },
+ "summary": "Argos Nightwhisper is a night elf emissary and traveler found in Stormwind City. Awaiting transport to return home to Kalimdor, he serves as an Alliance contact directing adventurers toward Teldrassil to aid his people against spreading corruption.",
+ "sections": [
+  {
+   "title": "A Kaldorei in the Human Capital",
+   "body": "Argos Nightwhisper resides among the growing night elf presence in Stormwind, often lingering in the lush, secluded Park district crafted to remind the kaldorei of their ancestral woodlands. Like many of his kin stationed in the human kingdom, Argos acts as a bridge between the newfound allies across the Great Sea. Deeply concerned by reports filtering across the ocean, he urges capable Alliance champions to journey west to Darnassus and assist in purging the dark taint creeping through the roots of Teldrassil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Argos Nightwhisper?",
+   "aliases": [
+    "argos nightwhisper",
+    "who is argos",
+    "argos stormwind"
+   ],
+   "answer": "Argos Nightwhisper is a night elf residing in Stormwind City. He represents the interests of Darnassus in the eastern Alliance capital, helping organize travelers and directing adventurers to take passage to Kalimdor."
+  },
+  {
+   "q": "Where can Argos Nightwhisper be found?",
+   "aliases": [
+    "argos location",
+    "where is argos",
+    "find argos nightwhisper"
+   ],
+   "answer": "In Stormwind, night elves commonly gather in the Park, an enclave shaped with moonwells and greenery to suit kaldorei customs, though Argos is also known to frequent the docks awaiting ships destined for Darnassus."
+  },
+  {
+   "q": "What does Argos ask adventurers to do?",
+   "aliases": [
+    "corruption abroad quest",
+    "argos quest",
+    "why go to darnassus"
+   ],
+   "answer": "Argos directs Alliance adventurers to travel abroad to Teldrassil. He warns of spreading corruption threatening the woodlands of Kalimdor and sends capable fighters to report to night elf authorities in Darnassus."
+  },
+  {
+   "q": "Is Argos related to other Nightwhispers?",
+   "aliases": [
+    "nightwhisper family",
+    "argos relatives"
+   ],
+   "answer": "While he shares his family name with other night elves such as Falorn and Evelle Nightwhisper, he keeps to his duties connecting the capital of Stormwind with Darnassus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For kaldorei traveling far from Kalimdor, Argos is a familiar face coordinating passage back to Teldrassil and keeping an eye on threats endangering the home boughs."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Argos serves as an early link between the Eastern Kingdoms and Kalimdor, encouraging young Alliance heroes to cross the sea and aid the night elves."
+  }
+ ],
+ "keywords": [
+  "argos",
+  "corruption abroad",
+  "darnassus",
+  "kaldorei",
+  "nightwhisper",
+  "park",
+  "stormwind",
+  "teldrassil"
+ ],
+ "related": [
+  "subzone:park",
+  "zone:darnassus",
+  "quest:3765",
+  "topic:night-elf",
+  "topic:stormwind-kingdom",
+  "subzone:stormwind-harbor"
+ ],
+ "attribution": [
+  "Argos Nightwhisper"
+ ]
+}

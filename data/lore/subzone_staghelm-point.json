@@ -1,0 +1,78 @@
+{
+ "key": "subzone:staghelm-point",
+ "type": "subzone",
+ "name": "Staghelm Point",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Staghelm Point"
+ },
+ "summary": "Staghelm Point is an ancient night elven watchtower perched atop a craggy peak in northeastern Silithus. Overlooking the encroaching dunes and the nearby caverns of Twilight's Run, the tower stands as a vigil against the ancient threats haunting the desert.",
+ "sections": [
+  {
+   "title": "A Silent Watch Above the Sands",
+   "body": "Rising high above the arid flats of northeastern Silithus, Staghelm Point is crowned by a solitary night elf tower. The outpost serves as a lonely sentinel, keeping watch over the wasteland and the shadowed cultists lurking in nearby caves like Twilight's Run. Watched over by Ralo'shan the Eternal Watcher and accompanied by a bronze drake circling overhead, the tower bears the proud and tragic name of the Staghelm lineage\u2014a reminder of the immense sacrifices made by the Kaldorei during the ancient War of the Shifting Sands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is this outpost named Staghelm Point?",
+   "aliases": [
+    "staghelm point name",
+    "why is it called staghelm point",
+    "who is it named after"
+   ],
+   "answer": "The tower bears the name of the Staghelm family, honoring either Archdruid Fandral Staghelm\u2014who commanded the night elven forces in the ancient War of the Shifting Sands\u2014or his son Valstann, who was brutally slain by the silithid during that conflict."
+  },
+  {
+   "q": "Who lives at Staghelm Point?",
+   "aliases": [
+    "who is at staghelm point",
+    "staghelm point npcs",
+    "raloshan"
+   ],
+   "answer": "The solitary tower is guarded by Ralo'shan the Eternal Watcher, while a majestic bronze drake from the Brood of Nozdormu keeps a perpetual patrol in the skies above."
+  },
+  {
+   "q": "What threats lie nearby?",
+   "aliases": [
+    "staghelm point danger",
+    "nearby enemies",
+    "twilights run"
+   ],
+   "answer": "Down the path winding away from the peak lies Twilight's Run, a cavern and surrounding camp crawling with fanatical members of the Twilight's Hammer cult."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Staghelm Point evokes the solemn history of the War of the Shifting Sands, standing as a stark reminder of the Kaldorei's heavy sacrifices in holding back the horrors beneath Silithus."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The tower honors the lineage of Archdruid Fandral Staghelm, offering a contemplative vantage over the corrupted, arid wilderness that defies the balance of nature."
+  }
+ ],
+ "keywords": [
+  "bronze drake",
+  "fandral staghelm",
+  "ralo'shan",
+  "silithus",
+  "staghelm point",
+  "twilight's run",
+  "valstann staghelm",
+  "watchtower"
+ ],
+ "related": [
+  "zone:silithus",
+  "npc:fandral-staghelm",
+  "subzone:twilight-s-run",
+  "topic:cenarion-circle",
+  "topic:night-elf",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Staghelm Point"
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "key": "quest:1478",
+ "type": "quest",
+ "name": "Halgar's Summons",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   1478
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Ageron Kargal",
+  "end": "Carendin Halgar",
+  "previous": null,
+  "next": "Creature of the Void (Undercity)",
+  "wiki": "Halgar's Summons",
+  "chain": [
+   "Halgar's Summons",
+   "Return to Carendin Halgar",
+   "Creature of the Void (Undercity)",
+   "The Binding (Voidwalker, Undercity)"
+  ]
+ },
+ "summary": "Halgar's Summons is a formal directive given to rising Forsaken warlocks who have reached a critical threshold in their dark craft. Master Carendin Halgar requires their presence in the Magic Quarter of the Undercity to begin rigorous advanced training. Answering his call sets the stage for summoning and binding dangerous entities from the Nether.",
+ "sections": [
+  {
+   "title": "A Master's Notice",
+   "body": "When a warlock operating around Brill or the Tirisfal wilderness demonstrates adequate control over basic fel energies, word reaches the deeper subterranean halls of the Undercity. Senior practitioners such as Ageron Kargal serve as talent spotters, relaying notices to those who show genuine promise. To be summoned by Carendin Halgar is both a rare privilege and a perilous undertaking, indicating that basic imps and petty curses no longer suffice for the practitioner's education.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Magic Quarter",
+   "body": "Halgar oversees warlock rites from the shadowed reaches of the Magic Quarter, situated near the sinister altar known as the Temple of the Damned. Forsaken darkcasters operate without the squeamish moral restrictions of the living, yet even they demand rigorous discipline when dabbling in planar summonings. Halgar does not tolerate hesitation or sentimentality; his summons expects immediate deference and complete readiness to confront the hostile horrors of the Twisting Nether.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Carendin Halgar?",
+   "aliases": [
+    "carendin halgar",
+    "master halgar",
+    "who is halgar"
+   ],
+   "answer": "Carendin Halgar is the primary warlock trainer residing in the Magic Quarter of the Undercity. He oversees the dark development of Forsaken summoners and tests their resolve before teaching them to bind powerful Nether creatures."
+  },
+  {
+   "q": "Who directs me to Halgar?",
+   "aliases": [
+    "who gives halgars summons",
+    "ageron kargal",
+    "who gives quest"
+   ],
+   "answer": "Ageron Kargal, an established warlock trainer stationed in Brill, dispatches you after receiving word that Master Halgar has taken a personal interest in your progression."
+  },
+  {
+   "q": "Where can I find Carendin Halgar in Undercity?",
+   "aliases": [
+    "halgar location",
+    "where is halgar",
+    "magic quarter halgar"
+   ],
+   "answer": "Halgar is located within the Magic Quarter of the Undercity, positioned close to the dark dais known as the Temple of the Damned."
+  },
+  {
+   "q": "Why is this summons important?",
+   "aliases": [
+    "why do i need this quest",
+    "quest purpose",
+    "what does halgars summons lead to"
+   ],
+   "answer": "The summons marks your transition from rudimentary spellcasting to high-risk demonic subjugation, specifically initiating the trials required to bind a Voidwalker into your service."
+  },
+  {
+   "q": "Is Halgar willing to teach anyone?",
+   "aliases": [
+    "can anyone talk to halgar",
+    "halgar requirements"
+   ],
+   "answer": "Halgar specifically focuses his attention on promising warlocks. He wastes little time on idle pleasantries and demands that any apprentice brought before him has proven capable of handling volatile fel arts."
+  },
+  {
+   "q": "What happens after reporting to Halgar?",
+   "aliases": [
+    "what comes next",
+    "after halgars summons"
+   ],
+   "answer": "Once you report to Halgar, he immediately tests your magical capability by assigning you tasks to acquire the components needed to summon and bind an otherworldly shadow minion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This rite of passage bridges elementary training with true planar enslavement, bringing you under the scrutiny of Undercity's foremost master of the dark arts."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken warlocks pursue shadow and fel with ruthless, uninhibited ambition, and Halgar's sanctum exemplifies their pragmatic disregard for living caution."
+  }
+ ],
+ "keywords": [
+  "ageron kargal",
+  "carendin halgar",
+  "halgar's summons",
+  "magic quarter",
+  "temple of the damned",
+  "undercity",
+  "voidwalker",
+  "warlock"
+ ],
+ "related": [
+  "npc:carendin-halgar",
+  "quest:1473",
+  "quest:1471",
+  "subzone:magic-quarter",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "Halgar's Summons"
+ ]
+}

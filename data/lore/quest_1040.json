@@ -1,0 +1,120 @@
+{
+ "key": "quest:1040",
+ "type": "quest",
+ "name": "Passage to Booty Bay",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1040
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Wharfmaster Dizzywig",
+  "end": "Caravaneer Ruzzgot",
+  "previous": "The Barrens Port",
+  "next": "The Caravan Road",
+  "wiki": "Passage to Booty Bay",
+  "chain": []
+ },
+ "summary": "This errand traces the missing Sentinel Velinde Starsong across the Great Sea to the lawless haven of Booty Bay. Following shipping logs uncovered by Wharfmaster Dizzywig, Alliance travelers must journey from Ratchet to the Eastern Kingdoms in search of a goblin caravan driver named Ruzzgot.",
+ "sections": [
+  {
+   "title": "A Trail Across the Sea",
+   "body": "The search for the night elf Sentinel Velinde Starsong leads away from the familiar boughs of Ashenvale and onto the ocean trade lanes. In the bustling goblin port of Ratchet, Wharfmaster Dizzywig eventually unearths old shipping manifests confirming that Velinde booked passage aboard a vessel named the Black Osprey, bound directly for the pirate haven of Booty Bay in Stranglethorn Vale.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Booty Bay",
+   "body": "Reaching Booty Bay requires boarding the neutral goblin trans-oceanic ferry running between Ratchet and the southern tip of the Eastern Kingdoms. Upon arrival, the trail narrows toward Caravaneer Ruzzgot, a goblin transport master Dizzywig recommended to Velinde when she inquired about dangerous overland journeys through the southern wilderness.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Velinde Starsong?",
+   "aliases": [
+    "velinde",
+    "who is velinde",
+    "velinde starsong lore"
+   ],
+   "answer": "Velinde Starsong was a night elf Sentinel commander in Ashenvale who wielded the Scythe of Elune against the demonic remnants of the Burning Legion. After summoning worgen packs that soon spiraled out of her control, she set out on a solitary journey to seek guidance, eventually disappearing."
+  },
+  {
+   "q": "Why did Velinde travel to Booty Bay?",
+   "aliases": [
+    "why booty bay",
+    "velinde booty bay",
+    "why did she go to booty bay"
+   ],
+   "answer": "Booty Bay is the primary maritime hub connecting central Kalimdor to the southern Eastern Kingdoms. Velinde needed passage across the Great Sea, and the Black Osprey out of Ratchet offered direct transit toward the human and dwarven kingdoms where she hoped to find answers about the Scythe."
+  },
+  {
+   "q": "Who is Wharfmaster Dizzywig?",
+   "aliases": [
+    "dizzywig",
+    "who is dizzywig",
+    "wharfmaster"
+   ],
+   "answer": "Wharfmaster Dizzywig manages the shipping docks in Ratchet for the Steamwheedle Cartel. Known for his impatient demeanor, he maintains the port's logbooks and passage manifests for all vessels traveling between Kalimdor and the Eastern Kingdoms."
+  },
+  {
+   "q": "Who is Caravaneer Ruzzgot?",
+   "aliases": [
+    "ruzzgot",
+    "caravaneer ruzzgot",
+    "who is ruzzgot"
+   ],
+   "answer": "Caravaneer Ruzzgot is a goblin teamster based in Booty Bay who coordinates supply convoys and overland transport through the dangerous jungles of Stranglethorn Vale and beyond."
+  },
+  {
+   "q": "What ship did Velinde take?",
+   "aliases": [
+    "velindes ship",
+    "what boat did velinde take",
+    "black osprey"
+   ],
+   "answer": "According to Wharfmaster Dizzywig's shipping records, Velinde Starsong booked passage aboard the Black Osprey, which made a successful voyage from Ratchet across the Great Sea to Booty Bay."
+  },
+  {
+   "q": "How do I travel to Booty Bay from Ratchet?",
+   "aliases": [
+    "getting to booty bay",
+    "how to get to booty bay",
+    "boat to booty bay"
+   ],
+   "answer": "The Steamwheedle Cartel operates a passenger ferry directly from the southern dock in Ratchet across the Great Sea, docking in the pirate port of Booty Bay on the southern tip of Stranglethorn Vale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Finding Velinde Starsong is an urgent duty for the Kaldorei, as her disappearance with the Scythe of Elune left behind a lingering, dangerous mystery in the forests of Ashenvale."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Navigating neutral goblin territory like Ratchet and Booty Bay requires patience and diplomacy, forcing Alliance travelers to deal with mercenaries and cartel bureaucrats."
+  }
+ ],
+ "keywords": [
+  "black osprey",
+  "booty bay",
+  "caravaneer ruzzgot",
+  "passage to booty bay",
+  "ratchet",
+  "scythe of elune",
+  "velinde starsong",
+  "wharfmaster dizzywig"
+ ],
+ "related": [
+  "quest:1039",
+  "quest:1041",
+  "quest:1492",
+  "subzone:booty-bay",
+  "zone:ashenvale",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Passage to Booty Bay"
+ ]
+}

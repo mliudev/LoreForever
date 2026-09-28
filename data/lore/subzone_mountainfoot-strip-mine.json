@@ -1,0 +1,74 @@
+{
+ "key": "subzone:mountainfoot-strip-mine",
+ "type": "subzone",
+ "name": "Mountainfoot Strip Mine",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Mountainfoot Strip Mine"
+ },
+ "summary": "Mountainfoot Strip Mine is a massive excavation site located in southwestern Azshara. Carved out by enterprising goblin engineers seeking valuable subterranean minerals, the pit represents the sheer scale and environmental disregard of industrial goblin operations.",
+ "sections": [
+  {
+   "title": "Industrial Ambition",
+   "body": "The Mountainfoot Strip Mine sits in what was once part of Forlorn Ridge in southwestern Azshara. True to goblin industriousness and sheer disregard for natural geography, miners literally carved and blasted away the rocky peaks to get at the rich veins buried beneath the earth. While the operation yields abundant minerals, the massive terraced pit stands as a harsh reminder of goblin industrial excess in the ancient, ruined wilderness of Azshara.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Mountainfoot Strip Mine?",
+   "aliases": [
+    "mountainfoot mine",
+    "azshara strip mine",
+    "what is this mine"
+   ],
+   "answer": "It is an expansive open-pit strip mine located in southwestern Azshara. Goblin mining operations dismantled the surrounding terrain to uncover and excavate rich mineral deposits buried underground."
+  },
+  {
+   "q": "Who dug this mine?",
+   "aliases": [
+    "who dug mountainfoot",
+    "who owns the mine",
+    "who built this"
+   ],
+   "answer": "Goblins excavated this site. Using heavy machinery, explosive charges, and sheer persistence, goblin prospectors carved down the original ridge to expose the deep mineral beds."
+  },
+  {
+   "q": "What was here before the mine?",
+   "aliases": [
+    "what was here before",
+    "forlorn ridge history",
+    "original landscape"
+   ],
+   "answer": "Before the excavators arrived, the area was part of the natural elevation of Forlorn Ridge. The miners essentially removed a mountain to extract the ore veins beneath it."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "For prospectors, the strip mine is a stark example of raw excavation, revealing deep subterranean strata that would normally take years of tunneling to expose."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers can appreciate the sheer logistical spectacle of moving an entire mountain purely through earthmovers, high explosives, and relentless persistence."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "excavation",
+  "forlorn ridge",
+  "goblin",
+  "mining",
+  "mountainfoot",
+  "strip mine"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:forlorn-ridge",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Mountainfoot Strip Mine"
+ ]
+}

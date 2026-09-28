@@ -1,0 +1,84 @@
+{
+ "key": "npc:sentinel-tysha-moonblade",
+ "type": "npc",
+ "name": "Sentinel Tysha Moonblade",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Sentinel Tysha Moonblade",
+  "refs": 1
+ },
+ "summary": "Sentinel Tysha Moonblade is a night elf scout stationed along the main road of Darkshore, just west of the ancient ruins of Ameth'Aran. Tasked with patrolling the troubled coastal wilderness, she directs travelers and recruits aid to investigate the restless spirits haunting the shattered elven settlements nearby.",
+ "sections": [
+  {
+   "title": "Watch upon the Road",
+   "body": "Standing sentinel along the overgrown highway of Darkshore, Tysha Moonblade keeps a vigilant eye over an increasingly unstable land. Directly to her east lie the haunted remnants of Ameth'Aran, where cursed Highborne ghosts and malevolent banshees linger among ancient stone pillars. Recognizing that Auberdine's limited defenses are stretched thin by threats across the coast, Tysha enlists capable adventurers passing by to uncover the history behind Ameth'Aran's tragic fall and put down the restless dead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sentinel Tysha Moonblade?",
+   "aliases": [
+    "who is tysha",
+    "tysha moonblade lore",
+    "sentinel tysha"
+   ],
+   "answer": "Sentinel Tysha Moonblade is a night elf guardian patrolling the main road in central Darkshore, stationed just west of the ruins of Ameth'Aran. She watches the route against wandering beasts and restless specters."
+  },
+  {
+   "q": "Where can I find Sentinel Tysha Moonblade?",
+   "aliases": [
+    "tysha moonblade location",
+    "where is tysha",
+    "where is sentinel tysha"
+   ],
+   "answer": "She is posted along the north-south road in Darkshore, situated directly west across from the ancient ruin site of Ameth'Aran."
+  },
+  {
+   "q": "What tasks does she give to adventurers?",
+   "aliases": [
+    "tysha moonblade quests",
+    "fall of ametharan quest giver",
+    "what does tysha want"
+   ],
+   "answer": "Tysha directs travelers into the nearby ruins of Ameth'Aran to investigate the ancient tragedy that ruined the ancient night elf settlement, helping quiet the tormented ghosts that haunt its tumbled columns."
+  },
+  {
+   "q": "Is she related to anyone else in Darkshore?",
+   "aliases": [
+    "mariner moonblade relation",
+    "tysha moonblade family"
+   ],
+   "answer": "Sharing a surname, she is likely related to Mariner Moonblade, who can also be found serving night elf interests along the Darkshore coastline."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Tysha represents the vigilant Sentinels trying to maintain peace over lands still scarred by the ancient Sundering, asking fellow night elves to lay their cursed ancestors to rest."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers making the journey south from Auberdine toward Ashenvale, Tysha is one of the few friendly outposts along an otherwise perilous, monster-infested road."
+  }
+ ],
+ "keywords": [
+  "ameth'aran",
+  "auberdine",
+  "darkshore",
+  "highborne",
+  "night elf",
+  "sentinel",
+  "tysha moonblade"
+ ],
+ "related": [
+  "zone:darkshore",
+  "subzone:ameth-aran",
+  "quest:953",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Sentinel Tysha Moonblade"
+ ]
+}

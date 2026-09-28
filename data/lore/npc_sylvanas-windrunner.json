@@ -1,0 +1,97 @@
+{
+ "key": "npc:sylvanas-windrunner",
+ "type": "npc",
+ "name": "Sylvanas Windrunner",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Sylvanas Windrunner",
+  "refs": 2
+ },
+ "summary": "Lady Sylvanas Windrunner is the Banshee Queen and supreme ruler of the Forsaken, holding court in the Undercity beneath the ruins of Lordaeron. Once the brave Ranger-General of Silvermoon, she was slain and raised into undeath by Arthas Menethil before breaking free from the Lich King's grip. Now allied with Thrall's Horde out of mutual survival, she is fiercely dedicated to securing a future for her free-willed undead and exacting vengeance upon the Scourge.",
+ "sections": [
+  {
+   "title": "Fall of the Ranger-General",
+   "body": "In life, Lady Sylvanas was the celebrated Ranger-General of Silvermoon, commanding the defense of Quel'Thalas during the Third War. When Prince Arthas Menethil marched the Scourge into the high elven kingdom to reach the Sunwell, Sylvanas fought fiercely to delay his advance. Frustrated by her resistance, Arthas murdered her, but denied her a clean death. He ripped her soul from her corpse and twisted it into a vengeful banshee, forcing her to serve the Scourge and assist in the slaughter of her own people.",
+   "spoiler": 0
+  },
+  {
+   "title": "Rise of the Forsaken",
+   "body": "When the Lich King's magical grip fractured after the Third War, Sylvanas broke free of his dominion and repossessed her preserved body. Amassing other undead who had regained their free will, she overthrew the dreadlords occupying the ruins of Lordaeron, dubbed her people the Forsaken, and established the subterranean realm of the Undercity. Recognizing the precarious isolation of her people\u2014threatened by Scourge remnants, zealous Scarlet crusaders, and suspicious human realms\u2014she forged an uneasy alliance of convenience with Warchief Thrall and the Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sylvanas Windrunner?",
+   "aliases": [
+    "banshee queen",
+    "who is the dark lady",
+    "lady sylvanas",
+    "undercity leader"
+   ],
+   "answer": "She is the sovereign leader of the Forsaken, holding court in the Royal Quarter of the Undercity. In life she was the elven Ranger-General of Quel'Thalas, but after being slain and raised by Arthas Menethil, she broke away from the Scourge to lead the free-willed undead."
+  },
+  {
+   "q": "Why did Sylvanas align the Forsaken with the Horde?",
+   "aliases": [
+    "why are undead in horde",
+    "forsaken horde alliance",
+    "sylvanas thrall pact"
+   ],
+   "answer": "The Forsaken are reviled by the living nations of the Alliance, who see them only as monsters. Surrounded by the Scourge and the Scarlet Crusade in Lordaeron, Sylvanas required strong allies to ensure her fledgling nation's survival, prompting her to petition Warchief Thrall for entry into the Horde."
+  },
+  {
+   "q": "How did Sylvanas break free from the Lich King?",
+   "aliases": [
+    "how did sylvanas escape arthas",
+    "sylvanas free will",
+    "lich king control"
+   ],
+   "answer": "When the Lich King's psychic power began to bleed away during the aftermath of the Third War, his iron control over the Scourge fractured. Sylvanas was among the first powerful spirits to regain her autonomy, immediately reclaiming her mortal remains and turning her wrath upon Arthas."
+  },
+  {
+   "q": "What is Sylvanas's primary goal?",
+   "aliases": [
+    "what does sylvanas want",
+    "sylvanas motivation",
+    "dark lady goal"
+   ],
+   "answer": "Above all else, Sylvanas seeks total retribution against Arthas Menethil and the Scourge for destroying her homeland and enslaving her soul. Concurrently, she strives to fortify the Undercity and carve out a secure, permanent haven for the Forsaken in Lordaeron."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "To the Forsaken, the Dark Lady is a liberator and protector, the solitary reason they possess free will and a fortified home rather than mindlessly serving the Scourge."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Though accepted into the Horde through the advocacy of Archdruid Hamuul Runetotem and Thrall's compassion, many orcs and trolls view Sylvanas and her court with lingering wariness."
+  }
+ ],
+ "keywords": [
+  "arthas",
+  "banshee queen",
+  "dark lady",
+  "forsaken",
+  "lordaeron",
+  "ranger-general",
+  "sylvanas",
+  "undercity",
+  "windrunner"
+ ],
+ "related": [
+  "zone:undercity",
+  "topic:forsaken",
+  "topic:scourge",
+  "topic:arthas-menethil",
+  "topic:horde",
+  "npc:thrall",
+  "zone:tirisfal",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Sylvanas Windrunner"
+ ]
+}

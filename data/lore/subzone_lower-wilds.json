@@ -1,0 +1,88 @@
+{
+ "key": "subzone:lower-wilds",
+ "type": "subzone",
+ "name": "Lower Wilds",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Lower Wilds"
+ },
+ "summary": "The Lower Wilds form the eastern threshold of Feralas, where the humid forests meet the arid canyons of Thousand Needles. The main road cutting through these woods connects Thalanaar at the border to the settlements further west, flanked by ancient greenery and unpredictable woodland creatures.",
+ "sections": [
+  {
+   "title": "The Eastern Frontier",
+   "body": "Spanning the eastern reaches of Feralas, the Lower Wilds serve as the natural transition between the sun-baked ravines of Thousand Needles and the deep, primordial jungle to the west. Travelers entering the zone must traverse this stretch of forest along the main highway, past the elven outpost of Thalanaar guarding the mountain pass. The dense canopies here house ancient treants and dryads, alongside indigenous wildlife that makes straying from the beaten path perilous.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Contested Highway",
+   "body": "Because it links the southern wilderness to the eastern territories, the Lower Wilds see frequent movement of travelers, scouts, and couriers. While the night elves hold the gateway at Thalanaar, the Horde maintains Camp Mojache further inland. The road winding through the Lower Wilds is therefore a critical lifeline for anyone moving supplies across southern Kalimdor, fraught with both nature's hazards and faction tensions.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Lower Wilds located?",
+   "aliases": [
+    "lower wilds location",
+    "where is lower wilds",
+    "how to get to lower wilds"
+   ],
+   "answer": "The Lower Wilds make up the easternmost expanse of Feralas. They immediately border Thousand Needles, stretching westward from the mountain threshold of Thalanaar toward the interior of the jungle."
+  },
+  {
+   "q": "What creatures live in the Lower Wilds?",
+   "aliases": [
+    "lower wilds mobs",
+    "what is in lower wilds",
+    "lower wilds enemies"
+   ],
+   "answer": "The woodlands are inhabited by ancient forest guardians, including treants and dryads, as well as the native predatory beasts that roam the feral forest floor."
+  },
+  {
+   "q": "Which settlements are close to the Lower Wilds?",
+   "aliases": [
+    "lower wilds towns",
+    "camps near lower wilds",
+    "horde alliance towns lower wilds"
+   ],
+   "answer": "At the far eastern border sits the night elf outpost of Thalanaar, serving as the Alliance's primary entrance into Feralas. Further west along the road lies the Horde settlement of Camp Mojache."
+  },
+  {
+   "q": "Is the road through the Lower Wilds safe?",
+   "aliases": [
+    "is lower wilds safe",
+    "lower wilds road safety"
+   ],
+   "answer": "The road itself is the safest route through the region, but travelers should stay alert. Straying off the path invites attacks from aggressive forest fauna and territorial guardians, and rival faction skirmishes occasionally spill across the highway."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers leaving Thousand Needles, the Lower Wilds are their first sight of Feralas, anchored by the night elf frontier outpost at Thalanaar."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde messengers and supply lines traveling to Camp Mojache must navigate the length of the Lower Wilds after descending from the border canyons."
+  }
+ ],
+ "keywords": [
+  "camp mojache",
+  "eastern feralas",
+  "feralas",
+  "lower wilds",
+  "thalanaar",
+  "thousand needles",
+  "treants"
+ ],
+ "related": [
+  "zone:feralas",
+  "subzone:thalanaar",
+  "zone:thousandneedles",
+  "subzone:camp-mojache"
+ ],
+ "attribution": [
+  "Lower Wilds"
+ ]
+}

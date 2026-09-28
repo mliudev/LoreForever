@@ -1,0 +1,91 @@
+{
+ "key": "subzone:roland-s-doom",
+ "type": "subzone",
+ "name": "Roland's Doom",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Roland's Doom"
+ },
+ "summary": "Roland's Doom is an abandoned, shadow-drenched mine tucked into the southeastern hills of Duskwood, just east of the Rotting Orchard. Once an ordinary delve, it has become infamous as the tragic resting place of the night elf priestess Velinde Starsong and a focal point for the worgen curse spreading across the forest.",
+ "sections": [
+  {
+   "title": "A Den of Shadows and Savagery",
+   "body": "Cut into the ridges east of the Rotting Orchard, Roland's Doom long ago ceased to be a functioning mine. Instead, it serves as a violent staging ground for the Nightbane worgen pack, led by beasts such as Gutspill and Nefaru. The dark tunnels echo with guttural snarls and the reek of damp earth and blood, making it one of the most perilous corners in all of Duskwood for unwary travelers.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fall of Velinde Starsong",
+   "body": "The true tragedy of Roland's Doom lies buried deep within its tunnels. It was here that the night elven priestess Velinde Starsong met her end while carrying the Scythe of Elune, an ancient artifact of immense and volatile power. Later, the terrified wanderer Jitters stumbled upon the scythe inside the delve, accidentally unleashing an escalation of savage worgen and drawing the deadly Dark Riders to Duskwood. Disturbed dirt within the mine can still stir the lingering spirit of Velinde to speak of her final moments.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Roland's Doom?",
+   "aliases": [
+    "where is rolands doom",
+    "what is this mine"
+   ],
+   "answer": "Roland's Doom is a ruined, abandoned mine located in southeastern Duskwood, east of the Rotting Orchard. It is currently overrun by vicious Nightbane worgen."
+  },
+  {
+   "q": "Why are there worgen inside the mine?",
+   "aliases": [
+    "why worgen here",
+    "who lives in rolands doom"
+   ],
+   "answer": "The mine became infested with worgen following the loss of the Scythe of Elune. Currently, powerful beasts of the Nightbane pack, including Nefaru and Gutspill, make their lair within its damp shafts."
+  },
+  {
+   "q": "Who was Velinde Starsong and why is she connected to this place?",
+   "aliases": [
+    "velinde starsong rolands doom",
+    "who died here"
+   ],
+   "answer": "Velinde Starsong was a night elven priestess of Elune who wielded the Scythe of Elune to fight the Scourge. Her journey brought her across the sea to Duskwood, where she was killed inside this very mine, leaving the Scythe behind."
+  },
+  {
+   "q": "How does Jitters fit into the story of Roland's Doom?",
+   "aliases": [
+    "jitters mine",
+    "jitters scythe"
+   ],
+   "answer": "Jitters entered Roland's Doom and discovered the buried Scythe of Elune. His meddling unintentionally released more worgen into Duskwood and drew the sinister Dark Riders to the region, plunging the forest into greater peril."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The tragic demise of Priestess Velinde Starsong within this mine makes Roland's Doom a site of somber reflection and sorrow for night elves investigating the fate of their kin and the elusive Scythe of Elune."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Though once a working quarry, any prospector foolish enough to swing a pick here will quickly find that the only veins running in Roland's Doom belong to bloodthirsty worgen."
+  }
+ ],
+ "keywords": [
+  "gutspill",
+  "jitters",
+  "nefaru",
+  "nightbane",
+  "roland's doom",
+  "rolands doom",
+  "rotting orchard",
+  "scythe of elune",
+  "velinde starsong"
+ ],
+ "related": [
+  "quest:1043",
+  "quest:1044",
+  "quest:1037",
+  "topic:worgen",
+  "npc:jitters",
+  "subzone:rotting-orchard",
+  "zone:duskwood",
+  "topic:dark-riders"
+ ],
+ "attribution": [
+  "Roland's Doom"
+ ]
+}

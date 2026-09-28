@@ -1,0 +1,114 @@
+{
+ "key": "quest:765",
+ "type": "quest",
+ "name": "Supervisor Fizsprocket",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   765
+  ],
+  "level": "12",
+  "faction": "Horde",
+  "start": "Morin Cloudstalker",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Supervisor Fizsprocket (Classic)",
+  "chain": []
+ },
+ "summary": "Supervisor Fizsprocket is a high-ranking Venture Company overseer stationed within the mining tunnels of Mulgore. Charged by Morin Cloudstalker with putting an end to the goblin enterprise's calculated pillaging, Horde adventurers enter the mine to eliminate him and recover his detailed clipboard.",
+ "sections": [
+  {
+   "title": "A Plot Against the Plains",
+   "body": "Documents recovered from a destroyed tauren caravan revealed that the Venture Company was not merely digging for ore\u2014they were deliberately formulating schemes to drive the tauren from Mulgore entirely. By uprooting the locals, the rapacious corporation sought unchecked freedom to strip the rolling hills and deep subterranean veins of every natural resource.",
+   "spoiler": 0
+  },
+  {
+   "title": "Strike at the Foreman",
+   "body": "Morin Cloudstalker, enraged by the corporate atrocities plotted against his people, directs champions into the Venture Company mine located just east of the ravaged trade wagons. Tucked deep within the right-hand tunnels surrounded by laborers and sub-bosses, Supervisor Fizsprocket manages operations. Striking down Fizsprocket and claiming his clipboard shatters local coordination and yields critical intelligence regarding the company's future designs.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Supervisor Fizsprocket?",
+   "aliases": [
+    "fizsprocket",
+    "who is fizsprocket",
+    "fizsprocket lore"
+   ],
+   "answer": "Supervisor Fizsprocket is a Venture Company boss running operations inside the mining tunnels in eastern Mulgore. He oversees the workforce tearing into the earth and executes corporate strategies aimed at expanding their operations across the region."
+  },
+  {
+   "q": "Why does Morin Cloudstalker want Fizsprocket dead?",
+   "aliases": [
+    "why kill fizsprocket",
+    "morin cloudstalker motivation"
+   ],
+   "answer": "Morin discovered documents on a raided caravan proving the Venture Company plotted to drive the tauren off their ancestral homeland for profit. Fizsprocket is the direct supervisor carrying out these calculated exploitation schemes."
+  },
+  {
+   "q": "Where is Supervisor Fizsprocket located?",
+   "aliases": [
+    "where is fizsprocket",
+    "fizsprocket mine location",
+    "fizsprocket map"
+   ],
+   "answer": "He is located inside the Venture Company mine directly east of the Ravaged Caravan in Mulgore. Inside the mine, follow the far right tunnel to a chamber where he stands surrounded by workers and supervisors."
+  },
+  {
+   "q": "What proof does Morin require of Fizsprocket's defeat?",
+   "aliases": [
+    "proof of death",
+    "fizsprocket clipboard"
+   ],
+   "answer": "Morin Cloudstalker requires Fizsprocket's personal clipboard, which contains ledgers and records that might reveal further Venture Company ambitions in Mulgore."
+  },
+  {
+   "q": "Why is the Venture Company in Mulgore?",
+   "aliases": [
+    "venture co mulgore",
+    "why are goblins in mulgore"
+   ],
+   "answer": "The Venture Company is an unscrupulous commercial cartel bent on stripping virgin territory of timber, minerals, and valuable subterranean wealth, completely disregarding indigenous inhabitants or environmental balance."
+  },
+  {
+   "q": "Does killing Fizsprocket drive the Venture Company away completely?",
+   "aliases": [
+    "is venture co gone",
+    "after fizsprocket dies"
+   ],
+   "answer": "No. While Fizsprocket's demise disrupts their local leadership and provides Morin Cloudstalker with vital notes on their plans, the Venture Company remains a persistent threat embedded in Mulgore's hills."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Venture Company's open scheme to displace your tribe and plunder the sacred earth makes slaying Fizsprocket an act of vital territorial defense."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Assisting the tauren against encroaching corporate pillagers solidifies the Horde's protection over newly claimed heartlands in Kalimdor."
+  }
+ ],
+ "keywords": [
+  "clipboard",
+  "fizsprocket",
+  "mine",
+  "morin cloudstalker",
+  "mulgore",
+  "supervisor",
+  "venture co"
+ ],
+ "related": [
+  "npc:morin-cloudstalker",
+  "quest:764",
+  "quest:749",
+  "subzone:ravaged-caravan",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Supervisor Fizsprocket (Classic)"
+ ]
+}

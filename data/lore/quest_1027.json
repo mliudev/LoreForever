@@ -1,0 +1,120 @@
+{
+ "key": "quest:1027",
+ "type": "quest",
+ "name": "Raene's Cleansing",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1027
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Shael'dryn",
+  "end": "",
+  "previous": "Raene's Cleansing (4)",
+  "next": "Raene's Cleansing (6)",
+  "wiki": "Raene's Cleansing (5)",
+  "chain": []
+ },
+ "summary": "This quest marks the search for the final component needed to restore Dartol's Rod, an ancient relic tied to cleansing Ashenvale. Shael'dryn directs travelers toward the fallen druid sanctuary of Dor'Danil to recover the missing iron pommel.",
+ "sections": [
+  {
+   "title": "The Ruins of Dor'Danil",
+   "body": "The final piece of Dartol's Rod\u2014an iron pommel\u2014was entrusted to the night elf druids dwelling at the Dor'Danil barrow den. Tragically, the sanctuary fell to disaster, and its caretakers were slain. With the druids dead and their refuge overrun, the exact hiding place of the relic was lost, leaving scavengers and wandering oozes to swallow up whatever was left behind in the ruins east of the southern road.",
+   "spoiler": 0
+  },
+  {
+   "title": "Rebuilding Dartol's Legacy",
+   "body": "Dartol was a revered night elf figure whose rod possessed remarkable warding and transformative powers. Raene Wolfrunner and Shael'dryn seek to reassemble the artifact to push back against the demonic and corruptive blight choking Ashenvale's forests. Securing the iron pommel is the last step required before Shael'dryn can attempt to mend the fractured rod at the moonwell.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the iron pommel?",
+   "aliases": [
+    "iron pommel",
+    "final rod piece",
+    "what is pommel"
+   ],
+   "answer": "The iron pommel is the finishing segment of Dartol's Rod. Without it, the relic cannot be reforged or channeled to cleanse Ashenvale."
+  },
+  {
+   "q": "What happened to the druids of Dor'Danil?",
+   "aliases": [
+    "dordanil druids",
+    "who killed the druids",
+    "dor danil"
+   ],
+   "answer": "The druids residing at the Dor'Danil barrow den were recently slain when their sanctuary fell, leaving the refuge abandoned to lurking oozes and beasts. Shael'dryn considers their tragic fate a painful subject to discuss."
+  },
+  {
+   "q": "Where is Dor'Danil located?",
+   "aliases": [
+    "where is dordanil",
+    "dor danil location"
+   ],
+   "answer": "Dor'Danil sits in southern Ashenvale, east of the main road heading down toward the Barrens border, south of Splintertree Post."
+  },
+  {
+   "q": "Who is Shael'dryn?",
+   "aliases": [
+    "shaeldryn",
+    "who is shaeldryn"
+   ],
+   "answer": "Shael'dryn is a night elf tending a sacred moonwell in Ashenvale. She aids Raene Wolfrunner by tracking down the scattered remnants of Dartol's Rod and guiding heroes in repairing it."
+  },
+  {
+   "q": "Why is the pommel swallowed by oozes?",
+   "aliases": [
+    "slime chest",
+    "pommel slime",
+    "why do slimes have it"
+   ],
+   "answer": "After the barrow den fell, gelatinous slimes infested the area and consumed discarded relics, chests, and corpses, inadvertently engulfing the iron pommel along with other debris."
+  },
+  {
+   "q": "What happens after finding the pommel?",
+   "aliases": [
+    "next step",
+    "what does shaeldryn do"
+   ],
+   "answer": "Returning the pommel to Shael'dryn allows her to begin repairing the rod so it can finally be used to assist Raene Wolfrunner in cleansing the forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Visiting the desecrated grounds of Dor'Danil is a sobering reminder of the losses the Cenarion Circle and Kaldorei druids have suffered in Ashenvale."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Recovering Dartol's heirloom honors both the fallen caretakers of Dor'Danil and the ongoing defense of ancient Kaldorei lands."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing Ashenvale against corruption is vital to the Alliance's hold on northern Kalimdor, especially with Horde forces advancing from Splintertree."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "dartol's rod",
+  "dor'danil",
+  "iron pommel",
+  "moonwell",
+  "raene's cleansing",
+  "shael'dryn"
+ ],
+ "related": [
+  "npc:shael-dryn",
+  "zone:ashenvale",
+  "subzone:moonwell-ashenvale",
+  "subzone:splintertree-post",
+  "zone:barrens",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Raene's Cleansing (5)"
+ ]
+}

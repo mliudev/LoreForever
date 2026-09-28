@@ -1,0 +1,127 @@
+{
+ "key": "topic:highborne",
+ "type": "topic",
+ "name": "Highborne",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Highborne"
+ },
+ "summary": "The Highborne, or quel'dorei, were the aristocratic sorcerer caste of the ancient Kaldorei Empire who served Queen Azshara. Their reckless manipulation of the Well of Eternity brought the Burning Legion to Azeroth, leading to the devastating War of the Ancients and the Great Sundering.",
+ "sections": [
+  {
+   "title": "Aristocrats of the Well",
+   "body": "Before the Sundering, the Highborne arose as the favored upper class surrounding Queen Azshara. Claiming superiority over common kaldorei through selective bloodlines, intelligence, and opulent privilege, they strictly controlled access to the Well of Eternity. They discovered how to tap and shape its primal arcane energies, erecting magnificent cities across ancient Kalimdor. Their endless thirst for greater sorcery led them to draw deeper from the Well, turning its calm waters turbulent and dark.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Betrayal and the Sundering",
+   "body": "The ripples of arcane power created by Highborne spellcraft caught the attention of the dark titan Sargeras and the Burning Legion. Convinced by Azshara and her counselor Xavius that the demons would remake the world into an untainted paradise, the Highborne opened a massive gateway within the Well itself. This unleashed the catastrophic War of the Ancients. As demonic hordes slaughtered the populace, rebel forces rallied by Malfurion Stormrage fought to close the portal, causing the Well of Eternity to implode and tear the supercontinent apart.",
+   "spoiler": 0
+  },
+  {
+   "title": "Scattered Heirs and Remnants",
+   "body": "The Highborne fate splintered after the Sundering. Those dragged beneath the waves alongside Azshara were twisted into serpentine naga, while others fell to demonic curses and became satyrs. A faction under Dath'Remar Sunstrider aided the resistance but refused to abandon arcane magic, ultimately suffering exile across the sea to found the high elven kingdom of Quel'Thalas. Today, isolated enclaves like the Shen'dralar remain cloistered in Eldre'Thalas, shunned relics of an empire that nearly destroyed Azeroth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does 'Highborne' mean?",
+   "aliases": [
+    "queldorei meaning",
+    "what does queldorei mean",
+    "highborne translation"
+   ],
+   "answer": "In Darnassian, they are known as the quel'dorei, which translates directly to 'children of noble birth.' They chose the name to distinguish their aristocratic bloodlines and magical aptitude from the rest of kaldorei society."
+  },
+  {
+   "q": "Are modern night elves related to the Highborne?",
+   "aliases": [
+    "are night elves highborne",
+    "difference between night elves and highborne",
+    "highborne night elf connection"
+   ],
+   "answer": "Yes. The Highborne were merely the noble, magic-wielding ruling caste of the ancient night elves. Aside from being slightly paler and prone to flamboyant dress, they were physically the same race. After the Sundering, modern night elf society banned arcane magic and abolished the caste entirely."
+  },
+  {
+   "q": "How did the Highborne cause the War of the Ancients?",
+   "aliases": [
+    "why did burning legion come",
+    "how did highborne summon demons",
+    "highborne war of ancients role"
+   ],
+   "answer": "Their excessive and unchecked use of the Well of Eternity sent magical ripples across the cosmos, attracting the Burning Legion. Enticed by Sargeras's promises of unmatched power and an idealized world, Azshara and her nobles channeled the Well to create a portal, inviting the demon army directly into Kalimdor."
+  },
+  {
+   "q": "Did all Highborne side with Queen Azshara?",
+   "aliases": [
+    "good highborne",
+    "did any highborne fight azshara",
+    "highborne resistance"
+   ],
+   "answer": "No. Several factions broke away when they saw the demonic devastation. Sorcerers led by Dath'Remar Sunstrider defected to join Malfurion's Kaldorei Resistance, while groups like the Shen'dralar in Eldre'Thalas focused on surviving and defending their own regional holdings."
+  },
+  {
+   "q": "What happened to the surviving Highborne after the war?",
+   "aliases": [
+    "what became of the highborne",
+    "where are the highborne now",
+    "highborne descendants"
+   ],
+   "answer": "Their lineage scattered across several destinies. Many who sank with Zin-Azshari became the naga, others were twisted into satyrs, and those who followed Dath'Remar were exiled to the Eastern Kingdoms, evolving into high elves. A few, like the Shen'dralar in Dire Maul, remained cloistered in ancient ruins."
+  },
+  {
+   "q": "Who are the Shen'dralar?",
+   "aliases": [
+    "dire maul highborne",
+    "eldre thalas elves",
+    "who lives in dire maul"
+   ],
+   "answer": "The Shen'dralar are an ancient sect of Highborne scholars and arcanists who successfully defended the southern city of Eldre'Thalas during the Great Sundering. Cut off from Queen Azshara and mainstream kaldorei society, they retreated into the city\u2014now called Dire Maul\u2014relying on dark sorceries to preserve their immortality."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The memory of the Highborne caste remains a deep scar on night elven culture, serving as the sole reason arcane magic is outlawed under pain of exile or death across Kalimdor."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The Highborne were the first mortal practitioners of mortal arcane magic on Azeroth, whose breathtaking achievements and catastrophic mistakes established the dangerous rules of modern spellcasting."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druidism arose as the natural philosophy that opposed the Highborne's reckless exploitation of the Well of Eternity, providing the foundation for healing Kalimdor after the empire fell."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The Highborne were the first mortals on Azeroth to treat with the Burning Legion, bartering cosmic secrets and demonic pacts that paved the way for modern fel studies."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "dath'remar",
+  "dire maul",
+  "eldre'thalas",
+  "highborne",
+  "quel'dorei",
+  "sargeras",
+  "shen'dralar",
+  "well of eternity",
+  "zin-azshari"
+ ],
+ "related": [
+  "topic:war-of-the-ancients",
+  "topic:night-elf",
+  "subzone:dire-maul",
+  "topic:burning-legion",
+  "topic:naga",
+  "topic:satyr",
+  "npc:malfurion-stormrage",
+  "zone:azshara"
+ ],
+ "attribution": [
+  "Highborne"
+ ]
+}

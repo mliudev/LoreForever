@@ -1,0 +1,106 @@
+{
+ "key": "quest:96",
+ "type": "quest",
+ "name": "Call of Water",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   96
+  ],
+  "level": "23",
+  "faction": "Horde",
+  "start": "Minor Manifestation of Water",
+  "end": "Islen Waterseer",
+  "previous": "Call of Water (8)",
+  "next": null,
+  "wiki": "Call of Water (9)",
+  "chain": []
+ },
+ "summary": "This task marks the culmination of the shaman's arduous pilgrimage to attune with the element of water. By returning a purified Shard of Water to Islen Waterseer along the Barrens coast, an initiate proves their harmony with restorative energies and earns their Water Totem.",
+ "sections": [
+  {
+   "title": "A Long Journey Home",
+   "body": "The quest for water requires an initiate to cross continents, traveling as far as the tainted shores of Silverpine Forest to confront corruption directly. Water represents life, adaptability, and healing, but its pliable nature leaves it uniquely vulnerable to blight and dark magic. After standing before the Minor Manifestation of Water and bearing witness to pure elemental will, the initiate is entrusted with a singular gift: the Shard of Water. Carrying this token back across the sea to the sun-scorched Barrens is a physical reminder that water connects all distant corners of the world.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Water Totem",
+   "body": "When Islen Waterseer receives the shard, she does not merely examine proof of a completed task; she tests whether the shaman has internalized the balance between preservation and renewal. Lordaeron's encroaching rot often masks subtle victories, but cleansing even a solitary wellspring matters to the spirits. With this offering recognized, Islen bestows the Water Totem upon the shaman. This physical focal point allows the practitioner to channel cleansing, healing, and mana-restoring streams into the mortal realm, anchoring their permanent communion with the tide.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Shard of Water?",
+   "aliases": [
+    "shard of water",
+    "water shard",
+    "what is the shard"
+   ],
+   "answer": "The Shard of Water is a concentrated elemental remnant granted by the Minor Manifestation of Water. It serves as tangible evidence that an initiate has understood water's role as a life-giving force and successfully opposed the corruption threatening elemental streams."
+  },
+  {
+   "q": "Where do I take the Shard of Water?",
+   "aliases": [
+    "where to turn in",
+    "who gets the shard",
+    "turn in location"
+   ],
+   "answer": "The shard must be brought back to Islen Waterseer, who resides at a secluded camp along the eastern shoreline of the Barrens, south of Ratchet."
+  },
+  {
+   "q": "What do I receive for completing this trial?",
+   "aliases": [
+    "quest reward",
+    "totem reward",
+    "what do i get"
+   ],
+   "answer": "Completing this final trial rewards the shaman with their Water Totem, the vital conduit required to summon water-based elemental totems for healing and restorative magic."
+  },
+  {
+   "q": "Why was the trial set in Silverpine Forest?",
+   "aliases": [
+    "why silverpine",
+    "why eastern kingdoms",
+    "silverpine water"
+   ],
+   "answer": "Silverpine Forest's waters suffer heavy corruption from plague and shadow magic. Sending the shaman there forced them to witness the fragility of water and actively defend its natural purity against decay."
+  },
+  {
+   "q": "Who is Islen Waterseer?",
+   "aliases": [
+    "islen",
+    "who is islen waterseer"
+   ],
+   "answer": "Islen Waterseer is an orc spiritual guide situated along the eastern coast of the Barrens. She oversees the shamanic trials of water, teaching initiates how to commune with fluid spirits and master restorative arts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This rite of passage grants your Water Totem, unlocking the restorative wellsprings and cleansing fountains central to your role as a spiritual healer."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The trial demonstrates the Horde's spiritual responsibility, calling upon young shamans to cleanse blighted lands across both Kalimdor and the Eastern Kingdoms."
+  }
+ ],
+ "keywords": [
+  "call of water",
+  "islen waterseer",
+  "minor manifestation of water",
+  "shard of water",
+  "silverpine forest",
+  "the barrens",
+  "water totem"
+ ],
+ "related": [
+  "npc:islen-waterseer",
+  "npc:minor-manifestation-of-water",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Call of Water (9)"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "key": "subzone:elder-rise",
+ "type": "subzone",
+ "name": "Elder Rise",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Elder Rise"
+ },
+ "summary": "Elder Rise sits directly east of Thunder Bluff's central plateau, reachable across long suspension bridges from both the High and Middle Rises. It serves as the spiritual heart of the tauren capital, hosting the Cenarion Circle, tauren druids and priests, and the governing Council of Elders.",
+ "sections": [
+  {
+   "title": "Sanctuary of Faith and Council",
+   "body": "Connected to the main mesas by swaying rope bridges, Elder Rise is dedicated to quiet reflection, sacred wisdom, and civic governance. Tauren druids and priests gather here to teach acolytes the ways of nature and spiritual devotion. High atop this mesa resides Arch Druid Hamuul Runetotem, the revered leader who brought druidism back to the tauren people and forged close ties with the Cenarion Circle. Alongside these wild sanctuaries stands the Hall of Elders, where tribal leaders convene to deliberate on matters facing their fledgling capital.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Precarious Presence",
+   "body": "Despite its role as a peaceful sanctuary, political tension lingers over the rise. Magatha Grimtotem, elder matriarch of the secretive and haughty Grimtotem tribe, maintains her residence in a hut positioned between the two bridges. While Cairne Bloodhoof extends hospitality and formal council seats to all tauren lineages, her watchful presence serves as a constant reminder that not every tribe embraces the Bloodhoof's pacifist ideals or unquestioning alliance with the Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Elder Rise used for?",
+   "aliases": [
+    "purpose of elder rise",
+    "what is on elder rise",
+    "elder rise buildings"
+   ],
+   "answer": "Elder Rise serves as the center for spiritual learning and civic deliberation in Thunder Bluff. It houses the Cenarion Circle's druids, tauren priests, the governing Council of Elders, and tribal leaders."
+  },
+  {
+   "q": "Who leads the druids on Elder Rise?",
+   "aliases": [
+    "archdruid thunder bluff",
+    "tauren druid leader",
+    "hamuul location"
+   ],
+   "answer": "Arch Druid Hamuul Runetotem resides here. A close friend and advisor to Cairne Bloodhoof, Hamuul is the highest-ranking tauren in the Cenarion Circle and trains those called to walk the path of nature."
+  },
+  {
+   "q": "Why does Magatha Grimtotem stay here?",
+   "aliases": [
+    "where is magatha",
+    "magatha grimtotem location",
+    "grimtotem on elder rise"
+   ],
+   "answer": "Magatha Grimtotem occupies a tent situated between the bridges. As the elder crone and chieftain of the Grimtotem tribe, she attends the Council of Elders to represent her people in Thunder Bluff, despite mutual distrust between her clan and Cairne's allies."
+  },
+  {
+   "q": "How do you reach Elder Rise?",
+   "aliases": [
+    "getting to elder rise",
+    "elder rise bridges",
+    "directions elder rise"
+   ],
+   "answer": "Elder Rise lies directly east of the city's central plateau. It can be reached via large wooden rope bridges connected to both the High Rise and the lower plateau."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Elder Rise is the paramount home for Horde druids, serving as Arch Druid Hamuul Runetotem's sanctuary and the Cenarion Circle's regional seat in Kalimdor."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The rise houses the Council of Elders and spiritual guides who steer your tribes through peace, tradition, and the complex realities of the Horde."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "elder rise",
+  "hall of elders",
+  "hamuul runetotem",
+  "magatha grimtotem",
+  "mulgore",
+  "thunder bluff"
+ ],
+ "related": [
+  "zone:thunderbluff",
+  "quest:1489",
+  "npc:magatha-grimtotem",
+  "topic:cenarion-circle",
+  "topic:druid",
+  "subzone:high-rise",
+  "topic:tauren",
+  "topic:grimtotem-tribe"
+ ],
+ "attribution": [
+  "Elder Rise"
+ ]
+}

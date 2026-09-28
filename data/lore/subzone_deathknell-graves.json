@@ -1,0 +1,85 @@
+{
+ "key": "subzone:deathknell-graves",
+ "type": "subzone",
+ "name": "Deathknell Graves",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Deathknell Graves"
+ },
+ "summary": "The Deathknell Graves comprise the sprawling burial grounds situated around the Shadow Grave in Deathknell. Once a resting place for the deceased inhabitants of northern Lordaeron, this earth now serves as the grim threshold where newly awakened Forsaken pull themselves from the soil.",
+ "sections": [
+  {
+   "title": "A Restless Threshold",
+   "body": "Spreading out around the stone crypt known as the Shadow Grave, the Deathknell Graves hold the remains of countless Lordaeron citizens who perished during the Third War. As the grasp of the Scourge slips and the Dark Lady's call echoes across Tirisfal Glades, these burial plots have become a scene of grim rebirth rather than eternal rest. Newly self-aware undead claw their way through the damp earth, leaving behind empty pits, broken soil, and weather-worn grave markers as they emerge into free will.",
+   "spoiler": 0
+  },
+  {
+   "title": "Confusion and Madness",
+   "body": "Not every soul that awakens beneath this sod handles the shock of resurrection with sanity intact. While many newly liberated Forsaken report directly to the caretakers and overseers in Deathknell, others are overcome by fury or despair, degenerating into mindless zombies that wander among the tombstones. Caretakers like Undertaker Mordo keep a watchful eye on the freshly turned plots, dispatching the deranged and guiding the coherent into service to the Dark Lady.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is buried in the Deathknell Graves?",
+   "aliases": [
+    "who is buried here",
+    "who are these graves for",
+    "deathknell graves history"
+   ],
+   "answer": "These graves primarily hold the fallen citizens of Lordaeron who succumbed to the plague of undeath during the Third War. Originally interred as regular corpses, many have lingered in the earth until breaking free from the Lich King's control."
+  },
+  {
+   "q": "Why are undead rising from these graves?",
+   "aliases": [
+    "why are zombies rising",
+    "how do forsaken awaken",
+    "why wake up here"
+   ],
+   "answer": "With the Lich King's mental grip fractured across the region, dormant corpses are awakening with their own free will. Those possessing enough mental clarity pull themselves out of the earth and join the ranks of the Forsaken under Lady Sylvanas Windrunner."
+  },
+  {
+   "q": "Why do some corpses turn into mindless zombies?",
+   "aliases": [
+    "mindless zombies deathknell",
+    "why are some feral",
+    "insane undead"
+   ],
+   "answer": "The shock of resurrection and the lingering trauma of the plague prove too much for many souls. Lacking the mental resilience to claim their free will, they regress into mindless, violent husks that must be destroyed for the safety of the settlement."
+  },
+  {
+   "q": "Who watches over the graveyard?",
+   "aliases": [
+    "who oversees the graves",
+    "deathknell undertaker"
+   ],
+   "answer": "Caretakers and undertakers, such as Undertaker Mordo, monitor the graves just outside the crypt. They provide initial guidance to coherent arrivals while ordering the extermination of those who succumb to mindless madness."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Every Forsaken adventurer remembers the damp earth of these graves, the first place where the fog of the Scourge cleared and true consciousness returned."
+  }
+ ],
+ "keywords": [
+  "cemetery",
+  "deathknell",
+  "deathknell graves",
+  "forsaken starting area",
+  "graveyard",
+  "mordo",
+  "shadow grave",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:shadow-grave",
+  "subzone:deathknell",
+  "topic:forsaken",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Deathknell Graves"
+ ]
+}

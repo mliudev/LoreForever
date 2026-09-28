@@ -1,0 +1,93 @@
+{
+ "key": "subzone:hearthglen",
+ "type": "subzone",
+ "name": "Hearthglen",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Hearthglen"
+ },
+ "summary": "Tucked away in the northern hills of the Western Plaguelands, Hearthglen is a fortified settlement that remarkably escaped complete physical destruction during the fall of Lordaeron. Today, its sturdy stone walls, towers, and surrounding farmlands serve as the primary northern stronghold and training ground for the fanatical Scarlet Crusade.",
+ "sections": [
+  {
+   "title": "A Bastion in the Blight",
+   "body": "While neighboring Andorhal lies shattered in skeletal ruin, Hearthglen still resembles a living town of Lordaeron, complete with a lumber mill, scout towers, stables, and a functioning mine. Historically governed from Mardenholde Keep by Highlord Tirion Fordring, Hearthglen was renowned for its prosperity and staunch defense during the Second War. When the Plague of Undeath swept Lordaeron during the Third War, Prince Arthas Menethil intercepted tainted grain here, purging the infected townsfolk and repelling a massive Scourge siege alongside Uther the Lightbringer. Through that desperate intervention, Hearthglen's formidable walls survived intact.",
+   "spoiler": 0
+  },
+  {
+   "title": "Under the Scarlet Banner",
+   "body": "After the Silver Hand fell into disarray following the kingdom's collapse, Tirion's son, Taelan Fordring, opened Hearthglen as a sanctuary for surviving paladins. However, the grief and zealotry that birthed the Scarlet Crusade soon consumed the fortress. Now, Hearthglen is a fortress of religious extremism. Scarlet crusaders patrol its approaches and man its ramparts, violently executing any outsider, living or undead, who trespasses on their land. Highlord Taelan Fordring rules from Mardenholde Keep, a devout servant to the Crusade's uncompromising war against the Plaguelands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Hearthglen look so clean compared to the rest of the Plaguelands?",
+   "aliases": [
+    "why is hearthglen intact",
+    "hearthglen not destroyed",
+    "hearthglen alive"
+   ],
+   "answer": "Hearthglen was spared utter ruin during the Third War thanks to Prince Arthas and Uther the Lightbringer, who arrived just in time to slay early plague victims and break a massive Scourge siege. Afterward, the Scarlet Crusade heavily fortified the pass and valley, continually purging any encroaching Scourge before the rot could take over the town."
+  },
+  {
+   "q": "Who controls Hearthglen right now?",
+   "aliases": [
+    "who rules hearthglen",
+    "hearthglen leader",
+    "who is in charge of hearthglen"
+   ],
+   "answer": "The Scarlet Crusade controls Hearthglen. It is commanded from Mardenholde Keep by Highlord Taelan Fordring, son of the former lord and famed paladin Tirion Fordring."
+  },
+  {
+   "q": "Is Hearthglen friendly to Alliance or Horde visitors?",
+   "aliases": [
+    "can i go to hearthglen",
+    "is hearthglen hostile",
+    "hearthglen safe"
+   ],
+   "answer": "No. The Scarlet Crusade views all outsiders with extreme hostility and paranoia. Horde members are treated as monstrous abominations, and unaligned Alliance travelers are condemned as plague-carriers or heretics, marked for immediate execution on sight."
+  },
+  {
+   "q": "What happened to Tirion Fordring?",
+   "aliases": [
+    "where is tirion",
+    "tirion hearthglen history",
+    "why isn't tirion here"
+   ],
+   "answer": "Years before the Third War, Tirion was stripped of his title and excommunicated by the Alliance for defending an honorable orc named Eitrigg. Exiled to the wilds, Tirion was forced to leave Hearthglen behind, and command of Mardenholde eventually passed to his son, Taelan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Hearthglen was once home to Tirion Fordring and served as a rallying haven for the remnants of the Silver Hand after Lordaeron fell. Walking its approaches reveals how tragic the order's splintering into the fanatical Scarlet Crusade truly became."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, Hearthglen is a lethal thorn in the north. The crusaders stationed here harbor absolute, burning hatred for the undead and actively patrol to eradicate any scouts venturing north from Andorhal."
+  }
+ ],
+ "keywords": [
+  "andorhal",
+  "hearthglen",
+  "mardenholde",
+  "scarlet crusade",
+  "taelan fordring",
+  "tirion fordring",
+  "western plaguelands"
+ ],
+ "related": [
+  "subzone:mardenholde-keep",
+  "zone:westernplaguelands",
+  "npc:tirion-fordring",
+  "topic:scarlet-crusade",
+  "subzone:andorhal",
+  "topic:arthas-menethil",
+  "topic:plague-of-undeath",
+  "npc:eitrigg"
+ ],
+ "attribution": [
+  "Hearthglen"
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "key": "zone:riverglades",
+ "type": "zone",
+ "name": "Riverglades",
+ "era": "classic",
+ "zone": "riverglades",
+ "meta": {
+  "wiki": [
+   "Riverglades"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "The Riverglades is a contested river valley east of the Burning Steppes and Badlands, historically claimed by the Kingdom of Stormwind. Overrun by the Old Horde during the First War and largely abandoned by the crown, the region remains a battleground as local human loyalists clash with modern Horde outposts and local wildlife. It borders Redridge Mountains to the southwest, Swamp of Sorrows to the south, and faces Tanaris across the sea.",
+ "sections": [
+  {
+   "title": "A Forgotten Borderland",
+   "body": "Historically part of the Kingdom of Stormwind, the Riverglades fell into ruin during the First War when the Old Horde swept through the region. Its central settlement, Sunnyglade, was sacked by the orcs, who spared its mage tower solely to study human sorcery before enslaving the surviving townsfolk. Though Stormwind soldiers mounted an effort to liberate the captives and rebuild, the kingdom eventually deemed the entire valley lost and diverted resources toward defending the core homelands. For years, the region remained largely cut off from formal crown support.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Struggle for Farholde",
+   "body": "Despite being left behind by Stormwind's higher leadership, the human defenders never fully surrendered their homeland. Under Knight Commander Demar Brant of the legendary Brotherhood of the Horse, the remaining loyalists hold Farholde Keep as a bastion against the wilderness and hostile invaders. Meanwhile, the modern Horde maintains their own strong presence nearby at outposts like Rog'mar and the fortress of Krol'dok Stronghold, ensuring that the ancient conflict over the glades continues to smolder.",
+   "spoiler": 0
+  },
+  {
+   "title": "Geography and Travel",
+   "body": "Stretching along the coast of the Forbidding Sea, the Riverglades is flanked by mountainous terrain and winding waterways. Travelers on foot can cross west through Blackrock Pass to the Burning Steppes, wind southwest through Redridge Pass toward the Redridge Mountains, navigate south into the Swamp of Sorrows, or trek northwest past Twilight's Shroud into the Badlands. On the coast, Powderfuse Port provides sea passage connecting directly across the ocean to Steamwheedle Port in Tanaris.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Riverglades?",
+   "aliases": [
+    "riverglades overview",
+    "what is this zone",
+    "about riverglades"
+   ],
+   "answer": "The Riverglades is a contested region lying east of the Badlands and Burning Steppes, fronting the Forbidding Sea. Once a flourishing territory of Stormwind, it is now an active frontier contested by the Alliance at Farholde Keep and the Horde at Rog'mar."
+  },
+  {
+   "q": "What happened to Sunnyglade?",
+   "aliases": [
+    "sunnyglade history",
+    "fall of sunnyglade",
+    "what happened to the town"
+   ],
+   "answer": "Sunnyglade was raided and destroyed by the Old Horde during the First War. The orcs captured the surviving villagers as slaves and kept a local mage tower intact to decipher human magic. Although Stormwind soldiers freed the captives and tried to rebuild, the kingdom ultimately abandoned the area to focus on its western borders."
+  },
+  {
+   "q": "Who controls Farholde Keep?",
+   "aliases": [
+    "who leads farholde",
+    "alliance in riverglades",
+    "brotherhood of the horse"
+   ],
+   "answer": "Farholde Keep is held by Alliance loyalists led by Knight Commander Demar Brant of the Brotherhood of the Horse. His forces have spent years fighting to reclaim the Riverglades after Stormwind originally wrote the territory off as lost."
+  },
+  {
+   "q": "How do you reach Tanaris from the Riverglades?",
+   "aliases": [
+    "boat to tanaris",
+    "powderfuse port boat",
+    "how to get to tanaris"
+   ],
+   "answer": "A coastal boat runs regularly between Powderfuse Port on the eastern shore of the Riverglades and Steamwheedle Port in Tanaris, offering a direct naval link across the sea."
+  },
+  {
+   "q": "What passes lead into other zones?",
+   "aliases": [
+    "how to get to redridge",
+    "passes from riverglades",
+    "exits from riverglades"
+   ],
+   "answer": "You can travel southwest through Redridge Pass to reach the Redridge Mountains, or cross south directly toward the Swamp of Sorrows. To the west, Blackrock Pass leads past the Bristle Hills to the Burning Steppes, while the trails north of Twilight's Shroud run directly into the Badlands."
+  },
+  {
+   "q": "What is Krol'dok Stronghold?",
+   "aliases": [
+    "kroldok stronghold",
+    "riverglades dungeon",
+    "what dungeon is here"
+   ],
+   "answer": "Krol'dok Stronghold is a fortified dungeon complex in the Riverglades, representing a major seat of hostile power in the contested territory."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance soldiers find old wounds laid bare in the Riverglades, where remnants of the Brotherhood of the Horse continue an unsung crusade to take back land Stormwind abandoned during the First War."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde, establishing outposts like Rog'mar ensures a secure coastal foothold and keeps pressure on old human strongholds lingering east of Redridge."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human travelers witness a tragic chapter of their own heritage in Sunnyglade, a reminder of the First War's heavy toll on the eastern frontier of their kingdom."
+  }
+ ],
+ "keywords": [
+  "blackrock pass",
+  "brotherhood of the horse",
+  "demar brant",
+  "farholde keep",
+  "krol'dok stronghold",
+  "powderfuse port",
+  "redridge pass",
+  "riverglades",
+  "rog'mar",
+  "sunnyglade"
+ ],
+ "related": [
+  "subzone:sunnyglade",
+  "subzone:redridge-pass",
+  "subzone:blackrock-pass",
+  "zone:redridge",
+  "zone:badlands",
+  "zone:swampofsorrows",
+  "zone:burningsteppes",
+  "subzone:steamwheedle-port"
+ ],
+ "attribution": [
+  "Riverglades"
+ ]
+}

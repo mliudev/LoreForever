@@ -1,0 +1,115 @@
+{
+ "key": "npc:sneed",
+ "type": "npc",
+ "name": "Sneed",
+ "era": "classic",
+ "zone": "deadmines",
+ "meta": {
+  "wiki": "Sneed",
+  "refs": 5
+ },
+ "summary": "Sneed is the Defias Brotherhood's goblin lumbermaster stationed deep within the Deadmines. Operating from the lumber chamber known as the Mast Room, he pilots a heavy shredder of his own design to process timber for Edwin VanCleef's secret juggernaut.",
+ "sections": [
+  {
+   "title": "The Defias Lumbermaster",
+   "body": "While the Defias Brotherhood draws its core membership from disenfranchised human stonemasons and common laborers, building an ironclad warship requires specialist trades. Edwin VanCleef recruited Sneed specifically for his engineering know-how and ruthless goblin efficiency. Stationed in the Mast Room along the subterranean rail network, Sneed oversees the rapid felling, cutting, and shaping of timber needed to frame VanCleef's colossal dreadnaught.",
+   "spoiler": 0
+  },
+  {
+   "title": "Industrial Brutality",
+   "body": "Sneed's primary concern is cutting costs and meeting deadlined quotas, consequences be damned. To speed up the process, he commands the floor from inside a customized shredder equipped with oversized buzz saws. The deadly machine turns raw trunks into shipbuilding timber in seconds. If cornered by intruders, Sneed relies on the armor of his machine to grind them down, but he is more than willing to scramble out of the wreckage and fight with his bare hands if his contraption fails.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sneed?",
+   "aliases": [
+    "who is sneed",
+    "sneed lore",
+    "what is sneed"
+   ],
+   "answer": "Sneed is a goblin engineer and lumbermaster employed by Edwin VanCleef. He is tasked with overseeing the processing of lumber inside the Deadmines to build the Defias juggernaut."
+  },
+  {
+   "q": "Where can Sneed be found?",
+   "aliases": [
+    "sneed location",
+    "where is sneed",
+    "sneed room"
+   ],
+   "answer": "Sneed is located in the Mast Room, an industrial lumber mill chamber situated along the mining tracks inside the Deadmines beneath Moonbrook."
+  },
+  {
+   "q": "Why is a goblin working for the Defias Brotherhood?",
+   "aliases": [
+    "why is sneed with defias",
+    "goblin in deadmines",
+    "why defias hire goblins"
+   ],
+   "answer": "Edwin VanCleef needed specialized industrial knowledge and fast results to construct his secret warship. He hired mercenary goblins like Sneed who care little about politics or ethics as long as the coin is good."
+  },
+  {
+   "q": "What is Sneed piloting in battle?",
+   "aliases": [
+    "sneed robot",
+    "sneed mech",
+    "sneed's shredder"
+   ],
+   "answer": "Sneed pilots Sneed's Shredder, a heavy, saw-wielding bipedal mechanical harvester that he built himself to harvest and slice timber at terrifying speeds."
+  },
+  {
+   "q": "What happens when his shredder is destroyed?",
+   "aliases": [
+    "sneed phase 2",
+    "sneed out of shredder",
+    "does sneed die with shredder"
+   ],
+   "answer": "Destroying the shredder does not finish the fight. Sneed ejects from the smoking remains of the machine and continues fighting intruders directly on foot."
+  },
+  {
+   "q": "What is Sneed building timber for?",
+   "aliases": [
+    "why sneed cutting wood",
+    "mast room purpose",
+    "deadmines wood"
+   ],
+   "answer": "The timber cut in Sneed's chamber is transported downstream to the Ironclad Cove, where the Brotherhood is assembling a massive warship intended to strike back against Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Sneed's customized shredder showcases classic goblin craftsmanship: devastatingly efficient, heavily armed, and pushed far past standard safety tolerances to maximize production speed."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomish visitors to the Mast Room will find Sneed's machine a typical example of goblin ingenuity\u2014loud, hazardous, and built without regard for operator comfort or structural longevity."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Taking down Sneed cripples the supply of timber heading toward the Ironclad Cove, striking a critical blow against the Defias Brotherhood's shipbuilding efforts."
+  }
+ ],
+ "keywords": [
+  "deadmines",
+  "edwin vancleef",
+  "goblin",
+  "juggernaut",
+  "lumbermaster",
+  "mast room",
+  "shredder",
+  "sneed",
+  "sneed's shredder"
+ ],
+ "related": [
+  "npc:sneed-s-shredder",
+  "subzone:mast-room",
+  "zone:deadmines",
+  "npc:edwin-vancleef",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Sneed"
+ ]
+}

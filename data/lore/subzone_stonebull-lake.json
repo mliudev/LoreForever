@@ -1,0 +1,68 @@
+{
+ "key": "subzone:stonebull-lake",
+ "type": "subzone",
+ "name": "Stonebull Lake",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Stonebull Lake"
+ },
+ "summary": "Stonebull Lake is a serene, horseshoe-shaped body of water wrapping around Bloodhoof Village in central Mulgore. Fed by the pristine natural runoff of the plains, it provides vital fresh water, abundant fish, and peaceful shores for the young tauren coming of age under Cairne Bloodhoof's guidance.",
+ "sections": [
+  {
+   "title": "Waters of the Plain",
+   "body": "Curving around Bloodhoof Village on three sides, Stonebull Lake defines the geography of central Mulgore. A wooden bridge crosses the lake's narrowest stretch, carrying the main dirt road between the settlement and the great mesa of Thunder Bluff to the north. Its calm waters are filled with native fish, making its banks a favored spot for resting hunters, weary travelers, and apprentice fishers learning their trade under the sweeping open sky.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Stonebull Lake located?",
+   "aliases": [
+    "stonebull lake location",
+    "where is stonebull lake",
+    "mulgore lake"
+   ],
+   "answer": "Stonebull Lake is located in central Mulgore. It forms a horseshoe around Bloodhoof Village, flanking the settlement on three sides."
+  },
+  {
+   "q": "What is the bridge across the lake used for?",
+   "aliases": [
+    "stonebull bridge",
+    "bridge near bloodhoof",
+    "road over stonebull lake"
+   ],
+   "answer": "The bridge crosses the narrowest part of Stonebull Lake to carry the main road connecting Bloodhoof Village directly to Thunder Bluff in the north."
+  },
+  {
+   "q": "Why is Stonebull Lake important to the tauren?",
+   "aliases": [
+    "why does stonebull lake matter",
+    "purpose of stonebull lake"
+   ],
+   "answer": "The lake is an essential freshwater source and a vital fishing spot for the inhabitants of Bloodhoof Village. It also offers a quiet place of contemplation and gathering for young tauren braves training in central Mulgore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren establishing their homes across Mulgore, Stonebull Lake provides gentle sustenance and a reminder of the Earth Mother's bounty near their capital."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "fishing",
+  "lake",
+  "mulgore",
+  "stonebull lake",
+  "thunder bluff"
+ ],
+ "related": [
+  "subzone:bloodhoof-village",
+  "zone:mulgore",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Stonebull Lake"
+ ]
+}

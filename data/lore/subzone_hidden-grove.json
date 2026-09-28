@@ -1,0 +1,65 @@
+{
+ "key": "subzone:hidden-grove",
+ "type": "subzone",
+ "name": "Hidden Grove",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Hidden Grove"
+ },
+ "summary": "Tucked away behind towering cliffs in northeastern Winterspring, the Hidden Grove is a secluded crater basin. Once an untroubled haven for Arctic hares, the basin has fallen under the domain of fiercely territorial wild moonkin.",
+ "sections": [
+  {
+   "title": "A Secluded Sanctuary",
+   "body": "Walled off from the bitter howling winds of Winterspring, the Hidden Grove forms a sunken, snow-dusted forest crater that is nearly impossible to access from the outside cliffs. Travelers who discover its concealed rim must brave a sheer, dangerous drop or navigate a narrow cavern passage tucked into the southeastern ridge. Though the valley was long the undisturbed home of harmless white hares, aggressive wild moonkin have seized the glade, turning an isolated natural paradise into an ambush for unwary wanderers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you get into the Hidden Grove?",
+   "aliases": [
+    "how to enter hidden grove",
+    "hidden grove entrance",
+    "where is the cave"
+   ],
+   "answer": "The safest route into the grove is through a concealed cave nestled into the southeastern face of the surrounding cliff walls. While it is technically possible to scramble and drop down the steep cliff rim from above, doing so carries a high risk of fatal falls."
+  },
+  {
+   "q": "What creatures live in the Hidden Grove?",
+   "aliases": [
+    "what is in hidden grove",
+    "hidden grove mobs",
+    "who lives here"
+   ],
+   "answer": "The crater is heavily overrun by wild, hostile moonkin that vigorously guard the secluded valley. Before the moonkin moved in, the glade was celebrated as a peaceful haven populated almost entirely by harmless white hares."
+  },
+  {
+   "q": "Where in Winterspring is this grove located?",
+   "aliases": [
+    "hidden grove location",
+    "where is hidden grove"
+   ],
+   "answer": "The Hidden Grove lies in the far northeastern reaches of Winterspring, cupped entirely inside an isolated bowl of towering stone cliffs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The moonkin nesting inside the crater are a somber reminder of wild, untamed nature turned fiercely defensive, holding deep spiritual intrigue for practitioners of balance."
+  }
+ ],
+ "keywords": [
+  "crater",
+  "hares",
+  "hidden grove",
+  "moonkin",
+  "winterspring"
+ ],
+ "related": [
+  "zone:winterspring"
+ ],
+ "attribution": [
+  "Hidden Grove"
+ ]
+}

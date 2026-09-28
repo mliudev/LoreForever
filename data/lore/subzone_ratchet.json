@@ -1,0 +1,102 @@
+{
+ "key": "subzone:ratchet",
+ "type": "subzone",
+ "name": "Ratchet",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Ratchet"
+ },
+ "summary": "Ratchet is a bustling neutral port town run by the Steamwheedle Cartel on the eastern coast of the Barrens. Founded by chief engineer Gazlowe after he helped construct Orgrimmar, it serves as the primary maritime trade hub linking central Kalimdor to the Eastern Kingdoms.",
+ "sections": [
+  {
+   "title": "The Crossroads of the Great Sea",
+   "body": "Perched on the arid coastline between Durotar and Dustwallow Marsh, Ratchet offers safe harbor to anyone carrying coin. Founded by the entrepreneurial engineer Gazlowe following the Third War, the port arose from smugglers, exiles, and daring traders looking to exploit Kalimdor's frontier. It operates beneath the banner of the Steamwheedle Cartel, maintaining strict neutrality between the Horde and the Alliance. Ships like The Maiden's Fancy regularly ply the waters across the Great Sea to Booty Bay, transporting goods, mercenaries, and raw materials between continents. Local bruisers keep a watchful eye on the docks, ruthlessly thrashing anyone foolish enough to start a brawl and disrupt commerce.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows Above the Docks",
+   "body": "Despite its outward appearance as a boisterous merchant town of docks, taverns, and workshops, Ratchet harbors darker dealings. Overlooking the harbor from the hills above sits a secluded tower occupied by an open coven of warlocks, including figures like Strahad Farsan and Menara Voidrender. While townsfolk and sailors busy themselves with cargo manifests and goblin engineering, practitioners of the dark arts gather here unmolested to commune with demonic forces, untroubled by the moral restrictions enforced in traditional faction capitals.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules Ratchet?",
+   "aliases": [
+    "ratchet leader",
+    "who is in charge of ratchet",
+    "gazlowe ratchet"
+   ],
+   "answer": "Ratchet is overseen by Chief Engineer Gazlowe, operating on behalf of the neutral Steamwheedle Cartel. Gazlowe established the town shortly after being paid handsomely by Warchief Thrall for directing the construction of Orgrimmar's infrastructure."
+  },
+  {
+   "q": "Can Alliance players visit Ratchet safely?",
+   "aliases": [
+    "is ratchet safe for alliance",
+    "alliance in ratchet",
+    "can alliance go to ratchet"
+   ],
+   "answer": "Yes. Ratchet is a neutral goblin port. As long as you maintain non-hostile standing with the Steamwheedle Cartel and do not attack anyone within city limits, both Alliance and Horde travelers can use the inn, bank, vendors, flight paths, and ferry."
+  },
+  {
+   "q": "Where does the boat in Ratchet go?",
+   "aliases": [
+    "ratchet boat destination",
+    "where does the ratchet ship go",
+    "boat to eastern kingdoms"
+   ],
+   "answer": "The vessel docked at the southern pier, The Maiden's Fancy, sails across the Great Sea to Booty Bay, situated at the southern tip of Stranglethorn Vale. It serves as one of the primary naval links between Kalimdor and the Eastern Kingdoms."
+  },
+  {
+   "q": "Why are there warlocks in the hills above the town?",
+   "aliases": [
+    "ratchet warlocks",
+    "strahad farsan tower",
+    "warlock tower ratchet"
+   ],
+   "answer": "The tower overlooking Ratchet houses a warlock coven led by figures like Strahad Farsan and Menara Voidrender. The Steamwheedle Cartel's indifference to dark magic allows these sorcerers to operate, teach apprentices, and bind demons without interference from religious or civil authorities."
+  },
+  {
+   "q": "What happens if I start a fight in Ratchet?",
+   "aliases": [
+    "ratchet guards",
+    "attacking players in ratchet",
+    "ratchet bruisers"
+   ],
+   "answer": "Ratchet Bruisers will immediately intervene, attacking the instigator with heavy clubs and netting. Disrupting business is strictly forbidden in goblin settlements, and fighting here will quickly damage your reputation with the Steamwheedle Cartel."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The tower perched on the bluffs above Ratchet serves as a major training ground where warlocks of all origins gather under Strahad Farsan and Menara Voidrender to master advanced demonic summoning."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Ratchet offers Alliance adventurers a rare safe landing point in the hostile territory of the central Barrens, complete with boat transport and flight connections."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "booty bay",
+  "gazlowe",
+  "maiden's fancy",
+  "ratchet",
+  "steamwheedle cartel",
+  "strahad farsan"
+ ],
+ "related": [
+  "zone:barrens",
+  "subzone:booty-bay",
+  "topic:steamwheedle-cartel",
+  "npc:strahad-farsan",
+  "npc:menara-voidrender",
+  "zone:orgrimmar",
+  "subzone:theramore-isle",
+  "subzone:crossroads"
+ ],
+ "attribution": [
+  "Ratchet"
+ ]
+}

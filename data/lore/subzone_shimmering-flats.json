@@ -1,0 +1,93 @@
+{
+ "key": "subzone:shimmering-flats",
+ "type": "subzone",
+ "name": "Shimmering Flats",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Shimmering Flats"
+ },
+ "summary": "The Shimmering Flats is an expansive salt flat lying at the southeastern tip of Thousand Needles, bordering the desert of Tanaris. Once the bed of an ancient lake, this sun-baked expanse is now famous for the high-speed mechanical rivalries of the Mirage Raceway and a harsh population of desert beasts.",
+ "sections": [
+  {
+   "title": "A Bed of Salt and Speed",
+   "body": "Stretching out under the blinding southern sun, the Shimmering Flats is a vast dried lakebed devoid of vegetation, dotted with the sun-bleached bones of turtles and even the wooden wreck of an ancient sailing vessel. Its sheer, unbroken level surface makes it the premier testing ground on Kalimdor for experimental vehicles. At the center of the flats lies the Mirage Raceway, where gnome and goblin tinkerers constantly clash to see whose rocket cars, gyrocopters, and engines can achieve the highest speeds\u2014often resulting in fiery crashes and smoking craters across the white crust.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hazards of the Salt",
+   "body": "Beyond the roaring engines of the raceway, the basin is far from peaceful. Hardened basilisks, aggressive scorpids, and circling vultures prey upon anything that slows down on the open expanse. Further south, the ground grows treacherous around the Rustmaul Dig Site. Originally excavated by dwarven prospectors before being contested by the Horde, the quarry was entirely abandoned when picks cracked into subterranean tunnels, unleashing a swarm of vicious silithid into the southern edge of the flats.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is there a ruined ship out in the middle of the desert?",
+   "aliases": [
+    "ship in shimmering flats",
+    "boat in salt flats",
+    "wrecked boat thousand needles"
+   ],
+   "answer": "The Shimmering Flats was once a massive inland lake that dried up long ago. The wrecked vessel resting in the northern stretch of the flats is a remnant of that ancient body of water, left behind when the lake evaporated into the vast salt pan seen today."
+  },
+  {
+   "q": "Why are gnomes and goblins here together?",
+   "aliases": [
+    "raceway lore",
+    "why are they racing",
+    "gnomes and goblins salt flats"
+   ],
+   "answer": "The unbroken, flat salt crust provides the perfect terrain for testing rocket cars and cutting-edge mechanical contraptions. Rather than fighting over territory, local gnomes and goblins established the Mirage Raceway to fuel their technological rivalry, endlessly trying to outdo each other in speed, engineering, and reckless bravado."
+  },
+  {
+   "q": "What happened to the dwarven dig site in the south?",
+   "aliases": [
+    "rustmaul dig site lore",
+    "what happened to rustmaul",
+    "bugs in salt flats"
+   ],
+   "answer": "The Rustmaul Dig Site was initially established by dwarven archaeologists and soon raided by a Horde strike force. However, both groups were forced to flee when the excavations broke into subterranean silithid tunnels, releasing swarms of insectoid horrors that overrun the southern flats."
+  },
+  {
+   "q": "Where does the road through the Shimmering Flats lead?",
+   "aliases": [
+    "where does shimmering flats go",
+    "how to get to tanaris",
+    "exit to tanaris"
+   ],
+   "answer": "Following the tracks southeast across the salt pan leads directly to the mountain pass that opens into the vast desert of Tanaris and the neutral port of Gadgetzan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The salt flats are a pilgrimage site for engineers, littered with scrap, fuel experiments, and high-speed vehicular trial runs fueled by the endless rivalry between goblin and gnomish machinists."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Out on the Mirage Raceway, gnomish pilots and mechanostriders boldly defend gnomish engineering pride against the volatile, explosive designs of the Bilgewater and Steamwheedle cartels."
+  }
+ ],
+ "keywords": [
+  "mirage raceway",
+  "pozzik",
+  "rustmaul",
+  "salt flats",
+  "shimmering flats",
+  "silithid",
+  "tanaris",
+  "thousand needles"
+ ],
+ "related": [
+  "subzone:mirage-raceway",
+  "zone:thousandneedles",
+  "zone:tanaris",
+  "subzone:rustmaul-dig-site",
+  "npc:pozzik",
+  "quest:1179",
+  "quest:788"
+ ],
+ "attribution": [
+  "Shimmering Flats"
+ ]
+}

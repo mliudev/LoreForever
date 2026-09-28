@@ -1,0 +1,99 @@
+{
+ "key": "subzone:heroes-vigil",
+ "type": "subzone",
+ "name": "Heroes' Vigil",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Heroes' Vigil"
+ },
+ "summary": "Heroes' Vigil is a quiet, sacred clearing situated on the central island within Stone Cairn Lake in eastern Elwynn Forest. Centered around a monument known as the Stone of Remembrance, it was dedicated to honor those who fell during the First War. Today, however, the shrine sits largely neglected by Stormwind and is overrun by dangerous renegade wizards.",
+ "sections": [
+  {
+   "title": "A Forgotten Memorial",
+   "body": "Erected after the First War, Heroes' Vigil centers upon the Stone of Remembrance, an inscribed stone circle meant to honor the soldiers and citizens slaughtered during the Old Horde's sacking of Goldshire and the surrounding valleys. Though once revered as a sacred bastion of faith and sacrifice, the vigil has gradually slipped from the attention of Stormwind's current rulers, leaving its hallowed grounds overgrown and unattended by the realm's soldiers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Claimed by Renegades",
+   "body": "Because the kingdom has left the island garrisoned by none, outcasts have seized the memorial. A cabal of rogue wizards now controls Stone Cairn Lake and the monument grounds, practicing wild and undisciplined magic away from the oversight of the Kirin Tor and the Academy of Arcane Sciences. The desecration is made all the more bitter by tragic casualties left near the stones, including the body of Henze Faulk, leaving travelers to wonder if the shrine will ever be restored to peace.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Heroes' Vigil?",
+   "aliases": [
+    "heroes vigil",
+    "what is heroes vigil",
+    "island shrine elwynn"
+   ],
+   "answer": "Heroes' Vigil is a monument located on the island in Stone Cairn Lake in eastern Elwynn Forest. It consists of a stone ring and memorial dedicated to honoring the fallen victims of the First War."
+  },
+  {
+   "q": "What does the Stone of Remembrance commemorate?",
+   "aliases": [
+    "stone of remembrance",
+    "monument meaning",
+    "what is the stone of remembrance"
+   ],
+   "answer": "The Stone of Remembrance was placed in memory of the fallen citizens and defenders who perished when the orcish Horde sacked Goldshire and ravaged eastern Elwynn Forest during the First War."
+  },
+  {
+   "q": "Who controls Heroes' Vigil today?",
+   "aliases": [
+    "who is at heroes vigil",
+    "heroes vigil enemies",
+    "wizards on lake"
+   ],
+   "answer": "The island and the vigil have been occupied by hostile rogue wizards. These rogue spellcasters operate outside the law of the Kingdom of Stormwind and the oversight of established magical institutions."
+  },
+  {
+   "q": "Why has Stormwind neglected the vigil?",
+   "aliases": [
+    "why is it abandoned",
+    "why did stormwind forget it",
+    "forgotten shrine"
+   ],
+   "answer": "With King Varian Wrynn missing and the realm stretched thin handling internal dissent, brigands, and monster incursions, remote shrines like Heroes' Vigil have been left undefended and largely forgotten by the ruling regency."
+  },
+  {
+   "q": "Who is Henze Faulk?",
+   "aliases": [
+    "henze faulk body",
+    "who is the dead guy on the island"
+   ],
+   "answer": "Henze Faulk is a fallen traveler whose lifeless body lies abandoned near the monument, an unfortunate testament to the ruthless hostility of the rogue wizards occupying the island."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, this sacred stone ring is a bitter reminder of the First War's blood price and the kingdom's modern failure to protect its own heritage."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The renegade wizards encamping on these sacred grounds practice dangerous, unregulated arts without the discipline or sanction of the Academy of Arcane Sciences."
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "henze faulk",
+  "heroes vigil",
+  "heroes' vigil",
+  "rogue wizards",
+  "stone cairn lake",
+  "stone of remembrance"
+ ],
+ "related": [
+  "subzone:stone-cairn-lake",
+  "zone:elwynn",
+  "subzone:goldshire",
+  "topic:first-war",
+  "topic:stormwind-kingdom",
+  "topic:defias-brotherhood"
+ ],
+ "attribution": [
+  "Heroes' Vigil"
+ ]
+}

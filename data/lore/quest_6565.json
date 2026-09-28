@@ -1,0 +1,132 @@
+{
+ "key": "quest:6565",
+ "type": "quest",
+ "name": "Allegiance to the Old Gods",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "ids": [
+   6565
+  ],
+  "level": "26",
+  "faction": "Horde",
+  "start": "Je'neu Sancrea",
+  "end": "Je'neu Sancrea",
+  "previous": "Allegiance to the Old Gods",
+  "next": null,
+  "wiki": "Allegiance to the Old Gods (2)",
+  "chain": [
+   "Allegiance to the Old Gods",
+   "Allegiance to the Old Gods (2)"
+  ]
+ },
+ "summary": "Allegiance to the Old Gods is a Horde quest tasking adventurers with eliminating Lorgus Jett within the depths of Blackfathom Deeps. Directed by the Darkspear seer Je'neu Sancrea at Zoram'gar Outpost, the mission aims to disrupt the Twilight's Hammer cultists who seek to awaken ancient forces of destruction. Striking down Lorgus deals a direct blow to the cult's subversive operations beneath Ashenvale's coast.",
+ "sections": [
+  {
+   "title": "The Threat Beneath Zoram'gar",
+   "body": "Perched on the strand of Ashenvale, the Horde outpost at Zoram'gar keeps a nervous watch over Blackfathom Deeps. The submerged temple complex has become a breeding ground for dark sorcery, overrun by naga, corrupted beasts, and the cloaked fanatics of the Twilight's Hammer. Je'neu Sancrea, an earthen ring seer stationed on the coast, recognizes that the cultists do not revere the natural balance or spirits of the land. Instead, they pledge their servitude to the Old Gods\u2014monstrous beings of chaos defeated in ancient eras whose malign touch still lingers in Azeroth's forgotten places.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ending Lorgus Jett",
+   "body": "Je'neu tasks champions of the Horde with penetrating the subterranean ruins to hunt down Lorgus Jett, a crucial leader among the cultist ranks. Lorgus operates deep within the stone passageways spanning the chambers between the giant turtle Ghamoo-ra and the water elemental Baron Aquanis. Je'neu himself is too frail to march into the damp darkness, making the execution of Lorgus vital to severing whatever dark rituals the cultist sought to orchestrate beneath Ashenvale's waves.",
+   "spoiler": 0
+  },
+  {
+   "title": "Staving off Chaos",
+   "body": "With the death of Lorgus Jett, the immediate ritualistic threat to the coast is contained, but Je'neu acknowledges that the Twilight's Hammer is far from eradicated. The cult's quiet infiltration of ancient holy sites signals a broader, creeping menace that seeks nothing less than the absolute return of the Old Gods. For the Horde at Zoram'gar, striking down Lorgus buys valuable time against an enemy that hides in the shadows of the world.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lorgus Jett?",
+   "aliases": [
+    "lorgus jett",
+    "who is lorgus",
+    "lorgus jett lore"
+   ],
+   "answer": "Lorgus Jett is a prominent leader among the Twilight's Hammer cultists established in Blackfathom Deeps. He directs cult rituals intended to usher in the return and reign of the ancient Old Gods."
+  },
+  {
+   "q": "Where can Lorgus Jett be found in Blackfathom Deeps?",
+   "aliases": [
+    "lorgus jett location",
+    "where is lorgus",
+    "find lorgus jett"
+   ],
+   "answer": "Lorgus Jett patrols the flooded corridors of Blackfathom Deeps, specifically in the connecting halls between the chamber of Ghamoo-ra and the altar area of Baron Aquanis."
+  },
+  {
+   "q": "Who is Je'neu Sancrea?",
+   "aliases": [
+    "je'neu sancrea",
+    "who gives allegiance to the old gods",
+    "jeneu"
+   ],
+   "answer": "Je'neu Sancrea is a Darkspear troll seer affiliated with the Earthen Ring, stationed at the Zoram'gar Outpost on the Zoram Strand in Ashenvale to monitor elemental disturbances and the corruption in Blackfathom Deeps."
+  },
+  {
+   "q": "Why does Je'neu care about the Twilight's Hammer?",
+   "aliases": [
+    "why fight twilight hammer",
+    "earthen ring old gods"
+   ],
+   "answer": "As a seer dedicated to understanding nature and elemental balance, Je'neu views the Twilight's Hammer as an existential threat. The cult serves the Old Gods, chaotic ancient entities whose return would undo the harmony of the world."
+  },
+  {
+   "q": "What are the Old Gods?",
+   "aliases": [
+    "old gods lore",
+    "who are old gods",
+    "creatures of chaos"
+   ],
+   "answer": "The Old Gods are primordial beings of chaos and destruction that ruled Azeroth in the deep past before being defeated and buried away. The Twilight's Hammer cult actively worships them, scheming to break their seals and bring back their destructive rule."
+  },
+  {
+   "q": "Why can't Je'neu Sancrea kill Lorgus Jett himself?",
+   "aliases": [
+    "why jeneu doesnt go",
+    "is jeneu weak"
+   ],
+   "answer": "Je'neu admits to being too frail and weak to brave the hazards of Blackfathom Deeps on his own, relying on capable Horde champions to do the fighting while he tracks the spiritual and elemental disturbances from the outpost."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Taking down Lorgus Jett secures the periphery of Zoram'gar Outpost, protecting the Horde's isolated coastal encampment in Ashenvale from insidious cultist plots."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The Twilight's Hammer seeks to unleash elemental fury in service to chaotic Old Gods, making their eradication a priority for those sworn to maintain elemental balance alongside the Earthen Ring."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Assisting Je'neu Sancrea honors the wisdom of a respected Darkspear seer working far from the Echo Isles to protect Azeroth's primal spirits."
+  }
+ ],
+ "keywords": [
+  "allegiance to the old gods",
+  "ashenvale",
+  "blackfathom deeps",
+  "je'neu sancrea",
+  "lorgus jett",
+  "old gods",
+  "twilight's hammer",
+  "zoram'gar"
+ ],
+ "related": [
+  "npc:lorgus-jett",
+  "npc:je-neu-sancrea",
+  "zone:blackfathom",
+  "topic:twilight-s-hammer",
+  "topic:old-god",
+  "npc:ghamoo-ra-classic",
+  "quest:6922",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Allegiance to the Old Gods (2)"
+ ]
+}

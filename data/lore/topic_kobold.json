@@ -1,0 +1,125 @@
+{
+ "key": "topic:kobold",
+ "type": "topic",
+ "name": "Kobold",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Kobold"
+ },
+ "summary": "Kobolds are diminutive, rat-like subterranean humanoids found scuttling through mines and caverns across Azeroth. Notorious for their obsessive devotion to the tallow candles strapped to their heads, they are individually cowardly but dangerous in swarms, fiercely defending their dig sites against any who threaten their light.",
+ "sections": [
+  {
+   "title": "Miners of the Dark",
+   "body": "Standing barely four feet tall, kobolds are filthy, subterranean scavengers who spend their lives delving into the earth. Though they possess low-light vision, the deepest shafts are pitch-black, compelling every kobold to affix a crude candle to their head. While cowardly when cornered alone, kobolds breed in massive numbers and work with relentless energy. When agitated, their rat-like tails whip violently, and they overwhelm intruders in frantic mobs, beating foes to death with heavy iron mining picks.",
+   "spoiler": 0
+  },
+  {
+   "title": "You No Take Candle!",
+   "body": "To a kobold, a candle is far more than a light source; it is an existential shield. They harbor a deep, primal terror of the pitch-black tunnels, believing that the unlit darkness will actively consume them. Their leaders are frequently chosen by the length of the candle they bear, and their craftsmen harvest earwax and rendered fat to keep their wicks lit. Kobold folklore even treats the sun as the ultimate myth: the 'Wickless Candle,' a great eternal flame suspended from a vast blue cavern ceiling.",
+   "spoiler": 0
+  },
+  {
+   "title": "Subterranean Pests of the Kingdoms",
+   "body": "Across the Eastern Kingdoms, kobolds frequently overrun commercial mines. In Elwynn Forest, a clan displaced from the Redridge Mountains seized the Echo Ridge, Fargodeep, and Jasperlode mines, driven in part by Riverpaw gnolls and the Defias Brotherhood. In Loch Modan, the Tunnel Rat clan seized the Silver Stream Mine from the dwarven Miners' League. Even on Kalimdor, kobolds plague industrial digs, laboring for the Venture Company in Stonetalon or uncovering strange minerals in Thousand Needles.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do kobolds care so much about their candles?",
+   "aliases": [
+    "why candles",
+    "kobold candles",
+    "you no take candle meaning"
+   ],
+   "answer": "Kobolds have a paralyzing terror of complete darkness. In their folklore, darkness is an active predator that snuffs out life and swallows miners whole. A candle's flame is their only defense against the shadowy deep, making them obsessively defensive of their wicks."
+  },
+  {
+   "q": "Where do kobolds come from?",
+   "aliases": [
+    "kobold origins",
+    "where do kobolds come from",
+    "kobold evolution"
+   ],
+   "answer": "According to the dwarven explorer Brann Bronzebeard, kobolds originally evolved from troggs. Over generations of subterranean adaptation, they became smaller, rodent-like, and adapted to burrowing through narrow crawlspaces."
+  },
+  {
+   "q": "Are kobolds allied with the Defias Brotherhood?",
+   "aliases": [
+    "kobold defias",
+    "are kobolds working for defias",
+    "fargodeep defias"
+   ],
+   "answer": "Not willingly as equal partners. The kobolds infesting mines in Elwynn Forest and Westfall were largely bullied and enslaved by the Riverpaw gnolls, who were hired by the Defias Brotherhood to disrupt regional mining and secure mineral wealth."
+  },
+  {
+   "q": "How do kobolds choose their leaders?",
+   "aliases": [
+    "kobold leader",
+    "kobold boss",
+    "how do kobolds pick chiefs"
+   ],
+   "answer": "Outside of distant isolated tribes, kobolds generally determine their leadership through candle size. The digger bearing the tallest, longest-burning candle on their head is recognized by the clan as the chief."
+  },
+  {
+   "q": "Are kobolds found in Kalimdor as well as the Eastern Kingdoms?",
+   "aliases": [
+    "kobolds in kalimdor",
+    "stonetalon kobolds",
+    "orgrimmar kobolds"
+   ],
+   "answer": "Yes. Kobolds infested the underground caverns beneath Orgrimmar during the city's founding, work in the Venture Company's Windshear Mine in the Stonetalon Mountains, and burrow throughout Thousand Needles."
+  },
+  {
+   "q": "What do kobolds eat?",
+   "aliases": [
+    "kobold diet",
+    "what do kobolds eat"
+   ],
+   "answer": "Kobolds survive on whatever subterranean vermin they can scavenge. They actively hunt and farm rats, harvest cave grubs, and gather glowing cavern fungi, sometimes pressing mushrooms into crude cakes eaten with syrup."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "Any miner operating in human or dwarven lands will inevitably run into kobold infestations, as the creatures naturally gravitate toward rich veins of copper, tin, and silver."
+  },
+  {
+   "target": "race:Human",
+   "text": "For the Kingdom of Stormwind, kobolds represent a constant economic headache, having overrun vital local operations at Fargodeep, Jasperlode, and Echo Ridge."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The Miners' League regularly employs adventurers to clear Tunnel Rat kobolds out of mountain digs like the Silver Stream Mine in Loch Modan."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "During Orgrimmar's founding, kobold warrens beneath the dry earth caused early construction chaos, and clans like the Gravelsnouts continue to harass frontier outposts in Kalimdor."
+  }
+ ],
+ "keywords": [
+  "candle",
+  "echo ridge",
+  "fargodeep",
+  "jasperlode",
+  "kobold",
+  "silver stream",
+  "trogg",
+  "tunnel rat",
+  "windshear"
+ ],
+ "related": [
+  "quest:60",
+  "subzone:fargodeep-mine",
+  "subzone:jasperlode-mine",
+  "subzone:silver-stream-mine",
+  "topic:defias-brotherhood",
+  "topic:trogg",
+  "npc:brann-bronzebeard",
+  "quest:21"
+ ],
+ "attribution": [
+  "Kobold"
+ ]
+}

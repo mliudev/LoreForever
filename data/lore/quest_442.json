@@ -1,0 +1,123 @@
+{
+ "key": "quest:442",
+ "type": "quest",
+ "name": "Assault on Fenris Isle",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   442
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "High Executor Hadrec",
+  "end": "",
+  "previous": "Report to Hadrec",
+  "next": null,
+  "wiki": "Assault on Fenris Isle",
+  "chain": []
+ },
+ "summary": "Assault on Fenris Isle is the climactic military directive issued by High Executor Hadrec to eradicate the Scourge stronghold in Silverpine Forest. To break the Lich King's grip upon Lake Lordamere, Forsaken agents are sent to storm Fenris Keep and take the head of the necromancer Thule Ravenclaw.",
+ "sections": [
+  {
+   "title": "Purging Lake Lordamere",
+   "body": "For weeks, Fenris Isle has stood as a poisonous blister in the heart of Lake Lordamere. While the Forsaken secured the western roads and established their presence at the Sepulcher, the Scourge entrenched themselves inside Fenris Keep. Commanded by the powerful necromancer Thule Ravenclaw, this island outpost threatened not only Silverpine Forest but the southern waterways leading toward the Undercity itself. High Executor Hadrec recognizes that the Forsaken will never truly hold Silverpine while a servant of the Lich King conducts vile experiments right off their eastern shores.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fall of Thule Ravenclaw",
+   "body": "Storming Fenris Keep requires carving a path through hordes of rot hide gnolls and shambling undead before confronting Thule Ravenclaw in his stronghold. Thule wields foul necromantic curses, empowering his own strikes by leeching his attackers' vitality through dark magic. Upon his defeat, Thule's severed head is severed as undeniable proof of his demise. The necromantic disruption unleashed by his fall is so violent that Bethor Iceshard's apprentice, Apothecary Renferrel, detects the magical shockwaves all the way at the Sepulcher.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does High Executor Hadrec want Thule Ravenclaw dead?",
+   "aliases": [
+    "why kill thule",
+    "hadrec motives",
+    "fenris isle threat"
+   ],
+   "answer": "Thule Ravenclaw is the master necromancer leading the Scourge on Fenris Isle. Leaving such an entrenched Scourge force unchecked threatens the Forsaken stronghold at the Sepulcher and endangers the waterways across Lake Lordamere. Hadrec demands his head to verify that the Scourge's regional command is definitively shattered."
+  },
+  {
+   "q": "Where is Thule Ravenclaw located?",
+   "aliases": [
+    "thule ravenclaw location",
+    "where is thule",
+    "find thule"
+   ],
+   "answer": "Thule Ravenclaw resides deep inside the ruined castle on Fenris Isle, located in the middle of Lake Lordamere east of Silverpine Forest. He holds court in the lower communal hall of the keep, guarded by his undead retainers and twisted minions."
+  },
+  {
+   "q": "What happens when Thule Ravenclaw dies?",
+   "aliases": [
+    "thule death reaction",
+    "what happens after thule dies"
+   ],
+   "answer": "When Thule is destroyed, the sheer volume of dark necromantic energy released echoes across the region. Back at the Sepulcher, Apothecary Renferrel detects the shockwave of unraveling magic, and High Executor Hadrec commends the strike as a massive strategic triumph for the Forsaken."
+  },
+  {
+   "q": "Who controls Fenris Isle before this assault?",
+   "aliases": [
+    "who holds fenris isle",
+    "fenris isle faction",
+    "is fenris isle scourge"
+   ],
+   "answer": "Fenris Isle is under the direct occupation of the Scourge. Thule Ravenclaw uses the island castle as a staging ground, commanding both reanimated undead and blight-twisted rot hide gnolls to terrorize the waters of Lake Lordamere."
+  },
+  {
+   "q": "Why was Bethor's Potion important for this mission?",
+   "aliases": [
+    "hex of the ravenclaw cure",
+    "bethor potion thule",
+    "counter thule hex"
+   ],
+   "answer": "Thule casts Hex of the Ravenclaw, a debilitating curse that diminishes his opponents' strength while magnifying his own power. Bethor Iceshard prepared an alchemical potion during the preceding operations specifically to neutralize this necrotic curse."
+  },
+  {
+   "q": "What is the strategic significance of Fenris Isle to the Forsaken?",
+   "aliases": [
+    "why fenris isle matters",
+    "fenris isle importance"
+   ],
+   "answer": "Fenris Isle sits in Lake Lordamere, bordering both Silverpine and the Hillsbrad foothills. Securing or neutralizing it removes an active enemy outpost capable of launching attacks into Silverpine, clearing a major Scourge presence from the borders of Lordaeron."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, eliminating Thule Ravenclaw is personal retribution. Crushing Scourge outposts proves their rebellion against the Lich King's will is absolute."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde's foothold in the Eastern Kingdoms relies heavily on the Forsaken stabilizing Silverpine and Tirisfal against rival powers and the wandering Scourge."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Bethor Iceshard and Apothecary Renferrel closely monitor the magical fallout of Thule's demise, fascinated by the violent dispersal of his necrotic weaves."
+  }
+ ],
+ "keywords": [
+  "fenris isle",
+  "hadrec",
+  "lake lordamere",
+  "scourge",
+  "sepulcher",
+  "silverpine forest",
+  "thule ravenclaw"
+ ],
+ "related": [
+  "quest:446",
+  "subzone:fenris-isle",
+  "npc:high-executor-hadrec",
+  "subzone:sepulcher",
+  "quest:448",
+  "topic:scourge",
+  "topic:forsaken",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Assault on Fenris Isle"
+ ]
+}

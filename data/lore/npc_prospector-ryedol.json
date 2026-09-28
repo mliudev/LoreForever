@@ -1,0 +1,74 @@
+{
+ "key": "npc:prospector-ryedol",
+ "type": "npc",
+ "name": "Prospector Ryedol",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Prospector Ryedol",
+  "refs": 2
+ },
+ "summary": "Prospector Ryedol is an Explorers' League surveyor stationed on a dusty rise overlooking the eastern Badlands. Watching over the perilous excavations below, he strives to recover lost dwarven relics and maintain hope in a barren wasteland overrun by troggs and beasts.",
+ "sections": [
+  {
+   "title": "Watching Over the Digs",
+   "body": "Perched upon a rugged hill just south of Hammertoe's Digsite, Prospector Ryedol represents the ongoing efforts of Ironforge's Explorers' League in the Badlands. The arid valley is rich in ancient titan secrets and earthen heritage, but field expeditions here are constantly beleaguered by savage troggs, ravenous coyotes, and territorial drakes. Ryedol coordinates retrieval efforts for misplaced dwarven gear and seeks signs of hope amid the ruined outposts, determined not to let the League's sacrifices in the wastes be in vain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Prospector Ryedol?",
+   "aliases": [
+    "ryedol",
+    "who is ryedol",
+    "prospector ryedol location"
+   ],
+   "answer": "Ryedol is a dwarven field researcher for the Explorers' League. He has made his camp on a high hill overlooking Hammertoe's Digsite in the eastern Badlands, where he helps direct salvage and recovery missions."
+  },
+  {
+   "q": "What is Ryedol doing in the Badlands?",
+   "aliases": [
+    "what is ryedol doing",
+    "ryedol's mission",
+    "why is ryedol here"
+   ],
+   "answer": "He is stationed in the Badlands to support the Explorers' League's archaeological ventures. With several nearby digsites compromised or overrun by troggs, he works with travelers to secure recovered relics, track lost tools, and verify the fate of his fellow dwarves."
+  },
+  {
+   "q": "What is Ryedol's Hammer?",
+   "aliases": [
+    "ryedol hammer",
+    "dwarf and his tools"
+   ],
+   "answer": "It is Ryedol's personal survey tool, misplaced or left behind in the dangerous wastes below. Recovering it is an essential matter of dwarven pride and practical field work."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Ryedol represents Ironforge's unyielding drive to uncover the origins of the dwarven race, even when digging in the harshest reaches of Khaz Modan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance adventurers traversing the dangerous wastes of the Badlands, Ryedol provides a friendly face and an urgent set of tasks in support of the Explorers' League."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "digsite",
+  "explorers' league",
+  "hammertoe",
+  "ironforge",
+  "prospector ryedol",
+  "ryedol"
+ ],
+ "related": [
+  "zone:badlands",
+  "topic:explorers-league",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Prospector Ryedol"
+ ]
+}

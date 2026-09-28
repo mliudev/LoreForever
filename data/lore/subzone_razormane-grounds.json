@@ -1,0 +1,83 @@
+{
+ "key": "subzone:razormane-grounds",
+ "type": "subzone",
+ "name": "Razormane Grounds",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Razormane Grounds"
+ },
+ "summary": "The Razormane Grounds form the forward encampment of the Razormane quilboar pushing eastward from the Barrens into central Durotar. Choked with sharp briars and the stripped carcasses of wild game, this bristling outpost serves as the frontline in the quilboars' unending clash with the orcs of Orgrimmar.",
+ "sections": [
+  {
+   "title": "A Thorn in Durotar's Side",
+   "body": "Sprawling beneath the red cliffs of central Durotar, the Razormane Grounds mark the furthest eastern reach of quilboar expansion out of the Barrens. Entangled within thick brambles and surrounded by bleached bones, the encampment poses a constant danger to travelers along the Southfury River. The camp is led by figures such as Captain Flat Tusk of the Battleguard and Geolord Mottle, who orchestrate raids against neighboring orc settlements and passing supply lines. Despite regular patrols dispatched from Razor Hill and nearby outposts, the Razormane replenish their ranks tirelessly, sprouting from the briars faster than the Horde can clear them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Razormane Grounds?",
+   "aliases": [
+    "razormane grounds",
+    "quilboar camp durotar",
+    "where are razormane"
+   ],
+   "answer": "It is a fortified quilboar encampment in central Durotar, acting as a forward base for the Razormane tribe as they expand eastward from the Barrens."
+  },
+  {
+   "q": "Why are the quilboar attacking Durotar?",
+   "aliases": [
+    "why quilboar attack",
+    "why are razormane here",
+    "quilboar invasion"
+   ],
+   "answer": "The Razormane quilboar view all neighboring territories as rightfully theirs, seeking to expand their thorny thickets and hunting lands at the expense of the new Horde settlements."
+  },
+  {
+   "q": "Who leads the quilboar at the Razormane Grounds?",
+   "aliases": [
+    "razormane bosses",
+    "who leads the razormane grounds",
+    "captain flat tusk"
+   ],
+   "answer": "The encampment is commanded by Captain Flat Tusk, leader of the Razormane Battleguard, alongside the earth-shaping geomancer Geolord Mottle."
+  },
+  {
+   "q": "Why are there so many bones around the camp?",
+   "aliases": [
+    "bones in camp",
+    "razormane animal carcasses",
+    "why dead animals"
+   ],
+   "answer": "The Razormane are aggressive scavengers and hunters who strip the local wildlife down to the bone to feed their raiders, leaving the carcasses behind to mark their territory."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "For the orcs of Durotar, the Razormane Grounds are a persistent threat right in the heart of their new homeland, requiring young warriors to prove their mettle by culling the quilboar."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Keeping the Razormane Grounds suppressed is vital to securing travel and supply lines between the Barrens and the Horde capital of Orgrimmar."
+  }
+ ],
+ "keywords": [
+  "captain flat tusk",
+  "durotar",
+  "geolord mottle",
+  "quilboar",
+  "raggaran",
+  "razormane",
+  "razormane grounds"
+ ],
+ "related": [
+  "zone:durotar",
+  "topic:quilboar",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Razormane Grounds"
+ ]
+}

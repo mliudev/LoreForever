@@ -1,0 +1,90 @@
+{
+ "key": "subzone:jaguero-isle",
+ "type": "subzone",
+ "name": "Jaguero Isle",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Jaguero Isle"
+ },
+ "summary": "Jaguero Isle is an isolated, jungle-covered island resting off the eastern coast of Stranglethorn Vale's Wild Shore. Dominated by fierce wild panthers and gorillas, it is infamous as the domain of the colossal silverback gorilla known as King Mukla.",
+ "sections": [
+  {
+   "title": "A Primal Domain",
+   "body": "Situated off the southeastern coast of Stranglethorn Vale, Jaguero Isle stands well apart from the mainland pirate camps and troll ruins. The island is entirely overrun by untamed fauna, mainly panthers and aggressive gorillas. Looming over them all is the gargantuan ape King Mukla, whose rule over the rocky interior is absolute and territorial. Few sailors willingly approach its reefs, though occasionally washed-up bottles along the mainland beaches carry desperate pleas for rescue from those unfortunate enough to be stranded ashore.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Captive Princess",
+   "body": "The island's most peculiar and perilous situation involves Princess Poobah, a shipwrecked tauren held captive by King Mukla. Cast adrift and marooned on the predator-choked island, she managed to send out distress notes sealed in bottles across the tides of the Wild Shore, hoping a passing adventurer might brave Mukla's wrath and help secure her escape.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Jaguero Isle located?",
+   "aliases": [
+    "jaguero isle location",
+    "where is jaguero",
+    "find jaguero isle"
+   ],
+   "answer": "Jaguero Isle is situated in the Great Sea off the southeastern coast of Stranglethorn Vale, just east of the Wild Shore."
+  },
+  {
+   "q": "Who is King Mukla?",
+   "aliases": [
+    "mukla",
+    "king mukla gorilla",
+    "ape boss stranglethorn"
+   ],
+   "answer": "King Mukla is a gigantic, powerful gorilla who reigns over Jaguero Isle. Territorial and aggressive, he commands the island's ape population and holds the stranded tauren Princess Poobah captive."
+  },
+  {
+   "q": "Who is Princess Poobah?",
+   "aliases": [
+    "tauren captive",
+    "who is poobah",
+    "princess poobah"
+   ],
+   "answer": "Princess Poobah is a stranded tauren trapped on Jaguero Isle under the guard of King Mukla. She casts messages in bottles into the sea in hopes of being rescued."
+  },
+  {
+   "q": "How do you start the quest to visit the island?",
+   "aliases": [
+    "message in a bottle quest",
+    "jaguero island quest",
+    "how to get to jaguero"
+   ],
+   "answer": "Adventurers often discover her plight by finding half-buried bottles washed ashore along the mainland beaches of the Wild Shore, containing a carefully folded note requesting aid."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Finding a fellow tauren trapped so far from Kalimdor under the captivity of a feral beast makes securing Princess Poobah's release a matter of personal honor."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The exotic predators of Jaguero Isle, from stalking panthers to the mighty King Mukla himself, present an irresistible tracking challenge for seasoned hunters."
+  }
+ ],
+ "keywords": [
+  "gorilla",
+  "jaguero",
+  "jaguero isle",
+  "king mukla",
+  "panther",
+  "princess poobah",
+  "stranglethorn",
+  "wild shore"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "subzone:wild-shore",
+  "topic:tauren",
+  "subzone:ironband-s-excavation-site"
+ ],
+ "attribution": [
+  "Jaguero Isle"
+ ]
+}

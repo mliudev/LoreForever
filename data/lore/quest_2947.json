@@ -1,0 +1,119 @@
+{
+ "key": "quest:2947",
+ "type": "quest",
+ "name": "Return of the Ring",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "ids": [
+   2947
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Sparklematic 5200",
+  "end": "Talvash del Kissel",
+  "previous": "Grime-Encrusted Ring (quest)",
+  "next": "Gnome Improvement",
+  "wiki": "Return of the Ring (Alliance)",
+  "chain": [
+   "Grime-Encrusted Ring (quest)",
+   "Return of the Ring (Alliance)",
+   "Gnome Improvement"
+  ]
+ },
+ "summary": "After scouring away layers of subterranean sludge in Gnomeregan's automated cleaning apparatus, an adventurer uncovers a pristine golden ring bearing the seal of Ironforge and the initials 'TdK'. Tracing those markings leads up to the bustling artisan alleys of the dwarven capital to locate its eccentric creator.",
+ "sections": [
+  {
+   "title": "A Sludge-Coated Treasure",
+   "body": "Deep within the irradiated ruins of Gnomeregan, ancient machinery still whirs in defiance of the trogg invasion. Feeding a grimy, caked bauble into the Sparklematic 5200 strips away years of irradiated toxic grime, revealing a polished Brilliant Gold Ring thrumming with arcane potency. Stamped along its inner band is the distinct hallmark seal of Ironforge, alongside three neatly engraved initials: 'TdK'.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Artisan of the Mystic Ward",
+   "body": "Those initials belong to none other than Talvash del Kissel, an eccentric gnome jeweler who operates out of Ironforge's Mystic Ward\u2014often while frantically fending off imaginary debt collectors. Talvash quickly recognizes the craftsmanship as one of his standard, pre-fall designs from his old shop in Gnomeregan. Learning that the trinket was found in the clutches of Dark Iron infiltrators deeply rattles the craftsman, hinting at shadowy intrigues swirling beneath the lost tech-city.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who made the ring found in Gnomeregan?",
+   "aliases": [
+    "who made the ring",
+    "ring initials tdk",
+    "who is tdk"
+   ],
+   "answer": "The initials 'TdK' belong to Talvash del Kissel, a quirky gnome jeweler currently residing in the Mystic Ward of Ironforge. Before the fall of Gnomeregan, Talvash ran a jewelry shop inside the city and forged several simple magical rings of that design."
+  },
+  {
+   "q": "Where did the ring originally come from?",
+   "aliases": [
+    "where was ring found",
+    "where does ring come from"
+   ],
+   "answer": "The ring was discovered as a grime-encrusted bauble deep within Gnomeregan, carried by hostile invaders like the Dark Iron dwarves. After running it through the automated Sparklematic 5200, its golden sheen and maker's marks were restored."
+  },
+  {
+   "q": "Why were Dark Iron dwarves carrying Talvash's ring?",
+   "aliases": [
+    "why do dark irons have it",
+    "dark iron ring lore"
+   ],
+   "answer": "Talvash isn't entirely sure, but he notes that finding his pre-fall handiwork on Dark Iron infiltrators adds another suspicious layer to the conspiracies surrounding Gnomeregan's downfall. It likely came from his abandoned workshop or was looted from someone who failed to escape the invasion."
+  },
+  {
+   "q": "Why does Talvash del Kissel think you are his landlord?",
+   "aliases": [
+    "why is talvash paranoid",
+    "talvash rent"
+   ],
+   "answer": "Talvash is notoriously high-strung, eccentric, and chronically behind on his rent in Ironforge. Whenever strangers approach his shop aggressively, he assumes they are bailiffs or landlords coming to collect his overdue debts."
+  },
+  {
+   "q": "Does Talvash make cursed jewelry?",
+   "aliases": [
+    "is talvash cursed",
+    "cursed jewelry ironforge"
+   ],
+   "answer": "Talvash adamantly proclaims to all prospective customers that he does not make cursed items, though his nervous, preemptive denials tend to raise more questions than they answer."
+  },
+  {
+   "q": "Can I just keep the ring instead of returning it?",
+   "aliases": [
+    "keep the ring",
+    "should i return the ring"
+   ],
+   "answer": "While the bauble possesses magical properties on its own, showing it to its creator allows Talvash to inspect the piece and offer to refine its enchantment further through subsequent work."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Recovering lost handiwork from the fallen city offers a rare glimpse into the peaceful everyday craft gnomes enjoyed before Thermaplugg's disaster."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The discovery of Ironforge-marked artifacts in the hands of Dark Iron infiltrators reinforces the growing threat Emperor Thaurissan's agents pose to the Alliance's mountain home."
+  }
+ ],
+ "keywords": [
+  "brilliant gold ring",
+  "dark iron",
+  "ironforge seal",
+  "mystic ward",
+  "sparklematic",
+  "talvash del kissel",
+  "tdk"
+ ],
+ "related": [
+  "npc:talvash-del-kissel",
+  "quest:2945",
+  "quest:2948",
+  "zone:gnomeregan",
+  "zone:ironforge",
+  "topic:gnome",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Return of the Ring (Alliance)"
+ ]
+}

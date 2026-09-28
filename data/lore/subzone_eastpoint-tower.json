@@ -1,0 +1,91 @@
+{
+ "key": "subzone:eastpoint-tower",
+ "type": "subzone",
+ "name": "Eastpoint Tower",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Eastpoint Tower"
+ },
+ "summary": "Eastpoint Tower is an elevated scout outpost situated southwest of Durnholde Keep in the Hillsbrad Foothills. Formerly claimed by the Syndicate, the tower has since been seized by the Forsaken to watch the eastern roads and wilderness.",
+ "sections": [
+  {
+   "title": "A Watchpost on the Eastern March",
+   "body": "Perched on the rolling highlands southwest of ruined Durnholde Keep, Eastpoint Tower previously served as a vantage point for the renegade human nobility of the Syndicate. Recognizing its strategic overview of the eastern approaches, the Forsaken swept in and took command of the stone watchtower. Today, it stands as an outpost under the banner of the Horde, providing a vital foothold amid a countryside contested by human partisans, wild beasts, and shadowy outlaws.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Peculiar Garrison",
+   "body": "While primarily garrisoned by Forsaken sentries, Eastpoint Tower hosts an unconventional mix of Horde travelers. Inside, two orcs named Drull and Tog'thar rest upon recliners, occasionally fielding the eccentric ramblings of Nils Beerot. This resident Forsaken 'psylosopher' exhibits acute paranoia, perpetually convinced that the feral owlbeasts roaming the surrounding foothills are organizing a coordinated assault against the tower.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Eastpoint Tower?",
+   "aliases": [
+    "who owns eastpoint tower",
+    "who holds eastpoint tower",
+    "eastpoint tower faction"
+   ],
+   "answer": "The tower is held by the Forsaken and acts as an outpost for the Horde. Before the Forsaken seized the vantage point, human rogues belonging to the Syndicate held the grounds."
+  },
+  {
+   "q": "Where is Eastpoint Tower located?",
+   "aliases": [
+    "eastpoint tower location",
+    "where is eastpoint tower",
+    "how to find eastpoint tower"
+   ],
+   "answer": "Eastpoint Tower sits on the elevated hills in eastern Hillsbrad Foothills, situated just southwest of the ruins of Durnholde Keep."
+  },
+  {
+   "q": "Why is Nils Beerot acting paranoid?",
+   "aliases": [
+    "who is nils beerot",
+    "owlbeast conspiracy",
+    "nils beerot quest"
+   ],
+   "answer": "Nils Beerot, a Forsaken 'psylosopher' staying inside the tower, is deeply convinced that the rampaging owlbeasts inhabiting the surrounding woodlands are intelligent and plotting a direct attack on the watchpost."
+  },
+  {
+   "q": "Why did the Horde take this tower?",
+   "aliases": [
+    "why do forsaken want eastpoint tower",
+    "eastpoint tower purpose"
+   ],
+   "answer": "Its elevated vantage point allows the Horde to monitor the eastern foothills, watching troop movements around Durnholde Keep and keeping tabs on Syndicate operatives and dangerous wildlife in the nearby wilderness."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The tower represents an eastern forward watch in Hillsbrad Foothills, extending Horde oversight near the ruins of Durnholde Keep."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken sentries maintain the post, carving out territory from former Syndicate positions to protect travelers along the foothills."
+  }
+ ],
+ "keywords": [
+  "drull",
+  "durnholde",
+  "eastpoint tower",
+  "forsaken",
+  "hillsbrad",
+  "nils beerot",
+  "owlbeasts",
+  "syndicate",
+  "tog'thar"
+ ],
+ "related": [
+  "zone:hillsbrad",
+  "subzone:durnholde-keep",
+  "topic:forsaken",
+  "topic:syndicate",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Eastpoint Tower"
+ ]
+}

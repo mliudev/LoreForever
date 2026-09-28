@@ -1,0 +1,115 @@
+{
+ "key": "npc:wizbang-cranktoggle",
+ "type": "npc",
+ "name": "Wizbang Cranktoggle",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Wizbang Cranktoggle",
+  "refs": 3
+ },
+ "summary": "Wizbang Cranktoggle is an eccentric gnome engineer residing on the upper floor of the Auberdine inn. Despite being far from the cog-filled halls of Gnomeregan or Ironforge, he has turned his mechanical ingenuity toward setting up and maintaining automated communication devices known as buzzboxes across the wild coast of Darkshore.",
+ "sections": [
+  {
+   "title": "An Engineer in Auberdine",
+   "body": "While the night elves of Auberdine prefer living in harmony with nature and leaning upon ancient customs, Wizbang Cranktoggle represents the curious, tinkering presence of the Alliance. Perched on the top floor of Auberdine's inn, surrounded by tools and spare components, Wizbang pays little mind to the solemn druidic traditions of Kalimdor, focusing instead on pragmatic mechanical challenges.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Buzzbox Network",
+   "body": "Wizbang's primary project along Darkshore is deploying and maintaining his peculiar invention: the buzzbox. Designed to establish automated reporting and long-distance communication across the rugged, sprawling coastline, these contraptions often suffer from coastal weathering and the hostility of local wildlife. Wizbang frequently recruits travelers to gather components, salvage tools like gaffer jacks, and recover electropellers to keep his mechanical surveillance functioning.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Wizbang Cranktoggle?",
+   "aliases": [
+    "wizbang location",
+    "where is wizbang",
+    "auberdine gnome location"
+   ],
+   "answer": "Wizbang is located on the upper floor of the inn in the seaside night elf settlement of Auberdine, in Darkshore."
+  },
+  {
+   "q": "What is Wizbang Cranktoggle doing in Darkshore?",
+   "aliases": [
+    "why is wizbang in auberdine",
+    "wizbang purpose",
+    "what does wizbang do"
+   ],
+   "answer": "He is an Alliance engineer working on establishing and maintaining a network of automated communication machines called buzzboxes throughout the Darkshore wilderness."
+  },
+  {
+   "q": "What are buzzboxes?",
+   "aliases": [
+    "what is a buzzbox",
+    "buzzbox lore",
+    "buzzbox purpose"
+   ],
+   "answer": "Buzzboxes are mechanical communication and monitoring devices invented by Wizbang Cranktoggle to relay information across Darkshore, though they frequently break down due to wildlife attacks and harsh weather."
+  },
+  {
+   "q": "Is Wizbang related to any other gnomes?",
+   "aliases": [
+    "cranktoggle family",
+    "who is delber cranktoggle",
+    "wizbang relatives"
+   ],
+   "answer": "He shares a surname with Delber Cranktoggle, suggesting they may belong to the same family of tinkerers."
+  },
+  {
+   "q": "Why do the night elves tolerate his tinkering in Auberdine?",
+   "aliases": [
+    "night elves and gnomes",
+    "why allow engineering in auberdine"
+   ],
+   "answer": "As fellow members of the Grand Alliance, the night elves provide lodging and refuge to allied races in Auberdine, even if gnomish contraptions contrast sharply with traditional elven harmony."
+  },
+  {
+   "q": "What tasks does Wizbang give to adventurers?",
+   "aliases": [
+    "wizbang quests",
+    "what quests does wizbang offer"
+   ],
+   "answer": "Wizbang asks adventurers to help repair and configure his buzzbox machines, which involves scouring the shoreline for specialized parts like electropellers and gaffer jacks."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Seeing a fellow gnome operating an experimental communication network along Kalimdor's rugged coast is a welcome reminder of Gnomeregan's relentless inventiveness."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Wizbang's reliance on custom tools like gaffer jacks and electropellers highlights the classic gnomish mindset: mechanical answers to logistical problems in uncharted lands."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "While elven sentinels and druids rely on whisps, messengers, and natural bonds, Wizbang brings loud, whirring gears and metal boxes into Darkshore's sacred woods."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "buzzbox",
+  "cranktoggle",
+  "darkshore",
+  "electropellers",
+  "engineer",
+  "gaffer jacks",
+  "gnome",
+  "wizbang"
+ ],
+ "related": [
+  "subzone:auberdine",
+  "zone:darkshore",
+  "quest:983",
+  "quest:1579",
+  "quest:1580",
+  "topic:gnome",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Wizbang Cranktoggle"
+ ]
+}

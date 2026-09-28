@@ -1,0 +1,94 @@
+{
+ "key": "npc:jaina-proudmoore",
+ "type": "npc",
+ "name": "Jaina Proudmoore",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Jaina Proudmoore",
+  "refs": 2
+ },
+ "summary": "Lady Jaina Proudmoore is the ruler of Theramore Isle and the most powerful human sorceress alive. Formerly a star pupil of Dalaran's Kirin Tor, she led the survivors of Lordaeron across the Great Sea and now strives to maintain a fragile peace between the Alliance and the New Horde.",
+ "sections": [
+  {
+   "title": "Flight to Kalimdor",
+   "body": "The daughter of Grand Admiral Daelin Proudmoore of Kul Tiras, Jaina showed remarkable aptitude for the arcane at an early age and studied under Archmage Antonidas in Dalaran. During the Third War, she investigated the mysterious Plague of Undeath alongside Prince Arthas Menethil, witnessing firsthand the tragic downfall of Lordaeron. Guided by the warnings of the Prophet Medivh, she rallied an expedition of human survivors and set sail westward to the forgotten continent of Kalimdor. There, her forces forged an unprecedented alliance with Thrall's Horde and the night elves, standing together atop Mount Hyjal to defeat Archimonde and shatter the Burning Legion's invasion.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Lady of Theramore",
+   "body": "Following the Legion's defeat, Jaina founded the island citadel of Theramore off the coast of Dustwallow Marsh, establishing the primary bastion of the Alliance in southern Kalimdor. Her commitment to diplomacy was tested to its limits when her father arrived seeking vengeance against the orcs; Jaina refused to support his war, stepping aside as Thrall's forces slew the Grand Admiral to prevent Kalimdor from plunging into another devastating conflict. Today, she rules Theramore as a steadfast advocate for coexistence, working closely with Warchief Thrall while anchoring the Alliance's presence against rising local tensions.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lady Jaina Proudmoore?",
+   "aliases": [
+    "who is jaina",
+    "jaina proudmoore lore",
+    "theramore leader"
+   ],
+   "answer": "Jaina is the ruler of Theramore Isle and arguably the most gifted human mage alive. She is the daughter of the late Grand Admiral Daelin Proudmoore of Kul Tiras and a former apprentice of Archmage Antonidas in Dalaran."
+  },
+  {
+   "q": "Why is Jaina in Kalimdor instead of the Eastern Kingdoms?",
+   "aliases": [
+    "why did jaina leave lordaeron",
+    "jaina kalimdor",
+    "why is theramore here"
+   ],
+   "answer": "Before the fall of Lordaeron in the Third War, the Prophet Medivh warned Jaina to lead as many people as possible across the sea to Kalimdor. Her expedition survived the journey, fought at Mount Hyjal, and settled the port-fortress of Theramore in Dustwallow Marsh."
+  },
+  {
+   "q": "What is Jaina's relationship with the Horde?",
+   "aliases": [
+    "is jaina friendly with thrall",
+    "jaina and horde",
+    "does jaina hate orcs"
+   ],
+   "answer": "Jaina maintains an unusual, cautious friendship with Warchief Thrall. After fighting together against the Burning Legion at Mount Hyjal, both leaders have strived to keep the peace between their peoples, despite sharp opposition from hardliners on both sides."
+  },
+  {
+   "q": "What happened between Jaina and Prince Arthas Menethil?",
+   "aliases": [
+    "jaina and arthas",
+    "did jaina love arthas"
+   ],
+   "answer": "Jaina and Arthas were childhood friends whose bond deepened into romance as young adults. They jointly investigated the plague spreading across Lordaeron, but Jaina was horrified by Arthas's descent into ruthlessness\u2014culminating in the purging of Stratholme, where she refused to participate in the slaughter of infected citizens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Trained under Archmage Antonidas himself, Lady Jaina is widely considered the most powerful living human sorceress, demonstrating the height of Dalaran's arcane mastery."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Jaina provides the Alliance with its critical foothold in southern Kalimdor, balancing loyalty to Highlord Bolvar's regency in Stormwind against her desire to avoid war with the neighboring Horde."
+  }
+ ],
+ "keywords": [
+  "antonidas",
+  "arthas",
+  "dustwallow",
+  "jaina",
+  "kirin tor",
+  "proudmoore",
+  "theramore",
+  "thrall"
+ ],
+ "related": [
+  "zone:dustwallow",
+  "subzone:dalaran",
+  "topic:new-horde",
+  "topic:burning-legion",
+  "topic:arthas-menethil",
+  "topic:medivh",
+  "topic:kul-tiras",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Jaina Proudmoore"
+ ]
+}

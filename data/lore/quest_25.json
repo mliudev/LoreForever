@@ -1,0 +1,130 @@
+{
+ "key": "quest:25",
+ "type": "quest",
+ "name": "Stonetalon Standstill",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   25
+  ],
+  "level": "25",
+  "faction": "horde",
+  "start": "Mastok Wrilehiss",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Stonetalon Standstill",
+  "chain": []
+ },
+ "summary": "Stonetalon Standstill is a Horde assignment given by Mastok Wrilehiss at Splintertree Post to secure the vital passage toward the Stonetalon Mountains. Befouled water elementals in Mystral Lake have brought supply transports to a halt, prompting the Horde to cull the hostile spirits and scout an elven gazebo overlooking nearby Alliance movements.",
+ "sections": [
+  {
+   "title": "A Choked Supply Route",
+   "body": "Maintaining the Horde's foothold in Ashenvale requires a constant flow of lumber, supplies, and messengers moving between the forest and the peaks of the Stonetalon Mountains. The Talondeep Path serves as this critical artery, skirting past the eastern shore of Mystral Lake. When the waters violently churned to life with hostile elementals, travel stopped dead in its tracks. Transport caravans found themselves battered by enraged water spirits, prompting Mastok Wrilehiss to demand swift action before logistical lines collapse entirely.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Corrupted Waters",
+   "body": "Mystral Lake is no longer a peaceful woodland refuge. The elementals that drift through its depths have become befouled, aggressive, and unpredictable, striking indiscriminately at anyone attempting to traverse the surrounding trails. Culling these watery fiends\u2014and breaking the reign of the greater spirit Tideress\u2014is essential to restoring a semblance of safety. Yet the origins of their taint remain an ominous riddle amidst the wider turmoil gripping Ashenvale's sacred groves.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes Across the Water",
+   "body": "Beyond subduing the lake's angry spirits, the Horde recognizes a strategic opportunity in Mystral Lake's central island. An ancient night elf gazebo sits upon the islet, commanding a clear vantage point across the water toward the nearby Alliance stronghold of Silverwing Outpost. By scouting the structure, Horde scouts assess whether the ruins can serve as a forward observation post, ensuring Splintertree's commanders can keep a close eye on their Kalimdor rivals without being detected.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is causing the standstill near Stonetalon?",
+   "aliases": [
+    "why are transports stopped",
+    "talondeep path blocked",
+    "what stopped the supply route"
+   ],
+   "answer": "Befouled water elementals inhabiting Mystral Lake have grown violent, attacking travelers along the adjacent Talondeep Path. This aggression has halted supply transports traveling between Ashenvale and the Stonetalon Mountains."
+  },
+  {
+   "q": "Who orders the elementals cleared?",
+   "aliases": [
+    "who gives stonetalon standstill",
+    "mastok wrilehiss quest",
+    "who is mastok"
+   ],
+   "answer": "Mastok Wrilehiss, an orc stationed at Splintertree Post in central Ashenvale, orders the mission to restore the Horde's trade routes and probe the Alliance position."
+  },
+  {
+   "q": "Why scout the gazebo in the middle of Mystral Lake?",
+   "aliases": [
+    "why scout gazebo",
+    "mystral lake gazebo purpose",
+    "gazebo observation post"
+   ],
+   "answer": "The gazebo provides an elevated vantage point over the lake and directly faces the nearby Alliance encampment. Mastok hopes to evaluate it as a covert observation post to monitor enemy movements."
+  },
+  {
+   "q": "What is the Talondeep Path?",
+   "aliases": [
+    "talondeep path location",
+    "path to stonetalon",
+    "stonetalon road"
+   ],
+   "answer": "The Talondeep Path is the primary mountain trail connecting the southwestern reaches of Ashenvale to the Stonetalon Mountains, running right past the eastern shoreline of Mystral Lake."
+  },
+  {
+   "q": "Why are the water elementals in Mystral Lake befouled?",
+   "aliases": [
+    "why are elementals corrupted",
+    "mystral lake water corrupted",
+    "befouled elementals origin"
+   ],
+   "answer": "Dark energies and widespread turmoil in Ashenvale have disrupted the natural balance, driving the spirits of Mystral Lake mad and turning their normally tranquil waters hostile to outsiders."
+  },
+  {
+   "q": "Which Alliance outpost is being watched from the gazebo?",
+   "aliases": [
+    "what alliance base near mystral lake",
+    "alliance outpost ashenvale",
+    "silverwing outpost view"
+   ],
+   "answer": "The gazebo overlooks Silverwing Outpost, the regional base of the Silverwing Sentinels who defend Ashenvale against the Horde's lumber-harvesting operations."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Splintertree Post cannot survive without open logistical corridors; securing the Talondeep Path is vital to maintaining communication and trade with Stonetalon."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The twisted state of Mystral Lake's water elementals reveals deep elemental disharmony taking root within the ancient forests of Ashenvale."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Warriors of the Horde rely on the timber and trails of Ashenvale to fuel their settlements, making the disruption of mountain supply lines unacceptable."
+  }
+ ],
+ "keywords": [
+  "befouled water elemental",
+  "gazebo",
+  "mastok wrilehiss",
+  "mystral lake",
+  "splintertree post",
+  "stonetalon standstill",
+  "talondeep path",
+  "tideress"
+ ],
+ "related": [
+  "subzone:mystral-lake",
+  "subzone:talondeep-path",
+  "subzone:splintertree-post",
+  "npc:mastok-wrilehiss",
+  "zone:ashenvale",
+  "topic:alliance",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Stonetalon Standstill"
+ ]
+}

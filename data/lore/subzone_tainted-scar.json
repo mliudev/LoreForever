@@ -1,0 +1,92 @@
+{
+ "key": "subzone:tainted-scar",
+ "type": "subzone",
+ "name": "Tainted Scar",
+ "era": "classic",
+ "zone": "blastedlands",
+ "meta": {
+  "wiki": "Tainted Scar"
+ },
+ "summary": "The Tainted Scar is a demon-infested canyon carved into the southwestern Blasted Lands, saturated with foul fel magic from the nearby Dark Portal. It currently serves as the primary redoubt for the remnants of the Burning Legion on Azeroth, commanded by the doomguard Lord Kazzak.",
+ "sections": [
+  {
+   "title": "A Bastion of the Legion",
+   "body": "Once lush wetlands belonging to the ancient Black Morass, this desolate trench was utterly drained of life and turned the color of dried blood by chaotic fel energies leaking from the Dark Portal. Following Archimonde's defeat at Mount Hyjal during the Third War, surviving forces of the Burning Legion rallied in the south. The colossal ered'ruin Lord Kazzak claimed the Tainted Scar as his stronghold, stationing elite demons across its blackened rises and dispatching dreadful lieutenants like Razelikh the Defiler to hold dominion over the wasted red soils.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unholy Inhabitants",
+   "body": "While most mortals shun the Scar on pain of agonizing death, practitioners of the dark arts find its saturated fel energies irresistible. An eccentric human warlock named Daio the Decrepit has taken up residence by a ruined demonic altar overlooking the horrors, using the rampant fiends to perform dark rituals and instruct aspiring warlocks in how to summon and bind dread infernals.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Tainted Scar?",
+   "aliases": [
+    "what is tainted scar",
+    "tainted scar lore",
+    "why is the ground red here"
+   ],
+   "answer": "It is a canyon in the southwestern Blasted Lands heavily corrupted by demonic magic originating from the Dark Portal. Once part of the Black Morass, the land withered into a barren, blood-red wasteland populated almost entirely by high-ranking demons of the Burning Legion."
+  },
+  {
+   "q": "Who rules the Tainted Scar?",
+   "aliases": [
+    "who leads the demons here",
+    "tainted scar boss",
+    "lord kazzak tainted scar"
+   ],
+   "answer": "Lord Kazzak, a towering doomguard commander of the Burning Legion, oversees the demons gathered here. After the Legion's defeat in the Third War, he rallied the surviving fiends in the south to maintain a deadly foothold on Azeroth."
+  },
+  {
+   "q": "Why is an old human living among the demons here?",
+   "aliases": [
+    "who is daio",
+    "daio the decrepit",
+    "hermit in tainted scar"
+   ],
+   "answer": "That hermit is Daio the Decrepit, an aged warlock who has braved the Scar to harness its potent fel ley energies. Rather than fleeing the demons, he conducts dark rituals at an altar here and mentors seasoned warlocks looking to master the summoning of infernals."
+  },
+  {
+   "q": "Is the Tainted Scar connected to the Dark Portal?",
+   "aliases": [
+    "tainted scar dark portal connection",
+    "why is it corrupted"
+   ],
+   "answer": "Yes. When the Dark Portal first breached the boundary between worlds, chaotic Nether energies bled into the surrounding swamps. The Tainted Scar absorbed massive amounts of this magical fallout, permanently twisting the terrain into an inhospitable, demonic redoubt."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The Tainted Scar is of great interest to veteran warlocks, who seek out Daio the Decrepit at his demonic altar to learn how to enslave and command fiery infernals."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance commanders closely monitor the canyon, fearful that Lord Kazzak's entrenched demon army could surge north into the Swamp of Sorrows or Stormwind territory."
+  }
+ ],
+ "keywords": [
+  "blasted lands",
+  "burning legion",
+  "daio the decrepit",
+  "eredruin",
+  "kazzak",
+  "lord kazzak",
+  "razelikh",
+  "tainted scar"
+ ],
+ "related": [
+  "zone:blastedlands",
+  "topic:burning-legion",
+  "npc:daio-the-decrepit",
+  "subzone:dark-portal",
+  "topic:third-war",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Tainted Scar"
+ ]
+}

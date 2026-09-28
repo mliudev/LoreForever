@@ -1,0 +1,88 @@
+{
+ "key": "npc:mad-magus-tirth",
+ "type": "npc",
+ "name": "Mad Magus Tirth",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Mad Magus Tirth",
+  "refs": 1
+ },
+ "summary": "Magus Tirth is an eccentric human wizard dwelling out on the salt flats of the Mirage Raceway in Thousand Needles. Known locally for breeding chickens and tormenting his polymorphed apprentice, he is also a scholar of formidable arcane lore who has squandered valuable tomes on racing bets.",
+ "sections": [
+  {
+   "title": "A Wizard in the Dust",
+   "body": "While most mages of his caliber study in the libraries of Dalaran or Stormwind, Magus Tirth has taken up residence amid the grease and roar of the Shimmering Flats. Surrounded by speeding rocket cars, Tirth peddles chickens to passersby and spends his days barking orders at 'Plucky' Johnson, his unfortunate former apprentice whom he keeps trapped in poultry form. Despite this eccentric demeanor, Tirth possesses genuine arcane mastery, having authored esoteric texts on magical power before losing them to reckless wagers on the speedway.",
+   "spoiler": 0
+  },
+  {
+   "title": "Rituals and Debts",
+   "body": "Tirth's scholarly legacy includes 'Rituals of Power', an arcane manual sought after by practicing mages. Unfortunately for aspiring spellcasters, Tirth no longer owns his own masterwork. Crushed under gambling debts accrued at the Mirage Raceway, the mage sold the tome to an agent of the Scarlet Crusade to square his losses, forcing apprentices and seekers of knowledge to track the book down into hostile territory.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Magus Tirth out in the desert?",
+   "aliases": [
+    "why is tirth here",
+    "magus tirth shimmering flats",
+    "tirth location"
+   ],
+   "answer": "Tirth lives on the Shimmering Flats beside the Mirage Raceway, drawn by the spectacle and the gambling. Rather than pursuing scholarly life in a major city, he watches the gnome and goblin racers, sells chickens, and indulges his vices."
+  },
+  {
+   "q": "Who is the chicken next to him?",
+   "aliases": [
+    "who is plucky",
+    "plucky johnson",
+    "tirth chicken apprentice"
+   ],
+   "answer": "The chicken is 'Plucky' Johnson, Magus Tirth's former apprentice. Tirth magically polymorphed Johnson into a chicken and spends much of his time tormenting him, commanding him to dance out on the salt flats."
+  },
+  {
+   "q": "What is the book Rituals of Power?",
+   "aliases": [
+    "rituals of power",
+    "tirth book",
+    "mage quest book"
+   ],
+   "answer": "Rituals of Power is an advanced treatise on arcane energy authored by Magus Tirth. It is an essential text for mages looking to advance their craft, though Tirth parted with it to pay off his mounting racing debts."
+  },
+  {
+   "q": "Who did Tirth sell his book to?",
+   "aliases": [
+    "who has rituals of power",
+    "tirth debts",
+    "scarlet crusade book"
+   ],
+   "answer": "To settle gambling losses accumulated at the Mirage Raceway, Tirth sold his copy of Rituals of Power to a member of the Scarlet Crusade."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Tirth is an important figure for mages seeking to deepen their understanding of arcane power, as he authored the vital treatise 'Rituals of Power'."
+  }
+ ],
+ "keywords": [
+  "ancona chicken",
+  "magus tirth",
+  "mirage raceway",
+  "plucky",
+  "plucky johnson",
+  "rituals of power",
+  "shimmering flats",
+  "thousand needles",
+  "tirth"
+ ],
+ "related": [
+  "subzone:mirage-raceway",
+  "zone:thousandneedles",
+  "quest:1950",
+  "topic:scarlet-crusade"
+ ],
+ "attribution": [
+  "Mad Magus Tirth"
+ ]
+}

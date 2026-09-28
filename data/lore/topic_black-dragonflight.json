@@ -1,0 +1,119 @@
+{
+ "key": "topic:black-dragonflight",
+ "type": "topic",
+ "name": "Black dragonflight",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Black dragonflight"
+ },
+ "summary": "Once the stalwart Earth-Warders charged by the titans to safeguard Azeroth's deep subterranean realms, the black dragonflight fell to madness and treachery. Corrupted by the insidious whispers of the imprisoned Old Gods, their leader Neltharion became Deathwing, turning his brood into one of the most destructive and hated forces on the planet. Today, their surviving scions weave plots from the shadows and wage covert wars against mortal kingdoms.",
+ "sections": [
+  {
+   "title": "The Fallen Protectors",
+   "body": "Long ago, the Titan Khaz'goroth bestowed his blessing upon Neltharion, creating the black dragonflight to watch over the earth, raise mountains, and guard Azeroth's deep caverns. For ages, they stood alongside the other flights as patient, unyielding guardians. Yet their intimate bond with the world's subterranean foundations proved their undoing. Dwelling within the deepest hollows, they lay dangerously close to the sunken prisons of the Old Gods. Over centuries, dark whispers eroded the noble Earth-Warder's mind, driving him to madness and twisting his entire brood into vicious instruments of ruin.",
+   "spoiler": 0
+  },
+  {
+   "title": "Betrayal and Fire",
+   "body": "During the ancient War of the Ancients, Neltharion shattered the unity of dragonkind, turning upon his kin as Deathwing the Destroyer. Ever since, the black flight has waged relentless, spiteful war against the red, blue, green, and bronze flights, who view their cruelty as an absolute profanation of life. Rather than tending the soil, black dragons now wield molten magma, black magic, and searing brimstone to scorch the lands they once nurtured, finding delight in sowing discord, misery, and endless strife across mortal realms.",
+   "spoiler": 0
+  },
+  {
+   "title": "Human Guises and Mortal Intrigues",
+   "body": "Unlike many beasts that rely purely on claw and flame, the black dragons are masters of manipulation. They frequently adopt humanoid forms\u2014most often cultured, dark-haired humans with piercing eyes\u2014to infiltrate royal courts and council chambers. By steering leaders toward arrogance, sowing division between noble houses, and whispering poisonous council into vulnerable ears, the flight orchestrates the downfall of mortal civilizations from within, preferring that kingdoms tear themselves apart before their drakes arrive to burn the remnants.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are black dragons evil?",
+   "aliases": [
+    "why did black dragons turn bad",
+    "who corrupted deathwing",
+    "black dragon madness"
+   ],
+   "answer": "Their ancient duty tied them closely to the subterranean depths of Azeroth, directly where the ancient Old Gods were sealed away. Over millennia, the maddening whispers of these entities seeped into Neltharion's mind, twisting his protective instincts into paranoia and malice until his entire brood followed him into corruption."
+  },
+  {
+   "q": "What powers do black dragons wield?",
+   "aliases": [
+    "black dragon magic",
+    "black dragon flight abilities",
+    "what can black dragons do"
+   ],
+   "answer": "Granted dominance over the earth by the Titan Khaz'goroth, they command stone, magma, and deep subterranean forces. In their corrupted state, they wield volatile earth elemental power known as black magic, exhaling searing fire and molten rock while their heavy scales continually radiate intense heat."
+  },
+  {
+   "q": "Do black dragons use disguises?",
+   "aliases": [
+    "do dragons take human form",
+    "black dragon mortal guises",
+    "black dragons disguised as humans"
+   ],
+   "answer": "Yes. Black dragons excel at infiltration and political manipulation. Their favored humanoid guise is typically an attractive, noble human with dark hair and dark eyes, allowing them to mingle freely in courts, manipulate monarchs, and spark civil conflicts without revealing their true draconic nature."
+  },
+  {
+   "q": "How can you tell a black dragon's name?",
+   "aliases": [
+    "black dragon naming conventions",
+    "black dragon names",
+    "how do black dragons get named"
+   ],
+   "answer": "Members of the black flight commonly follow specific naming traditions: male names frequently end in the suffix '-ion' (such as Sabellian or Ebyssian), while female names typically end in '-ia' (such as Onyxia). Many also adopt words evoking ash, shadow, stone, or ruin."
+  },
+  {
+   "q": "Why do the other dragonflights hate them?",
+   "aliases": [
+    "red dragonflight vs black dragonflight",
+    "why do dragons fight each other",
+    "dragonflight civil war"
+   ],
+   "answer": "During the War of the Ancients, the Earth-Warder betrayed the other flights, slaughtering thousands of his brethren. The red dragonflight in particular despises them, viewing their fiery malice and corrupting influence as an unnatural blasphemy against life itself."
+  },
+  {
+   "q": "Who leads the black dragonflight now?",
+   "aliases": [
+    "who is the black dragon leader",
+    "where is deathwing",
+    "who rules the black dragons"
+   ],
+   "answer": "Their ancient Aspect, Deathwing, has vanished from public view following past defeats, leaving his dangerous brood scattered into splintered cabals. Today, prominent offspring\u2014such as Nefarian and Onyxia\u2014pursue their own ruthless ambitions to enslave rivals, subvert kingdoms, and breed dark creations."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance must remain constantly vigilant against political subversion, as the black dragonflight has repeatedly sought to corrupt human nobility and exploit aristocratic ambitions from within Stormwind's own halls."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde holds an enduring grudge against the flight's machinations, having suffered under their manipulative meddling during previous wars and facing their subterranean broods throughout the crags of Kalimdor and the Eastern Kingdoms."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman view the black dragons with deep sorrow and revulsion, knowing they wield the sacred elemental power of earth not to maintain harmony, but to twist stone and magma into instruments of torment."
+  }
+ ],
+ "keywords": [
+  "black dragonkin",
+  "black dragons",
+  "deathwing",
+  "dragonflight",
+  "earth-warder",
+  "khaz'goroth",
+  "nefarian",
+  "neltharion",
+  "onyxia"
+ ],
+ "related": [
+  "npc:deathwing",
+  "topic:titan",
+  "topic:old-god",
+  "topic:war-of-the-ancients",
+  "topic:dragonmaw-clan"
+ ],
+ "attribution": [
+  "Black dragonflight"
+ ]
+}

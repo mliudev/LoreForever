@@ -1,0 +1,93 @@
+{
+ "key": "subzone:sen-jin-village",
+ "type": "subzone",
+ "name": "Sen'jin Village",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Sen'jin Village"
+ },
+ "summary": "Sen'jin Village is a coastal settlement on the southern shores of Durotar, serving as a sanctuary for the Darkspear trolls. Established by Chieftain Vol'jin after his people were driven from their ancestral home on the Echo Isles, the hamlet honors his fallen father, the witch doctor Sen'jin. Today, it stands as a fragile haven focused on survival, herbalism, and reclaiming what was stolen.",
+ "sections": [
+  {
+   "title": "A Refugee Shore",
+   "body": "When the dark witch doctor Zalazane betrayed the Darkspear and seized control of the Echo Isles, Chieftain Vol'jin was forced to lead the survivors across the strait to the mainland of Durotar. There, nestled beneath coastal cliffs and looking out over the water, they raised crude huts and established Sen'jin Village. The settlement carries the name of Vol'jin's father, the venerable elder who sacrificed himself during the Third War to save their people from coastal murlocs. Despite their close alliance with Thrall's Horde, the trolls here live under the shadow of exile, staring daily across the shallows at the home they lost.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes on the Isles",
+   "body": "Daily life in Sen'jin Village revolves around preparation and defense. Between local Centaur raids, aggressive sea beasts, and Zalazane's hexes reaching across the sea, the villagers rely heavily on herbal remedies and brewing potent alchemical spirits. While Vol'jin coordinates broader tribal defense from the Horde capital, local shamans, hunters, and scouts gather here to recruit fresh wanderers stepping out of the Valley of Trials. Their aim is clear: to gather resources, protect Durotar's southern flank, and plot the eventual downfall of the traitor Zalazane.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why did the Darkspear build Sen'jin Village here?",
+   "aliases": [
+    "why is senjin village here",
+    "why are trolls in durotar",
+    "why did trolls leave echo isles"
+   ],
+   "answer": "The Darkspear fled across the strait to the Durotar coastline after the witch doctor Zalazane went mad and took control of their home on the Echo Isles. Sen'jin Village was established by Vol'jin as a temporary refuge and staging ground just across the water from their stolen land."
+  },
+  {
+   "q": "Who was Sen'jin?",
+   "aliases": [
+    "who was senjin",
+    "who is senjin named after",
+    "senjin lore"
+   ],
+   "answer": "Sen'jin was a respected witch doctor and chieftain of the Darkspear tribe, as well as the father of Vol'jin. During the Third War, he foresaw Thrall's arrival and sacrificed his life while saving his tribe and the young Horde from fanatical sea murlocs in the South Seas."
+  },
+  {
+   "q": "Why are there so many herbalists and alchemists here?",
+   "aliases": [
+    "senjin village trainers",
+    "professions in senjin village",
+    "why alchemy here"
+   ],
+   "answer": "The local witch doctors and medicine men rely heavily on Durotar's coastal flora and scorpok venoms to concoct charms, antidotes, and rituals. These botanical brews sustain the wounded and offer wards against the dark hexes drifting over from the Echo Isles."
+  },
+  {
+   "q": "Can you reach the Echo Isles from Sen'jin Village?",
+   "aliases": [
+    "how to get to echo isles",
+    "isles off senjin coast",
+    "swimming to echo isles"
+   ],
+   "answer": "The Echo Isles sit directly across the eastern water from the village. Adventurers often swim or wade across the shallow channel to strike back at Zalazane's voodoo cultists, recover stolen artifacts, or gather resources for the village defenders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls emerging from the Valley of Trials, this refuge is the beating heart of their displaced people, holding memories of their lost chieftain and the enduring sting of Zalazane's betrayal."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The village is a vital starting center for natural medicine, surrounded by coastal Peacebloom, Silverleaf, and Earthroot used by local witch doctors to treat venom and curses."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "durotar",
+  "echo isles",
+  "sen'jin village",
+  "senjin",
+  "vol'jin",
+  "zalazane"
+ ],
+ "related": [
+  "topic:darkspear-tribe",
+  "subzone:echo-isles",
+  "npc:vol-jin",
+  "quest:826",
+  "zone:durotar",
+  "subzone:valley-of-trials",
+  "subzone:razor-hill",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Sen'jin Village"
+ ]
+}

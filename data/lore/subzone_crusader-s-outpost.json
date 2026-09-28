@@ -1,0 +1,92 @@
+{
+ "key": "subzone:crusader-s-outpost",
+ "type": "subzone",
+ "name": "Crusader's Outpost",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Crusader's Outpost"
+ },
+ "summary": "Crusader's Outpost is a fortified scout tower manned by the Scarlet Crusade in western Tirisfal Glades, standing along the Scarlet Palisade. Situated adjacent to the Solliden Farmstead, it serves as the Crusade's westernmost position in all of Lordaeron. Its perilous distance from the main Scarlet bastions leaves its garrison isolated in the heart of hostile Forsaken territory.",
+ "sections": [
+  {
+   "title": "A Lonely Watchtower",
+   "body": "Perched inside the Scarlet Palisade just west of Deathknell, this stone tower represents the farthest reach of the Scarlet Crusade's power in Lordaeron. The garrison stationed here works in tandem with the surviving human laborers of the nearby Solliden Farmstead, attempting to hold back the encroaching undead. From the top of the tower, lookouts keep watch over the surrounding pumpkin fields and forest paths, vigilant against both roaming Scourge fiends and patrols from the Undercity.",
+   "spoiler": 0
+  },
+  {
+   "title": "Isolated Behind Enemy Lines",
+   "body": "Holding the western frontier carries extreme risk. Cut off from their primary strongholds in the Scarlet Monastery and far to the east in Tyr's Hand, the crusaders at this outpost cannot expect swift reinforcements should an attack breach the palisade. Any siege by the Forsaken forces massing across Tirisfal means either holding the tower on their own or facing total annihilation before help can ever arrive.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Scarlet Crusade all the way out here in western Tirisfal?",
+   "aliases": [
+    "why are scarlet here",
+    "scarlet crusaders tirisfal west",
+    "crusader outpost purpose"
+   ],
+   "answer": "The tower serves as an early warning post and defensive fortification along the Scarlet Palisade. It protects the living human farmers at Solliden Farmstead and watches the western approaches against both feral Scourge and Forsaken advance scouts."
+  },
+  {
+   "q": "Can reinforcements reach this outpost if it gets attacked?",
+   "aliases": [
+    "can scarlet reinforce",
+    "outpost help",
+    "how far is help"
+   ],
+   "answer": "Not easily. The outpost is the westernmost Scarlet holding in Lordaeron. Their primary bastions lie far to the east at the Scarlet Monastery and Tyr's Hand, leaving this garrison entirely cut off if Forsaken forces surround them."
+  },
+  {
+   "q": "What is the relationship between the tower and Solliden Farmstead?",
+   "aliases": [
+    "solliden connection",
+    "why are crusaders at farm",
+    "crusaders and farmers"
+   ],
+   "answer": "The crusaders have allied with the remaining human farmers at Solliden Farmstead. The soldiers provide protection against the walking dead in exchange for sustenance and a loyal staging ground on the fringes of Lordaeron."
+  },
+  {
+   "q": "Are there other towers like this in the region?",
+   "aliases": [
+    "other crusader outposts",
+    "more scarlet towers"
+   ],
+   "answer": "Yes. This tower is one of four similar Crusader's Outposts established by the Scarlet Crusade across Tirisfal Glades to survey and patrol the surrounding lands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the newly risen Forsaken emerging from Deathknell, this nearby tower and the Scarlet zealots guarding it represent an immediate existential threat right on their border."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The outpost serves as a bitter reminder of the Scarlet Crusade's fanatical refusal to yield Tirisfal to the Forsaken and their Horde allies."
+  }
+ ],
+ "keywords": [
+  "crusader's outpost",
+  "scarlet crusade",
+  "scarlet palisade",
+  "scout tower",
+  "solliden farmstead",
+  "tirisfal glades",
+  "tyr's hand"
+ ],
+ "related": [
+  "subzone:scarlet-palisade",
+  "subzone:solliden-farmstead",
+  "zone:tirisfal",
+  "topic:scarlet-crusade",
+  "topic:forsaken",
+  "subzone:tyr-s-hand",
+  "topic:lordaeron",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Crusader's Outpost"
+ ]
+}

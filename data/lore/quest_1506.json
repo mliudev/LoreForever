@@ -1,0 +1,121 @@
+{
+ "key": "quest:1506",
+ "type": "quest",
+ "name": "Gan'rul's Summons",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   1506
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Ophek",
+  "end": "Gan'rul Bloodeye",
+  "previous": null,
+  "next": "Creature of the Void (Orgrimmar)",
+  "wiki": "Gan'rul's Summons",
+  "chain": [
+   "Gan'rul's Summons",
+   "Creature of the Void (Orgrimmar)",
+   "The Binding (Voidwalker, Orgrimmar)"
+  ]
+ },
+ "summary": "Gan'rul's Summons is an urgent call delivered to young Horde warlocks by Ophek in Razor Hill. Senior warlock Gan'rul Bloodeye requires their immediate presence in the Cleft of Shadow to advance their training. It marks the first step toward mastering the dark art of summoning a voidwalker.",
+ "sections": [
+  {
+   "title": "A Summons to the Shadows",
+   "body": "Novice warlocks operating in Durotar do not remain unnoticed for long. Once a practitioner demonstrates sufficient mastery over their initial imp, word reaches the deeper subterranean recesses of Orgrimmar. Ophek, stationed out in Durotar, acts as a messenger for the senior dark casters, intercepting warlocks with an urgent demand to drop whatever they are doing and report to the Cleft of Shadow.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Senior Warlock",
+   "body": "Gan'rul Bloodeye oversees the training of nascent orc and troll warlocks within the Horde. Operating out of the hidden caverns beneath Orgrimmar, he maintains a delicate balance between honing lethal fel power and keeping such dangerous arts shielded from the disapproving gaze of the Warchief. When Bloodeye calls an apprentice to his circle, it signals that simple fire spells and imps are no longer enough; it is time to bind a creature from the Twisting Nether.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ophek?",
+   "aliases": [
+    "ophek",
+    "who gives this quest",
+    "quest starter"
+   ],
+   "answer": "Ophek is an associate of the warlocks stationed out in Durotar. He tracks rising practitioners and delivers orders from senior mentors like Gan'rul Bloodeye."
+  },
+  {
+   "q": "Where is Gan'rul Bloodeye located?",
+   "aliases": [
+    "where is ganrul",
+    "gan'rul location",
+    "find gan'rul bloodeye"
+   ],
+   "answer": "Gan'rul Bloodeye resides in the Cleft of Shadow, the dark subterranean cavern system hidden beneath the rocky plateaus of Orgrimmar."
+  },
+  {
+   "q": "Why does Gan'rul Bloodeye want to see me?",
+   "aliases": [
+    "why summons",
+    "what does ganrul want",
+    "quest reason"
+   ],
+   "answer": "Gan'rul has deemed you experienced enough to advance your warlock studies and begin the dangerous rituals required to summon and bind a voidwalker."
+  },
+  {
+   "q": "What happens after reporting to Gan'rul?",
+   "aliases": [
+    "next quest",
+    "what comes after gan'rul's summons"
+   ],
+   "answer": "Reporting to Gan'rul begins the task 'Creature of the Void', which sends you to retrieve the necessary components and knowledge to pull a void entity into Azeroth."
+  },
+  {
+   "q": "Why do the warlocks stay in the Cleft of Shadow?",
+   "aliases": [
+    "why cleft of shadow",
+    "why are warlocks hiding",
+    "warlock cave orgrimmar"
+   ],
+   "answer": "Warlocks practice volatile fel magic, which Thrall and the traditional shamanic Horde view with deep suspicion. The Cleft of Shadow allows them to conduct rituals out of public view."
+  },
+  {
+   "q": "Can any class take this quest?",
+   "aliases": [
+    "is this warlock only",
+    "who gets this quest"
+   ],
+   "answer": "No. This quest is exclusively offered to Horde warlocks who have reached the tenth circle of their training."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This summons marks your progression past basic imp conjuration, opening the path to commanding the sturdy protection of a voidwalker."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Warlocks hold an uneasy place within Thrall's new Horde, tolerated for their pragmatic power but sequestered deep beneath Orgrimmar."
+  }
+ ],
+ "keywords": [
+  "bloodeye",
+  "cleft of shadow",
+  "gan'rul",
+  "ophek",
+  "orgrimmar",
+  "summons",
+  "voidwalker",
+  "warlock quest"
+ ],
+ "related": [
+  "npc:gan-rul-bloodeye",
+  "quest:1473",
+  "quest:1471",
+  "subzone:cleft-of-shadow",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Gan'rul's Summons"
+ ]
+}

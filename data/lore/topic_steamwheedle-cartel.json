@@ -1,0 +1,127 @@
+{
+ "key": "topic:steamwheedle-cartel",
+ "type": "topic",
+ "name": "Steamwheedle Cartel",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Steamwheedle Cartel"
+ },
+ "summary": "The Steamwheedle Cartel is the largest and most influential goblin enterprise operating across modern Azeroth. Fiercely neutral, the cartel governs bustling commercial hubs like Booty Bay, Ratchet, and Gadgetzan, serving Alliance and Horde patrons alike so long as their coin is genuine. Their sprawling operations encompass cross-continental shipping, alchemy, salvaging, and cutthroat mercenary contracting.",
+ "sections": [
+  {
+   "title": "A Profitable Neutrality",
+   "body": "Originating from the subterranean goblin capital of Undermine, the Steamwheedle Cartel initially allied with the Old Horde during the Second War, supplying war machines, sappers, and naval engineering. After the dust settled, the cartel's leaders realized that picking sides cost more than it earned. Embracing absolute neutrality, they expanded across both continents, opening trade networks that welcome Alliance and Horde alike. Today, as open tensions simmer, Steamwheedle ports provide vital common ground where anyone with gold can purchase passage, bank resources, and hire local specialists.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ports and Outposts",
+   "body": "The cartel's influence rests on strategic ports and frontier towns. In Stranglethorn Vale, Baron Revilgaz presides over Booty Bay, a fortified harbor town carved into the cliffs alongside the Blackwater Raiders. Across the Great Sea, Chief Engineer Gazlowe directs Ratchet on the coast of the Barrens, running a deep-water ferry line directly back to Booty Bay. Deep within the deserts of Tanaris lies the boomtown of Gadgetzan, while smaller operations like Steamwheedle Port and remote outposts in Desolace, Azshara, and Stonetalon Mountains secure regional resources.",
+   "spoiler": 0
+  },
+  {
+   "title": "Rivals and Reavers",
+   "body": "Steamwheedle trade is constantly imperiled by opportunistic cutthroats. In the Southern Seas, the Bloodsail Buccaneers continually menace Booty Bay's naval lanes, while Southsea Freebooters raid the coastlines near Ratchet. On land, the cartel frequently clashes with their corporate arch-rivals, the Venture Company, competing violently for timber rights, oil fields, and shredder technology across Stonetalon and the Barrens. To maintain order and enforce trade contracts, cartel barons routinely hire passing mercenaries to settle grievances with extreme prejudice.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Steamwheedle Cartel?",
+   "aliases": [
+    "who are steamwheedle",
+    "steamwheedle goblins",
+    "what is steamwheedle"
+   ],
+   "answer": "The Steamwheedle Cartel is a massive, neutral goblin trading conglomerate based out of Undermine. They operate several major independent towns across Azeroth\u2014including Booty Bay, Ratchet, and Gadgetzan\u2014offering banking, engineering, transport, and auction houses to all factions."
+  },
+  {
+   "q": "Are the Steamwheedle goblins part of the Horde or Alliance?",
+   "aliases": [
+    "is steamwheedle horde",
+    "is steamwheedle cartel neutral",
+    "steamwheedle faction"
+   ],
+   "answer": "Neither. The cartel maintains strict political neutrality. While they previously worked with the Old Horde during the Second War, they severed formal faction allegiances to maximize profit. Today, they happily trade with both the Alliance and the Horde, enforcing peace in their towns with armed bruisers."
+  },
+  {
+   "q": "Which major cities belong to the Steamwheedle Cartel?",
+   "aliases": [
+    "steamwheedle towns",
+    "cartel cities",
+    "goblin towns list"
+   ],
+   "answer": "Their three primary urban centers are Booty Bay in southern Stranglethorn Vale, Ratchet on the eastern shore of the Barrens, and Gadgetzan in the desert of Tanaris. They also maintain smaller hubs like Steamwheedle Port and isolated trading outposts."
+  },
+  {
+   "q": "Who leads the Steamwheedle Cartel?",
+   "aliases": [
+    "steamwheedle leader",
+    "trade prince steamwheedle",
+    "who runs steamwheedle"
+   ],
+   "answer": "The entire cartel answers to Trade Prince Steamwheedle in the Undermine. On the ground, operations are overseen by regional bosses and oligarchs, such as Baron Revilgaz in Booty Bay and Chief Engineer Gazlowe in Ratchet."
+  },
+  {
+   "q": "Why are the Steamwheedle goblins enemies with the Venture Company?",
+   "aliases": [
+    "venture co vs steamwheedle",
+    "why hate venture co",
+    "venture company rivalry"
+   ],
+   "answer": "The Venture Company is a rival goblin enterprise known for cutthroat strip-mining and deforestation. The two factions constantly compete for the same territorial concessions, industrial blueprints, and natural resources across Kalimdor and the Eastern Kingdoms."
+  },
+  {
+   "q": "What happens if you fight inside a Steamwheedle port?",
+   "aliases": [
+    "guards in booty bay",
+    "pvp in ratchet",
+    "ratchet bruisers"
+   ],
+   "answer": "Steamwheedle towns employ heavily armed goblin bruisers who will swiftly attack anyone who breaks the peace, regardless of faction. Fighting other players or citizens within city limits results in swift retribution from the guards and a severe hit to your reputation with the cartel."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Cartel hubs like Ratchet and Gadgetzan are premier gathering spots for Goblin Engineering schematics, shredder parts, and experimental mechanical components."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers, Steamwheedle ferry routes and desert outposts provide indispensable waystations and flight paths across remote, Horde-heavy wilderness."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While Gazlowe and his crew maintain historic working relationships with the orcs of Durotar, the cartel still demands cold hard coin for their services and neutrality."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The lawless fringes of Booty Bay and Ratchet offer bountiful employment for thieves, lockpicks, and covert contractors willing to fleece pirates and rivals alike."
+  }
+ ],
+ "keywords": [
+  "booty bay",
+  "bruisers",
+  "cartel",
+  "gadgetzan",
+  "gazlowe",
+  "goblins",
+  "ratchet",
+  "revilgaz",
+  "steamwheedle",
+  "undermine"
+ ],
+ "related": [
+  "subzone:ratchet",
+  "subzone:booty-bay",
+  "subzone:gadgetzan",
+  "subzone:steamwheedle-port",
+  "quest:1040",
+  "quest:887",
+  "quest:764",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Steamwheedle Cartel"
+ ]
+}

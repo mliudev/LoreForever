@@ -1,0 +1,84 @@
+{
+ "key": "npc:marleth-barleybrew",
+ "type": "npc",
+ "name": "Marleth Barleybrew",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Marleth Barleybrew",
+  "refs": 2
+ },
+ "summary": "Marleth Barleybrew is an ambitious dwarven brewer stationed out in Brewnall Village. Frustrated by the Thunderbrew clan's dominance over the local beer market, she constantly schemes to prove her family's brew is superior to Kharanos's famous Thunder Ale.",
+ "sections": [
+  {
+   "title": "The Brewing Rivalry",
+   "body": "In Dun Morogh, alcohol is taken as seriously as steel, and the rivalry between the Barleybrew and Thunderbrew families is legendary. Marleth Barleybrew resents the near-monopoly that Ragnar Thunderbrew and his kin maintain out of the Thunderbrew Distillery in Kharanos. Convinced her own craft is every bit as robust, she seeks clever ways to slip Barleybrew kegs into the hands of tavern patrons. Rather than engaging in open conflict, she opts for petty subterfuge, recruiting passing travelers to secretly swap out Kharanos's prized ale casks with her own.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Marleth Barleybrew?",
+   "aliases": [
+    "who is marleth",
+    "marleth lore",
+    "marleth barleybrew"
+   ],
+   "answer": "Marleth is a dwarf brewmaster residing in Brewnall Village in western Dun Morogh. She represents the Barleybrew family and actively works to challenge the rival Thunderbrew family's stranglehold on the local drinking scene."
+  },
+  {
+   "q": "Where can I find Marleth Barleybrew?",
+   "aliases": [
+    "marleth location",
+    "where is marleth",
+    "find marleth"
+   ],
+   "answer": "She can be found in Brewnall Village, located in the western reaches of Dun Morogh near Iceflow Lake."
+  },
+  {
+   "q": "Why does Marleth want to swap Thunderbrew's beer?",
+   "aliases": [
+    "why swap the beer",
+    "bitter rivals quest reason",
+    "why hate thunderbrews"
+   ],
+   "answer": "Marleth believes her family's ale is just as good as, if not better than, Thunder Ale. Because the Thunderbrews dominate the trade in Kharanos, she hires adventurers to covertly replace the tavern's kegs with Barleybrew stock so drinkers will taste her product, while bringing back a sample of Thunder Ale for her to analyze."
+  },
+  {
+   "q": "Who are the other members of the Barleybrew family?",
+   "aliases": [
+    "barleybrew family",
+    "marleth relatives"
+   ],
+   "answer": "Her extended clan includes other noted brewers and tradesmen such as Malgin, Rejold, Wellart, and Yorus Barleybrew, all dedicated to the craft of traditional dwarven brewing."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, brewing is an art form tied intimately to clan prestige, making Marleth's feud with the Thunderbrews a matter of fierce family pride."
+  }
+ ],
+ "keywords": [
+  "bitter rivals",
+  "brewnall village",
+  "dwarf brewer",
+  "kharanos",
+  "marleth barleybrew",
+  "thunder ale",
+  "thunderbrew"
+ ],
+ "related": [
+  "subzone:brewnall-village",
+  "quest:310",
+  "quest:311",
+  "quest:308",
+  "subzone:thunderbrew-distillery",
+  "npc:ragnar-thunderbrew",
+  "subzone:kharanos",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Marleth Barleybrew"
+ ]
+}

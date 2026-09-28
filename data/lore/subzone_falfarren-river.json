@@ -1,0 +1,81 @@
+{
+ "key": "subzone:falfarren-river",
+ "type": "subzone",
+ "name": "Falfarren River",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Falfarren River"
+ },
+ "summary": "The Falfarren River flows northeast to southwest through the heart of Ashenvale, originating on the slopes of Mount Hyjal before slipping underground beneath the Barrens' northern mountains. It forms a natural boundary between night elven domains around Astranaar to the west and the encroaching Horde outposts to the east. Travelers must tread carefully, as its shaded banks and shallows harbor hostile wildlife and mark the edge of open conflict.",
+ "sections": [
+  {
+   "title": "A Contested Natural Boundary",
+   "body": "Feeding down from Mount Hyjal, the waters of the Falfarren cascade across waterfalls into Xavian before winding between Splintertree Post and Night Run. While it is neither exceptionally deep nor impassable under ordinary weather, it serves as the rough geopolitical dividing line in central Ashenvale. To the west lie Astranaar and the core holdings of the Kaldorei; to the east sit the camps and lumber operations of the Horde. Crossing the main road's wooden bridges brings travelers into the contested heart of the forest, where patrols clash along the banks.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hazards in the Shallows",
+   "body": "Beyond the tensions of warring sentinels and grunts, the river conceals natural and unnatural dangers beneath its surface. Downstream near Felfire Hill and the Moonwell of Cleansing, corrupted bog beasts and aggressive water creatures prowl the muddy shallows. Rainfall can swell the currents, yet the true peril lies in the dense canopies flanking either shore, where ambushes and skirmishes routinely spill into the stream.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Falfarren River begin and end?",
+   "aliases": [
+    "falfarren river source",
+    "where does the river go"
+   ],
+   "answer": "The Falfarren River starts in the heights of Mount Hyjal, cascading down waterfalls into the lake at Xavian. From there, it meanders southwest across Ashenvale before plunging underground into subterranean channels beneath the northern mountains of the Barrens."
+  },
+  {
+   "q": "Why is the Falfarren River significant to the war in Ashenvale?",
+   "aliases": [
+    "why is falfarren river important",
+    "river border ashenvale"
+   ],
+   "answer": "It serves as the rough borderline between night elf and Horde control in central Ashenvale. Night elf territory, centered around Astranaar and Silverwing Outpost, lies to the west, while the orc outpost of Splintertree Post and active Horde lumbering operations lie to the east."
+  },
+  {
+   "q": "What threats should travelers expect along the riverbanks?",
+   "aliases": [
+    "monsters in falfarren river",
+    "dangers at falfarren"
+   ],
+   "answer": "Aggressive bog beasts roam the shallows, particularly near the corrupted regions around Felfire Hill. In addition, patrols from both the Alliance and the Horde watch the bridges and crossings, making unattended river banks prime territory for skirmishes and ambushes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For the Night Elves and their allies, crossing eastward over the Falfarren signifies stepping directly into the Horde's front lines near Splintertree Post."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Falfarren marks the western edge of the Horde's expansion out of Splintertree Post, beyond which lies fortified night elf territory."
+  }
+ ],
+ "keywords": [
+  "ashenvale river",
+  "astranaar",
+  "falfarren",
+  "falfarren river",
+  "felfire hill",
+  "splintertree",
+  "xavian"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "subzone:splintertree-post",
+  "subzone:astranaar",
+  "subzone:silverwing-outpost",
+  "subzone:xavian",
+  "subzone:felfire-hill",
+  "subzone:moonwell-of-cleansing",
+  "subzone:night-run"
+ ],
+ "attribution": [
+  "Falfarren River"
+ ]
+}

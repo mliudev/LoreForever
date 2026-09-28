@@ -1,0 +1,81 @@
+{
+ "key": "npc:ashlan-stonesmirk",
+ "type": "npc",
+ "name": "Ashlan Stonesmirk",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Ashlan Stonesmirk",
+  "refs": 2
+ },
+ "summary": "Ashlan Stonesmirk is a dwarven scout stationed in the northern reaches of Loch Modan near the Wetlands border. Operating around Dun Modr, he keeps a vigilant eye on regional dangers threatening the realm of Ironforge.",
+ "sections": [
+  {
+   "title": "A Scout on the Border",
+   "body": "Positioned near the northern frontier of Loch Modan, Ashlan Stonesmirk stands watch over the turbulent borderlands leading down to the Thandol Span and the Wetlands. The northern roads are besieged by dark iron dwarves, roving troggs, and dangerous ogre encampments. Stonesmirk serves as a vital contact for Ironforge's scouting network, gathering intelligence and dispatching capable adventurers to investigate looming perils that could spill over into the heart of Khaz Modan.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Dark Threat Looms",
+   "body": "Stonesmirk plays a key role in tracking the nefarious schemes creeping across the northern border. When sinister plots threaten to undermine dwarven defenses at Dun Modr, Ashlan steps in to coordinate investigative strikes, ensuring that encroaching shadows are exposed and eliminated before they can overwhelm the local garrisons.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Ashlan Stonesmirk?",
+   "aliases": [
+    "ashlan location",
+    "where is ashlan stonesmirk",
+    "ashlan stonesmirk loc"
+   ],
+   "answer": "In this era, Ashlan Stonesmirk is stationed in far northern Loch Modan around Dun Modr, near the gateway leading toward the Wetlands."
+  },
+  {
+   "q": "What is Ashlan Stonesmirk's role?",
+   "aliases": [
+    "who is ashlan stonesmirk",
+    "ashlan purpose",
+    "what does ashlan do"
+   ],
+   "answer": "He is an Ironforge scout tasked with observing northern border threats, coordinating field intelligence, and directing adventurers against dangerous hostile factions in the area."
+  },
+  {
+   "q": "What quests does Ashlan offer?",
+   "aliases": [
+    "ashlan quests",
+    "quests from ashlan stonesmirk"
+   ],
+   "answer": "He assists adventurers during the investigation of 'A Dark Threat Looms', channeling intelligence to combat subversive threats menacing northern Loch Modan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Stonesmirk represents the far-flung scouts of Ironforge defending Khaz Modan's borders against subterranean and northern incursions."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Assisting Ashlan secures the strategic corridor connecting Loch Modan to the Wetlands and northern Alliance territories."
+  }
+ ],
+ "keywords": [
+  "a dark threat looms",
+  "ashlan",
+  "dun modr",
+  "ironforge",
+  "loch modan",
+  "scout",
+  "stonesmirk"
+ ],
+ "related": [
+  "subzone:dun-modr",
+  "zone:lochmodan",
+  "quest:161",
+  "topic:dwarf",
+  "subzone:mo-grosh-stronghold"
+ ],
+ "attribution": [
+  "Ashlan Stonesmirk"
+ ]
+}

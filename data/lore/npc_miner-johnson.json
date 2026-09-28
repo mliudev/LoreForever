@@ -1,0 +1,105 @@
+{
+ "key": "npc:miner-johnson",
+ "type": "npc",
+ "name": "Miner Johnson",
+ "era": "classic",
+ "zone": "deadmines",
+ "meta": {
+  "wiki": "Miner Johnson",
+  "refs": 5
+ },
+ "summary": "Miner Johnson is an elusive, seasoned miner affiliated with the Defias Brotherhood deep inside the Deadmines. Tucked away in a side alcove alongside ordinary laborers, this dangerous prospector oversees excavation efforts ahead of the heavy machinery found deeper underground. Because he wanders the subterranean tunnels erratically, adventurers only occasionally cross his path.",
+ "sections": [
+  {
+   "title": "A Rare Face in the Deep",
+   "body": "While hundreds of laborers pick at the subterranean veins of the Deadmines to supply Edwin VanCleef's hidden fortress, Miner Johnson stands out as an unusually formidable figure among them. Lurking in a shadowed alcove to the left before the lumbering shredders of the Mast Room, he is far tougher and more aggressive than the regular workforce. His unpredictable presence makes him a legendary target for explorers traversing the Defias tunnels.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fueling the Defias War Machine",
+   "body": "The Defias Brotherhood's clandestine operation beneath Moonbrook requires vast amounts of raw ore to forge weapons, reinforce shafts, and assemble mechanical contraptions. Miners like Johnson provide the muscle behind the metal, hacking away at the rich mineral seams beneath Westfall. Anyone stumbling into Johnson's workspace will quickly discover that he defends his dig site with lethal fervor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Miner Johnson?",
+   "aliases": [
+    "miner johnson lore",
+    "who is miner johnson",
+    "deadmines miner johnson"
+   ],
+   "answer": "Miner Johnson is a rare elite human miner allied with the Defias Brotherhood. He works deep within the Deadmines, situated in a side alcove with other laborers just before the goblin shredder."
+  },
+  {
+   "q": "Where exactly is Miner Johnson located?",
+   "aliases": [
+    "miner johnson location",
+    "where is miner johnson",
+    "how to find miner johnson"
+   ],
+   "answer": "He can be found in the upper shafts of the Deadmines before reaching the room housing Sneed and his shredder. Look for a small excavation alcove off to the left where a pocket of miners are actively chipping away at the rock."
+  },
+  {
+   "q": "Why isn't Miner Johnson always there?",
+   "aliases": [
+    "miner johnson not spawning",
+    "is miner johnson rare",
+    "miner johnson spawn rate"
+   ],
+   "answer": "Miner Johnson is a rare spawn, meaning he only appears occasionally when an expedition enters the Deadmines. Most groups running through the mine shafts will find an ordinary miner in his place instead."
+  },
+  {
+   "q": "Is Miner Johnson part of any quest?",
+   "aliases": [
+    "miner johnson quest",
+    "does miner johnson have a quest"
+   ],
+   "answer": "Miner Johnson is not associated with any formal quest bounty. He is simply an opportunistic encounter for dungeon delve parties lucky enough to find him working the seam."
+  },
+  {
+   "q": "What is Miner Johnson's role in the Deadmines?",
+   "aliases": [
+    "what does miner johnson do",
+    "miner johnson role"
+   ],
+   "answer": "He is an experienced foreman or master digger helping the Defias Brotherhood extract precious metal, stone, and resources necessary to construct their massive underground base and hidden juggernaut."
+  },
+  {
+   "q": "Is Miner Johnson dangerous compared to other miners?",
+   "aliases": [
+    "how hard is miner johnson",
+    "is miner johnson elite"
+   ],
+   "answer": "Yes. While the standard diggers throughout the Deadmines are relatively fragile, Miner Johnson is an elite combatant with significantly more vitality and striking power, requiring a coordinated group to bring down safely."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "For prospectors, Johnson represents the rugged, lawless side of subterranean labor, guarding rich mineral deposits deep beneath Westfall with blood and pickaxe."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Striking down Johnson disrupts the steady stream of smeltable ore flowing into the Defias war machine hidden below Moonbrook."
+  }
+ ],
+ "keywords": [
+  "alcove",
+  "deadmines",
+  "defias",
+  "elite",
+  "miner johnson",
+  "moonbrook",
+  "rare",
+  "shredder",
+  "westfall"
+ ],
+ "related": [
+  "zone:deadmines",
+  "subzone:deadmines"
+ ],
+ "attribution": [
+  "Miner Johnson"
+ ]
+}

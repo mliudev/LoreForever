@@ -1,0 +1,95 @@
+{
+ "key": "subzone:si-7-stormwind-city",
+ "type": "subzone",
+ "name": "SI:7 (Stormwind City)",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "SI:7 (Stormwind City)"
+ },
+ "summary": "Tucked away in the eastern corner of Old Town, this unassuming stone manor houses the headquarters of SI:7, the kingdom of Stormwind's elite intelligence and espionage service. Behind its heavy doors, spymaster Master Mathias Shaw and his senior operatives quietly monitor threats to the realm, coordinating undercover agents across the kingdom.",
+ "sections": [
+  {
+   "title": "Heart of the Kingdom's Espionage",
+   "body": "To the casual passerby in Old Town, this fortified stone structure looks little different from a standard manor or military barracks. In truth, it serves as the nerve center for Stormwind Intelligence, Section 7. Directed by Master Mathias Shaw, SI:7 gathers intelligence, conducts surveillance, and executes covert operations to protect the kingdom from subversion. While the city guard patrols the open cobblestones and the Royal Guard defends King's Square, SI:7 works in the margins, training handlers and dispatching stealthy operatives against foreign enemies, saboteurs, and domestic unrest alike.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Watchful Eye on the Shadows",
+   "body": "With King Varian Wrynn mysteriously missing and the Defias Brotherhood spreading chaos through Westfall and Duskwood, the headquarters hums with constant covert activity. Intelligence reports funnel into the building from deep-cover scouts across human lands. Down in the cellars and weapon-lined training rooms, lethal techniques are refined and missions assigned to counter threats long before they can reach the boy-king's throne room.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is SI:7?",
+   "aliases": [
+    "what is si7",
+    "who are si:7",
+    "si 7 meaning"
+   ],
+   "answer": "SI:7 stands for Stormwind Intelligence, Section 7. It is the premier covert espionage, reconnaissance, and assassination agency serving the Crown of Stormwind."
+  },
+  {
+   "q": "Who leads SI:7 in Stormwind?",
+   "aliases": [
+    "who is the leader of si7",
+    "si7 boss",
+    "who runs si:7"
+   ],
+   "answer": "Master Mathias Shaw leads the organization from within the building. Grandson of the famous rogue Pathstalker Shaw, Mathias oversees all field assignments, intelligence networks, and strategic reconnaissance for the crown."
+  },
+  {
+   "q": "Where in the city is this building located?",
+   "aliases": [
+    "where is si7",
+    "si7 location",
+    "how to get to si7"
+   ],
+   "answer": "The headquarters is situated in Old Town, tucked along the southeastern edge of the district near the canal and training yards."
+  },
+  {
+   "q": "Why is SI:7 so interested in Westfall?",
+   "aliases": [
+    "defias brotherhood si7",
+    "why is si7 watching defias"
+   ],
+   "answer": "SI:7 tracks subversive activities throughout Stormwind's territories, and the Defias Brotherhood represents the most dangerous insurrection within the realm. Shaw's operatives have placed undercover agents and scouts throughout Westfall to pinpoint their leadership and disrupt their supply lines."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "For Alliance rogues, the SI:7 building is a vital professional hub offering advanced class training, poison supplies, and clandestine assignments direct from Spymaster Mathias Shaw."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "As the unseen foundation of Stormwind's defense, SI:7's intelligence network provides the Alliance military with crucial reconnaissance against threats to the throne."
+  }
+ ],
+ "keywords": [
+  "barracks",
+  "defias",
+  "espionage",
+  "mathias shaw",
+  "old town",
+  "rogues",
+  "si7",
+  "si:7",
+  "spymaster",
+  "stormwind"
+ ],
+ "related": [
+  "npc:mathias-shaw",
+  "subzone:old-town",
+  "zone:stormwind",
+  "quest:2300",
+  "quest:65",
+  "topic:defias-brotherhood",
+  "topic:stormwind-kingdom",
+  "subzone:ravenholdt-manor"
+ ],
+ "attribution": [
+  "SI:7 (Stormwind City)"
+ ]
+}

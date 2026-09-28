@@ -1,0 +1,93 @@
+{
+ "key": "npc:verna-furlbrow",
+ "type": "npc",
+ "name": "Verna Furlbrow",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Verna Furlbrow",
+  "refs": 2
+ },
+ "summary": "Verna Furlbrow is an evicted farmer currently stranded beside her broken-down wagon near the northern border of Westfall. After bandits seized her family's pumpkin patch, she and her husband attempted to flee toward Elwynn Forest, only to find themselves stuck on the dangerous open road.",
+ "sections": [
+  {
+   "title": "A String of Misfortunes",
+   "body": "Verna and her husband once worked their own pumpkin farm in northern Westfall, but the rising tide of lawlessness sweeping the countryside drove them out. When outlaws overran their land, the couple piled what possessions they could onto their cart and hitched up their faithful horse, Old Blanchy, intending to escape to the safety of Elwynn Forest. Disastrously, their wagon broke down just down the road from the abandoned Jansen Stead. With no means to repair the axle or move forward, Verna has been left to endure the elements, bandit raids, and scavengers while relying on traveling adventurers to keep her household fed and guarded.",
+   "spoiler": 0
+  },
+  {
+   "title": "Heart of the Hearth",
+   "body": "Despite being reduced to squatting along the roadside, Verna maintains a welcoming and resourceful spirit. Known across the region as the creator of Westfall Stew, she regularly shares meals and warm fires with wandering transients and refugees who have suffered similar fates. She relies on passing wanderers to scour the fields for ingredients\u2014such as boar snouts, murloc eyes, okra, and stringy vulture meat\u2014to replenish her cooking pot, transforming whatever the harsh frontier yields into hearty sustenance for the destitute.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Verna Furlbrow camped along the road?",
+   "aliases": [
+    "why is verna furlbrow here",
+    "verna furlbrow location",
+    "what happened to verna"
+   ],
+   "answer": "Verna and her husband fled their pumpkin farm after outlaws overran northern Westfall. As they headed toward Elwynn Forest to find refuge, their wagon broke down near the Jansen Stead, leaving them stranded on the roadside."
+  },
+  {
+   "q": "Who is Farmer Furlbrow to her?",
+   "aliases": [
+    "verna furlbrow husband",
+    "is farmer furlbrow her husband"
+   ],
+   "answer": "Farmer Theodore Furlbrow is Verna's husband. Together they worked their Westfall homestead until bandits forced them off their land."
+  },
+  {
+   "q": "What is Westfall Stew?",
+   "aliases": [
+    "westfall stew quest",
+    "verna furlbrow stew",
+    "what does verna cook"
+   ],
+   "answer": "Westfall Stew is a regional frontier dish invented by Verna. She concocts it from wild boar snouts, stringy vulture meat, murloc eyes, and okra harvested from neighboring abandoned farms to sustain stranded refugees."
+  },
+  {
+   "q": "What happened to the Furlbrows' farm?",
+   "aliases": [
+    "furlbrow pumpkin farm",
+    "furlbrows farm what happened"
+   ],
+   "answer": "The Furlbrows owned a pumpkin farm in northern Westfall, but organized bandits drove them from their land during the kingdom's recent security breakdown, forcing them to abandon their home and fields."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Verna is the creator of the iconic Westfall Stew, teaching fledgling frontier chefs how to turn scavenged meats and wild crops into a fortifying meal."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The stranded Furlbrows exemplify the human cost of Stormwind's neglected borders, where ordinary citizens are driven from their homes with no royal soldiers sent to defend them."
+  }
+ ],
+ "keywords": [
+  "broken wagon",
+  "furlbrow",
+  "jansen stead",
+  "old blanchy",
+  "refugee",
+  "theodore furlbrow",
+  "verna furlbrow",
+  "westfall stew"
+ ],
+ "related": [
+  "npc:farmer-furlbrow",
+  "quest:36",
+  "quest:151",
+  "quest:64",
+  "subzone:jansen-stead",
+  "zone:westfall",
+  "topic:defias-brotherhood",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Verna Furlbrow"
+ ]
+}

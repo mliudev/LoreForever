@@ -1,0 +1,88 @@
+{
+ "key": "npc:high-chieftain-cliffwalker",
+ "type": "npc",
+ "name": "High Chieftain Cliffwalker",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "High Chieftain Cliffwalker",
+  "refs": 2
+ },
+ "summary": "High Chieftain Cliffwalker is the venerable leader of the Cliffwalker tauren residing in the Stonetalon Mountains. Anchored at Cliffwalker Post, he strives to maintain traditional tauren ties to the land and peaceful equilibrium with the region's nature-aligned denizens.",
+ "sections": [
+  {
+   "title": "A Chieftain in the Crags",
+   "body": "Perched within the rugged heights of the Stonetalon Mountains, High Chieftain Cliffwalker governs Cliffwalker Post, leading his kin in a land fraught with creeping tension between nature's protectors and outside resource extraction. Uniquely carrying the rare title of High Chieftain, he commands deep respect among his tribe. Rather than pursuing aggressive conquest, Cliffwalker favors ancestral tauren traditions, valuing harmony with the land and cautious diplomacy over needless bloodshed in Stonetalon's delicate ecosystem.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defending Stonetalon's Balance",
+   "body": "The mountains of Stonetalon harbor sacred ancient sites and ancestral groves watched over by both druidic orders and local tauren. Chieftain Cliffwalker works tirelessly to keep his people grounded amidst the volatile frictions of Kalimdor. Maintaining ties and an understanding with nearby druidic caretakers, Cliffwalker acts as a steady voice of moderation, cautioning against reckless escalation and seeking to ensure that the earth and its sacred groves are spared devastation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is High Chieftain Cliffwalker?",
+   "aliases": [
+    "cliffwalker lore",
+    "who is cliffwalker",
+    "high chieftain cliffwalker"
+   ],
+   "answer": "He is the leader of the Cliffwalker tauren tribe, dwelling high in the crags of the Stonetalon Mountains at Cliffwalker Post."
+  },
+  {
+   "q": "Why does he hold the title of High Chieftain?",
+   "aliases": [
+    "why high chieftain",
+    "high chieftain title"
+   ],
+   "answer": "While the title of High Chieftain is exceptionally rare among the tauren\u2014traditionally reserved for overall leaders like Cairne Bloodhoof\u2014Cliffwalker holds it as the supreme head of his distinct mountain clan."
+  },
+  {
+   "q": "What is his stance on conflicts in the Stonetalon Mountains?",
+   "aliases": [
+    "cliffwalker alliance",
+    "cliffwalker peace"
+   ],
+   "answer": "High Chieftain Cliffwalker advocates for honor, restraint, and preserving the sanctity of the land, actively opposing senseless slaughter and seeking peaceful coexistence around the region's sacred groves."
+  },
+  {
+   "q": "Where can High Chieftain Cliffwalker be found?",
+   "aliases": [
+    "cliffwalker location",
+    "where is cliffwalker"
+   ],
+   "answer": "He makes his home at Cliffwalker Post, an elevated settlement located in the Stonetalon Mountains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren travelers, High Chieftain Cliffwalker represents the enduring wisdom of the Earth Mother, demonstrating that true strength lies in protecting the land rather than seeking blind aggression."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids will find common ground with Cliffwalker, whose clan values the natural harmony of Stonetalon's groves and respects those who tend to nature."
+  }
+ ],
+ "keywords": [
+  "cliffwalker",
+  "cliffwalker post",
+  "high chieftain cliffwalker",
+  "stonetalon",
+  "tauren",
+  "thal'darah grove"
+ ],
+ "related": [
+  "subzone:cliffwalker-post",
+  "zone:stonetalon",
+  "topic:tauren",
+  "topic:druid",
+  "subzone:thal-darah-grove",
+  "topic:horde"
+ ],
+ "attribution": [
+  "High Chieftain Cliffwalker"
+ ]
+}

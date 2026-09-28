@@ -1,0 +1,113 @@
+{
+ "key": "npc:verner-osgood",
+ "type": "npc",
+ "name": "Verner Osgood",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Verner Osgood",
+  "refs": 10
+ },
+ "summary": "Verner Osgood is the resident blacksmith of Lakeshire, stationed just outside the town smithy. Balancing local civilian trade with the crushing demands of the Stormwind military, he works tirelessly to keep horses shod and defenders armed amid relentless gnoll raids.",
+ "sections": [
+  {
+   "title": "The Anvil of Lakeshire",
+   "body": "Standing by the forge in central Lakeshire, Verner Osgood represents the strained industrial backbone of the Redridge Mountains. Tasked with crafting basic supplies like horseshoes for local mounts, Verner finds his stock constantly co-opted to manufacture weapons and armor for the Stormwind Guard. With the kingdom stretching its borders thin and local garrisons lacking supplies, independent smiths like Verner must carry the logistical burden of the realm's defense.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Plague of Gnolls",
+   "body": "Verner's troubles extend far beyond a shortage of iron. The gnolls infesting the Redridge hills routinely ambush livestock, carrying off working horses whenever they stray outside the town perimeter. Driven to exasperation by the destruction of his livelihood, Verner actively recruits traveling adventurers to cull the marauding packs and hunt down their ferocious packleader, Yowler.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Verner Osgood?",
+   "aliases": [
+    "verner osgood",
+    "lakeshire blacksmith",
+    "who is verner"
+   ],
+   "answer": "Verner Osgood is the local blacksmith operating the forge in Lakeshire. He handles metalwork and horse shoeing for the town while attempting to meet the heavy equipment demands of the local garrison."
+  },
+  {
+   "q": "Why is Verner low on horseshoes and iron?",
+   "aliases": [
+    "verner out of iron",
+    "price of shoes quest lore",
+    "why no horseshoes"
+   ],
+   "answer": "The town's supply of iron is continually requisitioned to forge weapons and armor for the Stormwind Guard stationed in Redridge, leaving Verner with barely enough metal to care for the local horses."
+  },
+  {
+   "q": "What problem does Verner have with the gnolls?",
+   "aliases": [
+    "verner gnoll problem",
+    "why does verner hate gnolls"
+   ],
+   "answer": "Gnoll raiding parties roam closely around Lakeshire, snatching away Verner's horses whenever they wander away from town. He seeks retribution and safety by hiring adventurers to eliminate the beasts."
+  },
+  {
+   "q": "Who is Yowler and why does Verner want him dead?",
+   "aliases": [
+    "who is yowler",
+    "verner yowler quest"
+   ],
+   "answer": "Yowler is the menacing leader of the local gnoll packs in the hills. Verner wants him slain to break the coordination of the raiders who terrorize the township and slaughter his horses."
+  },
+  {
+   "q": "What is Verner's connection to Magistrate Solomon?",
+   "aliases": [
+    "verner magistrate solomon",
+    "verner and the town leadership"
+   ],
+   "answer": "Verner operates under the civic authority of Magistrate Solomon in Lakeshire, balancing civilian craft with the civic and martial needs commanded by the magistrate's beleaguered administration."
+  },
+  {
+   "q": "Does Verner have family in Stormwind?",
+   "aliases": [
+    "verner relatives",
+    "osgood family"
+   ],
+   "answer": "He shares a surname with several other tradesmen in the Kingdom of Stormwind, such as Donal and Basil Osgood, suggesting an established lineage of working-class human craftsmen across the region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Verner embodies the gritty reality of rural smithing, balancing civilian shoeing with the harsh quotas demanded by garrison defense."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Towns like Lakeshire depend on local craftsmen like Verner to survive as Stormwind's military aid remains dangerously constrained."
+  },
+  {
+   "target": "race:Human",
+   "text": "Osgood represents the enduring resilience of the Kingdom of Stormwind's common folk, holding ground against gnolls and shortages alike."
+  }
+ ],
+ "keywords": [
+  "blacksmith",
+  "gnolls",
+  "horses",
+  "lakeshire",
+  "magistrate solomon",
+  "redridge",
+  "verner osgood",
+  "yowler"
+ ],
+ "related": [
+  "subzone:lakeshire",
+  "zone:redridge",
+  "quest:118",
+  "quest:126",
+  "quest:124",
+  "npc:magistrate-solomon",
+  "topic:stormwind-guard",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Verner Osgood"
+ ]
+}

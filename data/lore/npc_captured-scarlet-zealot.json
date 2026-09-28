@@ -1,0 +1,76 @@
+{
+ "key": "npc:captured-scarlet-zealot",
+ "type": "npc",
+ "name": "Captured Scarlet Zealot",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Captured Scarlet Zealot",
+  "refs": 1
+ },
+ "summary": "The Captured Scarlet Zealot is a crusader prisoner held captive in the basement of Gallows' End Tavern in Brill. Watched over by Forsaken apothecaries and townsfolk, he serves as a living test subject for the Royal Apothecary Society's developing concoctions.",
+ "sections": [
+  {
+   "title": "A Bitter Captive in Brill",
+   "body": "Confined beneath Gallows' End Tavern, this member of the Scarlet Crusade embodies the unyielding fanaticism of his order. Even in chains, surrounded by the undead he views as an abomination, he offers no remorse and venomously denounces anyone who speaks to him\u2014such as Renee Lauer, whom he reviles as a traitor. For the Forsaken, capturing a living zealot is not an act of mercy; it provides valuable human test material to evaluate the lethality of experimental plagues and toxins under development by Apothecary Johaan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is a Scarlet Zealot kept alive in Brill?",
+   "aliases": [
+    "why is scarlet zealot captured",
+    "why keep zealot alive",
+    "who is the zealot in brill cellar"
+   ],
+   "answer": "The Forsaken keep him captive in the tavern basement as a living subject for testing new poisons and chemical agents developed by the Royal Apothecary Society."
+  },
+  {
+   "q": "Where can I find this captive?",
+   "aliases": [
+    "where is captured scarlet zealot",
+    "scarlet zealot location",
+    "zealot in brill"
+   ],
+   "answer": "He is imprisoned in the damp cellar beneath Gallows' End Tavern, situated in the center of Brill in Tirisfal Glades."
+  },
+  {
+   "q": "How does he react to the Forsaken around him?",
+   "aliases": [
+    "what does the zealot say",
+    "zealot dialogue",
+    "renee lauer and zealot"
+   ],
+   "answer": "He remains fanatically defiant despite his confinement, lashing out with insults and labeling locals like Renee Lauer traitors to humanity and the Light."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "To the Forsaken of Brill, this fanatic in chains represents the relentless crusaders seeking their extermination, serving a far more useful role as an apothecary's guinea pig."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Scarlet zealots claim exclusive dominion over the Holy Light, yet this prisoner's unwavering zeal offers no defense against the grim reality of Forsaken captivity."
+  }
+ ],
+ "keywords": [
+  "apothecary johaan",
+  "brill",
+  "captured scarlet zealot",
+  "gallows' end tavern",
+  "prisoner",
+  "renee lauer",
+  "scarlet crusade",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:gallows-end-tavern",
+  "zone:tirisfal",
+  "quest:365"
+ ],
+ "attribution": [
+  "Captured Scarlet Zealot"
+ ]
+}

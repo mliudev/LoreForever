@@ -1,0 +1,109 @@
+{
+ "key": "npc:yaw-sharpmane",
+ "type": "npc",
+ "name": "Yaw Sharpmane",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Yaw Sharpmane",
+  "refs": 5
+ },
+ "summary": "Yaw Sharpmane is an experienced tauren hunter trainer stationed in Bloodhoof Village in Mulgore. He guides young hunters venturing out from Camp Narache, helping them master the wild beasts of their ancestral plains.",
+ "sections": [
+  {
+   "title": "A Guide on the Plains",
+   "body": "Positioned amidst the tents and fires of Bloodhoof Village, Yaw Sharpmane serves the Shu'halo as an instructor in the ways of marksmanship, tracking, and survival. Young hunters who have proven themselves in Red Cloud Mesa are directed to Yaw to hone their craft as they step onto the broader plains of Mulgore.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mastering the Bond",
+   "body": "Yaw's most essential role is guiding novice hunters through the ancient rite of taming wild beasts. He tasks initiates with bonding with the native fauna of Mulgore, testing their patience and respect for the natural balance before instructing them on how to properly care for and train a permanent companion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Yaw Sharpmane?",
+   "aliases": [
+    "yaw sharpmane",
+    "who is yaw",
+    "bloodhoof hunter trainer"
+   ],
+   "answer": "Yaw Sharpmane is the resident hunter trainer in Bloodhoof Village. He instructs young tauren hunters in marksmanship, wilderness survival, and the art of taming animal companions."
+  },
+  {
+   "q": "Where can I find Yaw Sharpmane?",
+   "aliases": [
+    "yaw sharpmane location",
+    "where is yaw",
+    "yaw coords"
+   ],
+   "answer": "Yaw is located in Bloodhoof Village, situated in central Mulgore along the shores of Stonebull Lake."
+  },
+  {
+   "q": "What does Yaw Sharpmane teach hunters?",
+   "aliases": [
+    "what does yaw teach",
+    "yaw hunter skills",
+    "yaw abilities"
+   ],
+   "answer": "He offers standard hunter training, selling rank-ups for basic abilities and directing promising hunters through the rites required to tame and command beasts."
+  },
+  {
+   "q": "What quests does Yaw offer?",
+   "aliases": [
+    "yaw quests",
+    "yaw sharpmane quests"
+   ],
+   "answer": "Yaw provides the tauren version of the beast-taming questline, starting with 'The Hunter's Path' and progressing through 'Taming the Beast' and 'Training the Beast.'"
+  },
+  {
+   "q": "Why do hunters need to speak to him around level 10?",
+   "aliases": [
+    "yaw level 10",
+    "tame beast bloodhoof"
+   ],
+   "answer": "Upon reaching their tenth season, hunters are sent to Yaw to learn the sacred methods of capturing, feeding, and commanding permanent animal companions from the wilds of Mulgore."
+  },
+  {
+   "q": "Does Yaw Sharpmane interact with non-hunters?",
+   "aliases": [
+    "yaw non hunters",
+    "can other classes talk to yaw"
+   ],
+   "answer": "He will speak politely with travelers of other callings, but his professional knowledge and specific quest trials are reserved strictly for hunters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For tauren hunters leaving the safety of Red Cloud Mesa, Yaw Sharpmane is an essential mentor who guides you through bonding with your very first wild companion."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Yaw represents the revered Shu'halo tradition of living in harmony with nature and honoring the spirits of the wild beasts of Mulgore."
+  }
+ ],
+ "keywords": [
+  "beasts",
+  "bloodhoof",
+  "hunter",
+  "mulgore",
+  "sharpmane",
+  "taming",
+  "tauren",
+  "trainer",
+  "yaw"
+ ],
+ "related": [
+  "subzone:bloodhoof-village",
+  "zone:mulgore",
+  "quest:6061",
+  "quest:6081",
+  "quest:6065",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Yaw Sharpmane"
+ ]
+}

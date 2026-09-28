@@ -1,0 +1,133 @@
+{
+ "key": "quest:1689",
+ "type": "quest",
+ "name": "The Binding",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   1689
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Gakin the Darkbinder",
+  "end": "",
+  "previous": "Surena Caledon (quest)",
+  "next": null,
+  "wiki": "The Binding (Voidwalker, Stormwind)",
+  "chain": [
+   "Gakin's Summons (Voidwalker)",
+   "Surena Caledon (quest)",
+   "The Binding (Voidwalker, Stormwind)"
+  ]
+ },
+ "summary": "The Binding is the final trial in an Alliance warlock's early training to bind a voidwalker in Stormwind City. Directed by Gakin the Darkbinder, the aspiring summoner uses a recovered Bloodstone Choker to pull an abyssal minion into a hidden subterranean circle and beat it into submission.",
+ "sections": [
+  {
+   "title": "Subjugation in the Crypts",
+   "body": "Beneath the Slaughtered Lamb in Stormwind's Mage Quarter winds a complex of forgotten catacombs, far from the watchful gaze of the Silver Hand and Kirin Tor magistrates. Here, Gakin the Darkbinder instructs novice practitioners that mastering the dark arts is not merely about channeling magical currents, but asserting total dominance over otherworldly entities. After recovering Gakin's stolen Bloodstone Choker from Surena Caledon, the warlock is tasked with drawing forth a voidwalker directly into the summoning circle beneath the tavern.",
+   "spoiler": 0
+  },
+  {
+   "title": "Asserting Will over the Void",
+   "body": "A voidwalker cannot be negotiated with; it must be broken. Utilizing the latent power inside the Bloodstone Choker, the summoner tears a rift, pulling a creature of shadow into the mortal plane. To complete the pact, the warlock must physically and magically batter the entity until its will shatters, proving their authority. Once overcome, the voidwalker's essence is bound to the caster, granting the warlock a durable, shadowy protector capable of absorbing brutal punishment in the battles ahead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the summoning circle located?",
+   "aliases": [
+    "summoning circle location",
+    "where do i summon the voidwalker",
+    "where is the circle"
+   ],
+   "answer": "The summoning circle is deep inside the basement catacombs beneath The Slaughtered Lamb in Stormwind's Mage Quarter. From Gakin the Darkbinder, follow the stairs down into the underground passages until you reach the lowest chamber bearing a glowing purple ritual rune on the stone floor."
+  },
+  {
+   "q": "Who is Gakin the Darkbinder?",
+   "aliases": [
+    "who is gakin",
+    "gakin the darkbinder lore",
+    "gakin"
+   ],
+   "answer": "Gakin the Darkbinder is a warlock trainer operating covertly beneath The Slaughtered Lamb tavern in Stormwind. He secretly tutors promising human and gnome practitioners in summoning, subjugation, and controlling demonic and void-touched entities without alerting the city guard or church authorities."
+  },
+  {
+   "q": "What is the Bloodstone Choker used for?",
+   "aliases": [
+    "bloodstone choker use",
+    "why do i need the choker",
+    "choker"
+   ],
+   "answer": "The Bloodstone Choker is a magical talisman previously stolen by Surena Caledon. Imbued with focused magical power, it acts as a catalyst that allows a novice warlock to breach the veil and draw forth an unruly voidwalker inside the designated summoning circle."
+  },
+  {
+   "q": "Why do warlocks have to fight their demons to bind them?",
+   "aliases": [
+    "why fight the voidwalker",
+    "why subdue demons",
+    "demon subjugation"
+   ],
+   "answer": "Extraplanar entities like demons and void creatures do not willingly serve mortal masters. A warlock must demonstrate superior strength and an iron will by physically or magically breaking the creature in combat before establishing a permanent, subservient bond."
+  },
+  {
+   "q": "What happens after completing the ritual?",
+   "aliases": [
+    "what reward do i get",
+    "voidwalker spell",
+    "after the binding"
+   ],
+   "answer": "Once the creature is defeated and the choker returned to Gakin, the warlock gains the knowledge and ritual technique required to summon and command a loyal voidwalker to shield them during their travels."
+  },
+  {
+   "q": "Why is this ritual performed in secret beneath a tavern?",
+   "aliases": [
+    "why hidden under tavern",
+    "is fel magic illegal",
+    "slaughtered lamb basement"
+   ],
+   "answer": "Demonology and void magic are strictly taboo, viewed with intense hostility by the Church of the Holy Light and the magi of the Alliance. Warlocks in Stormwind operate from concealed basements and catacombs to practice their forbidden arts away from the authorities."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This rite of passage provides the warlock with their primary defensive minion, marking the shift from reckless dabbler to a commander of extradimensional forces."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though the Alliance champions the Holy Light and arcane order, pragmatic leaders turn a blind eye to dark practitioners operating beneath the Mage Quarter, recognizing the necessity of their grim arts in perilous times."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human warlocks must navigate the intense scrutiny of Stormwind's priesthood, mastering dangerous entities in the shadows while keeping their power hidden from the city above."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnome warlocks bring clinical curiosity to dark summoning, treating the subjugation of void entities as a precise metaphysical experiment under Gakin's guidance."
+  }
+ ],
+ "keywords": [
+  "binding",
+  "bloodstone choker",
+  "gakin the darkbinder",
+  "mage quarter",
+  "slaughtered lamb",
+  "stormwind",
+  "summoning circle",
+  "voidwalker"
+ ],
+ "related": [
+  "npc:gakin-the-darkbinder",
+  "quest:1688",
+  "quest:1685",
+  "zone:stormwind",
+  "quest:1471",
+  "zone:elwynn",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "The Binding (Voidwalker, Stormwind)"
+ ]
+}

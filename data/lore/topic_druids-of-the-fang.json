@@ -1,0 +1,122 @@
+{
+ "key": "topic:druids-of-the-fang",
+ "type": "topic",
+ "name": "Druids of the Fang",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Druids of the Fang"
+ },
+ "summary": "The Druids of the Fang are a splinter sect of night elf druids who succumbed to corruption deep within the Wailing Caverns. Originally disciples of the visionary Archdruid Naralex, they abandoned the Cenarion Circle after their master's connection to the Emerald Dream turned into a foul nightmare. Under the self-proclaimed Lord Serpentis, they now wield serpent-like forms and seek to remake the Barrens into their own twisted paradise.",
+ "sections": [
+  {
+   "title": "A Noble Vision Turned Poisonous",
+   "body": "The Barrens was not always an arid wasteland, and Archdruid Naralex sought to return it to the lush, verdant sanctuary it once was. Naralex led a dedicated order of young druids into the subterranean depths of the Wailing Caverns, tapping into the natural underground fissures and subterranean springs. By entering an induced slumber, Naralex hoped to channel the living energies of the Emerald Dream into the waterways, nursing the scorched savannah above back to vibrant life.",
+   "spoiler": 0
+  },
+  {
+   "title": "Descent into Nightmare",
+   "body": "Something went horribly awry inside Naralex's trance. Instead of channeling the pristine serenity of the Emerald Dream, Naralex\u2019s slumber was infiltrated by a malevolent, twisting nightmare. This darkness seeped outwards through the caverns, rapidly warping the resident wildlife and poisoning the underground springs. Rather than fleeing to seek aid from the Cenarion Circle, Naralex's acolytes were overwhelmed by the nightmare's influence, their minds and spirits mutating alongside the subterranean ecosystem.",
+   "spoiler": 1
+  },
+  {
+   "title": "The Fang Ascendant",
+   "body": "Naralex's prize pupil, once a dedicated student, cast aside his master's original teachings and embraced the corruption under the title of Lord Serpentis. Rallying the fallen acolytes to form the Druids of the Fang, Serpentis adopted the primal, venomous aspects of vipers and serpents rather than the traditional bear and cat forms sanctioned by Cenarius. The cult effectively imprisoned their slumbering archdruid, intent on feeding on his nightmare to violently remold the Barrens into their own serpent-ruled paradise.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are the Druids of the Fang?",
+   "aliases": [
+    "druids of the fang lore",
+    "who are the fang druids",
+    "wailing caverns druids"
+   ],
+   "answer": "They are a corrupted order of night elf druids who entered the Wailing Caverns under Archdruid Naralex. Instead of healing the Barrens, they were driven mad when Naralex's trance tapped into a dark nightmare, transforming them into fanatical snake-worshiping renegades."
+  },
+  {
+   "q": "Why did they enter the Wailing Caverns originally?",
+   "aliases": [
+    "why are they in wailing caverns",
+    "naralex goal",
+    "why heal the barrens"
+   ],
+   "answer": "Naralex and his acolytes sought to tap into the cavern's rich subterranean springs. By channeling the lush vitality of the Emerald Dream into the water system, they hoped to turn the arid Barrens back into a thriving, green forest."
+  },
+  {
+   "q": "Who leads the Druids of the Fang?",
+   "aliases": [
+    "leader of the fang",
+    "lord serpentis lore",
+    "who leads them"
+   ],
+   "answer": "They are led by Lord Serpentis. Once the foremost and brightest student of Archdruid Naralex, Serpentis fell wholly into madness when the nightmare struck, declaring himself the leader of the newly formed Druids of the Fang."
+  },
+  {
+   "q": "What animal forms do they take?",
+   "aliases": [
+    "snake form druids",
+    "fang druid shapeshift",
+    "serpent form"
+   ],
+   "answer": "Unlike traditional druids of the Cenarion Circle who adopt the forms of bears, cats, or stormcrows, the Druids of the Fang draw on venomous serpents and vipers, embracing serpentine magic and vicious snake transformations."
+  },
+  {
+   "q": "How does the Cenarion Circle view them?",
+   "aliases": [
+    "cenarion circle opinion",
+    "are they part of the cenarion circle",
+    "hamuul on the fang"
+   ],
+   "answer": "The Cenarion Circle views the Druids of the Fang as a dangerous aberration and a cult. Leaders like Archdruid Hamuul Runetotem and Naralex's remaining loyalists work urgently to eliminate the leaders of the Fang and cleanse the corruption before it destroys the land."
+  },
+  {
+   "q": "What happened to Naralex?",
+   "aliases": [
+    "is naralex dead",
+    "naralex status",
+    "where is naralex"
+   ],
+   "answer": "Naralex remains trapped in a deep, agonizing slumber within the heart of the Wailing Caverns. His disciples keep him confined, using his ongoing nightmare as the power source to warp the caverns and their own magic."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The Druids of the Fang represent the grave peril of the Emerald Dream being corrupted, demonstrating what happens when a druid abandons Cenarion harmony for twisted, unorthodox animal forms."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Archdruid Hamuul Runetotem and the tauren druids of Thunder Bluff are deeply invested in ending the Fang's threat, viewing their defilement of the Barrens' water as an affront to the Earth Mother."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Seeing kaldorei brethren degenerate into a feral, nightmare-ridden snake cult in the heart of Kalimdor is a bitter sorrow and embarrassment for night elf traditions."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "druids of the fang",
+  "emerald dream",
+  "hamuul runetotem",
+  "naralex",
+  "nightmare",
+  "serpentis",
+  "snake form",
+  "wailing caverns"
+ ],
+ "related": [
+  "npc:lord-serpentis",
+  "npc:naralex",
+  "zone:wailing",
+  "quest:914",
+  "topic:emerald-dream",
+  "topic:druid",
+  "quest:1489",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Druids of the Fang"
+ ]
+}

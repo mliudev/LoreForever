@@ -1,0 +1,118 @@
+{
+ "key": "quest:226",
+ "type": "quest",
+ "name": "Wolves at Our Heels",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   226
+  ],
+  "level": "21",
+  "faction": "Alliance",
+  "start": "Lars",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Wolves at Our Heels (Classic)",
+  "chain": []
+ },
+ "summary": "Wolves at Our Heels is an Alliance quest offered by Lars at Sven's Camp in western Duskwood. Tasked with hunting the rabid and starving dire wolves stalking the surrounding woods, travelers help clear immediate wilderness threats so Sven and Lars can focus on their vendetta against the necromancer Morbent Fel.",
+ "sections": [
+  {
+   "title": "A Precarious Camp",
+   "body": "Tucked away along the western hills of Duskwood near the Westfall border, Sven Yorgen and his companion Lars maintain an isolated outpost. Living away from Darkshire leaves them entirely reliant on their own foraging and hunting to survive. However, carrying fresh game through these dark woods makes Lars an irresistible target for the ravenous predators stalking the shadowed riverbanks and underbrush.",
+   "spoiler": 0
+  },
+  {
+   "title": "Clearing the Woods",
+   "body": "The local packs of starving and rabid dire wolves roam primarily to the north and east of the camp toward the river. By culling these frenzied beasts, travelers lift an immediate siege on Lars's hunting efforts. Thinning out the wolves frees both men from constantly fighting for their daily bread, allowing them to turn their full attention toward the necromancer Morbent Fel, who lurks further east.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lars?",
+   "aliases": [
+    "lars",
+    "who gives wolves at our heels",
+    "quest giver lars"
+   ],
+   "answer": "Lars is a rugged survivalist aiding Sven Yorgen at a small camp nestled in the hills of western Duskwood. He handles the camp's daily hunting and foraging while Sven obsesses over vengeance against the dark forces threatening the region."
+  },
+  {
+   "q": "Where are the wolves prowling?",
+   "aliases": [
+    "wolf location",
+    "where are rabid dire wolves",
+    "where are starving dire wolves"
+   ],
+   "answer": "The dire wolves roam the forests directly north and east of Sven's Camp, especially along the banks of the river that divides Duskwood from the zones to the north."
+  },
+  {
+   "q": "Why are the dire wolves so aggressive?",
+   "aliases": [
+    "why are wolves attacking",
+    "rabid wolves duskwood"
+   ],
+   "answer": "Duskwood's wilderness has deteriorated under an encroaching shadow. Game is scarce, driving the dire wolves into near starvation, and disease or dark corruption has left many of them rabid and recklessly violent toward anyone carrying fresh meat."
+  },
+  {
+   "q": "Who is Morbent Fel?",
+   "aliases": [
+    "morbent fel",
+    "the necromancer",
+    "who is the necromancer to the east"
+   ],
+   "answer": "Morbent Fel is a powerful necromancer practicing dark arts from the cemetery and mounds to the east. Sven and Lars hold a bitter grudge against him and are preparing to take him down once their basic survival needs are met."
+  },
+  {
+   "q": "What are the Flash Bundles Lars gives as a reward?",
+   "aliases": [
+    "flash bundles",
+    "lars reward",
+    "what is flash bundle"
+   ],
+   "answer": "Flash Bundles are crafted incendiary devices made by the townsfolk of Darkshire. Sympathetic residents donated them to Sven's camp to aid his struggle against the undead and beasts infesting the woods."
+  },
+  {
+   "q": "Why don't Sven and Lars live in Darkshire?",
+   "aliases": [
+    "why live in a camp",
+    "svens camp location",
+    "why not in town"
+   ],
+   "answer": "Sven's family suffered a tragedy that turned him into an embittered, driven vigilante. Rather than sheltering behind the Night Watch in Darkshire, Sven and Lars stationed themselves in the wild to stalk the evils plaguing the woods firsthand."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Taming or culling Duskwood's warped wildlife demands acute awareness; these dire wolves are far more desperate and vicious than ordinary forest beasts."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Helping Lars stabilizes Sven's remote camp, securing an allied staging ground against the undead forces plaguing western Duskwood."
+  }
+ ],
+ "keywords": [
+  "dire wolf",
+  "duskwood",
+  "flash bundles",
+  "lars",
+  "morbent fel",
+  "rabid dire wolf",
+  "starving dire wolf",
+  "sven",
+  "sven's camp"
+ ],
+ "related": [
+  "npc:lars",
+  "quest:230",
+  "quest:55",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Wolves at Our Heels (Classic)"
+ ]
+}

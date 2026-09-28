@@ -1,0 +1,116 @@
+{
+ "key": "quest:761",
+ "type": "quest",
+ "name": "Swoop Hunting",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   761
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Harken Windtotem",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Swoop Hunting",
+  "chain": []
+ },
+ "summary": "Swoop Hunting is a rite of tracking and marksmanship offered by Harken Windtotem in Bloodhoof Village. To prove their cleverness and patience, hunters and travelers are challenged to stalk the elusive birds across the rolling plains of Mulgore. Returning with their pristine trophy quills demonstrates both dedication to the hunt and respect for the natural trials of the Earth Mother.",
+ "sections": [
+  {
+   "title": "A Test of Keen Eyes",
+   "body": "The grassy steppes of Mulgore are teeming with beasts, but few test a pursuer's instincts like the native swoop. These large predatory birds blend seamlessly into the skyline and plains, wheeling overhead or skimming low across the tall grass. Unlike lumbering plainstriders or grazing kodo, swoops demand acute focus and swift feet to run down, making their pursuit a traditional proving exercise for younger hunters seeking to earn their standing among the tribes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Badges of the Hunt",
+   "body": "For Harken Windtotem, gathering trophy quills is less about culling wildlife and more about cultivating discipline. In tauren culture, carrying tokens from a hard-won stalk signifies cleverness and perseverance. Presenting these unblemished quills to elders in Bloodhoof Village marks an adventurer as capable of sustaining and defending the community, demonstrating that their hooves are swift and their senses sharp enough to master the wider world.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of hunting swoops for Harken Windtotem?",
+   "aliases": [
+    "why hunt swoops",
+    "harken windtotem quest purpose",
+    "swoop hunting purpose"
+   ],
+   "answer": "Harken Windtotem tasks hunters with tracking swoops across Mulgore to test their cleverness, speed, and dedication. Bringing back intact trophy quills serves as recognized proof of a hunter's skill and earns honor among the tauren of Bloodhoof Village."
+  },
+  {
+   "q": "Where are swoops typically encountered?",
+   "aliases": [
+    "where are swoops",
+    "swoop locations mulgore",
+    "find swoops"
+   ],
+   "answer": "Swoops can be found scattered throughout the open plains of Mulgore, soaring above the prairies or scanning the grasses for prey outside settlements like Bloodhoof Village."
+  },
+  {
+   "q": "Why are swoops considered tricky to hunt?",
+   "aliases": [
+    "why are swoops hard to catch",
+    "swoop behavior"
+   ],
+   "answer": "Unlike herd animals that move together across the flats, swoops are swift, alert raptors that remain widespread and observant. Stalking them requires sharp vision to spot their flight paths and quick strides to bring them down before they escape."
+  },
+  {
+   "q": "What do the trophy quills signify to the tauren?",
+   "aliases": [
+    "trophy swoop quill meaning",
+    "significance of quills"
+   ],
+   "answer": "Within tauren traditions, trophy swoop quills represent patience, sharp vision, and successful pursuit. Displaying them signifies that a hunter possesses the instincts necessary to provide for and protect the tribe."
+  },
+  {
+   "q": "Who is Harken Windtotem?",
+   "aliases": [
+    "who gives swoop hunting",
+    "harken windtotem lore"
+   ],
+   "answer": "Harken Windtotem is a respected tauren resident of Bloodhoof Village who observes newcomers and aspiring hunters, evaluating their resourcefulness through traditional trials across the plains."
+  },
+  {
+   "q": "Does this hunt impact the balance of nature in Mulgore?",
+   "aliases": [
+    "is swoop hunting overhunting",
+    "swoop balance mulgore"
+   ],
+   "answer": "The tauren approach hunting as a sacred dialogue with the Earth Mother rather than wanton slaughter. Gathering quills is a measured test of discipline that honors the cleverness of the prey while sustaining tribal balance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren youths and wanderers, hunting the swift swoops of Mulgore is a venerable rite of passage that sharpens tracking instincts and upholds ancestral hunting customs."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The hunt offers an early masterclass in leading aerial quarry, assessing behavioral patterns, and executing precise strikes against vigilant predators."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Tracking swoops across the windswept mesas brings druids into closer communion with the predatory birds that maintain the balance of Mulgore's skies."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "harken windtotem",
+  "mulgore",
+  "swoop",
+  "swoop hunting",
+  "tauren trial",
+  "trophy swoop quill"
+ ],
+ "related": [
+  "npc:harken-windtotem",
+  "subzone:bloodhoof-village",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Swoop Hunting"
+ ]
+}

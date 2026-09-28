@@ -1,0 +1,121 @@
+{
+ "key": "quest:817",
+ "type": "quest",
+ "name": "Practical Prey",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   817
+  ],
+  "level": "8",
+  "faction": "Horde",
+  "start": "Vel'rin Fang",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Practical Prey",
+  "chain": []
+ },
+ "summary": "Practical Prey is a hunting task given by the leatherworker Vel'rin Fang in Sen'jin Village. Facing a growing population and dwindling stockpiles, the Darkspear tribe must harvest durable tiger hides from the neighboring Echo Isles to craft essential shelters, clothing, and gear.",
+ "sections": [
+  {
+   "title": "A Matter of Survival",
+   "body": "Life along the arid coast of Durotar is harsh, and the Darkspear trolls exiled to Sen'jin Village must make full use of every resource. Tiger pelts are among the most versatile materials available, essential for stitching together tents, heavy blankets, and reinforced armor. As the settlement swells with refugees and returning scouts, stockpiles have worn thin, compelling craftspeople like Vel'rin Fang to commission new hunts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Balance and the Hunt",
+   "body": "The Darkspear maintain a deliberate relationship with the predators of their territory. Rather than overhunting the native Durotar tigers, the trolls generally allow the prowlers to thrive unmolested, culling them only when tribal stores require replenishment. Venturing across the water to the Echo Isles to stalk these predators serves both practical necessity and a traditional test of patience, discipline, and wilderness skill.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Vel'rin Fang?",
+   "aliases": [
+    "vel'rin fang",
+    "who gives practical prey",
+    "velrin fang"
+   ],
+   "answer": "Vel'rin Fang is a Darkspear troll artisan based in Sen'jin Village who works with pelts and leather. He directs hunters to gather essential hides to keep the tribe clothed, sheltered, and equipped."
+  },
+  {
+   "q": "Why does Sen'jin Village need tiger furs?",
+   "aliases": [
+    "why tiger pelts",
+    "practical prey purpose",
+    "what are furs used for"
+   ],
+   "answer": "The growing population of Sen'jin Village has strained its existing reserves. Tiger pelts provide durable materials for warm blankets, sturdy tents, and leather armor to protect the villagers against the harsh elements."
+  },
+  {
+   "q": "Where are the Durotar tigers found?",
+   "aliases": [
+    "where are the tigers",
+    "tiger location",
+    "echo isles tigers"
+   ],
+   "answer": "The tigers stalk the wilderness across the Echo Isles, the archipelago situated just off the southeastern coastline of Durotar."
+  },
+  {
+   "q": "Why don't the trolls hunt all the tigers nearby?",
+   "aliases": [
+    "why let tigers thrive",
+    "culling the flock"
+   ],
+   "answer": "Vel'rin explains that the Darkspear deliberately balance their needs with the local ecology. They allow the predators to thrive so the population remains sustainable, stepping in to cull them only when the village's material demands outpace their supplies."
+  },
+  {
+   "q": "Is hunting tigers significant to Darkspear culture?",
+   "aliases": [
+    "tiger hunt tradition",
+    "first tiger hunt"
+   ],
+   "answer": "Yes. Stalking a tiger is viewed as a rite of patience and cunning. Vel'rin fondly recounts waiting nearly an entire day motionless in the foliage of the Echo Isles before claiming his first major hunting victory."
+  },
+  {
+   "q": "Why must hunters travel to the Echo Isles if Zalazane holds them?",
+   "aliases": [
+    "tigers on echo isles",
+    "why go to echo isles"
+   ],
+   "answer": "While the traitor witch doctor Zalazane and his hexed minions occupy much of the archipelago, the wild beasts of the islands remain abundant. Scavenging and hunting along the outer shores remains a necessary risk for the Darkspear."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For the exiled Darkspear, hunting across the Echo Isles is a bitter reminder of their lost home, where providing for the clan requires treading ground stolen by Zalazane."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Vel'rin's tale of enduring a full day of silent tracking before springing the trap speaks directly to the core virtues of patience and precision taught to all young hunters."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Supporting the fledgling Darkspear enclave with essential trade goods helps anchor the Horde's southern flank along the Great Sea."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "durotar tiger",
+  "echo isles",
+  "hunting",
+  "leatherworking",
+  "practical prey",
+  "sen'jin village",
+  "tiger fur",
+  "vel'rin fang"
+ ],
+ "related": [
+  "subzone:sen-jin-village",
+  "subzone:echo-isles",
+  "zone:durotar",
+  "quest:808",
+  "subzone:razor-hill"
+ ],
+ "attribution": [
+  "Practical Prey"
+ ]
+}

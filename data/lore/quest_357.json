@@ -1,0 +1,132 @@
+{
+ "key": "quest:357",
+ "type": "quest",
+ "name": "The Lich's Identity",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   357
+  ],
+  "level": "8",
+  "faction": "Horde",
+  "start": "Bethor Iceshard",
+  "end": "",
+  "previous": "The Prodigal Lich",
+  "next": "Return the Book",
+  "wiki": "The Lich's Identity",
+  "chain": []
+ },
+ "summary": "The Lich's Identity is an Undercity quest given by Bethor Iceshard in the Magic Quarter. Seeking to uncover the identity of a reclusive lich living on Brightwater Lake, Bethor sends an emissary to steal the figure's spellbook to gauge his power and allegiance.",
+ "sections": [
+  {
+   "title": "A Recluse on the Lake",
+   "body": "North of the Undercity, in the misty waters of Brightwater Lake, a lone lich dwells in self-imposed exile on Mage Island. Unlike the mindless pawns of the Lich King, this necromancer possesses his own free will, yet he lives in deep paranoia. Convinced that any undead who approach him are Scourge thralls sent to drag him back into servitude, he unleashes his summoned minions on anyone setting foot on his shores.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Valuable Asset",
+   "body": "Word of the rogue lich eventually reached Bethor Iceshard, the archmage overseeing the mages in the Undercity. Bethor recognized the strategic importance of such an entity: Lady Sylvanas Windrunner seeks every scrap of magical mastery and every capable will to bolster the Forsaken against their many foes. To assess whether the hermit could be recruited, Bethor requires proof of his identity and necromantic expertise.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Old Friend Found",
+   "body": "After the stolen spellbook is delivered to the Magic Quarter, Bethor examines its arcane script and discovers the lich's true identity: Gunther Arcanus. In life, Gunther had been a talented necromancer and a close comrade of Bethor before the plague ravaged Lordaeron. The realization confirms that Gunther is not only an independent soul, but an old ally whose expanded necromantic powers could greatly benefit the Dark Lady's realm.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you on this mission?",
+   "aliases": [
+    "quest giver",
+    "bethor iceshard location",
+    "who gives the lichs identity"
+   ],
+   "answer": "Bethor Iceshard, a prominent undead mage trainer stationed in the Magic Quarter of the Undercity, assigns the task."
+  },
+  {
+   "q": "Why does the lich attack anyone who approaches him?",
+   "aliases": [
+    "why is gunther hostile",
+    "why does the lich attack",
+    "brightwater lich hostile"
+   ],
+   "answer": "The lich broke free of the Lich King's control by his own will, but he mistakenly believes that all other undead in Lordaeron remain mind-controlled Scourge thralls. As a result, he orders his minions to attack any who approach his island to defend his freedom."
+  },
+  {
+   "q": "Where is the lich's camp located?",
+   "aliases": [
+    "where is the lich",
+    "brightwater lake island",
+    "gunther arcanus location"
+   ],
+   "answer": "He lives on an island in the middle of Brightwater Lake, located in Tirisfal Glades directly north of the Ruins of Lordaeron and Undercity."
+  },
+  {
+   "q": "Why does Lady Sylvanas want him brought into the Forsaken?",
+   "aliases": [
+    "why recruit the lich",
+    "forsaken interest in gunther",
+    "sylvanas lich"
+   ],
+   "answer": "Independent undead of high magical talent are exceptionally rare. A free-willed necromancer capable of wielding potent death magic would provide the Forsaken with crucial power against the Scourge and the Scarlet Crusade."
+  },
+  {
+   "q": "Who does the lich turn out to be?",
+   "aliases": [
+    "lich identity",
+    "who is the lich",
+    "identity of the lich"
+   ],
+   "answer": "Bethor reveals the lich to be Gunther Arcanus, a former Dalaran mage and skilled necromancer who was a close comrade-in-arms of Bethor before the Third War."
+  },
+  {
+   "q": "What happens after you deliver the spellbook?",
+   "aliases": [
+    "what next",
+    "return the book quest",
+    "after the lichs identity"
+   ],
+   "answer": "Once Bethor confirms Gunther's identity, he sends you back to Brightwater Lake with the spellbook to convince Gunther that the Forsaken are truly free and wish to welcome him."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, reclaiming independent undead like Gunther Arcanus proves that breaking free from the Lich King was not an isolated miracle, while securing vital necromantic power for Sylvanas's court."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Mages visiting Bethor Iceshard in the Magic Quarter see the surviving remnants of Lordaeron's and Dalaran's magical traditions transformed into instruments of Forsaken survival."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Recruiting powerful necromancers strengthens the northern frontier of the Horde against relentless attacks by the Scarlet Crusade and Scourge."
+  }
+ ],
+ "keywords": [
+  "bethor iceshard",
+  "brightwater lake",
+  "forsaken",
+  "gunther arcanus",
+  "magic quarter",
+  "necromancer",
+  "sylvanas",
+  "the lich's spellbook",
+  "undercity"
+ ],
+ "related": [
+  "npc:bethor-iceshard",
+  "npc:gunther-arcanus",
+  "quest:405",
+  "quest:366",
+  "subzone:brightwater-lake",
+  "zone:undercity",
+  "topic:forsaken",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "The Lich's Identity"
+ ]
+}

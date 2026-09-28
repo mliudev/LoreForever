@@ -1,0 +1,122 @@
+{
+ "key": "quest:92597",
+ "type": "quest",
+ "name": "Reading the Ley Lines",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92597
+  ],
+  "level": "4",
+  "faction": "Alliance",
+  "start": "Falorne Fallwind",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Reading the Ley Lines",
+  "chain": []
+ },
+ "summary": "Reading the Ley Lines is a rite of passage for young Skyborne discovering their Highborne magical heritage. Entrusted by Falorne Fallwind on Zephras Isle, novitiates travel to the standing stones in Thendal Grove to sense and draw upon the raw arcane currents surging through the elemental terrain.",
+ "sections": [
+  {
+   "title": "Arcane Currents of the Elemental Plane",
+   "body": "Even within the windswept confines of the elemental plane, latent arcane conduits run beneath the earth. While strange elementals and the hostile Al'Aketh drift across Zephras Isle, subterranean ley lines have begun pushing toward the surface. To practitioners of magic, these ruptures provide direct access to untamed arcane reservoirs, offering strength to any who possess the bloodline and knowledge necessary to channel them.",
+   "spoiler": 0
+  },
+  {
+   "title": "Highborne Legacy",
+   "body": "Falorne Fallwind urges initiates to embrace their Highborne ancestry rather than supplicate themselves to wind spirits like the local Windshapers or the zealots of the Al'Aketh. In Fallwind's view, survival against the harsh powers of the elemental plane depends not on begging foreign creatures for mercy, but on mastering the intrinsic arcane power running beneath their boots.",
+   "spoiler": 0
+  },
+  {
+   "title": "Thendral Standing Stones",
+   "body": "Northeast of the settlement lies Thendal Grove, where ancient standing stones mark a potent ley line convergence. Surrounded by roiling winds and Al'Aketh converts, this exposed point of magical flux allows initiates to attune their senses, harmonizing with the pulse of the ley line and unleashing the full potential of their natural racial abilities.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Reading the Ley Lines?",
+   "aliases": [
+    "quest giver",
+    "falorne fallwind",
+    "who starts reading the ley lines"
+   ],
+   "answer": "The quest is offered by Falorne Fallwind on Zephras Isle to young Skyborne learning to harness their ancestral arcane abilities."
+  },
+  {
+   "q": "Where is the ley line located?",
+   "aliases": [
+    "ley line location",
+    "where is thendal grove",
+    "thendal standing stones location"
+   ],
+   "answer": "The ley line is found to the northeast at the Thendal Standing Stones, situated within Thendal Grove amidst hostile elementals and Al'Aketh converts."
+  },
+  {
+   "q": "Why are ley lines present in the elemental plane?",
+   "aliases": [
+    "arcane in elemental plane",
+    "ley lines elemental plane lore"
+   ],
+   "answer": "Latent arcane conduits course through the ground even here in the elemental plane. Recently, these ley lines have begun breaching the surface, offering Skyborne direct access to potent currents of power."
+  },
+  {
+   "q": "How does Falorne Fallwind view the Windshapers?",
+   "aliases": [
+    "falorne on windshapers",
+    "windshapers lore",
+    "windshapers vs highborne"
+   ],
+   "answer": "Falorne disdains the Windshapers, viewing their veneration of air spirits as weak supplication to uncaring elemental entities, no better than the worship practiced by the Al'Aketh."
+  },
+  {
+   "q": "What ability is required to channel the ley line?",
+   "aliases": [
+    "read ley line ability",
+    "how to read ley line",
+    "racial ability used"
+   ],
+   "answer": "The quest requires using the Skyborne racial ability 'Read Ley Line' while standing within the energy convergence at the standing stones."
+  },
+  {
+   "q": "What benefit does tapping into ley lines provide?",
+   "aliases": [
+    "what do ley lines do",
+    "benefits of ley lines"
+   ],
+   "answer": "Communing with exposed ley lines channels raw arcane energy into the user, heightening their magical prowess and providing varying effects depending on the nature of the conduit."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "This rite awakens your innate Highborne ancestry, teaching you to channel subterranean ley energy directly into your spellcasting."
+  },
+  {
+   "target": "class:Mage",
+   "text": "For practitioners of the arcane arts, exposed ley lines represent an invaluable reservoir of untamed power amidst an environment dominated by elemental storms."
+  }
+ ],
+ "keywords": [
+  "al'aketh",
+  "falorne fallwind",
+  "highborne",
+  "ley lines",
+  "reading the ley lines",
+  "skyborne",
+  "thendal grove",
+  "thendal standing stones",
+  "windshapers",
+  "zephras isle"
+ ],
+ "related": [
+  "zone:zephras",
+  "topic:highborne",
+  "topic:elemental-plane"
+ ],
+ "attribution": [
+  "Reading the Ley Lines"
+ ]
+}

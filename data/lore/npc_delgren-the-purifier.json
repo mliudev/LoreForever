@@ -1,0 +1,123 @@
+{
+ "key": "npc:delgren-the-purifier",
+ "type": "npc",
+ "name": "Delgren the Purifier",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Delgren the Purifier",
+  "refs": 9
+ },
+ "summary": "Delgren the Purifier is a human paladin stationed at Maestra's Post on the northern edge of Ashenvale. Operating alongside comrades Balthule Shadowstrike and Feero Ironhand, he aids the night elves in cleansing demonic and shadow magic threatening the frontier, with a particular focus on the sinister Cult of the Dark Strand.",
+ "sections": [
+  {
+   "title": "A Crusader on the Kaldorei Frontier",
+   "body": "Human paladins are a rare sight deep within the ancient forests of Kalimdor, but Delgren the Purifier arrived with a mission. Affiliated with the Argent Dawn, Delgren traveled west with a cadre of holy warriors determined to assist the Alliance's new night elf allies against the lingering evils of demons and undead remnants from the Third War. Stationed near the border of Darkshore and Ashenvale, he maintains a watchful vigil over travelers passing south from Auberdine.",
+   "spoiler": 0
+  },
+  {
+   "title": "Purging the Dark Strand",
+   "body": "Delgren's immediate crusade pits him directly against the Cult of the Dark Strand, a malevolent cabal operating around the Tower of Althalaxx in northern Darkshore. Teaming with the scout Balthule Shadowstrike, Delgren orchestrates strikes into the cult's territory, investigating their dark rituals and sending adventurers to strike down cultists, shatter their summoning focuses, and root out corrupt warlocks who dare traffic with demonic shadow.",
+   "spoiler": 1
+  },
+  {
+   "title": "An Unorthodox Mind",
+   "body": "Despite his fierce devotion to the Holy Light and zealous nickname, Delgren possesses an unusual perspective on Kalimdor's tangled politics. Much to the annoyance and disdain of his conservative superiors, he took the time to learn Orcish. This rare linguistic skill hints at an unconventional mind\u2014one that seeks to understand the enemies and neighbors sharing this untamed continent rather than relying solely on blind dogma.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Delgren the Purifier?",
+   "aliases": [
+    "who is delgren",
+    "delgren lore",
+    "who is the paladin at maestras post"
+   ],
+   "answer": "Delgren is a human paladin stationed at Maestra's Post along the road in northern Ashenvale. As an agent of the Argent Dawn, he assists the night elves in defending their lands from demonic corruption, cultists, and lingering shadows left in the wake of the Legion's invasion."
+  },
+  {
+   "q": "Where can I find Delgren?",
+   "aliases": [
+    "where is delgren",
+    "delgren location",
+    "delgren coordinates"
+   ],
+   "answer": "Delgren stands at Maestra's Post, a small night elven outpost in northwestern Ashenvale just south of the border trail leading into Darkshore."
+  },
+  {
+   "q": "Why is a human paladin all the way out in Ashenvale?",
+   "aliases": [
+    "why is delgren in ashenvale",
+    "why are there humans in ashenvale",
+    "delgren mission"
+   ],
+   "answer": "Delgren journeyed west with a company of Argent Dawn paladins to offer aid to the Alliance's night elven allies. Their purpose is to help purge demonic incursions, undead remnants, and dark cults that threaten northern Kalimdor."
+  },
+  {
+   "q": "What is Delgren's connection to the Tower of Althalaxx?",
+   "aliases": [
+    "delgren althalaxx",
+    "tower of althalaxx quests",
+    "cult of the dark strand"
+   ],
+   "answer": "Delgren and his companions monitor the corrupt activities radiating from the Tower of Althalaxx in northern Darkshore. He directs adventurers to investigate the ruin, hunt the Cult of the Dark Strand, and dismantle their dark summoning practices."
+  },
+  {
+   "q": "Why did Delgren learn Orcish?",
+   "aliases": [
+    "delgren speaks orcish",
+    "does delgren speak orcish",
+    "delgren orc language"
+   ],
+   "answer": "Delgren learned Orcish to better comprehend the situation and inhabitants of Kalimdor, a decision that earned him notable disapproval from his superiors within the order who favored traditional Alliance isolationism."
+  },
+  {
+   "q": "Who does Delgren work with at Maestra's Post?",
+   "aliases": [
+    "delgren companions",
+    "who is at maestras post"
+   ],
+   "answer": "He operates alongside Balthule Shadowstrike and Feero Ironhand, working as a coordinated unit to monitor border threats, handle logistics, and purge shadow cultists along the Ashenvale frontier."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Delgren represents the far reach of the Holy Light on Kalimdor, demonstrating how paladins adapt their crusade against demons and dark magic far beyond the Eastern Kingdoms."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers heading south from Darkshore, Delgren and his companions provide a reassuring military foothold along the dangerous Ashenvale road."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Though traditional kaldorei are often skeptical of foreign creeds, Delgren's company has earned trust through their practical crusade against the demonic cults troubling ancient ruins."
+  }
+ ],
+ "keywords": [
+  "althalaxx",
+  "argent dawn",
+  "ashenvale",
+  "balthule shadowstrike",
+  "cult of the dark strand",
+  "delgren",
+  "delgren the purifier",
+  "feero ironhand",
+  "maestra's post",
+  "tower of althalaxx"
+ ],
+ "related": [
+  "subzone:maestra-s-post",
+  "subzone:tower-of-althalaxx",
+  "npc:balthule-shadowstrike",
+  "npc:feero-ironhand",
+  "quest:965",
+  "topic:argent-dawn",
+  "zone:ashenvale",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "Delgren the Purifier"
+ ]
+}

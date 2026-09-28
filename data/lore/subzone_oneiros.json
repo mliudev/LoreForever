@@ -1,0 +1,97 @@
+{
+ "key": "subzone:oneiros",
+ "type": "subzone",
+ "name": "Oneiros",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Oneiros"
+ },
+ "summary": "Oneiros is a sprawling expanse of ancient night elven ruins located south of Jademir Lake in northern Feralas. Tied intimately to the nearby portals leading toward the realm of Ysera, its moss-covered stones are guarded by elite green dragonkin. Within the surrounding wilderness, travellers occasionally find refuge at the small night elf encampment known as Dreamer's Rest.",
+ "sections": [
+  {
+   "title": "Ruins Beneath the Dream",
+   "body": "Stretching across the dense forest floor of northern Feralas, the crumbling stone arches and column fragments of Oneiros hint at an ancient Kaldorei settlement abandoned millennia ago. In the present day, nature has reclaimed the structures, entwining them with massive roots and verdant overgrowth. More than just ordinary ruins, the area serves as an earthly anchor to the Emerald Dream itself, reflecting a mirrored counterpart within the sleeping realm. Elite guardians of the Green Dragonflight relentlessly patrol the shaded paths and broken plazas, warding mortals away from ancient secrets.",
+   "spoiler": 0
+  },
+  {
+   "title": "Echoes and Corruption",
+   "body": "The spiritual link between Oneiros and the Emerald Dream makes the region volatile. Dragonkin loyal to the Dreamer maintain a watchful vigil around its boundaries, yet darkness stirs beyond the veil. A counterpart to these ruins exists on the other side of the boundary, where Nightmare corruption has seeped in under the sway of twisted dragons such as Tyrannikus. Mortals wandering into Oneiros must contend with powerful dragonspawn who view any intruder as a potential threat to the delicate wards holding back corruption.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Oneiros located?",
+   "aliases": [
+    "oneiros location",
+    "where is oneiros",
+    "find oneiros"
+   ],
+   "answer": "Oneiros lies in northern Feralas, directly south of Jademir Lake and north of the main thoroughfares through the forest. It is situated near the Great Tree that borders the Emerald Dream portal."
+  },
+  {
+   "q": "What creatures inhabit Oneiros?",
+   "aliases": [
+    "oneiros mobs",
+    "enemies in oneiros",
+    "who lives in oneiros"
+   ],
+   "answer": "The ruins are heavily patrolled by powerful green dragonspawn and dragonkin sworn to the Green Dragonflight. Travelers should approach with caution, as these sentinels are formidable elite guardians."
+  },
+  {
+   "q": "Why are there night elf ruins here?",
+   "aliases": [
+    "why are there ruins",
+    "kaldorei ruins feralas",
+    "oneiros history"
+   ],
+   "answer": "Oneiros is an ancient night elven settlement dating back to before the Great Sundering. Like much of Feralas, the civilization here crumbled over ten thousand years ago, leaving stone colonnades and courtyards reclaimed by nature."
+  },
+  {
+   "q": "What is the connection between Oneiros and the Emerald Dream?",
+   "aliases": [
+    "oneiros emerald dream",
+    "dream connection feralas"
+   ],
+   "answer": "Oneiros mirrors a domain within the Emerald Dream itself. Its proximity to the great boughs connecting Kalimdor to the Dream realm causes the boundaries between the physical world and the spirit world to blur."
+  },
+  {
+   "q": "Is there a safe place to rest nearby?",
+   "aliases": [
+    "safe camp near oneiros",
+    "dreamers rest feralas",
+    "friendly hub oneiros"
+   ],
+   "answer": "A modest night elf outpost called Dreamer's Rest lies within the outskirts of the ruins, offering a small respite amidst the dangerous surrounding wilderness."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Druids hold Oneiros in deep reverence and concern, recognizing its ethereal connection to Ysera's domain and the lingering danger of Nightmare corruption."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For Night Elves, wandering through Oneiros is a solemn reminder of their ancient empire's reach and the vigilant guardianship of the green dragonkin."
+  }
+ ],
+ "keywords": [
+  "dragonspawn",
+  "dreamer's rest",
+  "feralas",
+  "green dragonflight",
+  "jademir lake",
+  "oneiros",
+  "tyrannikus"
+ ],
+ "related": [
+  "zone:feralas",
+  "subzone:dreamer-s-rest",
+  "topic:emerald-dream",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Oneiros"
+ ]
+}

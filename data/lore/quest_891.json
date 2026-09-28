@@ -1,0 +1,121 @@
+{
+ "key": "quest:891",
+ "type": "quest",
+ "name": "The Guns of Northwatch",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   891
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Captain Thalo'thas Brightsun",
+  "end": "",
+  "previous": "",
+  "next": null,
+  "wiki": "The Guns of Northwatch (Classic)",
+  "chain": []
+ },
+ "summary": "Captain Thalo'thas Brightsun in Ratchet has had enough of his merchant vessels being blasted to splinters by the Alliance gunners at Northwatch Hold. He hires Horde champions to march down the Merchant Coast, silence the hold's artillery officers, and take the badges of their fallen infantry.",
+ "sections": [
+  {
+   "title": "A Threat Along the Coast",
+   "body": "Northwatch Hold looms over the southern coast of the Barrens, established as a fortified bastion for the humans of Theramore. While intended to guard Alliance interests and monitor Horde activity in Kalimdor, the soldiers within have succumbed to severe paranoia. Viewing any unfamiliar sail as hostile, their rampart batteries open fire indiscriminately, threatening peaceful merchant traffic and the privateering vessels of Ratchet.",
+   "spoiler": 0
+  },
+  {
+   "title": "Silencing the Ramparts",
+   "body": "Captain Brightsun refuses to let his ships be sunk without consequence. The strike against Northwatch targets its command: Captain Fairmount and her chief cannoneers, Whessan and Smythe. Striking them down and stripping Theramore medals from the garrison's soldiers leaves the hold's artillery disarrayed, granting Ratchet's maritime operations breathing room along the Merchant Coast.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Northwatch Hold shooting at ships from Ratchet?",
+   "aliases": [
+    "why are they shooting ships",
+    "why northwatch attacking ratchet",
+    "northwatch cannons firing"
+   ],
+   "answer": "The human soldiers stationed at Northwatch Hold are in a state of frantic paranoia. Fearing attacks from the Horde and regional pirates, their trigger-happy gunners have taken to firing upon nearly every vessel that sails past the Merchant Coast, regardless of whether it flies a neutral or hostile flag."
+  },
+  {
+   "q": "Who is Captain Thalo'thas Brightsun?",
+   "aliases": [
+    "who gives this quest",
+    "thalo'thas brightsun",
+    "quest giver ratchet"
+   ],
+   "answer": "Captain Thalo'thas Brightsun is a blood elf privateer captain based out of the goblin port of Ratchet. He commands a merchant fleet and protects local shipping interests from aggressive rivals, including the overzealous Alliance forces at Northwatch Hold."
+  },
+  {
+   "q": "Who are Captain Fairmount, Cannoneer Whessan, and Cannoneer Smythe?",
+   "aliases": [
+    "fairmount whessan smythe",
+    "northwatch officers",
+    "gun targets northwatch"
+   ],
+   "answer": "Captain Fairmount commands the garrison at Northwatch Hold, while Whessan and Smythe are the senior cannoneers directing the artillery batteries overlooking the sea. Slaying them disrupts the fortress's chain of command and takes their heavy cannons out of action."
+  },
+  {
+   "q": "What are Theramore Medals?",
+   "aliases": [
+    "theramore medal",
+    "why collect medals",
+    "what drops medals"
+   ],
+   "answer": "Theramore Medals are military insignias carried by the human foot soldiers and guards stationed at Northwatch Hold. Captain Brightsun asks for them as concrete proof that the privateers' deaths have been avenged and the hold's garrison decimated."
+  },
+  {
+   "q": "Where is Northwatch Hold located?",
+   "aliases": [
+    "where is northwatch",
+    "northwatch location",
+    "where are the guns of northwatch"
+   ],
+   "answer": "Northwatch Hold sits on the southeastern bluffs of the Barrens, positioned directly south of Ratchet along the shoreline known as the Merchant Coast."
+  },
+  {
+   "q": "Is Northwatch Hold officially part of Theramore?",
+   "aliases": [
+    "is northwatch theramore",
+    "alliance faction northwatch",
+    "jaina northwatch"
+   ],
+   "answer": "Yes. Northwatch Hold is an outpost established by the kingdom of Theramore to secure a military foothold on the Kalimdor mainland. However, its isolated garrison operates with fierce aggression and deep suspicion toward anything traversing the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Striking Northwatch Hold directly neutralizes an aggressive Alliance fortification encroaching upon the Barrens, securing the borders of Kalimdor for the Horde."
+  },
+  {
+   "target": "race:Human",
+   "text": "The tragic paranoia gripping Northwatch Hold reveals the strain Theramore's frontier garrisons face, isolated far from home and prone to reckless hostility."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "brightsun",
+  "cannons",
+  "fairmount",
+  "merchant coast",
+  "northwatch",
+  "ratchet",
+  "smythe",
+  "theramore",
+  "whessan"
+ ],
+ "related": [
+  "npc:captain-thalo-thas-brightsun",
+  "subzone:ratchet",
+  "subzone:merchant-coast",
+  "zone:barrens",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "The Guns of Northwatch (Classic)"
+ ]
+}

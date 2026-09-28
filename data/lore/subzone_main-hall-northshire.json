@@ -1,0 +1,70 @@
+{
+ "key": "subzone:main-hall-northshire",
+ "type": "subzone",
+ "name": "Main Hall (Northshire)",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Main Hall (Northshire)"
+ },
+ "summary": "The Main Hall is the central entrance chamber of Northshire Abbey in Elwynn Forest. It serves as the primary crossroads connecting the abbey's grounds to its upper tower, the Hall of Arms, and the Library Wing. Here, newly recruited human adventurers report to receive their initial assignments in service of the Kingdom of Stormwind.",
+ "sections": [
+  {
+   "title": "Heart of the Abbey",
+   "body": "Stepping through the grand archways of Northshire Abbey brings visitors directly into the Main Hall. As the building's central hub, it channels arriving trainees and clerical staff between the abbey's distinct wings: the martial Hall of Arms on one side, the scholastic Library Wing on the other, and the stairs rising into the abbey tower. The quiet sanctuary of the hall is tempered by the ongoing strife in the valley, with wounded recruits recuperating along the adjoining corridors while officers rally able-bodied newcomers to defend the kingdom's borders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Main Hall?",
+   "aliases": [
+    "what is main hall",
+    "northshire main hall use"
+   ],
+   "answer": "The Main Hall serves as the central reception chamber and crossroads of Northshire Abbey. It directs recruits, priests, and visitors into the Hall of Arms, the Library Wing, and the abbey's upper tower."
+  },
+  {
+   "q": "Why are there wounded trainees resting in and around the hall?",
+   "aliases": [
+    "why wounded trainees",
+    "injured recruits northshire"
+   ],
+   "answer": "Northshire Valley has recently faced increasing incursions from Blackrock orcs, Defias bandits, and local vermin. Inexperienced recruits sent out to secure the surrounding vineyards and fields have taken casualties, forcing the abbey's caretakers to treat wounded trainees in the side chambers."
+  },
+  {
+   "q": "Who directs new recruits here?",
+   "aliases": [
+    "who gives quests here",
+    "abbey commander"
+   ],
+   "answer": "Officers and clerics of the Stormwind defense stationed in the Main Hall evaluate incoming adventurers, providing them with their first marching orders to clear out threats encroaching on the abbey's grounds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of the kingdom, the Main Hall of Northshire Abbey marks the beginning of their journey in service of Stormwind and the Holy Light."
+  }
+ ],
+ "keywords": [
+  "abbey",
+  "elwynn",
+  "hall of arms",
+  "library wing",
+  "main hall",
+  "northshire",
+  "stormwind",
+  "wounded trainees"
+ ],
+ "related": [
+  "subzone:northshire-abbey",
+  "subzone:northshire-valley",
+  "subzone:hall-of-arms-northshire",
+  "subzone:library-wing-northshire",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Main Hall (Northshire)"
+ ]
+}

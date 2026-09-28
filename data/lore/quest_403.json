@@ -1,0 +1,112 @@
+{
+ "key": "quest:403",
+ "type": "quest",
+ "name": "Guarded Thunderbrew Barrel",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   403
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "Guarded Thunder Ale Barrel",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Guarded Thunderbrew Barrel",
+  "chain": []
+ },
+ "summary": "The Guarded Thunderbrew Barrel rests in the cellar of the Thunderbrew Distillery in Kharanos. It represents the prized stock of the famed dwarven brewing family, watched over day and night to keep thieves and rivals from meddling with their craft.",
+ "sections": [
+  {
+   "title": "A Cellar Under Watch",
+   "body": "In the cold snows of Dun Morogh, few things are guarded more fiercely than good ale. Beneath the floorboards of the Thunderbrew Distillery in Kharanos, stout casks of potent brew age in peace. The family takes no chances with their stock, posting watchful sentries like Jarven Thunderbrew right beside the barrels to ensure not a single drop is tampered with or siphoned off.",
+   "spoiler": 0
+  },
+  {
+   "title": "Family Pride and Rivalries",
+   "body": "Dwarven brewing is as serious a discipline as smithing or mining. The Thunderbrews take immense pride in their proprietary recipes, particularly potent batches of Thunder Ale. Between greedy troggs creeping around Dun Morogh and bitter brewing rivalries across the Alliance, Jarven's vigilant presence ensures the family's liquid gold remains untouched until properly tapped.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why can't I open this barrel?",
+   "aliases": [
+    "cannot open barrel",
+    "why cant i touch the ale",
+    "jarven guarding barrel"
+   ],
+   "answer": "Jarven Thunderbrew is standing right there in the basement keeping watch. As long as he remains on guard, no one is permitted to disturb the Thunderbrew family's barrels."
+  },
+  {
+   "q": "Who is Jarven Thunderbrew?",
+   "aliases": [
+    "who is jarven",
+    "jarven lore",
+    "dwarf in cellar"
+   ],
+   "answer": "Jarven is a member of the Thunderbrew clan stationed in the Kharanos distillery cellar. His primary duty is to keep an eye on the family's finest ales and stop any would-be thieves or troublemakers from tampering with the stock."
+  },
+  {
+   "q": "Where is this barrel located?",
+   "aliases": [
+    "where is the guarded barrel",
+    "cellar location",
+    "thunderbrew basement"
+   ],
+   "answer": "The barrel sits down in the cellar beneath the Thunderbrew Distillery, located in the town of Kharanos in Dun Morogh."
+  },
+  {
+   "q": "Why do the Thunderbrews guard their ale so closely?",
+   "aliases": [
+    "why guard ale",
+    "importance of thunderbrew ale"
+   ],
+   "answer": "To dwarves, brewing is a revered craft and a family legacy. With competing brewers, sneaky thieves, and nearby threats like troggs and leper gnomes, rare vintage barrels of Thunder Ale require constant protection."
+  },
+  {
+   "q": "Is this part of another quest?",
+   "aliases": [
+    "thunderbrew questline",
+    "what quest is this for"
+   ],
+   "answer": "Yes, it ties into the ongoing tasks and minor intrigue surrounding the Thunderbrew family and their renowned brews in Kharanos."
+  },
+  {
+   "q": "Can you distract or move Jarven?",
+   "aliases": [
+    "how to get past jarven",
+    "distract jarven"
+   ],
+   "answer": "Jarven takes his sentinel post seriously and will not let anyone near the cask while he is standing post in the cellar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Every dwarf understands that a family's secret brew is worth defending with life and limb, making Jarven's stubborn vigil down in the cellar completely natural."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Slipping into a cellar to pilfer a cask of stout dwarven ale is classic work, but a vigilant dwarf watching the keg makes a quiet heist much trickier."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "dwarven brew",
+  "guarded thunderbrew barrel",
+  "jarven thunderbrew",
+  "kharanos",
+  "thunder ale",
+  "thunderbrew distillery"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "quest:117"
+ ],
+ "attribution": [
+  "Guarded Thunderbrew Barrel"
+ ]
+}

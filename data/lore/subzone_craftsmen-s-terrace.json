@@ -1,0 +1,93 @@
+{
+ "key": "subzone:craftsmen-s-terrace",
+ "type": "subzone",
+ "name": "Craftsmen's Terrace",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Craftsmen's Terrace"
+ },
+ "summary": "The Craftsmen's Terrace is the bustling artisan district situated in the northern reaches of Darnassus. It serves as the primary trade and manufacturing hub for the night elf capital, housing workshops, profession trainers, and a lively inn. The district also hosts external representatives, including an embassy for the neutral Argent Dawn.",
+ "sections": [
+  {
+   "title": "The Artisan Heart of Darnassus",
+   "body": "Spanning the northern edge of the canopy city, the Craftsmen's Terrace gathers the diverse trades that keep Darnassus running. Woodworkers, leathercrafters, alchemists, and other artisans operate their shops here, integrating classic night elven methods with practical craft. The district also provides essential community amenities, including an inn, a guild master, and guild petition vendors. Bridges connect the terrace directly to the Cenarion Enclave to the west and the Warrior's Terrace to the south.",
+   "spoiler": 0
+  },
+  {
+   "title": "Outside Ties and Forgotten Lore",
+   "body": "Despite the kaldorei's historic isolation, the Craftsmen's Terrace is home to foreign connections, most notably an embassy established by the Argent Dawn to coordinate with northern allies against the Scourge. Visitors browsing the district's various workshops might also stumble across scattered scholarly volumes, ranging from historical accounts of the War of the Ancients to chronicles detailing the Second War and esoteric treatises on the Old Gods.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What services are found in the Craftsmen's Terrace?",
+   "aliases": [
+    "craftsmen services",
+    "what is in craftsmens terrace",
+    "darnassus trainers"
+   ],
+   "answer": "The district houses most of the city's trade profession trainers, craft supply merchants, an inn, and guild registry services. It serves as the commercial center for travelers looking to learn or practice practical skills in Darnassus."
+  },
+  {
+   "q": "Why is the Argent Dawn present in the Craftsmen's Terrace?",
+   "aliases": [
+    "argent dawn darnassus",
+    "argent dawn embassy",
+    "why argent dawn here"
+   ],
+   "answer": "The Argent Dawn maintains an embassy in the district to liaise with the night elves and recruit aid against the Scourge. Their presence offers a diplomatic bridge between the Alliance forces in the west and the war-torn lands of Lordaeron."
+  },
+  {
+   "q": "How do you reach the Craftsmen's Terrace?",
+   "aliases": [
+    "how to get to craftsmen terrace",
+    "craftsmen terrace location",
+    "finding craftsmen terrace"
+   ],
+   "answer": "The terrace occupies the northern section of Darnassus. You can reach it via bridges leading north from the Warrior's Terrace or east from the Cenarion Enclave."
+  },
+  {
+   "q": "What notable books can be found around the workshops?",
+   "aliases": [
+    "craftsmen terrace books",
+    "lore books darnassus",
+    "books in craftsmens terrace"
+   ],
+   "answer": "Scholarly volumes rest throughout the workshops, including histories of the War of the Ancients, the aftermath of the Second War, and a study on the Old Gods housed within the Argent Dawn's quarters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, the terrace is proof of their society's self-reliance on Teldrassil, blending ancient craftsmanship with the day-to-day needs of their new capital."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance visitors find the terrace to be one of Darnassus's most welcoming quarters, offering familiar trade supplies, guild administration, and lodging alongside foreign representatives."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "artisans",
+  "craftsmen's terrace",
+  "craftsmens terrace",
+  "darnassus",
+  "teldrassil",
+  "trainers"
+ ],
+ "related": [
+  "zone:darnassus",
+  "subzone:cenarion-enclave",
+  "subzone:warrior-s-terrace",
+  "topic:argent-dawn",
+  "topic:night-elf",
+  "topic:war-of-the-ancients",
+  "topic:old-god",
+  "topic:second-war"
+ ],
+ "attribution": [
+  "Craftsmen's Terrace"
+ ]
+}

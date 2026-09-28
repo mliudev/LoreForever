@@ -1,0 +1,122 @@
+{
+ "key": "topic:dark-riders",
+ "type": "topic",
+ "name": "Dark Riders",
+ "era": "classic",
+ "zone": "deadwind",
+ "meta": {
+  "wiki": "Dark Riders"
+ },
+ "summary": "The Dark Riders are a band of cursed, hooded horsemen who terrorize Deadwind Pass and Duskwood. Bound by an ancient affliction to harvest powerful relics for Karazhan, they hunt magic ruthlessly and leave only slaughter in their wake.",
+ "sections": [
+  {
+   "title": "The Curse of the Guardian",
+   "body": "Before their eternal hunt began, the Dark Riders were unscrupulous traveling merchants led by a man named Ariden. They made the fatal mistake of attempting to swindle the Guardian Medivh with counterfeit magical trinkets. Possessed by Sargeras, the sorcerer punished their deceit with a grim fate: to wander the kingdom forever, bound to seek out genuine magical relics and haul them back to the vaults beneath Karazhan. Harsh, shrill, and nearly impossible to track, the Riders remain invisible until they choose to strike.",
+   "spoiler": 0
+  },
+  {
+   "title": "Slaughter at the Farmstead",
+   "body": "The Riders recently surged into Duskwood, drawn by space-warping tremors radiating from the Scythe of Elune. Unbeknownst to them, the miner Jitters had uncovered and promptly lost the ancient staff inside Roland's Doom. Tracking the magical signature to the nearby Yorgen Farmstead, the Riders demanded the artifact from Sven Yorgen's family. When the terrified settlers could give no answers, the horsemen butchered Sven's wife and children in cold blood, driving Sven into a vengeful madness.",
+   "spoiler": 1
+  },
+  {
+   "title": "Shadows over Deadwind",
+   "body": "Operating out of Ariden's Camp in the shadow of Karazhan, the Riders have struck targets across the Eastern Kingdoms, even breaching the protective dome over Dalaran to loot its vaults. Whispers in Duskwood also link their sinister hunts to the rogue necromancer Morbent Fel. Though feared as invincible phantoms, those who glimpse behind their cloaks have witnessed not undead monsters, but the tormented faces of terrified men helplessly trapped in servitude to their master.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are the Dark Riders?",
+   "aliases": [
+    "black riders",
+    "what are the dark riders",
+    "who are the riders in duskwood"
+   ],
+   "answer": "They were once dishonest merchants who tried to sell fake magical items to the sorcerer Medivh. Cursed by Medivh, they are bound to scour the world for genuine, powerful magical relics and bring them back to Karazhan."
+  },
+  {
+   "q": "What did they do to Sven Yorgen's family?",
+   "aliases": [
+    "sven farm massacre",
+    "what happened at yorgen farmstead",
+    "why did riders kill svens family"
+   ],
+   "answer": "They were hunting the Scythe of Elune, which had been unearthed nearby. When they interrogated Sven Yorgen's wife and children and found they knew nothing about the artifact, the Riders murdered them without mercy."
+  },
+  {
+   "q": "Who is Ariden?",
+   "aliases": [
+    "leader of dark riders",
+    "ariden",
+    "aridans camp"
+   ],
+   "answer": "Ariden was the leader of the traveling merchants who attempted to con Medivh. He now leads the Dark Riders on their cursed hunts from Ariden's Camp in Deadwind Pass."
+  },
+  {
+   "q": "Why are the Dark Riders in Duskwood?",
+   "aliases": [
+    "why are dark riders in duskwood",
+    "dark riders scythe of elune",
+    "what are they hunting"
+   ],
+   "answer": "They were drawn to the dark forest by the temporal and magical disturbances caused when Jitters unearthed the Scythe of Elune in Roland's Doom."
+  },
+  {
+   "q": "Are the Dark Riders undead?",
+   "aliases": [
+    "are dark riders ghosts",
+    "are the dark riders undead",
+    "what are dark riders made of"
+   ],
+   "answer": "The exact nature of Medivh's curse remains unclear. While they possess supernatural stealth and shrieking voices, those who have peered beneath their enchanted cloaks have reported seeing the faces of terrified, living men bound against their will."
+  },
+  {
+   "q": "Are they working with Morbent Fel?",
+   "aliases": [
+    "morbent fel and dark riders",
+    "morbent fel alliance"
+   ],
+   "answer": "The Night Watch has noted suspicious dealings between the Dark Riders and the necromancer Morbent Fel in Duskwood, though the exact terms of their alliance remain unknown."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The Dark Riders' ruthless hunt for the Scythe of Elune poses a severe threat to the balance, as the weapon's feral energies can wreak havoc across Duskwood."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Striking just beyond Stormwind's borders, the Riders slaughter innocent homesteaders like Sven Yorgen's family, proving how far the kingdom's frontier has slipped from its grasp."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Created by Medivh's terrifying curse, the Riders are living warnings of Karazhan's tainted sorcery and have even breached Dalaran's magical warding."
+  }
+ ],
+ "keywords": [
+  "ariden",
+  "black riders",
+  "dark riders",
+  "deadwind pass",
+  "duskwood",
+  "jitters",
+  "karazhan",
+  "medivh",
+  "scythe of elune",
+  "sven yorgen"
+ ],
+ "related": [
+  "npc:sven-yorgen",
+  "npc:jitters",
+  "quest:95",
+  "subzone:ariden-s-camp",
+  "subzone:karazhan",
+  "quest:1043",
+  "quest:55",
+  "topic:medivh"
+ ],
+ "attribution": [
+  "Dark Riders"
+ ]
+}

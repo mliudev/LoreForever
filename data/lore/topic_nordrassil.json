@@ -1,0 +1,128 @@
+{
+ "key": "topic:nordrassil",
+ "type": "topic",
+ "name": "Nordrassil",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Nordrassil"
+ },
+ "summary": "Nordrassil, the 'Crown of the Heavens,' is the original World Tree planted atop Mount Hyjal to shield the second Well of Eternity. Blessed by the Great Dragon Aspects, it granted the night elves ageless immortality and a deep connection to the Emerald Dream for ten thousand years. Its sacrifice during the climax of the Third War broke Archimonde's assault, leaving the tree wounded and the night elves mortal.",
+ "sections": [
+  {
+   "title": "Crown of the Heavens",
+   "body": "Ten thousand years ago, in the ashes of the Great Sundering, Illidan Stormrage cast vials of the original Well of Eternity into a mountaintop lake atop Mount Hyjal, birthing a new font of arcane power. To prevent this raw magic from corrupting the world or drawing the Burning Legion anew, the Dragon Aspect Alexstrasza planted an acorn from the Mother Tree, G'Hanir, directly over the waters. From it grew Nordrassil. The roots spread deep beneath Azeroth, sealing the Well's volatile energies and distributing gentle, life-giving vigor across the continents.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Aspects' Gifts",
+   "body": "Nordrassil became the spiritual and cultural heart of night elf civilization through the blessings of three Great Dragon Aspects. Alexstrasza imbued the tree with peerless vigor, extending vitality to the kaldorei. Ysera bound the tree to the Emerald Dream, allowing night elven druids to enter her slumbering realm with effortless clarity. Crucially, Nozdormu the Timeless One cast his blessing across its boughs: as long as the colossal tree stood, the night elves would never age or fall prey to natural disease, gifting an entire race with enduring immortality.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fall at Mount Hyjal",
+   "body": "Nordrassil's tranquility ended with the Third War, when the demon lord Archimonde marched upon Mount Hyjal to tear the tree apart and claim the Well's infinite power. With mortal defenders pushed to the brink, Malfurion Stormrage made the ultimate choice. Sounding the Horn of Cenarius, he called upon thousands of nature spirits and unleashed the stored enchantments within Nordrassil itself. The ensuing cataclysmic blast obliterated Archimonde and decimated the Legion. Though Nordrassil survived to heal slowly, its enchantments shattered\u2014stripping the night elves of their beloved immortality.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Nordrassil mean?",
+   "aliases": [
+    "nordrassil translation",
+    "what does nordrassil mean in darnassian",
+    "nordrassil name meaning"
+   ],
+   "answer": "In Darnassian, Nordrassil translates to 'Crown of the Heavens.' It earned this name due to its monumental height, towering high above the summit of sacred Mount Hyjal."
+  },
+  {
+   "q": "Where is Nordrassil located?",
+   "aliases": [
+    "nordrassil location",
+    "where is the original world tree",
+    "where is nordrassil"
+   ],
+   "answer": "Nordrassil stands at the summit of Mount Hyjal in northern Kalimdor, rooted directly inside the waters of the second Well of Eternity created by Illidan Stormrage."
+  },
+  {
+   "q": "Why did the night elves lose their immortality?",
+   "aliases": [
+    "why aren't night elves immortal anymore",
+    "night elf mortality",
+    "loss of immortality"
+   ],
+   "answer": "To defeat the demon lord Archimonde at the Battle of Mount Hyjal, Malfurion Stormrage unleashed the magical wards and blessings bound within Nordrassil. The resulting detonation obliterated Archimonde but burned away the blessings of the Dragon Aspects, ending Nozdormu's spell of eternal life."
+  },
+  {
+   "q": "How is Nordrassil related to Teldrassil?",
+   "aliases": [
+    "nordrassil vs teldrassil",
+    "difference between teldrassil and nordrassil",
+    "is teldrassil nordrassil"
+   ],
+   "answer": "Nordrassil is the original World Tree atop Mount Hyjal. Teldrassil is a much younger World Tree grown off the coast of Kalimdor by Archdruid Fandral Staghelm and the Circle of the Ancients, planted in a desperate bid to replace Nordrassil and reclaim their lost immortality."
+  },
+  {
+   "q": "Did Nordrassil die when Archimonde was defeated?",
+   "aliases": [
+    "is nordrassil dead",
+    "did nordrassil survive",
+    "nordrassil destroyed"
+   ],
+   "answer": "No. While the blast severely scorched and wounded the World Tree, Nordrassil's roots survived. The tree remains standing atop Mount Hyjal, slowly mending its wounds over time, even though its ancient dragon blessings were dispelled."
+  },
+  {
+   "q": "Which dragons blessed Nordrassil?",
+   "aliases": [
+    "who blessed nordrassil",
+    "dragon blessings world tree",
+    "which aspects blessed nordrassil"
+   ],
+   "answer": "Nordrassil was blessed by three Dragon Aspects: Alexstrasza the Life-Binder, who planted it and gave it vitality; Ysera the Awakened, who linked it to the Emerald Dream; and Nozdormu the Timeless One, who granted the night elves eternal youth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Nordrassil was the cradle of your civilization for ten millennia. Its sacrifice saved the world from Archimonde, but left you grappling with aging, sickness, and mortality for the very first time."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Rooted above the second Well of Eternity, Nordrassil's bond with Ysera allowed druids to effortlessly cross into the Emerald Dream. Its scarring remains a stark reminder of the cost of defending nature."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance's presence at Mount Hyjal forged the desperate coalition that shielded Nordrassil from the Burning Legion, securing Kalimdor's salvation."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Warchief Thrall led the Horde to the slopes of Mount Hyjal alongside humans and night elves, buying Malfurion the time needed to spring the trap at the base of Nordrassil."
+  }
+ ],
+ "keywords": [
+  "alexstrasza",
+  "archimonde",
+  "hyjal",
+  "immortality",
+  "malfurion",
+  "nordrassil",
+  "nozdormu",
+  "teldrassil",
+  "well of eternity",
+  "world tree",
+  "ysera"
+ ],
+ "related": [
+  "quest:940",
+  "npc:malfurion-stormrage",
+  "topic:third-war",
+  "topic:emerald-dream",
+  "npc:fandral-staghelm",
+  "topic:druid",
+  "npc:tyrande-whisperwind",
+  "topic:cenarius"
+ ],
+ "attribution": [
+  "Nordrassil"
+ ]
+}

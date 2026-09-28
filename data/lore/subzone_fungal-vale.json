@@ -1,0 +1,88 @@
+{
+ "key": "subzone:fungal-vale",
+ "type": "subzone",
+ "name": "Fungal Vale",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Fungal Vale"
+ },
+ "summary": "The Fungal Vale is a deeply blighted depression located in the south-central Eastern Plaguelands, just north of the Crown Guard Tower and Marris Stead. Choked in a murky haze and blanketed with dark purple earth, the valley showcases the raw, mutating power of the Plague of Undeath. It swarms with roaming Scourge horrors and mortal acolytes serving the Cult of the Damned.",
+ "sections": [
+  {
+   "title": "A Garden of Rot",
+   "body": "Situated north of Marris Stead, the Fungal Vale represents one of the most thoroughly corrupted pockets in Lordaeron. The ground here has turned a sickly purple, swollen with alien fungal growths and drowning under a perpetual, murky haze produced by necrotic spores. Rather than simply killing the ecosystem, the Plague of Undeath has warped the soil to cultivate unholy flora, feeding monstrous carrion beasts and shambling undead. Cult of the Damned members frequent the area, tending to the blighted blooms and conducting foul rites amidst the unnatural decay.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Fungal Vale?",
+   "aliases": [
+    "where is fungal vale",
+    "fungal vale lore",
+    "fungal vale overview"
+   ],
+   "answer": "It is a corrupted valley in the southern reach of the Eastern Plaguelands, lying directly north of Crown Guard Tower and Marris Stead. The area is heavily contaminated by the Plague of Undeath, transforming normal vegetation into overgrown fungal blight."
+  },
+  {
+   "q": "Why is the ground purple here?",
+   "aliases": [
+    "why is the ground purple",
+    "purple dirt plaguelands",
+    "fungal vale ground"
+   ],
+   "answer": "The soil has been thoroughly saturated by the Plague of Undeath. Rather than letting plant life completely perish, the necrotic contamination mutates the land into a fertile bed for virulent spores, turning the earth a bruised purple."
+  },
+  {
+   "q": "Who controls this area?",
+   "aliases": [
+    "who is in fungal vale",
+    "fungal vale enemies",
+    "cultists fungal vale"
+   ],
+   "answer": "The Fungal Vale is held by the Scourge and mortal cultists of the Cult of the Damned. Undead horrors wander the haze alongside acolytes who nurture the corrupted fungal ecology."
+  },
+  {
+   "q": "Where is it located relative to local landmarks?",
+   "aliases": [
+    "how to get to fungal vale",
+    "fungal vale location",
+    "near crown guard tower"
+   ],
+   "answer": "It lies in south-central Eastern Plaguelands, positioned directly north of the road between Marris Stead and the Crown Guard Tower."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The Fungal Vale represents the ultimate mockery of natural life, where nature's cycle has been replaced by perpetual, unholy rot driven by the Scourge."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The blighted, fungal-choked ground stands as a stark warning of what necromancy does to the native flora of Lordaeron."
+  }
+ ],
+ "keywords": [
+  "blight",
+  "crown guard tower",
+  "cult of the damned",
+  "eastern plaguelands",
+  "fungal vale",
+  "fungus",
+  "marris stead",
+  "plague of undeath",
+  "scourge"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "subzone:crown-guard-tower",
+  "subzone:marris-stead",
+  "topic:cult-of-the-damned",
+  "topic:plague-of-undeath",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Fungal Vale"
+ ]
+}

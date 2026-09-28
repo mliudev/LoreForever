@@ -1,0 +1,125 @@
+{
+ "key": "npc:gunther-arcanus",
+ "type": "npc",
+ "name": "Gunther Arcanus",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Gunther Arcanus",
+  "refs": 3
+ },
+ "summary": "Gunther Arcanus is an exceptionally powerful necromancer dwelling on an isolated island in Brightwater Lake. Slain during the Third War and raised into undeath, he managed to shatter the Lich King's mental grip entirely on his own. Long believing he was the sole undead possessing free will, he defended his retreat against all outsiders until discovered by the Forsaken.",
+ "sections": [
+  {
+   "title": "A Student of Dalaran",
+   "body": "Before the fall of Lordaeron, Gunther was a promising apprentice among the Kirin Tor in Dalaran. Alongside close friends Bethor Iceshard and Thule Ravenclaw, he studied the arcane arts, secretly delving into necromancy despite the Kirin Tor's strict prohibitions against dark magic. To commemorate their brotherhood, the trio once bound their apprentice wands together into a single heirloom.",
+   "spoiler": 0
+  },
+  {
+   "title": "Breaking the Shackles",
+   "body": "When the Scourge swept across the north during the Third War, Gunther perished to the Plague of Undeath and was raised into servitude. Unlike most who required the Lich King's power to weaken or Lady Sylvanas to break their chains, Gunther's raw arcane mastery and sheer willpower allowed him to shake off the Lich King's mental domination entirely by himself. Convinced that every other walking corpse remained a mindless thrall of the Scourge, he retreated to an island in Tirisfal Glades, surrounding himself with shambling guardians and cutting off all contact with the living and dead alike.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Prodigal Lich",
+   "body": "Seeking powerful allies against the Scourge, the Forsaken sent emissaries to claim the mysterious necromancer's spellbook. Upon examining the arcane tome in the Undercity, Bethor Iceshard recognized the unique handwriting of his long-lost peer. By enchanting the returned grimoire and demanding the destruction of local Scourge commanders, Gunther finally realized he was not alone in his freedom. Convinced that Sylvanas's faction represents a true rebellion against the Scourge, he has forged a pact with his former schoolmate to aid the Forsaken.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gunther Arcanus?",
+   "aliases": [
+    "who is gunther",
+    "gunther lore",
+    "gunther arcanus story"
+   ],
+   "answer": "He is a former wizard of the Kirin Tor from Dalaran who perished during the Third War. Raised into undeath, he broke free of the Lich King's domination on his own and retreated to an island in Brightwater Lake in Tirisfal Glades."
+  },
+  {
+   "q": "Why does Gunther look like a regular Forsaken instead of a skeletal lich?",
+   "aliases": [
+    "why does gunther look human",
+    "gunther not a skeleton",
+    "why is gunther a lich"
+   ],
+   "answer": "While traditional liches transfer their spirits into phylacteries and generate monstrous, floating skeletal forms, Gunther achieved his lich-like necromantic status without abandoning his original reanimated corpse, preserving his physical mortal appearance."
+  },
+  {
+   "q": "Why was Gunther living alone on an island?",
+   "aliases": [
+    "why is gunther alone",
+    "gunther island isolation",
+    "why does gunther hide"
+   ],
+   "answer": "After breaking the Lich King's mental control, Gunther believed he was the only undead in existence with free will. Assuming all other walking dead were still mindless slaves of the Scourge, he secluded himself and ordered his minions to strike down anyone who approached."
+  },
+  {
+   "q": "How does Gunther know Bethor Iceshard?",
+   "aliases": [
+    "bethor and gunther",
+    "how does gunther know bethor",
+    "bethor iceshard history"
+   ],
+   "answer": "They were classmates and close friends in Dalaran studying under the Kirin Tor, along with a third mage named Thule Ravenclaw. The three friends even wove their apprentice wands together as a symbol of their bond."
+  },
+  {
+   "q": "Does Gunther join the Forsaken?",
+   "aliases": [
+    "does gunther join horde",
+    "gunther faction",
+    "is gunther forsaken"
+   ],
+   "answer": "Yes. Once adventurers return his enchanted spellbook and execute the local Scourge agent Lillith Nefara to prove their independence from the Lich King, Gunther pledges his allegiance to Bethor and the Forsaken cause."
+  },
+  {
+   "q": "Who is Lillith Nefara?",
+   "aliases": [
+    "lillith nefara",
+    "nefara",
+    "gunther target"
+   ],
+   "answer": "Lillith Nefara is an agent of the Scourge stationed in Tirisfal Glades. Gunther requires her death as proof that the adventurer truly serves an enemy of the Lich King rather than the Scourge itself."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Gunther's self-liberation makes him an anomaly among the Forsaken, proving that intense arcane training and iron will alone could sometimes shatter the Lich King's mental dominion."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Trained in Dalaran, Gunther represents the Kirin Tor wizards who covertly dabbled in forbidden necromantic spells before the Scourge invaded Lordaeron."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Gunther's commanding grasp of dark arts and reanimation demonstrates how far forbidden scholarship could flourish outside the watchful eyes of Dalaran's leadership."
+  }
+ ],
+ "keywords": [
+  "arcanus",
+  "bethor",
+  "brightwater",
+  "dalaran",
+  "gunther",
+  "iceshard",
+  "kirin tor",
+  "lich",
+  "necromancer",
+  "thule",
+  "tirisfal"
+ ],
+ "related": [
+  "subzone:gunther-s-retreat",
+  "npc:bethor-iceshard",
+  "quest:405",
+  "quest:366",
+  "quest:409",
+  "quest:411",
+  "npc:thor",
+  "quest:446"
+ ],
+ "attribution": [
+  "Gunther Arcanus"
+ ]
+}

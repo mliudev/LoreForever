@@ -1,0 +1,122 @@
+{
+ "key": "quest:6461",
+ "type": "quest",
+ "name": "Blood Feeders",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   6461
+  ],
+  "level": "19",
+  "faction": "Horde",
+  "start": "Xen'Zilla",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Blood Feeders",
+  "chain": []
+ },
+ "summary": "Blood Feeders is a Horde hunting contract given by Xen'Zilla in the Darkspear settlement of Malaka'jin. The local trolls have found plentiful game along the slopes of Stonetalon, but the scent of their butchered meat has drawn swarms of predatory Deepmoss spiders down into their camps.",
+ "sections": [
+  {
+   "title": "Unwanted Dinner Guests",
+   "body": "The trolls who established the frontier outpost of Malaka'jin in southeastern Stonetalon Mountains came seeking good hunting. The craggy slopes proved bountiful, but the meat and game they brought back soon drew the attention of nocturnal predators. Deepmoss spiders, aggressive arachnids native to the crags and canyons to the north, began slipping into the camp under cover of dark, seeking to scavenge their caches or turn the hunters into prey.",
+   "spoiler": 0
+  },
+  {
+   "title": "Clearing the Crags",
+   "body": "To keep the encampment safe and protect their supplies, Xen'Zilla asks adventurers to track the predators north into the mountain passes. The infestation of Deepmoss Creepers and Venomspitters is thickest around the rocky ravines and webs of the Cleft. Thinning their numbers pushes the brood back from Malaka'jin's borders and ensures the village can rest without fearing ambush from the shadows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers the quest Blood Feeders?",
+   "aliases": [
+    "who gives blood feeders",
+    "blood feeders quest giver",
+    "xen'zilla quest"
+   ],
+   "answer": "Xen'Zilla, a Darkspear troll residing in the village of Malaka'jin in the southeastern Stonetalon Mountains, offers the task to traveling Horde champions."
+  },
+  {
+   "q": "Why are the spiders attacking Malaka'jin?",
+   "aliases": [
+    "why spiders attack",
+    "spider attacks malakajin",
+    "why are spiders invading"
+   ],
+   "answer": "The trolls at Malaka'jin hunt the local game extensively. The scent of fresh kills and drying meat draws the Deepmoss spiders down from the mountain passes at night to steal provisions and hunt the villagers."
+  },
+  {
+   "q": "Where are the Deepmoss spiders located?",
+   "aliases": [
+    "where are deepmoss spiders",
+    "deepmoss creepers location",
+    "deepmoss venomspitter location"
+   ],
+   "answer": "Deepmoss Creepers and Venomspitters roam the central passes and crags north of Malaka'jin, with a particularly dense concentration dwelling within the web-strewn ravine known as the Cleft."
+  },
+  {
+   "q": "What is Malaka'jin?",
+   "aliases": [
+    "what is malaka'jin",
+    "malakajin lore",
+    "troll village stonetalon"
+   ],
+   "answer": "Malaka'jin is a Darkspear troll encampment located at the southern entrance of the Stonetalon Mountains, near the border with the Barrens, serving as a frontier hunting base and Horde outpost."
+  },
+  {
+   "q": "Is there a greater threat tied to these spiders?",
+   "aliases": [
+    "big spider stonetalon",
+    "cleft elite spider",
+    "spider matriarch stonetalon"
+   ],
+   "answer": "Deep inside the Cleft among the webs lives a massive, lethal spider matriarch. A warning signpost outside the canyon warns travelers of the danger and encourages groups to bring her down."
+  },
+  {
+   "q": "What happens after the spiders are culled?",
+   "aliases": [
+    "blood feeders aftermath",
+    "does malakajin become safe"
+   ],
+   "answer": "Culling the Creepers and Venomspitters gives Malaka'jin breathing room, allowing the troll hunters to secure their meat stores and walk their camps at night without constant ambush."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "The hunters of Malaka'jin are kin, striving to carve out self-sufficient territory in Kalimdor's rugged highlands without succumbing to the wilderness."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Malaka'jin anchors the Horde's access route into the Stonetalon Mountains from the northern Barrens; safeguarding the village secures the entire southern pass."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking dangerous predators that out-hunt and harass friendly settlements is natural work for skilled trackers moving through the crags."
+  }
+ ],
+ "keywords": [
+  "blood feeders",
+  "cleft",
+  "deepmoss creeper",
+  "deepmoss venomspitter",
+  "malaka'jin",
+  "spiders",
+  "stonetalon",
+  "xen'zilla"
+ ],
+ "related": [
+  "subzone:malaka-jin",
+  "zone:stonetalon",
+  "subzone:cleft",
+  "quest:6284",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Blood Feeders"
+ ]
+}

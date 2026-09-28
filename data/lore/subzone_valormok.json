@@ -1,0 +1,92 @@
+{
+ "key": "subzone:valormok",
+ "type": "subzone",
+ "name": "Valormok",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Valormok"
+ },
+ "summary": "Valormok is a remote Horde outpost established in the rugged northwest reaches of Azshara. Positioned north of the Haldarr Encampment, this windswept settlement serves as a staging ground for scouts and adventurers braving the cursed, ancient ruins of the coast.",
+ "sections": [
+  {
+   "title": "A Precarious Foothold",
+   "body": "Perched among the autumn-colored trees of Azshara, Valormok represents the Horde's tentative interest in a hostile and largely forsaken territory. Life here is bleak and fraught with peril; the camp is lightly fortified and constantly exposed to nearby satyrs, nagas, and prowling beasts. Despite these hardships, its stationed warriors hold the ground, acting as a crucial flight hub and forward bastion connecting Orgrimmar with the wilder stretches of northern Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Treachery and Retribution",
+   "body": "The camp was recently struck by a devastating betrayal. Belgrom Rockmaul originally dispatched Horde warriors alongside a blood elf named Magus Rimtori to uncover ancient treasures and powerful relics among the ruins. Rimtori turned upon her escort, butchering the warriors to claim the artifacts for herself. Led by Ag'tor Bloodfist, the survivors in Valormok now plot vengeance against Rimtori and her cohort entrenched at the nearby Thalassian Base Camp.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Valormok?",
+   "aliases": [
+    "valormok azshara",
+    "what is this camp",
+    "horde base in azshara"
+   ],
+   "answer": "Valormok is an isolated Horde settlement located in northwestern Azshara. It provides a vital flight master connection and serves as an operations base for Horde travelers surveying the ancient coastal wilderness."
+  },
+  {
+   "q": "Who leads the encampment?",
+   "aliases": [
+    "who is in charge",
+    "valormok leader",
+    "agtor bloodfist"
+   ],
+   "answer": "The outpost is overseen by Ag'tor Bloodfist, an orc warrior tasked with maintaining the Horde's foothold and securing vengeance for his slain comrades."
+  },
+  {
+   "q": "Why were so many Horde warriors killed here?",
+   "aliases": [
+    "what happened to the guards",
+    "valormok massacre",
+    "rimtori betrayal"
+   ],
+   "answer": "Belgrom Rockmaul had dispatched warriors to escort the blood elf Magus Rimtori in a search for relics. Rimtori betrayed and slaughtered her escort to hoard the power and wealth of Azshara for herself, leaving the garrison heavily diminished."
+  },
+  {
+   "q": "Where does the flight master connect to?",
+   "aliases": [
+    "valormok flight paths",
+    "where can i fly from valormok"
+   ],
+   "answer": "Valormok's wind rider master offers direct flight connections across Kalimdor, including routes to Orgrimmar, Thunder Bluff, the Crossroads, Splintertree Post, Bloodvenom Post, and Everlook."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Valormok is the primary sanctuary for Horde adventurers navigating Azshara's treacherous ruins, offering flight masters and missions of vengeance."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The outpost stands as a grim test of endurance for orcs stationed far from Orgrimmar, bound by honor to avenge their betrayed kin."
+  }
+ ],
+ "keywords": [
+  "ag'tor bloodfist",
+  "azshara",
+  "belgrom rockmaul",
+  "flight master",
+  "jediga",
+  "magus rimtori",
+  "valormok"
+ ],
+ "related": [
+  "zone:azshara",
+  "npc:magus-rimtori",
+  "subzone:thalassian-base-camp",
+  "subzone:haldarr-encampment",
+  "zone:orgrimmar",
+  "subzone:splintertree-post",
+  "subzone:bloodvenom-post",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Valormok"
+ ]
+}

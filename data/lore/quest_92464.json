@@ -1,0 +1,114 @@
+{
+ "key": "quest:92464",
+ "type": "quest",
+ "name": "Elemental Unrest",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92464
+  ],
+  "level": "3",
+  "faction": null,
+  "start": "Rorian the Dayseeker",
+  "end": "Yala Windwatcher",
+  "previous": "",
+  "next": "Agitators",
+  "wiki": "Elemental Unrest (quest)",
+  "chain": []
+ },
+ "summary": "Elemental Unrest is an introductory task given by Rorian the Dayseeker on Zephras Isle. Following the departure of the island's sentient elemental benefactors, the lesser wind spirits near the Thendal Standing Stones have grown agitated and unpredictable. You are sent into Thendal Grove to find Rorian's apprentice, Yala Windwatcher, and discover what is unsettling the local breeze.",
+ "sections": [
+  {
+   "title": "A Change in the Wind",
+   "body": "For generations, the people of Zephras lived alongside powerful, sentient wind spirits who guided and protected them. With those elemental benefactors gone, the island has drifted into persistent imbalance. The air is no longer tended by benevolent minds, leaving only simple sprites that reflect the volatile emotions and forces lingering across the landscape.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Thendal Standing Stones",
+   "body": "Northeast of Rorian's post, near the ancient Thendal Standing Stones, the air has grown sharply hostile. Because these lesser manifestations lack true self-awareness, their turbulence is not born of malice, but of reaction. Rorian sent his apprentice, Yala Windwatcher, to monitor their erratic behavior from the edge of the grove and deduce what unseen tension is disturbing them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the wind sprites agitated?",
+   "aliases": [
+    "why are elementals mad",
+    "wind unrest cause",
+    "sprites angry"
+   ],
+   "answer": "Unlike the island's former elemental benefactors, these wind sprites lack true self-awareness. They instinctively mirror the emotions, intentions, and ambient magical forces of creatures and events around them, turning turbulent whenever the local environment falls out of balance."
+  },
+  {
+   "q": "Who are the elemental benefactors Rorian mentions?",
+   "aliases": [
+    "elemental benefactors",
+    "who left zephras",
+    "wind spirits zephras"
+   ],
+   "answer": "They were sentient, benevolent wind spirits who once coexisted with the inhabitants of Zephras. Since their departure, the island has suffered continuous unrest without their stabilizing influence."
+  },
+  {
+   "q": "Where can I find Yala Windwatcher?",
+   "aliases": [
+    "yala windwatcher location",
+    "where is yala",
+    "thendal grove apprentice"
+   ],
+   "answer": "Yala Windwatcher is stationed in Thendal Grove to the northeast, overlooking the Thendal Standing Stones where the agitated wind sprites congregate."
+  },
+  {
+   "q": "Who is Rorian the Dayseeker?",
+   "aliases": [
+    "who is rorian",
+    "rorian dayseeker"
+   ],
+   "answer": "Rorian the Dayseeker is an elder guide on Zephras Isle who watches over the island's spiritual balance and studies the ongoing disturbances among the local elementals."
+  },
+  {
+   "q": "What happens after finding Yala?",
+   "aliases": [
+    "next quest",
+    "what comes after elemental unrest",
+    "yala follow up"
+   ],
+   "answer": "Speaking with Yala leads directly into investigating the true cause behind the turbulence at the standing stones, beginning with the task 'Agitators'."
+  },
+  {
+   "q": "Are the wind sprites dangerous?",
+   "aliases": [
+    "are sprites hostile",
+    "elemental danger"
+   ],
+   "answer": "While simple in nature, their agitated state makes them erratic and defensive. They react aggressively to intrusion as long as the underlying disturbance persists."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The wind spirits of Zephras reflect the island's emotional climate like a mirror, making this disturbance a clear warning sign of deeper environmental disruption."
+  },
+  {
+   "target": "race:Skyborne",
+   "text": "The departure of the elemental benefactors has left the winds unpredictable, demanding vigilance from those who depend on Zephras Isle's skies."
+  }
+ ],
+ "keywords": [
+  "elemental unrest",
+  "rorian the dayseeker",
+  "thendal grove",
+  "thendal standing stones",
+  "wind sprites",
+  "yala windwatcher",
+  "zephras isle"
+ ],
+ "related": [
+  "npc:rorian-the-dayseeker",
+  "quest:92465",
+  "zone:zephras"
+ ],
+ "attribution": [
+  "Elemental Unrest (quest)"
+ ]
+}

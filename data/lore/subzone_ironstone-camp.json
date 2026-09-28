@@ -1,0 +1,74 @@
+{
+ "key": "subzone:ironstone-camp",
+ "type": "subzone",
+ "name": "Ironstone Camp",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Ironstone Camp"
+ },
+ "summary": "Ironstone Camp is an outpost established by the Horde along the western border of the Shimmering Flats in Thousand Needles. Originally deployed to expel Alliance dwarven excavators from the nearby digsite, the encampment's forces now face a deadly threat after subterranean silithid overran the excavation.",
+ "sections": [
+  {
+   "title": "A Change of Mission",
+   "body": "Ironstone Camp sits directly on the threshold between the high pillars of Thousand Needles and the blazing salt expanse of the Shimmering Flats. The Horde detachment stationed here was initially dispatched with a clear and singular objective: dislodge the Prospector Stormpike Expedition digging at the Rustmaul Digsite. However, their military confrontation was cut short when a swarm of voracious silithid burst forth from a nearby cavern, violently engulfing the dig and attacking both sides. Led by Moktar Krin, the surviving camp defenders have diverted their efforts to combating the insectoid infestation before the swarm spreads unchecked across the region.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of Ironstone Camp?",
+   "aliases": [
+    "why is ironstone camp here",
+    "ironstone camp purpose",
+    "horde camp shimmering flats"
+   ],
+   "answer": "Ironstone Camp was set up as a forward Horde staging point to drive Alliance dwarven excavators out of the Rustmaul Digsite. However, an unexpected swarm of subterranean silithid erupted into the area, shifting the encampment's priority to survival and containment of the insect menace."
+  },
+  {
+   "q": "Who leads the forces at Ironstone Camp?",
+   "aliases": [
+    "ironstone camp leader",
+    "moktar krin",
+    "who runs ironstone camp"
+   ],
+   "answer": "Moktar Krin directs the Horde fighters stationed here. With the original mission disrupted by the insect outbreak, he coordinates patrols and tasks travelers with culling the aggressive silithid infesting the neighboring digsite."
+  },
+  {
+   "q": "Where is Ironstone Camp located?",
+   "aliases": [
+    "ironstone camp location",
+    "where is ironstone camp",
+    "how to find ironstone camp"
+   ],
+   "answer": "The camp is situated in Thousand Needles right on the western edge of the Shimmering Flats, resting close to the path leading out of the canyon floor toward the blinding salt flats."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The camp offers a strategic stopping point before heading out onto the open salt flats, though the local commanders are hard-pressed to eliminate the silithid swarm threatening their position."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance explorers heading toward the Shimmering Flats should keep their distance from the camp, which was originally established specifically to harass and purge the Bael'dun dwarven diggers."
+  }
+ ],
+ "keywords": [
+  "horde outpost",
+  "ironstone camp",
+  "moktar krin",
+  "rustmaul digsite",
+  "shimmering flats",
+  "silithid",
+  "thousand needles"
+ ],
+ "related": [
+  "subzone:shimmering-flats",
+  "zone:thousandneedles",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Ironstone Camp"
+ ]
+}

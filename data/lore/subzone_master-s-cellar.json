@@ -1,0 +1,86 @@
+{
+ "key": "subzone:master-s-cellar",
+ "type": "subzone",
+ "name": "Master's Cellar",
+ "era": "classic",
+ "zone": "deadwind",
+ "meta": {
+  "wiki": "Master's Cellar"
+ },
+ "summary": "The Master's Cellar is a sprawling subterranean complex situated beneath the ruined settlement south of Karazhan in Deadwind Pass. Once serving Medivh's estate as wine cellars and storage vaults, it has descended into a haunted ruin teeming with the restless spectres of former servants and caretakers.",
+ "sections": [
+  {
+   "title": "Haunted Underbelly of Karazhan",
+   "body": "Just south of the imposing tower of Karazhan lie the ruined remnants of a hamlet that once housed the servants, groundskeepers, and attendants who maintained Medivh's estate. Beneath these crumbled homes sits the Master's Cellar. Accessible through two separate entrances in the surface ruins, the complex expands far underground. One doorway opens into an extensive vaulted wine cellar, while the other descends through collapsed stonework into deep natural caverns. Whatever dark demise befell Karazhan and its master swallowed this basement as well, leaving the unliving remnants of caretakers, wailing spectres, and damned souls trapped in endless servitude.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Lower Caverns",
+   "body": "The deepest recesses of the complex, designated the Lower Cellar, reveal that Medivh's excavations breached the raw subterranean rock of Deadwind Pass. The cellar's foundations crumbled into these cavern systems, creating a jagged labyrinth that echoes with ghostly wails. While adventurers exploring the Pass rarely find living souls here, the pervasive magical corruption leaking from the nearby tower has firmly anchored these apparitions to the stone, making the caverns as perilous as the ruins above.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was the Master's Cellar originally used for?",
+   "aliases": [
+    "purpose of masters cellar",
+    "what is this cellar",
+    "why is there a wine cellar here"
+   ],
+   "answer": "It served as the primary storage vaults and wine cellars for the tower of Karazhan. The village above housed the domestic staff and groundskeepers who maintained the Guardian Medivh's sprawling household, using the subterranean vaults to store provisions and vintage kegs."
+  },
+  {
+   "q": "Why is the cellar full of ghosts?",
+   "aliases": [
+    "why are there ghosts",
+    "who are the undead in the cellar",
+    "why is masters cellar haunted"
+   ],
+   "answer": "When Medivh succumbed to corruption and met his end within Karazhan, a disastrous wave of magical fallout scourged the surrounding pass. The servants, staff, and villagers living in the hamlet were wiped out, their spirits bound to the dark ruins as restless phantoms and unliving caretakers."
+  },
+  {
+   "q": "How do you access the cave systems below the cellar?",
+   "aliases": [
+    "how to get into the lower cellar",
+    "masters cellar entrances",
+    "where is the cave entrance"
+   ],
+   "answer": "There are two distinct cellar doorways among the ruined buildings south of Karazhan. While the eastern entrance leads into the structured wine cellar, the western entryway descends into a collapsed section of masonry that drops down into the natural underground caves of the Lower Cellar."
+  },
+  {
+   "q": "Is the Master's Cellar directly connected to the interior of Karazhan?",
+   "aliases": [
+    "does masters cellar lead into karazhan",
+    "entrance to karazhan from cellar"
+   ],
+   "answer": "No. Despite its proximity to the base of the tower and its historical role in provisioning the Guardian's estate, the subterranean chambers do not offer an open passage into Karazhan itself. The cellar remains self-contained beneath the village ruins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The ghostly remnants lingering beneath the Guardian's estate bear testament to the severe arcane backlash unleashed when Medivh fell, turning ordinary domestic vaults into a nexus of lingering spectral energy."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The tormented spectres trapped within the damp vaults are the tragic souls of simple caretakers and servants, denied peace by the lingering curse on Deadwind Pass."
+  }
+ ],
+ "keywords": [
+  "deadwind pass",
+  "karazhan",
+  "lower cellar",
+  "master's cellar",
+  "masters cellar",
+  "medivh",
+  "unliving caretaker"
+ ],
+ "related": [
+  "zone:deadwind",
+  "subzone:karazhan"
+ ],
+ "attribution": [
+  "Master's Cellar"
+ ]
+}

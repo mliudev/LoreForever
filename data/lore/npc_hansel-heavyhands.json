@@ -1,0 +1,112 @@
+{
+ "key": "npc:hansel-heavyhands",
+ "type": "npc",
+ "name": "Hansel Heavyhands",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Hansel Heavyhands",
+  "refs": 4
+ },
+ "summary": "Hansel Heavyhands is an unusually massive Dark Iron dwarf stationed with the Thorium Brotherhood atop Thorium Point in the Searing Gorge. Tasked with perilous field work by the outpost's overseers, he consistently delegates dangerous jobs to passing adventurers using a colorful array of petty physical complaints. His hulking frame stands out among his kin, even if his enthusiasm for fieldwork does not match his size.",
+ "sections": [
+  {
+   "title": "A Giant Among Dwarves",
+   "body": "Even by the broad-shouldered standards of the Dark Iron clan, Hansel Heavyhands is an anomaly. Towering over his brethren with a massive frame that borders on orcish in width and height, his sheer physical presence suggests a warrior built for frontline slaughter. Yet despite his imposing build and formidable moniker, Hansel appears utterly uninterested in unnecessary physical exertion, preferring the relative security of the Thorium Brotherhood's camp high above the volcanic ash.",
+   "spoiler": 0
+  },
+  {
+   "title": "Master of Excuses",
+   "body": "Taskmaster Scrange and Master Smith Burninate frequently assign Hansel the grim chore of culling the fiery beasts lurking in the slag pits below. When told to clear out the predatory Incendosaurs crawling through the Cauldron, Hansel begs off citing sore feet. When ordered to exterminate the Greater Lava Spiders infesting the searing wastes, he claims the blasted volcanic ridge is afflicted with a 'frigid climate' that has given him a miserable cold. Consequently, any mercenary willing to brave the magma flows finds Hansel ready with an open contract.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hansel Heavyhands?",
+   "aliases": [
+    "who is hansel",
+    "hansel heavyhands lore",
+    "hansel dwarf"
+   ],
+   "answer": "Hansel Heavyhands is a Dark Iron dwarf aligned with the Thorium Brotherhood. Stationed at Thorium Point in the Searing Gorge, he is known for his startlingly enormous physical size and his uncanny knack for dodging dangerous fieldwork."
+  },
+  {
+   "q": "Why is Hansel so much bigger than other dwarves?",
+   "aliases": [
+    "why is hansel so big",
+    "huge dwarf searing gorge",
+    "orc sized dwarf"
+   ],
+   "answer": "No clear explanation is given for his bulk. Hansel is simply an abnormally gigantic Dark Iron dwarf, possessing broad shoulders, thick limbs, and an overall stature approaching that of an orc."
+  },
+  {
+   "q": "What tasks does Hansel give to adventurers?",
+   "aliases": [
+    "hansel heavyhands quests",
+    "what quests does hansel give"
+   ],
+   "answer": "Hansel recruits passing travelers to handle assignments handed down by his superiors. Specifically, he pays mercenaries to exterminate Greater Lava Spiders throughout the Searing Gorge and hunt Incendosaurs deep within the Cauldron."
+  },
+  {
+   "q": "Why doesn't Hansel do his own chores?",
+   "aliases": [
+    "why doesnt hansel fight",
+    "hansel excuses"
+   ],
+   "answer": "Hansel comes up with excuses whenever danger calls. He blames sore feet for keeping him out of the Cauldron to fight Incendosaurs, and he complains that the blistering Searing Gorge is freezing enough to give him a cold when ordered to hunt lava spiders."
+  },
+  {
+   "q": "Is Hansel loyal to the Dark Iron emperor?",
+   "aliases": [
+    "is hansel loyal to shadowforge",
+    "is hansel an enemy"
+   ],
+   "answer": "Hansel belongs to the Thorium Brotherhood, a renegade faction of Dark Iron dwarves that has broken away from Emperor Dagran Thaurissan and Ragnaros. He is neutral toward both Alliance and Horde travelers visiting Thorium Point."
+  },
+  {
+   "q": "Where can Hansel Heavyhands be found?",
+   "aliases": [
+    "hansel location",
+    "where is hansel"
+   ],
+   "answer": "He is located at Thorium Point, the rocky outpost perched on the northern ridge overlooking the Searing Gorge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Bronzebeard and Wildhammer dwarves may marvel\u2014or scoff\u2014at Hansel's colossal build, wondering how a Dark Iron grew to such towering proportions while spending his days dodging actual labor."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though the Alliance generally clashes with Dark Iron loyalists, the Thorium Brotherhood welcomes anyone with a strong arm, making Hansel a convenient source of local bounty work."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde travelers will find Hansel's sheer bulk reminiscent of an orc or tauren, though his reluctance to engage in honorable combat will certainly raise an eyebrow."
+  }
+ ],
+ "keywords": [
+  "cauldron",
+  "dark iron",
+  "hansel heavyhands",
+  "incendosaur",
+  "lava spider",
+  "searing gorge",
+  "thorium brotherhood",
+  "thorium point"
+ ],
+ "related": [
+  "subzone:thorium-point",
+  "zone:searinggorge",
+  "subzone:cauldron",
+  "topic:dark-iron-dwarf",
+  "topic:dwarf",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Hansel Heavyhands"
+ ]
+}

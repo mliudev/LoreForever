@@ -1,0 +1,121 @@
+{
+ "key": "quest:6341",
+ "type": "quest",
+ "name": "The Bounty of Teldrassil",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   6341
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Nessa Shadowsong",
+  "end": "Vesprystus",
+  "previous": "Nessa Shadowsong (quest)",
+  "next": "Flight to Auberdine",
+  "wiki": "The Bounty of Teldrassil",
+  "chain": []
+ },
+ "summary": "The Bounty of Teldrassil is an introductory errand given by Nessa Shadowsong in Rut'theran Village. Seeking to compare the unusual size and abundance of island fish with those caught along the mainland, she prepares a collection of bones and scales to be shipped across the strait to Darkshore. Delivering this package to the local hippogryph handler marks the first step in crossing the sea to Auberdine.",
+ "sections": [
+  {
+   "title": "A Fisherman's Study",
+   "body": "Beneath the massive boughs of the World Tree, the sheltered waters surrounding Rut'theran Village teem with remarkably large and plentiful marine life. Nessa Shadowsong, observing the remarkable yields hauled in by local fishermen, seeks to discover whether this vitality extends to the ancient mainland coast or remains unique to the waters nourished by Teldrassil. To test her theory, she prepares a collection of scales and bones to be examined by Laird, a fellow fishmonger based across the water in Auberdine.",
+   "spoiler": 0
+  },
+  {
+   "title": "Arranging Passage",
+   "body": "Transporting cargo and travelers across the open sound between the island bough and mainland Kalimdor requires reliable wings. Rather than sending the parcel by small skiff, Nessa directs travelers directly to Vesprystus, the village hippogryph master. By handing the collection to him, travelers arrange the logistics needed to mount a trained beast and deliver the samples directly to the docks of Darkshore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Nessa trying to investigate?",
+   "aliases": [
+    "nessa goal",
+    "why compare fish",
+    "bounty of teldrassil purpose"
+   ],
+   "answer": "Nessa Shadowsong notices that the fish drawn from the waters around Rut'theran Village are extraordinarily large and abundant. She wants to send samples of bones and scales across the water to compare Teldrassil's harvest with the fish found along the mainland coast of Darkshore."
+  },
+  {
+   "q": "Who is receiving the fish samples in Auberdine?",
+   "aliases": [
+    "who gets nessa collection",
+    "laird darkshore",
+    "auberdine fish vendor"
+   ],
+   "answer": "The collection is addressed to Laird, a fish vendor stationed in the coastal village of Auberdine on the mainland shore of Darkshore."
+  },
+  {
+   "q": "Why take the parcel to Vesprystus instead of traveling directly to Auberdine?",
+   "aliases": [
+    "why vesprystus",
+    "who is vesprystus",
+    "hippogryph master ruttheran"
+   ],
+   "answer": "Vesprystus is the hippogryph master in Rut'theran Village. Handing the collection to him arranges for direct aerial transport, allowing you to secure passage on a hippogryph across the sea to Darkshore."
+  },
+  {
+   "q": "Where is Rut'theran Village located in relation to Teldrassil?",
+   "aliases": [
+    "rut'theran location",
+    "where is nessa shadowsong",
+    "how to reach ruttheran"
+   ],
+   "answer": "Rut'theran Village sits at the southern base of Teldrassil at sea level, connected to Darnassus through an emerald portal. It serves as the primary coastal haven and harbor for ships and hippogryphs traveling to and from the great tree."
+  },
+  {
+   "q": "What happens after giving the collection to Vesprystus?",
+   "aliases": [
+    "flight to auberdine next",
+    "after bounty of teldrassil",
+    "what does vesprystus do"
+   ],
+   "answer": "Vesprystus accepts the collection and offers the follow-up task, Flight to Auberdine, which sends you soaring across the strait on the back of a hippogryph directly to Darkshore."
+  },
+  {
+   "q": "Is this part of leaving the starting zone for Night Elves?",
+   "aliases": [
+    "leaving teldrassil",
+    "level 10 night elf quest",
+    "moving to darkshore"
+   ],
+   "answer": "Yes. This chain introduces young night elf adventurers to flight paths and guides them out of the island canopy down toward mainland Kalimdor to continue their journeys in Darkshore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elf travelers, this journey marks the traditional passage from the safe heights of Teldrassil down to the shadowed mainland shores of Darkshore."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The route between Rut'theran and Auberdine serves as a crucial transit artery linking the night elf capital with the rest of northern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "bounty of teldrassil",
+  "darkshore",
+  "hippogryph",
+  "laird",
+  "nessa shadowsong",
+  "rut'theran village",
+  "vesprystus"
+ ],
+ "related": [
+  "quest:6344",
+  "quest:6342",
+  "npc:vesprystus",
+  "npc:laird",
+  "subzone:rut-theran-village",
+  "subzone:auberdine",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "The Bounty of Teldrassil"
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "key": "quest:8646",
+ "type": "quest",
+ "name": "Hammershout the Elder",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   8646
+  ],
+  "level": "",
+  "faction": null,
+  "start": "",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Hammershout the Elder",
+  "chain": []
+ },
+ "summary": "Elder Hammershout is an ancient spirit visited during the Lunar Festival, standing outside the gates of Stormwind in Elwynn Forest. He rewards travelers who pause to honor his people and show reverence for the venerable heritage of Azeroth's elder races. His presence serves as a reminder of ancient bonds even in the heart of human territory.",
+ "sections": [
+  {
+   "title": "Honoring Ancient Blood",
+   "body": "During the Lunar Festival, the spirits of revered ancestors manifest across Azeroth, offering wisdom and blessings to any traveler who takes time to pay their respects. Elder Hammershout gathers just outside the great gates of Stormwind, watchful over the winding roads of Elwynn Forest. Though he stands near the heart of modern human civilization, his appearance reminds passing adventurers of a time when the world was shaped by the ancient races who walked the land long before the kingdoms of today rose to prominence.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tokens of Ancestral Reverence",
+   "body": "Greeting Elder Hammershout requires neither martial trials nor perilous oaths, but rather a simple acknowledgment of the past. He expresses quiet relief and gratitude when the current inhabitants of the realm still take time to pay homage to the olden races. In exchange for this act of memory and respect, the Elder bestows a ceremonial token upon travelers, symbolizing the enduring communion between the living generation and the spirits who came before.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Elder Hammershout?",
+   "aliases": [
+    "hammershout",
+    "who is hammershout",
+    "elder hammershout identity"
+   ],
+   "answer": "Elder Hammershout is an ancestral spirit who appears during the Lunar Festival. He represents the ancient lineages of Azeroth and stands near Stormwind to offer blessings and tokens to those who honor him."
+  },
+  {
+   "q": "Where can Elder Hammershout be found?",
+   "aliases": [
+    "hammershout location",
+    "where is hammershout",
+    "hammershout elwynn"
+   ],
+   "answer": "Elder Hammershout is located in Elwynn Forest, stationed outside the grand gates of Stormwind along the main road leading into the forest."
+  },
+  {
+   "q": "Why does Elder Hammershout mention the 'olden races'?",
+   "aliases": [
+    "olden races meaning",
+    "what does hammershout mean"
+   ],
+   "answer": "His words reflect the Lunar Festival's celebration of antiquity and ancestor worship, honoring the ancient peoples and traditions that helped shape Azeroth long before the rise of modern settlements."
+  },
+  {
+   "q": "What token does Elder Hammershout offer?",
+   "aliases": [
+    "hammershout reward",
+    "hammershout token",
+    "what does he give"
+   ],
+   "answer": "He offers a Coin of Ancestry, a ceremonial token granted by the spirits of the Lunar Festival to those who seek out elders and pay their respects."
+  },
+  {
+   "q": "Can Horde adventurers speak with Elder Hammershout?",
+   "aliases": [
+    "can horde talk to hammershout",
+    "hammershout horde"
+   ],
+   "answer": "Yes. Ancestral spirits during the Lunar Festival transcend factional warfare, though Horde travelers must tread carefully given his location right outside the Alliance stronghold of Stormwind."
+  },
+  {
+   "q": "Is this encounter tied to an active holiday?",
+   "aliases": [
+    "is hammershout always there",
+    "lunar festival elder"
+   ],
+   "answer": "Elder Hammershout only manifests during the annual Lunar Festival, appearing temporarily to grant his blessings before fading back to the spirit realm."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Standing outside the bastion of Stormwind, Hammershout reminds humans traversing the Elwynn woods to respect the deeper history of Azeroth that predates their modern kingdom."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance heroes leaving the safety of Stormwind find in Hammershout a reminder of reverence, peace, and the shared ancestral past of the world."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Reaching Hammershout offers a daring challenge for Horde pilgrims, requiring them to approach the heavily defended gates of Stormwind to honor the spirits."
+  }
+ ],
+ "keywords": [
+  "ancestor",
+  "elder hammershout",
+  "elwynn forest",
+  "hammershout",
+  "lunar festival",
+  "olden races",
+  "stormwind"
+ ],
+ "related": [
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Hammershout the Elder"
+ ]
+}

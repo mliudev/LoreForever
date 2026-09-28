@@ -1,0 +1,129 @@
+{
+ "key": "quest:524",
+ "type": "quest",
+ "name": "Elixir of Agony",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   524
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Apothecary Lydon",
+  "end": "Dusty Rug",
+  "previous": "Elixir of Agony (4)",
+  "next": null,
+  "wiki": "Elixir of Agony (5)",
+  "chain": []
+ },
+ "summary": "Elixir of Agony concludes Apothecary Lydon's sinister brewing experiments in Tarren Mill. Having perfected a deadly poison disguised as stolen dwarven ale, the Royal Apothecary Society tests the lethal concoction on helpless human prisoners captured from nearby farms.",
+ "sections": [
+  {
+   "title": "A Deadly Vintage",
+   "body": "Throughout the Hillsbrad Foothills, Apothecary Lydon gathers foul ingredients and purloined dwarven ale from the mountain fortress of Dun Garok. His purpose is singular and ruthless: concocting a virulent new brew known as the Elixir of Agony under the mandate of the Royal Apothecary Society. Once mixed, the dark mixture sits inside a seemingly innocent keg of mountain stout, waiting to demonstrate its potency.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unfortunate Guests",
+   "body": "The Deathguards in Tarren Mill recently rounded up local human farmers, originally suspecting an elusive military strategist from Stormwind was hiding among their ranks. When news arrived that the strategist had perished out in the Plaguelands, High Executor Darthalia deemed the surviving farm folk useless to military intelligence. Rather than setting them free, she gifted them to Lydon to serve as guinea pigs for his chemical trials.",
+   "spoiler": 1
+  },
+  {
+   "title": "Testing the Brew",
+   "body": "Carried upstairs to the holding room, the tainted keg is set upon a dusty rug before the parched captives. Thirsty and completely unaware of Lydon's cruelty, the farmers eagerly rush the barrel to drink. The poison acts with terrifying speed: mere moments after partaking of the dwarven brew, the unfortunate captives collapse and die instantly, proving the elixir's devastating lethality.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why were the human farmers captured in the first place?",
+   "aliases": [
+    "why prisoners",
+    "why farmers locked up",
+    "tarren mill prisoners"
+   ],
+   "answer": "Deathguards detained them under suspicion that a military strategist from the Kingdom of Stormwind had embedded himself within their community. Once the strategist turned up dead in the Plaguelands, the captives lost any intelligence value to High Executor Darthalia."
+  },
+  {
+   "q": "Who is Apothecary Lydon?",
+   "aliases": [
+    "apothecary lydon lore",
+    "who is lydon",
+    "lydon tarren mill"
+   ],
+   "answer": "Apothecary Lydon is a member of the Forsaken's Royal Apothecary Society stationed in Tarren Mill. He develops and tests lethal blights and poisons intended to eradicate the living, often using captured locals as live subjects."
+  },
+  {
+   "q": "Where did the ale inside the keg come from?",
+   "aliases": [
+    "source of the ale",
+    "dun garok ale",
+    "keg origin"
+   ],
+   "answer": "The ale was stolen directly from the dwarves of Dun Garok, a stout mountain stronghold in southern Hillsbrad Foothills. Lydon tainted the stolen barrel with his noxious reagents so the deadly poison appeared to be ordinary dwarven brew."
+  },
+  {
+   "q": "What happens when you deliver the tainted keg?",
+   "aliases": [
+    "what happens to the farmers",
+    "farmers drink keg",
+    "plagued brew result"
+   ],
+   "answer": "When the tainted keg is placed on the rug in their holding room, the thirsty human farmers immediately rush toward it and drink. Within seconds, the toxic concoction takes effect, killing all of them on the spot."
+  },
+  {
+   "q": "Who authorized using the prisoners as test subjects?",
+   "aliases": [
+    "who let lydon test on farmers",
+    "darthalia role",
+    "darthalia prisoners"
+   ],
+   "answer": "High Executor Darthalia, commander of the Forsaken forces in Tarren Mill, handed the surviving prisoners over to Apothecary Lydon once she had no military use for them."
+  },
+  {
+   "q": "What is the Royal Apothecary Society trying to achieve here?",
+   "aliases": [
+    "apothecary goals hillsbrad",
+    "why make elixir of agony",
+    "forsaken blight testing"
+   ],
+   "answer": "The Royal Apothecary Society works relentlessly to craft a deadly blight capable of annihilating both the Scourge and the living. Field experiments like the Elixir of Agony test new chemical delivery methods and determine toxicity levels on human biology."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, perfecting the Royal Apothecary Society's poisons is paramount to survival, securing Hillsbrad Foothills from human resurgence by any means necessary."
+  },
+  {
+   "target": "race:Human",
+   "text": "The slaughter of helpless Lordaeron farmers highlights the cold, calculated ruthlessness with which the Forsaken treat their former living kin."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "This grim experiment showcases the darker, unvarnished aspects of Forsaken operations, testing the moral stomach of other Horde races assisting Tarren Mill."
+  }
+ ],
+ "keywords": [
+  "apothecary lydon",
+  "captured farmers",
+  "dun garok",
+  "elixir of agony",
+  "high executor darthalia",
+  "hillsbrad",
+  "tainted keg",
+  "tarren mill"
+ ],
+ "related": [
+  "quest:509",
+  "npc:high-executor-darthalia",
+  "zone:hillsbrad",
+  "subzone:dun-garok",
+  "topic:stormwind-kingdom",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Elixir of Agony (5)"
+ ]
+}

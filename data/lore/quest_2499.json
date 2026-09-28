@@ -1,0 +1,116 @@
+{
+ "key": "quest:2499",
+ "type": "quest",
+ "name": "Oakenscowl",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   2499
+  ],
+  "level": "9",
+  "faction": "Alliance",
+  "start": "Denalan",
+  "end": "",
+  "previous": "Mossy Tumors",
+  "next": null,
+  "wiki": "Oakenscowl (Classic)",
+  "chain": []
+ },
+ "summary": "Denalan asks adventurers to put an end to Oakenscowl, a powerful timberling corrupted by a massive growth. Dwelling in a cave along the southern bank of Lake Al'Ameth, the maddened creature now spreads blight across the local wildlife.",
+ "sections": [
+  {
+   "title": "A Fallen Guardian",
+   "body": "Oakenscowl was once a grand leader among the timberlings, the wood spirits that tend to the lush boughs of Teldrassil. Tragically, the corruption creeping through the world tree does not discriminate between humble wildlife and ancient protectors. Driven wild by a gargantuan tumor swelling upon its bark, Oakenscowl has become a vessel of blight rather than a steward of growth.",
+   "spoiler": 0
+  },
+  {
+   "title": "Purging Lake Al'Ameth",
+   "body": "Lurking in a cavern on the southern shore of Lake Al'Ameth, Oakenscowl's toxic presence actively poisons surrounding waters and woodland beasts. Denalan, unable to face the beast alone, seeks the creature's destruction not out of malice, but to mercifully sever the source of corruption and study the bizarre, overgrown tumor plaguing the lake's spirits.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Oakenscowl?",
+   "aliases": [
+    "who is oakenscowl",
+    "oakenscowl lore",
+    "what kind of creature is oakenscowl"
+   ],
+   "answer": "Oakenscowl is a massive timberling\u2014a forest spirit tied to Teldrassil's plant life. He was once regarded as a noble leader among his kind before falling victim to a malignant growth."
+  },
+  {
+   "q": "Why must Oakenscowl be destroyed?",
+   "aliases": [
+    "why kill oakenscowl",
+    "oakenscowl hostile"
+   ],
+   "answer": "Oakenscowl is afflicted by a gargantuan tumor that has twisted his mind and made him violently aggressive. His presence in the cavern along Lake Al'Ameth actively spreads the strange blight to neighboring timberlings and beasts."
+  },
+  {
+   "q": "Where does Oakenscowl reside?",
+   "aliases": [
+    "oakenscowl location",
+    "where is oakenscowl cave"
+   ],
+   "answer": "Oakenscowl dwells deep within a cavern situated along the southern shore of Lake Al'Ameth in southern Teldrassil."
+  },
+  {
+   "q": "Who is Denalan and why is he studying the tumor?",
+   "aliases": [
+    "who gives oakenscowl quest",
+    "denalan oakenscowl"
+   ],
+   "answer": "Denalan is an herbalist and naturalist living on an island in Lake Al'Ameth. He studies the flora and fauna of the world tree, striving to understand and cure the strange rot that infects the local timberling population."
+  },
+  {
+   "q": "What caused the tumor on Oakenscowl?",
+   "aliases": [
+    "why do timberlings have tumors",
+    "source of corruption"
+   ],
+   "answer": "The tumor is a symptom of a deeper, insidious sickness creeping through the soil and roots of Teldrassil, corrupting nature spirits from within."
+  },
+  {
+   "q": "Is Oakenscowl beyond saving?",
+   "aliases": [
+    "can oakenscowl be healed",
+    "cure oakenscowl"
+   ],
+   "answer": "By the time adventurers encounter him, the affliction has progressed too far. The tumor has completely warped the creature, leaving Denalan no choice but to call for a mercy kill."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Seeing a guardian timberling corrupted by strange tumors is a harrowing reminder to druids that Teldrassil's burgeoning ecosystem is deeply unwell."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The tragic downfall of Oakenscowl strikes near the heart of night elf society, threatening the very lake beneath the shadow of Aldrassil."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Herbalists aiding Denalan observe firsthand how botanical life can warp into malignant, mossy blights under the influence of unseen rot."
+  }
+ ],
+ "keywords": [
+  "corruption",
+  "denalan",
+  "gargantuan tumor",
+  "lake al'ameth",
+  "mossy tumors",
+  "oakenscowl",
+  "teldrassil",
+  "timberling"
+ ],
+ "related": [
+  "npc:denalan",
+  "subzone:lake-al-ameth",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Oakenscowl (Classic)"
+ ]
+}

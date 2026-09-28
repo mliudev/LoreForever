@@ -1,0 +1,126 @@
+{
+ "key": "quest:1501",
+ "type": "quest",
+ "name": "Creature of the Void",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   1501
+  ],
+  "level": "11",
+  "faction": "Horde",
+  "start": "Gan'rul Bloodeye",
+  "end": "",
+  "previous": "Gan'rul's Summons",
+  "next": "The Binding (Voidwalker, Orgrimmar)",
+  "wiki": "Creature of the Void (Orgrimmar)",
+  "chain": [
+   "Gan'rul's Summons",
+   "Creature of the Void (Orgrimmar)",
+   "The Binding (Voidwalker, Orgrimmar)"
+  ]
+ },
+ "summary": "Creature of the Void is a pivotal rite of passage for young Horde warlocks training in Orgrimmar. Seeking to expand an initiate's summoning mastery to call forth a voidwalker, Gan'rul Bloodeye tasks the warlock with recovering the stolen Tablet of Verga from the rogue cultists of the Burning Blade hiding in Skull Rock.",
+ "sections": [
+  {
+   "title": "A Precarious Art",
+   "body": "In the subterranean shadows of Orgrimmar's Cleft of Shadow, Gan'rul Bloodeye watches over the Horde's practicing warlocks. Fel magic is viewed with deep wariness in Thrall's new realm, tainted as it is by the dark history of the orcish clans. Gan'rul acknowledges that few true warlocks remain within the Horde, yet he insists their perilous skills are essential for the Horde's survival. To be useful to the Warchief, an initiate cannot rely solely on the chaotic fire of an imp; they must learn to command beings of pure shadow and endurance.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Stolen Tablet",
+   "body": "Summoning a voidwalker requires specialized runes inscribed upon the Tablet of Verga. Unfortunately, the relic was plundered by the Burning Blade, a fanatical shadow cult operating right beneath the Warchief's nose in the cavern of Skull Rock. Gan'rul sends his student to strike into the cultists' den, retrieve the tablet, and deal a bloody blow to the renegades who cast a stain upon all practicing warlocks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gan'rul Bloodeye?",
+   "aliases": [
+    "gan'rul",
+    "ganrul bloodeye",
+    "who gives this quest"
+   ],
+   "answer": "Gan'rul Bloodeye is a senior warlock trainer located in the Cleft of Shadow beneath Orgrimmar. He oversees the instruction of young Horde warlocks, teaching them how to safely harness dark powers and bind otherworldly minions without falling prey to corruption."
+  },
+  {
+   "q": "What is the Tablet of Verga?",
+   "aliases": [
+    "tablet of verga",
+    "verga tablet",
+    "what is the tablet"
+   ],
+   "answer": "The Tablet of Verga is a relic etched with specialized summoning runes needed to call forth a voidwalker from the Nether. Stolen by the Burning Blade cult, it must be reclaimed so Gan'rul can guide the initiate through the ritual."
+  },
+  {
+   "q": "Where is Skull Rock?",
+   "aliases": [
+    "skull rock location",
+    "where is skull rock",
+    "where to find tablet"
+   ],
+   "answer": "Skull Rock is a shadowy cavern located directly east of Orgrimmar, along the rugged bluffs of Durotar. It serves as a hidden hideout for cultists of the Burning Blade."
+  },
+  {
+   "q": "Why does Gan'rul Bloodeye despise the Burning Blade?",
+   "aliases": [
+    "burning blade warlock",
+    "why hate burning blade"
+   ],
+   "answer": "The Burning Blade cult openly serves demonic masters and actively undermines Thrall's Horde. Gan'rul views them as an intolerable nuisance to the Warchief and a reckless blight that brings suspicion and disrepute onto all practicing warlocks."
+  },
+  {
+   "q": "Why do warlocks need to summon a voidwalker?",
+   "aliases": [
+    "why voidwalker",
+    "voidwalker purpose"
+   ],
+   "answer": "Voidwalkers are beings of the Nether capable of absorbing tremendous punishment and protecting their summoner from harm. Mastering the binding of a voidwalker marks an essential leap in a warlock's practical survival and summoning power."
+  },
+  {
+   "q": "What happens after retrieving the tablet?",
+   "aliases": [
+    "next quest",
+    "what comes next"
+   ],
+   "answer": "Once Gan'rul receives the Tablet of Verga, he provides the initiate with the necessary runes and summons them to complete the ritual in 'The Binding', where the warlock must physically subdue the summoned voidwalker to master it."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This trial marks a fundamental rite of passage for Horde warlocks, graduating them from small imps to commanding frontline shadow minions."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While Thrall's Horde generally distrusts fel practitioners, mentors like Gan'rul work to ensure that those who study the dark arts use their power strictly in service to the Warchief."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs haunted by their history with the Shadow Council, hunting down the Burning Blade offers a measure of vengeance against those who still embrace demonic ruin."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "cleft of shadow",
+  "creature of the void",
+  "gan'rul bloodeye",
+  "orgrimmar",
+  "skull rock",
+  "tablet of verga",
+  "voidwalker",
+  "warlock quest"
+ ],
+ "related": [
+  "npc:gan-rul-bloodeye",
+  "quest:1506",
+  "quest:1471",
+  "quest:827",
+  "zone:orgrimmar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Creature of the Void (Orgrimmar)"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "key": "subzone:canals-stormwind-city",
+ "type": "subzone",
+ "name": "Canals (Stormwind City)",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Canals (Stormwind City)"
+ },
+ "summary": "The Canals are a network of stone-lined waterways weaving through Stormwind City, separating its distinct districts. They serve as quiet thoroughfares for pedestrians and anglers, while quietly harboring hidden hazards and the entrance to the city's prison.",
+ "sections": [
+  {
+   "title": "Arteries of the Capital",
+   "body": "The Canals link and define the districts of Stormwind, dividing the bustling markets of the Trade District from the aged alleys of Old Town, the cathedral gardens, and the Dwarven District. Stone bridges, archways, and waterside walkways frame quiet establishments like the Gallina Winery, tailor shops, and quiet residential homes. In addition to serving local merchants and recreational fishermen, the waterways conceal the fortified entrance to the Stockade, where Stormwind's most dangerous criminals and rebels are held beneath street level.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Gruesome History and Lurking Shadows",
+   "body": "The placid surface of the waterways belies a violent past. Following the sack of Stormwind during the First War, the canals were discovered choked with rubble, timber, and the corpses of slaughtered defenders. When the Alliance of Lordaeron liberated the ruins, soldiers undertook the grim labor of clearing the waterways and burying the dead before rebuilding began. Today, while cleaned and restored, the depths retain an air of mystery, fueled by city rumors of a massive albino crocolisk prowling beneath the docks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to the canals during the First War?",
+   "aliases": [
+    "canal history",
+    "canals first war",
+    "stormwind sack canals"
+   ],
+   "answer": "When the Orcish Horde conquered and sacked Stormwind in the First War, the waterways were left filled with broken stone, timber, and rotting bodies. The retaking forces of the Alliance of Lordaeron had to painstakingly dredge the canals and properly bury the fallen before the city could be rebuilt."
+  },
+  {
+   "q": "Is there really a monster in the Stormwind canals?",
+   "aliases": [
+    "stormwind crocodile",
+    "canal alligator",
+    "sewer beast",
+    "white crocolisk"
+   ],
+   "answer": "Yes. Persistent urban legends tell of a massive white crocolisk lurking in the waterways. City guards and residents often dismiss it as tavern gossip, but watchful fishermen know the beast is very real."
+  },
+  {
+   "q": "Where is the entrance to the Stockade located?",
+   "aliases": [
+    "where is stockade",
+    "stockade entrance",
+    "how to get to stockade"
+   ],
+   "answer": "The Stockade entrance is located along the northern canal walkway nestled between the Cathedral District and the Dwarven District, guarded heavily by the Stormwind City Guard."
+  },
+  {
+   "q": "Can players swim through the canals to travel around Stormwind?",
+   "aliases": [
+    "swimming in canals",
+    "travel by water stormwind",
+    "water route stormwind"
+   ],
+   "answer": "Swimming the canals is entirely possible, though getting back out onto the street requires finding stone stairs or docks spaced along the waterside paths."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "The quiet canal banks provide convenient spots for aspiring chefs to practice fishing for fresh catches without ever leaving the safety of the capital's walls."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The canals stand as a testament to the rebuilding of the capital by the Alliance of Lordaeron, having transformed the choked, corpse-ridden ruins of the First War back into a functional, picturesque city."
+  }
+ ],
+ "keywords": [
+  "canal district",
+  "canals",
+  "crocolisk",
+  "gallina",
+  "sewers",
+  "stockade",
+  "stormwind",
+  "waterways"
+ ],
+ "related": [
+  "zone:stormwind",
+  "zone:stockade",
+  "subzone:trade-district",
+  "subzone:old-town",
+  "subzone:dwarven-district",
+  "topic:first-war",
+  "topic:alliance-of-lordaeron",
+  "quest:66"
+ ],
+ "attribution": [
+  "Canals (Stormwind City)"
+ ]
+}

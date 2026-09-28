@@ -1,0 +1,117 @@
+{
+ "key": "quest:1483",
+ "type": "quest",
+ "name": "Ziz Fizziks",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1483
+  ],
+  "level": "21",
+  "faction": null,
+  "start": "Sputtervalve",
+  "end": "Ziz Fizziks",
+  "previous": null,
+  "next": "Super Reaper 6000 (quest)",
+  "wiki": "Ziz Fizziks (quest)",
+  "chain": []
+ },
+ "summary": "This quest sends Horde travelers to check on Ziz Fizziks, a disgruntled goblin engineer stationed on the western ridge of Windshear Crag. Offended when the Venture Company hired a gnome engineer over him, Ziz defected to the Tinkers' Union under Sputtervalve's demanding direction.",
+ "sections": [
+  {
+   "title": "A Matter of Professional Pride",
+   "body": "The Venture Company relies on ruthless exploitation and mechanical innovation, but it crossed a line for Ziz Fizziks when it brought on a gnome engineer named Gerenzo Wrenchwhistle. Deeply insulted by having to work alongside a gnomish rival, Ziz immediately sought a way out. He reached out to Sputtervalve, a contact representing the Tinkers' Union, begging for a transfer away from Gerenzo's oversight.",
+   "spoiler": 0
+  },
+  {
+   "title": "Out of the Frying Pan",
+   "body": "Securing a new position with the Tinkers' Union did not grant Ziz the easy life he anticipated. Stationed on the western edge of Windshear Crag, he quickly discovered that Sputtervalve is just as much of a slave driver as any Venture Company foreman. Even so, Ziz considers heavy labor under a demanding goblin superior far preferable to sharing an engineering workshop with a gnome.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ziz Fizziks?",
+   "aliases": [
+    "who is ziz",
+    "ziz fizziks npc",
+    "about ziz fizziks"
+   ],
+   "answer": "Ziz Fizziks is a goblin engineer formerly employed by the Venture Company in Stonetalon Mountains. He defected to join the Tinkers' Union after his former employers hired a gnomish engineer."
+  },
+  {
+   "q": "Why did Ziz Fizziks leave the Venture Company?",
+   "aliases": [
+    "why did ziz quit",
+    "why leave venture co",
+    "ziz venture co"
+   ],
+   "answer": "He walked out in protest after the Venture Company hired a gnome engineer, Gerenzo Wrenchwhistle. Refusing to work alongside a gnomish rival, Ziz begged Sputtervalve for new employment."
+  },
+  {
+   "q": "Where can Ziz Fizziks be found?",
+   "aliases": [
+    "ziz fizziks location",
+    "where is ziz",
+    "find ziz fizziks"
+   ],
+   "answer": "He is located along the western edge of Windshear Crag in the Stonetalon Mountains, overlooking the Venture Company logging and excavation operations."
+  },
+  {
+   "q": "Who is Sputtervalve?",
+   "aliases": [
+    "who is sputtervalve",
+    "sputtervalve role"
+   ],
+   "answer": "Sputtervalve is a goblin operative affiliated with the Tinkers' Union who poaches skilled engineers away from the Venture Company, putting them to work on competitive projects."
+  },
+  {
+   "q": "Who is Gerenzo Wrenchwhistle?",
+   "aliases": [
+    "gerenzo wrenchwhistle",
+    "who is the gnome engineer"
+   ],
+   "answer": "Gerenzo is a gnome engineer brought into Windshear Crag by the Venture Company, an appointment that outraged Ziz and spurred fierce professional rivalry."
+  },
+  {
+   "q": "What is the Tinkers' Union?",
+   "aliases": [
+    "tinkers union",
+    "goblin tinkers union"
+   ],
+   "answer": "The Tinkers' Union is an established goblin engineering trade association. They actively compete with rivals like the Venture Company and recruit or reclaim top talent whenever possible."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The fierce feud between Ziz and Gerenzo perfectly reflects the long-standing, volatile rivalry between goblin and gnomish engineering philosophies."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde adventurers operating in Stonetalon Mountains often assist Tinkers' Union operatives like Sputtervalve and Ziz to disrupt Venture Company dominance in Windshear Crag."
+  }
+ ],
+ "keywords": [
+  "gerenzo wrenchwhistle",
+  "sputtervalve",
+  "stonetalon",
+  "tinkers union",
+  "venture company",
+  "windshear crag",
+  "ziz fizziks"
+ ],
+ "related": [
+  "npc:sputtervalve",
+  "subzone:windshear-crag",
+  "zone:stonetalon",
+  "quest:1096",
+  "topic:venture-company",
+  "topic:goblin",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Ziz Fizziks (quest)"
+ ]
+}

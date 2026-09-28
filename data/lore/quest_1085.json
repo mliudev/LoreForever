@@ -1,0 +1,126 @@
+{
+ "key": "quest:1085",
+ "type": "quest",
+ "name": "On Guard in Stonetalon",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1085
+  ],
+  "level": "21",
+  "faction": "Alliance",
+  "start": "Kaela Shadowspear",
+  "end": "Gaxim Rustfizzle",
+  "previous": "On Guard in Stonetalon",
+  "next": "A Gnome's Respite",
+  "wiki": "On Guard in Stonetalon (2)",
+  "chain": []
+ },
+ "summary": "On Guard in Stonetalon directs Alliance travelers from Kaela Shadowspear to Gaxim Rustfizzle at Stonetalon Peak. Facing rampant despoilment by the Venture Company, an otherwise unlikely pair\u2014a cautious night elf sentinel and an eccentric gnome tinkerer\u2014join forces to safeguard the mountain pass.",
+ "sections": [
+  {
+   "title": "An Unlikely Alliance",
+   "body": "Night elves and gnomes rarely share common ground, especially when it comes to technology and the natural world. In the crags of Stonetalon Mountains, however, necessity bridges the cultural gulf. With the rapacious Venture Company carving out the wilderness and felling ancient trees, the sentinel Kaela Shadowspear has recognized that pure martial prowess alone cannot overcome industrialized pillaging. Welcoming gnome ingenuity into sacred Kaldorei territory demonstrates just how precarious the situation has become.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gnomish Philosophy",
+   "body": "Gaxim Rustfizzle represents the eccentric pragmatism of the Alliance's smaller allies. While night elf society famously turned its back on arcane excess millennia ago, Gaxim believes that abstaining from magic and technical innovation leaves them vulnerable. By pairing alchemy and engineering with a touch of arcane discipline, Gaxim aims to convince his Kaldorei hosts that practical science can defend nature just as effectively as bow and glaive.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are a night elf and a gnome working together here?",
+   "aliases": [
+    "why is gaxim with kaela",
+    "kaela and gaxim",
+    "gnome night elf alliance"
+   ],
+   "answer": "The Venture Company's destructive deforestation and resource extraction in Stonetalon are so severe that Kaela Shadowspear accepted outside aid. Gaxim brings engineering and alchemical expertise that the night elves typically lack, providing technical support to counter modern industrial machinery."
+  },
+  {
+   "q": "Who is Gaxim Rustfizzle?",
+   "aliases": [
+    "gaxim rustfizzle lore",
+    "who is gaxim",
+    "gnome at stonetalon peak"
+   ],
+   "answer": "Gaxim is an adventurous gnome engineer and tinkerer stationed at Stonetalon Peak. He believes strongly that the night elves' strict aversion to arcane magic leaves them disadvantaged, seeking to prove that combining engineering, alchemy, and controlled magic can solve even the direst threats."
+  },
+  {
+   "q": "Who is Kaela Shadowspear?",
+   "aliases": [
+    "kaela shadowspear",
+    "who is kaela"
+   ],
+   "answer": "Kaela Shadowspear is a night elf sentinel tasked with maintaining watch and defense over the Stonetalon Mountains. She serves as a regional commander coordinating resistance against the Venture Company."
+  },
+  {
+   "q": "What threat is the Venture Company posing in Stonetalon?",
+   "aliases": [
+    "venture co stonetalon",
+    "why fight venture co"
+   ],
+   "answer": "The Venture Company is an unscrupulous mercantile syndicate cutting down sacred forests, operating destructive drilling rigs, and polluting pristine lands across Stonetalon for rapid commercial profit."
+  },
+  {
+   "q": "Who is Tara, mentioned by Kaela?",
+   "aliases": [
+    "tara stonetalon",
+    "send you back to tara"
+   ],
+   "answer": "Tara is a night elf contact and quest giver stationed at Astranaar in Ashenvale, who originally dispatched Alliance messengers and scouts into Stonetalon to assess the situation."
+  },
+  {
+   "q": "Where does this task lead next?",
+   "aliases": [
+    "quest after on guard in stonetalon",
+    "next quest after gaxim"
+   ],
+   "answer": "After speaking with Gaxim Rustfizzle, he offers 'A Gnome's Respite,' enlisting your aid to secure local supplies and further test his technical solutions against the hazards of the region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Gaxim Rustfizzle proudly represents gnomish ingenuity in Kalimdor, using his presence to demonstrate that science, engineering, and magic can overcome challenges where ancient traditions falter."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For Kaldorei sentinels, trusting a gnome tinkerer who advocates combining engineering with magic requires swallowing considerable pride, reflecting just how devastating the Venture Company's logging operations have become."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Gaxim's mission underscores the practical utility of engineering in frontline reconnaissance and ecosystem defense, proving that cogwheels can serve conservation when turned against unchecked exploitation."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This partnership showcases the broader Alliance ethos in action, as Eastern Kingdoms expertise blends with Kalimdor sentinels to stem shared threats across the frontier."
+  }
+ ],
+ "keywords": [
+  "engineering",
+  "gaxim rustfizzle",
+  "gnome",
+  "kaela shadowspear",
+  "night elf",
+  "stonetalon",
+  "stonetalon peak",
+  "venture co"
+ ],
+ "related": [
+  "npc:gaxim-rustfizzle",
+  "npc:kaela-shadowspear",
+  "quest:1071",
+  "quest:1070",
+  "quest:764",
+  "zone:stonetalon",
+  "topic:gnome",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "On Guard in Stonetalon (2)"
+ ]
+}

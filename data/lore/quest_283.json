@@ -1,0 +1,121 @@
+{
+ "key": "quest:283",
+ "type": "quest",
+ "name": "A Dark Threat Looms",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   283
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Explosive Charge",
+  "end": "Chief Engineer Hinderweir VII",
+  "previous": "A Dark Threat Looms (6)",
+  "next": null,
+  "wiki": "A Dark Threat Looms (7)",
+  "chain": []
+ },
+ "summary": "A Dark Threat Looms concludes the frantic effort to protect Loch Modan from disaster. By deploying a neutralizing chemical against a planted explosive charge, Alliance adventurers avert the catastrophic destruction of the Stonewrought Dam.",
+ "sections": [
+  {
+   "title": "Averted Catastrophe",
+   "body": "The massive Stonewrought Dam holds back the vast waters of the Loch, towering over the lowlands of the Wetlands below. When Dark Iron saboteurs managed to plant an explosive charge within the structure, the entire valley faced ruin. Applying the Disarming Mixture causes the volatile keg to fizzle harmlessly, defusing the immediate threat to dwarven engineering and countless lives downstream.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hinderweir's Relief",
+   "body": "Reporting back to Chief Engineer Hinderweir VII brings immense relief to Ironforge's overseers at the site. Hinderweir hails the intervention as a major victory for the Kingdom of Ironforge and the Alliance. Even so, the presence of Dark Iron infiltration so deep into Khaz Modan serves as a grim reminder that their bitter cousins remain relentless in their desire to bring ruin to Ironforge's achievements.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was the goal of this quest chain?",
+   "aliases": [
+    "a dark threat looms summary",
+    "stonewrought dam quest goal",
+    "why defuse bomb"
+   ],
+   "answer": "The quest chain centers on uncovering and stopping a Dark Iron dwarf sabotage plot aimed at detonating explosives to destroy the Stonewrought Dam."
+  },
+  {
+   "q": "Who planted the explosive charge?",
+   "aliases": [
+    "who put the bomb here",
+    "who attacked the dam",
+    "dark irons dam"
+   ],
+   "answer": "Dark Iron dwarven saboteurs planted the explosive keg inside the Stonewrought Dam in an attempt to destroy the massive structure."
+  },
+  {
+   "q": "Who is Chief Engineer Hinderweir VII?",
+   "aliases": [
+    "who is hinderweir",
+    "hinderweir lore",
+    "engineer at the dam"
+   ],
+   "answer": "Chief Engineer Hinderweir VII is the dwarven overseer responsible for the maintenance, operation, and defense of the Stonewrought Dam in Loch Modan."
+  },
+  {
+   "q": "What would have happened if the dam broke?",
+   "aliases": [
+    "what if dam destroyed",
+    "consequences of dam breaking",
+    "dam explosion"
+   ],
+   "answer": "If the Stonewrought Dam were breached, the massive reservoir of Loch Modan would drain violently, flooding the Wetlands downstream and washing away roads, settlements, and vital transit routes."
+  },
+  {
+   "q": "How was the explosive disarmed?",
+   "aliases": [
+    "how was bomb stopped",
+    "disarming mixture",
+    "how do you defuse the charge"
+   ],
+   "answer": "A specially concocted Disarming Mixture was poured over the explosive charge, causing the powder keg to fizzle out safely before it could detonate."
+  },
+  {
+   "q": "Is the Stonewrought Dam safe now?",
+   "aliases": [
+    "is the dam secure",
+    "are the dark irons gone",
+    "dam safe forever"
+   ],
+   "answer": "While the immediate detonation was prevented and the dam saved, Hinderweir notes that the defense is only secure for the time being, as Dark Iron agents continue to menace the region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The Stonewrought Dam is a crowning achievement of dwarven stonecraft; protecting it preserves the pride and safety of Ironforge against Dark Iron malice."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Neutralizing an unstable demolition device right inside a colossal civil project highlights the vital importance of countermeasures and explosive theory."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Preventing the breach of the dam preserves key land corridors between Ironforge and the northern lands of Arathi and Lordaeron."
+  }
+ ],
+ "keywords": [
+  "dark iron",
+  "disarming mixture",
+  "explosive charge",
+  "hinderweir",
+  "loch modan",
+  "sabotage",
+  "stonewrought dam"
+ ],
+ "related": [
+  "npc:chief-engineer-hinderweir-vii",
+  "subzone:stonewrought-dam",
+  "zone:lochmodan",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "A Dark Threat Looms (7)"
+ ]
+}

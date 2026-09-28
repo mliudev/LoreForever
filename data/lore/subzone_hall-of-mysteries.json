@@ -1,0 +1,89 @@
+{
+ "key": "subzone:hall-of-mysteries",
+ "type": "subzone",
+ "name": "Hall of Mysteries",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Hall of Mysteries"
+ },
+ "summary": "Tucked into the Mystic Ward of Ironforge, the Hall of Mysteries serves as the city's spiritual and scholarly heart for the arcane and the divine. Within its blue-lit interior, dwarven and gnomish practitioners study ancient texts, train in the mysteries of the Holy Light, and weave arcane enchantments far from the clang of the Great Forge.",
+ "sections": [
+  {
+   "title": "A Temple of Magic and Faith",
+   "body": "Illuminated by a distinctive blue and purple luminescence, the Hall of Mysteries stands out starkly against the rest of Ironforge. While the city around it thrives on stone, iron, and heavy plate, the hall's five soaring pillars shelter scholars draped in soft, flowing robes. It bridges both arcane wizardry and holy devotion, serving as the headquarters for the dwarven priesthood and the Order of the Silver Hand within Khaz Modan. Here, young clerics and knights study holy texts like the Tome of Divinity and receive guidance before their journeys carry them onward to Stormwind's Cathedral of Light.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Hall of Mysteries?",
+   "aliases": [
+    "what is this place",
+    "hall of mysteries purpose",
+    "why visit hall of mysteries"
+   ],
+   "answer": "The Hall of Mysteries is Ironforge's foremost center for both divine devotion and arcane learning. It serves as a temple for the Holy Light and a study hall where dwarven and gnomish priests, paladins, and mages gather to practice their crafts, research old scripture, and train newcomers."
+  },
+  {
+   "q": "Who leads the clergy here?",
+   "aliases": [
+    "who runs hall of mysteries",
+    "priest leader ironforge",
+    "who is high priest rohan"
+   ],
+   "answer": "High Priest Rohan oversees the priesthood within the hall, serving as the spiritual guide for dwarven practitioners of the Light, alongside paladin mentors such as Valgar Highforge who direct the city's knights of the Silver Hand."
+  },
+  {
+   "q": "How does it compare to the Cathedral of Light in Stormwind?",
+   "aliases": [
+    "cathedral of light vs hall of mysteries",
+    "is it like stormwind cathedral"
+   ],
+   "answer": "While Stormwind's Cathedral of Light is dedicated purely to the holy faith and grand ceremonial worship, the Hall of Mysteries seamlessly blends holy study with arcane scholarship under one roof. Its atmosphere is scholarly and quiet rather than strictly liturgical."
+  },
+  {
+   "q": "Can paladins complete their training trials here?",
+   "aliases": [
+    "paladin quests ironforge",
+    "tome of divinity ironforge",
+    "dwarf paladin quests"
+   ],
+   "answer": "Yes. Dwarven paladins are sent to the hall to study the Tome of Divinity under the mentorship of the Silver Hand, receiving instruction and sacred trials designed to test their compassion, devotion, and courage."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For dwarven champions of the Silver Hand, the hall is a foundation of their calling, where masters assign trials of virtue and grant access to the sacred Tome of Divinity."
+  },
+  {
+   "target": "class:Priest",
+   "text": "High Priest Rohan guides acolytes of the Light through spiritual lessons here before sending promising priests south to confer with the leadership in Stormwind."
+  }
+ ],
+ "keywords": [
+  "hall of mysteries",
+  "ironforge",
+  "mage",
+  "mystic ward",
+  "paladin",
+  "priest",
+  "rohan",
+  "silver hand",
+  "tome of divinity"
+ ],
+ "related": [
+  "subzone:mystic-ward",
+  "zone:ironforge",
+  "npc:high-priest-rohan",
+  "subzone:cathedral-of-light",
+  "quest:1641",
+  "topic:light",
+  "zone:stormwind",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Hall of Mysteries"
+ ]
+}

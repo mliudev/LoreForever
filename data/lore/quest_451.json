@@ -1,0 +1,135 @@
+{
+ "key": "quest:451",
+ "type": "quest",
+ "name": "A Recipe For Death",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   451
+  ],
+  "level": "18",
+  "faction": "Horde",
+  "start": "Apothecary Renferrel",
+  "end": "Master Apothecary Faranell",
+  "previous": "A Recipe For Death (2)",
+  "next": null,
+  "wiki": "A Recipe For Death (3)",
+  "chain": [
+   "A Recipe For Death",
+   "A Recipe For Death (2)",
+   "A Recipe For Death (3)"
+  ]
+ },
+ "summary": "A Recipe For Death concludes an investigation into the findings of a fallen researcher, directing adventurers to gather rare biological reagents across Lake Lordamere. By recovering harvested mosses and a strange tumor, the Forsaken bring essential components to Master Apothecary Faranell in the Undercity. This work directly supports the Royal Apothecary Society's overarching goal to develop a New Plague.",
+ "sections": [
+  {
+   "title": "A Legacy of Research",
+   "body": "The death of Apothecary Berard struck a blow against the Royal Apothecary Society, but his field journal left behind crucial insights into the blighted biology of Silverpine Forest and Lake Lordamere. Stationed at the Sepulcher, Apothecary Renferrel parsed through Berard's recovered notes and discovered that Berard had documented promising properties in local freshwater organisms. Rather than let Berard's sacrifice go to waste, Renferrel tasks champions of the Horde with fulfilling his late colleague's vision.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Hazards of Lake Lordamere",
+   "body": "Gathering Berard's specified reagents requires venturing onto the Dawning Isles, the mist-shrouded islands situated along the eastern waters of Lake Lordamere. The lake skulkers and lake creepers inhabiting these isles gather peculiar strains of moss that survive in tainted waters. More elusive is the hardened tumor, a bizarre growth noted by Berard among the vicious Vile Fin murloc tribes that nest along the islets and southern lake shoreline near Ambermill.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fueling the Apothecarium",
+   "body": "Once collected, the specimens bypass the Sepulcher entirely and are delivered straight to the Apothecarium in the Undercity, into the waiting hands of Master Apothecary Faranell. Faranell views these strange mutations as indispensable steps toward crafting a New Plague capable of eradicating both Scourge and living foes. Berard's research is swiftly integrated into the Society's ongoing cauldron vats, bringing the Forsaken one step closer to their ultimate weapon.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does the Royal Apothecary Society need moss and a tumor?",
+   "aliases": [
+    "why moss and tumor",
+    "apothecary recipe ingredients",
+    "what is the tumor for"
+   ],
+   "answer": "Apothecary Berard's field journal noted that the aquatic mosses found on lake beasts and the bizarre hardened tumors developing on local Vile Fin murlocs possess unique biological properties. Master Apothecary Faranell utilizes these rare mutated reagents to brew and refine the Royal Apothecary Society's New Plague."
+  },
+  {
+   "q": "Who was Berard?",
+   "aliases": [
+    "apothecary berard",
+    "who is berard",
+    "berard journal"
+   ],
+   "answer": "Apothecary Berard was a researcher for the Royal Apothecary Society operating in Silverpine Forest. After his untimely death, his recovered field journal provided Apothecary Renferrel and Master Apothecary Faranell with the vital reagent specifications needed to continue his work."
+  },
+  {
+   "q": "Where are the Dawning Isles located?",
+   "aliases": [
+    "where are dawning isles",
+    "dawning isles location",
+    "lake skulker location"
+   ],
+   "answer": "The Dawning Isles are a cluster of small islands situated in eastern Lake Lordamere, just east of Silverpine Forest. They are heavily infested with lake skulkers, lake creepers, and tribes of hostile Vile Fin murlocs."
+  },
+  {
+   "q": "Who is Master Apothecary Faranell?",
+   "aliases": [
+    "faranell",
+    "who is faranell",
+    "master apothecary faranell"
+   ],
+   "answer": "Master Apothecary Faranell is the leader of the Royal Apothecary Society, stationed deep within the Apothecarium of the Undercity. He oversees all research and development concerning chemical warfare, biological concoctions, and the creation of the New Plague on behalf of Lady Sylvanas Windrunner."
+  },
+  {
+   "q": "Why are Vile Fin murlocs growing hardened tumors?",
+   "aliases": [
+    "why murloc tumor",
+    "vile fin tumor lore",
+    "hardened tumor murlocs"
+   ],
+   "answer": "The waters and shores around Lake Lordamere have been heavily warped by blighted decay and nearby arcane conflicts. The hardened tumors found on the Vile Fin are rare, abnormal growths resulting from this contaminated environment, making them of immense scientific interest to the Forsaken."
+  },
+  {
+   "q": "How does this quest connect to the New Plague?",
+   "aliases": [
+    "new plague connection",
+    "a new plague questline",
+    "is this the plague"
+   ],
+   "answer": "The entire Recipe for Death chain is an ingredient-gathering endeavor directly tied to the development of the New Plague. While junior apothecaries like Renferrel decipher and collect regional materials, everything is funneled directly to Faranell's central plague-brewing operations in the Undercity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Fulfilling Berard's unfinished experiments directly empowers the Dark Lady's vision, proving that every Forsaken mind contributes to the nation's survival even in death."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While Forsaken apothecaries welcome help from allied Horde combatants, they keep the finer chemical secrets and ultimate destructive potential of their New Plague carefully guarded."
+  }
+ ],
+ "keywords": [
+  "a recipe for death",
+  "apothecarium",
+  "berard",
+  "dawning isles",
+  "faranell",
+  "hardened tumor",
+  "lake creeper",
+  "lake lordamere",
+  "lake skulker",
+  "new plague",
+  "renferrel",
+  "vile fin"
+ ],
+ "related": [
+  "npc:master-apothecary-faranell",
+  "npc:apothecary-renferrel",
+  "quest:447",
+  "quest:367",
+  "topic:royal-apothecary-society",
+  "subzone:dawning-isles",
+  "zone:undercity",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "A Recipe For Death (3)"
+ ]
+}

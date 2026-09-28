@@ -1,0 +1,73 @@
+{
+ "key": "subzone:wildbend-river",
+ "type": "subzone",
+ "name": "Wildbend River",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Wildbend River"
+ },
+ "summary": "Wildbend River is a tainted waterway winding through the southern forests of Darkshore near the Grove of the Ancients. Flowing down directly from the corrupted heights of Felwood, its waters carry demonic poison toward the sea, endangering the surrounding wilderness.",
+ "sections": [
+  {
+   "title": "A Toxic Mountain Stream",
+   "body": "Wildbend River cuts through the southern reaches of Darkshore, flowing westward past the sacred Grove of the Ancients before emptying into the sea. Rather than offering clean nourishment to the woodland, it brings corruption down from the mountains. The river is the direct continuation of Felwood's Bloodvenom River, tumbling through the rocky ridges and dragging foul, corrupted runoff into Darkshore's ecosystem. The night elves monitor its banks closely, watching for twisted wildlife and the creeping spread of demonic blight.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Wildbend River corrupted?",
+   "aliases": [
+    "why is water tainted",
+    "wildbend river poison",
+    "darkshore dirty water"
+   ],
+   "answer": "The river originates high in the mountains of Felwood, where it is known as the Bloodvenom River. Felwood was thoroughly saturated with demonic magic during the Third War, and that foul runoff spills down the cliffs into Darkshore as the Wildbend River."
+  },
+  {
+   "q": "Where does the river flow?",
+   "aliases": [
+    "where is wildbend river",
+    "wildbend path",
+    "wildbend river location"
+   ],
+   "answer": "Cascading down from the eastern ridges that separate Felwood from Darkshore, the river winds through southern Darkshore near the Grove of the Ancients before flowing into the Veiled Sea."
+  },
+  {
+   "q": "Does the river affect the Grove of the Ancients?",
+   "aliases": [
+    "grove of the ancients water",
+    "is grove of ancients corrupted"
+   ],
+   "answer": "The river passes close to the Grove of the Ancients, posing a constant environmental threat to the ancient protectors rooted there. The night elves work tirelessly to contain the blight and prevent the poisoned water from rotting the sacred groves."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The polluted waters cascading from Felwood threaten the ancient roots of Darkshore, making the riverbanks a frequent concern for night elf wardens."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids studying the ecological aftermath of the Third War keep a wary eye on the river, monitoring how deeply Felwood's corruption penetrates downstream flora and fauna."
+  }
+ ],
+ "keywords": [
+  "bloodvenom river",
+  "darkshore",
+  "felwood",
+  "grove of the ancients",
+  "tainted water",
+  "wildbend river"
+ ],
+ "related": [
+  "zone:darkshore",
+  "zone:felwood",
+  "subzone:bloodvenom-river",
+  "quest:952"
+ ],
+ "attribution": [
+  "Wildbend River"
+ ]
+}

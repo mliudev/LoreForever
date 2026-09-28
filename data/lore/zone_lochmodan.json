@@ -1,0 +1,132 @@
+{
+ "key": "zone:lochmodan",
+ "type": "zone",
+ "name": "Loch Modan",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": [
+   "Loch Modan (Classic)",
+   "Loch Modan"
+  ],
+  "levels": "10-20",
+  "aliases": []
+ },
+ "summary": "Loch Modan is a temperate mountain valley east of Dun Morogh, renowned for its massive alpine lake held in place by the monumental Stonewrought Dam. Centered around the dwarven town of Thelsamar, the region struggles under encroaching trogg infestations, kobolds in the mines, and aggressive ogres in the northeast highlands.",
+ "sections": [
+  {
+   "title": "A Highland Jewel",
+   "body": "Situated in eastern Khaz Modan, Loch Modan presents a stark, pleasant contrast to the frozen snowfields of Dun Morogh. Rugged mountain peaks enclose a temperate valley of pine and birch, cradling the Loch itself. This massive body of fresh water is held in place by the Stonewrought Dam, an architectural triumph that towers along the northern rim. The peaceful settlement of Thelsamar serves as the civic heart of the territory, housing traveling mountaineers, hunters, and miners who ply the productive veins of copper and tin scattered throughout the hills.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unearthed Terrors and Invasions",
+   "body": "Loch Modan's tranquil scenery conceals recurrent violence. Broken catapults and ballistae resting on the lake bed remain from the Second War, when the orcish Horde occupied the valley before the dwarves drove them out. More recently, dwarven archaeological excavations accidentally unearthed subterranean swarms of savage troggs. Led by savage chieftains, trogg tribes have overrun the southern canyons of Stonesplinter Valley and the Valley of Kings, threatening trade routes and forcing the Ironforge Mountaineers to wage a desperate defense.",
+   "spoiler": 0
+  },
+  {
+   "title": "Plots in the Shadows",
+   "body": "Troggs and the hulking ogres of Mo'grosh Stronghold are not the only dangers encroaching on the valley. Deeper investigations into local sabotages reveal that the treacherous Dark Iron dwarves are operating in Loch Modan. Having made incursions from the burning passes to the south, Dark Iron infiltrators target dwarven blastpowder reserves and harbor sinister designs against the Stonewrought Dam itself.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What holds the lake back from flooding the Wetlands?",
+   "aliases": [
+    "what is the dam",
+    "stonewrought dam purpose",
+    "why does loch modan have a dam"
+   ],
+   "answer": "The Stonewrought Dam, a massive wonder of dwarven stonework and engineering, holds back the entire Loch. Dwarven engineers maintain it meticulously, as its failure would wash out the lower marshlands of the Wetlands to the north."
+  },
+  {
+   "q": "Where did all the troggs come from?",
+   "aliases": [
+    "why are there troggs here",
+    "trogg invasion loch modan",
+    "trogg origin"
+   ],
+   "answer": "Dwarven exploratory expeditions and miners accidentally breached underground chambers deep in the mountains, unleashing hordes of savage troggs that quickly swarmed to the surface and carved out camps in the valleys."
+  },
+  {
+   "q": "What is the primary Alliance settlement in the zone?",
+   "aliases": [
+    "loch modan town",
+    "hub in loch modan",
+    "thelsamar"
+   ],
+   "answer": "Thelsamar, nestled on the western bluffs, serves as the main Alliance town and travel hub, featuring the Stoutlager Inn, tradesfolk, and gryphon masters connecting to Ironforge and beyond."
+  },
+  {
+   "q": "Who rules Mo'grosh Stronghold?",
+   "aliases": [
+    "ogre camp loch modan",
+    "ogres northeast loch modan",
+    "mogrosh"
+   ],
+   "answer": "The stronghold in the northeast mountains is held by brute ogres who descended into the valley, establishing a fortified micro-dungeon outpost that terrorizes nearby hunters and travelers."
+  },
+  {
+   "q": "What happened to Ironband's Excavation Site?",
+   "aliases": [
+    "ironbands dig",
+    "why was ironbands site abandoned",
+    "prospector ironband problem"
+   ],
+   "answer": "Prospector Ironband's archaeological dig was overrun by troggs spilling out from the subterranean chambers, forcing the excavation team to abandon their progress and fight to secure their remaining supplies."
+  },
+  {
+   "q": "Can you travel from Loch Modan to the Badlands or Searing Gorge?",
+   "aliases": [
+    "loch modan to badlands",
+    "loch modan south exit",
+    "path to badlands"
+   ],
+   "answer": "Yes. Footpaths lead south through the mountains into the arid wasteland of the Badlands, while the Stonewrought Pass through the Valley of Kings leads southwest into the volcanic crags of Searing Gorge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Loch Modan represents both the unmatched engineering genius of dwarven masonry and the dangerous ancient history your people repeatedly uncover beneath the stone."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The Farstrider Lodge along the southeastern ridges offers a renowned gathering place for trackers hunting the valley's bears, crocolisks, and mountain buzzards."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The hills, quarries, and trogg-infested caves of Loch Modan are rich in accessible veins of copper, tin, and silver."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Guarding the line between Dun Morogh and the northern routes toward the Wetlands, Loch Modan is a vital bulwark for Ironforge's territorial defense."
+  }
+ ],
+ "keywords": [
+  "farstrider lodge",
+  "ironband",
+  "mo'grosh stronghold",
+  "stonesplinter",
+  "stonewrought dam",
+  "the loch",
+  "thelsamar",
+  "troggs",
+  "valley of kings"
+ ],
+ "related": [
+  "subzone:thelsamar",
+  "subzone:stonewrought-dam",
+  "zone:dunmorogh",
+  "zone:wetlands",
+  "subzone:mo-grosh-stronghold",
+  "subzone:ironband-s-excavation-site",
+  "quest:161",
+  "quest:217"
+ ],
+ "attribution": [
+  "Loch Modan (Classic)",
+  "Loch Modan"
+ ]
+}

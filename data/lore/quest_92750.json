@@ -1,0 +1,117 @@
+{
+ "key": "quest:92750",
+ "type": "quest",
+ "name": "Detonation at a Distance",
+ "era": "forever",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   92750
+  ],
+  "level": "16",
+  "faction": "Alliance",
+  "start": "Sprite Jumpsprocket",
+  "end": "Jasper Fel",
+  "previous": "",
+  "next": "",
+  "wiki": "Detonation at a Distance",
+  "chain": []
+ },
+ "summary": "Detonation at a Distance sends an adventurer seeking specialized explosives expertise from Westfall to the capital of Stormwind. After being prompted by the eccentric gnome tinkerer Sprite Jumpsprocket, you are directed to Stormwind Intelligence to procure a remote detonator.",
+ "sections": [
+  {
+   "title": "A Controlled Blast",
+   "body": "While goblins and gnomes are both notorious for their reckless abandon with volatile chemicals, not every demolition task calls for standing directly beside the payload. When standard fuses risk life and limb, remote detonation becomes an absolute necessity. Sprite Jumpsprocket recognizes that a controlled explosion requires specialized trigger mechanisms that common tinkerers do not carry in everyday surplus.",
+   "spoiler": 0
+  },
+  {
+   "title": "Calling Upon the SI:7",
+   "body": "Instead of turning to local dwarven blasters or standard engineering supplies, Sprite directs the search toward Stormwind Intelligence, operating out of Old Town. Known colloquially as SI:7, the kingdom's covert operative network regularly handles sensitive sabotage, stealth infiltration, and targeted demolitions. Jasper Fel, an operative embedded within the capital, is precisely the sort of shadowy contact who manages such discreet and dangerous equipment.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you on this mission?",
+   "aliases": [
+    "quest giver",
+    "who starts detonation at a distance",
+    "sprite jumpsprocket quest"
+   ],
+   "answer": "The quest is handed out by Sprite Jumpsprocket, an Alliance-aligned gnome tinkerer found operating out in Westfall."
+  },
+  {
+   "q": "Who do you need to talk to in Stormwind?",
+   "aliases": [
+    "where to turn in",
+    "stormwind intelligence contact",
+    "jasper fel location"
+   ],
+   "answer": "You are directed to speak with Jasper Fel, an associate of Stormwind Intelligence stationed in the capital city of Stormwind."
+  },
+  {
+   "q": "Why does Sprite Jumpsprocket need a remote detonator?",
+   "aliases": [
+    "why remote detonator",
+    "purpose of detonation"
+   ],
+   "answer": "Sprite notes that while remote detonations might lack the chaotic excitement of an uncontrolled blast, keeping your limbs intact makes a distance trigger far more practical for dangerous explosive work."
+  },
+  {
+   "q": "Why contact Stormwind Intelligence rather than an engineer?",
+   "aliases": [
+    "why si7",
+    "why stormwind intelligence"
+   ],
+   "answer": "Stormwind Intelligence maintains covert supplies and specialized sabotage gear that ordinary city merchants or field tinkerers do not publicly stock or distribute."
+  },
+  {
+   "q": "Where is Jasper Fel located in Stormwind?",
+   "aliases": [
+    "jasper fel stormwind",
+    "jasper fel room"
+   ],
+   "answer": "Jasper Fel is situated in Old Town within the headquarters of SI:7, where Stormwind's spies and covert agents conduct their operations."
+  },
+  {
+   "q": "What faction can undertake this task?",
+   "aliases": [
+    "is this alliance only",
+    "can horde do this"
+   ],
+   "answer": "This assignment is strictly available to members of the Alliance, as it relies on cooperation with Stormwind's royal intelligence division."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Visiting Jasper Fel means stepping into the center of SI:7 operations in Old Town, the heart of human covert tradecraft."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "While engineers frequently build their own fuses and dynamite, securing military-grade remote triggers often requires contacts who specialize in quiet sabotage."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Sprite Jumpsprocket exemplifies the classic gnomish interest in engineering problems, even if she defers to human intelligence for specific spycraft munitions."
+  }
+ ],
+ "keywords": [
+  "detonation at a distance",
+  "jasper fel",
+  "remote detonator",
+  "si:7",
+  "sprite jumpsprocket",
+  "stormwind intelligence",
+  "westfall"
+ ],
+ "related": [
+  "npc:sprite-jumpsprocket",
+  "npc:jasper-fel",
+  "zone:westfall",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Detonation at a Distance"
+ ]
+}

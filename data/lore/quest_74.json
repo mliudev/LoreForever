@@ -1,0 +1,117 @@
+{
+ "key": "quest:74",
+ "type": "quest",
+ "name": "The Legend of Stalvan",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   74
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Sealed Crate",
+  "end": "Marshal Haggard",
+  "previous": "The Legend of Stalvan (6)",
+  "next": "The Legend of Stalvan (8)",
+  "wiki": "The Legend of Stalvan (7)",
+  "chain": []
+ },
+ "summary": "This step in the investigation leads deep into an old crate of heirlooms stored on Marshal Haggard's property in Elwynn Forest. Sifting through the dusty relics uncovers a torn journal page, offering a vital handwritten clue to the past life of Stalvan Mistmantle.",
+ "sections": [
+  {
+   "title": "Unearthing the Past",
+   "body": "While digging through a sealed crate filled with musty heirlooms, old hunting trophies, and family portraits, investigators uncover a lone torn journal page hidden beneath a ceramic vase. Written in Stalvan Mistmantle's own hand, this remnant provides an intimate glimpse into the mind of a reclusive scholar before tragedy struck.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Marshal's Fading Sight",
+   "body": "Marshal Haggard, now aged and plagued by failing eyesight, struggles to read the script on the battered parchment. Even so, the distinctive handwriting strikes an uneasy chord in his memory, recalling documents and incidents from years past before the darkness took his sight.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the sealed crate located?",
+   "aliases": [
+    "crate location",
+    "where is crate",
+    "haggard crate"
+   ],
+   "answer": "The crate sits outside Marshal Haggard's secluded home in the hills of southern Elwynn Forest, tucked away amidst his old belongings and discarded heirlooms."
+  },
+  {
+   "q": "What is inside the sealed crate?",
+   "aliases": [
+    "crate contents",
+    "what is in the crate",
+    "torn page crate"
+   ],
+   "answer": "The crate contains dusty heirlooms, a family portrait, old books, hunting trophies, and a ceramic vase, beneath which lies a torn page from Stalvan's journal."
+  },
+  {
+   "q": "Who is Marshal Haggard?",
+   "aliases": [
+    "who is haggard",
+    "marshal haggard lore",
+    "old marshal elwynn"
+   ],
+   "answer": "Marshal Haggard is an elderly, retired officer of Stormwind living alone in southern Elwynn Forest. Despite his failing eyesight and frailty, his memories of old records and travelers make him a crucial witness to past events."
+  },
+  {
+   "q": "Why is this journal page important?",
+   "aliases": [
+    "why torn page matters",
+    "journal page clue",
+    "stalvan journal"
+   ],
+   "answer": "The torn journal page is direct evidence written by Stalvan Mistmantle himself. Its distinctive penmanship and lingering thoughts help tie disparate accounts across Duskwood and Elwynn back to his personal downfall."
+  },
+  {
+   "q": "What happens when the crate is opened?",
+   "aliases": [
+    "forlorn spirit spawn",
+    "ghost after crate",
+    "why did a ghost attack me"
+   ],
+   "answer": "Disturbing the remnants of Stalvan's past stirs the restless dead, causing a vengeful Forlorn Spirit to manifest and strike at those trying to unravel the tragedy."
+  },
+  {
+   "q": "Where does the investigation lead next?",
+   "aliases": [
+    "next step",
+    "after torn page",
+    "where do I go next"
+   ],
+   "answer": "After presenting the torn page to Marshal Haggard, his recollection of the handwriting guides the investigation onward to find more surviving fragments of Stalvan's history."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Investigating old cold cases in the heart of Elwynn reveals how deeply personal horrors can slip past the eyes of Stormwind's marshals."
+  },
+  {
+   "target": "race:Human",
+   "text": "Marshal Haggard represents the aging veteran generation of Stormwind, holding vital memories of the kingdom before the First and Second Wars tore families apart."
+  }
+ ],
+ "keywords": [
+  "duskwood",
+  "elwynn forest",
+  "forlorn spirit",
+  "marshal haggard",
+  "mistmantle",
+  "sealed crate",
+  "stalvan",
+  "torn journal page"
+ ],
+ "related": [
+  "quest:1666",
+  "zone:elwynn",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "The Legend of Stalvan (7)"
+ ]
+}

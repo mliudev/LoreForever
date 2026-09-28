@@ -1,0 +1,125 @@
+{
+ "key": "quest:1716",
+ "type": "quest",
+ "name": "Devourer of Souls",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1716
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Gakin the Darkbinder",
+  "end": "Takar the Seer",
+  "previous": "Gakin's Summons (Succubus)",
+  "next": "Heartswood (quest)",
+  "wiki": "Devourer of Souls (Stormwind)",
+  "chain": [
+   "Gakin's Summons (Succubus)",
+   "Devourer of Souls (Stormwind)",
+   "Heartswood (quest)",
+   "The Binding (Succubus, Stormwind)"
+  ]
+ },
+ "summary": "Devourer of Souls is a pivotal rite of passage for Alliance warlocks dispatched from Stormwind to learn the summoning of a succubus. Directed by Gakin the Darkbinder, initiates must trek halfway across the world into the hazardous wildlands of the Barrens to seek counsel from Takar the Seer.",
+ "sections": [
+  {
+   "title": "A Dangerous Journey West",
+   "body": "Beneath the Slaughtered Lamb in Stormwind's Mage Quarter, Gakin the Darkbinder instructs promising warlocks on their next major summons: the succubus. Described as a devourer of souls, a destroyer of hearts, and a dominator of minds, this demonic entity cannot be summoned blindly into Azeroth. It requires a potent lure, specifically an object tied to pure love, to tease it forth from the Twisting Nether so that the practitioner may defeat and bind it. Procuring such a token demands wisdom that Stormwind's covens cannot provide locally.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Seer in Hostile Territory",
+   "body": "To track down the required catalyst, Gakin sends his pupils across the Great Sea to Kalimdor. Deep in the arid expanse of the Barrens, near the Horde settlement of Camp Taurajo, sits Takar the Seer. For an Alliance warlock, reaching Takar requires braving wilderness heavily patrolled by hostile centaur, quilboar, and Horde warriors, serving as an unstated test of survival before the summoner can even begin preparing the ritual.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do devourer of souls",
+    "succubus quest goal",
+    "warlock succubus questline"
+   ],
+   "answer": "This quest sends Alliance warlocks from Stormwind to Kalimdor to learn how to summon and bind a succubus minion under their absolute command."
+  },
+  {
+   "q": "Why do I have to go all the way to the Barrens?",
+   "aliases": [
+    "why kalimdor",
+    "why go to the barrens",
+    "why send me so far"
+   ],
+   "answer": "Gakin the Darkbinder knows that summoning a succubus requires an emotional catalyst\u2014a symbol of pure love\u2014to lure the demon across realms. Takar the Seer, who resides in the Barrens, possesses the specific occult knowledge needed to find such an artifact."
+  },
+  {
+   "q": "Who is Gakin the Darkbinder?",
+   "aliases": [
+    "gakin darkbinder lore",
+    "who gives quest devourer of souls"
+   ],
+   "answer": "Gakin is a master summoner hidden in the catacombs beneath The Slaughtered Lamb in Stormwind. He instructs novice warlocks in demonic pacts, bindings, and the dark arts away from the prying eyes of the city guard."
+  },
+  {
+   "q": "Who is Takar the Seer?",
+   "aliases": [
+    "where is takar the seer",
+    "takar seer lore"
+   ],
+   "answer": "Takar the Seer is a mystic dwelling in the central Barrens, located just outside the tauren outpost of Camp Taurajo. He aids traveling warlocks by pointing them toward the relics needed to tempt demons into Azeroth."
+  },
+  {
+   "q": "Why does a succubus require a symbol of love to summon?",
+   "aliases": [
+    "why love for succubus",
+    "succubus lure lore",
+    "bait for succubus"
+   ],
+   "answer": "As Gakin explains, a succubus thrives on corrupting hearts and dominating minds. It is inherently drawn to devour genuine, pure affection, making romantic relics the only effective bait to pull one from the Twisting Nether."
+  },
+  {
+   "q": "Is the Barrens safe for an Alliance character?",
+   "aliases": [
+    "is barrens dangerous",
+    "will horde attack me in barrens"
+   ],
+   "answer": "No. The Barrens is Horde territory, teeming with hostile beasts, quilboar tribes, and Horde settlements like Camp Taurajo. Alliance travelers must keep a low profile and steer clear of guards while seeking out Takar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Binding a succubus represents a warlock's transition into mastering mental manipulation and seduction magics, demanding physical daring to secure exotic ritual reagents."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Completing this trial forces Alliance spellcasters deep into contested Horde lands, requiring perilous maritime travel and cross-continental navigation."
+  }
+ ],
+ "keywords": [
+  "camp taurajo",
+  "gakin the darkbinder",
+  "heartswood",
+  "slaughtered lamb",
+  "stormwind",
+  "succubus",
+  "takar the seer",
+  "the barrens",
+  "warlock quest"
+ ],
+ "related": [
+  "npc:gakin-the-darkbinder",
+  "npc:takar-the-seer",
+  "quest:1685",
+  "quest:1738",
+  "quest:1471",
+  "zone:barrens",
+  "subzone:camp-taurajo",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Devourer of Souls (Stormwind)"
+ ]
+}

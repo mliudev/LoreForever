@@ -1,0 +1,127 @@
+{
+ "key": "quest:6627",
+ "type": "quest",
+ "name": "Test of Lore",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   6627
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Braug Dimspirit",
+  "end": "",
+  "previous": "Test of Lore (2)",
+  "next": "Test of Lore (4)",
+  "wiki": "Test of Lore (3)",
+  "chain": []
+ },
+ "summary": "The Test of Lore is a trial of intellect and historical memory set by the hermit Braug Dimspirit in the Stonetalon Mountains. After retrieving the ancient tome Legacy of the Aspects, travelers must demonstrate their understanding of ancient history by answering Braug's inquiry. Those who fail to heed the text find themselves abruptly banished across Kalimdor.",
+ "sections": [
+  {
+   "title": "A Trial of Wisdom",
+   "body": "Part of a broader series of trials originating with Dorn Plainstalker at the Weathered Nook, the Test of Lore shifts focus away from martial survival or blind trust toward understanding the world's ancient past. Braug Dimspirit, residing in the crags of the Stonetalon Mountains, requires seekers to recover ancient texts and genuinely absorb the knowledge held within their pages.",
+   "spoiler": 0
+  },
+  {
+   "title": "Legacy of the Aspects",
+   "body": "The lesson centers upon the creation and division of the Dragon Aspects, specifically the fateful pact made long before the Great Sundering. Braug tests the seeker's recall regarding the Earth Warder, Neltharion, whose descent into madness and betrayal reshaped the surface of Azeroth. Those who do not respect history are not allowed to proceed along the path of wisdom.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of Guesswork",
+   "body": "Braug does not tolerate idle guessing. A seeker who provides an incorrect answer is instantly expelled by mystic means, finding themselves teleported miles away to Camp Taurajo in the southern Barrens. Reclaiming one's standing requires a long trek back up into Stonetalon to face the hermit's scrutiny a second time.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the answer to Braug Dimspirit's question?",
+   "aliases": [
+    "braug question answer",
+    "test of lore answer",
+    "legacy of the aspects question"
+   ],
+   "answer": "Braug asks about the identity of the Earth Warder detailed in the tome Legacy of the Aspects. The correct answer is Neltharion, the Black Aspect who would later turn against his fellow dragons."
+  },
+  {
+   "q": "What happens if you answer incorrectly?",
+   "aliases": [
+    "wrong answer test of lore",
+    "failed test of lore",
+    "teleported to taurajo"
+   ],
+   "answer": "Giving Braug the wrong name causes an immediate magical banishment, teleporting you directly to Camp Taurajo in the Barrens. You must travel all the way back to his perch in the Stonetalon Mountains to attempt the trial again."
+  },
+  {
+   "q": "Who is Braug Dimspirit?",
+   "aliases": [
+    "braug dimspirit",
+    "who gives test of lore"
+   ],
+   "answer": "Braug Dimspirit is an elder hermit dwelling in the Stonetalon Mountains who administers tests of knowledge and lore for the Horde, continuing the series of spiritual trials initiated in Thousand Needles."
+  },
+  {
+   "q": "How does this connect to the trials in Thousand Needles?",
+   "aliases": [
+    "dorn plainstalker connection",
+    "test of faith chain"
+   ],
+   "answer": "The trial began with Dorn Plainstalker at the Weathered Nook in Thousand Needles with the Test of Faith. Dorn tests physical and spiritual trust, then sends worthy initiates across Kalimdor to have their intellect, resolve, and strength vetted by other wise elders."
+  },
+  {
+   "q": "What book is Braug quizzing you about?",
+   "aliases": [
+    "what book braug",
+    "legacy of the aspects"
+   ],
+   "answer": "The quiz tests your comprehension of the Legacy of the Aspects, an ancient treatise detailing the blessing of the five Great Dragon Aspects by the titans to guard Azeroth."
+  },
+  {
+   "q": "Where does this quest chain lead next?",
+   "aliases": [
+    "what is after test of lore",
+    "next quest in test of lore"
+   ],
+   "answer": "Passing Braug's quiz on the Dragon Aspects leads into further investigative trials of ancient history, requiring seekers to scour distant regions for more lost records and ancestral knowledge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Horde's trials in Kalimdor demand more than brute force; warriors and shamans alike are expected to understand the ancient scars and draconic powers that shaped the continent."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The trial embodies the tauren respect for ancestral wisdom and ancient history, ensuring young champions do not march blindly without knowing the balance of the world."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Mages will find Braug's teleportation ward both impressive and punitive, demonstrating that Stonetalon's hermits wield ancient magic to discipline careless scholars."
+  }
+ ],
+ "keywords": [
+  "aspects",
+  "braug dimspirit",
+  "earth warder",
+  "neltharion",
+  "stonetalon",
+  "taurajo",
+  "test of faith",
+  "weathered nook"
+ ],
+ "related": [
+  "quest:1152",
+  "quest:1149",
+  "npc:dorn-plainstalker",
+  "zone:stonetalon",
+  "subzone:camp-taurajo",
+  "subzone:weathered-nook",
+  "zone:barrens",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Test of Lore (3)"
+ ]
+}

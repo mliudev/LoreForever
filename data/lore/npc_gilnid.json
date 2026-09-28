@@ -1,0 +1,113 @@
+{
+ "key": "npc:gilnid",
+ "type": "npc",
+ "name": "Gilnid",
+ "era": "classic",
+ "zone": "deadmines",
+ "meta": {
+  "wiki": "Gilnid",
+  "refs": 5
+ },
+ "summary": "Gilnid, known as the Smelter, is the goblin master engineer running the forges in the depths of the Deadmines. He oversees the smelting of raw ore into refined metal and munitions for Edwin VanCleef's hidden ironclad juggernaut. Without his fiery operations, the Defias Brotherhood would lack the heavy cannons needed to assault Stormwind.",
+ "sections": [
+  {
+   "title": "Master of the Foundry",
+   "body": "Deep within the Deadmines, the Defias Brotherhood relies on industrial expertise to forge weapons of war. Gilnid serves as VanCleef's head smelter, commanding a small army of goblin laborers, tinkers, and smiths in the central foundry. Towering over most of his kin, he drives his crew relentlessly through smoke and slag, barking orders and refusing breaks to ensure raw iron ore is processed into heavy plating and lethal ordnance.",
+   "spoiler": 0
+  },
+  {
+   "title": "Arming the Juggernaut",
+   "body": "The smelting works are critical to the Brotherhood's grand ambition. Gilnid is directly responsible for forging the heavy cannons and ammunition intended for the colossal ironclad warship docked in the subterranean cove beyond his workshop. Until his foundry churns out every gun, barrel, and ball, the Defias vessel remains unready for its planned strike against Stormwind.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gilnid?",
+   "aliases": [
+    "gilnid deadmines",
+    "who is gilnid",
+    "the smelter"
+   ],
+   "answer": "Gilnid is a goblin engineer and the head smelter for Edwin VanCleef in the Deadmines. He oversees the Brotherhood's forges and leads the industrial effort to cast cannons and ammunition for their war machine."
+  },
+  {
+   "q": "Why is Gilnid in the Deadmines?",
+   "aliases": [
+    "why is a goblin in deadmines",
+    "gilnid defias lore",
+    "what is gilnid doing"
+   ],
+   "answer": "The Defias Brotherhood hired mercenary goblin engineers to build and supply their hidden warship. Gilnid was placed in charge of the smelting works, transforming mined iron ore into refined parts, armor, and artillery."
+  },
+  {
+   "q": "What is Gilnid working on?",
+   "aliases": [
+    "gilnid cannon",
+    "what is gilnid building",
+    "deadmines forge purpose"
+   ],
+   "answer": "Gilnid is responsible for manufacturing the massive cannons, ship parts, and shot needed to arm the juggernaut hidden in the docks deeper inside the mines."
+  },
+  {
+   "q": "Why must Gilnid be defeated?",
+   "aliases": [
+    "why kill gilnid",
+    "door past gilnid"
+   ],
+   "answer": "Gilnid controls the industrial foundry blocking the path to the cove. The heavy blast doors leading deeper toward the Defias ship remain sealed until the smelting room is secured."
+  },
+  {
+   "q": "Does Gilnid work directly for Edwin VanCleef?",
+   "aliases": [
+    "vancleef and gilnid",
+    "is gilnid defias leader"
+   ],
+   "answer": "Yes. He is not a member of the original Stonemasons, but rather a contracted goblin specialist serving directly under VanCleef to handle heavy metallurgy and weapons production."
+  },
+  {
+   "q": "Why are there so many goblins around him?",
+   "aliases": [
+    "gilnid goblins",
+    "deadmines forge crew"
+   ],
+   "answer": "Gilnid leads a specialized goblin engineering crew in the foundry. They operate the blast furnaces, pour molten iron, and assemble ordnance under his strict, unrelenting supervision."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The massive blast furnaces and smelting pots in Gilnid's workshop demonstrate how the Defias Brotherhood turns the raw mineral wealth of Westfall into refined iron and armaments."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Gilnid's foundry is a prime example of goblin heavy industry, churning out standardized naval cannons, ammunition, and structural plating under extreme conditions."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Stopping Gilnid shuts down the Defias weapons assembly line, preventing VanCleef's warship from being fully armed before it can threaten Stormwind Harbor."
+  }
+ ],
+ "keywords": [
+  "cannons",
+  "deadmines",
+  "defias",
+  "forge",
+  "foundry",
+  "gilnid",
+  "goblin",
+  "juggernaut",
+  "smelter",
+  "vancleef"
+ ],
+ "related": [
+  "npc:edwin-vancleef",
+  "zone:deadmines",
+  "topic:defias-brotherhood",
+  "topic:goblin",
+  "quest:65"
+ ],
+ "attribution": [
+  "Gilnid"
+ ]
+}

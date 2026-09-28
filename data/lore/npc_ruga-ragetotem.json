@@ -1,0 +1,88 @@
+{
+ "key": "npc:ruga-ragetotem",
+ "type": "npc",
+ "name": "Ruga Ragetotem",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Ruga Ragetotem",
+  "refs": 2
+ },
+ "summary": "Ruga Ragetotem is a veteran tauren warrior stationed at Camp Taurajo in the southern Barrens. Serving as a mentor to promising Horde fighters, he tests their mettle against the strange silithid infestation emerging nearby before sending them toward custom armor.",
+ "sections": [
+  {
+   "title": "A Mentor in Camp Taurajo",
+   "body": "Standing watch over Camp Taurajo, Ruga Ragetotem helps train emerging warriors looking to prove their strength in Kalimdor. Recognizing the sudden, unsettling emergence of insectoid silithid carving hives into the Field of Giants to the south, Ruga sets a trial for young fighters to hunt the beasts and sever their antennae. Those who endure the ordeal earn his respect and a recommendation to the renowned armorsmith Thun'grim Firegaze.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ruga Ragetotem?",
+   "aliases": [
+    "who is ruga",
+    "ruga ragetotem lore",
+    "ruga taurajo"
+   ],
+   "answer": "Ruga Ragetotem is a tauren warrior located at Camp Taurajo in the southern Barrens. He acts as an instructor and trial master for up-and-coming Horde warriors."
+  },
+  {
+   "q": "What trial does Ruga give to warriors?",
+   "aliases": [
+    "ruga trial",
+    "trial at the field of giants",
+    "what does ruga want"
+   ],
+   "answer": "Ruga sends warriors south to the Field of Giants to face the newly emerged silithid. Initiates must slay the aggressive insectoids and retrieve their antennae to prove their bravery and martial ability."
+  },
+  {
+   "q": "Who does Ruga send you to after his trial?",
+   "aliases": [
+    "where after ruga",
+    "ruga next quest",
+    "thun'grim ruga"
+   ],
+   "answer": "Once a warrior proves themselves against the silithid, Ruga directs them north to the orc armorsmith Thun'grim Firegaze, who crafts specialized armor for worthy combatants."
+  },
+  {
+   "q": "Why is Ruga interested in the Field of Giants?",
+   "aliases": [
+    "why field of giants",
+    "ruga bugs",
+    "silithid taurajo"
+   ],
+   "answer": "The Field of Giants has recently been invaded by silithid, an eerie insectoid threat carving hives into the earth. Ruga uses this nearby danger as a real combat test for warriors looking to defend the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Ruga serves as an essential milestone in early martial training, testing your combat instincts against the silithid before pointing you toward Thun'grim Firegaze for forged armor."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Stationed at Camp Taurajo, Ruga Ragetotem represents the strength and stoic vigilance of the Earthmother's children guarding their southern ranges."
+  }
+ ],
+ "keywords": [
+  "camp taurajo",
+  "field of giants",
+  "ruga ragetotem",
+  "silithid",
+  "taurajo",
+  "thun'grim firegaze",
+  "warrior trial"
+ ],
+ "related": [
+  "subzone:camp-taurajo",
+  "subzone:field-of-giants",
+  "quest:1824",
+  "quest:1825",
+  "quest:1502",
+  "zone:barrens",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Ruga Ragetotem"
+ ]
+}

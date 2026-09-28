@@ -1,0 +1,89 @@
+{
+ "key": "subzone:agamand-mills",
+ "type": "subzone",
+ "name": "Agamand Mills",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Agamand Mills"
+ },
+ "summary": "Agamand Mills is a sprawling farm and windmill complex nestled in the northern heights of Tirisfal Glades. Once the proud estate of the wealthy Agamand dynasty, it has fallen into ruin and stands as the largest Scourge stronghold in the region.",
+ "sections": [
+  {
+   "title": "A House Divided",
+   "body": "Centuries ago, wealthy noble immigrants from Strom established the Agamand estate, building a vast milling network across northern Tirisfal. When the Third War broke out and the Scourge swept across Lordaeron, the patriarch Gregor Agamand refused to flee, fortifying the compound and convincing his retainers and laborers to make their stand. Their provisions and stone walls might have held, but their youngest son, Devlin Agamand, betrayed his blood. Devlin slaughtered the estate watchmen and let the walking dead into the sleeping quarters. Crippled from within, the remaining defenders were wiped out, and the family joined the mindless ranks of the undead.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bastion of Rot",
+   "body": "Today, the Agamand Mills are the most entrenched bastion of the Scourge in Tirisfal Glades, posing an immediate threat to the Forsaken realm. The rotting windmills now churn above infested fields of wights, zombies, and skeletal horrors. Beneath the estate, Captain Dargol commands the garrison from the deep Agamand Family Crypt, practicing necromancy to reanimate generations of Agamand ancestors. From Brill, Magistrate Sevren and the Deathguards wage an active campaign to clear the mills and purge the Scourge presence before it can march upon the Undercity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Agamand Mills overrun with Scourge?",
+   "aliases": [
+    "what happened to agamand mills",
+    "why are there undead at the mills",
+    "agamand mills lore"
+   ],
+   "answer": "When the Scourge ravaged Lordaeron, the Agamand family fortified their estate and attempted to hold out against the undead horde. However, the youngest son, Devlin Agamand, betrayed his family and opened the gates to the Scourge, leading to the slaughter and reanimation of everyone within."
+  },
+  {
+   "q": "Who controls the mills right now?",
+   "aliases": [
+    "who leads agamand mills",
+    "scourge leader tirisfal",
+    "who is in charge at the mills"
+   ],
+   "answer": "The estate serves as a regional forward outpost for the Scourge, led by Captain Dargol. Dargol operates deep within the fortified Agamand Family Crypt, where he uses dark magic to raise ancestral corpses into new soldiers."
+  },
+  {
+   "q": "Why do the Forsaken care about this place?",
+   "aliases": [
+    "why brill attacks agamand",
+    "forsaken interest in agamand mills"
+   ],
+   "answer": "The mills represent the largest concentration of mindless Scourge forces remaining in Tirisfal Glades. If left unchecked, Captain Dargol's force threatens Brill and could choke off roads leading south to the Undercity."
+  },
+  {
+   "q": "Who was the Agamand family?",
+   "aliases": [
+    "who are the agamands",
+    "agamand lineage",
+    "gregor agamand"
+   ],
+   "answer": "They were an ancient, wealthy human noble house descended from Stromgarde immigrants who purchased rich farmlands in Tirisfal over a millennium ago. Today, its reanimated scions\u2014including Gregor, Nissa, Thurman, and Devlin\u2014wander the grounds as mindless thralls."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, reclaiming Agamand Mills is not merely tactical\u2014it is personal vengeance against the Scourge and a settling of scores by former estate servants like Coleman Farthing."
+  }
+ ],
+ "keywords": [
+  "agamand",
+  "agamand family crypt",
+  "agamand mills",
+  "captain dargol",
+  "devlin agamand",
+  "gregor agamand",
+  "scourge",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:agamand-family-crypt",
+  "quest:426",
+  "quest:408",
+  "quest:354",
+  "subzone:brill",
+  "npc:magistrate-sevren",
+  "npc:coleman-farthing",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Agamand Mills"
+ ]
+}

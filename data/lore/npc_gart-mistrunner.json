@@ -1,0 +1,76 @@
+{
+ "key": "npc:gart-mistrunner",
+ "type": "npc",
+ "name": "Gart Mistrunner",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Gart Mistrunner",
+  "refs": 1
+ },
+ "summary": "Gart Mistrunner is the resident druid trainer stationed at Camp Narache on the Red Cloud Mesa. He welcomes novice tauren called by the Earth Mother and guides them through their first rites of nature magic.",
+ "sections": [
+  {
+   "title": "Mentor of the Red Cloud Mesa",
+   "body": "Standing watch over Camp Narache, Gart Mistrunner represents the ancient druidic path rekindled among the Shu'halo. New tauren druids are directed straight to Gart upon taking their first steps on the Red Cloud Mesa, often carrying a verdant note commending them into his care. Through his patient guidance, young practitioners learn to commune with the natural world, drawing upon the restorative powers of nature and the lunar radiance of Mu'sha to heal their allies and strike down threats to the land.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gart Mistrunner?",
+   "aliases": [
+    "who is gart",
+    "gart mistrunner lore",
+    "gart mistrunner"
+   ],
+   "answer": "Gart Mistrunner is a tauren druid trainer located at Camp Narache in the Red Cloud Mesa of Mulgore. He instructs novice tauren druids in their initial spells and rites."
+  },
+  {
+   "q": "What spells does he teach newly awakened druids?",
+   "aliases": [
+    "what does gart teach",
+    "gart mistrunner training",
+    "druid spells camp narache"
+   ],
+   "answer": "Gart introduces beginners to essential nature abilities, teaching early healing spells such as Healing Touch and offensive nature magic like Moonfire."
+  },
+  {
+   "q": "What is his connection to the Mistrunner clan?",
+   "aliases": [
+    "mistrunner clan",
+    "who are mistrunners"
+   ],
+   "answer": "Gart belongs to the Mistrunner tribe, one of the notable tauren clans known for their deep spiritual ties to the land, herbalism, and druidic teachings across Mulgore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For tauren druids, Gart Mistrunner is the very first master to shape their communion with the wilds and the gifts of the Earth Mother."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Gart represents the resurgence of the Shu'halo's ancient druidic traditions, passing ancestral wisdom to the youth of Camp Narache."
+  }
+ ],
+ "keywords": [
+  "camp narache",
+  "druid trainer",
+  "gart mistrunner",
+  "mistrunner",
+  "mulgore",
+  "red cloud mesa",
+  "tauren druid"
+ ],
+ "related": [
+  "subzone:camp-narache",
+  "zone:mulgore",
+  "topic:druid",
+  "topic:tauren",
+  "quest:3094"
+ ],
+ "attribution": [
+  "Gart Mistrunner"
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "key": "npc:umpi",
+ "type": "npc",
+ "name": "Umpi",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Umpi",
+  "refs": 1
+ },
+ "summary": "Umpi is a frog residing in Tarren Mill as the unwitting laboratory assistant of Apothecary Lydon. Kept inside the Royal Apothecary Society's workshop, she serves as a recurring test subject for experimental toxins and plague concoctions.",
+ "sections": [
+  {
+   "title": "A Life of Perpetual Testing",
+   "body": "Within the dark laboratories of Tarren Mill, the Forsaken work tirelessly to brew concoctions of death and torment. For Apothecary Lydon, scientific rigor requires living flesh to test his formulas, and Umpi bears the brunt of these trials. Lydon regularly tests lethal brews\u2014such as the Elixir of Suffering and the Elixir of Agony\u2014directly on her. Once the poisons take their inevitable toll and kill her, the apothecary re-animates the amphibian, ensuring she is ready to endure the next lethal dose for the glory of the Royal Apothecary Society.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Umpi?",
+   "aliases": [
+    "umpi who",
+    "what is umpi",
+    "frog tarren mill"
+   ],
+   "answer": "Umpi is a frog kept by Apothecary Lydon in Tarren Mill. She acts as an assistant and prime test subject for Lydon's noxious alchemical experiments."
+  },
+  {
+   "q": "Why does Apothecary Lydon keep killing Umpi?",
+   "aliases": [
+    "why kill umpi",
+    "umpi poisoned",
+    "lydon frog"
+   ],
+   "answer": "Apothecary Lydon uses Umpi to gauge the potency of his newly brewed toxins. After feeding her fatal concoctions like the Elixir of Suffering, he re-animates her so she can be poisoned all over again in future trials."
+  },
+  {
+   "q": "Is Umpi alive or undead?",
+   "aliases": [
+    "is umpi undead",
+    "umpi zombie",
+    "frog undead"
+   ],
+   "answer": "Biologically, she walks the line between both. While technically functioning as a beast, Apothecary Lydon openly admits to raising her from the dead after each lethal poisoning experiment."
+  },
+  {
+   "q": "Where can Umpi be found?",
+   "aliases": [
+    "where is umpi",
+    "umpi location"
+   ],
+   "answer": "Umpi is located inside the apothecary workshop in Tarren Mill within the Hillsbrad Foothills, right beside Apothecary Lydon's workbench."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Umpi exemplifies the ruthless, pragmatic research methods of the Royal Apothecary Society, where life and death are merely variables in perfecting the Forsaken arsenal."
+  }
+ ],
+ "keywords": [
+  "apothecary lydon",
+  "elixir of agony",
+  "elixir of suffering",
+  "frog",
+  "hillsbrad foothills",
+  "tarren mill",
+  "umpi"
+ ],
+ "related": [
+  "subzone:tarren-mill",
+  "quest:496",
+  "quest:509",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Umpi"
+ ]
+}

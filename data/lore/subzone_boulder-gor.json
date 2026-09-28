@@ -1,0 +1,89 @@
+{
+ "key": "subzone:boulder-gor",
+ "type": "subzone",
+ "name": "Boulder'gor",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Boulder'gor"
+ },
+ "summary": "Boulder'gor is a rugged hill in the western Arathi Highlands, situated directly north of the ruined human kingdom of Stromgarde. It serves as an active encampment for the Boulderfist ogres and their unusual allies among the Witherbark forest trolls.",
+ "sections": [
+  {
+   "title": "A Den of Ogres and Trolls",
+   "body": "Rising just north of the crumbling ramparts of Stromgarde Keep, Boulder'gor is a steep bluff claimed by the Boulderfist clan. Within its shadows sits the Boulderfist Outpost mound, making it a central bastion of ogre power across the highlands. Uniquely, the ogres here share their fires and fortifications with forest trolls of the Witherbark tribe, including shadowy spellcasters who lend their dark magic to the clan's brute force. This mutual cooperation poses an ongoing danger to any travelers passing along the central roads of Arathi.",
+   "spoiler": 0
+  },
+  {
+   "title": "Surrounding Territory",
+   "body": "The slopes around Boulder'gor border several notable landmarks. To its immediate east lies the Circle of Elements, a mysterious site woven with primal power, while the quiet remnants of old human farmsteads flank its southern edge. Hemmed between the Syndicate-infiltrated ruins of Stromgarde and the wild elemental sites of the plains, Boulder'gor remains a heavily guarded and hostile stronghold of tribal solidarity against both Alliance and Horde wanderers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Boulder'gor?",
+   "aliases": [
+    "where is bouldergor",
+    "bouldergor info",
+    "what is this place"
+   ],
+   "answer": "Boulder'gor is an elevated hill and encampment north of Stromgarde Keep in the Arathi Highlands. It is heavily inhabited by Boulderfist ogres and Witherbark forest trolls."
+  },
+  {
+   "q": "Why are forest trolls living alongside ogres here?",
+   "aliases": [
+    "why are trolls here",
+    "witherbark ogre alliance",
+    "trolls and ogres"
+   ],
+   "answer": "The Witherbark trolls and Boulderfist ogres maintain a pragmatic alliance in Arathi. Both seek to maintain dominance over the highlands and fend off rival factions, pooling troll shadowcraft with brute ogre strength."
+  },
+  {
+   "q": "What major landmarks are near Boulder'gor?",
+   "aliases": [
+    "nearby places",
+    "what is next to bouldergor",
+    "landmarks"
+   ],
+   "answer": "Boulder'gor sits directly north of Stromgarde Keep and Boulderfist Outpost. Just to its east is the Circle of Elements, alongside abandoned human farms to the south."
+  },
+  {
+   "q": "Is Boulder'gor friendly to the Horde or Alliance?",
+   "aliases": [
+    "can i go there safely",
+    "is bouldergor hostile"
+   ],
+   "answer": "Neither. The Boulderfist ogres and Witherbark trolls of Boulder'gor are entirely hostile to both the Alliance and the Horde, aggressively defending their hill from outsiders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "Darkspear trolls visiting the highlands will find no kinship here: the Witherbark forest trolls of Boulder'gor harbor deep ancient grudges against all outsiders, including other troll tribes."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance forces seeking to reclaim Stromgarde, Boulder'gor represents a serious threat lurking right on the fallen kingdom's northern doorstep."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "boulder'gor",
+  "boulderfist",
+  "bouldergor",
+  "ogres",
+  "stromgarde",
+  "witherbark"
+ ],
+ "related": [
+  "subzone:boulderfist-outpost",
+  "subzone:stromgarde-keep",
+  "subzone:circle-of-elements",
+  "zone:arathi",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Boulder'gor"
+ ]
+}

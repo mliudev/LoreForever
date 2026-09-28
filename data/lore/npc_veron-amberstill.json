@@ -1,0 +1,87 @@
+{
+ "key": "npc:veron-amberstill",
+ "type": "npc",
+ "name": "Veron Amberstill",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Veron Amberstill",
+  "refs": 2
+ },
+ "summary": "Veron Amberstill is a dwarven ram breeder residing at Amberstill Ranch in eastern Dun Morogh. He tends to the rugged mountain rams that serve as the traditional mounts of Ironforge and offers them to skilled riders who have earned his trust.",
+ "sections": [
+  {
+   "title": "Master of the Mounts",
+   "body": "Tucked away in the snow-dusted hills of eastern Dun Morogh, Veron Amberstill oversees the celebrated stock of Amberstill Ranch. Mountain rams are perfectly suited for Khaz Modan's treacherous slopes, sure-footed and thick-coated against the bite of mountain blizzards. Veron breeds and trains these beasts to carry dwarven scouts, mountaineers, and traveling adventurers. While he gladly provides standard and swift mounts to fellow dwarves, outsiders must prove their unwavering loyalty to the throne of Ironforge before he will part with any of his prized herd.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Veron Amberstill?",
+   "aliases": [
+    "veron amberstill",
+    "who is veron",
+    "amberstill ram vendor"
+   ],
+   "answer": "Veron Amberstill is a dwarven mount breeder and vendor located at Amberstill Ranch in Dun Morogh. He raises sturdy mountain rams for the kingdom of Ironforge and sells them to qualified riders."
+  },
+  {
+   "q": "Can non-dwarves purchase rams from Veron?",
+   "aliases": [
+    "can humans buy rams",
+    "ram mount non dwarf",
+    "ironforge reputation ram"
+   ],
+   "answer": "Yes, but only if they have earned an exalted reputation with Ironforge. Dwarves can buy his rams naturally, but outsiders must prove themselves staunch champions of the mountain kingdom before Veron entrusts them with his stock."
+  },
+  {
+   "q": "Where is Veron Amberstill located?",
+   "aliases": [
+    "veron location",
+    "where is veron",
+    "where to find veron amberstill"
+   ],
+   "answer": "You can find him standing outside at Amberstill Ranch, situated nestled in the hills of eastern Dun Morogh, just northeast of Gol'Bolar Quarry."
+  },
+  {
+   "q": "Why do dwarves ride rams instead of horses?",
+   "aliases": [
+    "why do dwarves ride rams",
+    "dwarven mounts lore",
+    "mountain ram mount lore"
+   ],
+   "answer": "Mountain rams possess thick coats, robust frames, and extraordinary balance, making them far better suited to the freezing winds and sheer rocky ledges of Dun Morogh and the surrounding peaks than ordinary horses."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Veron represents your people's deep heritage with mountain beasts, providing standard and swift rams that every dwarven adventurer relies on to navigate Khaz Modan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Allies of Ironforge who wish to master riding a mountain ram must first prove their dedication to the dwarven kingdom to earn Veron's respect."
+  }
+ ],
+ "keywords": [
+  "amberstill ranch",
+  "dun morogh",
+  "ironforge",
+  "mount vendor",
+  "mountain ram",
+  "ram vendor",
+  "veron amberstill"
+ ],
+ "related": [
+  "subzone:amberstill-ranch",
+  "zone:dunmorogh",
+  "zone:ironforge",
+  "topic:dwarf",
+  "quest:7673",
+  "quest:7674"
+ ],
+ "attribution": [
+  "Veron Amberstill"
+ ]
+}

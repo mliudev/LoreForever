@@ -1,0 +1,131 @@
+{
+ "key": "quest:6261",
+ "type": "quest",
+ "name": "Dungar Longdrink",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   6261
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Osric Strang",
+  "end": "Dungar Longdrink",
+  "previous": "Continue to Stormwind (Classic)",
+  "next": "Return to Lewis",
+  "wiki": "Dungar Longdrink (Classic)",
+  "chain": [
+   "A Swift Message (Classic)",
+   "Continue to Stormwind (Classic)",
+   "Dungar Longdrink (Classic)",
+   "Return to Lewis"
+  ]
+ },
+ "summary": "This errand introduces adventurers to Dungar Longdrink, the chief gryphon master of Stormwind. After collecting emergency supplies from Osric Strang, couriers must arrange for swift aerial transport to deliver the gear back to the embattled defenders in Westfall.",
+ "sections": [
+  {
+   "title": "A Vital Supply Chain",
+   "body": "Westfall is strained to its breaking point by Defias outlaws and feral harvest golems, leaving Quartermaster Lewis and the People's Militia desperate for provisions. When Lewis sent word to the capital for fresh equipment, general goods merchant Osric Strang packed up everything requested. Moving military cargo on foot through the bandit-ridden roads of Elwynn and Westfall takes valuable time, making the kingdom's newly forged aerial routes an essential lifeline.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Master of the Roost",
+   "body": "Perched in the Trade District, Dungar Longdrink coordinates Stormwind's courier and passenger gryphons. The majestic beasts, traditionally raised and handled by Wildhammer dwarves, provide reliable transport across human lands so long as roosts on both ends know each other. By bringing Osric's heavy crate directly to Dungar, couriers learn how aerial logistics work, establishing a direct connection between the capital's stockpiles and frontier outposts like Sentinel Hill.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dungar Longdrink?",
+   "aliases": [
+    "dungar",
+    "who is dungar",
+    "stormwind gryphon master"
+   ],
+   "answer": "Dungar Longdrink is Stormwind City's gryphon master, stationed right outside the Trade District near the flight roost. He manages the capital's courier beasts and oversees passenger travel throughout Alliance territories in southern Lordaeron and Azeroth."
+  },
+  {
+   "q": "Why is Osric sending this crate via gryphon?",
+   "aliases": [
+    "why use gryphon",
+    "why not walk",
+    "osric crate delivery"
+   ],
+   "answer": "Quartermaster Lewis and the People's Militia in Westfall are desperately low on gear to fight off bandits. Delivering heavy supplies on foot or by wagon would take days and risk ambushes, whereas a trained gryphon can fly Osric's supplies across borders in minutes."
+  },
+  {
+   "q": "Who is Thor, and why must I speak to him first?",
+   "aliases": [
+    "who is thor",
+    "why visit thor",
+    "thor gryphon"
+   ],
+   "answer": "Thor is the gryphon master stationed at Sentinel Hill in Westfall. Gryphons are trained along specific point-to-point routes, meaning Dungar's mounts can only fly you back to Westfall if you have already mapped the path by checking in with Thor on the other end."
+  },
+  {
+   "q": "What happens after Dungar accepts the crate?",
+   "aliases": [
+    "what next",
+    "return to lewis",
+    "next quest"
+   ],
+   "answer": "Once Dungar inspects the delivery, he readies a gryphon for flight, directing you to take the crate directly to Quartermaster Lewis at Sentinel Hill."
+  },
+  {
+   "q": "Where does this quest fit into the flight chain?",
+   "aliases": [
+    "quest chain",
+    "flight questline",
+    "how many quests"
+   ],
+   "answer": "It is the third step of an introductory flight network tutorial that begins in Westfall with 'A Swift Message', takes you to Stormwind via 'Continue to Stormwind', meets Dungar, and concludes with 'Return to Lewis'."
+  },
+  {
+   "q": "Why does Stormwind rely on dwarven gryphons?",
+   "aliases": [
+    "why gryphons in stormwind",
+    "alliance gryphons lore"
+   ],
+   "answer": "Ever since the Second War brought the Alliance of Lordaeron together with the Wildhammer clan of the Hinterlands, gryphons have served as the supreme scouts and transports for Alliance realms, offering rapid transit that bypassed ruined roads and hostile blockades."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Establishing gryphon paths between Stormwind and regional settlements is essential for maintaining order while the kingdom's central army is absent."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven handlers like Dungar Longdrink and Thor are responsible for extending their ancestral bond with gryphons into the heart of the human kingdom."
+  },
+  {
+   "target": "race:Human",
+   "text": "With Westfall neglected by the House of Nobles, individual merchants and local handlers must cooperate directly to keep frontier outposts armed."
+  }
+ ],
+ "keywords": [
+  "dungar longdrink",
+  "gryphon master",
+  "osric strang",
+  "osric's crate",
+  "sentinel hill",
+  "stormwind",
+  "thor",
+  "trade district",
+  "westfall"
+ ],
+ "related": [
+  "npc:osric-strang",
+  "quest:6285",
+  "quest:6281",
+  "quest:6181",
+  "subzone:trade-district",
+  "npc:thor",
+  "zone:westfall",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Dungar Longdrink (Classic)"
+ ]
+}

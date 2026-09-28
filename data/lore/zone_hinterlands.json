@@ -1,0 +1,135 @@
+{
+ "key": "zone:hinterlands",
+ "type": "zone",
+ "name": "The Hinterlands",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": [
+   "Hinterlands"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "The Hinterlands are a rugged, densely forested wilderness in eastern Lordaeron, tucked between the Plaguelands and the sea. The region is defined by ancient Amani troll temple ruins, the towering aeries of the Wildhammer clan at Aerie Peak, and a colossal Great Tree anchoring a mysterious rift to the Emerald Dream.",
+ "sections": [
+  {
+   "title": "A Land of Clashing Claims",
+   "body": "Long before humans or dwarves walked northern Lordaeron, the forest trolls of the Amani Empire held dominion over the Hinterlands. Following their defeat in the ancient Troll Wars, their empire shattered into disparate tribes. Centuries later, after the tragic War of the Three Hammers drove the Wildhammer dwarves from Grim Batol, the dwarves migrated north and made their home on the surface at Aerie Peak. Taming the native gryphons and embracing shamanic traditions, the Wildhammer constructed a massive skybound stronghold. The trolls viewed these surface-dwelling dwarves as unwelcome squatters upon ancestral lands, sparking a ceaseless feud of skirmishes and raids.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tribes of the Forest",
+   "body": "Three distinct forest troll factions occupy the dense canopy and crumbling stone temples. The brutal and fanatical Vilebranch tribe is the strongest, maintaining sprawling strongholds at the terraced temple-city of Jintha'Alor and the towering Altar of Zul. To the south, the weaker Witherbark tribe clings to Shadra'Alor and Hiri'Watha. The nomadic Revantusk tribe, long scorned by their cousins and lacking a true home, chose a radical path after the Third War: they struck a treaty with Thrall's New Horde. Bolstered by orcish and Forsaken aid, the Revantusk founded Revantusk Village on the eastern sea cliffs, carving out a defiant coastal bastion.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Slumbering Rift",
+   "body": "In the northern reaches of the Hinterlands stands Seradane, one of four colossal Great Trees found across Azeroth. Deep within its boughs sits a massive mystical portal opening into the Emerald Dream, guarded by creatures of nature and members of the green dragonflight. However, a creeping shadow known as the Emerald Nightmare has begun to seethe across the portal's threshold, twisting once-benevolent drakes and dragonspawn into furious guardians of the grove.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I get to the Hinterlands?",
+   "aliases": [
+    "hinterlands entrance",
+    "how to enter hinterlands",
+    "getting to hinterlands"
+   ],
+   "answer": "Alliance travelers typically travel north from Refuge Pointe in the Arathi Highlands through a mountain tunnel that emerges near Aerie Peak. Horde adventurers usually approach from Hillsbrad Foothills, heading northeast through a mountain pass beyond Durnholde Keep, crossing eastward across the wilderness down to Revantusk Village on the eastern coast."
+  },
+  {
+   "q": "Who rules Aerie Peak?",
+   "aliases": [
+    "wildhammer leader",
+    "who leads wildhammer",
+    "aerie peak ruler"
+   ],
+   "answer": "Aerie Peak serves as the majestic surface capital of the Wildhammer clan. Although historically led by Thane Kurdran Wildhammer during the Second War, the clan maintains its rugged independence here, dwelling in aeries above ground alongside their revered gryphons and practicing primal shamanic traditions."
+  },
+  {
+   "q": "Why are the Revantusk trolls allied with the Horde?",
+   "aliases": [
+    "revantusk horde",
+    "why troll horde hinterlands",
+    "revantusk village lore"
+   ],
+   "answer": "Unlike the hostile Vilebranch and Witherbark tribes who rejected Horde emissaries, the nomadic Revantusk tribe sought protection and an end to wandering. The New Horde provided vital resources and soldiers to construct Revantusk Village along the coast, winning the tribe's fierce loyalty against local rivals."
+  },
+  {
+   "q": "What is Jintha'Alor?",
+   "aliases": [
+    "jintha'alor lore",
+    "troll city hinterlands",
+    "vilebranch city"
+   ],
+   "answer": "Jintha'Alor is a massive, multi-tiered ancient troll fortress carved into the southern cliffs. It serves as the primary bastion of the ruthless Vilebranch tribe, thick with foul sacrificial altars, elite warriors, and witch doctors practicing blood rites in service to their dark loas."
+  },
+  {
+   "q": "What is the Great Tree at Seradane?",
+   "aliases": [
+    "seradane portal",
+    "big tree hinterlands",
+    "green dragon hinterlands"
+   ],
+   "answer": "Seradane is a World Tree bough harboring a direct pathway into the Emerald Dream. Green dragons and wildkin watch over it, though corruption from the Emerald Nightmare has begun seeping through the portal, unsettling the grove's guardians."
+  },
+  {
+   "q": "What is Quel'Danil Lodge?",
+   "aliases": [
+    "high elf lodge hinterlands",
+    "queldanil",
+    "elves in hinterlands"
+   ],
+   "answer": "Quel'Danil Lodge is a forest retreat maintained by Highvale high elves. Spared the Scourge's direct assault on Quel'Thalas, these rangers and scholars cooperate with the neighboring Wildhammer dwarves and share vital intelligence regarding the hostile forest trolls."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For Wildhammer kin and visiting Bronzebeards alike, Aerie Peak represents dwarven life without stone ceilings\u2014a place of soaring skies, shamanic power, and legendary gryphons."
+  },
+  {
+   "target": "race:Troll",
+   "text": "The Hinterlands hold ancient Amani glory, where bloodlines clash over ancient temple steps and the Revantusk prove that forest trolls have an enduring place within the New Horde."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though the Wildhammer dwarves cherish their fierce independence, aiding their outposts and the high elves of Quel'Danil builds critical goodwill against common troll threats."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Revantusk Village offers the Horde a vital eastern beachhead in northern Lordaeron, but survival requires beating back the ferocious Vilebranch tribe."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The ancient tree of Seradane holds a deep connection to the Emerald Dream, though the creeping rot of the Nightmare requires close and watchful vigilance."
+  }
+ ],
+ "keywords": [
+  "aerie peak",
+  "gryphon",
+  "hinterlands",
+  "jintha'alor",
+  "quel'danil",
+  "revantusk",
+  "seradane",
+  "vilebranch",
+  "wildhammer",
+  "witherbark"
+ ],
+ "related": [
+  "topic:wildhammer-clan",
+  "topic:new-horde",
+  "topic:emerald-dream",
+  "topic:troll",
+  "subzone:durnholde-keep",
+  "zone:arathi",
+  "zone:hillsbrad",
+  "zone:westernplaguelands"
+ ],
+ "attribution": [
+  "Hinterlands"
+ ]
+}

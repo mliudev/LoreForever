@@ -1,0 +1,137 @@
+{
+ "key": "quest:1738",
+ "type": "quest",
+ "name": "Heartswood",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1738
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Takar the Seer",
+  "end": "Gakin the Darkbinder",
+  "previous": "Devourer of Souls (Stormwind)",
+  "next": "The Binding (Succubus, Stormwind)",
+  "wiki": "Heartswood (quest)",
+  "chain": [
+   "Gakin's Summons (Succubus)",
+   "Devourer of Souls (Stormwind)",
+   "Heartswood (quest)",
+   "The Binding (Succubus, Stormwind)"
+  ]
+ },
+ "summary": "Heartswood is an Alliance warlock quest that sends practitioners deep into Ashenvale to recover the branch of an ancient, tragic tree. Sent by the hermit Takar the Seer on behalf of Gakin the Darkbinder, warlocks seek this romantic relic as a potent bait to lure and subjugate a succubus in Stormwind.",
+ "sections": [
+  {
+   "title": "A Monument to Tragic Love",
+   "body": "According to Takar the Seer, the Heartswood tree sprang from the spot where two night elf lovers, Anathera and Latherion, fell together during the War of the Ancients ten thousand years ago. Nourished by their final breaths and eternal devotion, the tree grew as a pure emblem of undying romance. To mortal senses it is a sacred tragic monument, but to practitioners of the dark arts, concentrated emotional energy makes potent magical fuel.",
+   "spoiler": 0
+  },
+  {
+   "title": "Baiting the Succubus",
+   "body": "Succubi feed upon mortal passions, desire, and emotional torment. Takar realizes that ordinary temptations pale in comparison to an artifact suffused with thousands of years of pure, undying devotion. A piece of the Heartswood provides Gakin the Darkbinder with the exact catalyst required to bait one of these cunning demons across the Nether into the summoning circle in Stormwind's Mage Quarter.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ruins of Ordil'Aran",
+   "body": "The tree stands amid the Ruins of Ordil'Aran in northwestern Ashenvale. However, retrieving it requires braving not only wild beasts and hostile territory, but also the Dark Strand cultists who have occupied the elven ruins. Once retrieved, the wood must be carried across the seas back to the Slaughtered Lamb in Stormwind to begin the ritual of subjugation.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do warlocks need Heartswood to summon a succubus?",
+   "aliases": [
+    "why heartswood",
+    "succubus bait",
+    "why wood for succubus"
+   ],
+   "answer": "Succubi are demons drawn to passion, desire, and strong emotional bonds. The Heartswood sprouted where two devoted night elf lovers perished together ten thousand years ago. Their lingering passion infused the wood, creating the ideal spiritual bait to draw a succubus through the Nether."
+  },
+  {
+   "q": "Where does the Heartswood tree grow?",
+   "aliases": [
+    "heartswood location",
+    "where is the heartswood",
+    "where to find heartswood"
+   ],
+   "answer": "It is located in the Ruins of Ordil'Aran, situated in the northwestern forests of Ashenvale, not far south of Darkshore. The area has fallen into the hands of sinister cultists."
+  },
+  {
+   "q": "Who were Anathera and Latherion?",
+   "aliases": [
+    "anathera and latherion",
+    "who were the lovers",
+    "lovers of ashenvale"
+   ],
+   "answer": "They were two night elves who fought side by side during the War of the Ancients. When they fell together on the battlefield, the Heartswood tree sprouted on the exact spot where they took their dying breaths as a monument to their unbreakable love."
+  },
+  {
+   "q": "Who is Takar the Seer?",
+   "aliases": [
+    "who is takar",
+    "takar the seer",
+    "barrens hermit"
+   ],
+   "answer": "Takar is a gifted human seer allied with Stormwind's warlocks. He chooses to live as an isolated hermit in the northern Barrens, using his mystical sight to pierce the mists of time and uncover forgotten relics for Gakin the Darkbinder."
+  },
+  {
+   "q": "How does an Alliance warlock travel safely to Ashenvale from the Barrens?",
+   "aliases": [
+    "how to get to ashenvale",
+    "bypassing morshan",
+    "avoiding horde rampart"
+   ],
+   "answer": "Alliance travelers crossing from the Barrens must avoid the heavily guarded Horde outpost at the Mor'shan Rampart. Warlocks often slip through an unguarded breach in the palisade just east of the main gate, take the high road through Stonetalon, or swim the border river."
+  },
+  {
+   "q": "What happens after Gakin receives the Heartswood?",
+   "aliases": [
+    "what next after heartswood",
+    "what does gakin do with heartswood"
+   ],
+   "answer": "Gakin uses the wood to prepare a ritual in the catacombs beneath the Slaughtered Lamb in Stormwind. He draws a summoning circle to pull a succubus from the Twisting Nether, tasking the warlock with defeating and subjugating her."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Acquiring a piece of the Heartswood is a critical milestone for fledgling warlocks, allowing them to summon and enslave a succubus to manipulate their enemies' minds on the battlefield."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Venturing into Kalimdor exposes young Alliance spellcasters to contested wilderness, hostile Horde outposts, and ancient night elven ruins."
+  },
+  {
+   "target": "race:Human",
+   "text": "Stormwind's hidden warlocks often rely on far-flung scouts like Takar the Seer to locate relics of old Kalimdor that human arcanists have never documented."
+  }
+ ],
+ "keywords": [
+  "anathera",
+  "ashenvale",
+  "barrens",
+  "dark strand",
+  "gakin the darkbinder",
+  "heartswood",
+  "latherion",
+  "ordil'aran",
+  "succubus",
+  "takar the seer"
+ ],
+ "related": [
+  "npc:takar-the-seer",
+  "npc:gakin-the-darkbinder",
+  "quest:1472",
+  "quest:1471",
+  "quest:1685",
+  "subzone:ruins-of-ordil-aran",
+  "zone:ashenvale",
+  "topic:war-of-the-ancients"
+ ],
+ "attribution": [
+  "Heartswood (quest)"
+ ]
+}

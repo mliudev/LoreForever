@@ -1,0 +1,75 @@
+{
+ "key": "subzone:scarlet-halls",
+ "type": "subzone",
+ "name": "Scarlet Halls",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Scarlet Halls"
+ },
+ "summary": "The Scarlet Halls represent the combined military might and lore archives housed within the northeastern compound of the Scarlet Monastery. Here in Tirisfal Glades, the Scarlet Crusade maintains rigorous training grounds, stocked armories, and vaulted libraries to prepare its zealots for endless war against the undead.",
+ "sections": [
+  {
+   "title": "Heart of the Crusade's War Machine",
+   "body": "Within the sprawling corridors of the Scarlet Monastery, the halls encompass the training yards, weapon vaults, and extensive archival chambers of the Scarlet Crusade. Bound by a virulent hatred for the unliving, the Crusaders stationed here spend their hours drilling under veteran commanders and studying ancient doctrine. Between the clash of blades in the armories and the quiet study of defensive texts in the athenaeum, the order works relentlessly to forge recruits into unyielding holy warriors dedicated to purging Lordaeron.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Scarlet Halls?",
+   "aliases": [
+    "what are scarlet halls",
+    "why are crusaders here",
+    "scarlet halls purpose"
+   ],
+   "answer": "The halls serve as the primary staging and educational ground for the Scarlet Crusade within the monastery. Here, crusaders forge weaponry, train rank-and-file soldiers in martial combat, and preserve religious and military tomes detailing their holy war against the Scourge."
+  },
+  {
+   "q": "Where are the Scarlet Halls located?",
+   "aliases": [
+    "scarlet halls location",
+    "where is scarlet halls"
+   ],
+   "answer": "They lie within the Scarlet Monastery complex, situated along the northeastern cliffs of Tirisfal Glades overlooking the Whispering Shore."
+  },
+  {
+   "q": "Who controls the Scarlet Halls?",
+   "aliases": [
+    "who runs scarlet halls",
+    "scarlet halls faction"
+   ],
+   "answer": "The complex is entirely under the iron grip of the Scarlet Crusade, an extreme faction of holy zealots who view all outsiders\u2014living or undead\u2014as potential carriers of the plague."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For holy warriors of the Silver Hand, seeing sacred martial training and scripture perverted into obsessive, bloodthirsty zealotry within these halls is a tragic reminder of the order's fall."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The Forsaken view the halls with vigilance and wrath, as the crusade's entire martial apparatus is dedicated to marching south and wiping the Undercity from the map."
+  }
+ ],
+ "keywords": [
+  "armory",
+  "athenaeum",
+  "library",
+  "scarlet crusade",
+  "scarlet halls",
+  "scarlet monastery",
+  "tirisfal glades"
+ ],
+ "related": [
+  "zone:scarlet",
+  "subzone:footman-s-armory",
+  "subzone:hall-of-champions",
+  "subzone:athenaeum-scarlet-monastery",
+  "subzone:gallery-of-treasures",
+  "subzone:room-of-hidden-secrets"
+ ],
+ "attribution": [
+  "Scarlet Halls"
+ ]
+}

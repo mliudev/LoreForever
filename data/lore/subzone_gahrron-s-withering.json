@@ -1,0 +1,94 @@
+{
+ "key": "subzone:gahrron-s-withering",
+ "type": "subzone",
+ "name": "Gahrron's Withering",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Gahrron's Withering"
+ },
+ "summary": "Gahrron's Withering is a corrupted farmstead nestled along the eastern border of the Western Plaguelands near the path to the Eastern Plaguelands. Once a thriving piece of Lordaeron farmland called Gahrron's Quickening, it is now occupied by the Scourge and anchored by a massive cauldron pumping virulent plague vapors into the air.",
+ "sections": [
+  {
+   "title": "From Quickening to Decay",
+   "body": "Before the Third War ruined the kingdom of Lordaeron, this estate was known as Gahrron's Quickening, named after its master, Del Gahrron. Its fertile fields yielded grain for the realm until the Cult of the Damned and the Scourge swept across the land. Renamed Gahrron's Withering in bitter mockery of its past vitality, the homestead now stands broken and derelict. Haunting visions, wailing wraiths, and restless spirits wander the ruined outbuildings, overseen by Scourge overseers sworn to the Lich King.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Cauldron and the Fall of Redpath",
+   "body": "In the center of the blighted fields sits one of the Scourge's massive plague cauldrons, tended by Cauldron Lord Soulwrath. This cauldron constantly spews noxious miasma into the surrounding atmosphere, poisoning the earth and driving off natural life. Beyond its role in spreading pestilence, the farm marks the tragic climax of the nearby tragedy of Darrowshire: it was here that Alliance defenders finally confronted and struck down Captain Joseph Redpath after he succumbed to dark corruption. The warrior's shattered shield was left lying amidst the cursed soil.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Gahrron's Withering called before the plague?",
+   "aliases": [
+    "original name",
+    "old name",
+    "gahrrons quickening"
+   ],
+   "answer": "Before the fall of Lordaeron, the farm was known as Gahrron's Quickening. It was an active homestead owned by Del Gahrron before the Scourge devastated the countryside."
+  },
+  {
+   "q": "Why is there a giant cauldron here?",
+   "aliases": [
+    "plague cauldron",
+    "what does the cauldron do",
+    "pot in field"
+   ],
+   "answer": "The cauldron is an engine of pestilence deployed by the Scourge to spread plague vapors across the region. Cauldron Lord Soulwrath protects the apparatus to ensure it continuously blights the soil and air."
+  },
+  {
+   "q": "Who was Joseph Redpath and why does he matter here?",
+   "aliases": [
+    "redpath shield",
+    "captain redpath",
+    "darrowshire connection"
+   ],
+   "answer": "Captain Joseph Redpath was the defender of nearby Darrowshire who was corrupted during the Scourge's slaughter of the town. Alliance forces finally cornered and slew his corrupted form at this farmstead, leaving his shield behind in the dirt."
+  },
+  {
+   "q": "Who controls Gahrron's Withering right now?",
+   "aliases": [
+    "who is here",
+    "mobs at gahrron",
+    "scourge in charge"
+   ],
+   "answer": "The farm is firmly held by the Scourge. It is haunted by spectral wraiths, wailing deaths, and haunting visions, all commanded by the powerful necromantic officer Cauldron Lord Soulwrath."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance veterans, the farm holds grim significance as the place where the fallen hero of Darrowshire, Joseph Redpath, had to be put down by his own countrymen."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The vile fumes pouring from Cauldron Lord Soulwrath's cauldron and the restless dead lingering on the ruined fields make this farm a priority target for holy cleansing."
+  }
+ ],
+ "keywords": [
+  "cauldron",
+  "darrowshire",
+  "del gahrron",
+  "gahrron",
+  "gahrron's withering",
+  "joseph redpath",
+  "quickening",
+  "soulwrath"
+ ],
+ "related": [
+  "subzone:cauldron",
+  "subzone:darrowshire",
+  "subzone:chillwind-camp",
+  "zone:westernplaguelands",
+  "topic:scourge",
+  "topic:argent-dawn",
+  "topic:alliance",
+  "topic:lich-king"
+ ],
+ "attribution": [
+  "Gahrron's Withering"
+ ]
+}

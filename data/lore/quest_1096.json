@@ -1,0 +1,129 @@
+{
+ "key": "quest:1096",
+ "type": "quest",
+ "name": "Gerenzo Wrenchwhistle",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1096
+  ],
+  "level": "27",
+  "faction": null,
+  "start": "Ziz Fizziks",
+  "end": "",
+  "previous": "Further Instructions",
+  "next": null,
+  "wiki": "Gerenzo Wrenchwhistle (quest)",
+  "chain": []
+ },
+ "summary": "This bounty tasks Horde adventurers with eliminating Gerenzo Wrenchwhistle, a rogue gnome overseer perched high above Cragpool Lake in the Stonetalon Mountains. Gerenzo has heavily augmented his decaying flesh with gears, clockwork machinery, and artificial limbs. The goblin engineer Ziz Fizziks seeks his mechanical arm as indisputable proof of his demise to earn a coveted promotion from his superiors.",
+ "sections": [
+  {
+   "title": "A Monstrous Hybrid",
+   "body": "Gerenzo Wrenchwhistle is infamous even among veteran tinkerers for his gruesome physical transformations. By the account of those who have seen him, his natural flesh appears to be rotting away, patched over by grafted gears, iron plating, and whirring clockwork prosthetics. Perched near the massive water wheel perched high above Cragpool Lake, the gnome watches over operations with mechanical precision and an unsettling disregard for his own mortal biology.",
+   "spoiler": 0
+  },
+  {
+   "title": "Goblin Ambitions",
+   "body": "Ziz Fizziks, a goblin operating on behalf of Sputtervalve, sees Gerenzo's downfall as his golden ticket out of Stonetalon's backwaters. Lacking the physical prowess to fight up the cliffs or defeat the augmented overseer himself, Ziz enlists an adventurer to take Gerenzo down and recover his mechanical arm. Armed with this trophy, Ziz hopes to demonstrate his worth and secure a transfer to the prestigious Tinkers' Union workshops in Gadgetzan or Undermine.",
+   "spoiler": 0
+  },
+  {
+   "title": "Clashing Philosophies",
+   "body": "The recovery of Gerenzo's mechanical arm highlights the profound ideological divide between goblin and gnome engineering traditions. While Gerenzo took the extreme gnomish step of amputating failing flesh to integrate complex prosthetics, goblins find the sacrifice baffling. As Ziz points out, true goblin ingenuity wouldn't discard a biological limb\u2014it would simply mount an explosive third arm alongside the other two.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gerenzo Wrenchwhistle?",
+   "aliases": [
+    "gerenzo",
+    "who is gerenzo",
+    "gerenzo lore"
+   ],
+   "answer": "Gerenzo Wrenchwhistle is a renegade gnome overseer in the Stonetalon Mountains. He is infamous for replacing portions of his decaying flesh and limbs with mechanical prosthetics and gears, maintaining watch over industrial operations high above Cragpool Lake."
+  },
+  {
+   "q": "Where can Gerenzo Wrenchwhistle be found?",
+   "aliases": [
+    "gerenzo location",
+    "find gerenzo",
+    "where is gerenzo"
+   ],
+   "answer": "Gerenzo is located northeast of Ziz Fizziks' position, elevated high above the waters of Cragpool Lake near a large industrial water wheel."
+  },
+  {
+   "q": "Why does Ziz Fizziks want Gerenzo dead?",
+   "aliases": [
+    "why kill gerenzo",
+    "ziz motive",
+    "ziz fizziks goal"
+   ],
+   "answer": "Ziz Fizziks is acting under orders from Sputtervalve. Eliminating Gerenzo proves Ziz's competence, which he hopes will earn him a transfer to a major Tinkers' Union workshop in Gadgetzan or Undermine."
+  },
+  {
+   "q": "What proof does Ziz require?",
+   "aliases": [
+    "what proof",
+    "gerenzo proof",
+    "quest objective item"
+   ],
+   "answer": "Ziz requires Gerenzo's grafted mechanical arm as tangible, undeniable proof that the cyborg overseer has been permanently decommissioned."
+  },
+  {
+   "q": "Why is Gerenzo partly mechanical?",
+   "aliases": [
+    "why is gerenzo a cyborg",
+    "gerenzo robot",
+    "gerenzo body"
+   ],
+   "answer": "Gerenzo's organic flesh appeared to be rotting away, prompting him to graft gears, iron plates, and mechanical limbs directly onto his body to sustain and augment himself."
+  },
+  {
+   "q": "Who is Sputtervalve?",
+   "aliases": [
+    "sputtervalve",
+    "who is sputtervalve"
+   ],
+   "answer": "Sputtervalve is a prominent goblin supervisor who oversees operations and directs underlings like Ziz Fizziks from elsewhere in Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The gruesome construction of Gerenzo's mechanical arm serves as an unsettling extreme of gnomish bionic engineering, contrasting sharply with goblin practical design."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gerenzo represents an eccentric and macabre departure from standard gnomish ingenuity, adopting radical self-augmentation to preserve his failing body."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Assisting goblin contractors in Stonetalon helps secure valuable resources and territory while disrupting dangerous rogue engineers in the crags."
+  }
+ ],
+ "keywords": [
+  "cragpool lake",
+  "cyborg",
+  "gerenzo",
+  "mechanical arm",
+  "sputtervalve",
+  "stonetalon",
+  "wrenchwhistle",
+  "ziz fizziks"
+ ],
+ "related": [
+  "npc:sputtervalve",
+  "quest:1483",
+  "quest:1094",
+  "subzone:cragpool-lake",
+  "zone:stonetalon",
+  "topic:gnome",
+  "subzone:gadgetzan"
+ ],
+ "attribution": [
+  "Gerenzo Wrenchwhistle (quest)"
+ ]
+}

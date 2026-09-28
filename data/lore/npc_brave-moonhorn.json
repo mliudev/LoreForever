@@ -1,0 +1,94 @@
+{
+ "key": "npc:brave-moonhorn",
+ "type": "npc",
+ "name": "Brave Moonhorn",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Brave Moonhorn",
+  "refs": 1
+ },
+ "summary": "Brave Moonhorn is a tauren scout stationed at the top of the Great Lift on the southern border of the Barrens. From this precipice, he keeps watch over the entry to Thousand Needles and alerts travelers to the local dangers ahead.",
+ "sections": [
+  {
+   "title": "Sentinel of the Lift",
+   "body": "Perched above the sheer drops of Thousand Needles, Brave Moonhorn stands guard where the northern plains meet the canyonlands. His primary role is keeping watchful eyes on regional threats moving through the canyon floor below, particularly the hostile centaur clans. Anyone looking to descend into the needles often crosses paths with him first, receiving crucial warnings before they step onto the massive platforms of the Great Lift.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uneasy Shadows",
+   "body": "Beyond the constant threat of roving centaur, Moonhorn harbors deep misgivings about his fellow tauren from the Grimtotem tribe. He cautions traveling Horde allies to keep their distance from them, noting their increasingly erratic and suspicious behavior around Thousand Needles. To ensure the defense of the region, he dispatches couriers to Freewind Post to deliver warnings to Cliffwatcher Longhorn.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Brave Moonhorn?",
+   "aliases": [
+    "brave moonhorn role",
+    "who is moonhorn",
+    "lift tauren guard"
+   ],
+   "answer": "Brave Moonhorn is a tauren warrior and scout tasked with watching the approach to the Great Lift connecting the Barrens to Thousand Needles. He monitors enemy activity and warns passing travelers of nearby hazards."
+  },
+  {
+   "q": "Why does Moonhorn warn against the Grimtotem?",
+   "aliases": [
+    "grimtotem warning",
+    "why avoid grimtotem",
+    "moonhorn grimtotem"
+   ],
+   "answer": "Moonhorn has noticed the Grimtotem clan acting strange and unpredictable in the surrounding canyon. While nominally part of the tauren community, their aggressive insularity makes them untrustworthy to guards keeping order along the trail."
+  },
+  {
+   "q": "What message does he want delivered to Freewind Post?",
+   "aliases": [
+    "freewind post message",
+    "what is moonhorn's message",
+    "message to freewind post lore"
+   ],
+   "answer": "He carries urgent warnings regarding escalating centaur activity in Thousand Needles and asks dependable Horde runners to relay this intelligence to Cliffwatcher Longhorn at Freewind Post."
+  },
+  {
+   "q": "Where is Brave Moonhorn located?",
+   "aliases": [
+    "where is moonhorn",
+    "brave moonhorn location",
+    "great lift guard"
+   ],
+   "answer": "He stands near the edge of the plateau at the top of the Great Lift, right along the boundary separating the Southern Barrens from Thousand Needles."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Moonhorn serves as an early sentry for the Horde, directing new arrivals in the canyon toward safety and the fortified heights of Freewind Post."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Moonhorn's deep wariness of the Grimtotem reflects the simmering friction and distrust between traditional tribes loyal to Cairne Bloodhoof and the secretive Grimtotem clan."
+  }
+ ],
+ "keywords": [
+  "brave moonhorn",
+  "centaur",
+  "cliffwatcher longhorn",
+  "freewind post",
+  "great lift",
+  "grimtotem",
+  "thousand needles"
+ ],
+ "related": [
+  "quest:4542",
+  "subzone:great-lift",
+  "subzone:freewind-post",
+  "npc:cliffwatcher-longhorn",
+  "zone:thousandneedles",
+  "topic:grimtotem-tribe",
+  "topic:centaur",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Brave Moonhorn"
+ ]
+}

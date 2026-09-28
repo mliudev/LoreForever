@@ -1,0 +1,93 @@
+{
+ "key": "subzone:deathknell",
+ "type": "subzone",
+ "name": "Deathknell",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Deathknell"
+ },
+ "summary": "Deathknell is a fortified village nestled in a secluded valley in southwestern Tirisfal Glades. It serves as the primary awakening grounds for newly freed undead breaking free from the Lich King's grasp to join the Forsaken. Besieged by mindless Scourge remnants, local zealots, and aggressive wildlife, the settlement is a harsh proving ground for those claiming a place in Sylvanas Windrunner's kingdom.",
+ "sections": [
+  {
+   "title": "Cradle of the Forsaken",
+   "body": "Tucked away behind jagged hills just north of the Silverpine border, Deathknell is where newly awakened undead first open their eyes to their bleak reality. Unlike most settlements in Tirisfal Glades that preserved their human names from the fallen Kingdom of Lordaeron, Deathknell was explicitly renamed by the undead who claimed it. The town itself is cleaved in two: the Forsaken cling stubbornly to the southern grounds around the old church, while the northern half\u2014including the village forge\u2014remains overrun by mindless Scourge zombies and feral ghouls. Elite Deathguards keep the narrow gorge out of the valley securely sealed against intruders, allowing local caretakers to induct new arrivals into the Banshee Queen's service.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Valley Under Siege",
+   "body": "Survival in Deathknell is precarious. To the northwest, Night Web's Hollow\u2014a gold mine vital for the Forsaken's fledgling economy\u2014has been lost to monstrous spiders. To the southeast, an aggressive encampment of the Scarlet Crusade maintains constant watch, trading couriers with their strongholds to the east and probing the valley's defenses. Meanwhile, the village caretakers must continually fight off the mindless undead wandering the northern ruins while gathering scrap metal, tools, and supplies to equip newly arisen souls for the long road ahead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why was the town renamed Deathknell?",
+   "aliases": [
+    "deathknell name origin",
+    "why is it called deathknell",
+    "old name of deathknell"
+   ],
+   "answer": "While most settlements throughout Tirisfal Glades retained their human Lordaeron names, Deathknell is a notable exception. The Forsaken chose the moniker intentionally upon taking root in the valley, marking the site as both the death of their old human existence and the grim bell sounding their rebirth into undeath."
+  },
+  {
+   "q": "Why is the northern half of the town overrun by undead?",
+   "aliases": [
+    "why are zombies in deathknell",
+    "scourge in deathknell",
+    "mindless ones deathknell"
+   ],
+   "answer": "Not every corpse raised in the wake of the Third War broke free with their minds intact. The northern village square and forge are infested by the 'Mindless Ones'\u2014feral zombies, ghouls, and skeletons still driven by the residual, lingering will of the Scourge. Forsaken defenders regularly clear them out to salvage equipment and defend the church."
+  },
+  {
+   "q": "What is the Scarlet Crusade doing near Deathknell?",
+   "aliases": [
+    "scarlet camp deathknell",
+    "crusaders outside deathknell",
+    "scarlet crusade tirisfal valley"
+   ],
+   "answer": "A detachment of the Scarlet Crusade maintains an encampment in the hills southeast of the village. Fanatically dedicated to destroying all undead indiscriminately, they monitor the pass, ambush newly awakened Forsaken, and exchange scouting intelligence with Scarlet strongholds elsewhere in Lordaeron."
+  },
+  {
+   "q": "Why can't the Forsaken use the local gold mine?",
+   "aliases": [
+    "deathknell mine",
+    "night webs hollow",
+    "spider mine tirisfal"
+   ],
+   "answer": "Night Web's Hollow, the gold mine situated in the cliffs northwest of the village, is completely overrun by aggressive spiders. Securing natural resources like gold is critical for the Forsaken war effort, but until the infestation is cleared, the settlement cannot exploit the vein."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Every Forsaken adventurer begins here, rising from the cold earth of the Shadow Grave to find purpose and shelter under Lady Sylvanas after the horror of the Plague."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Though isolated and dark, this valley is the gateway to the Forsaken kingdom, supplying fresh soldiers to bolster the Horde's foothold in the Eastern Kingdoms."
+  }
+ ],
+ "keywords": [
+  "deathknell",
+  "forsaken starting area",
+  "mindless ones",
+  "night web's hollow",
+  "shadow grave",
+  "sylvanas",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:shadow-grave",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "topic:scourge",
+  "subzone:night-web-s-hollow",
+  "topic:scarlet-crusade",
+  "zone:silverpine",
+  "subzone:deathknell-graves"
+ ],
+ "attribution": [
+  "Deathknell"
+ ]
+}

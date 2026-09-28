@@ -1,0 +1,118 @@
+{
+ "key": "quest:2999",
+ "type": "quest",
+ "name": "Tome of Divinity",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   2999
+  ],
+  "level": "12",
+  "faction": "Alliance",
+  "start": "Brandur Ironhammer",
+  "end": "Tiza Battleforge",
+  "previous": null,
+  "next": "The Tome of Divinity (dwarf 1)",
+  "wiki": "Tome of Divinity (Brandur Ironhammer)",
+  "chain": []
+ },
+ "summary": "Tome of Divinity is a rite of passage quest offered to young dwarven paladins serving in Dun Morogh. Directed by Brandur Ironhammer, an initiate is sent up to the Hall of Mystics in Ironforge to speak with the respected paladin trainer Tiza Battleforge. It marks the transition from basic martial training into the deeper spiritual duties and sacred vows of the Holy Light.",
+ "sections": [
+  {
+   "title": "The Call to the High Seat",
+   "body": "While novice paladins spend their early days defending Anvilmar and Kharanos from troggs and frost trolls, their duties eventually call for deeper devotion. Brandur Ironhammer, recognizing that an initiate has proven their martial discipline, advises them to leave the snowy passes and seek guidance within the mountain city of Ironforge. There, among the quiet alcoves of the Hall of Mystics, senior paladins oversee the spiritual maturation of the order.",
+   "spoiler": 0
+  },
+  {
+   "title": "Guidance from Tiza Battleforge",
+   "body": "Tiza Battleforge stands as one of the most revered paladins among the Ironforge dwarves. It is her responsibility to instruct initiates on the true burdens of the Light, moving past simple swordplay and hammer swings to teach compassion, justice, and self-sacrifice. Seeking her out begins the formal study of the Tome of Divinity, a sacred process aimed at granting a paladin the ability to resurrect the fallen.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "what does this quest do",
+    "tome of divinity start",
+    "why do this quest"
+   ],
+   "answer": "This quest directs young dwarven paladins from their field instructor, Brandur Ironhammer, to senior trainer Tiza Battleforge in Ironforge. It serves as the opening step for the trials required to study the Tome of Divinity and earn the power of spiritual resurrection."
+  },
+  {
+   "q": "Who is Brandur Ironhammer?",
+   "aliases": [
+    "who gives this quest",
+    "brandur role",
+    "brandur ironhammer lore"
+   ],
+   "answer": "Brandur Ironhammer is a dwarven paladin stationed in Dun Morogh. He oversees early paladin training near the entrance of Ironforge, sending promising initiates up to the city when they are ready for greater sacred responsibilities."
+  },
+  {
+   "q": "Who is Tiza Battleforge?",
+   "aliases": [
+    "where is tiza",
+    "tiza battleforge role",
+    "who is tiza"
+   ],
+   "answer": "Tiza Battleforge is a respected veteran paladin located in the Hall of Mystics in Ironforge. She mentors younger paladins on what the Holy Light truly demands of them beyond martial prowess."
+  },
+  {
+   "q": "Where does this quest lead next?",
+   "aliases": [
+    "next quest",
+    "what comes after",
+    "tome of divinity chain"
+   ],
+   "answer": "Speaking with Tiza Battleforge initiates the specific trials of the Tome of Divinity. These tasks test a paladin's devotion, mercy, and willingness to protect and restore life in service to the Light."
+  },
+  {
+   "q": "Why must dwarven paladins seek out the Tome of Divinity?",
+   "aliases": [
+    "why tome of divinity",
+    "paladin res quest lore",
+    "redemption dwarf"
+   ],
+   "answer": "To wield the miracle of returning a fallen ally to life, a paladin must understand true selflessness and spiritual duty. The Tome of Divinity guides initiates through formal lessons and tests of faith necessary to channel such potent holy power."
+  },
+  {
+   "q": "Do humans receive this same instruction in Ironforge?",
+   "aliases": [
+    "can humans do this",
+    "is this dwarf only",
+    "human tome of divinity"
+   ],
+   "answer": "Human paladins undertake a parallel journey through the Cathedral of Light in Stormwind rather than Ironforge. This specific summons from Brandur Ironhammer to Tiza Battleforge is tailored to dwarves learning within Dun Morogh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "This quest marks the moment an initiate transitions from rough martial drills to the profound spiritual burdens of the Holy Light, setting up the trials to earn the power of Redemption."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven paladins integrate the devotion of the Holy Light with Khaz Modan's deep traditions of duty and brotherhood, answering the call within the mountain halls of Ironforge."
+  }
+ ],
+ "keywords": [
+  "brandur ironhammer",
+  "hall of mystics",
+  "ironforge",
+  "paladin",
+  "redemption",
+  "tiza battleforge",
+  "tome of divinity"
+ ],
+ "related": [
+  "npc:brandur-ironhammer",
+  "npc:tiza-battleforge",
+  "zone:ironforge",
+  "zone:dunmorogh",
+  "topic:light"
+ ],
+ "attribution": [
+  "Tome of Divinity (Brandur Ironhammer)"
+ ]
+}

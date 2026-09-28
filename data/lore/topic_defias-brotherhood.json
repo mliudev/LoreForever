@@ -1,0 +1,142 @@
+{
+ "key": "topic:defias-brotherhood",
+ "type": "topic",
+ "name": "Defias Brotherhood",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Defias Brotherhood"
+ },
+ "summary": "The Defias Brotherhood is a widespread criminal network of bandits, brigands, and assassins waging an underground insurgency against the Kingdom of Stormwind. Originally formed by the artisans of the Stonemasons Guild who were cheated of their pay for rebuilding the capital, they have devolved into violent outlaws terrorizing the southern farmlands. From their hidden redoubt deep beneath Westfall, they aim to overthrow the corrupt House of Nobles and lay waste to the kingdom.",
+ "sections": [
+  {
+   "title": "From Masons to Marauders",
+   "body": "Following the Second War, the Stonemasons Guild was hired to rebuild Stormwind from smoldering ruins into a grand stone capital. When their masterwork was finished, the House of Nobles refused to deliver the promised payment, citing crushing wartime debt. Guildmaster Edwin VanCleef spoke out on behalf of his workers, demanding fair restitution, but the nobles responded by ordering the Stonemasons Guild disbanded. The ensuing riots in the city streets turned tragic when a stray rock struck and killed Queen Tiffin Wrynn. Overcome with grief and rage, King Varian Wrynn drove the laborers out of Stormwind into exile. Stripped of their livelihood and outlawed, VanCleef and the desperate workers banded together, binding their faces in red silk to represent the blood of the wronged, and turned to highway robbery to claim what they believed they were owed.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shadow Over Westfall",
+   "body": "With the royal army overextended, VanCleef turned the neglected farmlands of Westfall into the Brotherhood's base of operations. The bandits overran the hamlet of Moonbrook and commandeered the abandoned subterranean tunnels of the Deadmines. Defias agents seized local mines, driven farmers from their homesteads with reprogrammed harvest golems, and salted the earth to starve the region. With the Crown unable or unwilling to send soldiers to protect rural citizens, local farmers formed The People's Militia out of Sentinel Hill to fight a desperate war of attrition against an enemy that now outmans and outguns them.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Web of Conspiracies",
+   "body": "The Brotherhood has long outgrown a simple band of displaced laborers. VanCleef recruited mercenary goblins to oversee armaments, struck alliances with Riverpaw gnolls and Elwynn kobolds, and traded with cutthroat pirates like the Bloodsail Buccaneers. Defias highwaymen raid gold shipments across Elwynn Forest, and their agents even established a foothold in Duskwood before unearthing a cursed artifact in Roland's Doom. Far worse, the Brotherhood's influence reaches into the very heart of the capital, enjoying covert support from treacherous aristocrats within the House of Nobles while orchestrating kidnappings that strike at the highest offices of the Alliance.",
+   "spoiler": 1
+  },
+  {
+   "title": "The Juggernaught in the Deadmines",
+   "body": "Beneath Moonbrook lies the Ironclad Cove, where VanCleef's goblin engineers are secretly assembling an enormous iron-plated warship known as the Defias Juggernaught. The guildmaster intends to sail this floating fortress out through the subterranean coastal waterways and bombard Stormwind City from the sea, reducing his own grand architecture to rubble. The conspiracy extends into the royal court itself: corrupt nobles like Lord Gregor Lescovar serve as eyes and ears for the uprising, while the court machinations of Lady Katrana Prestor deliberately keep the kingdom fractured and blind to the rising fleet beneath Westfall.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do the Defias wear red bandanas?",
+   "aliases": [
+    "defias mask meaning",
+    "why red silk",
+    "red bandanas meaning"
+   ],
+   "answer": "The red silk bandana was adopted by Edwin VanCleef and the exiled stonemasons as a symbol of defiance. It represents the blood shed by the oppressed working class who rebuilt Stormwind and were met with broken promises, violence, and exile by the nobility."
+  },
+  {
+   "q": "Why is the Brotherhood attacking innocent farmers instead of nobles?",
+   "aliases": [
+    "why defias attack farmers",
+    "why hurt westfall",
+    "defias motive"
+   ],
+   "answer": "While the Brotherhood was founded on genuine grievances against the nobility, years of lawless exile transformed it into a brutal criminal empire. Desperation, greed, and the recruitment of ruthless cutthroats and goblins turned them toward pillaging local homesteads, burning crops, and seizing mines to fund their war machine."
+  },
+  {
+   "q": "Who is Edwin VanCleef?",
+   "aliases": [
+    "who is vancleef",
+    "edwin vancleef lore",
+    "defias leader"
+   ],
+   "answer": "Edwin VanCleef was the brilliant guildmaster of the Stonemasons Guild who oversaw the reconstruction of Stormwind City after the Second War. Trained in stealth and subterfuge, he founded the Defias Brotherhood after the House of Nobles refused to pay the workers. He now orchestrates their operations from deep within the Deadmines."
+  },
+  {
+   "q": "Why doesn't Stormwind send the army to deal with the Defias?",
+   "aliases": [
+    "where is the stormwind army",
+    "why no guards in westfall",
+    "why people's militia"
+   ],
+   "answer": "The kingdom's finances are heavily drained, and the Stormwind Army is stretched thin garrisoning outposts in distant territories like Stranglethorn. Political sabotage within the House of Nobles\u2014stoked by Lady Katrana Prestor\u2014further paralyzes the throne, leaving rural Westfall and Duskwood to defend themselves with volunteer militias."
+  },
+  {
+   "q": "What is the People's Militia?",
+   "aliases": [
+    "peoples militia westfall",
+    "gryan stoutmantle militia",
+    "sentinel hill army"
+   ],
+   "answer": "The People's Militia is a volunteer defense force organized by Gryan Stoutmantle and the beleaguered farmers of Sentinel Hill. Because Stormwind has provided almost no soldiers to clear the Defias out of Westfall, local citizens took up arms to defend their own land."
+  },
+  {
+   "q": "What are the Defias building inside the Deadmines?",
+   "aliases": [
+    "deadmines ship",
+    "what are they building deadmines",
+    "defias juggernaught"
+   ],
+   "answer": "Hidden within the subterranean cavern known as the Ironclad Cove, goblin engineers and rogue artisans are constructing the Defias Juggernaught, a massive iron-plated war galley. VanCleef intends to sail the warship into Stormwind Harbor and obliterate the capital."
+  },
+  {
+   "q": "Did the Defias have something to do with the King's disappearance?",
+   "aliases": [
+    "did defias kidnap varian",
+    "missing king defias",
+    "missing diplomat defias"
+   ],
+   "answer": "Yes. Agents of the Defias Brotherhood conspired with royal traitors to ambush and abduct King Varian Wrynn while he was traveling to a peace summit in Theramore, leaving the child prince Anduin on the throne under regent rule."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of the kingdom, the Defias are a bitter reminder of Stormwind's internal rot\u2014a tragedy where honest city builders were turned into cutthroats due to aristocratic greed."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The Knights of the Silver Hand and church leaders like Duthorian Rall call upon paladins to defend defenseless homesteaders like Daphne Stilwell from ruthless Defias brigands in Westfall."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Master Mathias Shaw and SI:7 keep close watch on the Defias, as VanCleef's operatives match royal scouts in lockpicking, stealth, and lethal subterranean ambushes."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The uprising threatens the stability of the entire kingdom, choking grain supplies from Westfall, destabilizing gold mines, and shaking public faith in Stormwind's leadership."
+  }
+ ],
+ "keywords": [
+  "bandanas",
+  "brotherhood",
+  "deadmines",
+  "defias",
+  "elwynn",
+  "juggernaught",
+  "lescovar",
+  "moonbrook",
+  "stonemasons",
+  "vancleef",
+  "westfall"
+ ],
+ "related": [
+  "npc:edwin-vancleef",
+  "zone:westfall",
+  "zone:deadmines",
+  "topic:stonemasons-guild",
+  "npc:gryan-stoutmantle",
+  "topic:house-of-nobles",
+  "subzone:moonbrook",
+  "quest:65"
+ ],
+ "attribution": [
+  "Defias Brotherhood"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "subzone:mage-quarter",
+ "type": "subzone",
+ "name": "Mage Quarter",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Mage Quarter"
+ },
+ "summary": "The Mage Quarter forms the arcane heart of Stormwind City, resting across the canals in the capital's southwestern corner. Towering over its cobblestone streets and esoteric specialty shops stands the Wizard's Sanctum, where the kingdom's conjurers hone their craft. Beneath the district's scholarly surface also lie shadowy recesses, harboring practitioners of far darker arts.",
+ "sections": [
+  {
+   "title": "Sanctum of the Arcane",
+   "body": "Reachable by bridges crossing the canals from Cathedral Square or the Trade District, the Mage Quarter caters entirely to the mystical needs of the Alliance. Centered around the spire of the Wizard's Sanctum, human and allied spellcasters gather to study the weave of arcane magic, train apprentices, and maintain portals that link Stormwind to distant lands like the Blasted Lands. The surrounding streets are crowded with purveyors of tailoring cloth, reagents, alchemical supplies, and enchanted staves, creating an insular district dedicated to research and the defense of the kingdom.",
+   "spoiler": 0
+  },
+  {
+   "title": "Secrets Beneath the Surface",
+   "body": "Not all sorcery practiced in the quarter is approved by the kingdom's high conjurers. While establishments like The Blue Recluse offer quiet refuge for scholars, the infamous Slaughtered Lamb tavern conceals a covert coven of warlocks in its subterranean crypts. There, out of sight of the city guard and the holy eyes of Cathedral Square, demonologists study forbidden fel rites and bind otherworldly entities while masquerading beneath the district's general tolerance of mystic anomalies.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Wizard's Sanctum?",
+   "aliases": [
+    "mage tower",
+    "wizards sanctum",
+    "mage sanctum stormwind"
+   ],
+   "answer": "The Wizard's Sanctum is the prominent tower dominating the Mage Quarter. It serves as the primary academy, library, and training grounds for Stormwind's mages, housing scholars, mystic trainers, and defensive spellcasters tasked with protecting the capital."
+  },
+  {
+   "q": "Where can warlocks train in the Mage Quarter?",
+   "aliases": [
+    "warlock trainer location",
+    "slaughtered lamb basement",
+    "stormwind warlock trainers"
+   ],
+   "answer": "Warlocks gather secretly beneath The Slaughtered Lamb, an unassuming tavern in the quarter. Down in its crypts and hidden cellars, practitioners of fel magic can study dark rituals, summon demons, and train outside the scrutiny of the city guard."
+  },
+  {
+   "q": "What kind of shops are in the Mage Quarter?",
+   "aliases": [
+    "mage quarter vendors",
+    "what shops are here",
+    "stores in mage quarter"
+   ],
+   "answer": "The district is filled with specialty trades catering to casters and crafters. Visitors can find tailoring shops like Duncan's Textiles and Larson Clothiers, alchemy and herbalism merchants, enchanting vendors, pyrotechnic suppliers, and staff merchants."
+  },
+  {
+   "q": "How do you reach the Mage Quarter?",
+   "aliases": [
+    "where is mage quarter",
+    "how to get to mage quarter",
+    "directions to mage quarter"
+   ],
+   "answer": "The Mage Quarter occupies the southwestern corner of Stormwind City. It can be accessed directly by crossing the bridges that span the Canals from either the Trade District or Cathedral Square."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The district serves as your central home in Stormwind, offering master trainers, spell reagents, and portal connections inside the Wizard's Sanctum."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Beneath the public guise of The Slaughtered Lamb tavern lies the hidden coven where practitioners of the dark arts convene to train and summon minions in secret."
+  }
+ ],
+ "keywords": [
+  "arcane",
+  "blue recluse",
+  "canals",
+  "mage quarter",
+  "slaughtered lamb",
+  "stormwind",
+  "wizard's sanctum"
+ ],
+ "related": [
+  "zone:stormwind",
+  "subzone:slaughtered-lamb",
+  "subzone:canals-stormwind-city",
+  "subzone:trade-district",
+  "subzone:cathedral-square",
+  "zone:blastedlands",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Mage Quarter"
+ ]
+}

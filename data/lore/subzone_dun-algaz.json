@@ -1,0 +1,91 @@
+{
+ "key": "subzone:dun-algaz",
+ "type": "subzone",
+ "name": "Dun Algaz",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Dun Algaz"
+ },
+ "summary": "Dun Algaz is the fortified mountain pass and network of tunnels connecting Loch Modan to the Wetlands. Historically contested during the Second War, this vital trade artery has recently fallen under siege by Dragonmaw orcs, cutting off easy transit between Ironforge's territories and Menethil Harbor.",
+ "sections": [
+  {
+   "title": "A Chokepoint Between Realms",
+   "body": "Dun Algaz predates the War of the Three Hammers, originally serving as the passage the Wildhammer clan used to migrate north after being driven out of Ironforge. Carved deep into the jagged peaks separating Loch Modan and the Wetlands, the pass consists of sweeping stone tunnels, bastions, and watchposts. Its strategic value cannot be overstated: whoever holds Dun Algaz commands the only overland highway linking the dwarven heartlands to the western sea at Menethil Harbor.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Dragonmaw Resurgence",
+   "body": "During the Second War, the Old Horde retreated to Dun Algaz after their defeat at Dun Modr, turning it into their final southern bulwark against Sir Anduin Lothar's forces. Years later, Nekros Skullcrusher sheltered the Dragonmaw clan in the surrounding caves. Though the Alliance reclaimed the pass for a time, Dragonmaw orcs have once again overrun the stronghold, forcing the dwarven Mountaineers to retreat to the upper tunnels and turning the mountain corridor into a deadly gauntlet for travelers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Dun Algaz so dangerous right now?",
+   "aliases": [
+    "why are there orcs in dun algaz",
+    "dun algaz orcs",
+    "who controls dun algaz"
+   ],
+   "answer": "Dragonmaw orcs have descended from the surrounding mountains and seized control of the lower pass and stronghold. Dwarven Mountaineers have been pushed back to the upper pass near Algaz Station, leaving the main road swarming with hostile orcs who ambush travelers attempting to pass between Loch Modan and the Wetlands."
+  },
+  {
+   "q": "Why is this pass so important to the dwarves?",
+   "aliases": [
+    "dun algaz importance",
+    "why does ironforge need dun algaz"
+   ],
+   "answer": "Dun Algaz is the primary overland route connecting Ironforge and Loch Modan to Menethil Harbor in the Wetlands. Menethil Harbor serves as the main shipping gateway between Khaz Modan and the rest of the Alliance territories, making Dun Algaz an essential corridor for supplies, troops, and trade."
+  },
+  {
+   "q": "Did Dun Algaz play a role in the Second War?",
+   "aliases": [
+    "dun algaz second war",
+    "anduin lothar dun algaz"
+   ],
+   "answer": "Yes. Following their loss at Dun Modr, the Orcish Horde fell back across the Thandol Valley to make Dun Algaz a defensive stronghold. Sir Anduin Lothar ordered an assault to dislodge them and drive them from Khaz Modan, but the Alliance was unable to fully root out the Horde, leaving it as one of their final strongholds in the region."
+  },
+  {
+   "q": "What is the history between Dun Algaz and the Wildhammer dwarves?",
+   "aliases": [
+    "wildhammer dun algaz",
+    "war of the three hammers pass"
+   ],
+   "answer": "Long before the Second War, during the ancient War of the Three Hammers, the Wildhammer dwarves were driven out of Ironforge. They traveled through Dun Algaz to migrate north into the Wetlands and eventually settle in Grim Batol."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, Dun Algaz is an ancestral highway cut through the spine of Khaz Modan. Seeing Dragonmaw orcs occupy dwarven bastions and threaten supply lines to Menethil Harbor is an ongoing insult and security crisis."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The route through Dun Algaz is critical for Alliance logistics, securing the overland road that joins the port of Menethil Harbor with Loch Modan and Ironforge."
+  }
+ ],
+ "keywords": [
+  "algaz gate",
+  "algaz station",
+  "dragonmaw",
+  "dun algaz",
+  "loch modan",
+  "menethil harbor",
+  "mountain pass",
+  "wetlands"
+ ],
+ "related": [
+  "zone:wetlands",
+  "zone:lochmodan",
+  "subzone:algaz-station",
+  "topic:dragonmaw-clan",
+  "quest:455",
+  "topic:second-war",
+  "subzone:menethil-harbor",
+  "subzone:dun-modr"
+ ],
+ "attribution": [
+  "Dun Algaz"
+ ]
+}

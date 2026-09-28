@@ -1,0 +1,118 @@
+{
+ "key": "quest:6063",
+ "type": "quest",
+ "name": "Taming the Beast",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   6063
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Dazalar",
+  "end": "",
+  "previous": "The Hunter's Path (night elf) (optional)",
+  "next": "Taming the Beast (night elf 2)",
+  "wiki": "Taming the Beast (night elf)",
+  "chain": []
+ },
+ "summary": "This quest is the first trial in a night elf hunter's journey to mastering beast companionship. Instructed by Dazalar in Dolanaar, an aspiring hunter must use an enchanted taming rod to bond with a wild Webwood Lurker. It tests the hunter's ability to respect and commune with nature rather than attempting to violently dominate it.",
+ "sections": [
+  {
+   "title": "A Sacred Bond",
+   "body": "For the kaldorei, hunting is not merely about tracking quarry or surviving in the wilds; it is a sacred relationship with nature. Hunter trainers like Dazalar teach that nature is far greater than any individual mortal. Animals are not beasts of burden or tools to be forcibly bent to one's will, but autonomous creatures that require mutual respect. To prove readiness for a lifelong beast companion, novice hunters must demonstrate mastery over the primal instincts of local wildlife through ancient techniques rather than brute force.",
+   "spoiler": 0
+  },
+  {
+   "title": "The First Trial",
+   "body": "The trials begin with the giant arachnids infesting the boughs of Teldrassil. Dazalar entrusts the hunter with a specialized taming rod, directing them to seek out a Webwood Lurker. Venturing into the shadowed thickets, the hunter must face the venomous spider and establish an empathetic channel while withstanding its attacks. Successfully establishing this temporary mental bridge proves the hunter can commune even with the eerie, skittering predators of the World Tree.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do this quest",
+    "pet quest purpose",
+    "what does taming the beast give"
+   ],
+   "answer": "This quest initiates the training sequence required for night elf hunters to permanently tame animal companions. By using a taming rod on designated local beasts, hunters prove they possess the temper and skill to commune with wild predators."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "where to get taming quest",
+    "who starts taming the beast"
+   ],
+   "answer": "Dazalar, the hunter trainer residing in the settlement of Dolanaar on Teldrassil, offers this quest to young night elf hunters who have reached sufficient experience in their field."
+  },
+  {
+   "q": "What creature must be tamed in this trial?",
+   "aliases": [
+    "which pet to tame",
+    "webwood lurker target",
+    "what beast do i tame"
+   ],
+   "answer": "You are tasked with taming a Webwood Lurker, one of the venomous giant spiders that dwell in the wild thickets and woods outside Dolanaar."
+  },
+  {
+   "q": "Do I keep the Webwood Lurker permanently?",
+   "aliases": [
+    "do i keep the spider",
+    "is the webwood lurker permanent",
+    "keep pet"
+   ],
+   "answer": "No. The Webwood Lurker tamed during this quest is a temporary companion meant solely for practicing the basics of pet handling. Once returned to Dazalar, the bond is released as you prepare for the next trial."
+  },
+  {
+   "q": "Why do night elves test hunters with spiders first?",
+   "aliases": [
+    "why webwood lurker",
+    "why tame a spider",
+    "spider taming lore"
+   ],
+   "answer": "Webwood Lurkers are predatory and aggressive, making them a stern test of a novice's composure. Mastering an unnatural-seeming arachnid proves that a hunter can bridge their consciousness with diverse, hostile manifestations of nature."
+  },
+  {
+   "q": "What comes after returning to Dazalar?",
+   "aliases": [
+    "what next",
+    "after taming the beast",
+    "next trial"
+   ],
+   "answer": "Dazalar sends the hunter to test their bond against other native fauna of Teldrassil\u2014specifically a Nightsaber Stalker and a Strigid Screecher\u2014before granting permanent taming abilities."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This rite of passage marks a hunter's transition from solitary archer to a true partner of the wilderness, bound to the beasts of the forest."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Reflecting kaldorei philosophy, pet taming emphasizes communion and reverence for nature rather than subjugation and domination."
+  }
+ ],
+ "keywords": [
+  "dazalar",
+  "dolanaar",
+  "hunter pet",
+  "kaldorei",
+  "taming",
+  "taming rod",
+  "teldrassil",
+  "webwood lurker"
+ ],
+ "related": [
+  "npc:dazalar",
+  "subzone:dolanaar",
+  "zone:teldrassil",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Taming the Beast (night elf)"
+ ]
+}

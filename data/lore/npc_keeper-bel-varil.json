@@ -1,0 +1,77 @@
+{
+ "key": "npc:keeper-bel-varil",
+ "type": "npc",
+ "name": "Keeper Bel'varil",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Keeper Bel'varil",
+  "refs": 1
+ },
+ "summary": "Keeper Bel'varil is a Forsaken caretaker and researcher stationed at Tarren Mill in the Hillsbrad Foothills. Working closely alongside Wordeen Voidglare, he directs Horde adventurers to gather magical relics and binding materials from the surrounding lands to further their occult studies.",
+ "sections": [
+  {
+   "title": "Study in Tarren Mill",
+   "body": "Amid the besieged village of Tarren Mill, Keeper Bel'varil quietly supports the Forsaken's magical and alchemical research. While royal apothecaries and soldiers occupy themselves with the Alliance garrison down the road at Southshore, Bel'varil focuses on practical sorcery, dispatching travelers to recover stone tokens and binding bracers from nearby elemental and enchanted threats.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Keeper Bel'varil?",
+   "aliases": [
+    "keeper belvaril",
+    "who is belvaril",
+    "belvaril tarren mill"
+   ],
+   "answer": "Keeper Bel'varil is a Forsaken scholar stationed in Tarren Mill in the Hillsbrad Foothills. He aids fellow researcher Wordeen Voidglare in examining magical artifacts and reagents found across the contested territory."
+  },
+  {
+   "q": "Where can I find Keeper Bel'varil?",
+   "aliases": [
+    "belvaril location",
+    "where is keeper bel'varil",
+    "find keeper bel'varil"
+   ],
+   "answer": "He can be found standing in the Forsaken settlement of Tarren Mill, situated in northern Hillsbrad Foothills."
+  },
+  {
+   "q": "What tasks does Keeper Bel'varil offer?",
+   "aliases": [
+    "belvaril quests",
+    "keeper bel'varil tasks"
+   ],
+   "answer": "He enlists Horde adventurers to collect magical remnants such as stone tokens and bracers of binding, helping his circle understand and manipulate elemental forces."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For Horde champions fighting in the Hillsbrad Foothills, Bel'varil offers practical rewards in exchange for subduing elemental threats and recovering binding charms."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Bel'varil's work reflects the Forsaken pursuit of arcane mastery and resourcefulness, securing an edge in Lordaeron through careful study of regional relics."
+  }
+ ],
+ "keywords": [
+  "bel'varil",
+  "bracers of binding",
+  "hillsbrad foothills",
+  "keeper bel'varil",
+  "stone tokens",
+  "tarren mill",
+  "wordeen voidglare"
+ ],
+ "related": [
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "quest:556",
+  "topic:forsaken",
+  "topic:horde",
+  "subzone:southshore"
+ ],
+ "attribution": [
+  "Keeper Bel'varil"
+ ]
+}

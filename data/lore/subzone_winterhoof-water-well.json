@@ -1,0 +1,93 @@
+{
+ "key": "subzone:winterhoof-water-well",
+ "type": "subzone",
+ "name": "Winterhoof Water Well",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Winterhoof Water Well"
+ },
+ "summary": "The Winterhoof Water Well is a vital fresh water source situated on the edge of the Rolling Plains in southern Mulgore. Crucial to the local wildlife and nomadic tauren tribes, the well has recently fallen under threat from the exploitative Venture Company, who seek to poison and control the region's water supply.",
+ "sections": [
+  {
+   "title": "A Threatened Lifeline",
+   "body": "In the arid stretches of central Kalimdor, water is life, and Mulgore's subterranean wells sustain both the herds of the plains and the encampments of the tauren. The Winterhoof Water Well, named for one of the respected tribes of the plains, taps into the deep aquifers beneath the Rolling Plains. Unfortunately, its strategic importance has drawn the avarice of the Venture Company. Rather than sharing the land or negotiating, the ruthless goblin cartel has attempted to poison the water supply to exert leverage over the surrounding territory.",
+   "spoiler": 0
+  },
+  {
+   "title": "Purification and Defense",
+   "body": "To counter the industrial sabotage of the Venture Company, tauren elders and shamans have mobilized young braves across Mulgore. Mull Thunderhorn has crafted sacred totems designed to counter the industrial toxins and restore the spiritual and physical balance of the well. Cleansing the well is not merely an act of survival for the tauren, but a spiritual duty to ensure that the earth and its waters remain uncorrupted by foreign greed.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Winterhoof Water Well located?",
+   "aliases": [
+    "winterhoof well location",
+    "where is winterhoof well",
+    "find winterhoof water well"
+   ],
+   "answer": "The well is located in southern Mulgore, right on the fringes of the Rolling Plains south of Bloodhoof Village."
+  },
+  {
+   "q": "Who poisoned the Winterhoof Water Well?",
+   "aliases": [
+    "who poisoned winterhoof well",
+    "why is the well poisoned",
+    "who ruined the water"
+   ],
+   "answer": "The Venture Company poisoned the well. The unscrupulous goblin trading organization attempted to foul the water supply in a bid to control the local resources and weaken the native tauren."
+  },
+  {
+   "q": "How can the poisoned well be cleansed?",
+   "aliases": [
+    "cleanse winterhoof well",
+    "fix the well",
+    "winterhoof cleansing"
+   ],
+   "answer": "The well is cleansed through a ritual utilizing an enchanted totem crafted by Mull Thunderhorn, which uses primal magic to purge the Venture Company's foul toxins from the water."
+  },
+  {
+   "q": "Why are water wells so sacred to the tauren?",
+   "aliases": [
+    "why do tauren care about wells",
+    "tauren well lore"
+   ],
+   "answer": "Beyond providing necessary hydration for tribes and roaming herds, water sources in Mulgore are viewed as gifts from the Earth Mother. Corrupting them is considered both a direct physical threat and a severe spiritual affront."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Defending and purifying the ancestral water wells is one of the first trials young braves face to safeguard the land from outside exploitation."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Cleansing the well requires elemental harmony, serving as a practical demonstration of using totems to heal wounded water spirits."
+  }
+ ],
+ "keywords": [
+  "cleansing",
+  "mulgore",
+  "mull thunderhorn",
+  "rolling plains",
+  "totem",
+  "venture company",
+  "water well",
+  "winterhoof"
+ ],
+ "related": [
+  "npc:mull-thunderhorn",
+  "quest:748",
+  "quest:754",
+  "quest:756",
+  "subzone:rolling-plains",
+  "zone:mulgore",
+  "topic:venture-company",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Winterhoof Water Well"
+ ]
+}

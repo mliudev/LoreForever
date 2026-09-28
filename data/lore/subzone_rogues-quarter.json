@@ -1,0 +1,80 @@
+{
+ "key": "subzone:rogues-quarter",
+ "type": "subzone",
+ "name": "Rogues' Quarter",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Rogues' Quarter"
+ },
+ "summary": "The Rogues' Quarter is a dimly lit district in the southeastern wing of the Undercity. It serves as the staging ground for the Forsaken's scouts, assassins, and underworld operatives, along with the craftsmen who support them.",
+ "sections": [
+  {
+   "title": "Shadows of the Undercity",
+   "body": "Tucked away in the southeastern quadrant of the subterranean city, the Rogues' Quarter gathers the Forsaken's most cunning and lethal survivors. In life, many were thieves, cutpurses, or silent blades for the Kingdom of Lordaeron; in death, their expertise in stealth, poisons, and misdirection has been repurposed to protect the fledgling nation from the Scourge and the Scarlet Crusade. The district hums with quiet activity, offering a covert haven where operatives sharpen their daggers, brew deadly toxins, and hone clandestine skills.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tools of the Trade",
+   "body": "Beyond stealth and assassination, the Rogues' Quarter is home to the specialized trades that enable undercover survival. Artisans gather here to instruct travelers in leatherworking and skinning, turning raw hides into light, silent armor. The clatter of engineering benches echoes through the stone halls as tinkers assemble gadgets, while field medics and apothecaries provide instruction in first aid and vend lethal poisons essential for covert work.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Rogues' Quarter located?",
+   "aliases": [
+    "rogues quarter location",
+    "where is rogues quarter",
+    "undercity rogues quarter map"
+   ],
+   "answer": "The Rogues' Quarter is situated in the southeastern section of the Undercity's outer ring, past the Trade Quarter."
+  },
+  {
+   "q": "What trainers can be found here?",
+   "aliases": [
+    "rogues quarter trainers",
+    "undercity rogue trainer",
+    "who trains in rogues quarter"
+   ],
+   "answer": "The quarter houses trainers for rogues, as well as instructors for leatherworking, skinning, engineering, and first aid. Poison vendors are also stationed nearby to supply reagents."
+  },
+  {
+   "q": "Why do the Forsaken maintain a dedicated district for rogues?",
+   "aliases": [
+    "why do forsaken need rogues",
+    "forsaken assassins",
+    "undercity rogue lore"
+   ],
+   "answer": "Surrounded by hostile forces like the Scourge and the Scarlet Crusade, the Forsaken rely heavily on espionage, assassination, and hit-and-run tactics to defend their territory, making covert operatives vital to their survival."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "For Forsaken and Horde assassins, this quarter is the premier hub for mastering stealth, learning combat techniques, and stocking up on lethal poison reagents."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Tinkers visit the Rogues' Quarter to learn schematics and craft bombs, gadgets, and mechanical tools favored by undercover agents."
+  }
+ ],
+ "keywords": [
+  "engineering",
+  "forsaken",
+  "leatherworking",
+  "poison vendor",
+  "rogue trainer",
+  "rogues quarter",
+  "rogues' quarter",
+  "skinning",
+  "undercity"
+ ],
+ "related": [
+  "zone:undercity",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Rogues' Quarter"
+ ]
+}

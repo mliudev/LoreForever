@@ -1,0 +1,119 @@
+{
+ "key": "quest:1431",
+ "type": "quest",
+ "name": "Alliance Relations",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   1431
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Craven Drok",
+  "end": "Keldran",
+  "previous": null,
+  "next": "Alliance Relations (2)",
+  "wiki": "Alliance Relations",
+  "chain": []
+ },
+ "summary": "Alliance Relations is an introductory quest offered by Craven Drok in Orgrimmar. It directs seasoned Horde adventurers to seek out Keldran, a mystic operating quietly near the city's western exit. The task opens a conversation about the delicate, behind-the-scenes diplomacy and intelligence work required to maintain Thrall's fragile peace with the Alliance.",
+ "sections": [
+  {
+   "title": "A Diplomatic Dilemma",
+   "body": "While many orcs favor brute strength and straightforward conquest, Warchief Thrall understands that endless war with the Alliance would ruin his young nation. Having grown up in human captivity, Thrall learned the subtle nuances of human statecraft and military strategy. Craven Drok notices warriors and champions who might possess the patience for a more nuanced approach, directing them to look beyond raw force.",
+   "spoiler": 0
+  },
+  {
+   "title": "Keldran's Hovel",
+   "body": "Tucked away near the western gates of Orgrimmar sits the humble dwelling of Keldran, a practitioner of magic and covert arts. Unlike the boisterous warriors drinking in the Valley of Strength, Keldran deals in appearances, perception, and statecraft. He seeks operatives capable of exercising discretion on behalf of the Warchief, navigating the tense standoff between the Horde and its bitter rivals.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Alliance Relations?",
+   "aliases": [
+    "quest giver alliance relations",
+    "who starts alliance relations",
+    "where to get alliance relations"
+   ],
+   "answer": "Craven Drok offers this quest in Orgrimmar to Horde adventurers who have reached their thirtieth season of experience."
+  },
+  {
+   "q": "Where can I find Keldran?",
+   "aliases": [
+    "keldran location",
+    "where is keldran",
+    "keldran orgrimmar"
+   ],
+   "answer": "Keldran resides in a small hovel situated near the western exit of Orgrimmar, away from the bustling center of the city."
+  },
+  {
+   "q": "What is Keldran's role in Orgrimmar?",
+   "aliases": [
+    "who is keldran",
+    "keldran lore"
+   ],
+   "answer": "Keldran is a student of magic and mystical arts who assists Warchief Thrall with discreet matters, particularly those concerning diplomacy, intelligence, and the public perception of the Horde."
+  },
+  {
+   "q": "Why does Thrall care about diplomacy with the Alliance?",
+   "aliases": [
+    "thrall diplomacy",
+    "why horde peace with alliance",
+    "thrall and humans"
+   ],
+   "answer": "Thrall was raised among humans and understands their politics and military power intimately. Knowing that outright war could destroy his fledgling people, he chooses prudence and measured statecraft to protect the Horde's future."
+  },
+  {
+   "q": "Does this quest lead to further missions?",
+   "aliases": [
+    "alliance relations followup",
+    "what comes after alliance relations"
+   ],
+   "answer": "Yes, turning in this errand to Keldran begins a deeper dialogue regarding the Horde's standing with other factions, leading directly into subsequent tasks dealing with regional diplomacy and espionage."
+  },
+  {
+   "q": "Why is discretion so important for this task?",
+   "aliases": [
+    "why subtlety",
+    "keldran subtlety"
+   ],
+   "answer": "Open conflict with the Alliance risks massive casualties and destabilizing Kalimdor. Thrall relies on subtle operatives to handle sensitive diplomatic friction before it erupts into open war."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This mission highlights the ideological contrast inside the Horde between traditional brute strength and Thrall's nuanced, diplomatic statecraft."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs accustomed to resolving conflict by the axe, Keldran's approach demands an unfamiliar discipline: patience and tactical subtlety."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Keldran's focus on secrecy and perception makes his tasks particularly suited to those who make their living in the shadows."
+  }
+ ],
+ "keywords": [
+  "alliance relations",
+  "craven drok",
+  "diplomacy",
+  "horde",
+  "keldran",
+  "orgrimmar",
+  "thrall"
+ ],
+ "related": [
+  "npc:keldran",
+  "npc:craven-drok",
+  "npc:thrall",
+  "zone:orgrimmar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Alliance Relations"
+ ]
+}

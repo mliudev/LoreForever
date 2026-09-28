@@ -1,0 +1,122 @@
+{
+ "key": "quest:6391",
+ "type": "quest",
+ "name": "Ride to Ironforge",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   6391
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Thorgrum Borrelson",
+  "end": "Golnir Bouldertoe",
+  "previous": "Honor Students (Classic)",
+  "next": "Gryth Thurden (Classic)",
+  "wiki": "Ride to Ironforge (Classic)",
+  "chain": []
+ },
+ "summary": "Ride to Ironforge is an introductory courier quest that sends newly trained adventurers on their first gryphon flight from Kharanos into the dwarven capital. Entrusted with a list of top mining students from Brock Stoneseeker, the traveler carries the dispatch straight to Golnir Bouldertoe at the Great Forge.",
+ "sections": [
+  {
+   "title": "Taking to the Skies",
+   "body": "For many young mountaineers and travelers fresh out of Coldridge Valley, the flight from Kharanos to Ironforge marks their very first journey astride a gryphon. Handled by Gryphon Master Thorgrum Borrelson, this short passage carries travelers over Dun Morogh's snowy ridges and directly into the cavernous entry of the mountain fortress.",
+   "spoiler": 0
+  },
+  {
+   "title": "Honors of the Deep Mountain Guild",
+   "body": "The errand itself serves the Deep Mountain Mining Guild. Brock Stoneseeker regularly sends word of his most promising mining pupils from Steelgrill's Depot. Waiting at the Great Forge is Golnir Bouldertoe, who inscribes the apprentices' names onto ceremonial honorary picks to reward their hard work in Dun Morogh's quarries and mines.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this flight start and end?",
+   "aliases": [
+    "flight path route",
+    "where do i fly",
+    "ride destination"
+   ],
+   "answer": "The journey begins at the flight master Thorgrum Borrelson near Kharanos in Dun Morogh and carries you straight into the flight roost at the Great Forge inside Ironforge."
+  },
+  {
+   "q": "What is Brock's List?",
+   "aliases": [
+    "brocks list lore",
+    "who is brock",
+    "what is the paper"
+   ],
+   "answer": "Brock's List is a roster compiled by the mining trainer Brock Stoneseeker at Steelgrill's Depot. It records his finest students so that the guild in Ironforge can reward their diligence."
+  },
+  {
+   "q": "Who is Golnir Bouldertoe?",
+   "aliases": [
+    "golnir role",
+    "where is golnir",
+    "who is golnir bouldertoe"
+   ],
+   "answer": "Golnir Bouldertoe is a representative of the Deep Mountain Mining Guild based within the Great Forge of Ironforge. He receives rosters from local trainers and chisels the students' names into honorary picks."
+  },
+  {
+   "q": "What happens after you deliver the list?",
+   "aliases": [
+    "next quest",
+    "what to do after",
+    "follow up"
+   ],
+   "answer": "Once Golnir receives the roster, he directs you over to Gryth Thurden, Ironforge's master gryphon handler, further acquainting you with the kingdom's aerial transport network."
+  },
+  {
+   "q": "Why use a gryphon instead of walking?",
+   "aliases": [
+    "why fly",
+    "can i walk to ironforge",
+    "why gryphon"
+   ],
+   "answer": "While the mountain road and tunnels lead straight into Ironforge's Gates, the quest serves as practical instruction in Alliance gryphon travel, showing new adventurers how quickly they can leap between settlements."
+  },
+  {
+   "q": "What is an honorary pick?",
+   "aliases": [
+    "honorary picks",
+    "pick reward",
+    "mining pick ceremony"
+   ],
+   "answer": "Honorary picks are ceremonial tools crafted by the Deep Mountain Mining Guild to recognize outstanding mining students who have mastered basic excavation and geology under regional instructors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "This task directly highlights the Deep Mountain Mining Guild's tradition of recognizing and engraving honors for promising miners emerging from Dun Morogh's pits."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "For young Bronzebeard dwarves, taking wing on a gryphon into the Great Forge is a proud rite of passage between rural outposts and the heart of the kingdom."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The gryphon flight network forms the backbone of Alliance logistics across Khaz Modan, seamlessly connecting frontline garrisons to the grand capital."
+  }
+ ],
+ "keywords": [
+  "brock's list",
+  "deep mountain mining guild",
+  "golnir bouldertoe",
+  "great forge",
+  "gryphon",
+  "kharanos",
+  "ride to ironforge",
+  "thorgrum borrelson"
+ ],
+ "related": [
+  "npc:thorgrum-borrelson",
+  "npc:golnir-bouldertoe",
+  "zone:ironforge",
+  "subzone:great-forge"
+ ],
+ "attribution": [
+  "Ride to Ironforge (Classic)"
+ ]
+}

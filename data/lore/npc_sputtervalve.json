@@ -1,0 +1,119 @@
+{
+ "key": "npc:sputtervalve",
+ "type": "npc",
+ "name": "Sputtervalve",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Sputtervalve",
+  "refs": 7
+ },
+ "summary": "Sputtervalve is a stressed goblin engineer stationed in the port town of Ratchet. Serving the Tinkers' Union under Director Riddlevox, he oversees regional shredder research and development under crushing corporate deadlines. To keep his standing, he frequently hires adventurers to engage in industrial espionage against the rival Venture Company.",
+ "sections": [
+  {
+   "title": "Industrial Pressure",
+   "body": "Operating out of Ratchet, Sputtervalve answers to Director Riddlevox of the Tinkers' Union. Put in charge of shredder development, he quickly discovered that keeping pace with modern mechanization is brutal work. Facing fierce competition and an unforgiving deadline, Sputtervalve found himself with few working prototypes of his own. Rather than admit failure to the Union, he turned toward the classic goblin solution: stealing better designs from whoever built them first.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes on the Venture Company",
+   "body": "Sputtervalve's primary target is the Venture Company's drilling operation at the Sludge Fen to the northwest. Their latest shredder models boast interchangeable hands, refined control grips, and advanced internal mechanisms like the elusive samophlange. Desperate to crack their secrets, Sputtervalve dispatched his associate Wizzlecrank into the Fen for 'field research,' only for the operative to get trapped, forcing Sputtervalve to hire wandering mercenaries to recover stolen technology and rescue his partner.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Fixer in Ratchet",
+   "body": "Beyond his shredder dilemmas, Sputtervalve acts as a general point of contact for strange curiosities passing through the Barrens. When adventurers drag bizarre, corrupter-infused artifacts out of the Wailing Caverns\u2014such as a glowing shard\u2014Sputtervalve knows enough about the local landscape to direct them away from gadgetry and toward the isolated druids encamped above the caverns.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sputtervalve?",
+   "aliases": [
+    "who is sputtervalve",
+    "sputtervalve ratchet",
+    "sputtervalve lore"
+   ],
+   "answer": "Sputtervalve is a goblin engineer affiliated with the Tinkers' Union based in Ratchet. Director Riddlevox tasked him with shredder research and development, leaving him scrambling to deliver results before his strict corporate deadlines expire."
+  },
+  {
+   "q": "Why is Sputtervalve targeting the Venture Company?",
+   "aliases": [
+    "why attack venture co",
+    "sputtervalve sludge fen",
+    "sputtervalve venture company"
+   ],
+   "answer": "The Venture Company developed cutting-edge shredders at the Sludge Fen featuring interchangeable hands and superior control grips. Unable to surpass their designs legitimately, Sputtervalve resorted to corporate espionage to 'borrow' their blueprints and machinery."
+  },
+  {
+   "q": "What is a samophlange?",
+   "aliases": [
+    "what is a samophlange",
+    "samophlange quest",
+    "what does samophlange do"
+   ],
+   "answer": "A samophlange is an intricate mechanical component found within Venture Company shredders and control consoles. Sputtervalve hires adventurers to extract and examine it in hopes of mastering their technology."
+  },
+  {
+   "q": "Who is Wizzlecrank?",
+   "aliases": [
+    "wizzlecrank",
+    "who is wizzlecrank",
+    "sputtervalve partner"
+   ],
+   "answer": "Wizzlecrank is an operative and associate sent by Sputtervalve into the Sludge Fen to steal shredder prototypes. His mission went sideways when he became trapped inside one of the machines, requiring an escort out."
+  },
+  {
+   "q": "Why does Sputtervalve care about the Glowing Shard?",
+   "aliases": [
+    "the glowing shard sputtervalve",
+    "glowing shard wailing caverns",
+    "shard quest ratchet"
+   ],
+   "answer": "He does not study organic curiosities himself, but his familiarity with the Barrens makes him an ideal contact. When shown the shard recovered from the Wailing Caverns, he points adventurers toward the druids perched on the hills above the caves."
+  },
+  {
+   "q": "Who is Director Riddlevox?",
+   "aliases": [
+    "riddlevox",
+    "director riddlevox",
+    "tinkers union boss"
+   ],
+   "answer": "Director Riddlevox is the high-ranking leader of the Tinkers' Union who placed Sputtervalve in charge of shredder innovation, holding him to strict and unforgiving production timelines."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Sputtervalve represents goblin engineering's ruthless ethos: when innovation stalls, steal the schematics from the nearest competitor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Though Ratchet maintains neutrality, Sputtervalve relies heavily on Horde travelers crossing the Barrens to break Venture Company operations and smuggle machine parts."
+  }
+ ],
+ "keywords": [
+  "ratchet",
+  "riddlevox",
+  "samophlange",
+  "shredder",
+  "sludge fen",
+  "sputtervalve",
+  "tinkers union",
+  "venture company",
+  "wizzlecrank"
+ ],
+ "related": [
+  "subzone:ratchet",
+  "subzone:sludge-fen",
+  "topic:venture-company",
+  "quest:894",
+  "quest:114",
+  "quest:6981",
+  "zone:barrens",
+  "zone:wailing"
+ ],
+ "attribution": [
+  "Sputtervalve"
+ ]
+}

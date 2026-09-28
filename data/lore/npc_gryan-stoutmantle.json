@@ -1,0 +1,122 @@
+{
+ "key": "npc:gryan-stoutmantle",
+ "type": "npc",
+ "name": "Gryan Stoutmantle",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Gryan Stoutmantle",
+  "refs": 17
+ },
+ "summary": "Gryan Stoutmantle is a paladin of the Silver Hand and the commander of the People's Militia, operating out of Sentinel Hill in Westfall. Born in Westfall, he returned from the devastated northern kingdom of Lordaeron to protect his homeland after Stormwind's crown abandoned the region to banditry.",
+ "sections": [
+  {
+   "title": "A Knight Returned Home",
+   "body": "Gryan Stoutmantle began his service far from the quiet fields of southern Azeroth. Traveling north to Lordaeron as a young man, he took vows as a Knight of the Silver Hand and endured the horrors of the Third War, even witnessing the tragic purge of Stratholme by Prince Arthas Menethil. When news reached him that his native province of Westfall was collapsing into lawlessness, overrun by organized brigands and abandoned by the crown, Gryan left the northern fronts behind. He traded imperial battlefields for the defense of honest farmers, swearing that his home would not fall as the north had.",
+   "spoiler": 0
+  },
+  {
+   "title": "The People's Militia",
+   "body": "Upon his return, Gryan found Westfall virtually undefended. Due to royal neglect and political paralysis within the House of Nobles, Stormwind refused to dispatch garrison troops. In response, Stoutmantle established the People's Militia at Sentinel Hill, rallying local farmers, sentries, and traveling mercenaries into a volunteer defense corps. His forces hold a precarious line against the Defias Brotherhood, riverpaw gnolls, and hostile mechanoids, unable even to spare reinforcements when neighbor settlements like Lakeshire plead for aid.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unmasking the Kingpin",
+   "body": "Refusing to fight blindly, Stoutmantle turned to an extensive intelligence network to uncover who was orchestrating Westfall's ruin. Calling in an old debt from the shady rogue Wiley the Black in Redridge and conferring with Mathias Shaw of SI:7, Gryan pierced the veil: the bandits were led by Edwin VanCleef, the slighted master architect of the Stonemasons' Guild. After the militia captured a bandit attempting to plunder a local wagon, Gryan used the traitor to pinpoint the Brotherhood's headquarters hidden beneath Moonbrook within the Deadmines, tasking veteran champions with striking down VanCleef directly.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gryan Stoutmantle?",
+   "aliases": [
+    "who is gryan",
+    "stoutmantle lore",
+    "leader of westfall"
+   ],
+   "answer": "Gryan Stoutmantle is a paladin of the Silver Hand and the founder and commander of the People's Militia, the volunteer garrison headquartered at Sentinel Hill defending Westfall."
+  },
+  {
+   "q": "Why is the People's Militia needed if Westfall belongs to Stormwind?",
+   "aliases": [
+    "why militia",
+    "where is stormwind army",
+    "why did stormwind abandon westfall"
+   ],
+   "answer": "Stormwind's House of Nobles refused to commit crown soldiers or treasury funds to protect the outlying province. Left to fend for themselves against marauders and gnolls, the local peasantry under Gryan's leadership formed their own independent defense force."
+  },
+  {
+   "q": "What is Gryan's history with the Silver Hand?",
+   "aliases": [
+    "is gryan a paladin",
+    "gryan silver hand",
+    "gryan in lordaeron"
+   ],
+   "answer": "Gryan traveled to Lordaeron in his youth to become a holy paladin of the Silver Hand. He served on northern battlefields during the Third War and was present during the culling of Stratholme before departing south to rescue his imperiled homeland."
+  },
+  {
+   "q": "Why does Gryan refuse to send aid to Lakeshire?",
+   "aliases": [
+    "magistrate solomon request",
+    "help redridge",
+    "why no troops to lakeshire"
+   ],
+   "answer": "When Magistrate Solomon of Lakeshire requested reinforcements against Redridge's gnolls and orcs, Gryan was forced to decline. The People's Militia is stretched to its absolute breaking point holding Sentinel Hill; sending even a small detachment would cause Westfall to fall to the Defias."
+  },
+  {
+   "q": "How did Gryan discover where the Defias were hiding?",
+   "aliases": [
+    "finding deadmines",
+    "who found vancleef",
+    "defias traitor story"
+   ],
+   "answer": "With intelligence from Wiley the Black and SI:7 spymaster Mathias Shaw, Gryan unmasked Edwin VanCleef as the mastermind. The militia then captured a thief known as the Defias Traitor, who guided Alliance forces straight to the Brotherhood's base in the Deadmines beneath Moonbrook."
+  },
+  {
+   "q": "Who is Wiley the Black to Gryan?",
+   "aliases": [
+    "wiley and gryan",
+    "wiley the black debt"
+   ],
+   "answer": "Wiley the Black is a contact living at the inn in Lakeshire who owed his life to Gryan. Although Stoutmantle holds little affection for the rogue's unsavory nature, he leveraged that life debt to obtain crucial intelligence on Defias operations."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Stoutmantle is a living example of Silver Hand duty: when the high councils of church and crown ignored the poor, he brought the Light's protection directly to the humble farmers who needed it most."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Gryan's reliance on independent volunteers exposes the bitter cracks within the Alliance heartland, where political inaction in Stormwind forces loyal citizens to take up their own arms."
+  },
+  {
+   "target": "race:Human",
+   "text": "Born in Westfall, Gryan represents the resilience of Stormwind's rural folk, standing firm against both regional brigands and bureaucratic abandonment by the capital."
+  }
+ ],
+ "keywords": [
+  "deadmines",
+  "gryan",
+  "people's militia",
+  "sentinel hill",
+  "silver hand",
+  "stoutmantle",
+  "vancleef",
+  "westfall",
+  "wiley"
+ ],
+ "related": [
+  "subzone:sentinel-hill",
+  "zone:westfall",
+  "topic:defias-brotherhood",
+  "npc:edwin-vancleef",
+  "quest:12",
+  "quest:65",
+  "npc:wiley-the-black",
+  "subzone:deadmines"
+ ],
+ "attribution": [
+  "Gryan Stoutmantle"
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "key": "quest:92469",
+ "type": "quest",
+ "name": "Return to Rorian",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92469
+  ],
+  "level": "4",
+  "faction": null,
+  "start": "Yala Windwatcher",
+  "end": "Rorian the Dayseeker",
+  "previous": "Agitators",
+  "next": "Aetheen of the Gales (quest) (at level 4)",
+  "wiki": "Return to Rorian",
+  "chain": []
+ },
+ "summary": "Return to Rorian is a mission carrying urgent reports from the field back to Thendal Grove on Zephras Isle. After aiding Yala Windwatcher against encroaching forces, an adventurer is dispatched to inform Rorian the Dayseeker that the Al'Aketh cult has actively escalated their presence by disturbing the local wind spirits.",
+ "sections": [
+  {
+   "title": "A Dire Report",
+   "body": "Following the disruption dealt to the agitators harassing Zephras Isle, Yala Windwatcher stays behind to mop up remaining hostiles while tasking you with an essential duty: delivering intelligence. Thendal Grove needs to know that the mysterious Al'Aketh are no longer operating purely in the shadows.",
+   "spoiler": 0
+  },
+  {
+   "title": "Escalation at the Standing Stones",
+   "body": "Upon receiving the report, Rorian the Dayseeker admits that the leaders in Thendal Grove have watched the cult's movements from a distance for some time. However, the cultists agitating the native wind spirits near the standing stones marks a bold and troubling escalation that grove leadership can no longer afford to observe passively.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to speak with Rorian?",
+   "aliases": [
+    "quest giver",
+    "who starts return to rorian",
+    "yala windwatcher"
+   ],
+   "answer": "Yala Windwatcher sends you to report to Rorian after you help suppress the hostile agitators threatening the local area."
+  },
+  {
+   "q": "Where is Rorian the Dayseeker located?",
+   "aliases": [
+    "where is rorian",
+    "rorian location",
+    "thendal grove rorian"
+   ],
+   "answer": "Rorian the Dayseeker can be found in Thendal Grove, the settlement where the grove's leaders oversee affairs on Zephras Isle."
+  },
+  {
+   "q": "Who are the Al'Aketh?",
+   "aliases": [
+    "what is the cult",
+    "who are al'aketh",
+    "al'aketh cult"
+   ],
+   "answer": "The Al'Aketh are a cult operating on Zephras Isle. While previously monitored quietly from afar, their recent actions agitating elemental wind spirits near the standing stones have turned them into an active threat."
+  },
+  {
+   "q": "Why was Rorian not surprised by the news?",
+   "aliases": [
+    "did rorian know",
+    "rorian reaction",
+    "why unsurprising"
+   ],
+   "answer": "Rorian and the grove leadership were already aware of the cult's movements across the island, though they had previously chosen to watch them quietly rather than confront them directly."
+  },
+  {
+   "q": "What happens after reporting back to Rorian?",
+   "aliases": [
+    "next quest",
+    "what follows return to rorian",
+    "after return to rorian"
+   ],
+   "answer": "After acknowledging your report and thanking you for aiding Thendal Grove, Rorian directs your attention toward handling the rising spiritual crisis in Aetheen of the Gales."
+  },
+  {
+   "q": "Why did Yala stay behind?",
+   "aliases": [
+    "why yala stays",
+    "where did yala go",
+    "yala windwatcher role"
+   ],
+   "answer": "Yala Windwatcher chose to remain at the site of conflict to finish dealing with any lingering stragglers while sending you ahead with the urgent intelligence."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The revelation that the Al'Aketh are deliberately agitating wind spirits strikes at the core of a Shaman's duty to maintain elemental balance."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The defense of Thendal Grove and the preservation of peaceful harmony within Zephras Isle's sacred grounds naturally aligns with Druidic vows."
+  }
+ ],
+ "keywords": [
+  "al'aketh",
+  "cult",
+  "rorian",
+  "standing stones",
+  "thendal grove",
+  "wind spirits",
+  "yala windwatcher",
+  "zephras isle"
+ ],
+ "related": [
+  "npc:rorian-the-dayseeker",
+  "quest:92465",
+  "zone:zephras",
+  "subzone:vice"
+ ],
+ "attribution": [
+  "Return to Rorian"
+ ]
+}

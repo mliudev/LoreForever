@@ -1,0 +1,84 @@
+{
+ "key": "subzone:ironwing-cavern",
+ "type": "subzone",
+ "name": "Ironwing Cavern",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Ironwing Cavern"
+ },
+ "summary": "Ironwing Cavern is a mechanical hollow nestled in the mountains south of Ironband's Excavation Site in Loch Modan. Instead of natural wildlife or troggs, the cavern crawls with erratic proto-striders and malfunctioning battle-chickens. At the very back rests the inert chassis of a prototype tallstrider.",
+ "sections": [
+  {
+   "title": "A Den of Runaway Machinery",
+   "body": "While most caves in Loch Modan harbor bats, spiders, or troggs, Ironwing Cavern is overrun by rogue mechanostriders and erratic clockwork contraptions. Hostile proto-striders wander the tunnels alongside haywire battle-chickens, posing a constant danger to travelers and dwarven explorers near the excavation sites. At the cavern's depths lies the decommissioned wreck of a rusted skystrider, a lost relic from past mechanostrider development.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Ironwing Cavern located?",
+   "aliases": [
+    "ironwing cavern location",
+    "where is ironwing cave",
+    "how to get to ironwing cavern"
+   ],
+   "answer": "Ironwing Cavern is situated in the southeastern mountains of Loch Modan, directly south of Ironband's Excavation Site and northeast of the Valley of Kings."
+  },
+  {
+   "q": "What creatures live inside the cavern?",
+   "aliases": [
+    "what is in ironwing cavern",
+    "ironwing cavern mobs",
+    "ironwing cavern enemies"
+   ],
+   "answer": "The cavern is occupied entirely by malfunctioning mechanical constructs, primarily hostile proto-striders, haywire battle-chickens, and a unique rogue unit named Optimo."
+  },
+  {
+   "q": "What is the Rusted Skystrider at the back of the cave?",
+   "aliases": [
+    "rusted skystrider",
+    "dead strider in cave",
+    "bird is the word quest"
+   ],
+   "answer": "The Rusted Skystrider is an inert, damaged mechanostrider prototype lying deep inside the cave. Dwarven scouts and adventurers from the nearby Farstrider Lodge track down its wreckage to recover lost mechanostrider technology."
+  },
+  {
+   "q": "Who is Optimo?",
+   "aliases": [
+    "optimo loch modan",
+    "optimo strider",
+    "optimo boss"
+   ],
+   "answer": "Optimo is an especially dangerous proto-strider roaming among the clockwork hazards inside Ironwing Cavern, acting as an apex threat among the malfunctioning mechanostriders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The cavern is a living junkyard of experimental gnomish and dwarven clockwork designs, filled with roaming mechanical tallstriders and haywire poultry bots."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "The proto-striders inside represent earlier, uncalibrated iterations of mechanostrider mount chassis that broke away from testing and ran wild in the mountain caves."
+  }
+ ],
+ "keywords": [
+  "haywire battle-chicken",
+  "ironband",
+  "ironwing cavern",
+  "loch modan",
+  "optimo",
+  "proto-strider",
+  "rusted skystrider"
+ ],
+ "related": [
+  "subzone:ironband-s-excavation-site",
+  "subzone:farstrider-lodge",
+  "zone:lochmodan",
+  "quest:436"
+ ],
+ "attribution": [
+  "Ironwing Cavern"
+ ]
+}

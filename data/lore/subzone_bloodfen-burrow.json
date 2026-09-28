@@ -1,0 +1,66 @@
+{
+ "key": "subzone:bloodfen-burrow",
+ "type": "subzone",
+ "name": "Bloodfen Burrow",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Bloodfen Burrow"
+ },
+ "summary": "Bloodfen Burrow is a cavern in southwestern Dustwallow Marsh swarming with vicious raptors. The beasts have claimed the cave and the surrounding clearing, completely overrunning the ruins of a settlement that once tried to survive the wetlands.",
+ "sections": [
+  {
+   "title": "A Den of Predators",
+   "body": "Tucked away in the southwestern reaches of Dustwallow Marsh, Bloodfen Burrow serves as the primary den for the region's aggressive Bloodfen raptors. The cave mouth and surrounding hollow crawl with the pack, drawn to the sheltered crevice and the bountiful hunting ground the marsh provides. Just outside the entrance lie scattered debris and splintered remains of an unidentified settlement, serving as a grim reminder of who truly rules the swamp's interior. Travelers also whisper that Cortello, an adventurous buccaneer, left one of his hidden riddle clues somewhere within this deadly den.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What lives in Bloodfen Burrow?",
+   "aliases": [
+    "who lives here",
+    "bloodfen burrow raptors",
+    "what mobs in bloodfen burrow"
+   ],
+   "answer": "The burrow is overrun by Bloodfen raptors. They have established a dense nesting ground both inside the cave and across the surrounding clearing, attacking anyone foolish enough to intrude on their territory."
+  },
+  {
+   "q": "What are the ruins outside the cave?",
+   "aliases": [
+    "ruined settlement dustwallow",
+    "who built the huts near bloodfen burrow",
+    "ruins outside cave"
+   ],
+   "answer": "Splintered wood and scattered remnants indicate that someone once attempted to settle this stretch of the marsh. Whoever built it was ultimately driven out or devoured when the raptors took over the den."
+  },
+  {
+   "q": "Why would an adventurer search Bloodfen Burrow?",
+   "aliases": [
+    "cortello's riddle bloodfen",
+    "treasure in bloodfen burrow",
+    "bloodfen burrow quest"
+   ],
+   "answer": "Aside from hunting the fierce marsh raptors, explorers deciphering Cortello's Riddle must venture inside the burrow. The pirate left one of his hidden chests concealed within the cavern's shadowy depths."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The Bloodfen raptors nesting here are fierce, quick beasts well-suited for hunters seeking durable, aggressive swamp companions."
+  }
+ ],
+ "keywords": [
+  "bloodfen burrow",
+  "bloodfen raptor",
+  "cortello's riddle",
+  "dustwallow marsh",
+  "raptor cave"
+ ],
+ "related": [
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Bloodfen Burrow"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "subzone:rut-theran-village",
+ "type": "subzone",
+ "name": "Rut'theran Village",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Rut'theran Village"
+ },
+ "summary": "Rut'theran Village is a coastal haven nestled at the southern base of Teldrassil. Serving as the primary maritime harbor for Darnassus, it connects the secluded World Tree to the mainland of Kalimdor via ferry and hippogryph routes.",
+ "sections": [
+  {
+   "title": "Gateway to the World Tree",
+   "body": "Perched at the water's edge below the towering heights of Teldrassil, Rut'theran Village acts as the threshold between the night elven capital and the wider world. While Darnassus rests within the boughs high above, Rut'theran provides the logistical foundation required to sustain it. A mystical portal arches beneath the trees, whisking travelers between the shore and Darnassus in an instant. For journeys across the sea, ferry service runs from the village docks directly to Auberdine on the mainland of Darkshore, accompanied by flight masters tending dedicated roosts of trained hippogryphs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I get to Darnassus from here?",
+   "aliases": [
+    "get to darnassus",
+    "portal to darnassus",
+    "how to reach darnassus"
+   ],
+   "answer": "Walk up the gentle slope from the docks toward the giant pavilion tent. Stepping directly into the glowing purple portal on the platform will instantly transport you to the Temple Gardens inside Darnassus."
+  },
+  {
+   "q": "Where does the boat from the dock go?",
+   "aliases": [
+    "where does boat go",
+    "rut'theran ferry",
+    "ruttheran ship route"
+   ],
+   "answer": "The ship docked at Rut'theran Village, the Moonspray, provides passage across the Veiled Sea to the town of Auberdine on the coast of Darkshore."
+  },
+  {
+   "q": "Why is this village down at sea level instead of up in the tree?",
+   "aliases": [
+    "why is ruttheran at sea level",
+    "why bottom of teldrassil"
+   ],
+   "answer": "Teldrassil's canopy is far too elevated for conventional sailing ships or sea trade. Rut'theran Village was established at its roots to provide a sea-level port and roosting ground, linked to the heights via a permanent teleportation gateway."
+  },
+  {
+   "q": "Can I fly anywhere from here?",
+   "aliases": [
+    "rut'theran flight path",
+    "where can hippogryph fly"
+   ],
+   "answer": "Yes. A hippogryph handler operates from the village roost, offering flight routes across the water to Auberdine in Darkshore, as well as specialized transport for Cenarion Circle druids to Moonglade."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Druids passing through Rut'theran Village can catch hippogryph flights directly across northern Kalimdor to the sacred sanctuary of Moonglade."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For young night elves leaving Teldrassil to aid the Alliance, Rut'theran Village is the final farewell to the crown of the World Tree before sailing into mainland Kalimdor."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "darnassus",
+  "docks",
+  "hippogryph",
+  "moonspray",
+  "port",
+  "rut'theran",
+  "teldrassil"
+ ],
+ "related": [
+  "zone:teldrassil",
+  "zone:darnassus",
+  "subzone:auberdine",
+  "subzone:moonspray",
+  "zone:darkshore",
+  "topic:night-elf",
+  "topic:druid",
+  "quest:5921"
+ ],
+ "attribution": [
+  "Rut'theran Village"
+ ]
+}

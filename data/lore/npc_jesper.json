@@ -1,0 +1,71 @@
+{
+ "key": "npc:jesper",
+ "type": "npc",
+ "name": "Jesper",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Jesper",
+  "refs": 1
+ },
+ "summary": "Jesper is a human orphan residing in the orphanage of Cathedral Square in Stormwind City. During the annual festivities of Hallow's End, he steps out to celebrate and asks helpful adventurers to bring him special sweets.",
+ "sections": [
+  {
+   "title": "A Boy in Cathedral Square",
+   "body": "Jesper lives in the Stormwind Orphanage under the watchful care of the Matron in Cathedral Square. Like many children left without family following the Second and Third Wars, he makes his home in the shadow of the Holy Light. When autumn arrives and the kingdom celebrates Hallow's End, Jesper leaves the quiet halls of the orphanage to join the festivities outside the city gates, eagerly seeking out anyone willing to bring him holiday treats from inns across the Alliance territories.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Jesper?",
+   "aliases": [
+    "jesper location",
+    "where is jesper",
+    "orphanage boy"
+   ],
+   "answer": "Jesper normally resides within the orphanage located in Cathedral Square in Stormwind City. However, during the annual Hallow's End festivities, he joins the holiday celebrants gathered outside the city's main gates."
+  },
+  {
+   "q": "What does Jesper want during Hallow's End?",
+   "aliases": [
+    "jesper treats",
+    "jesper quest",
+    "hallow's end jesper"
+   ],
+   "answer": "Jesper sends adventurers to collect various holiday candies from innkeepers across the Alliance lands, yearning for a taste of the festive season that an orphan in the city would otherwise miss."
+  },
+  {
+   "q": "Why is Jesper in an orphanage?",
+   "aliases": [
+    "jesper parents",
+    "who are jesper parents",
+    "why is jesper an orphan"
+   ],
+   "answer": "Jesper is one of the many human children orphaned by the ongoing conflicts that have plagued Stormwind and the wider Eastern Kingdoms over recent years, finding refuge in Cathedral Square under the care of the Church of the Holy Light."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance heroes celebrating Hallow's End, running errands to satisfy Jesper's sweet tooth is a heartwarming tradition of bringing holiday cheer to Stormwind's most vulnerable youth."
+  }
+ ],
+ "keywords": [
+  "cathedral square",
+  "hallow's end",
+  "jesper",
+  "orphan",
+  "orphanage",
+  "stormwind"
+ ],
+ "related": [
+  "quest:8311",
+  "subzone:cathedral-square",
+  "zone:stormwind",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Jesper"
+ ]
+}

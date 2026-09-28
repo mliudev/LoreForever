@@ -1,0 +1,129 @@
+{
+ "key": "quest:914",
+ "type": "quest",
+ "name": "Leaders of the Fang",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "ids": [
+   914
+  ],
+  "level": "22",
+  "faction": "Horde",
+  "start": "Nara Wildmane",
+  "end": "",
+  "previous": "Nara Wildmane (quest)",
+  "next": null,
+  "wiki": "Leaders of the Fang",
+  "chain": []
+ },
+ "summary": "Leaders of the Fang is a pivotal Horde quest tasked by Nara Wildmane from the heights of Thunder Bluff. It directs adventurers into the Wailing Caverns to strike down the four leaders of the corrupted Druids of the Fang and retrieve their twisted dream gems. Halting these rogue druids is essential to preventing their serpentine nightmare from permanently overtaking the Barrens.",
+ "sections": [
+  {
+   "title": "A Vision Corrupted",
+   "body": "The night elf archdruid Naralex ventured into the subterranean springs of the Wailing Caverns with a selfless ambition: to use the Emerald Dream to restore lush vitality to the arid Barrens. Tragically, when his slumber took root, his dream turned into a waking nightmare. The acolytes who accompanied him lost their devotion to nature's harmony, succumbing to malignant serpent spirits and adopting the mantle of the Druids of the Fang.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Four Dream Gems",
+   "body": "To reshape the Barrens into their own viperous Eden, the leaders of the splintered sect channel the warped dream energies through specialized foci known as dream gems. Lord Cobrahn, Lady Anacondra, Lord Pythas, and Lord Serpentis each bear one of these gems. As long as these artifacts remain in their grasp, their corrupting influence will seep outward into the soil and waters of Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Burden Lifted in Thunder Bluff",
+   "body": "Nara Wildmane, watching over the natural balance from Thunder Bluff, feels the spiritual torment rippling from the caverns directly into her mind. By hunting down the four serpent lords and stripping them of their gems, Horde champions break the sect's command structure, freeing the tauren druid from lingering nightmares and saving the surrounding plains from an unnatural blight.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are the leaders of the Druids of the Fang?",
+   "aliases": [
+    "leaders of the fang names",
+    "wailing caverns bosses",
+    "who leads druids of the fang"
+   ],
+   "answer": "The sect is guided by four fallen druids: Lady Anacondra, Lord Cobrahn, Lord Pythas, and Lord Serpentis. Each has surrendered their original nature teachings to embody serpent forms and channel nightmare magic within the Wailing Caverns."
+  },
+  {
+   "q": "What are the dream gems?",
+   "aliases": [
+    "what are the gems",
+    "gem of cobrahn",
+    "dream gems lore"
+   ],
+   "answer": "The dream gems are conduits carried by each of the four leaders within the Wailing Caverns. They focus the twisted, nightmare-tainted energy leaking from Naralex's slumber, fueling the sect's efforts to mutate the Barrens."
+  },
+  {
+   "q": "Why does Nara Wildmane want the gems?",
+   "aliases": [
+    "who is nara wildmane",
+    "why kill the leaders",
+    "nara wildmane motive"
+   ],
+   "answer": "Nara Wildmane is a tauren druid in Thunder Bluff who feels the psychic and spiritual ripples of the nightmare. The faces of the corrupted leaders haunt her dreams, and she needs their power broken to protect both her sanity and the future of the Barrens."
+  },
+  {
+   "q": "Were the Druids of the Fang always evil?",
+   "aliases": [
+    "druids of the fang origin",
+    "why did the druids turn bad",
+    "naralex disciples"
+   ],
+   "answer": "No. They were originally noble night elf druids who followed Naralex into the caverns hoping to heal the dry savanna. When Naralex fell into a nightmare, the energies warped their minds, transforming them into a fanatical snake cult."
+  },
+  {
+   "q": "Where is this quest turned in?",
+   "aliases": [
+    "leaders of the fang turn in",
+    "where is nara wildmane",
+    "hand in leaders of the fang"
+   ],
+   "answer": "The quest begins and ends with Nara Wildmane on the Elder Rise in Thunder Bluff. Once you collect all four gems from the depths of the Wailing Caverns, you must travel back to Mulgore to present them to her."
+  },
+  {
+   "q": "Does killing the leaders cure Naralex?",
+   "aliases": [
+    "does this save naralex",
+    "killing leaders effect"
+   ],
+   "answer": "Slaying the four leaders shatters the sect's upper hierarchy and stops the spread of their ritual, but it does not wake Naralex on its own. Other druidic rites deeper within the caverns are required to awaken the slumbering master."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For tauren druids, this mission is deeply personal. Seeing fellow servants of nature twist the Emerald Dream into a poisonous blight is an intolerable affront to Cenarion principles."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Barrens is the vital crossroads connecting Orgrimmar, Thunder Bluff, and the Darkspear isles. Allowing a fanatical sect of serpent worshipers to mutate the land threatens the stability of the entire Horde."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The Earth Mother's health is central to tauren faith, making the unnatural corruption bleeding from the springs of the Barrens a direct sacrilege against the land they roam."
+  }
+ ],
+ "keywords": [
+  "anacondra",
+  "barrens",
+  "cobrahn",
+  "dream gems",
+  "leaders of the fang",
+  "nara wildmane",
+  "pythas",
+  "serpentis",
+  "wailing caverns"
+ ],
+ "related": [
+  "zone:wailing",
+  "topic:druids-of-the-fang",
+  "quest:1490",
+  "zone:barrens",
+  "zone:thunderbluff",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Leaders of the Fang"
+ ]
+}

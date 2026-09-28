@@ -1,0 +1,76 @@
+{
+ "key": "npc:chef-breanna",
+ "type": "npc",
+ "name": "Chef Breanna",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Chef Breanna",
+  "refs": 1
+ },
+ "summary": "Chef Breanna is the head cook at Lakeshire's local dining house in the Redridge Mountains. Tasked with feeding the garrison of Stormwind soldiers stationed to protect the embattled lakeside town, she relies on hearty, local ingredients to keep the defenders on their feet.",
+ "sections": [
+  {
+   "title": "Feeding Lakeshire's Defenders",
+   "body": "Operating out of a restaurant house in northwestern Lakeshire alongside her assistants Crystal Boughman and Gretchen Vogel, Chef Breanna bears the heavy responsibility of provisioning the entire local battalion. With Lakeshire besieged by Blackrock orcs, gnolls, and murlocs, maintaining the strength and morale of Stormwind's understaffed garrison is essential. Her signature dish, Redridge Goulash, relies on the wild game and beasts roaming the surrounding ridges, turning dangerous wilderness predators into fuel for the town's weary guard.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Chef Breanna?",
+   "aliases": [
+    "chef breanna",
+    "breanna lakeshire",
+    "who is breanna"
+   ],
+   "answer": "Chef Breanna is the town cook in Lakeshire, running the local kitchen house in the northwestern corner of the settlement. She is tasked with feeding the Stormwind soldiers defending the Redridge Mountains."
+  },
+  {
+   "q": "What does Chef Breanna need help with?",
+   "aliases": [
+    "breanna quest",
+    "redridge goulash ingredients",
+    "what does she want"
+   ],
+   "answer": "She needs local game meat to brew Redridge Goulash for the garrison. Adventurers help her by foraging for boar ribs, spider meat, and vulture meat from the wilderness surrounding Lakeshire."
+  },
+  {
+   "q": "Who works with Chef Breanna?",
+   "aliases": [
+    "breanna helpers",
+    "crystal boughman",
+    "gretchen vogel"
+   ],
+   "answer": "Her bustling establishment employs Crystal Boughman and Gretchen Vogel, who help her manage the restaurant house and tend to hungry townsfolk and soldiers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Breanna's resourceful recipe for Redridge Goulash showcases how a frontier chef can turn dangerous local predators\u2014spiders, vultures, and boars\u2014into a hearty meal to sustain a military outpost."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Without Chef Breanna provisioning the soldiers holding the bridge and town perimeter, Lakeshire's strained garrison would quickly succumb to exhaustion against the relentless orc and gnoll incursions."
+  }
+ ],
+ "keywords": [
+  "breanna",
+  "chef breanna",
+  "cook",
+  "garrison",
+  "goulash",
+  "lakeshire",
+  "redridge goulash"
+ ],
+ "related": [
+  "quest:92",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Chef Breanna"
+ ]
+}

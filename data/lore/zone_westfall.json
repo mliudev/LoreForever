@@ -1,0 +1,138 @@
+{
+ "key": "zone:westfall",
+ "type": "zone",
+ "name": "Westfall",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": [
+   "Westfall (Classic)",
+   "Westfall"
+  ],
+  "levels": "10-20",
+  "aliases": []
+ },
+ "summary": "Once the fertile breadbasket of the Kingdom of Stormwind, Westfall has collapsed into a windswept, neglected territory overrun by outlaws. Deprived of official crown support and military garrisons, its surviving homesteaders cling to their farms while the Defias Brotherhood tightens its grip from the abandoned mining town of Moonbrook.",
+ "sections": [
+  {
+   "title": "A Land Left Behind",
+   "body": "For generations, Westfall fed the Kingdom of Stormwind. Its rolling pastures and wheat fields flourished until the aftermath of the Second War brought financial exhaustion and political neglect. When the kingdom poured its resources elsewhere and failed to maintain its garrisons, the territory grew fallow. Today, barren pastures, howling coastal gusts, rogue harvest golems, and raiding Riverpaw gnolls make daily survival a constant trial for the stubborn few who refuse to abandon their homesteads.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Rise of the Brotherhood",
+   "body": "Westfall's collapse accelerated when the Stonemasons Guild, denied payment for rebuilding Stormwind City, turned to open revolt. Outlawed and exiled under Edwin VanCleef, the stonemasons reconstituted themselves as the Defias Brotherhood. They claimed Westfall as their stronghold, burning stubborn farmers' fields, salting soil, and seizing abandoned mines. Operating out of the ghost town of Moonbrook, the Brotherhood now rules the majority of the countryside in all but name.",
+   "spoiler": 0
+  },
+  {
+   "title": "The People's Militia",
+   "body": "With the House of Nobles ignoring Westfall's plight, local inhabitants took up their own defense. Based at the fortified post of Sentinel Hill, Gryan Stoutmantle organized the People's Militia\u2014a volunteer force attempting to hold the line against gnolls and bandits. Lacking formal soldiers and supplies from Stormwind, the Militia relies on wandering adventurers to push back the Defias tide and protect the remaining farms.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Deadmines Conspiracy",
+   "body": "The true scale of the Defias threat lies concealed beneath the surface. Deep within the abandoned gold shafts of the Deadmines beneath Moonbrook, Edwin VanCleef has assembled an army of cutthroats, goblins, and renegades. Rather than simple banditry, the Brotherhood is constructing a massive ironclad juggernaut designed to sail up the coast and bombard Stormwind City directly.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are so many farms abandoned in Westfall?",
+   "aliases": [
+    "abandoned farms",
+    "why is westfall dead",
+    "why fallow"
+   ],
+   "answer": "Stormwind withdrew its military garrisons when upkeep became too expensive, leaving the region unprotected. Soon after, the Defias Brotherhood seized control of the countryside, driving off homesteaders, burning cropland, and reprogramming mechanical harvest watchers into lethal sentries."
+  },
+  {
+   "q": "Why does Stormwind not send troops to help Westfall?",
+   "aliases": [
+    "why no stormwind army",
+    "where are the guards",
+    "stormwind aid"
+   ],
+   "answer": "The kingdom's treasury is strained, and the House of Nobles considers threats in other lands to be higher priorities. Furthermore, court manipulation has quietly starved Westfall of attention and supplies, forcing local residents to fend entirely for themselves."
+  },
+  {
+   "q": "What is the People's Militia?",
+   "aliases": [
+    "peoples militia",
+    "sentinel hill militia",
+    "gryan stoutmantle army"
+   ],
+   "answer": "The People's Militia is a volunteer defense outfit organized by Gryan Stoutmantle at Sentinel Hill. Because the crown refused to deploy soldiers to Westfall, the remaining farmers and settlers banded together to fight off the Defias Brotherhood and the Riverpaw gnolls."
+  },
+  {
+   "q": "Who leads the Defias Brotherhood in Westfall?",
+   "aliases": [
+    "defias leader",
+    "who leads defias",
+    "vancleef"
+   ],
+   "answer": "Edwin VanCleef, the former guildmaster of the Stonemasons Guild who oversaw the rebuilding of Stormwind City. After a bitter dispute over payment resulted in riots and the death of Queen Tiffin, VanCleef led his workers into Westfall and turned to armed insurrection."
+  },
+  {
+   "q": "What is hidden inside Moonbrook?",
+   "aliases": [
+    "moonbrook secret",
+    "what is in deadmines",
+    "moonbrook mine"
+   ],
+   "answer": "Underneath an unassuming barn in Moonbrook lies the entrance to the Deadmines, an extensive abandoned gold mine that the Defias Brotherhood converted into an underground fortress and shipwright for their war against Stormwind."
+  },
+  {
+   "q": "Why are the mechanical scarecrows attacking people?",
+   "aliases": [
+    "harvest golems attacking",
+    "harvest watchers",
+    "evil scarecrows"
+   ],
+   "answer": "Originally built to tend the crops and scare away pests, these mechanical harvest watchers were captured and retrofitted by Defias-aligned goblin tinkerers to patrol fields and murder any trespassers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Westfall is a painful reflection of Stormwind's political decay; the farmers starving in the dirt were abandoned by the very nobility they toiled to feed."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Without the People's Militia holding Sentinel Hill, the Defias Brotherhood would control the southern approaches straight to Elwynn Forest."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The shadow war across Westfall pits SI:7 spies directly against the street-smart scouts, thieves, and assassins of the Defias Brotherhood."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "The beleaguered homesteaders at Saldean's Farm make do with tough local beasts, teaching travelers to brew the hearty staple known as Westfall Stew."
+  }
+ ],
+ "keywords": [
+  "deadmines",
+  "defias",
+  "harvest golem",
+  "militia",
+  "moonbrook",
+  "saldean",
+  "sentinel hill",
+  "stoutmantle",
+  "vancleef",
+  "westfall"
+ ],
+ "related": [
+  "npc:gryan-stoutmantle",
+  "npc:edwin-vancleef",
+  "topic:defias-brotherhood",
+  "subzone:sentinel-hill",
+  "subzone:moonbrook",
+  "zone:deadmines",
+  "quest:12",
+  "quest:36"
+ ],
+ "attribution": [
+  "Westfall (Classic)",
+  "Westfall"
+ ]
+}

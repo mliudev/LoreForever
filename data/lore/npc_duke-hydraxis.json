@@ -1,0 +1,87 @@
+{
+ "key": "npc:duke-hydraxis",
+ "type": "npc",
+ "name": "Duke Hydraxis",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Duke Hydraxis",
+  "refs": 2
+ },
+ "summary": "Duke Hydraxis is a noble water elemental commanding the Hydraxian Waterlords from a remote, wave-battered islet off the coast of Azshara. Pledged to Neptulon the Tidehunter, he rallies mortal adventurers to strike against his ancient elemental rivals, particularly Ragnaros the Firelord.",
+ "sections": [
+  {
+   "title": "Lord of the Waterlords",
+   "body": "Perched on a solitary rock northeast of the Ravencrest Monument in Azshara, Duke Hydraxis serves as the primary emissary of the Hydraxian Waterlords. While most elementals bound to Azeroth are hostile and chaotic, Hydraxis acts with measured purpose. As a devoted vassal of Neptulon the Tidehunter, he considers water the purest and most essential of the primal forces. He watches the rising turmoil across Azeroth with cold scrutiny, seeking champions capable of shifting the balance of elemental warfare.",
+   "spoiler": 0
+  },
+  {
+   "title": "The War Against Fire",
+   "body": "Hydraxis's central campaign targets the blazing hosts of the Firelord, Ragnaros. He sees the encroachment of fiery elementals as a blight upon the world that must be extinguished. Before bestowing his trust or the tools needed to challenge Ragnaros's fiery stronghold in the Molten Core, Duke Hydraxis demands that mortals prove their strength, resilience, and loyalty by slaying hostile elementals across the continents. Those who prove their worth earn the blessings of the sea and the means to douse the sacred flames guarding the Firelord's domain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Duke Hydraxis be found?",
+   "aliases": [
+    "where is hydraxis",
+    "duke hydraxis location",
+    "find duke hydraxis",
+    "hydraxis map spot"
+   ],
+   "answer": "Duke Hydraxis is situated on a tiny, isolated island off the eastern coast of Azshara, directly northeast of the Ravencrest Monument."
+  },
+  {
+   "q": "Who is Duke Hydraxis aligned with?",
+   "aliases": [
+    "who does hydraxis serve",
+    "hydraxis faction",
+    "neptulon servant"
+   ],
+   "answer": "He leads the Hydraxian Waterlords and serves Neptulon the Tidehunter, the elemental ruler of water."
+  },
+  {
+   "q": "Why is Duke Hydraxis interested in mortal champions?",
+   "aliases": [
+    "why does hydraxis need us",
+    "what does hydraxis want",
+    "hydraxis purpose"
+   ],
+   "answer": "He seeks dependable mortal allies to wage war against the rival elemental factions, especially the fiery forces of Ragnaros lurking within Blackrock Mountain."
+  },
+  {
+   "q": "What is Duke Hydraxis's connection to the Molten Core?",
+   "aliases": [
+    "hydraxis molten core",
+    "hydraxis ragnaros",
+    "mc hydraxis"
+   ],
+   "answer": "Duke Hydraxis directs champions to undermine Ragnaros the Firelord and provides the elemental aids necessary to extinguish the runes and bosses guarding the Molten Core."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "For shamans who commune directly with the primal elements, meeting an elemental of Duke Hydraxis's stature offers rare insight into the ancient hierarchy of Neptulon and the eternal rivalries between the elemental planes."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "duke hydraxis",
+  "hydraxian waterlords",
+  "hydraxis",
+  "molten core",
+  "neptulon",
+  "ragnaros",
+  "water elemental"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:ravencrest-monument",
+  "quest:99141"
+ ],
+ "attribution": [
+  "Duke Hydraxis"
+ ]
+}

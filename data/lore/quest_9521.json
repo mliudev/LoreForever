@@ -1,0 +1,117 @@
+{
+ "key": "quest:9521",
+ "type": "quest",
+ "name": "Report from the Northern Front",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   9521
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Sentinel Luciel Starwhisper",
+  "end": "Sentinel Farsong",
+  "previous": null,
+  "next": null,
+  "wiki": "Report from the Northern Front (BC Classic)",
+  "chain": []
+ },
+ "summary": "This errand connects the night elf outposts opposing the Warsong Outriders in Ashenvale. Sentinel Luciel Starwhisper at Forest Song asks a traveler to carry a critical military dispatch southwest to Sentinel Farsong at Silverwing Grove.",
+ "sections": [
+  {
+   "title": "A Divided Front",
+   "body": "The night elves waging war against the Warsong Lumber Camp cannot afford to stay cooped up in a single redoubt. While Forest Song stands watch in eastern Ashenvale, the Silverwing Sentinels maintain their main forward command farther southwest at Silverwing Grove, watching the border with the Barrens. Communication between these outposts is vital to monitoring orc incursions.",
+   "spoiler": 0
+  },
+  {
+   "title": "Desperate Measures",
+   "body": "Carrying Luciel Starwhisper's dispatch down to Silverwing Grove reveals grim news for the night elf defenders. According to the report, the Horde is not relenting under pressure; instead, every Silverwing advance prompts the orcs to strip and destroy as much of the ancient woodland as they can before retreating, escalating the conflict into a war of environmental attrition.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this report need to go?",
+   "aliases": [
+    "where do i take the report",
+    "report destination",
+    "farsong location"
+   ],
+   "answer": "The report must be carried southwest across Ashenvale from Forest Song to Silverwing Grove, near the border with the Barrens, where Sentinel Farsong commands local Silverwing forces."
+  },
+  {
+   "q": "Why can't Sentinel Luciel deliver the report herself?",
+   "aliases": [
+    "why cant luciel go",
+    "why does luciel need help"
+   ],
+   "answer": "Luciel is already overdue sending her update, but she cannot risk leaving the outpost at Forest Song unattended while the Warsong orcs remain active nearby."
+  },
+  {
+   "q": "What is Silverwing Grove?",
+   "aliases": [
+    "what is silverwing grove",
+    "silverwing base"
+   ],
+   "answer": "Silverwing Grove is a fortified night elf encampment in southwestern Ashenvale, near the Barrens border, serving as a primary command base for Sentinel operations against Horde aggression."
+  },
+  {
+   "q": "What news does the report contain?",
+   "aliases": [
+    "what is in the report",
+    "report contents",
+    "what did luciel write"
+   ],
+   "answer": "Luciel's report details escalating devastation by the Horde. Rather than backing down under pressure, the Warsong forces are accelerating their logging and doing as much damage to the forest as possible."
+  },
+  {
+   "q": "Who is fighting at the Warsong Lumber Camp?",
+   "aliases": [
+    "who is at warsong lumber camp",
+    "who are the sentinels fighting"
+   ],
+   "answer": "The Silverwing Sentinels are fighting the orcs of the Warsong clan, who have established a massive logging operation to fuel the Horde's expansion and resource needs."
+  },
+  {
+   "q": "Why is the defense split between Forest Song and Silverwing Grove?",
+   "aliases": [
+    "why two bases",
+    "forest song and silverwing grove"
+   ],
+   "answer": "Forest Song watches the eastern front and the northern approaches, while Silverwing Grove anchors the defense near the southern border where reinforcements and supplies push up from the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Every dispatch between Sentinels carries the grim reality of Ashenvale's defilement, underscoring your people's fight to protect sacred woodlands from orcish axes."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Carrying dispatches between these isolated frontier garrisons helps coordinate Alliance resistance against the Horde's territorial expansion."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "forest song",
+  "luciel starwhisper",
+  "sentinel farsong",
+  "sentinel report",
+  "silverwing grove",
+  "warsong lumber camp"
+ ],
+ "related": [
+  "npc:sentinel-luciel-starwhisper",
+  "npc:sentinel-farsong",
+  "subzone:silverwing-grove",
+  "subzone:forest-song",
+  "subzone:warsong-lumber-camp",
+  "zone:ashenvale",
+  "topic:horde",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Report from the Northern Front (BC Classic)"
+ ]
+}

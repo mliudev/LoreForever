@@ -1,0 +1,131 @@
+{
+ "key": "quest:3369",
+ "type": "quest",
+ "name": "In Nightmares",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   3369
+  ],
+  "level": "25",
+  "faction": "Horde",
+  "start": "Falla Sagewind",
+  "end": "Arch Druid Hamuul Runetotem",
+  "previous": "The Glowing Shard",
+  "next": null,
+  "wiki": "In Nightmares (Horde)",
+  "chain": [
+   "The Glowing Shard",
+   "In Nightmares (Horde)",
+   "In Nightmares (Alliance)"
+  ]
+ },
+ "summary": "In Nightmares is a Horde quest that tasks an adventurer with carrying a disturbing relic, the Nightmare Shard, to Arch Druid Hamuul Runetotem atop Elder Rise in Thunder Bluff. Originally recovered as a glowing fragment from the Wailing Caverns, the shard reveals a deeply unsettling corruption seeping into the Emerald Dream.",
+ "sections": [
+  {
+   "title": "A Disturbing Discovery",
+   "body": "After examining the strange crystal retrieved from the depths of the Wailing Caverns, Falla Sagewind recognizes that it is made from the pure essence of the Emerald Dream. Yet the vision dwelling inside is dark and chaotic, bearing the hallmark not of peaceful slumber, but of a waking nightmare. Reluctant to speak openly about such alarming omens, she entrusts the shard to you with instructions to seek out Thunder Bluff's most venerated elder druid, Arch Druid Hamuul Runetotem.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Secret in the Dream",
+   "body": "When presented with the Nightmare Shard on Elder Rise, Hamuul Runetotem's usual composure falters upon peering inside. Confronted with tangible evidence that the Emerald Dream is unraveling into nightmare, the archdruid chooses his words carefully. He firmly counsels discretion, warning that these delicate matters are far beyond the understanding of ordinary travelers, and quietly resolves to investigate the unseen affliction threatening the slumbering realm.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Nightmare Shard?",
+   "aliases": [
+    "what is nightmare shard",
+    "glowing shard nightmare",
+    "what did falla find"
+   ],
+   "answer": "The Nightmare Shard is the purified form of the glowing shard retrieved from the mutated beasts in the Wailing Caverns. Though forged from the pure spiritual essence of the Emerald Dream, it carries a foul, twisted vision indicating that something in the Dream has gone terribly wrong."
+  },
+  {
+   "q": "Who is Falla Sagewind?",
+   "aliases": [
+    "falla sagewind",
+    "who gave me this quest",
+    "quest giver"
+   ],
+   "answer": "Falla Sagewind is a knowledgeable night elf located on the mountainside overlooking the Wailing Caverns in the Barrens. She studies the anomalous phenomena emerging from the corrupted oasis caverns and sends Horde couriers to Hamuul Runetotem when dangerous relics are discovered."
+  },
+  {
+   "q": "Where can I find Arch Druid Hamuul Runetotem?",
+   "aliases": [
+    "where is hamuul",
+    "hamuul runetotem location",
+    "elder rise hamuul"
+   ],
+   "answer": "Arch Druid Hamuul Runetotem resides on Elder Rise, one of the elevated mesas of Thunder Bluff. He can be found standing within the druidic circle alongside his fellow Cenarion Circle practitioners."
+  },
+  {
+   "q": "Why does Hamuul want to keep the shard a secret?",
+   "aliases": [
+    "why keep it quiet",
+    "hamuul secret",
+    "why does hamuul hide the shard"
+   ],
+   "answer": "The Emerald Dream is the sacred sanctuary of nature and the slumbering druids. Tangible evidence that it is being twisted into a nightmare could cause widespread panic among the Cenarion Circle and undermine fragile spiritual restoration efforts across Kalimdor, prompting Hamuul to urge silence."
+  },
+  {
+   "q": "Does the Alliance have a version of this quest?",
+   "aliases": [
+    "alliance version",
+    "in nightmares alliance",
+    "can alliance do this"
+   ],
+   "answer": "Yes. While Horde champions take the Nightmare Shard to Arch Druid Hamuul Runetotem in Thunder Bluff, Alliance players who investigate the Wailing Caverns are directed to take their shard across the sea to Darnassus, presenting it directly to Keeper Remulos or the circle on Teldrassil."
+  },
+  {
+   "q": "How does this relate to the Wailing Caverns?",
+   "aliases": [
+    "wailing caverns connection",
+    "naralex connection",
+    "how does this relate to naralex"
+   ],
+   "answer": "The shard originates within the Wailing Caverns, where the druid Naralex entered a deep trance to channel underground springs into the Barrens. Instead of healing the land, Naralex's slumber twisted into a waking nightmare, mutating the cavern fauna and bleeding into crystal shards like this one."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids, the shard is deeply alarming evidence that the pristine sanctity of the Emerald Dream is compromised, validating the whispers of corruption creeping through Cenarion circles."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Returning to Arch Druid Hamuul Runetotem emphasizes the growing prominence of tauren druids within the Cenarion Circle as they confront ancient cosmological threats alongside their night elven teachers."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Delivering the shard safeguards the spiritual well-being of central Kalimdor, demonstrating that the Horde plays a crucial role in containing the fungal and dream-born corruption spilling from the Barrens."
+  }
+ ],
+ "keywords": [
+  "elder rise",
+  "emerald dream",
+  "falla sagewind",
+  "glowing shard",
+  "hamuul runetotem",
+  "in nightmares",
+  "nightmare shard",
+  "thunder bluff",
+  "wailing caverns"
+ ],
+ "related": [
+  "quest:6981",
+  "quest:1489",
+  "npc:falla-sagewind",
+  "subzone:elder-rise",
+  "zone:thunderbluff",
+  "topic:emerald-dream",
+  "topic:druid",
+  "topic:horde"
+ ],
+ "attribution": [
+  "In Nightmares (Horde)"
+ ]
+}

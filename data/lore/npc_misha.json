@@ -1,0 +1,116 @@
+{
+ "key": "npc:misha",
+ "type": "npc",
+ "name": "Misha",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Misha",
+  "refs": 4
+ },
+ "summary": "Misha is the loyal bear companion of Rexxar, the Champion of the Horde. Rescued as an orphaned cub, she wanders Kalimdor faithfully at the Mok'nathal beastmaster's side.",
+ "sections": [
+  {
+   "title": "A Boundless Bond",
+   "body": "Rexxar discovered Misha as an orphaned cub beside her slain mother in the Ruins of Ravenwind in Feralas. Recognizing a kindred solitary spirit, the wandering Mok'nathal adopted her and gave her a name. Together they ventured north into the arid wilds of Desolace, forging a fierce, protective partnership that has weathered countless wildernesses and bloody battles.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defender of Durotar",
+   "body": "Misha is far more than a tame pet; she is a seasoned warrior. She fought alongside Rexxar in the brutal conflict against Grand Admiral Daelin Proudmoore at Theramore Isle, helping ensure the young Horde's survival. When not in battle, her keen senses and strength serve as an extension of Rexxar's will, even carrying fallen allies such as the orc Byrok back to Orgrimmar.",
+   "spoiler": 0
+  },
+  {
+   "title": "Wilds of Kalimdor",
+   "body": "Currently, travelers venturing along the long tracks through the Stonetalon Mountains, Desolace, and Feralas can spot Misha padding quietly beside Rexxar. Though fierce enough to tear apart any predator foolish enough to threaten them, she remains Rexxar's steadfast anchor in an otherwise untrustworthy world.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Misha?",
+   "aliases": [
+    "rexxars bear",
+    "who is the bear with rexxar",
+    "misha bear"
+   ],
+   "answer": "Misha is a ferocious brown bear and the lifelong companion of Rexxar, the Champion of the Horde. She wanders the wilds alongside him across central Kalimdor."
+  },
+  {
+   "q": "Where did Rexxar find Misha?",
+   "aliases": [
+    "where did rexxar get misha",
+    "misha backstory",
+    "how did rexxar meet misha"
+   ],
+   "answer": "Rexxar found Misha as a small cub in the Ruins of Ravenwind in Feralas, stranded beside her dead mother. Seeing that they were both alone in the wild, Rexxar took her in."
+  },
+  {
+   "q": "Where can Misha be found right now?",
+   "aliases": [
+    "misha location",
+    "where is misha",
+    "find misha"
+   ],
+   "answer": "Misha roams along the long patrol paths of the Stonetalon Mountains, Desolace, and Feralas, faithfully walking alongside Rexxar on his endless wanderings."
+  },
+  {
+   "q": "Did Misha take part in the founding of Durotar?",
+   "aliases": [
+    "misha theramore",
+    "did misha fight daelin",
+    "misha third war"
+   ],
+   "answer": "Yes. Following the Third War, Misha accompanied Rexxar into battle against Grand Admiral Daelin Proudmoore's forces at Theramore Isle to defend the fledgling Horde."
+  },
+  {
+   "q": "Is Misha hostile to Alliance players?",
+   "aliases": [
+    "can alliance attack misha",
+    "is misha aggressive"
+   ],
+   "answer": "Yes. As the companion of the Champion of the Horde, Misha will fiercely defend Rexxar and attack any Alliance trespassers who draw too close."
+  },
+  {
+   "q": "Why does Rexxar prefer beasts like Misha to people?",
+   "aliases": [
+    "why does rexxar keep beasts",
+    "rexxar bear companion"
+   ],
+   "answer": "Disillusioned by the deceit and warfare of humanoid races, Rexxar chose the solitude of the wilderness. He believes beasts are direct and honest, finding in Misha a companion devoid of betrayal."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For hunters, Misha represents the ultimate ideal of an animal companion: an unbreakable lifelong partnership forged through mutual respect rather than mere dominance."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Misha fought alongside Rexxar to secure the fledgling Horde's freedom at Theramore Isle, earning the quiet respect of veterans across Durotar."
+  }
+ ],
+ "keywords": [
+  "bear",
+  "beastmaster",
+  "desolace",
+  "feralas",
+  "misha",
+  "ravenwind",
+  "rexxar",
+  "stonetalon"
+ ],
+ "related": [
+  "zone:desolace",
+  "zone:feralas",
+  "zone:stonetalon",
+  "subzone:ruins-of-ravenwind",
+  "subzone:theramore-isle",
+  "zone:orgrimmar",
+  "topic:horde",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Misha"
+ ]
+}

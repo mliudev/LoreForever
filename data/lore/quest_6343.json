@@ -1,0 +1,117 @@
+{
+ "key": "quest:6343",
+ "type": "quest",
+ "name": "Return to Nessa",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   6343
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Laird",
+  "end": "Nessa Shadowsong",
+  "previous": "Flight to Auberdine",
+  "next": null,
+  "wiki": "Return to Nessa",
+  "chain": []
+ },
+ "summary": "This quest sends young travelers from Auberdine back to Rut'theran Village to deliver Laird's findings to Nessa Shadowsong. It concludes an introductory errand teaching adventurers how to navigate transit between the mainland of Kalimdor and Teldrassil.",
+ "sections": [
+  {
+   "title": "A Messenger Across the Sea",
+   "body": "Having delivered Nessa Shadowsong's initial inquiries to Laird in Auberdine, travelers are charged with carrying his written observations back across the water. Laird notes stark differences in the fish catches between Darkshore and Teldrassil's shores, suspecting that the great World Tree itself alters local marine life. To make the journey back to Rut'theran Village, adventurers can either hire a flight from the hippogryph master Caylais Moonfeather or board the regular ferry running from the Auberdine pier.",
+   "spoiler": 0
+  },
+  {
+   "title": "Curious Bounties",
+   "body": "Upon receiving Laird's reply at Rut'theran Village, Nessa expresses fascination with the pronounced disparity in marine life. While the massive size of the fish near the World Tree provides an immediate boon to local fishermen, the underlying cause remains an open question among the Kaldorei. Nessa resolves to share the findings with her fellow villagers, content for now to harvest the abundant sea life while keeping a watchful eye on what forces might truly be responsible.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts and completes this quest?",
+   "aliases": [
+    "quest giver",
+    "where to turn in",
+    "who gives quest"
+   ],
+   "answer": "The quest is offered by the fisherman Laird in Auberdine on the Darkshore coast. It is turned in to Nessa Shadowsong at Rut'theran Village, at the base of Teldrassil."
+  },
+  {
+   "q": "What is the fastest way back to Rut'theran Village?",
+   "aliases": [
+    "how to get back",
+    "travel to ruttheran",
+    "ferry or hippogryph"
+   ],
+   "answer": "You can either take a swift hippogryph flight by speaking with Caylais Moonfeather in Auberdine, or walk out onto the long pier to catch the regular passenger ferry back to the docks of Rut'theran Village."
+  },
+  {
+   "q": "Why is Laird studying the fish?",
+   "aliases": [
+    "why study fish",
+    "fish difference",
+    "laird response lore"
+   ],
+   "answer": "Laird notices that marine catches along Darkshore differ dramatically from those harvested around Teldrassil. He suspects that the burgeoning growth and unique energies of the World Tree are directly altering the surrounding wildlife."
+  },
+  {
+   "q": "Does Nessa find out why the fish are so strange?",
+   "aliases": [
+    "why are fish big",
+    "teldrassil fish mystery"
+   ],
+   "answer": "Not immediately. Nessa notes the remarkable difference and agrees it warrants further investigation, but she is content to share the report with the local villagers and enjoy the bountiful catches in the meantime."
+  },
+  {
+   "q": "What comes before this quest?",
+   "aliases": [
+    "prerequisite",
+    "previous quest",
+    "flight to auberdine"
+   ],
+   "answer": "This quest directly follows 'Flight to Auberdine,' which sends travelers from Rut'theran Village over to Darkshore with Nessa's original letter to Laird."
+  },
+  {
+   "q": "What is the purpose of this quest chain?",
+   "aliases": [
+    "why do this quest",
+    "travel quest"
+   ],
+   "answer": "Beyond introducing the mysterious ecological influence of Teldrassil on local wildlife, this two-part delivery serves as a rite of passage teaching young night elf adventurers how to commute between their island home and the Kalimdor mainland via ship and flight master."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves venturing away from the boughs of Teldrassil for the first time, this exchange marks their first official errand connecting the new island haven to the ancient mainland of Darkshore."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Auberdine and Rut'theran Village form the vital maritime gateway linking northern Kalimdor's night elf settlements to broader Alliance interests across Azeroth."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "caylais moonfeather",
+  "darkshore",
+  "laird",
+  "nessa shadowsong",
+  "return to nessa",
+  "rut'theran village",
+  "teldrassil"
+ ],
+ "related": [
+  "quest:6342",
+  "npc:laird",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "quest:940"
+ ],
+ "attribution": [
+  "Return to Nessa"
+ ]
+}

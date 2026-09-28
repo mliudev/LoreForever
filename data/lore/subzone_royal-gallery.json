@@ -1,0 +1,82 @@
+{
+ "key": "subzone:royal-gallery",
+ "type": "subzone",
+ "name": "Royal Gallery",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Royal Gallery"
+ },
+ "summary": "Tucked away inside Stormwind Keep past the courtyard garden, the Royal Gallery serves as a quiet hall of remembrance. It displays magnificent statues and fine works of art honoring prominent figures from the kingdom's history and the Grand Alliance.",
+ "sections": [
+  {
+   "title": "A Hall of Heroes",
+   "body": "The Royal Gallery sits adjacent to the Royal Library, just beyond the verdant interior garden of Stormwind Keep. The hall houses statues of towering figures who shaped the realm: King Llane Wrynn, the fallen ruler of Stormwind; Grand Admiral Daelin Proudmoore of Kul Tiras; and Mara Fordragon, ancestor of the current Regent. It serves as both a private museum of noble heritage and a quiet retreat for courtly visitors like Lady Dena Kennedy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Royal Gallery located?",
+   "aliases": [
+    "royal gallery location",
+    "how to get to royal gallery",
+    "where is it"
+   ],
+   "answer": "The Royal Gallery is located inside Stormwind Keep. Head through the keep past the small interior courtyard park, situated right next to the Royal Library."
+  },
+  {
+   "q": "Which historical figures are commemorated here?",
+   "aliases": [
+    "statues in royal gallery",
+    "who are the statues of",
+    "who is honored here"
+   ],
+   "answer": "The gallery features grand statues honoring King Llane Wrynn, Grand Admiral Daelin Proudmoore, and Mara Fordragon, celebrating the lineage and valor of the kingdom and its closest allies."
+  },
+  {
+   "q": "Who can be found visiting the gallery?",
+   "aliases": [
+    "who is here",
+    "npcs in royal gallery",
+    "lady dena kennedy"
+   ],
+   "answer": "Lady Dena Kennedy can frequently be found admiring the fine art and reflective atmosphere of the gallery."
+  },
+  {
+   "q": "What is the difference between the Royal Gallery and the Royal Library?",
+   "aliases": [
+    "royal gallery vs library",
+    "is it part of the library"
+   ],
+   "answer": "While situated immediately next to one another in the royal wing of Stormwind Keep, they are distinct chambers. The library houses royal archives and scholars, while the gallery focuses on fine art and memorial sculpture."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The gallery stands as a quiet monument to the sacrifices of the Alliance, paying homage to legendary leaders like Daelin Proudmoore and King Llane."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, this hall honors the legacy of House Wrynn and House Fordragon, preserving their royal heritage within the keep."
+  }
+ ],
+ "keywords": [
+  "daelin proudmoore",
+  "dena kennedy",
+  "llane wrynn",
+  "mara fordragon",
+  "royal gallery",
+  "statues",
+  "stormwind keep"
+ ],
+ "related": [
+  "subzone:stormwind-keep",
+  "subzone:royal-library",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Royal Gallery"
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "key": "quest:92544",
+ "type": "quest",
+ "name": "Al'Aketh Thugs",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92544
+  ],
+  "level": "5",
+  "faction": null,
+  "start": "Hanaa Nightwind",
+  "end": "",
+  "previous": "Aetheen of the Gales",
+  "next": null,
+  "wiki": "Al'Aketh Thugs",
+  "chain": []
+ },
+ "summary": "The peaceful roads around Thendal Grove are threatened by a violent band of Al'Aketh cultists occupying the nearby temple ruins. Dispatched from the Shrine of Akir under orders to harass wayfarers and force recruits into their ranks, these zealots pose an immediate danger to local travelers. Hanaa Nightwind tasks adventurers with breaking their hold and slaying their brutish commander.",
+ "sections": [
+  {
+   "title": "Cultist Ruffians in the Ruins",
+   "body": "Just southwest of Thendal Grove lie ancient temple ruins that should offer quiet shelter to wanderers. Instead, the grounds have been overtaken by the Al'Aketh, an aggressive cult driven by fanatical ambition. Far from peaceful worshipers, these cultists act as highwaymen and enforcers, preying upon those traveling along the outskirts of the grove. The Rangers stationed nearby suspect these ruffians were sent directly by High Priestess Lorthuna from the Shrine of Akir to bully and coerce the populace into bowing to the cult's influence.",
+   "spoiler": 0
+  },
+  {
+   "title": "Malduko Cloudcrush",
+   "body": "Heading the rabble at the temple ruins is Malduko Cloudcrush, a brutal leader who uses violence and fear to keep both his initiates and unsuspecting wayfarers in line. With brutes and newly indoctrinated neophytes answering his commands, Malduko has established an aggressive outpost right on the doorstep of Thendal Grove. By striking down Cloudcrush and scattering his underlings, Hanaa Nightwind hopes to shatter the cult's confidence and send a clear warning that zealotry and coercion will not be tolerated in these lands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are the Al'Aketh?",
+   "aliases": [
+    "what is the al'aketh",
+    "al'aketh cult",
+    "who are alaketh"
+   ],
+   "answer": "The Al'Aketh are a fanatical cult operating on Zephras. Led by figures like High Priestess Lorthuna at the Shrine of Akir, they use strong-arm tactics, intimidation, and violence to force local travelers and residents into joining their ranks."
+  },
+  {
+   "q": "Why are the cultists attacking Thendal Grove?",
+   "aliases": [
+    "why are cultists here",
+    "why thendal grove",
+    "cultist motive"
+   ],
+   "answer": "They have established a camp in the temple ruins southwest of Thendal Grove to ambush travelers leaving the area. By terrorizing wayfarers on the road, they hope to pressure and coerce the local people into submitting to the cult."
+  },
+  {
+   "q": "Who is Malduko Cloudcrush?",
+   "aliases": [
+    "malduko",
+    "cloudcrush",
+    "who is malduko cloudcrush"
+   ],
+   "answer": "Malduko Cloudcrush is a violent brute leading the Al'Aketh encampment at the temple ruins. Described as a monster by Hanaa Nightwind, he directs the brutes and neophytes who prey on nearby roads."
+  },
+  {
+   "q": "Who is Hanaa Nightwind?",
+   "aliases": [
+    "hanaa",
+    "hanaa nightwind",
+    "quest giver"
+   ],
+   "answer": "Hanaa Nightwind is one of the Rangers guarding Thendal Grove. She stays stationed at her post along the road to warn travelers of the nearby cultist ambush, relying on capable adventurers to clear out the threat."
+  },
+  {
+   "q": "Who sent these cultists to the ruins?",
+   "aliases": [
+    "who commands them",
+    "cult leader",
+    "who sent malduko"
+   ],
+   "answer": "Hanaa suspects they were dispatched by High Priestess Lorthuna, who oversees cult activities from the Shrine of Akir."
+  },
+  {
+   "q": "What else can be found near the temple ruins?",
+   "aliases": [
+    "ruins ley line",
+    "temple ruins secret",
+    "ruins southwest"
+   ],
+   "answer": "Aside from the Al'Aketh encampment, an active Ley Line is located within the ancient ruins at the southwest end of the area."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "al'aketh brute",
+  "al'aketh neophyte",
+  "al'aketh thugs",
+  "hanaa nightwind",
+  "high priestess lorthuna",
+  "malduko cloudcrush",
+  "shrine of akir",
+  "thendal grove"
+ ],
+ "related": [
+  "quest:92471",
+  "zone:zephras"
+ ],
+ "attribution": [
+  "Al'Aketh Thugs"
+ ]
+}

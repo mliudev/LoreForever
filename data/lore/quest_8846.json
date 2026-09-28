@@ -1,0 +1,115 @@
+{
+ "key": "quest:8846",
+ "type": "quest",
+ "name": "Five Signets for War Supplies",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   8846
+  ],
+  "level": "19",
+  "faction": "Alliance",
+  "start": "Field Marshal Snowfall",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Five Signets for War Supplies (Alliance)",
+  "chain": []
+ },
+ "summary": "Field Marshal Snowfall in Ironforge oversees the collection of provisions and equipment for the Grand Alliance's war effort. Champions contributing to the stockpiles can barter their commendation signets directly for field rations, bandages, and critical combat supplies. It ensures that those working tirelessly on the home front remain equipped for the coming conflicts.",
+ "sections": [
+  {
+   "title": "Supplying the Front",
+   "body": "The massive staging of armies requires more than just raw courage; it demands a relentless logistical pipeline. Field Marshal Snowfall acts as one of the Alliance's primary quartermasters in Ironforge, organizing the flow of materials destined for active fronts. When couriers and heroes bring in commendation signets earned through civic service, Snowfall offers survival rations and tactical materiel in direct exchange.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Pragmatic Trade",
+   "body": "While commendation signets are often turned in to royal heralds for public honor and civic standing, Snowfall offers an unceremonious alternative. Trading five signets for an allotment of field gear yields no pomp, glory, or official recognition. Instead, it provides tangible, life-saving goods to ensure soldiers and volunteers stay alive when marching into hostile lands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Field Marshal Snowfall?",
+   "aliases": [
+    "snowfall ironforge",
+    "field marshal snowfall",
+    "who is snowfall"
+   ],
+   "answer": "Field Marshal Snowfall is a senior Alliance military officer stationed in the dwarven capital of Ironforge. He is tasked with gathering raw materials and dispersing supplies to soldiers and adventurers who aid the war effort."
+  },
+  {
+   "q": "What are Alliance Commendation Signets?",
+   "aliases": [
+    "commendation signets",
+    "alliance signets",
+    "what are signets"
+   ],
+   "answer": "Alliance Commendation Signets are official tokens awarded to citizens and adventurers who donate critical trade goods, bandages, herbs, and ores to support the Alliance's widespread mobilization."
+  },
+  {
+   "q": "Why trade signets for supplies rather than prestige?",
+   "aliases": [
+    "why do this quest",
+    "signets for supplies worth it",
+    "snowfall supplies trade"
+   ],
+   "answer": "Exchanging signets for supply crates bypasses civic reputation in favor of immediate, practical resources. For frontline fighters who need consumables, rations, and field bandages right away, practical gear often outweighs ceremonial standing."
+  },
+  {
+   "q": "Where does this exchange take place?",
+   "aliases": [
+    "where is snowfall",
+    "quest location",
+    "snowfall ironforge location"
+   ],
+   "answer": "The exchange takes place in Ironforge, where Field Marshal Snowfall stands near the war staging grounds and supply depots, coordinating shipments across Khaz Modan and beyond."
+  },
+  {
+   "q": "Can I repeat this exchange?",
+   "aliases": [
+    "is this repeatable",
+    "can i do this again",
+    "turn in more signets"
+   ],
+   "answer": "Yes. Field Marshal Snowfall is prepared to continuously authorize additional supply bundles as long as you provide the requisite five commendation signets each time."
+  },
+  {
+   "q": "Does this turn-in grant reputation?",
+   "aliases": [
+    "does this give rep",
+    "ironforge rep signets",
+    "recognition for signets"
+   ],
+   "answer": "No. Field Marshal Snowfall explicitly warns that trading signets directly for personal supplies grants no civic recognition or prestige with the Alliance factions, as the value is returned in physical goods."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This logistics requisition is a direct lifeline for Alliance champions preparing for major campaigns across Azeroth, ensuring troops have bandages and rations."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "With the bustling forge-city serving as an Alliance distribution hub, dwarven defenders take pride in seeing their halls arming all allied races."
+  }
+ ],
+ "keywords": [
+  "commendation",
+  "ironforge",
+  "materiel",
+  "rations",
+  "signets",
+  "snowfall",
+  "war supplies"
+ ],
+ "related": [
+  "npc:field-marshal-snowfall",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Five Signets for War Supplies (Alliance)"
+ ]
+}

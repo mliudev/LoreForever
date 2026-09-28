@@ -1,0 +1,73 @@
+{
+ "key": "subzone:dreadmaul-post",
+ "type": "subzone",
+ "name": "Dreadmaul Post",
+ "era": "classic",
+ "zone": "blastedlands",
+ "meta": {
+  "wiki": "Dreadmaul Post"
+ },
+ "summary": "Dreadmaul Post is an entrenched ogre settlement situated in the scorched wastes of the Blasted Lands. Established by the Dreadmaul clan, this mound serves as a fortified redoubt near the Dark Portal where ogres have lingered since their arrival from Draenor. Travelers passing through the region must contend with these fierce brutes and the treacherous terrain surrounding their encampment.",
+ "sections": [
+  {
+   "title": "Remnants of Draenor",
+   "body": "When the Horde surged through the Dark Portal in decades past, clans of ogres marched alongside them into Azeroth. The Dreadmaul clan chose to dig in near the gateway itself, raising crude stone mounds and earthworks across the red wastes of the Blasted Lands. Dreadmaul Post stands as one of their primary outposts, maintaining a firm grip over the badlands and clashing with wandering beasts, lost draenei survivors, and any travelers foolish enough to draw near their territory.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives at Dreadmaul Post?",
+   "aliases": [
+    "who is at dreadmaul post",
+    "dreadmaul post inhabitants",
+    "dreadmaul ogres"
+   ],
+   "answer": "Dreadmaul Post is inhabited by the Dreadmaul clan of ogres. These hulking brutes crossed over from Draenor through the Dark Portal during the wars and established a permanent foothold in the desolate crags of the Blasted Lands."
+  },
+  {
+   "q": "Why are the ogres still in the Blasted Lands?",
+   "aliases": [
+    "why dreadmaul here",
+    "ogres blasted lands",
+    "why ogres near portal"
+   ],
+   "answer": "Following the Old Horde's collapse and the sealing of the Dark Portal, many ogres scattered across Azeroth. The Dreadmaul clan, however, stayed close to their original entry point, making the scarred, desolate expanse around the dormant rift their home."
+  },
+  {
+   "q": "Who else wanders the area near the post?",
+   "aliases": [
+    "draenei blasted lands",
+    "who is near dreadmaul",
+    "creatures dreadmaul post"
+   ],
+   "answer": "Aside from fierce local predators like scorpid and basilisks, occasional sorrowful, displaced draenei survivors wander the red desert near Dreadmaul Post, stranded far from their shattered homeworld."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Although ogres once fought alongside the Old Horde, wild clans like the Dreadmaul have long severed ties with Thrall's new order, viewing all travelers as hostile invaders."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance scouts monitoring the Dark Portal, the Dreadmaul ogres represent an entrenched, violent hazard that complicates any patrol through the southern reaches of the continent."
+  }
+ ],
+ "keywords": [
+  "blasted lands",
+  "dark portal",
+  "dreadmaul",
+  "dreadmaul post",
+  "ogre mound",
+  "ogres"
+ ],
+ "related": [
+  "zone:blastedlands",
+  "subzone:dark-portal",
+  "subzone:maul-subzone"
+ ],
+ "attribution": [
+  "Dreadmaul Post"
+ ]
+}

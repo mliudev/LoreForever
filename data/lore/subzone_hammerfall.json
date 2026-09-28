@@ -1,0 +1,94 @@
+{
+ "key": "subzone:hammerfall",
+ "type": "subzone",
+ "name": "Hammerfall",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Hammerfall"
+ },
+ "summary": "Hammerfall is the Horde's primary fortified outpost in the Arathi Highlands, built upon the ruins of a notorious Alliance internment camp. It honors the legendary former Warchief Orgrim Doomhammer, who fell nearby while fighting to liberate his captive people. Today, orcs and Forsaken garrison the settlement against hostile Boulderfist ogres, Witherbark trolls, and the League of Arathor.",
+ "sections": [
+  {
+   "title": "A Legacy of Liberation",
+   "body": "Following the Second War, the human Alliance built vast internment camps across Lordaeron to contain the defeated orcs. The compound that once stood here was among the largest. Years later, Thrall and Orgrim Doomhammer assaulted the camp to liberate the lethargic captives. During the chaos of their retreat, a charging Alliance knight drove a lance through Doomhammer's backplate, mortally wounding the legendary Warchief. Following the Third War, the new Horde reclaimed the ruined ground and established an outpost here, naming it Hammerfall in memory of their fallen leader.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Foothold in the Highlands",
+   "body": "Today, Hammerfall serves as the Horde's lifeline in Arathi. Positioned against hostile surroundings, the garrison contends with aggressive Boulderfist ogres from Boulder'gor and Boulderfist Hall, as well as the native Witherbark trolls. Furthermore, Forsaken Defilers have made the outpost their staging ground to claim the contested resources of the Arathi Basin against the Alliance's League of Arathor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is this base called Hammerfall?",
+   "aliases": [
+    "why hammerfall",
+    "hammerfall name origin",
+    "who died at hammerfall"
+   ],
+   "answer": "It is named in honor of former Warchief Orgrim Doomhammer, who was mortally wounded on this ground by an Alliance knight's lance during the liberation of the orc internment camp."
+  },
+  {
+   "q": "What was Hammerfall before the Horde rebuilt it?",
+   "aliases": [
+    "hammerfall history",
+    "what was hammerfall before",
+    "internment camp arathi"
+   ],
+   "answer": "It was one of the largest Alliance of Lordaeron internment camps, constructed after the Second War to imprison captive orcs."
+  },
+  {
+   "q": "Who leads the defense of Hammerfall right now?",
+   "aliases": [
+    "hammerfall leaders",
+    "who is in charge of hammerfall",
+    "tallow drum fel"
+   ],
+   "answer": "Horde figures like Drum Fel and Tallow coordinate the outpost's defense, directing warriors against the encroaching Boulderfist ogres and Witherbark forest trolls."
+  },
+  {
+   "q": "Why are the Forsaken stationed here?",
+   "aliases": [
+    "forsaken hammerfall",
+    "why are undead in hammerfall",
+    "defilers arathi"
+   ],
+   "answer": "The Forsaken Defilers operate out of Hammerfall to secure vital supplies from the Arathi Basin and counter the Alliance's League of Arathor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Hammerfall is hallowed ground for orcs, marking the place where Orgrim Doomhammer gave his life to free captive clanmates and pass the mantle of Warchief to Thrall."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Surrounded by hostile ogres, forest trolls, and remnants of the Alliance, Hammerfall is the Horde's sole fortress ensuring control over the central Arathi Highlands."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "boulderfist",
+  "defilers",
+  "hammerfall",
+  "internment camp",
+  "orgrim doomhammer",
+  "thrall",
+  "witherbark"
+ ],
+ "related": [
+  "npc:orgrim-doomhammer",
+  "zone:arathi",
+  "npc:thrall",
+  "npc:drum-fel",
+  "npc:tallow",
+  "subzone:boulder-gor",
+  "subzone:boulderfist-hall",
+  "topic:second-war"
+ ],
+ "attribution": [
+  "Hammerfall"
+ ]
+}

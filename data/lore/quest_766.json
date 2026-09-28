@@ -1,0 +1,119 @@
+{
+ "key": "quest:766",
+ "type": "quest",
+ "name": "Mazzranache",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   766
+  ],
+  "level": "8",
+  "faction": "Horde",
+  "start": "Maur Raincaller",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Mazzranache (Classic)",
+  "chain": []
+ },
+ "summary": "Maur Raincaller in Bloodhoof Village has fallen victim to a venomous bite from Mazzranache, a legendary plainstrider that terrorized his grandfather a generation ago. Struck by fever and delirious nightmares, the tauren requires a potent remedy brewed from Mulgore's wildlife before the infection claims his life.",
+ "sections": [
+  {
+   "title": "A Legacy of the Plains",
+   "body": "For years, Maur Raincaller regarded Mazzranache as little more than a harrowing family tale passed down by his grandfather. The elder tauren spoke of an unusually savage plainstrider armed with glowing red eyes, razor-sharp talons, and a toxic bite that defied the peaceful nature of most Mulgore wildlife. When Maur crossed paths with the beast out on the open grass, the legend proved all too real, leaving him severely wounded and struggling to make it back to safety.",
+   "spoiler": 0
+  },
+  {
+   "title": "Racing the Infection",
+   "body": "The creature's venom works swiftly, inducing high fevers and nightmarish delirium. To purge the venom before it turns fatal, traditional tauren medicine relies on the vitality of the local beasts. Maur requires a prairie wolf heart, a flatland cougar femur, a plainstrider scale, and a swoop gizzard. By combining the essences of these varied hunters and scavengers, he can brew a concoction capable of halting the necrotic spread and nursing him back to health.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Mazzranache?",
+   "aliases": [
+    "who is mazzranache",
+    "what kind of beast is mazzranache",
+    "mazzranache lore"
+   ],
+   "answer": "Mazzranache is an infamous plainstrider roaming the grasslands of Mulgore. Unlike common striders, it is known for vivid plumage, demonic red eyes, fierce talons, and an unusually venomous bite. It has terrorized travelers across multiple generations."
+  },
+  {
+   "q": "Who is Maur Raincaller?",
+   "aliases": [
+    "maur raincaller",
+    "who gave me this quest",
+    "who is the sick tauren"
+   ],
+   "answer": "Maur Raincaller is a tauren residing in Bloodhoof Village. While crossing Mulgore, he was ambushed and bitten on the shoulder by Mazzranache, leaving him bedridden with a life-threatening, venomous infection."
+  },
+  {
+   "q": "Why does Maur need parts from four different beasts?",
+   "aliases": [
+    "why wolf heart cougar femur",
+    "why animal ingredients",
+    "mazzranache remedy ingredients"
+   ],
+   "answer": "Traditional tauren remedies draw upon the natural strengths and spiritual essences of plains animals to neutralize potent toxins. The heart of a wolf, the dense marrow of a cougar femur, a plainstrider scale, and a swoop gizzard together form an antidote strong enough to counteract Mazzranache's venom."
+  },
+  {
+   "q": "Did Maur's grandfather kill Mazzranache?",
+   "aliases": [
+    "did grandfather defeat mazzranache",
+    "maur grandfather mazzranache",
+    "who fought mazzranache before"
+   ],
+   "answer": "No. Maur's grandfather fought the fierce plainstrider years ago but was unable to defeat it, surviving only to pass down warning tales about its bright colors and vicious attacks to his descendants."
+  },
+  {
+   "q": "Does this quest ask me to hunt down Mazzranache itself?",
+   "aliases": [
+    "do i kill mazzranache",
+    "where is mazzranache",
+    "hunt mazzranache"
+   ],
+   "answer": "No. Maur's immediate priority is surviving the fever. The task focuses entirely on gathering the components necessary to craft his cure rather than hunting down the legendary bird."
+  },
+  {
+   "q": "Where is Bloodhoof Village located?",
+   "aliases": [
+    "where is bloodhoof village",
+    "bloodhoof village location"
+   ],
+   "answer": "Bloodhoof Village lies in central Mulgore, south of Thunder Bluff and just east of Stonebull Lake. It serves as the primary settlement for young tauren braves setting out into the wider plains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The remedy Maur crafts reflects the ancient tauren practice of drawing cures directly from the flora and fauna of the Earth Mother."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking prairie wolves, cougars, plainstriders, and swoops across Mulgore provides a practical lesson in reading the plains and understanding the distinct wildlife of the savannah."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing Bloodhoof Village from the harsh dangers of Mulgore is vital for establishing peace and stability in the tauren homeland."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "flatland cougar",
+  "maur raincaller",
+  "mazzranache",
+  "mulgore",
+  "plainstrider",
+  "prairie wolf",
+  "swoop"
+ ],
+ "related": [
+  "npc:maur-raincaller",
+  "subzone:bloodhoof-village"
+ ],
+ "attribution": [
+  "Mazzranache (Classic)"
+ ]
+}

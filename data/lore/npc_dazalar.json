@@ -1,0 +1,112 @@
+{
+ "key": "npc:dazalar",
+ "type": "npc",
+ "name": "Dazalar",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Dazalar",
+  "refs": 4
+ },
+ "summary": "Dazalar is a night elf hunter trainer stationed in Dolanaar within Teldrassil. He guides fledgling sentinels and scouts as they hone their marksmanship and learn the sacred art of bonding with the wild beasts of the great boughs.",
+ "sections": [
+  {
+   "title": "The Dolanaar Encampment",
+   "body": "Standing within the settlement of Dolanaar, Dazalar serves as a primary mentor for young hunters venturing beyond the sheltered glade of Shadowglen. Night elf society relies heavily on its rangers and sentinels to patrol the wilderness, and Dazalar ensures newcomers possess the discipline and patience necessary to protect Teldrassil's fragile ecosystem.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bonding with the Wild",
+   "body": "A critical rite of passage under Dazalar's guidance is learning to tame and care for beasts. Rather than bending creatures to a hunter's whim through sheer force, the Kaldorei way emphasizes forming a mutual pact with forest predators like nightsabers, owls, and strigid hunters, training them to fight alongside their masters with respect.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dazalar?",
+   "aliases": [
+    "who is dazalar",
+    "dazalar lore",
+    "dazalar identity"
+   ],
+   "answer": "Dazalar is a night elf hunter trainer located in the village of Dolanaar in Teldrassil. He teaches novice hunters new combat abilities and guides them in the ways of taming wild beasts."
+  },
+  {
+   "q": "Where can I find Dazalar?",
+   "aliases": [
+    "dazalar location",
+    "where is dazalar",
+    "dolanaar hunter trainer"
+   ],
+   "answer": "He is stationed outdoors in Dolanaar, the central hub of Teldrassil that adventurers reach shortly after leaving the starting grounds of Shadowglen."
+  },
+  {
+   "q": "What training does Dazalar provide?",
+   "aliases": [
+    "what does dazalar teach",
+    "dazalar skills",
+    "hunter training dazalar"
+   ],
+   "answer": "Dazalar teaches various ranged attacks, traps, and survival techniques suitable for developing hunters, and he sends novices on trials to master the taming of wilderness animals."
+  },
+  {
+   "q": "Does Dazalar offer any special quests?",
+   "aliases": [
+    "dazalar quests",
+    "hunter quests dolanaar",
+    "taming the beast quest"
+   ],
+   "answer": "Yes, Dazalar offers pivotal hunter training quests, including The Hunter's Path, the multi-part trial Taming the Beast, and Training the Beast, which teach young hunters how to bond with and maintain animal companions."
+  },
+  {
+   "q": "Why do night elves rely so heavily on hunters?",
+   "aliases": [
+    "night elf hunters lore",
+    "why sentinels use hunters",
+    "kaldorei hunters"
+   ],
+   "answer": "For millennia, the Kaldorei have lived in harmony with the ancient forests of Kalimdor. Archers and scouts form the backbone of the Sentinel army, utilizing stealth, marksmanship, and animal allies to safeguard their lands without disrupting nature."
+  },
+  {
+   "q": "What kind of beasts does Dazalar send hunters to tame?",
+   "aliases": [
+    "what beasts to tame",
+    "dolanaar taming trial",
+    "tame beasts teldrassil"
+   ],
+   "answer": "He directs hunters to track down native Teldrassil fauna, including local spiders, nightsabers, and birds of prey, testing the hunter's ability to approach and calm wild predators."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Dazalar is one of the earliest mentors a night elf hunter encounters, guiding them through the foundational trials of beast mastery and pet training."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "He upholds the traditions of the Kaldorei sentinels and scouts, teaching young night elves how to live in balance with nature's fierce predators."
+  }
+ ],
+ "keywords": [
+  "dazalar",
+  "dolanaar",
+  "hunter",
+  "night elf",
+  "taming the beast",
+  "teldrassil",
+  "the hunter's path",
+  "trainer"
+ ],
+ "related": [
+  "subzone:dolanaar",
+  "zone:teldrassil",
+  "quest:6061",
+  "quest:6065",
+  "quest:6081",
+  "topic:night-elf",
+  "quest:940"
+ ],
+ "attribution": [
+  "Dazalar"
+ ]
+}

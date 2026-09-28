@@ -1,0 +1,135 @@
+{
+ "key": "zone:mulgore",
+ "type": "zone",
+ "name": "Mulgore",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": [
+   "Mulgore (Classic)",
+   "Mulgore"
+  ],
+  "levels": "1-10",
+  "aliases": []
+ },
+ "summary": "Mulgore is the ancestral homeland of the tauren, a lush, sheltered valley of emerald grasslands, towering plateaus, and rolling plains nestled beneath the Stonetalon Mountains. Surrounded by high natural mountain walls, the realm was secured after Cairne Bloodhoof allied with Thrall's Horde to drive out the marauding centaur. Today, it serves as the spiritual and territorial heartland of the united tauren tribes, overseen from the great mesa city of Thunder Bluff.",
+ "sections": [
+  {
+   "title": "A Land Reclaimed",
+   "body": "For generations, the tauren lived as nomads, perpetually hunted and displaced across the central plains by aggressive centaur warbands. Their fortune shifted when High Chieftain Cairne Bloodhoof encountered Thrall and his displaced orcs. Recognizing shared ideals of honor, shamanism, and strength, the tauren forged an alliance with the nascent Horde. With orcish assistance, Cairne broke the centaur's grip on the region and led his people into Mulgore. Here, they built permanent settlements for the first time in centuries, crowning the highest northern mesas with their capital, Thunder Bluff.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Trials of the Earthmother",
+   "body": "Reaching maturity in Mulgore requires answering the call of the Great Hunt and honoring the Earthmother. Young tauren begin their training on the southern plateau of Red Cloud Mesa at Camp Narache under Chief Hawkwind. As they descend into the Golden Plains and Bloodhoof Village, they undertake the Rites of the Earthmother, learning to commune with ancestral spirits, forage native herbs, and respect the herds of kodos and tallstriders that sustain their civilization.",
+   "spoiler": 0
+  },
+  {
+   "title": "Encroaching Shadows",
+   "body": "Despite its tranquil appearance, Mulgore faces growing threats from all quarters. Displaced quilboar have entrenched themselves within Brambleblade Ravine and defiled the sacred burial grounds of Red Rocks. In the mountains, Windfury harpies prey upon wild game, while Palemane gnolls strike from hidden caves. More troubling still are external exploitations: the commercial goblins of the Venture Company have begun defiling the sacred water wells and quarrying the eastern hills, while dwarven explorers from Bael Modan have established the Bael'dun Digsite to unearth ancient titan artifacts against tauren protests.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why did the tauren settle permanently in Mulgore?",
+   "aliases": [
+    "why do tauren live here",
+    "tauren homeland history",
+    "why settle thunder bluff"
+   ],
+   "answer": "The tauren were historically a nomadic people who traveled Kalimdor while pursued by centaur marauders. After joining forces with Thrall's Horde, Cairne Bloodhoof gained the military strength needed to drive off the centaur and reclaim the ancestral valley of Mulgore. They constructed permanent settlements, including Bloodhoof Village and Thunder Bluff, to establish a unified homeland where all tauren tribes could thrive in peace."
+  },
+  {
+   "q": "How do you leave Mulgore on foot?",
+   "aliases": [
+    "mulgore exit",
+    "how to get to barrens from mulgore",
+    "mulgore road out"
+   ],
+   "answer": "Mulgore is completely ringed by impassable mountain walls except for a single southeastern pass. Following the main dirt highway east past Bloodhoof Village and Morin Cloudstalker's post leads through this mountain corridor directly into the arid plains of the Barrens."
+  },
+  {
+   "q": "Who are the Venture Company and why are they here?",
+   "aliases": [
+    "venture co in mulgore",
+    "why are there goblins here",
+    "venture co mine"
+   ],
+   "answer": "The Venture Company is an unscrupulous goblin-run commercial cartel seeking Kalimdor's natural riches. In Mulgore, they run a mining operation in the eastern mountains and have occupied the vital water wells\u2014such as Thunderhorn, Wildmane, and Winterhoof\u2014desecrating the land and threatening the regional water supply."
+  },
+  {
+   "q": "Why are dwarves digging in tauren territory?",
+   "aliases": [
+    "baeldun digsite",
+    "why are dwarves in mulgore",
+    "bael dun"
+   ],
+   "answer": "Dwarves from the Bael Modan expedition have established the Bael'dun Digsite in Mulgore's northern foothills. Driven by the Explorers' League to unearth relics of their Titan creators, they excavate tauren land without permission, ignoring tauren protests that such operations scar the Earthmother."
+  },
+  {
+   "q": "What are the Rites of the Earthmother?",
+   "aliases": [
+    "rites of earthmother",
+    "tauren maturity quest",
+    "rite of the earthmother"
+   ],
+   "answer": "The Rites of the Earthmother are a sacred series of trials that every young tauren undertakes upon reaching adulthood. These tasks test hunting, tracking, vision communion, and knowledge of the natural balance, proving the young initiate's devotion to the land and the ancestral traditions of their people."
+  },
+  {
+   "q": "Who rules Mulgore?",
+   "aliases": [
+    "mulgore leader",
+    "who is the chief of mulgore",
+    "cairne bloodhoof leader"
+   ],
+   "answer": "High Chieftain Cairne Bloodhoof governs all tauren lands from the capital city of Thunder Bluff atop the northern mesas. His son, Baine Bloodhoof, governs Bloodhoof Village and manages the daily concerns of the lower plains under Cairne's wisdom."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "This valley is your ancestral home, reclaimed through sacrifice and unity. Preserving its wells and cleansing its sacred grounds are fundamental duties to the Earthmother."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Mulgore represents the heart of Horde spirituality and agriculture in central Kalimdor, bound to Thrall's people through a blood oath of mutual defense."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The rolling plains and untouched groves serve as one of Kalimdor's purest natural sanctuaries, where tauren druids study balance and the gifts of nature."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The tradition of the Great Hunt thrives across these plains, where cougars, wolves, and wild kodo test the skill and patience of every tracker."
+  }
+ ],
+ "keywords": [
+  "bael'dun",
+  "baine bloodhoof",
+  "bloodhoof village",
+  "cairne bloodhoof",
+  "camp narache",
+  "earthmother",
+  "kodo",
+  "mulgore",
+  "red cloud mesa",
+  "red rocks",
+  "thunder bluff",
+  "venture co"
+ ],
+ "related": [
+  "zone:thunderbluff",
+  "zone:barrens",
+  "npc:cairne-bloodhoof",
+  "npc:baine-bloodhoof",
+  "subzone:bloodhoof-village",
+  "subzone:camp-narache",
+  "quest:763",
+  "subzone:bael-dun-digsite"
+ ],
+ "attribution": [
+  "Mulgore (Classic)",
+  "Mulgore"
+ ]
+}

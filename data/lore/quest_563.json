@@ -1,0 +1,128 @@
+{
+ "key": "quest:563",
+ "type": "quest",
+ "name": "Reassignment",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   563
+  ],
+  "level": "32",
+  "faction": "Alliance",
+  "start": "Lieutenant Farren Orinelle",
+  "end": "Major Samuelson",
+  "previous": "Stormwind Ho!",
+  "next": null,
+  "wiki": "Reassignment",
+  "chain": [
+   "Down the Coast",
+   "Farren's Proof",
+   "Farren's Proof (2)",
+   "Farren's Proof (3)",
+   "Stormwind Ho!",
+   "Reassignment"
+  ]
+ },
+ "summary": "Reassignment is the culmination of Lieutenant Farren Orinelle's campaign to escape his posting in Southshore. Having compiled an exaggerated report of his deeds against the coastal naga, Farren dispatches an adventurer all the way to Stormwind Keep to deliver the documents to his former mentor, Major Samuelson.",
+ "sections": [
+  {
+   "title": "A Ticket Out of Southshore",
+   "body": "Lieutenant Farren Orinelle has made no secret of his disdain for his station in the Hillsbrad Foothills. Tucked away in Southshore, far from the comforts of the capital and under the stern watch of Magistrate Burnside and Captain Redpath, Farren has spent his days scheming for a transfer back south. By taking credit for clearing out the nearby Daggerspine naga, he hopes to present himself as an indispensable, battle-hardened officer ripe for promotion.",
+   "spoiler": 0
+  },
+  {
+   "title": "Keep Connections",
+   "body": "To secure his reassignment without arousing the suspicion of Captain Redpath, Farren bypasses the local chain of command entirely. He relies instead on his personal ties to Major Samuelson, a senior officer in Stormwind Keep who once mentored him. Delivering the polished report directly into Samuelson's hands ensures that Farren's alleged accomplishments land on the desk of someone with the authority to reassign garrison personnel.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bureaucracy at Work",
+   "body": "Upon receiving the dossier in Stormwind Keep, Major Samuelson expresses mild approval of his former pupil's initiative regarding the naga menace. However, military bureaucracy grinds slowly. Rather than issuing an immediate transfer, Samuelson merely promises to weigh the report during next month's routine personnel reviews, leaving Farren's fate in Southshore hanging in the balance.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Farren Orinelle want a reassignment?",
+   "aliases": [
+    "why leave southshore",
+    "farren motive",
+    "why does farren want to leave"
+   ],
+   "answer": "Lieutenant Farren Orinelle loathes being stationed in Southshore, viewing the remote northern outpost as dull, dangerous, and beneath him. He longs to return to the relative luxury and safety of Stormwind City, and seeks to use his reports on the naga to justify a transfer."
+  },
+  {
+   "q": "Who is Major Samuelson?",
+   "aliases": [
+    "who is samuelson",
+    "samuelson lore"
+   ],
+   "answer": "Major Samuelson is a high-ranking officer in Stormwind Keep who oversees city guard assignments. Prior to his current post, he served as Lieutenant Farren Orinelle's mentor during Farren's early career in the capital."
+  },
+  {
+   "q": "Why can't Farren deliver the report himself?",
+   "aliases": [
+    "why do i have to deliver it",
+    "why not deliver himself"
+   ],
+   "answer": "Farren is on active duty in Southshore and cannot abandon his post without permission. Furthermore, he is attempting to bypass his immediate superior, Captain Redpath, who would likely obstruct a self-serving transfer request."
+  },
+  {
+   "q": "Did Farren actually defeat the naga himself?",
+   "aliases": [
+    "did farren kill naga",
+    "farren report truth"
+   ],
+   "answer": "No. Farren tasked independent adventurers with hunting the Daggerspine naga along the coast and collecting heads, scales, and intelligence. He then compiled their hard work into a formal dispatch that framed the campaign as his own strategic triumph."
+  },
+  {
+   "q": "Does Farren actually get transferred back to Stormwind?",
+   "aliases": [
+    "does farren get reassigned",
+    "does transfer work"
+   ],
+   "answer": "Not immediately. Major Samuelson promises only to consider the report during the next month's personnel review. Farren remains stationed in Southshore for the foreseeable future while the wheels of the kingdom's military bureaucracy slowly turn."
+  },
+  {
+   "q": "Where is Major Samuelson located?",
+   "aliases": [
+    "samuelson location",
+    "where is major samuelson"
+   ],
+   "answer": "Major Samuelson stands inside Stormwind Keep, the fortress at the heart of Stormwind City where the high command and regency council reside."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This errand illustrates the everyday bureaucratic politics of the Alliance military, where distant frontier garrisons like Southshore often clash with the comfortable ambitions of officers looking to return to Stormwind."
+  },
+  {
+   "target": "race:Human",
+   "text": "The delivery reveals the contrast between the embattled human refugees and defenders holding the line in Lordaeron and the political maneuvering inside the high halls of Stormwind Keep."
+  }
+ ],
+ "keywords": [
+  "daggerspine",
+  "farren orinelle",
+  "major samuelson",
+  "reassignment",
+  "redpath",
+  "southshore",
+  "stormwind keep"
+ ],
+ "related": [
+  "quest:562",
+  "npc:lieutenant-farren-orinelle",
+  "npc:major-samuelson",
+  "subzone:southshore",
+  "subzone:stormwind-keep",
+  "quest:559",
+  "quest:536",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Reassignment"
+ ]
+}

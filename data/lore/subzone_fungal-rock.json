@@ -1,0 +1,80 @@
+{
+ "key": "subzone:fungal-rock",
+ "type": "subzone",
+ "name": "Fungal Rock",
+ "era": "classic",
+ "zone": "ungoro",
+ "meta": {
+  "wiki": "Fungal Rock"
+ },
+ "summary": "Fungal Rock is a damp, cavernous hollow carved into the northeastern cliff walls of Un'Goro Crater. Dominated by aggressive primates and thick growths of Ghost Mushrooms, it is one of the crater's most dangerous ape dens.",
+ "sections": [
+  {
+   "title": "The Ape Den",
+   "body": "Tucked behind a small waterfall and pool along Un'Goro Crater's northeastern edge, Fungal Rock serves as the primary den for the region's massive gorillas. Inside the damp, subterranean corridors, towering Un'Goro Stompers and Thunderers patrol among clusters of rare Ghost Mushrooms. The deepest recesses house territorial behemoths, including the mighty silverback U'cha and the elusive albino gorilla Uhk'loc. Beyond its primal inhabitants, curious travelers may stumble upon artificial oddities near the cave mouth, such as A-Me 01, a damaged mechanical ape abandoned by gnome researchers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Fungal Rock?",
+   "aliases": [
+    "where is fungal rock",
+    "what is fungal rock cave"
+   ],
+   "answer": "Fungal Rock is a large cave system located in the northeastern wall of Un'Goro Crater. It is known for its damp environment, plentiful Ghost Mushrooms, and a dense population of hostile gorillas."
+  },
+  {
+   "q": "Who rules the apes inside Fungal Rock?",
+   "aliases": [
+    "who is u'cha",
+    "boss of fungal rock",
+    "fungal rock leader"
+   ],
+   "answer": "The cave is dominated by U'cha, a massive and powerful silverback gorilla who resides in its deepest chamber. The rare white gorilla Uhk'loc is also known to roam these caverns."
+  },
+  {
+   "q": "Why is there a mechanical gorilla outside the cave?",
+   "aliases": [
+    "what is a-me 01",
+    "robot gorilla ungoro",
+    "ame 01"
+   ],
+   "answer": "Near the pool outside the entrance rests A-Me 01, an engineered mechanical ape built by the gnome researcher Karna Remtravel. It broke down during field observations and awaits salvage or repair."
+  },
+  {
+   "q": "What valuable resources grow in Fungal Rock?",
+   "aliases": [
+    "ghost mushrooms ungoro",
+    "herbs in fungal rock"
+   ],
+   "answer": "The cavern's damp, shaded interior provides the ideal environment for Ghost Mushrooms, making it one of the few places in southern Kalimdor where herbalists can harvest this sought-after fungus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Fungal Rock is one of the premier gathering spots in Un'Goro Crater for Ghost Mushrooms, though harvesters must contend with packs of territorial gorillas to reach them."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Fellow gnomes may be drawn to Fungal Rock to investigate the fate of A-Me 01, Karna Remtravel's ambitious mechanical ape prototype left near the entrance pool."
+  }
+ ],
+ "keywords": [
+  "a-me 01",
+  "crater",
+  "fungal rock",
+  "ghost mushroom",
+  "gorilla",
+  "u'cha",
+  "uhk'loc",
+  "un'goro"
+ ],
+ "related": [
+  "zone:ungoro"
+ ],
+ "attribution": [
+  "Fungal Rock"
+ ]
+}

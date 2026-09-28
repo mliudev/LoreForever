@@ -1,0 +1,120 @@
+{
+ "key": "quest:2541",
+ "type": "quest",
+ "name": "The Sleeping Druid",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   2541
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Oben Rageclaw",
+  "end": "",
+  "previous": null,
+  "next": "Druid of the Claw (quest)",
+  "wiki": "The Sleeping Druid",
+  "chain": []
+ },
+ "summary": "Deep within the Ban'ethil Barrow Den, the slumbering night elf Oben Rageclaw faces a dire magical predicament. Hostile Gnarlpine furbolg shamans have severed his dreaming spirit from his physical body, using foul enchantments to animate his flesh into a rampaging guardian.",
+ "sections": [
+  {
+   "title": "A Slumber Disrupted",
+   "body": "Night elf druids enter barrow dens across Kalimdor to commune with nature through centuries of slumber, wandering the Emerald Dream while their mortal frames rest securely in stone alcoves. However, the corruption afflicting Teldrassil has driven the local Gnarlpine tribe of furbolgs to acts of desperate savagery. In Ban'ethil Barrow Den, Gnarlpine shamans uncovered a method to breach the sanctified rest of Oben Rageclaw, prying his living spirit away from his sleeping vessel.",
+   "spoiler": 0
+  },
+  {
+   "title": "Voodoo and Corruption",
+   "body": "Rather than killing Oben, the Gnarlpine shamans used a sinister talisman\u2014a Shaman Voodoo Charm\u2014to forcibly animate his empty shell. Trapped helplessly in the Emerald Dream, Oben's displaced spirit can only watch as his physical form stalks the corridors, blindly attacking any who enter the den. To unravel the enchantment and find a path toward restoring his body, his ethereal projection tasks adventurers with retrieving one of the Gnarlpine charms for study.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Oben Rageclaw?",
+   "aliases": [
+    "oben rageclaw",
+    "who is the sleeping druid",
+    "sleeping night elf in barrow den"
+   ],
+   "answer": "Oben Rageclaw is a night elf druid who entered a sacred slumber inside the Ban'ethil Barrow Den to commune with the Emerald Dream. Hostile Gnarlpine furbolgs hijacked his physical vessel, leaving his spirit displaced."
+  },
+  {
+   "q": "Why is Oben's body attacking people?",
+   "aliases": [
+    "why is oben hostile",
+    "why is oben attacking",
+    "oben rageclaw body attacking"
+   ],
+   "answer": "Gnarlpine shamans performed a ritual separating Oben's consciousness from his flesh. They animated his empty, physical form with dark magic to serve as an aggressive guardian guarding the depths of the barrow den."
+  },
+  {
+   "q": "What is the Shaman Voodoo Charm?",
+   "aliases": [
+    "shaman charm",
+    "voodoo charm teldrassil",
+    "what is shaman voodoo charm"
+   ],
+   "answer": "It is an enchanted focus carried by the Gnarlpine shamans inside Ban'ethil Barrow Den. They use its dark power to wrench sleeping druids' spirits out of their bodies and animate their physical husks."
+  },
+  {
+   "q": "Where is Oben's true spirit during the quest?",
+   "aliases": [
+    "where is oben",
+    "oben spirit location",
+    "emerald dream oben"
+   ],
+   "answer": "Oben's consciousness is trapped wandering the Emerald Dream, unable to rejoin his mortal shell. He can only communicate with the waking world as a shimmering spirit near his resting place."
+  },
+  {
+   "q": "Why are the furbolgs in Ban'ethil Barrow Den hostile?",
+   "aliases": [
+    "why are gnarlpine mad",
+    "furbolg corruption teldrassil",
+    "why furbolgs aggressive"
+   ],
+   "answer": "The Gnarlpine tribe has fallen victim to the rising taint and madness corrupting Teldrassil's wildlife and forests, causing them to turn against their former night elf allies and desecrate sacred druidic sites."
+  },
+  {
+   "q": "Can Oben's body be saved without killing it?",
+   "aliases": [
+    "save oben rageclaw",
+    "can oben be saved",
+    "cure oben"
+   ],
+   "answer": "Studying the Shaman Voodoo Charm is Oben's first hope of breaking the ritual. By examining the vile enchantments binding his flesh, he hopes to understand the magic and find a way to resolve the crisis."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids, Oben's situation is a waking nightmare: having one's body hijacked while communing in the Emerald Dream violates the very foundation of druidic slumber."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The desecration of Ban'ethil Barrow Den demonstrates how deeply the Gnarlpine furbolgs have fallen from their ancient kinship with the Kaldorei."
+  }
+ ],
+ "keywords": [
+  "ban'ethil barrow den",
+  "barrow den",
+  "emerald dream",
+  "gnarlpine",
+  "oben rageclaw",
+  "shaman voodoo charm",
+  "teldrassil",
+  "the sleeping druid"
+ ],
+ "related": [
+  "npc:oben-rageclaw",
+  "subzone:ban-ethil-barrow-den",
+  "topic:druid",
+  "topic:furbolg",
+  "topic:emerald-dream",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "The Sleeping Druid"
+ ]
+}

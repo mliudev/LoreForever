@@ -1,0 +1,118 @@
+{
+ "key": "npc:colonel-kurzen",
+ "type": "npc",
+ "name": "Colonel Kurzen",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Colonel Kurzen",
+  "refs": 4
+ },
+ "summary": "Colonel Conrad Kurzen was once a decorated and noble officer of the Stormwind Army, sent to lead an expedition into northern Stranglethorn Vale. After descending into sudden madness and tyranny, he turned his force into a rogue jungle militia operating out of an armed compound. Today, his former subordinates at the nearby Rebel Camp actively seek his death to end his reign of terror.",
+ "sections": [
+  {
+   "title": "A Fall from Grace",
+   "body": "Before his downfall, Colonel Conrad Kurzen was regarded in Stormwind as an exceptionally capable and noble officer. Trusted by the kingdom's leadership, he was granted command of an expeditionary unit dispatched south into the dense jungles of Stranglethorn Vale. However, deep within the humid wilds, Kurzen began to exhibit erratic behavior and extreme megalomania, declaring absolute sovereignty over the surrounding wilderness and abandoning his allegiance to Stormwind.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Rebellion",
+   "body": "Kurzen's sudden transformation divided his ranks. While many soldiers succumbed to blind loyalty or twisted zealotry, others grew appalled by his madness and brutality\u2014including his act of throwing Emerine Junis into the compound's prison simply for spurning his advances. Led by Lieutenant Doren, a group of conscience-stricken soldiers broke away to establish the Rebel Camp along the northern road. These loyalist defectors now wage a desperate war against Kurzen to stop his rampaging force.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ogre Behind the Curtain",
+   "body": "Kurzen's madness was not born of jungle fever or natural exhaustion. The colonel fell victim to dark sorcery wrought by Mai'Zoth, a cunning ogre mage of the Mosh'ogg clan. By possessing Kurzen's mind, Mai'Zoth turned a disciplined detachment of Stormwind soldiers into violent pawns, manipulating Kurzen to exert regional control without the ogres having to wage open warfare themselves.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why did Colonel Kurzen turn against Stormwind?",
+   "aliases": [
+    "why is kurzen evil",
+    "what happened to kurzen",
+    "kurzen backstory"
+   ],
+   "answer": "Kurzen did not simply turn rogue on his own. Sometime during his expedition into Stranglethorn Vale, he fell victim to foul mental domination by Mai'Zoth, a powerful Mosh'ogg ogre mage who enslaved Kurzen's will to control his troops."
+  },
+  {
+   "q": "Where is Colonel Kurzen located?",
+   "aliases": [
+    "where to find kurzen",
+    "kurzen location",
+    "colonel kurzen compound"
+   ],
+   "answer": "He commands his militia from deep within Kurzen's Compound, situated in the hills of northern Stranglethorn Vale. He resides inside the fortified Stockpile building at the back of the encampment."
+  },
+  {
+   "q": "Who are the rebels at the Rebel Camp?",
+   "aliases": [
+    "rebel camp lore",
+    "who is lieutenant doren",
+    "why rebel camp"
+   ],
+   "answer": "The rebels are former soldiers under Kurzen's command who refused to follow his descent into madness. Led by Lieutenant Doren, they remain loyal to Stormwind and operate from the Rebel Camp near the northern border, seeking to put an end to Kurzen's rogue army."
+  },
+  {
+   "q": "Who is Emerine Junis?",
+   "aliases": [
+    "emerine junis",
+    "kurzen prisoner"
+   ],
+   "answer": "Emerine Junis was a woman attached to the expedition who rejected Kurzen's unwanted advances. In his growing cruelty and delusion, the colonel locked her away in the compound's prison cages."
+  },
+  {
+   "q": "Is Kurzen acting alone in the jungle?",
+   "aliases": [
+    "who does kurzen work for",
+    "kurzen allies"
+   ],
+   "answer": "While he commands human mercenaries, soldiers, and jungle fighters, he is secretly manipulated by the Mosh'ogg ogres through the enchantment cast upon him by Mai'Zoth."
+  },
+  {
+   "q": "What happens if Colonel Kurzen is slain?",
+   "aliases": [
+    "kurzen quest end",
+    "doren kurzen head"
+   ],
+   "answer": "Lieutenant Doren asks Alliance adventurers to sever Kurzen's head to definitively prove the colonel's demise, shatter his militia's chain of command, and salvage the honor of the Stormwind Army."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Kurzen represents a severe military scandal and a tragic loss of Stormwind troops, prompting Alliance command and local loyalists to authorize his elimination."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, Kurzen was once a peer and respected leader, making his brutal descent into an ogre puppet a grim reminder of the jungle's hazards."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Kurzen stands as a cautionary example of disciplined martial might entirely subverted and twisted when stripped of will and honor."
+  }
+ ],
+ "keywords": [
+  "colonel kurzen",
+  "conrad kurzen",
+  "doren",
+  "kurzen",
+  "kurzen's compound",
+  "mai'zoth",
+  "mosh'ogg",
+  "rebel camp",
+  "stockpile",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "subzone:kurzen-s-compound",
+  "subzone:rebel-camp",
+  "npc:doren",
+  "zone:stranglethorn",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Colonel Kurzen"
+ ]
+}

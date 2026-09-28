@@ -1,0 +1,136 @@
+{
+ "key": "quest:1086",
+ "type": "quest",
+ "name": "The Flying Machine Airport",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1086
+  ],
+  "level": "23",
+  "faction": "Horde",
+  "start": "Apothecary Zamah",
+  "end": "",
+  "previous": "Return to Thunder Bluff (1)",
+  "next": null,
+  "wiki": "The Flying Machine Airport",
+  "chain": []
+ },
+ "summary": "Tasked by Apothecary Zamah from Thunder Bluff, Horde adventurers hunt down a hidden Venture Company landing pad nestled above Stonetalon Mountains. Carrying an alchemical Toxic Fogger, operatives must slip into the heart of the goblin logging operations to gas their air transit hub. The mission strikes directly at the cartel's communications while underscoring the ruthless methods of the Royal Apothecary Society.",
+ "sections": [
+  {
+   "title": "A Silent Delivery",
+   "body": "While the tauren seek to protect Stonetalon from deforestation and ravaging machinery, the Forsaken bring an entirely different philosophy to the front. Apothecary Zamah crafts a lethal compound designed to disrupt the Venture Company's logistics. Rather than attacking foot soldiers or loggers directly, she targets the cartel's link to the outside world: a rumored copter pad used to ferry light cargo and messages between Stonetalon and distant corporate offices.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cragpool's Sky Port",
+   "body": "Hidden high in the Cragpool Lake area south of the great waterwheel sits the Venture Company's copter pad, perched above the soot and chopped timber. It is small, meant for lightweight flying machines rather than massive zeppelins. Setting off the Toxic Fogger directly upon the pad ensures that any pilot, courier, or mechanic operating the machinery is smothered in deadly vapor before they can alert their commanders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Forsaken Pragmatism",
+   "body": "Upon receiving news of the bombing, Apothecary Zamah makes no apology for utilizing chemical warfare against the goblins. In her eyes, the Venture Company deserves far worse for what they do to the land. More importantly, she offers the Horde a fundamental lesson from Undercity doctrine: never shy from dark paths if they lead toward ultimate victory.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the flying machine airport located?",
+   "aliases": [
+    "where is the airport",
+    "copter pad location",
+    "where is sky port",
+    "venture co landing pad"
+   ],
+   "answer": "The Venture Company copter pad is located in the Cragpool Lake region of the Stonetalon Mountains. You will find the elevated wooden structure south of the massive industrial waterwheel, overlooking the lake's southern bend."
+  },
+  {
+   "q": "Why does Apothecary Zamah want this site poisoned?",
+   "aliases": [
+    "why bomb the airport",
+    "why toxic fogger",
+    "zamah motive"
+   ],
+   "answer": "Zamah wants to sever the Venture Company's communications and light supply lines between Stonetalon and their remote headquarters. By contaminating the copter pad, she hopes the toxin will cripple goblin flight crews and potentially hitch a ride back to their corporate leaders."
+  },
+  {
+   "q": "Who is Apothecary Zamah?",
+   "aliases": [
+    "zamah identity",
+    "who is zamah",
+    "undead in thunder bluff"
+   ],
+   "answer": "Apothecary Zamah is an emissary of the Royal Apothecary Society stationed in the Pools of Vision beneath Thunder Bluff. She studies Kalimdor's flora and fauna while developing alchemical weapons on behalf of the Forsaken and the Horde."
+  },
+  {
+   "q": "Why is the Horde using chemical weapons here?",
+   "aliases": [
+    "horde using plague",
+    "why poison goblins",
+    "is this plague"
+   ],
+   "answer": "The Forsaken fight with pragmatic ruthlessness. Although their tauren allies prefer spiritual healing and direct defense of the earth, Zamah believes the Venture Company's destructive greed warrants merciless tactics, teaching that victory matters above sentimental restraint."
+  },
+  {
+   "q": "What kind of aircraft does the Venture Company use here?",
+   "aliases": [
+    "venture co copters",
+    "what flying machine",
+    "goblin aircraft stonetalon"
+   ],
+   "answer": "The platform is sized for small goblin flying machines and gyro-copters rather than full-sized zeppelins. These agile craft allow the cartel to quickly bypass Stonetalon's rugged mountain passes to haul high-priority messages and cargo."
+  },
+  {
+   "q": "What happens after the fogger is deployed?",
+   "aliases": [
+    "fogger outcome",
+    "after placing fogger"
+   ],
+   "answer": "Once you release the fogger at the top of the pad, you flee before the vapors overtake you. Zamah considers the deployment a success and anticipates that the poison will severely disrupt goblin logistics."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, deploying the Toxic Fogger in Stonetalon is business as usual, demonstrating to Kalimdor that Undercity's alchemical genius can solve problems brute force cannot."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "While your people abhor the Venture Company's destruction of Stonetalon, utilizing chemical toxins under the advice of a Forsaken apothecary tests the balance between earth-mother reverence and harsh battlefield pragmatism."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The goblin copter pad displays the crude, utilitarian engineering that powers the Venture Company's rapid transit across rugged mountain ranges."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing Stonetalon requires cutting off the Venture Company from external aid, and striking their air transit is a critical logistical blow."
+  }
+ ],
+ "keywords": [
+  "airport",
+  "apothecary zamah",
+  "copter pad",
+  "cragpool lake",
+  "flying machine",
+  "stonetalon",
+  "thunder bluff",
+  "toxic fogger",
+  "venture co"
+ ],
+ "related": [
+  "quest:1067",
+  "quest:853",
+  "subzone:cragpool-lake",
+  "topic:venture-company",
+  "zone:stonetalon",
+  "zone:thunderbluff",
+  "topic:forsaken",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "The Flying Machine Airport"
+ ]
+}

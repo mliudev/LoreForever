@@ -1,0 +1,120 @@
+{
+ "key": "quest:1520",
+ "type": "quest",
+ "name": "Call of Earth",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   1520
+  ],
+  "level": "4",
+  "faction": "Horde",
+  "start": "Seer Ravenfeather",
+  "end": "Minor Manifestation of Earth",
+  "previous": "Call of Earth (Mulgore)",
+  "next": "Call of Earth (Mulgore 3)",
+  "wiki": "Call of Earth (Mulgore 2)",
+  "chain": [
+   "Call of Earth (Mulgore)",
+   "Call of Earth (Mulgore 2)",
+   "Call of Earth (Mulgore 3)"
+  ]
+ },
+ "summary": "This sacred rite marks a tauren shaman's spiritual attunement to the element of earth. By drinking an Earth Sapta at a holy rock east of Camp Narache, initiates peer beyond physical senses to commune directly with a Minor Manifestation of Earth.",
+ "sections": [
+  {
+   "title": "The Purpose of the Sapta",
+   "body": "A sapta is a carefully concocted ceremonial potion crafted by shamanic elders to bind an initiate's mortal spirit directly to a primal element. Prepared with ancestral magic, only a select few among the tauren preserve the secrets of its brewing. When imbibed at a designated sacred site, the draught expands the imbiber's mind, piercing the veil between the physical realm and the spiritual plane so the elements can be witnessed in their raw form.",
+   "spoiler": 0
+  },
+  {
+   "title": "Communion at Kodo Rock",
+   "body": "East of Camp Narache stands Kodo Rock, a looming stone pillar that serves as a holy sanctuary. Consuming the sapta here reveals the Minor Manifestation of Earth awaiting the pilgrim. Unlike the volatile, fiery, or raging aspects of nature encountered later along the shaman's path, the spirit of earth asks only that the initiate approach in quiet humility, granting the mountain's enduring strength and the plains' calm patience to all who honor the land.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is an Earth Sapta?",
+   "aliases": [
+    "what is sapta",
+    "earth sapta meaning",
+    "what does the drink do"
+   ],
+   "answer": "An Earth Sapta is an alchemical and spiritual draught brewed by shamanic elders. Its magic opens the drinker's perception, allowing an initiate to see and communicate directly with elemental earth spirits."
+  },
+  {
+   "q": "Where is Kodo Rock located?",
+   "aliases": [
+    "find kodo rock",
+    "kodo rock location",
+    "where is the shrine"
+   ],
+   "answer": "Kodo Rock is an imposing natural stone monolith situated directly east across the Red Cloud Mesa from Camp Narache."
+  },
+  {
+   "q": "Who crafted the Earth Sapta for this rite?",
+   "aliases": [
+    "who gives the sapta",
+    "seer ravenfeather sapta"
+   ],
+   "answer": "The potion was prepared and granted by Seer Ravenfeather, an elder shaman residing at Camp Narache who oversees the training of young spiritual guides."
+  },
+  {
+   "q": "Why must the sapta be consumed at a holy site?",
+   "aliases": [
+    "why drink at kodo rock",
+    "can i drink sapta anywhere"
+   ],
+   "answer": "A sapta is inherently sacred and dangerous if misused. Tauren tradition demands it only be imbibed within consecrated shrines where elemental spirits naturally dwell and can receive the petitioner safely."
+  },
+  {
+   "q": "What happens after drinking the potion at Kodo Rock?",
+   "aliases": [
+    "what appears",
+    "minor manifestation of earth spawn"
+   ],
+   "answer": "The potion lifts the mundane veil, revealing a Minor Manifestation of Earth. Speaking with the entity completes the bond between the shaman and the element of earth."
+  },
+  {
+   "q": "What lesson does the earth spirit impart to initiates?",
+   "aliases": [
+    "earth spirit lesson",
+    "meaning of earth rite"
+   ],
+   "answer": "The spirit teaches that earth demands humble patience rather than combat. While elements like fire or air can be chaotic and violent, earth offers strength, endurance, and quiet foundation to the shaman's soul."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This rite forms the spiritual core of a tauren shaman's bond with the land, serving as the required bridge to earn communion with the earth and receive an Earth Totem."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Deep reverence for the Earth Mother makes the sapta ritual one of the most culturally revered coming-of-age tests for tauren spiritualists on the Red Cloud Mesa."
+  }
+ ],
+ "keywords": [
+  "call of earth",
+  "camp narache",
+  "earth sapta",
+  "kodo rock",
+  "manifestation",
+  "mulgore",
+  "sapta",
+  "seer ravenfeather"
+ ],
+ "related": [
+  "npc:seer-ravenfeather",
+  "npc:minor-manifestation-of-earth",
+  "subzone:kodo-rock",
+  "subzone:camp-narache",
+  "zone:mulgore",
+  "quest:99141"
+ ],
+ "attribution": [
+  "Call of Earth (Mulgore 2)"
+ ]
+}

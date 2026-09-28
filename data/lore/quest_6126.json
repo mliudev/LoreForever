@@ -1,0 +1,131 @@
+{
+ "key": "quest:6126",
+ "type": "quest",
+ "name": "Lessons Anew",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   6126
+  ],
+  "level": "14",
+  "faction": "Horde",
+  "start": "Turak Runetotem",
+  "end": "Dendrite Starblaze",
+  "previous": null,
+  "next": "The Principal Source (Horde)",
+  "wiki": "Lessons Anew (Horde)",
+  "chain": []
+ },
+ "summary": "Lessons Anew is a rite of passage for young tauren druids, initiated by Turak Runetotem on the Elder Rise of Thunder Bluff. It directs apprentices to travel to the sacred haven of Moonglade to begin mastering the art of cleansing natural and unnatural poisons. Guided by the night elf Dendrite Starblaze, this lesson sets aside mock trials in favor of confronting an urgent, real-world poisoning crisis.",
+ "sections": [
+  {
+   "title": "The Gift of Cenarius",
+   "body": "Druids hold a sacred mandate to protect the wilds, which includes the miraculous ability bestowed by Cenarius to purge virulent toxins with a simple incantation. However, such potent magic is not handed over without grounding. Turak Runetotem insists that before channeling divine energies to effortlessly dispel blights, a druid must understand the physical toll of venom and learn to treat it through grounded, mundane means.",
+   "spoiler": 0
+  },
+  {
+   "title": "Summons to Nighthaven",
+   "body": "Rather than conducting training solely on the bluffs of Mulgore, promising acolytes are sent north through sacred pathways to Moonglade. There, within the peaceful village of Nighthaven, ancient night elf mentors such as Dendrite Starblaze oversee the education of both elf and tauren practitioners. This shared instruction highlights the delicate truce that exists within the Cenarion Circle, rising above the political strife separating Horde and Alliance.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Real Crisis in the Barrens",
+   "body": "While past initiates practiced their cleansing rites in controlled conditions, Starblaze has no time for manufactured exercises. An uncontrolled rash of animal poisonings has broken out near the Crossroads in the arid Barrens. The desperate plea for aid from the crossroads transforms an academic rite of passage into an urgent field mission, demanding that young druids directly confront the suffering of wild beasts.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this quest and where do I find them?",
+   "aliases": [
+    "who gives lessons anew",
+    "where to get lessons anew",
+    "lessons anew quest giver"
+   ],
+   "answer": "The quest is offered by Turak Runetotem, the tauren druid trainer located on the Elder Rise in Thunder Bluff. He calls upon initiates who have proven their early commitment to the Cenarion teachings."
+  },
+  {
+   "q": "Who is Dendrite Starblaze?",
+   "aliases": [
+    "who is dendrite",
+    "dendrite starblaze role",
+    "who is the night elf in moonglade"
+   ],
+   "answer": "Dendrite Starblaze is an elder night elf druid residing in Nighthaven within Moonglade. Despite the broader faction tensions between night elves and tauren, he mentors young druids of both races in the traditions of the Cenarion Circle."
+  },
+  {
+   "q": "What power is this quest teaching me?",
+   "aliases": [
+    "what ability do i learn",
+    "what spell is this for",
+    "curing poison quest"
+   ],
+   "answer": "This quest line initiates your instruction in Cure Poison. It teaches druids to understand the physical and magical nature of venom, enabling them to purge harmful afflictions from their allies and the wild creatures under their care."
+  },
+  {
+   "q": "Why does a tauren have to study under a night elf?",
+   "aliases": [
+    "why night elf trainer",
+    "tauren night elf druids",
+    "cenarion circle faction"
+   ],
+   "answer": "The Cenarion Circle operates as a neutral brotherhood dedicated to the balance of nature. While night elves were the first to formalize modern druidism under Cenarius, they welcomed the tauren back into the order, sharing sacred grounds like Moonglade despite the faction war."
+  },
+  {
+   "q": "What is happening at the Crossroads?",
+   "aliases": [
+    "crossroads problem",
+    "what is poisoning the animals",
+    "crossroads sickness"
+   ],
+   "answer": "The local wildlife around the Crossroads in the Barrens is suffering from an aggressive wave of poisonings that local handlers cannot contain. Dendrite Starblaze redirects your training directly into the field to discover the source and synthesize a remedy."
+  },
+  {
+   "q": "What is the fastest way to get to Moonglade for this quest?",
+   "aliases": [
+    "how to get to moonglade",
+    "travel to nighthaven",
+    "teleport moonglade"
+   ],
+   "answer": "As a druid, you possess the innate spell Teleport: Moonglade, which whisks you directly into the sanctuary of Nighthaven without needing to travel through treacherous contested lands on foot."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This quest marks your transition from basic shapeshifting and skirmishing into true stewardship of the wilds, initiating the journey toward mastering the Cure Poison spell."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For tauren, this pilgrimage demonstrates how deeply the Earth Mother's children have reconnected with Cenarius's teachings alongside their night elf peers."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While Horde warriors clash with night elves in Ashenvale, Horde druids are granted safe harbor in Moonglade under the sacred auspices of the Cenarion Circle."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "crossroads",
+  "cure poison",
+  "dendrite starblaze",
+  "lessons anew",
+  "moonglade",
+  "nighthaven",
+  "turak runetotem"
+ ],
+ "related": [
+  "quest:6125",
+  "npc:turak-runetotem",
+  "npc:dendrite-starblaze",
+  "subzone:nighthaven",
+  "quest:5921",
+  "zone:barrens",
+  "subzone:crossroads",
+  "topic:cenarius"
+ ],
+ "attribution": [
+  "Lessons Anew (Horde)"
+ ]
+}

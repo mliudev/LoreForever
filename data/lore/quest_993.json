@@ -1,0 +1,110 @@
+{
+ "key": "quest:993",
+ "type": "quest",
+ "name": "A Lost Master",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   993
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Terenthis",
+  "end": "Volcor",
+  "previous": "A Lost Master",
+  "next": "Escape Through Stealth or Escape Through Force",
+  "wiki": "A Lost Master (2)",
+  "chain": []
+ },
+ "summary": "Having gathered pelts and fine thread, you carry the completed Enchanted Moonstalker Cloak into the wilds of Darkshore to find the missing night elf, Volcor. Guided by his loyal nightsaber Grimclaw, you must track down the wounded scout before hostile furbolgs finish him off.",
+ "sections": [
+  {
+   "title": "A Beacon in the Woods",
+   "body": "After Terenthis in Auberdine weaves the Enchanted Moonstalker Cloak, the search for the missing scout Volcor begins in earnest. His nightsaber companion, Grimclaw, has returned to the road south of the settlement, standing watch for any ally sent by Terenthis. By offering a familiar greeting to the loyal beast, travelers are led directly off the beaten track toward the cave where Volcor lies in hiding.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hiding in the Dark",
+   "body": "Volcor sought refuge within a cavern after suffering severe injuries at the hands of the local corrupted furbolgs. Trapped and bleeding, he has had to rely entirely on stealth and Grimclaw's wits to avoid being overrun. The enchanted cloak provides him with the concealment and hope necessary to plan his extraction, though his wounds leave him in precarious condition for the return trek to Auberdine.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Volcor?",
+   "aliases": [
+    "volcor lore",
+    "who is the lost master"
+   ],
+   "answer": "Volcor is a night elf scout based out of Darkshore who went missing while venturing near hostile furbolg encampments. He was badly wounded during a confrontation and managed to crawl into a nearby cave, sending his companion nightsaber Grimclaw to seek aid."
+  },
+  {
+   "q": "How do you find Volcor's hiding spot?",
+   "aliases": [
+    "where is volcor",
+    "find volcor cave",
+    "how to follow grimclaw"
+   ],
+   "answer": "Grimclaw waits alongside the road south of Auberdine. Waving to the beast lets him know you are the helper sent by Terenthis, prompting Grimclaw to run directly toward the secluded cave where Volcor is nursing his injuries."
+  },
+  {
+   "q": "What is the purpose of the Enchanted Moonstalker Cloak?",
+   "aliases": [
+    "moonstalker cloak",
+    "cloak magic"
+   ],
+   "answer": "Terenthis enchanted the cloak crafted from fine thread and moonstalker pelts to grant brief, potent magical stealth. It is intended to shield the severely wounded Volcor from predatory eyes long enough to slip past dangerous wilderness threats."
+  },
+  {
+   "q": "Who attacked Volcor?",
+   "aliases": [
+    "who hurt volcor",
+    "why is volcor bleeding"
+   ],
+   "answer": "Volcor was ambushed and wounded by the corrupted furbolg tribes roaming Darkshore. Though he managed to evade immediate slaughter, his injuries prevented him from making the journey back to Auberdine unassisted."
+  },
+  {
+   "q": "What happens after finding Volcor?",
+   "aliases": [
+    "volcor next quest",
+    "after a lost master"
+   ],
+   "answer": "Once Volcor receives the enchanted cloak, he catches his breath and asks for your assistance in escaping the wilderness, offering you a choice between guiding him out through careful stealth or cutting a path through the furbolgs by raw force."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The bond between night elf scouts and their nightsabers is demonstrated here by Grimclaw's steadfast loyalty in seeking aid for his master Volcor."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Seeing Grimclaw navigate the road to locate help for Volcor highlights the remarkable intelligence and devotion of well-trained Kalimdor beasts."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Auberdine depends on scouts like Volcor to monitor the rising corruption of Darkshore's furbolg tribes, making his rescue a vital priority for the outpost."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "furbolg",
+  "grimclaw",
+  "moonstalker cloak",
+  "nightsaber",
+  "terenthis",
+  "volcor"
+ ],
+ "related": [
+  "npc:volcor",
+  "npc:terenthis",
+  "quest:986",
+  "topic:furbolg",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "A Lost Master (2)"
+ ]
+}

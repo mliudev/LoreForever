@@ -1,0 +1,93 @@
+{
+ "key": "subzone:andorhal",
+ "type": "subzone",
+ "name": "Andorhal",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Andorhal"
+ },
+ "summary": "Once the thriving agricultural heart of northern Lordaeron, Andorhal became ground zero for the Kingdom's destruction during the Third War. It was here that Kel'Thuzad tainted the grain with the Plague of Undeath, unleashing horror across the region. Today, the ruined town hall sits frozen in time, held firmly in the iron grip of the Scourge.",
+ "sections": [
+  {
+   "title": "Ground Zero of the Plague",
+   "body": "Before the Third War, Andorhal was the prosperous granary of the Eastweald, gathering grain from across Lordaeron and distributing it eastward to Hearthglen and Stratholme. Because of this vast distribution network, Kel'Thuzad and the Cult of the Damned chose Andorhal as the staging ground for their horrific plot. By tainting the grain crates with the Plague of Undeath, the cult turned the breadbasket of the kingdom into an engine of necrosis, infecting countless citizens before the Crown even understood the threat.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fall of the Silver Hand",
+   "body": "Prince Arthas Menethil and Jaina Proudmoore initially confronted and slew Kel'Thuzad here, but the necromancer's death was not the end. When Arthas returned from Northrend as a champion of the Scourge, he marched back to Andorhal to reclaim Kel'Thuzad's remains. Uther the Lightbringer and the remnants of the Silver Hand made a desperate last stand in defense of King Terenas's ashes. The paladins were overwhelmed, Uther was slain by his former pupil, and the grand settlement was reduced to a blight-choked Scourge stronghold.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Andorhal so important to the plague's history?",
+   "aliases": [
+    "how did plague start here",
+    "andorhal grain plague",
+    "why andorhal mattered"
+   ],
+   "answer": "Andorhal was the central agricultural distribution hub for northern Lordaeron. Kel'Thuzad exploited this supply chain, infesting the grain silos with the Plague of Undeath and shipping the tainted harvest along the King's Road directly to Stratholme and neighboring towns."
+  },
+  {
+   "q": "Who controls Andorhal right now?",
+   "aliases": [
+    "who rules andorhal",
+    "scourge in andorhal",
+    "who is in charge of andorhal"
+   ],
+   "answer": "The undead Scourge firmly controls the ruins of Andorhal. Skeletal sentries, necromancers, and ghouls stalk the scorched streets, guarding the epicenter of their original victory in the Western Plaguelands."
+  },
+  {
+   "q": "Did Uther the Lightbringer die here?",
+   "aliases": [
+    "where did uther die",
+    "uther death andorhal",
+    "did arthas kill uther here"
+   ],
+   "answer": "Yes. Following the fall of Capital City, Uther and his paladins protected the urn containing King Terenas's ashes on the outskirts of Andorhal. Arthas assaulted the procession to seize the urn for Kel'Thuzad's remains, ultimately dueling and slaying his mentor on the road."
+  },
+  {
+   "q": "Why are all the clocks stopped at three o'clock?",
+   "aliases": [
+    "andorhal town hall clock",
+    "why three o clock",
+    "stopped clocks andorhal"
+   ],
+   "answer": "The large clock on the ruined town hall and various pocket watches scattered among the rubble are frozen at three o'clock, marking the exact hour when catastrophic devastation and fire consumed the defenders and brought the living city to an abrupt end."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Andorhal is sacred ground consecrated by the blood of the Silver Hand; it was here that Uther the Lightbringer and his loyal knights made their tragic last stand against Arthas."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, the fields of Andorhal are a bitter reminder of their origin, marking the very place where the Cult of the Damned orchestrated the downfall of their mortal lives."
+  }
+ ],
+ "keywords": [
+  "andorhal",
+  "grain",
+  "granary",
+  "kel'thuzad",
+  "plaguelands",
+  "scourge",
+  "uther"
+ ],
+ "related": [
+  "zone:westernplaguelands",
+  "topic:scourge",
+  "topic:plague-of-undeath",
+  "topic:cult-of-the-damned",
+  "topic:arthas-menethil",
+  "subzone:stratholme",
+  "subzone:hearthglen",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Andorhal"
+ ]
+}

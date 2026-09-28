@@ -1,0 +1,89 @@
+{
+ "key": "subzone:gurubashi-arena",
+ "type": "subzone",
+ "name": "Gurubashi Arena",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Gurubashi Arena"
+ },
+ "summary": "Gurubashi Arena is an ancient stone colosseum standing in southern Stranglethorn Vale, originally built by the mighty Gurubashi Empire. In the present day, it serves as a chaotic free-for-all proving ground where pirates and wandering brawlers shed blood over locked chests of treasure.",
+ "sections": [
+  {
+   "title": "A Legacy of Blood",
+   "body": "Long before human or orc set foot in Stranglethorn Vale, the Gurubashi Arena\u2014known also as the Great Arena\u2014was built as a monument to martial strength by the sprawling Gurubashi troll empire. In ancient days, champions fought to the death upon its sands until the earth was slick with troll blood. Once every generation, tradition dictates that the greatest troll warriors across Azeroth gather within these towering stone walls to duel for the honor of their loa, presided over by King Rastakhan of the Zandalari. To win this rite is among the highest honors a troll warrior can attain.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Booty Run",
+   "body": "Though the empire has long since fractured into warring tribes, the arena's floor never stays clean for long. Today, lawless buccaneers and ruffians oversee a different sort of bloody spectacle. A pirate named Short John Mithril oversees the grounds, where every few hours a chest of plundered booty is hauled into the center of the ring. Anyone who steps onto the floor is fair game\u2014faction allegiances vanish, and combatants must butcher their way to the prize against all comers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who built the Gurubashi Arena?",
+   "aliases": [
+    "who made gurubashi arena",
+    "arena origin",
+    "troll arena lore"
+   ],
+   "answer": "It was constructed centuries ago by the Gurubashi Empire when they ruled the southern regions of the Eastern Kingdoms. It was designed as an enormous stadium for lethal trials of combat and ancient troll rituals honoring the loa."
+  },
+  {
+   "q": "Why do people fight here now?",
+   "aliases": [
+    "why fight in gurubashi",
+    "gurubashi chest",
+    "booty run lore"
+   ],
+   "answer": "Local pirates use the arena for illicit entertainment. Every few hours, a pirate captain drags a treasure chest into the center of the sands, prompting a bloody free-for-all brawl among anyone daring enough to step into the ring and claim it."
+  },
+  {
+   "q": "Who is Short John Mithril?",
+   "aliases": [
+    "short john mithril",
+    "arena overseer"
+   ],
+   "answer": "Short John Mithril is a pirate who oversees the arena and the regular chest deliveries. He rewards combatants who consistently survive the chaotic brawls and recover his arena treasures."
+  },
+  {
+   "q": "Why can members of my own faction attack me here?",
+   "aliases": [
+    "why is gurubashi free for all",
+    "friendly fire in gurubashi",
+    "arena pvp rules"
+   ],
+   "answer": "The floor of the arena operates under complete lawlessness. Once you cross onto the sands, all faction treaties and military alliances are suspended\u2014only those standing together in your immediate battle party are spared your blade."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For trolls, the arena is sacred ground rather than simple pirate sport, holding a generational tournament overseen by the Zandalari to win honor before the loa."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "The sands offer one of the purest martial crucibles in Azeroth, stripped bare of grand war politics and reduced entirely to personal grit and raw survival."
+  }
+ ],
+ "keywords": [
+  "arena",
+  "booty run",
+  "chest",
+  "gurubashi",
+  "rastakhan",
+  "short john mithril",
+  "stranglethorn",
+  "the great arena"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "topic:troll",
+  "topic:pirate",
+  "subzone:booty-bay"
+ ],
+ "attribution": [
+  "Gurubashi Arena"
+ ]
+}

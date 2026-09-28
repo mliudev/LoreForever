@@ -1,0 +1,110 @@
+{
+ "key": "npc:houndmaster-loksey",
+ "type": "npc",
+ "name": "Houndmaster Loksey",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Houndmaster Loksey",
+  "refs": 5
+ },
+ "summary": "Houndmaster Loksey is the officer charged with breeding and training the fearsome war dogs of the Scarlet Crusade. Stationed in the kennels within the Scarlet Monastery's Armory, he directs packs of hounds to hunt down undead, intruders, and perceived heretics. His merciless discipline has made the Monastery's beasts infamous throughout Tirisfal Glades.",
+ "sections": [
+  {
+   "title": "Master of the Kennels",
+   "body": "Within the heavily fortified walls of the Scarlet Monastery, Houndmaster Loksey commands the training of vicious tracking and attack dogs. The Scarlet Crusade relies on these trained hounds to sniff out plague-tainted corpses, uncover hidden infiltrators, and run down any survivors fleeing the zealots' wrath. Loksey holds absolute authority over the Armory's kennel wing, ensuring his charges are primed to tear intruders apart limb by limb.",
+   "spoiler": 0
+  },
+  {
+   "title": "Family Rivalry",
+   "body": "Loksey is not the only beast handler in his family serving the cause. His brother, Huntsman Leopold, serves as the Scarlet Crusade's envoy to the Argent Dawn at Light's Hope Chapel. Leopold holds a low opinion of his brother, privately asserting that Loksey can barely manage his own hounds, let alone represent the order in high-stakes diplomacy. Despite Leopold's scorn, Loksey remains a key officer within the Monastery's inner hierarchy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Houndmaster Loksey be found?",
+   "aliases": [
+    "loksey location",
+    "where is loksey",
+    "houndmaster loksey location"
+   ],
+   "answer": "Houndmaster Loksey is located inside the Armory wing of the Scarlet Monastery in northeastern Tirisfal Glades, surrounded by his attack dogs within the kennels."
+  },
+  {
+   "q": "What role does Loksey serve in the Scarlet Crusade?",
+   "aliases": [
+    "what does loksey do",
+    "loksey job",
+    "houndmaster duty"
+   ],
+   "answer": "He is the chief animal handler and houndmaster for the Scarlet Crusade at the Monastery, responsible for breeding, conditioning, and directing the war dogs used to sniff out undead and hunt down intruders."
+  },
+  {
+   "q": "Who is Huntsman Leopold to Loksey?",
+   "aliases": [
+    "leopold loksey brother",
+    "who is leopold",
+    "loksey brother"
+   ],
+   "answer": "Huntsman Leopold is Loksey's brother. Leopold represents the Scarlet Crusade at Light's Hope Chapel and looks down on Loksey, claiming Loksey cannot properly manage his hounds or handle diplomatic responsibilities."
+  },
+  {
+   "q": "Why does the Scarlet Crusade use hounds?",
+   "aliases": [
+    "why dogs",
+    "scarlet hounds purpose",
+    "crusade dogs"
+   ],
+   "answer": "The Crusade trains vicious hounds to track down the Scourge and Forsaken through scent, as well as to guard the Monastery's grounds and tear fleeing enemies to pieces."
+  },
+  {
+   "q": "Is Loksey considered a leader of the Scarlet Monastery?",
+   "aliases": [
+    "is loksey a boss",
+    "loksey rank",
+    "how important is loksey"
+   ],
+   "answer": "Yes, Loksey is recognized as one of the key commanding figures in the Scarlet Monastery's military structure, overseeing the critical kennel operations within the Armory."
+  },
+  {
+   "q": "Are the hounds dangerous on their own?",
+   "aliases": [
+    "are dogs strong",
+    "scarlet hounds danger",
+    "loksey pets"
+   ],
+   "answer": "Yes. Bred for aggression and conditioned by Loksey, the Monastery's war hounds are fierce predators capable of ripping an armored intruder limb from limb in moments."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Loksey exemplifies a brutal, aggressive approach to beast training, bending fierce hounds to obey zealotry rather than forging a bond of mutual respect."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken intruders must beware Loksey's hounds, which are trained specifically to catch the scent of dead flesh and alert the Crusade's garrisons."
+  }
+ ],
+ "keywords": [
+  "armory",
+  "houndmaster loksey",
+  "hounds",
+  "huntsman leopold",
+  "kennels",
+  "loksey",
+  "scarlet crusade",
+  "scarlet monastery"
+ ],
+ "related": [
+  "zone:scarlet",
+  "topic:scarlet-crusade",
+  "subzone:light-s-hope-chapel",
+  "topic:argent-dawn",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Houndmaster Loksey"
+ ]
+}

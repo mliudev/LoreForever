@@ -1,0 +1,129 @@
+{
+ "key": "npc:high-inquisitor-fairbanks",
+ "type": "npc",
+ "name": "High Inquisitor Fairbanks",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "High Inquisitor Fairbanks",
+  "refs": 5
+ },
+ "summary": "High Inquisitor Fairbanks was once a revered priest of the Knights of the Silver Hand and the most trusted advisor to Highlord Alexandros Mograine. Betrayed, executed, and hidden away behind a secret door in the Scarlet Monastery Cathedral, his rotting, undead form stands as a grim monument to the Scarlet Crusade's dark descent.",
+ "sections": [
+  {
+   "title": "Advisor to the Ashbringer",
+   "body": "Before the fall of Lordaeron, Fairbanks was a respected holy man among the Knights of the Silver Hand. When Highlord Alexandros Mograine convened a fateful gathering at the Southshore inn, Fairbanks stood beside him, helping channel holy power into the enigmatic crystal that would eventually become the heart of the legendary Ashbringer. When Prince Arthas dissolved the paladin order, Fairbanks accompanied Mograine across the sea to Ironforge, standing witness as King Magni Bronzebeard forged the great blade to combat the Scourge.",
+   "spoiler": 0
+  },
+  {
+   "title": "Betrayal at Stratholme",
+   "body": "Fairbanks accompanied Alexandros Mograine when the Highlord's eldest son, Renault, led them into a terrible Scourge ambush outside Stratholme. Fairbanks fell early under the press of undead claws, buried beneath piles of rotting corpses. From this horrific vantage, he silently witnessed Renault seize the fallen Ashbringer and plunge it into his own father's heart, corrupting the holy blade with patricide. Surviving the slaughter, Fairbanks clawed his way out from under the dead and fled back to Hearthglen to expose Renault's treachery.",
+   "spoiler": 1
+  },
+  {
+   "title": "Execution and Exile",
+   "body": "Fairbanks's desperate warnings shattered the remaining defenders of Lordaeron. Those who believed his horrific account abandoned the fanatical order to form the Argent Dawn. Those who remained loyal to Renault and Saidan Dathrohan branded Fairbanks a blasphemer and a lunatic. Infected by the plague during his time buried under Scourge corpses, Fairbanks was quietly executed by the Scarlet Crusade. Rather than granting him a holy burial, the crusaders discarded his body in a hidden chamber behind the Cathedral's altar, where he eventually rose as the very monstrosity they swore to cleanse.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find High Inquisitor Fairbanks?",
+   "aliases": [
+    "where is fairbanks",
+    "how to find fairbanks",
+    "fairbanks secret room",
+    "monastery secret door"
+   ],
+   "answer": "Fairbanks is hidden inside the Cathedral wing of the Scarlet Monastery. To reach him, enter the side chapel to the right of the main altar and pull a concealed wall torch, which swings open a secret stone doorway leading into a secluded crypt."
+  },
+  {
+   "q": "Why is Fairbanks an undead creature?",
+   "aliases": [
+    "why is fairbanks a zombie",
+    "is fairbanks scourge",
+    "why is fairbanks undead"
+   ],
+   "answer": "During the ambush at Stratholme, Fairbanks was buried alive beneath piles of Scourge corpses, which infected him with the plague of undeath. After the Scarlet Crusade executed him for accusing Renault Mograine of murder, his cast-aside body eventually succumbed to the infection and reanimated in secret."
+  },
+  {
+   "q": "Who was Fairbanks before he was executed?",
+   "aliases": [
+    "fairbanks backstory",
+    "who is high inquisitor fairbanks",
+    "fairbanks lore"
+   ],
+   "answer": "Fairbanks was a devout priest of the Knights of the Silver Hand and the chief counselor to Highlord Alexandros Mograine. He helped purify the crystal that formed the Ashbringer and stood as one of the original spiritual leaders of Lordaeron's surviving defenders."
+  },
+  {
+   "q": "What caused the split between the Scarlet Crusade and the Argent Dawn?",
+   "aliases": [
+    "argent dawn origin",
+    "why did argent dawn split",
+    "fairbanks argent dawn"
+   ],
+   "answer": "When Fairbanks returned from Stratholme and reported that Renault Mograine had murdered his own father, the order fractured. Those who believed Fairbanks and rejected Renault's fanaticism walked away to establish the Argent Dawn, while Renault's zealots stayed and formed the Scarlet Crusade."
+  },
+  {
+   "q": "Why did the Scarlet Crusade kill Fairbanks?",
+   "aliases": [
+    "why did scarlet kill fairbanks",
+    "who killed fairbanks",
+    "fairbanks execution"
+   ],
+   "answer": "The leadership of the Scarlet Crusade branded his testimony of Renault Mograine's patricide as malicious blasphemy. Furthermore, seeing him exhibit early symptoms of the plague from his wounds at Stratholme, the crusaders murdered him to silence the truth."
+  },
+  {
+   "q": "Who replaced Fairbanks as High Inquisitor?",
+   "aliases": [
+    "who is high inquisitor now",
+    "fairbanks replacement",
+    "who succeeded fairbanks"
+   ],
+   "answer": "Following Fairbanks's execution and secret imprisonment, Sally Whitemane ascended to the role of High Inquisitor, presiding over the Scarlet Monastery's inquisitorial interrogations alongside Commander Renault Mograine."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Fairbanks witnessed the darkest hour of the Silver Hand: the day an honored paladin turned a legendary holy blade against his own father."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Before his fall, Fairbanks channeled the Holy Light alongside Mograine to cleanse the dark orb that became the Ashbringer."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Fairbanks proves the ultimate hypocrisy of the Scarlet Crusade: hiding one of their own plague-ridden dead behind an altar while burning innocent Forsaken."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Fairbanks's tragedy traces back to the fallen kingdom of Lordaeron, where the remnants of the Grand Alliance split into zealots and outcasts."
+  }
+ ],
+ "keywords": [
+  "ashbringer",
+  "cathedral",
+  "fairbanks",
+  "hearthglen",
+  "inquisitor",
+  "mograine",
+  "renault",
+  "scarlet monastery",
+  "silver hand",
+  "stratholme"
+ ],
+ "related": [
+  "subzone:scarlet-monastery-cathedral",
+  "zone:scarlet",
+  "topic:scarlet-crusade",
+  "topic:knights-of-the-silver-hand",
+  "topic:argent-dawn",
+  "subzone:stratholme",
+  "npc:magni-bronzebeard",
+  "npc:tirion-fordring"
+ ],
+ "attribution": [
+  "High Inquisitor Fairbanks"
+ ]
+}

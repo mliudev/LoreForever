@@ -1,0 +1,113 @@
+{
+ "key": "quest:92485",
+ "type": "quest",
+ "name": "A Student of Nature",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92485
+  ],
+  "level": "2",
+  "faction": null,
+  "start": "Rorian the Dayseeker",
+  "end": "Xyton Silverwind",
+  "previous": "Harmony in Balance",
+  "next": "",
+  "wiki": "A Student of Nature",
+  "chain": []
+ },
+ "summary": "A Student of Nature marks a fledgling druid's introduction to formal training on Zephras Isle. After helping restore local harmony, novice druids are summoned by Xyton Silverwind beneath the boughs of Thendal Grove. It serves as the opening gateway into understanding the deeper balance between flora and fauna on the isle.",
+ "sections": [
+  {
+   "title": "A Summons from the Grove",
+   "body": "Following the resolution of local disturbances caused by overzealous wildlife, Rorian the Dayseeker delivers a personal summons to young initiates. Left behind by the local mentor Xyton Silverwind, the folded parchment invites aspiring druids to step forward and dedicate themselves to the deeper mysteries of the wild. It signals that an initiate's natural talents have caught the eye of the grove's elders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Keepers of the Tapestry",
+   "body": "Meeting Xyton Silverwind on the lower level of the great tree in Thendal Grove anchors a novice to their calling. Silverwind regards the vibrant flora and fauna of Zephras Isle as an intricate living tapestry, one that demands constant preservation and vigilant balance. To walk the path of the fang, claw, feather, and branch requires enduring mentorship, and this meeting marks the true beginning of that lifelong stewardship.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends the player to Xyton Silverwind?",
+   "aliases": [
+    "who gives a student of nature",
+    "quest giver",
+    "rorian"
+   ],
+   "answer": "Rorian the Dayseeker hands over the folded parchment that directs you to Xyton Silverwind after you help address the vuldren issues around the grove."
+  },
+  {
+   "q": "Where is Xyton Silverwind located?",
+   "aliases": [
+    "xyton silverwind location",
+    "where is xyton",
+    "druid trainer location"
+   ],
+   "answer": "Xyton Silverwind resides on the ground floor of the great tree in Thendal Grove, situated just behind Rorian the Dayseeker on Zephras Isle."
+  },
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do this quest",
+    "quest goal",
+    "druid training start"
+   ],
+   "answer": "This quest introduces novice druids to their class trainer, Xyton Silverwind, who serves as their primary teacher and guide in maintaining the natural balance of Zephras Isle."
+  },
+  {
+   "q": "What does Xyton Silverwind teach novice druids about Zephras Isle?",
+   "aliases": [
+    "what does xyton say",
+    "zephras nature balance",
+    "druid role zephras"
+   ],
+   "answer": "Silverwind teaches that the island's plant and animal life form a delicate, interconnected tapestry that requires active care and balance through the discipline of fang, claw, feather, and branch."
+  },
+  {
+   "q": "What prerequisite must be completed before receiving this summons?",
+   "aliases": [
+    "prereq quest",
+    "prior quest",
+    "before student of nature"
+   ],
+   "answer": "Initiates must first complete Harmony in Balance for Rorian the Dayseeker, dealing with the unruly vuldren population before receiving Silverwind's note."
+  },
+  {
+   "q": "What is contained within the Folded Parchment?",
+   "aliases": [
+    "folded parchment note",
+    "silverwind note",
+    "what is on parchment"
+   ],
+   "answer": "The folded parchment is a direct note left by Xyton Silverwind instructing the promising young druid to seek him out for further training beneath the canopy of the great tree."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This rite of passage connects you directly to Xyton Silverwind, initiating your lifelong training in the arts of the wild, the fang, and the branch."
+  }
+ ],
+ "keywords": [
+  "druid",
+  "folded parchment",
+  "rorian the dayseeker",
+  "thendal grove",
+  "vuldren",
+  "xyton silverwind",
+  "zephras isle"
+ ],
+ "related": [
+  "quest:92461",
+  "npc:rorian-the-dayseeker",
+  "zone:zephras",
+  "topic:druid"
+ ],
+ "attribution": [
+  "A Student of Nature"
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "key": "topic:stormwind-army",
+ "type": "topic",
+ "name": "Stormwind Army",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Stormwind Army"
+ },
+ "summary": "The Stormwind Army is the standing military force charged with defending the Kingdom of Stormwind and preserving the security of the Grand Alliance in the south. Though legendary for its resilient knights and marshals, the army is currently crippled by royal absence, political infighting, and crippling troop shortages across the provinces.",
+ "sections": [
+  {
+   "title": "A Legacy of Iron and Blood",
+   "body": "The army traces its martial lineage through centuries of brutal conflict, from early frontier clashes against gnolls to the desperate defense against the Gurubashi trolls. In the First War, under King Llane Wrynn I and Sir Anduin Lothar, the Knights of Stormwind mounted legendary ambushes against the Orcish Horde, yet fell when the capital burned. Surviving remnants evacuated to Lordaeron, spearheading the formation of the Alliance of Lordaeron and fighting through the Second War. After the Dark Portal's fall, General Turalyon helped reform and train a renewed Stormwind military alongside a restored kingdom.",
+   "spoiler": 0
+  },
+  {
+   "title": "Structure and Ranks",
+   "body": "Headquartered within Stormwind Keep, the military relies on dedicated regional garrisons overseen by the Stormwind Marshals. Within the stone walls of the capital, the Stormwind City Guard maintains civil order, while the elite Royal Guard attends the boy-king Anduin Wrynn and Highlord Bolvar Fordragon. Beyond the gates, the army deploys outposts to patrol Elwynn Forest, keep order along trade roads, and man defensive ramparts as far as the Swamp of Sorrows, assisted on the water by the Stormwind Fleet.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Thin Blue Line",
+   "body": "Despite its proud traditions, the modern army is stretched beyond its breaking point. Debts incurred by the House of Nobles to expand military reach into Stranglethorn fueled the bitter rift with the Stonemasons Guild, culminating in civil riots, Queen Tiffin's death, and the birth of the Defias Brotherhood. With King Varian missing, the House of Nobles has routinely withheld troops, funding, and supplies from outlying settlements like Westfall, Lakeshire, and Duskwood, forcing local marshals to deputize wandering adventurers to carry the realm's burdens.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are troops missing from towns like Lakeshire and Sentinel Hill?",
+   "aliases": [
+    "where is the stormwind army",
+    "why no soldiers in westfall",
+    "why won't stormwind help"
+   ],
+   "answer": "With King Varian Wrynn missing, the House of Nobles holds political sway in the capital and refuses to dispatch regular regiments or funding to the provinces. Towns like Sentinel Hill and Lakeshire have been left to assemble ragtag militias or hire mercenaries to defend themselves against bandits, gnolls, and orcs."
+  },
+  {
+   "q": "What is the difference between the Stormwind Army and the Stormwind Guard?",
+   "aliases": [
+    "guard vs army",
+    "who are stormwind guards",
+    "stormwind military branches"
+   ],
+   "answer": "The Stormwind Army encompasses the broader national military, including frontier marshals, garrisons, and expeditionary knights across the kingdom. The Stormwind Guard is the specific branch dedicated to enforcing law, patrolling the streets, and defending the gates within Stormwind City and surrounding rural hubs."
+  },
+  {
+   "q": "Who commands the Stormwind Army right now?",
+   "aliases": [
+    "who leads stormwind army",
+    "stormwind army commander",
+    "supreme commander stormwind"
+   ],
+   "answer": "In the absence of the missing King Varian Wrynn, military authority officially rests with the boy-king Anduin Wrynn, guided directly by Regent Highlord Bolvar Fordragon. However, their strategic decisions are constantly contested and undercut by political machinations in the House of Nobles."
+  },
+  {
+   "q": "Why do marshals give out deputy badges to adventurers?",
+   "aliases": [
+    "deputy status",
+    "why deputize players",
+    "deputy stormwind"
+   ],
+   "answer": "Because the Stormwind Army is critically short-staffed and denied reinforcements from the capital, regional marshals like McBride in Northshire and Dughan in Goldshire grant acting deputy status to competent outsiders so they can legally eliminate outlaws and defend borders."
+  },
+  {
+   "q": "What happened to the army during the First War?",
+   "aliases": [
+    "first war stormwind army",
+    "did stormwind army lose",
+    "lothar stormwind army"
+   ],
+   "answer": "Led by Sir Anduin Lothar, the army held the Orcish Horde at bay with disciplined cavalry strikes, but was overwhelmed when King Llane was assassinated. Lothar gathered the surviving soldiers and civilians, fleeing across the Great Sea to Lordaeron, where those veterans formed the core of the original Alliance forces."
+  },
+  {
+   "q": "Where does the army currently maintain active garrisons?",
+   "aliases": [
+    "stormwind garrisons",
+    "where is army stationed",
+    "stormwind troop locations"
+   ],
+   "answer": "The army retains formal garrisons throughout Elwynn Forest, including Northshire and Goldshire, as well as an outpost in the Swamp of Sorrows. While they claim jurisdiction over Westfall, Duskwood, and Redridge, active standing garrisons there have dwindled to isolated, underfunded marshals."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "For human warriors, the Knights of Stormwind and the infantry of Lothar represent the gold standard of disciplined martial service, though many struggle with the nobility's abandonment of the frontier."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The army's heavy cavalry and leadership work closely with the Order of the Silver Hand and Highlord Bolvar Fordragon to bring the Light's justice to lawless lands."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "With Lordaeron shattered by the Scourge, Stormwind's army serves as the vital defensive backbone of the Grand Alliance in the Eastern Kingdoms."
+  },
+  {
+   "target": "race:Human",
+   "text": "To the citizenry of Stormwind, the royal army is both an enduring symbol of survival against impossible odds and a frustrating reminder of bureaucratic neglect in distant hamlets."
+  }
+ ],
+ "keywords": [
+  "anduin lothar",
+  "bolvar fordragon",
+  "defias",
+  "deputy",
+  "garrison",
+  "knights of stormwind",
+  "marshals",
+  "stormwind army",
+  "stormwind guard"
+ ],
+ "related": [
+  "topic:stormwind-kingdom",
+  "topic:stormwind-guard",
+  "topic:house-of-nobles",
+  "topic:anduin-lothar",
+  "topic:varian-wrynn",
+  "zone:elwynn",
+  "npc:marshal-mcbride",
+  "quest:18"
+ ],
+ "attribution": [
+  "Stormwind Army"
+ ]
+}

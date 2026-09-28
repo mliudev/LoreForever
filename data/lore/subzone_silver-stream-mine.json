@@ -1,0 +1,92 @@
+{
+ "key": "subzone:silver-stream-mine",
+ "type": "subzone",
+ "name": "Silver Stream Mine",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Silver Stream Mine"
+ },
+ "summary": "Silver Stream Mine is a depleted dwarf mine located in northern Loch Modan, nestled between Algaz Station and the Stonewrought Dam. Once a rich silver vein for the kingdom of Ironforge, the excavated hollow was repurposed as a Miners' League supply depot before being overrun by vermin. Today, Tunnel Rat kobolds squat inside the tunnels, hoarding stolen equipment and rare mineral curiosities.",
+ "sections": [
+  {
+   "title": "From Rich Vein to Storage Depot",
+   "body": "Silver Stream Mine once flowed with precious ore, contributing heavily to the silver reserves of Ironforge. In time, the dwarf pickaxes dug deep enough to exhaust the primary veins, turning the sprawling chambers into an empty subterranean complex. Rather than abandon the hard-won earthworks, the Miners' League transformed the shafts into a secure storage depot for tools, mining crates, and regional equipment. It also serves as the only known source of rare Charged Rift Gems, which draw inquisitive arcanists searching for delicate tailoring reagents.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Kobold Incursion",
+   "body": "The quiet depot did not remain secure for long. Aggressive Tunnel Rat kobolds, drawn by the smell of unattended tools, candle wax, and forgotten subterranean crevices, swarmed the shafts in large numbers. The Miners' League caretakers were promptly driven out into the Loch Modan cold. Now, the kobolds guard the stolen dwarf crates with manic fervor, while old, shattered orcish catapults and wagons rest forgotten outside the rear entrances, silent reminders of older frontier skirmishes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was the Silver Stream Mine originally used for?",
+   "aliases": [
+    "what is silver stream mine",
+    "silver stream history",
+    "why was silver stream built"
+   ],
+   "answer": "Originally, it was a productive silver mine excavated by the dwarves of Ironforge. After the veins ran dry, the Ironforge Miners' League repurposed the vacant subterranean halls into a storage depot for tools and excavation supplies."
+  },
+  {
+   "q": "Who currently occupies the mine?",
+   "aliases": [
+    "who lives in silver stream mine",
+    "silver stream mobs",
+    "what is inside silver stream mine"
+   ],
+   "answer": "The mine has been completely overrun by Tunnel Rat kobolds. They chased off the dwarf caretakers and now guard the tunnels, hoarding the League's abandoned supply crates and digging for residual scraps."
+  },
+  {
+   "q": "Why do mages travel to Silver Stream Mine?",
+   "aliases": [
+    "mage quest silver stream",
+    "charged rift gems",
+    "silver stream mage robes"
+   ],
+   "answer": "The mine is the only known source of Charged Rift Gems. These volatile, magically reactive stones are sought after by Alliance arcanists to weave potent enchanted robes."
+  },
+  {
+   "q": "What are the ruined catapults behind the mine?",
+   "aliases": [
+    "orc wagons behind silver stream",
+    "broken catapults loch modan mine",
+    "horde siege engines loch modan"
+   ],
+   "answer": "Behind the mine sit broken orcish wagons and ruined catapults, weathered remnants of earlier wartime conflicts that threatened the passages connecting Loch Modan and the northern mountain passes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, Silver Stream Mine is an infuriating loss of hard-earned infrastructure, where clumsy kobolds now sully a respectable Ironforge Miners' League depot."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Apprentice mages journey into the dangerous kobold-infested tunnels specifically to extract Charged Rift Gems, an indispensable ingredient for crafting ritual garments."
+  }
+ ],
+ "keywords": [
+  "charged rift gem",
+  "kobold",
+  "loch modan",
+  "miners league",
+  "silver stream mine",
+  "tunnel rat"
+ ],
+ "related": [
+  "zone:lochmodan",
+  "quest:307",
+  "quest:1961",
+  "topic:kobold",
+  "subzone:algaz-station",
+  "subzone:stonewrought-dam",
+  "zone:ironforge",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Silver Stream Mine"
+ ]
+}

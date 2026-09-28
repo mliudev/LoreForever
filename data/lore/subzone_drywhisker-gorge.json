@@ -1,0 +1,88 @@
+{
+ "key": "subzone:drywhisker-gorge",
+ "type": "subzone",
+ "name": "Drywhisker Gorge",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Drywhisker Gorge"
+ },
+ "summary": "Drywhisker Gorge is a rugged cleft in the eastern mountains of the Arathi Highlands, situated northeast of the Horde outpost of Hammerfall. The gorge and its inner cavern are held by a hostile clan of kobolds, who fiercely guard rich mineral deposits and ancient elemental relics buried deep underground.",
+ "sections": [
+  {
+   "title": "A Warren in the Eastern Crags",
+   "body": "Tucked away in the mountainous folds east of Hammerfall, Drywhisker Gorge serves as the primary redoubt of the Drywhisker clan of kobolds. While kobolds are often dismissed as simple mine pests, the Drywhiskers in Arathi are heavily entrenched. They guard their subterranean passages with fierce territorial tenacity, working veins of rare Lesser Bloodstone Ore and defending the deep recesses of the earth. Their proximity makes them a persistent nuisance to the nearby orcs of Hammerfall.",
+   "spoiler": 0
+  },
+  {
+   "title": "Secrets of the Deep Cavern",
+   "body": "Venture far enough past the torchlit barricades and winding tunnels, and the cavern reveals a darker secret than ordinary pickaxes and candles. Allied with the towering stone giants of the highlands, the Drywhisker kobolds attend to motes of ancient earth magic. Deep in the heart of the cave lies a mysterious stone shard that houses a trapped fragment of the essence of Princess Myzrael, an ancient earth entity bound below the surface.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives in Drywhisker Gorge?",
+   "aliases": [
+    "drywhisker gorge inhabitants",
+    "what is in drywhisker gorge",
+    "who controls drywhisker gorge"
+   ],
+   "answer": "The gorge and its cavern network are inhabited by the Drywhisker clan of kobolds. They aggressively defend their territory from outsiders, guarding both their mining operations and ancient relics hidden within."
+  },
+  {
+   "q": "Where is Drywhisker Gorge located?",
+   "aliases": [
+    "how to get to drywhisker gorge",
+    "drywhisker gorge location",
+    "where is the cave in arathi"
+   ],
+   "answer": "The gorge cuts through the craggy eastern mountains of the Arathi Highlands, directly northeast of the Horde settlement of Hammerfall. A rugged path leads up through the hills east of the outpost to reach the cavern entrance."
+  },
+  {
+   "q": "What makes the cave inside significant?",
+   "aliases": [
+    "what is in the cave",
+    "drywhisker cave secrets",
+    "myzrael shard"
+   ],
+   "answer": "Beyond containing rare deposits of Lesser Bloodstone Ore, the cave shelters an ancient stone shard. This relic contains a fragment of the imprisoned essence of Princess Myzrael, a powerful subterranean entity."
+  },
+  {
+   "q": "Why are the kobolds allied with mountain giants?",
+   "aliases": [
+    "kobolds and giants",
+    "why are drywhiskers with giants"
+   ],
+   "answer": "The Drywhisker clan shares a connection with the local stone giants, serving and guarding the earth relics and elemental motes tied to the bindings of Princess Myzrael deep beneath Arathi."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "Miners prize the Drywhisker cavern as the only known source of Lesser Bloodstone Ore, a dense, crimson-veined mineral embedded deep within the kobold-infested rock."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Resting right over the mountain ridge from Hammerfall, the hostile Drywhisker kobolds represent an unpredictable threat lingering on the outpost's eastern flank."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "drywhisker",
+  "drywhisker gorge",
+  "hammerfall",
+  "kobold",
+  "lesser bloodstone ore",
+  "princess myzrael",
+  "stone shard"
+ ],
+ "related": [
+  "zone:arathi",
+  "subzone:hammerfall",
+  "topic:kobold"
+ ],
+ "attribution": [
+  "Drywhisker Gorge"
+ ]
+}

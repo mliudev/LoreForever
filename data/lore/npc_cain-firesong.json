@@ -1,0 +1,83 @@
+{
+ "key": "npc:cain-firesong",
+ "type": "npc",
+ "name": "Cain Firesong",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Cain Firesong",
+  "refs": 1
+ },
+ "summary": "Cain Firesong is a Forsaken mage trainer located in the settlement of Brill within Tirisfal Glades. He assists fledgling practitioners of the arcane as they grow in power, guiding them before directing them onward to deeper studies in the Undercity. When not instructing initiates, he pursues his own unsavory experiments in Brill's laboratory.",
+ "sections": [
+  {
+   "title": "A Practitioner in Brill",
+   "body": "While many Forsaken spellcasters delve into shadow or necromancy, Cain Firesong maintains mastery over traditional arcane disciplines. Stationed in Brill, he serves as an early mentor to Forsaken mages venturing forth from Deathknell. According to local Deathguards, Cain arrived too late to secure lodgings at the Gallows' End Tavern and instead took up residence around Brill's laboratory. There, amidst brewing concoctions and alchemical apparatuses, he quietly pursues esoteric research between lessons.",
+   "spoiler": 0
+  },
+  {
+   "title": "Guiding New Talent",
+   "body": "As novice mages under his tutelage advance beyond their preliminary studies in Tirisfal Glades, Cain ensures they do not stagnate. Recognizing the limits of what a roadside laboratory can offer, he directs his most capable students to seek out Anastasia Hartwell, a master sorceress residing in the Magic Quarter of the Undercity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Cain Firesong?",
+   "aliases": [
+    "who is cain firesong",
+    "cain firesong lore",
+    "cain firesong brill"
+   ],
+   "answer": "Cain Firesong is a Forsaken mage trainer stationed in Brill in Tirisfal Glades. He teaches arcane spells to fledgling Horde spellcasters and directs advanced students toward the Undercity."
+  },
+  {
+   "q": "Where does Cain Firesong stay in Brill?",
+   "aliases": [
+    "where is cain firesong",
+    "cain firesong location",
+    "cain tavern room"
+   ],
+   "answer": "According to the local Deathguards, Cain arrived too late to claim a room at the Gallows' End Tavern. Instead, he made a home around Brill's laboratory, where he works on arcane and unsavory projects."
+  },
+  {
+   "q": "Where does Cain send mages after their initial training?",
+   "aliases": [
+    "cain firesong quest",
+    "who does cain send mages to",
+    "speak with anastasia"
+   ],
+   "answer": "Once a mage has advanced sufficiently under his guidance, Cain directs them to travel down into the Undercity's Magic Quarter to continue their instruction under Anastasia Hartwell."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For young Forsaken mages stepping out from Deathknell, Cain Firesong is your primary mentor in Tirisfal Glades before you are summoned to the Undercity."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Cain proves that even in undeath, the arcane traditions of former human magi remain a potent weapon for the Forsaken."
+  }
+ ],
+ "keywords": [
+  "anastasia hartwell",
+  "arcane",
+  "brill",
+  "cain firesong",
+  "gallows' end tavern",
+  "mage trainer",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:brill",
+  "zone:tirisfal",
+  "quest:1881",
+  "quest:1959",
+  "subzone:gallows-end-tavern",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Cain Firesong"
+ ]
+}

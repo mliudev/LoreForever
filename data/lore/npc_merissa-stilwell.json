@@ -1,0 +1,82 @@
+{
+ "key": "npc:merissa-stilwell",
+ "type": "npc",
+ "name": "Merissa Stilwell",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Merissa Stilwell",
+  "refs": 1
+ },
+ "summary": "Merissa Stilwell is a young human townsperson residing in Goldshire within Elwynn Forest. Standing right by the lamppost outside the Lion's Pride Inn, she offers a cheerful greeting and a helping hand to newcomers arriving from Northshire.",
+ "sections": [
+  {
+   "title": "A Welcoming Face in Goldshire",
+   "body": "Positioned just outside the bustling Lion's Pride Inn, Merissa Stilwell greets fresh travelers making their way into town from Northshire Valley. For wandering novices, she offers simple hospitality and practical advice on resting up and getting oriented. Sharing a surname with notable craftsmen and homesteaders across the kingdom\u2014such as the blacksmith Jordan Stilwell and the Westfall defender Daphne Stilwell\u2014she remains a peaceful local face amidst the kingdom's rising tensions.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Merissa Stilwell?",
+   "aliases": [
+    "merissa stilwell",
+    "who is merissa",
+    "stilwell girl goldshire"
+   ],
+   "answer": "Merissa is a friendly human resident of Goldshire. She stands near the streetlamp outside the Lion's Pride Inn, offering advice and a warm welcome to travelers entering the hamlet."
+  },
+  {
+   "q": "Where can I find Merissa Stilwell?",
+   "aliases": [
+    "merissa stilwell location",
+    "where is merissa",
+    "find merissa"
+   ],
+   "answer": "She is located in central Goldshire in Elwynn Forest, standing next to a lamppost directly outside the front entrance of the Lion's Pride Inn."
+  },
+  {
+   "q": "Is Merissa related to the other Stilwells in the kingdom?",
+   "aliases": [
+    "stilwell family",
+    "daphne stilwell relative",
+    "jordan stilwell relative"
+   ],
+   "answer": "While she shares her surname with prominent figures like the smith Jordan Stilwell and Daphne Stilwell in Westfall, she lives quietly in Goldshire, welcoming travelers rather than fighting bandits or forging blades."
+  },
+  {
+   "q": "Does Merissa Stilwell offer any quests?",
+   "aliases": [
+    "merissa quests",
+    "merissa stilwell quest"
+   ],
+   "answer": "Yes, she assists new arrivals through the brief introductory task 'Welcome!', directing them to visit the local tavern and speak with the innkeeper."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance recruits leaving the sheltered cloister of Northshire, Merissa represents the warm hospitality of Elwynn before the harsh realities of the Defias threat set in."
+  }
+ ],
+ "keywords": [
+  "elwynn",
+  "goldshire",
+  "inn",
+  "lion's pride",
+  "merissa",
+  "stilwell",
+  "welcome"
+ ],
+ "related": [
+  "subzone:goldshire",
+  "subzone:lion-s-pride-inn",
+  "quest:5805",
+  "zone:elwynn",
+  "npc:jordan-stilwell",
+  "npc:daphne-stilwell"
+ ],
+ "attribution": [
+  "Merissa Stilwell"
+ ]
+}

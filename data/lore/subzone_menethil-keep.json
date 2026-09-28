@@ -1,0 +1,70 @@
+{
+ "key": "subzone:menethil-keep",
+ "type": "subzone",
+ "name": "Menethil Keep",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Menethil Keep"
+ },
+ "summary": "Menethil Keep is the stone stronghold dominating the skyline of Menethil Harbor in the Wetlands. Marked by four sturdy watchtowers, it serves as the administrative heart and defensive bastion of the Alliance port, housing the local militia commander, Captain Stoutfist.",
+ "sections": [
+  {
+   "title": "Bastion of the Harbor",
+   "body": "Rising above the wooden docks and soggy marshes of the Wetlands, Menethil Keep is the central military strongpoint of Menethil Harbor. With four stone watchtowers gazing out over the town and the bay, the fortress offers a commanding view against seaward raiders, renegades, and the encroaching swamp beasts. Inside, Captain Stoutfist oversees the defense of the port, directing the town militia and organizing patrols to safeguard Alliance interests throughout the region.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Menethil Keep used for?",
+   "aliases": [
+    "purpose of menethil keep",
+    "menethil keep role",
+    "what is this castle"
+   ],
+   "answer": "Menethil Keep serves as the headquarters of the Menethil Harbor town militia and the main Alliance command post in the Wetlands. Captain Stoutfist commands the local garrison from within its stone walls, directing defense efforts and organizing adventurers to address threats throughout the marsh."
+  },
+  {
+   "q": "Who is in charge of Menethil Keep?",
+   "aliases": [
+    "who leads menethil keep",
+    "keep commander",
+    "captain stoutfist"
+   ],
+   "answer": "Captain Stoutfist commands the keep and the Menethil militia. He coordinates the defense of the harbor against local threats such as Dark Iron dwarf raiders, marsh beasts, and pirates."
+  },
+  {
+   "q": "Where is the keep located?",
+   "aliases": [
+    "where is menethil keep",
+    "menethil keep location",
+    "how to find menethil keep"
+   ],
+   "answer": "The keep stands conspicuously inside Menethil Harbor on the western coast of the Wetlands, looming directly over the settlement with its four tall stone towers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers arriving by ship from Kalimdor or journeying north toward Ironforge and Arathi, Menethil Keep represents the principal military stronghold ensuring the safety of this vital transport hub."
+  }
+ ],
+ "keywords": [
+  "captain stoutfist",
+  "menethil harbor",
+  "menethil keep",
+  "militia",
+  "towers",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:menethil-harbor",
+  "npc:captain-stoutfist",
+  "zone:wetlands",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Menethil Keep"
+ ]
+}

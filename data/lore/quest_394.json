@@ -1,0 +1,114 @@
+{
+ "key": "quest:394",
+ "type": "quest",
+ "name": "The Head of the Beast",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   394
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Elling Trias",
+  "end": "Master Mathias Shaw",
+  "previous": "The Attack!",
+  "next": "Brotherhood's End",
+  "wiki": "The Head of the Beast",
+  "chain": []
+ },
+ "summary": "Following the assassination of the treacherous Lord Gregor Lescovar, this assignment directs you from Elling Trias to Master Mathias Shaw in Old Town. Reporting the death of Lescovar cements your standing with Stormwind's clandestine intelligence network.",
+ "sections": [
+  {
+   "title": "A Matter Resolved",
+   "body": "With Lord Lescovar struck down before his conspiracies against the realm could bear fruit, the immediate danger to Stormwind's leadership has been severed. Cheese merchant and veteran operative Elling Trias immediately directs you away from the crime scene and into the shadows of Old Town, cautioning you not to let courtly praise turn your head.",
+   "spoiler": 1
+  },
+  {
+   "title": "Reporting to the Spymaster",
+   "body": "In the hidden chambers of Old Town, Master Mathias Shaw oversees the kingdom's covert apparatus through SI:7. Receiving word of Lescovar's demise, Shaw recognizes your skill and ruthlessness, warmly praising your efficiency while acknowledging that true power in Stormwind does not always sit openly in the palace throne room.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "head of the beast quest",
+    "what do i do in head of the beast"
+   ],
+   "answer": "This brief interlude tasks you with traveling from Elling Trias to Master Mathias Shaw in Stormwind's Old Town to confirm that Lord Gregor Lescovar has been slain."
+  },
+  {
+   "q": "Who is Mathias Shaw?",
+   "aliases": [
+    "shaw",
+    "master shaw",
+    "si7 leader"
+   ],
+   "answer": "Mathias Shaw is the Master of SI:7, Stormwind's secretive intelligence agency and assassin guild, operating discreetly out of Old Town."
+  },
+  {
+   "q": "Why does Elling Trias send you to Shaw instead of the palace guard?",
+   "aliases": [
+    "why shaw not guards",
+    "why report to shaw"
+   ],
+   "answer": "Trias operates deep within Stormwind's intelligence apparatus. Because Lescovar was a prominent nobleman engaged in high treason, dealing with the aftermath requires secrecy rather than public scandal among the guard."
+  },
+  {
+   "q": "What threat did Lescovar pose to Stormwind?",
+   "aliases": [
+    "lescovar threat",
+    "what did lescovar do"
+   ],
+   "answer": "Lord Gregor Lescovar was actively plotting with subversive agents against the crown and the safety of the capital, betraying the realm from within the nobility."
+  },
+  {
+   "q": "What happens after reporting Lescovar's death?",
+   "aliases": [
+    "next quest after head of the beast",
+    "what comes next"
+   ],
+   "answer": "Mathias Shaw prepares to close the book on the conspiracy, sending you toward the final resolution of the subversive threat looming over Stormwind."
+  },
+  {
+   "q": "Where can Mathias Shaw be found?",
+   "aliases": [
+    "shaw location",
+    "where is mathias shaw"
+   ],
+   "answer": "Mathias Shaw is located in the command building of SI:7, tucked away within Old Town in the eastern quarters of Stormwind City."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Reporting directly to Mathias Shaw serves as a vital rite of passage, confirming your reliability to the leader of Stormwind's foremost shadow organization."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Removing corrupt aristocrats from within Stormwind helps stabilize the realm during King Varian Wrynn's deeply destabilizing absence."
+  }
+ ],
+ "keywords": [
+  "elling trias",
+  "head of the beast",
+  "lescovar",
+  "mathias shaw",
+  "old town",
+  "si:7",
+  "stormwind"
+ ],
+ "related": [
+  "quest:434",
+  "quest:395",
+  "npc:mathias-shaw",
+  "npc:elling-trias",
+  "subzone:old-town",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "The Head of the Beast"
+ ]
+}

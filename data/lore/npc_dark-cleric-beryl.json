@@ -1,0 +1,86 @@
+{
+ "key": "npc:dark-cleric-beryl",
+ "type": "npc",
+ "name": "Dark Cleric Beryl",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Dark Cleric Beryl",
+  "refs": 2
+ },
+ "summary": "Dark Cleric Beryl is a Forsaken priest trainer stationed in the Gallows' End Tavern in Brill. He guides newly awakened undead priests as they learn to wield shadow magic and adapt to their new, unholy existence under the Dark Lady.",
+ "sections": [
+  {
+   "title": "A Guide in the Shadows",
+   "body": "Residing on the upper floor of the Gallows' End Tavern in Brill, Dark Cleric Beryl serves the Forsaken by mentoring nascent priests. Once dedicated to the Holy Light in life, many Forsaken priests found their connection to holy magic agonizing or severed upon being raised into undeath. Beryl assists these newly risen practitioners as they turn their focus toward shadow and the dark arts, guiding them through early trials like crafting their Garments of Darkness and proving their dedication to the new path.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dark Cleric Beryl?",
+   "aliases": [
+    "beryl role",
+    "who is beryl",
+    "cleric beryl lore"
+   ],
+   "answer": "Dark Cleric Beryl is a Forsaken priest trainer located upstairs in the Gallows' End Tavern in Brill. He instructs newly risen undead priests in expanding their spellcraft and embracing the shadows."
+  },
+  {
+   "q": "Where can I find Dark Cleric Beryl?",
+   "aliases": [
+    "beryl location",
+    "where is beryl",
+    "find dark cleric beryl"
+   ],
+   "answer": "He is located in Tirisfal Glades inside the town of Brill. You can find him upstairs within the Gallows' End Tavern."
+  },
+  {
+   "q": "Why do Forsaken priests use the title Dark Cleric?",
+   "aliases": [
+    "what is a dark cleric",
+    "forsaken dark clerics",
+    "why dark cleric"
+   ],
+   "answer": "Forsaken priests who abandon the traditional dogmas of the Holy Light or balance it with darker disciplines take up the title of Dark Cleric. Because channeling the Light is excruciating for their undead flesh, many lean heavily into shadow magic and the Cult of Forgotten Shadows."
+  },
+  {
+   "q": "What quests does Beryl offer?",
+   "aliases": [
+    "beryl quests",
+    "dark cleric beryl quests"
+   ],
+   "answer": "Beryl is involved in early Forsaken priest training quests, including 'In Favor of Darkness' and 'Garments of Darkness', which teach young acolytes how to aid their allies and attire themselves in vestments suitable for the shadow."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "For Forsaken priests venturing into Tirisfal Glades, Beryl serves as an essential mentor in Brill, providing guidance on how to manipulate shadow magic and survive the harsh transition into unholy power."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Beryl represents the Forsaken's adaptation to their cursed condition, trading the blind devotion of Lordaeron's former faiths for practical, shadowy resilience."
+  }
+ ],
+ "keywords": [
+  "beryl",
+  "brill",
+  "dark cleric beryl",
+  "forsaken priest",
+  "gallows' end tavern",
+  "priest trainer",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:brill",
+  "subzone:gallows-end-tavern",
+  "zone:tirisfal",
+  "quest:5650",
+  "quest:5651",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Dark Cleric Beryl"
+ ]
+}

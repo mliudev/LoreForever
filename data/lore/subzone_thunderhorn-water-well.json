@@ -1,0 +1,76 @@
+{
+ "key": "subzone:thunderhorn-water-well",
+ "type": "subzone",
+ "name": "Thunderhorn Water Well",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Thunderhorn Water Well"
+ },
+ "summary": "Thunderhorn Water Well is a vital water source situated in the rolling plains of central Mulgore along the path between Bloodhoof Village and Thunder Bluff. Like all the wells across the valley, it provides essential nourishment to the tribes and the herds roaming the grasslands. Keeping this water clean and defended is crucial to maintaining life in the tauren homeland.",
+ "sections": [
+  {
+   "title": "A Life-Giving Spring",
+   "body": "Situated amid the sprawling grasslands of central Mulgore, the Thunderhorn Water Well taps directly into the pure aquifers feeding the valley. For the nomadic tauren and their newly settled villages, these communal wells represent life, sustenance, and the Earth Mother's bounty. Because water is precious across the sun-drenched plains, controlling the wells means controlling the land itself. Intruders such as the Venture Company have repeatedly eyed these sources, attempting to harness them for industrial exploitation and disrupt the fragile balance the tribes fight to preserve.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Thunderhorn Water Well located?",
+   "aliases": [
+    "thunderhorn well location",
+    "where is thunderhorn well",
+    "thunderhorn water well map"
+   ],
+   "answer": "The well is located in central Mulgore, situated along the north-south road running between Bloodhoof Village and the bluffs of Thunder Bluff."
+  },
+  {
+   "q": "Why is this water well important to the tauren?",
+   "aliases": [
+    "why is thunderhorn well important",
+    "tauren water wells meaning",
+    "why protect the wells"
+   ],
+   "answer": "The water wells of Mulgore tap into the pristine subterranean waters of the valley, sustaining the herds, pilgrims, and settlements. To the tauren, water is a sacred gift from the Earth Mother that must be safeguarded from outside corruption and greed."
+  },
+  {
+   "q": "Who has threatened the well?",
+   "aliases": [
+    "who attacked the well",
+    "venture co well",
+    "enemies at thunderhorn well"
+   ],
+   "answer": "Goblins of the Venture Company attempted to seize control of the well to monopolize the valley's water supply for their nearby mining and logging ventures, but local tauren fought back to reclaim and purify it."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, wells like Thunderhorn are vital lifelines gifted by the Earth Mother, requiring constant guardianship against foreign polluters and greedy trespassers."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman deeply revere the pure water springs of Mulgore, viewing the protection of water spirits and subterranean currents as a sacred duty."
+  }
+ ],
+ "keywords": [
+  "bloodhoof",
+  "mulgore",
+  "thunder bluff",
+  "thunderhorn",
+  "venture company",
+  "water",
+  "well"
+ ],
+ "related": [
+  "zone:mulgore",
+  "zone:thunderbluff",
+  "subzone:bloodhoof-village",
+  "topic:tauren",
+  "topic:venture-company"
+ ],
+ "attribution": [
+  "Thunderhorn Water Well"
+ ]
+}

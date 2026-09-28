@@ -1,0 +1,112 @@
+{
+ "key": "quest:99134",
+ "type": "quest",
+ "name": "Discipline",
+ "era": "forever",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   99134
+  ],
+  "level": "6",
+  "faction": "Horde",
+  "start": "Executor Zygand",
+  "end": "",
+  "previous": null,
+  "next": "",
+  "wiki": "Discipline (Forever)",
+  "chain": []
+ },
+ "summary": "Discipline is a task issued by Executor Zygand in Tirisfal Glades. Unimpressed by the competence of the local Deathguard garrison, Zygand commissions outside adventurers to administer physical punishment to slackening undead sentries.",
+ "sections": [
+  {
+   "title": "Enforcing Order in Undeath",
+   "body": "The Deathguard form the military spine of the Forsaken across Lordaeron, but freedom from the Lich King's iron will brings its own complications: apathy, fatigue, and negligence. Taskmasters like Executor Zygand have little patience for slackening discipline, especially with threats from the Scarlet Crusade and Scourge prowling Tirisfal's borders. To keep the troops sharp, officers rely on blunt instruments and aggressive oversight to maintain military readiness.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Executor's Ledger",
+   "body": "Executor Zygand deliberately employs independent operators rather than ranks from within the garrison to administer his punishments. Using the Executor's Motivator, outsiders remind negligent Deathguards that survival in service to the Dark Lady requires absolute vigilance. Those who fail in their duties quickly learn that unlife offers no shelter from consequence.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the Discipline quest?",
+   "aliases": [
+    "discipline quest giver",
+    "who starts discipline",
+    "executor zygand quest"
+   ],
+   "answer": "Discipline is given by Executor Zygand, an exacting Forsaken officer stationed in Tirisfal Glades who oversees regional defenses and demands strict obedience from his troops."
+  },
+  {
+   "q": "Why does Executor Zygand want the Deathguard punished?",
+   "aliases": [
+    "why hit deathguards",
+    "why motivate deathguard",
+    "zygand deathguard reason"
+   ],
+   "answer": "Zygand views the Deathguards under his command as incompetent and lacking proper drive. Because complacency threatens Forsaken survival in Tirisfal, he enforces harsh discipline to shock the sentries into alertness."
+  },
+  {
+   "q": "Why does Zygand use an adventurer instead of another soldier?",
+   "aliases": [
+    "why me discipline",
+    "why use outsiders zygand"
+   ],
+   "answer": "Zygand notes that as an outsider who is not yet part of the Deathguard, you have not had the opportunity to disappoint him. Employing a fresh hand also prevents internal garrison squabbles or soldiers showing mercy to their comrades."
+  },
+  {
+   "q": "What is the Executor's Motivator?",
+   "aliases": [
+    "executors motivator",
+    "what is the motivator zygand"
+   ],
+   "answer": "The Executor's Motivator is a punitive disciplinary tool provided by Executor Zygand. It is used to deliver a painful reprimand to idling Deathguards stationed across Tirisfal Glades."
+  },
+  {
+   "q": "What happens if you refuse Zygand's order?",
+   "aliases": [
+    "zygand threats",
+    "ledger threat zygand"
+   ],
+   "answer": "Zygand warns that hesitation or refusal will result in your own name being inscribed in his ledger, marking you as the next target for someone else to discipline."
+  },
+  {
+   "q": "How do the Forsaken view pain?",
+   "aliases": [
+    "do undead feel pain",
+    "forsaken pain lore"
+   ],
+   "answer": "Though undead bodies are dulled to many sensations, sharp physical pain remains one of the few visceral feelings they retain. For officers like Zygand, inflicting and experiencing it serves as a morbid satisfaction and an effective motivator."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, military discipline is a matter of species survival. Sentries who succumb to apathy endanger the entire territory of Tirisfal Glades."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The grim methods of Forsaken commanders illustrate the stark, unforgiving realities of life and governance within the northern reaches of the Horde."
+  }
+ ],
+ "keywords": [
+  "dark lady",
+  "deathguard",
+  "discipline",
+  "executor zygand",
+  "forsaken",
+  "motivator",
+  "tirisfal glades",
+  "undead"
+ ],
+ "related": [
+  "npc:executor-zygand",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Discipline (Forever)"
+ ]
+}

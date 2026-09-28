@@ -1,0 +1,126 @@
+{
+ "key": "quest:157",
+ "type": "quest",
+ "name": "Deliver the Thread",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   157
+  ],
+  "level": "24",
+  "faction": "Alliance",
+  "start": "Madame Eva",
+  "end": "Abercrombie",
+  "previous": "Return the Comb (Classic)",
+  "next": "Zombie Juice (Classic)",
+  "wiki": "Deliver the Thread (Classic)",
+  "chain": []
+ },
+ "summary": "Deliver the Thread is an Alliance errand in Duskwood that ferries a spool of Ghost Hair Thread from Madame Eva in Darkshire across the haunted forest to Abercrombie. The eccentric hermit living near Raven Hill Cemetery claims he needs the enchanted thread to ward his ramshackle hut against restless spirits. However, Madame Eva's dark remarks about the thread hint that there may be far more sinister uses for it.",
+ "sections": [
+  {
+   "title": "A Crossing in the Dark",
+   "body": "Once Madame Eva finishes spinning spectral hair gathered from the restless dead of Raven Hill, she entrusts the Ghost Hair Thread to any traveler willing to carry it west. The journey requires crossing the shadowed expanse of Duskwood, slipping past lurking spiders and roaming undead to reach Abercrombie's dilapidated shack just north of the vast cemetery grounds.",
+   "spoiler": 0
+  },
+  {
+   "title": "Threads of Life and Death",
+   "body": "Abercrombie insists he needs the woven spectral strand to line his windows and doorframe to keep out the wailing dead of Raven Hill. Yet Madame Eva lets slip that ghost hair thread has a thousand uses: binding malevolent spirits, but also sewing semblance of life into dead and inanimate matter. The hermit greets the spool with immense delight, eager to set his hidden craft in motion.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is ghost hair thread?",
+   "aliases": [
+    "ghost hair",
+    "what is the thread",
+    "ghost thread"
+   ],
+   "answer": "It is an enchanted spool spun by Madame Eva in Darkshire using hair gathered from the spectral apparitions of Raven Hill. According to Eva, it possesses powerful occult properties, capable of binding spirits or sewing life into inanimate objects."
+  },
+  {
+   "q": "Who is Abercrombie?",
+   "aliases": [
+    "hermit",
+    "who is abercrombie",
+    "shack guy"
+   ],
+   "answer": "Abercrombie is a reclusive old man dwelling in a lonely shack just north of Raven Hill Cemetery. He presents himself as a harmless, frail recluse who is perpetually terrified of the undead prowling near his home."
+  },
+  {
+   "q": "Why does Abercrombie claim he needs the thread?",
+   "aliases": [
+    "why thread",
+    "abercrombie excuse",
+    "warding spirits"
+   ],
+   "answer": "Abercrombie tells visitors that he intends to string the ghost hair along his windows and doorways. He claims its spiritual properties will act as a ward to keep out the unwanted ghouls and spirits wandering Duskwood."
+  },
+  {
+   "q": "Where is Abercrombie located?",
+   "aliases": [
+    "abercrombie location",
+    "where is the shack",
+    "hermit shack"
+   ],
+   "answer": "He lives in an isolated wooden shack situated north of the main grounds of Raven Hill Cemetery, just off the western road running through Duskwood."
+  },
+  {
+   "q": "What happens after giving the thread to Abercrombie?",
+   "aliases": [
+    "next quest",
+    "what comes after",
+    "after deliver thread"
+   ],
+   "answer": "Once Abercrombie receives the thread, he rewards the courier and immediately begins complaining of other pressing needs, sending travelers on further errands for odd alchemical ingredients like Zombie Juice."
+  },
+  {
+   "q": "Does Madame Eva know what Abercrombie is up to?",
+   "aliases": [
+    "does eva know",
+    "madame eva complicit",
+    "eva warning"
+   ],
+   "answer": "Eva does not directly accuse Abercrombie of foul play, but her cryptic parting words note that ghost hair can be used to sew life into inanimate objects. She seems well aware of the thread's necromantic potential, even if she fulfills the order without protest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "Spinning spectral hair into viable spools is no ordinary weaving; it blends needlecraft with hedge necromancy, crafting material capable of stitching matter beyond the physical realm."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Warding one's home against the restless dead usually calls for holy rites of the Light; relying on woven remnants of the dead themselves suggests Abercrombie treads a far darker path."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Darkshire's fragile safety depends on vigilance, and sending aid across the monster-infested western woods to an isolated hermit strains the Night Watch's stretched frontier."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "darkshire",
+  "deliver the thread",
+  "duskwood",
+  "ghost hair thread",
+  "madame eva",
+  "raven hill",
+  "raven hill cemetery",
+  "zombie juice"
+ ],
+ "related": [
+  "quest:149",
+  "npc:abercrombie",
+  "npc:madame-eva",
+  "subzone:raven-hill-cemetery",
+  "zone:duskwood",
+  "quest:163",
+  "topic:light"
+ ],
+ "attribution": [
+  "Deliver the Thread (Classic)"
+ ]
+}

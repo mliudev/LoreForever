@@ -1,0 +1,70 @@
+{
+ "key": "subzone:mirage-flats",
+ "type": "subzone",
+ "name": "Mirage Flats",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Mirage Flats"
+ },
+ "summary": "Mirage Flats is a barren, sun-scorched expanse nestled in the central wastes of the Badlands. Stretched between the mountain pass of Dragon's Mouth and the rugged hills near Kargath, this dry plateau is notorious for shimmering heat hazes and hungry predators.",
+ "sections": [
+  {
+   "title": "A Scorched Wasteland",
+   "body": "Situated east of Dustbelch Grotto, the Mirage Flats present travelers with an unforgiving stretch of cracked red dirt and shimmering heat waves that give the plain its name. Few civilized souls linger here; instead, the open flats are dominated by opportunistic scavengers and lethal beasts. Flocks of giant buzzards circle lazily on hot thermals above, watching for the leavings of ferocious ridge stalkers and pack-hunting crag coyotes that scour the brush for easy prey.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Mirage Flats located?",
+   "aliases": [
+    "mirage flats location",
+    "where is mirage flats",
+    "mirage flats map"
+   ],
+   "answer": "The flats lie in the central Badlands, east of Dustbelch Grotto and west of the Dragon's Mouth mountain pass that leads into the Searing Gorge. Travelers passing between the western cliffs and the eastern canyons often find themselves crossing these sun-baked grounds."
+  },
+  {
+   "q": "Why is the area called Mirage Flats?",
+   "aliases": [
+    "why called mirage flats",
+    "mirage flats name meaning",
+    "heat mirage badlands"
+   ],
+   "answer": "The name comes from the blinding desert sun and oppressive heat radiating off the flat, stony earth, creating persistent optical illusions and heat shimmers that can disorient parched travelers navigating the wastes."
+  },
+  {
+   "q": "What creatures prowl the flats?",
+   "aliases": [
+    "mirage flats mobs",
+    "what lives in mirage flats",
+    "beasts of mirage flats"
+   ],
+   "answer": "The area is populated by resilient predators and scavengers adapted to the harsh badlands. Pack-hunting rabid crag coyotes and prowling ridge stalker patriarchs hunt across the scrub, while giant buzzards circle overhead waiting to feast on whatever drops in the dust."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The wide, open plains of the Mirage Flats offer an abundance of aggressive beasts to track, study, or tame, particularly fierce ridge stalkers and resilient coyotes seasoned by desert survival."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "crag coyote",
+  "dragon's mouth",
+  "dustbelch grotto",
+  "giant buzzard",
+  "mirage flats",
+  "ridge stalker"
+ ],
+ "related": [
+  "zone:badlands",
+  "subzone:dragon-s-mouth",
+  "subzone:kargath"
+ ],
+ "attribution": [
+  "Mirage Flats"
+ ]
+}

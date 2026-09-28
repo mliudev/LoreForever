@@ -1,0 +1,88 @@
+{
+ "key": "npc:randis",
+ "type": "npc",
+ "name": "Randis",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Randis",
+  "refs": 1
+ },
+ "summary": "Randis is a spirited young human orphan under the care of Orphan Matron Nightingale at the orphanage in Cathedral Square. During Children's Week, he eagerly accompanies willing adventurers across the Alliance's territories to take in sights far beyond the city walls.",
+ "sections": [
+  {
+   "title": "A Ward of Stormwind",
+   "body": "Residing in the orphanage near Stormwind's Cathedral of Light, Randis is one of many children left without family in the wake of the realm's persistent conflicts. When the annual Children's Week arrives, Orphan Matron Nightingale entrusts sympathetic heroes with a whistle to take him under their wing. Full of youthful curiosity and nonstop questions, Randis dreams of adventuring, asks endless riddles, and boldly declares that when he grows up, he wants to be the king of Stormwind.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes on the World",
+   "body": "For a boy who spends most of his days penned up in Cathedral Square, leaving the capital is a grand adventure. Randis marvels at distant wonders like the grand Stonewrought Dam in Loch Modan and dreams of meeting famous figures across Azeroth. Though he is quick to note that places like Ironforge smell rather odd, his boundless wonder reflects the innocent future that heroes of the Alliance fight to protect.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Randis?",
+   "aliases": [
+    "randis npc",
+    "who is the human orphan",
+    "human orphan stormwind"
+   ],
+   "answer": "Randis is a human child staying at the Stormwind Orphanage in Cathedral Square. During the festivities of Children's Week, adventurers can volunteer to look after him and take him on travels across the world."
+  },
+  {
+   "q": "How do you meet Randis?",
+   "aliases": [
+    "how to get randis",
+    "summon randis",
+    "orphan whistle stormwind"
+   ],
+   "answer": "During Children's Week, Orphan Matron Nightingale in Cathedral Square provides adventurers with an orphan whistle. Blowing the whistle summons Randis so he can tag along on your adventures."
+  },
+  {
+   "q": "What places does Randis want to visit?",
+   "aliases": [
+    "randis places",
+    "randis sights",
+    "childrens week human orphan locations"
+   ],
+   "answer": "Randis longs to see legendary landmarks across the Alliance, including the immense Stonewrought Dam in Loch Modan and prominent figures of the realm, giving him a glimpse of life outside Stormwind."
+  },
+  {
+   "q": "Why is Randis living in an orphanage?",
+   "aliases": [
+    "randis parents",
+    "why is randis an orphan",
+    "stormwind orphanage lore"
+   ],
+   "answer": "Like many children under Matron Nightingale's roof, Randis lost his parents to the constant wars, invasions, and hardships that have struck the kingdom of Stormwind and the wider lands of Azeroth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Mentoring Randis during Children's Week reminds Alliance champions what their battles are truly for: protecting the next generation of civilians and dreamers."
+  }
+ ],
+ "keywords": [
+  "cathedral square",
+  "children's week",
+  "human orphan",
+  "matron nightingale",
+  "randis",
+  "stonewrought dam",
+  "stormwind"
+ ],
+ "related": [
+  "npc:orphan-matron-nightingale",
+  "subzone:cathedral-square",
+  "zone:stormwind",
+  "subzone:stonewrought-dam",
+  "zone:ironforge",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Randis"
+ ]
+}

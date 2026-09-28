@@ -1,0 +1,113 @@
+{
+ "key": "quest:686",
+ "type": "quest",
+ "name": "A King's Tribute",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   686
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "King Magni Bronzebeard",
+  "end": "Grand Mason Marblesten",
+  "previous": "Sara Balloo's Plea (quest)",
+  "next": "A King's Tribute (2)",
+  "wiki": "A King's Tribute",
+  "chain": []
+ },
+ "summary": "A King's Tribute is an Alliance quest offered by King Magni Bronzebeard in the High Seat of Ironforge. Deeply moved by the grief of Sara Balloo, whose husband Sully fell defending the Thandol Span, the King decides to honor the fallen soldier with a lasting monument. He dispatches an adventurer to relay his royal commission to Grand Mason Marblesten.",
+ "sections": [
+  {
+   "title": "A Sovereign's Burden",
+   "body": "When King Magni Bronzebeard receives the plea of Sara Balloo, he does not dismiss the grieving widow. While he acknowledges that common folk may struggle to understand the brutal necessities of war, the loss of every soldier fighting beneath the Alliance banner weighs heavily upon his conscience. Unable to reverse the grim finality of death on the front lines, Magni chooses to ensure Sully Balloo's sacrifice is never forgotten.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Mason's Chisel",
+   "body": "Rather than issuing empty platitudes, the King resolves to raise a physical memorial in Sully's honor. He appoints the adventurer as custodian of his royal will, sending them across Ironforge to confer with Grand Mason Marblesten. Entrusted with the King's personal commission, the master stonemason prepares to carve the memory of a fallen defender into stone.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Sully Balloo?",
+   "aliases": [
+    "who is sully",
+    "sully balloo lore",
+    "who died"
+   ],
+   "answer": "Sully Balloo was a dwarven soldier who lost his life fighting for the Alliance during the defense of the Thandol Span. His widow, Sara Balloo, petitioned King Magni Bronzebeard after learning of his death."
+  },
+  {
+   "q": "Why does King Magni commission a memorial?",
+   "aliases": [
+    "why build memorial",
+    "magni motive",
+    "kings tribute purpose"
+   ],
+   "answer": "King Magni carries the weight of every dwarven life lost in the Alliance's ongoing struggles. Though he cannot restore Sully to his widow, he intends to honor the soldier's courage with an enduring royal monument."
+  },
+  {
+   "q": "Who is Grand Mason Marblesten?",
+   "aliases": [
+    "who is marblesten",
+    "grand mason role"
+   ],
+   "answer": "Grand Mason Marblesten is Ironforge's master stoneworker, tasked with executing major civic and royal architectural projects throughout the city. King Magni relies on him to sculpt Sully Balloo's memorial."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "where is this quest",
+    "quest location"
+   ],
+   "answer": "The quest takes place entirely within Ironforge, beginning at the High Seat with King Magni Bronzebeard and leading to Grand Mason Marblesten elsewhere in the capital."
+  },
+  {
+   "q": "What comes before this quest?",
+   "aliases": [
+    "prerequisites",
+    "previous quest"
+   ],
+   "answer": "Before receiving this quest, an adventurer must complete 'Sara Balloo's Plea', delivering the widow's heartfelt letter directly to King Magni Bronzebeard."
+  },
+  {
+   "q": "Is this memorial only for Sully Balloo?",
+   "aliases": [
+    "who does it honor",
+    "is it just for sully"
+   ],
+   "answer": "While specifically commissioned in name of Sully Balloo to console his widow Sara, the tribute symbolizes the King's reverence for every dwarven fighter who perishes in service to the Alliance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "This task demonstrates King Magni's dedication to his folk, showing that even the lowliest dwarven foot soldier is remembered by the throne."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The fallen at the Thandol Span gave their lives guarding crucial supply lines between Khaz Modan and the northern kingdoms for the Alliance."
+  }
+ ],
+ "keywords": [
+  "ironforge",
+  "magni bronzebeard",
+  "marblesten",
+  "memorial",
+  "sara balloo",
+  "sully balloo",
+  "thandol span"
+ ],
+ "related": [
+  "npc:magni-bronzebeard",
+  "npc:grand-mason-marblesten",
+  "topic:dwarf",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "A King's Tribute"
+ ]
+}

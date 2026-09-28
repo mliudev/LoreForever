@@ -1,0 +1,124 @@
+{
+ "key": "quest:481",
+ "type": "quest",
+ "name": "Dalar's Analysis",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   481
+  ],
+  "level": "14",
+  "faction": "Horde",
+  "start": "Shadow Priest Allister",
+  "end": "Dalar Dawnweaver",
+  "previous": "Maps and Runes",
+  "next": "Dalaran's Intentions",
+  "wiki": "Dalar's Analysis",
+  "chain": []
+ },
+ "summary": "Dalar's Analysis is a Horde quest in Silverpine Forest linking Shadow Priest Allister's espionage against Ambermill with the arcane research of Dalar Dawnweaver. After uncovering a rune-inscribed pendant from Kirin Tor couriers, adventurers bring the relic to Dalar at the Sepulcher for scrutiny. The artifact reveals that the surviving mages of Dalaran are marshaling significant magical power for a hidden initiative.",
+ "sections": [
+  {
+   "title": "A Courier's Cargo",
+   "body": "Following the interception of Kirin Tor couriers crossing Silverpine Forest, Shadow Priest Allister discovers a rune-inscribed pendant among the seized documents. Recognizing that its enchantment lies beyond his spiritual purview, Allister directs the relic to Dalar Dawnweaver, an arcane scholar stationed at the Sepulcher who is better suited to decipher Dalaran's magical warding.",
+   "spoiler": 0
+  },
+  {
+   "title": "Kirin Tor Machinations",
+   "body": "Upon examining the pendant, Dalar Dawnweaver identifies it as a specialized conduit historically favored by high-ranking wizards of the Kirin Tor to channel potent magical energies. The sheer volume of such relics being funneled directly into the fortified town of Ambermill suggests the wizards are preparing an arcane undertaking of vast scale, prompting Dalar to probe past their magical wards to divine their true intentions.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the rune-inscribed pendant?",
+   "aliases": [
+    "what is pendant",
+    "kirin tor pendant lore",
+    "ambermill pendant"
+   ],
+   "answer": "The pendant is an arcane artifact used by senior mages of the Kirin Tor to safely channel large amounts of magical energy. Its discovery in transit indicates that Ambermill is being supplied with powerful foci for high-level spellcraft."
+  },
+  {
+   "q": "Why does Shadow Priest Allister send the pendant to Dalar Dawnweaver?",
+   "aliases": [
+    "why dalar",
+    "who is dalar dawnweaver",
+    "why send to sepulcher"
+   ],
+   "answer": "Shadow Priest Allister primarily deals with shadow magic and intelligence gathering for the Forsaken at the Sepulcher. Because the pendant is a complex arcane relic of Dalaran craftsmanship, it requires an arcane specialist like Dalar Dawnweaver to properly inspect its runes and deduce its purpose."
+  },
+  {
+   "q": "Where is Ambermill and why are the Forsaken monitoring it?",
+   "aliases": [
+    "why watch ambermill",
+    "ambermill wizards",
+    "dalaran in silverpine"
+   ],
+   "answer": "Ambermill is a fortified human town in southeastern Silverpine Forest maintained by the mages of Dalaran. Situated deep within territory claimed by Lady Sylvanas Windrunner, the town presents an immediate military and magical threat to the Forsaken, prompting strict surveillance of its borders."
+  },
+  {
+   "q": "What happens after Dalar analyzes the pendant?",
+   "aliases": [
+    "what comes next",
+    "after dalar's analysis",
+    "dalaran intent"
+   ],
+   "answer": "Recognizing that the Kirin Tor are amassing arcane conduits for a major endeavor, Dalar uses his own magic to scry through the defensive shields of Ambermill in the subsequent task, Dalaran's Intentions, to discover precisely what the wizards are planning."
+  },
+  {
+   "q": "Where can Dalar Dawnweaver be found?",
+   "aliases": [
+    "dalar location",
+    "where is dalar",
+    "dalar dawnweaver silverpine"
+   ],
+   "answer": "Dalar Dawnweaver is located inside the crypt at the Sepulcher, the primary Forsaken bastion in Silverpine Forest situated along the main road."
+  },
+  {
+   "q": "Why are the Kirin Tor operating openly in Silverpine Forest?",
+   "aliases": [
+    "kirin tor silverpine",
+    "dalaran presence silverpine"
+   ],
+   "answer": "Ambermill was an established holding of Dalaran before the Scourge devastated Lordaeron. Despite the fall of the capital and Dalaran itself, the surviving wizards have retained Ambermill as an active redoubt, clashing constantly with the Forsaken expansion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Forsaken mages will recognize the Kirin Tor pendant as a classic channeling tool used in traditional Dalaran spellweaving, showing that their old brethren are preparing an immense invocation."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, monitoring Dalaran's operations at Ambermill is crucial to safeguarding the borders of Silverpine and protecting the Sepulcher from hostile sorcery."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Thwarting the Kirin Tor's projects in Silverpine keeps the Eastern Kingdoms secure against resurgent Alliance-aligned magical factions."
+  }
+ ],
+ "keywords": [
+  "ambermill",
+  "dalar dawnweaver",
+  "dalaran",
+  "kirin tor",
+  "pendant",
+  "sepulcher",
+  "shadow priest allister",
+  "silverpine forest"
+ ],
+ "related": [
+  "npc:dalar-dawnweaver",
+  "npc:shadow-priest-allister",
+  "quest:478",
+  "quest:482",
+  "subzone:ambermill",
+  "subzone:sepulcher",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Dalar's Analysis"
+ ]
+}

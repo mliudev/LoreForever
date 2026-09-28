@@ -1,0 +1,110 @@
+{
+ "key": "npc:gelihast",
+ "type": "npc",
+ "name": "Gelihast",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Gelihast",
+  "refs": 5
+ },
+ "summary": "Gelihast is a ferocious, twin-blade wielding murloc chieftain residing in the Pool of Ask'ar within Blackfathom Deeps. Lured by the dark whispers of the Old Gods, he butchered his way into the sunken temple ruins before earning the reluctant respect of the Twilight's Hammer cultists.",
+ "sections": [
+  {
+   "title": "A Deadly Calling",
+   "body": "While most murlocs stay near coastal shallows, Gelihast felt the dark, ominous tug of the Old Gods deep beneath Ashenvale. Driven by these primordial whispers, he forced his way into the sunken temple of Blackfathom Deeps. When Twilight's Hammer cultists tried to halt his path, he slaughtered nearly a dozen of them single-handedly using his twin swords.",
+   "spoiler": 0
+  },
+  {
+   "title": "Master of the Blindlight",
+   "body": "Rather than seeking vengeance, the cultists admired Gelihast's raw savagery and granted him dominion over the Pool of Ask'ar. There, surrounded by his Blindlight brood, the bloodthirsty murloc constructed a crude altar. He performs grim sacrifices upon it, receiving dark boons directly from the foul presence slumbering in the abyss.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gelihast?",
+   "aliases": [
+    "who is gelihast",
+    "gelihast lore",
+    "gelihast background"
+   ],
+   "answer": "Gelihast is a vicious murloc chieftain who commands the Blindlight tribe inside the Pool of Ask'ar in Blackfathom Deeps. He fights with twin blades and serves the dark presence lingering within the ruins."
+  },
+  {
+   "q": "Why is Gelihast inside Blackfathom Deeps?",
+   "aliases": [
+    "why is there a murloc in bfd",
+    "why is gelihast in the temple"
+   ],
+   "answer": "He was drawn by the whispers of the Old Gods. Desiring to reach the source of the dark call, he invaded the ruins and carved a bloody path through the local cultists to claim his own territory."
+  },
+  {
+   "q": "How did the Twilight's Hammer react to him?",
+   "aliases": [
+    "gelihast and twilights hammer",
+    "do cultists like gelihast"
+   ],
+   "answer": "Although Gelihast slaughtered nearly a dozen Twilight's Hammer cultists upon entering the temple, the survivors were so impressed by his ferocity and cruelty that they permitted him to stay and worship alongside them."
+  },
+  {
+   "q": "What is the altar behind Gelihast?",
+   "aliases": [
+    "altar of the deep",
+    "gelihast altar",
+    "blessing of blackfathom altar"
+   ],
+   "answer": "Gelihast erected the shrine to offer bloody sacrifices to the ominous presence in the ruins. Travelers who defeat him can touch the altar to receive the Blessing of Blackfathom."
+  },
+  {
+   "q": "What tribe of murlocs does he lead?",
+   "aliases": [
+    "gelihast tribe",
+    "what murlocs are in bfd"
+   ],
+   "answer": "He leads the Blindlight murlocs, an aggressive tribe that infests the Pool of Ask'ar within the caverns."
+  },
+  {
+   "q": "What happens to Gelihast if he is left unchecked?",
+   "aliases": [
+    "gelihast fate",
+    "who kills gelihast"
+   ],
+   "answer": "He continues to sacrifice victims at his altar in the Pool of Ask'ar, serving as a vicious enforcer and fanatic servant of the shadowy horrors infesting the ruins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Gelihast attacks with blinding sword speed; skilled warriors who brace themselves can turn his frantic dual-wielding assault entirely against him."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance forces seeking to cleanse the corruption leaking into Ashenvale, removing Gelihast is essential to secure the northern passages of the submerged temple."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde adventurers dispatched to scour Blackfathom Deeps must eliminate Gelihast to disrupt the cultist alliance festering beneath the Zoram Strand."
+  }
+ ],
+ "keywords": [
+  "blackfathom deeps",
+  "blindlight",
+  "gelihast",
+  "murloc",
+  "old gods",
+  "pool of ask'ar",
+  "twilight's hammer"
+ ],
+ "related": [
+  "zone:blackfathom",
+  "subzone:pool-of-ask-ar",
+  "topic:twilight-s-hammer",
+  "topic:old-god",
+  "topic:murloc",
+  "npc:lady-sarevess"
+ ],
+ "attribution": [
+  "Gelihast"
+ ]
+}

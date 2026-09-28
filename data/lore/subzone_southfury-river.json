@@ -1,0 +1,87 @@
+{
+ "key": "subzone:southfury-river",
+ "type": "subzone",
+ "name": "Southfury River",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Southfury River"
+ },
+ "summary": "The Southfury River is one of the most prominent waterways on central Kalimdor, carving a swift and wide path southward from the heights of Mount Hyjal. It forms the natural border separating Azshara from Ashenvale, as well as Durotar from the Barrens, before plunging into the Great Sea near Ratchet.",
+ "sections": [
+  {
+   "title": "A Vital Natural Divide",
+   "body": "Beginning high in Mount Hyjal, the Southfury drops over dramatic cascades before coursing through central Kalimdor. Its roaring waters serve as a clear geographic divide, separating the sacred forests of Ashenvale from ancient Azshara, and dividing the arid hills of Durotar from the savanna of the Barrens. Only a few strategic bridges dare cross its swift currents\u2014most notably the heavy span guarding the rear gates of Orgrimmar and the crossing connecting Durotar to the Barrens. The river eventually empties into the Great Sea via a cascading waterfall just northeast of the neutral port of Ratchet.",
+   "spoiler": 0
+  },
+  {
+   "title": "Strategic Importance",
+   "body": "For the Horde, the Southfury is both a shield and a vital natural highway. It protects the western approaches of Durotar and Orgrimmar from immediate ground assault while supplying fresh mountain runoff through an otherwise scorched, sun-baked landscape. Just north of the western crossing into Orgrimmar lies a singular geographic crossroads where four major territories converge: Ashenvale, Azshara, Durotar, and the Barrens. Control over this churning waterway ensures supply lines between Orgrimmar and the outlying Horde settlements remain intact.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Southfury River start and end?",
+   "aliases": [
+    "source of southfury river",
+    "where does southfury go",
+    "southfury mouth"
+   ],
+   "answer": "The Southfury begins in the alpine reaches of Mount Hyjal, tumbling down dramatic waterfalls into the lowlands. It flows south between Ashenvale, Azshara, Durotar, and the Barrens before plunging into the Great Sea in a waterfall northeast of Ratchet."
+  },
+  {
+   "q": "Which zones does the river border?",
+   "aliases": [
+    "what zones are on southfury",
+    "southfury border"
+   ],
+   "answer": "The river divides Ashenvale from Azshara in the north, and the Barrens from Durotar in the south. Notably, there is a point north of Orgrimmar's western bridge where all four territories meet along the riverbanks."
+  },
+  {
+   "q": "Where can travelers cross the Southfury River?",
+   "aliases": [
+    "southfury bridges",
+    "how to cross southfury",
+    "bridges over southfury"
+   ],
+   "answer": "There are three primary bridges crossing the Southfury: one connecting Azshara into Ashenvale, one leading into the rear gates of Orgrimmar, and a major bridge connecting Durotar with the Barrens."
+  },
+  {
+   "q": "Why is the river important to Orgrimmar?",
+   "aliases": [
+    "southfury orgrimmar",
+    "why horde cares about southfury"
+   ],
+   "answer": "The river provides a formidable natural barrier defending the western flank of Orgrimmar and Durotar. In addition, its fresh mountain waters are an invaluable lifeline across an otherwise dry and arid region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Southfury River acts as Durotar's western defensive perimeter and the natural line of transit connecting the capital to the heart of the Barrens."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "azshara",
+  "barrens",
+  "durotar",
+  "hyjal",
+  "orgrimmar",
+  "ratchet",
+  "southfury",
+  "southfury river"
+ ],
+ "related": [
+  "zone:durotar",
+  "zone:ashenvale",
+  "zone:azshara",
+  "zone:orgrimmar",
+  "subzone:ratchet",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Southfury River"
+ ]
+}

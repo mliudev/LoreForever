@@ -1,0 +1,86 @@
+{
+ "key": "subzone:gates-of-orgrimmar",
+ "type": "subzone",
+ "name": "Gates of Orgrimmar",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Gates of Orgrimmar"
+ },
+ "summary": "The Gates of Orgrimmar form the imposing southern threshold of the Horde capital, carved directly into the red rock of northern Durotar. Flanked by heavy timber and iron battlements, this grand entryway connects the arid wastes outside to the busy commons of the Valley of Strength. It stands as a physical declaration of orcish endurance and martial strength.",
+ "sections": [
+  {
+   "title": "The Bastion of Durotar",
+   "body": "Framed by towering wooden palisades, massive iron spikes, and fortified watchtowers, the main gate guards the primary chasm cutting into the mountains sheltering Orgrimmar. For travelers approaching from Razor Hill and the scrublands of Durotar, the entrance serves as both a welcoming monument and a stark deterrent to any who would threaten the new Horde. Heavily armed Orgrimmar Grunts and Darkspear Headhunters patrol the approach, keeping vigilant watch over all traffic entering the city.",
+   "spoiler": 0
+  },
+  {
+   "title": "Threshold to the Valley",
+   "body": "Passing beneath the shadowed arch of the gates leads directly into the Valley of Strength, the civic and martial heart of Orgrimmar. The gate tunnel acts as an acoustic and tactical bottleneck, funneling envoys, merchants, and warriors past watchful sentries. It represents the realization of Warchief Thrall's dream: a secure sanctuary carved from the harsh desert where the disparate peoples of the Horde can walk united without fear.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do the Gates of Orgrimmar lead?",
+   "aliases": [
+    "what do the gates connect",
+    "where is the front gate"
+   ],
+   "answer": "The gates connect northern Durotar directly into the Valley of Strength, which serves as the primary entrance and central commons of Orgrimmar."
+  },
+  {
+   "q": "Who guards the gates?",
+   "aliases": [
+    "who protects the gate",
+    "gate guards"
+   ],
+   "answer": "The front gates are guarded by seasoned Orgrimmar Grunts and Darkspear Headhunters, maintaining a constant vigil against hostile infiltrators and wild beasts."
+  },
+  {
+   "q": "Why is the entrance fortified with wood and spikes?",
+   "aliases": [
+    "why wood and iron spikes",
+    "orcish gate design"
+   ],
+   "answer": "The architecture reflects traditional orcish frontier fortification, utilizing sturdy timber from nearby lands and iron spikes to create an intimidating, easily defensible choke point within the canyon walls."
+  },
+  {
+   "q": "Can Alliance players pass through this gate?",
+   "aliases": [
+    "can alliance enter",
+    "alliance walk through gate"
+   ],
+   "answer": "Alliance members attempting to walk through the main gate will immediately face hostile veteran guards ready to strike down any enemy of the Horde on sight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The massive gates represent safety, belonging, and a hard-won homeland forged under the leadership of Warchief Thrall."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance scouts and infiltrators, the gate is one of the most heavily guarded bottlenecks on Kalimdor, virtually impossible to breach by frontal assault."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "gates of orgrimmar",
+  "main gate",
+  "orgrimmar grunts",
+  "thrall",
+  "valley of strength"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "subzone:valley-of-strength",
+  "zone:durotar",
+  "topic:horde",
+  "npc:thrall",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Gates of Orgrimmar"
+ ]
+}

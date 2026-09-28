@@ -1,0 +1,119 @@
+{
+ "key": "topic:westfall-brigade",
+ "type": "topic",
+ "name": "Westfall Brigade",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Westfall Brigade"
+ },
+ "summary": "The People's Militia, later known as the Westfall Brigade, is a grassroots defense force founded by Gryan Stoutmantle to protect Westfall's residents from the Defias Brotherhood. Operating out of Sentinel Hill, these volunteer defenders stand alone after royal aid from Stormwind City failed to arrive. They rely on local farmers and visiting adventurers to hold the line against rampant banditry.",
+ "sections": [
+  {
+   "title": "A Region Abandoned",
+   "body": "Westfall was once the breadbasket of the Kingdom of Stormwind, but recent unrest and economic turmoil caused the crown to withdraw regular army garrisons back to the capital. In the vacuum, the masked bandits of the Defias Brotherhood swept across the plains, seizing family homesteads, commandeering iron mines, and extorting local farmers. Facing lawlessness and seeing no sign of royal reinforcements, veteran warrior Gryan Stoutmantle rallied local citizens and retired soldiers to form the People's Militia.",
+   "spoiler": 0
+  },
+  {
+   "title": "Holding Sentinel Hill",
+   "body": "Based at Sentinel Tower atop Sentinel Hill, the Militia maintains a tenuous perimeter across the region's main thoroughfares. Lacking professional military gear and sustained supplies, their protectors patrol dusty roads while Stoutmantle directs volunteers to thin the swelling ranks of Defias highwaymen, thieves, and pillagers. When neighboring regions like Redridge plead for mutual aid, the Militia is forced to decline, as sparing even a handful of men would spell the total ruin of Westfall.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uncovering the Conspiracy",
+   "body": "Through relentless scouting and outside help, the Militia unearths the true scale of the Defias threat. Rather than simple agrarian brigands, the Brotherhood operates under Edwin VanCleef, the former Guildmaster of the Stonemasons who rebuilt Stormwind. Operating from the subterranean depths of the Deadmines beneath Moonbrook, the Defias intend to overthrow the kingdom itself, leaving the embattled Militia as the only wall between the capital and open insurrection.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the People's Militia fighting alone without Stormwind's army?",
+   "aliases": [
+    "why no stormwind guard",
+    "where is stormwind army",
+    "why westfall abandoned"
+   ],
+   "answer": "Stormwind City is paralyzed by political corruption and the disappearance of King Varian Wrynn. With royal troops withheld in the capital, local leaders like Gryan Stoutmantle took up arms to form a self-funded civilian force."
+  },
+  {
+   "q": "Who leads the People's Militia?",
+   "aliases": [
+    "who leads westfall brigade",
+    "militia leader",
+    "gryan stoutmantle role"
+   ],
+   "answer": "Gryan Stoutmantle, a seasoned human veteran, founded and directs the force from Sentinel Tower on Sentinel Hill."
+  },
+  {
+   "q": "What is the difference between the People's Militia and the Westfall Brigade?",
+   "aliases": [
+    "peoples militia vs westfall brigade",
+    "is westfall brigade the militia"
+   ],
+   "answer": "They are the same organization. Founded as the People's Militia to defend Westfall from the Defias, the force later adopts the broader title of the Westfall Brigade as its military footprint and standing grow."
+  },
+  {
+   "q": "Where is their headquarters located?",
+   "aliases": [
+    "militia base",
+    "where is sentinel hill",
+    "westfall militia base"
+   ],
+   "answer": "They operate out of Sentinel Hill, centered around the tall stone watchtower in the heart of Westfall."
+  },
+  {
+   "q": "Can the Militia help other troubled regions like Redridge?",
+   "aliases": [
+    "why wont they help lakeshire",
+    "solomon request stoutmantle"
+   ],
+   "answer": "No. When Magistrate Solomon of Lakeshire requested military reserves, Stoutmantle was forced to refuse because the Militia is barely clinging to survival against the Defias."
+  },
+  {
+   "q": "Who is the main enemy the Militia fights?",
+   "aliases": [
+    "who are they fighting",
+    "militia enemy",
+    "defias enemy"
+   ],
+   "answer": "Their primary adversary is the Defias Brotherhood, a vast criminal syndicate of former masons, rogues, and highwaymen led by Edwin VanCleef."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "The Militia showcases the grit and desperation of Stormwind's rural folk, forced to defend their own hearths when the royal court turns a blind eye."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Gryan Stoutmantle and his protectors embody pragmatic frontline leadership, making do with worn blades and makeshift armor to hold back overwhelming odds."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Westfall's crisis highlights the dangerous cracks in the kingdom, showing Alliance heroes that peace in the core territories is fragile."
+  }
+ ],
+ "keywords": [
+  "defias brotherhood",
+  "edwin vancleef",
+  "gryan stoutmantle",
+  "moonbrook",
+  "people's militia",
+  "sentinel hill",
+  "sentinel tower",
+  "westfall brigade"
+ ],
+ "related": [
+  "npc:gryan-stoutmantle",
+  "subzone:sentinel-hill",
+  "zone:westfall",
+  "topic:defias-brotherhood",
+  "quest:12",
+  "npc:edwin-vancleef",
+  "subzone:deadmines",
+  "quest:143"
+ ],
+ "attribution": [
+  "Westfall Brigade"
+ ]
+}

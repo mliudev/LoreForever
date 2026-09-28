@@ -1,0 +1,123 @@
+{
+ "key": "topic:pirate",
+ "type": "topic",
+ "name": "Pirate",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Pirate"
+ },
+ "summary": "Pirates and buccaneers are lawless seafaring plunderers operating across the Great Sea and coastal waters of Azeroth. Preying on Alliance, Horde, and neutral merchant vessels alike, they band together under loose flags to seize wealth, capture cargo, and control coastal coves. Their violent presence drives constant naval skirmishes from the waters of Kalimdor to the shores of the Eastern Kingdoms.",
+ "sections": [
+  {
+   "title": "Lords of the High Seas",
+   "body": "Pirates\u2014often called buccaneers, corsairs, or freebooters\u2014are maritime raiders of nearly every race who make their living seizing ships and raiding coastal settlements. Their operations stretch far beyond simple robbery; crews regularly engage in smuggling, kidnappings, and mercenary contracts for whoever has coin. With the chaos left behind by the Third War and the collapse of northern kingdoms, naval enforcement has fractured, giving pirate factions the freedom to carve out fortified footholds on neglected islands and coastal coves.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Ruthless Life",
+   "body": "Despite common tales painting pirate life as one of romantic adventure, life aboard a buccaneer vessel is brutal and short. Crews endure squalid, rat-infested holds, harsh discipline, and the ever-present threat of scurvy, fought off only with supplies of limes. Betrayal is an everyday hazard, and captains maintain their command solely through strength and fear of punishment, which ranges from immediate execution to being marooned or fed to sharks. When battles end, buccaneers celebrate with roaring bouts of dice, song, and heavy rum.",
+   "spoiler": 0
+  },
+  {
+   "title": "Factions and Havens",
+   "body": "While independent crews roam every sea lane, major organizations wield enough ships to contest sovereign navies. The Southsea Freebooters harass shipping throughout the waters surrounding Kalimdor, while the notorious Bloodsail Buccaneers menace the southern seas and wage open war against the Steamwheedle Cartel in Booty Bay. Farther north, bands of buccaneers turned the ruins of Rustberg Village in Baradin Bay into a haven, raiding trade towns along the coast and even recruiting Kalimdor tauren into their ranks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the difference between a pirate, buccaneer, and freebooter?",
+   "aliases": [
+    "buccaneer vs pirate",
+    "freebooter difference",
+    "pirate titles"
+   ],
+   "answer": "The titles are largely used interchangeably along the sea lanes of Azeroth. While some groups prefer particular banners\u2014such as the Southsea Freebooters or the Bloodsail Buccaneers\u2014they all engage in maritime raiding, robbery, smuggling, and coastal plundering."
+  },
+  {
+   "q": "Where are the main pirate bases located?",
+   "aliases": [
+    "pirate towns",
+    "where do pirates live",
+    "pirate ports"
+   ],
+   "answer": "Pirate crews congregate in lawless anchorages and hidden harbors across the world. Major havens include Plunder Isle, the pirate-seized Rustberg Village in Baradin Bay, and coastal camps scattered throughout the shores of Tanaris, the Barrens, and Stranglethorn Vale."
+  },
+  {
+   "q": "Who do pirates attack?",
+   "aliases": [
+    "who do pirates target",
+    "are pirates alliance or horde"
+   ],
+   "answer": "Most pirate crews are indiscriminate predators. They hunt merchant vessels, civilian transports, and military supply craft belonging to the Alliance, the Horde, and the neutral Steamwheedle Cartel alike. Any ship laden with gold, timber, or trade goods is a potential target."
+  },
+  {
+   "q": "How do pirate crews recruit new members?",
+   "aliases": [
+    "joining pirates",
+    "how do they get crew"
+   ],
+   "answer": "Pirates expand their numbers by hiring desperate cutthroats and mercenaries in port towns, but they also rely heavily on press-ganging. Captured sailors and travelers are frequently given the choice between swearing fealty to the crew or being cast into the sea."
+  },
+  {
+   "q": "How does Kul Tiras deal with pirates?",
+   "aliases": [
+    "kul tiras piracy",
+    "kul tiran pirate law"
+   ],
+   "answer": "Kul Tiran law treats piracy as one of the most vile offenses a sailor can commit. Those captured by Kul Tiran patrols face immediate death by public execution, though rare crews have managed to secure royal pardons by undertaking perilous, high-stakes tasks for the admiralty."
+  },
+  {
+   "q": "Are there non-human pirates?",
+   "aliases": [
+    "tauren pirates",
+    "orc pirates",
+    "goblin pirates"
+   ],
+   "answer": "Yes. While human crews are common, buccaneer crews accept anyone willing to raid and follow orders. Crews include orcs, goblins, trolls, dwarves, and even tauren who were recruited or impressed into service along the coasts of Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The cutthroat tactics, blinding powder, and swift blade work of pirate crews closely mirror the practical, lethal fighting styles favored by roguish mercenaries."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance transport lines between Stormwind, Ironforge, and Theramore are under constant threat from buccaneers who prowl coastal trade routes."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Southsea Freebooters maintain aggressive encampments along the coast of Durotar and the Barrens, raiding Horde caravans and landing parties."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Though plains dwellers by tradition, some tauren traveling Kalimdor's shores have ended up aboard pirate vessels, either impressed into crews or seeking fortune."
+  }
+ ],
+ "keywords": [
+  "bloodsail",
+  "booty bay",
+  "buccaneer",
+  "corsair",
+  "freebooter",
+  "great sea",
+  "pirate",
+  "plunder",
+  "southsea"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "subzone:baradin-bay",
+  "quest:887",
+  "topic:kul-tiras",
+  "topic:goblin",
+  "topic:alliance",
+  "topic:horde",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Pirate"
+ ]
+}

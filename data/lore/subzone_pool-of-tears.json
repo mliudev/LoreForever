@@ -1,0 +1,87 @@
+{
+ "key": "subzone:pool-of-tears",
+ "type": "subzone",
+ "name": "Pool of Tears",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Pool of Tears"
+ },
+ "summary": "The Pool of Tears is a large, murky lake dominating the eastern reaches of the Swamp of Sorrows. Deep beneath its surface lies the sunken Temple of Atal'Hakkar, brought low by the Green Dragonflight to contain the horrors within. Today, vicious frenzies patrol the turbid waters, and ancient troll ruins litter its drowned banks.",
+ "sections": [
+  {
+   "title": "A Drowned Sanctuary",
+   "body": "Long ago, fanatical Atal'ai trolls raised a monumental ziggurat to their bloodthirsty god, Hakkar the Soulflayer. Horrified by the blasphemies taking place within, the Dragon Aspect Ysera shattered the ground beneath the structure, submerging the massive temple into the depths of the marsh. The waters flooded over the ruins, creating the expanse known as the Pool of Tears. While the dragons sought to bury the evil forever, the ziggurat still stands beneath the silt and waves, and green drakes remain vigilant in the area to keep its corruption sealed.",
+   "spoiler": 0
+  },
+  {
+   "title": "Waters of Peril",
+   "body": "Navigating the murky lake is treacherous for any adventurer heading toward the sunken halls. Flesh-eating frenzies infest the waters, while Atal'ai artifacts and drowned stonework remain scattered across the muddy floor. Travelers must brave these hostile shallows to access the upper passages of the submerged temple, where cultists and lingering dragon guardians vie for control of the dark sanctuary.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is it called the Pool of Tears?",
+   "aliases": [
+    "pool of tears name origin",
+    "why pool of tears",
+    "pool of tears meaning"
+   ],
+   "answer": "The name reflects the tragic history of the lake, which was formed when the Green Dragonflight crushed and submerged the Temple of Atal'Hakkar to halt the summoners of Hakkar the Soulflayer."
+  },
+  {
+   "q": "What is the massive building in the center of the lake?",
+   "aliases": [
+    "building in pool of tears",
+    "ruins in lake swamp of sorrows",
+    "sunken temple location"
+   ],
+   "answer": "It is the Temple of Atal'Hakkar, often called the Sunken Temple. Once a towering Atal'ai ziggurat, it was cast beneath the waters by Ysera and remains partially submerged in the center of the pool."
+  },
+  {
+   "q": "Why are there green dragons around the water?",
+   "aliases": [
+    "green dragons swamp of sorrows",
+    "why are dragons here",
+    "ysera temple lake"
+   ],
+   "answer": "Ysera's brood arrived to destroy the temple and drown its vile ceremonies. Green drakes and dragonkin still watch over the lake to ensure the Atal'ai cultists cannot finish their summoning of the Blood God."
+  },
+  {
+   "q": "Is it safe to swim across the pool?",
+   "aliases": [
+    "pool of tears swimming",
+    "sharks in pool of tears",
+    "frenzies swamp of sorrows"
+   ],
+   "answer": "No. The lake is infested with aggressive, flesh-eating frenzies that will attack anyone swimming out toward the temple entrance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For darkspear trolls, the pool serves as a grim warning of what happens when trollkind embraces forbidden blood magic like that of the Atal'ai."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold reverence for the lake, recognizing it as a site where Ysera and the Green Dragonflight intervened to stem the taint of the Blood God."
+  }
+ ],
+ "keywords": [
+  "atal'ai",
+  "frenzies",
+  "pool of tears",
+  "sunken temple",
+  "swamp of sorrows",
+  "temple of atal'hakkar",
+  "ysera"
+ ],
+ "related": [
+  "subzone:temple-of-atal-hakkar",
+  "zone:swampofsorrows"
+ ],
+ "attribution": [
+  "Pool of Tears"
+ ]
+}

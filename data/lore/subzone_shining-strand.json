@@ -1,0 +1,93 @@
+{
+ "key": "subzone:shining-strand",
+ "type": "subzone",
+ "name": "Shining Strand",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Shining Strand"
+ },
+ "summary": "The Shining Strand is the strip of shoreline hugging Lordamere Lake along eastern Silverpine Forest, stretching south from the Ruins of Lordaeron toward the rugged foothills of Alterac. Once dominated by aggressive Vile Fin murlocs, the shores are now contested ground where Forsaken encampments watch the water and skirmish with encroaching worgen.",
+ "sections": [
+  {
+   "title": "A Contested Coastline",
+   "body": "Running along the eastern edge of Silverpine Forest, the Shining Strand borders the misty waters of Lordamere Lake. In earlier days, the Vile Fin tribe of murlocs established several aggressive settlements along these shallows, posing a deadly hazard to anyone attempting to travel the lake road. While the Vile Fins have largely shifted their presence eastward to the Dawning Isles, the shore remains far from peaceful. Forsaken scouts and apothecaries have established footholds along the strand, contending with feral worgen roaming out from the deep woods and keeping a watchful eye on both the waters and the hills bordering Alterac.",
+   "spoiler": 0
+  },
+  {
+   "title": "Alchemical Harvest",
+   "body": "Beyond its strategic position between Lordaeron and the southern borders, the Shining Strand and its neighboring waters drew early attention from the Royal Apothecary Society. The late Apothecary Berard recorded notes on unusual hardened tumors harvested from the local Vile Fin murlocs, theorizing that their corrupted anatomy could serve as a valuable catalyst in concocting a new plague for Sylvanas Windrunner's fledgling nation.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Shining Strand located?",
+   "aliases": [
+    "shining strand location",
+    "where is shining strand",
+    "silverpine coast"
+   ],
+   "answer": "The Shining Strand is the eastern shoreline of Silverpine Forest, bordering the waters of Lordamere Lake. It begins just south of the Ruins of Lordaeron and ends against the rough hills that separate Silverpine from the Alterac Mountains."
+  },
+  {
+   "q": "What threats are found along the Shining Strand?",
+   "aliases": [
+    "shining strand monsters",
+    "what is on shining strand",
+    "shining strand enemies"
+   ],
+   "answer": "Forsaken encampments along the strand contend regularly with prowling worgen that emerge from the Silverpine woods. While the Vile Fin murlocs previously held strongpoints on the shore, most have relocated to the nearby Dawning Isles, though aquatic threats still lurk in the shallows."
+  },
+  {
+   "q": "Why is the Royal Apothecary Society interested in this area?",
+   "aliases": [
+    "apothecary berard",
+    "shining strand plague",
+    "new plague tumor"
+   ],
+   "answer": "The late Apothecary Berard documented that the native Vile Fin murlocs carried hardened tumors with unique physiological traits. The Society saw these growths as promising ingredients in their ongoing research to develop a lethal new plague."
+  },
+  {
+   "q": "Where did the local murlocs go?",
+   "aliases": [
+    "where are murlocs silverpine",
+    "vile fin location",
+    "shining strand murlocs"
+   ],
+   "answer": "After pressure from Forsaken forces securing the shoreline, the Vile Fin tribe relocated their major encampments off the mainland coast to the Dawning Isles in Lordamere Lake."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Holding the Shining Strand protects the Undercity's southern lake flank and provides valuable specimens for the Royal Apothecary Society's research into a new plague."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The strand offers a clear, if perilous, transit corridor along Lordamere Lake connecting the northern approaches of Silverpine to the passages heading toward the Alterac Mountains."
+  }
+ ],
+ "keywords": [
+  "apothecary berard",
+  "dawning isles",
+  "lordamere lake",
+  "shining strand",
+  "silverpine forest",
+  "vile fin",
+  "worgen"
+ ],
+ "related": [
+  "zone:silverpine",
+  "subzone:lordamere-lake",
+  "subzone:dawning-isles",
+  "quest:367",
+  "topic:forsaken",
+  "topic:murloc",
+  "topic:worgen",
+  "zone:alterac"
+ ],
+ "attribution": [
+  "Shining Strand"
+ ]
+}

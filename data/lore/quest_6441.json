@@ -1,0 +1,124 @@
+{
+ "key": "quest:6441",
+ "type": "quest",
+ "name": "Satyr Horns",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   6441
+  ],
+  "level": "",
+  "faction": "horde",
+  "start": "Pixel",
+  "end": "",
+  "previous": "Never Again! (Horde)",
+  "next": null,
+  "wiki": "Satyr Horns (quest)",
+  "chain": []
+ },
+ "summary": "Satyr Horns is a mercenary contract offered by the traveling goblin Pixel at Splintertree Post in Ashenvale. Recognizing a lucrative trade opportunity back in the port town of Ratchet, Pixel hires capable Horde adventurers to cull local satyr enclaves and harvest their prized horns.",
+ "sections": [
+  {
+   "title": "A Lucrative Opportunity",
+   "body": "While resting at the Horde forward encampment of Splintertree Post, an opportunistic goblin traveler named Pixel noticed an opening in the frontier market. Horns taken from the demonic satyrs of Ashenvale are in high demand across the Barrens in Ratchet. Unwilling to risk life and limb facing the corrupted creatures directly, Pixel enlists passing adventurers to gather sixteen intact horns before the return journey south.",
+   "spoiler": 0
+  },
+  {
+   "title": "Haunts of the Corrupted",
+   "body": "The satyrs of Ashenvale dwell in scattered, fel-tainted ruins across the ancient forest, remnants of their betrayal during the ancient sundering. To fill Pixel's order, hunters are directed toward known satyr strongholds, including Night Run, the fortified camp of Satyrnaar, and the shadowed groves of Xavian. Harvesting from any of these enclaves provides the valuable demonic trophies sought on the merchant wharves of Ratchet.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Pixel?",
+   "aliases": [
+    "who is quest giver",
+    "pixel lore",
+    "goblin at splintertree"
+   ],
+   "answer": "Pixel is an entrepreneurial goblin traveler staying temporarily at Splintertree Post in Ashenvale before traveling back south toward the neutral port of Ratchet."
+  },
+  {
+   "q": "Why does Ratchet want satyr horns?",
+   "aliases": [
+    "why satyr horns",
+    "what are horns used for",
+    "ratchet satyr horns"
+   ],
+   "answer": "Pixel notes that satyr horns fetch a high price in Ratchet, where merchants, alchemists, and exotic collectors pay well for raw demonic reagents and curio materials brought in from the northern woods."
+  },
+  {
+   "q": "Where can satyr horns be found in Ashenvale?",
+   "aliases": [
+    "satyr locations",
+    "where to find satyrs",
+    "night run xavian satyrnaar"
+   ],
+   "answer": "Satyrs inhabit several tainted areas in Ashenvale. Notable enclaves include Night Run east of Splintertree Post, Satyrnaar along the central road, and Xavian to the far northwest."
+  },
+  {
+   "q": "What are satyrs?",
+   "aliases": [
+    "what is a satyr",
+    "satyr lore",
+    "are satyrs demons"
+   ],
+   "answer": "Satyrs are ancient night elves who succumbed to the demonic corruption of the Burning Legion thousands of years ago. Transformed into cloven-hoofed, horned beasts, they serve dark powers and actively corrupt the forest around them."
+  },
+  {
+   "q": "Why is this contract handled at Splintertree Post?",
+   "aliases": [
+    "splintertree satyr quest",
+    "why horde only"
+   ],
+   "answer": "Splintertree Post serves as the primary Horde fortress in central Ashenvale. Pixel uses it as a safe rest stop between trade routes, employing nearby Horde warriors who are already locked in conflict with the forest's dangers."
+  },
+  {
+   "q": "Does Pixel have any allegiance to the Horde?",
+   "aliases": [
+    "is pixel horde",
+    "pixel faction"
+   ],
+   "answer": "No. Pixel is an independent goblin merchant looking to turn a profit. Like many goblins based around Ratchet, Pixel works with whoever can provide valuable trade goods without caring about faction politics."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Clearing out the satyrs in central Ashenvale weakens dangerous demonic enclaves that threaten Splintertree Post's fragile supply lines."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Satyrs are infused with potent fel magic, making their physical remnants valuable curiosities for those who study demonic power."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Stalking demonic humanoids across corrupted woodland ruins like Satyrnaar and Night Run puts wilderness tracking skills to a dangerous test."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "night run",
+  "pixel",
+  "ratchet",
+  "satyr horns",
+  "satyrnaar",
+  "splintertree post",
+  "xavian"
+ ],
+ "related": [
+  "npc:pixel",
+  "subzone:splintertree-post",
+  "topic:satyr",
+  "zone:ashenvale",
+  "subzone:satyrnaar",
+  "subzone:night-run",
+  "subzone:xavian",
+  "subzone:ratchet"
+ ],
+ "attribution": [
+  "Satyr Horns (quest)"
+ ]
+}

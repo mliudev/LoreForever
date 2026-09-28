@@ -1,0 +1,115 @@
+{
+ "key": "quest:769",
+ "type": "quest",
+ "name": "Kodo Hide Bag",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   769
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Veren Tallstrider",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Kodo Hide Bag (quest)",
+  "chain": []
+ },
+ "summary": "Kodo Hide Bag is a trade quest offered by Veren Tallstrider, a skilled tauren leatherworker atop the high mesas of Thunder Bluff. In exchange for fundamental crafting supplies, he passes on the traditional plains technique for stitching durable travel packs from sturdy beast hide. It serves as an early rite of passage for apprentice leathercrafters in Mulgore.",
+ "sections": [
+  {
+   "title": "A Lesson on the Mesa",
+   "body": "Perched on Thunder Bluff's crafting rises, Veren Tallstrider upholds the long-standing nomadic tradition of wasting nothing from the hunt. To earn his tutelage, an aspiring leatherworker must present him with cured light leather and sturdy thread. By demonstrating their competence with foundational materials, apprentices prove they are ready to craft goods worthy of carrying survival gear across Kalimdor's rugged expanses.",
+   "spoiler": 0
+  },
+  {
+   "title": "Spirit of the Kodo",
+   "body": "To the tauren, the kodo beast is an emblem of endurance, strength, and steady resolve. Its thick hide shields against brambles, biting wind, and beast claws alike. Crafting bags and garments from kodo hide is not merely a utilitarian act, but an expression of reverence for the animal that has nourished and carried the Shu'halo through countless generations across the plains of Mulgore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers the Kodo Hide Bag quest?",
+   "aliases": [
+    "quest giver",
+    "where to get kodo hide bag quest",
+    "veren tallstrider location"
+   ],
+   "answer": "The quest is offered by Veren Tallstrider, a tauren leatherworking trainer and merchant located in Thunder Bluff."
+  },
+  {
+   "q": "Who is eligible to undertake this task?",
+   "aliases": [
+    "who can take this quest",
+    "quest requirements",
+    "profession requirement"
+   ],
+   "answer": "Only adventurers trained in Leatherworking who have reached at least apprentice skill level 10 can receive this training task from Veren Tallstrider."
+  },
+  {
+   "q": "What materials does Veren Tallstrider require?",
+   "aliases": [
+    "what items are needed",
+    "kodo hide bag materials",
+    "quest turn-in items"
+   ],
+   "answer": "He requires four pieces of Light Leather and four spools of Coarse Thread to replenish his trade supplies before sharing his pattern."
+  },
+  {
+   "q": "Why is kodo hide considered significant to tauren crafters?",
+   "aliases": [
+    "why kodo hide",
+    "tauren kodo meaning",
+    "kodo importance"
+   ],
+   "answer": "Kodos embody resilience and physical might, qualities deeply cherished by the tauren. Crafting durable equipment from their hides honors the creature's spirit while providing sturdy utility for travelers crossing the plains."
+  },
+  {
+   "q": "What does Veren Tallstrider teach upon completion?",
+   "aliases": [
+    "quest reward",
+    "what do i get",
+    "bag pattern"
+   ],
+   "answer": "Upon receiving the supplies, Veren teaches the crafter the specialized knowledge required to stitch together a Kodo Hide Bag."
+  },
+  {
+   "q": "Where can the necessary materials be acquired?",
+   "aliases": [
+    "where to get light leather",
+    "where to get coarse thread"
+   ],
+   "answer": "Light Leather is obtained by skinning low-level beasts throughout Mulgore and adjacent territories, while Coarse Thread can be bought directly from trade and tailoring vendors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the Shu'halo, learning to craft reliable gear from the mighty kodo is an essential step in honoring the Earth Mother's bounty and preserving ancestral ways."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Thunder Bluff's craftsmen supply essential logistical goods that keep Horde hunters, scouts, and warriors equipped across central Kalimdor."
+  }
+ ],
+ "keywords": [
+  "coarse thread",
+  "kodo",
+  "kodo hide bag",
+  "leatherworking",
+  "light leather",
+  "mulgore",
+  "thunder bluff",
+  "veren tallstrider"
+ ],
+ "related": [
+  "zone:thunderbluff",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Kodo Hide Bag (quest)"
+ ]
+}

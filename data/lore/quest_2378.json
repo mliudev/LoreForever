@@ -1,0 +1,131 @@
+{
+ "key": "quest:2378",
+ "type": "quest",
+ "name": "Find the Shattered Hand",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   2378
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Mennet Carkad",
+  "end": "Shenthul",
+  "previous": null,
+  "next": "Zando'zan (quest)",
+  "wiki": "Find the Shattered Hand",
+  "chain": [
+   "To Orgrimmar!",
+   "Find the Shattered Hand",
+   "Zando'zan (quest)",
+   "Wrenix of Ratchet",
+   "Plundering the Plunderers"
+  ]
+ },
+ "summary": "Find the Shattered Hand is a journey quest sending promising Forsaken rogues from Tirisfal Glades across the sea to Durotar. Directed by the Deathstalkers, the initiate travels to Orgrimmar's shadowy underbelly to learn specialized arts from the Shattered Hand clan.",
+ "sections": [
+  {
+   "title": "A League of Shadows",
+   "body": "While the Forsaken cultivate their own covert order in the Deathstalkers, their mutual alliance with the Horde opens avenues of collaboration in darker arts. Mennet Carkad, having seen a rogue prove their worth in Tirisfal Glades, recognizes the need for broader instruction. He directs promising shadows to seek out the Shattered Hand in Orgrimmar, leaning on the quiet partnership between Lordaeron's undead operatives and Kalimdor's orcish guild of assassins.",
+   "spoiler": 0
+  },
+  {
+   "title": "Into the Cleft of Shadow",
+   "body": "The journey ends deep within the Cleft of Shadow, the subterranean cavern hidden beneath Orgrimmar where warlocks, rogues, and demon-binders ply trades the surface dwellers prefer not to look upon. There awaits Shenthul, a trainer of the Shattered Hand. Unimpressed by reputation alone, the gruff orc assesses the newly arrived undead agent with harsh skepticism, eager to test whether this envoy possesses genuine cunning or merely wasted the voyage across the Great Sea.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Find the Shattered Hand?",
+   "aliases": [
+    "who starts find the shattered hand",
+    "mennet carkad quest",
+    "who sends me to orgrimmar"
+   ],
+   "answer": "Mennet Carkad, a Deathstalker trainer residing in the ruins of the Undercity or Brill, gives the quest once a rogue proves their foundational skills in Tirisfal Glades."
+  },
+  {
+   "q": "Where is Shenthul located?",
+   "aliases": [
+    "find shenthul",
+    "shenthul location",
+    "where is shenthul in orgrimmar"
+   ],
+   "answer": "Shenthul is located in the Cleft of Shadow, the darkened chasm beneath the central pathways of Orgrimmar."
+  },
+  {
+   "q": "What is the relationship between the Deathstalkers and the Shattered Hand?",
+   "aliases": [
+    "deathstalkers and shattered hand",
+    "forsaken rogues orc rogues",
+    "why sent to orgrimmar"
+   ],
+   "answer": "The Deathstalkers act as the intelligence network and assassination guild for the Forsaken, while the Shattered Hand serves a similar clandestine role for the Horde in Orgrimmar. They cooperate as formal allies, sharing advanced training and clandestine contracts across the factions of the Horde."
+  },
+  {
+   "q": "Why does Shenthul call me uninspiring?",
+   "aliases": [
+    "shenthul dialogue",
+    "why is shenthul mean",
+    "shenthul completion text"
+   ],
+   "answer": "The Shattered Hand values physical resilience and ruthless cunning above all. Shenthul regularly insults and downplays newcomers to shatter their pride and test whether they have the resolve to endure rigorous assassin training."
+  },
+  {
+   "q": "What happens after reaching Shenthul?",
+   "aliases": [
+    "what comes after find the shattered hand",
+    "next quest after shenthul",
+    "shattered hand chain"
+   ],
+   "answer": "Shenthul puts the operative directly to work, offering the quest Zando'zan and eventually sending them south toward Ratchet to undertake hands-on field operations in the Barrens."
+  },
+  {
+   "q": "Can non-Forsaken rogues get this quest?",
+   "aliases": [
+    "orc rogue find the shattered hand",
+    "troll version",
+    "to orgrimmar alternate"
+   ],
+   "answer": "No. Find the Shattered Hand is the Forsaken variant handed out by the Deathstalkers. Orc and troll rogues operating in Durotar receive an equivalent transition quest called 'To Orgrimmar!'."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This quest bridges local training with the broader criminal and covert network of the Horde, introducing rogues to the primary underworld trainers in Kalimdor."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For young Forsaken rogues, this marks the official transition from fighting local Scourge remnants in Lordaeron to integrating with the Horde's heartland in Durotar."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The mission illustrates that Horde cooperation extends beyond frontline grunts and shamans, showing deep coordination between the secret services of Orgrimmar and Undercity."
+  }
+ ],
+ "keywords": [
+  "cleft of shadow",
+  "deathstalkers",
+  "mennet carkad",
+  "orgrimmar",
+  "rogue quest",
+  "shattered hand",
+  "shenthul"
+ ],
+ "related": [
+  "npc:shenthul",
+  "subzone:cleft-of-shadow",
+  "zone:orgrimmar",
+  "quest:2379",
+  "quest:2380",
+  "quest:1886",
+  "quest:1858",
+  "quest:2382"
+ ],
+ "attribution": [
+  "Find the Shattered Hand"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "subzone:northpass-tower",
+ "type": "subzone",
+ "name": "Northpass Tower",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Northpass Tower"
+ },
+ "summary": "Northpass Tower is a ruined Lordaeron scout tower situated in the northern reaches of the Eastern Plaguelands along the road to the Ghostlands. Shattered during the Third War, its vantage point makes it a critical strategic prize in the escalating conflict between the Alliance and the Horde.",
+ "sections": [
+  {
+   "title": "Northern Sentinel",
+   "body": "Built by the Kingdom of Lordaeron to guard the vital thoroughfare leading north into Quel'Thalas, Northpass Tower was reduced to a broken shell during the Scourge invasion. Despite its shattered stonework, the tower's elevated position retains immense tactical value, overlooking the blight-choked frontier between Stratholme's blighted outskirts and the distant elven lands.",
+   "spoiler": 0
+  },
+  {
+   "title": "Frontline Contention",
+   "body": "With the Argent Dawn entrenched at Light's Hope Chapel, both the Alliance and the Horde seek to establish defensible outposts across the Plaguelands. Northpass Tower has become a frequent flashpoint, as securing its remnants bolsters regional supply lines and provides a forward foothold against both opposing factions and encroaching Scourge patrols.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Northpass Tower originally built for?",
+   "aliases": [
+    "what is northpass tower",
+    "northpass history",
+    "why was northpass tower built"
+   ],
+   "answer": "It was originally erected as an observation post by the Kingdom of Lordaeron to monitor the northern road leading toward the elven kingdom of Quel'Thalas."
+  },
+  {
+   "q": "Why is Northpass Tower in ruins?",
+   "aliases": [
+    "who destroyed northpass tower",
+    "why is northpass tower broken"
+   ],
+   "answer": "It was destroyed alongside the rest of Lordaeron's northern defenses during the Scourge invasion in the Third War, leaving behind only cracked masonry and scaffolding."
+  },
+  {
+   "q": "Why do the Alliance and Horde fight over this tower?",
+   "aliases": [
+    "why fight over northpass",
+    "who controls northpass tower"
+   ],
+   "answer": "Both factions are pushing into the Plaguelands to counter the Scourge and each other. Holding Northpass Tower provides a fortified scout outpost and vital regional influence along the northern roads."
+  },
+  {
+   "q": "Where does the road past Northpass Tower lead?",
+   "aliases": [
+    "road past northpass tower",
+    "where does northern road go"
+   ],
+   "answer": "The road heads north directly toward the Thalassian border and the Ghostlands, the southern territory of Quel'Thalas."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Reclaiming Northpass Tower represents a vital step toward restoring Lordaeron's fallen bastions and denying the Horde a staging ground in the north."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing this strategic ruin protects northern movements and fortifies the Horde's offensive against the Scourge and Alliance interlopers alike."
+  }
+ ],
+ "keywords": [
+  "eastern plaguelands",
+  "lordaeron",
+  "northpass tower",
+  "quel'thalas",
+  "scourge",
+  "scout tower"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "subzone:crown-guard-tower",
+  "subzone:light-s-hope-chapel",
+  "subzone:thondroril-river",
+  "topic:lordaeron",
+  "topic:scourge",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Northpass Tower"
+ ]
+}

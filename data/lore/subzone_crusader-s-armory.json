@@ -1,0 +1,83 @@
+{
+ "key": "subzone:crusader-s-armory",
+ "type": "subzone",
+ "name": "Crusader's Armory",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Crusader's Armory"
+ },
+ "summary": "The Crusader's Armory is a fortified interior hall within the Scarlet Monastery Armory wing. Stockpiled with munitions, gunpowder, and cannonballs, it serves as a staging ground for the zealots guarding the path toward the inner sanctum. Beyond its locked iron door lies the Hall of Champions.",
+ "sections": [
+  {
+   "title": "Arsenal of Zeal",
+   "body": "Situated between the Footman's Armory and the grand Hall of Champions, the Crusader's Armory displays the full military readiness of the Scarlet Crusade. Unlike the training yards outside, these narrow stone corridors are packed to the ceiling with crates of volatile gunpowder, stacked cannonballs, and heavily armed crusaders ready to repel intruders. The Crusade has turned a former monastic compound into a bristling fortress, dedicating every available hall to the tools of total war. At the far end of the armory stands a heavy locked iron door, barring entry to the inner chambers unless one holds the Scarlet Key.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Crusader's Armory?",
+   "aliases": [
+    "crusaders armory",
+    "what is crusaders armory",
+    "monastery armory room"
+   ],
+   "answer": "The Crusader's Armory is an interior section of the Scarlet Monastery's Armory wing. It acts as an ammunition depot and defensive corridor between the Footman's Armory and the Hall of Champions."
+  },
+  {
+   "q": "Why is the door at the end locked?",
+   "aliases": [
+    "locked door armory",
+    "how to open armory door",
+    "scarlet key armory"
+   ],
+   "answer": "The door at the end of the Crusader's Armory guards the passage into the Hall of Champions and the commander's quarters beyond. The Scarlet Crusade keeps it strictly secured, requiring the Scarlet Key found in the Monastery's Library wing to unlock it."
+  },
+  {
+   "q": "Why are there so many cannonballs and gunpowder crates here?",
+   "aliases": [
+    "powder crates armory",
+    "cannons in monastery",
+    "why gunpowder"
+   ],
+   "answer": "The Scarlet Crusade maintains an active siege presence and artillery defenses across Tirisfal Glades. This armory acts as a central storage magazine for their cannons and explosive ordnance, ensuring their troops remain well-supplied for war against the Scourge and Forsaken."
+  },
+  {
+   "q": "Who guards this area?",
+   "aliases": [
+    "armory mobs",
+    "who is in crusaders armory"
+   ],
+   "answer": "The hall is defended by seasoned Scarlet Crusade soldiers, including footmen, crusaders, and archers stationed among the munitions to stop any invaders trying to penetrate deeper into the complex."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For the Forsaken and Horde, the explosive stores in the Crusader's Armory represent a direct threat to the borders of Tirisfal Glades and the gates of the Undercity."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The arms and munitions stockpiled here demonstrate the high production value and military discipline of Lordaeron's former smiths, now turned to zealous fanaticism."
+  }
+ ],
+ "keywords": [
+  "armory",
+  "crusader's armory",
+  "gunpowder",
+  "hall of champions",
+  "scarlet key",
+  "scarlet monastery"
+ ],
+ "related": [
+  "subzone:scarlet-monastery-armory",
+  "subzone:footman-s-armory",
+  "subzone:hall-of-champions",
+  "zone:scarlet",
+  "topic:scarlet-crusade"
+ ],
+ "attribution": [
+  "Crusader's Armory"
+ ]
+}

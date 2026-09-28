@@ -1,0 +1,85 @@
+{
+ "key": "npc:apothecary-zinge",
+ "type": "npc",
+ "name": "Apothecary Zinge",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Apothecary Zinge",
+  "refs": 2
+ },
+ "summary": "Apothecary Zinge is an alchemist and researcher of the Royal Apothecary Society stationed in the Apothecarium beneath the ruins of Lordaeron. Working in service to the Forsaken, she investigates biological specimens and coordinates research shipments across Horde territories.",
+ "sections": [
+  {
+   "title": "In Service to the Society",
+   "body": "Apothecary Zinge conducts experiments deep within the murky quarters of the Apothecarium in the Undercity. Like her colleagues under Master Apothecary Faranell, she seeks chemical and biological compounds that can further the goals of the Forsaken. Her research often connects her with field researchers and scouts stationed far beyond the boundaries of Tirisfal Glades, including exchanges with remote outposts in Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cross-Continental Experiments",
+   "body": "To refine her formulas and uncover new reagents, Zinge relies on couriers and adventurers to relay test materials across the seas. She maintains regular correspondence with colleagues such as Apothecary Helbrim stationed at the Crossroads in the Barrens, trading exotic venom and ecological samples gathered from the arid plains for detailed alchemical evaluation in the Undercity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Apothecary Zinge be found?",
+   "aliases": [
+    "zinge location",
+    "where is apothecary zinge",
+    "apothecary zinge spot"
+   ],
+   "answer": "Apothecary Zinge is located within the Apothecarium, the alchemical quarter situated on the southeastern tier of the Undercity."
+  },
+  {
+   "q": "What organization does she belong to?",
+   "aliases": [
+    "zinge faction",
+    "who does zinge work for"
+   ],
+   "answer": "She is a member of the Royal Apothecary Society, an order of Forsaken alchemists dedicated to creating new concoctions, plagues, and antidotes in service to Lady Sylvanas Windrunner."
+  },
+  {
+   "q": "Why does she need samples from the Barrens?",
+   "aliases": [
+    "why barrens samples",
+    "helbrim sample",
+    "zinge barrens delivery"
+   ],
+   "answer": "Zinge frequently analyzes exotic wildlife, venoms, and plants that do not naturally grow in Lordaeron. She collaborates with Apothecary Helbrim at the Crossroads to examine indigenous flora and fauna from the Kalimdor frontier."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, researchers like Zinge represent the vanguard of scientific autonomy, tirelessly compounding solutions to ensure the survival and supremacy of their people."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Her research relies on open supply lines and trusted runners traversing the sea between Kalimdor and the Eastern Kingdoms to keep the Horde's front lines supplied."
+  }
+ ],
+ "keywords": [
+  "apothecarium",
+  "apothecary zinge",
+  "crossroads",
+  "helbrim",
+  "royal apothecary society",
+  "samples",
+  "undercity",
+  "zinge"
+ ],
+ "related": [
+  "subzone:apothecarium",
+  "zone:undercity",
+  "topic:royal-apothecary-society",
+  "quest:1358",
+  "quest:1359",
+  "zone:barrens",
+  "topic:forsaken",
+  "npc:master-apothecary-faranell"
+ ],
+ "attribution": [
+  "Apothecary Zinge"
+ ]
+}

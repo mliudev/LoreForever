@@ -1,0 +1,95 @@
+{
+ "key": "npc:orgrim-doomhammer",
+ "type": "npc",
+ "name": "Orgrim Doomhammer",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Orgrim Doomhammer",
+  "refs": 2
+ },
+ "summary": "Orgrim Doomhammer was the supreme Warchief of the Old Horde throughout the Second War, remembered as one of the greatest orc warriors in history. Though he died liberating the internment camps in the Arathi Highlands, his legacy endures in the capital of Orgrimmar and through Thrall, who inherited his mighty warhammer and black plate armor.",
+ "sections": [
+  {
+   "title": "Rise of the Warchief",
+   "body": "Originally second-in-command to Blackhand of the Blackrock clan, Orgrim refused the demonic blood offered by Gul'dan, though he concealed his doubts beneath fierce loyalty. Near the close of the First War, disgusted by the Shadow Council's treachery and the murder of his childhood friend Durotan, Orgrim slew Blackhand in honorable combat. Assuming the mantle of Warchief, he ruthlessly purged Gul'dan's warlocks and led the Horde across the Eastern Kingdoms during the Second War. Though a devastating strategist who pushed human kingdoms to the brink of ruin, he was ultimately defeated and captured outside Blackrock Spire after the betrayal of Gul'dan split his forces.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fall and Legacy",
+   "body": "Escaping human captivity, Doomhammer lived in hiding until he met Thrall, Durotan's orphaned son. Reinvigorated by the young shaman's vision, Orgrim rallied what was left of the orcish clans to storm the internment camps and break their people free. During a fierce battle at an encampment in the Arathi Highlands, the Warchief was struck down from behind by a lance. As he lay dying, he bestowed his black plate armor, his ancestral weapon\u2014the Doomhammer\u2014and the title of Warchief upon Thrall. In his honor, the liberated outpost was renamed Hammerfall, and the newly founded capital in Durotar was christened Orgrimmar.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Orgrim Doomhammer?",
+   "aliases": [
+    "who is doomhammer",
+    "orgrim doomhammer background",
+    "who was warchief doomhammer"
+   ],
+   "answer": "He was the Chieftain of the Blackrock clan and the Warchief who commanded the Horde during the Second War. After escaping human captivity years later, he fought alongside Thrall to liberate their imprisoned kin until his death in the Arathi Highlands."
+  },
+  {
+   "q": "How did Orgrim Doomhammer die?",
+   "aliases": [
+    "orgrim doomhammer death",
+    "how did doomhammer die",
+    "who killed doomhammer"
+   ],
+   "answer": "Orgrim was slain during an assault on a human internment camp in the Arathi Highlands, struck from behind by a knight's lance. Thrall took up his mantle, and the site of that victory was named Hammerfall in memory of his sacrifice."
+  },
+  {
+   "q": "Why is the Horde capital named Orgrimmar?",
+   "aliases": [
+    "why is it called orgrimmar",
+    "orgrimmar namesake",
+    "city named after orgrim"
+   ],
+   "answer": "Thrall named the fortified city in Durotar to honor his mentor and predecessor. Orgrim saw the promise in Thrall and named him the new Warchief, ensuring the Horde would rebuild on honor rather than demonic corruption."
+  },
+  {
+   "q": "Did Orgrim drink the demon blood?",
+   "aliases": [
+    "did doomhammer drink blood",
+    "was orgrim corrupted",
+    "orgrim demon blood"
+   ],
+   "answer": "No. Orgrim feigned humility, telling Blackhand and Gul'dan that a mere servant was not worthy to drink from the same cup as the Warchief. This clever excuse allowed him to retain his clarity and eventually destroy Gul'dan's Shadow Council from within."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Orcs revere Orgrim Doomhammer as the liberator who freed their people from lethargy and interned enslavement, choosing honor over demonic subjugation."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "To the Alliance, Doomhammer remains a grim symbol of the near-destruction of the Eastern Kingdoms during the Second War, having butchered countless champions before his defeat at Blackrock Spire."
+  }
+ ],
+ "keywords": [
+  "blackhand",
+  "blackrock",
+  "doomhammer",
+  "hammerfall",
+  "orgrim",
+  "orgrimmar",
+  "thrall",
+  "warchief"
+ ],
+ "related": [
+  "subzone:hammerfall",
+  "zone:orgrimmar",
+  "zone:arathi",
+  "topic:blackrock-clan",
+  "topic:old-horde",
+  "topic:second-war",
+  "topic:first-war",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Orgrim Doomhammer"
+ ]
+}

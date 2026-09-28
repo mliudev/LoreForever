@@ -1,0 +1,117 @@
+{
+ "key": "quest:4723",
+ "type": "quest",
+ "name": "Beached Sea Creature",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   4723
+  ],
+  "level": "13",
+  "faction": "Alliance",
+  "start": "Beached Sea Creature",
+  "end": "Gwennyth Bly'Leggonde",
+  "previous": null,
+  "next": null,
+  "wiki": "Beached Sea Creature (1)",
+  "chain": []
+ },
+ "summary": "Along the fog-draped strand of Mist's Edge lies the massive carcass of a sea thresher, far larger than any native to Darkshore's shallows. While local murlocs pick through the carrion, naturalists in Auberdine seek bone samples to understand why such colossal deep-sea beasts are beaching themselves along the coast.",
+ "sections": [
+  {
+   "title": "A Giant on the Shallows",
+   "body": "The Mist's Edge coastline is no stranger to shipwrecks and tide-washed debris, but the sudden appearance of enormous thresher remains is troubling. The creature dwarfs typical local wildlife, pointing to depths far beyond the calm waters of the Veiled Sea. Although coastal murlocs eagerly swarm and feast on the corpse, they lack the strength or coordination to bring down a leviathan of this scale. The predator succumbed to something else entirely before washing ashore.",
+   "spoiler": 0
+  },
+  {
+   "title": "Studies in Darnassus",
+   "body": "Gwennyth Bly'Leggonde in Auberdine coordinates field efforts to salvage bones and biological samples from Darkshore's stranded megafauna. Night elf researchers in Darnassus hope that by examining skeletal remains and tissue samples, they can determine whether illness, deep-sea disturbances, or arcane corruption drives these ocean giants onto the killing sands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What kind of beast washed up on the shore?",
+   "aliases": [
+    "what creature is this",
+    "what is the dead monster",
+    "what animal is dead on the beach"
+   ],
+   "answer": "It is the remains of a giant thresher, an aquatic predator vastly larger than the threshers typically spotted close to Darkshore's beaches."
+  },
+  {
+   "q": "Did the murlocs kill it?",
+   "aliases": [
+    "did murlocs kill the thresher",
+    "did murlocs kill the sea creature"
+   ],
+   "answer": "No. Although murlocs swarm around the carcass to feed on the rotting meat, observers note they are far too weak, even in large groups, to hunt down a deep-water behemoth of that size."
+  },
+  {
+   "q": "Why are sea creatures stranding themselves along Darkshore?",
+   "aliases": [
+    "why are threshers dying",
+    "why do creatures beach themselves"
+   ],
+   "answer": "The exact cause remains unknown. Night elf researchers suspect unseen oceanic disturbances, disease, or ecological distress are forcing deep-sea fauna to swim into shallow surf where they beach and die."
+  },
+  {
+   "q": "Who is Gwennyth Bly'Leggonde?",
+   "aliases": [
+    "who is gwennyth",
+    "who takes the bones in auberdine"
+   ],
+   "answer": "Gwennyth Bly'Leggonde is a night elf researcher stationed in Auberdine. She collects skeletal specimens and biological samples from beached wildlife along Darkshore to send to Darnassus for detailed study."
+  },
+  {
+   "q": "Where are the collected bones sent?",
+   "aliases": [
+    "where do bones go",
+    "what does auberdine do with bones"
+   ],
+   "answer": "After Gwennyth catalogs and preps the samples in Auberdine, they are dispatched to scholars and naturalists in the capital city of Darnassus for anatomical and magical investigation."
+  },
+  {
+   "q": "Where is this carcass located?",
+   "aliases": [
+    "carcass location",
+    "where is the beached sea creature"
+   ],
+   "answer": "The carcass rests directly on the sandy shores of Mist's Edge, along Darkshore's western coastline."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The strandings along Darkshore are a distressing sign of imbalance in the surrounding waters, prompting naturalists in Auberdine and Darnassus to investigate before more marine life perishes."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids committed to the preservation of natural harmony look upon the stranded leviathan as an alarming symptom of disturbance in the Veiled Sea's ecosystem."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "beached",
+  "bones",
+  "darkshore",
+  "gwennyth bly'leggonde",
+  "mist's edge",
+  "murloc",
+  "sea creature",
+  "thresher"
+ ],
+ "related": [
+  "npc:gwennyth-bly-leggonde",
+  "subzone:mist-s-edge",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "zone:darnassus",
+  "topic:murloc",
+  "quest:938"
+ ],
+ "attribution": [
+  "Beached Sea Creature (1)"
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "key": "subzone:ironforge-airfield",
+ "type": "subzone",
+ "name": "Ironforge Airfield",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Ironforge Airfield"
+ },
+ "summary": "Tucked away high in the snowy peaks northeast of Ironforge, this remote dwarven airstrip serves as a proving ground and staging area for gnome flying machines and dwarven mountaineers. Unmarked by main roads, the plateau overlooks the jagged crags of Dun Morogh and the steep descent toward the Wetlands.",
+ "sections": [
+  {
+   "title": "A Hidden Redoubt in the Crags",
+   "body": "Perched far above the beaten trails of Dun Morogh, the high-altitude airfield is a quiet marvel of Alliance cooperation. Sheltered by surrounding mountain peaks, dwarven masonry anchors the blustery ridgelines while gnomish flying machines sit parked along open landing strips. Mountaineers keep watch over the perimeter alongside engineers busy wrenching gears and inspecting steam-belching engines in the biting cold.",
+   "spoiler": 0
+  },
+  {
+   "title": "Frontier Skirmishes and Frozen Valleys",
+   "body": "Despite its isolation, the airfield is far from serene. The surrounding valley features frozen waters and crags contested by Frostmane trolls, who dwell in nearby caves and constantly harass the dwarven sentries. In the shadow of the peaks, dwarven defenders and Stormpike patrols clash regularly with troll raiders across the ice, keeping the remote installation in a state of quiet, vigilant standoff.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you get up to the airfield?",
+   "aliases": [
+    "get to airfield",
+    "how to climb to airfield",
+    "airfield location",
+    "airfield path"
+   ],
+   "answer": "There are no roads, flights, or maintained tunnels connecting the valley to Ironforge or lower Dun Morogh. Reaching it requires scaling the steep mountainsides on foot, typically via tricky ridgeline climbing paths beginning out of Loch Modan or near the passes of Dun Morogh."
+  },
+  {
+   "q": "What is the purpose of this place?",
+   "aliases": [
+    "why is there an airstrip",
+    "what is ironforge airfield for"
+   ],
+   "answer": "It serves as an elevated flight testing and military outpost where dwarven mountaineers and gnome engineers maintain flying machines and scout the high mountain borderlands separating Dun Morogh, Loch Modan, and the Wetlands."
+  },
+  {
+   "q": "Who is attacking the dwarven guards here?",
+   "aliases": [
+    "who attacks airfield",
+    "who is fighting on the lake"
+   ],
+   "answer": "Local Frostmane trolls inhabit caves in the southern cliffs of the valley. Dwarven mountaineers clash regularly with them over the frozen lake just beneath the runway."
+  },
+  {
+   "q": "Is the airfield tied to any official quests?",
+   "aliases": [
+    "any quests here",
+    "airfield quests"
+   ],
+   "answer": "No standard quests direct adventurers to visit the airstrip in everyday travels. It remains an obscure, remote plateau largely separated from the main logistics of the dwarven kingdom."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "For tinkers, the airstrip showcases the apex of gnomish aviation, featuring fully assembled flying machines stationed in extreme, sub-zero conditions."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "A testament to dwarven territorial watchfulness, the airfield proves that Ironforge's Mountaineers stand sentry even in the most inaccessible heights of Khaz Modan."
+  }
+ ],
+ "keywords": [
+  "airfield",
+  "airstrip",
+  "dun morogh",
+  "flying machine",
+  "frostmane",
+  "ironforge",
+  "mountaineers"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "zone:ironforge",
+  "zone:lochmodan",
+  "subzone:north-gate-pass",
+  "subzone:gol-bolar-quarry",
+  "topic:gnome",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Ironforge Airfield"
+ ]
+}

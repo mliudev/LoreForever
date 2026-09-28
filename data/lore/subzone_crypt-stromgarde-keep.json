@@ -1,0 +1,90 @@
+{
+ "key": "subzone:crypt-stromgarde-keep",
+ "type": "subzone",
+ "name": "Crypt (Stromgarde Keep)",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Crypt (Stromgarde Keep)"
+ },
+ "summary": "Deep within the ruins of Stromgarde Keep lies the royal crypt, situated past the sanctum chapel in the heart of the district held by the surviving Stromgarde defenders. It holds the tomb of the fallen King Thoras Trollbane and the ancestral treasures of his dynasty. Guarded closely by Prince Galen and faithful caretakers, the vault remains a sanctuary of royal honor amid a shattered kingdom.",
+ "sections": [
+  {
+   "title": "The Tomb of Thoras Trollbane",
+   "body": "Hidden beneath the Sanctum of Stromgarde Keep, this subterranean burial vault serves as the final resting place of King Thoras Trollbane, the warrior monarch who led Stromgarde through the Second War. Despite the devastation engulfing the city\u2014split among Syndicate rogues and Boulderfist ogres\u2014the remaining Stromgarde militia fiercely maintains their grip on this quarter. Prince Galen Trollbane personally watches over the crypts alongside dedicated royal caretakers, ensuring his father's body and legacy remain undisturbed by the scavengers and enemies outside.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Vault of Trol'kalar",
+   "body": "Beyond housing the royal dead, the crypt safeguards prized artifacts belonging to the Trollbane lineage. Chief among these relics is Trol'kalar, the ancient runed greatsword forged centuries ago to slay trolls. Entrusted to the sworn protection of caretakers such as Alaric, Nevlin, and Weston, the chamber and its treasures are secured with powerful safeguards. Galen and his loyalists guard the tomb relentlessly, well aware that rival factions and hostile trolls across Arathi would covet the blade's ancient power.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is buried in the crypt?",
+   "aliases": [
+    "who is buried here",
+    "whose tomb is this",
+    "crypt tomb"
+   ],
+   "answer": "King Thoras Trollbane, the late ruler of Stromgarde, is interred here. His son, Prince Galen Trollbane, keeps watch over the tomb amidst the ruined city."
+  },
+  {
+   "q": "What is Trol'kalar?",
+   "aliases": [
+    "trolkalar sword",
+    "trollbane sword",
+    "what is trolkalar"
+   ],
+   "answer": "Trol'kalar is an ancient heirloom blade belonging to the Trollbane family. Its name translates from the ancient tongue to mean 'troll slayer,' and it was originally forged to fight the forest trolls of the Arathi basin."
+  },
+  {
+   "q": "Who guards the crypt?",
+   "aliases": [
+    "crypt guards",
+    "who defends the crypt",
+    "caretakers"
+   ],
+   "answer": "The crypt is defended by Prince Galen Trollbane and the Stromgarde royal caretakers, including Alaric, Nevlin, and Weston. They protect the burial chamber from encroaching Syndicate thieves and Boulderfist ogres."
+  },
+  {
+   "q": "Where is the crypt located?",
+   "aliases": [
+    "crypt location",
+    "how to find the crypt",
+    "where is stromgarde crypt"
+   ],
+   "answer": "It is located within Stromgarde Keep in the Arathi Highlands, found deep inside the Sanctum district behind the keep's chapel, in the sector still held by Stromgarde loyalists."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of the Alliance, the tomb represents the tragic decline of Stromgarde, one of the seven great kingdoms, and the hallowed grave of one of the Alliance's fiercest wartime leaders."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Stromgarde's royal crypt stands as one of the last bastions of Alliance heritage in Arathi, guarded tenaciously against bandits, ogres, and the Horde."
+  }
+ ],
+ "keywords": [
+  "arathi",
+  "crypt",
+  "galen",
+  "sanctum",
+  "stromgarde",
+  "thoras",
+  "trol'kalar",
+  "trollbane"
+ ],
+ "related": [
+  "subzone:sanctum-stromgarde-keep",
+  "subzone:stromgarde-keep",
+  "zone:arathi",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Crypt (Stromgarde Keep)"
+ ]
+}

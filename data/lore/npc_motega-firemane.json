@@ -1,0 +1,122 @@
+{
+ "key": "npc:motega-firemane",
+ "type": "npc",
+ "name": "Motega Firemane",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Motega Firemane",
+  "refs": 4
+ },
+ "summary": "Motega Firemane is a tauren scholar stationed at Whitereach Post in Thousand Needles. Dedicated to cataloging the dangerous wildlife of the canyon, he finds his studies disrupted by a vengeful wind serpent spirit and the reckless misadventures of his young assistant.",
+ "sections": [
+  {
+   "title": "Scholar of the Canyons",
+   "body": "Four years following the Third War, Motega Firemane journeyed south into Thousand Needles to observe and record the distinct beasts surviving among the towering mesas. Accompanied by his youthful assistant, Pao'ka Swiftmountain\u2014whose protective father was reluctant to let him leave Mulgore\u2014Motega set up camp alongside Kanati Greycloud at Whitereach Post. While his original calling was quiet natural observation, the harsh perils of the canyon floor continually demand a more martial approach to survival.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Wrath of Arikara",
+   "body": "Motega's peaceful research was upended when word arrived from Freewind Post that Arikara, a ferocious and legendary winged serpent spirit, had returned to the canyons seeking vengeance against Cairne Bloodhoof. Perplexed by why such a creature held a vendetta against the High Chieftain, Motega acted swiftly to protect the Horde. He instructed scouts to gather Incendia agave from the canyon basin and carry it to Elder Magatha Grimtotem in Thunder Bluff to be enchanted into a sacred powder. Using this preparation, hunters summoned and slew the serpent spirit, returning its hide to Whitereach Post as proof that Cairne was safe.",
+   "spoiler": 1
+  },
+  {
+   "title": "Guardian of Whitereach",
+   "body": "Arikara was not the only hazard challenging Motega's stay at Whitereach Post. Local Galak centaur continuously probed the camp, even scheming an assassination plot against Kanati Greycloud and his followers. To worsen matters, young Pao'ka wandered away from the safety of the campfire and vanished into the wyvern-infested heights of Highperch. Though frustrated by the young brave's thoughtlessness, Motega was immensely relieved when Horde travelers escorted the youth back alive.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Motega Firemane?",
+   "aliases": [
+    "motega firemane lore",
+    "who is motega",
+    "whitereach motega"
+   ],
+   "answer": "Motega Firemane is a tauren researcher stationed at Whitereach Post in Thousand Needles. He came to the canyons to study the local wildlife alongside fellow braves and his assistant, Pao'ka Swiftmountain."
+  },
+  {
+   "q": "Where can Motega Firemane be found?",
+   "aliases": [
+    "motega location",
+    "where is motega firemane",
+    "motega firemane map"
+   ],
+   "answer": "He is located at Whitereach Post, a small Horde campsite nestled along the canyon floor of Thousand Needles, situated north of the shimmering salt flats."
+  },
+  {
+   "q": "Why is Motega concerned about Arikara?",
+   "aliases": [
+    "who is arikara",
+    "why kill arikara",
+    "arikara cairne"
+   ],
+   "answer": "Arikara is a vengeful serpent spirit that has manifested in Thousand Needles targeting Cairne Bloodhoof. Though baffled as to why the spirit bears a grudge against the High Chieftain, Motega takes the threat seriously and directs hunters to summon and eliminate the creature."
+  },
+  {
+   "q": "What role does Magatha Grimtotem play in Motega's plans?",
+   "aliases": [
+    "magatha incendia powder",
+    "motega and magatha",
+    "sacred fire quest lore"
+   ],
+   "answer": "Motega tasks adventurers with collecting Incendia agave and carrying it to Magatha Grimtotem on the Elder Rise in Thunder Bluff. Magatha uses her shamanic knowledge to enchant the plant into a sacred powder capable of summoning the elusive Arikara."
+  },
+  {
+   "q": "What happened to Motega's companion, Pao'ka?",
+   "aliases": [
+    "pao'ka swiftmountain",
+    "missing tauren highperch",
+    "homeward bound quest"
+   ],
+   "answer": "Pao'ka Swiftmountain strayed into the dangerous wyvern roosts of Highperch and became lost. Motega was anxious over the youth's fate, especially given how reluctant Pao'ka's father had been to allow the journey, but travelers successfully escorted him back to Whitereach Post."
+  },
+  {
+   "q": "What other dangers does Whitereach Post face?",
+   "aliases": [
+    "whitereach post threats",
+    "centaur at whitereach",
+    "galak centaur plot"
+   ],
+   "answer": "Beyond rogue spirits and predators, the camp is actively targeted by the nearby Galak centaur, who orchestrate ambushes and plot assassinations against Kanati Greycloud and the other tauren stationed at the post."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Motega represents the Horde's expansion into the untamed regions of Kalimdor, maintaining a tenuous research outpost while safeguarding High Chieftain Cairne Bloodhoof from spiritual threats."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Through his reverence for nature and dutiful devotion to Cairne Bloodhoof, Motega embodies the tauren ethos of studying the Earth Mother's creatures while defending the tribe against ancient spirits."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters find common ground with Motega, who relies on skilled trackers to harvest canyon flora, track wyverns in Highperch, and stalk the mighty spirit Arikara."
+  }
+ ],
+ "keywords": [
+  "arikara",
+  "cairne bloodhoof",
+  "kanati greycloud",
+  "magatha grimtotem",
+  "motega firemane",
+  "pao'ka swiftmountain",
+  "thousand needles",
+  "whitereach post"
+ ],
+ "related": [
+  "subzone:whitereach-post",
+  "zone:thousandneedles",
+  "npc:pao-ka-swiftmountain",
+  "npc:kanati-greycloud",
+  "npc:magatha-grimtotem",
+  "npc:cairne-bloodhoof",
+  "subzone:highperch",
+  "npc:hagar-lightninghoof"
+ ],
+ "attribution": [
+  "Motega Firemane"
+ ]
+}
