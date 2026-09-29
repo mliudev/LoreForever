@@ -1,5 +1,5 @@
 # Lore Forever installer for Windows.
-# Run in PowerShell:   irm https://loreforever.mliu.io/install.ps1 | iex
+# Run in PowerShell:   irm https://loreforeverwow.com/install.ps1 | iex
 # Finds your World of Warcraft folder, downloads the latest Lore Forever release from GitHub and puts it in
 # _classic_beta_\Interface\AddOns (the WoW Forever beta). Run it again any time to update.
 # Source: https://github.com/mliudev/LoreForever

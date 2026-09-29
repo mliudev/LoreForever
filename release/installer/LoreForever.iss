@@ -24,7 +24,7 @@ AppName=Lore Forever
 AppVersion={#AppVersion}
 AppVerName=Lore Forever {#AppVersion}
 AppPublisher=Mei Liu
-AppPublisherURL=https://loreforever.mliu.io
+AppPublisherURL=https://loreforeverwow.com
 AppSupportURL=https://github.com/mliudev/LoreForever/issues
 AppUpdatesURL=https://github.com/mliudev/LoreForever/releases
 DefaultDirName={code:DefaultWoWDir}
@@ -69,7 +69,7 @@ Source: "{#SourceDir}\LoreForever\*"; DestDir: "{#AddOnDir}"; Flags: ignoreversi
 Type: filesandordirs; Name: "{#AddOnDir}"
 
 [Run]
-Filename: "https://loreforever.mliu.io"; Description: "Open the Lore Forever website"; Flags: postinstall shellexec nowait unchecked
+Filename: "https://loreforeverwow.com"; Description: "Open the Lore Forever website"; Flags: postinstall shellexec nowait unchecked
 
 [Code]
 function FindWoW(): String;

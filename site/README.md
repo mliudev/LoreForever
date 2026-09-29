@@ -1,9 +1,24 @@
 # Lore Forever landing page
 
-**Live:** https://loreforever.mliu.io (Cloudflare Pages project `lore-forever`, also at https://lore-forever.pages.dev). Every push to `main` on github.com/mliudev/lore-forever redeploys it.
+**Live:** https://loreforeverwow.com (Cloudflare Pages project `lore-forever`, also at https://lore-forever.pages.dev). Production deploys from the `site-live` branch of github.com/mliudev/lore-forever, not from `main`: pushes to
+`main` and PR branches only make preview deploys (`<hash>.lore-forever.pages.dev`, listed in the Pages project),
+so merging never changes the live site by itself.
+
+**Publishing the site** (after checking the preview of the commit you want live):
+
+```bash
+git fetch origin && git push origin origin/main:site-live
+```
+
+That fast-forwards `site-live` to main and Cloudflare deploys it to loreforeverwow.com. To roll back, push an older
+commit to `site-live` (`git push -f origin <sha>:site-live`) or use Rollback on an earlier production deployment in
+the Pages project.
 
 A static landing page and feedback page (`public/`) plus small Cloudflare Pages Functions in `functions/`
 (download counts, sign-ups, stats, click counts and feedback). Hosted on Cloudflare Pages (free).
+`functions/_middleware.js` redirects old addresses once the site has its own domain; see [DOMAIN.md](DOMAIN.md).
+**`public/_routes.json` lists which paths run Functions: a new function outside `/api/*` and `/download/*` needs
+its path added there**, or Pages serves a 404 instead.
 
 ## Fill in before going live
 
@@ -48,12 +63,12 @@ Left out: `171159` (item tooltip) shows a "Keep: wanted for the quest" line that
 - **Public download count:** CurseForge's own total, shown with a free shields.io badge. It counts every
   CurseForge download, including app installs that never touch this page. It needs the project ID above.
 - **Clicks from this page:** each click on Download adds one to a per-day tally in a free D1 database.
-  See the numbers at https://loreforever.mliu.io/api/click (D1 database `loreforever`, bound as `DB`). It's a rough traffic signal, not a unique-people count,
+  See the numbers at https://loreforeverwow.com/api/click (D1 database `loreforever`, bound as `DB`). It's a rough traffic signal, not a unique-people count,
   and anyone who knows the address could bump it.
 - **Site downloads:** the Download buttons go to `/download/installer` and `/download/zip`
   (`functions/download/[file].js`), which count each download per day in the D1 table `downloads`, then
   redirect to the latest GitHub release. Link-preview bots aren't counted. This is the number for "is the
-  site the download source?". `https://loreforever.mliu.io/api/stats` shows site downloads, sign-ups and
+  site the download source?". `https://loreforeverwow.com/api/stats` shows site downloads, sign-ups and
   clicks (counts only, no addresses).
 - **Emails:** both sign-up forms (the Download pop-up and the "Get new features" box) save straight into the
   same D1 database, table `subscribers` (email, source, created_at), through `functions/api/subscribe.js`.
@@ -64,7 +79,7 @@ Left out: `171159` (item tooltip) shows a "Keep: wanted for the quest" line that
 
 ## Feedback form
 
-`public/feedback.html` (served at https://loreforever.mliu.io/feedback) posts to `functions/api/feedback.js`,
+`public/feedback.html` (served at https://loreforeverwow.com/feedback) posts to `functions/api/feedback.js`,
 which saves each report in the same `loreforever` D1 database (table `feedback`, created on the first report).
 Linked from the landing page's sidebar, footer and Known limits tab, the public README and the CurseForge listing.
 
@@ -82,20 +97,20 @@ Linked from the landing page's sidebar, footer and Known limits tab, the public 
 | --- | --- |
 | `FEEDBACK_KEY` | Any long random string. Needed to read reports; without it, reading is off. |
 | `FEEDBACK_WEBHOOK` | Optional. A Discord webhook URL (Channel settings > Integrations > Webhooks, in a private channel). Each report is posted there as it comes in, without the email address. |
-| `TURNSTILE_SECRET` | Optional, only if spam shows up. Create a Turnstile widget (Cloudflare dashboard > Turnstile, domain `loreforever.mliu.io`), put its secret here and its site key in `TURNSTILE_SITE_KEY` at the top of the `<script>` in `public/feedback.html`. Set both or neither: a secret without the site key turns every report away. |
+| `TURNSTILE_SECRET` | Optional, only if spam shows up. Create a Turnstile widget (Cloudflare dashboard > Turnstile, domain `loreforeverwow.com`), put its secret here and its site key in `TURNSTILE_SITE_KEY` at the top of the `<script>` in `public/feedback.html`. Set both or neither: a secret without the site key turns every report away. |
 
 **Reading reports:**
 
 ```bash
-curl -s -H "Authorization: Bearer $FEEDBACK_KEY" https://loreforever.mliu.io/api/feedback
-curl -s -H "Authorization: Bearer $FEEDBACK_KEY" "https://loreforever.mliu.io/api/feedback?since=42"   # only newer than id 42
+curl -s -H "Authorization: Bearer $FEEDBACK_KEY" https://loreforeverwow.com/api/feedback
+curl -s -H "Authorization: Bearer $FEEDBACK_KEY" "https://loreforeverwow.com/api/feedback?since=42"   # only newer than id 42
 ```
 
 Or in the Cloudflare dashboard: D1 > `loreforever` > Console, `SELECT * FROM feedback ORDER BY id DESC`.
 
 ## Private dashboard
 
-https://loreforever.mliu.io/admin shows sign-up emails, feedback reports and site downloads in one place:
+https://loreforeverwow.com/admin shows sign-up emails, feedback reports and site downloads in one place:
 totals, sign-ups and downloads per day for the last 30 days, the feedback list (mark reports done, delete spam),
 and the email list (search, copy, CSV export, remove an address when someone asks to unsubscribe).
 
@@ -106,7 +121,7 @@ and the email list (search, copy, CSV export, remove an address when someone ask
   is set. The page itself holds no data, so it doesn't matter that anyone can load the empty shell, or that
   `lore-forever.pages.dev/admin` serves it too. Responses are `no-store` and the page is `noindex`.
 - **Optional extra lock:** Cloudflare Access (Zero Trust > Access > Applications > Self-hosted, domain
-  `loreforever.mliu.io`, paths `admin*` and `api/admin*`, allow only your email) adds a login in front of the
+  `loreforeverwow.com`, paths `admin*` and `api/admin*`, allow only your email) adds a login in front of the
   custom domain. The key check stays either way, since Access doesn't cover `*.pages.dev`.
 - Feedback reports get a `status` column (`new` / `done`) the first time the dashboard loads.
 
@@ -123,8 +138,9 @@ and the email list (search, copy, CSV export, remove an address when someone ask
    The table creates itself on the first click.
 4. **Visits:** in the Pages project, Metrics > Web Analytics > Enable. It shows up after the next deploy.
 5. **Domain:** in the Pages project, Custom domains > Set up a domain, enter your chosen subdomain of
-   `mliu.io` (e.g. `loreforever.mliu.io`). Cloudflare shows a CNAME record. Add it in Namecheap under
-   Domain List > mliu.io > Advanced DNS (Host: the subdomain, Value: `<project>.pages.dev`).
+   `mliu.io` (the site uses `loreforever` there). Cloudflare shows a CNAME record. Add it in Namecheap under
+   Domain List > mliu.io > Advanced DNS (Host: the subdomain, Value: `<project>.pages.dev`). For a domain of
+   its own, follow [DOMAIN.md](DOMAIN.md) instead.
 
 ## Preview locally
 
