@@ -4,7 +4,7 @@ The story behind the zones, quests, people and items around you, in game, for **
 Narrated intros for every starting zone, capital and early dungeon, and answers to whatever you ask.
 
 **[Download the installer (Windows)](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever-Setup.exe)**
-· [Zip](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip) · [Website](https://loreforever.mliu.io) · [CurseForge](https://www.curseforge.com/wow/addons/lore-forever)
+· [Zip](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip) · [Website](https://loreforeverwow.com) · [CurseForge](https://www.curseforge.com/wow/addons/lore-forever)
 
 ![Lore Forever in Stormwind](site/public/screenshots/01-stormwind-panel.jpg)
 
@@ -20,7 +20,7 @@ Windows still shows "Windows protected your PC", click **More info**, then **Run
 Enter:
 
 ```powershell
-irm https://loreforever.mliu.io/install.ps1 | iex
+irm https://loreforeverwow.com/install.ps1 | iex
 ```
 
 It finds your World of Warcraft folder, downloads the latest release from this repo and puts it in
@@ -74,7 +74,7 @@ plus place lore for the rest of the world: about 3,460 entries, 43 narrated intr
 | `addon/LoreForever/Data/` | The lore library and its search index, compiled from `data/`. |
 | `data/lore/` | Every lore entry as JSON (one file per zone, quest, NPC, place or topic), with its wiki sources. |
 | `data/overrides/`, `data/spoilers.json` | Hand-made corrections and the list of answers held behind a spoiler warning. |
-| `site/` | The website ([loreforever.mliu.io](https://loreforever.mliu.io)). |
+| `site/` | The website ([loreforeverwow.com](https://loreforeverwow.com)). |
 | `scripts/build-release.sh` | Builds the download zip into `dist/`. |
 | `release/installer/` | The Windows installer (Inno Setup). |
 | `.github/workflows/release.yml` | On a version tag, builds the zip and the installer and publishes the release. |
@@ -85,7 +85,7 @@ as issues. Code fixes are welcome as pull requests.
 
 ## Feedback
 
-Found a wrong answer, or want a zone narrated? Use the [feedback form](https://loreforever.mliu.io/feedback) (no
+Found a wrong answer, or want a zone narrated? Use the [feedback form](https://loreforeverwow.com/feedback) (no
 account needed) or [open an issue](https://github.com/mliudev/LoreForever/issues).
 
 ## License
