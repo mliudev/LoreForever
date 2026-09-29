@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Tainted Refuge",
-   "body": "Nestled beneath the canopy between Darnassus and the Oracle Glade, Wellspring Lake was long cherished by the Kaldorei as a quiet haven for fishing and contemplation. Its clear waters originate from subterranean springs running through the colossal boughs of the World Tree, which then cascade westward into the Wellspring River. In recent times, however, an insidious blight has begun to seize the surrounding wilds. Aggressive spiders, prowling nightsabers, and agitated timberlings now roam the banks, making what was once an idyllic pond a treacherous place for unwary travelers.",
+   "body": "Nestled beneath the canopy between Darnassus and the Oracle Glade, Wellspring Lake was long cherished by the Kaldorei as a quiet haven for fishing and contemplation. Its clear waters originate from subterranean springs running through the colossal boughs of the World Tree, which then drain northward through the Wellspring River. In recent times, however, an insidious blight has begun to seize the surrounding wilds. Aggressive spiders, prowling nightsabers, and agitated timberlings now roam the banks, making what was once an idyllic pond a treacherous place for unwary travelers.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "wellspring river source",
     "wellspring lake water source"
    ],
-   "answer": "The lake is fed by natural springs rising deep from within the roots and wood of Teldrassil itself. The excess water drains westward into the Wellspring River."
+   "answer": "The lake is fed by natural springs rising deep from within the roots and wood of Teldrassil itself. The excess water drains into the Wellspring River, which flows north to the edge of the tree."
   },
   {
    "q": "Why is the area around Wellspring Lake dangerous?",

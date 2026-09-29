@@ -17,7 +17,7 @@
   "wiki": "Gnarlpine Corruption (Classic)",
   "chain": []
  },
- "summary": "Gnarlpine Corruption is an urgent courier task in Teldrassil delivered on behalf of the wounded scout Gaerolas Talvethren. It warns the night elf leadership in Dolanaar that the Gnarlpine furbolgs have succumbed to demonic corruption and overran Starbreeze Village. This report sets the stage for military and druidic interventions to prevent the taint from reaching the sleeping druids of Ban'ethil Barrow Den.",
+ "summary": "Gnarlpine Corruption is an urgent courier task in Teldrassil delivered on behalf of the wounded Great Warden Gaerolas Talvethren. It warns the night elf leadership in Dolanaar that the Gnarlpine furbolgs have succumbed to demonic corruption and overran Starbreeze Village. This report sets the stage for military and druidic interventions to prevent the taint from reaching the sleeping druids of Ban'ethil Barrow Den.",
  "sections": [
   {
    "title": "A Desperate Warning",
@@ -38,7 +38,7 @@
     "starbreeze village attacked",
     "who destroyed starbreeze"
    ],
-   "answer": "Starbreeze Village was overrun and pillaged by the Gnarlpine furbolgs after they were corrupted by fel magic. The sudden ambush drove out or slaughtered the inhabitants, leaving scouts like Gaerolas Talvethren trapped and wounded."
+   "answer": "Starbreeze Village was overrun and pillaged by the Gnarlpine furbolgs after they were corrupted by fel magic. The sudden ambush drove out or slaughtered the inhabitants, leaving Gaerolas Talvethren trapped and wounded."
   },
   {
    "q": "Why have the Gnarlpine furbolgs turned violent?",
@@ -55,7 +55,7 @@
     "gaerolas",
     "injured night elf starbreeze"
    ],
-   "answer": "Gaerolas Talvethren is a night elf scout who was ambushed by the Gnarlpine tribe while traveling toward Ban'ethil Barrow Den. Too injured to make the trek to Dolanaar, he relies on travelers to deliver word of the catastrophe."
+   "answer": "Gaerolas Talvethren is the night elf Great Warden of the sleeping Druids of the Talon, who was ambushed by the Gnarlpine tribe while traveling toward Ban'ethil Barrow Den. Too injured to make the trek to Dolanaar, he relies on travelers to deliver word of the catastrophe."
   },
   {
    "q": "Who is Athridas Bearmantle?",

@@ -95,10 +95,6 @@
   {
    "target": "faction:Horde",
    "text": "Striking into Bael Modan to recover the relic gives the Horde a chance to disrupt dwarven operations that infringe directly upon the Barrens."
-  },
-  {
-   "target": "race:Dwarf",
-   "text": "The tragic devolution of Feegly into a trogg offers an unsettling glimpse into the volatile titan energies and ancestral curses bound to dwarven origins."
   }
  ],
  "keywords": [
@@ -108,8 +104,7 @@
   "feegly",
   "feegly the exiled",
   "general twinbraid",
-  "tear of the moons",
-  "trogg"
+  "tear of the moons"
  ],
  "related": [
   "npc:feegly-the-exiled",

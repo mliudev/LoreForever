@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Midnight Eviction",
-   "body": "Like many homesteaders throughout Westfall, Farmer Furlbrow and his wife Verna were driven from their land through brute force. Roused from their beds by sudden shouts and violence among the pumpkin patches, the couple had only moments to bundle what few belongings they could carry before fleeing toward Sentinel Hill. In the panic, Furlbrow was forced to leave behind a pocket watch gifted to him by Verna's father on their wedding day, leaving it behind in the wardrobe of their occupied farmhouse.",
+   "body": "Like many homesteaders throughout Westfall, Farmer Furlbrow and his wife Verna were driven from their land through brute force. Roused from their beds by sudden shouts and violence among the pumpkin patches, the couple had only moments to bundle what few belongings they could carry before fleeing their farm. In the panic, Furlbrow was forced to leave behind a pocket watch gifted to him by Verna's father on their wedding day, leaving it behind in the wardrobe of their occupied farmhouse.",
    "spoiler": 0
   },
   {
@@ -56,7 +56,7 @@
     "find watch",
     "wardrobe location"
    ],
-   "answer": "The watch is stored inside a bedroom wardrobe within the Furlbrow homestead, located at the pumpkin patches west of Sentinel Hill. Squatters and Defias outlaws currently occupy the dwelling."
+   "answer": "The watch is stored inside a bedroom wardrobe within the Furlbrow homestead, located at the pumpkin patches west of the Furlbrows' roadside camp in northern Westfall. Squatters and Defias outlaws currently occupy the dwelling."
   },
   {
    "q": "Who is Benny Blaanco?",

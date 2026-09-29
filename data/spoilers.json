@@ -274,7 +274,7 @@
  "npc:deathstalker-vincent": {},
  "npc:deathwing": {
   "faq": {
-   "6": 2
+   "5": 2
   }
  },
  "npc:deino": {},
@@ -814,8 +814,7 @@
  "npc:natalia-mar-alith": {
   "faq": {
    "1": 1,
-   "3": 1,
-   "4": 1
+   "3": 1
   },
   "summary": "Mistress Natalia Mar'alith is a night elf priestess and Cenarion Circle researcher who went missing deep within the silithid nests of Hive'Regal. She ventured into the wastes of Silithus alongside her husband, Commander Mar'alith, before departing on an expedition into the hives."
  },
@@ -1218,9 +1217,7 @@
  "npc:yeh-kinya": {
   "faq": {
    "1": 2,
-   "2": 2,
-   "3": 1,
-   "4": 1
+   "2": 2
   }
  },
  "npc:yvette-farthing": {
@@ -2100,7 +2097,7 @@
  "quest:19": {},
  "quest:1918": {
   "faq": {
-   "6": 1
+   "5": 1
   }
  },
  "quest:1938": {
@@ -2617,7 +2614,8 @@
   "faq": {
    "4": 1,
    "5": 1,
-   "6": 1
+   "6": 1,
+   "2": 1
   }
  },
  "quest:3364": {},
@@ -3229,7 +3227,7 @@
  "quest:529": {},
  "quest:530": {
   "faq": {
-   "4": 1
+   "3": 1
   }
  },
  "quest:532": {},
@@ -3738,9 +3736,7 @@
  "quest:781": {},
  "quest:783": {},
  "quest:784": {
-  "faq": {
-   "6": 1
-  }
+  "faq": {}
  },
  "quest:786": {},
  "quest:7863": {},
@@ -4391,10 +4387,7 @@
  "subzone:ar-gorok": {},
  "subzone:arcane-pinnacle": {},
  "subzone:ariden-s-camp": {
-  "faq": {
-   "2": 2,
-   "3": 1
-  }
+  "faq": {}
  },
  "subzone:ashwood-depot": {},
  "subzone:astranaar": {},
@@ -5007,7 +5000,13 @@
  "subzone:marshal-s-stand": {},
  "subzone:marshlands": {},
  "subzone:marshtide-watch": {},
- "subzone:mast-room": {},
+ "subzone:mast-room": {
+  "summary": "The Mast Room is a cavernous subterranean lumber mill nestled deep within the Deadmines. Overseen by the goblin taskmaster Sneed and his woodcarvers, this chamber processes timber stripped from Westfall.",
+  "faq": {
+   "1": 1,
+   "3": 1
+  }
+ },
  "subzone:master-s-cellar": {},
  "subzone:master-s-glaive": {},
  "subzone:maul-subzone": {},
@@ -5149,7 +5148,11 @@
  "subzone:ravaged-caravan": {},
  "subzone:ravaged-twilight-camp": {},
  "subzone:raven-hill": {},
- "subzone:raven-hill-cemetery": {},
+ "subzone:raven-hill-cemetery": {
+  "faq": {
+   "2": 1
+  }
+ },
  "subzone:ravencrest-monument": {},
  "subzone:ravenholdt-manor": {},
  "subzone:raynewood-retreat": {},
@@ -5198,9 +5201,7 @@
  "subzone:royal-quarter": {},
  "subzone:ruined-reaches": {},
  "subzone:ruins-of-aboraz": {
-  "faq": {
-   "4": 1
-  }
+  "faq": {}
  },
  "subzone:ruins-of-alterac": {},
  "subzone:ruins-of-andorhal": {},
@@ -5475,8 +5476,7 @@
  "subzone:three-corners": {},
  "subzone:thunder-axe-fortress": {
   "faq": {
-   "2": 1,
-   "3": 1
+   "2": 1
   }
  },
  "subzone:thunder-bluff": {},
@@ -5844,7 +5844,11 @@
  "topic:wildhammer-clan": {},
  "topic:worgen": {},
  "zone:alterac": {},
- "zone:arathi": {},
+ "zone:arathi": {
+  "faq": {
+   "6": 1
+  }
+ },
  "zone:ashenvale": {},
  "zone:azshara": {},
  "zone:badlands": {},

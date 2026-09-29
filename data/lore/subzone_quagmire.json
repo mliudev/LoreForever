@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Quagmire"
  },
- "summary": "The Quagmire comprises the sprawling, treacherous heart of central Dustwallow Marsh. Bound by Brackenwall Village to the north and the Dragonmurk to the south, its waterlogged flats are notoriously difficult to navigate. Hostile beasts, ravenous oozes, and fierce Grimtotem tauren make any journey through this central fen perilous.",
+ "summary": "The Quagmire comprises the sprawling, treacherous heart of central Dustwallow Marsh. Bound by Brackenwall Village to the north and the Dragonmurk to the south, its waterlogged flats are notoriously difficult to navigate. Hostile beasts and ravenous oozes make any journey through this central fen perilous.",
  "sections": [
   {
    "title": "Heart of the Fen",
@@ -16,7 +16,7 @@
   },
   {
    "title": "Encroaching Clashes",
-   "body": "Beyond its natural hazards, the Quagmire serves as an unpredictable crossroads for the sentient powers contesting the swamp. The hostile Grimtotem clan operates aggressively out of Direhorn Post, threatening both Horde travelers venturing south from Brackenwall and Alliance scouts patrolling out from Theramore's fringes. Tucked away within the bog lies Tabetha's Farm, a lonely refuge for practitioners seeking hermit wisdom amid the dangers of the swamp.",
+   "body": "Beyond its natural hazards, the Quagmire serves as an unpredictable crossroads for the sentient powers contesting the swamp. Tucked away within the bog lies Tabetha's Farm, a lonely refuge for practitioners seeking hermit wisdom amid the dangers of the swamp.",
    "spoiler": 0
   }
  ],
@@ -29,39 +29,9 @@
     "quagmire map"
    ],
    "answer": "The Quagmire covers the central portion of Dustwallow Marsh. It stretches west toward Lost Point, east toward Dustwallow Bay, north to the borders of Brackenwall Village, and south where the land descends into the Dragonmurk."
-  },
-  {
-   "q": "Who lives in the Quagmire?",
-   "aliases": [
-    "quagmire inhabitants",
-    "who is in quagmire",
-    "quagmire enemies"
-   ],
-   "answer": "The fen is primarily populated by aggressive wildlife, including crocolisks, giant spiders, and acidic oozes. The Grimtotem tauren maintain a hostile presence from Direhorn Post, while the solitary mage Tabetha lives in a small farmstead hidden in the muck."
-  },
-  {
-   "q": "Is the Quagmire controlled by the Horde or Alliance?",
-   "aliases": [
-    "quagmire faction",
-    "who owns quagmire",
-    "is quagmire horde"
-   ],
-   "answer": "Neither faction holds dominion over the Quagmire. Brackenwall Village anchors Horde presence to the north, and Alliance sentries watch from the east, but the Quagmire itself remains lawless wilderness dominated by predators and the Grimtotem."
-  },
-  {
-   "q": "What notable landmarks lie within the Quagmire?",
-   "aliases": [
-    "landmarks in quagmire",
-    "quagmire points of interest"
-   ],
-   "answer": "Notable locations situated within the Quagmire include Beezil's Wreck, the Grimtotem encampment of Direhorn Post, and the secluded residence at Tabetha's Farm."
   }
  ],
  "angles": [
-  {
-   "target": "race:Tauren",
-   "text": "The Grimtotem clan's aggressive presence at Direhorn Post puts any peaceful tauren loyal to Cairne Bloodhoof on high alert when traversing these bogs."
-  },
   {
    "target": "class:Mage",
    "text": "Deep in the fen lies Tabetha's Farm, a vital destination for aspiring mages seeking esoteric training far from the scrutiny of the Kirin Tor."
@@ -70,9 +40,7 @@
  "keywords": [
   "beezil",
   "crocolisk",
-  "direhorn post",
   "dustwallow",
-  "grimtotem",
   "quagmire",
   "tabetha"
  ],

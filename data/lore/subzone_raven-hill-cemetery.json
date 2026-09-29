@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The relentless corruption and despoiled graves of Raven Hill Cemetery call for holy consecration, and putting the tormented spirit of Morgan Ladimore to peace is a sacred duty of the Light."
+   "text": "The relentless corruption and despoiled graves of Raven Hill Cemetery call for holy consecration."
   },
   {
    "target": "class:Priest",
@@ -75,7 +75,6 @@
   "grave robbers",
   "mor'ladim",
   "morbent fel",
-  "morgan ladimore",
   "raven hill cemetery",
   "skeletons"
  ],

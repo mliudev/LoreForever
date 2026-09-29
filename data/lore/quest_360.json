@@ -20,11 +20,11 @@
    "Return to the Magistrate (Classic)"
   ]
  },
- "summary": "Return to the Magistrate concludes an urgent reconnaissance dispatch between the eastern border of Tirisfal Glades and the town of Brill. Having reported to Deathguard Linnea at the Bulwark, adventurers are sent back to deliver troubling news directly to Magistrate Sevren. The message confirms that the mindless minions of the Lich King continue to test the borders of the young Forsaken nation.",
+ "summary": "Return to the Magistrate concludes an urgent reconnaissance dispatch between the eastern border of Tirisfal Glades and the town of Brill. Having reported to Deathguard Linnea at her waystation east of Brill, adventurers are sent back to deliver troubling news directly to Magistrate Sevren. The message confirms that the mindless minions of the Lich King continue to test the borders of the young Forsaken nation.",
  "sections": [
   {
    "title": "Frontier Reports",
-   "body": "The eastern road out of Tirisfal Glades leads directly into the blighted ruins of the Western Plaguelands, where the Scourge holds devastating sway. To keep the undead hordes from spilling over into their newly claimed homeland, the Forsaken established the Bulwark\u2014a fortified checkpoint garrisoned by grim sentries like Deathguard Linnea. After reviewing the defenses and learning what presses against the eastern gate, Linnea sends messengers racing back west along the King's Road toward Brill before enemy infiltrators can capitalize on any gaps.",
+   "body": "The eastern road out of Tirisfal Glades leads directly into the blighted ruins of the Western Plaguelands, where the Scourge holds devastating sway. To keep the undead hordes from spilling over into their newly claimed homeland, the Forsaken established the Bulwark\u2014a fortified checkpoint watched from a waystation behind the line by grim sentries like Deathguard Linnea. After gathering reports of what presses against the eastern gate, Linnea sends messengers racing back west along the King's Road toward Brill before enemy infiltrators can capitalize on any gaps.",
    "spoiler": 0
   },
   {
@@ -41,7 +41,7 @@
     "who sent this report",
     "where is linnea"
    ],
-   "answer": "The report comes from Deathguard Linnea, stationed at the Bulwark along the eastern boundary of Tirisfal Glades. She guards the barricades separating Tirisfal from the Scourge-choked Western Plaguelands."
+   "answer": "The report comes from Deathguard Linnea, stationed at a Deathguard waystation east of Brill, on the road toward the Bulwark. She gathers reports from the barricades separating Tirisfal from the Scourge-choked Western Plaguelands."
   },
   {
    "q": "Why is Magistrate Sevren concerned about this news?",
@@ -82,7 +82,7 @@
     "route from bulwark to brill",
     "road to brill"
    ],
-   "answer": "Messengers travel west along the main road from the Bulwark, skirting the northern edge of the Balnir Farmstead and heading through central Tirisfal Glades until reaching the town center of Brill."
+   "answer": "Messengers travel west along the main road from Deathguard Linnea's waystation, heading through central Tirisfal Glades until reaching the town center of Brill."
   }
  ],
  "angles": [

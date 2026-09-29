@@ -17,7 +17,7 @@
   "wiki": "Bring Back the Mug",
   "chain": []
  },
- "summary": "After delivering a piping hot draught of Mornbrew across the snowdrifts of Dun Morogh, one final errand remains: returning the empty tankard. Durnan Furcutter sends the runner back to Kharanos to return Nori Pridedrift's prized mug. It is a simple courtesy, but one the tavernkeeper deeply appreciates.",
+ "summary": "After delivering a piping hot draught of Mornbrew across the snowdrifts of Dun Morogh, one final errand remains: returning the empty tankard. Durnan Furcutter sends the runner back across Coldridge Valley to return Nori Pridedrift's prized mug. It is a simple courtesy, but one the brew seller deeply appreciates.",
  "sections": [
   {
    "title": "A Matter of Tavern Etiquette",
@@ -26,7 +26,7 @@
   },
   {
    "title": "Mugs Don't Grow on Trees",
-   "body": "Returning to Kharanos completes the delivery run for Nori Pridedrift. As Nori is fond of reminding forgetful couriers, sturdy drinkware does not simply grow on trees\u2014especially not in the subzero crags of the dwarven homeland. Returning the empty vessel in one piece cements an adventurer's reputation as a reliable hand in the local community.",
+   "body": "Returning to Coldridge Valley completes the delivery run for Nori Pridedrift. As Nori is fond of reminding forgetful couriers, sturdy drinkware does not simply grow on trees\u2014especially not in the subzero crags of the dwarven homeland. Returning the empty vessel in one piece cements an adventurer's reputation as a reliable hand in the local community.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "who gets the mug",
     "nori location"
    ],
-   "answer": "You return the empty mug to Nori Pridedrift, who is located back at Kharanos in Dun Morogh."
+   "answer": "You return the empty mug to Nori Pridedrift, who wanders Coldridge Valley in Dun Morogh selling his mornbrew."
   },
   {
    "q": "Is there a time limit to return the mug?",
@@ -80,7 +80,7 @@
     "durnan location",
     "where is durnan"
    ],
-   "answer": "Durnan Furcutter is stationed out in the snowy wilderness of Dun Morogh, waiting along the road between Kharanos and the outlying camps."
+   "answer": "Durnan Furcutter is a cloth and leather armor merchant found inside Anvilmar, the settlement dug into the mountain in Coldridge Valley."
   }
  ],
  "angles": [

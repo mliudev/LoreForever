@@ -60,7 +60,7 @@
     "sneed shredder quest item",
     "what drops from sneed shredder"
    ],
-   "answer": "The shredder carries important mechanical parts sought by gnome investigators in Ironforge, notably serving as the focus for missions investigating the goblin machinery aiding the Defias rebellion."
+   "answer": "Yes. Its intact power supply, the Gnoam Sprecklesprocket, is sought by Shoni the Shilent in Stormwind, who needs it to power the gnomes' gyrodrillmatic excavationators for an assault on Gnomeregan."
   },
   {
    "q": "Who pilots the shredder?",
@@ -78,7 +78,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "Gnomish tinkers in Ironforge hold a keen interest in analyzing the components within this goblin-built monster to uncover the Defias engineering pipeline."
+   "text": "Shoni the Shilent of the Gnomeregan underground assault crew wants this goblin-built monster's power supply to drive the drills that could reopen the way to Gnomeregan."
   },
   {
    "target": "faction:Alliance",

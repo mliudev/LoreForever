@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Messenger in the Mountains",
-   "body": "After assisting the gnome mage Gaxim Rustfizzle in uncovering the movements of the Venture Company, he compiles recovered letters detailing the cartel's operations. Not one to pass up credit, Gaxim sends the player directly back to Kaela Shadowspear, the night elf Sentinel coordinator stationed in Stonetalon Peak. He makes sure to remind the courier to mention how his magical prowess made the investigation a success.",
+   "body": "After assisting the gnome mage Gaxim Rustfizzle in uncovering the movements of the Venture Company, he compiles recovered letters detailing the cartel's operations. Not one to pass up credit, Gaxim sends the player directly back to Kaela Shadowspear, the night elf Sentinel coordinator stationed near Windshear Crag. He makes sure to remind the courier to mention how his magical prowess made the investigation a success.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "who is kaela",
     "kaela stonetalon"
    ],
-   "answer": "Kaela Shadowspear is an Alliance-aligned night elf Sentinel officer stationed at Stonetalon Peak. She oversees scouting and defensive efforts against both the encroaching Horde and the destructive ventures of goblin mining companies in the mountains."
+   "answer": "Kaela Shadowspear is an Alliance-aligned night elf Sentinel officer stationed at a camp near Windshear Crag. She oversees scouting and defensive efforts against both the encroaching Horde and the destructive ventures of goblin mining companies in the mountains."
   },
   {
    "q": "Who is Gaxim Rustfizzle?",
@@ -74,7 +74,7 @@
     "turn in kaela update",
     "where is kaela"
    ],
-   "answer": "The quest begins with Gaxim Rustfizzle along the mountain pathways and finishes with Kaela Shadowspear at the Alliance outpost of Stonetalon Peak."
+   "answer": "The quest begins with Gaxim Rustfizzle along the mountain pathways and finishes with Kaela Shadowspear at her camp near Windshear Crag."
   },
   {
    "q": "Does this quest lead to further investigations?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Delivering intercepted Venture Company correspondence bolsters the fragile Alliance foothold at Stonetalon Peak against corporate pillaging."
+   "text": "Delivering intercepted Venture Company correspondence bolsters the fragile Alliance foothold in Stonetalon against corporate pillaging."
   },
   {
    "target": "race:NightElf",

@@ -26,7 +26,7 @@
   },
   {
    "title": "The Scars of the Charred Vale",
-   "body": "The quest directs warriors to the southwestern reaches of the Stonetalon Mountains, into the ashen desolation known as the Charred Vale. Once lush and green, the valley was burned into a smoking wasteland during the Third War. The surviving beasts wandering its soot-covered craters are twisted by agony and fury, particularly the mighty chimaeras that make their nests amid the dead trees and searing steam vents.",
+   "body": "The quest directs warriors to the southwestern reaches of the Stonetalon Mountains, into the ashen desolation known as the Charred Vale. Once lush and green, the valley was burned into a smoking wasteland. The surviving beasts wandering its soot-covered craters are twisted by agony and fury, particularly the mighty chimaeras that make their nests amid the dead trees and searing steam vents.",
    "spoiler": 0
   },
   {
@@ -43,7 +43,7 @@
     "who is orm stonehoof",
     "thunder bluff blacksmith orm"
    ],
-   "answer": "Orm Stonehoof is a skilled tauren blacksmith residing in Thunder Bluff who assists veteran Horde warriors in crafting iconic pieces of their class armor, including the Brutal Hauberk and the Brutal Helm."
+   "answer": "Orm Stonehoof is a skilled tauren blacksmith residing in Thunder Bluff who assists veteran Horde warriors in crafting iconic pieces of their class armor, including the Brutal Helm."
   },
   {
    "q": "Why does Orm want the galvanized horn?",
@@ -53,15 +53,6 @@
     "brutal helm horn"
    ],
    "answer": "The galvanized horn serves as both a durable physical component for the Brutal Helm and tangible proof that the warrior possesses the courage to track and defeat a dangerous alpha predator in hazardous terrain."
-  },
-  {
-   "q": "What happened to the Charred Vale?",
-   "aliases": [
-    "charred vale history",
-    "why is charred vale burned",
-    "stonetalon charred vale lore"
-   ],
-   "answer": "The Charred Vale was once a lush, verdant wilderness in southwestern Stonetalon. It was reduced to a blackened, smoking crater during the violent clashes of the Third War, leaving its native beasts mad with pain and sorrow."
   },
   {
    "q": "What are chimaeras in Stonetalon?",

@@ -26,7 +26,7 @@
   },
   {
    "title": "Audience with the King",
-   "body": "Carrying a private petition to the High Seat of Ironforge is no routine chore, but Magni Bronzebeard takes personal note of the brave defenders of Khaz Modan. Upon receiving the message, the King pauses the affairs of state to read the humble plea of an artisan's widow, demonstrating his bond with the common dwarves who built and defend his mountain kingdom.",
+   "body": "Carrying a private petition to the High Seat of Ironforge is no routine chore, but Magni Bronzebeard takes personal note of the brave defenders of Khaz Modan. Upon receiving the message, the King pauses the affairs of state to read the humble plea of a soldier's widow, demonstrating his bond with the common dwarves who built and defend his mountain kingdom.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "sara balloo",
     "who is sara"
    ],
-   "answer": "Sara Balloo is an Ironforge dwarf whose husband, the mason Sully Balloo, died defending the Thandol Span during the Third War. She lives in the city, holding his memory dear."
+   "answer": "Sara Balloo is an Ironforge dwarf whose husband, the soldier Sully Balloo, died in the Thandol Span tragedy. She lives in the city, holding his memory dear."
   },
   {
    "q": "Why does Sara want me to see the King instead of going herself?",
@@ -53,7 +53,7 @@
     "sully balloo",
     "saras husband"
    ],
-   "answer": "Sully Balloo was a renowned dwarf mason who helped construct and later defend the Thandol Span. He perished during fighting along the bridge, leaving behind a waterlogged letter to his wife."
+   "answer": "Sully Balloo was a dwarf soldier who defended the Thandol Span. He perished during fighting along the bridge, leaving behind a waterlogged letter to his wife."
   },
   {
    "q": "Where do I deliver Sara Balloo's Plea?",
@@ -70,7 +70,7 @@
     "quest continuation",
     "next quest"
    ],
-   "answer": "Reading Sara's plea moves King Magni to honor the fallen mason properly, leading directly into the quest 'A King's Tribute' to establish a lasting monument."
+   "answer": "Reading Sara's plea moves King Magni to honor the fallen soldier properly, leading directly into the quest 'A King's Tribute' to establish a lasting monument."
   },
   {
    "q": "What faction can undertake this task?",

@@ -20,11 +20,11 @@
    "The Escape (Classic)"
   ]
  },
- "summary": "The Escape is an escort quest in the northern Barrens where adventurers help the gnome engineer Wizzlecrank flee the Venture Company's drill site at the Sludge Fen. Trapped inside a stolen prototype shredder, Wizzlecrank requires protection against waves of company mercenaries until he clears the industrial pit. The mission concludes by reporting back to his contact, Sputtervalve, in the port town of Ratchet.",
+ "summary": "The Escape is an escort quest in the northern Barrens where adventurers help the goblin pilot Wizzlecrank flee the Venture Company's drill site at the Sludge Fen. Trapped inside a stolen prototype shredder, Wizzlecrank requires protection against waves of company mercenaries until he clears the industrial pit. The mission concludes by reporting back to his contact, Sputtervalve, in the port town of Ratchet.",
  "sections": [
   {
    "title": "A Clumsy Getaway",
-   "body": "Having ignited the stolen prototype deep within the Sludge Fen drill site, Wizzlecrank quickly discovers that commandeering goblin engineering is easier said than done. With only a rudimentary grasp of the control levers and switches, the gnome lurches the heavy machine across the muddy quarry floor. His erratic driving and roaring mechanical joints inevitably alert nearby laborers and armed guards, turning what should have been a stealthy extraction into a chaotic running battle up the western ramp of the excavation pit.",
+   "body": "Having ignited the stolen prototype deep within the Sludge Fen drill site, Wizzlecrank quickly discovers that commandeering Venture Company engineering is easier said than done. With only a rudimentary grasp of the control levers and switches, the goblin lurches the heavy machine across the muddy quarry floor. His erratic driving and roaring mechanical joints inevitably alert nearby laborers and armed guards, turning what should have been a stealthy extraction into a chaotic running battle up the western ramp of the excavation pit.",
    "spoiler": 0
   },
   {
@@ -43,7 +43,7 @@
    "q": "Who is Wizzlecrank and why is he inside a shredder?",
    "aliases": [
     "who is wizzlecrank",
-    "why is gnome in shredder",
+    "why is goblin in shredder",
     "wizzlecrank shredder"
    ],
    "answer": "Wizzlecrank is an operative and mechanic working with Sputtervalve in Ratchet. He infiltrated the Venture Company's northern drill site to steal their latest experimental shredder prototype, but ended up trapped inside while figuring out the unfamiliar cockpit controls."
@@ -101,7 +101,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "Wizzlecrank's willingness to pilot a wildly volatile goblin machine on sheer guesswork highlights the classic gnomish impulse to tinker first and ask questions later."
+   "text": "Wizzlecrank's willingness to pilot a wildly volatile Venture Company machine on sheer guesswork shows that goblin tinkers, like gnomish ones, often tinker first and ask questions later."
   },
   {
    "target": "faction:Horde",

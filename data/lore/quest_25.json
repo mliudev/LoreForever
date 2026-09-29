@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Choked Supply Route",
-   "body": "Maintaining the Horde's foothold in Ashenvale requires a constant flow of lumber, supplies, and messengers moving between the forest and the peaks of the Stonetalon Mountains. The Talondeep Path serves as this critical artery, skirting past the eastern shore of Mystral Lake. When the waters violently churned to life with hostile elementals, travel stopped dead in its tracks. Transport caravans found themselves battered by enraged water spirits, prompting Mastok Wrilehiss to demand swift action before logistical lines collapse entirely.",
+   "body": "Maintaining the Horde's foothold in Ashenvale requires a constant flow of lumber, supplies, and messengers moving between the forest and the peaks of the Stonetalon Mountains. The Talondeep Path serves as this critical artery, skirting past the western shore of Mystral Lake. When the waters violently churned to life with hostile elementals, travel stopped dead in its tracks. Transport caravans found themselves battered by enraged water spirits, prompting Mastok Wrilehiss to demand swift action before logistical lines collapse entirely.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
   },
   {
    "title": "Eyes Across the Water",
-   "body": "Beyond subduing the lake's angry spirits, the Horde recognizes a strategic opportunity in Mystral Lake's central island. An ancient night elf gazebo sits upon the islet, commanding a clear vantage point across the water toward the nearby Alliance stronghold of Silverwing Outpost. By scouting the structure, Horde scouts assess whether the ruins can serve as a forward observation post, ensuring Splintertree's commanders can keep a close eye on their Kalimdor rivals without being detected.",
+   "body": "Beyond subduing the lake's angry spirits, the Horde recognizes a strategic opportunity in Mystral Lake's central island. An ancient night elf gazebo sits upon the islet, commanding a clear vantage point across the water toward the nearby night elf settlement of Silverwind Refuge. By scouting the structure, Horde scouts assess whether the ruins can serve as a forward observation post, ensuring Splintertree's commanders can keep a close eye on their Kalimdor rivals without being detected.",
    "spoiler": 0
   }
  ],
@@ -70,7 +70,7 @@
     "path to stonetalon",
     "stonetalon road"
    ],
-   "answer": "The Talondeep Path is the primary mountain trail connecting the southwestern reaches of Ashenvale to the Stonetalon Mountains, running right past the eastern shoreline of Mystral Lake."
+   "answer": "The Talondeep Path is the primary mountain trail connecting the southwestern reaches of Ashenvale to the Stonetalon Mountains, running right past the western shoreline of Mystral Lake."
   },
   {
    "q": "Why are the water elementals in Mystral Lake befouled?",
@@ -85,10 +85,9 @@
    "q": "Which Alliance outpost is being watched from the gazebo?",
    "aliases": [
     "what alliance base near mystral lake",
-    "alliance outpost ashenvale",
-    "silverwing outpost view"
+    "alliance outpost ashenvale"
    ],
-   "answer": "The gazebo overlooks Silverwing Outpost, the regional base of the Silverwing Sentinels who defend Ashenvale against the Horde's lumber-harvesting operations."
+   "answer": "The gazebo overlooks Silverwind Refuge, a night elf settlement just north of the lake guarded by Sentinels who defend Ashenvale against the Horde's lumber-harvesting operations."
   }
  ],
  "angles": [

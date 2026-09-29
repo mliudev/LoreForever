@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "Secrets of the Reconstructed Tome",
-   "body": "In Tarren Mill, the Forsaken scholar Jorah Annison examines the fragments of the recovered Tome of the Cabal, piecing together its eldritch passages. While pleased with the rare intellectual bounty, Jorah delivers an urgent directive sent by Strahad Farsan. To bind a demonic predator like a felhunter, raw knowledge is not enough: a warlock must possess precise instruments of power capable of focusing violent demonic energies into a binding circle.",
+   "body": "In the Undercity, the Forsaken scholar Jorah Annison examines the fragments of the recovered Tome of the Cabal, piecing together its eldritch passages. While pleased with the rare intellectual bounty, Jorah delivers an urgent directive sent by Strahad Farsan. To bind a demonic predator like a felhunter, raw knowledge is not enough: a warlock must possess precise instruments of power capable of focusing violent demonic energies into a binding circle.",
    "spoiler": 0
   },
   {
@@ -51,7 +51,7 @@
     "who is jorah",
     "jorah annison lore"
    ],
-   "answer": "Jorah Annison is a Forsaken warlock and scholar stationed at Tarren Mill in the Hillsbrad Foothills. He studies esoteric and dark texts, assisting fellow practitioners by piecing together shattered grimoires like the Tome of the Cabal."
+   "answer": "Jorah Annison is a Forsaken warlock and scholar stationed in the Magic Quarter of the Undercity. He studies esoteric and dark texts, assisting fellow practitioners by piecing together shattered grimoires like the Tome of the Cabal."
   },
   {
    "q": "Why are Rods of Channeling needed?",
@@ -102,7 +102,7 @@
   },
   {
    "target": "race:Undead",
-   "text": "Jorah Annison's scholarly work in Tarren Mill reflects the Forsaken warlock tradition of dissecting forbidden arcane texts for practical arcane supremacy."
+   "text": "Jorah Annison's scholarly work in the Undercity reflects the Forsaken warlock tradition of dissecting forbidden arcane texts for practical arcane supremacy."
   }
  ],
  "keywords": [

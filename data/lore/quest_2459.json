@@ -24,7 +24,7 @@
  "sections": [
   {
    "title": "A Defiled Heirloom",
-   "body": "When Tallonkai Swiftroot examined the dreamcatcher recovered from the corrupted wilds, relief quickly turned to dismay. The sacred artifact had been vandalized, its vibrant emerald centerpiece pried from the woven frame. Word among the night elves held that a band of Gnarlpine mystics north of Starbreeze Village had fallen under the influence of an owlbeast-like figure known as Ferocitas the Dream Eater, who brazenly wore a brilliant green stone around his neck. Knowing the sacred gem was useless and perverse in the creature's clutches, Tallonkai sent defenders to wrest it back.",
+   "body": "When Tallonkai Swiftroot examined the dreamcatcher recovered from the corrupted wilds, relief quickly turned to dismay. The sacred artifact had been vandalized, its vibrant emerald centerpiece pried from the woven frame. Word among the night elves held that a band of Gnarlpine mystics north of Starbreeze Village had fallen under the influence of a furbolg leader known as Ferocitas the Dream Eater, who brazenly wore a brilliant green stone around his neck. Knowing the sacred gem was useless and perverse in the creature's clutches, Tallonkai sent defenders to wrest it back.",
    "spoiler": 0
   },
   {
@@ -50,7 +50,7 @@
     "ferocitas lore",
     "what is dream eater"
    ],
-   "answer": "Ferocitas is an owlbeast leader who commands a band of corrupted Gnarlpine mystics north of Starbreeze Village. He took the emerald from Tallonkai Swiftroot's dreamcatcher and fashioned it into a crude necklace."
+   "answer": "Ferocitas is a Gnarlpine furbolg leader who commands a band of corrupted Gnarlpine mystics north of Starbreeze Village. He took the emerald from Tallonkai Swiftroot's dreamcatcher and fashioned it into a crude necklace."
   },
   {
    "q": "Why does Tallonkai Swiftroot want the jewel back?",
@@ -92,7 +92,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "Dreamcatchers are potent instruments tied to the Emerald Dream; seeing one defiled by a corrupted owlbeast demands swift natural retribution."
+   "text": "Dreamcatchers are potent instruments tied to the Emerald Dream; seeing one defiled by a corrupted furbolg demands swift natural retribution."
   }
  ],
  "keywords": [

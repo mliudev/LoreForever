@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Tower of Azora"
  },
- "summary": "The Tower of Azora is a slender wizard's spire rising out of eastern Elwynn Forest, north of the Brackwell Pumpkin Patch. Presided over by the gnome Archmage Theocritus, the enclave serves as a scholarly outpost locked in a silent magical feud with a hostile tower in neighboring Redridge Mountains.",
+ "summary": "The Tower of Azora is a slender wizard's spire rising out of eastern Elwynn Forest, north of the Brackwell Pumpkin Patch. Presided over by the human Archmage Theocritus, the enclave serves as a scholarly outpost locked in a silent magical feud with a hostile tower in neighboring Redridge Mountains.",
  "sections": [
   {
    "title": "A Spire of Arcane Vigilance",
@@ -28,7 +28,7 @@
     "who is in charge here",
     "tower of azora boss"
    ],
-   "answer": "The tower is presided over by Archmage Theocritus, an accomplished gnome wizard. He directs the servants within the spire and coordinates their magical defenses against rival sorcerers."
+   "answer": "The tower is presided over by Archmage Theocritus, an accomplished human wizard. He directs the servants within the spire and coordinates their magical defenses against rival sorcerers."
   },
   {
    "q": "Why are there so many gnomes here?",
@@ -64,7 +64,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "Seeing an arcane spire in human lands commanded and staffed entirely by gnomes under Archmage Theocritus is a proud showcase of your people's mastery over the mystic arts."
+   "text": "Seeing an arcane spire in human lands staffed by gnomes under Archmage Theocritus is a proud showcase of your people's mastery over the mystic arts."
   }
  ],
  "keywords": [

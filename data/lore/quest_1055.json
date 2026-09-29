@@ -17,7 +17,7 @@
   "wiki": "Raene's Cleansing (7)",
   "chain": []
  },
- "summary": "This task marks the completion of the Rod of Transformation at the hidden shrine in Ashenvale. With the sacred artifact assembled, it must be returned immediately to the priestess Shael'dryn at her moonwell sanctuary.",
+ "summary": "This task marks the completion of the Rod of Transformation at the hidden shrine in Ashenvale. With the sacred artifact assembled, it must be returned immediately to the dryad Shael'dryn at her moonwell sanctuary.",
  "sections": [
   {
    "title": "A Restored Relic",
@@ -26,7 +26,7 @@
   },
   {
    "title": "Return to Shael'dryn",
-   "body": "With the assembly complete, word and relic must be delivered swiftly back to Shael'dryn. Stationed beside the calm waters of the forest moonwell, the devoted priestess has guided every step of this restoration effort. Presenting the assembled rod to her not only confirms that the forest's sacred craft remains unbroken, but also allows the Sentinel defenders to take the next critical steps in defending their besieged homeland.",
+   "body": "With the assembly complete, word and relic must be delivered swiftly back to Shael'dryn. Stationed beside the calm waters of the forest moonwell, the dryad has guided every step of this restoration effort. Presenting the assembled rod to her not only confirms that the forest's sacred craft remains unbroken, but also allows the Sentinel defenders to take the next critical steps in defending their besieged homeland.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is this quest",
     "quest goal"
    ],
-   "answer": "Having successfully assembled the Rod of Transformation at the hidden shrine, you simply need to take the finished rod back to the priestess Shael'dryn, who waits at the moonwell in northern Ashenvale."
+   "answer": "Having successfully assembled the Rod of Transformation at the hidden shrine, you simply need to take the finished rod back to the dryad Shael'dryn, who waits at the moonwell in northern Ashenvale."
   },
   {
    "q": "Who is Shael'dryn?",
@@ -47,7 +47,7 @@
     "who is shael'dryn",
     "priestess at moonwell"
    ],
-   "answer": "Shael'dryn is a night elf priestess tending a sacred moonwell in Ashenvale. Working to cleanse the ancient forest of spreading corruption, she directs trusted allies to gather relics, purify components, and restore sacred artifacts."
+   "answer": "Shael'dryn is a dryad tending a sacred moonwell in Ashenvale. Working to cleanse the ancient forest of spreading corruption, she directs trusted allies to gather relics, purify components, and restore sacred artifacts."
   },
   {
    "q": "Where is Shael'dryn located?",
@@ -65,7 +65,7 @@
     "rod of transformation lore",
     "the rod"
    ],
-   "answer": "The Rod of Transformation is an ancient artifact associated with night elf magic and forest lore. When restored and empowered, it holds the power to break dark hexes, see through foul curses, and reshape the forms of creatures afflicted by lingering corruption."
+   "answer": "The Rod of Transformation is an ancient artifact associated with night elf magic and forest lore. When restored and empowered, it can change its bearer into another form altogether, which later proves to be that of a furbolg."
   },
   {
    "q": "Why is assembling the rod so important to Astranaar?",

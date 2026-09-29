@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Saldean's Farm"
  },
- "summary": "Saldean's Farm is the only homestead in Westfall that has not been completely overrun and abandoned to the Defias Brotherhood. Held by the stubborn Farmer Saldean and his wife Salma, the farmhouse operates as a desperate sanctuary for homeless refugees and orphans fleeing the region's turmoil.",
+ "summary": "Saldean's Farm is the only homestead in Westfall that has not been completely overrun and abandoned to the Defias Brotherhood. Held by the stubborn Farmer Saldean and his wife Salma, the farmhouse remains a rare safe haven amid the region's turmoil.",
  "sections": [
   {
    "title": "A Beacon in the Dust",
-   "body": "While neighboring lands fell to banditry and mechanical sabotage, the Saldean family refused to abandon their soil. Farmer Saldean and his wife Salma have turned their homestead into an informal halfway house, offering shelter and hot food to displaced vagrants, drifters, and orphans pushed out of Stormwind and the surrounding countryside. Despite their resilience, the fields remain plagued by rogue harvest golems deployed across the plains, forcing the family and their guests to stay close to the farmhouse walls.",
+   "body": "While neighboring lands fell to banditry and mechanical sabotage, the Saldean family refused to abandon their soil. Farmer Saldean and his wife Salma have stayed on their homestead, offering hot food and a kind word to passing travelers. Despite their resilience, the fields remain plagued by rogue harvest golems deployed across the plains, forcing the family to stay close to the farmhouse walls.",
    "spoiler": 0
   },
   {
    "title": "Holding the Line",
-   "body": "Because the Stormwind crown has largely neglected Westfall, law enforcement here is thin. A handful of Sentinel Hill and Stormwind guards patrol the periphery, but the farm survives primarily through sheer grit and the aid of passing travelers. For the destitute souls huddled on the porch, Salma's famous liver pie and the shelter of the barn are the only barriers standing between them and starvation or death at the hands of the Defias.",
+   "body": "Because the Stormwind crown has largely neglected Westfall, law enforcement here is thin. A handful of Sentinel Hill and Stormwind guards patrol the periphery, but the farm survives primarily through sheer grit and the aid of passing travelers. For the Saldeans, Salma's famous Westfall stew and goretusk liver pie and the shelter of their farmhouse are small comforts against the ever-present threat of the Defias.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "homeless westfall",
     "orphans at farm"
    ],
-   "answer": "The farm functions as a refuge and halfway house for transients, homeless Stormwind citizens, and orphans displaced by the region's collapse. Salma Saldean does her best to keep them fed and alive."
+   "answer": "The farm's residents are Farmer Saldean and his wife Salma; anyone else you find there is likely a passing traveler, as the couple welcome visitors and the adventurers willing to help them with the dangers plaguing their fields."
   },
   {
    "q": "Why are mechanical golems attacking the fields?",

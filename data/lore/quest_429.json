@@ -22,11 +22,11 @@
    "Ivar the Foul (quest)"
   ]
  },
- "summary": "Wild Hearts is a Horde quest in Silverpine Forest tasked by Rane Yorick. To save his brother Quinn from wounds inflicted by the ghoul Ivar the Foul, you must harvest discolored worg hearts and deliver them to Apothecary Renferrel at the Sepulcher for an alchemical remedy.",
+ "summary": "Wild Hearts is a Horde quest in Silverpine Forest tasked by Rane Yorick. To save her brother Quinn from wounds inflicted by the ghoul Ivar the Foul, you must harvest discolored worg hearts and deliver them to Apothecary Renferrel at the Sepulcher for an alchemical remedy.",
  "sections": [
   {
    "title": "A Brother's Desperation",
-   "body": "Following the disastrous mission that scattered the Deathstalkers near Malden's Orchard, Rane Yorick finds himself attending to his severely wounded brother, Quinn. The feral ghoul Ivar the Foul left Quinn mangled and failing to recover. Knowing conventional rest will not restore an undead body torn by such savagery, Rane looks to the macabre arts of the Royal Apothecary Society to stitch his brother back together.",
+   "body": "Following the disastrous mission that left the Deathstalkers pinned down at a farm in northern Silverpine, Rane Yorick finds herself attending to her severely wounded brother, Quinn. The feral ghoul Ivar the Foul left Quinn mangled and failing to recover. Knowing conventional rest will not restore an undead body torn by such savagery, Rane looks to the macabre arts of the Royal Apothecary Society to stitch his brother back together.",
    "spoiler": 0
   },
   {
@@ -66,7 +66,7 @@
     "ivar the foul lore",
     "ghoul ivar"
    ],
-   "answer": "Ivar the Foul is a dangerous Scourge ghoul lingering near Malden's Orchard. He ambushed the Deathstalker scouting party led by Quinn Yorick, slaughtering some and leaving Quinn critically injured."
+   "answer": "Ivar the Foul is a dangerous ghoul lurking at the farm where the Yoricks took shelter. He attacked Rane and Quinn Yorick as they scouted through, and though both escaped, he left Quinn badly mauled."
   },
   {
    "q": "Why is Apothecary Renferrel annoyed by the task?",
@@ -91,7 +91,7 @@
     "why can't rane get the hearts",
     "deathstalker failure"
    ],
-   "answer": "Rane Yorick cannot leave his brother's side due to the severity of Quinn's injuries and the danger of further ambushes from roaming Scourge and beasts. He relies on passing Horde travelers to harvest the organs and deliver the plea to the Sepulcher."
+   "answer": "Rane Yorick cannot leave her brother's side due to the severity of Quinn's injuries and the danger of further ambushes from roaming Scourge and beasts. He relies on passing Horde travelers to harvest the organs and deliver the plea to the Sepulcher."
   }
  ],
  "angles": [

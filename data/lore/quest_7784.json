@@ -11,7 +11,7 @@
   "level": "",
   "faction": "Horde",
   "start": "Eitrigg",
-  "end": "Overlord Natoj",
+  "end": "Overlord Runthak",
   "previous": "The Lord of Blackrock (Horde)",
   "next": null,
   "wiki": "The Lord of Blackrock (Horde 2)",
@@ -20,16 +20,16 @@
    "The Lord of Blackrock (Horde 2)"
   ]
  },
- "summary": "This quest marks the final delivery of Rend Blackhand's severed head to the leaders of Orgrimmar. Having proven the false Warchief's demise to Eitrigg, champions are directed to Overlord Natoj in the Valley of Strength to display the trophy before the entire Horde.",
+ "summary": "This quest marks the final delivery of Nefarian's severed head to the leaders of Orgrimmar. Having proven the black dragon's demise to Eitrigg, champions are directed to Overlord Runthak in the Valley of Strength to display the trophy before the entire Horde.",
  "sections": [
   {
    "title": "A Trophy for the Horde",
-   "body": "After the Dark Horde warlord Rend Blackhand is executed within the upper reaches of Blackrock Spire, his head is brought to Orgrimmar as proof of his defeat. Veteran warrior Eitrigg confirms the fall of his former ruler before sending the victor to Overlord Natoj in the Valley of Strength. There, the gruesome remains are prepared to be displayed publicly, serving as a warning to enemies and a rallying cry for the true Horde.",
+   "body": "After the black dragon Nefarian is slain atop Blackwing Lair, his head is brought to Orgrimmar as proof of his defeat. Veteran warrior Eitrigg confirms the fall of the son of Deathwing before sending the victor to Overlord Runthak in the Valley of Strength. There, the gruesome remains are prepared to be displayed publicly, serving as a warning to enemies and a rallying cry for the true Horde.",
    "spoiler": 0
   },
   {
    "title": "Claiming the Legacy",
-   "body": "Rend Blackhand claimed leadership over the true legacy of the Orcish Horde, clinging to the demonic shadow of the Blackrock clan within the burning mountain. By striking him down and hoisting his head high over the gates of Orgrimmar, Warchief Thrall's Horde dismantles the remnants of the Old Horde's corrupt leadership once and for all.",
+   "body": "Nefarian ruled the heights of Blackrock Mountain, bending the Blackrock orcs and the Dark Horde to his will. By striking him down and hoisting his head high in the Valley of Strength, Warchief Thrall's Horde deals a mighty blow against the Black Dragonflight, and Runthak calls on all of Orgrimmar to revel in the Rallying Cry of the Dragonslayer.",
    "spoiler": 1
   }
  ],
@@ -41,39 +41,39 @@
     "lord of blackrock turn in",
     "why go to natoj"
    ],
-   "answer": "It serves as the concluding turn-in for slaying Rend Blackhand. After showing proof to Eitrigg, you report to Overlord Natoj in Orgrimmar's Valley of Strength to receive honors and have the severed head put on public display."
+   "answer": "It serves as the concluding turn-in for slaying Nefarian. After showing proof to Eitrigg, you report to Overlord Runthak in Orgrimmar's Valley of Strength to receive honors and have the severed head put on public display."
   },
   {
-   "q": "Who is Overlord Natoj?",
+   "q": "Who is Overlord Runthak?",
    "aliases": [
     "who is natoj",
     "overlord natoj role"
    ],
-   "answer": "Overlord Natoj is an officer of the Horde stationed in the Valley of Strength within Orgrimmar, responsible for receiving major military trophies and granting recognition to Horde champions."
+   "answer": "Overlord Runthak is an officer of the Horde stationed in the Valley of Strength within Orgrimmar, responsible for receiving major military trophies and granting recognition to Horde champions."
   },
   {
-   "q": "Why is Rend Blackhand's head put on display?",
+   "q": "Why is Nefarian's head put on display?",
    "aliases": [
-    "why mount rends head",
-    "rend head display orgrimmar"
+    "why mount nefarians head",
+    "nefarian head display orgrimmar"
    ],
-   "answer": "Mounting the head of the false Warchief proves beyond doubt that the Dark Horde's leadership has crumbled. It strengthens the morale of Orgrimmar's defenders and demonstrates Thrall's supreme authority over the orcs."
+   "answer": "Mounting the head of the black dragon proves beyond doubt that the master of Blackrock Mountain has fallen. It strengthens the morale of Orgrimmar's defenders, and the Rallying Cry of the Dragonslayer is cast on everyone in the city."
   },
   {
-   "q": "Who was Rend Blackhand?",
+   "q": "Who was Nefarian?",
    "aliases": [
-    "who was rend",
-    "rend lore"
+    "who was nefarian",
+    "nefarian lore"
    ],
-   "answer": "Rend Blackhand was the son of the former Warchief Blackhand. He styled himself Warchief of the Dark Horde, ruling over renegade orcs, trolls, and ogres entrenched inside Upper Blackrock Spire in defiance of Thrall."
+   "answer": "Nefarian was a great black dragon and a son of Deathwing. From Blackwing Lair atop Blackrock Mountain, he commanded the Blackrock orcs and the Dark Horde and bred the chromatic dragonflight."
   },
   {
-   "q": "Where is Overlord Natoj located?",
+   "q": "Where is Overlord Runthak located?",
    "aliases": [
     "where is natoj",
     "natoj location"
    ],
-   "answer": "Natoj stands on watch in the Valley of Strength, the central entrance district of Orgrimmar."
+   "answer": "Runthak stands on watch in the Valley of Strength, the central entrance district of Orgrimmar."
   },
   {
    "q": "What role does Eitrigg play in this?",
@@ -81,26 +81,26 @@
     "why eitrigg",
     "eitrigg involvement"
    ],
-   "answer": "Eitrigg was once an honorable warrior of the Blackrock clan who abandoned Rend due to his corruption. Verifying Rend's death with Eitrigg brings closure to the veteran before the trophy is officially mounted by Natoj."
+   "answer": "Eitrigg, the Warchief's advisor and a Blackrock veteran who turned his back on the corrupted Old Horde, receives the head first. Once he confirms Nefarian's death, he sends you to Runthak to have the trophy officially mounted."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The public display of Rend Blackhand's head reinforces Thrall's new order and proves the superiority of the reformed Horde over the corrupt factions of the past."
+   "text": "The public display of Nefarian's head reinforces Thrall's new order and proves the might of the reformed Horde against the black dragon who manipulated the orcs of Blackrock Mountain."
   },
   {
    "target": "race:Orc",
-   "text": "For orcs, witnessing the defeat of the Blackhand line provides deep catharsis, cleansing the dishonorable shadow cast by the Old Horde's warmongering leadership."
+   "text": "For orcs, witnessing the fall of the dragon who held the Blackrock clan in thrall provides deep catharsis, cleansing a dishonorable shadow cast over their people."
   }
  ],
  "keywords": [
-  "blackrock spire",
+  "blackwing lair",
   "eitrigg",
-  "head of rend",
+  "head of nefarian",
   "natoj",
   "orgrimmar",
-  "rend blackhand",
+  "nefarian",
   "valley of strength"
  ],
  "related": [

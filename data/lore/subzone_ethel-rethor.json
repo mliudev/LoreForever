@@ -16,7 +16,7 @@
   },
   {
    "title": "Watchers on the Shore",
-   "body": "Despite its remote location and serpentine infestation, Ethel Rethor draws travelers interested in Kalimdor's forgotten histories and ongoing threats. An agent of the Argent Dawn, Azore Aldamor, maintains a watchful presence near the ruins, monitoring the naga menace and offering aid to intrepid adventurers willing to dive into the sunken passages. Between the aquatic dangers offshore and the barren wastes inland, the ruins serve as a lonely coastal crossroads.",
+   "body": "Despite its remote location and serpentine infestation, Ethel Rethor draws travelers interested in Kalimdor's forgotten histories and ongoing threats. An agent of the Argent Dawn, Azore Aldamort, maintains a watchful presence near the ruins, monitoring the naga menace and offering aid to intrepid adventurers willing to dive into the sunken passages. Between the aquatic dangers offshore and the barren wastes inland, the ruins serve as a lonely coastal crossroads.",
    "spoiler": 0
   }
  ],
@@ -55,7 +55,7 @@
     "azore aldamor ethel rethor",
     "argent dawn npc desolace"
    ],
-   "answer": "An Argent Dawn representative, Azore Aldamor, is stationed near the ruins. While the Dawn primarily focuses on the Scourge in the east, their operatives across Kalimdor monitor unusual magical disturbances, ancient ruins, and emerging threats like the naga."
+   "answer": "An Argent Dawn representative, Azore Aldamort, is stationed near the ruins. While the Dawn primarily focuses on the Scourge in the east, their operatives across Kalimdor monitor unusual magical disturbances, ancient ruins, and emerging threats like the naga."
   }
  ],
  "angles": [
@@ -65,7 +65,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance travelers moving through the hostile barrens of Desolace can find a rare neutral friendly face stationed near the ruins in the Argent Dawn observer Azore Aldamor."
+   "text": "Alliance travelers moving through the hostile barrens of Desolace can find a rare neutral friendly face stationed near the ruins in the Argent Dawn observer Azore Aldamort."
   }
  ],
  "keywords": [

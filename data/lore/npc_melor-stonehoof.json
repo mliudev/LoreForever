@@ -17,12 +17,12 @@
   },
   {
    "title": "Trials of the Hunt",
-   "body": "Melor challenges hunters to seek out legendary and elusive beasts that terrorize the wild. He directs trackers across the plains of the Barrens, from aiding the huntress Sergra Darkthorn at the Crossroads to pursuing Steelsnap, a cunning and vicious hyena matriarch. Through these trials, hunters prove they can outsmart and outfight the deadliest creatures of central Kalimdor.",
+   "body": "Melor challenges hunters to seek out legendary and elusive beasts that terrorize the wild. He directs trackers across the plains of the Barrens, from aiding the huntress Sergra Darkthorn at the Crossroads to pursuing Steelsnap, a cunning and vicious hyena in Thousand Needles. Through these trials, hunters prove they can outsmart and outfight the deadliest creatures of central Kalimdor.",
    "spoiler": 0
   },
   {
-   "title": "The Monsters of Thousand Needles",
-   "body": "For those whose skills exceed the Barrens, Melor points south toward the canyons and salt flats of Thousand Needles. He charges seasoned hunters with bringing down beasts of terrifying strength, including Deadmire, a massive crocolisk lurking within the riverbeds, and the savage white yeti Frostmaw wandering the southern peaks. Each hunt serves to test whether a stalker has truly mastered the Hunter's Way.",
+   "title": "The Monsters of Distant Lands",
+   "body": "For those whose skills exceed the Barrens, Melor points toward far-off lands. He charges seasoned hunters with bringing down beasts of terrifying strength, including Deadmire, an ancient crocolisk lurking in the swamps of Dustwallow Marsh, and the savage yeti Frostmaw of the Alterac Mountains. Each hunt serves to test whether a stalker has truly mastered the Hunter's Way.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "what does melor do",
     "melor stonehoof questline"
    ],
-   "answer": "Melor offers a series of hunting challenges aimed at mid-level adventurers. These include directing players to Sergra Darkthorn in the Barrens, hunting the ferocious hyena Steelsnap, and tracking down formidable beasts in Thousand Needles such as the crocolisk Deadmire and the yeti Frostmaw."
+   "answer": "Melor offers a series of hunting challenges aimed at mid-level adventurers. These include directing players to Sergra Darkthorn in the Barrens, hunting the ferocious hyena Steelsnap, and tracking down formidable beasts farther afield, such as the crocolisk Deadmire in Dustwallow Marsh and the yeti Frostmaw in the Alterac Mountains."
   },
   {
    "q": "Why does Melor send hunters after Steelsnap?",
@@ -51,7 +51,7 @@
     "why kill steelsnap",
     "steelsnap quest lore"
    ],
-   "answer": "Steelsnap is a notoriously vicious and cunning hyena stalking the southern Barrens. Melor sends capable hunters to track and slay her as a test of skill, endurance, and courage in the wild."
+   "answer": "Steelsnap is a notoriously vicious and cunning hyena stalking Thousand Needles. Melor sends capable hunters to track and slay her as a test of skill, endurance, and courage in the wild."
   },
   {
    "q": "What is Deadmire?",
@@ -60,7 +60,7 @@
     "deadmire lore",
     "deadmire beast"
    ],
-   "answer": "Deadmire is an unusually large and aggressive crocolisk that prowls the watery flats beneath the towering buttes of Thousand Needles. Melor challenges hunters to slay it as a rite of prowess."
+   "answer": "Deadmire is an unusually large and aggressive crocolisk that prowls the swamps of Dustwallow Marsh. Melor challenges hunters to slay it as a rite of prowess."
   },
   {
    "q": "Do you need to be a hunter class to take his quests?",

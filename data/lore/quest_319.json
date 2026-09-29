@@ -22,7 +22,7 @@
    "Return to Bellowfiz"
   ]
  },
- "summary": "To secure a cask of Evershine for the gnomes at Steelgrill's Depot, an adventurer must first lend a hand to Brewnall Village. Brewer Rejold Barleybrew refuses to part with his liquor until the dangerous predators roaming the nearby snowdrifts are thinned out.",
+ "summary": "To secure a cask of Evershine for Pilot Bellowfiz at Steelgrill's Depot, an adventurer must first lend a hand to Brewnall Village. Brewer Rejold Barleybrew refuses to part with his liquor until the dangerous predators roaming the nearby snowdrifts are thinned out.",
  "sections": [
   {
    "title": "A Brewer's Bargain",
@@ -52,7 +52,7 @@
     "evershine brew",
     "rejold liquor"
    ],
-   "answer": "Evershine is a potent, celebrated liquor brewed exclusively in Brewnall Village by Rejold Barleybrew. Gnomish pilots and engineers find it remarkably useful, both as a beverage and as a volatile fuel additive."
+   "answer": "Evershine is a potent, celebrated liquor brewed exclusively in Brewnall Village by Rejold Barleybrew. Siege engine pilots like Pilot Bellowfiz find it remarkably useful, both as a beverage and as a volatile fuel additive."
   },
   {
    "q": "Who originally asked for the Evershine?",
@@ -61,7 +61,7 @@
     "who wants evershine",
     "quest chain start"
    ],
-   "answer": "Pilot Bellowfiz back at Steelgrill's Depot sent you to procure it to help stock Pilot Stonegear's reconnaissance gyro-drill, the Jetsteam."
+   "answer": "Pilot Bellowfiz back at Steelgrill's Depot sent you to procure it to keep him warm on the road and to throw into the furnace of his own siege engine, Jetsteam, for a burst of power."
   },
   {
    "q": "Where can the animals be found?",
@@ -96,7 +96,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "The tinkerers at Steelgrill's Depot urgently await this cask, relying on adventurers to appease the stubborn brewer so the Jetsteam's preparations can continue."
+   "text": "The siege pilots and tinkerers at Steelgrill's Depot urgently await this cask, relying on adventurers to appease the stubborn brewer so the Jetsteam's preparations can continue."
   },
   {
    "target": "class:Hunter",

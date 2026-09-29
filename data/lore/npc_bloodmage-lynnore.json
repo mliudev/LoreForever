@@ -8,17 +8,12 @@
   "wiki": "Bloodmage Lynnore",
   "refs": 2
  },
- "summary": "Bloodmage Lynnore is a blood elf practitioner of forbidden blood magic stationed within the Dreadmaul Furnace in the Blasted Lands. She assists Horde adventurers by concocting potent alchemical draughts from local beasts and unraveling the demonic mysteries binding the shattered demon hunter Loramus Thalipedes.",
+ "summary": "Bloodmage Lynnore is a blood elf practitioner of forbidden blood magic camped with her brother Drazial near the northern entrance to the Blasted Lands. She assists adventurers by concocting potent alchemical draughts from the organs of local beasts.",
  "sections": [
   {
    "title": "Master of Blood Magic",
-   "body": "Secluded within the volcanic depths of the Dreadmaul Furnace, Bloodmage Lynnore is one of the exceptionally rare elven practitioners of blood magic found in the Eastern Kingdoms. Unperturbed by the harsh and corrupting landscape of the Blasted Lands, she studies the latent arcane and vital energies coursing through native beasts. Horde travelers who bring her the brains and gizzards of local fauna find that she can distill these gruesome reagents into specialized elixirs granting profound enhancements to intellect and spirit.",
+   "body": "Camped near the northern entrance to the Blasted Lands alongside her brother Drazial, Bloodmage Lynnore is one of the exceptionally rare elven practitioners of blood magic found in the Eastern Kingdoms. Unperturbed by the harsh and corrupting landscape of the Blasted Lands, she studies the latent arcane and vital energies coursing through native beasts. Travelers who bring her the brains and gizzards of local fauna find that she can distill these gruesome reagents into specialized elixirs granting profound enhancements to intellect and spirit.",
    "spoiler": 0
-  },
-  {
-   "title": "The Fate of Loramus",
-   "body": "Beyond her concoctions, Lynnore plays a vital role in investigating the fell powers that plague the region. Working alongside Horde emissaries, she utilizes bloodstones and dark rituals to pierce the defenses of demonic lieutenants scattered across the wastes. She remains steadfast in the belief that the uncharted limits of blood magic can mend even the most catastrophic spiritual and physical wounds, including the dire fate that has befallen the demon hunter Loramus Thalipedes.",
-   "spoiler": 1
   }
  ],
  "faq": [
@@ -29,7 +24,7 @@
     "bloodmage lynnore lore",
     "lynnore blasted lands"
    ],
-   "answer": "Bloodmage Lynnore is a blood elf blood mage located in the Dreadmaul Furnace in the Blasted Lands. She serves as a quest giver and alchemical specialist aligned with the Horde, offering powerful stat-enhancing concoctions in exchange for beast parts."
+   "answer": "Bloodmage Lynnore is a blood elf blood mage camped near the northern entrance to the Blasted Lands. She serves as a quest giver and alchemical specialist, offering powerful stat-enhancing concoctions in exchange for beast parts."
   },
   {
    "q": "Where can Bloodmage Lynnore be found?",
@@ -38,7 +33,7 @@
     "where is lynnore",
     "how to find bloodmage lynnore"
    ],
-   "answer": "She makes her camp inside the Dreadmaul Furnace, a cave network inhabited by ogres nestled in the northern mountains of the Blasted Lands."
+   "answer": "She makes her camp with her brother, Bloodmage Drazial, near the northern entrance to the Blasted Lands, where the pass from the Swamp of Sorrows opens onto the wastes."
   },
   {
    "q": "What concoctions does she brew?",
@@ -48,15 +43,6 @@
     "cerebral cortex compound"
    ],
    "answer": "Lynnore uses parts scavenged from the local wildlife\u2014such as basilisk brains, vulture gizzards, and snickerfang jowls\u2014to brew rare tonics like the Cerebral Cortex Compound and Gizzard Gum, which grant prolonged enhancements to intellect and spirit."
-  },
-  {
-   "q": "What is her connection to Loramus Thalipedes?",
-   "aliases": [
-    "lynnore loramus",
-    "loramus thalipedes bloodmage",
-    "why does lynnore care about loramus"
-   ],
-   "answer": "Lynnore works to assist the demon hunter Loramus Thalipedes in his crusade against the dreadlords of the Blasted Lands. She believes that the frontiers of blood magic hold the key to sustaining him and rectifying whatever dark misfortune has struck him."
   }
  ],
  "angles": [

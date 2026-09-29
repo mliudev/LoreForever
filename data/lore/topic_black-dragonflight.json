@@ -60,7 +60,7 @@
     "black dragon names",
     "how do black dragons get named"
    ],
-   "answer": "Members of the black flight commonly follow specific naming traditions: male names frequently end in the suffix '-ion' (such as Sabellian or Ebyssian), while female names typically end in '-ia' (such as Onyxia). Many also adopt words evoking ash, shadow, stone, or ruin."
+   "answer": "Members of the black flight commonly follow specific naming traditions: male names frequently end in the suffix '-ion' (such as Neltharion), while female names typically end in '-ia' (such as Onyxia). Many also adopt words evoking ash, shadow, stone, or ruin."
   },
   {
    "q": "Why do the other dragonflights hate them?",
@@ -84,7 +84,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Alliance must remain constantly vigilant against political subversion, as the black dragonflight has repeatedly sought to corrupt human nobility and exploit aristocratic ambitions from within Stormwind's own halls."
+   "text": "The Alliance must remain constantly vigilant against political subversion, as the black dragonflight has repeatedly sought to corrupt human nobility and exploit aristocratic ambitions in human courts."
   },
   {
    "target": "faction:Horde",

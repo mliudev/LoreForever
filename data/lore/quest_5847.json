@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Rare Greeting in Brill",
-   "body": "Newly arisen travelers making their way south from Deathknell eventually cross the mist-laden road into Brill. Among the somber alchemists and bitter magistrates, Claire Willower stands ready to greet specific heroes who carry an unusual token of patronage. Exchanging the voucher provides a harmless pet to follow along on the long journey ahead.",
+   "body": "Newly arisen travelers making their way east from Deathknell eventually cross the mist-laden road into Brill. Among the somber alchemists and bitter magistrates, Claire Willower stands ready to greet specific heroes who carry an unusual token of patronage. Exchanging the voucher provides a harmless pet to follow along on the long journey ahead.",
    "spoiler": 0
   },
   {
@@ -56,7 +56,7 @@
     "turn in location",
     "voucher drop off"
    ],
-   "answer": "The voucher is turned in directly to Claire Willower inside the town of Brill, just a short walk south from the starting crypts of Deathknell."
+   "answer": "The voucher is turned in directly to Claire Willower inside the town of Brill, just a short walk east from the starting crypts of Deathknell."
   },
   {
    "q": "Is this quest available to everyone?",

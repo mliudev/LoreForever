@@ -26,7 +26,7 @@
   },
   {
    "title": "Infiltrating Dun Garok",
-   "body": "To stage his experiment, Lydon needs an inconspicuous delivery vehicle. South of Hillsbrad, the Stormpike dwarves have fortified the stronghold of Dun Garok. Lydon directs agents of the Horde to infiltrate the underground barracks and mess halls, slipping past dwarven rifles and axes to purloin a prized keg of Shindigger Stout.",
+   "body": "To stage his experiment, Lydon needs an inconspicuous delivery vehicle. South of Hillsbrad, the Ironforge dwarves have fortified the stronghold of Dun Garok. Lydon directs agents of the Horde to infiltrate the underground barracks and mess halls, slipping past dwarven rifles and axes to purloin a prized keg of Shindigger Stout.",
    "spoiler": 0
   },
   {
@@ -61,7 +61,7 @@
     "dun garok location",
     "where do i find the keg"
    ],
-   "answer": "Dun Garok is a heavily fortified dwarven redoubt situated in southeastern Hillsbrad Foothills, manned by Stormpike mountaineers and riflemen guarding their northern interests."
+   "answer": "Dun Garok is a heavily fortified dwarven redoubt situated in southeastern Hillsbrad Foothills, manned by Ironforge mountaineers and riflemen guarding their northern interests."
   },
   {
    "q": "Who is Umpi?",
@@ -116,7 +116,6 @@
   "elixir of agony",
   "hillsbrad",
   "shindigger stout",
-  "stormpike",
   "tarren mill",
   "umpi"
  ],

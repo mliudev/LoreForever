@@ -21,16 +21,16 @@
    "Return to Jitters"
   ]
  },
- "summary": "Return to Jitters concludes Chef Grual's culinary errand in Duskwood. Having prepared his infamous 'crab' cakes using goo from the local pygmy spiders, Grual sends you back to the starving, terrified hermit in Darkshire. Delivering the meal finally satisfies Jitters' desperate hunger.",
+ "summary": "Return to Jitters concludes Chef Grual's culinary errand in Duskwood. Having prepared his infamous 'crab' cakes using the gooey legs of the local venom web spiders, Grual sends you back to the starving, terrified hermit at Raven Hill. Delivering the meal finally satisfies Jitters' desperate hunger.",
  "sections": [
   {
    "title": "A Dubious Delicacy",
-   "body": "Duskwood is short on conventional livestock and sea life, leaving Chef Grual at the Scarlet Raven Tavern to improvise with whatever the blighted forest provides. His renowned 'Dusky Crab Cakes' contain no actual crab meat at all, relying instead on gooey extracts harvested from the venomous pygmy spiders creeping through the wood. Grual considers this resourceful cooking; anyone with a delicate stomach might view it with horror.",
+   "body": "Duskwood is short on conventional livestock and sea life, leaving Chef Grual at the Scarlet Raven Tavern to improvise with whatever the blighted forest provides. His renowned 'Dusky Crab Cakes' contain no actual crab meat at all, relying instead on gooey legs harvested from the venom web spiders creeping through the wood. Grual considers this resourceful cooking; anyone with a delicate stomach might view it with horror.",
    "spoiler": 0
   },
   {
    "title": "Soothing Jitters' Nerves",
-   "body": "Jitters spends his days huddled in Darkshire, utterly consumed by fright and paralyzed by whatever horrors drove him out of the woods. Weak with terror and unable to muster the courage to hunt or forage for himself, his empty stomach only amplifies his distress. Receiving the warm cakes brings a rare moment of relief to the trembling vagrant, who is far too hungry to question what kind of 'crab' Chef Grual used.",
+   "body": "Jitters spends his days huddled at Raven Hill, utterly consumed by fright and paralyzed by whatever horrors drove him out of the woods. Weak with terror and unable to muster the courage to hunt or forage for himself, his empty stomach only amplifies his distress. Receiving the warm cakes brings a rare moment of relief to the trembling vagrant, who is far too hungry to question what kind of 'crab' Chef Grual used.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "what are dusky crab cakes made of",
     "are they real crab"
    ],
-   "answer": "There are no crabs in Duskwood. Chef Grual makes his specialty cakes using the gooey insides of local pygmy spiders, seasoning them to mimic traditional seafood cakes."
+   "answer": "There are no crabs in Duskwood. Chef Grual makes his specialty cakes using the gooey legs of local venom web spiders, seasoning them to mimic traditional seafood cakes."
   },
   {
    "q": "Does Jitters know the cakes are made of spider goo?",
@@ -58,7 +58,7 @@
     "why is jitters starving",
     "why doesn't jitters hunt"
    ],
-   "answer": "Jitters is completely overwhelmed by fear following his encounters in the wild woods of Duskwood. Paralyzed by panic, he refuses to venture far from town and relies on sympathetic travelers to bring him sustenance."
+   "answer": "Jitters is completely overwhelmed by fear following his encounters in the wild woods of Duskwood. Paralyzed by panic, he refuses to venture far from his hiding place at Raven Hill and relies on sympathetic travelers to bring him sustenance."
   },
   {
    "q": "Who is Chef Grual?",
@@ -74,7 +74,7 @@
     "how to start jitters food quest",
     "jitters quest chain start"
    ],
-   "answer": "The errand begins with Jitters in Darkshire asking for help with his rumbling stomach in 'Jitters' Growling Gut', which leads to hunting pygmy spiders for Chef Grual before returning here with the finished meal."
+   "answer": "The errand begins with Jitters at Raven Hill asking for help with his rumbling stomach in 'Jitters' Growling Gut', which leads to hunting venom web spiders for Chef Grual before returning here with the finished meal."
   },
   {
    "q": "Does Jitters recover after eating?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Chef Grual's ability to turn toxic pygmy spider goo into palatable cakes is a testament to the gritty resourcefulness demanded of cooks on the frontier."
+   "text": "Chef Grual's ability to turn gooey venom web spider legs into palatable cakes is a testament to the gritty resourcefulness demanded of cooks on the frontier."
   },
   {
    "target": "faction:Alliance",
@@ -102,7 +102,6 @@
   "dusky crab cakes",
   "growling gut",
   "jitters",
-  "pygmy spider",
   "scarlet raven tavern"
  ],
  "related": [

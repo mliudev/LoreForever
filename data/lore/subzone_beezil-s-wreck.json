@@ -16,7 +16,7 @@
   },
   {
    "title": "Salvage in the Muck",
-   "body": "Despite the harsh environment, the crash site remains a prime target for opportunistic explorers and enterprising goblins from settlements like Mudsprocket. The airship carried a payload of volatile goods, notably Seaforium boosters and heavy crates that survived the impact. Scavengers daring enough to wade through the surrounding beasts often risk life and limb to secure what is left of the lost shipment before corrosive marsh water ruins the haul entirely.",
+   "body": "Despite the harsh environment, the crash site remains a prime target for opportunistic explorers. The airship carried a payload of volatile goods, notably Seaforium boosters and heavy crates that survived the impact. Scavengers daring enough to wade through the surrounding beasts often risk life and limb to secure what is left of the lost shipment before corrosive marsh water ruins the haul entirely.",
    "spoiler": 0
   }
  ],
@@ -47,15 +47,6 @@
     "wreck cargo"
    ],
    "answer": "The zeppelin was loaded with trade goods and volatile goblin technology, including Seaforium boosters. These valuable engineering components make the site a frequent target for adventurers and salvagers."
-  },
-  {
-   "q": "Who is interested in the wreckage?",
-   "aliases": [
-    "who wants the wreck",
-    "mudsprocket zeppelin",
-    "tabetha zeppelin"
-   ],
-   "answer": "Goblins based in Mudsprocket and associates near Tabetha's Farm take an interest in recovering the lost cargo, seeking to retrieve salvage and halt corrosion before the swamp swallows it whole."
   }
  ],
  "angles": [
@@ -72,7 +63,6 @@
   "beezil",
   "beezil's wreck",
   "dustwallow marsh",
-  "mudsprocket",
   "seaforium",
   "tabetha",
   "zeppelin crash"

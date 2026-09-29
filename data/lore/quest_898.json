@@ -17,7 +17,7 @@
   "wiki": "Free From the Hold",
   "chain": []
  },
- "summary": "Free From the Hold is an escort quest in the Barrens where Horde adventurers rescue Gilthares Firebough from human captors at Northwatch Hold. Captured after his transport was intercepted and sunk, the night elf deckhand seeks a daring break out to reunite with his captain in Ratchet.",
+ "summary": "Free From the Hold is an escort quest in the Barrens where Horde adventurers rescue Gilthares Firebough from human captors at Northwatch Hold. Captured after his transport was intercepted and sunk, the elf deckhand seeks a daring break out to reunite with his captain in Ratchet.",
  "sections": [
   {
    "title": "Imprisoned at Northwatch",
@@ -38,7 +38,7 @@
     "who is gilthares firebough",
     "who is the prisoner in northwatch hold"
    ],
-   "answer": "Gilthares Firebough is a night elf deckhand sailing under Captain Thalo'thas Brightsun. He served aboard a transport moving moonshine between Ratchet and Booty Bay before Theramore troops sank his vessel and threw him in chains."
+   "answer": "Gilthares Firebough is an elf deckhand sailing under Captain Thalo'thas Brightsun. He served aboard a transport moving moonshine between Ratchet and Booty Bay before Theramore troops sank his vessel and threw him in chains."
   },
   {
    "q": "Why was Gilthares arrested by Theramore forces?",
@@ -90,10 +90,6 @@
   {
    "target": "faction:Horde",
    "text": "Striking deep into Northwatch Hold to liberate an imprisoned smuggler is another satisfying blow against Theramore's militaristic foothold on the Barrens coast."
-  },
-  {
-   "target": "race:NightElf",
-   "text": "Gilthares Firebough's imprisonment highlights that Theramore's soldiers prioritize rigid military suspicion above shared racial ties to Kalimdor's night elves."
   }
  ],
  "keywords": [

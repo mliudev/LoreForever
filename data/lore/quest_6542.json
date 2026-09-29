@@ -25,7 +25,7 @@
  "sections": [
   {
    "title": "A Call to the Northern Front",
-   "body": "In the craggy pass of Malaka'jin, the tauren Darn Talongrip keeps an eye on the Horde's southern and mountain frontiers. Yet the greatest military pressure lies northward in the ancient forests of Ashenvale, where night elf sentinels clash incessantly with Warsong lumber gatherers. Recognizing blooded fighters passing through Stonetalon, Darn directs capable recruits toward the northern Barrens watch tower to assist with ongoing campaigns.",
+   "body": "In the craggy pass of Malaka'jin, the orc Darn Talongrip keeps an eye on the Horde's southern and mountain frontiers. Yet the greatest military pressure lies northward in the ancient forests of Ashenvale, where night elf sentinels clash incessantly with Warsong lumber gatherers. Recognizing blooded fighters passing through Stonetalon, Darn directs capable recruits toward the northern Barrens watch tower to assist with ongoing campaigns.",
    "spoiler": 0
   },
   {
@@ -42,7 +42,7 @@
     "who starts report to kadrak stonetalon",
     "darn talongrip quest"
    ],
-   "answer": "Darn Talongrip, a tauren stationed at the Horde outpost of Malaka'jin in the Stonetalon Mountains, offers this dispatch to capable adventurers heading toward the forest border."
+   "answer": "Darn Talongrip, an orc stationed at the Horde outpost of Malaka'jin in the Stonetalon Mountains, offers this dispatch to capable adventurers heading toward the forest border."
   },
   {
    "q": "Where is Kadrak located?",
@@ -101,7 +101,7 @@
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren lookouts like Darn Talongrip guide travelers safely across the mountain borders, keeping the lines of communication open between bloodhoof lands and the Warchief's northern front."
+   "text": "Horde lookouts like the orc Darn Talongrip guide travelers safely across the mountain borders, keeping the lines of communication open between bloodhoof lands and the Warchief's northern front."
   }
  ],
  "keywords": [

@@ -90,22 +90,12 @@
    "answer": "After poisoning Lord Wishock, you return to Zardeth beneath the Slaughtered Lamb to turn in the deed, leading directly into the quest 'You Have Served Us Well.'"
   }
  ],
- "angles": [
-  {
-   "target": "class:Warlock",
-   "text": "This assassination highlights the cold pragmatism of the Stormwind warlock coven: when a petty noble threatens to draw official scrutiny to your hidden sanctum beneath the Slaughtered Lamb, a poisoned brew settles the problem quietly."
-  },
-  {
-   "target": "faction:Alliance",
-   "text": "The quiet assassination of Lord Wishock right under the nose of Highlord Bolvar Fordragon's guards illustrates just how fractured and vulnerable Stormwind's political core truly is."
-  }
- ],
+ "angles": [],
  "keywords": [
   "baurles wishock",
   "black claw stout",
   "hall of petitioners",
   "noble brew",
-  "poison",
   "slaughtered lamb",
   "stormwind keep",
   "zardeth"

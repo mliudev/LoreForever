@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Darkspear Hold"
  },
- "summary": "Darkspear Hold is the central settlement and redoubt of the Darkspear tribe on Darkspear Isle off the southern coast of Durotar. Under the leadership of Vol'jin, it serves as the spiritual and martial heart for the exiled trolls who have pledged their allegiance to the Horde.",
+ "summary": "Darkspear Hold is the central settlement and redoubt of the Darkspear tribe on Darkspear Isle off the southern coast of Durotar. Today it lies in the grip of the mad witch doctor Zalazane, while Vol'jin and the free Darkspear wait across the water on the mainland.",
  "sections": [
   {
    "title": "Heart of the Darkspear",
-   "body": "Perched on the Echo Isles just south of Durotar's mainland, Darkspear Hold represents the hard-won sanctuary of the Darkspear trolls. Having fled their ancestral homeland in the Darkspear Islands under the guidance of the late Sen'jin, the tribe arrived in Kalimdor alongside Thrall's Horde. From this stronghold, Chieftain Vol'jin and the tribal elders oversee their people's daily survival, spiritual traditions, and efforts to defend their new coastal refuge against lingering threats.",
+   "body": "Perched on the Echo Isles just south of Durotar's mainland, Darkspear Hold represents the hard-won sanctuary of the Darkspear trolls. Having fled their ancestral homeland in the Darkspear Islands under the guidance of the late Sen'jin, the tribe arrived in Kalimdor alongside Thrall's Horde. That refuge was lost when the witch doctor Zalazane enslaved many of the tribe with dark voodoo, forcing Chieftain Vol'jin and the free Darkspear to withdraw to Sen'jin Village on the mainland.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "darkspear hold leader",
     "voljin location"
    ],
-   "answer": "Chieftain Vol'jin, son of Sen'jin and leader of the Darkspear trolls, governs the hold alongside the tribal council and spiritual elders."
+   "answer": "For now, the mad witch doctor Zalazane holds the Echo Isles with his hexed thralls. The tribe's rightful leader, Chieftain Vol'jin, son of Sen'jin, has led the free Darkspear to Sen'jin Village on the mainland."
   },
   {
    "q": "Why did the Darkspear settle here?",
@@ -47,7 +47,7 @@
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls, the Hold is the center of tribal sovereignty, where Vol'jin works to guide and protect his exiled people in their new Kalimdor home."
+   "text": "For Darkspear trolls, the Hold is the lost center of tribal sovereignty, which Vol'jin hopes to wrest back from Zalazane for his exiled people."
   },
   {
    "target": "faction:Horde",

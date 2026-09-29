@@ -24,11 +24,11 @@
    "Reassignment"
   ]
  },
- "summary": "Farren's Proof is an Alliance assignment in Southshore given by Lieutenant Farren Orinelle. Tasked with proving his coastal patrol efforts to his superior, Magistrate Henry Maleb and Captain Redpath, Farren sends recruits out to harvest severed murloc heads along the Western Strand.",
+ "summary": "Farren's Proof is an Alliance assignment in Southshore given by Lieutenant Farren Orinelle. Tasked with proving his coastal patrol efforts to his superior, Marshal Redpath, Farren sends recruits out to harvest severed murloc heads along the Western Strand.",
  "sections": [
   {
    "title": "A Grudging Request",
-   "body": "Following initial sweeps along the coastline in Down the Coast, Lieutenant Farren Orinelle finds himself under scrutiny by Captain Redpath and town leadership. Claiming credit for clearing out the local murlocs is one thing; presenting undeniable evidence to skeptical superiors is quite another. Unwilling to soil his own hands with gruesome butchery, Farren tasks wandering Alliance adventurers with returning to the shoreline to collect tangible proof of the kill.",
+   "body": "Following initial sweeps along the coastline in Down the Coast, Lieutenant Farren Orinelle finds himself under scrutiny by Marshal Redpath and town leadership. Claiming credit for clearing out the local murlocs is one thing; presenting undeniable evidence to skeptical superiors is quite another. Unwilling to soil his own hands with gruesome butchery, Farren tasks wandering Alliance adventurers with returning to the shoreline to collect tangible proof of the kill.",
    "spoiler": 0
   },
   {
@@ -54,7 +54,7 @@
     "farren proof reason",
     "why collect heads"
    ],
-   "answer": "Captain Redpath and town officials were not satisfied by simple verbal reports that the Western Strand had been cleared. They demanded physical evidence of dead murlocs before officially acknowledging the patrol's success."
+   "answer": "Marshal Redpath and town officials were not satisfied by simple verbal reports that the Western Strand had been cleared. They demanded physical evidence of dead murlocs before officially acknowledging the patrol's success."
   },
   {
    "q": "Where are these murlocs located?",
@@ -72,7 +72,7 @@
     "farren quest chain",
     "farren's proof followup"
    ],
-   "answer": "Farren's administrative troubles continue. Satisfying Captain Redpath turns out to be only the first bureaucratic hurdle, leading to further requests for proof and eventually orders tied to Stormwind command."
+   "answer": "Farren's administrative troubles continue. Satisfying Marshal Redpath turns out to be only the first bureaucratic hurdle, leading to further requests for proof and eventually orders tied to Stormwind command."
   },
   {
    "q": "Why is Farren disgusted by the murlocs?",
@@ -83,12 +83,12 @@
    "answer": "Farren finds walking, bipedal fish inherently repulsive. Handling their cold, slimy remains has completely turned his stomach against eating fish, making daily life in Southshore's fishing community miserable for him."
   },
   {
-   "q": "Who is Captain Redpath?",
+   "q": "Who is Marshal Redpath?",
    "aliases": [
     "captain redpath",
     "who is redpath"
    ],
-   "answer": "Captain Redpath is a commanding military officer within the Southshore town defense forces, responsible for holding junior officers like Farren Orinelle accountable for regional security."
+   "answer": "Marshal Redpath is a commanding military officer within the Southshore town defense forces, responsible for holding junior officers like Farren Orinelle accountable for regional security."
   }
  ],
  "angles": [

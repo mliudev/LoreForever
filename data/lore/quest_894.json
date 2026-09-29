@@ -17,7 +17,7 @@
   "wiki": "Samophlange (Classic)",
   "chain": []
  },
- "summary": "Commissioned by the goblin engineer Sputtervalve in the northern Barrens, this task sends adventurers into a Venture Company research outpost southwest of the Sludge Fen. Their goal is to locate a mysterious contraption known only as a samophlange. Equipped with a pilfered operating manual, the curious investigator must navigate an erratic control console to extract the device.",
+ "summary": "Commissioned by the goblin engineer Sputtervalve in Ratchet, this task sends adventurers north into a Venture Company research outpost southwest of the Sludge Fen. Their goal is to locate a mysterious contraption known only as a samophlange. Equipped with a pilfered operating manual, the curious investigator must navigate an erratic control console to extract the device.",
  "sections": [
   {
    "title": "A Peculiar Contraption",
@@ -47,7 +47,7 @@
     "sputtervalve location",
     "quest giver"
    ],
-   "answer": "Sputtervalve is a goblin engineer and tinker stationed in the northern Barrens. Intrigued by Venture Company trade secrets, he hires adventurers to disrupt their works and seize their technological advances."
+   "answer": "Sputtervalve is a goblin engineer and tinker stationed in Ratchet. Intrigued by Venture Company trade secrets, he hires adventurers to disrupt their works and seize their technological advances."
   },
   {
    "q": "Where is the control console located?",

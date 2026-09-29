@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Hallow's End Tradition",
-   "body": "During Hallow's End, spirits run high across Azeroth as folk celebrate the break between harvest and winter with costumed revelry and seasonal treats. While seasoned heroes might normally feel too old to go door-to-door begging for candy, the plight of sick or orphaned children offers an honorable excuse. In Ironforge, young Jesper longs for holiday sweets, prompting visiting Alliance champions to gather iconic regional confections from innkeepers across the Alliance capitals.",
+   "body": "During Hallow's End, spirits run high across Azeroth as folk celebrate the break between harvest and winter with costumed revelry and seasonal treats. While seasoned heroes might normally feel too old to go door-to-door begging for candy, the plight of sick or orphaned children offers an honorable excuse. Outside Stormwind, young Jesper longs for holiday sweets, prompting visiting Alliance champions to gather iconic regional confections from innkeepers across the Alliance capitals.",
    "spoiler": 0
   },
   {
@@ -56,7 +56,7 @@
     "jesper candy questline",
     "quest order"
    ],
-   "answer": "This quest is one of four regional tasks tied to the overarching seasonal mission 'Hallow's End Treats for Jesper!' alongside requests in Stormwind, Darnassus, and the Exodar. Each innkeeper demands a specific humiliating or theatrical emote before surrendering their city's signature candy."
+   "answer": "This quest is one of four regional tasks tied to the overarching seasonal mission 'Hallow's End Treats for Jesper!' alongside requests from the innkeepers of Stormwind and Darnassus and from Talvash del Kissel in Ironforge. Each of them demands a specific humiliating or theatrical emote before surrendering their city's signature candy."
   },
   {
    "q": "Where can I find Innkeeper Firebrew?",

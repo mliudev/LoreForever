@@ -17,11 +17,11 @@
   "wiki": "Blisters on The Land",
   "chain": []
  },
- "summary": "Blisters on The Land is an Alliance quest offered by Rethiel the Greenwarden along the eastern ridges of the Wetlands. Sensing an unnatural sickness stirring the swamp, the lone night elf warden tasks travelers with culling the diseased Fen Creepers that stalk the waterways. Putting these shambling plant horrors to rest is Rethiel's attempt to break the swamp's rising fever.",
+ "summary": "Blisters on The Land is an Alliance quest offered by Rethiel the Greenwarden along the eastern ridges of the Wetlands. Sensing an unnatural sickness stirring the swamp, the lone bog beast warden tasks travelers with culling the diseased Fen Creepers that stalk the waterways. Putting these shambling plant horrors to rest is Rethiel's attempt to break the swamp's rising fever.",
  "sections": [
   {
    "title": "A Festering Marshes",
-   "body": "Far from the ancient forests of Kalimdor, Rethiel the Greenwarden watches over the soggy expanse of the Wetlands. The marshes have never been gentle, but recently an unnatural sickness has begun to spread through the mire. Rethiel perceives this affliction as a growing fever in the earth itself, one that causes wild nature to warp into mindless, shambling monstrosities.",
+   "body": "From his grove amid the marshes, Rethiel the Greenwarden watches over the soggy expanse of the Wetlands. The marshes have never been gentle, but recently an unnatural sickness has begun to spread through the mire. Rethiel perceives this affliction as a growing fever in the earth itself, one that causes wild nature to warp into mindless, shambling monstrosities.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "rethiel greenwarden lore",
     "who gives blisters on the land"
    ],
-   "answer": "Rethiel the Greenwarden is a night elf hermit residing at the Greenwarden's Grove in the eastern Wetlands. He dedicates himself to tending the natural balance of the marshlands, seeking to soothe the land's afflictions and curb corrupted elemental growths."
+   "answer": "Rethiel the Greenwarden is a bog beast residing at the Greenwarden's Grove in the eastern Wetlands. He dedicates himself to tending the natural balance of the marshlands, seeking to soothe the land's afflictions and curb corrupted elemental growths."
   },
   {
    "q": "What are Fen Creepers?",
@@ -79,7 +79,7 @@
     "greenwarden questline",
     "rethiel quests"
    ],
-   "answer": "Yes. Blisters on The Land follows Rethiel's concerns regarding the Dragonmaw orcs and fire magic in Fire Taboo, serving as part of his ongoing efforts to protect the balance of the marsh."
+   "answer": "Yes. Blisters on The Land follows Rethiel's concerns regarding the Mosshide gnolls burning the Wetlands' trees in Fire Taboo, serving as part of his ongoing efforts to protect the balance of the marsh."
   }
  ],
  "angles": [
@@ -89,7 +89,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "Finding a solitary night elf warden in the Eastern Kingdoms underscores how far the children of Teldrassil are willing to travel to nurture wounded land."
+   "text": "Finding a solitary bog beast warden allied with Stormwind in the Eastern Kingdoms shows that even the land's own spirits will seek help to nurture wounded land."
   },
   {
    "target": "class:Shaman",

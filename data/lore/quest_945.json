@@ -17,16 +17,16 @@
   "wiki": "Therylune's Escape",
   "chain": []
  },
- "summary": "Deep in southwestern Ashenvale, a young night elf named Therylune has wandered into the ominous dig sites of the Master's Glaive and found herself cornered by hostile cultists. An Alliance escort is needed to guide her to safety and deliver word of her survival to her worried sister, Therysil, resting at the Shrine of Aessina.",
+ "summary": "In southern Darkshore, a young night elf named Therylune has wandered into the ominous dig sites of the Master's Glaive and found herself cornered by hostile cultists. An Alliance escort is needed to guide her to safety and deliver word of her survival to her worried sister, Therysil, resting at the Shrine of Aessina.",
  "sections": [
   {
    "title": "A Perilous Stroll",
-   "body": "The Master's Glaive is one of the most unsettling landmarks in Ashenvale, dominated by the titanic skull of an ancient monstrosity impaled by an immense stone blade. Despite the dread that lingers over the valley, Therylune wandered right into the heart of the ravine. She soon found herself pinned down by cultists of the Twilight's Hammer, surviving only thanks to quick reflexes and an aptitude for hiding in the rough terrain.",
+   "body": "The Master's Glaive is one of the most unsettling landmarks in Darkshore, dominated by the titanic skull of an ancient monstrosity impaled by an immense stone blade. Despite the dread that lingers over the valley, Therylune wandered right into the heart of the ravine. She soon found herself pinned down by cultists of the Twilight's Hammer, surviving only thanks to quick reflexes and an aptitude for hiding in the rough terrain.",
    "spoiler": 0
   },
   {
    "title": "Word to the Shrine",
-   "body": "Therylune's sister, Therysil, resides far to the south at the peaceful Shrine of Aessina. While Therylune is known to be adventurous and unbothered by getting dirt on her clothes, venturing into the unwholesome excavations of the Master's Glaive shocked even her kin. Bringing word of Therylune's safety relieves a deeply troubled sister, who knows all too well the dark forces currently digging through Ashenvale's ancient earth.",
+   "body": "Therylune's sister, Therysil, resides far to the south at the peaceful Shrine of Aessina. While Therylune is known to be adventurous and unbothered by getting dirt on her clothes, venturing into the unwholesome excavations of the Master's Glaive shocked even her kin. Bringing word of Therylune's safety relieves a deeply troubled sister, who knows all too well the dark forces currently digging through Darkshore's ancient earth.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is the girl",
     "trapped elf"
    ],
-   "answer": "Therylune is an adventurous young night elf who strayed into the dangerous excavations at the Master's Glaive in southwestern Ashenvale. She is the sister of Therysil."
+   "answer": "Therylune is an adventurous young night elf who strayed into the dangerous excavations at the Master's Glaive in southern Darkshore. She is the sister of Therysil."
   },
   {
    "q": "Who is Therysil?",
@@ -70,7 +70,7 @@
     "shrine of aessina location",
     "where is therysil"
    ],
-   "answer": "The Shrine of Aessina lies along the central forest paths in southern Ashenvale, southeast of Astranaar, serving as a sanctuary dedicated to the forest spirit Aessina."
+   "answer": "The Shrine of Aessina lies in southwestern Ashenvale, west of Astranaar, serving as a sanctuary dedicated to the forest spirit Aessina."
   },
   {
    "q": "How did Therylune survive surrounded by cultists?",

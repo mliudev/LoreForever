@@ -12,12 +12,12 @@
   {
    "title": "The Underground Sawmill",
    "body": "Past the deeper mine tunnels of the Deadmines lies the Mast Room, a massive cavern converted into a fully functional lumber mill. Piles of felled timber, sawdust, and massive cutting equipment dominate the space. It is here that goblin woodcarvers shape the immense masts, ribs, and planks needed to assemble the massive warship hidden further within the Ironclad Cove. Under the watchful eye of Sneed, the Defias Brotherhood transforms Westfall's harvested wood into instruments of war.",
-   "spoiler": 0
+   "spoiler": 1
   },
   {
    "title": "Industrial Labor",
    "body": "The chamber is an example of goblin industry at its most relentless. Sneed oversees operations from atop a mechanical shredder, ensuring the woodcarvers maintain grueling quotas. Massive logs are hoisted and planed in constant succession, turning what was once a dormant gold mine into a roaring, soot-choked naval shipyard.",
-   "spoiler": 0
+   "spoiler": 1
   }
  ],
  "faq": [
@@ -61,7 +61,6 @@
  "keywords": [
   "deadmines",
   "goblin woodcarver",
-  "juggernaut",
   "lumber mill",
   "mast room",
   "shredder",

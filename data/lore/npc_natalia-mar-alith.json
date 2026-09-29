@@ -17,7 +17,7 @@
   },
   {
    "title": "The Crystal of Hive'Regal",
-   "body": "The expedition tracked strange emanations into the southern reaches of Hive'Regal. Deep in the hive's heart, they uncovered a colossal crystal etched with ancient Qiraji glyphs. Drawn by its whispering resonance, Natalia leaned in to study the markings closely. The dark magic within overwhelmed her mind in moments, fracturing her sanity and binding her will to C'Thun. Her dwarven companions were forced to flee, leaving the priestess behind as a zealous guardian of the hive's dread master.",
+   "body": "The expedition tracked strange emanations into the southern reaches of Hive'Regal. Deep in the hive's heart, they uncovered a colossal crystal etched with ancient Qiraji glyphs. Drawn by its whispering resonance, Natalia leaned in to study the markings closely. The dark magic within overwhelmed her mind in moments, fracturing her sanity and binding her will to C'Thun. Her dwarven companions carried her out to Cenarion Hold, where the druids woke her, but weeks later she stormed back into their camp, possessed and demanding a return to the hive, and had to be fought off. She is now a zealous guardian of the hive's dread master.",
    "spoiler": 1
   },
   {
@@ -55,15 +55,6 @@
    "answer": "While examining a Qiraji crystal, Natalia was utterly corrupted and mentally broken by the whisperings of the Old God C'Thun. She now fanatically defends the crystal from anyone who enters the hive."
   },
   {
-   "q": "Can Natalia Mar'alith be cured or saved?",
-   "aliases": [
-    "save natalia",
-    "cure natalia maralith",
-    "can you help natalia"
-   ],
-   "answer": "Tragically, no. Although her husband Commander Mar'alith desperately searches for a way to recover her, her mind and devotion have been permanently claimed by the Old God. Adventurers sent into the hive must put her out of her misery."
-  },
-  {
    "q": "Who was with Natalia when she went missing?",
    "aliases": [
     "natalia expedition",
@@ -88,17 +79,12 @@
    "text": "Natalia's tragic fall is a somber reminder to the kaldorei that even their most dedicated priestesses are vulnerable to the ancient horrors buried beneath the sands of Silithus."
   },
   {
-   "target": "class:Priest",
-   "text": "Seeing a sister of the cloth twisted into a thrall of an Old God, wielding holy and psychic magic in service to madness, is a grim warning of the mental perils of Silithus."
-  },
-  {
    "target": "faction:Alliance",
    "text": "Rutgar Glyphshaper and Frankal Stonebridge at the Bronzebeard Encampment share the grim details of her fall with Alliance explorers retracing Brann's expedition."
   }
  ],
  "keywords": [
   "brann bronzebeard",
-  "c'thun",
   "cenarion hold",
   "hive'regal",
   "into the maw of madness",

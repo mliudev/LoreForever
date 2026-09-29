@@ -56,13 +56,13 @@
     "onyxia attunement haleh",
     "drakefire amulet haleh"
    ],
-   "answer": "Heroes working to uncover Lady Katrana Prestor's true identity are sent by Marshal Windsor to consult Haleh. Possessing profound knowledge of the black dragonflight's wards, she assists Alliance champions in empowering the medallion needed to pass the threshold into Onyxia's Lair."
+   "answer": "Alliance heroes seeking to enter Onyxia's Lair are eventually sent to consult Haleh. Possessing profound knowledge of the black dragonflight's wards, she assists Alliance champions in empowering the medallion needed to pass the threshold into Onyxia's Lair."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Alliance heroes unmasking the treachery of Onyxia must seek out the matriarch Haleh in Mazthoril to complete their key to the black broodmother's lair."
+   "text": "Alliance heroes must seek out the matriarch Haleh in Mazthoril to complete their key to the black broodmother's lair."
   },
   {
    "target": "class:Mage",

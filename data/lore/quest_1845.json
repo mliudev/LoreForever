@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Warrior's Rite",
-   "body": "Orm Stonehoof serves as a stern mentor on Hunter Rise in Thunder Bluff, guiding Horde warriors through grueling rites of passage. These trials demand proof of martial capability, pushing initiates into treacherous territory to hunt ferocious creatures and claim rare trophies. Only those who have met Orm's exacting standards are granted audience for the completion of their armor.",
+   "body": "Orm Stonehoof serves as a stern smith in Thunder Bluff, guiding Horde warriors through grueling rites of passage. These trials demand proof of martial capability, pushing initiates into treacherous territory to hunt ferocious creatures and claim rare trophies. Only those who have met Orm's exacting standards are granted audience for the completion of their armor.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "brutal helm npc",
     "orm stonehoof quest"
    ],
-   "answer": "Orm Stonehoof, a venerable warrior trainer stationed on Hunter Rise in Thunder Bluff, presents the Brutal Helm to Horde warriors who complete his trials."
+   "answer": "Orm Stonehoof, a venerable tauren blacksmith in Thunder Bluff, presents the Brutal Helm to Horde warriors who complete his trials."
   },
   {
    "q": "What task must be finished before receiving the helm?",
@@ -54,7 +54,7 @@
     "orm stonehoof location",
     "where is orm stonehoof"
    ],
-   "answer": "Orm Stonehoof is located on Hunter Rise within the high mesa city of Thunder Bluff, surrounded by the tents and weapon racks of the Horde's warrior trainers."
+   "answer": "Orm Stonehoof is located near the pool by the great central totem in the high mesa city of Thunder Bluff."
   },
   {
    "q": "Why does Orm Stonehoof invoke the Earthmother?",
@@ -88,7 +88,7 @@
   },
   {
    "target": "race:Tauren",
-   "text": "Bestowed on Hunter Rise, the helm reflects the tauren tradition of crafting hunting trophies into protective wargear under the grace of the Earthmother."
+   "text": "Bestowed in Thunder Bluff, the helm reflects the tauren tradition of crafting hunting trophies into protective wargear under the grace of the Earthmother."
   },
   {
    "target": "faction:Horde",

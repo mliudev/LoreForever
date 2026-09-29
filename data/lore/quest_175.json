@@ -26,7 +26,7 @@
  "sections": [
   {
    "title": "A Reflective Surface",
-   "body": "Having secured optical glass for his telescope, Viktori Prism'Antras turns to the next requirement outlined in Cog's blueprints: a reliable mirror to direct and reflect light through the device. Rather than forging fine silvered glass from scratch amidst the shortages plaguing Darkshire, Viktori recalls Mary, a local resident known across the region for always carrying a looking glass.",
+   "body": "Having secured a bronze tube for his telescope, Viktori Prism'Antras turns to the next requirement outlined in Cog's blueprints: a reliable mirror to direct and reflect light through the device. Rather than forging fine silvered glass from scratch amidst the shortages plaguing Darkshire, Viktori recalls Mary, a local resident known across the region for always carrying a looking glass.",
    "spoiler": 0
   },
   {
@@ -73,7 +73,7 @@
     "who is blind mary",
     "blind mary backstory"
    ],
-   "answer": "Mary was a resident of southern Duskwood before the land fell into cursed darkness. Now known as Blind Mary, she lingers as a ghost outside her dwelling near Tranquil Gardens Cemetery."
+   "answer": "Mary was a resident of southern Duskwood before the land fell into cursed darkness, well known around Darkshire for always carrying a looking glass. What became of her is something you must discover at her old home near Tranquil Gardens Cemetery."
   },
   {
    "q": "Does Mary still have her looking glass?",
@@ -81,7 +81,7 @@
     "does mary have mirror",
     "blind mary looking glass"
    ],
-   "answer": "When approached, Mary acknowledges that she once owned a looking glass, though obtaining it requires helping her navigate the lingering sorrows of her spectral existence."
+   "answer": "When approached, Mary acknowledges that she once owned a looking glass, though she no longer has it and can only point you toward where it went."
   },
   {
    "q": "What dangers surround Mary's cottage?",

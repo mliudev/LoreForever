@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "Heart of the Abbey",
-   "body": "Stepping through the grand archways of Northshire Abbey brings visitors directly into the Main Hall. As the building's central hub, it channels arriving trainees and clerical staff between the abbey's distinct wings: the martial Hall of Arms on one side, the scholastic Library Wing on the other, and the stairs rising into the abbey tower. The quiet sanctuary of the hall is tempered by the ongoing strife in the valley, with wounded recruits recuperating along the adjoining corridors while officers rally able-bodied newcomers to defend the kingdom's borders.",
+   "body": "Stepping through the grand archways of Northshire Abbey brings visitors directly into the Main Hall. As the building's central hub, it channels arriving trainees and clerical staff between the abbey's distinct wings: the martial Hall of Arms on one side, the scholastic Library Wing on the other, and the stairs rising into the abbey tower. The quiet sanctuary of the hall is tempered by the ongoing strife in the valley, as officers rally able-bodied newcomers to defend the kingdom's borders.",
    "spoiler": 0
   }
  ],
@@ -23,14 +23,6 @@
     "northshire main hall use"
    ],
    "answer": "The Main Hall serves as the central reception chamber and crossroads of Northshire Abbey. It directs recruits, priests, and visitors into the Hall of Arms, the Library Wing, and the abbey's upper tower."
-  },
-  {
-   "q": "Why are there wounded trainees resting in and around the hall?",
-   "aliases": [
-    "why wounded trainees",
-    "injured recruits northshire"
-   ],
-   "answer": "Northshire Valley has recently faced increasing incursions from Blackrock orcs, Defias bandits, and local vermin. Inexperienced recruits sent out to secure the surrounding vineyards and fields have taken casualties, forcing the abbey's caretakers to treat wounded trainees in the side chambers."
   },
   {
    "q": "Who directs new recruits here?",
@@ -54,8 +46,7 @@
   "library wing",
   "main hall",
   "northshire",
-  "stormwind",
-  "wounded trainees"
+  "stormwind"
  ],
  "related": [
   "subzone:northshire-abbey",

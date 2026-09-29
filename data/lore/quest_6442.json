@@ -17,7 +17,7 @@
   "wiki": "Naga at the Zoram Strand",
   "chain": []
  },
- "summary": "Naga at the Zoram Strand is a Horde quest tasking adventurers with culling the aggressive serpentine invaders along northwestern Ashenvale's coastline. Stationed at Zoram'gar Outpost, the orc warrior Marukai seeks to secure the contested coast by driving the Wrathtail naga away from the sunken ruins of ancient Zoram.",
+ "summary": "Naga at the Zoram Strand is a Horde quest tasking adventurers with culling the aggressive serpentine invaders along northwestern Ashenvale's coastline. Stationed at Zoram'gar Outpost, the troll Marukai seeks to secure the contested coast by driving the Wrathtail naga away from the sunken ruins of ancient Zoram.",
  "sections": [
   {
    "title": "A Precarious Foothold",
@@ -31,7 +31,7 @@
   },
   {
    "title": "The Price of Survival",
-   "body": "Marukai views the situation through the lens of straightforward survival: reason does not matter when swords and tridents are drawn. By demanding twenty severed heads from the Wrathtail invaders, he aims to throw the serpentine monsters back into the depths through sheer force, securing the shoreline for the Horde.",
+   "body": "Marukai views the situation through the lens of straightforward survival: reason does not matter when swords and tridents are drawn. By demanding twenty severed heads from the Wrathtail invaders, she aims to throw the serpentine monsters back into the depths through sheer force, securing the shoreline for the Horde.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who starts this",
     "marukai location"
    ],
-   "answer": "The quest is offered by Marukai, an orc warrior stationed at the Horde outpost of Zoram'gar along the Zoram Strand in northwestern Ashenvale."
+   "answer": "The quest is offered by Marukai, a Darkspear troll stationed at the Horde outpost of Zoram'gar along the Zoram Strand in northwestern Ashenvale."
   },
   {
    "q": "What is the history behind the Zoram Strand?",

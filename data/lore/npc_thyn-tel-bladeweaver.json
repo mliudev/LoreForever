@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Sentinel's Inquest",
-   "body": "Standing watch over Darnassus from the Warrior's Terrace, Thyn'tel Bladeweaver represents the vigilant military arm of the kaldorei. When Priestess Velinde Starsong mysteriously vanished without leaving word, Thyn'tel refused to let the trail go cold. Sensing that grave forces were involved, she takes it upon herself to commission adventurers willing to dig into the Sentinel's personal belongings and uncover where her journey led.",
+   "body": "Standing watch over Darnassus from the Warrior's Terrace, Thyn'tel Bladeweaver represents the vigilant military arm of the kaldorei. When Priestess Velinde Starsong mysteriously vanished without leaving word, Thyn'tel refused to let the trail go cold. Sensing that grave forces were involved, she takes it upon herself to commission adventurers willing to dig into the priestess's personal belongings and uncover where her journey led.",
    "spoiler": 0
   },
   {
@@ -54,7 +54,7 @@
     "why investigate velinde",
     "what happened to velinde"
    ],
-   "answer": "Velinde Starsong was a respected Sentinel priestess who disappeared abruptly after wielding the Scythe of Elune in Ashenvale. Thyn'tel seeks to discover her fate and uncover the dark mystery surrounding her departure."
+   "answer": "Velinde Starsong was a priestess who served in Ashenvale until she disappeared abruptly, leaving her work unfinished. Thyn'tel seeks to discover her fate and uncover the dark mystery surrounding her departure."
   },
   {
    "q": "Where does her quest chain lead?",

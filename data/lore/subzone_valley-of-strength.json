@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "The Gates of the City",
-   "body": "Step past the fortified timber gates of Orgrimmar and you enter the Valley of Strength. Carved deep into the red canyon rock of Durotar, this valley serves as the Horde's front square. Adventurers, merchants, and warriors from all allied nations mingle across its dusty plazas, swapping war stories over flagons from the Broken Tusk inn or attending to vital trade at the central bank and auction house. Overlooked by the great fortress of Grommash Hold, it is a bustling testament to the strength and unity the orcs fought to establish in their new homeland.",
+   "body": "Step past the fortified timber gates of Orgrimmar and you enter the Valley of Strength. Carved deep into the red canyon rock of Durotar, this valley serves as the Horde's front square. Adventurers, merchants, and warriors from all allied nations mingle across its dusty plazas, swapping war stories over flagons from the Broken Tusk inn or attending to vital trade at the central bank and auction house. It is a bustling testament to the strength and unity the orcs fought to establish in their new homeland.",
    "spoiler": 0
   },
   {
@@ -37,7 +37,7 @@
     "grommash hold location",
     "warchief seat"
    ],
-   "answer": "Grommash Hold sits perched directly at the rear of the Valley of Strength, serving as the seat of Warchief Thrall and the Horde's high command."
+   "answer": "Grommash Hold is not in the Valley of Strength; it stands to the north in the Valley of Wisdom, serving as the seat of Warchief Thrall and the Horde's high command."
   },
   {
    "q": "What services can I find here?",

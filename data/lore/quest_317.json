@@ -22,7 +22,7 @@
    "Return to Bellowfiz"
   ]
  },
- "summary": "Stocking Jetsteam is an Alliance quest offered by Pilot Bellowfiz at Steelgrill's Depot in Dun Morogh. Preparing his siege engine for an extended deployment with the Gnomeregan Siege Brigade, the pilot enlists local hunters to gather boar meat and bear pelts to provision his crew.",
+ "summary": "Stocking Jetsteam is an Alliance quest offered by Pilot Bellowfiz at Steelgrill's Depot in Dun Morogh. Preparing his siege engine for an extended deployment with the Ironforge Siege Brigade, the pilot enlists local hunters to gather boar meat and bear pelts to provision his crew.",
  "sections": [
   {
    "title": "Provisioning the Engine",
@@ -44,7 +44,7 @@
     "what is jetstream",
     "bellowfiz tank"
    ],
-   "answer": "Jetsteam is the siege tank operated by the gnome Pilot Bellowfiz. Stationed at Steelgrill's Depot, it is being tuned and provisioned for an extended military deployment on behalf of the Gnomeregan Siege Brigade."
+   "answer": "Jetsteam is the siege tank operated by the dwarf Pilot Bellowfiz. Stationed at Steelgrill's Depot, it is being tuned and provisioned for an extended military deployment on behalf of the Ironforge Siege Brigade."
   },
   {
    "q": "Who is Pilot Bellowfiz?",
@@ -53,7 +53,7 @@
     "bellowfiz",
     "who is pilot bellowfiz"
    ],
-   "answer": "Pilot Bellowfiz is a gnomish tank operator aligned with the Gnomeregan Exiles. While his vehicle undergoes mechanical adjustments at Steelgrill's Depot, he coordinates field supplies for his upcoming mission."
+   "answer": "Pilot Bellowfiz, nicknamed Fizzer, is a dwarven siege engine pilot of the Ironforge Siege Brigade. While his vehicle undergoes mechanical adjustments at Steelgrill's Depot, he coordinates field supplies for his upcoming mission."
   },
   {
    "q": "Where can the required supplies be gathered?",
@@ -68,10 +68,9 @@
   {
    "q": "What is the Siege Brigade?",
    "aliases": [
-    "siege brigade",
-    "gnomeregan siege brigade"
+    "siege brigade"
    ],
-   "answer": "The Siege Brigade is the mechanized armor corps of the gnomish military, operating heavily fortified siege engines and tanks in support of gnomish defense and Alliance campaigns."
+   "answer": "The Siege Brigade is Ironforge's corps of siege engine pilots, operating heavily armored war machines like Jetsteam and Trollplow in support of dwarven defense and Alliance campaigns."
   },
   {
    "q": "Where does this mission lead next?",
@@ -80,7 +79,7 @@
     "what comes after stocking jetsteam",
     "stocking jetsteam follow up"
    ],
-   "answer": "After restocking Jetsteam with meat and furs, Pilot Bellowfiz sends travelers northward to Evershine, seeking specialized mechanical components needed to complete the tank's operational readiness."
+   "answer": "After restocking Jetsteam with meat and furs, Pilot Bellowfiz sends travelers west to Brewnall Village in the quest Evershine, seeking a potent brew he uses both to keep warm and as emergency fuel for the tank's furnace."
   },
   {
    "q": "Why does a siege engine require animal furs?",
@@ -95,11 +94,11 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Assisting Bellowfiz ensures that gnomish siege operations remain fully supported as the exiled people struggle to muster every mechanized advantage."
+   "text": "Assisting Bellowfiz keeps the dwarven Siege Brigade, Ironforge's mechanized ally to the exiled gnomes, fully supplied for the long campaigns ahead."
   },
   {
    "target": "race:Dwarf",
-   "text": "Providing game from Dun Morogh's crags keeps allied gnomish crews fed and rested while working out of Khaz Modan's machine yards."
+   "text": "Providing game from Dun Morogh's crags keeps the Siege Brigade's dwarven crews fed and rested while working out of Khaz Modan's machine yards."
   },
   {
    "target": "profession:Cooking",
@@ -107,7 +106,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Cooperation between dwarven repair yards and gnomish armored crews keeps the Alliance's frontline siege technology functional."
+   "text": "Cooperation between dwarven repair yards and the Siege Brigade's armored crews keeps the Alliance's frontline siege technology functional."
   }
  ],
  "keywords": [

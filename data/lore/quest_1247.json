@@ -17,11 +17,11 @@
   "wiki": "The Missing Diplomat (9)",
   "chain": []
  },
- "summary": "This step in the investigation of Stormwind's missing envoy follows the interrogation of Dashel Stonefist in the Old Town docks. Having beaten a confession out of the thug, you carry word of a backup abduction plot back to the spymaster disguised as a master of cheese, Elling Trias.",
+ "summary": "This step in the investigation of Stormwind's missing envoy follows the interrogation of Dashel Stonefist in Old Town. Having beaten a confession out of the thug, you carry word of a backup abduction plot back to the spymaster disguised as a master of cheese, Elling Trias.",
  "sections": [
   {
    "title": "A Crack in the Wall",
-   "body": "Dashel Stonefist is not the kind of operative who takes secrets to the grave, especially once convinced his health is on the line. Cornered behind the five-and-dime in Old Town, Dashel folds and admits that his role in the kidnapping crumbled when the conspirators' initial plan fell apart. Desperate to deflect blame, he points to a clandestine meeting held weeks earlier at Addle's Stead in Westfall and offers a single lead for their backup operation: an insider operating out of Menethil Harbor known only as Slim.",
+   "body": "Dashel Stonefist is not the kind of operative who takes secrets to the grave, especially once convinced his health is on the line. Cornered behind the five-and-dime in Old Town, Dashel folds and admits that his role in the kidnapping crumbled when the conspirators' initial plan fell apart. Desperate to deflect blame, he points to a clandestine meeting held weeks earlier at Addle's Stead in Duskwood and offers a single lead for their backup operation: an insider operating out of Menethil Harbor known only as Slim.",
    "spoiler": 0
   },
   {
@@ -56,7 +56,7 @@
     "addles stead",
     "westfall meeting"
    ],
-   "answer": "Addle's Stead is an abandoned farmstead in Westfall where the conspirators convened weeks prior to coordinate their kidnapping schemes after their opening gambit was disrupted."
+   "answer": "Addle's Stead is an abandoned farmstead in western Duskwood where the conspirators convened weeks prior to coordinate their kidnapping schemes after their opening gambit was disrupted."
   },
   {
    "q": "Who is the diplomat they were trying to abduct?",
@@ -65,7 +65,7 @@
     "who got kidnapped",
     "the diplomat identity"
    ],
-   "answer": "The official documents and street thugs only refer to the target as an unnamed diplomat on a critical peace mission. In truth, the envoy is King Varian Wrynn himself, traveling incognito toward Theramore before he was ambushed."
+   "answer": "The official documents and street thugs only refer to the target as an unnamed diplomat bound for Theramore. The envoy's true identity remains a closely guarded secret at this stage of the investigation."
   },
   {
    "q": "Who is Slim?",

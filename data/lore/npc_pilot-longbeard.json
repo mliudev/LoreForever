@@ -8,11 +8,11 @@
   "wiki": "Pilot Longbeard",
   "refs": 1
  },
- "summary": "Pilot Longbeard is a dwarven aviator stationed in the Hall of Arms within Ironforge's Military Ward. Though currently grounded in the mountain city, he maintains close ties with gnomish tinkerers and fellow flight enthusiasts operating far away in the Shimmering Flats.",
+ "summary": "Pilot Longbeard is a dwarven siege engine pilot of the Ironforge Siege Brigade, stationed in the Hall of Arms within Ironforge's Military Ward. Though posted in the mountain city, he maintains close ties with gnomish tinkerers and fellow flight enthusiasts operating far away in the Shimmering Flats.",
  "sections": [
   {
-   "title": "A Grounded Aviator",
-   "body": "Found amongst the martial displays and weaponsmiths of Ironforge's Military Ward, Pilot Longbeard represents the daring airborne tradition of Khaz Modan. While his duties keep him within the fortress city, Longbeard keeps an eager ear out for innovations and news from fellow mechanics across the continent, including the Brassbolts brothers tinkering out on the salt flats of Kalimdor.",
+   "title": "A Pilot of the Siege Brigade",
+   "body": "Found amongst the martial displays and weaponsmiths of Ironforge's Military Ward, Pilot Longbeard represents the proud siege engine corps of Khaz Modan. While his duties keep him within the fortress city, Longbeard keeps an eager ear out for innovations and news from fellow mechanics across the continent, including the Brassbolts brothers tinkering out on the salt flats of Kalimdor.",
    "spoiler": 0
   },
   {
@@ -56,17 +56,17 @@
     "longbeard family dwarf",
     "is he related to furen"
    ],
-   "answer": "They share the prominent Longbeard clan name in Ironforge, suggesting clan kinship, though Pilot Longbeard focuses on aviation and engineering connections rather than smithing."
+   "answer": "They share the prominent Longbeard clan name in Ironforge, suggesting clan kinship, though Pilot Longbeard focuses on siege engines and engineering connections rather than smithing."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Pilot Longbeard exemplifies the dwarven adventurous spirit, bridging traditional Ironforge martial service with the excitement of gnomish aviation and mechanics."
+   "text": "Pilot Longbeard exemplifies the dwarven adventurous spirit, bridging traditional Ironforge martial service with the excitement of siege engines and gnomish mechanics."
   },
   {
    "target": "profession:Engineering",
-   "text": "As an aviator with contacts among gnome tinkerers, Longbeard appreciates the mechanical ingenuity required to keep machinery flying and racing."
+   "text": "As a siege engine pilot with contacts among gnome tinkerers, Longbeard appreciates the mechanical ingenuity required to keep machinery running and racing."
   }
  ],
  "keywords": [

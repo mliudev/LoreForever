@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Gunsmith on the Road",
-   "body": "Set up at a small campsite between Coldridge Pass and Kharanos, Hegnar Rumbleshot caters to dwarven marksmen, travelers, and the local militia. His camp features a popular shooting range where mountain folk hone their aim against the wild beasts prowling Dun Morogh. Supplying so many eager shooters means Hegnar burns through munitions at a brisk pace, leaving him perpetually reliant on fresh shipments of ammunition from his supplier, the gnome engineer Loslor Rudge.",
+   "body": "Set up at a small campsite between Coldridge Pass and Kharanos, Hegnar Rumbleshot caters to dwarven marksmen, travelers, and the local militia. His camp features a popular shooting range where mountain folk hone their aim against the wild beasts prowling Dun Morogh. Supplying so many eager shooters means Hegnar burns through munitions at a brisk pace, leaving him perpetually reliant on fresh shipments of ammunition from his supplier, the dwarf engineer Loslor Rudge.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "who supplies rumbleshot",
     "ammo for rumbleshot quest"
    ],
-   "answer": "Hegnar relies on Loslor Rudge, a gnome engineer stationed in Coldridge Valley, to manufacture and supply the ammunition needed to keep his shooting range running."
+   "answer": "Hegnar relies on Loslor Rudge, a dwarf engineering supplier elsewhere in Dun Morogh, to manufacture and supply the ammunition needed to keep his shooting range running."
   },
   {
    "q": "What does Hegnar do for the local dwarves?",

@@ -47,7 +47,7 @@
     "abercrombie note",
     "what did abercrombie write"
    ],
-   "answer": "The note was penned by Abercrombie, the hermit who lives secluded in a shack near the western edge of Duskwood. Throughout his errands, he claimed to be innocent and frail, but his encrypted letter reveals his true, malicious intentions toward Darkshire."
+   "answer": "The note was penned by Abercrombie, the hermit who lives secluded in a shack near the western edge of Duskwood. You carried out a string of errands for him before this note ended up in Sirra's hands for translation."
   },
   {
    "q": "Why does the air feel heavy when she finishes?",
@@ -56,7 +56,7 @@
     "black curtain over land",
     "duskwood dark air"
    ],
-   "answer": "The sudden oppressive chill represents an impending doom. By translating the letter, Sirra uncovers Abercrombie's final threat: the creation and unleashing of Stitches, a massive undead abomination sent to march upon Darkshire."
+   "answer": "The sudden oppressive chill is an omen of impending doom: whatever the note says, it is grim news for Darkshire, and its full meaning becomes clear once the translation reaches Lord Ello Ebonlocke."
   },
   {
    "q": "Who should receive the translated letter next?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Darkshire's fragile safety hangs by a thread, and uncovering Abercrombie's treachery is vital to defending the town before his abomination reaches the gates."
+   "text": "Darkshire's fragile safety hangs by a thread."
   },
   {
    "target": "class:Mage",

@@ -8,11 +8,11 @@
   "wiki": "Nogg",
   "refs": 2
  },
- "summary": "Nogg is a goblin engineer operating out of Nogg's Machine Shop in the Drag of Orgrimmar. He offers tinkering expertise and specialized craftsmanship to the Horde, notably analyzing strange mechanical salvage recovered from deep within Gnomeregan.",
+ "summary": "Nogg is a goblin engineer operating out of a workshop in the Valley of Honor in Orgrimmar. He offers tinkering expertise and specialized craftsmanship to the Horde, notably analyzing strange mechanical salvage recovered from deep within Gnomeregan.",
  "sections": [
   {
-   "title": "Nogg's Machine Shop",
-   "body": "Tucked away in the shaded corridors of the Drag in Orgrimmar, Nogg runs an independent engineering workshop catering to adventurers and craftsmen alike. While the surrounding city relies heavily on traditional orcish steel and brute strength, Nogg provides the specialized mechanical finesse that only a goblin can offer. He maintains a keen interest in foreign contraptions and tech, happily examining curious trinkets and mechanical oddities dragged back from Alliance lands or subterranean ruins.",
+   "title": "Nogg's Workshop",
+   "body": "Tucked away in Orgrimmar's Valley of Honor, Nogg runs an independent engineering workshop catering to adventurers and craftsmen alike. While the surrounding city relies heavily on traditional orcish steel and brute strength, Nogg provides the specialized mechanical finesse that only a goblin can offer. He maintains a keen interest in foreign contraptions and tech, happily examining curious trinkets and mechanical oddities dragged back from Alliance lands or subterranean ruins.",
    "spoiler": 0
   },
   {
@@ -29,7 +29,7 @@
     "where is nogg",
     "nogg's machine shop"
    ],
-   "answer": "Nogg is located in the Drag inside Orgrimmar, running his own workshop known as Nogg's Machine Shop."
+   "answer": "Nogg is located in the Valley of Honor inside Orgrimmar, where he runs his own engineering workshop."
   },
   {
    "q": "What is Nogg's connection to Gnomeregan?",
@@ -60,7 +60,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Fellow engineers often stop by Nogg's Machine Shop in the Drag to pick up parts, talk shop, and marvel at how easily goblin hands repurpose intricate gnomish tech."
+   "text": "Fellow engineers often stop by Nogg's workshop in the Valley of Honor to pick up parts, talk shop, and marvel at how easily goblin hands repurpose intricate gnomish tech."
   },
   {
    "target": "faction:Horde",
