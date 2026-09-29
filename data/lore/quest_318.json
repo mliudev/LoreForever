@@ -22,7 +22,7 @@
    "Return to Bellowfiz"
   ]
  },
- "summary": "Evershine is an Alliance delivery quest beginning with Pilot Bellowfiz near Kharanos. The gnome aviator sends travelers westward to Brewnall Village to fetch a potent dwarven brew concocted by Rejold Barleybrew. The liquor doubles as a warming drink and an emergency, high-octane fuel for Bellowfiz's flying machine.",
+ "summary": "Evershine is an Alliance delivery quest beginning with Pilot Bellowfiz near Kharanos. The dwarven siege engine pilot sends travelers westward to Brewnall Village to fetch a potent dwarven brew concocted by Rejold Barleybrew. The liquor doubles as a warming drink and an emergency, high-octane fuel for Bellowfiz's siege engine.",
  "sections": [
   {
    "title": "A Potent Concoction",
@@ -31,7 +31,7 @@
   },
   {
    "title": "Fuel for Pilot Bellowfiz",
-   "body": "Gnome ingenuity often finds unorthodox uses for everyday materials, and Pilot Bellowfiz is no exception. Operating out of the snowfields outside Kharanos, Bellowfiz relies on Evershine not just as a nip to stave off the freezing winds, but as supplementary fuel. Dumping the volatile alcohol directly into the furnace of his flying machine, Jetsteam, provides an explosive surge of emergency power that has saved his neck on more than one rough flight.",
+   "body": "Siege pilots often find unorthodox uses for everyday materials, and Pilot Bellowfiz is no exception. Operating out of Steelgrill's Depot outside Kharanos, Bellowfiz relies on Evershine not just as a nip to stave off the freezing winds, but as supplementary fuel. Dumping the volatile alcohol directly into the furnace of his siege engine, Jetsteam, provides an explosive surge of emergency power that has gotten him out of more than one tight spot.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "pilot bellowfiz evershine",
     "why does bellowfiz need it"
    ],
-   "answer": "Pilot Bellowfiz uses Evershine both to keep warm against Dun Morogh's chill and as emergency combustible fuel. When poured into the furnace of his flying machine, Jetsteam, the volatile spirit yields an immediate burst of propulsion."
+   "answer": "Pilot Bellowfiz uses Evershine both to keep warm against Dun Morogh's chill and as emergency combustible fuel. When poured into the furnace of his siege engine, Jetsteam, the volatile spirit yields an immediate burst of propulsion."
   },
   {
    "q": "Where is Brewnall Village?",
@@ -94,7 +94,7 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Pilot Bellowfiz perfectly illustrates the gnomish talent for repurposing mundane objects\u2014even dwarven booze\u2014into improvised fuel sources for cutting-edge engineering."
+   "text": "Pilot Bellowfiz's habit of repurposing mundane objects\u2014even dwarven booze\u2014into improvised fuel would impress any gnomish tinker."
   },
   {
    "target": "race:Dwarf",
@@ -102,14 +102,13 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "Using volatile distilled spirits as an auxiliary fuel booster shows how pilots like Bellowfiz keep their flying machines running in harsh environments."
+   "text": "Using volatile distilled spirits as an auxiliary fuel booster shows how pilots like Bellowfiz keep their siege engines running in harsh environments."
   }
  ],
  "keywords": [
   "brewnall village",
   "dun morogh",
   "evershine",
-  "flying machine",
   "jetsteam",
   "kharanos",
   "pilot bellowfiz",

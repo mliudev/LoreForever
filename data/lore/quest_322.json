@@ -17,11 +17,11 @@
   "wiki": "Blessed Arm",
   "chain": []
  },
- "summary": "Having salvaged lightforge ingots from the Loch, an adventurer is directed to carry the precious metal to Stormwind City. There, the master dwarven smith Grimand Elmore awaits to fashion the raw metal into a tool capable of confronting the necromancer Morbent Fel.",
+ "summary": "Having salvaged lightforge ingots from the wreck of the Flying Osprey in the Wetlands, an adventurer is directed to carry the precious metal to Stormwind City. There, the master dwarven smith Grimand Elmore awaits to fashion the raw metal into a tool capable of confronting the necromancer Morbent Fel.",
  "sections": [
   {
    "title": "A Rare Metal Returns",
-   "body": "Lightforge iron is not an everyday trade metal found in standard market stalls. Renowned for its resonance against foul and unholy entities, it demands a smith who understands its temper and quirks. After the shipment was recovered from the bottom of Loch Modan, Glorin Steelbrow packed the reclaimed ingots into a sturdy crate, knowing of only one artisan in the southern kingdoms suited to work such extraordinary material: master weaponsmith Grimand Elmore.",
+   "body": "Lightforge iron is not an everyday trade metal found in standard market stalls. Renowned for its resonance against foul and unholy entities, it demands a smith who understands its temper and quirks. After the shipment was recovered from the wreck of the Flying Osprey off the Wetlands coast, Glorin Steelbrow packed the reclaimed ingots into a sturdy crate, knowing of only one artisan in the southern kingdoms suited to work such extraordinary material: master weaponsmith Grimand Elmore.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "blessed arm purpose",
     "what is crate of lightforge ingots for"
    ],
-   "answer": "The crate holds recovered lightforge iron salvaged from Loch Modan. Glorin Steelbrow sends it to Grimand Elmore so the skilled smith can shape the consecrated metal into a weapon capable of combating the necromancer Morbent Fel."
+   "answer": "The crate holds recovered lightforge iron salvaged from the Flying Osprey wreck in the Wetlands. Glorin Steelbrow sends it to Grimand Elmore so the skilled smith can shape the consecrated metal into a weapon capable of combating the necromancer Morbent Fel."
   },
   {
    "q": "Who is Grimand Elmore?",
@@ -62,7 +62,7 @@
     "where do i go for blessed arm",
     "where is grimand elmore located"
    ],
-   "answer": "Glorin Steelbrow sends you from Loch Modan across the Deeprun Tram or mountain passes to the Dwarven District of Stormwind City, where Grimand Elmore keeps his forge."
+   "answer": "Glorin Steelbrow sends you from Menethil Harbor in the Wetlands to the Dwarven District of Stormwind City, where Grimand Elmore keeps his forge."
   },
   {
    "q": "Has Grimand Elmore worked with lightforge iron before?",
@@ -92,7 +92,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "The delivery demonstrates the close cooperation between the kingdoms, bridging Loch Modan's dwarven prospectors with the forges of Stormwind's Dwarven District to aid the beleaguered people of Duskwood."
+   "text": "The delivery demonstrates the close cooperation between the kingdoms, bridging a dwarven priest in Menethil Harbor with the forges of Stormwind's Dwarven District to aid the beleaguered people of Duskwood."
   }
  ],
  "keywords": [

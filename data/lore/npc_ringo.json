@@ -8,7 +8,7 @@
   "wiki": "Ringo",
   "refs": 4
  },
- "summary": "Ringo is an unfortunate goblin explorer who ventured up the blistering heights of Fire Plume Ridge in Un'Goro Crater. Overwhelmed by the volcano's stifling heat and noxious vapors, he collapsed inside a cave, desperate for someone to help him back down. His close friend Spraggle Frock remains worried sick back at Marshal's Stand.",
+ "summary": "Ringo is an unfortunate goblin explorer who ventured up the blistering heights of Fire Plume Ridge in Un'Goro Crater. Overwhelmed by the volcano's stifling heat and noxious vapors, he collapsed inside a cave, desperate for someone to help him back down. His close friend Spraggle Frock remains worried sick back at Marshal's Refuge.",
  "sections": [
   {
    "title": "A Venture Too Close to the Flame",
@@ -17,7 +17,7 @@
   },
   {
    "title": "A Grueling Trek Down the Slopes",
-   "body": "Getting Ringo off the mountain is an ordeal in itself. The goblin is so weakened by dehydration and heatstroke that he repeatedly faints along the descent. Keeping him on his feet requires liberal splashes from a canteen\u2014or an occasional brisk slap across the face to shake him conscious. Escorting him past the mountain's volatile elementals and predators all the way back to the safety of Marshal's Stand requires constant vigilance until he can be reunited with his friend Spraggle.",
+   "body": "Getting Ringo off the mountain is an ordeal in itself. The goblin is so weakened by dehydration and heatstroke that he repeatedly faints along the descent. Keeping him on his feet requires liberal splashes from a canteen\u2014or an occasional brisk slap across the face to shake him conscious. Escorting him past the mountain's volatile elementals and predators all the way back to the safety of Marshal's Refuge requires constant vigilance until he can be reunited with his friend Spraggle.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "ringo friend",
     "spraggle frock"
    ],
-   "answer": "His good friend Spraggle Frock, who is stationed at Marshal's Stand in northern Un'Goro, is deeply concerned about Ringo's disappearance."
+   "answer": "His good friend Spraggle Frock, who is stationed at Marshal's Refuge in northern Un'Goro, is deeply concerned about Ringo's disappearance."
   },
   {
    "q": "Why keeps fainting on the way down?",
@@ -74,7 +74,7 @@
     "ringo destination",
     "ringo escort end"
    ],
-   "answer": "He needs a safe escort off the volcano and across the crater floor to Marshal's Stand, where his friend Spraggle Frock is waiting."
+   "answer": "He needs a safe escort off the volcano and across the crater floor to Marshal's Refuge, where his friend Spraggle Frock is waiting."
   }
  ],
  "angles": [],

@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "A Recipe for Relief",
-   "body": "Having secured a sample of water from the oasis, Tonga Runetotem requires raw reagents to brew an effective physical antidote. While natural water provides the salve's base, common earthroot provides foundational medicinal qualities, and ground kodo horn gives the mixture the restorative potency needed to shock venom out of a creature's system. For a young druid, obtaining these ingredients means relying on the gifts of the earth and culling local beasts.",
+   "body": "Having secured a sample of water from Dreadmist Peak, Tonga Runetotem requires raw reagents to brew an effective physical antidote. While natural water provides the salve's base, common earthroot provides foundational medicinal qualities, and ground kodo horn gives the mixture the restorative potency needed to shock venom out of a creature's system. For a young druid, obtaining these ingredients means relying on the gifts of the earth and culling local beasts.",
    "spoiler": 0
   },
   {
    "title": "Lessons in Cleansing",
-   "body": "Alchemy and herbal lore are traditional ways to counteract specific toxins, but each unique poison typically demands an exact, tailored cure. Tonga uses this laborious preparation to teach initiates the limits of physical medicines. True mastery over natural poisons comes not from carrying endless varieties of dried herbs and horns, but from attuning directly to nature's healing energies\u2014a profound lesson that leads directly into the druidic art of Purify and Cure Poison.",
+   "body": "Alchemy and herbal lore are traditional ways to counteract specific toxins, but each unique poison typically demands an exact, tailored cure. Tonga uses this laborious preparation to teach initiates the limits of physical medicines. True mastery over natural poisons comes not from carrying endless varieties of dried herbs and horns, but from attuning directly to nature's healing energies\u2014a profound lesson that leads directly into the druidic art of Cure Poison.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what reagents do i need",
     "cure materials"
    ],
-   "answer": "Tonga asks for five bundles of earthroot and five intact kodo horns. The earthroot supplies healing herbal properties, while the horns provide the vital potency required to counteract the oasis toxins affecting the local gazelles."
+   "answer": "Tonga asks for five bundles of earthroot and five intact kodo horns. The earthroot supplies healing herbal properties, while the horns provide the vital potency required to counteract the toxins affecting the local gazelles."
   },
   {
    "q": "Where can the kodo horns be found?",
@@ -65,7 +65,7 @@
     "purpose of the salve",
     "why not use magic"
    ],
-   "answer": "Tonga is preparing a physical antidote to treat the poisoned gazelles suffering around the Barrens oases. He also uses the painstaking process of crafting specific physical remedies to demonstrate the vast advantage of learning innate, magical purification spells."
+   "answer": "Tonga is preparing a physical antidote to treat the poisoned gazelles suffering across the northern Barrens. He also uses the painstaking process of crafting specific physical remedies to demonstrate the vast advantage of learning innate, magical purification spells."
   },
   {
    "q": "Who is Tonga Runetotem?",

@@ -17,7 +17,7 @@
   "wiki": "Reception from Tyrande",
   "chain": []
  },
- "summary": "Reception from Tyrande is an Alliance quest that sends adventurers from the embattled slopes of the Stonetalon Mountains directly to the night elf capital of Darnassus. After aiding Sentinel Thenysil in securing their precarious foothold against Horde encroachment, you are summoned to receive formal recognition from High Priestess Tyrande Whisperwind herself in the Temple of the Moon.",
+ "summary": "Reception from Tyrande is an Alliance quest that sends adventurers from the embattled slopes of the Stonetalon Mountains directly to the night elf capital of Darnassus. After aiding the Sentinels in securing their precarious foothold in Stonetalon against the Venture Company, you are sent by Sentinel Thenysil in Astranaar to receive formal recognition from High Priestess Tyrande Whisperwind herself in the Temple of the Moon.",
  "sections": [
   {
    "title": "A Foothold in Stonetalon",
@@ -38,7 +38,7 @@
     "quest giver",
     "sentinel thenysil location"
    ],
-   "answer": "The quest begins with Sentinel Thenysil in the Stonetalon Mountains, immediately following the completion of 'Update for Sentinel Thenysil'."
+   "answer": "The quest begins with Sentinel Thenysil in Astranaar in Ashenvale, immediately following the completion of 'Update for Sentinel Thenysil'."
   },
   {
    "q": "Where can I find Tyrande Whisperwind?",

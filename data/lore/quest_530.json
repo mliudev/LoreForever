@@ -25,7 +25,7 @@
  "sections": [
   {
    "title": "A Bitter Memory",
-   "body": "When Raleigh Andrean received the engraved ring carried from Hillsbrad Foothills, it rekindled memories of his mortal life that undeath had mostly withered away. Among those memories was a profound betrayal: his close friend, Valdred Moray, had murdered Raleigh's wife, Deliah. While the chill of the Scourge and subsequent Forsaken existence dulled Raleigh's capacity for grief and love, his thirst for retribution remained entirely intact.",
+   "body": "When Raleigh Andrean received the engraved ring carried from Silverpine Forest, it rekindled memories of his mortal life that undeath had mostly withered away. Among those memories was a profound betrayal: his close friend, Valdred Moray, had murdered Raleigh's wife, Deliah. While the chill of the Scourge and subsequent Forsaken existence dulled Raleigh's capacity for grief and love, his thirst for retribution remained entirely intact.",
    "spoiler": 0
   },
   {
@@ -40,15 +40,6 @@
   }
  ],
  "faq": [
-  {
-   "q": "Who was Deliah?",
-   "aliases": [
-    "who is deliah",
-    "raleigh's wife",
-    "raleigh wife"
-   ],
-   "answer": "Deliah was Raleigh Andrean's wife during their mortal lives in Lordaeron. She was murdered by Raleigh's once-trusted friend, Valdred Moray, before the kingdom fell."
-  },
   {
    "q": "Why does Raleigh want Valdred's hands specifically?",
    "aliases": [
@@ -91,7 +82,7 @@
     "prerequisite quest",
     "previous quest"
    ],
-   "answer": "The chain begins with finding 'The Engraved Ring' in Hillsbrad Foothills, which directs you to the Undercity in 'Raleigh and the Undercity', unlocking 'A Husband's Revenge'."
+   "answer": "The chain begins with 'The Engraved Ring' in Silverpine Forest, which directs you to the Undercity in 'Raleigh and the Undercity', unlocking 'A Husband's Revenge'."
   }
  ],
  "angles": [

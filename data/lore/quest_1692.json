@@ -17,11 +17,11 @@
   "wiki": "Smith Mathiel",
   "chain": []
  },
- "summary": "Smith Mathiel is a pivotal warrior quest in Darnassus marking the transition from raw materials to forged arms. Having secured sacred elunite ore from Dolanaar, an aspiring warrior delivers the ore to the master blacksmith Mathiel. He agrees to work the blessed metal into a weapon fit for defending the Kaldorei.",
+ "summary": "Smith Mathiel is a pivotal warrior quest in Darnassus marking the transition from raw materials to forged arms. Having secured sacred elunite ore from a shipwreck off Auberdine, an aspiring warrior delivers the ore to the master blacksmith Mathiel. He agrees to work the blessed metal into a weapon fit for defending the Kaldorei.",
  "sections": [
   {
    "title": "A Sacred Delivery",
-   "body": "After recovering elunite ore from the haunted environs of Dolanaar and securing it with the aid of the warrior trainer Elanaria, young night elf warriors are sent across the terrace in the Craftsmen's Terrace of Darnassus. Elanaria carefully packs the ore into a sturdy case, instructing the novice to seek out Mathiel, one of the premier smiths in the capital, to fashion a weapon worthy of their martial calling.",
+   "body": "After recovering elunite ore from the haunted shipwreck off Auberdine and securing it with the aid of the warrior trainer Elanaria, young night elf warriors are sent across the Warrior's Terrace of Darnassus. Elanaria carefully packs the ore into a sturdy case, instructing the novice to seek out Mathiel, one of the premier smiths in the capital, to fashion a weapon worthy of their martial calling.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "blacksmith mathiel",
     "where is mathiel"
    ],
-   "answer": "Mathiel is a skilled night elf blacksmith stationed in the Craftsmen's Terrace of Darnassus. He crafts specialty armaments and takes on custom forging for the defenders of Darnassus."
+   "answer": "Mathiel is a skilled night elf blacksmith stationed in the Warrior's Terrace of Darnassus. He crafts specialty armaments and takes on custom forging for the defenders of Darnassus."
   },
   {
    "q": "What is special about elunite ore?",
@@ -71,7 +71,7 @@
     "mathiel location",
     "find mathiel"
    ],
-   "answer": "Mathiel works at his anvil in the Craftsmen's Terrace in Darnassus, located just south across the structure from Elanaria."
+   "answer": "Mathiel works in the Warrior's Terrace in Darnassus, located just south across the structure from Elanaria."
   },
   {
    "q": "What happens after you deliver the ore to Mathiel?",

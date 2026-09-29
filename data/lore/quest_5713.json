@@ -17,11 +17,11 @@
   "wiki": "One Shot. One Kill.",
   "chain": []
  },
- "summary": "While carrying an urgent message toward Lor'danel, Sentinel Aynasha was ambushed and poisoned by a hostile furbolg named Marosh the Devious and his pack of trackers. Immobilized while mixing an antidote, she relies on nearby travelers to hold off incoming attackers so she can survive and see her duty through.",
+ "summary": "While carrying an urgent message toward Auberdine, Sentinel Aynasha was ambushed and poisoned by a hostile furbolg named Marosh the Devious and his pack of trackers. Immobilized while mixing an antidote, she relies on nearby travelers to hold off incoming attackers so she can survive and see her duty through.",
  "sections": [
   {
    "title": "Ambush on the Forest Road",
-   "body": "The trails through northern Kalimdor have grown treacherous as corruption takes deeper root among the wild denizens. Sentinel Aynasha was journeying toward Lor'danel bearing important communications when she was intercepted by hostile furbolgs. Led by Marosh the Devious, the ambushers struck fast, inflicting a debilitating venom that left the scout unsteady and unable to complete her trek on foot.",
+   "body": "The trails through northern Kalimdor have grown treacherous as corruption takes deeper root among the wild denizens. Sentinel Aynasha was journeying toward Auberdine bearing important communications when she was intercepted by hostile furbolgs. Led by Marosh the Devious, the ambushers struck fast, inflicting a debilitating venom that left the scout unsteady and unable to complete her trek on foot.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
   },
   {
    "title": "Report to Maestra's Post",
-   "body": "Once the assault is broken and Marosh is slain, the antidote restores Aynasha's strength enough for her to finish her journey to Lor'danel. To ensure the outpost south in Ashenvale is alerted to the aggressive furbolg activity threatening regional supply routes, she bids her protectors report directly to Sentinel Onaeya at Maestra's Post.",
+   "body": "Once the assault is broken and Marosh is slain, the antidote restores Aynasha's strength enough for her to finish her journey to Auberdine. To ensure the outpost south in Ashenvale is alerted to the aggressive furbolg activity threatening regional supply routes, she bids her protectors report directly to Sentinel Onaeya at Maestra's Post.",
    "spoiler": 1
   }
  ],
@@ -62,7 +62,7 @@
     "aynasha destination",
     "lor'danel"
    ],
-   "answer": "Aynasha was bound for Lor'danel to deliver an important dispatch before being trapped on the road by Marosh and his trackers."
+   "answer": "Aynasha was bound for Auberdine to deliver an important dispatch before being trapped on the road by Marosh and his trackers."
   },
   {
    "q": "Why must you report to Sentinel Onaeya?",
@@ -71,7 +71,7 @@
     "why maestra's post",
     "onaeya"
    ],
-   "answer": "Because Aynasha must press forward immediately to Lor'danel to deliver her message, she asks you to travel south to Maestra's Post in Ashenvale to inform Sentinel Onaeya about the furbolg hostility."
+   "answer": "Because Aynasha must press forward immediately to Auberdine to deliver her message, she asks you to travel south to Maestra's Post in Ashenvale to inform Sentinel Onaeya about the furbolg hostility."
   },
   {
    "q": "Why are the furbolgs in the area hostile?",

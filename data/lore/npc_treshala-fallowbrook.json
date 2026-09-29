@@ -8,11 +8,11 @@
   "wiki": "Treshala Fallowbrook",
   "refs": 1
  },
- "summary": "Treshala Fallowbrook is a night elf residing quietly on the upper level of the Tradesmen's Terrace in Darnassus. Her attention is fixed upon the harsh, newly discovered vulnerabilities of mortal life following the Third War, leading her to study relics drawn from dangerous corners of Kalimdor.",
+ "summary": "Treshala Fallowbrook is a night elf residing quietly on the upper level of the Tradesmen's Terrace in Darnassus. She is the wife of Heralath Fallowbrook, whose work has taken him far from home into the thorny depths of Razorfen Kraul in the Barrens.",
  "sections": [
   {
    "title": "A Watcher on the Terrace",
-   "body": "Treshala Fallowbrook keeps a modest vigil on the second floor of a workshop in Darnassus's Tradesmen's Terrace. Like many of the kaldorei coming to terms with the sacrifice of their ancient immortality at Mount Hyjal, she observes the frailty that now stalks her people. She is closely tied to investigations into strange artifacts of power and survival\u2014specifically interested in relics recovered from the brambled depths of Razorfen Kraul in the Barrens, seeking insight into how life endures or fades when its natural vigor begins to wane.",
+   "body": "Treshala Fallowbrook keeps a modest vigil on the second floor of a workshop in Darnassus's Tradesmen's Terrace. Her husband, Heralath, journeyed to the brambled depths of Razorfen Kraul in the Barrens, and she waits at home for word of him. The two are joined by a pendant of bonding, a keepsake of their marriage that Heralath carried with him into the quilboar's warrens.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "mortality wanes lore",
     "what does treshala want"
    ],
-   "answer": "Treshala studies the shift toward mortal vulnerability facing the night elves after the loss of the World Tree Nordrassil. She takes an active interest in artifacts of enduring vitality recovered by Alliance adventurers, including pendants retrieved from the hostile quilboar strongholds of Razorfen Kraul."
+   "answer": "She is not a researcher herself. The work belongs to her husband, Heralath Fallowbrook, whose journey took him into Razorfen Kraul; Treshala waits in Darnassus for news of him and of her pendant of bonding, which he carried there."
   },
   {
    "q": "Why is she concerned with Razorfen Kraul?",
@@ -42,7 +42,7 @@
     "fallowbrook razorfen",
     "connection to rfk"
    ],
-   "answer": "Razorfen Kraul harbors foul magic and resilient thorny brambles rooted in the legacy of the boar god Agamaggan. Items uncovered within its depths, such as pendants of enduring vigor, offer curious scholars like Treshala insights into unnatural stamina and mortal preservation."
+   "answer": "Her husband, Heralath, ventured into Razorfen Kraul, the thorny quilboar stronghold in the Barrens, and she has had no word of him since."
   },
   {
    "q": "Is she a shopkeeper or a craftswoman?",
@@ -50,13 +50,13 @@
     "is treshala a vendor",
     "what does she sell"
    ],
-   "answer": "No, Treshala is neither a merchant nor a crafter. She resides above the busy artisan stalls of the Tradesmen's Terrace as an observant scholar concerned with the state of the kaldorei."
+   "answer": "No, Treshala is neither a merchant nor a crafter. She simply makes her home above the busy artisan stalls of the Tradesmen's Terrace."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, Treshala's concerns strike directly at the core of their post-Hyjal reality: the loss of eternal youth and the bitter necessity of facing true aging and disease."
+   "text": "For night elves, Treshala's quiet vigil for her husband is a reminder that since Mount Hyjal, their people no longer have eternity to wait."
   },
   {
    "target": "faction:Alliance",

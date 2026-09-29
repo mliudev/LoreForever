@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "A Tightening Schedule",
-   "body": "Word from Master Mathias Shaw and the cheese merchant Elling Trias has accelerated operations against Lord Gregor Lescovar. Suspecting that the noble's machinations within Stormwind Keep pose an immediate danger to the realm, Trias insisted the timetable be moved forward. Lurking in the alleys of the city, Tyrion agrees to advance the operation, though he insists that gathering the proper infiltration supplies requires careful preparation.",
+   "body": "Word from the cheese merchant Elling Trias has accelerated operations against Lord Gregor Lescovar. Suspecting that the noble's machinations within Stormwind Keep pose an immediate danger to the realm, Trias insisted the timetable be moved forward. Hidden in the gardens of Stormwind Keep, Tyrion agrees to advance the operation, though he insists that gathering the proper infiltration supplies requires careful preparation.",
    "spoiler": 0
   },
   {
    "title": "The Art of the Disguise",
-   "body": "Tyrion's plan hinges on an unconventional asset: Spybot, a small mechanical contraption intended to slip past the vigilant castle guards and into the keep's secluded gardens. Rather than relying on simple stealth, Tyrion constructs a bizarre feminine disguise to deflect suspicion. To complete this masquerade, he sends operatives out to Clara's orchard just outside the city walls for appropriately sized apples, while demanding bolts of silk cloth to tailor the puppet's garments.",
+   "body": "Tyrion's plan hinges on an unconventional asset: Spybot, a small mechanical contraption intended to slip past the vigilant castle guards to reach Lescovar inside the keep. Rather than relying on simple stealth, Tyrion constructs a bizarre feminine disguise to deflect suspicion. To complete this masquerade, he sends operatives out to Clara's orchard just outside the city walls for appropriately sized apples, while demanding bolts of silk cloth to tailor the puppet's garments.",
    "spoiler": 0
   },
   {
@@ -53,7 +53,7 @@
     "tyrion allegiance",
     "elling trias tyrion"
    ],
-   "answer": "Tyrion works in coordination with Elling Trias, the cheese merchant who acts as a crucial eyes-and-ears operative for Mathias Shaw and the SI:7 intelligence network within Stormwind."
+   "answer": "Tyrion works in coordination with Elling Trias, the Old Town cheese merchant who runs his own network of friends in Stormwind; Trias admits the operation only indirectly does a favor for Mathias Shaw and SI:7."
   },
   {
    "q": "Where do I find Clara's apples?",
@@ -89,7 +89,7 @@
     "why not sneak in yourself",
     "stormwind keep security"
    ],
-   "answer": "Stormwind Keep is heavily guarded by royal sentries who scrutinize everyone entering the throne room and private courtyards. A disguised mechanical construct can navigate vents and alcoves unnoticed to record illicit meetings that no mortal agent could easily reach."
+   "answer": "Stormwind Keep is heavily guarded by royal sentries who scrutinize everyone entering the throne room and private courtyards. Disguised as a priestess, Spybot can walk past the guards and speak with Lescovar directly, drawing him out to the garden to meet Marzon where no known agent could get close."
   }
  ],
  "angles": [

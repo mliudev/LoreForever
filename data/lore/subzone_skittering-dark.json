@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Webbed Hollow",
-   "body": "Tucked between the Forsaken Rear Guard and the western coast of North Tide's Run, the Skittering Dark was once a working mine. Today, the shafts are completely choked with cobwebs, serving as the sprawling nest of the Skitterweb arachnids. Under the watch of a monstrous matriarch deep underground\u2014and the shadowy weaver Krethis haunting the exterior\u2014the spiders hunt anything that strays too close. Their silk-wrapped larder includes indigenous bears, wandering worgen from the nearby woodlands, and unfortunate orc shipwreck survivors dragged inland from the coast.",
+   "body": "Tucked between the Forsaken Rear Guard and the western coast of North Tide's Run, the Skittering Dark was once a working mine. Today, the shafts are completely choked with cobwebs, serving as the sprawling nest of the Skitterweb arachnids. Under the watch of a monstrous matriarch deep underground\u2014and the shadowy weaver Krethis haunting the exterior\u2014the spiders hunt anything that strays too close. Their silk-wrapped larder includes indigenous bears, worgs, and wandering worgen from the nearby woodlands.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "who is in the webs",
     "spider victims"
    ],
-   "answer": "The Skitterwebs prey on local wildlife like bears and worgs, but their webs also trap feral worgen from the surrounding woods and shipwrecked orc sailors who washed ashore at North Tide's Run."
+   "answer": "The Skitterwebs prey on local wildlife like bears and worgs, but their webs also trap feral worgen from the surrounding woods."
   },
   {
    "q": "Who leads the spiders in the mine?",

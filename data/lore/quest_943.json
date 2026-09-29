@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "Cross-Continental Archaeology",
-   "body": "What began as an escort mission aiding the distracted Prospector Remtravel in the northern reaches of Darkshore leads across the Great Sea to the marshlands of the Wetlands. Remtravel's fossil had been entrusted to Prospector Whelgar, stationed at an excavation site near Menethil Harbor. Archaeologist Flagongut, reviewing the collected finds, realizes that unlocking the mysterious powers within the fossils requires a key artifact: the Stone of Relu.",
+   "body": "What began as an escort mission aiding the distracted Prospector Remtravel in the northern reaches of Darkshore leads across the Great Sea to the marshlands of the Wetlands. Flagongut's own original fossil is held by Prospector Whelgar at his excavation site in the Wetlands. Archaeologist Flagongut, reviewing the collected finds, realizes that unlocking the mysterious powers within the fossils requires a key artifact: the Stone of Relu.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "menethil harbor connection",
     "why send to wetlands"
    ],
-   "answer": "The Explorers' League maintains active operations across both Kalimdor and the Eastern Kingdoms. Prospector Remtravel sent his archaeological discoveries from Darkshore across the sea to colleagues stationed in the Wetlands, connecting the two dig sites through shared research."
+   "answer": "The Explorers' League maintains active operations across both Kalimdor and the Eastern Kingdoms. Chief Archaeologist Greywhisker sent Remtravel's fossil from Darkshore across the sea to Archaeologist Flagongut in the Wetlands, connecting the two dig sites through shared research."
   },
   {
    "q": "What is the Stone of Relu?",
@@ -64,7 +64,7 @@
     "who has remtravel fossil",
     "whelgar fossil"
    ],
-   "answer": "The fossil discovered by Remtravel in Darkshore was transported to Prospector Whelgar, who keeps camp at an excavation site in the southern hills of the Wetlands."
+   "answer": "Prospector Whelgar holds Flagongut's original fossil at his excavation site in the Wetlands. Remtravel's fossil from Darkshore is the one you already delivered to Flagongut."
   },
   {
    "q": "Why do raptors have the Stone of Relu?",

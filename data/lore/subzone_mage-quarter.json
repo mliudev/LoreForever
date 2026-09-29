@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "Sanctum of the Arcane",
-   "body": "Reachable by bridges crossing the canals from Cathedral Square or the Trade District, the Mage Quarter caters entirely to the mystical needs of the Alliance. Centered around the spire of the Wizard's Sanctum, human and allied spellcasters gather to study the weave of arcane magic, train apprentices, and maintain portals that link Stormwind to distant lands like the Blasted Lands. The surrounding streets are crowded with purveyors of tailoring cloth, reagents, alchemical supplies, and enchanted staves, creating an insular district dedicated to research and the defense of the kingdom.",
+   "body": "Reachable by bridges crossing the canals from Cathedral Square or the Trade District, the Mage Quarter caters entirely to the mystical needs of the Alliance. Centered around the spire of the Wizard's Sanctum, human and allied spellcasters gather to study the weave of arcane magic and train apprentices. The surrounding streets are crowded with purveyors of tailoring cloth, reagents, alchemical supplies, and enchanted staves, creating an insular district dedicated to research and the defense of the kingdom.",
    "spoiler": 0
   },
   {
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The district serves as your central home in Stormwind, offering master trainers, spell reagents, and portal connections inside the Wizard's Sanctum."
+   "text": "The district serves as your central home in Stormwind, offering master trainers and spell reagents inside the Wizard's Sanctum."
   },
   {
    "target": "class:Warlock",

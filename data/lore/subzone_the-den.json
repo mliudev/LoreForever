@@ -16,7 +16,7 @@
   },
   {
    "title": "A Watchful Outpost",
-   "body": "Beyond housing class trainers and provisions, the Den functions as an active field redoubt. Durotar remains under constant surveillance by Kul Tiras outposts along the coast, and captured Northwatch scouts are brought directly into the cave's holding cages for interrogation. Between managing foreign trespassers and dispatching new recruits to cull the local beasts and aggressive quillboars, the overseers maintain a strict, vigilant watch over the valley.",
+   "body": "Beyond housing class trainers and provisions, the Den functions as an active field redoubt. Between dispatching new recruits to cull the local beasts and aggressive quillboars, the overseers maintain a strict, vigilant watch over the valley.",
    "spoiler": 0
   }
  ],
@@ -38,15 +38,6 @@
     "den overseer"
    ],
    "answer": "The encampment is supervised by veteran overseers such as Gornek and Foreman Thazz'ril, along with spiritual and magical mentors like Zureetha Fargaze and Canaga Earthcaller, all working together to instruct the newest generation of warriors and mystics."
-  },
-  {
-   "q": "Why are there prisoners caged inside the cave?",
-   "aliases": [
-    "why are there cages",
-    "northwatch scouts",
-    "prisoners in the den"
-   ],
-   "answer": "The cages hold captured Northwatch scouts who infiltrated Durotar from Tiragarde Keep and the coastal human outposts. They are detained here under guard to prevent them from gathering intelligence on Horde troop numbers and newly trained recruits."
   },
   {
    "q": "Can you learn primary professions here?",
@@ -71,7 +62,6 @@
  "keywords": [
   "durotar",
   "gornek",
-  "northwatch",
   "starting cave",
   "the den",
   "trainers",

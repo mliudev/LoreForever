@@ -8,16 +8,16 @@
   "wiki": "Pilot Hammerfoot",
   "refs": 2
  },
- "summary": "Pilot Hammerfoot is a dwarven mountaineer and aviator stationed near the mountain passes connecting Dun Morogh and Loch Modan. Grief-stricken over the loss of a comrade to the local troggs, he seeks willing adventurers to avenge fallen Ironforge flyers. His presence highlights the dangers faced by dwarven scouts along the high alpine ridges.",
+ "summary": "Pilot Hammerfoot is a dwarven siege engine pilot of the Ironforge Siege Brigade, stationed near the mountain passes connecting Dun Morogh and Loch Modan. Worried for a fellow pilot lost in the hills, he seeks willing adventurers to find his friend and avenge him. His presence highlights the dangers faced by dwarves along the high alpine ridges.",
  "sections": [
   {
    "title": "Eyes in the Mountains",
-   "body": "Dwarven flying machines provide Ironforge with an unmatched aerial advantage across Khaz Modan, but patrolling harsh mountainous terrain carries extreme risk. Stationed at the North Gate Outpost overlooking the border between Dun Morogh and Loch Modan, Pilot Hammerfoot monitors the mountain passes. When an expedition goes down, recovery quickly becomes a priority, especially with violent trogg tribes prowling the nearby ravines.",
+   "body": "Ironforge's siege engines are the pride of its Siege Brigade, but driving them across harsh mountainous terrain carries extreme risk. Stationed at the North Gate Outpost overlooking the border between Dun Morogh and Loch Modan, Pilot Hammerfoot guards the pilots' engines and watches the mountain passes. When a pilot goes missing, finding him quickly becomes a priority, especially with savage beasts prowling the nearby hills.",
    "spoiler": 0
   },
   {
    "title": "Avenging a Comrade",
-   "body": "Hammerfoot was close friends with Pilot Morter, another dwarven scout whose craft crashed in the snowy peaks nearby. Upon learning that Morter was slain by the ferocious trogg leader Mangeclaw, Hammerfoot's mission shifts from routine border watch to personal vengeance, demanding retribution against the beast responsible for his friend's death.",
+   "body": "Hammerfoot was close friends with Pilot Mori Hildelve, a fellow siege engine pilot who busted his engine on a steep hill while the two searched for a rare ore, then went on alone on foot. Upon learning that Hildelve was mauled to death by Mangeclaw, a huge ice claw bear, Hammerfoot's mission shifts from routine border watch to personal vengeance, demanding retribution against the beast responsible for his friend's death.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is hammerfoot",
     "pilot hammerfoot info"
    ],
-   "answer": "Pilot Hammerfoot is a dwarven flyer and mountaineer serving Ironforge. He is stationed at North Gate Outpost along the pass connecting Dun Morogh to Loch Modan, watching over regional borders and his fellow aviators."
+   "answer": "Pilot Hammerfoot is a dwarven siege engine pilot serving Ironforge. He is stationed at North Gate Outpost along the pass connecting Dun Morogh to Loch Modan, watching over the region's borders and his fellow pilots."
   },
   {
    "q": "Where can Pilot Hammerfoot be found?",
@@ -41,13 +41,13 @@
    "answer": "He is located at North Gate Outpost, situated along the mountain highway guarding the tunnel pass between Dun Morogh and Loch Modan."
   },
   {
-   "q": "What happened to Hammerfoot's partner, Pilot Morter?",
+   "q": "What happened to Hammerfoot's partner, Pilot Hildelve?",
    "aliases": [
     "pilot morter fate",
     "what happened to morter",
     "morter death"
    ],
-   "answer": "Pilot Morter crashed his flying machine in the rugged mountains of Dun Morogh. While surviving the impact, he was ultimately tracked down and killed by the savage trogg known as Mangeclaw."
+   "answer": "Pilot Mori Hildelve busted his siege engine on a steep hill in the mountains of Dun Morogh and kept searching on foot. He fought off an attack by Mangeclaw, a huge ice claw bear, but the beast later returned and killed him."
   },
   {
    "q": "Why does Hammerfoot want revenge?",
@@ -56,7 +56,7 @@
     "why avenge morter",
     "mangeclaw grudge"
    ],
-   "answer": "Hammerfoot shared a deep bond with Pilot Morter as fellow aviators. Hearing of Morter's brutal death at the claws of Mangeclaw drives Hammerfoot to seek bloody vengeance to honor his fallen friend."
+   "answer": "Hammerfoot shared a deep bond with Mori Hildelve as fellow Siege Brigade pilots. Learning of Hildelve's brutal death at the claws of Mangeclaw drives Hammerfoot to seek vengeance, fulfilling the final wish written in his friend's journal."
   }
  ],
  "angles": [

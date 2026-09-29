@@ -20,11 +20,11 @@
    "Gerenzo's Orders (2)"
   ]
  },
- "summary": "Having eliminated Chief Engineer Gerenzo and secured a sample of strange ore, Piznik dispatches adventurers to take the specimen to his contact, Ziz Fizziks. The delivery wraps up a risky act of corporate espionage deep in the Venture Company operations of Windshear Crag.",
+ "summary": "Having fought off the dig site's patrols and secured a sample of the strange ore Gerenzo ordered mined, Piznik dispatches adventurers to take the specimen to his contact, Ziz Fizziks. The delivery wraps up a risky act of corporate espionage deep in the Venture Company operations of Windshear Crag.",
  "sections": [
   {
    "title": "A Ticket Out",
-   "body": "With Chief Engineer Gerenzo dead, Piznik knows his time among the Venture Company crew at Windshear Crag has expired. Corporate management in Undermine does not take kindly to internal sabotage and murder, prompting the nervous goblin to orchestrate his escape. Before slipping away to seek a new employer, he entrusts the Unidentified Ore secured from Gerenzo to an outsider, ensuring the prized specimen gets delivered safely without drawing suspicion to himself.",
+   "body": "With his cover blown by the fight at the dig site, Piznik knows his time among the Venture Company crew at Windshear Crag has expired. Corporate management in Undermine does not take kindly to internal sabotage, prompting the nervous goblin to orchestrate his escape. Before slipping away to seek a new employer, he entrusts the Unidentified Ore mined under Gerenzo's orders to an outsider, ensuring the prized specimen gets delivered safely without drawing suspicion to himself.",
    "spoiler": 0
   },
   {
@@ -41,7 +41,7 @@
     "piznik runaway",
     "why piznik scared"
    ],
-   "answer": "Piznik orchestrated the assassination of his superior, Chief Engineer Gerenzo. He knows that once the Venture Company's higher-ups catch wind of the incident, retribution will be swift, so he must sneak away and secure new employment."
+   "answer": "Piznik was caught by the site's overseers while secretly mining an ore sample for Ziz, blowing his cover as an informant. He knows that once the Venture Company's higher-ups catch wind of the incident, retribution will be swift, so he must sneak away and secure new employment."
   },
   {
    "q": "Who is Ziz Fizziks?",
@@ -59,7 +59,7 @@
     "what is the ore",
     "gerenzo ore"
    ],
-   "answer": "It is a rare geological sample obtained from Chief Engineer Gerenzo. Ziz Fizziks intends to send it to researchers and engineers in Undermine to analyze its industrial applications."
+   "answer": "It is a sample of the mysterious gold-green ore that Chief Engineer Gerenzo ordered mined in large amounts. Ziz Fizziks intends to send it to researchers and engineers in Undermine to analyze its industrial applications."
   },
   {
    "q": "Where can Ziz Fizziks be found?",
@@ -91,7 +91,7 @@
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "The Unidentified Ore extracted from Gerenzo reveals that the Venture Company's deforesting operations in Windshear Crag are equally focused on scouring the mountains for unknown subterranean wealth."
+   "text": "The Unidentified Ore mined on Gerenzo's orders reveals that the Venture Company's deforesting operations in Windshear Crag are equally focused on scouring the mountains for unknown subterranean wealth."
   },
   {
    "target": "profession:Engineering",

@@ -8,7 +8,7 @@
   "wiki": "Grand Mason Marblesten",
   "refs": 3
  },
- "summary": "Grand Mason Marblesten is an esteemed dwarven stonemason stationed in the busy Commons of Ironforge. Deeply devoted to the royal legacy of Khaz Modan, he oversees the monument honoring King Magni Bronzebeard's late brother, Muradin. Adventurers often meet him when assisting with the materials needed to complete this solemn tribute.",
+ "summary": "Grand Mason Marblesten is an esteemed dwarven stonemason stationed in the busy Commons of Ironforge. Deeply devoted to the royal legacy of Khaz Modan, he has been commissioned by King Magni Bronzebeard to build a memorial to Sully Balloo, a dwarven soldier who died in the Thandol Span tragedy. Adventurers often meet him when assisting with the materials needed to complete this solemn tribute.",
  "sections": [
   {
    "title": "Master of the Stone",
@@ -17,7 +17,7 @@
   },
   {
    "title": "A King's Tribute",
-   "body": "Marblesten's most poignant task is crafting a fitting memorial for Muradin Bronzebeard, King Magni's fallen brother who was lost in the frozen wastes of Northrend during the Third War. Recognizing that ordinary rock will not suffice for a prince of the mountain, the Grand Mason coordinates the collection of rare materials to ensure the monument withstands the test of ages.",
+   "body": "Marblesten's most poignant task is a memorial King Magni commissioned for Sully Balloo, a soldier who died in the Thandol Span tragedy, as a tribute to his grieving widow. Wanting a truly lasting piece, the Grand Mason insists on one of the finest stones available: Alterac Granite from Darrow Hill in Hillsbrad.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "marblesten role",
     "grand mason npc"
    ],
-   "answer": "Grand Mason Marblesten is a senior dwarven stonemason located in the Commons of Ironforge. He is entrusted with civic and royal sculpting projects, most notably a grand monument honoring Prince Muradin Bronzebeard."
+   "answer": "Grand Mason Marblesten is a senior dwarven stonemason located in the Commons of Ironforge. He is entrusted with civic and royal sculpting projects, most notably a memorial to the fallen soldier Sully Balloo, commissioned by King Magni Bronzebeard."
   },
   {
    "q": "Where can I find Grand Mason Marblesten?",
@@ -47,7 +47,7 @@
     "kings tribute quest",
     "marblesten statue"
    ],
-   "answer": "He is overseeing the creation of a royal monument commemorating Muradin Bronzebeard, who perished in Northrend during Prince Arthas Menethil's ill-fated expedition."
+   "answer": "He is building a memorial to Sully Balloo, a dwarven soldier who died in the Thandol Span tragedy. King Magni Bronzebeard commissioned it in tribute to Balloo and his grieving widow."
   },
   {
    "q": "Why does Marblesten need adventurers to gather materials?",
@@ -56,7 +56,7 @@
     "why need stones",
     "materials for monument"
    ],
-   "answer": "A memorial honoring dwarven royalty demands resilient, high-quality materials. Marblesten enlists travelers to scour the mountain territories to retrieve the proper stone and components worthy of a Bronzebeard prince."
+   "answer": "Marblesten wants a truly epic and lasting piece, so he will only work with one of the finest stones available. He sends travelers to Darrow Hill in Hillsbrad to gather Alterac Granite."
   },
   {
    "q": "What does the title 'Grand Mason' mean in dwarven society?",
@@ -78,7 +78,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, stonecraft is ancestral heritage; aiding Marblesten pays homage both to the craft of Khaz Modan and to the memory of fallen hero Muradin Bronzebeard."
+   "text": "For dwarves, stonecraft is ancestral heritage; aiding Marblesten pays homage both to the craft of Khaz Modan and to the memory of the fallen soldier Sully Balloo."
   },
   {
    "target": "profession:Mining",
@@ -86,7 +86,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Honoring the sacrifice of Muradin Bronzebeard unites the Alliance in shared remembrance of the devastating losses suffered during the Third War."
+   "text": "Honoring the sacrifice of Sully Balloo reminds the Alliance of every soldier lost in its wars."
   }
  ],
  "keywords": [
@@ -97,8 +97,8 @@
   "ironforge",
   "magni",
   "marblesten",
-  "muradin",
-  "stonemason"
+  "stonemason",
+  "sully balloo"
  ],
  "related": [
   "quest:686",

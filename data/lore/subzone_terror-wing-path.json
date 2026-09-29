@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Terror Wing Path"
  },
- "summary": "Terror Wing Path is a rocky canyon winding through the eastern reaches of the Burning Steppes. Infested by whelps and dragonkin of the black dragonflight, it serves as a perilous thoroughfare connecting the rugged slopes toward the southern mountains.",
+ "summary": "Terror Wing Path is a rocky canyon winding through the eastern reaches of the Burning Steppes. Infested by whelps and dragonkin of the black dragonflight, it serves as a perilous approach into the remote northeastern corner of the Steppes.",
  "sections": [
   {
    "title": "A Dragonkin Roost",
@@ -15,8 +15,8 @@
    "spoiler": 0
   },
   {
-   "title": "Passage to the South",
-   "body": "Despite the constant danger of dragon attacks, the path is an important geographical corridor. Toward the southeastern edges of the canyon, trails climb into the mountainous heights toward the Redridge Pass. Travelers seeking routes across the rugged divide toward Redridge Mountains or down toward distant swamps must brave the brood's territory to reach these southern trails.",
+   "title": "A Perilous Passage",
+   "body": "Black drakes patrol the length of the valley, and the rare magma giant Volchan is sometimes seen wandering through it. Only the most seasoned adventurers dare the journey, and seldom alone, yet it is the only way to reach the hidden cave of Slither Rock in the far northeastern corner of the Steppes.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "terror wing path route",
     "terror wing directions"
    ],
-   "answer": "It winds through the eastern side of the Burning Steppes, connecting the interior volcanic plains with the highland approaches toward Redridge Pass to the south."
+   "answer": "It winds through the eastern side of the Burning Steppes into the region's remote northeastern corner, where the cave of Slither Rock lies hidden beyond it."
   },
   {
    "q": "Why is the black dragonflight active in this canyon?",

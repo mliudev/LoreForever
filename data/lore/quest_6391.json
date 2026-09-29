@@ -17,16 +17,16 @@
   "wiki": "Ride to Ironforge (Classic)",
   "chain": []
  },
- "summary": "Ride to Ironforge is an introductory courier quest that sends newly trained adventurers on their first gryphon flight from Kharanos into the dwarven capital. Entrusted with a list of top mining students from Brock Stoneseeker, the traveler carries the dispatch straight to Golnir Bouldertoe at the Great Forge.",
+ "summary": "Ride to Ironforge is an introductory courier quest that sends newly trained adventurers on their first gryphon flight from Thelsamar in Loch Modan into the dwarven capital. Entrusted with a list of top mining students from Brock Stoneseeker, the traveler carries the dispatch straight to Golnir Bouldertoe at the Great Forge.",
  "sections": [
   {
    "title": "Taking to the Skies",
-   "body": "For many young mountaineers and travelers fresh out of Coldridge Valley, the flight from Kharanos to Ironforge marks their very first journey astride a gryphon. Handled by Gryphon Master Thorgrum Borrelson, this short passage carries travelers over Dun Morogh's snowy ridges and directly into the cavernous entry of the mountain fortress.",
+   "body": "For many young mountaineers and travelers, the flight from Thelsamar to Ironforge marks their very first journey astride a gryphon. Handled by Gryphon Master Thorgrum Borrelson, this short passage carries travelers over Dun Morogh's snowy ridges and directly into the cavernous entry of the mountain fortress.",
    "spoiler": 0
   },
   {
    "title": "Honors of the Deep Mountain Guild",
-   "body": "The errand itself serves the Deep Mountain Mining Guild. Brock Stoneseeker regularly sends word of his most promising mining pupils from Steelgrill's Depot. Waiting at the Great Forge is Golnir Bouldertoe, who inscribes the apprentices' names onto ceremonial honorary picks to reward their hard work in Dun Morogh's quarries and mines.",
+   "body": "The errand itself serves the Deep Mountain Mining Guild. Brock Stoneseeker regularly sends word of his most promising mining pupils from Thelsamar. Waiting at the Great Forge is Golnir Bouldertoe, who inscribes the apprentices' names onto ceremonial honorary picks to reward their hard work in Loch Modan's quarries and mines.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where do i fly",
     "ride destination"
    ],
-   "answer": "The journey begins at the flight master Thorgrum Borrelson near Kharanos in Dun Morogh and carries you straight into the flight roost at the Great Forge inside Ironforge."
+   "answer": "The journey begins at the flight master Thorgrum Borrelson in Thelsamar in Loch Modan and carries you straight into the flight roost at the Great Forge inside Ironforge."
   },
   {
    "q": "What is Brock's List?",
@@ -47,7 +47,7 @@
     "who is brock",
     "what is the paper"
    ],
-   "answer": "Brock's List is a roster compiled by the mining trainer Brock Stoneseeker at Steelgrill's Depot. It records his finest students so that the guild in Ironforge can reward their diligence."
+   "answer": "Brock's List is a roster compiled by the mining trainer Brock Stoneseeker in Thelsamar. It records his finest students so that the guild in Ironforge can reward their diligence."
   },
   {
    "q": "Who is Golnir Bouldertoe?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "This task directly highlights the Deep Mountain Mining Guild's tradition of recognizing and engraving honors for promising miners emerging from Dun Morogh's pits."
+   "text": "This task directly highlights the Deep Mountain Mining Guild's tradition of recognizing and engraving honors for promising miners emerging from Loch Modan's pits."
   },
   {
    "target": "race:Dwarf",

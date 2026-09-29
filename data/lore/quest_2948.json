@@ -21,16 +21,16 @@
    "Gnome Improvement"
   ]
  },
- "summary": "After recovering his lost family ring from the irradiated depths of Gnomeregan, Talvash del Kissel offers to upgrade the piece for an adventurer willing to supply the materials. Down on his luck in the dwarven capital of Ironforge, the gnome artisan combines silver, moss agate, and intricate lattice work to craft a far superior trinket.",
+ "summary": "After an adventurer brings him a ring he once crafted, recovered from the irradiated depths of Gnomeregan, Talvash del Kissel offers to upgrade the piece for an adventurer willing to supply the materials. Down on his luck in the dwarven capital of Ironforge, the gnome artisan combines silver, moss agate, and intricate lattice work to craft a far superior trinket.",
  "sections": [
   {
    "title": "A Gnomish Artisan in Exile",
-   "body": "Talvash del Kissel is one of the many gnome refugees who fled Gnomeregan following its disastrous fall to the trogg invasion and radiation. Residing in the gnome enclave of Tinker Town within Ironforge, Talvash finds himself down on his luck, out of stock, and desperate to prove that his talents as a master jeweler and tinkerer remain untarnished despite his exile.",
+   "body": "Talvash del Kissel is one of the many gnome refugees who fled Gnomeregan following its disastrous fall to the trogg invasion and radiation. Residing in the Mystic Ward of Ironforge, Talvash finds himself down on his luck, out of stock, and desperate to prove that his talents as a master jeweler and tinkerer remain untarnished despite his exile.",
    "spoiler": 0
   },
   {
-   "title": "Upgrading the Family Band",
-   "body": "When an adventurer returns Talvash's long-lost grime-encrusted family heirloom cleansed from the Sparklematic 5200, Talvash is grateful but ambitious. Rather than letting a customer walk away with what he considers a dated, simple ring design, he insists on enhancing it. By layering a delicate silver and moss agate lattice over the band, he creates an improved piece that reflects his evolving mastery of metal and gemstone craft.",
+   "title": "Upgrading the Old Band",
+   "body": "When an adventurer shows Talvash a ring of his own simple pre-fall design, cleansed of its grime by the Sparklematic 5200, Talvash is grateful but ambitious. Rather than letting a customer walk away with what he considers a dated, simple ring design, he insists on enhancing it. By layering a delicate silver and moss agate lattice over the band, he creates an improved piece that reflects his evolving mastery of metal and gemstone craft.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "talvash del kissel",
     "gnome jeweler ironforge"
    ],
-   "answer": "Talvash del Kissel is a skilled gnome craftsman and jeweler currently living as an exile in Ironforge. He originally lost a family heirloom ring during the evacuation of Gnomeregan, which players can recover and bring to him in Tinker Town."
+   "answer": "Talvash del Kissel is a skilled gnome craftsman and jeweler currently living as an exile in Ironforge. He ran a small jewelry shop in Gnomeregan before its fall, and one of the rings he made there can be recovered and brought to him in the Mystic Ward."
   },
   {
    "q": "What is the history behind the ring being upgraded?",
@@ -50,7 +50,7 @@
     "where does the ring come from",
     "grime encrusted ring origin"
    ],
-   "answer": "The base ring was an old family band of Talvash's that was lost in the ruins of Gnomeregan. After being retrieved by adventurers from the Sparklematic 5200 cleaner inside the ruined city, Talvash offers to modernise and embellish the plain band into a much finer trinket."
+   "answer": "The base ring is one of several simple rings Talvash crafted in his old Gnomeregan shop, later found on a Dark Iron dwarf in the ruins. After being retrieved by adventurers from the Sparklematic 5200 cleaner inside the ruined city, Talvash offers to modernise and embellish the plain band into a much finer trinket."
   },
   {
    "q": "Why does Talvash ask the player to provide the reagents?",
@@ -66,7 +66,7 @@
     "how to start gnome improvement",
     "ring questline start"
    ],
-   "answer": "The quest chain begins inside the Gnomeregan dungeon by obtaining a Grime-Encrusted Ring from enemies, cleaning it at the Sparklematic 5200 machine, and then following the inscribed family name back to Talvash in Ironforge."
+   "answer": "The quest chain begins inside the Gnomeregan dungeon by obtaining a Grime-Encrusted Ring from enemies, cleaning it at the Sparklematic 5200 machine, and then following the engraved initials 'TdK' back to Talvash in Ironforge."
   },
   {
    "q": "Is Talvash bitter about his situation in Ironforge?",
@@ -82,7 +82,7 @@
     "can horde do gnome improvement",
     "horde ring upgrade"
    ],
-   "answer": "No. While Horde players can clean Grime-Encrusted objects in Gnomeregan, their version of the ring quest redirects them to an alternate contact, Narm Faulk in Orgrimmar, rather than Talvash in Ironforge."
+   "answer": "No. While Horde players can clean Grime-Encrusted objects in Gnomeregan, their version of the ring quest redirects them to an alternate contact, Nogg in Orgrimmar, rather than Talvash in Ironforge."
   }
  ],
  "angles": [
@@ -96,7 +96,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Taking place between Gnomeregan and Tinker Town, the task reinforces the deep ties forged between Alliance heroes and the displaced refugees of the fallen gnome capital."
+   "text": "Taking place between Gnomeregan and Ironforge, the task reinforces the deep ties forged between Alliance heroes and the displaced refugees of the fallen gnome capital."
   }
  ],
  "keywords": [
@@ -106,8 +106,7 @@
   "ironforge",
   "moss agate",
   "silver bar",
-  "talvash",
-  "tinker town"
+  "talvash"
  ],
  "related": [
   "npc:talvash-del-kissel",

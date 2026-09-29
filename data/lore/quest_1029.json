@@ -17,11 +17,11 @@
   "wiki": "Raene's Cleansing (8)",
   "chain": []
  },
- "summary": "This step in the long-running Ashenvale investigation sees Dartol's Rod of Transformation fully restored. Entrusted with the completed artifact by the priestess Shael'dryn, you return to Raene Wolfrunner in Astranaar to report success and honor the memory of the fallen scout Teronis.",
+ "summary": "This step in the long-running Ashenvale investigation sees Dartol's Rod of Transformation fully restored. Entrusted with the completed artifact by the dryad Shael'dryn, you return to Raene Wolfrunner in Astranaar to report success and honor the memory of the fallen scout Teronis.",
  "sections": [
   {
    "title": "The Rod Restored",
-   "body": "After scouring the corrupted reaches of Ashenvale for components and ancient gem fragments, the relic known as Dartol's Rod of Transformation has finally been reforged. Entrusted to the dryad and priestess Shael'dryn at Iris Lake, its magical properties were cleansed and renewed. With the craftsmanship complete, she directs you back across the forest roads to Astranaar to present the artifact to Raene Wolfrunner.",
+   "body": "After scouring the corrupted reaches of Ashenvale for components and ancient gem fragments, the relic known as Dartol's Rod of Transformation has finally been reforged. Entrusted to the dryad Shael'dryn near Iris Lake, its magical properties were cleansed and renewed. With the craftsmanship complete, she directs you back across the forest roads to Astranaar to present the artifact to Raene Wolfrunner.",
    "spoiler": 0
   },
   {
@@ -61,7 +61,7 @@
     "shaeldryn",
     "iris lake priestess"
    ],
-   "answer": "Shael'dryn is an Elune-devoted priestess residing quietly near the Moonwell at Iris Lake. Her deep spiritual knowledge and attunement to sacred night elf rituals allow her to purify corrupted relics and restore ancient tools of power."
+   "answer": "Shael'dryn is a dryad residing quietly near the moonwell east of Iris Lake. Her deep knowledge of the forest and its ancient relics allows her to purify corrupted relics and restore ancient tools of power."
   },
   {
    "q": "Where does this quest take place?",

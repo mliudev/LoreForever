@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Toxic Predicament",
-   "body": "Following the daring infiltration of the Venture Company's tower in the Merchant Coast, rogues find themselves afflicted by Zanzil's altered mixture. The poison wreaks havoc on the body, dulling reflexes and threatening life itself. Recognizing the severity of the affliction, rogue trainer Shenthul in Orgrimmar admits that local remedies are inadequate and directs the poisoned operative across the sea to the Eastern Kingdoms.",
+   "body": "Following the daring infiltration of the Venture Company's tower north of the Sludge Fen, rogues find themselves afflicted by Zanzil's altered mixture. The poison wreaks havoc on the body, dulling reflexes and threatening life itself. Recognizing the severity of the affliction, rogue trainer Shenthul in Orgrimmar admits that local remedies are inadequate and directs the poisoned operative across the sea to the Eastern Kingdoms.",
    "spoiler": 0
   },
   {
@@ -56,7 +56,7 @@
     "mission possible poison",
     "why am i poisoned"
    ],
-   "answer": "You were infected during the covert task Mission: Possible But Not Probable at the Venture Company tower along the Merchant Coast of the Barrens. Opening the high-security chest exposed you to Zanzil's altered mixture, leaving a lingering, debilitating affliction."
+   "answer": "You were infected during the covert task Mission: Possible But Not Probable at the Venture Company tower north of the Sludge Fen in the Barrens. Opening the high-security chest exposed you to Zanzil's altered mixture, leaving a lingering, debilitating affliction."
   },
   {
    "q": "What happens after Serge Hinott receives the sample?",
@@ -74,7 +74,7 @@
     "shenthul orgrimmar",
     "why did trainer send me"
    ],
-   "answer": "Shenthul is the rogue trainer located in the Shadowswift brotherhood's enclave in Orgrimmar. He oversaw your test of skill in the Barrens and recognized that Zanzil's concoction was far beyond Orgrimmar's medical knowledge, requiring a specialist in Hillsbrad."
+   "answer": "Shenthul is the rogue trainer of the Shattered Hand, located in the Cleft of Shadow in Orgrimmar. He oversaw your test of skill in the Barrens and recognized that Zanzil's concoction was far beyond Orgrimmar's medical knowledge, requiring a specialist in Hillsbrad."
   },
   {
    "q": "Can any other class complete this quest?",

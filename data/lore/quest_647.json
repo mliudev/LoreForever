@@ -17,16 +17,16 @@
   "wiki": "MacKreel's Moonshine (quest)",
   "chain": []
  },
- "summary": "MacKreel's Moonshine is a fast-paced errand run on behalf of Foggy MacKreel, a dwarven guard stationed at Menethil Harbor. Having overindulged on his own potent brew and slept through his post, Foggy entrusts an Alliance traveler with rushing a fresh batch across the water to settle a lingering debt with Brewmeister Bilger in Southshore.",
+ "summary": "MacKreel's Moonshine is a fast-paced errand run on behalf of Foggy MacKreel, a dwarf stranded on the broken part of the Thandol Span. Having overindulged on his own potent brew and slept through his watch, Foggy entrusts an Alliance traveler with rushing a fresh batch to Hillsbrad to settle a lingering debt with Brewmeister Bilger in Southshore.",
  "sections": [
   {
    "title": "A Guard's Hangover",
-   "body": "Life on watch in Menethil Harbor is wet, cold, and notoriously dull. Foggy MacKreel manages the damp chill by imbibing his own homemade moonshine, a concoction so fierce he compares its aftermath to an entire brigade of siege engines rolling across his skull. Unfortunately for Foggy, one drink too many caused him to pass out during his shift. With Captain Longbraid keeping a stern eye over the harbor garrison, Foggy cannot afford any further lapses in discipline.",
+   "body": "Life on watch atop the shattered Thandol Span is wet, cold, and notoriously dull. Foggy MacKreel manages the damp chill by imbibing his own homemade moonshine, a concoction so fierce he compares its aftermath to an entire brigade of siege engines rolling across his skull. Unfortunately for Foggy, one drink too many caused him to pass out during his shift. With Longbraid the Grim commanding the dwarves defending the Span, Foggy cannot afford any further lapses in discipline.",
    "spoiler": 0
   },
   {
    "title": "A Race Against the Clock",
-   "body": "Compounding Foggy's troubles is a longstanding debt owed to Brewmeister Bilger across the bay in Southshore. Foggy promised Bilger a batch of his personal brew to balance the books, but between his hangover and his shift duties, he finds himself minutes away from default. Relying on the ferry and swift feet, travelers must sprint across Hillsbrad's coastline to deliver the jug before Bilger decides Foggy has skipped out on his tab once again.",
+   "body": "Compounding Foggy's troubles is a longstanding debt owed to Brewmeister Bilger in Southshore. Foggy promised Bilger a batch of his personal brew to balance the books, but between his hangover and his shift duties, he finds himself minutes away from default. Relying on gryphons and swift feet, travelers must race across the Arathi Highlands to Southshore to deliver the jug before Bilger decides Foggy has skipped out on his tab once again.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is foggy",
     "quest giver mackreel"
    ],
-   "answer": "Foggy MacKreel is a dwarf stationed with the town guard in Menethil Harbor. Known for brewing extremely stout homemade moonshine, he tends to sample his own product a little too freely while on duty."
+   "answer": "Foggy MacKreel is a dwarf found on the broken part of the Thandol Span, reached from the Arathi Highlands side. Known for brewing extremely stout homemade moonshine, he tends to sample his own product a little too freely while on duty."
   },
   {
    "q": "Why is this delivery so urgent?",
@@ -47,7 +47,7 @@
     "why 15 minutes",
     "mackreel moonshine timer"
    ],
-   "answer": "Foggy ran severely behind schedule after passing out drunk during his watch. He has a strict deadline to deliver the moonshine to Brewmeister Bilger to settle an overdue tab, leaving barely a quarter of an hour to make the crossing from Menethil Harbor to Southshore."
+   "answer": "Foggy ran severely behind schedule after passing out drunk during his watch. He has a strict deadline to deliver the moonshine to Brewmeister Bilger to settle an overdue tab, leaving barely a quarter of an hour to make the journey from the Thandol Span to Southshore."
   },
   {
    "q": "Who is Brewmeister Bilger?",
@@ -65,7 +65,7 @@
     "fastest way southshore mackreel",
     "moonshine delivery route"
    ],
-   "answer": "The most straightforward route is taking the Alliance ferry directly from Menethil Harbor across the bay to Southshore, followed by a quick sprint off the docks to find Brewmeister Bilger in town before the timer expires."
+   "answer": "There is no boat from the Span to Southshore. The quickest route is to head into the Arathi Highlands and take a gryphon from Refuge Pointe to Southshore if you know that flight path, then find Brewmeister Bilger in town before the timer expires."
   },
   {
    "q": "Who is Longbraid?",
@@ -73,7 +73,7 @@
     "captain longbraid",
     "longbraid menethil"
    ],
-   "answer": "Captain Longbraid is an officer commanding garrison forces at Menethil Harbor. Foggy lives in absolute dread of Longbraid discovering that he drank himself unconscious while supposed to be guarding the harbor."
+   "answer": "Longbraid the Grim is the dwarf commander stationed outside Dun Modr in the Wetlands, leading the defenders of the Thandol Span. Foggy lives in absolute dread of Longbraid discovering that he drank himself unconscious while supposed to be on watch."
   }
  ],
  "angles": [
@@ -83,7 +83,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "This quick maritime run highlights the vital nautical connection between Menethil Harbor in the Wetlands and Southshore in Hillsbrad."
+   "text": "This quick overland run highlights the vital connection between the Thandol Span and Alliance-held Southshore in Hillsbrad."
   }
  ],
  "keywords": [

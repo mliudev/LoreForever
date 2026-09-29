@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Flame Crest"
  },
- "summary": "Flame Crest is a rugged Horde outpost perched atop a rocky ledge overlooking the volcanic wastes of the Burning Steppes. Accessed only across a crude span, this precarious encampment serves as a forward staging ground against the Dark Horde entrenched in Blackrock Mountain. It provides essential aerial connections and a haven for scouts, beast collectors, and strategists.",
+ "summary": "Flame Crest is a rugged neutral outpost perched atop a rocky ledge overlooking the volcanic wastes of the Burning Steppes. Accessed only across a crude span, this precarious encampment serves as a forward staging ground against the Dark Horde entrenched in Blackrock Mountain. It provides essential aerial connections and a haven for scouts, beast collectors, and strategists.",
  "sections": [
   {
    "title": "A Precarious Perch",
@@ -16,7 +16,7 @@
   },
   {
    "title": "Shadow of Blackrock",
-   "body": "Flame Crest is more than just a wind rider roost; it is a critical forward watchpoint for Warchief Thrall's Horde. Venerable veterans like Eitrigg and young warriors like Ariok have utilized the crag to monitor the Blackrock clan entrenched within Blackrock Spire. Here, deep in hostile territory, Horde scouts gather intelligence, lay plans to break the renegade Dark Horde, and trade with eccentric loners like the pet master Kibler in his nearby cave.",
+   "body": "Flame Crest is more than just a wind rider roost; it is a critical forward watchpoint over the Blackrock clan entrenched within Blackrock Spire. Here, deep in hostile territory, scouts gather intelligence, lay plans to break the renegade Dark Horde, and trade with eccentric loners like the pet master Kibler in his nearby cave.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is flame crest",
     "burning steppes horde camp"
    ],
-   "answer": "Flame Crest is a Horde encampment in the Burning Steppes. Built atop a narrow rock outcropping reachable only by a crude bridge, it provides flight path connections, scouting shelter, and supplies in an otherwise deadly region."
+   "answer": "Flame Crest is a neutral encampment in the Burning Steppes. Built atop a narrow rock outcropping reachable only by a crude bridge, it provides flight path connections, scouting shelter, and supplies in an otherwise deadly region."
   },
   {
    "q": "Where does the flight master at Flame Crest fly?",
@@ -64,7 +64,7 @@
     "why is eitrigg at flame crest",
     "ariok and eitrigg"
    ],
-   "answer": "Eitrigg and Ariok use Flame Crest as a base of operations to orchestrate strikes against their former brethren, the renegade Blackrock clan. Eitrigg knows the mountain's defenses intimately and coordinates Horde operations to dismantle their leadership."
+   "answer": "In the present day, Eitrigg is not stationed at Flame Crest. The veteran orc serves at Warchief Thrall's side in Orgrimmar, while Flame Crest remains a neutral waystation for traders, scouts, and wind riders watching the Blackrock clan."
   }
  ],
  "angles": [
@@ -74,7 +74,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "For orcs loyal to Thrall, this camp is where elder veterans like Eitrigg direct the campaign to purge the stain of the rogue Blackrock clan from the mountain."
+   "text": "For orcs loyal to Thrall, this camp is a vantage point over the rogue Blackrock clan whose presence stains the mountain."
   }
  ],
  "keywords": [

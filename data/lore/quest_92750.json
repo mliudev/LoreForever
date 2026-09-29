@@ -17,7 +17,7 @@
   "wiki": "Detonation at a Distance",
   "chain": []
  },
- "summary": "Detonation at a Distance sends an adventurer seeking specialized explosives expertise from Westfall to the capital of Stormwind. After being prompted by the eccentric gnome tinkerer Sprite Jumpsprocket, you are directed to Stormwind Intelligence to procure a remote detonator.",
+ "summary": "Detonation at a Distance sends an adventurer seeking specialized explosives expertise across the capital of Stormwind. After being prompted by the eccentric gnome tinkerer Sprite Jumpsprocket, you are directed to Stormwind Intelligence to procure a remote detonator.",
  "sections": [
   {
    "title": "A Controlled Blast",
@@ -38,7 +38,7 @@
     "who starts detonation at a distance",
     "sprite jumpsprocket quest"
    ],
-   "answer": "The quest is handed out by Sprite Jumpsprocket, an Alliance-aligned gnome tinkerer found operating out in Westfall."
+   "answer": "The quest is handed out by Sprite Jumpsprocket, an Alliance-aligned gnome tinkerer found in the Dwarven District of Stormwind."
   },
   {
    "q": "Who do you need to talk to in Stormwind?",

@@ -26,7 +26,7 @@
   },
   {
    "title": "Self-Consuming Energy",
-   "body": "Rather than acting as steady reservoirs or catalysts, these stones immediately begin to burn through their contained power the moment they are taken from the ritual tables where they rest. This self-consuming nature prevents anyone from transporting them far, suggesting their creators designed them as temporary conduits or defensive fail-safes.",
+   "body": "Rather than acting as steady reservoirs or catalysts, these stones immediately begin to burn through their contained power the moment they are taken from the ritual tables where they rest. This self-consuming nature prevents anyone from transporting them far.",
    "spoiler": 0
   }
  ],
@@ -39,24 +39,6 @@
     "power stone lore"
    ],
    "answer": "A Flawed Power Stone is a volatile object charged with raw magical power. It has been deliberately crafted with flaws that cause it to burn through its energy and consume itself rapidly once moved."
-  },
-  {
-   "q": "Where are these stones found?",
-   "aliases": [
-    "stone location",
-    "where are power stones",
-    "barrens stones"
-   ],
-   "answer": "These stones are discovered resting atop specialized tables within the Barrens, where magical experiments and ritual artifacts are periodically maintained."
-  },
-  {
-   "q": "Why were the stones made to be flawed?",
-   "aliases": [
-    "why are they flawed",
-    "purpose of flawed stone",
-    "why unstable"
-   ],
-   "answer": "Their deliberate instability suggests they were never intended to be carried or used outside their immediate ritual setting. By causing the stones to consume themselves quickly once removed from their tables, their creators prevent outsiders from easily repurposing or studying the unstable magic."
   },
   {
    "q": "Can the stones be preserved permanently?",
@@ -74,7 +56,7 @@
     "who crafted them",
     "stone creators"
    ],
-   "answer": "The stones belong to practitioners conducting volatile arcane or ritual work in the Barrens, relying on short-lived infusions rather than permanent enchantments."
+   "answer": "The stones are prepared by the warlock Ak'Zeloth, who has Horde adventurers carry them to the altar of fire on Dreadmist Peak to disrupt the Demon Seed's connection to the Burning Legion."
   },
   {
    "q": "Why does the Horde care about them?",
@@ -89,10 +71,6 @@
   {
    "target": "faction:Horde",
    "text": "The Horde keeps a wary eye on arcane oddities scattered across the Barrens, guarding against rogue sorcery that could threaten their supply routes."
-  },
-  {
-   "target": "class:Mage",
-   "text": "Mages recognize the deliberate structural imperfections in these stones as a volatile fail-safe designed to prevent the theft of raw magical energy."
   }
  ],
  "keywords": [

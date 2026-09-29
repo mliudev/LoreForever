@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Master's Innovation Proven",
-   "body": "Grimand Elmore, working from his forge in Stormwind's Dwarven District, originally held deep skepticism regarding the bizarre and daring techniques developed by Ironforge's master armorer, Furen Longbeard. Testing Furen's methods required perilous expeditions into hostile territory to gather rare elemental and beast components. By delivering these vital materials, a warrior allows Grimand to put the dwarf's theories to the fire, turning raw ingredients into a reinforced suit of armor engineered to endure catastrophic impacts.",
+   "body": "Grimand Elmore, working from his forge in Stormwind's Dwarven District, originally held deep skepticism regarding the bizarre and daring techniques developed by the dwarven master armorer Furen Longbeard. Testing Furen's methods required perilous expeditions into hostile territory to gather rare elemental and beast components. By delivering these vital materials, a warrior allows Grimand to put the dwarf's theories to the fire, turning raw ingredients into a reinforced suit of armor engineered to endure catastrophic impacts.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "grimand elmore role",
     "where is grimand"
    ],
-   "answer": "Grimand Elmore is a skilled human blacksmith residing in the Dwarven District of Stormwind. He works in tandem with colleagues in Ironforge to assist rising warriors in obtaining specialized armor."
+   "answer": "Grimand Elmore is a skilled dwarven weaponsmith residing in the Dwarven District of Stormwind. He works in tandem with colleagues in Ironforge to assist rising warriors in obtaining specialized armor."
   },
   {
    "q": "Who is Furen Longbeard and why is he mentioned?",
@@ -56,7 +56,7 @@
     "furen technique",
     "furen longbeard"
    ],
-   "answer": "Furen Longbeard is a master armorer stationed in Ironforge who devised an experimental technique to fortify armor against immense stress. Grimand was originally doubtful of Furen's claims until you brought the materials needed to test the method."
+   "answer": "Furen Longbeard is a dwarven master armorer stationed in the Dwarven District of Stormwind who devised an experimental technique to fortify armor against immense stress. Grimand was originally doubtful of Furen's claims until you brought the materials needed to test the method."
   },
   {
    "q": "What quest leads directly into this one?",
@@ -65,7 +65,7 @@
     "burning blood quest",
     "what quest comes before this"
    ],
-   "answer": "This quest follows 'Burning Blood', where the warrior brings the final rare reagent\u2014Burning Blood from the fire elementals of the Wetlands\u2014to Grimand so he can quench and temper the metal."
+   "answer": "This quest follows 'Burning Blood', where the warrior brings the final rare reagent\u2014Burning Blood from the Nightbane worgen of Roland's Doom in Duskwood\u2014to Grimand so he can quench and temper the metal."
   },
   {
    "q": "Can any class complete this quest?",

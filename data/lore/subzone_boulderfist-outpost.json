@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Boulderfist Outpost"
  },
- "summary": "Boulderfist Outpost is a fortified mound nestled deep within the ogre settlement of Boulder'gor in the Arathi Highlands. Serving as an interior den and holding area, it houses aggressive Boulderfist ogres alongside captive travelers from both the Alliance and Horde.",
+ "summary": "Boulderfist Outpost is a fortified mound nestled deep within the ogre settlement of Boulder'gor in the Arathi Highlands. Serving as an interior den and holding area, it houses aggressive Boulderfist ogres alongside a few Witherbark trolls.",
  "sections": [
   {
    "title": "A Stronghold within the Mound",
-   "body": "Carved into the earth and stone of western Arathi, Boulderfist Outpost functions as the heart of Boulder'gor. While brute enforcers dominate the settlement above, the outpost's interior concentrates the clan's core strength and provides a dark subterranean shelter. A handful of Witherbark troll witch doctors occasionally mingle among the ogres here, hinting at tenuous tribal cooperation. Travelers who vanish along the highland paths frequently end up dragged into these damp corridors, held as prisoners at the mercy of the clan.",
+   "body": "Carved into the earth and stone of western Arathi, Boulderfist Outpost functions as the heart of Boulder'gor. While brute enforcers dominate the settlement above, the outpost's interior concentrates the clan's core strength and provides a dark subterranean shelter. A handful of Witherbark troll witch doctors occasionally mingle among the ogres here, hinting at tenuous tribal cooperation.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who is trapped in boulderfist",
     "captives in arathi ogres"
    ],
-   "answer": "The outpost serves as a holding den for several unfortunate captives representing different races, including Anthony S. Tarque, Dasan Singlehide, Thisli Squigglebell, and Olfig Ironroar."
+   "answer": "No named captives are known to be held in the outpost today. Its damp corridors belong to Boulderfist enforcers and a few Witherbark witch doctors, and anyone wandering inside should expect a fight rather than a rescue."
   },
   {
    "q": "Who leads the ogres inside the outpost?",
@@ -56,11 +56,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Alliance scouts traveling Arathi should take note of human, dwarven, and gnomish captives imprisoned in the depths of the mound awaiting rescue."
+   "text": "Alliance scouts traveling Arathi should give the mound a wide berth, as the Boulderfist enforcers inside attack any intruder on sight."
   },
   {
    "target": "faction:Horde",
-   "text": "The Boulderfist ogres make no distinction between factions, seizing Horde wanderers like the tauren Dasan Singlehide just as readily as their Alliance rivals."
+   "text": "The Boulderfist ogres make no distinction between factions, attacking Horde wanderers just as readily as their Alliance rivals."
   }
  ],
  "keywords": [

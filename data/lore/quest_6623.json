@@ -10,7 +10,7 @@
   ],
   "level": "",
   "faction": "Horde",
-  "start": "Krenk Choplimb",
+  "start": "Arnok",
   "end": "Doctor Gregory Victor",
   "previous": null,
   "next": "Triage (Horde)",
@@ -24,7 +24,7 @@
  "sections": [
   {
    "title": "A Summons from Hammerfall",
-   "body": "In Orgrimmar, surgical instructor Krenk Choplimb delivers word to proficient healers that they have caught the attention of Doctor Gregory Victor himself. Victor oversees Horde Trauma from the fortified outpost of Hammerfall, tucked away in the contested hills of the Arathi Highlands. Choplimb views the summons not merely as an order, but as the pinnacle of professional advancement for any battlefield surgeon.",
+   "body": "In Orgrimmar's Valley of Spirits, the orc first aid trainer Arnok delivers word to proficient healers that they have caught the attention of Doctor Gregory Victor himself. Victor oversees Horde Trauma from the fortified outpost of Hammerfall, tucked away in the contested hills of the Arathi Highlands. Arnok views the summons not merely as an order, but as the pinnacle of professional advancement for any battlefield surgeon.",
    "spoiler": 0
   },
   {
@@ -50,7 +50,7 @@
     "who starts horde trauma",
     "krenk choplimb"
    ],
-   "answer": "Krenk Choplimb, a medical trainer residing in Orgrimmar, issues the summons. He considers serving under Doctor Gregory Victor to be the highest honor an aspiring field medic could hope to achieve."
+   "answer": "Arnok, the orc first aid trainer in Orgrimmar's Valley of Spirits, issues the summons. He considers serving under Doctor Gregory Victor to be the highest honor an aspiring field medic could hope to achieve."
   },
   {
    "q": "Where is Doctor Gregory Victor located?",

@@ -17,11 +17,11 @@
   "wiki": "Elixir of Agony (3)",
   "chain": []
  },
- "summary": "This errand continues the development of the Royal Apothecary Society's new plague, dispatching a courier from Undercity back to Tarren Mill. Master Apothecary Faranell enriches a captured gnoll mixture with his own decaying compounds, demanding coastal reagents and alchemical draughts to catalyze the lethal brew.",
+ "summary": "This errand continues the development of the Royal Apothecary Society's new plague, dispatching a courier from Undercity back to Tarren Mill. Master Apothecary Faranell enriches Lydon's Mudsnout mixture with his own decaying compounds, demanding coastal reagents and alchemical draughts to catalyze the lethal brew.",
  "sections": [
   {
    "title": "A Colloid of Decay",
-   "body": "When Apothecary Lydon's field work uncovered a potent composite brewed by the local Mudsnout gnolls, he sent it straight to the Apothecarium in the Undercity. Master Apothecary Faranell, head of the Royal Apothecary Society, immediately recognized the concoction's grim potential. Delighted by its toxic properties, Faranell added his own specialized colloid of decay to the mixture before outlining the catalysts required to weaponize it fully.",
+   "body": "When Apothecary Lydon's field work produced a potent composite from Mudsnout Blossoms gathered at gnoll-held Nethander Stead, he sent it straight to the Apothecarium in the Undercity. Master Apothecary Faranell, head of the Royal Apothecary Society, immediately recognized the concoction's grim potential. Delighted by its toxic properties, Faranell added his own specialized colloid of decay to the mixture before outlining the catalysts required to weaponize it fully.",
    "spoiler": 0
   },
   {
@@ -70,7 +70,7 @@
     "umpi hillsbrad",
     "lydon assistant umpi"
    ],
-   "answer": "Umpi is an undead servant stationed with Apothecary Lydon in Tarren Mill. Lydon spends his idle hours using her as a disposable test subject, repeatedly inflicting lethal toxins and diseases upon her only to reanimate her once more."
+   "answer": "Umpi is the frog Apothecary Lydon keeps as his 'assistant' in Tarren Mill. Lydon spends his idle hours using her as a disposable test subject, repeatedly inflicting lethal toxins and diseases upon her only to reanimate her once more."
   },
   {
    "q": "Why is Master Apothecary Faranell involved in this local project?",
@@ -88,7 +88,7 @@
     "gnoll poison",
     "mudsnout composite"
    ],
-   "answer": "It is an unrefined toxic composite originally extracted from the Mudsnout gnolls of the Hillsbrad Foothills. Recognizing its unusual virulence, Lydon sent it to Undercity, where Faranell blended it with decayed colloids to build a deadlier contagion."
+   "answer": "It is an unrefined toxic composite Lydon mashed from Mudsnout Blossoms, foul mushrooms gathered at gnoll-infested Nethander Stead in the Hillsbrad Foothills. Recognizing its unusual virulence, Lydon sent it to Undercity, where Faranell blended it with decayed colloids to build a deadlier contagion."
   }
  ],
  "angles": [

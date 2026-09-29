@@ -42,16 +42,17 @@
       <ul class="stats">
         <li>by <strong>Mike</strong></li>
         <li id="downloads"><strong>New release</strong></li>
-        <li>Version <strong>0.2.1</strong></li>
+        <li>Version <strong>0.2.2</strong></li>
         <li>Game <strong>WoW Forever 1.60.1</strong></li>
       </ul>
       <!-- Downloads: always the latest GitHub release. Don't rename these assets; the links depend on them. -->
+      <!-- Downloads go through the site (functions/download/[file].js), which counts them and redirects to the
+           latest GitHub release. The email pop-up asks first; without JavaScript the links still download. -->
       <div class="dl-row">
-        <a class="btn-download dl-link" id="download" href="https://www.curseforge.com/wow/addons/lore-forever">Get it on CurseForge</a>
+        <a class="btn-download dl-link" id="download" href="/download/installer">Download for Windows</a>
         <div class="dl-alt">
-          <a class="btn-zip dl-link" href="https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever-Setup.exe">or download the Windows installer</a>
-          <a class="btn-zip dl-link" href="https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip">or download the zip</a>
-          <span class="file-note">Free &middot; 48 MB</span>
+          <a class="btn-zip dl-link" href="/download/zip">or download the zip</a>
+          <span class="file-note">Free &middot; 48 MB &middot; <a class="btn-cf" href="https://www.curseforge.com/wow/addons/lore-forever">Also on CurseForge</a></span>
         </div>
       </div>
     </div>
@@ -59,13 +60,12 @@
     <aside class="install-card" aria-labelledby="install-card-title">
       <h2 id="install-card-title">Install in 3 steps</h2>
       <ol class="steps">
-        <li><strong>Install it with the CurseForge app.</strong> Search for Lore Forever and click Install. The app
-          keeps it updated.</li>
+        <li><strong>Run the installer.</strong> It finds your WoW folder and installs the add-on for you.</li>
         <li><strong>Restart WoW</strong>, or type <code>/reload</code> if you're already in game.</li>
         <li><strong>Type <code>/lore</code></strong> or press the key you pick on first login.</li>
       </ol>
-      <p class="install-note">No CurseForge app? The signed <strong>Windows installer</strong> finds your WoW folder
-        for you. If Windows shows a SmartScreen prompt, click <strong>More info</strong>, then <strong>Run anyway</strong>.</p>
+      <p class="install-note">Signed installer. If Windows shows a SmartScreen prompt, click <strong>More info</strong>,
+        then <strong>Run anyway</strong>, or use the zip.</p>
       <details class="zip-steps">
         <summary>Using the zip instead?</summary>
         <p>Unzip into <code>World of Warcraft\_classic_beta_\Interface\AddOns</code> so you have
@@ -250,21 +250,18 @@
     </div>
   </section>
 
-  <!-- Email sign-up through Buttondown. Set BUTTONDOWN_USERNAME in the script at the bottom; until then the
-       form stays disabled. Buttondown asks for a plain form post (not fetch) so it can show its own CAPTCHA
-       and confirmation page, so the form opens that page in a small window. -->
+  <!-- Email sign-up: saved by functions/api/subscribe.js into the site's own D1 database. No confirmation email. -->
   <section class="signup" aria-labelledby="signup-title">
     <div class="signup-text">
       <h2 id="signup-title">Get new features</h2>
       <p>One email when something new ships. Unsubscribe anytime.</p>
     </div>
-    <form class="signup-form embeddable-buttondown-form" id="signup" method="post" target="popupwindow">
+    <form class="signup-form" id="signup" data-source="landing-page">
       <label for="signup-email" class="visually-hidden">Email address</label>
       <input type="email" name="email" id="signup-email" required placeholder="you@example.com" autocomplete="email">
-      <input type="hidden" name="embed" value="1">
-      <input type="hidden" name="tag" value="landing-page">
+      <input type="text" name="website" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
       <button type="submit" class="btn-small">Notify me</button>
-      <p class="signup-note" id="signup-note" hidden>Sign-ups open soon.</p>
+      <p class="signup-note" id="signup-note" hidden>Thanks, you're on the list.</p>
     </form>
   </section>
 
@@ -324,17 +321,9 @@
 
       <section class="tab-panel" id="install" role="tabpanel">
         <h2>Install</h2>
-        <h3>With the CurseForge app (easiest)</h3>
-        <p>Lore Forever is on <a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge</a>, so the app can install it and keep it updated:</p>
+        <h3>With the Windows installer (easiest)</h3>
         <ol>
-          <li>In the CurseForge app, open World of Warcraft and pick your Forever install. If it isn't listed,
-            add your <code>_classic_beta_</code> folder, or use the installer or zip below.</li>
-          <li>Search for <strong>Lore Forever</strong> and click <strong>Install</strong>.</li>
-          <li>Start the game. On the character screen, open <strong>AddOns</strong> and make sure Lore Forever is ticked.</li>
-        </ol>
-        <h3>With the Windows installer</h3>
-        <ol>
-          <li>Click <strong>or download the Windows installer</strong> at the top of this page and run <code>LoreForever-Setup.exe</code>.
+          <li>Click <strong>Download for Windows</strong> at the top of this page and run <code>LoreForever-Setup.exe</code>.
             It's signed; Windows shows the publisher as Mei Liu.</li>
           <li>If Windows shows a SmartScreen prompt, click <strong>More info</strong>, then <strong>Run anyway</strong>.
             (New publishers can see this for a few weeks.)</li>
@@ -352,6 +341,14 @@
             <code>AddOns\LoreForever\LoreForever\</code> won't load.</li>
           <li>Restart WoW (or <code>/reload</code> if you're already in game).</li>
         </ol>
+        <h3>With the CurseForge app</h3>
+        <p>Lore Forever is on <a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge</a>, so the app can install it and keep it updated:</p>
+        <ol>
+          <li>In the CurseForge app, open World of Warcraft and pick your Forever install. If it isn't listed,
+            add your <code>_classic_beta_</code> folder, or use the installer or zip above.</li>
+          <li>Search for <strong>Lore Forever</strong> and click <strong>Install</strong>.</li>
+          <li>Start the game. On the character screen, open <strong>AddOns</strong> and make sure Lore Forever is ticked.</li>
+        </ol>
 
         <p>On your first login it asks you to pick a key for the panel. You can change it later with <code>/lore key</code>.</p>
         <p>Not showing up? On the character screen, click <strong>AddOns</strong> and tick
@@ -368,12 +365,19 @@
           <li><strong>Forever-only quests:</strong> some quests new in Forever may show "(no lore yet)".</li>
           <li><strong>Settings may reset:</strong> the Forever beta has a known bug where add-on settings don't
             always load back after you log out. That's on the game side.</li>
-          <li><strong>Beta client:</strong> built for build 1.60.1. Game patches can break things, so please report problems.</li>
+          <li><strong>Beta client:</strong> built for build 1.60.1. Game patches can break things, so please <a href="/feedback?kind=bug">report problems</a>.</li>
         </ul>
       </section>
 
       <section class="tab-panel" id="changelog" role="tabpanel">
         <h2>Changelog</h2>
+        <h3>0.2.2</h3>
+        <ul>
+          <li>Lore accuracy pass: about 560 entries corrected, including wrong names, races, places and quest givers,
+            and details that belong to later expansions.</li>
+          <li>Removed about 260 entries for places, people and quests that don't exist yet in WoW Forever's timeline.</li>
+          <li>More story twists now stay behind the spoiler prompt.</li>
+        </ul>
         <h3>0.2.1</h3>
         <ul>
           <li>The Windows installer now lists its publisher as Mei Liu, matching its code signature. The add-on itself is unchanged.</li>
@@ -415,6 +419,7 @@
           <li><a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge page</a></li>
                     <li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li>
           <li><a href="https://discord.gg/fQWrAscHbu">Discord</a></li>
+          <li><a href="/feedback">Send feedback</a></li>
         </ul>
       </div>
     </aside>
@@ -423,23 +428,22 @@
 </main>
 
 <footer class="wrap foot">
+  <p>Spotted a wrong answer? <a href="/feedback">Tell us</a>.</p>
   <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
     <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
   <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>
 
-<!-- Shown when someone clicks Download: an email is required, then the download starts right away
-     (no waiting for Buttondown's confirmation email). -->
+<!-- Shown when someone clicks Download: an email is required, then the download starts right away. -->
 <dialog class="dl-dialog" id="dl-dialog" aria-labelledby="dl-title">
   <button type="button" class="dl-close" id="dl-close" aria-label="Close">&times;</button>
   <h2 id="dl-title">Enter your email to download</h2>
   <p>We'll email you when new features ship. Unsubscribe anytime.</p>
-  <form class="signup-form embeddable-buttondown-form" id="dl-signup" method="post" target="popupwindow">
+  <form class="signup-form" id="dl-signup" data-source="download-popup">
     <label for="dl-email" class="visually-hidden">Email address</label>
     <input type="email" name="email" id="dl-email" required placeholder="you@example.com" autocomplete="email">
-    <input type="hidden" name="embed" value="1">
-    <input type="hidden" name="tag" value="download-popup">
+    <input type="text" name="website" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
     <button type="submit" class="btn-small">Download</button>
   </form>
 </dialog>
@@ -450,37 +454,35 @@
 const GITHUB_REPO = "mliudev/LoreForever";
 const CURSEFORGE_PROJECT_ID = "1715510";
 
-// Buttondown newsletter username (buttondown.com/<username>). Empty keeps the sign-up form disabled.
-const BUTTONDOWN_USERNAME = "mikeliudev";
-
 // Remembers that this browser already subscribed, so the download pop-up stops asking. Best effort only.
 function remember(key, value) { try { localStorage.setItem(key, value); } catch (e) {} }
 function recall(key) { try { return localStorage.getItem(key); } catch (e) { return null; } }
 
-// Both sign-up forms post straight to Buttondown, which shows its confirmation (and CAPTCHA if needed) in a
-// small window. Buttondown asks for a plain form post rather than fetch, so that window is required.
+// Both sign-up forms send the email to /api/subscribe (functions/api/subscribe.js). sendBeacon keeps the
+// request alive when the page moves on to the download, so nobody waits.
 function wireSignup(form, afterSubmit) {
-  form.action = "https://buttondown.com/api/emails/embed-subscribe/" + encodeURIComponent(BUTTONDOWN_USERNAME);
-  form.addEventListener("submit", () => {
-    window.open("https://buttondown.com/" + encodeURIComponent(BUTTONDOWN_USERNAME), "popupwindow",
-      "width=520,height=640");
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    const data = JSON.stringify({ email: form.email.value, source: form.dataset.source, website: form.website.value });
+    const blob = new Blob([data], { type: "application/json" });
+    if (!(navigator.sendBeacon && navigator.sendBeacon("/api/subscribe", blob))) {
+      fetch("/api/subscribe", { method: "POST", body: blob, keepalive: true }).catch(() => {});
+    }
     remember("lf-subscribed", "1");
-    if (afterSubmit) setTimeout(afterSubmit, 300);   // let the post leave before this page moves on
+    if (afterSubmit) afterSubmit();
   });
 }
 
-if (BUTTONDOWN_USERNAME) {
-  wireSignup(document.getElementById("signup"));
-} else {
-  document.querySelectorAll("#signup input, #signup button").forEach(el => el.disabled = true);
+wireSignup(document.getElementById("signup"), () => {
   document.getElementById("signup-note").hidden = false;
-}
+  document.getElementById("signup").reset();
+});
 
-// Download button: ask for an email first (required), then start the download. Skipped only when sign-ups
-// are off or this browser already subscribed.
+// Download button: ask for an email first (required), then start the download. Skipped when this
+// browser already subscribed.
 (function setUpDownloadDialog() {
   const dialog = document.getElementById("dl-dialog");
-  if (!BUTTONDOWN_USERNAME || typeof dialog.showModal !== "function") return;
+  if (typeof dialog.showModal !== "function") return;
   let chosen = document.getElementById("download").href;   // the file the player clicked
   const startDownload = () => { dialog.close(); location.href = chosen; };
   wireSignup(document.getElementById("dl-signup"), startDownload);

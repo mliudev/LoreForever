@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Dunemaul Compound"
  },
- "summary": "Dunemaul Compound serves as the central settlement and ogre mound for the Dunemaul clan in Tanaris. Tucked into the rocky ridges bordering the desert wastes, it houses the clan's brute enforcers, spellcasters, and their chieftain, Sandscraper.",
+ "summary": "Dunemaul Compound serves as the central settlement and ogre mound for the Dunemaul clan in Tanaris. Tucked into the rocky ridges bordering the desert wastes, it houses the clan's brute enforcers and spellcasters.",
  "sections": [
   {
    "title": "A Stronghold in the Sands",
-   "body": "Carved into the rugged desert rock of western Tanaris, the Dunemaul Compound is the primary stronghold of the Dunemaul ogres. These hulking desert dwellers have adapted to the harsh arid climate, scratching out an existence through brute force and opportunism. The compound itself centers on an ogre mound and cave network overseen by their leader, Sandscraper. Though primitive, the clan fields a dangerous mix of warriors, enforcers, and twisted spellcasters practicing dark warlock and mage magics. For travelers journeying across the dunes, the settlement is a treacherous den of aggressive giants who violently reject uninvited guests.",
+   "body": "Carved into the rugged desert rock of western Tanaris, the Dunemaul Compound is the primary stronghold of the Dunemaul ogres. These hulking desert dwellers have adapted to the harsh arid climate, scratching out an existence through brute force and opportunism. The compound itself centers on an ogre mound and cave network. Though primitive, the clan fields a dangerous mix of warriors, enforcers, and twisted spellcasters practicing dark warlock and mage magics. For travelers journeying across the dunes, the settlement is a treacherous den of aggressive giants who violently reject uninvited guests.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who is sandscraper",
     "dunemaul boss"
    ],
-   "answer": "The compound is ruled by Sandscraper, the chieftain of the Dunemaul ogres. He resides deep within the central cave at the heart of the settlement, directing his clan's raids and defenses across the sands."
+   "answer": "The compound belongs to the Dunemaul clan, a reclusive band of desert ogres who answer to no outside power. Their leaders hold the central cave at the heart of the settlement, directing the clan's defenses across the sands."
   },
   {
    "q": "What kinds of ogres live here?",
@@ -40,7 +40,7 @@
     "why recruit ogres",
     "dunemaul recruitment"
    ],
-   "answer": "Goblins aligned with the Horde operate a nearby post just to the east, aiming to strong-arm or negotiate with the Dunemaul clan to recruit their brute strength into the Horde's ranks."
+   "answer": "In the present era the Horde has no real stake in the compound. Unlike most ogres, the Dunemaul keep to themselves around their precious desert water, answer to no outside power, and treat any visitor as an intruder."
   },
   {
    "q": "Who is Omgorn the Lost?",
@@ -54,7 +54,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Horde maintains an active interest in the Dunemaul ogres, deploying agents just east of the compound in hopes of bending these stubborn desert giants into allied shock troops."
+   "text": "Though many ogres once marched with the Old Horde, the reclusive Dunemaul answer to no outside power and treat Horde travelers as intruders like any other."
   },
   {
    "target": "class:Warlock",

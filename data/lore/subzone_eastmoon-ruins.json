@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Eastmoon Ruins"
  },
- "summary": "The Eastmoon Ruins are an ancient troll archaeological site situated in eastern Tanaris, perched just west of the Gaping Chasm. Once built by the desert empires of old, the crumbling stone masonry is now occupied by opportunistic Wastewander bandits using the remnants as a desert encampment.",
+ "summary": "The Eastmoon Ruins are an ancient troll archaeological site situated in eastern Tanaris, perched just west of the Gaping Chasm. Once built by the desert empires of old, the crumbling stone masonry is now occupied by Dunemaul ogres using the remnants as a desert encampment.",
  "sections": [
   {
    "title": "Stones in the Sand",
-   "body": "Rising out of the blistering desert floor just west of the insect-infested Gaping Chasm, the Eastmoon Ruins preserve the crumbling architecture of ancient troll civilization. Decaying pillars, weathered stone plazas, and sun-bleached monuments hint at a time long before the sands swallowed this region. Rather than scholars or troll descendants tending the shrines, the site is firmly entrenched by the Wastewanders\u2014human desert nomads and outlaws who rely on the broken walls for shelter and vantage over nearby trade routes.",
+   "body": "Rising out of the blistering desert floor just west of the insect-infested Gaping Chasm, the Eastmoon Ruins preserve the crumbling architecture of ancient troll civilization. Decaying pillars, weathered stone plazas, and sun-bleached monuments hint at a time long before the sands swallowed this region. Rather than scholars or troll descendants tending the shrines, the site is firmly held by the Dunemaul ogres, who rely on the broken walls for shelter and vantage over nearby trade routes.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "eastmoon ruins mobs",
     "wastewanders at eastmoon"
    ],
-   "answer": "The ruins are occupied by Wastewander bandits, including darkcasters, survivalists, and trackers. These human nomads have claimed the ancient stone walls to set up outposts and keep watch over eastern Tanaris."
+   "answer": "The ruins are occupied by the Dunemaul ogres of Tanaris. These hulking desert brutes have claimed the ancient stone walls to set up camps and keep watch over eastern Tanaris."
   },
   {
    "q": "Where are the Eastmoon Ruins located?",
@@ -60,7 +60,7 @@
   },
   {
    "target": "class:Rogue",
-   "text": "The broken pillars and scattered stone walls provide plenty of blind corners to slip past or ambushing the Wastewander scouts roaming the perimeter."
+   "text": "The broken pillars and scattered stone walls provide plenty of blind corners to slip past or ambushing the Dunemaul ogres roaming the perimeter."
   }
  ],
  "keywords": [

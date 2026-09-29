@@ -17,7 +17,7 @@
   "wiki": "Tramping Paws",
   "chain": []
  },
- "summary": "Tramping Paws is an Alliance task given by Rethiel the Greenwarden at the Greenwarden's Grove in the Wetlands. Troubled by the surging Mosshide gnoll population near the Gate of Algaz, the dryad protector tasks adventurers with culling their numbers before their fires and trampling paws ruin the bog.",
+ "summary": "Tramping Paws is an Alliance task given by Rethiel the Greenwarden at the Greenwarden's Grove in the Wetlands. Troubled by the surging Mosshide gnoll population near the Gate of Algaz, the bog beast protector tasks adventurers with culling their numbers before their fires and trampling paws ruin the bog.",
  "sections": [
   {
    "title": "A Swelling Fen Menace",
@@ -25,8 +25,8 @@
    "spoiler": 0
   },
   {
-   "title": "The Dryad's Judgment",
-   "body": "Rethiel the Greenwarden watches over the marsh with an eye for balance rather than civilization. To the dryad, the issue is not that gnolls exist, but that their runaway population outstrips what the Wetlands can support. By driving Mosshide gnolls and mongrels back into manageable numbers, adventurers help preserve the wetlands and earn the reluctant approval of an ancient wilderness guardian.",
+   "title": "The Greenwarden's Judgment",
+   "body": "Rethiel the Greenwarden watches over the marsh with an eye for balance rather than civilization. To the Greenwarden, the issue is not that gnolls exist, but that their runaway population outstrips what the Wetlands can support. By driving Mosshide gnolls and mongrels back into manageable numbers, adventurers help preserve the wetlands and earn the reluctant approval of an ancient wilderness guardian.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives tramping paws",
     "greenwarden wetlands"
    ],
-   "answer": "Rethiel is a dryad dwelling in the Wetlands along the road between Ironforge's borders and Arathi. Dedicated to preserving the marsh, she monitors the land's health and tasks travelers with keeping destructive populations in check."
+   "answer": "Rethiel is a bog beast dwelling in the Wetlands along the road between Ironforge's borders and Arathi. Dedicated to preserving the marsh, she monitors the land's health and tasks travelers with keeping destructive populations in check."
   },
   {
    "q": "Why are the Mosshide gnolls a problem now?",
@@ -70,7 +70,7 @@
     "rethiel dialogue",
     "faith taxed in the past"
    ],
-   "answer": "As a daughter of Cenarius, Rethiel views mortals and their rapid expansion with wariness. Helping her protect the wild fen proves that mortal adventurers can act as stewards of nature rather than exploiters."
+   "answer": "Rethiel tells you that its faith in your people has been taxed in the past, and it views mortals and their rapid expansion with wariness. Helping her protect the wild fen proves that mortal adventurers can act as stewards of nature rather than exploiters."
   }
  ],
  "angles": [
@@ -80,7 +80,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "Night elves share ancestral bonds with the dryads and Cenarion kin, making Rethiel's plea to heal the marsh a familiar and honored duty."
+   "text": "Night elves share ancestral bonds with the wild spirits of nature, making Rethiel's plea to heal the marsh a familiar and honored duty."
   },
   {
    "target": "race:Dwarf",

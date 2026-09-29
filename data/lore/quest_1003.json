@@ -17,7 +17,7 @@
   "wiki": "Buzzbox 525 (quest)",
   "chain": []
  },
- "summary": "Buzzbox 525 is the second stage in a series of communicative machines scattered along the coast of Darkshore. Created by the eccentric gnome tinkerer Wizbang Cranktoggle, the contraption demands animal remnants to function\u2014while slowly unraveling the inventor's true, illicit ambitions.",
+ "summary": "Buzzbox 525 is the final stage in a series of communicative machines scattered along the coast of Darkshore. Created by the eccentric gnome tinkerer Wizbang Cranktoggle, the contraption demands animal remnants to function\u2014while slowly unraveling the inventor's true, illicit ambitions.",
  "sections": [
   {
    "title": "A Slurred Transmission",
@@ -47,7 +47,7 @@
     "buzzbox bear scalps",
     "what are scalps for"
    ],
-   "answer": "While Wizbang initially claims the scalps are required repairs or fuel for his network, they actually serve as bizarre brewing ingredients. He uses the organic material within the Buzzbox mechanism to distill what he calls thistle bear beer."
+   "answer": "Wizbang claims the scalps are needed to repair Buzzbox 525, just as the earlier machines needed crawler legs, thresher eyes and moonstalker fangs. The drunken song about thistle bear beer coming from the box hints at another purpose."
   },
   {
    "q": "Why does Wizbang hide the Buzzboxes out in the wilderness?",
@@ -87,22 +87,17 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The strict stewardship of Darkshore leaves little patience for reckless gnomish tinkering, let alone a clandestine bootlegging network operating right under the sentinels' noses."
+   "text": "The strict stewardship of Darkshore leaves little patience for reckless gnomish tinkering."
   },
   {
    "target": "race:Gnome",
-   "text": "Wizbang's multi-purpose brewing transceivers showcase typical gnomish ambition, blending complex engineering with questionable practical priorities."
-  },
-  {
-   "target": "profession:Engineering",
-   "text": "The Buzzbox system cleverly combines two-way acoustic communications with automated distillation boilers in a single, compact chassis."
+   "text": "Wizbang's multi-purpose transceivers showcase typical gnomish ambition, blending complex engineering with questionable practical priorities."
   }
  ],
  "keywords": [
   "auberdine",
   "buzzbox 525",
   "darkshore",
-  "distillery",
   "grizzled scalp",
   "thistle bear",
   "thistle bear beer",

@@ -17,11 +17,11 @@
   "wiki": "Inquire at the Inn",
   "chain": []
  },
- "summary": "Inquire at the Inn is an Alliance quest in Darkshire that continues the investigation into the mysterious stranger connected to Sven Yorgen's ruined camp. Directed by Clerk Daltry, adventurers take a recovered journal to the Scarlet Raven Tavern to question Tavernkeep Smitts about who stayed there.",
+ "summary": "Inquire at the Inn is an Alliance quest in Darkshire that continues the investigation into the mysterious stranger connected to Sven Yorgen's ruined farm. Directed by Clerk Daltry, adventurers take a recovered journal to the Scarlet Raven Tavern to question Tavernkeep Smitts about who stayed there.",
  "sections": [
   {
    "title": "A Lead at the Scarlet Raven",
-   "body": "After Clerk Daltry finishes examining the tattered book recovered from Sven Yorgen's camp, he suggests that any stranger visiting Darkshire would almost certainly have passed through the local tavern. The Scarlet Raven Inn stands across town as Darkshire's only gathering hall and lodging house, making it the most sensible place to track down transient visitors.",
+   "body": "After Clerk Daltry finishes examining the tattered book recovered from Sven Yorgen's farm, he suggests that any stranger visiting Darkshire would almost certainly have passed through the local tavern. The Scarlet Raven Inn stands across town as Darkshire's only gathering hall and lodging house, making it the most sensible place to track down transient visitors.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "book from svens farm",
     "journal"
    ],
-   "answer": "It is the worn journal retrieved from the wrecked campsite of Sven Yorgen in northwest Duskwood, believed to belong to the shadowy figure seen prowling around the area."
+   "answer": "It is the worn journal retrieved from Sven Yorgen's ruined farmstead in southern Duskwood, believed to belong to the shadowy figure seen prowling around the area."
   },
   {
    "q": "Who runs the Scarlet Raven Inn?",

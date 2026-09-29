@@ -17,11 +17,11 @@
   "wiki": "Hex of Weakness (Durotar)",
   "chain": []
  },
- "summary": "Hex of Weakness is an early rite of passage quest given to young Darkspear troll priests who have proven their initial worth in Sen'jin Village. Sent north into Orgrimmar by Tai'jin, the initiate seeks out Ur'kyo to be welcomed deeper into the tribe's spiritual circle and instructed in the loa's darker arts.",
+ "summary": "Hex of Weakness is an early rite of passage quest given to young Darkspear troll priests who have proven their initial worth in Razor Hill. Sent north into Orgrimmar by Tai'jin, the initiate seeks out Ur'kyo to be welcomed deeper into the tribe's spiritual circle and instructed in the loa's darker arts.",
  "sections": [
   {
    "title": "A Summons to the Circle",
-   "body": "For a fledgling troll priest in Durotar, initial lessons begin in the coastal shacks of Sen'jin Village under the watchful eye of Tai'jin. Once an acolyte displays sufficient mastery over the basic balance of spiritual communion and shadow magic, basic tutelage ends. Tai'jin directs the promising priest away from the Echo Isles shore and northward across the red dirt canyons toward the Horde capital, where elder practitioners oversee the tribe's broader magical traditions.",
+   "body": "For a fledgling troll priest in Durotar, lessons continue in the barracks of Razor Hill under the watchful eye of Tai'jin. Once an acolyte displays sufficient mastery over the basic balance of spiritual communion and shadow magic, basic tutelage ends. Tai'jin directs the promising priest away from Razor Hill and northward across the red dirt canyons toward the Horde capital, where elder practitioners oversee the tribe's broader magical traditions.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "tai'jin lore",
     "taijin"
    ],
-   "answer": "Tai'jin is a troll priest trainer stationed at Sen'jin Village in southern Durotar. He guides the youngest Darkspear spellcasters through their early trials before sending them onward to the capital."
+   "answer": "Tai'jin is a troll priest trainer stationed in the barracks of Razor Hill in Durotar. She guides the youngest Darkspear spellcasters through their early trials before sending them onward to the capital."
   },
   {
    "q": "Who is Ur'kyo?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "race:Troll",
-   "text": "This rite marks your transition from a novice in the sands of Sen'jin to a recognized priest of the Darkspear tribe, learning ancient curses passed down through generations."
+   "text": "This rite marks your transition from a novice in Razor Hill to a recognized priest of the Darkspear tribe, learning ancient curses passed down through generations."
   },
   {
    "target": "class:Priest",
@@ -96,7 +96,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "The journey from Sen'jin Village to the Valley of Spirits reflects the integration of troll culture into the fortified walls of Thrall's growing capital."
+   "text": "The journey from Razor Hill to the Valley of Spirits reflects the integration of troll culture into the fortified walls of Thrall's growing capital."
   }
  ],
  "keywords": [

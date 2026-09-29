@@ -20,11 +20,11 @@
    "The Kolkar of Desolace"
   ]
  },
- "summary": "This quest bridges Horde military operations between the Barrens and the bleak expanse of Desolace. Directed by the orc shaman Regthar Deathgate, Horde champions journey westward across the mountains to reinforce scout Felgur Twocuts at Ghost Walker Post.",
+ "summary": "This quest bridges Horde military operations between the Barrens and the bleak expanse of Desolace. Directed by the orc warrior Regthar Deathgate, Horde champions journey westward across the mountains to reinforce scout Felgur Twocuts at Ghost Walker Post.",
  "sections": [
   {
    "title": "A Threat Across the Mountains",
-   "body": "While the Horde contends with marauding centaur packs across the Barrens, shamans like Regthar Deathgate recognize that trimming branches will never kill a tree. The Kolkar clan traces its root strength directly to the desolate crags of Kalimdor's western coast. As long as their ancestral stronghold remains untamed, endless waves of raiders will bleed through the passes into Horde territory. Neutralizing the Kolkar requires striking at the source.",
+   "body": "While the Horde contends with marauding centaur packs across the Barrens, commanders like Regthar Deathgate recognize that trimming branches will never kill a tree. The Kolkar clan traces its root strength directly to the desolate crags of Kalimdor's western coast. As long as their ancestral stronghold remains untamed, endless waves of raiders will bleed through the passes into Horde territory. Neutralizing the Kolkar requires striking at the source.",
    "spoiler": 0
   },
   {
@@ -41,7 +41,7 @@
     "who gives quest",
     "regthar"
    ],
-   "answer": "Regthar Deathgate, an orc shaman stationed at the bunker west of the Crossroads in the Barrens, directs you to carry the fight directly to the Kolkar's ancestral lands."
+   "answer": "Regthar Deathgate, an orc warrior stationed at the bunker west of the Crossroads in the Barrens, directs you to carry the fight directly to the Kolkar's ancestral lands."
   },
   {
    "q": "Where is Ghost Walker Post located?",

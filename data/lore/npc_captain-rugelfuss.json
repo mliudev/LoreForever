@@ -8,7 +8,7 @@
   "wiki": "Captain Rugelfuss",
   "refs": 6
  },
- "summary": "Captain Rugelfuss is a stern dwarven officer stationed at the southern gate in the Valley of Kings. Tasked with securing the border of Loch Modan, he organizes the defense against a sudden and aggressive trogg uprising. He coordinates scouting reports, counterattacks, and rescue efforts to protect the kingdom's frontier.",
+ "summary": "Captain Rugelfuss is a stern dwarven officer stationed at the southern gate in the Valley of Kings. Tasked with securing the border of Loch Modan, he organizes the defense against a sudden and aggressive trogg uprising.",
  "sections": [
   {
    "title": "Holding the Southern Gate",
@@ -22,7 +22,7 @@
   },
   {
    "title": "Frontline Reconnaissance",
-   "body": "Rugelfuss's duties extend beyond blunt force. His mountaineers continually scout trogg encampments, occasionally falling into enemy hands. When his scouts go missing, Rugelfuss is quick to authorize bold rescue operations to retrieve captured mountaineers before they fall victim to trogg brutality.",
+   "body": "Rugelfuss's duties extend beyond blunt force. His mountaineers continually scout trogg encampments.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "where is rugelfuss",
     "captain rugelfuss location"
    ],
-   "answer": "He is stationed near the South Gate in the Valley of Kings, guarding the southern pass that connects Loch Modan toward the Dun Morogh borders."
+   "answer": "He is stationed near the South Gate in the Valley of Kings, guarding the southern pass that leads from Loch Modan toward the Badlands."
   },
   {
    "q": "Why is Captain Rugelfuss concerned about troggs?",
@@ -59,14 +59,6 @@
     "south gate status report"
    ],
    "answer": "Rugelfuss communicates regularly with the garrison and leadership in Thelsamar, exchanging status reports to coordinate the overall military defense of Loch Modan."
-  },
-  {
-   "q": "What happens to the mountaineers under his command?",
-   "aliases": [
-    "captured mountaineer quest",
-    "what happened to the mountaineers"
-   ],
-   "answer": "Several mountaineers scouting the advancing trogg packs are ambushed and captured. Rugelfuss tasks adventurers with tracking down and liberating these prisoners from trogg camps."
   },
   {
    "q": "Why does Rugelfuss brush off military formalities?",
@@ -93,7 +85,6 @@
  ],
  "keywords": [
   "captain rugelfuss",
-  "captured mountaineer",
   "ironforge guard",
   "loch modan",
   "mountaineer",

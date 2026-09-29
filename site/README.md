@@ -2,8 +2,8 @@
 
 **Live:** https://loreforever.mliu.io (Cloudflare Pages project `lore-forever`, also at https://lore-forever.pages.dev). Every push to `main` on github.com/mliudev/lore-forever redeploys it.
 
-One static page (`public/`) plus one small Cloudflare Pages Function (`functions/api/click.js`) that counts
-download-button clicks. Hosted on Cloudflare Pages (free).
+A static landing page and feedback page (`public/`) plus small Cloudflare Pages Functions in `functions/`
+(download counts, sign-ups, stats, click counts and feedback). Hosted on Cloudflare Pages (free).
 
 ## Fill in before going live
 
@@ -18,7 +18,6 @@ word from `addon/LoreForever/Data`. Regenerating lore can reword them, so rechec
 | What | Where |
 | --- | --- |
 | Download link and count | The Download button fetches the latest GitHub release zip (`mliudev/LoreForever`). The count adds GitHub release downloads (public API) and CurseForge project `1715510` (`CURSEFORGE_PROJECT_ID` in the `<script>` at the bottom of `public/index.html`). The page shows "New release" until the count is above 0. |
-| Buttondown username (the "Get new features" sign-up) | Set to `mikeliudev` (`BUTTONDOWN_USERNAME` in the same `<script>`). If it is ever emptied, the form shows "Sign-ups open soon" and can't be submitted. Sign-ups are tagged `landing-page`. In Buttondown, keep double opt-in (confirmation email) on. |
 | Twitch and Discord links | Set: twitch.tv/jiuthaimike and discord.gg/fQWrAscHbu (sidebar and the "Vote on Discord" button) |
 
 The download button goes to https://www.curseforge.com/wow/addons/lore-forever, which won't work until the
@@ -51,7 +50,65 @@ Left out: `171159` (item tooltip) shows a "Keep: wanted for the quest" line that
 - **Clicks from this page:** each click on Download adds one to a per-day tally in a free D1 database.
   See the numbers at https://loreforever.mliu.io/api/click (D1 database `loreforever`, bound as `DB`). It's a rough traffic signal, not a unique-people count,
   and anyone who knows the address could bump it.
+- **Site downloads:** the Download buttons go to `/download/installer` and `/download/zip`
+  (`functions/download/[file].js`), which count each download per day in the D1 table `downloads`, then
+  redirect to the latest GitHub release. Link-preview bots aren't counted. This is the number for "is the
+  site the download source?". `https://loreforever.mliu.io/api/stats` shows site downloads, sign-ups and
+  clicks (counts only, no addresses).
+- **Emails:** both sign-up forms (the Download pop-up and the "Get new features" box) save straight into the
+  same D1 database, table `subscribers` (email, source, created_at), through `functions/api/subscribe.js`.
+  No confirmation email. To see them: Cloudflare dashboard > Storage & databases > D1 > `loreforever` > Console,
+  then run `SELECT email, source, created_at FROM subscribers ORDER BY created_at DESC;`
+  There's no public way to list them. When you email this list, include an unsubscribe link.
 - **Visits:** Cloudflare Web Analytics, turned on in the dashboard on 2026-09-27 (no code, no cookies, no cookie banner). See it under the Pages project > Metrics.
+
+## Feedback form
+
+`public/feedback.html` (served at https://loreforever.mliu.io/feedback) posts to `functions/api/feedback.js`,
+which saves each report in the same `loreforever` D1 database (table `feedback`, created on the first report).
+Linked from the landing page's sidebar, footer and Known limits tab, the public README and the CurseForge listing.
+
+- **Fields:** kind (lore / bug / idea / review), optional 1-5 stars, message, optional entry code, email, name, and
+  "OK to quote me". Only quote players on the site if they ticked that box.
+- **Prefill links:** `/feedback?code=LF-westfall_moonbrook-3&kind=lore` fills in the code and kind. The in-game
+  "report this answer" box (step 3 of the plan) should point here.
+- **Spam:** a hidden honeypot field, and at most 10 reports per sender per day (keyed on a daily hash of the IP; the
+  IP itself isn't stored). Cloudflare Turnstile is optional, see below.
+- **Works without JavaScript:** a plain form post is sent back to `/feedback?sent=1` or `?error=...`.
+
+**Set up in the Pages project** (Settings > Variables and Secrets, as encrypted secrets, then redeploy):
+
+| Name | What it does |
+| --- | --- |
+| `FEEDBACK_KEY` | Any long random string. Needed to read reports; without it, reading is off. |
+| `FEEDBACK_WEBHOOK` | Optional. A Discord webhook URL (Channel settings > Integrations > Webhooks, in a private channel). Each report is posted there as it comes in, without the email address. |
+| `TURNSTILE_SECRET` | Optional, only if spam shows up. Create a Turnstile widget (Cloudflare dashboard > Turnstile, domain `loreforever.mliu.io`), put its secret here and its site key in `TURNSTILE_SITE_KEY` at the top of the `<script>` in `public/feedback.html`. Set both or neither: a secret without the site key turns every report away. |
+
+**Reading reports:**
+
+```bash
+curl -s -H "Authorization: Bearer $FEEDBACK_KEY" https://loreforever.mliu.io/api/feedback
+curl -s -H "Authorization: Bearer $FEEDBACK_KEY" "https://loreforever.mliu.io/api/feedback?since=42"   # only newer than id 42
+```
+
+Or in the Cloudflare dashboard: D1 > `loreforever` > Console, `SELECT * FROM feedback ORDER BY id DESC`.
+
+## Private dashboard
+
+https://loreforever.mliu.io/admin shows sign-up emails, feedback reports and site downloads in one place:
+totals, sign-ups and downloads per day for the last 30 days, the feedback list (mark reports done, delete spam),
+and the email list (search, copy, CSV export, remove an address when someone asks to unsubscribe).
+
+- **Sign in** with the admin key: `ADMIN_KEY` in the Pages project if it's set, otherwise `FEEDBACK_KEY` (the same
+  value as `FEEDBACK_KEY` in the pipeline repo's `.env`). "Remember on this device" keeps it in that browser; otherwise
+  it's forgotten when the tab closes. Sign out clears it.
+- **What keeps it private:** `functions/api/admin.js` refuses every request without the key, and is off when no key
+  is set. The page itself holds no data, so it doesn't matter that anyone can load the empty shell, or that
+  `lore-forever.pages.dev/admin` serves it too. Responses are `no-store` and the page is `noindex`.
+- **Optional extra lock:** Cloudflare Access (Zero Trust > Access > Applications > Self-hosted, domain
+  `loreforever.mliu.io`, paths `admin*` and `api/admin*`, allow only your email) adds a login in front of the
+  custom domain. The key check stays either way, since Access doesn't cover `*.pages.dev`.
+- Feedback reports get a `status` column (`new` / `done`) the first time the dashboard loads.
 
 ## Cloudflare setup (Mike does this, about 10 minutes)
 

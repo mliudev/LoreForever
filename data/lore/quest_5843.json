@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Special Delivery",
-   "body": "Newly arrived travelers stepping into Durotar with a gift voucher are pointed directly toward the central settlement of Razor Hill. Rather than sending recruits into battle against quillboars or centaur, this message directs them straight into the settlement's inn to meet Magga, an innkeeper eager to honor extraordinary commendations.",
+   "body": "Newly arrived travelers stepping into Durotar with a gift voucher are pointed directly toward the central settlement of Razor Hill. Rather than sending recruits into battle against quillboars or centaur, this message directs them straight into the settlement to meet Magga, an orc eager to honor extraordinary commendations.",
    "spoiler": 0
   },
   {
@@ -46,7 +46,7 @@
     "who is magga",
     "where is magga"
    ],
-   "answer": "Magga is an orc host located inside the bustling inn of Razor Hill in central Durotar. She welcomes travelers, manages lodgings, and honors special arrival vouchers."
+   "answer": "Magga is an orc located in Razor Hill in central Durotar. She welcomes travelers and honors special arrival vouchers."
   },
   {
    "q": "Where do I turn this in?",
@@ -62,7 +62,7 @@
     "alliance version",
     "is there alliance welcome"
    ],
-   "answer": "Yes, Alliance adventurers receive a similar voucher upon setting out, directing them to innkeepers in their own settlements, such as Goldshire, Kharanos, or Dolanaar."
+   "answer": "Yes, Alliance adventurers receive a similar voucher upon setting out, directing them to contacts in their own settlements, such as Goldshire, Kharanos, or Dolanaar."
   }
  ],
  "angles": [

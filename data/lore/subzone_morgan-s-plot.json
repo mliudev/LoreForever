@@ -16,7 +16,7 @@
   },
   {
    "title": "Resting Place of Guardians and Servants",
-   "body": "Beneath the crooked tombstones and inside the subterranean catacombs lie the remains of several figures tied intimately to Karazhan's history. Medivh's mother, the former Guardian Aegwynn, laid the bodies of Medivh, his seneschal Moroes, and their cook to rest here following the tragedy that shattered the tower. While mysteries linger as to what truly remains in the crypts beneath the soil, the soil itself feels heavy with old, lingering arcana and unquiet spirits.",
+   "body": "Beneath the crooked tombstones and inside the subterranean catacombs lie the remains of several figures tied intimately to Karazhan's history. Medivh, his seneschal Moroes, and the tower's cook were laid to rest here following the tragedy that shattered the tower. While mysteries linger as to what truly remains in the crypts beneath the soil, the soil itself feels heavy with old, lingering arcana and unquiet spirits.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "moroes grave",
     "aegwynn burial"
    ],
-   "answer": "Historically, the graveyard and crypts served Karazhan's household. Following Medivh's fall, his mother Aegwynn buried the Guardian here alongside his loyal seneschal Moroes and the tower's cook."
+   "answer": "Historically, the graveyard and crypts served Karazhan's household. Following Medivh's fall, the Guardian was buried here alongside his loyal seneschal Moroes and the tower's cook."
   },
   {
    "q": "What threats can be found at Morgan's Plot?",
@@ -65,11 +65,10 @@
   },
   {
    "target": "class:Mage",
-   "text": "Mages of Dalaran regard this place with quiet dread, knowing it holds the burial soil chosen by Aegwynn to inter those struck down during Medivh's tragic end."
+   "text": "Mages of Dalaran regard this place with quiet dread, knowing it holds the burial ground of those struck down during Medivh's tragic end."
   }
  ],
  "keywords": [
-  "aegwynn",
   "crypt",
   "deadwind pass",
   "karazhan",

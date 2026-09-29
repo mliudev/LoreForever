@@ -26,7 +26,7 @@
  "sections": [
   {
    "title": "A Scout's Final Stand",
-   "body": "Rhag Garmason originally stationed Ebenezer Rustlocke to keep watch over the structural integrity and security of the Thandol Span. When contact with the scout ceased, foul play was immediately feared. Exploring the recesses beneath the arches reveals Rustlocke lying dead, having succumbed to a vicious ambush sprung from the shadows by Dark Iron invaders.",
+   "body": "Commander Longbraid originally sent Ebenezer Rustlocke to keep watch over the structural integrity and security of the Thandol Span. When contact with the scout ceased, foul play was immediately feared. Exploring the recesses beneath the arches reveals Rustlocke lying dead, having succumbed to a vicious ambush sprung from the shadows by Dark Iron invaders.",
    "spoiler": 0
   },
   {
@@ -52,7 +52,7 @@
     "who ambushed rustlocke",
     "rustlocke corpse"
    ],
-   "answer": "He was ambushed by Dark Iron operatives operating beneath the Thandol Span, carrying out directives issued by Commander Deepfury."
+   "answer": "He was ambushed by Dark Iron operatives operating beneath the Thandol Span, carrying out directives issued by Kam Deepfury."
   },
   {
    "q": "What is found on Rustlocke's body?",
@@ -85,7 +85,7 @@
     "what happens next",
     "thandol span follow up"
    ],
-   "answer": "Recognizing the gravity of the threat, Rhag Garmason directs the Alliance to strike back at the Dark Iron forces entrenched beneath the span to thwart their sabotage."
+   "answer": "Recognizing the gravity of the threat, Rhag Garmason sends you to destroy a cache of Dark Iron explosives stashed just across the span in the Arathi Highlands to thwart their sabotage."
   }
  ],
  "angles": [

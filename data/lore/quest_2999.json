@@ -17,11 +17,11 @@
   "wiki": "Tome of Divinity (Brandur Ironhammer)",
   "chain": []
  },
- "summary": "Tome of Divinity is a rite of passage quest offered to young dwarven paladins serving in Dun Morogh. Directed by Brandur Ironhammer, an initiate is sent up to the Hall of Mystics in Ironforge to speak with the respected paladin trainer Tiza Battleforge. It marks the transition from basic martial training into the deeper spiritual duties and sacred vows of the Holy Light.",
+ "summary": "Tome of Divinity is a rite of passage quest offered to young dwarven paladins serving in Dun Morogh. Directed by Brandur Ironhammer, the paladin trainer in Ironforge's Hall of Mysteries, an initiate is sent upstairs to speak with the respected paladin trainer Tiza Battleforge. It marks the transition from basic martial training into the deeper spiritual duties and sacred vows of the Holy Light.",
  "sections": [
   {
    "title": "The Call to the High Seat",
-   "body": "While novice paladins spend their early days defending Anvilmar and Kharanos from troggs and frost trolls, their duties eventually call for deeper devotion. Brandur Ironhammer, recognizing that an initiate has proven their martial discipline, advises them to leave the snowy passes and seek guidance within the mountain city of Ironforge. There, among the quiet alcoves of the Hall of Mystics, senior paladins oversee the spiritual maturation of the order.",
+   "body": "While novice paladins spend their early days defending Anvilmar and Kharanos from troggs and frost trolls, their duties eventually call for deeper devotion. Brandur Ironhammer, recognizing that an initiate has proven their martial discipline, advises them to take a break from their work in the snowy passes and seek guidance upstairs in his own Hall of Mysteries in Ironforge. There, senior paladins oversee the spiritual maturation of the order.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "tome of divinity start",
     "why do this quest"
    ],
-   "answer": "This quest directs young dwarven paladins from their field instructor, Brandur Ironhammer, to senior trainer Tiza Battleforge in Ironforge. It serves as the opening step for the trials required to study the Tome of Divinity and earn the power of spiritual resurrection."
+   "answer": "This quest directs young dwarven paladins from their trainer, Brandur Ironhammer, to senior paladin Tiza Battleforge in Ironforge. It serves as the opening step for the trials required to study the Tome of Divinity and earn the power of spiritual resurrection."
   },
   {
    "q": "Who is Brandur Ironhammer?",
@@ -47,7 +47,7 @@
     "brandur role",
     "brandur ironhammer lore"
    ],
-   "answer": "Brandur Ironhammer is a dwarven paladin stationed in Dun Morogh. He oversees early paladin training near the entrance of Ironforge, sending promising initiates up to the city when they are ready for greater sacred responsibilities."
+   "answer": "Brandur Ironhammer is a dwarven paladin trainer stationed in the Hall of Mysteries in Ironforge's Mystic Ward. He oversees young paladins there, sending promising initiates upstairs to Tiza Battleforge when they are ready for greater sacred responsibilities."
   },
   {
    "q": "Who is Tiza Battleforge?",
@@ -56,7 +56,7 @@
     "tiza battleforge role",
     "who is tiza"
    ],
-   "answer": "Tiza Battleforge is a respected veteran paladin located in the Hall of Mystics in Ironforge. She mentors younger paladins on what the Holy Light truly demands of them beyond martial prowess."
+   "answer": "Tiza Battleforge is a respected veteran paladin located upstairs in the Hall of Mysteries in Ironforge. She mentors younger paladins on what the Holy Light truly demands of them beyond martial prowess."
   },
   {
    "q": "Where does this quest lead next?",
@@ -83,7 +83,7 @@
     "is this dwarf only",
     "human tome of divinity"
    ],
-   "answer": "Human paladins undertake a parallel journey through the Cathedral of Light in Stormwind rather than Ironforge. This specific summons from Brandur Ironhammer to Tiza Battleforge is tailored to dwarves learning within Dun Morogh."
+   "answer": "Human paladins undertake a parallel journey through the Cathedral of Light in Stormwind rather than Ironforge. This specific summons from Brandur Ironhammer to Tiza Battleforge is tailored to dwarves training in Ironforge."
   }
  ],
  "angles": [

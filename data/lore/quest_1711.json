@@ -17,7 +17,7 @@
   "wiki": "Mathiel's Armor",
   "chain": []
  },
- "summary": "\"Mathiel's Armor\" marks the completion of an armorsmithing effort undertaken by Mathiel in the Craftsmen's Terrace of Darnassus. By combining his own night elven craftsmanship with innovative dwarven metalworking methods devised by Furen Longbeard, Mathiel reforges exotic materials into protective battle gear. The quest represents a fruitful blending of allied traditions in service of Alliance warriors.",
+ "summary": "\"Mathiel's Armor\" marks the completion of an armorsmithing effort undertaken by Mathiel in the Warrior's Terrace of Darnassus. By combining his own night elven craftsmanship with innovative dwarven metalworking methods devised by Furen Longbeard, Mathiel reforges exotic materials into protective battle gear. The quest represents a fruitful blending of allied traditions in service of Alliance warriors.",
  "sections": [
   {
    "title": "A Blend of Crafts",
@@ -26,7 +26,7 @@
   },
   {
    "title": "Exotic Components",
-   "body": "Forging this resilient armor required exotic plating gathered from sunscorched crustacean shells found in the arid reaches of the world. By taking these naturally reinforced carapaces and applying Furen's heat-treatment formulas, Mathiel successfully created a resilient breastplate designed to withstand brutal frontline combat.",
+   "body": "Forging this resilient armor required sunscorched eggshells gathered from the Highperch wyvern nests of Thousand Needles. By rendering these sun-hardened shells into lacquer and applying Furen's heat-treatment formulas, Mathiel successfully created a resilient breastplate designed to withstand brutal frontline combat.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is mathiel",
     "darnassus armorer"
    ],
-   "answer": "Mathiel is a skilled night elf armorsmith stationed in the Craftsmen's Terrace within Darnassus. He works closely with fellow craftsmen across the Alliance, testing new concepts developed by allies such as Furen Longbeard."
+   "answer": "Mathiel is a skilled night elf armorsmith stationed in the Warrior's Terrace within Darnassus. He works closely with fellow craftsmen across the Alliance, testing new concepts developed by allies such as Furen Longbeard."
   },
   {
    "q": "Who is Furen Longbeard?",
@@ -54,7 +54,7 @@
     "armor materials",
     "what is mathiel's armor made of"
    ],
-   "answer": "The armor is forged using sunscorched shells harvested from giant sea creatures and silithid in distant arid regions, which Mathiel reinforces and shapes using Furen Longbeard's specific smithing procedures."
+   "answer": "The armor is forged using sunscorched eggshells gathered below the Highperch wyvern nests in Thousand Needles, which Mathiel reinforces and shapes using Furen Longbeard's specific smithing procedures."
   },
   {
    "q": "Why is an elf using dwarven techniques?",
@@ -70,7 +70,7 @@
     "mathiel location",
     "where is mathiel"
    ],
-   "answer": "The quest begins and completes at the forge located in the Craftsmen's Terrace of Darnassus on the island of Teldrassil."
+   "answer": "The quest begins and completes at the forge located in the Warrior's Terrace of Darnassus on the island of Teldrassil."
   },
   {
    "q": "What is the previous quest in this chain?",

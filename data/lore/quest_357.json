@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Recluse on the Lake",
-   "body": "North of the Undercity, in the misty waters of Brightwater Lake, a lone lich dwells in self-imposed exile on Mage Island. Unlike the mindless pawns of the Lich King, this necromancer possesses his own free will, yet he lives in deep paranoia. Convinced that any undead who approach him are Scourge thralls sent to drag him back into servitude, he unleashes his summoned minions on anyone setting foot on his shores.",
+   "body": "North of the Undercity, in the misty waters of Brightwater Lake, a lone lich dwells in self-imposed exile on a small island. Unlike the mindless pawns of the Lich King, this necromancer possesses his own free will, yet he lives in deep paranoia. Convinced that any undead who approach him are Scourge thralls sent to drag him back into servitude, he unleashes his summoned minions on anyone setting foot on his shores.",
    "spoiler": 0
   },
   {
@@ -94,7 +94,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, reclaiming independent undead like Gunther Arcanus proves that breaking free from the Lich King was not an isolated miracle, while securing vital necromantic power for Sylvanas's court."
+   "text": "For the Forsaken, reclaiming independent undead proves that breaking free from the Lich King was not an isolated miracle, while securing vital necromantic power for Sylvanas's court."
   },
   {
    "target": "class:Mage",

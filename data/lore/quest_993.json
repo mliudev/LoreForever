@@ -17,11 +17,11 @@
   "wiki": "A Lost Master (2)",
   "chain": []
  },
- "summary": "Having gathered pelts and fine thread, you carry the completed Enchanted Moonstalker Cloak into the wilds of Darkshore to find the missing night elf, Volcor. Guided by his loyal nightsaber Grimclaw, you must track down the wounded scout before hostile furbolgs finish him off.",
+ "summary": "Having gathered pelts and fine thread, you carry the completed Enchanted Moonstalker Cloak into the wilds of Darkshore to find the missing night elf, Volcor. Guided by his loyal white bear Grimclaw, you must track down the wounded scout before hostile furbolgs finish him off.",
  "sections": [
   {
    "title": "A Beacon in the Woods",
-   "body": "After Terenthis in Auberdine weaves the Enchanted Moonstalker Cloak, the search for the missing scout Volcor begins in earnest. His nightsaber companion, Grimclaw, has returned to the road south of the settlement, standing watch for any ally sent by Terenthis. By offering a familiar greeting to the loyal beast, travelers are led directly off the beaten track toward the cave where Volcor lies in hiding.",
+   "body": "After Terenthis in Auberdine weaves the Enchanted Moonstalker Cloak, the search for the missing scout Volcor begins in earnest. His bear companion, Grimclaw, has returned to the road south of the settlement, standing watch for any ally sent by Terenthis. By offering a familiar greeting to the loyal beast, travelers are led directly off the beaten track toward the cave where Volcor lies in hiding.",
    "spoiler": 0
   },
   {
@@ -37,7 +37,7 @@
     "volcor lore",
     "who is the lost master"
    ],
-   "answer": "Volcor is a night elf scout based out of Darkshore who went missing while venturing near hostile furbolg encampments. He was badly wounded during a confrontation and managed to crawl into a nearby cave, sending his companion nightsaber Grimclaw to seek aid."
+   "answer": "Volcor is a night elf scout based out of Darkshore who went missing while venturing near hostile furbolg encampments. He was badly wounded during a confrontation and managed to crawl into a nearby cave, while his companion bear Grimclaw sought aid."
   },
   {
    "q": "How do you find Volcor's hiding spot?",
@@ -54,7 +54,7 @@
     "moonstalker cloak",
     "cloak magic"
    ],
-   "answer": "Terenthis enchanted the cloak crafted from fine thread and moonstalker pelts to grant brief, potent magical stealth. It is intended to shield the severely wounded Volcor from predatory eyes long enough to slip past dangerous wilderness threats."
+   "answer": "Terenthis enchanted the cloak crafted from fine thread and moonstalker pelts to grant brief, potent magical stealth. Its magic lets you walk unhindered by Darkshore's creatures while you search for Volcor, and the cloak is then given to him."
   },
   {
    "q": "Who attacked Volcor?",
@@ -76,7 +76,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The bond between night elf scouts and their nightsabers is demonstrated here by Grimclaw's steadfast loyalty in seeking aid for his master Volcor."
+   "text": "The bond between night elf scouts and their animal companions is demonstrated here by Grimclaw's steadfast loyalty in seeking aid for his master Volcor."
   },
   {
    "target": "class:Hunter",

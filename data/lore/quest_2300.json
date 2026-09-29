@@ -21,11 +21,11 @@
    "Alther's Mill (quest)"
   ]
  },
- "summary": "This directive summons promising young rogues from Westfall directly into the heart of Stormwind's covert intelligence network. Directed by Keryn Sylvius in Sentinel Hill, agents are ordered to report immediately to Renzik \"The Shiv\" in Old Town. Answering this summons brings an operative directly into service under Master Mathias Shaw.",
+ "summary": "This directive summons promising young rogues from Elwynn Forest directly into the heart of Stormwind's covert intelligence network. Directed by Keryn Sylvius in Goldshire, agents are ordered to report immediately to Renzik \"The Shiv\" in Old Town. Answering this summons brings an operative directly into service under Master Mathias Shaw.",
  "sections": [
   {
    "title": "A Summons to Old Town",
-   "body": "Operating out of Sentinel Hill, field operative Keryn Sylvius watches over the chaotic front in Westfall, keeping tabs on local recruits. When a rogue shows enough cunning and competence against the gathering Defias threat, Sylvius passes along word from headquarters. The summons is brief and unceremonious: report to Renzik \"The Shiv\" without delay. Leaving the dusty plains behind, the agent is directed straight into the covert heart of the capital.",
+   "body": "Operating out of the Lion's Pride Inn in Goldshire, rogue trainer Keryn Sylvius keeps tabs on local recruits. When a rogue shows enough cunning and competence against the gathering Defias threat, Sylvius passes along word from headquarters. The summons is brief and unceremonious: report to Renzik \"The Shiv\" without delay. Leaving the fields of Elwynn behind, the agent is directed straight into the covert heart of the capital.",
    "spoiler": 0
   },
   {
@@ -42,7 +42,7 @@
     "quest giver",
     "keryn sylvius"
    ],
-   "answer": "Keryn Sylvius, a covert operative stationed at Sentinel Hill in Westfall, gives you the directive. Once you prove your competence in the field, Sylvius passes down orders instructing you to report to headquarters in Stormwind."
+   "answer": "Keryn Sylvius, the rogue trainer at the Lion's Pride Inn in Goldshire, gives you the directive. Once you prove your competence in the field, Sylvius passes down orders instructing you to report to headquarters in Stormwind."
   },
   {
    "q": "Who is Renzik \"The Shiv\"?",

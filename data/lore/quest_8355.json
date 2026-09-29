@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "A Whimsical Toll",
-   "body": "During the autumn celebration of Hallow's End, trick-or-treaters scour the major Alliance strongholds gathering unique regional confections. In Ironforge's Tinker Town, the gnome Talvash del Kissel holds the coveted Gnomeregan Gumdrop. While sympathetic to the plight of the young orphan who desires it, Talvash insists on upholding the holiday's spirit of mischief before parting with his sweet, demanding a convincing train impression from anyone seeking a handout.",
+   "body": "During the autumn celebration of Hallow's End, trick-or-treaters scour the major Alliance strongholds gathering unique regional confections. In Ironforge's Mystic Ward, the gnome Talvash del Kissel holds the coveted Gnomeregan Gumdrop. While sympathetic to the plight of the young orphan who desires it, Talvash insists on upholding the holiday's spirit of mischief before parting with his sweet, demanding a convincing train impression from anyone seeking a handout.",
    "spoiler": 0
   },
   {
    "title": "Holiday Charity",
-   "body": "The quest forms a piece of an overarching seasonal endeavor to bring cheer to Jesper, an ailing orphan resting outside Stormwind City. Jesper longs for four distinct treats from across the Alliance territories: a marzipan piece from Stormwind, a mint from Darnassus, nougat from Ironforge, and a gumdrop from Gnomeregan. By mimicking a chugging locomotive to entertain Talvash, champions secure the gnome treat to complete the young boy's holiday wish.",
+   "body": "The quest forms a piece of an overarching seasonal endeavor to bring cheer to Jesper, an ailing orphan resting outside Stormwind City. Jesper longs for four distinct treats from across the Alliance territories: nougat from Stormwind, a mint from Ironforge, a marzipan piece from Darnassus, and a gumdrop from Gnomeregan. By mimicking a chugging locomotive to entertain Talvash, champions secure the gnome treat to complete the young boy's holiday wish.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "who is talvash",
     "talvash del kissel lore"
    ],
-   "answer": "Talvash del Kissel is a gnome craftsman residing in Tinker Town within the dwarven mountain city of Ironforge. During Hallow's End, he acts as the Alliance distributor for Gnomeregan's signature gumdrops."
+   "answer": "Talvash del Kissel is a gnome jeweler from Gnomeregan residing in the Mystic Ward within the dwarven mountain city of Ironforge. During Hallow's End, he acts as the Alliance distributor for Gnomeregan's signature gumdrops."
   },
   {
    "q": "What is the Gnomeregan Gumdrop used for?",
@@ -62,7 +62,7 @@
     "where is talvash",
     "talvash location"
    ],
-   "answer": "Talvash can be found in Tinker Town, the gnomish sector on the eastern side of the Great Forge in Ironforge."
+   "answer": "Talvash can be found in the Mystic Ward of Ironforge."
   },
   {
    "q": "Why does Talvash make you imitate a train?",

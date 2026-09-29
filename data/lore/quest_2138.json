@@ -21,11 +21,11 @@
    "Tharnariun's Hope (quest)"
   ]
  },
- "summary": "Cleansing of the Infected is an Alliance task in Darkshore given by Tharnariun Treetender in Auberdine. After attempted herbal cures fail to halt the woodland sickness, the caretaker reluctantly orders a cull of the rabid thistle bears roaming the misty wilderness. It represents a bitter turning point where preservation gives way to containment.",
+ "summary": "Cleansing of the Infected is an Alliance task in Darkshore given by Tharnariun Treetender in Auberdine. After his attempted cure fails to halt the woodland sickness, the caretaker reluctantly orders a cull of the rabid thistle bears roaming the misty wilderness. It represents a bitter turning point where preservation gives way to containment.",
  "sections": [
   {
    "title": "A Bitter Necessity",
-   "body": "Tharnariun Treetender has spent long hours searching for a remedy to stem the creeping affliction corrupting Darkshore's wildlife. Despite the careful brewing of medicinal drafts from native roots and mosses, the thistle bears remain deeply diseased and violent. Having exhausted his gentler options, the night elf tender concludes that putting the beasts down is the only immediate way to prevent them from mauling other creatures and spreading their sickness further into the ancient woodlands.",
+   "body": "Tharnariun Treetender has spent long hours searching for a remedy to stem the creeping affliction corrupting Darkshore's wildlife. Despite his attempt to cleanse a captured bear, the thistle bears remain deeply diseased and violent. Having exhausted his gentler options, the night elf tender concludes that putting the beasts down is the only immediate way to prevent them from mauling other creatures and spreading their sickness further into the ancient woodlands.",
    "spoiler": 0
   },
   {
@@ -42,7 +42,7 @@
     "why not cure bears",
     "tharnariun bear quest"
    ],
-   "answer": "Tharnariun previously attempted to brew and test an herbal cure, but it utterly failed against the sickness. With the diseased bears turning violent and threatening other creatures, killing them is a last resort to slow the disease's spread."
+   "answer": "Tharnariun previously attempted to cleanse a captured bear, but the cure failed and the beast died. With the diseased bears turning violent and threatening other creatures, killing them is a last resort to slow the disease's spread."
   },
   {
    "q": "Who is Tharnariun Treetender?",
@@ -82,7 +82,7 @@
     "why are bears sick",
     "bear sickness darkshore"
    ],
-   "answer": "The bears are victims of a mysterious taint sweeping through northern Kalimdor's woodlands, corrupting peaceful wildlife into frenzied, aggressive beasts that defy standard herbal remedies."
+   "answer": "The bears are victims of a mysterious taint sweeping through northern Kalimdor's woodlands, corrupting peaceful wildlife into frenzied, aggressive beasts that defy Tharnariun's attempted cure."
   }
  ],
  "angles": [

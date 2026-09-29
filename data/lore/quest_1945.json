@@ -17,16 +17,16 @@
   "wiki": "Laughing Sisters",
   "chain": []
  },
- "summary": "Laughing Sisters is a Horde quest that sends warlocks into the heart of Ashenvale to gather enchanted locks of hair from wild dryads. The material is destined for Kil'hala, an experienced troll tailor at the Crossroads, to spin into an empowered warlock robe. Hunting the daughters of Cenarius underscores the relentless friction between Horde spellcasters and the native defenders of the ancient woodland.",
+ "summary": "Laughing Sisters is a Horde quest that sends mages into the heart of Ashenvale to gather enchanted locks of hair from wild dryads. The material is destined for Kil'hala, an experienced troll tailor at the Crossroads, to spin into an empowered mage robe. Hunting the daughters of Cenarius underscores the relentless friction between Horde spellcasters and the native defenders of the ancient woodland.",
  "sections": [
   {
    "title": "Weaving the Arcane",
-   "body": "Following their efforts to secure corrupted water from Xavian, rising warlocks are directed by Deino in Orgrimmar to assist in crafting their own enchanted vestments. Arcane tailoring of this nature demands materials imbued with raw magical essence. Dryad locks, naturally suffused with the primeval vitality of the forest, hold the necessary qualities to thread intricate magical garments capable of shielding and augmenting a dark caster's powers.",
+   "body": "Following their efforts to secure corrupted water from Xavian, rising mages are directed by Deino in Orgrimmar to assist in crafting their own enchanted vestments. Arcane tailoring of this nature demands materials imbued with raw magical essence. Dryad locks, naturally suffused with the primeval vitality of the forest, hold the necessary qualities to thread intricate magical garments capable of shielding and augmenting a caster's powers.",
    "spoiler": 0
   },
   {
    "title": "Stalking Raynewood",
-   "body": "To harvest these locks, warlocks must venture south toward Raynewood Retreat in Ashenvale. The laughing sisters\u2014nimble, woodland dryads allied with the night elves\u2014guard these groves fiercely against encroaching woodsmen and fel practitioners alike. Because these woodland fey would never willingly surrender their hair to practitioners of shadow and fel magic, the harvest is inevitably paid in blood beneath the canopy of ancient trees.",
+   "body": "To harvest these locks, mages must venture south toward Raynewood Retreat in Ashenvale. The laughing sisters\u2014nimble, woodland dryads allied with the night elves\u2014guard these groves fiercely against encroaching woodsmen and outsiders alike. Because these woodland fey would never willingly surrender their hair to Horde spellcasters, the harvest is inevitably paid in blood beneath the canopy of ancient trees.",
    "spoiler": 0
   },
   {
@@ -43,7 +43,7 @@
     "laughing sisters quest giver",
     "deino quest"
    ],
-   "answer": "Deino, a troll warlock trainer stationed in the dark recesses of the Cleft of Shadows in Orgrimmar, sends warlocks on this errand as reward and preparation for crafting their class robes."
+   "answer": "Deino, a troll mage in the Darkbriar Lodge in Orgrimmar, sends mages on this errand as reward and preparation for crafting their class robes."
   },
   {
    "q": "What are the laughing sisters?",
@@ -70,7 +70,7 @@
     "why laughing sister hair",
     "what is the hair for"
    ],
-   "answer": "Dryad hair is steeped in natural enchantment, making it an ideal thread for Kil'hala to weave into specialized, magically resonant robes suited for warlock arts."
+   "answer": "Dryad hair is steeped in natural enchantment, making it an ideal thread for Kil'hala to weave into specialized, magically resonant robes suited for the arcane arts."
   },
   {
    "q": "Where do I deliver the hair once it is collected?",
@@ -93,8 +93,8 @@
  ],
  "angles": [
   {
-   "target": "class:Warlock",
-   "text": "This rite of passage teaches rising warlocks that no woodland spirit or primeval sacredness is exempt from being harvested to weave instruments of dark power."
+   "target": "class:Mage",
+   "text": "This rite of passage teaches rising mages that even the sacred woodland spirits of Ashenvale can be harvested for the materials of arcane craft."
   },
   {
    "target": "profession:Tailoring",

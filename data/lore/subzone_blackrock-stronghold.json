@@ -11,12 +11,12 @@
  "sections": [
   {
    "title": "Garrison of the Dark Horde",
-   "body": "Sprawling across the scorched foothills below Blackrock Mountain, the stronghold functions as the primary ground base for the Blackrock clan in the Burning Steppes. Led on the field by General Thorg'izog, the fortress maintains order among the rank-and-file orcs and ogres who muster nearby in the Fields of Honor. Unlike Thrall's Horde, these orcs cling to their warlike legacy, serving Rend Blackhand and the dragonkin who lurk above in the spire.",
+   "body": "Sprawling across the scorched foothills below Blackrock Mountain, the stronghold functions as the primary ground base for the Blackrock clan in the Burning Steppes. Unlike Thrall's Horde, these orcs cling to their warlike legacy, serving Rend Blackhand and the dragonkin who lurk above in the spire.",
    "spoiler": 0
   },
   {
    "title": "Front Line of Blackrock Spire",
-   "body": "The stronghold serves as both an outer defense and a staging ground for attacks into the Redridge Mountains and neighboring human lands. With harsh discipline enforced by brutal Blackrock sergeants, the fortress maintains a constant watch over the southern approaches to the mountain, challenging anyone who dares traverse the blasted wastes.",
+   "body": "The stronghold serves as both an outer defense and a staging ground for attacks into the Redridge Mountains and neighboring human lands. The fortress maintains a constant watch over the southern approaches to the mountain, challenging anyone who dares traverse the blasted wastes.",
    "spoiler": 0
   }
  ],
@@ -31,15 +31,6 @@
    "answer": "It is a fortified military base situated in the northern Burning Steppes just outside Blackrock Mountain, serving as an outer garrison for the Blackrock clan of orcs."
   },
   {
-   "q": "Who leads the troops at Blackrock Stronghold?",
-   "aliases": [
-    "who is the boss here",
-    "who leads blackrock stronghold",
-    "general of blackrock stronghold"
-   ],
-   "answer": "Field operations and military discipline at the stronghold are overseen by General Thorg'izog, who coordinates troop movements and exercises authority over the surrounding area."
-  },
-  {
    "q": "Are the orcs here friendly to Thrall's Horde?",
    "aliases": [
     "is this horde",
@@ -47,15 +38,6 @@
     "friendly to horde"
    ],
    "answer": "No. The orcs of Blackrock Stronghold belong to the Dark Horde, led by Rend Blackhand. They reject Thrall's leadership and are hostile to both the Alliance and the new Horde."
-  },
-  {
-   "q": "What is the area just outside the stronghold?",
-   "aliases": [
-    "fields of honor",
-    "camp outside",
-    "orc training grounds"
-   ],
-   "answer": "Just beyond the stronghold lies the Fields of Honor, where Blackrock troops and their allies gather and train under the watchful eyes of Blackrock sergeants."
   }
  ],
  "angles": [
@@ -73,9 +55,7 @@
   "blackrock stronghold",
   "burning steppes",
   "dark horde",
-  "fields of honor",
-  "rend blackhand",
-  "thorg'izog"
+  "rend blackhand"
  ],
  "related": [
   "zone:burningsteppes",

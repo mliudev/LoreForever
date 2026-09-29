@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Stagalbog"
  },
- "summary": "The Stagalbog is a dense, waterlogged marsh stretch across the southern reaches of the Swamp of Sorrows. Bordering the southern mountain range just below the Pool of Tears, it remains an untamed wilderness broken only by a few lonely encampments.",
+ "summary": "The Stagalbog is a dense, waterlogged marsh stretch across the southern reaches of the Swamp of Sorrows. Bordering the southern mountain range just below the Pool of Tears, it remains an untamed wilderness.",
  "sections": [
   {
    "title": "The Southern Mire",
-   "body": "Stretching beneath the shadow of the southern crags, the Stagalbog is typical of the Swamp of Sorrows: stagnant water, drooping reeds, and tangled vegetation. It sits immediately south of the sunken ruins of the Temple of Atal'Hakkar, caught between the tainted lake and the rocky boundary of the region. Apart from rough wildlife and occasional hermits dwelling in the mire, such as the brewer Baba Bogbrew, civilization has established no foothold here.",
+   "body": "Stretching beneath the shadow of the southern crags, the Stagalbog is typical of the Swamp of Sorrows: stagnant water, drooping reeds, and tangled vegetation. It sits immediately south of the sunken ruins of the Temple of Atal'Hakkar, caught between the tainted lake and the rocky boundary of the region. Apart from rough wildlife, civilization has established no foothold here.",
    "spoiler": 0
   },
   {
@@ -29,22 +29,6 @@
     "how to find stagalbog"
    ],
    "answer": "The Stagalbog is located in the southern part of the Swamp of Sorrows, situated directly south of the Pool of Tears and running along the base of the southern mountain range."
-  },
-  {
-   "q": "What landmarks are nearby?",
-   "aliases": [
-    "what is in stagalbog",
-    "stagalbog points of interest"
-   ],
-   "answer": "The area is home to Baba Bogbrew's lonely camp and borders Stagalbog Cave to the west along the mountains. Directly to the north lies the Pool of Tears and the submerged Temple of Atal'Hakkar."
-  },
-  {
-   "q": "Are there settlements in the Stagalbog?",
-   "aliases": [
-    "towns near stagalbog",
-    "who lives in stagalbog"
-   ],
-   "answer": "No organized settlements exist here. The only trace of habitation is a humble marsh camp maintained by Baba Bogbrew amidst the wilderness."
   },
   {
    "q": "What threats can be found wandering the bog?",
@@ -66,7 +50,6 @@
   }
  ],
  "keywords": [
-  "baba bogbrew",
   "marsh",
   "pool of tears",
   "stagalbog",

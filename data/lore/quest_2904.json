@@ -17,11 +17,11 @@
   "wiki": "A Fine Mess",
   "chain": []
  },
- "summary": "Deep within the irradiated ruins of Gnomeregan, an injured gnome named Kernobee lies battered among troggs after being ambushed by Dark Iron dwarves. Rescuing him uncovers unsettling intelligence about Dark Iron involvement in subterranean drilling machinery, which must be relayed all the way to Booty Bay.",
+ "summary": "Deep within the irradiated ruins of Gnomeregan, an injured goblin named Kernobee lies battered among troggs after being ambushed by Dark Iron dwarves. Rescuing him uncovers unsettling intelligence about Dark Iron involvement in subterranean drilling machinery, which must be relayed all the way to Booty Bay.",
  "sections": [
   {
    "title": "A Battered Survivor",
-   "body": "While navigating the dangerous inner chambers of Gnomeregan, adventurers discover Kernobee stranded in the dormitory area. Severely beaten and groggy, the gnome survived capture by Dark Iron dwarves who left him behind to perish among the feral troggs. Finding a friendly face is his only chance of surviving the trek back through the contaminated corridors.",
+   "body": "While navigating the dangerous inner chambers of Gnomeregan, adventurers discover Kernobee stranded in the dormitory area. Severely beaten and groggy, the goblin survived capture by Dark Iron dwarves who left him behind to perish among the feral troggs. Finding a friendly face is his only chance of surviving the trek back through the contaminated corridors.",
    "spoiler": 0
   },
   {
@@ -35,10 +35,9 @@
    "q": "Who is Kernobee?",
    "aliases": [
     "kernobee",
-    "who is kernobee",
-    "captured gnome"
+    "who is kernobee"
    ],
-   "answer": "Kernobee is a gnome engineer who ventured deep into the ruins of Gnomeregan. He was ambushed, beaten nearly to death by Dark Iron dwarves, and abandoned to the troggs before being rescued."
+   "answer": "Kernobee is a goblin who ventured deep into the ruins of Gnomeregan. He was ambushed, beaten nearly to death by Dark Iron dwarves, and abandoned to the troggs before being rescued."
   },
   {
    "q": "Where must Kernobee be escorted?",

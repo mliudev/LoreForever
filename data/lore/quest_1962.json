@@ -17,11 +17,11 @@
   "wiki": "Spellfire Robes",
   "chain": []
  },
- "summary": "Spellfire Robes is the culminating rite in Josef Gregorian's training of young Horde mages in the Undercity. After gathering rare components from across the realm, the apprentice is rewarded with custom enchanted vestments that signify their growing mastery over the arcane.",
+ "summary": "Spellfire Robes is the culminating rite in the training of young Horde mages in the Undercity, completed by the tailor Josef Gregorian. After gathering rare components from across the realm, the apprentice is rewarded with custom enchanted vestments that signify their growing mastery over the arcane.",
  "sections": [
   {
    "title": "A Mage's Vestment",
-   "body": "For apprentices mastering the arcane arts in Lordaeron, standard cloaks and common garments do little to channel or insulate against raw eldritch forces. Josef Gregorian, an instructor dwelling in the Magic Quarter of the Undercity, oversees promising Horde spellcasters as they gather specialized materials needed to weave genuine magical garb. The final stitching of the Spellfire Robes represents an apprentice's transition beyond basic incantations into an established practitioner of arcane and fire arts.",
+   "body": "For apprentices mastering the arcane arts in Lordaeron, standard cloaks and common garments do little to channel or insulate against raw eldritch forces. Josef Gregorian, a tailor working in the Magic Quarter of the Undercity, weaves genuine magical garb from the specialized materials promising Horde spellcasters gather. The final stitching of the Spellfire Robes represents an apprentice's transition beyond basic incantations into an established practitioner of arcane and fire arts.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "what do spellfire robes do",
     "why do this quest"
    ],
-   "answer": "It serves as the final step in an early class rite for Horde mages, rewarding them with specially enchanted robes after they have gathered exotic tailoring components for their trainer, Josef Gregorian."
+   "answer": "It serves as the final step in an early class rite for Horde mages, rewarding them with specially enchanted robes after they have gathered tailoring components for the tailor Josef Gregorian."
   },
   {
    "q": "Who is Josef Gregorian?",
@@ -47,7 +47,7 @@
     "who makes the robe",
     "josef gregorian undercity"
    ],
-   "answer": "Josef Gregorian is a Forsaken mage trainer located in the Magic Quarter of the Undercity. He guides newly minted spellcasters through practical tasks to secure arcane reagents and tailor their first proper class garments."
+   "answer": "Josef Gregorian is a Forsaken tailor working in the Magic Quarter's tailor shop in the Undercity. He stitches the first proper class garments for newly minted mages sent to him by Anastasia Hartwell."
   },
   {
    "q": "Where does this quest take place?",
@@ -55,7 +55,7 @@
     "spellfire robes location",
     "where to turn in spellfire robes"
    ],
-   "answer": "The entire interaction takes place within the Magic Quarter of the Undercity, directly at Josef Gregorian's circle of arcane study."
+   "answer": "The entire interaction takes place within the Magic Quarter of the Undercity, directly at Josef Gregorian's tailor shop."
   },
   {
    "q": "Why don't you have to leave to do another task for this quest?",
@@ -82,7 +82,7 @@
     "robe ingredients",
     "gathering materials turn in"
    ],
-   "answer": "The robe is constructed from the rare supplies collected during the previous task, which include thread, linen, and specialized magical reagents sourced from distant lands to properly hold an arcane charge."
+   "answer": "The robe is constructed from the rare supplies collected during the previous task, which include linen cloth and Dalaran mana gems taken from the Kirin Tor mages of Silverpine Forest."
   }
  ],
  "angles": [

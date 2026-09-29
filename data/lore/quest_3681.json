@@ -17,7 +17,7 @@
   "wiki": "Tome of Divinity (5)",
   "chain": []
  },
- "summary": "Tome of Divinity is a summons directed at developing Alliance paladins visiting Ironforge. Master Brandur Ironhammer bids initiates make the journey south to the Cathedral of Light in Stormwind, where Master Duthorian Rall oversees advanced training in the sacred Tomes of Divinity.",
+ "summary": "Tome of Divinity is a summons directed at developing human paladins visiting Ironforge. Master Brandur Ironhammer bids initiates make the journey south to the Cathedral of Light in Stormwind, where Master Duthorian Rall oversees advanced training in the sacred Tomes of Divinity.",
  "sections": [
   {
    "title": "A Summons from Stormwind",
@@ -78,7 +78,7 @@
     "do dwarves have to do this",
     "paladin class quest requirement"
    ],
-   "answer": "Yes. Whether born in the halls of Dun Morogh or the forests of Elwynn, any Alliance paladin seeking to learn the divine gift of bringing fallen allies back to life must travel through Stormwind's Cathedral of Light."
+   "answer": "No. This summons is for human paladins, who study the Tomes under Duthorian Rall in Stormwind's Cathedral of Light. Dwarven paladins begin their own Tome of Divinity trials in Ironforge with Tiza Battleforge."
   }
  ],
  "angles": [
@@ -88,7 +88,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "Though dwarven paladins have forged their own proud traditions in Khaz Modan, their holy order honors close ties with the human priesthood in Stormwind for formal clerical rites."
+   "text": "Dwarven paladins have forged their own proud traditions in Khaz Modan, taking up the Tomes of Divinity in Ironforge even as their human brethren are summoned to Stormwind."
   },
   {
    "target": "faction:Alliance",

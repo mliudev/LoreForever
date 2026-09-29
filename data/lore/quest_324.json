@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "A Plundered Shipwreck",
-   "body": "Off the misty shores of the Wetlands lies the shattered wreckage of the Flying Osprey. Sent to retrieve precious Lightforge iron for the dwarven smith Glorin Steelbrow, seekers discovered that the cargo hold's waterlogged chest was nearly empty. The ravenous local Bluegill murlocs had already scavenged the rest of the vessel, taking the gleaming ingots for themselves.",
+   "body": "Off the misty shores of the Wetlands lies the shattered wreckage of the Flying Osprey. Sent to retrieve precious Lightforge iron for the dwarven priest Glorin Steelbrow, seekers discovered that the cargo hold's waterlogged chest was nearly empty. The ravenous local Bluegill murlocs had already scavenged the rest of the vessel, taking the gleaming ingots for themselves.",
    "spoiler": 0
   },
   {
    "title": "Reclaiming the Sacred Metal",
-   "body": "Lightforge iron is no ordinary ore; it is rare, specialized metal attuned to work sacred smithing craft. Allowing it to rot in murloc encampments is unthinkable for a dwarven craftsman. By hunting down the Bluegill raiders swarming the shallows near the broken hull, adventurers prise back the scattered bars so Glorin Steelbrow can finally stoke his forge and begin crafting.",
+   "body": "Lightforge iron is no ordinary ore; it is rare, specialized metal attuned to work sacred smithing craft. Allowing it to rot in murloc encampments is unthinkable for a dwarf of the Light. By hunting down the Bluegill raiders swarming the shallows near the broken hull, adventurers prise back the scattered bars so Glorin Steelbrow can see the iron hammered into a weapon.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "who is glorin steelbrow",
     "quest giver"
    ],
-   "answer": "Glorin Steelbrow is a dwarven artisan residing in the Wetlands who requires Lightforge iron to craft specialized arms and equipment for holy crusaders and defenders of the Alliance."
+   "answer": "Glorin Steelbrow is a dwarven priest of the Church of the Holy Light, found in the Deepwater Tavern in Menethil Harbor. A colleague of Bishop Farthing, he seeks Lightforge iron so a weapon can be forged against the necromancer Morbent Fel."
   },
   {
    "q": "What is special about Lightforge iron?",
@@ -83,13 +83,13 @@
     "what does glorin do",
     "blessed arm quest"
    ],
-   "answer": "Once Glorin Steelbrow receives the full set of ingots, he is ready to forge the sanctified metal into a Blessed Arm, continuing the sacred forging process."
+   "answer": "Once Glorin Steelbrow receives the full set of ingots, he packs the sanctified metal into a crate and sends you to the weaponsmith Grimand Elmore in Stormwind to have it forged, continuing in Blessed Arm."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Recovering lost masterwork ore and putting it into the hands of an artisan like Glorin Steelbrow honors the long tradition of dwarven craftsmanship and reclaimers."
+   "text": "Recovering lost masterwork ore and putting it into the hands of a dwarven priest like Glorin Steelbrow honors the long tradition of dwarven craftsmanship and reclaimers."
   },
   {
    "target": "class:Paladin",

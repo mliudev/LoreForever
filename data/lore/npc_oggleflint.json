@@ -22,7 +22,7 @@
   },
   {
    "title": "The Threat Beneath Orgrimmar",
-   "body": "Having displaced troggs directly beneath Thrall's capital is a hazard the Horde cannot tolerate. Pushed closer to the surface, Oggleflint's tribe is far too volatile to leave unchecked, threatening to spill into the Drag and Cleft of Shadows if left undisturbed. Warchief Thrall and his commanders task young champions with descending into the chasm to eliminate Oggleflint and pacify the tunnel invasion.",
+   "body": "Having displaced troggs directly beneath Thrall's capital is a hazard the Horde cannot tolerate. Pushed closer to the surface, Oggleflint's tribe is far too volatile to leave unchecked, threatening to spill into the Drag and Cleft of Shadows if left undisturbed.",
    "spoiler": 0
   }
  ],
@@ -68,14 +68,6 @@
     "are troggs with the cult"
    ],
    "answer": "They are bitter enemies. The Searing Blade cultists invaded Ragefire Chasm and overpowered Oggleflint's troggs, driving the survivors into the upper caves."
-  },
-  {
-   "q": "Why does the Horde want Oggleflint dead?",
-   "aliases": [
-    "repel the invasion quest",
-    "horde bounty oggleflint"
-   ],
-   "answer": "With troggs massing right near the entrance to Orgrimmar's lower districts, the Horde leadership ordered his elimination to secure the perimeter and prevent a trogg rampage into the city."
   }
  ],
  "angles": [
@@ -96,7 +88,6 @@
   "oggleflint",
   "orgrimmar",
   "ragefire chasm",
-  "repel the invasion",
   "searing blade",
   "trogg"
  ],

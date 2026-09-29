@@ -69,7 +69,7 @@
     "what did abercrombie lose",
     "contents of crate"
    ],
-   "answer": "Abercrombie claims the crate contains rare herbs and specialized harvesting tools he abandoned during the attack. However, his slip of the tongue upon its return suggests the contents serve darker, necromantic pursuits."
+   "answer": "Abercrombie claims the crate contains rare herbs and specialized harvesting tools he abandoned during the attack, and he is overjoyed to have them back."
   },
   {
    "q": "What did Abercrombie almost say when receiving the crate?",
@@ -78,7 +78,7 @@
     "what was abercrombie saying",
     "abercrombie quote"
    ],
-   "answer": "Upon getting his crate back, Abercrombie blurts out 'Thank the Nec\u2014' before abruptly stopping and thanking the adventurer instead. This near-slip strongly points to him revering necromancy or the Necronomicon."
+   "answer": "Upon getting his crate back, Abercrombie starts to thank someone else before abruptly catching himself and thanking the adventurer instead, then gleefully looks forward to the nights ahead."
   },
   {
    "q": "Does this quest connect to other tasks at the ogre mound?",
@@ -96,7 +96,7 @@
   },
   {
    "target": "class:Paladin",
-   "text": "Abercrombie's near-invocation of necromantic powers should put any servant of the Holy Light on guard against aiding the reclusive hermit blindly."
+   "text": "Abercrombie's eager, secretive delight at recovering his crate should put any servant of the Holy Light on guard against aiding the reclusive hermit blindly."
   },
   {
    "target": "profession:Herbalism",

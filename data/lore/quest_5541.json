@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "A Courier's Flight",
-   "body": "Loslor Rudge in Coldridge Valley keeps steady supply lines flowing to tradesmen across Dun Morogh, but the valley's wildlife often interferes. His latest shipment of heavy ammunition never reached Hegnar Rumbleshot's roadside workshop. While camping near the cave system known as the Grizzled Den, the terrified courier crossed paths with local wendigo and fled for his life, abandoning the heavy wooden crate in the snow.",
+   "body": "Loslor Rudge at Steelgrill's Depot keeps steady supply lines flowing to tradesmen across Dun Morogh, but the valley's wildlife often interferes. His latest shipment of heavy ammunition never reached Hegnar Rumbleshot's roadside workshop. While camping near the cave system known as the Grizzled Den, the terrified courier crossed paths with local wendigo and fled for his life, abandoning the heavy wooden crate in the snow.",
    "spoiler": 0
   },
   {
    "title": "Powder and Shot",
-   "body": "Hegnar Rumbleshot operates a gun shop situated right along the main road leading away from Anvilmar. The clearing outside his forge sees constant traffic from Ironforge riflemen, mountaineers, and dwarven mortar squads looking to zero their sights and drill with live fire. Without steady crates of powder and lead from suppliers like Loslor, Coldridge's marksmanship training quickly grinds to a dead stop.",
+   "body": "Hegnar Rumbleshot operates a gun shop situated right along the main road leading away from Anvilmar. The clearing outside his forge sees constant traffic from Ironforge riflemen, mountaineers, and dwarven mortar squads looking to zero their sights and drill with live fire. Without steady crates of powder and lead from suppliers like Loslor, the riflemen's marksmanship training quickly grinds to a dead stop.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is rumbleshot ammo",
     "crate location"
    ],
-   "answer": "Loslor Rudge's frightened courier dropped the shipment while encamped just outside the Grizzled Den, a wendigo-infested cave nestled in the snowy foothills of Coldridge Valley."
+   "answer": "Loslor Rudge's frightened courier dropped the shipment while encamped just outside the Grizzled Den, a wendigo-infested cave nestled in the snowy hills southwest of Kharanos."
   },
   {
    "q": "Who is Hegnar Rumbleshot?",
@@ -56,7 +56,7 @@
     "wendigo attack",
     "courier story"
    ],
-   "answer": "The courier made the mistake of camping near the Grizzled Den, the den of the savage, territorial wendigo that roam the southern crags of Coldridge Valley."
+   "answer": "The courier made the mistake of camping near the Grizzled Den, the den of the savage, territorial wendigo that roam the hills southwest of Kharanos."
   },
   {
    "q": "Why is Hegnar Rumbleshot out of ammunition?",
@@ -72,7 +72,7 @@
     "loslor rudge",
     "who is loslor"
    ],
-   "answer": "Loslor Rudge is an Anvilmar merchant who arranges deliveries and supplies for tradesmen throughout Coldridge Valley."
+   "answer": "Loslor Rudge is a dwarven engineering supplier at Steelgrill's Depot whose business ships ammunition to Hegnar Rumbleshot."
   },
   {
    "q": "Does recovered ammunition spoil in the snow?",

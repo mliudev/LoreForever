@@ -8,11 +8,11 @@
   "wiki": "Senani Thunderheart",
   "refs": 8
  },
- "summary": "Senani Thunderheart is a tauren huntress stationed at Silverwind Refuge on the shores of Mystral Lake in Ashenvale. Serving the Horde, she tests the mettle of passing travelers by challenging them to pursue the fierce wild predators that roam the ancient forest. Through her trials, hunters prove their skill while thinning the deadly beasts prowling near Horde territory.",
+ "summary": "Senani Thunderheart is a tauren huntress stationed at Splintertree Post in Ashenvale, just north of the Barrens. Serving the Horde, she tests the mettle of passing travelers by challenging them to pursue the fierce wild predators that roam the ancient forest. Through her trials, hunters prove their skill while thinning the deadly beasts prowling near Horde territory.",
  "sections": [
   {
    "title": "The Master of the Hunt",
-   "body": "Found keeping camp at Silverwind Refuge, Senani Thunderheart represents the hunting traditions of the tauren amid the shadowed groves of Ashenvale. Far from the open plains of Mulgore, she directs Horde adventurers to test their tracking and combat prowess against the forest's apex beasts. She views the hunt as both an honorable challenge and a necessary ritual to survive in an untamed, contested land.",
+   "body": "Found keeping camp at Splintertree Post, Senani Thunderheart represents the hunting traditions of the tauren amid the shadowed groves of Ashenvale. Far from the open plains of Mulgore, she directs Horde adventurers to test their tracking and combat prowess against the forest's apex beasts. She views the hunt as both an honorable challenge and a necessary ritual to survive in an untamed, contested land.",
    "spoiler": 0
   },
   {
@@ -29,7 +29,7 @@
     "senani thunderheart lore",
     "silverwind refuge questgiver"
    ],
-   "answer": "Senani Thunderheart is a tauren huntress and quest giver located at Silverwind Refuge in Ashenvale. She serves the Horde by directing adventurers to hunt the most dangerous wildlife prowling the forest."
+   "answer": "Senani Thunderheart is a tauren huntress and quest giver located at Splintertree Post in Ashenvale. She serves the Horde by directing adventurers to hunt the most dangerous wildlife prowling the forest."
   },
   {
    "q": "Where can I find Senani Thunderheart?",
@@ -38,7 +38,7 @@
     "where is senani",
     "where is silverwind refuge"
    ],
-   "answer": "Senani is stationed at Silverwind Refuge, an encampment on the southeastern bank of Mystral Lake in south-central Ashenvale, just off the main road."
+   "answer": "Senani is stationed at Splintertree Post, the Horde outpost in Ashenvale directly north of the Barrens."
   },
   {
    "q": "What is the Ashenvale Hunt?",
@@ -65,7 +65,7 @@
     "king of the foulweald",
     "senani furbolg"
    ],
-   "answer": "Yes, Senani tracks threats to the refuge and the nearby roads, offering tasks like confronting the Foulweald furbolg tribe and their leader to prevent them from overrunning the area."
+   "answer": "Not in her own tasks. Senani's charge is the Ashenvale Hunt; the Foulweald and other furbolg tribes are simply among the many dangers a hunter faces in the forest."
   },
   {
    "q": "Is Senani affiliated with the Cenarion Circle?",
@@ -87,7 +87,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "Silverwind Refuge serves as a useful waystation in central Ashenvale, where Senani helps Horde scouts prove their worth and secure the wilderness."
+   "text": "Splintertree Post serves as the Horde's foothold in Ashenvale, where Senani helps Horde scouts prove their worth and secure the wilderness."
   }
  ],
  "keywords": [

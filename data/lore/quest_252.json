@@ -46,7 +46,7 @@
     "who is sirra",
     "sirra von indi lore"
    ],
-   "answer": "Sirra Von'Indi is a scholar residing in Darkshire. Her linguistic and analytical expertise allows her to decipher the cryptic notes and letters left behind by Abercrombie when others cannot read his script."
+   "answer": "Sirra Von'Indi is a scholar residing in Darkshire. His linguistic and analytical expertise allows him to decipher the cryptic notes and letters left behind by Abercrombie when others cannot read his script."
   },
   {
    "q": "Why does Lord Ello blame the player?",
@@ -87,10 +87,6 @@
   {
    "target": "faction:Alliance",
    "text": "For Alliance champions, this moment is a painful lesson in Duskwood's treachery: misplaced trust in the woods can endanger an entire settlement of innocent citizens."
-  },
-  {
-   "target": "class:Paladin",
-   "text": "A paladin's urge to offer charitable aid to a frail hermit is violently turned against them when they learn those good deeds fueled necromantic desecration."
   }
  ],
  "keywords": [

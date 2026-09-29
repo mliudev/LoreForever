@@ -17,7 +17,7 @@
   "wiki": "The Spirits of Stonetalon",
   "chain": []
  },
- "summary": "The Spirits of Stonetalon is a Horde courier quest initiated by the tauren shaman Zor Lonetree in Orgrimmar. He detects deep unrest among the earth spirits across the western crags and dispatches young champions into the Stonetalon Mountains. Traveling west past the Crossroads, adventurers report directly to Seereth Stonebreak near the Greatwood Vale to address rampant logging.",
+ "summary": "The Spirits of Stonetalon is a Horde courier quest initiated by the orc advisor Zor Lonetree in Orgrimmar. He detects deep unrest among the earth spirits across the western crags and dispatches young champions into the Stonetalon Mountains. Traveling west past the Crossroads, adventurers report directly to Seereth Stonebreak near the Greatwood Vale to address rampant logging.",
  "sections": [
   {
    "title": "A Cry from the West",
@@ -38,7 +38,7 @@
     "where get quest",
     "zor lonetree location"
    ],
-   "answer": "The quest is offered by Zor Lonetree, a wise tauren shaman found among the pavilions of the Valley of Wisdom in the Horde capital of Orgrimmar."
+   "answer": "The quest is offered by Zor Lonetree, a wise orc advisor found in Grommash Hold in the Horde capital of Orgrimmar."
   },
   {
    "q": "Where can I find Seereth Stonebreak?",

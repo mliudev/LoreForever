@@ -29,7 +29,7 @@
     "who is yehkinya",
     "yehkinya npc"
    ],
-   "answer": "Yeh'kinya is a jungle troll found standing near the water at Steamwheedle Port in Tanaris. Outwardly, he acts as a scholar seeking historical relics and spirits, but he is secretly a covert agent working to orchestrate the return of Hakkar the Soulflayer."
+   "answer": "Yeh'kinya is a jungle troll found standing near the water at Steamwheedle Port in Tanaris. He presents himself as a scholar seeking historical relics and spirits, with a particular interest in the troll god Hakkar."
   },
   {
    "q": "Why does Yeh'kinya want the Prophecy of Mosh'aru and the Ancient Egg?",
@@ -38,35 +38,17 @@
     "prophecy of mosharu troll",
     "yehkinya purpose"
    ],
-   "answer": "Yeh'kinya tricks adventurers into recovering these powerful artifacts under the guise of safe research. In truth, the Mosh'aru tablets contain rituals and lore concerning the binding and summoning of Hakkar, and the items provided help pave the way for the Soulflayer's physical manifestation in Zul'Gurub."
-  },
-  {
-   "q": "How is Yeh'kinya exposed?",
-   "aliases": [
-    "who finds out yehkinya",
-    "confront yehkinya",
-    "prospector ironboot yehkinya"
-   ],
-   "answer": "Prospector Ironboot uncovers the truth behind the scholar's requests and alerts the adventurer. When confronted with evidence of his deception, Yeh'kinya abandons his guise, transforms into a flying green wind serpent, and escapes over the ocean to join his cultist allies."
-  },
-  {
-   "q": "What should adventurers do after Yeh'kinya escapes?",
-   "aliases": [
-    "where to go after yehkinya",
-    "next step after confront yehkinya",
-    "yehkinya escape"
-   ],
-   "answer": "Following Yeh'kinya's flight, Prospector Ironboot directs duped heroes to Yojamba Isle off the coast of Stranglethorn Vale. There, the Zandalari tribe has gathered to rally champions and find a way to halt Hakkar's return."
+   "answer": "Yeh'kinya says he needs these artifacts for his study of ancient troll history and spirits. The Mosh'aru tablets lie in the ruins of Zul'Farrak and the Ancient Egg in the Hinterlands, and both tie into his interest in Hakkar."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "Darkspear trolls recognize the mortal peril of Hakkar's resurgence; being tricked into aiding a Hakkari cultist is a bitter sting against the tribe's defiance of the Blood God."
+   "text": "Darkspear trolls recognize the mortal peril of Hakkar's resurgence."
   },
   {
    "target": "class:Priest",
-   "text": "Priests sensitive to spiritual essence may find Yeh'kinya's casual collection of trapped screecher spirits deeply troubling long before his true loyalty to Hakkar is unmasked."
+   "text": "Priests sensitive to spiritual essence may find Yeh'kinya's casual collection of trapped screecher spirits deeply troubling."
   }
  ],
  "keywords": [

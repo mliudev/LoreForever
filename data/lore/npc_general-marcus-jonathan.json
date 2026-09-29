@@ -17,7 +17,7 @@
   },
   {
    "title": "A Strained Command",
-   "body": "While towns like Lakeshire beg for Stormwind soldiers to repel Blackrock orcs and gnolls, Jonathan finds his hands tied by internal politics. Although he assures local magistrates of his commitment to help, he privately confides that the court has grown distant and the boy-king's regency behaves strangely. Paralyzed by royal hesitation and rising threats, Jonathan is forced to rely on independent adventurers to carry orders and reinforce vulnerable outposts.",
+   "body": "While towns like Lakeshire beg for Stormwind soldiers to repel Blackrock orcs and gnolls, Jonathan assures local magistrates of his commitment to help, yet he privately confides that the court has grown distant and the boy-king's regency behaves strangely.",
    "spoiler": 1
   }
  ],
@@ -30,15 +30,6 @@
     "stormwind gate commander"
    ],
    "answer": "He is stationed on horseback right inside the main gates of Stormwind City, overlooking the entrance bridge in the Valley of Heroes."
-  },
-  {
-   "q": "Why won't Marcus send the army to help Lakeshire?",
-   "aliases": [
-    "why no troops for lakeshire",
-    "lakeshire reinforcements",
-    "marcus jonathan redridge troops"
-   ],
-   "answer": "Although Magistrate Solomon has formally requested reinforcements, Jonathan is constrained by the royal court in Stormwind Keep. In his correspondence, he admits that high leadership has grown distant and erratic, preventing him from deploying the garrison outside the city."
   },
   {
    "q": "What is Marcus Jonathan's military history?",
@@ -61,7 +52,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Marcus Jonathan embodies Stormwind's martial pride at the capital's gate, yet his inability to deploy troops to outlying regions reveals deep administrative paralysis in the Alliance heartland."
+   "text": "Marcus Jonathan embodies Stormwind's martial pride at the capital's gate."
   },
   {
    "target": "class:Warrior",

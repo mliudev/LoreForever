@@ -8,16 +8,16 @@
   "wiki": "Shoni the Shilent",
   "refs": 2
  },
- "summary": "Shoni the Shilent is an industrious gnome engineer stationed in Stormwind City's bustling Dwarven District. As commander of the Gnomeregan underground assault crew, she directs Alliance adventurers to recover stolen gnomish technology from the Defias Brotherhood lurking deep within the Deadmines.",
+ "summary": "Shoni the Shilent is an industrious gnome engineer stationed in Stormwind City's bustling Dwarven District. As commander of the Gnomeregan underground assault crew, she directs Alliance adventurers into the Deadmines to salvage the power supply of a goblin shredder, fuel for the machines she hopes will break a path back into Gnomeregan.",
  "sections": [
   {
    "title": "Commander of the Deep",
-   "body": "Operating out of the smoky workshops of the Dwarven District, Shoni represents gnomish strategic ingenuity far from the lost halls of Gnomeregan. Though quiet in demeanor\u2014earning her the moniker 'the Shilent'\u2014her engineering plans are ambitious. When the Defias Brotherhood absconded with advanced mining apparatuses, Shoni stepped forward to organize a recovery effort, sending operatives into the subterranean tunnels beneath Westfall.",
+   "body": "Operating out of the smoky workshops of the Dwarven District, Shoni represents gnomish strategic ingenuity far from the lost halls of Gnomeregan. Though quiet in demeanor\u2014earning her the moniker 'the Shilent'\u2014her engineering plans are ambitious. With Gnomeregan in the hands of the troggs, Shoni is organizing an underground assault to retake it, and she sends operatives into the subterranean tunnels beneath Westfall for the parts her crew needs.",
    "spoiler": 0
   },
   {
    "title": "Subterranean Reclamation",
-   "body": "Shoni's primary concern in the Deadmines centers on heavy gnomish drilling equipment. The Brotherhood seized gyrodrillmatic excavationators\u2014complex machinery capable of carving out subterranean waterways and iron vaults. Recognizing the immense threat posed by outlaw hands wielding advanced mechanized burrowing tools, she insists on recovering or neutralizing the stolen tech before Edwin VanCleef's workforce can turn it fully against the Kingdom of Stormwind.",
+   "body": "Shoni's plan rests on the gnomes' own gyrodrillmatic excavationators, heavy drilling machines meant to break through the rocky underground borders of Gnomeregan and open the way for a gnomish assault. They lack the power to do it, so she wants the intact power supply, the Gnoam Sprecklesprocket, from a working goblin shredder deep in the Deadmines. Later, she also sends adventurers into Gnomeregan itself to tear apart its robots for spare parts to repair her fleet.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "why send to deadmines",
     "gyrodrillmatic quest"
    ],
-   "answer": "The Defias Brotherhood managed to acquire advanced gnomish gyrodrillmatic excavationators for their secretive mining operations. Shoni enlists adventurers to delve into the mines and recover this vital machinery."
+   "answer": "A functional goblin shredder works deep in the Deadmines. Shoni enlists adventurers to bring back its intact power supply, the Gnoam Sprecklesprocket, so her gyrodrillmatic excavationators can break through the underground borders of Gnomeregan."
   },
   {
    "q": "Why is she called 'the Shilent'?",
@@ -62,11 +62,11 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For gnomish heroes, assisting Shoni ensures that stolen Gnomeregan engineering does not remain in the hands of common thieves while their people struggle to reclaim their fallen home."
+   "text": "For gnomish heroes, assisting Shoni brings their people one step closer to breaking back into Gnomeregan and reclaiming their fallen home."
   },
   {
    "target": "profession:Engineering",
-   "text": "Engineers can appreciate the sheer mechanical complexity of the gyrodrillmatic excavationators Shoni seeks to recover from the depths of Moonbrook."
+   "text": "Engineers can appreciate the sheer mechanical complexity of the gyrodrillmatic excavationators Shoni hopes to power with a shredder's salvaged heart from beneath Moonbrook."
   }
  ],
  "keywords": [

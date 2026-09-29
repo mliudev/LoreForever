@@ -17,11 +17,11 @@
   "wiki": "The Fury Runs Deep",
   "chain": []
  },
- "summary": "This quest represents Motley Garmason's bitter quest for vengeance against the Dark Iron dwarf Kam Deepfury. Deepfury masterminded the assault on the Thandol Span, which claimed the lives of Bronzebeard defenders, including Rhag Garmason. Dissatisfied with Stormwind's political detention of the culprit, Motley enlists an adventurer to enact dwarven justice inside the Stockade.",
+ "summary": "This quest represents Motley Garmason's bitter quest for vengeance against the Dark Iron dwarf Kam Deepfury. Deepfury masterminded the assault on the Thandol Span, which claimed the lives of Bronzebeard defenders, including the brother of Longbraid the Grim. Dissatisfied with Stormwind's political detention of the culprit, Motley enlists an adventurer to enact dwarven justice inside the Stockade.",
  "sections": [
   {
    "title": "A Grudge Across Continents",
-   "body": "The northern reaches of the Wetlands bleed from perpetual clashes between the Bronzebeard defenders at Dun Modr and the insurgent Dark Iron dwarves. When the Thandol Span came under attack, the sabotage cost vital dwarven lives, including kin of Mount Mountain and Balgaras the Mountain. Intelligence gathered by Roggo revealed that Kam Deepfury planned the deceitful strike. Instead of facing execution on the front lines, however, Deepfury ended up secured inside the Stormwind Stockade\u2014held as a political prisoner rather than executed for murder.",
+   "body": "The northern reaches of the Wetlands bleed from perpetual clashes between the Bronzebeard defenders at Dun Modr and the insurgent Dark Iron dwarves. When the Thandol Span came under attack, the sabotage cost vital dwarven lives, including the brother of Longbraid the Grim. Intelligence gathered by Roggo revealed that Kam Deepfury planned the deceitful strike. Instead of facing execution on the front lines, however, Deepfury ended up secured inside the Stormwind Stockade\u2014held as a political prisoner rather than executed for murder.",
    "spoiler": 0
   },
   {
@@ -54,7 +54,7 @@
     "why motley stay",
     "why motley doesn't go"
    ],
-   "answer": "Motley is bound by honor and military duty to remain stationed at Dun Modr alongside Mount Longbraid, fighting off ongoing Dark Iron advances in the northern Wetlands. He cannot abandon the defensive line to journey south to Stormwind."
+   "answer": "Motley is bound by honor and military duty to remain stationed at Dun Modr alongside Longbraid the Grim, fighting off ongoing Dark Iron advances in the northern Wetlands. He cannot abandon the defensive line to journey south to Stormwind."
   },
   {
    "q": "What happened at the Thandol Span?",

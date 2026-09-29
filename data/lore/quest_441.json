@@ -21,11 +21,11 @@
    "A Husband's Revenge"
   ]
  },
- "summary": "This quest bridges an investigation from Brill to the Undercity, tasking an adventurer with delivering a recovered heirloom ring to a widower named Raleigh. Found on the corpse of a Scourge defiler, the jewelry points to a tragedy among Lordaeron's former inhabitants. Delivering it sets into motion a dark pursuit of vengeance.",
+ "summary": "This quest bridges an investigation from Brill to the Undercity, tasking an adventurer with delivering a recovered heirloom ring to a widower named Raleigh. Found on a woman's stolen corpse bound for Fenris Isle, the jewelry points to a tragedy among Lordaeron's former inhabitants. Delivering it sets into motion a dark pursuit of vengeance.",
  "sections": [
   {
    "title": "A Tragic Heirloom",
-   "body": "In Brill, Magistrate Sevren pieced together clues surrounding a stolen corpse and recovered an engraved ring that once belonged to a woman named Deliah. Hoping to confirm its origin and see it returned to her family, Sevren directed the finder deep into the subterranean halls of the Undercity to seek Deliah's surviving husband, Raleigh.",
+   "body": "In Brill, Magistrate Sevren pieced together clues surrounding a stolen corpse and an engraved ring that once belonged to a woman named Deliah. Hoping to confirm its origin and see it returned to her family, Sevren directed the finder deep into the subterranean halls of the Undercity to seek Deliah's surviving husband, Raleigh.",
    "spoiler": 0
   },
   {
@@ -86,7 +86,7 @@
     "ring origin",
     "where did the ring come from"
    ],
-   "answer": "The ring was recovered during the quest 'The Engraved Ring', retrieved from the defiler who plundered Deliah's grave in Tirisfal Glades."
+   "answer": "The ring was recovered during the quest 'Rot Hide Clues', taken from Deliah's hand among the wrapped corpses on a boat at the Decrepit Ferry in Silverpine Forest."
   }
  ],
  "angles": [

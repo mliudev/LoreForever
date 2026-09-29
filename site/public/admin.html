@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Dashboard - Lore Forever</title>
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<style>
+/* Dashboard-only styles, kept here so the public stylesheet stays lean. */
+.ad { padding-top: 22px; padding-bottom: 20px; }
+.ad[hidden], .ad-login[hidden] { display: none; }
+.ad-bar { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: baseline; justify-content: space-between; }
+.ad-bar h1 { font-size: 2rem; }
+.ad-meta { color: var(--muted); font-size: 0.85rem; }
+.ad-meta button, .ad-link {
+  background: none; border: 0; padding: 0; color: var(--link); font: inherit; cursor: pointer; text-decoration: underline;
+}
+.ad-panel {
+  background: var(--panel); border: 1px solid var(--panel-line); border-radius: 5px; padding: 14px 16px;
+  box-shadow: inset 0 0 0 1px #000, 0 4px 14px rgba(0, 0, 0, 0.5); min-width: 0;
+}
+.ad h2 { font-family: var(--heading); color: var(--gold); font-size: 1.2rem; margin: 28px 0 10px; }
+.ad-panel h3 { margin: 0 0 8px; color: var(--gold-soft); font: 600 0.95rem var(--heading); letter-spacing: 0.02em; }
+
+/* Stat tiles */
+.ad-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin-top: 16px; }
+.ad-tile .ad-label { color: var(--muted); font-size: 0.85rem; }
+.ad-tile .ad-num { font: 700 2rem/1.2 var(--heading); color: var(--text); }
+.ad-tile .ad-sub { color: var(--muted); font-size: 0.82rem; }
+
+/* Charts */
+.ad-charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; margin-top: 12px; }
+.ad-chart { position: relative; }
+.ad-chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.ad-chart .grid { stroke: #2a2a36; stroke-width: 1; }
+.ad-chart .axis { fill: var(--muted); font-size: 11px; font-family: system-ui, sans-serif; }
+.ad-chart .bar { fill: var(--gold-soft); pointer-events: none; }
+.ad-chart .hit { fill: transparent; cursor: default; }
+.ad-chart .hit:hover + .bar, .ad-chart .bar.on { fill: var(--gold); }
+.ad-tip {
+  position: absolute; pointer-events: none; transform: translate(-50%, -100%); white-space: nowrap;
+  background: #000; border: 1px solid var(--panel-line); border-radius: 4px; padding: 4px 8px; font-size: 0.82rem;
+}
+.ad-tip strong { color: var(--text); }
+.ad-chart details { margin-top: 6px; font-size: 0.82rem; }
+.ad-chart summary { cursor: pointer; color: var(--link); }
+.ad-chart details table { font-size: 0.82rem; margin-top: 6px; }
+
+/* Filters, lists and tables */
+.ad-filters { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; margin-bottom: 10px; }
+.ad-filters button, .ad-filters select, .ad-filters input {
+  font: inherit; font-size: 0.88rem; color: var(--text); background: #00000088; border: 1px solid var(--panel-line);
+  border-radius: 4px; padding: 5px 10px;
+}
+.ad-filters button { cursor: pointer; }
+.ad-filters button[aria-pressed="true"] { border-color: var(--gold); color: var(--gold); }
+.ad-filters input { flex: 1 1 200px; min-width: 0; }
+.ad-count { color: var(--muted); font-size: 0.85rem; }
+.ad-report { border-top: 1px solid var(--line); padding: 12px 0; }
+.ad-report:first-child { border-top: 0; padding-top: 0; }
+.ad-report.done { opacity: 0.6; }
+.ad-report-head { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; font-size: 0.85rem; color: var(--muted); }
+.ad-kind { font-weight: 600; color: var(--gold-soft); }
+.ad-stars { color: var(--gold); letter-spacing: 1px; }
+.ad-msg { margin: 6px 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+.ad-report-foot { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 0.85rem; color: var(--muted); }
+.ad-report-foot code { overflow-wrap: anywhere; }
+.ad-actions { margin-left: auto; display: flex; gap: 14px; }
+.ad-danger { color: #ff8a7a !important; }
+.ad-table-wrap { overflow-x: auto; }
+.ad table td, .ad table th { padding: 6px 10px 6px 0; border-top: 1px solid var(--line); text-align: left; font-size: 0.9rem; }
+.ad table th { color: var(--muted); font-weight: 600; border-top: 0; }
+.ad-empty { color: var(--muted); margin: 0; }
+.ad-test { color: var(--muted); font-size: 0.78rem; border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; }
+
+/* Sign-in */
+.ad-login { max-width: 460px; margin: 60px auto; }
+.ad-login form { display: flex; flex-direction: column; gap: 10px; }
+.ad-login input[type="password"] {
+  padding: 8px 10px; font: inherit; color: var(--text); background: #000000aa; border: 1px solid var(--panel-line); border-radius: 4px;
+}
+.ad-login label.ad-check { display: flex; gap: 8px; align-items: center; color: var(--muted); font-size: 0.9rem; }
+.ad-login .btn-small { align-self: flex-start; cursor: pointer; }
+.ad-error { color: #ff7b6b; margin: 0; }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; Dashboard</span>
+  </div>
+</header>
+
+<!-- Sign-in. The key is ADMIN_KEY (or FEEDBACK_KEY) from the Pages project; the API refuses everything without it. -->
+<main class="wrap ad-login ad-panel" id="login" hidden>
+  <h1 style="font-size:1.6rem">Dashboard</h1>
+  <form id="login-form">
+    <label for="key">Admin key</label>
+    <input type="password" id="key" autocomplete="current-password" required>
+    <label class="ad-check"><input type="checkbox" id="remember"> Remember on this device</label>
+    <button type="submit" class="btn-small">Open dashboard</button>
+    <p class="ad-error" id="login-error" role="alert" hidden></p>
+  </form>
+</main>
+
+<main class="wrap ad" id="dash" hidden>
+  <div class="ad-bar">
+    <h1>Dashboard</h1>
+    <span class="ad-meta"><span id="updated"></span> &middot; <button type="button" id="refresh">Refresh</button>
+      &middot; <button type="button" id="signout">Sign out</button></span>
+  </div>
+
+  <div class="ad-tiles">
+    <div class="ad-panel ad-tile"><div class="ad-label">Emails</div><div class="ad-num" id="t-emails">-</div><div class="ad-sub" id="t-emails-sub"></div></div>
+    <div class="ad-panel ad-tile"><div class="ad-label">Site downloads</div><div class="ad-num" id="t-dl">-</div><div class="ad-sub" id="t-dl-sub"></div></div>
+    <div class="ad-panel ad-tile"><div class="ad-label">Open feedback</div><div class="ad-num" id="t-open">-</div><div class="ad-sub" id="t-open-sub"></div></div>
+    <div class="ad-panel ad-tile"><div class="ad-label">Average rating</div><div class="ad-num" id="t-rating">-</div><div class="ad-sub" id="t-rating-sub"></div></div>
+  </div>
+
+  <div class="ad-charts">
+    <figure class="ad-panel ad-chart" id="c-signups" style="margin:0"><h3>Sign-ups per day, last 30 days</h3></figure>
+    <figure class="ad-panel ad-chart" id="c-downloads" style="margin:0"><h3>Site downloads per day, last 30 days</h3></figure>
+  </div>
+
+  <h2>Feedback</h2>
+  <div class="ad-panel">
+    <div class="ad-filters" role="group" aria-label="Filter feedback">
+      <button type="button" data-status="new" aria-pressed="true">Open</button>
+      <button type="button" data-status="done" aria-pressed="false">Done</button>
+      <button type="button" data-status="all" aria-pressed="false">All</button>
+      <select id="kind" aria-label="Kind">
+        <option value="">Every kind</option>
+        <option value="lore">Wrong or missing lore</option>
+        <option value="bug">Bug</option>
+        <option value="idea">Idea or zone request</option>
+        <option value="review">Review</option>
+      </select>
+      <span class="ad-count" id="fb-count"></span>
+    </div>
+    <div id="fb-list"></div>
+  </div>
+
+  <h2>Emails</h2>
+  <div class="ad-panel">
+    <div class="ad-filters">
+      <input type="search" id="q" placeholder="Search emails" aria-label="Search emails">
+      <button type="button" id="copy">Copy addresses</button>
+      <button type="button" id="csv">Export CSV</button>
+      <span class="ad-count" id="em-count"></span>
+    </div>
+    <div class="ad-table-wrap">
+      <table><thead><tr><th>Email</th><th>Source</th><th>Signed up</th><th></th></tr></thead><tbody id="em-list"></tbody></table>
+    </div>
+  </div>
+</main>
+
+<script>
+const KINDS = { lore: "Wrong or missing lore", bug: "Bug", idea: "Idea or zone request", review: "Review" };
+const $ = id => document.getElementById(id);
+let data = null;
+let fbStatus = "new";
+
+// The key lives in sessionStorage, or localStorage when "Remember" is ticked. Best effort: storage can be blocked.
+function store(remember) { try { return remember ? localStorage : sessionStorage; } catch (e) { return null; } }
+function getKey() {
+  try { return sessionStorage.getItem("lf-admin") || localStorage.getItem("lf-admin"); } catch (e) { return null; }
+}
+let memoryKey = null;   // used when storage is blocked
+function setKey(key, remember) {
+  memoryKey = key;
+  try { sessionStorage.removeItem("lf-admin"); localStorage.removeItem("lf-admin"); } catch (e) {}
+  if (key) try { store(remember).setItem("lf-admin", key); } catch (e) {}
+}
+const key = () => memoryKey || getKey();
+
+async function api(method, body) {
+  const r = await fetch("/api/admin", {
+    method, cache: "no-store",
+    headers: { Authorization: "Bearer " + key(), ...(body ? { "Content-Type": "application/json" } : {}) },
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  if (r.status === 401) { signOut("That key didn't work."); throw new Error("unauthorized"); }
+  const res = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(res.error || "Request failed (" + r.status + ")");
+  return res;
+}
+
+function signOut(message) {
+  setKey(null);
+  $("dash").hidden = true;
+  $("login").hidden = false;
+  $("login-error").textContent = message || "";
+  $("login-error").hidden = !message;
+}
+
+async function load() {
+  $("refresh").disabled = true;
+  try {
+    data = await api("GET");
+    $("login").hidden = true;
+    $("dash").hidden = false;
+    render();
+    $("updated").textContent = "Updated " + new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+  } catch (e) {
+    if (e.message !== "unauthorized") alert("Couldn't load the dashboard: " + e.message);
+  }
+  $("refresh").disabled = false;
+}
+
+// ---- helpers ----
+const el = (tag, props = {}, ...kids) => {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(props)) {
+    if (k === "class") n.className = v; else if (k === "text") n.textContent = v; else n.setAttribute(k, v);
+  }
+  n.append(...kids.filter(k => k != null));
+  return n;
+};
+const fmtDate = iso => iso ? new Date(iso).toLocaleString([], { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) : "";
+const fmtDay = day => new Date(day + "T00:00:00Z").toLocaleDateString([], { month: "short", day: "numeric", timeZone: "UTC" });
+const isTest = s => s.source === "selftest";
+
+// The last n UTC days, oldest first, as "YYYY-MM-DD".
+function lastDays(n) {
+  const out = [], now = Date.now();
+  for (let i = n - 1; i >= 0; i--) out.push(new Date(now - i * 864e5).toISOString().slice(0, 10));
+  return out;
+}
+
+// ---- render ----
+function render() {
+  const subs = data.subscribers.filter(s => !isTest(s));
+  const week = lastDays(7)[0];
+  $("t-emails").textContent = subs.length.toLocaleString();
+  $("t-emails-sub").textContent = "+" + subs.filter(s => (s.created_at || "").slice(0, 10) >= week).length + " in the last 7 days";
+
+  const dlBy = f => data.downloads.filter(d => d.file === f).reduce((a, d) => a + d.n, 0);
+  $("t-dl").textContent = (dlBy("installer") + dlBy("zip")).toLocaleString();
+  $("t-dl-sub").textContent = dlBy("installer") + " installer · " + dlBy("zip") + " zip · " + data.clicks + " button clicks";
+
+  const open = data.feedback.filter(f => f.status !== "done");
+  $("t-open").textContent = open.length;
+  $("t-open-sub").textContent = data.feedback.length + " reports in all";
+
+  const rated = data.feedback.filter(f => f.rating);
+  $("t-rating").textContent = rated.length ? (rated.reduce((a, f) => a + f.rating, 0) / rated.length).toFixed(1) + " ★" : "-";
+  $("t-rating-sub").textContent = rated.length ? "from " + rated.length + " rating" + (rated.length === 1 ? "" : "s") : "no ratings yet";
+
+  const days = lastDays(30);
+  const signupsPerDay = days.map(d => subs.filter(s => (s.created_at || "").slice(0, 10) === d).length);
+  const downloadsPerDay = days.map(d => data.downloads.filter(x => x.day === d).reduce((a, x) => a + x.n, 0));
+  barChart($("c-signups"), days, signupsPerDay, n => n + (n === 1 ? " sign-up" : " sign-ups"));
+  barChart($("c-downloads"), days, downloadsPerDay, n => n + (n === 1 ? " download" : " downloads"));
+
+  renderFeedback();
+  renderEmails();
+}
+
+// Single-series bar chart: thin bars with a rounded top, recessive grid, hover tooltip, and a table fallback.
+function barChart(fig, days, values, label) {
+  fig.querySelectorAll("svg, .ad-tip, details").forEach(n => n.remove());
+  const W = 520, H = 170, L = 28, R = 4, T = 8, B = 22;
+  const max = Math.max(1, ...values);
+  const step = max <= 4 ? 1 : Math.ceil(max / 4 / 5) * 5 || 1;     // gridline every `step`
+  const top = Math.ceil(max / step) * step;
+  const y = v => T + (H - T - B) * (1 - v / top);
+  const slot = (W - L - R) / values.length, bw = Math.max(2, slot - 2);   // 2px gap between bars
+  const NS = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(NS, "svg");
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.setAttribute("role", "img");
+  svg.setAttribute("aria-label", fig.querySelector("h3").textContent + ". Total " + values.reduce((a, b) => a + b, 0));
+  const add = (tag, attrs, text) => {
+    const n = document.createElementNS(NS, tag);
+    for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+    if (text != null) n.textContent = text;
+    svg.appendChild(n);
+    return n;
+  };
+  for (let v = 0; v <= top; v += step) {
+    add("line", { x1: L, x2: W - R, y1: y(v), y2: y(v), class: "grid" });
+    add("text", { x: L - 6, y: y(v) + 4, "text-anchor": "end", class: "axis" }, v);
+  }
+  [0, Math.floor(values.length / 2), values.length - 1].forEach(i =>
+    add("text", { x: L + slot * i + slot / 2, y: H - 6, "text-anchor": "middle", class: "axis" }, fmtDay(days[i])));
+
+  const tip = el("div", { class: "ad-tip", hidden: "" });
+  values.forEach((v, i) => {
+    const x = L + slot * i + 1, h = y(0) - y(v), r = Math.min(4, bw / 2, h);
+    // Hit target is the whole column, bigger than the bar.
+    const hit = add("rect", { x: L + slot * i, y: T, width: slot, height: H - T - B, class: "hit" });
+    const bar = add("path", {
+      class: "bar",
+      d: v ? `M${x},${y(0)} V${y(v) + r} Q${x},${y(v)} ${x + r},${y(v)} H${x + bw - r} Q${x + bw},${y(v)} ${x + bw},${y(v) + r} V${y(0)} Z` : "",
+    });
+    hit.addEventListener("mouseenter", () => {
+      bar.classList.add("on");
+      tip.replaceChildren(el("strong", { text: fmtDay(days[i]) }), ": " + label(v));
+      const fr = fig.getBoundingClientRect(), sr = svg.getBoundingClientRect();
+      tip.style.left = (sr.left - fr.left + sr.width * (L + slot * i + slot / 2) / W) + "px";
+      tip.style.top = (sr.top - fr.top + sr.height * y(v) / H - 6) + "px";
+      tip.hidden = false;
+    });
+    hit.addEventListener("mouseleave", () => { bar.classList.remove("on"); tip.hidden = true; });
+  });
+  fig.append(svg, tip);
+
+  const rows = days.map((d, i) => [d, values[i]]).filter(([, v]) => v).reverse();
+  fig.append(el("details", {}, el("summary", { text: "Show as table" }),
+    rows.length
+      ? el("table", {}, ...rows.map(([d, v]) => el("tr", {}, el("td", { text: fmtDay(d) }), el("td", { text: String(v) }))))
+      : el("p", { class: "ad-empty", text: "Nothing in the last 30 days." })));
+}
+
+function renderFeedback() {
+  const kind = $("kind").value;
+  const list = data.feedback.filter(f =>
+    (fbStatus === "all" || (fbStatus === "done" ? f.status === "done" : f.status !== "done")) && (!kind || f.kind === kind));
+  $("fb-count").textContent = list.length + (list.length === 1 ? " report" : " reports");
+  const box = $("fb-list");
+  if (!list.length) { box.replaceChildren(el("p", { class: "ad-empty", text: "Nothing here." })); return; }
+  box.replaceChildren(...list.map(f => {
+    const done = f.status === "done";
+    const toggle = el("button", { type: "button", class: "ad-link", text: done ? "Reopen" : "Mark done" });
+    toggle.addEventListener("click", () => act({ action: "status", id: f.id, status: done ? "new" : "done" }, () => f.status = done ? "new" : "done"));
+    const del = el("button", { type: "button", class: "ad-link ad-danger", text: "Delete" });
+    del.addEventListener("click", () => {
+      if (confirm("Delete report #" + f.id + " for good?")) act({ action: "delete-feedback", id: f.id }, () => data.feedback = data.feedback.filter(x => x !== f));
+    });
+    return el("article", { class: "ad-report" + (done ? " done" : "") },
+      el("div", { class: "ad-report-head" },
+        el("span", { class: "ad-kind", text: KINDS[f.kind] || f.kind }),
+        f.rating ? el("span", { class: "ad-stars", title: f.rating + " of 5", text: "★".repeat(f.rating) + "☆".repeat(5 - f.rating) }) : null,
+        el("span", { text: "#" + f.id + " · " + fmtDate(f.created) + (f.country ? " · " + f.country : "") })),
+      el("p", { class: "ad-msg", text: f.message }),
+      el("div", { class: "ad-report-foot" },
+        f.code ? el("span", {}, "Code ", el("code", { text: f.code })) : null,
+        f.name ? el("span", { text: f.name + (f.quote_ok ? " (OK to quote)" : "") }) : f.quote_ok ? el("span", { text: "OK to quote" }) : null,
+        f.email ? el("a", { href: "mailto:" + encodeURIComponent(f.email).replace("%40", "@"), text: f.email }) : null,
+        el("span", { class: "ad-actions" }, toggle, del)));
+  }));
+}
+
+function visibleEmails() {
+  const q = $("q").value.trim().toLowerCase();
+  return data.subscribers.filter(s => !q || s.email.includes(q) || (s.source || "").includes(q));
+}
+
+function renderEmails() {
+  const list = visibleEmails();
+  $("em-count").textContent = list.filter(s => !isTest(s)).length + " addresses";
+  const body = $("em-list");
+  if (!list.length) { body.replaceChildren(el("tr", {}, el("td", { colspan: "4", class: "ad-empty", text: "No sign-ups yet." }))); return; }
+  body.replaceChildren(...list.map(s => {
+    const del = el("button", { type: "button", class: "ad-link ad-danger", text: "Remove" });
+    del.addEventListener("click", () => {
+      if (confirm("Remove " + s.email + " from the list for good?")) act({ action: "delete-subscriber", email: s.email }, () => data.subscribers = data.subscribers.filter(x => x !== s));
+    });
+    return el("tr", {},
+      el("td", {}, s.email, isTest(s) ? el("span", { class: "ad-test", text: " test" }) : null),
+      el("td", { text: s.source || "" }),
+      el("td", { text: fmtDate(s.created_at) }),
+      el("td", {}, del));
+  }));
+}
+
+async function act(body, onDone) {
+  try { await api("POST", body); onDone(); render(); }
+  catch (e) { if (e.message !== "unauthorized") alert("That didn't work: " + e.message); }
+}
+
+// ---- wiring ----
+$("login-form").addEventListener("submit", e => {
+  e.preventDefault();
+  setKey($("key").value.trim(), $("remember").checked);
+  $("key").value = "";
+  load();
+});
+$("signout").addEventListener("click", () => signOut());
+$("refresh").addEventListener("click", load);
+$("kind").addEventListener("change", renderFeedback);
+$("q").addEventListener("input", renderEmails);
+document.querySelectorAll("[data-status]").forEach(b => b.addEventListener("click", () => {
+  fbStatus = b.dataset.status;
+  document.querySelectorAll("[data-status]").forEach(x => x.setAttribute("aria-pressed", x === b));
+  renderFeedback();
+}));
+$("copy").addEventListener("click", async () => {
+  const text = visibleEmails().filter(s => !isTest(s)).map(s => s.email).join("\n");
+  try { await navigator.clipboard.writeText(text); $("copy").textContent = "Copied"; }
+  catch (e) { prompt("Copy these addresses:", text.replace(/\n/g, ", ")); }
+  setTimeout(() => $("copy").textContent = "Copy addresses", 1500);
+});
+$("csv").addEventListener("click", () => {
+  const cell = v => '"' + String(v ?? "").replace(/"/g, '""') + '"';
+  const rows = [["email", "source", "created_at"], ...visibleEmails().filter(s => !isTest(s)).map(s => [s.email, s.source, s.created_at])];
+  const blob = new Blob([rows.map(r => r.map(cell).join(",")).join("\n")], { type: "text/csv" });
+  const a = el("a", { href: URL.createObjectURL(blob), download: "loreforever-emails-" + new Date().toISOString().slice(0, 10) + ".csv" });
+  document.body.append(a); a.click(); a.remove();
+});
+
+if (key()) load(); else signOut();
+</script>
+</body>
+</html>

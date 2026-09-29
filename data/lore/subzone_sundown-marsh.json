@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Sundown Marsh"
  },
- "summary": "Sundown Marsh marks the deepest, westernmost reaches of the Wetlands where stagnant waters meet treacherous wildlife. Despite the prowling raptors, oozes, and gnolls, an eccentric pair of gnomes maintains a solitary homestead along its muddy borders.",
+ "summary": "Sundown Marsh marks the deepest, westernmost reaches of the Wetlands where stagnant waters meet treacherous wildlife. Despite the prowling raptors, oozes, and gnolls, an eccentric pair maintains a solitary homestead along its muddy borders.",
  "sections": [
   {
    "title": "A Wild and Murky Sinkhole",
@@ -16,7 +16,7 @@
   },
   {
    "title": "Life at the Edge of the Mire",
-   "body": "Amid the hazards of the marsh stands Swiftgear Station, a lonely stone cottage topped with a churning windmill. There, the eccentric gnomes Fradd Swiftgear and Wenna Silkbeard make an unlikely living scavenging the bog. They peddle curiosities and rare trade recipes recovered from the mire to travelers brave enough to navigate the marsh's aggressive denizens.",
+   "body": "Amid the hazards of the marsh stands a lonely stone cottage topped with a churning windmill. There, the gnome Fradd Swiftgear and the dwarf Wenna Silkbeard make an unlikely living scavenging the bog. They peddle curiosities and rare trade recipes recovered from the mire to travelers brave enough to navigate the marsh's aggressive denizens.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "sundown marsh npcs",
     "swiftgear cottage"
    ],
-   "answer": "A gnome couple named Fradd Swiftgear and Wenna Silkbeard live here at Swiftgear Station, a small stone dwelling equipped with a windmill. They scour the bog for oddities and sell rare goods to passing travelers."
+   "answer": "An odd pair, the gnome Fradd Swiftgear and the dwarf Wenna Silkbeard, live here in a small stone dwelling equipped with a windmill. They scour the bog for oddities and sell rare goods to passing travelers."
   },
   {
    "q": "What threats can be found in Sundown Marsh?",
@@ -55,7 +55,7 @@
     "reasons to go to sundown marsh",
     "sundown marsh vendors"
    ],
-   "answer": "Beyond dealing with local beasts, travelers make the trek to visit Swiftgear Station to trade with Fradd Swiftgear and Wenna Silkbeard, who offer uncommon recipes and peculiar curiosities found in the surrounding swamp."
+   "answer": "Beyond dealing with local beasts, travelers make the trek to the windmill cottage to trade with Fradd Swiftgear and Wenna Silkbeard, who offer uncommon recipes and peculiar curiosities found in the surrounding swamp."
   }
  ],
  "angles": [

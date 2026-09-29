@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Feedback - Lore Forever</title>
+<meta name="description" content="Tell us what Lore Forever got right, what it got wrong, and which zones you want next.">
+<link rel="canonical" href="https://loreforever.mliu.io/feedback">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lore Forever feedback">
+<meta property="og:description" content="Tell us what Lore Forever got right, what it got wrong, and which zones you want next.">
+<meta property="og:url" content="https://loreforever.mliu.io/feedback">
+<meta property="og:image" content="https://loreforever.mliu.io/img/social-card.png">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; Feedback</span>
+  </div>
+</header>
+
+<main class="wrap fb-page">
+  <h1>Feedback</h1>
+  <p class="pitch">Found a wrong answer, hit a bug, or want your zone next? Tell us here. Every report is read, and
+    lore fixes go into the next update.</p>
+
+  <!-- Posts to functions/api/feedback.js. With JavaScript the page sends JSON and shows the result in place;
+       without it, the form posts normally and the function sends the player back here with ?sent=1 or ?error=. -->
+  <form class="fb-form" id="fb-form" method="post" action="/api/feedback">
+    <fieldset class="fb-kinds">
+      <legend>What's it about?</legend>
+      <label><input type="radio" name="kind" value="lore" checked> Wrong or missing lore</label>
+      <label><input type="radio" name="kind" value="bug"> Something's broken</label>
+      <label><input type="radio" name="kind" value="idea"> Idea or zone request</label>
+      <label><input type="radio" name="kind" value="review"> Just a review</label>
+    </fieldset>
+
+    <fieldset class="fb-rating">
+      <legend>How are you liking Lore Forever? <span class="fb-optional">(optional)</span></legend>
+      <!-- Listed 5 to 1 so the CSS can light up every star up to the one hovered or picked. -->
+      <div class="fb-stars">
+        <input type="radio" name="rating" value="5" id="r5"><label for="r5" title="5 stars">&#9733;<span class="visually-hidden">5 stars</span></label>
+        <input type="radio" name="rating" value="4" id="r4"><label for="r4" title="4 stars">&#9733;<span class="visually-hidden">4 stars</span></label>
+        <input type="radio" name="rating" value="3" id="r3"><label for="r3" title="3 stars">&#9733;<span class="visually-hidden">3 stars</span></label>
+        <input type="radio" name="rating" value="2" id="r2"><label for="r2" title="2 stars">&#9733;<span class="visually-hidden">2 stars</span></label>
+        <input type="radio" name="rating" value="1" id="r1"><label for="r1" title="1 star">&#9733;<span class="visually-hidden">1 star</span></label>
+      </div>
+    </fieldset>
+
+    <label class="fb-field">
+      <span id="fb-message-label">What happened?</span>
+      <textarea name="message" id="fb-message" rows="6" maxlength="4000" required
+        placeholder="e.g. The answer to &quot;Who is Hogger?&quot; says he's a murloc."></textarea>
+    </label>
+
+    <label class="fb-field">
+      <span>Entry code <span class="fb-optional">(optional)</span></span>
+      <input type="text" name="code" id="fb-code" maxlength="120" autocomplete="off" spellcheck="false"
+        placeholder="If the add-on gave you a code, paste it here">
+      <small>Or tell us the zone, NPC or quest, and the question you asked.</small>
+    </label>
+
+    <div class="fb-pair">
+      <label class="fb-field">
+        <span>Email <span class="fb-optional">(optional, only if you'd like a reply)</span></span>
+        <input type="email" name="email" maxlength="200" autocomplete="email" placeholder="you@example.com">
+      </label>
+      <label class="fb-field">
+        <span>Name or character <span class="fb-optional">(optional)</span></span>
+        <input type="text" name="name" maxlength="60" autocomplete="nickname" placeholder="e.g. Thaelric">
+      </label>
+    </div>
+
+    <label class="fb-check">
+      <input type="checkbox" name="quote_ok" value="on">
+      OK to quote what I wrote on the Lore Forever site (with the name above, if you gave one)
+    </label>
+
+    <!-- Honeypot: hidden from people, filled in by bots. -->
+    <label class="fb-trap" aria-hidden="true">Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+
+    <div id="fb-turnstile"></div>
+
+    <div class="fb-actions">
+      <button type="submit" class="btn-download" id="fb-send">Send</button>
+      <p class="fb-status" id="fb-status" role="status" hidden></p>
+    </div>
+  </form>
+
+  <section class="fb-done" id="fb-done" hidden>
+    <h2>Thank you!</h2>
+    <p>Got it. If you left an email, we'll write back when there's news.</p>
+    <p><a href="/feedback" id="fb-again">Send another</a> &middot; <a href="/">Back to Lore Forever</a> &middot;
+      <a href="https://discord.gg/fQWrAscHbu">Chat on Discord</a></p>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>Reports are kept only to improve Lore Forever. Your email is used only to reply to you.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+<script>
+// Cloudflare Turnstile site key (the public half). Empty skips the spam check widget. If you set one, also set
+// TURNSTILE_SECRET in the Pages project, or every report will be turned away.
+const TURNSTILE_SITE_KEY = "";
+
+const form = document.getElementById("fb-form");
+const status = document.getElementById("fb-status");
+const done = document.getElementById("fb-done");
+const send = document.getElementById("fb-send");
+const params = new URLSearchParams(location.search);
+
+function showStatus(text) { status.textContent = text; status.hidden = !text; }
+function showDone() { form.hidden = true; done.hidden = false; }
+
+// Links from the add-on, Discord or emails can fill in the code and the kind: /feedback?code=...&kind=lore
+if (params.get("code")) document.getElementById("fb-code").value = params.get("code").slice(0, 120);
+const kind = form.querySelector('input[name="kind"][value="' + CSS.escape(params.get("kind") || "") + '"]');
+if (kind) kind.checked = true;
+if (params.get("sent")) showDone();
+if (params.get("error")) showStatus(params.get("error"));
+
+// The message prompt follows the kind of report.
+const PROMPTS = {
+  lore: ["What happened?", 'e.g. The answer to "Who is Hogger?" says he\'s a murloc.'],
+  bug: ["What went wrong?", "What you did, what you expected, and what happened instead. Any Lua error text helps."],
+  idea: ["What would you like?", "e.g. Full quest lore for Stranglethorn Vale, or a narrated intro for Darnassus."],
+  review: ["What do you think?", "What you like, what you'd change, who you'd recommend it to."],
+};
+function followKind() {
+  const [label, hint] = PROMPTS[form.kind.value] || PROMPTS.lore;
+  document.getElementById("fb-message-label").textContent = label;
+  document.getElementById("fb-message").placeholder = hint;
+}
+form.addEventListener("change", e => { if (e.target.name === "kind") followKind(); });
+followKind();
+
+if (TURNSTILE_SITE_KEY) {
+  const box = document.getElementById("fb-turnstile");
+  box.className = "cf-turnstile";
+  box.dataset.sitekey = TURNSTILE_SITE_KEY;
+  box.dataset.theme = "dark";
+  const s = document.createElement("script");
+  s.src = "https://challenges.cloudflare.com/turnstile/v0/api.js";
+  s.async = true;
+  document.head.appendChild(s);
+}
+
+form.addEventListener("submit", async e => {
+  e.preventDefault();
+  showStatus("");
+  send.disabled = true;
+  send.textContent = "Sending...";
+  const data = Object.fromEntries(new FormData(form));
+  try {
+    const r = await fetch("/api/feedback", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
+    });
+    const res = await r.json().catch(() => ({}));
+    if (res.ok) {
+      showDone();
+      history.replaceState(null, "", "/feedback?sent=1");
+      return;
+    }
+    showStatus(res.error || "Something went wrong. Please try again in a minute.");
+  } catch (err) {
+    showStatus("Couldn't reach the server. Check your connection and try again.");
+  }
+  if (window.turnstile) window.turnstile.reset();
+  send.disabled = false;
+  send.textContent = "Send";
+});
+</script>
+</body>
+</html>

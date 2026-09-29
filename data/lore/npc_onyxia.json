@@ -8,12 +8,12 @@
   "wiki": "Onyxia",
   "refs": 1
  },
- "summary": "Onyxia is the broodmother of the black dragonflight and the devious daughter of Deathwing. Masquerading as the noblewoman Lady Katrana Prestor, she operates from the heart of Stormwind Keep, subtly manipulating the royal court and crippling the kingdom from within.",
+ "summary": "Onyxia is the broodmother of the black dragonflight and the devious daughter of Deathwing. From her lair in Dustwallow Marsh, she schemes to restore the black dragonflight's dominion over the mortal kingdoms.",
  "sections": [
   {
    "title": "The Broodmother in the Court",
    "body": "While her brother Nefarian consolidates his armies within Blackrock Spire, Onyxia pursues power through guile. Taking the guise of Lady Katrana Prestor, she has wormed her way into the highest echelons of Stormwind's nobility. By posing as a trusted adviser to the House of Nobles, she systematically undercuts the kingdom's military efforts, intentionally withholding soldiers and resources from outposts in Westfall, Redridge, and the Burning Steppes to leave mortal realms defenseless.",
-   "spoiler": 0
+   "spoiler": 1
   },
   {
    "title": "Architect of Ruin",
@@ -47,7 +47,7 @@
     "onyxia location",
     "onyxia lair location"
    ],
-   "answer": "While her human persona resides primarily in Stormwind Keep, Onyxia's true home is a subterranean lair nestled in the swamps of Dustwallow Marsh, where she tends to the clutches of her black dragonflight."
+   "answer": "Onyxia's home is a subterranean lair nestled in the swamps of Dustwallow Marsh, where she tends to the clutches of her black dragonflight."
   },
   {
    "q": "What is her connection to Nefarian and Deathwing?",
@@ -59,16 +59,7 @@
    "answer": "Onyxia is the daughter of the Aspect Deathwing and his consort Sintharia. She is also the younger twin sister of Nefarian, working closely with him to restore the black dragonflight's supremacy across Azeroth."
   }
  ],
- "angles": [
-  {
-   "target": "faction:Alliance",
-   "text": "Every crisis plaguing the southern Alliance\u2014from the Defias rebellion to the lack of reinforcements in Lakeshire\u2014traces back to Lady Prestor's whisperings in Stormwind Keep."
-  },
-  {
-   "target": "race:Human",
-   "text": "Stormwind's court has unknowingly surrendered its leadership to a black dragon, who orchestrated the death of their queen and paralyzes their kingdom in King Varian's absence."
-  }
- ],
+ "angles": [],
  "keywords": [
   "anduin wrynn",
   "black dragonflight",

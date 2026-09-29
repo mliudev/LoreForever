@@ -20,7 +20,7 @@
    "Kill Grundig Darkcloud"
   ]
  },
- "summary": "Kill Grundig Darkcloud is a Horde quest given by Makaba Flathoof along the southeastern path of Stonetalon Mountains. After culling the raiding Grimtotem reavers, Makaba directs you to strike down the leader responsible for sacking his home: Grundig Darkcloud. Eliminating Grundig and his retinue of brutes delivers justice for the devastated settlement.",
+ "summary": "Kill Grundig Darkcloud is a Horde quest given by Makaba Flathoof along the southeastern path of Stonetalon Mountains. After culling the Grimtotem ruffians and mercenaries, Makaba directs you to strike down the leader responsible for sacking his home: Grundig Darkcloud. Eliminating Grundig and his retinue of brutes delivers justice for the devastated settlement.",
  "sections": [
   {
    "title": "The Butcher of the Path",
@@ -59,7 +59,7 @@
     "makaba story",
     "makaba revenge"
    ],
-   "answer": "Makaba watched his home and clanmates slaughtered by the Grimtotem. Having already exacted preliminary vengeance on their scouts and reavers, he asks for the head of the ringleader, Grundig Darkcloud, to bring true closure and retribution."
+   "answer": "Makaba watched his home and clanmates slaughtered by the Grimtotem. Having already exacted preliminary vengeance on their ruffians and mercenaries, he asks for the head of the ringleader, Grundig Darkcloud, to bring true closure and retribution."
   },
   {
    "q": "Why are the Grimtotem attacking peaceful settlements here?",
@@ -83,7 +83,7 @@
     "prereq kill grundig",
     "quest before grundig"
    ],
-   "answer": "You must first complete 'Avenge My Village,' in which Makaba Flathoof tests your resolve by having you strike down the Grimtotem mercenaries, reavers, and cutthroats stationed nearby."
+   "answer": "You must first complete 'Avenge My Village,' in which Makaba Flathoof tests your resolve by having you strike down the Grimtotem ruffians and mercenaries camped just to the west."
   }
  ],
  "angles": [

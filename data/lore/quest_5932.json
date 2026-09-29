@@ -17,11 +17,11 @@
   "wiki": "Back to Thunder Bluff",
   "chain": []
  },
- "summary": "\"Back to Thunder Bluff\" is an essential rite of passage for young tauren druids returning from the sacred glades of Moonglade. Having communed with the Great Bear Spirit, the initiate is sent by Dendrite Starblaze back to Elder Rise to continue training under Archdruid Turak Runetotem.",
+ "summary": "\"Back to Thunder Bluff\" is an essential rite of passage for young tauren druids returning from the sacred glades of Moonglade. Having communed with the Great Bear Spirit, the initiate is sent by Dendrite Starblaze back to Elder Rise to continue training under Turak Runetotem.",
  "sections": [
   {
    "title": "A Bridged Fellowship",
-   "body": "Moonglade stands apart from the factional divides of the mortal world, serving as a sanctuary where night elf and tauren practitioners of nature magic gather as the Cenarion Circle. After communion with the Great Bear Spirit, night elf mentor Dendrite Starblaze sends the young tauren back to their people. While night elves often view tauren as fledglings in the formalized teachings of Cenarius, Starblaze readily acknowledges the profound wisdom and balance maintained by Archdruid Turak Runetotem.",
+   "body": "Moonglade stands apart from the factional divides of the mortal world, serving as a sanctuary where night elf and tauren practitioners of nature magic gather as the Cenarion Circle. After communion with the Great Bear Spirit, night elf mentor Dendrite Starblaze sends the young tauren back to their people. While night elves often view tauren as fledglings in the formalized teachings of Cenarius, Starblaze readily acknowledges the profound wisdom and balance maintained by Turak Runetotem.",
    "spoiler": 0
   },
   {
@@ -46,7 +46,7 @@
     "turak runetotem role",
     "elder rise druid leader"
    ],
-   "answer": "Turak Runetotem is an esteemed tauren archdruid stationed on Elder Rise in Thunder Bluff. He oversees the training of young tauren seeking to walk the path of nature and the claw, serving as a key liaison to the Cenarion Circle."
+   "answer": "Turak Runetotem is an esteemed tauren druid, one of the Arch Druid's assistants, stationed on Elder Rise in Thunder Bluff. He oversees the training of young tauren seeking to walk the path of nature and the claw, serving as a key liaison to the Cenarion Circle."
   },
   {
    "q": "What did the young druid do right before this quest?",
@@ -70,7 +70,7 @@
     "next druid quest",
     "after back to thunder bluff"
    ],
-   "answer": "Upon returning, Turak Runetotem gives the initiate the quest 'Body and Heart,' sending them to face a physical challenge in Mulgore to prove they can channel the spirit's strength into actual beast form."
+   "answer": "Upon returning, Turak Runetotem gives the initiate the quest 'Body and Heart,' sending them to face a physical challenge at the Moonkin Stone where the Barrens meet Mulgore to prove they can channel the spirit's strength into actual beast form."
   },
   {
    "q": "Why does Dendrite Starblaze call tauren 'young in the ways of Cenarius'?",

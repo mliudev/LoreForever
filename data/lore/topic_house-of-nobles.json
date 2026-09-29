@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "Aristocrats of the Realm",
-   "body": "Composed of Stormwind's most powerful patrician bloodlines, the House of Nobles serves as the primary advisory body to the Crown. Because the aristocracy owns the majority of the arable land throughout Elwynn, Westfall, and Duskwood, they wield outsized authority over commerce, regional magistrates, and royal decrees. While Prince Anduin Wrynn and Highlord Bolvar Fordragon officially rule the kingdom, the council routinely ties the throne's hands in red tape, asserting the power to stall trials, block executions, and meddle in provincial administration.",
+   "body": "Composed of Stormwind's most powerful patrician bloodlines, the House of Nobles serves as the primary advisory body to the Crown. Because the aristocracy owns the majority of the arable land throughout Elwynn, Westfall, and Duskwood, they wield outsized authority over commerce, regional magistrates, and royal decrees. While the boy-king Anduin Wrynn and Highlord Bolvar Fordragon officially rule the kingdom, the council routinely ties the throne's hands in red tape, asserting the power to stall trials, block executions, and meddle in provincial administration.",
    "spoiler": 0
   },
   {
@@ -65,7 +65,7 @@
     "why does stormwind ignore westfall",
     "why won't stormwind send army"
    ],
-   "answer": "The House of Nobles controls the realm's purse strings and administrative authorizations. Under the corrosive influence of Lady Katrana Prestor, the nobility continuously blocks funding, military deployments, and municipal aid to outlying territories, leaving local militias like the People's Militia and the Night Watch entirely isolated."
+   "answer": "The House of Nobles controls the realm's purse strings and administrative authorizations. The nobility continuously blocks funding, military deployments, and municipal aid to outlying territories, leaving local militias like the People's Militia and the Night Watch entirely isolated."
   },
   {
    "q": "Who was Lord Baurles K. Wishock?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "class:Rogue",
-   "text": "The nobility's bitter squabbles, corrupt dealings with Defias conspirators like Gregor Lescovar, and dirty secrets provide ample work for fixers, cutpurses, and the master cheesemonger Elling Trias."
+   "text": "The nobility's bitter squabbles, corrupt dealings, and dirty secrets provide ample work for fixers, cutpurses, and the master cheesemonger Elling Trias."
   },
   {
    "target": "class:Warlock",
