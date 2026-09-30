@@ -174,8 +174,8 @@ jobs:
       - name: Upload to CurseForge
         run: |
           if [ -z "$CF_API_TOKEN" ]; then
-            echo "::warning::CF_API_TOKEN isn't set, so the zip wasn't uploaded to CurseForge. Upload it by hand."
-            exit 0
+            echo "::error::CF_API_TOKEN is empty, so the zip wasn't uploaded to CurseForge. Set it (gh secret set CF_API_TOKEN) and rerun this job."
+            exit 1
           fi
           toc=addon/LoreForever/LoreForever.toc
           project=$(sed -n 's/^## X-Curse-Project-ID: *//p' "$toc" | tr -d '\r')
