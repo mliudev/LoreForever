@@ -121,6 +121,7 @@
     <div class="ad-panel ad-tile"><div class="ad-label">Site downloads</div><div class="ad-num" id="t-dl">-</div><div class="ad-sub" id="t-dl-sub"></div></div>
     <div class="ad-panel ad-tile"><div class="ad-label">Open feedback</div><div class="ad-num" id="t-open">-</div><div class="ad-sub" id="t-open-sub"></div></div>
     <div class="ad-panel ad-tile"><div class="ad-label">Average rating</div><div class="ad-num" id="t-rating">-</div><div class="ad-sub" id="t-rating-sub"></div></div>
+    <div class="ad-panel ad-tile"><div class="ad-label">Open voice submissions</div><div class="ad-num" id="t-voices">-</div><div class="ad-sub" id="t-voices-sub"></div></div>
   </div>
 
   <div class="ad-charts">
@@ -146,6 +147,17 @@
     <div id="fb-list"></div>
   </div>
 
+  <h2>Voice submissions</h2>
+  <div class="ad-panel">
+    <div class="ad-filters" role="group" aria-label="Filter voice submissions">
+      <button type="button" data-vstatus="new" aria-pressed="true">Open</button>
+      <button type="button" data-vstatus="done" aria-pressed="false">Done</button>
+      <button type="button" data-vstatus="all" aria-pressed="false">All</button>
+      <span class="ad-count" id="vo-count"></span>
+    </div>
+    <div id="vo-list"></div>
+  </div>
+
   <h2>Emails</h2>
   <div class="ad-panel">
     <div class="ad-filters">
@@ -165,6 +177,7 @@ const KINDS = { lore: "Wrong or missing lore", bug: "Bug", idea: "Idea or zone r
 const $ = id => document.getElementById(id);
 let data = null;
 let fbStatus = "new";
+let voStatus = "new";
 
 // The key lives in sessionStorage, or localStorage when "Remember" is ticked. Best effort: storage can be blocked.
 function store(remember) { try { return remember ? localStorage : sessionStorage; } catch (e) { return null; } }
@@ -252,6 +265,10 @@ function render() {
   $("t-rating").textContent = rated.length ? (rated.reduce((a, f) => a + f.rating, 0) / rated.length).toFixed(1) + " ★" : "-";
   $("t-rating-sub").textContent = rated.length ? "from " + rated.length + " rating" + (rated.length === 1 ? "" : "s") : "no ratings yet";
 
+  const voices = data.voices || [];
+  $("t-voices").textContent = voices.filter(v => v.status !== "done").length;
+  $("t-voices-sub").textContent = voices.length + (voices.length === 1 ? " submission" : " submissions") + " in all";
+
   const days = lastDays(30);
   const signupsPerDay = days.map(d => subs.filter(s => (s.created_at || "").slice(0, 10) === d).length);
   const downloadsPerDay = days.map(d => data.downloads.filter(x => x.day === d).reduce((a, x) => a + x.n, 0));
@@ -259,6 +276,7 @@ function render() {
   barChart($("c-downloads"), days, downloadsPerDay, n => n + (n === 1 ? " download" : " downloads"));
 
   renderFeedback();
+  renderVoices();
   renderEmails();
 }
 
@@ -347,6 +365,40 @@ function renderFeedback() {
   }));
 }
 
+// Only https links are shown as links (the API accepts only Drive, Dropbox and OneDrive ones).
+const safeLink = url => /^https:\/\//i.test(url || "") ? el("a", { href: url, target: "_blank", rel: "noopener noreferrer", text: url }) : el("span", { text: url || "" });
+
+function renderVoices() {
+  const list = (data.voices || []).filter(v => voStatus === "all" || (voStatus === "done" ? v.status === "done" : v.status !== "done"));
+  $("vo-count").textContent = list.length + (list.length === 1 ? " submission" : " submissions");
+  const box = $("vo-list");
+  if (!list.length) { box.replaceChildren(el("p", { class: "ad-empty", text: "Nothing here." })); return; }
+  box.replaceChildren(...list.map(v => {
+    const done = v.status === "done";
+    const toggle = el("button", { type: "button", class: "ad-link", text: done ? "Reopen" : "Mark done" });
+    toggle.addEventListener("click", () => act({ action: "voice-status", id: v.id, status: done ? "new" : "done" }, () => v.status = done ? "new" : "done"));
+    const del = el("button", { type: "button", class: "ad-link ad-danger", text: "Delete" });
+    del.addEventListener("click", () => {
+      if (confirm("Delete voice submission #" + v.id + " for good? This also removes the record of their agreement.")) {
+        act({ action: "delete-voice", id: v.id }, () => data.voices = data.voices.filter(x => x !== v));
+      }
+    });
+    return el("article", { class: "ad-report" + (done ? " done" : "") },
+      el("div", { class: "ad-report-head" },
+        el("span", { class: "ad-kind", text: v.pack }),
+        el("span", { text: "Credit: " + v.credit }),
+        el("span", { text: "#" + v.id + " · " + fmtDate(v.created) + (v.country ? " · " + v.country : "") })),
+      el("p", { class: "ad-msg" }, el("strong", { text: "Recordings: " }), safeLink(v.link)),
+      el("p", { class: "ad-msg" }, el("strong", { text: "Clips: " }), v.clips),
+      v.note ? el("p", { class: "ad-msg" }, el("strong", { text: "Note: " }), v.note) : null,
+      el("div", { class: "ad-report-foot" },
+        v.email ? el("a", { href: "mailto:" + encodeURIComponent(v.email).replace("%40", "@"), text: v.email }) : null,
+        v.discord ? el("span", { text: "Discord: " + v.discord }) : null,
+        el("span", { text: "Signed " + v.signature + " · release " + v.release_version + (v.adult_or_guardian ? " · 18+ or guardian OK" : "") }),
+        el("span", { class: "ad-actions" }, toggle, del)));
+  }));
+}
+
 function visibleEmails() {
   const q = $("q").value.trim().toLowerCase();
   return data.subscribers.filter(s => !q || s.email.includes(q) || (s.source || "").includes(q));
@@ -390,6 +442,11 @@ document.querySelectorAll("[data-status]").forEach(b => b.addEventListener("clic
   fbStatus = b.dataset.status;
   document.querySelectorAll("[data-status]").forEach(x => x.setAttribute("aria-pressed", x === b));
   renderFeedback();
+}));
+document.querySelectorAll("[data-vstatus]").forEach(b => b.addEventListener("click", () => {
+  voStatus = b.dataset.vstatus;
+  document.querySelectorAll("[data-vstatus]").forEach(x => x.setAttribute("aria-pressed", x === b));
+  renderVoices();
 }));
 $("copy").addEventListener("click", async () => {
   const text = visibleEmails().filter(s => !isTest(s)).map(s => s.email).join("\n");

@@ -194,7 +194,7 @@ dd { margin: 0; }
 /* Email sign-up band */
 .signup {
   display: flex; flex-wrap: wrap; gap: 16px 28px; align-items: center; justify-content: space-between;
-  margin: 0 0 32px; padding: 18px 20px;
+  margin: 8px 0 32px; padding: 18px 20px;
   background: var(--panel); border: 1px solid var(--panel-line); border-radius: 5px;
   box-shadow: inset 0 0 0 1px #000, 0 4px 14px rgba(0, 0, 0, 0.5);
 }
@@ -212,42 +212,53 @@ dd { margin: 0; }
 .signup-note { flex-basis: 100%; margin: 0; color: var(--muted); font-size: 0.85rem; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
-/* Download pop-up */
-.dl-dialog {
-  width: min(460px, calc(100vw - 32px)); padding: 22px 22px 16px; color: var(--text);
-  background: var(--panel); border: 1px solid #c9a24b; border-radius: 6px;
-  box-shadow: inset 0 0 0 1px #000, 0 10px 40px rgba(0, 0, 0, 0.8);
-}
-.dl-dialog::backdrop { background: rgba(0, 0, 0, 0.7); }
-.dl-dialog h2 { font-family: var(--heading); color: var(--gold); font-size: 1.3rem; margin: 0 28px 8px 0; }
-.dl-dialog p { color: var(--muted); margin: 0 0 14px; }
-.dl-dialog .signup-form { max-width: none; }
-.dl-close {
-  position: absolute; top: 8px; right: 10px; background: none; border: 0; color: var(--muted);
-  font-size: 1.6rem; line-height: 1; cursor: pointer; padding: 4px 8px;
-}
-.dl-close:hover { color: var(--text); }
-.dl-skip {
-  display: block; margin: 12px auto 0; background: none; border: 0; color: var(--muted); font: inherit;
-  font-size: 0.9rem; text-decoration: underline; cursor: pointer;
-}
-.dl-skip:hover { color: var(--text); }
-
-/* Header: title and downloads on the left, the install card on the right; stacks on narrow screens */
+/* Header: title and downloads on the left, the author card on the right; stacks on narrow screens */
 .hero-grid {
   display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 360px); gap: 24px 40px; align-items: center;
   padding: 52px 16px 40px;
 }
-@media (max-width: 860px) { .hero-grid { grid-template-columns: minmax(0, 1fr); padding-top: 36px; } }
+@media (max-width: 860px) { .hero-grid { grid-template-columns: minmax(0, 1fr); padding-top: 28px; padding-bottom: 28px; } }
 .dl-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-top: 22px; }
 .dl-alt { display: flex; flex-direction: column; gap: 2px; }
-.btn-zip, .btn-cf { color: var(--link); font-size: 0.95rem; }
+.dl-other { color: var(--muted); font-size: 0.92rem; }
 
-.install-card {
-  background: var(--panel); border: 1px solid var(--panel-line); border-radius: 6px; padding: 16px 20px 14px;
+/* About the author, styled like a tooltip, with the community links as buttons */
+.author-card {
+  background: var(--panel); border: 1px solid var(--panel-line); border-radius: 6px; padding: 16px 20px;
   box-shadow: inset 0 0 0 1px #000, 0 6px 20px rgba(0, 0, 0, 0.55);
 }
-.install-card h2 { font-family: var(--heading); color: var(--gold); font-size: 1.15rem; margin: 0 0 10px; }
+.author-head { display: flex; align-items: center; gap: 12px; }
+.author-avatar {
+  flex: 0 0 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+  font: 700 1.3rem var(--heading); color: #1a1208; background: linear-gradient(180deg, var(--gold), var(--gold-soft));
+  box-shadow: 0 0 0 2px #000, 0 0 0 3px #c9a24b;
+}
+.author-card h2 { font-family: var(--heading); color: var(--gold); font-size: 1.15rem; margin: 0; line-height: 1.3; }
+.author-role { margin: 0; color: var(--muted); font-size: 0.85rem; }
+.author-bio { margin: 10px 0 12px; font-size: 0.92rem; line-height: 1.5; }
+.socials { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.social {
+  display: inline-block; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 0.9rem; font-weight: 600;
+  color: var(--text); background: #00000066; border: 1px solid var(--panel-line);
+}
+.social:hover { border-color: var(--gold-soft); color: var(--gold); }
+.social-discord { background: #5865f2; border-color: #7983f5; color: #fff; }   /* Discord blurple */
+.social-discord:hover { background: #6b76f4; border-color: #fff; color: #fff; }
+.social-twitch { border-color: #9146ff; }   /* Twitch purple */
+
+/* Phones: keep the download button and the author card with its links above the fold */
+@media (max-width: 600px) {
+  .hero-grid { gap: 18px; padding-top: 22px; }
+  .pitch { font-size: 1.05rem; }
+  .dl-row { margin-top: 16px; }
+  .dl-row .btn-download { flex: 1 1 100%; text-align: center; }
+  .author-card { padding: 14px 16px; }
+  .author-bio { margin: 8px 0 10px; }
+  .socials { gap: 6px; }
+  .social { padding: 6px 10px; }
+}
+
+.install-box h3 { margin-bottom: 10px; }
 .steps { margin: 0; padding: 0; list-style: none; counter-reset: step; }
 .steps li {
   counter-increment: step; position: relative; padding-left: 34px; margin-bottom: 10px; font-size: 0.92rem; line-height: 1.45;
@@ -318,3 +329,31 @@ dd { margin: 0; }
 .fb-status { margin: 0; color: #ff7b6b; }
 .fb-done h2 { font-family: var(--heading); color: var(--gold); margin: 0 0 8px; }
 .fb-done p { margin: 0 0 8px; }
+
+/* Voices page */
+.vp-page { max-width: 900px; padding-top: 28px; padding-bottom: 12px; }
+.vp-page h1 { font-size: 2.2rem; }
+.vp-page .pitch { color: var(--text); }
+.vp-note { color: var(--muted); }
+.vp-section { padding: 20px 0 8px; }
+.vp-section h2 { font-family: var(--heading); color: var(--gold); font-size: 1.35rem; margin: 0 0 8px; }
+.vp-pack p { margin: 0 0 8px; }
+.vp-pack audio { width: 100%; margin: 4px 0 8px; }
+.vp-page .samples { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+.vp-steps li { margin-bottom: 6px; }
+.vp-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+
+/* Narrator guide and release (/voices/guide, /voices/release) */
+.vp-doc { max-width: 780px; }
+.vp-doc h2 { font-family: var(--heading); color: var(--gold); font-size: 1.3rem; margin: 30px 0 8px; }
+.vp-doc li { margin-bottom: 6px; }
+.vp-version { margin: 4px 0 0; color: var(--muted); font-size: 0.9rem; }
+.vp-columns { grid-template-columns: minmax(0, max-content) minmax(0, 1fr); }
+.vp-columns dt { font-weight: 600; }
+@media (max-width: 600px) { .vp-columns { grid-template-columns: minmax(0, 1fr); gap: 2px; } .vp-columns dd { margin-bottom: 8px; } }
+
+/* Voice submission form (/voices/submit): reuses the feedback form's look */
+.fb-field > span.fb-sub { color: var(--text); font: 400 0.9rem system-ui, sans-serif; letter-spacing: 0; }
+.vs-consent { padding-top: 14px !important; border-top: 1px solid var(--line) !important; }
+.vs-consent .vp-note { margin: 0 0 12px; font-size: 0.92rem; }
+.fb-check a { color: var(--link); }

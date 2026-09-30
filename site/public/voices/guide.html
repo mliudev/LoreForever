@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Narrator guide - Lore Forever</title>
+<meta name="description" content="How to record a Lore Forever voice pack: the clip list, recording settings, file names and how to send your recordings.">
+<link rel="canonical" href="https://loreforeverwow.com/voices/guide">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lore Forever narrator guide">
+<meta property="og:description" content="Lend your voice to the stories of Azeroth: what to record, how, and how to send it in.">
+<meta property="og:url" content="https://loreforeverwow.com/voices/guide">
+<meta property="og:image" content="https://loreforeverwow.com/img/social-card.png">
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; <a href="/voices">Voices</a> &rsaquo; Narrator guide</span>
+  </div>
+</header>
+
+<!-- Moved here from release/public/VOICE_PACKS.md, which now points to this page. -->
+<main class="wrap vp-page vp-doc">
+  <h1>Narrator guide</h1>
+  <p class="pitch">Thanks for thinking about lending Lore Forever your voice. This page covers what to record, how
+    to record it, how to name the files and how to send them in. You don't need to know anything about add-ons.</p>
+  <p class="vp-actions">
+    <a class="btn-small" href="/voices/clips.csv" download>Download the clip list</a>
+    <a class="btn-small" href="/voices/submit">Send your recordings</a>
+    <a class="btn-small" href="/discord?src=voices">Ask on Discord</a>
+  </p>
+
+  <h2 id="what">What a voice pack is</h2>
+  <p>A voice pack is a small add-on of its own, installed next to Lore Forever, that holds a set of recorded
+    narrations. Players pick a voice in Options &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Narration voice.</p>
+  <p>When a player picks your pack, every narration you recorded plays in your voice. Anything your pack doesn't
+    cover plays in the default Lore Forever voice, and anything without a recording at all is read aloud in the game
+    voice. So a pack never breaks anything by being incomplete.</p>
+
+  <h2 id="clips">The clip list</h2>
+  <p>The <a href="/voices/clips.csv" download>clip list</a> is a spreadsheet (CSV) with one row per narration. Open
+    it in Excel, Google Sheets or LibreOffice. It's rebuilt with every Lore Forever release, so it always matches the
+    lore text in the latest version: download a fresh copy when you start a new batch.</p>
+  <p>Each row has:</p>
+  <dl class="vp-columns">
+    <dt>id</dt>
+    <dd>The narration's ID, for example <code>zone:stormwind</code> or <code>zone:stormwind#faq3</code> (the third
+      question about Stormwind).</dd>
+    <dt>file name</dt>
+    <dd>The exact name your recording must have, for example <code>zone_stormwind.mp3</code>.</dd>
+    <dt>suggested narrator</dt>
+    <dd>Which people the narration suits, for example <code>dwarf</code> for Ironforge. It's a suggestion: one
+      narrator can record everything, and several people can share a pack.</dd>
+    <dt>text</dt>
+    <dd>The exact words to read.</dd>
+    <dt>hash</dt>
+    <dd>A short code that identifies this version of the text. You don't need to do anything with it.</dd>
+  </dl>
+
+  <h2 id="reading">Reading the text</h2>
+  <ul>
+    <li>Read the text exactly as written. Don't add, drop or reword anything, even small words: players see the same
+      text on screen while they listen.</li>
+    <li>If you're unsure how to say a name, <a href="/discord?src=voices">ask on Discord</a>.</li>
+    <li>The lore text is sometimes corrected or rewritten. When the text of a narration changes, your recording of it
+      is marked out of date and the default voice takes over for that narration until you record the new text.
+      Everything else in your pack keeps playing.</li>
+  </ul>
+
+  <h2 id="specs">Recording settings</h2>
+  <ul>
+    <li><strong>Mono</strong>, <strong>44.1 kHz</strong>.</li>
+    <li><strong>MP3 at 64 kbps or higher</strong>, or <strong>OGG Vorbis</strong>.</li>
+    <li><strong>Loudness about -16 LUFS integrated</strong>, with <strong>peaks at or below -1 dBTP</strong>. Most
+      audio editors (Audacity, Reaper, Audition) have a loudness normalization option that does this in one
+      step.</li>
+    <li><strong>At most 0.3 seconds of silence</strong> at the start and end of each file.</li>
+    <li><strong>Just your voice:</strong> no music, sound effects or background ambience.</li>
+    <li>Record in a quiet room. Soft furnishings help; a closet full of clothes works surprisingly well. Watch for
+      fans, traffic and computer noise.</li>
+  </ul>
+  <p>Not sure your setup is good enough? Record one narration and <a href="/voices/submit">send it in</a> first.
+    You'll get feedback before you do the rest.</p>
+
+  <h2 id="naming">Naming the files</h2>
+  <p>Name each file exactly as the <strong>file name</strong> column says, all lower case, for example:</p>
+  <ul>
+    <li><code>zone_stormwind.mp3</code>: the Stormwind intro</li>
+    <li><code>zone_stormwind__faq3.mp3</code>: the answer to the third Stormwind question (note the two
+      underscores)</li>
+  </ul>
+  <p>If you record OGG, keep the same name with <code>.ogg</code> at the end. Put all the files in one folder, with
+    no subfolders. Files that don't match a name in the list can't be used.</p>
+
+  <h2 id="partial">Partial packs are welcome</h2>
+  <p>You don't have to record everything. A pack with a handful of narrations is useful, and you can add more
+    later. A good first batch is the <strong>capitals and starting zones</strong> (Stormwind, Ironforge, Darnassus,
+    Orgrimmar, Undercity, Thunder Bluff, and the zones and first areas where each people starts): they're what most
+    players hear first.</p>
+
+  <h2 id="rights">Rights and credit</h2>
+  <ul>
+    <li>When you send your recordings, you agree to the <a href="/voices/release">narrator release</a>: a short,
+      plain-language page that lets us ship your recordings in Lore Forever voice packs.</li>
+    <li>The lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. A recording of it is an adaptation
+      of that text, so voice packs are released under CC BY-SA 4.0 as well.</li>
+    <li>You choose your credit line. It shows in the voice picker and on this site, for example "Narrated by Jane
+      Doe", your handle, or a link to your channel. You can also stay anonymous.</li>
+  </ul>
+
+  <h2 id="send">Sending your recordings</h2>
+  <ol class="vp-steps">
+    <li>Put the files in a Google Drive, Dropbox or OneDrive folder and share it so that anyone with the link can
+      view it.</li>
+    <li>Fill in the <a href="/voices/submit">submission form</a>: the folder link, your credit line, a name for the
+      pack and a way to reach you.</li>
+    <li>We build the pack, listen to every file and get back to you if anything needs another take.</li>
+    <li>The finished pack is published on the <a href="/voices">Voices page</a> with your name on it.</li>
+  </ol>
+  <p class="vp-note">Players: installing a voice pack is covered on the <a href="/voices#install">Voices page</a>.</p>
+</main>
+
+<footer class="wrap foot">
+  <p>Questions? <a href="/discord?src=voices">Ask on Discord</a>.</p>
+  <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+</body>
+</html>

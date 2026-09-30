@@ -17,10 +17,39 @@ for w in ([[a an the of to in on at for from by with about and or but is are was
   STOP[w] = true
 end
 
+-- Language packs add their own stop words, lowercased the same way as questions.
+function Engine.AddStopWords(text)
+  for w in Engine.lower(text or ""):gmatch("[%w\128-\255]+") do STOP[w] = true end
+end
+
 -- Words that point back at something: the current target for people, the last answer otherwise.
 local PRONOUN = { he = true, him = true, his = true, she = true, her = true, they = true, them = true,
   their = true, it = true, this = true, that = true, there = true, these = true, those = true }
 local PERSON = { he = true, him = true, his = true, she = true, her = true, guy = true, npc = true }
+
+-- lower() that also folds accented Latin capitals (U+00C0-00DE) and Cyrillic capitals (U+0400-042F) in UTF-8.
+function Engine.lower(s)
+  s = (s or ""):lower()
+  if not s:find("[\195\208]") then return s end
+  s = s:gsub("\195([\128-\158])", function(c)
+    local b = c:byte()
+    if b ~= 0x97 then return "\195" .. string.char(b + 32) end   -- not the multiplication sign
+  end)
+  return (s:gsub("\208([\128-\175])", function(c)
+    local b = c:byte()
+    if b < 0x90 then return "\209" .. string.char(b + 0x10) end
+    if b < 0xA0 then return "\208" .. string.char(b + 0x20) end
+    return "\209" .. string.char(b - 0x20)
+  end))
+end
+
+-- UTF-8 punctuation (the general punctuation block: dashes, curly quotes, zero-width space; and Latin-1 symbols such
+-- as the non-breaking space, guillemets and inverted marks, plus × and ÷) becomes a space; every other non-ASCII byte
+-- is a letter.
+local function unpunct(s)
+  if not s:find("[\194\195\226]") then return s end
+  return (s:gsub("\226[\128\129][\128-\191]", " "):gsub("\194[\160-\191]", " "):gsub("\195[\151\183]", " "))
+end
 
 local function stem(w)
   if #w > 4 then
@@ -31,8 +60,8 @@ end
 
 local function tokenize(text, keepStop, noBigrams)
   local out, raw = {}, {}
-  text = (text or ""):lower():gsub("'s%f[%A]", ""):gsub("'", ""):gsub("[^%w%s]", " ")
-  for w in text:gmatch("%w+") do
+  text = unpunct(Engine.lower(text)):gsub("'s%f[%A]", ""):gsub("'", ""):gsub("[^%w%s\128-\255]", " ")
+  for w in text:gmatch("[%w\128-\255]+") do
     raw[#raw + 1] = w
     if keepStop or not STOP[w] then
       out[#out + 1] = stem(w)
@@ -257,11 +286,11 @@ end
 function Engine:KeyForName(name)
   if not name or name == "" then return nil end
   local idx = self.db.index
-  local lower = name:lower()
+  local lower = Engine.lower(name)
   local k = idx.name[lower]
   if k then return k, "exact" end
   if idx.mob then
-    for w in lower:gmatch("[%a']+") do
+    for w in lower:gmatch("[%a'\128-\255]+") do
       local m = idx.mob[w] or idx.mob[w:gsub("s$", "")]
       if m then return m, "mob" end
     end
@@ -271,7 +300,7 @@ end
 
 -- Zone key ("deadmines") for an in-game zone name.
 function Engine:ZoneKey(zoneName)
-  return zoneName and self.db.index.zone and self.db.index.zone[zoneName:lower()] or nil
+  return zoneName and self.db.index.zone and self.db.index.zone[Engine.lower(zoneName)] or nil
 end
 
 -- Entries relevant to the player's current situation, most specific first.
@@ -285,14 +314,14 @@ function Engine:ContextKeys(ctx)
   end
   ctx = ctx or {}
   local function questKey(q)
-    return db.index.quest[q.id] or (q.title and db.index.questTitle and db.index.questTitle[q.title:lower()])
+    return db.index.quest[q.id] or (q.title and db.index.questTitle and db.index.questTitle[Engine.lower(q.title)])
   end
   if ctx.targetName then add(self:KeyForName(ctx.targetName), 1.1) end
   for _, q in ipairs(ctx.quests or {}) do add(questKey(q), 1.0) end
-  if ctx.subzone then add(db.index.name[ctx.subzone:lower()], 0.9) end
+  if ctx.subzone then add(db.index.name[Engine.lower(ctx.subzone)], 0.9) end
   local zk = self:ZoneKey(ctx.zone)
   if zk then add("zone:" .. zk, 0.8) end
-  if ctx.zone then add(db.index.name[ctx.zone:lower()], 0.8) end
+  if ctx.zone then add(db.index.name[Engine.lower(ctx.zone)], 0.8) end
   local z = zk and db.zones and db.zones[zk]
   if z and z.b then
     for _, b in ipairs(z.b) do add(b, 0.7) end
@@ -300,8 +329,8 @@ function Engine:ContextKeys(ctx)
   for _, q in ipairs(ctx.quests or {}) do
     local e = db.entries[questKey(q) or ""]
     if e and e.m then
-      add(db.index.name[(e.m.start or ""):lower()], 0.6)
-      add(db.index.name[(e.m["end"] or ""):lower()], 0.6)
+      add(db.index.name[Engine.lower(e.m.start)], 0.6)
+      add(db.index.name[Engine.lower(e.m["end"])], 0.6)
     end
   end
   local n = #keys
@@ -519,9 +548,11 @@ end
 -- Entities mentioned by name in a piece of text, in order of appearance (longest name wins at each spot).
 function Engine:Mentions(text, exclude)
   local words, caps = {}, {}
-  for w in (text or ""):gmatch("[%w'%-]+") do
-    words[#words + 1] = w:lower():gsub("'s$", "")
-    caps[#caps + 1] = w:sub(1, 1):match("%u") ~= nil
+  for w in unpunct(text or ""):gmatch("[%w'%-\128-\255]+") do
+    local low = Engine.lower(w)
+    words[#words + 1] = low:gsub("'s$", "")
+    -- Capitalized: an ASCII capital, or a first letter that lower() changes (Ä, Д).
+    caps[#caps + 1] = w:sub(1, 1):match("%u") ~= nil or (w:byte(1) > 127 and low:sub(1, 2) ~= w:sub(1, 2))
   end
   local names, out, seen = self.db.index.name, {}, { [exclude or ""] = true }
   local i = 1

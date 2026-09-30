@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Send your recordings - Lore Forever</title>
+<meta name="description" content="Send in your Lore Forever narration recordings: a link to your folder, your credit line, and the narrator release.">
+<link rel="canonical" href="https://loreforeverwow.com/voices/submit">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Send your Lore Forever recordings">
+<meta property="og:description" content="Recorded some narrations? Send us the link and we'll build your voice pack.">
+<meta property="og:url" content="https://loreforeverwow.com/voices/submit">
+<meta property="og:image" content="https://loreforeverwow.com/img/social-card.png">
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; <a href="/voices">Voices</a> &rsaquo; Send your recordings</span>
+  </div>
+</header>
+
+<main class="wrap fb-page">
+  <h1>Send your recordings</h1>
+  <p class="pitch">Recorded some narrations? Put the files in a shared folder and send us the link here. We'll
+    listen to every one, build your pack and get back to you.</p>
+  <p class="vp-note">New to this? Start with the <a href="/voices/guide">narrator guide</a> and the
+    <a href="/voices/clips.csv" download>clip list</a>. Questions? <a href="/discord?src=voices">Ask on Discord</a>.</p>
+
+  <!-- Posts to functions/api/voices.js. With JavaScript the page sends JSON and shows errors in place; without it,
+       the form posts normally and the function sends the narrator on to /voices/thanks or shows an error page. -->
+  <form class="fb-form" id="vs-form" method="post" action="/api/voices">
+    <label class="fb-field">
+      <span>Credit line</span>
+      <input type="text" name="credit" maxlength="100" required autocomplete="nickname"
+        placeholder="e.g. Narrated by Jane Doe, @janedoe, or Anonymous">
+      <small>How players see your name in the voice picker and on this site. Type Anonymous to stay uncredited.</small>
+    </label>
+
+    <fieldset>
+      <legend>How can we reach you? <span class="fb-optional">(one or both)</span></legend>
+      <div class="fb-pair">
+        <label class="fb-field">
+          <span class="fb-sub">Email</span>
+          <input type="email" name="email" id="vs-email" maxlength="200" autocomplete="email" placeholder="you@example.com">
+        </label>
+        <label class="fb-field">
+          <span class="fb-sub">Discord handle</span>
+          <input type="text" name="discord" id="vs-discord" maxlength="40" autocomplete="off" spellcheck="false" placeholder="e.g. janedoe">
+        </label>
+      </div>
+    </fieldset>
+
+    <label class="fb-field">
+      <span>Pack name</span>
+      <input type="text" name="pack" maxlength="60" required placeholder="e.g. Tales of the Eastern Kingdoms">
+      <small>The title players pick in the voice list. You can change it later.</small>
+    </label>
+
+    <label class="fb-field">
+      <span>Link to your recordings</span>
+      <input type="url" name="link" maxlength="1000" required inputmode="url" spellcheck="false"
+        placeholder="https://drive.google.com/drive/folders/...">
+      <small>A Google Drive, Dropbox or OneDrive folder, shared so that anyone with the link can view it. No need to
+        zip the files.</small>
+    </label>
+
+    <label class="fb-field">
+      <span>Which clips did you record?</span>
+      <textarea name="clips" rows="3" maxlength="1000" required
+        placeholder="e.g. Stormwind and Elwynn Forest, all questions included. About 20 clips."></textarea>
+      <small>Places, file names, or roughly how many. It doesn't need to be exact.</small>
+    </label>
+
+    <label class="fb-field">
+      <span>Anything else? <span class="fb-optional">(optional)</span></span>
+      <textarea name="note" rows="3" maxlength="2000"
+        placeholder="e.g. This is a test batch, tell me if the sound is OK before I record more."></textarea>
+    </label>
+
+    <fieldset class="vs-consent">
+      <legend>The narrator release</legend>
+      <p class="vp-note">So we can ship your recordings, you give us permission to share them in Lore Forever voice
+        packs under CC BY-SA 4.0. It's one page in plain language:
+        <a href="/voices/release" target="_blank">read the narrator release</a>.</p>
+      <!-- The version must match RELEASE_VERSION in functions/api/voices.js and the one on /voices/release. -->
+      <input type="hidden" name="release" value="2026-09-29">
+      <label class="fb-check">
+        <input type="checkbox" name="agree" value="on" required>
+        <span>I've read and agree to the <a href="/voices/release" target="_blank">narrator release</a>
+          (version 2026-09-29).</span>
+      </label>
+      <label class="fb-check">
+        <input type="checkbox" name="adult" value="on" required>
+        <span>I'm 18 or older. Or I'm under 18, and my parent or guardian has read the release, agrees to it, and
+          signs below.</span>
+      </label>
+      <label class="fb-field">
+        <span>Signature</span>
+        <input type="text" name="signature" maxlength="100" required autocomplete="name" placeholder="Your full name">
+        <small>Typing your full name here signs the release. If you're under 18, your parent or guardian types
+          theirs. We keep it with your agreement and never publish it: only your credit line is shown.</small>
+      </label>
+    </fieldset>
+
+    <!-- Honeypot: hidden from people, filled in by bots. -->
+    <label class="fb-trap" aria-hidden="true">Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+
+    <div class="fb-actions">
+      <button type="submit" class="btn-download" id="vs-send">Send</button>
+      <p class="fb-status" id="vs-status" role="status" hidden></p>
+    </div>
+  </form>
+</main>
+
+<footer class="wrap foot">
+  <p>Your email or Discord handle is used only to talk with you about your recordings.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+<script>
+const form = document.getElementById("vs-form");
+const status = document.getElementById("vs-status");
+const send = document.getElementById("vs-send");
+const email = document.getElementById("vs-email");
+const discord = document.getElementById("vs-discord");
+
+function showStatus(text) { status.textContent = text; status.hidden = !text; }
+
+// One of email and Discord handle is needed: ask for it in the browser's own way before sending.
+function needContact() {
+  const none = !email.value.trim() && !discord.value.trim();
+  email.setCustomValidity(none ? "Leave an email address or a Discord handle so we can reach you." : "");
+}
+email.addEventListener("input", needContact);
+discord.addEventListener("input", needContact);
+
+form.addEventListener("submit", async e => {
+  needContact();
+  if (!form.reportValidity()) { e.preventDefault(); return; }
+  e.preventDefault();
+  showStatus("");
+  send.disabled = true;
+  send.textContent = "Sending...";
+  const data = Object.fromEntries(new FormData(form));
+  try {
+    const r = await fetch("/api/voices", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
+    });
+    const res = await r.json().catch(() => ({}));
+    if (res.ok) { location.assign("/voices/thanks"); return; }
+    showStatus(res.error || "Something went wrong. Please try again in a minute.");
+  } catch (err) {
+    showStatus("Couldn't reach the server. Check your connection and try again.");
+  }
+  send.disabled = false;
+  send.textContent = "Send";
+});
+</script>
+</body>
+</html>

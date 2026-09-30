@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Narration voices - Lore Forever</title>
+<meta name="description" content="Choose who tells the story in Lore Forever: the narrator that comes with the add-on, community voice packs, and how to record your own.">
+<link rel="canonical" href="https://loreforeverwow.com/voices">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lore Forever narration voices">
+<meta property="og:description" content="Choose who tells the story in Lore Forever, or lend your own voice.">
+<meta property="og:url" content="https://loreforeverwow.com/voices">
+<meta property="og:image" content="https://loreforeverwow.com/img/social-card.png">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; Voices</span>
+  </div>
+</header>
+
+<main class="wrap vp-page">
+  <h1>Narration voices</h1>
+  <p class="pitch">Choose who tells the story. In game, open Options &rsaquo; AddOns &rsaquo; Lore Forever and pick a
+    Narration voice, or type <code>/lore voice</code>.</p>
+  <p class="vp-note">If a voice hasn't recorded a story yet, the default narrator reads it, and anything without a
+    recording is read aloud in the game voice. Prefer no recordings at all? Pick
+    <strong>Game voice only</strong>.</p>
+
+  <section class="vp-section" aria-labelledby="default-title">
+    <h2 id="default-title">Included with Lore Forever</h2>
+    <article class="zone vp-pack">
+      <div class="zone-body">
+        <h3>Lore Forever male narrator <span class="tag">Default</span></h3>
+        <p class="zone-where">English &middot; 152 narrations &middot; comes with the add-on, nothing to install</p>
+        <p>A warm, unhurried storyteller for the capitals, starting zones and dungeons, plus answers to the
+          questions new players ask first.</p>
+      </div>
+    </article>
+    <!-- Clips copied from addon/LoreForever_Voice_Default/Audio (same files as the home page samples). -->
+    <div class="samples">
+      <figure class="audio-sample">
+        <figcaption><strong>Stormwind City</strong><span>Default narrator &middot; 1:10</span></figcaption>
+        <audio controls preload="none" src="audio/stormwind.mp3"></audio>
+      </figure>
+      <figure class="audio-sample">
+        <figcaption><strong>Zephras Isle</strong><span>Default narrator &middot; 0:53</span></figcaption>
+        <audio controls preload="none" src="audio/zephras.mp3"></audio>
+      </figure>
+      <figure class="audio-sample">
+        <figcaption><strong>Durotar</strong><span>Default narrator &middot; 1:11</span></figcaption>
+        <audio controls preload="none" src="audio/durotar.mp3"></audio>
+      </figure>
+    </div>
+  </section>
+
+  <section class="vp-section" aria-labelledby="community-title">
+    <h2 id="community-title">Community voices</h2>
+    <p class="vp-note">Voice packs recorded by players. Each one is a small add-on that sits next to Lore Forever.</p>
+    <div class="zone-grid">
+      <!-- One card per published pack. Its download link goes through functions/download/voice/[id].js (add the
+           pack there too, so downloads are counted). Template:
+      <article class="zone vp-pack">
+        <div class="zone-body">
+          <h3>Pack title</h3>
+          <p class="zone-where">Narrated by Name &middot; English &middot; 40 narrations &middot; 12 MB</p>
+          <audio controls preload="none" src="audio/voices/<id>-sample.mp3"></audio>
+          <a class="btn-small" href="/download/voice/<id>">Download</a>
+        </div>
+      </article>
+      -->
+      <article class="zone zone-next">
+        <div class="zone-body">
+          <h3>No community voices yet</h3>
+          <p class="zone-where">Want yours to be the first? See <a href="#record">Lend your voice</a> below.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="vp-section" id="install" aria-labelledby="install-title">
+    <h2 id="install-title">Installing a voice</h2>
+    <ol class="vp-steps">
+      <li>Download the voice's zip from this page.</li>
+      <li>Unzip it. Inside is a folder named <code>LoreForever_Voice_&lt;Name&gt;</code>.</li>
+      <li>Put that folder in <code>World of Warcraft\_classic_beta_\Interface\AddOns</code>, next to the
+        <code>LoreForever</code> folder.</li>
+      <li>Restart the game. A <code>/reload</code> isn't enough for the game to find a new add-on.</li>
+      <li>Open Options &rsaquo; AddOns &rsaquo; Lore Forever, pick the voice under Narration voice, and press
+        Preview.</li>
+    </ol>
+    <p class="vp-note">To go back, pick Default. To remove a voice, delete its folder.</p>
+  </section>
+
+  <section class="vp-section" id="record" aria-labelledby="record-title">
+    <h2 id="record-title">Lend your voice</h2>
+    <p>Want to narrate the stories of Azeroth? You don't need to record everything: start with a few places, and the
+      default narrator covers the rest. We build the pack, listen to it, and publish it here with your name on
+      it.</p>
+    <ol class="vp-steps">
+      <li>Read the <a href="/voices/guide">narrator guide</a>: recording settings, file names, and where to
+        start.</li>
+      <li>Download the <a href="/voices/clips.csv" download>clip list</a>: the text to read and the file name for
+        every narration.</li>
+      <li>Record at home, put the files in a shared folder, and <a href="/voices/submit">send us the link</a>.</li>
+    </ol>
+    <p class="vp-actions">
+      <a class="btn-small" href="/voices/guide">Read the narrator guide</a>
+      <a class="btn-small" href="/voices/clips.csv" download>Download the clip list</a>
+      <a class="btn-small" href="/voices/submit">Send your recordings</a>
+      <a class="btn-small" href="/discord?src=voices">Ask on Discord</a>
+    </p>
+    <p class="vp-note">Voice packs are shared under
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, like the lore text they read. See
+      the <a href="/voices/release">narrator release</a> for what you agree to when you send recordings.</p>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>Spotted a wrong answer? <a href="/feedback">Tell us</a>.</p>
+  <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+</body>
+</html>
