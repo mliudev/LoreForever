@@ -141,7 +141,7 @@ jobs:
         run: |
           # Tags from before CHANGELOG.md existed fall back to GitHub's generated notes.
           if [ -f CHANGELOG.md ] && python3 scripts/changelog.py notes "$VERSION" > notes.md; then
-            notes=(--notes-file notes.md)
+            notes=(--notes-file "$PWD/notes.md")
           else
             notes=(--generate-notes)
           fi
