@@ -8,6 +8,8 @@
 //   TURNSTILE_SECRET  Cloudflare Turnstile secret; when set, every report needs a valid Turnstile token
 //   FEEDBACK_WEBHOOK  Discord webhook URL; each report is posted there (without the email address)
 
+import { clean, ticked, EMAIL, senderHash, postWebhook } from "../../lib/form.js";
+
 const SETUP = `CREATE TABLE IF NOT EXISTS feedback (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   created TEXT NOT NULL,
@@ -25,14 +27,7 @@ const SETUP = `CREATE TABLE IF NOT EXISTS feedback (
 const KINDS = { lore: "Wrong or missing lore", bug: "Bug", idea: "Idea or zone request", review: "Review" };
 const PER_DAY = 10;   // reports one sender can make per day
 
-const clean = (v, max) => String(v ?? "").replace(/\r\n?/g, "\n").trim().slice(0, max);
 const fail = (status, error) => Response.json({ ok: false, error }, { status });
-
-// A per-day hash of the sender's IP, only used to cap how many reports one person can send.
-async function senderHash(ip, day) {
-  const bytes = await crypto.subtle.digest("SHA-256", new TextEncoder().encode("loreforever:" + day + ":" + ip));
-  return [...new Uint8Array(bytes)].slice(0, 12).map(b => b.toString(16).padStart(2, "0")).join("");
-}
 
 async function turnstileOk(secret, token, ip) {
   if (!token) return false;
@@ -56,13 +51,7 @@ async function notify(webhook, f) {
     f.name ? `— ${f.name}${f.quote_ok ? " (OK to quote)" : ""}` : f.quote_ok ? "(OK to quote)" : "",
     f.email ? "(left an email for a reply)" : "",
   ].filter(Boolean);
-  try {
-    await fetch(webhook, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ content: lines.join("\n"), allowed_mentions: { parse: [] } }),
-    });
-  } catch (e) {}
+  await postWebhook(webhook, lines.join("\n"));
 }
 
 export async function onRequestPost(context) {
@@ -94,10 +83,10 @@ async function save({ request, env, waitUntil }, json) {
     code: clean(input.code, 120) || null,
     email: clean(input.email, 200) || null,
     name: clean(input.name, 60) || null,
-    quote_ok: input.quote_ok === true || input.quote_ok === "on" || input.quote_ok === "1" ? 1 : 0,
+    quote_ok: ticked(input.quote_ok) ? 1 : 0,
   };
   if (f.message.length < 3) return { status: 400, error: "Please write a few words." };
-  if (f.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(f.email)) {
+  if (f.email && !EMAIL.test(f.email)) {
     return { status: 400, error: "That email address doesn't look right." };
   }
 

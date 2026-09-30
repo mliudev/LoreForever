@@ -1,10 +1,10 @@
 ; Lore Forever Windows installer (Inno Setup 6).
-; Installs the add-on into <WoW>\_classic_beta_\Interface\AddOns\LoreForever. The WoW folder is found from
-; Battle.net's uninstall entry, and the player can change it on the folder page. Running a newer installer
-; updates in place.
+; Installs the add-on into <WoW>\_classic_beta_\Interface\AddOns\LoreForever and the default narration voice pack
+; next to it in AddOns\LoreForever_Voice_Default. The WoW folder is found from Battle.net's uninstall entry, and
+; the player can change it on the folder page. Running a newer installer updates in place.
 ;
-; Built by .github/workflows/release.yml:
-;   iscc /DAppVersion=0.2.0 /DSourceDir=<folder holding LoreForever\> /DOutputDir=dist release\installer\LoreForever.iss
+; Built by .github/workflows/release.yml from the unzipped release zip:
+;   iscc /DAppVersion=0.3.0 /DSourceDir=<folder holding the zip's add-on folders> /DOutputDir=dist release\installer\LoreForever.iss
 
 #ifndef AppVersion
   #define AppVersion "0.0.0"
@@ -17,6 +17,7 @@
 #endif
 
 #define AddOnDir "{app}\_classic_beta_\Interface\AddOns\LoreForever"
+#define VoiceDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default"
 
 [Setup]
 AppId={{6B7E3F52-4C1D-4E8A-9A57-1F0D2C8B5E31}
@@ -53,7 +54,7 @@ ShowLanguageDialog=no
 Name: "en"; MessagesFile: "compiler:Default.isl"
 
 [Messages]
-WelcomeLabel2=This puts the Lore Forever add-on into your World of Warcraft: Forever install.%n%nIf WoW is running, close it first (or type /reload in game afterwards).
+WelcomeLabel2=This puts the Lore Forever add-on into your World of Warcraft: Forever install.%n%nIf WoW is running, close it first (or restart the game afterwards).
 SelectDirLabel3=Setup found this World of Warcraft folder. It should contain the _classic_beta_ folder (WoW Forever).
 SelectDirBrowseLabel=If that's not your WoW folder, click Browse and pick the one that holds _classic_beta_.
 FinishedLabel=Lore Forever is installed.%n%nStart WoW Forever, pick a key when it asks, or type /lore in chat. If it doesn't show up, click AddOns on the character screen and tick "Load out of date AddOns".
@@ -61,12 +62,18 @@ FinishedLabel=Lore Forever is installed.%n%nStart WoW Forever, pick a key when i
 [InstallDelete]
 ; Data chunks change names between versions; clear them so old ones don't linger.
 Type: filesandordirs; Name: "{#AddOnDir}\Data"
+; Narration used to live in LoreForever\Audio; it ships in the voice pack now.
+Type: filesandordirs; Name: "{#AddOnDir}\Audio"
+; Replace the voice pack wholesale so recordings dropped from it don't linger.
+Type: filesandordirs; Name: "{#VoiceDir}"
 
 [Files]
 Source: "{#SourceDir}\LoreForever\*"; DestDir: "{#AddOnDir}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#SourceDir}\LoreForever_Voice_Default\*"; DestDir: "{#VoiceDir}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [UninstallDelete]
 Type: filesandordirs; Name: "{#AddOnDir}"
+Type: filesandordirs; Name: "{#VoiceDir}"
 
 [Run]
 Filename: "https://loreforeverwow.com"; Description: "Open the Lore Forever website"; Flags: postinstall shellexec nowait unchecked

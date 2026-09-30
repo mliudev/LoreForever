@@ -32,11 +32,8 @@ word from `addon/LoreForever/Data`. Regenerating lore can reword them, so rechec
 
 | What | Where |
 | --- | --- |
-| Download link and count | The Download button fetches the latest GitHub release zip (`mliudev/LoreForever`). The count adds GitHub release downloads (public API) and CurseForge project `1715510` (`CURSEFORGE_PROJECT_ID` in the `<script>` at the bottom of `public/index.html`). The page shows "New release" until the count is above 0. |
-| Twitch and Discord links | Set: twitch.tv/jiuthaimike and discord.gg/fQWrAscHbu (sidebar and the "Vote on Discord" button) |
-
-The download button goes to https://www.curseforge.com/wow/addons/lore-forever, which won't work until the
-CurseForge project is created.
+| Download links and count | The main button, **Get it on CurseForge**, goes to https://www.curseforge.com/wow/addons/lore-forever. Under it, **Windows installer** and **zip** fetch the latest GitHub release (`mliudev/LoreForever`) through `/download/*`. No email step (removed in LOR-77). The count adds GitHub release downloads (public API) and CurseForge project `1715510` (`CURSEFORGE_PROJECT_ID` in the `<script>` at the bottom of `public/index.html`). The page shows "New release" until the count is above 0. |
+| Author card and socials | The "Made by Mike" card in the header. Its bio is a placeholder for Mike to rewrite. Discord and Twitch (twitch.tv/jiuthaimike) are live there, in the sidebar and on the "Vote on Discord" button. Every Discord link goes through `/discord?src=...` (see "Discord redirect" below), never a raw invite. The LoreForeverWoW accounts (LOR-74) are listed in a comment in the card: move each one out of the comment once its account exists. |
 
 ## Screenshots and narration samples
 
@@ -54,7 +51,7 @@ desktop originals to hide player names and chat, then saved as JPEG:
 Left out: `171159` (item tooltip) shows a "Keep: wanted for the quest" line that 0.2.0 removed; recapture one showing "Needed for your quest" if you want an item shot back. `165852` shows a raw color code (`|cff9d9d9d(narrated)|r`) in an answer title, and the uncropped
 `170156` has overlapping legend text in the bottom-left corner. Both are fixed in the current build (c12db21), so a recapture would work now.
 
-**Narration samples** (`public/audio/`) are copies of three clips from `addon/LoreForever/Audio`
+**Narration samples** (`public/audio/`) are copies of three clips from `addon/LoreForever_Voice_Default/Audio`
 (`zone_stormwind`, `zone_zephras`, `zone_durotar`). The "Read along" text is exactly what each clip reads
 (`lore.narrate.script`). If the clips are regenerated, copy them over again and update the text.
 
@@ -62,16 +59,21 @@ Left out: `171159` (item tooltip) shows a "Keep: wanted for the quest" line that
 
 - **Public download count:** CurseForge's own total, shown with a free shields.io badge. It counts every
   CurseForge download, including app installs that never touch this page. It needs the project ID above.
-- **Clicks from this page:** each click on Download adds one to a per-day tally in a free D1 database.
-  See the numbers at https://loreforeverwow.com/api/click (D1 database `loreforever`, bound as `DB`). It's a rough traffic signal, not a unique-people count,
+- **Clicks from this page:** each click on a download link (Get it on CurseForge, Windows installer or zip) adds
+  one to a per-day tally in a free D1 database. It's the site's only signal for CurseForge clicks, since those
+  downloads happen on CurseForge.
+  See the numbers at https://loreforeverwow.com/api/click with the admin key (D1 database `loreforever`, bound as `DB`). It's a rough traffic signal, not a unique-people count,
   and anyone who knows the address could bump it.
-- **Site downloads:** the Download buttons go to `/download/installer` and `/download/zip`
+- **Site downloads:** the installer and zip links go to `/download/installer` and `/download/zip`
   (`functions/download/[file].js`), which count each download per day in the D1 table `downloads`, then
   redirect to the latest GitHub release. Link-preview bots aren't counted. This is the number for "is the
   site the download source?". `https://loreforeverwow.com/api/stats` shows site downloads, sign-ups and
-  clicks (counts only, no addresses).
-- **Emails:** both sign-up forms (the Download pop-up and the "Get new features" box) save straight into the
-  same D1 database, table `subscribers` (email, source, created_at), through `functions/api/subscribe.js`.
+  clicks (counts only, no addresses). Both `GET /api/stats` and `GET /api/click` need the admin key (see
+  Private dashboard below):
+  `curl -s -H "Authorization: Bearer $FEEDBACK_KEY" https://loreforeverwow.com/api/stats`
+- **Emails:** the optional sign-up box at the bottom of the page saves straight into the same D1 database, table
+  `subscribers` (email, source, created_at), through `functions/api/subscribe.js`. Its source is `landing-page`;
+  rows with `download-popup` came from the email pop-up before downloads, removed in LOR-77.
   No confirmation email. To see them: Cloudflare dashboard > Storage & databases > D1 > `loreforever` > Console,
   then run `SELECT email, source, created_at FROM subscribers ORDER BY created_at DESC;`
   There's no public way to list them. When you email this list, include an unsubscribe link.
@@ -108,17 +110,46 @@ curl -s -H "Authorization: Bearer $FEEDBACK_KEY" "https://loreforeverwow.com/api
 
 Or in the Cloudflare dashboard: D1 > `loreforever` > Console, `SELECT * FROM feedback ORDER BY id DESC`.
 
+## Volunteer narrators
+
+The "Lend your voice" section of `/voices` leads to four pages under `public/voices/`:
+
+| Page | What it is |
+| --- | --- |
+| `/voices/guide` | The narrator guide: clip list, reading, recording settings, file names, partial packs, rights, sending. It replaces the long `release/public/VOICE_PACKS.md`, which is now a short pointer here (the public repo still gets it). |
+| `/voices/clips.csv` | The clip list: `voicepack clips` output (id, file name, suggested narrator, text, hash). **`scripts/release.sh` rebuilds it in its Stamp step** and commits it with the version bump, so it goes live with the site at the end of each release. To refresh it between releases: `cd pipeline && uv run python -m lore.voicepack clips --out ../site/public/voices/clips.csv`. Served as a download (`public/_headers`) and excluded from Functions in `_routes.json`. |
+| `/voices/submit` | The submission form (below). Sends the narrator to `/voices/thanks`. |
+| `/voices/release` | The narrator release, a plain-language agreement with a version date. **A draft; have a lawyer read it.** |
+
+**Submissions** post to `functions/api/voices.js`, which saves each one in the `loreforever` D1 database, table
+`voice_submissions` (created on the first submission): credit line, email and/or Discord handle, pack name, a
+Google Drive / Dropbox / OneDrive folder link (other links are turned away; there are no file uploads), which
+clips, a note, the release version agreed to, the 18+-or-guardian box, the typed signature, country and time.
+Same protections as feedback: a honeypot field, at most 5 submissions per sender per day (daily IP hash), and it
+works without JavaScript (success goes to `/voices/thanks`, an error comes back as a small page of its own). They
+show in the dashboard under Voice submissions (mark done, delete), or with the admin key:
+`curl -s -H "Authorization: Bearer $FEEDBACK_KEY" https://loreforeverwow.com/api/voices`.
+
+- **`VOICES_WEBHOOK`** (optional, Pages secret): a Discord webhook URL, in a private channel. Each submission is
+  posted there with the credit, pack, clips, folder link and Discord handle; never the email address or the
+  signature.
+- **Changing the release:** edit `public/voices/release.html` and give it a new version date there, in
+  `RELEASE_VERSION` in `functions/api/voices.js`, and in the hidden `release` field and checkbox text of
+  `public/voices/submit.html`. A form opened before the change is refused with a request to read the new version.
+  Each submission stores the version agreed to; git history keeps every version's text.
+
 ## Private dashboard
 
-https://loreforeverwow.com/admin shows sign-up emails, feedback reports and site downloads in one place:
-totals, sign-ups and downloads per day for the last 30 days, the feedback list (mark reports done, delete spam),
-and the email list (search, copy, CSV export, remove an address when someone asks to unsubscribe).
+https://loreforeverwow.com/admin shows sign-up emails, feedback reports, voice submissions and site downloads in one
+place: totals, sign-ups and downloads per day for the last 30 days, the feedback list (mark reports done, delete
+spam), voice submissions (folder link, clips, contact, signature and release version; mark done, delete), and the
+email list (search, copy, CSV export, remove an address when someone asks to unsubscribe).
 
 - **Sign in** with the admin key: `ADMIN_KEY` in the Pages project if it's set, otherwise `FEEDBACK_KEY` (the same
   value as `FEEDBACK_KEY` in the pipeline repo's `.env`). "Remember on this device" keeps it in that browser; otherwise
   it's forgotten when the tab closes. Sign out clears it.
 - **What keeps it private:** `functions/api/admin.js` refuses every request without the key, and is off when no key
-  is set. The page itself holds no data, so it doesn't matter that anyone can load the empty shell, or that
+  is set. `GET /api/stats` and `GET /api/click` use the same check (`lib/auth.js`). The page itself holds no data, so it doesn't matter that anyone can load the empty shell, or that
   `lore-forever.pages.dev/admin` serves it too. Responses are `no-store` and the page is `noindex`.
 - **Optional extra lock:** Cloudflare Access (Zero Trust > Access > Applications > Self-hosted, domain
   `loreforeverwow.com`, paths `admin*` and `api/admin*`, allow only your email) adds a login in front of the
@@ -141,6 +172,37 @@ and the email list (search, copy, CSV export, remove an address when someone ask
    `mliu.io` (the site uses `loreforever` there). Cloudflare shows a CNAME record. Add it in Namecheap under
    Domain List > mliu.io > Advanced DNS (Host: the subdomain, Value: `<project>.pages.dev`). For a domain of
    its own, follow [DOMAIN.md](DOMAIN.md) instead.
+
+## Discord redirect
+
+`functions/discord.js` serves https://loreforeverwow.com/discord (listed in `public/_routes.json`; old addresses
+301 to it through the middleware). It redirects to the Discord invite for the link's source and counts the click
+in the same D1 database (table `discord_clicks`, created on the first click). Point every Discord link here, not
+at a raw invite, so an invite can be swapped, or the site can move domains, by editing one file
+(`lib/discord.js`).
+
+| Link | Source | Invite (never expires) | Lands in |
+| --- | --- | --- | --- |
+| `/discord` or `/discord?src=site` | Sidebar, author card, sign-up box | discord.gg/PJm2w3kvEe | #welcome |
+| `/discord?src=request` | "Request on Discord" button | discord.gg/NqkXPP96JD | #requests |
+| `/discord?src=feedback` | After sending feedback | discord.gg/TMsxNwXTA5 | #help-and-bugs |
+| `/discord?src=video` | Video descriptions | discord.gg/epUXUBmdtd | #lore-questions |
+| `/discord?src=bio` | Social bios, link-in-bio | discord.gg/dqch9tfKGv | #announcements |
+| `/discord?src=addon` | The add-on's `/lore help` | discord.gg/PJm2w3kvEe | #welcome |
+| `/discord?src=voices` | Voices page, narrator guide, release, submission form, `VOICE_PACKS.md` | discord.gg/PJm2w3kvEe | #welcome |
+
+Each placement has its own invite so Discord's Server Settings > Invites shows joins per source; the click
+counts here show interest before the join. A missing or unknown `src` uses the site invite. Link-preview bots
+are redirected but not counted. discord.gg/fQWrAscHbu is the old invite, still valid for links already posted
+(`release/public/VOICE_PACKS.md` used it until the narrator guide moved to `/voices/guide`).
+
+- **Counts:** `GET /api/discord` (total, per source, and per day) and the `discordClicks` total in `/api/stats`,
+  both with the admin key:
+  `curl -s -H "Authorization: Bearer $FEEDBACK_KEY" https://loreforeverwow.com/api/discord`.
+  Like `/api/click`, it's a rough signal, and anyone who knows the address could bump it.
+- **Adding a source:** create a never-expiring invite in Discord (it reuses a link when settings match, so pick
+  a different landing channel or reuse an existing code), add it to `INVITES` in `lib/discord.js`, and add a
+  row above. Per-creator invites for outreach go in the same map.
 
 ## Preview locally
 

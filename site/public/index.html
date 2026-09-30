@@ -42,36 +42,52 @@
       <ul class="stats">
         <li>by <strong>Mike</strong></li>
         <li id="downloads"><strong>New release</strong></li>
-        <li>Version <strong>0.2.2</strong></li>
+        <li>Version <strong>0.3.0</strong></li>
         <li>Game <strong>WoW Forever 1.60.1</strong></li>
       </ul>
-      <!-- Downloads: always the latest GitHub release. Don't rename these assets; the links depend on them. -->
-      <!-- Downloads go through the site (functions/download/[file].js), which counts them and redirects to the
-           latest GitHub release. The email pop-up asks first; without JavaScript the links still download. -->
+      <!-- Downloads, no email step. CurseForge is the main button: its app installs the add-on and keeps it updated.
+           The installer and zip go through the site (functions/download/[file].js), which counts them in D1 and
+           redirects to the latest GitHub release. Don't rename those release assets; the links depend on them. -->
       <div class="dl-row">
-        <a class="btn-download dl-link" id="download" href="/download/installer">Download for Windows</a>
+        <a class="btn-download dl-link" id="download" href="https://www.curseforge.com/wow/addons/lore-forever">Get it on CurseForge</a>
         <div class="dl-alt">
-          <a class="btn-zip dl-link" href="/download/zip">or download the zip</a>
-          <span class="file-note">Free &middot; 48 MB &middot; <a class="btn-cf" href="https://www.curseforge.com/wow/addons/lore-forever">Also on CurseForge</a></span>
+          <span class="file-note">Free &middot; updates itself with the CurseForge app</span>
+          <span class="dl-other">No CurseForge app? <a class="dl-link" href="/download/installer">Windows installer</a>
+            &middot; <a class="dl-link" href="/download/zip">zip</a></span>
         </div>
       </div>
     </div>
 
-    <aside class="install-card" aria-labelledby="install-card-title">
-      <h2 id="install-card-title">Install in 3 steps</h2>
-      <ol class="steps">
-        <li><strong>Run the installer.</strong> It finds your WoW folder and installs the add-on for you.</li>
-        <li><strong>Restart WoW</strong>, or type <code>/reload</code> if you're already in game.</li>
-        <li><strong>Type <code>/lore</code></strong> or press the key you pick on first login.</li>
-      </ol>
-      <p class="install-note">Signed installer. If Windows shows a SmartScreen prompt, click <strong>More info</strong>,
-        then <strong>Run anyway</strong>, or use the zip.</p>
-      <details class="zip-steps">
-        <summary>Using the zip instead?</summary>
-        <p>Unzip into <code>World of Warcraft\_classic_beta_\Interface\AddOns</code> so you have
-          <code>AddOns\LoreForever\LoreForever.toc</code>, then restart WoW.</p>
-      </details>
-      <a class="install-more" href="#install">Full install guide</a>
+    <!-- About the author, with the community links. Sits beside the title on desktop and right under the
+         download buttons on phones, so both are above the fold. -->
+    <aside class="author-card" aria-labelledby="author-title">
+      <div class="author-head">
+        <span class="author-avatar" aria-hidden="true">M</span>
+        <div>
+          <h2 id="author-title">Made by Mike</h2>
+          <p class="author-role">Author of Lore Forever</p>
+        </div>
+      </div>
+      <p class="author-bio">A Wrath and Cata heroic raider who always read the quest text. Mike made Lore Forever so
+        the story isn't something you have to stop and dig for.</p>
+      <!-- Mike's personal accounts. -->
+      <ul class="socials">
+        <li><a class="social social-discord" href="/discord?src=site">Join the Discord</a></li>
+        <li><a class="social social-twitch" href="https://www.twitch.tv/jiuthaimike">Twitch</a></li>
+        <li><a class="social" href="https://www.youtube.com/@mikeliudev">YouTube</a></li>
+        <li><a class="social" href="https://www.tiktok.com/@mike.liu.dev">TikTok</a></li>
+        <li><a class="social" href="https://www.instagram.com/mike.liu.dev/">Instagram</a></li>
+        <li><a class="social" href="/feedback">Send feedback</a></li>
+        <!-- Lore Forever's own accounts (handle LoreForeverWoW, LOR-74) are postponed and will be set up by hand.
+             None existed on 2026-09-29; move a line above this comment once its account is live.
+        <li><a class="social" href="https://www.youtube.com/@LoreForeverWoW">YouTube</a></li>
+        <li><a class="social" href="https://www.tiktok.com/@loreforeverwow">TikTok</a></li>
+        <li><a class="social" href="https://www.instagram.com/loreforeverwow/">Instagram</a></li>
+        <li><a class="social" href="https://www.threads.net/@loreforeverwow">Threads</a></li>
+        <li><a class="social" href="https://x.com/LoreForeverWoW">X</a></li>
+        <li><a class="social" href="https://www.reddit.com/r/LoreForever/">Reddit</a></li>   (or r/LoreForeverWoW)
+        -->
+      </ul>
     </aside>
   </div>
 </section>
@@ -83,16 +99,17 @@
     <div class="feature-text">
       <h2 id="listen-title">Hear the story of where you are</h2>
       <p>The capitals, starting zones and dungeons, 43 of the places you'll visit most, come with narrated intros,
-        plus 109 narrated answers to the questions new players ask first. Each people has its own narrator. Press
+        plus 109 narrated answers to the questions new players ask first. Press
         Listen, or turn on flight narration and hear each
-        zone's story while you fly over it. Everywhere else, Listen reads the answer with the game's built-in
-        text-to-speech.</p>
+        zone's story while you fly over it. Everywhere else, Listen reads the answer aloud in the game
+        voice.</p>
+      <p>Want a different narrator, or to lend your own voice? See <a href="/voices">narration voices</a>.</p>
       <p class="feature-note">Three of the narrations, exactly as they play in game:</p>
     </div>
-    <!-- Clips copied from addon/LoreForever/Audio; the read-along text is what each clip reads. -->
+    <!-- Clips copied from addon/LoreForever_Voice_Default/Audio; the read-along text is what each clip reads. -->
     <div class="samples">
       <figure class="audio-sample">
-        <figcaption><strong>Stormwind City</strong><span>Told by a royal chronicler of Stormwind &middot; 1:30</span></figcaption>
+        <figcaption><strong>Stormwind City</strong><span>Default narrator &middot; 1:10</span></figcaption>
         <audio controls preload="none" src="audio/stormwind.mp3"></audio>
         <details><summary>Read along</summary>
           <p>Stormwind City. Stormwind City is the bustling capital of the Kingdom of Stormwind and the premier human
@@ -110,7 +127,7 @@
         </details>
       </figure>
       <figure class="audio-sample">
-        <figcaption><strong>Zephras Isle</strong> <span class="tag tag-new">New in Forever</span><span>Told by a Skyborne narrator &middot; 0:59</span></figcaption>
+        <figcaption><strong>Zephras Isle</strong> <span class="tag tag-new">New in Forever</span><span>Default narrator &middot; 0:53</span></figcaption>
         <audio controls preload="none" src="audio/zephras.mp3"></audio>
         <details><summary>Read along</summary>
           <p>Zephras Isle. Zephras Isle is a flying island suspended within Skywall, the Elemental Plane of air. It
@@ -125,7 +142,7 @@
         </details>
       </figure>
       <figure class="audio-sample">
-        <figcaption><strong>Durotar</strong><span>Told by an orc warrior &middot; 1:30</span></figcaption>
+        <figcaption><strong>Durotar</strong><span>Default narrator &middot; 1:11</span></figcaption>
         <audio controls preload="none" src="audio/durotar.mp3"></audio>
         <details><summary>Read along</summary>
           <p>Durotar. Durotar is the arid, red-rock homeland founded by Warchief Thrall following the Third War, named
@@ -244,25 +261,10 @@
           <h3>Levels 30 to 60</h3>
           <p>Place lore for the rest of the world: each zone, its subzones and notable characters. Tell us where
             you want full quest and NPC lore next.</p>
-                    <a class="btn-small" href="https://discord.gg/fQWrAscHbu">Vote on Discord</a>
+                    <a class="btn-small" href="/discord?src=request">Vote on Discord</a>
         </div>
       </article>
     </div>
-  </section>
-
-  <!-- Email sign-up: saved by functions/api/subscribe.js into the site's own D1 database. No confirmation email. -->
-  <section class="signup" aria-labelledby="signup-title">
-    <div class="signup-text">
-      <h2 id="signup-title">Get new features</h2>
-      <p>One email when something new ships. Unsubscribe anytime.</p>
-    </div>
-    <form class="signup-form" id="signup" data-source="landing-page">
-      <label for="signup-email" class="visually-hidden">Email address</label>
-      <input type="email" name="email" id="signup-email" required placeholder="you@example.com" autocomplete="email">
-      <input type="text" name="website" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
-      <button type="submit" class="btn-small">Notify me</button>
-      <p class="signup-note" id="signup-note" hidden>Thanks, you're on the list.</p>
-    </form>
   </section>
 
   <div class="layout">
@@ -321,9 +323,18 @@
 
       <section class="tab-panel" id="install" role="tabpanel">
         <h2>Install</h2>
-        <h3>With the Windows installer (easiest)</h3>
+        <h3>With the CurseForge app (easiest)</h3>
+        <p>Lore Forever is on <a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge</a>, so the app can install it and keep it updated:</p>
         <ol>
-          <li>Click <strong>Download for Windows</strong> at the top of this page and run <code>LoreForever-Setup.exe</code>.
+          <li>In the CurseForge app, open World of Warcraft and pick your Forever install. If it isn't listed,
+            add your <code>_classic_beta_</code> folder, or use the installer or zip below.</li>
+          <li>Search for <strong>Lore Forever</strong> and click <strong>Install</strong>, or click
+            <strong>Get it on CurseForge</strong> at the top of this page.</li>
+          <li>Start the game. On the character screen, open <strong>AddOns</strong> and make sure Lore Forever is ticked.</li>
+        </ol>
+        <h3>With the Windows installer</h3>
+        <ol>
+          <li>Click <strong>Windows installer</strong> at the top of this page and run <code>LoreForever-Setup.exe</code>.
             It's signed; Windows shows the publisher as Mei Liu.</li>
           <li>If Windows shows a SmartScreen prompt, click <strong>More info</strong>, then <strong>Run anyway</strong>.
             (New publishers can see this for a few weeks.)</li>
@@ -333,21 +344,13 @@
         </ol>
         <h3>With the zip</h3>
         <ol>
-          <li>Click <strong>or download the zip</strong> at the top of this page to get <code>LoreForever.zip</code>.</li>
+          <li>Click <strong>zip</strong> at the top of this page to get <code>LoreForever.zip</code>.</li>
           <li>Open your WoW folder, then <code>_classic_beta_\Interface\AddOns</code> (create <code>Interface\AddOns</code>
             if it isn't there). On Windows the default is
             <code>C:\Program Files (x86)\World of Warcraft\_classic_beta_\Interface\AddOns</code>.</li>
           <li>Unzip so you end up with <code>...\AddOns\LoreForever\LoreForever.toc</code>. A doubled folder like
             <code>AddOns\LoreForever\LoreForever\</code> won't load.</li>
           <li>Restart WoW (or <code>/reload</code> if you're already in game).</li>
-        </ol>
-        <h3>With the CurseForge app</h3>
-        <p>Lore Forever is on <a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge</a>, so the app can install it and keep it updated:</p>
-        <ol>
-          <li>In the CurseForge app, open World of Warcraft and pick your Forever install. If it isn't listed,
-            add your <code>_classic_beta_</code> folder, or use the installer or zip above.</li>
-          <li>Search for <strong>Lore Forever</strong> and click <strong>Install</strong>.</li>
-          <li>Start the game. On the character screen, open <strong>AddOns</strong> and make sure Lore Forever is ticked.</li>
         </ol>
 
         <p>On your first login it asks you to pick a key for the panel. You can change it later with <code>/lore key</code>.</p>
@@ -371,10 +374,21 @@
 
       <section class="tab-panel" id="changelog" role="tabpanel">
         <h2>Changelog</h2>
+        <!-- changelog:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
+        <h3>0.3.0</h3>
+        <ul>
+          <li><strong>New narrators:</strong> every zone story and answer (152 in all) has a new narrator, with clearer pronunciation of Warcraft names like Teldrassil, Lordaeron and Gnomeregan.</li>
+          <li><strong>Choose your narrator:</strong> Options &gt; AddOns &gt; Lore Forever &gt; Narration voice lists the narration voices you have installed.</li>
+          <li><strong>Community voice packs:</strong> players can record the stories and share them as a voice pack. Anything a pack doesn't cover plays with the default narrator. Installing a voice and lending yours: https://loreforeverwow.com/voices</li>
+          <li><strong>Installing by hand?</strong> Narration now lives in its own folder, LoreForever_Voice_Default, included in the zip. Copy both folders into AddOns, then restart the game (not just /reload) the first time. An old LoreForever\Audio folder can be deleted.</li>
+          <li>Corrected the text of a few narrated stories, and the narration now matches it.</li>
+          <li>Options page fixes: drop-down lists have a proper background, and longer text no longer overlaps the next row.</li>
+          <li>Fixed a few garbled search phrases for Sister Aquinne in Darnassus.</li>
+          <li>The druid quest "Moonglade" now links to Mathrengyl Bearwalker correctly.</li>
+        </ul>
         <h3>0.2.2</h3>
         <ul>
-          <li>Lore accuracy pass: about 560 entries corrected, including wrong names, races, places and quest givers,
-            and details that belong to later expansions.</li>
+          <li>Lore accuracy pass: about 560 entries corrected, including wrong names, races, places and quest givers, and details that belong to later expansions.</li>
           <li>Removed about 260 entries for places, people and quests that don't exist yet in WoW Forever's timeline.</li>
           <li>More story twists now stay behind the spoiler prompt.</li>
         </ul>
@@ -384,10 +398,8 @@
         </ul>
         <h3>0.2.0</h3>
         <ul>
-          <li>Every zone, city and dungeon up to level 30, including Zephras Isle, the Hall of Thanes and the
-            Ruins of Lordaeron. About 3,460 entries. Place lore for the rest of the world.</li>
-          <li>Lore on NPC, mob and item tooltips. Lore button on quests. Pick-a-key prompt on first login;
-            press it over an NPC to read about them.</li>
+          <li>Every zone, city and dungeon up to level 30, including Zephras Isle, the Hall of Thanes and the Ruins of Lordaeron. About 3,460 entries. Place lore for the rest of the world.</li>
+          <li>Lore on NPC, mob and item tooltips. Lore button on quests. Pick-a-key prompt on first login; press it over an NPC to read about them.</li>
           <li>Dungeon primers.</li>
           <li>Type-ahead questions, "Ask next" follow-ups, typo-friendly names and "Did you mean...".</li>
           <li>Listen button and flight narration.</li>
@@ -397,11 +409,30 @@
         <ul>
           <li>First release: Elwynn Forest, Westfall and the Deadmines, 337 lore entries.</li>
         </ul>
+        <!-- changelog:end -->
       </section>
 
     </div>
 
     <aside class="side-col">
+      <div class="box install-box">
+        <h3>Install in 3 steps</h3>
+        <ol class="steps">
+          <li><strong>Get it on CurseForge</strong> and click Install. The CurseForge app puts it in your WoW Forever
+            folder and keeps it updated.</li>
+          <li><strong>Restart WoW</strong>, or type <code>/reload</code> if you're already in game.</li>
+          <li><strong>Type <code>/lore</code></strong> or press the key you pick on first login.</li>
+        </ol>
+        <p class="install-note">No CurseForge app? The signed <a class="dl-link" href="/download/installer">Windows
+          installer</a> finds your WoW folder for you. If Windows shows a SmartScreen prompt, click
+          <strong>More info</strong>, then <strong>Run anyway</strong>.</p>
+        <details class="zip-steps">
+          <summary>Using the zip instead?</summary>
+          <p>Unzip into <code>World of Warcraft\_classic_beta_\Interface\AddOns</code> so you have
+            <code>AddOns\LoreForever\LoreForever.toc</code>, then restart WoW.</p>
+        </details>
+        <a class="install-more" href="#install">Full install guide</a>
+      </div>
       <div class="box">
         <h3>About</h3>
         <dl>
@@ -417,13 +448,31 @@
         <ul class="links">
           <li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li>
           <li><a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge page</a></li>
-                    <li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li>
-          <li><a href="https://discord.gg/fQWrAscHbu">Discord</a></li>
+          <li><a href="/discord?src=site">Discord</a></li>
+          <li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li>
+          <li><a href="/voices">Narration voices</a></li>
           <li><a href="/feedback">Send feedback</a></li>
         </ul>
       </div>
     </aside>
   </div>
+
+  <!-- Optional email sign-up, at the bottom so it never stands between a visitor and the download. Saved by
+       functions/api/subscribe.js into the site's own D1 database (table subscribers). No confirmation email. -->
+  <section class="signup" aria-labelledby="signup-title">
+    <div class="signup-text">
+      <h2 id="signup-title">Hear when something new ships</h2>
+      <p>One email when a new version is out. Unsubscribe anytime. Rather chat? News goes
+        to the <a href="/discord?src=site">Discord</a> too.</p>
+    </div>
+    <form class="signup-form" id="signup" data-source="landing-page">
+      <label for="signup-email" class="visually-hidden">Email address</label>
+      <input type="email" name="email" id="signup-email" required placeholder="you@example.com" autocomplete="email">
+      <input type="text" name="website" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button type="submit" class="btn-small">Notify me</button>
+      <p class="signup-note" id="signup-note" hidden>Thanks, you're on the list.</p>
+    </form>
+  </section>
 
 </main>
 
@@ -435,32 +484,16 @@
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>
 
-<!-- Shown when someone clicks Download: an email is required, then the download starts right away. -->
-<dialog class="dl-dialog" id="dl-dialog" aria-labelledby="dl-title">
-  <button type="button" class="dl-close" id="dl-close" aria-label="Close">&times;</button>
-  <h2 id="dl-title">Enter your email to download</h2>
-  <p>We'll email you when new features ship. Unsubscribe anytime.</p>
-  <form class="signup-form" id="dl-signup" data-source="download-popup">
-    <label for="dl-email" class="visually-hidden">Email address</label>
-    <input type="email" name="email" id="dl-email" required placeholder="you@example.com" autocomplete="email">
-    <input type="text" name="website" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
-    <button type="submit" class="btn-small">Download</button>
-  </form>
-</dialog>
-
 <script>
 // Download count: GitHub release downloads (exact, from the public API, no key) plus CurseForge's total
-// (through shields.io) once the project there is approved and counting.
+// (through shields.io).
 const GITHUB_REPO = "mliudev/LoreForever";
 const CURSEFORGE_PROJECT_ID = "1715510";
 
-// Remembers that this browser already subscribed, so the download pop-up stops asking. Best effort only.
-function remember(key, value) { try { localStorage.setItem(key, value); } catch (e) {} }
-function recall(key) { try { return localStorage.getItem(key); } catch (e) { return null; } }
-
-// Both sign-up forms send the email to /api/subscribe (functions/api/subscribe.js). sendBeacon keeps the
-// request alive when the page moves on to the download, so nobody waits.
-function wireSignup(form, afterSubmit) {
+// The optional sign-up at the bottom sends the email to /api/subscribe (functions/api/subscribe.js).
+// Downloads never wait on it.
+(function wireSignup() {
+  const form = document.getElementById("signup");
   form.addEventListener("submit", e => {
     e.preventDefault();
     const data = JSON.stringify({ email: form.email.value, source: form.dataset.source, website: form.website.value });
@@ -468,38 +501,9 @@ function wireSignup(form, afterSubmit) {
     if (!(navigator.sendBeacon && navigator.sendBeacon("/api/subscribe", blob))) {
       fetch("/api/subscribe", { method: "POST", body: blob, keepalive: true }).catch(() => {});
     }
-    remember("lf-subscribed", "1");
-    if (afterSubmit) afterSubmit();
+    document.getElementById("signup-note").hidden = false;
+    form.reset();
   });
-}
-
-wireSignup(document.getElementById("signup"), () => {
-  document.getElementById("signup-note").hidden = false;
-  document.getElementById("signup").reset();
-});
-
-// Download button: ask for an email first (required), then start the download. Skipped when this
-// browser already subscribed.
-(function setUpDownloadDialog() {
-  const dialog = document.getElementById("dl-dialog");
-  if (typeof dialog.showModal !== "function") return;
-  let chosen = document.getElementById("download").href;   // the file the player clicked
-  const startDownload = () => { dialog.close(); location.href = chosen; };
-  wireSignup(document.getElementById("dl-signup"), startDownload);
-  // Every click on a download link asks first, including ctrl/cmd/shift and middle clicks, unless this browser
-  // already subscribed. Without JavaScript the link still downloads directly.
-  const ask = (link, e) => {
-    if (recall("lf-subscribed")) return;
-    e.preventDefault();
-    chosen = link.href;
-    dialog.showModal();
-  };
-  document.querySelectorAll(".dl-link").forEach(link => {
-    link.addEventListener("click", e => ask(link, e));
-    link.addEventListener("auxclick", e => { if (e.button === 1) ask(link, e); });
-  });
-  document.getElementById("dl-close").addEventListener("click", () => dialog.close());
-  dialog.addEventListener("click", e => { if (e.target === dialog) dialog.close(); });   // backdrop click
 })();
 
 // Tabs. Without JavaScript all panels stay visible.
@@ -547,7 +551,8 @@ window.addEventListener("hashchange", () => showTabFromHash(true));   // e.g. th
   }
 })();
 
-// Count clicks on the download button (functions/api/click.js). Best effort: the link works either way.
+// Count clicks on the download links, CurseForge included (functions/api/click.js). CurseForge's own downloads
+// happen off this site, so this is the site's only signal for them. Best effort: the link works either way.
 document.querySelectorAll(".dl-link").forEach(link => link.addEventListener("click", () => {
   try { navigator.sendBeacon("/api/click"); } catch (e) {}
 }));

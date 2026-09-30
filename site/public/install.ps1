@@ -58,30 +58,45 @@
         $zip = Join-Path $tmp 'LoreForever.zip'
         Write-Host 'Downloading the latest version (about 50 MB)...'
         Invoke-WebRequest -Uri $ZipUrl -OutFile $zip -UseBasicParsing
-        Expand-Archive -Path $zip -DestinationPath $tmp -Force
-        $src = Join-Path $tmp 'LoreForever'
-        if (-not (Test-Path (Join-Path $src 'LoreForever.toc'))) { throw 'The download looks broken (no LoreForever.toc).' }
+        $unpacked = Join-Path $tmp 'zip'
+        Expand-Archive -Path $zip -DestinationPath $unpacked -Force
+        if (-not (Test-Path (Join-Path $unpacked 'LoreForever\LoreForever.toc'))) { throw 'The download looks broken (no LoreForever.toc).' }
+        # The zip holds one folder per add-on: LoreForever, plus the voice and language packs that ship with it
+        # (LoreForever_Voice_Default, and LoreForever_Lang_<locale> once any ship). Older zips hold LoreForever alone.
+        $folders = @(Get-ChildItem $unpacked -Directory | Where-Object {
+            $_.Name -match '^LoreForever(_(Voice|Lang)_\w+)?$' -and (Test-Path (Join-Path $_.FullName "$($_.Name).toc"))
+        })
 
-        New-Item -ItemType Directory -Path $dest -Force | Out-Null
-        # Copy file by file: while WoW is running it can hold a narration file open, and one locked file
-        # shouldn't stop the rest of the update.
         $locked = 0
-        Get-ChildItem $src -Recurse -File | ForEach-Object {
-            $target = Join-Path $dest $_.FullName.Substring($src.Length + 1)
-            New-Item -ItemType Directory -Path (Split-Path $target) -Force | Out-Null
-            try { Copy-Item $_.FullName $target -Force } catch { $locked++ }
-        }
-        # Remove files an older version had that this one doesn't.
-        Get-ChildItem $dest -Recurse -File | ForEach-Object {
-            if (-not (Test-Path (Join-Path $src $_.FullName.Substring($dest.Length + 1)))) {
-                Remove-Item $_.FullName -Force -ErrorAction SilentlyContinue
+        foreach ($folder in $folders) {
+            $src = $folder.FullName
+            $target = Join-Path $addons $folder.Name
+            New-Item -ItemType Directory -Path $target -Force | Out-Null
+            # Copy file by file: while WoW is running it can hold a narration file open, and one locked file
+            # shouldn't stop the rest of the update.
+            Get-ChildItem $src -Recurse -File | ForEach-Object {
+                $to = Join-Path $target $_.FullName.Substring($src.Length + 1)
+                New-Item -ItemType Directory -Path (Split-Path $to) -Force | Out-Null
+                try { Copy-Item $_.FullName $to -Force } catch { $locked++ }
             }
+            # Remove files an older version had that this one doesn't.
+            Get-ChildItem $target -Recurse -File | ForEach-Object {
+                if (-not (Test-Path (Join-Path $src $_.FullName.Substring($target.Length + 1)))) {
+                    Remove-Item $_.FullName -Force -ErrorAction SilentlyContinue
+                }
+            }
+        }
+        # Narration used to live in LoreForever\Audio; newer versions keep it in the voice pack.
+        $oldAudio = Join-Path $dest 'Audio'
+        if ((Test-Path $oldAudio) -and -not (Test-Path (Join-Path $unpacked 'LoreForever\Audio'))) {
+            Remove-Item $oldAudio -Recurse -Force -ErrorAction SilentlyContinue
+            if (Test-Path $oldAudio) { $locked++ }
         }
         $version = (Select-String -Path (Join-Path $dest 'LoreForever.toc') -Pattern '^## Version:\s*(.+)$').Matches[0].Groups[1].Value
         Write-Host ''
         Write-Host "Lore Forever $version is installed." -ForegroundColor Green
         if ($locked) { Write-Host "$locked file(s) were in use by the game. Close WoW and run this again to finish." -ForegroundColor Yellow }
-        Write-Host 'Restart WoW (or type /reload in game). Pick a key when it asks, or type /lore.'
+        Write-Host 'Restart WoW, then pick a key when it asks, or type /lore.'
         Write-Host "If it doesn't show up: on the character screen click AddOns and tick 'Load out of date AddOns'."
     } catch {
         Write-Host "Install failed: $($_.Exception.Message)" -ForegroundColor Red

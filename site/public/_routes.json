@@ -1,5 +1,5 @@
 {
   "version": 1,
-  "include": ["/", "/feedback", "/api/*", "/download/*"],
-  "exclude": []
+  "include": ["/", "/feedback", "/voices", "/voices/*", "/discord", "/api/*", "/download/*"],
+  "exclude": ["/voices/clips.csv"]
 }

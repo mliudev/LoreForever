@@ -1,6 +1,6 @@
-// Saves an email from the landing page's sign-up forms in the D1 database bound as DB.
+// Saves an email from the landing page's optional sign-up form in the D1 database bound as DB.
 // No confirmation step: Mike wants the simplest flow ("get an email and move on").
-//   POST /api/subscribe  {"email": "...", "source": "download-popup"}  -> 204, or 400 for a bad address
+//   POST /api/subscribe  {"email": "...", "source": "landing-page"}  -> 204, or 400 for a bad address
 // There's deliberately no GET: read the list in the Cloudflare dashboard (D1 > loreforever > Console).
 
 const SETUP = `CREATE TABLE IF NOT EXISTS subscribers (

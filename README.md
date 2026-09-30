@@ -31,19 +31,23 @@ It finds your World of Warcraft folder, downloads the latest release from this r
 
 1. Download [LoreForever.zip](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip).
 2. Open your WoW folder, then `_classic_beta_\Interface\AddOns` (create `Interface\AddOns` if it isn't there).
-3. Unzip it there, so you end up with `...\AddOns\LoreForever\LoreForever.toc`. Watch out for a doubled folder
-   like `AddOns\LoreForever\LoreForever\`: that won't load.
+3. Unzip it there, so you end up with two folders side by side: `...\AddOns\LoreForever\LoreForever.toc` and
+   `...\AddOns\LoreForever_Voice_Default\LoreForever_Voice_Default.toc` (the narration). Watch out for a doubled
+   folder like `AddOns\LoreForever\LoreForever\`: that won't load.
 4. Start the game and pick a key when it asks, or type `/lore`.
 
 If it doesn't show up: on the character screen, click **AddOns** and tick **Load out of date AddOns**.
 
-To update, download the new zip and unzip it over the old folder.
+To update, download the new zip, unzip it over the old folders and restart the game. If an older version left a
+`LoreForever\Audio` folder behind, you can delete it: the narration now lives in `LoreForever_Voice_Default`.
+
+Other narration voices can be installed the same way; see [loreforeverwow.com/voices](https://loreforeverwow.com/voices),
+which also explains how to record one.
 
 ## What it does
 
 - **Narrated stories.** Every starting zone, capital and early dungeon has a narrated intro, and the questions new
-  players ask most have narrated answers. Each people has its own narrator. Anything else can be read aloud with
-  the game's text-to-speech voice.
+  players ask most have narrated answers. Anything else can be read aloud in the game voice.
 - **Ask in plain English.** "Who is Edwin VanCleef?", "Why is Westfall so poor?" Suggestions appear as you type,
   and every answer offers follow-up questions.
 - **Knows where you are.** The panel follows your zone, subzone, target and quest log.
@@ -72,6 +76,9 @@ plus place lore for the rest of the world: about 3,460 entries, 43 narrated intr
 | --- | --- |
 | `addon/LoreForever/` | The add-on, exactly as it's installed. Plain Lua, no libraries. |
 | `addon/LoreForever/Data/` | The lore library and its search index, compiled from `data/`. |
+| `addon/LoreForever_Voice_Default/` | The default narration voice pack, installed next to the add-on. |
+| `data/clips.json` | The narrations a voice pack can cover. |
+| `VOICE_PACKS.md` | How to record a voice pack, and how to install one. |
 | `data/lore/` | Every lore entry as JSON (one file per zone, quest, NPC, place or topic), with its wiki sources. |
 | `data/overrides/`, `data/spoilers.json` | Hand-made corrections and the list of answers held behind a spoiler warning. |
 | `site/` | The website ([loreforeverwow.com](https://loreforeverwow.com)). |
@@ -94,8 +101,9 @@ account needed) or [open an issue](https://github.com/mliudev/LoreForever/issues
 - **Lore text** (`data/` and `addon/LoreForever/Data/`): adapted from the [Warcraft Wiki](https://warcraft.wiki.gg)
   and shared under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Each entry names its source
   articles.
-- **Narration audio** (`addon/LoreForever/Audio/`, `site/public/audio/`) and the **logo**: all rights reserved.
-  They ship with the add-on for you to use in game, but please don't reuse them elsewhere.
+- **Narration audio** (`addon/LoreForever_Voice_Default/Audio/`, `site/public/audio/`) and the **logo**: all
+  rights reserved. They ship with the add-on for you to use in game, but please don't reuse them elsewhere.
+  Voice packs recorded by volunteers are released under CC BY-SA 4.0 (see [VOICE_PACKS.md](VOICE_PACKS.md)).
 
 World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc. Lore Forever is a fan project and
 is not affiliated with or endorsed by Blizzard.

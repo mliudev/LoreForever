@@ -1,10 +1,15 @@
 -- Wiring: events, slash commands, key binding, minimap button, zone and dungeon nudges.
 
 local addonName, ns = ...
+local L = ns.L
 
-BINDING_HEADER_LOREFOREVER = "Lore Forever"
-BINDING_NAME_LOREFOREVER_TOGGLE = "Toggle Lore Forever panel"
-BINDING_NAME_LOREFOREVER_NARRATE = "Play narration (what you hover, or where you are)"
+-- Key binding names; set again at login once the language pack has loaded.
+local function setBindingNames()
+  BINDING_HEADER_LOREFOREVER = "Lore Forever"
+  BINDING_NAME_LOREFOREVER_TOGGLE = L["Toggle Lore Forever panel"]
+  BINDING_NAME_LOREFOREVER_NARRATE = L["Play narration (what you hover, or where you are)"]
+end
+setBindingNames()
 
 local GOLD = "|cffffd100"
 local PREFIX = GOLD .. "Lore Forever:|r "
@@ -32,17 +37,18 @@ function LoreForever_Narrate()
   local h, now = ns.Hooks.hover, GetTime and GetTime() or 0
   local key = h and now - h.t < 2 and UnitExists and UnitExists("mouseover") and h.key or nil
   local target = (key and UI.EntryTarget(key)) or UI.ZoneTarget()
-  if not target then return say("there's no narration for this place yet.") end
+  if not target then return say(L["there's no narration for this place yet."]) end
   if UI.speaking and UI.playingId == target.id then return UI.ListenTo(target) end
   local name = ns.DB.entries[target.key].n
   if UI.frame:IsShown() then
-    UI.PlayEntry(target.key, "Tell me the story of " .. name)
+    UI.PlayEntry(target.key, string.format(L["Tell me the story of %s"], name))
   else
     UI.ListenTo(target)
     if UI.speaking then
       local k = ns.Hooks.CurrentKey("narrate")
-      say("now playing: " .. name .. ". " .. ns.Hooks.Link("Read along", "entry", target.key)
-        .. (k and (" (" .. k .. " again to stop)") or ""))
+      local link = ns.Hooks.Link(L["Read along"], "entry", target.key)
+      say(k and string.format(L["now playing: %s. %s (%s again to stop)"], name, link, k)
+        or string.format(L["now playing: %s. %s"], name, link))
     end
   end
 end
@@ -65,15 +71,15 @@ local function arrive()
   nudged[zone] = true
   local z = ns.DB.zones[zk]
   local inInstance = IsInInstance and IsInInstance()
-  local listen = ns.Voice.HasAudio("zone:" .. zk) and (" " .. ns.Hooks.Link("Listen", "listen", "zone:" .. zk)) or ""
+  local listen = ns.Voice.HasAudio("zone:" .. zk) and (" " .. ns.Hooks.Link(L["Listen"], "listen", "zone:" .. zk)) or ""
   if z and z.t == "dungeon" and inInstance then
     if S().dungeonPrimer then
-      say("Entering " .. z.n .. ". " .. ns.Hooks.Link("Dungeon primer", "primer", zk) .. listen)
+      say(string.format(L["Entering %s. %s"], z.n, ns.Hooks.Link(L["Dungeon primer"], "primer", zk)) .. listen)
     end
   elseif S().zoneNudge then
     local f = e.faq and e.faq[1]
-    say("You've entered " .. zone .. "." .. (f and (" " .. ns.Hooks.Link(f.q, "faq", "zone:" .. zk, 1)) or "")
-      .. listen)
+    say(string.format(L["You've entered %s."], zone)
+      .. (f and (" " .. ns.Hooks.Link(f.q, "faq", "zone:" .. zk, 1)) or "") .. listen)
   end
 end
 
@@ -176,8 +182,9 @@ function ns.LauncherButton()
     GameTooltip:SetOwner(self, "ANCHOR_TOP")
     GameTooltip:AddLine("Lore Forever")
     local key = ns.Hooks.CurrentKey()
-    GameTooltip:AddLine("Click to open" .. (key and (" (or press " .. key .. ")") or "") .. ". Right-click for options.", 1, 1, 1)
-    GameTooltip:AddLine("Drag to move.", 0.6, 0.6, 0.6)
+    GameTooltip:AddLine(key and string.format(L["Click to open (or press %s). Right-click for options."], key)
+      or L["Click to open. Right-click for options."], 1, 1, 1)
+    GameTooltip:AddLine(L["Drag to move."], 0.6, 0.6, 0.6)
     GameTooltip:Show()
   end)
   b:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -185,7 +192,7 @@ function ns.LauncherButton()
   local stop = CreateFrame("Button", nil, b, "UIPanelButtonTemplate")
   stop:SetSize(48, 18)
   stop:SetPoint("BOTTOM", b, "TOP", 0, 2)
-  stop:SetText("Stop")
+  stop:SetText(L["Stop"])
   stop:SetScript("OnClick", function() ns.UI.StopAll() end)
   stop:Hide()
   b.stop = stop
@@ -234,8 +241,9 @@ function ns.MinimapButton()
     GameTooltip:SetOwner(self, "ANCHOR_LEFT")
     GameTooltip:AddLine("Lore Forever")
     local key = ns.Hooks.CurrentKey()
-    GameTooltip:AddLine("Click to open" .. (key and (" (or press " .. key .. ")") or "") .. ". Right-click for options.", 1, 1, 1)
-    GameTooltip:AddLine("Drag to move.", 0.6, 0.6, 0.6)
+    GameTooltip:AddLine(key and string.format(L["Click to open (or press %s). Right-click for options."], key)
+      or L["Click to open. Right-click for options."], 1, 1, 1)
+    GameTooltip:AddLine(L["Drag to move."], 0.6, 0.6, 0.6)
     GameTooltip:Show()
   end)
   b:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -245,15 +253,19 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
   if event == "ADDON_LOADED" and arg1 == addonName then
     ns.Log.Init()
   elseif event == "PLAYER_LOGIN" then
+    ns.Lang.Init()   -- scans packs; the language pack, if any, goes in before the engine indexes the text
+    setBindingNames()
     ns.engine = ns.Engine.new(ns.DB)
+    ns.Voice.Init()
     ns.UI.Create(ns.engine)
     ns.Hooks.Init()
     ns.Options.Create()
     ns.LauncherButton()
     ns.MinimapButton()
-    local key = ns.Hooks.CurrentKey()
-    say(string.format("%d lore entries ready. %s, or click the book beside your menu bar.", ns.DB.count or 0,
-      key and ("Press " .. GOLD .. key .. "|r") or "Type /lore"))
+    local key, n = ns.Hooks.CurrentKey(), ns.DB.count or 0
+    say(key and string.format(L["%d lore entries ready. Press %s, or click the book beside your menu bar."], n,
+      GOLD .. key .. "|r") or string.format(L["%d lore entries ready. Type /lore, or click the book beside your menu bar."], n))
+    for _, note in ipairs(ns.lang.notes) do say(note) end
     C_Timer.After(6, ns.Hooks.MaybeOnboard)
   elseif event == "PLAYER_ENTERING_WORLD" or event == "ZONE_CHANGED_NEW_AREA" then
     C_Timer.After(2, arrive)
@@ -273,6 +285,8 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     refreshSoon()
   elseif event == "PLAYER_REGEN_DISABLED" then
     ns.Hooks.OnCombat()
+  elseif event == "PLAYER_REGEN_ENABLED" then
+    ns.Voice.OnCombatEnded()
   elseif event == "PLAYER_LOGOUT" then
     if ns.UI.msgs then ns.UI.Archive() end   -- keep the last chat of the session in History
   elseif event == "VOICE_CHAT_TTS_PLAYBACK_STARTED" then
@@ -291,13 +305,52 @@ for _, e in ipairs({ "ADDON_LOADED", "PLAYER_LOGIN", "PLAYER_ENTERING_WORLD", "Z
   "ZONE_CHANGED_NEW_AREA", "QUEST_LOG_UPDATE", "BAG_UPDATE_DELAYED", "SKILL_LINES_CHANGED", "QUEST_DETAIL",
   "QUEST_PROGRESS", "QUEST_COMPLETE", "PLAYER_TARGET_CHANGED", "PLAYER_CONTROL_LOST",
   "VOICE_CHAT_TTS_PLAYBACK_STARTED", "VOICE_CHAT_TTS_PLAYBACK_FINISHED", "VOICE_CHAT_TTS_PLAYBACK_FAILED",
-  "PLAYER_REGEN_DISABLED", "PLAYER_LOGOUT" }) do
+  "PLAYER_REGEN_DISABLED", "PLAYER_REGEN_ENABLED", "PLAYER_LOGOUT" }) do
   listen(e)
 end
 
 local function toggleSetting(key, label)
   S()[key] = not S()[key]
-  say(label .. " " .. (S()[key] and "on" or "off"))
+  say(string.format(S()[key] and L["%s on"] or L["%s off"], label))
+end
+
+-- /lore voice: list the narration voices (numbered, current one marked), or switch by number, name, auto or none.
+local function findVoice(arg, choices)
+  local want = arg:lower()
+  if want == "default" then return choices[1] end
+  for i, c in ipairs(choices) do
+    if tostring(i) == want or c.value:lower() == want or c.label:lower() == want
+      or (c.rec and (c.rec.name:lower() == "loreforever_voice_" .. want or c.rec.title:lower():find(want, 1, true))) then
+      return c
+    end
+  end
+end
+
+-- "/lore voice <word>" is always the command; longer text that names no voice is a question ("voices of the dead").
+local function isVoiceCommand(cmd, arg)
+  if cmd == "voice" or cmd == "voices" then return true end
+  if not (arg and cmd:match("^voices? ")) then return false end
+  return not arg:find("%s") or findVoice(arg, ns.Voice.Choices()) ~= nil
+end
+
+local function voiceCommand(arg)
+  local choices = ns.Voice.Choices()
+  local current = S().voicePack or "auto"
+  if not arg or arg == "" then
+    say(L["narration voices (/lore voice <number> to switch):"])
+    for i, c in ipairs(choices) do
+      local mark = c.value == current and (GOLD .. " " .. L["(current)"] .. "|r") or ""
+      local why = c.why or c.note
+      say(string.format("  %d. %s%s%s", i, c.label, mark, why and ("|cff888888 - " .. why .. "|r") or ""))
+    end
+    say(ns.Voice.Status())
+    return
+  end
+  local pick = findVoice(arg, choices)
+  if not pick then return say(string.format(L["no voice called \"%s\". Type /lore voice to see the list."], arg)) end
+  local ok, why = ns.Voice.SetPack(pick.value)
+  if not ok then return say(string.format(L["%s: %s."], pick.label, why)) end
+  say(string.format(L["narration voice: %s."], pick.label) .. " " .. ns.Voice.Status())
 end
 
 SLASH_LOREFOREVER1 = "/lore"
@@ -308,25 +361,29 @@ SlashCmdList.LOREFOREVER = function(msg)
   if cmd == "" then
     LoreForever_Toggle()
   elseif cmd == "help" then
-    say("/lore - open or close the panel (or press your key; press it over an NPC to read about them)")
-    say("/lore <question> - ask directly, e.g. /lore why is westfall so poor")
-    say("/lore key - choose the key that opens the panel; /lore key narrate - a key that plays narration")
-    say("/lore narrations - every recorded narration, grouped (your starting area first)")
-    say("/lore options - settings (tooltips, hints, flight narration)")
-    say("/lore primer - dungeon primer for where you are")
-    say("/lore listen - read the last answer aloud; /lore narrate - narrate flights on/off")
-    say("/lore ctx | export | visits | stats - what Lore Forever sees, for bug reports and playtests")
+    say(L["/lore - open or close the panel (or press your key; press it over an NPC to read about them)"])
+    say(L["/lore <question> - ask directly, e.g. /lore why is westfall so poor"])
+    say(L["/lore key - choose the key that opens the panel; /lore key narrate - a key that plays narration"])
+    say(L["/lore narrations - every recorded narration, grouped (your starting area first)"])
+    say(L["/lore options - settings (tooltips, hints, flight narration)"])
+    say(L["/lore lang - choose the language (language packs are separate add-ons)"])
+    say(L["/lore primer - dungeon primer for where you are"])
+    say(L["/lore listen - read the last answer aloud; /lore narrate - narrate flights on/off"])
+    say(L["/lore voice - list narration voices; /lore voice <number or name> - switch (auto: default, none: game voice)"])
+    say(L["/lore ctx | export | visits | stats - what Lore Forever sees, for bug reports and playtests"])
   elseif cmd == "key" or cmd == "key narrate" then
     ns.Hooks.KeyPrompt(cmd == "key narrate" and "narrate" or "toggle"):Show()
   elseif cmd == "narrations" then
     if not ns.UI.frame:IsShown() then ns.UI.frame:Show() end
     ns.UI.ShowTab("narrations")
+  elseif isVoiceCommand(cmd, msg:match("^%S+%s+(.-)$")) then
+    voiceCommand(msg:match("^%S+%s+(.-)$"))
   elseif cmd == "options" or cmd == "config" or cmd == "settings" then
     ns.Options.Open()
   elseif cmd == "primer" then
     local zk = ns.engine:ZoneKey(GetRealZoneText and GetRealZoneText())
     local z = zk and ns.DB.zones[zk]
-    if z and z.t == "dungeon" then ns.UI.ShowPrimer(zk, "slash") else say("you're not in a dungeon I know yet.") end
+    if z and z.t == "dungeon" then ns.UI.ShowPrimer(zk, "slash") else say(L["you're not in a dungeon I know yet."]) end
   elseif cmd == "listen" then
     -- The newest answer if there is one, otherwise the area you're in.
     local b = ns.UI.listenButton
@@ -336,15 +393,15 @@ SlashCmdList.LOREFOREVER = function(msg)
   elseif cmd == "stop" then
     ns.UI.StopAll()
   elseif cmd == "narrate" then
-    toggleSetting("narrateFlights", "flight narration")
+    toggleSetting("narrateFlights", L["flight narration"])
   elseif cmd == "nudge" then
-    toggleSetting("zoneNudge", "zone hints")
+    toggleSetting("zoneNudge", L["zone hints"])
   elseif cmd == "tooltips" then
     S().unitTooltips = not S().unitTooltips
     S().itemTooltips = S().unitTooltips
-    say("tooltip lore " .. (S().unitTooltips and "on" or "off"))
+    say(string.format(S().unitTooltips and L["%s on"] or L["%s off"], L["tooltip lore"]))
   elseif cmd == "feedback" then
-    toggleSetting("feedback", "feedback buttons")
+    toggleSetting("feedback", L["feedback buttons"])
   elseif cmd == "ctx" then
     local c = ns.Context.Snapshot()
     say(string.format("zone=%s subzone=%s mapID=%s instance=%s target=%s", tostring(c.zone), tostring(c.subzone),
@@ -352,7 +409,7 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(string.format("%s %s level %s (%s), professions: %s", tostring(c.raceName), tostring(c.className),
       tostring(c.level), tostring(c.faction), table.concat(c.professions, ", ")))
     for _, q in ipairs(c.quests) do
-      local key = ns.DB.index.quest[q.id] or (q.title and ns.DB.index.questTitle[q.title:lower()])
+      local key = ns.DB.index.quest[q.id] or (q.title and ns.DB.index.questTitle[ns.Engine.lower(q.title)])
       say(string.format("  quest %s: %s %s", tostring(q.id), tostring(q.title), key and "(has lore)" or "(no lore)"))
     end
     if #c.questItems > 0 then say("quest items: " .. table.concat(c.questItems, ", ")) end
@@ -374,6 +431,25 @@ SlashCmdList.LOREFOREVER = function(msg)
     for _, q in ipairs(LoreForeverDB.questions) do if q.session == ns.Log.session then n = n + 1 end end
     for _ in pairs(LoreForeverDB.quests) do known = known + 1 end
     say(string.format("%d questions this session; %d quest texts captured. /reload or log out to save them.", n, known))
+  elseif cmd == "lang" or cmd:match("^lang ") then
+    local want = msg:match("^%S+%s+(%S+)")
+    local choices = ns.Lang.Choices()
+    local chosen
+    for _, c in ipairs(choices) do
+      if want and (c.id:lower() == want:lower() or (want:lower() == "en" and c.id == "enUS")) then chosen = c end
+    end
+    if chosen and not chosen.reason then
+      -- Add-ons can't reload the interface themselves (ReloadUI is protected), so the player types /reload.
+      ns.Lang.Set(chosen.id)
+      say(string.format(L["language: %s."], chosen.label)
+        .. (ns.Lang.NeedsReload() and (" " .. L["Type /reload to switch."]) or ""))
+    else
+      if want then say(string.format(L["no language \"%s\" to choose."], want)) end
+      say(string.format(L["language now: %s. Choose with /lore lang <code>:"], ns.Lang.NameOf(ns.lang.locale)))
+      for _, c in ipairs(choices) do
+        say(string.format("  %s - %s%s", c.id, c.label, c.reason and (" (" .. c.reason .. ")") or ""))
+      end
+    end
   elseif cmd == "debug" then
     ns.debug = not ns.debug
     say("debug " .. (ns.debug and "on" or "off"))
