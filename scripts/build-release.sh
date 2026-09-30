@@ -1,8 +1,14 @@
 #!/usr/bin/env bash
-# Build the public download: dist/LoreForever-<version>.zip with a single LoreForever/ folder inside.
-# Ships the files the .toc loads, Bindings.xml, the narration audio under Audio/ (WoW plays those by path, so
-# they're never in the .toc) and the credits file. Nothing else, so pipeline code, eval data and key helpers
-# can never slip into the zip. Usage: scripts/build-release.sh
+# Build the public download: dist/LoreForever-<version>.zip with one top-level folder per add-on inside:
+#   LoreForever/                 the core: the files its .toc loads, Bindings.xml and the credits file
+#   LoreForever_Voice_Default/   the default narration voice pack: its .toc, the files that .toc loads, CREDITS.txt
+#                                and the recordings under Audio/ (WoW plays those by path, so they're never in a .toc)
+# Packs that ship in the main download are listed in PACKS below. Nothing else goes in, so pipeline code,
+# eval data and key helpers can never slip into the zip. Every folder gets the same checks: Interface 16001, no
+# missing files, notes for files left out, audio paths named in the code exist, and a secret scan. Shipped packs
+# must follow the core's version and declare themselves as Lore Forever voice or language packs; voice packs also
+# need their recordings and every clip their list names.
+# Usage: scripts/build-release.sh
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 exec python3 - "$ROOT" <<'PY'
@@ -11,44 +17,116 @@ from collections import defaultdict
 from pathlib import Path
 
 root = Path(sys.argv[1])
-src = root / "addon" / "LoreForever"
-toc = src / "LoreForever.toc"
+addons = root / "addon"
 dist = root / "dist"
+CORE = "LoreForever"
+PACKS = ["LoreForever_Voice_Default"]   # packs bundled with the core download, in zip order (voice or language)
 AUDIO = {".mp3", ".ogg"}
 MAX_ZIP = 2 * 1024**3   # CurseForge's per-file limit
 
 def fail(msg):
     sys.exit(f"build-release: {msg}")
 
-text = toc.read_text(encoding="utf-8")
-meta = dict(re.findall(r"^##\s*([\w-]+):\s*(.*?)\s*$", text, re.M))
-version = meta.get("Version") or fail("no ## Version in LoreForever.toc")
-if meta.get("Interface") != "16001":
-    fail(f"## Interface is {meta.get('Interface')!r}, expected 16001 (WoW Forever)")
+def read_toc(folder):
+    toc = addons / folder / f"{folder}.toc"
+    if not toc.is_file():
+        fail(f"missing {toc.relative_to(root)}")
+    text = toc.read_text(encoding="utf-8")
+    meta = dict(re.findall(r"^##\s*([\w-]+):\s*(.*?)\s*$", text, re.M))
+    if meta.get("Interface") != "16001":
+        fail(f"{toc.name}: ## Interface is {meta.get('Interface')!r}, expected 16001 (WoW Forever)")
+    # Files the client loads, in TOC order.
+    listed = [l.strip().replace("\\", "/") for l in text.splitlines() if l.strip() and not l.lstrip().startswith("#")]
+    return meta, listed
 
-# Files the client loads, in TOC order, plus the extras WoW picks up by name or path.
-listed = [l.strip().replace("\\", "/") for l in text.splitlines() if l.strip() and not l.lstrip().startswith("#")]
-files = [(src / "LoreForever.toc", "LoreForever.toc")]
-files += [(src / p, p) for p in listed]
-files += [(src / "Bindings.xml", "Bindings.xml"), (root / "release" / "CREDITS.txt", "CREDITS.txt")]
-files += [(p, p.relative_to(src).as_posix()) for p in sorted((src / "Audio").rglob("*")) if p.suffix.lower() in AUDIO]
-for path, _ in files:
-    if not path.is_file():
-        fail(f"missing {path.relative_to(root)}")
-text_files = [(p, a) for p, a in files if p.suffix.lower() not in AUDIO]
+# folder -> [(source path, path inside the folder)]
+ship = {}
 
-# Anything in the add-on folder that isn't shipped is probably a mistake worth seeing.
-shipped = {p.resolve() for p, _ in files}
-for p in src.rglob("*"):
-    if p.is_file() and p.resolve() not in shipped:
-        print(f"note: not shipped: {p.relative_to(root)}")
+meta, listed = read_toc(CORE)
+version = meta.get("Version") or fail(f"no ## Version in {CORE}.toc")
+src = addons / CORE
+ship[CORE] = [(src / f"{CORE}.toc", f"{CORE}.toc")] + [(src / p, p) for p in listed]
+ship[CORE] += [(src / "Bindings.xml", "Bindings.xml"), (root / "release" / "CREDITS.txt", "CREDITS.txt")]
 
-# Audio files the code names literally must be in the zip (names built at runtime can't be checked here).
-audio_names = {a.lower() for _, a in files if Path(a).suffix.lower() in AUDIO}
-for path, arc in text_files:
-    for ref in re.findall(r"Audio[\\/]+([\w\-. ]+\.(?:mp3|ogg))", path.read_text(encoding="utf-8", errors="replace"), re.I):
-        if "audio/" + ref.lower() not in audio_names:
-            fail(f"{arc} plays Audio/{ref}, which isn't in addon/LoreForever/Audio")
+VOICE_PACKS = []   # the bundled packs that carry recordings (X-LoreForever-Pack: voice); language packs have none
+for pack in PACKS:
+    pmeta, plisted = read_toc(pack)
+    if pmeta.get("Version") != version:
+        fail(f"{pack}.toc has ## Version {pmeta.get('Version')!r}; bundled packs follow the core ({version})")
+    if pmeta.get("Dependencies") != CORE:
+        fail(f"{pack}.toc needs '## Dependencies: {CORE}' (has {pmeta.get('Dependencies')!r})")
+    kind = pmeta.get("X-LoreForever-Pack")
+    if kind not in ("voice", "lang"):
+        fail(f"{pack}.toc needs '## X-LoreForever-Pack: voice' or 'lang' (has {kind!r})")
+    psrc = addons / pack
+    files = [(psrc / f"{pack}.toc", f"{pack}.toc")] + [(psrc / p, p) for p in plisted]
+    if kind == "voice":
+        VOICE_PACKS.append(pack)
+        files += [(psrc / "CREDITS.txt", "CREDITS.txt")]
+        audio = [(p, p.relative_to(psrc).as_posix()) for p in sorted((psrc / "Audio").rglob("*")) if p.suffix.lower() in AUDIO]
+        if not audio:
+            fail(f"{pack} has no recordings in Audio/")
+        files += audio
+    ship[pack] = files
+
+# Drop duplicates (a .toc could list CREDITS.txt too), then make sure everything exists.
+for folder, files in ship.items():
+    seen, unique = set(), []
+    for path, arc in files:
+        if arc.lower() not in seen:
+            seen.add(arc.lower()); unique.append((path, arc))
+    ship[folder] = unique
+    for path, _ in unique:
+        if not path.is_file():
+            fail(f"missing {path.relative_to(root)}")
+text_files = [(path, f"{folder}/{arc}", folder) for folder, files in ship.items()
+              for path, arc in files if path.suffix.lower() not in AUDIO]
+
+# Anything in an add-on folder that isn't shipped is probably a mistake worth seeing.
+for folder, files in ship.items():
+    shipped = {p.resolve() for p, _ in files}
+    for p in sorted((addons / folder).rglob("*")):
+        if p.is_file() and p.resolve() not in shipped:
+            print(f"note: not shipped: {p.relative_to(root)}")
+
+# Audio files the code names literally must be in the zip, in the folder that ships them. AddOns\<Folder>\Audio\x.mp3
+# must be in that add-on's Audio/; a bare Audio\x.mp3 in its own folder's, or, from a folder with no audio of its own
+# (the core, which plays pack files), in some bundled folder's. Names built at runtime aren't checked here (bundled
+# packs' clip lists are, below), nor are paths into add-ons outside this zip.
+audio_names = {folder: {a.lower() for _, a in files if Path(a).suffix.lower() in AUDIO} for folder, files in ship.items()}
+AUDIO_REF = re.compile(r"(?:AddOns[\\/]+([\w\-]+)[\\/]+)?Audio[\\/]+([\w\-. ]+\.(?:mp3|ogg))", re.I)
+for path, arc, folder in text_files:
+    for owner, ref in AUDIO_REF.findall(path.read_text(encoding="utf-8", errors="replace")):
+        if owner:
+            where = [f for f in ship if f.lower() == owner.lower()]
+            if not where:
+                continue
+        else:
+            where = [folder] if audio_names[folder] else list(ship)
+        if not any("audio/" + ref.lower() in audio_names[f] for f in where):
+            fail(f"{arc} names {owner + '/' if owner else ''}Audio/{ref}, which isn't in "
+                 + " or ".join(f"addon/{f}/Audio" for f in where))
+
+# A bundled pack's clip list (P.clips["zone:stormwind#faq3"] = "hash", or via a local alias of P.clips) names files
+# by derived path (Audio/zone_stormwind__faq3.mp3): every listed clip needs its recording, and recordings no clip
+# names are noted.
+CLIP = re.compile(r"""\[\s*["'](\w+:[\w\-]+(?:#faq\d+)?)["']\s*\]\s*=""")
+def stem(clip_id):
+    base, sep, n = clip_id.partition("#faq")
+    return re.sub(r"[^\w\-]", "_", base) + (f"__faq{n}" if sep else "")
+for pack in VOICE_PACKS:
+    have = {Path(a).stem.lower(): a for a in audio_names[pack] if a.startswith("audio/")}
+    named = set()
+    for path, arc, folder in text_files:
+        if folder != pack or path.suffix.lower() != ".lua":
+            continue
+        for cid in CLIP.findall(path.read_text(encoding="utf-8", errors="replace")):
+            s = stem(cid).lower()
+            if s not in have:
+                fail(f"{arc} lists clip {cid}, but {pack}/Audio has no {stem(cid)}.mp3 or .ogg")
+            named.add(s)
+    for s in sorted(set(have) - named):
+        print(f"note: {pack}/{have[s]} isn't in the pack's clip list, so it never plays")
 
 # Refuse to ship anything that looks like a credential or a pointer to one.
 # Key shapes are matched exactly and case-sensitively, as whole tokens: the generated search index is a long
@@ -56,7 +134,7 @@ for path, arc in text_files:
 KEY = re.compile(r"(?<![\w-])(?:AIza[\w-]{35}|sk-(?:ant|proj)-[\w-]{20,}|sk_[0-9a-f]{40,}|sk-[A-Za-z0-9]{40,})(?![\w-])")
 NAME = re.compile(r"op://|GEMINI_API_KEY|ANTHROPIC_API_KEY|OPENAI_API_KEY|ELEVENLABS_API_KEY|xi-api-key"
                   r"|-----BEGIN [A-Z ]*PRIVATE KEY", re.I)
-for path, arc in text_files:
+for path, arc, _ in text_files:
     body = path.read_text(encoding="utf-8", errors="replace")
     m = KEY.search(body) or NAME.search(body)
     if m:
@@ -65,21 +143,24 @@ for path, arc in text_files:
 dist.mkdir(exist_ok=True)
 out = dist / f"LoreForever-{version}.zip"
 with zipfile.ZipFile(out, "w") as z:
-    for path, arc in files:
-        info = zipfile.ZipInfo(f"LoreForever/{arc}", date_time=(2026, 1, 1, 0, 0, 0))  # stable bytes per version
-        # Audio is already compressed; deflating it again only costs time.
-        info.compress_type = zipfile.ZIP_STORED if path.suffix.lower() in AUDIO else zipfile.ZIP_DEFLATED
-        info.external_attr = 0o644 << 16
-        z.writestr(info, path.read_bytes(), compresslevel=9)
+    for folder, files in ship.items():
+        for path, arc in files:
+            info = zipfile.ZipInfo(f"{folder}/{arc}", date_time=(2026, 1, 1, 0, 0, 0))  # stable bytes per version
+            # Audio is already compressed; deflating it again only costs time.
+            info.compress_type = zipfile.ZIP_STORED if path.suffix.lower() in AUDIO else zipfile.ZIP_DEFLATED
+            info.external_attr = 0o644 << 16
+            z.writestr(info, path.read_bytes(), compresslevel=9)
 
+# Sizes per add-on folder and subfolder, e.g. "LoreForever/Data/", "LoreForever_Voice_Default/Audio/".
 groups = defaultdict(lambda: [0, 0, 0])
 with zipfile.ZipFile(out) as z:
     for i in z.infolist():
         parts = i.filename.split("/")
-        g = groups[parts[1] + "/" if len(parts) > 2 else "(top level)"]
+        g = groups[parts[0] + "/" + (parts[1] + "/" if len(parts) > 2 else "(top level)")]
         g[0] += 1; g[1] += i.file_size; g[2] += i.compress_size
+width = max(len(n) for n in groups)
 for name, (n, raw, packed) in sorted(groups.items()):
-    print(f"  {name:<14} {n:>4} files  {raw / 1024**2:7.1f} MB -> {packed / 1024**2:6.1f} MB in zip")
+    print(f"  {name:<{width}} {n:>4} files  {raw / 1024**2:7.1f} MB -> {packed / 1024**2:6.1f} MB in zip")
 size = out.stat().st_size
 if size > MAX_ZIP:
     fail(f"{out.name} is {size / 1024**3:.2f} GB; CurseForge takes at most 2 GB per file")

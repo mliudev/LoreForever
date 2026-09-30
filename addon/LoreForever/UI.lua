@@ -4,6 +4,7 @@
 local _, ns = ...
 local UI = {}
 ns.UI = UI
+local L = ns.L
 
 local GOLD, GREY, BLUE, WHITE, GREEN = "|cffffd100", "|cff9d9d9d", "|cff88ccff", "|cffffffff", "|cff7fdf7f"
 -- Score thresholds. Real lore questions score 15+ with the tuned engine (tests/retrieval_check.py); these only catch
@@ -146,14 +147,14 @@ function UI.Create(engine)
   local newChat = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
   newChat:SetSize(82, 22)
   newChat:SetPoint("TOPRIGHT", -14, -30)
-  newChat:SetText("New chat")
+  newChat:SetText(L["New chat"])
   newChat:SetScript("OnClick", function() UI.Clear() end)
   UI.newButton = newChat
 
   local history = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
   history:SetSize(70, 22)
   history:SetPoint("RIGHT", newChat, "LEFT", -6, 0)
-  history:SetText("History")
+  history:SetText(L["History"])
   history:SetScript("OnClick", function() UI.ToggleHistory() end)
   UI.historyButton = history
 
@@ -161,10 +162,10 @@ function UI.Create(engine)
   local zoneListen = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
   zoneListen:SetSize(170, 22)
   zoneListen:SetPoint("RIGHT", history, "LEFT", -6, 0)
-  zoneListen:SetText("Listen to this area")
+  zoneListen:SetText(L["Listen to this area"])
   zoneListen:SetScript("OnClick", function()
     local zt = UI.ZoneTarget()
-    if zt then UI.PlayEntry(zt.key, "Tell me the story of " .. UI.engine.db.entries[zt.key].n) end
+    if zt then UI.PlayEntry(zt.key, string.format(L["Tell me the story of %s"], UI.engine.db.entries[zt.key].n)) end
   end)
   UI.zoneListenButton = zoneListen
 
@@ -180,7 +181,7 @@ function UI.Create(engine)
 
   -- Sidebar tabs: "Here" (this place and your quests) and "Narrations" (every recorded story, grouped).
   UI.tabs = {}
-  for i, spec in ipairs({ { "here", "Here", 112 }, { "narrations", "Narrations", 118 } }) do
+  for i, spec in ipairs({ { "here", L["Here"], 112 }, { "narrations", L["Narrations"], 118 } }) do
     local tab = TextButton(f, spec[3], 22, "GameFontNormal", { 0.2, 0.16, 0.08, 0.6 })
     tab:SetPoint("TOPLEFT", i == 1 and 12 or 128, -64)
     tab.text:SetJustifyH("CENTER")
@@ -204,7 +205,7 @@ function UI.Create(engine)
   UI.narrView = narrView
   UI.CreateNarrations(narrView)
 
-  UI.hereHeader = Header(hereView, "Here")
+  UI.hereHeader = Header(hereView, L["Here"])
   UI.hereHeader:SetPoint("TOPLEFT", 16, -94)
   UI.hereHeader:SetWidth(SIDE_W - 20)
   if UI.hereHeader.SetWordWrap then UI.hereHeader:SetWordWrap(false) end
@@ -228,7 +229,7 @@ function UI.Create(engine)
     play:SetScript("OnClick", function(self) UI.PlayEntry(self.key, self.row.label) end)
     play:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-      GameTooltip:AddLine((UI.speaking and UI.playingId == self.key) and "Stop narration" or "Play narration")
+      GameTooltip:AddLine((UI.speaking and UI.playingId == self.key) and L["Stop narration"] or L["Play narration"])
       GameTooltip:Show()
     end)
     play:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -236,17 +237,19 @@ function UI.Create(engine)
     b.play = play
     b:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-      if self.primer then GameTooltip:AddLine("Dungeon primer: why you're here and who you'll face")
-      elseif self.idx then GameTooltip:AddLine("Ask this question")
-      else GameTooltip:AddLine("Open the full story") end
-      if self.play and self.play:IsShown() then GameTooltip:AddLine("Narrated: press the arrow to listen", 1, 1, 1) end
+      if self.primer then GameTooltip:AddLine(L["Dungeon primer: why you're here and who you'll face"])
+      elseif self.idx then GameTooltip:AddLine(L["Ask this question"])
+      else GameTooltip:AddLine(L["Open the full story"]) end
+      if self.play and self.play:IsShown() then
+        GameTooltip:AddLine(L["Narrated: press the arrow to listen"], 1, 1, 1)
+      end
       GameTooltip:Show()
     end)
     b:SetScript("OnLeave", function() GameTooltip:Hide() end)
     UI.suggestions[i] = b
   end
 
-  local questHeader = Header(hereView, "Your quests")
+  local questHeader = Header(hereView, L["Your quests"])
   questHeader:SetPoint("TOPLEFT", 16, -112 - 5 * 31 - 10)
   UI.questButtons = {}
   for i = 1, 8 do
@@ -258,8 +261,10 @@ function UI.Create(engine)
     end)
     b:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-      GameTooltip:AddLine(self.key and "The story behind this quest" or "No written lore yet")
-      if not self.key then GameTooltip:AddLine("Shows the quest's own text and the story of the area.", 1, 1, 1, true) end
+      GameTooltip:AddLine(self.key and L["The story behind this quest"] or L["No written lore yet"])
+      if not self.key then
+        GameTooltip:AddLine(L["Shows the quest's own text and the story of the area."], 1, 1, 1, true)
+      end
       GameTooltip:Show()
     end)
     b:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -272,8 +277,9 @@ function UI.Create(engine)
   hint:SetWidth(SIDE_W - 20)
   hint:SetJustifyH("LEFT")
   if hint.SetWordWrap then hint:SetWordWrap(false) end
-  hint:SetText(GOLD .. "Gold|r story  " .. WHITE .. "White|r question  " .. GREY .. "Grey|r quest text\n"
-    .. "Lore adapted from warcraft.wiki.gg (CC BY-SA)|r")
+  hint:SetText(string.format(L["%s story  %s question  %s quest text"], GOLD .. L["Gold"] .. "|r",
+    WHITE .. L["White"] .. "|r", GREY .. L["Grey"] .. "|r") .. "\n"
+    .. L["Lore adapted from warcraft.wiki.gg (CC BY-SA)"] .. "|r")
 
   -- Conversation
   local sfOk, sf = pcall(CreateFrame, "ScrollFrame", "LoreForeverScroll", f, "UIPanelScrollFrameTemplate")
@@ -307,7 +313,7 @@ function UI.Create(engine)
   local npStop = CreateFrame("Button", nil, np, "UIPanelButtonTemplate")
   npStop:SetSize(76, 22)
   npStop:SetPoint("RIGHT", -4, 0)
-  npStop:SetText("Stop")
+  npStop:SetText(L["Stop"])
   npStop:SetScript("OnClick", function() UI.StopAll() end)
   np.stop = npStop
   np:Hide()
@@ -317,7 +323,7 @@ function UI.Create(engine)
   -- Suggested replies under the conversation
   UI.nextLabel = f:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
   UI.nextLabel:SetPoint("BOTTOMLEFT", CHAT_X + 2, 110)
-  UI.nextLabel:SetText("Suggested:")
+  UI.nextLabel:SetText(L["Suggested:"])
   UI.nextButtons = {}
   for i = 1, N_NEXT do
     local b = TextButton(f, CHAT_W, 20, "GameFontHighlightSmall", { 0.25, 0.20, 0.10, 0.55 })
@@ -334,19 +340,19 @@ function UI.Create(engine)
   -- Optional feedback (on for playtests: /lore feedback)
   UI.feedbackLabel = f:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
   UI.feedbackLabel:SetPoint("BOTTOMRIGHT", -150, 112)
-  UI.feedbackLabel:SetText("Helpful?")
+  UI.feedbackLabel:SetText(L["Helpful?"])
   local yes = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
   yes:SetSize(48, 18)
   yes:SetPoint("LEFT", UI.feedbackLabel, "RIGHT", 6, 0)
-  yes:SetText("Yes")
+  yes:SetText(L["Yes"])
   local no = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
   no:SetSize(48, 18)
   no:SetPoint("LEFT", yes, "RIGHT", 4, 0)
-  no:SetText("No")
+  no:SetText(L["No"])
   local function feedback(helpful)
     if UI.lastLog then
       ns.Log.Feedback(UI.lastLog, helpful)
-      UI.feedbackLabel:SetText(helpful and (GREEN .. "Thanks!|r") or (GREY .. "Noted.|r"))
+      UI.feedbackLabel:SetText(helpful and (GREEN .. L["Thanks!"] .. "|r") or (GREY .. L["Noted."] .. "|r"))
     end
   end
   yes:SetScript("OnClick", function() feedback(true) end)
@@ -384,7 +390,7 @@ function UI.Create(engine)
   hintText:SetPoint("RIGHT", -4, 0)
   hintText:SetJustifyH("LEFT")
   if hintText.SetWordWrap then hintText:SetWordWrap(false) end
-  hintText:SetText("Ask anything about the world")
+  hintText:SetText(L["Ask anything about the world"])
   UI.inputHint = hintText
   local function updateHint(self)
     hintText:SetShown((self:GetText() or "") == "" and not (self.HasFocus and self:HasFocus()))
@@ -406,7 +412,7 @@ function UI.Create(engine)
   local send = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
   send:SetSize(56, 24)
   send:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -30, 16)
-  send:SetText("Send")
+  send:SetText(L["Send"])
   send:SetScript("OnClick", function() eb:GetScript("OnEnterPressed")(eb) end)
   UI.CreateCompletion(f, eb)
 
@@ -527,7 +533,7 @@ function UI.ZoneTarget()
   local ctx = (UI.frame and UI.frame:IsShown() and UI.ctx) or ns.Context.Snapshot()
   local db = UI.engine.db
   local zk = UI.engine:ZoneKey(ctx.zone)
-  local sub = ctx.subzone and db.index.name[ctx.subzone:lower()]
+  local sub = ctx.subzone and db.index.name[ns.Engine.lower(ctx.subzone)]
   -- The zone when it's narrated; otherwise the most specific place with lore.
   local key = (zk and ns.Voice.HasAudio("zone:" .. zk) and "zone:" .. zk)
     or (sub and db.entries[sub] and db.entries[sub].t == "subzone" and sub) or (zk and "zone:" .. zk)
@@ -591,7 +597,9 @@ function UI.UpdateNowPlaying()
   local bar, playing = UI.nowPlaying, UI.speaking
   if bar then
     bar:SetShown(playing)
-    if playing then bar.text:SetText(GREEN .. "Now playing:|r " .. WHITE .. esc(UI.playingLabel or "narration") .. "|r") end
+    if playing then
+      bar.text:SetText(GREEN .. L["Now playing:"] .. "|r " .. WHITE .. esc(UI.playingLabel or L["narration"]) .. "|r")
+    end
     UI.scroll:ClearAllPoints()
     UI.scroll:SetPoint("TOPLEFT", CHAT_X, playing and -92 or -64)
     UI.scroll:SetPoint("BOTTOMRIGHT", -34, 128)
@@ -611,13 +619,13 @@ function UI.UpdateListen()
     if b.frame:IsShown() and t and not b.isHero then
       local recorded = ns.Voice.HasAudio(t.key)
       local playing = UI.speaking and UI.playingId == t.id
-      b.listen:SetText(playing and "Stop" or (recorded and "Listen" or "Read aloud"))
+      b.listen:SetText(playing and L["Stop"] or (recorded and L["Listen"] or L["Read aloud"]))
       b.listen.recorded = recorded
       b.listen:SetShown(recorded or canTTS)
     end
     if b.isHero and b.action.target then
       local playing = UI.speaking and UI.playingId == b.action.target.id
-      b.action:SetText(playing and "Stop" or b.action.label)
+      b.action:SetText(playing and L["Stop"] or b.action.label)
     end
   end
   local z = UI.zoneListenButton
@@ -626,8 +634,8 @@ function UI.UpdateListen()
     z:SetShown(zt ~= nil and (canTTS or ns.Voice.HasAudio(zt.key)))
     if zt then
       local name = UI.engine.db.entries[zt.key].n
-      z:SetText((UI.speaking and UI.playingId == zt.id) and "Stop"
-        or ((ns.Voice.HasAudio(zt.key) and "Listen: " or "Read aloud: ") .. name))
+      z:SetText((UI.speaking and UI.playingId == zt.id) and L["Stop"]
+        or string.format(ns.Voice.HasAudio(zt.key) and L["Listen: %s"] or L["Read aloud: %s"], name))
       local tw = z.GetTextWidth and tonumber(z:GetTextWidth())
       z:SetWidth(math.max(90, math.min(230, (tw or 150) + 24)))
     end
@@ -716,17 +724,17 @@ local function bubbleAt(i)
     local listen = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
     listen:SetSize(84, 18)
     listen:SetPoint("BOTTOMRIGHT", -6, 6)
-    listen:SetText("Listen")
+    listen:SetText(L["Listen"])
     listen:SetScript("OnClick", function(self) UI.ListenTo(self.target) end)
     listen:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_TOP")
       if self.recorded then
-        GameTooltip:AddLine("Narrated")
-        GameTooltip:AddLine("A recorded narration of this answer.", 1, 1, 1, true)
+        GameTooltip:AddLine(L["Narrated"])
+        GameTooltip:AddLine(L["A recorded narration of this answer."], 1, 1, 1, true)
       else
-        GameTooltip:AddLine("Read aloud")
-        GameTooltip:AddLine("Uses your game's text-to-speech voice. Change it in Options > Accessibility > "
-          .. "Text to Speech.", 1, 1, 1, true)
+        GameTooltip:AddLine(L["Read aloud"])
+        GameTooltip:AddLine(L["Uses your game's text-to-speech voice. Change it in Options > Accessibility > Text to Speech."],
+          1, 1, 1, true)
       end
       GameTooltip:Show()
     end)
@@ -854,7 +862,7 @@ function UI.AddMessage(role, text, target, actionLabel)
     -- Read the body, not the heading line (the title or question is already on screen).
     local heading = text:match("^([^\n]*)\n")
     target = { id = "msg" .. time() .. "-" .. msgSeq, text = text:match("^[^\n]*\n(.+)$") or text,
-      label = heading and ns.Voice.Plain(heading):gsub("%s*%(narrated%)", "") or nil }
+      label = heading and ns.Voice.Plain(heading):gsub("%s*" .. L["(narrated)"]:gsub("%p", "%%%0"), "") or nil }
   end
   finishTyping()
   local animate = role == "lore" and settings().typing ~= false
@@ -874,7 +882,7 @@ end
 
 -- items: { {key, idx?, label?, q?, name?, via?} }
 function UI.SetNext(items, label)
-  UI.nextLabel:SetText(label or "Suggested:")
+  UI.nextLabel:SetText(label or L["Suggested:"])
   UI.nextLabel:SetShown(#items > 0)
   for i, b in ipairs(UI.nextButtons) do
     local it = items[i]
@@ -895,7 +903,7 @@ function UI.SetFeedbackVisible(show)
   show = show and settings().feedback
   UI.feedbackLabel:SetShown(show)
   for _, b in ipairs(UI.feedbackButtons) do b:SetShown(show) end
-  if show then UI.feedbackLabel:SetText("Helpful?") end
+  if show then UI.feedbackLabel:SetText(L["Helpful?"]) end
 end
 
 function UI.Toggle()
@@ -919,7 +927,7 @@ function UI.Refresh()
   UI.contextLine:SetText(esc(ns.Context.Describe(ctx)):gsub("||c", "|c"):gsub("||r", "|r"))
 
   local here, placeName = UI.HereItems(ctx)
-  UI.hereHeader:SetText("Here: " .. esc(placeName or "?"))
+  UI.hereHeader:SetText(string.format(L["Here: %s"], esc(placeName or "?")))
   for i, b in ipairs(UI.suggestions) do
     local s = here[i]
     if s then
@@ -937,7 +945,7 @@ function UI.Refresh()
 
   local db, n = UI.engine.db, 0
   for _, q in ipairs(ctx.quests or {}) do
-    local key = db.index.quest[q.id] or (q.title and db.index.questTitle and db.index.questTitle[q.title:lower()])
+    local key = db.index.quest[q.id] or (q.title and db.index.questTitle and db.index.questTitle[ns.Engine.lower(q.title)])
     n = n + 1
     local b = UI.questButtons[n]
     if not b then break end
@@ -967,23 +975,27 @@ function UI.ShowWelcome(ctx, placeName, here)
   end
   local name = target and UI.engine.db.entries[target.key].n
   local recorded = target and ns.Voice.HasAudio(target.key)
-  local text = GOLD .. "Welcome to Lore Forever|r\n" .. WHITE .. "The story behind the places, people and quests "
-    .. "around you, told by narrators and ready for your questions.|r"
+  local text = GOLD .. L["Welcome to Lore Forever"] .. "|r\n" .. WHITE
+    .. L["The story behind the places, people and quests around you, told by narrators and ready for your questions."] .. "|r"
   if target and (recorded or ns.Voice.Available()) then
-    local label = yours and ("Hear your people's story: " .. name) or ("Hear the story of " .. name)
+    local label = yours and string.format(L["Hear your people's story: %s"], name)
+      or string.format(L["Hear the story of %s"], name)
     UI.AddMessage("hero", text, target, label)
   else
     UI.AddMessage("hero", text)
   end
-  UI.AddMessage("note", GREY .. "Or ask anything about " .. esc(placeName or "where you are") .. " below. Try one of these:|r")
+  local try = placeName and string.format(L["Or ask anything about %s below. Try one of these:"], esc(placeName))
+    or L["Or ask anything about where you are below. Try one of these:"]
+  UI.AddMessage("note", GREY .. try .. "|r")
   local items = {}
   for _, s in ipairs(here or {}) do
     if s.idx then items[#items + 1] = { key = s.key, idx = s.idx, q = s.label } end
     if #items >= N_NEXT then break end
   end
-  UI.SetNext(items, "Try asking:")
+  UI.SetNext(items, L["Try asking:"])
   if UI.inputHint then
-    UI.inputHint:SetText(items[1] and ("Ask anything, e.g. " .. esc(items[1].q)) or "Ask anything about the world")
+    UI.inputHint:SetText(items[1] and string.format(L["Ask anything, e.g. %s"], esc(items[1].q))
+      or L["Ask anything about the world"])
   end
 end
 
@@ -1000,20 +1012,21 @@ function UI.HereItems(ctx)
   if ctx.targetName then
     local tkey, how = eng:KeyForName(ctx.targetName)
     if tkey then
-      add({ key = tkey, label = how == "mob" and ("About the " .. db.entries[tkey].n) or ("Who is " .. ctx.targetName .. "?") })
+      add({ key = tkey, label = how == "mob" and string.format(L["About the %s"], db.entries[tkey].n)
+        or string.format(L["Who is %s?"], ctx.targetName) })
     end
   end
   local zk = eng:ZoneKey(ctx.zone)
   local z = zk and db.zones and db.zones[zk]
   local zkey = zk and db.entries["zone:" .. zk] and "zone:" .. zk
-  local sub = ctx.subzone and ctx.subzone ~= ctx.zone and db.index.name[ctx.subzone:lower()]
+  local sub = ctx.subzone and ctx.subzone ~= ctx.zone and db.index.name[ns.Engine.lower(ctx.subzone)]
   if sub and not (db.entries[sub] and db.entries[sub].t ~= "quest") then sub = nil end
   if z and z.t == "dungeon" and zkey then
-    add({ primer = zk, label = "Dungeon primer: " .. z.n, gold = true })
+    add({ primer = zk, label = string.format(L["Dungeon primer: %s"], z.n), gold = true })
   end
-  if sub then add({ key = sub, label = "The story of " .. db.entries[sub].n, gold = true }) end
+  if sub then add({ key = sub, label = string.format(L["The story of %s"], db.entries[sub].n), gold = true }) end
   if zkey and not (z and z.t == "dungeon") then
-    add({ key = zkey, label = "The story of " .. db.entries[zkey].n, gold = true })
+    add({ key = zkey, label = string.format(L["The story of %s"], db.entries[zkey].n), gold = true })
   end
   for round = 1, 3 do
     for _, k in ipairs({ sub or false, zkey or false }) do
@@ -1061,12 +1074,27 @@ function UI.CreateNarrations(view)
   note:SetWidth(SIDE_W - 20)
   note:SetJustifyH("LEFT")
   if note.SetWordWrap then note:SetWordWrap(false) end
-  note:SetText("Click to listen. +N: narrated questions.")
+  note:SetText(L["Click to listen. +N: narrated questions."])
+  local empty = content:CreateFontString(nil, "OVERLAY", "GameFontDisable")
+  empty:SetPoint("TOPLEFT", 4, -8)
+  empty:SetWidth(SIDE_W - 50)
+  empty:SetJustifyH("LEFT")
+  empty:SetText(L["No recorded narrations with this voice. Pick a voice in Options (/lore options)."])
+  empty:Hide()
+  UI.narrEmpty = empty
+end
+
+-- The narration voice changed (Options or /lore voice): relabel Listen buttons and the lists that depend on it.
+-- Chat already posted keeps its "(narrated)" tags; new answers follow the new voice.
+function UI.OnVoiceChanged()
+  if not UI.frame then return end
+  UI.UpdateListen()
+  UI.Refresh()
 end
 
 -- Group headers and rows: { header = "..."} or { key = "...", label = "..." }
 function UI.NarrationItems(ctx)
-  local db, audio, used, out = UI.engine.db, ns.DB.audio or {}, {}, {}
+  local db, audio, used, out = UI.engine.db, ns.Voice.Clips(), {}, {}
   local faqs = {}
   for k in pairs(audio) do
     local base = k:match("^(.-)#faq%d+$")
@@ -1089,8 +1117,8 @@ function UI.NarrationItems(ctx)
     end
   end
   local who = (ctx.raceName or ctx.race or "") .. (ctx.className and (" " .. ctx.className) or "")
-  group("For you" .. (who ~= "" and (" (" .. who .. ")") or ""), RACE_HOME[ctx.race or ""] or {})
-  group("Starting zones", STARTING)
+  group(who ~= "" and string.format(L["For you (%s)"], who) or L["For you"], RACE_HOME[ctx.race or ""] or {})
+  group(L["Starting zones"], STARTING)
   local caps, zones, dungeons, other = {}, {}, {}, {}
   for k in pairs(audio) do
     if not k:find("#") and db.entries[k] then
@@ -1101,10 +1129,10 @@ function UI.NarrationItems(ctx)
   end
   local byName = function(a, b) return db.entries[a].n < db.entries[b].n end
   for _, l in ipairs({ caps, zones, dungeons, other }) do table.sort(l, byName) end
-  group("Capitals", caps)
-  group("The road ahead", zones)
-  group("Dungeons", dungeons)
-  group("More stories", other)
+  group(L["Capitals"], caps)
+  group(L["The road ahead"], zones)
+  group(L["Dungeons"], dungeons)
+  group(L["More stories"], other)
   return out
 end
 
@@ -1119,7 +1147,7 @@ end
 
 -- Rows: group headers, stories (click to play; "+N" expands their narrated questions), and the questions themselves.
 local function narrationRows()
-  local audio, rows = ns.DB.audio or {}, {}
+  local audio, rows = ns.Voice.Clips(), {}
   for _, it in ipairs(UI.NarrationItems(UI.ctx or ns.Context.Snapshot())) do
     rows[#rows + 1] = it
     if it.key and it.faqs and UI.narrOpen[it.key] then
@@ -1150,13 +1178,13 @@ function UI.RefreshNarrations()
         if not self.full then return end
         GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
         GameTooltip:AddLine(self.full, 1, 1, 1, true)
-        GameTooltip:AddLine(self.idx and "Click to hear the answer" or "Click to hear the story", 0.6, 0.6, 0.6)
+        GameTooltip:AddLine(self.idx and L["Click to hear the answer"] or L["Click to hear the story"], 0.6, 0.6, 0.6)
         GameTooltip:Show()
       end)
       row:SetScript("OnLeave", function() GameTooltip:Hide() end)
       row:SetScript("OnClick", function(self)
         if self.idx then UI.PlayFaq(self.key, self.idx)
-        elseif self.key then UI.PlayEntry(self.key, "Tell me the story of " .. self.name) end
+        elseif self.key then UI.PlayEntry(self.key, string.format(L["Tell me the story of %s"], self.name)) end
       end)
       -- "+N" / "hide": opens or closes the story's narrated questions.
       local more = TextButton(row, 44, ROW_H - 2, "GameFontNormalSmall", { 0.25, 0.20, 0.10, 0.7 })
@@ -1168,7 +1196,7 @@ function UI.RefreshNarrations()
       end)
       more:SetScript("OnEnter", function(self)
         GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-        GameTooltip:AddLine(UI.narrOpen[self.key] and "Hide narrated questions" or "Show narrated questions")
+        GameTooltip:AddLine(UI.narrOpen[self.key] and L["Hide narrated questions"] or L["Show narrated questions"])
         GameTooltip:Show()
       end)
       more:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -1200,9 +1228,9 @@ function UI.RefreshNarrations()
       row.text:SetPoint("TOPLEFT", 22 + indent, -2)
       row.text:SetPoint("BOTTOMRIGHT", it.faqs and -50 or -4, 2)
       local color = playing and GREEN or (it.child and "|cffd8d8d8" or WHITE)
-      row.text:SetText(color .. esc(it.label) .. "|r" .. (playing and (GREY .. "  playing|r") or ""))
+      row.text:SetText(color .. esc(it.label) .. "|r" .. (playing and (GREY .. "  " .. L["playing"] .. "|r") or ""))
       if it.faqs then
-        row.more.text:SetText(UI.narrOpen[it.key] and "hide" or ("+" .. it.faqs))
+        row.more.text:SetText(UI.narrOpen[it.key] and L["hide"] or ("+" .. it.faqs))
         row.more:Show()
       end
       y = y + ROW_H
@@ -1210,6 +1238,7 @@ function UI.RefreshNarrations()
     row:Show()
   end
   for i = #items + 1, #UI.narrRows do UI.narrRows[i]:Hide() end
+  if UI.narrEmpty then UI.narrEmpty:SetShown(#items == 0) end
   content:SetHeight(math.max(y, 10))
 end
 
@@ -1272,16 +1301,16 @@ function UI.CreateHistory(f)
   local bg = h:CreateTexture(nil, "BACKGROUND")
   bg:SetAllPoints()
   bg:SetColorTexture(0.03, 0.03, 0.05, 0.97)
-  local title = Header(h, "Past chats")
+  local title = Header(h, L["Past chats"])
   title:SetPoint("TOPLEFT", 10, -8)
   local close = CreateFrame("Button", nil, h, "UIPanelButtonTemplate")
   close:SetSize(70, 20)
   close:SetPoint("TOPRIGHT", -8, -6)
-  close:SetText("Back")
+  close:SetText(L["Back"])
   close:SetScript("OnClick", function() h:Hide() end)
   h.empty = h:CreateFontString(nil, "OVERLAY", "GameFontDisable")
   h.empty:SetPoint("TOPLEFT", 10, -36)
-  h.empty:SetText("No past chats yet. A chat is saved here when you start a new one.")
+  h.empty:SetText(L["No past chats yet. A chat is saved here when you start a new one."])
   h.rows = {}
   for i = 1, HISTORY_ROWS do
     local b = TextButton(h, CHAT_W, 24, "GameFontHighlightSmall", { 0.2, 0.16, 0.08, 0.5 })
@@ -1295,9 +1324,9 @@ end
 
 local function ago(t)
   local d = time() - (t or 0)
-  if d < 3600 then return math.max(1, math.floor(d / 60)) .. "m ago" end
-  if d < 86400 then return math.floor(d / 3600) .. "h ago" end
-  return math.floor(d / 86400) .. "d ago"
+  if d < 3600 then return string.format(L["%dm ago"], math.max(1, math.floor(d / 60))) end
+  if d < 86400 then return string.format(L["%dh ago"], math.floor(d / 3600)) end
+  return string.format(L["%dd ago"], math.floor(d / 86400))
 end
 
 function UI.ToggleHistory()
@@ -1358,13 +1387,13 @@ end
 -- Answers ----------------------------------------------------------------------------------------------------------
 
 -- heading and text are plain and get escaped; tag is already-formatted (e.g. the grey "(narrated)") and must not be.
-local NARRATED_TAG = "  " .. GREY .. "(narrated)|r"
+local function narratedTag() return "  " .. GREY .. L["(narrated)"] .. "|r" end
 local function loreText(heading, text, angle, tag)
   local out = heading and (GOLD .. esc(heading) .. "|r" .. (tag or "") .. "\n") or ""
   out = out .. WHITE .. esc(text) .. "|r"
   if angle then
     local who = angle.target:match(":(.+)$") or angle.target
-    out = out .. "\n" .. BLUE .. "For you as a " .. esc(who) .. ": " .. esc(angle.text) .. "|r"
+    out = out .. "\n" .. BLUE .. string.format(L["For you as a %s: %s"], esc(who), esc(angle.text)) .. "|r"
   end
   return out
 end
@@ -1385,15 +1414,15 @@ function UI.SpoilerGate(key, kind, idx)
   local item = e and ((kind == "faq" and e.faq and e.faq[idx]) or (kind == "section" and e.sec and e.sec[idx]))
   local level = item and ((kind == "faq" and item.sp) or (kind == "section" and item.sp ~= 0 and item.sp))
   if not level then return false end
-  UI.AddMessage("note", GREY .. "Spoiler ahead: this answer reveals part of " .. esc(e.n) .. "'s story that you "
-    .. "may not have reached yet.|r")
+  UI.AddMessage("note", GREY
+    .. string.format(L["Spoiler ahead: this answer reveals part of %s's story that you may not have reached yet."], esc(e.n)) .. "|r")
   local items = { { key = key, idx = idx, via = "reveal", section = kind == "section" or nil,
-    label = "Reveal it anyway (spoiler)" } }
+    label = L["Reveal it anyway (spoiler)"] } }
   for _, s in ipairs(followUps(key, nil)) do
     if #items >= N_NEXT then break end
     items[#items + 1] = s
   end
-  UI.SetNext(items, "Your call:")
+  UI.SetNext(items, L["Your call:"])
   return true
 end
 
@@ -1415,17 +1444,18 @@ function UI.Ask(question, via)
     -- gated: SpoilerGate posted the warning and a Reveal chip
   elseif top and top.score >= MIN_SCORE then
     local heading = top.kind == "faq" and (top.title .. "  -  " .. top.name) or top.name
-    local note = isGameplay(question) and (GREY .. "I only know the story side, not mechanics or drops. Here's the "
-      .. "lore of " .. esc(top.name) .. ":|r\n") or ""
+    local note = isGameplay(question) and (GREY
+      .. string.format(L["I only know the story side, not mechanics or drops. Here's the lore of %s:"], esc(top.name)) .. "|r\n")
+      or ""
     local target = top.kind == "faq" and UI.FaqTarget(top.key, top.idx)
       or { id = "ans" .. time() .. "-" .. UI.turn, text = top.text, label = top.name }   -- the answer, not the heading
-    local tag = (target and ns.Voice.HasAudio(target.key)) and NARRATED_TAG or nil
+    local tag = (target and ns.Voice.HasAudio(target.key)) and narratedTag() or nil
     UI.AddMessage("lore", note .. loreText(heading, top.text, top.angle, tag), target)
     UI.SetNext(followUps(top.key, top.kind == "faq" and top.idx or nil))
   elseif top and top.score >= GUESS_SCORE then
     -- Not sure enough to answer: offer the closest pre-written questions instead of a wrong answer.
     UI.engine.lastKey = nil
-    UI.AddMessage("note", GREY .. "I'm not sure I have that. Did you mean one of these?|r")
+    UI.AddMessage("note", GREY .. L["I'm not sure I have that. Did you mean one of these?"] .. "|r")
     local items = {}
     for _, r in ipairs(results) do
       local e = UI.engine.db.entries[r.key]
@@ -1433,14 +1463,14 @@ function UI.Ask(question, via)
       if e.faq and e.faq[fi] then items[#items + 1] = { key = r.key, idx = fi, q = e.faq[fi].q, name = e.n } end
       if #items >= N_NEXT then break end
     end
-    UI.SetNext(items, "Did you mean:")
+    UI.SetNext(items, L["Did you mean:"])
   else
     UI.engine.lastKey = nil
-    UI.AddMessage("note", GREY .. "I don't have lore on that yet. Try a place, person or quest nearby, or pick "
-      .. "something on the left.|r")
+    UI.AddMessage("note", GREY
+      .. L["I don't have lore on that yet. Try a place, person or quest nearby, or pick something on the left."] .. "|r")
     local items = {}
     for _, s in ipairs(UI.engine:Suggest(ctx, N_NEXT)) do items[#items + 1] = s end
-    UI.SetNext(items, "Try:")
+    UI.SetNext(items, L["Try:"])
   end
   UI.lastLog = ns.Log.Question(question, ctx, results, via, UI.turn)
   UI.SetFeedbackVisible(true)
@@ -1454,7 +1484,7 @@ function UI.ShowFaq(key, idx, via)
   if via ~= "reveal" then UI.AddMessage("user", WHITE .. esc(f.q) .. "|r") end
   if via ~= "reveal" and UI.SpoilerGate(key, "faq", idx) then return end
   local target = UI.FaqTarget(key, idx)
-  UI.AddMessage("lore", loreText(e.n, f.a, nil, ns.Voice.HasAudio(target.key) and NARRATED_TAG or nil), target)
+  UI.AddMessage("lore", loreText(e.n, f.a, nil, ns.Voice.HasAudio(target.key) and narratedTag() or nil), target)
   UI.SetNext(followUps(key, idx))
   UI.lastLog = ns.Log.Question(f.q, UI.ctx or ns.Context.Snapshot(), { { key = key, kind = "faq", idx = idx, title = f.q } }, via)
   UI.SetFeedbackVisible(true)
@@ -1471,11 +1501,11 @@ function UI.ShowEntry(key, via, asked)
     if (sec.sp or 0) == 0 then
       parts[#parts + 1] = GOLD .. esc(sec.t) .. "|r\n" .. WHITE .. esc(sec.b) .. "|r"
     else
-      parts[#parts + 1] = GREY .. esc(sec.t) .. "  (spoiler - use Reveal below)|r"
+      parts[#parts + 1] = GREY .. esc(sec.t) .. "  " .. L["(spoiler - use Reveal below)"] .. "|r"
     end
   end
   if asked then UI.AddMessage("user", WHITE .. esc(asked) .. "|r") end
-  local narrated = ns.Voice.HasAudio(key) and ("  " .. GREY .. "(narrated)|r") or ""
+  local narrated = ns.Voice.HasAudio(key) and narratedTag() or ""
   local text = GOLD .. esc(e.n) .. "|r" .. narrated .. "\n" .. table.concat(parts, "\n\n")
   UI.AddMessage("lore", text, UI.EntryTarget(key))
   UI.SetNext(followUps(key, nil))
@@ -1499,26 +1529,26 @@ function UI.ShowPrimer(zk, via)
     if qe and qe.z == zk then mine[#mine + 1] = "- " .. esc(qe.n) .. ": " .. esc(qe.h or qe.s) end
   end
   if #mine > 0 then
-    parts[#parts + 1] = GOLD .. "Why you're here|r\n" .. WHITE .. table.concat(mine, "\n") .. "|r"
+    parts[#parts + 1] = GOLD .. L["Why you're here"] .. "|r\n" .. WHITE .. table.concat(mine, "\n") .. "|r"
   end
   local who = {}
   for i, bk in ipairs(z.b or {}) do
     local be = db.entries[bk]
     if be then who[#who + 1] = i .. ". " .. GOLD .. esc(be.n) .. "|r " .. WHITE .. esc(be.h or be.s) .. "|r" end
   end
-  if #who > 0 then parts[#parts + 1] = GOLD .. "Who you'll face|r\n" .. table.concat(who, "\n") end
-  UI.AddMessage("user", WHITE .. "Dungeon primer: " .. esc(z.n) .. "|r")
-  local narrated = ns.Voice.HasAudio("zone:" .. zk) and ("  " .. GREY .. "(narrated)|r") or ""
+  if #who > 0 then parts[#parts + 1] = GOLD .. L["Who you'll face"] .. "|r\n" .. table.concat(who, "\n") end
+  UI.AddMessage("user", WHITE .. string.format(L["Dungeon primer: %s"], esc(z.n)) .. "|r")
+  local narrated = ns.Voice.HasAudio("zone:" .. zk) and narratedTag() or ""
   UI.AddMessage("lore", GOLD .. esc(z.n) .. (z.lv and (" (" .. z.lv .. ")") or "") .. "|r" .. narrated .. "\n"
     .. table.concat(parts, "\n\n"), UI.EntryTarget("zone:" .. zk))
   local items = {}
   -- What beating the final boss means for the story, kept behind a click since it's a spoiler.
   local last = z.b and db.entries[z.b[#z.b]]
-  local lastName = last and last.n:lower():gsub("%s*%b()", "")
+  local lastName = last and ns.Engine.lower(last.n):gsub("%s*%b()", "")
   for i, fq in ipairs(e.faq or {}) do
-    local q = fq.q:lower()
+    local q = ns.Engine.lower(fq.q)
     if (lastName and q:find(lastName, 1, true)) or q:find("final boss") or q:find("defeat") then
-      items[1] = { key = "zone:" .. zk, idx = i, label = "Spoiler: " .. fq.q, via = "reveal" }
+      items[1] = { key = "zone:" .. zk, idx = i, label = string.format(L["Spoiler: %s"], fq.q), via = "reveal" }
       break
     end
   end
@@ -1561,12 +1591,17 @@ function UI.ShowQuestText(q)
   local ze = zk and UI.engine.db.entries["zone:" .. zk]
   local parts = {}
   if desc and desc ~= "" then parts[#parts + 1] = WHITE .. esc(desc) .. "|r" end
-  if obj and obj ~= "" then parts[#parts + 1] = GOLD .. "Objectives|r\n" .. WHITE .. esc(obj) .. "|r" end
-  if ze then parts[#parts + 1] = GOLD .. "Where this happens: " .. esc(ze.n) .. "|r\n" .. WHITE .. esc(ze.h or ze.s) .. "|r" end
-  if #parts == 0 then parts[1] = GREY .. "Open this quest in your quest log once so its text can be read.|r" end
+  if obj and obj ~= "" then parts[#parts + 1] = GOLD .. L["Objectives"] .. "|r\n" .. WHITE .. esc(obj) .. "|r" end
+  if ze then
+    parts[#parts + 1] = GOLD .. string.format(L["Where this happens: %s"], esc(ze.n)) .. "|r\n" .. WHITE
+      .. esc(ze.h or ze.s) .. "|r"
+  end
+  if #parts == 0 then
+    parts[1] = GREY .. L["Open this quest in your quest log once so its text can be read."] .. "|r"
+  end
   UI.AddMessage("user", WHITE .. esc(q.title) .. "|r")
-  UI.AddMessage("lore", GOLD .. esc(q.title) .. "|r  " .. GREY .. "(no written lore yet - the quest's own words)|r\n"
-    .. table.concat(parts, "\n\n"))
+  UI.AddMessage("lore", GOLD .. esc(q.title) .. "|r  " .. GREY .. L["(no written lore yet - the quest's own words)"]
+    .. "|r\n" .. table.concat(parts, "\n\n"))
   local items = {}
   if ze then
     for i = 1, 3 do

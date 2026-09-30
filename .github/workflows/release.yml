@@ -1,7 +1,8 @@
-# Builds the download zip and the Windows installer, then publishes them as a GitHub release.
-# Runs when a version tag is pushed (git tag v0.3.0 && git push origin v0.3.0). The tag must match
+# Builds the download zip and the Windows installer, publishes them as a GitHub release with that version's notes
+# from CHANGELOG.md, and uploads the zip to CurseForge.
+# Runs when a version tag is pushed; the maintainer's scripts/release.sh does that. The tag must match
 # "## Version" in addon/LoreForever/LoreForever.toc. Run it by hand (Actions > Release > Run workflow) to
-# rebuild the assets of an existing tag.
+# rebuild the assets of an existing tag; that only uploads to CurseForge if you tick the box.
 name: Release
 
 on:
@@ -12,6 +13,10 @@ on:
       tag:
         description: "Existing tag to rebuild, e.g. v0.2.0"
         required: true
+      curseforge:
+        description: "Also upload the zip to CurseForge as a new file"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -46,8 +51,9 @@ jobs:
   installer:
     needs: zip
     runs-on: windows-latest
-    # Signing logs in to Azure with OIDC. The federated credential trusts this environment
-    # (subject repo:mliudev/LoreForever:environment:release), so only jobs in it can sign.
+    # Signing logs in to Azure with OIDC. The federated credential trusts this environment, so only jobs in it can
+    # sign. GitHub sends the subject with immutable IDs:
+    # repo:mliudev@11674155/LoreForever@1391558111:environment:release (not repo:mliudev/LoreForever:...).
     environment: release
     permissions:
       id-token: write
@@ -105,9 +111,12 @@ jobs:
           $wow = "$env:RUNNER_TEMP\wow"
           New-Item -ItemType Directory "$wow\_classic_beta_" | Out-Null
           Start-Process dist\LoreForever-Setup.exe -ArgumentList "/VERYSILENT", "/SUPPRESSMSGBOXES", "/DIR=$wow" -Wait
-          $toc = "$wow\_classic_beta_\Interface\AddOns\LoreForever\LoreForever.toc"
-          if (-not (Test-Path $toc)) { Write-Error "installer didn't place $toc"; exit 1 }
-          "installed $((Get-ChildItem "$wow\_classic_beta_\Interface\AddOns\LoreForever" -Recurse -File).Count) files"
+          # Every add-on folder in the zip must land next to the others.
+          foreach ($folder in Get-ChildItem dist\stage -Directory) {
+            $toc = "$wow\_classic_beta_\Interface\AddOns\$($folder.Name)\$($folder.Name).toc"
+            if (-not (Test-Path $toc)) { Write-Error "installer didn't place $toc"; exit 1 }
+            "installed $($folder.Name): $((Get-ChildItem (Split-Path $toc) -Recurse -File).Count) files"
+          }
       - uses: actions/upload-artifact@v4
         with:
           name: installer
@@ -117,6 +126,9 @@ jobs:
     needs: [zip, installer]
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TAG }}
       - uses: actions/download-artifact@v4
         with:
           path: dist
@@ -125,11 +137,67 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
+          VERSION: ${{ needs.zip.outputs.version }}
         run: |
+          # Tags from before CHANGELOG.md existed fall back to GitHub's generated notes.
+          if [ -f CHANGELOG.md ] && python3 scripts/changelog.py notes "$VERSION" > notes.md; then
+            notes=(--notes-file notes.md)
+          else
+            notes=(--generate-notes)
+          fi
           cd dist && sha256sum LoreForever.zip LoreForever-Setup.exe | tee SHA256SUMS.txt
           if gh release view "$TAG" >/dev/null 2>&1; then
             gh release upload "$TAG" LoreForever.zip LoreForever-Setup.exe SHA256SUMS.txt --clobber
           else
             gh release create "$TAG" LoreForever.zip LoreForever-Setup.exe SHA256SUMS.txt \
-              --title "Lore Forever ${{ needs.zip.outputs.version }}" --generate-notes --latest
+              --title "Lore Forever $VERSION" "${notes[@]}" --latest
           fi
+
+  # CurseForge is the main download channel. Needs the repo secret CF_API_TOKEN (CurseForge > Account > API tokens);
+  # without it this job skips with a warning. The project ID and game version come from the .toc
+  # (## X-Curse-Project-ID, and ## Interface 16001 -> Forever 1.60.1), so nothing else is configured here.
+  curseforge:
+    needs: [zip, release]
+    if: github.event_name == 'push' || inputs.curseforge
+    runs-on: ubuntu-latest
+    env:
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      VERSION: ${{ needs.zip.outputs.version }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TAG }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: zip
+          path: dist
+      - name: Upload to CurseForge
+        run: |
+          if [ -z "$CF_API_TOKEN" ]; then
+            echo "::warning::CF_API_TOKEN isn't set, so the zip wasn't uploaded to CurseForge. Upload it by hand."
+            exit 0
+          fi
+          toc=addon/LoreForever/LoreForever.toc
+          project=$(sed -n 's/^## X-Curse-Project-ID: *//p' "$toc" | tr -d '\r')
+          iface=$(sed -n 's/^## Interface: *//p' "$toc" | tr -d '\r')
+          game="$((10#${iface:0:-4})).$((10#${iface: -4:2})).$((10#${iface: -2:2}))"
+          # 88568 is CurseForge's "Forever" game version type.
+          versions=$(curl -sSf --retry 3 -H "X-Api-Token: $CF_API_TOKEN" https://wow.curseforge.com/api/game/wow/versions)
+          id=$(jq -r --arg v "$game" 'map(select(.gameVersionTypeID == 88568 and .name == $v)) | .[0].id // empty' <<<"$versions")
+          if [ -z "$id" ]; then
+            newest=$(jq -c 'map(select(.gameVersionTypeID == 88568)) | max_by(.id) // empty' <<<"$versions")
+            [ -n "$newest" ] || { echo "::error::CurseForge lists no Forever game versions"; exit 1; }
+            id=$(jq -r .id <<<"$newest")
+            echo "::warning::CurseForge has no Forever version $game; tagging the newest one, $(jq -r .name <<<"$newest")"
+          fi
+          python3 scripts/changelog.py notes "$VERSION" > notes.md
+          jq -n --rawfile log notes.md --arg name "Lore Forever $VERSION" --argjson id "$id" \
+            '{displayName: $name, gameVersions: [$id], releaseType: "release", changelog: $log, changelogType: "markdown"}' \
+            > metadata.json
+          code=$(curl -sS --retry 3 --retry-delay 10 -o result.json -w '%{http_code}' \
+            -H "X-Api-Token: $CF_API_TOKEN" -F "metadata=<metadata.json" -F "file=@dist/LoreForever.zip" \
+            "https://wow.curseforge.com/api/projects/$project/upload-file")
+          cat result.json; echo
+          [ "$code" = 200 ] || { echo "::error::CurseForge upload failed (HTTP $code)"; exit 1; }
+          echo "Uploaded Lore Forever $VERSION to CurseForge project $project (file $(jq -r .id result.json)); it goes live after moderation." \
+            >> "$GITHUB_STEP_SUMMARY"

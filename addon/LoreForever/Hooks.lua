@@ -5,9 +5,10 @@
 local _, ns = ...
 local Hooks = {}
 ns.Hooks = Hooks
+local L = ns.L
 
 local GOLD, GREY = "|cffffd100", "|cff9d9d9d"
-local LORE_TAG = "|cffd4a017Lore:|r "
+local function loreTag() return "|cffd4a017" .. L["Lore:"] .. "|r " end
 local LINK = "addon:LoreForever:"
 
 local function S() return (LoreForeverDB and LoreForeverDB.settings) or {} end
@@ -85,10 +86,10 @@ end
 
 -- The active quest whose objectives mention this item, for quest items the data doesn't link.
 local function questNeeding(name)
-  local lname = name:lower()
+  local lname = ns.Engine.lower(name)
   for id, q in pairs(Hooks.activeQuests) do
     for _, o in ipairs(q.objectives or {}) do
-      if o:lower():find(lname, 1, true) then return id, q.title end
+      if ns.Engine.lower(o):find(lname, 1, true) then return id, q.title end
     end
   end
   return nil
@@ -101,12 +102,13 @@ local function bagLines(name, itemID, out)
   if bi.questID and not bi.isActive then
     -- The game already says the item begins a quest; name it, but don't tell its story before you've read it.
     local title = questTitle(bi.questID)
-    out[#out + 1] = { text = "Starts a quest" .. (title and (": " .. title) or ""), r = 0.85, g = 0.85, b = 0.85 }
+    out[#out + 1] = { text = title and string.format(L["Starts a quest: %s"], title) or L["Starts a quest"],
+      r = 0.85, g = 0.85, b = 0.85 }
   elseif bi.questID or bi.isQuestItem then
     local id, title = bi.questID, nil
     if id then title = questTitle(id) else id, title = questNeeding(name) end
     if title then
-      out[#out + 1] = { text = "Needed for your quest: " .. title, r = 0.5, g = 0.9, b = 0.5 }
+      out[#out + 1] = { text = string.format(L["Needed for your quest: %s"], title), r = 0.5, g = 0.9, b = 0.5 }
     end
   end
 end
@@ -115,12 +117,12 @@ function Hooks.ItemLines(name, itemID)
   local out = {}
   if not name then return out end
   bagLines(name, itemID, out)
-  local rec = ns.DB.index.item and ns.DB.index.item[name:lower()]
+  local rec = ns.DB.index.item and ns.DB.index.item[ns.Engine.lower(name)]
   if rec and #out == 0 then
     for _, id in ipairs(rec.p or {}) do
       if Hooks.activeQuests[id] then
         local e = questEntry(id)
-        out[#out + 1] = { text = "Carry this for your quest: " .. e.n, r = 0.5, g = 0.9, b = 0.5 }
+        out[#out + 1] = { text = string.format(L["Carry this for your quest: %s"], e.n), r = 0.5, g = 0.9, b = 0.5 }
         break
       end
     end
@@ -129,7 +131,7 @@ function Hooks.ItemLines(name, itemID)
     for _, id in ipairs(rec.r or {}) do
       if Hooks.activeQuests[id] then
         local e = questEntry(id)
-        out[#out + 1] = { text = "Needed for your quest: " .. e.n, r = 0.5, g = 0.9, b = 0.5 }
+        out[#out + 1] = { text = string.format(L["Needed for your quest: %s"], e.n), r = 0.5, g = 0.9, b = 0.5 }
         break
       end
     end
@@ -139,7 +141,7 @@ function Hooks.ItemLines(name, itemID)
       for _, id in ipairs(rec.w) do
         local e = questEntry(id)
         if e and questDone(id) then
-          out[#out + 1] = { text = LORE_TAG .. "earned from " .. e.n .. ".", r = 0.8, g = 0.8, b = 0.8 }
+          out[#out + 1] = { text = loreTag() .. string.format(L["earned from %s."], e.n), r = 0.8, g = 0.8, b = 0.8 }
           break
         end
       end
@@ -149,7 +151,7 @@ function Hooks.ItemLines(name, itemID)
     local ok, _, _, _, _, _, classID, subclassID = pcall(C_Item.GetItemInfoInstant, itemID)
     local prof = ok and classID == 7 and REAGENT_FOR[subclassID]
     if prof and Hooks.professions[prof] then
-      out[#out + 1] = { text = "Useful for your " .. prof, r = 0.6, g = 0.85, b = 0.6 }
+      out[#out + 1] = { text = string.format(L["Useful for your %s"], prof), r = 0.6, g = 0.85, b = 0.6 }
     end
   end
   while #out > 2 do table.remove(out) end
@@ -164,16 +166,15 @@ function Hooks.UnitLine(name)
   if not e then return nil end
   local text = e.h or e.s
   if how == "mob" then text = e.n .. ": " .. text end
-  return LORE_TAG .. text, key
+  return loreTag() .. text, key
 end
 
 local function bindHint(tooltip)
   local k = GetBindingKey and GetBindingKey("LOREFOREVER_TOGGLE")
   local n = GetBindingKey and GetBindingKey("LOREFOREVER_NARRATE")
-  local parts = {}
-  if k then parts[#parts + 1] = k .. " for more" end
-  if n then parts[#parts + 1] = n .. " to listen" end
-  if #parts > 0 then tooltip:AddLine("Press " .. table.concat(parts, ", "), 0.5, 0.5, 0.5) end
+  local line = (k and n and string.format(L["Press %s for more, %s to listen"], k, n))
+    or (k and string.format(L["Press %s for more"], k)) or (n and string.format(L["Press %s to listen"], n))
+  if line then tooltip:AddLine(line, 0.5, 0.5, 0.5) end
 end
 
 local function onUnitTooltip(tooltip)
@@ -224,19 +225,19 @@ end
 
 local function questKeyFor(id, title)
   local idx = ns.DB.index
-  return (id and idx.quest[id]) or (title and idx.questTitle[title:lower()])
+  return (id and idx.quest[id]) or (title and idx.questTitle[ns.Engine.lower(title)])
 end
 
 local function loreButton(parent, name, anchor)
   local b = CreateFrame("Button", name, parent, "UIPanelButtonTemplate")
   b:SetSize(60, 20)
-  b:SetText("Lore")
+  b:SetText(L["Lore"])
   b:SetPoint(unpack(anchor))
   b:SetFrameLevel((parent:GetFrameLevel() or 1) + 5)
   b:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     GameTooltip:AddLine("Lore Forever")
-    GameTooltip:AddLine("The story behind this quest.", 1, 1, 1)
+    GameTooltip:AddLine(L["The story behind this quest."], 1, 1, 1)
     GameTooltip:Show()
   end)
   b:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -328,11 +329,22 @@ local MODIFIER = { LSHIFT = true, RSHIFT = true, LCTRL = true, RCTRL = true, LAL
   LMETA = true, RMETA = true }
 
 -- The two bindable actions: open the panel, and play the narration for what you hover or where you are.
+-- Their texts are looked up when shown, after the language pack has loaded.
 local ACTIONS = {
-  toggle = { binding = "LOREFOREVER_TOGGLE", what = "open the lore panel from anywhere, like M for the map",
-             done = "to open the lore panel", cmd = "/lore key" },
-  narrate = { binding = "LOREFOREVER_NARRATE", what = "play the narration for where you are, or for what you're "
-              .. "hovering", done = "to hear the narration for where you are or what you hover", cmd = "/lore key narrate" },
+  toggle = {
+    binding = "LOREFOREVER_TOGGLE",
+    ask = function() return L["Pick a key to open the lore panel from anywhere, like M for the map."] end,
+    done = function(key)
+      return string.format(L["press %s to open the lore panel. Change it any time with /lore key."], key)
+    end,
+  },
+  narrate = {
+    binding = "LOREFOREVER_NARRATE",
+    ask = function() return L["Pick a key to play the narration for where you are, or for what you're hovering."] end,
+    done = function(key)
+      return string.format(L["press %s to hear the narration for where you are or what you hover. Change it any time with /lore key narrate."], key)
+    end,
+  },
 }
 
 function Hooks.CurrentKey(which)
@@ -342,14 +354,14 @@ end
 local function bind(combo, which)
   local a = ACTIONS[which]
   if InCombatLockdown and InCombatLockdown() then
-    say("can't change key bindings in combat - try again after the fight.")
+    say(L["can't change key bindings in combat - try again after the fight."])
     return false
   end
   local old = Hooks.CurrentKey(which)
   if old and old ~= combo then SetBinding(old) end
   SetBinding(combo, a.binding)
   if SaveBindings and GetCurrentBindingSet then SaveBindings(GetCurrentBindingSet()) end
-  say("press " .. GOLD .. combo .. "|r " .. a.done .. ". Change it any time with " .. a.cmd .. ".")
+  say(a.done(GOLD .. combo .. "|r"))
   return true
 end
 
@@ -379,11 +391,11 @@ function Hooks.KeyPrompt(which)
   local choose = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
   choose:SetSize(120, 22)
   choose:SetPoint("BOTTOMLEFT", 18, 16)
-  choose:SetText("Choose a key")
+  choose:SetText(L["Choose a key"])
   local later = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
   later:SetSize(90, 22)
   later:SetPoint("BOTTOMRIGHT", -18, 16)
-  later:SetText("Not now")
+  later:SetText(L["Not now"])
   f.choose, f.later = choose, later
 
   local function idle()
@@ -391,20 +403,21 @@ function Hooks.KeyPrompt(which)
     if f.EnableKeyboard then f:EnableKeyboard(false) end
     choose:Show()
     local cur = Hooks.CurrentKey(f.which)
-    text:SetText(GOLD .. "Lore Forever|r\nPick a key to " .. ACTIONS[f.which].what .. "."
-      .. (cur and ("\nCurrently: " .. GOLD .. cur .. "|r") or ""))
+    text:SetText(GOLD .. "Lore Forever|r\n" .. ACTIONS[f.which].ask()
+      .. (cur and ("\n" .. string.format(L["Currently: %s"], GOLD .. cur .. "|r")) or ""))
   end
   f.idle = idle
   choose:SetScript("OnClick", function()
     if InCombatLockdown and InCombatLockdown() then
-      text:SetText(GOLD .. "Lore Forever|r\nYou're in combat - choose a key once the fight is over.")
+      text:SetText(GOLD .. "Lore Forever|r\n" .. L["You're in combat - choose a key once the fight is over."])
       return
     end
     f.capturing = true
     choose:Hide()
     if f.EnableKeyboard then f:EnableKeyboard(true) end
     if f.SetPropagateKeyboardInput then f:SetPropagateKeyboardInput(false) end
-    text:SetText(GOLD .. "Press a key|r (with Shift/Ctrl/Alt if you like).\nEscape to cancel.")
+    text:SetText(string.format(L["%sPress a key|r (with Shift/Ctrl/Alt if you like)."], GOLD) .. "\n"
+      .. L["Escape to cancel."])
   end)
   later:SetScript("OnClick", function()
     S().onboarded = true
@@ -419,8 +432,8 @@ function Hooks.KeyPrompt(which)
     if action ~= "" and action ~= ACTIONS[self.which].binding and self.pending ~= combo then
       self.pending = combo
       local what = _G["BINDING_NAME_" .. action] or action
-      text:SetText(GOLD .. combo .. "|r is already used for " .. esc(what)
-        .. ".\nPress it again to use it anyway, or press a different key.")
+      text:SetText(string.format(L["%s is already used for %s."], GOLD .. combo .. "|r", esc(what)) .. "\n"
+        .. L["Press it again to use it anyway, or press a different key."])
       return
     end
     if bind(combo, self.which) then
