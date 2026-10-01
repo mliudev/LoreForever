@@ -1,0 +1,98 @@
+{
+ "key": "item:bottle-of-disease",
+ "type": "item",
+ "name": "Bottle of Disease",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Bottle of Disease",
+  "quests": [
+   "quest:1011"
+  ]
+ },
+ "summary": "A Bottle of Disease is a vial of virulent concoctions brewed by the Forsaken operating in Ashenvale. Found at an encampment near the Dor'Danil Barrow Den, these vials represent an ominous attempt by the undead to introduce blighted plagues into the pristine night elven wilderness.",
+ "sections": [
+  {
+   "title": "Blight in the Sacred Woods",
+   "body": "Deep within the ancient canopy of eastern Ashenvale, the Forsaken have crept far past the front lines of the Warsong Outriders. Establishing an outpost near the Dor'Danil Barrow Den, undead alchemists brew foul contagions and seal them within glass bottles. To the night elves guarding Forest Song, these vials are clear evidence of a quiet, insidious offensive aimed at sickening the woodland soil and wildlife rather than engaging in open combat.",
+   "spoiler": 0
+  },
+  {
+   "title": "Kayneth Stillwind's Investigation",
+   "body": "Kayneth Stillwind, a night elf sentry stationed at Forest Song, seeks proof of the Forsaken's sinister ambitions. Recovering a Bottle of Disease allows Stillwind to analyze its contents directly. The night elves fear that these concoctions are not merely weapons of war against armed sentinels, but calculated reagents designed to corrupt sacred barrows and break the minds and bodies of the forest's defenders.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Bottle of Disease?",
+   "aliases": [
+    "what is in the bottle",
+    "bottle of disease contents",
+    "forsaken potion"
+   ],
+   "answer": "The bottle contains synthetic poisons and magical contagions brewed by Forsaken apothecaries. These foul mixtures are designed to corrupt living flesh and soil, reflecting the Royal Apothecary Society's broader experiments with virulent blights."
+  },
+  {
+   "q": "Where are these bottles found?",
+   "aliases": [
+    "where to find bottle of disease",
+    "bottle of disease location",
+    "forsaken camp ashenvale"
+   ],
+   "answer": "They are located in an isolated Forsaken encampment situated south of Forest Song, just near the entrance of the Dor'Danil Barrow Den in eastern Ashenvale."
+  },
+  {
+   "q": "Who wants the Bottle of Disease?",
+   "aliases": [
+    "who takes bottle of disease",
+    "turn in bottle of disease",
+    "kayneth stillwind quest"
+   ],
+   "answer": "Kayneth Stillwind, a night elf protector stationed at the outpost of Forest Song, tasks Alliance adventurers with retrieving a bottle so he can test its contents and divine the Horde's true intentions."
+  },
+  {
+   "q": "Why are the Forsaken brewing diseases in Ashenvale?",
+   "aliases": [
+    "why forsaken in ashenvale",
+    "undead goal in ashenvale",
+    "forsaken barrow dens"
+   ],
+   "answer": "The night elves suspect the Forsaken intend to quietly infect the sacred forest and desecrate the nearby barrow dens, poisoning the natural ecosystem and undermining night elven resistance from within."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The desecration of Ashenvale's soil by undead contagion is an unforgivable affront to the Kaldorei, particularly when concocted on the doorstep of the Dor'Danil Barrow Den."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Blighted mixtures and artificial plagues represent the antithesis of natural balance, demanding swift intervention from any druid sworn to preserve the woodland."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "blight",
+  "bottle of disease",
+  "dor'danil barrow den",
+  "forest song",
+  "forsaken",
+  "forsaken diseases",
+  "kayneth stillwind"
+ ],
+ "related": [
+  "quest:1011",
+  "quest:1012",
+  "subzone:forest-song",
+  "subzone:dor-danil-barrow-den",
+  "zone:ashenvale",
+  "topic:forsaken",
+  "topic:horde",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Bottle of Disease",
+  "Forsaken Diseases"
+ ]
+}

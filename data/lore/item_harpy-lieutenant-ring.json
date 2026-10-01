@@ -1,0 +1,90 @@
+{
+ "key": "item:harpy-lieutenant-ring",
+ "type": "item",
+ "name": "Harpy Lieutenant Ring",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Harpy Lieutenant Ring",
+  "quests": [
+   "quest:875"
+  ]
+ },
+ "summary": "Harpy Lieutenant Rings are crude ornaments worn by the Witchwing Slayers in the Dry Hills of the northern Barrens. Carried as emblems of command among the flock, they serve as proof of death for Darsok Swiftdagger at the Crossroads.",
+ "sections": [
+  {
+   "title": "Tokens of Rank",
+   "body": "Within the matriarchal hierarchy of the Witchwing harpies, rank is ruthlessly maintained. While the rank-and-file raiders harrying the Barrens fight with little coordination, the Witchwing Slayers serve as field lieutenants directing assaults against Horde travelers. To distinguish themselves and assert authority over their underlings, these veteran slayers carry distinctive rings. For Darsok Swiftdagger and the defenders stationed at the Crossroads, severing these rings from fallen harpies is the only sure way to confirm that the flock's middle leadership has been broken.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who carries these rings?",
+   "aliases": [
+    "who drops harpy lieutenant ring",
+    "witchwing slayer rings",
+    "which harpies have rings"
+   ],
+   "answer": "The rings are carried specifically by Witchwing Slayers, the seasoned harpies that act as lieutenants among the Witchwing flock in the Dry Hills."
+  },
+  {
+   "q": "Where can Witchwing Slayers be found?",
+   "aliases": [
+    "witchwing slayer location",
+    "where are harpy lieutenants",
+    "dry hills harpies"
+   ],
+   "answer": "Witchwing Slayers roost in the Dry Hills, a craggy, elevated region situated in the far northern reaches of the Barrens, just northwest of the Crossroads."
+  },
+  {
+   "q": "Why does Darsok Swiftdagger want them?",
+   "aliases": [
+    "why collect harpy rings",
+    "darsok swiftdagger rings"
+   ],
+   "answer": "Darsok wants to shatter the harpies' command structure. Eliminating the lieutenants throws their raiding parties into chaos, punishing the flock for preying on Horde caravans and travelers throughout the Barrens."
+  },
+  {
+   "q": "Do regular harpy raiders carry these rings?",
+   "aliases": [
+    "can raiders drop rings",
+    "do witchwing raiders have rings"
+   ],
+   "answer": "No. Ordinary raiders are low-ranking underlings. The rings signify command and are only worn by the Witchwing Slayers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Witchwing harpies constantly harass supply lines between Durotar, Mulgore, and the northern outposts; breaking their leadership secures safe passage for Horde caravans across the Barrens."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Darsok Swiftdagger favors surgical strikes against high-value targets, valuing assassins who can slip into harpy roosts to eliminate commanders directly."
+  }
+ ],
+ "keywords": [
+  "crossroads",
+  "darsok swiftdagger",
+  "dry hills",
+  "harpy lieutenant ring",
+  "the barrens",
+  "witchwing",
+  "witchwing slayer"
+ ],
+ "related": [
+  "quest:875",
+  "npc:darsok-swiftdagger",
+  "subzone:dry-hills",
+  "quest:867",
+  "quest:876",
+  "subzone:crossroads",
+  "zone:barrens",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Harpy Lieutenant Ring",
+  "Harpy Lieutenants (Classic)"
+ ]
+}

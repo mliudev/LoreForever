@@ -497,9 +497,14 @@ function Voice.OnTaxiCheck()
   if ns.UI and ns.UI.speaking and ns.UI.playingId == key then narrated[zk] = true return end
   narrated[zk] = true
   local first = e.sec and e.sec[1]
-  -- Through the panel's player, so the Now playing bar and Stop buttons show it too.
-  if ns.UI and ns.UI.ListenTo and ns.UI.EntryTarget then
-    ns.UI.ListenTo(ns.UI.EntryTarget(key))
+  local UI = ns.UI
+  if UI and UI.PlaylistAddFlight and UI.CanQueue(key) then
+    -- Recorded zone stories go through the playlist, so crossing zones quickly queues them one after another
+    -- instead of cutting off the one playing.
+    UI.PlaylistAddFlight(key)
+  elseif UI and UI.ListenTo and UI.EntryTarget then
+    -- Read aloud (no recording): only when nothing else is playing, never over it.
+    if not UI.IsBusy() then UI.ListenTo(UI.EntryTarget(key)) end
   else
     Voice.Narrate(key, e.n .. ". " .. e.s .. ((first and (first.sp or 0) == 0) and (" " .. first.b) or ""))
   end

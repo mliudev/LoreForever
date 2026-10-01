@@ -1,0 +1,82 @@
+{
+ "key": "item:battleboar-snout",
+ "type": "item",
+ "name": "Battleboar Snout",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Battleboar Snout",
+  "quests": [
+   "quest:780"
+  ]
+ },
+ "summary": "Battleboar Snouts are harvested from the aggressive boars trained by the Bristleback quilboar in Mulgore. Collected by young tauren hunters, they serve both as proof of thinning an invasive threat and as hearty ingredients for tribal cooking in Camp Narache.",
+ "sections": [
+  {
+   "title": "Trophies and Provisions",
+   "body": "In the shadow of Red Cloud Mesa, the Bristleback quilboar train malicious battleboars within Brambleblade Ravine to probe tauren hunting grounds. When young braves are sent out by Grull Hawkwind to push back against this encroachment, the snout serves as undeniable proof of a beast brought down. Rather than wasting any part of the kill, the tauren use these snouts alongside cuts of flank to prepare rich, sustaining stews to feed their young.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Battleboar Snouts used for?",
+   "aliases": [
+    "battleboar snout use",
+    "why keep snouts",
+    "what does grull do with snouts"
+   ],
+   "answer": "Grull Hawkwind asks young hunters in Camp Narache to collect them along with meat flanks. They serve as proof that the threatening boars have been slain, and they are thrown into cooking pots to make stew for the tribe's youth."
+  },
+  {
+   "q": "Where do these snouts come from?",
+   "aliases": [
+    "where to find battleboars",
+    "who drops snouts",
+    "battleboar location"
+   ],
+   "answer": "They are carved from Battleboars and Bristleback Battleboars found near the fringes of Red Cloud Mesa and throughout Brambleblade Ravine to the east."
+  },
+  {
+   "q": "Why are the battleboars encroaching on tauren land?",
+   "aliases": [
+    "why are boars attacking",
+    "quilboar boars",
+    "brambleblade battleboars"
+   ],
+   "answer": "The battleboars have been trained by the hostile Bristleback quilboar to be exceptionally vicious, pushing outward from Brambleblade Ravine into traditional tribal hunting grounds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Taking the snout alongside the meat honors the Earthmother's balance, ensuring an encroaching predator is curbed while providing sustenance for the young in Camp Narache."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Tough cuts like snouts require slow boiling over a fire, making them staple ingredients in tribal campfire stews."
+  }
+ ],
+ "keywords": [
+  "battleboar",
+  "battleboar snout",
+  "brambleblade ravine",
+  "bristleback",
+  "camp narache",
+  "grull hawkwind",
+  "red cloud mesa"
+ ],
+ "related": [
+  "quest:780",
+  "item:battleboar-flank",
+  "npc:grull-hawkwind",
+  "subzone:camp-narache",
+  "subzone:brambleblade-ravine",
+  "topic:quilboar",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Battleboar Snout",
+  "The Battleboars"
+ ]
+}

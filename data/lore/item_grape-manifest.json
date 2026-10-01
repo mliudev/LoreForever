@@ -1,0 +1,92 @@
+{
+ "key": "item:grape-manifest",
+ "type": "item",
+ "name": "Grape Manifest",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Grape Manifest",
+  "quests": [
+   "quest:3905"
+  ]
+ },
+ "summary": "The Grape Manifest is a handwritten ledger tracking the harvest from Milly Osworth's vineyard in Northshire Valley. It documents the recovery of fresh fruit after local brigands overran the fields, destined for the cellars of Northshire Abbey.",
+ "sections": [
+  {
+   "title": "A Record of the Harvest",
+   "body": "Northshire Abbey has long sustained itself on regional agriculture, including the lush vineyards tended by local farmers like Milly Osworth. When Defias bandits moved into the valley and seized the harvest, the abbey's stock of fresh fruit and fermentables was thrown into jeopardy. The Grape Manifest serves as official confirmation that the crates have been reclaimed from the fields. It details the quantity of saved grapes so the abbey's quartermasters can balance their stores and prepare barrels for fermentation.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Abbey's Cellarer",
+   "body": "Brother Neals oversees Northshire's food and drink, maintaining a particular fondness for testing the abbey's vintage in the high quiet of the bell tower. For him, receiving the manifest is not merely administrative paperwork; it ensures that the monks and visiting recruits will not go thirsty. To the devout brothers of the abbey, every saved bushel is celebrated as both a logistical victory and a quiet blessing from the Holy Light.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Grape Manifest?",
+   "aliases": [
+    "what is grape manifest",
+    "grape manifest item"
+   ],
+   "answer": "It is an inventory document written by Milly Osworth recording the harvest recovered from her overrun vineyard. It tracks the volume of fresh grapes being delivered to Northshire Abbey."
+  },
+  {
+   "q": "Who receives the manifest?",
+   "aliases": [
+    "who gets grape manifest",
+    "who do i give grape manifest to",
+    "where does grape manifest go"
+   ],
+   "answer": "Brother Neals receives it. He oversees the abbey's stores of food and wine and can usually be found sampling vintages up in Northshire Abbey's bell tower."
+  },
+  {
+   "q": "Why were the grapes in danger?",
+   "aliases": [
+    "why did grapes need saving",
+    "vineyard brigands",
+    "what happened to milly harvest"
+   ],
+   "answer": "Defias brigands descended upon Northshire Valley and drove Milly Osworth from her vineyard, threatening the harvest and cutting off the abbey's supply of fresh fruit until recruits intervened."
+  },
+  {
+   "q": "What does Brother Neals do with the grapes?",
+   "aliases": [
+    "what is grape used for",
+    "abbey wine"
+   ],
+   "answer": "Brother Neals uses them to replenish the abbey's food reserves and ferment fresh Northshire wine, which supplies both the resident brotherhood and visiting defenders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "For cooks, the manifest represents the delicate balance between field yields and abbey larders, showing how local ingredients sustain an entire monastic community."
+  },
+  {
+   "target": "race:Human",
+   "text": "The document highlights the early struggles of Stormwind's heartland, where even monastic life and simple harvests require armed defense against roaming outlaws."
+  }
+ ],
+ "keywords": [
+  "brother neals",
+  "elwynn",
+  "grape manifest",
+  "milly osworth",
+  "northshire abbey",
+  "vineyard",
+  "wine"
+ ],
+ "related": [
+  "quest:3905",
+  "npc:brother-neals",
+  "subzone:northshire-abbey",
+  "zone:elwynn",
+  "topic:light"
+ ],
+ "attribution": [
+  "Grape Manifest",
+  "Grape Manifest (quest)"
+ ]
+}

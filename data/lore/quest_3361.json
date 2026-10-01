@@ -1,0 +1,123 @@
+{
+ "key": "quest:3361",
+ "type": "quest",
+ "name": "A Refugee's Quandary",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   3361
+  ],
+  "level": "3",
+  "faction": "Alliance",
+  "start": "Felix Whindlebolt",
+  "end": "",
+  "previous": "",
+  "next": "",
+  "wiki": "A Refugee's Quandary (Classic)",
+  "chain": []
+ },
+ "summary": "Following the disastrous fall of Gnomeregan to troggs and radiation, displaced gnomes have fled into the snowy wilds of Dun Morogh. Outside Anvilmar, an engineer named Felix Whindlebolt lost his vital belongings and tools to Frostmane troll scavengers during the panicked evacuation.",
+ "sections": [
+  {
+   "title": "The Flight from Gnomeregan",
+   "body": "When subterranean troggs overran the high-tech city of Gnomeregan, High Tinker Gelbin Mekkatorque and his advisors authorized the release of radioactive gas in a desperate bid to eradicate the invaders. The gambit backfired catastrophically, slaying thousands of innocents, mutating survivors into mindless leper gnomes, and forcing the remaining populace into a frantic exodus across Dun Morogh.",
+   "spoiler": 0
+  },
+  {
+   "title": "Scavengers in the Snow",
+   "body": "Fleeing engineers and tinkerers carried whatever prized tools and blueprints they could save. However, the icy mountain passes between Gnomeregan and Coldridge Valley are prowled by indigenous Frostmane trolls. As Felix Whindlebolt scrambled toward the sanctuary of Anvilmar, Frostmane raiders snatched his tool chest, lockbox, and bucket of bolts, carting them off to their camps southwest of town.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Felix Whindlebolt?",
+   "aliases": [
+    "felix whindlebolt",
+    "who is felix",
+    "felix anvilmar"
+   ],
+   "answer": "Felix Whindlebolt is a gnome engineer who narrowly escaped the radioactive destruction of Gnomeregan. Lacking the martial skill to fight off the dangers of Dun Morogh, he shelters near Anvilmar while attempting to recover his stolen equipment."
+  },
+  {
+   "q": "Why is Gnomeregan irradiated?",
+   "aliases": [
+    "what happened to gnomeregan",
+    "gnomeregan radiation",
+    "fall of gnomeregan"
+   ],
+   "answer": "During an unexpected trogg invasion, gnome authorities unleashed volatile radioactive gas intended to wipe out the monsters. The gas contaminated the city's ventilation systems instead, slaughtering or mutating most residents and rendering the capital uninhabitable."
+  },
+  {
+   "q": "Who stole Felix's belongings?",
+   "aliases": [
+    "who stole the bolts",
+    "who has felix's stuff",
+    "frostmane trolls"
+   ],
+   "answer": "Frostmane trolls took his chest, box, and bucket of bolts. These native trolls ambush travelers along the mountain trails of Dun Morogh and haul stolen scrap and gear back to their crude encampments southwest of Anvilmar."
+  },
+  {
+   "q": "Where did the displaced gnomes seek refuge?",
+   "aliases": [
+    "where are gnomes living",
+    "gnome refugees",
+    "gnome settlement"
+   ],
+   "answer": "Many gnomes fled across Dun Morogh to the dwarven kingdom of Ironforge, while others sought temporary shelter in smaller settlements like Anvilmar and Kharanos throughout Dun Morogh."
+  },
+  {
+   "q": "Why does a bucket of bolts matter so much?",
+   "aliases": [
+    "why bolts",
+    "felix bucket of bolts"
+   ],
+   "answer": "For an exiled gnome tinkerer, tools, specialized screws, and machined bolts represent their entire livelihood. Without proper equipment, refugee engineers have no way to ply their trade, fashion defenses, or rebuild their lives in exile."
+  },
+  {
+   "q": "What threat do the Frostmane trolls pose to Coldridge Valley?",
+   "aliases": [
+    "trolls in dun morogh",
+    "frostmane threat",
+    "frostmane camp"
+   ],
+   "answer": "The Frostmane tribe has long inhabited the harsh peaks of Dun Morogh. With the recent trogg outbreaks and the chaos of the Gnomeregan evacuation, the trolls have grown bolder, raiding supply lines and ambushing travelers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "This quest encapsulates the bitter tragedy facing your people: having lost your wondrous home to poison and betrayal, everyday tinkerers must now beg strangers to pry basic tools from crude trolls."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The Coldridge mountains have sheltered your kin for centuries; helping gnome refugees secure their footing in Anvilmar honors the ancient alliance between Ironforge and Gnomeregan."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "No self-respecting craftsman can stand by while scavengers make off with precision bolts, calipers, and toolboxes that took a lifetime to assemble."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "bucket of bolts",
+  "coldridge",
+  "felix whindlebolt",
+  "frostmane",
+  "gnomeregan",
+  "radiation"
+ ],
+ "related": [
+  "npc:felix-whindlebolt",
+  "zone:gnomeregan",
+  "subzone:anvilmar",
+  "zone:dunmorogh",
+  "topic:gnome",
+  "topic:troll",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "A Refugee's Quandary (Classic)"
+ ]
+}

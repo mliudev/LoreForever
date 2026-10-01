@@ -1,0 +1,83 @@
+{
+ "key": "item:rare-earth",
+ "type": "item",
+ "name": "Rare Earth",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Rare Earth",
+  "quests": [
+   "quest:997"
+  ]
+ },
+ "summary": "Rare Earth is a specialized package of mineral-rich soil procured from Darnassus for botanic experiments on Teldrassil. It is sent via courier from Dolanaar to the herbalist researcher Denalan at his lakeside camp near Lake Al'Ameth.",
+ "sections": [
+  {
+   "title": "Soil of Darnassus",
+   "body": "Teldrassil's newly grown ecosystem requires careful observation and nurturing, prompting herbalists across the island to study how various plants respond to foreign or enriched soils. This particular parcel of rare earth was requisitioned directly from Darnassus by Denalan, an eccentric botanist stationed along the eastern shore of Lake Al'Ameth. After languishing in transit and turning up late in Dolanaar, herbalist Syral Bladeleaf entrusts travelers passing south to deliver the perishable soil to Denalan before its potency fades.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Rare Earth used for?",
+   "aliases": [
+    "rare earth use",
+    "what does denalan do with rare earth",
+    "rare earth purpose"
+   ],
+   "answer": "The rare earth is intended for Denalan, an herbalist and botanic researcher camping on the shores of Lake Al'Ameth. He uses specialized mineral compounds and enriched soils imported from Darnassus to cultivate and experiment on native Teldrassil flora."
+  },
+  {
+   "q": "Who sends the Rare Earth to Denalan?",
+   "aliases": [
+    "who gives rare earth",
+    "where do you get rare earth",
+    "syral bladeleaf parcel"
+   ],
+   "answer": "Syral Bladeleaf, an herbalist based in the town of Dolanaar, holds the package. It arrived late from Darnassus, and she asks passing adventurers heading south toward Lake Al'Ameth to deliver it on her behalf."
+  },
+  {
+   "q": "Why was Denalan worried about the delivery?",
+   "aliases": [
+    "is rare earth ruined",
+    "denalan fresh earth",
+    "why late earth"
+   ],
+   "answer": "The shipment was delayed in transit to Dolanaar, leaving Denalan waiting by the lakeside for a considerable time. Upon receiving it, he immediately worries whether the earth has retained its freshness and vitality for his botanical experiments."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Herbalists will appreciate the meticulous efforts of researchers like Syral Bladeleaf and Denalan, who study how specialized earth can alter the growth and properties of Teldrassil's saplings."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For night elves tending their young World Tree, every botanical experiment at Lake Al'Ameth offers insight into how life adapts to Teldrassil's untamed boughs."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "denalan",
+  "dolanaar",
+  "herbalism",
+  "lake al'ameth",
+  "rare earth",
+  "syral bladeleaf"
+ ],
+ "related": [
+  "quest:997",
+  "npc:denalan",
+  "npc:syral-bladeleaf",
+  "subzone:lake-al-ameth",
+  "subzone:dolanaar",
+  "zone:darnassus",
+  "zone:teldrassil",
+  "quest:940"
+ ],
+ "attribution": [
+  "Rare Earth",
+  "Denalan's Earth"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "item:broken-tools",
+ "type": "item",
+ "name": "Broken Tools",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Broken Tools",
+  "quests": [
+   "quest:746"
+  ]
+ },
+ "summary": "Broken Tools are the shattered remnants of dwarven prospector picks, intentionally destroyed at an anvil. They serve as physical proof to Baine Bloodhoof that the invasive dwarven excavation threatening Mulgore's land and wildlife has been disrupted.",
+ "sections": [
+  {
+   "title": "Sabotaging the Dig",
+   "body": "To the northwest of Bloodhoof Village, dwarven excavators have set up operations to delve into the hills of Mulgore. While the dwarves seek buried ancient history, the tauren view their aggressive excavation as a direct defilement of the Earth Mother. The noise and destruction agitate the local wildlife, particularly the roaming kodo herds. Rather than merely driving the excavators away, young Baine Bloodhoof instructs defenders to confiscate the prospectors' iron picks and shatter them upon a forge, rendering the expedition unable to gouge further into the earth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are these Broken Tools?",
+   "aliases": [
+    "broken tools",
+    "what are broken tools",
+    "shattered picks"
+   ],
+   "answer": "They are the ruined heads and splintered shafts of Prospector's Picks, taken from the dwarven excavators in Mulgore and deliberately crushed at a forge."
+  },
+  {
+   "q": "Why does Baine Bloodhoof want them destroyed?",
+   "aliases": [
+    "why destroy picks",
+    "why baine want broken tools",
+    "baine dwarven digging"
+   ],
+   "answer": "Baine believes that tearing up the soil defiles the land and enrages Mulgore's wildlife, especially the kodos. Smashing their tools halts the digging and sends a clear message that the land will not yield its wisdom to reckless excavation."
+  },
+  {
+   "q": "Where can these picks be broken?",
+   "aliases": [
+    "how to break picks",
+    "where is forge",
+    "break prospector pick"
+   ],
+   "answer": "Any functional blacksmithing forge will do. You can use the forge located directly at the dwarven dig site, or visit one in Bloodhoof Village or up in Thunder Bluff."
+  },
+  {
+   "q": "Why are dwarves digging in Mulgore?",
+   "aliases": [
+    "why dwarves in mulgore",
+    "dwarf digsite mulgore"
+   ],
+   "answer": "The dwarves believe deep secrets and relics of antiquity lie buried under Mulgore's soil. In their obsessive search for their origins, they frequently hollow out foreign lands without regard for the native inhabitants."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, bringing ruined tools to Baine represents the defense of the Earth Mother against invasive gouging that torments the native beasts."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Using an anvil to systematically destroy fine dwarven ironwork turns the crafter's forge into an instrument of territorial defense."
+  }
+ ],
+ "keywords": [
+  "baine bloodhoof",
+  "broken tools",
+  "dig site",
+  "dwarven digging",
+  "forge",
+  "mulgore",
+  "prospector's pick"
+ ],
+ "related": [
+  "quest:746",
+  "npc:baine-bloodhoof",
+  "subzone:bloodhoof-village",
+  "zone:mulgore",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Broken Tools",
+  "Dwarven Digging"
+ ]
+}

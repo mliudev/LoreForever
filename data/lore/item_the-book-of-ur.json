@@ -1,0 +1,94 @@
+{
+ "key": "item:the-book-of-ur",
+ "type": "item",
+ "name": "The Book of Ur",
+ "era": "classic",
+ "zone": "shadowfang",
+ "meta": {
+  "wiki": "The Book of Ur",
+  "quests": [
+   "quest:1013"
+  ]
+ },
+ "summary": "The Book of Ur is a scholarly magical treatise penned by the late Dalaran wizard Ur, detailing his research into strange extradimensional entities. Left behind in Shadowfang Keep, it fell into the hands of Archmage Arugal before drawing the keen interest of Forsaken researchers in the Undercity.",
+ "sections": [
+  {
+   "title": "The Mage of Dalaran",
+   "body": "Before Dalaran fell to the Scourge, Ur was renowned among the Kirin Tor for his esoteric investigations into other planes of existence and otherworldly creatures. Despite his fascination with extraplanar magic, Ur was guided by caution and ethical restraint, choosing to record his discoveries rather than recklessly breach the veil between worlds. Tragically, when the Scourge assaulted the violet city, his magical prowess and moral hesitations were not enough to save him.",
+   "spoiler": 0
+  },
+  {
+   "title": "Forsaken Ambition",
+   "body": "Following Ur's death, his writings found their way into the possession of Archmage Arugal, who used the research to summon the monstrous worgen into Silverpine Forest. The tome now rests within the shelves of Shadowfang Keep. Word of its existence caught the attention of Keeper Bel'dugur in the Undercity's Apothecarium. Unlike its original author, the Forsaken hold no reservations about using dangerous, uninhibited magic to ensure their survival and conquest.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Ur?",
+   "aliases": [
+    "who wrote the book of ur",
+    "ur dalaran mage"
+   ],
+   "answer": "Ur was a prominent human mage of Dalaran prior to the Third War. He extensively researched other dimensions and extraplanar creatures, though he refused to summon them due to the immense danger they posed."
+  },
+  {
+   "q": "Where is the Book of Ur located?",
+   "aliases": [
+    "book of ur location",
+    "where is book of ur"
+   ],
+   "answer": "The book rests on a shelf inside Shadowfang Keep in Silverpine Forest, specifically within the chamber where the massive beast Fenrus resides."
+  },
+  {
+   "q": "Why does Keeper Bel'dugur want the book?",
+   "aliases": [
+    "keeper bel'dugur book of ur",
+    "why undercity wants the book"
+   ],
+   "answer": "Keeper Bel'dugur collects Ur's writings on behalf of interested parties in the Undercity. The Forsaken believe Ur's moral conscience held him back from true power, and they seek to harness his extraplanar research without any ethical limitations to bolster their own strength."
+  },
+  {
+   "q": "How did the book end up in Shadowfang Keep?",
+   "aliases": [
+    "arugal and book of ur",
+    "how did arugal get the book"
+   ],
+   "answer": "After Ur died during the fall of Dalaran, Archmage Arugal acquired his research. Driven to desperate measures to defend against the Scourge, Arugal brought the notes to Silverpine Forest and used Ur's summoning theories to draw the worgen into Azeroth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Securing Ur's work directly aids the Dark Lady's scholars in the Apothecarium, turning the cautious research of a fallen human wizard into practical power for the Forsaken."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Ur's writings are a stark reminder of Dalaran's scholarly reach into other realms\u2014and the lethal consequences when ambitious magi like Arugal misuse that forbidden knowledge."
+  }
+ ],
+ "keywords": [
+  "apothecarium",
+  "arugal",
+  "book of ur",
+  "dalaran",
+  "keeper bel'dugur",
+  "shadowfang keep",
+  "silverpine",
+  "ur"
+ ],
+ "related": [
+  "quest:1013",
+  "npc:arugal",
+  "npc:keeper-bel-dugur",
+  "zone:shadowfang",
+  "subzone:apothecarium",
+  "subzone:dalaran",
+  "topic:forsaken",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "The Book of Ur",
+  "The Book of Ur (quest)"
+ ]
+}

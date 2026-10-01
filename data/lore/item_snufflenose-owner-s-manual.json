@@ -1,0 +1,86 @@
+{
+ "key": "item:snufflenose-owner-s-manual",
+ "type": "item",
+ "name": "Snufflenose Owner's Manual",
+ "era": "classic",
+ "zone": "razorfenkraul",
+ "meta": {
+  "wiki": "Snufflenose Owner's Manual",
+  "quests": [
+   "quest:1221"
+  ]
+ },
+ "summary": "The Snufflenose Owner's Manual is an instructional booklet left behind by the goblin entrepreneur Mebok Mizzyrix in Ratchet. It outlines how to deploy and direct a trained Snufflenose Gopher to locate rare Blueleaf Tubers buried in Razorfen Kraul.",
+ "sections": [
+  {
+   "title": "A Goblin's Operating Guide",
+   "body": "Written by the Ratchet merchant Mebok Mizzyrix, this short guide details how to work with his trained snufflenose gophers. These beasts possess a keen sense of smell capable of detecting subterranean Blueleaf Tubers from fifty paces away. The manual instructs prospectors to release a gopher using a ventilated crate and guide its rooting instincts with a command stick, directing the creature through the hostile thorns and quillboar tunnels of Razorfen Kraul to secure the prized culinary delicacies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Snufflenose Owner's Manual?",
+   "aliases": [
+    "what does the manual do",
+    "why read the manual",
+    "manual purpose"
+   ],
+   "answer": "It serves as instructions for handling Mebok Mizzyrix's trained snufflenose gophers. Adventurers read it to understand how to deploy the animal from its crate and direct it with a command stick to locate buried Blueleaf Tubers within Razorfen Kraul."
+  },
+  {
+   "q": "Where can I find the manual?",
+   "aliases": [
+    "manual location",
+    "where is the book",
+    "how to get the manual"
+   ],
+   "answer": "The manual is kept in Ratchet in the Barrens, right near Mebok Mizzyrix alongside the specialized crates and command sticks needed for gathering tubers."
+  },
+  {
+   "q": "Why are snufflenose gophers needed to find Blueleaf Tubers?",
+   "aliases": [
+    "why use gophers",
+    "can i find tubers without gophers"
+   ],
+   "answer": "Blueleaf tubers grow concealed deep within the earth inside Razorfen Kraul and are virtually impossible for humanoids to spot. The trained gophers possess sharp noses that can detect the scent of a buried tuber from fifty paces away."
+  },
+  {
+   "q": "Who wrote the manual?",
+   "aliases": [
+    "author of manual",
+    "who made it"
+   ],
+   "answer": "The goblin entrepreneur Mebok Mizzyrix penned the manual to ensure contract prospectors do not mishandle his trained animals while gathering valuable culinary goods."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "The manual outlines the retrieval process for Blueleaf Tubers, an underground root considered a rare delicacy by gourmands and traders across Azeroth."
+  }
+ ],
+ "keywords": [
+  "blueleaf tuber",
+  "gopher",
+  "manual",
+  "mebok mizzyrix",
+  "ratchet",
+  "razorfen kraul",
+  "snufflenose"
+ ],
+ "related": [
+  "quest:1221",
+  "npc:mebok-mizzyrix",
+  "item:blueleaf-tuber",
+  "item:crate-with-holes",
+  "item:snufflenose-command-stick",
+  "zone:razorfenkraul",
+  "subzone:ratchet",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Snufflenose Owner's Manual",
+  "Blueleaf Tubers"
+ ]
+}

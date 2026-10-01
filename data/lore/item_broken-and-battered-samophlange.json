@@ -1,0 +1,98 @@
+{
+ "key": "item:broken-and-battered-samophlange",
+ "type": "item",
+ "name": "Broken and Battered Samophlange",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Broken and Battered Samophlange",
+  "quests": [
+   "quest:3923"
+  ]
+ },
+ "summary": "The Broken and Battered Samophlange is an enigmatic mechanical device recovered from Venture Company operations in the Barrens. After a botched tinkering attempt pushed its structural integrity to critical lows, it must be carried to goblin experts in Orgrimmar who might actually understand how it functions.",
+ "sections": [
+  {
+   "title": "Tinkered Beyond Recognition",
+   "body": "A samophlange is an obscure piece of proprietary machinery designed by the Venture Company for their resource operations in the northern Barrens. When Wenikee Boltbucket attempted to inspect and modify one, she affixed extraneous gauges, levers, and dials to measure its stability. Instead of stabilizing the mechanism, her amateur meddling devastated its structural integrity, leaving it battered and teetering on the verge of ruin. Realizing more gadgets would only cause total failure, she packed off the fragile assembly to someone with real factory experience.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Orgrimmar",
+   "body": "Salvaging the broken device requires the insight of someone who has worked directly on Venture Company production lines. This leads travelers to Rilli Greasygob, a former Venture employee now operating out of Nogg's Machine Shop in Orgrimmar's Valley of Honor. Handing over such a battered apparatus immediately catches the engineer's eye, marking anyone daring enough to scavenge from goblin operations as either remarkably daring or foolhardy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a samophlange?",
+   "aliases": [
+    "what is this item",
+    "what does a samophlange do",
+    "samophlange purpose"
+   ],
+   "answer": "A samophlange is a specialized piece of machinery manufactured by the Venture Company for their industrial operations in the Barrens. Its exact inner mechanics are arcane goblin engineering secrets that few outsiders fully grasp."
+  },
+  {
+   "q": "Why is the samophlange broken and battered?",
+   "aliases": [
+    "who broke the samophlange",
+    "why is it damaged",
+    "wenikee broke it"
+   ],
+   "answer": "Wenikee Boltbucket attempted to modify it with extra measuring gauges to assess its structural integrity. Her additions backfired completely, compromising the device's stability and damaging its sensitive inner components."
+  },
+  {
+   "q": "Who can fix this damaged apparatus?",
+   "aliases": [
+    "who do i bring this to",
+    "where does the samophlange go",
+    "who repairs it"
+   ],
+   "answer": "The device needs someone experienced with Venture Company machinery. It is brought to Rilli Greasygob, an engineer working at Nogg's Machine Shop in the Valley of Honor in Orgrimmar."
+  },
+  {
+   "q": "Where did this machinery originally come from?",
+   "aliases": [
+    "samophlange origin",
+    "where was it found",
+    "venture company origin"
+   ],
+   "answer": "It originated from the Venture Company's drilling and extraction operations in the northern Barrens, where goblin engineers use them to power heavy extraction machinery."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The slapdash addition of dials and levers to an already unstable Venture Company mechanism serves as a textbook warning against haphazard modifications without a schematic."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Managing industrial salvage recovered from Venture Company exploits in the Barrens brings valuable technical secrets directly to Orgrimmar's goblin machine shops."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "machine shop",
+  "nogg",
+  "orgrimmar",
+  "rilli greasygob",
+  "samophlange",
+  "venture company",
+  "wenikee boltbucket"
+ ],
+ "related": [
+  "quest:3923",
+  "quest:3921",
+  "quest:894",
+  "topic:venture-company",
+  "npc:nogg",
+  "subzone:valley-of-honor",
+  "zone:orgrimmar",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Broken and Battered Samophlange",
+  "Rilli Greasygob (quest)"
+ ]
+}

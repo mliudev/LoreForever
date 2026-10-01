@@ -1,0 +1,96 @@
+{
+ "key": "item:toxic-fogger",
+ "type": "item",
+ "name": "Toxic Fogger",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Toxic Fogger",
+  "quests": [
+   "quest:1086"
+  ]
+ },
+ "summary": "The Toxic Fogger is a specialized dispersal device filled with lethal poison, concocted by the Forsaken Royal Apothecary Society. It is designed to contaminate the Venture Company's air transit operations in the Stonetalon Mountains.",
+ "sections": [
+  {
+   "title": "A Forsaken Solution",
+   "body": "Developed by Apothecary Zamah in Thunder Bluff, the Toxic Fogger serves as biological sabotage aimed directly at the Venture Company's strip-mining efforts. Suspecting that the goblins rely on courier flying machines to shuttle messages and light cargo between Stonetalon and their headquarters, Zamah engineered the fogger to release an airborne poison right where machines land and refuel. Rather than engaging in prolonged skirmishes with endless mercenary crews, the Forsaken method strikes at the logistical spine of the operation, ensuring that the poison travels directly back to corporate leadership.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sabotage at Cragpool Lake",
+   "body": "The intended target for the Toxic Fogger is the secluded copter pad constructed near Cragpool Lake. Perched high above the deforested hills and guarded by corporate muscle, the landing pad acts as an aerial link between remote crews and outside hubs. Deploying the fogger releases a billowing toxic vapor across the staging ground, catching returning pilots unawares. While some within the Horde may recoil at resorting to poison, Zamah urges her agents to discard guilt, declaring that no path is too dark if it secures victory against exploiters.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Toxic Fogger used for?",
+   "aliases": [
+    "what does toxic fogger do",
+    "fogger purpose",
+    "why use toxic fogger"
+   ],
+   "answer": "The Toxic Fogger is used to poison the Venture Company's sky port at Cragpool Lake in the Stonetalon Mountains, contaminating light cargo and couriers headed back to their headquarters."
+  },
+  {
+   "q": "Who created the Toxic Fogger?",
+   "aliases": [
+    "who made the fogger",
+    "toxic fogger creator",
+    "apothecary zamah poison"
+   ],
+   "answer": "It was created by Apothecary Zamah, an envoy of the Royal Apothecary Society stationed on the Pools of Vision beneath Thunder Bluff."
+  },
+  {
+   "q": "Where does the Toxic Fogger need to be placed?",
+   "aliases": [
+    "where do i put the fogger",
+    "copter pad location",
+    "sky port location"
+   ],
+   "answer": "It must be planted atop the elevated Venture Company copter pad located near Cragpool Lake in the Stonetalon Mountains, south of the large waterwheel."
+  },
+  {
+   "q": "Why does the Horde resort to using poison against the Venture Company?",
+   "aliases": [
+    "why poison goblins",
+    "is poison allowed in horde",
+    "forsaken methods in stonetalon"
+   ],
+   "answer": "The Venture Company's logging and mining heavily ravage the land in Stonetalon. Apothecary Zamah believes conventional combat is too slow, arguing that the Horde must embrace ruthless methods to eradicate the goblins before irreparable harm is done."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Toxic Fogger represents classic Royal Apothecary Society field strategy: disrupting enemy supply chains with aerosol toxins while showing allies that dark methods produce undeniable results."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "While relying on lethal vapors may test traditional tauren codes of honor, the catastrophic industrial damage wrought by the Venture Company drives many in Thunder Bluff to tolerate Zamah's harsh measures."
+  }
+ ],
+ "keywords": [
+  "apothecary zamah",
+  "copter pad",
+  "cragpool lake",
+  "sky port",
+  "stonetalon",
+  "toxic fogger",
+  "venture company"
+ ],
+ "related": [
+  "quest:1086",
+  "quest:853",
+  "subzone:cragpool-lake",
+  "zone:stonetalon",
+  "topic:venture-company",
+  "topic:forsaken",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Toxic Fogger",
+  "The Flying Machine Airport"
+ ]
+}

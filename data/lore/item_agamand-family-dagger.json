@@ -1,0 +1,98 @@
+{
+ "key": "item:agamand-family-dagger",
+ "type": "item",
+ "name": "Agamand Family Dagger",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Agamand Family Dagger",
+  "quests": [
+   "quest:1821"
+  ]
+ },
+ "summary": "The Agamand Family Dagger is an ancestral heirloom of the fallen Agamand dynasty, resting on weapon racks within their ancestral crypt in northern Tirisfal Glades. Coleman Farthing seeks this blade alongside the rest of their family arsenal to strip his former masters of their remaining legacy and honor.",
+ "sections": [
+  {
+   "title": "A Legacy in the Crypt",
+   "body": "Before the Third War, the Agamand family maintained vast estates and grain mills across the rolling meadows of Tirisfal Glades. Like the rest of their lineage's armaments, the Agamand Family Dagger survived the devastation wrought by the Scourge, locked within the family crypt north of Agamand Mills. Protected by the restless, undead remnants of the household and mindless minions of the Lich King, the dagger represents the prestige and martial heritage that once elevated the family above their servants and tenants.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Spiteful Requisition",
+   "body": "For Coleman Farthing, a Forsaken residing at Brill who died in the Agamands' service, the blade represents bitter resentment rather than noble lineage. Holding the family directly responsible for his death, Farthing directs adventurers into the Agamand Family Crypt to recover the dagger along with the family sword, axe, and mace. In stripping these ancestral armaments from their tomb, Farthing aims to rob the now-Scourge patriarchs of their last vestiges of dignity and ensure the Agamand memory is utterly extinguished.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Agamand Family Dagger?",
+   "aliases": [
+    "agamand dagger",
+    "what is the agamand dagger",
+    "family dagger tirisfal"
+   ],
+   "answer": "It is an ancestral weapon belonging to the wealthy Agamand family of Tirisfal Glades. It was interred alongside other armaments in the family crypt, which has since fallen under Scourge control."
+  },
+  {
+   "q": "Where is the Agamand Family Dagger found?",
+   "aliases": [
+    "where to find agamand dagger",
+    "agamand dagger location",
+    "dagger weapon rack location"
+   ],
+   "answer": "It sits upon an Agamand Weapon Rack deep inside the Agamand Family Crypt, situated at the northern end of Agamand Mills in Tirisfal Glades."
+  },
+  {
+   "q": "Why does Coleman Farthing want this dagger?",
+   "aliases": [
+    "why does farthing want the dagger",
+    "farthing agamand quest",
+    "why rob agamand crypt"
+   ],
+   "answer": "Coleman Farthing was employed by the Agamands in life and blames them for his demise. He demands the dagger and other heirlooms to strip his former masters of their honor and finish their ruin."
+  },
+  {
+   "q": "Who are the other weapons in this heirloom set?",
+   "aliases": [
+    "other agamand heirlooms",
+    "agamand weapons list",
+    "what else is in the crypt"
+   ],
+   "answer": "Along with the dagger, the heirloom set includes the Agamand Family Sword, the Agamand Family Axe, and the Agamand Family Mace, all scattered among weapon racks in the family crypt."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Agamand heirlooms represent the bitter divide between the surviving Forsaken of Lordaeron and their former masters who succumbed to mindless servitude in the Scourge."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Slipping past the risen undead in the crypt to pilfer prized family blades from weapon racks exemplifies classic underworld burglary turned into an act of cold vengeance."
+  }
+ ],
+ "keywords": [
+  "agamand",
+  "agamand mills",
+  "coleman farthing",
+  "crypt",
+  "dagger",
+  "heirloom",
+  "scourge",
+  "tirisfal glades"
+ ],
+ "related": [
+  "quest:1821",
+  "npc:coleman-farthing",
+  "subzone:agamand-family-crypt",
+  "subzone:agamand-mills",
+  "item:agamand-family-sword",
+  "item:agamand-family-axe",
+  "item:agamand-family-mace",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Agamand Family Dagger",
+  "Agamand Heirlooms"
+ ]
+}

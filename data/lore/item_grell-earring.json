@@ -1,0 +1,85 @@
+{
+ "key": "item:grell-earring",
+ "type": "item",
+ "name": "Grell Earring",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Grell Earring",
+  "quests": [
+   "quest:955"
+  ]
+ },
+ "summary": "Grell Earrings are crude baubles scavenged and worn by the feral creatures infesting the ruins of Bashal'Aran. Though unremarkable at a glance, their proximity to ancient relics allows sensitive spirits to trace the lingering magical seals holding them in torment.",
+ "sections": [
+  {
+   "title": "Traces in the Brass",
+   "body": "The Wild Grells and Vile Sprites lurking around the collapsed marble of Bashal'Aran hoard assorted trinkets, frequently fashioning earrings from scraps they scavenge among the ruins. To most mortals, these items are worthless refuse. However, to Asterion, an ancient night elf bound as a tormented phantom within the ruins, they serve as dowsing implements. By scrutinizing the resonant magical traces absorbed by these earrings, Asterion attempts to locate the ancient seal that imprisons his spectral form.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Grell Earrings come from?",
+   "aliases": [
+    "grell earring drop",
+    "where to get grell earrings",
+    "who drops grell earrings"
+   ],
+   "answer": "They are collected from the corpses of Wild Grells and Vile Sprites inhabiting the ruined night elven settlement of Bashal'Aran in Darkshore."
+  },
+  {
+   "q": "Why does Asterion want these earrings?",
+   "aliases": [
+    "asterion earrings",
+    "why collect grell earrings",
+    "grell earring use"
+   ],
+   "answer": "Asterion is an ancient spirit held captive in Bashal'Aran by potent magic. He uses the earrings as magical conduits to detect traces of the nearby seal that has bound his soul for centuries."
+  },
+  {
+   "q": "Do the grells know they carry magical traces?",
+   "aliases": [
+    "are the earrings magic",
+    "do grells know magic"
+   ],
+   "answer": "No. The grells and sprites simply hoard and wear the shiny trinkets out of primal instinct. They have unknowingly brushed against the magical seal hidden within the ruins, leaving residual traces on the metal."
+  },
+  {
+   "q": "Does Asterion find what he needs from the earrings?",
+   "aliases": [
+    "did the earrings work",
+    "asterion seal location"
+   ],
+   "answer": "The earrings themselves do not hold the seal, but examining them reveals that the creatures have been in recent contact with it, guiding the search deeper into the surrounding ruins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The earrings demonstrate how inanimate metals can passively absorb and retain the ambient magical signature of ancient warding seals over long periods."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Seeing sacred elven ruins overrun by thieving sprites wearing scavenged brass is a bitter reminder of how low the once-grand estates of ancient Kalimdor have fallen."
+  }
+ ],
+ "keywords": [
+  "asterion",
+  "bashal'aran",
+  "darkshore",
+  "grell earring",
+  "seal",
+  "vile sprite",
+  "wild grell"
+ ],
+ "related": [
+  "npc:asterion",
+  "quest:954",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "Grell Earring",
+  "Bashal'Aran (2)"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "key": "item:kodobane-s-head",
+ "type": "item",
+ "name": "Kodobane's Head",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Kodobane's Head",
+  "quests": [
+   "quest:850"
+  ]
+ },
+ "summary": "Kodobane's Head is the severed head of Barak Kodobane, a cunning Kolkar centaur chieftain. Taken as proof of his demise, it is brought to the orc warlord Regthar Deathgate to show that the centaur threat near the Forgotten Pools has been broken.",
+ "sections": [
+  {
+   "title": "A Trophy of War",
+   "body": "The Kolkar centaur of the Barrens have historically been a fractured, disorganized nuisance, yet the rise of ambitious warlords threatens to unite their marauding bands into an army. Barak Kodobane established his encampment at the lush waters of the Forgotten Pools, cutting off vital oasis resources and raiding nearby paths. Regthar Deathgate, stationed in a bunker west of the Crossroads, demands his severed head as undeniable proof that this commander can no longer rally his brutal kin against the Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Barak Kodobane?",
+   "aliases": [
+    "barak kodobane",
+    "who is kodobane",
+    "barak lore"
+   ],
+   "answer": "Barak Kodobane was a prominent chieftain among the Kolkar centaur. Unlike many of his undisciplined kin, Barak possessed the cunning and presence needed to organize warbands, setting up camp around the Forgotten Pools to assert Kolkar dominance over the northern Barrens."
+  },
+  {
+   "q": "Why does Regthar Deathgate want his head?",
+   "aliases": [
+    "why get head",
+    "regthar deathgate head",
+    "kodobane bounty"
+   ],
+   "answer": "Regthar Deathgate is tasked with securing Horde territory in the Barrens. Because the centaur are normally fractious, leaders with genuine tactical vision are singled out for elimination. Demanding Kodobane's head guarantees that the chieftain is dead rather than simply displaced."
+  },
+  {
+   "q": "Where is Barak Kodobane found?",
+   "aliases": [
+    "barak location",
+    "where is kodobane",
+    "barak spawn"
+   ],
+   "answer": "Barak Kodobane makes his camp near the northern oasis known as the Forgotten Pools, just northwest of the Crossroads in the Barrens."
+  },
+  {
+   "q": "Does killing Barak stop the Kolkar threat?",
+   "aliases": [
+    "are centaurs defeated",
+    "what happens after barak dies"
+   ],
+   "answer": "No. Barak Kodobane is only the first of several warlords rallying the Kolkar. His death disrupts their presence at the Forgotten Pools, but other leaders like Verog the Dervish and Hezrul Bloodmark continue to direct centaur aggression across the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For generations, the centaur drove the nomadic tauren across Kalimdor to the brink of extinction. Striking down Barak Kodobane avenges centuries of bloodshed and protects the pastures of Mulgore and the Barrens."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The crossroads of the Barrens serve as the vital overland link between Orgrimmar and Thunder Bluff; suppressing centaur leaders like Kodobane is essential to keep caravan trails safe."
+  }
+ ],
+ "keywords": [
+  "barak",
+  "barrens",
+  "centaur",
+  "crossroads",
+  "deathgate",
+  "forgotten pools",
+  "kodobane",
+  "kolkar",
+  "regthar"
+ ],
+ "related": [
+  "quest:850",
+  "quest:1361",
+  "subzone:forgotten-pools",
+  "quest:851",
+  "quest:852",
+  "topic:centaur",
+  "topic:tauren",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Kodobane's Head",
+  "Kolkar Leaders (Classic)"
+ ]
+}

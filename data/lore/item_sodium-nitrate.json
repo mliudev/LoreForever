@@ -1,0 +1,92 @@
+{
+ "key": "item:sodium-nitrate",
+ "type": "item",
+ "name": "Sodium Nitrate",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Sodium Nitrate",
+  "quests": [
+   "quest:846"
+  ]
+ },
+ "summary": "Sodium Nitrate is a volatile chemical reagent carried by the dwarven excavators and garrison stationed at Bael Modan in the southern Barrens. Though imported by the Ironforge expedition to blast through ancient stone, the exiled tauren Gann Stonespire seeks to reclaim it to assemble an explosive charge against the invaders.",
+ "sections": [
+  {
+   "title": "Industrial Demolition",
+   "body": "The Bael'dun expedition tore into the ancestral lands of the Stonespire tribe armed with heavy earthmovers and blasting reagents. To crack open the stubborn rockbeds of the southern Barrens, the dwarves relied on volatile chemical compounds. Sodium Nitrate forms a crucial stabilizing and oxidizing agent in high-grade explosives, carried routinely by Bael'dun riflemen, soldiers, and officers inside the excavation works and nearby fortress.",
+   "spoiler": 0
+  },
+  {
+   "title": "Turnabout and Retribution",
+   "body": "Following the devastation of his tribe's homeland, Gann Stonespire observed the invaders closely and scavenged their engineering schematics. Recognizing that conventional attacks could not easily breach the heavily defended keep, Gann plotted to turn the dwarves' industrial blasting supplies against them. By mixing looted Sodium Nitrate with nitroglycerin and wood pulp, the tauren exile fashions makeshift charges designed to shake the foundations of Bael Modan.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Sodium Nitrate used for in the Barrens?",
+   "aliases": [
+    "sodium nitrate purpose",
+    "what does sodium nitrate do"
+   ],
+   "answer": "The Ironforge dwarves use it as a chemical component for explosives to blast away the rocky terrain of their dig site. Gann Stonespire intends to combine it with nitroglycerin and wood pulp to create powerful demolition charges to strike back at the Bael Modan keep."
+  },
+  {
+   "q": "Where does Sodium Nitrate come from?",
+   "aliases": [
+    "who drops sodium nitrate",
+    "where to get sodium nitrate"
+   ],
+   "answer": "It is held by the dwarven military force stationed at Bael Modan in the southern Barrens. Soldiers, riflemen, officers, and their commanders like Lord Cyrik Blackforge carry supplies of the reagent on hand."
+  },
+  {
+   "q": "Why does Gann Stonespire need this chemical?",
+   "aliases": [
+    "why does gann want sodium nitrate",
+    "gann stonespire explosives"
+   ],
+   "answer": "Gann lost his ancestral village to the dwarven excavation. Lacking heavy siege equipment, he studied dwarven schematics to replicate their mining charges, aiming to dismantle their fortified positions with their own ordnance."
+  },
+  {
+   "q": "Is Sodium Nitrate dangerous on its own?",
+   "aliases": [
+    "is sodium nitrate an explosive"
+   ],
+   "answer": "On its own, sodium nitrate is an oxidizer and chemical salt rather than an instant explosive. It becomes dangerous and volatile when mixed properly with a fuel source and shock-sensitive chemicals like nitroglycerin."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers readily recognize the trifecta of sodium nitrate, nitroglycerin, and wood pulp as the textbook recipe for stabilized dynamite, highlighting the iron-clad logic behind Gann's improvised demolition charges."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, using dwarven chemicals is a bitter departure from traditional methods, but Gann Stonespire considers desperate measures justified to retaliate for the destruction of his ancestral territory."
+  }
+ ],
+ "keywords": [
+  "bael modan",
+  "bael'dun",
+  "blackforge",
+  "gann stonespire",
+  "nitroglycerin",
+  "revenge of gann",
+  "sodium nitrate",
+  "wood pulp"
+ ],
+ "related": [
+  "quest:846",
+  "npc:gann-stonespire",
+  "item:nitroglycerin",
+  "item:wood-pulp",
+  "subzone:bael-modan",
+  "quest:843",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Sodium Nitrate",
+  "Revenge of Gann"
+ ]
+}

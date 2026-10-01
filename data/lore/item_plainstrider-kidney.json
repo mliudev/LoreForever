@@ -1,0 +1,91 @@
+{
+ "key": "item:plainstrider-kidney",
+ "type": "item",
+ "name": "Plainstrider Kidney",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Plainstrider Kidney",
+  "quests": [
+   "quest:821"
+  ]
+ },
+ "summary": "A harvested organ taken from the swift-footed plainstriders roaming the arid plains of the Barrens. Though unappetizing to most travelers, it serves as a bizarre yet essential component in exotic Kalimdor brewing traditions.",
+ "sections": [
+  {
+   "title": "An Unorthodox Brewing Ingredient",
+   "body": "The vast expanses of the Barrens are populated by tall, flightless birds known as plainstriders. While their feathers and meat are often claimed by hunters for tools and simple rations, Brewmaster Drohn in Ratchet seeks their internal organs for an entirely different purpose. According to the eccentric brewer, plainstrider kidneys are a necessary ingredient to replicate Chen Stormstout's legendary potent ale, imparting a unique kick passed down through an unconventional lineage of brewmasters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Plainstrider Kidney used for?",
+   "aliases": [
+    "plainstrider kidney use",
+    "why do i need plainstrider kidneys",
+    "plainstrider kidney purpose"
+   ],
+   "answer": "Brewmaster Drohn in Ratchet requires them to recreate a legendary batch of Stormstout ale. He claims the recipe was taught to his mentor directly by the wandering pandaren Brewmaster, Chen Stormstout."
+  },
+  {
+   "q": "Why would someone brew ale with animal organs?",
+   "aliases": [
+    "kidney in beer",
+    "why kidney in stormstout",
+    "animal parts in alcohol"
+   ],
+   "answer": "Exotic brews in Kalimdor often incorporate rugged local wildlife parts to achieve strong, memorable flavors and distinct kicks. Brewmaster Drohn notes that crafting such potent, wild recipes fondly reminds him of unorthodox creations like trogg brew."
+  },
+  {
+   "q": "Which creatures yield these kidneys?",
+   "aliases": [
+    "where do plainstrider kidneys drop",
+    "who drops plainstrider kidney",
+    "plainstrider kidney source"
+   ],
+   "answer": "They are harvested from the various species of plainstriders running across the Barrens, including fleeting, ornery, and greater plainstriders."
+  },
+  {
+   "q": "What other ingredients are needed alongside the kidneys?",
+   "aliases": [
+    "other brew ingredients",
+    "what else does drohn need",
+    "stormstout ingredients"
+   ],
+   "answer": "To complete his concoction, Brewmaster Drohn asks for five plainstrider kidneys, five savannah lion tusks, and a single thunder lizard horn."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Culinary adventurers might balk at fermenting avian kidneys into fine spirits, yet Kalimdor's wilderness survival often relies on making full use of every part of the kill."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Field dressing plainstriders across the savanna tests a hunter's precision, ensuring the internal organs remain intact for trade with Ratchet's brewmasters."
+  }
+ ],
+ "keywords": [
+  "brewmaster drohn",
+  "chen stormstout",
+  "plainstrider",
+  "plainstrider kidney",
+  "ratchet",
+  "stormstout",
+  "the barrens"
+ ],
+ "related": [
+  "npc:brewmaster-drohn",
+  "quest:819",
+  "item:savannah-lion-tusk",
+  "item:thunder-lizard-horn",
+  "subzone:ratchet",
+  "zone:barrens",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "Plainstrider Kidney",
+  "Chen's Empty Keg (2)"
+ ]
+}

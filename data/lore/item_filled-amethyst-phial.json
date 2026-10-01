@@ -1,0 +1,97 @@
+{
+ "key": "item:filled-amethyst-phial",
+ "type": "item",
+ "name": "Filled Amethyst Phial",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Filled Amethyst Phial",
+  "quests": [
+   "quest:934",
+   "quest:7383"
+  ]
+ },
+ "summary": "The Filled Amethyst Phial contains sacred water taken from the ancient moonwell beneath the boughs of the Oracle Tree. Gathered on behalf of Corithras Moonrage, this purified water is used by the Cenarion druids to study the troubled, imperfect growth of Teldrassil.",
+ "sections": [
+  {
+   "title": "Water of the Oracle Tree",
+   "body": "Far to the northwest in Teldrassil lies the Oracle Glade, where the oldest and most potent of the island's moonwells rests beneath the great Oracle Tree. While the lesser moonwells across the boughs serve the day-to-day needs of the night elves, this well's waters are saturated with the raw essence of Elune's grace. Druids tasked with monitoring the health of the World Tree use specialized amethyst phials to collect and preserve this powerful liquid for testing and ritual cleansing.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Flawed Renewal",
+   "body": "Bringing this sample back to Corithras Moonrage serves a somber purpose. Despite Archdruid Fandral Staghelm's triumph in raising Teldrassil to replace the fallen Nordrassil, the Dragon Aspects refused to sanctify it. Without the blessing of Nozdormu to restore night elven immortality or Alexstrasza to protect its life force, Teldrassil's growth remains stunted and plagued by corruption. Samples from the glade reveal that even the island's most sacred waters cannot hide the creeping malaise taking root in the World Tree.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the water in this phial come from?",
+   "aliases": [
+    "where do i fill it",
+    "moonwell location",
+    "oracle tree well"
+   ],
+   "answer": "The water is scooped directly from the moonwell in the Oracle Glade, located in the northwestern reaches of Teldrassil beneath the vast roots of the Oracle Tree."
+  },
+  {
+   "q": "Why is the moonwell in Oracle Glade special?",
+   "aliases": [
+    "why oracle glade",
+    "oracle moonwell importance"
+   ],
+   "answer": "It is revered as the first and most powerful moonwell created on Teldrassil, holding the concentrated essence of Elune's power and watched over by the ancient Oracle Tree itself."
+  },
+  {
+   "q": "Who asks you to gather this water?",
+   "aliases": [
+    "who wants the phial",
+    "corithras quest"
+   ],
+   "answer": "Corithras Moonrage, a night elf druid stationed in Dolanaar, tasks young adventurers with collecting the water as part of the Crown of the Earth rituals."
+  },
+  {
+   "q": "Why are the druids testing Teldrassil's moonwells?",
+   "aliases": [
+    "why test the water",
+    "teldrassil sickness"
+   ],
+   "answer": "Teldrassil was raised without the blessings of the Dragon Aspects, leaving it vulnerable. The druids sample the moonwells to monitor the World Tree's health, which is showing troubling signs of corruption and stunted growth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, filling this phial marks a grim realization: their glorious new home was rejected by the Dragon Aspects, and their lost immortality has not returned."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Cenarion druids revere moonwells as conduits of nature and astral energy, using purified vessels like this phial to study the blighted ecology of Teldrassil."
+  }
+ ],
+ "keywords": [
+  "amethyst phial",
+  "corithras moonrage",
+  "crown of the earth",
+  "filled amethyst phial",
+  "moonwell",
+  "oracle glade",
+  "oracle tree",
+  "teldrassil"
+ ],
+ "related": [
+  "item:amethyst-phial",
+  "npc:corithras-moonrage",
+  "subzone:oracle-glade",
+  "quest:921",
+  "zone:teldrassil",
+  "topic:nordrassil",
+  "topic:elune",
+  "subzone:dolanaar"
+ ],
+ "attribution": [
+  "Filled Amethyst Phial",
+  "Crown of the Earth (5)",
+  "Teldrassil: The Burden of the Kaldorei"
+ ]
+}

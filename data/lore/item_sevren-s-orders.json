@@ -1,0 +1,90 @@
+{
+ "key": "item:sevren-s-orders",
+ "type": "item",
+ "name": "Sevren's Orders",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Sevren's Orders",
+  "quests": [
+   "quest:405"
+  ]
+ },
+ "summary": "Sevren's Orders are written dispatches penned by Magistrate Sevren of Brill. They direct a proven Forsaken agent to report to Bethor Iceshard, a formidable mage stationed in the Undercity's Magic Quarter.",
+ "sections": [
+  {
+   "title": "Summons to the Capital",
+   "body": "As the Forsaken solidify their grip on the ruins of Lordaeron, skilled agents who have proven their worth against the Scourge in Tirisfal Glades are summoned south to the capital. Issued by Magistrate Sevren, these written orders serve as official introduction and credentials to Bethor Iceshard, one of the Dark Lady's foremost practitioners of the arcane in the Magic Quarter. While Sevren knows little beyond the fact that the assignment involves reaching out to an errant lich, the summons carries the absolute authority of the Undercity's high mages.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote these orders?",
+   "aliases": [
+    "author of sevren's orders",
+    "who is sevren",
+    "who gives sevrens orders"
+   ],
+   "answer": "Magistrate Sevren, the Forsaken overseer administering affairs in the town of Brill within Tirisfal Glades, drafted the orders."
+  },
+  {
+   "q": "Who is intended to receive these orders?",
+   "aliases": [
+    "who gets the orders",
+    "where do i bring sevren's orders",
+    "who is bethor iceshard"
+   ],
+   "answer": "They are addressed to Bethor Iceshard, a high-ranking Forsaken mage located in the Magic Quarter of the Undercity."
+  },
+  {
+   "q": "What is the mission mentioned in the orders?",
+   "aliases": [
+    "what is the lich mission",
+    "what does bethor want",
+    "prodigal lich mission"
+   ],
+   "answer": "The mission involves recruiting a wayward lich to aid the Forsaken, a perilous task requiring an agent who has already proven capable against the Scourge."
+  },
+  {
+   "q": "Why was I chosen to deliver them?",
+   "aliases": [
+    "why me",
+    "why did sevren pick me"
+   ],
+   "answer": "Bethor requested an operative of proven capability against the Scourge. Magistrate Sevren deemed your efforts in Tirisfal Glades sufficient to handle Bethor's dangerous task."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Carrying Sevren's seal marks an operative's transition from local service in Tirisfal to directly aiding the Undercity's arcane elite."
+  },
+  {
+   "target": "class:Mage",
+   "text": "For practitioners of the arcane, delivering these orders provides an audience with Bethor Iceshard, one of the foremost spellcasters in the Forsaken kingdom."
+  }
+ ],
+ "keywords": [
+  "bethor iceshard",
+  "brill",
+  "magic quarter",
+  "magistrate sevren",
+  "prodigal lich",
+  "sevren's orders",
+  "undercity"
+ ],
+ "related": [
+  "quest:405",
+  "npc:magistrate-sevren",
+  "npc:bethor-iceshard",
+  "zone:undercity",
+  "subzone:magic-quarter",
+  "topic:scourge",
+  "topic:mage"
+ ],
+ "attribution": [
+  "Sevren's Orders",
+  "The Prodigal Lich"
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "key": "item:sample-ichor",
+ "type": "item",
+ "name": "Sample Ichor",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Sample Ichor",
+  "quests": [
+   "quest:444"
+  ]
+ },
+ "summary": "This vial contains a refined extract of the foul fluid that sustains the rot hide gnolls of Silverpine Forest. Distilled down to its base components by Apothecary Renferrel, the substance carries lingering traces of both necromancy and warlock sorcery.",
+ "sections": [
+  {
+   "title": "Unraveling the Rot Hides",
+   "body": "The Rot Hide gnolls that prowl Silverpine Forest are no ordinary beasts. After recovering samples from the creatures and their lingering remnants, Apothecary Renferrel of the Royal Apothecary Society reduced the vile liquid into its constituent elements. His chemical breakdown revealed that the ichor was artificially manufactured through a convergence of dark schools: necromantic rites woven together with warlock magics. Because the craft behind it borders on arcane disciplines outside simple alchemy, Renferrel packaged this sample and dispatched it to the Undercity for Bethor Iceshard to examine with divination.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sample Ichor?",
+   "aliases": [
+    "sample ichor",
+    "what is this ichor",
+    "what is sample ichor"
+   ],
+   "answer": "It is a refined extract prepared by Apothecary Renferrel from the bodily fluids of the rot hide gnolls. Renferrel separated it into its base components to analyze the magical methods used to create the walking dead beasts."
+  },
+  {
+   "q": "Who needs to see this sample?",
+   "aliases": [
+    "who do i bring the ichor to",
+    "sample ichor turn in",
+    "bethor iceshard ichor"
+   ],
+   "answer": "The sample must be delivered to Bethor Iceshard, an undead mage stationed within the Magic Quarter of the Undercity. Bethor's expertise in divination and magical traditions allows him to identify traces of magic that standard alchemy cannot discern."
+  },
+  {
+   "q": "What kind of magic is inside the ichor?",
+   "aliases": [
+    "what magic is in the ichor",
+    "ichor magic type",
+    "rot hide magic"
+   ],
+   "answer": "Renferrel detected a combination of warlock and necromantic magic bound into the fluid. Upon examining the vial, Bethor Iceshard notes that it is laced with powerful, ancient enchantments that demand a deeper spell of divination to fully uncover."
+  },
+  {
+   "q": "Why didn't the apothecaries finish analyzing it themselves?",
+   "aliases": [
+    "why apothecary sent to bethor",
+    "why not renounce rot hide ichor"
+   ],
+   "answer": "While the Royal Apothecary Society excels in alchemy, toxins, and bodily blights, deciphering complex arcane weaves requires a dedicated sorcerer. Bethor Iceshard is skilled in identifying magical schools and unraveling esoteric spells beyond an apothecary's standard apparatus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Apothecary Renferrel specifically detects warlock arts interwoven with necromancy inside the ichor, hinting that fel practices helped bind these undead beasts."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Bethor Iceshard relies on specialized divination spells to read the residue in the sample, demonstrating the value of classical arcane analysis when confronting dark sorcery."
+  }
+ ],
+ "keywords": [
+  "apothecary renferrel",
+  "bethor iceshard",
+  "magic quarter",
+  "rot hide",
+  "rot hide origins",
+  "sample ichor",
+  "silverpine",
+  "undercity"
+ ],
+ "related": [
+  "quest:444",
+  "npc:apothecary-renferrel",
+  "npc:bethor-iceshard",
+  "subzone:magic-quarter",
+  "zone:undercity",
+  "topic:warlock"
+ ],
+ "attribution": [
+  "Sample Ichor",
+  "Rot Hide Origins"
+ ]
+}

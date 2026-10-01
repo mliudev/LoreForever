@@ -1,0 +1,96 @@
+{
+ "key": "item:enchanted-gaea-seeds",
+ "type": "item",
+ "name": "Enchanted Gaea Seeds",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Enchanted Gaea Seeds",
+  "quests": [
+   "quest:6381"
+  ]
+ },
+ "summary": "Enchanted Gaea Seeds are specially prepared botanical seeds meant to bring revitalization to the ravaged landscapes of Kalimdor. Empowered through druidic magic and gathered at Sun Rock Retreat, they are planted directly into the ash-choked soil of the Charred Vale to counteract devastation and rekindle natural growth.",
+ "sections": [
+  {
+   "title": "A Spark in the Ashes",
+   "body": "The Enchanted Gaea Seeds represent the Horde's druidic efforts to mend the deep scars left across Stonetalon Mountains. After raw Gaea Seeds are gathered and ritually enchanted by Tammra Windwhisper at Sun Rock Retreat, they carry sufficient resilience to overcome pervasive corruption and elemental blight. When pressed into the fertile dirt mounds that still survive beneath the soot of the Charred Vale, these seeds take root against the harsh conditions, anchoring new life in a landscape dominated by hostile fire elementals and invasive harpies.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Promise of Renewal",
+   "body": "The goal of planting these enchanted seeds extends beyond simple gardening; it is an active effort to turn the tide in the struggle for Stonetalon's future. The magic woven into the husks allows them to resist lingering corruption and establish a foothold for native flora. As they flourish, the restored vegetation is intended to soothe the agitated fire elementals, crowd out feral harpies, and counter the rampant deforestation driven by the Venture Company's relentless logging operations.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Enchanted Gaea Seeds used for?",
+   "aliases": [
+    "gaea seeds purpose",
+    "what do enchanted gaea seeds do",
+    "why plant gaea seeds"
+   ],
+   "answer": "They are planted into fertile dirt mounds within the Charred Vale. Their purpose is to sprout resilient flora that resists environmental corruption and begins healing the land destroyed by fire and warfare."
+  },
+  {
+   "q": "Who created or enchanted these seeds?",
+   "aliases": [
+    "who made the seeds",
+    "tammra windwhisper seeds",
+    "how are gaea seeds made"
+   ],
+   "answer": "Raw Gaea seeds are collected from the surrounding wilderness and brought to Tammra Windwhisper at Sun Rock Retreat. She enchants them so they can survive the hostile, ash-laden soil of the Charred Vale."
+  },
+  {
+   "q": "Why must they be planted in the Charred Vale?",
+   "aliases": [
+    "where do i plant them",
+    "why charred vale",
+    "charred vale planting"
+   ],
+   "answer": "The Charred Vale is the center of ecological destruction in the Stonetalon Mountains, overrun by angry fire elementals and harpies. Planting the seeds directly in its surviving soil mounds introduces vital life that works to soothe the region's turmoil."
+  },
+  {
+   "q": "What threats face the planted seeds?",
+   "aliases": [
+    "dangers in charred vale",
+    "what is destroying the land"
+   ],
+   "answer": "The Charred Vale is heavily plagued by hostile fire elementals born of the blaze, aggressive Bloodfury harpies nesting in the ruins, and encroaching industrial destruction from the Venture Company nearby."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The seeds showcase the fundamental druidic duty of nurturing the cycle of rebirth, actively coaxing resilient life back into a realm consumed by ruin and wildfire."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For the Shu'halo of Sun Rock Retreat, planting the enchanted seeds is an act of spiritual stewardship to honor the Earth Mother and reclaim wounded land."
+  }
+ ],
+ "keywords": [
+  "charred vale",
+  "enchanted gaea seeds",
+  "gaea seed",
+  "rebirth",
+  "stonetalon",
+  "sun rock retreat",
+  "tammra windwhisper"
+ ],
+ "related": [
+  "quest:6381",
+  "quest:6301",
+  "item:gaea-seed",
+  "subzone:charred-vale",
+  "subzone:sun-rock-retreat",
+  "zone:stonetalon",
+  "quest:6282",
+  "quest:764"
+ ],
+ "attribution": [
+  "Enchanted Gaea Seeds",
+  "New Life"
+ ]
+}

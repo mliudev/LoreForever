@@ -1,0 +1,95 @@
+{
+ "key": "item:ring-of-zoram",
+ "type": "item",
+ "name": "Ring of Zoram",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Ring of Zoram",
+  "quests": [
+   "quest:1009"
+  ]
+ },
+ "summary": "The Ring of Zoram is an ancient Kaldorei heirloom dating back to the glory days of the sunken city of Zoram before the Great Sundering. Crafted to serve as a master key to the locks and vaults of the drowned city, it recently fell into the hands of the encroaching coastal naga.",
+ "sections": [
+  {
+   "title": "Master Key of the Sunken City",
+   "body": "Before the Well of Eternity collapsed and the oceans swallowed the western reaches of Kalimdor, Zoram was a coastal jewel of the night elven empire. The Ring of Zoram was worn by the rulers of the city and possessed unique properties: legend holds it served as a universal key to every intricate lock and vault fashioned within Zoram's borders. When the Great Sundering shattered the continent ten thousand years ago, the ring sank along with the city, lost beneath the crashing tides of what is now the Zoram Strand.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reclamation by the Naga",
+   "body": "For millennia, the ring remained buried beneath silt and ruins until the naga began scouring the coastline of Ashenvale. Ruuzel, a naga leader dwelling on an islet off the northern strand, uncovered the artifact among the sunken debris. Scholars like the night elf Talen seek the ring not merely for its antiquity, but because it functions as the only key capable of unlocking other relics salvaged from the depths, including sealed ancient statuettes recovered from the sea floor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Ring of Zoram used for?",
+   "aliases": [
+    "ring of zoram purpose",
+    "what does the ring do",
+    "ring of zoram lore"
+   ],
+   "answer": "Historically, the ring belonged to the rulers of Zoram and functioned as an enchanted master key capable of opening any lock in the city. In the present day, Talen seeks it specifically to open a locked ancient statuette recovered from the submerged ruins."
+  },
+  {
+   "q": "Who possesses the Ring of Zoram?",
+   "aliases": [
+    "who has the ring",
+    "ring of zoram drop",
+    "where to get ring of zoram"
+   ],
+   "answer": "The ring was dredged from the ruins by coastal naga invading the Zoram Strand. It is held primarily by their leader, Ruuzel, on an island off the northern coast, though another prominent naga named Lady Vespia has also been known to carry it."
+  },
+  {
+   "q": "Why does Talen want the ring?",
+   "aliases": [
+    "why talen wants ring",
+    "talen ring quest"
+   ],
+   "answer": "Talen seeks to uncover the secrets of the ancient statuette recovered from the Zoram Strand. Without the Ring of Zoram acting as its key, the statuette's ancient mechanism cannot be opened."
+  },
+  {
+   "q": "Where did the city of Zoram go?",
+   "aliases": [
+    "what happened to zoram",
+    "city of zoram lore"
+   ],
+   "answer": "Zoram was an ancient night elven city that stood along the western edge of Kalimdor prior to the Great Sundering ten thousand years ago. When the Well of Eternity imploded, the city was destroyed and drowned beneath the waves, leaving behind only the Zoram Strand."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The ring represents a tangible piece of pre-Sundering heritage from an age before the Kaldorei empire was torn apart by arcane hubris and drowning seas."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Recovering the ring from the naga aids the night elf scholar Talen in reclaiming stolen kaldorei history along the contested borders of Ashenvale."
+  }
+ ],
+ "keywords": [
+  "ancient statuette",
+  "ashenvale",
+  "lady vespia",
+  "ring of zoram",
+  "ruuzel",
+  "talen",
+  "zoram strand"
+ ],
+ "related": [
+  "npc:talen",
+  "quest:1009",
+  "item:ancient-statuette",
+  "subzone:zoram-strand",
+  "zone:ashenvale",
+  "topic:naga",
+  "quest:1007",
+  "quest:1008"
+ ],
+ "attribution": [
+  "Ring of Zoram",
+  "Ruuzel (Classic)"
+ ]
+}

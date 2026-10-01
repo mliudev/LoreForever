@@ -1,0 +1,125 @@
+{
+ "key": "npc:bazil-thredd",
+ "type": "npc",
+ "name": "Bazil Thredd",
+ "era": "classic",
+ "zone": "stockade",
+ "meta": {
+  "wiki": "Bazil Thredd",
+  "refs": 5
+ },
+ "summary": "Bazil Thredd is Edwin VanCleef's lieutenant and most trusted assistant, locked in the Stormwind Stockade since the Stonemasons' riots that killed Queen Tiffin. Now the prison has risen in revolt, and Thredd leads the rioting Defias inmates from its eastern cell block.",
+ "sections": [
+  {
+   "title": "VanCleef's Lieutenant",
+   "body": "When the Stonemasons Guild was refused payment by the nobility of Stormwind for rebuilding the city, Edwin VanCleef rejected government appeasements and sparked open revolt. Bazil Thredd stood at VanCleef's side as his chief lieutenant and most trusted assistant. During the violent clashes that followed—which resulted in the death of Queen Tiffin Wrynn—Thredd was captured by the city guard. While VanCleef and the surviving masons fled into Westfall to form the Defias Brotherhood, Thredd was cast into the depths of the Stormwind Stockade.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Stockade Uprising",
+   "body": "For years, Thredd remained silent and seemingly forsaken behind iron bars. That isolation shattered with a massive prison riot that overran the guards, opening the cells and turning the Stockade into an armed fortress right under the Mage Quarter. Taking leadership of the imprisoned Defias bandits, insurgents, and allied cutthroats, Thredd established his command post in the eastern wing under the guard of an ogre named Hamhock. Warden Thelwater, desperate to restore order before the chaos spills into the city streets, demands Thredd's head to break the rebellion's leadership.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Curious Visitor",
+   "body": "Warden Thelwater long believed the Brotherhood had abandoned Thredd to rot. However, a few months prior to the uprising, an enigmatic man presenting papers under the name Maelik began visiting Thredd once or twice a week. Despite Thelwater's suspicions, the visitor's documentation proved entirely legitimate. These secretive meetings ended just as the prison erupted into coordinated violence, suggesting that outside hands within the city actively organized the riot.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bazil Thredd?",
+   "aliases": [
+    "bazil thredd lore",
+    "who is thredd",
+    "stockade boss thredd"
+   ],
+   "answer": "Bazil Thredd was the right hand of Edwin VanCleef during the Stonemasons' rebellion in Stormwind. Following his capture during the riots that killed Queen Tiffin, he was imprisoned in the Stockade, where he now leads the mutinous inmates."
+  },
+  {
+   "q": "Where can Bazil Thredd be found?",
+   "aliases": [
+    "where is bazil thredd",
+    "thredd location",
+    "find bazil thredd"
+   ],
+   "answer": "He is located deep inside the Stormwind Stockade, the prison complex beneath the Canal District near the Mage Quarter. At the main hallway intersection, head down the eastern cell block past the ogre brute Hamhock; Thredd commands from the center cell of the far chamber."
+  },
+  {
+   "q": "Why is the Stockade rioting?",
+   "aliases": [
+    "why are they rioting",
+    "stockade riot cause",
+    "why did prisoners revolt"
+   ],
+   "answer": "The inmates have overpowered the guards, opened the cells and taken the prison's halls for themselves. Bazil Thredd, the most important Defias prisoner in the Stockade, has taken command of the rioting bandits and convicts, and Warden Thelwater is struggling to keep the revolt from spilling into the streets of Stormwind."
+  },
+  {
+   "q": "Why does Warden Thelwater want Thredd dead?",
+   "aliases": [
+    "why kill thredd",
+    "thelwater bounty thredd",
+    "head of bazil thredd reason"
+   ],
+   "answer": "Warden Thelwater believes the uprising cannot be quelled while Thredd lives to direct it. With the prison guard overwhelmed and the inmates holding the complex, the warden orders Thredd executed to shatter the rebellion's command structure."
+  },
+  {
+   "q": "Who was visiting Thredd before the riot?",
+   "aliases": [
+    "thredd visitor",
+    "who is maelik",
+    "curious visitor identity"
+   ],
+   "answer": "A quiet man claiming the name Maelik visited Thredd weekly in the months leading up to the uprising. Though Thelwater was suspicious, the visitor held legitimate paperwork, strongly implying Defias sympathizers or corrupt officials inside Stormwind facilitated the contact."
+  },
+  {
+   "q": "What was Thredd's role in the Stonemasons Guild?",
+   "aliases": [
+    "was thredd a mason",
+    "thredd stonemason",
+    "stonemason thredd"
+   ],
+   "answer": "Thredd served as Edwin VanCleef's principal lieutenant during the reconstruction of Stormwind and the subsequent labor disputes, helping organize the guild's resistance when the House of Nobles refused to compensate them for their labor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "A Defias revolt right beneath Stormwind's streets is a direct threat to the capital, and Warden Thelwater wants its leader dealt with before it spreads."
+  },
+  {
+   "target": "race:Human",
+   "text": "Thredd is a living reminder of the Stonemasons' riots that claimed Queen Tiffin and set the Defias Brotherhood against the kingdom."
+  }
+ ],
+ "keywords": [
+  "bazil thredd",
+  "defias",
+  "defias brotherhood",
+  "edwin vancleef",
+  "hamhock",
+  "maelik",
+  "stockade",
+  "stonemasons",
+  "stormwind stockade",
+  "thredd",
+  "tiffin wrynn",
+  "warden thelwater"
+ ],
+ "related": [
+  "zone:stockade",
+  "subzone:stormwind-stockade",
+  "npc:warden-thelwater",
+  "npc:edwin-vancleef",
+  "topic:defias-brotherhood",
+  "npc:hamhock",
+  "npc:baros-alexston",
+  "item:head-of-bazil-thredd"
+ ],
+ "attribution": [
+  "Bazil Thredd",
+  "Bazil Thredd (quest)",
+  "The Stockade Riots",
+  "The Curious Visitor"
+ ]
+}

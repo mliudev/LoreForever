@@ -1,0 +1,93 @@
+{
+ "key": "item:elixir-of-pain",
+ "type": "item",
+ "name": "Elixir of Pain",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Elixir of Pain",
+  "quests": [
+   "quest:502"
+  ]
+ },
+ "summary": "The Elixir of Pain is an experimental alchemical concoction brewed by Forsaken apothecaries stationed in Tarren Mill. Distilled using blood harvested across the foothills, the mixture is designed to test biological agents intended to serve Lady Sylvanas's darker ambitions.",
+ "sections": [
+  {
+   "title": "Apothecary Experimentation",
+   "body": "The Royal Apothecary Society relentlessly pursues new formulas to bolster the Forsaken's position against their mortal neighbors and the Scourge. The Elixir of Pain represents one such trial, blended from freshly harvested ingredients collected around the Hillsbrad Foothills. Concocted with little regard for the living, the potion serves as a proof of concept for volatile substances intended to aid the Dark Lady.",
+   "spoiler": 0
+  },
+  {
+   "title": "Field Testing on Stanley",
+   "body": "Rather than risk precious military assets or immediately expose their operations to Hillsbrad's defenders, the apothecaries seek a subtle test subject. The elixir is fed to Stanley, a seemingly harmless domestic dog belonging to Farmer Ray on the northern farmstead of Hillsbrad Fields. Instead of a quiet demise, the toxic brew violently mutates the poor animal into an enraged, monstrous wolf.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Elixir of Pain?",
+   "aliases": [
+    "why make elixir of pain",
+    "elixir purpose",
+    "what does the elixir do"
+   ],
+   "answer": "The Elixir of Pain is an experimental potion crafted to test biological compounds for the Royal Apothecary Society. Its creators hope such mixtures will eventually yield devastating concoctions to serve Lady Sylvanas and secure Forsaken dominance."
+  },
+  {
+   "q": "Who is Stanley?",
+   "aliases": [
+    "who is stanley",
+    "farmer ray dog",
+    "stanley dog"
+   ],
+   "answer": "Stanley is a pet dog belonging to Farmer Ray at the northern farm in Hillsbrad Fields. He is chosen by the Forsaken apothecaries as an unsuspecting test subject to see the physiological effects of their newly brewed elixir."
+  },
+  {
+   "q": "What happens when Stanley drinks the elixir?",
+   "aliases": [
+    "what happens to stanley",
+    "does stanley die",
+    "stanley wolf transformation"
+   ],
+   "answer": "The volatile chemicals in the elixir cause Stanley to violently mutate into a feral, vicious wolf. Rather than merely poisoning the animal, the concoction warps his form and drives him into an aggressive frenzy."
+  },
+  {
+   "q": "Where is the elixir tested?",
+   "aliases": [
+    "where do i take the elixir",
+    "stanley location",
+    "farmer ray farm"
+   ],
+   "answer": "The test takes place outside the northern farmhouse within Hillsbrad Fields, located southwest of Tarren Mill. Stanley typically rests near the front porch of Farmer Ray's house."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Royal Apothecary Society's callous field trials demonstrate the Forsaken's willingness to use whatever means necessary to develop chemical weapons against the living."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Allies of the Forsaken are often called to facilitate these grim tests, witnessing firsthand the unsettling methods Tarren Mill's researchers employ."
+  }
+ ],
+ "keywords": [
+  "apothecary",
+  "elixir of pain",
+  "farmer ray",
+  "hillsbrad fields",
+  "royal apothecary society",
+  "stanley",
+  "sylvanas",
+  "tarren mill"
+ ],
+ "related": [
+  "quest:501",
+  "subzone:hillsbrad-fields",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Elixir of Pain",
+  "Elixir of Pain (2)"
+ ]
+}

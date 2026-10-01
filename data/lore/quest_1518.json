@@ -1,0 +1,132 @@
+{
+ "key": "quest:1518",
+ "type": "quest",
+ "name": "Call of Earth",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   1518
+  ],
+  "level": "4",
+  "faction": "Horde",
+  "start": "Minor Manifestation of Earth",
+  "end": "Canaga Earthcaller",
+  "previous": "Call of Earth (Durotar 2)",
+  "next": null,
+  "wiki": "Call of Earth (Durotar 3)",
+  "chain": [
+   "Call of Earth (Durotar)",
+   "Call of Earth (Durotar 2)",
+   "Call of Earth (Durotar 3)"
+  ]
+ },
+ "summary": "Call of Earth is the culminating rite in the trial of earth for young shaman in Durotar. After communing with a manifestation of the earth spirit, an initiate returns to Canaga Earthcaller with rough quartz to receive their first elemental totem.",
+ "sections": [
+  {
+   "title": "Heart of the Stone",
+   "body": "To commune with the earth, a novice shaman must look beyond brute strength. Upon demonstrating patience and humility before the Minor Manifestation of Earth, the initiate is granted a modest token: a piece of rough quartz. Though unassuming in appearance, this tiny stone serves as an enduring seed of power and proof that the spirit has accepted the petitioner's pledge.",
+   "spoiler": 0
+  },
+  {
+   "title": "The First of Four Paths",
+   "body": "Bringing the quartz back to Canaga Earthcaller in the Valley of Trials completes the trial. Canaga crafts the stone into an Earth Totem, the physical focus through which the shaman channels the ground's steadfast protection and strength. This rite marks the initiate's formal entrance into the first of the four elemental disciplines, laying the foundation for a lifetime of communion with the natural world.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the rough quartz used for?",
+   "aliases": [
+    "rough quartz",
+    "what does quartz do",
+    "purpose of quartz"
+   ],
+   "answer": "The rough quartz is gifted by the Minor Manifestation of Earth as proof that you have communed with the spirit. Canaga Earthcaller embeds this pebble into your newly carved Earth Totem, where it acts as the heart and focus for your earth spells."
+  },
+  {
+   "q": "Who is Canaga Earthcaller?",
+   "aliases": [
+    "canaga",
+    "canaga earthcaller",
+    "who is canaga"
+   ],
+   "answer": "Canaga Earthcaller is a shaman trainer located in the Valley of Trials in Durotar. He guides young orc and troll initiates through their earliest trials, preparing them to commune with elemental spirits and crafting their first totems."
+  },
+  {
+   "q": "Can tauren do this quest?",
+   "aliases": [
+    "can tauren do durotar call of earth",
+    "tauren shaman durotar",
+    "tauren call of earth"
+   ],
+   "answer": "Yes. While tauren typically complete their trial of earth with their own elders at Red Cloud Mesa in Mulgore, any Horde shaman who travels to the Valley of Trials can undergo the ritual with Canaga Earthcaller."
+  },
+  {
+   "q": "What does receiving the Earth Totem signify?",
+   "aliases": [
+    "why get earth totem",
+    "shaman earth totem meaning"
+   ],
+   "answer": "Receiving an Earth Totem signifies that the spirit of the earth has recognized you. It serves both as a badge of your status among the shaman and as a necessary physical focus to cast earth-based blessings and wards."
+  },
+  {
+   "q": "What virtues does the earth demand from a shaman?",
+   "aliases": [
+    "earth spirit lessons",
+    "what does earth ask"
+   ],
+   "answer": "The spirit asks an initiate to remain patient, stay strong, and seek wisdom. It teaches that even the smallest pebble can outlast mountains if it endures, urging shaman to respect the ground so that it will support them in turn."
+  },
+  {
+   "q": "Where does the shaman path go after this?",
+   "aliases": [
+    "what totem next",
+    "after earth totem",
+    "four paths shaman"
+   ],
+   "answer": "Earth is only the first of the four elements a shaman must master. As your training continues, you will eventually be called to seek communion with the spirits of fire, water, and air."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This rite provides your very first totem, unlocking the ability to ground yourself in the elements and call upon the soil for aid."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The trial represents the continued revival of orcish shamanism in Durotar, turning back toward elemental balance after decades of demonic corruption."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear witch doctors and spiritualists learn beside the orcs in the Valley of Trials, adapting their traditional communion to include the four elemental paths."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The elements of Kalimdor are wild and untamed, making the bond forged by Horde shaman essential for the survival of their new settlements."
+  }
+ ],
+ "keywords": [
+  "call of earth",
+  "canaga earthcaller",
+  "durotar",
+  "earth totem",
+  "minor manifestation",
+  "rough quartz",
+  "shaman",
+  "valley of trials"
+ ],
+ "related": [
+  "npc:canaga-earthcaller",
+  "npc:minor-manifestation-of-earth",
+  "quest:1516",
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "topic:troll",
+  "zone:mulgore",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Call of Earth (Durotar 3)"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "key": "item:prairie-wolf-paw",
+ "type": "item",
+ "name": "Prairie Wolf Paw",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Prairie Wolf Paw",
+  "quests": [
+   "quest:748"
+  ]
+ },
+ "summary": "Prairie Wolf Paws are harvested from the predators roaming the plains of Mulgore. Shamanic practitioners, such as Mull Thunderhorn in Bloodhoof Village, use them as organic components to bind the natural power of the land into cleansing totems.",
+ "sections": [
+  {
+   "title": "Natural Reagents of the Plains",
+   "body": "Prairie wolves stalk the rolling grasses across Mulgore, hunting in packs alongside prairie stalkers and their pack alphas. While dangerous to young hunters and local livestock, the creatures are deeply intertwined with the spiritual balance of the plains. Tauren shamans view the wolf's paws not merely as trophies, but as vital conduits of the earth's innate vitality.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cleansing the Wells",
+   "body": "When goblin ventures tainted Mulgore's sacred water reserves, shaman Mull Thunderhorn required the physical aid of the land itself to counteract the pollution. Bound together with plainstrider talons, the wolf paws provide the raw spiritual resonance necessary to fashion cleansing totems, beginning the vital work of purifying the Winterhoof Water Well.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures drop a Prairie Wolf Paw?",
+   "aliases": [
+    "who drops prairie wolf paw",
+    "where to get prairie wolf paws",
+    "prairie wolf paw source"
+   ],
+   "answer": "They are gathered from prairie wolves, prairie stalkers, and prairie wolf alphas found hunting across the plains of Mulgore, primarily southwest of Bloodhoof Village."
+  },
+  {
+   "q": "Who wants Prairie Wolf Paws?",
+   "aliases": [
+    "who needs prairie wolf paws",
+    "mull thunderhorn wolf paws",
+    "prairie wolf paw turn in"
+   ],
+   "answer": "Mull Thunderhorn, a tauren shaman stationed in Bloodhoof Village, requests them to help craft a cleansing totem to restore the tainted water wells."
+  },
+  {
+   "q": "Why are wolf paws needed to cleanse water?",
+   "aliases": [
+    "why wolf paws",
+    "prairie wolf paw lore",
+    "why does mull want paws"
+   ],
+   "answer": "Tauren shamanism relies on channeling the natural vitality of the land to counteract corruption. The wolf paws, combined with bird talons, allow the shaman to bind the living spirit of Mulgore into an elemental totem capable of purging goblin poisons."
+  },
+  {
+   "q": "Which water well do these paws help cleanse?",
+   "aliases": [
+    "which well",
+    "winterhoof well cleansing"
+   ],
+   "answer": "The paws are collected specifically to craft the cleansing totem for the Winterhoof Water Well, which was poisoned by goblin interlopers and their agents."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, harvesting wolf paws is a solemn duty of stewardship, calling upon the land's native beasts to heal the ancestral water wells tainted by goblin greed."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Crafting cleansing totems out of local animal parts demonstrates the elemental principle of using the living essence of the land to purge unnatural corruption."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "mulgore",
+  "mull thunderhorn",
+  "plainstrider talon",
+  "poison water",
+  "prairie wolf",
+  "prairie wolf paw",
+  "winterhoof water well"
+ ],
+ "related": [
+  "quest:748",
+  "npc:mull-thunderhorn",
+  "subzone:winterhoof-water-well",
+  "item:plainstrider-talon",
+  "zone:mulgore",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Prairie Wolf Paw",
+  "Poison Water (Classic)"
+ ]
+}

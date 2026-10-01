@@ -1,0 +1,95 @@
+{
+ "key": "item:egalin-s-grimoire",
+ "type": "item",
+ "name": "Egalin's Grimoire",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Egalin's Grimoire",
+  "quests": [
+   "quest:1473"
+  ]
+ },
+ "summary": "Egalin's Grimoire is a prized arcane tome detailing the foundational rites required to summon and command a voidwalker. Penned by a master warlock, it serves as an essential teaching text within the Undercity's Temple of the Damned.",
+ "sections": [
+  {
+   "title": "A Master's Work",
+   "body": "Written by the master summoner Egalin, this grimoire details the delicate and dangerous process of pulling a being of chaos from the Nether. Egalin was renowned among practitioners for his effortless command over summoned voidwalkers, an ability passed down to his students, including Carendin Halgar. Without the specific formulas and channeling methods recorded in the text, an unprepared summoner risks being torn apart by the very entity they call forth.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scarlet Theft",
+   "body": "The grimoire was stolen from the Forsaken warlocks by an operative of the Scarlet Crusade named Perrine, who stashed it in a chest within a tower along western Tirisfal Glades. Despite the zealots' hatred of dark magic, the thief seemed largely ignorant of the book's true significance, treating it as little more than seized heretical salvage until retrieved by Forsaken initiates seeking to master the void.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Egalin?",
+   "aliases": [
+    "who is egalin",
+    "egalin lore",
+    "who wrote the grimoire"
+   ],
+   "answer": "Egalin was an exceptionally talented warlock and the mentor of Carendin Halgar. He is remembered for being the first among them to summon a voidwalker and for commanding chaotic entities with absolute ease."
+  },
+  {
+   "q": "Why is Egalin's Grimoire so dangerous?",
+   "aliases": [
+    "what does the grimoire do",
+    "voidwalker tome danger",
+    "why dangerous"
+   ],
+   "answer": "The book contains the incantations and channeling methods needed to summon a voidwalker. If a warlock attempts the ritual without properly mastering these instructions, the summoned void entity will tear them apart."
+  },
+  {
+   "q": "How did the Scarlet Crusade get the book?",
+   "aliases": [
+    "who stole the book",
+    "perrine grimoire",
+    "why do crusaders have it"
+   ],
+   "answer": "A Scarlet Crusade agent named Perrine managed to steal the tome from the Forsaken warlocks. He locked it away inside a chest at a Crusade watchtower in western Tirisfal Glades, seemingly unaware of its true magical worth."
+  },
+  {
+   "q": "Who needs this grimoire returned?",
+   "aliases": [
+    "who wants the grimoire",
+    "who turns in egalin grimoire",
+    "carendin halgar book"
+   ],
+   "answer": "Carendin Halgar, the warlock trainer residing in the Temple of the Damned beneath the Undercity, requires the grimoire to teach new initiates how to summon and bind voidwalkers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Egalin's Grimoire contains the precise techniques needed to pull a voidwalker from the Nether and bind it to your will, a crucial rite of passage for any practitioner."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Recovering the book denies the fanatic Scarlet Crusade possession of a powerful magical artifact stolen directly from the Undercity's practitioners."
+  }
+ ],
+ "keywords": [
+  "carendin halgar",
+  "creature of the void",
+  "egalin",
+  "egalin's grimoire",
+  "perrine",
+  "temple of the damned",
+  "voidwalker"
+ ],
+ "related": [
+  "quest:1473",
+  "npc:carendin-halgar",
+  "quest:1471",
+  "topic:scarlet-crusade",
+  "zone:undercity",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Egalin's Grimoire",
+  "Creature of the Void (Undercity)"
+ ]
+}

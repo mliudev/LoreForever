@@ -1,0 +1,81 @@
+{
+ "key": "item:hallowed-tablet",
+ "type": "item",
+ "name": "Hallowed Tablet",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Hallowed Tablet",
+  "quests": [
+   "quest:3085"
+  ]
+ },
+ "summary": "The Hallowed Tablet is an inscribed message delivered to young Darkspear troll priests training in the Valley of Trials. Sent by the spiritual elder Ken'jai, it bids novices to seek him out and begin learning how to commune with the spirits.",
+ "sections": [
+  {
+   "title": "A Summons from the Spirits",
+   "body": "When a promising troll priest takes their first steps in the harsh crimson canyons of the Valley of Trials, Gornek hands them the Hallowed Tablet. Rather than a formal bureaucratic writ, it serves as a personal invitation from Ken'jai, the resident priest trainer residing outside the Den. Ken'jai interprets the signs and whisperings of the spirits, sensing when young Darkspear with spiritual potential arrive in Durotar. The tablet instructs the initiate to read its words and present themselves for guidance on properly channeling spiritual authority.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Hallowed Tablet?",
+   "aliases": [
+    "what is this item",
+    "hallowed tablet lore",
+    "what does the tablet do"
+   ],
+   "answer": "It is an inscribed stone tablet passed to novice troll priests by Gornek in the Valley of Trials. It contains a message directing the initiate to Ken'jai, their class trainer."
+  },
+  {
+   "q": "Who sent the tablet?",
+   "aliases": [
+    "who wrote it",
+    "who gave me this",
+    "tablet author"
+   ],
+   "answer": "The tablet was sent by Ken'jai, the priest trainer situated outside the Den. The spirits foretold the arrival of a new acolyte, prompting him to send word via Gornek."
+  },
+  {
+   "q": "Why do troll priests need to see Ken'jai?",
+   "aliases": [
+    "what does kenjai do",
+    "why see kenjai"
+   ],
+   "answer": "Darkspear priests rely on communing with and commanding the spirits. Ken'jai guides initiates as their spiritual connection deepens, ensuring the spirits favor teaching them more potent abilities."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For the Darkspear, priesthood is an intimate communion with the spirits and loa, making the call inscribed on the tablet an invitation into ancestral spiritual traditions."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The tablet marks the start of a priest's formal training in Durotar, establishing their bond with class mentor Ken'jai."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "durotar",
+  "gornek",
+  "hallowed tablet",
+  "ken'jai",
+  "troll priest",
+  "valley of trials"
+ ],
+ "related": [
+  "quest:3085",
+  "npc:gornek",
+  "topic:priest",
+  "topic:troll",
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "quest:1089"
+ ],
+ "attribution": [
+  "Hallowed Tablet",
+  "Hallowed Tablet (quest)"
+ ]
+}

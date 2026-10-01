@@ -1,0 +1,90 @@
+{
+ "key": "item:verdant-note",
+ "type": "item",
+ "name": "Verdant Note",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Verdant Note",
+  "quests": [
+   "quest:3094"
+  ]
+ },
+ "summary": "The Verdant Note is a summons delivered to novice tauren druids in Camp Narache. Sent on behalf of the druid mentor Gart Mistrunner, it instructs young initiates to report for training and begin learning the rites of the Earthmother.",
+ "sections": [
+  {
+   "title": "A Call to the Path",
+   "body": "Young tauren who demonstrate a spiritual affinity for nature receive the Verdant Note shortly after beginning their trials in the Red Cloud Mesa. Carried by a messenger sent by Gart Mistrunner, the brief missive directs the initiate to present themselves to the mentor at Camp Narache. Restless spirits and shifting elements have begun troubling Mulgore, making the instruction of new druids an urgent duty for the elders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Teachings of the Earthmother",
+   "body": "Upon answering the note, initiates are inducted into the deeper mysteries of nature communion. Gart Mistrunner cautions young druids that although night elves share a common bond with the wild, their ancient pride keeps them distant and unwelcoming. Tauren druidism focuses strictly on reverence for the Earthmother, guiding initiates to listen to the land's restless ancestral voices and serve as her living instruments.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Verdant Note?",
+   "aliases": [
+    "verdant note item",
+    "what is this note"
+   ],
+   "answer": "It is a written summons delivered to fledgling tauren druids at Camp Narache, instructing them to seek out their local trainer, Gart Mistrunner, to formally begin their spiritual education."
+  },
+  {
+   "q": "Who sends the Verdant Note?",
+   "aliases": [
+    "who sent verdant note",
+    "who wrote verdant note"
+   ],
+   "answer": "The note is sent by a messenger on behalf of Gart Mistrunner, the druid trainer stationed at Camp Narache on the Red Cloud Mesa."
+  },
+  {
+   "q": "Why is Gart Mistrunner calling for druid initiates?",
+   "aliases": [
+    "why does gart want me",
+    "gart mistrunner reason"
+   ],
+   "answer": "Ancestral spirits across Mulgore and neighboring regions have grown unusually restless. Gart needs newly awakened druids trained quickly so they can commune with the wild spirits and heal the disturbed land."
+  },
+  {
+   "q": "What does Gart tell druids regarding the night elves?",
+   "aliases": [
+    "night elves and tauren druids",
+    "what about night elves"
+   ],
+   "answer": "Gart warns that despite sharing a sacred bond with nature, the night elves are proud and unlikely to welcome tauren into their circles. He advises initiates to keep their attention focused on the teachings of the Earthmother instead."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This parchment marks your formal acceptance into druidic study among the tauren, starting your lifelong journey in communion with the Earthmother."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For the Shu'halo, druidism is an ancestral calling directly tied to healing the balance of their sacred hunting grounds in Mulgore."
+  }
+ ],
+ "keywords": [
+  "camp narache",
+  "druid",
+  "earthmother",
+  "gart mistrunner",
+  "mulgore",
+  "red cloud mesa",
+  "verdant note"
+ ],
+ "related": [
+  "quest:3094",
+  "npc:gart-mistrunner",
+  "topic:druid",
+  "subzone:camp-narache",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Verdant Note",
+  "Verdant Note (quest)"
+ ]
+}

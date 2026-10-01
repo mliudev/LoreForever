@@ -1,0 +1,95 @@
+{
+ "key": "item:dalaran-mana-gem",
+ "type": "item",
+ "name": "Dalaran Mana Gem",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Dalaran Mana Gem",
+  "quests": [
+   "quest:1961"
+  ]
+ },
+ "summary": "Dalaran Mana Gems are crystallized arcane reserves carried by Kirin Tor personnel operating in Silverpine Forest. Forsaken spellcasters covet these gems as potent raw components for crafting enchanted vestments like spellfire robes.",
+ "sections": [
+  {
+   "title": "Stolen Arcana",
+   "body": "The mages, conjurors, and guards of the Kirin Tor stationed around Ambermill in Silverpine Forest carry specialized mana gems to focus and replenish their arcane energies. For the Forsaken practitioners in the Magic Quarter of the Undercity, these crystalline conduits represent an accessible source of concentrated magical essence. Although some undead mages acknowledge a shared academic heritage with Dalaran, pragmatic necessity and a philosophy of survival dictate that unyielding rivals are fair game to be stripped of their magical resources.",
+   "spoiler": 0
+  },
+  {
+   "title": "Weaving the Spellfire",
+   "body": "When harvested from fallen Kirin Tor operatives, these gems are brought to tailors like Josef Gregorian in the Undercity alongside bundles of simple linen. While ordinary craftsmen cannot directly channel arcane power, skilled tailors can bind the mana gems into the weave of the cloth. This infusion transforms common thread into enchanted garments capable of bolstering a fledgling spellcaster's connection to the arcane.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Dalaran Mana Gems come from?",
+   "aliases": [
+    "where to farm mana gems",
+    "dalaran gem drop",
+    "who drops mana gems"
+   ],
+   "answer": "They are carried by Kirin Tor forces stationed in Silverpine Forest, particularly around the Dalaran encampments and outposts near Ambermill, southeast of the Sepulcher."
+  },
+  {
+   "q": "What are these gems used for?",
+   "aliases": [
+    "mana gem purpose",
+    "why do i need dalaran mana gems"
+   ],
+   "answer": "Forsaken mages use them as essential enchanting components. Brought alongside linen to Josef Gregorian in the Undercity, they provide the magical charge required to weave spellfire robes."
+  },
+  {
+   "q": "Why are the Kirin Tor in Silverpine carrying these gems?",
+   "aliases": [
+    "why do dalaran wizards have gems",
+    "kirin tor mana gems lore"
+   ],
+   "answer": "Members of the Kirin Tor use mana gems as personal reservoirs of arcane power to sustain their spellcasting, defense wards, and conjurations in hostile territories like Silverpine Forest."
+  },
+  {
+   "q": "Why do the Forsaken target Dalaran mages for these gems?",
+   "aliases": [
+    "forsaken vs dalaran mages",
+    "why kill dalaran for robes"
+   ],
+   "answer": "While the Forsaken share academic roots with Dalaran's magical tradition, they view their living counterparts as rivals. Undercity mentors consider any mage who cannot defend their arcane wealth too weak to survive, justifying the harvest of their components."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Apprentice Forsaken mages are dispatched to harvest these gems as a rite of passage, proving both their martial competence and their mastery over harvested arcane sources."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The harvest highlights the cold pragmatism of the Forsaken, who discard sentimentality toward former human colleagues in Dalaran to fuel their own faction's survival."
+  }
+ ],
+ "keywords": [
+  "ambermill",
+  "dalaran mana gem",
+  "josef gregorian",
+  "kirin tor",
+  "linen",
+  "mana gem",
+  "silverpine forest",
+  "spellfire robes"
+ ],
+ "related": [
+  "quest:1961",
+  "quest:1962",
+  "npc:josef-gregorian",
+  "subzone:ambermill",
+  "subzone:magic-quarter",
+  "subzone:dalaran",
+  "zone:silverpine",
+  "topic:mage"
+ ],
+ "attribution": [
+  "Dalaran Mana Gem",
+  "Gathering Materials (Horde)"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "key": "item:encrypted-scroll",
+ "type": "item",
+ "name": "Encrypted Scroll",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Encrypted Scroll",
+  "quests": [
+   "quest:3096"
+  ]
+ },
+ "summary": "The Encrypted Scroll is a discreet parchment delivered to promising newly risen rogues in Deathknell. Bearing the seal of David Trias, it directs the recipient to introduce themselves for formal training among the Forsaken's covert operatives.",
+ "sections": [
+  {
+   "title": "A Covert Summons",
+   "body": "When a freshly awakened Forsaken shows an aptitude for stealth and subterfuge, they do not remain unnoticed for long. The Encrypted Scroll is handed over in Deathknell once a scout proves capable against the mindless Scourge roaming the nearby graveyard. Bearing the personal seal of the rogue trainer David Trias, the scroll instructs the bearer to seek him out in the local inn. It serves as an initial vetting process, pointing fledgling operatives toward the discipline required to serve the Dark Lady rather than wasting their second chance at life as mere pickpockets.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes of the Shadowstalkers",
+   "body": "The message itself is brief, directing the rogue to establish contact within Deathknell before venturing deeper into Tirisfal Glades. Trias keeps tabs on up-and-coming talent on behalf of the Shadowstalkers, the covert arm of the Forsaken. To survive in Lordaeron, the Forsaken rely heavily on silent blades and cunning scouts to counter the Scarlet Crusade, surviving Alliance enclaves, and leftover Scourge filth. Answering this ciphered summons is the first step toward joining that covert network.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Encrypted Scroll?",
+   "aliases": [
+    "what does scroll do",
+    "why encrypted scroll",
+    "scroll purpose"
+   ],
+   "answer": "The Encrypted Scroll is an introductory summons directed to newly risen Forsaken rogues. It instructs them to report to David Trias at the Deathknell inn to begin their professional rogue training."
+  },
+  {
+   "q": "Who sends the Encrypted Scroll?",
+   "aliases": [
+    "who wrote scroll",
+    "scroll sender",
+    "who is the scroll from"
+   ],
+   "answer": "The scroll bears the personal seal of David Trias, the resident rogue trainer stationed in Deathknell who keeps watch for promising new recruits."
+  },
+  {
+   "q": "What are the Shadowstalkers mentioned by David Trias?",
+   "aliases": [
+    "who are shadowstalkers",
+    "shadowstalkers forsaken",
+    "shadowstalker order"
+   ],
+   "answer": "The Shadowstalkers are a covert group of Forsaken rogues, scouts, and assassins who operate across Lordaeron. Trias evaluates fresh talent to determine who is worthy of eventually joining their ranks."
+  },
+  {
+   "q": "Where do I take the Encrypted Scroll after reading it?",
+   "aliases": [
+    "where turn in scroll",
+    "who do i bring scroll to",
+    "scroll hand in"
+   ],
+   "answer": "After reading the scroll, bring it directly to David Trias, who can be found lurking inside the inn at Deathknell."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The scroll marks the beginning of your professional instruction in stealth, lockpicking, and dirty fighting under the watchful eyes of the Forsaken rogue cadre."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the newly risen in Deathknell, this summons represents an early opportunity to secure a purposeful role within Sylvanas's emerging kingdom."
+  }
+ ],
+ "keywords": [
+  "david trias",
+  "deathknell",
+  "encrypted scroll",
+  "forsaken rogues",
+  "rogue trainer",
+  "shadowstalkers",
+  "tirisfal glades"
+ ],
+ "related": [
+  "quest:3096",
+  "npc:david-trias",
+  "subzone:deathknell",
+  "topic:rogue",
+  "zone:tirisfal",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Encrypted Scroll",
+  "Encrypted Scroll (quest)"
+ ]
+}

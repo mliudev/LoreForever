@@ -1,0 +1,115 @@
+{
+ "key": "npc:iverron",
+ "type": "npc",
+ "name": "Iverron",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Iverron",
+  "refs": 3
+ },
+ "summary": "Iverron is a young night elf found in Shadowglen, the sheltered starting bough of Teldrassil. Stricken by the venom of the woodland's increasingly agitated arachnids, his plight serves as an early warning of the growing corruption within the World Tree.",
+ "sections": [
+  {
+   "title": "A Bitter Bite",
+   "body": "While wandering through the quiet canopies of Shadowglen, Iverron ran afoul of the webwood spiders nesting in the vale. Succumbing quickly to their toxic bite, the young elf was left incapacitated, unable to return to safety on his own. His helpless condition highlights the sudden aggression sweeping through creatures that once shared the glade in peace.",
+   "spoiler": 0
+  },
+  {
+   "title": "Desperate Remedies",
+   "body": "Iverron's survival falls upon the quick thinking of his companions and local healers, who require potent woodland ingredients\u2014such as hyacinth mushrooms, moonpetal lilies and webwood ichor\u2014to brew an antidote. His brush with death is a sober reminder to all young kaldorei in Shadowglen that the boughs of Teldrassil are far from unblemished sanctuary.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Iverron?",
+   "aliases": [
+    "iverron lore",
+    "who is iverron",
+    "iverron night elf"
+   ],
+   "answer": "Iverron is a young night elf dwelling in Shadowglen within Teldrassil. During his travels through the woodland, he fell victim to the poisonous fauna haunting the boughs and required urgent aid to survive."
+  },
+  {
+   "q": "What poisoned Iverron?",
+   "aliases": [
+    "why is iverron sick",
+    "what bit iverron",
+    "iverron poison"
+   ],
+   "answer": "He was bitten by the aggressive webwood spiders that inhabit the thickets of Shadowglen, suffering from a debilitating venom that standard rest could not cure."
+  },
+  {
+   "q": "How is Iverron cured?",
+   "aliases": [
+    "cure iverron",
+    "iverron antidote",
+    "saving iverron"
+   ],
+   "answer": "He is cured through a concoction made of local Teldrassil plant matter, including hyacinth mushrooms and moonpetal lilies, mixed with webwood ichor from the spiders to create a targeted antidote."
+  },
+  {
+   "q": "Where can Iverron be found?",
+   "aliases": [
+    "iverron location",
+    "where is iverron",
+    "find iverron"
+   ],
+   "answer": "He is located in Shadowglen, the secluded starting glade in the crown of Teldrassil where novice night elves begin their training."
+  },
+  {
+   "q": "Who is helping Iverron?",
+   "aliases": [
+    "who saves iverron",
+    "iverron friends",
+    "dentaria silverglade iverron"
+   ],
+   "answer": "Iverron sends adventurers to his friend Dirania Silvershine, who gathers the ingredients for an antidote and sends it back to him before it loses its potency."
+  },
+  {
+   "q": "Why are the spiders in Shadowglen so hostile?",
+   "aliases": [
+    "why spiders attack",
+    "teldrassil spider corruption"
+   ],
+   "answer": "The sudden aggression of Shadowglen's spiders is part of an unnatural malady creeping into Teldrassil, warping normally reclusive beasts into violent predators."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For fledgling night elves taking their first steps outside Aldrassil, Iverron's misfortune is an early lesson in how quickly the wilds of Teldrassil are falling into imbalance."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids studying in Shadowglen view Iverron's poisoning as a symptom of a deeper affliction gripping nature, requiring remedies forged directly from the flora and fauna of the glade."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Iverron's survival depends on the prompt gathering of local Shadowglen flora, emphasizing the critical value of herbal knowledge in preserving life."
+  }
+ ],
+ "keywords": [
+  "antidote",
+  "dentaria",
+  "iverron",
+  "kaldorei",
+  "shadowglen",
+  "spider",
+  "teldrassil",
+  "venom"
+ ],
+ "related": [
+  "quest:3521",
+  "quest:3519",
+  "quest:4495",
+  "subzone:shadowglen",
+  "zone:teldrassil",
+  "topic:night-elf",
+  "npc:tarindrella"
+ ],
+ "attribution": [
+  "Iverron"
+ ]
+}

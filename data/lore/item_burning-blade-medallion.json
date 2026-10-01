@@ -1,0 +1,91 @@
+{
+ "key": "item:burning-blade-medallion",
+ "type": "item",
+ "name": "Burning Blade Medallion",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Burning Blade Medallion",
+  "quests": [
+   "quest:794"
+  ]
+ },
+ "summary": "The Burning Blade Medallion is a dark talisman carried by cultists lurking within the Valley of Trials. Guarded by dark magic in the depths of the Burning Blade Coven, it serves as direct proof of demonic corruption attempting to subvert the young warriors of Durotar.",
+ "sections": [
+  {
+   "title": "A Mark of Corruption",
+   "body": "Discovered deep inside the winding caverns of the Burning Blade Coven, the medallion is held by Yarrog Baneshadow, an agent of the sinister Burning Blade cult. Identified through the divinations of Zureetha Fargaze, the trinket channels dark power amidst the cult's impish familiars and felstalkers. Striking down its bearer and seizing the medallion cuts short an insidious attempt to undermine the Horde's training grounds from within Durotar itself.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Burning Blade Medallion?",
+   "aliases": [
+    "burning blade talisman",
+    "coven medallion",
+    "yarrog's medallion"
+   ],
+   "answer": "It is a magical talisman carried by Yarrog Baneshadow, an operative of the Burning Blade cult hiding within Durotar. The medallion serves as a focus of dark magic and a badge of allegiance among the cultists."
+  },
+  {
+   "q": "Who wants the medallion retrieved?",
+   "aliases": [
+    "who takes the medallion",
+    "where do i turn in the medallion",
+    "zureetha fargaze quest"
+   ],
+   "answer": "Zureetha Fargaze, an orc seer stationed outside the Den in the Valley of Trials, seeks the medallion to root out demonic influence and study the cult's local machinations."
+  },
+  {
+   "q": "Where is the medallion found?",
+   "aliases": [
+    "where is yarrog baneshadow",
+    "burning blade medallion location",
+    "how to find the medallion"
+   ],
+   "answer": "It is held deep inside the Burning Blade Coven, a hidden cave located northwest of the Den in the Valley of Trials. It is guarded by Yarrog Baneshadow, who lurks along the cave's upper ledges."
+  },
+  {
+   "q": "What does the medallion's presence mean for Durotar?",
+   "aliases": [
+    "why are cultists in valley of trials",
+    "is burning blade in durotar"
+   ],
+   "answer": "Its discovery confirms that the Burning Blade cult has slipped operatives right into the Horde's proving grounds, signaling that the cultists have far broader and more dangerous ambitions across the orcish homeland."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "The medallion represents the lingering shadow of the demonic corruption that once enslaved the orcish race, now threatening young initiates before they even leave the Valley of Trials."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "While dark magic is practiced by Horde warlocks under strict discipline, the medallion represents the rogue, unbound fel craft of the Burning Blade, which threatens the stability of Durotar."
+  }
+ ],
+ "keywords": [
+  "burning blade coven",
+  "burning blade medallion",
+  "durotar",
+  "felstalker",
+  "talisman",
+  "valley of trials",
+  "yarrog baneshadow",
+  "zureetha fargaze"
+ ],
+ "related": [
+  "npc:zureetha-fargaze",
+  "quest:794",
+  "subzone:burning-blade-coven",
+  "subzone:valley-of-trials",
+  "quest:1089",
+  "quest:792",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Burning Blade Medallion",
+  "Burning Blade Medallion (Classic)"
+ ]
+}

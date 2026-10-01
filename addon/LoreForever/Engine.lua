@@ -13,7 +13,8 @@ for w in ([[a an the of to in on at for from by with about and or but is are was
   those there here what whats which who whos whom whose why how when where can could would should will shall may
   might must just so than then too very really tell know explain story lore deal anything something some any
   more much many please want wanna like get got going go s t im ive thats hey okay ok well also whats
-  wait lol um uh hmm actually guys dude bro yeah yea anyway kinda sorta basically literally mean guy]]):gmatch("%a+") do
+  wait lol um uh hmm actually guys dude bro yeah yea anyway kinda sorta basically literally mean guy stuff
+  thing things]]):gmatch("%a+") do
   STOP[w] = true
 end
 
@@ -26,6 +27,91 @@ end
 local PRONOUN = { he = true, him = true, his = true, she = true, her = true, they = true, them = true,
   their = true, it = true, this = true, that = true, there = true, these = true, those = true }
 local PERSON = { he = true, him = true, his = true, she = true, her = true, guy = true, npc = true }
+
+-- Situational questions, recognized by their wording before stop words are dropped ("how did I get here?" is nothing
+-- but stop words). Each names FAQ intents (tagged by pipeline/lore/questions.py) and where the answer lives: the
+-- place the player is in, the quest in front of them, the subject (the creature, person or item the question names,
+-- else the target) or the player themselves. Words come from tokenize, so "what's" reads "what". First match wins,
+-- so the more specific phrases come first.
+local INTENT_PHRASES = {
+  { "arrival", "place", { "how did i get", "how did i end up", "how i got here", "how did i arrive", "how did i come",
+    "start here", "starting here", "started here", "why do i start", "why did i start", "where did i come from" } },
+  { "purpose", "place", { "what am i doing", "what am i supposed", "what am i meant", "what am i here for",
+    "why am i here", "why am i in", "what should i be doing", "what do i do here", "what my purpose",
+    "what is my purpose", "what my role", "what is my role" } },
+  { "place", "place", { "what is this place", "what this place", "what place is this", "where am i",
+    "what is this town", "what this town", "what is this village", "what this village", "what is this camp",
+    "what this camp", "what is this area", "what this area" } },
+  { "leader", "subject", { "who leads them", "who is their leader", "who their leader", "who is in charge of them",
+    "who their boss", "who is their boss", "who commands them" } },
+  { "history", "place", { "what happened here", "what happened to this place", "what happened to this town",
+    "history of this place", "history here", "what is the history here" } },
+  { "ruin", "place", { "why is this place ruined", "why is it ruined", "why is this ruined", "why is this abandoned",
+    "why is it abandoned", "why is this place abandoned", "why is everything destroyed", "why is this place destroyed",
+    "why is this town empty", "why is it so empty" } },
+  { "residents", "place", { "who lives here", "who lived here" } },
+  { "danger", "place", { "is it safe here", "is this place safe", "is this place dangerous", "is it dangerous here",
+    "is this area dangerous", "is this area safe" } },
+  { "name", "place", { "why is it called", "why is this place called", "why is this called", "where does the name",
+    "where did the name", "what does the name" } },
+  { "in_charge", "place", { "in charge", "who runs", "who leads here", "who rules here", "who the boss",
+    "who is the boss", "who commands here" } },
+  { "self_race", "self", { "my race", "my people", "my kind", "my ancestors", "my kin" } },
+  { "self_class", "self", { "my class", "my powers", "my power", "my magic", "my abilities", "my spells",
+    "why can i use", "how can i use" } },
+  { "self_faction", "self", { "why do we fight", "why are we fighting", "why are we at war", "why do we hate",
+    "my faction" } },
+  { "hostile", "subject", { "why are they attacking", "why is he attacking", "why is she attacking",
+    "why is it attacking", "attacking me", "attacking us", "why are they hostile", "why is he hostile",
+    "why are they aggressive", "why do they hate", "why are they angry" } },
+  { "allies", "subject", { "allied with", "working with", "working for", "who are they with", "their allies" } },
+  { "side", "subject", { "whose side", "which side", "is he friendly", "is she friendly", "are they friendly",
+    "is he an enemy", "is she an enemy", "are they enemies", "can i trust", "friend or foe", "good guy", "bad guy" } },
+  { "wants", "subject", { "what does he want", "what does she want", "what do they want" } },
+  { "why_here", "subject", { "why is he here", "why is she here", "why are they here", "why are these here",
+    "what are they doing here", "what is he doing here", "what is she doing here" } },
+  { "fame", "subject", { "why is he famous", "why is she famous", "why is he feared", "why is she feared",
+    "why is everyone afraid", "why is he so famous", "why is he so feared" } },
+  { "origin", "subject", { "where does this come from", "where did this come from", "who made this",
+    "where do these come from" } },
+  { "identity", "subject", { "who is this", "who this", "who is that", "who is he", "who is she", "what is this thing",
+    "what are these", "what are those", "what is that thing", "lore for", "lore on", "lore of", "lore about",
+    "tell me about", "history of", "story of", "story behind" } },
+  { "why_me", "quest", { "why me", "why cant he", "why cant she", "why cant they", "why dont they", "why doesnt he",
+    "why doesnt she", "why cant the guards", "do it himself", "do it herself", "do it themselves" } },
+  { "motive", "quest", { "why do i have to", "why do i need to", "why should i", "what the point", "what is the point",
+    "why am i killing", "why am i collecting", "why am i hunting", "why am i fetching", "why am i gathering" } },
+}
+local WANT = { want = true, wants = true, wanted = true, need = true, needs = true }
+-- Intents to look for, in order, for each recognized intent.
+local INTENT_FAQ = { arrival = { "arrival", "purpose" }, purpose = { "purpose", "arrival" }, place = { "place" },
+  in_charge = { "in_charge", "residents" }, motive = { "motive" }, item = { "item", "motive" },
+  why_me = { "why_me", "motive" }, threat = { "threat" }, history = { "history", "ruin" }, ruin = { "ruin", "history" },
+  residents = { "residents", "in_charge" }, danger = { "danger", "threat" }, name = { "name" },
+  identity = { "identity" }, hostile = { "hostile", "threat" }, leader = { "leader" }, allies = { "allies" },
+  side = { "side" }, wants = { "wants", "motive" }, why_here = { "why_here" }, fame = { "fame" },
+  origin = { "origin" }, self_race = { "for_you", "identity", "today" }, self_class = { "power", "for_you", "identity" },
+  self_faction = { "conflict", "identity" } }
+-- Where to look next when the subject has no such answer: "why are they attacking?" with nothing targeted is about
+-- the place's threats; "what does he want?" about the quest.
+local INTENT_FALLBACK = { hostile = { "threat", "place" }, why_here = { "threat", "place" },
+  wants = { "motive", "quest" } }
+-- Order FAQs are offered in: the situational and core questions first. Untagged FAQs keep their order after these.
+local INTENT_RANK = { arrival = 1, purpose = 2, motive = 1, item = 2, why_me = 3, place = 3, in_charge = 4,
+  target = 4, threat = 5, people = 6, history = 6, next_step = 7, identity = 2, for_you = 2, conflict = 2, power = 3,
+  wants = 3, hostile = 3, fame = 3, origin = 3, why_wanted = 3, side = 4, why_here = 4, today = 4, leader = 5,
+  allies = 5, residents = 5, ruin = 5, danger = 6, ties = 6, name = 7 }
+-- The player's own race, class and faction -> their lore topics ("my people", "why do we fight the Horde?").
+local SELF_TOPIC = {
+  self_race = function(ctx)
+    local r = ctx.race and Engine.lower(ctx.race)
+    local map = { human = "human", dwarf = "dwarf", gnome = "gnome", nightelf = "night-elf", orc = "orc",
+      troll = "troll", tauren = "tauren", undead = "forsaken", scourge = "forsaken", skyborne = "skyborne" }
+    return r and map[r] and "topic:" .. map[r]
+  end,
+  self_class = function(ctx) return ctx.class and "topic:" .. Engine.lower(ctx.class) end,
+  self_faction = function(ctx) return ctx.faction and "topic:" .. Engine.lower(ctx.faction) end,
+}
 
 -- lower() that also folds accented Latin capitals (U+00C0-00DE) and Cyrillic capitals (U+0400-042F) in UTF-8.
 function Engine.lower(s)
@@ -123,13 +209,17 @@ local KIND_WEIGHT = { [0] = 0.75, [1] = 1.0, [2] = 0.6 }
 
 -- Ask() ranking knobs (fields, so the eval harness can vary them).
 -- Score multiplier by entry type, for entries the player's context doesn't point at.
-Engine.TYPE_PRIOR = { topic = 1.0, zone = 1.0, city = 1.0, dungeon = 1.0, npc = 0.9, subzone = 0.75, quest = 0.7 }
+Engine.TYPE_PRIOR = { topic = 1.0, zone = 1.0, city = 1.0, dungeon = 1.0, npc = 0.9, subzone = 0.75, quest = 0.7,
+  item = 0.7 }
 -- Added per unit of (share of the entry's title words in the question x their idf). The eval plateaus from 4 to 6.
 Engine.TITLE_BONUS = 5.0
 -- Entries the player's context points at get their score multiplied by 1 + weight x this (weight 0.3 to 1.1).
 Engine.CTX_BOOST = 1.0
 -- A title word counts fully once this share of its docs belong to entries it names (see NameShare).
 Engine.NAME_SHARE_FULL = 0.5
+-- The FAQ that answers a situational question ("why does he want this?") scores x1.3 plus this. Vague questions score
+-- under ~25, so this decides them; a question that names something else scores far higher and goes by its words.
+Engine.INTENT_BONUS = 12
 
 local function enc(n, width)
   local t = {}
@@ -198,6 +288,16 @@ function Engine.new(db)
   self.search, self.post, self.N, self.avgLen = s, s.post, s.N, s.avgLen
   for i, k in ipairs(s.keys) do self.keyId[k] = i end
   for key, e in pairs(db.entries) do self:IndexNames(key, e) end
+  -- Quests by giver, for "why does this guy want me to do this?" before the quest is in the log.
+  self.giverQuests = {}
+  for key, e in pairs(db.entries) do
+    if e.t == "quest" and e.m and e.m.start then
+      local g = Engine.lower(e.m.start)
+      self.giverQuests[g] = self.giverQuests[g] or {}
+      table.insert(self.giverQuests[g], key)
+    end
+  end
+  for _, list in pairs(self.giverQuests) do table.sort(list) end
   -- Single-word name vocabulary, for typo-tolerant name matching.
   local vocab = {}
   for t in pairs(self.nameIndex) do
@@ -289,6 +389,10 @@ function Engine:KeyForName(name)
   local lower = Engine.lower(name)
   local k = idx.name[lower]
   if k then return k, "exact" end
+  -- "Deputy Willem", "Captain Danuvin": the person's entry may be under the name without the title.
+  local rest = lower:match("^%S+ (.+)$")
+  k = rest and idx.name[rest]
+  if k and k:find("^npc:") then return k, "exact" end
   if idx.mob then
     for w in lower:gmatch("[%a'\128-\255]+") do
       local m = idx.mob[w] or idx.mob[w:gsub("s$", "")]
@@ -318,7 +422,11 @@ function Engine:ContextKeys(ctx)
   end
   if ctx.targetName then add(self:KeyForName(ctx.targetName), 1.1) end
   for _, q in ipairs(ctx.quests or {}) do add(questKey(q), 1.0) end
-  if ctx.subzone then add(db.index.name[Engine.lower(ctx.subzone)], 0.9) end
+  if ctx.subzone then
+    local sub = Engine.lower(ctx.subzone)
+    add(db.index.name[sub] or db.index.name[(sub:gsub("^the ", ""))], 0.9)   -- "The Crossroads" is "Crossroads"
+    add(db.index.area and db.index.area[Engine.lower(ctx.subzone)], 0.85)   -- Northshire Abbey -> Northshire Valley
+  end
   local zk = self:ZoneKey(ctx.zone)
   if zk then add("zone:" .. zk, 0.8) end
   if ctx.zone then add(db.index.name[Engine.lower(ctx.zone)], 0.8) end
@@ -364,9 +472,139 @@ function Engine:CorrectTokens(qtoks)
   return out, fixed
 end
 
+-- Chat spellings, so "wat do i do here" and "whats this place" read like the phrases above.
+local SPELLING = { wat = "what", wut = "what", whats = "what", whos = "who", wheres = "where", hes = "he", shes = "she",
+  im = "i am", ur = "your", u = "you", r = "are", y = "why", dis = "this", da = "the", theyre = "they are" }
+
+-- Which situational question this is, from the raw words: intent and scope ("place", "quest", "subject" or
+-- "self"), or nil.
+function Engine.Intent(raw)
+  local words = {}
+  for i, w in ipairs(raw) do words[i] = SPELLING[w] or w end
+  local s = " " .. table.concat(words, " ") .. " "
+  local first, last = s:match("^ (%S+)"), words[#words]
+  -- "what is this for?", "what are these for?", "what am I fetching these for?"
+  if first == "what" and last == "for" then return "item", "quest" end
+  for _, p in ipairs(INTENT_PHRASES) do
+    for _, ph in ipairs(p[3]) do
+      if s:find(" " .. ph .. " ", 1, true) then return p[1], p[2] end
+    end
+  end
+  if first == "why" or first == "what" then
+    for _, w in ipairs(words) do
+      if WANT[w] then return "motive", "quest" end
+    end
+  end
+  return nil
+end
+
+-- A race-specific answer ("why is my troll starting in an orc camp?") is only offered to that race.
+local function raceKey(r)
+  return (Engine.lower(r):gsub("%s", ""):gsub("^scourge$", "undead"))
+end
+local function forRace(f, race)
+  return not f.rc or not race or raceKey(f.rc) == raceKey(race)
+end
+
+-- Index of the first FAQ tagged with one of `intents` (in that order), the player's own race's version first,
+-- skipping spoilers and gameplay filler.
+local function taggedFaq(e, intents, race)
+  for _, it in ipairs(intents) do
+    local generic
+    for i, f in ipairs(e.faq or {}) do
+      if f.it == it and not f.sp and not f.gp and forRace(f, race) then
+        if f.rc then return i end
+        generic = generic or i
+      end
+    end
+    if generic then return generic end
+  end
+end
+
+-- The entry and FAQ (0 for the overview) that answer a situational question. Place questions go to the most specific
+-- place the player is in that has an answer. Quest questions go to a quest whose item the question names, then one
+-- whose items are in the bags or whose giver is targeted, then an active quest. Subject questions go to the entry
+-- the question names (`namedKey`), else the target ("Riverpaw Gnoll" -> gnolls); self questions to the player's
+-- own race, class or faction. With no answer there, INTENT_FALLBACK says where to look next.
+function Engine:IntentTarget(intent, scope, ctx, raw, namedKey)
+  local db, intents = self.db, INTENT_FAQ[intent]
+  local keys, weight = self:ContextKeys(ctx)
+  if scope == "subject" or scope == "self" then
+    local k
+    if scope == "self" then
+      k = SELF_TOPIC[intent](ctx)
+    else
+      k = namedKey or (ctx.targetName and self:KeyForName(ctx.targetName))
+    end
+    local e = k and db.entries[k]
+    -- The subject's own answer, else its overview ("who leads them?" about a creature whose leader isn't known).
+    if e then return k, taggedFaq(e, intents, ctx.race) or 0 end
+    -- A target with no entry of its own (a young wolf): the question is still about it, so Ask searches by its name
+    -- rather than answering about the place.
+    if not e and scope == "subject" and not namedKey and ctx.targetName then return nil end
+    local fb = INTENT_FALLBACK[intent]
+    if fb then return self:IntentTarget(fb[1], fb[2], ctx, raw) end
+    return nil
+  end
+  if scope == "place" then
+    -- "Where does the name Defias come from?" is about the Defias, not the place the player stands in.
+    local named = namedKey and db.entries[namedKey]
+    local ni = named and taggedFaq(named, intents, ctx.race)
+    if ni then return namedKey, ni end
+    for _, k in ipairs(keys) do
+      local t = db.entries[k].t
+      if weight[k] >= 0.8 and (t == "subzone" or t == "zone" or t == "city" or t == "dungeon") then
+        local i = taggedFaq(db.entries[k], intents, ctx.race)
+        -- "What is this place?", "what happened here?": the overview of the most specific place, when it has no
+        -- such FAQ.
+        if i or intent == "place" or intent == "history" then return k, i or 0 end
+      end
+    end
+    return nil
+  end
+  local cands, score = {}, {}
+  local function add(k, s)
+    local e = db.entries[k]
+    if e and e.t == "quest" then
+      if not score[k] then cands[#cands + 1] = k end
+      score[k] = (score[k] or 0) + s
+    end
+  end
+  for _, k in ipairs(keys) do
+    if weight[k] == 1.0 then add(k, 1) end   -- in the quest log
+  end
+  local target = ctx.targetName and Engine.lower(ctx.targetName)
+  for _, k in ipairs(target and self.giverQuests[target] or {}) do add(k, 2) end
+  local words, bags = {}, {}
+  for _, w in ipairs(raw) do
+    if #w >= 4 and not STOP[w] then words[stem(w)] = true end
+  end
+  for _, name in ipairs(ctx.questItems or {}) do bags[Engine.lower(name)] = true end
+  for _, k in ipairs(cands) do
+    local named, carried = false, false
+    for _, item in ipairs(db.entries[k].m and db.entries[k].m.ri or {}) do
+      for _, t in ipairs((tokenize(item, false, true))) do
+        if words[t] then named = true end
+      end
+      if bags[Engine.lower(item)] then carried = true end
+    end
+    -- An item the question names beats one in the bags ("what are these for?" means what you're carrying).
+    score[k] = score[k] + (named and 3 or 0) + (carried and 2 or 0)
+  end
+  table.sort(cands, function(a, b2)
+    if score[a] ~= score[b2] then return score[a] > score[b2] end
+    return a < b2
+  end)
+  for _, k in ipairs(cands) do
+    local i = taggedFaq(db.entries[k], intents, ctx.race)
+    if i then return k, i end
+  end
+end
+
 -- Rank answer units. Returns up to `limit` results with distinct entries: {key, kind, idx, title, text, score}.
 function Engine:Ask(question, ctx, limit)
   limit = limit or 3
+  self.race = ctx and ctx.race or self.race   -- for FollowUps, which get no context
   local qtoks, raw = tokenize(question)
   qtoks = self:CorrectTokens(qtoks)
   local _, ctxWeight = self:ContextKeys(ctx)
@@ -405,8 +643,27 @@ function Engine:Ask(question, ctx, limit)
     if PRONOUN[w] then mentionsPronoun = true end
     if PERSON[w] or w == "this" or w == "that" then mentionsPerson = true end
   end
+  -- "how did I get here?", "why does he want this?": the FAQ tagged for that, at the player's place or quest.
+  local intentKey, intentDoc, intentBonus, aboutTarget
+  local intent, scope = Engine.Intent(raw)
+  if intent and ctx then
+    -- The entry whose whole name the question spells out, rarest words first ("lore for Hogger").
+    local namedKey, best = nil, 0
+    for k, v in pairs(titled) do
+      local w = titledIdf[k] or 0
+      if v >= 0.99 and (w > best or (w == best and namedKey and k < namedKey)) then namedKey, best = k, w end
+    end
+    local k, i = self:IntentTarget(intent, scope, ctx, raw, namedKey)
+    if k then intentKey, intentDoc = k, self:EntryDocs(k) + i end   -- the entry's docs: summary, then each FAQ
+    if not k and scope == "subject" and ctx.targetName then
+      for _, t in ipairs((tokenize(ctx.targetName))) do qtoks[#qtoks + 1] = t end
+      aboutTarget = true
+    end
+    -- "Why can I use the Light?": the player's own class outranks the Light topic the words point at.
+    intentBonus = self.INTENT_BONUS * (scope == "self" and 2 or 1)
+  end
   local followKey
-  if not namesAnything and (mentionsPronoun or #qtoks <= 2) then
+  if not intentKey and not aboutTarget and not namesAnything and (mentionsPronoun or #qtoks <= 2) then
     -- "who is this guy?" with an NPC targeted means the target; otherwise continue the conversation.
     local targetKey = ctx and ctx.targetName and self:KeyForName(ctx.targetName)
     followKey = (mentionsPerson and targetKey) or self.lastKey or targetKey
@@ -444,6 +701,7 @@ function Engine:Ask(question, ctx, limit)
   end
   for k in pairs(named) do include(k) end
   if followKey then include(followKey) end
+  if intentKey then include(intentKey) end
 
   local scored = {}
   for di, s in pairs(base) do
@@ -460,6 +718,11 @@ function Engine:Ask(question, ctx, limit)
     s = s + (titledIdf[key] or 0) * self.TITLE_BONUS
     -- Context scales with the match as well as adding to it, so it still counts when word scores run high.
     s = s * (1 + (ctxWeight[key] or 0) * self.CTX_BOOST) + (ctxWeight[key] or 0) * 1.5
+    if di == intentDoc then
+      s = s * 1.3 + intentBonus
+    elseif intentDoc and kind == 1 and self.db.entries[key].faq[idx].gp then
+      s = s * 0.5   -- asked why, not where: gameplay filler ("where are cactus apples found?") steps back
+    end
     if key == followKey then
       s = s + 3
     elseif not ctxWeight[key] then
@@ -586,23 +849,25 @@ function Engine:FollowUps(key, idx, limit)
   local function push(k, i)
     local q = self.db.entries[k] and self.db.entries[k].faq and self.db.entries[k].faq[i]
     local id = k .. ":" .. i
-    if q and not q.sp and not used[id] and not self.asked[id] and #out < limit then
+    if q and not q.sp and not q.gp and not used[id] and not self.asked[id] and #out < limit then
       used[id] = true
       out[#out + 1] = { key = k, idx = i, q = q.q, name = self.db.entries[k].n }
       return true
     end
   end
+  local own = Engine.RankedFaq(e, self.race)
   local function nextOwn()
-    for i = 1, #(e.faq or {}) do
+    for _, i in ipairs(own) do
       if push(key, i) then return end
     end
   end
   local text = (idx and e.faq and e.faq[idx] and e.faq[idx].a) or e.s
+  -- The follow-ups written for this question come first.
+  for _, i in ipairs(idx and e.faq and e.faq[idx] and e.faq[idx].nx or {}) do push(key, i) end
   nextOwn()
   -- Then people and places the answer itself mentions, then more about this entry.
   for _, k in ipairs(self:Mentions(text, key)) do
-    local f = self.db.entries[k].faq
-    for i = 1, #(f or {}) do
+    for _, i in ipairs(Engine.RankedFaq(self.db.entries[k], self.race)) do
       if push(k, i) then break end
     end
     if #out >= limit then break end
@@ -632,20 +897,40 @@ function Engine:Angle(key, ctx, rawWords)
   return nil
 end
 
+-- An entry's FAQ indices in the order to offer them: situational questions first (INTENT_RANK), then the rest in
+-- their own order. Spoiler answers, gameplay filler ("where are the wolves?") and other races' answers are left out.
+function Engine.RankedFaq(e, race)
+  local out, faq = {}, e and e.faq or {}
+  for i, f in ipairs(faq) do
+    if not f.sp and not f.gp and forRace(f, race) then out[#out + 1] = i end
+  end
+  table.sort(out, function(a, b2)
+    local ra, rb = INTENT_RANK[faq[a].it] or 9, INTENT_RANK[faq[b2].it] or 9
+    if ra ~= rb then return ra < rb end
+    return a < b2
+  end)
+  return out
+end
+
 -- Suggested questions for the panel: target and current quests first, then subzone, zone and bosses.
 function Engine:Suggest(ctx, limit)
   limit = limit or 6
   local keys = self:ContextKeys(ctx)
-  local out = {}
-  -- Round-robin across relevant entries so one quest doesn't take every slot.
+  local out, seen, ranked, pos = {}, {}, {}, {}
+  -- Round-robin across relevant entries so one quest doesn't take every slot; the same question on two entries
+  -- ("Who is Salma Saldean?" on her and on her quest) is offered once.
   for round = 1, 3 do
     for _, key in ipairs(keys) do
       local e = self.db.entries[key]
-      local f = e.faq and e.faq[round]
-      if f and f.sp then f = nil end   -- spoiler answers aren't suggested
-      if f and #out < limit then
-        out[#out + 1] = { key = key, idx = round, q = f.q }
+      ranked[key] = ranked[key] or Engine.RankedFaq(e, ctx and ctx.race)
+      local list, p = ranked[key], pos[key] or 1
+      while list[p] and seen[Engine.lower(e.faq[list[p]].q)] do p = p + 1 end
+      if list[p] and #out < limit then
+        seen[Engine.lower(e.faq[list[p]].q)] = true
+        out[#out + 1] = { key = key, idx = list[p], q = e.faq[list[p]].q }
+        p = p + 1
       end
+      pos[key] = p
     end
   end
   return out

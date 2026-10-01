@@ -1,0 +1,97 @@
+{
+ "key": "item:lorgalis-manuscript",
+ "type": "item",
+ "name": "Lorgalis Manuscript",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Lorgalis Manuscript",
+  "quests": [
+   "quest:971"
+  ]
+ },
+ "summary": "The Lorgalis Manuscript is an ancient text tied to the worship and lore of the Old Gods, preserved from the fallen night elven ruins beneath Ashenvale. Hidden within the sunken temple complex of Blackfathom Deeps, it holds secrets coveted by dark scholars seeking to awaken ancient, slumbering powers.",
+ "sections": [
+  {
+   "title": "A Tome of Those Who Sleep",
+   "body": "Dating back to the grand elven temples that stood before the Great Sundering, the Lorgalis Manuscript survived the cataclysmic flooding that submerged the ruins of Blackfathom. While the elves of antiquity gathered deep secrets, parts of their archives recorded darker powers. The manuscript contains potent lore tied directly to the Old Gods\u2014knowledge said to open mystical doorways and stir ancient entities that sleep deep beneath the world. Stored away in a pitted iron chest amidst the flooded corridors, it has drawn the attention of cultists and shadow scholars alike.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes in the Shadows",
+   "body": "In the Forlorn Cavern of Ironforge, an eccentric collector named Gerrig Bonegrip actively hires intrepid adventurers to venture across the sea to retrieve the text. Bonegrip speaks reverently of the 'end days' and the awakening of sleeping deities. Once recovered, the text is intended to be transcribed and shared among his shadowy circle of brothers and sisters, spreading forbidden insights that surface folk were never meant to comprehend.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Lorgalis Manuscript?",
+   "aliases": [
+    "what is lorgalis manuscript",
+    "lorgalis book lore",
+    "what does the manuscript do"
+   ],
+   "answer": "It is an ancient elven text containing dark, esoteric knowledge regarding the Old Gods. Its contents are said to hold the secrets necessary to unlock doorways and awaken slumbering primordial entities."
+  },
+  {
+   "q": "Where is the manuscript located?",
+   "aliases": [
+    "where to find lorgalis manuscript",
+    "manuscript location",
+    "blackfathom chest"
+   ],
+   "answer": "The manuscript rests within a pitted iron chest submerged deep inside Blackfathom Deeps, a ruined night elven temple located along the Zoram Strand in Ashenvale."
+  },
+  {
+   "q": "Who wants the manuscript?",
+   "aliases": [
+    "who wants lorgalis manuscript",
+    "gerrig bonegrip quest",
+    "who is bonegrip"
+   ],
+   "answer": "Gerrig Bonegrip, an enigmatic lorekeeper operating out of the Forlorn Cavern in Ironforge, commissions adventurers to recover it. He plans to copy and distribute its ancient teachings among his secretive peers."
+  },
+  {
+   "q": "Why does Gerrig Bonegrip talk about the end days?",
+   "aliases": [
+    "gerrig end days",
+    "bonegrip cultist",
+    "bonegrip old gods"
+   ],
+   "answer": "Bonegrip aligns himself with those who study and revere the Old Gods. His interest in ancient elven writings is focused on lore capable of awakening 'Those Who Sleep,' heralding what he considers the coming end times."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The manuscript represents a rare bridge between ancient elven arcane lore and forbidden entities of the deep, offering insights coveted by those who traffic in dark arts."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The text was penned by ancient night elven ancestors before their temple sank beneath the waves, though its obsession with slumbering dark powers makes it a tragic relic of their civilization's past."
+  }
+ ],
+ "keywords": [
+  "blackfathom deeps",
+  "forlorn cavern",
+  "gerrig bonegrip",
+  "ironforge",
+  "lorgalis",
+  "manuscript",
+  "old god",
+  "those who sleep"
+ ],
+ "related": [
+  "quest:971",
+  "npc:gerrig-bonegrip",
+  "zone:blackfathom",
+  "subzone:forlorn-cavern",
+  "zone:ashenvale",
+  "zone:ironforge",
+  "topic:old-god"
+ ],
+ "attribution": [
+  "Lorgalis Manuscript",
+  "Knowledge in the Deeps (Classic)"
+ ]
+}

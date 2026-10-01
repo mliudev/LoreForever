@@ -1,0 +1,96 @@
+{
+ "key": "item:gnoam-sprecklesprocket",
+ "type": "item",
+ "name": "Gnoam Sprecklesprocket",
+ "era": "classic",
+ "zone": "deadmines",
+ "meta": {
+  "wiki": "Gnoam Sprecklesprocket",
+  "quests": [
+   "quest:2040"
+  ]
+ },
+ "summary": "The Gnoam Sprecklesprocket is a sophisticated power supply salvaged from Sneed's shredder deep within the Deadmines. Gnomish engineers seek this component to supercharge specialized drilling machines in an ambitious bid to reclaim their fallen home of Gnomeregan.",
+ "sections": [
+  {
+   "title": "A Vital Power Source",
+   "body": "Though manufactured or modified by goblins working alongside the Defias Brotherhood, the Gnoam Sprecklesprocket represents an exceptional feat of compact mechanical energy. Operating deep in the lumbering machine piloted by the goblin taskmaster Sneed, this specialized core delivers enough sustained energy to drive heavy industrial logging and cutting blades. Its stability and potent output make it an invaluable piece of salvage amidst the subterranean tunnels of Westfall.",
+   "spoiler": 0
+  },
+  {
+   "title": "Breaching Gnomeregan",
+   "body": "In Stormwind City, the gnomish inventor Shoni the Shilent singled out the Deadmines shredder as the key to a larger offensive. Gnomish forces seek to reclaim Gnomeregan from the trogg hordes that overran it, but the sealed underground approaches present a formidable barrier. By harnessing the Sprecklesprocket, Shoni intends to power heavy gyrodrillmatic excavationators capable of boring directly through the solid bedrock surrounding the lost techno-city, establishing an unexpected underground assault route.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Gnoam Sprecklesprocket?",
+   "aliases": [
+    "sprecklesprocket",
+    "what is this sprocket",
+    "what is the item"
+   ],
+   "answer": "It is an intact, high-output mechanical power supply extracted from a goblin shredder found deep in the Deadmines. It possesses enough output to run heavy underground drilling apparatus."
+  },
+  {
+   "q": "Where does the Gnoam Sprecklesprocket come from?",
+   "aliases": [
+    "who drops it",
+    "how to get sprecklesprocket",
+    "shredder drop"
+   ],
+   "answer": "It is recovered from Sneed's Shredder, an industrial lumber machine operated by the goblin taskmaster Sneed inside the lumber mills of the Deadmines."
+  },
+  {
+   "q": "Why does Shoni the Shilent need it?",
+   "aliases": [
+    "why does shoni want this",
+    "shoni quest item"
+   ],
+   "answer": "Shoni requires its energy output to power gyrodrillmatic excavationators. These machines are designed to bore through the subterranean rock borders of Gnomeregan to allow Alliance-aligned gnomes to mount an assault against the troggs."
+  },
+  {
+   "q": "Is the sprocket goblin or gnomish technology?",
+   "aliases": [
+    "is it goblin tech",
+    "gnome or goblin device"
+   ],
+   "answer": "It was installed inside a goblin shredder utilized by the Defias Brotherhood, yet its precise name and the gnomes' specific interest imply it was either designed by gnomes, modified with gnomish schematics, or ideally compatible with gnomish machinery."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Every salvaged component brings the exiled gnomes closer to drilling into their lost home and driving out the trogg infestation."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The sprocket is a marvel of miniaturized power generation, capable of converting crude combustion into the torque needed for massive boring drills."
+  }
+ ],
+ "keywords": [
+  "deadmines",
+  "gnoam sprecklesprocket",
+  "gnomeregan",
+  "gyrodrillmatic",
+  "shoni the shilent",
+  "sneed",
+  "sneed's shredder",
+  "sprecklesprocket"
+ ],
+ "related": [
+  "quest:2040",
+  "npc:sneed-s-shredder",
+  "npc:shoni-the-shilent",
+  "npc:sneed",
+  "zone:deadmines",
+  "zone:gnomeregan",
+  "topic:trogg",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Gnoam Sprecklesprocket",
+  "Underground Assault"
+ ]
+}

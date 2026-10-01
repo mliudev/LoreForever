@@ -1,0 +1,95 @@
+{
+ "key": "item:ishamuhale-s-fang",
+ "type": "item",
+ "name": "Ishamuhale's Fang",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Ishamuhale's Fang",
+  "quests": [
+   "quest:882"
+  ]
+ },
+ "summary": "Ishamuhale's Fang is a hunting trophy taken from Ishamuhale, the notorious sunscale raptor known as Speartooth in the Barrens. Brought to Jorn Skyseer at Camp Taurajo, the tooth serves as proof of besting one of Kalimdor's deadliest natural predators.",
+ "sections": [
+  {
+   "title": "Trophy of Speartooth",
+   "body": "Ishamuhale is feared across the central savanna as the fiercest sunscale raptor alive, an apex hunter said to kill purely out of predatory passion rather than mere hunger. Lured into the open with fresh zhevra meat beside a withered tree northwest of Ratchet, the beast offers no quarter. Severing its massive fang proves to the hunting instructors of the Horde that a traveler has conquered not just a beast, but the sheer savagery of the plains.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Lesson in Temperance",
+   "body": "When presented to Jorn Skyseer at Camp Taurajo, the fang is recognized as far more than ivory and blood. To the tauren of the camp, taking Ishamuhale's fang transfers the predator's fierce strength to the hunter who bested him. The true test that follows is temperance: mastering that savage fury rather than letting it control the hunter's soul.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Ishamuhale's Fang?",
+   "aliases": [
+    "ishamuhale tooth",
+    "speartooth fang",
+    "raptor fang barrens"
+   ],
+   "answer": "It is a trophy claimed from the corpse of Ishamuhale, the infamous 'Speartooth' sunscale raptor prowling the Barrens."
+  },
+  {
+   "q": "Who wants Ishamuhale's Fang?",
+   "aliases": [
+    "who do i give ishamuhale fang to",
+    "turn in ishamuhale fang",
+    "where does ishamuhale fang go"
+   ],
+   "answer": "The fang is brought to Jorn Skyseer at Camp Taurajo as part of the hunting trials that begin under Sergra Darkthorn at the Crossroads."
+  },
+  {
+   "q": "How is the beast Ishamuhale found?",
+   "aliases": [
+    "how to get ishamuhale to spawn",
+    "summon ishamuhale",
+    "where is ishamuhale"
+   ],
+   "answer": "Ishamuhale does not wander openly. Hunters must slay a fresh zhevra and place its carcass near a dead tree northwest of Ratchet to bait the raptor out of hiding."
+  },
+  {
+   "q": "What does claiming the fang represent to the tauren?",
+   "aliases": [
+    "meaning of the fang",
+    "tauren hunter ritual ishamuhale"
+   ],
+   "answer": "According to Jorn Skyseer, claiming the trophy symbolizes that Ishamuhale's legendary strength now resides within the hunter, who must bear the burden of using that power with temperance and honor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Taking the fang of Speartooth is an essential rite of passage across the Barrens, testing a tracker's ability to bait, confront, and overcome a cunning apex beast."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "To the hunters of Taurajo, claiming the tooth is not about needless slaughter, but absorbing a predator's raw power while maintaining discipline and balance."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "fang",
+  "ishamuhale",
+  "jorn",
+  "raptor",
+  "sergra",
+  "speartooth",
+  "sunscale",
+  "taurajo"
+ ],
+ "related": [
+  "quest:882",
+  "subzone:camp-taurajo",
+  "zone:barrens",
+  "subzone:ratchet",
+  "quest:860"
+ ],
+ "attribution": [
+  "Ishamuhale's Fang",
+  "Ishamuhale (quest)"
+ ]
+}

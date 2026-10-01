@@ -1,0 +1,96 @@
+{
+ "key": "item:nightmare-shard",
+ "type": "item",
+ "name": "Nightmare Shard",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Nightmare Shard",
+  "quests": [
+   "quest:3369",
+   "quest:3370"
+  ]
+ },
+ "summary": "The Nightmare Shard is a crystalline relic handed to couriers by Falla Sagewind after she examines a tainted glowing shard recovered from the Wailing Caverns. Containing the pure, disturbed essence of the Emerald Dream, it carries a troubling vision that prompts immediate warning and secrecy among senior druids in Darnassus and Thunder Bluff.",
+ "sections": [
+  {
+   "title": "A Corrupted Vision",
+   "body": "When Falla Sagewind inspects the mysterious glowing shard unearthed deep within the Wailing Caverns, she realizes its energy is far darker than anticipated. Rather than mirroring the serene vitality of the Emerald Dream, the fragment reflects a twisting, unnatural affliction\u2014a waking nightmare. Fearful of what its presence implies, she binds this tainted essence into the Nightmare Shard and commands that it be ferried straight to elder leaders of the Cenarion Circle without delay.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hushed Omens",
+   "body": "Upon delivery to Archdruid Hamuul Runetotem on Elder Rise or Mathrengyl Bearwalker in Darnassus, both masters react with stunned dismay when peering within its depths. The vision contained inside rattles their composure, confirming their quiet suspicions that something has gone terribly wrong within the Dream itself. Reluctant to sow panic among the public, the druids quickly confiscate the shard and caution the courier to speak no further of what they witnessed.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Nightmare Shard?",
+   "aliases": [
+    "what is nightmare shard",
+    "nightmare shard lore"
+   ],
+   "answer": "It is a shard entrusted to adventurers by Falla Sagewind containing the captured essence of the Emerald Dream, derived from an artifact brought out of the Wailing Caverns. Instead of peaceful nature energies, it emanates a dark, corruptive dream vision."
+  },
+  {
+   "q": "Who created the Nightmare Shard?",
+   "aliases": [
+    "who made the nightmare shard",
+    "where does the shard come from"
+   ],
+   "answer": "Falla Sagewind provides the shard to the courier after analyzing a glowing fragment brought from the Wailing Caverns. Realizing the gravity and corruption of its nature, she charges the courier with taking it directly to senior druids for study."
+  },
+  {
+   "q": "Why are the druid leaders so alarmed by it?",
+   "aliases": [
+    "why is hamuul worried",
+    "why does mathrengyl hide the shard"
+   ],
+   "answer": "Peering into the shard reveals to Hamuul Runetotem and Mathrengyl Bearwalker that the Emerald Dream is actively being twisted by a nightmare. Because of the danger and potential panic this revelation could cause, both elders immediately silence further discussion and keep the matter strictly among senior members of the Cenarion Circle."
+  },
+  {
+   "q": "Where does the shard need to be delivered?",
+   "aliases": [
+    "who do i bring the shard to",
+    "nightmare shard turn in"
+   ],
+   "answer": "Horde adventurers are instructed to deliver it to Archdruid Hamuul Runetotem on Elder Rise in Thunder Bluff, while Alliance travelers carry it to Mathrengyl Bearwalker within the Cenarion Circle in Darnassus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids, the shard is a chilling revelation that their sacred sanctuary, the Emerald Dream, is no longer untouched by corruption, validating concerns over Naralex's fate in the Wailing Caverns."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The shard brings grave news directly to Elder Rise in Thunder Bluff, where Hamuul Runetotem strives to anchor the tauren's place within the wider Cenarion brotherhood."
+  }
+ ],
+ "keywords": [
+  "emerald dream",
+  "falla sagewind",
+  "glowing shard",
+  "hamuul runetotem",
+  "in nightmares",
+  "mathrengyl bearwalker",
+  "nightmare shard",
+  "wailing caverns"
+ ],
+ "related": [
+  "quest:3369",
+  "quest:6981",
+  "npc:falla-sagewind",
+  "npc:mathrengyl-bearwalker",
+  "quest:1489",
+  "topic:cenarion-circle",
+  "topic:emerald-dream",
+  "subzone:elder-rise"
+ ],
+ "attribution": [
+  "Nightmare Shard",
+  "In Nightmares (Horde)",
+  "In Nightmares (Alliance)"
+ ]
+}

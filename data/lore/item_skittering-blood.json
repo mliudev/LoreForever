@@ -1,0 +1,96 @@
+{
+ "key": "item:skittering-blood",
+ "type": "item",
+ "name": "Skittering Blood",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Skittering Blood",
+  "quests": [
+   "quest:447"
+  ]
+ },
+ "summary": "Skittering Blood is an alchemical reagent harvested from the arachnids dwelling within the Skittering Dark of Silverpine Forest. It serves as a vital toxic ingredient for the Royal Apothecary Society's research into a New Plague designed to eradicate both Scourge and humanity.",
+ "sections": [
+  {
+   "title": "A Toxic Distillate",
+   "body": "Harvested from Skitterweb lurkers, strikers, and their broodmother Krethis the Shadowspinner, this venomous hemolymph possesses virulent properties prized by Forsaken alchemists. Apothecary Renferrel discovered that when refined alongside toxins extracted from grizzled bear hearts, the blood forms the base of an exceptionally lethal elixir. The compounds within the fluid demonstrate severe contaminating agents, making it an ideal biological catalyst for the Apothecarium's chemical experiments.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fueling the New Plague",
+   "body": "Under the direction of Master Apothecary Faranell in the Undercity, the Royal Apothecary Society gathers reagents like Skittering Blood to engineer a devastating New Plague. Faced with overwhelming Scourge hordes and hostile human remnants, the Forsaken pursue biological warfare as an equalizer. Faranell analyzes the blood's toxic potency to devise a contagion potent enough to snuff out unlife and living flesh alike.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Skittering Blood used for?",
+   "aliases": [
+    "skittering blood use",
+    "why gather spider blood",
+    "what does faranell do with skittering blood"
+   ],
+   "answer": "The Royal Apothecary Society utilizes Skittering Blood to develop the Forsaken's New Plague. When blended with toxins derived from bear hearts, it produces a volatile mixture that Master Apothecary Faranell studies to eradicate both Scourge undead and living humans."
+  },
+  {
+   "q": "Where is Skittering Blood found?",
+   "aliases": [
+    "where to get skittering blood",
+    "skittering blood location",
+    "who drops skittering blood"
+   ],
+   "answer": "It is gathered from the bodies of Skitterweb spiders\u2014including lurkers, strikers, and Krethis the Shadowspinner\u2014lurking in and around the Skittering Dark, a gloomy web-choked wood located in northwestern Silverpine Forest."
+  },
+  {
+   "q": "Who requests these samples?",
+   "aliases": [
+    "who wants skittering blood",
+    "quest giver for skittering blood"
+   ],
+   "answer": "Apothecary Renferrel at the Sepulcher in Silverpine Forest commissions the collection of the blood, directing adventurers to deliver the harvested fluid straight to Master Apothecary Faranell in the Apothecarium of the Undercity."
+  },
+  {
+   "q": "Why do the Forsaken need venom from local beasts?",
+   "aliases": [
+    "why spider venom",
+    "apothecary beast research"
+   ],
+   "answer": "The Royal Apothecary Society constantly isolates natural toxins from Lordaeron's corrupted fauna. The inherent venom of the giant arachnids of Silverpine provides raw biological pathogens that can be concentrated and weaponized into synthetic plagues."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Contributing Skittering Blood directly aids Queen Sylvanas and the Royal Apothecary Society in engineering the ultimate biological weapon against Arthas and living humanity."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While Forsaken apothecaries welcome the raw materials to secure Lordaeron, other Horde members often view the virulent concoctions brewed from this blood with moral unease."
+  }
+ ],
+ "keywords": [
+  "faranell",
+  "new plague",
+  "renferrel",
+  "royal apothecary society",
+  "silverpine forest",
+  "skittering blood",
+  "skittering dark",
+  "skitterweb"
+ ],
+ "related": [
+  "quest:447",
+  "npc:master-apothecary-faranell",
+  "npc:apothecary-renferrel",
+  "topic:royal-apothecary-society",
+  "item:grizzled-bear-heart",
+  "subzone:skittering-dark",
+  "zone:silverpine",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "Skittering Blood",
+  "A Recipe For Death"
+ ]
+}

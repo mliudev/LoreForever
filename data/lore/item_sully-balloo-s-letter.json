@@ -1,0 +1,97 @@
+{
+ "key": "item:sully-balloo-s-letter",
+ "type": "item",
+ "name": "Sully Balloo's Letter",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Sully Balloo's Letter",
+  "quests": [
+   "quest:637"
+  ]
+ },
+ "summary": "Sully Balloo's Letter is a waterlogged, tender missive recovered from the sunken remains of a dwarven soldier beneath the Thandol Span. Addressed to his wife Sara in Ironforge, it represents the quiet personal tragedies lingering beneath the grand conflicts of Khaz Modan.",
+ "sections": [
+  {
+   "title": "A Final Farewell Beneath the Waves",
+   "body": "Beneath the massive stone pillars of the Thandol Span, connecting the Wetlands to the Arathi Highlands, lies the skeletal remains of a dwarf pinned deep under the rushing water. Clutched in his grasp is a fragile, waterlogged envelope containing this letter. Written with painstaking care in his final days or hours, it begins with the poignant words, 'My dear Sara....' Though the parchment has suffered from prolonged submersion, the ink still holds the enduring love of a dwarven defender who never made it back home to the city of Ironforge.",
+   "spoiler": 0
+  },
+  {
+   "title": "Delivery to Ironforge",
+   "body": "Bringing the letter to Sara Balloo in Ironforge brings a somber, devastating closure. Residing in the dwarven capital, Sara endures the agonizing uncertainty shared by so many whose kin marched off to war. Reading the final thoughts of her husband Sully confirms her worst fears\u2014that he perished far from home beneath the icy currents of the northern crossing\u2014yet preserves his devotion across death.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Sully Balloo's Letter found?",
+   "aliases": [
+    "letter location",
+    "where is sullys letter",
+    "where to find sully balloo letter"
+   ],
+   "answer": "The letter is retrieved from a waterlogged envelope clutched in the hand of a skeletal dwarf submerged at the bottom of the waters beneath the Thandol Span, which separates the Wetlands from the Arathi Highlands."
+  },
+  {
+   "q": "Who was Sully Balloo?",
+   "aliases": [
+    "who is sully balloo",
+    "sully balloo lore",
+    "what happened to sully"
+   ],
+   "answer": "Sully Balloo was a dwarven soldier who lost his life near the Thandol Span during the defense of the vital northern crossing, leaving his remains pinned under the river currents."
+  },
+  {
+   "q": "Who is the letter addressed to?",
+   "aliases": [
+    "who gets the letter",
+    "who is sara balloo",
+    "where to turn in sully letter"
+   ],
+   "answer": "The letter is addressed to Mrs. Sara Balloo, Sully's grieving wife, who lives within the great dwarven mountain city of Ironforge."
+  },
+  {
+   "q": "What happens when you deliver the letter to Sara Balloo?",
+   "aliases": [
+    "sara balloo reaction",
+    "turning in the letter",
+    "quest completion sully letter"
+   ],
+   "answer": "Upon receiving the letter, Sara Balloo is heartbroken to learn that her husband is pinned dead beneath the icy waters, but she cherishes the opportunity to read the final words he lovingly penned to her."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, the letter represents the heartbreaking sacrifices ordinary mountaineers and soldiers make to guard the high bridges and mountain passes of Khaz Modan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Delivering the letter offers a somber moment of compassion, ensuring that a fallen soldier's last thoughts reach his widow rather than being forgotten under the bridge."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "ironforge",
+  "letter",
+  "sara balloo",
+  "sully balloo",
+  "thandol span",
+  "waterlogged envelope",
+  "wetlands"
+ ],
+ "related": [
+  "npc:sara-balloo",
+  "quest:637",
+  "subzone:thandol-span",
+  "zone:ironforge",
+  "zone:arathi",
+  "quest:631",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Sully Balloo's Letter",
+  "Sully Balloo's Letter (quest)"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "key": "npc:renee-lauer",
+ "type": "npc",
+ "name": "Renee Lauer",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Renee Lauer",
+  "refs": 1
+ },
+ "summary": "Renee Lauer serves as the innkeeper of the Gallows' End Tavern in Brill, offering shelter, food, and drink to travelers passing through Tirisfal Glades. In life, she was a zealous Scarlet Crusade captain whose violent past ended in a Forsaken counterattack that claimed her life and her nephew's.",
+ "sections": [
+  {
+   "title": "From Zealot to Innkeeper",
+   "body": "Before her undeath, Renee was an accomplished captain in the Scarlet Crusade. Convinced that Lordaeron belonged strictly to the living and to humans, she readily slew non-humans without remorse. Her fanaticism unravelled when relatives of her victims tracked her camp down for revenge. Although her nephew Stefan intervened, the skirmish drew the attention of Lady Sylvanas Windrunner and Varimathras. The Forsaken host wiped out the camp, killing Stefan and raising Renee into undeath. Traumatized by how her crusade brought ruin upon her own kin, she abandoned martial life entirely to run the Gallows' End Tavern, determined to nurture rather than slaughter.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Message for the Living",
+   "body": "Rather than seeking vengeance against the Forsaken who struck her down, Renee directs her regret toward the fanaticism that doomed her family. Whenever captive Scarlet Crusaders or travelers end up in Brill, she shares her history to caution them against senseless hatred. She views the Crusade's dogma as an endless cycle of slaughter that guarantees only grief. While zealots rarely welcome her counsel, Renee persists in trying to convince them, offering hospitality and patient words to captive and patron alike.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Renee Lauer?",
+   "aliases": [
+    "renee lauer",
+    "brill innkeeper",
+    "who is the innkeeper in brill"
+   ],
+   "answer": "Renee Lauer is the Forsaken innkeeper of the Gallows' End Tavern in Brill. She sells food, drink, and general supplies to travelers across Tirisfal Glades."
+  },
+  {
+   "q": "What did Renee do before she became Forsaken?",
+   "aliases": [
+    "renee lauer past",
+    "was renee scarlet crusade",
+    "renee backstory"
+   ],
+   "answer": "In life, she was a skilled captain and combat instructor in the Scarlet Crusade. She fervently persecuted and killed non-humans, believing Lordaeron belonged exclusively to living mankind."
+  },
+  {
+   "q": "How did Renee Lauer die?",
+   "aliases": [
+    "how did renee die",
+    "renee lauer death",
+    "who killed renee"
+   ],
+   "answer": "After her violent raids sparked a retaliatory feud that endangered her nephew Stefan, their camp was overrun by Forsaken led by Sylvanas Windrunner and Varimathras. Stefan was slain, and Renee was killed and raised as an undead."
+  },
+  {
+   "q": "Why did she become an innkeeper instead of a soldier?",
+   "aliases": [
+    "why is renee an innkeeper",
+    "why did renee stop fighting"
+   ],
+   "answer": "Her death made her realize that the Scarlet Crusade's obsessive violence had achieved nothing except the destruction of her loved ones. In undeath, she chose a profession centered on providing care and shelter rather than taking lives."
+  },
+  {
+   "q": "What is Renee's connection to Calvin Montague?",
+   "aliases": [
+    "a rogue's deal renee",
+    "calvin montague letter"
+   ],
+   "answer": "In the task 'A Rogue's Deal', adventurers running errands for Calvin Montague are sent to deliver a letter directly to Renee at the Gallows' End Tavern."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Renee is a stark reminder of how quickly the Scarlet Crusade's human zealots can end up on the other side of the grave, shedding their old dogma once freed from life's delusions."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "gallows' end tavern",
+  "innkeeper renee",
+  "renee lauer",
+  "scarlet crusade",
+  "stefan",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:brill",
+  "subzone:gallows-end-tavern",
+  "topic:scarlet-crusade",
+  "quest:8",
+  "npc:calvin-montague",
+  "npc:sylvanas-windrunner",
+  "npc:varimathras",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Renee Lauer"
+ ]
+}

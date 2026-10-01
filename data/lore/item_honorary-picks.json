@@ -1,0 +1,99 @@
+{
+ "key": "item:honorary-picks",
+ "type": "item",
+ "name": "Honorary Picks",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Honorary Picks",
+  "quests": [
+   "quest:6388",
+   "quest:6392"
+  ]
+ },
+ "summary": "The Honorary Picks are a bundle of ceremonial tools crafted in Ironforge for young dwarven mining apprentices. Entrusted to travelers by way of the gryphon network, they are delivered to Brock Stoneseeker in Thelsamar to mark his students' readiness to work the rich ore veins of Loch Modan.",
+ "sections": [
+  {
+   "title": "Tools for the Next Generation",
+   "body": "In dwarven society, mining is far more than a trade; it is a cultural cornerstone that keeps the great forges burning and the kingdom supplied with iron and stone. The Honorary Picks represent formal recognition for novice prospectors learning under Brock Stoneseeker in Thelsamar. Sourced directly from Ironforge, these picks are presented to students who have proven their dedication and are ready to tackle the open ore deposits across Loch Modan.",
+   "spoiler": 0
+  },
+  {
+   "title": "Testing the Gryphon Lines",
+   "body": "Transporting the picks serves a secondary purpose for the mountaineers and merchants of the Alliance: introducing couriers to the kingdom's gryphon network. Ferried from Ironforge's Great Forge directly to Gryth Thurden and flown across the mountains to Thorgrum Borrelson in Thelsamar, the shipment illustrates how closely tied the capital remains to its outlying outposts through swift aerial passage.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Honorary Picks used for?",
+   "aliases": [
+    "what are honorary picks",
+    "use of honorary picks",
+    "honorary picks purpose"
+   ],
+   "answer": "The Honorary Picks are crafted for the mining students of Brock Stoneseeker in Loch Modan. They serve as ceremonial yet functional tools given to apprentices ready to mine ore veins across the region."
+  },
+  {
+   "q": "Who sends the picks, and who receives them?",
+   "aliases": [
+    "who gets honorary picks",
+    "honorary picks delivery",
+    "honorary picks recipient"
+   ],
+   "answer": "The picks are prepared in Ironforge and brought to Gryth Thurden at the city's gryphon roost. From there, they are flown south to Thelsamar and hand-delivered to mining instructor Brock Stoneseeker."
+  },
+  {
+   "q": "Why do the picks need to be delivered by gryphon?",
+   "aliases": [
+    "why fly picks",
+    "why take gryphon",
+    "honorary picks flight"
+   ],
+   "answer": "While they could be carried by foot through the North Gate Pass, sending them via gryphon master Gryth Thurden ensures rapid transport and teaches travelers how to utilize the established Alliance flight routes between Ironforge and Loch Modan."
+  },
+  {
+   "q": "Are the Honorary Picks actual weapons or tools you can equip?",
+   "aliases": [
+    "can i equip honorary picks",
+    "are honorary picks an item",
+    "honorary picks usable"
+   ],
+   "answer": "No. They are carried purely as cargo and quest cargo for Brock Stoneseeker's apprentices, rather than functional mining tools or weapons for adventurers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "Every miner in Khaz Modan understands the value of a solid pick, and receiving an honorary tool marks a novice's true passage into the profession."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "To a dwarf, presenting tools forged in Ironforge to apprentices working out in the provinces is a celebrated tradition of kinship and craft."
+  }
+ ],
+ "keywords": [
+  "brock stoneseeker",
+  "gryth thurden",
+  "honorary picks",
+  "ironforge",
+  "loch modan",
+  "mining picks",
+  "thelsamar",
+  "thorgrum borrelson"
+ ],
+ "related": [
+  "npc:brock-stoneseeker",
+  "subzone:thelsamar",
+  "zone:ironforge",
+  "zone:lochmodan",
+  "quest:6388",
+  "quest:6392",
+  "npc:thorgrum-borrelson"
+ ],
+ "attribution": [
+  "Honorary Picks",
+  "Gryth Thurden (Classic)",
+  "Return to Brock"
+ ]
+}

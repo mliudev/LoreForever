@@ -1,0 +1,99 @@
+{
+ "key": "item:cache-of-zanzil-s-altered-mixture",
+ "type": "item",
+ "name": "Cache of Zanzil's Altered Mixture",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Cache of Zanzil's Altered Mixture",
+  "quests": [
+   "quest:2478"
+  ]
+ },
+ "summary": "The Cache of Zanzil's Altered Mixture is a stockpile of volatile, mutating venom secured inside a locked chest at the Venture Company tower near the Sludge Fen. Commissioned by goblin overseers and brewed from the concoctions of the jungle troll witch doctor Zanzil, it serves as a critical target for the Shattered Hand in Orgrimmar.",
+ "sections": [
+  {
+   "title": "A Toxic Enterprise",
+   "body": "North of the Sludge Fen in the Barrens, the Venture Company set up an outpost to develop and test hazardous concoctions. Utilizing a modified formulation derived from the infamous troll witch doctor Zanzil, the goblins inadvertently poisoned and mutated their own labor force. Grand Foreman Puzik Gallywix locked the primary reserve inside his private strongbox at the summit of the tower, where its lingering fumes weakened the surviving overseers and transformed ordinary workers into deranged drones.",
+   "spoiler": 0
+  },
+  {
+   "title": "Recovery for the Shattered Hand",
+   "body": "The presence of such dangerous alchemical materials so close to Durotar caught the immediate attention of the Shattered Hand, the secretive rogue guild operating beneath Orgrimmar. Seeking both to neutralize the threat and secure the mixture for their own intelligence studies, master trainer Shenthul deployed operatives to storm the tower, execute Gallywix, and crack the foreman's lockbox. Recovering the volatile cache requires significant infiltration skill, as handling the contaminated container risks exposing the thief to its virulent, debilitating toxins.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Zanzil's Altered Mixture?",
+   "aliases": [
+    "what is zanzil mixture",
+    "what is the cache",
+    "zanzil potion"
+   ],
+   "answer": "It is a potent, mutagenic toxin based on the concoctions of the troll witch doctor Zanzil. The Venture Company attempted to modify and employ it at their outpost near the Sludge Fen, but the brew was so caustic that it infected and mutated the entire workforce inside the tower."
+  },
+  {
+   "q": "Where is the cache found?",
+   "aliases": [
+    "where is the mixture",
+    "where is zanzil cache",
+    "mixture location"
+   ],
+   "answer": "The mixture is stored within Gallywix's Lockbox at the very top of the Venture Company tower, located just north of the Sludge Fen in northeastern Barrens."
+  },
+  {
+   "q": "Why does the Shattered Hand want the mixture?",
+   "aliases": [
+    "who wants the mixture",
+    "why does shenthul want it",
+    "shattered hand mission"
+   ],
+   "answer": "Shenthul and the Shattered Hand want to eliminate a hazardous Venture Company operation right on the Horde's doorstep while recovering the rare compound to deepen their own understanding of poisons and tactical venoms."
+  },
+  {
+   "q": "How do you open the chest containing the cache?",
+   "aliases": [
+    "how to open gallywix lockbox",
+    "open zanzil chest",
+    "lockpicking zanzil cache"
+   ],
+   "answer": "The chest requires advanced lockpicking expertise to bypass its physical mechanisms, making it accessible only to trained operatives who know how to work delicate tumbler locks under hazardous conditions."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Retrieving the mixture serves as an essential rite of passage for Horde rogues, proving their mastery of lockpicking, pickpocketing, and poison handling in service to the Shattered Hand."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Venture Company's toxic experiments north of the Sludge Fen pose an immediate environmental and security threat to both Durotar and the Barrens."
+  }
+ ],
+ "keywords": [
+  "altered mixture",
+  "gallywix",
+  "lockbox",
+  "poison",
+  "shattered hand",
+  "shenthul",
+  "sludge fen",
+  "venture co",
+  "zanzil"
+ ],
+ "related": [
+  "quest:2478",
+  "npc:shenthul",
+  "item:gallywix-s-head",
+  "item:silixiz-s-tower-key",
+  "subzone:sludge-fen",
+  "zone:barrens",
+  "quest:1858",
+  "topic:rogue"
+ ],
+ "attribution": [
+  "Cache of Zanzil's Altered Mixture",
+  "Mission: Possible But Not Probable"
+ ]
+}

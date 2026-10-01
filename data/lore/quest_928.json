@@ -1,0 +1,127 @@
+{
+ "key": "quest:928",
+ "type": "quest",
+ "name": "Crown of the Earth",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   928
+  ],
+  "level": "5",
+  "faction": "Alliance",
+  "start": "Tenaron Stormgrip",
+  "end": "Corithras Moonrage",
+  "previous": "Crown of the Earth",
+  "next": "Crown of the Earth (3)",
+  "wiki": "Crown of the Earth (2)",
+  "chain": []
+ },
+ "summary": "Crown of the Earth is a transitional journey that takes young night elves out of Shadowglen and into the broader realm of Teldrassil. Carrying sacred moonwell water consecrated atop Aldrassil, travelers are directed south along the forest road to meet Corithras Moonrage in Dolanaar. It marks the graduation from secluded training to the urgent ecological defense of the great World Tree.",
+ "sections": [
+  {
+   "title": "Leaving the Glade",
+   "body": "After proving their dedication by sampling the enchanted waters of Shadowglen's moonwell, initiates are summoned before Tenaron Stormgrip at the crown of Aldrassil. Recognizing their readiness, Tenaron seals the gathered water into a larger vessel and commands them to venture beyond the sheltered grove. The road leading south toward Dolanaar is the primary artery out of Shadowglen, winding through woods that have grown increasingly unpredictable and hostile.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Dolanaar",
+   "body": "Dolanaar serves as the first major village travelers encounter upon exiting the starting glen. Situated along the cobblestone paths curving through central Teldrassil, the settlement bustles around its own pristine moonwell. Here awaits Corithras Moonrage, an elder tasked with overseeing broader preservation efforts across the boughs. The vessel delivered into his keeping ties the fledgling adventurer directly to the wider, troubled fate of the World Tree.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I carrying to Dolanaar?",
+   "aliases": [
+    "what is the vessel",
+    "partially filled vessel lore",
+    "what water is this"
+   ],
+   "answer": "You carry the Partially Filled Vessel, containing sanctified waters drawn from the moonwell in Shadowglen. Tenaron Stormgrip combined your initial offering into this container so Corithras Moonrage could continue ritual work across Teldrassil."
+  },
+  {
+   "q": "Who is Corithras Moonrage?",
+   "aliases": [
+    "who is corithras",
+    "corithras moonrage role",
+    "where is corithras"
+   ],
+   "answer": "Corithras Moonrage is a night elf elder stationed beside the moonwell in Dolanaar. He directs arriving adventurers in continuing the vital rites and investigations needed to sustain the newly grown World Tree."
+  },
+  {
+   "q": "Why does Tenaron send me away from Shadowglen?",
+   "aliases": [
+    "why leave shadowglen",
+    "why go to dolanaar",
+    "tenaron sending me away"
+   ],
+   "answer": "Shadowglen provides basic training, but the challenges confronting Teldrassil require aid across the entire bough. Having proven your ability to handle local threats and venerate the moonwells, Tenaron sends you to Dolanaar where broader tasks await."
+  },
+  {
+   "q": "Where is the road to Dolanaar?",
+   "aliases": [
+    "how to get to dolanaar",
+    "path to dolanaar",
+    "road out of shadowglen"
+   ],
+   "answer": "Follow the cobblestone path south out of Aldrassil and past the gates of Shadowglen. Continue following the cobblestones as the trail bends south and west until you arrive in the village of Dolanaar."
+  },
+  {
+   "q": "Why does Tenaron warn about dangerous beasts?",
+   "aliases": [
+    "why are beasts dangerous",
+    "corrupted beasts teldrassil",
+    "stay on the road warning"
+   ],
+   "answer": "Even within the sacred boughs of Teldrassil, wildlife has grown unnaturally aggressive and agitated. Straying off the paved trail risks attacks from territorial spiders, corrupted nightsabers, and aggressive timberstriders."
+  },
+  {
+   "q": "What happens after reaching Dolanaar?",
+   "aliases": [
+    "what next after crown of the earth",
+    "dolanaar next quest",
+    "what does corithras do"
+   ],
+   "answer": "Corithras Moonrage accepts the vessel and tasks you with further duties to inspect and bless other moonwells throughout Teldrassil, uncovering deeper issues affecting the forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Taking the step beyond Shadowglen's perimeter is an essential rite of passage for every young Kaldorei setting out to serve their people."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Transporting the sanctified waters connects young druids to the ongoing, fragile efforts to nurture and balance Teldrassil's burgeoning ecosystem."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Carrying moonwell water consecrated by Elune's grace represents the sacred duty of her priesthood to tend to the spiritual health of the community."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "corithras moonrage",
+  "crown of the earth",
+  "dolanaar",
+  "moonwell",
+  "partially filled vessel",
+  "shadowglen",
+  "teldrassil",
+  "tenaron stormgrip"
+ ],
+ "related": [
+  "quest:921",
+  "npc:corithras-moonrage",
+  "npc:tenaron-stormgrip",
+  "subzone:dolanaar",
+  "subzone:shadowglen",
+  "subzone:aldrassil",
+  "zone:teldrassil",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Crown of the Earth (2)"
+ ]
+}

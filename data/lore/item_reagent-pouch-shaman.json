@@ -1,0 +1,88 @@
+{
+ "key": "item:reagent-pouch-shaman",
+ "type": "item",
+ "name": "Reagent Pouch (shaman)",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Reagent Pouch (shaman)",
+  "quests": [
+   "quest:1525"
+  ]
+ },
+ "summary": "A reagent pouch carried by Burning Blade cultists lurking in the crags of Durotar. Shaman seeking to communing with fire require these gathered spell components to distill their initial fire sapta.",
+ "sections": [
+  {
+   "title": "Components of the Flame",
+   "body": "To forge a fire sapta and attune a young shaman to the spirits of flame, specific ritual catalysts are vital. Cultists of the Burning Blade carry small satchels stocked with reagents tailored for demonic fire conjurations. The hermit Telf Joolam uses these gathered powders and oils, combined with the fire tar of Razormane quilboar, to craft the draught needed to grant sight into the realm of fire.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tainted Sources, Pure Vision",
+   "body": "Though the Burning Blade perverts flame for destruction and fel sorcery, the physical elements within their pouches remain bound to the primal nature of heat and combustion. Shamanic philosophy maintains that all elemental forces exist in tension: fire is both creator and destroyer. By taking the cultists' stolen tools, a shaman reclaims the elemental medium to awaken genuine communion with the spirits.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the reagent pouch used for?",
+   "aliases": [
+    "reagent pouch use",
+    "what does reagent pouch do",
+    "reagent pouch shaman quest"
+   ],
+   "answer": "It serves as an essential material for Telf Joolam to brew a fire sapta. Drinking this elixir grants a shaman the visionary sight needed to seek out the elemental spirits and claim their Fire Totem."
+  },
+  {
+   "q": "Where do I find a reagent pouch?",
+   "aliases": [
+    "reagent pouch drop",
+    "where to get reagent pouch",
+    "burning blade pouch location"
+   ],
+   "answer": "The pouch is recovered from Burning Blade cultists nestled inside Dustwind Cave, located in the rocky heights northeast of Razor Hill in Durotar."
+  },
+  {
+   "q": "Why does a shaman need warlock reagents?",
+   "aliases": [
+    "why warlock items",
+    "why burning blade reagents",
+    "shaman using fel items"
+   ],
+   "answer": "The Burning Blade stocks their pouches with ingredients steeped in fire magic. Because their rituals rely heavily on flame, their reagents provide ready-made elemental catalysts that can be repurposed to brew the fire sapta."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Retrieving the pouch is a pivotal rite of passage on the path to earning your Fire Totem, teaching that even corrupted elemental mediums can be reclaimed to serve balance."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The pouches reflect the standard sorcerous supplies carried by fel cultists, holding ritual elements intended for demonic pyromancy rather than nature communion."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "call of fire",
+  "durotar",
+  "dustwind cave",
+  "fire sapta",
+  "fire totem",
+  "reagent pouch",
+  "telf joolam"
+ ],
+ "related": [
+  "quest:1524",
+  "npc:telf-joolam",
+  "item:fire-tar",
+  "subzone:dustwind-cave",
+  "zone:durotar",
+  "topic:shaman",
+  "topic:warlock"
+ ],
+ "attribution": [
+  "Reagent Pouch (shaman)",
+  "Call of Fire (3)"
+ ]
+}

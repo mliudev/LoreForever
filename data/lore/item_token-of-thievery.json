@@ -1,0 +1,88 @@
+{
+ "key": "item:token-of-thievery",
+ "type": "item",
+ "name": "Token of Thievery",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Token of Thievery",
+  "quests": [
+   "quest:2282"
+  ]
+ },
+ "summary": "The Token of Thievery is a proof of skill recovered by novice rogues during their training in the Redridge Mountains. Placed inside a locked footlocker at the orc-threatened Alther's Mill, it serves as the final test set by the seasoned thief Lucius to demonstrate mastery over lockpicking.",
+ "sections": [
+  {
+   "title": "A Test of Finesse",
+   "body": "Not every scoundrel possesses an innate knack for working tumblers and slipping catches unnoticed. In Lakeshire, the roguish instructor Lucius puts promising operatives through their paces by testing their wits and tools in the field. Rather than keeping his trials confined to quiet alleys, Lucius stashes the Token of Thievery inside a sturdy lockbox hidden among the ruins of Alther's Mill, directly in the path of encroaching Blackrock orcs. Retrieving the token proves that an initiate can pick a secure mechanism under the pressure of mortal danger, earning them their formal Certificate of Thievery.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Token of Thievery?",
+   "aliases": [
+    "token of thievery use",
+    "what is token of thievery",
+    "lucius token"
+   ],
+   "answer": "It is an instructional token locked away by Lucius at Alther's Mill. Rogue initiates must pick the lock on his chest to recover it, proving they have acquired the necessary finesse to pick locks in hazardous conditions."
+  },
+  {
+   "q": "Who puts the token in the lockbox?",
+   "aliases": [
+    "who owns the token",
+    "lucius lockbox owner",
+    "who hid the token"
+   ],
+   "answer": "Lucius, an experienced rogue mentor operating out of Lakeshire, placed it there as part of his long-running training program for young rogues."
+  },
+  {
+   "q": "Why is the chest placed at Alther's Mill?",
+   "aliases": [
+    "why althers mill",
+    "mill lockbox reason",
+    "danger at the mill"
+   ],
+   "answer": "Alther's Mill sits up the road from Lakeshire and has become a dangerous area due to prowling Blackrock orcs. Lucius uses the location so his trainees learn to pick locks quickly and quietly while navigating hostile territory."
+  },
+  {
+   "q": "What do you receive in exchange for the token?",
+   "aliases": [
+    "token reward",
+    "what does lucius give you",
+    "certificate of thievery"
+   ],
+   "answer": "Returning the token to Lucius earns the rogue their Certificate of Thievery, acknowledging their foundational training in lockpicking."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The Token of Thievery marks a pivotal rite of passage for Alliance rogues, proving they can deploy lockpicks effectively while avoiding notice in enemy-patrolled ruins."
+  }
+ ],
+ "keywords": [
+  "alther's mill",
+  "certificate of thievery",
+  "lakeshire",
+  "lockpicking",
+  "lucius",
+  "redridge",
+  "thieves' tools",
+  "token of thievery"
+ ],
+ "related": [
+  "quest:2282",
+  "npc:lucius",
+  "quest:2281",
+  "topic:rogue",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "quest:2300"
+ ],
+ "attribution": [
+  "Token of Thievery",
+  "Alther's Mill (quest)"
+ ]
+}

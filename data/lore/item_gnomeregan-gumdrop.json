@@ -1,0 +1,94 @@
+{
+ "key": "item:gnomeregan-gumdrop",
+ "type": "item",
+ "name": "Gnomeregan Gumdrop",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Gnomeregan Gumdrop",
+  "quests": [
+   "quest:8311"
+  ]
+ },
+ "summary": "A Gnomeregan Gumdrop is a specialty seasonal sweet distributed during Hallow's End on behalf of the displaced gnomes. Adventurers fetch this confection to help the sick child Jesper outside Stormwind celebrate the holiday.",
+ "sections": [
+  {
+   "title": "A Taste of Gnomish Ingenuity",
+   "body": "While innkeepers across the Alliance dispense regional treats during Hallow's End, the exiled gnomes of Gnomeregan do not have a full capital inn of their own to operate. Instead, the inventive gnome Talvash del Kissel, residing in Ironforge's Mystic Ward, hands out Gnomeregan Gumdrops to travelers willing to play along with his festive tricks. Despite the radioactive disaster that drove his people from their subterranean kingdom, gnomes still proudly share their distinct confectionery with the wider Alliance.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Treat for Jesper",
+   "body": "Because Jesper is confined to the care of Matron Nightingale just outside Stormwind's gates, he cannot travel the continents to go trick-or-treating himself. A Gnomeregan Gumdrop is one of the four essential regional confections\u2014alongside treats from Stormwind, Ironforge, and Darnassus\u2014that kind-hearted travelers gather across the Alliance capitals to bring the festivities to him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does a Gnomeregan Gumdrop come from?",
+   "aliases": [
+    "who gives gnomeregan gumdrop",
+    "how to get gumdrop",
+    "gumdrop location"
+   ],
+   "answer": "It is provided by Talvash del Kissel, a gnome tinker located in the Mystic Ward of Ironforge, when you perform a trick for him during the Hallow's End festival."
+  },
+  {
+   "q": "Why isn't this candy handed out in Gnomeregan?",
+   "aliases": [
+    "why ironforge",
+    "why is talvash in ironforge"
+   ],
+   "answer": "Gnomeregan was overrun by troggs and irradiated, forcing the surviving gnomes into exile. Many, including Talvash del Kissel, now live alongside the dwarves in Ironforge."
+  },
+  {
+   "q": "What is this candy used for?",
+   "aliases": [
+    "what does gumdrop do",
+    "jesper candy"
+   ],
+   "answer": "It is one of four festive sweets needed to complete the Hallow's End task for Jesper, an orphan boy staying just outside the gates of Stormwind."
+  },
+  {
+   "q": "What other treats are collected alongside it?",
+   "aliases": [
+    "other candies",
+    "hallows end sweets"
+   ],
+   "answer": "Jesper also asks for Stormwind Nougat, Ironforge Mint, and Darnassus Marzipan, each gathered from the respective Alliance capital cities."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Even without a reclaimed city of their own, gnomes take pride in having their own signature confection represented among the great Alliance capitals during Hallow's End."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Gathering this sweet requires traveling between human, dwarven, and gnomish communities, showcasing the close bonds between the Alliance races during seasonal celebrations."
+  }
+ ],
+ "keywords": [
+  "candy",
+  "gnomeregan gumdrop",
+  "hallow's end",
+  "ironforge",
+  "jesper",
+  "stormwind",
+  "talvash del kissel"
+ ],
+ "related": [
+  "quest:8311",
+  "quest:8355",
+  "npc:jesper",
+  "npc:talvash-del-kissel",
+  "item:stormwind-nougat",
+  "item:ironforge-mint",
+  "item:darnassus-marzipan",
+  "zone:gnomeregan"
+ ],
+ "attribution": [
+  "Gnomeregan Gumdrop",
+  "Hallow's End Treats for Jesper!"
+ ]
+}

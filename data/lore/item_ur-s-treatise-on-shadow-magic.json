@@ -1,0 +1,109 @@
+{
+ "key": "item:ur-s-treatise-on-shadow-magic",
+ "type": "item",
+ "name": "Ur's Treatise on Shadow Magic",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Ur's Treatise on Shadow Magic",
+  "quests": [
+   "quest:1938"
+  ]
+ },
+ "summary": "Ur's Treatise on Shadow Magic is a perilous arcane tome penned by the renowned wizard Ur of Dalaran. Originally safeguarded by the mages of Stormwind, the enchanted book was stolen by the renegade sorcerer Morganth and hidden away in the Tower of Ilgalar.",
+ "sections": [
+  {
+   "title": "A Dangerous Legacy",
+   "body": "Penned by the Dalaran scholar Ur, this treatise delves into the subtle and corruptive nature of shadow magic. Because delving into such arts invites doom and ruin for the unwary, the mages of the Wizard's Sanctum in Stormwind placed protective seals upon the volume to bar anyone from reading its contents. However, when the sorcerer Morganth surrendered to dark arts and was exiled from the city's magical circle, he made off with the tome, carrying it eastward into the Redridge Mountains to his stronghold at the Tower of Ilgalar.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Warded Secrets",
+   "body": "Fearing that Morganth might master the dark lore preserved by Ur, High Sorcerer Andromath dispatched adventurers to breach the Tower of Ilgalar and reclaim the stolen work. Despite Morganth's ambition and deep descent into forbidden magic, the warding seals applied by Stormwind's circle proved resilient enough to defy him, ensuring the treatise remained unopened prior to its recovery.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Ur?",
+   "aliases": [
+    "who wrote this book",
+    "ur of dalaran",
+    "who is ur"
+   ],
+   "answer": "Ur was a respected wizard and scholar hailing from Dalaran who dedicated much of his research to studying extraplanar creatures, dark arts, and esoteric magic, including shadow craft."
+  },
+  {
+   "q": "Why is the treatise so dangerous?",
+   "aliases": [
+    "why is the book dangerous",
+    "what does the book do",
+    "shadow magic danger"
+   ],
+   "answer": "As High Sorcerer Andromath cautions, the secrets of shadow magic are not meant for the untrained. Probing its forbidden depths can easily corrupt a practitioner and lead to doom and ruin."
+  },
+  {
+   "q": "Who stole Ur's Treatise on Shadow Magic?",
+   "aliases": [
+    "who stole the book",
+    "morganth stolen book",
+    "who took the treatise"
+   ],
+   "answer": "Morganth, a former member of Stormwind's wizard order who was banished after succumbing to the lure of dark magic, stole the tome and retreated to the Tower of Ilgalar in Redridge."
+  },
+  {
+   "q": "Did Morganth manage to read the treatise?",
+   "aliases": [
+    "did morganth read it",
+    "did the seals hold",
+    "was the book opened"
+   ],
+   "answer": "No. The protective seals placed on the tome by the mages of Stormwind held fast, preventing Morganth from opening it before it could be reclaimed."
+  },
+  {
+   "q": "Is this the same work as The Book of Ur?",
+   "aliases": [
+    "the book of ur difference",
+    "book of ur shadowfang",
+    "is this the book of ur"
+   ],
+   "answer": "They are closely related works by the same author. While The Book of Ur is a broader grimoire kept in the ruins of Shadowfang Keep, the Treatise on Shadow Magic appears to be an excerpt or specialized volume focused entirely on shadow arts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For the mages of Stormwind, reclaiming Ur's treatise is a matter of containment, preserving the Sanctum's safety after one of their own succumbed to dark temptations."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Morganth's presence in Redridge threatens the eastern frontier of the kingdom, making the retrieval of this powerful artifact vital to Stormwind's security."
+  }
+ ],
+ "keywords": [
+  "andromath",
+  "dalaran",
+  "ilgalar",
+  "morganth",
+  "redridge",
+  "sanctum",
+  "shadow magic",
+  "tome",
+  "treatise",
+  "ur"
+ ],
+ "related": [
+  "quest:1938",
+  "subzone:tower-of-ilgalar",
+  "quest:249",
+  "quest:1939",
+  "quest:1013",
+  "zone:redridge",
+  "topic:mage",
+  "subzone:dalaran"
+ ],
+ "attribution": [
+  "Ur's Treatise on Shadow Magic",
+  "Ur's Treatise on Shadow Magic (quest)"
+ ]
+}

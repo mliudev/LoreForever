@@ -1,0 +1,82 @@
+{
+ "key": "item:courser-eye",
+ "type": "item",
+ "name": "Courser Eye",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Courser Eye",
+  "quests": [
+   "quest:1058"
+  ]
+ },
+ "summary": "Courser Eyes are biological reagents harvested from the antlered coursers roaming the highlands of Stonetalon Mountains. Witch Doctor Jin'Zil in Malaka'jin seeks a large quantity of them to prepare a concoction he mockingly refers to as forest magic.",
+ "sections": [
+  {
+   "title": "A Troll's Concoction",
+   "body": "In the remote outpost of Malaka'jin, Witch Doctor Jin'Zil concocts various tribal mixtures to deal with the night elves contesting the region. While stag eyes are not an uncommon component in voodoo and folk alchemy, Jin'Zil demands thirty courser eyes at once\u2014far more than typical spellcraft requires. Blended with fey dragon scales, sap, and feline whiskers, the eyes serve as a base for a lethal brew intended for the night elf prisoners locked in cages at the back of his den.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are courser eyes found?",
+   "aliases": [
+    "courser eye locations",
+    "where to get courser eye",
+    "how to get courser eye"
+   ],
+   "answer": "They are harvested from the various coursers\u2014both Antlered Coursers and Great Coursers\u2014native to the higher altitudes of the Stonetalon Mountains, particularly around Mirkfallon Lake and Stonetalon Peak."
+  },
+  {
+   "q": "Why does Witch Doctor Jin'Zil need so many eyes?",
+   "aliases": [
+    "why 30 eyes",
+    "why does jinzil need eyes",
+    "what does jinzil do with courser eyes"
+   ],
+   "answer": "Jin'Zil claims that one can never have enough eyes when preparing a proper brew. He combines them with native fauna parts to brew a potent concoction that he unleashes upon his captured night elf prisoners."
+  },
+  {
+   "q": "What happens when Jin'Zil completes his forest magic potion?",
+   "aliases": [
+    "jinzil forest magic result",
+    "what happens to the prisoners in malakajin"
+   ],
+   "answer": "Once the courser eyes and other ingredients are delivered, Jin'Zil releases the toxic brew inside his cave. The concoction lethally poisons the caged night elf prisoners, whose spirits rise as wisps and depart into the wild."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "Witch Doctor Jin'Zil's crude application of animal components reflects the darker, practical side of troll alchemy and mojo craft used against enemies of the Horde."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Slaughtering the sacred coursers of Stonetalon simply to poison captured Sentinels is considered a profound sacrilege against Elune and nature."
+  }
+ ],
+ "keywords": [
+  "antlered courser",
+  "courser eye",
+  "forest magic",
+  "great courser",
+  "jin'zil",
+  "malaka'jin",
+  "stonetalon"
+ ],
+ "related": [
+  "npc:witch-doctor-jin-zil",
+  "quest:1058",
+  "item:fey-dragon-scale",
+  "item:stonetalon-sap",
+  "item:twilight-whisker",
+  "subzone:malaka-jin",
+  "subzone:mirkfallon-lake",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Courser Eye",
+  "Jin'Zil's Forest Magic"
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "key": "quest:382",
+ "type": "quest",
+ "name": "The Red Messenger",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   382
+  ],
+  "level": "5",
+  "faction": "Horde",
+  "start": "Executor Arren",
+  "end": "",
+  "previous": "The Scarlet Crusade (quest)",
+  "next": "Vital Intelligence (Classic)",
+  "wiki": "The Red Messenger",
+  "chain": [
+   "Night Web's Hollow (Classic)",
+   "The Scarlet Crusade (quest)",
+   "The Red Messenger",
+   "Vital Intelligence (Classic)"
+  ]
+ },
+ "summary": "Executor Arren tasks newly risen Forsaken with intercepting a courier dispatched from the Scarlet Monastery to the crusade camp outside Deathknell. Intercepting the messenger secures critical intelligence on local Scarlet movements before the zealots can solidify their presence in the valley. This mission marks one of the earliest offensive operations undertaken to secure the Forsaken's fledgling sanctuary.",
+ "sections": [
+  {
+   "title": "Eyes in the East",
+   "body": "Word travels quickly through Tirisfal Glades, even among the dead. Superiors in Brill alerted Executor Arren that the Scarlet Crusade sent an emissary from their stronghold at the Scarlet Monastery westward into Deathknell. While the Crusaders maintain an aggressive presence across Lordaeron, dispatching a courier directly to the edge of the Forsaken's waking grounds indicates an organized push to eradicate newly risen undead before they can muster an organized defense.",
+   "spoiler": 0
+  },
+  {
+   "title": "Intercepting the Courier",
+   "body": "The courier, Meven Korgal, blended into the small Scarlet encampment south of Deathknell without bearing distinctive heraldry. Executor Arren directed a targeted strike to assassinate Korgal and confiscate his dispatch. Stripping the courier of his missives denies the local zealots further tactical coordination with their eastern headquarters.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vital Dispatches",
+   "body": "Rifling through the recovered Scarlet Crusade Documents reveals a mixture of propaganda, scouting notes, and direct orders telling the zealots to expand their camp near the ruined capital. Crucially, the documents contain a strategic map outlining the positions of field commanders and agents throughout the glades\u2014a discovery valuable enough to command immediate delivery to higher authorities in Brill.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the Red Messenger?",
+   "aliases": [
+    "meven korgal",
+    "who is meven korgal",
+    "who is the messenger",
+    "scarlet messenger identity"
+   ],
+   "answer": "The messenger is Meven Korgal, a human courier in service to the Scarlet Crusade. He was sent directly from the Scarlet Monastery to deliver strategic orders to the zealots entrenched near Deathknell."
+  },
+  {
+   "q": "Where did the messenger come from?",
+   "aliases": [
+    "where did korgal come from",
+    "messenger origin",
+    "scarlet courier source"
+   ],
+   "answer": "He was dispatched from the Scarlet Monastery, the massive fortified headquarters of the Scarlet Crusade located in northeastern Tirisfal Glades."
+  },
+  {
+   "q": "What information was found in the documents?",
+   "aliases": [
+    "scarlet documents contents",
+    "what are the orders",
+    "what was korgal carrying"
+   ],
+   "answer": "The dispatches contain scouting summaries, orders instructing Crusaders to build up fortifications near the ruined city of Lordaeron, and a strategic map detailing the locations of Crusade field commanders and agents."
+  },
+  {
+   "q": "Where does this intelligence go next?",
+   "aliases": [
+    "what happens to the documents",
+    "where to deliver scarlet papers",
+    "vital intelligence quest"
+   ],
+   "answer": "Executor Arren immediately forwards the map and gathered intel to his superiors in Brill via the follow-up mission Vital Intelligence, providing the broader Forsaken military with actionable targets across Tirisfal."
+  },
+  {
+   "q": "Why is the Scarlet Crusade encroaching so close to Deathknell?",
+   "aliases": [
+    "why are scarlets in deathknell",
+    "crusade in deathknell",
+    "why are zealots here"
+   ],
+   "answer": "The Scarlet Crusade considers all undead abominations to be eradicated indiscriminately. Deathknell is where the newly free undead first claw their way from graves, making it an ideal target for zealots attempting to snuff out the Forsaken before they organize."
+  },
+  {
+   "q": "Who gave Executor Arren the tip about the messenger?",
+   "aliases": [
+    "who warned arren",
+    "who sent report to arren",
+    "how did forsaken know"
+   ],
+   "answer": "Forsaken command stationed in Brill intercepted news of the courier's departure from the monastery and relayed word down to Arren so his local forces could intercept him."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Intercepting this messenger strikes a crucial blow against the zealots who seek to execute you a second time before you have even found your footing in Lordaeron."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "By dismantling Scarlet operations at Deathknell's borders, new recruits protect the northern perimeter of the Horde's newly established foothold in the Eastern Kingdoms."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Infiltrating the Crusade's camp to assassinate Meven Korgal and steal his dispatches is quintessential covert work for newly awakened rogues."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "deathknell",
+  "executor arren",
+  "meven korgal",
+  "red messenger",
+  "scarlet crusade",
+  "scarlet documents",
+  "scarlet monastery",
+  "tirisfal glades"
+ ],
+ "related": [
+  "quest:381",
+  "quest:383",
+  "quest:380",
+  "npc:executor-arren",
+  "subzone:deathknell",
+  "subzone:brill",
+  "topic:scarlet-crusade",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "The Red Messenger"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "key": "item:logging-rope",
+ "type": "item",
+ "name": "Logging Rope",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Logging Rope",
+  "quests": [
+   "quest:6571"
+  ]
+ },
+ "summary": "Logging Rope is heavy cordage vital to the Warsong clan's ongoing logging operations within Ashenvale. Shipments of this sturdy line were ambushed and stolen by local furbolg tribes who violently resist the Horde's expansion into the ancient forest.",
+ "sections": [
+  {
+   "title": "Stolen Lines",
+   "body": "Maintaining the goblin-built machinery and lumber mills of the Warsong Lumber Camp requires massive quantities of durable logging line. Rather than reaching the loggers at their encampment, essential shipments were intercepted by the Foulweald and Thistlefur furbolg tribes. Driven mad by corruption and fiercely defensive of their ancestral woods, these furbolgs hoard the stolen ropes in their encampments across northern and central Ashenvale.",
+   "spoiler": 0
+  },
+  {
+   "title": "Supplying the War Effort",
+   "body": "Locke Okarr at Splintertree Post is tasked with recovering the misplaced logistical chain before the Warsong lumber camp grinds to a halt. Reclaiming the heavy rope directly from the furbolg den-mothers and warriors allows the Horde to secure fellable timber, bound logs, and rig saw machinery amidst constant guerrilla resistance from the native forest inhabitants.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Logging Rope used for?",
+   "aliases": [
+    "logging rope use",
+    "why warsong needs rope",
+    "warsong logging rope"
+   ],
+   "answer": "It is thick, industrial-grade rope required by the Warsong Lumber Camp to lash harvested timber, haul logs across rugged terrain, and secure heavy machinery in Ashenvale."
+  },
+  {
+   "q": "Who stole the logging rope?",
+   "aliases": [
+    "who took the rope",
+    "rope thief",
+    "which furbolgs have rope"
+   ],
+   "answer": "Shipments were raided by the native Foulweald and Thistlefur furbolgs, who carry off the stolen lines to their village dens and encampments throughout Ashenvale."
+  },
+  {
+   "q": "Who wants this rope back?",
+   "aliases": [
+    "who needs logging rope",
+    "logging rope quest giver"
+   ],
+   "answer": "Locke Okarr, stationed at Splintertree Post, requests the rope alongside other misplaced supplies to ensure operations at the Warsong Lumber Camp do not stall."
+  },
+  {
+   "q": "Why do the furbolgs steal logging supplies?",
+   "aliases": [
+    "furbolg motive",
+    "why furbolgs attack shipments"
+   ],
+   "answer": "The furbolgs violently oppose the Horde's clear-cutting of Ashenvale. Intercepting supply caravans disrupts the lumber mills and avenges the intrusion into their territories."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Recovering the logging line is vital to keeping the Warsong clan's war machine fueled with timber despite constant ambushes."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcish settlement in Kalimdor depends entirely on Ashenvale lumber, making every hijacked crate of logging tools an insult that demands retribution."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "foulweald",
+  "locke okarr",
+  "logging rope",
+  "splintertree post",
+  "thistlefur",
+  "warsong lumber camp",
+  "warsong supplies"
+ ],
+ "related": [
+  "quest:6571",
+  "subzone:splintertree-post",
+  "subzone:warsong-lumber-camp",
+  "topic:furbolg",
+  "item:warsong-oil",
+  "item:warsong-axe-shipment",
+  "quest:6581",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Logging Rope",
+  "Warsong Supplies (quest)"
+ ]
+}

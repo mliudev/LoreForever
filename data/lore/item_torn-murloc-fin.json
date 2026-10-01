@@ -1,0 +1,92 @@
+{
+ "key": "item:torn-murloc-fin",
+ "type": "item",
+ "name": "Torn Murloc Fin",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Torn Murloc Fin",
+  "quests": [
+   "quest:46"
+  ]
+ },
+ "summary": "Torn Murloc Fins serve as proof of work for the Stormwind Army's standing bounty on hostile amphibians in eastern Elwynn Forest. Harvested from foragers and lurkers along the riverbanks, they demonstrate that local waterways are being systematically cleared.",
+ "sections": [
+  {
+   "title": "A Bountied Threat",
+   "body": "As the murloc population along eastern Elwynn's streams and lakes surged, the Stormwind Army authorized a direct bounty to cull their numbers. Guard Thomas, stationed at the bridge spanning the eastern river, collects these severed fins to verify kills. With Stormwind's military stretched thin defending against internal unrest and regional threats, local authorities rely heavily on traveling adventurers to bring in physical proof of cleared encampments.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who buys or collects Torn Murloc Fins?",
+   "aliases": [
+    "who wants fins",
+    "fin turn in",
+    "guard thomas fins"
+   ],
+   "answer": "Guard Thomas collects them at the eastern bridge of Elwynn Forest on behalf of Marshal Dughan and the Stormwind Army."
+  },
+  {
+   "q": "Where are the murlocs carrying these fins located?",
+   "aliases": [
+    "where to farm fins",
+    "murloc fin locations",
+    "fin drops"
+   ],
+   "answer": "They are taken from murloc foragers and lurkers gathered around Stone Cairn Lake to the north and the southern stream fork near the eastern Elwynn border."
+  },
+  {
+   "q": "Why does Stormwind require fins as proof?",
+   "aliases": [
+    "why fins",
+    "proof of kill murlocs",
+    "bounty proof"
+   ],
+   "answer": "Fins provide unmistakable, easily transported physical evidence of slain murlocs, ensuring bounty hunters are properly credited before receiving army pay."
+  },
+  {
+   "q": "Why is the Stormwind Army paying for dead murlocs?",
+   "aliases": [
+    "why murloc bounty",
+    "murloc problem elwynn"
+   ],
+   "answer": "Murloc villages have expanded rapidly along the waterways, threatening travelers, fishermen, and local infrastructure while the army's forces are occupied elsewhere."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Clearing the waterways of eastern Elwynn secures vital travel routes between Goldshire, Lakeshire, and Stormwind City."
+  },
+  {
+   "target": "race:Human",
+   "text": "Local human authorities are increasingly reliant on mercenaries to protect homesteads and riverbanks from aggressive murloc settlements."
+  }
+ ],
+ "keywords": [
+  "bounty on murlocs",
+  "elwynn murlocs",
+  "guard thomas",
+  "murloc fin",
+  "murloc forager",
+  "murloc lurker",
+  "stone cairn lake",
+  "torn murloc fin"
+ ],
+ "related": [
+  "quest:46",
+  "npc:guard-thomas",
+  "topic:murloc",
+  "subzone:stone-cairn-lake",
+  "zone:elwynn",
+  "topic:stormwind-army",
+  "npc:marshal-dughan",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Torn Murloc Fin",
+  "Bounty on Murlocs"
+ ]
+}

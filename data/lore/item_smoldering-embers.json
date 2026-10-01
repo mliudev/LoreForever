@@ -1,0 +1,83 @@
+{
+ "key": "item:smoldering-embers",
+ "type": "item",
+ "name": "Smoldering Embers",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Smoldering Embers",
+  "quests": [
+   "quest:1083"
+  ]
+ },
+ "summary": "Smoldering Embers are the glowing, heat-baked remnants retrieved from the raging fire elementals of the Charred Vale. Night elf Sentinels track these cinders as physical proof that the fiery terrors overrunning the devastated woodland are being subdued.",
+ "sections": [
+  {
+   "title": "Remnants of the Charred Vale",
+   "body": "The Venture Company's relentless clear-cutting and industrial devastation tore through the Charred Vale, setting the forest ablaze and unleashing destructive fury from deep within the earth. In their wake, elementals of living fire\u2014Burning Ravagers, Burning Destroyers, and wandering Rogue Flame Spirits\u2014surged across the scorched basin. These Smoldering Embers are the lingering, ash-covered cores left behind when an elemental is extinguished, serving as proof that the rampant fires of the vale are being systematically suppressed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Smoldering Embers come from?",
+   "aliases": [
+    "where do i find smoldering embers",
+    "who drops smoldering embers",
+    "smoldering ember source"
+   ],
+   "answer": "Smoldering Embers are gathered from the fiery elementals haunting the Charred Vale in southern Stonetalon Mountains, including Burning Ravagers, Burning Destroyers, and Rogue Flame Spirits."
+  },
+  {
+   "q": "Why does Kaela Shadowspear want these embers?",
+   "aliases": [
+    "why collect smoldering embers",
+    "kaela shadowspear embers",
+    "enraged spirits goal"
+   ],
+   "answer": "Kaela Shadowspear seeks them as undeniable proof that the rampant fire elementals in the Charred Vale are being culled. She believes the scarred land can never heal under Elune's grace while these violent spirits roam unchecked."
+  },
+  {
+   "q": "What caused the fire elementals to appear in the Charred Vale?",
+   "aliases": [
+    "what happened to charred vale",
+    "why are there fire elementals in stonetalon",
+    "venture co fire spirits"
+   ],
+   "answer": "The Venture Company used aggressive machinery and indiscriminate burning to clear the ancient forest. Their reckless exploitation destabilized the land, unearthing and unleashing hostile elementals of flame and stone that ultimately drove the goblins out."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves, seeing the Charred Vale in flames is a heartbreaking wound upon Kalimdor. Gathering these embers is a solemn duty to purge foreign desecration and bring peace back under Elune's gaze."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids view the embers as tragic proof of nature unbalanced by industrial greed, where untamed elemental fury prevents the ash-choked soil from ever regenerating."
+  }
+ ],
+ "keywords": [
+  "burning destroyer",
+  "burning ravager",
+  "charred vale",
+  "enraged spirits",
+  "kaela shadowspear",
+  "rogue flame spirit",
+  "smoldering embers",
+  "stonetalon",
+  "venture co"
+ ],
+ "related": [
+  "quest:1083",
+  "subzone:charred-vale",
+  "npc:kaela-shadowspear",
+  "zone:stonetalon",
+  "quest:764",
+  "topic:elune"
+ ],
+ "attribution": [
+  "Smoldering Embers",
+  "Enraged Spirits"
+ ]
+}

@@ -92,8 +92,8 @@ as issues. Code fixes are welcome as pull requests.
 
 ## Feedback
 
-Found a wrong answer, or want a zone narrated? Use the [feedback form](https://loreforeverwow.com/feedback) (no
-account needed) or [open an issue](https://github.com/mliudev/LoreForever/issues).
+Found a wrong answer, or want a zone narrated? Use the [feedback form](https://loreforeverwow.com/feedback) (sign
+in with Google) or [open an issue](https://github.com/mliudev/LoreForever/issues).
 
 ## License
 

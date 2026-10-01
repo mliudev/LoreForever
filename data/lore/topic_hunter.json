@@ -1,0 +1,131 @@
+{
+ "key": "topic:hunter",
+ "type": "topic",
+ "name": "Hunter",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Hunter"
+ },
+ "summary": "Masters of wilderness survival and deadly marksmanship, hunters roam the untamed reaches of Azeroth alongside fierce beast companions. Armed with bows, rifles, or crossbows, they excel at harassing enemies from a distance while relying on clever traps and primal aspects to control the flow of battle. Whether tracking elusive quarry across snowcapped peaks or stalking prey through dense forests, they live by their wits and connection to nature.",
+ "sections": [
+  {
+   "title": "Kinship with the Wild",
+   "body": "At the heart of every hunter lies an instinctual empathy for the primal world. Unlike those who exploit nature or isolate themselves within stone bastions, hunters immerse themselves entirely in untamed lands. They study the habits, movements, and strengths of predatory beasts, earning their respect rather than breaking their spirits. Through patient bonding, a hunter tames dangerous creatures\u2014such as fierce prowling cats, stubborn mountain bears, and sharp-eyed raptors\u2014turning wild animals into steadfast allies that defend them to the death.",
+   "spoiler": 0
+  },
+  {
+   "title": "Master Marksmen and Trackers",
+   "body": "On the battlefield, hunters dictate the terms of engagement from a safe distance. Armed with bows, heavy crossbows, or calibrated rifles, they unleash deadly volleys that pierce through heavy armor before an attacker can even draw near. Their finely honed senses make them peerless trackers, capable of tracing the faintest footsteps, scents, and disturbances left by quarry. When foes attempt to close the distance, hunters deploy frost and flame traps, disorienting ambushes, or agile evasive maneuvers to keep enemies right where they want them.",
+   "spoiler": 0
+  },
+  {
+   "title": "Traditions Across Cultures",
+   "body": "The path of the hunter manifests differently among the various cultures of Azeroth. Night elf Sentinels embody ancient marksmanship and stealth beneath the canopy of Ashenvale, utilizing bows and shadowcraft in quiet harmony with the wilderness. Dwarven riflemen brave the freezing crags of Dun Morogh alongside hardy bears, mastering the engineering of gunpowder. Across Kalimdor, Tauren and Orc trackers honor ancient nomadic customs, running down their prey with sacred respect and calling upon bestial spirits to guide their shots.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What weapons do hunters use?",
+   "aliases": [
+    "hunter weapons",
+    "what do hunters equip",
+    "hunter bows rifles"
+   ],
+   "answer": "Hunters specialize in ranged weapons, including bows, crossbows, and rifles. In close quarters, they are also skilled in wielding melee weapons such as polearms, staves, axes, and daggers, often engaging in dual-wielding or using traps to create space and resume firing from a distance."
+  },
+  {
+   "q": "How do hunters tame beasts?",
+   "aliases": [
+    "how to tame pets",
+    "beast taming",
+    "tame animal"
+   ],
+   "answer": "Hunters rely on an innate empathy and deep understanding of wild creatures. By observing their behavior, approaching without malice, and demonstrating strength and respect, they can soothe dangerous predators and form a lifelong companion bond, training them to fight at their side."
+  },
+  {
+   "q": "What armor do hunters wear?",
+   "aliases": [
+    "hunter armor type",
+    "can hunters wear mail",
+    "hunter gear"
+   ],
+   "answer": "Hunters begin their journeys wearing light, flexible leather armor to maintain their agility while traversing rugged terrain. As they grow in experience and face deadlier threats, they learn to wear durable mail armor, providing greater protection without severely impeding their movement."
+  },
+  {
+   "q": "What are hunter aspects?",
+   "aliases": [
+    "hunter aspects",
+    "aspect of the cheetah",
+    "hunter animal aspects"
+   ],
+   "answer": "Aspects are primal techniques where a hunter attunes their senses and physical reflexes to the innate strengths of wild creatures. By invoking these aspects, a hunter can run with the fleetness of a cheetah, focus their aim like a hawk, or adopt the defensive resilience of a monkey."
+  },
+  {
+   "q": "What happens if an enemy gets too close to a hunter?",
+   "aliases": [
+    "hunter deadzone",
+    "close combat hunter",
+    "hunter melee"
+   ],
+   "answer": "Hunters are at a distinct disadvantage at close range, where firing a ranged weapon becomes difficult. To survive, they rely on frost and immolation traps, concussive tools, and melee strikes to slow, wing, or disorient attackers while they or their beasts break away to establish distance."
+  },
+  {
+   "q": "Which races practice the ways of the hunter?",
+   "aliases": [
+    "who can be a hunter",
+    "hunter races",
+    "playable hunter races"
+   ],
+   "answer": "Hunting is practiced across nearly all cultures, though it takes varied forms. In the Alliance, Night Elves, Dwarves, and Gnomes take up the bow and rifle. In the Horde, Orcs, Tauren, and Trolls revere tracking and beast mastery as essential ancestral traditions of survival."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Your strength lies in your connection to the wilds and your companion beast. Master your ranged arsenal, maintain distance, and let your pet hold the enemy's attention."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For millennia, Kaldorei Sentinels have patrolled ancient forests with bows and trusted sabers, defending sacred groves from outside corruption."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven marksmen are renowned for their marksmanship with heavy rifles, braving the treacherous mountain passes of Khaz Modan alongside fierce polar bears."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "To the Tauren, the hunt is a sacred spiritual trial of endurance and reverence, honoring the Earth Mother by respecting every beast that feeds and clothes the tribe."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcish beastmasters honor ancestral survival traditions forged on harsh worlds, forming unbreakable combat bonds with loyal wolves and boars."
+  }
+ ],
+ "keywords": [
+  "archery",
+  "aspects",
+  "beasts",
+  "hunter",
+  "marksmanship",
+  "pet",
+  "rifle",
+  "survival",
+  "tracking",
+  "traps"
+ ],
+ "related": [
+  "topic:sentinels",
+  "topic:tauren",
+  "topic:dwarf",
+  "topic:night-elf",
+  "topic:horde",
+  "topic:alliance",
+  "topic:war-of-the-ancients",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Hunter"
+ ]
+}

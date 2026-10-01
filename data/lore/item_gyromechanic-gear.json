@@ -1,0 +1,92 @@
+{
+ "key": "item:gyromechanic-gear",
+ "type": "item",
+ "name": "Gyromechanic Gear",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Gyromechanic Gear",
+  "quests": [
+   "quest:412"
+  ]
+ },
+ "summary": "A Gyromechanic Gear is a salvaged piece of precision engineering recovered from the fallout outside Gnomeregan. Gnomish inventors in Kharanos seek these specific gears to construct an experimental device capable of reversing leper gnome mutations.",
+ "sections": [
+  {
+   "title": "Components for Recombobulation",
+   "body": "When radiation flooded Gnomeregan to purge the trogg invasion, it corrupted a vast portion of the surviving gnome population into mad, irradiated leper gnomes. Refusing to abandon their twisted kin, inventors Ozzie Togglevolt and Razzle Sprysprocket set to work drafting schematics for the Recombobulator\u2014an ambitious contraption designed to undo the radiation's horrific effects. Building the prototype requires precision mechanisms capable of enduring volatile internal pressures, particularly Gyromechanic Gears and complementary Restabilization Cogs. Because local manufacturing collapsed with the fall of their capital, researchers are forced to scavenge these delicate parts directly from the hostile leper gnomes and scavengers roaming Dun Morogh.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Gyromechanic Gear used for?",
+   "aliases": [
+    "gyromechanic gear purpose",
+    "what does gyromechanic gear do",
+    "gyromechanic gear quest"
+   ],
+   "answer": "It serves as a core mechanical component needed by Razzle Sprysprocket in Kharanos. Alongside Restabilization Cogs, it is incorporated into the Recombobulator, a prototype machine designed to cure irradiated leper gnomes."
+  },
+  {
+   "q": "Where do these gears come from?",
+   "aliases": [
+    "where to find gyromechanic gear",
+    "gyromechanic gear drop",
+    "who drops gyromechanic gear"
+   ],
+   "answer": "They are salvaged from the ruined outskirts of Gnomeregan and around Dun Morogh, typically carried by irradiated leper gnomes and opportunistic scavengers who stripped parts from the fallen city."
+  },
+  {
+   "q": "Can the Recombobulator actually cure leper gnomes?",
+   "aliases": [
+    "does the recombobulator work",
+    "can leper gnomes be cured",
+    "recombobulation success"
+   ],
+   "answer": "Razzle Sprysprocket remains endlessly optimistic about Ozzie's schematics, believing adjustments to combustion pistons and electrogum gel will restore their kin. Whether the machine can truly reverse catastrophic radiation poisoning on a wide scale remains an untested gnomish theory."
+  },
+  {
+   "q": "Why can't gnomes simply forge new gears?",
+   "aliases": [
+    "why scavenge gears",
+    "why not craft gyromechanic gears"
+   ],
+   "answer": "The loss of Gnomeregan shattered gnomish industrial capacity, locking away their most sophisticated tooling, workshops, and automated foundries. Scavenging intact pre-fall precision hardware from the city's perimeter is often far faster than machining parts by hand."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Every salvaged gear brings gnomish tinkerers one step closer to potentially rescuing their radioactive brethren wandering the snows outside Gnomeregan."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Gnomish precision engineering is renowned for extreme intricacy, relying on tight-tolerance gyromechanic components to regulate unstable prototype machinery."
+  }
+ ],
+ "keywords": [
+  "gnomeregan",
+  "gyromechanic gear",
+  "kharanos",
+  "leper gnome",
+  "operation recombobulation",
+  "razzle sprysprocket",
+  "recombobulator",
+  "restabilization cog"
+ ],
+ "related": [
+  "quest:412",
+  "item:restabilization-cog",
+  "npc:razzle-sprysprocket",
+  "topic:leper-gnome",
+  "subzone:kharanos",
+  "zone:gnomeregan",
+  "zone:dunmorogh",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Gyromechanic Gear",
+  "Operation Recombobulation (Classic)"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "key": "item:dogran-s-pendant",
+ "type": "item",
+ "name": "Dogran's Pendant",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Dogran's Pendant",
+  "quests": [
+   "quest:1513"
+  ]
+ },
+ "summary": "Dogran's Pendant is a deeply personal talisman carried by the fallen orc Dogran and bound to the tragedy of his lost love, Zankaja. Within the shadowy circles of Orgrimmar's warlocks, the raw emotional resonance of the pendant is harnessed as a catalyst to lure and bind a succubus.",
+ "sections": [
+  {
+   "title": "A Conduit of Heartbreak",
+   "body": "Dogran's Pendant is steeped in personal sorrow, marking the tragic fate of an orc whose love for Zankaja ended in capture and death. For the warlocks of the Cleft of Shadow, such potent emotions are not merely remnants of grief\u2014they are magical conduits. Demons such as the succubus prey voraciously upon love, yearning, and vulnerability, making the pendant an ideal bait to draw one across the Twisting Nether into Neeru Fireblade's summoning circle.",
+   "spoiler": 0
+  },
+  {
+   "title": "Subjugation and Remembrance",
+   "body": "Under the direction of Gan'rul Bloodeye, an aspiring warlock uses the pendant to summon the demon, subdue it in combat, and prove absolute mastery over its seductive manipulations. Once the ritual concludes, the talisman is returned to Gan'rul to be delivered back to Zankaja, serving as a solemn reminder that overconfidence and stray emotion will quickly cost a warlock their soul.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Dogran's Pendant used for?",
+   "aliases": [
+    "use of pendant",
+    "what do i do with dograns pendant",
+    "dogran pendant quest"
+   ],
+   "answer": "It serves as the focal reagent to summon a succubus inside Neeru Fireblade's tent in the Cleft of Shadow. Once the demon is summoned and defeated, the pendant must be returned to Gan'rul Bloodeye."
+  },
+  {
+   "q": "Why does a succubus respond to the pendant?",
+   "aliases": [
+    "why succubus wants pendant",
+    "why pendant summons demon",
+    "pendant lore"
+   ],
+   "answer": "A succubus feeds upon and manipulates desire, love, and passion. Because the pendant is bound to the tragic love between Dogran and Zankaja, its emotional weight acts as an irresistible lure across the Nether."
+  },
+  {
+   "q": "Who was Dogran?",
+   "aliases": [
+    "who is dogran",
+    "dogran story"
+   ],
+   "answer": "Dogran was an orc whose captivity and demise are investigated by Horde warlocks through contacts like Blind Cazul and Ken'zigla. He held a deep romantic bond with Zankaja before his untimely end."
+  },
+  {
+   "q": "What happens to the pendant after the summoning ritual?",
+   "aliases": [
+    "who gets the pendant",
+    "return dograns pendant"
+   ],
+   "answer": "After defeating the summoned succubus, the warlock returns the pendant to Gan'rul Bloodeye so he can finally deliver the relic and closure to Zankaja."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "For Horde warlocks, Dogran's Pendant is the central talisman used to prove mastery over the Nether and learn the ritual of summoning a succubus."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The pendant symbolizes the quiet personal tragedies unfolding in the Barrens and Durotar, tied intimately to the hidden warlock coven operating within Orgrimmar."
+  }
+ ],
+ "keywords": [
+  "cleft of shadow",
+  "dogran",
+  "dogran's pendant",
+  "gan'rul bloodeye",
+  "orgrimmar",
+  "succubus",
+  "the binding",
+  "zankaja"
+ ],
+ "related": [
+  "quest:1471",
+  "npc:gan-rul-bloodeye",
+  "npc:zankaja",
+  "quest:1512",
+  "quest:1515",
+  "quest:1472",
+  "zone:orgrimmar",
+  "topic:warlock"
+ ],
+ "attribution": [
+  "Dogran's Pendant",
+  "The Binding (Succubus, Orgrimmar)"
+ ]
+}

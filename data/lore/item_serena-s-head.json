@@ -1,0 +1,84 @@
+{
+ "key": "item:serena-s-head",
+ "type": "item",
+ "name": "Serena's Head",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Serena's Head",
+  "quests": [
+   "quest:876"
+  ]
+ },
+ "summary": "Serena's Head is the grisly trophy taken from the matriarch of the Dry Hills harpies in the northern Barrens. Darsok Swiftdagger of the Crossroads demanded it as proof of her demise, intending to display it upon Horde supply wagons as a harsh deterrent against further aerial raids.",
+ "sections": [
+  {
+   "title": "A Warning on the Road",
+   "body": "The Witchwing harpies of the Dry Hills have long plagued trade moving through the northern Barrens, but under Serena Bloodfeather their assaults turned particularly vicious. Her raids against Horde supply lines were driven by personal vengeance for her sister, who fell to the beastmaster Rexxar. To permanently break the morale of the flock, the orc rogue Darsok Swiftdagger ordered Serena hunted down. Rather than letting her death go unnoticed, he sought her severed head so it could be mounted upon the next outbound caravan\u2014serving as a stark, bloody warning to any harpy watching from the crags above.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Darsok Swiftdagger want Serena's head?",
+   "aliases": [
+    "why take serenas head",
+    "darsok serena head",
+    "what does darsok do with the head"
+   ],
+   "answer": "Darsok wants undeniable proof that Serena Bloodfeather is dead, and he intends to mount her head atop a Horde supply caravan. He hopes that displaying the matriarch's remains will terrify the surviving Witchwing harpies and discourage them from raiding travelers."
+  },
+  {
+   "q": "Why was Serena Bloodfeather attacking Horde caravans?",
+   "aliases": [
+    "why did serena attack caravans",
+    "serena bloodfeather motive",
+    "harpy attacks barrens"
+   ],
+   "answer": "Serena's attacks were driven by a vendetta against the Horde. Her sister, Bloodfeather, was slain by the Mok'Nathal champion Rexxar, and Serena sought vengeance by striking at Horde supply lines and wayfarers across the Barrens."
+  },
+  {
+   "q": "Where does this trophy come from?",
+   "aliases": [
+    "where to find serena's head",
+    "serena bloodfeather location",
+    "how to get serenas head"
+   ],
+   "answer": "It is severed from Serena Bloodfeather, the matriarch who roosts among the crags of the Dry Hills in the far northwestern reaches of the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Caravans are the lifeblood connecting Durotar to Mulgore and the distant outposts; mounting Serena's head on supply wagons sends an unmistakable message of Horde dominance over the wild wastes."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Darsok Swiftdagger appreciates clean, ruthless work, praising mercenaries who can slip behind enemy perches and execute a target without flinching."
+  }
+ ],
+ "keywords": [
+  "crossroads",
+  "darsok swiftdagger",
+  "dry hills",
+  "harpy",
+  "rexxar",
+  "serena bloodfeather",
+  "serena's head",
+  "witchwing"
+ ],
+ "related": [
+  "quest:876",
+  "npc:darsok-swiftdagger",
+  "quest:875",
+  "quest:867",
+  "subzone:crossroads",
+  "zone:barrens",
+  "topic:harpy",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Serena's Head",
+  "Serena Bloodfeather (Classic)"
+ ]
+}

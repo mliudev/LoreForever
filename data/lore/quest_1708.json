@@ -17,11 +17,11 @@
   "wiki": "Iron Coral (quest)",
   "chain": []
  },
- "summary": "Iron Coral is an Alliance quest given by the gnome engineer Klockmort Spannerspan in Tinker Town, Ironforge. Eager to test newly shared smithing methods on a custom suit of armor, Klockmort sends you to dive for rare searing coral along the coast of the Wetlands. Completing his request allows him to fuse gnomish ingenuity with dwarven craftsmanship.",
+ "summary": "Iron Coral is an Alliance quest given by the gnome blacksmith Klockmort Spannerspan in Tinker Town, Ironforge. Eager to test newly shared smithing methods on a custom suit of armor, Klockmort sends you to dive for rare searing coral along the coast of the Wetlands. Completing his request allows him to fuse gnomish ingenuity with dwarven craftsmanship.",
  "sections": [
   {
    "title": "A Fusion of Crafts",
-   "body": "After exchanging insights with the master dwarven smith Furen Longbeard, Klockmort Spannerspan is bursting with inspiration. The eccentric gnome engineer wants to combine Furen's metallurgy with his own tinkering ideas to craft an exceptionally resilient suit of armor. To pull off this daring metallurgical experiment, standard mountain ores will not suffice; Klockmort requires an unusual, naturally hardened marine element known as searing coral.",
+   "body": "After exchanging insights with the master dwarven smith Furen Longbeard, Klockmort Spannerspan is bursting with inspiration. The eccentric gnome blacksmith wants to combine Furen's metallurgy with his own tinkering ideas to craft an exceptionally resilient suit of armor. To pull off this daring metallurgical experiment, standard mountain ores will not suffice; Klockmort requires an unusual, naturally hardened marine element known as searing coral.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "who gives iron coral",
     "quest giver iron coral"
    ],
-   "answer": "Klockmort Spannerspan is a skilled gnome engineer residing in Tinker Town within the mountain city of Ironforge. Passionate about mechanical tinkering and cutting-edge metallurgy, he collaborates closely with dwarven artisans to invent new armor-crafting methods."
+   "answer": "Klockmort Spannerspan is a skilled gnome blacksmith residing in Tinker Town within the mountain city of Ironforge. Passionate about mechanical tinkering and cutting-edge metallurgy, he collaborates closely with dwarven artisans to invent new armor-crafting methods."
   },
   {
    "q": "What is searing coral?",

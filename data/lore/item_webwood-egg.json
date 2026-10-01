@@ -1,0 +1,93 @@
+{
+ "key": "item:webwood-egg",
+ "type": "item",
+ "name": "Webwood Egg",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Webwood Egg",
+  "quests": [
+   "quest:917"
+  ]
+ },
+ "summary": "A Webwood Egg is an unhatched specimen gathered from the brooding nests within Shadowthread Cave in Shadowglen. Naturalists studying the corruption on Teldrassil seek out these viable eggs to study the newly hatched arachnids in secure laboratory conditions.",
+ "sections": [
+  {
+   "title": "A Contained Specimen",
+   "body": "Taming or subduing a fully grown, venomous Webwood spider is a perilous task far beyond the reach of solitary researchers. Rather than wrestling mature predators, scholars like Gilshalan Windwalker rely on unhatched eggs collected directly from clutches hidden in the dark recesses of Shadowthread Cave. Securing an unhatched egg allows naturalists to safely transport the creature and contain the emerging spiderlings upon hatching, giving them live subjects to study without facing the deadly fangs of fully grown beasts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Destined for Darnassus",
+   "body": "The unnatural aggression and corruption plaguing the native wildlife of Teldrassil has alarmed scholars across the boughs. Once secured at Aldrassil, these collected eggs and gathered venoms are slated for transport down the boughs to the capital of Darnassus. Researchers hope that raising and examining the spiders in controlled environments will yield valuable insight into the dark affliction creeping through the World Tree's boughs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are Webwood Eggs found?",
+   "aliases": [
+    "webwood egg location",
+    "where is webwood egg",
+    "find webwood egg"
+   ],
+   "answer": "Webwood Eggs are found in clutches resting deep inside the damp tunnels of Shadowthread Cave, located in the northwestern reaches of Shadowglen."
+  },
+  {
+   "q": "Who wants the Webwood Egg?",
+   "aliases": [
+    "who needs webwood egg",
+    "egg turn in",
+    "gilshalan egg"
+   ],
+   "answer": "The researcher Gilshalan Windwalker at Aldrassil requests the egg to continue his scientific study into the aggressive arachnids troubling Shadowglen."
+  },
+  {
+   "q": "Why collect an egg instead of capturing a spider?",
+   "aliases": [
+    "why an egg",
+    "why not capture live spider"
+   ],
+   "answer": "A mature Webwood spider is far too dangerous and massive to capture and contain easily. Retrieving an unhatched egg provides a live specimen that can be transported safely and placed into a secure enclosure before it hatches."
+  },
+  {
+   "q": "What happens to the egg after it is collected?",
+   "aliases": [
+    "where does the egg go",
+    "egg destination"
+   ],
+   "answer": "Gilshalan arranges for the egg and extracted spider venoms to be delivered to Darnassus, where scholars can conduct in-depth research on the creatures away from the immediate dangers of the wild."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young kaldorei defending the sacred boughs of Teldrassil, securing these eggs helps scholars investigate the unnatural taint spreading through the World Tree's native wildlife."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Understanding how the Webwood spiders reproduce and behave while tainted offers druids vital clues toward healing Teldrassil's disrupted natural balance."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "gilshalan",
+  "shadowglen",
+  "shadowthread cave",
+  "spider egg",
+  "teldrassil",
+  "webwood egg"
+ ],
+ "related": [
+  "quest:917",
+  "subzone:shadowthread-cave",
+  "subzone:shadowglen",
+  "subzone:aldrassil",
+  "zone:darnassus",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Webwood Egg",
+  "Webwood Egg (quest)"
+ ]
+}

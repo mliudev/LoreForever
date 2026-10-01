@@ -1,0 +1,94 @@
+{
+ "key": "item:empty-blue-waterskin",
+ "type": "item",
+ "name": "Empty Blue Waterskin",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Empty Blue Waterskin",
+  "quests": [
+   "quest:1534"
+  ]
+ },
+ "summary": "The Empty Blue Waterskin is a ritual vessel given to initiates during the shamanic trials of water. Provided by the hermit Brine in the Barrens, it is carried north into ancient night elf lands to secure a sacred, untainted liquid necessary to fashion the Water Totem.",
+ "sections": [
+  {
+   "title": "A Sacred Vessel",
+   "body": "Communing with the spirit of water requires tangible communion with pure, undisturbed sources across Kalimdor. Handed down by the recluse Brine on the southern shores of the Barrens, the Empty Blue Waterskin represents the final and most perilous gathering task of a shaman's early training. It is destined to hold pristine water taken directly from a secluded fountain deep within the ancient Ruins of Stardust, nestled along the contested borderlands of Ashenvale.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Forest Fountain",
+   "body": "Filling this simple container demands that the initiate journey beyond the safety of Horde territory into the ancient groves guarded by nature beasts and night elves. Once dipped into the waters of the ruined sanctuary, the vessel becomes a Filled Blue Waterskin. Combined with samples from the Barrens and Tarren Mill, its contents allow Brine to brew the draught needed to summon and appease the elemental spirit of water.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Empty Blue Waterskin used for?",
+   "aliases": [
+    "what does empty blue waterskin do",
+    "empty blue waterskin use",
+    "why do i have empty blue waterskin"
+   ],
+   "answer": "It is an empty container used during the Call of Water questline. An initiate must carry it to a holy fountain in the Ruins of Stardust in Ashenvale, where it is filled and returned to Brine to help brew a draught of pure water."
+  },
+  {
+   "q": "Who gives you this waterskin?",
+   "aliases": [
+    "who gives empty blue waterskin",
+    "where do you get blue waterskin"
+   ],
+   "answer": "It is given by Brine, an ascetic shaman mentor dwelling alone in a hut in the southern Barrens, south of Camp Taurajo near the Razorfen border."
+  },
+  {
+   "q": "Where must the waterskin be filled?",
+   "aliases": [
+    "where to fill empty blue waterskin",
+    "blue waterskin location",
+    "where do i fill it"
+   ],
+   "answer": "It must be filled at the central fountain found within the Ruins of Stardust, situated deep in south-western Ashenvale, just past Lake Mystral near the Stonetalon mountain ridge."
+  },
+  {
+   "q": "Why does Brine need water from Ashenvale?",
+   "aliases": [
+    "why ashenvale water",
+    "why ruins of stardust water"
+   ],
+   "answer": "Brine seeks to create the purest vial of water known on Kalimdor. The untouched sacred wellsprings of the night elven ruins provide the pristine final component necessary to commune with the elemental spirits of water."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Carrying and filling this waterskin is a vital milestone in mastering the spirits of water, yielding the pure liquid needed to craft your permanent Water Totem."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Retrieving the water requires a perilous trek out of the Barrens and into hostile night elf territory in western Ashenvale."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "barrens",
+  "brine",
+  "call of water",
+  "empty blue waterskin",
+  "ruins of stardust",
+  "water totem"
+ ],
+ "related": [
+  "item:filled-blue-waterskin",
+  "quest:63",
+  "npc:brine",
+  "subzone:ruins-of-stardust",
+  "zone:ashenvale",
+  "zone:barrens",
+  "topic:shaman"
+ ],
+ "attribution": [
+  "Empty Blue Waterskin",
+  "Call of Water (5)"
+ ]
+}

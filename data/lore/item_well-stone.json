@@ -1,0 +1,81 @@
+{
+ "key": "item:well-stone",
+ "type": "item",
+ "name": "Well Stone",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Well Stone",
+  "quests": [
+   "quest:771"
+  ]
+ },
+ "summary": "Well Stones are small mineral rocks gathered from the banks and surroundings of Mulgore's water wells. Rich in subtle earthen energies, they serve as a vital component in brewing the Water of the Seers during the traditional tauren rites of passage.",
+ "sections": [
+  {
+   "title": "Vessel of Earthen Energies",
+   "body": "Resting naturally in the soft earth bordering the wells of Mulgore, Well Stones absorb the spiritual resonance of the plains and the waters beneath them. Shaman and seers such as Zarlman Two-Moons recognize these stones not as mundane river pebbles, but as receptacles of vital magic. When combined with grounded Ambercorn beneath the plains' mighty trees, their mineral properties temper the brew needed to awaken visionary trance states in young tauren undergoing the sacred Rite of Vision.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Well Stones used for?",
+   "aliases": [
+    "well stone purpose",
+    "what is well stone for",
+    "why gather well stones"
+   ],
+   "answer": "Well Stones are combined with Ambercorn to brew the Water of the Seers. Once consumed before the tribal fire, the potion grants a guiding vision to initiates seeking to prove their spiritual maturity."
+  },
+  {
+   "q": "Where are Well Stones found?",
+   "aliases": [
+    "where to find well stone",
+    "well stone locations",
+    "well stone mulgore"
+   ],
+   "answer": "They lie on the ground around the communal water wells scattered across Mulgore, where the life-giving moisture of the plains touches the soil."
+  },
+  {
+   "q": "Who asks for these stones?",
+   "aliases": [
+    "who needs well stones",
+    "zarlman well stones",
+    "rite of vision stones"
+   ],
+   "answer": "Zarlman Two-Moons, a respected mystic residing in Bloodhoof Village, directs initiates to gather them as part of the Rite of Vision."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Gathering Well Stones is an essential step in demonstrating communion with the land, teaching every young tauren how physical elements of the earth contribute to spiritual enlightenment."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman understand Well Stones as natural anchors of earth and water magic, drawing latent spirits together into a transformative ceremonial mixture."
+  }
+ ],
+ "keywords": [
+  "ambercorn",
+  "bloodhoof village",
+  "mulgore",
+  "rite of vision",
+  "water of the seers",
+  "well stone",
+  "zarlman two-moons"
+ ],
+ "related": [
+  "quest:767",
+  "item:water-of-the-seers",
+  "item:ambercorn",
+  "npc:zarlman-two-moons",
+  "subzone:bloodhoof-village",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Well Stone",
+  "Rite of Vision (2)"
+ ]
+}

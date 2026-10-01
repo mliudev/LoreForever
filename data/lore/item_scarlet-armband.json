@@ -1,0 +1,87 @@
+{
+ "key": "item:scarlet-armband",
+ "type": "item",
+ "name": "Scarlet Armband",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Scarlet Armband",
+  "quests": [
+   "quest:381"
+  ]
+ },
+ "summary": "Scarlet Armbands are insignia worn by members of the Scarlet Crusade, marking their fanatic allegiance to the eradication of all undead. In Deathknell, Executor Arren demands them as proof that fledgling Forsaken have struck back against the zealots encroaching on their territory.",
+ "sections": [
+  {
+   "title": "A Badge of Fanaticism",
+   "body": "Worn on the sleeves of Scarlet Initiates and fresh converts alike, the Scarlet Armband is the unmistakable mark of the Scarlet Crusade. To the newly risen Forsaken emerging from Deathknell, these strips of red cloth represent a lethal threat right on their doorstep. The Crusade makes no distinction between the mindless minions of the Scourge and the free-willed subjects of the Dark Lady; in their eyes, any walking corpse must be put to the torch. Executor Arren uses the collection of these armbands as a grim rite of passage, confirming the deaths of enemy scouts southeast of the settlement and proving that new Forsaken can defend their fledgling nation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Executor Arren want Scarlet Armbands?",
+   "aliases": [
+    "why collect armbands",
+    "arren armband quest",
+    "scarlet armband purpose"
+   ],
+   "answer": "Executor Arren requires the armbands as proof that the encroaching Scarlet Crusade encampment southeast of Deathknell is being culled. The Crusade poses an immediate existential threat to newly awakened Forsaken, and collecting these tokens ensures that their forward scouts and recruits have been eliminated."
+  },
+  {
+   "q": "Who wears these armbands?",
+   "aliases": [
+    "who drops scarlet armbands",
+    "where to find armbands"
+   ],
+   "answer": "The armbands are worn by lower-ranking members of the Scarlet Crusade stationed near Deathknell, specifically Scarlet Initiates, Scarlet Converts, and their local leader Meven Korgal."
+  },
+  {
+   "q": "Why does the Scarlet Crusade hate the Forsaken?",
+   "aliases": [
+    "why scarlet attack undead",
+    "crusade vs forsaken",
+    "scarlet zealots"
+   ],
+   "answer": "Driven by extreme zealotry, the Scarlet Crusade refuses to see any difference between the Lich King's mindless Scourge and the free-willed Forsaken. They view all undead as abominations that must be permanently eradicated."
+  },
+  {
+   "q": "Where is the camp where these armbands can be found?",
+   "aliases": [
+    "scarlet camp location",
+    "deathknell scarlet camp",
+    "where are scarlet converts"
+   ],
+   "answer": "The camp is situated just southeast of Deathknell in Tirisfal Glades, nestled in the hills beyond the settlement's perimeter."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For newly raised Forsaken, gathering these armbands is a grim introduction to the living world's hatred, showing that survival demands ruthless defense against the Crusade."
+  }
+ ],
+ "keywords": [
+  "deathknell",
+  "executor arren",
+  "scarlet armband",
+  "scarlet convert",
+  "scarlet crusade",
+  "scarlet initiate",
+  "tirisfal glades"
+ ],
+ "related": [
+  "quest:381",
+  "npc:executor-arren",
+  "topic:scarlet-crusade",
+  "subzone:deathknell",
+  "zone:tirisfal",
+  "quest:382",
+  "topic:scourge",
+  "topic:lich-king"
+ ],
+ "attribution": [
+  "Scarlet Armband",
+  "The Scarlet Crusade (quest)"
+ ]
+}

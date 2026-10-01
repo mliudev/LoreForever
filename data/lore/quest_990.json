@@ -17,11 +17,11 @@
   "wiki": "Trek to Ashenvale",
   "chain": []
  },
- "summary": "Trek to Ashenvale is an Alliance journey quest directing seasoned adventurers south from Darkshore into the primeval forests of Ashenvale. Dispatched by Sentinel Selarin after operations near the border, travelers are sent to report to Raene Wolfrunner in the town of Astranaar, where the Sentinels struggle against spreading corruption.",
+ "summary": "Trek to Ashenvale is an Alliance journey quest directing seasoned adventurers south from Darkshore into the primeval forests of Ashenvale. Dispatched by Sentinel Selarin, who came to Auberdine seeking aid, travelers are sent to report to Raene Wolfrunner in the town of Astranaar, where the Sentinels struggle against spreading corruption.",
  "sections": [
   {
    "title": "Leaving the Coast",
-   "body": "Having assisted Sentinel Selarin along the southern border of Darkshore, travelers leave behind the somber gray beaches and shadowed ruins of the coastline. The Sentinel recognizes capable fighters and scouts who can hold their own, pointing them directly toward the heart of night elf woodland territory. With local threats in Darkshore handled, attention turns toward the far greater perils encroaching from the south.",
+   "body": "Having answered Sentinel Selarin's call for aid in Auberdine, travelers leave behind the somber gray beaches and shadowed ruins of the coastline. The Sentinel recognizes capable fighters and scouts who can hold their own, pointing them directly toward the heart of night elf woodland territory. With local threats in Darkshore handled, attention turns toward the far greater perils encroaching from the south.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "who starts trek to ashenvale",
     "selarin"
    ],
-   "answer": "Sentinel Selarin, a night elf sentinel stationed in southern Darkshore, directs you south toward Astranaar once you have proven your capabilities along the border."
+   "answer": "Sentinel Selarin, a night elf sentinel sent to Auberdine by Raene Wolfrunner to seek help, directs you south toward Astranaar."
   },
   {
    "q": "Who is Raene Wolfrunner?",

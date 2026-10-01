@@ -1,0 +1,81 @@
+{
+ "key": "npc:thorgas-grimson",
+ "type": "npc",
+ "name": "Thorgas Grimson",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Thorgas Grimson",
+  "refs": 1
+ },
+ "summary": "Thorgas Grimson is the resident dwarf hunter trainer stationed inside Anvilmar in Coldridge Valley. A seasoned outdoorsman of Dun Morogh, he firmly believes that hands-on survival in the freezing wilds is the finest teacher any fledgling marksman can have.",
+ "sections": [
+  {
+   "title": "A Guide in the Cold",
+   "body": "Perched inside the stone halls of Anvilmar, Thorgas Grimson welcomes novice mountaineers and scouts taking their very first steps into the harsh snowdrifts of Coldridge Valley. Rather than bogging young hunters down with dry lectures, Grimson espouses a practical philosophy: real skill is forged out in the freezing winds, bow or gun in hand, tracking Dun Morogh's rugged beasts firsthand.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Thorgas Grimson?",
+   "aliases": [
+    "thorgas grimson",
+    "who is thorgas",
+    "anvilmar hunter trainer"
+   ],
+   "answer": "Thorgas Grimson is a dwarven hunter trainer located within Anvilmar, the central outpost of Coldridge Valley in Dun Morogh. He provides initial guidance and basic field skills to new Alliance hunters starting their adventures."
+  },
+  {
+   "q": "What training does Thorgas offer?",
+   "aliases": [
+    "what does thorgas teach",
+    "hunter skills anvilmar"
+   ],
+   "answer": "He instructs novice hunters in foundational wilderness techniques, such as tracking wild beasts across the snowy terrain and honing basic ranged marksmanship, setting them on the path to becoming true mountaineers."
+  },
+  {
+   "q": "What is his training philosophy?",
+   "aliases": [
+    "thorgas personality",
+    "how does thorgas train"
+   ],
+   "answer": "Thorgas maintains that theoretical drills pale in comparison to raw experience. He believes the only way to truly master the wild is to step out into the freezing drifts and face the beasts of Dun Morogh directly."
+  },
+  {
+   "q": "Will Thorgas Grimson speak with non-hunters?",
+   "aliases": [
+    "can other classes talk to thorgas",
+    "thorgas gossip"
+   ],
+   "answer": "While polite enough, Thorgas will candidly inform adventurers of other callings that he cannot assist them with their training, advising them to seek out a mentor suited to their own chosen path."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For dwarven marksmen, Thorgas Grimson is often the very first mentor you encounter, offering early guidance on tracking beasts and surviving the freezing valley."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Grimson embodies the hardy, self-reliant spirit of the Ironforge mountaineers who patrol the frozen peaks of Dun Morogh."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "dwarf hunter",
+  "hunter trainer",
+  "thorgas grimson"
+ ],
+ "related": [
+  "subzone:anvilmar",
+  "zone:dunmorogh",
+  "quest:3108",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Thorgas Grimson"
+ ]
+}

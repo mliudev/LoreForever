@@ -1,0 +1,88 @@
+{
+ "key": "item:thurman-s-remains",
+ "type": "item",
+ "name": "Thurman's Remains",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Thurman's Remains",
+  "quests": [
+   "quest:354"
+  ]
+ },
+ "summary": "Thurman's Remains are the corporeal remnants of Thurman Agamand, recovered from the family's ruined mills in northern Tirisfal Glades. Once a wealthy mill owner who persuaded his workers to stand against the Scourge, Thurman succumbed to the Plague and wanders his former estate as an undead thrall.",
+ "sections": [
+  {
+   "title": "A Legacy of Ruin",
+   "body": "Before the Third War, the Agamand family stood as the most prosperous landowners in Tirisfal Glades, operating extensive mills and employing dozens of local workers. When the Scourge swept across Lordaeron, Thurman Agamand and his kin fortified their estate rather than fleeing. Convinced that their wealth and fortified mills could weather the onslaught, they persuaded their loyal laborers to take up arms beside them. The defense failed utterly. The Agamands and their workers were slaughtered and transformed into mindless servants of the Lich King. Today, Coleman Farthing\u2014a former employee risen as Forsaken\u2014demands the destruction of his former masters, seeking Thurman's remains as proof that the foolish patriarch has paid for dooming his household.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Thurman Agamand?",
+   "aliases": [
+    "thurman agamand",
+    "who is thurman",
+    "who was thurman"
+   ],
+   "answer": "Thurman Agamand was a prominent member of the wealthy Agamand dynasty that owned Agamand Mills in northern Tirisfal Glades. When the Scourge struck Lordaeron, his pride led him to convince his laborers to stay and fight, a choice that resulted in the slaughter and reanimation of everyone on the estate."
+  },
+  {
+   "q": "Why does Coleman Farthing want Thurman's remains?",
+   "aliases": [
+    "why coleman wants remains",
+    "coleman farthing motive",
+    "why kill thurman"
+   ],
+   "answer": "Coleman Farthing was a mill worker who trusted the Agamands and died defending their estate. Now a member of the Forsaken, Coleman harbors deep bitterness toward his former employers for dooming their workforce to undeath, seeking Thurman's remains as vengeance."
+  },
+  {
+   "q": "Did Thurman have free will when he was destroyed?",
+   "aliases": [
+    "did thurman have free will",
+    "was thurman scourge",
+    "is thurman forsaken"
+   ],
+   "answer": "No. Unlike the Forsaken of the Undercity, Thurman Agamand remained under the mental domination of the Scourge after death, serving as an unthinking minion until destroyed at the mills."
+  },
+  {
+   "q": "Who else from the Agamand family is being targeted?",
+   "aliases": [
+    "other agamands",
+    "agamand family members",
+    "deaths in the family targets"
+   ],
+   "answer": "Alongside Thurman, Coleman Farthing seeks the destruction and recovered remains of Gregor Agamand and Nissa Agamand, ending the bloodline that once ruled the mills."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, reclaiming these remains is a grim settling of accounts against aristocratic masters whose hubris led their laborers directly into the grasp of the Scourge."
+  }
+ ],
+ "keywords": [
+  "agamand",
+  "agamand mills",
+  "coleman farthing",
+  "deaths in the family",
+  "thurman agamand",
+  "thurman's remains",
+  "tirisfal glades"
+ ],
+ "related": [
+  "quest:354",
+  "item:gregor-s-remains",
+  "item:nissa-s-remains",
+  "npc:coleman-farthing",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "topic:scourge",
+  "subzone:brill"
+ ],
+ "attribution": [
+  "Thurman's Remains",
+  "Deaths in the Family (Classic)"
+ ]
+}

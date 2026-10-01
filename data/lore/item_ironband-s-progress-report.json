@@ -1,0 +1,94 @@
+{
+ "key": "item:ironband-s-progress-report",
+ "type": "item",
+ "name": "Ironband's Progress Report",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Ironband's Progress Report",
+  "quests": [
+   "quest:298",
+   "quest:301"
+  ]
+ },
+ "summary": "Ironband's Progress Report is a written dispatch detailing the troubles facing Prospector Ironband's excavation site in eastern Loch Modan. It conveys both an account of slow digging hindered by aggressive troggs and an urgent plea for more blastpowder.",
+ "sections": [
+  {
+   "title": "A Plea for Gunpowder",
+   "body": "Prospector Ironband's excavation in Loch Modan faces continuous disruption from local troggs. To keep the project moving forward, Ironband compiled this progress report to restate his desperate need for blastpowder. Carried first to Jern Hornhelm in Thelsamar and then forwarded to the Assembly of Explorers in Ironforge, the report documents the site's stalls while requesting heavy munitions. The dispatch quickly raises eyebrows among league leadership, as an ample supply of blastpowder was dispatched to Ironband weeks prior, leaving superiors wondering where the previous shipments vanished.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Ironband's Progress Report?",
+   "aliases": [
+    "progress report",
+    "ironbands report",
+    "what is this report"
+   ],
+   "answer": "It is an official field update penned by Prospector Ironband regarding the state of his excavation site in Loch Modan, specifically highlighting the interference caused by troggs and demanding more blastpowder."
+  },
+  {
+   "q": "Who receives this report?",
+   "aliases": [
+    "who gets the report",
+    "who do i give the report to",
+    "deliver progress report"
+   ],
+   "answer": "The report is first delivered to Jern Hornhelm, the excavation's local liaison in Thelsamar. Hornhelm then directs the bearer to deliver it directly to Prospector Stormpike at the Explorers' League headquarters in Ironforge."
+  },
+  {
+   "q": "Why does Ironband need more blastpowder?",
+   "aliases": [
+    "why blastpowder",
+    "what happened to the powder",
+    "powder shortage"
+   ],
+   "answer": "Ironband claims he needs the powder to aid his archaeological digging, though the constant raids by nearby troggs suggest he may also need explosives for defense. Oddly, both Hornhelm and Stormpike believe they sent him plenty of blastpowder weeks ago."
+  },
+  {
+   "q": "How does Prospector Stormpike react to the report?",
+   "aliases": [
+    "stormpike reaction",
+    "is stormpike mad"
+   ],
+   "answer": "Stormpike is furious about the slow progress and baffled that Ironband makes no mention of the massive blastpowder shipment previously dispatched, questioning where the missing munitions could have gone."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarven explorers and miners, this dispatch represents the dangerous reality of excavating ancient titan sites in the heart of Khaz Modan."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Miners understand all too well the necessity of blastpowder when clearing stubborn rock formations\u2014and the danger when supplies go missing in trogg territory."
+  }
+ ],
+ "keywords": [
+  "blastpowder",
+  "explorers league",
+  "ironband",
+  "jern hornhelm",
+  "loch modan",
+  "prospector stormpike",
+  "thelsamar",
+  "troggs"
+ ],
+ "related": [
+  "quest:298",
+  "quest:301",
+  "npc:jern-hornhelm",
+  "npc:prospector-stormpike",
+  "topic:explorers-league",
+  "subzone:thelsamar",
+  "zone:ironforge",
+  "zone:lochmodan"
+ ],
+ "attribution": [
+  "Ironband's Progress Report",
+  "Excavation Progress Report",
+  "Report to Ironforge"
+ ]
+}

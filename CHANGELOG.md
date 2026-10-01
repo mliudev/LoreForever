@@ -6,6 +6,53 @@ One `- ` bullet per change; wrap long bullets with an indented continuation line
 
 ## Unreleased
 
+## 0.4.0 (2026-09-30)
+
+- Corrected 275 lore entries: wrong names, races and places, zone details from the wrong era, and story twists
+  that now stay behind the spoiler button.
+
+- **Dungeon bosses, one click away:** target a boss and click the book or minimap button (or press your Lore key)
+  and Lore Forever opens on that boss's story. Inside a dungeon, the Here tab lists its bosses in the order you
+  meet them, with play, + and "Queue all", and the dungeon primer's "Who you'll face" names are now clickable.
+  A boss's ending stays behind the spoiler button.
+- **Every dungeon boss is narrated (52 in all):** hear who they are and why they're there, from the Deadmines to the
+  Scarlet Monastery, spoiler-free. Find them in the Here tab inside a dungeon, or under each dungeon in the
+  Narrations tab. The female narrator (version 1.1.1 on the Voices page) reads them too.
+- Baron Aquanis and Bazil Thredd now have stories of their own, so asking about them no longer answers with
+  the quest about them.
+- The narrator now says Lordaeron and Gnomeregan the way players do.
+- **Narration playlist:** press the green + on any narration in the Narrations tab (or "Add to playlist" on a
+  narrated answer) to queue it. The new Playlist tab shows what's playing and what's next, and lets you reorder,
+  remove or clear it all. Narrations play one after another with Prev, Pause and Next in the Now playing bar. Playing
+  something else pauses the playlist. New key bindings: "Play/pause narration playlist" and "Next narration".
+- **Flight narration no longer cuts itself off:** each zone's story joins your playlist, so flying over several
+  zones quickly plays them one after another instead of dropping the one that was playing.
+- **Book and minimap buttons:** click opens Lore Forever and right-click opens (or closes) its options, as
+  before. New: Shift-click plays or pauses your playlist, and Shift-right-click skips to the next narration.
+  With an empty playlist, Shift-click (or the play/pause key) plays everything narrated where you are.
+  The book glows and the minimap button's ring turns green while something plays, and the tooltip says what's
+  playing.
+- The minimap button is now on by default (it's turned on once after this update; switch it off in Options).
+- Pressing your Lore key while hovering someone with lore now always opens their story. Before, it only worked
+  for a couple of seconds after the tooltip appeared, and not at all with tooltip lore turned off.
+- The Lore Forever window can be resized narrower (down to 600 pixels wide).
+- `/lore help` now ends with where to ask questions, request lore and report bugs: loreforeverwow.com/discord
+- Item tooltips no longer add "Useful for your Tailoring" and similar notes to crafting materials. Notes for
+  quest items stay.
+- **Ask the obvious:** "how did I get here?", "what am I doing here?", "why does he want me to do this?" and
+  "what is this for?" now answer from where you are, who you've targeted and what's in your quest log and bags.
+  Everywhere up to level 30: every starting area, zone, city and dungeon.
+- **Ask about what's in front of you:** target a gnoll and ask "who leads them?" or "why are they attacking me?";
+  target a person and ask "whose side is he on?"; stand in Moonbrook and ask "what happened here?"; or ask about
+  yourself: "why can I use the Light?", "tell me about my people", "why do we fight the Alliance?".
+- Lore for about 760 quest items (Gold Dust, Tough Wolf Meat, Minshina's Skull and more) and for every class.
+- Suggested questions lead with those, and no longer offer gameplay filler like "where are the wolves located?".
+- New lore for the first quests of the Valley of Trials (Cutting Teeth, Sarkoth, Lazy Peons and more), Shadowglen,
+  Deathknell, Coldridge Valley and Northshire.
+- **Female narrator:** a second narrator reads all 204 narrations: every zone story and answer, and the dungeon
+  bosses. She's an optional download: https://loreforeverwow.com/voices. Unzip her into AddOns, restart the game,
+  then pick her in Options > AddOns > Lore Forever > Narration voice.
+
 ## 0.3.0 (2026-09-29)
 
 - **New narrators:** every zone story and answer (152 in all) has a new narrator, with clearer pronunciation of

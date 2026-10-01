@@ -1,0 +1,83 @@
+{
+ "key": "item:daggerspine-scale",
+ "type": "item",
+ "name": "Daggerspine Scale",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Daggerspine Scale",
+  "quests": [
+   "quest:515"
+  ]
+ },
+ "summary": "A Daggerspine Scale is a tough reptilian scale harvested from the Daggerspine naga prowling the southern shores of the Hillsbrad Foothills. Sought after by the Royal Apothecary Society, these scales serve as a crucial catalyst to activate virulent brews in the Forsaken's ongoing plague experiments.",
+ "sections": [
+  {
+   "title": "Apothecary Research",
+   "body": "The Royal Apothecary Society constantly seeks biological reagents to enhance their toxins, plagues, and concoctions. When refining the experimental brew known as the Elixir of Agony, the apothecaries discovered that scales taken from the local Daggerspine naga possessed unique reactive properties. When combined with troll regenerative elixirs and murloc organs, the scales help chemically activate dormant contaminating agents suspended in raw mixtures. Procuring them requires hunting along the rocky coastline east of Southshore, braving both the vicious naga tribe and nearby Alliance forces.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Daggerspine Scales used for?",
+   "aliases": [
+    "daggerspine scale use",
+    "why get daggerspine scales",
+    "what do daggerspine scales do"
+   ],
+   "answer": "They are gathered for Apothecary Lydon in Tarren Mill as part of the research into the Elixir of Agony. When combined with other reagents, the scales activate the contaminating properties of an alchemical mudsnout mixture."
+  },
+  {
+   "q": "Where do these scales come from?",
+   "aliases": [
+    "where to find daggerspine scales",
+    "who drops daggerspine scales",
+    "daggerspine scale location"
+   ],
+   "answer": "They are stripped from Daggerspine naga\u2014including shorestalkers, shorehunters, screamers, sirens, and their leader Lady Zephris\u2014who inhabit the coastline of Hillsbrad Foothills directly east of the human settlement of Southshore."
+  },
+  {
+   "q": "Why does the Royal Apothecary Society want naga scales?",
+   "aliases": [
+    "why naga scales",
+    "apothecary naga scales"
+   ],
+   "answer": "The Society's apothecaries determined that the resilient scales of the Daggerspine tribe carry the exact chemical properties needed to trigger specific infectious agents within their experimental blight and disease concoctions."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Procuring these scales directly advances the Royal Apothecary Society's research to develop devastating new plagues against the enemies of the Forsaken."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Gathering scales along the southern shore requires careful navigation, as the Daggerspine encampments sit dangerously close to the Alliance port of Southshore."
+  }
+ ],
+ "keywords": [
+  "daggerspine",
+  "daggerspine scale",
+  "elixir of agony",
+  "hillsbrad",
+  "lydon",
+  "naga",
+  "royal apothecary society",
+  "undercity"
+ ],
+ "related": [
+  "quest:509",
+  "topic:royal-apothecary-society",
+  "topic:naga",
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "item:mudsnout-mixture",
+  "item:torn-fin-eye",
+  "npc:umpi"
+ ],
+ "attribution": [
+  "Daggerspine Scale",
+  "Elixir of Agony (3)"
+ ]
+}

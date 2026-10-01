@@ -1,0 +1,94 @@
+{
+ "key": "item:ghost-hair-comb",
+ "type": "item",
+ "name": "Ghost Hair Comb",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Ghost Hair Comb",
+  "quests": [
+   "quest:154"
+  ]
+ },
+ "summary": "The Ghost Hair Comb is an eerie grooming tool entangled with the spectral strands of the spirit Blind Mary. Sent to the ghost by Madame Eva, the comb becomes an instrument of tragic realization before its gathered hair is spun into uncanny thread.",
+ "sections": [
+  {
+   "title": "A Tragic Vanity",
+   "body": "Madame Eva of Darkshire sends the comb to the haunted spirit Blind Mary, who resides in a lonely dilapidated dwelling on the outskirts of Duskwood. When presented with the comb, the ghost recoils in sheer horror, suddenly confronted with the harrowing reality that she is no longer the lovely living woman she once was. In her grief and distress, Mary thrusts the comb away, leaving it tangled with strands of her own ghostly hair.",
+   "spoiler": 0
+  },
+  {
+   "title": "Spun from Sorrow",
+   "body": "Returned to Madame Eva in Darkshire, the hair caught within the teeth of the comb serves a far more esoteric purpose. Eva collects the delicate spectral fibers to spin them into Ghost Hair Thread, a mystical crafting material used to stitch and bind occult creations in the shadowy realm of Duskwood.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Ghost Hair Comb?",
+   "aliases": [
+    "ghost hair comb",
+    "what is this comb",
+    "eva's comb"
+   ],
+   "answer": "It is a comb sent by Madame Eva of Darkshire to the spirit Blind Mary. After Mary uses it or casts it aside, it catches strands of her spectral hair, which Eva then spins into Ghost Hair Thread."
+  },
+  {
+   "q": "Why does Blind Mary scream and reject the comb?",
+   "aliases": [
+    "why does blind mary scream",
+    "blind mary comb reaction",
+    "why did mary throw the comb"
+   ],
+   "answer": "The comb reminds Blind Mary of her lost mortal beauty. Receiving it forces her to confront her true nature as a terrifying, spectral monstrosity rather than the lovely woman she remembers being in life."
+  },
+  {
+   "q": "Who needs the comb returned?",
+   "aliases": [
+    "who wants the comb",
+    "where to take the comb",
+    "return comb to who"
+   ],
+   "answer": "Madame Eva, the resident diviner and hedge-mage living in the town of Darkshire, asks for the comb to be brought back to her so she can harvest the trapped ghost hair."
+  },
+  {
+   "q": "What is the ghost hair used for?",
+   "aliases": [
+    "ghost hair use",
+    "what is ghost hair thread",
+    "ghost hair thread purpose"
+   ],
+   "answer": "Madame Eva spins the ghostly strands collected from the comb into Ghost Hair Thread, an unusual reagent required for occult rituals and crafting in Duskwood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "The ethereal strands plucked from the comb represent an uncanny textile, harvested not from sheep or silkworms, but spun directly from spectral sorrow."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Mary's anguished reaction to the comb reflects the lingering mortal vanity and deep spiritual torment common among Duskwood's restless dead."
+  }
+ ],
+ "keywords": [
+  "blind mary",
+  "darkshire",
+  "duskwood",
+  "ghost hair comb",
+  "ghost hair thread",
+  "madame eva"
+ ],
+ "related": [
+  "quest:154",
+  "quest:149",
+  "npc:blind-mary",
+  "npc:madame-eva",
+  "subzone:darkshire",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Ghost Hair Comb",
+  "Return the Comb (Classic)"
+ ]
+}

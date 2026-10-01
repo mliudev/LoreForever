@@ -1,0 +1,90 @@
+{
+ "key": "item:sturdy-dragonmaw-shinbone",
+ "type": "item",
+ "name": "Sturdy Dragonmaw Shinbone",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Sturdy Dragonmaw Shinbone",
+  "quests": [
+   "quest:1846"
+  ]
+ },
+ "summary": "Sturdy Dragonmaw Shinbones are durable skeletal trophies gathered from the renegade Dragonmaw orcs in the Wetlands. Required by armor crafter Velora Nitely in the Undercity, they serve as reinforcement struts for bespoke warrior armor.",
+ "sections": [
+  {
+   "title": "Bones for the Frame",
+   "body": "When forging brutal leg guards for frontline warriors, smiths require raw components that can endure severe punishment. In the Undercity, Velora Nitely prizes the skeletal density of the renegade Dragonmaw orcs entrenched at the Angerfang Encampment in the northern Wetlands. Dragonmaw orcs are known for their thick, sturdy frames, making their shins well suited to serve as structural bracers. However, not every collected bone can withstand the strain; warriors must test each piece with their bare hands, discarding those that snap under pressure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What makes these shinbones sturdy compared to normal ones?",
+   "aliases": [
+    "why sturdy shinbones",
+    "dragonmaw bone strength",
+    "testing shinbones"
+   ],
+   "answer": "Dragonmaw orcs possess naturally thick skeletal frames, but minor fractures or brittle bone make many samples useless for forging armor. To confirm one is sturdy, a warrior bends the raw bone with their bare hands; only those that resist breaking are considered strong enough to frame protective leg guards."
+  },
+  {
+   "q": "Who wants Sturdy Dragonmaw Shinbones?",
+   "aliases": [
+    "who needs shinbones",
+    "velora nitely bones",
+    "turn in dragonmaw shinbones"
+   ],
+   "answer": "Velora Nitely, an armorer located in the Undercity, seeks them out. She uses them as core framing struts when crafting brutal leg guards for promising Horde warriors."
+  },
+  {
+   "q": "Where are these bones gathered?",
+   "aliases": [
+    "where to find dragonmaw shinbones",
+    "dragonmaw shinbone location",
+    "angerfang bones"
+   ],
+   "answer": "They are taken from the renegade Dragonmaw orcs occupying the Wetlands south of the Arathi Highlands, most notably at the Angerfang Encampment nestled in the hills southwest of the Thandol Span."
+  },
+  {
+   "q": "Why does Velora Nitely use orc bones for armor?",
+   "aliases": [
+    "why orc bones",
+    "forsaken bone armor",
+    "velora bone crafting"
+   ],
+   "answer": "Forsaken craftsmanship frequently integrates bone, sinew, and metal into morbid yet highly durable wargear. The Dragonmaw clan remains hostile to Thrall's Horde, making their remains fair game for Forsaken smiths looking for resilient, heavy-duty crafting material."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Procuring and testing these dense orc bones with bare hands proves a warrior's physical might while gathering the framing pieces for custom armor."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Velora Nitely represents typical Forsaken pragmatism, repurposing the bones of their enemies into functional equipment for the Dark Lady's champions."
+  }
+ ],
+ "keywords": [
+  "angerfang encampment",
+  "dragonmaw shinbone",
+  "leg guards",
+  "sturdy dragonmaw shinbone",
+  "undercity",
+  "velora nitely",
+  "wetlands"
+ ],
+ "related": [
+  "quest:1846",
+  "npc:velora-nitely",
+  "subzone:angerfang-encampment",
+  "zone:wetlands",
+  "subzone:thandol-span",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "Sturdy Dragonmaw Shinbone",
+  "Dragonmaw Shinbones"
+ ]
+}

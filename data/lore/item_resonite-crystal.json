@@ -1,0 +1,106 @@
+{
+ "key": "item:resonite-crystal",
+ "type": "item",
+ "name": "Resonite Crystal",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Resonite Crystal",
+  "quests": [
+   "quest:6421"
+  ]
+ },
+ "summary": "Resonite Crystals are strange, glowing mineral samples found deep within Boulderslide Cavern in the Stonetalon Mountains. Frantically mined by local kobolds, these rare stones hum with the ancient magical residue of the Titan-forged Earthen.",
+ "sections": [
+  {
+   "title": "Ancient Resonance",
+   "body": "Hidden away in the depths of Boulderslide Ravine, Resonite Crystals have become the focal point of sudden, frantic kobold excavation. While common cave miners usually seek mundane ores or shiny trinkets, the kobolds' obsession with these specific formations immediately alarmed the shamans of Sun Rock Retreat. Upon close examination, the stones hum with a subtle magical resonance tied to the primordial shaping of the world. Mor'rogal identified these faint energies as traces of Earthen magic, indicating that the burrowing creatures broke into an ancient layer crafted by the Titans.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tapping the Earth",
+   "body": "The discovery of Resonite confirms troubling news for the Horde presence in Stonetalon: the kobold diggers have struck deep enough to disturb the ancient Earthen. Because the Earthen were shaped directly by the Titans to carve and mold the world's foundations, residual magic clings stubbornly to the surrounding rock. By gathering these crystals, Horde agents hope to decipher the kobolds' frantic intentions and turn the very power of the enchanted stone against whatever slumbering forces have been disturbed below.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are Resonite Crystals found?",
+   "aliases": [
+    "resonite location",
+    "where to get resonite",
+    "resonite crystal farm"
+   ],
+   "answer": "Resonite Crystals are found inside Boulderslide Cavern, a deep cave located within Boulderslide Ravine in the southeastern reaches of the Stonetalon Mountains."
+  },
+  {
+   "q": "Why are the kobolds mining Resonite Crystals?",
+   "aliases": [
+    "why kobolds mining",
+    "kobold crystal plot",
+    "boulderslide kobolds"
+   ],
+   "answer": "The kobolds in Boulderslide Ravine began frantically excavating these crystals after their deep mining broke into subterranean chambers containing ancient Earthen relics. They harvest the mineral to tap into the strange power permeating the rock."
+  },
+  {
+   "q": "What kind of power is in a Resonite Crystal?",
+   "aliases": [
+    "resonite crystal magic",
+    "what is resonite",
+    "is resonite magical"
+   ],
+   "answer": "Resonite Crystals carry lingering traces of Earthen magic. According to the tauren shaman Mor'rogal, this primordial power dates back to the Titans, who forged the stone-skinned Earthen to shape the subterranean layers of the world."
+  },
+  {
+   "q": "Who is studying these crystals?",
+   "aliases": [
+    "who wants resonite",
+    "mor'rogal crystals",
+    "sun rock retreat resonite"
+   ],
+   "answer": "Mor'rogal, a tauren stationed at Sun Rock Retreat in the Stonetalon Mountains, investigates the crystals to understand the sudden surge in kobold activity and find a way to counter whatever evil has been uncovered."
+  },
+  {
+   "q": "What are the Earthen mentioned in connection to the crystal?",
+   "aliases": [
+    "what are earthen",
+    "earthen titan connection"
+   ],
+   "answer": "The Earthen are an ancient race created by the Titans to sculpt and excavate the deep earth. Uncovering their presence in the Stonetalon depths explains the rare, residual Titan magic clinging to the Resonite Crystals."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The Resonite Crystals carry an unsettling resonance for shamans, who can recognize the dormant, primordial earth magic left behind by Titan creations long buried under the mountains."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Unlike standard copper or tin veins, Resonite is an intensely concentrated mineral formation whose extraction requires delving past aggressive kobolds into the deepest subterranean strata."
+  }
+ ],
+ "keywords": [
+  "boulderslide",
+  "crystal",
+  "earthen",
+  "kobold",
+  "mor'rogal",
+  "resonite",
+  "stonetalon",
+  "titans"
+ ],
+ "related": [
+  "subzone:boulderslide-cavern",
+  "quest:6421",
+  "npc:mor-rogal",
+  "subzone:sun-rock-retreat",
+  "zone:stonetalon",
+  "topic:kobold",
+  "topic:titan",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Resonite Crystal",
+  "Boulderslide Ravine (quest)"
+ ]
+}

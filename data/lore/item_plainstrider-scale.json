@@ -1,0 +1,93 @@
+{
+ "key": "item:plainstrider-scale",
+ "type": "item",
+ "name": "Plainstrider Scale",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Plainstrider Scale",
+  "quests": [
+   "quest:766"
+  ]
+ },
+ "summary": "A tough scale harvested from the tallstriders roaming the sweeping plains of Mulgore. It serves as a vital component in a traditional remedy prepared by Maur Raincaller to counter a virulent infection.",
+ "sections": [
+  {
+   "title": "A Rare Ingredient",
+   "body": "While plainstriders are best known for their soft feathers and lean meat, their powerful legs are covered in tough, protective scales. These scales are resilient against the harsh scrubland terrain and predator claws. Finding one intact and suitable for medicine requires patience, as only select plainstriders across Mulgore yield scales firm enough to be ground and prepared for folk remedies.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Remedy for a Venomous Bite",
+   "body": "When Maur Raincaller in Bloodhoof Village crossed paths with Mazzranache\u2014a legendary strider known for its demonic red eyes and venomous bite\u2014he suffered a severe wound to his shoulder. Falling into a delirious fever, Maur requires a Plainstrider Scale alongside a wolf heart, cougar femur, and swoop gizzard to cleanse the spreading infection before it proves fatal.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Plainstrider Scale used for?",
+   "aliases": [
+    "what does plainstrider scale do",
+    "plainstrider scale use",
+    "why need plainstrider scale"
+   ],
+   "answer": "It is an essential medicinal ingredient gathered for Maur Raincaller in Bloodhoof Village. Combined with parts from other Mulgore predators, it is brewed into a remedy to treat an infected, venomous wound inflicted by the rogue tallstrider Mazzranache."
+  },
+  {
+   "q": "Where do you find a Plainstrider Scale?",
+   "aliases": [
+    "where to get plainstrider scale",
+    "how to get plainstrider scale",
+    "plainstrider scale location"
+   ],
+   "answer": "The scales are obtained by hunting the wild plainstriders that roam the open grasslands throughout Mulgore."
+  },
+  {
+   "q": "Why is Maur Raincaller infected?",
+   "aliases": [
+    "how did maur get sick",
+    "why is maur sick",
+    "mazzranache bite"
+   ],
+   "answer": "While traveling the plains, Maur was ambushed and bitten in the shoulder by Mazzranache, a terrifying tallstrider notorious for its venomous bite and crimson eyes. The bite left him with a worsening, delirious fever that ordinary rest cannot heal."
+  },
+  {
+   "q": "What other ingredients does Maur need for his remedy?",
+   "aliases": [
+    "maur raincaller ingredients",
+    "cure for mazzranache",
+    "mazzranache quest items"
+   ],
+   "answer": "Alongside the Plainstrider Scale, Maur requires a Prairie Wolf Heart, a Flatland Cougar Femur, and a Swoop Gizzard to complete the medicinal mixture."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Gathering remedies from the land reflects the traditional survival skills taught to young hunters in Mulgore, utilizing every part of the plains' wildlife to sustain the tribe."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "maur raincaller",
+  "mazzranache",
+  "mulgore",
+  "plainstrider",
+  "remedy",
+  "scale",
+  "tallstrider"
+ ],
+ "related": [
+  "quest:766",
+  "npc:maur-raincaller",
+  "subzone:bloodhoof-village",
+  "zone:mulgore",
+  "item:prairie-wolf-heart",
+  "item:flatland-cougar-femur",
+  "item:swoop-gizzard"
+ ],
+ "attribution": [
+  "Plainstrider Scale",
+  "Mazzranache (Classic)"
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "key": "item:cats-eye-emerald",
+ "type": "item",
+ "name": "Cats Eye Emerald",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Cats Eye Emerald",
+  "quests": [
+   "quest:896"
+  ]
+ },
+ "summary": "The Cats Eye Emerald is an exceptionally large, fist-sized gemstone unearthed within the Boulder Lode Mine in the northern Barrens. Coveted for its immense market value, it quickly became the subject of scheming outside the Venture Company's ranks.",
+ "sections": [
+  {
+   "title": "A Fist-Sized Fortune",
+   "body": "When laborers excavating the Venture Company's Boulder Lode Mine, situated northeast of the Sludge Fen, struck a massive emerald, word traveled fast across the savanna. Such rare, high-grade gemstones rarely stay secret for long in goblin-dominated territories. Wharfmaster Dizzywig in Ratchet caught wind of the discovery through the steady trade gossip passing between his docks and Booty Bay, immediately plotting to secure the prize for the open market in Undermine.",
+   "spoiler": 0
+  },
+  {
+   "title": "Company Possession",
+   "body": "Rather than reaching common trade channels legitimately, the gemstone was kept under heavy guard by the Venture Company's management inside the mine. Overseers, Enforcers, and chief operators like Boss Copperplug vigilantly defended their valuable prize from both rival cartels and enterprising fortune-hunters seeking to claim Dizzywig's promised fifty-percent cut.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Cats Eye Emerald?",
+   "aliases": [
+    "what is cats eye emerald",
+    "cats eye gem",
+    "what kind of gem is this"
+   ],
+   "answer": "It is an unusually huge emerald, roughly the size of a fist, found during excavation operations in the northern Barrens. Its clarity and size make it worth a fortune on the global market."
+  },
+  {
+   "q": "Where was the gem discovered?",
+   "aliases": [
+    "where was it found",
+    "gem location",
+    "boulder lode mine emerald"
+   ],
+   "answer": "It was unearthed by Venture Company miners inside the Boulder Lode Mine, which lies just northeast of the Sludge Fen in the northern Barrens."
+  },
+  {
+   "q": "Who wants the emerald in Ratchet?",
+   "aliases": [
+    "who buys the emerald",
+    "dizzywig emerald",
+    "who gives quest for emerald"
+   ],
+   "answer": "Wharfmaster Dizzywig, the goblin who oversees shipping and cargo at Ratchet's docks, seeks the stone to sell to wealthy buyers via Undermine trading connections."
+  },
+  {
+   "q": "Who holds onto the stone inside the mine?",
+   "aliases": [
+    "who drops the emerald",
+    "who has the cats eye emerald",
+    "where to find cats eye emerald"
+   ],
+   "answer": "The emerald is held by senior Venture Company supervisors in Boulder Lode Mine, carried by overseers, enforcers, or Boss Copperplug himself."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The discovery of a pristine, fist-sized gem in an otherwise gritty industrial dig like Boulder Lode Mine represents the ultimate lucky strike every miner dreams of unearthing."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Stealing an immense, poorly guarded gem out from under the noses of corrupt Venture Company taskmasters is textbook opportunism."
+  }
+ ],
+ "keywords": [
+  "boss copperplug",
+  "boulder lode mine",
+  "cats eye emerald",
+  "emerald",
+  "ratchet",
+  "sludge fen",
+  "venture company",
+  "wharfmaster dizzywig"
+ ],
+ "related": [
+  "quest:896",
+  "subzone:boulder-lode-mine",
+  "subzone:ratchet",
+  "topic:venture-company",
+  "subzone:sludge-fen",
+  "quest:1492",
+  "zone:barrens",
+  "subzone:booty-bay"
+ ],
+ "attribution": [
+  "Cats Eye Emerald",
+  "Miner's Fortune (Classic)"
+ ]
+}

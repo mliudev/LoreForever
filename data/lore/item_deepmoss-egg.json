@@ -1,0 +1,93 @@
+{
+ "key": "item:deepmoss-egg",
+ "type": "item",
+ "name": "Deepmoss Egg",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Deepmoss Egg",
+  "quests": [
+   "quest:1069"
+  ]
+ },
+ "summary": "Deepmoss Eggs are the clustered clutches laid by deepmoss spiders in the crags and canyons of the Stonetalon Mountains. Coveted by opportunistic goblin merchants in Ratchet, they are destined to become an exotic culinary delicacy in the pirate port of Booty Bay.",
+ "sections": [
+  {
+   "title": "A Delicacy of the Crags",
+   "body": "Deepmoss spiders nest across the craggy heights of the Stonetalon Mountains, particularly throughout Sishir Canyon and beneath the remaining trees of Windshear Crag. The clutches they leave behind contain viable arachnid eggs, sheltered beneath thick webbed sacks and damp mountain moss. While unappealing to most travelers, these egg sacks have caught the eye of goblin commerce.",
+   "spoiler": 0
+  },
+  {
+   "title": "Booty Bay's Culinary Fad",
+   "body": "In the southern port of Booty Bay, spider egg omelettes have surfaced as an eccentric gastronomic craze. Because local supplies cannot meet the appetite of wealthy pirates and adventurous gourmands, Ratchet merchant Mebok Mizzyrix coordinates shipments through Wharfmaster Dizzywig. Adventurers brave the venomous broods of Stonetalon to harvest fresh clutches, turning dangerous spider nests into lucrative shipping contracts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are Deepmoss Eggs found?",
+   "aliases": [
+    "egg locations",
+    "where to get deepmoss eggs",
+    "deepmoss egg location"
+   ],
+   "answer": "They are located in the Stonetalon Mountains northwest of the Barrens. Clutches can be found clustered under the surviving trees in Windshear Crag as well as deeper within the venomous dens of Sishir Canyon."
+  },
+  {
+   "q": "Who wants to collect these eggs?",
+   "aliases": [
+    "who needs deepmoss eggs",
+    "who buys deepmoss eggs",
+    "mebok mizzyrix quest"
+   ],
+   "answer": "The goblin entrepreneur Mebok Mizzyrix in Ratchet hires adventurers to gather them, arranging trade routes with Wharfmaster Dizzywig to export the clutches across the sea."
+  },
+  {
+   "q": "What are the eggs actually used for?",
+   "aliases": [
+    "spider egg use",
+    "why collect spider eggs",
+    "spider omelettes"
+   ],
+   "answer": "They are shipped to Booty Bay, where spider egg omelettes have become a popular, albeit bizarre, culinary fad among the local pirates and clientele."
+  },
+  {
+   "q": "Why is Sishir Canyon warned about when gathering them?",
+   "aliases": [
+    "sishir canyon warning",
+    "weak stomach sishir"
+   ],
+   "answer": "Sishir Canyon is an infested breeding ground thick with mature spiders, webs, and devoured prey. Mebok warns those with delicate stomachs to stick to harvesting eggs beneath the sparse trees of Windshear Crag instead."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "While human, orc, and dwarf cooks might hesitate, the denizens of Booty Bay view whipped spider eggs as an adventurous delicacy worthy of steep goblin prices."
+  }
+ ],
+ "keywords": [
+  "booty bay",
+  "deepmoss egg",
+  "deepmoss spider",
+  "mebok mizzyrix",
+  "ratchet",
+  "sishir canyon",
+  "stonetalon",
+  "windshear crag"
+ ],
+ "related": [
+  "quest:1069",
+  "npc:mebok-mizzyrix",
+  "zone:stonetalon",
+  "subzone:ratchet",
+  "subzone:sishir-canyon",
+  "subzone:windshear-crag",
+  "subzone:booty-bay",
+  "quest:1492"
+ ],
+ "attribution": [
+  "Deepmoss Egg",
+  "Deepmoss Spider Eggs"
+ ]
+}

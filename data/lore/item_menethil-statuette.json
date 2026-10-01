@@ -1,0 +1,99 @@
+{
+ "key": "item:menethil-statuette",
+ "type": "item",
+ "name": "Menethil Statuette",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Menethil Statuette",
+  "quests": [
+   "quest:98190",
+   "quest:98191"
+  ]
+ },
+ "summary": "The Menethil Statuette is a rare silvery figurine portraying the late King Terenas Menethil II as a youthful paladin with an upraised warhammer. Lost in a shipwreck off the coast of the Wetlands, it is an exceptionally scarce memorial of Lordaeron's fallen sovereign.",
+ "sections": [
+  {
+   "title": "A Rare Relic of Lordaeron",
+   "body": "The statuette depicts King Terenas Menethil II in his early years, portrayed as a long-haired paladin lifting a hammer toward the heavens. Terenas was notoriously humble during his reign and disliked personal monuments, meaning few statues or likenesses were ever commissioned in his honor. Following the collapse of the Kingdom of Lordaeron to the Scourge, almost all such relics were obliterated, making this surviving effigy extraordinarily valuable to the Alliance.",
+   "spoiler": 0
+  },
+  {
+   "title": "Loss in the Bogs",
+   "body": "The statuette was cargo aboard the merchant vessel Blind Princess, bound for the Alliance harbor of Menethil. When the ship came under attack by aggressive Bluegill murlocs off the marshy coast, the cargo was scattered and the statuette ended up trapped in a half-buried barrel on the shore. With local threats like the Dragonmaw orcs hovering nearby, local defenders hurried to send the retrieved icon south to Stormwind City, where Highlord Bolvar Fordragon entrusted it to the Cathedral of Light.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is shown on the statuette?",
+   "aliases": [
+    "who is on the statue",
+    "what does the statuette depict",
+    "who is the menethil statuette"
+   ],
+   "answer": "It depicts King Terenas Menethil II, the former ruler of Lordaeron and the architect of the original Alliance. He is shown not as an elderly monarch, but in his youth as a paladin brandishing a warhammer."
+  },
+  {
+   "q": "How was the statuette lost?",
+   "aliases": [
+    "how did it get lost",
+    "who lost the statuette",
+    "shipwreck wetlands statue"
+   ],
+   "answer": "It was being transported across the Great Sea aboard the merchant vessel Blind Princess. When the ship was assailed by Bluegill murlocs in the Wetlands, its cargo washed ashore and was buried in the mud."
+  },
+  {
+   "q": "Why are depictions of King Terenas so rare?",
+   "aliases": [
+    "why are there few statues of terenas",
+    "terenas memorials"
+   ],
+   "answer": "King Terenas was a modest ruler who actively disliked self-aggrandizing memorials, so very few statues of him were ever sculpted. Almost all remaining portraits and figures in the north were destroyed during the Scourge's devastation of Lordaeron."
+  },
+  {
+   "q": "Where does the statuette end up?",
+   "aliases": [
+    "where do i take the statuette",
+    "who keeps the statuette",
+    "statuette cathedral"
+   ],
+   "answer": "After being recovered in the Wetlands, it is brought to Highlord Bolvar Fordragon in Stormwind Keep. Bolvar recognizes that the Light has coalesced within the relic and directs that it be safeguarded by Lord Grayson Shadowbreaker within the Cathedral of Light."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The statuette shows the late King Terenas as a young warrior of the Light with a raised hammer, a deeply moving portrait for holy knights mourning the fallen kingdom."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Terenas was the unifying leader who founded the Grand Alliance, making any preserved memorial of him an inspiring treasure in a fractured world."
+  }
+ ],
+ "keywords": [
+  "blind princess",
+  "bluegill",
+  "bolvar fordragon",
+  "cathedral of light",
+  "grayson shadowbreaker",
+  "menethil statuette",
+  "terenas menethil",
+  "wetlands"
+ ],
+ "related": [
+  "topic:terenas-menethil-ii",
+  "topic:lordaeron",
+  "subzone:cathedral-of-light",
+  "npc:bolvar-fordragon",
+  "npc:lord-grayson-shadowbreaker",
+  "zone:wetlands",
+  "topic:paladin",
+  "subzone:stormwind-keep"
+ ],
+ "attribution": [
+  "Menethil Statuette",
+  "A Friend of the Family",
+  "A Friend of the Family (2)"
+ ]
+}

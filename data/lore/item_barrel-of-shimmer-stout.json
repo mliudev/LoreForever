@@ -1,0 +1,95 @@
+{
+ "key": "item:barrel-of-shimmer-stout",
+ "type": "item",
+ "name": "Barrel of Shimmer Stout",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Barrel of Shimmer Stout",
+  "quests": [
+   "quest:413"
+  ]
+ },
+ "summary": "A freshly brewed cask of Rejold Barleybrew's experimental dwarven ale, crafted in the cold reaches of Dun Morogh. Known for giving drinkers a potent jolt that supposedly brightens their vision, it is intended as a gift for guards keeping watch on the high mountain passes.",
+ "sections": [
+  {
+   "title": "A Brewer's Pride",
+   "body": "Crafted by Rejold Barleybrew after gathering rare ingredients across Dun Morogh, Shimmer Stout represents the latest triumph of the storied Barleybrew family. Dwarven brewers take their craft with deadly seriousness, constantly competing to produce hearty concoctions capable of staving off the freezing mountain chill. Rejold's latest recipe is designed not only to warm the gut, but to sharpen the senses of those stationed out in the freezing winds.",
+   "spoiler": 0
+  },
+  {
+   "title": "Supplies for the Watch",
+   "body": "This particular barrel is earmarked for Mountaineer Wellart Barleybrew, who stands guard at the southern tower along the pass leading into Loch Modan. Out on the lonely frontier, mountaineers endure bone-chilling cold and prolonged watches between skirmishes with troggs and wildlife. A fresh cask of family ale serves as both a welcome taste of home and an energizing tonic potent enough to make a tired sentry swear he can see clearly through the dark.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in the Barrel of Shimmer Stout?",
+   "aliases": [
+    "what is shimmer stout",
+    "what kind of ale is this",
+    "shimmer stout drink"
+   ],
+   "answer": "It contains Shimmer Stout, a brand new dwarven recipe concocted by Rejold Barleybrew. The drink is famous for its remarkably potent kick, leaving anyone who samples it feeling energized with a literal shine in their eyes."
+  },
+  {
+   "q": "Who made this barrel of stout?",
+   "aliases": [
+    "who brewed shimmer stout",
+    "shimmer stout brewer",
+    "rejold barleybrew"
+   ],
+   "answer": "The ale was brewed by Rejold Barleybrew, a member of the renowned Barleybrew clan of Dun Morogh who spent time perfecting a recipe to impress his kin."
+  },
+  {
+   "q": "Who is this barrel meant for?",
+   "aliases": [
+    "who gets the barrel",
+    "where does the stout go",
+    "wellart barleybrew"
+   ],
+   "answer": "It is intended for Rejold's brother, Mountaineer Wellart Barleybrew, who is stationed at the southern guard tower along the road into Loch Modan."
+  },
+  {
+   "q": "What effect does Shimmer Stout have on someone who drinks it?",
+   "aliases": [
+    "shimmer stout effect",
+    "does it make you see in dark",
+    "what does shimmer stout do"
+   ],
+   "answer": "Beyond delivering a potent buzz, the stout gives drinkers an intense jolt that makes their eyes sparkle and feel as though they can see in pitch blackness, making it quite popular among vigilant mountaineers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Brewing is a cultural cornerstone of Ironforge society, and delivering a newly perfected stout to a kinsman on watch is an honorable mountain tradition."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Dwarven ales frequently push the boundaries of culinary experimentation, balancing potent fermentation with hardy mountain ingredients to withstand biting weather."
+  }
+ ],
+ "keywords": [
+  "barrel of shimmer stout",
+  "dun morogh",
+  "dwarven ale",
+  "loch modan",
+  "mountaineer barleybrew",
+  "rejold barleybrew",
+  "shimmer stout"
+ ],
+ "related": [
+  "quest:413",
+  "npc:mountaineer-barleybrew",
+  "quest:415",
+  "quest:414",
+  "zone:dunmorogh",
+  "zone:lochmodan"
+ ],
+ "attribution": [
+  "Barrel of Shimmer Stout",
+  "Shimmer Stout (quest)"
+ ]
+}

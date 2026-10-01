@@ -1,0 +1,96 @@
+{
+ "key": "item:shaman-voodoo-charm",
+ "type": "item",
+ "name": "Shaman Voodoo Charm",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Shaman Voodoo Charm",
+  "quests": [
+   "quest:2541"
+  ]
+ },
+ "summary": "The Shaman Voodoo Charm is a dark ritual trinket carried by Gnarlpine furbolg shamans deep within the Ban'ethil Barrow Den. Emanating a vile aura, this charm channels an unnatural magic capable of severing a slumbering druid's spirit from their physical flesh.",
+ "sections": [
+  {
+   "title": "A Perverted Magic",
+   "body": "The Gnarlpine tribe of Teldrassil has fallen into madness and corruption, but within the Ban'ethil Barrow Den, their shamans wield powers far beyond ordinary wilderness sorcery. Utilizing these strange voodoo charms, the shamans discovered a way to rip a sleeping druid's consciousness away from the mortal realm and trap it helplessly within the Emerald Dream. By severing the soul from the vessel, the furbolgs are able to animate the empty physical form, turning venerable night elf protectors into mindless guardians that slaughter anyone venturing into the barrows.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unraveling the Curse",
+   "body": "When the druid Oben Rageclaw fell victim to this ritual, his spirit found itself trapped in the Dream while his animated body terrorized the deep barrows. Reaching out through the veil, Oben tasked adventurers with slaying the Gnarlpine shamans and retrieving one of their voodoo charms. By examining the vile enchantment imbued in the trinket, Oben hoped to decipher the furbolgs' twisted craft and discover a means to break the binding on his stolen flesh.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Shaman Voodoo Charm used for?",
+   "aliases": [
+    "voodoo charm purpose",
+    "what does the charm do",
+    "shaman charm use"
+   ],
+   "answer": "Gnarlpine shamans use the charm to enact a powerful ritual that severs a sleeping druid's spirit from their physical body, trapping the mind in the Emerald Dream while animating the hollow flesh to attack intruders."
+  },
+  {
+   "q": "Who carries these charms?",
+   "aliases": [
+    "who drops the charm",
+    "where to find shaman voodoo charm",
+    "gnarlpine shaman charm"
+   ],
+   "answer": "The charms are carried by Gnarlpine shamans inhabiting the twisting depths of the Ban'ethil Barrow Den in Teldrassil."
+  },
+  {
+   "q": "Why does Oben Rageclaw need one?",
+   "aliases": [
+    "why does oben want it",
+    "oben rageclaw charm",
+    "the sleeping druid item"
+   ],
+   "answer": "Oben Rageclaw is currently trapped in the Emerald Dream while his animated body runs amok. He needs to inspect the charm's vile aura and magical weave in order to figure out how to break the furbolgs' enchantment."
+  },
+  {
+   "q": "Why do furbolgs have voodoo magic?",
+   "aliases": [
+    "why do furbolgs use voodoo",
+    "furbolg voodoo lore"
+   ],
+   "answer": "While traditional furbolg shamans revere nature spirits and the elements, the corruption gripping Teldrassil has driven the Gnarlpine to practice dark, perverted magics. The charm possesses an unnatural, vile aura quite unlike traditional nature worship."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For a druid, the charm represents a horrifying perversion of the sacred slumber, using dark magic to trap the dreamer in the Emerald Dream while puppet-mastering their physical form."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The discovery of these charms within the Ban'ethil Barrow Den reveals how deeply the Gnarlpine have desecrated one of the kaldorei's most holy communal resting places."
+  }
+ ],
+ "keywords": [
+  "ban'ethil barrow den",
+  "emerald dream",
+  "furbolg",
+  "gnarlpine",
+  "oben rageclaw",
+  "shaman voodoo charm",
+  "sleeping druid",
+  "teldrassil"
+ ],
+ "related": [
+  "quest:2541",
+  "npc:oben-rageclaw",
+  "subzone:ban-ethil-barrow-den",
+  "topic:furbolg",
+  "topic:druid",
+  "topic:emerald-dream",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Shaman Voodoo Charm",
+  "The Sleeping Druid"
+ ]
+}

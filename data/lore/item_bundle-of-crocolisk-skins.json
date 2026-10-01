@@ -1,0 +1,78 @@
+{
+ "key": "item:bundle-of-crocolisk-skins",
+ "type": "item",
+ "name": "Bundle of Crocolisk Skins",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Bundle of Crocolisk Skins",
+  "quests": [
+   "quest:469"
+  ]
+ },
+ "summary": "The Bundle of Crocolisk Skins is a prepared package of cured reptilian hides harvested from the dangerous marshes of the Wetlands. Destined for the leatherworkers of Menethil Harbor, it serves as valuable trade stock for crafting sturdy boots and tough harbor gear.",
+ "sections": [
+  {
+   "title": "Wetlands Commerce and Domestic Strife",
+   "body": "The vast waterways of the Wetlands are teeming with crocolisks, whose tough, water-resistant hides are an essential commodity for the coastal settlement of Menethil Harbor. Hunters braving the bogs collect and cure these skins before sending them westward to local artisans like James Halloran. However, this particular bundle took an unusual detour into an adventurer's hands: the hunter Einar sought a courier purely to avoid returning to town and facing the temper of his frustrated wife, Sida.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Bundle of Crocolisk Skins used for?",
+   "aliases": [
+    "crocolisk skins use",
+    "what are these skins for",
+    "bundle of skins purpose"
+   ],
+   "answer": "The bundle consists of raw, cured marsh hides destined for James Halloran, a tanner operating out of Menethil Harbor. Halloran turns the rugged skins into durable boots, belts, and leather armor well-suited to surviving the damp, flooded terrain of the Wetlands."
+  },
+  {
+   "q": "Who gathered these crocolisk skins?",
+   "aliases": [
+    "who made the bundle",
+    "who gathered the skins",
+    "einar crocolisk"
+   ],
+   "answer": "The skins were harvested and bundled by the hunter Einar out in the marshes. While he usually brings his trade goods into town himself, he instead asks passing travelers to carry them in order to avoid an argument with his wife, Sida."
+  },
+  {
+   "q": "Who is James Halloran?",
+   "aliases": [
+    "james halloran role",
+    "who is halloran",
+    "tanner menethil"
+   ],
+   "answer": "James Halloran is a working leatherworker and tanner based in the port town of Menethil Harbor. He buys raw and cured hides from local marsh hunters to craft boots, cured leathers, and practical gear for sailors, soldiers, and townspeople."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Outlying hunters provide the materials that keep the garrison and citizens of Menethil Harbor properly equipped against the harsh, swampy elements."
+  }
+ ],
+ "keywords": [
+  "crocolisk",
+  "einar",
+  "james halloran",
+  "leather",
+  "menethil harbor",
+  "sida",
+  "skins",
+  "wetlands"
+ ],
+ "related": [
+  "quest:469",
+  "npc:james-halloran",
+  "npc:sida",
+  "subzone:menethil-harbor",
+  "item:crocolisk-skin-classic",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "Bundle of Crocolisk Skins",
+  "Daily Delivery"
+ ]
+}

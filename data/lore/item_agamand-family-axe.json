@@ -1,0 +1,96 @@
+{
+ "key": "item:agamand-family-axe",
+ "type": "item",
+ "name": "Agamand Family Axe",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Agamand Family Axe",
+  "quests": [
+   "quest:1821"
+  ]
+ },
+ "summary": "The Agamand Family Axe is an ancestral heirloom preserved within the Agamand family crypt in northern Tirisfal Glades. Once a martial symbol of the wealthy mill-owning dynasty, it is sought by Coleman Farthing to strip the undead family of their remaining dignity.",
+ "sections": [
+  {
+   "title": "A Weapon of the Agamands",
+   "body": "Before the Third War, the Agamand dynasty reigned as prosperous landowners across the northern hills of Tirisfal Glades, maintaining vast mills and a private family crypt. The Agamand Family Axe rested among the ancestral arms entombed alongside deceased patriarchs and warriors, kept intact on underground weapon racks even as the Scourge overran the estate and slaughtered its inhabitants.",
+   "spoiler": 0
+  },
+  {
+   "title": "Spiteful Restitution",
+   "body": "When the Scourge raised the fallen Agamands as mindless thralls to the Lich King, their former servant Coleman Farthing survived\u2014in undeath\u2014with bitter hatred for his old masters. Farthing blames the family for his own demise and commissions Forsaken wanderers to enter the crypt, strip the weapon racks of the axe, sword, mace, and dagger, and erase the final vestiges of the Agamand heritage.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Agamand Family Axe located?",
+   "aliases": [
+    "axe location",
+    "where is the axe",
+    "agamand axe place"
+   ],
+   "answer": "The axe rests upon a weapon rack inside the Agamand Family Crypt, which lies at the northern edge of Agamand Mills in northern Tirisfal Glades."
+  },
+  {
+   "q": "Who wants the Agamand Family Axe?",
+   "aliases": [
+    "who needs the axe",
+    "coleman farthing quest",
+    "who wants agamand heirlooms"
+   ],
+   "answer": "Coleman Farthing, a Forsaken residing at the ruined house south of the mills, seeks the weapon alongside the family's dagger, mace, and sword to strip his former masters of their honor."
+  },
+  {
+   "q": "Why does Coleman Farthing hate the Agamand family?",
+   "aliases": [
+    "why does farthing want heirlooms",
+    "coleman farthing backstory",
+    "farthing grudge"
+   ],
+   "answer": "The Agamands employed Farthing during life and, by his account, directly caused his death during the Scourge invasion. He takes vengeance by plundering their crypt while they wander the estate as undead minions."
+  },
+  {
+   "q": "Is the Agamand Family Axe a usable weapon?",
+   "aliases": [
+    "can i equip the axe",
+    "axe stats"
+   ],
+   "answer": "No. The axe is an ancestral relic retrieved purely as a quest objective to prove the desecration of the family's vault."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, looting the Agamand heirlooms is a visceral settling of scores against Lordaeron's former aristocracy, who fell just as easily to the plague."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "The heirloom weapons preserved within the crypt show that the Agamand lineage possessed martial traditions alongside their wealth and grain stores."
+  }
+ ],
+ "keywords": [
+  "agamand",
+  "agamand crypt",
+  "agamand family axe",
+  "agamand mills",
+  "coleman farthing",
+  "heirloom",
+  "tirisfal glades"
+ ],
+ "related": [
+  "quest:1821",
+  "npc:coleman-farthing",
+  "subzone:agamand-family-crypt",
+  "subzone:agamand-mills",
+  "item:agamand-family-sword",
+  "item:agamand-family-mace",
+  "item:agamand-family-dagger",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Agamand Family Axe",
+  "Agamand Heirlooms"
+ ]
+}

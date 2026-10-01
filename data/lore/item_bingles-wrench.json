@@ -1,0 +1,92 @@
+{
+ "key": "item:bingles-wrench",
+ "type": "item",
+ "name": "Bingles' Wrench",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Bingles' Wrench",
+  "quests": [
+   "quest:2038"
+  ]
+ },
+ "summary": "Bingles' Wrench is a vital piece of gnomish engineering gear belonging to the pilot Bingles Blastenheimer. Lost when Bingles crash-landed his flying machine into the Loch, it was hauled off by the local troggs alongside the rest of his toolkit.",
+ "sections": [
+  {
+   "title": "Salvage on the Islands",
+   "body": "After Bingles Blastenheimer crashed his gyrocopter into the placid waters of the Loch, his survival quickly turned into an ordeal. Troggs inhabiting the small northern islands raided the crash site, looting his specialized supplies and scattering his tools into various buckets across their camps. Bingles' Wrench is one of three critical hand tools needed alongside his high-yield Blastencapper explosives. Without it, Bingles has no hope of repairing his downed gyrocopter, stalling his planned aerial offensive to aid the exiled gnomes fighting to reclaim Gnomeregan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who does this wrench belong to?",
+   "aliases": [
+    "who is bingles",
+    "bingles owner",
+    "wrench owner"
+   ],
+   "answer": "The wrench belongs to Bingles Blastenheimer, an eccentric gnome pilot who crashed his gyrocopter into the Loch in Loch Modan."
+  },
+  {
+   "q": "Why is the wrench so important to Bingles?",
+   "aliases": [
+    "why does bingles need his wrench",
+    "wrench purpose",
+    "what is wrench for"
+   ],
+   "answer": "Bingles needs his specialized tools to repair his damaged flying machine and arm his explosive payload so he can launch an aerial assault against the troggs and leper gnomes occupying Gnomeregan."
+  },
+  {
+   "q": "Where did the wrench end up after the crash?",
+   "aliases": [
+    "where is bingles wrench",
+    "wrench location",
+    "find bingles wrench"
+   ],
+   "answer": "The wrench was scavenged by local troggs and stashed inside one of Bingles' stolen toolbuckets scattered across the northern islands of the Loch."
+  },
+  {
+   "q": "What else was stolen along with the wrench?",
+   "aliases": [
+    "other supplies",
+    "missing tools",
+    "what else did troggs take"
+   ],
+   "answer": "Along with his wrench, the troggs made off with Bingles' Screwdriver, Bingles' Hammer, and his experimental Blastenheimer Blastencapper explosives."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Every tool recovered brings the gnomish resistance one step closer to taking the fight back to Gnomeregan's irradiated halls."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "A craftsman knows that an engineer without their custom wrench is completely grounded, especially when facing salvage-hungry troggs."
+  }
+ ],
+ "keywords": [
+  "bingles",
+  "blastenheimer",
+  "gyrocopter",
+  "loch modan",
+  "toolbucket",
+  "troggs",
+  "wrench"
+ ],
+ "related": [
+  "quest:2038",
+  "item:bingles-screwdriver",
+  "item:bingles-hammer",
+  "item:bingles-blastencapper",
+  "zone:lochmodan",
+  "subzone:the-loch",
+  "zone:gnomeregan",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "Bingles' Wrench",
+  "Bingles' Missing Supplies"
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "key": "item:mudsnout-composite",
+ "type": "item",
+ "name": "Mudsnout Composite",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Mudsnout Composite",
+  "quests": [
+   "quest:513"
+  ]
+ },
+ "summary": "Mudsnout Composite is an alchemical paste prepared by Apothecary Lydon in Tarren Mill from harvested Mudsnout Blossoms. It serves as an essential base ingredient carried to the Undercity for the Royal Apothecary Society's research into a new plague.",
+ "sections": [
+  {
+   "title": "A Base for Decay",
+   "body": "Crafted in the field by Apothecary Lydon, this fine composite is derived directly from Mudsnout Blossoms gathered in the Hillsbrad Foothills. While noxious on its own, the mash requires a specialized colloid of decay\u2014concocted by Master Apothecary Faranell himself\u2014to activate its more lethal qualities. Once bound, the mixture forms a key chemical component in the development of the Dark Lady's Elixir of Agony.",
+   "spoiler": 0
+  },
+  {
+   "title": "Apothecary Correspondence",
+   "body": "Transporting the composite from Tarren Mill to the Undercity's Apothecarium reflects the decentralized, iterative nature of Forsaken alchemy. Field researchers constantly gather regional reagents and dispatch samples back to the capital's masters for refinement. Despite high demands from Lady Sylvanas to rush results against both living humans and the Scourge, Faranell commends the composite as ingenious groundwork toward their overarching goal.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Mudsnout Composite used for?",
+   "aliases": [
+    "mudsnout composite purpose",
+    "what does mudsnout composite do"
+   ],
+   "answer": "It is an intermediary paste created from Mudsnout Blossoms. It is meant to be treated with a colloid of decay by Master Apothecary Faranell in the Undercity, helping formulate the Elixir of Agony."
+  },
+  {
+   "q": "Who created the composite?",
+   "aliases": [
+    "who made mudsnout composite",
+    "mudsnout composite creator"
+   ],
+   "answer": "Apothecary Lydon, a Forsaken researcher stationed at Tarren Mill in the Hillsbrad Foothills, crushed fresh blossoms to mix the paste before sending it north."
+  },
+  {
+   "q": "Why does Master Apothecary Faranell need it?",
+   "aliases": [
+    "why bring it to faranell",
+    "faranell mudsnout"
+   ],
+   "answer": "Faranell oversees the Royal Apothecary Society's grand work on creating a new plague. Lydon's composite provides the specific herbal base needed to advance their research into lethal toxins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Every shipment like this composite contributes directly to the Dark Lady's mandate: securing the future of the Forsaken by developing a plague to destroy both the living and the Scourge."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Mudsnout Blossoms prove that even humble native flora can be crushed and weaponized under the practiced eye of an apothecary."
+  }
+ ],
+ "keywords": [
+  "apothecarium",
+  "apothecary lydon",
+  "elixir of agony",
+  "master apothecary faranell",
+  "mudsnout blossom",
+  "mudsnout composite",
+  "royal apothecary society"
+ ],
+ "related": [
+  "quest:509",
+  "item:mudsnout-blossom",
+  "npc:master-apothecary-faranell",
+  "subzone:apothecarium",
+  "zone:hillsbrad",
+  "zone:undercity",
+  "quest:367"
+ ],
+ "attribution": [
+  "Mudsnout Composite",
+  "Elixir of Agony (2)"
+ ]
+}

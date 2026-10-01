@@ -1,0 +1,100 @@
+{
+ "key": "item:package-of-empty-ooze-containers",
+ "type": "item",
+ "name": "Package of Empty Ooze Containers",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Package of Empty Ooze Containers",
+  "quests": [
+   "quest:4512"
+  ]
+ },
+ "summary": "This package is a kit of specialized, empty specimen jars supplied by the gnome researcher Laris Geardawdle in Ironforge. Intended for dangerous field sampling in the blighted forests of Felwood, it contains jars designed to safely hold tainted and cursed ooze extracts without dissolving.",
+ "sections": [
+  {
+   "title": "Field Research Equipment",
+   "body": "Containing a dozen empty jars\u2014split between containers meant for cursed and tainted oozes\u2014this kit was assembled by Laris Geardawdle for intrepid travelers heading out to Felwood. Because raw ooze specimens are notoriously caustic and prone to digesting ordinary luggage, sturdy, sealed glass is essential for transporting the acidic residues across continents back to the tinker's workbench in Ironforge.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Mystery of the Ooze",
+   "body": "Geardawdle's interest in ooze is far from a simple eccentric hobby. Noticing that Forsaken researchers from the Royal Apothecary Society routinely harvest these bizarre organisms across Azeroth, he suspects oozes may hold profound secrets about the world's origin. Geardawdle theorizes that slimes might be primordial secretions connected to the planet's very creation, and he relies on field agents using this kit to collect the evidence he needs to win acclaim within the Explorers' League.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the package of empty ooze containers?",
+   "aliases": [
+    "package contents",
+    "what does package contain",
+    "ooze jars inside"
+   ],
+   "answer": "The package contains twelve specimen jars: six empty jars calibrated for cursed ooze and six designated for tainted ooze."
+  },
+  {
+   "q": "Who provides this package?",
+   "aliases": [
+    "who gives the jars",
+    "laris geardawdle quest item",
+    "where do i get the ooze package"
+   ],
+   "answer": "It is handed to Alliance adventurers by Laris Geardawdle, a gnomish scholar and researcher working out of Ironforge."
+  },
+  {
+   "q": "Where are these containers meant to be used?",
+   "aliases": [
+    "where do i use ooze jars",
+    "which zone for oozes",
+    "ooze jar location"
+   ],
+   "answer": "They are intended for use in the corrupted wilderness of Felwood, where adventurers must defeat tainted and cursed oozes to harvest residue samples directly from the fallen creatures."
+  },
+  {
+   "q": "Why does Laris Geardawdle want these ooze samples?",
+   "aliases": [
+    "why collect slime",
+    "geardawdle research",
+    "why does laris want ooze"
+   ],
+   "answer": "Laris has noticed the Forsaken Royal Apothecary Society gathering ooze across the world and wants to uncover their secrets. He also harbors an unconventional theory that slimes might be primordial secretions tied to the creation of Azeroth, and hopes proving it will earn him status in the Explorers' League."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Laris Geardawdle sees this ooze research as a vital opportunity to show the Dwarves of Ironforge that hosting refugee gnomes was well worth the trouble."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Gathering these samples helps the Alliance keep pace with the unsettling research being conducted by the Forsaken's Royal Apothecary Society."
+  }
+ ],
+ "keywords": [
+  "containers",
+  "cursed",
+  "felwood",
+  "ironforge",
+  "jars",
+  "laris geardawdle",
+  "ooze",
+  "package",
+  "slime",
+  "tainted"
+ ],
+ "related": [
+  "quest:4512",
+  "npc:laris-geardawdle",
+  "zone:felwood",
+  "zone:ironforge",
+  "item:filled-cursed-ooze-jar",
+  "item:filled-tainted-ooze-jar",
+  "topic:explorers-league",
+  "topic:royal-apothecary-society"
+ ],
+ "attribution": [
+  "Package of Empty Ooze Containers",
+  "A Little Slime Goes a Long Way"
+ ]
+}

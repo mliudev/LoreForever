@@ -1,0 +1,92 @@
+{
+ "key": "item:reconstructed-tome",
+ "type": "item",
+ "name": "Reconstructed Tome",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Reconstructed Tome",
+  "quests": [
+   "quest:1804",
+   "quest:1805"
+  ]
+ },
+ "summary": "The Reconstructed Tome is a pieced-together grimoire of dark cabal lore, compiled for warlocks seeking to expand their mastery of demonic servants. It contains the arcane knowledge and rituals necessary to summon and bind a predatory felhunter from the Twisting Nether.",
+ "sections": [
+  {
+   "title": "A Grimoire Reassembled",
+   "body": "Recovered in fragments and painstakingly pieced back together, the Reconstructed Tome represents an elusive collection of cabal teachings known formally as the Tome of the Cabal. Warlocks of both the Alliance and the Horde go to great lengths to restore its frayed leaves, consulting occult scholars eager for a mere glimpse of its esoteric contents before surrendering the completed manuscript.",
+   "spoiler": 0
+  },
+  {
+   "title": "Key to the Felhunter",
+   "body": "The reconstructed work is brought to Strahad Farsan, an experienced summoning master stationed near the port of Ratchet in the Barrens. Accompanied by arcane rods of channeling wrested from Dragonmaw spellcasters, the rituals outlined within the tome provide the exact incantations needed for Strahad's circle of acolytes to help a warlock summon, conquer, and bind a ravenous felhunter to their will.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Reconstructed Tome used for?",
+   "aliases": [
+    "purpose of reconstructed tome",
+    "why need reconstructed tome",
+    "reconstructed tome use"
+   ],
+   "answer": "The book contains dark rituals and cabal teachings required to summon and subjugate a felhunter. A warlock delivers it along with rods of channeling to Strahad Farsan in Ratchet to prepare the binding ritual."
+  },
+  {
+   "q": "Who is Strahad Farsan?",
+   "aliases": [
+    "who is strahad",
+    "strahad farsan role"
+   ],
+   "answer": "Strahad Farsan is an expert summoner dwelling above the port town of Ratchet in the Barrens. He oversees the demanding trials of aspiring warlocks seeking to enslave more dangerous demonic entities."
+  },
+  {
+   "q": "Why do the scholars examining the book want a copy?",
+   "aliases": [
+    "who translated it",
+    "scholars reconstructed tome"
+   ],
+   "answer": "Scholars assisting in deciphering the torn pages find the cabal's occult texts utterly fascinating and rare. Both human and Forsaken researchers find their regular reading material sparse by comparison and covet the rare demonic knowledge preserved in the pages."
+  },
+  {
+   "q": "What else is needed alongside the tome for the ritual?",
+   "aliases": [
+    "other items needed",
+    "what goes with reconstructed tome"
+   ],
+   "answer": "Strahad requires three rods of channeling to allow his acolytes to sustain the summoning ritual. These rods must be claimed from Dragonmaw spellcasters entrenched in the Wetlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Assembling the Reconstructed Tome is an essential rite of passage, unlocking the dark rites needed to dominate a felhunter and turn its magic-devouring appetite against opposing spellcasters."
+  }
+ ],
+ "keywords": [
+  "binding",
+  "dragonmaw",
+  "felhunter",
+  "ratchet",
+  "reconstructed tome",
+  "strahad farsan",
+  "tome of the cabal"
+ ],
+ "related": [
+  "npc:strahad-farsan",
+  "quest:1758",
+  "quest:1471",
+  "item:rod-of-channeling",
+  "subzone:ratchet",
+  "zone:barrens",
+  "topic:warlock",
+  "topic:dragonmaw-clan"
+ ],
+ "attribution": [
+  "Reconstructed Tome",
+  "Tome of the Cabal (Alliance, 3)",
+  "Tome of the Cabal (Horde, 3)"
+ ]
+}

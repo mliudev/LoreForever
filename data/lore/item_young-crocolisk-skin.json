@@ -1,0 +1,87 @@
+{
+ "key": "item:young-crocolisk-skin",
+ "type": "item",
+ "name": "Young Crocolisk Skin",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Young Crocolisk Skin",
+  "quests": [
+   "quest:484"
+  ]
+ },
+ "summary": "Young Crocolisk Skin is a pliable reptile pelt harvested from juvenile crocolisks throughout the Wetlands. Prized by local tanners like James Halloran of Menethil Harbor, these softer hides are cured and exported to ports across Azeroth.",
+ "sections": [
+  {
+   "title": "Tanning and Trade in the Marshes",
+   "body": "Menethil Harbor serves as a bustling hub of commerce along the western coast of Khaz Modan, exporting marshland goods to distant ports. Among the town's most lucrative exports are the cured hides processed by the harbor's resident tanner, James Halloran. While full-grown crocolisks yield thick, tough scales, their young provide softer, far more workable leather. Because these juvenile skins are delicate and in high demand, Halloran relies on local hunters and passing travelers to scour the boggy marshes just outside town to keep his curing racks stocked.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does James Halloran want skins from young crocolisks specifically?",
+   "aliases": [
+    "why young crocolisk skin",
+    "halloran skins",
+    "why soft skins"
+   ],
+   "answer": "Young crocolisks yield significantly softer leather than their fully grown counterparts. While mature beasts possess thick, rigid scales, the hides of juveniles are far easier to work and cure into supple goods that are in high demand across sea trade routes."
+  },
+  {
+   "q": "Where can young crocolisks be found?",
+   "aliases": [
+    "young crocolisk location",
+    "where to find young crocs",
+    "wetlands crocolisks"
+   ],
+   "answer": "Young Wetlands Crocolisks inhabit the waterways, bogs, and marshes lying just outside Menethil Harbor in the western Wetlands."
+  },
+  {
+   "q": "Who else hunts these crocolisks for the harbor?",
+   "aliases": [
+    "who hunts crocs",
+    "einar hunter",
+    "menethil tanner hunters"
+   ],
+   "answer": "A local hunter named Einar is known to regularly bring in crocolisk hides for James Halloran's leatherworking business, though demand often outpaces what a single tracker can supply."
+  },
+  {
+   "q": "Where are these cured skins shipped?",
+   "aliases": [
+    "crocolisk leather trade",
+    "menethil skin exports",
+    "where do skins go"
+   ],
+   "answer": "Halloran's finished goods are loaded onto merchant vessels leaving Menethil Harbor, bound for major ports and markets across the Eastern Kingdoms and beyond."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Stalking the muddy edges of the Wetlands for crocolisk hides is standard practice for trackers supplying the bustling leather trade in Menethil Harbor."
+  }
+ ],
+ "keywords": [
+  "crocolisk",
+  "james halloran",
+  "leather",
+  "menethil harbor",
+  "skin",
+  "tanning",
+  "wetlands"
+ ],
+ "related": [
+  "quest:484",
+  "npc:james-halloran",
+  "zone:wetlands",
+  "subzone:menethil-harbor",
+  "quest:471",
+  "item:crocolisk-skin-classic",
+  "topic:hunter"
+ ],
+ "attribution": [
+  "Young Crocolisk Skin",
+  "Young Crocolisk Skins"
+ ]
+}

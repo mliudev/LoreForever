@@ -1,0 +1,88 @@
+{
+ "key": "item:oslow-s-toolbox",
+ "type": "item",
+ "name": "Oslow's Toolbox",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Oslow's Toolbox",
+  "quests": [
+   "quest:125"
+  ]
+ },
+ "summary": "Oslow's Toolbox contains the vital construction tools needed by Foreman Oslow in Lakeshire. En route from Goldshire, the supplies were ferried across Lake Everstill only to be sunk by an orcish catapult bombardment.",
+ "sections": [
+  {
+   "title": "A Fateful Crossing",
+   "body": "Maintaining the defenses and infrastructure of Lakeshire is a grueling challenge, particularly with the Blackrock orcs besieging the Redridge Mountains. Foreman Oslow ordered a vital set of construction tools brought in from Goldshire. Because the main bridge leading into Lakeshire had been destroyed by enemy action, the shipment had to be loaded into a rowboat to cross Lake Everstill. The crossing was abruptly cut short when Blackrock forces struck the vessel with a catapult blast, plunging the boat and Oslow's heavy chest straight down into the murloc-infested depths.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Oslow's Toolbox at the bottom of the lake?",
+   "aliases": [
+    "why is the toolbox in the water",
+    "how did oslow lose his tools",
+    "sunken toolbox lore"
+   ],
+   "answer": "The shipment of tools was being ferried from Goldshire. Because the Lakeshire bridge had been destroyed during the siege, the supplies had to cross Lake Everstill by boat. Blackrock orcs bombarded the rowboat with a catapult, sinking the vessel and sending the toolbox to the lakebed."
+  },
+  {
+   "q": "Who owns this toolbox?",
+   "aliases": [
+    "who is oslow",
+    "oslow owner",
+    "foreman oslow tools"
+   ],
+   "answer": "The toolbox belongs to Foreman Oslow, the supervisor overseeing construction and repairs in Lakeshire. Without proper equipment, maintaining the town's fortifications against ongoing attacks is virtually impossible."
+  },
+  {
+   "q": "Where in Lake Everstill did the tools sink?",
+   "aliases": [
+    "toolbox location",
+    "where is sunken chest",
+    "where did the boat sink"
+   ],
+   "answer": "The tools rest inside a sunken chest near the wreckage of the destroyed rowboat in Lake Everstill, nestled among underwater boulders south of a prominent shoreline murloc encampment."
+  },
+  {
+   "q": "What threats guard the sunken chest?",
+   "aliases": [
+    "dangers near toolbox",
+    "lake everstill enemies",
+    "what is guarding oslows tools"
+   ],
+   "answer": "The waters surrounding the wreckage are infested with hostile murlocs and predatory aquatic beasts, including dangerous Lake Threshers that prowl the deeper areas of the lake."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "With Lakeshire standing nearly isolated under Blackrock siege, recovering Oslow's supplies is crucial to keeping the town's defensive works intact."
+  }
+ ],
+ "keywords": [
+  "foreman oslow",
+  "lake everstill",
+  "lakeshire",
+  "oslow",
+  "redridge",
+  "sunken chest",
+  "the lost tools",
+  "toolbox"
+ ],
+ "related": [
+  "npc:foreman-oslow",
+  "quest:125",
+  "subzone:lake-everstill",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "subzone:goldshire",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Oslow's Toolbox",
+  "The Lost Tools"
+ ]
+}

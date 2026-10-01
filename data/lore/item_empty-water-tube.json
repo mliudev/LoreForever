@@ -1,0 +1,97 @@
+{
+ "key": "item:empty-water-tube",
+ "type": "item",
+ "name": "Empty Water Tube",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Empty Water Tube",
+  "quests": [
+   "quest:4812"
+  ]
+ },
+ "summary": "The Empty Water Tube is a simple glass vessel provided in Auberdine to collect sacred moonwell water. It is meant to carry the blessed liquid up to the strange red crystal perched on the eastern cliffs of Darkshore.",
+ "sections": [
+  {
+   "title": "A Vessel for Blessed Waters",
+   "body": "Sentinels and scholars studying the mysterious red crystal along Darkshore's eastern ridge require pure lunar essence to test its nature. Because mundane glass or flasks can easily contaminate consecrated water, this sealed vial is specifically entrusted to investigators visiting the moonwell in Auberdine. Once filled, its contents are carried up the mountain slopes to see how the alien mineral responds to Elune's magic.",
+   "spoiler": 0
+  },
+  {
+   "title": "Probing Felwood's Shadow",
+   "body": "The mountains immediately east of Darkshore border Felwood, a realm thoroughly poisoned by demonic corruption. Auberdine's defenders suspect that the ominous crimson monolith resting near the cliffs shares a sinister link with that ruined forest. By cascading moonwell water across its lattice, researchers hope the sacred waters will unveil the crystal's inner structure without triggering a catastrophic release of whatever power lies trapped inside.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Empty Water Tube?",
+   "aliases": [
+    "empty water tube purpose",
+    "why do i have empty water tube",
+    "what do i do with water tube"
+   ],
+   "answer": "It is an empty container given to you in Auberdine to draw water directly from the settlement's moonwell, which is needed to analyze a bizarre red crystal found along the eastern heights of Darkshore."
+  },
+  {
+   "q": "Where should the tube be filled?",
+   "aliases": [
+    "where to fill water tube",
+    "where do i fill empty water tube",
+    "fill water tube location"
+   ],
+   "answer": "It must be dipped into the moonwell situated within Auberdine. Filling it transforms the item into a Moonwell Water Tube."
+  },
+  {
+   "q": "Why is moonwell water needed for the crystal?",
+   "aliases": [
+    "why moonwell water",
+    "what does moonwell water do to crystal",
+    "red crystal moonwell water"
+   ],
+   "answer": "Moonwell water carries the potent, purifying magic of Elune. Scholars believe pouring it over the mysterious red crystal will react with its surface and reveal clues about its origin and composition."
+  },
+  {
+   "q": "Why are Auberdine's residents worried about the crystal?",
+   "aliases": [
+    "is the crystal dangerous",
+    "crystal danger darkshore",
+    "why investigate red crystal"
+   ],
+   "answer": "The crystal sits near the high ridge overlooking Felwood, a forest badly corrupted by the Burning Legion. Local watchers fear that if the crystal is linked to that tainted wilderness, it could pose a severe threat to Darkshore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Handling consecrated moonwell water is a sacred duty for the Kaldorei, who revere the moonwells as holy reservoirs blessed by the goddess Elune."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold moonwells in deep reverence, relying on their untainted waters to study anomalies and cleanse strange disruptions encroaching from corrupted lands like Felwood."
+  }
+ ],
+ "keywords": [
+  "as water cascades",
+  "auberdine",
+  "darkshore",
+  "empty water tube",
+  "felwood",
+  "moonwell",
+  "moonwell water tube",
+  "red crystal"
+ ],
+ "related": [
+  "quest:4812",
+  "item:moonwell-water-tube",
+  "quest:4811",
+  "quest:4813",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "zone:felwood"
+ ],
+ "attribution": [
+  "Empty Water Tube",
+  "As Water Cascades"
+ ]
+}

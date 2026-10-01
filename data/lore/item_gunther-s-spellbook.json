@@ -1,0 +1,93 @@
+{
+ "key": "item:gunther-s-spellbook",
+ "type": "item",
+ "name": "Gunther's Spellbook",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Gunther's Spellbook",
+  "quests": [
+   "quest:366"
+  ]
+ },
+ "summary": "Gunther's Spellbook is a personal arcane tome belonging to Gunther Arcanus, a former Kirin Tor wizard dwelling in Tirisfal Glades. Imbued with an enchantment by Bethor Iceshard, the book serves as proof to Gunther that other mages have successfully broken free of the Lich King's control.",
+ "sections": [
+  {
+   "title": "A Token of Old Kinship",
+   "body": "Before the Third War, Gunther Arcanus studied the arcane arts in Dalaran alongside Bethor Iceshard and Thule Ravenclaw as members of the Kirin Tor. When the Plague of Undeath swept Lordaeron, Gunther fell and was raised into undeath, yet eventually managed to wrest his own mind free of the Scourge. Believing himself isolated and perpetually hounded by the Lich King's agents, he remained deeply hostile to outsiders. After the tome was recovered, Bethor Iceshard layered an arcane enchantment over its pages\u2014a deliberate magical signature that allows Gunther to recognize Bethor's presence and realize he is not the only mage to possess free will.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Whose spellbook is this?",
+   "aliases": [
+    "who owns the book",
+    "gunther book owner",
+    "spellbook owner"
+   ],
+   "answer": "It belongs to Gunther Arcanus, a powerful undead mage residing on an isolated island on Brightwater Lake in Tirisfal Glades."
+  },
+  {
+   "q": "Why did Bethor enchant the spellbook?",
+   "aliases": [
+    "why enchant the book",
+    "bethor spell on book",
+    "book magic"
+   ],
+   "answer": "Bethor placed a personal spell on the tome to serve as unmistakable proof that he survives in Lordaeron and is free from the Lich King's control, hoping to convince Gunther to ally with the Forsaken."
+  },
+  {
+   "q": "Why is Gunther suspicious when the book is returned?",
+   "aliases": [
+    "why is gunther mad",
+    "gunther angry",
+    "gunther hostile"
+   ],
+   "answer": "Gunther assumes anyone approaching his retreat is an agent of the Scourge sent to re-enslave him, and initially believes the adventurer was merely the thief who took his tome."
+  },
+  {
+   "q": "How did Gunther and Bethor know each other?",
+   "aliases": [
+    "bethor and gunther past",
+    "kirin tor connection",
+    "dalaran friends"
+   ],
+   "answer": "Long ago, Gunther, Bethor Iceshard, and Thule Ravenclaw studied magic together as friends and Kirin Tor apprentices in the city of Dalaran before the Plague took them."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For practitioners of the arcane, the tome represents the shared Dalaran roots connecting the Forsaken's current magical leadership to rogue practitioners in the wilderness."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The enchanted book highlights the Forsaken's ongoing effort to recruit powerful independent undead who broke free of the Lich King on their own."
+  }
+ ],
+ "keywords": [
+  "arcanus",
+  "bethor",
+  "dalaran",
+  "gunther",
+  "iceshard",
+  "kirin tor",
+  "spellbook",
+  "tirisfal"
+ ],
+ "related": [
+  "quest:366",
+  "subzone:gunther-s-retreat",
+  "quest:446",
+  "subzone:dalaran",
+  "zone:tirisfal",
+  "topic:scourge",
+  "topic:lich-king",
+  "topic:mage"
+ ],
+ "attribution": [
+  "Gunther's Spellbook",
+  "Return the Book"
+ ]
+}

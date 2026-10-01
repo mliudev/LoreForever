@@ -1,0 +1,95 @@
+{
+ "key": "item:sample-of-zanzil-s-altered-mixture",
+ "type": "item",
+ "name": "Sample of Zanzil's Altered Mixture",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Sample of Zanzil's Altered Mixture",
+  "quests": [
+   "quest:2479"
+  ]
+ },
+ "summary": "This vial contains a potent specimen of a concoction brewed by the witch doctor Zanzil, altered during a covert infiltration in the Barrens. Carried by an operative suffering from its debilitating effects, the sample is sent across the sea to Tarren Mill in hopes of unlocking both an antidote and the lethal secrets of poisoncraft.",
+ "sections": [
+  {
+   "title": "A Toxic Token",
+   "body": "After infiltrating the Venture Company's operations at the Sludge Fen and meddling with their vats, an operative ends up afflicted by Zanzil's foul touch. Shenthul orders the stricken agent across the Great Sea with a sample of the brew in hand. Finding a cure means locating Serge Hinott, an apothecary stationed at Tarren Mill in Hillsbrad Foothills, who possesses the rare expertise required to isolate the toxin and decipher its components.",
+   "spoiler": 0
+  },
+  {
+   "title": "Secrets of Poisoncraft",
+   "body": "The sample serves as more than just a medical urgency; it is an invaluable specimen for Horde rogues looking to master the darker arts of their trade. Serge Hinott analyzes the altered mixture not merely to cleanse the afflicted courier, but to demonstrate the precise chemical craft required to brew and handle potent envenomings in the field.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is this mixture?",
+   "aliases": [
+    "what is zanzils mixture",
+    "sample of zanzils altered mixture",
+    "zanzil poison sample"
+   ],
+   "answer": "It is a specimen of an alchemical brew tied to the witch doctor Zanzil, altered during a mission at the Sludge Fen in the Barrens. It carries a potent toxin that inflicts lingering, debilitating effects on whoever comes into direct contact with it."
+  },
+  {
+   "q": "Why do I need to take it to Serge Hinott?",
+   "aliases": [
+    "who is serge hinott",
+    "why take to tarren mill",
+    "cure for zanzil mixture"
+   ],
+   "answer": "Serge Hinott is a skilled apothecary stationed at Tarren Mill in the Hillsbrad Foothills. He possesses the specialized knowledge needed to neutralize the brew's effects and produce a reliable cure before the toxin causes permanent harm."
+  },
+  {
+   "q": "Who is Zanzil?",
+   "aliases": [
+    "who is zanzil",
+    "zanzil the outcast",
+    "zanzil lore"
+   ],
+   "answer": "Zanzil the Outcast is a notorious jungle troll witch doctor known for creating madness-inducing elixirs, poisons, and mutagens. His toxic recipes have spread well beyond his native jungles, finding their way into mercenary and industrial operations like the Venture Company."
+  },
+  {
+   "q": "How do you reach Tarren Mill to deliver it?",
+   "aliases": [
+    "how to get to tarren mill",
+    "travel to hillsbrad",
+    "tarren mill directions"
+   ],
+   "answer": "Travelers must board the zeppelin from Durotar to the Undercity in Tirisfal Glades. From there, take the main road south through Silverpine Forest, following the signs eastward into the Hillsbrad Foothills until reaching the town of Tarren Mill."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Delivering this vile sample is a rite of passage for Horde rogues, leading directly into Serge Hinott's advanced lessons on brewing, handling, and applying lethal poisons."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Transporting this dangerous brew requires a cross-continental journey, relying on the zeppelin towers and established roads linking Kalimdor to the Forsaken territories in Lordaeron."
+  }
+ ],
+ "keywords": [
+  "altered mixture",
+  "hillsbrad",
+  "poisons",
+  "rogue",
+  "serge hinott",
+  "sludge fen",
+  "tarren mill",
+  "zanzil"
+ ],
+ "related": [
+  "quest:2479",
+  "npc:serge-hinott",
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "Sample of Zanzil's Altered Mixture",
+  "Hinott's Assistance"
+ ]
+}

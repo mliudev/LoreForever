@@ -1,0 +1,90 @@
+{
+ "key": "item:thule-s-head",
+ "type": "item",
+ "name": "Thule's Head",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Thule's Head",
+  "quests": [
+   "quest:442"
+  ]
+ },
+ "summary": "Thule's Head is the grisly proof demanded by the Forsaken to confirm the demise of Thule Ravenclaw, commander of the Scourge forces on Fenris Isle. Bringing this macabre trophy back to High Executor Hadrec at the Sepulcher solidifies the Forsaken's hold on Silverpine Forest.",
+ "sections": [
+  {
+   "title": "Trophy of Fenris Isle",
+   "body": "Fenris Isle serves as the primary bastion of the Lich King's Scourge within Silverpine Forest. From deep inside Fenris Keep, the necromancer Thule Ravenclaw directs his legions of rot hides and undead minions, directly threatening Forsaken outposts like the Sepulcher. High Executor Hadrec requires absolute certainty that this dark commander has fallen, refusing to accept any testimony short of Thule's severed head. The violent release of dark magic upon Ravenclaw's death was felt across the woods, but his head remains the physical proof the Hand requires to declare Fenris Isle broken.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Thule's Head?",
+   "aliases": [
+    "who needs thules head",
+    "who turned in thule head to",
+    "who takes thule head"
+   ],
+   "answer": "High Executor Hadrec, commander of Forsaken military operations stationed at the Sepulcher in Silverpine Forest, demands Thule's Head to confirm the Scourge leader's elimination."
+  },
+  {
+   "q": "Who was Thule Ravenclaw?",
+   "aliases": [
+    "thule lore",
+    "who is thule",
+    "thule ravenclaw backstory"
+   ],
+   "answer": "Thule Ravenclaw is a powerful necromancer commanding the Scourge presence on Fenris Isle. From the heart of Fenris Keep, he orchestrates attacks against the Forsaken and wields sinister enchantments like the Hex of the Ravenclaw."
+  },
+  {
+   "q": "Why do the Forsaken demand his head specifically?",
+   "aliases": [
+    "why thule head",
+    "why do they want his head"
+   ],
+   "answer": "The Forsaken cannot afford lingering Scourge threats in Silverpine. Because necromancers are notorious for deceit and dark resurrections, High Executor Hadrec accepts nothing less than physical, irrefutable proof of Thule's total destruction."
+  },
+  {
+   "q": "What happens when Thule Ravenclaw is slain?",
+   "aliases": [
+    "what happens after thule dies",
+    "energy released thule"
+   ],
+   "answer": "Upon Thule's defeat, a violent burst of necrotic energy radiates across the region, potent enough that Forsaken scholars and apothecaries back at the Sepulcher can sense the magical shockwave from afar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, severing Thule's head is both a military victory and personal vengeance against the Lich King's grip on Lordaeron."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Eliminating Thule Ravenclaw secures the eastern borders of Silverpine Forest, shielding newly gained Horde territories from Scourge incursions."
+  }
+ ],
+ "keywords": [
+  "fenris",
+  "hadrec",
+  "necromancer",
+  "ravenclaw",
+  "scourge",
+  "sepulcher",
+  "thule"
+ ],
+ "related": [
+  "quest:442",
+  "quest:446",
+  "subzone:fenris-isle",
+  "npc:high-executor-hadrec",
+  "subzone:sepulcher",
+  "zone:silverpine",
+  "topic:forsaken",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Thule's Head",
+  "Assault on Fenris Isle"
+ ]
+}

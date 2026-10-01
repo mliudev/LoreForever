@@ -1,0 +1,99 @@
+{
+ "key": "item:covert-ops-pack",
+ "type": "item",
+ "name": "Covert Ops Pack",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Covert Ops Pack",
+  "quests": [
+   "quest:1079",
+   "quest:1080"
+  ]
+ },
+ "summary": "The Covert Ops Pack is a kit of specialized demolitions gear and operational schematics assembled for Alliance espionage in the Stonetalon Mountains. Designed to dismantle the Venture Company's rapacious presence in Windshear Crag, the satchel equips agents to trigger coordinated sabotage while securing high-value technical intelligence.",
+ "sections": [
+  {
+   "title": "Sabotage by Design",
+   "body": "Issued for clandestine strikes deep within Venture Company territory, the Covert Ops Pack pairs brute destructive power with tactical precision. Inside are color-coded NG-5 explosives matched to remote triggers, alongside thorough instructions designated Plan Alpha and Plan Beta. The strategy relies on triggering high-yield distractions at key infrastructure nodes\u2014namely the Cragpool Lake lumber mill and the eastern mine. While goblins scramble to extinguish blazes and assess mechanical failures, an infiltrator slips past the chaos to pilfer critical documents and schematics.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Confluence of Interests",
+   "body": "The contents of the pack serve a dual purpose for the Alliance in Stonetalon. For the night elf Sentinels, the detonations and theft disrupt the merciless clear-cutting and gouging of the sacred mountainside. For Alliance tinkers, the primary reward lies in the documents themselves. Recovering Venture Company engineering schematics offers rare insights into goblin heavy machinery, revealing mechanical weak points to exploit and allowing Alliance engineers to adapt industrial innovations into their own designs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Covert Ops Pack?",
+   "aliases": [
+    "covert ops pack contents",
+    "what does the pack contain",
+    "items in covert ops pack"
+   ],
+   "answer": "The pack contains two pairs of colored demolition charges: red and blue NG-5 explosives with their matching remote detonators. It also holds written mission briefings detailing Plan Alpha and Plan Beta."
+  },
+  {
+   "q": "What is the tactical purpose of the explosives?",
+   "aliases": [
+    "why use bombs",
+    "what are ng-5 explosives for",
+    "alpha beta demolition"
+   ],
+   "answer": "The NG-5 explosives are planted at Venture Company work sites to create loud, violent distractions. They are not intended as the end goal itself, but rather to draw security away so an operative can infiltrate the lumber mill and the mine undetected."
+  },
+  {
+   "q": "What intelligence does this operation target?",
+   "aliases": [
+    "what do we steal",
+    "pack mission objective",
+    "covert ops goals"
+   ],
+   "answer": "The mission targets Venture Company engineering plans from the lumber mill south of Cragpool Lake, followed by executive letters kept inside the Windshear Mine at the eastern end of the crag."
+  },
+  {
+   "q": "Who benefits from the materials recovered using this pack?",
+   "aliases": [
+    "who wants the venture plans",
+    "who is the pack for",
+    "sentinels covert ops"
+   ],
+   "answer": "Both the night elf Sentinels guarding Stonetalon and Alliance engineers benefit. The Sentinels see the deforestation effort crippled, while Alliance artificers study the captured schematics to pinpoint flaws in Venture Company shredders and harvest ideas for their own technology."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The pack represents fine gnomish ingenuity turned against goblin industry, utilizing customized NG-5 charges to uncover the secrets behind Venture Company machinery."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The covert operation orchestrated with this pack directly supports the Sentinels' struggle against commercial despoilment in the Stonetalon Mountains."
+  }
+ ],
+ "keywords": [
+  "covert ops pack",
+  "cragpool lake",
+  "ng-5 explosives",
+  "plan alpha",
+  "plan beta",
+  "venture co",
+  "windshear crag"
+ ],
+ "related": [
+  "quest:1079",
+  "quest:1080",
+  "item:ng-5",
+  "item:venture-co-engineering-plans",
+  "item:venture-co-letters",
+  "subzone:windshear-crag",
+  "topic:sentinels",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Covert Ops Pack",
+  "Covert Ops - Alpha",
+  "Covert Ops - Beta"
+ ]
+}

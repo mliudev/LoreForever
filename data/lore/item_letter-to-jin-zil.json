@@ -1,0 +1,97 @@
+{
+ "key": "item:letter-to-jin-zil",
+ "type": "item",
+ "name": "Letter to Jin'Zil",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Letter to Jin'Zil",
+  "quests": [
+   "quest:1060"
+  ]
+ },
+ "summary": "The Letter to Jin'Zil is a piece of correspondence penned by the orc Darsok Swiftdagger at the Crossroads. Entrusted to an adventurer after the defeat of Serena Bloodfeather, it bears word to the Darkspear witch doctor Jin'Zil in the Stonetalon Mountains that the northern Barrens have been purged of the Bloodfeather threat.",
+ "sections": [
+  {
+   "title": "A Messenger to Stonetalon",
+   "body": "Following the eradication of the harpy infestation at the Dry Hills and the slaying of Serena Bloodfeather, Darsok Swiftdagger drafts this missive to an old comrade. Recognizing that the harpies of the Barrens originally roosted within the peaks of Stonetalon Mountains, Darsok uses the dispatch to introduce a promising warrior to the wider frontier while notifying the witch doctor Jin'Zil that the harpy matron has fallen.",
+   "spoiler": 0
+  },
+  {
+   "title": "Old Memories in Malaka'jin",
+   "body": "Upon delivery to the cave at Malaka'jin, Jin'Zil welcomes the news with nostalgic satisfaction. The death of Serena reminds the old witch doctor of the Third War, when his friend Rokhan joined the Mok'Nathal beastmaster Rexxar to strike down Serena's elder sister, Bloodfeather. With Serena now slain as well, Jin'Zil considers the Bloodfeather line's vengeance thoroughly extinguished.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote the Letter to Jin'Zil?",
+   "aliases": [
+    "who wrote this",
+    "letter sender",
+    "darsok letter"
+   ],
+   "answer": "The letter is written by Darsok Swiftdagger, an orc stationed at the Crossroads in the Barrens who coordinates the defense against marauding harpy covens."
+  },
+  {
+   "q": "Where is Jin'Zil located?",
+   "aliases": [
+    "where is jinzil",
+    "jin'zil location",
+    "find jinzil"
+   ],
+   "answer": "Witch Doctor Jin'Zil resides inside a cave within Malaka'jin, a Darkspear troll outpost nestled in the southeast crags of the Stonetalon Mountains."
+  },
+  {
+   "q": "What is the news contained in the letter?",
+   "aliases": [
+    "what does the letter say",
+    "letter message"
+   ],
+   "answer": "The message informs Jin'Zil that Serena Bloodfeather, the leader of the harpies descending into the northern Barrens, has been slain, securing the perimeter north of the Crossroads."
+  },
+  {
+   "q": "Why does Jin'Zil care about the Bloodfeathers?",
+   "aliases": [
+    "why jinzil harpies",
+    "bloodfeather history",
+    "rokhan and bloodfeather"
+   ],
+   "answer": "Jin'Zil remembers the Third War, when his companion Rokhan and the Mok'Nathal warrior Rexxar killed Serena's elder sister. Serena sought revenge against the Horde ever since, making her downfall a welcome resolution."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The letter acts as a bridge for Horde adventurers transitioning from policing the Barrens to tackling the deeper conflicts brewing in the Stonetalon Mountains."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Delivering the letter leads Darkspear travelers directly to Witch Doctor Jin'Zil, an elder practitioner carrying on traditional voodoo outside of the Echo Isles."
+  }
+ ],
+ "keywords": [
+  "darsok swiftdagger",
+  "harpies",
+  "jin'zil",
+  "letter to jin'zil",
+  "malaka'jin",
+  "rokhan",
+  "serena bloodfeather",
+  "stonetalon"
+ ],
+ "related": [
+  "quest:1060",
+  "quest:876",
+  "subzone:malaka-jin",
+  "zone:stonetalon",
+  "zone:barrens",
+  "topic:harpy",
+  "quest:875",
+  "quest:867"
+ ],
+ "attribution": [
+  "Letter to Jin'Zil",
+  "Letter to Jin'Zil (quest)"
+ ]
+}

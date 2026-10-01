@@ -1,0 +1,78 @@
+{
+ "key": "item:book-stresses-of-iron",
+ "type": "item",
+ "name": "Book: Stresses of Iron",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Book: Stresses of Iron",
+  "quests": [
+   "quest:346"
+  ]
+ },
+ "summary": "The Stresses of Iron is a scholarly metallurgical text authored by Margulf Blaggon. Originally kept in the Royal Library of Stormwind Keep, it became the focus of an errand between monks after being loaned out to Northshire Abbey for transcribing.",
+ "sections": [
+  {
+   "title": "A Borrowed Volume",
+   "body": "Written by Margulf Blaggon, The Stresses of Iron covers the practical and theoretical properties of metallurgy. Kept within the Royal Library in Stormwind Keep under the care of Milton Sheaf, the book was loaned to Northshire Abbey so that Brother Paxton could copy its contents by hand for his own collection. Paxton's transcription took far longer than anticipated, leaving Brother Kristoff in Cathedral Square waiting anxiously for the text to return to the city.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the book about?",
+   "aliases": [
+    "what is stresses of iron",
+    "stresses of iron topic",
+    "book contents"
+   ],
+   "answer": "The Stresses of Iron is an academic manual concerning metallurgy and metalworking, penned by the scholar Margulf Blaggon."
+  },
+  {
+   "q": "Why was the book at Northshire Abbey?",
+   "aliases": [
+    "why did paxton have it",
+    "why in northshire"
+   ],
+   "answer": "Brother Paxton borrowed the volume from Stormwind's Royal Library to meticulously hand-copy its text for his personal collection before returning the original."
+  },
+  {
+   "q": "Who wanted the book returned?",
+   "aliases": [
+    "who needs the book",
+    "who is waiting for it"
+   ],
+   "answer": "Brother Kristoff, stationed in Cathedral Square, urgently requested the text, prompting an adventurer to track down its whereabouts between the Royal Library and Northshire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Authored by Margulf Blaggon, this tome delves into the structural strengths and practical limits of working with iron."
+  }
+ ],
+ "keywords": [
+  "brother kristoff",
+  "brother paxton",
+  "margulf blaggon",
+  "metallurgy",
+  "milton sheaf",
+  "northshire abbey",
+  "royal library",
+  "stresses of iron"
+ ],
+ "related": [
+  "quest:346",
+  "quest:344",
+  "quest:343",
+  "npc:brother-kristoff",
+  "subzone:royal-library",
+  "subzone:northshire-abbey",
+  "subzone:cathedral-square",
+  "subzone:stormwind-keep"
+ ],
+ "attribution": [
+  "Book: Stresses of Iron",
+  "Return to Kristoff"
+ ]
+}

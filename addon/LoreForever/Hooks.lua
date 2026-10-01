@@ -23,13 +23,6 @@ function Hooks.RefreshQuests()
   Hooks.activeQuests = active
 end
 
-Hooks.professions = {}
-function Hooks.RefreshProfessions()
-  local set = {}
-  for _, p in ipairs(ns.Context.Professions()) do set[p.name] = true end
-  Hooks.professions = set
-end
-
 local function questDone(id)
   local QL = _G.C_QuestLog
   if QL and QL.IsQuestFlaggedCompleted then
@@ -43,10 +36,6 @@ local function questEntry(id)
   local k = ns.DB.index.quest[id]
   return k and ns.DB.entries[k], k
 end
-
--- Trade-goods subclasses -> the profession that uses them (classID 7).
-local REAGENT_FOR = { [1] = "Engineering", [2] = "Engineering", [3] = "Engineering", [5] = "Tailoring",
-  [6] = "Leatherworking", [7] = "Blacksmithing", [8] = "Cooking", [9] = "Alchemy", [12] = "Enchanting" }
 
 -- Tooltip lines for an item: why you might want to keep it, then its story. At most two lines, often none.
 -- What the game itself says about quest items in your bags (itemID -> {questID, isActive, isQuestItem}). This covers
@@ -147,13 +136,6 @@ function Hooks.ItemLines(name, itemID)
       end
     end
   end
-  if #out < 2 and itemID and _G.C_Item and C_Item.GetItemInfoInstant then
-    local ok, _, _, _, _, _, classID, subclassID = pcall(C_Item.GetItemInfoInstant, itemID)
-    local prof = ok and classID == 7 and REAGENT_FOR[subclassID]
-    if prof and Hooks.professions[prof] then
-      out[#out + 1] = { text = string.format(L["Useful for your %s"], prof), r = 0.6, g = 0.85, b = 0.6 }
-    end
-  end
   while #out > 2 do table.remove(out) end
   return out
 end
@@ -182,11 +164,10 @@ local function onUnitTooltip(tooltip)
   local ok, _, unit = pcall(tooltip.GetUnit, tooltip)
   if not ok or not unit then return end
   local name = ns.Context.NPCName(unit)
-  local line, key = Hooks.UnitLine(name)
+  local line = Hooks.UnitLine(name)
   if not line then return end
   tooltip:AddLine(line, 0.85, 0.85, 0.85, true)
   bindHint(tooltip)
-  Hooks.hover = { key = key, t = GetTime and GetTime() or 0 }
   tooltip:Show()
 end
 
@@ -464,7 +445,6 @@ end
 
 function Hooks.Init()
   Hooks.RefreshQuests()
-  Hooks.RefreshProfessions()
   Hooks.RefreshBags()
   for _, fn in ipairs({ Hooks.Tooltips, Hooks.QuestFrames, Hooks.ChatLinks }) do
     local ok, err = pcall(fn)

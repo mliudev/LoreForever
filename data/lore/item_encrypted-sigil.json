@@ -1,0 +1,96 @@
+{
+ "key": "item:encrypted-sigil",
+ "type": "item",
+ "name": "Encrypted Sigil",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Encrypted Sigil",
+  "quests": [
+   "quest:3118"
+  ]
+ },
+ "summary": "The Encrypted Sigil is a coded token delivered to newly awakened night elf rogues in Shadowglen. Bearing hidden instructions from the trainer Frahun Shadewhisper, it directs fledgling operatives to initiate their training amidst growing threats to Teldrassil.",
+ "sections": [
+  {
+   "title": "A Hidden Summons",
+   "body": "Within the sheltered hollow of Shadowglen, emerging night elf scouts and infiltrators are contacted through discreet means. The Encrypted Sigil is passed directly into an initiate's hands by a quiet messenger on behalf of Frahun Shadewhisper. Concealing its contents in a manner fitting the profession, the sigil instructs the recipient to report to Frahun near Aldrassil. To Shadewhisper, reading and delivering the token proves an initiate can follow subtle directives and handle covert missives.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes in the Shadows",
+   "body": "Frahun uses the summons to stress the necessity of rogues in an unsettled world. With tensions simmering between the night elves and the distant Horde, Shadewhisper reminds his recruits that open warfare is not the only peril facing their people. Rogues must serve as the early eyes and unseen blades of the Kaldorei, gathering intelligence across Teldrassil and learning to strike before threats can take root in the boughs of the World Tree.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Encrypted Sigil?",
+   "aliases": [
+    "what does the sigil do",
+    "what is encrypted sigil for",
+    "why do i have encrypted sigil"
+   ],
+   "answer": "It serves as an introductory summons for novice night elf rogues. Bearing concealed instructions, it directs the bearer to report to Frahun Shadewhisper near Aldrassil to begin their formal rogue training."
+  },
+  {
+   "q": "Who sends the Encrypted Sigil?",
+   "aliases": [
+    "who wrote this sigil",
+    "who sent encrypted sigil",
+    "who is the sigil from"
+   ],
+   "answer": "The sigil is dispatched by Frahun Shadewhisper, the rogue trainer stationed within Shadowglen beneath the boughs of Aldrassil."
+  },
+  {
+   "q": "What does Frahun Shadewhisper want with me?",
+   "aliases": [
+    "why does frahun want me",
+    "frahun quest",
+    "why talk to frahun"
+   ],
+   "answer": "Frahun wishes to evaluate your readiness, emphasize the growing dangers threatening the night elves\u2014including potential discord stirred by the Horde\u2014and offer foundational combat instruction."
+  },
+  {
+   "q": "Where should I take the sigil once I read it?",
+   "aliases": [
+    "where to bring encrypted sigil",
+    "frahun location",
+    "where is frahun"
+   ],
+   "answer": "Bring it to Frahun Shadewhisper, who can be found near the great barrows and paths surrounding the central hollow of Aldrassil in Shadowglen."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The sigil represents the starting point of a night elf rogue's journey, testing your ability to decode instructions and establish contact with your local mentor."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei, covert operatives provide vital intelligence in a fragile era where ancient woodland borders face new encroachment from the Horde."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "encrypted sigil",
+  "frahun shadewhisper",
+  "kaldorei rogue",
+  "rogue trainer",
+  "shadowglen",
+  "teldrassil"
+ ],
+ "related": [
+  "quest:3118",
+  "npc:frahun-shadewhisper",
+  "subzone:shadowglen",
+  "subzone:aldrassil",
+  "zone:teldrassil",
+  "topic:rogue",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Encrypted Sigil",
+  "Encrypted Sigil (Classic)"
+ ]
+}

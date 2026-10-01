@@ -1,0 +1,93 @@
+{
+ "key": "item:warsong-scout-update",
+ "type": "item",
+ "name": "Warsong Scout Update",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Warsong Scout Update",
+  "quests": [
+   "quest:6543"
+  ]
+ },
+ "summary": "The Warsong Scout Update is a written dispatch containing battlefield reconnaissance from Splintertree Post in Ashenvale. Gathered by a forward scout of the Warsong clan, it provides commander Kadrak with critical intelligence needed to secure the Horde's foothold against night elf resistance.",
+ "sections": [
+  {
+   "title": "Eyes in the Ancient Forest",
+   "body": "As the Horde attempts to claim timber and establish supply routes through Ashenvale, scouts from the Warsong clan patrol deep behind enemy lines. The Warsong Scout Update compiles local observations from the fortified encampment of Splintertree Post, tracking night elf sentinels and territorial movements. Handed over to messengers trading routine orders, the document allows Kadrak at the Barrens-Ashenvale border to assess troop readiness and coordinate logistics in the contested woods.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Warsong Scout Update?",
+   "aliases": [
+    "scout update",
+    "scout report",
+    "warsong scout dispatch"
+   ],
+   "answer": "It is a field report prepared by a Warsong scout stationed at Splintertree Post in central Ashenvale, summarizing local surveillance for commanders on the border."
+  },
+  {
+   "q": "Who requires this update?",
+   "aliases": [
+    "who wants this",
+    "kadrak report",
+    "who gets the update"
+   ],
+   "answer": "Kadrak, the Horde officer stationed at the watchtower guarding the border between the northern Barrens and Ashenvale, requires it to plan the Horde's military maneuvers."
+  },
+  {
+   "q": "Where is the Warsong Scout located?",
+   "aliases": [
+    "where is scout",
+    "scout location",
+    "find warsong scout"
+   ],
+   "answer": "The scout is stationed inside Splintertree Post, the primary Horde stronghold located along the main road running through central Ashenvale."
+  },
+  {
+   "q": "Why are these dispatches so important to the Horde?",
+   "aliases": [
+    "why care",
+    "warsong logistics",
+    "ashenvale intelligence"
+   ],
+   "answer": "Ashenvale is fiercely defended by the night elves. Written scout updates warn Horde leadership about enemy ambushes and troop movements, ensuring supply chains and logging camps remain secure."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Warsong dispatches are the lifeblood of the Horde's expansion into Ashenvale, keeping forward camps in contact with supply bases in the Barrens."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The Warsong clan carries the brunt of the logging campaign in Ashenvale, relying on swift scouts to hold their hard-won forest outposts."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "barrens",
+  "kadrak",
+  "report",
+  "scout",
+  "splintertree",
+  "update",
+  "warsong"
+ ],
+ "related": [
+  "quest:6543",
+  "quest:6547",
+  "npc:kadrak",
+  "subzone:splintertree-post",
+  "zone:ashenvale",
+  "quest:6546",
+  "quest:6545",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Warsong Scout Update",
+  "The Warsong Reports"
+ ]
+}

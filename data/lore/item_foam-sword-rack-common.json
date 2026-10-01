@@ -1,0 +1,104 @@
+{
+ "key": "item:foam-sword-rack-common",
+ "type": "item",
+ "name": "Foam Sword Rack (common)",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Foam Sword Rack (common)",
+  "quests": [
+   "quest:171",
+   "quest:5502"
+  ]
+ },
+ "summary": "A Foam Sword Rack is a playful collection of harmless toy weapons purchased as a parting gift during Children's Week. Acquired from wandering toy vendors in either Stormwind or Orgrimmar, it allows an entire orphanage of war-bereft children to share in the joy of rough-and-tumble games.",
+ "sections": [
+  {
+   "title": "A Parting Gift for the Orphanage",
+   "body": "During the festivities of Children's Week, adventurers take orphans under their wing to show them the wonders and landmarks of the world. At the conclusion of this journey, both the human orphan Randis in Stormwind and the orc orphan Grunth in Orgrimmar ask for one final favor before returning home: a foam sword rack. Rather than seeking a souvenir solely for themselves, each child wants to bring back enough toys so that every other boy and girl in the care of the orphanage can join in the amusement.",
+   "spoiler": 0
+  },
+  {
+   "title": "Wandering Toymakers",
+   "body": "The toy sword racks are stocked and sold by roving novelty vendors who push their wooden carts through capital streets. In Stormwind, adventurers track down the gnome Craggle Wobbletop as he wanders the canals bordering the Trade District. In Orgrimmar, the goblin Blax Bottlerocket hawking goods up and down the dusty canyon of the Drag supplies the rack. Delivering the gift back to Orphan Matron Nightingale or Orphan Matron Battlewail unleashes an immediate wave of playful skirmishes as the children scramble outside with foam blades in hand.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Foam Sword Rack used for?",
+   "aliases": [
+    "foam sword rack purpose",
+    "what does foam sword rack do"
+   ],
+   "answer": "It serves as the final quest delivery during Children's Week. After escorting an orphan across the world, you purchase this rack so they can bring a shared gift back to all the other children residing at the orphanage."
+  },
+  {
+   "q": "Where can Alliance players find the Foam Sword Rack?",
+   "aliases": [
+    "buy foam sword rack stormwind",
+    "craggle wobbletop location"
+   ],
+   "answer": "Alliance heroes purchase it in Stormwind City from Craggle Wobbletop, an eccentric gnome pushing a toy cart along the Canals just outside the Trade District."
+  },
+  {
+   "q": "Where do Horde players obtain the Foam Sword Rack?",
+   "aliases": [
+    "buy foam sword rack orgrimmar",
+    "blax bottlerocket location"
+   ],
+   "answer": "Horde adventurers acquire it in Orgrimmar from Blax Bottlerocket, a goblin peddler who wheels his novelty cart up and down the central road in the Drag."
+  },
+  {
+   "q": "Who receives the rack when you turn it in?",
+   "aliases": [
+    "who do i give the sword rack to",
+    "foam sword rack turn in"
+   ],
+   "answer": "In Stormwind, it is delivered to Orphan Matron Nightingale in the Cathedral District alongside the orphan Randis. In Orgrimmar, it is brought to Orphan Matron Battlewail in the Drag alongside the orphan Grunth."
+  },
+  {
+   "q": "What happens after the rack is delivered?",
+   "aliases": [
+    "sword rack event",
+    "what do orphans do with foam swords"
+   ],
+   "answer": "Upon turning in the rack, the matron accepts it with gratitude and summons the children. Excited orphans pour out from both inside and outside the building to grab toy blades and enthusiastically spar with one another around the street."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Purchased from Craggle Wobbletop in Stormwind, the rack brings a burst of carefree levity to the Cathedral District's war orphans, earning high praise from Matron Nightingale."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Acquired from Blax Bottlerocket in the Drag, the foam blades let the younglings of Orgrimmar practice their martial spirit in harmless play, earning the blessing of the spirits from Matron Battlewail."
+  }
+ ],
+ "keywords": [
+  "battlewail",
+  "blax bottlerocket",
+  "children's week",
+  "craggle wobbletop",
+  "foam sword rack",
+  "grunth",
+  "nightingale",
+  "randis"
+ ],
+ "related": [
+  "quest:171",
+  "quest:5502",
+  "npc:randis",
+  "npc:grunth",
+  "npc:orphan-matron-nightingale",
+  "npc:orphan-matron-battlewail",
+  "subzone:canals-stormwind-city",
+  "subzone:drag"
+ ],
+ "attribution": [
+  "Foam Sword Rack (common)",
+  "A Warden of the Alliance",
+  "A Warden of the Horde"
+ ]
+}

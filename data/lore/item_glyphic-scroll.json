@@ -1,0 +1,79 @@
+{
+ "key": "item:glyphic-scroll",
+ "type": "item",
+ "name": "Glyphic Scroll",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Glyphic Scroll",
+  "quests": [
+   "quest:3098"
+  ]
+ },
+ "summary": "The Glyphic Scroll is a summons delivered to newly raised Forsaken magi in Deathknell. Bearing the seal of Isabella, the local arcane trainer, it calls fledgling spellcasters to the desecrated church to refine their craft in undeath.",
+ "sections": [
+  {
+   "title": "A Summons from the Church",
+   "body": "When a freshly awakened Forsaken mage returns from culling mindless Scourge in the graveyard of Deathknell, this sealed missive awaits them. Written under the mark of Isabella, the settlement's resident mage trainer, the scroll calls the recipient into the ruined parish sanctuary. For newly risen magi, it serves as an initial orientation into the discipline of the arcane under the Forsaken banner\u2014reminding them that while death may have unburdened them of mortal weakness, the corrupting temptations of magical power remain as persistent as ever.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Glyphic Scroll?",
+   "aliases": [
+    "what is this item",
+    "glyphic scroll use",
+    "what does scroll do"
+   ],
+   "answer": "It is an introductory dispatch given to newly raised Forsaken magi in Deathknell. Bearing the personal seal of the arcane trainer Isabella, it directs nascent spellcasters to report to her inside the town church to begin their magical instruction."
+  },
+  {
+   "q": "Who sends the Glyphic Scroll?",
+   "aliases": [
+    "who wrote it",
+    "who gave me this",
+    "scroll sender"
+   ],
+   "answer": "The scroll is delivered on behalf of Isabella, the mage trainer stationed within the ruined church in Deathknell. She reaches out to any newly raised undead possessing an aptitude for the arcane."
+  },
+  {
+   "q": "Why does Isabella want to train new Forsaken mages?",
+   "aliases": [
+    "isabella motive",
+    "why train mages"
+   ],
+   "answer": "Isabella seeks kindred spirits who share the pain of dying and the desire to reclaim their stolen homeland and destinies. She trains them to cultivate enough arcane power to destroy anyone opposing the Forsaken, while cautioning them not to succumb to magical addiction and corruption."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The scroll is the first formal summons a Forsaken mage receives, emphasizing that undeath does not free a spellcaster from the corrupting addictions of arcane magic."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, reclaimed arcane knowledge is not merely scholarly study\u2014it is an essential weapon to secure their sovereignty against both the Scourge and living enemies."
+  }
+ ],
+ "keywords": [
+  "arcane",
+  "deathknell",
+  "glyphic scroll",
+  "isabella",
+  "mage",
+  "scroll",
+  "tirisfal"
+ ],
+ "related": [
+  "quest:3098",
+  "subzone:deathknell",
+  "topic:mage",
+  "zone:tirisfal",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Glyphic Scroll",
+  "Glyphic Scroll (quest)"
+ ]
+}

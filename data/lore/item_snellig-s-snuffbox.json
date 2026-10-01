@@ -1,0 +1,88 @@
+{
+ "key": "item:snellig-s-snuffbox",
+ "type": "item",
+ "name": "Snellig's Snuffbox",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Snellig's Snuffbox",
+  "quests": [
+   "quest:289"
+  ]
+ },
+ "summary": "Snellig's Snuffbox is a personal keepsake recovered from the restless undead First Mate Snellig among the wreckage of the Lost Fleet. Bringing this trinket back to First Mate Fitzsimmons in Menethil Harbor serves as proof that his cursed former crewmate has finally been put to rest.",
+ "sections": [
+  {
+   "title": "A Keepsake of the Third Fleet",
+   "body": "When the Third Fleet of Kul Tiras ran aground along the northern shores of the Wetlands, its sailors and officers did not find peaceful deaths. Bound by a mysterious and dark power tied to a hidden treasure aboard the ships, the drowned crew rose again as tortured spirits and skeletal undead. Among them was First Mate Snellig, who still haunts the rotting hold of the wreck closest to the coastline. Even in death, he clung to his snuffbox\u2014a small, mundane reminder of his mortal life at sea. For the sole living survivor of the disaster, First Mate Fitzsimmons, recovering this small possession provides tangible proof that at least one of his lost shipmates has been released from an eternity of torment.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Snellig's Snuffbox?",
+   "aliases": [
+    "what is this item",
+    "snelligs snuffbox",
+    "snuff box"
+   ],
+   "answer": "It is a small personal container once owned by First Mate Snellig, an officer of the ill-fated Kul Tiras Third Fleet. It is carried by his undead remnant aboard the shipwrecks off the northern coast of the Wetlands."
+  },
+  {
+   "q": "Where do I find Snellig's Snuffbox?",
+   "aliases": [
+    "where does snellig drop snuffbox",
+    "find snellig",
+    "first mate snellig location"
+   ],
+   "answer": "The snuffbox is taken from First Mate Snellig, who haunts the hold of the southern shipwreck closest to shore at the Lost Fleet in the northeastern Wetlands."
+  },
+  {
+   "q": "Who wants this snuffbox?",
+   "aliases": [
+    "who takes the snuffbox",
+    "who do i turn this into",
+    "fitzsimmons quest"
+   ],
+   "answer": "First Mate Fitzsimmons, the sole living survivor of the Third Fleet, asks adventurers to bring him the snuffbox at Menethil Harbor as proof that Snellig has been put to rest."
+  },
+  {
+   "q": "Why is First Mate Snellig cursed?",
+   "aliases": [
+    "why is snellig undead",
+    "lost fleet curse",
+    "curse of third fleet"
+   ],
+   "answer": "According to Fitzsimmons, a dark and terrible treasure hidden aboard one of the Third Fleet's vessels doomed the crews upon wrecking, trapping their souls within the rotting timbers and denying them rest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Recovering the possessions of fallen Kul Tiran sailors and putting their cursed spirits to rest is a grim duty in service of an old naval ally of the Alliance."
+  }
+ ],
+ "keywords": [
+  "cursed crew",
+  "fitzsimmons",
+  "kul tiras",
+  "lost fleet",
+  "snellig",
+  "snuffbox",
+  "third fleet",
+  "wetlands"
+ ],
+ "related": [
+  "quest:289",
+  "quest:288",
+  "npc:first-mate-fitzsimmons",
+  "subzone:lost-fleet",
+  "subzone:menethil-harbor",
+  "topic:kul-tiras",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "Snellig's Snuffbox",
+  "The Cursed Crew (Classic)"
+ ]
+}

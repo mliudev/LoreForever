@@ -1,0 +1,131 @@
+{
+ "key": "topic:paladin",
+ "type": "topic",
+ "name": "Paladin",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Paladin"
+ },
+ "summary": "Paladins are holy knights of the Alliance who blend martial prowess with divine magic. Clad in heavy plate armor, they wield weapons empowered by the Holy Light to protect the innocent, heal the wounded, and strike down wicked foes.",
+ "sections": [
+  {
+   "title": "Origins in Lordaeron",
+   "body": "The paladins were originally established during the Second War by Archbishop Alonsus Faol. Having witnessed the devastation wrought upon the pious Clerics of Northshire during the First War, Faol recognized that healers alone could not survive the brutality of orcish warfare. He gathered virtuous knights of Lordaeron and trained surviving clerics in the ways of martial combat and divine magic. Baptized as the Knights of the Silver Hand and led by Uther the Lightbringer, these champions provided both physical defense and spiritual renewal to the kingdoms of humanity.",
+   "spoiler": 0
+  },
+  {
+   "title": "Champions of the Holy Light",
+   "body": "Where priests act as the voice of the Holy Light\u2014preaching faith and tending the spirits of the common folk\u2014paladins serve as its martial arm. Their profound conviction grants them miraculous powers: they project emboldening auras, seal sanctified blessings upon their allies, and mend fatal injuries. In combat against unholy horrors, the Light burns through their strikes, allowing paladins to incinerate undead and demonic entities with righteous fury.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Legacy in the South",
+   "body": "The fall of Lordaeron during the Third War scattered the original order, yet the ideals of the Silver Hand endure. Today, the mantle has been embraced by the humans of Stormwind and the stalwart dwarves of Ironforge. Operating out of sanctuaries like the Cathedral of Light and the Hall of Mysteries, these new paladins pledge their swords and shields to uphold justice and defend the Alliance from the gathering shadows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the difference between a priest and a paladin?",
+   "aliases": [
+    "paladin vs priest",
+    "difference between priest and paladin",
+    "how are paladins different from priests"
+   ],
+   "answer": "Priests serve as the voice of the Light, ministering to the faithful and offering pastoral guidance through prayer and ritual. Paladins serve as the hand and hammer of the Light, donning heavy plate armor and taking up weapons to directly enforce divine justice and defend the weak on the battlefield."
+  },
+  {
+   "q": "Who created the first paladins?",
+   "aliases": [
+    "who made paladins",
+    "founder of paladins",
+    "origin of the silver hand"
+   ],
+   "answer": "Archbishop Alonsus Faol created the order during the Second War. After seeing the Clerics of Northshire slaughtered during the First War, he recruited devout knights and trained surviving clerics to unite martial discipline with holy magic under the banner of the Knights of the Silver Hand."
+  },
+  {
+   "q": "Which races can be paladins?",
+   "aliases": [
+    "can horde be paladins",
+    "who can be a paladin",
+    "paladin races"
+   ],
+   "answer": "Currently, only humans and dwarves train as paladins within the Alliance. While the order was originally exclusively human, the dwarves of Ironforge embraced the teachings of the Holy Light and were welcomed into the Knights of the Silver Hand."
+  },
+  {
+   "q": "Why are paladins effective against the undead?",
+   "aliases": [
+    "paladins vs undead",
+    "why does holy magic hurt undead",
+    "paladin scourge counter"
+   ],
+   "answer": "The Holy Light is anathema to necrotic corruption and demonic energy. When paladins channel divine power, it purges blight and incinerates unholy creatures, making them the foremost champions against the Scourge and other foul beings."
+  },
+  {
+   "q": "What happened to the original Knights of the Silver Hand?",
+   "aliases": [
+    "what happened to silver hand",
+    "is silver hand gone",
+    "fall of the silver hand"
+   ],
+   "answer": "The order suffered catastrophic losses during the Third War when the plague ravished Lordaeron. The brotherhood fragmented amid internal betrayal and political strife, though surviving members and new initiates in Stormwind and Ironforge continue to carry the title and ideals forward."
+  },
+  {
+   "q": "Can members of the Horde become paladins?",
+   "aliases": [
+    "horde paladins",
+    "can orcs be paladins",
+    "why no horde paladin"
+   ],
+   "answer": "No. The paladin traditions of Azeroth are deeply rooted in the church and knightly orders of the Alliance. The races of the Horde turn to shamans, witch doctors, and warriors rather than the knightly path of the Holy Light."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Every novice paladin walks in the footsteps of Uther the Lightbringer and Alonsus Faol, binding martial readiness to an oath of selfless duty."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests share a deep spiritual kinship with paladins, though they shepherd the flock with sermons and faith while paladins protect it with steel."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarves from Ironforge recently embraced the tenets of the Silver Hand, finding that the discipline of the Light aligns naturally with their unyielding nature."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans, paladins represent the enduring soul of the Alliance, carrying on the sacred crusade forged during the horrors of the Second War."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Paladins stand as the moral anchor of the Alliance, rallying troops with sacred auras and inspiring hope across the battlefield."
+  }
+ ],
+ "keywords": [
+  "alonsus faol",
+  "auras",
+  "blessings",
+  "cleric",
+  "crusader",
+  "holy light",
+  "paladin",
+  "plate",
+  "silver hand",
+  "uther"
+ ],
+ "related": [
+  "topic:knights-of-the-silver-hand",
+  "topic:light",
+  "topic:priest",
+  "topic:warrior",
+  "topic:alliance",
+  "topic:second-war",
+  "zone:stormwind",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Paladin"
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "key": "item:sea-creature-bones",
+ "type": "item",
+ "name": "Sea Creature Bones",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Sea Creature Bones",
+  "quests": [
+   "quest:3524",
+   "quest:4723",
+   "quest:4730",
+   "quest:4733"
+  ]
+ },
+ "summary": "Sea Creature Bones are skeletal samples gathered from the massive marine carcasses washing ashore along the mist-shrouded coast of Darkshore. Sent directly to the Temple of the Moon in Darnassus, these remains are central to an ongoing investigation into what is driving these great beasts to strand themselves upon the beaches.",
+ "sections": [
+  {
+   "title": "A Portent on the Shore",
+   "body": "The fog-blanketed beaches of Darkshore have recently witnessed an alarming surge of massive sea creatures\u2014including giant threshers far larger than those native to the local shallows\u2014flinging themselves onto the shallows until they perish. The sight is viewed as an ominous portent by the night elves. Gwennyth Bly'Leggonde, an investigator dispatched by the Temple of the Moon to Auberdine, collects bone specimens from these beached leviathans to ship by hippogryph to Darnassus for close examination.",
+   "spoiler": 0
+  },
+  {
+   "title": "Carrion and Scavengers",
+   "body": "Recovering these bones is fraught with danger, as the immense carcasses inevitably attract local scavengers. The coastal Greymist murlocs frequently swarm the dead and dying leviathans, feeding on the remains and defending the feeding grounds aggressively. Although the murlocs are far too weak to hunt such colossal creatures on their own, their opportunistic presence along Mist's Edge forces investigators and adventurers to fight through the scavenging packs to secure viable bone fragments for study.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are these creatures washing ashore?",
+   "aliases": [
+    "why are threshers beaching",
+    "darkshore dead whales",
+    "why do creatures strand darkshore"
+   ],
+   "answer": "The exact cause remains unknown. While occasional strandings are a natural hazard, their sudden and dramatic increase is considered unnatural and alarming by the priestesses of Elune, prompting their formal investigation."
+  },
+  {
+   "q": "Who wants these bones?",
+   "aliases": [
+    "who takes the bones",
+    "who turns in sea creature bones",
+    "gwennyth darkshore"
+   ],
+   "answer": "Gwennyth Bly'Leggonde, an investigator stationed in Auberdine, collects the bones on behalf of the Temple of the Moon in Darnassus, where scholars and priestesses hope to determine what is disturbing the sea."
+  },
+  {
+   "q": "Did the murlocs kill these giant beasts?",
+   "aliases": [
+    "did murlocs kill the thresher",
+    "greymist murlocs killed sea monster"
+   ],
+   "answer": "No. The local Greymist murlocs are far too weak to bring down marine beasts of that size. They are merely scavengers that gather in large numbers to feed upon the carcasses once they are beached."
+  },
+  {
+   "q": "Where are the bones recovered from?",
+   "aliases": [
+    "where to find sea creature bones",
+    "beached sea creature locations"
+   ],
+   "answer": "They are retrieved directly from the massive carcasses stranded along the shoreline of Darkshore, particularly on the sands south of Auberdine and along Mist's Edge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The sudden mass strandings along Darkshore deeply disturb the night elves, who revere the harmony of the natural world and see these beachings as a dark omen requiring the attention of the Temple of the Moon."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The inexplicable deaths of ancient marine predators signal a profound disturbance in the waters off Kalimdor, troubling any guardian devoted to maintaining ecological balance."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "beached sea creature",
+  "darkshore",
+  "greymist murlocs",
+  "gwennyth bly'leggonde",
+  "mist's edge",
+  "sea creature bones",
+  "temple of the moon"
+ ],
+ "related": [
+  "npc:gwennyth-bly-leggonde",
+  "quest:3524",
+  "quest:4723",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "subzone:mist-s-edge",
+  "subzone:temple-of-the-moon",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Sea Creature Bones",
+  "Washed Ashore",
+  "Beached Sea Creature (1)"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "item:ados-fragment",
+ "type": "item",
+ "name": "Ados Fragment",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Ados Fragment",
+  "quests": [
+   "quest:299"
+  ]
+ },
+ "summary": "The Ados Fragment is an inscribed piece of stone recovered from the Whelgar's Excavation site in the Wetlands. Together with three companion shards, it forms the Goaz Stone, an ancient relic bearing enigmatic Titan inscriptions.",
+ "sections": [
+  {
+   "title": "A Piece of the Goaz Stone",
+   "body": "Unearthed in the muddy trenches of Whelgar's Excavation, the Ados Fragment is one of four missing pieces required to reconstruct the Goaz Stone. Prior to raptors overrunning the dig site, Prospector Whelgar began translating the primary tablet, only to discover that the inscriptions broke off at crucial moments. The scattered pieces\u2014named Ados, Modr, Golm, and Neru\u2014were lost across the ruins, concealed within ancient containers and dirt mounds amidst prowling beasts.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Titan Script",
+   "body": "Reassembling the Ados Fragment alongside the other three pieces allows Prospector Whelgar to decipher the complete Titan script carved into the Goaz Stone. The pieced-together text mentions a grand divine plan and a doomed prophecy, ultimately revealing an ominous proclamation: 'Old Gods... Chained Beneath the Land.' This revelation hints that the Titans imprisoned primordial entities beneath Azeroth in ages past.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Ados Fragment?",
+   "aliases": [
+    "ados fragment",
+    "what is ados",
+    "goaz stone fragment ados"
+   ],
+   "answer": "It is a broken section of an ancient tablet known as the Goaz Stone, discovered at Whelgar's Excavation in the Wetlands. It contains carved script from the world-shaping Titans."
+  },
+  {
+   "q": "Where is the fragment found?",
+   "aliases": [
+    "where is ados fragment",
+    "ados location",
+    "how to find ados"
+   ],
+   "answer": "It is buried throughout the dig site in the southern Wetlands, typically tucked inside ancient relics or loose soil patches surrounded by territorial raptors."
+  },
+  {
+   "q": "What does the fragment say?",
+   "aliases": [
+    "ados fragment text",
+    "what is written on ados",
+    "goaz stone translation"
+   ],
+   "answer": "On its own, the fragment is incomplete. When pieced together with the Modr, Golm, and Neru fragments, the tablet describes a divine plan, a doomed prophecy, and mentions Old Gods chained beneath the land."
+  },
+  {
+   "q": "Who wants this fragment?",
+   "aliases": [
+    "who needs ados fragment",
+    "ados fragment turn in",
+    "whelgar ados"
+   ],
+   "answer": "Prospector Whelgar, an Explorer's League dwarf overseeing the ruined excavation site, seeks it to finish translating the Goaz Stone."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For the Explorer's League, recovering Titan relics like the Ados Fragment is vital to unearthing the true origins of the dwarven race and their ancient makers."
+  }
+ ],
+ "keywords": [
+  "ados fragment",
+  "excavation",
+  "goaz stone",
+  "old gods",
+  "relic",
+  "titans",
+  "wetlands",
+  "whelgar"
+ ],
+ "related": [
+  "quest:299",
+  "npc:prospector-whelgar",
+  "item:modr-fragment",
+  "item:golm-fragment",
+  "item:neru-fragment",
+  "topic:titan",
+  "topic:old-god",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "Ados Fragment",
+  "Uncovering the Past"
+ ]
+}

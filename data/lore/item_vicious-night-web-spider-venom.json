@@ -1,0 +1,95 @@
+{
+ "key": "item:vicious-night-web-spider-venom",
+ "type": "item",
+ "name": "Vicious Night Web Spider Venom",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Vicious Night Web Spider Venom",
+  "quests": [
+   "quest:369"
+  ]
+ },
+ "summary": "Vicious Night Web Spider Venom is a potent natural toxin gathered from the arachnids haunting eastern Tirisfal Glades. The Royal Apothecary Society prizes it for its peculiar ability to carry and preserve historical disease strains, making it a critical reagent in the development of the Forsaken's New Plague.",
+ "sections": [
+  {
+   "title": "A Preserved Contagion",
+   "body": "According to research conducted by Apothecary Johaan in Brill, ancient texts chronicle a devastating historical plague that wiped out thousands of victims across northern Lordaeron. Curiously, the contagious agent behind that forgotten outbreak managed to endure over centuries by embedding itself within the venom of the local Night Web spiders. By hunting down the vicious breed lurking in Venomweb Vale south of the Scarlet Monastery, the apothecaries extract this preserved virulence to serve as a vital catalyst in their ongoing alchemical experiments.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fueling the New Plague",
+   "body": "The Forsaken seek a weapon capable of exterminating both the Scourge and the living, and the venom of the vicious night web spider provides a crucial bridge between natural toxins and infectious blight. Once boiled down and incorporated into Johaan's experimental concoction, the venom imparts a virulent vector that stabilizes the mixture, preparing it for preliminary testing on captive subjects.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What makes this venom unique compared to regular spider poison?",
+   "aliases": [
+    "why this venom",
+    "night web venom lore",
+    "spider venom plague"
+   ],
+   "answer": "Scholarly tomes studied by the Royal Apothecary Society record that an ancient plague's pathogen was biologically preserved inside the venom glands of the Night Web spider lineage, turning their poison into a natural reservoir for infectious contagion."
+  },
+  {
+   "q": "Where can the spiders carrying this venom be found?",
+   "aliases": [
+    "where to find spider venom",
+    "vicious night web spider location",
+    "venomweb vale spiders"
+   ],
+   "answer": "The vicious night web spiders reside primarily in Venomweb Vale, a web-choked canyon located in eastern Tirisfal Glades south of the Scarlet Monastery."
+  },
+  {
+   "q": "Who wants this venom in Brill?",
+   "aliases": [
+    "who needs spider venom",
+    "apothecary johaan venom",
+    "who uses the venom"
+   ],
+   "answer": "Apothecary Johaan, an alchemist stationed on the eastern edge of Brill, requests multiple samples to complete his research on a new infectious agent for the Forsaken."
+  },
+  {
+   "q": "How does the venom fit into the Forsaken's research?",
+   "aliases": [
+    "apothecary research venom",
+    "new plague component",
+    "forsaken spider venom"
+   ],
+   "answer": "It serves as the final stabilizing catalyst in Johaan's recipe for the New Plague, allowing him to combine the lethality of local flora with an ancient, self-sustaining biological pathogen."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, harvesting this venom is a direct contribution to Lady Sylvanas's supreme mandate: developing a weapon powerful enough to secure their future against the living and the Scourge alike."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Rogues familiar with handling natural neurotoxins can appreciate how the Royal Apothecary Society repurposes dangerous wild venoms into engineered bio-weapons."
+  }
+ ],
+ "keywords": [
+  "apothecary johaan",
+  "brill",
+  "new plague",
+  "spider venom",
+  "tirisfal glades",
+  "venomweb vale",
+  "vicious night web"
+ ],
+ "related": [
+  "npc:apothecary-johaan",
+  "quest:367",
+  "subzone:venomweb-vale",
+  "subzone:brill",
+  "zone:tirisfal",
+  "zone:scarlet"
+ ],
+ "attribution": [
+  "Vicious Night Web Spider Venom",
+  "A New Plague (3)"
+ ]
+}

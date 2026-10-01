@@ -1,0 +1,87 @@
+{
+ "key": "npc:frahun-shadewhisper",
+ "type": "npc",
+ "name": "Frahun Shadewhisper",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Frahun Shadewhisper",
+  "refs": 1
+ },
+ "summary": "Frahun Shadewhisper is a night elf rogue trainer stationed at Aldrassil within Shadowglen. He provides newly initiated night elf scouts and rogues with foundational techniques in stealth, agility, and covert strikes. He shares a family name with Erion Shadewhisper, another trainer of his craft in Darnassus.",
+ "sections": [
+  {
+   "title": "A Mentor in the Shadows",
+   "body": "Within the safe haven of Aldrassil in the heart of Teldrassil, Frahun Shadewhisper instructs emerging rogues in the quiet arts of concealment and bladecraft. While night elf society often honors priests, sentinels, and druids, the specialized trade of scouts and infiltrators remains essential for safeguarding the boughs of the World Tree. Frahun welcomes recruits who arrive bearing an encrypted sigil, evaluating their potential and guiding their early development.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Frahun Shadewhisper?",
+   "aliases": [
+    "frahun lore",
+    "who is frahun",
+    "frahun shadewhisper role"
+   ],
+   "answer": "Frahun Shadewhisper is a night elf rogue trainer stationed at Aldrassil in Teldrassil. He teaches novice rogues the fundamentals of stealth, precision combat, and covert tactics."
+  },
+  {
+   "q": "Where can Frahun Shadewhisper be found?",
+   "aliases": [
+    "frahun location",
+    "where is frahun",
+    "find frahun shadewhisper"
+   ],
+   "answer": "He is located in Aldrassil, the central stronghold of the starting area of Shadowglen on Teldrassil."
+  },
+  {
+   "q": "Is Frahun related to Erion Shadewhisper?",
+   "aliases": [
+    "erion shadewhisper brother",
+    "frahun erion related",
+    "shadewhisper family"
+   ],
+   "answer": "Given their shared surname and mutual dedication to training rogues in Teldrassil, Frahun is widely believed to be kin to Erion Shadewhisper, who trains rogues in Darnassus."
+  },
+  {
+   "q": "What role does the Encrypted Sigil play with him?",
+   "aliases": [
+    "encrypted sigil turn in",
+    "frahun sigil",
+    "rogue starting quest"
+   ],
+   "answer": "Novice night elf rogues begin their journey by carrying an encrypted sigil directly to Frahun, marking them as candidates ready for formal instruction in the rogue's trade."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Frahun Shadewhisper serves as the very first class mentor for night elf rogues, providing their initial introduction to stealth, ambush tactics, and weapon finesse."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Frahun demonstrates how night elves adapt their natural nocturnal affinity and elusiveness into lethal, practical combat skills to protect Teldrassil."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "encrypted sigil",
+  "erion",
+  "frahun",
+  "rogue trainer",
+  "shadewhisper",
+  "shadowglen",
+  "teldrassil"
+ ],
+ "related": [
+  "subzone:aldrassil",
+  "zone:teldrassil",
+  "quest:3118",
+  "quest:2259",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Frahun Shadewhisper"
+ ]
+}

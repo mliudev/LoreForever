@@ -1,0 +1,78 @@
+{
+ "key": "item:disarming-mixture",
+ "type": "item",
+ "name": "Disarming Mixture",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Disarming Mixture",
+  "quests": [
+   "quest:280"
+  ]
+ },
+ "summary": "Disarming Mixture is a specialized chemical concoction prepared by Chief Engineer Hinderweir at the Stonewrought Dam. Created to neutralize volatile Seaforium explosives, it is used to prevent Dark Iron saboteurs from destroying the massive dwarven structure holding back the waters of Loch Modan.",
+ "sections": [
+  {
+   "title": "A Chemical Neutralizer",
+   "body": "When Dark Iron saboteurs planted a heavy Seaforium charge beneath the foundation of the Stonewrought Dam, standard methods of defusal were far too risky. Lacking immediate Mountaineer support, Chief Engineer Hinderweir devised the Disarming Mixture from specialized ingredients to rapidly neutralize the underwater explosive. When stirred directly into the planted powder keg, the solution neutralizes the reactive compounds, reducing a catastrophic explosion to a harmless, fizzling ruin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Disarming Mixture used for?",
+   "aliases": [
+    "what does disarming mixture do",
+    "use of disarming mixture",
+    "disarming mixture purpose"
+   ],
+   "answer": "The mixture is formulated to neutralize a large Seaforium explosive keg planted underwater at the foundation of the Stonewrought Dam by Dark Iron insurgents."
+  },
+  {
+   "q": "Who creates the Disarming Mixture?",
+   "aliases": [
+    "who makes disarming mixture",
+    "who gives disarming mixture",
+    "hinderweir mixture"
+   ],
+   "answer": "Chief Engineer Hinderweir, the dwarven engineer overseeing maintenance and defense at the Stonewrought Dam, blends the necessary ingredients to create the mixture."
+  },
+  {
+   "q": "Why was the mixture necessary instead of simply disarming the bomb?",
+   "aliases": [
+    "why not disarm normally",
+    "why use chemicals on the bomb",
+    "why disarming mixture"
+   ],
+   "answer": "Seaforium explosives are highly unstable and rigged to detonate. The chemical mixture neutralizes the reactive powder inside the keg directly, eliminating the blast hazard while submerged beneath the dam."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The Disarming Mixture demonstrates practical counter-engineering, relying on rapid chemical neutralization to render volatile Seaforium charges harmless without triggering detonation."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Preserving the Stonewrought Dam is vital to protecting the surrounding valleys and lowlands, making the swift application of this neutralizer critical to dwarven security."
+  }
+ ],
+ "keywords": [
+  "dark iron",
+  "disarming mixture",
+  "explosives",
+  "hinderweir",
+  "loch modan",
+  "powder keg",
+  "seaforium",
+  "stonewrought dam"
+ ],
+ "related": [
+  "quest:161",
+  "zone:lochmodan"
+ ],
+ "attribution": [
+  "Disarming Mixture",
+  "A Dark Threat Looms (6)"
+ ]
+}

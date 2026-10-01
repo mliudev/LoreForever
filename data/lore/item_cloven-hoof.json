@@ -1,0 +1,91 @@
+{
+ "key": "item:cloven-hoof",
+ "type": "item",
+ "name": "Cloven Hoof",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Cloven Hoof",
+  "quests": [
+   "quest:1197"
+  ]
+ },
+ "summary": "The Cloven Hoof is a mysterious relic guarded deep within Thousand Needles by the Galak centaur tribe. Preserved inside an ancient sacred flame at Splithoof Hold, it emanates an uncharacteristic supernatural energy that tauren scholars are keen to understand.",
+ "sections": [
+  {
+   "title": "A Sacred Centaur Relic",
+   "body": "Held within an ancient brazier at the deepest recess of Splithoof Hold, the Cloven Hoof is one of the most treasured relics of the Galak centaur. The artifact is continually enveloped in a magical flame, requiring blessed water to briefly quench the blaze so it can be handled. Centaur society is notoriously brutal and splintered into violent clans, but their reverence for the brazier suggests ritual significance tied directly to their origins. Tauren observers like Rau Cliffrunner at Freewind Post believe the strange aura radiating from the hoof could reveal critical insight into the race that has plagued Kalimdor's plains for generations.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Cloven Hoof kept?",
+   "aliases": [
+    "cloven hoof location",
+    "where to find cloven hoof",
+    "splithoof hold relic"
+   ],
+   "answer": "The Cloven Hoof rests inside an ancient brazier at the very back of Splithoof Hold, a cavern within Splithoof Crag north of Freewind Post. It is guarded heavily by elite warriors of the Galak centaur."
+  },
+  {
+   "q": "Why does Rau Cliffrunner want the Cloven Hoof?",
+   "aliases": [
+    "why get cloven hoof",
+    "rau cliffrunner quest",
+    "who wants cloven hoof"
+   ],
+   "answer": "Rau Cliffrunner seeks to study the artifact to learn more about centaur origins and magic. He senses a strange energy radiating from the relic that he hopes will unlock long-hidden mysteries about the hostile clans."
+  },
+  {
+   "q": "How is the Cloven Hoof retrieved from the brazier?",
+   "aliases": [
+    "how to get cloven hoof",
+    "douse sacred flame",
+    "filled etched phial use"
+   ],
+   "answer": "The relic is enveloped in magical fire and cannot be taken directly. A phial of special water must be poured into the ancient brazier to temporarily douse the sacred flame, allowing the hoof to be safely snatched before the blaze reignites."
+  },
+  {
+   "q": "Who are the Galak centaur guarding it?",
+   "aliases": [
+    "galak centaur",
+    "splithoof crag centaur",
+    "who guards the flame"
+   ],
+   "answer": "The Galak tribe is the prominent centaur faction occupying the northern reaches of Thousand Needles. They make their stronghold at Splithoof Crag and aggressively defend their sacred fire from outsiders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For generations, the nomadic tauren suffered under relentless centaur aggression. Uncovering the origin and magical secrets behind relics like the Cloven Hoof offers valuable knowledge against their historic adversaries."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The use of ritual elements to safely quench magical flames and retrieve imbued relics highlights the subtle nature of spiritual investigation in Kalimdor."
+  }
+ ],
+ "keywords": [
+  "ancient brazier",
+  "cloven hoof",
+  "galak",
+  "rau cliffrunner",
+  "sacred flame",
+  "splithoof crag",
+  "splithoof hold"
+ ],
+ "related": [
+  "quest:1195",
+  "npc:rau-cliffrunner",
+  "subzone:splithoof-hold",
+  "subzone:splithoof-crag",
+  "subzone:freewind-post",
+  "item:filled-etched-phial",
+  "topic:centaur"
+ ],
+ "attribution": [
+  "Cloven Hoof",
+  "The Sacred Flame (3)"
+ ]
+}

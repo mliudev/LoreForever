@@ -1,0 +1,86 @@
+{
+ "key": "item:stone-of-relu",
+ "type": "item",
+ "name": "Stone of Relu",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Stone of Relu",
+  "quests": [
+   "quest:943"
+  ]
+ },
+ "summary": "The Stone of Relu is an ancient dwarven archaeological relic recovered from the Wetlands. Believed by Archaeologist Flagongut to be the key to unlocking latent powers within primordial fossils, it was briefly lost when local raptors ambushed the scholar on the road.",
+ "sections": [
+  {
+   "title": "A Key to Ancient Relics",
+   "body": "Discovered during Explorers' League operations, the Stone of Relu is believed to hold the deciphering power needed to unlock prehistoric fossils gathered from Kalimdor and the Eastern Kingdoms. Archaeologist Flagongut identified the artifact as the catalyst required to unleash secrets within both his own Wetlands specimens and the fossil unearthed by Prospector Remtravel in Darkshore.",
+   "spoiler": 0
+  },
+  {
+   "title": "Lost in the Marshes",
+   "body": "While Flagongut was traveling along the Wetland roads to rendezvous with Prospector Whelgar, a pack of mottled raptors ambushed him. During the scramble, the relic was lost and swallowed by one of the ravenous beasts, forcing the League to enlist adventurers to hunt the marsh raptors and cut the ancient stone from their gullets.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Stone of Relu?",
+   "aliases": [
+    "stone of relu",
+    "what is this stone",
+    "relu artifact"
+   ],
+   "answer": "The Stone of Relu is an ancient artifact sought by Archaeologist Flagongut. He believes it acts as a cipher or catalyst capable of unlocking the hidden mysteries and power dormant inside prehistoric fossils."
+  },
+  {
+   "q": "How did the stone end up inside a raptor?",
+   "aliases": [
+    "why do raptors have it",
+    "who dropped the stone",
+    "how was it lost"
+   ],
+   "answer": "Archaeologist Flagongut was carrying the relic along the Wetlands road to meet Prospector Whelgar when mottled raptors attacked his party. In the chaos, the stone was lost and ingested by one of the scavenging beasts."
+  },
+  {
+   "q": "What is Flagongut planning to do with the stone?",
+   "aliases": [
+    "what does flagongut want",
+    "stone of relu purpose"
+   ],
+   "answer": "Flagongut intends to pair the stone with his recovered fossil and the fossil found by Prospector Remtravel in Darkshore, using the relic to decipher and release their latent magical secrets."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For the Explorers' League, the Stone of Relu is a vital tool in piecing together the origins of ancient life and the forgotten legacy of the world."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance expeditions in Menethil Harbor rely on recovered artifacts like the Stone of Relu to justify the arduous excavations across the perilous marshlands."
+  }
+ ],
+ "keywords": [
+  "archaeologist flagongut",
+  "explorers league",
+  "fossil",
+  "mottled raptor",
+  "prospector whelgar",
+  "stone of relu",
+  "wetlands"
+ ],
+ "related": [
+  "npc:archaeologist-flagongut",
+  "quest:729",
+  "item:flagongut-s-fossil",
+  "npc:prospector-whelgar",
+  "zone:wetlands",
+  "subzone:menethil-harbor",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "Stone of Relu",
+  "The Absent Minded Prospector (5)"
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "key": "item:ghoul-fang",
+ "type": "item",
+ "name": "Ghoul Fang",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Ghoul Fang",
+  "quests": [
+   "quest:101"
+  ]
+ },
+ "summary": "Ghoul Fangs are gruesome trophies harvested from the undead prowling the blighted groves and cemeteries of Duskwood. In Darkshire, the seer Madame Eva uses them as essential components in crafting defensive talismans for travelers facing the encroaching darkness.",
+ "sections": [
+  {
+   "title": "Trophies of the Restless Dead",
+   "body": "The shadowed forest of Duskwood crawls with ravenous undead, from flesh eaters lurking near the graves to rotted corpses roaming the woods. Taking a fang from these monstrous creatures is both grim work and proof of survival against the ravenous dead that threaten Darkshire's borders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Occult Reagents",
+   "body": "Madame Eva, the resident fortune teller and mystic in Darkshire, sees terrible omens swirling around travelers who dare step through Duskwood. She binds the latent necrotic essence of ghoul fangs alongside skeletal fingers and arachnid venom to enchant the Totem of Infliction, turning the dark forces of the forest into a protective charm against violent assault.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Ghoul Fangs be found?",
+   "aliases": [
+    "where do ghoul fangs drop",
+    "who drops ghoul fangs",
+    "ghoul fang location"
+   ],
+   "answer": "They are gathered from various types of ghouls across Duskwood, including Plague Spreaders, Brain Eaters, Bone Chewers, Fetid Corpses, Rotted Ones, and Flesh Eaters found haunting graveyards and lonely pathways."
+  },
+  {
+   "q": "Who wants Ghoul Fangs?",
+   "aliases": [
+    "who needs ghoul fangs",
+    "ghoul fang turn in",
+    "madame eva quest"
+   ],
+   "answer": "Madame Eva, the mystic residing in Darkshire, requires them as part of a ritual to craft a defensive charm known as the Totem of Infliction."
+  },
+  {
+   "q": "Why does Madame Eva need them?",
+   "aliases": [
+    "why ghoul fangs",
+    "totem of infliction materials",
+    "what does madame eva do with fangs"
+   ],
+   "answer": "Eva senses looming danger for travelers and uses the fangs alongside skeleton fingers and spider venom to enchant a protective totem that punishes those who strike the bearer."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance adventurers aiding the embattled town of Darkshire, harvesting these fangs helps turn the horrors of Duskwood into tools of survival against the encroaching Scourge-like taint."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "duskwood",
+  "ghoul fang",
+  "ghouls",
+  "madame eva",
+  "totem of infliction",
+  "undead"
+ ],
+ "related": [
+  "quest:101",
+  "npc:madame-eva",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "item:skeleton-finger",
+  "item:vial-of-spider-venom"
+ ],
+ "attribution": [
+  "Ghoul Fang",
+  "The Totem of Infliction"
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "key": "item:southsea-treasure",
+ "type": "item",
+ "name": "Southsea Treasure",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Southsea Treasure",
+  "quests": [
+   "quest:2381"
+  ]
+ },
+ "summary": "The Southsea Treasure is a valuable hoard kept deep within the hold of the Southsea Freebooter vessel, the Tide Razor. Sought by Wrenix the Wretched in Ratchet, retrieving it tests the lockpicking and infiltration skills of fledgling thieves.",
+ "sections": [
+  {
+   "title": "A Deadly Heist",
+   "body": "Anchored along the Merchant Coast south of Ratchet, the pirate vessel Tide Razor serves as a forward base and training ground for the Southsea Freebooters. Stashed deep in its lowest hold lies a coveted stash of plunder known as the Southsea Treasure. Wrenix the Wretched, a goblin scoundrel operating out of Ratchet, considers it the ultimate test for aspiring pickpockets. According to Wrenix, the last five operatives sent to filch the chest returned in pieces, owing to the alert pirates aboard and a surprisingly ferocious guardian guarding the hold.",
+   "spoiler": 0
+  },
+  {
+   "title": "Polly's Keepsake",
+   "body": "Thieves who manage to bypass the pirate trainers and pick the lock on the target chest find a vicious surprise waiting for them. Rather than sitting loose inside the coffer, the true Southsea Treasure is watched over by Polly, an unnaturally hostile parrot. Overcoming the vicious avian\u2014often with the aid of goblin engineering such as Wrenix's E.C.A.C. device\u2014is the only way to pry the treasure loose and bring it back to Ratchet intact.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Southsea Treasure located?",
+   "aliases": [
+    "where is the treasure",
+    "tide razor location",
+    "how to find southsea treasure"
+   ],
+   "answer": "The treasure is held aboard the Tide Razor, a Southsea Freebooter ship anchored along the coast south of Ratchet in the Barrens. It rests in the lowest hold beneath the pirates' training quarters."
+  },
+  {
+   "q": "Who wants the Southsea Treasure?",
+   "aliases": [
+    "who gives the quest",
+    "who is wrenix",
+    "who wants it"
+   ],
+   "answer": "Wrenix the Wretched, an unscrupulous goblin stationed in Ratchet, hires covert operatives to infiltrate the ship and recover the loot on his behalf."
+  },
+  {
+   "q": "Why is the chest empty when picked?",
+   "aliases": [
+    "where did polly come from",
+    "why did polly spawn",
+    "why isn't the treasure in the box"
+   ],
+   "answer": "Picking the lock on the treasure chest triggers the appearance of Polly, a monstrously aggressive parrot guarding the hold. Defeating Polly is what actually yields the Southsea Treasure."
+  },
+  {
+   "q": "What is an E.C.A.C. and why is it needed?",
+   "aliases": [
+    "what is ecac",
+    "how to beat polly",
+    "hostile parrot"
+   ],
+   "answer": "The E.C.A.C. is an experimental goblin device provided by Wrenix the Wretched. It is designed to weaken unusually ferocious airborne threats\u2014specifically the lethal guardian parrot Polly lurking inside the pirate ship's hold."
+  },
+  {
+   "q": "What do the Southsea Freebooters use the ship for?",
+   "aliases": [
+    "what is tide razor",
+    "pirate den barrens",
+    "southsea ship hold"
+   ],
+   "answer": "The Tide Razor serves as a staging ground and thieves' den for the Southsea Freebooters, featuring practice lockboxes on the second level where the crew trains their cutpurses."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Recovering the Southsea Treasure represents a rite of passage for developing rogues, providing both real-world lockpicking practice and an introduction to the shadowy syndicate known as the Shattered Hand."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Southsea Freebooters routinely harass trade around the Barrens and the Port of Ratchet, making any theft of their central stash a welcome disruption for local authorities."
+  }
+ ],
+ "keywords": [
+  "e.c.a.c.",
+  "lockpicking",
+  "polly",
+  "ratchet",
+  "shattered hand",
+  "southsea treasure",
+  "tide razor",
+  "wrenix the wretched"
+ ],
+ "related": [
+  "quest:2381",
+  "npc:wrenix-the-wretched",
+  "quest:2378",
+  "quest:1858",
+  "subzone:ratchet",
+  "zone:barrens",
+  "topic:pirate",
+  "topic:rogue"
+ ],
+ "attribution": [
+  "Southsea Treasure",
+  "Plundering the Plunderers"
+ ]
+}

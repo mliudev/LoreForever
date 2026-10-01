@@ -1,0 +1,94 @@
+{
+ "key": "item:dolanaar-delivery",
+ "type": "item",
+ "name": "Dolanaar Delivery",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Dolanaar Delivery",
+  "quests": [
+   "quest:2159"
+  ]
+ },
+ "summary": "The Dolanaar Delivery is a package of harvested herbs sent from the druidic grounds of Shadowglen to the village of Dolanaar. Entrusted to young travelers leaving the sheltered glen, it serves as a simple errand to connect them with Innkeeper Keldamyr down the road.",
+ "sections": [
+  {
+   "title": "A Bundle from Shadowglen",
+   "body": "Harvested within the shadowed groves of Aldrassil, this parcel contains fresh herbs gathered for the settlement of Dolanaar. Porthannius, detained by ongoing matters among the druids of Shadowglen, relies on fledgling adventurers bound southward along the road to ferry the bundle safely to Innkeeper Keldamyr.",
+   "spoiler": 0
+  },
+  {
+   "title": "Welcome to the Hearth",
+   "body": "Delivering the parcel brings the traveler straight to the threshold of Dolanaar's inn. Keldamyr receives the goods with gratitude, using the exchange to remind weary wayfarers of the necessity of rest, peace of mind, and the sanctuary offered by an inn's hearth before they venture deeper into Teldrassil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Dolanaar Delivery?",
+   "aliases": [
+    "what herbs are inside",
+    "contents of dolanaar delivery",
+    "whats in the package"
+   ],
+   "answer": "The package contains a selection of fresh herbs gathered in Shadowglen, intended to supply Innkeeper Keldamyr and the patrons of Dolanaar's inn."
+  },
+  {
+   "q": "Who sends this delivery?",
+   "aliases": [
+    "who gives the delivery",
+    "who sent the herbs",
+    "porthannius delivery"
+   ],
+   "answer": "Porthannius, an elf attending to business with the druids in Shadowglen, prepares the bundle but cannot spare the time to journey south himself."
+  },
+  {
+   "q": "Who receives the package in Dolanaar?",
+   "aliases": [
+    "who do i bring the herbs to",
+    "dolanaar delivery recipient",
+    "keldamyr herbs"
+   ],
+   "answer": "The delivery is brought directly to Innkeeper Keldamyr, who manages the communal inn in the heart of Dolanaar."
+  },
+  {
+   "q": "Why couldn't Porthannius deliver the parcel himself?",
+   "aliases": [
+    "why porthannius stay",
+    "why did porthannius send me"
+   ],
+   "answer": "Porthannius has urgent, unfinished business with the druids stationed around Aldrassil, forcing him to seek out a traveling adventurer heading south along the forest road."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "The delivery highlights the steady demand for flora harvested around Aldrassil to stock the outlying settlements of Teldrassil."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Taking the package marks a rite of passage for young kaldorei stepping beyond the protective boughs of Shadowglen into the wider realm."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "delivery",
+  "dolanaar",
+  "herbs",
+  "keldamyr",
+  "porthannius",
+  "shadowglen"
+ ],
+ "related": [
+  "quest:2159",
+  "npc:innkeeper-keldamyr",
+  "subzone:dolanaar",
+  "subzone:shadowglen",
+  "zone:teldrassil",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Dolanaar Delivery",
+  "Dolanaar Delivery (quest)"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "item:thunderhorn-cleansing-totem",
+ "type": "item",
+ "name": "Thunderhorn Cleansing Totem",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Thunderhorn Cleansing Totem",
+  "quests": [
+   "quest:758"
+  ]
+ },
+ "summary": "The Thunderhorn Cleansing Totem is a consecrated ritual implement crafted by Mull Thunderhorn in Bloodhoof Village. It is imbued with ancestral magic to purify the corrupted waters of the Thunderhorn Water Well.",
+ "sections": [
+  {
+   "title": "Purifying the Thunderhorn Well",
+   "body": "Across the rolling plains of Mulgore, the lifeblood of the earth is being fouled by unseen corruption. The ancestral wells dug by the tauren tribes provide vital nourishment to the herds and hunting grounds, but foul agents have tainted the water. Entrusted by the elder Mull Thunderhorn, adventurers carry this prepared totem north of Bloodhoof Village to drive out the pollution settling over the Thunderhorn clan's sacred spring. Through ritual invocation, the totem calms the disturbed spirits of the water and cleanses the ancestral site.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Thunderhorn Cleansing Totem?",
+   "aliases": [
+    "what does the totem do",
+    "why use thunderhorn totem",
+    "cleansing totem purpose"
+   ],
+   "answer": "The totem is prepared specifically to cleanse the corrupted waters of the Thunderhorn Water Well, located north of Bloodhoof Village. Using it drives away the foul influence poisoning the well and pleases the ancestral spirits guarding it."
+  },
+  {
+   "q": "Who crafted the totem?",
+   "aliases": [
+    "who made this totem",
+    "who gives the thunderhorn totem",
+    "mull thunderhorn totem"
+   ],
+   "answer": "The totem is crafted and bestowed by Mull Thunderhorn, an elder residing in Bloodhoof Village who watches over the health of the land and communicates with the ancestors."
+  },
+  {
+   "q": "Where must the totem be used?",
+   "aliases": [
+    "where do i use the totem",
+    "totem location",
+    "where is thunderhorn well"
+   ],
+   "answer": "The totem must be used directly at the Thunderhorn Water Well, found north of Bloodhoof Village in central Mulgore."
+  },
+  {
+   "q": "What happens after the ritual is performed?",
+   "aliases": [
+    "after cleansing the well",
+    "ritual outcome",
+    "ancestor reaction"
+   ],
+   "answer": "Cleansing the well brings peace to the ancestral spirits of the Thunderhorn clan. Mull Thunderhorn receives visions in a dream of their gratitude, offering praise and ancestral gifts to the one who purified their grounds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, purifying the ancestral wells is not merely a chore but a sacred duty to the Earth Mother and clan ancestors who watch over Mulgore."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman understand that cleansing totems act as conduits to pacify disturbed nature spirits and restore balance where elemental energies have turned bitter."
+  }
+ ],
+ "keywords": [
+  "bloodhoof",
+  "cleansing",
+  "mulgore",
+  "mull",
+  "ritual",
+  "thunderhorn",
+  "totem",
+  "water well"
+ ],
+ "related": [
+  "quest:758",
+  "subzone:thunderhorn-water-well",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Thunderhorn Cleansing Totem",
+  "Thunderhorn Cleansing (Classic)"
+ ]
+}

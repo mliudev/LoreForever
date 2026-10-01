@@ -1,0 +1,122 @@
+{
+ "key": "quest:3089",
+ "type": "quest",
+ "name": "Rune-Inscribed Parchment",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   3089
+  ],
+  "level": "1",
+  "faction": "Horde",
+  "start": "Gornek",
+  "end": "Shikrik",
+  "previous": "Cutting Teeth",
+  "next": null,
+  "wiki": "Rune-Inscribed Parchment (Classic)",
+  "chain": []
+ },
+ "summary": "Rune-Inscribed Parchment is a missive delivered to fledgling Horde shamans beginning their journey in the Valley of Trials. Written by the trainer Shikrik, the parchment summons promising initiates to begin their formal tutelage in commune with the spirits and elements.",
+ "sections": [
+  {
+   "title": "A Summons from the Spirits",
+   "body": "After proving their basic survival skills against the local wildlife, new orc shamans are handed a rune-inscribed parchment by Gornek, the overseer of the Valley of Trials. The parchment bears mystical writing from Shikrik, the valley's resident shaman trainer, requesting an audience with the newly arrived initiate.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Path of the Shaman",
+   "body": "Reporting to Shikrik marks the formal beginning of a shaman's sacred duty to the Horde. Shikrik reminds the young initiate that their calling is not merely martial; they are chosen to serve as conduits for the ancestral spirits and wielders of elemental wrath. Through Shikrik, new shamans learn to channel spiritual energies, mend wounds, and call upon the natural forces of Kalimdor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Rune-Inscribed Parchment?",
+   "aliases": [
+    "what is this quest",
+    "parchment quest",
+    "shaman starter note"
+   ],
+   "answer": "It is a written summons given by Gornek in the Valley of Trials to new shamans, bidding them to seek out their trainer, Shikrik, for formal instruction in the elements."
+  },
+  {
+   "q": "Who sends the parchment?",
+   "aliases": [
+    "who wrote the parchment",
+    "shikrik note",
+    "who is shikrik"
+   ],
+   "answer": "The message was penned by Shikrik, the shaman trainer stationed near the dens in the Valley of Trials, awaiting individuals chosen to guide their people spiritually."
+  },
+  {
+   "q": "Where do I take the parchment?",
+   "aliases": [
+    "where do i go",
+    "where is shikrik",
+    "turn in location"
+   ],
+   "answer": "You take it just a short walk away inside the Valley of Trials, where Shikrik stands ready under the red crags to train orc and troll shamans."
+  },
+  {
+   "q": "Why was my character chosen to receive it?",
+   "aliases": [
+    "why shaman",
+    "why chosen",
+    "shaman calling lore"
+   ],
+   "answer": "According to Shikrik, those drawn to the shamanic path are chosen to act as conduits for the ancestors and speak directly with the elemental forces of the world."
+  },
+  {
+   "q": "What happens after presenting the parchment?",
+   "aliases": [
+    "next step",
+    "what does shikrik do",
+    "after parchment"
+   ],
+   "answer": "Shikrik accepts you as her student, introducing you to the path of elemental magic, ancestor commune, and the fundamentals of healing and combat."
+  },
+  {
+   "q": "Can any class complete this quest?",
+   "aliases": [
+    "is this shaman only",
+    "who gets this parchment",
+    "parchment for warriors"
+   ],
+   "answer": "No. The Rune-Inscribed Parchment is specifically addressed to fledgling shamans. Other classes receive their own distinct summons to their respective trainers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This parchment represents your earliest step along the spiritual journey, cementing your sacred covenant with the spirits and the raw elements of Durotar."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs, returning to shamanism honors the ancestral traditions of Draenor that were nearly extinguished during the demonic corruption of the Old Horde."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear trolls answering this call weave their innate spiritual communion and ancestral reverence into the shared shamanic traditions of the new Horde."
+  }
+ ],
+ "keywords": [
+  "ancestors",
+  "durotar",
+  "elements",
+  "gornek",
+  "rune-inscribed parchment",
+  "shaman",
+  "shikrik",
+  "valley of trials"
+ ],
+ "related": [
+  "subzone:valley-of-trials",
+  "npc:gornek",
+  "quest:cutting-teeth",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Rune-Inscribed Parchment (Classic)"
+ ]
+}

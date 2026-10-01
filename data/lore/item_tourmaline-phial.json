@@ -1,0 +1,80 @@
+{
+ "key": "item:tourmaline-phial",
+ "type": "item",
+ "name": "Tourmaline Phial",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Tourmaline Phial",
+  "quests": [
+   "quest:933"
+  ]
+ },
+ "summary": "The Tourmaline Phial is a specialized gem-crafted vessel given to travelers in Teldrassil by Corithras Moonrage. It is used to draw blessed waters from the moonwell beside the Pools of Arlithrien as part of ongoing rituals to monitor and soothe the boughs of the World Tree.",
+ "sections": [
+  {
+   "title": "Vessel of Arlithrien",
+   "body": "Corithras Moonrage provides the Tourmaline Phial to aid in the rituals surrounding the World Tree. The druids in Dolanaar use such dedicated gemstone vials to safely collect pure moonwell waters from across Teldrassil. This particular phial is designated for the moonwell on the shores of the Pools of Arlithrien, southeast of the road leading to Darnassus, an area increasingly beleaguered by hostile Gnarlpine furbolgs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Tourmaline Phial used for?",
+   "aliases": [
+    "what does tourmaline phial do",
+    "tourmaline phial purpose",
+    "use tourmaline phial"
+   ],
+   "answer": "The phial is used to collect sacred water from the moonwell located at the Pools of Arlithrien. Once filled, it must be returned to Corithras Moonrage in Dolanaar as part of the Crown of the Earth rituals."
+  },
+  {
+   "q": "Who provides the Tourmaline Phial?",
+   "aliases": [
+    "who gives tourmaline phial",
+    "where do i get tourmaline phial"
+   ],
+   "answer": "Corithras Moonrage, a night elf druid stationed in the town of Dolanaar, entrusts adventurers with the empty phial."
+  },
+  {
+   "q": "Where is the moonwell for this phial?",
+   "aliases": [
+    "pools of arlithrien moonwell",
+    "where to fill tourmaline phial"
+   ],
+   "answer": "The moonwell is located on the shores of the Pools of Arlithrien, southeast of the main gateway leading to Darnassus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Carrying dedicated gemstone phials to gather moonwell water is an essential ceremonial duty for young night elf druids learning to tend Teldrassil's fragile ecosystem."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The waters gathered in vessels like the Tourmaline Phial represent the night elves' reliance on Elune's grace and druidic vigilance as Teldrassil struggles against corruption."
+  }
+ ],
+ "keywords": [
+  "corithras moonrage",
+  "crown of the earth",
+  "dolanaar",
+  "moonwell",
+  "pools of arlithrien",
+  "teldrassil",
+  "tourmaline phial"
+ ],
+ "related": [
+  "npc:corithras-moonrage",
+  "item:filled-tourmaline-phial",
+  "quest:921",
+  "subzone:pools-of-arlithrien",
+  "subzone:dolanaar",
+  "zone:teldrassil",
+  "topic:furbolg"
+ ],
+ "attribution": [
+  "Tourmaline Phial",
+  "Crown of the Earth (4)"
+ ]
+}

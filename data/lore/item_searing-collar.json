@@ -1,0 +1,89 @@
+{
+ "key": "item:searing-collar",
+ "type": "item",
+ "name": "Searing Collar",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Searing Collar",
+  "quests": [
+   "quest:827"
+  ]
+ },
+ "summary": "Searing Collars are ritual torcs worn by members of the Burning Blade cult hiding within Skull Rock in Durotar. Heated to burn the wearer's flesh, they are used by the cultists to attune themselves to demonic powers.",
+ "sections": [
+  {
+   "title": "Instruments of Corruption",
+   "body": "Within the shadowy cavern of Skull Rock, just east of Orgrimmar, the Burning Blade gathers to perform dark rituals. Cultists, neophytes, and thugs of the cult don Searing Collars around their necks, willingly subjecting themselves to scorching heat that brands and sears their skin. The hermit Margoz studies these cruel devices, theorizing that the burning sensation and dark enchantments bound to the metal serve to attune the wearers directly to demonic energies. Investigating the collars reveals that they are a significant conduit of demonic corruption creeping into orc society right under the Horde's nose.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Searing Collar?",
+   "aliases": [
+    "what are searing collars",
+    "searing collar lore",
+    "what does the collar do"
+   ],
+   "answer": "A Searing Collar is a ritual band worn around the neck by Burning Blade cultists. It burns into the wearer's flesh and channels demonic energy to attune the cultist to dark magic."
+  },
+  {
+   "q": "Who wears these collars?",
+   "aliases": [
+    "who uses them",
+    "who drops searing collars",
+    "burning blade collars"
+   ],
+   "answer": "They are worn by members of the Burning Blade cult hiding inside Skull Rock, including cultists, fanatics, thugs, apprentices, and neophytes."
+  },
+  {
+   "q": "Why do the cultists burn their own flesh?",
+   "aliases": [
+    "why burn their flesh",
+    "why wear searing collar",
+    "purpose of collar"
+   ],
+   "answer": "The Burning Blade uses the searing metal as a ritual medium. By enduring the burns and demonic enchantment, cultists attune their physical bodies and spirits to demonic power."
+  },
+  {
+   "q": "Who wants to inspect the Searing Collars?",
+   "aliases": [
+    "who needs searing collars",
+    "who is studying the collars",
+    "margoz collars"
+   ],
+   "answer": "Margoz, an investigator camping in Durotar, collects the collars to study their enchantments and uncover the secrets behind the Burning Blade's dark influence."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks recognize the Searing Collars as crude yet effective conduits for channeling fel corruption directly into mortal flesh."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs striving to free their people from the legacy of demonic servitude, finding cultists using these collars on Durotar's doorstep is a grim reminder that the shadow still lingers."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "demon",
+  "durotar",
+  "fel",
+  "margoz",
+  "searing collar",
+  "skull rock"
+ ],
+ "related": [
+  "quest:827",
+  "quest:828",
+  "quest:809",
+  "zone:durotar",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Searing Collar",
+  "Skull Rock (Classic)"
+ ]
+}

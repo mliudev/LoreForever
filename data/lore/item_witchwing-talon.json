@@ -1,0 +1,81 @@
+{
+ "key": "item:witchwing-talon",
+ "type": "item",
+ "name": "Witchwing Talon",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Witchwing Talon",
+  "quests": [
+   "quest:867"
+  ]
+ },
+ "summary": "A Witchwing Talon is a severed claw taken from the aggressive harpies inhabiting the northwestern canyons of the Barrens. Collected as bloody proof of dead raiders, they are sought by Horde scouts at the Crossroads trying to secure vital caravan routes.",
+ "sections": [
+  {
+   "title": "Trophies from the Roosts",
+   "body": "The Witchwing harpies roost in the crags and ravines northwest of the Crossroads, routinely swooping down to pillage Horde supply caravans traversing the arid plains. To counter this threat, the scout Darsok Swiftdagger coordinates strikes against the flock's hierarchy. Rather than relying on simple reports, Darsok demands physical proof of every dead scavenger. Collecting these razor-sharp talons serves as concrete evidence that a marauder's throat has been cut, chipping away at the harpy rank and file before scouts dare strike higher up the chain of command.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Witchwing Talons and why?",
+   "aliases": [
+    "who needs talons",
+    "witchwing talon quest giver",
+    "darsok swiftdagger talons"
+   ],
+   "answer": "Darsok Swiftdagger, an orc scout stationed at the Crossroads, collects them. He is plotting a systematic campaign to cull the Witchwing brood and requires eight talons as proof that their frontline raiders have been slain."
+  },
+  {
+   "q": "Which harpies carry these talons?",
+   "aliases": [
+    "what drops witchwing talons",
+    "which harpies have talons"
+   ],
+   "answer": "They can be severed from virtually any Witchwing harpy in the northwestern Barrens, particularly common harpies and Witchwing Roguefeathers nesting along the cliffs and dry ridges."
+  },
+  {
+   "q": "Why are the Witchwing harpies being targeted?",
+   "aliases": [
+    "why kill witchwing harpies",
+    "harpy raiders purpose"
+   ],
+   "answer": "The Witchwing flock has grown increasingly bold, regularly descending upon Horde supply lines and trade caravans moving across the Barrens. Darsok's offensive aims to thin their lower ranks before mounting attacks against their lieutenants and matriarch."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Caravans are the lifeblood connecting Kalimdor's scattered Horde outposts, making the bloody eradication of the harpy roosts essential frontier security."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Darsok Swiftdagger appreciates quiet, throat-slitting precision, treating these sharp claws as marks of professional butchery against aerial predators."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "caravans",
+  "crossroads",
+  "darsok swiftdagger",
+  "harpy",
+  "talon",
+  "witchwing"
+ ],
+ "related": [
+  "quest:867",
+  "npc:darsok-swiftdagger",
+  "topic:harpy",
+  "subzone:crossroads",
+  "zone:barrens",
+  "quest:875",
+  "quest:876",
+  "quest:1060"
+ ],
+ "attribution": [
+  "Witchwing Talon",
+  "Harpy Raiders (Classic)"
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "key": "quest:1516",
+ "type": "quest",
+ "name": "Call of Earth",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   1516
+  ],
+  "level": "4",
+  "faction": "Horde",
+  "start": "Canaga Earthcaller",
+  "end": "Canaga Earthcaller",
+  "previous": null,
+  "next": "Call of Earth (Durotar 2)",
+  "wiki": "Call of Earth (Durotar)",
+  "chain": [
+   "Call of Earth (Durotar)",
+   "Call of Earth (Durotar 2)",
+   "Call of Earth (Durotar 3)"
+  ]
+ },
+ "summary": "Call of Earth is the initial trial for novice Horde shaman training within the Valley of Trials. Bestowed by Canaga Earthcaller, the trial tests a shaman's endurance and patience by requiring them to hunt demonic felstalkers in order to prepare a ritual sapta.",
+ "sections": [
+  {
+   "title": "The First Bond",
+   "body": "Before a shaman can call upon the elements, they must form an enduring relationship with each one in turn. In orc and troll culture, this spiritual path begins with the earth, the bedrock of life, endurance, and patience. Canaga Earthcaller serves as the guide for fledglings in the Valley of Trials, teaching that the earth demands supreme respect and steadfastness before granting its protection.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Cleansing Hunt",
+   "body": "To demonstrate their readiness to commune with the stubborn spirits of the land, initiates are sent into the northern ravines where the Burning Blade cult festers. By hunting felstalkers\u2014corrupt extraplanar hounds summoned by dark magic\u2014the shaman proves their ability to defend the land against unnatural decay. Canaga uses the harvested hooves as components to brew an Earth Sapta, a sacred draft that opens mortal eyes to the elemental plane.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this trial?",
+   "aliases": [
+    "why do call of earth",
+    "what does call of earth give",
+    "purpose of quest"
+   ],
+   "answer": "The trial initiates a shaman into the elemental mysteries, proving their patience and spiritual discipline to the earth spirits so they can eventually commune directly with them and earn an Earth Totem."
+  },
+  {
+   "q": "Who is Canaga Earthcaller?",
+   "aliases": [
+    "who is canaga",
+    "canaga earthcaller lore"
+   ],
+   "answer": "Canaga Earthcaller is a troll shaman trainer residing in the Valley of Trials within Durotar. He guides young orc, troll, and visiting tauren shaman on their foundational steps toward elemental mastery."
+  },
+  {
+   "q": "Why does Canaga need felstalker hooves?",
+   "aliases": [
+    "why felstalker hooves",
+    "hooves purpose"
+   ],
+   "answer": "Canaga uses the hooves as essential ingredients to prepare an Earth Sapta, a specialized potion that allows a mortal shaman's senses to perceive and speak with elemental spirits."
+  },
+  {
+   "q": "Where are the felstalkers located?",
+   "aliases": [
+    "felstalker location",
+    "where to find felstalkers"
+   ],
+   "answer": "Felstalkers are found just north of the training grounds in the Valley of Trials, haunting the cave and surrounding bluffs belonging to the Burning Blade Coven."
+  },
+  {
+   "q": "Can other Horde races undertake this version of the trial?",
+   "aliases": [
+    "can tauren do this",
+    "is this orc only"
+   ],
+   "answer": "Yes. While primarily intended for orc and troll shaman coming of age in Durotar, tauren shaman who travel away from Red Cloud Mesa can also undertake Canaga's trial in the Valley of Trials."
+  },
+  {
+   "q": "What virtues does the earth represent to a shaman?",
+   "aliases": [
+    "virtues of earth",
+    "shaman earth meaning"
+   ],
+   "answer": "According to shamanic tradition, earth represents the foundation of life, embodying immense strength, stamina, and eternal patience, though it can prove stubbornly fickle if not respected."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This rite marks your first formal communion with the elements, laying the foundation for your Earth Totem."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Under Thrall's Horde, returning to the shamanic path honors ancient clan traditions that predate the demonic corruption."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear witch doctors and spiritualists embrace the earth spirits to support their newfound home alongside the orcs."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "call of earth",
+  "canaga earthcaller",
+  "earth totem",
+  "felstalker",
+  "sapta",
+  "shaman trial",
+  "valley of trials"
+ ],
+ "related": [
+  "npc:canaga-earthcaller",
+  "subzone:valley-of-trials",
+  "subzone:burning-blade-coven",
+  "quest:792",
+  "quest:794",
+  "zone:durotar",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Call of Earth (Durotar)"
+ ]
+}

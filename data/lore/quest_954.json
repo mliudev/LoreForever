@@ -17,7 +17,7 @@
   "wiki": "Bashal'Aran (quest)",
   "chain": []
  },
- "summary": "Perched upon a bluff in the overrun ruins of Bashal'Aran, an unearthly blue aura repels the demonic satyrs and vicious grells that infest the ancient night elven city. The Sentinel scout Thundris Windweaver sends adventurers to investigate the source of this untouched sanctuary. Reaching the site reveals the lingering spirit of Asterion, an ancient highborne presence yearning for civil company.",
+ "summary": "Perched upon a bluff in the overrun ruins of Bashal'Aran, an unearthly blue aura repels the demonic satyrs and vicious grells that infest the ancient night elven city. Thundris Windweaver, the elder of Auberdine, sends adventurers to investigate the source of this untouched sanctuary. Reaching the site reveals the lingering spirit of Asterion, an ancient highborne presence yearning for civil company.",
  "sections": [
   {
    "title": "A Beacon in the Ruins",
@@ -55,7 +55,7 @@
     "quest giver",
     "thundris windweaver location"
    ],
-   "answer": "Thundris Windweaver, an elven scout stationed in Auberdine, provides the quest after observing the unnatural demonic movements within the eastern ruins."
+   "answer": "Thundris Windweaver, a night elf druid and the elder of Auberdine, provides the quest after observing the unnatural demonic movements within the eastern ruins."
   },
   {
    "q": "Who is Asterion?",

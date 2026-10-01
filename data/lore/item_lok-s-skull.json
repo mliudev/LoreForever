@@ -1,0 +1,100 @@
+{
+ "key": "item:lok-s-skull",
+ "type": "item",
+ "name": "Lok's Skull",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Lok's Skull",
+  "quests": [
+   "quest:879",
+   "quest:906"
+  ]
+ },
+ "summary": "Lok's Skull is the severed head of Lok Orcbane, a fierce Razormane warrior who led brutal quilboar raids against Horde supply routes in the southern Barrens. Sought after by the imprisoned quilboar Mangletooth as an act of vengeance, the skull serves as undeniable proof that the raiders' chieftain has fallen.",
+ "sections": [
+  {
+   "title": "A Chieftain's Fall",
+   "body": "Emerging from Razorfen Kraul into the southern Barrens, Lok Orcbane spearheaded aggressive Razormane quilboar assaults on Horde supply lines alongside his lieutenants Nak and Kuz. After betraying and abandoning Mangletooth to captivity in Camp Taurajo, Lok earned a grim reputation among orcish defenders who struggled to contain his ruthless raids. Claiming Lok's skull not only avenges the wronged captive who directs Horde champions to Lok's camp, but also shatters the core leadership driving the Razormane offensive.",
+   "spoiler": 0
+  },
+  {
+   "title": "Proof for the Crossroads",
+   "body": "While Mangletooth demands the skulls of all three conspirators to satisfy his own vengeance, he returns Lok's skull so it may be carried north to Sergra Darkthorn's officer, Thork, at the Crossroads. Thork and the Horde command had suspected another quilboar was orchestrating the raids, making the gruesome trophy a profound surprise and conclusive proof that the threat to the Barrens' central trade routes has been decisively severed.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Lok Orcbane?",
+   "aliases": [
+    "who is lok",
+    "lok orcbane lore",
+    "who was lok orcbane"
+   ],
+   "answer": "Lok Orcbane was a formidable Razormane warrior who emerged from Razorfen Kraul to command quilboar raiding parties across the southern Barrens. Known for his hatred of orcs and cunning tactics, he organized aggressive assaults on Horde caravans and outposts alongside his trusted allies Nak and Kuz."
+  },
+  {
+   "q": "Why does Mangletooth want Lok's Skull?",
+   "aliases": [
+    "why mangletooth want skull",
+    "mangletooth revenge",
+    "why kill lok"
+   ],
+   "answer": "Lok Orcbane and his cohorts betrayed Mangletooth, abandoning him to be captured and caged by the tauren at Camp Taurajo. Knowing his own demise is inevitable, Mangletooth seeks vengeance against the kin who turned their backs on him by directing Horde adventurers to execute his former comrades."
+  },
+  {
+   "q": "Why is the skull brought to Thork at the Crossroads?",
+   "aliases": [
+    "why bring skull to thork",
+    "thork lok skull",
+    "who gets loks skull"
+   ],
+   "answer": "Thork oversees the defense of the Crossroads and works to secure vital Horde supply routes against quilboar incursions. Delivering Lok's Skull proves to the orc commander that the true mastermind behind the southern raids has been slain, securing peace for regional travelers."
+  },
+  {
+   "q": "Who were Nak and Kuz?",
+   "aliases": [
+    "nak and kuz",
+    "lok orcbane lieutenants",
+    "kuz and nak"
+   ],
+   "answer": "Nak and Kuz were Lok Orcbane's chief lieutenants in the southern Barrens. Nak served as a tracker while Kuz wielded foul magics as a spellcaster, supporting Lok's warrior strength in orchestrating raids against the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Taking Lok Orcbane's skull dismantles the southern quilboar leadership that constantly harasses supply caravans between Camp Taurajo and the Crossroads."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Displaying the severed head of a quilboar chieftain boldly named 'Orcbane' provides deep personal satisfaction and safety to the orcs defending the Barrens."
+  }
+ ],
+ "keywords": [
+  "betrayal from within",
+  "camp taurajo",
+  "crossroads",
+  "lok orcbane",
+  "lok's skull",
+  "mangletooth",
+  "razormane",
+  "thork"
+ ],
+ "related": [
+  "quest:879",
+  "npc:mangletooth",
+  "npc:thork",
+  "item:nak-s-skull",
+  "item:kuz-s-skull",
+  "subzone:crossroads",
+  "subzone:camp-taurajo",
+  "topic:quilboar"
+ ],
+ "attribution": [
+  "Lok's Skull",
+  "Betrayal from Within (1)",
+  "Betrayal from Within (2)"
+ ]
+}

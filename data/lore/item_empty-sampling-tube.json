@@ -1,0 +1,97 @@
+{
+ "key": "item:empty-sampling-tube",
+ "type": "item",
+ "name": "Empty Sampling Tube",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Empty Sampling Tube",
+  "quests": [
+   "quest:4762"
+  ]
+ },
+ "summary": "The Empty Sampling Tube is a glass phial provided by Thundris Windweaver in Auberdine. It is intended to collect corrupted water from the Cliffspring River so night elf scholars can study the encroaching taint threatening Darkshore.",
+ "sections": [
+  {
+   "title": "Testing the Waters",
+   "body": "As the wilderness of Darkshore succumbs to creeping blight, the natural waterways have begun to turn foul. Thundris Windweaver, an investigator stationed in Auberdine, provides this empty glass tube to gather concrete evidence from the Cliffspring River. Drawn from the pool beneath the first waterfall north of town, the resulting sample allows night elf naturalists to examine the nature of the corruption washing toward Mist's Edge.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tracing the Source",
+   "body": "While hostile Blackwood furbolgs inhabit camps along the riverbanks, Windweaver suspects they are merely victims and vectors rather than the ultimate origin of the rot. Filling the tube confirms that the contamination flows down from the tainted heights of Felwood to the east. The collected specimen serves as the foundation for crafting a potential cure and preparing a direct response against the blight.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Empty Sampling Tube?",
+   "aliases": [
+    "why do i have this tube",
+    "what does the sampling tube do",
+    "tube purpose"
+   ],
+   "answer": "It is a sealed glass vessel used to collect a water specimen from the corrupted Cliffspring River north of Auberdine. The sample is brought to Thundris Windweaver so he can analyze the foul substances spreading through Darkshore."
+  },
+  {
+   "q": "Where is the water sample supposed to be taken?",
+   "aliases": [
+    "where to fill tube",
+    "cliffspring river location",
+    "sampling tube spot"
+   ],
+   "answer": "The tube must be filled at the first waterfall along the Cliffspring River, located north of Auberdine beneath an overhead bridge, right where the water pools before spilling into Mist's Edge."
+  },
+  {
+   "q": "Who provided this tube?",
+   "aliases": [
+    "who gives the tube",
+    "tube quest giver",
+    "thundris windweaver"
+   ],
+   "answer": "Thundris Windweaver, a night elf naturalist studying the environmental threats around Auberdine, entrusts the tube to adventurers willing to brave the tainted wilderness."
+  },
+  {
+   "q": "What is polluting the Cliffspring River?",
+   "aliases": [
+    "why is the river green",
+    "what corrupted the water",
+    "cliffspring taint"
+   ],
+   "answer": "Although the local Blackwood furbolgs inhabit the riverbanks and exacerbate the filth, the true source of the foul taint is the corrupted woodland of Felwood situated high in the mountains to the east."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The sampling tube represents an early effort to diagnose the demonic taint of Felwood that bleeds into Darkshore's pristine rivers and sickens the local wildlife."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves of Auberdine, testing the Cliffspring River is critical to preventing the corrupting runoff from poisoning their coastal haven at Mist's Edge."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "cliffspring river",
+  "darkshore",
+  "empty sampling tube",
+  "mist's edge",
+  "thundris windweaver",
+  "water sample"
+ ],
+ "related": [
+  "quest:4762",
+  "item:cliffspring-river-sample",
+  "quest:4761",
+  "zone:darkshore",
+  "zone:felwood",
+  "subzone:auberdine",
+  "subzone:mist-s-edge",
+  "topic:furbolg"
+ ],
+ "attribution": [
+  "Empty Sampling Tube",
+  "The Cliffspring River"
+ ]
+}

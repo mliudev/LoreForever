@@ -1,0 +1,78 @@
+{
+ "key": "item:rune-inscribed-parchment",
+ "type": "item",
+ "name": "Rune-Inscribed Parchment",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Rune-Inscribed Parchment",
+  "quests": [
+   "quest:3089"
+  ]
+ },
+ "summary": "A written missive delivered to aspiring orc shamans in the Valley of Trials. Penned by the trainer Shikrik and handed out by Gornek, it calls initiates to embrace their role as spiritual leaders and conduits for the elemental spirits.",
+ "sections": [
+  {
+   "title": "A Summons to the Spirits",
+   "body": "Within the sun-baked canyon of the Valley of Trials, new orc shamans begin their training under the watchful gaze of veteran overseers. While performing initial trials for Gornek, an initiate is handed this rune-covered document. Sent directly by Shikrik, the local shamanic instructor, the parchment serves as a formal summons into the deeper mysteries of elemental communion. Orcish culture regards the shaman not merely as a battlefield spellcaster, but as an essential mediator between the living and the ancestors. This brief writ marks the transition from simple brute strength to the disciplined path of ancestral reverence.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Rune-Inscribed Parchment?",
+   "aliases": [
+    "rune parchment",
+    "what is this item",
+    "shaman parchment"
+   ],
+   "answer": "It is a handwritten message handed to novice orc shamans by Gornek in the Valley of Trials. It directs the reader to report to the shaman trainer Shikrik to begin formal instruction."
+  },
+  {
+   "q": "Who wrote the parchment?",
+   "aliases": [
+    "who sent the parchment",
+    "parchment author"
+   ],
+   "answer": "The parchment was written by Shikrik, the shaman trainer stationed in the Valley of Trials, who wished to instruct young initiates in the ways of the elements and ancestral spirits."
+  },
+  {
+   "q": "Why are shamans considered chosen among the orcs?",
+   "aliases": [
+    "why be a shaman",
+    "orc shaman role"
+   ],
+   "answer": "Orc shamans act as spiritual guides and conduits for their ancestors, listening to elemental spirits to guide their people. Shikrik reminds apprentices that their duty includes both mending allies and wielding the furious wrath of the elements against their foes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This rune-inscribed note marks your very first step along the path of the elements, setting you under Shikrik's tutelage to learn ancestor worship and elemental mastery."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The rediscovery of shamanic tradition is central to the new Horde, and this parchment represents the continuation of ancestral wisdom in Durotar."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "gornek",
+  "parchment",
+  "rune-inscribed parchment",
+  "shaman",
+  "shikrik",
+  "valley of trials"
+ ],
+ "related": [
+  "quest:3089",
+  "npc:gornek",
+  "topic:shaman",
+  "subzone:valley-of-trials",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Rune-Inscribed Parchment",
+  "Rune-Inscribed Parchment (Classic)"
+ ]
+}

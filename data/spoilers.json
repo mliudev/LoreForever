@@ -1,4 +1,1149 @@
 {
+ "item:99-year-old-port": {},
+ "item:a-bloodstained-journal-page": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:a-clue-to-sanders-treasure": {},
+ "item:a-dusty-unsent-letter": {},
+ "item:a-faded-journal-page": {},
+ "item:a-letter-to-grelin-whitebeard": {},
+ "item:a-mysterious-message": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:a-simple-compass": {},
+ "item:a-stack-of-letters": {},
+ "item:a-torn-journal-page": {},
+ "item:abercrombie-s-crate": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "item:admiral-proudmoore-s-orders": {},
+ "item:ados-fragment": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:agamand-family-axe": {},
+ "item:agamand-family-dagger": {},
+ "item:agamand-family-mace": {},
+ "item:agamand-family-sword": {},
+ "item:ahanu-s-leather-goods": {},
+ "item:alaric-s-remains": {},
+ "item:alien-egg": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  },
+  "remove_keywords": [
+   "arikara"
+  ]
+ },
+ "item:alterac-granite": {},
+ "item:altered-snapjaw-shell": {},
+ "item:ambercorn": {},
+ "item:amethyst-phial": {},
+ "item:an-undelivered-letter": {},
+ "item:anaya-s-pendant": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:ancient-moonstone-seal": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:ancient-statuette": {},
+ "item:andron-s-ledger": {},
+ "item:another-clue-to-sanders-treasure": {},
+ "item:arikara-serpent-skin": {},
+ "item:arnak-s-hoof": {},
+ "item:astor-s-letter-of-introduction": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:ataeric-s-staff": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:athrikus-narassin-s-head": {},
+ "item:bag-of-empty-ooze-containers": {},
+ "item:balnir-snapdragons": {},
+ "item:baron-longshore-s-head": {},
+ "item:barrel-of-barleybrew-scalder": {},
+ "item:barrel-of-shimmer-stout": {},
+ "item:barrel-of-thunder-ale": {},
+ "item:barrow-key": {},
+ "item:bartleby-s-mug": {},
+ "item:bathran-s-hair": {},
+ "item:battleboar-flank": {},
+ "item:battleboar-snout": {},
+ "item:battleworn-axe": {},
+ "item:berard-s-journal": {},
+ "item:bernice-s-necklace": {},
+ "item:besseleth-s-fang": {},
+ "item:bethor-s-scroll": {},
+ "item:bingles-blastencapper": {},
+ "item:bingles-hammer": {},
+ "item:bingles-screwdriver": {},
+ "item:bingles-wrench": {},
+ "item:black-claw-stout": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:black-feather-quill": {},
+ "item:blackened-skull": {},
+ "item:blood-knight-insignia": {},
+ "item:blood-of-the-wrathful": {},
+ "item:bloodfeather-belt": {},
+ "item:bloodfury-ripper-s-remains": {},
+ "item:bloodstone-choker": {},
+ "item:blueleaf-tuber": {},
+ "item:book-from-sven-s-farm": {
+  "faq": {
+   "2": 1,
+   "4": 1,
+   "5": 1
+  }
+ },
+ "item:book-stresses-of-iron": {},
+ "item:bottle-of-disease": {},
+ "item:bottle-of-moonshine": {},
+ "item:bottle-of-zombie-juice": {},
+ "item:bottom-of-gelkak-s-key": {},
+ "item:branch-of-cenarius": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:brass-collar": {},
+ "item:bristleback-attack-plans": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:bristleback-belt": {},
+ "item:bristleback-quilboar-tusk": {},
+ "item:brock-s-list": {},
+ "item:broken-and-battered-samophlange": {},
+ "item:broken-samophlange": {},
+ "item:broken-tools": {},
+ "item:bundle-of-crocolisk-skins": {},
+ "item:bundle-of-hides": {},
+ "item:bundle-of-wood": {},
+ "item:burning-blade-medallion": {},
+ "item:burning-blood-quest-item": {},
+ "item:burning-rock": {},
+ "item:cache-of-zanzil-s-altered-mixture": {},
+ "item:cactus-apple": {},
+ "item:calor-s-note": {},
+ "item:candle-of-beckoning": {},
+ "item:cantation-of-manifestation": {},
+ "item:canvas-scraps": {},
+ "item:cask-of-merlot": {},
+ "item:cask-of-scalder": {},
+ "item:cask-of-shimmer-stout": {},
+ "item:cats-eye-emerald": {},
+ "item:cenarion-lunardust": {},
+ "item:cenarion-moondust": {},
+ "item:centaur-bracers": {},
+ "item:charred-horn": {},
+ "item:chest-of-containment-coffers": {},
+ "item:chief-sharptusk-thornmantle-s-head": {},
+ "item:chok-sul-s-head": {},
+ "item:clarice-s-pendant": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:claw-key": {},
+ "item:cliffspring-river-sample": {},
+ "item:cloth-request": {},
+ "item:cloven-hoof": {},
+ "item:comar-s-heart": {},
+ "item:consecrated-rune": {},
+ "item:console-key": {},
+ "item:control-console-operating-manual": {},
+ "item:corroded-shrapnel": {},
+ "item:corrupt-manifestation-s-bracers": {},
+ "item:corrupted-brain-stem": {},
+ "item:corrupted-kor-gem": {},
+ "item:cougar-claws": {},
+ "item:courser-eye": {
+  "faq": {
+   "2": 1,
+   "3": 1
+  }
+ },
+ "item:covert-ops-pack": {},
+ "item:crate-of-bloodforged-ingots": {},
+ "item:crate-of-crash-helmets": {},
+ "item:crate-of-horseshoes": {},
+ "item:crate-of-inn-supplies": {},
+ "item:crate-of-lightforge-ingots": {},
+ "item:crate-with-holes": {},
+ "item:crawler-leg": {},
+ "item:creeper-ichor": {},
+ "item:crocolisk-skin-classic": {},
+ "item:crocolisk-tear-classic": {},
+ "item:crossroads-supply-crate": {},
+ "item:crude-flint": {},
+ "item:crystal-kelp-frond": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:crystal-phial": {},
+ "item:crystalized-scales": {},
+ "item:curative-animal-salve": {},
+ "item:daffodil-bouquet": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "item:daggerspine-scale": {},
+ "item:dal-bloodclaw-s-skull": {},
+ "item:dalaran-mana-gem": {},
+ "item:dalaran-pendant": {},
+ "item:dalaran-status-report": {},
+ "item:dalin-s-heart": {},
+ "item:darkhound-blood": {},
+ "item:darkshore-grouper": {},
+ "item:darksoul-shackle": {},
+ "item:darnassus-marzipan": {},
+ "item:darthalia-s-sealed-commendation": {},
+ "item:deadmire-s-tooth": {},
+ "item:death-cap": {},
+ "item:deathstalker-report": {},
+ "item:deepfury-s-orders": {},
+ "item:deepmoss-egg": {},
+ "item:defias-docket": {},
+ "item:defias-tower-key": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:deliah-s-ring": {},
+ "item:delivery-to-mathias": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:deviate-hide": {},
+ "item:devlin-s-remains": {},
+ "item:diabolical-plans": {},
+ "item:dim-necrotic-stone": {},
+ "item:dirt-caked-pendant": {
+  "faq": {
+   "2": 1,
+   "4": 1
+  }
+ },
+ "item:disarming-colloid": {},
+ "item:disarming-mixture": {},
+ "item:divined-scroll": {},
+ "item:divining-scroll": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:dolanaar-delivery": {},
+ "item:dragonmaw-war-banner": {},
+ "item:dried-seeds": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:durnan-s-scalding-mornbrew": {},
+ "item:durotar-tiger-fur": {},
+ "item:duskbat-wing": {},
+ "item:dusky-crab-cakes": {},
+ "item:dust-devil-debris": {},
+ "item:dwarven-tinder": {},
+ "item:ear-of-balgaras": {},
+ "item:ebonlocke-s-response-to-solomon": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:echeyakee-s-hide": {},
+ "item:egalin-s-grimoire": {},
+ "item:electropeller": {},
+ "item:elixir-of-pain": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:elixir-of-suffering": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:elune-s-tear": {},
+ "item:embalming-ichor": {},
+ "item:emerald-dreamcatcher": {},
+ "item:empty-blue-waterskin": {},
+ "item:empty-brown-waterskin": {},
+ "item:empty-cleansing-bowl": {
+  "faq": {
+   "2": 1,
+   "4": 1
+  }
+ },
+ "item:empty-cliffspring-falls-sampler": {},
+ "item:empty-dreadmist-peak-sampler": {},
+ "item:empty-leaden-collection-phial": {},
+ "item:empty-red-waterskin": {},
+ "item:empty-sampling-tube": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:empty-water-tube": {},
+ "item:enchanted-gaea-seeds": {},
+ "item:enchanted-resonite-crystal": {},
+ "item:encrypted-memorandum": {},
+ "item:encrypted-parchment": {},
+ "item:encrypted-rune": {},
+ "item:encrypted-scroll": {},
+ "item:encrypted-sigil": {},
+ "item:encrypted-tablet": {},
+ "item:essence-of-nightlash": {},
+ "item:essential-artificial": {},
+ "item:etched-note": {},
+ "item:etched-parchment": {},
+ "item:etched-rune": {},
+ "item:etched-sigil": {},
+ "item:example-collar": {},
+ "item:explosive-stick-of-gann": {},
+ "item:faded-shadowhide-pendant": {},
+ "item:fallen-moonstone": {},
+ "item:fandral-s-message": {},
+ "item:fang-of-vagash": {},
+ "item:fangore-s-paw": {},
+ "item:farren-s-report": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:fathom-core": {},
+ "item:feather-charm": {},
+ "item:fel-cone": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:fel-moss": {},
+ "item:felix-s-box": {},
+ "item:felix-s-bucket-of-bolts": {},
+ "item:felix-s-chest": {},
+ "item:felstalker-hoof": {},
+ "item:fenwick-s-head": {},
+ "item:fey-dragon-scale": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:filled-amethyst-phial": {},
+ "item:filled-blue-waterskin": {},
+ "item:filled-brown-waterskin": {},
+ "item:filled-cliffspring-falls-sampler": {},
+ "item:filled-containment-coffer": {},
+ "item:filled-crystal-phial": {},
+ "item:filled-cursed-ooze-jar": {},
+ "item:filled-dreadmist-peak-sampler": {},
+ "item:filled-etched-phial": {},
+ "item:filled-jade-phial": {},
+ "item:filled-pure-sample-jar": {},
+ "item:filled-red-waterskin": {},
+ "item:filled-tainted-ooze-jar": {},
+ "item:filled-tourmaline-phial": {},
+ "item:filled-vessel": {},
+ "item:final-clue-to-sanders-treasure": {},
+ "item:fine-crab-chunks": {},
+ "item:fine-moonstalker-pelt": {},
+ "item:fire-tar": {},
+ "item:fizzle-s-claw": {},
+ "item:flagongut-s-fossil": {},
+ "item:flatland-cougar-femur": {},
+ "item:flatland-prowler-claw": {},
+ "item:foam-sword-rack-common": {},
+ "item:foreman-s-blackjack": {},
+ "item:forged-steel-bars": {},
+ "item:fragments-of-rok-alim": {},
+ "item:frostwolf-banner": {},
+ "item:full-leaden-collection-phial": {},
+ "item:fungal-spores": {},
+ "item:furen-s-instructions": {},
+ "item:furen-s-notes": {},
+ "item:furlbrow-s-deed": {},
+ "item:furlbrow-s-pocket-watch": {},
+ "item:gaea-seed": {},
+ "item:gaffer-jack": {},
+ "item:gallywix-s-head": {},
+ "item:galvanized-horn": {},
+ "item:gargantuan-tumor": {},
+ "item:garrick-s-head": {},
+ "item:gazlowe-s-ledger": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:gem-of-anacondra": {},
+ "item:gem-of-cobrahn": {},
+ "item:gem-of-pythas": {},
+ "item:gem-of-serpentis": {},
+ "item:gerenzo-s-mechanical-arm": {},
+ "item:ghost-hair-comb": {},
+ "item:ghost-hair-thread": {},
+ "item:ghoul-fang": {},
+ "item:ghoul-rib": {},
+ "item:giant-crocolisk-skin": {},
+ "item:gloom-weed": {},
+ "item:glowing-ember": {},
+ "item:glowing-fruit": {},
+ "item:glowing-gem": {},
+ "item:glowing-soul-gem": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:glutton-shackle": {},
+ "item:glyph-of-azora": {},
+ "item:glyphic-letter": {},
+ "item:glyphic-memorandum": {},
+ "item:glyphic-scroll": {},
+ "item:glyphic-tablet": {},
+ "item:glyphs-of-summoning": {},
+ "item:gnoam-sprecklesprocket": {},
+ "item:gnoll-paw": {},
+ "item:gnomeregan-gumdrop": {},
+ "item:gnomish-tools": {},
+ "item:gold-dust": {},
+ "item:golm-fragment": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:gordon-s-crate": {},
+ "item:grape-manifest": {},
+ "item:gray-bear-tongue": {},
+ "item:gregor-s-remains": {},
+ "item:grelin-s-report": {},
+ "item:grelin-whitebeard-s-journal": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:grell-earring": {},
+ "item:grenka-s-claw": {},
+ "item:grimtotem-satchel": {},
+ "item:grizzled-bear-heart": {},
+ "item:grizzled-scalp": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "item:gryshka-s-letter": {},
+ "item:gunther-s-spellbook": {},
+ "item:gyromechanic-gear": {},
+ "item:hallowed-letter": {},
+ "item:hallowed-rune": {},
+ "item:hallowed-scroll": {},
+ "item:hallowed-sigil": {},
+ "item:hallowed-tablet": {},
+ "item:hand-of-dextren-ward": {},
+ "item:handful-of-oats-classic": {},
+ "item:handful-of-stardust": {},
+ "item:hardened-tortoise-shell": {},
+ "item:hardened-tumor": {},
+ "item:harpy-lieutenant-ring": {},
+ "item:head-of-arugal": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:head-of-bazil-thredd": {},
+ "item:head-of-deepfury": {},
+ "item:head-of-gath-ilzogg": {},
+ "item:head-of-grimson": {},
+ "item:head-of-kelris": {},
+ "item:head-of-targorr": {},
+ "item:head-of-vancleef": {},
+ "item:heart-of-isha-awak": {},
+ "item:heartswood": {},
+ "item:heartswood-core": {},
+ "item:heavy-leaden-collection-phial": {},
+ "item:hezrul-s-head": {},
+ "item:high-potency-radioactive-fallout": {},
+ "item:highborne-relic-classic": {},
+ "item:highperch-venom-sac": {},
+ "item:highperch-wyvern-egg": {},
+ "item:hildelve-s-journal": {},
+ "item:hillsbrad-human-skull": {},
+ "item:hillsbrad-town-registry": {},
+ "item:hollow-vulture-bone": {},
+ "item:honorary-picks": {},
+ "item:horn-of-arra-chea": {},
+ "item:horn-of-awakening": {},
+ "item:horn-of-echeyakee": {},
+ "item:huge-gnoll-claw": {},
+ "item:humbert-s-sword": {},
+ "item:hyacinth-mushroom": {},
+ "item:hypercapacitor-gizmo": {},
+ "item:icoke-prize-voucher": {},
+ "item:ignition-key": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:ilkrud-magthrull-s-tome": {},
+ "item:incantations-from-the-nether": {},
+ "item:incendia-agave": {},
+ "item:incendia-powder": {},
+ "item:insane-scribbles": {},
+ "item:inscribed-bark": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:intact-raptor-horn": {},
+ "item:intrepid-strongbox-key": {},
+ "item:invisibility-liquor": {},
+ "item:iron-pike": {},
+ "item:iron-pommel": {},
+ "item:iron-rivet": {},
+ "item:iron-shaft": {},
+ "item:ironband-s-progress-report": {},
+ "item:ironforge-mint": {},
+ "item:ishamuhale-s-fang": {},
+ "item:ivar-s-head": {},
+ "item:iverron-s-antidote-item": {},
+ "item:jade-phial": {},
+ "item:jennea-s-flask": {},
+ "item:jitters-completed-journal": {
+  "faq": {
+   "2": 1,
+   "3": 1,
+   "4": 1
+  }
+ },
+ "item:johaan-s-findings": {},
+ "item:johaan-s-special-drink": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:jordan-s-ore-shipment": {},
+ "item:jordan-s-refined-ore-shipment": {},
+ "item:jordan-s-smithing-hammer": {},
+ "item:kadrak-s-flag": {},
+ "item:keg-of-shindigger-stout": {},
+ "item:ken-zigla-s-draught": {},
+ "item:khazgorm-s-journal": {},
+ "item:klaven-mortwake-s-journal": {},
+ "item:kodo-horn": {},
+ "item:kodo-liver": {},
+ "item:kodobane-s-head": {},
+ "item:kravel-s-crate": {},
+ "item:kreenig-snarlsnout-s-tusk": {},
+ "item:kron-s-amulet": {
+  "faq": {
+   "2": 1,
+   "3": 1
+  },
+  "summary": "Kron's Amulet is a personal keepsake belonging to Kron, a young orc hunter from Durotar who went missing along the Southfury River."
+ },
+ "item:kuz-s-skull": {},
+ "item:laced-pumpkin": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:laird-s-response": {},
+ "item:lake-creeper-moss": {},
+ "item:lake-skulker-moss": {},
+ "item:large-candle": {},
+ "item:large-soran-ruk-fragment": {},
+ "item:laughing-sister-s-hair": {},
+ "item:legacy-of-the-aspects": {},
+ "item:letter-from-lor-themar-theron": {},
+ "item:letter-of-introduction": {},
+ "item:letter-sealed-by-sylvanas": {},
+ "item:letter-to-delgren": {},
+ "item:letter-to-ello": {
+  "summary": "The Letter to Ello is a sealed missive penned by Abercrombie, an eccentric hermit dwelling near Beggar's Haunt in Duskwood. Addressed to Mayor Ello Ebonlocke of Darkshire, the letter is delivered under the hermit's claim of old friendship, though its contents are written in an archaic script."
+ },
+ "item:letter-to-jin-zil": {},
+ "item:letter-to-jorgen": {},
+ "item:lewis-note": {},
+ "item:lieutenant-s-insignia": {
+  "faq": {
+   "2": 1,
+   "3": 2,
+   "4": 1
+  },
+  "summary": "A Lieutenant's Insignia is an emblem worn by ranking members of the Burning Blade cult hiding within Durotar. Recovered by Horde adventurers, it serves as crucial evidence of cult activity operating dangerously close to Orgrimmar."
+ },
+ "item:lightning-gland": {},
+ "item:logging-rope": {},
+ "item:lok-s-skull": {},
+ "item:lonebrow-s-journal": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:lorgalis-manuscript": {},
+ "item:lunar-fungus": {},
+ "item:lurker-venom": {},
+ "item:lydon-s-toxin": {},
+ "item:macgrann-s-dried-meats": {},
+ "item:mackreel-s-moonshine": {},
+ "item:maggot-eye-s-paw": {},
+ "item:maggran-s-reserve-letter": {},
+ "item:mangy-claw": {},
+ "item:marshal-haggard-s-badge": {},
+ "item:mary-s-looking-glass": {},
+ "item:mathystra-relic": {},
+ "item:melenas-head": {},
+ "item:menethil-statuette": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:merrin-s-letter": {},
+ "item:middle-of-gelkak-s-key": {},
+ "item:milly-s-harvest": {},
+ "item:miners-gear": {},
+ "item:miners-union-card": {},
+ "item:minshina-s-skull": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:mirror-lake-water-sample": {},
+ "item:mist-veil-s-lockbox": {},
+ "item:mo-grosh-crystal": {},
+ "item:modr-fragment": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:moldy-tome": {},
+ "item:moonpetal-lily": {},
+ "item:moonstalker-fang": {},
+ "item:moonwell-water-tube": {},
+ "item:mossy-tumor": {},
+ "item:mountain-lion-blood": {},
+ "item:muddy-journal-pages": {
+  "faq": {
+   "2": 1,
+   "3": 1,
+   "4": 1
+  },
+  "summary": "These weathered, soil-stained sheets were recovered from the scene of a gruesome murder years ago in Duskwood. Long preserved by Tavernkeep Smitts without proof of authorship, they remain a key piece of evidence in an unresolved local investigation."
+ },
+ "item:mudsnout-blossom": {},
+ "item:mudsnout-composite": {},
+ "item:mudsnout-mixture": {},
+ "item:murloc-head": {},
+ "item:musquash-root": {},
+ "item:mysterious-fossil": {},
+ "item:nak-s-skull": {},
+ "item:nek-rosh-s-head": {},
+ "item:neru-fragment": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:nessa-s-collection": {},
+ "item:nether-gem": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:ng-5": {},
+ "item:nida-s-necklace": {},
+ "item:nightmare-shard": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:nightsaber-fang": {},
+ "item:nissa-s-remains": {},
+ "item:nitroglycerin": {},
+ "item:nondescript-letter": {},
+ "item:nori-s-mug": {},
+ "item:notched-rib": {},
+ "item:nugget-slug": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:ogre-s-monocle": {},
+ "item:okra": {},
+ "item:ordanus-head": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:orendil-s-cure": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:oslow-s-toolbox": {},
+ "item:osric-s-crate": {},
+ "item:package-of-empty-ooze-containers": {},
+ "item:painted-gnoll-armband": {},
+ "item:panther-cage-key": {},
+ "item:parker-s-lunch": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:partially-filled-vessel": {},
+ "item:pendant-of-shadow": {},
+ "item:pendant-of-the-sea-lion": {},
+ "item:perenolde-tiara": {},
+ "item:phial-of-scrying": {},
+ "item:piece-of-krom-zar-s-banner": {},
+ "item:plainstrider-beak": {},
+ "item:plainstrider-feather": {},
+ "item:plainstrider-kidney": {},
+ "item:plainstrider-meat": {},
+ "item:plainstrider-scale": {},
+ "item:plainstrider-talon": {},
+ "item:podrig-s-order": {},
+ "item:pork-belly-pie": {},
+ "item:powdered-azurite": {},
+ "item:powers-of-the-void": {},
+ "item:prairie-alpha-tooth": {},
+ "item:prairie-wolf-heart": {},
+ "item:prairie-wolf-paw": {},
+ "item:pridewing-venom-sac": {},
+ "item:prismatic-punch-card": {
+  "faq": {
+   "2": 1
+  },
+  "remove_keywords": [
+   "laundry"
+  ]
+ },
+ "item:pristine-spider-silk": {},
+ "item:prowler-claws": {},
+ "item:pure-hearts": {},
+ "item:purified-kor-gem": {},
+ "item:purifying-earth": {},
+ "item:putrid-claw": {},
+ "item:pyrewood-shackle": {},
+ "item:quinn-s-potion": {},
+ "item:ran-bloodtooth-s-skull": {},
+ "item:raptor-head": {},
+ "item:rare-earth": {},
+ "item:rattlecage-skull": {},
+ "item:raven-claw-talisman": {},
+ "item:razorflank-s-medallion": {},
+ "item:reagent-pouch-shaman": {},
+ "item:reconstructed-tome": {},
+ "item:recruitment-letter": {},
+ "item:red-burlap-bandana": {},
+ "item:red-leather-bandana": {},
+ "item:red-linen-bandana": {},
+ "item:red-wool-bandana": {},
+ "item:remaining-drops-of-purest-water": {},
+ "item:remedy-of-arugal": {},
+ "item:rendered-spores": {},
+ "item:renferrel-s-findings": {},
+ "item:report-on-the-defias-brotherhood": {},
+ "item:resonite-crystal": {},
+ "item:restabilization-cog": {},
+ "item:ring-of-zoram": {},
+ "item:robo-mechanical-guts": {},
+ "item:robotron-control-unit": {},
+ "item:rocket-car-parts": {},
+ "item:rod-of-channeling": {},
+ "item:rolf-and-malakai-s-medallions": {
+  "faq": {
+   "1": 1,
+   "4": 1
+  },
+  "summary": "Rolf and Malakai's Medallions are the service tokens of two Stormwind guards who vanished while patrolling eastern Elwynn Forest. Bearing the insignia of the realm, these items are sought by Guard Thomas to determine the fate of his missing comrades."
+ },
+ "item:rot-blossom": {},
+ "item:rot-hide-ichor": {},
+ "item:rough-quartz": {},
+ "item:rumbleshot-s-ammo": {},
+ "item:rune-inscribed-parchment": {},
+ "item:rune-inscribed-pendant": {},
+ "item:rune-inscribed-tablet": {},
+ "item:rune-of-nesting": {},
+ "item:runes-of-summoning": {},
+ "item:sack-of-murloc-heads": {},
+ "item:sack-of-supplies": {},
+ "item:salty-scorpid-venom": {},
+ "item:samophlange-item": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:samophlange-manual": {},
+ "item:sample-ichor": {},
+ "item:sample-of-zanzil-s-altered-mixture": {},
+ "item:sample-snapjaw-shell": {},
+ "item:samuel-s-remains": {},
+ "item:sapphire-of-aku-mai": {},
+ "item:sapphire-of-sky": {},
+ "item:sara-balloo-s-plea": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:sarilus-foulborne-s-head": {},
+ "item:sarkoth-s-mangled-claw": {},
+ "item:sarltooth-s-talon": {},
+ "item:sathrah-s-sacrifice": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:satyr-horns": {},
+ "item:savannah-lion-tusk": {},
+ "item:scaber-stalk": {},
+ "item:scale-of-old-murk-eye": {},
+ "item:scarlet-armband": {},
+ "item:scarlet-crusade-documents": {},
+ "item:scarlet-insignia-ring": {},
+ "item:scavenged-goods": {},
+ "item:scavenger-paw": {},
+ "item:scorched-spider-fang": {},
+ "item:scroll-of-messaging": {},
+ "item:sea-creature-bones": {},
+ "item:sea-turtle-remains": {},
+ "item:sealed-description-of-thredd-s-visitor": {
+  "faq": {
+   "2": 2,
+   "3": 2,
+   "4": 1
+  },
+  "remove_keywords": [
+   "marzon"
+  ]
+ },
+ "item:sealed-envelope": {},
+ "item:sealed-note-to-elling": {},
+ "item:sealed-note-to-watcher-backus": {},
+ "item:sealed-sin-dorei-orders": {},
+ "item:searing-collar": {},
+ "item:searing-coral": {},
+ "item:secure-crate": {},
+ "item:senir-s-report": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:sentinel-luciel-s-report": {},
+ "item:serena-s-head": {},
+ "item:serpentbloom": {},
+ "item:sethir-s-journal": {},
+ "item:sevren-s-orders": {},
+ "item:shadowhide-pendant": {},
+ "item:shaman-voodoo-charm": {},
+ "item:shard-of-water": {},
+ "item:shaw-s-report": {},
+ "item:shimmering-frond": {},
+ "item:shimmerweed": {},
+ "item:shindrell-s-note": {},
+ "item:shipment-of-boots": {},
+ "item:shipment-of-iron": {},
+ "item:shipment-of-rare-crystals": {},
+ "item:shipping-schedule": {},
+ "item:sida-s-bag": {},
+ "item:signed-recruitment-letter": {},
+ "item:silithid-egg-the-barrens": {},
+ "item:silixiz-s-tower-key": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:silver-dawning-s-lockbox": {},
+ "item:silvery-spinnerets": {},
+ "item:simple-memorandum": {},
+ "item:simple-rune": {},
+ "item:simple-sigil": {},
+ "item:simple-tablet": {},
+ "item:singed-scale": {},
+ "item:skeleton-finger": {},
+ "item:skin-of-sweet-rum": {},
+ "item:skittering-blood": {},
+ "item:sleepers-key": {},
+ "item:smoky-iron-ingot": {},
+ "item:smoldering-embers": {},
+ "item:snellig-s-snuffbox": {},
+ "item:snufflenose-command-stick": {},
+ "item:snufflenose-owner-s-manual": {},
+ "item:sodium-nitrate": {},
+ "item:solomon-s-plea-to-darkshire": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:solomon-s-plea-to-westfall": {},
+ "item:soran-ruk-fragment": {},
+ "item:southsea-treasure": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:spectral-comb": {},
+ "item:spells-of-shadow": {},
+ "item:spotted-sunfish": {},
+ "item:stalker-claws": {},
+ "item:steelgrill-s-tools": {},
+ "item:steelsnap-s-rib": {},
+ "item:stolen-silver": {},
+ "item:stone-of-relu": {},
+ "item:stonetalon-sap": {
+  "faq": {
+   "2": 1
+  }
+ },
+ "item:stormpike-banner": {},
+ "item:stormpike-s-request": {},
+ "item:stormwind-armor-marker": {},
+ "item:stormwind-nougat": {},
+ "item:stoutmantle-s-response-to-solomon": {},
+ "item:strange-smelling-powder": {},
+ "item:strangely-marked-box": {},
+ "item:strigid-owl-feather": {},
+ "item:sturdy-dragonmaw-shinbone": {},
+ "item:sully-balloo-s-letter": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:sunscorched-shell": {},
+ "item:super-reaper-6000-blueprints": {},
+ "item:supplies-for-sven": {},
+ "item:surena-s-choker": {},
+ "item:swoop-gizzard": {},
+ "item:tablet-of-verga": {},
+ "item:tainted-heart": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:tainted-keg": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:tainted-letter": {},
+ "item:tainted-memorandum": {},
+ "item:talisman-of-corruption": {},
+ "item:tallonkai-s-jewel": {},
+ "item:taming-rod": {},
+ "item:taragaman-the-hungerer-s-heart": {
+  "faq": {
+   "4": 1
+  },
+  "summary": "Taragaman the Hungerer's Heart is the grisly trophy taken from the felguard presiding over the depths of Ragefire Chasm. Neeru Fireblade requests this foul organ as proof that the demonic presence beneath Orgrimmar has been purged."
+ },
+ "item:tattered-manuscript": {},
+ "item:tazan-s-satchel": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "item:tear-of-the-moons": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "item:tear-of-tilloa": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:techbot-s-memory-core": {},
+ "item:telescopic-lens": {},
+ "item:tender-boar-meat": {},
+ "item:tender-boar-ribs": {},
+ "item:teronis-journal": {},
+ "item:thalanaar-moonwell-water": {},
+ "item:tharil-zun-s-head": {},
+ "item:tharnariun-s-hope": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:the-book-of-ur": {},
+ "item:the-collector-s-schedule": {},
+ "item:the-embalmer-s-heart": {},
+ "item:the-general-s-response": {},
+ "item:the-lich-s-spellbook": {
+  "faq": {
+   "2": 1,
+   "5": 1
+  }
+ },
+ "item:the-state-of-lakeshire": {},
+ "item:theramore-medal": {},
+ "item:thick-bear-fur": {},
+ "item:thistlenettle-s-badge": {},
+ "item:thresher-eye": {},
+ "item:thule-s-head": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:thunder-lizard-blood": {},
+ "item:thunder-lizard-horn": {},
+ "item:thunderhawk-saliva-gland": {},
+ "item:thunderhawk-wings": {},
+ "item:thunderhorn-cleansing-totem": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:thurman-s-remains": {},
+ "item:thurman-s-sewing-kit": {},
+ "item:timberling-seed": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:timberling-sprout": {},
+ "item:tirisfal-pumpkin": {},
+ "item:token-of-thievery": {},
+ "item:tome-of-the-cabal-quest-item": {},
+ "item:top-of-gelkak-s-key": {},
+ "item:torch-of-the-dormant-flame": {},
+ "item:torn-fin-eye": {},
+ "item:torn-murloc-fin": {},
+ "item:totem-of-hawkwind": {},
+ "item:tough-wolf-meat": {},
+ "item:tourmaline-phial": {},
+ "item:toxic-fogger": {},
+ "item:translated-letter": {
+  "faq": {
+   "1": 2,
+   "3": 1
+  },
+  "remove_keywords": [
+   "embalmer",
+   "stitches"
+  ],
+  "summary": "The Translated Letter is a deciphered message penned by the hermit Abercrombie and translated by Sirra Von'Indi in Darkshire for Mayor Ello Ebonlocke."
+ },
+ "item:treshala-s-pendant": {},
+ "item:trogg-stone-tooth": {},
+ "item:troll-charm": {},
+ "item:trophy-swoop-quill": {},
+ "item:twilight-pendant": {},
+ "item:twilight-whisker": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:twitching-antenna": {},
+ "item:ukor-s-burden": {},
+ "item:uncloven-satyr-hoof": {},
+ "item:underbelly-whelp-scale": {},
+ "item:unidentified-ore": {},
+ "item:unrefined-ore-sample": {},
+ "item:ur-s-treatise-on-shadow-magic": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:urgent-message": {},
+ "item:valdred-s-hands": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:velinde-s-journal": {},
+ "item:velinde-s-key": {},
+ "item:venomtail-antidote": {},
+ "item:venomtail-poison-sac": {},
+ "item:venture-co-documents": {},
+ "item:venture-co-engineering-plans": {},
+ "item:venture-co-letters": {},
+ "item:verdant-note": {},
+ "item:verdant-sigil": {},
+ "item:verna-s-westfall-stew-recipe": {},
+ "item:verner-s-note": {},
+ "item:verog-s-head": {},
+ "item:vial-of-innocent-blood": {},
+ "item:vial-of-phlogiston": {},
+ "item:vial-of-purest-water": {},
+ "item:vial-of-spider-venom": {},
+ "item:vicious-night-web-spider-venom": {},
+ "item:vile-familiar-head": {},
+ "item:vile-fin-scale": {},
+ "item:voodoo-charm": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:wailing-essence": {},
+ "item:warsong-axe-shipment": {},
+ "item:warsong-oil": {},
+ "item:warsong-outrider-update": {},
+ "item:warsong-runner-update": {},
+ "item:warsong-saw-blades": {},
+ "item:warsong-scout-update": {},
+ "item:water-of-the-seers": {},
+ "item:water-pitcher": {},
+ "item:webwood-egg": {},
+ "item:webwood-ichor": {},
+ "item:webwood-spider-silk": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:webwood-venom-sac": {},
+ "item:well-stone": {},
+ "item:wendigo-mane": {},
+ "item:whitestone-oak-lumber": {},
+ "item:wildmane-cleansing-totem": {},
+ "item:wiley-s-note": {},
+ "item:william-s-shipment": {},
+ "item:wine-ticket": {},
+ "item:winterhoof-cleansing-totem": {},
+ "item:witchwing-talon": {},
+ "item:wolf-heart-sample": {},
+ "item:wolf-heart-samples": {},
+ "item:wood-pulp": {},
+ "item:wooden-key": {},
+ "item:worn-parchment": {},
+ "item:worn-stone-token": {},
+ "item:woven-wand": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:xavian-water-sample": {},
+ "item:young-crocolisk-skin": {},
+ "item:yowler-s-paw": {},
+ "item:zalazane-s-head": {},
+ "item:zamah-s-note": {},
+ "item:zargh-s-meats": {},
+ "item:zhevra-hooves": {},
  "npc:abercrombie": {
   "faq": {
    "1": 2,
@@ -28,6 +1173,7 @@
   }
  },
  "npc:altsoba-ragetotem": {},
+ "npc:alyissia": {},
  "npc:ambassador-dawnsinger": {},
  "npc:ambassador-sunsorrow": {},
  "npc:amber-kearnen": {},
@@ -78,6 +1224,7 @@
   }
  },
  "npc:austil-de-mon": {},
+ "npc:ayanna-everstride": {},
  "npc:ayessa-dawnsinger": {},
  "npc:azar-stronghammer": {},
  "npc:azuregos": {
@@ -88,9 +1235,11 @@
  "npc:bailiff-conacher": {},
  "npc:bailor-stonehand": {},
  "npc:baine-bloodhoof": {},
+ "npc:balir-frosthammer": {},
  "npc:balthule-shadowstrike": {},
  "npc:barithras-moonshade": {},
  "npc:barkeep-daniels": {},
+ "npc:baron-aquanis": {},
  "npc:baron-revilgaz": {
   "faq": {
    "6": 1
@@ -105,6 +1254,11 @@
  "npc:bartleby": {},
  "npc:bashana-runetotem": {},
  "npc:bath-rah-the-windwatcher": {},
+ "npc:bazil-thredd": {
+  "faq": {
+   "5": 1
+  }
+ },
  "npc:bazzalan": {},
  "npc:beldin-steelgrill": {},
  "npc:bethor-iceshard": {
@@ -169,6 +1323,8 @@
  "npc:cain-firesong": {},
  "npc:cairne-bloodhoof": {},
  "npc:calor": {},
+ "npc:calvin-montague": {},
+ "npc:canaga-earthcaller": {},
  "npc:captain-danuvin": {},
  "npc:captain-grayson": {},
  "npc:captain-greenskin": {},
@@ -188,6 +1344,7 @@
    "3": 1
   }
  },
+ "npc:carolai-anise": {},
  "npc:cazul": {},
  "npc:cerellean-whiteclaw": {},
  "npc:charlga-razorflank": {
@@ -258,6 +1415,7 @@
    "5": 2
   }
  },
+ "npc:david-trias": {},
  "npc:dawnwatcher-selgorm": {},
  "npc:dawnwatcher-shaedlass": {},
  "npc:dazalar": {},
@@ -286,6 +1444,7 @@
  "npc:deputy-rainer": {},
  "npc:devrak": {},
  "npc:dextren-ward": {},
+ "npc:dirania-silvershine": {},
  "npc:dirge-quikcleave": {},
  "npc:doan-karhan": {},
  "npc:doctor-gregory-victor": {},
@@ -359,6 +1518,7 @@
  "npc:feero-ironhand": {},
  "npc:fel-zerul": {},
  "npc:felgur-twocuts": {},
+ "npc:felix-whindlebolt": {},
  "npc:fenrus-the-devourer": {},
  "npc:field-marshal-snowfall": {},
  "npc:field-marshal-stonebridge": {
@@ -373,11 +1533,14 @@
  "npc:force-commander-valen": {},
  "npc:foreman-oslow": {},
  "npc:foreman-stonebrow": {},
+ "npc:foreman-thazz-ril": {},
  "npc:foreman-thistlenettle": {},
+ "npc:frahun-shadewhisper": {},
  "npc:furen-longbeard": {},
  "npc:furl-scornbrow": {},
  "npc:gaerolas-talvethren": {},
  "npc:gakin-the-darkbinder": {},
+ "npc:galgar": {},
  "npc:gan-rul-bloodeye": {},
  "npc:gann-stonespire": {
   "faq": {
@@ -414,6 +1577,7 @@
  "npc:gershala-nightwhisper": {},
  "npc:ghamoo-ra-classic": {},
  "npc:gilnid": {},
+ "npc:gilshalan-windwalker": {},
  "npc:gilthares-firebough": {},
  "npc:glorin-steelbrow": {},
  "npc:gnoarn": {},
@@ -468,6 +1632,7 @@
  },
  "npc:halaan-hawk-eye": {},
  "npc:hamhock": {},
+ "npc:hana-zua": {},
  "npc:hands-springsprocket": {},
  "npc:hansel-heavyhands": {},
  "npc:harb-clawhoof": {},
@@ -510,6 +1675,7 @@
  "npc:huraan": {},
  "npc:illiyana": {},
  "npc:illiyana-moonblaze": {},
+ "npc:ilthalaine": {},
  "npc:innkeeper-allison": {},
  "npc:innkeeper-farley": {},
  "npc:innkeeper-firebrew": {},
@@ -520,12 +1686,14 @@
  "npc:innkeeper-pala": {},
  "npc:interrogator-vishas": {},
  "npc:islen-waterseer": {},
+ "npc:iverron": {},
  "npc:jahan-hawkwing": {},
  "npc:jaina-proudmoore": {},
  "npc:james-halloran": {},
  "npc:jannok-breezesong": {},
  "npc:jasper-fel": {},
  "npc:je-neu-sancrea": {},
+ "npc:jen-shan": {},
  "npc:jennea-cannon": {},
  "npc:jergosh-the-invoker": {},
  "npc:jern-hornhelm": {},
@@ -553,6 +1721,7 @@
  "npc:kaela-shadowspear": {},
  "npc:kalecgos": {},
  "npc:kali-remik": {},
+ "npc:kaltunk": {},
  "npc:kam-deepfury": {},
  "npc:kanati-greycloud": {},
  "npc:kaplak": {},
@@ -610,6 +1779,7 @@
  "npc:krom-stoutarm": {},
  "npc:krusk": {},
  "npc:kuray-bin": {},
+ "npc:kzan-thornslash": {},
  "npc:lady-anacondra": {},
  "npc:lady-sarevess": {},
  "npc:laird": {},
@@ -716,9 +1886,11 @@
  },
  "npc:mankrik": {},
  "npc:marcus-redpath": {},
+ "npc:mardant-strongoak": {},
  "npc:marek-ironheart": {},
  "npc:marisa-du-paige": {},
  "npc:marleth-barleybrew": {},
+ "npc:marryk-nurribit": {},
  "npc:marshal-dughan": {
   "faq": {
    "3": 1
@@ -754,6 +1926,7 @@
   }
  },
  "npc:mebok-mizzyrix": {},
+ "npc:melithar-staghelm": {},
  "npc:melor-stonehoof": {},
  "npc:menara-voidrender": {},
  "npc:merissa-stilwell": {},
@@ -825,6 +1998,7 @@
  "npc:nissa-firestone": {},
  "npc:nogg": {},
  "npc:nori-pridedrift": {},
+ "npc:novice-elreth": {},
  "npc:oben-rageclaw": {
   "faq": {
    "4": 1
@@ -913,6 +2087,7 @@
  },
  "npc:remy-two-times": {},
  "npc:renato-gallina": {},
+ "npc:renee-lauer": {},
  "npc:renzik-the-shiv": {},
  "npc:rethiel-the-greenwarden": {},
  "npc:rezlak": {},
@@ -943,6 +2118,7 @@
  },
  "npc:ruul-eagletalon": {},
  "npc:ruul-snowhoof": {},
+ "npc:rwag": {},
  "npc:saelienne": {},
  "npc:sally-whitemane": {},
  "npc:salma-saldean": {},
@@ -993,6 +2169,7 @@
  "npc:shandris-feathermoon": {},
  "npc:shari-stilwell": {},
  "npc:shawn": {},
+ "npc:shelene-rhobart": {},
  "npc:shenthul": {},
  "npc:shindrell-swiftfire": {},
  "npc:shoni-the-shilent": {},
@@ -1005,6 +2182,7 @@
  "npc:smith-argus": {},
  "npc:sneed": {},
  "npc:sneed-s-shredder": {},
+ "npc:solm-hargrin": {},
  "npc:sprite-darter": {
   "faq": {
    "5": 1
@@ -1055,6 +2233,7 @@
  "npc:tannok-frosthammer": {},
  "npc:taragaman-the-hungerer": {},
  "npc:targorr-the-dread": {},
+ "npc:tarindrella": {},
  "npc:tarrel-rockweaver": {
   "faq": {
    "3": 1,
@@ -1096,11 +2275,13 @@
  },
  "npc:therysil": {},
  "npc:thor": {},
+ "npc:thorgas-grimson": {},
  "npc:thorgrum-borrelson": {},
  "npc:thork": {},
  "npc:thorvald-deepforge": {},
  "npc:thotar": {},
  "npc:thrall": {},
+ "npc:thran-khorman": {},
  "npc:thunderaan": {
   "faq": {
    "5": 1,
@@ -1137,6 +2318,7 @@
  "npc:ukor": {},
  "npc:ula-elek": {},
  "npc:umpi": {},
+ "npc:undertaker-mordo": {},
  "npc:ur-kyo": {},
  "npc:uzzek": {},
  "npc:valstag-ironjaw": {},
@@ -1704,12 +2886,15 @@
  "quest:145": {},
  "quest:1453": {},
  "quest:146": {},
+ "quest:1462": {},
+ "quest:1463": {},
  "quest:147": {
   "faq": {
    "3": 1,
    "4": 1
   }
  },
+ "quest:1470": {},
  "quest:1471": {},
  "quest:1472": {},
  "quest:1473": {
@@ -1726,6 +2911,7 @@
  "quest:1478": {},
  "quest:148": {},
  "quest:1483": {},
+ "quest:1485": {},
  "quest:1486": {},
  "quest:1487": {},
  "quest:1489": {},
@@ -1734,6 +2920,7 @@
  "quest:1491": {},
  "quest:1492": {},
  "quest:1498": {},
+ "quest:1499": {},
  "quest:15": {
   "faq": {
    "4": 1
@@ -1793,6 +2980,9 @@
    "5": 1
   }
  },
+ "quest:1516": {},
+ "quest:1517": {},
+ "quest:1518": {},
  "quest:152": {},
  "quest:1520": {},
  "quest:1521": {},
@@ -1935,6 +3125,7 @@
  "quest:1693": {},
  "quest:1698": {},
  "quest:1699": {},
+ "quest:170": {},
  "quest:1700": {
   "faq": {
    "5": 1
@@ -2547,18 +3738,44 @@
  "quest:304": {},
  "quest:305": {},
  "quest:306": {},
+ "quest:3065": {},
  "quest:307": {},
  "quest:308": {},
+ "quest:3082": {},
+ "quest:3083": {},
+ "quest:3084": {},
+ "quest:3085": {},
+ "quest:3086": {},
+ "quest:3087": {},
+ "quest:3088": {},
+ "quest:3089": {},
  "quest:309": {},
  "quest:3092": {},
  "quest:3094": {},
+ "quest:3096": {},
+ "quest:3097": {},
+ "quest:3098": {},
  "quest:31": {},
  "quest:310": {},
  "quest:3103": {},
  "quest:3104": {},
+ "quest:3105": {},
+ "quest:3106": {},
  "quest:3107": {},
+ "quest:3108": {},
+ "quest:3109": {},
  "quest:311": {},
+ "quest:3110": {},
+ "quest:3112": {},
+ "quest:3113": {},
+ "quest:3114": {},
+ "quest:3115": {},
+ "quest:3116": {},
+ "quest:3117": {},
+ "quest:3118": {},
+ "quest:3119": {},
  "quest:312": {},
+ "quest:3120": {},
  "quest:313": {},
  "quest:314": {},
  "quest:315": {},
@@ -2612,12 +3829,13 @@
  },
  "quest:336": {
   "faq": {
+   "2": 1,
    "4": 1,
    "5": 1,
-   "6": 1,
-   "2": 1
+   "6": 1
   }
  },
+ "quest:3361": {},
  "quest:3364": {},
  "quest:3365": {},
  "quest:3369": {},
@@ -2650,6 +3868,17 @@
  },
  "quest:3513": {},
  "quest:3514": {},
+ "quest:3519": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:3521": {},
+ "quest:3522": {
+  "faq": {
+   "4": 1
+  }
+ },
  "quest:3524": {},
  "quest:354": {},
  "quest:355": {},
@@ -2676,6 +3905,8 @@
    "6": 1
   }
  },
+ "quest:363": {},
+ "quest:364": {},
  "quest:365": {},
  "quest:366": {
   "faq": {
@@ -2707,10 +3938,24 @@
  },
  "quest:374": {},
  "quest:3741": {},
+ "quest:376": {},
  "quest:3765": {},
  "quest:377": {},
  "quest:378": {},
  "quest:38": {},
+ "quest:380": {},
+ "quest:381": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:382": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "quest:383": {},
  "quest:384": {},
  "quest:385": {},
  "quest:386": {},
@@ -2719,6 +3964,8 @@
  "quest:388": {},
  "quest:389": {},
  "quest:39": {},
+ "quest:3901": {},
+ "quest:3902": {},
  "quest:3903": {},
  "quest:3904": {
   "faq": {
@@ -2932,6 +4179,11 @@
  "quest:447": {},
  "quest:448": {},
  "quest:449": {},
+ "quest:4495": {
+  "faq": {
+   "5": 1
+  }
+ },
  "quest:45": {
   "faq": {
    "1": 1,
@@ -2965,7 +4217,11 @@
  "quest:454": {},
  "quest:4542": {},
  "quest:455": {},
+ "quest:456": {},
+ "quest:457": {},
+ "quest:458": {},
  "quest:4581": {},
+ "quest:459": {},
  "quest:46": {},
  "quest:460": {
   "faq": {
@@ -3323,6 +4579,8 @@
  "quest:5644": {},
  "quest:5645": {},
  "quest:5646": {},
+ "quest:5648": {},
+ "quest:5649": {},
  "quest:5650": {},
  "quest:5651": {},
  "quest:5654": {},
@@ -3386,6 +4644,15 @@
  "quest:5847": {},
  "quest:5881": {},
  "quest:59": {},
+ "quest:590": {
+  "faq": {
+   "1": 1,
+   "3": 1,
+   "4": 1,
+   "5": 1
+  },
+  "summary": "A Rogue's Deal is a confrontation with Calvin Montague in Deathknell. After offering work to newly awakened Forsaken with the promise of wealth, the sly rogue's true intentions come to light when payment is demanded."
+ },
  "quest:5921": {},
  "quest:5922": {},
  "quest:5923": {},
@@ -3514,6 +4781,7 @@
  "quest:6388": {},
  "quest:6391": {},
  "quest:6392": {},
+ "quest:6395": {},
  "quest:64": {},
  "quest:6401": {},
  "quest:6421": {
@@ -3611,6 +4879,11 @@
   }
  },
  "quest:6984": {},
+ "quest:7": {
+  "faq": {
+   "4": 1
+  }
+ },
  "quest:70": {
   "faq": {
    "6": 1
@@ -3749,12 +5022,29 @@
  "quest:788": {},
  "quest:79": {},
  "quest:791": {},
+ "quest:792": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:794": {},
+ "quest:8": {
+  "faq": {
+   "6": 1
+  }
+ },
  "quest:80": {
   "faq": {
    "5": 1
   }
  },
  "quest:8026": {},
+ "quest:804": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:805": {},
  "quest:806": {
   "faq": {
    "5": 1
@@ -4053,11 +5343,15 @@
  "quest:91209": {},
  "quest:913": {},
  "quest:914": {},
+ "quest:916": {},
+ "quest:917": {},
  "quest:918": {},
  "quest:91859": {},
  "quest:9189": {},
  "quest:919": {},
  "quest:92": {},
+ "quest:920": {},
+ "quest:921": {},
  "quest:92124": {},
  "quest:922": {
   "faq": {
@@ -4118,6 +5412,7 @@
  "quest:92751": {},
  "quest:92752": {},
  "quest:92753": {},
+ "quest:928": {},
  "quest:92819": {},
  "quest:929": {},
  "quest:93": {},
@@ -4200,6 +5495,7 @@
  "quest:9520": {},
  "quest:9521": {},
  "quest:953": {},
+ "quest:95314": {},
  "quest:9533": {},
  "quest:9534": {},
  "quest:9535": {
@@ -4284,16 +5580,22 @@
   }
  },
  "quest:972": {},
+ "quest:97279": {},
  "quest:973": {},
+ "quest:97558": {},
  "quest:976": {},
  "quest:981": {},
+ "quest:98190": {},
+ "quest:98191": {},
  "quest:982": {},
  "quest:983": {
   "faq": {
    "6": 1
   }
  },
+ "quest:98362": {},
  "quest:98389": {},
+ "quest:98397": {},
  "quest:984": {},
  "quest:985": {
   "faq": {
@@ -4339,6 +5641,20 @@
    "6": 1
   }
  },
+ "quest:cutting-teeth": {},
+ "quest:galgar-s-cactus-apple-surprise": {},
+ "quest:lazy-peons": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:sarkoth": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:your-place-in-the-world": {},
  "subzone:7th-legion-base-camp": {},
  "subzone:abandoned-kirin-tor-camp": {},
  "subzone:addle-s-stead": {
@@ -5001,11 +6317,11 @@
  "subzone:marshlands": {},
  "subzone:marshtide-watch": {},
  "subzone:mast-room": {
-  "summary": "The Mast Room is a cavernous subterranean lumber mill nestled deep within the Deadmines. Overseen by the goblin taskmaster Sneed and his woodcarvers, this chamber processes timber stripped from Westfall.",
   "faq": {
    "1": 1,
    "3": 1
-  }
+  },
+  "summary": "The Mast Room is a cavernous subterranean lumber mill nestled deep within the Deadmines. Overseen by the goblin taskmaster Sneed and his woodcarvers, this chamber processes timber stripped from Westfall."
  },
  "subzone:master-s-cellar": {},
  "subzone:master-s-glaive": {},
@@ -5732,6 +7048,7 @@
   }
  },
  "topic:human": {},
+ "topic:hunter": {},
  "topic:juggernaught": {
   "faq": {
    "2": 1,
@@ -5749,6 +7066,7 @@
  "topic:light": {},
  "topic:llane-wrynn-i": {},
  "topic:lordaeron": {},
+ "topic:mage": {},
  "topic:medivh": {},
  "topic:mor-ladim": {
   "faq": {
@@ -5768,8 +7086,10 @@
  "topic:old-god": {},
  "topic:old-horde": {},
  "topic:orc": {},
+ "topic:paladin": {},
  "topic:pirate": {},
  "topic:plague-of-undeath": {},
+ "topic:priest": {},
  "topic:quilboar": {
   "faq": {
    "6": 1
@@ -5783,6 +7103,7 @@
    "3": 1
   }
  },
+ "topic:rogue": {},
  "topic:royal-apothecary-society": {},
  "topic:ruins-of-gilneas": {},
  "topic:sargeras": {},
@@ -5799,6 +7120,7 @@
  "topic:second-war": {},
  "topic:sentinels": {},
  "topic:shadow-council": {},
+ "topic:shaman": {},
  "topic:shan-do": {},
  "topic:skyborne": {},
  "topic:skywall": {},
@@ -5835,6 +7157,8 @@
   }
  },
  "topic:war-of-the-ancients": {},
+ "topic:warlock": {},
+ "topic:warrior": {},
  "topic:warsong-clan": {},
  "topic:westfall-brigade": {
   "faq": {

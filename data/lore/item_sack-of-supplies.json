@@ -1,0 +1,75 @@
+{
+ "key": "item:sack-of-supplies",
+ "type": "item",
+ "name": "Sack of Supplies",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Sack of Supplies",
+  "quests": [
+   "quest:834"
+  ]
+ },
+ "summary": "These supply sacks belong to a caravan shipment intended for the goblin engineer Rezlak outside Orgrimmar. Transported across Durotar, the goods were intercepted by the Dustwind harpies roosting in the crags of Razorwind Canyon.",
+ "sections": [
+  {
+   "title": "A Plundered Caravan",
+   "body": "Rezlak, an engineer contracted out of Ratchet by Gazlowe, relies on regular caravans through Durotar to supply his construction efforts for the Horde. Durotar's wilderness, however, is far from tame. When a promised shipment passed near the canyon road south of Orgrimmar, it was ambushed and pillaged by the local Dustwind harpies. The vicious creatures hauled the cargo deep into their roosts within Razorwind Canyon, scattering the sacks among the dirt and scree alongside harpy nesting sites.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside these supply sacks?",
+   "aliases": [
+    "supply sack contents",
+    "what are in the sacks",
+    "rezlak supplies"
+   ],
+   "answer": "The sacks contain construction materials and trade goods shipped on behalf of Gazlowe's engineering operations to support Orcish building projects near Orgrimmar. Without them, Rezlak is stranded with no supplies to finish his work."
+  },
+  {
+   "q": "Who stole the supplies?",
+   "aliases": [
+    "who took the supplies",
+    "who stole the sacks"
+   ],
+   "answer": "The supplies were stolen by the Dustwind harpies, a savage avian race that infests the high crevices and ravines of Razorwind Canyon."
+  },
+  {
+   "q": "Who is Rezlak?",
+   "aliases": [
+    "who is rezlak",
+    "rezlak lore"
+   ],
+   "answer": "Rezlak is a goblin engineer dispatched by Gazlowe from Ratchet to assist the Horde with building and line infrastructure in Durotar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Recovering lost supplies from local predators ensures that frontier construction around the fledgling capital of Orgrimmar proceeds without costly delays."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "dustwind harpies",
+  "gazlowe",
+  "razorwind canyon",
+  "rezlak",
+  "sack of supplies"
+ ],
+ "related": [
+  "quest:834",
+  "quest:835",
+  "npc:rezlak",
+  "subzone:razorwind-canyon",
+  "zone:durotar",
+  "zone:orgrimmar",
+  "subzone:razor-hill"
+ ],
+ "attribution": [
+  "Sack of Supplies",
+  "Winds in the Desert"
+ ]
+}

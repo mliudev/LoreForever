@@ -1,0 +1,93 @@
+{
+ "key": "item:cantation-of-manifestation",
+ "type": "item",
+ "name": "Cantation of Manifestation",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Cantation of Manifestation",
+  "quests": [
+   "quest:1960"
+  ]
+ },
+ "summary": "The Cantation of Manifestation is a specialized arcane incantation written on a parchment scroll, used by mages to reveal unseen magical anomalies. In the Undercity, Anastasia Hartwell provides it to apprentices investigating invisible magical entities haunting Algernon's shop in the Apothecarium.",
+ "sections": [
+  {
+   "title": "Unveiling the Invisible",
+   "body": "The Cantation of Manifestation holds a focused spell designed to pierce magical veils and force incorporeal, invisible beings into the visible spectrum. Kept in the Magic Quarter of the Undercity near Anastasia Hartwell, the scroll is entrusted to capable mages tasked with containing rogue magical anomalies. When read aloud in an area suffering from arcane instability\u2014such as Algernon's alchemical workshop in the Apothecarium\u2014the words force stray rift spawns to materialize, allowing the caster to subdue and trap them within containment coffers for further study.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Cantation of Manifestation do?",
+   "aliases": [
+    "what is cantation of manifestation",
+    "cantation purpose",
+    "how does cantation work"
+   ],
+   "answer": "It is a magical scroll that casts a spell revealing invisible arcane anomalies. When recited in areas experiencing magical tears or disturbances, it forces unseen creatures\u2014such as rift spawns\u2014into plain sight so they can be fought and captured."
+  },
+  {
+   "q": "Where can I find the Cantation in Undercity?",
+   "aliases": [
+    "cantation location undercity",
+    "where is cantation of manifestation",
+    "find cantation undercity"
+   ],
+   "answer": "It rests on the floor directly behind the mage trainer Anastasia Hartwell, located in the Magic Quarter of the Undercity."
+  },
+  {
+   "q": "Why does Anastasia Hartwell need this scroll used?",
+   "aliases": [
+    "why use cantation",
+    "hartwell quest motive",
+    "anastasia disturbance"
+   ],
+   "answer": "A strange magical disturbance broke out in Algernon's alchemical shop down in the Apothecarium. Unseen entities made entirely of magic began wandering the premises, and Hartwell needs the scroll read on site to reveal and capture the creatures before the rift worsens."
+  },
+  {
+   "q": "Do I get to keep the scroll after using it?",
+   "aliases": [
+    "keep cantation",
+    "do i lose cantation",
+    "return cantation"
+   ],
+   "answer": "No. Once you have manifested the rift spawns and captured them in containment coffers, you must return the Cantation of Manifestation along with the coffers back to Anastasia Hartwell."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The Cantation of Manifestation is an essential tool in your early training, teaching you how to detect hidden arcane currents and contain volatile rift entities."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken spellcasters in the Magic Quarter keep tight control over arcane fluctuations, ensuring magical rifts don't compromise the stability of the Undercity."
+  }
+ ],
+ "keywords": [
+  "algernon",
+  "anastasia hartwell",
+  "apothecarium",
+  "cantation of manifestation",
+  "containment coffer",
+  "magic quarter",
+  "rift spawn",
+  "undercity"
+ ],
+ "related": [
+  "npc:anastasia-hartwell",
+  "quest:1960",
+  "subzone:magic-quarter",
+  "subzone:apothecarium",
+  "zone:undercity",
+  "topic:mage",
+  "item:chest-of-containment-coffers",
+  "item:filled-containment-coffer"
+ ],
+ "attribution": [
+  "Cantation of Manifestation",
+  "Investigate the Alchemist Shop"
+ ]
+}

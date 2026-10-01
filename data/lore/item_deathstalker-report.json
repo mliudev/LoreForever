@@ -1,0 +1,91 @@
+{
+ "key": "item:deathstalker-report",
+ "type": "item",
+ "name": "Deathstalker Report",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Deathstalker Report",
+  "quests": [
+   "quest:449"
+  ]
+ },
+ "summary": "The Deathstalker Report is a written dispatch penned by Deathstalker Rane Yorick detailing military reconnaissance in Silverpine Forest. It contains critical tactical intelligence intended for High Executor Hadrec at the Sepulcher regarding local Scourge movements and the state of the Forsaken's forward scouts.",
+ "sections": [
+  {
+   "title": "Frontline Intelligence",
+   "body": "Reconnaissance in southern Silverpine Forest is a lethal duty, even for the undead. After finding themselves ambushed and pinned down by Scourge prowling the pine woods, Deathstalkers Rane Yorick and Quinn Quinn had to consolidate their findings into this hurried dispatch. The report summarizes unexpected levels of Scourge resistance threatening Forsaken territorial ambitions in the region. Because Quinn suffered grievous injuries during their mission, the document is entrusted to passing allies to ensure High Executor Hadrec receives word at the Sepulcher without delay.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Deathstalker Report?",
+   "aliases": [
+    "what is this report",
+    "deathstalker report lore",
+    "what is deathstalker report"
+   ],
+   "answer": "It is a field report assembled by Deathstalker Rane Yorick documenting the dangers, Scourge activities, and obstacles faced by Forsaken scouts operating within Silverpine Forest."
+  },
+  {
+   "q": "Who wrote the report?",
+   "aliases": [
+    "who wrote deathstalker report",
+    "report author",
+    "who wrote it"
+   ],
+   "answer": "The report is written by Deathstalker Rane Yorick after tending to his injured partner, Deathstalker Quinn, following an encounter with the regional Scourge."
+  },
+  {
+   "q": "Who is the report delivered to?",
+   "aliases": [
+    "where does report go",
+    "who gets the report",
+    "hadrec report"
+   ],
+   "answer": "It is addressed and delivered to High Executor Hadrec, the Forsaken commander stationed at the Sepulcher who oversees military operations throughout Silverpine Forest."
+  },
+  {
+   "q": "Why is the report so urgently needed?",
+   "aliases": [
+    "why is it important",
+    "why does hadrec need it",
+    "what info is inside"
+   ],
+   "answer": "High Executor Hadrec had undercalculated the sheer volume of Scourge presence in Silverpine Forest. The report outlines these hostile forces, providing vital data needed to protect Forsaken occupation efforts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The report highlights the ruthless efficiency and persistent danger facing the Deathstalkers, the intelligence-gathering arm that secures Lordaeron's frontiers for Sylvanas."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Carrying intelligence gathered by seasoned Deathstalkers offers a direct glimpse into the covert reconnaissance work that keeps the Forsaken military functional."
+  }
+ ],
+ "keywords": [
+  "deathstalker report",
+  "hadrec",
+  "quinn",
+  "rane yorick",
+  "scourge",
+  "sepulcher",
+  "silverpine forest"
+ ],
+ "related": [
+  "quest:449",
+  "npc:high-executor-hadrec",
+  "subzone:sepulcher",
+  "zone:silverpine",
+  "quest:1886",
+  "topic:forsaken",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Deathstalker Report",
+  "The Deathstalkers' Report"
+ ]
+}

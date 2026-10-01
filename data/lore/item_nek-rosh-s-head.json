@@ -1,0 +1,79 @@
+{
+ "key": "item:nek-rosh-s-head",
+ "type": "item",
+ "name": "Nek'rosh's Head",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Nek'rosh's Head",
+  "quests": [
+   "quest:474"
+  ]
+ },
+ "summary": "Nek'rosh's Head is the gruesome proof of the downfall of Chieftain Nek'rosh, leader of the Dragonmaw clan in the Wetlands. Procured by Alliance adventurers, this trophy is delivered to Captain Stoutfist to confirm that the orcish threat menacing Menethil Harbor has been shattered.",
+ "sections": [
+  {
+   "title": "A Decisive Strike",
+   "body": "The Dragonmaw clan poses a persistent danger across the marshlands, massing forces and siege weapons against the dwarven settlement of Menethil Harbor. After burning their catapults, the defense of the port hinges on slaying Chieftain Nek'rosh himself. Severing his head provides undeniable proof to Captain Stoutfist and the Ironforge authorities that the warlord's grip over the Wetlands is broken.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Nek'rosh?",
+   "aliases": [
+    "who is nek'rosh",
+    "chieftain nek'rosh",
+    "who was nekrosh"
+   ],
+   "answer": "Nek'rosh was the chieftain commanding the Dragonmaw clan remnants operating within the Wetlands, orchestrating attacks and war efforts directed at nearby Alliance territories."
+  },
+  {
+   "q": "Who wants Nek'rosh's Head?",
+   "aliases": [
+    "who takes the head",
+    "nekrosh head turn in",
+    "where do i bring nek'rosh's head"
+   ],
+   "answer": "Captain Stoutfist, the commander orchestrating the defense of Menethil Harbor, requires the head as physical proof that the chieftain has fallen before rewarding the champion on behalf of Ironforge."
+  },
+  {
+   "q": "Why was Nek'rosh targeted for death?",
+   "aliases": [
+    "why kill nekrosh",
+    "why defeat nek'rosh"
+   ],
+   "answer": "Nek'rosh directed the Dragonmaw forces that threatened Menethil Harbor. By destroying their siege weapons and eliminating their chieftain, the Alliance aimed to deal a crippling blow to the clan's presence in the region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Presenting this grim trophy to Captain Stoutfist secures Menethil Harbor from imminent assault and earns substantial favor with the Kingdom of Ironforge."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The Dragonmaw have plagued Khaz Modan since the Second War; carrying the chieftain's severed head brings long-awaited justice to the defenders of the marshlands."
+  }
+ ],
+ "keywords": [
+  "captain stoutfist",
+  "chieftain",
+  "dragonmaw",
+  "menethil",
+  "nek'rosh",
+  "nekrosh",
+  "wetlands"
+ ],
+ "related": [
+  "quest:474",
+  "npc:captain-stoutfist",
+  "subzone:menethil-harbor",
+  "zone:wetlands",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Nek'rosh's Head",
+  "Defeat Nek'rosh"
+ ]
+}

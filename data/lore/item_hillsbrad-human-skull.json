@@ -1,0 +1,81 @@
+{
+ "key": "item:hillsbrad-human-skull",
+ "type": "item",
+ "name": "Hillsbrad Human Skull",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Hillsbrad Human Skull",
+  "quests": [
+   "quest:546"
+  ]
+ },
+ "summary": "A gruesome war trophy harvested from slain human defenders and townsfolk across the Hillsbrad Foothills. These skulls are collected by Forsaken stationed at Tarren Mill as grim mementos of the relentless assault against the local human settlements.",
+ "sections": [
+  {
+   "title": "Trophies of a Bitter War",
+   "body": "As conflict rages between the Forsaken of Tarren Mill and the human inhabitants of Southshore and surrounding settlements, severed skulls serve as physical proof of the slaughter. While Deathstalkers and soldiers carry out the systematic purge ordered by Darthalia during the Battle of Hillsbrad, other guards stuck on watch duty crave a piece of the carnage. Deathguard Samsa eagerly solicits these trophies from frontline fighters, taking twisted pleasure in amassing the remains of the very people the Forsaken once lived among in life.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants these human skulls?",
+   "aliases": [
+    "who wants skulls",
+    "who takes human skulls",
+    "deathguard samsa skulls"
+   ],
+   "answer": "Deathguard Samsa, a Forsaken sentry stationed in Tarren Mill, collects them. Envious of the soldiers sent out to battle and pillage Southshore while he remains confined to guard duty, he asks passing adventurers to bring him thirty skulls to add to his private collection."
+  },
+  {
+   "q": "Where are Hillsbrad Human Skulls gathered?",
+   "aliases": [
+    "where do skulls drop",
+    "farm human skulls",
+    "who drops human skulls"
+   ],
+   "answer": "They are recovered from human combatants and laborers throughout the Hillsbrad Foothills, notably around the human-held farms, mines, and town fortifications assaulted during the Battle of Hillsbrad campaign."
+  },
+  {
+   "q": "Why do the Forsaken collect human remains?",
+   "aliases": [
+    "why do forsaken want skulls",
+    "forsaken skull collection"
+   ],
+   "answer": "Beyond raw hatred and dark humor, collecting trophies of dead humans is common sport among the Forsaken. Soldiers like Samsa view the skulls as prized curiosities and satisfying proof of Southshore's impending downfall."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, claiming human skulls from Hillsbrad is both sweet vengeance and a macabre reminder of the living brethren who shun them."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The sight of Southshore's farmers and soldiers reduced to collected trinkets represents the grim cruelty of the Forsaken campaign in Lordaeron."
+  }
+ ],
+ "keywords": [
+  "darthalia",
+  "hillsbrad",
+  "samsa",
+  "skull",
+  "southshore",
+  "tarren mill",
+  "trophy"
+ ],
+ "related": [
+  "quest:546",
+  "npc:deathguard-samsa",
+  "quest:527",
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "topic:human",
+  "item:courser-eye"
+ ],
+ "attribution": [
+  "Hillsbrad Human Skull",
+  "Souvenirs of Death"
+ ]
+}

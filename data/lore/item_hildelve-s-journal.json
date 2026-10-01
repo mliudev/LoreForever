@@ -1,0 +1,95 @@
+{
+ "key": "item:hildelve-s-journal",
+ "type": "item",
+ "name": "Hildelve's Journal",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Hildelve's Journal",
+  "quests": [
+   "quest:417"
+  ]
+ },
+ "summary": "Hildelve's Journal is the final record of dwarven pilot Hildelve, recovered from his remains in the frigid wilderness of Dun Morogh. Its bloodstained pages recount his fatal encounter with a ferocious bear and convey his dying wish for vengeance.",
+ "sections": [
+  {
+   "title": "A Pilot's Final Words",
+   "body": "When dwarven reconnaissance pilot Hildelve crashed into the snow-swept crags of Dun Morogh, his troubles were only beginning. According to the entries scrawled in his journal, he survived the initial wreck only to be ambushed by a monstrous ice claw bear known as Mangeclaw. Though Hildelve fought bravely and managed to drive the beast off, he was left gravely mauled and stranded in the bitter cold. The journal details his agonizing final hours, concluding with a single, clear plea before the predator returned to finish him: that whoever discovered his body avenge his death by hunting down Mangeclaw.",
+   "spoiler": 0
+  },
+  {
+   "title": "Return to the Siege Brigade",
+   "body": "The recovered journal serves as grim closure for Hildelve's comrade, Pilot Hammerfoot, stationed near Kharanos. As a member of the Ironforge Siege Brigade, Hammerfoot feared the worst when Hildelve went missing along his patrol route. Handing over the journal alongside the beast's severed claw provides proof that Hildelve's spirit has been put to rest and his final wish honored.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Hildelve?",
+   "aliases": [
+    "hildelve lore",
+    "who is hildelve",
+    "dwarf pilot hildelve"
+   ],
+   "answer": "Hildelve was a dwarven aviator belonging to the Ironforge Siege Brigade. While flying a patrol over the mountainous reaches of Dun Morogh, he crashed his flying machine in the wilderness and was subsequently killed by wildlife before rescue could arrive."
+  },
+  {
+   "q": "What is Mangeclaw?",
+   "aliases": [
+    "who is mangeclaw",
+    "what killed hildelve",
+    "bear that killed hildelve"
+   ],
+   "answer": "Mangeclaw is an unusually large and savage ice claw bear that stalks the snowy ridges of Dun Morogh. It ambushed Hildelve while he was stranded, mauled him severely, and later returned to end his life."
+  },
+  {
+   "q": "Who receives the journal once it is found?",
+   "aliases": [
+    "where do i take the journal",
+    "who gets hildelves journal",
+    "turn in hildelves journal"
+   ],
+   "answer": "The journal is delivered to Pilot Hammerfoot, an aviator stationed along the road south of Kharanos. Hammerfoot was a close friend of Hildelve and sought news of the missing pilot."
+  },
+  {
+   "q": "What does Hildelve ask for in the journal?",
+   "aliases": [
+    "hildelves final wish",
+    "what is in the journal",
+    "pilot dying wish"
+   ],
+   "answer": "Knowing his wounds were mortal, Hildelve used his final pages to document the beast that attacked him and asked that any traveler finding his remains hunt down Mangeclaw to avenge his death."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The journal honors the unyielding spirit of dwarven aviators, who defy freezing weather and wild beasts to secure the heights of Khaz Modan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Recovering the personal effects of fallen military personnel like Hildelve strengthens the bond between the Alliance and the Ironforge Siege Brigade."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "hildelve",
+  "ice claw bear",
+  "journal",
+  "mangeclaw",
+  "pilot hammerfoot",
+  "siege brigade"
+ ],
+ "related": [
+  "quest:417",
+  "quest:419",
+  "npc:pilot-hammerfoot",
+  "item:mangy-claw",
+  "zone:dunmorogh",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Hildelve's Journal",
+  "A Pilot's Revenge (Classic)"
+ ]
+}

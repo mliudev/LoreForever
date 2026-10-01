@@ -1,0 +1,98 @@
+{
+ "key": "item:corrupted-brain-stem",
+ "type": "item",
+ "name": "Corrupted Brain Stem",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Corrupted Brain Stem",
+  "quests": [
+   "quest:1275"
+  ]
+ },
+ "summary": "Corrupted Brain Stems are biological specimens harvested from the twisted naga and satyrs inhabiting Blackfathom Deeps and the Ashenvale coastline. Gershala Nightwhisper of Auberdine seeks them to study the physical deformities wrought by reckless magical corruption. By examining these brains, night elf scholars hope to understand and potentially prevent a similar fate from befalling the blood elves.",
+ "sections": [
+  {
+   "title": "Anatomy of Transformation",
+   "body": "The satyrs and naga of Kalimdor stand as living testaments to the warping power of forbidden magic and demonic pacts. Long ago, reckless kaldorei highborne were irrevocably transformed into serpent-like aquatic beasts and demonic horned fiends. The brain stems harvested from these creatures exhibit heavy physical mutation, providing direct anatomical proof of how deep corruptive energies burrow into the nervous systems of once-elven beings.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gershala's Warning",
+   "body": "In the coastal settlement of Auberdine, the night elf Gershala Nightwhisper observes the troubling rumors surrounding the blood elves of the Eastern Kingdoms. Fearing that their flirtation with demonic sorcery will spawn yet another generation of monsters on Azeroth, Gershala tasks adventurers with venturing into Blackfathom Deeps. By dissecting both naga and satyr tissues, the researcher hopes to map the path of magical degeneration before another elven culture is lost.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures yield a Corrupted Brain Stem?",
+   "aliases": [
+    "who drops brain stems",
+    "corrupted brain stem drop",
+    "where to get brain stems"
+   ],
+   "answer": "They are gathered from naga and satyrs residing within Blackfathom Deeps and along the surrounding shores of Ashenvale, including Blackfathom oracles, sea witches, and Fallenroot satyrs."
+  },
+  {
+   "q": "Who wants these brain stems and why?",
+   "aliases": [
+    "who needs corrupted brain stem",
+    "gershala quest",
+    "turn in brain stems"
+   ],
+   "answer": "Gershala Nightwhisper, stationed in the Darkshore port of Auberdine, requests them to conduct anatomical research on magical corruption."
+  },
+  {
+   "q": "What are night elves hoping to learn from these specimens?",
+   "aliases": [
+    "why study naga satyr",
+    "researching the corruption lore",
+    "blood elf connection"
+   ],
+   "answer": "Gershala fears that the blood elves' use of demonic magic will transform them into monsters, much like the ancient highborne became naga and satyrs. Studying these stems helps identify how demonic energies alter elven biology."
+  },
+  {
+   "q": "Can these be found outside of the Blackfathom Deeps caverns?",
+   "aliases": [
+    "outside blackfathom",
+    "ashenvale brain stems",
+    "do surface mobs drop them"
+   ],
+   "answer": "Yes. Certain Fallenroot satyrs and Blackfathom tide priestesses lingering outside the cavern entrance along the Ashenvale coast also carry them."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, collecting these remains is a grim reminder of their people's tragic history and the monstrous results of unchecked arcane and fel meddling."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance scouts sent into Ashenvale brave the depths of Blackfathom to aid Auberdine's scholars in understanding the burgeoning threats across Azeroth."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "auberdine",
+  "blackfathom deeps",
+  "corrupted brain stem",
+  "gershala nightwhisper",
+  "naga",
+  "researching the corruption",
+  "satyr"
+ ],
+ "related": [
+  "quest:1275",
+  "npc:gershala-nightwhisper",
+  "zone:blackfathom",
+  "zone:ashenvale",
+  "subzone:auberdine",
+  "npc:lady-sarevess",
+  "topic:naga",
+  "topic:satyr"
+ ],
+ "attribution": [
+  "Corrupted Brain Stem",
+  "Researching the Corruption (Classic)"
+ ]
+}

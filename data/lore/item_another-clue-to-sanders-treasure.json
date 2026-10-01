@@ -1,0 +1,73 @@
+{
+ "key": "item:another-clue-to-sanders-treasure",
+ "type": "item",
+ "name": "Another Clue to Sanders' Treasure",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Another Clue to Sanders' Treasure",
+  "quests": [
+   "quest:139"
+  ]
+ },
+ "summary": "Another Clue to Sanders' Treasure is a weathered parchment slip left behind by the notorious pirate Captain Sanders. Retrieved from an old barrel, it contains directional verse pointing fortune hunters toward a lonely landmark on the bluffs of Westfall.",
+ "sections": [
+  {
+   "title": "A Trail on the Coastal Bluffs",
+   "body": "Captain Sanders was careful never to keep his stolen riches in plain sight. Instead of drawing a single map that could be seized at once, he split his instructions into a succession of riddles and buried markers. This scrap of parchment continues the trail, directing whoever holds it to turn north from the previous hiding place and seek out a discarded jug sitting near an isolated windmill towering over the sea cliffs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is written on this clue?",
+   "aliases": [
+    "what does the clue say",
+    "sanders clue text",
+    "directions on clue"
+   ],
+   "answer": "The parchment instructs the finder to face north from the hidden barrel and walk in a straight line until spotting an empty jug beside a lone windmill along the sea bluffs."
+  },
+  {
+   "q": "Who was Captain Sanders?",
+   "aliases": [
+    "who is sanders",
+    "captain sanders background",
+    "sanders westfall pirate"
+   ],
+   "answer": "Captain Sanders was a pirate whose exploits left caches of stolen goods scattered along the shores and bluffs of Westfall. Rather than leaving an intact map, he created a scavenger hunt of hidden markers across the region."
+  },
+  {
+   "q": "Where does this clue lead next?",
+   "aliases": [
+    "where to go next",
+    "sanders windmill clue",
+    "where is the jug"
+   ],
+   "answer": "Following the clue's directions leads north along the coastal cliffs to a lone windmill perched on the bluffs, where an empty jug holds the next step of Sanders' trail."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Deciphering cryptic directions and rummaging through forgotten seaside caches is standard tradecraft for anyone with an eye for hidden plunder."
+  }
+ ],
+ "keywords": [
+  "bluffs",
+  "captain sanders",
+  "clue",
+  "parchment",
+  "sanders treasure",
+  "westfall",
+  "windmill"
+ ],
+ "related": [
+  "quest:136",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Another Clue to Sanders' Treasure",
+  "Captain Sanders' Hidden Treasure (Classic 3)"
+ ]
+}

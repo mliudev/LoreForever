@@ -1,0 +1,75 @@
+{
+ "key": "item:corrupt-manifestation-s-bracers",
+ "type": "item",
+ "name": "Corrupt Manifestation's Bracers",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Corrupt Manifestation's Bracers",
+  "quests": [
+   "quest:63"
+  ]
+ },
+ "summary": "Corrupt Manifestation's Bracers are the physical remnants recovered from a tainted water elemental on the coast of Silverpine Forest. Taken by shaman initiates undergoing the Call of Water, they serve as a vital component in an elemental cleansing rite atop the Brazier of Everfount.",
+ "sections": [
+  {
+   "title": "A Cleansing Offering",
+   "body": "When the Scourge's plague swept through Lordaeron, it did not spare the natural spirits of the land. Along the misty shores of Silverpine Forest west of the Sepulcher, a once-sacred water shrine fell victim to taint, twisting its resident water manifestation into an aggressive, corrupted shade. Shaman initiates are sent to quell the creature and retrieve its bracers. Combined with purest water upon the Brazier of Everfount, these bindings are cast into the flame to undo the defilement and summon forth an unblemished elemental spirit.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are these bracers used for?",
+   "aliases": [
+    "what do bracers do",
+    "call of water bracers",
+    "corrupt bracers use"
+   ],
+   "answer": "They are placed upon the Brazier of Everfount alongside drops of pure water during a cleansing ritual. This rite dispels the lingering corruption at the Silverpine shrine and draws out a pure spirit of water."
+  },
+  {
+   "q": "Where do the bracers come from?",
+   "aliases": [
+    "where do i get bracers",
+    "corrupt manifestation location"
+   ],
+   "answer": "They are taken from the remains of a Corrupt Minor Manifestation of Water, located near a tainted elemental shrine along the coast of Silverpine Forest, west of the Sepulcher."
+  },
+  {
+   "q": "Why did the water elemental become corrupt?",
+   "aliases": [
+    "why is water tainted",
+    "silverpine water corruption"
+   ],
+   "answer": "The elemental was warped by the plague and dark powers that blighted the lands of Lordaeron, cutting the local spirits off from the communion of shaman."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Retrieving and purifying these bracers is the final crucible of the Call of Water, proving a shaman's power to soothe and restore distorted elements."
+  }
+ ],
+ "keywords": [
+  "brazier of everfount",
+  "call of water",
+  "corrupt manifestation's bracers",
+  "shaman quest",
+  "silverpine forest",
+  "water elemental"
+ ],
+ "related": [
+  "quest:63",
+  "item:remaining-drops-of-purest-water",
+  "npc:minor-manifestation-of-water",
+  "zone:silverpine",
+  "subzone:sepulcher",
+  "npc:brine",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Corrupt Manifestation's Bracers",
+  "Call of Water (7)"
+ ]
+}

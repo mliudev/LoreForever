@@ -1,0 +1,92 @@
+{
+ "key": "item:broken-samophlange",
+ "type": "item",
+ "name": "Broken Samophlange",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Broken Samophlange",
+  "quests": [
+   "quest:3921"
+  ]
+ },
+ "summary": "The Broken Samophlange is an enigmatic mechanical device recovered from the northern Barrens. Despite its damaged state, its internal gears and shifting parts captivate engineers curious enough to uncover its true function.",
+ "sections": [
+  {
+   "title": "A Baffling Mechanism",
+   "body": "The samophlange remains one of the stranger contraptions found throughout the northern Barrens. Even when broken, the mechanism exhibits remarkable internal craftsmanship, filled with moving assemblies and fine gears. Its discoverer accidentally damaged the delicate apparatus before its full operation could be documented. Eager to deliver working results to curious colleagues in Undermine, the finder sought someone skilled enough to restore it, turning to Wenikee Boltbucket\u2014a clever tinkerer stationed near the border outpost of Mor'shan Rampart.",
+   "spoiler": 0
+  },
+  {
+   "title": "Seeking Tinkerer's Hands",
+   "body": "Upon examining the ruined apparatus, even an inquisitive mind like Wenikee's cannot immediately deduce what a samophlange is actually designed to do. However, the tantalizing sounds of internal clockwork and its dynamic motion immediately draw her interest. Rather than discarding the ruined junk, the mystery of its design inspires an attempt to repair it and witness its mechanisms working at full capacity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a samophlange?",
+   "aliases": [
+    "samophlange purpose",
+    "what does a samophlange do",
+    "samophlange definition"
+   ],
+   "answer": "Its exact function is a mystery, even to the tinkerers trying to fix it. While its name puzzles observers, handling the device reveals complex gears and moving parts designed for an unknown industrial purpose."
+  },
+  {
+   "q": "Why is the samophlange broken?",
+   "aliases": [
+    "how did it break",
+    "broken samophlange lore"
+   ],
+   "answer": "Its initial discoverer mishandled the delicate machinery while tampering with it. Realizing the device had seized up before its secrets could be shared with colleagues in Undermine, they sought an expert to get it running again."
+  },
+  {
+   "q": "Who is Wenikee Boltbucket?",
+   "aliases": [
+    "where is wenikee",
+    "boltbucket location"
+   ],
+   "answer": "Wenikee Boltbucket is an inquisitive tinkerer located in the northern Barrens, just south of the Mor'shan Rampart bordering Ashenvale. She possesses the engineering curiosity needed to inspect and reconstruct strange contraptions."
+  },
+  {
+   "q": "Why are goblins in Undermine interested in it?",
+   "aliases": [
+    "undermine interest",
+    "why do goblins care"
+   ],
+   "answer": "Goblin engineers and entrepreneurs are always eager to reverse-engineer unique mechanical technology. Word of the strange device reached contacts in Undermine, prompting immediate intrigue regarding whatever advantages it might offer."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The samophlange represents an engineer's classic irresistible puzzle: an intricate machine with delicate internal gearing whose purpose can only be determined by taking it apart and getting it running."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The device surfaces amid Horde territories in the Barrens, prompting cooperation between local outposts, tinkerers, and neutral trading contacts."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "broken samophlange",
+  "gears",
+  "mor'shan rampart",
+  "samophlange",
+  "undermine",
+  "wenikee boltbucket"
+ ],
+ "related": [
+  "quest:3921",
+  "quest:894",
+  "subzone:mor-shan-rampart",
+  "zone:barrens",
+  "zone:ashenvale",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Broken Samophlange",
+  "Wenikee Boltbucket (Classic)"
+ ]
+}

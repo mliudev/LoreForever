@@ -1,0 +1,83 @@
+{
+ "key": "item:kodo-liver",
+ "type": "item",
+ "name": "Kodo Liver",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Kodo Liver",
+  "quests": [
+   "quest:822"
+  ]
+ },
+ "summary": "A Kodo Liver is a hefty organ harvested from the massive kodos roaming the plains of the Barrens. While hardly standard culinary fare, Brewmaster Drohn in Ratchet requires it as a vital ingredient for fermenting an unorthodox trogg ale learned from the wandering brewmaster Chen Stormstout.",
+ "sections": [
+  {
+   "title": "A Bizarre Brewing Reagent",
+   "body": "The great kodos of the Barrens are primarily hunted by the tauren and wandering predators for their tough hides and nourishing meat. However, a fresh kodo liver serves a much more eccentric purpose in the port town of Ratchet. Brewmaster Drohn uses the organ alongside thunderhawk saliva glands and lightning glands to recreate a potent brew Chen Stormstout taught him: trogg ale. Drohn claims this unusual blend possesses a formidable kick, providing adventurous travelers with a hearty concoction straight from the wilds of central Kalimdor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Kodo Liver used for?",
+   "aliases": [
+    "kodo liver purpose",
+    "why need kodo liver",
+    "what is kodo liver for"
+   ],
+   "answer": "A Kodo Liver is delivered to Brewmaster Drohn in Ratchet. He incorporates it into a potent trogg ale recipe originally taught to him by the famed pandaren brewmaster Chen Stormstout."
+  },
+  {
+   "q": "Which creatures yield a Kodo Liver?",
+   "aliases": [
+    "where to get kodo liver",
+    "who drops kodo liver",
+    "kodo liver source"
+   ],
+   "answer": "It can be carved from various kodos wandering the open savannah of the Barrens, including common Barrens kodos, wooly kodos, lost kodos, greater kodos, and rare beasts such as Lakota'mani and Brontus."
+  },
+  {
+   "q": "Why would anyone put animal organs in ale?",
+   "aliases": [
+    "why liver in beer",
+    "kodo liver in alcohol"
+   ],
+   "answer": "Brewmaster Drohn brews according to exotic and eccentric recipes passed on by Chen Stormstout. In the case of trogg ale, raw organs like kodo livers and elemental glands give the drink its famous kick and distinct kick-in-the-teeth flavor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "While regular kodo meat provides staple rations across central Kalimdor, a kodo liver is considered far too foul and pungent for standard hearthside cooking\u2014making its inclusion in Ratchet's trogg ale all the more notorious."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Tauren honor every part of the kodo they hunt, but even their most seasoned plainsrunners look askance at the goblins and foreigners turning sacred kodo innards into novelty ale in Ratchet."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "brewing",
+  "chen stormstout",
+  "drohn",
+  "kodo",
+  "kodo liver",
+  "ratchet",
+  "trogg ale"
+ ],
+ "related": [
+  "npc:brewmaster-drohn",
+  "quest:819",
+  "zone:barrens",
+  "subzone:ratchet",
+  "quest:883",
+  "item:lightning-gland",
+  "item:thunderhawk-saliva-gland",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "Kodo Liver",
+  "Chen's Empty Keg (3)"
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "key": "item:voodoo-charm",
+ "type": "item",
+ "name": "Voodoo Charm",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Voodoo Charm",
+  "quests": [
+   "quest:2561"
+  ]
+ },
+ "summary": "The Voodoo Charm is a mystical talisman used within the barrows of Teldrassil to sever a sinister enchantment. Handed to adventurers by the spirit of Oben Rageclaw, it allows his corrupted, puppeted physical form to be permanently released so his soul may rest in the Emerald Dream.",
+ "sections": [
+  {
+   "title": "A Severing of Dark Bonds",
+   "body": "Within the depths of the Gnarlpine barrow dens in Teldrassil, the furbolgs turned to foul magics to control the sleeping forms of sacred kaldorei protectors. The druid Oben Rageclaw found his spirit separated from his flesh, leaving his physical husk enthralled by Gnarlpine sorcery. After examining this enchanted charm, Oben recognizes that the dark tether holding his living vessel cannot simply be dispelled through traditional prayers. Instead, the charm serves as an instrument of final release: once his soulless body is struck down, the charm's magic must be channeled over the fallen form to completely purge the furbolg hold, freeing his wandering spirit to depart for the Emerald Dream forever.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Voodoo Charm?",
+   "aliases": [
+    "what does voodoo charm do",
+    "voodoo charm use",
+    "how to use voodoo charm"
+   ],
+   "answer": "The charm is used to break the Gnarlpine furbolgs' magical control over Oben Rageclaw. After striking down Oben's soulless, enthralled physical body, the talisman must be used directly on his remains to sever the dark enchantment and free his soul."
+  },
+  {
+   "q": "Who gives you the Voodoo Charm?",
+   "aliases": [
+    "where do i get voodoo charm",
+    "who gives the charm",
+    "oben charm"
+   ],
+   "answer": "The spirit of Oben Rageclaw gives you the charm during the quest Druid of the Claw. Having examined the talisman, he instructs you on how it can be used to free him from the Gnarlpine tribe's sorcery."
+  },
+  {
+   "q": "Why is it called a Voodoo Charm in night elf lands?",
+   "aliases": [
+    "why voodoo in teldrassil",
+    "is it troll voodoo"
+   ],
+   "answer": "The Gnarlpine furbolgs of Teldrassil have succumbed to corruption and bizarre tribal magics since the corruption began seeping into the Great Tree. The charm represents foreign or distorted occult magic used by the furbolg tribe to ensnare and puppeteer the bodies of resting druids."
+  },
+  {
+   "q": "What happens after the charm is used?",
+   "aliases": [
+    "what happens to oben",
+    "does oben survive"
+   ],
+   "answer": "Once the charm breaks the enchantment on his body, Oben Rageclaw is finally liberated from the Gnarlpine tribe's grip. With his physical vessel laid to rest, his spirit departs Teldrassil to dwell peacefully forever within the Emerald Dream."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For young druids training in Teldrassil, utilizing the charm to mercy-kill and release a brother Druid of the Claw underscores the tragic vulnerability of leaving one's physical shell behind while traversing the Emerald Dream."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The existence of this charm reveals how deeply the Gnarlpine furbolgs have degenerated, turning sacred kaldorei barrow dens into sites of grotesque spiritual imprisonment."
+  }
+ ],
+ "keywords": [
+  "druid of the claw",
+  "gnarlpine",
+  "oben rageclaw",
+  "teldrassil",
+  "the sleeping druid",
+  "voodoo charm"
+ ],
+ "related": [
+  "quest:2561",
+  "quest:2541",
+  "npc:oben-rageclaw",
+  "topic:druid",
+  "topic:emerald-dream",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Voodoo Charm",
+  "Druid of the Claw (quest)"
+ ]
+}

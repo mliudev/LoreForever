@@ -1,0 +1,97 @@
+{
+ "key": "item:berard-s-journal",
+ "type": "item",
+ "name": "Berard's Journal",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Berard's Journal",
+  "quests": [
+   "quest:450"
+  ]
+ },
+ "summary": "Berard's Journal is a collection of research notes penned by Apothecary Berard before he fell victim to Archmage Arugal's curse. Left behind in Pyrewood Village, the book documents Berard's study of an ancient plague that once wiped out the aquatic life of Lake Lordamere, making it highly valuable to the Royal Apothecary Society.",
+ "sections": [
+  {
+   "title": "Lost Research of Lake Lordamere",
+   "body": "Before Archmage Arugal unleashed his shadow magic across Silverpine Forest, Apothecary Berard was considered one of the Royal Apothecary Society's most promising minds. Stationed in Pyrewood Village, he focused his work on an ancient, virulent blight that had eradicated all aquatic life within Lake Lordamere centuries prior. When Arugal's curse gripped the settlement, Berard's mind was shattered, turning him into another mindless thrall. His detailed field notes remained behind on a bookshelf in his quarters at the Pyrewood Village Inn.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fuel for the New Plague",
+   "body": "Though Berard himself was lost to the Society, his research survived intact. Apothecary Renferrel at the Sepulcher recognizes the journal's strategic value and directs Forsaken agents into the hostile village to recover it. The gathered notes on the ancient lake toxin provide critical groundwork for Master Apothecary Faranell and the Society in the Apothecarium, serving as a vital foundation for concocting the Forsaken's own new plague.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Apothecary Berard?",
+   "aliases": [
+    "who is berard",
+    "berard lore",
+    "apothecary berard"
+   ],
+   "answer": "Apothecary Berard was a gifted member of the Royal Apothecary Society living in Pyrewood Village. He was conducting vital research into historical toxins when Archmage Arugal cast his curse over the region, breaking Berard's mind and enslaving him."
+  },
+  {
+   "q": "Where is Berard's Journal found?",
+   "aliases": [
+    "find berards journal",
+    "journal location",
+    "where is the book"
+   ],
+   "answer": "The journal rests on a bookshelf in Berard's old study, located on the upper floor of the inn within Pyrewood Village, deep in southern Silverpine Forest."
+  },
+  {
+   "q": "What research is recorded in the journal?",
+   "aliases": [
+    "what is in the journal",
+    "berards research",
+    "journal contents"
+   ],
+   "answer": "The journal details Berard's findings on a primordial contagion that completely wiped out all aquatic creatures in Lake Lordamere in ancient times. The Royal Apothecary Society hopes to adapt these toxic properties into their own chemical weapons."
+  },
+  {
+   "q": "Why does Apothecary Renferrel want the journal?",
+   "aliases": [
+    "why does renferrel want it",
+    "renferrel journal quest"
+   ],
+   "answer": "Renferrel seeks to reclaim any useful scientific assets before they are destroyed or lost forever. Berard's unique insights into the Lake Lordamere contagion provide crucial components needed by Master Apothecary Faranell in Undercity to develop the Forsaken's new plague."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Every scrap of venomous lore helps the Royal Apothecary Society secure a weapon capable of defending the Forsaken against both the Scourge and living enemies."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Venturing into Pyrewood Village to reclaim lost research aids the Forsaken in establishing a firm defensive stronghold across Silverpine Forest."
+  }
+ ],
+ "keywords": [
+  "apothecary berard",
+  "apothecary renferrel",
+  "berard's journal",
+  "lake lordamere",
+  "master apothecary faranell",
+  "pyrewood village",
+  "royal apothecary society",
+  "silverpine forest"
+ ],
+ "related": [
+  "quest:447",
+  "npc:apothecary-renferrel",
+  "subzone:pyrewood-village",
+  "topic:royal-apothecary-society",
+  "npc:master-apothecary-faranell",
+  "npc:arugal",
+  "zone:silverpine",
+  "subzone:sepulcher"
+ ],
+ "attribution": [
+  "Berard's Journal",
+  "A Recipe For Death (2)"
+ ]
+}

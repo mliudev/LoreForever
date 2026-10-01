@@ -1,0 +1,93 @@
+{
+ "key": "item:johaan-s-findings",
+ "type": "item",
+ "name": "Johaan's Findings",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Johaan's Findings",
+  "quests": [
+   "quest:445"
+  ]
+ },
+ "summary": "Johaan's Findings is a bundle of research documents penned by Apothecary Johaan in Brill. Entrusted to a courier heading south, these notes convey recent alchemical developments in Tirisfal Glades to Apothecary Renferrel at the Sepulcher.",
+ "sections": [
+  {
+   "title": "Apothecary Correspondence",
+   "body": "The Royal Apothecary Society operates under relentless pressure from Lady Sylvanas Windrunner to engineer a New Plague capable of destroying both the living and the Scourge. Because researchers are scattered across Lordaeron's contested ruins, maintaining a flow of data between outposts is vital. Apothecary Johaan compiles his local testing notes in Brill and dispatches them southward to Apothecary Renferrel, who directs society efforts from the Sepulcher in Silverpine Forest. These records represent one small piece of the Society's collective effort to hone their lethal brews.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Johaan's Findings?",
+   "aliases": [
+    "johaans findings",
+    "what are johaans findings",
+    "johaan research papers"
+   ],
+   "answer": "It is a package of alchemical notes and research compiled by Apothecary Johaan in Brill. The papers detail his recent testing and experiments within Tirisfal Glades."
+  },
+  {
+   "q": "Who is supposed to receive this item?",
+   "aliases": [
+    "who gets johaans findings",
+    "where do i take johaans findings",
+    "renferrel delivery"
+   ],
+   "answer": "The findings are addressed to Apothecary Renferrel, a senior member of the Royal Apothecary Society stationed at the Sepulcher in northern Silverpine Forest."
+  },
+  {
+   "q": "Why is this research being shared between apothecaries?",
+   "aliases": [
+    "why share findings",
+    "purpose of johaans findings",
+    "royal apothecary society research"
+   ],
+   "answer": "The Royal Apothecary Society relies on shared knowledge among its dispersed researchers to accelerate their work. Sylvanas Windrunner demands rapid development of the New Plague, making it essential that researchers in Silverpine stay updated on breakthroughs made back in Tirisfal."
+  },
+  {
+   "q": "Who wrote these documents?",
+   "aliases": [
+    "who is apothecary johaan",
+    "who wrote this",
+    "apothecary johaan"
+   ],
+   "answer": "Apothecary Johaan, an alchemist of the Royal Apothecary Society based near the gallows in Brill. He conducts experimental testing on local specimens to advance Forsaken alchemical goals."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "These findings reflect the singular, driving ambition of the Royal Apothecary Society: delivering the New Plague promised to the Dark Lady."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Carrying research southward marks a traveler's graduation from the familiar grounds of Tirisfal Glades into the darker conflicts of Silverpine Forest."
+  }
+ ],
+ "keywords": [
+  "apothecary johaan",
+  "apothecary renferrel",
+  "brill",
+  "johaan",
+  "johaan's findings",
+  "new plague",
+  "royal apothecary society",
+  "sepulcher"
+ ],
+ "related": [
+  "quest:445",
+  "npc:apothecary-johaan",
+  "npc:apothecary-renferrel",
+  "subzone:sepulcher",
+  "subzone:brill",
+  "topic:royal-apothecary-society",
+  "zone:silverpine",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Johaan's Findings",
+  "Delivery to Silverpine Forest"
+ ]
+}

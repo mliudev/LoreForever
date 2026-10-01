@@ -1,0 +1,96 @@
+{
+ "key": "item:defias-tower-key",
+ "type": "item",
+ "name": "Defias Tower Key",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Defias Tower Key",
+  "quests": [
+   "quest:2359"
+  ]
+ },
+ "summary": "The Defias Tower Key is an item stolen from the monstrous sentries guarding Klaven's Tower in Westfall. Carried by the mutated drones defending the site, it represents vital proof of the Defias Brotherhood's dangerous operations and is sought by Stormwind intelligence operatives.",
+ "sections": [
+  {
+   "title": "A Prize from the Twisted Guard",
+   "body": "Klaven's Tower along the Westfall coastline has long served as a stronghold for the Defias Brotherhood, but recent shipments out of Duskwood brought far more terrifying sentries to its perimeter. Among the guards are malformed Defias drones\u2014undead, spike-ridden abominations created through toxic concoctions. To pierce the defenses and prove the perimeter breached, SI:7 operatives stake out the grounds and mandate that field agents pick the pockets of these grotesque sentinels rather than engage them head-on. The key serves as clear evidence that an infiltrator penetrated the perimeter without sounding an alarm.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uncovering the Duskwood Connection",
+   "body": "Recovering this key marks the first step in unveiling an unnatural conspiracy reaching far beyond typical highway robbery. Inside the tower sits a chest bound with shipments from Duskwood, holding Klaven Mortwake's Journal. When brought to Master Mathias Shaw in Stormwind, the mission reveals how the Defias conspired with the Venture Company to traffic specialized troll poisons discovered by Zanzil the Outcast. These mixtures allow alchemists to simulate undeath, explaining the grotesque, coughing abominations stationed around the tower.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you obtain the Defias Tower Key?",
+   "aliases": [
+    "where do i get the key",
+    "how to get defias tower key",
+    "who drops defias tower key"
+   ],
+   "answer": "The key cannot be looted from a defeated enemy. An operative must sneak close and pickpocket one of the malformed Defias drones guarding the exterior of Klaven's Tower in Westfall."
+  },
+  {
+   "q": "What does the Defias Tower Key open?",
+   "aliases": [
+    "does it open the duskwood chest",
+    "what door does this open",
+    "what does defias key unlock"
+   ],
+   "answer": "The key does not physically unlock the tower door or the Duskwood Chest inside. Instead, it serves as an intelligence token required by Master Mathias Shaw to verify that an operative successfully infiltrated the perimeter undetected."
+  },
+  {
+   "q": "What are the malformed Defias drones guarding the tower?",
+   "aliases": [
+    "who holds the key",
+    "what are the tower guards",
+    "what is the spiked zombie"
+   ],
+   "answer": "They are Defias lackeys twisted into undead abominations using toxic alchemical concoctions originating from Zanzil the Outcast's trolls in Stranglethorn Vale. Their bodies have been drastically altered, leaving them spiked, shambling, and afflicted with damaged lungs."
+  },
+  {
+   "q": "Who sends operatives to retrieve this key?",
+   "aliases": [
+    "who gives the quest",
+    "who wants the key"
+   ],
+   "answer": "Agent Kearnen, an SI:7 scout staking out the perimeter of Klaven's Tower, directs field rogues to acquire the key and retrieve the contents of the Duskwood Chest for Master Mathias Shaw in Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Acquiring the Defias Tower Key is a quintessential trial for rogues working with SI:7, demanding mastery of stealth, pickpocketing, and an understanding of lethal poisons."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing intelligence from Klaven's Tower helps Stormwind unravel the Defias Brotherhood's dealings with the Venture Company and their traffic in dangerous troll toxins."
+  }
+ ],
+ "keywords": [
+  "agent kearnen",
+  "defias tower key",
+  "duskwood chest",
+  "klaven mortwake",
+  "klaven's tower",
+  "malformed defias drone",
+  "mathias shaw",
+  "si:7"
+ ],
+ "related": [
+  "quest:2359",
+  "npc:mathias-shaw",
+  "item:klaven-mortwake-s-journal",
+  "zone:duskwood",
+  "quest:2300",
+  "topic:venture-company",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Defias Tower Key",
+  "Klaven's Tower (quest)"
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "key": "item:fine-crab-chunks",
+ "type": "item",
+ "name": "Fine Crab Chunks",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Fine Crab Chunks",
+  "quests": [
+   "quest:1138"
+  ]
+ },
+ "summary": "Fine Crab Chunks are prime cuts of meat gathered from the coastal crustaceans roaming the beaches of Darkshore. Highly prized for their culinary versatility, they are sought after by local shore-dwellers and hungry fishermen looking to prepare an endless variety of seafood dishes.",
+ "sections": [
+  {
+   "title": "Fruit of the Sea",
+   "body": "The misty, jagged shores of Darkshore are thick with skittering crustaceans, specifically Reef Crawlers and Encrusted Tide Crawlers. While many travelers view these armored shore-prowlers as pests or aggressive hazards along the waterline, enterprising gourmands consider their meat among the finest bounty of the coast. Prized cuts harvested from these creatures yield rich, tender morsels that lend themselves to practically any cooking method imaginable, from boiling and broiling to deep frying and savory stews.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures yield Fine Crab Chunks?",
+   "aliases": [
+    "where do fine crab chunks drop",
+    "which crabs drop chunks",
+    "crab meat source"
+   ],
+   "answer": "They are harvested from the Reef Crawlers and Encrusted Tide Crawlers that roam along the rocky beaches and tidal shallows of Darkshore."
+  },
+  {
+   "q": "Who wants Fine Crab Chunks in Darkshore?",
+   "aliases": [
+    "who needs fine crab chunks",
+    "who turns in crab chunks",
+    "gubber blump crab"
+   ],
+   "answer": "Gubber Blump, an enthusiastic fisherman stationed on the docks of Auberdine, seeks out these choice cuts. An avid lover of seafood, he prizes them for an elaborate repertoire of home-cooked crab dishes."
+  },
+  {
+   "q": "Can you prepare these into actual meals?",
+   "aliases": [
+    "can you cook fine crab chunks",
+    "what can you make with fine crab chunks",
+    "crab recipes"
+   ],
+   "answer": "While these specific raw chunks serve primarily as a supply collected for Gubber Blump rather than a direct crafting recipe ingredient, local culinary tradition treats crab meat as remarkably versatile\u2014suitable for baking, barbecuing, boiling, broiling, frying, and mixing into salads or stews."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Any aspiring shoreline chef will appreciate Gubber Blump's encyclopedic passion for crab, spanning soups, salads, pepper rubs, and regional delicacies like Ironforge surprise crab."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Supplying the dockside residents of Auberdine helps sustain the fragile Alliance outpost amidst the gloomy perils of Darkshore."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "crab",
+  "darkshore",
+  "encrusted tide crawler",
+  "fine crab chunks",
+  "fruit of the sea",
+  "gubber blump",
+  "reef crawler"
+ ],
+ "related": [
+  "quest:1138",
+  "npc:gubber-blump",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Fine Crab Chunks",
+  "Fruit of the Sea"
+ ]
+}

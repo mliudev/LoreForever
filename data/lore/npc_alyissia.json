@@ -1,0 +1,74 @@
+{
+ "key": "npc:alyissia",
+ "type": "npc",
+ "name": "Alyissia",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Alyissia",
+  "refs": 1
+ },
+ "summary": "Alyissia is a kaldorei warrior trainer stationed inside the hollow boughs of Aldrassil in Shadowglen. She guides newly awakened night elf warriors in the fundamentals of martial combat, helping them harness raw strength and discipline to defend their nascent world tree.",
+ "sections": [
+  {
+   "title": "Martial Mentor of Shadowglen",
+   "body": "Standing within the sheltered sanctuary of Aldrassil, Alyissia instructs young night elves who feel drawn to the path of steel and shield rather than nature magic or the priesthood. While the kaldorei military is traditionally renowned for its Sentinels and stealthy archers, the perilous state of modern Kalimdor requires resolute frontline fighters. Alyissia teaches foundational techniques, ensuring that fresh recruits can direct their battle fury, master their stances, and withstand the aggressive wildlife and corrupted grells encroaching on Shadowglen.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Alyissia?",
+   "aliases": [
+    "who is alyissia",
+    "alyissia npc",
+    "what does alyissia do"
+   ],
+   "answer": "Alyissia is a night elf warrior trainer located in Aldrassil, the central sanctuary of Shadowglen. She provides initial guidance, training, and simple martial exercises for fledgling warriors starting their journey in Teldrassil."
+  },
+  {
+   "q": "Where can I find Alyissia?",
+   "aliases": [
+    "alyissia location",
+    "where is alyissia",
+    "find alyissia"
+   ],
+   "answer": "She is stationed on the ground level within the great hollow trunk of Aldrassil, situated at the heart of Shadowglen in Teldrassil."
+  },
+  {
+   "q": "What quests does Alyissia offer?",
+   "aliases": [
+    "alyissia quests",
+    "quests from alyissia"
+   ],
+   "answer": "Alyissia gives introductory training quests to newly arrived night elf warriors, such as Simple Sigil, directing them to practice new combat maneuvers and report to fellow leaders in the boughs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "For young night elf warriors, Alyissia is the very first mentor, providing early stance training and martial discipline before they venture deeper into the wilds of Teldrassil."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Alyissia represents the front-line martial discipline of the kaldorei, readying defenders to protect the roots of Aldrassil from corruption."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "alyissia",
+  "night elf",
+  "shadowglen",
+  "teldrassil",
+  "warrior trainer"
+ ],
+ "related": [
+  "subzone:aldrassil",
+  "quest:3116",
+  "zone:teldrassil",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Alyissia"
+ ]
+}

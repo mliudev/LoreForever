@@ -1,0 +1,95 @@
+{
+ "key": "item:mudsnout-blossom",
+ "type": "item",
+ "name": "Mudsnout Blossom",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Mudsnout Blossom",
+  "quests": [
+   "quest:509"
+  ]
+ },
+ "summary": "Mudsnout Blossoms are pungent, toxic fungal growths found sprouting in Nethander Stead in the Hillsbrad Foothills. Revered by local gnolls and harvested by the Royal Apothecary Society, these foul mushrooms are deadly to the living while surprisingly invigorating to the undead.",
+ "sections": [
+  {
+   "title": "A Toxic Fungus",
+   "body": "Despite their floral name, Mudsnout Blossoms are actually large, foul-smelling mushrooms that flourish primarily in the soiled dirt of Nethander Stead, south of Tarren Mill. They grow amidst the camps of the local Mudsnout gnolls, who defend the territory fiercely. To living organisms, the spores and flesh of the mushroom act as a virulent poison, causing agony and rapid biological deterioration. However, their necrotic nature interacts differently with unlife, granting a rejuvenating reaction to undead bodies.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fuel for the Royal Apothecary Society",
+   "body": "In Tarren Mill, Apothecary Lydon seeks out Mudsnout Blossoms as raw material for his chemical experiments. Under the mandate of Lady Sylvanas Windrunner, the Royal Apothecary Society labors relentlessly to engineer a new plague capable of eradicating both the Scourge and living humanity. The caustic, flesh-withering properties of these mushrooms make them an ideal base component for Lydon's brew, the infamous Elixir of Agony.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Mudsnout Blossom?",
+   "aliases": [
+    "mudsnout blossom lore",
+    "is mudsnout blossom a flower",
+    "what kind of plant is mudsnout blossom"
+   ],
+   "answer": "Despite being called a blossom, it is a large, pungent toxic mushroom found in the damp soil of the Hillsbrad Foothills."
+  },
+  {
+   "q": "Where do Mudsnout Blossoms grow?",
+   "aliases": [
+    "mudsnout blossom location",
+    "where to find mudsnout blossoms",
+    "nethander stead mushrooms"
+   ],
+   "answer": "They grow throughout Nethander Stead, an abandoned farmstead south of Tarren Mill and east of the river that runs past Southshore. The area is heavily infested with Mudsnout gnolls."
+  },
+  {
+   "q": "Why is the Royal Apothecary Society collecting them?",
+   "aliases": [
+    "why does lydon want mudsnout blossoms",
+    "elixir of agony ingredients",
+    "apothecary lydon mushroom"
+   ],
+   "answer": "Apothecary Lydon in Tarren Mill requires them to brew the Elixir of Agony. The Forsaken are researching toxins to help craft a new plague capable of wiping out both the living and the Scourge."
+  },
+  {
+   "q": "What effects does the blossom have on the living versus the undead?",
+   "aliases": [
+    "is mudsnout blossom poisonous",
+    "mudsnout mushroom effects",
+    "are mudsnout blossoms deadly"
+   ],
+   "answer": "The blossoms are acutely toxic and destructive to living flesh and organs, yet their unnatural properties provide a restorative boost to undead physiology."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Forsaken make extensive use of the blossom's toxic properties, harvesting it to refine biochemical weapons for the Royal Apothecary Society while benefiting from its strange restorative effect on dead tissue."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Though botanists and herbalists might mistake its name for a common flower, the Mudsnout Blossom is actually a volatile, foul-smelling fungus prized by toxicologists and dark alchemists."
+  }
+ ],
+ "keywords": [
+  "apothecary lydon",
+  "elixir of agony",
+  "hillsbrad foothills",
+  "mudsnout blossom",
+  "mudsnout gnolls",
+  "nethander stead",
+  "tarren mill"
+ ],
+ "related": [
+  "quest:509",
+  "subzone:nethander-stead",
+  "subzone:tarren-mill",
+  "topic:gnoll",
+  "zone:hillsbrad",
+  "quest:367"
+ ],
+ "attribution": [
+  "Mudsnout Blossom",
+  "Elixir of Agony"
+ ]
+}

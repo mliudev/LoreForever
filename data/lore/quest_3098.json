@@ -1,0 +1,115 @@
+{
+ "key": "quest:3098",
+ "type": "quest",
+ "name": "Glyphic Scroll",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   3098
+  ],
+  "level": "3",
+  "faction": "Horde",
+  "start": "",
+  "end": "",
+  "previous": "Scourge on our Perimeter",
+  "next": "Magic Training",
+  "wiki": "Glyphic Scroll (quest)",
+  "chain": []
+ },
+ "summary": "The Glyphic Scroll is an official summons delivered to newly awakened Forsaken mages in Deathknell. Bearing the seal of the mage trainer Isabella, the parchment directs promising practitioners of the arcane to seek her out in the desecrated village church to hone their volatile powers.",
+ "sections": [
+  {
+   "title": "A Summons to the Arcane",
+   "body": "When a freshly raised Forsaken demonstrates an affinity for arcane magic while culling mindless Scourge around Deathknell, they quickly catch the attention of their elders. Delivered by hand, the Glyphic Scroll is marked with the arcane sigil of Isabella, the local mage instructor. It bids the newly risen practitioner to report to her station within the ruined church, recognizing that unregulated magical aptitude poses as much danger to the Forsaken as it does to their enemies.",
+   "spoiler": 0
+  },
+  {
+   "title": "Wielding Magic in Undeath",
+   "body": "Within the ruined chapel of Deathknell, Isabella instructs fledglings that death has not exempted them from the perils of the arcane. While mortality has stripped away their physical frailties, the volatile pull and corrupting nature of magic linger just as fiercely. For the Forsaken, pursuing arcane dominance is not merely an intellectual pursuit, but an instrument of survival and vengeance\u2014a means to reclaim their destiny and obliterate any who challenge their fragile reclamation of Lordaeron.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Glyphic Scroll?",
+   "aliases": [
+    "glyphic scroll quest",
+    "what is this scroll",
+    "deathknell scroll"
+   ],
+   "answer": "The Glyphic Scroll is an instructional writ bearing the personal seal of Isabella, the Forsaken mage trainer in Deathknell. It instructs newly awakened mages to report to the ruined church to advance their study of the arcane."
+  },
+  {
+   "q": "Who sends the Glyphic Scroll to you?",
+   "aliases": [
+    "who sent the scroll",
+    "who wrote glyphic scroll",
+    "sender of glyphic scroll"
+   ],
+   "answer": "The scroll is dispatched by Isabella, the resident mage trainer in Deathknell, delivered to you after you prove your utility by dealing with the nearby mindless Scourge."
+  },
+  {
+   "q": "Where is Isabella located?",
+   "aliases": [
+    "where is isabella",
+    "find isabella",
+    "deathknell mage trainer location"
+   ],
+   "answer": "Isabella is stationed inside the ruined village church in the center of Deathknell, situated alongside other class mentors offering guidance to newly risen Forsaken."
+  },
+  {
+   "q": "Why does Isabella warn you about magical corruption?",
+   "aliases": [
+    "magic corruption undead",
+    "arcane corruption lore",
+    "why is magic dangerous to undead"
+   ],
+   "answer": "Isabella warns that although the Forsaken are undead, the volatile nature of arcane power remains unchanged. Magic still carries the constant risk of corruption and addiction, requiring discipline and will to master without being consumed."
+  },
+  {
+   "q": "Why is arcane magic important to the Forsaken in Deathknell?",
+   "aliases": [
+    "why do forsaken use magic",
+    "undead mages lore"
+   ],
+   "answer": "Forsaken mages view arcane power as a vital tool to reclaim Lordaeron and secure their autonomy against the mindless Scourge, hostile living mortals, and the Scarlet Crusade."
+  },
+  {
+   "q": "Can any Forsaken class receive this scroll?",
+   "aliases": [
+    "is glyphic scroll mage only",
+    "can warlocks get glyphic scroll",
+    "who gets glyphic scroll"
+   ],
+   "answer": "No. The Glyphic Scroll is given exclusively to Forsaken mages as an introductory summons to their primary class trainer in Deathknell."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "This scroll marks your formal initiation into the ranks of Forsaken mages, linking your magical craft directly to the survival and resurgence of your newly freed people."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken mages wield the arcane with dark purpose, treating magic not as a scholarly game of Dalaran, but as an indispensable weapon to reclaim their stolen homeland."
+  }
+ ],
+ "keywords": [
+  "arcane",
+  "deathknell",
+  "forsaken mage",
+  "glyphic scroll",
+  "isabella",
+  "mage trainer",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:deathknell",
+  "zone:tirisfal",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Glyphic Scroll (quest)"
+ ]
+}

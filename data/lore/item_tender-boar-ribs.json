@@ -1,0 +1,89 @@
+{
+ "key": "item:tender-boar-ribs",
+ "type": "item",
+ "name": "Tender Boar Ribs",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Tender Boar Ribs",
+  "quests": [
+   "quest:384"
+  ]
+ },
+ "summary": "Tender Boar Ribs are hearty cuts of fresh meat harvested from crag boars roaming the snowy hills of Dun Morogh. Prized by dwarven cooks, they serve as the essential main ingredient for the famous tavern specialty served at Kharanos.",
+ "sections": [
+  {
+   "title": "A Kharanos Specialty",
+   "body": "The frigid winds of Dun Morogh demand rich, hearty sustenance, and few meals satisfy a mountain traveler like slow-cooked pork. Tender Boar Ribs are cut from the sturdy crag boars that scavenge among the snowy pines surrounding Kharanos. At the local Thunderbrew Distillery, tavern master Ragnar Thunderbrew transforms these cuts into his celebrated Beer Basted Boar Ribs. Glazed and basted in rich Rhapsody Malt, the ribs are a staple of dwarven hospitality. However, with local trappers away serving in the King's Army on the Alliance front, the tavern frequently relies on roving adventurers to keep the larder stocked.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Tender Boar Ribs come from?",
+   "aliases": [
+    "who drops boar ribs",
+    "where to get boar ribs",
+    "tender boar ribs location"
+   ],
+   "answer": "They are collected from various species of crag boars inhabiting Dun Morogh, particularly in the snowy wilderness surrounding Kharanos."
+  },
+  {
+   "q": "What are these ribs used for?",
+   "aliases": [
+    "what are boar ribs for",
+    "tender boar ribs purpose",
+    "who wants boar ribs"
+   ],
+   "answer": "Ragnar Thunderbrew at the Thunderbrew Distillery in Kharanos seeks these ribs alongside a mug of Rhapsody Malt to prepare his famous Beer Basted Boar Ribs."
+  },
+  {
+   "q": "Why is the tavern master asking travelers to hunt boars?",
+   "aliases": [
+    "why does ragnar need ribs",
+    "why no meat in kharanos"
+   ],
+   "answer": "The regular trapper who supplied the tavern with game enlisted in the King's Army to aid the Alliance war effort, leaving Ragnar without his usual meat supplier."
+  },
+  {
+   "q": "What makes Beer Basted Boar Ribs special?",
+   "aliases": [
+    "rib recipe secret",
+    "why rhapsody malt"
+   ],
+   "answer": "Ragnar's family recipe pairs the tender pork cuts with Rhapsody Malt, a distinctive brew served right out of the distillery taps to create a sweet, savory glaze."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "For any aspiring chef traversing Dun Morogh, securing these ribs is the key to mastering Ragnar Thunderbrew's iconic recipe for Beer Basted Boar Ribs."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Hearty crag boar ribs basted in rich tavern ale capture the very essence of traditional Khaz Modan comfort food."
+  }
+ ],
+ "keywords": [
+  "beer basted boar ribs",
+  "crag boar",
+  "dun morogh",
+  "kharanos",
+  "ragnar thunderbrew",
+  "rhapsody malt",
+  "tender boar ribs"
+ ],
+ "related": [
+  "quest:384",
+  "npc:ragnar-thunderbrew",
+  "subzone:thunderbrew-distillery",
+  "subzone:kharanos",
+  "zone:dunmorogh",
+  "quest:117",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Tender Boar Ribs",
+  "Beer Basted Boar Ribs (quest)"
+ ]
+}

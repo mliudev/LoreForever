@@ -1,0 +1,99 @@
+{
+ "key": "item:zargh-s-meats",
+ "type": "item",
+ "name": "Zargh's Meats",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Zargh's Meats",
+  "quests": [
+   "quest:6365",
+   "quest:6384"
+  ]
+ },
+ "summary": "Zargh's Meats are a parcel of prime, raw cuts prepared by the orc Zargh at the Crossroads. Intended as a personal gift for Innkeeper Gryshka in Orgrimmar, they serve to introduce young Horde travelers to the regional wind rider network.",
+ "sections": [
+  {
+   "title": "A Courier's Cargo",
+   "body": "Prepared by Zargh, a butcher and hunter stationed at the Crossroads in the Barrens, this package contains choice cuts of fresh meat destined for Gryshka, the innkeeper of the Valley of Strength in Orgrimmar. Because fresh game spoils quickly under the dry heat of the savannas, Zargh entrusts the parcel to couriers bound for the Crossroads roost. There, Wind Rider Master Devrak arranges swift aerial transit atop a wyvern directly to Orgrimmar's Skytower, sparing travelers an arduous overland trek through Durotar.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Way to the Heart",
+   "body": "While ostensibly an ordinary delivery of provisions, the shipment carries a fond personal sentiment. Upon receiving the bundle, Gryshka readily notes Zargh's knack for winning a lady's favor through quality game, eagerly preparing to sear the rare cuts for her inn's patrons and guests. For newly arrived orc and troll adventurers, carrying the meats provides an essential introduction to long-distance flight transit between Kalimdor's Horde settlements.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who prepared Zargh's Meats?",
+   "aliases": [
+    "who made zarghs meats",
+    "who is zargh",
+    "where does the meat come from"
+   ],
+   "answer": "The meat is gathered and packed by Zargh, an orc stationed at the Crossroads outpost in the Barrens."
+  },
+  {
+   "q": "Who is the recipient of the meats?",
+   "aliases": [
+    "who gets the meat",
+    "who is gryshka",
+    "where do i deliver zarghs meats"
+   ],
+   "answer": "The cuts are sent to Gryshka, the innkeeper operating the main tavern in Orgrimmar's Valley of Strength."
+  },
+  {
+   "q": "Why must the meat be taken by wind rider?",
+   "aliases": [
+    "why fly the meat",
+    "devrak wind rider meat"
+   ],
+   "answer": "Fresh meat spoils rapidly in the scorching heat of the Barrens and Durotar. Zargh directs couriers to Devrak, the Crossroads flight master, so a wyvern can deliver the parcel to Orgrimmar before it goes bad."
+  },
+  {
+   "q": "Why can only certain races deliver this package?",
+   "aliases": [
+    "why cant tauren get this quest",
+    "undead zarghs meats",
+    "who can deliver zarghs meats"
+   ],
+   "answer": "Orc and troll travelers are entrusted with Zargh's errand to Orgrimmar, whereas Tauren adventurers are directed to Thunder Bluff with animal hides and Forsaken couriers carry supplies back to the Sepulcher."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Delivering Zargh's choice cuts to Gryshka introduces young orcs to their capital's heart in the Valley of Strength and teaches the necessity of aerial wyvern routes."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Prized by Innkeeper Gryshka, these fresh cuts demonstrate the orcish culinary preference for rare, minimally cooked red meat sourced straight from the wild beasts of the Barrens."
+  }
+ ],
+ "keywords": [
+  "crossroads",
+  "devrak",
+  "gryshka",
+  "meats",
+  "orgrimmar",
+  "valley of strength",
+  "wind rider",
+  "zargh"
+ ],
+ "related": [
+  "quest:6365",
+  "quest:6384",
+  "npc:zargh",
+  "npc:devrak",
+  "subzone:crossroads",
+  "zone:orgrimmar",
+  "subzone:valley-of-strength",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Zargh's Meats",
+  "Meats to Orgrimmar (Classic)",
+  "Ride to Orgrimmar (Classic)"
+ ]
+}

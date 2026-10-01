@@ -1,0 +1,137 @@
+{
+ "key": "topic:shaman",
+ "type": "topic",
+ "name": "Shaman",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Shaman"
+ },
+ "summary": "Shaman are the spiritual mediators and elemental guides of the Horde, communing with the primordial forces of earth, air, fire, and water. Balancing raw nature through totems, lightning, and ancestral healing, they serve as the spiritual core of orc, tauren, and troll culture under the leadership of Warchief Thrall.",
+ "sections": [
+  {
+   "title": "Mediators of the Elements",
+   "body": "Unlike priests who revere the divine or mages who bend the arcane, shaman interact directly with the primal forces of nature. The elements of earth, air, fire, and water are inherently chaotic and locked in perpetual conflict. A shaman does not enslave these forces, but petitions and negotiates with them, serving as a balance keeper between primal fury and the mortal world. Through wooden and stone totems planted into the soil, shaman channel these elemental bargains to protect allies, hinder foes, or mend the wounded with cleansing water.",
+   "spoiler": 0
+  },
+  {
+   "title": "Loss and Rebirth Among Orcs",
+   "body": "Shamanism was once the ancient foundation of orcish clan life on Draenor. However, Kil'jaeden and the Shadow Council deceived the shamans into war against the draenei, causing the elemental spirits to withdraw their favor. Stripped of their gifts, many former shaman succumbed to demonic corruption and became warlocks, nearly extinguishing the tradition entirely. Only after the Second War did Thrall, guided by Drek'Thar of the Frostwolf clan, rediscover the ancient rites. Thrall's ascension as Warchief revitalized shamanism, elevating it into the moral compass of the New Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "Traditions of the Horde",
+   "body": "Across Kalimdor, shamanic traditions vary widely among the Horde's allied peoples. Tauren mystics, who founded the ancient Earthen Ring over two centuries ago, treat communion with the earth and the spirits as a sacred cultural anchor. Darkspear trolls approach the discipline through reverence for the loa and ancestral wild spirits, weaving voodoo and nature rites together. Across all these tribal borders, shaman stand as essential community elders, advisers, and fearsome front-line defenders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Which races can become shaman?",
+   "aliases": [
+    "who can be shaman",
+    "shaman races",
+    "can alliance be shaman"
+   ],
+   "answer": "In Kalimdor and the Eastern Kingdoms, shamanism is practiced exclusively within the Horde by orcs, tauren, and trolls. The Alliance possesses no tradition of elemental shamanism."
+  },
+  {
+   "q": "How do shaman get their magic?",
+   "aliases": [
+    "how does shaman magic work",
+    "shaman source of power",
+    "where do totems come from"
+   ],
+   "answer": "Shaman derive their power through communion with the elemental spirits of earth, air, fire, and water, as well as the spirits of their ancestors. Rather than commanding these energies by force, a shaman asks for their aid and balances their chaotic nature, often anchoring these connections through ritual totems."
+  },
+  {
+   "q": "Why did the orcs lose their shaman powers before the First War?",
+   "aliases": [
+    "why did orc shaman become warlocks",
+    "draenor shaman fall",
+    "kiljaeden trick shaman"
+   ],
+   "answer": "The demon lord Kil'jaeden impersonated ancestral spirits to trick the orc shamans into attacking the peaceful draenei. Offended by the senseless slaughter, the elemental spirits of Draenor severed ties and refused to answer calls. Left defenseless, many desperate shaman turned to fel magic and became warlocks."
+  },
+  {
+   "q": "Who brought shamanism back to the orcs?",
+   "aliases": [
+    "who revived shamanism",
+    "thrall and drek'thar shaman",
+    "shaman return"
+   ],
+   "answer": "Thrall, the son of Durotan, sought out the Frostwolf clan in the Alterac Mountains. Under the tutelage of the elder shaman Drek'Thar, Thrall learned the ancient spiritual bonds, breaking the demonic lethargy that plagued his people and reinstating shamanism as the heart of the New Horde."
+  },
+  {
+   "q": "What is the Earthen Ring?",
+   "aliases": [
+    "earthen ring lore",
+    "who are earthen ring",
+    "shaman faction"
+   ],
+   "answer": "The Earthen Ring is an ancient organization of shaman founded centuries ago by the tauren. Its practitioners dedicate themselves to maintaining harmony among the volatile elemental spirits and healing regions afflicted by spiritual unrest."
+  },
+  {
+   "q": "How does a shaman differ from a druid?",
+   "aliases": [
+    "druid vs shaman",
+    "difference between druid and shaman",
+    "shaman or druid"
+   ],
+   "answer": "Druids commune with the Emerald Dream, plant life, and animal spirits to safeguard the living cycle of nature. Shaman instead moderate the inanimate, primordial elements of the physical world\u2014earth, fire, water, and wind\u2014alongside the ancestral spirits of the dead."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Your powers are granted through mutual respect with fickle elemental spirits and ancestors; maintaining balance is both your martial duty and your spiritual burden."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Shamanism represents the spiritual renaissance of the Horde, providing a path of honor and nature worship that replaced demonic corruption."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Tauren have practiced shamanism for generations through the Earthen Ring, serving as patient spiritual anchors for the younger cultures of the Horde."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Reclaiming the path of the shaman allowed the orcs to overcome the lethargy of the internment camps and reclaim their ancestral heritage."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear shaman channel the primal elements through their tribal traditions, bridging the reverence of nature spirits and ancient loa."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance forces view shaman with wariness, encountering them on the battlefield as fierce warriors whose totems command lightning, tremors, and sudden healing."
+  }
+ ],
+ "keywords": [
+  "air",
+  "ancestors",
+  "drek'thar",
+  "earth",
+  "earthen ring",
+  "elements",
+  "fire",
+  "primal",
+  "shaman",
+  "thrall",
+  "totem",
+  "water"
+ ],
+ "related": [
+  "npc:thrall",
+  "topic:tauren",
+  "topic:darkspear-tribe",
+  "topic:new-horde",
+  "topic:horde",
+  "topic:druid",
+  "topic:burning-legion",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Shaman"
+ ]
+}

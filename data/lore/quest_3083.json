@@ -1,0 +1,125 @@
+{
+ "key": "quest:3083",
+ "type": "quest",
+ "name": "Encrypted Tablet",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   3083
+  ],
+  "level": "1",
+  "faction": "Horde",
+  "start": "Gornek",
+  "end": "Rwag",
+  "previous": "Cutting Teeth",
+  "next": null,
+  "wiki": "Encrypted Tablet (quest)",
+  "chain": []
+ },
+ "summary": "The Encrypted Tablet is a summons delivered by Gornek to aspiring rogues training within the Valley of Trials. Written in cipher, the message directs novice cutpurses to Rwag, the covert operative in the Den who oversees rogue instruction and ties to the Shattered Hand.",
+ "sections": [
+  {
+   "title": "A Coded Summons",
+   "body": "Once an initiate proves their mettle against the local wildlife, Gornek hands over an Encrypted Tablet delivered specifically for them. Rather than plain speech, the message is locked in cipher\u2014a test and a precaution fitting for those who practice the arts of stealth, poison, and subterfuge. It invites the recruit to descend into the Den to meet Rwag, the trainer responsible for shaping rogues, thieves, and cutpurses for the Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shadow of the Hand",
+   "body": "Upon decoding the instructions and entering the Den, initiates find Rwag, an agent aligned with the Shattered Hand. While he assures newly recruited rogues that the guild will not dictate their every breath, he warns that the Hand holds him accountable should an apprentice fail to perform. In a fledgling nation surrounded by foes, the Horde relies heavily on silent scouts and agile cutpurses to gather intelligence and eliminate threats from the shadows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Encrypted Tablet?",
+   "aliases": [
+    "what does the tablet do",
+    "encrypted tablet purpose",
+    "why encrypted tablet"
+   ],
+   "answer": "It serves as an introductory summons for novice rogues in the Valley of Trials, directing them to seek out their class trainer, Rwag, inside the Den."
+  },
+  {
+   "q": "Who delivers the tablet to the player?",
+   "aliases": [
+    "who gives the encrypted tablet",
+    "tablet quest giver",
+    "gornek tablet"
+   ],
+   "answer": "Gornek, the overseer of trials in the valley, gives the tablet to you once you have completed your initial combat trial killing Mottled Boars."
+  },
+  {
+   "q": "Where can Rwag be found?",
+   "aliases": [
+    "rwag location",
+    "where is rwag",
+    "find rwag"
+   ],
+   "answer": "Rwag is located deep inside the Den, the dark cavern complex nestled along the northern cliffside of the Valley of Trials."
+  },
+  {
+   "q": "What is 'the Hand' mentioned by Rwag?",
+   "aliases": [
+    "what is the hand",
+    "shattered hand rwag",
+    "who is the hand"
+   ],
+   "answer": "Rwag is referring to the Shattered Hand, the covert network and guild of assassins, spies, and rogues serving Warchief Thrall's Horde."
+  },
+  {
+   "q": "Why is the tablet written in an encrypted cipher?",
+   "aliases": [
+    "why encrypted",
+    "why cipher",
+    "rogue tablet code"
+   ],
+   "answer": "The cipher ensures that sensitive rogue business and the identities of their handlers remain hidden from prying eyes, testing the initiate's ability to handle discreet missives."
+  },
+  {
+   "q": "Can any class undertake this quest?",
+   "aliases": [
+    "is encrypted tablet rogue only",
+    "can warriors do encrypted tablet",
+    "tablet class restriction"
+   ],
+   "answer": "No. The Encrypted Tablet is specifically reserved for troll rogues beginning their journey in the Valley of Trials."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This tablet marks your formal induction into the covert operations of Durotar, putting you in direct contact with your first mentor, Rwag, and introducing the subtle reach of the Shattered Hand."
+  },
+  {
+   "target": "race:Orc",
+   "text": "While traditional orc culture honors open battlefield combat, orc rogues play an indispensable role as scouts and infiltrators under the modern Horde."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear rogues combine jungle tracking instincts with the bladecraft taught by mentors in the Den, establishing their quiet utility among their orc allies."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "encrypted tablet",
+  "gornek",
+  "rogue trainer",
+  "rwag",
+  "shattered hand",
+  "the den",
+  "valley of trials"
+ ],
+ "related": [
+  "npc:rwag",
+  "npc:gornek",
+  "quest:cutting-teeth",
+  "subzone:valley-of-trials",
+  "quest:1089",
+  "zone:durotar",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Encrypted Tablet (quest)"
+ ]
+}

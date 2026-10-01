@@ -1,0 +1,92 @@
+{
+ "key": "item:phial-of-scrying",
+ "type": "item",
+ "name": "Phial of Scrying",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Phial of Scrying",
+  "quests": [
+   "quest:944"
+  ]
+ },
+ "summary": "The Phial of Scrying is an enchanted vessel provided by the ancient protector Onu in Darkshore. When used, it manifests a scrying bowl that allows distant communion across the corrupted woodlands.",
+ "sections": [
+  {
+   "title": "A Lens Across Darkshore",
+   "body": "Entrusted to scouts investigating deep within Darkshore, the Phial of Scrying contains mystical waters that conjures a temporary scrying bowl upon the earth. This tool enables long-distance divination, allowing travelers venturing into perilous reaches like the Master's Glaive to commune directly with Onu without immediately journeying back to his grove.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uncovering the Cult",
+   "body": "Onu provides the phial specifically to monitor the unsettling presence of the Twilight's Hammer cultists. By establishing a scrying link at the site of the ancient fallen master impaled by an enormous glaive, the scout confirms that dark cultists are actively gathering around the ancient remains, seeking slivers of forgotten power that linger even in death.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Phial of Scrying do?",
+   "aliases": [
+    "use phial of scrying",
+    "scrying bowl function",
+    "what is this phial for"
+   ],
+   "answer": "When uncorked, the phial manifests a magical scrying bowl on the ground, allowing an adventurer in the field to contact and speak with the ancient protector Onu across vast distances."
+  },
+  {
+   "q": "Who provides the Phial of Scrying?",
+   "aliases": [
+    "who gives phial of scrying",
+    "where do i get the phial"
+   ],
+   "answer": "The ancient treant Onu entrusts the phial to scouts in Darkshore when tasking them with reconnoitering the Master's Glaive to the south."
+  },
+  {
+   "q": "What happens if the phial is lost or exhausted?",
+   "aliases": [
+    "lost phial of scrying",
+    "get another phial",
+    "replace phial"
+   ],
+   "answer": "If the phial is lost or used before completing your mission, Onu can provide another while he is meditating in Darkshore."
+  },
+  {
+   "q": "Why is Onu scrying into the Master's Glaive?",
+   "aliases": [
+    "why scry master's glaive",
+    "onu glaive mission"
+   ],
+   "answer": "Onu suspects the Twilight's Hammer cult is gathering at the Master's Glaive to tap into remnants of dark power left behind by the ancient entity impaled there."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves of Darkshore, ancient tools of divination like scrying waters are vital for maintaining vigilance over holy woodlands encroached upon by alien cults."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids recognize scrying bowls as a harmonious blend of natural water and communion magic, allowing the forest's wardens to exchange whispers across corrupted ground."
+  }
+ ],
+ "keywords": [
+  "darkshore",
+  "master's glaive",
+  "onu",
+  "phial of scrying",
+  "scrying bowl",
+  "twilight's hammer"
+ ],
+ "related": [
+  "quest:944",
+  "quest:950",
+  "quest:960",
+  "subzone:master-s-glaive",
+  "zone:darkshore",
+  "topic:twilight-s-hammer"
+ ],
+ "attribution": [
+  "Phial of Scrying",
+  "The Master's Glaive (quest)"
+ ]
+}

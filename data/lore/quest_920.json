@@ -1,0 +1,115 @@
+{
+ "key": "quest:920",
+ "type": "quest",
+ "name": "Tenaron's Summons",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   920
+  ],
+  "level": "5",
+  "faction": "Alliance",
+  "start": "Gilshalan Windwalker",
+  "end": "Tenaron Stormgrip",
+  "previous": "Webwood Egg (quest)",
+  "next": "Crown of the Earth",
+  "wiki": "Tenaron's Summons",
+  "chain": []
+ },
+ "summary": "Tenaron's Summons marks a crucial transition for young night elves in Shadowglen. After assisting Gilshalan Windwalker with local woodland perils, you are called to ascend the massive boughs of Aldrassil to confer with Tenaron Stormgrip. This summons marks the moment a novice leaves minor local chores behind to confront the deeper spiritual afflictions touching Teldrassil.",
+ "sections": [
+  {
+   "title": "A Call to the Boughs",
+   "body": "Having proven your capability handling the venomous spiders and corrupted wildlife stirring in the glen, your efforts do not go unnoticed. Gilshalan Windwalker passes word that Tenaron Stormgrip himself has requested your presence. Even among the exceptionally long-lived night elves, keeping an elder druid waiting atop the great tree Aldrassil is considered poor form.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ascending Aldrassil",
+   "body": "Tenaron waits in the highest chamber of Aldrassil, looking out over the verdant boughs of Shadowglen. Answering this summons leads directly into larger matters of stewardship: the cleansing of Teldrassil's moonwells and the investigation of the unnatural corruption creeping into the World Tree's fledgling ecosystem.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tenaron Stormgrip?",
+   "aliases": [
+    "who is tenaron",
+    "tenaron stormgrip lore"
+   ],
+   "answer": "Tenaron Stormgrip is an influential night elf druid residing in the uppermost chamber of Aldrassil in Shadowglen. He oversees the spiritual care of the glen and coordinates efforts to monitor and cleanse Teldrassil's sacred waters."
+  },
+  {
+   "q": "Where do I find Tenaron Stormgrip?",
+   "aliases": [
+    "find tenaron",
+    "tenaron location",
+    "where is tenaron"
+   ],
+   "answer": "He is located in the topmost room of Aldrassil, the great hollow trunk-city in Shadowglen. You must climb the winding ramps inside the tree to reach his vantage point near the crown."
+  },
+  {
+   "q": "Why does Tenaron summon me?",
+   "aliases": [
+    "why summons",
+    "what does tenaron want"
+   ],
+   "answer": "Once you have proved your worth dealing with the blighted wildlife below, Tenaron entrusts you with greater responsibilities\u2014specifically investigating the sacred moonwells and testing their waters for signs of corruption."
+  },
+  {
+   "q": "What happens after this quest?",
+   "aliases": [
+    "next quest",
+    "what comes after tenaron's summons"
+   ],
+   "answer": "Answering the summons leads immediately into the Crown of the Earth questline, where Tenaron tasks you with collecting water samples from the moonwells across Teldrassil to check on the tree's health."
+  },
+  {
+   "q": "Who sends you to Tenaron?",
+   "aliases": [
+    "who gives the quest",
+    "gilshalan windwalker"
+   ],
+   "answer": "Gilshalan Windwalker gives you the summons once you finish assisting him with the venom-crazed Webwood spiders threatening the lower hollows of Shadowglen."
+  },
+  {
+   "q": "What is Aldrassil?",
+   "aliases": [
+    "aldrassil lore",
+    "what is aldrassil"
+   ],
+   "answer": "Aldrassil is the immense bough-tree nestled inside the secluded valley of Shadowglen, serving as the central settlement and training sanctuary for young night elf adventurers on Teldrassil."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "This summons marks your coming of age among the kaldorei, moving from simple woodland defense to direct service to the elders tending the World Tree."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Reporting to Tenaron Stormgrip is an essential step toward learning how the druidic balance of Teldrassil is monitored and maintained."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "gilshalan",
+  "shadowglen",
+  "stormgrip",
+  "summons",
+  "teldrassil",
+  "tenaron",
+  "windwalker"
+ ],
+ "related": [
+  "npc:tenaron-stormgrip",
+  "subzone:aldrassil",
+  "quest:921",
+  "npc:gilshalan-windwalker",
+  "subzone:shadowglen",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Tenaron's Summons"
+ ]
+}

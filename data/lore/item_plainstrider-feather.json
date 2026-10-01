@@ -1,0 +1,92 @@
+{
+ "key": "item:plainstrider-feather",
+ "type": "item",
+ "name": "Plainstrider Feather",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Plainstrider Feather",
+  "quests": [
+   "quest:747"
+  ]
+ },
+ "summary": "Plucked from the swift birds roaming the plains of Mulgore, Plainstrider Feathers are essential materials gathered by young hunters on Red Cloud Mesa. The tauren of Camp Narache use them primarily for crafting clothing and tribal adornments, while honoring the creatures that provide for the village.",
+ "sections": [
+  {
+   "title": "A Hunter's First Offering",
+   "body": "On Red Cloud Mesa, young tauren learn early that survival relies on keen tracking and hunting. Plainstriders run wild across the grassy plateau, offering both sustenance and practical materials. Plucking their sturdy feathers allows the camp to craft traditional garments and gear. Presenting these feathers alongside fresh meat to Grull Hawkwind demonstrates respect for the tribe's needs and serves as the very first test toward being recognized by Chief Hawkwind and welcomed in Thunder Bluff.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Plainstrider Feathers used for?",
+   "aliases": [
+    "feather purpose",
+    "plainstrider feather use",
+    "why collect feathers"
+   ],
+   "answer": "The tauren of Camp Narache use them primarily for making clothing and ceremonial items. Grull Hawkwind collects them from novice hunters to restock tribal supplies."
+  },
+  {
+   "q": "Who gathers Plainstrider Feathers on Red Cloud Mesa?",
+   "aliases": [
+    "who wants feathers",
+    "who needs feathers",
+    "grull hawkwind feathers"
+   ],
+   "answer": "Grull Hawkwind requests them on behalf of Camp Narache to replenish village stores and to test whether young hunters possess the discipline needed to provide for the tribe."
+  },
+  {
+   "q": "Where can plainstriders be found?",
+   "aliases": [
+    "where to find plainstriders",
+    "plainstrider location",
+    "feather farm"
+   ],
+   "answer": "They roam the open grasslands across Red Cloud Mesa and throughout the rolling plains of Mulgore."
+  },
+  {
+   "q": "Why does Grull Hawkwind require these feathers for tribal rites?",
+   "aliases": [
+    "the hunt begins lore",
+    "proving hunt tauren",
+    "why hunt plainstriders"
+   ],
+   "answer": "Hunting is a cornerstone of tauren culture, undertaken both for survival and sport. Successfully returning with meat and plumage proves to Chief Hawkwind that an initiate can sustain the tribe before venturing onward to Thunder Bluff."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For a young tauren, harvesting feathers from a plainstrider is an essential first lesson in taking nothing from the Earth Mother's creatures for granted, utilizing every part of the kill for food and clothing."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Stalking swift plainstriders across Red Cloud Mesa provides an initiate's foundational trial in patience, tracking, and honoring the quarry."
+  }
+ ],
+ "keywords": [
+  "camp narache",
+  "feather",
+  "grull hawkwind",
+  "mulgore",
+  "plainstrider",
+  "red cloud mesa",
+  "the hunt begins"
+ ],
+ "related": [
+  "quest:747",
+  "item:plainstrider-meat",
+  "npc:grull-hawkwind",
+  "subzone:camp-narache",
+  "zone:mulgore",
+  "npc:chief-hawkwind",
+  "topic:tauren",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Plainstrider Feather",
+  "The Hunt Begins"
+ ]
+}

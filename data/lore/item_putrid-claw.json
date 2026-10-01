@@ -1,0 +1,84 @@
+{
+ "key": "item:putrid-claw",
+ "type": "item",
+ "name": "Putrid Claw",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Putrid Claw",
+  "quests": [
+   "quest:404"
+  ]
+ },
+ "summary": "Putrid Claws are the decaying hands severed from mindless undead prowling the woods west of Brill. Deathguard Dillinger collects them as definitive proof that the encroaching Scourge threat near the old bridge is being held at bay.",
+ "sections": [
+  {
+   "title": "Trophy of the Mindless",
+   "body": "Even in their own homeland, the Forsaken are not entirely safe from the Lich King's reach. Pockets of mindless Scourge\u2014rotting dead and ravaged corpses\u2014regularly wander across the eastern borders into Tirisfal Glades, clustering along roads and near the old bridge west of Brill. To ensure the safety of travelers and garrison supply lines, the Deathguards place bounties on these wandering horrors. A severed putrid claw serves as unmistakable, physical evidence that one more shambling corpse has been put down for good.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are putrid claws used for?",
+   "aliases": [
+    "putrid claw use",
+    "why collect putrid claws",
+    "who wants putrid claws"
+   ],
+   "answer": "Deathguard Dillinger stationed in Brill collects them as bounties to confirm that local Forsaken recruits are thinning out the Scourge wandering Tirisfal Glades."
+  },
+  {
+   "q": "Where do putrid claws come from?",
+   "aliases": [
+    "where to get putrid claws",
+    "putrid claw drops",
+    "rotting dead drops"
+   ],
+   "answer": "They are harvested from the rotting dead and ravaged corpses roaming the haunted woods west of Brill, particularly near the old river bridge."
+  },
+  {
+   "q": "Why is the Scourge in Tirisfal Glades?",
+   "aliases": [
+    "why are zombies near brill",
+    "scourge in tirisfal"
+   ],
+   "answer": "Following the devastation of Lordaeron, remnants of the Lich King's mindless Scourge continuously trickle westward across the borders into Tirisfal, menacing roads and settlements unless actively culled."
+  },
+  {
+   "q": "Why don't the Forsaken just let the mindless undead wander?",
+   "aliases": [
+    "forsaken vs mindless zombies",
+    "why kill other undead"
+   ],
+   "answer": "Unlike the Forsaken, who broke free under Queen Sylvanas and regained their will, the mindless Scourge obey only dark instincts or the Lich King's lingering command, attacking any living or free undead on sight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For fresh Forsaken initiates leaving Deathknell, clearing these mindless Scourge is an early reminder that liberation comes with constant defense against the mindless husks they once resembled."
+  }
+ ],
+ "keywords": [
+  "a putrid task",
+  "brill",
+  "deathguard dillinger",
+  "putrid claw",
+  "ravaged corpse",
+  "rotting dead",
+  "scourge",
+  "tirisfal glades"
+ ],
+ "related": [
+  "quest:404",
+  "npc:deathguard-dillinger",
+  "subzone:brill",
+  "zone:tirisfal",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Putrid Claw",
+  "A Putrid Task (Classic)"
+ ]
+}

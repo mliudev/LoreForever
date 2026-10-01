@@ -1,0 +1,94 @@
+{
+ "key": "item:lunar-fungus",
+ "type": "item",
+ "name": "Lunar Fungus",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Lunar Fungus",
+  "quests": [
+   "quest:6123"
+  ]
+ },
+ "summary": "Lunar Fungus is a potent medicinal growth harvested from fungal blooms deep within Darkshore's cavern systems. Druid initiates collect these mushrooms alongside common herbs to brew a restorative salve capable of treating diseased wildlife.",
+ "sections": [
+  {
+   "title": "Properties and Ecology",
+   "body": "Harvested from Lunar Fungal Blooms, this distinctive fungus thrives in dark, subterranean caverns across Darkshore. The Cenarion Circle values it for its amplifying effects; when blended with a soothing water base and common Earthroot, the fungus provides the necessary potency to create an effective counteragent against debilitating afflictions. Because it grows primarily in damp underground spaces frequented by territorial moonkin, obtaining it requires careful navigation of the untamed wilderness.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Lesson in Healing",
+   "body": "In Auberdine, Alanndarian Nightsong directs young druids to harvest Lunar Fungus as part of their studies into nature's restorative arts. By witnessing how physical reagents like this fungus counteract virulent poisons in the local deer, initiates learn the underlying principles of herbal remedies before advancing to channel natural antidotes directly through shapeshifting and raw spiritual power.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Lunar Fungus used for?",
+   "aliases": [
+    "lunar fungus purpose",
+    "what does lunar fungus do",
+    "why collect lunar fungus"
+   ],
+   "answer": "Lunar Fungus provides curative potency when preparing a restorative salve. Alanndarian Nightsong combines it with Earthroot and clean water to treat sickened deer throughout the wilds of Darkshore."
+  },
+  {
+   "q": "Where does Lunar Fungus grow?",
+   "aliases": [
+    "lunar fungus location",
+    "where to find lunar fungus",
+    "lunar fungus blooms"
+   ],
+   "answer": "It sprouts from Lunar Fungal Blooms nestled within the caves east of Auberdine in Darkshore. These dark caverns are shared with irritable moonkin that defend their territory from intruders."
+  },
+  {
+   "q": "Who requires this fungus in Auberdine?",
+   "aliases": [
+    "who needs lunar fungus",
+    "auberdine herbal quest"
+   ],
+   "answer": "The druid Alanndarian Nightsong requests Lunar Fungus from students of the wild as part of their training, utilizing its natural medicinal properties to formulate remedies for ailing forest animals."
+  },
+  {
+   "q": "Why do druid initiates have to gather physical herbs to cure poison?",
+   "aliases": [
+    "why druids gather herbs",
+    "druid poison cure training"
+   ],
+   "answer": "Understanding physical antidotes is a fundamental step in druidic education. By gathering wild reagents like Lunar Fungus and observing how specific ingredients counteract specific toxins, students grasp the principles of healing before learning to purge poisons directly through spiritual magic."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Young druids seek out Lunar Fungus in Darkshore's caves as part of their foundational rites to master curative magic and heal poisoned wildlife."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Tending the corrupted woodland creatures around Auberdine with native remedies like Lunar Fungus is an ongoing duty for the guardians of Darkshore."
+  }
+ ],
+ "keywords": [
+  "alanndarian nightsong",
+  "auberdine",
+  "cure poison",
+  "darkshore",
+  "earthroot",
+  "lunar fungal bloom",
+  "lunar fungus"
+ ],
+ "related": [
+  "quest:6123",
+  "quest:6125",
+  "npc:alanndarian-nightsong",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "topic:druid",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Lunar Fungus",
+  "Gathering the Cure (Alliance)"
+ ]
+}

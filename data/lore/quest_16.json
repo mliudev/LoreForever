@@ -17,11 +17,11 @@
   "wiki": "Give Gerard a Drink",
   "chain": []
  },
- "summary": "Give Gerard a Drink is a straightforward favor for Gerard Tiller, a farmer toiling in the fields of Northshire Valley. Looking to quench his thirst under the sun, he trades basic produce in exchange for bottles of fresh spring water. It offers young adventurers an early lesson in barter and supporting local laborers.",
+ "summary": "Give Gerard a Drink is a straightforward favor for Gerard Tiller, a farmer toiling at the Maclure Vineyards in Elwynn Forest. Looking to quench his thirst under the sun, he trades basic produce in exchange for bottles of fresh spring water. It offers young adventurers an early lesson in barter and supporting local laborers.",
  "sections": [
   {
-   "title": "Thirsty Work in the Abbey Fields",
-   "body": "Northshire Valley produces much of the grain, fruit, and vegetables consumed by the Abbey's clergy and the nearby garrisons. Tending the rows of crops under the open sky is grueling, hot work. Gerard Tiller spends long days out in the dirt, keeping the pests away and managing the harvests. With little time to run back and forth to the abbey's cellars or wells, he relies on passing recruits to bring him clean spring water to keep going.",
+   "title": "Thirsty Work in the Vineyard Fields",
+   "body": "The farms of Elwynn Forest produce much of the grain, fruit, and vegetables consumed by Stormwind's townsfolk and garrisons. Tending the rows of crops under the open sky is grueling, hot work. Gerard Tiller spends long days out in the dirt at the Maclure Vineyards, keeping the pests away and managing the harvests. With little time to run back and forth to town wells, he relies on passing recruits to bring him clean spring water to keep going.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "who is tiller",
     "gerard"
    ],
-   "answer": "Gerard Tiller is a humble farmer working the agricultural plots in Northshire Valley, just outside Northshire Abbey. He manages the fields and orchards that supply the local residents."
+   "answer": "Gerard Tiller is a humble farmer working the agricultural plots at the Maclure Vineyards in southern Elwynn Forest. He manages the fields and orchards that supply the local residents."
   },
   {
    "q": "Why does Gerard need water?",
@@ -74,16 +74,16 @@
     "what do i get",
     "trade reward"
    ],
-   "answer": "In exchange for fresh water, Gerard trades bundles of freshly harvested Red-speckled Apples from the Northshire orchards."
+   "answer": "In exchange for fresh water, Gerard trades a Shiny Red Apple."
   },
   {
-   "q": "Where is Gerard located in Northshire?",
+   "q": "Where is Gerard located?",
    "aliases": [
     "gerard tiller location",
     "where is gerard",
     "where is the farm"
    ],
-   "answer": "He can be found working the cultivated fields directly south and east of Northshire Abbey in northern Elwynn Forest."
+   "answer": "He can be found outside the barn at the Maclure Vineyards in southern Elwynn Forest."
   }
  ],
  "angles": [

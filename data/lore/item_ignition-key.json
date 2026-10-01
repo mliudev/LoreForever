@@ -1,0 +1,87 @@
+{
+ "key": "item:ignition-key",
+ "type": "item",
+ "name": "Ignition Key",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Ignition Key",
+  "quests": [
+   "quest:858"
+  ]
+ },
+ "summary": "The Ignition Key is an essential control key carried by Supervisor Lugwizzle at the Venture Company's drilling operation in Sludge Fen. It is required to unlock the steering column and activate the controls of an advanced Venture Company shredder.",
+ "sections": [
+  {
+   "title": "A Missing Piece of Espionage",
+   "body": "When Sputtervalve of Ratchet dispatched an operative to steal a proprietary Venture Company shredder from Sludge Fen, things did not go smoothly. The undercover pilot, Wizzlecrank, managed to slip into the machine's cockpit only to find its movement column completely locked down. To keep suspicious foremen from catching on, he feigned mechanical troubles while awaiting an adventurer to retrieve the necessary Ignition Key. The key remains held under lock and key by Supervisor Lugwizzle high atop the central oil derrick, controlling access to the machine's state-of-the-art arm, speed, and rotation mechanisms.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can the Ignition Key be found?",
+   "aliases": [
+    "ignition key location",
+    "who drops ignition key",
+    "how to get ignition key"
+   ],
+   "answer": "The key is kept by Supervisor Lugwizzle, who oversees the drilling work from the control room perched at the top of the oil derrick in Sludge Fen."
+  },
+  {
+   "q": "Why does Wizzlecrank need this specific key?",
+   "aliases": [
+    "why need key",
+    "what does key do",
+    "shredder key purpose"
+   ],
+   "answer": "Unlike simpler engineering rigs, this advanced Venture Company shredder has a locked movement column. Without the proper ignition key, the pilot cannot regulate rotation, speed, stability, or arm controls to drive it away."
+  },
+  {
+   "q": "Who wants the shredder stolen?",
+   "aliases": [
+    "who sent wizzlecrank",
+    "why steal shredder",
+    "ratchet shredder"
+   ],
+   "answer": "Sputtervalve, a goblin engineer stationed in Ratchet, organized the operation to get his hands on the Venture Company's superior engineering designs."
+  },
+  {
+   "q": "What happens once the key is delivered?",
+   "aliases": [
+    "after turning in key",
+    "the escape",
+    "what next"
+   ],
+   "answer": "Once the key unlocks the movement column, Wizzlecrank fires up the shredder's engine and must make a desperate dash through the hostile laborers of Sludge Fen to escape toward Ratchet."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The key unlocks a shredder that features remarkably advanced control mechanisms, outclassing typical goblin designs in both speed regulation and fine arm articulation."
+  }
+ ],
+ "keywords": [
+  "ignition key",
+  "shredder",
+  "sludge fen",
+  "sputtervalve",
+  "supervisor lugwizzle",
+  "venture company",
+  "wizzlecrank"
+ ],
+ "related": [
+  "quest:858",
+  "quest:114",
+  "subzone:sludge-fen",
+  "npc:sputtervalve",
+  "topic:venture-company",
+  "subzone:ratchet",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Ignition Key",
+  "Ignition (Classic)"
+ ]
+}

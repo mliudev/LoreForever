@@ -1,0 +1,90 @@
+{
+ "key": "item:sethir-s-journal",
+ "type": "item",
+ "name": "Sethir's Journal",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Sethir's Journal",
+  "quests": [
+   "quest:2242"
+  ]
+ },
+ "summary": "Sethir's Journal is a personal record carried by the elusive satyr Sethir the Ancient in Teldrassil. Recovered through stealth, its contents confirm the alarming spread of corruption from mainland Kalimdor onto the World Tree.",
+ "sections": [
+  {
+   "title": "A Clue to the Taint",
+   "body": "Teldrassil was raised in the hope of reclaiming elven immortality, but an unseen sickness has increasingly taken root across its boughs. Syurna in Darnassus suspected that Sethir the Ancient, a solitary satyr lurking on an outlying branch near the Oracle Glade, held answers. When direct diplomacy and open force resulted only in death for past scouts, quiet pickpocketing yielded Sethir's journal. The writings reveal a grim truth: the mysterious blight poisoning the woods and waters across the sea in Darkshore has crossed over into Teldrassil itself.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Sethir's Journal?",
+   "aliases": [
+    "what is sethirs journal",
+    "sethir journal lore",
+    "who owns sethirs journal"
+   ],
+   "answer": "It is a journal carried by Sethir the Ancient, a hostile satyr living along the outer branches near the Oracle Glade on Teldrassil. It contains notes detailing the spreading corruption plaguing the region."
+  },
+  {
+   "q": "How is the journal obtained?",
+   "aliases": [
+    "how do i get sethirs journal",
+    "where to get sethir journal",
+    "pickpocket sethir"
+   ],
+   "answer": "Because previous attempts to bargain with or fight Sethir resulted in failure and death, the journal must be lifted directly from his packs using stealth."
+  },
+  {
+   "q": "What does the journal reveal?",
+   "aliases": [
+    "what does sethir journal say",
+    "what is in sethir journal"
+   ],
+   "answer": "According to the rogue trainer Syurna, the journal proves that the strange sickness blighting the forests and waters of Darkshore has successfully crept into Teldrassil."
+  },
+  {
+   "q": "Who is Sethir the Ancient?",
+   "aliases": [
+    "who is sethir",
+    "sethir the ancient"
+   ],
+   "answer": "Sethir is a solitary satyr who nests on a secluded branch along the outskirts of the Oracle Glade. Known for dealing violently with interlopers, he holds vital information on the creeping corruption of the World Tree."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Retrieving the journal proves that subtle infiltration and pickpocketing can uncover critical intelligence where frontline warriors and diplomats failed completely."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The journal provides distressing evidence that Teldrassil is not immune to the ancient demonic taint creeping across mainland Kalimdor."
+  }
+ ],
+ "keywords": [
+  "darkshore",
+  "destiny calls",
+  "oracle glade",
+  "satyr",
+  "sethir the ancient",
+  "sethir's journal",
+  "syurna",
+  "teldrassil"
+ ],
+ "related": [
+  "quest:2242",
+  "npc:syurna",
+  "subzone:oracle-glade",
+  "zone:darkshore",
+  "topic:satyr",
+  "quest:940",
+  "quest:397"
+ ],
+ "attribution": [
+  "Sethir's Journal",
+  "Destiny Calls"
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "key": "item:head-of-gath-ilzogg",
+ "type": "item",
+ "name": "Head of Gath'Ilzogg",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Head of Gath'Ilzogg",
+  "quests": [
+   "quest:169"
+  ]
+ },
+ "summary": "The severed head of Gath'Ilzogg serves as indisputable proof that the Blackrock warlord has been slain. Claiming it breaks the leadership behind the siege of Stonewatch Keep and brings desperate relief to the town of Lakeshire.",
+ "sections": [
+  {
+   "title": "A Bountied Warlord",
+   "body": "Gath'Ilzogg orchestrated the brutal Blackrock assault that overran Stonewatch Keep, driving out its defenders and subjecting the surrounding valley to relentless raiding. With Lakeshire on the verge of ruin and Stormwind offering virtually no military reinforcements, Magistrate Solomon posted a bounty upon the warlord's head. Slaying Gath'Ilzogg within the fortified upper levels of Stonewatch and claiming his head shatters the local Blackrock leadership, marking the first real step toward reclaiming the keep for the kingdom.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Gath'Ilzogg?",
+   "aliases": [
+    "who is gath'ilzogg",
+    "gathilzogg lore",
+    "stonewatch boss"
+   ],
+   "answer": "Gath'Ilzogg was a powerful Blackrock orc warlord who spearheaded the conquest of Stonewatch Keep and directed raids against the settlements of Redridge Mountains, pushing Lakeshire to the brink of collapse."
+  },
+  {
+   "q": "Where is the head taken once collected?",
+   "aliases": [
+    "who wants the head",
+    "turn in gath'ilzogg head",
+    "magistrate solomon bounty"
+   ],
+   "answer": "The head is brought directly to Magistrate Solomon at Lakeshire's town hall as proof that the bounty posted on the town's wanted board has been fulfilled."
+  },
+  {
+   "q": "What does Gath'Ilzogg's death mean for Lakeshire?",
+   "aliases": [
+    "does lakeshire get saved",
+    "significance of killing gath'ilzogg"
+   ],
+   "answer": "His death deprives the Blackrock invaders of their chief tactician in Redridge. While many Blackrock orcs remain entrenched across Stonewatch, severing their command chain gives the local defense a fighting chance to hold the region."
+  },
+  {
+   "q": "Where was Gath'Ilzogg found?",
+   "aliases": [
+    "where is gathilzogg",
+    "stonewatch keep location"
+   ],
+   "answer": "He occupied the high reaches of Stonewatch Keep, holed up deep within the captured fortification alongside his personal bodyguards and lieutenants."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For the people of Stormwind, bringing down Gath'Ilzogg avenges the slaughter of innocent settlers and the humiliating fall of Stonewatch Keep."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "With the capital distracted by internal squabbles, Alliance volunteers must shoulder the burden of defending Redridge and striking down Blackrock leaders themselves."
+  }
+ ],
+ "keywords": [
+  "blackrock",
+  "gath'ilzogg",
+  "lakeshire",
+  "magistrate solomon",
+  "redridge",
+  "stonewatch",
+  "stonewatch keep"
+ ],
+ "related": [
+  "npc:gath-ilzogg",
+  "quest:169",
+  "subzone:stonewatch-keep",
+  "subzone:stonewatch",
+  "npc:magistrate-solomon",
+  "subzone:lakeshire",
+  "topic:blackrock-clan",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Head of Gath'Ilzogg",
+  "Wanted: Gath'Ilzogg (quest)"
+ ]
+}

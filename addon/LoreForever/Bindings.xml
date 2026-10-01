@@ -5,4 +5,10 @@
   <Binding name="LOREFOREVER_NARRATE" category="ADDONS">
     LoreForever_Narrate()
   </Binding>
+  <Binding name="LOREFOREVER_PLAYLIST" category="ADDONS">
+    LoreForever_PlaylistToggle()
+  </Binding>
+  <Binding name="LOREFOREVER_PLAYLIST_NEXT" category="ADDONS">
+    LoreForever_PlaylistNext()
+  </Binding>
 </Bindings>

@@ -1,0 +1,86 @@
+{
+ "key": "item:crossroads-supply-crate",
+ "type": "item",
+ "name": "Crossroads Supply Crate",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Crossroads Supply Crate",
+  "quests": [
+   "quest:5041"
+  ]
+ },
+ "summary": "Crossroads Supply Crates contain vital provisions intended for the settlement of the Crossroads in the Barrens. After a caravan was raided along the arid roads, these stolen goods ended up scattered among local Razormane quilboar camps.",
+ "sections": [
+  {
+   "title": "Plundered Provisions",
+   "body": "The crossroads settlement serves as the beating heart of Horde travel through central Kalimdor, but keeping it provisioned across the arid wastes is a constant trial. Caravan routes running through the Barrens are relentlessly stalked by the native Razormane quilboar. During one such ambush, a vital supply shipment destined for the settlement was ransacked. The crates were dragged into the prickly underbrush and dirt dens of nearby quilboar camps, leaving the settlement's commander, Thork, to enlist travelers to recover them before the outpost runs dangerously low on food, tools, and necessities.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are these supply crates?",
+   "aliases": [
+    "crossroads supplies",
+    "what is in the crates",
+    "supply crate info"
+   ],
+   "answer": "They are shipments of food, tools, and essential provisions meant to sustain the Horde settlement of the Crossroads. They were looted from a supply caravan ambushed along the roads of the Barrens."
+  },
+  {
+   "q": "Who stole the supply crates?",
+   "aliases": [
+    "who took the crates",
+    "who raided the caravan",
+    "quilboar thieves"
+   ],
+   "answer": "The Razormane quilboar attacked the caravan and hauled the crates back to their nearby thorned encampments to feast and hoard the spoils."
+  },
+  {
+   "q": "Who is looking for these crates?",
+   "aliases": [
+    "who wants the crates",
+    "turn in supply crates",
+    "thork supplies"
+   ],
+   "answer": "Thork, an orc officer stationed at the Crossroads, seeks the return of the stolen crates to ensure the garrison and local inhabitants remain properly supplied."
+  },
+  {
+   "q": "Where are the crates located?",
+   "aliases": [
+    "crate locations",
+    "where to find supply crates",
+    "crossroads supply crate spots"
+   ],
+   "answer": "They are scattered on the ground throughout the various Razormane quilboar encampments found across the surrounding territory of the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Crossroads is the central junction linking Durotar, Mulgore, and the northern wildlands; securing its supplies directly safeguards Horde travel and logistics across Kalimdor."
+  }
+ ],
+ "keywords": [
+  "crossroads",
+  "crossroads supply crate",
+  "quilboar",
+  "razormane",
+  "supplies for the crossroads",
+  "the barrens",
+  "thork"
+ ],
+ "related": [
+  "quest:5041",
+  "subzone:crossroads",
+  "npc:thork",
+  "zone:barrens",
+  "topic:quilboar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Crossroads Supply Crate",
+  "Supplies for the Crossroads (Classic)"
+ ]
+}

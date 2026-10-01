@@ -1,0 +1,118 @@
+{
+ "key": "quest:3114",
+ "type": "quest",
+ "name": "Glyphic Memorandum",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   3114
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "Sten Stoutarm",
+  "end": "Marryk Nurribit",
+  "previous": null,
+  "next": null,
+  "wiki": "Glyphic Memorandum (quest)",
+  "chain": []
+ },
+ "summary": "Glyphic Memorandum is an introductory task directing novice mages in Coldridge Valley to their local trainer inside Anvilmar. Entrusted to mountaineer Sten Stoutarm, the missive summons budding arcane practitioners to seek out the eccentric gnome Marryk Nurribit to begin their formal spellcraft studies.",
+ "sections": [
+  {
+   "title": "A Missive for Novice Mages",
+   "body": "While assisting mountaineer Sten Stoutarm with early duties across Coldridge Valley, newly arrived mages find themselves summoned by local arcane authority. Sten receives a written memorandum addressed to the fledgling spellcaster and passes it along, advising them to take a moment to read its contents and head inside the warmth of Anvilmar to meet its author.",
+   "spoiler": 0
+  },
+  {
+   "title": "Training with Marryk Nurribit",
+   "body": "The author of the memorandum is Marryk Nurribit, a gnome mage trainer stationed inside Anvilmar. Rather than drowning his pupil in dense theoretical lectures, Marryk offers straightforward, grounded advice: stay out of serious trouble, save coin for training and tavern drinks, and strictly avoid the radioactive disaster that is fallen Gnomeregan. With basic expectations set, Marryk stands ready to tutor newcomers in the arcane arts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who delivers this memorandum?",
+   "aliases": [
+    "who gives glyphic memorandum",
+    "sten stoutarm quest"
+   ],
+   "answer": "Sten Stoutarm, an Alliance mountaineer stationed in Coldridge Valley, hands you the memorandum after you assist him with his initial tasks."
+  },
+  {
+   "q": "Who is Marryk Nurribit?",
+   "aliases": [
+    "who is marryk",
+    "anvilmar mage trainer"
+   ],
+   "answer": "Marryk Nurribit is a gnome mage trainer residing inside Anvilmar in Coldridge Valley. He instructs fledgling mages in early spells and general arcane safety."
+  },
+  {
+   "q": "Where can I find Marryk Nurribit?",
+   "aliases": [
+    "marryk nurribit location",
+    "where is the mage trainer in coldridge valley"
+   ],
+   "answer": "Marryk is located inside the main hall of Anvilmar, the central dwarven outpost situated at the top of Coldridge Valley in Dun Morogh."
+  },
+  {
+   "q": "Why does Marryk warn against visiting Gnomeregan?",
+   "aliases": [
+    "marryk gnomeregan warning",
+    "why stay away from gnomeregan"
+   ],
+   "answer": "Gnomeregan was recently overrun by troggs and contaminated by a catastrophic release of radioactive gas, making it perilous for any novice adventurer wandering Dun Morogh."
+  },
+  {
+   "q": "What classes receive this task?",
+   "aliases": [
+    "who gets glyphic memorandum",
+    "is this quest mage only"
+   ],
+   "answer": "This quest is exclusively provided to fledgling mages starting their journey in Coldridge Valley to introduce them to their class trainer."
+  },
+  {
+   "q": "What does Marryk expect from his students?",
+   "aliases": [
+    "marryk expectations",
+    "what does the trainer want"
+   ],
+   "answer": "Marryk keeps his demands simple: he warns his students to stay out of trouble, save enough silver to pay for their spells and buy him an ale, and keep far away from Gnomeregan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "This missive marks your official introduction to arcane tutelage in Dun Morogh, connecting you directly with your starting trainer."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Marryk Nurribit is one of several gnome specialists who took refuge in dwarven lands following the fall of Gnomeregan to teach their traditional craft."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The seamless cooperation between Sten Stoutarm and Marryk Nurribit illustrates the close partnership between dwarves and gnomes sharing Coldridge Valley."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "glyphic memorandum",
+  "mage trainer",
+  "marryk nurribit",
+  "sten stoutarm"
+ ],
+ "related": [
+  "npc:marryk-nurribit",
+  "npc:sten-stoutarm",
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "zone:dunmorogh",
+  "zone:gnomeregan",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Glyphic Memorandum (quest)"
+ ]
+}

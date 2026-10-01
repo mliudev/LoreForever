@@ -1,0 +1,81 @@
+{
+ "key": "item:hollow-vulture-bone",
+ "type": "item",
+ "name": "Hollow Vulture Bone",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Hollow Vulture Bone",
+  "quests": [
+   "quest:1176"
+  ]
+ },
+ "summary": "Hollow Vulture Bones are lightweight, durable skeletal remains harvested from the scavengers of the Shimmering Flats. At the Mirage Raceway, goblin mechanics prize them as specialized building materials to lighten their rocket cars without sacrificing structural integrity.",
+ "sections": [
+  {
+   "title": "Racing Materials on the Flats",
+   "body": "Speed is everything out on the salt, and weight is the enemy of speed. While standard engineering leans heavily on iron and copper, the goblin pit crews at the Mirage Raceway turn to whatever the desert provides to gain an edge. Vulture bones are naturally hollow yet remarkably sturdy, providing the perfect strength-to-weight ratio for internal brackets, steering rigs, and minor structural supports. For chief tinkerers like Pozzik, harvesting bones from local scavengers is a practical and cheap shortcut to shaved seconds on the track.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do the goblins want vulture bones?",
+   "aliases": [
+    "why bones",
+    "goblin bones use",
+    "pozzik bone use"
+   ],
+   "answer": "Goblin engineers like Pozzik use hollow vulture bones to shave excess weight off their rocket cars. Because bird bones are naturally light and surprisingly strong, they make ideal material for steering rigs and minor structural framing."
+  },
+  {
+   "q": "Where do these bones come from?",
+   "aliases": [
+    "where to find hollow vulture bone",
+    "vulture bone location",
+    "how to get vulture bones"
+   ],
+   "answer": "They are harvested from Salt Flats Scavengers and Salt Flats Vultures circling the Shimmering Flats in Thousand Needles, particularly around the giant skeletal remains scattered across the salt desert."
+  },
+  {
+   "q": "Who is Pozzik?",
+   "aliases": [
+    "who is pozzik",
+    "pozzik raceway",
+    "who takes the bones"
+   ],
+   "answer": "Pozzik is a goblin engineer and lead mechanic stationed at the Mirage Raceway. He continually tunes and modifies rocket cars to compete against the gnomish team led by Fizzle Brassbolts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "While typical schematics rely on heavy iron and bronze, the use of hollow avian bone demonstrates the scrappy, weight-shaving pragmatism central to goblin racing innovation."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The vultures of the Shimmering Flats are hardy carrion feeders, making them natural targets for tracking across the blinding salt bed."
+  }
+ ],
+ "keywords": [
+  "hollow vulture bone",
+  "load lightening",
+  "mirage raceway",
+  "pozzik",
+  "scavenger",
+  "shimmering flats",
+  "thousand needles"
+ ],
+ "related": [
+  "quest:1176",
+  "npc:pozzik",
+  "subzone:mirage-raceway",
+  "subzone:shimmering-flats",
+  "zone:thousandneedles",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Hollow Vulture Bone",
+  "Load Lightening"
+ ]
+}

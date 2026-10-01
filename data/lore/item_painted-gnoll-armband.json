@@ -1,0 +1,93 @@
+{
+ "key": "item:painted-gnoll-armband",
+ "type": "item",
+ "name": "Painted Gnoll Armband",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Painted Gnoll Armband",
+  "quests": [
+   "quest:11"
+  ]
+ },
+ "summary": "Painted Gnoll Armbands are crude adornments worn by the Riverpaw gnolls prowling the outskirts of Elwynn Forest. Westbrook Garrison collects these marked bands as physical proof of bounties fulfilled against the encroaching packs.",
+ "sections": [
+  {
+   "title": "Tokens of the Riverpaw",
+   "body": "The Riverpaw pack marks its warriors and scavengers with rough armbands painted in crude tribal patterns. To the gnolls, these bands denote status and pack membership as they prowl the wilderness borders of Elwynn Forest. To the defenders of Stormwind, however, they represent a growing territorial menace encroaching near Stone Cairn Lake and the woods south of Westbrook Garrison.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bounty for Westbrook Garrison",
+   "body": "With the Stormwind Army stretched thin across the kingdom, Westbrook Garrison struggles to keep the western border secure against encroaching threats. Deputy Rainer placed a standing bounty on the invading packs, directing adventurers to slay Riverpaw outrunners and runts. The painted armbands serve as undeniable proof of the kill, allowing garrison deputies to tally bounties and thin the gnoll population encroaching on nearby farmlands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Westbrook Garrison want these armbands?",
+   "aliases": [
+    "why armbands",
+    "who wants painted gnoll armbands",
+    "deputy rainer bounty"
+   ],
+   "answer": "Deputy Rainer at Westbrook Garrison collects the armbands as proof of slain Riverpaw gnolls. Because garrison troops cannot manage the encroaching packs alone, Stormwind pays bounties to any adventurer who brings back these tokens."
+  },
+  {
+   "q": "Which gnolls wear these painted armbands?",
+   "aliases": [
+    "where do armbands drop",
+    "who drops painted gnoll armband",
+    "which gnolls have armbands"
+   ],
+   "answer": "They are carried by the Riverpaw gnolls in Elwynn Forest, specifically the Riverpaw Outrunners and Riverpaw Runts infesting the woods south of Westbrook Garrison and the shores around Stone Cairn Lake."
+  },
+  {
+   "q": "Why are Riverpaw gnolls in Elwynn Forest?",
+   "aliases": [
+    "why are gnolls here",
+    "gnoll invasion elwynn",
+    "riverpaw elwynn"
+   ],
+   "answer": "Riverpaw packs have pushed eastward along Elwynn Forest's borders, establishing camps near Stone Cairn Lake and the forest margins. They take advantage of the kingdom's depleted military presence to hunt, scavenge, and threaten nearby settlements."
+  },
+  {
+   "q": "What is the significance of the paint on the armbands?",
+   "aliases": [
+    "why are they painted",
+    "gnoll armband markings"
+   ],
+   "answer": "The crude painted patterns are tribal markings used by the Riverpaw pack to identify rank, allegiance, and pack affiliation among their runts and scouts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Collecting these armbands directly aids Westbrook Garrison, shoring up Stormwind's western frontier while the city's standing army is diverted elsewhere."
+  }
+ ],
+ "keywords": [
+  "bounty",
+  "deputy rainer",
+  "elwynn forest",
+  "gnolls",
+  "painted gnoll armband",
+  "riverpaw",
+  "stone cairn lake",
+  "westbrook garrison"
+ ],
+ "related": [
+  "quest:11",
+  "npc:deputy-rainer",
+  "subzone:westbrook-garrison",
+  "zone:elwynn",
+  "subzone:stone-cairn-lake",
+  "quest:239",
+  "topic:gnoll",
+  "topic:stormwind-army"
+ ],
+ "attribution": [
+  "Painted Gnoll Armband",
+  "Riverpaw Gnoll Bounty"
+ ]
+}

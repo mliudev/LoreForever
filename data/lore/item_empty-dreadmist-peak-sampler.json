@@ -1,0 +1,95 @@
+{
+ "key": "item:empty-dreadmist-peak-sampler",
+ "type": "item",
+ "name": "Empty Dreadmist Peak Sampler",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Empty Dreadmist Peak Sampler",
+  "quests": [
+   "quest:6127"
+  ]
+ },
+ "summary": "The Empty Dreadmist Peak Sampler is a specialized Cenarion vessel entrusted to Horde druids to gather tainted water from the summit of Dreadmist Peak. Studying the foul liquid collected in this vial is vital for diagnosing and curing the spreading blight affecting wildlife in the northern Barrens.",
+ "sections": [
+  {
+   "title": "Tracing the Blight",
+   "body": "When a foul affliction began sickening gazelles and destabilizing the fragile ecology of the northern Barrens, druid Dendrite Starblaze suspected that the weather-influencing pools atop Dreadmist Peak were acting as the epicenter. He dispatched druid initiates with empty sampling vessels to brave the mountain's heights\u2014now infested by the demon-worshipping Burning Blade\u2014and extract raw water directly from the pool at the peak.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Crucial Specimen",
+   "body": "Carrying an empty sampler up the crags allows druids to secure uncorrupted evidence of the cult's vile handiwork. Once filled, the putrid water is delivered to Tonga Runetotem at the Crossroads, where its foul components serve as the critical foundation needed to concoct a cure and protect the native fauna.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Empty Dreadmist Peak Sampler?",
+   "aliases": [
+    "what does this item do",
+    "dreadmist sampler use",
+    "why do i have this sampler"
+   ],
+   "answer": "It is an empty container used by druids to draw a water sample from the tainted pool atop Dreadmist Peak to assist Tonga Runetotem in concocting a cure for sickened wildlife."
+  },
+  {
+   "q": "Where does this sampler need to be taken?",
+   "aliases": [
+    "where do i fill the sampler",
+    "sampler location",
+    "how to fill empty dreadmist peak sampler"
+   ],
+   "answer": "It must be carried to the very top of Dreadmist Peak, northwest of the Crossroads in the Barrens, and dipped into the high pool where the water gathers."
+  },
+  {
+   "q": "Who provides the sampler?",
+   "aliases": [
+    "who gives the sampler",
+    "who started this quest"
+   ],
+   "answer": "Dendrite Starblaze, working on behalf of the Cenarion Circle, provides the sampler before sending the druid to coordinate with Tonga Runetotem."
+  },
+  {
+   "q": "Why is the water on Dreadmist Peak so important to sample?",
+   "aliases": [
+    "why dreadmist peak pool",
+    "why is the water bad"
+   ],
+   "answer": "Dreadmist Peak's airy pools influence regional weather patterns and mist. Because the summit has been corrupted by the Burning Blade cult, tainted runoff spreads across the plains and poisons local creatures."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Obtaining this sampler is a pivotal step in learning the art of curing poisons, testing a druid's dedication to diagnosing and soothing suffering in the wild."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde druids carry this sampler to aid Tonga Runetotem at the Crossroads in stopping the ecological decay threatening the northern plains of the Barrens."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "burning blade",
+  "dendrite starblaze",
+  "dreadmist peak",
+  "empty dreadmist peak sampler",
+  "the principal source",
+  "tonga runetotem"
+ ],
+ "related": [
+  "item:filled-dreadmist-peak-sampler",
+  "quest:6122",
+  "subzone:dreadmist-peak",
+  "npc:tonga-runetotem",
+  "npc:dendrite-starblaze",
+  "quest:6125",
+  "subzone:crossroads",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Empty Dreadmist Peak Sampler",
+  "The Principal Source (Horde)"
+ ]
+}

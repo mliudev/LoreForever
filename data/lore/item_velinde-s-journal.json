@@ -1,0 +1,88 @@
+{
+ "key": "item:velinde-s-journal",
+ "type": "item",
+ "name": "Velinde's Journal",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Velinde's Journal",
+  "quests": [
+   "quest:1038"
+  ]
+ },
+ "summary": "Velinde's Journal is a personal record kept by the Night Elf priestess Velinde Starsong, stored away in the Sentinel bunkhouse in Darnassus. It holds crucial accounts of her duties and the mysterious circumstances surrounding her departure from the city.",
+ "sections": [
+  {
+   "title": "A Priestess's Record",
+   "body": "When Priestess Velinde Starsong departed Darnassus, her personal belongings were locked away in a footlocker within the Sentinels' bunkhouse in the Tradesmen's Terrace. Among her stored effects rests her personal journal, documenting her responsibilities and duties before she slipped away. While the Sentinels hold Velinde in high regard and assumed she simply had private matters to attend to, the contents of her journal suggest her unexplained absence is far more troubling than first believed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Velinde's Journal found?",
+   "aliases": [
+    "journal location",
+    "where is velinde journal",
+    "velindes locker location"
+   ],
+   "answer": "The journal is located inside Velinde's chest in the Sentinel bunkhouse, located in the Tradesmen's Terrace of Darnassus. Accessing the building requires crossing the upper bridge connected to the mail armor shop."
+  },
+  {
+   "q": "Who was Velinde Starsong?",
+   "aliases": [
+    "who is velinde",
+    "velinde lore"
+   ],
+   "answer": "Velinde Starsong was a respected Night Elf priestess trusted deeply by the Sentinels. She departed Darnassus suddenly under quiet circumstances, leaving behind her locker and effects."
+  },
+  {
+   "q": "Why do the Sentinels care about her journal?",
+   "aliases": [
+    "why sentinels want journal",
+    "what is in the journal"
+   ],
+   "answer": "The Sentinels initially assumed Velinde left Darnassus for her own valid reasons and would return. However, uncovering clues about her departure through her writings reveals that her disappearance carries darker implications that require further investigation."
+  },
+  {
+   "q": "Who asks you to retrieve the journal?",
+   "aliases": [
+    "who gives quest",
+    "who is thyntel bladeweaver"
+   ],
+   "answer": "Sentinel Thyn'tel Bladeweaver in Darnassus grants permission and provides the key to open Velinde's chest after being approached with knowledge learned from the Tome of Mel'Thandris."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The mysterious departure of an esteemed Sister of Elune touches closely upon Darnassus's leadership, raising concerns among the Sentinels who guard the Kaldorei capital."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Velinde Starsong was an accomplished priestess whose hidden duty and subsequent disappearance reveal troubling trials facing the Sisterhood of Elune."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "sentinels",
+  "thyn'tel bladeweaver",
+  "tradesmen's terrace",
+  "velinde starsong",
+  "velinde's journal",
+  "velinde's key",
+  "velinde's locker"
+ ],
+ "related": [
+  "quest:1038",
+  "item:velinde-s-key",
+  "npc:thyn-tel-bladeweaver",
+  "zone:darnassus",
+  "topic:sentinels",
+  "topic:priest"
+ ],
+ "attribution": [
+  "Velinde's Journal",
+  "Velinde's Effects"
+ ]
+}

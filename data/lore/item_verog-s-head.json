@@ -1,0 +1,91 @@
+{
+ "key": "item:verog-s-head",
+ "type": "item",
+ "name": "Verog's Head",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Verog's Head",
+  "quests": [
+   "quest:851"
+  ]
+ },
+ "summary": "Verog's Head is the grisly trophy claimed from Verog the Dervish, a prominent Kolkar centaur leader who oversees forces around the Stagnant Oasis. It is sought by the orc Regthar Deathgate as proof of the chieftain's demise and to demoralize the aggressive Kolkar tribes threatening the Barrens.",
+ "sections": [
+  {
+   "title": "A Trophy of the Oasis",
+   "body": "The Kolkar centaur pose a relentless threat to Horde travelers and supply routes across the northern Barrens. Verog the Dervish, known for his nomadic habits, leaves his command tent at the Stagnant Oasis vulnerable while roaming the arid scrubland. To bring him out into the open, Horde operatives attack his forces around his pavilion until an alarm is raised. Once Verog rushes back to defend his camp, he is slain and decapitated. Delivering his severed head to Regthar Deathgate serves as vital evidence that another dangerous Kolkar chieftain has been dismantled, joining the head of Barak Kodobane on display.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Verog the Dervish?",
+   "aliases": [
+    "who is verog",
+    "verog lore",
+    "verog the dervish"
+   ],
+   "answer": "Verog the Dervish was a mobile warlord of the Kolkar centaur based at the Stagnant Oasis in the Barrens. Known for roaming widely across the arid plains, he directed the hostile centaur forces garrisoned around the oasis command tent."
+  },
+  {
+   "q": "Who wants Verog's head?",
+   "aliases": [
+    "who takes verog head",
+    "regthar deathgate verog",
+    "turn in verog head"
+   ],
+   "answer": "The head is claimed by Regthar Deathgate, an orc veteran stationed at an encampment west of the Crossroads. Regthar collects trophies of slain Kolkar warlords to break the strength and morale of their warbands."
+  },
+  {
+   "q": "Where is Verog found?",
+   "aliases": [
+    "where is verog",
+    "verog location",
+    "stagnant oasis tent"
+   ],
+   "answer": "Verog's encampment and command tent are located at the Stagnant Oasis, southeast of the Crossroads. Rather than waiting idly at his pavilion, he must be lured into returning by slaying the centaur guarding his post until an alarm summons him."
+  },
+  {
+   "q": "What happens to the head after it is turned in?",
+   "aliases": [
+    "what does regthar do with the head",
+    "centaur heads display"
+   ],
+   "answer": "Regthar Deathgate places Verog's head alongside that of Barak Kodobane, mounting the grim remains as trophies to mark the Horde's systematic campaign against the Kolkar leaders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Eliminating Verog and claiming his head secures Horde routes between the Crossroads and the southern reaches of the Barrens against aggressive centaur raids."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The defeat of Kolkar chieftains carries deep personal resonance for the tauren, whose people endured generations of brutal warfare against the centaur tribes of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "centaur",
+  "kolkar",
+  "regthar deathgate",
+  "stagnant oasis",
+  "verog",
+  "verog the dervish",
+  "verog's head"
+ ],
+ "related": [
+  "quest:851",
+  "quest:850",
+  "quest:852",
+  "quest:1361",
+  "subzone:stagnant-oasis",
+  "zone:barrens",
+  "topic:centaur"
+ ],
+ "attribution": [
+  "Verog's Head",
+  "Verog the Dervish (Classic)"
+ ]
+}

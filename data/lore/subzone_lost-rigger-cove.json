@@ -15,8 +15,8 @@
    "spoiler": 0
   },
   {
-   "title": "Goblin and Gnome Ambition",
-   "body": "The pirates do not hold their cove unchallenged. Outside the cove's narrow pass, competing emissaries\u2014a goblin and a gnome\u2014have established a contentious forward camp. Both are vying for lucrative favors and commercial contracts from the Steamwheedle bosses in Gadgetzan by hiring out mercenaries to slaughter the Southseas, thin their ranks, and sabotage their shipbuilding operations.",
+   "title": "Rivals on the Doorstep",
+   "body": "The pirates do not hold their cove unchallenged. The goblins of Gadgetzan and nearby Steamwheedle Port resent the raiders on their doorstep and pay mercenaries to slaughter the Southseas, thin their ranks, and disrupt their operations.",
    "spoiler": 0
   }
  ],
@@ -31,13 +31,13 @@
    "answer": "The cove is held by the Southsea Pirates, an infamous maritime syndicate operating throughout Kalimdor and the South Seas. They use this natural harbor to repair their fleet and construct new warships."
   },
   {
-   "q": "Why are gnomes and goblins camped outside?",
+   "q": "Who is fighting the pirates here?",
    "aliases": [
     "gnome goblin camp tanaris",
     "why are gnomes here",
     "why fight the pirates"
    ],
-   "answer": "Representatives from both races are attempting to win favor and trade deals with Baron Noggenfogger and the leaders of Gadgetzan. Each hopes to impress the goblin authorities by organizing strikes against the pirate stronghold."
+   "answer": "The goblins of Gadgetzan and Steamwheedle Port, who resent the raiders on their doorstep, hire passing adventurers to strike at the pirate stronghold and thin the Southsea ranks."
   },
   {
    "q": "Where is Lost Rigger Cove located?",
@@ -64,7 +64,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "Gnomish operatives stationed near the entrance are eager to demonstrate technological superiority over their goblin competitors by dismantling the Southsea operations."
+   "text": "For gnomish tinkerers, the pirates' drydock is a crude but telling display of salvaged machinery and stolen parts, and a standing threat to every merchant vessel on the southern seas."
   }
  ],
  "keywords": [

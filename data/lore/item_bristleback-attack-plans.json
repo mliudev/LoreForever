@@ -1,0 +1,89 @@
+{
+ "key": "item:bristleback-attack-plans",
+ "type": "item",
+ "name": "Bristleback Attack Plans",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Bristleback Attack Plans",
+  "quests": [
+   "quest:781"
+  ]
+ },
+ "summary": "The Bristleback Attack Plans are crude maps and tactical notes drafted by the quilboar of Brambleblade Ravine. They outline a coordinated siege aimed directly at overrunning the tauren settlement of Camp Narache.",
+ "sections": [
+  {
+   "title": "A Plot Against the Mesa",
+   "body": "Hidden deep within a dirt cave in Brambleblade Ravine, these scribbled tactical sketches reveal that the Bristleback quilboar are no longer just skirmishing on the borders of the Red Cloud Mesa. Instead, their leadership planned an organized, sustained assault to push into Camp Narache and wipe out the young tauren training there. Delivering this map to Chief Hawkwind allows the tribe to send word to Bloodhoof Village for reinforcements, blunting the impending invasion before it can begin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do the Bristleback Attack Plans contain?",
+   "aliases": [
+    "what are the attack plans",
+    "what is on the map",
+    "bristleback battle plans"
+   ],
+   "answer": "The plans consist of a tactical map and crude instructions detailing a full-scale siege against Camp Narache, indicating the quilboar are organizing for a prolonged assault rather than sporadic raids."
+  },
+  {
+   "q": "Where are these plans found?",
+   "aliases": [
+    "where are the plans",
+    "where do i find the map",
+    "bristleback attack plans location"
+   ],
+   "answer": "They lie abandoned on the dirt floor of an elevated cave in Brambleblade Ravine, just up a side path from the hut of the Bristleback chieftain."
+  },
+  {
+   "q": "What does Chief Hawkwind do once he receives the plans?",
+   "aliases": [
+    "what does hawkwind do",
+    "camp narache response",
+    "chief hawkwind reaction"
+   ],
+   "answer": "Chief Hawkwind recognizes the imminent danger to the mesa and uses the intelligence to summon aid and warriors from Bloodhoof Village to reinforce Camp Narache's defenses."
+  },
+  {
+   "q": "Why are the Bristleback attacking Camp Narache?",
+   "aliases": [
+    "why are quilboar attacking",
+    "bristleback motive"
+   ],
+   "answer": "The Bristleback tribe claims territorial dominance over the thorny ravines and aggressively views the tauren presence on the mesa as an intrusion, driving them to attempt to drive the settlement out entirely."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Uncovering this plot defends the very training grounds where young tauren take their first rites, shielding your elders and novices from a brutal quilboar siege."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Thwarting the Bristleback offensive ensures the Horde retains a secure, unthreatened foothold across the sacred plains of Mulgore."
+  }
+ ],
+ "keywords": [
+  "attack plans",
+  "brambleblade ravine",
+  "bristleback",
+  "camp narache",
+  "chief hawkwind",
+  "mulgore",
+  "quilboar"
+ ],
+ "related": [
+  "quest:781",
+  "subzone:camp-narache",
+  "npc:chief-hawkwind",
+  "subzone:brambleblade-ravine",
+  "subzone:bloodhoof-village",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Bristleback Attack Plans",
+  "Attack on Camp Narache"
+ ]
+}

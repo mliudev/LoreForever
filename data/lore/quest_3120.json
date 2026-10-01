@@ -1,0 +1,116 @@
+{
+ "key": "quest:3120",
+ "type": "quest",
+ "name": "Verdant Sigil",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   3120
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "Conservator Ilthalaine",
+  "end": "Mardant Strongoak",
+  "previous": "The Balance of Nature (Classic)",
+  "next": null,
+  "wiki": "Verdant Sigil (Classic)",
+  "chain": []
+ },
+ "summary": "The Verdant Sigil is a written summons delivered to newly awakened night elf druids in Shadowglen. Conservator Ilthalaine passes it along to direct fledgling shapeshifters to Mardant Strongoak within the boughs of Aldrassil. It marks the formal beginning of a druid's tutelage in the mysteries of nature and the Emerald Dream.",
+ "sections": [
+  {
+   "title": "A Call to the Boughs",
+   "body": "Once a young night elf shows promise in maintaining the local balance of Shadowglen, a formal introduction to their order is required. Conservator Ilthalaine receives the Verdant Sigil via a runner and entrusts it to the initiate. The small token signifies that the circle in Aldrassil has taken notice and invites the young druid to formally begin their training.",
+   "spoiler": 0
+  },
+  {
+   "title": "Communion and the Dream",
+   "body": "Upon presenting the sigil to Mardant Strongoak inside Aldrassil, the initiate is welcomed into the fold. While deeper communion with the Emerald Dream and mastering animal forms lie ahead, Mardant establishes himself as their first guide, tasked with teaching them how to interpret nature's spirits and channel raw woodland power.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Verdant Sigil?",
+   "aliases": [
+    "verdant sigil item",
+    "what is this sigil",
+    "druid sigil"
+   ],
+   "answer": "It is a inscribed summons delivered through Conservator Ilthalaine on behalf of Mardant Strongoak, calling a novice druid to begin their formal training inside Aldrassil."
+  },
+  {
+   "q": "Where do I take the Verdant Sigil?",
+   "aliases": [
+    "where is mardant",
+    "turn in verdant sigil",
+    "where do i go"
+   ],
+   "answer": "Bring it to Mardant Strongoak, the druid trainer stationed within the great barrow-tree of Aldrassil in the heart of Shadowglen."
+  },
+  {
+   "q": "Why does Mardant mention the Emerald Dream?",
+   "aliases": [
+    "why emerald dream",
+    "mardant dream dialogue",
+    "druid trance"
+   ],
+   "answer": "Druids draw much of their power and wisdom from the Emerald Dream through long sleeping trances. Though a novice is not yet ready to wander the Dream freely, Mardant introduces it as the foundational mystery they will eventually study."
+  },
+  {
+   "q": "Who sends the sigil to Ilthalaine?",
+   "aliases": [
+    "who sent the sigil",
+    "sigil messenger"
+   ],
+   "answer": "A messenger sent by Mardant Strongoak delivered the sigil to Conservator Ilthalaine so it could be placed directly into the hands of a promising young druid."
+  },
+  {
+   "q": "What happens after presenting the sigil?",
+   "aliases": [
+    "what do i learn next",
+    "after verdant sigil"
+   ],
+   "answer": "Mardant Strongoak becomes your primary mentor in Shadowglen, allowing you to learn your earliest druidic spells and magical techniques as you grow in power."
+  },
+  {
+   "q": "Can non-druids receive this quest?",
+   "aliases": [
+    "is this druid only",
+    "who gets verdant sigil"
+   ],
+   "answer": "No. The Verdant Sigil is strictly meant for night elf druids beginning their journey in Shadowglen. Other classes receive their own distinct summons to their respective trainers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This quest represents your formal initiation into the Cenarion circle's teachings under Mardant Strongoak, setting you on the long path toward understanding the Emerald Dream."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Druidism is deeply woven into night elf culture; presenting this sigil at Aldrassil marks the first step of an initiate stepping into an ancient tradition."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "druid trainer",
+  "emerald dream",
+  "ilthalaine",
+  "mardant strongoak",
+  "shadowglen",
+  "verdant sigil"
+ ],
+ "related": [
+  "npc:mardant-strongoak",
+  "subzone:aldrassil",
+  "subzone:shadowglen",
+  "topic:druid",
+  "topic:emerald-dream",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Verdant Sigil (Classic)"
+ ]
+}

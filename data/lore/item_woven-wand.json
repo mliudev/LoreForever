@@ -1,0 +1,96 @@
+{
+ "key": "item:woven-wand",
+ "type": "item",
+ "name": "Woven Wand",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Woven Wand",
+  "quests": [
+   "quest:491"
+  ]
+ },
+ "summary": "The Woven Wand is a unique enchanted relic crafted long ago by three Dalaran apprentice magi as a pledge of brotherhood. Following the fall of Lordaeron and bitter betrayals among its creators, the wand was hidden away in Fenris Keep before resurfacing in the hands of the Forsaken.",
+ "sections": [
+  {
+   "title": "A Sundered Bond",
+   "body": "In the days when Dalaran still trained the young magi of the north, three aspiring wizards\u2014Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw\u2014intertwined their individual apprentice wands into a single talisman. This Woven Wand served as both a conduit of combined magical power and a symbol of their enduring friendship. That fellowship shattered irrevocably when the Scourge swept through Lordaeron. Thule Ravenclaw chose to swear fealty to the Lich King, turning to foul necromancy. Meanwhile, the Plague of Undeath claimed both Bethor and Gunther, eventually cutting their ties to Dalaran entirely.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Hidden Alcove",
+   "body": "Though Thule came to detest the sentimentality of the wand after turning to darkness, he could never bring himself to destroy it or surrender it to his former peers. Instead, he carried the artifact into Silverpine Forest and concealed it deep within an alcove in Fenris Keep. Decades later, with Thule's lair breached and his servant Alaric directing Horde agents to the hiding place, the relic was retrieved intact. Never having had its dormant enchantments invoked by the necromancer, the wand was finally delivered to Bethor Iceshard within the Magic Quarter of the Undercity.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who created the Woven Wand?",
+   "aliases": [
+    "who made woven wand",
+    "creators of woven wand",
+    "wand creators"
+   ],
+   "answer": "The wand was crafted jointly by three Dalaran apprentice mages: Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw. They combined their three separate apprentice wands into one shared artifact to represent their friendship."
+  },
+  {
+   "q": "Why was the wand hidden in Fenris Keep?",
+   "aliases": [
+    "why did thule hide the wand",
+    "where was woven wand found",
+    "why fenris keep"
+   ],
+   "answer": "After Thule betrayed his colleagues to serve the Lich King, he grew to despise the artifact and the bond it represented. However, he was unable to part with it or destroy it, so he hid it away within a secret niche in his lair at Fenris Keep."
+  },
+  {
+   "q": "Why did Bethor Iceshard think the wand was lost?",
+   "aliases": [
+    "what does bethor say about the wand",
+    "bethor reaction to wand"
+   ],
+   "answer": "Bethor assumed the wand had been permanently lost when their friendship collapsed and the plague ravaged the land. He also noted that Thule never dared to invoke its magical energies; had Thule used it, Bethor would have sensed the surge through their lingering magical link."
+  },
+  {
+   "q": "How was the wand recovered?",
+   "aliases": [
+    "who found the wand",
+    "how to get woven wand"
+   ],
+   "answer": "Horde adventurers assaulted Fenris Keep to defeat Thule Ravenclaw. Guided by the severed, still-talking head of Ravenclaw's former servant Alaric, they located the hidden niche containing the wand and brought it out of the ruins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The Woven Wand illustrates the old traditions of Dalaran's apprentices, who often experimented with melding personal conduits to focus their collective arcane potential."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The artifact serves as a bittersweet reminder of mortal lives lost to the Scourge, uniting the memories of two Forsaken survivors against the madness of their fallen former peer."
+  }
+ ],
+ "keywords": [
+  "alaric",
+  "bethor iceshard",
+  "dalaran",
+  "fenris keep",
+  "gunther arcanus",
+  "magic quarter",
+  "thule ravenclaw",
+  "woven wand"
+ ],
+ "related": [
+  "npc:bethor-iceshard",
+  "quest:491",
+  "quest:461",
+  "quest:446",
+  "subzone:fenris-keep",
+  "npc:gunther-arcanus",
+  "subzone:dalaran",
+  "subzone:magic-quarter"
+ ],
+ "attribution": [
+  "Woven Wand",
+  "Wand to Bethor"
+ ]
+}

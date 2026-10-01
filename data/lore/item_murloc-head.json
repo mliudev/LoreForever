@@ -1,0 +1,87 @@
+{
+ "key": "item:murloc-head",
+ "type": "item",
+ "name": "Murloc Head",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Murloc Head",
+  "quests": [
+   "quest:559"
+  ]
+ },
+ "summary": "Murloc Heads are grim trophies severed from the amphibious creatures prowling the Western Strand in Hillsbrad Foothills. Lieutenant Farren Orinelle of Southshore requires them as physical proof of culled threats to satisfy his superior, Magistrate Redpath.",
+ "sections": [
+  {
+   "title": "A Grislier Kind of Proof",
+   "body": "Southshore faces dangers from all directions, but the aggressive murlocs clustering along the Western Strand are an immediate menace to local fishermen and coastal travelers. Although Alliance adventurers frequently sweep the beaches to cull the creatures, Magistrate Henry Redpath demands undeniable verification before signing off on defensive reports. To humor the bureaucracy, Lieutenant Farren Orinelle relies on hired fighters to haul in cold, dripping murloc heads\u2014an unpleasant task Farren himself finds entirely repulsive, especially given how thoroughly the sight has spoiled his appetite for Southshore's local seafood.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Farren Orinelle want murloc heads?",
+   "aliases": [
+    "farren proof",
+    "why murloc heads",
+    "who wants murloc heads in southshore"
+   ],
+   "answer": "Magistrate Henry Redpath was not satisfied with simple reports of murlocs being cleared from the beaches. To verify the threat was genuinely reduced, he demanded physical evidence, forcing Lieutenant Farren to collect severed heads as proof."
+  },
+  {
+   "q": "Where are these murlocs found?",
+   "aliases": [
+    "murloc head location",
+    "where to get murloc heads hillsbrad",
+    "western strand murlocs"
+   ],
+   "answer": "They are gathered from the murloc tribes infesting the Western Strand, the coastline stretching west of Southshore in Hillsbrad Foothills."
+  },
+  {
+   "q": "Why is Farren so disgusted by them?",
+   "aliases": [
+    "farren reaction",
+    "farren eating fish"
+   ],
+   "answer": "Farren finds walking fish inherently unnatural and stomach-turning. The sight of slimy, bleeding severed heads dripping onto the floor disgusts him so much that he refuses to eat fish, which is a major dietary staple in a port town like Southshore."
+  },
+  {
+   "q": "Does collecting the heads solve Southshore's murloc problem?",
+   "aliases": [
+    "do murlocs stop attacking",
+    "farren quest chain"
+   ],
+   "answer": "Not immediately. Even after presenting the initial collection, Magistrate Redpath's exacting standards and continuing murloc raids lead Farren to demand further evidence before matters are resolved."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Clearing the Western Strand protects Southshore's fragile fishing economy and secures the coastline for the Alliance's last stronghold in Lordaeron."
+  }
+ ],
+ "keywords": [
+  "farren orinelle",
+  "farren's proof",
+  "hillsbrad foothills",
+  "magistrate redpath",
+  "murloc",
+  "murloc head",
+  "southshore",
+  "western strand"
+ ],
+ "related": [
+  "quest:559",
+  "npc:lieutenant-farren-orinelle",
+  "subzone:southshore",
+  "zone:hillsbrad",
+  "topic:murloc",
+  "quest:536",
+  "quest:562",
+  "quest:563"
+ ],
+ "attribution": [
+  "Murloc Head",
+  "Farren's Proof"
+ ]
+}

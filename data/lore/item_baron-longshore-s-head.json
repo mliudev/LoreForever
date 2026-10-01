@@ -1,0 +1,86 @@
+{
+ "key": "item:baron-longshore-s-head",
+ "type": "item",
+ "name": "Baron Longshore's Head",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Baron Longshore's Head",
+  "quests": [
+   "quest:895"
+  ]
+ },
+ "summary": "This severed head is proof of the death of Baron Longshore, captain of the Southsea Freebooter vessel Heedless. Gazlowe posted a public bounty for the pirate's identifiable remains to protect Ratchet's commercial shipping along the Merchant Coast.",
+ "sections": [
+  {
+   "title": "A Price on a Buccaneer",
+   "body": "Operating out of camps along the Merchant Coast south of Ratchet, Baron Longshore directed raids against regional merchant vessels on behalf of the Southsea Freebooters. His flagship, the Heedless, posed a direct threat to the goblin trade lanes linking Kalimdor to the Eastern Kingdoms. Gazlowe, Chief Engineer of Ratchet, placed a bounty on Longshore requiring identifiable proof of demise. Delivering the pirate's head satisfies the contract and secures a monetary reward from the port authority.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Baron Longshore?",
+   "aliases": [
+    "baron longshore",
+    "who is longshore",
+    "captain longshore"
+   ],
+   "answer": "He was a pirate captain hailing from the human kingdom of Gilneas. Leading Southsea Freebooters from camps along the Merchant Coast south of Ratchet, he terrorized shipping lanes aboard his vessel, the Heedless."
+  },
+  {
+   "q": "Who wants Baron Longshore's head?",
+   "aliases": [
+    "who wants the head",
+    "who turned in to",
+    "gazlowe bounty"
+   ],
+   "answer": "Gazlowe, the goblin leader of Ratchet, posted the wanted notice. The Southsea Freebooters preyed upon Ratchet's merchant vessels, prompting Gazlowe to demand Longshore's identifiable remains to ensure his harbor's trade remains uninterrupted."
+  },
+  {
+   "q": "Where is Baron Longshore found?",
+   "aliases": [
+    "where is longshore",
+    "longshore location",
+    "baron longshore spawn"
+   ],
+   "answer": "Longshore patrols three Southsea pirate encampments situated on the coastline south of Ratchet, just north of Northwatch Hold along the Merchant Coast."
+  },
+  {
+   "q": "What ship did Baron Longshore command?",
+   "aliases": [
+    "longshore ship",
+    "the heedless",
+    "heedless ship"
+   ],
+   "answer": "He captained the Heedless, a fearsome vessel that raided merchant ships operating in the Great Sea off the coast of the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Gazlowe's bounty notes that Longshore originated from the isolationist nation of Gilneas before turning to high-seas piracy with the Southsea Freebooters."
+  }
+ ],
+ "keywords": [
+  "baron longshore",
+  "bounty",
+  "gazlowe",
+  "gilneas",
+  "heedless",
+  "merchant coast",
+  "ratchet",
+  "southsea freebooters"
+ ],
+ "related": [
+  "quest:895",
+  "subzone:merchant-coast",
+  "subzone:ratchet",
+  "quest:887",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Baron Longshore's Head",
+  "WANTED: Baron Longshore"
+ ]
+}

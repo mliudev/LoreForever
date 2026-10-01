@@ -1,0 +1,79 @@
+{
+ "key": "item:webwood-ichor",
+ "type": "item",
+ "name": "Webwood Ichor",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Webwood Ichor",
+  "quests": [
+   "quest:3521"
+  ]
+ },
+ "summary": "Webwood Ichor is a potent fluid harvested from Webwood spiders prowling the shadowy reaches of Teldrassil. Prized for its volatile chemical properties, it serves as the crucial active component needed to brew an antivenom against the arachnids' virulent bites.",
+ "sections": [
+  {
+   "title": "A Toxic Cure",
+   "body": "The Webwood spiders that haunt the outskirts of Shadowglen and the depths of Shadowthread Cave carry a venom virulent enough to fell even hardy night elves. Paradoxically, the raw ichor taken directly from these predators contains the exact chemical basis needed to neutralize their own bite. When combined with cleansing flora like Hyacinth Mushrooms and Moonpetal Lilies, herbalists such as Dirania Silvershine can refine the toxic fluid into a life-saving antidote for victims like the reckless scout Iverron.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Webwood Ichor used for?",
+   "aliases": [
+    "webwood ichor use",
+    "what does webwood ichor do",
+    "why get ichor"
+   ],
+   "answer": "Webwood Ichor is the primary active ingredient used by Dirania Silvershine in Shadowglen to formulate an antivenom. It is required to save the poisoned night elf Iverron from succumbing to the lethal venom of the local spiders."
+  },
+  {
+   "q": "Where does Webwood Ichor come from?",
+   "aliases": [
+    "where to find webwood ichor",
+    "how to get webwood ichor",
+    "webwood ichor drop"
+   ],
+   "answer": "It is harvested from the corpses of Webwood Spiders residing in northwestern Shadowglen, particularly those dwelling around and inside Shadowthread Cave."
+  },
+  {
+   "q": "Why use spider fluid to cure a spider bite?",
+   "aliases": [
+    "spider poison cure",
+    "why venom for antidote"
+   ],
+   "answer": "Like many natural antivenoms, a counteragent often requires the raw toxins or biological fluids of the creature that inflicted the bite. Once properly counterbalanced with soothing herbs like moonpetal lilies and hyacinth mushrooms, the ichor helps create an effective neutralizing cure."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young night elves defending Aldrassil, harvesting Webwood ichor teaches the harsh balance of nature: that the deadliest poisons of Teldrassil often harbor their own cures."
+  }
+ ],
+ "keywords": [
+  "antidote",
+  "dirania silvershine",
+  "iverron",
+  "shadowglen",
+  "shadowthread cave",
+  "teldrassil",
+  "webwood ichor",
+  "webwood spider"
+ ],
+ "related": [
+  "quest:3521",
+  "npc:iverron",
+  "subzone:shadowthread-cave",
+  "subzone:shadowglen",
+  "item:moonpetal-lily",
+  "item:hyacinth-mushroom",
+  "subzone:aldrassil",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Webwood Ichor",
+  "Iverron's Antidote (Classic)"
+ ]
+}

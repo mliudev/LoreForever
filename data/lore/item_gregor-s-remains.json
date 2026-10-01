@@ -1,0 +1,99 @@
+{
+ "key": "item:gregor-s-remains",
+ "type": "item",
+ "name": "Gregor's Remains",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Gregor's Remains",
+  "quests": [
+   "quest:354"
+  ]
+ },
+ "summary": "Gregor's Remains are the physical bones recovered from the Scourge-enslaved Gregor Agamand. Once part of the wealthiest dynasty in Tirisfal Glades, his remains are sought by a former mill worker eager to settle an old score from beyond the grave.",
+ "sections": [
+  {
+   "title": "A Legacy of Ruin",
+   "body": "Before the Third War, the Agamand family held immense wealth and vast tracts of land across northern Tirisfal Glades. When the Scourge invaded Lordaeron, the patriarchs chose pride over flight, fortifying their family mills and persuading their loyal laborers to make a desperate stand against the undead. The defense failed entirely. The estate was overrun, and those who stood their ground were butchered and raised into undeath. Gregor Agamand became another mindless thrall in the service of the Lich King, haunting the very mills his family once ruled.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of Vengeance",
+   "body": "For survivors who broke free from the Lich King's grip to join the Forsaken, the memory of that fateful defense remains a bitter wound. Coleman Farthing, a former mill worker stationed in Brill, blames the hubris of the Agamands for trapping his soul in eternal rot. Collecting Gregor's remains offers Farthing a measure of personal retribution, closing the chapter on a master who led his household straight into damnation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Gregor Agamand?",
+   "aliases": [
+    "gregor lore",
+    "who is gregor",
+    "gregor agamand"
+   ],
+   "answer": "Gregor Agamand was a prominent member of the Agamand dynasty, the wealthiest land-owning family in Tirisfal Glades before the Third War. When the Plague of Undeath arrived, he and his family chose to fortify their estate rather than flee, leading to the slaughter and reanimation of everyone inside."
+  },
+  {
+   "q": "Why does Coleman Farthing want Gregor's Remains?",
+   "aliases": [
+    "why coleman wants remains",
+    "coleman farthing grudge",
+    "why collect gregor bones"
+   ],
+   "answer": "Coleman Farthing was a mill worker employed by the Agamands in life. He deeply resents the family for convincing their workers to stay and fight the Scourge, a blunder that condemned them all to undeath. Having Gregor's remains brought to him serves as long-delayed vengeance."
+  },
+  {
+   "q": "Where are Gregor's Remains found?",
+   "aliases": [
+    "where to find gregor",
+    "gregor location",
+    "agamand mills gregor"
+   ],
+   "answer": "The remains are recovered from the risen form of Gregor Agamand at the Agamand Mills, located in the northern hills of Tirisfal Glades."
+  },
+  {
+   "q": "Are the Agamands part of the Forsaken?",
+   "aliases": [
+    "is gregor forsaken",
+    "are agamands scourge",
+    "who controls gregor"
+   ],
+   "answer": "No. Unlike the Forsaken who broke free under Queen Sylvanas, Gregor Agamand and his kin remain mindless servants chained to the will of the Scourge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Agamand tragedy mirrors the fate of many Forsaken: ordinary folk betrayed by the pride of nobility and abandoned to the horrors of the Plague."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Clearing the Agamand Mills strikes a direct blow against lingering Scourge pockets threatening the security of Tirisfal Glades."
+  }
+ ],
+ "keywords": [
+  "agamand",
+  "brill",
+  "coleman",
+  "deaths in the family",
+  "farthing",
+  "gregor",
+  "mills",
+  "remains",
+  "scourge"
+ ],
+ "related": [
+  "quest:354",
+  "npc:coleman-farthing",
+  "item:thurman-s-remains",
+  "item:nissa-s-remains",
+  "zone:tirisfal",
+  "subzone:brill",
+  "topic:forsaken",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Gregor's Remains",
+  "Deaths in the Family (Classic)"
+ ]
+}

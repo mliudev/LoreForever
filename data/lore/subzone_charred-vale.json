@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Charred Vale"
  },
- "summary": "The Charred Vale is a smoldering valley in southwestern Stonetalon Mountains, devastated by the reckless deforestation and machinery of the Venture Company. Once a thriving haven for treants and chimaeras, it is now engulfed in flames, roving elementals, and hostile black dragonkin.",
+ "summary": "The Charred Vale is a smoldering valley in southwestern Stonetalon Mountains, devastated by the reckless deforestation and machinery of the Venture Company. Once a thriving haven for treants and chimaeras, it is now engulfed in flames, roving elementals, and hostile harpies.",
  "sections": [
   {
    "title": "A Scorched Woodland",
-   "body": "Not long ago, this southwest basin was a flourishing alpine wood guarded by majestic treants and inhabited by native chimaeras and harpies. Its ruin began with the arrival of the Venture Company. The greedy goblin outfit clear-cut the forest with explosive machinery, corrupting the guardians and awakening chaotic fissure-born fire elementals. Though the treants eventually forced the goblins back, the land was left broken, scarred by fire, and tainted by whatever foul devices the retreating loggers deployed.",
+   "body": "Not long ago, this southwest basin was a flourishing alpine wood guarded by majestic treants and inhabited by native chimaeras and harpies. Its ruin began with the arrival of the Venture Company. The greedy goblin outfit clear-cut the forest with explosive machinery, corrupting the guardians and awakening chaotic fire elementals. Though the treants eventually forced the goblins back, the land was left broken, scarred by fire, and tainted by whatever foul devices the retreating loggers deployed.",
    "spoiler": 0
   },
   {
    "title": "Struggles of Renewal",
-   "body": "Today, blackened ancients wander blindly through smoke and ash alongside enraged elementals and nesting black whelps and drakes. Bloodfury harpies roost in the skeletal snags, defending what remains of their territory. Despite the hostility of the valley, druids from Sun Rock Retreat refuse to abandon the region, dispatching travelers to sow enchanted seeds and tend the corrupted ancients in a persistent campaign to reclaim the scorched earth.",
+   "body": "Today, blackened ancients wander blindly through smoke and ash alongside enraged elementals. Bloodfury harpies roost in the skeletal snags, defending what remains of their territory. Despite the hostility of the valley, druids from Sun Rock Retreat refuse to abandon the region, dispatching travelers to sow enchanted seeds and tend the corrupted ancients in a persistent campaign to reclaim the scorched earth.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "monsters in charred vale",
     "what lives in charred vale"
    ],
-   "answer": "The basin is crawling with hostile elemental fire spirits, blackened and vengeful ancients, Scorched Basilisks, and wild chimaeras. It is also plagued by Bloodfury harpies and dangerous broods of black drakes and whelps."
+   "answer": "The basin is crawling with hostile elemental fire spirits, blackened and vengeful ancients, Scorched Basilisks, and wild chimaeras. It is also plagued by Bloodfury harpies."
   },
   {
    "q": "What was the Charred Vale called before it burned?",

@@ -1,0 +1,97 @@
+{
+ "key": "item:barrow-key",
+ "type": "item",
+ "name": "Barrow Key",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Barrow Key",
+  "quests": [
+   "quest:1089"
+  ]
+ },
+ "summary": "The Barrow Key is one of three druidic keys hidden within the Talon Den atop Stonetalon Peak. It is kept locked inside a barrow cache to guard the ancient treasures sealed within the den's hoard.",
+ "sections": [
+  {
+   "title": "A Guardian's Safeguard",
+   "body": "Within the subterranean barrows of the Talon Den, night elf druids established elaborate wards to protect their relics from interlopers. The Barrow Key is one piece of this multi-layered lock, concealed inside a specialized cache hidden among the subterranean passages. Accessing it requires the Gatekeeper's Key, ensuring that only those with knowledge of the druids' defensive network can ever hope to claim it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unlocking the Hoard",
+   "body": "Together with the Claw Key and the Sleepers' Key, the Barrow Key corresponds to three intricately carved keyholes set into a stone altar deep in the Talon Den. When all three are turned in unison, the protective enchantments dispel, revealing the hidden hoard of druidic relics to whoever manages to crack the ward.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Barrow Key used for?",
+   "aliases": [
+    "barrow key purpose",
+    "what does barrow key open",
+    "use of barrow key"
+   ],
+   "answer": "The Barrow Key is used alongside the Claw Key and the Sleepers' Key to unlock the Talon Den Hoard, a stone chest holding protected druidic relics deep within Stonetalon Peak."
+  },
+  {
+   "q": "Where is the Barrow Key hidden?",
+   "aliases": [
+    "barrow key location",
+    "where is barrow key",
+    "find barrow key"
+   ],
+   "answer": "It is locked inside a barrow cache\u2014resembling a concealed wall torch\u2014located deep within the winding tunnels of the Talon Den on Stonetalon Peak."
+  },
+  {
+   "q": "How do you open the cache containing the Barrow Key?",
+   "aliases": [
+    "open barrow cache",
+    "unlock barrow key",
+    "gatekeeper key barrow"
+   ],
+   "answer": "You must first retrieve the Gatekeeper's Key, which the druids concealed inside a small lantern near the main entrance of the Talon Den."
+  },
+  {
+   "q": "Who hidden the Barrow Key in the Talon Den?",
+   "aliases": [
+    "who made barrow key",
+    "who hid the keys in talon den"
+   ],
+   "answer": "The night elf druids residing in Stonetalon Peak devised the elaborate security system to keep their powerful artifacts out of hostile hands, concealing individual keys across different corners of the den."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The key is part of an ancient security rite designed by the druids of the Talon Den to safeguard sacred belongings within their underground sanctuary."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde operatives in Stonetalon Mountains pry information from captured night elves to locate this key and plunder the druids' private hoard."
+  }
+ ],
+ "keywords": [
+  "barrow key",
+  "claw key",
+  "gatekeeper's key",
+  "sleepers' key",
+  "stonetalon peak",
+  "talon den",
+  "talon den hoard",
+  "the den"
+ ],
+ "related": [
+  "quest:1089",
+  "item:claw-key",
+  "item:sleepers-key",
+  "subzone:stonetalon-peak",
+  "zone:stonetalon",
+  "topic:druid",
+  "quest:1088",
+  "quest:1087"
+ ],
+ "attribution": [
+  "Barrow Key",
+  "The Den (quest)"
+ ]
+}

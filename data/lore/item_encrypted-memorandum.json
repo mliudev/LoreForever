@@ -1,0 +1,97 @@
+{
+ "key": "item:encrypted-memorandum",
+ "type": "item",
+ "name": "Encrypted Memorandum",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Encrypted Memorandum",
+  "quests": [
+   "quest:3113"
+  ]
+ },
+ "summary": "The Encrypted Memorandum is a coded missive handed to novice rogues starting out in Coldridge Valley. Though disguised as official communication, it is actually a clandestine invitation from the local rogue trainer, Solm Hargrin, calling for solidarity among scoundrels in exile.",
+ "sections": [
+  {
+   "title": "A Discrete Summons",
+   "body": "In the bustling dwarven refuge of Anvilmar, rogues must maintain a low profile. Rather than approaching recruits in plain view, the trainer Solm Hargrin uses the Encrypted Memorandum to establish contact. Masked as an official directive from distant superiors, the coded parchment ensures that fledgling rogues know where to find mentorship without drawing unwanted attention from the local guards or suspicious townsfolk.",
+   "spoiler": 0
+  },
+  {
+   "title": "Kinship in Coldridge",
+   "body": "Beneath the cipher lies a message of practical survival. With Gnomeregan lost and displaced gnomes crammed alongside their dwarven allies into the snowbound settlements of Dun Morogh, tensions simmer close to the surface. Solm uses the note to build a quiet camaraderie, reminding his students that practitioners of their trade must look out for one another when scapegoating and prejudice threaten to blame them for every missing trinket.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Encrypted Memorandum?",
+   "aliases": [
+    "what is encrypted memorandum",
+    "memorandum item",
+    "rogue note"
+   ],
+   "answer": "It is a coded parchment delivered to beginning rogues in Coldridge Valley, instructing them to seek out rogue training under the guise of an official dispatch."
+  },
+  {
+   "q": "Who wrote this memorandum?",
+   "aliases": [
+    "who wrote the memorandum",
+    "who sent encrypted memorandum",
+    "author of memorandum"
+   ],
+   "answer": "It was drafted by Solm Hargrin, the rogue trainer stationed within Anvilmar, who disguised it as official orders to discreetly gather his fellow scoundrels."
+  },
+  {
+   "q": "Why is the message encrypted?",
+   "aliases": [
+    "why encrypted",
+    "why ciphered",
+    "why is it coded"
+   ],
+   "answer": "Rogues operating in Coldridge Valley avoid public scrutiny. Disguising the invitation as a routine bureaucratic memo prevents local authorities and nosy onlookers from noticing clandestine training."
+  },
+  {
+   "q": "What does Solm Hargrin want?",
+   "aliases": [
+    "what does solm want",
+    "why find solm",
+    "solm purpose"
+   ],
+   "answer": "Solm wants to offer combat training, guidance, and mutual protection, emphasizing that rogues must stick together in crowded Dun Morogh where thieves are quickly blamed for missing items."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This coded letter serves as your formal summons to the shadows of Dun Morogh, connecting you directly with your local trainer in Anvilmar."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Living as refugees among the dwarves after the fall of Gnomeregan, gnomish rogues find in this note a quiet offer of solidarity and survival."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "encrypted memorandum",
+  "gnomeregan",
+  "rogue trainer",
+  "solm hargrin"
+ ],
+ "related": [
+  "quest:3113",
+  "npc:solm-hargrin",
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "topic:rogue",
+  "topic:gnome",
+  "zone:gnomeregan",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Encrypted Memorandum",
+  "Encrypted Memorandum (quest)"
+ ]
+}

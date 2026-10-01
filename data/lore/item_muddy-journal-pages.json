@@ -1,0 +1,90 @@
+{
+ "key": "item:muddy-journal-pages",
+ "type": "item",
+ "name": "Muddy Journal Pages",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Muddy Journal Pages",
+  "quests": [
+   "quest:79"
+  ]
+ },
+ "summary": "These weathered, soil-stained sheets were recovered from the scene of a gruesome murder years ago in Duskwood. Long preserved by Tavernkeep Smitts without proof of authorship, they serve as the final evidentiary link in unraveling the dark legend of Stalvan Mistmantle.",
+ "sections": [
+  {
+   "title": "The Evidence of the Massacre",
+   "body": "Years before the current perils overtook Duskwood, a retinue of visiting nobles was brutally slaughtered in the wilderness. Tavernkeep Smitts accompanied the investigator Haggard to the bloody scene and salvaged these muddy journal pages from the mire. At the time, the town lacked the handwriting samples and corroborated records required to tie the text directly to any suspect. Smitts quietly retained the pages in Darkshire's tavern, waiting for a investigator to uncover enough scattered records across the southern kingdoms to match the script to the recluse living deep within the woods.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where were the muddy journal pages found?",
+   "aliases": [
+    "where did smitts find the pages",
+    "origin of muddy pages",
+    "muddy journal location"
+   ],
+   "answer": "They were discovered by Tavernkeep Smitts and Haggard several years ago at the scene where a visiting family of nobles was slaughtered in the woods of Duskwood."
+  },
+  {
+   "q": "Why couldn't Smitts use the pages when he first found them?",
+   "aliases": [
+    "why keep the pages secret",
+    "why didn't smitts turn them in",
+    "smitts evidence problem"
+   ],
+   "answer": "While the pages were recovered from the crime scene, local investigators had no way to verify the handwriting. Without confirmed writing samples from Stalvan Mistmantle's previous employers, the town watch could not establish proof of his guilt."
+  },
+  {
+   "q": "Who needs to see these pages?",
+   "aliases": [
+    "who do i give the muddy pages to",
+    "turn in muddy journal pages",
+    "ebonlocke muddy pages"
+   ],
+   "answer": "They must be brought directly to Commander Althea Ebonlocke, leader of the Night Watch in Darkshire, to officially report the culmination of the investigation into the Mistmantle killings."
+  },
+  {
+   "q": "What crime do these pages connect to?",
+   "aliases": [
+    "what massacre",
+    "what did stalvan do",
+    "visiting nobles slaughtered"
+   ],
+   "answer": "The pages tie Stalvan Mistmantle to the cold-blooded massacre of the noble Mooncry family, whom Stalvan had served as an aristocratic tutor before descending into madness and obsession."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Unraveling the mystery behind the slaughter of Stormwind nobles brings overdue closure to a lingering cold case in the embattled settlements of Duskwood."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Piecing together forgotten handwriting samples and weathered diary scraps demonstrates the methodical forensic work required before striking down a hidden killer."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "ebonlocke",
+  "haggard",
+  "legend of stalvan",
+  "muddy journal pages",
+  "smitts",
+  "stalvan"
+ ],
+ "related": [
+  "quest:66",
+  "npc:tavernkeep-smitts",
+  "npc:althea-ebonlocke",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "topic:light"
+ ],
+ "attribution": [
+  "Muddy Journal Pages",
+  "The Legend of Stalvan (10)"
+ ]
+}

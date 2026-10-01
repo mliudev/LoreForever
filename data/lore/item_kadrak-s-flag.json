@@ -1,0 +1,93 @@
+{
+ "key": "item:kadrak-s-flag",
+ "type": "item",
+ "name": "Kadrak's Flag",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Kadrak's Flag",
+  "quests": [
+   "quest:3514"
+  ]
+ },
+ "summary": "Kadrak's Flag is an emblem of the Horde given by the scout Kadrak at the border between the Barrens and Ashenvale. It serves as an unmistakable warning to the night elves and dryads of Stonetalon Peak, planted directly in the Talon Den after the elimination of Keymaster Rynthariel.",
+ "sections": [
+  {
+   "title": "A Mark of Defiance",
+   "body": "Tensions run high along the borders of Kalimdor, where Alliance messengers and sentinels routinely test the boundaries of Horde-held territories. When a decoded scroll reveals communications from the dryad Rynthariel, Keymaster of the Talon Den, Kadrak determines that killing her is not enough. He provides this crimson banner to be planted deep within the Den upon the peak of Stonetalon. By staking the Horde's colors inside one of the night elves' sacred mountain redoubts, Kadrak intends to send a clear message: incursions across the Barrens will be answered with bold retaliation on Alliance soil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Kadrak's Flag used for?",
+   "aliases": [
+    "flag purpose",
+    "why plant flag",
+    "what does flag do"
+   ],
+   "answer": "The flag is planted inside the Talon Den atop Stonetalon Peak after slaying Rynthariel the Keymaster. Staking the Horde's banner in their stronghold warns the night elves against sending further scouts and messengers into the Barrens."
+  },
+  {
+   "q": "Who gives you the flag?",
+   "aliases": [
+    "who gives flag",
+    "where to get flag",
+    "kadrak location"
+   ],
+   "answer": "Kadrak, an orc scout stationed at the border watchpost between the northern Barrens and Ashenvale, gives the banner to Horde adventurers as part of his campaign to secure the region."
+  },
+  {
+   "q": "Where is the flag planted?",
+   "aliases": [
+    "where do i plant flag",
+    "flag location",
+    "talon den flag spot"
+   ],
+   "answer": "The banner is planted within the Talon Den, a cavern sanctuary located on the western slopes of Stonetalon Peak in the Stonetalon Mountains."
+  },
+  {
+   "q": "Who is Rynthariel?",
+   "aliases": [
+    "rynthariel dryad",
+    "who is rynthariel",
+    "keymaster"
+   ],
+   "answer": "Rynthariel is a dryad who serves as the Keymaster of the Talon Den. She orchestrates messengers crossing into Horde territory until Kadrak intercepts her communications and orders her demise."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Staking this banner deep inside the Talon Den is an aggressive assertion of territorial strength, proving the Horde will strike back directly against night elf sanctuaries when provoked."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The desecration of the Talon Den with a blood-red Horde banner represents a direct insult and provocation against the protectors of Stonetalon Peak."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "horde presence",
+  "kadrak",
+  "kadrak's flag",
+  "rynthariel",
+  "stonetalon",
+  "stonetalon peak",
+  "talon den"
+ ],
+ "related": [
+  "quest:3514",
+  "npc:kadrak",
+  "zone:stonetalon",
+  "subzone:stonetalon-peak",
+  "zone:barrens",
+  "quest:3513",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Kadrak's Flag",
+  "Horde Presence"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "key": "item:vial-of-purest-water",
+ "type": "item",
+ "name": "Vial of Purest Water",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Vial of Purest Water",
+  "quests": [
+   "quest:220"
+  ]
+ },
+ "summary": "The Vial of Purest Water is a sacred vessel blessed by the hermit Brine along the southern coastline of the Barrens. Entrusted to an initiate shaman, its purified contents are essential for concocting the draught required to perceive elusive elemental spirits.",
+ "sections": [
+  {
+   "title": "A Purified Offering",
+   "body": "Forged through trials of patience and cleansing under the guidance of Brine, the water sealed in this vial represents liquid in its uncorrupted elemental essence. Transported across the arid wastes of the Barrens back to the solitary shore where Islen Waterseer keeps watch, the vial serves as the vital component in brewing a water sapta. Without its pristine purity, a shaman cannot commune with the spiritual guardians that dwell in places far removed from the sunbaked flats.",
+   "spoiler": 0
+  },
+  {
+   "title": "Path to the Water Totem",
+   "body": "Islen uses the blessed liquid not merely to test a practitioner's dedication, but to open their senses to the hidden elements. Part of the water is blended into the sapta to reveal the spirits stationed at a distant shrine in Silverpine Forest, while the remaining drops are reserved for confronting and cleansing rogue manifestation elsewhere. Carrying this vial is the turning point where an aspiring mystic transitions from performing humble chores to directly facing elemental realities.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Vial of Purest Water used for?",
+   "aliases": [
+    "vial of purest water purpose",
+    "what does the vial do",
+    "use of purest water"
+   ],
+   "answer": "The vial contains carefully cleansed and blessed water given to a shaman initiate. Islen Waterseer uses the liquid to brew a water sapta, an elixir that grants the spiritual sight needed to perceive water elementals, as well as for further ritual trials required to earn the Water Totem."
+  },
+  {
+   "q": "Who prepares the water inside the vial?",
+   "aliases": [
+    "who made the vial",
+    "who fills the vial",
+    "brine water"
+   ],
+   "answer": "The water is gathered by the shaman under the direction of Brine, an elemental hermit dwelling near the southern coast of the Barrens. Once gathered through various trials, Brine blesses and seals the purified water into the vial for transport."
+  },
+  {
+   "q": "Where does the vial need to be taken?",
+   "aliases": [
+    "who do I give the vial to",
+    "where to deliver vial",
+    "turn in purest water"
+   ],
+   "answer": "The vial must be carried back to Islen Waterseer, who resides on the eastern shore of the Barrens, just south of Ratchet overlooking the Great Sea."
+  },
+  {
+   "q": "Where does the ritual lead after delivering the vial?",
+   "aliases": [
+    "where do I go next",
+    "next step after vial",
+    "silverpine water shrine"
+   ],
+   "answer": "Once Islen Waterseer receives the vial and brews the sapta, she sends the shaman across the sea to the Eastern Kingdoms, specifically to a shrine located in Silverpine Forest south of the Undercity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Obtaining and delivering this purified water marks your final steps toward communing with water spirits and claiming your Water Totem."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The trials surrounding the vial send young Horde shamans across both Kalimdor and the Eastern Kingdoms to deepen their bond with the elements."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "brine",
+  "call of water",
+  "islen waterseer",
+  "silverpine",
+  "vial of purest water",
+  "water sapta"
+ ],
+ "related": [
+  "quest:63",
+  "npc:islen-waterseer",
+  "npc:brine",
+  "topic:shaman",
+  "zone:barrens",
+  "zone:silverpine",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "Vial of Purest Water",
+  "Call of Water (6)"
+ ]
+}

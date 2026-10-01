@@ -1,0 +1,98 @@
+{
+ "key": "item:diabolical-plans",
+ "type": "item",
+ "name": "Diabolical Plans",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Diabolical Plans",
+  "quests": [
+   "quest:9520",
+   "quest:9535"
+  ]
+ },
+ "summary": "The Diabolical Plans are parchment orders recovered from the Burning Blade or feral demonic forces lingering in Ashenvale. Inscribed by the dreadlords Diathorus the Seeker and Gorgannon, they outline impending assaults on mortal settlements throughout the ancient forest.",
+ "sections": [
+  {
+   "title": "Demonic Schematics",
+   "body": "Written in mortal tongues so lesser mortal cultists and pawns can understand them, these documents reveal targeted strikes coordinated by dreadlord commanders lurking in Ashenvale's corrupted pockets. Depending on who recovers the parchment, the plans map out an assault against either the draenei builders at Forest Song or the Horde garrison at Splintertree Post.",
+   "spoiler": 0
+  },
+  {
+   "title": "Targets in the Ancient Woods",
+   "body": "The schemes reveal that the dreadlords Diathorus and Gorgannon are actively attempting to purge rival presences from the woods. Delivering the documents allows local commanders\u2014such as Vindicator Vedaar or Valusha\u2014to prepare defenses and orchestrate counterattacks against the demon cabals before the Legion's remnants can overrun their outposts.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Diabolical Plans?",
+   "aliases": [
+    "diabolical plans item",
+    "what is diabolical plans",
+    "demon plans parchment"
+   ],
+   "answer": "They are written battle plans recovered from demonic forces roaming Ashenvale. Authored by the dreadlords Diathorus and Gorgannon, the orders detail coordinated strikes against mortal encampments in the region."
+  },
+  {
+   "q": "Why are the plans written in mortal languages?",
+   "aliases": [
+    "why common tongue",
+    "why orcish demon plans",
+    "why can i read the plans"
+   ],
+   "answer": "Demonic schematics found among mortal servants are often scribed in Common or Orcish so that cultists and allied lesser agents can interpret and execute their dreadlord masters' strategies."
+  },
+  {
+   "q": "Who should I bring these plans to?",
+   "aliases": [
+    "who turns in diabolical plans",
+    "diabolical plans turn in",
+    "vedaar or valusha"
+   ],
+   "answer": "Alliance heroes should deliver them to Vindicator Vedaar at Forest Song in eastern Ashenvale, while Horde champions must present them to Valusha at Splintertree Post."
+  },
+  {
+   "q": "Who are Diathorus and Gorgannon?",
+   "aliases": [
+    "diathorus",
+    "gorgannon",
+    "who wrote the plans"
+   ],
+   "answer": "They are two powerful dreadlords orchestrating demonic operations and mortal corruption within the corrupted clearings of Ashenvale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The plans warn Vindicator Vedaar of an imminent strike against the vulnerable draenei construction camp at Forest Song."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde garrison at Splintertree Post faces immediate encirclement if Valusha cannot preempt the demon assault revealed in these papers."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "diabolical plans",
+  "diathorus",
+  "dreadlord",
+  "forest song",
+  "gorgannon",
+  "splintertree post",
+  "valusha",
+  "vedaar"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "subzone:forest-song",
+  "subzone:splintertree-post",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Diabolical Plans",
+  "Diabolical Plans (Alliance)",
+  "Diabolical Plans (BC Classic)"
+ ]
+}

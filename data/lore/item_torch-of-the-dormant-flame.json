@@ -1,0 +1,76 @@
+{
+ "key": "item:torch-of-the-dormant-flame",
+ "type": "item",
+ "name": "Torch of the Dormant Flame",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Torch of the Dormant Flame",
+  "quests": [
+   "quest:1526"
+  ]
+ },
+ "summary": "The Torch of the Dormant Flame is a ritual implement carried by young Horde shaman during their communion with fire in Durotar. Awaiting the defeat of a flame manifestation atop the mountain, it serves as a vessel meant to capture primal elemental fire upon the Shrine of the Eternal Flame.",
+ "sections": [
+  {
+   "title": "Vessel of Awakening",
+   "body": "A shaman seeking the favor of fire is entrusted with the unlit Torch of the Dormant Flame before ascending the peaks above Durotar. After drinking a spirit-revealing fire sapta, the shaman sees and challenges a Minor Manifestation of Fire upon the mountaintop. Slaying this elemental spirit yields a glowing ember, which is deposited into the weathered brazier of the Shrine of the Eternal Flame. Touching the head of the dormant torch to the resulting white-hot conflagration awakens the wood, transforming it into a burning emblem of elemental mastery.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Torch of the Dormant Flame?",
+   "aliases": [
+    "what is dormant flame torch",
+    "why do i have this unlit torch",
+    "what does the torch do"
+   ],
+   "answer": "It is an unlit ceremonial torch given to shaman undertaking the Call of Fire trial. Once a manifestation of fire is defeated and its ember placed in the shrine's brazier, the torch is dipped into the white-hot flames to ignite it with elemental power."
+  },
+  {
+   "q": "Where does this torch get lit?",
+   "aliases": [
+    "where to light torch of dormant flame",
+    "shrine of eternal flame torch",
+    "how to ignite dormant torch"
+   ],
+   "answer": "It is ignited atop the mountain near Telf Joolam in Durotar, specifically at the brazier upon the Shrine of the Eternal Flame, immediately after defeating the Minor Manifestation of Fire."
+  },
+  {
+   "q": "Who provides the unlit torch?",
+   "aliases": [
+    "who gives torch of dormant flame",
+    "dormant torch source",
+    "call of fire torch giver"
+   ],
+   "answer": "The hermit shaman Telf Joolam grants the torch to initiates who have gathered the necessary ritual reagents to prepare the fire sapta."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The dormant torch represents the initiate's unproven state; only by conquering a living manifestation of flame can a shaman kindle it and earn the right to summon a Fire Totem."
+  }
+ ],
+ "keywords": [
+  "call of fire",
+  "durotar",
+  "fire sapta",
+  "shaman",
+  "shrine of eternal flame",
+  "telf joolam",
+  "torch of the dormant flame"
+ ],
+ "related": [
+  "quest:1524",
+  "npc:telf-joolam",
+  "item:glowing-ember",
+  "zone:durotar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Torch of the Dormant Flame",
+  "Call of Fire (4)"
+ ]
+}

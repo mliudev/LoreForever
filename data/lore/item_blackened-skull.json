@@ -1,0 +1,90 @@
+{
+ "key": "item:blackened-skull",
+ "type": "item",
+ "name": "Blackened Skull",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Blackened Skull",
+  "quests": [
+   "quest:426"
+  ]
+ },
+ "summary": "A blackened skull is the charred cranial remnant of a Darkeye Bonecaster animating in the Agamand Mills. Deathguard Dillinger in Brill demands these grisly trophies as proof of thinning the mindless Scourge forces threatening Tirisfal Glades.",
+ "sections": [
+  {
+   "title": "Trophy of the Bonecasters",
+   "body": "Charred and saturated with necromantic energies, these skulls are salvaged from the Darkeye Bonecasters haunting the Agamand Mills. These skeletal spellcasters direct necromantic malice against the living and the Forsaken alike, attempting to entrench a forward base for the Lich King's armies in northern Tirisfal. Presenting their ruined skulls to Deathguard Dillinger serves as tangible evidence that the Scourge's mystical vanguard is being crushed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do blackened skulls come from?",
+   "aliases": [
+    "blackened skull source",
+    "who drops blackened skulls",
+    "where to get blackened skulls"
+   ],
+   "answer": "They are collected from the remains of Darkeye Bonecasters, the skeletal spellcasters prowling the fields and structures around the Agamand Mills in northern Tirisfal Glades."
+  },
+  {
+   "q": "Why does Deathguard Dillinger want blackened skulls?",
+   "aliases": [
+    "dillinger skulls",
+    "why collect skulls",
+    "mills overrun skulls"
+   ],
+   "answer": "Deathguard Dillinger tasks Forsaken defenders with gathering blackened skulls and notched ribs as proof of active combat against the Scourge. The Forsaken cannot permit the Lich King's mindless minions to establish a foothold so close to Brill and the Undercity."
+  },
+  {
+   "q": "Why are the skulls blackened?",
+   "aliases": [
+    "why is it blackened",
+    "blackened skull lore"
+   ],
+   "answer": "The charring and discoloration are the result of the volatile dark magic wielded by the Bonecasters, which scorches their own brittle, reanimated bones as they cast spells."
+  },
+  {
+   "q": "What is the Scourge doing at Agamand Mills?",
+   "aliases": [
+    "agamand mills scourge",
+    "why are scourge at the mills"
+   ],
+   "answer": "The Scourge are attempting to fortify the abandoned Agamand Mills as a forward staging ground, using it to launch deeper attacks and raids across Tirisfal Glades."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, bringing down Darkeye Bonecasters is a matter of pure survival, preventing their former master from establishing a staging ground on their doorstep."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Studying the singed bone reveals how raw, unstable necromantic casting burns directly through the skeletal caster's own physical frame."
+  }
+ ],
+ "keywords": [
+  "agamand mills",
+  "blackened skull",
+  "brill",
+  "darkeye bonecaster",
+  "deathguard dillinger",
+  "notched rib",
+  "scourge",
+  "the mills overrun"
+ ],
+ "related": [
+  "quest:426",
+  "subzone:agamand-mills",
+  "npc:deathguard-dillinger",
+  "subzone:brill",
+  "item:notched-rib",
+  "topic:scourge",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Blackened Skull",
+  "The Mills Overrun (Classic)"
+ ]
+}

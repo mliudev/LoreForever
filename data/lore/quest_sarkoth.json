@@ -1,0 +1,121 @@
+{
+ "key": "quest:sarkoth",
+ "type": "quest",
+ "name": "Sarkoth",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   790
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Hana'zua",
+  "end": "",
+  "previous": "Hana'zua (quest)",
+  "next": "Back to the Den",
+  "wiki": "Sarkoth (quest)",
+  "chain": []
+ },
+ "summary": "High on a southern plateau in the Valley of Trials lurks Sarkoth, an unusually vicious scorpid whose venomous sting has brought a young Darkspear hunter to death's door. Lying wounded beneath a tree, the dying troll Hana'zua pleads for a passing warrior to slay the beast and retrieve its mangled claw to salvage his honor.",
+ "sections": [
+  {
+   "title": "A Matter of Honor",
+   "body": "The trials in the Valley are meant to temper aspiring warriors of the Horde, but the harsh desert rarely offers second chances. While stalking the valley's venomous native fauna, the young troll scout Hana'zua encountered a scorpid far larger and deadlier than the rest. Though he managed to strike a heavy blow that mangled one of its pincers, Sarkoth's tail plunged into Hana'zua's chest, leaving him bleeding out in the dry red dirt. Facing what seems to be the end of his life, his only remaining wish is that the beast does not outlive him.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Plateau Terror",
+   "body": "Sarkoth prowls the elevated mesa overlooking the southern reaches of the Valley of Trials. Marked by the shattered claw from Hana'zua's strike, the monstrous beast dominates the high ridge, striking at anyone bold enough to climb the rocky path. Slaying the creature and returning its scarred claw to Hana'zua offers the wounded scout some bitter solace\u2014a tangible proof that his last desperate strike softened the monster enough to be brought down.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Sarkoth?",
+   "aliases": [
+    "sarkoth location",
+    "where is sarkoth",
+    "how to get to sarkoth"
+   ],
+   "answer": "Sarkoth prowls atop the high plateau south of where Hana'zua lies wounded. To reach him, look for a dirt ramp winding up the canyon walls, where the large scorpid wanders the ridge."
+  },
+  {
+   "q": "Who is Hana'zua?",
+   "aliases": [
+    "hanazua",
+    "dying troll valley of trials",
+    "quest giver sarkoth"
+   ],
+   "answer": "Hana'zua is a young Darkspear troll undertaking his hunting trials in the Valley of Trials. Mauled and envenomed by Sarkoth, he lies slumped beneath a tree, desperately seeking an adventurer to avenge him before he succumbs to his wounds."
+  },
+  {
+   "q": "Why does Hana'zua want Sarkoth's claw?",
+   "aliases": [
+    "why sarkoths claw",
+    "mangled claw proof",
+    "hanazua honor"
+   ],
+   "answer": "During their fight, Hana'zua landed a fierce strike that shattered Sarkoth's claw before he was stung. Retrieving that mangled claw serves as proof of the monster's death and gives Hana'zua pride knowing his final fight was not completely in vain."
+  },
+  {
+   "q": "Does Hana'zua die from the venom?",
+   "aliases": [
+    "does hanazua survive",
+    "hanazua fate",
+    "is hanazua dead"
+   ],
+   "answer": "Though gravely wounded and bitter about his perceived failures, bringing down Sarkoth gives Hana'zua enough hope to send you to the Den in search of medical aid rather than resigning himself to death beneath the tree."
+  },
+  {
+   "q": "What makes Sarkoth different from other scorpids?",
+   "aliases": [
+    "sarkoth differences",
+    "why is sarkoth special",
+    "scorpid boss durotar"
+   ],
+   "answer": "Unlike the common scorpid workers skittering across the lower valley floor, Sarkoth is significantly larger, more aggressive, and bears the distinctive marks of recent battle, including a damaged claw."
+  },
+  {
+   "q": "What is the follow-up task after killing Sarkoth?",
+   "aliases": [
+    "quest after sarkoth",
+    "next step hanazua",
+    "back to the den quest"
+   ],
+   "answer": "Once you return Sarkoth's claw to Hana'zua, he urges you to hurry back to the Den to inform the camp leaders of his plight and bring assistance before his venomous wound proves fatal."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For a fellow Darkspear, answering Hana'zua's plea is a solemn duty of kinship, ensuring a tribe member's honorable stand is recognized rather than lost to the sands of Durotar."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcs understand the agony of dying without victory; avenging Hana'zua grants an untested scout the warrior's satisfaction of seeing his foe brought low."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "In the unforgiving environment of the Valley of Trials, coming to the aid of fallen comrades defines the communal strength Thrall's Horde strives to foster."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "durotar",
+  "hana'zua",
+  "mangled claw",
+  "sarkoth",
+  "scorpid",
+  "valley of trials"
+ ],
+ "related": [
+  "npc:hana-zua",
+  "quest:804",
+  "zone:durotar",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Sarkoth (quest)"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "npc:david-trias",
+ "type": "npc",
+ "name": "David Trias",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "David Trias",
+  "refs": 1
+ },
+ "summary": "David Trias is the Forsaken rogue trainer stationed in Deathknell. He instructs freshly awakened undead in the arts of stealth, subterfuge, and bladecraft to aid Queen Sylvanas and the Forsaken.",
+ "sections": [
+  {
+   "title": "A Guide from the Shadows",
+   "body": "Positioned amidst the tombstones and ruins of Deathknell, David Trias is tasked with identifying and training those newly risen undead who possess a talent for unseen murder. For the fledgling Forsaken, survival requires more than sheer force of arms; it demands precise strikes from the dark. Trias decrypts orders and teaches initiates how to wield daggers, conceal their movements, and turn their reanimated reflexes into lethal precision against the living and the Scourge.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Familiar Name",
+   "body": "The surname Trias carries peculiar echoes across the continent. Far to the south in the kingdom of Stormwind sits Elling Trias, a well-known cheese merchant who secretly maintains deep ties to master rogues and spymasters. While David is now an undead agent of the Dark Lady, his surname hints at connections to that same lineage of covert operators\u2014though whether he remembers or cares about his former family remains a secret kept in the shadows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is David Trias?",
+   "aliases": [
+    "david trias",
+    "who is david trias",
+    "rogue trainer deathknell"
+   ],
+   "answer": "David Trias is a Forsaken rogue trainer found in Deathknell in Tirisfal Glades. He teaches newly awakened Forsaken rogues their initial combat techniques and delivers their first covert assignments."
+  },
+  {
+   "q": "Where can I find David Trias?",
+   "aliases": [
+    "david trias location",
+    "where is david trias",
+    "deathknell rogue trainer"
+   ],
+   "answer": "He is located in Deathknell, the starting village for the Forsaken in Tirisfal Glades, standing near the settlement's structures and assisting newly risen undead."
+  },
+  {
+   "q": "Is David Trias related to Elling Trias in Stormwind?",
+   "aliases": [
+    "elling trias relation",
+    "trias family",
+    "is he related to elling trias"
+   ],
+   "answer": "He shares his surname with Elling Trias and Lucian Trias of Stormwind. Given that all three possess strong ties to roguecraft, David may be related to them, though no connection is confirmed."
+  },
+  {
+   "q": "What role does he play in Forsaken training?",
+   "aliases": [
+    "david trias quests",
+    "encrypted scroll",
+    "what does he teach"
+   ],
+   "answer": "Initiate rogues emerging from Deathknell's crypt are directed to David Trias with an encrypted scroll. He deciphers their instructions, guides their foundational training, and sets them on the path to becoming stealth operatives for the Forsaken."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "For Forsaken rogues, David Trias is your very first mentor, helping you decipher secret scrolls and teaching you how to turn the cold precision of undeath into lethal bladecraft."
+  },
+  {
+   "target": "race:Undead",
+   "text": "David Trias represents the grim reality of the Forsaken: former humans of Lordaeron whose past lives and lineage are severed by the plague, redirected now into serving Queen Sylvanas."
+  }
+ ],
+ "keywords": [
+  "david trias",
+  "deathknell",
+  "elling trias",
+  "encrypted scroll",
+  "forsaken",
+  "rogue trainer",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:deathknell",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "quest:3096",
+  "npc:elling-trias",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "David Trias"
+ ]
+}

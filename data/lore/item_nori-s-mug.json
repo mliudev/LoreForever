@@ -1,0 +1,82 @@
+{
+ "key": "item:nori-s-mug",
+ "type": "item",
+ "name": "Nori's Mug",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Nori's Mug",
+  "quests": [
+   "quest:3365"
+  ]
+ },
+ "summary": "Nori's Mug is the personal drinking vessel of Nori Pridedrift, used to deliver scalding mornbrew across the frigid drifts of Dun Morogh. After delivering a warm drink to stave off the biting alpine chill, travelers are tasked with returning the empty cup to its thrifty owner.",
+ "sections": [
+  {
+   "title": "A Courier's Return",
+   "body": "In the freezing mountain passes of Dun Morogh, a piping hot tankard of mornbrew is one of the few comforts capable of cutting through the bitter cold. Nori Pridedrift entrusts his mug to travelers delivering a fresh, steaming pour to Durnan Furcutter out in the snow. Once drained, the sturdy vessel must make the trek back. As Nori notes, mugs do not grow on trees, and keeping track of hard-wearing dwarven dishware is essential business when hospitality meets snowy wilderness.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Nori's Mug used for?",
+   "aliases": [
+    "purpose of noris mug",
+    "what was in the mug",
+    "noris cup"
+   ],
+   "answer": "It serves as the vessel for delivering piping hot, scalding mornbrew to Durnan Furcutter in the cold wastes of Dun Morogh. Once Durnan drinks his fill to warm up, the empty mug must be carried back to Nori Pridedrift."
+  },
+  {
+   "q": "Who owns this mug?",
+   "aliases": [
+    "who is nori",
+    "owner of mug",
+    "whose mug is it"
+   ],
+   "answer": "The mug belongs to Nori Pridedrift, a dwarf stationed in Dun Morogh who values his possessions and insists that couriers return his drinkware rather than leave it scattered across the snow."
+  },
+  {
+   "q": "Why does Nori insist on getting the mug back?",
+   "aliases": [
+    "why return the mug",
+    "why does nori want it back",
+    "mugs dont grow on trees"
+   ],
+   "answer": "Good earthenware and sturdy tankards are practical supplies in the harsh mountain climate. As Nori bluntly remarks, mugs do not grow on trees, making it a point of pride and practicality to ensure every borrowed cup returns to his possession."
+  },
+  {
+   "q": "What was drunk from the mug?",
+   "aliases": [
+    "what was in the cup",
+    "what is mornbrew",
+    "mornbrew drink"
+   ],
+   "answer": "It contained scalding mornbrew, a hearty warm beverage cherished by dwarves in Dun Morogh to ward off the biting cold and warm the soul."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves weathering Dun Morogh's storms, sharing a warm drink is second nature, but letting good tavernware go missing in a snowdrift is an unforgivable waste."
+  }
+ ],
+ "keywords": [
+  "bring back the mug",
+  "dun morogh",
+  "durnan furcutter",
+  "mornbrew",
+  "nori pridedrift",
+  "nori's mug"
+ ],
+ "related": [
+  "quest:3365",
+  "npc:nori-pridedrift",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Nori's Mug",
+  "Bring Back the Mug"
+ ]
+}

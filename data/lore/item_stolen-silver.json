@@ -1,0 +1,84 @@
+{
+ "key": "item:stolen-silver",
+ "type": "item",
+ "name": "Stolen Silver",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Stolen Silver",
+  "quests": [
+   "quest:3281"
+  ]
+ },
+ "summary": "The Stolen Silver is a recovered strongbox of Horde coin meant for the Crossroads guard garrison. It was bizarrely carried off into the wilderness by the ferocious raptors of the Barrens, leading to disbelief among the outpost's overseers.",
+ "sections": [
+  {
+   "title": "A Beastly Heist",
+   "body": "The vast wilds of the Barrens present constant threats to supply lines, but few expected the local Sunscale raptors to target strongboxes of metal currency. When a shipment carrying payroll for the Crossroads garrison was intercepted, the raptors dragged the lockbox back to their communal nests at the Raptor Grounds south of Ratchet. To overseers like Gazrog, the theft reveals an unsettling degree of cunning in the predators, who apparently value shiny trinkets or possess intelligence far beyond that of ordinary wild beasts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Stolen Silver?",
+   "aliases": [
+    "what is stolen silver",
+    "what is the silver"
+   ],
+   "answer": "It is a heavy lockbox filled with silver coin meant to pay the Crossroads guards. It was stolen during an ambush by wild raptors and carried away into their nesting grounds."
+  },
+  {
+   "q": "Why did raptors steal a lockbox of coins?",
+   "aliases": [
+    "why do raptors want silver",
+    "raptor intelligence",
+    "why silver"
+   ],
+   "answer": "The predators' motive remains a mystery even to seasoned warriors like Gazrog. While animals typically scavenge for food, Barrens raptors are known for unusual cunning, and these beasts were drawn to drag the shiny metal chest deep into their lair."
+  },
+  {
+   "q": "Where was the silver taken?",
+   "aliases": [
+    "stolen silver location",
+    "where is the silver"
+   ],
+   "answer": "The raptors dragged the lockbox to the Raptor Grounds, a rugged canyon of nests located south of Ratchet in the eastern Barrens."
+  },
+  {
+   "q": "Who is looking for the Stolen Silver?",
+   "aliases": [
+    "who wants the silver",
+    "who turns in stolen silver"
+   ],
+   "answer": "Gazrog, an orc stationed at the Crossroads, seeks the chest. The funds represent a full month's pay for the outpost's hard-pressed defenders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Crossroads operates as the strategic heart of the Horde's presence in the Barrens. Recovering this payroll ensures the local grunts remain fed, paid, and ready to hold the line against centaur and Alliance incursions."
+  }
+ ],
+ "keywords": [
+  "barrens payroll",
+  "crossroads",
+  "gazrog",
+  "raptor grounds",
+  "silver lockbox",
+  "stolen silver",
+  "sunscale raptor"
+ ],
+ "related": [
+  "quest:3281",
+  "quest:869",
+  "npc:gazrog",
+  "subzone:raptor-grounds",
+  "subzone:crossroads",
+  "zone:barrens",
+  "subzone:ratchet"
+ ],
+ "attribution": [
+  "Stolen Silver",
+  "Stolen Silver (quest)"
+ ]
+}

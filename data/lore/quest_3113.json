@@ -1,0 +1,120 @@
+{
+ "key": "quest:3113",
+ "type": "quest",
+ "name": "Encrypted Memorandum",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   3113
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "Sten Stoutarm",
+  "end": "Solm Hargrin",
+  "previous": null,
+  "next": null,
+  "wiki": "Encrypted Memorandum (quest)",
+  "chain": []
+ },
+ "summary": "The Encrypted Memorandum is an introductory summons directed at fledgling gnome rogues arriving in Coldridge Valley. Passed through Sten Stoutarm, the disguised note quietly directs new operatives to seek out Solm Hargrin inside Anvilmar.",
+ "sections": [
+  {
+   "title": "A Discreet Introduction",
+   "body": "While newcomer gnomes assist the mountaineers of Coldridge Valley with local trogg threats, Mountaineer Sten Stoutarm delivers a folded piece of parchment passed to him in confidence. Posing superficially as an official memorandum, the note is an invitation to meet Solm Hargrin, the resident rogue trainer stationed inside Anvilmar.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shared Hardships in the Snow",
+   "body": "The message reflects the uneasy reality facing the gnomes after the sudden fall of Gnomeregan. Displaced from their subterranean home, gnome survivors must share close quarters with their dwarven hosts in Dun Morogh. Solm Hargrin recognizes that rogues draw suspicion when items vanish, and he advocates for unspoken solidarity among practitioners of the craft to ensure their mutual survival.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote the Encrypted Memorandum?",
+   "aliases": [
+    "who sent memorandum",
+    "who wrote note",
+    "solm note"
+   ],
+   "answer": "Solm Hargrin, the rogue trainer residing inside Anvilmar, penned the note. He disguised it as an official directive from higher-ups so Sten Stoutarm would hand it over without raising suspicion."
+  },
+  {
+   "q": "Why is the memorandum disguised?",
+   "aliases": [
+    "why disguised",
+    "why encrypted"
+   ],
+   "answer": "Rogues prefer discretion, especially in a bustling dwarven hold like Anvilmar. Solm Hargrin keeps a low profile to prevent rumors or accusations whenever gear goes missing, using coded greetings to reach out specifically to fellow scoundrels."
+  },
+  {
+   "q": "What does this note reveal about the situation in Dun Morogh?",
+   "aliases": [
+    "gnome dwarven relations",
+    "gnomeregan refugees dun morogh"
+   ],
+   "answer": "The dialogue highlights the friction and solidarity between gnomes and dwarves following the loss of Gnomeregan. While cramming both populations into Ironforge and Dun Morogh strains resources, Solm emphasizes that those in their shadow trade must watch out for one another."
+  },
+  {
+   "q": "Who delivers the memorandum to the player?",
+   "aliases": [
+    "sten stoutarm delivery",
+    "who hands note"
+   ],
+   "answer": "Mountaineer Sten Stoutarm hands the document over after you assist him in Coldridge Valley, assuming it came from Solm Hargrin for your training."
+  },
+  {
+   "q": "What role does Solm Hargrin serve?",
+   "aliases": [
+    "solm hargrin role",
+    "what does solm do"
+   ],
+   "answer": "Solm Hargrin is the rogue trainer located inside the mountain hall of Anvilmar, responsible for instructing new rogues in combat techniques and shadowy talents."
+  },
+  {
+   "q": "Does this quest relate to Gnomeregan's fall?",
+   "aliases": [
+    "gnomeregan fall lore",
+    "gnome refugee status"
+   ],
+   "answer": "Yes. Solm directly references Gnomeregan being overrun and stresses that, despite losing their mechanical homeland, displaced gnomish rogues can rely on their shared brotherhood to endure."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This task serves as the initial calling for gnome rogues, introducing them to Solm Hargrin and the philosophy of mutual protection required to ply their covert trade in dwarven lands."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "The memorandum highlights the plight of gnome refugees following the disaster at Gnomeregan, showing how survivors band together while living as guests among the dwarves."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven mountaineers like Sten Stoutarm facilitate these communications, showing the practical cooperation between Ironforge and the displaced gnomes in Coldridge Valley."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "encrypted memorandum",
+  "gnomeregan",
+  "rogue trainer",
+  "solm hargrin",
+  "sten stoutarm"
+ ],
+ "related": [
+  "npc:solm-hargrin",
+  "npc:sten-stoutarm",
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "zone:gnomeregan",
+  "topic:gnome",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Encrypted Memorandum (quest)"
+ ]
+}

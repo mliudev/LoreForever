@@ -8,11 +8,11 @@
   "wiki": "Deathguard Simmer",
   "refs": 1
  },
- "summary": "Deathguard Simmer is a Forsaken soldier stationed at the Calston Estate just east of Deathknell in Tirisfal Glades. Tasked with securing the perimeter against human zealots, he directs newly risen Forsaken to combat the relentless incursions of the Scarlet Crusade.",
+ "summary": "Deathguard Simmer is a Forsaken soldier stationed just outside Deathknell in Tirisfal Glades. He sizes up newly risen Forsaken and sends them to raid the human pumpkin farm to the west, patrolled by the Scarlet Crusade, for reagents the apothecaries of Brill need.",
  "sections": [
   {
-   "title": "Guardian of the Estate",
-   "body": "Positioned at the ruins of Calston Estate, Deathguard Simmer represents the Forsaken military line holding the border between the safe haven of Deathknell and the wider perils of Tirisfal Glades. The region crawls with living humans\u2014most notably the fanatical Scarlet Crusade\u2014who view all undead as abominations to be purged with fire and blade. Simmer coordinates local counter-offensives, dispatching adventurers to strike at Scarlet encampments like the nearby Scarlet Palisade and disrupt their operations before they can march on newly awakened Forsaken.",
+   "title": "Guardian Outside Deathknell",
+   "body": "Posted just outside Deathknell, Deathguard Simmer represents the Forsaken military line holding the border between the safe haven of Deathknell and the wider perils of Tirisfal Glades. The region crawls with living humans\u2014most notably the fanatical Scarlet Crusade\u2014who view all undead as abominations to be purged with fire and blade. Simmer tests fledgling Forsaken by sending them west to the Solliden Farmstead, where the Scarlet Crusade patrols from its nearby tower, to steal ten pumpkins and carry them to Apothecary Johaan in Brill.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is simmer",
     "simmer npc"
    ],
-   "answer": "Deathguard Simmer is a Forsaken sentry stationed at the Calston Estate in Tirisfal Glades. He assists in defending the local territory by tasking adventurers with neutralizing nearby hostile forces, particularly the Scarlet Crusade."
+   "answer": "Deathguard Simmer is a Forsaken sentry stationed just outside Deathknell in Tirisfal Glades. He tests fledgling Forsaken by sending them to steal pumpkins from a human farm patrolled by the Scarlet Crusade."
   },
   {
    "q": "Where is Deathguard Simmer located?",
@@ -33,7 +33,7 @@
     "where is simmer",
     "find deathguard simmer"
    ],
-   "answer": "He is located at Calston Estate, an abandoned farmstead found just east of the exit road leading out of Deathknell in southwestern Tirisfal Glades."
+   "answer": "He stands just outside Deathknell in southwestern Tirisfal Glades, along the road newly risen Forsaken take out of the crypts."
   },
   {
    "q": "What threats does Deathguard Simmer fight?",
@@ -42,7 +42,7 @@
     "what does simmer fight",
     "scarlet palisade quests"
    ],
-   "answer": "Simmer focuses on the Scarlet Crusade, a faction of zealous humans occupying fortifications like the Scarlet Palisade. He enlists scouts and soldiers to recover intelligence and eliminate the crusaders threatening the Forsaken hold on the area."
+   "answer": "Simmer despises the living humans who still farm Tirisfal and the Scarlet Crusade that patrols near them. He sends fledgling Forsaken to raid the Solliden Farmstead for pumpkins, teaching those humans a lesson while supplying the apothecaries of Brill."
   }
  ],
  "angles": [

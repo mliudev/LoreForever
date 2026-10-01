@@ -1,0 +1,97 @@
+{
+ "key": "item:podrig-s-order",
+ "type": "item",
+ "name": "Podrig's Order",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Podrig's Order",
+  "quests": [
+   "quest:6321",
+   "quest:6323"
+  ]
+ },
+ "summary": "Podrig's Order is a written military requisition penned by Deathguard Podrig at the Sepulcher. It requests a fresh shipment of weapons from Undercity merchant Gordon Wendham to keep Silverpine's Forsaken garrison properly armed.",
+ "sections": [
+  {
+   "title": "Arming the Sepulcher",
+   "body": "Silverpine Forest is a precarious frontier for the Forsaken, caught between encroaching Scourge, feral beasts, and other lurking threats. After an equipment inventory conducted by Deathguard Podrig on the orders of Executor Hadrec, the Sepulcher's stores were found mostly adequate but desperately low on replacement weapons. This official dispatch details the needed blades and arms to sustain the Deathguards holding the outpost.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dispatch via Bat Handler",
+   "body": "Because weapons cannot be forged easily amidst the damp crypts of Silverpine, the request is directed to Gordon Wendham, an armorer located in the bustling Trade Quarter of the Undercity. To expedite the order, couriers carry the document directly to bat master Karos Razok, taking advantage of Forsaken flight paths to secure a swift resupply from the capital.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is written in Podrig's Order?",
+   "aliases": [
+    "what does the order say",
+    "contents of podrig's order",
+    "podrig order details"
+   ],
+   "answer": "It is an official requisition listing replacement weaponry needed by the Deathguards stationed at the Sepulcher after routine field losses."
+  },
+  {
+   "q": "Who wrote Podrig's Order?",
+   "aliases": [
+    "who wrote it",
+    "author of podrig order"
+   ],
+   "answer": "It was drafted by Deathguard Podrig under the instruction of Executor Hadrec, following an inventory check of the Sepulcher's armory."
+  },
+  {
+   "q": "Who receives the order?",
+   "aliases": [
+    "who gets the order",
+    "where does podrig order go",
+    "recipient of podrig order"
+   ],
+   "answer": "It is meant for Gordon Wendham, a weapon dealer conducting business in the Trade Quarter of the Undercity."
+  },
+  {
+   "q": "Why does the Sepulcher need new weapons?",
+   "aliases": [
+    "why need weapons",
+    "sepulcher weapon shortage"
+   ],
+   "answer": "Constant skirmishes against the Scourge and other hostile forces in Silverpine Forest frequently result in broken or lost equipment among the defending Deathguards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The requisition highlights the logistical lifeline between the Undercity and outer outposts like the Sepulcher, ensuring the Dark Lady's soldiers remain properly armed against the Scourge."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Forged weapons are vital out on the front lines, where ongoing combat constantly drains garrison supplies."
+  }
+ ],
+ "keywords": [
+  "gordon wendham",
+  "hadrec",
+  "karos razok",
+  "podrig",
+  "podrig's order",
+  "sepulcher",
+  "silverpine"
+ ],
+ "related": [
+  "quest:6321",
+  "quest:6323",
+  "subzone:sepulcher",
+  "npc:karos-razok",
+  "npc:gordon-wendham",
+  "zone:undercity",
+  "subzone:trade-quarter",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Podrig's Order",
+  "Supplying the Sepulcher",
+  "Ride to the Undercity (Classic)"
+ ]
+}

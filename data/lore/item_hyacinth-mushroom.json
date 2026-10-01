@@ -1,0 +1,92 @@
+{
+ "key": "item:hyacinth-mushroom",
+ "type": "item",
+ "name": "Hyacinth Mushroom",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Hyacinth Mushroom",
+  "quests": [
+   "quest:3521"
+  ]
+ },
+ "summary": "Hyacinth Mushrooms are distinctive fungi found sprouting at the roots of trees throughout Shadowglen on Teldrassil. Prized by local night elf herbalists for their medicinal properties, they also happen to be favored food and forage for the mischievous grell and grellkin.",
+ "sections": [
+  {
+   "title": "Flora of Shadowglen",
+   "body": "Hyacinth Mushrooms grow abundantly across Shadowglen, flourishing in the damp shadows at the bases of ancient barrows, mossy stones, and the sprawling roots of Aldrassil. While useful in woodland remedies, they have also caught the attention of the corrupted grell, who frequently hoard them. When young night elf sentinels or trainees are afflicted by local venomous fauna\u2014such as the spiders of Shadowthread Cave\u2014these mushrooms serve as a core component in soothing draughts and antivenoms concocted by forest healers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Hyacinth Mushrooms used for?",
+   "aliases": [
+    "hyacinth mushroom use",
+    "what does it do",
+    "iverron cure"
+   ],
+   "answer": "Priestess Dirania Silvershine uses them as a vital ingredient to concoct an antidote for Iverron, a young night elf who was bitten and poisoned by venomous spiders while exploring Shadowthread Cave."
+  },
+  {
+   "q": "Where do Hyacinth Mushrooms grow?",
+   "aliases": [
+    "mushroom location",
+    "where to find hyacinth mushroom",
+    "shadowglen mushrooms"
+   ],
+   "answer": "They sprout directly on the ground near the trunks and roots of large trees, as well as beside boulders throughout the secluded vale of Shadowglen on Teldrassil."
+  },
+  {
+   "q": "Why do the grell carry Hyacinth Mushrooms?",
+   "aliases": [
+    "grell drop mushrooms",
+    "why do grell have them",
+    "grellkin mushrooms"
+   ],
+   "answer": "The mischievous grell and grellkin infesting southern Shadowglen have taken a peculiar liking to the mushrooms, foraging and hoarding them in their camps."
+  },
+  {
+   "q": "Are Hyacinth Mushrooms poisonous themselves?",
+   "aliases": [
+    "is hyacinth mushroom toxic",
+    "poisonous mushroom"
+   ],
+   "answer": "No. Despite their bright appearance and the shady environment in which they flourish, local healers employ them safely as an ingredient in healing poultices and restorative antivenoms."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Though gathering these fungi in Shadowglen requires no formal training, any fledgling herbalist will appreciate their role in neutralizing virulent forest toxins."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For young night elves training within Shadowglen, harvesting wild flora like Hyacinth Mushrooms is an early lesson in utilizing nature's bounty to sustain their kin."
+  }
+ ],
+ "keywords": [
+  "antidote",
+  "dirania silvershine",
+  "grell",
+  "grellkin",
+  "hyacinth mushroom",
+  "iverron",
+  "shadowglen",
+  "teldrassil"
+ ],
+ "related": [
+  "quest:3521",
+  "npc:iverron",
+  "subzone:shadowglen",
+  "item:moonpetal-lily",
+  "item:webwood-ichor",
+  "zone:teldrassil",
+  "subzone:aldrassil",
+  "subzone:shadowthread-cave"
+ ],
+ "attribution": [
+  "Hyacinth Mushroom",
+  "Iverron's Antidote (Classic)"
+ ]
+}

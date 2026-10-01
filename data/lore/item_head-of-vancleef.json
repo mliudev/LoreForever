@@ -1,0 +1,94 @@
+{
+ "key": "item:head-of-vancleef",
+ "type": "item",
+ "name": "Head of VanCleef",
+ "era": "classic",
+ "zone": "deadmines",
+ "meta": {
+  "wiki": "Head of VanCleef",
+  "quests": [
+   "quest:166"
+  ]
+ },
+ "summary": "The severed head of Edwin VanCleef serves as grim, irrefutable proof that the leader of the Defias Brotherhood has fallen. Brought back from the depths of the Deadmines to Sentinel Hill, it represents the hard-won vengeance of the People's Militia.",
+ "sections": [
+  {
+   "title": "Proof of the Master's Fall",
+   "body": "For months, Edwin VanCleef directed the Defias Brotherhood's terror from the deepest sanctum of the Deadmines, shielded by heavily armed outlaws, goblin engineers, and a massive war juggernaut. Words alone could never convince the battered settlers of Westfall that their nightmare was over. Gryan Stoutmantle, leader of the People's Militia, demanded undeniable physical proof before declaring the countryside safe. Severing the ringleader's head and bringing it out into the daylight offers the exhausted defenders tangible assurance that the grand architect of their ruin will never threaten Westfall again.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Grim Victory",
+   "body": "Though Stoutmantle sought VanCleef's death for the greater good of Westfall, presenting the trophy carries a heavy solemnity. VanCleef was once the revered master builder who rebuilt Stormwind after the First War, before betrayal and unpaid debts drove him and the Stonemasons Guild into outlaw rebellion. His severed head marks the culmination of Westfall's local militia campaign, yet it also exposes the kingdom's failure to handle its own domestic turmoil, leaving volunteer farmers and foreign adventurers to execute high justice.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Head of VanCleef?",
+   "aliases": [
+    "who do i turn this into",
+    "who takes vancleef head",
+    "where does vancleef head go"
+   ],
+   "answer": "Gryan Stoutmantle, captain of the People's Militia at Sentinel Hill in Westfall, requires the head to complete the long Defias Brotherhood campaign."
+  },
+  {
+   "q": "Why does Gryan Stoutmantle demand his head specifically?",
+   "aliases": [
+    "why take his head",
+    "why vancleef head"
+   ],
+   "answer": "The Defias Brotherhood held a stranglehold over Westfall for so long that rumors of VanCleef's demise would never be believed without absolute physical proof. Stoutmantle needs unmistakable evidence to reassure the beleaguered farmers and show the militia's struggle was not in vain."
+  },
+  {
+   "q": "Where is the head obtained?",
+   "aliases": [
+    "where to get vancleef head",
+    "how to get head of vancleef"
+   ],
+   "answer": "It is taken from Edwin VanCleef aboard his secret ironclad warship, found at the very end of the Deadmines beneath Moonbrook in southwestern Westfall."
+  },
+  {
+   "q": "Does taking VanCleef's head end the Defias Brotherhood?",
+   "aliases": [
+    "is defias destroyed",
+    "what happens to the defias"
+   ],
+   "answer": "Stoutmantle views his death as the beginning of the end for the brotherhood, but splinter groups, rogue bandits, and sympathizers still linger throughout Westfall, Elwynn Forest, and beyond."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Presenting VanCleef's head provides a cathartic victory for the People's Militia, though it highlights the troubling absence of the Stormwind House of Nobles during Westfall's darkest hour."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Edwin VanCleef was one of the deadliest rogue masters in human history; taking his head marks the definitive end to a peerless career in shadows and sabotage."
+  }
+ ],
+ "keywords": [
+  "deadmines",
+  "edwin vancleef",
+  "gryan stoutmantle",
+  "head of vancleef",
+  "peoples militia",
+  "sentinel hill",
+  "westfall"
+ ],
+ "related": [
+  "npc:edwin-vancleef",
+  "npc:gryan-stoutmantle",
+  "quest:65",
+  "zone:deadmines",
+  "zone:westfall",
+  "topic:defias-brotherhood",
+  "quest:12",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Head of VanCleef",
+  "The Defias Brotherhood (7)"
+ ]
+}

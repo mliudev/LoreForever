@@ -1,0 +1,94 @@
+{
+ "key": "item:underbelly-whelp-scale",
+ "type": "item",
+ "name": "Underbelly Whelp Scale",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Underbelly Whelp Scale",
+  "quests": [
+   "quest:122"
+  ]
+ },
+ "summary": "Underbelly Whelp Scales are harvested from the younger broods of the Black Dragonflight found roaming the Redridge Mountains. Valued by craftsmen for their resilient yet pliable texture, they serve as precious barter material among local artisans.",
+ "sections": [
+  {
+   "title": "A Rare Trade Commodity",
+   "body": "Dragonhide and scales possess legendary durability, but full-grown black dragons are lethal beyond measure to ordinary folk. Instead, resourceful frontiersmen and craftsmen look toward the skies south of Lake Everstill, where young black dragon whelps nest among the crags. While the dorsal plating of a whelp is brittle or coarse, the scales running along its softer underbelly strike an ideal balance between flexibility and protection. As a result, these underbelly scales command substantial value in regional trade, functioning as high-end crafting material and dependable collateral for debts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Verner's Debt",
+   "body": "In Lakeshire, the magistrate's craftsmen must often rely on barter when coin is scarce or trade routes are strained. Verner Osgood, the local leatherworker and blacksmith supplier, found himself heavily indebted to the blacksmith Argus over a shipment of shoes brought in from Goldshire. Knowing Argus's fondness for rare trade goods, Verner relies on passing adventurers to harvest underbelly whelp scales to satisfy the debt and keep his workshop in good standing.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Underbelly Whelp Scales come from?",
+   "aliases": [
+    "who drops underbelly whelp scales",
+    "where to get whelp scales",
+    "how to find whelp scales"
+   ],
+   "answer": "They are gathered from black dragon whelps and mature whelps like Snarlflare, which roost in the rocky cliffs and hills south of Lakeshire in the Redridge Mountains."
+  },
+  {
+   "q": "Why does Verner Osgood want these scales?",
+   "aliases": [
+    "why does verner need scales",
+    "verner osgood underbelly scales"
+   ],
+   "answer": "Verner owes a debt to Argus, the blacksmith in Goldshire, for a shipment of imported horseshoes. Argus accepts dragon scales as payment, and any surplus gives Verner the raw material needed to fashion tough protective gear."
+  },
+  {
+   "q": "Why are underbelly scales preferred over regular dragon scales?",
+   "aliases": [
+    "why underbelly",
+    "what makes underbelly scales special"
+   ],
+   "answer": "The underbelly scales of a young dragon are pliable enough to be cut, shaped, and sewn into practical armor or reinforced gear, whereas dorsal scales are often too rigid, thick, or warped for standard leatherworking and smithing techniques."
+  },
+  {
+   "q": "Why are black dragon whelps in Redridge at all?",
+   "aliases": [
+    "why are there dragons in redridge",
+    "black whelps redridge"
+   ],
+   "answer": "The Black Dragonflight has maintained a presence across the burning peaks and crags bordering the Burning Steppes and Redridge, using the high, inaccessible cliffs to brood and rear their young."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Artisans like Argus value these scales because exotic reptile plating can be worked into linings, grips, and specialized protective fittings far stronger than ordinary cowhide."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Lakeshire's isolated defenders rely heavily on barter with Elwynn Forest to stay equipped, making dangerous local bounties like dragon scales essential for maintaining town supplies."
+  }
+ ],
+ "keywords": [
+  "argus",
+  "black dragon whelp",
+  "lakeshire",
+  "redridge",
+  "snarlflare",
+  "underbelly scales",
+  "underbelly whelp scale",
+  "verner osgood"
+ ],
+ "related": [
+  "quest:122",
+  "npc:verner-osgood",
+  "zone:redridge",
+  "subzone:lakeshire",
+  "quest:118",
+  "quest:119",
+  "subzone:goldshire"
+ ],
+ "attribution": [
+  "Underbelly Whelp Scale",
+  "Underbelly Scales"
+ ]
+}

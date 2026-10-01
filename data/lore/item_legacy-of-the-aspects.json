@@ -1,0 +1,81 @@
+{
+ "key": "item:legacy-of-the-aspects",
+ "type": "item",
+ "name": "Legacy of the Aspects",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Legacy of the Aspects",
+  "quests": [
+   "quest:1154"
+  ]
+ },
+ "summary": "Legacy of the Aspects is an ancient tome hidden deep within the Dor'Danil Barrow Den in southern Ashenvale. Retrieved during a Horde trial of the intellect, the volume contains essential lore concerning the Great Aspects that shaped ancient Azeroth.",
+ "sections": [
+  {
+   "title": "A Test of the Mind",
+   "body": "While earlier trials set forth by tauren elders test physical endurance and resolve, the pursuit of Legacy of the Aspects is designed to challenge the mind. Tasked by Braug Dimspirit at the entrance to the Talondeep Path in the Stonetalon Mountains, an aspirant must delve into the haunted barrow dens of Dor'Danil. Guarded by the restless spirits of fallen druids and the vicious creatures that slew them, the ancient text rests upon a stone pedestal. Claiming the volume is only the first step; the seeker must commit its contents to memory before relinquishing the book, as they are tested on its historical lessons.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the book located?",
+   "aliases": [
+    "find legacy of the aspects",
+    "book location",
+    "where is book"
+   ],
+   "answer": "The book rests on a stone pedestal within the lower chambers of the Dor'Danil Barrow Den, located in southern Ashenvale, south of Splintertree Post."
+  },
+  {
+   "q": "Why does Braug Dimspirit want this book?",
+   "aliases": [
+    "why braug wants book",
+    "test of lore purpose"
+   ],
+   "answer": "Braug Dimspirit uses the tome to conduct the Test of Lore. Unlike physical challenges, this trial is meant to determine whether an adventurer possesses the intelligence and attentiveness to study and recall vital historical knowledge."
+  },
+  {
+   "q": "What happens if you fail to study the text before speaking to Braug?",
+   "aliases": [
+    "wrong answer consequence",
+    "failing the test"
+   ],
+   "answer": "Braug questions seekers on the lore within the pages immediately after collecting the volume. Answering incorrectly results in swift magical banishment, teleporting the unprepared petitioner far away to Camp Taurajo in the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The tome is central to a traditional rite of passage that tests whether Horde adventurers possess the wisdom and knowledge to match their physical might."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The text resides deep in Dor'Danil Barrow Den, surrounded by the tragic, tormented spirits of fallen night elf druids."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "barrow den",
+  "braug dimspirit",
+  "dor'danil",
+  "legacy of the aspects",
+  "talondeep path",
+  "test of lore"
+ ],
+ "related": [
+  "quest:1152",
+  "quest:1149",
+  "subzone:dor-danil-barrow-den",
+  "subzone:talondeep-path",
+  "zone:stonetalon",
+  "zone:ashenvale",
+  "subzone:camp-taurajo",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Legacy of the Aspects",
+  "Test of Lore (2)"
+ ]
+}

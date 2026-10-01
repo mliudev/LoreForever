@@ -1,0 +1,82 @@
+{
+ "key": "item:strigid-owl-feather",
+ "type": "item",
+ "name": "Strigid Owl Feather",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Strigid Owl Feather",
+  "quests": [
+   "quest:488"
+  ]
+ },
+ "summary": "Strigid Owl Feathers are gathered from the wild strigid owls nesting within the boughs of Teldrassil. While natural forest plumage, they are sought after by questionable figures seeking raw materials for their covert dealings.",
+ "sections": [
+  {
+   "title": "Forest Plumage and Dark Dealings",
+   "body": "Teldrassil's canopies are home to strigid owls and screechers, native birds of prey that hunt throughout the Crown of the Earth. While their down and feathers are common remnants of the forest floor, they occasionally attract the eye of practitioners seeking organic reagents. Outside Dolanaar, the renegade satyr Zenn Foulhoof exploits inexperienced travelers venturing down the road from Shadowglen, tricking them into harvesting strigid feathers alongside spider silk and nightsaber fangs for his own shady business.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Strigid Owl Feathers?",
+   "aliases": [
+    "feather location",
+    "where do strigid owl feathers drop",
+    "owl feather farm"
+   ],
+   "answer": "These feathers are collected from strigid owls and strigid screechers found inhabiting the woodlands around Dolanaar and across Teldrassil."
+  },
+  {
+   "q": "Who wants Strigid Owl Feathers?",
+   "aliases": [
+    "who needs owl feathers",
+    "owl feather turn in",
+    "zenn owl feather"
+   ],
+   "answer": "A satyr named Zenn Foulhoof, lurking along the trail leading into Dolanaar, asks naive adventurers to retrieve them alongside webwood silk and nightsaber fangs."
+  },
+  {
+   "q": "What does Zenn Foulhoof use the feathers for?",
+   "aliases": [
+    "why does zenn want feathers",
+    "zenn reagent purpose"
+   ],
+   "answer": "Zenn claims they are reagents required for his secret business within the forest, though he mostly relishes tricking unsuspecting recruits into doing his dirty work."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The owls of Teldrassil are considered creatures of Elune, making their exploitation by a lingering satyr like Zenn Foulhoof an insult to the sacred wood."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold the avian hunters of Teldrassil in high regard, making it unsettling to see their plumage gathered under false pretenses for suspicious reagents."
+  }
+ ],
+ "keywords": [
+  "dolanaar",
+  "reagents",
+  "strigid owl",
+  "strigid owl feather",
+  "strigid screecher",
+  "teldrassil",
+  "zenn foulhoof"
+ ],
+ "related": [
+  "quest:488",
+  "npc:zenn-foulhoof",
+  "item:nightsaber-fang",
+  "item:webwood-spider-silk",
+  "subzone:dolanaar",
+  "zone:teldrassil",
+  "topic:satyr",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Strigid Owl Feather",
+  "Zenn's Bidding"
+ ]
+}

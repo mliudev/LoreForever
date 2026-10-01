@@ -1,0 +1,97 @@
+{
+ "key": "item:essence-of-nightlash",
+ "type": "item",
+ "name": "Essence of Nightlash",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Essence of Nightlash",
+  "quests": [
+   "quest:437"
+  ]
+ },
+ "summary": "The Essence of Nightlash is the lingering magical remnant collected from the defeated banshee Nightlash at the Dead Fields. It serves as irrefutable proof for High Executor Hadrec that the Scourge force bolstering the local rot hide gnolls has been broken.",
+ "sections": [
+  {
+   "title": "The Banshee of the Dead Fields",
+   "body": "At an abandoned farmstead in northern Silverpine known as the Dead Fields, packs of undead rot hide gnolls have entrenched themselves under Scourge command. Initial Forsaken assaults were repeatedly broken not by the feral gnolls, but by their spectral commander: the banshee Nightlash. Calling upon wailing magics, she reinforced the gnoll lines and routed the forces sent from the Sepulcher. Slaying her dissolves her incorporeal form into dust, leaving behind a crystalline, magical essence that represents her permanent dissolution.",
+   "spoiler": 0
+  },
+  {
+   "title": "Proof of Scourge Defeat",
+   "body": "Because banshees leave behind no corporeal corpse, the Essence of Nightlash is the only physical evidence that the malevolent spirit has been destroyed. High Executor Hadrec at the Sepulcher requires this essence to verify that the Scourge's local foothold has collapsed, allowing the Forsaken to finally secure their northern perimeter and suppress the rot hide threat.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Essence of Nightlash?",
+   "aliases": [
+    "essence of nightlash",
+    "nightlash dust",
+    "what is nightlash essence"
+   ],
+   "answer": "It is the crystallized dust left behind when the Scourge banshee Nightlash is defeated. Since spirits have no physical bodies, this magical residue serves as proof of her demise."
+  },
+  {
+   "q": "Who is Nightlash?",
+   "aliases": [
+    "who is nightlash",
+    "nightlash lore",
+    "banshee nightlash"
+   ],
+   "answer": "Nightlash is a banshee allied with the Scourge who leads and reinforces the rot hide gnolls operating out of the Dead Fields in northern Silverpine."
+  },
+  {
+   "q": "Who wants this essence?",
+   "aliases": [
+    "who needs nightlash essence",
+    "who turn in essence",
+    "high executor hadrec"
+   ],
+   "answer": "High Executor Hadrec at the Sepulcher asks Forsaken champions to retrieve it to prove that the banshee routing his frontline assaults has been neutralized."
+  },
+  {
+   "q": "Why are the gnolls working with a banshee?",
+   "aliases": [
+    "gnolls and scourge",
+    "rot hide scourge",
+    "why gnolls with banshee"
+   ],
+   "answer": "The rot hide gnolls in the Dead Fields have succumbed to the undead plague, making them thralls to the Scourge. Nightlash was dispatched to oversee them and lend magical support against Forsaken patrols."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Forsaken soldiers view eliminating banshees like Nightlash as vital work; as former victims of Scourge domination, destroying agents of the Lich King is central to securing Lordaeron for their own people."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Arcanists and scholars often examine the residue of destroyed banshees to study how spectral undead tether necrotic magic to the physical world."
+  }
+ ],
+ "keywords": [
+  "banshee",
+  "dead fields",
+  "dust",
+  "essence",
+  "hadrec",
+  "nightlash",
+  "rot hide",
+  "sepulcher"
+ ],
+ "related": [
+  "quest:437",
+  "npc:high-executor-hadrec",
+  "subzone:dead-field",
+  "subzone:sepulcher",
+  "topic:scourge",
+  "topic:forsaken",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Essence of Nightlash",
+  "The Dead Fields (quest)"
+ ]
+}

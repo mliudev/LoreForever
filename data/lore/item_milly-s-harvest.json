@@ -1,0 +1,94 @@
+{
+ "key": "item:milly-s-harvest",
+ "type": "item",
+ "name": "Milly's Harvest",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Milly's Harvest",
+  "quests": [
+   "quest:3904"
+  ]
+ },
+ "summary": "Milly's Harvest consists of crates and buckets of freshly picked grapes gathered by Milly Osworth in the Northshire Vineyards. When Defias bandits overran the fields, the harvest was abandoned, leaving the fruit at risk of being stolen by thieves or crushed beneath the boots of abbey guards.",
+ "sections": [
+  {
+   "title": "A Fragile Yield",
+   "body": "The fertile soil of the Northshire Valley produces grapes vital for local vintners and the abbey community. When harvesting season arrived, Milly Osworth worked the vines to collect the fresh fruit into storage buckets. Her work was violently interrupted when armed brigands bearing red masks pushed into the vineyards, forcing her to flee back to the abbey grounds with her crop left scattered between the rows.",
+   "spoiler": 0
+  },
+  {
+   "title": "Collateral Damage",
+   "body": "Though Stormwind guards watch the valley entrance, manpower shortages have left Northshire vulnerable. While the garrison promised to drive the Defias out, Milly feared that any drawn-out skirmish between armored guards and ruthless thieves would result in the complete destruction of her work. Retrieving the crates before they are trampled underfoot or carried off as provisions ensures that one of Northshire's few peaceful harvests is not lost.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Milly's Harvest?",
+   "aliases": [
+    "millys harvest",
+    "what is the harvest",
+    "milly osworth grapes"
+   ],
+   "answer": "It is a collection of freshly harvested grapes packed into crates and buckets, left behind by Milly Osworth when Defias thugs seized the Northshire Vineyards."
+  },
+  {
+   "q": "Why were the crates left behind in the vineyard?",
+   "aliases": [
+    "why abandoned",
+    "why did milly leave the grapes",
+    "why leave harvest"
+   ],
+   "answer": "Defias bandits raided the vineyards right in the middle of Milly's harvesting work, forcing her to abandon the crops and run for her life back to the safety of Northshire Abbey."
+  },
+  {
+   "q": "Why couldn't the Northshire guards retrieve the harvest?",
+   "aliases": [
+    "why not guards",
+    "why cant guards get it",
+    "stormwind guards northshire"
+   ],
+   "answer": "The guards in Northshire are already stretched thin dealing with Defias incursions and local threats. Milly also worried that even if the guards drove off the bandits, their clashing boots would trample and destroy the delicate grapes."
+  },
+  {
+   "q": "Who are the bandits threatening the harvest?",
+   "aliases": [
+    "who took the vineyards",
+    "who is attacking the vineyard",
+    "vineyard bandits"
+   ],
+   "answer": "The trespassers are thugs belonging to the Defias Brotherhood, a ring of outlaws and brigands causing widespread unrest throughout Elwynn Forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The threat to Northshire's simple farmers highlights just how thin Stormwind's military garrison has become, leaving everyday citizens reliant on passing adventurers to safeguard their livelihoods."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans beginning their journey in Northshire, recovering Milly's crop is often their first direct encounter with the creeping lawlessness of the Defias Brotherhood on domestic soil."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "elwynn forest",
+  "grapes",
+  "milly osworth",
+  "milly's harvest",
+  "northshire abbey",
+  "northshire vineyards"
+ ],
+ "related": [
+  "quest:3904",
+  "quest:3903",
+  "subzone:northshire-vineyards",
+  "subzone:northshire-abbey",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Milly's Harvest",
+  "Milly's Harvest (quest)"
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "key": "item:wailing-essence",
+ "type": "item",
+ "name": "Wailing Essence",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "wiki": "Wailing Essence",
+  "quests": [
+   "quest:1491"
+  ]
+ },
+ "summary": "Wailing Essence is a strange, concentrated substance found within the ectoplasms roaming deep inside the Wailing Caverns. Suspected of fueling the bizarre mutations spreading through the flora and fauna of the Barrens, it has drawn the attention of opportunistic alchemists eager to bottle its potent properties.",
+ "sections": [
+  {
+   "title": "A Volatile Concoction",
+   "body": "The subterranean caverns beneath the central Barrens have grown thick with unnatural energy, warping beasts and giving rise to gelatinous ectoplasms. These oozing creatures concentrate a viscous substance known as Wailing Essence. While local druids observe these waters with growing dread, goblin entrepreneurs see only raw commercial opportunity. In the port town of Ratchet, an eccentric alchemist named Mebok Mizzyrix believes this essence is the missing active ingredient for a line of lucrative 'smart drinks' meant to enhance consumer intellect, utterly unconcerned with the nightmarish corruption it might actually harbor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Wailing Essence come from?",
+   "aliases": [
+    "wailing essence drop",
+    "where to get wailing essence",
+    "what drops wailing essence"
+   ],
+   "answer": "It is gathered from the ectoplasmic slimes inside the Wailing Caverns, including devouring ectoplasms, evolving ectoplasms, and nightmare ectoplasms."
+  },
+  {
+   "q": "Who wants this essence?",
+   "aliases": [
+    "who needs wailing essence",
+    "who buys wailing essence",
+    "wailing essence turn in"
+   ],
+   "answer": "Mebok Mizzyrix, a goblin experimenter located in Ratchet, seeks the essence to brew a new formula of his intellect-boosting 'smart drinks.'"
+  },
+  {
+   "q": "What is the essence suspected of doing to the Barrens?",
+   "aliases": [
+    "what does wailing essence do",
+    "is wailing essence dangerous",
+    "wailing essence lore"
+   ],
+   "answer": "Mebok suspects that the essence is the root cause behind the rapidly mutating wildlife and unnatural plant overgrowth observed spreading across the Barrens."
+  },
+  {
+   "q": "Is drinking Wailing Essence actually safe?",
+   "aliases": [
+    "can you drink wailing essence",
+    "is smart drink safe"
+   ],
+   "answer": "Given that it is extracted from corrupt, nightmare-tainted ectoplasms deep in a cursed cavern, consuming it in a commercial beverage is reckless at best, though typical for goblin entrepreneurial standards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The existence of this essence points directly to the corrupting influence deep inside the Wailing Caverns, underscoring the urgent need to cleanse the Dream's taint."
+  }
+ ],
+ "keywords": [
+  "ectoplasm",
+  "mebok mizzyrix",
+  "ratchet",
+  "smart drinks",
+  "wailing caverns",
+  "wailing essence"
+ ],
+ "related": [
+  "quest:1491",
+  "npc:mebok-mizzyrix",
+  "zone:wailing",
+  "subzone:ratchet",
+  "quest:865",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Wailing Essence",
+  "Smart Drinks"
+ ]
+}

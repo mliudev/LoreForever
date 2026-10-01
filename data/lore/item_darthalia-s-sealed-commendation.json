@@ -1,0 +1,83 @@
+{
+ "key": "item:darthalia-s-sealed-commendation",
+ "type": "item",
+ "name": "Darthalia's Sealed Commendation",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Darthalia's Sealed Commendation",
+  "quests": [
+   "quest:550"
+  ]
+ },
+ "summary": "Darthalia's Sealed Commendation is an official dispatch penned by the Forsaken battle commander in Tarren Mill. It praises a soldier's relentless campaign against the humans of Hillsbrad and delivers word of those victories directly to Undercity's high command.",
+ "sections": [
+  {
+   "title": "Report to High Command",
+   "body": "Following the brutal clashes across the Hillsbrad Foothills, High Executor Darthalia drafted this sealed dispatch to officially record the fall of Southshore's leadership and the devastation wrought upon human positions. Sealed to preserve the commander's appraisal from prying eyes, the document is addressed to Varimathras, dreadlord advisor to Lady Sylvanas Windrunner. For the Forsaken leadership in the Royal Quarter, such missives offer tangible proof that Alliance enclaves south of Lordaeron can be broken, freeing northern garrisons to focus on the relentless threat of the Scourge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Darthalia's Sealed Commendation?",
+   "aliases": [
+    "sealed commendation",
+    "darthalia letter",
+    "hillsbrad report"
+   ],
+   "answer": "It is an official war commendation written by High Executor Darthalia of Tarren Mill. The document formally commends a fighter's combat performance against the Alliance during the Battle of Hillsbrad and is meant for the high command in the Undercity."
+  },
+  {
+   "q": "Who receives this commendation?",
+   "aliases": [
+    "who do i bring this to",
+    "commendation turn in",
+    "who gets darthalia's commendation"
+   ],
+   "answer": "The commendation must be brought directly to the dreadlord Varimathras, who oversees military operations beside Lady Sylvanas Windrunner in the Royal Quarter of the Undercity."
+  },
+  {
+   "q": "Why does Varimathras care about the fighting in Hillsbrad?",
+   "aliases": [
+    "why varimathras cares",
+    "hillsbrad dreadlord",
+    "forsaken strategy hillsbrad"
+   ],
+   "answer": "Although the Forsaken consider the Lich King and his Scourge to be their foremost existential threat from the north, human presence in Hillsbrad constantly interrupts their supply lines and southern border security. Varimathras values battlefield victories that remove the human obstacle, allowing Undercity's forces to focus on the greater war."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The commendation marks a crucial strategic victory in Lordaeron, demonstrating to Undercity's leadership that the Alliance's fortified toeholds in the southern foothills can be systematically dismantled."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Earning high praise from Darthalia and presenting it directly to the throne room elevates a soldier's standing within the Dark Lady's burgeoning military hierarchy."
+  }
+ ],
+ "keywords": [
+  "commendation",
+  "darthalia",
+  "hillsbrad",
+  "southshore",
+  "tarren mill",
+  "undercity",
+  "varimathras"
+ ],
+ "related": [
+  "quest:527",
+  "zone:hillsbrad",
+  "zone:undercity",
+  "npc:varimathras",
+  "topic:scourge",
+  "topic:alliance",
+  "topic:human",
+  "topic:lich-king"
+ ],
+ "attribution": [
+  "Darthalia's Sealed Commendation",
+  "Battle of Hillsbrad (7) (Classic)"
+ ]
+}

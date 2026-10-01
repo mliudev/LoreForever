@@ -1,0 +1,97 @@
+{
+ "key": "item:purified-kor-gem",
+ "type": "item",
+ "name": "Purified Kor Gem",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Purified Kor Gem",
+  "quests": [
+   "quest:1654"
+  ]
+ },
+ "summary": "A Purified Kor Gem is a rare, consecrated crystal required by the weaponsmith Jordan Stilwell outside Ironforge. Once tainted by dark energies, it must be reclaimed from the depths of Kalimdor and cleansed by elven magic before it can be forged into a holy arm of the Light.",
+ "sections": [
+  {
+   "title": "From Corruption to Sanctity",
+   "body": "The stone begins its journey as a Corrupted Kor Gem in the possession of the vile naga lurking within Blackfathom Deeps, deep beneath the coast of Ashenvale. To cleanse the stone of its aquatic, shadowy taint, a paladin must seek out the night elf Thundris Windweaver in Auberdine. Drawing upon arcane and natural arts, Thundris purges the corruption from the stone, transforming it into the radiant Purified Kor Gem. Only in this pristine state is it fit to serve as a conduit for holy power.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Smith's Masterpiece",
+   "body": "Outside Ironforge in the snowy crags of Dun Morogh, the human weaponsmith Jordan Stilwell requires the gem as a key component for forging a masterwork weapon. Having long possessed designs for an armament worthy of the Silver Hand, Stilwell lacked the exotic materials to realize his plans. The Purified Kor Gem, alongside Whitestone Oak Lumber and rare ore, provides the spiritual core necessary to channel the paladin's righteous wrath.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Purified Kor Gem used for?",
+   "aliases": [
+    "purified kor gem use",
+    "why do i need kor gem",
+    "what is kor gem for"
+   ],
+   "answer": "It is brought to the blacksmith Jordan Stilwell, stationed outside the gates of Ironforge in Dun Morogh. Stilwell uses the sanctified gem as an essential component in forging a consecrated weapon for a paladin undertaking their trials."
+  },
+  {
+   "q": "Where does the gem originate?",
+   "aliases": [
+    "kor gem origin",
+    "where does kor gem drop",
+    "who drops kor gem"
+   ],
+   "answer": "The stone originates within the subterranean ruins of Blackfathom Deeps along the coast of Ashenvale, where it is held by the naga as a corrupted artifact."
+  },
+  {
+   "q": "Who purifies the gem?",
+   "aliases": [
+    "how to cleanse kor gem",
+    "who cleanses kor gem",
+    "thundris windweaver kor gem"
+   ],
+   "answer": "Thundris Windweaver, an elven scholar residing in the coastal settlement of Auberdine in Darkshore, cleanses the dark energies from the Corrupted Kor Gem, restoring it to a purified state."
+  },
+  {
+   "q": "Can any adventurer make use of the Purified Kor Gem?",
+   "aliases": [
+    "is kor gem paladin only",
+    "can anyone use purified kor gem"
+   ],
+   "answer": "The gem is specifically sought by paladins undergoing the Test of Righteousness. Jordan Stilwell reserves his craft for holy warriors who bring him the purified crystal alongside other rare materials."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Acquiring and cleansing this gem proves a paladin's devotion, taking them from the depths of Kalimdor back to Dun Morogh to forge an iconic weapon of the Light."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Procuring the purified gem unites efforts across the Alliance, relying on night elven wisdom in Auberdine to empower a human smith working on the slopes of Dun Morogh."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "blackfathom deeps",
+  "corrupted kor gem",
+  "dun morogh",
+  "jordan stilwell",
+  "purified kor gem",
+  "test of righteousness",
+  "thundris windweaver"
+ ],
+ "related": [
+  "item:corrupted-kor-gem",
+  "quest:1442",
+  "npc:jordan-stilwell",
+  "quest:4761",
+  "zone:blackfathom",
+  "subzone:auberdine",
+  "zone:dunmorogh",
+  "topic:paladin"
+ ],
+ "attribution": [
+  "Purified Kor Gem",
+  "The Test of Righteousness (2)"
+ ]
+}

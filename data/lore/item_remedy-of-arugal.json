@@ -1,0 +1,96 @@
+{
+ "key": "item:remedy-of-arugal",
+ "type": "item",
+ "name": "Remedy of Arugal",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Remedy of Arugal",
+  "quests": [
+   "quest:422"
+  ]
+ },
+ "summary": "The Remedy of Arugal is an incantation penned by the mage Arugal during his early experiments with worgen magic. Left behind in a dilapidated farmhouse in Silverpine Forest, the spell is sought by Dalar Dawnweaver to unravel the sorcerer's dark work.",
+ "sections": [
+  {
+   "title": "A Mage's Leftovers",
+   "body": "Before seizing Shadowfang Keep, Archmage Arugal took refuge at an abandoned wheat farm north of the river bridge in Silverpine Forest. There, amidst forgotten farm tools and rotting floorboards, he documented his strange arts in a set of dusty spellbooks. The scroll titled the Remedy of Arugal is among these notes, outlining early methods and magical formulations he devised while dabbling in the dangerous transmutations that cursed the local populace.",
+   "spoiler": 0
+  },
+  {
+   "title": "Forsaken Scrutiny",
+   "body": "Dalar Dawnweaver, an accomplished Forsaken spellcaster operating from the Sepulcher, holds little respect for Arugal's pedigree, dismissing the former Dalaran wizard's intellect as fragile and transparent. Even so, Dawnweaver recognizes the urgent need to understand the exact mechanics behind the worgen curse. By recovering the Remedy of Arugal, Forsaken agents provide Dawnweaver with the foundational arcana required to counter Arugal's spreading menace and secure Silverpine for Lady Sylvanas.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Remedy of Arugal?",
+   "aliases": [
+    "what is remedy of arugal",
+    "arugal remedy item",
+    "remedy spell"
+   ],
+   "answer": "It is a magical formula written down by the renegade mage Arugal. Rather than a curative potion, it is a written spell containing the arcane techniques he used when he first started experimenting with worgen magic in Silverpine Forest."
+  },
+  {
+   "q": "Where was the Remedy left behind?",
+   "aliases": [
+    "where to find remedy of arugal",
+    "remedy of arugal location",
+    "farm spellbook"
+   ],
+   "answer": "Arugal left it within a set of dusty spellbooks on the upper floor of an abandoned wheat farm, located just north of the bridge that crosses the river in Silverpine Forest."
+  },
+  {
+   "q": "Why does Dalar Dawnweaver want this spell?",
+   "aliases": [
+    "why does dalar want the remedy",
+    "dalar dawnweaver remedy"
+   ],
+   "answer": "Dalar Dawnweaver seeks to analyze the specific magic Arugal employed so that the Forsaken can develop counters against it, hoping to turn the sorcerer's own methods against him to secure the region."
+  },
+  {
+   "q": "Who guards the spellbooks at the farm?",
+   "aliases": [
+    "what attacks at the farm",
+    "spellbook ambush"
+   ],
+   "answer": "The farm is infested with Arugal's lupine thralls. When someone attempts to disturb the dusty spellbooks on the second floor, a Moonrage Darkrunner leaps from the shadows to defend its master's belongings."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Forsaken mages will share Dalar Dawnweaver's professional disdain for Arugal's clumsy, reckless dabbling, yet recognize the danger inherent in unchecked summoning arcana."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, securing this spell is an early, vital step in pushing back against the feral worgen threatening the borders of Silverpine Forest."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "arugal's folly",
+  "dalar dawnweaver",
+  "dusty spellbooks",
+  "moonrage",
+  "remedy of arugal",
+  "sepulcher",
+  "silverpine forest"
+ ],
+ "related": [
+  "quest:99",
+  "npc:dalar-dawnweaver",
+  "npc:arugal",
+  "subzone:sepulcher",
+  "zone:silverpine",
+  "topic:forsaken",
+  "quest:1886",
+  "quest:421"
+ ],
+ "attribution": [
+  "Remedy of Arugal",
+  "Arugal's Folly"
+ ]
+}

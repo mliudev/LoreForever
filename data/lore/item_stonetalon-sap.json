@@ -1,0 +1,88 @@
+{
+ "key": "item:stonetalon-sap",
+ "type": "item",
+ "name": "Stonetalon Sap",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Stonetalon Sap",
+  "quests": [
+   "quest:1058"
+  ]
+ },
+ "summary": "Stonetalon Sap is a sticky, potent substance harvested directly from the lumbering sap beasts that roam the craggy heights of the Stonetalon Mountains. It serves as a key reagent for the Darkspear witch doctor Jin'Zil, who uses its raw woodland properties to concoct a spiteful brew.",
+ "sections": [
+  {
+   "title": "A Bitter Harvest",
+   "body": "Found dripping from the arboreal sap beasts near Mirkfallon Lake and Stonetalon Peak, this heavy fluid carries the concentrated essence of the mountain's ancient flora. While harmless when dormant in nature, the sap can easily be turned into something far darker in the hands of an experienced alchemist or witch doctor. Jin'Zil of Malaka'jin covets it to brew what he mockingly dubs 'forest magic'\u2014a deadly draught intended to torment captured night elf sentinels with the very essence of their cherished wilderness.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures carry Stonetalon Sap?",
+   "aliases": [
+    "where do you get stonetalon sap",
+    "who drops stonetalon sap",
+    "sap beasts"
+   ],
+   "answer": "It is gathered from sap beasts, the strange woodland creatures found near Mirkfallon Lake and higher up along the slopes leading to Stonetalon Peak."
+  },
+  {
+   "q": "What does Witch Doctor Jin'Zil use the sap for?",
+   "aliases": [
+    "why does jin'zil want sap",
+    "jin'zil forest magic recipe"
+   ],
+   "answer": "Jin'Zil combines the sap with courser eyes, twilight whiskers, and a fey dragon scale to produce a toxic brew that he unleashes upon his caged night elf prisoners."
+  },
+  {
+   "q": "Where is the best place to find sap beasts?",
+   "aliases": [
+    "sap beast location",
+    "mirkfallon lake sap beasts"
+   ],
+   "answer": "Sap beasts inhabit the groves surrounding Mirkfallon Lake and the lush paths climbing toward Stonetalon Peak."
+  },
+  {
+   "q": "Is the sap magical on its own?",
+   "aliases": [
+    "is stonetalon sap magic",
+    "properties of stonetalon sap"
+   ],
+   "answer": "It is naturally infused with the primordial vitality of the Stonetalon highlands, but it takes troll mojo and specific reagents to twist it into a lethal venom."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "Witch Doctor Jin'Zil demonstrates the Darkspear talent for turning the enemy's beloved environment into a lethal instrument of voodoo."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The desecration of Stonetalon's native elements by a Horde witch doctor to poison captive sentinels is an outrage against nature and Elune."
+  }
+ ],
+ "keywords": [
+  "jin'zil",
+  "malaka'jin",
+  "mirkfallon lake",
+  "sap beast",
+  "stonetalon peak",
+  "stonetalon sap"
+ ],
+ "related": [
+  "npc:witch-doctor-jin-zil",
+  "quest:1058",
+  "subzone:mirkfallon-lake",
+  "subzone:stonetalon-peak",
+  "subzone:malaka-jin",
+  "item:courser-eye",
+  "item:fey-dragon-scale",
+  "item:twilight-whisker"
+ ],
+ "attribution": [
+  "Stonetalon Sap",
+  "Jin'Zil's Forest Magic"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "key": "item:scorched-spider-fang",
+ "type": "item",
+ "name": "Scorched Spider Fang",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Scorched Spider Fang",
+  "quests": [
+   "quest:1701"
+  ]
+ },
+ "summary": "Scorched Spider Fangs are specialized crafting materials harvested from predatory arachnids lurking in the sodden caverns of the Wetlands. The dwarven armorer Furen Longbeard requires a substantial bulk of these heat-tempered fangs to forge resilient fire-hardened mail for seasoned warriors.",
+ "sections": [
+  {
+   "title": "A Dwarven Smith's Formula",
+   "body": "Forging armor capable of turning blades and resisting violent trauma requires more than standard iron. In Stormwind's busy district, the skilled blacksmith Furen Longbeard uses obscure metallurgical techniques that blend beast parts with rare reagents. Furen demands fifty scorched fangs from the giant arachnids of the marshlands, utilizing their dense, venomous, and naturally toughened composition to reinforce mail links during the tempering process.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stalkers of the Wetlands",
+   "body": "These fangs are harvested directly from the lethal arachnids inhabiting the sunken valleys and burrows of the Wetlands, notably Cave Stalkers and Leech Stalkers. Despite the damp, rotting environment of the marsh, these predators possess peculiarly hardened, scorched mandibles. Gathering them in the quantities Furen demands requires venturing into deep hollows and clearing out entire swarms of monstrous vermin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Scorched Spider Fangs used for?",
+   "aliases": [
+    "what do i do with scorched spider fangs",
+    "scorched spider fang purpose",
+    "who needs scorched spider fangs"
+   ],
+   "answer": "They are collected for Furen Longbeard, an armorer located in Stormwind. He requires fifty of them, alongside components from Stonetalon and Razorfen Kraul, to forge an exceptionally durable chest piece for Alliance warriors."
+  },
+  {
+   "q": "Where can I find Scorched Spider Fangs?",
+   "aliases": [
+    "scorched spider fang drop location",
+    "which spiders drop scorched spider fang",
+    "where to farm scorched spider fangs"
+   ],
+   "answer": "They are taken from arachnids within the Wetlands, specifically Leech Stalkers and Cave Stalkers found lurking in the region's damp burrows, hillsides, and excavation caverns."
+  },
+  {
+   "q": "Why does a blacksmith need so many spider fangs to make armor?",
+   "aliases": [
+    "why 50 fangs",
+    "why does furen need spider fangs"
+   ],
+   "answer": "Furen Longbeard employs unorthodox dwarven crafting methods. The mineral-dense, fire-resistant properties of these hardened fangs serve as an unconventional hardening agent, reinforcing links of mail when treated alongside phlogiston and beast horns."
+  },
+  {
+   "q": "Can any adventurer collect and turn in these fangs?",
+   "aliases": [
+    "is scorched spider fang warrior only",
+    "who can turn in scorched spider fangs"
+   ],
+   "answer": "While anyone traveling through the Wetlands can slay the spiders and harvest their mandibles, Furen Longbeard only commissions the crafting project for aspiring warriors seeking to earn their fire-hardened mail."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Gathering fifty of these fangs is one of the arduous trials assigned by Furen Longbeard to test your endurance and provide the raw components for your signature mail armor."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Furen's method of incorporating scorched chitin and fangs into mail links offers a glimpse into rare dwarven armoring traditions that look far beyond conventional smelting."
+  }
+ ],
+ "keywords": [
+  "cave stalker",
+  "fire hardened mail",
+  "furen longbeard",
+  "leech stalker",
+  "scorched spider fang",
+  "stormwind",
+  "wetlands"
+ ],
+ "related": [
+  "quest:1701",
+  "npc:furen-longbeard",
+  "zone:wetlands",
+  "item:charred-horn",
+  "item:galvanized-horn",
+  "item:vial-of-phlogiston",
+  "item:furen-s-instructions",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Scorched Spider Fang",
+  "Fire Hardened Mail"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "item:crate-of-horseshoes",
+ "type": "item",
+ "name": "Crate of Horseshoes",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Crate of Horseshoes",
+  "quests": [
+   "quest:119"
+  ]
+ },
+ "summary": "The Crate of Horseshoes is a heavy delivery package containing fifty iron horseshoes forged in Elwynn Forest. Bound for Lakeshire, it represents the vital trade link between Goldshire's smithy and the embattled settlers of Redridge.",
+ "sections": [
+  {
+   "title": "A Delivery to Lakeshire",
+   "body": "Packed and hammered shut by the blacksmith Smith Argus in Goldshire, this hefty crate contains fifty freshly forged horseshoes commissioned by Verner Osgood. Lakeshire's local industry struggles under constant pressure from surrounding gnolls and orcs, leaving craftsmen like Verner reliant on Elwynn Forest for essential metal goods. While the crate satisfies Verner's desperate need for equipment, Argus makes sure to include a stern bill of sale, ensuring the Redridge craftsman remembers that even frontier survival comes at a steep price.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Crate of Horseshoes?",
+   "aliases": [
+    "contents of crate",
+    "what is in the crate",
+    "horseshoe crate contents"
+   ],
+   "answer": "The crate contains fifty iron horseshoes forged by Smith Argus in Goldshire, along with an attached bill demanding payment from the buyer."
+  },
+  {
+   "q": "Who ordered this crate?",
+   "aliases": [
+    "who wants the horseshoes",
+    "verner horseshoes",
+    "crate recipient"
+   ],
+   "answer": "Verner Osgood, a tradesman and craftsman stationed in Lakeshire within the Redridge Mountains, commissioned the horseshoes to keep his work and local draft animals running."
+  },
+  {
+   "q": "Who crafted these horseshoes?",
+   "aliases": [
+    "who made the horseshoes",
+    "blacksmith in goldshire",
+    "smith argus"
+   ],
+   "answer": "Smith Argus, the resident blacksmith of Goldshire in Elwynn Forest, hammered out the shoes and packed the crate for delivery."
+  },
+  {
+   "q": "Why does Verner need horseshoes from Elwynn?",
+   "aliases": [
+    "why redridge needs shoes",
+    "why import horseshoes",
+    "lakeshire supply problem"
+   ],
+   "answer": "Lakeshire is besieged by hostile Blackrock orcs and gnolls, leaving the frontier settlement isolated and strapped for raw materials and trade goods. Local workers must import basic supplies from safer settlements like Goldshire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The delivery demonstrates the steady demand for bulk smithing staples along the kingdom's frontier roads, where towns like Lakeshire depend entirely on Goldshire's anvil to maintain their draft animals."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Couriers carrying goods between Elwynn and Redridge maintain the kingdom's fragile trade spine, keeping outlying garrisons equipped even as Stormwind withholds military reinforcement."
+  }
+ ],
+ "keywords": [
+  "crate of horseshoes",
+  "elwynn forest",
+  "goldshire",
+  "lakeshire",
+  "redridge",
+  "smith argus",
+  "verner osgood"
+ ],
+ "related": [
+  "quest:119",
+  "quest:118",
+  "npc:verner-osgood",
+  "zone:elwynn",
+  "quest:124",
+  "quest:126",
+  "quest:122",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Crate of Horseshoes",
+  "Return to Verner"
+ ]
+}

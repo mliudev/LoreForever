@@ -1,0 +1,100 @@
+{
+ "key": "item:furen-s-instructions",
+ "type": "item",
+ "name": "Furen's Instructions",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Furen's Instructions",
+  "quests": [
+   "quest:1701"
+  ]
+ },
+ "summary": "Furen's Instructions is a handwritten parchment given by the master armorer Furen Longbeard in Stormwind. It details the rare and perilous reagents required to forge fire-hardened mail armor for promising Alliance warriors.",
+ "sections": [
+  {
+   "title": "A Master Smith's Demands",
+   "body": "Furen Longbeard does not hand out exceptional armor lightly. Having already tested a warrior's resolve with simpler smithing tasks, the dwarven craftsman offers to hammer out an extraordinarily resilient suit of mail, provided the adventurer fetches the rare components himself. To ensure nothing is forgotten, Furen provides this detailed checklist, sending his charge across continents on an arduous scavenger hunt.",
+   "spoiler": 0
+  },
+  {
+   "title": "Exotic Components",
+   "body": "The instructions outline a dangerous journey spanning both the Eastern Kingdoms and Kalimdor. Crafting the hardened links requires dozens of scorched spider fangs from the damp caves of the Wetlands, horns harvested from fire-breathing chimaeras in the crags of Stonetalon Mountains, and a prized galvanized horn from the chimaera matriarch herself. The final, alchemical catalyst is a vial of volatile phlogiston, held deep within the quillboar bastion of Razorfen Kraul.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Furen's Instructions?",
+   "aliases": [
+    "furens instructions",
+    "what are furens instructions",
+    "furen list"
+   ],
+   "answer": "It is a written checklist handed to Alliance warriors by the blacksmith Furen Longbeard in Stormwind. It outlines the specific exotic materials needed to craft a suit of fire-hardened mail armor."
+  },
+  {
+   "q": "Who is Furen Longbeard?",
+   "aliases": [
+    "who is furen",
+    "furen longbeard",
+    "furen stormwind"
+   ],
+   "answer": "Furen Longbeard is a master dwarven armorer stationed in the Dwarven District of Stormwind. He specializes in testing seasoned warriors and crafting durable protective gear for them."
+  },
+  {
+   "q": "Where do the materials on the list come from?",
+   "aliases": [
+    "where do i find the items",
+    "furen materials locations",
+    "materials on furen list"
+   ],
+   "answer": "The list sends warriors far and wide: scorched spider fangs are retrieved from spiders in the Wetlands, charred horns and a galvanized horn are hunted from chimaeras in the Stonetalon Mountains, and a vial of phlogiston must be claimed from Roogug in Razorfen Kraul."
+  },
+  {
+   "q": "What does Furen forge with these materials?",
+   "aliases": [
+    "what armor does furen make",
+    "fire hardened mail reward",
+    "furen crafting reward"
+   ],
+   "answer": "Once all the dangerous reagents and the instructions are returned to him, Furen uses his smithing secrets to forge a specialized piece of fire-hardened mail armor for the warrior."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This checklist represents a rite of passage for Alliance warriors transitioning to heavy mail armor, demanding trials against ferocious beasts and foul quillboar."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Furen's exotic recipe demonstrates how master smiths combine beast reagents and rare alchemical distillations to temper armor beyond ordinary mundane forging."
+  }
+ ],
+ "keywords": [
+  "charred horn",
+  "fire hardened mail",
+  "furen longbeard",
+  "furen's instructions",
+  "galvanized horn",
+  "razorfen kraul",
+  "scorched spider fang",
+  "stonetalon",
+  "vial of phlogiston",
+  "wetlands"
+ ],
+ "related": [
+  "quest:1701",
+  "npc:furen-longbeard",
+  "item:scorched-spider-fang",
+  "item:charred-horn",
+  "item:galvanized-horn",
+  "item:vial-of-phlogiston",
+  "zone:stonetalon",
+  "zone:razorfenkraul"
+ ],
+ "attribution": [
+  "Furen's Instructions",
+  "Fire Hardened Mail"
+ ]
+}

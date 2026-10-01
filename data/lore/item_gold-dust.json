@@ -1,0 +1,97 @@
+{
+ "key": "item:gold-dust",
+ "type": "item",
+ "name": "Gold Dust",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Gold Dust",
+  "quests": [
+   "quest:47"
+  ]
+ },
+ "summary": "Gold Dust consists of fine flecks of precious metal sifted and hoarded by the kobolds infesting the mines of Elwynn Forest. While ordinary miners seek intact ore veins, local opportunists pay good coin to anyone willing to pry these gathered particles from the vermin.",
+ "sections": [
+  {
+   "title": "A Pouch Full of Scraps",
+   "body": "Beneath the soil of Elwynn Forest, kobolds scratch away at the subterranean tunnels of the Fargodeep and Jasperlode mines. Rather than properly refining the ore they uncover, the rat-like creatures often hoard coarse gold dust directly in their pockets and pouches. These small, glittering shavings represent the tedious labor of subterranean scavenging, easily overlooked by proper mining syndicates but intensely coveted by local peddlers and fences looking to turn a quiet profit without paying official smelting tariffs.",
+   "spoiler": 0
+  },
+  {
+   "title": "Goldshire's Black Market",
+   "body": "In the township of Goldshire, Remy \"Two Times\" makes an active habit of soliciting travelers for recovered gold dust. Claiming to offer the best price in town, Remy trades coin and suspicious tokens on behalf of his unnamed associates in exchange for pouches of raw dust. By using adventurous mercenaries to wrest gold directly from kobold clutches, back-alley brokers keep their hands clean while securing untraceable wealth right under the noses of the Stormwind guards.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Gold Dust come from?",
+   "aliases": [
+    "how to get gold dust",
+    "gold dust drop",
+    "where find gold dust"
+   ],
+   "answer": "Gold Dust is carried by kobolds throughout Elwynn Forest. Miners, tunnelers, geomancers, and their notorious leader Goldtooth all gather and hoard the shimmering particulate as they dig through the hills."
+  },
+  {
+   "q": "Which mines hold the most kobolds carrying Gold Dust?",
+   "aliases": [
+    "where are the mines",
+    "best mine for gold dust",
+    "mine locations"
+   ],
+   "answer": "The Fargodeep Mine located south of Goldshire and the Jasperlode Mine situated to the northeast are both heavily overrun by kobolds carrying dust."
+  },
+  {
+   "q": "Who buys Gold Dust in Elwynn Forest?",
+   "aliases": [
+    "who wants gold dust",
+    "remy two times gold dust",
+    "turn in gold dust"
+   ],
+   "answer": "Remy \"Two Times,\" a shady dealer operating outside the Lion's Pride Inn in Goldshire, eagerly buys collected pouches of Gold Dust in exchange for money and tokens from his associates."
+  },
+  {
+   "q": "Why do kobolds carry dust instead of ingots?",
+   "aliases": [
+    "why do kobolds have dust",
+    "kobold gold"
+   ],
+   "answer": "Kobolds lack the discipline and infrastructure for proper smelting. As they scratch through the rock face with crude pickaxes, loose gold dust collects on their belongings and in small pouches they carry as shiny trinkets."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "While miners seek solid veins of copper and tin with pick and pan, kobold dust demonstrates that Elwynn's subterranean passages harbor richer lodes than standard surveys suggest."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Dealing in unrefined, untracked dust with shady figures like Remy \"Two Times\" provides a practical lesson in how the underworld launders raw wealth out of sight of Stormwind's magistrates."
+  }
+ ],
+ "keywords": [
+  "elwynn",
+  "fargodeep",
+  "gold dust",
+  "goldshire",
+  "goldtooth",
+  "jasperlode",
+  "kobold",
+  "remy two times"
+ ],
+ "related": [
+  "quest:47",
+  "npc:remy-two-times",
+  "topic:kobold",
+  "subzone:fargodeep-mine",
+  "subzone:jasperlode-mine",
+  "subzone:goldshire",
+  "zone:elwynn",
+  "quest:87"
+ ],
+ "attribution": [
+  "Gold Dust",
+  "Gold Dust Exchange"
+ ]
+}

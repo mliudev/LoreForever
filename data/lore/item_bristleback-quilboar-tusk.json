@@ -1,0 +1,87 @@
+{
+ "key": "item:bristleback-quilboar-tusk",
+ "type": "item",
+ "name": "Bristleback Quilboar Tusk",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Bristleback Quilboar Tusk",
+  "quests": [
+   "quest:899"
+  ]
+ },
+ "summary": "Bristleback Quilboar Tusks are harvested from the slain Bristleback quilboar across the northern and central Barrens. Collected as proof of slaughter, they serve as gruesome tokens of vengeance for the grieving orc warrior Mankrik.",
+ "sections": [
+  {
+   "title": "Trophies of Vengeance",
+   "body": "Bristleback quilboar inhabit thickets and bramble dens throughout the Barrens, fiercely defending their territory against Horde expansion. Their tusks are prominent, jagged ivory used as natural weapons in close quarters. For Mankrik, a veteran warrior stationed at the Crossroads whose wife was lost during a vicious quilboar ambush, these tusks represent more than simple hunter trophies. Collecting dozens of them is a measure of pure retribution, a bloody tally meant to ensure the Bristlebacks suffer as deeply as he has.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants these tusks?",
+   "aliases": [
+    "who needs bristleback tusks",
+    "who takes bristleback quilboar tusk",
+    "tusk turn in"
+   ],
+   "answer": "Mankrik, an orc warrior stationed at the Crossroads in the Barrens, demands them. He seeks retribution against the Bristleback quilboar following a tragic ambush that separated him from his wife."
+  },
+  {
+   "q": "Why does Mankrik want so many tusks?",
+   "aliases": [
+    "why 60 tusks",
+    "why does mankrik want tusks",
+    "mankrik revenge"
+   ],
+   "answer": "Mankrik is consumed by grief and fury after being overwhelmed and left for dead by quilboar raiders. Gathering sixty tusks provides him tangible proof that the Bristleback tribe is being relentlessly culled in return."
+  },
+  {
+   "q": "Which quilboar carry these tusks?",
+   "aliases": [
+    "where do bristleback tusks drop",
+    "who drops bristleback quilboar tusk"
+   ],
+   "answer": "They are taken from members of the Bristleback tribe found wandering the northern and central scrublands and bramble camps of the Barrens."
+  },
+  {
+   "q": "Do these tusks serve any purpose other than Mankrik's vendetta?",
+   "aliases": [
+    "bristleback tusk uses",
+    "can you craft with quilboar tusks"
+   ],
+   "answer": "No. While quilboar tusks can sometimes be used in tribal trinkets or trade goods, these particular trophies are collected solely to satisfy Mankrik's thirst for vengeance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The quilboar threaten the Crossroads and supply trails across the Barrens; collecting tusks aids both Mankrik's private vendetta and the Horde's broader effort to pacify the region."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcs understand blood debts and warrior grief, making Mankrik's brutal quest for sixty quilboar trophies a matter of shared honor."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "bristleback",
+  "consumed by hatred",
+  "crossroads",
+  "mankrik",
+  "quilboar",
+  "tusk"
+ ],
+ "related": [
+  "npc:mankrik",
+  "quest:899",
+  "topic:quilboar",
+  "zone:barrens",
+  "subzone:crossroads"
+ ],
+ "attribution": [
+  "Bristleback Quilboar Tusk",
+  "Consumed by Hatred (Classic)"
+ ]
+}

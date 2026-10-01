@@ -1,0 +1,92 @@
+{
+ "key": "item:winterhoof-cleansing-totem",
+ "type": "item",
+ "name": "Winterhoof Cleansing Totem",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Winterhoof Cleansing Totem",
+  "quests": [
+   "quest:754"
+  ]
+ },
+ "summary": "The Winterhoof Cleansing Totem is a consecrated ritual implement crafted by Mull Thunderhorn in Bloodhoof Village. Carved to undo the toxic blight spread by Venture Company intruders, it channels the Earth Mother's power to purify the polluted Winterhoof Water Well.",
+ "sections": [
+  {
+   "title": "Purifying the Spring",
+   "body": "When the goblin engineers of the Venture Company encroached upon the plains of Mulgore, their industrial operations quickly tainted the land's precious subterranean water tables. In response, Mull Thunderhorn prepared the Winterhoof Cleansing Totem, imbuing the carved wood with protective magic intended to wash out the foreign poisons. Carried past hostile goblin guards to the edge of the Winterhoof Water Well, the totem disperses the contamination through a focused ritual, restoring pure drinking water to the wandering herds and native tribes of the plains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Winterhoof Cleansing Totem used for?",
+   "aliases": [
+    "cleansing totem purpose",
+    "winterhoof totem use",
+    "what does totem do"
+   ],
+   "answer": "It is brought to the Winterhoof Water Well southeast of Bloodhoof Village to perform a purifying ritual, scouring away the industrial contamination dumped into the aquifer by Venture Company goblins."
+  },
+  {
+   "q": "Who crafted this totem?",
+   "aliases": [
+    "who made winterhoof totem",
+    "creator of cleansing totem",
+    "mull totem"
+   ],
+   "answer": "Mull Thunderhorn, a respected tauren resident of Bloodhoof Village, carved and prepared the totem specifically to undo the damage done to the Winterhoof Water Well."
+  },
+  {
+   "q": "Why was the Winterhoof Water Well polluted?",
+   "aliases": [
+    "who poisoned winterhoof well",
+    "well pollution cause",
+    "why is well dirty"
+   ],
+   "answer": "The Venture Company established an encampment around the spring, despoiling the natural watering hole with runoff, waste, and chemical sludge from their logging and mining machinery."
+  },
+  {
+   "q": "What happens once the cleansing ritual is complete?",
+   "aliases": [
+    "after using totem",
+    "well cleansed result",
+    "does well get fixed"
+   ],
+   "answer": "The murky, tainted waters become clean and wholesome once more, allowing the local plains fauna and migrating tauren herds to safely drink from the well again."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The desecration of fresh water sources strikes at the heart of the tauren bond with the Earth Mother, making the totem's rite an essential defense of the homeland."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Using a cleansing totem mirrors core shamanic principles, wielding the elemental harmony of earth and water to cast out artificial corruption."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "cleansing",
+  "mulgore",
+  "mull thunderhorn",
+  "totem",
+  "venture company",
+  "water well",
+  "winterhoof"
+ ],
+ "related": [
+  "quest:754",
+  "subzone:winterhoof-water-well",
+  "npc:mull-thunderhorn",
+  "subzone:bloodhoof-village",
+  "topic:venture-company",
+  "zone:mulgore",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Winterhoof Cleansing Totem",
+  "Winterhoof Cleansing (Classic)"
+ ]
+}

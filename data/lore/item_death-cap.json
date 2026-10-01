@@ -1,0 +1,94 @@
+{
+ "key": "item:death-cap",
+ "type": "item",
+ "name": "Death Cap",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Death Cap",
+  "quests": [
+   "quest:947"
+  ]
+ },
+ "summary": "The Death Cap is a rare, potent fungus found hidden in the shadowed cavern behind Cliffspring Falls in Darkshore. Sought by night elf alchemists for its unique properties, harvesting it requires venturing into a subterranean den warned against by the Grove of the Ancients.",
+ "sections": [
+  {
+   "title": "A Toxic Bloom in the Dark",
+   "body": "The Death Cap grows exclusively in the subterranean dampness of the cave tucked behind Cliffspring Falls, situated along the northeastern mountain ridges of Darkshore. Unlike the more plentiful scaber stalks that carpet the surrounding cavern floor, the Death Cap is scarce and distinct. Night elf herbalists like Barithras Moonshade value the fungus for experimental brewing, though retrieving even a single specimen requires braving a cavern whispered to harbor a nascent corruption.",
+   "spoiler": 0
+  },
+  {
+   "title": "Omen of Cliffspring",
+   "body": "Harvesting a Death Cap is as much a reconnaissance mission as an alchemical errand. Guardians from the Grove of the Ancients warned local Kaldorei against approaching the falls, sensing a foul presence taking root in the darkness. Those who step into the cavern to pluck the mushroom must face whatever lurking forces have claimed the damp hollow as their lair.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find a Death Cap?",
+   "aliases": [
+    "death cap location",
+    "where is death cap",
+    "cliffspring cave mushroom"
+   ],
+   "answer": "Death Caps grow inside the hidden cave behind Cliffspring Falls, located in northeastern Darkshore against the mountain wall."
+  },
+  {
+   "q": "Who wants this mushroom?",
+   "aliases": [
+    "who needs death cap",
+    "barithras mushroom quest"
+   ],
+   "answer": "Barithras Moonshade, an alchemist residing in the coastal settlement of Auberdine, seeks the Death Cap to brew a specialized potion."
+  },
+  {
+   "q": "Why didn't Barithras Moonshade collect it himself?",
+   "aliases": [
+    "why not get it himself",
+    "barithras warning"
+   ],
+   "answer": "Tree guardians from the Grove of the Ancients warned Barithras to avoid the cavern behind Cliffspring Falls, sensing that an encroaching evil had made the cave its hiding place."
+  },
+  {
+   "q": "How does the Death Cap differ from a Scaber Stalk?",
+   "aliases": [
+    "death cap vs scaber stalk",
+    "difference between mushrooms"
+   ],
+   "answer": "While scaber stalks are relatively plentiful throughout the Cliffspring cavern floor, the Death Cap is a rarer, more potent fungus requiring careful scouting to find."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Though gathering the Death Cap for Barithras requires no professional sickle, any herbalist will appreciate the hazard of harvesting rare fungi in damp, corrupted subterranean pockets."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Retrieving the Death Cap serves two masters: aiding Barithras's potion-making in Auberdine while verifying the dire premonitions voiced by the Grove of the Ancients."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "barithras moonshade",
+  "cave mushrooms",
+  "cliffspring falls",
+  "darkshore",
+  "death cap",
+  "grove of the ancients",
+  "scaber stalk"
+ ],
+ "related": [
+  "quest:947",
+  "npc:barithras-moonshade",
+  "subzone:cliffspring-falls",
+  "item:scaber-stalk",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "quest:952"
+ ],
+ "attribution": [
+  "Death Cap",
+  "Cave Mushrooms"
+ ]
+}

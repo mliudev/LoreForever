@@ -1,0 +1,121 @@
+{
+ "key": "quest:lazy-peons",
+ "type": "quest",
+ "name": "Lazy Peons",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   5441
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Foreman Thazz'ril",
+  "end": "",
+  "previous": "Invaders in Our Home",
+  "next": "Thazz'ril's Pick (quest)",
+  "wiki": "Lazy Peons",
+  "chain": []
+ },
+ "summary": "Foreman Thazz'ril is fed up with the Valley of Trials' workforce falling asleep on the job. Entrusted with his weighted blackjack, young recruits are tasked with roaming the valley to discipline sleeping peons and ensure vital lumber continues flowing to Durotar's settlements.",
+ "sections": [
+  {
+   "title": "Slacking in the Sun",
+   "body": "Building a new home in the arid plains of Durotar demands vast amounts of timber, stone, and sheer physical toil. Much of that burden falls squarely upon the peon caste\u2014orcs who lack martial prowess but form the industrious backbone of the Horde. Unfortunately for Foreman Thazz'ril, the baking heat and grueling labor of the Valley of Trials make it easy for these laborers to slip off to shady trees for unauthorized naps.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Swift Wake-Up Call",
+   "body": "Rather than allowing productivity to grind to a halt, Foreman Thazz'ril uses a rather direct management strategy: the Foreman's Blackjack. Entrusting incoming Horde recruits with this blunt disciplinary tool, he sends them across the valley floor to crack sleeping workers over the head. Startled awake, the dazed peons hastily return to chopping wood, reminded that idle hands have no place in the survival of Durotar.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the peons falling asleep?",
+   "aliases": [
+    "why are peons lazy",
+    "sleeping peons",
+    "peons sleeping on job"
+   ],
+   "answer": "Gathering heavy lumber under Durotar's punishing sun is brutal, exhausting work. Without a supervisor breathing down their necks, peons regularly slip away beneath the shade of large trees to rest."
+  },
+  {
+   "q": "Who is Foreman Thazz'ril?",
+   "aliases": [
+    "thazzril",
+    "who gives lazy peons",
+    "thazz'ril"
+   ],
+   "answer": "Foreman Thazz'ril is an orc overseer stationed in the Valley of Trials. He manages the labor crews responsible for harvesting lumber and supplies needed for fledgling Horde construction."
+  },
+  {
+   "q": "What is the Foreman's Blackjack?",
+   "aliases": [
+    "blackjack",
+    "peon club",
+    "blackjack tool"
+   ],
+   "answer": "It is a heavy leather sap used by Foreman Thazz'ril to discipline slacking workers. A swift blow upside the head is just enough to wake a sleeping peon without causing permanent injury."
+  },
+  {
+   "q": "What role do peons have in the Horde?",
+   "aliases": [
+    "orc peons role",
+    "what are peons",
+    "peon caste"
+   ],
+   "answer": "Peons represent the laboring class of orcish society. While physically stout, they are considered unfit for military warfare, serving instead as builders, miners, and woodcutters to fuel the Horde's war machine and settlements."
+  },
+  {
+   "q": "Where do I find the sleeping peons?",
+   "aliases": [
+    "lazy peon locations",
+    "where are lazy peons",
+    "find sleeping peons"
+   ],
+   "answer": "They can be found throughout the Valley of Trials, both north and south of the Den. Look under the wide canopies of trees where the workers retreat to find shade."
+  },
+  {
+   "q": "What happens after the peons are awakened?",
+   "aliases": [
+    "after lazy peons",
+    "what follows lazy peons",
+    "next quest after peons"
+   ],
+   "answer": "Once you return the blackjack to Foreman Thazz'ril, he sends you on another chore: recovering his lost mining pick from deep within a nearby cave."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "For young orcs coming of age, disciplining your own kin's labor force is an early lesson in the harsh realities and practical discipline required to carve a nation out of the wilderness."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear trolls training alongside their allies witness firsthand the peculiar combination of brute strength and managerial exasperation that defines orcish construction."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Every outpost in Durotar relies on timber harvested by these peons, making basic workforce discipline a matter of collective survival."
+  }
+ ],
+ "keywords": [
+  "blackjack",
+  "durotar",
+  "foreman thazz'ril",
+  "lazy peons",
+  "lumber",
+  "peon",
+  "valley of trials"
+ ],
+ "related": [
+  "npc:foreman-thazz-ril",
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "quest:1089"
+ ],
+ "attribution": [
+  "Lazy Peons"
+ ]
+}

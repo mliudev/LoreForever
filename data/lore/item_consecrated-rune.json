@@ -1,0 +1,83 @@
+{
+ "key": "item:consecrated-rune",
+ "type": "item",
+ "name": "Consecrated Rune",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Consecrated Rune",
+  "quests": [
+   "quest:3107"
+  ]
+ },
+ "summary": "A Consecrated Rune is an inscribed sacred item passed to fledgling dwarven paladins training in Coldridge Valley. It serves as an introductory summons from Bromos Grummner, directing initiates to report to Anvilmar and begin their formal duties as Knights of the Silver Hand.",
+ "sections": [
+  {
+   "title": "A Calling to the Silver Hand",
+   "body": "Novice dwarven paladins proving themselves in Coldridge Valley are handed a Consecrated Rune once they have shown basic martial competence. Inscribed with sacred words and blessed by the Holy Light, the rune originates from Bromos Grummner, the paladin trainer residing inside Anvilmar. Dwarves hold immense respect for the traditions of the Holy Light introduced to them by their human allies. Reading the rune serves as both an official summons and a symbolic rite of passage, confirming the novice's place among the Knights of the Silver Hand.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Consecrated Rune used for?",
+   "aliases": [
+    "consecrated rune purpose",
+    "what does the rune do",
+    "consecrated rune quest item"
+   ],
+   "answer": "The rune is a written summons meant to be read by novice dwarven paladins. It directs them to seek out Bromos Grummner inside Anvilmar to advance their paladin training."
+  },
+  {
+   "q": "Who sends the Consecrated Rune?",
+   "aliases": [
+    "who gave me consecrated rune",
+    "rune origin",
+    "bromos grummner rune"
+   ],
+   "answer": "It is sent by Bromos Grummner, the dwarven paladin trainer stationed inside Anvilmar in Coldridge Valley."
+  },
+  {
+   "q": "Why do dwarven paladins follow the traditions of the Silver Hand?",
+   "aliases": [
+    "dwarf paladin silver hand",
+    "why are dwarves paladins",
+    "dwarves and holy light"
+   ],
+   "answer": "Dwarves learned much of the Holy Light and the ways of the Silver Hand from human mentors. They hold high reverence for the order's history, traditions, and the belief that a single sacrifice can alter the fate of Azeroth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For dwarven paladins, receiving this rune represents their formal step into the ranks of the Knights of the Silver Hand under the guidance of Bromos Grummner."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The rune reflects the integration of human holy traditions into dwarven martial culture, rooted in the shared alliance and mutual respect between Ironforge and humanity."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "bromos grummner",
+  "coldridge valley",
+  "consecrated rune",
+  "holy light",
+  "paladin",
+  "silver hand"
+ ],
+ "related": [
+  "quest:3107",
+  "npc:bromos-grummner",
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "topic:paladin",
+  "topic:light",
+  "topic:human",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Consecrated Rune",
+  "Consecrated Rune (Classic)"
+ ]
+}

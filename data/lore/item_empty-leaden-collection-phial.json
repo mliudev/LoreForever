@@ -1,0 +1,92 @@
+{
+ "key": "item:empty-leaden-collection-phial",
+ "type": "item",
+ "name": "Empty Leaden Collection Phial",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Empty Leaden Collection Phial",
+  "quests": [
+   "quest:2926"
+  ]
+ },
+ "summary": "The Empty Leaden Collection Phial is a shielded container designed by gnome tinkerers to harvest radioactive fallout from the ruins of Gnomeregan. Crafted from lead to protect the bearer from lethal contamination, it is used by adventurers assisting Ozzie Togglevolt in Kharanos. Ozzie hopes the captured glow might yield a cure for their afflicted kin\u2014or at least an extraordinarily potent beverage.",
+ "sections": [
+  {
+   "title": "A Shielded Vessel",
+   "body": "When the vents of Gnomeregan flooded the subterranean city with toxic radiation to purge the trogg menace, it instead warped the surviving defenders into leper gnomes and irradiated the invading beasts. Seeking to study and reverse the fallout, Ozzie Togglevolt crafted the Empty Leaden Collection Phial. Made of heavy lead to shield handlers from the ambient danger, the specialized vial draws in the noxious green glow lingering on the bodies of Irradiated Invaders and Pillagers that prowl the ruins. Once sealed, the resulting Full Leaden Collection Phial provides the raw, dangerous matter needed for experimental remedies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the phial used for?",
+   "aliases": [
+    "what does phial do",
+    "how to use empty leaden collection phial",
+    "phial purpose"
+   ],
+   "answer": "The phial is used to draw and store hazardous radioactive fallout from Irradiated Invaders and Irradiated Pillagers near the surface tunnels of Gnomeregan. Sealing the fallout inside transforms the container into a Full Leaden Collection Phial for research."
+  },
+  {
+   "q": "Why is the phial made of lead?",
+   "aliases": [
+    "why lead phial",
+    "why leaden"
+   ],
+   "answer": "The radioactive fallout within Gnomeregan is lethal to unshielded living beings, capable of inflicting severe radiation sickness or turning gnomes into lepers. The dense lead structure acts as a protective barrier, keeping the collector safe from the volatile glowing contaminant inside."
+  },
+  {
+   "q": "Who created this collection device?",
+   "aliases": [
+    "who made the phial",
+    "ozzie togglevolt phial",
+    "who gave me this phial"
+   ],
+   "answer": "The phial is provided by the gnome tinkerer Ozzie Togglevolt, who conducts his chaotic experiments out of Kharanos in Dun Morogh. He provides the container to adventurers willing to brave the toxic outskirts of the ruined city."
+  },
+  {
+   "q": "What does Ozzie hope to achieve with the collected fallout?",
+   "aliases": [
+    "why collect fallout",
+    "gnogaine purpose",
+    "what is ozzie making"
+   ],
+   "answer": "Ozzie and his associate Razzle are attempting to invent a cure for leper gnomes afflicted by the catastrophe. As with many gnomish ventures, Ozzie admits the experimental formula might also turn out to be a recipe for incredibly potent rum, or perhaps a cure for baldness."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "The devastation of Gnomeregan remains an open wound for exiled gnomes, making any experimental attempt to reverse the toxic fallout of high personal stakes, no matter how eccentric the researcher."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The leaden phial showcases straightforward gnomish utility: heavy-metal radiation shielding combined with suction apparatus designed to collect volatile environmental particulates safely."
+  }
+ ],
+ "keywords": [
+  "empty leaden collection phial",
+  "fallout",
+  "gnogaine",
+  "gnomeregan",
+  "kharanos",
+  "leaden phial",
+  "ozzie togglevolt",
+  "radiation"
+ ],
+ "related": [
+  "quest:2926",
+  "item:full-leaden-collection-phial",
+  "npc:ozzie-togglevolt",
+  "zone:gnomeregan",
+  "topic:leper-gnome",
+  "topic:trogg",
+  "subzone:kharanos",
+  "quest:2962"
+ ],
+ "attribution": [
+  "Empty Leaden Collection Phial",
+  "Gnogaine"
+ ]
+}

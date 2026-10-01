@@ -1,0 +1,98 @@
+{
+ "key": "item:admiral-proudmoore-s-orders",
+ "type": "item",
+ "name": "Admiral Proudmoore's Orders",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Admiral Proudmoore's Orders",
+  "quests": [
+   "quest:831"
+  ]
+ },
+ "summary": "Admiral Proudmoore's Orders are written battle plans recovered from Kul Tiras forces entrenching themselves along the coastline of Durotar. Penned before the Grand Admiral's defeat at Theramore, the documents outline persistent military strategies that continue to threaten the nascent orc homeland.",
+ "sections": [
+  {
+   "title": "A Legacy of Hatred",
+   "body": "Even after the death of Grand Admiral Daelin Proudmoore at Theramore, his expeditionary forces refuse to yield. Recovered from Lieutenant Benedict's garrison at Tiragarde Keep, these tactical directives detail long-term maneuvers and fortifications designed to undermine the Horde. The orders prove that the Grand Admiral's offensive in Durotar was no hasty raid, but an organized campaign structured to endure long past his own demise. For the Horde, the recovered documents offer vital insight into Kul Tiras operations and potential reinforcements threatening their borders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Delivery to Grommash Hold",
+   "body": "Recognizing the strategic danger outlined in the plans, Horde scouts dispatch the recovered papers directly to Grommash Hold in Orgrimmar. Delivered to chieftain Vol'jin, who serves as counselor to Warchief Thrall, the orders confirm the Darkspear leader's persistent suspicion that human aggression remains an active peril. The intelligence urges the Horde leadership to prepare for further incursions along the coast.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Admiral Proudmoore's Orders?",
+   "aliases": [
+    "proudmoores orders",
+    "what are the orders",
+    "admirals orders item"
+   ],
+   "answer": "They are military directives drawn up by Grand Admiral Daelin Proudmoore before his fall at Theramore. They direct the remaining Kul Tiras soldiers in Durotar to fortify coastal footholds and wage war against the Horde."
+  },
+  {
+   "q": "Where were these orders recovered?",
+   "aliases": [
+    "where do i find the orders",
+    "orders location",
+    "who drops the orders"
+   ],
+   "answer": "The orders are secured in Durotar during the ongoing struggle against the Kul Tiras remnants stationed at Tiragarde Keep, near the southeastern coast."
+  },
+  {
+   "q": "Who needs to see these orders?",
+   "aliases": [
+    "who do i turn this into",
+    "who wants the orders",
+    "orders hand in"
+   ],
+   "answer": "They are brought to the Darkspear chieftain Vol'jin, who resides inside Grommash Hold in Orgrimmar's Valley of Wisdom alongside Warchief Thrall."
+  },
+  {
+   "q": "Why are Kul Tiras soldiers still fighting in Durotar?",
+   "aliases": [
+    "why are humans in durotar",
+    "why tiragarde keep hostile",
+    "daelin dead why fight"
+   ],
+   "answer": "Though Admiral Proudmoore fell in battle, his subordinates, such as Lieutenant Benedict, remained devoted to his mission to exterminate the orcs. The orders provided pre-planned strategies for the garrison to continue harassing Durotar even without the Grand Admiral's direct oversight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "These documents vindicate those in the Horde who argued human truces would never last, demonstrating that Kul Tiras forces intended to wage a war of extermination from the moment they made landfall."
+  },
+  {
+   "target": "race:Troll",
+   "text": "For the Darkspear trolls, these orders are handed straight to their chieftain, Vol'jin, confirming his long-held counsel to Thrall that human presence along the coast remains an immediate danger."
+  }
+ ],
+ "keywords": [
+  "benedict",
+  "durotar",
+  "kul tiras",
+  "orders",
+  "orgrimmar",
+  "proudmoore",
+  "tiragarde",
+  "vol'jin"
+ ],
+ "related": [
+  "quest:830",
+  "npc:vol-jin",
+  "zone:durotar",
+  "subzone:grommash-hold",
+  "zone:orgrimmar",
+  "npc:thrall",
+  "topic:horde",
+  "topic:human"
+ ],
+ "attribution": [
+  "Admiral Proudmoore's Orders",
+  "The Admiral's Orders (2)"
+ ]
+}

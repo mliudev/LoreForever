@@ -1,0 +1,90 @@
+{
+ "key": "item:shaw-s-report",
+ "type": "item",
+ "name": "Shaw's Report",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Shaw's Report",
+  "quests": [
+   "quest:141"
+  ]
+ },
+ "summary": "Shaw's Report is a confidential dispatch written by Master Mathias Shaw of SI:7 for Gryan Stoutmantle in Westfall. It outlines the intelligence agency's knowledge regarding the Stonemasons Guild, its leader Edwin VanCleef, and their grievance with the crown following the rebuilding of Stormwind.",
+ "sections": [
+  {
+   "title": "Intelligence on the Stonemasons",
+   "body": "Carried from the covert headquarters of SI:7 in Stormwind to Sentinel Hill, Shaw's Report provides the People's Militia with their first clear explanation of who commands the bandits ravaging Westfall. The document details how the Stonemasons Guild, under Edwin VanCleef, painstakingly rebuilt Stormwind City after its destruction in the First War. When the crown and nobility refused to compensate the masons fairly upon completion of the work, bitter resentment festered. Shaw's intelligence establishes the vital connection between the displaced, disgruntled craftsmen and the criminal uprising now seizing the kingdom's outer territories.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Shaw's Report?",
+   "aliases": [
+    "shaw report",
+    "what does shaw write",
+    "shaws report contents"
+   ],
+   "answer": "It is a sealed intelligence dossier compiled by Master Mathias Shaw, leader of Stormwind's covert SI:7 agency, addressed to Gryan Stoutmantle. It contains the crown's intelligence regarding the Stonemasons Guild and Edwin VanCleef's history."
+  },
+  {
+   "q": "What does the report reveal about Edwin VanCleef?",
+   "aliases": [
+    "vancleef in report",
+    "what does it say about vancleef"
+   ],
+   "answer": "It identifies VanCleef as the former head of the Stonemasons Guild who oversaw the reconstruction of Stormwind after the First War. It explains that VanCleef and his artisans revolted after being denied proper payment by the kingdom's rulers."
+  },
+  {
+   "q": "Why does Gryan Stoutmantle need this report?",
+   "aliases": [
+    "why send report to gryan",
+    "why stoutmantle needs report"
+   ],
+   "answer": "Stoutmantle leads the People's Militia in defending Westfall against coordinated bandit raids. Without regular kingdom troops to assist, he relies on Mathias Shaw's espionage to uncover who directs the outlaws and what their true motives are."
+  },
+  {
+   "q": "How does Stoutmantle react to the report?",
+   "aliases": [
+    "gryan reaction",
+    "stoutmantle reaction"
+   ],
+   "answer": "Stoutmantle is deeply unsettled. He recognizes Edwin VanCleef as an industrious and accomplished craftsman, finding it hard to believe that such a respected builder could descend into villainy without further concrete proof."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The report highlights the reach and methods of Master Mathias Shaw, the undisputed master of Stormwind's espionage network and the leader of SI:7."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The document exposes internal rot within Stormwind, detailing how an unpaid debt to the kingdom's architects birthed an insurrection threatening the realm's farmlands."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "edwin vancleef",
+  "gryan stoutmantle",
+  "mathias shaw",
+  "shaw's report",
+  "si:7",
+  "stonemasons guild",
+  "westfall"
+ ],
+ "related": [
+  "npc:mathias-shaw",
+  "npc:gryan-stoutmantle",
+  "npc:edwin-vancleef",
+  "quest:65",
+  "topic:stonemasons-guild",
+  "topic:defias-brotherhood",
+  "quest:2300",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Shaw's Report",
+  "The Defias Brotherhood (4)"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "item:unidentified-ore",
+ "type": "item",
+ "name": "Unidentified Ore",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Unidentified Ore",
+  "quests": [
+   "quest:1092"
+  ]
+ },
+ "summary": "Unidentified Ore is a peculiar mineral sample unearthed by Venture Company operations in the crags of the Stonetalon Mountains. Recovered by the disgruntled laborer Piznik, it was smuggled away to be analyzed by goblin tinker Ziz Fizziks and forwarded to engineers in Undermine.",
+ "sections": [
+  {
+   "title": "A Curious Strike in Windshear",
+   "body": "The Venture Company's relentless clear-cutting and strip mining in Windshear Crag tore deep into the crags of the Stonetalon Mountains, exposing unusual mineral strata. Among the debris, the goblin worker Piznik stumbled across a strange, unclassified specimen. Recognizing its potential value\u2014or at least its leverage\u2014Piznik held onto the sample while plotting his exit from the logging outfit. Handed off to a traveler bound for the western ridge of the crag, the sample made its way into the hands of Ziz Fizziks, who planned to ship the prize back to Undermine for study, keeping a pocket-sized cut for personal profit.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Unidentified Ore?",
+   "aliases": [
+    "what is this ore",
+    "unidentified ore lore",
+    "what rock is this"
+   ],
+   "answer": "It is an unclassified geological specimen dug up during Venture Company operations within Windshear Crag. Its exact composition is mysterious enough to attract the curiosity of tinker Ziz Fizziks and the mining engineers back in Undermine."
+  },
+  {
+   "q": "Who found the ore?",
+   "aliases": [
+    "who dug it up",
+    "who gives the ore",
+    "piznik ore"
+   ],
+   "answer": "Piznik, a Venture Company goblin stationed in Windshear Crag, salvaged the sample. Fearing retribution from company supervisors after recent mishaps, he used the rock as an opportunity to flee and secure new employment."
+  },
+  {
+   "q": "Who is trying to study this sample?",
+   "aliases": [
+    "who wants the ore",
+    "who analyzes it",
+    "ziz fizziks ore"
+   ],
+   "answer": "Ziz Fizziks, an enterprising goblin camped along the western edge of Windshear Crag, takes delivery of the mineral. He intends to pass the bulk of it along to engineers in Undermine while shaving off a small portion for himself."
+  },
+  {
+   "q": "Why does Undermine care about this stone?",
+   "aliases": [
+    "undermine interest",
+    "why do goblins want it"
+   ],
+   "answer": "Goblins are always scouting for new explosive, metallurgical, or combustible materials. A strange mineral unearthed in the ancient mountains of Kalimdor holds immense industrial and commercial potential for the trade cartels."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "Miners picking through Windshear Crag will find standard veins everywhere, but this peculiar mineral sample defies common trade knowledge, intriguing even Undermine's best appraisers."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Goblincraft relies on discovering raw compounds with unique reactive properties, making unclassified ores from untamed crags prime research material for innovative tinkers."
+  }
+ ],
+ "keywords": [
+  "piznik",
+  "stonetalon",
+  "undermine",
+  "unidentified ore",
+  "venture company",
+  "windshear crag",
+  "ziz fizziks"
+ ],
+ "related": [
+  "quest:1090",
+  "npc:piznik",
+  "quest:1483",
+  "subzone:windshear-crag",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Unidentified Ore",
+  "Gerenzo's Orders (2)"
+ ]
+}

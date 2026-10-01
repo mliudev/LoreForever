@@ -1,0 +1,107 @@
+{
+ "key": "item:powers-of-the-void",
+ "type": "item",
+ "name": "Powers of the Void",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Powers of the Void",
+  "quests": [
+   "quest:1598"
+  ]
+ },
+ "summary": "Powers of the Void is a rare magical tome originally kept in a restricted wing of Northshire Abbey's library. After an errant novice stole it while defecting to the Defias Brotherhood, the warlock mentor Drusilla La Salle seeks its recovery to further her own study of dark magic.",
+ "sections": [
+  {
+   "title": "A Restricted Northshire Text",
+   "body": "The Northshire Abbey archives hold far more than holy scripture and clerical records. Tucked away in a protected wing of the abbey's library was Powers of the Void, a scholarly work regarding shadow and nether energies, presumably penned by the archmage Khadgar. Given the dangerous nature of such research, abbey authorities kept the book heavily guarded and strictly off-limits to casual visitors. This kept it out of the hands of Northshire's local warlock mentor, Drusilla La Salle, who could not loiter near the restricted shelves without drawing unwanted suspicion from the priesthood.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defias Theft and Recovery",
+   "body": "The tome finally left the abbey's walls not by Drusilla's hand, but through betrayal from within. A novice studying at Northshire abandoned his vows to join the Defias Brotherhood, looting several valuable volumes as he fled into the neighboring vineyards. Taking advantage of the thief's opportunism, Drusilla sends promising warlock initiates directly into the Defias bandit camp to seize the tome from their tents. Retrieving the text serves a double purpose: it places dark knowledge into the trainer's grasp and tests whether a novice possess the nerve required to bind otherworldly demons.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Powers of the Void?",
+   "aliases": [
+    "what is powers of the void",
+    "powers of the void book",
+    "what is the stolen tome"
+   ],
+   "answer": "It is a rare occult book detailing dark energies and nether concepts, believed to have been penned by the archmage Khadgar. It was locked inside a restricted wing of Northshire Abbey before being stolen."
+  },
+  {
+   "q": "Why was the book locked up in Northshire Abbey?",
+   "aliases": [
+    "why was it in the abbey",
+    "why did the priests have it",
+    "northshire library wing"
+   ],
+   "answer": "Northshire Abbey preserves historic archives, including dangerous texts on illicit magics. Books detailing Void energies and demonology are held under lock and key to prevent novices and wayward practitioners from abusing them."
+  },
+  {
+   "q": "How did the Defias Brotherhood get the book?",
+   "aliases": [
+    "who stole the book",
+    "defias stolen books",
+    "how did defias get it"
+   ],
+   "answer": "An abbey novice defected to join the Defias Brotherhood and took several valuable volumes from Northshire's restricted library with him, hiding them in the bandit camp out in the Northshire vineyards."
+  },
+  {
+   "q": "Why does Drusilla La Salle want Powers of the Void?",
+   "aliases": [
+    "why does drusilla want it",
+    "who wants the book",
+    "drusilla la salle stolen tome"
+   ],
+   "answer": "Drusilla is Northshire's resident warlock trainer. She covets the tome's esoteric knowledge for her own dark craft, but could never enter the abbey's secure library archives without raising the alarm."
+  },
+  {
+   "q": "What does retrieving the tome prove to Drusilla?",
+   "aliases": [
+    "why do warlocks need the book",
+    "imp summoning test",
+    "stolen tome reward"
+   ],
+   "answer": "Securing the tome proves to Drusilla that an initiate has the cunning, strength, and resolve necessary to command demonic servants, earning them instruction in how to summon their first imp."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Retrieving this stolen grimoire serves as the foundational test for young human warlocks, demonstrating sufficient will to earn the secret of summoning an imp."
+  },
+  {
+   "target": "race:Human",
+   "text": "The tome's presence in Northshire reveals that the Holy Order preserves dangerous magical records alongside standard clerical texts, keeping them hidden from novice eyes."
+  }
+ ],
+ "keywords": [
+  "defias brotherhood",
+  "drusilla la salle",
+  "imp",
+  "khadgar",
+  "northshire abbey",
+  "powers of the void",
+  "stolen books",
+  "the stolen tome",
+  "warlock"
+ ],
+ "related": [
+  "quest:1598",
+  "npc:drusilla-la-salle",
+  "subzone:northshire-abbey",
+  "topic:warlock",
+  "topic:defias-brotherhood",
+  "zone:elwynn",
+  "quest:65"
+ ],
+ "attribution": [
+  "Powers of the Void",
+  "The Stolen Tome"
+ ]
+}

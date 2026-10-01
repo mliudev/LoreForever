@@ -1,0 +1,93 @@
+{
+ "key": "item:ghost-hair-thread",
+ "type": "item",
+ "name": "Ghost Hair Thread",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Ghost Hair Thread",
+  "quests": [
+   "quest:157"
+  ]
+ },
+ "summary": "Ghost Hair Thread is a rare, supernatural material spun by Madame Eva in Darkshire. Infused with potent occult properties, it is said to bind spiritual energies and even sew life into inanimate things. The hermit Abercrombie requests it under the pretense of warding his dilapidated shack against restless ghosts.",
+ "sections": [
+  {
+   "title": "Spun of the Spirit World",
+   "body": "Spun by the fortune teller Madame Eva in Darkshire, Ghost Hair Thread is far more than an ordinary tailoring supply. According to Eva, the spectral thread possesses versatile occult properties, ranging from binding malevolent spirits to stitching vitality into inanimate objects. Its ethereal nature makes it a valuable asset for rituals and wards in the cursed realm of Duskwood.",
+   "spoiler": 0
+  },
+  {
+   "title": "Abercrombie's Ward",
+   "body": "The reclusive hermit Abercrombie, dwelling in a ramshackle shack just north of Raven Hill Cemetery, asks travelers to retrieve the thread from Darkshire. He claims he desperately needs to string the strand across his windows and doorframe to keep the cemetery's wandering undead from breaching his home. Yet given the thread's strange ability to stitch life into unliving matter, its ultimate purpose remains an unsettling mystery.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Ghost Hair Thread?",
+   "aliases": [
+    "ghost hair",
+    "what is ghost hair thread",
+    "ghost thread"
+   ],
+   "answer": "It is an arcane crafting material spun by Madame Eva in Darkshire. It holds distinct occult properties capable of binding spirits or sewing life into inanimate things."
+  },
+  {
+   "q": "Why does Abercrombie want Ghost Hair Thread?",
+   "aliases": [
+    "abercrombie thread",
+    "why abercrombie wants thread",
+    "abercrombie ward"
+   ],
+   "answer": "Abercrombie claims he needs the thread to line his windows and doorway, creating a protective barrier to ward off the restless spirits wandering outside near Raven Hill Cemetery."
+  },
+  {
+   "q": "Who makes the thread?",
+   "aliases": [
+    "who spins ghost hair thread",
+    "madame eva thread"
+   ],
+   "answer": "Madame Eva, the resident diviner and fortune teller of Darkshire, crafts and provides the thread upon request."
+  },
+  {
+   "q": "Can players use the thread for tailoring?",
+   "aliases": [
+    "tailoring ghost hair thread",
+    "can i craft with ghost hair thread"
+   ],
+   "answer": "No. Despite its name and magical traits, it is a specialized quest item intended strictly for delivery to Abercrombie and cannot be used in standard crafting recipes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "While regular clothiers work with wool, silk, and mageweave, Madame Eva's ghostly thread demonstrates that fabric can be spun directly from supernatural essences to hold enchantments."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The thread's capability to bind spiritual entities and imbue inanimate matter with life mirrors the dark arts of soul manipulation and construct binding."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "darkshire",
+  "duskwood",
+  "ghost hair thread",
+  "madame eva",
+  "raven hill",
+  "spirits"
+ ],
+ "related": [
+  "npc:abercrombie",
+  "npc:madame-eva",
+  "quest:157",
+  "quest:149",
+  "subzone:raven-hill-cemetery",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Ghost Hair Thread",
+  "Deliver the Thread (Classic)"
+ ]
+}

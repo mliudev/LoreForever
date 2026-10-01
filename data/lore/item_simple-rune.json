@@ -1,0 +1,82 @@
+{
+ "key": "item:simple-rune",
+ "type": "item",
+ "name": "Simple Rune",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Simple Rune",
+  "quests": [
+   "quest:3106"
+  ]
+ },
+ "summary": "A Simple Rune is an inscribed stone token passed to fledgling dwarven and gnomish warriors training in Coldridge Valley. It serves as a summons from the warrior trainer Thran Khorman, directing recruits to seek instruction inside Anvilmar.",
+ "sections": [
+  {
+   "title": "A Summons to Arms",
+   "body": "Carved with basic martial marks, the Simple Rune is handed to promising recruits who have begun clearing out the threats around Coldridge Valley. Rather than a magical charm, it acts as a formal calling stone from Thran Khorman, the resident warrior trainer at Anvilmar. Upon reading its inscribed guidance, a young fighter is expected to report directly to Thran to learn basic combat techniques and hear practical advice on surviving Dun Morogh's hostile wilds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Simple Rune?",
+   "aliases": [
+    "simple rune use",
+    "what does rune do",
+    "simple rune quest item"
+   ],
+   "answer": "The Simple Rune is an instructional tablet given to novitiate warriors in Coldridge Valley. Reading it directs the recruit to present themselves to Thran Khorman inside Anvilmar for formal training."
+  },
+  {
+   "q": "Who sends the Simple Rune?",
+   "aliases": [
+    "who wrote rune",
+    "who gave me simple rune",
+    "sender of rune"
+   ],
+   "answer": "It is sent by Thran Khorman, the dwarf warrior trainer stationed inside Anvilmar, who watches for promising fighters assisting around the valley."
+  },
+  {
+   "q": "Where do I take the Simple Rune?",
+   "aliases": [
+    "where do i go",
+    "rune turn in",
+    "thran khorman location"
+   ],
+   "answer": "Take it to Thran Khorman inside the great forge hall of Anvilmar, located in central Coldridge Valley."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "For dwarven and gnomish warriors, this inscribed stone marks the first step into formal military training under veteran instructor Thran Khorman."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarves traditionally rely on sturdy inscribed runes for orders, reminders, and martial summons rather than fragile parchment."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "dwarf rune",
+  "simple rune",
+  "thran khorman",
+  "warrior training"
+ ],
+ "related": [
+  "quest:3106",
+  "npc:thran-khorman",
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "zone:dunmorogh",
+  "topic:warrior",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Simple Rune",
+  "Simple Rune (Classic)"
+ ]
+}

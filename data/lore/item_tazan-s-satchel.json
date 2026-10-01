@@ -1,0 +1,100 @@
+{
+ "key": "item:tazan-s-satchel",
+ "type": "item",
+ "name": "Tazan's Satchel",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Tazan's Satchel",
+  "quests": [
+   "quest:1963",
+   "quest:1858"
+  ]
+ },
+ "summary": "Tazan's Satchel is a locked pouch carried by the troll Tazan, who operates alongside pirates near Ratchet. It holds secret information coveted by the Shattered Hand, the covert guild of rogues based beneath Orgrimmar.",
+ "sections": [
+  {
+   "title": "Secrets of the Barrens",
+   "body": "Within the sun-baked wastes of the Barrens, a troll named Tazan carries on illicit dealings with the pirates encamped along the coast near Ratchet. These under-the-table arrangements drew the keen eyes of Therzok, a guild master of the Shattered Hand situated in the subterranean gloom of the Cleft of Shadow. Seeking to build covert power away from Warchief Thrall's cautious diplomacy, the Shattered Hand marked Tazan for elimination to seize the valuable intelligence bound within his satchel.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Complex Lock",
+   "body": "Recovering the satchel is only half the trial for an aspiring rogue. Secured with an intricate locking mechanism, the satchel cannot easily be forced open in the field. Tazan entrusted the key to his associate Gamon, a drunken tavern fixture in Orgrimmar. Aspiring initiates must put their sleight of hand to the test, lifting the key directly from Gamon's pockets without raising an alarm to finally uncover Tazan's logbook.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who does this satchel belong to?",
+   "aliases": [
+    "who is tazan",
+    "tazan owner",
+    "satchel owner"
+   ],
+   "answer": "The satchel belongs to Tazan, a troll operating in the Barrens who conducts secretive business with the pirates near Ratchet."
+  },
+  {
+   "q": "Why does the Shattered Hand want Tazan's Satchel?",
+   "aliases": [
+    "why does therzok want this",
+    "shattered hand satchel",
+    "why steal the satchel"
+   ],
+   "answer": "Therzok and the Shattered Hand seek to expand their intelligence network and reclaim martial pride from the shadows. Tazan's dealings with coastal pirates hold valuable information that the rogues wish to exploit."
+  },
+  {
+   "q": "Where is the key to open the satchel?",
+   "aliases": [
+    "how to open satchel",
+    "tazan key",
+    "where is the key"
+   ],
+   "answer": "Tazan did not carry the key on his person; instead, he left it in the keeping of his associate, a drunken patron named Gamon found in an Orgrimmar tavern."
+  },
+  {
+   "q": "What is inside Tazan's Satchel?",
+   "aliases": [
+    "satchel contents",
+    "what is in the bag",
+    "tazan logbook"
+   ],
+   "answer": "Inside the locked satchel rests Tazan's logbook, detailing his clandestine trades and associations with the coastal buccaneers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Procuring the satchel and liberating its key from Gamon is a definitive rite of passage for Horde rogues earning their place within the Shattered Hand."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The pursuit of the satchel highlights the tension within Orgrimmar, where the Shattered Hand seeks covert advantage while Warchief Thrall pursues a more measured course."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "cleft of shadow",
+  "gamon",
+  "ratchet",
+  "shattered hand",
+  "tazan",
+  "tazan's satchel",
+  "therzok"
+ ],
+ "related": [
+  "quest:1858",
+  "quest:1859",
+  "subzone:cleft-of-shadow",
+  "zone:barrens",
+  "zone:orgrimmar",
+  "topic:rogue",
+  "subzone:ratchet",
+  "topic:pirate"
+ ],
+ "attribution": [
+  "Tazan's Satchel",
+  "The Shattered Hand (Classic)",
+  "The Shattered Hand (2)"
+ ]
+}

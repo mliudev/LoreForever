@@ -1,0 +1,89 @@
+{
+ "key": "item:crocolisk-skin-classic",
+ "type": "item",
+ "name": "Crocolisk Skin (Classic)",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Crocolisk Skin (Classic)",
+  "quests": [
+   "quest:385"
+  ]
+ },
+ "summary": "Crocolisk skins are harvested from the tough hides of the crocolisks inhabiting the islands and waters of the Loch in Loch Modan. Prized by merchants and leatherworkers for their durability, they fetch a respectable price despite the danger involved in securing them.",
+ "sections": [
+  {
+   "title": "A Dangerous Trade",
+   "body": "The cold waters of the Loch teem with aggressive crocolisks that make their dens along the lake's islands and shores. Hunting them is no simple task, as these ferocious beasts possess razor-sharp teeth and thick, resilient scales capable of turning away careless blades. Despite the hazards, hunters operating out of Farstrider Lodge frequently harvest the creatures. Tailors, leatherworkers, and distant merchants continually seek out the skins to craft durable garments and protective armor, making a bundle of undamaged hides a valuable trade commodity in the region.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do crocolisk skins come from?",
+   "aliases": [
+    "where to get croc skins",
+    "loch croc skin source",
+    "who drops crocolisk skin"
+   ],
+   "answer": "They are gathered from the Loch Crocolisks and Large Loch Crocolisks that inhabit the waters and islands of the Loch in Loch Modan."
+  },
+  {
+   "q": "Who buys or trades these hides in Loch Modan?",
+   "aliases": [
+    "who wants croc skins",
+    "farstrider lodge croc skins",
+    "marek ironheart skins"
+   ],
+   "answer": "Marek Ironheart, an experienced dwarven hunter stationed at the Farstrider Lodge, collects them alongside crocolisk meat to sell to visiting merchants and craftsmen."
+  },
+  {
+   "q": "Why are these skins in demand?",
+   "aliases": [
+    "what are croc skins used for",
+    "crocolisk leather use",
+    "why hunt crocs"
+   ],
+   "answer": "Merchants prize the tough, scaly hides for crafting sturdy clothing and armor. Because the beasts are fierce and hard to kill, good-quality skins command a reliable payout."
+  },
+  {
+   "q": "Is hunting crocolisks in the Loch considered dangerous?",
+   "aliases": [
+    "are loch crocs dangerous",
+    "crocolisk hunting danger"
+   ],
+   "answer": "Yes. The crocolisks are notoriously aggressive, possessing powerful jaws and serrated teeth capable of severing limbs. Local hunters like Marek Ironheart often trade tales of near-fatal encounters while trying to pin down their quarry."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Farstrider Lodge respects any tracker willing to wade out to the islands and wrestle a thrashing crocolisk into submission for its hide."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Loch Modan's famous crocs are a well-known local test of grit among mountaineers and lodge woodsmen alike."
+  }
+ ],
+ "keywords": [
+  "crocolisk hunting",
+  "crocolisk skin",
+  "farstrider lodge",
+  "loch crocolisk",
+  "loch modan",
+  "marek ironheart",
+  "the loch"
+ ],
+ "related": [
+  "quest:385",
+  "npc:marek-ironheart",
+  "subzone:farstrider-lodge",
+  "subzone:the-loch",
+  "zone:lochmodan",
+  "topic:hunter"
+ ],
+ "attribution": [
+  "Crocolisk Skin (Classic)",
+  "Crocolisk Hunting"
+ ]
+}

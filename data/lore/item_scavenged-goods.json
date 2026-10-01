@@ -1,0 +1,73 @@
+{
+ "key": "item:scavenged-goods",
+ "type": "item",
+ "name": "Scavenged Goods",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Scavenged Goods",
+  "quests": [
+   "quest:3902"
+  ]
+ },
+ "summary": "Scavenged Goods are miscellaneous pieces of discarded gear and supplies packed into equipment boxes around Deathknell. Newly risen Forsaken recover them to ensure the endless stream of fresh recruits can be armed and clothed.",
+ "sections": [
+  {
+   "title": "Fending for Themselves",
+   "body": "When new Forsaken pull themselves out of the earth in Deathknell's graveyard, they awaken with little more than rotting burial shrouds. Surrounding settlements and kingdoms offer no aid to the undead, leaving them entirely dependent on what they can salvage. Deathguard Saltain coordinates the collection of discarded weapons, tools, and garments cached in supply crates across the village, distributing them directly to the next batch of risen recruits.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are scavenged goods used for?",
+   "aliases": [
+    "scavenged goods purpose",
+    "why collect scavenged goods",
+    "what does saltain do with scavenged goods"
+   ],
+   "answer": "Deathguard Saltain collects them to outfit fresh Forsaken recruits rising from the cemetery. Without salvaging remnants from nearby crates, newly risen undead would have to stumble out into Tirisfal Glades completely unarmed and unclad."
+  },
+  {
+   "q": "Where are these goods found?",
+   "aliases": [
+    "where to find scavenged goods",
+    "scavenged goods location",
+    "where are equipment boxes"
+   ],
+   "answer": "They are recovered from equipment boxes resting outside cottages and around ruined buildings across Deathknell."
+  },
+  {
+   "q": "Who asks for the scavenged goods?",
+   "aliases": [
+    "who wants scavenged goods",
+    "deathguard saltain quest"
+   ],
+   "answer": "Deathguard Saltain, an officer stationed in Deathknell, directs newly awakened Forsaken to round up these provisions to teach them self-reliance and prepare for incoming cohorts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, scavenging discarded equipment is a necessity of survival, cementing the harsh truth that the living will grant them no aid or mercy."
+  }
+ ],
+ "keywords": [
+  "deathguard saltain",
+  "deathknell",
+  "equipment boxes",
+  "forsaken supplies",
+  "scavenged goods",
+  "scavenging deathknell"
+ ],
+ "related": [
+  "quest:3902",
+  "subzone:deathknell",
+  "topic:forsaken",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Scavenged Goods",
+  "Scavenging Deathknell"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "key": "item:tear-of-the-moons",
+ "type": "item",
+ "name": "Tear of the Moons",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Tear of the Moons",
+  "quests": [
+   "quest:857"
+  ]
+ },
+ "summary": "The Tear of the Moons is a mysterious, radiant crystal unearthed by dwarven excavators at Bael Modan in the southern Barrens. Though prized by the dwarven expedition, it carries a volatile and corruptive power that led directly to obsession, exile, and bloodshed.",
+ "sections": [
+  {
+   "title": "A Unearthed Relic",
+   "body": "Discovered during the initial excavations of Bael Modan, the crystal was celebrated as the dig site's first major triumph. Its strange radiance captivated the miners, but none more intensely than Feegly. Claiming the relic gifted him profound strength, Feegly fell under its sway. Fearing the artifact's dark influence\u2014and alarmed by Feegly's increasingly unstable behavior toward his comrades\u2014expedition commander General Twinbraid declared the stone cursed. Twinbraid confiscated the relic, sealed it securely inside his personal strongbox within Bael'dun Keep, and cast Feegly out into the Barrens wasteland.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of Obsession",
+   "body": "Unable to overcome his craving for the crystal's power, the exiled Feegly turns to passing Horde travelers to breach the dwarven fortress and reclaim it from Twinbraid's vault. However, the artifact's true nature proves catastrophic. Upon being touched and rubbed, the Tear emits an unnatural sound and unleashes a mutating surge of subterranean magic, instantly reshaping Feegly into a deformed trogg. Slipped from twisted fingers, the crystal shatters upon the stone, destroying both the relic and the maddened dwarf.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where did the Tear of the Moons come from?",
+   "aliases": [
+    "tear origin",
+    "where was the tear found",
+    "tear of the moons background"
+   ],
+   "answer": "The crystal was unearthed by the dwarven Prospectors and excavators at the archaeological dig site of Bael Modan, situated in the southern reaches of the Barrens."
+  },
+  {
+   "q": "Why was the crystal locked inside Bael'dun Keep?",
+   "aliases": [
+    "why locked up",
+    "twinbraid strongbox tear",
+    "why did twinbraid take it"
+   ],
+   "answer": "General Twinbraid recognized the artifact as cursed after Feegly began obsessing over it and turning against his fellow miners. To protect the expedition, Twinbraid locked it away inside his strongbox."
+  },
+  {
+   "q": "What happens when Feegly gets the Tear back?",
+   "aliases": [
+    "feegly turning trogg",
+    "what happens to feegly",
+    "trogg transformation feegly"
+   ],
+   "answer": "When Feegly rubs the retrieved crystal, it hums with bizarre noises and warps his body into a trogg. The shock causes him to drop the artifact, which shatters into pieces on the ground as he perishes."
+  },
+  {
+   "q": "Can the Tear of the Moons be saved or repaired?",
+   "aliases": [
+    "can you keep the tear",
+    "shattered tear",
+    "repair tear of the moons"
+   ],
+   "answer": "No. Once Feegly handles it, the artifact violently expends its strange magic and shatters on impact with the ground, leaving behind no usable remnants."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The tragic fate of Feegly serves as a grim warning of the subterranean horrors and mutating curses the Explorer's League risks waking deep beneath Kalimdor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Infiltrating Bael'dun Keep to recover the relic strikes a disruptive blow against the Ironforge military presence encroaching on ancestral tauren lands."
+  }
+ ],
+ "keywords": [
+  "bael modan",
+  "bael'dun keep",
+  "barrens",
+  "excavation",
+  "feegly",
+  "tear of the moons",
+  "trogg",
+  "twinbraid"
+ ],
+ "related": [
+  "quest:857",
+  "npc:feegly-the-exiled",
+  "subzone:bael-dun-keep",
+  "subzone:bael-modan",
+  "topic:trogg",
+  "zone:barrens",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Tear of the Moons",
+  "The Tear of the Moons"
+ ]
+}

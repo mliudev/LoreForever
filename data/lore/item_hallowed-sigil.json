@@ -1,0 +1,80 @@
+{
+ "key": "item:hallowed-sigil",
+ "type": "item",
+ "name": "Hallowed Sigil",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Hallowed Sigil",
+  "quests": [
+   "quest:3119"
+  ]
+ },
+ "summary": "The Hallowed Sigil is an inscribed night elf token carried by young initiates within Shadowglen. Sent by the priest trainer Shanda, it serves as a formal summons directing prospective servants of Elune to the ancient boughs of Aldrassil.",
+ "sections": [
+  {
+   "title": "A Summons to the Priesthood",
+   "body": "Novice night elf priests stepping into the sacred canopy of Shadowglen often receive the Hallowed Sigil from a woodland messenger. Engraved with holy markings, the token acts as a personal writ from Shanda, the resident priest trainer at Aldrassil. Carrying and reading the sigil directs an acolyte upward to the towering hollow of Aldrassil, formally introducing them to the Sisterhood of Elune and initiating their spiritual service to the Kaldorei as new travelers arrive across Teldrassil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Hallowed Sigil?",
+   "aliases": [
+    "what is hallowed sigil",
+    "priest sigil shadowglen"
+   ],
+   "answer": "The Hallowed Sigil is an inscribed holy token given to young night elf priests in Shadowglen. It carries a summons instructing the initiate to seek out their mentor, Shanda."
+  },
+  {
+   "q": "Who sends the Hallowed Sigil?",
+   "aliases": [
+    "who sent this sigil",
+    "shanda priest token"
+   ],
+   "answer": "It is dispatched via a local messenger on behalf of Shanda, the priest trainer stationed inside the great hollow tree of Aldrassil."
+  },
+  {
+   "q": "Where should I take the sigil?",
+   "aliases": [
+    "where do i bring hallowed sigil",
+    "hallowed sigil turn in"
+   ],
+   "answer": "Take the sigil to Shanda inside Aldrassil, situated at the heart of Shadowglen in Teldrassil. After reading it, presenting the token to her completes your initial introduction to your priesthood mentors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "For night elf priests, the Hallowed Sigil represents their very first summons into formal training under the Sisterhood of Elune."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The sigil marks the start of a Kaldorei devotee's service at a time when Alliance travelers have only just begun arriving upon the boughs of Teldrassil."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "hallowed sigil",
+  "initiate",
+  "kaldorei",
+  "priest",
+  "shadowglen",
+  "shanda",
+  "teldrassil"
+ ],
+ "related": [
+  "quest:3119",
+  "npc:shanda",
+  "subzone:aldrassil",
+  "subzone:shadowglen",
+  "topic:priest",
+  "zone:teldrassil",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Hallowed Sigil",
+  "Hallowed Sigil (Classic)"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "item:timberling-sprout",
+ "type": "item",
+ "name": "Timberling Sprout",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Timberling Sprout",
+  "quests": [
+   "quest:919"
+  ]
+ },
+ "summary": "Timberling Sprouts are young, nascent plant elementals taking root near the shores of Lake Al'Ameth in Teldrassil. Even in their earliest growth, these sprouts show signs of corruption, prompting night elf wardens to pull them before they mature into aggressive timberlings.",
+ "sections": [
+  {
+   "title": "Blighted Seedlings",
+   "body": "Timberlings are plant spirits closely tied to the natural vitality of Teldrassil, but the seedlings sprouting along Lake Al'Ameth have worried the local night elves. Rather than emerging healthy and in harmony with the wild, they sprout already tainted and aggressive. Because these infant sprouts appear beyond cleansing or natural healing, caretakers in Shadowglen must gather and destroy them to prevent an uncontrolled spread of hostile timberlings across the fragile boughs of the newly planted World Tree.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are Timberling Sprouts found?",
+   "aliases": [
+    "sprout location",
+    "where are timberling sprouts",
+    "find sprouts"
+   ],
+   "answer": "Timberling Sprouts grow close to the water's edge along the shores of Lake Al'Ameth, just south of Aldrassil in Shadowglen."
+  },
+  {
+   "q": "Why are night elves pulling Timberling Sprouts from the ground?",
+   "aliases": [
+    "why kill sprouts",
+    "timberling sprout purpose",
+    "why destroy sprouts"
+   ],
+   "answer": "The sprouts are sprouting tainted from the very beginning. Left unchecked, they grow into violent timberlings that threaten the safety and balance of Teldrassil. Because they are considered beyond help, the caretakers remove them while they are still small."
+  },
+  {
+   "q": "What is causing the sprouts to become tainted?",
+   "aliases": [
+    "why are timberlings corrupted",
+    "what is tainting them",
+    "sprout sickness"
+   ],
+   "answer": "A mysterious sickness has begun affecting the wildlife and plant elementals of Teldrassil. While the exact source of the taint is still an unsolved riddle to caretakers in Shadowglen, it influences young timberlings from the moment they take root."
+  },
+  {
+   "q": "Who asks for Timberling Sprouts to be collected?",
+   "aliases": [
+    "who wants sprouts",
+    "sprout questgiver",
+    "timberling sprouts turn in"
+   ],
+   "answer": "Caretakers watching over Shadowglen and Lake Al'Ameth request adventurers to collect and clear the sprouts from the lakeside to keep the land pure."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids attuned to the plant life and elementals of Kalimdor, seeing natural woodland spirits sprout pre-corrupted from the soil is a grim omen for Teldrassil's future."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Young night elves beginning their training in Shadowglen are tasked with clearing these sprouts to safeguard their new woodland home."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "corruption",
+  "lake al'ameth",
+  "shadowglen",
+  "teldrassil",
+  "timberling",
+  "timberling sprout"
+ ],
+ "related": [
+  "quest:919",
+  "subzone:lake-al-ameth",
+  "zone:teldrassil",
+  "quest:940"
+ ],
+ "attribution": [
+  "Timberling Sprout",
+  "Timberling Sprouts"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "key": "item:moonpetal-lily",
+ "type": "item",
+ "name": "Moonpetal Lily",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Moonpetal Lily",
+  "quests": [
+   "quest:3521"
+  ]
+ },
+ "summary": "Moonpetal Lilies are large, luminous flora native to Teldrassil that flourish around freshwater pools. Renowned for their potent restorative qualities, their petals are prized as key ingredients in natural remedies and healing draughts.",
+ "sections": [
+  {
+   "title": "Flora of the Pools",
+   "body": "Moonpetal Lilies grow exclusively along the moist banks of freshwater pools and ponds, particularly favored along the northwestern side of Aldrassil in Shadowglen. Like much of the plant life flourishing atop the newly grown World Tree, they absorb the unique essence of Teldrassil's sheltered groves. Their broad petals are gentle and radiant, easily spotted hugging the tranquil water's edge where natural moisture allows them to thrive.",
+   "spoiler": 0
+  },
+  {
+   "title": "Natural Antidotes",
+   "body": "Night elf healers and herbalists value the Moonpetal Lily for its extraordinary healing properties. When combined with other forest flora, such as Hyacinth Mushrooms, the lily acts as a powerful soothing and stabilizing agent. This restorative quality makes it an essential component when brewing antidotes to counteract lethal toxins, notably the virulent venom produced by the Webwood spiders lurking within Shadowthread Cave.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Moonpetal Lilies grow?",
+   "aliases": [
+    "where to find moonpetal lilies",
+    "moonpetal lily location",
+    "lily spots"
+   ],
+   "answer": "They grow along the banks of the two freshwater ponds situated on the northwestern side of Aldrassil within Shadowglen on Teldrassil."
+  },
+  {
+   "q": "What are Moonpetal Lilies used for?",
+   "aliases": [
+    "moonpetal lily uses",
+    "what does moonpetal lily do"
+   ],
+   "answer": "The lilies possess notable restorative and healing properties. In Shadowglen, Dirania Silvershine uses them alongside Hyacinth Mushrooms and Webwood Ichor to brew a potent antidote for spider venom."
+  },
+  {
+   "q": "Who needs an antidote made from these lilies?",
+   "aliases": [
+    "who is the antidote for",
+    "iverron poison"
+   ],
+   "answer": "A night elf named Iverron, who fell victim to the poisonous bite of the Webwood spiders near Shadowthread Cave, requires an antidote concocted from Moonpetal Lilies to survive."
+  },
+  {
+   "q": "Can Moonpetal Lilies be gathered outside of Teldrassil?",
+   "aliases": [
+    "do lilies grow elsewhere",
+    "moonpetal lily other zones"
+   ],
+   "answer": "They are tied directly to the secluded pools of Teldrassil and are known locally within the sheltered boughs of Shadowglen."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Though collected directly by hand during urgent crises, Moonpetal Lilies serve as a clear demonstration of Teldrassil's rich, restorative botanical potential."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For young kaldorei training in Shadowglen, learning the restorative properties of native plants like the Moonpetal Lily is a vital early lesson in living harmoniously with nature."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "antidote",
+  "dirania silvershine",
+  "iverron",
+  "moonpetal",
+  "moonpetal lily",
+  "shadowglen",
+  "teldrassil"
+ ],
+ "related": [
+  "quest:3521",
+  "item:hyacinth-mushroom",
+  "item:webwood-ichor",
+  "npc:iverron",
+  "subzone:aldrassil",
+  "subzone:shadowglen",
+  "subzone:shadowthread-cave",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Moonpetal Lily",
+  "Iverron's Antidote (Classic)"
+ ]
+}

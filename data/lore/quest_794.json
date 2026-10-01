@@ -1,0 +1,134 @@
+{
+ "key": "quest:794",
+ "type": "quest",
+ "name": "Burning Blade Medallion",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   794
+  ],
+  "level": "5",
+  "faction": "Horde",
+  "start": "Zureetha Fargaze",
+  "end": "",
+  "previous": "Vile Familiars (Classic) / Vile Familiars (Warlock 2)",
+  "next": "Report to Sen'jin Village (Classic)",
+  "wiki": "Burning Blade Medallion (Classic)",
+  "chain": []
+ },
+ "summary": "Assigned by the shaman Zureetha Fargaze, this task sends young Horde initiates deep into the Burning Blade Coven cave in the Valley of Trials. There, players must confront a hidden cultist and recover an artifact of dark magic known as the Burning Blade Medallion. The mission reveals that demonic corruption is actively taking root right under the Horde's nose.",
+ "sections": [
+  {
+   "title": "A Hidden Threat in the Valley",
+   "body": "While young orcs and trolls undergo basic trials of combat and survival in the Valley of Trials, an insidious menace lurks in the shadows. Through her spiritual divinations, the shaman Zureetha Fargaze senses that the vile familiars infesting the northern bluffs are merely the vanguard of a darker presence. Deep within a nearby cavern, the Burning Blade cult has established a hidden coven, practicing dark arts and harboring dangerous relics of demonic power.",
+   "spoiler": 0
+  },
+  {
+   "title": "Confronting Yarrog Baneshadow",
+   "body": "The medallion itself is held in the clutches of Yarrog Baneshadow, an orc warlock acting as an agent of the Burning Blade. Tucked away on an elevated ledge deep within the subterranean den, Yarrog commands fel beasts and dark magic away from the watchful eyes of the Valley's overseers. Striking him down and seizing the medallion disrupts the cult's local leadership before their rituals can expand further into the heart of Durotar.",
+   "spoiler": 1
+  },
+  {
+   "title": "The Lingering Shadow",
+   "body": "Securing the talisman confirms Zureetha Fargaze's worst fears. While the coven in the Valley of Trials has been dismantled, the medallion is proof that the Burning Blade operates with organization and intent. The cult's reach extends well beyond the initiation grounds, signaling that the nascent Horde will face far broader demonic conspiracies across Durotar.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find the Burning Blade Coven?",
+   "aliases": [
+    "coven cave location",
+    "where is the cave",
+    "burning blade cave valley of trials"
+   ],
+   "answer": "The Burning Blade Coven is located inside a cave tucked into the bluffs to the north and west of The Den in the Valley of Trials, surrounded by imp-like vile familiars."
+  },
+  {
+   "q": "Who is carrying the Burning Blade Medallion?",
+   "aliases": [
+    "who drops the medallion",
+    "yarrog baneshadow",
+    "medallion mob"
+   ],
+   "answer": "The medallion is carried by Yarrog Baneshadow, a rogue orc cultist found deep within the cavern, positioned on an elevated rock ledge beyond a shallow pool of water."
+  },
+  {
+   "q": "What is the Burning Blade?",
+   "aliases": [
+    "who are burning blade",
+    "burning blade cult",
+    "what is burning blade"
+   ],
+   "answer": "The Burning Blade is a treacherous cult of fel-corrupted orcs and warlocks devoted to demonic powers, actively scheming against Thrall's new Horde from hidden dens and encampments."
+  },
+  {
+   "q": "Why is the medallion so important to Zureetha Fargaze?",
+   "aliases": [
+    "why does zureetha want it",
+    "what is the medallion",
+    "zureetha fargaze medallion"
+   ],
+   "answer": "Zureetha scried the medallion through her divinations. It serves as an item of power that fuels the cult's dark rituals and provides undeniable proof that demonic agents are infiltrating the Valley of Trials."
+  },
+  {
+   "q": "Does defeating Yarrog finish off the cult in Durotar?",
+   "aliases": [
+    "is the burning blade destroyed",
+    "are they gone",
+    "after burning blade medallion"
+   ],
+   "answer": "No. While Yarrog's demise cleanses the cave in the Valley of Trials, Zureetha warns that this coven is only a small cell and that the Burning Blade has much larger ambitions across Durotar."
+  },
+  {
+   "q": "What happens after turning in the medallion?",
+   "aliases": [
+    "next quest",
+    "what comes next",
+    "after this quest"
+   ],
+   "answer": "Having proven your worth by slaying Yarrog and recovering the relic, you are deemed ready to leave the Valley of Trials and directed to report to Sen'jin Village on Durotar's southern coast."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Recovering the tainted relic aids Zureetha Fargaze in using the spirits and elemental sight to expose demonic corruption that defiles the earth of Durotar."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Hunting down Yarrog Baneshadow highlights the internal struggle of the new Horde to purge the lingering demonic taint of the old ways right in their training grounds."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Confronting Yarrog serves as a stark reminder of the perils of rogue demonic worship outside the sanctioned, carefully hidden pacts forged under Thrall's rule."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The mission represents the final trial for young recruits, marking their readiness to venture into the broader wilds of Durotar to defend the young nation."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "coven",
+  "durotar",
+  "medallion",
+  "the den",
+  "valley of trials",
+  "warlock",
+  "yarrog baneshadow",
+  "zureetha fargaze"
+ ],
+ "related": [
+  "npc:zureetha-fargaze",
+  "subzone:burning-blade-coven",
+  "quest:792",
+  "subzone:valley-of-trials",
+  "quest:1089",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Burning Blade Medallion (Classic)"
+ ]
+}

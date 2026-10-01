@@ -1,0 +1,96 @@
+{
+ "key": "item:robotron-control-unit",
+ "type": "item",
+ "name": "Robotron Control Unit",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Robotron Control Unit",
+  "quests": [
+   "quest:9433"
+  ]
+ },
+ "summary": "The Robotron Control Unit is a portable goblin device provided by Wizlo Bearingshiner at Whitereach Post. It is designed to interface with a hidden command relay on the canyon rim to pilot a Robotron 3000 automaton. Horde operatives use it to covertly infiltrate the night elf outpost of Thalanaar and retrieve sacred moonwell water without triggering open battle.",
+ "sections": [
+  {
+   "title": "A Delicate Pilfering",
+   "body": "Tasked with obtaining pure water from the moonwell within the Alliance outpost of Thalanaar, Wizlo Bearingshiner was unwilling to send Horde couriers walking directly into the sentries' sights. Instead, the goblin technician turned to unauthorized cargo. Having unboxed a Robotron 3000 unit intended for delivery to a client, Wizlo modified a handheld remote\u2014the Robotron Control Unit\u2014to pair with a concealed transmitter hidden on the mesa rim overlooking the outpost. Operating through this link allows an operator to remotely guide the mechanical unit across the canyon boundary, scuttle directly into the sanctified moonwell, and dip a sampling flask safely out of harm's reach.",
+   "spoiler": 0
+  },
+  {
+   "title": "Goblin Reliability",
+   "body": "Typical of goblin craftsmanship, operating the unit is tricky and fraught with loose technical boundaries. The control unit requires close proximity to Wizlo's concealed terminal to maintain its connection to the automaton. Furthermore, the robot itself is extremely sensitive to foreign control frequencies and pet summons, making handling an exercise in patience. Once the mission is completed, Wizlo's greatest urgency is not political backlash from the night elves, but rather meticulously cleaning canyon dust off the automaton so he can reseal it in factory packaging before his paying customer notices.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Robotron Control Unit used for?",
+   "aliases": [
+    "what does robotron control unit do",
+    "how to use robotron controller",
+    "robotron unit purpose"
+   ],
+   "answer": "It is a remote controller used by the Horde near the rim above Thalanaar. By activating it beside a hidden console, an operative takes direct manual control of a Robotron 3000 to scuttle into the night elf base and siphon water from their moonwell."
+  },
+  {
+   "q": "Who crafted this control unit?",
+   "aliases": [
+    "who made the robotron controller",
+    "wizlo bearingshiner invention",
+    "where did the robot come from"
+   ],
+   "answer": "Wizlo Bearingshiner, a goblin tinker stationed at Whitereach Post in Thousand Needles, adapted it. The automaton and console belong to cargo Wizlo was supposed to deliver to a client, which he secretly unpacked for espionage."
+  },
+  {
+   "q": "Why use a robot instead of walking into Thalanaar?",
+   "aliases": [
+    "why use robotron",
+    "why sneak into thalanaar",
+    "why steal moonwell water"
+   ],
+   "answer": "Thalanaar is a fortified Alliance settlement guarded by hostile night elf sentries. Walking into the camp directly with a vial would guarantee an armed clash, making a small remote-operated mechanical scout the safer alternative for obtaining the sample."
+  },
+  {
+   "q": "Where must the controller be used?",
+   "aliases": [
+    "where do i use robotron control unit",
+    "concealed command console location",
+    "how to pilot robotron"
+   ],
+   "answer": "It must be deployed on the mesa rim directly opposite Thalanaar, adjacent to a small command console that Wizlo concealed within the brush. Operating it anywhere else will fail to establish a link to the robot."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The controller demonstrates goblin pragmatism: hastily repurposing customer freight and rigging remote frequencies rather than manufacturing an infiltration rig from scratch."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde forces at Whitereach Post, the remote offers an effective covert option to acquire sacred elven water without inciting a full border skirmish with the Kaldorei."
+  }
+ ],
+ "keywords": [
+  "moonwell water",
+  "robotron",
+  "robotron 3000",
+  "robotron control unit",
+  "thalanaar",
+  "whitereach post",
+  "wizlo bearingshiner"
+ ],
+ "related": [
+  "npc:wizlo-bearingshiner",
+  "subzone:thalanaar",
+  "item:thalanaar-moonwell-water",
+  "subzone:whitereach-post",
+  "zone:thousandneedles",
+  "topic:goblin",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Robotron Control Unit",
+  "A Dip in the Moonwell"
+ ]
+}

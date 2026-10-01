@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Pillar of the Silver Hand",
-   "body": "Standing within the vaulted transept of the Cathedral of Light, Duthorian Rall represents the venerable traditions of the Knights of the Silver Hand. With the kingdom unsettled by internal strife and the missing King Varian Wrynn, Duthorian shoulders the vital duty of instilling righteous discipline in fresh initiates. Respected paladins in the field, including Brother Wilhelm in Northshire and Brandur Ironhammer in Dun Morogh, direct promising recruits to his guidance to begin their sacred trials.",
+   "body": "Standing within the vaulted transept of the Cathedral of Light, Duthorian Rall represents the venerable traditions of the Knights of the Silver Hand. With the kingdom unsettled by internal strife and the missing King Varian Wrynn, Duthorian shoulders the vital duty of instilling righteous discipline in fresh initiates. Respected paladins in the field, including Brother Wilhelm in Northshire and Brandur Ironhammer in Ironforge, direct promising recruits to his guidance to begin their sacred trials.",
    "spoiler": 0
   },
   {
@@ -77,7 +77,7 @@
     "who sends you to duthorian",
     "duthorian breadcrumb quest"
    ],
-   "answer": "Aspirants are typically directed to him by introductory paladin trainers in starting settlements, including Brother Wilhelm in Northshire Valley and Brandur Ironhammer in Kharanos."
+   "answer": "Aspirants are typically directed to him by paladin trainers, including Brother Wilhelm in Northshire Valley and Brandur Ironhammer in Ironforge."
   }
  ],
  "angles": [

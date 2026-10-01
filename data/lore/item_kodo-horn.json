@@ -1,0 +1,89 @@
+{
+ "key": "item:kodo-horn",
+ "type": "item",
+ "name": "Kodo Horn",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Kodo Horn",
+  "quests": [
+   "quest:6128"
+  ]
+ },
+ "summary": "Kodo Horns are sturdy natural reagents taken from the beasts that roam the northern reaches of the Barrens. To the Cenarion druids, their dense composition provides the necessary strength and potency for experimental herbal mixtures, most notably in crafting curative salves to treat poisoned wildlife.",
+ "sections": [
+  {
+   "title": "A Reagent of the Plains",
+   "body": "While kodos are revered throughout the Barrens by the tauren for their endurance and strength, their horns carry practical medicinal value. Tonga Runetotem, working from the Crossroads, employs complete horns to reinforce the potency of his herbal remedies. Chips and fragments do not suffice for refining these salves; only intact horns gathered from the mature kodos wandering the arid plains hold enough strength to anchor the cure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Kodo Horns used for?",
+   "aliases": [
+    "kodo horn purpose",
+    "why gather kodo horns",
+    "use of kodo horn"
+   ],
+   "answer": "Tonga Runetotem uses them alongside Earthroot and pure water to brew a curative salve. This mixture is formulated to treat poisoned gazelles across the Barrens, serving as a critical step in a druid's training to master natural remedies against poisons."
+  },
+  {
+   "q": "Where are these horns collected?",
+   "aliases": [
+    "where to find kodo horns",
+    "kodo horn location",
+    "which kodos drop horns"
+   ],
+   "answer": "They are harvested from Barrens Kodos and Lost Barrens Kodos that roam the northern stretches of the Barrens, generally found grazing between the Crossroads and the surrounding scrubland."
+  },
+  {
+   "q": "Why can't druids use horn fragments instead?",
+   "aliases": [
+    "why not broken horns",
+    "horn chips"
+   ],
+   "answer": "Tonga Runetotem notes that mere chips and fragments lack the required potency to properly balance the salve. The remedy demands full, intact horns to create doses strong enough to counter virulent toxins."
+  },
+  {
+   "q": "Is hunting kodos considered respectful for a druid?",
+   "aliases": [
+    "druid hunting kodos",
+    "balance and kodos"
+   ],
+   "answer": "Yes, so long as it serves the greater balance of nature. Druids take only what is needed from the land and its creatures to heal larger blights, such as the mysterious poisoning afflicting the native gazelle herds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For young Horde druids, gathering these horns is a crucial rite of passage under Tonga Runetotem's tutelage, leading toward an innate mastery over nature's poisons."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Tauren hold kodos in high reverence, taking from them only with reverence and purpose\u2014in this case, to safeguard the delicate ecosystem of the Barrens."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "cenarion",
+  "earthroot",
+  "gazelle",
+  "kodo horn",
+  "poison",
+  "tonga runetotem"
+ ],
+ "related": [
+  "npc:tonga-runetotem",
+  "quest:6123",
+  "quest:6125",
+  "topic:druid",
+  "zone:barrens",
+  "subzone:crossroads",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Kodo Horn",
+  "Gathering the Cure (Horde)"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "key": "item:battleworn-axe",
+ "type": "item",
+ "name": "Battleworn Axe",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Battleworn Axe",
+  "quests": [
+   "quest:20"
+  ]
+ },
+ "summary": "Battleworn Axes are crude, notch-scarred weapons carried by the Blackrock orcs invading the Redridge Mountains. Marshal Marris accepts these recovered blades in Lakeshire as physical proof of dead invaders threatening the local populace.",
+ "sections": [
+  {
+   "title": "Trophy of an Invader",
+   "body": "These heavy, nicked axes serve as standard gear for the Blackrock reavers pushing south from the Burning Steppes into Redridge. For Marshal Marris and the beleaguered town watch of Lakeshire, collecting them serves two purposes: ensuring another marauding orc has fallen, and gathering physical evidence of how heavily armed the encroaching warband truly is.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat in the Hills",
+   "body": "Blackrock invaders have fortified Stonewatch Keep and established footholds in the southeastern pockets of Redridge, effectively trapping townspeople within Lakeshire. Stripping the raiders of their battleworn weapons directly diminishes the arms available to the warband while clearing the roads for Alliance travel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Battleworn Axe?",
+   "aliases": [
+    "battleworn axe info",
+    "what are these axes",
+    "blackrock axe"
+   ],
+   "answer": "A Battleworn Axe is the rugged, heavily used melee weapon carried by Blackrock orcs in the Redridge Mountains. They are gathered by adventurers as proof of slain invaders."
+  },
+  {
+   "q": "Who wants these axes in Lakeshire?",
+   "aliases": [
+    "who takes battleworn axes",
+    "battleworn axe quest giver",
+    "marshal marris axes"
+   ],
+   "answer": "Marshal Marris, commander of the Lakeshire town guard, asks for them to verify that the Blackrock threat is actively being pushed back from town lands."
+  },
+  {
+   "q": "Where do these axes come from?",
+   "aliases": [
+    "where do battleworn axes drop",
+    "battleworn axe farm",
+    "which orcs have them"
+   ],
+   "answer": "They are recovered from Blackrock orcs throughout Redridge, particularly around Stonewatch Keep to the north and in the pockets of orc encampments to the southeast."
+  },
+  {
+   "q": "Why are the orcs in Redridge in the first place?",
+   "aliases": [
+    "why are blackrock orcs in redridge",
+    "stonewatch invasion",
+    "blackrock menace reason"
+   ],
+   "answer": "The Blackrock clan marched south through the mountain passes from the Burning Steppes, capturing Stonewatch Keep and marauding across northern and eastern Redridge to pin down Lakeshire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Every axe brought back to Lakeshire marks one less invader endangering the exposed citizens of Redridge while Stormwind's core forces are elsewhere."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Despite their jagged edges and chipped blades, these crude iron weapons demonstrate the resilient, heavy forging traditions typical of Blackrock armaments."
+  }
+ ],
+ "keywords": [
+  "battleworn axe",
+  "blackrock",
+  "lakeshire",
+  "marris",
+  "orc",
+  "redridge",
+  "stonewatch",
+  "weapon"
+ ],
+ "related": [
+  "quest:20",
+  "npc:marshal-marris",
+  "subzone:lakeshire",
+  "subzone:stonewatch",
+  "zone:redridge",
+  "zone:burningsteppes",
+  "quest:19"
+ ],
+ "attribution": [
+  "Battleworn Axe",
+  "Blackrock Menace"
+ ]
+}

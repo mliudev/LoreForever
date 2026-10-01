@@ -1,0 +1,89 @@
+{
+ "key": "item:the-collector-s-schedule",
+ "type": "item",
+ "name": "The Collector's Schedule",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "The Collector's Schedule",
+  "quests": [
+   "quest:123"
+  ]
+ },
+ "summary": "The Collector's Schedule is a handwritten itinerary detailing dates and times for illicit gold shipments extracted from the mines of Elwynn Forest. Recovered from local gnolls, the document reveals that an elusive figure known only as 'The Collector' is coordinating the operation from near the Brackwell Pumpkin Patch.",
+ "sections": [
+  {
+   "title": "Stolen Gold and Secret Shipments",
+   "body": "The schedule provides alarming evidence of organized activity right under the nose of Stormwind's garrison. Although the kingdom has not formally operated Elwynn's mines for months due to banditry and creature incursions, ore is still being systematically extracted and moved. The note lists specific days and times when someone titled 'The Collector' receives shipments, pointing toward a camp near the Brackwell Pumpkin Patch in eastern Elwynn Forest. When presented with the document, Marshal Dughan recognizes the name of the Collector, though the true mastermind paying for the stolen gold remains hidden.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Collector's Schedule?",
+   "aliases": [
+    "what is this note",
+    "collectors schedule item",
+    "gold schedule"
+   ],
+   "answer": "It is a recovered document laying out the timeline for gold shipments moving out of Elwynn Forest's abandoned mines to an operative referred to as 'The Collector.'"
+  },
+  {
+   "q": "Where did the schedule come from?",
+   "aliases": [
+    "who drops the schedule",
+    "where to find schedule"
+   ],
+   "answer": "The note is carried by the gnolls infesting the riverbanks and hillsides of Elwynn Forest, suggesting they either intercepted a courier or are somehow involved in the transport of the gold."
+  },
+  {
+   "q": "Who is the Collector?",
+   "aliases": [
+    "who is collector",
+    "collector identity"
+   ],
+   "answer": "The Collector is a shadowy agent stationed near the Brackwell Pumpkin Patch in eastern Elwynn Forest. While Marshal Dughan has heard reports of him, the garrison does not know who employs him or where the gold ultimately flows."
+  },
+  {
+   "q": "Why is Marshal Dughan alarmed by this schedule?",
+   "aliases": [
+    "why does dughan care",
+    "elwynn mines gold"
+   ],
+   "answer": "Stormwind has not had official miners working Elwynn's mines for months due to safety threats. Discovering that substantial shipments of gold are still being hauled out reveals an organized, illicit mining operation operating right inside the kingdom's borders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The schedule exposes how thin Stormwind's grip on its home territory has become, with unauthorized operations looting the realm's natural resources right outside the capital."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The document proves that despite reports of the Elwynn mines lying dormant, rich veins of gold are actively being stripped and hauled away."
+  }
+ ],
+ "keywords": [
+  "brackwell",
+  "collector",
+  "dughan",
+  "elwynn",
+  "gold",
+  "goldshire",
+  "mines",
+  "schedule"
+ ],
+ "related": [
+  "quest:123",
+  "quest:147",
+  "npc:marshal-dughan",
+  "subzone:brackwell-pumpkin-patch",
+  "subzone:goldshire",
+  "zone:elwynn",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "The Collector's Schedule",
+  "The Collector (Classic)"
+ ]
+}

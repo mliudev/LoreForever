@@ -1,0 +1,87 @@
+{
+ "key": "item:empty-red-waterskin",
+ "type": "item",
+ "name": "Empty Red Waterskin",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Empty Red Waterskin",
+  "quests": [
+   "quest:1536"
+  ]
+ },
+ "summary": "The Empty Red Waterskin is a leather vessel entrusted to fledgling shaman during their elemental trials. It is used to collect fresh, untainted water from a surprising source in the plagued town of Tarren Mill.",
+ "sections": [
+  {
+   "title": "A Vessel for Pure Water",
+   "body": "Given by the hermit Brine in the Barrens, this plain red skin serves a vital spiritual purpose in the Call of Water trials. Initiates are tasked with carrying it far across the sea to the Hillsbrad Foothills, seeking out the town of Tarren Mill. Though the town is occupied by the Forsaken and steeped in undeath, a lone well in its center continues to draw sweet, pristine spring water. Filling the red waterskin captures a vital sample of life persevering amidst blight, which Brine uses to distill the Water Sapta.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Empty Red Waterskin used for?",
+   "aliases": [
+    "empty red waterskin use",
+    "what to do with red waterskin"
+   ],
+   "answer": "It is used by shaman on the Call of Water questline to collect spring water from the well in Tarren Mill, transforming it into a Filled Red Waterskin."
+  },
+  {
+   "q": "Who provides this waterskin?",
+   "aliases": [
+    "who gives red waterskin",
+    "red waterskin questgiver"
+   ],
+   "answer": "Brine, a water hermit living near the southern shores of the Barrens, gives it to shaman initiates undergoing the elemental trials."
+  },
+  {
+   "q": "Why gather water from Tarren Mill specifically?",
+   "aliases": [
+    "why tarren mill water",
+    "tarren mill well lore"
+   ],
+   "answer": "Despite Tarren Mill falling under the control of the Forsaken, the central well remains completely uncorrupted. Brine sees this pure spring as a powerful elemental symbol of hope and enduring life surviving in an unhallowed land."
+  },
+  {
+   "q": "What happens after the waterskin is filled?",
+   "aliases": [
+    "what next red waterskin",
+    "filled red waterskin turn in"
+   ],
+   "answer": "Once filled at the well, the skin must be brought back to Brine in the Barrens, who combines the water with other rare samples to brew the Water Sapta."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Carrying and filling this waterskin is a foundational step in mastering the Water Totem and attuning your senses to the resilient spirits of water."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Brine compares the pure well in Tarren Mill to Warchief Thrall\u2014a beacon of unyielding strength and hope enduring through immense suffering."
+  }
+ ],
+ "keywords": [
+  "brine",
+  "call of water",
+  "empty red waterskin",
+  "hillsbrad foothills",
+  "tarren mill",
+  "water sapta"
+ ],
+ "related": [
+  "item:filled-red-waterskin",
+  "quest:63",
+  "npc:brine",
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "zone:barrens",
+  "topic:forsaken",
+  "npc:thrall"
+ ],
+ "attribution": [
+  "Empty Red Waterskin",
+  "Call of Water (4)"
+ ]
+}

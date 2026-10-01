@@ -1,0 +1,131 @@
+{
+ "key": "topic:priest",
+ "type": "topic",
+ "name": "Priest",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Priest"
+ },
+ "summary": "Priests are spiritual guides and conduits of immense unseen power who shape belief, mend flesh, and guard souls. Channeling the radiant energies of faith or plumbing the terrifying depths of the Void, they serve as the vital heart of any war party. Across Azeroth, their traditions range from the Church of the Holy Light to the Moon Goddess's Sisterhood and shadowy Forsaken cults.",
+ "sections": [
+  {
+   "title": "Vessels of Faith and Devotion",
+   "body": "Priests guide the spiritual destiny of their communities. While physical combatants test their mettle with steel, priests draw power directly from conviction. Through divine connection, they soothe grievous wounds, raise fallen companions from death's threshold, and weave mystic barriers to repel incoming harm. Their presence on the field often marks the difference between survival and annihilation.",
+   "spoiler": 0
+  },
+  {
+   "title": "Light and Shadow",
+   "body": "The priesthood is not solely an instrument of benevolence. Just as life holds both illumination and darkness, the priest walks a perilous line between divine restoration and mental devastation. Those who master the holy arts call down searing righteous vengeance to smite enemies, while practitioners of Shadow magic delve into the Void to dominate minds, twist willpower, and inflict agonizing pain from afar.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Tapestry of Faiths",
+   "body": "No single faith defines Azeroth's priests. In human and dwarven lands, the Church of the Holy Light codifies a philosophy of virtue, having adapted its fragile Clerics of Northshire into a hardened order after the First War. In Kalimdor, the night elven Sisterhood of Elune honors the Mother Moon with starlight and grace, while troll witch doctors beseech the primal Loa. Among the newly risen Forsaken, many have turned from former dogmas toward the Cult of the Forgotten Shadow, preaching that darkness and light must exist in delicate equilibrium.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the difference between a priest and a paladin?",
+   "aliases": [
+    "priest vs paladin",
+    "why play priest not paladin",
+    "paladin or priest lore"
+   ],
+   "answer": "During the First War, human clerics suffered immense slaughter on the battlefield because they lacked martial defense. In response, Archbishop Alonsus Faol and the Church formed the Knights of the Silver Hand, training armored holy warriors called paladins. Priests remain robed casters devoted purely to spiritual ministry, prayer, and deeper mastery of the mind and shadow."
+  },
+  {
+   "q": "Can priests use Shadow magic without losing their faith?",
+   "aliases": [
+    "why do priests use shadow",
+    "shadow priest lore",
+    "shadow and holy balance"
+   ],
+   "answer": "Yes. Spiritual balance dictates that light cannot exist without darkness. Many priests study shadow to comprehend the perils threatening their flock, while others, like the Forsaken Cult of the Forgotten Shadow, actively embrace dark energies as a necessity of existence, arguing that one must understand both forces to truly master the self."
+  },
+  {
+   "q": "Do all playable races worship the same thing as priests?",
+   "aliases": [
+    "priest religions",
+    "what gods do priests worship",
+    "elune vs holy light priest"
+   ],
+   "answer": "No. Humans and dwarves primarily follow the Church of the Holy Light, a virtue-based philosophy rather than worship of a deity. Night elves revere Elune through her Sisterhood, trolls beseech spirits and Loa, and undead Forsaken practitioners follow the Cult of the Forgotten Shadow or grapple with their fractured connection to their former human faith."
+  },
+  {
+   "q": "Who leads the human priesthood in Stormwind?",
+   "aliases": [
+    "who leads church of holy light",
+    "stormwind cathedral leader",
+    "priest leader stormwind"
+   ],
+   "answer": "The Cathedral of Light in Stormwind serves as the primary seat of the human church following the fall of Lordaeron. The clergy there, along with surviving clerics from Northshire, oversee humanity's spiritual recovery and guide the souls of the Alliance in these unsettled times."
+  },
+  {
+   "q": "Why do the Forsaken still have priests?",
+   "aliases": [
+    "undead priests lore",
+    "can undead use the light",
+    "forsaken shadow priests"
+   ],
+   "answer": "Many undead retained memories and techniques from their living devotions in Lordaeron. After facing the abandonment of death, some embraced the Cult of the Forgotten Shadow, wielding dark energies while studying the balance between darkness and light. Others still stubbornly call upon the Holy Light, though doing so brings agonizing physical torment to their decaying flesh."
+  },
+  {
+   "q": "What is the Sisterhood of Elune?",
+   "aliases": [
+    "night elf priests",
+    "priestesses of the moon",
+    "sisterhood of elune"
+   ],
+   "answer": "The Sisterhood of Elune is an ancient order of night elf priestesses established long before the War of the Ancients. Led by High Priestess Tyrande Whisperwind, they revere the moon goddess Elune, serving as healers, spiritual guides, and fiercely capable leaders within night elf society."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "As a priest, you walk the line between pure radiance and mental devastation, commanding both the restorative mercies of prayer and the punishing horrors of the Void."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human priests inherit the resilient tradition of the Northshire Clerics, serving as the spiritual bedrock of the Alliance through the Church of the Holy Light."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Night elf priestesses honor the Sisterhood of Elune, channeling starlight and lunar grace under the guidance of High Priestess Tyrande Whisperwind."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken priests redefine their shattered faith through the Cult of the Forgotten Shadow, embracing the balance of dark energies when former vows brought only ruin."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Paladins share holy philosophies with the priesthood, having evolved from the Church's need to protect robed clerics after the bloody lessons of the First War."
+  }
+ ],
+ "keywords": [
+  "cathedral",
+  "cleric",
+  "cult",
+  "elune",
+  "healing",
+  "holy light",
+  "priest",
+  "shadow",
+  "sisterhood",
+  "void"
+ ],
+ "related": [
+  "topic:church-of-the-holy-light",
+  "topic:light",
+  "topic:elune",
+  "topic:knights-of-the-silver-hand",
+  "npc:tyrande-whisperwind",
+  "topic:forsaken",
+  "topic:paladin",
+  "quest:5650"
+ ],
+ "attribution": [
+  "Priest"
+ ]
+}

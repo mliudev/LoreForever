@@ -1,0 +1,89 @@
+{
+ "key": "item:athrikus-narassin-s-head",
+ "type": "item",
+ "name": "Athrikus Narassin's Head",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Athrikus Narassin's Head",
+  "quests": [
+   "quest:1143"
+  ]
+ },
+ "summary": "This severed head is proof of the death of Athrikus Narassin, an ancient warlock who directed dark rituals in northern Darkshore. Taken from the heights of the ruined spire, it serves to confirm the disruption of demonic activity centered around the Tower of Althalaxx.",
+ "sections": [
+  {
+   "title": "Blight Upon Althalaxx",
+   "body": "Perched at the pinnacle of the Tower of Althalaxx, Athrikus Narassin commanded a coven of dark sorcerers practicing fel magic along the Darkshore coast. Ancient and entrenched, Narassin coordinated demonic summonings that threatened the surrounding wilderness. Claiming his head shatters the coven's leadership, driving back their immediate foothold in the region, even if the lingering corruption promises future vigilance will be needed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Athrikus Narassin?",
+   "aliases": [
+    "who is athrikus",
+    "athrikus lore",
+    "who is the warlock"
+   ],
+   "answer": "Athrikus Narassin was an ancient and powerful warlock presiding over the cultists entrenched in the Tower of Althalaxx in northern Darkshore. He directed the coven's demonic rituals from the very top of the spire."
+  },
+  {
+   "q": "Why is his head needed?",
+   "aliases": [
+    "why take the head",
+    "athrikus head purpose",
+    "what is head for"
+   ],
+   "answer": "Alliance scouts monitoring the Tower of Althalaxx require irrefutable proof that the master warlock has been slain. Presenting his severed head confirms his demise and marks the strike against the demonic forces as a success."
+  },
+  {
+   "q": "Where is Athrikus Narassin located?",
+   "aliases": [
+    "where to find athrikus",
+    "athrikus location",
+    "tower of althalaxx top"
+   ],
+   "answer": "He resides at the very summit of the Tower of Althalaxx, situated in northeastern Darkshore near the border of Ashenvale, heavily guarded by his devoted cultists and summoned demons."
+  },
+  {
+   "q": "Does killing him eliminate the demonic threat completely?",
+   "aliases": [
+    "are demons gone",
+    "is the tower cleansed",
+    "did we beat the cult"
+   ],
+   "answer": "While Athrikus's death deals a severe blow to the dark ritualists and scatters their current operations, scouts believe the demonic forces will eventually regroup, requiring ongoing defense of Darkshore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Purging Athrikus Narassin removes a festering demonic blight from ancient Kaldorei ruins along the northern shores of Kalimdor."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Athrikus's mastery of fel powers made him a formidable practitioner, though his reckless visibility in Althalaxx proved his undoing."
+  }
+ ],
+ "keywords": [
+  "althalaxx",
+  "athrikus narassin",
+  "cultists",
+  "darkshore",
+  "fel",
+  "severed head",
+  "warlock"
+ ],
+ "related": [
+  "subzone:tower-of-althalaxx",
+  "quest:965",
+  "zone:darkshore",
+  "topic:warlock",
+  "quest:494"
+ ],
+ "attribution": [
+  "Athrikus Narassin's Head",
+  "The Tower of Althalaxx (8)"
+ ]
+}

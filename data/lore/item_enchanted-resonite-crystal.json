@@ -1,0 +1,95 @@
+{
+ "key": "item:enchanted-resonite-crystal",
+ "type": "item",
+ "name": "Enchanted Resonite Crystal",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Enchanted Resonite Crystal",
+  "quests": [
+   "quest:6481"
+  ]
+ },
+ "summary": "The Enchanted Resonite Crystal is an alchemically altered mineral infused with shamanic magic by Mor'rogal in the Stonetalon Mountains. It is crafted specifically to shatter the Resonite cask binding a slumbering, ancient Earthen named Goggeroc.",
+ "sections": [
+  {
+   "title": "Breaker of Ancient Stone",
+   "body": "Raw resonite crystals gathered from the deep caverns of the Stonetalon Mountains possess unusual harmonic and earthen properties. Recognizing the danger slumbering within a sealed subterranean cask, the shaman Mor'rogal altered the raw minerals using his elemental powers. The resulting Enchanted Resonite Crystal serves as a precise tool: when struck against the reinforced Resonite cask, it disrupts the housing and forcibly rouses the giant Earthen Goggeroc while he is still disoriented from his long sleep.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat of Goggeroc",
+   "body": "Mor'rogal believed that leaving an ancient Earthen unchecked would spell catastrophe for the fragile balance of Stonetalon and greater Kalimdor. By shattering the cask with the enchanted crystal, Mor'rogal aims to force the creature awake in a weakened state, offering a narrow window of opportunity to destroy Goggeroc before his full elemental might returns.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Enchanted Resonite Crystal used for?",
+   "aliases": [
+    "enchanted resonite crystal use",
+    "what does crystal do",
+    "break resonite cask"
+   ],
+   "answer": "It is used to shatter the Resonite cask deep within the kobold-infested caves of the Stonetalon Mountains, releasing the slumbering Earthen known as Goggeroc."
+  },
+  {
+   "q": "Who created this enchanted crystal?",
+   "aliases": [
+    "who made crystal",
+    "mor'rogal crystal",
+    "enchanted resonite creator"
+   ],
+   "answer": "The Tauren shaman Mor'rogal created it by infusing raw resonite crystals with his shamanistic powers to weaken and expose the sleeping entity inside the cask."
+  },
+  {
+   "q": "Why must Goggeroc be awakened and destroyed?",
+   "aliases": [
+    "why kill goggeroc",
+    "is goggeroc dangerous",
+    "goggeroc threat"
+   ],
+   "answer": "Mor'rogal fears that the unmatched might of an ancient Earthen running rampant would endanger all of Stonetalon and Kalimdor. Awakening him with the crystal leaves him temporarily weakened, making it possible to defeat him."
+  },
+  {
+   "q": "What should I do with the crystal after defeating Goggeroc?",
+   "aliases": [
+    "return resonite crystal",
+    "turn in enchanted resonite crystal"
+   ],
+   "answer": "You must bring the Enchanted Resonite Crystal back to Mor'rogal along with confirmation that Goggeroc has been slain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The crystal demonstrates how elemental manipulation can destabilize even the ancient titan-forged earth magic binding living stone."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Stonetalon's balance is precarious, and Mor'rogal relies on Horde champions to neutralize ancient threats before they endanger regional outposts."
+  }
+ ],
+ "keywords": [
+  "earthen arise",
+  "enchanted resonite crystal",
+  "goggeroc",
+  "mor'rogal",
+  "resonite cask",
+  "resonite crystal",
+  "stonetalon mountains"
+ ],
+ "related": [
+  "quest:6481",
+  "npc:mor-rogal",
+  "item:resonite-crystal",
+  "zone:stonetalon",
+  "zone:thunderbluff",
+  "topic:shaman",
+  "topic:kobold"
+ ],
+ "attribution": [
+  "Enchanted Resonite Crystal",
+  "Earthen Arise"
+ ]
+}

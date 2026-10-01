@@ -1,0 +1,90 @@
+{
+ "key": "item:bag-of-empty-ooze-containers",
+ "type": "item",
+ "name": "Bag of Empty Ooze Containers",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Bag of Empty Ooze Containers",
+  "quests": [
+   "quest:4513"
+  ]
+ },
+ "summary": "The Bag of Empty Ooze Containers is a set of sterile glassware supplied by the gnome researcher Laris Geardawdle in Ironforge. Prepared for delicate field collection, it holds empty sample jars intended to capture pristine, uncorrupted slime specimens across Azeroth.",
+ "sections": [
+  {
+   "title": "Field Research Equipment",
+   "body": "While investigating the bizarre biology of Azeroth's oozes, Laris Geardawdle realized that slime creatures rapidly absorb and mirror the corruption of their surroundings. Having studied tainted residues from places like Felwood, the gnome scientist commissioned these robust sample jars to withstand acidic specimens while preserving their natural state. The satchel holds enough jars for an explorer to gather clean, unpolluted slime from wild, untouched regions\u2014most notably the primordial wilderness of Un'Goro Crater, where ancient glutinous oozes thrive free from demonic taint.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Bag of Empty Ooze Containers?",
+   "aliases": [
+    "what's in the bag",
+    "bag contents",
+    "ooze container contents"
+   ],
+   "answer": "The bag contains ten Empty Pure Sample Jars, specially crafted glass vessels designed to safely store caustic ooze specimens without degrading or contaminating the sample."
+  },
+  {
+   "q": "Who provided these containers?",
+   "aliases": [
+    "who gives the ooze bag",
+    "laris geardawdle bag",
+    "who gives bag of empty ooze containers"
+   ],
+   "answer": "They are provided by Laris Geardawdle, an eccentric gnome researcher operating out of the Hall of Explorers in Ironforge who is studying the environmental adaptations of slime."
+  },
+  {
+   "q": "What kind of oozes are these jars meant to collect?",
+   "aliases": [
+    "what slime goes in the jars",
+    "pure sample jar target",
+    "where to fill jars"
+   ],
+   "answer": "The jars are meant for pure, uncorrupted ooze samples. Unlike the blighted specimens found in Felwood, pristine slime can be collected from the glutinous oozes inhabiting Un'Goro Crater."
+  },
+  {
+   "q": "Why does Laris need pure ooze samples?",
+   "aliases": [
+    "why collect pure slime",
+    "geardawdle research goal",
+    "why pure oozes"
+   ],
+   "answer": "Laris realized that oozes absorb the qualities of their environment, like a biological sponge. To understand how that adaptation works, he needs an uncorrupted baseline specimen to compare against polluted slimes from blighted regions."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "The durable, chemical-resistant jars inside the bag reflect standard gnomish ingenuity, enabling field researchers to transport dangerous, corrosive wildlife samples safely."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Laris Geardawdle coordinates his ecological research from Ironforge, sending Alliance adventurers deep into untamed territories like Un'Goro Crater to bring back critical field samples."
+  }
+ ],
+ "keywords": [
+  "bag of empty ooze containers",
+  "empty pure sample jar",
+  "ironforge",
+  "laris geardawdle",
+  "ooze containers",
+  "pure sample jar",
+  "slime"
+ ],
+ "related": [
+  "quest:4512",
+  "item:filled-pure-sample-jar",
+  "npc:laris-geardawdle",
+  "zone:ironforge",
+  "zone:ungoro",
+  "zone:felwood"
+ ],
+ "attribution": [
+  "Bag of Empty Ooze Containers",
+  "A Little Slime Goes a Long Way (2)"
+ ]
+}

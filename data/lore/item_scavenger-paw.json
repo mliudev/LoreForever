@@ -1,0 +1,81 @@
+{
+ "key": "item:scavenger-paw",
+ "type": "item",
+ "name": "Scavenger Paw",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Scavenger Paw",
+  "quests": [
+   "quest:376"
+  ]
+ },
+ "summary": "Scavenger Paws are severed limbs gathered from the young and ragged wolves roaming the hills of Deathknell. Newly awakened Forsaken collect them for local caretakers to stitch together into crude, protective gear.",
+ "sections": [
+  {
+   "title": "Cobbled Armor in Deathknell",
+   "body": "Resources are scarce for the newly returned in Deathknell. With the Scourge and the Scarlet Crusade pressing against Tirisfal, every scrap of hide and bone is put to practical use. Novice Elreth, assistant to Shadow Priest Sarvis, collects paws from the local scavenger wolves alongside bat wings to fashion serviceable garments and armor for disoriented Forsaken stepping fresh from their graves.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Scavenger Paws used for?",
+   "aliases": [
+    "scavenger paw purpose",
+    "use for paws",
+    "why collect paws"
+   ],
+   "answer": "They are collected by Novice Elreth in Deathknell, who tailors raw animal parts into basic armor and stitched garments for fresh Forsaken initiates."
+  },
+  {
+   "q": "Where do you find them?",
+   "aliases": [
+    "paw drop location",
+    "where to get paws",
+    "which wolves drop paws"
+   ],
+   "answer": "They are taken from Young Scavengers and Ragged Scavengers, the feral wolves that roam the woodlands and fields directly surrounding Deathknell."
+  },
+  {
+   "q": "Who asks for these paws?",
+   "aliases": [
+    "who wants scavenger paws",
+    "paw quest giver",
+    "novice elreth paws"
+   ],
+   "answer": "Novice Elreth, who assists Shadow Priest Sarvis by treating wounded recruits, tailoring equipment, and outfitting those sent into the field."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Awakening with decaying flesh and little gear, collecting parts from local predators is often the first step in assembling enough armor to endure the hazards of Tirisfal."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "The crude assembly of wolf paws and bat wings by Novice Elreth shows how improvised stitchcraft sustains the fledgling Forsaken settlements."
+  }
+ ],
+ "keywords": [
+  "deathknell",
+  "novice elreth",
+  "ragged scavenger",
+  "scavenger paw",
+  "the damned",
+  "young scavenger"
+ ],
+ "related": [
+  "quest:376",
+  "item:duskbat-wing",
+  "npc:novice-elreth",
+  "subzone:deathknell",
+  "npc:shadow-priest-sarvis",
+  "zone:tirisfal",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Scavenger Paw",
+  "The Damned (Classic)"
+ ]
+}

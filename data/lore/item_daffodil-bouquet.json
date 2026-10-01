@@ -1,0 +1,84 @@
+{
+ "key": "item:daffodil-bouquet",
+ "type": "item",
+ "name": "Daffodil Bouquet",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Daffodil Bouquet",
+  "quests": [
+   "quest:131"
+  ]
+ },
+ "summary": "The Daffodil Bouquet is a fresh bundle of bright flowers gathered by the herbalist Martie Jainrose in Lakeshire. Intended as a romantic token of appreciation from Guard Parker to Darcy, the gift inadvertently stokes local gossip and petty rivalry.",
+ "sections": [
+  {
+   "title": "A Tangled Token",
+   "body": "When Guard Parker wishes to express his gratitude to Darcy at the Lakeshire inn for packing his daily lunch, he arranges a gesture through the town's herbalist, Martie Jainrose. Martie prepares a bouquet of daffodils, noting they are her personal favorite. However, when delivered to Darcy, the bright blooms immediately raise suspicions: Darcy recognizes the selection as Martie's signature flower and suspects petty jealousy from the other woman, half-joking that Martie might have poisoned the stems out of spite.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Daffodil Bouquet used for?",
+   "aliases": [
+    "daffodil bouquet purpose",
+    "what do i do with daffodil bouquet",
+    "who gets the daffodils"
+   ],
+   "answer": "The bouquet is meant for Darcy at the Lakeshire inn. Guard Parker arranges to have them delivered to her as a heartfelt thank-you for the lunch she prepares and sends to him on duty."
+  },
+  {
+   "q": "Who prepared this bouquet?",
+   "aliases": [
+    "who made the bouquet",
+    "daffodil bouquet source",
+    "where did the flowers come from"
+   ],
+   "answer": "Martie Jainrose, the local herbalist and flower vendor in Lakeshire, gathers and binds the bouquet upon request. She deliberately selects daffodils because they are her favorite bloom."
+  },
+  {
+   "q": "Why does Darcy react suspiciously to the flowers?",
+   "aliases": [
+    "why is darcy mad",
+    "darcy poisoned flowers",
+    "darcy and martie rivalry"
+   ],
+   "answer": "Darcy immediately identifies the daffodils as Martie's favorite flower rather than a selection made specifically for her. Calling Martie a jealous rival, Darcy humorously wonders whether the bouquet was tainted out of spite, though she accepts the gesture nonetheless."
+  },
+  {
+   "q": "Are the daffodils actually poisoned?",
+   "aliases": [
+    "is the bouquet poisoned",
+    "did martie poison the daffodils"
+   ],
+   "answer": "No. Darcy's suspicion is merely local drama and theatrical jealousy between the two Lakeshire women. The flowers are entirely harmless."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Herbalists visiting Lakeshire will recognize the bouquet as the handiwork of fellow plant-gatherer Martie Jainrose, highlighting the domestic trade of wild floral gathering."
+  }
+ ],
+ "keywords": [
+  "daffodil bouquet",
+  "daffodils",
+  "darcy",
+  "guard parker",
+  "lakeshire",
+  "martie jainrose",
+  "redridge"
+ ],
+ "related": [
+  "quest:131",
+  "quest:130",
+  "quest:129",
+  "zone:redridge",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Daffodil Bouquet",
+  "Delivering Daffodils"
+ ]
+}

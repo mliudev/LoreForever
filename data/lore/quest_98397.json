@@ -1,0 +1,118 @@
+{
+ "key": "quest:98397",
+ "type": "quest",
+ "name": "To Darnassus",
+ "era": "forever",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   98397
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Dendrite Starblaze",
+  "end": "Mathrengyl Bearwalker",
+  "previous": "Blessings of the Great Cat Spirit (Alliance)",
+  "next": null,
+  "wiki": "To Darnassus (Forever)",
+  "chain": []
+ },
+ "summary": "To Darnassus is the culmination of a night elf druid's journey to commune with the Great Cat Spirit. After proving yourself to Dendrite Starblaze in Moonglade, you are sent back to the Cenarion Enclave to master the art of shifting into cat form.",
+ "sections": [
+  {
+   "title": "Return to the Enclave",
+   "body": "Having commune with the Great Cat Spirit through the guidance of Dendrite Starblaze in Moonglade, an aspiring night elf druid must return to Teldrassil. Starblaze acknowledges that you have proven yourself a worthy student and directs you back to your primary instructor, Mathrengyl Bearwalker, waiting beneath the boughs of the Cenarion Enclave in Darnassus.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Nature of the Cat",
+   "body": "Upon arriving in Darnassus, Mathrengyl Bearwalker acknowledges that you have absorbed the wisdom of the Great Cat Spirit. In his eyes, every generation of druids faces a trial shaped by this ancient entity, which is as playful as it is deadly. With your connection established and your spirit prepared, Mathrengyl imparts the final rites necessary to shift into the graceful form of the cat.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do this quest",
+    "to darnassus purpose",
+    "cat form quest"
+   ],
+   "answer": "This quest concludes your trial with the Great Cat Spirit. After completing your tasks for Dendrite Starblaze in Moonglade, it directs you back to Mathrengyl Bearwalker in Darnassus so he can teach you how to shift into cat form."
+  },
+  {
+   "q": "Who sends you back to Darnassus?",
+   "aliases": [
+    "who starts this quest",
+    "quest giver"
+   ],
+   "answer": "Dendrite Starblaze, a senior druid residing in Nighthaven within the sacred haven of Moonglade, gives you this quest after you receive the blessing of the Great Cat Spirit."
+  },
+  {
+   "q": "Where can I find Mathrengyl Bearwalker?",
+   "aliases": [
+    "mathrengyl location",
+    "where is bearwalker"
+   ],
+   "answer": "Mathrengyl Bearwalker is stationed in the Cenarion Enclave, the druidic sanctum located in the northwestern quarter of Darnassus on Teldrassil."
+  },
+  {
+   "q": "What is the significance of the Great Cat Spirit?",
+   "aliases": [
+    "cat spirit lore",
+    "what is great cat spirit"
+   ],
+   "answer": "The Great Cat Spirit is an ancient, feral spirit of nature that represents agile, deadly predators. Druids must earn its favor and understand its dual nature of playfulness and lethality before they are allowed to channel its shape."
+  },
+  {
+   "q": "Do all druids complete the exact same trial?",
+   "aliases": [
+    "are druid trials the same",
+    "generation trials"
+   ],
+   "answer": "According to Mathrengyl Bearwalker, while all druids must pass a trial granted by the Great Cat Spirit to master its form, the exact nature of the trials varies across generations."
+  },
+  {
+   "q": "Can non-night elves take this quest?",
+   "aliases": [
+    "is this alliance only",
+    "can tauren do this"
+   ],
+   "answer": "This specific quest is for Alliance night elf druids returning to Darnassus. Tauren druids follow their own path and report back to their own trainers in Thunder Bluff after visiting Moonglade."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This quest marks your transition into hunting from the shadows, granting you the ability to channel the Great Cat Spirit directly through Cat Form."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Returning to Darnassus honors the night elven traditions preserved by the Cenarion Circle beneath the world tree Teldrassil."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance druids return from the neutral grounds of Moonglade to Darnassus, strengthening their homeland's magical defenses."
+  }
+ ],
+ "keywords": [
+  "cat form",
+  "cenarion enclave",
+  "dendrite starblaze",
+  "great cat spirit",
+  "mathrengyl bearwalker",
+  "moonglade",
+  "teldrassil",
+  "to darnassus"
+ ],
+ "related": [
+  "npc:mathrengyl-bearwalker",
+  "npc:dendrite-starblaze",
+  "subzone:cenarion-enclave",
+  "zone:darnassus",
+  "topic:druid"
+ ],
+ "attribution": [
+  "To Darnassus (Forever)"
+ ]
+}

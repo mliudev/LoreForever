@@ -1,0 +1,80 @@
+{
+ "key": "item:pristine-spider-silk",
+ "type": "item",
+ "name": "Pristine Spider Silk",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Pristine Spider Silk",
+  "quests": [
+   "quest:1940"
+  ]
+ },
+ "summary": "Pristine Spider Silk is an exceptionally fine thread gathered from the venomous arachnids of Duskwood. Mages of Stormwind commission this rare material to weave durable, enchanted robes worthy of recognized practitioners of the arcane arts.",
+ "sections": [
+  {
+   "title": "Weaving the Arcane",
+   "body": "Not just any thread can hold the enchantments and wear demanded by a practicing mage. While ordinary spider silk is common enough among tailors, only the immaculate strands taken from carrion recluses and black widow hatchlings in the shadowed groves of Duskwood possess the necessary resilience. The mages of Stormwind's Wizard's Sanctum send their rising adepts into these perilous woods to harvest pristine spools, tasking local master tailor Wynne Larson with fashioning the material into a garment fit for an adept.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Pristine Spider Silk come from?",
+   "aliases": [
+    "where to get pristine spider silk",
+    "who drops pristine spider silk",
+    "pristine spider silk location"
+   ],
+   "answer": "It is harvested from the arachnids lurking in Duskwood, specifically carrion recluses and black widow hatchlings that nest beneath the gloomy canopy."
+  },
+  {
+   "q": "Who crafts garments from this silk?",
+   "aliases": [
+    "who uses pristine spider silk",
+    "who turns silk into robes",
+    "wynne larson robe"
+   ],
+   "answer": "Wynne Larson, a clothier operating in the Mage Quarter of Stormwind, tailors the collected spools into a refined robe on behalf of the Wizard's Sanctum."
+  },
+  {
+   "q": "Why do the mages require this specific silk?",
+   "aliases": [
+    "why pristine silk",
+    "magic spider silk use"
+   ],
+   "answer": "Mages require garments that reflect their growing arcane mastery. Only the purest, undamaged silk from Duskwood's deadly spiders provides the strength and quality necessary for an adept's robe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Stormwind mages are sent directly into Duskwood to gather this pristine thread as a rite of passage to earn a robe suited to their growing arcane stature."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Harvested from deadly arachnids, these delicate yet resilient threads represent the pinnacle of natural textiles used to weave magical raiment."
+  }
+ ],
+ "keywords": [
+  "black widow hatchling",
+  "carrion recluse",
+  "duskwood",
+  "mage robe",
+  "pristine spider silk",
+  "wizard's sanctum",
+  "wynne larson"
+ ],
+ "related": [
+  "quest:1940",
+  "npc:wynne-larson",
+  "zone:duskwood",
+  "topic:mage",
+  "topic:stormwind-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Pristine Spider Silk",
+  "Pristine Spider Silk (quest)"
+ ]
+}

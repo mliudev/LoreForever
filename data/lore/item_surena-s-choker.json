@@ -1,0 +1,87 @@
+{
+ "key": "item:surena-s-choker",
+ "type": "item",
+ "name": "Surena's Choker",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Surena's Choker",
+  "quests": [
+   "quest:1688"
+  ]
+ },
+ "summary": "Surena's Choker is an enchanted bloodstone necklace gifted by Gakin the Darkbinder to his former apprentice, Surena Caledon. After Surena betrayed Gakin and fled to join the Defias Brotherhood, the warlock master sent aspiring acolytes to reclaim the piece by force.",
+ "sections": [
+  {
+   "title": "A Master's Lost Investment",
+   "body": "Gakin the Darkbinder, operating quietly from beneath the Slaughtered Lamb in Stormwind, took Surena Caledon on as a promising student in the dark arts. Taken by her youthful charm and magical aptitude, Gakin presented her with a valuable bloodstone choker to aid her studies. However, Surena abandoned her training and absconded with Erlan Drudgemoor, a rogue aligned with the Defias Brotherhood. Unwilling to let such a potent artifact remain in the hands of a traitor, Gakin task initiates seeking mastery over the void to track Surena down to the Brackwell Pumpkin Patch, reclaim the necklace, and demonstrate where true loyalty lies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Gakin the Darkbinder want Surena's Choker back?",
+   "aliases": [
+    "why does gakin want the choker",
+    "gakin surena necklace",
+    "why steal the choker back"
+   ],
+   "answer": "Gakin gifted the bloodstone choker to Surena when she was still his apprentice. When she abandoned her studies and ran off with a member of the Defias Brotherhood, Gakin refused to let a traitor keep such a prized artifact of dark magic."
+  },
+  {
+   "q": "Who is Surena Caledon?",
+   "aliases": [
+    "who is surena",
+    "surena caledon lore",
+    "who has the choker"
+   ],
+   "answer": "Surena Caledon is a former apprentice warlock in Stormwind who demonstrated natural talent under Gakin the Darkbinder. She turned her back on her tutor to run away with Erlan Drudgemoor and hide out among the Defias outlaws in Elwynn Forest."
+  },
+  {
+   "q": "Where can the choker be found?",
+   "aliases": [
+    "where is surena",
+    "choker location",
+    "where is surena caledon"
+   ],
+   "answer": "The choker is carried by Surena Caledon herself, who is holed up among the Defias bandits at the Brackwell Pumpkin Patch in eastern Elwynn Forest."
+  },
+  {
+   "q": "What is the choker used for after it is retrieved?",
+   "aliases": [
+    "what does gakin do with the choker",
+    "choker purpose",
+    "why do warlocks need the choker"
+   ],
+   "answer": "Reclaiming the choker proves an acolyte's ruthlessness and loyalty to Gakin the Darkbinder. Once returned, Gakin uses the dark energies inherent in such artifacts to prepare the acolyte for the dangerous ritual required to bind a Voidwalker."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Retrieving this choker from Surena Caledon is a foundational trial for Human and Gnome warlocks, demonstrating that sentimentality has no place in the pursuit of demonic power."
+  }
+ ],
+ "keywords": [
+  "bloodstone choker",
+  "brackwell pumpkin patch",
+  "erlan drudgemoor",
+  "gakin the darkbinder",
+  "slaughtered lamb",
+  "surena caledon",
+  "surena's choker"
+ ],
+ "related": [
+  "quest:1688",
+  "npc:gakin-the-darkbinder",
+  "quest:1471",
+  "quest:1685",
+  "subzone:brackwell-pumpkin-patch",
+  "zone:elwynn",
+  "topic:warlock"
+ ],
+ "attribution": [
+  "Surena's Choker",
+  "Surena Caledon (quest)"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "key": "item:thick-bear-fur",
+ "type": "item",
+ "name": "Thick Bear Fur",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Thick Bear Fur",
+  "quests": [
+   "quest:317"
+  ]
+ },
+ "summary": "Thick Bear Fur is a prized pelt gathered from the cold-hardened bears roaming the snowdrifts of Dun Morogh. Coveted for its heat retention, it is commonly used by traveling scouts and soldiers to craft insulation and warm bedding against the bitter alpine freeze.",
+ "sections": [
+  {
+   "title": "Warmth Against the Mountain Frost",
+   "body": "The bears prowling the ridges of Dun Morogh endure some of the harshest snowfields in the Eastern Kingdoms. Their thick, resilient coats provide vital protection from blizzards, making the pelt an invaluable resource for locals and travelers alike. Rather than being discarded as scrap, these heavy pelts are regularly harvested by hunters and used to line clothes, insulate drafty outposts, and pad cold sleeping rolls.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bedding for the Siege Brigade",
+   "body": "When Pilot Bellowfiz began outfitting his siege tank, Jetsteam, at Steelgrill's Depot, he faced the harsh prospect of spending a full month in the field on a long mission for the Siege Brigade. Because cold iron offers little comfort in high-altitude snowbanks, he commissioned local scouts to gather thick bear furs from the snow fields south of the Grizzled Den to fashion warm bedding for his cabin quarters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Thick Bear Fur come from?",
+   "aliases": [
+    "where to get thick bear fur",
+    "who drops thick bear fur",
+    "bear fur location"
+   ],
+   "answer": "Thick Bear Fur is gathered from the indigenous bears of Dun Morogh, notably Young Black Bears and Ice Claw Bears. They can be found hunting across the snowy tundras and pine groves south of the Grizzled Den."
+  },
+  {
+   "q": "Why does Pilot Bellowfiz need this fur?",
+   "aliases": [
+    "bellowfiz fur",
+    "why does bellowfiz need fur",
+    "stocking jetsteam fur"
+   ],
+   "answer": "Pilot Bellowfiz is outfitting his tank, Jetsteam, for an extended month-long mission on behalf of the Siege Brigade. He requires heavy furs to fashion warm bedding inside the metal chassis to endure the bitter mountain nights."
+  },
+  {
+   "q": "What creatures in Dun Morogh yield this pelt?",
+   "aliases": [
+    "which bears drop fur",
+    "dun morogh bear types"
+   ],
+   "answer": "Both Young Black Bears and the larger, fiercer Ice Claw Bears that wander the highland snows possess the dense fur required for heavy winter bedding and insulation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Trekking into the cold brush to stalk Dun Morogh's bears teaches young hunters how to navigate dangerous mountain beasts and harvest durable materials from the wild."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomish siege tank pilots operating around Steelgrill's Depot must rely on practical dwarf-country hunting to keep their machines survivable during long alpine deployments."
+  }
+ ],
+ "keywords": [
+  "bellowfiz",
+  "dun morogh",
+  "grizzled den",
+  "ice claw bear",
+  "jetsteam",
+  "steelgrill's depot",
+  "thick bear fur"
+ ],
+ "related": [
+  "quest:317",
+  "npc:pilot-bellowfiz",
+  "subzone:steelgrill-s-depot",
+  "subzone:grizzled-den",
+  "zone:dunmorogh",
+  "quest:318",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Thick Bear Fur",
+  "Stocking Jetsteam"
+ ]
+}

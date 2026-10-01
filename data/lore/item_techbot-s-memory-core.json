@@ -1,0 +1,91 @@
+{
+ "key": "item:techbot-s-memory-core",
+ "type": "item",
+ "name": "Techbot's Memory Core",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Techbot's Memory Core",
+  "quests": [
+   "quest:2922"
+  ]
+ },
+ "summary": "Techbot's Memory Core is the polarized central repository of Tinkmaster Overspark's mechanical assistant, Techbot. Recovered from the malfunctioning automaton within the corrupted depths of Gnomeregan, it contains the critical data Overspark hopes to use to reverse the machine's reversed, negatronic behavior.",
+ "sections": [
+  {
+   "title": "A Polarized Brain",
+   "body": "Before the catastrophe that forced the gnomes into exile, Techbot served Tinkmaster Overspark and his fellow inventors as an indispensable assistant, packed with gizmos and encyclopedic data. When Gnomeregan fell, an errant electrical discharge jolted the automaton, inverting its positronic brain into a hostile negatronic state. Driven mad by the reversal, Techbot now wanders the tainted halls of the city attacking anyone in sight. Recovering its memory core is Overspark's only hope for analyzing the malfunction and restoring his prized creation to its senses.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Techbot's Memory Core?",
+   "aliases": [
+    "techbots memory core",
+    "techbot brain item",
+    "what is techbots core"
+   ],
+   "answer": "It is the primary data storage and computational center of Techbot, an automaton built by Tinkmaster Overspark. It holds the machine's knowledge and records the electrical disruption that corrupted its behavior during the fall of Gnomeregan."
+  },
+  {
+   "q": "Who wants Techbot's Memory Core?",
+   "aliases": [
+    "who needs techbot memory core",
+    "who turns in techbot core",
+    "where do i take techbots core"
+   ],
+   "answer": "Tinkmaster Overspark seeks the core. Having taken refuge in Ironforge's Tinker Town alongside fellow exiled gnomes, he asks brave adventurers to venture into Gnomeregan, disable Techbot, and bring the core back so he can attempt repairs."
+  },
+  {
+   "q": "Why did Techbot go berserk?",
+   "aliases": [
+    "why is techbot hostile",
+    "what happened to techbot",
+    "techbot gone crazy"
+   ],
+   "answer": "During the fall of Gnomeregan, a stray electrical spark jolted Techbot's positronic brain. The sudden surge polarized the mechanism, turning it negatronic and completely inverting the automaton's personality and protocols from helpful to violently frenzied."
+  },
+  {
+   "q": "Where is the core obtained?",
+   "aliases": [
+    "where to get techbot memory core",
+    "techbot location",
+    "how to get techbots brain"
+   ],
+   "answer": "The core is salvaged from Techbot itself, found roaming within the upper mechanical corridors and entrances of the fallen city of Gnomeregan in Dun Morogh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomes, Techbot is another tragic casualty of Gnomeregan's fall, representing the loss of brilliant peacetime engineering to chaotic ruin."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers can appreciate the bizarre hazards of positronic polarization, where a single electrical short can entirely invert an automaton's logic routines."
+  }
+ ],
+ "keywords": [
+  "brain",
+  "gnomeregan",
+  "memory core",
+  "negatronic",
+  "overspark",
+  "positronic",
+  "techbot",
+  "tinker town"
+ ],
+ "related": [
+  "quest:2922",
+  "quest:2923",
+  "zone:gnomeregan",
+  "zone:ironforge",
+  "zone:dunmorogh",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Techbot's Memory Core",
+  "Save Techbot's Brain!"
+ ]
+}

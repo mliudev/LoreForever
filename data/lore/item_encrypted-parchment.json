@@ -1,0 +1,106 @@
+{
+ "key": "item:encrypted-parchment",
+ "type": "item",
+ "name": "Encrypted Parchment",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Encrypted Parchment",
+  "quests": [
+   "quest:3088"
+  ]
+ },
+ "summary": "The Encrypted Parchment is a ciphered missive delivered to aspiring orc rogues training in the Valley of Trials. Handed over by Gornek, it discreetly directs promising recruits into the shadows of the Den to meet the covert trainer Rwag.",
+ "sections": [
+  {
+   "title": "A Summons from the Shadows",
+   "body": "Young orcs seeking to prove their martial prowess in the Valley of Trials typically fight out in the open sun. However, those showing an aptitude for stealth, deception, and bladecraft draw a very different kind of attention. The Encrypted Parchment is handed to promising orc rogues by Gornek once they have cut their teeth against the local wildlife. Rather than an open announcement, the message is coded to ensure that only someone with an eye for subterfuge heeds the call.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ties to the Shattered Hand",
+   "body": "Deciphering the parchment directs the novice deep into the cave known as the Den, past the watchful eye of other clan trainers to find Rwag. There, the recruit learns that the summons was arranged on behalf of the Shattered Hand\u2014an order operating within the Horde's covert network. By answering the parchment, the rogue takes their first step into a world of espionage, shadowcraft, and guarded secrets.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Encrypted Parchment?",
+   "aliases": [
+    "what is encrypted parchment",
+    "parchment purpose",
+    "why encrypted parchment"
+   ],
+   "answer": "It serves as a coded summons that introduces novice orc rogues to their class trainer, Rwag, who lurks inside the Den within the Valley of Trials."
+  },
+  {
+   "q": "Who sends the parchment to you?",
+   "aliases": [
+    "who wrote the parchment",
+    "parchment sender",
+    "who gave me parchment"
+   ],
+   "answer": "The message originates from the rogue trainer Rwag, though it is handed to you by Gornek after you complete your initial trials in the valley."
+  },
+  {
+   "q": "Why is the message written in cipher?",
+   "aliases": [
+    "why is it encrypted",
+    "why encrypted",
+    "secret message"
+   ],
+   "answer": "Rwag and his contacts within the Shattered Hand favor secrecy over open declarations. A ciphered message ensures that only someone suited for the subtle path of a rogue is guided into their hidden ranks."
+  },
+  {
+   "q": "What organization is behind the summons?",
+   "aliases": [
+    "who wants to train me",
+    "shattered hand rogue",
+    "what faction sent this"
+   ],
+   "answer": "Rwag reveals that the Shattered Hand asked him to keep an eye out for capable recruits. They offer training in stealth and espionage to serve the Horde from the shadows."
+  },
+  {
+   "q": "Can troll rogues use this parchment?",
+   "aliases": [
+    "troll encrypted parchment",
+    "is it for trolls too"
+   ],
+   "answer": "No. While troll rogues also begin in the Valley of Trials, their secretive summons comes in the form of an Encrypted Tablet rather than this parchment."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The parchment represents your induction into the covert underworld of the Horde, pointing you toward mentors affiliated with the Shattered Hand."
+  },
+  {
+   "target": "race:Orc",
+   "text": "While orc culture typically prizes open, honorable combat, this missive welcomes those whose talents lie in the quieter, deadlier arts of survival."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "encrypted parchment",
+  "gornek",
+  "orc rogue",
+  "rwag",
+  "shattered hand",
+  "the den",
+  "valley of trials"
+ ],
+ "related": [
+  "quest:3088",
+  "npc:rwag",
+  "npc:gornek",
+  "subzone:valley-of-trials",
+  "quest:1089",
+  "quest:1858",
+  "quest:cutting-teeth",
+  "quest:3083"
+ ],
+ "attribution": [
+  "Encrypted Parchment",
+  "Encrypted Parchment (quest)"
+ ]
+}

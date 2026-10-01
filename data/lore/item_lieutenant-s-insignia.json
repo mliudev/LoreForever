@@ -1,0 +1,100 @@
+{
+ "key": "item:lieutenant-s-insignia",
+ "type": "item",
+ "name": "Lieutenant's Insignia",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Lieutenant's Insignia",
+  "quests": [
+   "quest:5726",
+   "quest:5727"
+  ]
+ },
+ "summary": "A Lieutenant's Insignia is a token worn by ranking members of the Burning Blade cult hiding within Durotar. Warchief Thrall employs it as a ruse, instructing an operative to present the emblem to Neeru Fireblade to infiltrate the Shadow Council's local operations.",
+ "sections": [
+  {
+   "title": "A Mark of the Cult",
+   "body": "Recovered from cultists entrenched inside Skull Rock along Durotar's eastern shore, the Lieutenant's Insignia identifies its bearer as an officer within the Burning Blade. While Warchief Thrall refuses to tolerate traitors within his new nation, an outright purge would merely scatter the cult before its masters could be exposed. Instead, Thrall turns the badge into a counterfeit credential, handing it back to a trusted champion to test the allegiances of suspected infiltrators lurking directly beneath Orgrimmar.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Cleft of Shadow",
+   "body": "Thrall directs his agent to take the token into the Cleft of Shadow and present it to the warlock Neeru Fireblade. Believing he is greeting a newly promoted subordinate, Neeru takes the bait completely. Blinded by arrogance, the warlock openly boasts that the Burning Blade operates as a direct instrument of the Shadow Council and the Burning Legion, unwittingly giving Thrall the opening he needs to expose the corruption rooted beneath the city.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Lieutenant's Insignia come from?",
+   "aliases": [
+    "how do i get lieutenants insignia",
+    "who drops lieutenants insignia",
+    "lieutenant insignia source"
+   ],
+   "answer": "It is recovered from Burning Blade fanatics and apprentices operating inside Skull Rock, a cavern along the coast east of Orgrimmar in Durotar."
+  },
+  {
+   "q": "What is the insignia used for?",
+   "aliases": [
+    "why do i need lieutenants insignia",
+    "lieutenants insignia quest use",
+    "what to do with insignia"
+   ],
+   "answer": "Warchief Thrall uses the insignia to establish a disguise for his agent. When presented to Neeru Fireblade in the Cleft of Shadow, the badge tricks the warlock into believing the bearer is a trusted officer of the Burning Blade."
+  },
+  {
+   "q": "Who is Neeru Fireblade?",
+   "aliases": [
+    "who is neeru",
+    "neeru fireblade lore"
+   ],
+   "answer": "Neeru Fireblade is an orc warlock residing in Orgrimmar's Cleft of Shadow. While claiming to serve Thrall by demonstrating that warlocks can aid the Horde, he is secretly the local leader of the Burning Blade cult."
+  },
+  {
+   "q": "Why doesn't Thrall just kill Neeru Fireblade immediately?",
+   "aliases": [
+    "why thrall doesnt kill neeru",
+    "why keep neeru alive",
+    "why infiltrate neeru"
+   ],
+   "answer": "Thrall knows Neeru is a traitor, but striking prematurely would only warn the cult's true masters and scatter their network. Thrall prefers to manipulate Neeru as an unwitting informant to uncover the broader Shadow Council presence in Durotar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For the young Horde, the insignia represents the insidious threat of demonic corruption attempting to subvert Thrall's new nation from within."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The badge showcases how the Burning Blade misuses fel magic to serve the Burning Legion, directly complicating Thrall's tenuous tolerance of lawful Horde warlocks."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "cleft of shadow",
+  "durotar",
+  "hidden enemies",
+  "lieutenant's insignia",
+  "neeru fireblade",
+  "shadow council",
+  "skull rock",
+  "thrall"
+ ],
+ "related": [
+  "quest:5726",
+  "npc:thrall",
+  "quest:829",
+  "topic:burning-blade-clan",
+  "subzone:cleft-of-shadow",
+  "quest:827",
+  "topic:shadow-council",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Lieutenant's Insignia",
+  "Hidden Enemies",
+  "Hidden Enemies (2)"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "key": "item:abercrombie-s-crate",
+ "type": "item",
+ "name": "Abercrombie's Crate",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Abercrombie's Crate",
+  "quests": [
+   "quest:134"
+  ]
+ },
+ "summary": "Abercrombie's Crate is a lost container of delicate tools and collected herbs belonging to the eccentric hermit Abercrombie. It rests abandoned near the entrance of the Vul'Gol Ogre Mound in southern Duskwood after the old man was chased off by marauding ogres.",
+ "sections": [
+  {
+   "title": "Lost to the Ogres",
+   "body": "While wandering far from his shack in western Duskwood to gather vegetation, Abercrombie crossed paths with a hostile gang of ogres. Fleeing for his life, the old hermit dropped his crate of precious instruments and harvested botanicals. The ogres hauled his belongings back to their stronghold at the Vul'Gol Ogre Mound, leaving the heavy chest sitting carelessly near their cave mouth.",
+   "spoiler": 0
+  },
+  {
+   "title": "Peculiar Contents",
+   "body": "Though Abercrombie claims the crate merely holds innocent tools and gathered plants, his ecstatic, suspicious reaction upon its recovery hints at something far darker. In his slip of the tongue, the hermit nearly thanks the 'Nec-' before catching himself, raising troubling questions about what kind of craft those stolen tools were actually meant to aid.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the crate located?",
+   "aliases": [
+    "crate location",
+    "where is abercrombie's crate",
+    "vul'gol crate"
+   ],
+   "answer": "The crate lies abandoned outdoors right beside the cave mouth at the Vul'Gol Ogre Mound, an ogre-infested encampment in the southern hills of Duskwood."
+  },
+  {
+   "q": "Why did Abercrombie lose it?",
+   "aliases": [
+    "how did ogres get crate",
+    "why is crate at ogres"
+   ],
+   "answer": "Abercrombie was out gathering herbs far from his home when a group of ogres ambushed him. Unarmed and terrified, he fled on foot and abandoned his supplies, which the ogres carried back to their lair."
+  },
+  {
+   "q": "What is inside the crate?",
+   "aliases": [
+    "crate contents",
+    "what did abercrombie lose"
+   ],
+   "answer": "Abercrombie describes the contents as rare herbs and specialized harvesting tools. However, his peculiar excitement and slip of the tongue upon receiving it suggest it may contain instruments far more sinister than common gardening shears."
+  },
+  {
+   "q": "Why does Abercrombie almost thank 'the Nec-'?",
+   "aliases": [
+    "abercrombie nec slip",
+    "thank the nec meaning"
+   ],
+   "answer": "Upon getting his crate back, Abercrombie blurts out 'Thank the Nec-...' before hastily correcting himself to thank the adventurer. It strongly suggests his allegiance or gratitude lies with necromancy rather than the Light."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Abercrombie ostensibly ventures into the darkest reaches of the forest for rare flora, making this retrieval of his botanist's kit familiar work for local herbalists."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Venturing straight into the heart of the Vul'Gol Ogre Mound to retrieve lost goods exposes the growing monster menace threatening southern Duskwood."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "abercrombie's crate",
+  "duskwood",
+  "ogre mound",
+  "ogre thieves",
+  "vul'gol"
+ ],
+ "related": [
+  "quest:134",
+  "npc:abercrombie",
+  "subzone:vul-gol-ogre-mound",
+  "zone:duskwood",
+  "npc:watcher-dodds",
+  "npc:viktori-prism-antras"
+ ],
+ "attribution": [
+  "Abercrombie's Crate",
+  "Ogre Thieves (Classic)"
+ ]
+}

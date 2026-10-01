@@ -1,0 +1,79 @@
+{
+ "key": "item:hardened-tortoise-shell",
+ "type": "item",
+ "name": "Hardened Tortoise Shell",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Hardened Tortoise Shell",
+  "quests": [
+   "quest:1105"
+  ]
+ },
+ "summary": "Hardened Tortoise Shells are remarkably durable carapaces harvested from the sparkleshell tortoises wandering the Shimmering Flats. Coveted by gnomish racers at the Mirage Raceway, these rugged organic plates offer unmatched resistance against volatile and corrosive experimental fuels.",
+ "sections": [
+  {
+   "title": "Natural Armor for High-Speed Hazards",
+   "body": "The sun-scorched expanse of the Shimmering Flats is home to various breeds of sparkleshell tortoises, including snappers and borers, whose carapaces have evolved into exceptionally tough defenses against the harsh desert salt and wandering predators. Out on the salt flats, standard metal alloy fuel tanks frequently corrode or rupture under the strain of gnomish experimental chemistry. Mechanics like Wizzle Brassbolts prize these shells not for armor or shields, but as organic raw material tough enough to be retrofitted into makeshift, acid-resistant fuel tanks capable of containing volatile rocket propellants.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do you find Hardened Tortoise Shells?",
+   "aliases": [
+    "where to get tortoise shells",
+    "hardened shell location",
+    "sparkleshell location"
+   ],
+   "answer": "They are gathered from sparkleshell tortoises\u2014specifically Sparkleshell Snappers, Borers, and common Sparkleshell Tortoises\u2014wandering across the open salt expanses of the Shimmering Flats in Thousand Needles."
+  },
+  {
+   "q": "Why does Wizzle Brassbolts want these shells?",
+   "aliases": [
+    "why need shells",
+    "wizzle shells use",
+    "what are shells for"
+   ],
+   "answer": "Wizzle's brother is designing an extremely powerful, corrosive rocket fuel that threatens to melt straight through their race car's chassis. Wizzle intends to hollow out and reinforce the tortoises' exceptionally durable carapaces to use as chemically resistant fuel tanks."
+  },
+  {
+   "q": "Can standard workshop tools easily shape them?",
+   "aliases": [
+    "are shells hard to craft",
+    "bending tools shell"
+   ],
+   "answer": "No. The carapaces are so unnaturally hard that gnomish mechanics expect to bend and ruin an entire toolbox worth of metal implements just trying to carve, drill, and shape them into tanks."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Using organic carapaces as high-pressure fuel tanks is unconventional, but when gnome-brewed fuel melts standard alloy piping, high-durability natural materials often step in."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Only gnomish ingenuity would see a desert tortoise and immediately think of a lightweight, highly resilient container for dangerous rocket fuel."
+  }
+ ],
+ "keywords": [
+  "hardened tortoise shell",
+  "mirage raceway",
+  "rocket car",
+  "shimmering flats",
+  "sparkleshell",
+  "wizzle brassbolts"
+ ],
+ "related": [
+  "quest:1105",
+  "npc:wizzle-brassbolts",
+  "subzone:shimmering-flats",
+  "subzone:mirage-raceway",
+  "zone:thousandneedles",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Hardened Tortoise Shell",
+  "Hardened Shells"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "item:heart-of-isha-awak",
+ "type": "item",
+ "name": "Heart of Isha Awak",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Heart of Isha Awak",
+  "quests": [
+   "quest:873"
+  ]
+ },
+ "summary": "The Heart of Isha Awak is taken from the mighty thresher known as Isha Awak, the Deep Doom of the Merchant Coast. Sought by the tauren seer Mahren Skyseer, it serves as proof of overcoming one of the ocean's most formidable predators.",
+ "sections": [
+  {
+   "title": "Trophy of the Deep Doom",
+   "body": "Off the sun-drenched shores of the Merchant Coast south of Ratchet dwells Isha Awak, a massive sea beast revered and feared by sailors and coastal inhabitants alike. Known as the Deep Doom, the creature has claimed the lives of numerous human trespassers along the shoreline. For the mystic Mahren Skyseer, however, the beast represents an honorable predator rather than a mindless menace. He believes Isha Awak's fierce spirit resides directly within its heart, charging brave hunters to plunge into the waves, best the beast in its domain, and claim the pulsating organ as both trophy and spiritual offering.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Heart of Isha Awak?",
+   "aliases": [
+    "heart of isha awak",
+    "isha awak heart",
+    "what is this heart"
+   ],
+   "answer": "It is the heart of Isha Awak, a giant aquatic thresher prowling the coastal waters south of Ratchet. It is claimed as proof of slaying the beast for the tauren mystic Mahren Skyseer."
+  },
+  {
+   "q": "Who wants the Heart of Isha Awak?",
+   "aliases": [
+    "who takes the heart",
+    "who do i give the heart to",
+    "mahren skyseer"
+   ],
+   "answer": "Mahren Skyseer, a tauren seer camped along the Merchant Coast south of Ratchet, asks hunters to retrieve the heart to honor the beast's power and absorb its spirit."
+  },
+  {
+   "q": "Where is Isha Awak found?",
+   "aliases": [
+    "isha awak location",
+    "where is isha awak",
+    "where to find isha awak"
+   ],
+   "answer": "Isha Awak dwells in the ocean waters off the Merchant Coast in the eastern Barrens, swimming south of the goblin port of Ratchet."
+  },
+  {
+   "q": "Why does Mahren Skyseer want the heart?",
+   "aliases": [
+    "why kill isha awak",
+    "why does mahren want the heart"
+   ],
+   "answer": "Mahren considers Isha Awak an honorable hunter and worthy adversary. By slaying the beast and holding its heart, the hunter takes the sea creature's spirit into themselves."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren hunters, pursuing Isha Awak is an act of spiritual communion with nature's fiercest predators, following the guidance of the elder Mahren Skyseer."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking and conquering the Deep Doom beneath the waves of the Merchant Coast is an ultimate test of a hunter's courage against aquatic prey."
+  }
+ ],
+ "keywords": [
+  "deep doom",
+  "heart of isha awak",
+  "isha awak",
+  "mahren skyseer",
+  "merchant coast",
+  "ratchet",
+  "the barrens"
+ ],
+ "related": [
+  "quest:873",
+  "quest:874",
+  "zone:barrens",
+  "subzone:ratchet",
+  "topic:human"
+ ],
+ "attribution": [
+  "Heart of Isha Awak",
+  "Isha Awak (quest)"
+ ]
+}

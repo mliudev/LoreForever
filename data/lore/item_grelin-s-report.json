@@ -1,0 +1,98 @@
+{
+ "key": "item:grelin-s-report",
+ "type": "item",
+ "name": "Grelin's Report",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Grelin's Report",
+  "quests": [
+   "quest:282",
+   "quest:420"
+  ]
+ },
+ "summary": "Grelin's Report is a dispatch written by Grelin Whitebeard detailing the brewing threats in Coldridge Valley. Entrusted to an adventurer rather than a novice apprentice, it serves as the official link between the scouts guarding Anvilmar and Senir Whitebeard stationed in Kharanos.",
+ "sections": [
+  {
+   "title": "A Dispatch Past the Troggs",
+   "body": "Written after investigating the escalating aggression of the Frostmane trolls in Coldridge Valley, Grelin's Report summarizes the immediate dangers facing the dwarven starter lands. Rather than trusting his fumbling apprentice with such vital intelligence, Grelin enlists a capable traveler to carry the document through the trogg-infested Coldridge Pass. The paper acts as an official pass through Mountaineer Thalos's blockade, proving the bearer travels on urgent business to the wider snowy expanse of Dun Morogh.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ruffling Feathers in Kharanos",
+   "body": "When delivered to Senir Whitebeard at the Thunderbrew Distillery in Kharanos, the report provides critical field updates intended for Ironforge. Senir notes with amused resignation that his brother invoked King Magni Bronzebeard's name liberally throughout the text. While blunt appeals to royal authority inevitably irritate the bureaucratic Ironforge Senate, the report highlights real, mounting pressures from trogg incursions and troll skirmishes that the crown cannot easily ignore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of Grelin's Report?",
+   "aliases": [
+    "what is grelins report",
+    "why send the report",
+    "grelin report purpose"
+   ],
+   "answer": "The report communicates Grelin Whitebeard's intelligence on local dangers\u2014particularly the Frostmane trolls and encroaching troggs\u2014from Coldridge Valley to his brother Senir in Kharanos. It ensures leadership outside the valley understands the severity of the threats."
+  },
+  {
+   "q": "Why can't Grelin deliver it himself?",
+   "aliases": [
+    "why not deliver it",
+    "why entrust it to an adventurer"
+   ],
+   "answer": "Grelin remains stationed in Coldridge Valley monitoring the trolls. While he initially considered sending his apprentice, the perilous journey through the trogg-infested tunnel prompted him to hand the vital papers to a battle-tested adventurer instead."
+  },
+  {
+   "q": "Why does Mountaineer Thalos let you pass with the report?",
+   "aliases": [
+    "why does thalos let me through",
+    "tunnel blockade",
+    "coldridge pass troggs"
+   ],
+   "answer": "Mountaineer Thalos guards the tunnel out of Coldridge Valley to keep civilians safe from vicious troggs. Possessing Grelin's Report proves you are traveling on pressing dwarven defense business, convincing Thalos to grant passage."
+  },
+  {
+   "q": "Why is the Ironforge Senate annoyed by the report?",
+   "aliases": [
+    "why senate mad",
+    "ruffle feathers",
+    "senir reaction"
+   ],
+   "answer": "Senir Whitebeard notes that Grelin invoked King Magni's name liberally throughout the document. Bypassing standard diplomatic subtleties to demand royal attention often angers the bureaucrats in the Ironforge Senate, even if the brothers agree the politicians need a wake-up call."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Carrying this report is a dwarf's passage from the safe training grounds of Coldridge into the broader defense of the Dun Morogh heartland and the service of Ironforge."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Delivering Grelin's message allows gnomish refugees to prove their mettle to dwarven mountaineers while traversing the shared mountain passes of Dun Morogh."
+  }
+ ],
+ "keywords": [
+  "coldridge valley",
+  "grelin whitebeard",
+  "grelin's report",
+  "ironforge senate",
+  "kharanos",
+  "mountaineer thalos",
+  "senir whitebeard"
+ ],
+ "related": [
+  "npc:senir-whitebeard",
+  "quest:282",
+  "npc:mountaineer-thalos",
+  "subzone:kharanos",
+  "subzone:anvilmar",
+  "topic:trogg",
+  "zone:dunmorogh",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Grelin's Report",
+  "Senir's Observations",
+  "Senir's Observations (2)"
+ ]
+}

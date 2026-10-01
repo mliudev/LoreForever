@@ -1,0 +1,76 @@
+{
+ "key": "item:dwarven-tinder",
+ "type": "item",
+ "name": "Dwarven Tinder",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Dwarven Tinder",
+  "quests": [
+   "quest:465"
+  ]
+ },
+ "summary": "Dwarven Tinder is a specially prepared flammable substance used by Alliance forces in the Wetlands. It was distributed to saboteurs tasked with incinerating the Dragonmaw clan's siege engines before they could be brought against Menethil Harbor.",
+ "sections": [
+  {
+   "title": "Sabotaging the Dragonmaw",
+   "body": "When Alliance scouts discovered that Chieftain Nek'rosh had constructed heavy catapults within the Dragonmaw encampment, Menethil Harbor faced an imminent crisis. Cut off from southern reinforcements by intense fighting in Dun Algaz, the defenders could not survive a prolonged siege. The solution was preemptive sabotage. Provided to volunteers advancing into orcish territory, Dwarven Tinder catches quickly from a struck spark, producing flames intense enough to consume reinforced wooden siege engines in minutes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Dwarven Tinder used for?",
+   "aliases": [
+    "dwarven tinder purpose",
+    "why use dwarven tinder",
+    "what does dwarven tinder do"
+   ],
+   "answer": "Dwarven Tinder is used to ignite and destroy the siege catapults built by the Dragonmaw clan in the Wetlands, preventing an artillery assault on Menethil Harbor."
+  },
+  {
+   "q": "Why burn the catapults instead of capturing them?",
+   "aliases": [
+    "why destroy the catapults",
+    "why not take the siege engines"
+   ],
+   "answer": "Menethil Harbor's garrison is heavily outnumbered and cut off from Ironforge reinforcements due to the blockade at Dun Algaz. The defenders do not have the manpower to seize or recover heavy siege engines deep within hostile Dragonmaw territory, making destruction the only viable defense."
+  },
+  {
+   "q": "Who prepared this tinder?",
+   "aliases": [
+    "who made the tinder",
+    "where does dwarven tinder come from"
+   ],
+   "answer": "The tinder is supplied by the dwarven garrison stationed at Menethil Harbor, prepared specifically for quick, reliable ignition during military sabotage runs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven engineers and scouts know the value of dependable firestarters, particularly in the perpetually soggy, rain-drenched bogs of the Wetlands."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "With the Dun Algaz passes contested, burning enemy war engines before they reach Menethil Harbor is essential to keeping the Alliance's primary marsh port standing."
+  }
+ ],
+ "keywords": [
+  "catapults",
+  "dragonmaw",
+  "dwarven tinder",
+  "menethil harbor",
+  "nek'rosh",
+  "sabotage",
+  "wetlands"
+ ],
+ "related": [
+  "quest:465",
+  "subzone:dun-algaz",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "Dwarven Tinder",
+  "Nek'rosh's Gambit"
+ ]
+}

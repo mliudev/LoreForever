@@ -1,0 +1,91 @@
+{
+ "key": "item:besseleth-s-fang",
+ "type": "item",
+ "name": "Besseleth's Fang",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Besseleth's Fang",
+  "quests": [
+   "quest:6284"
+  ]
+ },
+ "summary": "Besseleth's Fang is the massive venomous tooth harvested from the giant spider Besseleth in Sishir Canyon. Carried as proof of her demise, it represents the removal of a deadly threat stalking the trails of Stonetalon Mountains.",
+ "sections": [
+  {
+   "title": "Trophy of the Canyon Stalker",
+   "body": "Sishir Canyon has long been infested by aggressive arachnids, but none strike more terror into travelers than Besseleth. Growing to monstrous proportions, she and her brood turned the gorge into a death trap for wanderers navigating the Webwinder Path at night. The fang itself measures nearly two feet in length and drips with potent venom, making it an unmistakable signature of the broodmother's slaughter. Presenting this grisly trophy brings relief to local defenders who have suffered her venomous strikes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Besseleth's Fang used for?",
+   "aliases": [
+    "besseleth fang purpose",
+    "who wants besseleth's fang",
+    "fang turn in"
+   ],
+   "answer": "The fang serves as physical proof that the spider matriarch Besseleth has been slain. Maggran Earthbinder at Sun Rock Retreat placed a bounty on the beast after surviving a near-fatal attack by her fangs, and he rewards anyone who brings the trophy to him."
+  },
+  {
+   "q": "Where does this fang come from?",
+   "aliases": [
+    "how to get besseleth fang",
+    "where is besseleth",
+    "besseleth location"
+   ],
+   "answer": "The fang is harvested directly from Besseleth, a giant predatory spider dwelling inside Sishir Canyon, located west of the main road south of Windshear Crag in the Stonetalon Mountains."
+  },
+  {
+   "q": "Why did Maggran Earthbinder want Besseleth dead?",
+   "aliases": [
+    "why kill besseleth",
+    "maggran bounty spider",
+    "why bounty on besseleth"
+   ],
+   "answer": "Besseleth and her brood regularly prey upon travelers heading along the roads toward Sun Rock Retreat, especially under cover of night. Maggran Earthbinder was personally ambushed and wounded by her fangs, prompting him to issue a bounty to secure the trails."
+  },
+  {
+   "q": "Who posted the bounty for the fang?",
+   "aliases": [
+    "wanted poster stonetalon spider",
+    "arachnophobia quest giver"
+   ],
+   "answer": "The bounty was authorized by Maggran Earthbinder and posted on a wanted sign situated along the main roadway south of the Windshear Crag fork, warning passing travelers of Sishir Canyon's hazards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Clearing out the canyon spider helps safeguard the precarious mountain trails connecting the Barrens border with Sun Rock Retreat."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Harvesting the two-foot venomous tooth of an apex arachnid matriarch serves as an undisputed testament to a hunter's tracking and combat prowess."
+  }
+ ],
+ "keywords": [
+  "arachnophobia",
+  "besseleth",
+  "besseleth's fang",
+  "maggran earthbinder",
+  "sishir canyon",
+  "stonetalon mountains",
+  "sun rock retreat",
+  "webwinder path"
+ ],
+ "related": [
+  "quest:6284",
+  "npc:maggran-earthbinder",
+  "subzone:sishir-canyon",
+  "subzone:sun-rock-retreat",
+  "subzone:webwinder-path",
+  "zone:stonetalon",
+  "subzone:windshear-crag"
+ ],
+ "attribution": [
+  "Besseleth's Fang",
+  "Arachnophobia (quest)"
+ ]
+}

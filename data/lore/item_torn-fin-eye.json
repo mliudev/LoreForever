@@ -1,0 +1,96 @@
+{
+ "key": "item:torn-fin-eye",
+ "type": "item",
+ "name": "Torn Fin Eye",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Torn Fin Eye",
+  "quests": [
+   "quest:515"
+  ]
+ },
+ "summary": "Torn Fin Eyes are ocular organs harvested from the Torn Fin murlocs prowling the shores of Hillsbrad Foothills. They serve as a crucial reactive ingredient for the Royal Apothecary Society's grim alchemical research into new plagues.",
+ "sections": [
+  {
+   "title": "A Reagent for Ruin",
+   "body": "The Royal Apothecary Society rarely lets any vile biological component go to waste in their quest to develop the Forsaken's New Plague. Torn Fin Eyes, harvested from the salt-crusted murlocs prowling the Western Strand of Hillsbrad Foothills, possess specialized organic properties needed to activate volatile alchemical compounds. When combined with Daggerspine naga scales, restorative troll elixirs, and gnoll-derived sludge, the optic tissues help stabilize and trigger toxic mixtures formulated to sow death across enemy territories.",
+   "spoiler": 0
+  },
+  {
+   "title": "Brewing Agony",
+   "body": "In the Apothecarium of the Undercity, master alchemists discovered that adding decaying colloids to Mudsnout composites required catalysts found only along Hillsbrad's coastline. Apothecary Lydon in Tarren Mill relies on these harvested eyes to catalyze his infamous Elixir of Agony. The concoction represents one of the Forsaken's relentless experiments to manufacture devastating bio-weapons right beneath the nose of neighboring human settlements.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Torn Fin Eye used for?",
+   "aliases": [
+    "torn fin eye use",
+    "why get torn fin eyes",
+    "torn fin eye purpose"
+   ],
+   "answer": "Torn Fin Eyes are an alchemical catalyst sought by the Royal Apothecary Society. Apothecary Lydon in Tarren Mill uses them alongside Daggerspine Scales and a Strong Troll's Blood Elixir to activate the contaminating agents in a volatile Mudsnout Mixture, progressing his research into new deadly plagues."
+  },
+  {
+   "q": "Where do you find Torn Fin Eyes?",
+   "aliases": [
+    "where to get torn fin eyes",
+    "torn fin eye location",
+    "who drops torn fin eye"
+   ],
+   "answer": "They are harvested from Torn Fin murlocs inhabiting the Western Strand of Hillsbrad Foothills, located directly along the coastline west of the human town of Southshore."
+  },
+  {
+   "q": "Who orders the gathering of these eyes?",
+   "aliases": [
+    "who needs torn fin eyes",
+    "torn fin eye quest giver"
+   ],
+   "answer": "Forsaken researchers in the Undercity and Apothecary Lydon stationed in Tarren Mill require them to finalize the concoction known as the Elixir of Agony."
+  },
+  {
+   "q": "Why does the Royal Apothecary Society need murloc parts?",
+   "aliases": [
+    "why murloc eyes",
+    "apothecary murlocs"
+   ],
+   "answer": "The society's researchers experiment constantly with bizarre local fauna to uncover compounds that activate or intensify toxic contaminants. The physiology of the Torn Fin murlocs yields ocular humors capable of catalyzing volatile plague prototypes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Procuring organic catalysts like Torn Fin Eyes directly advances the Royal Apothecary Society's ultimate ambition: perfecting a plague to wipe out both the Scourge and the living."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Gathering these coastal reagents aids the Horde war effort in Hillsbrad Foothills, strengthening the Forsaken foothold against hostile Alliance encroachments from Southshore."
+  }
+ ],
+ "keywords": [
+  "apothecary lydon",
+  "elixir of agony",
+  "hillsbrad foothills",
+  "murloc",
+  "royal apothecary society",
+  "torn fin",
+  "torn fin eye",
+  "undercity"
+ ],
+ "related": [
+  "quest:509",
+  "topic:royal-apothecary-society",
+  "zone:hillsbrad",
+  "zone:undercity",
+  "subzone:tarren-mill",
+  "item:daggerspine-scale",
+  "item:mudsnout-mixture",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Torn Fin Eye",
+  "Elixir of Agony (3)"
+ ]
+}

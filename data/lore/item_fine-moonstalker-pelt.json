@@ -1,0 +1,98 @@
+{
+ "key": "item:fine-moonstalker-pelt",
+ "type": "item",
+ "name": "Fine Moonstalker Pelt",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Fine Moonstalker Pelt",
+  "quests": [
+   "quest:986"
+  ]
+ },
+ "summary": "A Fine Moonstalker Pelt is the thick, pristine hide taken from the most mature predatory moonstalkers roaming southern Darkshore. Terenthis of Auberdine uses these prized furs to weave an enchanted cloak that allows searchers to slip past the woods' hostile beasts unnoticed.",
+ "sections": [
+  {
+   "title": "Hides of the Pack Leaders",
+   "body": "While common moonstalkers prowl throughout the mist-laden forests of Darkshore, only the older moonstalker sires and matriarchs possess coats dense and healthy enough to yield a fine pelt. These powerful wildcats establish territories along the Wildbend River and further south toward the borders of Ashenvale, where they hunt with lethal patience.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Cloak of Deception",
+   "body": "Gathering these hides is no mere trophy hunt. Terenthis requests five intact pelts to fashion an enchanted garment for travelers searching for the missing night elf Volcor. When woven and bound with nature magic, the pelts form a cloak of concealment that cloaks its wearer in an illusion, dampening their presence to Darkshore's wildlife as long as they refrain from aggressive actions.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures yield a Fine Moonstalker Pelt?",
+   "aliases": [
+    "what drops fine moonstalker pelt",
+    "where to get moonstalker pelt",
+    "which cats have pelts"
+   ],
+   "answer": "Only the mature leaders of the moonstalker packs yield these pelts\u2014specifically moonstalker sires and moonstalker matriarchs. Younger or common moonstalkers lack the necessary hide quality."
+  },
+  {
+   "q": "Where can the mature moonstalkers be found?",
+   "aliases": [
+    "where are the sires and matriarchs",
+    "moonstalker sire location",
+    "moonstalker matriarch location"
+   ],
+   "answer": "These formidable wildcats make their home in southern Darkshore, particularly near the banks of the Wildbend River and further south along the forest road toward Ashenvale."
+  },
+  {
+   "q": "Why does Terenthis need these pelts?",
+   "aliases": [
+    "what are pelts used for",
+    "why collect moonstalker pelts",
+    "terenthis pelt quest"
+   ],
+   "answer": "Terenthis uses five of the pelts to craft an enchanted cloak. This cloak is imbued with magic designed to conceal a rescuer from predatory beasts while searching for the missing ranger Volcor."
+  },
+  {
+   "q": "Does the finished cloak make you completely invisible?",
+   "aliases": [
+    "how does the cloak work",
+    "cloak illusion limits",
+    "cloak break stealth"
+   ],
+   "answer": "The cloak projects a delicate natural illusion that deters beasts, but it is fragile. Terenthis warns that doing much beyond speaking to others will disrupt the enchantment and dispel the disguise."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Stalking the sires and matriarchs near the Wildbend River tests a hunter's tracking skills against some of the fiercest predators in coastal Kalimdor."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Night elves respect the sacred ferocity of the moonstalkers, taking their hides only out of dire necessity to aid fallen kin like Volcor."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "fine moonstalker pelt",
+  "matriarch",
+  "moonstalker",
+  "sire",
+  "terenthis",
+  "volcor",
+  "wildbend river"
+ ],
+ "related": [
+  "quest:986",
+  "npc:terenthis",
+  "npc:volcor",
+  "subzone:wildbend-river",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Fine Moonstalker Pelt",
+  "A Lost Master"
+ ]
+}

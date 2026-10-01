@@ -20,7 +20,7 @@
    "The Lord of Blackrock (Alliance 2)"
   ]
  },
- "summary": "The Lord of Blackrock is an Alliance quest initiated upon claiming the severed head of the black dragon Nefarian within Blackwing Lair. Delivering this monstrous trophy to Grand Admiral Jes-Tereth in Stormwind Keep announces the downfall of the master of Blackrock Mountain. It marks one of the greatest military triumphs the Alliance has celebrated in recent history.",
+ "summary": "The Lord of Blackrock is an Alliance quest initiated upon claiming the severed head of the black dragon Nefarian within Blackwing Lair. Delivering this monstrous trophy to Highlord Bolvar Fordragon in Stormwind Keep announces the downfall of the master of Blackrock Mountain. It marks one of the greatest military triumphs the Alliance has celebrated in recent history.",
  "sections": [
   {
    "title": "A Monument to Victory",
@@ -29,7 +29,7 @@
   },
   {
    "title": "Audience at Stormwind Keep",
-   "body": "The grisly prize is brought directly to Grand Admiral Jes-Tereth, one of the foremost military minds attending the throne in Stormwind Keep. The sudden arrival of a dragon's severed head inside the royal court shocks onlookers and commands immediate reverence. For a kingdom already straining under internal political strife and external threats, this victory provides the realm with a momentous morale surge and an unforgettable entry into the annals of Alliance history.",
+   "body": "The grisly prize is brought directly to Highlord Bolvar Fordragon, who governs the kingdom from the throne room of Stormwind Keep. The sudden arrival of a dragon's severed head inside the royal court shocks onlookers and commands immediate reverence. For a kingdom already straining under internal political strife and external threats, this victory provides the realm with a momentous morale surge and an unforgettable entry into the annals of Alliance history.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "nefarian head quest alliance",
     "head of nefarian stormwind"
    ],
-   "answer": "This quest begins when adventurers claim the severed Head of Nefarian in Blackwing Lair. It directs the victor to carry the monumental trophy back to Stormwind City and present it to Grand Admiral Jes-Tereth on behalf of the kingdom."
+   "answer": "This quest begins when adventurers claim the severed Head of Nefarian in Blackwing Lair. It directs the victor to carry the monumental trophy back to Stormwind City and present it to Highlord Bolvar Fordragon on behalf of the kingdom."
   },
   {
    "q": "Who is Nefarian?",
@@ -53,31 +53,31 @@
    "answer": "Nefarian is a great black dragon and the son of Deathwing. Ruling from the heights of Blackwing Lair inside Blackrock Mountain, he manipulated the Dark Iron dwarves, commanded the Blackrock orcs, and conducted sinister experiments to create the chromatic dragonflight."
   },
   {
-   "q": "Who is Grand Admiral Jes-Tereth?",
+   "q": "Who is Highlord Bolvar Fordragon?",
    "aliases": [
-    "jes tereth",
-    "who is jes-tereth",
-    "grand admiral"
+    "bolvar fordragon",
+    "who is bolvar",
+    "highlord bolvar"
    ],
-   "answer": "Grand Admiral Jes-Tereth is a high-ranking naval commander of the Alliance stationed within the royal throne room of Stormwind Keep. She assists Highlord Bolvar Fordragon and the young King Anduin Wrynn in assessing major military threats and state defenses."
+   "answer": "Highlord Bolvar Fordragon is the paladin who rules Stormwind as regent in King Varian Wrynn's absence, holding court in the throne room of Stormwind Keep and watching over the young Prince Anduin Wrynn."
   },
   {
    "q": "Why is this trophy brought to Stormwind Keep?",
    "aliases": [
     "why stormwind",
     "why bring head to keep",
-    "why jes-tereth"
+    "why bolvar"
    ],
    "answer": "Nefarian's dominion in Blackrock Mountain posed a mortal threat to the kingdom of Stormwind and the entire southern continent. Bringing the trophy directly to the kingdom's military leadership confirms the dragon's destruction and allows the realm to rally around the heroic feat."
   },
   {
-   "q": "What happens after giving the head to Jes-Tereth?",
+   "q": "What happens after giving the head to Bolvar?",
    "aliases": [
     "what happens next",
     "lord of blackrock part 2",
     "nefarian head turn in"
    ],
-   "answer": "Grand Admiral Jes-Tereth is astounded by the feat, declaring that the triumph will be permanently recorded in history. This directly leads into the subsequent stage of the event, where the head is mounted publicly for all of Stormwind to see."
+   "answer": "Highlord Bolvar Fordragon is astounded by the feat, declaring that the triumph will be permanently recorded in history. This directly leads into the subsequent stage of the event, where the head is mounted publicly for all of Stormwind to see."
   },
   {
    "q": "Does turning in this head affect the whole city?",

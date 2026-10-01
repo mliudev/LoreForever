@@ -1,0 +1,95 @@
+{
+ "key": "item:wooden-key",
+ "type": "item",
+ "name": "Wooden Key",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Wooden Key",
+  "quests": [
+   "quest:1026"
+  ]
+ },
+ "summary": "The Wooden Key is a simple carved key carried by the maddened ancients roaming northern Ashenvale near the border of Felwood. It unlocks a concealed chest holding a remnant of Dartol's Rod, an ancient night elven relic.",
+ "sections": [
+  {
+   "title": "A Key in Mad Hands",
+   "body": "Carved from forest timber, the Wooden Key is held by the Crazed and Withered Ancients wandering the shaded trails north of Raynewood Retreat. The creeping foulness seeping out of Felwood has twisted these ancient guardians into aggressive, tormented shadows of their former selves. Somewhere in their descent into madness, they took custody of the key meant to secure Dartol's legacy.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unlocking the Rod",
+   "body": "Priestess Shael'dryn tasks adventurers with retrieving this key to open a hidden worn chest nestled in a small glade west of the Felwood road. Inside rests the Iron Shaft, one of the crucial components needed to reconstruct Dartol's Rod and combat the spreading corruption poisoning the sacred forests.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Wooden Key unlock?",
+   "aliases": [
+    "what does wooden key open",
+    "wooden key chest",
+    "where to use wooden key"
+   ],
+   "answer": "The Wooden Key opens a worn chest tucked away in a small glade west of the main road heading north into Felwood. Inside the chest lies the Iron Shaft, a piece needed to rebuild Dartol's Rod."
+  },
+  {
+   "q": "Who carries the Wooden Key?",
+   "aliases": [
+    "who drops wooden key",
+    "where to find wooden key",
+    "wooden key drop"
+   ],
+   "answer": "The key is carried by Crazed Ancients and Withered Ancients wandering the woods north of Raynewood Retreat near the Felwood border."
+  },
+  {
+   "q": "Why do the ancients have this key?",
+   "aliases": [
+    "why do treants have the key",
+    "ancient key lore"
+   ],
+   "answer": "The treants and ancients were once noble guardians trusted with protecting the glades and sacred relics. When demonic taint seeped down from Felwood, their minds broke, but they remained clinging to the relics and keys they once sheltered."
+  },
+  {
+   "q": "Who sends you to retrieve the Wooden Key?",
+   "aliases": [
+    "wooden key questgiver",
+    "who wants the wooden key"
+   ],
+   "answer": "Shael'dryn, a night elf keeper tending the moonwell in eastern Ashenvale, directs adventurers to recover the key as part of the effort to reassemble Dartol's Rod."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Seeing the beloved ancients of Kalimdor driven mad and clutching lost relics along the Felwood road is a sorrowful sight for any child of the stars."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The twisted ancients holding this key reflect the tragic reach of the demonic blight poisoning the Cenarion groves between Ashenvale and Felwood."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "crazed ancient",
+  "dartol's rod",
+  "felwood",
+  "iron shaft",
+  "shael'dryn",
+  "withered ancient",
+  "wooden key"
+ ],
+ "related": [
+  "npc:shael-dryn",
+  "item:iron-shaft",
+  "quest:991",
+  "zone:ashenvale",
+  "zone:felwood",
+  "subzone:raynewood-retreat",
+  "subzone:moonwell-ashenvale"
+ ],
+ "attribution": [
+  "Wooden Key",
+  "Raene's Cleansing (4)"
+ ]
+}

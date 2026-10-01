@@ -1,0 +1,92 @@
+{
+ "key": "item:letter-sealed-by-sylvanas",
+ "type": "item",
+ "name": "Letter Sealed by Sylvanas",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Letter Sealed by Sylvanas",
+  "quests": [
+   "quest:9626"
+  ]
+ },
+ "summary": "This diplomatic document bears the personal mark of Lady Sylvanas Windrunner, Dark Lady of the Forsaken. Entrusted to an envoy traveling to Orgrimmar, it serves as her formal push to integrate the struggling blood elves into the Horde.",
+ "sections": [
+  {
+   "title": "A Plea for Silvermoon",
+   "body": "Though she now commands the undead Forsaken from the subterranean halls of the Undercity, Sylvanas Windrunner has not forgotten the kingdom of Quel'Thalas. The Dark Lady has repeatedly championed the cause of the sin'dorei, advocating that Silvermoon deserves an equal seat beside Orgrimmar and the Undercity at the negotiating table. This missive carries her direct endorsement, aiming to silence the lingering skepticism among the orcish leadership regarding her former people's worth to the Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "Diplomatic Friction",
+   "body": "Forging an alliance with Silvermoon is not universally embraced across the sea in Durotar. When carried before the Horde leadership in Orgrimmar, the missive is met with cautious reserve rather than immediate jubilation. Even with Sylvanas's personal seal stamping the parchment and a decorated champion of the sin'dorei presenting it, the Warchief and his generals remain keenly aware of the persistent, calculating nature of the Banshee Queen.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this letter?",
+   "aliases": [
+    "what does the letter say",
+    "why send letter",
+    "letter purpose"
+   ],
+   "answer": "The letter contains Lady Sylvanas Windrunner's formal diplomatic endorsement of the blood elves. It asks the Horde leadership in Orgrimmar to formally accept Silvermoon as an allied power alongside the Forsaken and the orcs."
+  },
+  {
+   "q": "Why is Sylvanas helping the blood elves?",
+   "aliases": [
+    "why does sylvanas care about blood elves",
+    "sylvanas silvermoon connection"
+   ],
+   "answer": "In life, Sylvanas was the Ranger-General of Silvermoon who died defending Quel'Thalas. Although she now leads the Forsaken, she maintains a fierce loyalty to her homeland and seeks to secure strong allies for both Quel'Thalas and the Undercity."
+  },
+  {
+   "q": "Where does this letter need to be delivered?",
+   "aliases": [
+    "who gets the letter",
+    "where do i take sylvanas letter"
+   ],
+   "answer": "The letter is addressed to the orcish leadership in the valley of Orgrimmar, the capital city of Durotar, requiring travel across the Great Sea via zeppelin."
+  },
+  {
+   "q": "How is the letter received in Orgrimmar?",
+   "aliases": [
+    "orc reaction to letter",
+    "thrall reaction"
+   ],
+   "answer": "The leadership in Orgrimmar acknowledges Sylvanas's relentless persistence in advocating for Silvermoon, though they remain measured and cautious about how quickly they can embrace the sin'dorei into the faction."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This document represents the ongoing efforts to bind the northern kingdoms of Lordaeron and Quel'Thalas to the shamanic core of the Horde in Kalimdor."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, bringing Silvermoon into the fold secures a neighboring ally in the Eastern Kingdoms and reinforces Sylvanas's political standing within the Horde."
+  }
+ ],
+ "keywords": [
+  "blood elf",
+  "letter sealed by sylvanas",
+  "meeting the orcs",
+  "orgrimmar",
+  "silvermoon",
+  "sin'dorei",
+  "sylvanas windrunner",
+  "undercity"
+ ],
+ "related": [
+  "npc:sylvanas-windrunner",
+  "zone:undercity",
+  "zone:orgrimmar",
+  "npc:thrall",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Letter Sealed by Sylvanas",
+  "Meeting the Orcs (blood elf)"
+ ]
+}

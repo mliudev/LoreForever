@@ -1,0 +1,97 @@
+{
+ "key": "item:top-of-gelkak-s-key",
+ "type": "item",
+ "name": "Top of Gelkak's Key",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Top of Gelkak's Key",
+  "quests": [
+   "quest:2098"
+  ]
+ },
+ "summary": "The Top of Gelkak's Key is one of three shattered fragments of a mechanical key belonging to the shipwrecked gnome Gelkak Gyromast. After his vessel was lost off the coast of Darkshore, this jagged brass section was snatched up by a giant foreststrider roaming the nearby woods.",
+ "sections": [
+  {
+   "title": "A Shattered Mechanism",
+   "body": "When Gelkak Gyromast's ship was attacked and sunk by ravenous threshadons off the coast of Darkshore, the gnome washed ashore clutching the winding key meant for his mechanical first mate. The impact against the coastal rocks broke the instrument into three pieces. Before the dizzy pirate could gather his wits, the indigenous beasts scavenged the wreckage, with a giant foreststrider making off with this ornate upper portion into the misty forest.",
+   "spoiler": 0
+  },
+  {
+   "title": "Restoring the First Mate",
+   "body": "The key is essential for winding up and activating Gelkak's mechanical first mate, an automaton the marooned gnome intends to use to exact vengeance on the local wildlife. Recovering this fragment, along with the middle and bottom sections pilfered by shore murlocs and reef crawlers, allows Gyromast to piece the device together and bring his construct to life.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Top of Gelkak's Key used for?",
+   "aliases": [
+    "what does gelkaks key do",
+    "use of top of gelkaks key",
+    "gelkak key purpose"
+   ],
+   "answer": "It is one of three broken segments required by the shipwrecked gnome pirate Gelkak Gyromast to repair his mechanical winding key. Once assembled, the key is used to reactivate his mechanical first mate."
+  },
+  {
+   "q": "How did a foreststrider get this piece of the key?",
+   "aliases": [
+    "why do tallstriders have the key",
+    "who took gelkak key top",
+    "how did foreststrider get key"
+   ],
+   "answer": "When Gelkak was shipwrecked and cast upon the Darkshore beaches, his key smashed on the rocks. Curious beasts immediately rummaged through the debris, and a giant foreststrider swallowed or carried off the upper brass piece into the woods northeast of the shore."
+  },
+  {
+   "q": "Where are the other pieces of the key?",
+   "aliases": [
+    "where are other key parts",
+    "middle and bottom of gelkak key",
+    "gelkak key fragments"
+   ],
+   "answer": "The middle section was snatched by Greymist murlocs haunting the nearby shipwreck, while the bottom section was carried off by the crabs scouring the tideline."
+  },
+  {
+   "q": "Who is Gelkak Gyromast?",
+   "aliases": [
+    "who is gelkak",
+    "gelkak gyromast lore"
+   ],
+   "answer": "Gelkak Gyromast is an eccentric gnome pirate who found himself marooned along the shores of Darkshore after threshadons wrecked his vessel. Stranded and furious, he plots revenge against the creatures of the coast."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The key is designed to wind and activate a clockwork automaton, showcasing the ingenious and sturdy mechanical craftsmanship typical of gnome tinkers."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Seeing a fellow gnome surviving a catastrophic shipwreck through raw eccentricity and clockwork contraptions is a familiar and endearing sight."
+  }
+ ],
+ "keywords": [
+  "darkshore",
+  "first mate",
+  "foreststrider",
+  "gelkak",
+  "gyromast",
+  "key",
+  "pirate",
+  "retrieval"
+ ],
+ "related": [
+  "quest:2098",
+  "npc:gelkak-gyromast",
+  "item:middle-of-gelkak-s-key",
+  "item:bottom-of-gelkak-s-key",
+  "quest:2078",
+  "zone:darkshore",
+  "topic:pirate",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Top of Gelkak's Key",
+  "Gyromast's Retrieval"
+ ]
+}

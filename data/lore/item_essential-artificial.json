@@ -1,0 +1,91 @@
+{
+ "key": "item:essential-artificial",
+ "type": "item",
+ "name": "Essential Artificial",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Essential Artificial",
+  "quests": [
+   "quest:2924"
+  ]
+ },
+ "summary": "An Essential Artificial is a versatile, standardized mechanical component vital to gnomish tinkers and engineers. Left behind in stockpiles during the frantic evacuation of Gnomeregan, these parts are highly sought after by gnomes seeking to rebuild their technological efforts from exile in Ironforge.",
+ "sections": [
+  {
+   "title": "Standard Issue Ingenuity",
+   "body": "Before the fall of Gnomeregan, the essential artificial served as a cornerstone of day-to-day gnomish engineering. Described by tinkers as a nigh-universal component, it was integrated into countless contraptions, clockwork wonders, and heavy machinery throughout the subterranean halls. Its standardized nature made it indispensable to smiths and machinists seeking reliable, interchangeable modular parts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Salvage from the Depths",
+   "body": "When the trogg invasion and subsequent radiation disaster forced the gnomes into a desperate, panicked exodus, massive reserves of these components were abandoned where they sat. They remain stored inside heavy, steam-powered dispensers known as artificial extrapolators scattered across the deeper passages of Gnomeregan. In Tinker Town, master craftsman Klockmort Spannerspan actively recruits daring adventurers to venture back into the contaminated ruins and salvage these parts so research and invention can continue.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is an Essential Artificial?",
+   "aliases": [
+    "what are essential artificials",
+    "essential artificial item",
+    "what is this component"
+   ],
+   "answer": "It is a standardized, highly versatile mechanical component widely used by gnomish smiths and tinkers for their experiments, machines, and contraptions."
+  },
+  {
+   "q": "Why were they left behind in Gnomeregan?",
+   "aliases": [
+    "why are they in gnomeregan",
+    "why abandoned"
+   ],
+   "answer": "When the troggs invaded and the city was flooded with deadly radiation, the gnomes fled in a frantic rush. In the panic of evacuation, stockpiles of everyday components were simply left behind in storage devices."
+  },
+  {
+   "q": "Who wants these components recovered?",
+   "aliases": [
+    "who needs essential artificials",
+    "who takes these",
+    "klockmort spannerspan quest"
+   ],
+   "answer": "Klockmort Spannerspan, an ambitious gnome inventor based in Tinker Town within Ironforge, seeks them out to fuel his ongoing experiments and technological research in exile."
+  },
+  {
+   "q": "Where are they found inside the ruins?",
+   "aliases": [
+    "where do i find essential artificials",
+    "artificial extrapolator location"
+   ],
+   "answer": "They are stored inside large, steam-powered mechanical containers known as artificial extrapolators, situated throughout the deeper levels of contaminated Gnomeregan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Every salvaged component recovered from the irradiated corridors of Gnomeregan helps the exiled gnomes re-establish their technological superiority while taking refuge in Ironforge."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers can appreciate the elegance of a nigh-universal mechanical part built to integrate seamlessly into diverse machinery and experimental designs."
+  }
+ ],
+ "keywords": [
+  "artificial extrapolator",
+  "engineering component",
+  "essential artificial",
+  "gnomeregan",
+  "klockmort spannerspan",
+  "tinker town"
+ ],
+ "related": [
+  "quest:2924",
+  "quest:2925",
+  "zone:gnomeregan",
+  "topic:gnome",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Essential Artificial",
+  "Essential Artificials"
+ ]
+}

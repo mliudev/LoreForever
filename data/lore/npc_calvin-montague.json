@@ -1,0 +1,91 @@
+{
+ "key": "npc:calvin-montague",
+ "type": "npc",
+ "name": "Calvin Montague",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Calvin Montague",
+  "refs": 2
+ },
+ "summary": "Calvin Montague is an opportunistic Forsaken rogue loitering near the exit gate of Deathknell in Tirisfal Glades. Preying on newly awakened undead as they leave the graveyard, he attempts to trick passersby into running errands on his behalf.",
+ "sections": [
+  {
+   "title": "A Grifter by the Gate",
+   "body": "Positioned just outside the gates leading away from Deathknell, Calvin Montague embodies the ruthless pragmatism common among Lordaeron's restless dead. Rather than handling his own correspondence or paying fair courier rates, he attempts to smooth-talk wandering adventurers into delivering letters under false pretenses. While several other prominent undead bearing the Montague family name manage banking interests within the Undercity, Calvin pursues a decidedly less reputable trade, preferring petty schemes and deception.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Rogue's Scheme",
+   "body": "Calvin's proposition involves taking a sealed message on his behalf, though those with sharp wits or underworld training quickly discern the con behind his words. Even among the freshly risen who struggle to find purpose in the bleak ruins of Tirisfal, Calvin reminds newcomers that trust is a scarce commodity in the service of the Dark Lady.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Calvin Montague?",
+   "aliases": [
+    "calvin montague",
+    "who is calvin montague",
+    "calvin deathknell"
+   ],
+   "answer": "Calvin Montague is a Forsaken rogue found standing near the exit gate of Deathknell in Tirisfal Glades. He looks to exploit newly risen undead by conning them into running an errand for him without pay."
+  },
+  {
+   "q": "What does Calvin want adventurers to do?",
+   "aliases": [
+    "calvin montague quest",
+    "calvin letter",
+    "what does calvin want"
+   ],
+   "answer": "Calvin attempts to talk passing travelers into delivering a letter for him under deceptive pretenses, hoping to secure free courier services through smooth manipulation."
+  },
+  {
+   "q": "Is Calvin Montague related to the Undercity bankers?",
+   "aliases": [
+    "montague family",
+    "undercity bankers montague",
+    "calvin related to bankers"
+   ],
+   "answer": "He shares his surname with several prominent bankers in the Undercity, such as Ophelia, Mortimer, William, and Randolph Montague. Unlike his reputable kin managing coin in the vaults, Calvin operates as an outcast scoundrel out on the road."
+  },
+  {
+   "q": "Where can Calvin Montague be found?",
+   "aliases": [
+    "calvin location",
+    "where is calvin montague",
+    "find calvin montague"
+   ],
+   "answer": "He lurks along the road just outside the wooden gate marking the northern exit of Deathknell, intercepting adventurers as they head out into the wider Tirisfal Glades."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Forsaken rogues will quickly spot Calvin Montague's transparent attempts at manipulation, recognizing a fellow cutpurse trying to run a cheap hustle on the uninitiated."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the newly risen departing Deathknell, Calvin serves as an early lesson that not all of Sylvanas's subjects are interested in mutual solidarity."
+  }
+ ],
+ "keywords": [
+  "a rogue's deal",
+  "calvin montague",
+  "con artist",
+  "deathknell",
+  "forsaken rogue",
+  "montague",
+  "tirisfal glades"
+ ],
+ "related": [
+  "quest:8",
+  "subzone:deathknell",
+  "zone:tirisfal",
+  "zone:undercity",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Calvin Montague"
+ ]
+}

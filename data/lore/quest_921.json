@@ -1,0 +1,127 @@
+{
+ "key": "quest:921",
+ "type": "quest",
+ "name": "Crown of the Earth",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   921
+  ],
+  "level": "5",
+  "faction": "Alliance",
+  "start": "Tenaron Stormgrip",
+  "end": "",
+  "previous": "Tenaron's Summons",
+  "next": "Crown of the Earth (2)",
+  "wiki": "Crown of the Earth",
+  "chain": []
+ },
+ "summary": "Crown of the Earth is an introductory rite given by Tenaron Stormgrip high within Aldrassil. As young night elves prepare to venture beyond the Shadowglen, they are sent to draw sacred water from a nearby moonwell and confront the painful history of Mount Hyjal and their people's lost immortality.",
+ "sections": [
+  {
+   "title": "A Lesson in Recent History",
+   "body": "Before any fledgling adventurer departs the sheltered boughs of Shadowglen, the elders ensure they understand the steep price the kaldorei recently paid. At the Battle of Mount Hyjal, the World Tree Nordrassil was sacrificed to defeat Archimonde and banish the Burning Legion. With that cataclysmic blast, the night elves lost their ageless immortality and their sacred shield. Tenaron Stormgrip acts as both mentor and historian, assigning novices this ritual to instill humility and purpose before they face a changing world.",
+   "spoiler": 0
+  },
+  {
+   "title": "Waters of the Well",
+   "body": "The task requires drawing water from a moonwell north of Aldrassil using a crystal phial. These moonwells are no ordinary springs; their waters are infused with remnants of the ancient Well of Eternity. While the druids channel their restorative powers into the wild and the Sentinels revere them as tranquil shrines to the goddess Elune, the kaldorei remain acutely cautious. Arcane sorcery remains strictly outlawed across night elf society, as the wellspring that sustains their land is also a reminder of the reckless magic that once nearly broke the world.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tenaron Stormgrip?",
+   "aliases": [
+    "tenaron stormgrip",
+    "who gives crown of the earth",
+    "aldrassil druid npc"
+   ],
+   "answer": "Tenaron Stormgrip is a night elf druid positioned high in the upper boughs of Aldrassil in Shadowglen. He mentors young night elves nearing the end of their basic training, assigning rites that teach the solemn history of their race before sending them onward into Teldrassil."
+  },
+  {
+   "q": "What is the purpose of collecting moonwell water?",
+   "aliases": [
+    "why get moonwell water",
+    "filled crystal phial use",
+    "moonwell purpose"
+   ],
+   "answer": "Gathering water in the crystal phial is the first step in a ceremonial and practical journey across the island. The waters of the moonwell hold ancient magic that druids utilize to nourish the land, while the ritual itself serves to educate young kaldorei on their society's sacred obligations."
+  },
+  {
+   "q": "Why did the night elves lose their immortality?",
+   "aliases": [
+    "why are night elves mortal",
+    "what happened to immortality",
+    "nordrassil destruction"
+   ],
+   "answer": "During the Third War, the night elves detonated the ancestral power woven into the World Tree Nordrassil to destroy the demon lord Archimonde atop Mount Hyjal. That sacrifice obliterated the Legion's vanguard, but it stripped the night elves of their eternal youth and disease immunity."
+  },
+  {
+   "q": "Are moonwells considered dangerous?",
+   "aliases": [
+    "are moonwells arcane",
+    "is moonwell water safe",
+    "well of eternity danger"
+   ],
+   "answer": "Moonwells contain diluted essences traceably linked to the Well of Eternity. While druids and priestesses safely channel their energies for healing, blessing, and nature communion, the kaldorei strictly forbid using them for arcane sorcery due to the catastrophes reckless magic caused in ancient history."
+  },
+  {
+   "q": "Where does this quest chain lead next?",
+   "aliases": [
+    "what comes after crown of the earth",
+    "crown of the earth questline",
+    "next quest after tenaron"
+   ],
+   "answer": "Returning the filled phial completes the opening lesson of the Crown of the Earth series. Tenaron will guide you onward to Dolanaar and across Teldrassil, tasking you with purifying and tending to various sacred sites across the massive boughs of the new World Tree."
+  },
+  {
+   "q": "Where is the moonwell for this quest located?",
+   "aliases": [
+    "where is the moonwell",
+    "shadowglen moonwell location",
+    "find crystal phial well"
+   ],
+   "answer": "The moonwell is situated just a short walk north of the great boughs of Aldrassil, nestled peacefully among the woods of Shadowglen."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "This rite marks your passage out of Shadowglen, connecting your personal destiny to the sacrifice made atop Mount Hyjal and the responsibilities of safeguarding Teldrassil."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Moonwells are essential tools of the Cenarion circle, providing purified conduits of nature energy vital for tending to the balance of the forest."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Dedicated to Elune, moonwells serve as reflective shrines where the waters are consecrated under the Mother Moon's gaze."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "crown of the earth",
+  "crystal phial",
+  "hyjal",
+  "moonwell",
+  "nordrassil",
+  "shadowglen",
+  "teldrassil",
+  "tenaron stormgrip"
+ ],
+ "related": [
+  "npc:tenaron-stormgrip",
+  "subzone:aldrassil",
+  "quest:920",
+  "zone:teldrassil",
+  "topic:nordrassil",
+  "topic:druid",
+  "topic:elune",
+  "topic:burning-legion"
+ ],
+ "attribution": [
+  "Crown of the Earth"
+ ]
+}

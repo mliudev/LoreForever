@@ -1,0 +1,97 @@
+{
+ "key": "item:gaffer-jack",
+ "type": "item",
+ "name": "Gaffer Jack",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Gaffer Jack",
+  "quests": [
+   "quest:1579"
+  ]
+ },
+ "summary": "A Gaffer Jack is a specialized engineering component used for intricate mechanical adjustments, such as tuning stintle pegs. A crate of them was carelessly lost beneath the waves off the coast of Auberdine by the eccentric gnome inventor Wizbang Cranktoggle during his voyage across the sea.",
+ "sections": [
+  {
+   "title": "Lost at Sea",
+   "body": "Seeking peace and quiet away from the clattering forge-works and noisy taverns of Ironforge, gnome tinkerer Wizbang Cranktoggle booked passage aboard a ship bound for Auberdine. Having indulged in a bit too much drink during the ocean voyage, Wizbang managed to fumble and drop an entire container of gaffer jacks over the railing. These small mechanical fasteners sank into the misty coastal waters of Darkshore, leaving him stranded without the vital parts required to tune his stintle pegs.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sunken Salvage",
+   "body": "Because gaffer jacks were spilled into the surf along the shoreline, they occasionally snag on the hooks of patient fishermen casting into the coastal waters of Darkshore. Recovering these lost components allows Wizbang to assemble his bizarre contraptions, though dredging tiny metal hardware out of the open sea remains a testament to both extraordinary patience and pure luck.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Gaffer Jack used for?",
+   "aliases": [
+    "gaffer jack purpose",
+    "what does a gaffer jack do",
+    "gaffer jack use"
+   ],
+   "answer": "According to the gnome tinkerer Wizbang Cranktoggle, gaffer jacks are essential engineering components required to tune stintle pegs for his experimental inventions."
+  },
+  {
+   "q": "How did these end up in the ocean around Auberdine?",
+   "aliases": [
+    "why are gaffer jacks in the water",
+    "who dropped gaffer jacks",
+    "gaffer jack lost"
+   ],
+   "answer": "Wizbang Cranktoggle took a ship from the Eastern Kingdoms seeking peace and quiet away from Ironforge. During the voyage, he drank too heavily and accidentally dropped his crate of gaffer jacks overboard into the waters of Darkshore."
+  },
+  {
+   "q": "Who wants Gaffer Jacks recovered?",
+   "aliases": [
+    "who needs gaffer jacks",
+    "gaffer jack turn in",
+    "who takes gaffer jacks"
+   ],
+   "answer": "Wizbang Cranktoggle, an eccentric gnome inventor staying in the port town of Auberdine, needs eight of them returned to continue building his strange inventions."
+  },
+  {
+   "q": "Where can Gaffer Jacks be found?",
+   "aliases": [
+    "where to get gaffer jacks",
+    "how to find gaffer jacks",
+    "gaffer jack location"
+   ],
+   "answer": "They are submerged along the coastline of Darkshore, resting on the seabed where anglers occasionally snag them while fishing the coastal surf."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Fellow tinkerers will recognize the sheer frustration of losing proprietary hardware like gaffer jacks, without which delicate mechanisms like stintle pegs cannot be calibrated."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Leaving the bustle of Ironforge for a quiet life in Auberdine might be unorthodox for a gnome, but misplacing an entire crate of essential parts over the rail of a ship after drinking too much is entirely in character."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "fishing",
+  "gaffer jack",
+  "ironforge",
+  "stintle pegs",
+  "wizbang cranktoggle"
+ ],
+ "related": [
+  "npc:wizbang-cranktoggle",
+  "quest:1579",
+  "quest:1580",
+  "item:electropeller",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "quest:1141",
+  "npc:gubber-blump"
+ ],
+ "attribution": [
+  "Gaffer Jack",
+  "Gaffer Jacks"
+ ]
+}

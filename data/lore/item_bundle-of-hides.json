@@ -1,0 +1,101 @@
+{
+ "key": "item:bundle-of-hides",
+ "type": "item",
+ "name": "Bundle of Hides",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Bundle of Hides",
+  "quests": [
+   "quest:6361",
+   "quest:6362"
+  ]
+ },
+ "summary": "A Bundle of Hides consists of cured skins collected from the beasts of the Barrens, bundled together for transport across central Kalimdor. Bound for the leatherworkers of Thunder Bluff, it serves as a straightforward courier shipment that introduces travelers to the Horde's wind rider flight network.",
+ "sections": [
+  {
+   "title": "Frontier Trade",
+   "body": "The untamed plains of the Barrens are home to vast herds of kodo, prowling lions, and roving raptors. Hunters along the trade paths skin these creatures not only for meat and survival, but to supply city artisans. Without raw pelts from the wilds, settlements like Thunder Bluff would struggle to sustain their local leathercrafters, who transform dried skins into essential gear, pouches, armor, and bindings for the Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "Skyward Freight",
+   "body": "Transporting heavy goods overland through the Gold Road and over the Great Lift is dangerous and slow, constantly threatened by roaming quilboar and centaur raiders. To speed delivery between the Crossroads and the tauren capital, couriers rely on Devrak's trained wyverns. Handing a bundle of hides to a wind rider courier demonstrates the sheer efficiency of air travel across Kalimdor's fractured terrain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Bundle of Hides used for?",
+   "aliases": [
+    "bundle of hides purpose",
+    "why transport hides",
+    "what are hides for"
+   ],
+   "answer": "The skins were harvested from animals across the Barrens and are meant for Ahanu, a leatherworker in Thunder Bluff. He uses them to craft leather goods and armaments for the tauren and their Horde allies."
+  },
+  {
+   "q": "Who receives the shipment in Thunder Bluff?",
+   "aliases": [
+    "who gets the hides",
+    "bundle of hides recipient",
+    "where is ahanu"
+   ],
+   "answer": "Ahanu receives the parcel. He works out of Hewa's Armory, which sits directly at the base of the wind rider roost in Thunder Bluff."
+  },
+  {
+   "q": "Why send this bundle via a wind rider?",
+   "aliases": [
+    "why fly hides",
+    "crossroads flight hides",
+    "devrak wind rider"
+   ],
+   "answer": "Traveling across the Barrens and ascending to the mesas of Mulgore on foot takes days and risks ambush by centaur or quilboar. Flying atop a wind rider with the Crossroads flight master, Devrak, ensures the goods arrive swiftly and safely."
+  },
+  {
+   "q": "Who prepared the bundle in the Barrens?",
+   "aliases": [
+    "who gave the hides",
+    "jahan hides",
+    "who gathered the pelts"
+   ],
+   "answer": "The hides were collected and bundled by Jahan, a hunter and colleague of Ahanu working out in the Barrens to harvest materials from the savanna's wildlife."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Hauling simple shipments like pelts across the sky highlights how the Horde leverages wyvern flight paths to bind isolated desert outposts directly to sovereign capital cities."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Tauren rely on natural materials and reverent hunting, transforming hides from the neighboring savanna into the armor and crafts sold in the stalls of Mulgore."
+  }
+ ],
+ "keywords": [
+  "ahanu",
+  "barrens",
+  "bundle of hides",
+  "crossroads",
+  "devrak",
+  "hewa's armory",
+  "jahan",
+  "leatherworking",
+  "thunder bluff",
+  "wind rider"
+ ],
+ "related": [
+  "quest:6361",
+  "quest:6362",
+  "npc:ahanu",
+  "npc:devrak",
+  "subzone:crossroads",
+  "zone:thunderbluff",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Bundle of Hides",
+  "A Bundle of Hides (Classic)",
+  "Ride to Thunder Bluff (Classic)"
+ ]
+}

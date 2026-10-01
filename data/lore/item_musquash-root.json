@@ -1,0 +1,96 @@
+{
+ "key": "item:musquash-root",
+ "type": "item",
+ "name": "Musquash Root",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Musquash Root",
+  "quests": [
+   "quest:335"
+  ]
+ },
+ "summary": "Musquash Root is a rare botanical specimen found only in the damp soil beneath the massive waterfalls of the Stonewrought Dam in the Wetlands. It serves as a vital component in a concoction brewed by cultists hidden beneath Stormwind.",
+ "sections": [
+  {
+   "title": "A Rare Ingredient",
+   "body": "Musquash Root thrives in the perpetually mist-soaked ground where the cascade of the Stonewrought Dam crashes into the Wetlands. Its secluded and damp habitat makes it exceedingly difficult to harvest. While ordinary herbalists rarely seek it out, certain practitioners of the darker arts value the root for its potent chemical and alchemical properties.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Warlock's Scheme",
+   "body": "Beneath the streets of Stormwind, in the shadowy underbelly known as the Slaughtered Lamb, Zardeth of the Black Claw seeks this root alongside the Tear of Tilloa. Together, these rare flora form the foundation of a subtle brew designed to neutralize Lord Wishock, a member of the House of Nobles who has begun poking his nose into the city's hidden coven of warlocks.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Musquash Root found?",
+   "aliases": [
+    "where is musquash root",
+    "musquash root location",
+    "how to find musquash root"
+   ],
+   "answer": "Musquash Root grows exclusively in the Wetlands, resting at the very foot of the great falls beneath the Stonewrought Dam."
+  },
+  {
+   "q": "What is Musquash Root used for?",
+   "aliases": [
+    "what does musquash root do",
+    "musquash root purpose",
+    "why do i need musquash root"
+   ],
+   "answer": "It is combined with the Tear of Tilloa by Zardeth of the Black Claw to brew a concoction intended to poison or incapacitate Lord Wishock, preventing an investigation into Stormwind's warlock coven."
+  },
+  {
+   "q": "Who wants this root harvested?",
+   "aliases": [
+    "who needs musquash root",
+    "musquash root quest giver",
+    "who asks for musquash root"
+   ],
+   "answer": "Zardeth of the Black Claw, a warlock residing in the catacombs beneath the Slaughtered Lamb in Stormwind's Mage Quarter, directs agents to retrieve it."
+  },
+  {
+   "q": "Who is Lord Wishock?",
+   "aliases": [
+    "who is wishock",
+    "lord wishock"
+   ],
+   "answer": "Lord Wishock is a member of Stormwind's House of Nobles who learned about the warlock coven operating within the city and began lobbying the council for a formal investigation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "For warlocks operating beneath the Slaughtered Lamb, obtaining this root is essential to silencing nosy nobles and safeguarding their fragile sanctuary within the city."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Though not a standard trade herb, the root demonstrates how specific microclimates like the base of the Stonewrought Dam can nurture unique and dangerous flora."
+  }
+ ],
+ "keywords": [
+  "a noble brew",
+  "lord wishock",
+  "musquash root",
+  "stonewrought dam",
+  "tear of tilloa",
+  "wetlands",
+  "zardeth"
+ ],
+ "related": [
+  "quest:335",
+  "quest:397",
+  "item:tear-of-tilloa",
+  "subzone:stonewrought-dam",
+  "zone:wetlands",
+  "topic:house-of-nobles",
+  "zone:duskwood",
+  "subzone:darkshire"
+ ],
+ "attribution": [
+  "Musquash Root",
+  "A Noble Brew"
+ ]
+}

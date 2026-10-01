@@ -1,0 +1,118 @@
+{
+ "key": "quest:917",
+ "type": "quest",
+ "name": "Webwood Egg",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   917
+  ],
+  "level": "5",
+  "faction": "Alliance",
+  "start": "Gilshalan Windwalker",
+  "end": "",
+  "previous": "Webwood Venom",
+  "next": "Tenaron's Summons",
+  "wiki": "Webwood Egg (quest)",
+  "chain": []
+ },
+ "summary": "Gilshalan Windwalker tasks young defenders in Shadowglen with recovering an unhatched spider egg from deep inside Shadowthread Cave. Having gathered samples of their venom, he needs living specimens to study the unnatural aggression afflicting Teldrassil's wildlife. Securing an unhatched clutch allows researchers to study the creatures safely without subduing full-grown arachnids.",
+ "sections": [
+  {
+   "title": "A Safe Specimen",
+   "body": "Having secured raw venom from the aggressive Webwood spiders prowling the perimeter of Shadowglen, Gilshalan Windwalker requires live subjects to better understand their unnatural corruption. Knowing that hauling a thrashing, giant arachnid out of the subterranean depths would prove deadly for any novice, Gilshalan opts for a more practical solution: an unhatched egg taken directly from the brooding clutches within Shadowthread Cave.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to the Capital",
+   "body": "Shadowthread Cave serves as the subterranean nursery for the forest's increasingly hostile arachnids. Penetrating the cave and recovering an intact egg provides scholars with a controlled subject that can hatch under containment. Gilshalan intends to bundle the egg alongside his venom samples and send them directly to Darnassus for further examination, marking the conclusion of his local field study and directing recruits toward higher duties atop the boughs of Aldrassil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Gilshalan want an egg instead of an adult spider?",
+   "aliases": [
+    "why an egg",
+    "why not catch a live spider",
+    "why webwood egg"
+   ],
+   "answer": "Gilshalan acknowledges that capturing a live, giant spider is far too dangerous for an unproven recruit to handle, and far too difficult for him to contain alone. An intact, unhatched egg allows researchers to transport living specimens safely and arrange containment before the brood emerges."
+  },
+  {
+   "q": "Where is the Webwood egg found?",
+   "aliases": [
+    "egg location",
+    "where to find webwood egg",
+    "shadowthread cave nest"
+   ],
+   "answer": "The egg lies within a webbed nest deep inside Shadowthread Cave, which cuts into the boughs and roots at the northern end of Shadowglen in Teldrassil."
+  },
+  {
+   "q": "Who is Gilshalan Windwalker?",
+   "aliases": [
+    "who is gilshalan",
+    "gilshalan lore"
+   ],
+   "answer": "Gilshalan Windwalker is a night elf researcher stationed at Aldrassil in Shadowglen. He investigates the sudden, corrupting afflictions driving Teldrassil's native creatures to violent behavior."
+  },
+  {
+   "q": "What happens to the egg after it is turned in?",
+   "aliases": [
+    "what does gilshalan do with the egg",
+    "where does the egg go"
+   ],
+   "answer": "Gilshalan prepares the egg and his collected venom vials to be shipped to the capital city of Darnassus, where scholars and druids can examine them under controlled conditions once his work in Shadowglen concludes."
+  },
+  {
+   "q": "What comes after completing this task?",
+   "aliases": [
+    "next quest after webwood egg",
+    "what to do after egg"
+   ],
+   "answer": "After securing the egg, Gilshalan directs you up Aldrassil to answer Tenaron's Summons, introducing you to the elder druids guiding the heart of Shadowglen."
+  },
+  {
+   "q": "Why are the Webwood spiders so aggressive?",
+   "aliases": [
+    "why are spiders mad",
+    "spider corruption"
+   ],
+   "answer": "The spiders in Teldrassil, like much of its wildlife, have been succumbing to unnatural corruption taking root across the young World Tree, turning once-docile or neutral beasts into aggressive predators."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young night elves, recovering this egg illustrates the insidious corruption taking hold on Teldrassil, forcing scholars to study their own homeland's wildlife like hostile threats."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Studying eggs and venom gives Cenarion researchers an opportunity to diagnose whether the corruption altering these beasts can be cleansed or if the blight runs deeper."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "gilshalan windwalker",
+  "shadowglen",
+  "shadowthread cave",
+  "spider egg",
+  "teldrassil",
+  "webwood",
+  "webwood egg"
+ ],
+ "related": [
+  "npc:gilshalan-windwalker",
+  "subzone:shadowthread-cave",
+  "quest:916",
+  "quest:920",
+  "subzone:aldrassil",
+  "zone:teldrassil",
+  "zone:darnassus",
+  "quest:98397"
+ ],
+ "attribution": [
+  "Webwood Egg (quest)"
+ ]
+}

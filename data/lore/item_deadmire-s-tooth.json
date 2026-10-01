@@ -1,0 +1,82 @@
+{
+ "key": "item:deadmire-s-tooth",
+ "type": "item",
+ "name": "Deadmire's Tooth",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Deadmire's Tooth",
+  "quests": [
+   "quest:1205"
+  ]
+ },
+ "summary": "Deadmire's Tooth is a trophy taken from the ancient crocolisk known as Deadmire, who stalks the murky waters of Dustwallow Marsh. Bringing it to the hunter Melor Stonehoof atop Thunder Bluff proves that the aging predator has been granted a merciful and honorable death.",
+ "sections": [
+  {
+   "title": "A Trophy of Mercy",
+   "body": "In the traditions of the tauren hunters on Hunter Rise, tracking wild beasts is not merely a test of martial prowess or mindless bloodsport. It is a spiritual covenant of balance, reverence, and occasionally, mercy. Deadmire was once one of the most magnificent crocolisks in Dustwallow Marsh, but his great age turned his final years into excruciating torment. Despite possessing the unyielding spirit and terrifying ferocity of his prime, his massive bones and failing body became a prison of endless pain. Claiming Deadmire's Tooth serves as physical proof to Melor Stonehoof that the beast's prolonged suffering has finally been brought to an end through an honorable hunt.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Deadmire's Tooth used for?",
+   "aliases": [
+    "deadmire tooth turn in",
+    "who wants deadmire tooth",
+    "what do i do with deadmire tooth"
+   ],
+   "answer": "The tooth is brought to Melor Stonehoof on the Hunter Rise in Thunder Bluff. It fulfills the hunt he assigns to track down Deadmire and grants proof that the ancient predator was given a merciful release."
+  },
+  {
+   "q": "Where does Deadmire's Tooth come from?",
+   "aliases": [
+    "where to get deadmire tooth",
+    "who drops deadmire tooth",
+    "deadmire location"
+   ],
+   "answer": "The tooth is taken directly from Deadmire, an enormous, pale crocolisk prowling the waterways of Dustwallow Marsh, often spotted lurking around the river and islands north of the Stonemaul Ruins."
+  },
+  {
+   "q": "Why does Melor Stonehoof want Deadmire killed?",
+   "aliases": [
+    "why kill deadmire",
+    "melor stonehoof reason",
+    "is deadmire evil"
+   ],
+   "answer": "Melor does not view Deadmire as a monster, but as a noble creature enduring maddening physical agony in his old age. The hunt is an act of mercy, allowing the crocolisk's flame to pass on peacefully rather than waste away in slow torment."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For hunters learning under the mentors of Hunter Rise, claiming this tooth is a lesson that the hunt must incorporate respect and mercy, not just the pursuit of trophies."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The hunt for Deadmire embodies the Earth Mother's cycle of balance, where elderly predators are guided toward peace rather than left to suffer."
+  }
+ ],
+ "keywords": [
+  "crocolisk",
+  "deadmire",
+  "dustwallow",
+  "hunter rise",
+  "melor stonehoof",
+  "stonemaul",
+  "thunder bluff",
+  "tooth"
+ ],
+ "related": [
+  "quest:1205",
+  "npc:melor-stonehoof",
+  "zone:dustwallow",
+  "zone:thunderbluff",
+  "subzone:stonemaul-ruins",
+  "topic:hunter"
+ ],
+ "attribution": [
+  "Deadmire's Tooth",
+  "Deadmire (quest)"
+ ]
+}

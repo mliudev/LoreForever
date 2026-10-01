@@ -1,0 +1,96 @@
+{
+ "key": "item:filled-containment-coffer",
+ "type": "item",
+ "name": "Filled Containment Coffer",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Filled Containment Coffer",
+  "quests": [
+   "quest:1960"
+  ]
+ },
+ "summary": "A Filled Containment Coffer is an enchanted receptacle used by Forsaken spellcasters to trap erratic magical entities. By deploying a Cantation of Manifestation to reveal and weaken rift spawn in the Apothecarium, mages can trap the anomalies inside these reinforced boxes for safe examination.",
+ "sections": [
+  {
+   "title": "Trapping the Unseen",
+   "body": "When unexplained magical disturbances manifested within Algernon's shop in the Apothecarium, the Forsaken mage Anastasia Hartwell commissioned practitioners of the arcane to capture the entities responsible. Because the rift creatures exist purely as living magical energy and wander unseen, ordinary cages are useless. Instead, spellcasters reveal the entities with a Cantation of Manifestation, defeat them in combat, and snap these specially prepared containment coffers shut around them. The sealed boxes shield the carrier from volatile magical backlashes while keeping the specimens intact for magical dissection.",
+   "spoiler": 0
+  },
+  {
+   "title": "Arcane Forensics",
+   "body": "The presence of living mana creatures in the Undercity poses a serious threat. Once sealed into containment coffers, the captive beasts are transported back to Anastasia Hartwell and the city's scholars. The primary concern among the Forsaken mages is determining whether these intrusions are natural rifts in Azeroth's magical fabric or the preliminary probes of a calculated magical assault aimed at the kingdom.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside a Filled Containment Coffer?",
+   "aliases": [
+    "what is in the coffer",
+    "coffer contents",
+    "filled coffer monster"
+   ],
+   "answer": "Each coffer holds a captured rift spawn, an invisible creature made purely of raw magical energy that manifested inside Algernon's alchemy shop in the Apothecarium."
+  },
+  {
+   "q": "How is a containment coffer filled?",
+   "aliases": [
+    "how to fill coffer",
+    "how do i capture the rift spawn",
+    "filling coffer"
+   ],
+   "answer": "A mage must read the Cantation of Manifestation to make the hidden creatures visible, defeat them in combat, and deploy an empty coffer to trap the remaining energy before it dissipates."
+  },
+  {
+   "q": "Who wants these filled coffers in Undercity?",
+   "aliases": [
+    "who takes the coffers",
+    "coffer quest giver",
+    "anastasia hartwell coffer"
+   ],
+   "answer": "Anastasia Hartwell, a prominent mage trainer in the Magic Quarter of the Undercity, asks for these sealed coffers to investigate the disturbance threatening the city."
+  },
+  {
+   "q": "Why are the Forsaken studying these creatures?",
+   "aliases": [
+    "why study rift spawn",
+    "undercity rift reason"
+   ],
+   "answer": "Undercity's scholars need to discover whether the anomaly was a random tears in the local flow of magic or a deliberate, coordinated attack by a rival hostile magical force."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Forsaken apprentices handle these containment coffers as a practical lesson in abjuration, learning how to reveal hidden magical entities and bind unstable arcane energy into physical wards."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The safety of the Apothecarium is paramount to the Forsaken, making the investigation and containment of any mysterious magical breach an urgent domestic priority."
+  }
+ ],
+ "keywords": [
+  "algernon",
+  "anastasia hartwell",
+  "apothecarium",
+  "arcane disturbance",
+  "cantation of manifestation",
+  "containment coffer",
+  "filled containment coffer",
+  "rift spawn"
+ ],
+ "related": [
+  "quest:1960",
+  "npc:anastasia-hartwell",
+  "item:cantation-of-manifestation",
+  "item:chest-of-containment-coffers",
+  "subzone:apothecarium",
+  "zone:undercity",
+  "topic:mage"
+ ],
+ "attribution": [
+  "Filled Containment Coffer",
+  "Investigate the Alchemist Shop"
+ ]
+}

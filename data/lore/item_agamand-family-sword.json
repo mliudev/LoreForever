@@ -1,0 +1,94 @@
+{
+ "key": "item:agamand-family-sword",
+ "type": "item",
+ "name": "Agamand Family Sword",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Agamand Family Sword",
+  "quests": [
+   "quest:1821"
+  ]
+ },
+ "summary": "The Agamand Family Sword is a tarnished ancestral blade kept inside the Agamand Family Crypt in northern Tirisfal Glades. Once a proud symbol of the wealthy mill-owning dynasty, it is sought by the Forsaken Coleman Farthing to erase the final vestiges of his former masters' legacy.",
+ "sections": [
+  {
+   "title": "A Legacy in the Tomb",
+   "body": "Before the Third War, the Agamand dynasty held immense wealth and influence across the rolling mills of northern Tirisfal Glades. When the Scourge swept through Lordaeron, the family met a gruesome end, their bodies raised into mindless thralls of the Lich King. Their ancestral weapons, including the ceremonial family sword, were sealed away in the Agamand Family Crypt at the northern edge of the mills. Stripping these blades from their burial racks serves not merely as looting, but as a deliberate act to break whatever memory and noble standing remains of the fallen household.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vengeance from Beyond the Grave",
+   "body": "The sword is coveted by Coleman Farthing, a Forsaken residing in Brill who worked for the Agamands in life. Farthing holds a bitter grudge against his former masters, blaming their decisions for his death during the kingdom's fall. By dispatching adventurers to claim the sword alongside the dynasty's ancestral axe, dagger, and mace, Farthing seeks to rob the shambling Agamands of their last shred of honor, ensuring their bloodline's dignity is thoroughly extinguished.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Agamand Family Sword?",
+   "aliases": [
+    "agamand sword lore",
+    "what is agamand family sword"
+   ],
+   "answer": "It is an ancestral weapon belonging to the Agamands, a prominent noble family that operated the massive grain mills in northern Tirisfal Glades prior to the fall of Lordaeron."
+  },
+  {
+   "q": "Where is the sword located?",
+   "aliases": [
+    "where is agamand sword",
+    "sword location agamand"
+   ],
+   "answer": "The sword rests on a weapon rack within the Agamand Family Crypt, located at the northern edge of Agamand Mills in Tirisfal Glades, defended by Scourge thralls and risen members of the Agamand bloodline."
+  },
+  {
+   "q": "Why does Coleman Farthing want this sword?",
+   "aliases": [
+    "who wants the sword",
+    "why does farthing want heirlooms"
+   ],
+   "answer": "Coleman Farthing was employed by the Agamand family in life and blames them for his untimely death. He seeks the family's heirloom weapons to strip away their remaining honor and erase the memory of their dynasty."
+  },
+  {
+   "q": "What happened to the Agamand family?",
+   "aliases": [
+    "who are the agamands",
+    "agamand mills story"
+   ],
+   "answer": "The Agamands were slaughtered during the Scourge invasion of Lordaeron. Unlike the free-willed Forsaken, the deceased family members remain trapped in mindless servitude to the Lich King, haunting their ancestral estate and crypt."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, reclaiming artifacts from Tirisfal's former nobility represents a settling of scores with a living past that failed to protect them."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Though once a polished emblem of Lordaeron aristocracy, the blade now sits neglected in an unhallowed tomb, an artifact of ruined martial pride."
+  }
+ ],
+ "keywords": [
+  "agamand",
+  "crypt",
+  "farthing",
+  "heirloom",
+  "mills",
+  "scourge",
+  "sword",
+  "tirisfal"
+ ],
+ "related": [
+  "quest:1821",
+  "subzone:agamand-family-crypt",
+  "subzone:agamand-mills",
+  "npc:coleman-farthing",
+  "item:agamand-family-axe",
+  "item:agamand-family-dagger",
+  "item:agamand-family-mace",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Agamand Family Sword",
+  "Agamand Heirlooms"
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "key": "npc:melithar-staghelm",
+ "type": "npc",
+ "name": "Melithar Staghelm",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Melithar Staghelm",
+  "refs": 1
+ },
+ "summary": "Melithar Staghelm is a night elf stationed just outside Aldrassil in Shadowglen, Teldrassil's starting glade. He assists young night elf adventurers as they embark on their early training, sending them to nearby instructors and addressing minor local disturbances. While he shares the prominent Staghelm surname with Archdruid Fandral Staghelm, his exact connection to the ruling druid remains unconfirmed.",
+ "sections": [
+  {
+   "title": "A Guide at Aldrassil",
+   "body": "Standing directly outside the entrance to the great bough of Aldrassil, Melithar serves as an early point of contact for night elves emerging into the world. He directs newly awakened youth bearing various sigils to their respective class trainers, ensuring they receive proper tutelage in the martial and mystical arts. Beyond administrative guidance, Melithar watches over the immediate grounds of Shadowglen, enlisting help to deal with mischievous local wildlife and minor impish intrusions that threaten the sanctuary's peace.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Staghelm Name",
+   "body": "Bearing the surname Staghelm inevitably draws attention, as Archdruid Fandral Staghelm currently leads the Cenarion Circle in Darnassus following Malfurion Stormrage's disappearance into the Emerald Dream. However, Melithar makes no outward boast of grand heritage, nor does he actively speak of his lineage. Whether he is a distant kinsman of the Archdruid's venerable family line or merely shares an ancient Kaldorei family name, Melithar remains content fulfilling humble duties at the roots of Aldrassil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Melithar Staghelm?",
+   "aliases": [
+    "melithar",
+    "who is melithar",
+    "melithar shadowglen"
+   ],
+   "answer": "Melithar Staghelm is a night elf quest giver stationed on the pathway outside the bough of Aldrassil in Shadowglen. He helps newly arrived night elf adventurers get their bearings and directs them toward their mentors."
+  },
+  {
+   "q": "Is Melithar related to Archdruid Fandral Staghelm?",
+   "aliases": [
+    "fandral relative",
+    "fandral brother",
+    "staghelm family"
+   ],
+   "answer": "Their exact kinship is unknown. While they share the Staghelm name, Melithar never comments on being related to Archdruid Fandral Staghelm or his late son Valstann. It remains unclear whether he is a distant relative or simply shares a common Kaldorei surname."
+  },
+  {
+   "q": "What role does Melithar play for new adventurers?",
+   "aliases": [
+    "melithar quests",
+    "sigil quests",
+    "what does melithar do"
+   ],
+   "answer": "Novice night elves are directed to Melithar with their introductory sigils. Melithar receives these tokens and points each novice to the proper trainer nestled inside Aldrassil to begin their formal class education."
+  },
+  {
+   "q": "Where can I find Melithar Staghelm?",
+   "aliases": [
+    "melithar location",
+    "where is melithar",
+    "find melithar staghelm"
+   ],
+   "answer": "He stands right on the wooden rampway outside the entrance of Aldrassil, in the center of Shadowglen on Teldrassil."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves embarking on their journey in Shadowglen, Melithar is one of the very first faces encountered after departing Aldrassil's shelter."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "melithar",
+  "shadowglen",
+  "sigils",
+  "staghelm",
+  "teldrassil",
+  "trainer"
+ ],
+ "related": [
+  "subzone:aldrassil",
+  "npc:fandral-staghelm",
+  "zone:teldrassil",
+  "topic:night-elf",
+  "quest:458",
+  "quest:3116",
+  "quest:3117",
+  "quest:3118"
+ ],
+ "attribution": [
+  "Melithar Staghelm"
+ ]
+}

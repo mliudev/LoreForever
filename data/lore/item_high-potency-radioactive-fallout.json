@@ -1,0 +1,97 @@
+{
+ "key": "item:high-potency-radioactive-fallout",
+ "type": "item",
+ "name": "High Potency Radioactive Fallout",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "High Potency Radioactive Fallout",
+  "quests": [
+   "quest:2962"
+  ]
+ },
+ "summary": "High Potency Radioactive Fallout is a concentrated, volatile sample of the irradiated sludge poisoning the lower depths of Gnomeregan. Gathered in heavy leaden containers by order of gnome researchers, it is sought in the hope of reverse-engineering a cure for the afflicted leper gnomes.",
+ "sections": [
+  {
+   "title": "Straight from the Tap",
+   "body": "While minor radiation samples can be scraped from contaminated surface scavengers outside, the true heart of Gnomeregan's catastrophe demands something far more concentrated. Researchers stationed outside the fallen capital require raw, unadulterated radioactive fallout taken directly from living irradiated horrors, lurkers, and slimes creeping across the lowest tiers of the Hall of Gears. Because this viscous sludge is constantly decaying, it must be contained in a specialized leaden phial and returned quickly before the sample destabilizes entirely.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Search for Restoration",
+   "body": "The desperate pursuit of such lethal materials serves an urgent purpose. Ozzie Togglevolt and his colleagues believe that unlocking the secrets of the irradiated sludge is the only viable path toward developing a cure for the leper gnomes. Driven mad and deformed by the toxic venting ordered during the trogg invasion, these tragic survivors remain trapped in a living nightmare, making even the most dangerous gathering expeditions inside the ruins worth the hazard.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this radioactive fallout come from?",
+   "aliases": [
+    "where to get fallout",
+    "fallout location",
+    "source of radioactive fallout"
+   ],
+   "answer": "It is drawn directly from living irradiated creatures\u2014such as irradiated slimes, horrors, and lurkers\u2014dwelling deep within the lower levels of Gnomeregan's Hall of Gears."
+  },
+  {
+   "q": "Why is this sample needed?",
+   "aliases": [
+    "who wants the fallout",
+    "fallout purpose",
+    "why collect fallout"
+   ],
+   "answer": "Gnomish researchers, including Ozzie Togglevolt, require an undiluted, highly concentrated sample of Gnomeregan's radiation to study the affliction and attempt to craft a cure for their corrupted kin, the leper gnomes."
+  },
+  {
+   "q": "Why must it be handled so carefully?",
+   "aliases": [
+    "fallout decay",
+    "why lead phial",
+    "fallout unstable"
+   ],
+   "answer": "The fallout is extremely volatile and rapidly collapses as it decays. It requires heavy leaden containment to be transported safely and must be delivered to researchers before its potency degrades into useless residue."
+  },
+  {
+   "q": "Why wasn't earlier trogg residue good enough?",
+   "aliases": [
+    "why not trogg glow",
+    "trogg radiation vs fallout",
+    "previous sample failure"
+   ],
+   "answer": "Residue collected from surface-dwelling troggs outside the city proved to be too weak and impure for scientific testing. The researchers specifically need the raw, concentrated glow found only within creatures dwelling inside the irradiated city depths."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Every drop of toxic fallout gathered from the city depths represents a frail hope of reversing the horrifying mutation that tore your kin apart during the fall of Gnomeregan."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Containing and transporting volatile, decaying radioactive isotopes requires purpose-built leaden phials to shield the carrier from catastrophic exposure."
+  }
+ ],
+ "keywords": [
+  "gnomeregan",
+  "green glow",
+  "hall of gears",
+  "high potency radioactive fallout",
+  "irradiated slime",
+  "leper gnome",
+  "ozzie togglevolt"
+ ],
+ "related": [
+  "quest:2962",
+  "item:heavy-leaden-collection-phial",
+  "quest:2926",
+  "zone:gnomeregan",
+  "subzone:hall-of-gears",
+  "topic:leper-gnome",
+  "subzone:clean-zone",
+  "quest:2927"
+ ],
+ "attribution": [
+  "High Potency Radioactive Fallout",
+  "The Only Cure is More Green Glow"
+ ]
+}

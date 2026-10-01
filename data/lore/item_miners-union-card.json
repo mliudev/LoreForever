@@ -1,0 +1,91 @@
+{
+ "key": "item:miners-union-card",
+ "type": "item",
+ "name": "Miners' Union Card",
+ "era": "classic",
+ "zone": "deadmines",
+ "meta": {
+  "wiki": "Miners' Union Card",
+  "quests": [
+   "quest:168"
+  ]
+ },
+ "summary": "A Miners' Union Card is an identification credential once carried by laborers working the rich subterranean veins beneath Moonbrook. Following a catastrophic cave-in that sealed a wing of the tunnels, these tokens now remain on the restless skeletal corpses wandering the dark drifts.",
+ "sections": [
+  {
+   "title": "Tragedy in the Deep",
+   "body": "Long before the Defias Brotherhood took absolute control over Moonbrook, laborers toiled underground under the banner of the miners' guild, extracting valuable ore for the kingdom. That ended in disaster when a severe tunnel collapse crushed a major shaft, trapping and killing dozens of workers beneath tons of rock. Rather than finding a quiet grave, those who perished rose again as skeletal miners, excavators, and dynamiters. The union cards clutched in their bony pockets are the sole surviving proof of their identities, sought out by surviving colleagues in Stormwind hoping to bring closure to grieving families.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Miners' Union Card?",
+   "aliases": [
+    "what is union card",
+    "miners card",
+    "union card"
+   ],
+   "answer": "It is an official identification card belonging to a member of the guild that once excavated the Moonbrook mines. Surviving workers use these cards to confirm who perished in the underground disaster."
+  },
+  {
+   "q": "Where do these cards come from?",
+   "aliases": [
+    "where to find union cards",
+    "who drops miners cards",
+    "card drop location"
+   ],
+   "answer": "They are recovered from the undead laborers\u2014such as skeletal miners, undead excavators, and undead dynamiters\u2014haunting the collapsed drifts inside the Deadmines tunnels above Moonbrook."
+  },
+  {
+   "q": "Why are the miners undead?",
+   "aliases": [
+    "why skeletal miners",
+    "how did miners die",
+    "deadmines undead"
+   ],
+   "answer": "A catastrophic cave-in sealed them alive in a deep shaft. The dark, tainted atmosphere of the abandoned shafts prevented their souls from resting, binding their reanimated skeletons to reenact their final working hours."
+  },
+  {
+   "q": "Who wants these cards returned?",
+   "aliases": [
+    "who takes union cards",
+    "collecting memories questgiver",
+    "turn in union cards"
+   ],
+   "answer": "Surviving co-workers who escaped the cave-in now reside in Stormwind City, collecting the cards so they can notify the families of the fallen and grant them peace."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "For prospectors and pickaxe wielders, the cards serve as a grim reminder of the deadly risks of subterranean cave-ins and unmanaged mine shafts."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Recovering these lost tokens provides closure to families across the kingdom of Stormwind who never learned the true fate of their working kin."
+  }
+ ],
+ "keywords": [
+  "cave-in",
+  "collecting memories",
+  "deadmines",
+  "miners' union card",
+  "moonbrook",
+  "skeletal miner",
+  "stormwind",
+  "union card"
+ ],
+ "related": [
+  "quest:168",
+  "subzone:deadmines",
+  "zone:deadmines",
+  "subzone:moonbrook",
+  "zone:westfall",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Miners' Union Card",
+  "Collecting Memories"
+ ]
+}

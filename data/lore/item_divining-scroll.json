@@ -1,0 +1,91 @@
+{
+ "key": "item:divining-scroll",
+ "type": "item",
+ "name": "Divining Scroll",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Divining Scroll",
+  "quests": [
+   "quest:1016"
+  ]
+ },
+ "summary": "The Divining Scroll is an enchanted parchment provided by Sentinel Velene Starstrike at Silverwind Refuge. Its magic allows investigators to trace the magical signature of the unnatural water elementals infesting Ashenvale back to their creator.",
+ "sections": [
+  {
+   "title": "Tracing Unnatural Elementals",
+   "body": "When corrupt water elementals began rising from the pristine pools of Ashenvale, the Sentinels knew the disturbance was not a natural emergence. Sentinel Velene Starstrike acquired this divination scroll to identify the person responsible. By channeling the scroll's magic through intact elemental bracers as a focusing reagent, the user extracts the summoner's signature, transforming the blank parchment into a Divined Scroll that names the guilty party.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Divining Scroll used for?",
+   "aliases": [
+    "what does the scroll do",
+    "divining scroll purpose",
+    "why use divining scroll"
+   ],
+   "answer": "The scroll is designed to identify who created the corrupt water elementals invading Ashenvale. Using intact elemental bracers as a focus, the parchment channels divination magic to read the caster's aura and record their identity."
+  },
+  {
+   "q": "Who provides the Divining Scroll?",
+   "aliases": [
+    "who gives divining scroll",
+    "where to get scroll",
+    "velene starstrike scroll"
+   ],
+   "answer": "Sentinel Velene Starstrike provides the scroll to Alliance investigators at Silverwind Refuge in southern Ashenvale during her investigation into the tainted waters."
+  },
+  {
+   "q": "Why are intact elemental bracers needed?",
+   "aliases": [
+    "why bracers",
+    "intact elemental bracers",
+    "reagent for scroll"
+   ],
+   "answer": "Most bracers shatter beyond recognition during combat. A handful of intact bracers still retain enough residual binding magic from their summoner to serve as a proper arcane focus for the divination spell."
+  },
+  {
+   "q": "What happens after the scroll is used?",
+   "aliases": [
+    "divined scroll",
+    "after using scroll",
+    "what does it turn into"
+   ],
+   "answer": "Once activated in the presence of five intact bracers, the item is consumed and becomes a Divined Scroll, revealing that a rogue mage is deliberately summoning the corrupt elementals into the forest's lakes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The scroll showcases classic divination magic used to track arcane resonance, revealing that a fellow practitioner of the arcane is abusing elemental summoning within sacred kaldorei groves."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the Sentinels protecting Ashenvale, this scroll is a crucial tool to expose outsiders who desecrate the forest's pristine waters with unnatural corruption."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "divined scroll",
+  "divining scroll",
+  "elemental bracers",
+  "silverwind refuge",
+  "velene starstrike",
+  "water elementals"
+ ],
+ "related": [
+  "quest:1016",
+  "item:divined-scroll",
+  "npc:sentinel-velene-starstrike",
+  "subzone:silverwind-refuge",
+  "quest:1017",
+  "zone:ashenvale",
+  "topic:mage"
+ ],
+ "attribution": [
+  "Divining Scroll",
+  "Elemental Bracers (quest)"
+ ]
+}

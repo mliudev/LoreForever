@@ -1,0 +1,95 @@
+{
+ "key": "item:serpentbloom",
+ "type": "item",
+ "name": "Serpentbloom",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "wiki": "Serpentbloom",
+  "quests": [
+   "quest:962"
+  ]
+ },
+ "summary": "Serpentbloom is a rare, subterranean herb found growing only in the dark depths of the Wailing Caverns. Its potent natural properties have drawn the keen interest of the Forsaken's Royal Apothecary Society.",
+ "sections": [
+  {
+   "title": "A Rare Subterranean Flora",
+   "body": "Serpentbloom grows exclusively within the damp, shadowy tunnels of the Wailing Caverns beneath the Barrens. Rooted in an ecosystem warped by unrestrained Emerald Dream energies, the plant thrives far from sunlight and often harbors venomous serpents nesting among its stems. Because the cave system is overrun with hostile beasts and corrupted druids, few who venture inside ever return with viable specimens.",
+   "spoiler": 0
+  },
+  {
+   "title": "Apothecary Interest",
+   "body": "Operating from the Pools of Vision beneath Thunder Bluff, Apothecary Zamah collects Serpentbloom on behalf of the Royal Apothecary Society of Undercity. The Forsaken continuously seek out virulent, strange, and chemically potent vegetation across Kalimdor to fuel their research for the Dark Lady. Zamah believes that harvesting Serpentbloom in significant quantities could yield valuable breakthroughs for Forsaken alchemy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Serpentbloom grow?",
+   "aliases": [
+    "where to find serpentbloom",
+    "serpentbloom location",
+    "wailing caverns herb"
+   ],
+   "answer": "Serpentbloom is found only deep inside the Wailing Caverns, a labyrinthine cavern network located southwest of the Crossroads in the Barrens. It clings to the ground in the dark, damp recesses of the cave."
+  },
+  {
+   "q": "Why does the Royal Apothecary Society want Serpentbloom?",
+   "aliases": [
+    "who wants serpentbloom",
+    "apothecary zamah herb",
+    "why collect serpentbloom"
+   ],
+   "answer": "Apothecary Zamah, an agent of the Royal Apothecary Society stationed in Thunder Bluff, seeks the plant for research. The Forsaken examine unusual and dangerous flora from across Kalimdor to develop new chemical concoctions and support the broader goals of Sylvanas Windrunner."
+  },
+  {
+   "q": "Why is harvesting Serpentbloom hazardous?",
+   "aliases": [
+    "serpentbloom danger",
+    "serpentbloom snake"
+   ],
+   "answer": "Beyond the general perils of the Wailing Caverns\u2014which crawl with raptors, crocolisks, and corrupted druids\u2014the herb itself frequently shelters venomous snakes. Disturbing the plant often prompts these hidden serpents to strike."
+  },
+  {
+   "q": "Can herbalists find Serpentbloom more easily?",
+   "aliases": [
+    "find serpentbloom herbalism",
+    "tracking serpentbloom"
+   ],
+   "answer": "Yes. Those trained in herbalism are naturally attuned to spotting vegetative growth and can track Serpentbloom patches amid the shadowy corners of the cavern floor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Procuring Serpentbloom directly aids Apothecary Zamah and the Royal Apothecary Society as they search foreign lands for botanical assets to strengthen the Forsaken."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Trained herbalists possess the keen eyes necessary to track down these rare cavernous blooms where others see only damp stone."
+  }
+ ],
+ "keywords": [
+  "apothecary zamah",
+  "barrens",
+  "herb",
+  "royal apothecary society",
+  "serpentbloom",
+  "thunder bluff",
+  "wailing caverns"
+ ],
+ "related": [
+  "quest:962",
+  "quest:853",
+  "zone:wailing",
+  "zone:barrens",
+  "zone:thunderbluff",
+  "topic:royal-apothecary-society",
+  "topic:forsaken",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "Serpentbloom",
+  "Serpentbloom (quest)"
+ ]
+}

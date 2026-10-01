@@ -1,0 +1,90 @@
+{
+ "key": "item:hallowed-rune",
+ "type": "item",
+ "name": "Hallowed Rune",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Hallowed Rune",
+  "quests": [
+   "quest:3110"
+  ]
+ },
+ "summary": "The Hallowed Rune is an inscribed stone passed to novice priests beginning their training in Coldridge Valley. Sent by the dwarven priest trainer Branstock Khalder, it calls aspiring wielders of the Holy Light into Anvilmar to begin their formal tutelage.",
+ "sections": [
+  {
+   "title": "A Calling to the Light",
+   "body": "When a fledgling priest demonstrates their resolve aiding the mountaineers and defenders of Coldridge Valley, Branstock Khalder sends forth the Hallowed Rune. Inscribed with teachings of the Holy Light, the stone serves as both an introduction and an invitation. Dwarven novices are directed to step away from minor skirmishes in the snow and report to Anvilmar, where Branstock prepares them to mend wounds and harness holy power against the trogg infestation threatening Dun Morogh.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Hallowed Rune?",
+   "aliases": [
+    "what is this item",
+    "hallowed rune item",
+    "rune purpose"
+   ],
+   "answer": "The Hallowed Rune is a small sacred stone bearing words of guidance for novice priests. It serves as an official summons from Branstock Khalder to begin formal spiritual and magical instruction inside Anvilmar."
+  },
+  {
+   "q": "Who sends the Hallowed Rune to you?",
+   "aliases": [
+    "who sent the rune",
+    "who gave me this rune",
+    "branstock rune"
+   ],
+   "answer": "It is sent by Branstock Khalder, the dwarven priest trainer stationed within Anvilmar. He passes it through allies in Coldridge Valley to reach young priests who have begun proving themselves in the field."
+  },
+  {
+   "q": "What should I do after receiving the Hallowed Rune?",
+   "aliases": [
+    "where do i take the rune",
+    "what to do with hallowed rune"
+   ],
+   "answer": "You should take a moment to read the rune and then head inside the main hall of Anvilmar to present yourself to Branstock Khalder, where he will offer to teach you new prayers and spells."
+  },
+  {
+   "q": "Why does Branstock want novice priests trained so quickly?",
+   "aliases": [
+    "why need priests",
+    "trogg problem priests"
+   ],
+   "answer": "Coldridge Valley is under steady harassment from trogg incursions, and the mountaineers need all the divine healing and offensive power they can muster to defend Dun Morogh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "The Hallowed Rune marks the official beginning of a priest's formal mentorship under the Holy Light in Coldridge Valley."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven priests blend devout reverence for the Light with steadfast duty to Ironforge, stepping up to defend their mountain homeland from troggs."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "branstock khalder",
+  "coldridge valley",
+  "dun morogh",
+  "hallowed rune",
+  "priest",
+  "troggs"
+ ],
+ "related": [
+  "quest:3110",
+  "npc:branstock-khalder",
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "topic:priest",
+  "topic:light",
+  "topic:trogg",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Hallowed Rune",
+  "Hallowed Rune (Classic)"
+ ]
+}

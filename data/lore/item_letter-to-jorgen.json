@@ -1,0 +1,90 @@
+{
+ "key": "item:letter-to-jorgen",
+ "type": "item",
+ "name": "Letter to Jorgen",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Letter to Jorgen",
+  "quests": [
+   "quest:1241"
+  ]
+ },
+ "summary": "The Letter to Jorgen is a confidential missive drafted to enlist an old contact in Stormwind City. It serves as an operative's introduction during the early stages of an inquiry into a high-level diplomatic disappearance.",
+ "sections": [
+  {
+   "title": "A Dispassionate Summons",
+   "body": "When a high-ranking diplomat bound for Theramore failed to arrive for scheduled talks with Lady Jaina Proudmoore, royal investigators scrambled to keep the incident quiet. While official agents began scouring the capital, alternative channels were quietly mobilized. This sealed letter was drafted to circumvent standard military bureaucracy, aimed specifically at Jorgen\u2014a gruff veteran passing his days fishing beneath the colossal statues in the Valley of Heroes. The note calls upon old obligations, pulling an unwilling contact into a covert investigation touched by rumors of Defias conspiracy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this letter?",
+   "aliases": [
+    "what does letter to jorgen do",
+    "why letter to jorgen",
+    "letter purpose"
+   ],
+   "answer": "The letter acts as an introduction and a call to honor an old obligation. It directs the bearer to Jorgen, an operative in the Valley of Heroes, to bring independent eyes onto the case of a missing diplomat without alerting the wider public."
+  },
+  {
+   "q": "Who is Jorgen?",
+   "aliases": [
+    "who is jorgen",
+    "jorgen npc",
+    "jorgen stormwind"
+   ],
+   "answer": "Jorgen is a reclusive contact residing just inside the gates of Stormwind, spending his time fishing along the waters of the Valley of Heroes. Though irritated by interruptions, he is bound by a past debt to assist when presented with this missive."
+  },
+  {
+   "q": "What disappearance does the letter relate to?",
+   "aliases": [
+    "what diplomat is missing",
+    "who disappeared",
+    "missing diplomat"
+   ],
+   "answer": "A prominent diplomat departed Stormwind on a voyage to Theramore to hold audience with Lady Jaina Proudmoore, but vanished en route. Suspicion points toward the Defias Brotherhood, though the full extent of the plot remains tightly guarded."
+  },
+  {
+   "q": "Where is the letter delivered?",
+   "aliases": [
+    "where do i take the letter",
+    "jorgen location",
+    "where is jorgen"
+   ],
+   "answer": "The letter is carried to the Valley of Heroes, the grand entryway of Stormwind City lined with monuments to the heroes of the Second War. Jorgen can be found along the water's edge near the front gates."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The missive touches on the fragile stability of the Alliance, seeking to quietly handle an incident that threatens diplomatic ties between Stormwind and Theramore."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Operating through hushed dispatches and reluctant street-level informants rather than the city guard is a familiar, necessary method for uncovering foul play in the capital."
+  }
+ ],
+ "keywords": [
+  "jaina proudmoore",
+  "jorgen",
+  "letter to jorgen",
+  "missing diplomat",
+  "stormwind",
+  "theramore",
+  "valley of heroes"
+ ],
+ "related": [
+  "quest:1241",
+  "npc:jorgen",
+  "subzone:valley-of-heroes",
+  "zone:stormwind",
+  "npc:jaina-proudmoore",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Letter to Jorgen",
+  "The Missing Diplomat (2)"
+ ]
+}

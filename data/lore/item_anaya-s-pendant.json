@@ -1,0 +1,94 @@
+{
+ "key": "item:anaya-s-pendant",
+ "type": "item",
+ "name": "Anaya's Pendant",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Anaya's Pendant",
+  "quests": [
+   "quest:963"
+  ]
+ },
+ "summary": "Anaya's Pendant is a keepsake carried by the restless ghost of Anaya Dawnrunner among the ruins of Ameth'Aran. It serves as a tragic token of remembrance for her lover, Cerellean Whiteclaw, who survived the Sundering only to find her spirit still tormented millennia later.",
+ "sections": [
+  {
+   "title": "A Keepsake Across Millennia",
+   "body": "Ten thousand years ago, during the cataclysmic destruction of the Well of Eternity, the ancient kaldorei city of Ameth'Aran fell in ruin. Believing his beloved Anaya had perished, Cerellean Whiteclaw carried his profound grief into the long slumber alongside Shan'do Malfurion Stormrage. When he at last awakened, he wandered Darkshore only to discover that Anaya's tormented apparition still drifted through Ameth'Aran, bearing this very pendant. Unable to bear raising a hand against her himself, Cerellean asks passing travelers to release her spirit and recover the heirloom.",
+   "spoiler": 0
+  },
+  {
+   "title": "Parting and Peace",
+   "body": "Returning the pendant to Cerellean in Auberdine allows the lingering spirit of Anaya Dawnrunner to briefly manifest before him one last time. Freed from the anguish binding her to the haunted ruins of Ameth'Aran, her ghost fades peacefully into the night, leaving Cerellean alone with the pendant and his enduring memory of their ancient love.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Anaya's Pendant come from?",
+   "aliases": [
+    "where to get anayas pendant",
+    "how do i get anaya pendant",
+    "who drops anaya pendant"
+   ],
+   "answer": "The pendant is recovered from the ghost of Anaya Dawnrunner, who wanders the ancient kaldorei ruins of Ameth'Aran in southern Darkshore."
+  },
+  {
+   "q": "Who wants Anaya's Pendant?",
+   "aliases": [
+    "who do i give anayas pendant to",
+    "cerellean whiteclaw quest",
+    "turn in anayas pendant"
+   ],
+   "answer": "It belongs to Cerellean Whiteclaw, a grieving night elf residing in the coastal town of Auberdine in Darkshore."
+  },
+  {
+   "q": "Why couldn't Cerellean retrieve the pendant himself?",
+   "aliases": [
+    "why didnt cerellean kill anaya",
+    "why does cerellean need help"
+   ],
+   "answer": "Cerellean discovered his lost love's spirit roaming the ruins of Ameth'Aran, but even after ten thousand years of sorrow, he could not bear the heartbreak of raising his own hand against her."
+  },
+  {
+   "q": "What happens when you return the pendant to Cerellean?",
+   "aliases": [
+    "what happens to anaya",
+    "cerellean reaction"
+   ],
+   "answer": "When the pendant is brought back to Cerellean in Auberdine, Anaya's spirit briefly appears before him in farewell before fading away into peace, allowing Cerellean to grieve her memory at last."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The pendant is a poignant reminder of the enduring scars left by the War of the Ancients, where countless lives and loves were torn apart during the Great Sundering."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Like many druids who followed Shan'do Stormrage into the Emerald Dream, Cerellean slept for millennia hoping to escape his grief, only to wake to lingering ghosts in the waking world."
+  }
+ ],
+ "keywords": [
+  "ameth'aran",
+  "anaya dawnrunner",
+  "auberdine",
+  "cerellean whiteclaw",
+  "darkshore",
+  "for love eternal",
+  "pendant",
+  "well of eternity"
+ ],
+ "related": [
+  "quest:963",
+  "npc:cerellean-whiteclaw",
+  "subzone:ameth-aran",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "topic:shan-do"
+ ],
+ "attribution": [
+  "Anaya's Pendant",
+  "For Love Eternal"
+ ]
+}

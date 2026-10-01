@@ -1,0 +1,87 @@
+{
+ "key": "item:sarltooth-s-talon",
+ "type": "item",
+ "name": "Sarltooth's Talon",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Sarltooth's Talon",
+  "quests": [
+   "quest:296"
+  ]
+ },
+ "summary": "Sarltooth's Talon is a severed claw taken from the alpha raptor lurking above Whelgar's Excavation Site in the Wetlands. It serves as tangible proof for the dwarf Ormer Ironbraid that the vicious beast responsible for overrunning the archaeological dig has been slain.",
+ "sections": [
+  {
+   "title": "A Trophy of Vengeance",
+   "body": "When raptors overran Whelgar's Excavation Site and butchered the dwarven expedition, Ormer Ironbraid watched from the ridge above, unable to prevent the slaughter. He singled out one massive, menacing raptor\u2014Sarltooth\u2014as the likely pack leader behind the assault. Seeking retribution for his fallen kin, Ormer demanded the beast's death and requested one of its vicious talons as proof of the deed. Severing this claw marks the end of Sarltooth's reign of terror over the ancient dwarven ruins.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Sarltooth's Talon come from?",
+   "aliases": [
+    "who drops sarltooths talon",
+    "sarltooth location",
+    "how to get talon"
+   ],
+   "answer": "The talon is carved from Sarltooth, a large alpha raptor prowling the western ridges overlooking Whelgar's Excavation Site in the Wetlands."
+  },
+  {
+   "q": "Who wants Sarltooth's Talon?",
+   "aliases": [
+    "who takes the talon",
+    "where to turn in talon",
+    "ormer ironbraid quest"
+   ],
+   "answer": "Ormer Ironbraid, an Prospector stationed on the overlook above Whelgar's Excavation Site, asks for the talon to confirm that the beast that slaughtered his crew has been put down."
+  },
+  {
+   "q": "Why does Ormer Ironbraid need proof of Sarltooth's death?",
+   "aliases": [
+    "why kill sarltooth",
+    "what did sarltooth do"
+   ],
+   "answer": "Ormer believes Sarltooth led the raptor pack that displaced and killed the dwarven excavators. He considers the talon a token of justice and closure for his fallen colleagues."
+  },
+  {
+   "q": "What happened to the dwarves at the excavation site?",
+   "aliases": [
+    "whelgars excavation site lore",
+    "why are raptors at the dig"
+   ],
+   "answer": "The dwarven dig was meant to uncover ancient artifacts for the Explorers' League, but wild raptors ambushed the workers, slaughtering most of them and driving the survivors to the nearby ridge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Recovering this talon delivers long-awaited vengeance for the fallen dwarven archaeologists who lost their lives serving the Explorers' League at the behest of King Magni Bronzebeard."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking down a cunning pack leader like Sarltooth and claiming a claw as a trophy is a classic test of marksmanship and beast mastery."
+  }
+ ],
+ "keywords": [
+  "excavation",
+  "ormer ironbraid",
+  "raptor",
+  "sarltooth",
+  "talon",
+  "wetlands",
+  "whelgar"
+ ],
+ "related": [
+  "quest:294",
+  "npc:ormer-ironbraid",
+  "subzone:whelgar-s-excavation-site",
+  "zone:wetlands",
+  "quest:299"
+ ],
+ "attribution": [
+  "Sarltooth's Talon",
+  "Ormer's Revenge (3)"
+ ]
+}

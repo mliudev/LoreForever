@@ -1,0 +1,123 @@
+{
+ "key": "quest:3085",
+ "type": "quest",
+ "name": "Hallowed Tablet",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   3085
+  ],
+  "level": "1",
+  "faction": "Horde",
+  "start": "Gornek",
+  "end": "Ken'jai",
+  "previous": "Cutting Teeth",
+  "next": null,
+  "wiki": "Hallowed Tablet (quest)",
+  "chain": []
+ },
+ "summary": "A simple summons delivered to fledgling priests in the Valley of Trials after their initial trial of strength. The inscribed tablet directs young spiritualists to Ken'jai, the resident troll priest trainer, who introduces them to the deeper communion with the spirits.",
+ "sections": [
+  {
+   "title": "A Message from Ken'jai",
+   "body": "After proving their mettle against the local boars under Gornek's supervision, young priests training in the Valley of Trials receive an inscribed stone known as the Hallowed Tablet. Delivered through Gornek, the message bears the mark of Ken'jai, a Darkspear mystic positioned outside the Den who watches over newcomers called to the path of faith and spiritual magic.",
+   "spoiler": 0
+  },
+  {
+   "title": "Communing with the Spirits",
+   "body": "Unlike the Holy Light practiced by their human or dwarven counterparts across the sea, priesthood among the Horde's Darkspear trolls centers on communion with the spirits and loa. Ken'jai welcomes fledgling acolytes to Durotar by reminding them that their power stems from spiritual discipline, promising to instruct them in greater rites only as their spiritual bond matures.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Hallowed Tablet?",
+   "aliases": [
+    "what is hallowed tablet",
+    "hallowed tablet item",
+    "tablet lore"
+   ],
+   "answer": "It is an inscribed message sent by the troll priest trainer Ken'jai to young priests training in the Valley of Trials. Gornek holds onto it until the initiate proves their basic capabilities in the valley."
+  },
+  {
+   "q": "Who is Ken'jai?",
+   "aliases": [
+    "kenjai",
+    "who is kenjai",
+    "ken'jai trainer"
+   ],
+   "answer": "Ken'jai is a Darkspear troll priest trainer stationed outside the Den in the Valley of Trials. He mentors young initiates in communion with the spirits and guides them as they learn to wield both healing and shadowy spiritual arts."
+  },
+  {
+   "q": "Why does a priest start out fighting mottled boars?",
+   "aliases": [
+    "why kill boars",
+    "cutting teeth connection"
+   ],
+   "answer": "Every initiate in the Valley of Trials, regardless of their calling, must prove basic self-reliance and physical survival skills before specialized instructors will invest time in training them."
+  },
+  {
+   "q": "How does Ken'jai's priesthood differ from the Holy Light?",
+   "aliases": [
+    "troll priest lore",
+    "horde priests",
+    "spirits vs light"
+   ],
+   "answer": "Darkspear priests invoke the spirits and the loa rather than praying to the Holy Light of the human and dwarven churches. Ken'jai emphasizes maintaining favor and harmony with these unseen entities."
+  },
+  {
+   "q": "Where is the Den?",
+   "aliases": [
+    "the den durotar",
+    "where is the den",
+    "kenjai location"
+   ],
+   "answer": "The Den is a hollowed cave settlement nestled in the Valley of Trials in southern Durotar, serving as a hub for trainers and trial-masters overseeing new Horde recruits."
+  },
+  {
+   "q": "Can orcs become priests through this quest?",
+   "aliases": [
+    "orc priests",
+    "can orcs be priests",
+    "orc hallowed tablet"
+   ],
+   "answer": "No. In the Valley of Trials, only Darkspear trolls possess the spiritual traditions necessary to train as priests under Ken'jai. Orcish culture relies instead on shamanism and warlock magic."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This quest marks the transition from mundane valley trials to formal spiritual instruction under Ken'jai outside the Den."
+  },
+  {
+   "target": "race:Troll",
+   "text": "The tablet emphasizes Darkspear spiritual traditions, turning to ancestral spirits and the loa rather than the dogmatic philosophies of foreign priesthoods."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As the Horde settles Durotar, mystical practitioners ensure that spiritual rites and the will of the spirits remain central to the new nation's growth."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "durotar",
+  "gornek",
+  "hallowed tablet",
+  "ken'jai",
+  "priest",
+  "spirits",
+  "the den",
+  "valley of trials"
+ ],
+ "related": [
+  "quest:cutting-teeth",
+  "npc:gornek",
+  "subzone:valley-of-trials",
+  "quest:1089",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Hallowed Tablet (quest)"
+ ]
+}

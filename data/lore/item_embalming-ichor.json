@@ -1,0 +1,93 @@
+{
+ "key": "item:embalming-ichor",
+ "type": "item",
+ "name": "Embalming Ichor",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Embalming Ichor",
+  "quests": [
+   "quest:358"
+  ]
+ },
+ "summary": "Embalming Ichor is an unnatural preserving fluid harvested from the bodies of Rot Hide gnolls in northern Tirisfal Glades. It sustains the gnolls' animated existence and has drawn the close interest of the Forsaken Apothecaries, who seek to analyze its properties to counter the Scourge.",
+ "sections": [
+  {
+   "title": "Unnatural Preservation",
+   "body": "The Rot Hide gnolls infesting Garren's Haunt and the nearby mass graves are not typical wild beasts; they are rotting, preserved thralls deployed by the Scourge to dig up plague victims. Flowing through their decayed veins is Embalming Ichor, a foul fluid that artificially preserves their flesh and grants them enduring unlife. For Magistrate Sevren in Brill, recovering vials of this ichor serves a dual purpose: it confirms the destruction of these graverobbers and provides Royal Apothecary Society researchers with fresh specimens to dissect, study, and weaponize against the Lich King's minions.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Embalming Ichor?",
+   "aliases": [
+    "embalming ichor",
+    "what is ichor",
+    "gnoll fluid"
+   ],
+   "answer": "It is a preserving alchemical substance found within the animated bodies of Rot Hide gnolls in Tirisfal Glades. The fluid sustains their rotting flesh and keeps them moving in service to the Scourge."
+  },
+  {
+   "q": "Who wants this ichor collected?",
+   "aliases": [
+    "who needs embalming ichor",
+    "magistrate sevren ichor",
+    "who wants ichor"
+   ],
+   "answer": "Magistrate Sevren, presiding over the town of Brill, orders Forsaken champions to harvest it from slain Rot Hides so that the Royal Apothecary Society can study its chemical makeup."
+  },
+  {
+   "q": "Why are the Rot Hide gnolls digging up graves?",
+   "aliases": [
+    "why are gnolls graverobbing",
+    "mass graves tirisfal",
+    "gnoll scourge connection"
+   ],
+   "answer": "The Scourge uses the Rot Hide gnolls to exhume the bodies of plague victims buried in the northern mass graves near Garren's Haunt, seeking raw material to bolster their ranks."
+  },
+  {
+   "q": "What do the Forsaken plan to do with the fluid?",
+   "aliases": [
+    "what does sevren do with ichor",
+    "apothecary study ichor",
+    "use of embalming ichor"
+   ],
+   "answer": "The Apothecaries in the Undercity study the ichor to uncover its secrets, hoping to develop countermeasures or new alchemical formulas against the Scourge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, denying the Scourge fresh cadavers from the mass graves is vital to protecting Tirisfal and securing raw materials for their own survival."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The preservation fluid inside the Rot Hides showcases dark alchemical methods that intrigue herbalists and chemists studying the plague's reagents."
+  }
+ ],
+ "keywords": [
+  "apothecaries",
+  "brill",
+  "embalming ichor",
+  "garren's haunt",
+  "graverobber",
+  "magistrate sevren",
+  "mass graves",
+  "rot hide"
+ ],
+ "related": [
+  "quest:358",
+  "npc:magistrate-sevren",
+  "subzone:garren-s-haunt",
+  "subzone:brill",
+  "zone:tirisfal",
+  "topic:gnoll",
+  "topic:scourge",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Embalming Ichor",
+  "Graverobbers (Classic)"
+ ]
+}

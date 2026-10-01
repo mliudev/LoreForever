@@ -1,0 +1,93 @@
+{
+ "key": "item:clarice-s-pendant",
+ "type": "item",
+ "name": "Clarice's Pendant",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Clarice's Pendant",
+  "quests": [
+   "quest:264"
+  ]
+ },
+ "summary": "Clarice's Pendant is a small keepsake belonging to Clarice Foster, an undead resident of the Sepulcher. Once a token from her former husband, Yuriv, the jewelry now serves only as a bitter reminder of abandoned family and misplaced devotion to the Light.",
+ "sections": [
+  {
+   "title": "A Bitter Token",
+   "body": "Clarice's Pendant represents the fractured human past common to many of the Forsaken. Before the Third War consumed Lordaeron, Clarice's husband Yuriv abandoned her and their children to join the fight against the undead, proclaiming that devotion to the Holy Light took precedence over all else. Instead of saving his home, Yuriv perished, leaving his family behind to ultimately succumb to the very Scourge he set out to fight. For Clarice, the pendant is not a cherished memento, but an insulting trinket symbolizing a lifetime spent coming second to zealotry and duty.",
+   "spoiler": 0
+  },
+  {
+   "title": "Resting upon Yuriv's Tomb",
+   "body": "Wishing to sever the remaining emotional ties to her former life and unfaithful husband, Clarice sends an adventurer to return the piece of jewelry directly to Yuriv's grave at the Sepulcher. The tomb is neglected and vandalized, buried beneath weeds and trash. When the pendant is finally laid across the sculpted hands of the coffin, its gemstone turns noticeably dull, extinguishing the last lingering warmth of Clarice's former life.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owns Clarice's Pendant?",
+   "aliases": [
+    "who does the pendant belong to",
+    "whose pendant is this",
+    "clarice foster"
+   ],
+   "answer": "The pendant belongs to Clarice Foster, a Forsaken woman residing at the Sepulcher in Silverpine Forest. It was given to her in life by her husband, Yuriv, before he marched off to war."
+  },
+  {
+   "q": "Who was Yuriv?",
+   "aliases": [
+    "clarice husband",
+    "who is yuriv",
+    "yuriv tomb"
+   ],
+   "answer": "Yuriv was Clarice's husband in life. He abandoned Clarice and their children to fight the rising undead threat in the name of the Holy Light, only to perish and end up buried in a neglected grave at the Sepulcher."
+  },
+  {
+   "q": "Why does Clarice want to get rid of the pendant?",
+   "aliases": [
+    "why throw away pendant",
+    "why does clarice hate yuriv",
+    "clarice pendant quest"
+   ],
+   "answer": "Clarice resents Yuriv for prioritizing his crusade and devotion to the Light over her and their children. His sacrifice accomplished nothing\u2014he died anyway, and she was left behind only to end up raised in undeath, the very condition he sought to eradicate."
+  },
+  {
+   "q": "What happens when the pendant is placed on Yuriv's grave?",
+   "aliases": [
+    "what happens at yuriv tomb",
+    "pendant on grave"
+   ],
+   "answer": "When placed atop the relief sculpted on Yuriv's tomb, the gemstone set within the pendant noticeably dulls, symbolizing a final, cold end to the connection between them as a chill wind passes through the graveyard."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The pendant highlights the tragedy and bitterness common to many Forsaken, whose living loved ones often abandoned them for crusades that ultimately failed to protect anyone."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Clarice's contempt for Yuriv's crusade is an uncomfortable reminder of the personal cost and broken homes left in the wake of holy zeal."
+  }
+ ],
+ "keywords": [
+  "clarice foster",
+  "clarice's pendant",
+  "forsaken",
+  "sepulcher",
+  "silverpine forest",
+  "tomb",
+  "until death do us part",
+  "yuriv"
+ ],
+ "related": [
+  "quest:264",
+  "subzone:sepulcher",
+  "zone:silverpine",
+  "topic:light"
+ ],
+ "attribution": [
+  "Clarice's Pendant",
+  "Until Death Do Us Part"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "item:gerenzo-s-mechanical-arm",
+ "type": "item",
+ "name": "Gerenzo's Mechanical Arm",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Gerenzo's Mechanical Arm",
+  "quests": [
+   "quest:1096"
+  ]
+ },
+ "summary": "Gerenzo's Mechanical Arm is the grafted prosthetic limb taken from the rogue engineer Gerenzo Wrenchwhistle in the Stonetalon Mountains. It serves as unmistakable proof of his demise for goblin operatives seeking to clear out competition.",
+ "sections": [
+  {
+   "title": "A Bizarre Invention",
+   "body": "Gerenzo Wrenchwhistle took self-modification to a grotesque extreme, grafting whirring gears and metal directly onto his failing body. Perched above Cragpool Lake, the renegade gnome replaced natural limbs with intricate machinery. When the goblin tinker Ziz Fizziks seeks Gerenzo's elimination to impress his superiors, this distinctive mechanical arm is the only trophy unique enough to serve as indisputable evidence of the engineer's death.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gnomish Philosophy, Goblin Critique",
+   "body": "To the goblin mind, amputating a perfectly functioning arm simply to attach a mechanical replacement makes little sense. Ziz Fizziks famously remarked that a proper goblin engineer would simply keep both biological arms and mount a mechanical third one instead. Despite the philosophical rift, delivering the severed limb satisfies Sputtervalve and helps Ziz petition for an assignment in Gadgetzan or Undermine.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Gerenzo's Mechanical Arm come from?",
+   "aliases": [
+    "who drops gerenzo arm",
+    "gerenzo arm location",
+    "where get gerenzo mechanical arm"
+   ],
+   "answer": "It is taken from Gerenzo Wrenchwhistle, who oversees logging and engineering operations high above Cragpool Lake near the water wheel in the Stonetalon Mountains."
+  },
+  {
+   "q": "Why does Ziz Fizziks want this arm?",
+   "aliases": [
+    "why ziz want arm",
+    "arm quest turn in",
+    "proof of gerenzo death"
+   ],
+   "answer": "Ziz needs definitive proof for his superior, Sputtervalve, that Gerenzo is dead. Because Gerenzo heavily altered his own body, his unique prosthetic arm is impossible to forge or mistake for anyone else's."
+  },
+  {
+   "q": "Why did Gerenzo replace his own arm?",
+   "aliases": [
+    "why is gerenzo a cyborg",
+    "gerenzo rotting flesh",
+    "why mechanical arm"
+   ],
+   "answer": "According to Ziz Fizziks, Gerenzo's flesh appeared to be rotting away. Driven by desperation or obsessive gnomish experimentation, Gerenzo grafted machinery and replaced his failing limbs with mechanical counterparts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The arm illustrates the contrasting mentalities of the two engineering traditions: gnomes willingly sacrifice their own biology for mechanical precision, whereas goblins prefer external additions and brute firepower."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gerenzo represents a grim extreme of gnomish ingenuity, taking mechanical replacement far beyond conventional medical prosthetics into morbid self-augmentation."
+  }
+ ],
+ "keywords": [
+  "arm",
+  "cragpool lake",
+  "gerenzo",
+  "mechanical arm",
+  "sputtervalve",
+  "stonetalon",
+  "wrenchwhistle",
+  "ziz fizziks"
+ ],
+ "related": [
+  "quest:1096",
+  "quest:1483",
+  "subzone:cragpool-lake",
+  "npc:sputtervalve",
+  "zone:stonetalon",
+  "subzone:gadgetzan",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Gerenzo's Mechanical Arm",
+  "Gerenzo Wrenchwhistle (quest)"
+ ]
+}

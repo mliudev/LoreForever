@@ -1,0 +1,94 @@
+{
+ "key": "item:cask-of-merlot",
+ "type": "item",
+ "name": "Cask of Merlot",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Cask of Merlot",
+  "quests": [
+   "quest:116"
+  ]
+ },
+ "summary": "A Cask of Merlot is a barrel of fine red wine produced and sold in Stormwind City. It serves as one of several regional specialty liquors needed by the Lakeshire innkeeper during the supply shortages caused by the Blackrock orc invasion.",
+ "sections": [
+  {
+   "title": "A Taste of the Capital",
+   "body": "Harvested and fermented in the heart of the kingdom, this Cask of Merlot comes straight from the cellars of the Galina Winery, nestled along the canals bordering Stormwind's Trade District. Winemaker Roberto Pupellyverbos manages the vintages there, catering to the capital's more refined palates. Unlike the harsh moonshine of Duskwood or the rustic spirits brewed in Elwynn, the merlot represents the refined craft of human vintners operating under the relative safety of the city walls.",
+   "spoiler": 0
+  },
+  {
+   "title": "Restocking Lakeshire",
+   "body": "When the Blackrock clan invaded the Redridge Mountains, supply routes fell apart, cutting Lakeshire off from its standard merchant shipments. Facing parched and terrified locals, Barkeep Daniels tasks willing couriers with undertaking a kingdom-wide run to restock his tavern's cellars. Procuring this cask ensures the defenders and refugees holding out by Lake Everstill have something gentle to wash down their rations.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find a Cask of Merlot?",
+   "aliases": [
+    "cask of merlot location",
+    "where to buy merlot",
+    "who sells cask of merlot",
+    "stormwind wine vendor"
+   ],
+   "answer": "It is sold by Roberto Pupellyverbos inside the Galina Winery. The shop sits along the canals on the perimeter of the Trade District in Stormwind City."
+  },
+  {
+   "q": "Why does Barkeep Daniels need this wine?",
+   "aliases": [
+    "dry times quest merlot",
+    "why does daniels want wine",
+    "lakeshire merlot purpose"
+   ],
+   "answer": "Lakeshire's regular trade shipments have been cut off by the Blackrock orc invasion of Redridge. Barkeep Daniels is nearly out of alcohol and sends adventurers across southern Azeroth to secure regional specialties to keep his patrons satisfied."
+  },
+  {
+   "q": "What other drinks are collected alongside the Merlot?",
+   "aliases": [
+    "dry times drinks",
+    "daniels booze list",
+    "other alcohols dry times"
+   ],
+   "answer": "Daniels also requests a skin of Sweet Rum from Goldshire, a bottle of Moonshine from Darkshire, and a keg of Thunderbrew Lager from Grimbooze Thunderbrew in the hills of Westfall."
+  },
+  {
+   "q": "Is the Galina Winery in danger?",
+   "aliases": [
+    "galina winery lore",
+    "winery in stormwind"
+   ],
+   "answer": "The winery remains safe behind the stone ramparts of Stormwind City. While outlying territories like Westfall and Redridge suffer from bandits and orc raids, commerce and winemaking continue uninterrupted within the capital's canal district."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Fetching the cask highlights the sharp contrast between the secure luxury of Stormwind's canal district and the embattled border towns struggling under siege in Redridge."
+  }
+ ],
+ "keywords": [
+  "barkeep daniels",
+  "cask of merlot",
+  "dry times",
+  "galina winery",
+  "lakeshire",
+  "merlot",
+  "roberto pupellyverbos",
+  "stormwind"
+ ],
+ "related": [
+  "quest:116",
+  "npc:barkeep-daniels",
+  "subzone:canals-stormwind-city",
+  "subzone:trade-district",
+  "zone:stormwind",
+  "subzone:lakeshire",
+  "item:bottle-of-moonshine",
+  "item:skin-of-sweet-rum"
+ ],
+ "attribution": [
+  "Cask of Merlot",
+  "Dry Times"
+ ]
+}

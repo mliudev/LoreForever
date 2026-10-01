@@ -1,0 +1,95 @@
+{
+ "key": "item:incendia-powder",
+ "type": "item",
+ "name": "Incendia Powder",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Incendia Powder",
+  "quests": [
+   "quest:5088"
+  ]
+ },
+ "summary": "Incendia Powder is an enchanted ritual catalyst refined to ignite sacred flames. Carried by Horde emissaries into Thousand Needles, the powder is specifically treated with shamanic incantations to invoke the slumbering spirit-beast Arikara atop Darkcloud Pinnacle.",
+ "sections": [
+  {
+   "title": "A Spark of Summoning",
+   "body": "Incendia Powder is no mundane explosive or mundane flash powder; it is a purified, ritualistic substance carefully infused with shamanic magic. Entrusted to travelers by Motega Firemane at Whitereach Post, the mixture is designed to react solely with the sacred fire of life burning atop the isolated spires of Darkcloud Pinnacle. Once scattered across the consecrated brazier where the dead are laid to rest, its alchemical and spiritual warding calls forth the vengeful winged serpent Arikara.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uneasy Portents",
+   "body": "The rites dictating the creation and use of Incendia Powder stem from interpretations shared by the elder shaman Magatha Grimtotem. Believing that shifting traditions and changes in tauren ways had provoked ancient spirits into hunting High Chieftain Cairne Bloodhoof, the powder was enchanted to force the apparition into the open so it could be destroyed. Though it succeeds in calling forth the fierce serpent, the violent encounter leaves troubled questions about why such a beast was truly stirred.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Incendia Powder used for?",
+   "aliases": [
+    "incendia powder purpose",
+    "why do i need incendia powder",
+    "what does incendia powder do"
+   ],
+   "answer": "Incendia Powder is an enchanted dust tossed into the sacred fire of life atop Darkcloud Pinnacle in Thousand Needles. Igniting the flame with this mixture summons the vengeful spirit serpent Arikara."
+  },
+  {
+   "q": "Who prepared the enchantment on the powder?",
+   "aliases": [
+    "who made incendia powder",
+    "who enchanted incendia powder"
+   ],
+   "answer": "Motega Firemane prepared and refined the Incendia Powder at Whitereach Post, acting on counsel and divination regarding threats to Cairne Bloodhoof."
+  },
+  {
+   "q": "Where does the powder need to be used?",
+   "aliases": [
+    "incendia powder location",
+    "where to throw incendia powder",
+    "where to use incendia powder"
+   ],
+   "answer": "It must be scattered into the sacred fire pit on a solitary, burial-needle spire within Darkcloud Pinnacle, high above the salt canyons of Thousand Needles."
+  },
+  {
+   "q": "Why was summoning Arikara necessary?",
+   "aliases": [
+    "why summon arikara",
+    "why fight arikara"
+   ],
+   "answer": "Shamanic divinations suggested Arikara was stalking High Chieftain Cairne Bloodhoof due to shifts in tauren cultural ways. Motega Firemane sought to draw the beast out and slay it before harm could come to Cairne."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The powder demonstrates how elemental flame and spiritual warding can be bound together to awaken slumbering ancestral entities."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Using ritual powders to ignite burial fires reflects the delicate balance between revering sacred traditions and defending the leadership of the tribes."
+  }
+ ],
+ "keywords": [
+  "arikara",
+  "darkcloud pinnacle",
+  "incendia powder",
+  "motega firemane",
+  "sacred fire of life",
+  "thousand needles",
+  "whitereach post"
+ ],
+ "related": [
+  "quest:5088",
+  "npc:motega-firemane",
+  "subzone:darkcloud-pinnacle",
+  "subzone:whitereach-post",
+  "item:arikara-serpent-skin",
+  "npc:cairne-bloodhoof",
+  "zone:thousandneedles",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Incendia Powder",
+  "Arikara (quest)"
+ ]
+}

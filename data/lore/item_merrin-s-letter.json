@@ -1,0 +1,83 @@
+{
+ "key": "item:merrin-s-letter",
+ "type": "item",
+ "name": "Merrin's Letter",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Merrin's Letter",
+  "quests": [
+   "quest:306"
+  ]
+ },
+ "summary": "Merrin's Letter is an urgent message written by Merrin Rockweaver, an archaeologist trapped at the dig site in the Wetlands. It recounts the catastrophic overrun of their archaeological expedition by vicious raptors and assures her loved ones of her immediate survival.",
+ "sections": [
+  {
+   "title": "A Dispatch from the Ruins",
+   "body": "While excavating enormous prehistoric fossils and relics at the Whelgar's Excavation site in the Wetlands, the dwarven expedition disturbed a nest of ferocious Mottled Raptors. The beasts swarmed the trenches, slaughtering several workers and cutting off the surviving researchers from escape. Penning this note amidst the chaos, Merrin Rockweaver wrote to inform her companion Tarrel back at Greenwarden's Grove that while the dig lies in ruins, she, Prospector Whelgar, and Ormer Ironbraid managed to survive behind barricaded shelter.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote Merrin's Letter?",
+   "aliases": [
+    "author of merrins letter",
+    "who is merrin"
+   ],
+   "answer": "The letter was penned by Merrin Rockweaver, an explorer taking part in the archaeological expedition at the dig site in the southern hills of the Wetlands."
+  },
+  {
+   "q": "Who is the letter addressed to?",
+   "aliases": [
+    "recipient of merrins letter",
+    "who gets merrins letter"
+   ],
+   "answer": "It is addressed to Tarrel Rockweaver, who waits anxiously for news at Greenwarden's Grove along the road to Loch Modan."
+  },
+  {
+   "q": "What happened to the excavation team?",
+   "aliases": [
+    "what happened to the dig",
+    "why did the expedition fail"
+   ],
+   "answer": "While uncovering massive fossilized bones, the archaeological team was ambushed and overrun by a pack of Mottled Raptors. Many dwarven workers were killed, leaving only a tiny handful of survivors barricaded in a makeshift camp."
+  },
+  {
+   "q": "Who helped Merrin survive the attack?",
+   "aliases": [
+    "who saved merrin",
+    "ormer ironbraid"
+   ],
+   "answer": "Ormer Ironbraid fought bravely to defend Merrin and the head prospector, allowing them to retreat and take shelter while the rest of the dig fell to the raptors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The letter underscores the high personal cost the Explorers' League pays in unearthing ancient history across the dangerous wilds of Khaz Modan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Delivering this note brings vital intelligence and bittersweet comfort to the Alliance sentries keeping watch along the Wetlands highway."
+  }
+ ],
+ "keywords": [
+  "explorers' league",
+  "merrin rockweaver",
+  "merrin's letter",
+  "mottled raptors",
+  "tarrel rockweaver",
+  "wetlands",
+  "whelgar's excavation"
+ ],
+ "related": [
+  "quest:305",
+  "npc:tarrel-rockweaver",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "Merrin's Letter",
+  "In Search of The Excavation Team (2)"
+ ]
+}

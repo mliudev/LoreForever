@@ -1,0 +1,87 @@
+{
+ "key": "item:dried-seeds",
+ "type": "item",
+ "name": "Dried Seeds",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Dried Seeds",
+  "quests": [
+   "quest:877"
+  ]
+ },
+ "summary": "Dried Seeds are lifeless husks given to travelers by the tauren druid Tonga Runetotem at the Crossroads. They serve as an experimental medium to test the anomalous, life-giving power bubbling up from the fissures beneath the waters of the Barrens.",
+ "sections": [
+  {
+   "title": "The Seeds and the Oasis",
+   "body": "To the casual eye, these withered seeds appear completely barren and devoid of life. Yet in the hands of Tonga Runetotem, they are an essential instrument of druidic study. Intrigued by strange underwater vents discovered at the Forgotten Pools, Tonga seeks to confirm whether similar fissures exist beneath the Stagnant Oasis to the southeast. By submerging these dead seeds into the bubbling fissure, an investigator can witness firsthand the mysterious energies coursing through the oases of the Barrens, which possess the miraculous ability to spur life where none should remain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Dried Seeds used for?",
+   "aliases": [
+    "dried seeds use",
+    "what do i do with dried seeds",
+    "dried seeds purpose"
+   ],
+   "answer": "The Dried Seeds are used to test the magical, life-giving properties of the bubbling fissure found deep within the Stagnant Oasis. By exposing the dead seeds to the fissure's waters, you test whether the anomalous energy beneath the oasis can revive plant life."
+  },
+  {
+   "q": "Who provides the Dried Seeds?",
+   "aliases": [
+    "who gives dried seeds",
+    "where do dried seeds come from"
+   ],
+   "answer": "They are handed to adventurers by Tonga Runetotem, a tauren druid stationed at the Crossroads in the Barrens who is studying the region's sudden, unnatural bursts of verdant growth."
+  },
+  {
+   "q": "Where is the fissure to use them on?",
+   "aliases": [
+    "where to plant dried seeds",
+    "stagnant oasis fissure location",
+    "bubbling fissure dried seeds"
+   ],
+   "answer": "The fissure is located submerged beneath the waters of the Stagnant Oasis, which lies southeast of the Crossroads in the Barrens."
+  },
+  {
+   "q": "What happens when the seeds are exposed to the fissure?",
+   "aliases": [
+    "do the seeds grow",
+    "dried seeds result"
+   ],
+   "answer": "The latent energy of the bubbling fissure miraculously restores vitality to the dead husks, proving Tonga's theory that an extraordinary power lies beneath the oases of the Barrens capable of creating life from nothing."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Druids studying the strange growth across the Barrens will recognize these dead seeds as a crucial tool for probing the wild, untamed energies emerging from the earth."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde adventurers assist Tonga Runetotem in unraveling the ecological mysteries transforming the dry soils of the Barrens."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "bubbling fissure",
+  "crossroads",
+  "dried seeds",
+  "stagnant oasis",
+  "tonga runetotem"
+ ],
+ "related": [
+  "quest:877",
+  "subzone:stagnant-oasis",
+  "subzone:crossroads",
+  "quest:870",
+  "zone:barrens",
+  "subzone:forgotten-pools"
+ ],
+ "attribution": [
+  "Dried Seeds",
+  "The Stagnant Oasis (Classic)"
+ ]
+}

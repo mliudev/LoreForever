@@ -1,0 +1,86 @@
+{
+ "key": "npc:mardant-strongoak",
+ "type": "npc",
+ "name": "Mardant Strongoak",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Mardant Strongoak",
+  "refs": 1
+ },
+ "summary": "Mardant Strongoak is a night elf druid trainer residing in Aldrassil in the heart of Teldrassil. He guides fledgling druids in communing with the spirits of nature and introduces them to the mysteries of the Emerald Dream.",
+ "sections": [
+  {
+   "title": "Instructor of the Wilds",
+   "body": "Within the boughs of Aldrassil, young night elves who feel the call of the wild turn to Mardant Strongoak. His primary task is teaching novitiates how to open their senses to nature spirits, interpret their murmurs, and channel rejuvenating magics. For those taking their initial steps as protectors of the wild, he is often the first master to unveil the vast complexities and ancient perils of the Emerald Dream.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mardant Strongoak?",
+   "aliases": [
+    "mardant strongoak lore",
+    "who is mardant",
+    "mardant aldrassil"
+   ],
+   "answer": "Mardant Strongoak is a night elf druid trainer stationed in Shadowglen within Aldrassil. He mentors newly awakened druids on Teldrassil in the basic arts of communion and spellcraft."
+  },
+  {
+   "q": "What does he teach new druids?",
+   "aliases": [
+    "what does mardant teach",
+    "mardant abilities",
+    "druid trainer shadowglen"
+   ],
+   "answer": "He teaches novitiates how to decipher the messages of wild spirits, cast rudimentary spells like Moonfire and healing arts, and grasp the nature of the Emerald Dream."
+  },
+  {
+   "q": "Where can I find Mardant Strongoak?",
+   "aliases": [
+    "mardant location",
+    "where is mardant strongoak"
+   ],
+   "answer": "He is located inside or near Aldrassil in Shadowglen, the starting vale for night elf adventurers on Teldrassil."
+  },
+  {
+   "q": "What is the Verdant Sigil?",
+   "aliases": [
+    "verdant sigil quest",
+    "sigil for mardant"
+   ],
+   "answer": "The Verdant Sigil is an instructional token presented to fledgling night elf druids in Shadowglen, directing them to seek out Mardant Strongoak for their early training."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For young night elf druids, Mardant Strongoak is the first bridge between mundane existence and the sacred duties of the Cenarion circle."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Stationed at the core of Aldrassil, Mardant exemplifies the kaldorei devotion to harmonizing with Teldrassil's burgeoning ecosystem."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "druid",
+  "emerald dream",
+  "mardant",
+  "shadowglen",
+  "strongoak",
+  "teldrassil",
+  "trainer"
+ ],
+ "related": [
+  "subzone:aldrassil",
+  "zone:teldrassil",
+  "topic:druid",
+  "topic:emerald-dream",
+  "topic:night-elf",
+  "quest:3120"
+ ],
+ "attribution": [
+  "Mardant Strongoak"
+ ]
+}

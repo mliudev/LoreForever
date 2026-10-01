@@ -1,0 +1,118 @@
+{
+ "key": "quest:6395",
+ "type": "quest",
+ "name": "Marla's Last Wish",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   6395
+  ],
+  "level": "5",
+  "faction": "Horde",
+  "start": "Novice Elreth",
+  "end": "",
+  "previous": "The Damned (Classic)",
+  "next": null,
+  "wiki": "Marla's Last Wish",
+  "chain": []
+ },
+ "summary": "Marla's Last Wish is an early Forsaken task given by Novice Elreth in Deathknell. It asks you to hunt down the Scourge-enslaved remnants of Samuel Fipps so he can be buried beside his murdered wife, Marla. The task reflects the fledgling Forsaken society's yearning to honor human ties and distinguish themselves from the mindless Scourge.",
+ "sections": [
+  {
+   "title": "A Tragic Reunion",
+   "body": "Before the Third War devastated Lordaeron, Marla and Samuel Fipps lived together as husband and wife. When the plague swept through their lands, Samuel succumbed to the contagion and was reanimated as a mindless thrall of the Scourge. Though Marla was spared undeath, she could not escape Samuel himself, who brutally slew her in his mindless frenzy. Despite dying at her husband's hands, Marla harbored no hatred in her final moments. Her dying wish, remembered by Novice Elreth, was to rest eternally beside her husband in the Deathknell graveyard.",
+   "spoiler": 0
+  },
+  {
+   "title": "Respecting the Dead",
+   "body": "Novice Elreth dispatches Forsaken adventurers northeast of Deathknell to locate Samuel Fipps, who still wanders among a ruined campsite. Putting an end to Samuel's torment serves a dual purpose: it cleanses an encroaching Scourge minion from the valley and allows his physical remains to be carried back to Marla's resting place. As Elreth emphasizes, honoring the deceased and respecting their final wishes is a vital moral distinction separating the newly liberated Forsaken from the mindless malice of the Scourge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Marla Fipps?",
+   "aliases": [
+    "marla fipps lore",
+    "who is marla",
+    "marla background"
+   ],
+   "answer": "Marla Fipps was a Lordaeron resident who survived the initial plague of undeath, only to be slain by her husband Samuel after he turned into a mindless Scourge ghoul. Her final dying wish was to be laid to rest alongside him."
+  },
+  {
+   "q": "Who is Samuel Fipps?",
+   "aliases": [
+    "samuel fipps lore",
+    "who is samuel fipps",
+    "where is samuel fipps"
+   ],
+   "answer": "Samuel Fipps was Marla's husband before the plague. He succumbed to the Scourge, lost his mind to the Lich King's will, and murdered his wife. He wanders a ruined campsite northeast of Deathknell until put down by Forsaken adventurers."
+  },
+  {
+   "q": "Why does Novice Elreth care about burying them together?",
+   "aliases": [
+    "why help marla",
+    "novice elreth motive",
+    "why bury samuel"
+   ],
+   "answer": "Novice Elreth was Marla's friend in life. Beyond personal sentiment, Elreth believes that honoring the wishes of the dead and treating remains with dignity is proof that the Forsaken retain their humanity and morality, distinguishing them from the mindless Scourge."
+  },
+  {
+   "q": "Did Marla rise as Forsaken?",
+   "aliases": [
+    "is marla undead",
+    "did marla become forsaken",
+    "marla fipps undead"
+   ],
+   "answer": "No. According to Novice Elreth, Marla was spared undeath altogether. She died a mortal death at her husband's hands and was buried in the graveyard at Deathknell."
+  },
+  {
+   "q": "Where is Marla's grave located?",
+   "aliases": [
+    "marla's grave location",
+    "where is marla buried",
+    "where do i bury samuel"
+   ],
+   "answer": "Marla's grave is located in the first row of the cemetery just outside Deathknell's main chapel."
+  },
+  {
+   "q": "Where can Samuel Fipps be found?",
+   "aliases": [
+    "samuel fipps location",
+    "find samuel fipps",
+    "where is samuel"
+   ],
+   "answer": "Samuel Fipps wanders around a ruined campsite along the road heading northeast out of Deathknell."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the newly risen Forsaken, fulfilling Marla's wish is an emotional anchor to their former human lives, demonstrating that compassion and honor did not perish when Lordaeron fell."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Novice Elreth's insistence on proper burial rites speaks directly to the spiritual duty of Forsaken priests, who grapple with mortality, grief, and the desecration of Lordaeron's dead."
+  }
+ ],
+ "keywords": [
+  "deathknell",
+  "grave",
+  "marla fipps",
+  "marla's last wish",
+  "novice elreth",
+  "remains",
+  "samuel fipps",
+  "scourge"
+ ],
+ "related": [
+  "npc:novice-elreth",
+  "subzone:deathknell",
+  "topic:scourge",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Marla's Last Wish"
+ ]
+}

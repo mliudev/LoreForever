@@ -1,0 +1,79 @@
+{
+ "key": "item:fang-of-vagash",
+ "type": "item",
+ "name": "Fang of Vagash",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Fang of Vagash",
+  "quests": [
+   "quest:314"
+  ]
+ },
+ "summary": "The Fang of Vagash is a massive predator tooth taken from the notorious beast Vagash in the snowy crags of Dun Morogh. It serves as tangible proof for local breeders that the marauding monster threatening their prized rams has finally been slain.",
+ "sections": [
+  {
+   "title": "Trophy of the Hunt",
+   "body": "Dun Morogh's high crags are home to bitter cold and ferocious predators, but none have plagued the local ranches quite like Vagash. Looming in the ridges above the Amberstill Ranch, this savage beast frequently stalks downhill under cover of darkness to slaughter prized rams. With Ironforge's military forces stretched thin on distant Alliance fronts, the local herdsmen cannot count on the city guard for protection. Slaying the beast and carving away one of its vicious fangs offers indisputable evidence that the pasturelands are safe once more.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Fang of Vagash used for?",
+   "aliases": [
+    "fang of vagash use",
+    "what to do with fang of vagash",
+    "turn in vagash fang"
+   ],
+   "answer": "The fang is brought to the breeders at Amberstill Ranch in Dun Morogh as physical proof that Vagash has been eliminated. In exchange, the grateful ranchers reward the hunter who safeguarded their livelihood."
+  },
+  {
+   "q": "Who is Vagash?",
+   "aliases": [
+    "what is vagash",
+    "where is vagash",
+    "vagash lore"
+   ],
+   "answer": "Vagash is an unusually deadly beast that dens in the snowy hills just above the ram pastures in Dun Morogh. He has earned a fearsome reputation among local dwarves for raiding herds in the night."
+  },
+  {
+   "q": "Why hasn't the Ironforge guard killed Vagash?",
+   "aliases": [
+    "why aren't guards helping",
+    "where is ironforge army",
+    "mountaineers vagash"
+   ],
+   "answer": "King Magni Bronzebeard's forces and city troops are stretched thin across various battlefronts supporting the Alliance. With few soldiers to spare for rural patrol work, the ranchers must rely on passing adventurers to deal with dangerous predators."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Amberstill Ranch provides the hardy mountain rams essential to dwarven mountaineers and travelers alike. Bringing back Vagash's fang directly preserves Ironforge's most prized breed of mount."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking down an apex predator like Vagash in the freezing crags of Dun Morogh is an early test of tracking, wilderness survival, and beast-slaying prowess."
+  }
+ ],
+ "keywords": [
+  "amberstill ranch",
+  "dun morogh",
+  "fang of vagash",
+  "ironforge",
+  "protecting the herd",
+  "ram",
+  "vagash"
+ ],
+ "related": [
+  "quest:314",
+  "zone:dunmorogh",
+  "zone:ironforge",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Fang of Vagash",
+  "Protecting the Herd"
+ ]
+}

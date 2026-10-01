@@ -1,0 +1,84 @@
+{
+ "key": "item:spotted-sunfish",
+ "type": "item",
+ "name": "Spotted Sunfish",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Spotted Sunfish",
+  "quests": [
+   "quest:127"
+  ]
+ },
+ "summary": "Spotted Sunfish are freshwater fish native to Lake Everstill in the Redridge Mountains. Renowned locally for their flavor, they are a staple commodity for Lakeshire's docks, though the growing murloc infestation makes procuring them hazardous.",
+ "sections": [
+  {
+   "title": "A Prized Catch",
+   "body": "Lake Everstill has long been celebrated for its spotted sunfish, which fetch a dependable price among local merchants and visitors alike. Dockmaster Baren keeps a steady trade in them at the Lakeshire piers, supplying food and commerce to a town under strain. However, the aggressive murloc tribes prowling the shallows have disrupted routine fishing, often stockpiling catches of their own that adventurers must recover by force.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are Spotted Sunfish found?",
+   "aliases": [
+    "where to get spotted sunfish",
+    "spotted sunfish location",
+    "lake everstill fish"
+   ],
+   "answer": "They thrive in the waters of Lake Everstill in the Redridge Mountains. While anglers can catch them directly from the lake, the local murlocs also harvest them constantly, making murloc camps around the shoreline a prime spot to recover them."
+  },
+  {
+   "q": "Who buys or needs Spotted Sunfish?",
+   "aliases": [
+    "who wants spotted sunfish",
+    "dockmaster baren fish",
+    "selling fish quest"
+   ],
+   "answer": "Dockmaster Baren on the Lakeshire docks buys batches of Spotted Sunfish. He maintains a trade in the delicacy and offers payment to anyone willing to bring him fresh stock."
+  },
+  {
+   "q": "Why do the murlocs carry these fish?",
+   "aliases": [
+    "murloc spotted sunfish",
+    "why murlocs drop fish"
+   ],
+   "answer": "The murlocs living along Lake Everstill forage and poach the native wildlife to feed their growing tribes. They pull sunfish from the lake just as human fishers do, keeping them at their camps along the shallows."
+  },
+  {
+   "q": "Can you obtain them without fishing?",
+   "aliases": [
+    "get sunfish without fishing rod",
+    "no fishing rod sunfish"
+   ],
+   "answer": "Yes. Dockmaster Baren notes that travelers who do not carry a fishing rod can simply defeat the hostile murlocs along the shores of Lake Everstill and take the fish they have gathered."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Native freshwater fish like the spotted sunfish form the culinary backbone of Lake Everstill, making them a fixture of Redridge tavern tables."
+  }
+ ],
+ "keywords": [
+  "dockmaster baren",
+  "lake everstill",
+  "lakeshire",
+  "murloc",
+  "redridge mountains",
+  "selling fish",
+  "spotted sunfish"
+ ],
+ "related": [
+  "quest:127",
+  "subzone:lake-everstill",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "quest:150",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Spotted Sunfish",
+  "Selling Fish"
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "key": "item:panther-cage-key",
+ "type": "item",
+ "name": "Panther Cage Key",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Panther Cage Key",
+  "quests": [
+   "quest:5151"
+  ]
+ },
+ "summary": "The Panther Cage Key is a small metal key held by Wizlo Bearingshiner at Whitereach Post. It unlocks a reinforced cage holding an enraged, captive predator within the wreckage of an ambushed caravan in Thousand Needles.",
+ "sections": [
+  {
+   "title": "A Precarious Lock",
+   "body": "When a traveling caravan was attacked and ransacked by centaur raiders north of Whitereach Post, the gnome tinker Wizlo Bearingshiner barely escaped with his life. Amid the ruins of wagons and plundered cargo, the marauders left one thing entirely untouched: a sturdy cage housing a ferocious, rare panther. Around the predator's neck hung Wizlo's prized invention, a hypercapacitor gizmo. Unwilling to approach the snarling beast, the centaur gave the cage a wide berth, leaving Wizlo's key as the only way to open the door and retrieve the device.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who provides the Panther Cage Key?",
+   "aliases": [
+    "who gives panther key",
+    "where to get panther cage key",
+    "panther cage key source"
+   ],
+   "answer": "The key is handed to adventurers by Wizlo Bearingshiner, a gnome tinker resting at Whitereach Post in northwestern Thousand Needles."
+  },
+  {
+   "q": "What does the key unlock?",
+   "aliases": [
+    "what does panther key open",
+    "panther cage location",
+    "where is the cage"
+   ],
+   "answer": "It unlocks an iron cage found among the broken wagons of a ruined caravan just north of Whitereach Post, which holds an enraged, dangerous panther."
+  },
+  {
+   "q": "Why didn't the centaur loot the cage?",
+   "aliases": [
+    "why did centaur leave panther",
+    "centaur afraid of panther"
+   ],
+   "answer": "The centaur ransacked the rest of the caravan, but the captive panther within was so ferocious and threatening that even the raiders refused to tamper with its cage."
+  },
+  {
+   "q": "What is inside the cage besides the beast?",
+   "aliases": [
+    "why open the cage",
+    "what is on the panther"
+   ],
+   "answer": "Wizlo's prized hypercapacitor gizmo is fastened around the panther's neck, forcing anyone hoping to recover the invention to unlock the cage and confront the predator directly."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The key unlocks the cage holding a tinker's volatile prototype, proving that eccentric inventors will stash their most delicate mechanisms in the most hazardous places imaginable."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Assisting Wizlo helps secure the roads of Thousand Needles around Whitereach Post from the volatile aftermath of centaur raids."
+  }
+ ],
+ "keywords": [
+  "centaur",
+  "hypercapacitor gizmo",
+  "panther cage key",
+  "thousand needles",
+  "whitereach post",
+  "wizlo bearingshiner"
+ ],
+ "related": [
+  "npc:wizlo-bearingshiner",
+  "quest:5151",
+  "subzone:whitereach-post",
+  "zone:thousandneedles",
+  "topic:centaur",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Panther Cage Key",
+  "Hypercapacitor Gizmo (quest)"
+ ]
+}

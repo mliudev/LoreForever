@@ -1,0 +1,131 @@
+{
+ "key": "quest:1517",
+ "type": "quest",
+ "name": "Call of Earth",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   1517
+  ],
+  "level": "4",
+  "faction": "Horde",
+  "start": "Canaga Earthcaller",
+  "end": "Minor Manifestation of Earth",
+  "previous": "Call of Earth (Durotar)",
+  "next": "Call of Earth (Durotar 3)",
+  "wiki": "Call of Earth (Durotar 2)",
+  "chain": [
+   "Call of Earth (Durotar)",
+   "Call of Earth (Durotar 2)",
+   "Call of Earth (Durotar 3)"
+  ]
+ },
+ "summary": "This sacred rite marks an initiate's first spiritual communion with the elements in Durotar. Guided by Canaga Earthcaller, young shaman consume a potent Earth Sapta atop Spirit Rock to pierce the veil and stand directly before the Minor Manifestation of Earth.",
+ "sections": [
+  {
+   "title": "The Power of the Sapta",
+   "body": "A sapta is a mystical concoction known only to a select few shaman masters. Brewed with elemental magic, the draught serves to bridge mortal perception with the spiritual plane, granting 'Sapta Sight' to the strong-willed. Because its power binds the drinker's spirit directly to an element, tradition demands that it never be consumed outside of consecrated holy ground.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pilgrimage to Spirit Rock",
+   "body": "To commune with earth, initiates leave the Valley of Trials and ascend the Hidden Path into the southern crags of Durotar. At the trail's end sits Spirit Rock, an elevated sanctuary overlooking the rugged wasteland. Drinking the sapta here allows the initiate to perceive what mundane eyes cannot: an elemental presence waiting quietly among the stone.",
+   "spoiler": 0
+  },
+  {
+   "title": "Patience of the Earth",
+   "body": "The Minor Manifestation of Earth does not demand bloodshed or subjugation, asking only that the petitioner stand humbly before the world. While the other elemental forces\u2014fire, water, and air\u2014possess turbulent, volatile, and often chaotic spirits, the earth imparts steadiness. It welcomes the petitioner by reminding them that mountains provide endurance and the plains offer boundless patience.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is an Earth Sapta?",
+   "aliases": [
+    "what is sapta",
+    "earth sapta meaning",
+    "what does sapta do"
+   ],
+   "answer": "An Earth Sapta is a specialized potion brewed by veteran shaman that temporarily attunes a drinker's spirit to the element of earth. Drinking it grants the inner vision required to see and speak with hidden elemental spirits."
+  },
+  {
+   "q": "Where is Spirit Rock located?",
+   "aliases": [
+    "where is spirit rock",
+    "spirit rock location",
+    "how to find spirit rock"
+   ],
+   "answer": "Spirit Rock sits in the craggy mountains southwest of the Den in the Valley of Trials. Initiates reach it by following the Hidden Path up into the hills south of the valley floor."
+  },
+  {
+   "q": "Why must the sapta be consumed at Spirit Rock?",
+   "aliases": [
+    "why drink at spirit rock",
+    "can i drink sapta anywhere"
+   ],
+   "answer": "Shamanic tradition dictates that a sapta must only be drunk in designated holy places. Sacred sites like Spirit Rock serve as natural thin spots between the mortal realm and the elemental spirits."
+  },
+  {
+   "q": "Who is the Minor Manifestation of Earth?",
+   "aliases": [
+    "manifestation of earth",
+    "who is the earth spirit"
+   ],
+   "answer": "It is an elemental spirit of the earth that inhabits Spirit Rock. Visible only through the heightened perception of Sapta Sight, it greets young shaman to test their humility and impart the first foundational lessons of elemental balance."
+  },
+  {
+   "q": "Can any Horde shaman undertake this trial?",
+   "aliases": [
+    "can tauren do this quest",
+    "who can do call of earth"
+   ],
+   "answer": "While it is primarily the rite of passage for young orc and Darkspear troll shaman training in Durotar, tauren shaman who travel here may also complete it, though they have their own equivalent rite on Red Cloud Mesa."
+  },
+  {
+   "q": "How does the earth spirit react to the initiate?",
+   "aliases": [
+    "what does the earth spirit say",
+    "is the earth spirit hostile"
+   ],
+   "answer": "Unlike the volatile manifestations of fire or air, the earth spirit is welcoming and passive. It accepts initiates who approach with humble respect, bestowing its blessing without demanding a contest of strength."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This rite represents your very first step along the path of elemental attunement, teaching that true mastery begins with the quiet patience of the earth."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs returning to ancestral ways after generations of fel corruption, communion through the Earth Sapta is a sacred rediscovery of their people's traditional bond with the spirits."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear witch doctors and spiritualists embrace these earthen rites to adapt their deep ancestral ties to the harsh, sun-baked landscape of Durotar."
+  }
+ ],
+ "keywords": [
+  "call of earth",
+  "canaga earthcaller",
+  "earth sapta",
+  "hidden path",
+  "minor manifestation of earth",
+  "sapta sight",
+  "spirit rock",
+  "valley of trials"
+ ],
+ "related": [
+  "npc:canaga-earthcaller",
+  "npc:minor-manifestation-of-earth",
+  "subzone:spirit-rock",
+  "subzone:hidden-path",
+  "quest:1462",
+  "quest:1516",
+  "quest:1089",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Call of Earth (Durotar 2)"
+ ]
+}

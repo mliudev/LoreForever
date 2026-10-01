@@ -1,0 +1,99 @@
+{
+ "key": "item:mysterious-fossil",
+ "type": "item",
+ "name": "Mysterious Fossil",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Mysterious Fossil",
+  "quests": [
+   "quest:741",
+   "quest:942"
+  ]
+ },
+ "summary": "The Mysterious Fossil is an ancient specimen unearthed along the coast of Darkshore by Prospector Remtravel. Its curious characteristics have drawn the intense curiosity of the dwarven Explorers' League, prompting scholars to shuttle it across the sea to uncover its hidden secrets.",
+ "sections": [
+  {
+   "title": "A Curious Discovery",
+   "body": "While conducting fieldwork among the wild shores of Darkshore, Prospector Remtravel uncovered a fossil unlike the common petrified stone scattered across Kalimdor. Deeming it of monumental historical importance, Remtravel arranged for the specimen to be delivered to dwarven scholars rather than let it languish in the wilderness. When brought before Chief Archaeologist Greywhisker in Darnassus, the relic immediately stood out as an extraordinary find.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ties Across the Ocean",
+   "body": "Chief Archaeologist Greywhisker noted that the specimen bore an uncanny resemblance to another rare fossil once displayed at an Explorers' League gathering in Ironforge. That earlier piece had been studied by Archaeologist Flagongut, who suspected the stone possessed latent power waiting to be awakened. To confirm its origins and unlock its potential secrets, Greywhisker directed couriers to carry the fossil across the ocean to Flagongut, who awaits transport in the Deepwater Tavern of Menethil Harbor.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where was the Mysterious Fossil found?",
+   "aliases": [
+    "fossil location",
+    "where is it found",
+    "origin of fossil"
+   ],
+   "answer": "The fossil was discovered in Darkshore by Prospector Remtravel during his fieldwork along the ancient northern coastline of Kalimdor."
+  },
+  {
+   "q": "Why does the Explorers' League want this fossil?",
+   "aliases": [
+    "why do dwarves want it",
+    "explorers league interest",
+    "what does the fossil do"
+   ],
+   "answer": "The Explorers' League is dedicated to studying ancient artifacts and the origins of the world. Chief Archaeologist Greywhisker believes this specimen is tied to research presented by Archaeologist Flagongut, who theorized that such fossils might hold unlockable power."
+  },
+  {
+   "q": "Who is Archaeologist Flagongut?",
+   "aliases": [
+    "who is flagongut",
+    "flagongut location",
+    "where is flagongut"
+   ],
+   "answer": "Archaeologist Flagongut is a researcher for the Explorers' League. Known for studying similar petrified relics, he is currently staying at the Deepwater Tavern in Menethil Harbor while awaiting escort to the Whelgar Excavation Site in the Wetlands."
+  },
+  {
+   "q": "Who is Chief Archaeologist Greywhisker?",
+   "aliases": [
+    "greywhisker",
+    "who is greywhisker",
+    "darnassus dwarf archaeologist"
+   ],
+   "answer": "Chief Archaeologist Greywhisker is the senior representative of the Explorers' League stationed in Darnassus, overseeing dwarven research and archaeological efforts across northern Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, this fossil represents another missing piece in the Explorers' League's ongoing quest to piece together ancient titan heritage and unearth forgotten mysteries."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The transfer of the relic highlights the vital logistical chain binding Alliance outposts, connecting field scouts in Darkshore to scholars in Darnassus and Menethil Harbor."
+  }
+ ],
+ "keywords": [
+  "darkshore",
+  "explorers league",
+  "flagongut",
+  "greywhisker",
+  "menethil harbor",
+  "mysterious fossil",
+  "remtravel"
+ ],
+ "related": [
+  "quest:729",
+  "npc:prospector-remtravel",
+  "npc:chief-archaeologist-greywhisker",
+  "npc:archaeologist-flagongut",
+  "topic:explorers-league",
+  "zone:darkshore",
+  "subzone:menethil-harbor",
+  "subzone:deepwater-tavern"
+ ],
+ "attribution": [
+  "Mysterious Fossil",
+  "The Absent Minded Prospector (3)",
+  "The Absent Minded Prospector (4)"
+ ]
+}

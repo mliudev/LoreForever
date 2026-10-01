@@ -1,0 +1,85 @@
+{
+ "key": "item:bundle-of-wood",
+ "type": "item",
+ "name": "Bundle of Wood",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Bundle of Wood",
+  "quests": [
+   "quest:5545"
+  ]
+ },
+ "summary": "Bundles of Wood are tied timber stacks harvested by laborers near the Eastvale Logging Camp in eastern Elwynn Forest. Recently abandoned due to prowling wildlife, they represent critical shipments needed to fulfill local lumber contracts.",
+ "sections": [
+  {
+   "title": "Abandoned Timber",
+   "body": "The Eastvale Logging Camp serves as a primary source of lumber for the Kingdom of Stormwind, sending freshly chopped wood westward to sustain town infrastructure and construction projects. Recently, aggressive local wildlife\u2014specifically forest bears and prowling wolves\u2014pushed into the groves northwest of the camp. Terrified loggers fled for their lives, abandoning freshly gathered Bundles of Wood where they lay among the trees. Facing tight delivery deadlines, camp overseers rely on brave travelers to slip past the predators and retrieve the cut lumber before contracts are breached.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why were these bundles of wood abandoned in the woods?",
+   "aliases": [
+    "why is wood on ground",
+    "why abandon wood",
+    "abandoned lumber elwynn"
+   ],
+   "answer": "The workers harvesting timber northwest of Eastvale Logging Camp were ambushed and driven off by aggressive wolves and bears prowling the woods, leaving their chopped bundles scattered on the forest floor."
+  },
+  {
+   "q": "Who needs this wood collected?",
+   "aliases": [
+    "who wants the wood",
+    "raelen lumber",
+    "wood turn in"
+   ],
+   "answer": "Raelen, an overseer at the Eastvale Logging Camp, urgently needs the wood gathered to fulfill an impending lumber shipment deadline."
+  },
+  {
+   "q": "Where are these bundles found?",
+   "aliases": [
+    "bundle of wood location",
+    "where is the wood",
+    "eastvale wood spots"
+   ],
+   "answer": "They lie scattered on the ground directly northwest of the Eastvale Logging Camp, within the dense tree line inhabited by Elwynn's bears and wolves."
+  },
+  {
+   "q": "Why didn't the town guards clear out the beasts?",
+   "aliases": [
+    "why no guards",
+    "deputy rainer wood",
+    "guards at eastvale"
+   ],
+   "answer": "Raelen reached out to Deputy Rainer regarding the beast infestation, but local marshals and guards are stretched thin across Elwynn, forcing lumber workers to seek outside help to recover their logs quickly."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Every bundle retrieved directly supports Stormwind's rebuilding efforts, ensuring vital timber shipments reach settlements across Elwynn and Westfall on time."
+  }
+ ],
+ "keywords": [
+  "bundle of wood",
+  "eastvale",
+  "elwynn",
+  "logging camp",
+  "lumber",
+  "raelen",
+  "timber"
+ ],
+ "related": [
+  "quest:5545",
+  "subzone:eastvale-logging-camp",
+  "zone:elwynn",
+  "npc:deputy-rainer",
+  "subzone:westbrook-garrison"
+ ],
+ "attribution": [
+  "Bundle of Wood",
+  "A Bundle of Trouble"
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "key": "item:tainted-memorandum",
+ "type": "item",
+ "name": "Tainted Memorandum",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Tainted Memorandum",
+  "quests": [
+   "quest:3115"
+  ]
+ },
+ "summary": "The Tainted Memorandum is a discreet note handed to novice gnome warlocks starting out in Coldridge Valley. Penned by the warlock trainer Alamar Grimm, it urges the reader to cast aside traditional paths and seek out the true power offered by the dark arts.",
+ "sections": [
+  {
+   "title": "A Discreet Summons",
+   "body": "In the chilly dwarven outpost of Anvilmar, practitioners of fel magic are neither celebrated nor widely trusted. For young gnomes dabbling in forbidden arts, the Tainted Memorandum serves as an invitation from Alamar Grimm. The message rejects reliance on the Holy Light or mundane martial steel, pointing instead to the fall of Gnomeregan as proof that conventional methods and tinkering have failed their people. To Grimm, relying on dwarven charity is a dead end; gnomes must seize undeniable power and summon unquestioning minions if they ever hope to secure their own future.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote the Tainted Memorandum?",
+   "aliases": [
+    "author tainted memorandum",
+    "who sent tainted memorandum",
+    "alamar grimm note"
+   ],
+   "answer": "The memorandum was written by Alamar Grimm, the gnome warlock trainer stationed inside Anvilmar in Coldridge Valley."
+  },
+  {
+   "q": "Why is the memorandum considered 'tainted'?",
+   "aliases": [
+    "why tainted",
+    "tainted letter lore"
+   ],
+   "answer": "It deals directly with forbidden warlock magic. The title reflects the distrust and stigma surrounding demonic and fel power in Dun Morogh, where practitioners are kept at arm's length by their dwarven hosts."
+  },
+  {
+   "q": "What does Alamar Grimm say about Gnomeregan?",
+   "aliases": [
+    "alamar grimm gnomeregan",
+    "alamar grimm views"
+   ],
+   "answer": "Grimm is bitter about the fall of the gnome capital, blaming traditional arcane magic and careless tinkering for bringing their race close to extinction. He believes the dwarves view gnomes as second-class citizens and urges warlocks to find their own absolute power instead of waiting for Alliance help."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The note marks your formal introduction to warlock training under Alamar Grimm, framing dark summoning as a necessary pursuit of control and power."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Grimm's message taps into gnome resentment over the loss of Gnomeregan and their perceived status as dependent refugees in dwarven lands."
+  }
+ ],
+ "keywords": [
+  "alamar grimm",
+  "anvilmar",
+  "coldridge valley",
+  "gnome warlock",
+  "gnomeregan",
+  "tainted memorandum"
+ ],
+ "related": [
+  "npc:alamar-grimm",
+  "quest:3115",
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "topic:warlock",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Tainted Memorandum",
+  "Tainted Memorandum (quest)"
+ ]
+}

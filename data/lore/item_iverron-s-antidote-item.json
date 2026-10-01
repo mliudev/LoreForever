@@ -1,0 +1,85 @@
+{
+ "key": "item:iverron-s-antidote-item",
+ "type": "item",
+ "name": "Iverron's Antidote (item)",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Iverron's Antidote (item)",
+  "quests": [
+   "quest:3522"
+  ]
+ },
+ "summary": "Iverron's Antidote is a delicate medicinal draught concocted by Dirania Silvershine in Shadowglen. Specially brewed to neutralize the lethal venom of the local Webwood spiders, the mixture is highly unstable and spoils rapidly once prepared.",
+ "sections": [
+  {
+   "title": "A Fragile Remedy",
+   "body": "Crafted by the priestess Dirania Silvershine in Aldrassil, this antidote is formulated to counteract the potent venom afflicting the young night elf Iverron. Due to the volatile nature of its ingredients and herbal catalysts, the draught possesses an exceptionally short shelf life, remaining viable for only five minutes after brewing. Courier messengers must sprint north toward the Webwood cave without delay to deliver the concoction before it degrades into useless slurry.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Iverron's Antidote used for?",
+   "aliases": [
+    "antidote use",
+    "what does iverrons antidote do"
+   ],
+   "answer": "It cures Iverron of the toxic bite he sustained from the nearby Webwood spiders outside their cave in northern Shadowglen."
+  },
+  {
+   "q": "Why does the antidote have a time limit?",
+   "aliases": [
+    "why 5 minutes",
+    "antidote timer",
+    "why does it expire"
+   ],
+   "answer": "Dirania Silvershine notes that the concoction is fragile and only remains potent for five minutes after preparation. If it is not administered quickly, its medicinal properties completely break down."
+  },
+  {
+   "q": "Who brews the antidote?",
+   "aliases": [
+    "who made antidote",
+    "antidote maker"
+   ],
+   "answer": "Dirania Silvershine, a night elf healer stationed in Aldrassil within the Shadowglen, brews the potion using ingredients gathered to save Iverron."
+  },
+  {
+   "q": "What happens if the antidote expires?",
+   "aliases": [
+    "antidote expired",
+    "timer ran out"
+   ],
+   "answer": "If the timer runs out, the draught spoils and will no longer work. The courier must return to Dirania Silvershine in Aldrassil to obtain a fresh batch."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young night elf adventurers starting in Shadowglen, rushing this cure to Iverron demonstrates the community's reliance on quick action and herbal knowledge against the creeping corruption in the boughs of Teldrassil."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The concoction demonstrates the extreme volatility of native Teldrassil reagents, highlighting how certain herbal remedies must be consumed immediately upon brewing."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "dirania silvershine",
+  "iverron",
+  "iverron's antidote",
+  "shadowglen",
+  "spider poison",
+  "teldrassil",
+  "webwood venom"
+ ],
+ "related": [
+  "quest:3521",
+  "npc:iverron",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Iverron's Antidote (item)",
+  "Iverron's Antidote (2)"
+ ]
+}

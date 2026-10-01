@@ -1,0 +1,97 @@
+{
+ "key": "item:tear-of-tilloa",
+ "type": "item",
+ "name": "Tear of Tilloa",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Tear of Tilloa",
+  "quests": [
+   "quest:335"
+  ]
+ },
+ "summary": "The Tear of Tilloa is a delicate, pale blossom found in the shadows of Duskwood. Desired for its potent alchemical properties, it grows quietly in the overgrown grounds of the Mistmantle estate near Darkshire.",
+ "sections": [
+  {
+   "title": "A Garden in the Gloom",
+   "body": "Growing amidst the encroaching blighted woods outside Darkshire, the Tear of Tilloa takes root within the estate grounds of Stalvan Mistmantle. Though Duskwood's soil has turned hostile to wholesome vegetation, this small white flower persists among the shadowed plots. Its scarce growth and secluded location make it an object of interest for those seeking rare reagents not easily discovered in lawful markets.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Concoction for the Nobles",
+   "body": "Beneath the bustling streets of Stormwind, the Tear of Tilloa serves a far more clandestine purpose. Zardeth of the Black Claw seeks out the flower to brew a specialized draught aimed at Lord Wishock, a member of the House of Nobles threatening to investigate shadowy operations beneath the capital. Combined with Musquash Root from beneath the Stonewrought Dam, the plant is processed into a brew intended to distract and incapacitate Wishock before an official probe can take place.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Tear of Tilloa grow?",
+   "aliases": [
+    "tear of tilloa location",
+    "where is tear of tilloa",
+    "tilloa spot"
+   ],
+   "answer": "The flower is found on the outskirts of Darkshire in Duskwood, tucked away in the overgrown garden belonging to the Mistmantle family estate."
+  },
+  {
+   "q": "Who wants the Tear of Tilloa?",
+   "aliases": [
+    "who needs tear of tilloa",
+    "tear of tilloa quest giver",
+    "who wants it"
+   ],
+   "answer": "Zardeth of the Black Claw, operating covertly beneath Stormwind City, requires the flower to concoct a special draught."
+  },
+  {
+   "q": "What is the flower used for?",
+   "aliases": [
+    "tear of tilloa purpose",
+    "what does tear of tilloa do",
+    "noble brew flower"
+   ],
+   "answer": "It serves as an essential alchemical ingredient alongside Musquash Root. Together, they form a potent brew used to incapacitate Lord Wishock and silence his calls to investigate dark dealings beneath the capital."
+  },
+  {
+   "q": "Who is Lord Wishock?",
+   "aliases": [
+    "wishock",
+    "who is wishock",
+    "lord wishock"
+   ],
+   "answer": "Lord Wishock is a nobleman within Stormwind's House of Nobles who caught wind of subversive operations underneath the city and began lobbying the council for a full investigation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "The Tear of Tilloa is a rare botanical curiosity, surviving uniquely in the blighted microclimate of Duskwood rather than typical lush fields."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Coveted by occult operatives beneath the capital, this innocuous blossom is a prized reagent for concocting poisons to silence probing nobles."
+  }
+ ],
+ "keywords": [
+  "a noble brew",
+  "darkshire",
+  "mistmantle",
+  "stalvan",
+  "tear of tilloa",
+  "tilloa",
+  "wishock",
+  "zardeth"
+ ],
+ "related": [
+  "quest:335",
+  "quest:397",
+  "item:musquash-root",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "topic:house-of-nobles",
+  "subzone:stonewrought-dam"
+ ],
+ "attribution": [
+  "Tear of Tilloa",
+  "A Noble Brew"
+ ]
+}

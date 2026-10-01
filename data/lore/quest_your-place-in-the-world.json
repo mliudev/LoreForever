@@ -1,0 +1,118 @@
+{
+ "key": "quest:your-place-in-the-world",
+ "type": "quest",
+ "name": "Your Place In The World",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   4641
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Kaltunk",
+  "end": "Gornek",
+  "previous": null,
+  "next": "Cutting Teeth",
+  "wiki": "Your Place In The World",
+  "chain": []
+ },
+ "summary": "This simple rite of passage marks the moment an aspiring young champion steps forward to serve the Horde. Given by Kaltunk in the Valley of Trials, it sends untested recruits straight to Gornek to begin their basic combat training. It represents the very first step toward earning honor and survival in the harsh lands of Durotar.",
+ "sections": [
+  {
+   "title": "Coming of Age in Durotar",
+   "body": "In the arid canyon of the Valley of Trials, young orcs and darkspear trolls must prove their worth before they can ever set foot in the wider world. Life under Warchief Thrall demands strength, vigilance, and discipline. Kaltunk evaluates every eager recruit, temperately dampening their dreams of wrestling demons and dragons to redirect them toward realistic duties. Every legendary hero of the Horde begins right here, learning humility before claiming glory.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reporting to Gornek",
+   "body": "Just steps away from Kaltunk sits Gornek, a gruff veteran stationed beside the camp fire. Gornek evaluates the fresh arrivals with a skeptical eye, often grumbling about the meager stock arriving at the camp. Yet, it is his responsibility to harden these fledgling fighters through rigorous trials, beginning with culling the local vermin threatening the encampment's supplies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do this quest",
+    "first horde quest",
+    "what is your place in the world"
+   ],
+   "answer": "It serves as the introductory rite of passage for young recruits in the Valley of Trials. It officially enlists you into service under the Horde and introduces you to Gornek, who assigns your first real combat duties."
+  },
+  {
+   "q": "Who is Kaltunk?",
+   "aliases": [
+    "kaltunk role",
+    "who gives this quest"
+   ],
+   "answer": "Kaltunk is an orc overseer stationed at the entrance of the Valley of Trials. He greets coming-of-age recruits, looks them over, and directs them toward proper trainers and leadership within the camp."
+  },
+  {
+   "q": "Who is Gornek?",
+   "aliases": [
+    "gornek role",
+    "where is gornek"
+   ],
+   "answer": "Gornek is an experienced Horde trainer seated near the campfire in the Valley of Trials. He is tasked with testing incoming recruits and hardening them into capable soldiers before allowing them to leave the canyon."
+  },
+  {
+   "q": "Where does this quest lead next?",
+   "aliases": [
+    "what quest is next",
+    "next after your place in the world"
+   ],
+   "answer": "Reporting to Gornek leads immediately into the trial 'Cutting Teeth', where recruits are sent into the dirt to cull mottled boars and prove their basic martial prowess."
+  },
+  {
+   "q": "Why are recruits kept in the Valley of Trials?",
+   "aliases": [
+    "why valley of trials",
+    "why start here"
+   ],
+   "answer": "The Valley of Trials is a secluded, protected canyon within Durotar designed to train, evaluate, and weed out recruits before they encounter the far deadlier beasts, quillboar, and enemy scouts of the wider territory."
+  },
+  {
+   "q": "Does this quest differ between orcs and trolls?",
+   "aliases": [
+    "troll intro quest",
+    "orc intro quest"
+   ],
+   "answer": "Both young orcs and Darkspear trolls begin their training together in the Valley of Trials and receive this same introductory call to arms from Kaltunk."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Every young Horde recruit in Durotar must prove they possess the grit to defend their fledgling nation before taking up arms in the Warchief's name."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs, reaching age and reporting for duty in the Valley of Trials is a deeply cultural milestone centered on personal honor and martial readiness."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Having settled in Durotar alongside their orc allies, the Darkspear trolls train alongside their brethren here to forge unity and mutual survival."
+  }
+ ],
+ "keywords": [
+  "cutting teeth",
+  "durotar",
+  "gornek",
+  "horde",
+  "kaltunk",
+  "recruits",
+  "valley of trials",
+  "warchief"
+ ],
+ "related": [
+  "npc:kaltunk",
+  "npc:gornek",
+  "quest:cutting-teeth",
+  "zone:durotar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Your Place In The World"
+ ]
+}

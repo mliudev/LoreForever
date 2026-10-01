@@ -1,0 +1,90 @@
+{
+ "key": "item:webwood-venom-sac",
+ "type": "item",
+ "name": "Webwood Venom Sac",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Webwood Venom Sac",
+  "quests": [
+   "quest:916"
+  ]
+ },
+ "summary": "A Webwood Venom Sac is an organ harvested from the overgrown arachnids inhabiting Shadowglen on Teldrassil. Naturalists seek these samples to determine how the unnatural growth of the new World Tree has altered local wildlife.",
+ "sections": [
+  {
+   "title": "A Symptom of Teldrassil's Growth",
+   "body": "The webwood spiders dwelling around and within Shadowthread Cave are cousins to a far smaller breed of spider found elsewhere. Their sudden enlargement and predatory aggression have raised concerns among night elf researchers. Naturalists like Gilshalan Windwalker study the venom contained within these sacs to analyze its potency and composition, hoping to understand how the rapid, unblessed growth of Teldrassil is warping the creatures that live upon its boughs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are Webwood Venom Sacs found?",
+   "aliases": [
+    "where do these drop",
+    "webwood venom sac location",
+    "spider venom location"
+   ],
+   "answer": "They are gathered from webwood spiders that infest the northern reaches of Shadowglen, particularly in and around Shadowthread Cave."
+  },
+  {
+   "q": "Who wants these venom sacs?",
+   "aliases": [
+    "who needs venom sacs",
+    "gilshalan windwalker quest"
+   ],
+   "answer": "Gilshalan Windwalker, a night elf researcher stationed at Aldrassil in Shadowglen, collects them to study the spiders' biology before eventually returning to Darnassus."
+  },
+  {
+   "q": "Why are the webwood spiders so large?",
+   "aliases": [
+    "why are spiders big",
+    "webwood spider size"
+   ],
+   "answer": "Researchers believe that the emergence and rapid growth of the new World Tree, Teldrassil, has had a profound and distorting effect on local wildlife, causing ordinary arachnid species to grow into massive, aggressive predators."
+  },
+  {
+   "q": "Is this venom used to make an antidote?",
+   "aliases": [
+    "is this for a cure",
+    "antidote ingredient"
+   ],
+   "answer": "Gilshalan collects these sacs strictly for comparative study. However, spider venom from this region is a known hazard, and remedies such as Iverron's antidote are separately required to save those bitten in the woods."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids attuned to the balance of nature, the corrupted potency of these venom sacs provides alarming physical evidence that all is not well atop the boughs of Teldrassil."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Young night elf adventurers in Shadowglen are tasked with gathering these specimens to assist scholars trying to understand the strange new ecology of their bough-top homeland."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "gilshalan windwalker",
+  "shadowglen",
+  "shadowthread cave",
+  "teldrassil",
+  "venom",
+  "webwood spider",
+  "webwood venom sac"
+ ],
+ "related": [
+  "quest:916",
+  "npc:gilshalan-windwalker",
+  "subzone:shadowthread-cave",
+  "subzone:shadowglen",
+  "subzone:aldrassil",
+  "zone:teldrassil",
+  "quest:3521",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "Webwood Venom Sac",
+  "Webwood Venom"
+ ]
+}

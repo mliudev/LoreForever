@@ -1,0 +1,92 @@
+{
+ "key": "item:thunder-lizard-horn",
+ "type": "item",
+ "name": "Thunder Lizard Horn",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Thunder Lizard Horn",
+  "quests": [
+   "quest:821"
+  ]
+ },
+ "summary": "A thunder lizard horn is a hardy trophy harvested from the massive, lightning-attuned thunder lizards wandering the Barrens. Brewmaster Drohn in Ratchet seeks this unusual reagent to recreate a legendary beverage originally concocted by Chen Stormstout.",
+ "sections": [
+  {
+   "title": "A Potent Brewing Reagent",
+   "body": "Thunder lizards roam the arid flats of the Barrens, crackling with raw, localized lightning that arcs from their crested bodies. While hunters occasionally seek their thick hides, Brewmaster Drohn in Ratchet values their horns for a very different purpose. Handed down from a mentor who once learned alongside the wandering pandaren Brewmaster Chen Stormstout, the recipe for Stormstout ale calls for unusual, potent local ingredients. The horn of a thunder lizard provides the electrifying kick that gives the legendary draught its fiery, unforgettable bite.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the horn used for?",
+   "aliases": [
+    "thunder lizard horn use",
+    "what uses thunder lizard horn",
+    "why do i need thunder lizard horn"
+   ],
+   "answer": "The horn is used by Brewmaster Drohn in Ratchet as an essential ingredient to recreate Chen Stormstout's famous namesake brew, known for its potent kick."
+  },
+  {
+   "q": "Which beasts yield a thunder lizard horn?",
+   "aliases": [
+    "where to get thunder lizard horn",
+    "who drops thunder lizard horn",
+    "thunder lizard horn sources"
+   ],
+   "answer": "Any of the thunder lizard breeds across the Barrens can yield a horn, including thunderheads, stormsnouts, thunderstomps, stormhides, and the elusive beast Owatanka."
+  },
+  {
+   "q": "Who is Brewmaster Drohn?",
+   "aliases": [
+    "who is drohn",
+    "brewmaster drohn lore",
+    "drohn ratchet"
+   ],
+   "answer": "Brewmaster Drohn is a brewer operating out of the goblin port of Ratchet. His former mentor studied brewing directly alongside the famed wanderer Chen Stormstout, passing down recipes for legendary ales."
+  },
+  {
+   "q": "Are thunder lizards dangerous to hunt for their horns?",
+   "aliases": [
+    "how tough are thunder lizards",
+    "hunting thunder lizards"
+   ],
+   "answer": "Thunder lizards are formidable beasts that naturally discharge lightning and unleash thunderous stomps when provoked, making harvesting their horns a hazardous endeavor for solitary travelers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Culinary adventurers often marvel at Brewmaster Drohn's unusual recipe, which combines plainstrider organs, predator tusks, and a beast's horn to create an intoxicating beverage."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking thunder lizards across the open savannah requires caution, as their natural lightning discharges make them far deadlier than ordinary Barrens kodo or plainstriders."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "brewmaster drohn",
+  "chen stormstout",
+  "owatanka",
+  "ratchet",
+  "stormsnout",
+  "stormstout",
+  "thunder lizard horn",
+  "thunderhead"
+ ],
+ "related": [
+  "npc:brewmaster-drohn",
+  "quest:819",
+  "quest:884",
+  "item:savannah-lion-tusk",
+  "item:plainstrider-kidney",
+  "zone:barrens",
+  "subzone:ratchet"
+ ],
+ "attribution": [
+  "Thunder Lizard Horn",
+  "Chen's Empty Keg (2)"
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "key": "item:pure-hearts",
+ "type": "item",
+ "name": "Pure Hearts",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Pure Hearts",
+  "quests": [
+   "quest:1474"
+  ]
+ },
+ "summary": "Pure Hearts are ritual reagents provided to Forsaken warlocks by Carendin Halgar in the Undercity. They are used to lure and manifest a succubus across the Twisting Nether so the practitioner can defeat and bind the demon.",
+ "sections": [
+  {
+   "title": "Bait for the Nether",
+   "body": "Demonology relies on exploiting base desires and spiritual vulnerabilities. To summon a succubus into the Magic Quarter of the Undercity, Carendin Halgar provides warlocks with Pure Hearts. When placed upon the summoning circle, these untainted spiritual essences act as potent bait, drawing the seductive demon across the Twisting Nether into the mortal realm. Once the demon manifests, the warlock must resist her enthralling mind-charms and strike her down in combat. Overcoming the succubus asserts mystical dominance, banishing her back to the Twisting Nether until the warlock invokes her true name to bind her into permanent servitude.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Pure Hearts used for?",
+   "aliases": [
+    "pure hearts use",
+    "why pure hearts",
+    "what do pure hearts do"
+   ],
+   "answer": "They serve as the mystical catalyst used at the summoning circle in Undercity's Magic Quarter to lure and manifest a succubus across the void, allowing a warlock to battle and bind her."
+  },
+  {
+   "q": "Who provides the Pure Hearts?",
+   "aliases": [
+    "who gives pure hearts",
+    "pure hearts quest giver"
+   ],
+   "answer": "Carendin Halgar, the Forsaken warlock trainer located in the Magic Quarter beneath the ruins of Lordaeron, gives them to aspiring practitioners ready to master the summoning of a succubus."
+  },
+  {
+   "q": "Why does a succubus respond to Pure Hearts?",
+   "aliases": [
+    "why succubus wants pure hearts",
+    "lore behind pure hearts"
+   ],
+   "answer": "Succubi thrive on corruption, seduction, and corrupting innocence. The radiance of unblemished, pure hearts is an irresistible lure across the Twisting Nether, drawing them straight into the warlock's prepared summoning circle."
+  },
+  {
+   "q": "Do you get to keep the Pure Hearts after the ritual?",
+   "aliases": [
+    "do i keep pure hearts",
+    "what happens to pure hearts"
+   ],
+   "answer": "No. Once the succubus is summoned and subdued, the remnants of the Pure Hearts are returned to Carendin Halgar as proof of completing the binding trial."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "For Forsaken warlocks, obtaining and using these hearts represents a pivotal milestone in demonology: proving one's mental fortitude against the seductive lures of the Twisting Nether."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Amidst the rot and blight of the Undercity, using purely untainted hearts to manipulate demonic appetites exemplifies the cold, pragmatic sorcery practiced by the Forsaken."
+  }
+ ],
+ "keywords": [
+  "carendin halgar",
+  "magic quarter",
+  "pure hearts",
+  "succubus",
+  "summoning",
+  "the binding",
+  "undercity"
+ ],
+ "related": [
+  "npc:carendin-halgar",
+  "quest:1471",
+  "subzone:magic-quarter",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "Pure Hearts",
+  "The Binding (Succubus, Undercity)"
+ ]
+}

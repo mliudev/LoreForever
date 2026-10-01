@@ -1,0 +1,75 @@
+{
+ "key": "npc:thran-khorman",
+ "type": "npc",
+ "name": "Thran Khorman",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Thran Khorman",
+  "refs": 2
+ },
+ "summary": "Thran Khorman is the resident dwarven warrior trainer stationed in Anvilmar, nestled within the snowy Coldridge Valley. He oversees the basic combat drilling for newly minted warriors stepping out into Dun Morogh.",
+ "sections": [
+  {
+   "title": "Drillmaster of Coldridge Valley",
+   "body": "Standing near the training grounds of Anvilmar, Thran Khorman is tasked with turning raw dwarven recruits and visiting gnomes into disciplined combatants. He maintains a gruff, uncompromising demeanor toward anyone who lacks the grit for front-line fighting. In his eyes, even though the Third War has concluded, peace is merely an illusion: troggs encroach upon Coldridge Pass, and the mountains remain fraught with peril. He demands relentless practice with axe, mace, and shield so that Ironforge's defenders never grow dull.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Thran Khorman?",
+   "aliases": [
+    "thran khorman role",
+    "who is thran",
+    "anvilmar warrior trainer"
+   ],
+   "answer": "Thran Khorman is the dwarven warrior trainer stationed at Anvilmar in Dun Morogh. He provides initial combat guidance and instruction to novice warriors starting their journeys in Coldridge Valley."
+  },
+  {
+   "q": "What training does he offer?",
+   "aliases": [
+    "what does thran teach",
+    "warrior skills thran"
+   ],
+   "answer": "He instructs novice warriors in the fundamental disciplines of martial combat, helping them refine their stances, melee techniques, and battlefield grit before they head out to face the troggs and wild beasts of the pass."
+  },
+  {
+   "q": "Why is he dismissed or curt with certain travelers?",
+   "aliases": [
+    "why is thran rude",
+    "thran gossip",
+    "thran non warrior text"
+   ],
+   "answer": "Thran lives and breathes martial warfare and has little patience for those who pursue the arcane, shadow, or subtle arts. If you are not a warrior, he will frankly tell you that you wouldn't survive a single day under his training regimen."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "For dwarven and gnomish warriors awakening in Coldridge Pass, Thran is the very first master to test your mettle, hand you your starter runes or orders, and teach you the basics of martial survival."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Thran epitomizes the stubborn, steadfast resolve of Ironforge's defenders, maintaining readiness even during peacetime so the kingdom is never caught unprepared."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge pass",
+  "dun morogh",
+  "ironforge",
+  "thran khorman",
+  "warrior trainer"
+ ],
+ "related": [
+  "subzone:anvilmar",
+  "zone:dunmorogh",
+  "quest:3106",
+  "quest:3112",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Thran Khorman"
+ ]
+}

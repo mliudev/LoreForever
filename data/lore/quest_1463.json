@@ -1,0 +1,117 @@
+{
+ "key": "quest:1463",
+ "type": "quest",
+ "name": "Earth Sapta",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   1463
+  ],
+  "level": "4",
+  "faction": "Horde",
+  "start": "Canaga Earthcaller",
+  "end": "",
+  "previous": "Call of Earth (Durotar 2)",
+  "next": null,
+  "wiki": "Earth Sapta (Durotar)",
+  "chain": []
+ },
+ "summary": "This errand serves as a test of responsibility for an initiate shaman in the Valley of Trials. If an acolyte misplaces the consecrated Earth Sapta before communing with the spirits of the land, Canaga Earthcaller provides a replacement with a stern reminder to treat sacred draughts with care.",
+ "sections": [
+  {
+   "title": "A Second Chance with the Elements",
+   "body": "The path of a shaman requires absolute mindfulness and respect for the spirits of the world. Prepared through specific rituals, the Earth Sapta is an elemental brew intended to thin the veil between the physical realm and the spirits of stone and soil. When an initiate inadvertently misplaces or spills this draught while traveling through Durotar, Canaga Earthcaller is willing to prepare another in good faith, though not without warning the novice to be far more vigilant with sacred gifts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Canaga's Guidance",
+   "body": "Canaga Earthcaller watches over the fledgling shamans emerging from the Den in the Valley of Trials. While understanding that young orcs and trolls are prone to the chaos of early trials, he stresses that the elemental spirits do not take kindly to negligence. Accepting a second sapta is a small lesson in humility, ensuring the young shaman remembers that power granted by the earth must be guarded and respected.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is an Earth Sapta?",
+   "aliases": [
+    "what is sapta",
+    "earth sapta use",
+    "purpose of sapta"
+   ],
+   "answer": "An Earth Sapta is a specially prepared ceremonial draught used by shaman initiates. Ingesting it grants spiritual sight, allowing the drinker to perceive and speak with elemental earth spirits that remain unseen to ordinary eyes."
+  },
+  {
+   "q": "Why does Canaga Earthcaller offer this quest?",
+   "aliases": [
+    "why canaga gives sapta",
+    "lost my earth sapta"
+   ],
+   "answer": "Canaga Earthcaller provides this replacement if an initiate loses or misplaces their Earth Sapta before completing the communion ritual during the Call of Earth trials. He grants another in good faith so the acolyte can finish their spiritual task."
+  },
+  {
+   "q": "Where does this ritual take place?",
+   "aliases": [
+    "where is canaga",
+    "valley of trials sapta location"
+   ],
+   "answer": "This exchange occurs in the Valley of Trials, the sun-scorched canyon in southwestern Durotar where young orcs and trolls begin their journeys of discipline and honor."
+  },
+  {
+   "q": "Is losing the sapta seen poorly by the spirits?",
+   "aliases": [
+    "does losing sapta matter",
+    "lore of losing sapta"
+   ],
+   "answer": "While the spirits are patient, Canaga reminds initiates that treating sacred draughts carelessly demonstrates a lack of focus. A true shaman must treat every elemental gift with absolute reverence."
+  },
+  {
+   "q": "Who can undertake this communion?",
+   "aliases": [
+    "who can get earth sapta",
+    "classes for sapta"
+   ],
+   "answer": "The preparation and drinking of the Earth Sapta is restricted to practicing shamans seeking to attune themselves to their first elemental totem, the Earth Totem."
+  },
+  {
+   "q": "What happens after an initiate drinks the sapta?",
+   "aliases": [
+    "what does sapta do when drunk",
+    "after earth sapta"
+   ],
+   "answer": "Drinking the draught opens the initiate's inner vision, allowing them to locate and converse with a local manifestation of the earth spirit tucked away in the crags of the Valley of Trials."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "For an initiate, losing the sapta is an early lesson in discipline: communion with the elements requires steady focus, not careless hands."
+  },
+  {
+   "target": "race:Orc",
+   "text": "In the arid crags of Durotar, young orcs learning the ancient ways of shamanism must prove their dedication to the ancestors and the earth beneath their boots."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear trolls walking the path of the elements in the Valley of Trials learn to balance their traditional loa worship with direct reverence for the elemental spirits."
+  }
+ ],
+ "keywords": [
+  "call of earth",
+  "canaga earthcaller",
+  "draught",
+  "durotar",
+  "earth sapta",
+  "shaman",
+  "totem",
+  "valley of trials"
+ ],
+ "related": [
+  "npc:canaga-earthcaller",
+  "quest:1516",
+  "quest:1462",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Earth Sapta (Durotar)"
+ ]
+}

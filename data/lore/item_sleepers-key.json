@@ -1,0 +1,92 @@
+{
+ "key": "item:sleepers-key",
+ "type": "item",
+ "name": "Sleepers' Key",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Sleepers' Key",
+  "quests": [
+   "quest:1089"
+  ]
+ },
+ "summary": "The Sleepers' Key is one of three enchanted keys crafted by night elf druids to seal their sacred vault within the Talon Den atop Stonetalon Peak. Kept safe inside a hidden cache locked by the Gatekeeper's Key, it represents the slumbering druids of the wild who guard the mountain's deepest secrets.",
+ "sections": [
+  {
+   "title": "A Druidic Safeguard",
+   "body": "Carved into the heights of Stonetalon Peak, the Talon Den serves as a redoubt and sanctum for the druids of Kalimdor. Aware that their sacred relics and potent treasures might draw unwanted attention, the night elf keepers devised an intricate system of locks and hidden caches to protect their hoard. The Sleepers' Key is one third of that protective ward. Placed within a secluded cache in the den's depths, it can only be retrieved using the Gatekeeper's Key hidden near the threshold. Alongside the Claw Key and the Barrow Key, the Sleepers' Key must be set into the stone locks of the Talon Den Hoard to disperse the ward and reveal the ancient items held within.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sleepers' Key used for?",
+   "aliases": [
+    "what does sleepers key do",
+    "sleepers key purpose",
+    "talon den hoard keys"
+   ],
+   "answer": "The Sleepers' Key is used alongside the Barrow Key and Claw Key to open the Talon Den Hoard, a warded stone vault hidden deep within the barrow den at Stonetalon Peak."
+  },
+  {
+   "q": "How was the Sleepers' Key locked away?",
+   "aliases": [
+    "where is sleepers key",
+    "opening sleepers cache",
+    "gatekeepers key requirement"
+   ],
+   "answer": "The druids placed it inside the Sleepers' Cache in the northwestern tunnels of the Talon Den. Opening that cache requires the Gatekeeper's Key, which the druids concealed within an unassuming lantern near the den's entrance."
+  },
+  {
+   "q": "Why did the druids hide their relics with multiple keys?",
+   "aliases": [
+    "why so many keys",
+    "talon den defense",
+    "druid hoard puzzle"
+   ],
+   "answer": "The night elf druids crafted complex safeguards so that their powerful items and sacred heirlooms would never fall into enemy hands if the den were attacked. Dispersing the keys among hidden caches ensured that intruders could not easily plunder their hoard."
+  },
+  {
+   "q": "Why is it called the Sleepers' Key?",
+   "aliases": [
+    "who are the sleepers",
+    "sleepers key name meaning"
+   ],
+   "answer": "It is named after the sleeping druids who enter deep trances to wander the Emerald Dream. Much like the Barrow Key and Claw Key, its name honors the sacred duties and traditions of the night elf circles stationed in the mountains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The keys and caches of the Talon Den showcase the night elf druids' layered defenses, utilizing their ancient knowledge of the Emerald Dream and the barrows to seal away relics of power."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Acquiring the Sleepers' Key is part of an orchestrated raid into Stonetalon Peak's heart, stripping away the defensive wards of the night elves to claim the relics sealed in their hoard."
+  }
+ ],
+ "keywords": [
+  "gatekeeper's key",
+  "sleepers cache",
+  "sleepers key",
+  "sleepers' key",
+  "stonetalon peak",
+  "talon den",
+  "talon den hoard",
+  "the den"
+ ],
+ "related": [
+  "quest:1089",
+  "item:barrow-key",
+  "item:claw-key",
+  "subzone:stonetalon-peak",
+  "zone:stonetalon",
+  "quest:1088",
+  "quest:1087",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Sleepers' Key",
+  "The Den (quest)"
+ ]
+}

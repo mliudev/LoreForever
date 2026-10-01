@@ -1,0 +1,97 @@
+{
+ "key": "item:gnoll-paw",
+ "type": "item",
+ "name": "Gnoll Paw",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Gnoll Paw",
+  "quests": [
+   "quest:102"
+  ]
+ },
+ "summary": "Gnoll Paws are crude physical trophies harvested from Riverpaw gnolls roaming the grasslands of Westfall. Collected by The People's Militia, they serve as proof of a patrol's success in thinning the packs that threaten the local farmsteads.",
+ "sections": [
+  {
+   "title": "Bounty of the Militia",
+   "body": "With the royal army absent and the crown seemingly blind to the plight of rural settlements, the defense of Westfall has fallen to ordinary citizens and volunteer forces. The People's Militia, operating out of Sentinel Hill, struggles constantly against outlaws, rogue mechanoids, and aggressive hyena-headed gnolls. To curb the gnoll menace, Captain Danuvin instituted bounties requiring physical evidence of slain beasts. Collecting severed paws is a grim necessity, ensuring that contracted adventurers truly scour the scrublands rather than loaf in the shadow of the watchtower.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Coordinated Menace",
+   "body": "The Riverpaw gnolls in Westfall are more than just feral wild beasts foraging on the plains. Observers among the militia have noted troubling signs that these gnolls operate in close coordination with the Defias thieves based around the Deadmines. By terrorizing outlying farmsteads and preying on traveling supply wagons, the gnoll packs effectively screen the bandits from local resistance. Suppressing them by bringing in their paws helps keep the precarious overland routes between Sentinel Hill and Elwynn Forest open.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Captain Danuvin want Gnoll Paws?",
+   "aliases": [
+    "why collect paws",
+    "danuvin gnoll paws",
+    "what are gnoll paws for"
+   ],
+   "answer": "Captain Danuvin uses the paws as proof of a successful patrol across the Westfall plains. Because the militia's resources are thin and the crown provides no aid, bounties are paid only when recruits deliver tangible evidence of dead gnolls."
+  },
+  {
+   "q": "Which gnolls drop these paws?",
+   "aliases": [
+    "where to get gnoll paws",
+    "which gnolls have paws",
+    "gnoll paw location"
+   ],
+   "answer": "They are collected from the various Riverpaw gnolls that prowl throughout the grasslands, hills, and abandoned farms across Westfall."
+  },
+  {
+   "q": "Are the gnolls acting alone in Westfall?",
+   "aliases": [
+    "are gnolls working with defias",
+    "gnoll deadmines connection",
+    "who commands the gnolls"
+   ],
+   "answer": "No. Captain Danuvin and the militia suspect that the Riverpaw gnolls are working in conjunction with the bandits and thieves operating out of the Deadmines, creating double trouble for the local farmsteads."
+  },
+  {
+   "q": "Why isn't Stormwind dealing with the gnoll threat?",
+   "aliases": [
+    "why no stormwind army",
+    "where is the army",
+    "why does the militia fight gnolls"
+   ],
+   "answer": "Stormwind has largely abandoned Westfall to its own devices due to domestic turmoil and political paralysis. The defense of the countryside is left almost entirely to local farmers and The People's Militia."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions, taking up bounties for The People's Militia is vital to keeping Stormwind's western breadbasket from falling entirely to roving wild beasts and organized bandits."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking aggressive Riverpaw packs across the open plains of Westfall offers hunters straightforward quarry while helping secure rural outposts."
+  }
+ ],
+ "keywords": [
+  "danuvin",
+  "gnoll paw",
+  "patrolling westfall",
+  "people's militia",
+  "riverpaw",
+  "sentinel hill",
+  "westfall"
+ ],
+ "related": [
+  "quest:102",
+  "npc:captain-danuvin",
+  "zone:westfall",
+  "subzone:sentinel-hill",
+  "topic:gnoll",
+  "quest:12",
+  "topic:stormwind-kingdom",
+  "zone:deadmines"
+ ],
+ "attribution": [
+  "Gnoll Paw",
+  "Patrolling Westfall"
+ ]
+}

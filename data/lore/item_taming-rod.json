@@ -1,0 +1,97 @@
+{
+ "key": "item:taming-rod",
+ "type": "item",
+ "name": "Taming Rod",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Taming Rod",
+  "quests": [
+   "quest:6062",
+   "quest:6082",
+   "quest:6083"
+  ]
+ },
+ "summary": "A Taming Rod is an instructional tool entrusted to novice hunters by their trainers. Infused with simple binding magic, it allows a student to temporarily pacify and command local wildlife to master the fundamentals of beast handling.",
+ "sections": [
+  {
+   "title": "A Guide's Training Implement",
+   "body": "Novice hunters cannot immediately exert the mental force required to bind a wild creature to their will permanently. To bridge that gap, veteran trainers issue specialized Taming Rods. In places like Razor Hill, mentors such as Thotar give aspiring orc and troll hunters these enchanted implements to subdue regional predators\u2014such as dire mottled boars and armored scorpids. The rod temporarily pacifies the beast, allowing the handler to practice issuing commands and fighting alongside an animal companion without the danger of an unbreakable primal bond forming prematurely.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Step Toward Mastery",
+   "body": "The control granted by a Taming Rod is fleeting, typically lasting only a short while before the magic fades. Each rod is attuned to specific types of wild beasts, serving as a stepping stone through successive trials. Once a novice has proved they can command various wild temperaments\u2014from docile foragers to aggressive venomous hunters\u2014the rod is returned to the trainer. Having demonstrated proper technique, the student is finally taught the innate art of taming, calling, and dismissing lifelong companions without needing an artifact.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Taming Rod used for?",
+   "aliases": [
+    "what does taming rod do",
+    "taming rod use",
+    "why do i have a taming rod"
+   ],
+   "answer": "A Taming Rod is a training implement given to young hunters by their class trainers. It temporarily pacifies and charms a targeted beast so the student can practice commanding an animal in battle."
+  },
+  {
+   "q": "Do I keep the pet I tame with the rod?",
+   "aliases": [
+    "is the pet permanent",
+    "do i keep the boar",
+    "do i keep the scorpid"
+   ],
+   "answer": "No. Creatures tamed with a Taming Rod are only under temporary influence for training purposes. Once the rod's enchantment expires or you hand the rod back to your trainer, the bond ends. You learn to permanently tame your own companion only after completing all your trials."
+  },
+  {
+   "q": "Can I use any Taming Rod on any animal?",
+   "aliases": [
+    "does the rod work on anything",
+    "taming rod targets"
+   ],
+   "answer": "No. Each rod is enchanted specifically for a particular stage of training and is attuned to a specific target creature, such as a dire mottled boar or an armored scorpid."
+  },
+  {
+   "q": "Can I keep the Taming Rod after completing the training?",
+   "aliases": [
+    "keep taming rod",
+    "can i save the rod"
+   ],
+   "answer": "No. The rod must be returned to your hunter trainer upon completing your assignment. In exchange for returning it after your final trial, the trainer teaches you how to tame, summon, and dismiss beasts on your own."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The Taming Rod is the cornerstone of every young hunter's rite of passage, serving as training wheels until they possess the innate willpower to forge lifelong bonds with wild beasts."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "In Durotar and Mulgore, trainers like Thotar use these rods to test whether young recruits have the discipline required to master Kalimdor's harsh wildlife."
+  }
+ ],
+ "keywords": [
+  "armored scorpid",
+  "dire mottled boar",
+  "hunter pet",
+  "razor hill",
+  "taming rod",
+  "taming the beast",
+  "thotar"
+ ],
+ "related": [
+  "quest:6061",
+  "npc:thotar",
+  "subzone:razor-hill",
+  "zone:durotar",
+  "quest:6081",
+  "quest:6065",
+  "topic:hunter"
+ ],
+ "attribution": [
+  "Taming Rod",
+  "Taming the Beast (Orc and Troll 1)",
+  "Taming the Beast (Orc and Troll 3)"
+ ]
+}

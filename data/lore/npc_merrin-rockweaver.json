@@ -8,16 +8,16 @@
   "wiki": "Merrin Rockweaver",
   "refs": 2
  },
- "summary": "Merrin Rockweaver is a dwarven researcher representing the Explorers' League in the Wetlands. Following a violent raptor infestation that overran Whelgar's Excavation Site, she took refuge nearby alongside Prospector Whelgar at his makeshift retreat.",
+ "summary": "Merrin Rockweaver is a dwarven researcher representing the Explorers' League in the Wetlands. Following a violent raptor infestation that overran Whelgar's Excavation Site, she took refuge alongside Prospector Whelgar on a ridge overlooking the site.",
  "sections": [
   {
    "title": "Displaced by the Dig",
-   "body": "Merrin Rockweaver traveled to the Wetlands on behalf of the Ironforge Explorers' League to unearth ancient Titan secrets buried beneath the muck. The expedition ended in disaster when pickaxes pierced subterranean raptor nests beneath the dig. Vicious prehistoric beasts swarmed the trenches, forcing Merrin and the surviving crew to abandon their equipment, notes, and progress. She now shelters at Whelgar's Retreat, an encampment perched on the bluffs overlooking the overrun ruins.",
+   "body": "Merrin Rockweaver traveled to the Wetlands on behalf of the Ironforge Explorers' League to unearth ancient Titan secrets buried beneath the muck. The expedition ended in disaster when the large bones they unearthed drew raptors to the dig. Vicious prehistoric beasts swarmed the trenches, forcing Merrin and the surviving crew to abandon their equipment, notes, and progress. She is now trapped with the few survivors on a bluff overlooking the overrun ruins.",
    "spoiler": 0
   },
   {
    "title": "Salvaging the Operation",
-   "body": "Despite the retreat, Merrin refuses to let the expedition become an outright failure. While Prospector Whelgar plots vengeance against the beasts and searches for missing comrades, Merrin focuses on retrieving the lost expedition tools and precious archaeological findings left behind in the raptor-infested trenches. She relies on passing Alliance travelers willing to brave the talons below to bring back what remains of their work.",
+   "body": "Trapped on the bluff, the survivors refuse to let the expedition become an outright failure. While Ormer Ironbraid plots vengeance against the beasts and Prospector Whelgar seeks the tablet fragments left behind in the raptor-infested trenches, Merrin's thoughts turn to her husband Tarrel, who has not heard from her in weeks. She relies on the scout Longbraid sent to find the team to carry word of their plight back to him.",
    "spoiler": 0
   }
  ],
@@ -32,13 +32,13 @@
    "answer": "Merrin Rockweaver is a dwarf archaeologist affiliated with the Explorers' League of Ironforge. She was stationed at Whelgar's Excavation Site in the Wetlands before raptors overran the operation."
   },
   {
-   "q": "Why is she staying at Whelgar's Retreat?",
+   "q": "Why is she trapped above the dig site?",
    "aliases": [
     "why is merrin at the retreat",
     "whelgars retreat merrin",
     "what happened to her camp"
    ],
-   "answer": "The main dig site below was ambushed by subterranean Mottled raptors disturbed by the miners. Merrin and the survivors fled up to the nearby bluff, establishing Whelgar's Retreat as a safe haven while trying to recover their supplies."
+   "answer": "Mottled raptors, drawn by the large bones the team uncovered, overwhelmed the dig site below and many lives were lost. Ormer Ironbraid defended Merrin and Prospector Whelgar as they fled to the nearby bluff, where they remain trapped."
   },
   {
    "q": "What does Merrin need help with?",
@@ -47,7 +47,7 @@
     "merrin rockweaver tasks",
     "tooling around lore"
    ],
-   "answer": "Merrin needs brave travelers to descend into the perilous dig site, retrieve the specialized mining and excavation tools abandoned during the panic, and help locate missing members of the expedition."
+   "answer": "Merrin needs someone to carry a letter explaining the disaster back to her husband Tarrel, who has been worried sick since her letters stopped arriving."
   },
   {
    "q": "What was the expedition trying to find?",

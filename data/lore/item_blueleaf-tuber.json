@@ -1,0 +1,93 @@
+{
+ "key": "item:blueleaf-tuber",
+ "type": "item",
+ "name": "Blueleaf Tuber",
+ "era": "classic",
+ "zone": "razorfenkraul",
+ "meta": {
+  "wiki": "Blueleaf Tuber",
+  "quests": [
+   "quest:1221"
+  ]
+ },
+ "summary": "Blueleaf Tubers are exceptionally rare root vegetables that grow concealed beneath the thorny terrain of Razorfen Kraul. Prized across the world as an exotic culinary delicacy, they are almost impossible to locate with the naked eye.",
+ "sections": [
+  {
+   "title": "A Rare Underground Delicacy",
+   "body": "Though native to the Barrens, Blueleaf Tubers grow only in the subterranean depths beneath Razorfen Kraul. Concealed beneath the dense root systems and quillboar briars, they remain hidden to casual foragers. Despite their harsh growing conditions, they fetch an exorbitant price among wealthy gourmands and traders worldwide who savor their unique flavor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gopher-Assisted Harvesting",
+   "body": "Because the roots cannot be easily spotted by surface dwellers, the enterprising goblin Mebok Mizzyrix in Ratchet devised an unusual harvesting method. By training native snufflenose gophers to detect the tubers by scent from fifty paces away, adventurers guided by specialized command sticks can unearth the roots from the soil before quillboar patrols catch wind of the intrusion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Blueleaf Tubers used for?",
+   "aliases": [
+    "tuber use",
+    "why get blueleaf tubers",
+    "what are tubers for"
+   ],
+   "answer": "Blueleaf Tubers are traded as rare culinary delicacies. Wealthy clients and exotic traders pay a premium for their distinct taste and scarcity."
+  },
+  {
+   "q": "Where can Blueleaf Tubers be found?",
+   "aliases": [
+    "where do blueleaf tubers grow",
+    "tuber location",
+    "where are tubers"
+   ],
+   "answer": "They grow exclusively deep underground in the southern Barrens, within the briars and subterranean dens of Razorfen Kraul."
+  },
+  {
+   "q": "Why do you need a gopher to dig them up?",
+   "aliases": [
+    "why snufflenose gopher",
+    "gopher purpose",
+    "why gophers"
+   ],
+   "answer": "The tubers grow hidden beneath the topsoil and cannot be seen by human or goblin eyes. Snufflenose gophers are trained to scent them out from fifty paces away and dig them up upon command."
+  },
+  {
+   "q": "Who buys these tubers?",
+   "aliases": [
+    "who wants blueleaf tubers",
+    "who buys tubers",
+    "mebok tubers"
+   ],
+   "answer": "Mebok Mizzyrix, a goblin entrepreneur operating out of Ratchet, buys them to sell to wealthy buyers and international contacts for a hefty profit."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Known as a prized culinary delicacy across the globe, these roots are sought by the wealthiest gourmands despite growing in the inhospitable dirt of quillboar dens."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "blueleaf tuber",
+  "mebok mizzyrix",
+  "ratchet",
+  "razorfen kraul",
+  "snufflenose gopher",
+  "tuber"
+ ],
+ "related": [
+  "quest:1221",
+  "npc:mebok-mizzyrix",
+  "item:crate-with-holes",
+  "item:snufflenose-command-stick",
+  "item:snufflenose-owner-s-manual",
+  "zone:razorfenkraul",
+  "subzone:ratchet",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Blueleaf Tuber",
+  "Blueleaf Tubers"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "item:rot-hide-ichor",
+ "type": "item",
+ "name": "Rot Hide Ichor",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Rot Hide Ichor",
+  "quests": [
+   "quest:443"
+  ]
+ },
+ "summary": "Rot Hide Ichor is a foul bodily fluid harvested from the undead Rot Hide gnolls infesting Fenris Isle in Lordamere Lake. Apothecary Renferrel collects samples of the substance at the Sepulcher to uncover the origin of the gnolls' corruption and devise a strategy against them.",
+ "sections": [
+  {
+   "title": "A Plague in the Blood",
+   "body": "The Rot Hide gnolls of Fenris Isle are not ordinary wild beasts; they are visibly decomposed and twisted by unnatural blight. Rather than normal blood, their veins pump a noxious ichor that sustains their animated flesh. The Royal Apothecary Society suspects that this fluid holds the secret to how the pack was corrupted and who commands them from within the ruined keep of Fenris Isle.",
+   "spoiler": 0
+  },
+  {
+   "title": "Apothecary Research",
+   "body": "Apothecary Renferrel gathers vials of this ichor to analyze its properties at the Sepulcher. By isolating the chemical and magical components fueling the gnolls, the Forsaken hope to pinpoint vulnerabilities before committing troops to a full-scale assault across Lordamere Lake.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Rot Hide Ichor come from?",
+   "aliases": [
+    "where to get rot hide ichor",
+    "how to find rot hide ichor",
+    "gnoll ichor location"
+   ],
+   "answer": "It is gathered from the bodies of the Rot Hide gnolls dwelling across Fenris Isle, located in Lordamere Lake east of Silverpine Forest's mainland."
+  },
+  {
+   "q": "Why does Apothecary Renferrel want this ichor?",
+   "aliases": [
+    "why does renferrel need ichor",
+    "renferrel quest reason",
+    "purpose of rot hide ichor"
+   ],
+   "answer": "Renferrel seeks to dissect the strange fluid to discover what corrupted the gnolls and identify any physical or alchemical weaknesses the Forsaken can exploit before attacking the island."
+  },
+  {
+   "q": "Are the Rot Hide gnolls Scourge?",
+   "aliases": [
+    "are rot hides scourge",
+    "who controls rot hides",
+    "what are rot hide gnolls"
+   ],
+   "answer": "They are undead gnolls warped by plague, but the Forsaken are actively investigating exactly who or what created them and commands their presence on Fenris Isle."
+  },
+  {
+   "q": "Do all gnolls have this ichor?",
+   "aliases": [
+    "do all gnolls drop ichor",
+    "normal gnoll blood"
+   ],
+   "answer": "No. The fluid is unique to the Rot Hide pack, whose flesh and blood have been corrupted by foul necromantic blights."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, studying the ichor is vital military intelligence to secure Silverpine's eastern flank and advance the Royal Apothecary Society's mastery over plague science."
+  }
+ ],
+ "keywords": [
+  "apothecary renferrel",
+  "fenris isle",
+  "lordamere lake",
+  "rot hide gnolls",
+  "rot hide ichor",
+  "sepulcher",
+  "silverpine forest"
+ ],
+ "related": [
+  "quest:443",
+  "npc:apothecary-renferrel",
+  "subzone:fenris-isle",
+  "quest:442",
+  "subzone:sepulcher",
+  "subzone:decrepit-ferry",
+  "topic:gnoll",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Rot Hide Ichor",
+  "Rot Hide Ichor (quest)"
+ ]
+}

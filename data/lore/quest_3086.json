@@ -1,0 +1,122 @@
+{
+ "key": "quest:3086",
+ "type": "quest",
+ "name": "Glyphic Tablet",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   3086
+  ],
+  "level": "1",
+  "faction": "Horde",
+  "start": "Gornek",
+  "end": "Mai'ah",
+  "previous": "Cutting Teeth",
+  "next": null,
+  "wiki": "Glyphic Tablet (quest)",
+  "chain": []
+ },
+ "summary": "Glyphic Tablet is an introductory class quest in the Valley of Trials directed at novice Horde mages. Dispatched via Gornek after proving one's strength, it directs young spellcasters to Mai'ah, a troll mage trainer stationed outside the Den.",
+ "sections": [
+  {
+   "title": "A Message in Inscribed Stone",
+   "body": "After proving their basic mettle against the local wildlife in the Valley of Trials, fledgling mages are presented with an inscribed tablet passed along by Gornek. The missive originates from Mai'ah, the valley's resident mage trainer, bidding the initiate to seek her out by the entrance to the Den when they are ready to pursue their formal arcane studies.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Dangers of the Unseen",
+   "body": "When greeted, Mai'ah wastes little time on formalities, cutting straight to the sober reality of arcane power. While acknowledging that mages wield world-shaping potential, she warns that their greatest threat is neither rival warriors nor enemy races, but the unseen corrupting lure of magic itself. She counsels humility and patience, cautioning that unchecked sorcery easily tricks a practitioner into overestimating their own mastery.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who delivers the Glyphic Tablet to the player?",
+   "aliases": [
+    "who gives glyphic tablet",
+    "where do i get glyphic tablet",
+    "glyphic tablet starter"
+   ],
+   "answer": "Gornek, the valley's initial questgiver, passes the tablet to you once you have completed your preliminary task of clearing mottled boars in the Valley of Trials."
+  },
+  {
+   "q": "Who is Mai'ah?",
+   "aliases": [
+    "who is maiah",
+    "mai'ah lore",
+    "troll mage trainer"
+   ],
+   "answer": "Mai'ah is a Darkspear troll mage trainer stationed just outside the entrance of the Den in the Valley of Trials. She instructs beginning Horde mages in early spells and offers strict warnings about the perils of arcane corruption."
+  },
+  {
+   "q": "Where is Mai'ah located?",
+   "aliases": [
+    "where is maiah",
+    "maiah location",
+    "find maiah"
+   ],
+   "answer": "Mai'ah stands just outside the entrance to the Den, to the right of the tunnel mouth, in the northern section of the Valley of Trials."
+  },
+  {
+   "q": "What warning does Mai'ah give about magic?",
+   "aliases": [
+    "maiah warning",
+    "magic corruption lore",
+    "what does maiah say"
+   ],
+   "answer": "Mai'ah warns that magic has an inherent corrupting influence that cannot be easily stopped. She emphasizes that mages should fear the unseen temptations and delusions of power brought by the arcane rather than physical enemies like orcs, elves, or dwarves."
+  },
+  {
+   "q": "Do other classes receive the Glyphic Tablet?",
+   "aliases": [
+    "can other classes get glyphic tablet",
+    "is glyphic tablet mage only"
+   ],
+   "answer": "No. The Glyphic Tablet is designated strictly for novice mages. Other classes receive distinct introductory summons\u2014such as runes, scrolls, or sigils\u2014tailored to their respective trainers."
+  },
+  {
+   "q": "What prerequisite must be met to receive this tablet?",
+   "aliases": [
+    "glyphic tablet requirements",
+    "prereq for glyphic tablet"
+   ],
+   "answer": "You must first complete the opening quest 'Cutting Teeth' for Gornek by slaying mottled boars across the red dirt flats of the Valley of Trials."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "This quest marks your formal welcome into the ranks of Horde mages, introducing you to the valley's trainer and emphasizing the disciplined mindset needed to control raw magic."
+  },
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls taking up the arcane path, receiving instruction from Mai'ah reflects the tribe's growing adaptation of formalized spellcasting alongside their traditional spiritual rites."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcish mages are non-existent in traditional orc culture, making this training an opportunity for other Horde races like Darkspear trolls to hone their craft within Durotar's training grounds."
+  }
+ ],
+ "keywords": [
+  "arcane",
+  "durotar",
+  "glyphic tablet",
+  "gornek",
+  "mage",
+  "mai'ah",
+  "the den",
+  "valley of trials"
+ ],
+ "related": [
+  "npc:mai-ah",
+  "npc:gornek",
+  "quest:cutting-teeth",
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Glyphic Tablet (quest)"
+ ]
+}

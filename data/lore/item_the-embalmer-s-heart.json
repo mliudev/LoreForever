@@ -1,0 +1,92 @@
+{
+ "key": "item:the-embalmer-s-heart",
+ "type": "item",
+ "name": "The Embalmer's Heart",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "The Embalmer's Heart",
+  "quests": [
+   "quest:253"
+  ]
+ },
+ "summary": "The Embalmer's Heart is an unholy relic beating within the undead corpse of Eliza, buried deep in Duskwood. Once belonging to a grief-stricken alchemist known as the Embalmer, it was transplanted through dark magic to revive his deceased wife, becoming the primary anchor of his twisted power.",
+ "sections": [
+  {
+   "title": "A Love That Defied Death",
+   "body": "According to the folklore of Darkshire, the Embalmer was once a gentle alchemist whose mind shattered upon the passing of his beloved wife, Eliza. Desperate to reclaim her from the grave, he turned to foul sorceries and cut out his own heart, placing it inside Eliza's lifeless chest. While the unholy transfusion successfully stirred her corpse back to unlife, the resurrection twisted her into a ravenous creature consumed by an insatiable hunger for living human flesh, forcing the horror-stricken alchemist to inter her once more within the earth.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Shield for Darkshire",
+   "body": "Though ripped from his chest, the heart remains the source of the Embalmer's enduring dark power and continues to beat inside Eliza's tomb. Mayor Ello Ebonlocke realizes that shattering the reanimated bride and claiming the pulsating organ is the only way to strip the Embalmer of his sorcery. By securing the heart while it still beats, Darkshire's leadership hopes to turn the necromancer's own malevolent magic back against him, using its essence as a protective ward against his terrors.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Eliza have the Embalmer's heart?",
+   "aliases": [
+    "why does eliza have the heart",
+    "embalmer heart in eliza",
+    "who put heart in eliza"
+   ],
+   "answer": "The Embalmer, devastated by his wife Eliza's death, used forbidden magic to place his own beating heart into her corpse to resurrect her. The ritual revived her, though it cursed her with an insatiable hunger for human flesh."
+  },
+  {
+   "q": "Why does Mayor Ebonlocke want the heart brought back to Darkshire?",
+   "aliases": [
+    "why does ello want the heart",
+    "ebonlocke heart plan",
+    "what does darkshire do with heart"
+   ],
+   "answer": "Mayor Ello Ebonlocke intends to use the dark magic still resonating within the beating heart to create a defensive aegis over Darkshire, neutralizing the Embalmer's power and turning it into a ward to safeguard the town."
+  },
+  {
+   "q": "How does the Embalmer survive without his heart?",
+   "aliases": [
+    "is the embalmer alive",
+    "how is embalmer alive without heart"
+   ],
+   "answer": "Through the dark sorceries he practiced, the Embalmer bound his life force and power directly to the transplanted heart, allowing him to endure even while the organ beats inside his wife's buried remains."
+  },
+  {
+   "q": "Where can the heart be found?",
+   "aliases": [
+    "where is embalmer heart",
+    "eliza grave location",
+    "how to get embalmers heart"
+   ],
+   "answer": "The heart rests inside Eliza, who remains buried in a hidden grave plot within Duskwood. It can only be claimed by confronting and defeating the ravenous, reanimated bride."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Transplanting a still-beating soul-bound organ to anchor necromantic unlife is an ambitious, if chaotic, feat of fleshcraft and soul manipulation."
+  },
+  {
+   "target": "race:Human",
+   "text": "The tragic descent of the kindly alchemist serves as a grim cautionary tale whispered among the beleaguered people of Duskwood."
+  }
+ ],
+ "keywords": [
+  "bride of the embalmer",
+  "darkshire",
+  "duskwood",
+  "eliza",
+  "ello ebonlocke",
+  "embalmer's heart",
+  "the embalmer"
+ ],
+ "related": [
+  "quest:253",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "topic:human"
+ ],
+ "attribution": [
+  "The Embalmer's Heart",
+  "Bride of the Embalmer"
+ ]
+}

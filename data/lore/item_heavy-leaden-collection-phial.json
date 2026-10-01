@@ -1,0 +1,96 @@
+{
+ "key": "item:heavy-leaden-collection-phial",
+ "type": "item",
+ "name": "Heavy Leaden Collection Phial",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Heavy Leaden Collection Phial",
+  "quests": [
+   "quest:2962"
+  ]
+ },
+ "summary": "The Heavy Leaden Collection Phial is a shielded sampling vessel provided by Ozzie Togglevolt in Kharanos. It is designed to safely siphon and contain highly unstable irradiated discharge from the mutants deep inside Gnomeregan for ongoing decontamination research.",
+ "sections": [
+  {
+   "title": "A Shielded Vessel",
+   "body": "Forged to resist severe contamination, the Heavy Leaden Collection Phial is engineered specifically to draw volatile residues from living, irradiated horrors deep within the halls of Gnomeregan. Standard containers melt or warp when exposed to such raw contaminants, making thick lead plating necessary to protect both the sample and the carrier from immediate poisoning.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pursuit of a Cure",
+   "body": "Ozzie Togglevolt provides the phial as part of his research to reverse the horrific mutations afflicting leper gnomes. Earlier samples taken from surface troggs lacked the potency needed for effective chemical analysis. By using the leaden phial on virulent beasts like irradiated slimes and lurkers in the Hall of Gears, researchers hope to isolate the active elements of the city's toxic fallout and formulate an effective antidote.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Heavy Leaden Collection Phial used for?",
+   "aliases": [
+    "what does this phial do",
+    "phial purpose",
+    "what is leaden phial"
+   ],
+   "answer": "It is used to siphon concentrated radioactive discharge directly from living irradiated creatures inside Gnomeregan, providing researchers in Kharanos with pure samples for decontamination trials."
+  },
+  {
+   "q": "Who provides the Heavy Leaden Collection Phial?",
+   "aliases": [
+    "who gives phial",
+    "where do i get phial",
+    "phial questgiver"
+   ],
+   "answer": "The gnome researcher Ozzie Togglevolt provides it outside Kharanos in Dun Morogh as part of his research into curing irradiated and afflicted leper gnomes."
+  },
+  {
+   "q": "Why is the phial made of heavy lead?",
+   "aliases": [
+    "why lead phial",
+    "why heavy lead"
+   ],
+   "answer": "The toxic waste inside Gnomeregan produces severe radiation that easily corrodes normal glass or copper vessels. Dense lead shielding prevents the unstable fallout from poisoning the bearer or breaking down prematurely."
+  },
+  {
+   "q": "Which creatures must be sampled with the phial?",
+   "aliases": [
+    "what do i use it on",
+    "target creatures",
+    "which monsters glow"
+   ],
+   "answer": "It must be channeled upon living, glowing horrors found in the depths of Gnomeregan, such as irradiated slimes, lurkers, and horrors prowling the lower levels of the Hall of Gears."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Every drop of volatile fallout secured in the phial represents a desperate step toward reclaiming Gnomeregan and understanding the chemical madness that stole their home."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The leaden phial shows the practical genius of gnomish materials science, using dense lead casing to isolate dangerous ambient radiation that would shatter ordinary flasks."
+  }
+ ],
+ "keywords": [
+  "gnomeregan",
+  "hall of gears",
+  "heavy leaden collection phial",
+  "ozzie togglevolt",
+  "phial",
+  "radioactive fallout",
+  "the only cure is more green glow"
+ ],
+ "related": [
+  "item:high-potency-radioactive-fallout",
+  "quest:2962",
+  "quest:2926",
+  "subzone:hall-of-gears",
+  "subzone:kharanos",
+  "zone:gnomeregan",
+  "topic:leper-gnome",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Heavy Leaden Collection Phial",
+  "The Only Cure is More Green Glow"
+ ]
+}

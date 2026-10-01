@@ -1,0 +1,80 @@
+{
+ "key": "item:bottle-of-moonshine",
+ "type": "item",
+ "name": "Bottle of Moonshine",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Bottle of Moonshine",
+  "quests": [
+   "quest:116"
+  ]
+ },
+ "summary": "A Bottle of Moonshine is a potent alcoholic spirit sold in the gloomy settlement of Darkshire. Barkeep Daniels of Lakeshire urgently seeks a bottle to help restock the town tavern as Blackrock orc incursions cut off regular supply shipments.",
+ "sections": [
+  {
+   "title": "A Spirited Relief",
+   "body": "Lakeshire stands besieged by the Blackrock clan, leaving its local innkeeper, Barkeep Daniels, in dire straits as regular supply caravans fail to arrive. To keep up morale among the town guards and beleaguered townsfolk, Daniels sends couriers across the southern kingdoms to gather regional specialties. Among these is a potent bottle of moonshine brewed and sold at the Scarlet Raven Tavern in neighboring Duskwood, where locals favor stiff drinks to ward off the encroaching dread of the woods.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find a Bottle of Moonshine?",
+   "aliases": [
+    "where to buy moonshine",
+    "darkshire moonshine location",
+    "bottle of moonshine vendor"
+   ],
+   "answer": "A Bottle of Moonshine can be purchased from the barkeep at the Scarlet Raven Tavern in Darkshire, located within the darkened borders of Duskwood."
+  },
+  {
+   "q": "Who wants this bottle?",
+   "aliases": [
+    "who needs moonshine",
+    "moonshine quest turn in",
+    "barkeep daniels moonshine"
+   ],
+   "answer": "Barkeep Daniels, the innkeeper of Lakeshire in the Redridge Mountains, requests the bottle alongside several other regional drinks to keep his cellar stocked during an ongoing orc siege."
+  },
+  {
+   "q": "Why is Lakeshire running out of liquor?",
+   "aliases": [
+    "why dry times",
+    "lakeshire supply shortage",
+    "redridge alcohol shortage"
+   ],
+   "answer": "Hostile Blackrock orcs have swarmed the Redridge Mountains, raiding roads and severing trade routes. Regular supply shipments have failed to arrive, leaving Lakeshire's tavern shelves virtually empty."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Fetching spirits from Darkshire to Lakeshire highlights the fragile supply lines connecting the scattered settlements of the kingdom of Stormwind during a time of crisis."
+  }
+ ],
+ "keywords": [
+  "barkeep daniels",
+  "bottle of moonshine",
+  "darkshire",
+  "dry times",
+  "duskwood",
+  "lakeshire",
+  "moonshine",
+  "scarlet raven tavern"
+ ],
+ "related": [
+  "quest:116",
+  "npc:barkeep-daniels",
+  "subzone:scarlet-raven-tavern",
+  "subzone:darkshire",
+  "subzone:lakeshire",
+  "item:cask-of-merlot",
+  "item:skin-of-sweet-rum",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Bottle of Moonshine",
+  "Dry Times"
+ ]
+}

@@ -17,7 +17,7 @@
   "wiki": "Incoming Gumdrop (Alliance)",
   "chain": []
  },
- "summary": "Incoming Gumdrop is a seasonal Hallow's End quest found in Ironforge, given by the gnome artisan Talvash del Kissel. In order to obtain a festive treat for a sick child outside Stormwind, adventurers must first perform a playful train impression for the delighted gnome.",
+ "summary": "Incoming Gumdrop is a seasonal Hallow's End quest found in Ironforge, given by the gnome artisan Talvash del Kissel. In order to obtain a festive treat for a sick child in Stormwind, adventurers must first perform a playful train impression for the delighted gnome.",
  "sections": [
   {
    "title": "A Whimsical Toll",
@@ -26,7 +26,7 @@
   },
   {
    "title": "Holiday Charity",
-   "body": "The quest forms a piece of an overarching seasonal endeavor to bring cheer to Jesper, an ailing orphan resting outside Stormwind City. Jesper longs for four distinct treats from across the Alliance territories: nougat from Stormwind, a mint from Ironforge, a marzipan piece from Darnassus, and a gumdrop from Gnomeregan. By mimicking a chugging locomotive to entertain Talvash, champions secure the gnome treat to complete the young boy's holiday wish.",
+   "body": "The quest forms a piece of an overarching seasonal endeavor to bring cheer to Jesper, an ailing orphan resting in Stormwind City. Jesper longs for four distinct treats from across the Alliance territories: nougat from Stormwind, a mint from Ironforge, a marzipan piece from Darnassus, and a gumdrop from Gnomeregan. By mimicking a chugging locomotive to entertain Talvash, champions secure the gnome treat to complete the young boy's holiday wish.",
    "spoiler": 0
   }
  ],
@@ -54,7 +54,7 @@
     "gnomeregan gumdrop purpose",
     "what is the gumdrop for"
    ],
-   "answer": "The Gnomeregan Gumdrop is one of four distinct festival candies gathered to fulfill the Hallow's End request of Jesper, an orphan boy resting near the gates of Stormwind City."
+   "answer": "The Gnomeregan Gumdrop is one of four distinct festival candies gathered to fulfill the Hallow's End request of Jesper, an orphan boy resting in the orphanage of Stormwind City."
   },
   {
    "q": "Where can Talvash del Kissel be found?",

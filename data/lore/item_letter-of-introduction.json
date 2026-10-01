@@ -1,0 +1,88 @@
+{
+ "key": "item:letter-of-introduction",
+ "type": "item",
+ "name": "Letter of Introduction",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Letter of Introduction",
+  "quests": [
+   "quest:9633"
+  ]
+ },
+ "summary": "The Letter of Introduction is a formal message written to establish ties between the stranded draenei survivors and the night elves of Kalimdor. Carried across the sea from Bloodmyst Isle, it introduces newly arriving travelers to Thundris Windweaver in the coastal haven of Auberdine.",
+ "sections": [
+  {
+   "title": "A Bridge Across the Water",
+   "body": "Following the catastrophic crash of the Exodar onto the islands west of Darkshore, the surviving draenei found themselves stranded in unfamiliar lands beset by irradiated wildlife and ancient hostile powers. As they began securing Bloodmyst Isle, establishing contact with nearby allies became essential. Penned on the isles by allies of Anchorite Paetheus, this letter serves as diplomatic credentials for travelers voyaging east across the sea. Handed to Huntress Kella Nightbow's contact, the respected resident Thundris Windweaver, the missive asks Auberdine's townsfolk and Sentinels to welcome their new neighbors and unite against shared ancient enemies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this letter?",
+   "aliases": [
+    "why do i have this letter",
+    "what does letter of introduction do",
+    "letter purpose"
+   ],
+   "answer": "The letter serves as formal diplomatic credentials for travelers journeying from Bloodmyst Isle to Darkshore. It introduces the bearer to Thundris Windweaver in Auberdine, asking the night elves to offer aid and cooperation to their new allies."
+  },
+  {
+   "q": "Who wrote the letter?",
+   "aliases": [
+    "who sent the letter",
+    "who wrote this",
+    "letter sender"
+   ],
+   "answer": "The letter is provided on behalf of the settlement on Bloodmyst Isle, representing Anchorite Paetheus and his brethren through the night elf allies stationed at the isle's docks, such as Huntress Kella Nightbow."
+  },
+  {
+   "q": "Who is supposed to receive this letter?",
+   "aliases": [
+    "who do i give this to",
+    "letter recipient",
+    "where does the letter go"
+   ],
+   "answer": "It is addressed to Thundris Windweaver, a respected night elf citizen residing in the large cross-shaped building in Auberdine, located just north of the town docks."
+  },
+  {
+   "q": "How do night elves view the draenei arrival on the islands?",
+   "aliases": [
+    "night elves reaction to draenei",
+    "auberdine reaction",
+    "thundris reaction"
+   ],
+   "answer": "Thundris Windweaver notes that the islands now called Azuremyst and Bloodmyst were once inhabited by his people long ago. Recognizing that the threats confronting the newcomers are ancient foes of the kaldorei, he welcomes the alliance and pledges Auberdine's support."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The letter marks the initial diplomatic outreach bridging the newly arrived draenei with the established night elf ports of mainland Kalimdor."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves of Darkshore, the letter brings word from ancestral island territories across the water, requesting Auberdine's aid against familiar, ancient foes."
+  }
+ ],
+ "keywords": [
+  "anchorite paetheus",
+  "auberdine",
+  "bloodmyst isle",
+  "darkshore",
+  "kella nightbow",
+  "letter of introduction",
+  "thundris windweaver"
+ ],
+ "related": [
+  "quest:4761",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "topic:sentinels"
+ ],
+ "attribution": [
+  "Letter of Introduction",
+  "The Way to Auberdine"
+ ]
+}

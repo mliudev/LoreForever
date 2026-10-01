@@ -1,0 +1,95 @@
+{
+ "key": "item:sunscorched-shell",
+ "type": "item",
+ "name": "Sunscorched Shell",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Sunscorched Shell",
+  "quests": [
+   "quest:1710"
+  ]
+ },
+ "summary": "Sunscorched Shells are the sturdy remnants of wyvern eggs gathered beneath the roosts of Highperch in Thousand Needles. Hardened by the harsh desert heat, they are prized by skilled armorcrafters who can render them into a protective lacquer for mail links.",
+ "sections": [
+  {
+   "title": "Desert Clutches",
+   "body": "Perched high upon the mesa needles of southern Kalimdor, Highperch wyverns lay eggs that endure relentless desert sun and searing winds. The discarded shell fragments accumulate beneath their roosts, baked to remarkable hardness by the arid climate. While seemingly little more than brittle refuse to a casual wanderer, these sunscorched remains possess natural structural resilience that makes them an intriguing reagent for specialized artisans.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Craftsman's Lacquer",
+   "body": "In Darnassus, the armorer Mathiel studies crafting methods pioneered by his colleague, the dwarf smith Furen Longbeard. Intrigued by Furen's discoveries, Mathiel uses these shells to create a fine lacquer capable of reinforcing mail armor. When properly processed and applied, the mineral-rich coating bonds to metallic links, adding substantial resilience without overburdening the wearer.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are Sunscorched Shells found?",
+   "aliases": [
+    "sunscorched shell location",
+    "where to find shells",
+    "highperch shells"
+   ],
+   "answer": "They are scattered on the ground beneath wyvern nests across Highperch, a high mesa rising out of the canyon floor in western Thousand Needles."
+  },
+  {
+   "q": "What creature do these shells come from?",
+   "aliases": [
+    "what laid these eggs",
+    "wyvern eggs",
+    "shell origin"
+   ],
+   "answer": "They are the broken eggshells of the Highperch wyverns that roost atop the plateaus in Thousand Needles."
+  },
+  {
+   "q": "Why does Mathiel want Sunscorched Shells?",
+   "aliases": [
+    "mathiel shells",
+    "what are shells for",
+    "armor lacquer"
+   ],
+   "answer": "Mathiel seeks to test armorsmithing techniques discovered by Furen Longbeard. He renders the hardened shells down into a tough lacquer to coat and reinforce mail armor links."
+  },
+  {
+   "q": "Who is Furen Longbeard and how is he involved?",
+   "aliases": [
+    "furen connection",
+    "furen longbeard shells"
+   ],
+   "answer": "Furen Longbeard is an iron-working colleague of Mathiel based in Ironforge. His experiments with unorthodox reagents and hardening techniques inspired Mathiel to experiment with wyvern shell lacquer."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Warriors seeking bespoke mail protection assist Mathiel in gathering these durable eggshells to craft reinforced armor."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "These shells demonstrate how clever smiths look beyond ordinary ores, rendering natural mineral coatings into protective lacquers for linked armor."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "furen longbeard",
+  "highperch",
+  "mail armor",
+  "mathiel",
+  "sunscorched shell",
+  "thousand needles",
+  "wyvern"
+ ],
+ "related": [
+  "quest:1710",
+  "subzone:highperch",
+  "quest:1703",
+  "npc:furen-longbeard",
+  "zone:thousandneedles",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "Sunscorched Shell",
+  "Sunscorched Shells"
+ ]
+}

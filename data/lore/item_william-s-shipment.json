@@ -1,0 +1,97 @@
+{
+ "key": "item:william-s-shipment",
+ "type": "item",
+ "name": "William's Shipment",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "William's Shipment",
+  "quests": [
+   "quest:61"
+  ]
+ },
+ "summary": "William's Shipment is a carefully boxed consignment of candles harvested from Elwynn Forest's troublesome kobolds. Packed by William Pestle in Goldshire, it is destined for his brother Morgan's alchemical business in the Stormwind Trade District.",
+ "sections": [
+  {
+   "title": "A Familial Trade",
+   "body": "The Pestle brothers keep a steady mercantile line open between Goldshire and the capital. While William works out of Elwynn Forest gathering materials from local opportunists and adventurers, Morgan tends to the family storefront, Pestle's Apothecary, in Stormwind's Trade District. Because William cannot leave his own duties to travel north, he relies on couriers to carry this securely packed parcel of wax and candles into the city.",
+   "spoiler": 0
+  },
+  {
+   "title": "Kobold Wax",
+   "body": "The contents of the shipment are kobold candles, salvaged from the creatures infesting Elwynn's mines. While kobolds prize these crude tapers above all else for keeping away the creeping dark, alchemists and apothecaries prize the rendered tallow and wax for compounding reagents and potions. Through William's enterprise, these reclaimed mining scavenges are converted directly into useful stock for the capital's alchemical trade.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside William's Shipment?",
+   "aliases": [
+    "shipment contents",
+    "what is in the box",
+    "what does william send"
+   ],
+   "answer": "The shipment contains candles gathered from kobolds in the mines of Elwynn Forest. William Pestle collects them from passing adventurers and packs them to be used as raw ingredients in his family's alchemy shop."
+  },
+  {
+   "q": "Who is William sending this package to?",
+   "aliases": [
+    "who gets the shipment",
+    "who is the delivery for",
+    "shipment destination"
+   ],
+   "answer": "It is addressed to William's brother, Morgan Pestle, who operates Pestle's Apothecary in the Trade District of Stormwind City."
+  },
+  {
+   "q": "Why does an apothecary need so many candles?",
+   "aliases": [
+    "why candles for alchemy",
+    "what does pestle do with candles",
+    "candle use"
+   ],
+   "answer": "Apothecaries use candle wax and rendered tallow as bases and binders for various alchemical preparations, balms, and ointments. Reclaiming them from kobolds offers a steady, inexpensive supply of raw materials."
+  },
+  {
+   "q": "Why doesn't William deliver the package himself?",
+   "aliases": [
+    "why can't william go",
+    "why does william need a courier"
+   ],
+   "answer": "William is occupied managing his affairs and procuring goods in Goldshire and lacks the time to make the overland journey to Stormwind, prompting him to hire travelers heading toward the capital."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "The delivery demonstrates the close economic ties binding rural hamlets like Goldshire to the capital city of Stormwind."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Clearing kobolds from Elwynn mines doubly serves the Alliance by protecting local infrastructure and supplying capital shops with raw alchemy goods."
+  }
+ ],
+ "keywords": [
+  "candles",
+  "goldshire",
+  "kobold candles",
+  "morgan pestle",
+  "pestle's apothecary",
+  "stormwind",
+  "trade district",
+  "william pestle",
+  "william's shipment"
+ ],
+ "related": [
+  "quest:61",
+  "npc:morgan-pestle",
+  "quest:60",
+  "subzone:trade-district",
+  "topic:kobold",
+  "zone:elwynn",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "William's Shipment",
+  "Shipment to Stormwind"
+ ]
+}

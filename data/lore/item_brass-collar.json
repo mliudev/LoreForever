@@ -1,0 +1,82 @@
+{
+ "key": "item:brass-collar",
+ "type": "item",
+ "name": "Brass Collar",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Brass Collar",
+  "quests": [
+   "quest:330"
+  ]
+ },
+ "summary": "The Brass Collar is a sturdy neckpiece worn by Princess, a prize-winning sow owned by the Brackwell family. It serves as tangible proof for Ma Stonefield that the gluttonous beast has been put down before ruining her farm's crops.",
+ "sections": [
+  {
+   "title": "A Trophy of Farmyard Rivalry",
+   "body": "Princess is no ordinary swine; she is an enormous, ribbon-worthy pig belonging to the Brackwell family who roams around their pumpkin patch east of the Maclure homestead. Unfortunately for her neighbors, her prize-winning size is fueled by a ravenous appetite for the crops at the Stonefield Farm. Tired of losing her valuable vegetables to the wandering glutton, Ma Stonefield seeks someone willing to slay the massive sow. Because Princess wears a prominent brass band around her neck, her collar serves as undeniable proof that the marauding pig will never raid the Stonefield fields again.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Brass Collar come from?",
+   "aliases": [
+    "brass collar source",
+    "who drops brass collar",
+    "where to get brass collar"
+   ],
+   "answer": "The collar is taken from Princess, a giant prize-winning sow found rooting around the Brackwell Pumpkin Patch in eastern Elwynn Forest, past the Maclure farm."
+  },
+  {
+   "q": "Why does Ma Stonefield want the collar?",
+   "aliases": [
+    "why stonefield wants collar",
+    "ma stonefield collar purpose"
+   ],
+   "answer": "Princess regularly sneaks over to the Stonefield farm to devour Ma Stonefield's prize vegetables. Taking the collar proves to Ma Stonefield that the beast has finally been put down before destroying the rest of her harvest."
+  },
+  {
+   "q": "Who owns Princess?",
+   "aliases": [
+    "princess owner",
+    "who owns the pig"
+   ],
+   "answer": "Princess belongs to the Brackwells, though she is allowed to roam free at their pumpkin patch alongside her smaller boar companions."
+  },
+  {
+   "q": "Can anyone other than Princess drop this item?",
+   "aliases": [
+    "other collar drops",
+    "where else find brass collar"
+   ],
+   "answer": "No. The brass collar is unique to Princess, fashioned specifically to fit the enormous girth of the Brackwells' prized sow."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For young adventurers assisting the rural folk of Elwynn, taking Princess's collar is a classic rite of passage in resolving small-town farmer feuds."
+  }
+ ],
+ "keywords": [
+  "brackwell pumpkin patch",
+  "brass collar",
+  "elwynn forest",
+  "ma stonefield",
+  "princess",
+  "princess must die",
+  "stonefield farm"
+ ],
+ "related": [
+  "quest:330",
+  "npc:ma-stonefield",
+  "subzone:brackwell-pumpkin-patch",
+  "subzone:stonefield-farm",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Brass Collar",
+  "Princess Must Die! (Classic)"
+ ]
+}

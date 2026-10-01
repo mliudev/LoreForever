@@ -1,0 +1,90 @@
+{
+ "key": "item:webwood-spider-silk",
+ "type": "item",
+ "name": "Webwood Spider Silk",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Webwood Spider Silk",
+  "quests": [
+   "quest:488"
+  ]
+ },
+ "summary": "Webwood Spider Silk is a fine, sticky thread harvested from Webwood Lurkers prowling the woods of Teldrassil. While spider silk has many craft uses, these particular swatches are sought out by suspicious figures in the boughs of the World Tree.",
+ "sections": [
+  {
+   "title": "A Dubious Reagent",
+   "body": "Spun by the overgrown Webwood Lurkers that nest around Dolanaar, Webwood Spider Silk is light, remarkably strong, and dangerous to harvest. The satyr Zenn Foulhoof, who lurks along the forest road, hires young adventurers to harvest swatches of this silk alongside nightsaber fangs and strigid owl feathers. Claiming they are simply rare reagents necessary for his forest business, he relies on the naivety of newcomers to gather the wild components without questioning his corrupt nature or his true motives.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Webwood Spider Silk be found?",
+   "aliases": [
+    "webwood silk location",
+    "who drops webwood spider silk",
+    "where to get webwood spider silk"
+   ],
+   "answer": "Webwood Spider Silk is harvested from Webwood Lurkers and related spider beasts inhabiting the wilds of Teldrassil, particularly around the settlement of Dolanaar."
+  },
+  {
+   "q": "Who wants this silk?",
+   "aliases": [
+    "who needs webwood silk",
+    "webwood silk quest giver",
+    "zenn foulhoof silk"
+   ],
+   "answer": "The satyr Zenn Foulhoof, who conceals his dealings just north of the path between Shadowglen and Dolanaar, requests swatches of the silk alongside owl feathers and predator fangs."
+  },
+  {
+   "q": "Why does Zenn Foulhoof want Webwood Spider Silk?",
+   "aliases": [
+    "zenn foulhoof motive",
+    "why does zenn want silk"
+   ],
+   "answer": "Zenn claims to need the silk as a reagent for his forest business, though he ultimately mocks anyone gullible enough to run errands for a satyr."
+  },
+  {
+   "q": "Can players use Webwood Spider Silk for tailoring?",
+   "aliases": [
+    "is webwood silk tailoring mat",
+    "crafting webwood silk"
+   ],
+   "answer": "No. Despite being genuine spider silk, this specific harvested thread serves as a quest reagent rather than standard tailoring cloth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Young night elves leaving Shadowglen are warned to be mindful of the creatures they hunt, especially when coerced by a solitary satyr lurking right near their heartland."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Although spinners frequently seek out arachnid threads, these particular swatches are tied up in dark satyr bargains rather than standard loom crafting."
+  }
+ ],
+ "keywords": [
+  "dolanaar",
+  "spider silk",
+  "teldrassil",
+  "webwood lurker",
+  "webwood spider silk",
+  "zenn foulhoof",
+  "zenn's bidding"
+ ],
+ "related": [
+  "npc:zenn-foulhoof",
+  "quest:488",
+  "item:nightsaber-fang",
+  "item:strigid-owl-feather",
+  "subzone:dolanaar",
+  "zone:teldrassil",
+  "topic:satyr",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Webwood Spider Silk",
+  "Zenn's Bidding"
+ ]
+}

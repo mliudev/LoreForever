@@ -1,0 +1,98 @@
+{
+ "key": "item:fragments-of-rok-alim",
+ "type": "item",
+ "name": "Fragments of Rok'Alim",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Fragments of Rok'Alim",
+  "quests": [
+   "quest:1151"
+  ]
+ },
+ "summary": "Fragments of Rok'Alim are the shattered stone remains of a primeval earth elemental roaming the canyons of Thousand Needles. Brought to Dorn Plainstalker at the Weathered Nook, they serve as undeniable physical proof that a warrior has bested an ancient terror in single combat.",
+ "sections": [
+  {
+   "title": "Remnants of an Ancient Power",
+   "body": "While most elementals faded from Azeroth following the banishment of the Old Gods, a handful possessed enough raw power to endure on the surface without being summoned by mortal magic. Rok'Alim the Pounder is one such survivor, wandering the canyon flats south of the main thoroughfare. Local centaur know him by the thunderous crashes of his stony fists pulverizing anything foolish enough to wander into his path. Striking down this living remnant of the primordial world yields jagged pieces of dense, animated rock\u2014a trophy fit to prove unmatched physical prowess.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Trial of Might",
+   "body": "For the tauren hermit Dorn Plainstalker, recovering the fragments is the decisive component of the Test of Strength. As part of a series of spiritual and martial rites conducted high within the Weathered Nook, the trial demands that an initiate face an entity of unyielding brute force. Delivering the battered rubble of Rok'Alim proves that an adventurer possesses the bravery and physical might required to survive the harshest perils of Kalimdor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Fragments of Rok'Alim?",
+   "aliases": [
+    "fragments of rokalim",
+    "what are rokalim fragments",
+    "rokalims stone"
+   ],
+   "answer": "They are the broken stone remains of Rok'Alim the Pounder, an ancient earth elemental who prowls the north-western canyons of Thousand Needles. They act as proof of the elemental's defeat."
+  },
+  {
+   "q": "Who wants these stone fragments?",
+   "aliases": [
+    "who takes rokalim fragments",
+    "turn in fragments of rokalim",
+    "dorn plainstalker quest"
+   ],
+   "answer": "Dorn Plainstalker, a tauren questgiver residing at the Weathered Nook high along the canyon cliffs of Thousand Needles, asks for the fragments to conclude the Test of Strength."
+  },
+  {
+   "q": "Why is Rok'Alim significant?",
+   "aliases": [
+    "why is rokalim special",
+    "rokalim lore",
+    "who is rokalim the pounder"
+   ],
+   "answer": "Unlike most modern elementals that must be conjured by mortal mages, Rok'Alim has lingered in the world since the era of the Old Gods. Centaur tribes in the canyons gave him the name 'the Pounder' due to the booming noise of his fists crushing his prey."
+  },
+  {
+   "q": "Where is Rok'Alim found?",
+   "aliases": [
+    "rokalim location",
+    "find rokalim the pounder",
+    "where does rokalim spawn"
+   ],
+   "answer": "Rok'Alim roams the north-western basin of Thousand Needles, wandering south of the region's main road between the sandstone spires."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Overcoming enduring remnants of Azeroth's primordial past aligns closely with tauren traditions of testing harmony, fortitude, and personal strength against the land's most formidable hazards."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Rok'Alim represents an ancient earth spirit bound to the world long before modern shamanic pacts, making his unyielding nature an intriguing study in raw elemental tenacity."
+  }
+ ],
+ "keywords": [
+  "dorn plainstalker",
+  "elemental",
+  "fragments",
+  "pounder",
+  "rok'alim",
+  "test of strength",
+  "thousand needles",
+  "weathered nook"
+ ],
+ "related": [
+  "quest:1151",
+  "npc:dorn-plainstalker",
+  "subzone:weathered-nook",
+  "zone:thousandneedles",
+  "quest:1149",
+  "topic:old-god",
+  "topic:centaur",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Fragments of Rok'Alim",
+  "Test of Strength"
+ ]
+}

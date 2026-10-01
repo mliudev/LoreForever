@@ -1,0 +1,92 @@
+{
+ "key": "item:grizzled-bear-heart",
+ "type": "item",
+ "name": "Grizzled Bear Heart",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Grizzled Bear Heart",
+  "quests": [
+   "quest:447"
+  ]
+ },
+ "summary": "A Grizzled Bear Heart is a biological reagent harvested from the sturdy bears roaming Silverpine Forest. It serves as a vital component in the Royal Apothecary Society's grim research into the New Plague.",
+ "sections": [
+  {
+   "title": "A Reagent for the New Plague",
+   "body": "The Royal Apothecary Society works ceaselessly to develop an engineered blight capable of exterminating both the Scourge and living humanity. In the woodlands of Silverpine Forest, Apothecary Renferrel discovered that a unique toxin derived from the heart of a grizzled bear, when combined with arachnid ichor, yields a remarkably lethal concoction. Couriers and Forsaken loyalists hunt down ferocious grizzled bears, giant grizzled bears, and the infamous beast Old Vicejaw to carve out these organs and deliver them directly to Master Apothecary Faranell deep within the Apothecarium of the Undercity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Grizzled Bear Heart used for?",
+   "aliases": [
+    "what does bear heart do",
+    "bear heart quest",
+    "recipe for death reagents"
+   ],
+   "answer": "Grizzled Bear Hearts are harvested as experimental reagents for the Royal Apothecary Society. Apothecary Renferrel discovered that toxins derived from these hearts can be distilled into a lethal elixir as part of the Forsaken effort to brew the New Plague."
+  },
+  {
+   "q": "Who wants these bear hearts?",
+   "aliases": [
+    "who needs bear heart",
+    "faranell bear heart",
+    "who do i give bear heart to"
+   ],
+   "answer": "Apothecary Renferrel in Silverpine Forest directs travelers to gather the hearts alongside Skittering Blood and deliver them directly to Master Apothecary Faranell in the Undercity's Apothecarium."
+  },
+  {
+   "q": "Where do Grizzled Bear Hearts come from?",
+   "aliases": [
+    "where do i find bear hearts",
+    "which bears drop heart",
+    "bear heart location"
+   ],
+   "answer": "They are carved from the various grizzled bears roaming Silverpine Forest, including ferocious grizzled bears, giant grizzled bears, and the formidable roaming beast Old Vicejaw."
+  },
+  {
+   "q": "Why does the Royal Apothecary Society need natural animal toxins?",
+   "aliases": [
+    "why do apothecaries use bear venom",
+    "why animal hearts for plague"
+   ],
+   "answer": "The society seeks potent biological agents that can contaminate and destroy living flesh as well as undead physiology. The unique chemical properties found within the heart tissues of Silverpine's hearty bears provide an ideal reactive base when blended with virulent spider blood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, harvesting these organs directly aids Master Apothecary Faranell in engineering the ultimate weapon against both Arthas's Scourge and the living mortals threatening Lordaeron."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Silverpine's massive bears are dangerous prey, and tracking beasts like Old Vicejaw for biological samples tests a huntsman's patience and field-dressing skill."
+  }
+ ],
+ "keywords": [
+  "a recipe for death",
+  "apothecary renferrel",
+  "grizzled bear heart",
+  "master apothecary faranell",
+  "new plague",
+  "old vicejaw",
+  "royal apothecary society",
+  "silverpine forest",
+  "skittering blood"
+ ],
+ "related": [
+  "quest:447",
+  "npc:master-apothecary-faranell",
+  "npc:apothecary-renferrel",
+  "topic:royal-apothecary-society",
+  "item:skittering-blood",
+  "zone:silverpine",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "Grizzled Bear Heart",
+  "A Recipe For Death"
+ ]
+}

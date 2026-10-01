@@ -1,0 +1,74 @@
+{
+ "key": "item:shard-of-water",
+ "type": "item",
+ "name": "Shard of Water",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Shard of Water",
+  "quests": [
+   "quest:96"
+  ]
+ },
+ "summary": "The Shard of Water is an elemental remnant gathered during a shaman's communion with the spirits of water. Delivered to Islen Waterseer along the Barrens coast, it serves as tangible proof that an initiate has understood water's life-giving nature and conquered its corruption.",
+ "sections": [
+  {
+   "title": "Token of Elemental Purity",
+   "body": "For shamans seeking mastery over the elements, communing with water demands a deep understanding of balance, life, and preservation. In the trials of the Call of Water, shamans are directed to confront corruption seeped into natural springs\u2014even journeying across the sea to blighted lands like Silverpine Forest. The Shard of Water is granted upon purifying these corrupted waters. Returning this crystal token to Islen Waterseer on the rocky shores of the Barrens proves the initiate's worth, providing the final key needed to forge their Water Totem.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Shard of Water used for?",
+   "aliases": [
+    "shard of water purpose",
+    "what does shard of water do",
+    "why do i have shard of water"
+   ],
+   "answer": "It serves as proof of your trial for Islen Waterseer along the eastern shore of the Barrens. Presenting the shard to her completes your communion with water and earns you your Water Totem."
+  },
+  {
+   "q": "Who requires this item?",
+   "aliases": [
+    "who wants shard of water",
+    "where to turn in shard of water",
+    "islen waterseer shard"
+   ],
+   "answer": "Islen Waterseer, a shaman dwelling in a hut south of Ratchet along the Merchant Coast, asks for the shard to confirm you successfully purified tainted water."
+  },
+  {
+   "q": "Why was the trial set as far away as Silverpine?",
+   "aliases": [
+    "silverpine water quest",
+    "why silverpine forest",
+    "shaman silverpine"
+   ],
+   "answer": "Water represents healing and preservation, yet corruption halts life. The tainted waters of Silverpine provide a severe test of a shaman's ability to restore elemental harmony amidst deep decay."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Obtaining this shard marks the final step in attuning yourself to water spirits, concluding the lengthy journey to earn your Water Totem."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "call of water",
+  "islen waterseer",
+  "shard of water",
+  "silverpine",
+  "water totem"
+ ],
+ "related": [
+  "quest:63",
+  "npc:islen-waterseer",
+  "topic:shaman",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Shard of Water",
+  "Call of Water (9)"
+ ]
+}

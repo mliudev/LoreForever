@@ -1,0 +1,99 @@
+{
+ "key": "item:shadowhide-pendant",
+ "type": "item",
+ "name": "Shadowhide Pendant",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Shadowhide Pendant",
+  "quests": [
+   "quest:91"
+  ]
+ },
+ "summary": "Shadowhide Pendants are crude ornamental charms carried by the Shadowhide gnolls roaming the Redridge Mountains. Collected as legal proof of bounty enforcement, they signify that local defenders have enacted Lakeshire's law against gnolls collaborating with the rogue mage Morganth.",
+ "sections": [
+  {
+   "title": "Tokens of Defiance",
+   "body": "Carried by warriors, brutes, and spellcasters of the Shadowhide clan, these pendants serve as crude personal totems or rank insignias. Deep in the hills of Redridge, the clan has rallied under Lieutenant Fangore and fallen under the sway of Morganth, a rogue wielder of the Arcane. To the townspeople of Lakeshire, these charms are not mere primitive jewelry; they are identifying marks of an organized menace harassing settlements across the region on behalf of an enemy of the Crown.",
+   "spoiler": 0
+  },
+  {
+   "title": "Lakeshire's Justice",
+   "body": "Under the authority of Magistrate Solomon and the laws of Stormwind, actively aiding a known criminal of the realm carries a sentence of death. Lacking sufficient royal reinforcements, Bailiff Conacher in the Lakeshire Town Hall relies on independent adventurers to uphold the peace. Presenting ten Shadowhide Pendants provides tangible proof that gnolls obeying Morganth's orders have faced frontier justice.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Shadowhide Pendant?",
+   "aliases": [
+    "what are shadowhide pendants",
+    "shadowhide pendant lore",
+    "redridge pendant"
+   ],
+   "answer": "It is a charm worn by members of the Shadowhide gnoll clan in the Redridge Mountains. The local magistrate accepts them as evidence that invading gnolls have been slain in defense of the township."
+  },
+  {
+   "q": "Why does Bailiff Conacher want these pendants?",
+   "aliases": [
+    "why collect pendants",
+    "bailiff conacher bounty",
+    "conacher quest"
+   ],
+   "answer": "Bailiff Conacher collects them as proof of bounty enforcement under Solomon's Law. Because the Shadowhide clan is collaborating with the renegade wizard Morganth to terrorize the local populace, the town considers every affiliated gnoll an enemy subject to capital punishment."
+  },
+  {
+   "q": "Who carries these pendants?",
+   "aliases": [
+    "who drops pendants",
+    "which gnolls have pendants",
+    "shadowhide pendant source"
+   ],
+   "answer": "They are carried across the hierarchy of the Shadowhide clan, from standard footpads, brutes, and rabid gnolls to figures like Rohh the Silent and Lieutenant Fangore in the Redridge wilderness."
+  },
+  {
+   "q": "What is the relationship between the Shadowhide clan and Morganth?",
+   "aliases": [
+    "gnolls and morganth",
+    "why are gnolls working with morganth",
+    "shadowhide morganth"
+   ],
+   "answer": "Morganth, a rogue practitioner of the Arcane lurking in the eastern foothills, has used his sinister powers to bend the Shadowhide gnolls to his will, deploying them as foot soldiers to terrorize Lakeshire and enforce his schemes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Frontier settlements like Lakeshire receive scarce aid from Stormwind's garrison, leaving local magistrates reliant on loyal Alliance adventurers to enforce kingdom law."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "The Shadowhide gnolls are aggressive, physically imposing adversaries whose ranks test frontline defenders protecting the roads into Lakeshire."
+  }
+ ],
+ "keywords": [
+  "bailiff conacher",
+  "gnoll",
+  "lakeshire",
+  "lieutenant fangore",
+  "morganth",
+  "pendant",
+  "redridge",
+  "shadowhide",
+  "solomon's law"
+ ],
+ "related": [
+  "quest:91",
+  "npc:bailiff-conacher",
+  "quest:249",
+  "subzone:lakeshire-town-hall",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "topic:gnoll",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Shadowhide Pendant",
+  "Solomon's Law"
+ ]
+}

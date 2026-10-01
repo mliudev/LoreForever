@@ -1,0 +1,90 @@
+{
+ "key": "item:crystal-phial",
+ "type": "item",
+ "name": "Crystal Phial",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Crystal Phial",
+  "quests": [
+   "quest:921"
+  ]
+ },
+ "summary": "A pristine Crystal Phial entrusted to young night elf adventurers by the druid Tenaron Stormgrip in Shadowglen. It is used to draw sacred water from a nearby moonwell, beginning a series of rites meant to honor and nourish the growing World Tree, Teldrassil.",
+ "sections": [
+  {
+   "title": "A Vessel for Sacred Waters",
+   "body": "Given to novice night elves atop Aldrassil, this delicate glass phial serves a vital ceremonial purpose. Tenaron Stormgrip tasks young protectors with carrying it to the moonwell just north of the bough to collect its glowing waters. While simple in construction, the phial holds water infused with the sacred legacy of the Well of Eternity. Bringing back a Filled Crystal Phial marks the first step of the Crown of the Earth pilgrimage, teaching young kaldorei the precarious balance of magic, history, and nature in their new island home.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Crystal Phial used for?",
+   "aliases": [
+    "crystal phial purpose",
+    "use of crystal phial",
+    "what do i do with the phial"
+   ],
+   "answer": "The phial is used to collect blessed water from the moonwell situated just north of Aldrassil in Shadowglen. Once filled, it is returned to Tenaron Stormgrip as part of the quest 'Crown of the Earth.'"
+  },
+  {
+   "q": "Who gives you the Crystal Phial?",
+   "aliases": [
+    "who gives crystal phial",
+    "where to get crystal phial"
+   ],
+   "answer": "The druid Tenaron Stormgrip provides the empty Crystal Phial when giving young adventurers their earliest duties atop the great bough of Aldrassil."
+  },
+  {
+   "q": "Why is gathering moonwell water significant?",
+   "aliases": [
+    "why moonwell water",
+    "significance of moonwell water",
+    "moonwell purpose"
+   ],
+   "answer": "Moonwells contain consecrated waters tied to the essence of the Well of Eternity and the grace of Elune. The water drawn in the phial is used to understand the aftermath of the Third War and to participate in rituals dedicated to nourishing Teldrassil."
+  },
+  {
+   "q": "What happens after the phial is filled?",
+   "aliases": [
+    "after filling phial",
+    "filled crystal phial use"
+   ],
+   "answer": "It becomes a Filled Crystal Phial. Delivering it back to Tenaron Stormgrip completes your initial trial and opens up further lessons on the creation and care of the World Tree across Teldrassil."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young kaldorei taking their first steps outside Aldrassil, filling this phial is a foundational rite of passage, connecting them directly to the waters of Elune and the recovery of their people after the Third War."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold moonwells in deep reverence, drawing on their serene properties to channel natural energies and nurture new growth without succumbing to the temptations of arcane sorcery."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "crown of the earth",
+  "crystal phial",
+  "moonwell",
+  "shadowglen",
+  "teldrassil",
+  "tenaron stormgrip"
+ ],
+ "related": [
+  "quest:921",
+  "item:filled-crystal-phial",
+  "npc:tenaron-stormgrip",
+  "subzone:aldrassil",
+  "subzone:shadowglen",
+  "zone:teldrassil",
+  "topic:elune",
+  "topic:nordrassil"
+ ],
+ "attribution": [
+  "Crystal Phial",
+  "Crown of the Earth"
+ ]
+}

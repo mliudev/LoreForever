@@ -1,0 +1,90 @@
+{
+ "key": "npc:foreman-thazz-ril",
+ "type": "npc",
+ "name": "Foreman Thazz'ril",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Foreman Thazz'ril",
+  "refs": 1
+ },
+ "summary": "Foreman Thazz'ril is an orc labor supervisor stationed in the Valley of Trials in Durotar. Tasked with keeping peons on schedule and maintaining basic infrastructure for young warriors, he is perpetually frustrated by lazy laborers and nearby cultist activity.",
+ "sections": [
+  {
+   "title": "Keeping the Peons in Line",
+   "body": "Building a new home in the harsh red rock of Durotar requires unending physical labor. In the Valley of Trials, Foreman Thazz'ril oversees the peons chopping lumber and gathering materials needed to support both the encampment and the wider Horde war effort. Unfortunately for Thazz'ril, peons are notoriously prone to slacking off and taking naps under the desert sun. To keep construction moving, he regularly enlists newly arrived recruits to give the slumbering workers a brisk wallop with his trusty blackjack, instilling obedience through blunt persuasion.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Lost Pick in Dangerous Hands",
+   "body": "Thazz'ril's responsibilities also involve surveying the valley's mineral resources, though that duty led to an embarrassing misstep. While scouting the cave known as the Burning Blade Coven, he was forced to flee from the dark cultists lurking inside, accidentally abandoning his treasured enchanted pick. Too cautious to retrieve it himself amidst the gathering warlocks and their demonic minions, he relies on young Horde aspirants to venture into the depths and return his tool.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Foreman Thazz'ril?",
+   "aliases": [
+    "who is thazzril",
+    "thazzril valley of trials",
+    "foreman thazzril lore"
+   ],
+   "answer": "Foreman Thazz'ril is an orc labor overseer in the Valley of Trials in Durotar. He is responsible for managing work crews, chopping lumber, and surveying the region for useful resources to aid the Horde's settlement."
+  },
+  {
+   "q": "Why does Thazz'ril give players a blackjack?",
+   "aliases": [
+    "why hit lazy peons",
+    "thazzril blackjack",
+    "lazy peons quest lore"
+   ],
+   "answer": "The peons under his watch frequently fall asleep under trees rather than harvesting lumber. Thazz'ril provides an enchanted wooden blackjack to knock some discipline into them and send them scurrying back to work."
+  },
+  {
+   "q": "Why is Thazz'ril's pick inside the Burning Blade cave?",
+   "aliases": [
+    "thazzril pick",
+    "why is pick in coven",
+    "burning blade pick"
+   ],
+   "answer": "While scouting the local caves for mineral veins, Thazz'ril stumbled into the Burning Blade Coven. Spooked by the cultists hiding in the shadows, he beat a hasty retreat and left his valuable enchanted pick behind."
+  },
+  {
+   "q": "What is his role in the Horde?",
+   "aliases": [
+    "is thazzril a soldier",
+    "thazzril rank"
+   ],
+   "answer": "Thazz'ril is not a frontline soldier or shaman, but a civilian overseer. His duties center on the logistical backbone of Durotar: supervising manual labor, maintaining construction supplies, and keeping peons productive."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "For young orcs coming of age, Thazz'ril provides an early lesson in Horde society: strength on the battlefield is only possible when supported by unglamorous, disciplined labor."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Thazz'ril values quality mining equipment, as shown by his desperation to recover his enchanted pick from the dark recesses of the Burning Blade Coven."
+  }
+ ],
+ "keywords": [
+  "blackjack",
+  "burning blade",
+  "durotar",
+  "foreman",
+  "lazy peons",
+  "thazzril",
+  "valley of trials"
+ ],
+ "related": [
+  "quest:lazy-peons",
+  "subzone:valley-of-trials",
+  "subzone:burning-blade-coven",
+  "zone:durotar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Foreman Thazz'ril"
+ ]
+}

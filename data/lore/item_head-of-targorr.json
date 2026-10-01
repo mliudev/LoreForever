@@ -1,0 +1,99 @@
+{
+ "key": "item:head-of-targorr",
+ "type": "item",
+ "name": "Head of Targorr",
+ "era": "classic",
+ "zone": "stockade",
+ "meta": {
+  "wiki": "Head of Targorr",
+  "quests": [
+   "quest:386"
+  ]
+ },
+ "summary": "The Head of Targorr is the grim proof demanded by Guard Berton in Lakeshire to confirm the death of Targorr the Dread. Once the supreme executioner for General Gath'Ilzogg in the Redridge Mountains, the captured orc was sentenced to death in the Stormwind Stockade before suspicious political meddling halted his execution.",
+ "sections": [
+  {
+   "title": "A Delayed Execution",
+   "body": "Targorr the Dread gained infamy across Redridge as the brutal executioner serving under the Blackrock clan warlord Gath'Ilzogg. Responsible for torturing and slaughtering defenders of the Kingdom of Stormwind, Targorr was eventually captured and condemned to death within the Stormwind Stockade. However, bureaucratic intervention from Stormwind nobles mysteriously suspended the sentence, leading local guardsmen like Berton to suspect foul play and corruption in the capital.",
+   "spoiler": 0
+  },
+  {
+   "title": "Frontier Justice",
+   "body": "Fearing that Targorr might be used as a political pawn or somehow orchestrate an escape, Guard Berton commissioned an outside champion to breach the volatile prison and finish what the courts delayed. Severing Targorr's head bypassed the paralyzed legal system entirely, delivering closure to the grieving families and besieged defenders of Lakeshire who suffered under the executioner's blades.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Targorr the Dread?",
+   "aliases": [
+    "targorr",
+    "targorr lore",
+    "who is targorr"
+   ],
+   "answer": "Targorr was an infamous orc executioner belonging to the Blackrock clan in Redridge. Serving under General Gath'Ilzogg, he became notorious for torturing and executing captured Stormwind soldiers and defenders."
+  },
+  {
+   "q": "Why was Targorr kept alive in the Stockade?",
+   "aliases": [
+    "why not execute targorr",
+    "targorr stay of execution",
+    "stockade trial"
+   ],
+   "answer": "Although formally sentenced to die, Targorr's execution was mysteriously halted by bureaucratic nobles in Stormwind. Guardsmen in Lakeshire suspect political foul play and corruption, fearing the orc was being kept as a bargaining chip."
+  },
+  {
+   "q": "Who wants Targorr's head?",
+   "aliases": [
+    "who takes targorr head",
+    "guard berton",
+    "turn in head of targorr"
+   ],
+   "answer": "Guard Berton, stationed at the bridge in Lakeshire, requests the severed head. Having seen the carnage Targorr caused in the Redridge Mountains, Berton seeks definitive proof that the executioner can never be freed."
+  },
+  {
+   "q": "Where is Targorr found?",
+   "aliases": [
+    "targorr location",
+    "find targorr",
+    "where in stockade"
+   ],
+   "answer": "Targorr the Dread is imprisoned within the Stormwind Stockade, held behind iron bars in the central cell blocks alongside rioting inmates."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions defending Redridge, bringing down Targorr avenges the slaughtered defenders of Lakeshire and circumvents corrupt noble bureaucracy in Stormwind."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human soldiers and town guards hold personal grudges against Targorr for the sadistic torture of captured Kingdom troops during the Blackrock offensive."
+  }
+ ],
+ "keywords": [
+  "blackrock",
+  "gath'ilzogg",
+  "guard berton",
+  "head of targorr",
+  "lakeshire",
+  "redridge",
+  "stockade",
+  "targorr",
+  "targorr the dread"
+ ],
+ "related": [
+  "quest:386",
+  "npc:targorr-the-dread",
+  "npc:guard-berton",
+  "zone:stockade",
+  "subzone:stormwind-stockade",
+  "subzone:lakeshire",
+  "npc:gath-ilzogg",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Head of Targorr",
+  "What Comes Around..."
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "item:fey-dragon-scale",
+ "type": "item",
+ "name": "Fey Dragon Scale",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Fey Dragon Scale",
+  "quests": [
+   "quest:1058"
+  ]
+ },
+ "summary": "A Fey Dragon Scale is a shimmering woodland relic harvested from the elusive faerie dragons living around Stonetalon Peak. It is sought after by the Darkspear witch doctor Jin'Zil, who uses it as an exotic reagent in an alchemical brew mocking night elven nature magic.",
+ "sections": [
+  {
+   "title": "A Rare Forest Harvest",
+   "body": "Faerie dragons are mysterious, elusive creatures tied closely to the wild groves of Kalimdor, particularly the untouched forests around Stonetalon Peak. Their scales carry a natural magical luster reminiscent of the deep woods they guard. While revered by the night elves as harmless woodland spirits and allies, outsiders view them as an untamed source of rare magical ingredients.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Mocking Concoction",
+   "body": "In the Horde settlement of Malaka'jin, Witch Doctor Jin'Zil concocts a sinister mixture that parodies the sacred traditions of the kaldorei. By combining a fey dragon scale with tree sap, feline whiskers, and dozen upon dozen of courser eyes, Jin'Zil brews what he mockingly calls 'forest magic.' Far from a benign nature blessing, the resulting concoction proves to be a lethal airborne poison intended for his captured night elf prisoners.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this scale come from?",
+   "aliases": [
+    "fey dragon scale drop",
+    "where to find fey dragon scale",
+    "who drops fey dragon scale"
+   ],
+   "answer": "The scale is harvested from faerie dragons flitting through the highland groves around Stonetalon Peak, including elusive creatures like Wily Fey Dragons and Nal'taszar."
+  },
+  {
+   "q": "Why does Witch Doctor Jin'Zil want a fey dragon scale?",
+   "aliases": [
+    "why does jin'zil want this",
+    "what is the scale used for",
+    "jin'zil forest magic reagent"
+   ],
+   "answer": "Witch Doctor Jin'Zil in Malaka'jin requests the scale alongside other woodland reagents to brew what he sneeringly terms 'forest magic' for his caged night elf prisoners."
+  },
+  {
+   "q": "What happens when Jin'Zil finishes his brew?",
+   "aliases": [
+    "what does jin'zil do with the brew",
+    "jin'zil magic result",
+    "prisoners of jin'zil"
+   ],
+   "answer": "Once assembled, Jin'Zil unleashes his finished concoction inside his cave. Rather than harmless woodland magic, the mixture is a lethal poison that kills the three imprisoned night elves, leaving only their wisps to float away into the wild."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Faerie dragons are treasured companions and forest guardians of the kaldorei; seeing their scales plucked for a troll witch doctor's deadly mockery is an outrage to nature."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Assisting Jin'Zil secures the Horde's footing in the Stonetalon Mountains, striking directly at the night elven presence entrenched higher up the slopes."
+  }
+ ],
+ "keywords": [
+  "faerie dragon",
+  "fey dragon scale",
+  "forest magic",
+  "jin'zil",
+  "malaka'jin",
+  "nal'taszar",
+  "stonetalon peak"
+ ],
+ "related": [
+  "npc:witch-doctor-jin-zil",
+  "quest:1058",
+  "subzone:stonetalon-peak",
+  "subzone:malaka-jin",
+  "item:stonetalon-sap",
+  "item:twilight-whisker",
+  "item:courser-eye",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Fey Dragon Scale",
+  "Jin'Zil's Forest Magic"
+ ]
+}

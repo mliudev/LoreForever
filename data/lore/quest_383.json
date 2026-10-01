@@ -1,0 +1,126 @@
+{
+ "key": "quest:383",
+ "type": "quest",
+ "name": "Vital Intelligence",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   383
+  ],
+  "level": "5",
+  "faction": "Horde",
+  "start": "Executor Arren",
+  "end": "Executor Zygand",
+  "previous": "The Red Messenger",
+  "next": null,
+  "wiki": "Vital Intelligence (Classic)",
+  "chain": [
+   "Night Web's Hollow (Classic)",
+   "The Scarlet Crusade (quest)",
+   "The Red Messenger",
+   "Vital Intelligence (Classic)"
+  ]
+ },
+ "summary": "Vital Intelligence marks the end of a freshly risen Forsaken's training in Deathknell. Entrusted with intercepted Scarlet Crusade documents, the courier is sent out into Tirisfal Glades to report to Executor Zygand in Brill.",
+ "sections": [
+  {
+   "title": "Leaving Deathknell",
+   "body": "Having neutralized local threats and intercepted a courier of the Scarlet Crusade, newly recruited Forsaken are deemed ready for broader service. Executor Arren entrusts the recovered intelligence to the player, directing them out through the sheltered canyon of Deathknell and east along the road toward Brill, past Cold Hearth Manor.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Decisive Strike",
+   "body": "Upon arrival in Brill, Executor Zygand evaluates the captured correspondence. The documents contain rosters and details identifying active Scarlet Crusade commanders operating throughout Tirisfal Glades, laying the groundwork for targeted assassinations intended to fracture the zealots' leadership and morale.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What information is inside the Scarlet Crusade Documents?",
+   "aliases": [
+    "what are the scarlet documents",
+    "scarlet crusade documents contents",
+    "what intelligence was gathered"
+   ],
+   "answer": "The captured documents contain names and assignments of Scarlet Crusade officers stationed across Tirisfal Glades. Executor Zygand intends to use these rosters to target and eliminate their local leadership in swift, demoralizing strikes."
+  },
+  {
+   "q": "Where is Executor Zygand located?",
+   "aliases": [
+    "where is zygand",
+    "find executor zygand",
+    "executor zygand location"
+   ],
+   "answer": "Executor Zygand is stationed in Brill, positioned just outside the Brill Town Hall along the town's main square."
+  },
+  {
+   "q": "How do I get to Brill from Deathknell?",
+   "aliases": [
+    "path to brill",
+    "how to get to brill",
+    "directions to brill"
+   ],
+   "answer": "Follow the road north out of Deathknell. At the fork leading into greater Tirisfal Glades, take the eastern path and continue past Cold Hearth Manor and across the covered bridge straight into Brill."
+  },
+  {
+   "q": "Why does this quest signal the end of Deathknell?",
+   "aliases": [
+    "done with deathknell",
+    "why leave deathknell",
+    "is this the last deathknell quest"
+   ],
+   "answer": "Deathknell serves as the initial proving ground for newly awakened Forsaken. Once you have helped secure the hamlet and gathered actionable intelligence on the Scarlet Crusade, Executor Arren transfers your services to higher-ranking commanders in Brill."
+  },
+  {
+   "q": "Who is Executor Arren?",
+   "aliases": [
+    "who is arren",
+    "arren lore"
+   ],
+   "answer": "Executor Arren is the Forsaken officer overseeing operations, security, and the initial integration of newly risen undead within Deathknell."
+  },
+  {
+   "q": "What happens after turning in these documents?",
+   "aliases": [
+    "what comes next",
+    "next quest after vital intelligence"
+   ],
+   "answer": "Delivering the documents integrates you into the broader Forsaken military efforts operating out of Brill, opening assignments across Tirisfal Glades aimed at dismantling local Scarlet Crusade encampments and Scourge remnants."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Carrying these intercepted plans represents a rite of passage: having proven viable after rising from the grave, you are dispatched from your cradle in Deathknell into the wider war for Lordaeron."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The intelligence gathered here helps the Forsaken consolidate their hold on Tirisfal Glades, protecting the northern gateway to the Undercity from crusade incursions."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "cold hearth manor",
+  "deathknell",
+  "documents",
+  "executor arren",
+  "executor zygand",
+  "scarlet crusade",
+  "tirisfal glades",
+  "vital intelligence"
+ ],
+ "related": [
+  "quest:382",
+  "npc:executor-arren",
+  "npc:executor-zygand",
+  "subzone:brill",
+  "subzone:deathknell",
+  "topic:scarlet-crusade",
+  "subzone:cold-hearth-manor",
+  "quest:5481"
+ ],
+ "attribution": [
+  "Vital Intelligence (Classic)"
+ ]
+}

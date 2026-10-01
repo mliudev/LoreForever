@@ -1,0 +1,90 @@
+{
+ "key": "item:duskbat-wing",
+ "type": "item",
+ "name": "Duskbat Wing",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Duskbat Wing",
+  "quests": [
+   "quest:376"
+  ]
+ },
+ "summary": "A Duskbat Wing is a raw material harvested from the leather-winged bats flitting through the gloom around Deathknell. In the resource-starved Forsaken settlement, these leathery appendages are salvaged and repurposed by local tailors into sturdy makeshift armor for newly risen soldiers.",
+ "sections": [
+  {
+   "title": "Improvised Protection in Deathknell",
+   "body": "When new undead claw their way from the soil of Deathknell, they emerge bearing little more than rags and brittle bones. Surrounded by the lingering Scourge mindless and hostile wildlife, the fledgling Forsaken must scrape together whatever protective gear they can find. Novice Elreth, assistant to Shadow Priest Sarvis, collects Duskbat Wings alongside wolf paws to piece together and reinforce clothing and armor for freshly raised warriors before they are sent into the wilderness to fight.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Duskbat Wings used for?",
+   "aliases": [
+    "duskbat wing use",
+    "why get duskbat wings",
+    "purpose of duskbat wings"
+   ],
+   "answer": "In Deathknell, Novice Elreth uses duskbat wings alongside scavenger paws as raw materials to craft, mend, and reinforce armor and garments for newly awakened Forsaken recruits."
+  },
+  {
+   "q": "Where do Duskbat Wings come from?",
+   "aliases": [
+    "where to find duskbat wings",
+    "duskbat wing source",
+    "who drops duskbat wings"
+   ],
+   "answer": "They are harvested from Duskbats and Mangy Duskbats found haunting the groves and hillsides surrounding the village of Deathknell in Tirisfal Glades."
+  },
+  {
+   "q": "Who requests these wings in Deathknell?",
+   "aliases": [
+    "who needs duskbat wings",
+    "turn in duskbat wing",
+    "duskbat wing quest giver"
+   ],
+   "answer": "Novice Elreth, who tends to the wounded and crafts gear under the direction of Shadow Priest Sarvis inside the Deathknell chapel, asks recruits to gather them."
+  },
+  {
+   "q": "Why do the Forsaken rely on bat parts for armor?",
+   "aliases": [
+    "why bat wings for armor",
+    "bat leather armor forsaken"
+   ],
+   "answer": "Deathknell has almost no supply lines or traditional manufacturing. The local caretakers must scavenge tough hides, fur, and leathery bat wings from native Tirisfal predators to fashion rudimentary protective clothing for recruits heading into combat."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For freshly awakened Forsaken, gathering these wings is one of the very first survival tasks assigned to ensure you don't fall to pieces in your initial skirmishes."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Novice Elreth demonstrates the rough-and-ready survival tailoring needed in Tirisfal, utilizing tough bat wings as workable leather and fabric substitutes."
+  }
+ ],
+ "keywords": [
+  "deathknell",
+  "duskbat",
+  "duskbat wing",
+  "novice elreth",
+  "scavenger paw",
+  "the damned",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:novice-elreth",
+  "quest:376",
+  "item:scavenger-paw",
+  "subzone:deathknell",
+  "npc:shadow-priest-sarvis",
+  "topic:forsaken",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Duskbat Wing",
+  "The Damned (Classic)"
+ ]
+}

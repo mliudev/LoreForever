@@ -1,0 +1,76 @@
+{
+ "key": "item:samuel-s-remains",
+ "type": "item",
+ "name": "Samuel's Remains",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Samuel's Remains",
+  "quests": [
+   "quest:6395"
+  ]
+ },
+ "summary": "Samuel's Remains are the recovered earthly remnants of Samuel Fipps, a former resident of Tirisfal Glades who fell to the Scourge. Gathered by adventurers near Deathknell, they are laid to rest beside his wife Marla to fulfill her dying wish.",
+ "sections": [
+  {
+   "title": "A Tragic Reunion",
+   "body": "Before the plague of undeath swept across Lordaeron, Samuel Fipps lived peacefully with his wife, Marla. When the contagion struck, Samuel succumbed and was bound into mindless service to the Scourge. Marla escaped undeath only to be struck down by the very husband she loved. Despite this brutal end, her final wish was not vengeance, but eternity together: she pleaded to be interred beside Samuel once his cursed form was put to rest. Novice Elreth in Deathknell enlists newly awoken Forsaken to track down Samuel's wandering form northeast of the settlement, recover his bones, and bury them in the front row of the local cemetery.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Samuel Fipps?",
+   "aliases": [
+    "samuel fipps",
+    "who is samuel",
+    "samuel backstory"
+   ],
+   "answer": "Samuel Fipps was a human living in Tirisfal Glades prior to the Third War. When the Scourge plague invaded, he perished and rose as an undead thrall of the Lich King. Driven by mindless hunger, he eventually slew his own wife, Marla."
+  },
+  {
+   "q": "Where are Samuel's remains found?",
+   "aliases": [
+    "find samuel remains",
+    "where is samuel fipps",
+    "samuel location"
+   ],
+   "answer": "They are recovered from Samuel Fipps himself, who roams among the ruined camp along the road northeast of Deathknell. Putting an end to his mindless existence allows his earthly remains to be retrieved."
+  },
+  {
+   "q": "Why do the Forsaken bury him beside his wife?",
+   "aliases": [
+    "why bury samuel",
+    "marla grave",
+    "marlas last wish"
+   ],
+   "answer": "Marla's dying wish was to rest alongside her beloved husband, despite him being the one who killed her. Novice Elreth honors this request to prove that the newly liberated Forsaken still possess compassion, respect for the dead, and humanity that separates them from the Scourge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Burying Samuel's remains is an early lesson in Forsaken identity: respecting the tragic dead marks the crucial moral divide between free undead and the mindless thralls of the Scourge."
+  }
+ ],
+ "keywords": [
+  "deathknell",
+  "marla fipps",
+  "marla's grave",
+  "marla's last wish",
+  "novice elreth",
+  "samuel fipps",
+  "samuel's remains"
+ ],
+ "related": [
+  "quest:6395",
+  "npc:novice-elreth",
+  "subzone:deathknell",
+  "topic:scourge",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Samuel's Remains",
+  "Marla's Last Wish"
+ ]
+}

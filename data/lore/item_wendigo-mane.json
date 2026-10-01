@@ -1,0 +1,90 @@
+{
+ "key": "item:wendigo-mane",
+ "type": "item",
+ "name": "Wendigo Mane",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Wendigo Mane",
+  "quests": [
+   "quest:313"
+  ]
+ },
+ "summary": "Wendigo Manes are the thick, shaggy coats harvested from the savage wendigos roaming the frozen crags of Dun Morogh. Coveted for their heavy insulation against the biting mountain chill, these coarse pelts are tough enough to line cabin floors or the iron cabins of dwarven warmachines.",
+ "sections": [
+  {
+   "title": "Warmth for the Ironworks",
+   "body": "The mountains of Dun Morogh are harsh and unyielding, prompting locals to make good use of the apex beasts stalking the snowdrifts. The coarse fur of a wendigo offers dense protection against bitter sub-zero drafts. Pilot Stonegear, stationed outside Kharanos, sends adventurers into the nearby Grizzled Den to gather these heavy manes. Rather than fashioning winter coats or cloaks, the eccentric pilot intends to weave them into a plush, insulating floor rug for the interior deck of his prized dwarven siege engine, Trollplow.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures yield a Wendigo Mane?",
+   "aliases": [
+    "where do wendigo manes drop",
+    "who drops wendigo mane",
+    "wendigo mane sources"
+   ],
+   "answer": "The manes can be gathered from any wendigo inhabiting the snows of Dun Morogh. This includes common Young Wendigos, adult Wendigos, and notable alpha beasts such as Vagash, Edan the Howler, and Old Icebeard."
+  },
+  {
+   "q": "Why does Pilot Stonegear want these manes?",
+   "aliases": [
+    "why stonegear wants manes",
+    "pilot stonegear rug",
+    "what are manes used for"
+   ],
+   "answer": "Pilot Stonegear wants the manes to craft an insulating rug for the inside deck of his siege engine, Trollplow. Running a massive iron machine through frozen terrain gets intensely cold, and the thick fur helps keep the pilot's station warm and comfortable."
+  },
+  {
+   "q": "Where is the best place to find wendigos for their manes?",
+   "aliases": [
+    "grizzled den location",
+    "where to hunt wendigos",
+    "wendigo cave dun morogh"
+   ],
+   "answer": "The primary lair recommended by Pilot Stonegear is the Grizzled Den, a cave system cut into the mountains directly west of Kharanos. The cavern and its surrounding slopes teem with wendigos."
+  },
+  {
+   "q": "Are wendigos dangerous to hunt?",
+   "aliases": [
+    "are wendigos hard to kill",
+    "fighting wendigos"
+   ],
+   "answer": "Yes. Wendigos are feral, territorial predators endowed with brutal physical strength and thick hides. Dwarven trainers consider braving their dens an early rite of passage to prove a mountaineer's courage and combat grit."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Operating dwarven machinery in Dun Morogh means dealing with freezing metal cockpits, making insulated linings like wendigo pelts a practical comfort modification."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Hunting the wendigos of the Grizzled Den is a time-tested trial for young dwarves looking to prove their toughness to the veterans of Kharanos."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "fur",
+  "grizzled den",
+  "kharanos",
+  "mane",
+  "pelt",
+  "stonegear",
+  "trollplow",
+  "wendigo"
+ ],
+ "related": [
+  "quest:313",
+  "npc:pilot-stonegear",
+  "subzone:grizzled-den",
+  "subzone:kharanos",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Wendigo Mane",
+  "The Grizzled Den (quest)"
+ ]
+}
