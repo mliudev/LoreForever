@@ -1,0 +1,122 @@
+{
+ "key": "topic:rogue",
+ "type": "topic",
+ "name": "Rogue",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Rogue"
+ },
+ "summary": "Rogues are masters of stealth, espionage, and sudden, lethal combat who dictate the terms of engagement from the shadows. Relying on light leather armor, dual-wielded blades, and brewed toxins, they strike unawares before vanishing back into the dark. Across Azeroth, they serve as scouts, assassins, pickpockets, and agents for factions and hidden syndicates alike.",
+ "sections": [
+  {
+   "title": "Strike from the Shadows",
+   "body": "Rogues eschew the heavy plate and open confrontation of traditional frontline warriors. Clad in lightweight leather to remain completely silent and mobile, they stalk their quarry unseen. When they engage, they seize the opening moments through precision and surprise, aiming for vital organs or exposed joints. Utilizing an ever-flowing pool of energy and rapid weapon combinations, a rogue softens up an enemy with carefully chained strikes before unleashing a catastrophic finishing blow.",
+   "spoiler": 0
+  },
+  {
+   "title": "Poisons and Street Smarts",
+   "body": "A blade alone is rarely enough for a professional cutpurse or killer. Rogues are skilled alchemists of lethal concoctions, hand-crafting venomous coatings to numb limbs, slow escapes, or rapidly sap the vitality of their targets. Coupled with lockpicking tools, thrown weapons, and distracting trickery, they excel at slipping past fortified perimeters, disarming traps, and infiltrating vaults that would stump a company of soldiers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Guilds, Crowns, and Syndicates",
+   "body": "While many rogues operate as lone wolves, highwaymen, or street-level thugs, the finest operatives belong to organized intelligence networks and assassin guilds. Stormwind relies on the clandestine operatives of SI:7, Ironforge harbors the covert Hidden Circle, and the Forsaken utilize the relentless Deathstalkers. In Orgrimmar, the shadowy remnants of the Shattered Hand serve the Warchief, while the elite, neutral League of Assassins answers to Lord Jorach Ravenholdt.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What armor and weapons do rogues use?",
+   "aliases": [
+    "rogue gear",
+    "what can rogues equip",
+    "rogue armor type"
+   ],
+   "answer": "Rogues wear leather armor to ensure they can move silently and swiftly without encumbrance. In combat, they dual-wield one-handed armaments, most notably daggers, swords, maces, and fist weapons. They also carry silent ranged weapons such as throwing knives, bows, or crossbows for utility and pulling marks."
+  },
+  {
+   "q": "How does stealth work for a rogue?",
+   "aliases": [
+    "how does rogue stealth work",
+    "can rogues turn invisible",
+    "stealth lore"
+   ],
+   "answer": "Stealth is a disciplined blend of light-footed movement, exploiting shadows, and subtle mysticism. It renders a rogue practically invisible to distant onlookers, though moving too close to an alert guard or enemy can give away their presence. Entering stealth allows rogues to position behind prey to deliver devastating ambushes, garrotes, and disabling strikes."
+  },
+  {
+   "q": "What is the Ravenholdt League?",
+   "aliases": [
+    "who are ravenholdt",
+    "assassins league",
+    "lord jorach ravenholdt"
+   ],
+   "answer": "The League of Assassins, headquartered at Ravenholdt Manor in the Hillsbrad Foothills, is an ancient, clandestine brotherhood led by Lord Jorach Ravenholdt. Unlike faction-bound intelligence units, Ravenholdt is a guild dedicated purely to the discipline, honor, and business of the assassin's craft, taking contracts regardless of political allegiance."
+  },
+  {
+   "q": "What is SI:7?",
+   "aliases": [
+    "stormwind si7",
+    "si7",
+    "stormwind intelligence"
+   ],
+   "answer": "SI:7 is the premier covert intelligence and reconnaissance wing of the Kingdom of Stormwind. Headquartered in Stormwind City, its field agents, snipers, and thieves handle espionage, high-profile assassinations, and border reconnaissance to protect Alliance interests across Azeroth."
+  },
+  {
+   "q": "How do rogues fight in prolonged combat?",
+   "aliases": [
+    "rogue combat style",
+    "combo points lore",
+    "how do rogues fight"
+   ],
+   "answer": "When an assassination cannot be completed in an initial strike, a rogue uses agility and footwork to evade return blows. They execute sequential, rapid attacks with their dual weapons to exploit weaknesses\u2014building tactical openings that culminate in lethal finishing blows like ruptures or eviscerations."
+  },
+  {
+   "q": "Do rogues use magic?",
+   "aliases": [
+    "is rogue stealth magic",
+    "do rogues cast spells"
+   ],
+   "answer": "Most rogues rely primarily on physical conditioning, martial training, alchemical concoctions, and mundane stealth. However, advanced practitioners often weave minor mysticism or shadow magic into their repertoire, helping them conceal their physical form, slip into shadows in broad daylight, and vanish instantly from sight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "For a rogue, every mission is an exercise in leverage, patience, and lethal precision, whether working as an operative for high command or picking pockets in city alleys."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance clandestine power runs through organizations like Stormwind's SI:7 and Ironforge's Hidden Circle, who handle internal subversion and foreign threats."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde depends on the espionage of the Shattered Hand in Orgrimmar and Sylvanas Windrunner's feared Deathstalkers in the Undercity to scout enemy territory and eliminate threats quietly."
+  }
+ ],
+ "keywords": [
+  "assassin",
+  "deathstalker",
+  "eviscerate",
+  "lockpicking",
+  "poisons",
+  "ravenholdt",
+  "rogue",
+  "shattered hand",
+  "si:7",
+  "stealth"
+ ],
+ "related": [
+  "topic:ravenholdt",
+  "npc:lord-jorach-ravenholdt",
+  "quest:2300",
+  "quest:1858",
+  "topic:defias-brotherhood",
+  "topic:forsaken",
+  "zone:orgrimmar",
+  "subzone:forlorn-cavern"
+ ],
+ "attribution": [
+  "Rogue"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "key": "item:a-mysterious-message",
+ "type": "item",
+ "name": "A Mysterious Message",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "A Mysterious Message",
+  "quests": [
+   "quest:142"
+  ]
+ },
+ "summary": "A Mysterious Message is a piece of correspondence intercepted from a courier traveling across Westfall. Addressed among conspirators, the dispatch provides the People's Militia with concrete evidence linking Edwin VanCleef directly to the leadership of the Defias Brotherhood.",
+ "sections": [
+  {
+   "title": "Intercepted Orders",
+   "body": "Carried by a courier journeying between the Defias operations at Moonbrook, the Gold Coast Quarry, and the Jangolode Mine, this message represents a crucial break in Gryan Stoutmantle's investigation. For weeks, the People's Militia suspected organized direction behind the bandit uprising, but lacked irrefutable proof. Intercepting this missive confirms beyond doubt that Edwin VanCleef commands the brotherhood's efforts across the region, directing his network through coded ranks and intermediaries.",
+   "spoiler": 0
+  },
+  {
+   "title": "Whispers of Blacknails",
+   "body": "Beyond confirming VanCleef's overarching authority, the mysterious dispatch alludes to other figures moving within the conspiracy, including a shadowy associate referred to as 'Blacknails'. While the full scope of their underground network remains concealed, decoding the document provides the People's Militia with the leverage needed to turn captured cutpurses and locate the brotherhood's true stronghold.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does this message reveal to the People's Militia?",
+   "aliases": [
+    "what does the note say",
+    "mysterious message lore",
+    "what is in the message"
+   ],
+   "answer": "The message provides Gryan Stoutmantle with definitive proof that Edwin VanCleef is actively directing the Defias Brotherhood's operations across Westfall, confirming the militia's worst suspicions about who commands the outlaws."
+  },
+  {
+   "q": "Who is Blacknails?",
+   "aliases": [
+    "who is blacknails",
+    "blacknails lore",
+    "defias blacknails"
+   ],
+   "answer": "Blacknails is an associate or agent named within the intercepted text. Little else is documented about their identity or whereabouts, leaving them one of the shadowy figures operating deep within the Defias network."
+  },
+  {
+   "q": "Who carries this message?",
+   "aliases": [
+    "who has the message",
+    "who drops mysterious message",
+    "defias courier"
+   ],
+   "answer": "The message is carried by a Defias Messenger who travels the dusty Westfall roads between Moonbrook, the Gold Coast Quarry, and the Jangolode Mine to coordinate bandit operations."
+  },
+  {
+   "q": "What happens after Gryan Stoutmantle reads it?",
+   "aliases": [
+    "what comes next",
+    "stoutmantle reaction",
+    "after mysterious message"
+   ],
+   "answer": "With VanCleef's involvement confirmed, the militia shifts focus to locating the Defias headquarters. A captured thief agrees to lead scouts directly to their secret hideout in exchange for his life."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions assisting Westfall, intercepting this document proves that the unrest plaguing the kingdom's farmlands is not mere random banditry, but a calculated insurgency led by Edwin VanCleef."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The intercepted dispatch offers rogues a glimpse into the operational security, courier paths, and coded communications used by the Defias underworld."
+  }
+ ],
+ "keywords": [
+  "blacknails",
+  "defias messenger",
+  "edwin vancleef",
+  "gryan stoutmantle",
+  "moonbrook",
+  "mysterious message",
+  "westfall"
+ ],
+ "related": [
+  "quest:65",
+  "topic:defias-brotherhood",
+  "zone:westfall",
+  "subzone:moonbrook",
+  "subzone:jangolode-mine",
+  "subzone:gold-coast-quarry",
+  "subzone:defias-hideout"
+ ],
+ "attribution": [
+  "A Mysterious Message",
+  "The Defias Brotherhood (5)"
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "key": "quest:381",
+ "type": "quest",
+ "name": "The Scarlet Crusade",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   381
+  ],
+  "level": "4",
+  "faction": "Horde",
+  "start": "Executor Arren",
+  "end": "",
+  "previous": "Night Web's Hollow (Classic)",
+  "next": "The Red Messenger",
+  "wiki": "The Scarlet Crusade (quest)",
+  "chain": [
+   "Night Web's Hollow (Classic)",
+   "The Scarlet Crusade (quest)",
+   "The Red Messenger",
+   "Vital Intelligence (Classic)"
+  ]
+ },
+ "summary": "This early mission from Executor Arren tasks newly awakened Forsaken with ambushing a nearby camp of Scarlet Crusade zealots southeast of Deathknell. It serves as a grim introduction to one of the Forsaken's most fanatical and persistent enemies.",
+ "sections": [
+  {
+   "title": "A Fanatical Threat",
+   "body": "Once the immediate peril of the Night Web spider infestation is handled, Executor Arren turns Deathknell's attention toward an encroaching threat. A detachment of the Scarlet Crusade has established a foothold just southeast of the settlement. These zealots refuse to acknowledge any distinction between mindless Scourge minions and free-willed Forsaken, meaning their presence on the border poses an existential threat to the newly risen dead.",
+   "spoiler": 0
+  },
+  {
+   "title": "Preemptive Retaliation",
+   "body": "Understanding that dialogue is impossible with holy fanatics who view all dead flesh as an abomination, Arren orders a preemptive strike. Adventurers are sent to cut down Scarlet Initiates and Converts before the encampment can grow into an organized forward assault on Deathknell. The trophies brought back\u2014their crimson armbands\u2014stand as stark proof that survival in Tirisfal must be claimed by force.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are the Scarlet Crusade?",
+   "aliases": [
+    "scarlet crusade lore",
+    "what is the scarlet crusade",
+    "scarlet zealots"
+   ],
+   "answer": "The Scarlet Crusade is an extremist religious movement dedicated to the utter extermination of the undead. Driven mad by grief and religious zeal after the fall of Lordaeron, they refuse to distinguish between mindless Scourge monsters and self-aware Forsaken, seeking to purge both indiscriminately."
+  },
+  {
+   "q": "Why is the Scarlet Crusade camping near Deathknell?",
+   "aliases": [
+    "why are scarlets in deathknell",
+    "scarlet camp deathknell"
+   ],
+   "answer": "Deathknell is where new Forsaken are being raised and gathered. The Scarlet Crusade has established a small forward outpost to survey the area, catch newly risen undead unawares, and muster forces to destroy the fledgling Forsaken settlement."
+  },
+  {
+   "q": "Why do the Forsaken strike first rather than talk?",
+   "aliases": [
+    "can forsaken negotiate with scarlet crusade",
+    "why attack scarlets"
+   ],
+   "answer": "As Executor Arren points out, the Crusaders are blinded by zeal and consider all undead to be abominations that must be wiped out. They do not listen to reason or negotiate with the dead, leaving preemptive slaughter as the only viable defense."
+  },
+  {
+   "q": "What rank are the Crusaders found in this camp?",
+   "aliases": [
+    "who is in the camp",
+    "scarlet converts initiates"
+   ],
+   "answer": "The camp is staffed largely by recruits and trainees, specifically Scarlet Converts and Scarlet Initiates. Despite their low standing in the Crusade's hierarchy, their fervor makes them dangerous to newly risen Forsaken."
+  },
+  {
+   "q": "What does completing this mission lead to?",
+   "aliases": [
+    "what quest comes after",
+    "quest chain after scarlet crusade"
+   ],
+   "answer": "Reports from Executor Arren's superiors in Brill reveal that a Crusade messenger has been sent from the Scarlet Monastery to the camp. This prompts Executor Arren to assign you to intercept The Red Messenger to uncover their battle plans."
+  },
+  {
+   "q": "Who is Executor Arren?",
+   "aliases": [
+    "arren role",
+    "who gives the quest"
+   ],
+   "answer": "Executor Arren is the primary military commander overseeing the security and defense of Deathknell, directing freshly awakened Forsaken against surrounding threats."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For newly arisen Forsaken, this mission is an early lesson in how the living view them: as monsters deserving only extermination, regardless of free will."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The relentless aggression of the Scarlet Crusade underscores why the Forsaken sought the mutual defense and protection offered by the Horde."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Confronting the Scarlet Crusade forces Forsaken priests to face how the Holy Light they once venerated in Lordaeron has been twisted into fanatical hatred."
+  }
+ ],
+ "keywords": [
+  "deathknell",
+  "executor arren",
+  "scarlet armbands",
+  "scarlet converts",
+  "scarlet crusade",
+  "scarlet initiates",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:executor-arren",
+  "topic:scarlet-crusade",
+  "subzone:deathknell",
+  "quest:382",
+  "quest:380",
+  "quest:383",
+  "zone:tirisfal",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "The Scarlet Crusade (quest)"
+ ]
+}

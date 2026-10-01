@@ -1,0 +1,98 @@
+{
+ "key": "item:ancient-moonstone-seal",
+ "type": "item",
+ "name": "Ancient Moonstone Seal",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Ancient Moonstone Seal",
+  "quests": [
+   "quest:956",
+   "quest:957"
+  ]
+ },
+ "summary": "The Ancient Moonstone Seal is a powerful relic of Highborne sorcery forged long before the Sundering. Imbued with potent arcane binding magic, it served as the anchor holding the spirit of Asterion captive within the ruins of Bashal'Aran.",
+ "sections": [
+  {
+   "title": "A Prison of Highborne Sorcery",
+   "body": "Forged by Asterion's former master, the powerful Highborne sorcerer Athrikus Narassin, the Ancient Moonstone Seal was crafted to serve as an unbreakable metaphysical anchor. While the Well of Eternity still stood and Queen Azshara reigned, Athrikus used the artifact to bind Asterion's soul to the pillars of Bashal'Aran. Over ten millennia later, Asterion remained an incorporeal prisoner to its magic, unable to break the ward with any strength or spell he possessed.",
+   "spoiler": 0
+  },
+  {
+   "title": "Destruction in Ameth'Aran",
+   "body": "Following the devastation of the Great Sundering, the seal eventually passed into the claws of the Deth'ryll satyrs who infest the surrounding wilderness of Darkshore. Because ordinary force cannot mar Highborne enchanted stone, destroying the artifact requires exposing it to the ancient blue flame enduring in the twin ruins of Ameth'Aran to the south. Consuming the seal in this arcane fire permanently shatters Athrikus's binding ward, finally releasing Asterion's spirit into the mortal realm.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Ancient Moonstone Seal?",
+   "aliases": [
+    "what is moonstone seal",
+    "seal of asterion",
+    "bashal'aran seal"
+   ],
+   "answer": "It is an ancient magical relic crafted by the Highborne sorcerer Athrikus Narassin. It serves as an arcane key that binds the ghost of Asterion to his shrine within the ruins of Bashal'Aran."
+  },
+  {
+   "q": "Who possesses the seal before it is recovered?",
+   "aliases": [
+    "who has the seal",
+    "where to find moonstone seal",
+    "who drops moonstone seal"
+   ],
+   "answer": "The seal fell into the hands of the Deth'ryll satyr inhabiting the ruins surrounding Bashal'Aran in Darkshore, who used its presence to command lesser grell minions."
+  },
+  {
+   "q": "How can the seal be destroyed?",
+   "aliases": [
+    "how to break the seal",
+    "destroy moonstone seal",
+    "where do i destroy the seal"
+   ],
+   "answer": "Ordinary weapons or contemporary magic cannot harm the relic. It must be cast into the ancient, everlasting flame that still burns within the twin ruins of Ameth'Aran to the south."
+  },
+  {
+   "q": "What happens when the seal is destroyed?",
+   "aliases": [
+    "what does breaking the seal do",
+    "asterion freed"
+   ],
+   "answer": "Incinerating the seal in Ameth'Aran's flame breaks the ancient binding enchantments holding Asterion, granting his spirit freedom to roam the world after thousands of years of captivity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The seal is a haunting relic of the Highborne's unchecked arcane prowess and cruel enslavement practices prior to the Great Sundering."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The moonstone demonstrates the enduring power of ancient elven abjuration magic, maintaining its binding field uninterrupted for over ten thousand years."
+  }
+ ],
+ "keywords": [
+  "ameth'aran",
+  "ancient moonstone seal",
+  "asterion",
+  "athrikus",
+  "bashal'aran",
+  "darkshore",
+  "deth'ryll",
+  "highborne",
+  "moonstone"
+ ],
+ "related": [
+  "npc:asterion",
+  "quest:954",
+  "subzone:ameth-aran",
+  "zone:darkshore",
+  "topic:highborne",
+  "topic:satyr"
+ ],
+ "attribution": [
+  "Ancient Moonstone Seal",
+  "Bashal'Aran (3)",
+  "Bashal'Aran (4)"
+ ]
+}

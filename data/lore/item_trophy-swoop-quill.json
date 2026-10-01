@@ -1,0 +1,80 @@
+{
+ "key": "item:trophy-swoop-quill",
+ "type": "item",
+ "name": "Trophy Swoop Quill",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Trophy Swoop Quill",
+  "quests": [
+   "quest:761"
+  ]
+ },
+ "summary": "A Trophy Swoop Quill is a prized hunting token plucked from the large birds of prey that circle over the plains of Mulgore. Among the tauren, gathering these feathers demonstrates keen eyesight, patience, and hunting skill.",
+ "sections": [
+  {
+   "title": "Token of the Hunt",
+   "body": "Swoops are cunning avian predators indigenous to Mulgore, known for riding high thermals and remaining difficult to track across the grasslands. For young tauren hunters and travelers striving to prove themselves in Bloodhoof Village, claiming a trophy quill from these birds is a traditional rite of cleverness and determination. Presenting these quills to elders such as Harken Windtotem honors the hunter's clan and signifies that one possesses the sharp senses needed to thrive upon the plains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Trophy Swoop Quill used for?",
+   "aliases": [
+    "what are swoop quills for",
+    "who wants swoop quills",
+    "swoop quill use"
+   ],
+   "answer": "Trophy Swoop Quills are collected as proof of hunting merit for Harken Windtotem in Bloodhoof Village. Bringing them to him demonstrates determination, sharp observation, and honors your standing among the local tauren."
+  },
+  {
+   "q": "Where do Trophy Swoop Quills come from?",
+   "aliases": [
+    "where to get swoop quills",
+    "who drops trophy swoop quill",
+    "swoop locations"
+   ],
+   "answer": "These quills are taken from various swoops\u2014including common swoops, wiry swoops, and taloned swoops\u2014found soaring across the rolling plains throughout Mulgore."
+  },
+  {
+   "q": "Why are swoops considered difficult to hunt?",
+   "aliases": [
+    "why hunt swoops",
+    "are swoops hard to kill"
+   ],
+   "answer": "As described by Harken Windtotem, swoops are cunning birds that circle high above the grass and move quickly across the landscape, requiring sharp eyes to spot and fleet footwork to run down."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Hunting the swoop and bringing home its quills is a traditional pursuit of patience and cleverness across Mulgore, honoring both the hunter and the clan."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking airborne prey across open plains tests the fundamentals of tracking, patience, and marksmanship."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "harken windtotem",
+  "mulgore",
+  "swoop hunting",
+  "swoop quill",
+  "taloned swoop",
+  "trophy swoop quill",
+  "wiryswoop"
+ ],
+ "related": [
+  "quest:761",
+  "npc:harken-windtotem",
+  "subzone:bloodhoof-village",
+  "zone:mulgore",
+  "topic:hunter"
+ ],
+ "attribution": [
+  "Trophy Swoop Quill",
+  "Swoop Hunting"
+ ]
+}

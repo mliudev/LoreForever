@@ -1,0 +1,93 @@
+{
+ "key": "item:twitching-antenna",
+ "type": "item",
+ "name": "Twitching Antenna",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Twitching Antenna",
+  "quests": [
+   "quest:1824"
+  ]
+ },
+ "summary": "Twitching Antennae are severed sensory appendages gathered from the invasive silithid swarming the southern Barrens. Sought by the tauren hunter Ruga Ragetotem at Camp Taurajo, they serve as proof of a hunter's swiftness and combat prowess before their lingering nerve twitches fade.",
+ "sections": [
+  {
+   "title": "Proof of the Hunt",
+   "body": "Carved directly from the heads of silithid grubs, swarmers, and harvesters, these antennae retain residual nervous reflex even after detachment. Their violent spasming does not last long once severed from the insectoid host. Because of this brief window of vitality, bringing back still-twitching antennae serves as a strict test of speed, requiring an aspirant to hunt the beasts in the southern wastes and dash back across the scrublands before the twitching goes still.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat in the South",
+   "body": "Beyond serving as a rite of passage, these antennae are troubling harbingers. Silithid are not native to the Barrens, and their recent burrowing mounds at the Field of Giants deeply unsettle the hunters of Camp Taurajo. Ruga Ragetotem demands these specimens to study the new threat while simultaneously steeling Horde warriors against an encroaching, alien menace.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures drop Twitching Antennae?",
+   "aliases": [
+    "where do twitching antennae drop",
+    "who drops twitching antenna",
+    "silithid antenna source"
+   ],
+   "answer": "They are harvested from silithid insects infesting the southern Barrens, including Silithid Grubs, Harvesters, Swarmers, and Creepers that dwell around the massive fossilized bones at the Field of Giants."
+  },
+  {
+   "q": "Why do the antennae have to be twitching?",
+   "aliases": [
+    "why twitching",
+    "why the rush for antennae",
+    "trial at field of giants timer"
+   ],
+   "answer": "The persistent twitching proves the specimens are freshly harvested. Ruga Ragetotem uses this rapid expiration to test an aspirant's combat efficiency and swiftness across the wild terrain."
+  },
+  {
+   "q": "Who is looking for these antennae?",
+   "aliases": [
+    "who wants twitching antenna",
+    "who turns in antennae"
+   ],
+   "answer": "Ruga Ragetotem, a tauren hunter stationed at Camp Taurajo in the southern Barrens, requires them as part of the Trial at the Field of Giants."
+  },
+  {
+   "q": "Where is the Field of Giants?",
+   "aliases": [
+    "where is field of giants",
+    "field of giants location"
+   ],
+   "answer": "The Field of Giants lies directly south of Camp Taurajo in the Barrens, easily recognized by massive skeletal remains protruding from the earth and the strange silithid hives erupting around them."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Tracking, slaying, and harvesting freshly killed silithid within a strict time limit forms a quintessential test of a hunter's speed, wilderness tracking, and field lethality."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Camp Taurajo's hunters see the sudden appearance of the silithid as a deep disturbance to the natural balance of the plains, requiring vigilance from young braves."
+  }
+ ],
+ "keywords": [
+  "antennae",
+  "barrens",
+  "camp taurajo",
+  "field of giants",
+  "ruga ragetotem",
+  "silithid",
+  "twitching antenna"
+ ],
+ "related": [
+  "quest:1824",
+  "npc:ruga-ragetotem",
+  "subzone:field-of-giants",
+  "subzone:camp-taurajo",
+  "zone:barrens",
+  "npc:grub"
+ ],
+ "attribution": [
+  "Twitching Antenna",
+  "Trial at the Field of Giants"
+ ]
+}

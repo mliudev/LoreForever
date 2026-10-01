@@ -1,0 +1,108 @@
+{
+ "key": "item:samophlange-manual",
+ "type": "item",
+ "name": "Samophlange Manual",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Samophlange Manual",
+  "quests": [
+   "quest:3924"
+  ]
+ },
+ "summary": "The Samophlange Manual is a technical operating guide detailing the inner workings of the elusive samophlange. Kept under tight lock and key by the Venture Company, its scattered pages hold the instructions needed by goblin engineers to repair and operate the bizarre contraption.",
+ "sections": [
+  {
+   "title": "Secrets of the Contraption",
+   "body": "Engineering schematics and operating handbooks are guarded like gold among goblin enterprises, and the Samophlange Manual is no exception. While working within the Venture Company, an ambitious overseer named Boss Copperplug jealously hoarded knowledge regarding the device, distributing only scattered pages to his most loyal subordinates to retain control over the machinery. When the device fell out of Venture Company clutches, repairing it proved impossible without assembling the torn, distributed documentation from the overseer and his crew at the Boulder Lode Mine.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Rival's Ambition",
+   "body": "After breaking ties with the Venture Company, the goblin engineer Rilli Greasygob took up residence in Orgrimmar with hopes of mastering the samophlange's construction. Lacking Copperplug's favor during his former employment, Rilli relies on enterprising travelers to retrieve the handbook's cover and loose leaves. Reconstructing the handbook offers goblin tinkerers working alongside the Horde a rare window into proprietary Venture Company engineering.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Samophlange Manual?",
+   "aliases": [
+    "what is samophlange manual",
+    "samophlange book",
+    "samophlange guide"
+   ],
+   "answer": "It is an engineering manual detailing how to operate and repair the samophlange, a complex and eccentric mechanical device used by the Venture Company in the Barrens."
+  },
+  {
+   "q": "Who owned the manual originally?",
+   "aliases": [
+    "who has the manual",
+    "boss copperplug manual",
+    "who wrote the manual"
+   ],
+   "answer": "It was hoarded by Boss Copperplug, a Venture Company overseer stationed at the Boulder Lode Mine in the northeastern Barrens. Copperplug guarded its secrets closely, rationing out individual pages only to his most trusted workers."
+  },
+  {
+   "q": "Why is the manual torn into pages?",
+   "aliases": [
+    "why find manual pages",
+    "scattered manual pages",
+    "why are pages missing"
+   ],
+   "answer": "Boss Copperplug intentionally separated the book to prevent rivals or untrusted subordinates from understanding the entire device. He kept the manual cover while distributing five specific pages among his miners and operators."
+  },
+  {
+   "q": "Who wants to read the completed manual?",
+   "aliases": [
+    "who needs the manual",
+    "rilli greasygob",
+    "who wants samophlange manual"
+   ],
+   "answer": "Rilli Greasygob, an engineer working out of Orgrimmar, requires the reassembled manual to understand and repair the broken samophlange recovered from the Barrens."
+  },
+  {
+   "q": "What is a samophlange used for?",
+   "aliases": [
+    "what does samophlange do",
+    "purpose of samophlange",
+    "samophlange purpose"
+   ],
+   "answer": "The exact function of a samophlange is an eccentric goblin secret, but the Venture Company relies on them at industrial excavation sites such as their water operations and drilling rigs throughout the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The manual represents proprietary Venture Company technology, showcasing how goblin tinkerers obsessively guard trade secrets and functional schematics from their peers."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Recovering the manual allows Horde-aligned goblins in Orgrimmar to study and repurpose corporate drilling machinery right under the Venture Company's nose."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "boss copperplug",
+  "boulder lode mine",
+  "engineering",
+  "manual",
+  "rilli greasygob",
+  "samophlange",
+  "sputtervalve",
+  "venture company"
+ ],
+ "related": [
+  "quest:3924",
+  "quest:894",
+  "quest:3923",
+  "subzone:boulder-lode-mine",
+  "topic:venture-company",
+  "npc:sputtervalve",
+  "zone:orgrimmar",
+  "subzone:ratchet"
+ ],
+ "attribution": [
+  "Samophlange Manual",
+  "Samophlange Manual (quest)"
+ ]
+}

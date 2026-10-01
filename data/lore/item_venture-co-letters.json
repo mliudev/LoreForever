@@ -1,0 +1,98 @@
+{
+ "key": "item:venture-co-letters",
+ "type": "item",
+ "name": "Venture Co. Letters",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Venture Co. Letters",
+  "quests": [
+   "quest:1080",
+   "quest:1091"
+  ]
+ },
+ "summary": "The Venture Co. Letters are internal correspondence recovered from Windshear Mine in Stonetalon Mountains. Stolen under the cover of explosive distractions, they provide the night elf Sentinels with crucial intelligence on goblin industrial operations in the region.",
+ "sections": [
+  {
+   "title": "Industrial Intelligence",
+   "body": "Windshear Crag has been overrun by the Venture Company, whose logging machines and strip-mining operations tear through the ancient woodland. To uncover the full scope of the cartel's ambitions, Alliance operatives deployed covert sabotage to create distractions and infiltrate Windshear Mine. These retrieved letters contain private communications and logistical records detailing the company's local activities, giving Sentinel leadership insight into how the defilers organize their workforce and supply lines.",
+   "spoiler": 0
+  },
+  {
+   "title": "Delivery to the Sentinels",
+   "body": "Once secured from deep inside the mine, the missives are rushed back to Sentinel commander Kaela Shadowspear. Facing pressure from both goblin defilers and Horde incursions across Stonetalon, the Sentinels rely on this stolen correspondence to predict the Venture Company's next moves and safeguard what remains of the sacred mountains.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Venture Co. Letters?",
+   "aliases": [
+    "venture co letters",
+    "what are the letters",
+    "stonetalon letters"
+   ],
+   "answer": "They are internal operational documents and correspondence kept by the Venture Company at Windshear Mine in Stonetalon Mountains."
+  },
+  {
+   "q": "Where are the letters found?",
+   "aliases": [
+    "where are the letters",
+    "letters location",
+    "windshear mine letters"
+   ],
+   "answer": "They are located within Venture Co. Documents stored inside Windshear Mine, situated at the eastern end of Windshear Crag."
+  },
+  {
+   "q": "Who wants these letters?",
+   "aliases": [
+    "who gets the letters",
+    "who wants them",
+    "turn in letters"
+   ],
+   "answer": "Gnome operative Gaxim Rustfizzle oversees the covert operation to steal them, and they are ultimately delivered to Kaela Shadowspear, who leads the local night elf Sentinels."
+  },
+  {
+   "q": "Why do the Sentinels need this correspondence?",
+   "aliases": [
+    "why do sentinels want letters",
+    "sentinel interest"
+   ],
+   "answer": "The Sentinels are fighting to halt the rampant deforestation and excavation of Stonetalon. The letters reveal Venture Company logistical planning and operational priorities, helping the defenders strategize against them."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The desecration of Stonetalon by goblin lumber machines strikes at the heart of Kalimdor's wilderness, making intelligence on Venture Company schemes vital to the Sentinels."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance scouts coordinate covert missions against the Venture Company to protect night elf holdings in Stonetalon from rapacious industrial exploitation."
+  }
+ ],
+ "keywords": [
+  "kaela shadowspear",
+  "sentinels",
+  "stonetalon mountains",
+  "venture co",
+  "venture co. letters",
+  "windshear crag",
+  "windshear mine"
+ ],
+ "related": [
+  "quest:1080",
+  "quest:1091",
+  "npc:kaela-shadowspear",
+  "item:venture-co-documents",
+  "item:covert-ops-pack",
+  "subzone:windshear-crag",
+  "zone:stonetalon",
+  "topic:sentinels"
+ ],
+ "attribution": [
+  "Venture Co. Letters",
+  "Covert Ops - Beta",
+  "Kaela's Update"
+ ]
+}

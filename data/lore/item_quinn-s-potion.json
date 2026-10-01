@@ -1,0 +1,88 @@
+{
+ "key": "item:quinn-s-potion",
+ "type": "item",
+ "name": "Quinn's Potion",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Quinn's Potion",
+  "quests": [
+   "quest:430"
+  ]
+ },
+ "summary": "Quinn's Potion is a restorative draught concocted by Apothecary Renferrel in the Sepulcher. It is brewed to stabilize and revitalize the wounded Deathstalker Quinn Yorick following a disastrous scouting patrol in Silverpine Forest.",
+ "sections": [
+  {
+   "title": "Renferrel's Cure",
+   "body": "After Deathstalker Quinn Yorick was severely battered and incapacitated near the Ivar Patch, word reached the Royal Apothecary Society at the Sepulcher. Apothecary Renferrel hastily compounded this specialized draught to facilitate Quinn's recovery. While Renferrel rarely lets minor field casualties distract him from his grander, more sinister research for Lady Sylvanas, he provided the restorative to get the injured scout back on his feet and capable of travel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Quinn's Potion used for?",
+   "aliases": [
+    "quinn potion purpose",
+    "what does quinn potion do",
+    "why brew quinn potion"
+   ],
+   "answer": "The potion is formulated to aid in the recovery of Deathstalker Quinn Yorick, who lies injured in the northern woods of Silverpine Forest. Drinking it restores enough of his vitality to allow him to travel again."
+  },
+  {
+   "q": "Who brewed this potion?",
+   "aliases": [
+    "who made quinn's potion",
+    "who brewed it",
+    "renferrel potion"
+   ],
+   "answer": "Apothecary Renferrel, an alchemist of the Royal Apothecary Society stationed in the crypts of the Sepulcher, concocted the draught."
+  },
+  {
+   "q": "Where does the potion need to be delivered?",
+   "aliases": [
+    "where do i take the potion",
+    "quinn location",
+    "quinn yorick spot"
+   ],
+   "answer": "It must be carried north of the Sepulcher to Quinn Yorick, who is sheltering near the farmstead known as the Ivar Patch."
+  },
+  {
+   "q": "Why was Quinn Yorick in need of a potion?",
+   "aliases": [
+    "why is quinn hurt",
+    "what happened to quinn yorick",
+    "quinn injured"
+   ],
+   "answer": "Quinn was part of a Deathstalker patrol scouting the region that suffered brutal casualties from local beast attacks and feral worgen, leaving him incapacitated and stranded at the Ivar Patch."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Royal Apothecary Society rarely wastes effort on simple field remedies unless it directly preserves Forsaken scouts vital to securing Silverpine's borders."
+  }
+ ],
+ "keywords": [
+  "apothecary renferrel",
+  "deathstalker",
+  "ivar patch",
+  "quinn yorick",
+  "quinn's potion",
+  "sepulcher",
+  "silverpine"
+ ],
+ "related": [
+  "quest:430",
+  "npc:quinn-yorick",
+  "npc:apothecary-renferrel",
+  "subzone:ivar-patch",
+  "subzone:sepulcher",
+  "quest:428",
+  "quest:429",
+  "quest:425"
+ ],
+ "attribution": [
+  "Quinn's Potion",
+  "Return to Quinn"
+ ]
+}

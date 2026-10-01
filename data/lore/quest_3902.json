@@ -1,0 +1,114 @@
+{
+ "key": "quest:3902",
+ "type": "quest",
+ "name": "Scavenging Deathknell",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   3902
+  ],
+  "level": "3",
+  "faction": "Horde",
+  "start": "Deathguard Saltain",
+  "end": "",
+  "previous": "The Damned (Classic)",
+  "next": null,
+  "wiki": "Scavenging Deathknell",
+  "chain": []
+ },
+ "summary": "Scavenging Deathknell is an early logistical task assigned to newly awakened Forsaken by Deathguard Saltain in Deathknell. As freshly raised undead claw their way from the soil, the Forsaken must scavenge abandoned boxes and crates throughout the blighted settlement to equip incoming recruits. It illustrates the raw scarcity facing Sylvanas's nascent people, who must reclaim discarded goods simply to survive.",
+ "sections": [
+  {
+   "title": "A Pragmatic Resurrection",
+   "body": "Newly raised Forsaken awaken into a grim reality of decay and deprivation. Unlike established nations with bustling supply lines and armories, the free undead in Deathknell possess next to nothing. Deathguard Saltain's blunt demand reflects the ruthless practicality required to build an army from the graveyard dirt: every piece of salvageable cloth, leather, and iron must be hauled back to clothe and arm those still crawling out of their plots.",
+   "spoiler": 0
+  },
+  {
+   "title": "Scraping by in Tirisfal",
+   "body": "The settlement of Deathknell is littered with remnants of its former human inhabitants alongside supplies abandoned during the kingdom's fall to the Scourge. Rather than letting usable materials rot away in crates across town, the Deathguards press newborn undead into service as salvagers. As Saltain makes clear, the Forsaken expect no charity from the living world and must rely entirely on their own industriousness to stand on their feet.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Deathguard Saltain need scavenged goods?",
+   "aliases": [
+    "why scavenge goods",
+    "saltain purpose",
+    "why look for boxes"
+   ],
+   "answer": "Deathguard Saltain is gathering equipment to outfit the constant stream of newly awakened Forsaken rising in the nearby cemetery. Without scavenged clothing, boots, and tools, fresh recruits would wander the blighted hills unarmed and defenseless."
+  },
+  {
+   "q": "Where are the scavenged goods found?",
+   "aliases": [
+    "where are boxes",
+    "scavenged goods locations",
+    "deathknell boxes"
+   ],
+   "answer": "The goods are found scattered in stacks of boxes and crates throughout the town of Deathknell, resting near abandoned buildings and quiet corners of the settlement."
+  },
+  {
+   "q": "Who is Deathguard Saltain?",
+   "aliases": [
+    "who is saltain",
+    "deathguard saltain lore"
+   ],
+   "answer": "Saltain is a pragmatic Deathguard stationed in Deathknell tasked with evaluating and putting fresh undead recruits to work, enforcing order and survival through harsh discipline."
+  },
+  {
+   "q": "Why don't the Forsaken have standard military supplies here?",
+   "aliases": [
+    "why no gear",
+    "forsaken supply shortage",
+    "deathknell equipment"
+   ],
+   "answer": "The Forsaken are a young, beleaguered faction carving out an existence amid hostile living enemies and mind-controlled Scourge. In Deathknell, resources are stretched thin, forcing them to reclaim and repurpose anything left behind in the ruins."
+  },
+  {
+   "q": "What happens after completing this task?",
+   "aliases": [
+    "next quest",
+    "scavenging reward"
+   ],
+   "answer": "Saltain rewards the recruit with a piece of salvaged armor from the communal stockpile, solidifying the recruit's transition from an unproven corpse into a functional soldier of the Dark Lady."
+  },
+  {
+   "q": "Why are so many new undead rising in Deathknell right now?",
+   "aliases": [
+    "why rising",
+    "new recruits deathknell",
+    "why fresh undead"
+   ],
+   "answer": "Residual necromantic magic and the lingering curse in Tirisfal's soil cause dead Lordaeronians to slowly break free of the Lich King's shattered grasp, emerging from their graves confused and requiring immediate guidance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "This task demonstrates the stark ethos of your newly embraced unlife: no one in Azeroth will offer pity or charity, and the Forsaken must salvage their own future from the dirt."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Though the Forsaken are allied with the distant Horde across the sea, outposts like Deathknell must manage day-to-day survival through desperate local scavenging rather than foreign aid."
+  }
+ ],
+ "keywords": [
+  "deathguard saltain",
+  "deathknell",
+  "forsaken supplies",
+  "scavenged goods",
+  "scavenging deathknell",
+  "tirisfal glades",
+  "undead starter quest"
+ ],
+ "related": [
+  "subzone:deathknell",
+  "zone:tirisfal",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Scavenging Deathknell"
+ ]
+}

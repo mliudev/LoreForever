@@ -1,0 +1,93 @@
+{
+ "key": "item:crate-of-inn-supplies",
+ "type": "item",
+ "name": "Crate of Inn Supplies",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Crate of Inn Supplies",
+  "quests": [
+   "quest:2160"
+  ]
+ },
+ "summary": "The Crate of Inn Supplies is a parcel packed in Coldridge Valley destined for the Thunderbrew Distillery in Kharanos. With the mountain pass overrun by troggs, regular supply routes are cut, leaving the inn dependent on passing travelers to carry goods through.",
+ "sections": [
+  {
+   "title": "Through the Trogg Pass",
+   "body": "Ordinarily, goods flow smoothly between the quiet training grounds of Anvilmar and the bustling towns of Dun Morogh. However, recent trogg incursions have severed Coldridge Pass, cutting off civilian couriers until armed Mountaineer escorts can clear the roads. Packed by Hands Springsprocket, this heavy crate holds essential tavern provisions that Tannok Frosthammer in Kharanos has been waiting on anxiously amid the disruption.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the crate?",
+   "aliases": [
+    "crate contents",
+    "inn supplies contents",
+    "what is in the box"
+   ],
+   "answer": "The crate contains general tavern supplies dispatched from Coldridge Valley to keep the inn in Kharanos well-stocked for travelers and locals seeking warmth."
+  },
+  {
+   "q": "Who sends the crate to Kharanos?",
+   "aliases": [
+    "who gives the crate",
+    "hands springsprocket",
+    "sender"
+   ],
+   "answer": "Hands Springsprocket, stationed near Anvilmar, packages the crate and asks adventurers heading out of Coldridge Valley to carry it across the mountain pass."
+  },
+  {
+   "q": "Why couldn't the normal courier deliver it?",
+   "aliases": [
+    "why can't hands deliver it",
+    "pass blocked",
+    "why use an adventurer"
+   ],
+   "answer": "Troggs have overrun Coldridge Pass, making travel too dangerous for regular couriers without a full Mountaineer escort. Adventurers skilled enough to fight their way through are the inn's only immediate hope for receiving the goods."
+  },
+  {
+   "q": "Who receives the supplies?",
+   "aliases": [
+    "who gets the crate",
+    "tannok frosthammer",
+    "kharanos innkeeper"
+   ],
+   "answer": "Tannok Frosthammer, the innkeeper's assistant at the Thunderbrew Distillery in Kharanos, takes delivery of the parcel."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Carrying these supplies marks a young dwarf's first service beyond Coldridge Valley, braving the trogg-choked pass to aid their kin in Kharanos."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "For newly arrived gnomes, hauling Hands Springsprocket's package is a practical way to earn goodwill among the local dwarves running the inns of Dun Morogh."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge",
+  "crate",
+  "frosthammer",
+  "hands",
+  "kharanos",
+  "springsprocket",
+  "supplies",
+  "tannok",
+  "troggs"
+ ],
+ "related": [
+  "quest:2160",
+  "npc:tannok-frosthammer",
+  "subzone:kharanos",
+  "subzone:anvilmar",
+  "topic:trogg",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Crate of Inn Supplies",
+  "Supplies to Tannok"
+ ]
+}

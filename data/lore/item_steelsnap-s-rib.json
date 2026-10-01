@@ -1,0 +1,93 @@
+{
+ "key": "item:steelsnap-s-rib",
+ "type": "item",
+ "name": "Steelsnap's Rib",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Steelsnap's Rib",
+  "quests": [
+   "quest:1131"
+  ]
+ },
+ "summary": "Steelsnap's Rib is a grim trophy taken from the carcass of the ferocious hyena Steelsnap in Thousand Needles. Brought back to Thunder Bluff, it serves as physical proof that a creature deemed outside the Earthmother's blessing has been put down.",
+ "sections": [
+  {
+   "title": "A Hunt Outside the Blessing",
+   "body": "Most tauren hunts are undertaken for sustenance, for honor, or to seek harmony with nature. Steelsnap, however, represents a different kind of quarry. Roaming the canyon floor of Thousand Needles south of Camp E'thok, this vicious alpha hyena terrorizes peaceful wildlife and rallies packs of lesser predators to senseless bloodshed. When the hunt master Melor Stonehoof on Hunter Rise marks Steelsnap for death, he demands a heavy bone\u2014Steelsnap's rib\u2014as undeniable confirmation that the tyrant has been slain and the canyon cleansed of its blight.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Steelsnap's Rib used for?",
+   "aliases": [
+    "steelsnap rib quest",
+    "who wants steelsnaps rib",
+    "what do i do with steelsnaps rib"
+   ],
+   "answer": "The rib is brought to Melor Stonehoof atop Hunter Rise in Thunder Bluff to complete the hunt for Steelsnap. It serves as tangible proof that the vicious hyena has been defeated."
+  },
+  {
+   "q": "Where can I find Steelsnap to get the rib?",
+   "aliases": [
+    "steelsnap location",
+    "where is steelsnap",
+    "find steelsnap"
+   ],
+   "answer": "Steelsnap roams the northwestern reaches of Thousand Needles, wandering the canyon floor south of Camp E'thok, typically flanked by loyal packmates."
+  },
+  {
+   "q": "Why does Melor Stonehoof want Steelsnap killed?",
+   "aliases": [
+    "why kill steelsnap",
+    "melor stonehoof motive",
+    "steelsnap lore"
+   ],
+   "answer": "Melor considers Steelsnap an unnatural tyrant existing outside the Earthmother's blessing. Unlike normal predators that hunt for survival, Steelsnap spreads gratuitous bloodshed and fear among peaceful beasts, necessitating his destruction."
+  },
+  {
+   "q": "Who is Melor Stonehoof?",
+   "aliases": [
+    "who is melor",
+    "melor stonehoof location",
+    "hunter rise melor"
+   ],
+   "answer": "Melor Stonehoof is a veteran tauren hunter stationed on Hunter Rise in Thunder Bluff who tasks aspiring trackers with tracking down dangerous beasts across Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Taking the rib of an apex pack leader tests a hunter's ability to track dangerous quarry and cull threats that disrupt the balance of the wild."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, bringing back this trophy fulfills a duty to the Earthmother by purging a creature whose unchecked cruelty taints the sacred balance."
+  }
+ ],
+ "keywords": [
+  "camp e'thok",
+  "hunter rise",
+  "hyena",
+  "melor stonehoof",
+  "steelsnap",
+  "steelsnap's rib",
+  "thousand needles",
+  "thunder bluff"
+ ],
+ "related": [
+  "quest:1131",
+  "npc:melor-stonehoof",
+  "zone:thousandneedles",
+  "subzone:hunter-rise",
+  "subzone:camp-e-thok",
+  "zone:thunderbluff",
+  "quest:1130",
+  "topic:hunter"
+ ],
+ "attribution": [
+  "Steelsnap's Rib",
+  "Steelsnap (quest)"
+ ]
+}

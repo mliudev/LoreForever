@@ -1,0 +1,77 @@
+{
+ "key": "item:scale-of-old-murk-eye",
+ "type": "item",
+ "name": "Scale of Old Murk-Eye",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Scale of Old Murk-Eye",
+  "quests": [
+   "quest:104"
+  ]
+ },
+ "summary": "The Scale of Old Murk-Eye is taken from the infamous murloc leader who terrorizes the coastline of Westfall. Severed from the beast's hide, it serves as undeniable proof of his demise for the spectral keeper of the Westfall Lighthouse.",
+ "sections": [
+  {
+   "title": "Trophy of a Coastal Scourge",
+   "body": "The coast of Westfall is perilous enough between hidden shoals and relentless storms, but the presence of Old Murk-Eye elevated the danger from navigational hazard to outright massacre. According to Captain Grayson, the ghost bound to the Westfall Lighthouse, this particular murloc possessed a cunning beyond his feral kin, rallying weaker-minded murlocs to raid the shore. Murk-Eye extinguished the beacon's flame and slaughtered the lighthouse keeper's family, causing ships like Grayson's to smash against the rocks. Taking a scale from the creature is the only way to satisfy the vengeful spirit and prove that the shore has been cleansed of its fiercest predator.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Scale of Old Murk-Eye used for?",
+   "aliases": [
+    "who wants the scale",
+    "murk eye scale turn in",
+    "scale of old murk eye use"
+   ],
+   "answer": "The scale serves as proof of death for Captain Grayson, the ghost who haunts the rocky isle of the Westfall Lighthouse. Grayson seeks vengeance against Old Murk-Eye for slaughtering the lighthouse keepers and leaving the beacon dark, which ultimately led to the captain's fatal shipwreck."
+  },
+  {
+   "q": "Who is Old Murk-Eye?",
+   "aliases": [
+    "who is murk eye",
+    "murk eye lore",
+    "old murk-eye"
+   ],
+   "answer": "Old Murk-Eye is a notoriously vicious and cunning murloc leader who prowls the sandy shores of Westfall. Unlike ordinary murlocs, he has demonstrated the ability to organize and coerce his brethren into coordinated, deadly raids against shoreline outposts."
+  },
+  {
+   "q": "Why did Old Murk-Eye target the lighthouse?",
+   "aliases": [
+    "why attack lighthouse",
+    "lighthouse raid",
+    "murk eye lighthouse"
+   ],
+   "answer": "Old Murk-Eye initially raided the lighthouse to drive away the keeper and his family, plunging the coastline into darkness. When the keepers returned to relight the flame, Murk-Eye rallied his kin for a second assault, murdering the entire family and leaving ships blind to the treacherous coastal shoals."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance sailors navigating the Great Sea into Stormwind's waters, putting an end to Old Murk-Eye helps ensure that the Westfall beacon stays lit, saving future vessels from smashing against the rocks."
+  }
+ ],
+ "keywords": [
+  "captain grayson",
+  "coastal menace",
+  "murloc",
+  "old murk-eye",
+  "scale of old murk-eye",
+  "westfall",
+  "westfall lighthouse"
+ ],
+ "related": [
+  "npc:old-murk-eye",
+  "quest:104",
+  "npc:captain-grayson",
+  "subzone:westfall-lighthouse",
+  "zone:westfall",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Scale of Old Murk-Eye",
+  "The Coastal Menace (Classic)"
+ ]
+}

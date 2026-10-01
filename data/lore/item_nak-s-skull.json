@@ -1,0 +1,90 @@
+{
+ "key": "item:nak-s-skull",
+ "type": "item",
+ "name": "Nak's Skull",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Nak's Skull",
+  "quests": [
+   "quest:879"
+  ]
+ },
+ "summary": "Nak's Skull is a grisly hunting trophy severed from Nak, one of three prominent Razormane quilboar commanders directing warbands in the southern Barrens. Taken as proof of the chieftain's defeat, it is sought by the captive quilboar Mangletooth to avenge a bitter tribal betrayal.",
+ "sections": [
+  {
+   "title": "A Token of Vengeance",
+   "body": "Emerging from Razorfen Kraul, the trio consisting of Nak, Kuz, and Lok Orcbane launched vicious raids targeting Horde settlements and roadways across the Barrens. Unknown to the defenders at the Crossroads, these warlords were orchestrating attacks far more cunning than typical tribal skirmishing. When the Razormane prisoner Mangletooth was abandoned to die in a cage at Camp Taurajo, his thirst for retribution turned against his former brethren. Demanding physical proof of Nak's demise, Mangletooth asks Horde adventurers to deliver the severed skull alongside those of his cohorts to break the back of the southern raiding parties.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Nak?",
+   "aliases": [
+    "who is nak",
+    "nak lore",
+    "nak barrens"
+   ],
+   "answer": "Nak was a cunning Razormane quilboar leader who emerged from Razorfen Kraul alongside Kuz and Lok Orcbane. Together, the three directed lethal skirmishes and raids against Horde travelers and settlements throughout the southern Barrens."
+  },
+  {
+   "q": "Who wants Nak's Skull?",
+   "aliases": [
+    "who wants the skull",
+    "who do i give naks skull to",
+    "mangletooth skull"
+   ],
+   "answer": "The skull is demanded by Mangletooth, a captive Razormane quilboar held in a wooden cage at Camp Taurajo. Embittered after being abandoned to his fate by his own kin, Mangletooth seeks bloody revenge against the leaders who betrayed him."
+  },
+  {
+   "q": "Why does Mangletooth want the skulls of his own people?",
+   "aliases": [
+    "why betray his tribe",
+    "mangletooth motive",
+    "why does mangletooth want skulls"
+   ],
+   "answer": "Nak, Kuz, and Lok Orcbane turned their backs on Mangletooth and left him to die in captivity. In retaliation for their betrayal, Mangletooth aids the Horde by revealing their whereabouts and demanding their severed heads as proof of their destruction."
+  },
+  {
+   "q": "Does collecting Nak's Skull help protect the Crossroads?",
+   "aliases": [
+    "crossroads safe",
+    "stop quilboar raids"
+   ],
+   "answer": "Yes. According to Mangletooth, Nak and his partners were the cunning minds behind the aggressive Razormane raids pressuring the Crossroads and the central trade routes. Eliminating them strikes a devastating blow to the tribe's coordinated warfare."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Taking the heads of Razormane warlords like Nak relieves immense pressure from Horde supply lines connecting Camp Taurajo and the Crossroads."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "betrayal from within",
+  "camp taurajo",
+  "kuz",
+  "lok orcbane",
+  "mangletooth",
+  "nak",
+  "nak's skull",
+  "quilboar",
+  "razormane"
+ ],
+ "related": [
+  "quest:879",
+  "npc:mangletooth",
+  "subzone:camp-taurajo",
+  "item:kuz-s-skull",
+  "item:lok-s-skull",
+  "subzone:crossroads",
+  "zone:barrens",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Nak's Skull",
+  "Betrayal from Within (1)"
+ ]
+}

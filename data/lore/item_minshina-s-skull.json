@@ -1,0 +1,92 @@
+{
+ "key": "item:minshina-s-skull",
+ "type": "item",
+ "name": "Minshina's Skull",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Minshina's Skull",
+  "quests": [
+   "quest:808"
+  ]
+ },
+ "summary": "Minshina's Skull contains the bound soul of the Darkspear troll Minshina, brother of Master Gadrin. Trapped by the rogue witch doctor Zalazane on the Echo Isles, the skull serves as a grim vessel used to fuel dark ritual magics.",
+ "sections": [
+  {
+   "title": "A Trapped Spirit",
+   "body": "When Zalazane seized control of the Echo Isles and drove out the Darkspear tribe, Minshina was among those captured and slain. Rather than letting his victim pass into death, the traitorous witch doctor bound Minshina's soul to his own severed skull. Placed within a foul circle of power on the southernmost isle, the skull became a tether of magical enslavement. Master Gadrin, guided by tormented visions of his brother calling to him in dreams, seeks out brave travelers to venture into the occupied islands, reclaim the relic, and shatter Zalazane's hold over his brother's spirit.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Minshina?",
+   "aliases": [
+    "minshina lore",
+    "who is minshina",
+    "master gadrin brother"
+   ],
+   "answer": "Minshina was a Darkspear troll and the brother of Master Gadrin of Sen'jin Village. He was murdered during the turmoil surrounding Zalazane's betrayal on the Echo Isles."
+  },
+  {
+   "q": "Why is Minshina's soul trapped in his skull?",
+   "aliases": [
+    "why trap his soul",
+    "zalazane skull ritual",
+    "soul trapped in skull"
+   ],
+   "answer": "Zalazane used dark magics to bind Minshina's spirit directly inside his severed head. Arranged within a ritual circle of power on the main isle, the imprisoned soul remained bound to Zalazane's will rather than moving on to the ancestors."
+  },
+  {
+   "q": "Where is the skull located?",
+   "aliases": [
+    "where is minshinas skull",
+    "circle of power location",
+    "skull location echo isles"
+   ],
+   "answer": "The skull is found on the largest, southernmost isle of the Echo Isles. It rests atop a hill within a circle of power adorned with candles, ritual markers, and other skulls guarded by Zalazane's thralls."
+  },
+  {
+   "q": "What happens when the skull is brought to Master Gadrin?",
+   "aliases": [
+    "freeing minshina",
+    "gadrin skull reward",
+    "what happens to minshina"
+   ],
+   "answer": "Returning the skull to Master Gadrin in Sen'jin Village breaks the dark enchantment. With the foul tether severed, Minshina's spectral form briefly manifests, bows in gratitude, and peacefully departs to the realm of the ancestors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For the Darkspear, Zalazane's desecration of Minshina is a grievous affront to ancestral tradition, making the retrieval of his skull a vital matter of tribal honor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Recovering the skull strikes an early blow against Zalazane's twisted grip over the Echo Isles just off the coast of Durotar."
+  }
+ ],
+ "keywords": [
+  "circle of power",
+  "darkspear",
+  "echo isles",
+  "gadrin",
+  "minshina",
+  "sen'jin village",
+  "skull",
+  "zalazane"
+ ],
+ "related": [
+  "quest:808",
+  "npc:master-gadrin",
+  "subzone:echo-isles",
+  "quest:826",
+  "subzone:sen-jin-village",
+  "zone:durotar",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Minshina's Skull",
+  "Minshina's Skull (quest)"
+ ]
+}

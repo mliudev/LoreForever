@@ -1,0 +1,91 @@
+{
+ "key": "item:nugget-slug",
+ "type": "item",
+ "name": "Nugget Slug",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Nugget Slug",
+  "quests": [
+   "quest:3922"
+  ]
+ },
+ "summary": "Nugget slugs are specialized 17.5-gauge mechanical fasteners used in industrial engineering. Stockpiled in tool buckets by the Venture Company at the Sludge Fen, they are coveted by tinkerers attempting to repair volatile machinery.",
+ "sections": [
+  {
+   "title": "Industrial Fasteners of the Sludge Fen",
+   "body": "Nugget slugs are heavy-duty metallic fasteners manufactured for demanding industrial assemblies. Specifically sized at 17.5 gauge, these components are an essential part of the heavy equipment deployed across Venture Company extraction sites. While useless as ordinary trade goods, they are indispensable to tinkerers dealing with customized goblin hardware.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tinkering with the Samophlange",
+   "body": "Wenikee Boltbucket requires a substantial collection of nugget slugs to overhaul an unstable samophlange recovered from the Barrens. Because the Venture Company routinely leaves tool buckets scattered across their drilling operations at the Sludge Fen, salvage operations prove lucrative for scavengers\u2014even if Wenikee's eventual repairs result in sudden, explosive failure.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a nugget slug?",
+   "aliases": [
+    "what are nugget slugs",
+    "nugget slug lore",
+    "slug fastener"
+   ],
+   "answer": "A nugget slug is a specialized 17.5-gauge metallic fastener or slug used in heavy-duty machinery. They serve as structural hardware inside complex industrial mechanisms, such as oil drills and samophlanges."
+  },
+  {
+   "q": "Where are nugget slugs found?",
+   "aliases": [
+    "where do i find nugget slugs",
+    "nugget slug location",
+    "sludge fen tool buckets"
+   ],
+   "answer": "They are stored in tool buckets scattered around the Sludge Fen, a Venture Company drilling camp located in the northeastern Barrens."
+  },
+  {
+   "q": "Why does Wenikee Boltbucket need them?",
+   "aliases": [
+    "who needs nugget slugs",
+    "why wenikee wants slugs",
+    "samophlange repair"
+   ],
+   "answer": "Wenikee Boltbucket wants to tinker with and repair a recovered samophlange. Having run out of seventeen-point-five gauge fasteners herself, she sends adventurers to salvage them from the nearby Venture Company camp."
+  },
+  {
+   "q": "Does using the nugget slugs fix the samophlange?",
+   "aliases": [
+    "does the machine work",
+    "samophlange explosion",
+    "wenikee repair result"
+   ],
+   "answer": "Not successfully. Once Wenikee fits the machine with the salvaged slugs and begins her maintenance work, the samophlange abruptly detonates in front of her."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Every engineer knows that mixing proprietary seventeen-point-five gauge hardware with an unstable goblin-engineered samophlange is an invitation for a rapid, explosive dismantling."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "nugget slug",
+  "samophlange",
+  "sludge fen",
+  "tool bucket",
+  "venture company",
+  "wenikee boltbucket"
+ ],
+ "related": [
+  "quest:3922",
+  "quest:3921",
+  "quest:894",
+  "subzone:sludge-fen",
+  "topic:venture-company",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Nugget Slug",
+  "Nugget Slugs (Classic)"
+ ]
+}

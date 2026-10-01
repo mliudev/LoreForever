@@ -1,0 +1,76 @@
+{
+ "key": "npc:hana-zua",
+ "type": "npc",
+ "name": "Hana'zua",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Hana'zua",
+  "refs": 2
+ },
+ "summary": "Hana'zua is a Darkspear troll scout stationed in the Valley of Trials who fell victim to the poisonous beasts prowling the canyon ridges. Stricken and wounded by the monstrous scorpid Sarkoth, he lies awaiting assistance from young Horde initiates seeking to prove their valor.",
+ "sections": [
+  {
+   "title": "A Scout Fallen to Venom",
+   "body": "While traversing the arid heights overlooking the Valley of Trials, Hana'zua encountered Sarkoth, an exceptionally vicious and venomous scorpid that stalks the cliffs. Overwhelmed and stung by the beast, the troll barely survived the confrontation. Unable to move or return to camp on his own, he languishes amid the dust, counting on passing recruits to finish the creature and deliver word of his plight back to the Den.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hana'zua?",
+   "aliases": [
+    "hanazua",
+    "who is hanazua",
+    "injured troll valley of trials"
+   ],
+   "answer": "Hana'zua is a Darkspear troll found injured in the Valley of Trials in Durotar. He was ambushed and poisoned while tracking beasts on the ridges."
+  },
+  {
+   "q": "What happened to Hana'zua?",
+   "aliases": [
+    "why is hanazua hurt",
+    "who poisoned hanazua",
+    "hanazua injury"
+   ],
+   "answer": "He was struck down by Sarkoth, a large and deadly scorpid lurking on the crags above the training grounds. Its potent venom left him incapacitated and unable to return to safety."
+  },
+  {
+   "q": "What does he ask travelers to do?",
+   "aliases": [
+    "hanazua quest",
+    "what does hanazua want"
+   ],
+   "answer": "Hana'zua asks able adventurers to avenge his wounding by slaying Sarkoth, collecting the beast's claw as proof, and carrying word of his condition back to the instructors at the Den."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear initiates just beginning their journey in Durotar, discovering a wounded kinsman underscores the lethal nature of the local wildlife and the need to protect their newfound allies."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Hana'zua's survival and vengeance serve as one of the earliest tests of loyalty and combat readiness for aspiring champions of the Horde."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "durotar",
+  "hana'zua",
+  "hanazua",
+  "sarkoth",
+  "scorpid",
+  "valley of trials"
+ ],
+ "related": [
+  "quest:804",
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "topic:troll",
+  "quest:1089"
+ ],
+ "attribution": [
+  "Hana'zua"
+ ]
+}

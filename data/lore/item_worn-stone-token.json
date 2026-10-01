@@ -1,0 +1,95 @@
+{
+ "key": "item:worn-stone-token",
+ "type": "item",
+ "name": "Worn Stone Token",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Worn Stone Token",
+  "quests": [
+   "quest:556"
+  ]
+ },
+ "summary": "Worn Stone Tokens are small magical talismans carried by personnel and mages associated with Dalaran in the Alterac Mountains. Though their ambient magic has largely faded, they were crafted to help the Kirin Tor bind and command elemental servants.",
+ "sections": [
+  {
+   "title": "Tokens of Elemental Mastery",
+   "body": "The magi of Dalaran have long possessed a formidable command over elemental entities, using specialized talismans to bend these extradimensional beings to their will. Worn Stone Tokens represent depleted or exhausted versions of these implements. Carried not only by theurgists and summoners but even by Dalaran laborers and guards stationed around the ruins and internment camps of Alterac, they demonstrate how deeply elemental binding is integrated into Dalaran's everyday operations.",
+   "spoiler": 0
+  },
+  {
+   "title": "Forsaken Curiosity",
+   "body": "From their outpost in Tarren Mill, the Forsaken keep a watchful eye on the nearby wizards. Magus Voidglare sought specimens of these tokens to decipher Dalaran's methods of elemental enslavement. Keeper Bel'varil directs agents to collect worn, inert tokens first, allowing the Magus to safely analyze the foundational enchanting techniques before experimenting with more potent, volatile conduits.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What were these tokens used for?",
+   "aliases": [
+    "worn stone token purpose",
+    "what are stone tokens",
+    "why do dalaran carry tokens"
+   ],
+   "answer": "Dalaran's wizards use these magical stone tokens to command and bind elementals summoned from other realms to serve as laborers, guards, and defenders."
+  },
+  {
+   "q": "Why are the tokens described as worn?",
+   "aliases": [
+    "why worn",
+    "are tokens magical",
+    "inert tokens"
+   ],
+   "answer": "Their active enchantments have faded over time and heavy use. Keeper Bel'varil considers these inert specimens safer for Magus Voidglare's initial research into Dalaran's binding rituals."
+  },
+  {
+   "q": "Who carries these tokens?",
+   "aliases": [
+    "who drops worn stone tokens",
+    "where to get tokens",
+    "dalaran token drops"
+   ],
+   "answer": "They are found on various Dalaran personnel operating in the southern Alterac Mountains, ranging from high-ranking summoners and theurgists to ordinary laborers, shield guards, and Warden Belamoore at the internment camp."
+  },
+  {
+   "q": "Why does the Forsaken want them?",
+   "aliases": [
+    "why does belvaril want tokens",
+    "magus voidglare tokens"
+   ],
+   "answer": "Magus Voidglare wishes to study Dalaran's arcane techniques for controlling elementals, seeking to unravel the secrets behind their summoning and subjugation arts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Mages recognize these tokens as the practical focus items the Kirin Tor uses to keep conjured elementals stable and obedient in the field."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing these tokens aids the Forsaken at Tarren Mill in studying the arcane defenses and practices of the hostile Kirin Tor presence in Alterac."
+  }
+ ],
+ "keywords": [
+  "alterac mountains",
+  "dalaran",
+  "elementals",
+  "keeper bel'varil",
+  "magus voidglare",
+  "stone tokens",
+  "tarren mill",
+  "worn stone token"
+ ],
+ "related": [
+  "quest:556",
+  "npc:keeper-bel-varil",
+  "subzone:dalaran",
+  "zone:alterac",
+  "subzone:tarren-mill",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Worn Stone Token",
+  "Stone Tokens"
+ ]
+}

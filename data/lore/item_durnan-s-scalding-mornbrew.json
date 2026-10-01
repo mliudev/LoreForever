@@ -1,0 +1,81 @@
+{
+ "key": "item:durnan-s-scalding-mornbrew",
+ "type": "item",
+ "name": "Durnan's Scalding Mornbrew",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Durnan's Scalding Mornbrew",
+  "quests": [
+   "quest:3364"
+  ]
+ },
+ "summary": "Durnan's Scalding Mornbrew is a freshly poured, piping-hot dwarven beverage intended for Durnan Furcutter in Coldridge Valley. Because the drink quickly loses its heat in the frigid mountain air, it must be rushed directly to Anvilmar before it goes cold.",
+ "sections": [
+  {
+   "title": "A Race Against the Cold",
+   "body": "In the biting chill of Coldridge Valley, few comforts rival a mug of fresh mornbrew served piping hot. When a courier gets delayed delivering a round to Grelin Whitebeard, the fresh cup meant for Durnan Furcutter inside Anvilmar risks freezing over. Durnan specifically expects his brew scalding, leaving only a short window of a few minutes to carry the steaming mug up the snowy path into the mountain hall before it cools completely.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the brew intended for?",
+   "aliases": [
+    "who gets mornbrew",
+    "durnan mornbrew receiver",
+    "where does brew go"
+   ],
+   "answer": "The brew is meant for Durnan Furcutter, a dwarf stationed inside the settlement of Anvilmar in Coldridge Valley."
+  },
+  {
+   "q": "Why does the delivery need to happen so quickly?",
+   "aliases": [
+    "why time limit",
+    "brew getting cold",
+    "why rush mornbrew"
+   ],
+   "answer": "The icy air of Dun Morogh quickly leeches heat from open mugs. Durnan specifically ordered scalding mornbrew, and an unheated or lukewarm cup simply will not satisfy him."
+  },
+  {
+   "q": "Where does the delivery originate?",
+   "aliases": [
+    "where is mornbrew from",
+    "who pours the brew"
+   ],
+   "answer": "The drink is handed off near Grelin Whitebeard's camp outside Anvilmar after the courier realizes they cannot reach the forge hall in time on their own."
+  },
+  {
+   "q": "What happens once Durnan receives the mug?",
+   "aliases": [
+    "durnan reaction",
+    "turn in mornbrew"
+   ],
+   "answer": "Durnan takes an immediate break from his duties inside Anvilmar to savor the steaming drink while it still retains its heat."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "To a dwarf of Dun Morogh, few offenses are greater than letting good ale or mornbrew turn cold in the mountain frost."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "durnan furcutter",
+  "mornbrew",
+  "scalding"
+ ],
+ "related": [
+  "npc:durnan-furcutter",
+  "quest:3364",
+  "subzone:anvilmar",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Durnan's Scalding Mornbrew",
+  "Scalding Mornbrew Delivery"
+ ]
+}

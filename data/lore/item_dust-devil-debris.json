@@ -1,0 +1,82 @@
+{
+ "key": "item:dust-devil-debris",
+ "type": "item",
+ "name": "Dust Devil Debris",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Dust Devil Debris",
+  "quests": [
+   "quest:1076"
+  ]
+ },
+ "summary": "Dust Devil Debris consists of the swirling grit and elemental remnants left behind by the aggressive air spirits wandering Westfall. Mages value these charged particles as magical reagents, using their airy essence to enchant parchment and bind messaging spells into scrolls.",
+ "sections": [
+  {
+   "title": "Air Spun into Parchment",
+   "body": "The dry plains of Westfall have become increasingly agitated, plagued by violent whirlwinds known as Dust Devils. When struck down, these living storms collapse into a heap of charged dust and grit known as Dust Devil Debris. Rather than being mere dirt, the residue retains a faint trace of the elemental vortex that gave it life. Arcane practitioners like Collin Mauren in Stormwind prize such material for specialized sorcery. By infusing the grit into enchanted ink and parchment, a wizard can bind an airy messaging spell onto a scroll, enabling distant communication across the kingdom.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Dust Devil Debris used for?",
+   "aliases": [
+    "dust devil debris use",
+    "why get dust devil debris",
+    "debris purpose"
+   ],
+   "answer": "Collin Mauren, a wizard residing in the Mage Quarter of Stormwind, requires this elemental debris to craft a specialized messaging scroll. The lingering elemental energy within the dust allows him to impress delicate communication magic onto paper."
+  },
+  {
+   "q": "Where does this debris come from?",
+   "aliases": [
+    "where to find debris",
+    "dust devil drops",
+    "westfall debris"
+   ],
+   "answer": "It is recovered from the remains of Dust Devils, hostile air elementals that roam the barren farmlands and roads of Westfall."
+  },
+  {
+   "q": "Why are Dust Devils in Westfall at all?",
+   "aliases": [
+    "why elementals in westfall",
+    "westfall dust devils origin"
+   ],
+   "answer": "With Westfall suffering years of drought, neglect, and political chaos, the land itself has grown unstable. Restless air spirits take form as violent whirlwinds across the abandoned fields, menacing travelers and local farmers alike."
+  },
+  {
+   "q": "Who is Collin Mauren?",
+   "aliases": [
+    "collin mauren",
+    "who wants debris"
+   ],
+   "answer": "Collin Mauren is a human mage operating out of the Mage Quarter in Stormwind. He lends his arcane expertise to craft enchanted scrolls and magical components for fellow practitioners and curious researchers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Dust Devil Debris demonstrates how elemental remnants can be channeled into practical scribing and communication spells, bridging raw elemental chaos with refined arcane discipline."
+  }
+ ],
+ "keywords": [
+  "collin mauren",
+  "dust devil debris",
+  "dust devils",
+  "messaging spell",
+  "scroll",
+  "stormwind",
+  "westfall"
+ ],
+ "related": [
+  "quest:1076",
+  "zone:westfall",
+  "npc:collin-mauren",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Dust Devil Debris",
+  "Devils in Westfall"
+ ]
+}

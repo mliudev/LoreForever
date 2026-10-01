@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Old Port Authority"
  },
- "summary": "The Old Port Authority is a bustling, multi-vendor warehouse nestled along the boardwalks of Booty Bay. While goblin construction crews constantly patch its weathered roof, travelers inside browse everything from exotic pets and firearms to hearty rations and first aid supplies.",
+ "summary": "The Old Port Authority is a bustling, multi-vendor warehouse nestled along the boardwalks of Booty Bay. While goblin construction crews constantly patch its weathered roof, travelers inside browse everything from exotic pets and firearms to hearty rations and finely crafted weapons.",
  "sections": [
   {
    "title": "Commerce Beneath a Leaky Roof",
-   "body": "Perched inside the pirate haven of Booty Bay, the Old Port Authority serves as an indoor marketplace divided into distinct stalls. While goblin builders hammer away at the rooftop overhead, the interior buzzes with brisk commerce. Merchants hawk general adventuring supplies, firearms, food, and bandaging services to scoundrels and privateers alike. It also houses exotic imports, offering colorful birds and nautical oddities straight off the docks to anyone with coin.",
+   "body": "Perched inside the pirate haven of Booty Bay, the Old Port Authority serves as an indoor marketplace divided into distinct stalls. While goblin builders hammer away at the rooftop overhead, the interior buzzes with brisk commerce. Merchants hawk general adventuring supplies, firearms, bows, food, and weapons to scoundrels and privateers alike. It also houses exotic imports, offering colorful birds and nautical oddities straight off the docks to anyone with coin.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "booty bay warehouse",
     "port authority booty bay"
    ],
-   "answer": "It is a prominent commercial warehouse in Booty Bay partitioned into several market stalls. Adventurers and buccaneers visit it to purchase food, ammunition, first aid goods, and trade sundries beneath a roof under near-constant goblin repair."
+   "answer": "It is a prominent commercial warehouse in Booty Bay partitioned into several market stalls. Adventurers and buccaneers visit it to purchase food, ammunition, weapons, and trade sundries beneath a roof under near-constant goblin repair."
   },
   {
    "q": "Why are goblins working on the roof?",

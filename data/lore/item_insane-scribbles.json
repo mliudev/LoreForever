@@ -1,0 +1,90 @@
+{
+ "key": "item:insane-scribbles",
+ "type": "item",
+ "name": "Insane Scribbles",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Insane Scribbles",
+  "quests": [
+   "quest:950"
+  ]
+ },
+ "summary": "Torn from the baffling Twilight Tome, these Insane Scribbles are a fragment of dark literature carried by cultists in Darkshore. Merely looking at the dancing text and distorted scrollwork induces severe dizziness and mental strain. Ancient protectors of the forest study such fragments to decipher the sinister motives of the Twilight's Hammer.",
+ "sections": [
+  {
+   "title": "A Maddening Manuscript",
+   "body": "Gazing upon the pages of the Twilight Tome proves profoundly hazardous to mortal sanity. The script writhes across the parchment, while graceful scrollwork warps into grotesque, unsettling imagery before the reader's eyes. Tearing loose even a single sheet\u2014these Insane Scribbles\u2014is an ordeal that leaves the bearer lightheaded and disoriented. Despite the chaotic incoherence of the script, the parchment hums with a primal, deeply ancient magic tied directly to dark powers long buried beneath Azeroth.",
+   "spoiler": 0
+  },
+  {
+   "title": "Clues for the Ancients",
+   "body": "Brought to Onu, the venerable ancient presiding over the Grove of the Ancients, the scribbles offer a glimpse into the encroachments blighting Darkshore. Onu recognizes the chaotic energy clinging to the parchment as the unmistakable handiwork of the Old Gods. For the defenders of Kalimdor, piecing together the scribbles is a crucial step toward uncovering precisely why the Twilight's Hammer has gathered along the mist-shrouded shores.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happens if you try to read these scribbles?",
+   "aliases": [
+    "reading insane scribbles",
+    "what does the text say",
+    "can you read the scribbles"
+   ],
+   "answer": "The text defies easy translation. Merely looking at the parchment causes the letters to swim and the surrounding designs to morph into horrifying shapes, inducing sudden dizziness and mental exhaustion in anyone attempting to decipher them."
+  },
+  {
+   "q": "Where were these scribbles torn from?",
+   "aliases": [
+    "where do scribbles come from",
+    "twilight tome origin"
+   ],
+   "answer": "They were ripped from the Twilight Tome, a foul grimoire kept by the Twilight's Hammer cultists operating in Darkshore."
+  },
+  {
+   "q": "Who can understand or study the scribbles?",
+   "aliases": [
+    "who wants the scribbles",
+    "onu scribbles"
+   ],
+   "answer": "The Ancient of Lore, Onu, examines the recovered parchment. Drawing upon centuries of knowledge, Onu senses the ancient, primal magic binding the ink and seeks to determine the cult's purpose in the region."
+  },
+  {
+   "q": "What kind of power radiates from the parchment?",
+   "aliases": [
+    "what magic is in the scribbles",
+    "magic type"
+   ],
+   "answer": "The parchment pulses with chaotic, primal magic tied to the Old Gods, reflecting the dark deities worshipped by the Twilight's Hammer."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "Priests sensitive to mental assaults and void-touched energies will recognize the twisting script as a perilous manifestation of madness directly opposing the clarity of the Light."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves, relics of the Twilight's Hammer represent a corrupting threat to the ancient peace and sacred lands of Darkshore."
+  }
+ ],
+ "keywords": [
+  "darkshore",
+  "insane scribbles",
+  "madness",
+  "old gods",
+  "onu",
+  "twilight tome",
+  "twilight's hammer"
+ ],
+ "related": [
+  "quest:950",
+  "zone:darkshore",
+  "topic:twilight-s-hammer",
+  "topic:light"
+ ],
+ "attribution": [
+  "Insane Scribbles",
+  "Return to Onu"
+ ]
+}

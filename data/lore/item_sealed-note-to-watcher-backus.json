@@ -1,0 +1,93 @@
+{
+ "key": "item:sealed-note-to-watcher-backus",
+ "type": "item",
+ "name": "Sealed Note to Watcher Backus",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Sealed Note to Watcher Backus",
+  "quests": [
+   "quest:1243"
+  ]
+ },
+ "summary": "The Sealed Note to Watcher Backus is a confidential dispatch written by master cheese merchant and informant Elling Trias. Addressed to a member of the Night Watch patrolling the road outside Darkshire, it calls in a personal favor to gather intelligence on Defias activity in Duskwood.",
+ "sections": [
+  {
+   "title": "A Word for the Watch",
+   "body": "When the initial leads on the missing diplomat stall in Stormwind, cheese monger Elling Trias decides to bypass his stubborn informant Jorgen and utilize his own private network instead. He pens this wax-sealed missive to Watcher Backus, a Night Watch guard stationed in Duskwood. Trias sends an adventurer south through the gloomy forest to deliver it by hand, using his longstanding rapport with Backus to secure any reports of Defias presence wandering near Darkshire.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trias's Far-Reaching Eyes",
+   "body": "While ostensibly just a merchant selling fine cheeses in the Trade District, Trias's correspondence with a town guard in Duskwood reveals the sheer breadth of his intelligence network. The Night Watch of Darkshire is notoriously insular and mistrusting of outsiders, surviving under constant threat from undead and savage beasts. Yet Backus's warm reception to Trias's note proves that the seemingly humble shopkeeper commands genuine loyalty and respect far beyond the walls of Stormwind.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote this note?",
+   "aliases": [
+    "who wrote sealed note to watcher backus",
+    "author of note",
+    "who gives note"
+   ],
+   "answer": "The note was penned by Elling Trias, the proprietor of Trias' Cheese in Stormwind City's Trade District, who secretly operates as a skilled spy and information broker."
+  },
+  {
+   "q": "Why is it being sent to Watcher Backus?",
+   "aliases": [
+    "who is watcher backus",
+    "why send to backus",
+    "what is backus role"
+   ],
+   "answer": "Watcher Backus is a member of Darkshire's Night Watch and a trusted contact of Elling Trias. Trias needs him to share any local sightings or rumors concerning Defias Brotherhood activity around Duskwood."
+  },
+  {
+   "q": "Where can Watcher Backus be found?",
+   "aliases": [
+    "where is backus",
+    "watcher backus location",
+    "find watcher backus"
+   ],
+   "answer": "Watcher Backus patrols the road leading north just outside of Darkshire in Duskwood, keeping watch over the forested approaches to the town."
+  },
+  {
+   "q": "What happens after the note is delivered?",
+   "aliases": [
+    "what does backus say",
+    "after delivering note"
+   ],
+   "answer": "Recognizing Trias's name and confidence, Backus drops his usual caution toward wandering adventurers and agrees to aid the investigation into suspicious activity in the surrounding woods."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The missive illustrates how informal spycraft and personal connections hold the Alliance's frayed territories together when official channels fail."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Trias using an ordinary guard as a localized informant is a textbook demonstration of gathering quiet intelligence far outside city walls."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "duskwood",
+  "elling trias",
+  "night watch",
+  "sealed note",
+  "the missing diplomat",
+  "watcher backus"
+ ],
+ "related": [
+  "npc:watcher-backus",
+  "quest:1241",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "npc:jorgen"
+ ],
+ "attribution": [
+  "Sealed Note to Watcher Backus",
+  "The Missing Diplomat (4)"
+ ]
+}

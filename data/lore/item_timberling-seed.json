@@ -1,0 +1,99 @@
+{
+ "key": "item:timberling-seed",
+ "type": "item",
+ "name": "Timberling Seed",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Timberling Seed",
+  "quests": [
+   "quest:918",
+   "quest:922"
+  ]
+ },
+ "summary": "Timberling Seeds are botanical kernels harvested from the agitated plant elementals inhabiting Teldrassil. Naturalists and druids study these seeds to understand why the forest's plant life has grown unusually aggressive.",
+ "sections": [
+  {
+   "title": "Seeds of a Restless Forest",
+   "body": "The timberlings of Teldrassil are nature elementals whose temperament reflects the balance of the World Tree. Recently, these creatures have turned hostile and angry, troubling the night elves who tend the boughs. Herbalists like Denalan at Lake Al'Ameth believe the issue lies rooted in the soil, collecting seeds from wild timberlings in hopes that nurturing them under controlled, purified conditions might sprout docile offspring.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Rooted Corruption",
+   "body": "Efforts to cultivate gentle timberlings face grim reality. When specimen seeds are examined by Cenarion scholars such as Rellian Greenspyre in Darnassus, deeper problems emerge. The seeds carry the taint of their corrupted parent stock, suggesting that the unrest among Teldrassil's plant spirits is not merely poor growth, but an underlying corruption taking hold across the great tree's ecosystem.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a timberling seed?",
+   "aliases": [
+    "timberling seeds",
+    "what are timberling seeds",
+    "seeds of timberling"
+   ],
+   "answer": "A timberling seed is the reproductive kernel of a timberling, a plant-like nature elemental found across Teldrassil. Naturalists collect them to study timberling growth and ecology."
+  },
+  {
+   "q": "Where are these seeds gathered?",
+   "aliases": [
+    "where to get seeds",
+    "timberling seed drop",
+    "who drops timberling seed"
+   ],
+   "answer": "They are collected from wild timberlings and bog beasts wandering the shores and shallows of Lake Al'Ameth in Teldrassil."
+  },
+  {
+   "q": "Why does Denalan want timberling seeds?",
+   "aliases": [
+    "denalan purpose",
+    "why collect seeds",
+    "denalan's plan"
+   ],
+   "answer": "Denalan suspects improper soil is driving the timberlings to rage. He hopes to plant wild seeds in specially prepared soil to see if he can sprout docile, uncorrupted timberlings."
+  },
+  {
+   "q": "What does Rellian Greenspyre discover about the seeds?",
+   "aliases": [
+    "rellian seed study",
+    "what did rellian find",
+    "are seeds tainted"
+   ],
+   "answer": "Rellian discovers that a corruption has taken root within the timberlings, and the seeds carry their parents' taint. He finds them beyond his ability to mend, leaving hope with Denalan's horticultural experiments."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The tainted seeds offer early warning signs of unnatural corruption spreading through Teldrassil's plant elementals, a critical concern for protectors of the Cenarion Enclave."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "For botanists and herbal gatherers, studying the seeds highlights how heavily soil condition and ambient corruption influence wild flora."
+  }
+ ],
+ "keywords": [
+  "corruption",
+  "darnassus",
+  "denalan",
+  "lake al'ameth",
+  "rellian greenspyre",
+  "teldrassil",
+  "timberling",
+  "timberling seed"
+ ],
+ "related": [
+  "npc:denalan",
+  "quest:918",
+  "quest:922",
+  "subzone:lake-al-ameth",
+  "zone:darnassus",
+  "zone:teldrassil",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Timberling Seed",
+  "Timberling Seeds (Classic)",
+  "Rellian Greenspyre (Classic)"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "item:hallowed-letter",
+ "type": "item",
+ "name": "Hallowed Letter",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Hallowed Letter",
+  "quests": [
+   "quest:3103"
+  ]
+ },
+ "summary": "The Hallowed Letter is a formal summons bearing the insignia of Priestess Anetta, delivered to promising young priests in Northshire Valley. It calls the bearer to Northshire Abbey to begin formal study and training in the Holy Light.",
+ "sections": [
+  {
+   "title": "A Call to Faith",
+   "body": "Sealed with the personal mark of Priestess Anetta, the Hallowed Letter is presented to fledgling priests after their first trials against the kobolds invading Northshire's vineyards. Anetta recognizes the inner spark of the Holy Light within the novice and urges them not to linger, but to step inside the abbey walls to formally dedicate themselves. With dark forces still lingering across Azeroth in the wake of the Third War, the priesthood actively gathers those capable of healing, protecting, and offering spiritual guidance to an empire struggling to maintain order.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Hallowed Letter?",
+   "aliases": [
+    "what is hallowed letter",
+    "hallowed letter item",
+    "priest letter northshire"
+   ],
+   "answer": "It is an introductory missive sealed by Priestess Anetta, given to newly arrived priests in Northshire Abbey to summon them for their initial class instruction."
+  },
+  {
+   "q": "Who wrote the letter?",
+   "aliases": [
+    "who sent the letter",
+    "who is the author",
+    "letter sender"
+   ],
+   "answer": "The letter bears the insignia of Priestess Anetta, the resident trainer and spiritual guide who mentors young human priests arriving at Northshire."
+  },
+  {
+   "q": "Why is the priesthood calling for new initiates right now?",
+   "aliases": [
+    "why do priests need help",
+    "state of the world",
+    "priest lore 25 adp"
+   ],
+   "answer": "As Priestess Anetta notes, the world remains in turmoil. Remnants of the Burning Legion still haunt Azeroth, Kalimdor faces new trials, and the kingdom of Stormwind requires compassionate healers and leaders to rebuild and protect its people."
+  },
+  {
+   "q": "What should I do after reading the letter?",
+   "aliases": [
+    "where do i take the letter",
+    "hallowed letter quest turn in",
+    "who to talk to"
+   ],
+   "answer": "Take the letter inside Northshire Abbey and speak with Priestess Anetta. She will accept your pledge to the Light and offer training in new priestly disciplines as your journey unfolds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This missive marks your formal recognition as an instrument of the Holy Light, establishing your bond with the trainers of Northshire Abbey."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human priests have practiced in the Northshire Valley since before the First War; receiving this letter continues that ancestral tradition of holy duty."
+  }
+ ],
+ "keywords": [
+  "anetta",
+  "elwynn forest",
+  "hallowed letter",
+  "holy light",
+  "northshire abbey",
+  "priest",
+  "priestess anetta"
+ ],
+ "related": [
+  "quest:3103",
+  "npc:priestess-anetta",
+  "subzone:northshire-abbey",
+  "topic:priest",
+  "topic:light",
+  "zone:elwynn",
+  "topic:burning-legion",
+  "topic:kobold"
+ ],
+ "attribution": [
+  "Hallowed Letter",
+  "Hallowed Letter (quest)"
+ ]
+}

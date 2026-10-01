@@ -158,6 +158,37 @@
     <div id="vo-list"></div>
   </div>
 
+  <h2>Translations</h2>
+  <div class="ad-panel">
+    <div class="ad-filters" role="group" aria-label="Filter translations">
+      <button type="button" data-tstatus="new" aria-pressed="true">Open</button>
+      <button type="button" data-tstatus="done" aria-pressed="false">Done</button>
+      <button type="button" data-tstatus="all" aria-pressed="false">All</button>
+      <select id="tkind" aria-label="Kind">
+        <option value="">Submissions and reports</option>
+        <option value="translation">Submissions</option>
+        <option value="translation-report">Bad-translation reports</option>
+      </select>
+      <span class="ad-count" id="tr-count"></span>
+    </div>
+    <div id="tr-list"></div>
+  </div>
+
+  <!-- Edits from /translate/dashboard (functions/api/translations/[action].js). No approval step: every saved edit goes
+       into data/i18n with `uv run python -m lore.kit pull <locale>` unless it is rejected here (spam, vandalism, a
+       native speaker's report on Discord). "Restore" undoes a reject. -->
+  <h2>Translation edits</h2>
+  <div class="ad-panel">
+    <div class="ad-filters" role="group" aria-label="Filter translation edits">
+      <button type="button" data-estatus="new" aria-pressed="true">Saved</button>
+      <button type="button" data-estatus="pulled" aria-pressed="false">Pulled</button>
+      <button type="button" data-estatus="rejected" aria-pressed="false">Rejected</button>
+      <select id="elocale" aria-label="Language"><option value="">Every language</option></select>
+      <span class="ad-count" id="ed-count"></span>
+    </div>
+    <div id="ed-list"></div>
+  </div>
+
   <h2>Emails</h2>
   <div class="ad-panel">
     <div class="ad-filters">
@@ -178,6 +209,7 @@ const $ = id => document.getElementById(id);
 let data = null;
 let fbStatus = "new";
 let voStatus = "new";
+let trStatus = "new";
 
 // The key lives in sessionStorage, or localStorage when "Remember" is ticked. Best effort: storage can be blocked.
 function store(remember) { try { return remember ? localStorage : sessionStorage; } catch (e) { return null; } }
@@ -219,6 +251,7 @@ async function load() {
     $("login").hidden = true;
     $("dash").hidden = false;
     render();
+    loadEdits();
     $("updated").textContent = "Updated " + new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
   } catch (e) {
     if (e.message !== "unauthorized") alert("Couldn't load the dashboard: " + e.message);
@@ -277,6 +310,7 @@ function render() {
 
   renderFeedback();
   renderVoices();
+  renderTranslations();
   renderEmails();
 }
 
@@ -399,6 +433,114 @@ function renderVoices() {
   }));
 }
 
+// Translation submissions and bad-translation reports in one list, newest first. `kind` is the admin action suffix.
+function renderTranslations() {
+  const kind = $("tkind").value;
+  const rows = [
+    ...(data.translations || []).map(t => ({ ...t, kind: "translation" })),
+    ...(data.translationReports || []).map(t => ({ ...t, kind: "translation-report" })),
+  ].filter(t => (!kind || t.kind === kind) &&
+    (trStatus === "all" || (trStatus === "done" ? t.status === "done" : t.status !== "done")))
+   .sort((a, b) => (b.created || "").localeCompare(a.created || ""));
+  $("tr-count").textContent = rows.length + (rows.length === 1 ? " item" : " items");
+  const box = $("tr-list");
+  if (!rows.length) { box.replaceChildren(el("p", { class: "ad-empty", text: "Nothing here." })); return; }
+  box.replaceChildren(...rows.map(t => {
+    const done = t.status === "done";
+    const report = t.kind === "translation-report";
+    const source = report ? "translationReports" : "translations";
+    const toggle = el("button", { type: "button", class: "ad-link", text: done ? "Reopen" : "Mark done" });
+    toggle.addEventListener("click", () => act({ action: "status-" + t.kind, id: t.id, status: done ? "new" : "done" },
+      () => data[source].find(x => x.id === t.id).status = done ? "new" : "done"));
+    const del = el("button", { type: "button", class: "ad-link ad-danger", text: "Delete" });
+    del.addEventListener("click", () => {
+      if (confirm("Delete " + (report ? "report" : "translation submission") + " #" + t.id + " for good?")) {
+        act({ action: "delete-" + t.kind, id: t.id }, () => data[source] = data[source].filter(x => x.id !== t.id));
+      }
+    });
+    const head = el("div", { class: "ad-report-head" },
+      el("span", { class: "ad-kind", text: (report ? "Bad translation · " : "Translation · ") + (t.language || t.locale) }),
+      report ? null : el("span", { text: "Credit: " + t.credit }),
+      el("span", { text: "#" + t.id + " · " + fmtDate(t.created) + (t.country ? " · " + t.country : "") }));
+    const body = report ? [
+      t.code || t.place ? el("p", { class: "ad-msg" }, el("strong", { text: "Where: " }), t.code ? el("code", { text: t.code }) : null, t.code && t.place ? " · " : "", t.place || "") : null,
+      el("p", { class: "ad-msg" }, el("strong", { text: "Wrong: " }), t.wrong),
+      t.better ? el("p", { class: "ad-msg" }, el("strong", { text: "Better: " }), t.better) : null,
+    ] : [
+      t.link ? el("p", { class: "ad-msg" }, el("strong", { text: "Files: " }), safeLink(t.link)) : null,
+      t.fix ? el("p", { class: "ad-msg" }, el("strong", { text: "Fix: " }), t.fix) : null,
+      t.note ? el("p", { class: "ad-msg" }, el("strong", { text: "Note: " }), t.note) : null,
+    ];
+    return el("article", { class: "ad-report" + (done ? " done" : "") }, head, ...body,
+      el("div", { class: "ad-report-foot" },
+        t.email ? el("a", { href: "mailto:" + encodeURIComponent(t.email).replace("%40", "@"), text: t.email }) : null,
+        t.discord ? el("span", { text: "Discord: " + t.discord }) : null,
+        t.name ? el("span", { text: t.name }) : null,
+        report ? null : el("span", { text: "Agreed to CC BY-SA terms " + t.terms_version }),
+        el("span", { class: "ad-actions" }, toggle, del)));
+  }));
+}
+
+// ---- translation edits (their own endpoint, loaded separately so a big queue doesn't slow the dashboard) ----
+let edStatus = "new";
+let edits = [];
+async function edApi(method, action, body) {
+  const r = await fetch("/api/translations/" + action, {
+    method, cache: "no-store",
+    headers: { Authorization: "Bearer " + key(), ...(body ? { "Content-Type": "application/json" } : {}) },
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  const res = await r.json().catch(() => ({}));
+  if (!r.ok || !res.ok) throw new Error(res.error || "Request failed (" + r.status + ")");
+  return res;
+}
+async function loadEdits() {
+  const locale = $("elocale").value;
+  try {
+    edits = (await edApi("GET", "review?status=" + edStatus + (locale ? "&locale=" + locale : ""))).edits;
+  } catch (e) { edits = []; $("ed-list").replaceChildren(el("p", { class: "ad-empty", text: "Couldn't load edits: " + e.message })); return; }
+  const seen = new Set([...$("elocale").options].map(o => o.value));
+  for (const l of new Set(edits.map(e => e.locale))) if (!seen.has(l)) $("elocale").append(el("option", { value: l, text: l }));
+  renderEdits();
+}
+async function decide(ids, status) {
+  try { await edApi("POST", "decide", { ids, status }); } catch (e) { alert("That didn't work: " + e.message); return; }
+  edits = edits.filter(e => !ids.includes(e.id));
+  renderEdits();
+}
+function renderEdits() {
+  $("ed-count").textContent = edits.length + (edits.length === 1 ? " edit" : " edits") + (edits.length === 2000 ? " (first 2000)" : "");
+  const box = $("ed-list");
+  if (!edits.length) { box.replaceChildren(el("p", { class: "ad-empty", text: "Nothing here." })); return; }
+  box.replaceChildren(...edits.map(e => {
+    const actions = el("span", { class: "ad-actions" });
+    const button = (text, status, danger) => {
+      const b = el("button", { type: "button", class: "ad-link" + (danger ? " ad-danger" : ""), text });
+      b.addEventListener("click", () => decide([e.id], status));
+      actions.append(b);
+    };
+    if (e.status === "new" || e.status === "accepted") button("Reject", "rejected", true);
+    if (e.status === "rejected") button("Restore", "new");
+    return el("article", { class: "ad-report" },
+      el("div", { class: "ad-report-head" },
+        el("span", { class: "ad-kind", text: e.locale }),
+        el("code", { text: e.string_id }),
+        el("span", { text: "#" + e.id + " · " + fmtDate(e.updated) })),
+      el("p", { class: "ad-msg" }, el("strong", { text: "English: " }), e.en),
+      el("p", { class: "ad-msg", lang: e.locale.slice(0, 2) }, el("strong", { text: "New: " }), e.text),
+      el("div", { class: "ad-report-foot" },
+        el("span", { text: "By " + (e.display_name || "(no name)") }),
+        e.email ? el("a", { href: "mailto:" + encodeURIComponent(e.email).replace("%40", "@"), text: e.email }) : null,
+        actions));
+  }));
+}
+document.querySelectorAll("[data-estatus]").forEach(b => b.addEventListener("click", () => {
+  edStatus = b.dataset.estatus;
+  document.querySelectorAll("[data-estatus]").forEach(x => x.setAttribute("aria-pressed", x === b));
+  loadEdits();
+}));
+$("elocale").addEventListener("change", loadEdits);
+
 function visibleEmails() {
   const q = $("q").value.trim().toLowerCase();
   return data.subscribers.filter(s => !q || s.email.includes(q) || (s.source || "").includes(q));
@@ -448,6 +590,12 @@ document.querySelectorAll("[data-vstatus]").forEach(b => b.addEventListener("cli
   document.querySelectorAll("[data-vstatus]").forEach(x => x.setAttribute("aria-pressed", x === b));
   renderVoices();
 }));
+document.querySelectorAll("[data-tstatus]").forEach(b => b.addEventListener("click", () => {
+  trStatus = b.dataset.tstatus;
+  document.querySelectorAll("[data-tstatus]").forEach(x => x.setAttribute("aria-pressed", x === b));
+  renderTranslations();
+}));
+$("tkind").addEventListener("change", renderTranslations);
 $("copy").addEventListener("click", async () => {
   const text = visibleEmails().filter(s => !isTest(s)).map(s => s.email).join("\n");
   try { await navigator.clipboard.writeText(text); $("copy").textContent = "Copied"; }

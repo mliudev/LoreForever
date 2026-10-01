@@ -1,0 +1,85 @@
+{
+ "key": "item:water-pitcher",
+ "type": "item",
+ "name": "Water Pitcher",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Water Pitcher",
+  "quests": [
+   "quest:753"
+  ]
+ },
+ "summary": "A simple vessel used to carry fresh spring water from the local well in the Red Cloud Mesa. Greatmother Hawkwind directs young tauren to haul it back to Camp Narache to instill the values of humility, service, and respect for tribal elders.",
+ "sections": [
+  {
+   "title": "A Lesson in Humility",
+   "body": "Though modest in design, the water pitcher serves as an essential teaching tool for the youth of Camp Narache. Resting beside the water well on the plains southeast of the camp, it represents the daily labor required to sustain the community. By asking a novice to fill and carry the heavy vessel to Chief Hawkwind, Greatmother Hawkwind tests their character. The chore demonstrates that no duty is beneath a tribal protector, reminding young braves that tending to the everyday needs of their kin is just as vital as wielding a weapon on the hunt.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the water pitcher used for?",
+   "aliases": [
+    "pitcher purpose",
+    "why carry water pitcher",
+    "humble task pitcher"
+   ],
+   "answer": "It is used to transport fresh well water back to Camp Narache. Hauling it across the plains is a traditional chore that tests a young adventurer's willingness to perform everyday labor for the good of the tribe."
+  },
+  {
+   "q": "Where do you find the water pitcher?",
+   "aliases": [
+    "pitcher location",
+    "where is water pitcher",
+    "find pitcher mulgore"
+   ],
+   "answer": "The pitcher rests right by the water well located southeast of Camp Narache on the Red Cloud Mesa, near where Greatmother Hawkwind tends to her tasks."
+  },
+  {
+   "q": "Who asks you to fetch the water pitcher?",
+   "aliases": [
+    "who gives pitcher quest",
+    "greatmother pitcher"
+   ],
+   "answer": "Greatmother Hawkwind asks young travelers to collect it. Her aging legs make the trek difficult, so she offers the task to eager youths to test their vitality and humility."
+  },
+  {
+   "q": "Who receives the water pitcher once it is filled?",
+   "aliases": [
+    "who gets pitcher",
+    "deliver water pitcher",
+    "bring pitcher to"
+   ],
+   "answer": "It is brought directly to Chief Hawkwind at Camp Narache, who sees the deed as proof that the bearer possesses the heart and dedication needed to serve the tribe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young tauren coming of age on the Red Cloud Mesa, carrying the pitcher is an early lesson that honoring elders and aiding the community are the true foundations of strength."
+  }
+ ],
+ "keywords": [
+  "a humble task",
+  "camp narache",
+  "chief hawkwind",
+  "greatmother hawkwind",
+  "mulgore well",
+  "red cloud mesa",
+  "water pitcher"
+ ],
+ "related": [
+  "quest:752",
+  "npc:greatmother-hawkwind",
+  "npc:chief-hawkwind",
+  "subzone:camp-narache",
+  "zone:mulgore",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Water Pitcher",
+  "A Humble Task (2)"
+ ]
+}

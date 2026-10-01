@@ -1,0 +1,94 @@
+{
+ "key": "item:worn-parchment",
+ "type": "item",
+ "name": "Worn Parchment",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Worn Parchment",
+  "quests": [
+   "quest:966"
+  ]
+ },
+ "summary": "Worn Parchments are fragmented ritual writings carried by cultists encamped around the Tower of Althalaxx in northern Darkshore. Gathered by scouts, these tattered scraps provide the first concrete clues identifying the sinister sect gathering in the ruins.",
+ "sections": [
+  {
+   "title": "Fragments of a Sinister Plot",
+   "body": "North along the mist-shrouded coast of Darkshore, dark spellcasters and their zealous followers have seized the ruined Tower of Althalaxx. The foot soldiers patrolling the grounds outside, known as Dark Strand Fanatics, carry scraps of worn parchment among their personal effects. While a single piece appears as nothing more than fragmented scribbles and esoteric symbols, piecing together multiple fragments reveals the presence of a previously unknown organization: the Cult of the Dark Strand.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unmasking the Cult",
+   "body": "Balthule Shadowstrike, a scout monitoring the tower from a nearby overlook, uses these gathered parchments to assess the threat for Delgren the Purifier and the sentinels in Auberdine. piecing the texts together confirms that the warlocks in the tower are not independent outcasts, but an organized coven working toward a calculated, malevolent objective.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who carries these worn parchments?",
+   "aliases": [
+    "who drops worn parchment",
+    "where to get worn parchment",
+    "worn parchment source"
+   ],
+   "answer": "The parchments are carried by Dark Strand Fanatics, the cultist foot soldiers encamped outside around the perimeter of the Tower of Althalaxx in northern Darkshore."
+  },
+  {
+   "q": "What is written on the parchments?",
+   "aliases": [
+    "what does worn parchment say",
+    "worn parchment text",
+    "parchment meaning"
+   ],
+   "answer": "Individually, they are cryptic fragments of ritual notes and orders. Once gathered together and deciphered by Balthule Shadowstrike, they reveal the name and existence of the Cult of the Dark Strand."
+  },
+  {
+   "q": "Why is Balthule Shadowstrike collecting them?",
+   "aliases": [
+    "who wants worn parchment",
+    "balthule quest",
+    "why collect parchments"
+   ],
+   "answer": "Balthule was tasked by Delgren the Purifier to watch the Tower of Althalaxx. He needs the writings to decipher why warlocks have gathered at the ruins and assess the danger to Darkshore before reporting back."
+  },
+  {
+   "q": "What is the Cult of the Dark Strand?",
+   "aliases": [
+    "dark strand cult",
+    "who are dark strand",
+    "cult of dark strand"
+   ],
+   "answer": "They are a secretive gathering of cultists and warlocks operating out of the ruins of Althalaxx. Even seasoned scouts like Balthule Shadowstrike have never encountered their order before finding these writings."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The writings carried by the Dark Strand reveal an organized coven operating in secret on night elf lands, wielding fel and shadow away from the gaze of both the Alliance and Horde."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The presence of dark spellcasters and demonic corruption near ancient ruins like Althalaxx is a severe desecration of Darkshore's sacred wilderness."
+  }
+ ],
+ "keywords": [
+  "althalaxx",
+  "balthule shadowstrike",
+  "dark strand",
+  "darkshore",
+  "fanatics",
+  "worn parchment"
+ ],
+ "related": [
+  "npc:balthule-shadowstrike",
+  "quest:965",
+  "subzone:tower-of-althalaxx",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "topic:warlock"
+ ],
+ "attribution": [
+  "Worn Parchment",
+  "The Tower of Althalaxx (2)"
+ ]
+}

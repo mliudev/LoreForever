@@ -1,0 +1,89 @@
+{
+ "key": "item:gnomish-tools",
+ "type": "item",
+ "name": "Gnomish Tools",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Gnomish Tools",
+  "quests": [
+   "quest:825"
+  ]
+ },
+ "summary": "Gnomish Tools are intricate mechanical implements recovered from the sunken warships of Grand Admiral Daelin Proudmoore's fleet off the coast of Durotar. The Horde seeks these salvaged devices to study Alliance engineering and turn their enemies' technological advantages to their own benefit.",
+ "sections": [
+  {
+   "title": "Sunken Salvage",
+   "body": "When Grand Admiral Daelin Proudmoore led Kul Tiras and Alliance forces to the shores of Durotar, his fleet carried vast supplies of modern equipment, including sophisticated gear manufactured by their gnomish allies. Following the destruction of Proudmoore's fleet along the Scuttle Coast, east of Tiragarde Keep, these delicate mechanical kits sank beneath the waves. Today, waterproof toolboxes remain scattered among the rotting timbers and barnacle-encrusted hulls in the shallows.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes in Orgrimmar",
+   "body": "Gar'Thok, overseer of Razor Hill, tasked Horde scouts with securing these tools from the watery grave of Proudmoore's navy. The orcs recognize that humans and gnomes possess advanced technical craftsmanship, particularly in siege engines, shipwrighting, and clockwork mechanics. By collecting and dispatching these kits by caravan to the craftsmen and scholars in Orgrimmar, the Horde intends to dissect Alliance contraptions, learn how to counter their war machines, and adapt foreign innovations for their own survival.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are gnomish tools lying off the coast of Durotar?",
+   "aliases": [
+    "why gnomish tools here",
+    "origin of gnomish tools",
+    "how did tools get in durotar"
+   ],
+   "answer": "They were carried aboard the warships of Grand Admiral Daelin Proudmoore's fleet when Kul Tiras assaulted Durotar. When Proudmoore's armada was shattered and sunk along the Scuttle Coast east of Tiragarde Keep, their naval cargo settled along the ocean floor."
+  },
+  {
+   "q": "Why does the Horde want these tools?",
+   "aliases": [
+    "why does gar'thok want tools",
+    "horde use for gnomish tools",
+    "what are the tools for"
+   ],
+   "answer": "Gar'Thok of Razor Hill wants them salvaged so they can be sent to Orgrimmar. The Horde recognizes that Alliance engineers possess intricate mechanical knowledge, and studying their tools helps the Horde understand how enemy machines work and how to build better gear of their own."
+  },
+  {
+   "q": "Where are the tools found?",
+   "aliases": [
+    "gnomish tools location",
+    "where to find gnomish tools",
+    "gnomish toolboxes location"
+   ],
+   "answer": "They are stored inside toolboxes scattered in and around the sunken wreckage along the Scuttle Coast, just east of Tiragarde Keep in Durotar. Many rest underwater or across half-submerged broken hulls."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "These kits showcase the precise, intricate craft of Alliance tinkers, offering valuable insights into clockwork assemblies and miniaturization."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Recovering lost Alliance equipment allows the Horde to study enemy design, reverse-engineer foreign mechanisms, and defend against future naval invasions."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "engineering",
+  "gar'thok",
+  "gnomish tools",
+  "proudmoore",
+  "razor hill",
+  "scuttle coast",
+  "tiragarde keep"
+ ],
+ "related": [
+  "quest:825",
+  "subzone:scuttle-coast",
+  "npc:gar-thok",
+  "subzone:tiragarde-keep",
+  "subzone:razor-hill",
+  "zone:durotar",
+  "zone:orgrimmar",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Gnomish Tools",
+  "From The Wreckage...."
+ ]
+}

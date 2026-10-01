@@ -1,0 +1,97 @@
+{
+ "key": "item:zamah-s-note",
+ "type": "item",
+ "name": "Zamah's Note",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Zamah's Note",
+  "quests": [
+   "quest:1065"
+  ]
+ },
+ "summary": "Zamah's Note is a written dispatch sent from Zamah in Thunder Bluff across the Great Sea to Apothecary Lydon in Tarren Mill. It outlines an urgent request for an alchemical concoction capable of dealing with the Venture Company in the Stonetalon Mountains without relying on direct bloodshed.",
+ "sections": [
+  {
+   "title": "A Plea Across the Great Sea",
+   "body": "The goblin operations of the Venture Company have entrenched themselves deeply within the Stonetalon Mountains, deforesting and tearing up the sacred land. Zamah, seeking a specialized solution to dislodge them without inciting outright slaughter, turns to the expertise of the Forsaken Royal Apothecary Society. The note serves as formal correspondence detailing Stonetalon's dire situation to her colleague, Apothecary Lydon, stationed far away in Tarren Mill within the Hillsbrad Foothills of Lordaeron.",
+   "spoiler": 0
+  },
+  {
+   "title": "Apothecary Connections",
+   "body": "Carrying the sealed message requires a long trek across continents, guiding Kalimdor travelers aboard zeppelins to the Undercity and down through Silverpine Forest into Hillsbrad. Upon receiving Zamah's dispatch, Lydon is immediately intrigued by her specific requirements, taking pride that word reached him from across the ocean and preparing to craft an alchemical answer to the goblin problem.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Zamah's Note?",
+   "aliases": [
+    "what is this item",
+    "zamah note",
+    "letter to lydon"
+   ],
+   "answer": "It is a sealed letter penned by Zamah in Thunder Bluff, addressed to Apothecary Lydon in Tarren Mill, requesting an alchemical formula to remove the Venture Company from Stonetalon."
+  },
+  {
+   "q": "Why does Zamah need help from Tarren Mill?",
+   "aliases": [
+    "why send to hillsbrad",
+    "why contact lydon",
+    "why tarren mill"
+   ],
+   "answer": "Zamah seeks an unconventional and bloodless solution to displace the goblins tearing through Stonetalon. She reaches out to Apothecary Lydon because the Forsaken alchemists possess specialized chemical concoctions tailored for such subtle disruptions."
+  },
+  {
+   "q": "Where does the note need to be delivered?",
+   "aliases": [
+    "who gets the note",
+    "zamah note turn in",
+    "where do i take the note"
+   ],
+   "answer": "It must be carried to Apothecary Lydon, who resides in the Forsaken-held town of Tarren Mill within the Hillsbrad Foothills in Lordaeron."
+  },
+  {
+   "q": "Who is the Venture Company mentioned in the note?",
+   "aliases": [
+    "venture company stonetalon",
+    "who are venture co",
+    "venture co"
+   ],
+   "answer": "The Venture Company is a ruthless goblin-run mining and logging syndicate notorious for clear-cutting forests, exploiting natural resources, and polluting lands across Kalimdor, including the sacred peaks of the Stonetalon Mountains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The delivery of the note highlights the logistical cooperation and shared resources bridging the distant capitals of the Horde across Kalimdor and the Eastern Kingdoms."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The dispatch underscores the growing reliance of external allies on the Royal Apothecary Society's specialized chemical expertise to resolve complex crises."
+  }
+ ],
+ "keywords": [
+  "hillsbrad foothills",
+  "lydon",
+  "stonetalon mountains",
+  "tarren mill",
+  "thunder bluff",
+  "undercity",
+  "venture company",
+  "zamah"
+ ],
+ "related": [
+  "quest:1065",
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "zone:undercity",
+  "topic:venture-company",
+  "topic:lordaeron",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Zamah's Note",
+  "Journey to Tarren Mill"
+ ]
+}

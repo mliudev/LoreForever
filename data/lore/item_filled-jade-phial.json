@@ -1,0 +1,95 @@
+{
+ "key": "item:filled-jade-phial",
+ "type": "item",
+ "name": "Filled Jade Phial",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Filled Jade Phial",
+  "quests": [
+   "quest:929"
+  ]
+ },
+ "summary": "The Filled Jade Phial holds sacred waters drawn from the moonwell near Starbreeze Village. Carried back to Dolanaar, it serves as part of an ongoing ritual to replenish the capital's central waters while young night elves learn the history of their people.",
+ "sections": [
+  {
+   "title": "Waters of Starbreeze",
+   "body": "The druids of Darnassus rely on sacred moonwell waters drawn from across the boughs of Teldrassil to replenish their central wells. Specially crafted vessels, such as the jade phial entrusted to young adventurers by Corithras Moonrage in Dolanaar, are attuned to contain these pure waters safely. By venturing eastward to the moonwell outside Starbreeze Village, initiates collect the vital water while proving their devotion to the maintenance of the World Tree.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Lesson in History",
+   "body": "Returning the Filled Jade Phial to Dolanaar is more than a simple errand; each replenished vessel earns another chapter in the oral history of the kaldorei. Upon receiving the full phial, Corithras Moonrage speaks of the desperate era following the Third War\u2014the burning of Nordrassil, the loss of night elf immortality, the release of the Betrayer, and the sudden disappearance of Shan'do Malfurion Stormrage into the Emerald Dream.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Jade Phial filled?",
+   "aliases": [
+    "where do i fill the jade phial",
+    "how to get filled jade phial",
+    "starbreeze moonwell location"
+   ],
+   "answer": "The Jade Phial is filled by interacting with the sacred waters of the moonwell located just outside Starbreeze Village, east of Dolanaar on Teldrassil."
+  },
+  {
+   "q": "Who requires the Filled Jade Phial?",
+   "aliases": [
+    "who wants the filled jade phial",
+    "corithras moonrage quest item"
+   ],
+   "answer": "Corithras Moonrage, an elder night elf stationed in the settlement of Dolanaar, instructs travelers to fetch the water as part of the Crown of the Earth ritual tasks."
+  },
+  {
+   "q": "Why are moonwell waters collected in phials like this?",
+   "aliases": [
+    "why collect moonwell water",
+    "what is the jade phial for"
+   ],
+   "answer": "The druids residing in Darnassus must periodically replenish their primary moonwells. They use specially crafted vessels like the Jade Phial to safely transport pristine water from outlying wells across Teldrassil."
+  },
+  {
+   "q": "What history does Corithras share when turning this in?",
+   "aliases": [
+    "what does corithras tell you",
+    "crown of the earth lore"
+   ],
+   "answer": "Upon receiving the filled phial, Corithras Moonrage recounts the dark aftermath of the Battle of Mount Hyjal, reflecting on the loss of night elf immortality, the release of Illidan Stormrage, and the baffling slumber of Shan'do Malfurion Stormrage."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Fetching the water reinforces a young kaldorei's sacred duty to Teldrassil while imparting crucial history about the loss of immortality after Mount Hyjal."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Tending the moonwells connects druids directly to the restorative magic sustaining Darnassus and the Cenarion Circle's ongoing efforts to nurture the young World Tree."
+  }
+ ],
+ "keywords": [
+  "corithras moonrage",
+  "crown of the earth",
+  "dolanaar",
+  "filled jade phial",
+  "jade phial",
+  "moonwell",
+  "starbreeze village",
+  "teldrassil"
+ ],
+ "related": [
+  "item:jade-phial",
+  "npc:corithras-moonrage",
+  "subzone:starbreeze-village",
+  "subzone:dolanaar",
+  "quest:921",
+  "zone:teldrassil",
+  "zone:darnassus",
+  "topic:shan-do"
+ ],
+ "attribution": [
+  "Filled Jade Phial",
+  "Crown of the Earth (3)"
+ ]
+}

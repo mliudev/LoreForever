@@ -1,0 +1,86 @@
+{
+ "key": "item:samophlange-item",
+ "type": "item",
+ "name": "Samophlange (item)",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Samophlange (item)",
+  "quests": [
+   "quest:902"
+  ]
+ },
+ "summary": "The samophlange is an enigmatic mechanical component recovered from the deep interior of an automated control console in the Barrens. Despite its complex appearance, its precise function remains an engineering mystery even to the goblin mechanics who sought it.",
+ "sections": [
+  {
+   "title": "A Baffling Contraption",
+   "body": "Tucked away behind a labyrinth of superfluous wiring and hollow tubing within a Barrens control console lies the samophlange. It takes some rooting through deliberately confounding machinery just to unseat it from its housing. To the untrained eye, it appears to be an essential nexus of clockwork and steam-driven technology. To goblin tinkerers, it is an irresistible mechanical puzzle intended for shipment to the Tinkers' Union in Undermine\u2014though its fragile build means it rarely survives casual handling long enough to be understood.",
+   "spoiler": 0
+  },
+  {
+   "title": "Curiosity and Catastrophe",
+   "body": "When recovered and brought to Sputtervalve in Ratchet, the engineer intends to send the piece away for dissection and research by high-ranking Union minds. However, goblin curiosity inevitably gets the better of professional discretion. Merely setting the delicate device down to inspect its inner workings is often enough to shatter it into ruined scrap.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a samophlange?",
+   "aliases": [
+    "what does a samophlange do",
+    "samophlange purpose",
+    "what is this item"
+   ],
+   "answer": "It is a bizarre mechanical component extracted from the heart of a control console in the Barrens. Its actual purpose is unknown, as the surrounding machinery is crammed with tubing and wires that seem to accomplish nothing practical at all."
+  },
+  {
+   "q": "Who wants the samophlange?",
+   "aliases": [
+    "who needs the samophlange",
+    "who do i give the samophlange to"
+   ],
+   "answer": "Sputtervalve, an engineer stationed in the port town of Ratchet, asks travelers to retrieve the component so that he can study it and eventually send it on to the Tinkers' Union."
+  },
+  {
+   "q": "What does Sputtervalve do with it?",
+   "aliases": [
+    "sputtervalve samophlange",
+    "what happens to the samophlange"
+   ],
+   "answer": "Although he plans to send it to Undermine for extensive examination by Tinkers' Union researchers, he tries to take a closer look himself first. Upon placing it on the ground to inspect it, the fragile mechanism immediately breaks."
+  },
+  {
+   "q": "Where did the samophlange come from?",
+   "aliases": [
+    "samophlange location",
+    "where is it found"
+   ],
+   "answer": "It is housed inside an elaborate operating console located in the northern reaches of the Barrens, hidden behind layers of confusing and seemingly useless engineering."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will appreciate the samophlange as a quintessential example of overcomplicated design, where an intricate facade hides a mechanism so fragile it breaks the moment it touches the floor."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "console",
+  "ratchet",
+  "samophlange",
+  "sputtervalve",
+  "tinkers union",
+  "undermine"
+ ],
+ "related": [
+  "quest:894",
+  "npc:sputtervalve",
+  "subzone:ratchet",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Samophlange (item)",
+  "Samophlange (Classic 4)"
+ ]
+}

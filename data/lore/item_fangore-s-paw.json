@@ -1,0 +1,88 @@
+{
+ "key": "item:fangore-s-paw",
+ "type": "item",
+ "name": "Fangore's Paw",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Fangore's Paw",
+  "quests": [
+   "quest:180"
+  ]
+ },
+ "summary": "Fangore's Paw is the severed hand of Lieutenant Fangore, a commanding officer among the Shadowhide gnolls in the Redridge Mountains. It serves as gruesome proof of the gnoll chieftain's demise for Magistrate Solomon in Lakeshire. The grim bounty was placed to dismantle the warlord's threat against the besieged township.",
+ "sections": [
+  {
+   "title": "Trophy of a Fallen Chieftain",
+   "body": "Lieutenant Fangore acts as a primary field commander for the Shadowhide gnolls encroaching across the Redridge Mountains. Operating in direct service to the renegade mage Morganth, Fangore directs violent assaults against trade roads, outlying farms, and the defenses around Lake Everstill. Because gnoll raiders do not leave traditional uniforms, official seals, or banners to confirm their casualties, the township authorities rely on grim physical evidence. Magistrate Solomon specifically demanded Fangore's paw as unmistakable proof of his execution, allowing the town of Lakeshire to breathe slightly easier amid mounting surrounding perils.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who does this paw belong to?",
+   "aliases": [
+    "who is fangore",
+    "whose paw is this",
+    "fangore identity"
+   ],
+   "answer": "The paw belongs to Lieutenant Fangore, a notorious leader within the Shadowhide gnoll clan infesting the Redridge Mountains. He organizes raids and leads forces under the direction of the dark wizard Morganth."
+  },
+  {
+   "q": "Why does Magistrate Solomon want the paw?",
+   "aliases": [
+    "why collect fangore paw",
+    "solomon bounty proof",
+    "magistrate proof"
+   ],
+   "answer": "Magistrate Solomon posted an official wanted mandate condemning Fangore as a vile enemy of Stormwind. He requires the severed paw as indisputable physical proof that the Shadowhide lieutenant has been slain."
+  },
+  {
+   "q": "Who is Lieutenant Fangore working for?",
+   "aliases": [
+    "fangore master",
+    "who leads fangore",
+    "morganth connection"
+   ],
+   "answer": "Fangore serves Morganth, a rogue practitioner of dark magic who threatens Lakeshire from his tower in the eastern mountains and directs gnoll activity against the kingdom."
+  },
+  {
+   "q": "Where is Lieutenant Fangore found?",
+   "aliases": [
+    "fangore location",
+    "where is fangore",
+    "find fangore"
+   ],
+   "answer": "Lieutenant Fangore operates in the wilderness of the Redridge Mountains among the hostile Shadowhide gnoll encampments."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Taking down Fangore and returning his paw provides crucial relief to the beleaguered town of Lakeshire, which receives scarce military support from Stormwind."
+  }
+ ],
+ "keywords": [
+  "fangore",
+  "gnoll",
+  "lakeshire",
+  "morganth",
+  "paw",
+  "redridge",
+  "shadowhide",
+  "solomon"
+ ],
+ "related": [
+  "quest:180",
+  "npc:magistrate-solomon",
+  "zone:redridge",
+  "subzone:lakeshire",
+  "topic:gnoll",
+  "quest:249",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Fangore's Paw",
+  "Wanted: Lieutenant Fangore (quest)"
+ ]
+}

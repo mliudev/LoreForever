@@ -1,0 +1,80 @@
+{
+ "key": "item:the-general-s-response",
+ "type": "item",
+ "name": "The General's Response",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "The General's Response",
+  "quests": [
+   "quest:121"
+  ]
+ },
+ "summary": "The General's Response is an official military dispatch written by General Marcus Jonathan, commander of the Stormwind city guard. Intended for Magistrate Solomon in Lakeshire, the missive acknowledges Redridge's plea for aid while revealing that the capital cannot\u2014or will not\u2014immediately send royal reinforcements.",
+ "sections": [
+  {
+   "title": "A Diplomatic Standoff",
+   "body": "When Magistrate Solomon reaches out to Stormwind City desperately seeking troops to fend off the gathering Blackrock orc clans and Gnoll warbands in Redridge, he sends his plea straight to the high command. General Marcus Jonathan's written response delivers cold comfort: while the plea has been forwarded upward to the throne, no soldiers are currently dispatched. Caught between protocol and politics, the General orders the letter delivered back to Lakeshire, leaving Solomon troubled and suspicious that a deeper sickness paralyzes the capital's leadership.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is written in The General's Response?",
+   "aliases": [
+    "letter contents",
+    "what does the letter say",
+    "generals letter"
+   ],
+   "answer": "The letter is General Marcus Jonathan's official reply to Magistrate Solomon's plea for military assistance in Redridge. It informs the magistrate that the matter has been referred to the throne and Highlord Bolvar Fordragon, but no imperial soldiers or royal reinforcements will be dispatched to Lakeshire at this time."
+  },
+  {
+   "q": "Why can't General Marcus Jonathan send troops to Lakeshire?",
+   "aliases": [
+    "why no reinforcements",
+    "why doesn't stormwind help lakeshire",
+    "why no help"
+   ],
+   "answer": "General Jonathan must operate through royal authority, awaiting formal orders from the throne before moving garrison forces beyond the city gates. With King Varian Wrynn missing and Stormwind's court divided by bureaucratic inertia, peripheral regions like Redridge are left to fend for themselves."
+  },
+  {
+   "q": "How does Magistrate Solomon react to the letter?",
+   "aliases": [
+    "solomon reaction",
+    "what does solomon think",
+    "solomon response"
+   ],
+   "answer": "Magistrate Solomon is deeply unsettled by the dispatch. He finds Stormwind's sluggishness inexplicable given the dire threat to Lakeshire, concluding that something is deeply amiss in the kingdom and fearing that this neglect signals the onset of worse calamities."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The response highlights the fraying edges of the Grand Alliance: outer settlements like Lakeshire bleed while the court of Stormwind appears strangely unresponsive to their plight."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of the southern kingdoms, this stalled correspondence shows the growing rift between the citizens fighting for survival in the provinces and the secluded nobility in Stormwind Keep."
+  }
+ ],
+ "keywords": [
+  "general marcus jonathan",
+  "lakeshire",
+  "magistrate solomon",
+  "messenger to stormwind",
+  "redridge",
+  "stormwind",
+  "the generals response"
+ ],
+ "related": [
+  "npc:general-marcus-jonathan",
+  "npc:magistrate-solomon",
+  "quest:120",
+  "subzone:lakeshire",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "The General's Response",
+  "Messenger to Stormwind (2)"
+ ]
+}

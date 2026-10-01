@@ -1,0 +1,91 @@
+{
+ "key": "item:tablet-of-verga",
+ "type": "item",
+ "name": "Tablet of Verga",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Tablet of Verga",
+  "quests": [
+   "quest:1501"
+  ]
+ },
+ "summary": "The Tablet of Verga is an arcane stone inscribed with demonic runes essential for binding dark entities. Stolen by the sinister Burning Blade cult, it was taken deep into their lair within Skull Rock. Recovering the artifact allows dark practitioners in Orgrimmar to decipher the rituals needed to bind a voidwalker.",
+ "sections": [
+  {
+   "title": "A Stolen Relic",
+   "body": "The Tablet of Verga holds specific ritual runes required to summon and bend creatures of the Nether to a master's will. When the Burning Blade cult managed to steal the tablet, they concealed it within a hidden chest inside Skull Rock, just east of Orgrimmar. For the warlocks working discreetly in the shadows of the Cleft of Shadow, regaining the relic is crucial\u2014not only to study its ancient markings for summoning a voidwalker, but also to deny the fanatical cultists their own dark advantage.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Tablet of Verga located?",
+   "aliases": [
+    "tablet of verga location",
+    "where to find tablet of verga",
+    "where is verga tablet"
+   ],
+   "answer": "The tablet is stored within a Burning Blade Stash hidden inside Skull Rock, a cavern complex crawling with cultists located just east of Orgrimmar in Durotar."
+  },
+  {
+   "q": "Who wants the Tablet of Verga recovered?",
+   "aliases": [
+    "who needs tablet of verga",
+    "who do i bring tablet of verga to",
+    "gan'rul tablet"
+   ],
+   "answer": "Gan'rul Bloodeye, a master warlock dwelling in the Cleft of Shadow beneath Orgrimmar, tasks initiates with retrieving the tablet so he can teach them how to summon greater minions."
+  },
+  {
+   "q": "What power does the tablet contain?",
+   "aliases": [
+    "what does the tablet do",
+    "tablet of verga lore",
+    "tablet of verga runes"
+   ],
+   "answer": "The stone is inscribed with ancient runes necessary to complete the summoning and binding ritual for a voidwalker, a creature pulled from the Twisting Nether."
+  },
+  {
+   "q": "Why did the Burning Blade steal it?",
+   "aliases": [
+    "why do burning blade have tablet",
+    "burning blade verga"
+   ],
+   "answer": "The Burning Blade cult works tirelessly to disrupt the Horde and expand their own demonic power. Depriving Orgrimmar's practitioners of key ritual texts while hoarding the knowledge for themselves directly serves their goals."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "For warlocks training in Orgrimmar, recovering this tablet marks a critical milestone in proving their worth to the Horde, unlocking the secrets necessary to bind a defensive voidwalker servant."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Burning Blade's presence so close to Orgrimmar's gates is an ongoing threat to Thrall's fledgling nation; wrenching stolen relics from their grasp strikes back at the cult's influence."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "cleft of shadow",
+  "durotar",
+  "gan'rul bloodeye",
+  "skull rock",
+  "tablet of verga",
+  "voidwalker"
+ ],
+ "related": [
+  "quest:1473",
+  "quest:1471",
+  "npc:gan-rul-bloodeye",
+  "quest:827",
+  "zone:orgrimmar",
+  "zone:durotar",
+  "topic:warlock",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Tablet of Verga",
+  "Creature of the Void (Orgrimmar)"
+ ]
+}

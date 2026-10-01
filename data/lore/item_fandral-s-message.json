@@ -1,0 +1,97 @@
+{
+ "key": "item:fandral-s-message",
+ "type": "item",
+ "name": "Fandral's Message",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Fandral's Message",
+  "quests": [
+   "quest:952"
+  ]
+ },
+ "summary": "Fandral's Message is a missive penned by Arch Druid Fandral Staghelm in Darnassus. It is entrusted to an adventurer to carry across the sea to the Ancient of Lore, Onu, in Darkshore.",
+ "sections": [
+  {
+   "title": "A Dispatch from the Archdruid",
+   "body": "Written by Arch Druid Fandral Staghelm in the Cenarion Enclave, this sealed dispatch serves as direct correspondence between the acting leader of the night elven druids and Onu, the venerable Ancient of Lore dwelling within the Grove of the Ancients. After receiving reports regarding the state of Teldrassil's Oracle Glade, Staghelm wastes no time pressing couriers into service to send word south of Auberdine. The delivery requires travelers to journey across the waters to Darkshore, bridging the heart of the new World Tree with the older, shadowed mainland.",
+   "spoiler": 0
+  },
+  {
+   "title": "Contrasting Tempos",
+   "body": "While the exact contents of the message remain between the Arch Druid and Onu, the delivery itself highlights a subtle divide in temperament within the Cenarion Circle. Upon accepting the document, Onu notes that Fandral consistently behaves with an uncharacteristic impatience, rushing affairs that the ancients believe should unfold naturally. To the slow-living treants of Darkshore, Fandral's brisk haste stands in stark contrast to the patient wisdom once embodied by Archdruid Malfurion Stormrage.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Fandral's Message?",
+   "aliases": [
+    "fandrals message item",
+    "fandral message",
+    "archdruids letter"
+   ],
+   "answer": "It is an official written dispatch from Arch Druid Fandral Staghelm intended for Onu, the Ancient of Lore residing in the Grove of the Ancients in Darkshore."
+  },
+  {
+   "q": "Who sends this message and why?",
+   "aliases": [
+    "who wrote this",
+    "why fandral send message"
+   ],
+   "answer": "Arch Druid Fandral Staghelm pens it from Darnassus. Having received updates regarding the Oracle Glade in Teldrassil, he sends word to update Onu, who has been awaiting news from the crown of the World Tree."
+  },
+  {
+   "q": "Where does this message need to go?",
+   "aliases": [
+    "who gets the message",
+    "where to deliver message",
+    "fandrals message destination"
+   ],
+   "answer": "The message must be brought to Onu in the Grove of the Ancients, which is located in Darkshore directly south of the coastal settlement of Auberdine."
+  },
+  {
+   "q": "What does Onu think of the letter?",
+   "aliases": [
+    "onu reaction",
+    "what does onu say"
+   ],
+   "answer": "Upon receiving it, Onu remarks that Fandral always seems to be in a hurry. The ancient observes that nature moves at its own appointed pace, musing that Shan'do Malfurion Stormrage understood that truth far better than Fandral does."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Carrying missives between the Cenarion Enclave in Darnassus and the Ancients of Lore in Darkshore illustrates the contrasting philosophies between Fandral Staghelm's aggressive drive and the patient traditionalism of older druidic guardians."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Delivering this dispatch marks one of the earliest steps off the crown of Teldrassil and back down toward the ancestral forests of Kalimdor's mainland."
+  }
+ ],
+ "keywords": [
+  "ancient of lore",
+  "auberdine",
+  "darkshore",
+  "darnassus",
+  "fandral staghelm",
+  "fandral's message",
+  "grove of the ancients",
+  "onu",
+  "oracle glade"
+ ],
+ "related": [
+  "quest:952",
+  "quest:940",
+  "quest:937",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "subzone:oracle-glade",
+  "topic:shan-do",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Fandral's Message",
+  "Grove of the Ancients (quest)"
+ ]
+}

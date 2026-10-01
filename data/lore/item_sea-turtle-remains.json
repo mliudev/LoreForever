@@ -1,0 +1,100 @@
+{
+ "key": "item:sea-turtle-remains",
+ "type": "item",
+ "name": "Sea Turtle Remains",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Sea Turtle Remains",
+  "quests": [
+   "quest:4681",
+   "quest:4722",
+   "quest:4727",
+   "quest:4732"
+  ]
+ },
+ "summary": "Sea Turtle Remains are skeletal samples salvaged from the carcasses of giant sea turtles along the coast of Darkshore. They serve as vital specimens for night elf researchers in Auberdine investigating an alarming surge of marine strandings.",
+ "sections": [
+  {
+   "title": "A Disturbing Strand",
+   "body": "Giant sea creatures have begun beaching themselves all along Darkshore's mist-shrouded shores, while others lie submerged just off the coast near sunken wrecks. Gwennyth Bly'Leggonde, stationed in Auberdine, oversees the collection of skeletal fragments and tissue from these corpses. The Temple of the Moon in Darnassus urgently requests these samples, concerned by theories that the beasts may be fleeing an unnatural disturbance in the waters surrounding the newly grown world tree, Teldrassil.",
+   "spoiler": 0
+  },
+  {
+   "title": "Scavengers of the Shallows",
+   "body": "Recovering these remains is perilous work. Coastal tribes of murlocs routinely congregate around the massive carcasses, picking the bones clean and nesting beside them. Scholars require fresh bone fragments and tissue before the scavengers destroy any surviving evidence that might explain the creatures' fatal migration.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are these remains used for?",
+   "aliases": [
+    "why collect turtle remains",
+    "turtle bones use",
+    "sea turtle quest darkshore"
+   ],
+   "answer": "The remains are collected by Gwennyth Bly'Leggonde in Auberdine. She prepares them for scholars and priestesses at the Temple of the Moon in Darnassus, who are attempting to discern why so many ocean creatures are dying along Darkshore."
+  },
+  {
+   "q": "Why are sea turtles beaching themselves in Darkshore?",
+   "aliases": [
+    "why are turtles dying",
+    "turtle strandings darkshore",
+    "beached sea creatures"
+   ],
+   "answer": "The exact cause remains under investigation, but researchers fear marine life is fleeing something unsettling in the waters around Teldrassil. The strandings are not isolated incidents, pointing to widespread ecological distress."
+  },
+  {
+   "q": "Where are these carcasses found?",
+   "aliases": [
+    "turtle remains locations",
+    "where to find skeletal sea turtle"
+   ],
+   "answer": "Giant skeletal sea turtles are scattered along Darkshore's coastline, with some resting in shallow waters near sunken ships west of Auberdine and others strewn on beaches surrounded by murloc encampments."
+  },
+  {
+   "q": "Who is studying these remains?",
+   "aliases": [
+    "who wants the remains",
+    "gwennyth blyleggonde"
+   ],
+   "answer": "Gwennyth Bly'Leggonde, a researcher in Auberdine, collects the findings and submits detailed reports directly to the Sisterhood of Elune at the Temple of the Moon in Darnassus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The mass stranding of sea life directly off your ancestral coast is an ominous sign, particularly with suspicions pointing back toward the waters encircling Teldrassil."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The unnatural death of wild marine leviathans signals a deeper corruption upsetting the balance of nature along the Kalimdor coast."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "beached sea turtle",
+  "darkshore",
+  "gwennyth bly'leggonde",
+  "sea turtle remains",
+  "teldrassil",
+  "temple of the moon",
+  "washed ashore"
+ ],
+ "related": [
+  "quest:3524",
+  "npc:gwennyth-bly-leggonde",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "subzone:temple-of-the-moon",
+  "zone:darnassus",
+  "quest:940",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Sea Turtle Remains",
+  "Washed Ashore (2)",
+  "Beached Sea Turtle (1)"
+ ]
+}

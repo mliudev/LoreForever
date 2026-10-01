@@ -14,6 +14,7 @@ local MIN_SCORE = 2.0          -- at or above: confident enough to answer
 local GUESS_SCORE = 0.8        -- between this and MIN_SCORE: offer "did you mean" instead of guessing
 local MAX_MESSAGES = 30        -- bubbles kept in the conversation
 local W, H, SIDE_W = 820, 560, 250
+local MIN_W = 600                           -- narrowest the panel can be dragged (the conversation gets ~300)
 local CHAT_X = SIDE_W + 14                  -- left edge of the conversation
 local CHAT_W = W - CHAT_X - 40              -- conversation width (the scroll bar takes the rest)
 local PAD = 8                               -- bubble padding
@@ -45,6 +46,7 @@ local function TextButton(parent, width, height, fontObject, fill)
     local bg = b:CreateTexture(nil, "BACKGROUND")
     bg:SetAllPoints()
     bg:SetColorTexture(fill[1], fill[2], fill[3], fill[4])
+    b.bg = bg
   end
   local hl = b:CreateTexture(nil, "HIGHLIGHT")
   hl:SetAllPoints()
@@ -57,6 +59,73 @@ local function TextButton(parent, width, height, fontObject, fill)
   if fs.SetWordWrap then fs:SetWordWrap(true) end
   b.text = fs
   return b
+end
+
+-- Green "+": add a recorded story or answer to the playlist. Once queued it shows a check; clicking that takes it
+-- out again. SetQueueButton points it at a story (idx nil) or answer and returns whether it can be queued at all.
+local function QueueButton(parent, height)
+  local add = TextButton(parent, 20, height, "GameFontHighlight", { 0.20, 0.42, 0.14, 0.9 })
+  add.text:SetJustifyH("CENTER")
+  add.text:SetText("+")
+  local tick = add:CreateTexture(nil, "OVERLAY")
+  tick:SetSize(14, 14)
+  tick:SetPoint("CENTER")
+  tick:SetTexture("Interface\\RaidFrame\\ReadyCheck-Ready")
+  add.tick = tick
+  add:SetScript("OnClick", function(self)
+    local at = UI.PlaylistIndex(self.id)
+    if at then UI.PlaylistRemove(at) else UI.PlaylistAdd(self.key, self.idx) end
+  end)
+  add:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    if UI.PlaylistIndex(self.id) then
+      GameTooltip:AddLine(L["In your playlist"])
+      GameTooltip:AddLine(L["Click to take it out."], 1, 1, 1)
+    else
+      GameTooltip:AddLine(L["Add to playlist"])
+      GameTooltip:AddLine(L["Queues this narration after the others in your playlist (Playlist tab)."], 1, 1, 1, true)
+    end
+    GameTooltip:Show()
+  end)
+  add:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  add:Hide()
+  return add
+end
+
+local function SetQueueButton(add, key, idx)
+  local can = UI.CanQueue(key, idx) and true or false
+  add:SetShown(can)
+  if not can then return false end
+  add.id, add.key, add.idx = idx and (key .. "#faq" .. idx) or key, key, idx
+  local queued = UI.PlaylistIndex(add.id) ~= nil
+  add.text:SetShown(not queued)
+  add.tick:SetShown(queued)
+  -- Green while it can be added; a plain dark square behind the check once it's in.
+  if queued then add.bg:SetColorTexture(0.12, 0.12, 0.12, 0.9) else add.bg:SetColorTexture(0.20, 0.42, 0.14, 0.9) end
+  return true
+end
+
+-- The small play arrow on rows with a recorded story: plays it (and posts it in the chat), or stops it.
+local function PlayButton(parent)
+  local play = CreateFrame("Button", nil, parent)
+  play:SetSize(22, 22)
+  play:SetNormalTexture("Interface\\Buttons\\UI-SpellbookIcon-NextPage-Up")
+  play:SetPushedTexture("Interface\\Buttons\\UI-SpellbookIcon-NextPage-Down")
+  play:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
+  play:SetScript("OnClick", function(self) UI.PlayEntry(self.key, self.label) end)
+  play:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine((UI.speaking and UI.playingId == self.key) and L["Stop narration"] or L["Play narration"])
+    GameTooltip:Show()
+  end)
+  play:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  play:Hide()
+  return play
+end
+
+-- A boss's name as players know it ("Ghamoo-ra (Classic)" is "Ghamoo-ra").
+local function bossName(e)
+  return (e.n:gsub("%s*%b()$", ""))
 end
 
 -- A section header: gold, with a thin gold rule under it so sections read as sections.
@@ -82,6 +151,13 @@ end
 local function settings()
   return (LoreForeverDB and LoreForeverDB.settings) or {}
 end
+
+-- The playlist (see "Playlist" below): items {id, key, idx, label}, pos = the current item, and state:
+--   "playing"  the clip playing is items[pos] (or it's in the short gap before the next one)
+--   "waiting"  started while something else played; items[pos] begins when that ends
+--   "paused"   stopped at items[pos]; Play starts it again from the top (WoW can't resume a sound)
+-- Session only: /reload and logging out clear it.
+UI.pl = { items = {}, pos = 0, state = "paused" }
 
 function UI.Create(engine)
   if UI.frame then return UI.frame end
@@ -113,8 +189,8 @@ function UI.Create(engine)
   -- Resizable from the bottom-right corner; the sidebar keeps its width and the conversation takes the rest.
   if f.SetResizable then
     f:SetResizable(true)
-    if f.SetResizeBounds then f:SetResizeBounds(720, 560, 1500, 1100)
-    elseif f.SetMinResize then f:SetMinResize(720, 560) end
+    if f.SetResizeBounds then f:SetResizeBounds(MIN_W, 560, 1500, 1100)
+    elseif f.SetMinResize then f:SetMinResize(MIN_W, 560) end
     local grip = CreateFrame("Button", nil, f)
     grip:SetSize(16, 16)
     grip:SetPoint("BOTTOMRIGHT", -4, 4)
@@ -179,12 +255,17 @@ function UI.Create(engine)
   divider:SetPoint("BOTTOMLEFT", SIDE_W, 8)
   divider:SetWidth(1)
 
-  -- Sidebar tabs: "Here" (this place and your quests) and "Narrations" (every recorded story, grouped).
+  -- Sidebar tabs: "Here" (this place and your quests), "Narrations" (every recorded story, grouped) and "Playlist"
+  -- (what you've queued; its count shows from any tab).
   UI.tabs = {}
-  for i, spec in ipairs({ { "here", L["Here"], 112 }, { "narrations", L["Narrations"], 118 } }) do
+  for _, spec in ipairs({ { "here", L["Here"], 54, 12 }, { "narrations", L["Narrations"], 88, 70 },
+      { "playlist", L["Playlist"], 84, 162 } }) do
     local tab = TextButton(f, spec[3], 22, "GameFontNormal", { 0.2, 0.16, 0.08, 0.6 })
-    tab:SetPoint("TOPLEFT", i == 1 and 12 or 128, -64)
+    tab:SetPoint("TOPLEFT", spec[4], -64)
+    tab.text:SetPoint("TOPLEFT", 2, -2)
+    tab.text:SetPoint("BOTTOMRIGHT", -2, 2)
     tab.text:SetJustifyH("CENTER")
+    if tab.text.SetWordWrap then tab.text:SetWordWrap(false) end
     tab.text:SetText(spec[2])
     local on = tab:CreateTexture(nil, "ARTWORK")
     on:SetPoint("BOTTOMLEFT")
@@ -192,9 +273,20 @@ function UI.Create(engine)
     on:SetHeight(2)
     on:SetColorTexture(1, 0.82, 0, 0.9)
     tab.on = on
+    -- A brief gold flash when something is added to the playlist.
+    local flash = tab:CreateTexture(nil, "OVERLAY")
+    flash:SetAllPoints()
+    flash:SetColorTexture(1, 0.82, 0, 0.45)
+    flash:Hide()
+    tab.flash = flash
     tab.view = spec[1]
     tab:SetScript("OnClick", function(self) UI.ShowTab(self.view) end)
     UI.tabs[#UI.tabs + 1] = tab
+    if spec[1] == "playlist" then
+      tab.count = tab:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+      tab.count:SetPoint("RIGHT", -4, 0)
+      UI.playlistTab = tab
+    end
   end
   local hereView = CreateFrame("Frame", nil, f)
   hereView:SetAllPoints(f)
@@ -204,6 +296,11 @@ function UI.Create(engine)
   narrView:Hide()
   UI.narrView = narrView
   UI.CreateNarrations(narrView)
+  local plView = CreateFrame("Frame", nil, f)
+  plView:SetAllPoints(f)
+  plView:Hide()
+  UI.plView = plView
+  UI.CreatePlaylist(plView)
 
   UI.hereHeader = Header(hereView, L["Here"])
   UI.hereHeader:SetPoint("TOPLEFT", 16, -94)
@@ -218,26 +315,22 @@ function UI.Create(engine)
       elseif self.key and self.idx then UI.ShowFaq(self.key, self.idx, "here")
       elseif self.key then UI.ShowEntry(self.key, "here", self.label) end
     end)
-    -- Rows with a recorded narration get a play button, so you can tell what has a voice without opening it.
-    local play = CreateFrame("Button", nil, b)
-    play:SetSize(22, 22)
-    play:SetPoint("RIGHT", -2, 0)
-    play:SetNormalTexture("Interface\\Buttons\\UI-SpellbookIcon-NextPage-Up")
-    play:SetPushedTexture("Interface\\Buttons\\UI-SpellbookIcon-NextPage-Down")
-    play:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
-    play.row = b
-    play:SetScript("OnClick", function(self) UI.PlayEntry(self.key, self.row.label) end)
-    play:SetScript("OnEnter", function(self)
-      GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-      GameTooltip:AddLine((UI.speaking and UI.playingId == self.key) and L["Stop narration"] or L["Play narration"])
-      GameTooltip:Show()
-    end)
-    play:SetScript("OnLeave", function() GameTooltip:Hide() end)
-    play:Hide()
-    b.play = play
+    -- Rows with a recorded narration get a play button, so you can tell what has a voice without opening it, and
+    -- your target's story also gets a + to queue it.
+    b.play = PlayButton(b)
+    b.play:SetPoint("RIGHT", -2, 0)
+    b.add = QueueButton(b, 18)
+    b.add:SetPoint("RIGHT", b.play, "LEFT", -2, 0)
+    -- Your target: a gold outline, so it's clear why it leads the list.
+    local mark = b:CreateTexture(nil, "BACKGROUND")
+    mark:SetAllPoints()
+    mark:SetColorTexture(1, 0.82, 0, 0.12)
+    mark:Hide()
+    b.mark = mark
     b:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
       if self.primer then GameTooltip:AddLine(L["Dungeon primer: why you're here and who you'll face"])
+      elseif self.target then GameTooltip:AddLine(L["Your target: open their story"])
       elseif self.idx then GameTooltip:AddLine(L["Ask this question"])
       else GameTooltip:AddLine(L["Open the full story"]) end
       if self.play and self.play:IsShown() then
@@ -249,8 +342,53 @@ function UI.Create(engine)
     UI.suggestions[i] = b
   end
 
+  -- Inside a dungeon: its bosses in encounter order, each opening its story, with play, + and "Queue all".
+  UI.bossHeader = Header(hereView, L["Bosses, in order"])
+  local queueAll = TextButton(hereView, 70, 16, "GameFontHighlightSmall", { 0.20, 0.42, 0.14, 0.9 })
+  queueAll.text:SetJustifyH("CENTER")
+  queueAll.text:SetPoint("TOPLEFT", 2, -1)
+  queueAll.text:SetPoint("BOTTOMRIGHT", -2, 1)
+  if queueAll.text.SetWordWrap then queueAll.text:SetWordWrap(false) end
+  queueAll.text:SetText(L["Queue all"])
+  queueAll:SetPoint("BOTTOMRIGHT", UI.bossHeader.rule, "TOPRIGHT", 0, 2)
+  queueAll:SetScript("OnClick", function() UI.QueueBosses(UI.hereBosses) end)
+  queueAll:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(L["Queue all"])
+    GameTooltip:AddLine(L["Adds each narrated boss's story to your playlist, in order. Spoilers stay out."], 1, 1, 1, true)
+    GameTooltip:Show()
+  end)
+  queueAll:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  UI.queueAllButton = queueAll
+  UI.bossButtons = {}
+  for i = 1, 12 do
+    local b = TextButton(hereView, SIDE_W - 16, 22)
+    if b.text.SetWordWrap then b.text:SetWordWrap(false) end
+    b:SetScript("OnClick", function(self) UI.ShowEntry(self.key, "here", self.asked) end)
+    b:SetScript("OnEnter", function(self)
+      GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+      GameTooltip:AddLine(self.name)
+      if self.hook then GameTooltip:AddLine(self.hook, 1, 1, 1, true) end
+      GameTooltip:AddLine(L["Click to open their story"], 0.6, 0.6, 0.6)
+      GameTooltip:Show()
+    end)
+    b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+    b.play = PlayButton(b)
+    b.play:SetPoint("RIGHT", -2, 0)
+    b.add = QueueButton(b, 16)
+    b.add:SetPoint("RIGHT", b.play, "LEFT", -2, 0)
+    local mark = b:CreateTexture(nil, "BACKGROUND")
+    mark:SetAllPoints()
+    mark:SetColorTexture(1, 0.82, 0, 0.12)
+    mark:Hide()
+    b.mark = mark
+    b:Hide()
+    UI.bossButtons[i] = b
+  end
+
   local questHeader = Header(hereView, L["Your quests"])
   questHeader:SetPoint("TOPLEFT", 16, -112 - 5 * 31 - 10)
+  UI.questHeader = questHeader
   UI.questButtons = {}
   for i = 1, 8 do
     local b = TextButton(hereView, SIDE_W - 16, 22)
@@ -305,20 +443,67 @@ function UI.Create(engine)
   local npbg = np:CreateTexture(nil, "BACKGROUND")
   npbg:SetAllPoints()
   npbg:SetColorTexture(0.08, 0.22, 0.10, 0.9)
+  np.bg = npbg
   np.text = np:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
-  np.text:SetPoint("LEFT", 10, 0)
-  np.text:SetPoint("RIGHT", -90, 0)
   np.text:SetJustifyH("LEFT")
   if np.text.SetWordWrap then np.text:SetWordWrap(false) end
-  local npStop = CreateFrame("Button", nil, np, "UIPanelButtonTemplate")
-  npStop:SetSize(76, 22)
-  npStop:SetPoint("RIGHT", -4, 0)
-  npStop:SetText(L["Stop"])
-  npStop:SetScript("OnClick", function() UI.StopAll() end)
-  np.stop = npStop
+  -- With a playlist, a second line says what's next, so it's visible from every tab.
+  np.upNext = np:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+  np.upNext:SetJustifyH("LEFT")
+  if np.upNext.SetWordWrap then np.upNext:SetWordWrap(false) end
+  local function npButton(label, width, onClick)
+    local b = CreateFrame("Button", nil, np, "UIPanelButtonTemplate")
+    b:SetSize(width, 22)
+    b:SetText(label)
+    b:SetScript("OnClick", onClick)
+    return b
+  end
+  np.stop = npButton(L["Stop"], 76, function() UI.StopAll() end)
+  np.stop:SetPoint("RIGHT", -4, 0)
+  -- Playlist transport: Prev · Pause/Play · Next, in place of Stop (Pause is the playlist's Stop). Prev and Next are
+  -- the game's page arrows, so the bar still leaves room for the title on a narrow panel.
+  local function arrowButton(dir, tip, onClick)
+    local b = CreateFrame("Button", nil, np)
+    b:SetSize(26, 26)
+    b:SetNormalTexture("Interface\\Buttons\\UI-SpellbookIcon-" .. dir .. "Page-Up")
+    b:SetPushedTexture("Interface\\Buttons\\UI-SpellbookIcon-" .. dir .. "Page-Down")
+    b:SetDisabledTexture("Interface\\Buttons\\UI-SpellbookIcon-" .. dir .. "Page-Disabled")
+    b:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
+    b:SetScript("OnClick", onClick)
+    b:SetScript("OnEnter", function(self)
+      GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
+      GameTooltip:AddLine(tip)
+      GameTooltip:Show()
+    end)
+    b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+    return b
+  end
+  np.next = arrowButton("Next", L["Next narration"], function() UI.PlaylistNext() end)
+  np.next:SetPoint("RIGHT", -4, 0)
+  np.play = npButton(L["Pause"], 62, function() UI.PlaylistToggle() end)
+  np.play:SetPoint("RIGHT", np.next, "LEFT", -2, 0)
+  np.prev = arrowButton("Prev", L["Previous narration"], function() UI.PlaylistPrev() end)
+  np.prev:SetPoint("RIGHT", np.play, "LEFT", -2, 0)
   np:Hide()
   UI.nowPlaying = np
   UI.CreateHistory(f)
+
+  -- "Added to your playlist: ..." for a few seconds over the bottom of the conversation.
+  local toast = CreateFrame("Frame", nil, f)
+  toast:SetPoint("BOTTOMLEFT", sf, "BOTTOMLEFT", 0, 4)
+  toast:SetPoint("BOTTOMRIGHT", sf, "BOTTOMRIGHT", 0, 4)
+  toast:SetHeight(24)
+  toast:SetFrameLevel((f:GetFrameLevel() or 1) + 10)
+  local tbg = toast:CreateTexture(nil, "BACKGROUND")
+  tbg:SetAllPoints()
+  tbg:SetColorTexture(0.03, 0.03, 0.06, 0.94)
+  toast.text = toast:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+  toast.text:SetPoint("LEFT", 8, 0)
+  toast.text:SetPoint("RIGHT", -8, 0)
+  toast.text:SetJustifyH("LEFT")
+  if toast.text.SetWordWrap then toast.text:SetWordWrap(false) end
+  toast:Hide()
+  UI.toast = toast
 
   -- Suggested replies under the conversation
   UI.nextLabel = f:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
@@ -553,6 +738,7 @@ local function watchPlayback(estimate)
     if playing == false or (playing == nil and elapsed > estimate) or elapsed > 300 then
       UI.speaking, UI.playingId = false, nil
       UI.UpdateListen()
+      UI.OnClipEnded()
     else
       C_Timer.After(1, check)
     end
@@ -560,25 +746,47 @@ local function watchPlayback(estimate)
   C_Timer.After(1, check)
 end
 
--- Play a target. Pressing the one that's playing stops it; pressing anything else switches to it.
-function UI.ListenTo(target)
-  if not target then return end
-  local same = UI.speaking and UI.playingId == target.id
+-- Start a target playing, replacing whatever plays now. Returns true if it started. The playlist plays recordings
+-- only and leaves an open History list alone (it moves on by itself; you didn't just press anything).
+local function startTarget(target, fromPlaylist)
   ns.Voice.Stop()
   UI.speaking, UI.playingId = false, nil
-  if not same and ns.Voice.Narrate(target.key, target.text) then
-    UI.speaking, UI.playingId, UI.playingLabel = true, target.id, target.label
-    if UI.historyFrame then UI.historyFrame:Hide() end
-    watchPlayback(#ns.Voice.Plain(target.text) / 15 + 3)
+  local started = target and (fromPlaylist and ns.Voice.Play(target.key) or ns.Voice.Narrate(target.key, target.text))
+  if not started then return false end
+  UI.speaking, UI.playingId, UI.playingLabel = true, target.id, target.label
+  if UI.historyFrame and not fromPlaylist then UI.historyFrame:Hide() end
+  watchPlayback(#ns.Voice.Plain(target.text) / 15 + 3)
+  return true
+end
+
+-- Play a target. Pressing the one that's playing stops it; pressing anything else switches to it. Playing
+-- something by hand pauses a playing playlist, except the playlist's own current item, which resumes it.
+function UI.ListenTo(target)
+  if not target then return end
+  local pl = UI.pl
+  if UI.speaking and UI.playingId == target.id then return UI.StopAll() end
+  local cur = pl.items[pl.pos]
+  if cur and cur.id == target.id then
+    pl.state = "playing"
+    if not startTarget(target) then pl.state = "paused" end
+  else
+    if pl.state == "playing" then pl.state = "paused" end
+    startTarget(target)
   end
   UI.UpdateListen()
 end
 
--- Stop any narration or read-aloud, whatever started it.
+-- Stop any narration or read-aloud, whatever started it. A playlist pauses at the item it was on.
 function UI.StopAll()
   ns.Voice.Stop()
   UI.speaking, UI.playingId = false, nil
+  if UI.pl.state ~= "paused" then UI.pl.state = "paused" end
   UI.UpdateListen()
+end
+
+-- Whether anything is playing, or a playlist is between two items.
+function UI.IsBusy()
+  return UI.speaking or UI.pl.state == "playing"
 end
 
 -- Play an entry's narration and show its story in the chat, so what you hear is always on screen. Pressing it
@@ -593,25 +801,92 @@ end
 
 -- The "Now playing" bar pinned above the conversation, and the Stop button on the menu-bar book: both visible
 -- whenever something plays, so stopping never means scrolling back to the bubble that started it.
+-- With a playlist the bar has two lines and Prev · Pause/Play · Next in place of Stop, and it stays up while the
+-- playlist is paused so it can be resumed from any tab.
 function UI.UpdateNowPlaying()
-  local bar, playing = UI.nowPlaying, UI.speaking
+  local bar, playing, pl = UI.nowPlaying, UI.speaking, UI.pl
+  local n = #pl.items
+  local list, cur = n > 0, pl.items[pl.pos]
   if bar then
-    bar:SetShown(playing)
-    if playing then
-      bar.text:SetText(GREEN .. L["Now playing:"] .. "|r " .. WHITE .. esc(UI.playingLabel or L["narration"]) .. "|r")
+    local show = playing or list
+    bar:SetShown(show)
+    bar:SetHeight(list and 38 or 28)
+    bar.bg:SetColorTexture(0.08, 0.22, 0.10, 0.9)
+    bar.stop:SetShown(not list)
+    bar.prev:SetShown(list)
+    bar.play:SetShown(list)
+    bar.next:SetShown(list)
+    bar.upNext:SetShown(list)
+    bar.text:ClearAllPoints()
+    if list then
+      -- Play/Pause fits its label (German runs longer); the text gets the rest of the width.
+      bar.play:SetText(pl.state == "playing" and L["Pause"] or L["Play"])
+      local tw = bar.play.GetTextWidth and tonumber(bar.play:GetTextWidth())
+      local pw = math.max(56, (tw or 40) + 22)
+      bar.play:SetWidth(pw)
+      local right = -(4 + 26 + 2 + pw + 2 + 26 + 8)
+      bar.text:SetPoint("TOPLEFT", 10, -5)
+      bar.text:SetPoint("TOPRIGHT", bar, "TOPRIGHT", right, -5)
+      bar.upNext:ClearAllPoints()
+      bar.upNext:SetPoint("TOPLEFT", 10, -21)
+      bar.upNext:SetPoint("TOPRIGHT", bar, "TOPRIGHT", right, -21)
+      -- The count leads the second line, so a narrow panel cuts the next title, not the count.
+      local count = GREY .. string.format(L["%d of %d"], pl.pos, n) .. "  |r"
+      local nxt = pl.items[pl.pos + 1]
+      local upNext = count .. (nxt and (GOLD .. L["Up next:"] .. "|r " .. esc(nxt.label))
+        or (GREY .. L["Last in your playlist"] .. "|r"))
+      if pl.state == "playing" or (pl.state == "waiting" and not playing) then
+        bar.text:SetText(GREEN .. L["Now playing:"] .. "|r " .. WHITE .. esc(cur.label) .. "|r")
+        bar.upNext:SetText(upNext)
+      elseif playing then
+        -- Something played by hand while the playlist waits.
+        bar.text:SetText(GREEN .. L["Now playing:"] .. "|r " .. WHITE .. esc(UI.playingLabel or L["narration"]) .. "|r")
+        bar.upNext:SetText(count .. GOLD .. (pl.state == "waiting" and L["Then your playlist:"] or L["Playlist paused at:"])
+          .. "|r " .. esc(cur.label))
+      else
+        bar.bg:SetColorTexture(0.16, 0.14, 0.10, 0.92)
+        bar.text:SetText(GOLD .. L["Paused:"] .. "|r " .. WHITE .. esc(cur.label) .. "|r")
+        bar.upNext:SetText(upNext)
+      end
+    else
+      bar.text:SetPoint("LEFT", 10, 0)
+      bar.text:SetPoint("RIGHT", -90, 0)
+      if playing then
+        bar.text:SetText(GREEN .. L["Now playing:"] .. "|r " .. WHITE .. esc(UI.playingLabel or L["narration"]) .. "|r")
+      end
     end
     UI.scroll:ClearAllPoints()
-    UI.scroll:SetPoint("TOPLEFT", CHAT_X, playing and -92 or -64)
+    UI.scroll:SetPoint("TOPLEFT", CHAT_X, show and (list and -102 or -92) or -64)
     UI.scroll:SetPoint("BOTTOMRIGHT", -34, 128)
   end
   local l = _G.LoreForeverLauncher
-  if l and l.stop then l.stop:SetShown(playing and l:IsShown()) end
+  if l and l.stop then l.stop:SetShown(UI.IsBusy() and l:IsShown()) end
+  if ns.SetButtonsPlaying then ns.SetButtonsPlaying(UI.IsBusy()) end
+  local tab = UI.playlistTab
+  if tab then
+    -- The count sits on its own at the tab's right edge, so a long translation cuts the label, not the count.
+    tab.count:SetText(list and (GREEN .. n .. "|r") or "")
+    tab.text:SetPoint("BOTTOMRIGHT", list and -18 or -2, 2)
+  end
+  if UI.tab == "playlist" and UI.plView then UI.RefreshPlaylist() end
 end
 
 function UI.UpdateListen()
   UI.UpdateNowPlaying()
   local canTTS = ns.Voice.Available()
   if UI.tab == "narrations" and UI.narrRows then UI.RefreshNarrations() end
+  -- The Here tab's + buttons follow the playlist (a check once queued).
+  for _, b in ipairs(UI.bossButtons or {}) do
+    if b:IsShown() and b.add:IsShown() then SetQueueButton(b.add, b.key) end
+  end
+  for _, b in ipairs(UI.suggestions or {}) do
+    if b:IsShown() and b.target and b.add:IsShown() then SetQueueButton(b.add, b.key) end
+  end
+  for _, b in ipairs(UI.bubbles or {}) do
+    for _, r in ipairs(b.rows) do
+      if r:IsShown() then SetQueueButton(r.add, r.key) end
+    end
+  end
   for _, b in ipairs(UI.bubbles or {}) do
     -- Recorded narrations say "Listen"; everything else says "Read aloud" (the game's own voice), so the two are
     -- never confused. Heroes (the welcome card) use their big action button instead.
@@ -622,6 +897,18 @@ function UI.UpdateListen()
       b.listen:SetText(playing and L["Stop"] or (recorded and L["Listen"] or L["Read aloud"]))
       b.listen.recorded = recorded
       b.listen:SetShown(recorded or canTTS)
+      -- "Add to playlist" beside Listen on recorded stories and answers.
+      local qk, qi = UI.QueueRef(t)
+      local can = recorded and qk and UI.CanQueue(qk, qi)
+      b.queue:SetShown(can and b.listen:IsShown() or false)
+      if can then
+        local queued = UI.PlaylistIndex(t.id) ~= nil
+        b.queue:SetText(queued and L["In playlist"] or L["Add to playlist"])
+        local qw = b.queue.GetTextWidth and tonumber(b.queue:GetTextWidth())
+        b.queue:SetWidth(math.max(90, (qw or 90) + 20))
+      end
+    elseif b.queue then
+      b.queue:Hide()
     end
     if b.isHero and b.action.target then
       local playing = UI.speaking and UI.playingId == b.action.target.id
@@ -637,7 +924,9 @@ function UI.UpdateListen()
       z:SetText((UI.speaking and UI.playingId == zt.id) and L["Stop"]
         or string.format(ns.Voice.HasAudio(zt.key) and L["Listen: %s"] or L["Read aloud: %s"], name))
       local tw = z.GetTextWidth and tonumber(z:GetTextWidth())
-      z:SetWidth(math.max(90, math.min(230, (tw or 150) + 24)))
+      -- Narrower on a narrow panel, so the place line keeps some room.
+      local fw = UI.frame and tonumber(UI.frame:GetWidth()) or W
+      z:SetWidth(math.max(90, math.min(230, fw - SIDE_W - 200, (tw or 150) + 24)))
     end
     UI.contextLine:ClearAllPoints()
     UI.contextLine:SetPoint("TOPLEFT", 16, -34)
@@ -739,6 +1028,29 @@ local function bubbleAt(i)
       GameTooltip:Show()
     end)
     listen:SetScript("OnLeave", function() GameTooltip:Hide() end)
+    local queue = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
+    queue:SetSize(110, 18)
+    queue:SetPoint("RIGHT", listen, "LEFT", -4, 0)
+    queue:SetText(L["Add to playlist"])
+    -- Works like the + on the Narrations tab: adds, and once added, takes it out again.
+    queue:SetScript("OnClick", function()
+      local t = listen.target
+      local at = t and UI.PlaylistIndex(t.id)
+      if at then UI.PlaylistRemove(at) else UI.PlaylistAdd(UI.QueueRef(t)) end
+    end)
+    queue:SetScript("OnEnter", function(self)
+      GameTooltip:SetOwner(self, "ANCHOR_TOP")
+      if listen.target and UI.PlaylistIndex(listen.target.id) then
+        GameTooltip:AddLine(L["In your playlist"])
+        GameTooltip:AddLine(L["Click to take it out."], 1, 1, 1)
+      else
+        GameTooltip:AddLine(L["Add to playlist"])
+        GameTooltip:AddLine(L["Queues this narration after the others in your playlist (Playlist tab)."], 1, 1, 1, true)
+      end
+      GameTooltip:Show()
+    end)
+    queue:SetScript("OnLeave", function() GameTooltip:Hide() end)
+    queue:Hide()
     -- The welcome card's big "hear the story" button.
     local action = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
     action:SetSize(300, 26)
@@ -747,10 +1059,53 @@ local function bubbleAt(i)
       if self.target then UI.PlayEntry(self.target.key, self.label) end
     end)
     action:Hide()
-    b = { frame = f, bg = bg, fs = fs, listen = listen, action = action }
+    b = { frame = f, bg = bg, fs = fs, listen = listen, queue = queue, action = action, rows = {} }
     UI.bubbles[i] = b
   end
   return b
+end
+
+-- A clickable boss row inside a bubble (the primer's "Who you'll face"): opens that boss's story, with play and +.
+local function bossRow(parent)
+  local r = TextButton(parent, 100, 20)
+  r.text:ClearAllPoints()
+  r.text:SetPoint("TOPLEFT", 6, -3)
+  r:SetScript("OnClick", function(self) UI.ShowEntry(self.key, "primer", self.asked) end)
+  r:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(L["Click to open their story"])
+    GameTooltip:Show()
+  end)
+  r:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  r.play = PlayButton(r)
+  r.play:SetPoint("TOPRIGHT", -2, 0)
+  r.add = QueueButton(r, 16)
+  r.add:SetPoint("TOPRIGHT", -26, -2)
+  return r
+end
+
+-- Lay out a message's boss rows under its text; returns the bubble's new height.
+local function layoutRows(b, m, w, h)
+  local y = h - PAD + 4
+  for j, row in ipairs(m.rows or {}) do
+    local r = b.rows[j] or bossRow(b.frame)
+    b.rows[j] = r
+    r.key, r.asked = row.key, string.format(L["Who is %s?"], row.name)
+    r:SetWidth(w - 2 * PAD + 8)
+    r.text:SetWidth(w - 2 * PAD - 52)
+    r.text:SetText(GREY .. j .. ".|r " .. GOLD .. esc(row.name) .. "|r " .. WHITE .. esc(row.hook or "") .. "|r")
+    local rh = math.max(22, (tonumber(r.text:GetStringHeight()) or 14) + 6)
+    r:SetHeight(rh)
+    r:ClearAllPoints()
+    r:SetPoint("TOPLEFT", b.frame, "TOPLEFT", PAD - 6, -y)
+    r.play.key, r.play.label = row.key, r.asked
+    r.play:SetShown(ns.Voice.HasAudio(row.key))
+    SetQueueButton(r.add, row.key)
+    r:Show()
+    y = y + rh
+  end
+  for j = #(m.rows or {}) + 1, #b.rows do b.rows[j]:Hide() end
+  return m.rows and (y + PAD) or h
 end
 
 -- Lay out every message as a bubble: your questions on the right, lore on the left, notes centred in grey.
@@ -768,6 +1123,7 @@ function UI.Layout()
   for _, b in ipairs(UI.completion and UI.completion.rows or {}) do b:SetWidth(w - 10) end
   for _, b in ipairs(UI.historyFrame and UI.historyFrame.rows or {}) do b:SetWidth(w) end
   if UI.msgs then UI.Render(true) end
+  if UI.msgs and #UI.msgs > 0 then UI.Refresh() end   -- a taller panel fits more of the Here list
 end
 
 function UI.Render(keepScroll)
@@ -806,11 +1162,13 @@ function UI.Render(keepScroll)
     end
     fs:SetPoint("TOPLEFT", f, "TOPLEFT", PAD, -PAD)
     local h = (fs:GetStringHeight() or 14) + 2 * PAD
+    if m.rows or #b.rows > 0 then h = layoutRows(b, m, w, h) end
     m.y = y
     b.listen.target = m.target
     b.isHero = m.role == "hero"
     b.action.target, b.action.label = nil, nil
     b.action:Hide()
+    b.queue:Hide()   -- UpdateListen shows it on recorded answers
     -- Only reserve room for Listen when there's something to play (a recording, or Read aloud turned on).
     local canPlay = m.target and (ns.Voice.HasAudio(m.target.key) or ns.Voice.Available())
     if m.role == "lore" and canPlay then
@@ -855,7 +1213,8 @@ end
 
 -- Add a message. role: "user" | "lore" | "note". target: what its Listen button plays (lore only).
 local msgSeq = 0
-function UI.AddMessage(role, text, target, actionLabel)
+-- rows (lore only): clickable boss rows under the text, { {key, name, hook}, ... } (the dungeon primer).
+function UI.AddMessage(role, text, target, actionLabel, rows)
   msgSeq = msgSeq + 1
   if UI.historyFrame then UI.historyFrame:Hide() end
   if role == "lore" and not target then
@@ -866,8 +1225,11 @@ function UI.AddMessage(role, text, target, actionLabel)
   end
   finishTyping()
   local animate = role == "lore" and settings().typing ~= false
-  table.insert(UI.msgs, { role = role, text = text, target = target, actionLabel = actionLabel, animate = animate })
-  table.insert(UI.blocks, text)
+  table.insert(UI.msgs, { role = role, text = text, target = target, actionLabel = actionLabel, animate = animate,
+    rows = rows })
+  local lines = {}
+  for i, r in ipairs(rows or {}) do lines[#lines + 1] = i .. ". " .. esc(r.name) .. " " .. esc(r.hook or "") end
+  table.insert(UI.blocks, #lines > 0 and (text .. "\n" .. table.concat(lines, "\n")) or text)
   while #UI.msgs > MAX_MESSAGES do
     table.remove(UI.msgs, 1)
     table.remove(UI.blocks, 1)
@@ -926,32 +1288,86 @@ function UI.Refresh()
   ns.Log.Map(ctx)
   UI.contextLine:SetText(esc(ns.Context.Describe(ctx)):gsub("||c", "|c"):gsub("||r", "|r"))
 
-  local here, placeName = UI.HereItems(ctx)
+  local here, placeName, bosses, targetKey = UI.HereItems(ctx)
   UI.hereHeader:SetText(string.format(L["Here: %s"], esc(placeName or "?")))
+  -- The Here list flows top to bottom: stories and questions, the dungeon's bosses, then your quests, stopping
+  -- above the colour hint at the bottom (the panel can be resized taller for more).
+  local fh = tonumber(UI.frame:GetHeight()) or H
+  local bottom = -(fh - 44)
+  local y = -112
   for i, b in ipairs(UI.suggestions) do
     local s = here[i]
     if s then
-      b.key, b.idx, b.primer, b.label = s.key, s.idx, s.primer, s.label
+      b.key, b.idx, b.primer, b.label, b.target = s.key, s.idx, s.primer, s.label, s.target
       b.text:SetText((s.gold and GOLD or WHITE) .. esc(s.label) .. "|r")
-      local narrated = not s.idx and ns.Voice.HasAudio(s.key or (s.primer and "zone:" .. s.primer))
-      b.play.key = s.key or (s.primer and "zone:" .. s.primer)
+      local story = s.key or (s.primer and "zone:" .. s.primer)
+      local narrated = not s.idx and ns.Voice.HasAudio(story)
+      b.play.key, b.play.label = story, s.label
       b.play:SetShown(narrated)
-      b.text:SetPoint("BOTTOMRIGHT", narrated and -26 or -6, 2)
+      local queued = s.target and SetQueueButton(b.add, s.key)
+      if not s.target then b.add:Hide() end
+      b.mark:SetShown(s.target or false)
+      b.text:SetPoint("BOTTOMRIGHT", (narrated and -26 or -6) - (queued and 22 or 0), 2)
+      b:ClearAllPoints()
+      b:SetPoint("TOPLEFT", 12, y)
+      y = y - 31
       b:Show()
     else
       b:Hide()
     end
   end
 
+  UI.hereBosses = bosses
+  local nb = 0
+  if bosses and #bosses > 0 then
+    UI.bossHeader:ClearAllPoints()
+    UI.bossHeader:SetPoint("TOPLEFT", 16, y - 6)
+    y = y - 26
+    local anyQueue = false
+    for i, bk in ipairs(bosses) do
+      local b = UI.bossButtons[i]
+      if not b or y - 22 < bottom then break end
+      local e = UI.engine.db.entries[bk]
+      local name = bossName(e)
+      b.key, b.name, b.hook = bk, name, e.h or e.s
+      b.asked = string.format(L["Who is %s?"], name)
+      b.text:SetText(GREY .. i .. ".|r " .. (bk == targetKey and GOLD or WHITE) .. esc(name) .. "|r")
+      local narrated = ns.Voice.HasAudio(bk)
+      b.play.key, b.play.label = bk, b.asked
+      b.play:SetShown(narrated)
+      local queued = SetQueueButton(b.add, bk)
+      anyQueue = anyQueue or queued
+      b.mark:SetShown(bk == targetKey)
+      b.text:SetPoint("BOTTOMRIGHT", (narrated and -26 or -6) - (queued and 22 or 0), 2)
+      b:ClearAllPoints()
+      b:SetPoint("TOPLEFT", 12, y)
+      y = y - 22
+      b:Show()
+      nb = i
+    end
+    UI.queueAllButton:SetShown(anyQueue)
+    y = y - 6
+  end
+  UI.bossHeader:SetShown(nb > 0)
+  UI.bossHeader.rule:SetShown(nb > 0)
+  if nb == 0 then UI.queueAllButton:Hide() end
+  for i = nb + 1, #UI.bossButtons do UI.bossButtons[i]:Hide() end
+
   local db, n = UI.engine.db, 0
+  UI.questHeader:ClearAllPoints()
+  UI.questHeader:SetPoint("TOPLEFT", 16, y - 10)
+  y = y - 28
   for _, q in ipairs(ctx.quests or {}) do
     local key = db.index.quest[q.id] or (q.title and db.index.questTitle and db.index.questTitle[ns.Engine.lower(q.title)])
+    local b = UI.questButtons[n + 1]
+    if not b or y - 22 < bottom then break end
     n = n + 1
-    local b = UI.questButtons[n]
-    if not b then break end
     b.key, b.quest = key, q
     -- Quests without written lore still open: the game's own quest text plus the area's story.
     b.text:SetText((key and GOLD or GREY) .. esc(q.title) .. "|r")
+    b:ClearAllPoints()
+    b:SetPoint("TOPLEFT", 12, y)
+    y = y - 23
     b:Show()
   end
   for i = n + 1, #UI.questButtons do UI.questButtons[i]:Hide() end
@@ -1000,27 +1416,51 @@ function UI.ShowWelcome(ctx, placeName, here)
 end
 
 -- The "Here" list: your target, the subzone and zone stories (or the dungeon primer), then their top questions.
+-- Also returns the dungeon's bosses in encounter order (inside a dungeon), and your target's key when it's someone
+-- in particular (UI.TargetKey).
+-- Where you are, as entries: the zone key, its zones[] record, its story's key, and the subzone's story's key (a
+-- place, not a quest). Any of them can be nil.
+local function herePlace(ctx)
+  local db = UI.engine.db
+  local zk = UI.engine:ZoneKey(ctx.zone)
+  local z = zk and db.zones and db.zones[zk]
+  local zkey = zk and db.entries["zone:" .. zk] and "zone:" .. zk
+  local sub = ctx.subzone and ctx.subzone ~= ctx.zone and db.index.name[ns.Engine.lower(ctx.subzone)]
+  if sub and not (db.entries[sub] and db.entries[sub].t ~= "quest") then sub = nil end
+  local place = (sub and db.entries[sub].n) or (zkey and db.entries[zkey].n) or ctx.subzone or ctx.zone
+  if sub and zkey then place = db.entries[sub].n .. ", " .. db.entries[zkey].n end
+  return zk, z, zkey, sub, place
+end
+
 function UI.HereItems(ctx)
   local db, eng, items, seen = UI.engine.db, UI.engine, {}, {}
+  local zk, z, zkey, sub, place = herePlace(ctx)
+  local bosses = {}
+  if z and z.t == "dungeon" then
+    for _, bk in ipairs(z.b or {}) do
+      if db.entries[bk] then bosses[#bosses + 1] = bk end
+    end
+  end
+  -- With a boss list below, fewer rows above it, so the bosses and your quests still fit.
+  local cap = #bosses > 0 and 3 or #UI.suggestions
   local function add(it)
     local id = (it.key or "") .. ":" .. tostring(it.idx or it.primer or "")
-    if not seen[id] and #items < #UI.suggestions then
+    if not seen[id] and #items < cap then
       seen[id] = true
       items[#items + 1] = it
     end
   end
-  if ctx.targetName then
+  local targetKey = ctx.targetName and UI.TargetKey(ctx.targetName)
+  if targetKey then
+    add({ key = targetKey, label = string.format(L["Who is %s?"], bossName(db.entries[targetKey])), gold = true,
+      target = true })
+  elseif ctx.targetName then
     local tkey, how = eng:KeyForName(ctx.targetName)
     if tkey then
       add({ key = tkey, label = how == "mob" and string.format(L["About the %s"], db.entries[tkey].n)
         or string.format(L["Who is %s?"], ctx.targetName) })
     end
   end
-  local zk = eng:ZoneKey(ctx.zone)
-  local z = zk and db.zones and db.zones[zk]
-  local zkey = zk and db.entries["zone:" .. zk] and "zone:" .. zk
-  local sub = ctx.subzone and ctx.subzone ~= ctx.zone and db.index.name[ns.Engine.lower(ctx.subzone)]
-  if sub and not (db.entries[sub] and db.entries[sub].t ~= "quest") then sub = nil end
   if z and z.t == "dungeon" and zkey then
     add({ primer = zk, label = string.format(L["Dungeon primer: %s"], z.n), gold = true })
   end
@@ -1028,16 +1468,64 @@ function UI.HereItems(ctx)
   if zkey and not (z and z.t == "dungeon") then
     add({ key = zkey, label = string.format(L["The story of %s"], db.entries[zkey].n), gold = true })
   end
+  -- The place's questions in the engine's order: the obvious ones first ("How did I end up here?"), no spoilers
+  -- or gameplay filler.
+  local ranked = {}
+  for _, k in ipairs({ sub or false, zkey or false }) do
+    if k then ranked[k] = ns.Engine.RankedFaq(db.entries[k], ctx.race) end
+  end
   for round = 1, 3 do
     for _, k in ipairs({ sub or false, zkey or false }) do
-      local f = k and db.entries[k].faq and db.entries[k].faq[round]
-      if f and f.sp then f = nil end
-      if f then add({ key = k, idx = round, label = f.q }) end
+      local i = k and ranked[k][round]
+      if i then add({ key = k, idx = i, label = db.entries[k].faq[i].q }) end
     end
   end
-  local place = (sub and db.entries[sub].n) or (zkey and db.entries[zkey].n) or ctx.subzone or ctx.zone
-  if sub and zkey then place = db.entries[sub].n .. ", " .. db.entries[zkey].n end
-  return items, place
+  return items, place, bosses, targetKey
+end
+
+-- Dungeon bosses ---------------------------------------------------------------------------------------------------
+-- Each dungeon lists its bosses in encounter order (zones[zk].b). They're the main characters of a dungeon, so
+-- they're easy to reach: target one and open the panel, click one in the primer or the Here tab, or queue them all.
+
+-- Where a key sits in a dungeon's boss list: { zk = "deadmines", i = 8 }, or nil if it isn't a boss.
+function UI.BossOf(key)
+  if not UI.bossIndex then
+    UI.bossIndex = {}
+    for zk, z in pairs(UI.engine.db.zones or {}) do
+      for i, bk in ipairs(z.b or {}) do UI.bossIndex[bk] = { zk = zk, i = i } end
+    end
+  end
+  return key and UI.bossIndex[key]
+end
+
+-- The entry for a targeted NPC when it's someone in particular: a boss, or anyone with an entry of their own.
+-- Creature types ("About the gnolls") don't count; those would open on every mob you fight.
+function UI.TargetKey(name)
+  local key, how = UI.engine:KeyForName(name)
+  local e = key and how ~= "mob" and UI.engine.db.entries[key]
+  if e and (e.t == "npc" or UI.BossOf(key)) then return key end
+end
+
+-- Opening the panel (book, minimap button, key, /lore) with someone in particular targeted also opens their story,
+-- once per target: reopening with the same target doesn't post it again. Returns true if it did.
+function UI.OpenTarget()
+  if not UI.frame then return false end
+  local name = ns.Context.NPCName("target")
+  local key = name and UI.TargetKey(name)
+  if not key or key == UI.targetOpened or UI.engine.lastKey == key then return false end
+  UI.targetOpened = key
+  if not UI.frame:IsShown() then UI.frame:Show() end
+  UI.ShowEntry(key, "target", string.format(L["Who is %s?"], bossName(UI.engine.db.entries[key])))
+  return true
+end
+
+-- Add each boss's story to the playlist in order: recorded ones only, overviews only (never a spoiler section).
+function UI.QueueBosses(bosses)
+  local n = 0
+  for _, bk in ipairs(bosses or {}) do
+    if UI.CanQueue(bk) and not UI.PlaylistIndex(bk) and UI.PlaylistAdd(bk) then n = n + 1 end
+  end
+  return n
 end
 
 -- Narrations tab -----------------------------------------------------------------------------------------------------
@@ -1074,7 +1562,7 @@ function UI.CreateNarrations(view)
   note:SetWidth(SIDE_W - 20)
   note:SetJustifyH("LEFT")
   if note.SetWordWrap then note:SetWordWrap(false) end
-  note:SetText(L["Click to listen. +N: narrated questions."])
+  note:SetText(L["Click to listen. Green + adds to your playlist."])
   local empty = content:CreateFontString(nil, "OVERLAY", "GameFontDisable")
   empty:SetPoint("TOPLEFT", 4, -8)
   empty:SetWidth(SIDE_W - 50)
@@ -1088,6 +1576,7 @@ end
 -- Chat already posted keeps its "(narrated)" tags; new answers follow the new voice.
 function UI.OnVoiceChanged()
   if not UI.frame then return end
+  UI.PlaylistVoiceChanged()
   UI.UpdateListen()
   UI.Refresh()
 end
@@ -1103,12 +1592,21 @@ function UI.NarrationItems(ctx)
     local f = ent and ent.faq and ent.faq[fi]
     if base and f and not f.sp then faqs[base] = (faqs[base] or 0) + 1 end
   end
+  -- Recorded bosses go under their dungeon (opened with its count button), not in "More stories".
+  local bosses = {}
+  for k in pairs(audio) do
+    local at = not k:find("#") and db.entries[k] and UI.BossOf(k)
+    if at then
+      bosses["zone:" .. at.zk] = (bosses["zone:" .. at.zk] or 0) + 1
+      used[k] = true
+    end
+  end
   local function group(title, keys)
     local rows = {}
     for _, k in ipairs(keys) do
       if audio[k] and db.entries[k] and not used[k] then
         used[k] = true
-        rows[#rows + 1] = { key = k, label = db.entries[k].n, faqs = faqs[k] }
+        rows[#rows + 1] = { key = k, label = db.entries[k].n, faqs = faqs[k], bosses = bosses[k] }
       end
     end
     if #rows > 0 then
@@ -1145,13 +1643,23 @@ function UI.PlayFaq(key, idx)
   UI.ListenTo(target)
 end
 
--- Rows: group headers, stories (click to play; "+N" expands their narrated questions), and the questions themselves.
+-- Rows: group headers, stories (click to play; the count button expands a dungeon's bosses and a story's narrated
+-- questions), and the bosses and questions themselves.
 local function narrationRows()
   local audio, rows = ns.Voice.Clips(), {}
   for _, it in ipairs(UI.NarrationItems(UI.ctx or ns.Context.Snapshot())) do
     rows[#rows + 1] = it
-    if it.key and it.faqs and UI.narrOpen[it.key] then
+    it.more = it.key and ((it.faqs or 0) + (it.bosses or 0)) or 0
+    if it.more == 0 then it.more = nil end
+    if it.more and UI.narrOpen[it.key] then
       local e = UI.engine.db.entries[it.key]
+      local z = it.bosses and UI.engine.db.zones[it.key:match("^zone:(.+)$") or ""]
+      for i, bk in ipairs(z and z.b or {}) do
+        if audio[bk] and UI.engine.db.entries[bk] then
+          local name = bossName(UI.engine.db.entries[bk])
+          rows[#rows + 1] = { key = bk, label = i .. ". " .. name, name = name, child = true }
+        end
+      end
       for i, f in ipairs(e.faq or {}) do
         if audio[it.key .. "#faq" .. i] and not f.sp then
           rows[#rows + 1] = { key = it.key, idx = i, label = f.q, child = true }
@@ -1186,30 +1694,43 @@ function UI.RefreshNarrations()
         if self.idx then UI.PlayFaq(self.key, self.idx)
         elseif self.key then UI.PlayEntry(self.key, string.format(L["Tell me the story of %s"], self.name)) end
       end)
-      -- "+N" / "hide": opens or closes the story's narrated questions.
+      -- "N" and an arrow: opens or closes the story's N narrated questions. (Not "+N": the green + adds to the playlist.)
       local more = TextButton(row, 44, ROW_H - 2, "GameFontNormalSmall", { 0.25, 0.20, 0.10, 0.7 })
       more:SetPoint("RIGHT", -2, 0)
       more.text:SetJustifyH("CENTER")
+      more.text:SetPoint("BOTTOMRIGHT", -16, 2)
+      local arrow = more:CreateTexture(nil, "ARTWORK")
+      arrow:SetSize(20, 20)
+      arrow:SetPoint("RIGHT", -3, 0)
+      more.arrow = arrow
       more:SetScript("OnClick", function(self)
         UI.narrOpen[self.key] = not UI.narrOpen[self.key] or nil
         UI.RefreshNarrations()
       end)
       more:SetScript("OnEnter", function(self)
         GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-        GameTooltip:AddLine(UI.narrOpen[self.key] and L["Hide narrated questions"] or L["Show narrated questions"])
+        local open = UI.narrOpen[self.key]
+        if self.bosses then
+          GameTooltip:AddLine(open and L["Hide its bosses and narrated questions"] or L["Show its bosses and narrated questions"])
+        else
+          GameTooltip:AddLine(open and L["Hide narrated questions"] or L["Show narrated questions"])
+        end
+        GameTooltip:AddLine(L["Each has its own + to add it to your playlist."], 1, 1, 1, true)
         GameTooltip:Show()
       end)
       more:SetScript("OnLeave", function() GameTooltip:Hide() end)
       row.more = more
+      row.add = QueueButton(row, ROW_H - 4)
       UI.narrRows[i] = row
     end
     row:ClearAllPoints()
     row:SetPoint("TOPLEFT", 0, -y)
-    row.key, row.idx, row.name = it.key, it.idx, it.label
-    row.full = not it.header and it.label or nil
+    row.key, row.idx, row.name = it.key, it.idx, it.name or it.label
+    row.full = not it.header and (it.name or it.label) or nil
     row:EnableMouse(not it.header)
-    row.more.key = it.key
+    row.more.key, row.more.bosses = it.key, it.bosses
     row.more:Hide()
+    row.add:Hide()
     if it.header then
       row.key = nil
       row.icon:Hide()
@@ -1225,13 +1746,20 @@ function UI.RefreshNarrations()
       row.icon:SetPoint("LEFT", 2 + indent, 0)
       row.icon:SetSize(it.child and 12 or 16, it.child and 12 or 16)
       row.icon:Show()
+      local canQueue = SetQueueButton(row.add, it.key, it.idx)
       row.text:SetPoint("TOPLEFT", 22 + indent, -2)
-      row.text:SetPoint("BOTTOMRIGHT", it.faqs and -50 or -4, 2)
+      row.text:SetPoint("BOTTOMRIGHT", (it.more and -50 or -4) - (canQueue and 24 or 0), 2)
       local color = playing and GREEN or (it.child and "|cffd8d8d8" or WHITE)
       row.text:SetText(color .. esc(it.label) .. "|r" .. (playing and (GREY .. "  " .. L["playing"] .. "|r") or ""))
-      if it.faqs then
-        row.more.text:SetText(UI.narrOpen[it.key] and L["hide"] or ("+" .. it.faqs))
+      if it.more then
+        row.more.text:SetText(tostring(it.more))
+        row.more.arrow:SetTexture(UI.narrOpen[it.key] and "Interface\Buttons\UI-ScrollBar-ScrollUpButton-Up"
+          or "Interface\Buttons\UI-ScrollBar-ScrollDownButton-Up")
         row.more:Show()
+      end
+      if canQueue then
+        row.add:ClearAllPoints()
+        if it.more then row.add:SetPoint("RIGHT", row.more, "LEFT", -4, 0) else row.add:SetPoint("RIGHT", -2, 0) end
       end
       y = y + ROW_H
     end
@@ -1246,8 +1774,450 @@ function UI.ShowTab(view)
   UI.tab = view
   UI.hereView:SetShown(view == "here")
   UI.narrView:SetShown(view == "narrations")
+  UI.plView:SetShown(view == "playlist")
   for _, t in ipairs(UI.tabs) do t.on:SetShown(t.view == view) end
   if view == "narrations" then UI.RefreshNarrations() end
+  if view == "playlist" then UI.RefreshPlaylist() end
+end
+
+-- Playlist ---------------------------------------------------------------------------------------------------------
+-- A queue of recorded narrations you build with + (Narrations tab) or "Add to playlist" (chat). It plays them in
+-- order with a short gap between. Stop anywhere pauses it at the current item; playing something by hand pauses it;
+-- flight narration waits for it. State is in UI.pl (top of the file).
+
+local GAP = 1.5   -- seconds between two items
+
+-- The entry key and FAQ index behind a play target ("zone:elwynn#faq2" -> "zone:elwynn", 2), or nil for targets
+-- that aren't a recorded story or answer (read-aloud answers have no key).
+function UI.QueueRef(t)
+  local key = t and t.key
+  if not key then return nil end
+  local base, fi = key:match("^(.-)#faq(%d+)$")
+  if base then return base, tonumber(fi) end
+  return key, nil
+end
+
+-- Whether a story or answer can go in the playlist: it's recorded, and not a spoiler you haven't chosen to see.
+function UI.CanQueue(key, idx)
+  if not key then return false end
+  local e = UI.engine and UI.engine.db.entries[key]
+  if not e or not ns.Voice.HasAudio(idx and (key .. "#faq" .. idx) or key) then return false end
+  local f = idx and e.faq and e.faq[idx]
+  if idx and not f then return false end
+  return not (f and f.sp and not settings().showSpoilers)
+end
+
+function UI.PlaylistIndex(id)
+  for i, it in ipairs(UI.pl.items) do
+    if it.id == id then return i end
+  end
+end
+
+-- Play items[pos], posting its story or Q&A in the chat when the panel is open (read along); closed, nothing is posted.
+local function playCurrent()
+  local pl = UI.pl
+  local it = pl.items[pl.pos]
+  if not it then return end
+  pl.token = nil
+  -- Recorded narrations only: never the game's text-to-speech (the voice may have changed since it was queued).
+  if not ns.Voice.HasAudio(it.id) then
+    pl.state = "paused"
+    return UI.UpdateListen()
+  end
+  -- Read along in the chat, unless you're looking through past chats.
+  if UI.frame and UI.frame:IsShown() and not (UI.historyFrame and UI.historyFrame:IsShown()) then
+    if it.idx then UI.ShowFaq(it.key, it.idx, "playlist")
+    else UI.ShowEntry(it.key, "playlist", string.format(L["Tell me the story of %s"], it.label)) end
+  end
+  local target = it.idx and UI.FaqTarget(it.key, it.idx) or UI.EntryTarget(it.key)
+  -- State first: if the clip ends at once, its end handler must see the playlist as playing.
+  pl.state = "playing"
+  if not startTarget(target, true) then pl.state = "paused" end
+  UI.UpdateListen()
+end
+
+-- A clip ended on its own (watchPlayback). Move the playlist on after a short gap, unless something else starts first.
+function UI.OnClipEnded()
+  local pl = UI.pl
+  if pl.state ~= "playing" and pl.state ~= "waiting" then return end
+  if pl.state == "playing" then
+    if pl.pos >= #pl.items then return UI.PlaylistClear() end   -- that was the last one: the playlist is done
+    pl.pos = pl.pos + 1
+    UI.UpdateListen()
+  end
+  local token = {}
+  pl.token = token
+  C_Timer.After(GAP, function()
+    if pl.token ~= token or UI.speaking or (pl.state ~= "playing" and pl.state ~= "waiting") then return end
+    playCurrent()
+  end)
+end
+
+local function flashTab(tab)
+  local fl = tab and tab.flash
+  if not fl then return end
+  local token, step = {}, 0
+  fl.token = token
+  fl:SetAlpha(1)
+  fl:Show()
+  local function fade()
+    if fl.token ~= token then return end
+    step = step + 1
+    if step >= 12 then return fl:Hide() end
+    fl:SetAlpha(1 - step / 12)
+    C_Timer.After(0.08, fade)
+  end
+  C_Timer.After(0.08, fade)
+end
+
+local function showToast(text)
+  local t = UI.toast
+  if not t then return end
+  local token = {}
+  t.token = token
+  t.text:SetText(text)
+  t:Show()
+  C_Timer.After(3, function() if t.token == token then t:Hide() end end)
+end
+
+-- Add a story (idx nil) or narrated answer to the end. The first item starts right away, or when what's playing
+-- now ends. Returns true if it was added. quiet: no flash or note (the caller adds several and says so once).
+function UI.PlaylistAdd(key, idx, quiet)
+  local pl = UI.pl
+  if not UI.CanQueue(key, idx) then return false end
+  local e = UI.engine.db.entries[key]
+  local it = { id = idx and (key .. "#faq" .. idx) or key, key = key, idx = idx, label = idx and e.faq[idx].q or e.n }
+  if UI.PlaylistIndex(it.id) then return false end
+  pl.items[#pl.items + 1] = it
+  if not quiet then
+    flashTab(UI.playlistTab)
+    showToast(GREEN .. L["Added to your playlist:"] .. "|r " .. WHITE .. esc(it.label) .. "|r"
+      .. GREY .. "  (" .. string.format(L["%d of %d"], #pl.items, #pl.items) .. ")|r")
+  end
+  if #pl.items == 1 then
+    pl.pos = 1
+    if UI.speaking then pl.state = "waiting" else return playCurrent() or true end
+  end
+  UI.UpdateListen()
+  return true
+end
+
+-- Flight narration: a zone's recorded story joins the playlist instead of cutting into what's playing, so zones
+-- crossed quickly play one after another. If the playlist was stopped partway, the zone story goes in at that
+-- place and plays now (you turned flight narration on), and your list carries on after it.
+function UI.PlaylistAddFlight(key)
+  local pl = UI.pl
+  if not UI.CanQueue(key) or UI.PlaylistIndex(key) then return false end
+  if #pl.items > 0 and pl.state == "paused" and not UI.IsBusy() then
+    table.insert(pl.items, pl.pos, { id = key, key = key, label = UI.engine.db.entries[key].n })
+    flashTab(UI.playlistTab)
+    playCurrent()
+    return true
+  end
+  return UI.PlaylistAdd(key)
+end
+
+-- Shift-click or the play key with an empty playlist (Mike, 2026-09-30): queue everything narrated where you are
+-- and start it. The area's story, then its answers; the zone's story, then its answers; in a dungeon, its bosses in
+-- encounter order. Returns how many were queued (0: nothing here is narrated).
+function UI.QueueHere()
+  local db, n = UI.engine.db, 0
+  local _, z, zkey, sub, place = herePlace(ns.Context.Snapshot())
+  local function add(key, idx)
+    if UI.PlaylistAdd(key, idx, true) then n = n + 1 end
+  end
+  for _, k in ipairs({ sub or false, zkey or false }) do
+    if k then
+      add(k)
+      for i in ipairs(db.entries[k].faq or {}) do add(k, i) end
+    end
+  end
+  for _, bk in ipairs(z and z.t == "dungeon" and z.b or {}) do add(bk) end
+  if n > 0 then
+    flashTab(UI.playlistTab)
+    showToast(GREEN .. L["Playing everything narrated here:"] .. "|r " .. WHITE .. esc(place or "") .. "|r"
+      .. GREY .. "  (" .. string.format(n == 1 and L["%d narration"] or L["%d narrations"], n) .. ")|r")
+  end
+  return n
+end
+
+-- Play or pause the playlist. Pausing stops its clip; Play starts the current item again (replacing anything played
+-- by hand). Returns false with nothing queued.
+function UI.PlaylistToggle()
+  if #UI.pl.items == 0 then return false end
+  if UI.pl.state == "playing" then UI.StopAll() else playCurrent() end
+  return true
+end
+
+-- The next item; after the last one the playlist ends. Returns false with nothing queued.
+function UI.PlaylistNext()
+  local pl = UI.pl
+  if #pl.items == 0 then return false end
+  if pl.pos >= #pl.items then
+    UI.PlaylistClear()
+  else
+    pl.pos = pl.pos + 1
+    playCurrent()
+  end
+  return true
+end
+
+-- The previous item (the first one starts again).
+function UI.PlaylistPrev()
+  local pl = UI.pl
+  if #pl.items == 0 then return false end
+  pl.pos = math.max(1, pl.pos - 1)
+  playCurrent()
+  return true
+end
+
+function UI.PlaylistJump(i)
+  local pl = UI.pl
+  if not pl.items[i] then return end
+  pl.pos = i
+  playCurrent()
+end
+
+-- Empty the playlist. Stops the playlist's own clip, not something you played by hand.
+function UI.PlaylistClear()
+  local pl = UI.pl
+  if pl.state == "playing" and UI.speaking then
+    ns.Voice.Stop()
+    UI.speaking, UI.playingId = false, nil
+  end
+  pl.items, pl.pos, pl.state, pl.token = {}, 0, "paused", nil
+  UI.UpdateListen()
+end
+
+-- Take item i out. Removing the one that's playing moves on to the next.
+function UI.PlaylistRemove(i)
+  local pl = UI.pl
+  if not pl.items[i] then return end
+  local wasPlaying = i == pl.pos and pl.state == "playing"
+  if #pl.items == 1 then return UI.PlaylistClear() end
+  if i == pl.pos and i == #pl.items then return UI.PlaylistClear() end   -- nothing after it: the playlist is done
+  table.remove(pl.items, i)
+  if i < pl.pos then
+    pl.pos = pl.pos - 1
+  elseif i == pl.pos and wasPlaying then
+    return playCurrent()
+  end
+  UI.UpdateListen()
+end
+
+-- The voice changed (Options or /lore voice): drop what the new voice has no recording of, so the playlist never
+-- falls back to the game's text-to-speech.
+function UI.PlaylistVoiceChanged()
+  local pl = UI.pl
+  local kept, pos, dropped, curDropped = {}, nil, 0, false
+  for i, it in ipairs(pl.items) do
+    if ns.Voice.HasAudio(it.id) then
+      kept[#kept + 1] = it
+      if i >= pl.pos and not pos then pos = #kept end
+    else
+      dropped = dropped + 1
+      curDropped = curDropped or i == pl.pos
+    end
+  end
+  if dropped == 0 then return end
+  if curDropped and pl.state == "playing" then UI.StopAll() end
+  if #kept == 0 or not pos then
+    UI.PlaylistClear()
+  else
+    pl.items, pl.pos = kept, pos
+  end
+  showToast(GREY .. string.format(L["%d left your playlist: this voice has no recording of them."], dropped) .. "|r")
+end
+
+-- Move item i up (-1) or down (+1) among the ones still to come.
+function UI.PlaylistMove(i, delta)
+  local pl = UI.pl
+  local j = i + delta
+  if i <= pl.pos or j <= pl.pos or not pl.items[i] or not pl.items[j] then return end
+  pl.items[i], pl.items[j] = pl.items[j], pl.items[i]
+  UI.UpdateListen()
+end
+
+-- The Playlist tab: what's playing, what's next (reorder, remove, Clear), what already played.
+local PL_ROW = 24
+
+function UI.CreatePlaylist(view)
+  local head = Header(view, L["Now playing"])
+  head:SetPoint("TOPLEFT", 16, -96)
+  local count = view:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
+  count:SetPoint("LEFT", head, "RIGHT", 6, 0)
+  local now = TextButton(view, SIDE_W - 20, 26, "GameFontHighlight", { 0.15, 0.35, 0.17, 0.45 })
+  now:SetPoint("TOPLEFT", 10, -116)
+  now.text:SetPoint("TOPLEFT", 26, -2)
+  if now.text.SetWordWrap then now.text:SetWordWrap(false) end
+  local icon = now:CreateTexture(nil, "ARTWORK")
+  icon:SetSize(18, 18)
+  icon:SetPoint("LEFT", 4, 0)
+  icon:SetTexture("Interface\\Buttons\\UI-SpellbookIcon-NextPage-Up")
+  now:SetScript("OnClick", function() UI.PlaylistToggle() end)
+  now:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(self.full or "", 1, 1, 1, true)
+    GameTooltip:AddLine(UI.pl.state == "playing" and L["Click to pause"] or L["Click to play it from the start"],
+      0.6, 0.6, 0.6)
+    GameTooltip:Show()
+  end)
+  now:SetScript("OnLeave", function() GameTooltip:Hide() end)
+
+  local upHead = Header(view, L["Up next"])
+  upHead:SetPoint("TOPLEFT", 16, -154)
+  local clear = CreateFrame("Button", nil, view, "UIPanelButtonTemplate")
+  clear:SetSize(66, 18)
+  clear:SetPoint("TOPRIGHT", view, "TOPLEFT", SIDE_W - 10, -150)
+  clear:SetText(L["Clear all"])
+  clear:SetScript("OnClick", function() UI.PlaylistClear() end)
+  clear:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(L["Empty the playlist"])
+    GameTooltip:Show()
+  end)
+  clear:SetScript("OnLeave", function() GameTooltip:Hide() end)
+
+  local sf = CreateFrame("ScrollFrame", "LoreForeverPlaylistScroll", view, "UIPanelScrollFrameTemplate")
+  sf:SetPoint("TOPLEFT", 10, -174)
+  sf:SetPoint("BOTTOMRIGHT", view, "BOTTOMLEFT", SIDE_W - 26, 44)
+  local content = CreateFrame("Frame", nil, sf)
+  content:SetSize(SIDE_W - 40, 100)
+  sf:SetScrollChild(content)
+
+  -- Empty state: what the tab is for and how to fill it.
+  local empty = CreateFrame("Frame", nil, view)
+  empty:SetPoint("TOPLEFT", 16, -100)
+  empty:SetPoint("BOTTOMRIGHT", view, "BOTTOMLEFT", SIDE_W - 8, 60)
+  local e1 = empty:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+  e1:SetPoint("TOP", 0, -20)
+  e1:SetText(L["Your playlist is empty."])
+  local e2 = empty:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+  e2:SetPoint("TOP", e1, "BOTTOM", 0, -10)
+  e2:SetWidth(SIDE_W - 40)
+  e2:SetJustifyH("CENTER")
+  e2:SetText(L["Press + on any narration to add it here. They play in order, one after another."])
+  local go = CreateFrame("Button", nil, empty, "UIPanelButtonTemplate")
+  go:SetSize(150, 22)
+  go:SetPoint("TOP", e2, "BOTTOM", 0, -14)
+  go:SetText(L["Go to Narrations"])
+  go:SetScript("OnClick", function() UI.ShowTab("narrations") end)
+
+  local note = view:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
+  note:SetPoint("BOTTOMLEFT", 16, 16)
+  note:SetWidth(SIDE_W - 20)
+  note:SetJustifyH("LEFT")
+  if note.SetWordWrap then note:SetWordWrap(false) end
+  note:SetText(L["Add more with + on the Narrations tab."])
+
+  UI.plUI = { head = head, count = count, now = now, upHead = upHead, clear = clear, scroll = sf,
+    content = content, empty = empty, note = note, rows = {} }
+end
+
+local function playlistRow(i)
+  local P = UI.plUI
+  local row = P.rows[i]
+  if row then return row end
+  row = TextButton(P.content, SIDE_W - 40, PL_ROW, "GameFontHighlightSmall")
+  if row.text.SetWordWrap then row.text:SetWordWrap(false) end
+  row.num = row:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
+  row.num:SetPoint("LEFT", 2, 0)
+  row.num:SetWidth(16)
+  row.num:SetJustifyH("RIGHT")
+  row:SetScript("OnClick", function(self) if self.index then UI.PlaylistJump(self.index) end end)
+  row:SetScript("OnEnter", function(self)
+    if not self.index then return end
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(self.full, 1, 1, 1, true)
+    GameTooltip:AddLine(L["Click to play this now"], 0.6, 0.6, 0.6)
+    GameTooltip:Show()
+  end)
+  row:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  local function small(texture, onClick, tip)
+    local b = CreateFrame("Button", nil, row)
+    b:SetSize(20, 20)
+    b:SetNormalTexture(texture)
+    b:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
+    b:SetScript("OnClick", function(self) onClick(self.index) end)
+    b:SetScript("OnEnter", function(self)
+      GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+      GameTooltip:AddLine(tip)
+      GameTooltip:Show()
+    end)
+    b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+    return b
+  end
+  row.remove = small("Interface\\Buttons\\UI-GroupLoot-Pass-Up", function(at) UI.PlaylistRemove(at) end,
+    L["Remove from playlist"])
+  row.remove:SetPoint("RIGHT", -2, 0)
+  row.down = small("Interface\\Buttons\\UI-ScrollBar-ScrollDownButton-Up", function(at) UI.PlaylistMove(at, 1) end,
+    L["Move down"])
+  row.down:SetPoint("RIGHT", row.remove, "LEFT", -2, 0)
+  row.up = small("Interface\\Buttons\\UI-ScrollBar-ScrollUpButton-Up", function(at) UI.PlaylistMove(at, -1) end,
+    L["Move up"])
+  row.up:SetPoint("RIGHT", row.down, "LEFT", -2, 0)
+  P.rows[i] = row
+  return row
+end
+
+function UI.RefreshPlaylist()
+  local P, pl = UI.plUI, UI.pl
+  if not P then return end
+  local n, cur = #pl.items, pl.items[pl.pos]
+  local list = n > 0
+  for _, w in ipairs({ P.head, P.head.rule, P.count, P.now, P.upHead, P.upHead.rule, P.clear, P.scroll }) do
+    w:SetShown(list)
+  end
+  P.note:SetShown(list)
+  P.empty:SetShown(not list)
+  if not list then
+    for _, r in ipairs(P.rows) do r:Hide() end
+    return
+  end
+  local ours = pl.state == "playing" or pl.state == "waiting"
+  P.head:SetText(pl.state == "playing" and L["Now playing"] or (pl.state == "waiting" and L["Plays next"] or L["Paused"]))
+  P.count:SetText(string.format(L["%d of %d"], pl.pos, n))
+  P.now.full = cur.label
+  P.now.text:SetText((ours and GREEN or WHITE) .. esc(cur.label) .. "|r")
+
+  -- Up next (numbered, with reorder and remove), then the earlier ones, played or skipped (greyed; click to hear one).
+  local specs = {}
+  for i = pl.pos + 1, n do specs[#specs + 1] = { index = i } end
+  if pl.pos > 1 then
+    specs[#specs + 1] = { header = L["Earlier"] }
+    for i = 1, pl.pos - 1 do specs[#specs + 1] = { index = i, done = true } end
+  end
+  if pl.pos == n then table.insert(specs, 1, { note = L["Nothing after this one."] }) end
+  local y = 0
+  for r, s in ipairs(specs) do
+    local row = playlistRow(r)
+    row:ClearAllPoints()
+    row:SetPoint("TOPLEFT", 0, -y)
+    row.index = s.index
+    local item = s.index and pl.items[s.index]
+    row.full = item and item.label
+    row:EnableMouse(item ~= nil)
+    local upcoming = item and not s.done
+    -- Arrows only where they can move something (the first can't go above what's playing, the last can't go lower).
+    row.up:SetShown(upcoming and s.index > pl.pos + 1 or false)
+    row.down:SetShown(upcoming and s.index < n or false)
+    row.remove:SetShown(upcoming or false)
+    row.up.index, row.down.index, row.remove.index = s.index, s.index, s.index
+    row.num:SetText(item and tostring(s.index) or "")
+    row.text:SetPoint("TOPLEFT", item and 22 or 4, -2)
+    row.text:SetPoint("BOTTOMRIGHT", upcoming and -70 or -4, 2)
+    if s.header then
+      row.text:SetText(GOLD .. esc(s.header) .. "|r")
+    elseif s.note then
+      row.text:SetText(GREY .. esc(s.note) .. "|r")
+    else
+      row.text:SetText((s.done and GREY or WHITE) .. esc(item.label) .. "|r")
+    end
+    row:Show()
+    y = y + PL_ROW + (s.header and 4 or 0)
+  end
+  for r = #specs + 1, #P.rows do P.rows[r]:Hide() end
+  P.content:SetHeight(math.max(y, 10))
 end
 
 -- History ----------------------------------------------------------------------------------------------------------
@@ -1277,7 +2247,7 @@ function UI.Archive()
     if m.role == "user" or m.role == "lore" then
       local t = m.target
       msgs[#msgs + 1] = { role = m.role, text = m.text,
-        target = t and { id = t.id, key = t.key, text = t.text, label = t.label } or nil }
+        target = t and { id = t.id, key = t.key, text = t.text, label = t.label } or nil, rows = m.rows }
     end
   end
   local ctx = UI.ctx or {}
@@ -1354,11 +2324,10 @@ function UI.RestoreHistory(i)
   if not c then return end
   UI.Archive()   -- save (or update) the chat you're leaving
   UI.historyId = c.id
-  ns.Voice.Stop()
-  UI.speaking, UI.playingId = false, nil
+  if UI.pl.state ~= "playing" then UI.StopAll() end   -- a playing playlist carries on
   UI.msgs, UI.blocks = {}, {}
   for _, m in ipairs(c.msgs) do
-    UI.msgs[#UI.msgs + 1] = { role = m.role, text = m.text, target = m.target }
+    UI.msgs[#UI.msgs + 1] = { role = m.role, text = m.text, target = m.target, rows = m.rows }
     UI.blocks[#UI.blocks + 1] = m.text
   end
   UI.historyFrame:Hide()
@@ -1372,8 +2341,7 @@ function UI.Clear()
   UI.Archive()
   UI.historyId = nil
   if UI.historyFrame then UI.historyFrame:Hide() end
-  ns.Voice.Stop()
-  UI.speaking, UI.playingId = false, nil
+  if UI.pl.state ~= "playing" then UI.StopAll() end   -- a playing playlist carries on
   UI.msgs, UI.blocks = {}, {}
   for _, b in ipairs(UI.bubbles) do b.frame:Hide() end
   UI.content:SetHeight(100)
@@ -1531,16 +2499,17 @@ function UI.ShowPrimer(zk, via)
   if #mine > 0 then
     parts[#parts + 1] = GOLD .. L["Why you're here"] .. "|r\n" .. WHITE .. table.concat(mine, "\n") .. "|r"
   end
+  -- Who you'll face, in order: each row opens that boss's story (with play and + when it's narrated).
   local who = {}
-  for i, bk in ipairs(z.b or {}) do
+  for _, bk in ipairs(z.b or {}) do
     local be = db.entries[bk]
-    if be then who[#who + 1] = i .. ". " .. GOLD .. esc(be.n) .. "|r " .. WHITE .. esc(be.h or be.s) .. "|r" end
+    if be then who[#who + 1] = { key = bk, name = bossName(be), hook = be.h or be.s } end
   end
-  if #who > 0 then parts[#parts + 1] = GOLD .. L["Who you'll face"] .. "|r\n" .. table.concat(who, "\n") end
+  if #who > 0 then parts[#parts + 1] = GOLD .. L["Who you'll face"] .. "|r" end
   UI.AddMessage("user", WHITE .. string.format(L["Dungeon primer: %s"], esc(z.n)) .. "|r")
   local narrated = ns.Voice.HasAudio("zone:" .. zk) and narratedTag() or ""
   UI.AddMessage("lore", GOLD .. esc(z.n) .. (z.lv and (" (" .. z.lv .. ")") or "") .. "|r" .. narrated .. "\n"
-    .. table.concat(parts, "\n\n"), UI.EntryTarget("zone:" .. zk))
+    .. table.concat(parts, "\n\n"), UI.EntryTarget("zone:" .. zk), nil, #who > 0 and who or nil)
   local items = {}
   -- What beating the final boss means for the story, kept behind a click since it's a spoiler.
   local last = z.b and db.entries[z.b[#z.b]]
@@ -1554,7 +2523,8 @@ function UI.ShowPrimer(zk, via)
   end
   for _, bk in ipairs(z.b or {}) do
     local be = db.entries[bk]
-    if be and be.faq and be.faq[1] then items[#items + 1] = { key = bk, idx = 1, q = be.faq[1].q, name = be.n } end
+    local bi = be and ns.Engine.RankedFaq(be, UI.engine.race)[1]
+    if bi then items[#items + 1] = { key = bk, idx = bi, q = be.faq[bi].q, name = be.n } end
     if #items >= N_NEXT then break end
   end
   UI.SetNext(#items > 0 and items or followUps("zone:" .. zk, nil))
@@ -1604,8 +2574,9 @@ function UI.ShowQuestText(q)
     .. "|r\n" .. table.concat(parts, "\n\n"))
   local items = {}
   if ze then
-    for i = 1, 3 do
-      if ze.faq and ze.faq[i] then items[#items + 1] = { key = "zone:" .. zk, idx = i, q = ze.faq[i].q } end
+    local ranked = ns.Engine.RankedFaq(ze, UI.engine.race)
+    for n = 1, math.min(3, #ranked) do
+      items[#items + 1] = { key = "zone:" .. zk, idx = ranked[n], q = ze.faq[ranked[n]].q }
     end
   end
   UI.SetNext(items)

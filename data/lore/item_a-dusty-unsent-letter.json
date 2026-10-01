@@ -1,0 +1,89 @@
+{
+ "key": "item:a-dusty-unsent-letter",
+ "type": "item",
+ "name": "A Dusty Unsent Letter",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "A Dusty Unsent Letter",
+  "quests": [
+   "quest:68"
+  ]
+ },
+ "summary": "A Dusty Unsent Letter is a forgotten parchment recovered from an old footlocker in Westfall. It offers vital proof that the elusive Stalvan Mistmantle lived in Moonbrook before his disappearance.",
+ "sections": [
+  {
+   "title": "A Clue in the Dust",
+   "body": "While searching for the past of the mysterious Stalvan Mistmantle, investigators discover this unsent letter tucked away inside an old footlocker in Moonbrook. Moonbrook's town records held no mention of Stalvan, leaving officials in Darkshire skeptical of his presence there. This unmailed correspondence provides the missing link, confirming that Stalvan resided in the Westfall township for a time. Yet its presence also raises ominous questions, as retrieving it disturbs a vengeful Forlorn Spirit that guards the remnants of Stalvan's past with bitter malice.",
+   "spoiler": 0
+  },
+  {
+   "title": "Updating the Registry",
+   "body": "Brought before Clerk Daltry at Darkshire's Town Hall, the letter serves as concrete evidence to update the town's registry. Daltry notes how strange it is that the correspondence was never sent, hinting at the sudden departures and secretive trail Stalvan left across the southern kingdoms of the Alliance.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is this letter found?",
+   "aliases": [
+    "letter location",
+    "where to get dusty unsent letter",
+    "moonbrook letter"
+   ],
+   "answer": "The letter is recovered from an abandoned footlocker located within Moonbrook in Westfall, hidden among the dilapidated houses now overrun by the Defias Brotherhood."
+  },
+  {
+   "q": "Why was the letter never sent?",
+   "aliases": [
+    "why unsent",
+    "stalvan letter unsent",
+    "who was the letter for"
+   ],
+   "answer": "The exact reasons remain uncertain, though Clerk Daltry finds it highly suspicious. It suggests Stalvan Mistmantle may have fled Moonbrook in haste or abandoned his correspondence before moving on."
+  },
+  {
+   "q": "Who needs to see this letter?",
+   "aliases": [
+    "who do i give the letter to",
+    "clerk daltry letter",
+    "turn in letter"
+   ],
+   "answer": "The letter must be delivered to Clerk Daltry, who manages the town registry inside the Town Hall in Darkshire."
+  },
+  {
+   "q": "Why does a spirit attack when finding it?",
+   "aliases": [
+    "forlorn spirit",
+    "why ghost spawn",
+    "curse of stalvan"
+   ],
+   "answer": "Disturbing the footlocker summons a Forlorn Spirit tied to Stalvan's haunting legacy. It lashes out at anyone prying into his forgotten life, afflicting intruders with the debilitating Curse of Stalvan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Piecing together Stalvan's trail helps Darkshire keep accurate records of travelers and outcasts wandering across human settlements from Westfall into Duskwood."
+  }
+ ],
+ "keywords": [
+  "clerk daltry",
+  "darkshire",
+  "dusty unsent letter",
+  "forlorn spirit",
+  "moonbrook",
+  "stalvan mistmantle",
+  "the legend of stalvan"
+ ],
+ "related": [
+  "quest:66",
+  "npc:clerk-daltry",
+  "subzone:moonbrook",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "A Dusty Unsent Letter",
+  "The Legend of Stalvan (3)"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "key": "item:pork-belly-pie",
+ "type": "item",
+ "name": "Pork Belly Pie",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Pork Belly Pie",
+  "quests": [
+   "quest:84"
+  ]
+ },
+ "summary": "Pork Belly Pie is a savory, homemade dish baked by 'Auntie' Bernice Stonefield in Elwynn Forest. Despite the bitter, generations-long feud between the Stonefield and Maclure families, young Billy Maclure cannot resist Auntie Bernice's cooking, demanding a pie as a bribe to reveal information about a lost family heirloom.",
+ "sections": [
+  {
+   "title": "A Bribe Between Feuding Farms",
+   "body": "The Stonefield and Maclure families have nursed a bitter rivalry for years, quarreling over land and pride in the heart of Elwynn Forest. Despite this hostility, young Billy Maclure harbors a glaring weakness: he loves Auntie Bernice's famous pork belly pie. When a valuable family necklace goes missing, Billy refuses to share what he knows until an adventurer delivers him a warm slice. Bernice bakes it with great reluctance\u2014and a pointed wish that the greedy boy chokes on it\u2014proving that culinary reputation can sometimes breach even the stubbornest family feuds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Pork Belly Pie used for?",
+   "aliases": [
+    "pie use",
+    "why pork belly pie",
+    "what do i do with the pie"
+   ],
+   "answer": "The pie is baked by Auntie Bernice Stonefield to bribe young Billy Maclure. Billy holds critical clues about a missing heirloom necklace belonging to the Stonefield family, but he refuses to talk until his appetite is satisfied with Auntie Bernice's cooking."
+  },
+  {
+   "q": "Who bakes the Pork Belly Pie?",
+   "aliases": [
+    "who made the pie",
+    "pie baker",
+    "granny stonefield pie"
+   ],
+   "answer": "The pie is baked fresh by Auntie Bernice Stonefield at the Stonefield Farm. Although she deeply resents Billy Maclure and the rest of his family, she prepares it anyway to help recover her family's lost necklace."
+  },
+  {
+   "q": "Why does Billy Maclure want food from a rival family?",
+   "aliases": [
+    "why billy wants pie",
+    "why maclure wants stonefield food"
+   ],
+   "answer": "Despite the fierce and noisy feud between the Stonefields and the Maclures, Auntie Bernice's cooking is well known across the valley. Billy cares far more about his stomach and tasty pork belly than maintaining his family's grudges."
+  },
+  {
+   "q": "Can players eat the Pork Belly Pie?",
+   "aliases": [
+    "can i eat it",
+    "is pork belly pie edible"
+   ],
+   "answer": "No. The pie is a quest item meant solely for Billy Maclure. You cannot consume it yourself to restore health or mana, no matter how appetizing it sounds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "The pie highlights how home-cooked comfort food can hold genuine sway over local disputes, even if the recipe itself remains Auntie Bernice's guarded secret."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers helping rural Elwynn, running errands like delivering pies sheds light on the petty yet deeply rooted squabbles dividing Stormwind's agrarian heartland."
+  }
+ ],
+ "keywords": [
+  "auntie bernice stonefield",
+  "back to billy",
+  "billy maclure",
+  "elwynn forest",
+  "maclure",
+  "pork belly pie",
+  "stonefield"
+ ],
+ "related": [
+  "quest:84",
+  "npc:billy-maclure",
+  "subzone:maclure-vineyards",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Pork Belly Pie",
+  "Back to Billy"
+ ]
+}

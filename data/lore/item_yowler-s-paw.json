@@ -1,0 +1,98 @@
+{
+ "key": "item:yowler-s-paw",
+ "type": "item",
+ "name": "Yowler's Paw",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Yowler's Paw",
+  "quests": [
+   "quest:126"
+  ]
+ },
+ "summary": "Yowler's Paw is the grisly trophy taken from Yowler, the ferocious pack leader of the gnolls menacing the hills above Lakeshire. Brought to the town artisan Verner Osgood, it serves as undeniable proof that the beast leading the local gnoll packs has been put down.",
+ "sections": [
+  {
+   "title": "Trophy of the Pack Leader",
+   "body": "The Redridge gnolls have long terrorized the heights surrounding Lake Everstill, their bloodcurdling howls echoing down into the settlement of Lakeshire. Among them, none is more feared than Yowler, the ruthless alpha driving their expansion. Because gnoll ears and paws are customary proof of bounties across the human territories, Verner Osgood asks brave adventurers to bring back Yowler's paw. Severing it marks not just the demise of an unusually cunning predator, but a deliberate move to shatter the chain of command among his disorganized followers.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Town Left on Its Own",
+   "body": "Bringing back Yowler's paw underscores the dire situation in Lakeshire. The Stormwind Army is completely consumed by the Blackrock orc threat entrenched around Stonewatch Keep, leaving civil authorities and townspeople to hire passing mercenaries for defense. In the absence of regular royal garrisons, securing proof like Yowler's paw is the only way settlers like Verner Osgood can ensure the local roads remain even marginally safe for trade and travel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for Yowler's Paw?",
+   "aliases": [
+    "who wants yowlers paw",
+    "verner osgood paw quest",
+    "turn in yowlers paw"
+   ],
+   "answer": "Verner Osgood, a prominent tradesman and resident in Lakeshire, requests the paw. He wants proof that the dangerous alpha gnoll terrorizing the hills has been permanently dealt with."
+  },
+  {
+   "q": "Who is Yowler?",
+   "aliases": [
+    "who is yowler",
+    "yowler lore",
+    "redridge gnoll leader"
+   ],
+   "answer": "Yowler is the fierce leader of the Redridge gnoll packs. Unlike ordinary mongrel gnolls, he possesses the brute strength and cunning needed to rally multiple packs, making him an urgent danger to the nearby townsfolk."
+  },
+  {
+   "q": "Why does Lakeshire rely on bounties instead of Stormwind soldiers?",
+   "aliases": [
+    "why no stormwind guard",
+    "where is stormwind army",
+    "why does verner hire mercenaries"
+   ],
+   "answer": "The Stormwind Army is overwhelmed fighting the Blackrock orcs who have fortified Stonewatch Keep in eastern Redridge. With no reinforcements to spare, townsfolk like Verner Osgood must rely on freelance adventurers to hunt down threats like Yowler."
+  },
+  {
+   "q": "What happens once Yowler is killed?",
+   "aliases": [
+    "what happens after yowler dies",
+    "gnolls after yowler",
+    "howling in the hills ending"
+   ],
+   "answer": "Slaying Yowler breaks the leadership holding the aggressive gnolls together, causing his pack to scatter into the wilderness and providing temporary breathing room for the residents of Lakeshire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Defeating Yowler and recovering his paw helps stabilize Redridge Mountains at a time when Stormwind's military is stretched too thin to protect its own eastern frontier."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking down the alpha of the Redridge gnolls and claiming his paw puts wilderness tracking and beast-handling skills to the test against a dangerous predator."
+  }
+ ],
+ "keywords": [
+  "gnoll pack leader",
+  "howling in the hills",
+  "lakeshire",
+  "redridge gnoll",
+  "redridge mountains",
+  "verner osgood",
+  "yowler",
+  "yowler's paw"
+ ],
+ "related": [
+  "quest:126",
+  "npc:verner-osgood",
+  "topic:gnoll",
+  "zone:redridge",
+  "subzone:lakeshire",
+  "quest:124",
+  "topic:stormwind-army",
+  "quest:119"
+ ],
+ "attribution": [
+  "Yowler's Paw",
+  "Howling in the Hills"
+ ]
+}

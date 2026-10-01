@@ -1,0 +1,97 @@
+{
+ "key": "item:iron-shaft",
+ "type": "item",
+ "name": "Iron Shaft",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Iron Shaft",
+  "quests": [
+   "quest:1026"
+  ]
+ },
+ "summary": "The Iron Shaft is a metallic segment of Dartol's Rod, an ancient night elven artifact capable of unmasking corruption. Recovered from a locked chest near the border of Felwood, it serves as a crucial component in restoring the relic for the defenders of Ashenvale.",
+ "sections": [
+  {
+   "title": "A Piece of Dartol's Rod",
+   "body": "Dartol's Rod was originally crafted long ago to assist the night elves in cleansing and safeguarding their enchanted forests. Over time, the rod was dismantled into separate components to prevent misuse or loss. The Iron Shaft represents the sturdy metal core of the instrument, secured away inside a locked chest in a secluded glade near the northern border of Ashenvale, not far from the tainted realm of Felwood.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Forest's Blight",
+   "body": "Securing the Iron Shaft requires recovering its key from the local treants who once tended these woods. With the demonic corruption creeping southward from Felwood, ancient guardians such as the Crazed and Withered Ancients have lost their minds to madness. Priestess Shael'dryn tasks travelers with obtaining the shaft so the rod may be reforged to purify Ashenvale's sacred waters.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Iron Shaft used for?",
+   "aliases": [
+    "iron shaft purpose",
+    "what is this shaft",
+    "why do i need iron shaft"
+   ],
+   "answer": "The Iron Shaft is a piece of Dartol's Rod, a broken night elven relic. It is gathered to help reassemble the rod so that Priestess Shael'dryn can cleanse tainted moonwells and combat demonic corruption in Ashenvale."
+  },
+  {
+   "q": "Where is the Iron Shaft found?",
+   "aliases": [
+    "iron shaft location",
+    "find iron shaft",
+    "where is the chest"
+   ],
+   "answer": "It is locked inside a chest located in a quiet glade west of the road leading toward Felwood, in the northern part of Ashenvale."
+  },
+  {
+   "q": "How do you open the chest containing the shaft?",
+   "aliases": [
+    "how to open chest",
+    "chest key",
+    "iron shaft key"
+   ],
+   "answer": "The chest requires a Wooden Key. This key is carried by the corrupted treants\u2014the Crazed and Withered Ancients\u2014wandering the woods northeast of Raynewood Retreat."
+  },
+  {
+   "q": "Who is looking for the Iron Shaft?",
+   "aliases": [
+    "who wants iron shaft",
+    "iron shaft quest giver"
+   ],
+   "answer": "Shael'dryn, a night elf stationed at a moonwell in central Ashenvale, directs adventurers to gather the pieces of Dartol's Rod as part of the effort to cleanse the forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Recovering the Iron Shaft is a somber duty, as it requires putting down beloved forest treants who have fallen victim to the demonic blight seeping out of Felwood."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Reassembling Dartol's Rod touches closely upon druidic stewardship, using forgotten tools to heal wounded lands and protect sacred moonwells."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "crazed ancient",
+  "dartol's rod",
+  "felwood",
+  "iron shaft",
+  "raene's cleansing",
+  "shael'dryn",
+  "withered ancient",
+  "wooden key"
+ ],
+ "related": [
+  "quest:991",
+  "item:wooden-key",
+  "npc:shael-dryn",
+  "subzone:moonwell-ashenvale",
+  "subzone:raynewood-retreat",
+  "zone:ashenvale",
+  "zone:felwood"
+ ],
+ "attribution": [
+  "Iron Shaft",
+  "Raene's Cleansing (4)"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "key": "item:filled-vessel",
+ "type": "item",
+ "name": "Filled Vessel",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Filled Vessel",
+  "quests": [
+   "quest:935"
+  ]
+ },
+ "summary": "The Filled Vessel contains purified waters drawn from the various sacred moonwells across Teldrassil. Entrusted to couriers by Corithras Moonrage in Dolanaar, it is delivered to Arch Druid Fandral Staghelm in Darnassus to aid his study of the World Tree's ailments.",
+ "sections": [
+  {
+   "title": "A Confluence of Sacred Waters",
+   "body": "Teldrassil was planted without the blessings of the Great Aspects, Alexstrasza and Nozdormu, leaving its immense boughs vulnerable to unexpected corruption, strange beasts, and crazed furbolg tribes. In an attempt to monitor and cleanse the burgeoning boughs, night elf acolytes are dispatched to gather water samples from moonwells situated across the boughs. Corithras Moonrage consolidates these gathered phials into a single Filled Vessel, sending it onward to the capital. The mixture serves as a vital sample of Teldrassil's vitality for Arch Druid Fandral Staghelm, who works tirelessly in the Cenarion Enclave to uncover a remedy for the Great Tree's pervasive flaws.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Filled Vessel?",
+   "aliases": [
+    "vessel contents",
+    "what water is this",
+    "what is in the vessel"
+   ],
+   "answer": "The vessel contains water collected from several moonwells scattered across Teldrassil, consolidated into a single container by Corithras Moonrage in Dolanaar."
+  },
+  {
+   "q": "Who needs the Filled Vessel?",
+   "aliases": [
+    "who do I give the filled vessel to",
+    "where does the vessel go",
+    "filled vessel hand in"
+   ],
+   "answer": "The Filled Vessel is brought to Arch Druid Fandral Staghelm, who resides at the top of the Cenarion Enclave in Darnassus."
+  },
+  {
+   "q": "Why does Fandral Staghelm need these water samples?",
+   "aliases": [
+    "why staghelm wants water",
+    "staghelm moonwell water purpose",
+    "why collect moonwell water"
+   ],
+   "answer": "Teldrassil lacks the traditional dragon aspects' blessings, causing strange corruptions, aggressive wildlife, and mad furbolgs to plague its branches. Staghelm studies these mingled waters to diagnose the tree's flaws and seek a remedy for its afflictions."
+  },
+  {
+   "q": "Who prepared the vessel?",
+   "aliases": [
+    "who made the filled vessel",
+    "who gives the filled vessel",
+    "corithras filled vessel"
+   ],
+   "answer": "Corithras Moonrage, a night elf stationed in Dolanaar, pours the phials gathered by young adventurers into the vessel before dispatching them to Darnassus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For Cenarion initiates, delivering this vessel marks their first official errand to Arch Druid Fandral Staghelm, showing firsthand the ecological fragility facing Teldrassil."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The moonwell waters inside represent the sacred lifelines of the kaldorei's new home, mingling the magic of Elune with the uncertain growth of the unblessed World Tree."
+  }
+ ],
+ "keywords": [
+  "cenarion enclave",
+  "corithras moonrage",
+  "crown of the earth",
+  "darnassus",
+  "fandral staghelm",
+  "filled vessel",
+  "moonwell water",
+  "teldrassil"
+ ],
+ "related": [
+  "quest:921",
+  "npc:fandral-staghelm",
+  "npc:corithras-moonrage",
+  "subzone:cenarion-enclave",
+  "zone:teldrassil",
+  "zone:darnassus",
+  "topic:druid",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Filled Vessel",
+  "Crown of the Earth (6)"
+ ]
+}

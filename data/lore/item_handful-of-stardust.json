@@ -1,0 +1,96 @@
+{
+ "key": "item:handful-of-stardust",
+ "type": "item",
+ "name": "Handful of Stardust",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Handful of Stardust",
+  "quests": [
+   "quest:1034"
+  ]
+ },
+ "summary": "Handfuls of Stardust are shimmering, frosted coatings gathered from sparkling bushes in the southern wilderness of Ashenvale. Sourced from the ancient Ruins of Stardust, this powder possesses cooling natural properties prized by night elven healers treating intense fevers.",
+ "sections": [
+  {
+   "title": "A Cooling Herbal Remedy",
+   "body": "Found clinging to the leafy shrubs within the ancient Ruins of Stardust south of Astranaar, stardust appears as a fine, luminous frost. While the ruins themselves are haunted by lingering elemental spirits, the vegetation that thrives among the broken stones absorbs a rare ambient luminescence. Traditional night elven medicine makes use of this frosted residue, processing it into poultices to draw out persistent, dangerous fevers when ordinary salves and moonwell waters fail to bring complete relief.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Father's Hope",
+   "body": "Pelturas Whitemoon, an anxious father in Astranaar, sought this powder on the advice of the herbalist Orendil Broadleaf. Pelturas's young daughter, Relara, was afflicted by a stubborn magical ailment and nightmares. Although an initial blessing from a stone touched by Elune calmed her mind, an intense bodily fever lingered, prompting a search for stardust to concoct a cooling paste to save the child's life.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Handful of Stardust found?",
+   "aliases": [
+    "stardust location",
+    "where to find stardust",
+    "stardust covered bushes"
+   ],
+   "answer": "It is gathered from glittering, stardust-covered bushes growing throughout the Ruins of Stardust, located south of the night elf settlement of Astranaar in central Ashenvale."
+  },
+  {
+   "q": "What is this stardust used for?",
+   "aliases": [
+    "use of stardust",
+    "pelturas cure",
+    "stardust purpose"
+   ],
+   "answer": "Pelturas Whitemoon in Astranaar uses the powder to prepare a soothing poultice intended to break the unrelenting fever afflicting his sick daughter, Relara."
+  },
+  {
+   "q": "What dangers surround the stardust bushes?",
+   "aliases": [
+    "ruins of stardust enemies",
+    "ruins of stardust mobs"
+   ],
+   "answer": "The Ruins of Stardust are inhabited by hostile water elementals that lurk near the shoreline and among the ancient fallen pillars where the bushes grow."
+  },
+  {
+   "q": "Is stardust related to the goddess Elune?",
+   "aliases": [
+    "is stardust magic",
+    "elune connection stardust"
+   ],
+   "answer": "While the night elves revere celestial powers and the ruins bear a starry name, stardust functions primarily as a physical medicinal ingredient recommended by herbalists for its frosted, cooling nature."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Though collected directly by hand from sparkling bushes rather than gathered as a formal botanical reagent, stardust exemplifies the night elves' reliance on rare regional flora for restorative medicine."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei defending Ashenvale, securing local remedies like stardust reflects the enduring harmony between their ancient ruins and herbal traditions."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "orendil",
+  "pelturas",
+  "poultice",
+  "relara",
+  "ruins of stardust",
+  "stardust"
+ ],
+ "related": [
+  "quest:1034",
+  "subzone:ruins-of-stardust",
+  "subzone:astranaar",
+  "zone:ashenvale",
+  "quest:1033",
+  "quest:1020",
+  "quest:1035",
+  "quest:1010"
+ ],
+ "attribution": [
+  "Handful of Stardust",
+  "The Ruins of Stardust (quest)"
+ ]
+}

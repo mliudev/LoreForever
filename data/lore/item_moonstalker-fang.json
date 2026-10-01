@@ -1,0 +1,77 @@
+{
+ "key": "item:moonstalker-fang",
+ "type": "item",
+ "name": "Moonstalker Fang",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Moonstalker Fang",
+  "quests": [
+   "quest:1002"
+  ]
+ },
+ "summary": "Moonstalker Fangs are sharp canine teeth taken from the predatory moonstalkers roaming the misty woods of Darkshore. They are gathered by travelers assisting Wizbang Cranktoggle with the maintenance of his automated sampling devices.",
+ "sections": [
+  {
+   "title": "A Grinding Mechanism",
+   "body": "Moonstalkers are stealthy saber cats that haunt the forest fringes of Darkshore, stalking prey between the shadowed pines. Their elongated fangs serve as formidable hunting weapons, capable of shearing flesh and bone. For the eccentric gnome tinkerer Wizbang Cranktoggle, however, the teeth serve a very different mechanical purpose. Stationed north of Auberdine near the bridge, his automated contraption known as Buzzbox 323 is calibrated specifically to crush these durable fangs to dust as part of his erratic ecological surveys.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Moonstalker Fangs come from?",
+   "aliases": [
+    "where to get moonstalker fangs",
+    "who drops moonstalker fangs",
+    "fang source"
+   ],
+   "answer": "They are harvested from the various moonstalkers native to Darkshore, including moonstalker runts, adults, sires, matriarchs, and the elusive prowler known as Shadowclaw."
+  },
+  {
+   "q": "Who wants Moonstalker Fangs?",
+   "aliases": [
+    "who needs fangs",
+    "what quest uses fangs",
+    "buzzbox 323 turn in"
+   ],
+   "answer": "The gnome engineer Wizbang Cranktoggle requires six of these fangs to feed into Buzzbox 323, an automated monitoring device located north of Auberdine near the river bridge."
+  },
+  {
+   "q": "What happens to the fangs inside the machine?",
+   "aliases": [
+    "what does buzzbox 323 do",
+    "why grind fangs"
+   ],
+   "answer": "Upon being placed into Buzzbox 323, internal gears activate and immediately grind the hard fangs into fine dust, advancing Wizbang's peculiar field experiments."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Wizbang Cranktoggle's eccentric remote communication devices demonstrate classic gnome engineering, even if his slurred speech and bizarre sampling choices raise eyebrows."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Taking down moonstalkers requires keeping keen senses sharp against ambush predators that naturally blend into the darkened canopy of the shoreline."
+  }
+ ],
+ "keywords": [
+  "buzzbox 323",
+  "darkshore",
+  "moonstalker",
+  "moonstalker fang",
+  "shadowclaw",
+  "wizbang cranktoggle"
+ ],
+ "related": [
+  "quest:1002",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Moonstalker Fang",
+  "Buzzbox 323 (quest)"
+ ]
+}

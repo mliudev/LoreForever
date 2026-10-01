@@ -1,0 +1,100 @@
+{
+ "key": "item:rune-inscribed-pendant",
+ "type": "item",
+ "name": "Rune-Inscribed Pendant",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Rune-Inscribed Pendant",
+  "quests": [
+   "quest:478",
+   "quest:481"
+  ]
+ },
+ "summary": "The Rune-Inscribed Pendant is a magical trinket recovered from Dalaran supply shipments destined for Ambermill. Prized by the Kirin Tor, these pendants serve as conduits for channeling potent arcane energies.",
+ "sections": [
+  {
+   "title": "Kirin Tor Relic",
+   "body": "Discovered among crates of cartographic supplies bound for the Dalaran enclave at Ambermill, this pendant bears intricate arcane inscriptions. High-ranking wizards of the Kirin Tor frequently employ such artifacts to focus and amplify their spellcasting. The presence of numerous channeled pendants moving into the region immediately draws the suspicion of the Forsaken at the Sepulcher, signaling an impending project of immense magical power.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Clue to Ambermill's Plans",
+   "body": "When brought to the Sepulcher, Shadow Priest Allister recognizes the threat posed by the Dalaran wizards' fortified position, but passes the relic to Dalar Dawnweaver for deeper scrutiny. Dawnweaver identifies the pendant as a key component of the mages' operations, deducing that the Kirin Tor is stockpiling arcane focus tools to fuel substantial defensive or offensive workings shielded behind Ambermill's borders.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Rune-Inscribed Pendant used for?",
+   "aliases": [
+    "what does the pendant do",
+    "pendant purpose",
+    "rune pendant use"
+   ],
+   "answer": "Wizards of the Kirin Tor use the pendant to channel and direct significant flows of magical energy. It serves as an arcane focus for complex spellcraft rather than simple decoration."
+  },
+  {
+   "q": "Where did this pendant come from?",
+   "aliases": [
+    "where do i find the pendant",
+    "pendant origin",
+    "where was it found"
+   ],
+   "answer": "It is intercepted from supply shipments bound for Ambermill in Silverpine Forest, where Kirin Tor remnants have heavily fortified themselves."
+  },
+  {
+   "q": "Who analyzes the pendant at the Sepulcher?",
+   "aliases": [
+    "who studies the pendant",
+    "who wants the pendant",
+    "dalar pendant"
+   ],
+   "answer": "After Shadow Priest Allister briefly inspects it alongside captured maps, he sends it to Dalar Dawnweaver, an arcane specialist at the Sepulcher who recognizes Kirin Tor handiwork."
+  },
+  {
+   "q": "Why are the Forsaken concerned about it?",
+   "aliases": [
+    "why do forsaken care",
+    "ambermill threat",
+    "why is the pendant dangerous"
+   ],
+   "answer": "The shipment of large quantities of channeling pendants suggests the Kirin Tor at Ambermill are preparing a massive magical undertaking, threatening the Forsaken grip on Silverpine Forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Mages readily recognize Kirin Tor craftsmanship; the runes carved into the pendant are designed to stabilize volatile currents when channeling high-order spells."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken guarding Silverpine Forest, intercepted Dalaran focuses like this pendant provide vital intelligence on human resistance gathering behind Ambermill's walls."
+  }
+ ],
+ "keywords": [
+  "allister",
+  "ambermill",
+  "dalar dawnweaver",
+  "dalaran",
+  "kirin tor",
+  "pendant",
+  "rune-inscribed pendant",
+  "sepulcher"
+ ],
+ "related": [
+  "quest:478",
+  "quest:481",
+  "npc:dalar-dawnweaver",
+  "npc:shadow-priest-allister",
+  "subzone:ambermill",
+  "subzone:sepulcher",
+  "subzone:dalaran",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Rune-Inscribed Pendant",
+  "Maps and Runes",
+  "Dalar's Analysis"
+ ]
+}

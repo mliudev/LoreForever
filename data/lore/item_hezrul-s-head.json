@@ -1,0 +1,93 @@
+{
+ "key": "item:hezrul-s-head",
+ "type": "item",
+ "name": "Hezrul's Head",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Hezrul's Head",
+  "quests": [
+   "quest:852"
+  ]
+ },
+ "summary": "Hezrul's Head is the grisly trophy taken from Hezrul Bloodmark, chieftain of the Kolkar centaur dwelling in the Barrens. Brought to Regthar Deathgate west of the Crossroads, it serves as undeniable proof that the central leadership of the local marauders has fallen.",
+ "sections": [
+  {
+   "title": "Decapitating the Kolkar",
+   "body": "The Kolkar centaur maintain an aggressive hold on the crucial oases throughout the arid Barrens, constantly threatening Horde supply routes and fledgling settlements. Hezrul Bloodmark directs his clan from the Lushwater Oasis to the south. Regthar Deathgate, an orc veteran tasked with securing the territory west of the Crossroads, recognizes that while the Kolkar possess fierce rage, they lack formal discipline. By demanding Hezrul's severed head, Regthar seeks to fracture the clan's command structure, plunging their surviving fighters into disarray and blunting their coordinated assaults against the Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who does this head belong to?",
+   "aliases": [
+    "who is hezrul",
+    "hezrul identity",
+    "whose head is this"
+   ],
+   "answer": "The head belongs to Hezrul Bloodmark, the brutal and cunning leader of the Kolkar centaur clan infesting the central Barrens."
+  },
+  {
+   "q": "Where is Hezrul Bloodmark found?",
+   "aliases": [
+    "hezrul location",
+    "where is hezrul",
+    "find hezrul"
+   ],
+   "answer": "Hezrul commands his band around the Lushwater Oasis, situated south of the Crossroads in the Barrens."
+  },
+  {
+   "q": "Who wants Hezrul's Head?",
+   "aliases": [
+    "turn in hezrul head",
+    "who takes hezrul head",
+    "regthar deathgate"
+   ],
+   "answer": "Regthar Deathgate, an orc stationed at a military outpost along the road west of the Crossroads, asks for the head as proof of the chieftain's defeat."
+  },
+  {
+   "q": "Why does the Horde require his head instead of just driving him away?",
+   "aliases": [
+    "why kill hezrul",
+    "why take his head",
+    "centaur threat"
+   ],
+   "answer": "The Horde needs absolute certainty that Hezrul is dead. The centaur are naturally volatile and prone to infighting; eliminating their supreme chieftain shatters their command structure and diminishes their overall threat to the Crossroads."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Claiming the head of the Kolkar chieftain secures vital water rights at the Lushwater Oasis and protects Horde travelers traversing the arid Barrens."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Regthar Deathgate views the Kolkar as undisciplined ruffians whose raw fury is easily overcome by orcish battle discipline, making this trophy a testament to true martial honor."
+  }
+ ],
+ "keywords": [
+  "bloodmark",
+  "centaur",
+  "crossroads",
+  "deathgate",
+  "hezrul",
+  "kolkar",
+  "lushwater",
+  "regthar"
+ ],
+ "related": [
+  "quest:852",
+  "quest:851",
+  "quest:850",
+  "quest:4021",
+  "quest:1361",
+  "subzone:lushwater-oasis",
+  "subzone:crossroads",
+  "topic:centaur"
+ ],
+ "attribution": [
+  "Hezrul's Head",
+  "Hezrul Bloodmark (Classic)"
+ ]
+}

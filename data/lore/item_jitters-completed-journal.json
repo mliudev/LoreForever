@@ -1,0 +1,101 @@
+{
+ "key": "item:jitters-completed-journal",
+ "type": "item",
+ "name": "Jitters' Completed Journal",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Jitters' Completed Journal",
+  "quests": [
+   "quest:268",
+   "quest:269"
+  ]
+ },
+ "summary": "Jitters' Completed Journal is a handwritten account detailing the grim tragedies of Duskwood, specifically the massacre at Sven Yorgen's farm. Fearing vengeance, the reclusive Jitters surrenders the finished text to clear his name and shed light on the sinister forces haunting the region.",
+ "sections": [
+  {
+   "title": "A Coward's Confession",
+   "body": "When Sven's farm was attacked, Jitters fled in terror, abandoning his half-finished diary among the ruins. The completed journal fills in the missing pieces of that awful day, recounting how mysterious dark riders slaughtered Sven's family. For weeks, keeping the journal was Jitters' only solace while hiding out in Duskwood. He hands the finished volume over willingly, desperate to explain what truly happened and hoping the written truth will spare him from Sven's furious wrath.",
+   "spoiler": 1
+  },
+  {
+   "title": "Unraveling the Darkness",
+   "body": "The journal does more than soothe old grief: it establishes an unsettling connection between the black-cloaked riders and the necromancer Morbent Fel, who schemes from the Forlorn Rowe. Sven sends the completed manuscript with travelers north to the Cathedral of Light in Stormwind. There, Bishop Farthing reads Jitters' words to understand the vile taint festering in Duskwood, using its revelations to help craft a holy weapon capable of piercing Fel's dark wards.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why did Jitters give up his journal?",
+   "aliases": [
+    "why does jitters give journal",
+    "jitters diary",
+    "why did jitters write this"
+   ],
+   "answer": "Jitters fled Sven's farm during the attack and left an incomplete journal behind. He gave the completed version to adventurers so they could bring it to Sven, hoping the full truth would vindicate him and keep him safe from Sven's fiery temper."
+  },
+  {
+   "q": "What does the journal reveal about Sven's farm?",
+   "aliases": [
+    "what happened at sven farm",
+    "sven family attack",
+    "dark riders sven farm"
+   ],
+   "answer": "It provides a full eyewitness account of the slaughter of Sven Yorgen's family, detailing the role of the shadowy Dark Riders in the attack rather than blaming Jitters."
+  },
+  {
+   "q": "Who is Morbent Fel and how is he connected to the journal?",
+   "aliases": [
+    "morbent fel connection",
+    "who is morbent fel",
+    "forlorn rowe wizard"
+   ],
+   "answer": "Morbent Fel is a powerful necromancer dwelling at the Forlorn Rowe. Reading the journal prompts Sven to reveal that he witnessed the Dark Riders conferring directly with Fel, exposing a broader evil network in Duskwood."
+  },
+  {
+   "q": "Why is the journal taken to Stormwind?",
+   "aliases": [
+    "why bishop farthing",
+    "take journal to cathedral",
+    "seeking wisdom journal"
+   ],
+   "answer": "Sven instructs adventurers to carry the journal to Bishop Farthing at the Cathedral of Light. Since Stormwind has largely neglected Darkshire's defense, Farthing's wisdom and holy expertise are needed to prepare a weapon that can pierce Morbent Fel's magical wards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "Delivering the journal to Bishop Farthing in the Cathedral of Light places priests directly in the service of cleansing unholy defilement through holy relics."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The journal serves as a stark reminder of how far Duskwood has fallen into peril while Stormwind's leadership remains preoccupied elsewhere."
+  }
+ ],
+ "keywords": [
+  "bishop farthing",
+  "cathedral of light",
+  "dark riders",
+  "duskwood",
+  "forlorn rowe",
+  "jitters",
+  "journal",
+  "morbent fel",
+  "sven yorgen"
+ ],
+ "related": [
+  "quest:268",
+  "quest:269",
+  "npc:jitters",
+  "npc:farthing",
+  "quest:55",
+  "subzone:forlorn-rowe",
+  "topic:dark-riders",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Jitters' Completed Journal",
+  "Return to Sven",
+  "Seeking Wisdom"
+ ]
+}

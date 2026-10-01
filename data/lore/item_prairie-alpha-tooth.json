@@ -1,0 +1,79 @@
+{
+ "key": "item:prairie-alpha-tooth",
+ "type": "item",
+ "name": "Prairie Alpha Tooth",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Prairie Alpha Tooth",
+  "quests": [
+   "quest:759"
+  ]
+ },
+ "summary": "A Prairie Alpha Tooth is taken from the fierce pack leaders roaming the plains around Thunder Bluff. In tauren tradition, these teeth serve as a potent offering to cleanse and honor the land's precious water sources.",
+ "sections": [
+  {
+   "title": "A Cleansing Offering",
+   "body": "The water wells of Mulgore are vital lifelines for the tauren, and maintaining their spiritual purity demands rites of respect and sacrifice. To cleanse the Wildmane Well, Mull Thunderhorn of Bloodhoof Village requires teeth gathered from the prairie wolf alphas that stalk the shadow of Thunder Bluff. As apex predators of the rolling grassy plains, these alphas represent the raw strength of the wild. Offering their teeth honors the balance between hunter, prey, and the spirits of the earth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Prairie Alpha Tooth used for?",
+   "aliases": [
+    "alpha tooth purpose",
+    "what are wolf teeth for mulgore",
+    "wildmane totem item"
+   ],
+   "answer": "Mull Thunderhorn uses eight of these teeth in a ritual to cleanse the Wildmane Well, the final contaminated water well near Bloodhoof Village."
+  },
+  {
+   "q": "Where do Prairie Wolf Alphas roam?",
+   "aliases": [
+    "where are prairie wolf alphas",
+    "alpha wolf locations",
+    "prairie wolf alpha spots"
+   ],
+   "answer": "Prairie wolf alphas prowl the open grassy plains of central and northern Mulgore, particularly circling the bluffs around the base of Thunder Bluff."
+  },
+  {
+   "q": "Why does a water cleansing ritual require wolf teeth?",
+   "aliases": [
+    "why wolf teeth for water",
+    "mull thunderhorn tooth ritual lore"
+   ],
+   "answer": "Tauren rites honor the balance of nature. Cleansing the wells requires sacred components taken directly from the land's fierce native beasts, symbolizing both the sacrifice and the vitality of Mulgore's wildlife."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Taking the fang of a prairie alpha represents the hunter's sacred duty to harvest what is needed with respect, returning that primal essence to heal the poisoned earth."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The spirits of the water wells must be appeased through earthly balance, and offering the fangs of an apex predator anchors that natural harmony."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "mulgore",
+  "mull thunderhorn",
+  "prairie alpha tooth",
+  "prairie wolf alpha",
+  "water well",
+  "wildmane totem"
+ ],
+ "related": [
+  "quest:759",
+  "npc:mull-thunderhorn",
+  "subzone:bloodhoof-village",
+  "zone:thunderbluff",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Prairie Alpha Tooth",
+  "Wildmane Totem (Classic)"
+ ]
+}

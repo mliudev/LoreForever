@@ -1,0 +1,92 @@
+{
+ "key": "item:agamand-family-mace",
+ "type": "item",
+ "name": "Agamand Family Mace",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Agamand Family Mace",
+  "quests": [
+   "quest:1821"
+  ]
+ },
+ "summary": "The Agamand Family Mace is an ancestral heirloom preserved within the Agamand Family Crypt in northern Tirisfal Glades. Once a symbol of pride for a wealthy dynasty of northern Lordaeron, it has become an object of spiteful retribution sought by their former servant Coleman Farthing.",
+ "sections": [
+  {
+   "title": "A Legacy in Ruin",
+   "body": "Before the Third War, the Agamand family held extensive farmlands and windmills in the northern reaches of Tirisfal Glades. Like the rest of the regional aristocracy, they fell before the plague of undeath. The Agamands were reanimated as mindless thralls in service to the Lich King, wandering their ruined estate while their ancient family treasures remained locked within the depths of the family crypt. The Agamand Family Mace is stored among these weapons, an emblem of a forgotten lineage now reduced to shambling Scourge.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Servant's Vengeance",
+   "body": "The mace is one of four martial heirlooms targeted by Coleman Farthing, a former employee who blames the family for his demise during the fall of Lordaeron. Resurrected into the ranks of the Forsaken, Farthing seeks to strip the mindless Agamands of every vestige of dignity and honor. By retrieving the mace alongside the ancestral sword, axe, and dagger, Farthing aims to ensure that the memory and pride of his former masters are permanently wiped from the lands they once ruled.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Agamand Family Mace located?",
+   "aliases": [
+    "where is the mace",
+    "agamand mace location",
+    "find agamand mace"
+   ],
+   "answer": "The mace is stored on a weapon rack inside the Agamand Family Crypt, located at the far northern end of Agamand Mills in Tirisfal Glades."
+  },
+  {
+   "q": "Who wants the Agamand Family Mace?",
+   "aliases": [
+    "who needs the mace",
+    "who takes the agamand mace",
+    "coleman farthing heirloom"
+   ],
+   "answer": "Coleman Farthing, a Forsaken residing at Brill, demands the mace along with the other family heirlooms to settle an old score against his former masters."
+  },
+  {
+   "q": "Why does Coleman Farthing want the heirlooms stolen?",
+   "aliases": [
+    "why steal the heirlooms",
+    "coleman farthing motive",
+    "why hate the agamands"
+   ],
+   "answer": "Farthing served the Agamands in life and blames them directly for his death. Taking their prized weapons from their crypt is his way of wiping out the final traces of their family honor."
+  },
+  {
+   "q": "What happened to the Agamand family?",
+   "aliases": [
+    "who were the agamands",
+    "what happened to the agamands",
+    "agamand lore"
+   ],
+   "answer": "The Agamand family ruled the prosperous Agamand Mills in northern Lordaeron until the plague fell upon them. Now, their reanimated corpses roam the estate and the crypts as mindless thralls of the Scourge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The desecration of the Agamand crypts illustrates how lingering mortal grievances and resentments often drive Forsaken to settle scores from life."
+  }
+ ],
+ "keywords": [
+  "agamand family crypt",
+  "agamand family mace",
+  "agamand heirlooms",
+  "agamand mills",
+  "coleman farthing",
+  "tirisfal glades"
+ ],
+ "related": [
+  "quest:1821",
+  "npc:coleman-farthing",
+  "subzone:agamand-family-crypt",
+  "subzone:agamand-mills",
+  "item:agamand-family-sword",
+  "item:agamand-family-axe",
+  "item:agamand-family-dagger",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Agamand Family Mace",
+  "Agamand Heirlooms"
+ ]
+}

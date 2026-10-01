@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Upload your recordings - Lore Forever</title>
+<meta name="description" content="Upload your Lore Forever narration line by line and send your voice for review.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/voices/studio.css">
+<script src="/header.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top-row">
+    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; <a href="/voices">Voices</a> &rsaquo; Upload your recordings</span>
+    <div class="head-actions"><a class="btn-head" href="/feedback"><span class="hd-wide">Send feedback</span><span class="hd-narrow">Feedback</span></a></div>
+  </div>
+</header>
+
+<!-- The whole page is drawn by /voices/studio.js from /api/studio/state (functions/api/studio/[action].js) and
+     /voices/lines.json (pipeline: voicepack clips). Without JavaScript only this note shows. -->
+<main class="wrap st-page" id="st-app">
+  <h1>Upload your recordings</h1>
+  <p class="pitch" id="st-loading">Loading your lines...</p>
+  <noscript><p class="pitch">This page needs JavaScript. You can also send a folder link with the
+    <a href="/voices/submit">submission form</a>.</p></noscript>
+</main>
+
+<footer class="wrap foot">
+  <p>Your recordings are only for building your voice pack. Delete them any time, or delete your whole account from
+    <a href="/account">your account page</a>.</p>
+  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+<audio id="st-audio" preload="none"></audio>
+<script type="module" src="/voices/studio.js"></script>
+</body>
+</html>

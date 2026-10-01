@@ -17,7 +17,7 @@
   "wiki": "Klockmort's Creation",
   "chain": []
  },
- "summary": "Klockmort's Creation marks the successful forging of a specialized suit of armor in Ironforge's Tinker Town. Utilizing an unconventional technique devised by the master armorsmith Furen Longbeard, the gnome engineer Klockmort Spannerspan shapes raw materials into an extraordinarily resilient piece of gear.",
+ "summary": "Klockmort's Creation marks the successful forging of a specialized suit of armor in Ironforge's Tinker Town. Utilizing an unconventional technique devised by the master armorsmith Furen Longbeard, the gnome blacksmith Klockmort Spannerspan shapes raw materials into an extraordinarily resilient piece of gear.",
  "sections": [
   {
    "title": "A Fusion of Disciplines",
@@ -38,7 +38,7 @@
     "who is klockmort",
     "gnome in tinker town"
    ],
-   "answer": "Klockmort Spannerspan is a skilled gnome engineer residing in Tinker Town within Ironforge. He assists with intricate mechanical tasks and works in conjunction with dwarven craftsmen like Furen Longbeard to fashion unique, durable gear."
+   "answer": "Klockmort Spannerspan is a skilled gnome blacksmith residing in Tinker Town within Ironforge. He assists with intricate mechanical tasks and works in conjunction with dwarven craftsmen like Furen Longbeard to fashion unique, durable gear."
   },
   {
    "q": "Who designed the process to make this armor?",
@@ -50,13 +50,13 @@
    "answer": "The forging process was devised by Furen Longbeard, an accomplished dwarven armorsmith. Klockmort followed Furen's exact methodology to treat the materials and bring the armor to completion."
   },
   {
-   "q": "Why was a gnome engineer needed to make plate armor?",
+   "q": "Why did a gnome blacksmith make this armor?",
    "aliases": [
     "why a gnome",
     "gnome blacksmithing",
     "engineering armor"
    ],
-   "answer": "While dwarven smiths excel at raw metallurgical strength, the unusual components and exacting structural specifications required the delicate mechanical expertise of a gnome engineer to properly temper and balance the final product."
+   "answer": "Klockmort, a gnomish blacksmith, wanted to try Furen Longbeard's new technique on a piece of armor of his own. Because you had helped Furen, he offered you the finished armor in return for gathering the searing coral he needed."
   },
   {
    "q": "What makes this armor special compared to standard plate?",

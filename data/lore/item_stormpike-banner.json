@@ -1,0 +1,87 @@
+{
+ "key": "item:stormpike-banner",
+ "type": "item",
+ "name": "Stormpike Banner",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Stormpike Banner",
+  "quests": [
+   "quest:7162"
+  ]
+ },
+ "summary": "The Stormpike Banner is a military standard hidden deep within the treacherous Icewing Cavern in Alterac Valley. Alliance recruits must brave wild harpies to recover it as an initiation trial, proving they are worthy to wear the Stormpike insignia.",
+ "sections": [
+  {
+   "title": "A Rite of Induction",
+   "body": "To officially join the ranks of the Stormpike expedition in Alterac Valley, prospective recruits must prove their mettle before they ever clash with the Frostwolf orcs. Lieutenant Haggerdin sends newly arrived Alliance soldiers into the Icewing Caverns, situated southwest of Dun Baldar. Planted deep inside this frozen subterranean den, the Stormpike Banner serves as a testing ground: anyone brave enough to brave the native harpies, seize the standard, and bring it back alive earns the rank and insignia of an initiate in the Stormpike Guard.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Stormpike Banner located?",
+   "aliases": [
+    "banner location",
+    "where is the stormpike banner",
+    "how to find banner"
+   ],
+   "answer": "The banner is planted deep inside the Icewing Caverns, a frost-choked cave system situated southwest of Dun Baldar within Alterac Valley."
+  },
+  {
+   "q": "Why do recruits have to retrieve the banner?",
+   "aliases": [
+    "proving grounds trial",
+    "why get banner",
+    "haggerdin quest"
+   ],
+   "answer": "Lieutenant Haggerdin requires all Alliance recruits to demonstrate their courage before joining the battle lines. Bringing back the banner from the dangerous, harpy-infested cavern earns the recruit their initial Stormpike Insignia."
+  },
+  {
+   "q": "What threats guard the banner inside the cave?",
+   "aliases": [
+    "monsters near banner",
+    "icewing cavern enemies"
+   ],
+   "answer": "The Icewing Caverns are fiercely defended by savage local harpies who will viciously attack any trespassers seeking the standard."
+  },
+  {
+   "q": "Who do I return the banner to once found?",
+   "aliases": [
+    "turn in banner",
+    "banner hand in"
+   ],
+   "answer": "Deliver the recovered banner to Lieutenant Haggerdin, the Alliance officer stationed outside the entrance in the Alterac Mountains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Retrieving the banner marks your formal entrance into the Stormpike Guard, earning you the right to carry their battle insignia against the Frostwolf Clan."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The banner represents Ironforge's sovereign claim and the Stormpike clan's sacred mission to uncover titan relics throughout the valley."
+  }
+ ],
+ "keywords": [
+  "alterac valley",
+  "dun baldar",
+  "haggerdin",
+  "icewing caverns",
+  "insignia",
+  "proving grounds",
+  "stormpike banner"
+ ],
+ "related": [
+  "quest:7161",
+  "npc:lieutenant-haggerdin",
+  "zone:alterac",
+  "topic:alliance",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Stormpike Banner",
+  "Proving Grounds (Alterac Valley) (Alliance)"
+ ]
+}

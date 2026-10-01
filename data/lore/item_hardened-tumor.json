@@ -1,0 +1,95 @@
+{
+ "key": "item:hardened-tumor",
+ "type": "item",
+ "name": "Hardened Tumor",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Hardened Tumor",
+  "quests": [
+   "quest:451"
+  ]
+ },
+ "summary": "A Hardened Tumor is a rare biological anomaly harvested from the Vile Fin murlocs dwelling around Lake Lordamere. Noted originally in the research of the fallen Apothecary Berard, this calcified growth serves as an unusual reagent in the Royal Apothecary Society's efforts to brew the New Plague.",
+ "sections": [
+  {
+   "title": "A Rare Biological Anomaly",
+   "body": "While studying the indigenous wildlife along the eastern borders of Silverpine Forest, Apothecary Berard cataloged an abnormal, calcified growth developing within the Vile Fin murlocs of Lake Lordamere. Such growths are exceedingly rare, appearing only in mature specimens along the shoreline and the Dawning Isles. What causes the Vile Fin murlocs to produce these hardened masses remains uncertain, but their dense, morbid tissue caught the immediate attention of the Royal Apothecary Society.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fuel for the New Plague",
+   "body": "Following Berard's untimely demise, his field notes were recovered by Apothecary Renferrel at the Sepulcher. Recognizing the potential within Berard's work, Renferrel tasked Forsaken agents with retrieving a Hardened Tumor alongside native aquatic mosses. Master Apothecary Faranell oversees the Apothecarium in the Undercity, seeking reagents that can resist decay or alter biological matter. He incorporated this peculiar growth directly into the Society's ongoing compounding of the New Plague.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Hardened Tumor?",
+   "aliases": [
+    "what is this tumor",
+    "tumor lore",
+    "hardened tumor drop"
+   ],
+   "answer": "It is an abnormal, calcified mass that rarely forms inside Vile Fin murlocs living around Lake Lordamere. Discovered by the Forsaken researcher Apothecary Berard, it resists normal physical degradation and possesses unique biological properties."
+  },
+  {
+   "q": "Why does the Royal Apothecary Society want it?",
+   "aliases": [
+    "why apothecary want tumor",
+    "recipe for death tumor use",
+    "faranell tumor"
+   ],
+   "answer": "Master Apothecary Faranell and the Royal Apothecary Society are gathering unusual toxic and biological specimens to synthesize the New Plague. The tumor's abnormal resilience and cellular composition make it a prime candidate for their blight experiments."
+  },
+  {
+   "q": "Where are these tumors found?",
+   "aliases": [
+    "where to find hardened tumor",
+    "which murlocs drop tumor",
+    "tumor location"
+   ],
+   "answer": "They are retrieved from Vile Fin murlocs in Silverpine Forest, specifically those inhabiting the Dawning Isles in eastern Lake Lordamere and the village shores northeast of Ambermill."
+  },
+  {
+   "q": "Who was Apothecary Berard?",
+   "aliases": [
+    "who is berard",
+    "berard lore",
+    "berard journal"
+   ],
+   "answer": "Berard was an apothecary of the Royal Apothecary Society stationed in Silverpine Forest. Before his death, he compiled detailed research on local flora, fauna, and murloc mutations, uncovering the utility of the Dawning Isles' mosses and hardened tumors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Procuring the tumor advances Master Apothecary Faranell's vital research into the New Plague, serving Lady Sylvanas and the Forsaken's struggle against their living and undead adversaries."
+  }
+ ],
+ "keywords": [
+  "apothecary faranell",
+  "apothecary renferrel",
+  "berard",
+  "dawning isles",
+  "hardened tumor",
+  "lake lordamere",
+  "murloc",
+  "new plague",
+  "vile fin"
+ ],
+ "related": [
+  "npc:master-apothecary-faranell",
+  "npc:apothecary-renferrel",
+  "item:berard-s-journal",
+  "quest:447",
+  "topic:royal-apothecary-society",
+  "topic:murloc",
+  "subzone:dawning-isles",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Hardened Tumor",
+  "A Recipe For Death (3)"
+ ]
+}

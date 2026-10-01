@@ -17,7 +17,7 @@
   },
   {
    "title": "Tending the Wounds",
-   "body": "Rethiel seeks to alleviate the suffering of the Wetlands by dispatching sympathetic adventurers against its major agitators. He urges visitors to hunt down destructive Mosshide gnolls who ravage the wildlife, quench the unnatural fires stoked by Dragonmaw orc encampments, and thin out the bloated, rotting oozes that seep poison into the marsh waters. Through these cullings, he hopes to restore peace to the wounded soil.",
+   "body": "Rethiel seeks to alleviate the suffering of the Wetlands by dispatching sympathetic adventurers against its major agitators. He urges visitors to hunt down destructive Mosshide gnolls who ravage the wildlife, quench the unnatural fires stoked by Dragonmaw orc encampments, and thin out the diseased fen creepers that fester in the marsh waters. Through these cullings, he hopes to restore peace to the wounded soil.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "rethiel goal",
     "what does rethiel want"
    ],
-   "answer": "Rethiel senses that the marsh is actively suffering. He seeks adventurers to purge invasive threats\u2014specifically destructive gnoll bands, unnatural Dragonmaw fire-users, and toxic oozes\u2014to bring relief to the land."
+   "answer": "Rethiel senses that the marsh is actively suffering. He seeks adventurers to purge invasive threats\u2014specifically destructive gnoll bands, unnatural Dragonmaw fire-users, and diseased fen creepers\u2014to bring relief to the land."
   },
   {
    "q": "Are all bog beasts sentient like Rethiel?",
@@ -65,7 +65,7 @@
     "rethiel enemies",
     "threats to wetlands rethiel"
    ],
-   "answer": "He focuses on curbing the aggressive Mosshide gnolls, extinguishing the flames of the hostile Dragonmaw orcs, and purging the foul oozes festering in the marsh."
+   "answer": "He focuses on curbing the aggressive Mosshide gnolls, extinguishing the flames of the hostile Dragonmaw orcs, and purging the diseased fen creepers festering in the marsh."
   },
   {
    "q": "Is Rethiel aligned with the Alliance or the Horde?",

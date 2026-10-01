@@ -1,0 +1,88 @@
+{
+ "key": "item:shipment-of-rare-crystals",
+ "type": "item",
+ "name": "Shipment of Rare Crystals",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Shipment of Rare Crystals",
+  "quests": [
+   "quest:9435"
+  ]
+ },
+ "summary": "The Shipment of Rare Crystals is a contested mineral haul excavated from the Azurelode Mine in Hillsbrad Foothills. Packed alongside ordinary stone shipments, these unique geological specimens were seized by Forsaken raiders before they could reach Southshore scholars.",
+ "sections": [
+  {
+   "title": "A Plundered Geological Prize",
+   "body": "While carts rolling south from the Azurelode Mine typically carry simple building stone, one routine delivery held a crate of singular, unstudied crystals. The shipment never reached its destination in Southshore; Forsaken marauders intercepted the transport cart and hauled its contents northeast toward a ruined tower they are attempting to rebuild. According to the mine foreman, the seized crate held the only known specimens of these crystals uncovered in the mine, making their recovery a matter of urgent academic and regional interest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where did these crystals come from?",
+   "aliases": [
+    "crystal origin",
+    "where were crystals mined",
+    "azurelode crystals"
+   ],
+   "answer": "They were unearthed during excavations at the Azurelode Mine, a quarry situated in the Hillsbrad Foothills. The mine foreman noted that the crate contained the only known samples ever found there."
+  },
+  {
+   "q": "Who stole the shipment of crystals?",
+   "aliases": [
+    "who took the crystals",
+    "forsaken raiders crystals",
+    "who intercepted the cart"
+   ],
+   "answer": "Forsaken raiders intercepted the transport cart carrying the stone and rare minerals. They hauled the stolen cargo northeast toward a stone tower they are attempting to reconstruct."
+  },
+  {
+   "q": "Who wants the crystals recovered?",
+   "aliases": [
+    "who needs the crystals",
+    "huraan crystals",
+    "southshore scholar"
+   ],
+   "answer": "Huraan, a scholar residing in the Alliance settlement of Southshore, sought out the crystals for study and enlisted travelers to wrest them back from the Forsaken."
+  },
+  {
+   "q": "Why are these crystals considered rare?",
+   "aliases": [
+    "why are crystals special",
+    "rare crystal importance"
+   ],
+   "answer": "Unlike the standard building stone commonly hauled out of Azurelode Mine, these crystalline formations are extremely uncommon. The mine foreman reported that if this batch had been lost, no replacement specimens might ever be found."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Every intercepted supply cart deepens the strain on Southshore, making the recovery of Azurelode's rare findings a matter of defiance against Forsaken expansion in Hillsbrad."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Miners familiar with the Azurelode quarry know it mainly produces basic stone, making a sudden vein of unique, irreplaceable crystal samples an extraordinary geological curiosity."
+  }
+ ],
+ "keywords": [
+  "azurelode mine",
+  "hillsbrad foothills",
+  "huraan",
+  "shipment of rare crystals",
+  "southshore",
+  "unopened crate"
+ ],
+ "related": [
+  "npc:huraan",
+  "subzone:azurelode-mine",
+  "subzone:southshore",
+  "zone:hillsbrad",
+  "topic:forsaken",
+  "topic:light"
+ ],
+ "attribution": [
+  "Shipment of Rare Crystals",
+  "Missing Crystals"
+ ]
+}

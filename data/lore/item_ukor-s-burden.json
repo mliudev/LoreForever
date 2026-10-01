@@ -1,0 +1,78 @@
+{
+ "key": "item:ukor-s-burden",
+ "type": "item",
+ "name": "Ukor's Burden",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Ukor's Burden",
+  "quests": [
+   "quest:2161"
+  ]
+ },
+ "summary": "Ukor's Burden is a heavy bundle of rations hauled out of Razor Hill by a well-meaning orc peon. Intended to feed hungry novices in the Valley of Trials, the unwanted provisions must be hauled back before the wilderness scorpids and raptors pick up the scent.",
+ "sections": [
+  {
+   "title": "A Well-Intentioned Mistake",
+   "body": "Orc peons rarely act on their own initiative, which makes Ukor's errand unusual. Packing a heavy load of provisions from the inn in Razor Hill, he braved the red dust and aggressive wildlife of Durotar to aid young recruits training in the Valley of Trials. To his dismay, the overseers and instructors turned him away\u2014believing that hardship and lean bellies forge true warriors. Trapped outside the canyon's mouth and terrified of the beasts stalking the trail back, Ukor entrusted the sack to passing travelers to return it to Innkeeper Grosk.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside Ukor's Burden?",
+   "aliases": [
+    "what is in the pack",
+    "ukors burden contents",
+    "what food is it"
+   ],
+   "answer": "It is a heavy pack packed with food and supplies taken from the Razor Hill inn. Ukor gathered the rations hoping to feed the young orcs and trolls undergoing initiation, unaware that the training grounds deliberately restrict outside comfort."
+  },
+  {
+   "q": "Why did the Valley of Trials reject the food?",
+   "aliases": [
+    "why valley of trials refused food",
+    "why didnt they want the food",
+    "why wasnt the food needed"
+   ],
+   "answer": "The overseers running the Valley of Trials believe that endurance and deprivation build character in fledgling warriors. As Innkeeper Grosk puts it, starving recruits in training builds spirit, making outside charity unwelcome."
+  },
+  {
+   "q": "Where does the burden need to go?",
+   "aliases": [
+    "where do i take ukors burden",
+    "who wants ukors burden",
+    "ukors burden delivery"
+   ],
+   "answer": "The supplies belong back on the shelves of the inn in Razor Hill. You must take the sack directly to Innkeeper Grosk, who safely restocks the provisions and offers a drink to whoever hauled it home."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The errand illustrates the rigid, survivalist culture Thrall's Horde enforces in Durotar: even simple kindness must defer to the harsh trials required to temper new soldiers."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "grosk",
+  "peon",
+  "rations",
+  "razor hill",
+  "ukor",
+  "valley of trials"
+ ],
+ "related": [
+  "npc:ukor",
+  "npc:innkeeper-grosk",
+  "quest:2161",
+  "subzone:razor-hill",
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Ukor's Burden",
+  "A Peon's Burden"
+ ]
+}

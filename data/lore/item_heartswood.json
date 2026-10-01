@@ -1,0 +1,96 @@
+{
+ "key": "item:heartswood",
+ "type": "item",
+ "name": "Heartswood",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Heartswood",
+  "quests": [
+   "quest:1738"
+  ]
+ },
+ "summary": "Heartswood is timber harvested from a sacred tree rooted within the Ruins of Ordil'Aran in northwestern Ashenvale. Born from the final resting place of two ancient lovers, its resonance with undying devotion makes it an essential lure for summoning a succubus.",
+ "sections": [
+  {
+   "title": "A Monument to Devotion",
+   "body": "The Heartswood grows among the elven stones of the Ruins of Ordil'Aran in northwestern Ashenvale. According to legend, two lovers named Anathera and Latherion fell side by side during the catastrophic War of the Ancients thousands of years ago. On the very earth where they breathed their last, a peculiar tree took root, blossoming as an eternal testament to their devotion. Even millennia later, the wood cut from this tree hums with the memory of undying passion, making it an object of great curiosity for those who study emotional and spiritual bonds.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Tool of Subjugation",
+   "body": "While born of pure sentiment, Heartswood attracts darker attention. Succubi\u2014demons that thrive on passion, longing, and emotional exploitation\u2014are intensely drawn to artifacts imbued with genuine, undying love. Human and gnome warlocks under the instruction of Gakin the Darkbinder in Stormwind seek out this rare timber specifically to construct a ritual lure. By using the innate resonance of the lovers' sacrifice, a practitioner can bait a succubus across the Nether, draw her into a summoning circle, and bind her to their will.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Heartswood?",
+   "aliases": [
+    "heartswood tree",
+    "what is heartswood",
+    "heartswood lore"
+   ],
+   "answer": "Heartswood is the wood taken from a tree that sprouted in Ashenvale's Ruins of Ordil'Aran, marking the spot where two ancient night elf lovers perished together during the War of the Ancients."
+  },
+  {
+   "q": "Who were Anathera and Latherion?",
+   "aliases": [
+    "anathera and latherion",
+    "lovers of heartswood",
+    "who died at heartswood"
+   ],
+   "answer": "Anathera and Latherion were lovers who fought side by side during the War of the Ancients. When they both fell in battle, their final embrace nourished the earth, giving rise to the Heartswood tree as an enduring symbol of their devotion."
+  },
+  {
+   "q": "Why do warlocks need Heartswood?",
+   "aliases": [
+    "why do warlocks want heartswood",
+    "heartswood succubus",
+    "heartswood purpose"
+   ],
+   "answer": "Succubi are demonic creatures of desire and emotional manipulation. Because the Heartswood resonates powerfully with the essence of unyielding, eternal love, warlocks use it as a potent psychic bait to tempt and summon a succubus into the physical world."
+  },
+  {
+   "q": "Where can Heartswood be found?",
+   "aliases": [
+    "heartswood location",
+    "where is heartswood",
+    "ruins of ordil'aran heartswood"
+   ],
+   "answer": "Heartswood is found within the Ruins of Ordil'Aran, located in the northwestern reaches of the Ashenvale forest near the border of Darkshore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "For Alliance warlocks, securing Heartswood is a critical rite of passage directed by Gakin the Darkbinder, providing the emotional bait required to compel and bind a succubus minion."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The tree represents a tragic, sacred memorial from the War of the Ancients, making its desecration by warlocks and cultists a bitter offense against the memory of fallen ancestors."
+  }
+ ],
+ "keywords": [
+  "anathera",
+  "ashenvale",
+  "gakin the darkbinder",
+  "heartswood",
+  "latherion",
+  "ordil'aran",
+  "succubus"
+ ],
+ "related": [
+  "quest:1738",
+  "npc:gakin-the-darkbinder",
+  "subzone:ruins-of-ordil-aran",
+  "zone:ashenvale",
+  "topic:war-of-the-ancients",
+  "quest:1685",
+  "quest:1472"
+ ],
+ "attribution": [
+  "Heartswood",
+  "Heartswood (quest)"
+ ]
+}

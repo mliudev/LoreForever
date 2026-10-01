@@ -1,0 +1,93 @@
+{
+ "key": "item:silithid-egg-the-barrens",
+ "type": "item",
+ "name": "Silithid Egg (The Barrens)",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Silithid Egg (The Barrens)",
+  "quests": [
+   "quest:868"
+  ]
+ },
+ "summary": "Silithid Eggs are the developing brood of the insectoid creatures nesting in the southern Barrens. Found buried within earth mounds around the Field of Giants, these clutches are gathered by Horde researchers seeking to uncover the origins and intelligence of the encroaching swarm.",
+ "sections": [
+  {
+   "title": "A Mysterious Swarm",
+   "body": "In the arid basin of the Field of Giants, bizarre insect-like beings have begun churning the earth into towering mounds. Deep within these nests lie their eggs, buried beneath hardened soil and watched over by territorial broods. The Horde knows remarkably little about the silithid, but scouts stationed at the Crossroads have noted signs of coordinated behavior and uncanny intellect far exceeding ordinary wild beasts. Gathering unhatched eggs offers scholars in Orgrimmar their best chance to study the lifecycle and nature of this emerging menace.",
+   "spoiler": 0
+  },
+  {
+   "title": "Excavation and Danger",
+   "body": "Reaching the eggs requires prying into silithid mounds with specialized digging claws. Disturbing these clutches is perilous work; the silithid react fiercely to intrusions near their subterranean nurseries, swarming any who threaten their unhatched young. For researchers like the troll Korran, securing intact, unbroken specimens is critical for analysis before the swarm spreads further across Kalimdor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Silithid Eggs?",
+   "aliases": [
+    "silithid egg",
+    "what is silithid egg",
+    "silithid mounds"
+   ],
+   "answer": "They are the unhatched clutches of the insectoid silithid found nesting inside earthen mounds in the southern Barrens, particularly throughout the Field of Giants."
+  },
+  {
+   "q": "Who wants these eggs collected?",
+   "aliases": [
+    "who needs eggs",
+    "korran quest",
+    "egg hunt questgiver"
+   ],
+   "answer": "Korran, a troll researcher stationed at the Crossroads, gathers them on behalf of his masters in Orgrimmar to study the strange biology and behavior of the silithid."
+  },
+  {
+   "q": "Why are the silithid being studied?",
+   "aliases": [
+    "why study silithid",
+    "silithid threat",
+    "are silithid smart"
+   ],
+   "answer": "The Horde knows very little about the silithid. Korran notes that they exhibit signs of intelligence and coordination far beyond typical wild animals, raising concern among Horde leaders about their sudden presence in the Barrens."
+  },
+  {
+   "q": "How are the eggs gathered?",
+   "aliases": [
+    "how to get eggs",
+    "digging claw",
+    "harvest silithid eggs"
+   ],
+   "answer": "They must be carefully dug out from silithid mounds using an adapted digging claw, while warding off the aggressive swarm that defends the nests."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The appearance of intelligent insect swarms so close to the Crossroads presents an unsettling danger to Horde trade routes and territory in central Kalimdor."
+  }
+ ],
+ "keywords": [
+  "crossroads",
+  "digging claw",
+  "egg hunt",
+  "field of giants",
+  "korran",
+  "mounds",
+  "silithid",
+  "silithid egg",
+  "the barrens"
+ ],
+ "related": [
+  "quest:868",
+  "npc:korran",
+  "subzone:field-of-giants",
+  "subzone:crossroads",
+  "zone:barrens",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Silithid Egg (The Barrens)",
+  "Egg Hunt (Classic)"
+ ]
+}

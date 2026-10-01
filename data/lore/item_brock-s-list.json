@@ -1,0 +1,98 @@
+{
+ "key": "item:brock-s-list",
+ "type": "item",
+ "name": "Brock's List",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Brock's List",
+  "quests": [
+   "quest:6387",
+   "quest:6391"
+  ]
+ },
+ "summary": "Brock's List is a dispatch compiled by the mining instructor Brock Stoneseeker in Thelsamar. It contains the names of top mining pupils who have earned honorary picks from the guild halls in Ironforge.",
+ "sections": [
+  {
+   "title": "A Miner's Distinction",
+   "body": "Mining is the lifeblood of dwarven civilization, and apprentice diggers must prove their skill before they are entrusted with serious work in Khaz Modan's veins. In Thelsamar, the local mining trainer compiles this parchment to reward students who excel in their lessons. The document records those who have earned honorary picks\u2014coveted symbols of competence forged in the capital.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to the Great Forge",
+   "body": "Because the honorary tools must be etched and distributed from the capital, the parchment is entrusted to travelers bound for Ironforge. Carried aboard a gryphon from Thelsamar's roost, Brock's List makes its way directly to Golnir Bouldertoe at the Deep Mountain Mining Guild in the Great Forge, where the honored students' names are engraved into stone and steel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Brock's List?",
+   "aliases": [
+    "brocks list",
+    "what is this item",
+    "brock list purpose"
+   ],
+   "answer": "It is a roster written by the mining trainer Brock Stoneseeker in Thelsamar. It details the apprentices who achieved high marks in their mining instruction and qualified for ceremonial picks."
+  },
+  {
+   "q": "Who do I deliver Brock's List to?",
+   "aliases": [
+    "where do i take the list",
+    "who gets brocks list",
+    "brocks list turn in"
+   ],
+   "answer": "First you show the list to Thorgrum Borrelson, the gryphon master in Thelsamar, to secure passage. Then you carry it directly to Golnir Bouldertoe at the Deep Mountain Mining Guild inside the Great Forge of Ironforge."
+  },
+  {
+   "q": "Why does Golnir Bouldertoe need this document?",
+   "aliases": [
+    "why golnir",
+    "why does ironforge need the list"
+   ],
+   "answer": "Golnir oversees the Deep Mountain Mining Guild's tools in Ironforge. He has a crate of honorary picks prepared and needs Brock's written roster so he can chisel each student's name into their reward."
+  },
+  {
+   "q": "Why is the list sent by gryphon rather than foot?",
+   "aliases": [
+    "why fly to ironforge",
+    "why take a gryphon"
+   ],
+   "answer": "While the mountain passes through Loch Modan connect back to Dun Morogh, taking a gryphon through the roost master Thorgrum Borrelson is the swiftest and safest way to deliver guild business directly into the Great Forge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "For prospectors, Brock's List represents the formal recognition of apprentices stepping beyond rough gravel and into the proud traditions of the Deep Mountain Mining Guild."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The parchment reflects dwarven craft heritage, honoring youth who show dedication to the pick and shovel beneath Khaz Modan."
+  }
+ ],
+ "keywords": [
+  "brock's list",
+  "golnir bouldertoe",
+  "great forge",
+  "ironforge",
+  "loch modan",
+  "mining",
+  "thelsamar",
+  "thorgrum borrelson"
+ ],
+ "related": [
+  "quest:6387",
+  "quest:6391",
+  "npc:golnir-bouldertoe",
+  "npc:thorgrum-borrelson",
+  "item:honorary-picks",
+  "subzone:thelsamar",
+  "subzone:great-forge",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Brock's List",
+  "Honor Students (Classic)",
+  "Ride to Ironforge (Classic)"
+ ]
+}

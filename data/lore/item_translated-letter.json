@@ -1,0 +1,94 @@
+{
+ "key": "item:translated-letter",
+ "type": "item",
+ "name": "Translated Letter",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Translated Letter",
+  "quests": [
+   "quest:252"
+  ]
+ },
+ "summary": "The Translated Letter is the deciphered message penned by the hermit Abercrombie and translated by Sirra Von'Indi in Darkshire. It reveals the horrifying consequences of aiding the recluse, warning that an abomination named Stitches is marching on the town.",
+ "sections": [
+  {
+   "title": "A Gruesome Revelation",
+   "body": "What began as errands of mercy for a seemingly helpless hermit in Raven Hill takes a dark turn with this parchment. Written in an obscure hand, Abercrombie's message to Mayor Ello Ebonlocke remained an enigma until brought to Sirra Von'Indi for translation. The decoded text lays bare the hermit's true identity as the Embalmer. Rather than living in harmless solitude, Abercrombie used the supplies brought to him to construct a monstrous abomination named Stitches, unleashing the hulking creation to trample and slaughter the people of Darkshire.",
+   "spoiler": 1
+  },
+  {
+   "title": "The Price of Good Intentions",
+   "body": "Presenting the translated missive to Lord Ello Ebonlocke drains all color from the mayor's face. While the traveler's assistance was offered out of genuine goodwill, the note proves that Abercrombie played them for a fool, using their labor to fashion an instrument of absolute slaughter. As the town council scrambles to marshal the Night Watch, the deciphered note serves as a chilling testament to how easily charity can be twisted into devastation across the haunted roads of Duskwood.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Translated Letter say?",
+   "aliases": [
+    "letter text",
+    "what did abercrombie write",
+    "what does it say"
+   ],
+   "answer": "The letter details Abercrombie's spiteful revenge against Darkshire, revealing that he used the components delivered to him to stitch together a terrifying undead abomination named Stitches and sent it marching toward the town."
+  },
+  {
+   "q": "Who translates the letter?",
+   "aliases": [
+    "who translates it",
+    "who decoded the letter",
+    "sirra von indi letter"
+   ],
+   "answer": "Sirra Von'Indi, a scholar residing in Darkshire, translates Abercrombie's cryptic handwriting and warns you to hurry back to Lord Ello with the alarming news."
+  },
+  {
+   "q": "What happens when Ello reads the letter?",
+   "aliases": [
+    "ello reaction",
+    "turning in translated letter",
+    "what happens after translation"
+   ],
+   "answer": "Lord Ello turns pale with dread upon reading the translation. He laments that well-meaning aid was used to construct an abomination, and Darkshire is thrown into alarm as Stitches lumbers down the road from Raven Hill Cemetery."
+  },
+  {
+   "q": "Can I throw away the Translated Letter after the quest?",
+   "aliases": [
+    "safe to delete translated letter",
+    "can i destroy translated letter",
+    "keep translated letter"
+   ],
+   "answer": "Yes. Once Lord Ello inspects the parchment and advances the town's defense, the letter remains in your pack as a souvenir and serves no further functional purpose."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The missive marks a devastating moment of reckoning for Alliance travelers in Duskwood, proving that even pure intentions can be weaponized against the fragile defenders of Darkshire."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "darkshire",
+  "embalmer",
+  "letter to ello",
+  "lord ello ebonlocke",
+  "sirra von'indi",
+  "stitches",
+  "translated letter"
+ ],
+ "related": [
+  "item:letter-to-ello",
+  "quest:252",
+  "npc:lord-ello-ebonlocke",
+  "npc:sirra-von-indi",
+  "npc:abercrombie",
+  "npc:stitches",
+  "quest:253",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Translated Letter",
+  "Translation to Ello"
+ ]
+}

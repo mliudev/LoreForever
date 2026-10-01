@@ -1,0 +1,115 @@
+{
+ "key": "quest:3519",
+ "type": "quest",
+ "name": "A Friend in Need",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   3519
+  ],
+  "level": "4",
+  "faction": "Alliance",
+  "start": "Iverron",
+  "end": "Dirania Silvershine",
+  "previous": "A Good Friend",
+  "next": "Iverron's Antidote (Classic)",
+  "wiki": "A Friend in Need (Classic)",
+  "chain": []
+ },
+ "summary": "A Friend in Need is an urgent plea for aid from Iverron, a young night elf found suffering from venomous spider bites in Shadowglen. Struck down by the deadly beast Githyiss the Vile, Iverron sends travelers to find Dirania Silvershine before the venom claims him.",
+ "sections": [
+  {
+   "title": "A Reckless Venture",
+   "body": "Shadowglen's sprawling canopies shelter all manner of wildlife, but the nearby webbed hollows house far darker threats. Ignoring past warnings, Iverron ventured too close to the local webwood caverns and encountered Githyiss the Vile, a vicious spider whose venom quickly overwhelmed the young elf. Stricken with dizziness and failing strength, he is entirely unable to reach safety on his own.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Call to Aldrassil",
+   "body": "Desperate for survival, Iverron directs any passerby to race back toward the central tree of Aldrassil and alert Dirania Silvershine. Dirania, accustomed to looking out for him and familiar with the hazards of the glen, represents his only hope of preparing a life-saving antidote before the toxin proves fatal.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Iverron?",
+   "aliases": [
+    "iverron lore",
+    "who is the poisoned elf",
+    "who gives a friend in need"
+   ],
+   "answer": "Iverron is a young night elf living in Shadowglen within Teldrassil. He frequently wanders into dangerous places despite the warnings of his companions, which leads to his near-fatal encounter with Githyiss the Vile."
+  },
+  {
+   "q": "What attacked Iverron?",
+   "aliases": [
+    "what bit iverron",
+    "who is githyiss",
+    "what spider poisoned him"
+   ],
+   "answer": "He was bitten by Githyiss the Vile, a notorious, highly poisonous spider lurking inside the spider cave nestled within Shadowglen."
+  },
+  {
+   "q": "Who is Dirania Silvershine?",
+   "aliases": [
+    "dirania role",
+    "who to talk to for iverron"
+   ],
+   "answer": "Dirania Silvershine is a night elf residing at Aldrassil in Shadowglen. She is a close friend and guardian figure to Iverron who knows how to treat venomous injuries."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "where is a friend in need",
+    "iverron location"
+   ],
+   "answer": "The quest takes place entirely within Shadowglen, the sheltered starting vale of the night elves nestled high on the crown of Teldrassil."
+  },
+  {
+   "q": "What happens after reporting Iverron's condition to Dirania?",
+   "aliases": [
+    "what next after a friend in need",
+    "does iverron get saved"
+   ],
+   "answer": "Dirania immediately sets to work preparing a remedy, dispatching adventurers across the grove to gather the rare reagents needed to brew an antidote before Iverron succumbs to the poison."
+  },
+  {
+   "q": "Why are there deadly spiders inside Shadowglen?",
+   "aliases": [
+    "why are there spiders in shadowglen",
+    "spider corruption teldrassil"
+   ],
+   "answer": "Though Shadowglen is considered a safe haven for young night elves, the corruption spreading across Teldrassil has stirred wild beasts and vermin like the webwood spiders into unusually aggressive, venomous predators."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young kaldorei beginning their training beneath Aldrassil, Iverron's predicament is a stark reminder that even the sheltered boughs of Shadowglen are no longer free from corruption and deadly peril."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids learn early on that the imbalance in the local wildlife can strike down the unwary, underscoring the urgent need to understand and counter nature's venoms."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "dirania silvershine",
+  "githyiss",
+  "iverron",
+  "poison",
+  "shadowglen",
+  "spider",
+  "teldrassil"
+ ],
+ "related": [
+  "npc:iverron",
+  "npc:dirania-silvershine",
+  "quest:4495",
+  "subzone:shadowglen",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "A Friend in Need (Classic)"
+ ]
+}

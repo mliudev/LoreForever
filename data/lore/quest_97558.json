@@ -1,0 +1,112 @@
+{
+ "key": "quest:97558",
+ "type": "quest",
+ "name": "Hides for the Forsaken",
+ "era": "forever",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   97558
+  ],
+  "level": "11",
+  "faction": "Horde",
+  "start": "Shelene Rhobart",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Hides for the Forsaken",
+  "chain": []
+ },
+ "summary": "A grim necessity of undead existence in Tirisfal Glades, where the Forsaken must scavenge animal hides to replace their decaying flesh. Shelene Rhobart tasks adventurers with gathering darkhound hides, duskbat wing membranes, and murloc skin to patch damaged bodies.",
+ "sections": [
+  {
+   "title": "The Price of Undeath",
+   "body": "Forsaken flesh does not heal naturally. Sustaining physical wounds leaves rotting gaps that cannot regenerate through normal biological means. To maintain their forms and keep their corpses functional, the Forsaken must source organic material from the living world and stitch replacement pieces over their injuries.",
+   "spoiler": 0
+  },
+  {
+   "title": "Specialized Materials",
+   "body": "Not every hide serves the same anatomical purpose. Thick darkhound hide offers durability for broad, sturdy repairs. Delicate duskbat wing membranes are light and pliable enough to cover faces and fingers without creating stiff, clumsy layers. Meanwhile, the pliable skin of Vile Fin murlocs is gathered to line internal membranes and sensitive areas such as inner cheeks and mouths.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do the Forsaken need animal skins?",
+   "aliases": [
+    "why forsaken need hides",
+    "undead healing lore",
+    "do undead heal"
+   ],
+   "answer": "The skin of an undead does not naturally heal or regenerate when damaged. In order to survive physical injury and halt outward decay, the Forsaken harvest skins and membranes from living creatures to patch and sew over their wounded bodies."
+  },
+  {
+   "q": "Who is Shelene Rhobart?",
+   "aliases": [
+    "shelene rhobart",
+    "who is shelene"
+   ],
+   "answer": "Shelene Rhobart is a Forsaken caretaker in Tirisfal Glades tasked with maintaining medical stocks and body parts. She collects various hides and biological materials to ensure damaged Forsaken have the resources needed to mend their rotting forms."
+  },
+  {
+   "q": "Why are duskbat wing membranes specifically needed?",
+   "aliases": [
+    "duskbat wings use",
+    "why duskbat membrane"
+   ],
+   "answer": "Duskbat wing membranes are exceptionally thin and supple compared to heavier pelts. This lightness makes them ideal for covering sensitive and intricate parts of the anatomy, such as facial features and fingers, preventing the grafted skin from becoming too thick or rigid."
+  },
+  {
+   "q": "What is murloc skin used for?",
+   "aliases": [
+    "why murloc skin",
+    "murloc skin undead"
+   ],
+   "answer": "Vile Fin murloc skin possesses unique moisture and flexibility, making it well-suited for internal membranes or delicate mucosal surfaces like the inside of cheeks and mouths."
+  },
+  {
+   "q": "Where are these materials found?",
+   "aliases": [
+    "where to get hides",
+    "tirisfal beasts"
+   ],
+   "answer": "All three creatures roam the haunted landscapes of Tirisfal Glades. Darkhounds and duskbats stalk the woods and roadsides, while Vile Fin murlocs nest along the northern coast and inland waterways."
+  },
+  {
+   "q": "Is using animal hides common for the Forsaken?",
+   "aliases": [
+    "do all forsaken use hides",
+    "forsaken fleshcraft"
+   ],
+   "answer": "Yes. Sourcing tissues from animals and scavenged remains is a fundamental part of everyday Forsaken survival. Without access to replacement flesh and hides, unhealed wounds would leave underlying bones, organs, and muscles entirely exposed to the elements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "A stark reminder of the practical burdens of the Forsaken condition, where survival requires manual upkeep and scavenged grafts rather than natural healing."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Forsaken tailoring often overlaps with mortuary science, using stitching skills not just for garments, but to bind raw beast membranes to decaying frames."
+  }
+ ],
+ "keywords": [
+  "darkhound hide",
+  "duskbat wing",
+  "hides for the forsaken",
+  "shelene rhobart",
+  "tirisfal glades",
+  "undead graft",
+  "vile fin murloc"
+ ],
+ "related": [
+  "npc:shelene-rhobart",
+  "zone:tirisfal",
+  "item:duskbat-wing",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Hides for the Forsaken"
+ ]
+}

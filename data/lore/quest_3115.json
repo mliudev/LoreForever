@@ -1,0 +1,121 @@
+{
+ "key": "quest:3115",
+ "type": "quest",
+ "name": "Tainted Memorandum",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   3115
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "Sten Stoutarm",
+  "end": "Alamar Grimm",
+  "previous": null,
+  "next": null,
+  "wiki": "Tainted Memorandum (quest)",
+  "chain": []
+ },
+ "summary": "Tainted Memorandum is an introductory quest for fledgling gnome warlocks taking their first steps in Coldridge Valley. Passed quietly through Sten Stoutarm, the missive summons the neophyte to the shadows of Anvilmar to meet Alamar Grimm, who preaches self-reliance through dark power rather than trust in their dwarven hosts.",
+ "sections": [
+  {
+   "title": "A Discreet Summons",
+   "body": "Even in the frozen outpost of Coldridge Valley, the practice of the dark arts is met with deep suspicion. While helping Sten Stoutarm deal with local threats, young gnome warlocks receive a slipped note. Sten delivers it reluctantly, giving voice to the uneasy truce that allows warlocks in Alliance lands: 'watch yerself... your kind ain't too trusted 'round these parts.'",
+   "spoiler": 0
+  },
+  {
+   "title": "Gnomish Bitterness in Exile",
+   "body": "Upon answering the note, the warlock meets Alamar Grimm lurking inside the halls of Anvilmar. Grimm does not mince words regarding the gnomes' plight. To his eyes, conventional tinkering and ordinary magic failed Gnomeregan utterly, driving their people to near extinction and leaving them stranded as second-class refugees dependent on dwarf goodwill. Rather than praying to the Holy Light or putting faith in dwarven politics, Grimm urges his pupil to summon and master fiends who offer unconditional obedience.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Tainted Memorandum?",
+   "aliases": [
+    "tainted memo",
+    "warlock note dun morogh",
+    "what is the memorandum"
+   ],
+   "answer": "It is a written message handed to novice gnome warlocks by Sten Stoutarm in Coldridge Valley. It directs them to seek out Alamar Grimm, the local warlock trainer in Anvilmar."
+  },
+  {
+   "q": "Why are warlocks distrusted in Coldridge Valley?",
+   "aliases": [
+    "why don't dwarves like warlocks",
+    "warlock prejudice anvilmar"
+   ],
+   "answer": "Dwarves and their Alliance allies hold traditional virtues like martial honor and the Holy Light in high regard, viewing demonology and shadow magic as inherently corrupt and dangerous. Gnome warlocks operate under a cloud of deep social suspicion."
+  },
+  {
+   "q": "Who is Alamar Grimm?",
+   "aliases": [
+    "alamar grimm lore",
+    "who is alamar"
+   ],
+   "answer": "Alamar Grimm is a gnome warlock trainer residing in Anvilmar. Bitter over the fall of Gnomeregan and the indignity of relying on dwarven charity, he instructs young gnomes in the binding of demonic minions to secure their own power."
+  },
+  {
+   "q": "Why does Grimm criticize normal magic and technology?",
+   "aliases": [
+    "grimm gnomeregan view",
+    "why dark magic over engineering"
+   ],
+   "answer": "Grimm believes that conventional engineering and accepted schools of magic failed the gnomes during the disaster at Gnomeregan, leaving them dependent on dwarf patrons who prioritize ties with humans over reclaiming the gnome homeland."
+  },
+  {
+   "q": "Can dwarf warlocks receive this quest?",
+   "aliases": [
+    "dwarf warlock tainted memorandum",
+    "can dwarves be warlocks"
+   ],
+   "answer": "No. In Dun Morogh, only gnomes can practice the warlock path, making this summons exclusive to freshly arrived gnome practitioners."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "where is alamar grimm",
+    "tainted memorandum turn in"
+   ],
+   "answer": "The quest begins near Sten Stoutarm in Coldridge Valley and finishes inside Anvilmar, the central redoubt overlooking the valley in southwestern Dun Morogh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This missive marks your formal entry into the warlock craft, framing demonic pacts not as madness, but as pragmatism born of survival."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "The memorandum reflects the deep underlying resentment felt by some exiled gnomes over their displaced status and reliance on Ironforge."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven hosts tolerate these dark practitioners under their roof with obvious distaste and sharp wariness."
+  }
+ ],
+ "keywords": [
+  "alamar grimm",
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "gnome warlock",
+  "gnomeregan exile",
+  "sten stoutarm",
+  "tainted memorandum"
+ ],
+ "related": [
+  "npc:alamar-grimm",
+  "npc:sten-stoutarm",
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "zone:dunmorogh",
+  "topic:light",
+  "topic:human",
+  "quest:1599"
+ ],
+ "attribution": [
+  "Tainted Memorandum (quest)"
+ ]
+}

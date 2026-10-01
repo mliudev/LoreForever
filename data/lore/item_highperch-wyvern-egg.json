@@ -1,0 +1,93 @@
+{
+ "key": "item:highperch-wyvern-egg",
+ "type": "item",
+ "name": "Highperch Wyvern Egg",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Highperch Wyvern Egg",
+  "quests": [
+   "quest:4767"
+  ]
+ },
+ "summary": "Highperch Wyvern Eggs are clutch eggs gathered from the nesting grounds atop the high mesas of Thousand Needles. They are sought after by aspiring Horde wind riders to raise and train new aerial mounts.",
+ "sections": [
+  {
+   "title": "Nests on the Mesa",
+   "body": "The high plateau of Highperch in Thousand Needles provides a natural sanctuary for native wyverns to roost and raise their young. Accessible only via steep winding paths up the canyon walls, these nesting grounds are fiercely guarded by adult beasts. The eggs laid among these roosts are sturdy and warm, holding developing hatchlings capable of adapting to the harsh skies of Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Raising New Wind Riders",
+   "body": "Across Kalimdor, the demand for trained wyverns continually outstrips supply as the Horde expands its courier and scouting networks. At Freewind Post, trainees like the tauren Elu seek out intact eggs directly from wild aeries. By raising the hatchlings from their shells, handlers hope to forge the deep bonds required to train trustworthy winged mounts for the Horde's wind riders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are these eggs found?",
+   "aliases": [
+    "egg locations",
+    "where to find wyvern eggs",
+    "highperch eggs location"
+   ],
+   "answer": "They lie scattered within nests across Highperch, an elevated mesa located along the southern rock walls of Thousand Needles, accessible via a pathway leading up from the canyon floor."
+  },
+  {
+   "q": "Why does the Horde collect wild wyvern eggs?",
+   "aliases": [
+    "why steal wyvern eggs",
+    "what are the eggs used for",
+    "elu egg quest purpose"
+   ],
+   "answer": "The Horde's wind rider ranks are growing, and handlers struggle to train enough adult wyverns to meet demand. Trainees like Elu gather eggs so they can rear hatchlings from birth, preparing both beast and rider for aerial duty."
+  },
+  {
+   "q": "Are the parent wyverns hostile to egg gatherers?",
+   "aliases": [
+    "do wyverns attack",
+    "are wyverns protective"
+   ],
+   "answer": "Yes. Wild wyverns are fiercely protective of their nests and will violently assault any intruders who trespass onto Highperch to tamper with their clutches."
+  },
+  {
+   "q": "Who accepts these eggs in Freewind Post?",
+   "aliases": [
+    "who takes wyvern eggs",
+    "elu freewind post"
+   ],
+   "answer": "Elu, an aspiring wind rider stationed atop Freewind Post, collects the eggs in hopes of beginning his own formal mount training."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Reliable aerial travel is vital for maintaining communication and military readiness across the vast territories of Kalimdor, making the procurement of fresh wyvern stock a matter of strategic importance."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Navigating the perilous heights of Highperch demands an understanding of fierce predator behavior, as adult wyverns defend their nesting grounds with razor claws and venomous stingers."
+  }
+ ],
+ "keywords": [
+  "elu",
+  "freewind post",
+  "highperch",
+  "highperch wyvern egg",
+  "thousand needles",
+  "wind rider",
+  "wyvern"
+ ],
+ "related": [
+  "quest:4767",
+  "subzone:highperch",
+  "subzone:freewind-post",
+  "subzone:whitereach-post",
+  "zone:thousandneedles",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Highperch Wyvern Egg",
+  "Wind Rider (quest)"
+ ]
+}

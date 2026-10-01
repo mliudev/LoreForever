@@ -1,0 +1,93 @@
+{
+ "key": "item:hypercapacitor-gizmo",
+ "type": "item",
+ "name": "Hypercapacitor Gizmo",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Hypercapacitor Gizmo",
+  "quests": [
+   "quest:5151"
+  ]
+ },
+ "summary": "The Hypercapacitor Gizmo is an eccentric piece of engineering recovered from the canyon floor of Thousand Needles. Once dangling from the neck of a caged beast in a ruined caravan, its true purpose remains a mystery even to the tinkerer who claims to own it.",
+ "sections": [
+  {
+   "title": "A Caravan's Strange Relic",
+   "body": "When centaur marauders ambushed a goblin caravan traveling through Thousand Needles, they plundered nearly everything in sight. The sole survivor, Wizlo Bearingshiner, managed to crawl his way to safety at Whitereach Post, leaving behind his most prized invention: the Hypercapacitor Gizmo. Strangely, the gadget wound up secured around the neck of a ferocious, enraged panther locked inside a transport cage. The raiding centaur feared the beast enough to leave the cage entirely alone amidst the burning wreckage, unwittingly preserving Wizlo's odd machine.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tinkering in the Dark",
+   "body": "While Wizlo proudly boasts of the device as his finest creation, he admits upon its recovery that he has no real idea what it actually does. Like many goblin contraptions, the Hypercapacitor Gizmo is a tangled mass of ambition and volatile parts, destined to keep its creator occupied with endless tinkering rather than serving any practical, understood function.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Hypercapacitor Gizmo?",
+   "aliases": [
+    "what is gizmo",
+    "hypercapacitor",
+    "what does the gizmo do"
+   ],
+   "answer": "It is an engineering device built by the goblin Wizlo Bearingshiner. Despite its grand name, even Wizlo does not actually know what function it performs, intending to spend his time studying it to figure out its purpose."
+  },
+  {
+   "q": "How did the device end up around a panther's neck?",
+   "aliases": [
+    "why panther has gizmo",
+    "how did panther get it"
+   ],
+   "answer": "Wizlo's caravan was attacked and ransacked by centaur in northern Thousand Needles. During the chaos, the device ended up fastened around the neck of an enraged panther locked in a traveling cage, which kept the superstitious centaur from looting it."
+  },
+  {
+   "q": "Who wants the Hypercapacitor Gizmo back?",
+   "aliases": [
+    "who needs gizmo",
+    "wizlo gizmo"
+   ],
+   "answer": "Wizlo Bearingshiner, the sole survivor of the raided caravan, seeks its return. He has taken refuge at Whitereach Post, a Tauren encampment in northwestern Thousand Needles."
+  },
+  {
+   "q": "Why didn't the centaur steal it?",
+   "aliases": [
+    "why didn't centaur take it",
+    "centaur and panther"
+   ],
+   "answer": "The centaur ransacked the entire caravan but were terrified of the ferocious panther inside the cage. They left the beast and its metal collar entirely untouched amidst the ruins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The gizmo represents classic goblin engineering: an intricate, dangerously named device built with great enthusiasm before anyone bothered to decide what it was supposed to do."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Travelers aiding Whitereach Post help clear out the aggressive centaur and retrieve lost oddities from ruined caravans across the canyon floor."
+  }
+ ],
+ "keywords": [
+  "centaur",
+  "enraged panther",
+  "gizmo",
+  "hypercapacitor",
+  "thousand needles",
+  "whitereach post",
+  "wizlo bearingshiner"
+ ],
+ "related": [
+  "quest:5151",
+  "npc:wizlo-bearingshiner",
+  "item:panther-cage-key",
+  "subzone:whitereach-post",
+  "zone:thousandneedles",
+  "topic:centaur",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Hypercapacitor Gizmo",
+  "Hypercapacitor Gizmo (quest)"
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "key": "item:gloom-weed",
+ "type": "item",
+ "name": "Gloom Weed",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Gloom Weed",
+  "quests": [
+   "quest:5481"
+  ]
+ },
+ "summary": "Gloom Weed is a sickly plant native to the blighted soil of Tirisfal Glades, commonly growing in the fields between Deathknell and Brill. It is best known as the wrong plant collected by Gordo, a lumbering Forsaken abomination who confuses it with the alchemy reagent doom weed.",
+ "sections": [
+  {
+   "title": "A Mistaken Harvest",
+   "body": "Sprouting amid the gloom and decay of Tirisfal Glades, Gloom Weed thrives in the fallow earth west of Brill and east of the Solliden Farmstead. Despite its morbid name, the plant is relatively harmless and lacks the potent alchemical kick prized by the Royal Apothecary Society. Its primary notoriety stems from the abomination Gordo, who wanders the roadway attempting to pull weeds with his massive, clumsy hands. Having misunderstood his master's commands, Gordo constantly gathers Gloom Weed and enlists gullible travelers to carry bunches of it back to Master Holland in the Brill graveyard, much to the apothecary's supreme annoyance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Gloom Weed used for?",
+   "aliases": [
+    "gloom weed use",
+    "what does gloom weed do",
+    "who needs gloom weed"
+   ],
+   "answer": "Practically nothing of value to Forsaken alchemists. It is gathered purely because the abomination Gordo mistakes it for the herb doom weed, which his master actually requested."
+  },
+  {
+   "q": "Where does Gloom Weed grow?",
+   "aliases": [
+    "where to find gloom weed",
+    "gloom weed location",
+    "gloom weed spots"
+   ],
+   "answer": "It grows scattered across the fields of Tirisfal Glades between Brill and Deathknell, particularly along the road and in the meadows east of the Solliden Farmstead."
+  },
+  {
+   "q": "Who is Gordo and why is he picking it?",
+   "aliases": [
+    "who is gordo",
+    "why is gordo picking weeds",
+    "gordo abomination"
+   ],
+   "answer": "Gordo is an abomination sent out by Master Holland to harvest reagents. Because his stitched hands are too clumsy and his mind is simple, he wanders the roads pulling the wrong plants and begging passersby to assist him."
+  },
+  {
+   "q": "What did Master Holland actually want?",
+   "aliases": [
+    "master holland weed",
+    "what does holland need",
+    "doom weed vs gloom weed"
+   ],
+   "answer": "Master Holland needs doom weed for his experiments in the Brill graveyard. When handed Gloom Weed, he scoffs at the mistake and redirects travelers to gather what he truly required."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Trained herbalists can sense the plant through Find Herbs, making it much easier to spot against Tirisfal's shadowy undergrowth."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For new Forsaken leaving Deathknell, fetching Gloom Weed is a swift lesson in the shortcomings of abomination labor and the caustic temperaments of Undercity alchemists."
+  }
+ ],
+ "keywords": [
+  "abomination",
+  "brill",
+  "doom weed",
+  "gloom weed",
+  "gordo",
+  "master holland",
+  "tirisfal glades"
+ ],
+ "related": [
+  "quest:5481",
+  "zone:tirisfal",
+  "subzone:brill",
+  "subzone:deathknell",
+  "subzone:solliden-farmstead",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Gloom Weed",
+  "Gordo's Task (Classic)"
+ ]
+}

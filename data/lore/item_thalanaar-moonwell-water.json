@@ -1,0 +1,98 @@
+{
+ "key": "item:thalanaar-moonwell-water",
+ "type": "item",
+ "name": "Thalanaar Moonwell Water",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Thalanaar Moonwell Water",
+  "quests": [
+   "quest:9433"
+  ]
+ },
+ "summary": "Thalanaar Moonwell Water is a small vial of sacred water drawn from the night elf moonwell at Thalanaar, on the border of Feralas and Thousand Needles. It is acquired through the unauthorized use of a goblin-piloted automaton on behalf of Wizlo Bearingshiner at Whitereach Post.",
+ "sections": [
+  {
+   "title": "A Mechanized Theft",
+   "body": "Reaching the moonwell at Thalanaar openly is nearly impossible for Horde scouts, as the outpost is strictly guarded by the Alliance. Rather than risking direct combat or sacrilegious confrontation face to face, the goblin engineer Wizlo Bearingshiner devised a covert scheme using an intercepted piece of cargo: a Robotron 3000 unit. Piloted remotely from the surrounding mesa rims, the machine rolls directly into the Alliance encampment unnoticed, collects the liquid in a vial, and brings the sample away without shedding a drop of blood.",
+   "spoiler": 0
+  },
+  {
+   "title": "Goblin Curiosity and Sacred Fluid",
+   "body": "Night elf moonwells hold pure, sanctified waters blessed by Elune, regarded with deep religious reverence by the sentinels and druids who maintain them. To a goblin like Wizlo, however, the mystical waters represent a curious reagent and a technical challenge ripe for exploitation. By siphoning a sample using client machinery he was never supposed to unbox, Wizlo tests both the versatility of goblin engineering and the limits of his discreet surveillance in the canyon.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Thalanaar Moonwell Water?",
+   "aliases": [
+    "what is this water",
+    "thalanaar water",
+    "moonwell water"
+   ],
+   "answer": "It is a vial of consecrated water gathered from the moonwell within the Alliance outpost of Thalanaar, situated on the border between Thousand Needles and Feralas."
+  },
+  {
+   "q": "Why does Wizlo Bearingshiner want this water?",
+   "aliases": [
+    "why wizlo wants it",
+    "wizlo quest",
+    "why steal moonwell water"
+   ],
+   "answer": "Wizlo is an inquisitive goblin tinkerer stationed at Whitereach Post. Rather than marching in directly, he uses the moonwell as an ideal target to test the field capabilities of a Robotron unit he appropriated from a client's shipment."
+  },
+  {
+   "q": "How is the water collected without alerting the night elves?",
+   "aliases": [
+    "how is it gathered",
+    "robotron moonwell",
+    "how to get the water"
+   ],
+   "answer": "The water is retrieved using a remote-controlled Robotron 3000 automaton. Operating it from a concealed console hidden on the nearby cliffs, the operator drives the contraption into Thalanaar and dips into the basin unnoticed by the guards."
+  },
+  {
+   "q": "Where is the moonwell located?",
+   "aliases": [
+    "thalanaar location",
+    "where is thalanaar moonwell",
+    "where is the well"
+   ],
+   "answer": "The moonwell sits directly inside Thalanaar, an Alliance outpost located on the western boundary where the canyon of Thousand Needles opens toward the lush forest of Feralas."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The moonwells are sacred sanctuaries of Elune's grace, making the surreptitious dipping of a clanking goblin machine an offensive act of sacrilege."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The covert heist highlights the ingenuity of remote tele-robotics, though using unboxed customer merchandise is a risky venture even by goblin standards."
+  }
+ ],
+ "keywords": [
+  "feralas",
+  "moonwell",
+  "robotron",
+  "thalanaar",
+  "thousand needles",
+  "water",
+  "whitereach",
+  "wizlo"
+ ],
+ "related": [
+  "npc:wizlo-bearingshiner",
+  "subzone:thalanaar",
+  "item:robotron-control-unit",
+  "subzone:whitereach-post",
+  "zone:thousandneedles",
+  "topic:night-elf",
+  "topic:goblin",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Thalanaar Moonwell Water",
+  "A Dip in the Moonwell"
+ ]
+}

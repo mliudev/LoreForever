@@ -1,0 +1,97 @@
+{
+ "key": "item:filled-tourmaline-phial",
+ "type": "item",
+ "name": "Filled Tourmaline Phial",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Filled Tourmaline Phial",
+  "quests": [
+   "quest:933"
+  ]
+ },
+ "summary": "The Filled Tourmaline Phial holds enchanted waters drawn from the moonwell bordering the Pools of Arlithrien in southern Teldrassil. Collected at the request of Corithras Moonrage, the water serves as part of an effort to monitor the health and balance of the growing World Tree.",
+ "sections": [
+  {
+   "title": "Waters of Arlithrien",
+   "body": "The Tourmaline Phial is prepared specifically to draw water from the moonwell located southeast of the road to Darnassus, on the shores of the Pools of Arlithrien. Gathering water from this shrine has become fraught with peril due to the sudden aggression of the Gnarlpine furbolgs, peaceful neighbors who have rapidly deteriorated into violent madness. Corithras Moonrage tasks travelers with braving the hostile groves to secure this water, aiming to diagnose the deepening corruption unsettling the land.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Roots of Teldrassil",
+   "body": "Bringing the phial back to Dolanaar prompts Corithras Moonrage to reflect on the genesis of the boughs above. Following the disappearance of Shan'do Malfurion Stormrage into the Emerald Dream, Archdruid Fandral Staghelm rallied the Circle of Ancients across the sea in Darkshore to plant Teldrassil in hopes of regaining their lost immortality. The waters carried within the gemmed phial reflect the state of that sacred experiment\u2014an ambition now tainted by an unexplained sickness spreading into beasts and furbolgs alike.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Filled Tourmaline Phial used for?",
+   "aliases": [
+    "filled tourmaline phial use",
+    "tourmaline phial purpose",
+    "why fill the phial"
+   ],
+   "answer": "It is an enchanted container of moonwell water requested by Corithras Moonrage in Dolanaar. He gathers waters from moonwells across Teldrassil to study the spread of corruption and explain the history of the World Tree to newly arrived defenders."
+  },
+  {
+   "q": "Where is the moonwell for the Tourmaline Phial located?",
+   "aliases": [
+    "where do i fill tourmaline phial",
+    "pools of arlithrien moonwell",
+    "arlithrien well location"
+   ],
+   "answer": "The moonwell is located southeast of the main gate of Darnassus, situated along the shores of the Pools of Arlithrien in southwestern Teldrassil. The area is heavily contested by enraged Gnarlpine furbolgs."
+  },
+  {
+   "q": "Why are the furbolgs near the moonwell attacking?",
+   "aliases": [
+    "why are gnarlpine mad",
+    "furbolg hostility arlithrien",
+    "crazed gnarlpine"
+   ],
+   "answer": "The Gnarlpine furbolgs, once peaceful bear-men living alongside the night elves, have fallen prey to a creeping corruption afflicting Teldrassil. Their sudden descent into mindless violence is one of several symptoms plaguing the young World Tree."
+  },
+  {
+   "q": "Who is Corithras Moonrage?",
+   "aliases": [
+    "corithras role",
+    "corithras dolanaar"
+   ],
+   "answer": "Corithras Moonrage is a night elf scholar and caretaker stationed in Dolanaar. He guides young adventurers through the rite known as the Crown of the Earth, teaching them about the history of the night elves, the planting of Teldrassil, and the vanishing of Malfurion Stormrage."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids, carrying the phial touches directly upon the controversial legacy of Archdruid Fandral Staghelm, who pushed to plant Teldrassil during Shan'do Stormrage's unexplained absence."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The moonwell waters are an essential spiritual lifeline for the kaldorei, making the corruption of the surrounding Gnarlpine groves a deeply unsettling omen for their new home."
+  }
+ ],
+ "keywords": [
+  "corithras moonrage",
+  "crown of the earth",
+  "filled tourmaline phial",
+  "gnarlpine",
+  "moonwell",
+  "pools of arlithrien",
+  "teldrassil",
+  "tourmaline phial"
+ ],
+ "related": [
+  "item:tourmaline-phial",
+  "quest:921",
+  "npc:corithras-moonrage",
+  "subzone:pools-of-arlithrien",
+  "subzone:dolanaar",
+  "npc:fandral-staghelm",
+  "topic:furbolg",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Filled Tourmaline Phial",
+  "Crown of the Earth (4)"
+ ]
+}

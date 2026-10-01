@@ -1,0 +1,125 @@
+{
+ "key": "quest:792",
+ "type": "quest",
+ "name": "Vile Familiars",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   792
+  ],
+  "level": "4",
+  "faction": "Horde",
+  "start": "Zureetha Fargaze",
+  "end": "",
+  "previous": null,
+  "next": "Burning Blade Medallion (Classic)",
+  "wiki": "Vile Familiars (Classic)",
+  "chain": []
+ },
+ "summary": "Vile Familiars is an early task given by Zureetha Fargaze to newly arrived champions in the Valley of Trials. While monitoring the valley's trials, Zureetha discovered an insidious coven of the Burning Blade hiding in a nearby cavern. To check their sudden spread, recruits are sent to hunt down the demonic familiars creeping out into the red dirt of Durotar.",
+ "sections": [
+  {
+   "title": "A Shadow in the Valley",
+   "body": "The Valley of Trials is meant to be a proving ground where young orcs and Darkspear trolls demonstrate their strength, discipline, and loyalty to Thrall's Horde. It was intended to test recruits against native predators like scorpids and boars, not demonic corruption. Yet, hidden in a cave to the northeast, agents calling themselves the Burning Blade have established a secret coven right under the watchful gaze of the valley's overseers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Culling the Imps",
+   "body": "Zureetha Fargaze, an instructor sent to guide newcomers near the Den, noticed the subtle taint before it could overrun the canyon. Minor demonic creatures known as Vile Familiars have begun pouring from the cave's mouth, hurling fire and menacing anyone who wanders too close. Before the Horde can root out the masters hiding in the shadows, young recruits are tasked with cutting down these lesser servants to keep the valley secure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Vile Familiars?",
+   "aliases": [
+    "vile familiars quest giver",
+    "who gives vile familiars",
+    "where to pick up vile familiars"
+   ],
+   "answer": "Zureetha Fargaze gives the quest. She is stationed just outside the entrance to the Den in the center of the Valley of Trials."
+  },
+  {
+   "q": "What are Vile Familiars?",
+   "aliases": [
+    "what are vile familiars",
+    "vile familiar lore",
+    "vile familiars mob type"
+   ],
+   "answer": "Vile Familiars are small, imp-like demonic creatures summoned and bound by the Burning Blade cultists. They serve as minor minions and pets, wielding fire to harass intruders."
+  },
+  {
+   "q": "Where is the Burning Blade Coven located?",
+   "aliases": [
+    "burning blade coven location",
+    "where is burning blade coven",
+    "cave in valley of trials"
+   ],
+   "answer": "The coven is nestled within a cave in the northeastern reaches of the Valley of Trials, past the roaming Mottled Boars and Scorpid Workers."
+  },
+  {
+   "q": "Why is the Burning Blade in the Valley of Trials?",
+   "aliases": [
+    "why is burning blade here",
+    "burning blade motives",
+    "what does burning blade want"
+   ],
+   "answer": "The Burning Blade is a covert cult dedicated to undermining Thrall's new Horde and spreading demonic corruption. Infiltrating the Valley of Trials allows them to lurk in secret and threaten the Horde's newest generation of fighters."
+  },
+  {
+   "q": "What happens after completing Vile Familiars?",
+   "aliases": [
+    "vile familiars follow up",
+    "what comes after vile familiars",
+    "burning blade medallion quest"
+   ],
+   "answer": "Once the familiars outside the cavern are thinned out, Zureetha Fargaze directs you to delve inside the cave to face the cultist leader and recover a Burning Blade Medallion."
+  },
+  {
+   "q": "Do I have to go deep into the cave to find the familiars?",
+   "aliases": [
+    "are vile familiars inside cave",
+    "where to kill vile familiars",
+    "farm vile familiars"
+   ],
+   "answer": "No. While they dwell inside the cavern, plenty of Vile Familiars swarm around the entrance and the canyon floor just outside the cave mouth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "For orcs striving to honor Thrall's rejection of demonic slavery, encountering fel taint in their sacred training grounds is a bitter reminder that the legacy of the Shadow Council still festers."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Burning Blade represents one of the most immediate internal threats to Durotar, seeking to rot the young Horde from within before it can firmly establish its sovereignty."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Orc and troll warlocks must face the reality of rogue shadowcasters who abuse demonic pacts for destruction rather than bending fel energies toward the Horde's survival."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "burning blade coven",
+  "durotar",
+  "imps",
+  "the den",
+  "valley of trials",
+  "vile familiars",
+  "zureetha fargaze"
+ ],
+ "related": [
+  "npc:zureetha-fargaze",
+  "subzone:burning-blade-coven",
+  "subzone:valley-of-trials",
+  "quest:1089",
+  "zone:durotar",
+  "topic:horde",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Vile Familiars (Classic)"
+ ]
+}

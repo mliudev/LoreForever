@@ -1,0 +1,86 @@
+{
+ "key": "item:furlbrow-s-pocket-watch",
+ "type": "item",
+ "name": "Furlbrow's Pocket Watch",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Furlbrow's Pocket Watch",
+  "quests": [
+   "quest:64"
+  ]
+ },
+ "summary": "Furlbrow's Pocket Watch is a cherished family heirloom belonging to Farmer Furlbrow of Westfall. Given to him by his wife Verna's father on their wedding day, the timepiece was abandoned in haste when Defias bandits seized their pumpkin farm.",
+ "sections": [
+  {
+   "title": "A Keepsake in the Ruins",
+   "body": "When Defias hooligans swarmed the Furlbrow Pumpkin Patch, Farmer Furlbrow and his wife Verna were forced to abandon their homestead in the middle of the night. In the frantic rush to escape, the farmer left behind a prized pocket watch, given to him as a wedding gift by his father-in-law. The heirloom remained tucked away inside a wardrobe in the overrun farmhouse, guarded by cutthroats led by Benny Blaanco. For the displaced couple camping along the road, recovering the watch represents preserving one of the few pieces of their former life that the outlaws have not ruined.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the pocket watch so important to Farmer Furlbrow?",
+   "aliases": [
+    "why does furlbrow want his watch",
+    "furlbrow watch importance",
+    "who gave furlbrow the watch"
+   ],
+   "answer": "The watch was given to Farmer Furlbrow by Verna's father on their wedding day. Having lost their land, home, and livelihood to the Defias Brotherhood, the watch is the last deeply sentimental possession the couple has left."
+  },
+  {
+   "q": "Where is the pocket watch kept?",
+   "aliases": [
+    "where is the pocket watch",
+    "furlbrow wardrobe location",
+    "how to find the watch"
+   ],
+   "answer": "The watch was left inside a wardrobe inside the Furlbrow farmhouse, located among the pumpkin fields west of the main road where the Furlbrows are currently stranded."
+  },
+  {
+   "q": "Who is guarding the watch?",
+   "aliases": [
+    "who has furlbrow's watch",
+    "watch guard westfall",
+    "benny blaanco watch"
+   ],
+   "answer": "The abandoned farmhouse has been overtaken by the Defias Brotherhood, specifically the bandit Benny Blaanco and his cohort, who loiter right near the wardrobe."
+  },
+  {
+   "q": "Did the Defias steal the watch directly?",
+   "aliases": [
+    "did defias loot the watch",
+    "was the watch stolen"
+   ],
+   "answer": "No. When the bandits raided the pumpkin patch, the Furlbrows fled in such a panic that the farmer simply forgot to pack it. It remained hidden inside their bedroom wardrobe while the farm was overrun."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Helping the Furlbrows retrieve their lost heirloom is a stark reminder of how completely the Stormwind crown has failed to protect the hard-working farmers of Westfall from organized banditry."
+  }
+ ],
+ "keywords": [
+  "benny blaanco",
+  "defias",
+  "farmer furlbrow",
+  "furlbrow's pocket watch",
+  "the forgotten heirloom",
+  "verna furlbrow",
+  "wardrobe",
+  "westfall"
+ ],
+ "related": [
+  "quest:64",
+  "npc:farmer-furlbrow",
+  "npc:verna-furlbrow",
+  "topic:defias-brotherhood",
+  "zone:westfall",
+  "quest:65"
+ ],
+ "attribution": [
+  "Furlbrow's Pocket Watch",
+  "The Forgotten Heirloom"
+ ]
+}

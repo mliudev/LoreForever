@@ -10,3 +10,22 @@
   Content-Type: text/csv; charset=utf-8
   Content-Disposition: attachment; filename="lore-forever-clips.csv"
   Cache-Control: no-cache
+
+/translate/kits/*
+  Content-Type: application/zip
+  Cache-Control: no-cache
+
+/account
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store
+
+/translate/dashboard
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store
+
+/voices/studio
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-cache
+
+/voices/lines.json
+  Cache-Control: no-cache

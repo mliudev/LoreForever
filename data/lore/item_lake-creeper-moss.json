@@ -1,0 +1,99 @@
+{
+ "key": "item:lake-creeper-moss",
+ "type": "item",
+ "name": "Lake Creeper Moss",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Lake Creeper Moss",
+  "quests": [
+   "quest:451"
+  ]
+ },
+ "summary": "Lake Creeper Moss is an organic compound harvested from the aquatic creepers dwelling among the Dawning Isles in Lake Lordamere. It serves as a vital reagent sought by the Royal Apothecary Society for their efforts to engineer a lethal new plague.",
+ "sections": [
+  {
+   "title": "Alchemical Harvest",
+   "body": "Grown along the hides of the vicious freshwater beasts that prowl the southern Dawning Isles of Lake Lordamere, Lake Creeper Moss carries unique properties shaped by Lordaeron's blighted waters. The late herbalist Berard documented its potential in his journals, noting that the growth could serve as a reactive base for necrotic alchemical concoctions. When recovered by Forsaken agents, samples are dispatched directly to the Apothecarium in the Undercity to fuel Master Apothecary Faranell's dark research.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fueling the New Plague",
+   "body": "The moss is not merely a curious aquatic growth; it forms a critical stage in the development of the Forsaken's signature weapon. Alongside the related moss gathered from Lake Skulkers and diseased tumors taken from local Vile Fin murlocs, the creeper moss provides the organic foundation needed to refine a strain capable of exterminating living tissue and Scourge alike. Despite the loss of the apothecary who discovered its utility, the Royal Apothecary Society continues to brew his recipe in service of the Dark Lady.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Lake Creeper Moss used for?",
+   "aliases": [
+    "creeper moss purpose",
+    "why collect lake creeper moss",
+    "lake creeper moss use"
+   ],
+   "answer": "It is an alchemical reagent used by Master Apothecary Faranell and the Royal Apothecary Society to brew and refine their New Plague in the Undercity."
+  },
+  {
+   "q": "Where does this moss come from?",
+   "aliases": [
+    "where to get creeper moss",
+    "creeper moss location",
+    "lake creeper location"
+   ],
+   "answer": "It is gathered from Lake Creepers and Elder Lake Creepers that inhabit the waters around the southern Dawning Isles in eastern Lake Lordamere."
+  },
+  {
+   "q": "Who discovered the moss's alchemical value?",
+   "aliases": [
+    "who found the moss",
+    "berard moss",
+    "who wrote about creeper moss"
+   ],
+   "answer": "Apothecary Berard documented the moss's unique properties in his field journal before his demise in Silverpine Forest. His notes were later recovered by Apothecary Renferrel."
+  },
+  {
+   "q": "Who receives the harvested moss?",
+   "aliases": [
+    "who wants creeper moss",
+    "turn in creeper moss",
+    "faranell moss"
+   ],
+   "answer": "Master Apothecary Faranell accepts the moss in the Apothecarium of the Undercity, combining it with Lake Skulker Moss and a hardened tumor to advance his research."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Every sample of lake moss brought to the Apothecarium moves the Forsaken closer to perfecting the New Plague, securing vengeance against both the Scourge and the living."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "While native to water beasts rather than standard soil, the moss represents the darker, experimental fringe of Lordaeron's flora harvested for apothecary research."
+  }
+ ],
+ "keywords": [
+  "berard",
+  "dawning isles",
+  "elder lake creeper",
+  "faranell",
+  "lake creeper",
+  "lake creeper moss",
+  "lake lordamere",
+  "new plague",
+  "royal apothecary society"
+ ],
+ "related": [
+  "npc:master-apothecary-faranell",
+  "npc:apothecary-renferrel",
+  "item:lake-skulker-moss",
+  "item:hardened-tumor",
+  "item:berard-s-journal",
+  "quest:447",
+  "subzone:dawning-isles",
+  "topic:royal-apothecary-society"
+ ],
+ "attribution": [
+  "Lake Creeper Moss",
+  "A Recipe For Death (3)"
+ ]
+}

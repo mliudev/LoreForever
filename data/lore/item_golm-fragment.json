@@ -1,0 +1,96 @@
+{
+ "key": "item:golm-fragment",
+ "type": "item",
+ "name": "Golm Fragment",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Golm Fragment",
+  "quests": [
+   "quest:299"
+  ]
+ },
+ "summary": "The Golm Fragment is one of four missing pieces chipped from the Goaz Stone, an ancient relic uncovered at the Wetlands excavation site. Recovered by adventurers dodging ferocious raptors, it helps dwarven archaeologists piece together mysterious Titan inscriptions.",
+ "sections": [
+  {
+   "title": "A Piece of the Goaz Stone",
+   "body": "Discovered at the excavation site in the southern Wetlands, the Golm Fragment is part of a monumental slab known as the Goaz Stone. Prospector Whelgar discovered the stone shortly before raptors drove the Explorers' League back, but found its inscription severed in four critical places. The Golm Fragment was abandoned amid the dirt and overturned crates when the dig was overrun, hidden away inside an ancient relic box until brave explorers could retrieve it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Secrets of the Titans",
+   "body": "When reunited with the Ados, Modr, and Neru fragments, the Golm Fragment completes a cryptic Titan text foretelling a 'divine plan' and a 'doomed prophecy.' Reassembling the stone allows Whelgar to decipher lines referencing ancient entities chained beneath the earth, confirming that the site holds lore far older and more dangerous than simple dwarven heritage.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Golm Fragment used for?",
+   "aliases": [
+    "golm fragment purpose",
+    "why need golm fragment",
+    "golm fragment quest"
+   ],
+   "answer": "It is one of four stone shards needed by Prospector Whelgar at the Wetlands excavation site to restore the Goaz Stone during the quest Uncovering the Past."
+  },
+  {
+   "q": "Where can the Golm Fragment be found?",
+   "aliases": [
+    "golm fragment location",
+    "find golm fragment",
+    "where is golm fragment"
+   ],
+   "answer": "It is found within ancient relics and loose soil scattered throughout the raptor-infested dig site in the southern hills of the Wetlands."
+  },
+  {
+   "q": "What does the Goaz Stone say once assembled?",
+   "aliases": [
+    "goaz stone translation",
+    "what does the tablet say",
+    "whelgar translation"
+   ],
+   "answer": "Prospector Whelgar's initial translation reveals Titan script describing a doomed prophecy, mentioning 'Old Gods... Chained Beneath the Land.'"
+  },
+  {
+   "q": "What other fragments are needed to finish the stone?",
+   "aliases": [
+    "other tablet fragments",
+    "goaz stone pieces",
+    "four fragments"
+   ],
+   "answer": "Along with Golm, you must recover the Ados, Modr, and Neru fragments to fully assemble the tablet."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, piecing together fragments of the Goaz Stone is vital to uncovering their Titan ancestry and the hidden history buried in Khaz Modan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Retrieving the fragment aids the Explorers' League in securing priceless ancient knowledge before the dig site is entirely lost to raptors."
+  }
+ ],
+ "keywords": [
+  "excavation site",
+  "goaz stone",
+  "golm fragment",
+  "uncovering the past",
+  "wetlands",
+  "whelgar"
+ ],
+ "related": [
+  "quest:299",
+  "npc:prospector-whelgar",
+  "item:ados-fragment",
+  "item:modr-fragment",
+  "item:neru-fragment",
+  "zone:wetlands",
+  "topic:titan",
+  "topic:old-god"
+ ],
+ "attribution": [
+  "Golm Fragment",
+  "Uncovering the Past"
+ ]
+}

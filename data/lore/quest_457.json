@@ -1,0 +1,123 @@
+{
+ "key": "quest:457",
+ "type": "quest",
+ "name": "The Balance of Nature",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   457
+  ],
+  "level": "3",
+  "faction": "Alliance",
+  "start": "Conservator Ilthalaine",
+  "end": "",
+  "previous": "The Balance of Nature (Classic)",
+  "next": null,
+  "wiki": "The Balance of Nature (2)",
+  "chain": [
+   "The Balance of Nature (Classic)",
+   "The Balance of Nature (2)"
+  ]
+ },
+ "summary": "This task continues Conservator Ilthalaine's effort to preserve Shadowglen's fragile ecology by culling mature thistle boars and mangy nightsabers. As Teldrassil's wildlife multiplies unchecked, night elf guardians must step in to prevent the overpopulation of predators and foragers from stripping the boughs bare.",
+ "sections": [
+  {
+   "title": "A Burden of Stewardship",
+   "body": "While culling young animals stabilizes future growth, the adult populations of Shadowglen also pose an immediate threat to the World Tree's ecosystem. Conservator Ilthalaine directs young defenders deeper into the forest to hunt mature thistle boars and older, mangy nightsabers before their ravenous appetites exhaust the land's finite flora and game.",
+   "spoiler": 0
+  },
+  {
+   "title": "Predator and Prey",
+   "body": "North of Aldrassil, the forest shifts as younger cubs give way to mottled nightsabers and aggressive boars rooting up the soil. Though killing creatures of the wild is a grim duty, kaldorei doctrine views controlled hunting as a necessary responsibility to protect the whole forest from ecological collapse.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Conservator Ilthalaine having these beasts culled?",
+   "aliases": [
+    "why kill boars and sabers",
+    "why balance of nature",
+    "reason for hunting"
+   ],
+   "answer": "Without intervention, the burgeoning populations of thistle boars and nightsabers would strip Shadowglen of its vital resources, leaving the land barren and unable to sustain any life on Teldrassil's boughs."
+  },
+  {
+   "q": "Where are the mangy nightsabers and thistle boars located?",
+   "aliases": [
+    "where are mangy nightsabers",
+    "thistle boar location",
+    "where to find them"
+   ],
+   "answer": "They wander the northern half of Shadowglen, past the boughs of Aldrassil. Look for spotted coats on the nightsabers rather than the striped coats of the younger cubs found closer to the sanctuary."
+  },
+  {
+   "q": "Who is Conservator Ilthalaine?",
+   "aliases": [
+    "who is ilthalaine",
+    "conservator ilthalaine lore"
+   ],
+   "answer": "Conservator Ilthalaine is a caretaker of Shadowglen tasked with overseeing the health of Teldrassil's starting glade and guiding newly awakened night elves in maintaining the balance of the forest."
+  },
+  {
+   "q": "How does this fit into night elf beliefs about nature?",
+   "aliases": [
+    "night elf nature beliefs",
+    "why druids kill animals",
+    "kaldorei balance"
+   ],
+   "answer": "Night elves venerate nature, but stewardship requires managing overgrowth. Allowing one species to overpopulate and starve out others harms the forest as a whole, making culling a sorrowful but vital duty."
+  },
+  {
+   "q": "Is this the end of the Balance of Nature chain?",
+   "aliases": [
+    "does balance of nature continue",
+    "what comes after balance of nature"
+   ],
+   "answer": "This is the second and final step in the initial Balance of Nature chain, though other tasks soon arise to address the deeper, more unnatural corruption troubling Teldrassil's wildlife."
+  },
+  {
+   "q": "Why are the nightsabers described as mangy?",
+   "aliases": [
+    "why mangy",
+    "what is wrong with the sabers"
+   ],
+   "answer": "They are older, rougher predators roaming the fringes of the glade whose heavy numbers push the limits of Shadowglen's food supply, leaving many scruffy and aggressive."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young night elves, this task represents their earliest lesson in the harsh realities of wilderness stewardship upon Teldrassil."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druidic teachings emphasize harmony over sentimentality; thinning overgrown packs preserves the great web of life."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Taking down swift sabers and stubborn boars teaches the tracking and culling skills essential to keeping nature in check."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "balance of nature",
+  "culling",
+  "ilthalaine",
+  "mangy nightsaber",
+  "shadowglen",
+  "teldrassil",
+  "thistle boar"
+ ],
+ "related": [
+  "quest:456",
+  "npc:ilthalaine",
+  "subzone:shadowglen",
+  "subzone:aldrassil",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "The Balance of Nature (2)"
+ ]
+}

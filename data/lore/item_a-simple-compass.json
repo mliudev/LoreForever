@@ -1,0 +1,96 @@
+{
+ "key": "item:a-simple-compass",
+ "type": "item",
+ "name": "A Simple Compass",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "A Simple Compass",
+  "quests": [
+   "quest:399"
+  ]
+ },
+ "summary": "A Simple Compass is an old personal keepsake belonging to the City Architect of Stormwind, Baros Alexston. Stored away inside a small chest at his family's burned-down homestead in Westfall, it serves as a cherished memento of his youth before he rose to prominence in the capital.",
+ "sections": [
+  {
+   "title": "A Boyhood Keepsake",
+   "body": "Long before Baros Alexston became a master architect directing major works in Cathedral Square, he grew up laboring on his family's farm in Westfall. The simple compass was his very first navigational instrument, likely sparking his early interest in geometry, drafting, and exploration. When the Alexston Farmstead fell victim to the Defias Brotherhood's raids and burned, the compass was left behind inside a sturdy chest amidst the ruins, preserved even as the surrounding farmland was overrun by bandits.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sentimental Value",
+   "body": "Baros's father managed to escape the farmstead's destruction but could not carry the family's possessions with him to safety. While the instrument possesses little practical utility to a master builder working within the stone walls of Stormwind City, its emotional significance remains immense. Returning it to Baros offers him a rare, intact link to his humble beginnings and the peaceful countryside of his childhood.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is A Simple Compass?",
+   "aliases": [
+    "simple compass",
+    "alexston compass",
+    "baros compass"
+   ],
+   "answer": "It is a modest, non-magical pocket compass that belonged to Baros Alexston when he was a boy living on his family's farm in Westfall."
+  },
+  {
+   "q": "Where is the compass located?",
+   "aliases": [
+    "where to find compass",
+    "compass location",
+    "alexston chest location"
+   ],
+   "answer": "It is stashed inside Alexston's Chest, which sits within the burned-out ruins of the Alexston Farmstead, situated just west of Sentinel Hill in Westfall."
+  },
+  {
+   "q": "Who wants this compass returned?",
+   "aliases": [
+    "who needs the compass",
+    "compass turn in",
+    "who owns the compass"
+   ],
+   "answer": "The compass belongs to Baros Alexston, the City Architect of Stormwind, who can be found near the town hall in Cathedral Square."
+  },
+  {
+   "q": "Why was the compass left behind at the farm?",
+   "aliases": [
+    "why did they leave the compass",
+    "what happened to the farm"
+   ],
+   "answer": "The Alexston family farm was raided, burned down, and taken over by Defias outlaws. Baros's father had to flee for his life and was unable to carry their heavier possessions, leaving the chest hidden in the wreckage."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Helping Baros Alexston recover his lost keepsake illustrates the human toll of the Defias uprising, showing how even prominent leaders in Stormwind have lost their family homes to the turmoil in Westfall."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of the kingdom, the compass symbolizes the sharp contrast between the safe, gilded courtyards of Stormwind City and the abandoned, lawless frontiers of Westfall."
+  }
+ ],
+ "keywords": [
+  "alexston",
+  "baros",
+  "beginnings",
+  "chest",
+  "compass",
+  "farmstead",
+  "stormwind",
+  "westfall"
+ ],
+ "related": [
+  "npc:baros-alexston",
+  "quest:399",
+  "subzone:alexston-farmstead",
+  "zone:westfall",
+  "subzone:sentinel-hill",
+  "subzone:cathedral-square",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "A Simple Compass",
+  "Humble Beginnings"
+ ]
+}

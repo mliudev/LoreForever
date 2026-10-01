@@ -1,0 +1,93 @@
+{
+ "key": "item:intrepid-strongbox-key",
+ "type": "item",
+ "name": "Intrepid Strongbox Key",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Intrepid Strongbox Key",
+  "quests": [
+   "quest:290"
+  ]
+ },
+ "summary": "The Intrepid Strongbox Key is a rusted iron key once guarded jealously by Captain Halyndor, commander of the doomed Alliance vessel Intrepid. Even in undeath, the captain clutches it, keeping locked away the cursed artifact that brought ruin to his crew off the coast of the Wetlands.",
+ "sections": [
+  {
+   "title": "A Captain's Secret",
+   "body": "During the wreck of the Third Fleet off the stormy shores of the Wetlands, the warship Intrepid was cast into ruin, its crew twisted into restless, cursed spirits. Captain Halyndor obsessively watched over a mysterious item stowed inside the vessel's heavy strongbox. In death, his spectral figure continues to prowl the waterlogged deck, refusing to relinquish the rusted key that unlocks the hold's deepest, darkest cargo.",
+   "spoiler": 0
+  },
+  {
+   "title": "Breaking the Bond",
+   "body": "Prying the key from Captain Halyndor is the only way to crack the Intrepid's locked strongbox and retrieve the cursed relic responsible for anchoring the crew to their torment. Only by using this key to recover the object can it be delivered to the dwarven priest Glorin Steelbrow in Menethil Harbor to undergo cleansing.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who carries the Intrepid Strongbox Key?",
+   "aliases": [
+    "who has the key",
+    "intrepid key drop",
+    "halyndor key"
+   ],
+   "answer": "The key is held by Captain Halyndor, the ghostly commander who paces the upper deck of the northern shipwreck off the northeast coast of the Wetlands."
+  },
+  {
+   "q": "What does the Intrepid Strongbox Key open?",
+   "aliases": [
+    "what does it unlock",
+    "intrepid strongbox location",
+    "where is the chest"
+   ],
+   "answer": "It unlocks the Intrepid's Locked Strongbox, which rests submerged inside the fractured hull of the sunken ship beneath the captain's deck."
+  },
+  {
+   "q": "Why was the strongbox kept locked?",
+   "aliases": [
+    "what was in the chest",
+    "why was it locked"
+   ],
+   "answer": "Captain Halyndor locked a dark, cursed object inside the chest to keep it hidden and secure, though its lingering evil ultimately doomed the ship and bound its crew to undeath."
+  },
+  {
+   "q": "Who can cleanse the cursed item inside the chest?",
+   "aliases": [
+    "who cleanses it",
+    "glorin steelbrow chest"
+   ],
+   "answer": "Glorin Steelbrow, a dwarven priest residing in Menethil Harbor, possesses the holy knowledge required to cleanse the cursed artifact once the chest is unlocked."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "The key unlocks an artifact of foul necrotic energy, requiring the holy rites of Menethil's priest Glorin Steelbrow to purify and put the crew's souls to rest."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The key belonged to a commander of the Alliance's Third Fleet, whose tragic loss off the coast of Menethil Harbor remains an open wound for the harbor's survivors."
+  }
+ ],
+ "keywords": [
+  "captain halyndor",
+  "cursed crew",
+  "glorin steelbrow",
+  "intrepid",
+  "shipwreck",
+  "strongbox",
+  "third fleet",
+  "wetlands"
+ ],
+ "related": [
+  "quest:290",
+  "quest:288",
+  "npc:glorin-steelbrow",
+  "zone:wetlands",
+  "topic:priest"
+ ],
+ "attribution": [
+  "Intrepid Strongbox Key",
+  "Lifting the Curse (Classic)"
+ ]
+}

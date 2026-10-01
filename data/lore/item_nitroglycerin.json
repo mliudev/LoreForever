@@ -1,0 +1,94 @@
+{
+ "key": "item:nitroglycerin",
+ "type": "item",
+ "name": "Nitroglycerin",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Nitroglycerin",
+  "quests": [
+   "quest:846"
+  ]
+ },
+ "summary": "Nitroglycerin is a volatile chemical substance carried by dwarven soldiers and officers garrisoned at Bael Modan in the southern Barrens. It serves as an industrial explosive agent for their excavation operations, though it can also be turned against them.",
+ "sections": [
+  {
+   "title": "Industrial Demolition",
+   "body": "The Bael'dun dwarves tore into the ancestral lands of the Stonespire tauren using heavy mechanical drillers and volatile chemistry. To shatter stubborn rock and uncover ancient titan secrets, dwarven personnel at the Bael Modan excavation site and its fortified keep keep stores of raw nitroglycerin close at hand. Both frontline soldiers and officers such as Lord Cyrik Blackforge carry vials of the volatile fluid on their persons to fuel the ongoing, destructive digging.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Taste of Their Own Medicine",
+   "body": "Following the death of Prospector Khazgorm, the displaced tauren brave Gann Stonespire sought to dismantle the encroaching dwarven fortress entirely. By scouring dwarven engineering plans, Gann realized that combining confiscated nitroglycerin with wood pulp and sodium nitrate creates an explosive charge potent enough to strike back against Bael Modan's fortified military garrison.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does nitroglycerin come from?",
+   "aliases": [
+    "where to find nitroglycerin",
+    "who drops nitroglycerin",
+    "nitroglycerin source"
+   ],
+   "answer": "Nitroglycerin is carried by the dwarven forces stationed at Bael Modan in the southern Barrens, including Bael'dun Soldiers, Riflemen, Officers, and Lord Cyrik Blackforge within the keep."
+  },
+  {
+   "q": "What is the nitroglycerin used for?",
+   "aliases": [
+    "what is nitroglycerin for",
+    "nitroglycerin purpose",
+    "revenge of gann ingredients"
+   ],
+   "answer": "Gann Stonespire uses it alongside wood pulp and sodium nitrate to fashion a powerful explosive charge, turning the dwarves' own demolitions techniques against their military fortification at Bael Modan."
+  },
+  {
+   "q": "Why were the dwarves carrying it in the first place?",
+   "aliases": [
+    "why do dwarves have nitroglycerin",
+    "bael modan explosives"
+   ],
+   "answer": "The prospectors and garrison of Bael Modan rely heavily on explosives, steam engines, and volatile chemicals to rip open the earth and excavate their archaeological dig site."
+  },
+  {
+   "q": "Who is Gann Stonespire?",
+   "aliases": [
+    "who is gann",
+    "gann stonespire"
+   ],
+   "answer": "Gann Stonespire is an exiled tauren warrior who lost his ancestral lands when the dwarves established the excavation site and keep at Bael Modan, driving out his tribe through industrial destruction."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will immediately recognize nitroglycerin as a classic compounding explosive, rendered stable and detonable when absorbed into porous wood pulp alongside an oxidizer like sodium nitrate."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The volatile chemicals used to scar the earth around Bael Modan serve as a bitter reminder of the industrial destruction visited upon the Stonespire tribe."
+  }
+ ],
+ "keywords": [
+  "bael modan",
+  "bael'dun",
+  "barrens",
+  "explosives",
+  "gann stonespire",
+  "nitroglycerin",
+  "revenge of gann"
+ ],
+ "related": [
+  "quest:846",
+  "npc:gann-stonespire",
+  "subzone:bael-modan",
+  "item:sodium-nitrate",
+  "item:wood-pulp",
+  "quest:843",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Nitroglycerin",
+  "Revenge of Gann"
+ ]
+}

@@ -116,11 +116,14 @@ end
 -- The shape of an English entry: text lengths and spoiler levels, in order. A pack records it for each entry it
 -- translates; if the English entry has changed since (sections added, moved or re-flagged), the translation is left
 -- out rather than risk German text sitting under the wrong spoiler flag. Lengths are bytes, so the pipeline computes
--- this through this same function.
+-- this through this same function. FAQs appended by pipeline/lore/questions.py (add) are a layer of their own: they
+-- stay English and don't make the translation of the rest stale.
 function Lang.Fingerprint(e)
   local p = { #(e.n or ""), #(e.s or "") }
   for _, s in ipairs(e.sec or {}) do p[#p + 1] = #s.t .. "." .. #s.b .. "." .. (s.sp or 0) end
-  for _, f in ipairs(e.faq or {}) do p[#p + 1] = #f.q .. "." .. #f.a .. "." .. (f.sp or 0) end
+  for _, f in ipairs(e.faq or {}) do
+    if not f.add then p[#p + 1] = #f.q .. "." .. #f.a .. "." .. (f.sp or 0) end
+  end
   return table.concat(p, ",")
 end
 
@@ -155,7 +158,11 @@ function Lang.MergeEntries(db, w)
           e.sec[i].t, e.sec[i].b = s.t or e.sec[i].t, s.b or e.sec[i].b
         end
       end
-      if t.faq and e.faq and #t.faq == #e.faq then
+      local own = 0
+      for _, f in ipairs(e.faq or {}) do
+        if not f.add then own = own + 1 end
+      end
+      if t.faq and e.faq and #t.faq == own then
         for i, f in ipairs(t.faq) do
           local o = e.faq[i]
           o.q, o.a, o.al = f.q or o.q, f.a or o.a, f.al or o.al

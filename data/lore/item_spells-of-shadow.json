@@ -1,0 +1,97 @@
+{
+ "key": "item:spells-of-shadow",
+ "type": "item",
+ "name": "Spells of Shadow",
+ "era": "classic",
+ "zone": "ragefire",
+ "meta": {
+  "wiki": "Spells of Shadow",
+  "quests": [
+   "quest:5725"
+  ]
+ },
+ "summary": "Spells of Shadow is a dark grimoire carried by the Searing Blade cultists lurking beneath Orgrimmar in Ragefire Chasm. Filled with fel magic granted by the Burning Legion, it is targeted for recovery by the Forsaken leadership in the Undercity.",
+ "sections": [
+  {
+   "title": "Tomes of the Searing Blade",
+   "body": "Hidden deep in the molten caverns of Ragefire Chasm, members of the Searing Blade\u2014a splinter cult tied to the Shadow Council\u2014wield dark rites granted by demon masters of the Burning Legion. Among their most guarded treasures is the Spells of Shadow, a text containing insidious shadow and fel sorcery. Cultists and warlocks of the sect keep this book close at hand as they plot beneath the very feet of the Horde in Durotar.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Dark Lady's Ambition",
+   "body": "Word of the Searing Blade's demonic gifts reached the royal quarters of the Undercity. Lady Sylvanas Windrunner and her dreadlord lieutenant, Varimathras, determined that such powerful relics were wasted on cultists with lesser vision. Varimathras tasks Horde adventurers with venturing into the chasm to seize the Spells of Shadow alongside its companion tome, Incantations from the Nether, directing their power toward the Forsaken cause against the Scourge and the Lich King.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Spells of Shadow?",
+   "aliases": [
+    "spells of shadow book",
+    "what is spells of shadow",
+    "shadow spells book rfc"
+   ],
+   "answer": "It is a demonic spellbook possessed by the Searing Blade cultists in Ragefire Chasm, containing gifts of shadow magic bestowed by the Burning Legion."
+  },
+  {
+   "q": "Who wants this book?",
+   "aliases": [
+    "who needs spells of shadow",
+    "who turns in spells of shadow",
+    "spells of shadow quest giver"
+   ],
+   "answer": "Varimathras, the dreadlord advisor to Lady Sylvanas Windrunner, seeks the tome on behalf of the Dark Lady. He resides in the Royal Quarter of the Undercity."
+  },
+  {
+   "q": "Where can the book be found?",
+   "aliases": [
+    "spells of shadow location",
+    "where to get spells of shadow",
+    "how to get spells of shadow"
+   ],
+   "answer": "It is carried by Searing Blade cultists and warlocks inside Ragefire Chasm, the network of fiery caverns located underneath the city of Orgrimmar."
+  },
+  {
+   "q": "Why do the Forsaken want this grimoire?",
+   "aliases": [
+    "why does sylvanas want the book",
+    "why does varimathras want spells of shadow"
+   ],
+   "answer": "Lady Sylvanas believes the dark gifts granted by the Legion are better utilized by the Forsaken than by lesser cultists, using such magic to bolster her war against the Scourge and the Lich King."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Retrieving the grimoire serves Lady Sylvanas directly, claiming dangerous demonic knowledge beneath Orgrimmar to strengthen the Undercity against the Scourge."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The tome represents direct demonic patronage from the Legion, showcasing how rogue cults like the Searing Blade wield shadow and nether arts."
+  }
+ ],
+ "keywords": [
+  "incantations from the nether",
+  "ragefire chasm",
+  "searing blade",
+  "spells of shadow",
+  "sylvanas",
+  "the power to destroy",
+  "undercity",
+  "varimathras"
+ ],
+ "related": [
+  "quest:5725",
+  "item:incantations-from-the-nether",
+  "zone:ragefire",
+  "npc:varimathras",
+  "zone:undercity",
+  "topic:shadow-council",
+  "topic:forsaken",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Spells of Shadow",
+  "The Power to Destroy... (Classic)"
+ ]
+}

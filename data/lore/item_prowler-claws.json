@@ -1,0 +1,83 @@
+{
+ "key": "item:prowler-claws",
+ "type": "item",
+ "name": "Prowler Claws",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Prowler Claws",
+  "quests": [
+   "quest:903"
+  ]
+ },
+ "summary": "Prowler Claws are severed trophies collected from the savannah prowlers that stalk the sun-baked plains of the Barrens. Brought to Sergra Darkthorn at the Crossroads, they serve as tangible proof that a hunter can stalk and overpower Kalimdor's deadliest stealth predators.",
+ "sections": [
+  {
+   "title": "Trophies of the Stalker",
+   "body": "The tall grasses of the Barrens conceal Savannah Prowlers, large feline predators known for their patience, cunning, and lethal strikes. Hunting them is a vital proving ground for rising Horde warriors and scouts. Unlike herbivorous quarry like the plainstrider or the zhevra, prowlers actively ambush anything entering their hunting grounds. Taking their sharp, curved claws requires besting a creature that relies on absolute stealth and territorial aggression, proving to the camp's huntress that the stalker has become the prey.",
+   "spoiler": 0
+  },
+  {
+   "title": "Proof for the Huntress",
+   "body": "At the Crossroads, Sergra Darkthorn demands these claws to measure an initiate's readiness for greater trials. Bringing back a handful of claws demonstrates that a hunter has mastered tracking among the golden savannah grass and can withstand claws capable of tearing leather and flesh. Those who return with their prize show they possess the awareness needed to survive even deadlier beasts lurking across the plains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I get Prowler Claws?",
+   "aliases": [
+    "prowler claw location",
+    "how to get prowler claws",
+    "where to find prowler claws"
+   ],
+   "answer": "Prowler Claws are taken from Savannah Prowlers, which roam the grasslands throughout the central Barrens, particularly in the plains southwest of the Crossroads."
+  },
+  {
+   "q": "Who wants these claws and why?",
+   "aliases": [
+    "who needs prowler claws",
+    "turn in prowler claws",
+    "sergra claws quest"
+   ],
+   "answer": "Sergra Darkthorn, an experienced huntress stationed at the Crossroads, asks hunters to bring her seven Prowler Claws as a test of their tracking and combat prowess against dangerous predators."
+  },
+  {
+   "q": "Why are Savannah Prowlers considered a significant hunt?",
+   "aliases": [
+    "why hunt prowlers",
+    "prowlers dangerous"
+   ],
+   "answer": "Unlike the grazing herds of the Barrens, prowlers are stealthy carnivores that actively stalk travelers and prey from hidden positions in the tall brush. Hunting them tests an adventurer's ability to avoid ambushes and defeat a lethal, cunning beast."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Taking down savannah prowlers and claiming their claws is an essential rite of passage for young hunters seeking to learn the art of stealth, tracking, and close-quarters beast handling."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Culling dangerous prowlers around the Crossroads helps protect Horde messengers, caravans, and settlers traversing the perilous central roads of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "prowler claws",
+  "prowlers of the barrens",
+  "savannah prowler",
+  "sergra darkthorn"
+ ],
+ "related": [
+  "quest:903",
+  "quest:860",
+  "subzone:crossroads",
+  "zone:barrens",
+  "quest:845"
+ ],
+ "attribution": [
+  "Prowler Claws",
+  "Prowlers of the Barrens"
+ ]
+}

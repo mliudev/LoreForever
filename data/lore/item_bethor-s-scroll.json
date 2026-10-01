@@ -1,0 +1,96 @@
+{
+ "key": "item:bethor-s-scroll",
+ "type": "item",
+ "name": "Bethor's Scroll",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Bethor's Scroll",
+  "quests": [
+   "quest:446"
+  ]
+ },
+ "summary": "Bethor's Scroll contains magical incantations scribed by Bethor Iceshard to counter the dark sorcery of his former colleague, Thule Ravenclaw. Created to aid Apothecary Renferrel in brewing a protective draught, the scroll is vital for surviving the Scourge necromancy guarding Fenris Isle.",
+ "sections": [
+  {
+   "title": "A Colleague's Betrayal",
+   "body": "Upon examining tainted ichor recovered from Rot Hide gnolls, Bethor Iceshard recognized the handiwork of Thule Ravenclaw. Once a promising young mage of the Kirin Tor, Thule betrayed his brethren to serve the Lich King when the Scourge rose to power. Learning that Thule had survived and was directing Rot Hide attacks across Silverpine Forest from Fenris Isle, Bethor drew upon his intimate knowledge of his former colleague's spellcraft to author this scroll.",
+   "spoiler": 0
+  },
+  {
+   "title": "Countering the Necromancer",
+   "body": "The scroll is saturated with potent arcane formulas designed not as an offensive weapon, but as a brewing guide for the Royal Apothecary Society. Handed to Apothecary Renferrel at the Sepulcher, the scroll provides the exact counter-incantations required to synthesize a restorative potion capable of dispelling the debilitating hexes Thule weaves around his fortress.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is written on Bethor's Scroll?",
+   "aliases": [
+    "what does the scroll say",
+    "contents of bethors scroll",
+    "what is on the scroll"
+   ],
+   "answer": "The scroll details specialized arcane incantations formulated by Bethor Iceshard. Having once studied alongside Thule Ravenclaw, Bethor knew the necromancer's preferred spells and inscribed the precise formulas needed to brew an alchemical counter-potion."
+  },
+  {
+   "q": "Who receives this scroll?",
+   "aliases": [
+    "who do i give the scroll to",
+    "bethors scroll turn in",
+    "who gets the scroll"
+   ],
+   "answer": "The scroll must be delivered to Apothecary Renferrel, stationed at the Sepulcher in Silverpine Forest. Renferrel uses the magic bound within it to create a protective draught."
+  },
+  {
+   "q": "Why does Apothecary Renferrel need magical incantations for a potion?",
+   "aliases": [
+    "why does an apothecary need spells",
+    "magic potion renferrel"
+   ],
+   "answer": "Apothecary Renferrel specializes in alchemy rather than traditional sorcery, admitting he rarely weaves such overt forces into his concoctions. However, ordinary anti-toxins cannot pierce the Scourge curses shielding Thule, requiring Bethor's arcane formulas to make the brew effective."
+  },
+  {
+   "q": "Who was Thule Ravenclaw before turning to the Scourge?",
+   "aliases": [
+    "who is thule ravenclaw",
+    "thule backstory",
+    "thule and bethor"
+   ],
+   "answer": "Before the Third War, Thule was a promising young human mage and an associate of Bethor Iceshard. When the Lich King marshaled his undead armies, Thule abandoned his fellow spellcasters and pledged his loyalty to the Scourge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The scroll illustrates the Kirin Tor's fractured past, showing how intimate knowledge of a fellow spellcaster's signature magic can be turned into a potent countermeasure."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken spellcasters and apothecaries combine their distinct talents through this parchment, blending Dalaran's old arcane training with the new alchemical craft of the Sepulcher."
+  }
+ ],
+ "keywords": [
+  "apothecary renferrel",
+  "bethor iceshard",
+  "bethor's scroll",
+  "fenris isle",
+  "rot hide",
+  "silverpine",
+  "the sepulcher",
+  "thule ravenclaw"
+ ],
+ "related": [
+  "quest:446",
+  "quest:442",
+  "subzone:fenris-isle",
+  "subzone:sepulcher",
+  "npc:apothecary-renferrel",
+  "topic:scourge",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Bethor's Scroll",
+  "Thule Ravenclaw (quest)"
+ ]
+}

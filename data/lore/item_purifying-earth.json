@@ -1,0 +1,93 @@
+{
+ "key": "item:purifying-earth",
+ "type": "item",
+ "name": "Purifying Earth",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Purifying Earth",
+  "quests": [
+   "quest:9431"
+  ]
+ },
+ "summary": "Purifying Earth is an elemental reagent harvested from the stony remains of thundering boulderkin in Thousand Needles. Sought by the exiled blood elf Magistrix Elosai, this naturally pristine soil is used to line a containment vessel intended to hold sacred night elf waters.",
+ "sections": [
+  {
+   "title": "A Natural Filter",
+   "body": "While earth elementals in the canyon depths are often hostile and volatile, the stony cores of thundering boulderkin retain an uncorrupted, earthen resonance. Known as Purifying Earth, this substance possesses natural filtering properties capable of stabilizing delicate magical liquids. Gathering it requires subduing the heavy boulderkin roaming the western crags and eastern reaches near Ironstone Camp.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Magistrix's Heresy",
+   "body": "The demand for Purifying Earth stems from Magistrix Elosai, a sin'dorei researcher exiled from Silvermoon after her scholarly treatises on natural remedies for magical addiction were deemed heretical and burned. Working from Freewind Post, Elosai contracts the goblin tinkerer Wizlo Bearingshiner at Whitereach Post to pack this earthen dust into a containment vessel. Her goal is to prepare a secure jar capable of transporting sanctified water drawn illicitly from a night elf moonwell, hoping nature's energies can soothe the blood elves' burning hunger.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Purifying Earth?",
+   "aliases": [
+    "purifying earth",
+    "what is this earth",
+    "boulderkin earth"
+   ],
+   "answer": "Purifying Earth is an elemental reagent taken from the pulverized remains of thundering boulderkin in Thousand Needles. It holds innate stabilizing and filtering properties, making it valuable for alchemical preparation."
+  },
+  {
+   "q": "Where does Purifying Earth come from?",
+   "aliases": [
+    "where to find purifying earth",
+    "who drops purifying earth",
+    "how to get purifying earth"
+   ],
+   "answer": "It is obtained by defeating thundering boulderkin, towering earth elementals found near the canyon walls along the western edge of Thousand Needles as well as near Ironstone Camp to the east."
+  },
+  {
+   "q": "Why does Magistrix Elosai want Purifying Earth?",
+   "aliases": [
+    "magistrix elosai earth",
+    "why does elosai need earth",
+    "purpose of purifying earth"
+   ],
+   "answer": "Elosai was exiled from Silvermoon for attempting to find natural cures for the blood elves' magical withdrawal. She needs the elemental earth to line a specialized vessel capable of preserving stolen night elf moonwell water."
+  },
+  {
+   "q": "Who do you deliver the Purifying Earth to?",
+   "aliases": [
+    "who takes purifying earth",
+    "where to turn in purifying earth",
+    "wizlo bearingshiner turn in"
+   ],
+   "answer": "The earth is brought directly to Wizlo Bearingshiner, a goblin technician stationed at Whitereach Post, who packs it into the container requested by Magistrix Elosai."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "By helping Magistrix Elosai acquire this rare elemental catalyst, Horde travelers aid an outcast sin'dorei scholar seeking a cure for her people's debilitating addiction without relying on fel corruption."
+  }
+ ],
+ "keywords": [
+  "freewind post",
+  "magistrix elosai",
+  "purifying earth",
+  "thousand needles",
+  "thundering boulderkin",
+  "whitereach post",
+  "wizlo bearingshiner"
+ ],
+ "related": [
+  "zone:thousandneedles",
+  "npc:wizlo-bearingshiner",
+  "subzone:whitereach-post",
+  "subzone:freewind-post",
+  "subzone:ironstone-camp",
+  "subzone:moonwell-ashenvale",
+  "topic:horde",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Purifying Earth",
+  "A Different Approach (BC Classic)"
+ ]
+}

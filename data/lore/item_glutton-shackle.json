@@ -1,0 +1,97 @@
+{
+ "key": "item:glutton-shackle",
+ "type": "item",
+ "name": "Glutton Shackle",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Glutton Shackle",
+  "quests": [
+   "quest:423"
+  ]
+ },
+ "summary": "Glutton Shackles are enchanted restraints worn by Moonrage Glutton worgen in Silverpine Forest. Crafted by the mad archmage Arugal, these bands channel magic to bolster his otherwise flawed sorcery and sustain his cursed lupine creations.",
+ "sections": [
+  {
+   "title": "A Crutch for Weak Sorcery",
+   "body": "To the trained mages of the Forsaken, the feral worgen infesting Silverpine are not merely savage monstrosities\u2014they are evidence of gross arcane ineptitude. Dalar Dawnweaver, an accomplished arcanist stationed at the Sepulcher, holds nothing but contempt for Archmage Arugal, deeming him an incompetent hack unworthy of the Kirin Tor. Dawnweaver discovered that Arugal relied on enchanted relics to compensate for his fragile spells. The Glutton Shackles, worn by the heavy Moonrage Gluttons wandering northern Silverpine, act as magical anchors that reinforce the curse binding the beasts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fuel for Forsaken Countermeasures",
+   "body": "Because Arugal bound raw enchantments directly into these heavy iron bands, they retain residual magical energy even after their wearers are slain. Dawnweaver demands these shackles from Forsaken agents to study their construction and siphon their magical reserves. By analyzing the crude enchantments embedded in the metal, the Forsaken hope to unravel the mysteries of the worgen curse and orchestrate the downfall of the beastmaster entrenched in Shadowfang Keep.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Glutton Shackle?",
+   "aliases": [
+    "what are glutton shackles",
+    "glutton shackle lore",
+    "worgen cuffs"
+   ],
+   "answer": "A Glutton Shackle is an enchanted iron restraint worn by Moonrage Glutton worgen in Silverpine Forest. Created by Archmage Arugal, these bands infuse their wearers with magical reinforcement to shore up his flawed spells."
+  },
+  {
+   "q": "Why does Dalar Dawnweaver want Glutton Shackles?",
+   "aliases": [
+    "why collect shackles",
+    "dalar dawnweaver quest",
+    "shackles for sepulcher"
+   ],
+   "answer": "Dalar Dawnweaver needs the shackles to analyze Arugal's crude enchantments and siphon their lingering magical energy. By understanding the items Arugal used to stabilize his beasts, the Forsaken can better counteract his magic."
+  },
+  {
+   "q": "Who makes these shackles?",
+   "aliases": [
+    "who made the shackles",
+    "arugal shackles",
+    "where did shackles come from"
+   ],
+   "answer": "They were enchanted by Archmage Arugal, a former wizard of Dalaran who summoned the worgen to fight the Scourge and eventually lost his mind, binding his creations to his will with magical trinkets."
+  },
+  {
+   "q": "Where are the creatures wearing these shackles found?",
+   "aliases": [
+    "where do gluttons spawn",
+    "moonrage glutton location",
+    "silverpine worgen shackles"
+   ],
+   "answer": "Moonrage Gluttons roam the woods and abandoned farmsteads of central and northern Silverpine Forest, often lurking in packs alongside other corrupted Moonrage worgen."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Mages will appreciate Dalar Dawnweaver's biting critique of Arugal's shoddy technique, as using physical enchanted crutches to stabilize simple transmutation and summoning spells is seen as a sign of mediocre wizardry."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken agents view the collection of these shackles as an essential step toward neutralizing the worgen threat that encroaches directly upon the borders of the Sepulcher."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "dalar dawnweaver",
+  "glutton shackle",
+  "moonrage glutton",
+  "sepulcher",
+  "silverpine",
+  "worgen"
+ ],
+ "related": [
+  "quest:99",
+  "item:darksoul-shackle",
+  "npc:dalar-dawnweaver",
+  "npc:arugal",
+  "zone:silverpine",
+  "subzone:sepulcher",
+  "subzone:dalaran",
+  "quest:421"
+ ],
+ "attribution": [
+  "Glutton Shackle",
+  "Arugal's Folly (2)"
+ ]
+}

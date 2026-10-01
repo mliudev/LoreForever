@@ -1,0 +1,95 @@
+{
+ "key": "item:mudsnout-mixture",
+ "type": "item",
+ "name": "Mudsnout Mixture",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Mudsnout Mixture",
+  "quests": [
+   "quest:515"
+  ]
+ },
+ "summary": "Mudsnout Mixture is a toxic alchemical base concocted by Master Apothecary Faranell in the Undercity. Created by blending a mudsnout composite with an alchemical colloid of decay, it serves as the foundation for the Royal Apothecary Society's deadly Elixir of Agony.",
+ "sections": [
+  {
+   "title": "A Colloid of Decay",
+   "body": "When Apothecary Lydon in Tarren Mill seeks to craft a virulent new biological weapon, he sends the base composite from Hillsbrad's native Mudsnout gnolls north to the Undercity. Impressed by the composite's potential, Master Apothecary Faranell introduces his own colloid of decay into the blend, producing the volatile Mudsnout Mixture. The solution stabilizes the gnoll compound while readying its virulent properties for further catalytic refinement back in the foothills.",
+   "spoiler": 0
+  },
+  {
+   "title": "Catalyzing the Agony",
+   "body": "Though potent on its own, the Mudsnout Mixture is inert without key catalysts to trigger its contaminating agents. Faranell tasks couriers with returning the vial to Tarren Mill alongside a Strong Troll's Blood Elixir, venomous Daggerspine naga scales, and Torn Fin murloc eyes. Once catalyzed by Lydon, this mixture forms the lethal Elixir of Agony\u2014a signature poison intended to spread ruin among the living enemies of the Forsaken.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Mudsnout Mixture used for?",
+   "aliases": [
+    "mudsnout mixture purpose",
+    "what does mudsnout mixture do",
+    "mudsnout mixture use"
+   ],
+   "answer": "It serves as the intermediary chemical base for the Elixir of Agony, an experimental poison being perfected by Apothecary Lydon in Tarren Mill to slaughter the enemies of the Forsaken."
+  },
+  {
+   "q": "Who creates the Mudsnout Mixture?",
+   "aliases": [
+    "who makes mudsnout mixture",
+    "mudsnout mixture creator"
+   ],
+   "answer": "Master Apothecary Faranell, the leader of the Royal Apothecary Society residing in the Apothecarium of the Undercity, creates it by infusing a raw mudsnout composite with his own colloid of decay."
+  },
+  {
+   "q": "Why does it require gnoll components?",
+   "aliases": [
+    "why mudsnout",
+    "gnoll poison lore"
+   ],
+   "answer": "The Mudsnout gnolls of Hillsbrad Foothills yield organic compounds that the Royal Apothecary Society discovered make an exceptional base for carrying virulent blights and toxic concoctions."
+  },
+  {
+   "q": "How is the mixture activated?",
+   "aliases": [
+    "activate mudsnout mixture",
+    "elixir of agony reagents"
+   ],
+   "answer": "To awaken the dormant contaminating agents within the mixture, Apothecary Lydon requires a Strong Troll's Blood Elixir, along with Daggerspine naga scales and Torn Fin murloc eyes harvested along the Hillsbrad coast."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The concoction demonstrates the ruthless ingenuity of the Royal Apothecary Society, refining base wilderness ingredients into chemical weapons designed to eliminate the living."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde adventurers working in Tarren Mill act as couriers and field agents, carrying toxic concoctions across Lordaeron to secure the Forsaken foothold in Hillsbrad."
+  }
+ ],
+ "keywords": [
+  "apothecary",
+  "colloid of decay",
+  "elixir of agony",
+  "faranell",
+  "hillsbrad",
+  "lydon",
+  "mudsnout mixture",
+  "undercity"
+ ],
+ "related": [
+  "quest:509",
+  "npc:master-apothecary-faranell",
+  "topic:royal-apothecary-society",
+  "item:mudsnout-composite",
+  "subzone:tarren-mill",
+  "zone:undercity",
+  "item:daggerspine-scale",
+  "item:torn-fin-eye"
+ ],
+ "attribution": [
+  "Mudsnout Mixture",
+  "Elixir of Agony (3)"
+ ]
+}

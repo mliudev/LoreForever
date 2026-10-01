@@ -1,0 +1,89 @@
+{
+ "key": "item:trogg-stone-tooth",
+ "type": "item",
+ "name": "Trogg Stone Tooth",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Trogg Stone Tooth",
+  "quests": [
+   "quest:267"
+  ]
+ },
+ "summary": "A Trogg Stone Tooth is a rugged, mineralized tooth taken from the Stonesplinter troggs infesting the hills of Loch Modan. Dwarven defenders use these teeth as physical proof that wandering adventurers are thinning the trogg numbers around the southern frontier.",
+ "sections": [
+  {
+   "title": "Bounty of the Southern Gate",
+   "body": "With the Ironforge Reserve committed to the Alliance Front, local dwarven garrisons are stretched thin across Khaz Modan. At the southern gate guard tower in Loch Modan, Captain Rugelfuss cannot spare his soldiers from their posts to mount offensive patrols against the lurking Stonesplinter troggs. Instead, he issues a standing call for volunteers to hunt the creatures in the nearby hills. To confirm that the menace is being driven back, Rugelfuss demands Trogg Stone Teeth as crude, undeniable evidence of every beast slain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants these trogg stone teeth?",
+   "aliases": [
+    "who takes trogg stone teeth",
+    "rugelfuss teeth",
+    "who needs stone teeth"
+   ],
+   "answer": "Captain Rugelfuss, stationed at the southern guard tower along the border of Loch Modan, collects them as proof that travelers are hunting the Stonesplinter troggs."
+  },
+  {
+   "q": "Why are the teeth made of stone?",
+   "aliases": [
+    "why stone tooth",
+    "trogg anatomy teeth",
+    "are trogg teeth rocks"
+   ],
+   "answer": "Troggs possess an earthy, subterranean physiology that mirrors their ancient stone origins, giving their tusks and teeth a heavy, mineralized composition resembling raw rock."
+  },
+  {
+   "q": "Why can't the dwarven garrison hunt the troggs themselves?",
+   "aliases": [
+    "why rugelfuss needs help",
+    "why are dwarves not fighting troggs",
+    "ironforge reserve"
+   ],
+   "answer": "The Ironforge Reserve has been mobilized for the broader Alliance war effort, leaving local outposts undermanned. Captain Rugelfuss's regiment is pinned to guarding the southern gate and cannot risk leaving their fortification unmanned."
+  },
+  {
+   "q": "Which troggs carry these teeth?",
+   "aliases": [
+    "where to get trogg stone teeth",
+    "who drops stone teeth"
+   ],
+   "answer": "They are gathered from any of the Stonesplinter troggs roaming the hills and excavations of Loch Modan, ranging from common diggers and scouts to their bone-snapping warriors and geomancers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Every tooth recovered helps secure Khaz Modan while the bulk of Ironforge's military stands deployed abroad on Alliance duty."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Answering Captain Rugelfuss's bounty directly relieves pressure on critical trade paths connecting the dwarven kingdoms to the wider Alliance."
+  }
+ ],
+ "keywords": [
+  "loch modan",
+  "rugelfuss",
+  "stonesplinter",
+  "the trogg threat",
+  "trogg",
+  "trogg stone tooth"
+ ],
+ "related": [
+  "quest:267",
+  "npc:captain-rugelfuss",
+  "topic:trogg",
+  "zone:lochmodan",
+  "npc:magni-bronzebeard",
+  "zone:ironforge",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Trogg Stone Tooth",
+  "The Trogg Threat (Classic)"
+ ]
+}

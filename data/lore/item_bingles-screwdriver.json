@@ -1,0 +1,94 @@
+{
+ "key": "item:bingles-screwdriver",
+ "type": "item",
+ "name": "Bingles' Screwdriver",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Bingles' Screwdriver",
+  "quests": [
+   "quest:2038"
+  ]
+ },
+ "summary": "Bingles' Screwdriver is an essential engineering tool belonging to Bingles Blastenheimer, a gnome pilot who crashed his gyrocopter into the waters of Loch Modan. Following the crash, native troggs plundered the wreckage, scattering Bingles' tool buckets and specialized gear across the loch's northern islands.",
+ "sections": [
+  {
+   "title": "A Pilot's Vital Kit",
+   "body": "When Bingles Blastenheimer plummeted into the Loch, he lost more than his flying machine\u2014he lost the specialized equipment needed to repair it. Among the scattered gear was his trusty screwdriver, packed away inside one of several tool buckets snatched up by opportunistic troggs inhabiting the nearby isles. For an engineer stranded in the wilderness, fine adjustment tools like this screwdriver are irreplaceable, especially when assembling delicate gyrocopter mechanisms or handling volatile armaments.",
+   "spoiler": 0
+  },
+  {
+   "title": "Preparations for the Retaking",
+   "body": "Bingles is not merely a recreational aviator; he serves a larger cause dedicated to liberating the fallen city of Gnomeregan from troggs and leper gnomes. His mission relies on combining flight mechanics with his volatile Blastencapper munitions to deliver an aerial assault against the subterranean menace. Recovering this screwdriver alongside his wrench and hammer is crucial for putting his gyrocopter back together and keeping the gnomish airborne counteroffensive alive.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Bingles' Screwdriver found?",
+   "aliases": [
+    "screwdriver location",
+    "find bingles screwdriver",
+    "where is the screwdriver"
+   ],
+   "answer": "It is recovered from one of Bingles's Toolbuckets scattered on the islands in northern Loch Modan, where local troggs dragged the pilot's salvage after his crash."
+  },
+  {
+   "q": "Why is the screwdriver so important to Bingles?",
+   "aliases": [
+    "why does bingles need it",
+    "what is it for"
+   ],
+   "answer": "Bingles needs his core engineering tools to rebuild his downed gyrocopter and prepare his specialized explosives for the campaign to retake Gnomeregan."
+  },
+  {
+   "q": "Who stole the screwdriver in the first place?",
+   "aliases": [
+    "who took the tools",
+    "who stole bingles tools"
+   ],
+   "answer": "Troggs residing on the islands in the Loch ambushed Bingles following his crash landing, carrying off his tool buckets and blastencapper explosives."
+  },
+  {
+   "q": "What other tools did Bingles lose in the crash?",
+   "aliases": [
+    "other bingles tools",
+    "what else is missing"
+   ],
+   "answer": "Alongside his screwdriver, Bingles lost his wrench, his hammer, and his volatile supply of Blastenheimer Blastencapper explosives."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Every tool recovered brings Bingles one step closer to rebuilding his craft and waging aerial warfare against the troggs and leper gnomes who drove your kin from Gnomeregan."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Any tinkerer knows a fine-calibrated screwdriver is indispensable for intricate gyrocopter rotors and delicate trigger assemblies."
+  }
+ ],
+ "keywords": [
+  "bingles",
+  "blastenheimer",
+  "gyrocopter",
+  "loch modan",
+  "screwdriver",
+  "toolbucket",
+  "troggs"
+ ],
+ "related": [
+  "quest:2038",
+  "item:bingles-wrench",
+  "item:bingles-hammer",
+  "item:bingles-blastencapper",
+  "quest:2039",
+  "zone:lochmodan",
+  "subzone:the-loch",
+  "zone:gnomeregan"
+ ],
+ "attribution": [
+  "Bingles' Screwdriver",
+  "Bingles' Missing Supplies"
+ ]
+}

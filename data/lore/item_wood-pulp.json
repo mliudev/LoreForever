@@ -1,0 +1,96 @@
+{
+ "key": "item:wood-pulp",
+ "type": "item",
+ "name": "Wood Pulp",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Wood Pulp",
+  "quests": [
+   "quest:846"
+  ]
+ },
+ "summary": "Wood pulp is a fibrous material carried by the dwarven personnel stationed at Bael Modan in the southern Barrens. Though harmless on its own, it serves as a key absorbent base used by the Bael'dun expedition to stabilize liquid explosives.",
+ "sections": [
+  {
+   "title": "A Volatile Recipe",
+   "body": "The Ironforge dwarves at Bael Modan use heavy earth-moving equipment and chemical explosives to rip open the earth across ancestral tauren hunting grounds. Liquid nitroglycerin is notoriously unstable on its own; to make it practical for excavation and combat, dwarven engineers absorb the liquid into porous wood pulp alongside sodium nitrate to pack stable charges. Dwarven riflemen, soldiers, and officers keep bundles of this fibrous material on hand for sapping operations and field munitions.",
+   "spoiler": 0
+  },
+  {
+   "title": "Turned Against the Keep",
+   "body": "After Prospector Khazgorm fell, the displaced tauren warrior Gann Stonespire recovered the dwarves' blasting schematics. Rather than letting the dig site continue encroaching on his tribe's lands, Gann turns these exact engineering practices back upon the invaders. By reclaiming the wood pulp, nitroglycerin, and nitrates from the Bael'dun garrison, Gann combines them into a custom explosive charge meant to shatter the dwarves' fortress from within.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is wood pulp used for in Bael Modan?",
+   "aliases": [
+    "why do dwarves have wood pulp",
+    "wood pulp purpose",
+    "what does wood pulp do"
+   ],
+   "answer": "In dwarven munitions, wood pulp serves as an absorbent matrix. Pure nitroglycerin is volatile and prone to accidental detonation, but soaking it into organic matter like wood pulp allows sappers to safely transport and handle powerful demolition charges."
+  },
+  {
+   "q": "Who carries wood pulp in the Barrens?",
+   "aliases": [
+    "where to get wood pulp",
+    "who drops wood pulp",
+    "wood pulp location"
+   ],
+   "answer": "Wood pulp is carried by the dwarven forces stationed at Bael Modan in the southern Barrens, including Bael'dun soldiers, riflemen, officers, and their commanding lord, Cyrik Blackforge."
+  },
+  {
+   "q": "Why does Gann Stonespire need this wood pulp?",
+   "aliases": [
+    "who wants wood pulp",
+    "gann stonespire wood pulp",
+    "why collect wood pulp"
+   ],
+   "answer": "Gann Stonespire plans to turn the dwarves' destructive techniques against them. Following dwarven demolition schematics, he blends the wood pulp with recovered nitroglycerin and sodium nitrate to fabricate an explosive charge capable of damaging the fortress at Bael Modan."
+  },
+  {
+   "q": "Does wood pulp explode by itself?",
+   "aliases": [
+    "is wood pulp explosive",
+    "can wood pulp blow up"
+   ],
+   "answer": "No. Raw wood pulp is simply shredded wood fiber. It only becomes dangerous when combined with volatile chemicals like nitroglycerin and oxidizers like sodium nitrate."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Any engineer will recognize this mixture: blending sawdust or wood pulp with nitroglycerin and a nitrate oxidizer is the classic method for stabilizing volatile liquid compounds into durable dynamite."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For the Stonespire tribe, turning the invaders' industrial munitions against Bael Modan is a matter of poetic justice for the destruction wrought upon their ancestral home."
+  }
+ ],
+ "keywords": [
+  "bael modan",
+  "bael'dun",
+  "barrens",
+  "gann stonespire",
+  "nitroglycerin",
+  "revenge of gann",
+  "sodium nitrate",
+  "wood pulp"
+ ],
+ "related": [
+  "quest:846",
+  "item:nitroglycerin",
+  "item:sodium-nitrate",
+  "npc:gann-stonespire",
+  "subzone:bael-modan",
+  "quest:843",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Wood Pulp",
+  "Revenge of Gann"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "item:johaan-s-special-drink",
+ "type": "item",
+ "name": "Johaan's Special Drink",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Johaan's Special Drink",
+  "quests": [
+   "quest:492"
+  ]
+ },
+ "summary": "Johaan's Special Drink is a lethal concoction prepared by Apothecary Johaan in the village of Brill. Disguised as a common refreshment, the mixture serves as a field test for the Royal Apothecary Society's developing plague.",
+ "sections": [
+  {
+   "title": "A Toxic Brew",
+   "body": "Brewed in the brewing cauldrons of Brill, Johaan's Special Drink is far from a tavern beverage. Apothecary Johaan concocts the draft by refining various venomous components and local reagents into a single draught, tailored specifically to test virulence against living physiology. Handed over under the guise of slaking a captive's thirst, it represents the Forsaken apothecaries' ongoing ambition to engineer a weapon potent enough to fulfill Sylvanas Windrunner's designs for Azeroth.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Cellar Trial",
+   "body": "The drink finds its intended recipient in the dingy cellar beneath the Gallows' End Tavern, which the Deathguard uses as a temporary holding cell for stray intruders. When offered to a captured dwarven mountaineer languishing in chains, the thirsty prisoner drinks it eagerly, mistaking it for crude ale. The draft acts instantly, killing the dwarf on the spot and proving to the Royal Apothecary Society that their latest strain can swiftly extinguish living victims.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Johaan's Special Drink?",
+   "aliases": [
+    "what is johaans drink",
+    "johaan drink",
+    "what is this item"
+   ],
+   "answer": "It is a deadly concoction created by Apothecary Johaan in Brill. Though presented as a beverage, it is infused with a strain of the Forsaken's developing plague designed to test its lethal efficacy against living beings."
+  },
+  {
+   "q": "Who is the drink given to?",
+   "aliases": [
+    "who drinks it",
+    "who do i give the drink to",
+    "drink target"
+   ],
+   "answer": "The drink is brought down to the cellar of the Gallows' End Tavern in Brill and given to a Captured Mountaineer who was taken prisoner by the local Deathguard."
+  },
+  {
+   "q": "What happens when someone drinks it?",
+   "aliases": [
+    "does the dwarf die",
+    "effect of the drink",
+    "what does it do"
+   ],
+   "answer": "The prisoner downs the liquid expecting harsh tavern swill to quench his thirst, only to immediately drop dead from the brew's virulent toxins."
+  },
+  {
+   "q": "Why does Apothecary Johaan make this drink?",
+   "aliases": [
+    "why did johaan make it",
+    "apothecary johaan motive",
+    "why test the plague"
+   ],
+   "answer": "Apothecary Johaan is conducting trials for the Royal Apothecary Society's new plague. He uses the captured dwarf as an unwitting live test subject to see how effective the mixture is at snuffing out mortal life."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, delivering Johaan's brew represents practical service to the Royal Apothecary Society and Lady Sylvanas's grand plans against the living."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The concoction reveals the grim fate awaiting dwarven scouts who stray too close to Tirisfal Glades, where captives are used as laboratory test subjects."
+  }
+ ],
+ "keywords": [
+  "apothecary johaan",
+  "brill",
+  "captured mountaineer",
+  "gallows' end tavern",
+  "johaan",
+  "johaan's special drink",
+  "new plague"
+ ],
+ "related": [
+  "quest:367",
+  "npc:captured-mountaineer",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Johaan's Special Drink",
+  "A New Plague (4)"
+ ]
+}

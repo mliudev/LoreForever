@@ -1,0 +1,94 @@
+{
+ "key": "item:an-undelivered-letter",
+ "type": "item",
+ "name": "An Undelivered Letter",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "An Undelivered Letter",
+  "quests": [
+   "quest:70"
+  ]
+ },
+ "summary": "An Undelivered Letter is a piece of long-forgotten mail left behind in Goldshire's Lion's Pride Inn. Penned years ago by the elusive Stalvan Mistmantle, it serves as a critical clue in unraveling the dark tale of his past.",
+ "sections": [
+  {
+   "title": "A Midnight Flight",
+   "body": "Years ago, a storm drove a traveling courier into the Lion's Pride Inn looking for dry lodging. Near midnight, the terrified messenger fled down the stairs in his sleeping clothes and vanished into the pouring rain, never to return. He abandoned a chest full of belongings on the second floor, including a letter written by Stalvan Mistmantle addressed to an estate in Stormwind City's Canal District.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tracing the Scholar",
+   "body": "The unopened letter remained untouched in the inn's upper rooms until modern investigators began retracing Stalvan's footsteps through Elwynn Forest. Delivering the long-lost parchment to Caretaker Folsom in the capital bridges the mystery from the tavern's quiet halls directly into the heart of Stormwind.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the undelivered letter found?",
+   "aliases": [
+    "where is letter",
+    "storage chest location",
+    "lion's pride chest"
+   ],
+   "answer": "It is resting inside a storage chest on the second floor of the Lion's Pride Inn in Goldshire, right at the foot of the bed in one of the guest rooms."
+  },
+  {
+   "q": "Why was the letter never delivered?",
+   "aliases": [
+    "why undelivered",
+    "what happened to the messenger",
+    "courier fled"
+   ],
+   "answer": "The courier carrying it took shelter from a rainstorm at the Lion's Pride Inn. Around midnight, he suddenly panicked, bolted downstairs in his nightclothes, and ran out into the storm, abandoning his chest and its contents."
+  },
+  {
+   "q": "Who wrote this letter?",
+   "aliases": [
+    "who sent the letter",
+    "stalvan author",
+    "sender"
+   ],
+   "answer": "The letter was sent by Stalvan Mistmantle, who had spent several nights at the inn around the same time the frightened courier stayed there."
+  },
+  {
+   "q": "Where is the letter supposed to go?",
+   "aliases": [
+    "who receives letter",
+    "stormwind destination",
+    "canal district letter"
+   ],
+   "answer": "It is addressed to the Canal District of Stormwind City, where it can be brought to Caretaker Folsom near the Park."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Tracing this courier's forgotten route takes investigators from the pastoral heart of Goldshire into the upper-class quarters of Stormwind City."
+  }
+ ],
+ "keywords": [
+  "canal district",
+  "courier",
+  "folsom",
+  "goldshire",
+  "lion's pride inn",
+  "messenger",
+  "mistmantle",
+  "stalvan"
+ ],
+ "related": [
+  "quest:66",
+  "subzone:lion-s-pride-inn",
+  "subzone:goldshire",
+  "npc:innkeeper-farley",
+  "npc:caretaker-folsom",
+  "subzone:canals-stormwind-city",
+  "zone:elwynn",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "An Undelivered Letter",
+  "The Legend of Stalvan (5)"
+ ]
+}

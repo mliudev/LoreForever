@@ -1,0 +1,45 @@
+{
+  "_readme": "Every voice on /voices, in page order. Adding a voice = one entry here plus its sample file under public/audio/voices/. functions/voices/index.js renders the cards from this list, functions/voices/[id].js the profile pages, and functions/download/voice/[id].js redirects to each entry's download. id is lowercase letters, digits and dashes, and never guide/submit/release/thanks/contributors/account. status: live, or soon (listed with a placeholder, no sample or download yet). download: the zip on a GitHub release, or null for a voice that comes with the add-on. Optional: bio (profile page; blank lines split paragraphs), samples (profile page; defaults to sample), avatar, curseforge, owner (a contributor's account id). Copy rule: never say how a voice is made.",
+  "voices": [
+    {
+      "id": "male-narrator",
+      "name": "Lore Forever male narrator",
+      "credit": "Lore Forever",
+      "language": "English",
+      "addon": "LoreForever_Voice_Default",
+      "status": "live",
+      "included": true,
+      "clips": 204,
+      "coverage": "capitals, starting zones, dungeons, dungeon bosses and first questions",
+      "tagline": "Has narrated every capital in one sitting. Doesn't blink. Declined our offer of water.",
+      "bio": "The voice that comes with Lore Forever, and the first one you hear in Stormwind.\n\nHas narrated every capital in one sitting. Doesn't blink. Declined our offer of water, then a chair, then a lunch break. Knows the founding of Stormwind by heart and will tell you about it whether or not you asked.\n\nFavourite zone: all of them, in alphabetical order. Hobbies: dramatic pauses, and saying \"Thrall\" exactly right every single time.",
+      "sample": { "src": "/audio/stormwind.mp3", "title": "Stormwind City", "length": "1:06" },
+      "samples": [
+        { "src": "/audio/stormwind.mp3", "title": "Stormwind City", "length": "1:06" },
+        { "src": "/audio/zephras.mp3", "title": "Zephras Isle", "length": "0:53" },
+        { "src": "/audio/durotar.mp3", "title": "Durotar", "length": "1:11" }
+      ],
+      "download": null
+    },
+    {
+      "id": "female-narrator",
+      "name": "Lore Forever female narrator",
+      "credit": "Lore Forever",
+      "language": "English",
+      "addon": "LoreForever_Voice_Female",
+      "status": "live",
+      "included": false,
+      "clips": 204,
+      "coverage": "capitals, starting zones, dungeons, dungeon bosses and first questions",
+      "tagline": "Asked for the candles lit and every murloc removed from the building. Got the candles.",
+      "bio": "The second house voice, and an optional download: pick her in Options once she's installed.\n\nAsked for the candles lit and every murloc removed from the building. Got the candles. Rumoured to have read the whole of Durotar aloud to a very patient kodo, twice, because the kodo asked.\n\nTakes her tea the way the lore takes its villains: dark, and with a long backstory.",
+      "sample": { "src": "/audio/voices/female-narrator-stormwind.mp3", "title": "Stormwind City", "length": "1:09" },
+      "samples": [
+        { "src": "/audio/voices/female-narrator-stormwind.mp3", "title": "Stormwind City", "length": "1:09" },
+        { "src": "/audio/voices/female-narrator-teldrassil.mp3", "title": "Teldrassil", "length": "0:52" },
+        { "src": "/audio/voices/female-narrator-thunderbluff.mp3", "title": "Thunder Bluff", "length": "1:05" }
+      ],
+      "download": "https://github.com/mliudev/LoreForever/releases/download/voices/LoreForever_Voice_Female-1.1.1.zip"
+    }
+  ]
+}

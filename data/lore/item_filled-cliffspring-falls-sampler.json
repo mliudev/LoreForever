@@ -1,0 +1,97 @@
+{
+ "key": "item:filled-cliffspring-falls-sampler",
+ "type": "item",
+ "name": "Filled Cliffspring Falls Sampler",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Filled Cliffspring Falls Sampler",
+  "quests": [
+   "quest:6122"
+  ]
+ },
+ "summary": "The Filled Cliffspring Falls Sampler contains murky water drawn from the headwaters near Cliffspring Falls in Darkshore. Gathered on behalf of the Cenarion Circle, it serves as crucial evidence in uncovering what is poisoning the local deer population.",
+ "sections": [
+  {
+   "title": "A Tainted Source",
+   "body": "Cliffspring Falls provides the principal drinking water for much of Darkshore, cascading down from the eastern highlands toward the sea. Recently, however, the wildlife relying on these waters\u2014specifically the local deer\u2014have fallen prey to a debilitating, unnatural malady. At the behest of Dendrite Starblaze in Moonglade, druidic initiates retrieve this sample directly from the mouth of a cave infested by hostile naga. The vial holds visibly putrid liquid, confirming that the region's primary fresh water supply is actively corrupted.",
+   "spoiler": 0
+  },
+  {
+   "title": "Path to a Remedy",
+   "body": "Brought to Alanndarian Nightsong in Auberdine, the foul sample provides the physical proof the Cenarion Circle needs to study the poison. Rather than simply disposing of it, Alanndarian uses the polluted water to analyze the contaminant's makeup. Deciphering the exact properties of the sludge allows the druids to synthesize a curative salve, an essential step in developing the rite that grants practitioners power over poison.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Filled Cliffspring Falls Sampler?",
+   "aliases": [
+    "sampler contents",
+    "what water is in the vial",
+    "what is in the sample"
+   ],
+   "answer": "It contains contaminated water scooped from the mouth of the cavern near Cliffspring Falls in Darkshore. The water is visibly discolored and carries the poison that has been sickening local deer."
+  },
+  {
+   "q": "Who asks for this water sample?",
+   "aliases": [
+    "who wants the water sample",
+    "who do i give the sampler to",
+    "who needs the filled sampler"
+   ],
+   "answer": "Dendrite Starblaze of the Cenarion Circle instructs young druids to collect the sample, while Alanndarian Nightsong in Auberdine receives it to analyze the poison and formulate a cure."
+  },
+  {
+   "q": "Why is Cliffspring Falls so important?",
+   "aliases": [
+    "why cliffspring falls",
+    "importance of cliffspring falls"
+   ],
+   "answer": "Cliffspring Falls is the principal source of drinking water for the Darkshore region. Any corruption introduced into the falls spreads through the local waterways and affects the entire wilderness."
+  },
+  {
+   "q": "What is causing the water to turn foul?",
+   "aliases": [
+    "who poisoned the water",
+    "why is the falls poisoned",
+    "naga cliffspring falls"
+   ],
+   "answer": "The water originates near a cave recently overrun by hostile naga. Their presence coincides with the fouling of the headwaters, spreading unnatural sickness throughout the local fauna."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Retrieving and analyzing this tainted water is a vital proving trial for Alliance druids, forming the investigative groundwork for mastering Cure Poison."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves of Darkshore, securing the Cliffspring headwaters is essential to preserving Auberdine's ecology against foul foreign corruption."
+  }
+ ],
+ "keywords": [
+  "alanndarian nightsong",
+  "auberdine",
+  "cenarion circle",
+  "cliffspring falls",
+  "darkshore",
+  "dendrite starblaze",
+  "poisoned water",
+  "sampler"
+ ],
+ "related": [
+  "quest:6122",
+  "item:empty-cliffspring-falls-sampler",
+  "npc:alanndarian-nightsong",
+  "npc:dendrite-starblaze",
+  "subzone:cliffspring-falls",
+  "quest:6125",
+  "subzone:auberdine",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "Filled Cliffspring Falls Sampler",
+  "The Principal Source (Alliance)"
+ ]
+}

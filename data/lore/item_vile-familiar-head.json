@@ -1,0 +1,92 @@
+{
+ "key": "item:vile-familiar-head",
+ "type": "item",
+ "name": "Vile Familiar Head",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Vile Familiar Head",
+  "quests": [
+   "quest:1485"
+  ]
+ },
+ "summary": "A Vile Familiar Head is a gruesome trophy collected from the feral impish creatures dwelling near the Burning Blade Coven in the Valley of Trials. Young Horde warlocks gather them under the guidance of Ruzan as proof of their combat readiness before learning to bind their first demonic minions. The heads serve as a grim test of discipline, showing that an apprentice understands the lethality of the beings they intend to summon.",
+ "sections": [
+  {
+   "title": "A Gruesome Lesson in Demonology",
+   "body": "Within the sun-baked canyon of the Valley of Trials, the warlock trainer Ruzan demands six Vile Familiar Heads from novices seeking to learn the art of summoning. The vile familiars that loiter outside the Burning Blade Coven are vicious, fiery imps whose diminutive stature conceals dangerous elemental cunning. Ruzan requires prospective summoners to face these fiends in battle and sever their heads to prove they can subdue and command demonic life rather than be overpowered by it. Because warlocks are barely tolerated within Thrall's Horde, training requires extreme caution; reckless novices who perish to their own conjurations only deepen the dishonor and suspicion cast upon practitioners of the dark arts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Vile Familiar Heads used for?",
+   "aliases": [
+    "vile familiar head purpose",
+    "what are these heads for",
+    "ruzan quest item"
+   ],
+   "answer": "They serve as proof of martial prowess for novice warlocks in the Valley of Trials. The trainer Ruzan requires six of these severed heads before he will instruct an apprentice in the ritual of summoning their first imp minion."
+  },
+  {
+   "q": "Where do vile familiars come from?",
+   "aliases": [
+    "vile familiar location",
+    "where to find vile familiars",
+    "burning blade coven cave"
+   ],
+   "answer": "They congregate around the mouth and interior of a cave to the northeast in the Valley of Trials, an encampment harboring the secretive and malevolent Burning Blade Coven."
+  },
+  {
+   "q": "Why does Ruzan make young warlocks collect these heads?",
+   "aliases": [
+    "why collect heads",
+    "ruzan motive",
+    "why kill familiars first"
+   ],
+   "answer": "Ruzan believes that no one should summon a creature they cannot overpower in combat. Because imps are deceptive and throw volatile fire, defeating them face-to-face ensures the aspiring warlock understands the threat posed by the demonic entities they seek to command."
+  },
+  {
+   "q": "How does the Horde view warlocks who collect such trophies?",
+   "aliases": [
+    "are warlocks accepted",
+    "horde warlock reputation",
+    "distrusted warlocks"
+   ],
+   "answer": "Warlocks are merely tolerated rather than embraced by the modern Horde. Past betrayals tied to fel magic left a legacy of deep distrust, forcing trainers like Ruzan to ensure apprentices are disciplined and quiet in their studies."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Collecting these heads marks a warlock's very first step toward mastery over the Nether, earning the right to summon and bind an imp into servitude."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Even in Durotar's training grounds, warlocks practice their arts on the fringes, mindful that the Horde watches their demonic pursuits with lingering suspicion."
+  }
+ ],
+ "keywords": [
+  "burning blade coven",
+  "durotar",
+  "imp",
+  "ruzan",
+  "valley of trials",
+  "vile familiar",
+  "vile familiar head",
+  "warlock quest"
+ ],
+ "related": [
+  "quest:792",
+  "subzone:valley-of-trials",
+  "subzone:burning-blade-coven",
+  "topic:warlock",
+  "zone:durotar",
+  "topic:horde",
+  "quest:1089"
+ ],
+ "attribution": [
+  "Vile Familiar Head",
+  "Vile Familiars (Warlock)"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "key": "item:fenwick-s-head",
+ "type": "item",
+ "name": "Fenwick's Head",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Fenwick's Head",
+  "quests": [
+   "quest:1998"
+  ]
+ },
+ "summary": "Fenwick's Head is the grisly proof of execution taken from Fenwick Thatros on the shores of Lordamere Lake. It is claimed by Forsaken rogues operating on direct orders passed down through Lord Varimathras.",
+ "sections": [
+  {
+   "title": "A Contract from the Shadows",
+   "body": "Within the Rogues' Quarter of the Undercity, Mennet Carkad acts on urgent intelligence routed directly from dreadlord Varimathras. A hostile undead leader named Fenwick Thatros has established a foothold near the decaying docks along Lordamere Lake in Silverpine Forest. To prevent this threat from rallying hostile undead against the Forsaken, Carkad dispatches promising Deathstalkers to locate Thatros, eliminate him, and sever his head as undeniable proof of the kill.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Rite of Passage",
+   "body": "Returning Fenwick's Head to Carkad is more than a simple bounty collection; it serves as a crucial trial for Deathstalker operatives. Presenting the severed trophy validates the rogue's competence in infiltration and assassination, opening the door to deeper, more specialized instruction in the shadow arts from the Forsaken masters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Fenwick Thatros?",
+   "aliases": [
+    "who is fenwick",
+    "fenwick thatros lore",
+    "who was thatros"
+   ],
+   "answer": "Fenwick Thatros was identified by Lord Varimathras as an undead leader entrenched in Silverpine Forest. His presence near the decrepit docks of Lordamere Lake marked him as an immediate danger to Forsaken interests in the region."
+  },
+  {
+   "q": "Who wants Fenwick's Head?",
+   "aliases": [
+    "who wants the head",
+    "who turned in to",
+    "mennet carkad"
+   ],
+   "answer": "The head is demanded by Mennet Carkad, a Deathstalker trainer residing in the Rogues' Quarter of the Undercity, fulfilling an urgent order passed down by Lord Varimathras."
+  },
+  {
+   "q": "Where is Fenwick Thatros located?",
+   "aliases": [
+    "fenwick thatros location",
+    "where is fenwick",
+    "find fenwick"
+   ],
+   "answer": "According to intelligence gathered by Deathstalker scouts, Fenwick Thatros lurks by the decrepit docks along the shore of Lordamere Lake in Silverpine Forest."
+  },
+  {
+   "q": "Why must his head be severed?",
+   "aliases": [
+    "why take his head",
+    "why decapitate him"
+   ],
+   "answer": "Mennet Carkad requires undeniable physical proof that the threat has been thoroughly eliminated before he will advance an operative to advanced shadow training."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Claiming Fenwick's Head is a definitive milestone for rising Forsaken rogues, establishing their reliability as Deathstalkers and earning them access to advanced training."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The hunt demonstrates the Forsaken's ruthless suppression of rival undead factions contesting control over Silverpine Forest and the shores of Lordamere Lake."
+  }
+ ],
+ "keywords": [
+  "deathstalkers",
+  "fenwick",
+  "lordamere",
+  "mennet carkad",
+  "rogues' quarter",
+  "silverpine",
+  "thatros",
+  "varimathras"
+ ],
+ "related": [
+  "quest:1998",
+  "quest:1999",
+  "npc:varimathras",
+  "quest:1886",
+  "subzone:rogues-quarter",
+  "zone:silverpine",
+  "zone:undercity",
+  "topic:rogue"
+ ],
+ "attribution": [
+  "Fenwick's Head",
+  "Fenwick Thatros (quest)"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "key": "item:nissa-s-remains",
+ "type": "item",
+ "name": "Nissa's Remains",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Nissa's Remains",
+  "quests": [
+   "quest:354"
+  ]
+ },
+ "summary": "Nissa's Remains are the recovered earthly remnants of Nissa Agamand, a noblewoman of the once-wealthy Agamand dynasty in northern Tirisfal Glades. Slain and raised as mindless servants of the Scourge during the Third War, she and her family are now hunted down by former laborers seeking vengeance.",
+ "sections": [
+  {
+   "title": "A Legacy of Pride",
+   "body": "Before the Third War, the Agamand family stood as the wealthiest and most influential dynasty in Tirisfal Glades, operating prosperous mills across the northern hills. When the Plague of Undeath crept across Lordaeron, the family patriarchs stubbornly refused to evacuate. Instead, they fortified their estates and convinced their retainers and laborers to stand their ground. That arrogance cost everyone their lives. The Agamands fell to the Scourge, rising not with their proud independence intact, but as shambling, mindless thralls bound to the Lich King's will.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bitter Retribution",
+   "body": "In the town of Brill, survivors who later broke free under Queen Sylvanas Windrunner have not forgotten the family's fatal pride. Coleman Farthing, a former laborer in the Agamand mills, holds a bitter grudge against his former masters for luring their workers into the jaws of undeath. He charges adventurers with putting down the risen Agamands and retrieving their physical remains, such as Nissa's. For Farthing and others among the Forsaken, burning or destroying these relics offers a grim sense of final closure and spiteful revenge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Nissa Agamand?",
+   "aliases": [
+    "who is nissa",
+    "nissa lore",
+    "nissa agamand"
+   ],
+   "answer": "Nissa was a member of the Agamand family, Lordaeron nobles who owned the sprawling Agamand Mills in Tirisfal Glades. When the Scourge swept through Lordaeron, she perished alongside her kin and was resurrected as an undead minion under the Lich King's control."
+  },
+  {
+   "q": "Why does Coleman Farthing want Nissa's remains?",
+   "aliases": [
+    "why coleman want remains",
+    "why kill agamands",
+    "coleman farthing motive"
+   ],
+   "answer": "Coleman Farthing worked in the Agamand mills in life. He bitterly resents the family because their arrogant refusal to flee persuaded loyal workers to stay behind and die. Collecting their remains allows him to take revenge on his former masters."
+  },
+  {
+   "q": "Where are these remains gathered?",
+   "aliases": [
+    "where do i find nissa",
+    "nissa agamand location"
+   ],
+   "answer": "Nissa Agamand haunts the ruined Agamand Mills in the northern reaches of Tirisfal Glades, wandering among the decrepit farmhouses alongside her reanimated relatives and mindless Scourge thralls."
+  },
+  {
+   "q": "Did Nissa retain her free will like the Forsaken?",
+   "aliases": [
+    "is nissa forsaken",
+    "did nissa have free will",
+    "is nissa scourge"
+   ],
+   "answer": "No. Unlike the Forsaken who broke away from the Lich King, Nissa and her family remained enslaved to the Scourge as mindless undead, lacking the sentience and freedom found in Undercity's citizens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, reclaiming Tirisfal means purging both their former Scourge oppressors and the wealthy aristocrats who doomed common laborers to undeath through foolish pride."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Slaying the reanimated Agamands and clearing their mills secures northern Tirisfal Glades from lingering Scourge pockets threatening Brill and the Undercity."
+  }
+ ],
+ "keywords": [
+  "agamand mills",
+  "brill",
+  "coleman farthing",
+  "deaths in the family",
+  "nissa agamand",
+  "nissa's remains",
+  "tirisfal glades"
+ ],
+ "related": [
+  "quest:354",
+  "npc:coleman-farthing",
+  "item:gregor-s-remains",
+  "item:thurman-s-remains",
+  "zone:tirisfal",
+  "subzone:brill",
+  "topic:forsaken",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Nissa's Remains",
+  "Deaths in the Family (Classic)"
+ ]
+}

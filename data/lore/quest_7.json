@@ -1,0 +1,117 @@
+{
+ "key": "quest:7",
+ "type": "quest",
+ "name": "Kobold Camp Cleanup",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   7
+  ],
+  "level": "2",
+  "faction": "Alliance",
+  "start": "Marshal McBride",
+  "end": "",
+  "previous": "A Threat Within",
+  "next": "Investigate Echo Ridge",
+  "wiki": "Kobold Camp Cleanup",
+  "chain": []
+ },
+ "summary": "Kobold Camp Cleanup is an early military task assigned by Marshal McBride to newly arrived recruits in Northshire Valley. The mission directs volunteers to cull the kobold vermin lurking in the northern woods, attempting to keep the aggressive subterranean scavengers from overwhelming the abbey grounds. It serves as an initiate's first true test in defending the borders of the Kingdom of Stormwind.",
+ "sections": [
+  {
+   "title": "A Valley Under Pressure",
+   "body": "Northshire Valley was once a quiet sanctuary for prayer, agriculture, and novice training, but recent years have stretched Stormwind's military thin. With the King missing and royal garrisons dispersed, wild creatures and opportunists push boldly against civilization's edge. Marshal McBride organizes local defense right outside Northshire Abbey, relying on fresh volunteers to suppress encroaching threats before they disrupt abbey operations or threaten the surrounding vineyards.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Vermin in the Woods",
+   "body": "Kobolds are cowardly, candle-obsessed cave-dwellers by nature, usually content to pick at underground seams away from direct sunlight. However, an entire clan has pressed into the northern timberline of Northshire. Left unchecked, their sheer numbers turn scavenging into open raiding. McBride's order to hunt down kobold vermin serves a dual purpose: it winnows their vanguard and proves whether a recruit possesses the resolve needed to protect the realm.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who orders the culling of the kobold camp?",
+   "aliases": [
+    "who gives this quest",
+    "quest giver",
+    "marshal mcbride role"
+   ],
+   "answer": "Marshal McBride gives the order. Stationed directly outside Northshire Abbey, he oversees local recruit intake and security for the valley on behalf of Stormwind."
+  },
+  {
+   "q": "Why are kobolds in the northern woods instead of a mine?",
+   "aliases": [
+    "why are kobolds outside",
+    "kobolds above ground",
+    "why woods"
+   ],
+   "answer": "While kobolds typically live in burrows and mines, their population in Northshire has grown dense enough to spill out into the open forest. They established primitive camps among the northern trees, prowling near the edge of civilized land."
+  },
+  {
+   "q": "Why are these kobolds considered a threat to Stormwind?",
+   "aliases": [
+    "are kobolds dangerous",
+    "why kill vermin"
+   ],
+   "answer": "Individually, kobold vermin are timid and weak. In packs, however, they are brazen thieves capable of ambushing travelers, raiding supplies, and overrunning undefended outposts, which Stormwind cannot afford while its military is already overstretched."
+  },
+  {
+   "q": "Where does this mission lead next?",
+   "aliases": [
+    "what quest is next",
+    "next step",
+    "after camp cleanup"
+   ],
+   "answer": "After thinning the surface vermin, Marshal McBride asks recruits to investigate deeper into the Echo Ridge Mine, where the heart of the kobold infestation lies."
+  },
+  {
+   "q": "Is Northshire receiving regular royal army backup?",
+   "aliases": [
+    "where are stormwind guards",
+    "why volunteers"
+   ],
+   "answer": "No. Due to political tension and troop shortages across the kingdom following King Varian's disappearance, local commanders like McBride must rely on civilian volunteers, adventurers, and trainees to handle border security."
+  },
+  {
+   "q": "What makes kobolds so attached to their candles?",
+   "aliases": [
+    "why candles",
+    "candle obsession"
+   ],
+   "answer": "Kobolds revere candles as their primary defense against the smothering darkness of underground tunnels. The flame represents safety, sight, and ownership to them, making them notoriously hostile if anyone attempts to take it."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of Northshire, driving back the kobold vermin is a baseline civic duty to protect the abbey and farmland from being overrun."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The unrest in Northshire highlights the strain on Stormwind's home territories, where even low-level scavenger infestations require urgent volunteer militia."
+  }
+ ],
+ "keywords": [
+  "echo ridge",
+  "elwynn forest",
+  "kobold",
+  "marshal mcbride",
+  "northshire",
+  "northshire abbey",
+  "vermin"
+ ],
+ "related": [
+  "npc:marshal-mcbride",
+  "quest:783",
+  "quest:15",
+  "topic:kobold",
+  "zone:elwynn",
+  "topic:stormwind-kingdom",
+  "topic:human"
+ ],
+ "attribution": [
+  "Kobold Camp Cleanup"
+ ]
+}

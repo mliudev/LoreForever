@@ -1,0 +1,90 @@
+{
+ "key": "item:sapphire-of-aku-mai",
+ "type": "item",
+ "name": "Sapphire of Aku'Mai",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Sapphire of Aku'Mai",
+  "quests": [
+   "quest:6563"
+  ]
+ },
+ "summary": "Sapphires of Aku'Mai are glowing, water-infused mineral clusters growing along the subterranean tunnels of Blackfathom Deeps. The encroaching naga have begun harvesting these gems, prompting the Earthen Ring to seek them out before their potent arcane power can be exploited.",
+ "sections": [
+  {
+   "title": "Gems of the Deep",
+   "body": "Discovered within the watery cavern entrances of Blackfathom Deeps along Ashenvale's Zoram Strand, Sapphires of Aku'Mai are crystalline formations rich in elemental energy. The spirits of water cling tightly to them, making them exceptional catalysts for magical workings. When scouts reported that the subterranean naga had begun actively quarrying these clusters from the cavern walls, the Shaman Je'neu Sancrea sought adventuring assistance to confiscate them. Left in the serpent peoples' clutches, the stones could easily fuel devastating arcane rites.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Sapphire of Aku'Mai?",
+   "aliases": [
+    "what is this crystal",
+    "sapphire of aku'mai lore",
+    "what are these gems"
+   ],
+   "answer": "They are vibrant sapphire crystals found lining the walls of Blackfathom Deeps. Bound closely with the elemental spirits of water, they hold deep arcane and elemental resonance."
+  },
+  {
+   "q": "Why are the naga collecting these sapphires?",
+   "aliases": [
+    "why do naga want sapphires",
+    "naga crystal harvesting"
+   ],
+   "answer": "Their exact intentions remain uncertain, but Je'neu Sancrea suspects the naga intended to harness the crystals' rich water and arcane energies for dangerous sorcery within the submerged temple."
+  },
+  {
+   "q": "Who is looking for these sapphires?",
+   "aliases": [
+    "who wants sapphires of akumai",
+    "who turns in essence of akumai"
+   ],
+   "answer": "Je'neu Sancrea, an Earthen Ring shaman stationed at Zoram'gar Outpost along the Zoram Strand in Ashenvale, tasks travelers with gathering them to keep them out of naga hands."
+  },
+  {
+   "q": "Are these crystals directly tied to the beast Aku'mai?",
+   "aliases": [
+    "aku'mai connection",
+    "is it from akumai"
+   ],
+   "answer": "While named after Aku'mai, the monstrous hydra inhabiting the deeps, the crystals grow naturally in the cavern walls. Their naming reflects their proximity to the dark presence lurking within the ruins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Earthen Ring shamans like Je'neu Sancrea readily perceive the water spirits bound within these gems, treating the naga harvest as an elemental threat."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The innate water saturation makes these raw sapphires highly valued as conduits for potent arcane components."
+  }
+ ],
+ "keywords": [
+  "aku'mai",
+  "blackfathom deeps",
+  "crystals",
+  "je'neu sancrea",
+  "naga",
+  "sapphire",
+  "water spirits",
+  "zoram strand"
+ ],
+ "related": [
+  "quest:6563",
+  "npc:je-neu-sancrea",
+  "zone:blackfathom",
+  "npc:aku-mai",
+  "topic:naga",
+  "subzone:zoram-strand",
+  "quest:6562",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Sapphire of Aku'Mai",
+  "The Essence of Aku'Mai (Classic)"
+ ]
+}

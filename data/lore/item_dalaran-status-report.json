@@ -1,0 +1,97 @@
+{
+ "key": "item:dalaran-status-report",
+ "type": "item",
+ "name": "Dalaran Status Report",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Dalaran Status Report",
+  "quests": [
+   "quest:1999"
+  ]
+ },
+ "summary": "The Dalaran Status Report is a cache of sensitive intelligence compiled by the Kirin Tor wizards stationed at Ambermill in Silverpine Forest. It details the secretive ongoing reconstruction behind Dalaran's glowing protective dome, making it a prized prize for the Forsaken and the Deathstalkers of Undercity.",
+ "sections": [
+  {
+   "title": "Eyes Behind the Violet Shield",
+   "body": "Ever since the Scourge sacked Dalaran and Archimonde brought down its towering spires, the ruined city-state has remained sealed off behind an impenetrable purple energy shield. Outside that barrier, the surviving magi of the Kirin Tor have established forward enclaves, most notably Ambermill in southeastern Silverpine Forest. From this fortified settlement, the mages coordinate logistics, guard surrounding roads, and communicate with those laboring within the dome. The Dalaran Status Report represents their localized assessments, troop distributions, and records on the reconstruction efforts underway behind the violet ward.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Deathstalker's Test",
+   "body": "Control of Lordaeron requires absolute vigilance, and Lord Varimathras keeps a keen eye on any remnants of the Alliance and Kirin Tor. After Forsaken interrogators squeezed admissions from a Kirin Tor captive, the dreadlord ordered the Deathstalkers to acquire the status report. Hidden away within a locked strongbox deep inside Ambermill, the document became both an operational necessity and a rite of passage for newly initiated rogues mastering the craft of lockpicking under Mennet Carkad in the Rogues' Quarter.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Dalaran Status Report?",
+   "aliases": [
+    "what is this report",
+    "dalaran report",
+    "ambermill documents"
+   ],
+   "answer": "It is a set of confidential Kirin Tor documents outlining the current conditions, recovery operations, and status of Dalaran, compiled by the mages maintaining the outpost of Ambermill."
+  },
+  {
+   "q": "Where is the report kept?",
+   "aliases": [
+    "where is the report",
+    "ambermill strongbox location",
+    "how to find the status report"
+   ],
+   "answer": "The mages of Ambermill locked the report inside a strongbox within their settlement in southeastern Silverpine Forest, keeping it protected from intruders and curious eyes."
+  },
+  {
+   "q": "Why does the Undercity want this report?",
+   "aliases": [
+    "why do forsaken want this",
+    "varimathras dalaran report",
+    "deathstalkers objective"
+   ],
+   "answer": "Lord Varimathras and the Forsaken consider the surviving Kirin Tor an active threat on their doorstep. Recovering the report allows the Deathstalkers to assess Dalaran's military strength and secret reconstruction projects."
+  },
+  {
+   "q": "How did the Deathstalkers learn about the document?",
+   "aliases": [
+    "how did undercity find out",
+    "prisoner confession"
+   ],
+   "answer": "The Deathstalkers extracted the document's existence and location directly from a captured Kirin Tor prisoner held and questioned in the Undercity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Mennet Carkad uses the retrieval of this report as a field test for training Deathstalkers in the delicate craft of lockpicking and infiltration against vigilant mages."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The Kirin Tor remnants at Ambermill are a thorn in the side of the Forsaken in Silverpine, making any intelligence on their operations vital to Undercity's security."
+  }
+ ],
+ "keywords": [
+  "ambermill",
+  "ambermill strongbox",
+  "dalaran status report",
+  "deathstalkers",
+  "kirin tor",
+  "mennet carkad",
+  "tools of the trade",
+  "varimathras"
+ ],
+ "related": [
+  "quest:1999",
+  "subzone:ambermill",
+  "quest:1886",
+  "subzone:dalaran",
+  "npc:varimathras",
+  "zone:silverpine",
+  "subzone:rogues-quarter",
+  "topic:rogue"
+ ],
+ "attribution": [
+  "Dalaran Status Report",
+  "Tools of the Trade (Classic)"
+ ]
+}

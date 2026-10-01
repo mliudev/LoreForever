@@ -1,0 +1,127 @@
+{
+ "key": "quest:3082",
+ "type": "quest",
+ "name": "Etched Tablet",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   3082
+  ],
+  "level": "1",
+  "faction": "Horde",
+  "start": "Gornek",
+  "end": "Jen'shan",
+  "previous": "Cutting Teeth",
+  "next": null,
+  "wiki": "Etched Tablet (quest)",
+  "chain": []
+ },
+ "summary": "Etched Tablet is an introductory hunter quest delivered in the Valley of Trials after completing initial trials. It directs aspiring troll hunters to report to the hunter trainer Jen'shan to begin their formal training in the wilderness.",
+ "sections": [
+  {
+   "title": "A Summons to the Hunt",
+   "body": "After proving their early mettle against the local boars of the Den, novice hunters are intercepted by Gornek with a carved message. The stone tablet bears the mark of Jen'shan, a skilled troll huntswoman stationed nearby. Gornek passes it along as a sign that the young hunter has demonstrated sufficient grit to catch the eye of seasoned survivalists, marking the transition from basic brute survival to disciplined wilderness training.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Sharing of Survival",
+   "body": "When reporting to Jen'shan, the troll trainer speaks of the deep history between orcs and trolls within the Horde. While orcs possessed renowned traditions of warriors and shamans, the Darkspear trolls brought ancient stalking, tracking, and survival skills that helped the newcomers endure Kalimdor's rugged wilds. Jen'shan views the training of new hunters as an ongoing exchange of survival knowledge, binding the allied races closer together through shared respect for the hunt.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends the Etched Tablet?",
+   "aliases": [
+    "who wrote etched tablet",
+    "tablet sender",
+    "who gave me this tablet"
+   ],
+   "answer": "The hunter trainer Jen'shan sends the inscribed stone, which is delivered directly by Gornek once you have proven yourself in the Valley of Trials."
+  },
+  {
+   "q": "Where can Jen'shan be found?",
+   "aliases": [
+    "jen'shan location",
+    "where is jenshan",
+    "find jenshan"
+   ],
+   "answer": "Jen'shan is located in the northern area of the Valley of Trials in Durotar, positioned among the other class instructors near the Den."
+  },
+  {
+   "q": "Why do troll trainers teach orc hunters here?",
+   "aliases": [
+    "why troll hunter trainer",
+    "troll teaching orc",
+    "darkspear hunters"
+   ],
+   "answer": "When the orcs arrived on Kalimdor, they were formidable warriors and shamans, but the Darkspear trolls shared their ancient tracking, trapping, and wilderness lore to help both peoples survive the new frontier."
+  },
+  {
+   "q": "What happens after turning in this tablet?",
+   "aliases": [
+    "what next after tablet",
+    "etched tablet reward lore",
+    "jenshan follow up"
+   ],
+   "answer": "Jen'shan accepts you as her student, offering to instruct you in the fundamental techniques, shots, and survival practices required of Horde hunters as you gain experience."
+  },
+  {
+   "q": "What prerequisite must be finished before getting this tablet?",
+   "aliases": [
+    "tablet prereq",
+    "how to unlock etched tablet",
+    "prerequisites for etched tablet"
+   ],
+   "answer": "You must first complete the initial task Cutting Teeth for Gornek by slaying mottled boars to prove your basic endurance."
+  },
+  {
+   "q": "Can any class complete this quest?",
+   "aliases": [
+    "who can get etched tablet",
+    "etched tablet class requirement",
+    "is this hunter only"
+   ],
+   "answer": "No, this quest is specifically for novice hunters starting their journey in the Valley of Trials. Other classes receive their own distinct training summons from Gornek."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This quest marks your official entry into the ranks of Horde hunters, establishing your bond with the wilderness and your local trainer."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Jen'shan takes pride in how Darkspear hunting lore helped ground the Horde on Kalimdor, reaffirming the vital role troll traditions play in the survival of their allies."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For young orcs, receiving the tablet represents learning refined wilderness stalking and tracking from their Darkspear allies, supplementing traditional warrior might."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The exchange between Jen'shan and young recruits demonstrates how the Horde blends the distinct cultural strengths of orcs and trolls to ensure their mutual survival."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "durotar",
+  "etched tablet",
+  "gornek",
+  "hunter",
+  "jen'shan",
+  "valley of trials"
+ ],
+ "related": [
+  "npc:jen-shan",
+  "npc:gornek",
+  "quest:cutting-teeth",
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Etched Tablet (quest)"
+ ]
+}

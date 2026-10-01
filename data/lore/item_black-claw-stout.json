@@ -1,0 +1,91 @@
+{
+ "key": "item:black-claw-stout",
+ "type": "item",
+ "name": "Black Claw Stout",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Black Claw Stout",
+  "quests": [
+   "quest:336"
+  ]
+ },
+ "summary": "Black Claw Stout is a lethal drink prepared by Zardeth of the Black Claw beneath the streets of Stormwind. Concocted under the guise of an ordinary tavern beverage, it serves as an assassination tool directed against an meddlesome nobleman.",
+ "sections": [
+  {
+   "title": "A Toxic Draught",
+   "body": "Behind the shadowy taprooms of the Slaughtered Lamb, warlocks and conspirators lurk just beneath the notice of the Stormwind city guard. When a noble named Lord Wishock repeatedly threatens to shut down their underground operation while hypocritically running up unpaid bar tabs upstairs, Zardeth of the Black Claw decides to settle the score. The Black Claw Stout is crafted specifically to exploit Wishock's weakness for strong drink, carrying a lethal dose disguised as a common tavern refreshment.",
+   "spoiler": 0
+  },
+  {
+   "title": "Quiet Assassination",
+   "body": "Carried directly into Stormwind Keep's Hall of Petitioners, the stout takes advantage of Wishock's pompous arrogance and thirst. Mistaking the delivery for an attentive servant's offering, the noble gladly downs the brew on the spot. The poison acts almost instantly, silencing one of the cult's most persistent and annoying political critics right under the noses of the Royal Court.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Black Claw Stout?",
+   "aliases": [
+    "what is this drink",
+    "black claw stout lore",
+    "poison brew"
+   ],
+   "answer": "It is a deadly, poisoned brew concocted by Zardeth of the Black Claw in the catacombs beneath the Slaughtered Lamb in Stormwind's Mage Quarter."
+  },
+  {
+   "q": "Who is the target of the stout?",
+   "aliases": [
+    "who drinks it",
+    "who dies from black claw stout",
+    "wishock target"
+   ],
+   "answer": "The target is Lord Wishock, a high-handed noble lingering in the Hall of Petitioners who spent his time campaigning to shut down the warlock haven while drinking there on credit."
+  },
+  {
+   "q": "Who created the brew?",
+   "aliases": [
+    "creator of black claw stout",
+    "who made this",
+    "zardeth brew"
+   ],
+   "answer": "It was brewed by Zardeth of the Black Claw, a sinister figure operating out of the crypts beneath the Slaughtered Lamb."
+  },
+  {
+   "q": "What happens when someone drinks it?",
+   "aliases": [
+    "does wishock die",
+    "black claw stout effect"
+   ],
+   "answer": "The brew is instantly fatal. Once Lord Wishock drinks the provided stout, the poison takes immediate effect and kills him where he stands in the Hall of Petitioners."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The brew represents the subtle, cutthroat methods Stormwind's warlock coven employs to remove political threats lurking right under the noses of the city guard."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Carrying the brew through Stormwind Keep exposes how vulnerable the capital's nobles are to covert assassinations orchestrated from within their own city."
+  }
+ ],
+ "keywords": [
+  "black claw stout",
+  "hall of petitioners",
+  "lord wishock",
+  "poison",
+  "slaughtered lamb",
+  "stormwind keep",
+  "zardeth"
+ ],
+ "related": [
+  "quest:335",
+  "npc:zardeth-of-the-black-claw",
+  "quest:397"
+ ],
+ "attribution": [
+  "Black Claw Stout",
+  "A Noble Brew (2)"
+ ]
+}

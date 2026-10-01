@@ -1,0 +1,78 @@
+{
+ "key": "item:spectral-comb",
+ "type": "item",
+ "name": "Spectral Comb",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Spectral Comb",
+  "quests": [
+   "quest:149"
+  ]
+ },
+ "summary": "The Spectral Comb is an ethereal grooming tool used to interact with the restless dead of Duskwood. Fashioned to pass through intangible forms, it is brought to the sorrowful spirit Blind Mary to harvest strands of ghost hair.",
+ "sections": [
+  {
+   "title": "A Tool for Restless Dead",
+   "body": "Normal implements cannot touch or groom a spirit, making gathering ethereal materials nearly impossible for mortal craftsmen. The Spectral Comb is specially suited to interact with ghostly forms, gliding through otherwise intangible tresses. It is carried south of Darkshire to the ruined farmstead where the weeping ghost Blind Mary wails in isolation. Finding solace in the familiar act of grooming her ruined hair, Mary willingly uses the comb, leaving behind the spectral fibers needed to weave Ghost Hair Thread.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Spectral Comb used for?",
+   "aliases": [
+    "spectral comb purpose",
+    "why do i need spectral comb",
+    "what does the comb do"
+   ],
+   "answer": "The comb is given to Blind Mary, a weeping ghost dwelling south of Darkshire. When she uses it to comb her hair, it gathers ethereal strands that can later be spun into supernatural thread."
+  },
+  {
+   "q": "Who is Blind Mary?",
+   "aliases": [
+    "blind mary lore",
+    "who is the ghost with the comb",
+    "blind mary"
+   ],
+   "answer": "Blind Mary is a tormented spirit haunting an abandoned house in the hills south of Darkshire. Driven mad by tragedy, she tore out her own eyes and remains terrified that others find her hideous in death."
+  },
+  {
+   "q": "Why can an ordinary comb not be used?",
+   "aliases": [
+    "why spectral comb",
+    "normal comb ghost"
+   ],
+   "answer": "Spirits cannot be touched by physical mundane tools without specialized magic or enchantments. The Spectral Comb is designed specifically to interact with an apparition's intangible hair."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "The Spectral Comb demonstrates that tailoring in dark places requires unusual harvesting methods, obtaining ethereal fibers from willing ghosts rather than traditional shearing."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Venturing south of Darkshire with the comb serves as a stark reminder of the tragic fates suffered by Duskwood's former homesteaders."
+  }
+ ],
+ "keywords": [
+  "blind mary",
+  "comb",
+  "darkshire",
+  "duskwood",
+  "ghost",
+  "ghost hair thread",
+  "spectral comb"
+ ],
+ "related": [
+  "quest:149",
+  "npc:blind-mary",
+  "zone:duskwood",
+  "subzone:darkshire"
+ ],
+ "attribution": [
+  "Spectral Comb",
+  "Ghost Hair Thread (Classic)"
+ ]
+}

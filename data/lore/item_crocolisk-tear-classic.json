@@ -1,0 +1,76 @@
+{
+ "key": "item:crocolisk-tear-classic",
+ "type": "item",
+ "name": "Crocolisk Tear (Classic)",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Crocolisk Tear (Classic)",
+  "quests": [
+   "quest:278"
+  ]
+ },
+ "summary": "A Crocolisk Tear is a curious alchemical reagent gathered from the crocolisks inhabiting the waters of Loch Modan. It is sought by Chief Engineer Hinderweir to synthesize a neutralizing mixture capable of disarming Dark Iron explosives.",
+ "sections": [
+  {
+   "title": "A Curious Component",
+   "body": "Loch crocolisks are hardy reptiles native to the temperate waters of Loch Modan. While hunters often prize their skins and meat, Chief Engineer Hinderweir discovered an unexpected utility in their secretions. Combined with potent spider venom and resonant ogre minerals, the tear of a crocolisk provides the specific chemical properties needed to counteract volatile Dark Iron demolition charges threatening the Stonewrought Dam.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Crocolisk Tear used for?",
+   "aliases": [
+    "crocolisk tear purpose",
+    "why do i need crocolisk tear",
+    "who wants crocolisk tears"
+   ],
+   "answer": "Chief Engineer Hinderweir at the Stonewrought Dam requires a Crocolisk Tear to formulate a chemical mixture meant to disarm explosives planted by Dark Iron saboteurs."
+  },
+  {
+   "q": "Where can Crocolisk Tears be gathered?",
+   "aliases": [
+    "where do crocolisk tears drop",
+    "crocolisk tear location",
+    "how to get crocolisk tears"
+   ],
+   "answer": "They are collected from Loch Crocolisks and Large Loch Crocolisks that inhabit the waters and shallows of the Loch in Loch Modan."
+  },
+  {
+   "q": "What other materials are combined with the tear?",
+   "aliases": [
+    "hinderweir ingredients",
+    "disarming materials",
+    "what else is needed with crocolisk tear"
+   ],
+   "answer": "Hinderweir pairs the tear with Lurker Venom extracted from local forest spiders and a Mo'grosh Crystal taken from the ogres of the northeastern hills to complete the defusing agent."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Dwarven engineers like Chief Engineer Hinderweir often employ unconventional alchemical compounds to neutralize advanced explosives when conventional tools cannot suffice."
+  }
+ ],
+ "keywords": [
+  "crocolisk tear",
+  "dark iron",
+  "hinderweir",
+  "loch modan",
+  "reagent",
+  "stonewrought dam",
+  "the loch"
+ ],
+ "related": [
+  "quest:161",
+  "subzone:the-loch",
+  "zone:lochmodan",
+  "item:lurker-venom",
+  "item:mo-grosh-crystal"
+ ],
+ "attribution": [
+  "Crocolisk Tear (Classic)",
+  "A Dark Threat Looms (5)"
+ ]
+}

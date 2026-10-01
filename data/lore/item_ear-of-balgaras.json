@@ -1,0 +1,86 @@
+{
+ "key": "item:ear-of-balgaras",
+ "type": "item",
+ "name": "Ear of Balgaras",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Ear of Balgaras",
+  "quests": [
+   "quest:304"
+  ]
+ },
+ "summary": "The Ear of Balgaras serves as grim proof of the death of Balgaras the Foul, a Dark Iron warlock who led the assault on Dun Modr. Recovered from the cowardly commander's corpse, it brings closure to the Ironforge mountaineers defending the northern Wetlands.",
+ "sections": [
+  {
+   "title": "A Grim Trophy",
+   "body": "Dun Modr fell into ruins when Dark Iron invaders sabotaged the Thandol Span and wiped out the local dwarven garrison. Their commander in the field was Balgaras the Foul, a scheming warlock who directed his troops from the shadows while shying away from personal combat. For Longbraid the Grim, the mountain king's officer stationed outside the ruined outpost, justice demanded tangible evidence of the ringleader's fall. Severing Balgaras's ear provides absolute verification that the warlock's reign of terror at the northern border has ended.",
+   "spoiler": 0
+  },
+  {
+   "title": "Justice for the Fallen",
+   "body": "The loss of Dun Modr cost Longbraid his brother along with dozens of stout soldiers who perished during the collapse of the West Bridge. Presenting the warlock's ear does not mend the shattered span or revive the fallen, but it destabilizes the surviving Dark Iron forces scattered through the northern Wetlands. Without Balgaras to direct them, the remaining raiders become far easier for Ironforge's scouts to contain before another commander is sent from the south.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Balgaras the Foul?",
+   "aliases": [
+    "who is balgaras",
+    "balgaras lore",
+    "balgaras the foul"
+   ],
+   "answer": "Balgaras the Foul was a Dark Iron dwarf warlock who commanded the warband that struck Dun Modr and destroyed the West Bridge of the Thandol Span. Notorious for his cowardice, he sent waves of soldiers to die while keeping himself concealed from Alliance patrols."
+  },
+  {
+   "q": "Why does Longbraid the Grim want his ear specifically?",
+   "aliases": [
+    "why an ear",
+    "why cut off the ear",
+    "longbraid proof"
+   ],
+   "answer": "Longbraid the Grim required indisputable proof that the elusive warlock had actually been slain. A severed ear is a classic frontier trophy that verifies the contract without requiring the bearer to drag an entire corpse back to the dwarven camp."
+  },
+  {
+   "q": "What happens to the Dark Irons once Balgaras is dead?",
+   "aliases": [
+    "what happens after balgaras dies",
+    "dark irons in dun modr"
+   ],
+   "answer": "Stripped of their calculating leader, the surviving Dark Iron forces in Dun Modr lose cohesion. While they still haunt the ruins, Longbraid believes they are disorganized enough for the Alliance to manage before Ironforge's enemies can send a replacement commander."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves of Ironforge, claiming this ear settles a bloody score for the kinsmen slaughtered during the sabotage of the Thandol Span."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Balgaras wielded shadow and fel arts from hiding, making his defeat a matter of putting down an errant practitioner who brought ruin to the northern road."
+  }
+ ],
+ "keywords": [
+  "balgaras the foul",
+  "dark iron",
+  "dun modr",
+  "ear of balgaras",
+  "longbraid the grim",
+  "thandol span",
+  "wetlands"
+ ],
+ "related": [
+  "quest:304",
+  "npc:longbraid-the-grim",
+  "subzone:dun-modr",
+  "subzone:thandol-span",
+  "zone:wetlands",
+  "topic:warlock",
+  "quest:631"
+ ],
+ "attribution": [
+  "Ear of Balgaras",
+  "A Grim Task"
+ ]
+}

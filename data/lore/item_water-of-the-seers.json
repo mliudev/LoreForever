@@ -1,0 +1,77 @@
+{
+ "key": "item:water-of-the-seers",
+ "type": "item",
+ "name": "Water of the Seers",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Water of the Seers",
+  "quests": [
+   "quest:772"
+  ]
+ },
+ "summary": "Water of the Seers is a sacred draught given to young tauren undertaking their tribal trials in Bloodhoof Village. Drinking the holy water near the tribal fire opens the mind to the spirit world, summoning an ethereal Plains Vision to guide the pilgrim on their spiritual journey.",
+ "sections": [
+  {
+   "title": "A Vessel for the Spirit",
+   "body": "Prepared by tribal mystics, the Water of the Seers is an essential element of the ancient Rite of Vision. To pierce the veil between physical reality and ancestral guidance, the petitioner must drink the holy water before the central tribal fire in Bloodhoof Village. Once consumed, the potent draught grants spiritual sight, causing a ghostly guide known as the Plains Vision to materialize from the embers and lead the way toward Seer Wiserunner.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happens after drinking the Water of the Seers?",
+   "aliases": [
+    "what does water of the seers do",
+    "drinking water of the seers",
+    "plains vision water"
+   ],
+   "answer": "Ingesting the holy water beside the village's tribal bonfire opens your spiritual senses. Within moments, an ancestral spirit manifested as a ghostly wolf, the Plains Vision, steps forth from the flames to guide your footsteps across Mulgore."
+  },
+  {
+   "q": "Where should the water be consumed?",
+   "aliases": [
+    "where to drink water of the seers",
+    "water of the seers location",
+    "tribal fire location"
+   ],
+   "answer": "The draught must be taken directly before the large tribal fire located in Bloodhoof Village, just north of the local shamanic elders."
+  },
+  {
+   "q": "Who does the vision guide you to?",
+   "aliases": [
+    "where does the wolf go",
+    "plains vision destination",
+    "who is the seer"
+   ],
+   "answer": "The spectral Plains Vision leads the pilgrim northwest into the foothills of Mulgore, arriving at the cave where Seer Wiserunner awaits to interpret your journey."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Water of the Seers is a foundational sacred brew in the education of young shu'halo, bridging ancient shamanic customs with tribal passage into adulthood."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Experiencing the draught's effects offers early insight into commune with the spirit world, demonstrating how ritual substances can thin the veil between physical and ancestral realms."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "plains vision",
+  "rite of vision",
+  "seer wiserunner",
+  "tribal fire",
+  "water of the seers"
+ ],
+ "related": [
+  "quest:767",
+  "subzone:bloodhoof-village",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Water of the Seers",
+  "Rite of Vision (3)"
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "key": "item:etched-sigil",
+ "type": "item",
+ "name": "Etched Sigil",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Etched Sigil",
+  "quests": [
+   "quest:3117"
+  ]
+ },
+ "summary": "An inscribed token delivered to aspiring night elf hunters awakening in Shadowglen. Carried by a woodland runner, it bears a summons from the hunter trainer Ayanna Everstride atop the great bough of Aldrassil.",
+ "sections": [
+  {
+   "title": "Summons of the Wilds",
+   "body": "Carved with the marks of the hunt, the Etched Sigil is handed to newly awakened night elf hunters as they step into Shadowglen. The token serves as an official notice and welcome from Ayanna Everstride, the local hunter trainer residing high within the hollowed boughs of Aldrassil. Instructing the novice to seek her out, the sigil begins a lifelong tutelage in archery, wilderness tracking, and the ancient night elven bond between stalker and beast.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Etched Sigil?",
+   "aliases": [
+    "what does etched sigil do",
+    "etched sigil use",
+    "why do i have this sigil"
+   ],
+   "answer": "The sigil is a direct summons instructing a novice night elf hunter to seek out their trainer, Ayanna Everstride, atop Aldrassil in Shadowglen to begin formal instruction in survival, tracking, and archery."
+  },
+  {
+   "q": "Who sends the Etched Sigil?",
+   "aliases": [
+    "who sent etched sigil",
+    "where did etched sigil come from"
+   ],
+   "answer": "It is crafted and dispatched by Ayanna Everstride, the hunter trainer who watches over fledgling woodland stalkers in Shadowglen."
+  },
+  {
+   "q": "Where should the sigil be taken?",
+   "aliases": [
+    "where do i bring etched sigil",
+    "who do i give etched sigil to"
+   ],
+   "answer": "It must be brought to the upper reaches of the great tree Aldrassil, situated at the heart of Shadowglen, where Ayanna Everstride awaits."
+  },
+  {
+   "q": "Why do night elf hunters receive a sigil rather than a paper letter?",
+   "aliases": [
+    "why a sigil instead of letter",
+    "what is the sigil made of"
+   ],
+   "answer": "Kaldorei traditions favor natural carvings and durable tokens etched with sacred symbols of Elune and the wild over standard parchment, reflecting the nature of the hunter's bond with the forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This inscribed talisman marks the very beginning of a kaldorei hunter's journey to master the bow and the ways of beasts under the guidance of Ayanna Everstride."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Delivered in the secluded canopy of Shadowglen, the sigil honors the ancient traditions of night elven foresters dedicated to safeguarding Teldrassil."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "ayanna everstride",
+  "etched sigil",
+  "hunter",
+  "shadowglen",
+  "teldrassil"
+ ],
+ "related": [
+  "quest:3117",
+  "npc:ayanna-everstride",
+  "subzone:aldrassil",
+  "subzone:shadowglen",
+  "zone:teldrassil",
+  "topic:hunter",
+  "topic:elune"
+ ],
+ "attribution": [
+  "Etched Sigil",
+  "Etched Sigil (Classic)"
+ ]
+}

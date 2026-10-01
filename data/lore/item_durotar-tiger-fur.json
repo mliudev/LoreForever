@@ -1,0 +1,85 @@
+{
+ "key": "item:durotar-tiger-fur",
+ "type": "item",
+ "name": "Durotar Tiger Fur",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Durotar Tiger Fur",
+  "quests": [
+   "quest:817"
+  ]
+ },
+ "summary": "Durotar Tiger Fur is harvested from the fierce tigers roaming the tropical Echo Isles off the southeastern coast of Durotar. The Darkspear trolls rely heavily on these pelts to craft cold-weather blankets, sturdy tents, and durable armor as their refugee population steadily expands.",
+ "sections": [
+  {
+   "title": "A Vital Resource for the Darkspear",
+   "body": "In the crowded settlement of Sen'jin Village, resources are perpetually stretched thin. The Darkspear trolls balance the survival of their people against the fragile ecology of their new home, deliberately allowing local tiger populations to thrive until growing needs demand a cull. The thick, hardy furs of the Durotar tigers are carefully cured to produce everyday survival necessities, from basic protective armor to warm blankets that shield the tribe as seasonal weather shifts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hunting the Echo Isles",
+   "body": "Harvesting these pelts requires crossing open water to the Echo Isles, the lush archipelago south of Durotar that the Darkspear once called home before the witch doctor Zalazane drove them out. Alongside the dangers posed by Zalazane's thralls, stalkers among the thick foliage must contend with the patient, predatory nature of the tigers themselves. Experienced troll hunters like Vel'rin Fang speak of spending entire days motionless in the jungle brush just to secure a single clean kill.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are Durotar tiger furs obtained?",
+   "aliases": [
+    "where do tiger furs drop",
+    "durotar tiger fur location",
+    "how to get tiger furs"
+   ],
+   "answer": "They are collected by hunting Durotar tigers located across the Echo Isles, the archipelago situated off the southeastern coast of Durotar."
+  },
+  {
+   "q": "Why do the trolls of Sen'jin Village need these furs?",
+   "aliases": [
+    "why collect tiger pelts",
+    "who needs tiger fur",
+    "practical prey purpose"
+   ],
+   "answer": "Vel'rin Fang of Sen'jin Village gathers them to supply the growing Darkspear settlement with blankets, tents, and protective leather armor to ensure the tribe does not suffer as seasonal weather changes."
+  },
+  {
+   "q": "Why don't the trolls overhunt the tigers?",
+   "aliases": [
+    "tiger conservation",
+    "cull the flock"
+   ],
+   "answer": "The Darkspear deliberately allow the tiger population to thrive naturally, initiating culls only when community supplies run low and shelter or clothing stocks are overwhelmed by their expanding population."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For the Darkspear, securing tiger hides is a dual reminder of their practical struggle for survival in Sen'jin Village and the painful loss of their rightful homeland on the Echo Isles."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Stalking the tigers of the Echo Isles mirrors classic troll hunting rites, demanding immense patience and camouflage to ambush these stealthy island predators."
+  }
+ ],
+ "keywords": [
+  "durotar tiger",
+  "durotar tiger fur",
+  "echo isles",
+  "practical prey",
+  "sen'jin village",
+  "troll pelt",
+  "vel'rin fang"
+ ],
+ "related": [
+  "quest:817",
+  "subzone:echo-isles",
+  "subzone:sen-jin-village",
+  "zone:durotar",
+  "quest:808",
+  "subzone:razor-hill"
+ ],
+ "attribution": [
+  "Durotar Tiger Fur",
+  "Practical Prey"
+ ]
+}

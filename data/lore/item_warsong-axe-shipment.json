@@ -1,0 +1,93 @@
+{
+ "key": "item:warsong-axe-shipment",
+ "type": "item",
+ "name": "Warsong Axe Shipment",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Warsong Axe Shipment",
+  "quests": [
+   "quest:6571"
+  ]
+ },
+ "summary": "The Warsong Axe Shipment is a heavy crate of newly forged axes waiting on the docks of Booty Bay in Stranglethorn Vale. Ordered by the Warsong Outriders to sustain their harvesting operations in Ashenvale, it serves as a crucial link in the Horde's overseas supply chain.",
+ "sections": [
+  {
+   "title": "A Long Voyage Across the Seas",
+   "body": "Maintaining the logging operations at the Warsong Lumber Camp requires a continuous flow of durable tools that cannot always be forged on the front lines. To keep woodcutters supplied, orders are sent across the Great Sea to the neutral goblin port of Booty Bay. Stored near Wharfmaster Lozgil, this crate contains sharpened axes intended for shipment back to Splintertree Post, highlighting the logistical hurdles the Horde faces in keeping its distant frontier camps armed and functional.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Warsong Axe Shipment located?",
+   "aliases": [
+    "axe shipment location",
+    "where is axe shipment",
+    "booty bay axe crate"
+   ],
+   "answer": "The crate sits directly on the docks of the goblin port of Booty Bay, located at the southern tip of Stranglethorn Vale."
+  },
+  {
+   "q": "Why is a shipment for Ashenvale all the way down in Booty Bay?",
+   "aliases": [
+    "why booty bay",
+    "why is it in stranglethorn",
+    "warsong axes in booty bay"
+   ],
+   "answer": "The Blackwater Raiders and the Steamwheedle Cartel handle merchant shipping across the Great Sea. Booty Bay serves as a major trade nexus connecting distant lands, making it a transit point for bulk hardware and tools ordered by the Horde."
+  },
+  {
+   "q": "Who needs these axes?",
+   "aliases": [
+    "who needs the axes",
+    "who is the shipment for",
+    "locke okarr axes"
+   ],
+   "answer": "Locke Okarr, an outrider stationed at Splintertree Post in Ashenvale, requires them to replenish the dwindling stocks of the Warsong Lumber Camp."
+  },
+  {
+   "q": "Who oversees the delivery in Booty Bay?",
+   "aliases": [
+    "who has the shipment",
+    "wharfmaster lozgil",
+    "booty bay wharfmaster"
+   ],
+   "answer": "Wharfmaster Lozgil oversees maritime cargo along the bustling wharves of Booty Bay, where the shipment rests awaiting transport to Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Procuring this crate is vital to keeping the Warsong Lumber Camp armed and productive despite constant pressure from hostile forces in Ashenvale."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For the Warsong clan, sharp axes mean more timber for the growing foundations of Orgrimmar and Durotar."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "axes",
+  "booty bay",
+  "locke okarr",
+  "splintertree post",
+  "warsong axe shipment",
+  "warsong supplies",
+  "wharfmaster lozgil"
+ ],
+ "related": [
+  "quest:6571",
+  "subzone:booty-bay",
+  "subzone:splintertree-post",
+  "subzone:warsong-lumber-camp",
+  "zone:ashenvale",
+  "zone:stranglethorn",
+  "item:logging-rope",
+  "item:warsong-oil"
+ ],
+ "attribution": [
+  "Warsong Axe Shipment",
+  "Warsong Supplies (quest)"
+ ]
+}

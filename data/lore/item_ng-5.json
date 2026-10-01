@@ -1,0 +1,79 @@
+{
+ "key": "item:ng-5",
+ "type": "item",
+ "name": "NG-5",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "NG-5",
+  "quests": [
+   "quest:1074"
+  ]
+ },
+ "summary": "NG-5 is the shorthand designation for Nitromirglyceronium, a notoriously volatile chemical compound. Procured for the gnome tinkerer Gaxim Rustfizzle in the Stonetalon Mountains, it serves as the essential catalyst for his explosive engineering schemes.",
+ "sections": [
+  {
+   "title": "A Volatile Reagent",
+   "body": "Known formally as Nitromirglyceronium, NG-5 is an exceptionally hazardous chemical solution handled only with extreme caution\u2014or reckless gnomish enthusiasm. Gaxim Rustfizzle, an operative stationed in the Stonetalon Mountains, requires the substance as a critical ignition compound. According to Gaxim, NG-5 provides the exact reaction necessary to detonate entire wagons loaded with dynamite, orchestrating a massive explosion meant to serve as a chaotic distraction against his adversaries in the region.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is NG-5?",
+   "aliases": [
+    "what is ng5",
+    "what is nitromirglyceronium",
+    "ng 5 item"
+   ],
+   "answer": "NG-5 stands for Nitromirglyceronium, a highly unstable and volatile chemical concoction used primarily as an explosive ignition reagent in advanced demolition and gnomish engineering."
+  },
+  {
+   "q": "Who wants NG-5 and why?",
+   "aliases": [
+    "who needs ng-5",
+    "gaxim rustfizzle ng-5",
+    "why get ng5"
+   ],
+   "answer": "The gnome engineer Gaxim Rustfizzle in the Stonetalon Mountains requires the chemical. It serves as the vital component needed to reliably ignite several wagons packed full of dynamite, intended as a spectacular distraction."
+  },
+  {
+   "q": "Is NG-5 dangerous to handle?",
+   "aliases": [
+    "is ng5 safe",
+    "ng-5 explosive",
+    "will ng5 blow up"
+   ],
+   "answer": "Extremely dangerous. The supplier warns couriers to handle the compound with absolute care, joking that anyone who is not an ally of Gaxim will likely end up blowing themselves to pieces."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will recognize NG-5 as Nitromirglyceronium, a temperamental chemical catalyst prized by tinkers when ordinary black powder lacks the punch needed to ignite heavy ordinance."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Using an unstable chemical solution to blow up whole wagons of dynamite for a simple distraction is classic, high-risk gnomish problem-solving at its finest."
+  }
+ ],
+ "keywords": [
+  "dynamite",
+  "explosives",
+  "gaxim rustfizzle",
+  "gnome",
+  "ng-5",
+  "ng5",
+  "nitromirglyceronium",
+  "stonetalon"
+ ],
+ "related": [
+  "quest:1073",
+  "npc:gaxim-rustfizzle",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "NG-5",
+  "Ineptitude + Chemicals = Fun (2)"
+ ]
+}

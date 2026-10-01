@@ -1,0 +1,118 @@
+{
+ "key": "quest:1462",
+ "type": "quest",
+ "name": "Earth Sapta",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   1462
+  ],
+  "level": "4",
+  "faction": "Horde",
+  "start": "Seer Ravenfeather",
+  "end": "",
+  "previous": "Call of Earth (Mulgore)",
+  "next": null,
+  "wiki": "Earth Sapta (Mulgore)",
+  "chain": []
+ },
+ "summary": "Earth Sapta is a replenishment ritual offered by Seer Ravenfeather in Camp Narache. Young shaman undertaking their initiation to commune with the spirits of the stone require this draught to open their inner sight. Should a novice lose or spill their prepared brew before finishing their rite, the seer prepares another to ensure their trial may continue.",
+ "sections": [
+  {
+   "title": "A Visionary Draught",
+   "body": "The path of the shaman begins with attuning the mortal senses to forces beyond physical sight. To perceive the elemental spirits of the land, an initiate must ingest a potent ritual brew known as a sapta. Infused with natural essences bound to the element of stone and soil, the Earth Sapta lifts the veil between the physical realm and the spiritual plane, allowing a novice to commune directly with the earth elementals of Mulgore.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Second Chance at Sight",
+   "body": "The spiritual arts demand discipline, but seasoned seers recognize that young initiates often falter or misplace sacred reagents while braving the wilds. Seer Ravenfeather keeps a steady vigil at Camp Narache, ensuring that any pupil who loses their brew before their communion at the stone monument can renew their preparation. With quiet patience, she provides another vessel so the novice may face the spirits unbroken.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is an Earth Sapta?",
+   "aliases": [
+    "what is sapta",
+    "earth sapta lore",
+    "what does the brew do"
+   ],
+   "answer": "An Earth Sapta is a sacred herbal preparation brewed by shamanic elders. When drunk by an initiate, it awakens their inner senses, granting them the spiritual sight required to perceive and commune with earth elementals that are otherwise invisible to ordinary eyes."
+  },
+  {
+   "q": "Why would an initiate need another Earth Sapta?",
+   "aliases": [
+    "lost my sapta",
+    "why get another sapta",
+    "lost earth sapta"
+   ],
+   "answer": "Trainees undertaking their trials in the wilds sometimes lose, spill, or consume their draught prematurely before reaching the designated sacred site. Seer Ravenfeather provides another dose so their spiritual training is not permanently halted by a simple mistake."
+  },
+  {
+   "q": "Who is Seer Ravenfeather?",
+   "aliases": [
+    "who is ravenfeather",
+    "seer ravenfeather lore",
+    "camp narache seer"
+   ],
+   "answer": "Seer Ravenfeather is a tauren spiritual guide stationed at Camp Narache in Mulgore. She oversees the earliest trials of young tauren shaman, guiding them through their first communion with the spirits of the earth."
+  },
+  {
+   "q": "Why must shaman drink a sapta to see elementals?",
+   "aliases": [
+    "why need a potion to see spirits",
+    "why drink sapta"
+   ],
+   "answer": "Novice shaman have not yet honed their innate bond with the elements to perceive them at will. The sapta acts as a bridge, altering the drinker's spiritual perception until they learn to listen and commune with the elements through their own power."
+  },
+  {
+   "q": "Where does the trial of the Earth Sapta take place?",
+   "aliases": [
+    "where do i use sapta",
+    "call of earth location"
+   ],
+   "answer": "The ritual trial is conducted in the hills of Red Cloud Mesa in Mulgore, near Camp Narache. Novices carry the draught to a sacred stone monument where the local earth spirits dwell."
+  },
+  {
+   "q": "Do all shaman use saptas?",
+   "aliases": [
+    "do orcs use saptas",
+    "are saptas only tauren"
+   ],
+   "answer": "Both tauren and orcish shamanic traditions employ saptas during their initial elemental initiations. Each element\u2014earth, fire, water, and air\u2014traditionally possesses its own unique brew to help align the shaman's senses to that specific elemental plane."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The sapta is the foundational tool of your early training, serving as the spiritual catalyst that first opens your eyes to the elemental forces guiding the world."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Honoring the Earth Mother begins with learning to hear the land, and the elders of Camp Narache take great care to ensure no youth is turned away from the sacred path."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde's reliance on shamanic traditions is nurtured in places like Mulgore, where tribal seers patiently cultivate the next generation of spiritual leaders."
+  }
+ ],
+ "keywords": [
+  "call of earth",
+  "camp narache",
+  "draught",
+  "earth sapta",
+  "elemental",
+  "mulgore",
+  "seer ravenfeather",
+  "shaman"
+ ],
+ "related": [
+  "npc:seer-ravenfeather",
+  "quest:1516",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Earth Sapta (Mulgore)"
+ ]
+}

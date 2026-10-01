@@ -1,0 +1,123 @@
+{
+ "key": "quest:380",
+ "type": "quest",
+ "name": "Night Web's Hollow",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   380
+  ],
+  "level": "4",
+  "faction": "Horde",
+  "start": "Executor Arren",
+  "end": "",
+  "previous": "The Damned (Classic)",
+  "next": "The Scarlet Crusade (quest)",
+  "wiki": "Night Web's Hollow (Classic)",
+  "chain": []
+ },
+ "summary": "Night Web's Hollow is an early assignment from Executor Arren to clear out the spiders infesting a nearby gold mine northwest of Deathknell. Facing critical shortages of raw materials, the fledgling Forsaken need the mine's wealth to sustain their settlement and war effort. Newly risen recruits are sent into the tangled cavern to cull the arachnid infestation piece by piece.",
+ "sections": [
+  {
+   "title": "A Nation in Need of Coin",
+   "body": "Survival for the newly risen Forsaken involves more than just defending against the Scourge and Scarlet crusaders. Building a fledgling society requires raw resources, and precious metals like gold were scarce in northern Lordaeron even at the height of the Alliance's strength. Executor Arren, overseeing operations in Deathknell, recognizes that the Forsaken cannot hope to arm, equip, and establish themselves without secured wealth.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Infested Mine",
+   "body": "Directly northwest of the cemetery grounds lies Night Web's Hollow, a natural cavern containing a viable gold vein. Unfortunately, monstrous arachnids have overrun the tunnels, filling the depths with thick webbing and deadly venom. Lacking the seasoned troops to conduct a full-scale purge, Arren relies on fresh recruits to whittle down the young and adult spiders until mining crews can eventually burn away the webs and extract the ore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do the undead need a gold mine?",
+   "aliases": [
+    "why do forsaken need gold",
+    "why gold in deathknell",
+    "undead gold mine"
+   ],
+   "answer": "Even in undeath, the Forsaken must fund their war effort, pay for supplies, and rebuild settlements across Tirisfal Glades. Lordaeron always struggled with scarce natural resources, and establishing a new realm independent of both the Alliance and the Scourge requires valuable currency to trade and procure equipment."
+  },
+  {
+   "q": "Who is Executor Arren?",
+   "aliases": [
+    "executor arren lore",
+    "who gives night webs hollow",
+    "arren role"
+   ],
+   "answer": "Executor Arren is the ranking military authority in Deathknell. Tasked with organizing newly risen undead and securing the immediate perimeter, he directs recruits toward essential tasks like hunting Scourge remnants, gathering supplies, and opening up local resources."
+  },
+  {
+   "q": "Where is Night Web's Hollow located?",
+   "aliases": [
+    "where is night webs hollow",
+    "spider cave deathknell",
+    "night web mine location"
+   ],
+   "answer": "The hollow is situated just northwest of the main settlement and graveyard of Deathknell, nestled in the rocky bluffs that frame the secluded valley in Tirisfal Glades."
+  },
+  {
+   "q": "Are the Forsaken able to mine the gold immediately after this quest?",
+   "aliases": [
+    "is the mine cleared",
+    "do they get the gold",
+    "what happens to the spiders"
+   ],
+   "answer": "Not right away. Executor Arren notes that completely eradicating the infestation will take weeks or months of sustained effort, followed by crews using torches to burn out the pervasive webbing before miners can safely excavate the veins."
+  },
+  {
+   "q": "Why doesn't Arren send a full detachment of soldiers to clear the cave?",
+   "aliases": [
+    "why send recruits",
+    "why not use deathknell guards",
+    "arren lack of manpower"
+   ],
+   "answer": "Deathknell's garrison is stretched thin guarding against mindless Scourge prowling the outskirts and patrolling against Scarlet Crusade scouts. Arren simply lacks the spare manpower to commit a regular squad to pest control, leaving it to newly risen recruits to clear the mine bit by bit."
+  },
+  {
+   "q": "Can spider venom harm the undead?",
+   "aliases": [
+    "does venom hurt undead",
+    "forsaken spider poison",
+    "are forsaken immune to poison"
+   ],
+   "answer": "While the Forsaken do not bleed or breathe like the living, caustic spider venom can still burn through preserved flesh and weaken reanimated limbs. Executor Arren specifically warns recruits to watch for sharp burning from venom and seek treatment if afflicted."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "This task highlights the harsh reality facing Lordaeron's reclaimed dead: survival requires securing mundane materials like metal and coin, not just seeking vengeance against the living and the Scourge."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The cavern represents one of Deathknell's few nearby sources of gold ore, though the thick webs and predatory spiders make prospecting perilous."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Establishing secured resources in Tirisfal Glades is critical for cementing the Forsaken's position as a reliable northern bastion for the Horde."
+  }
+ ],
+ "keywords": [
+  "deathknell",
+  "executor arren",
+  "forsaken",
+  "gold mine",
+  "night web spider",
+  "night web's hollow",
+  "tirisfal glades",
+  "undercity"
+ ],
+ "related": [
+  "subzone:deathknell",
+  "npc:executor-arren",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Night Web's Hollow (Classic)"
+ ]
+}

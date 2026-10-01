@@ -1,0 +1,107 @@
+{
+ "key": "item:the-lich-s-spellbook",
+ "type": "item",
+ "name": "The Lich's Spellbook",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "The Lich's Spellbook",
+  "quests": [
+   "quest:357"
+  ]
+ },
+ "summary": "The Lich's Spellbook is a volume of necromantic lore kept within a chest on the island in Brightwater Lake. Recovered for Bethor Iceshard in the Undercity, the tome reveals the true identity and immense magical power of a reclusive undead lich dwelling just north of the Forsaken capital.",
+ "sections": [
+  {
+   "title": "A Reclusive Master's Tomes",
+   "body": "On an isolated island in Brightwater Lake stands an enigmatic lich surrounded by skeletal guardians. Though free-willed, this sorcerer distrusts the outside world, mistaking all other undead for thralls of the Scourge and ordering his minions to destroy any who approach. Bethor Iceshard, seeking gifted necromancers to bolster the Forsaken ranks beneath Queen Sylvanas Windrunner, tasked an emissary with infiltrating the island camp to retrieve the lich's spellbook. Through its study, Bethor hoped to discern the master's magical aptitude and uncover who he was before death took Lordaeron.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unmasking Gunther Arcanus",
+   "body": "Upon opening the glowing pages of the recovered spellbook, Bethor Iceshard made an astonishing discovery: the recluse was his old friend and comrade-in-arms from before the Third War, Gunther Arcanus. Already a prodigy in necromancy in life, Gunther's writings revealed that his arts had grown even more formidable in undeath. Bethor recognized that securing Gunther's allegiance would grant the Forsaken an invaluable master of the dark arts, provided someone could convince the suspicious lich that the Forsaken are truly free from the Lich King's grip.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Lich's Spellbook found?",
+   "aliases": [
+    "where is the book",
+    "spellbook location",
+    "gunther's books"
+   ],
+   "answer": "The spellbook rests inside a container named Gunther's Books, situated in the encampment on the central island of Brightwater Lake in northern Tirisfal Glades."
+  },
+  {
+   "q": "Who owns this spellbook?",
+   "aliases": [
+    "whose book is this",
+    "lich identity",
+    "who wrote the spellbook"
+   ],
+   "answer": "The book belongs to Gunther Arcanus, a former human necromancer from Dalaran who broke free of the Scourge's control through his own sheer willpower and now dwells in seclusion as a lich."
+  },
+  {
+   "q": "Why does Bethor Iceshard want the book?",
+   "aliases": [
+    "why get the book",
+    "bethor quest reason",
+    "why does undercity want this"
+   ],
+   "answer": "Bethor Iceshard sought the book to deduce the mysterious lich's identity and evaluate his mastery of necromancy, hoping to recruit the recluse into the service of Lady Sylvanas and the Forsaken."
+  },
+  {
+   "q": "Why does the lich attack visitors to his island?",
+   "aliases": [
+    "why is gunther hostile",
+    "why do minions attack",
+    "brightwater lake hostile"
+   ],
+   "answer": "The lich believes all other undead in the region remain mind-controlled slaves of the Scourge. Paralyzed by suspicion, he commands his minions to attack anyone venturing near his sanctum."
+  },
+  {
+   "q": "What relation does Bethor Iceshard have to the author?",
+   "aliases": [
+    "did bethor know gunther",
+    "gunther and bethor",
+    "bethor friend"
+   ],
+   "answer": "Bethor and Gunther were close friends and comrades-in-arms before the plague ravaged Lordaeron, though Bethor did not realize the lake's lich was Gunther until deciphering the spellbook's pages."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The tome proves that not all who broke free from the Lich King joined the Forsaken immediately, highlighting the lingering distrust among rogue undead survivors scattered across Tirisfal."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The spellbook represents an extraordinary bridge between classic Dalaran wizardry and dark necromancy, showing how mortal spellcasters dramatically expanded their craft after succumbing to undeath."
+  }
+ ],
+ "keywords": [
+  "bethor iceshard",
+  "brightwater lake",
+  "gunther arcanus",
+  "lich",
+  "necromancy",
+  "spellbook",
+  "tirisfal glades",
+  "undercity"
+ ],
+ "related": [
+  "quest:357",
+  "npc:gunther-arcanus",
+  "npc:bethor-iceshard",
+  "subzone:brightwater-lake",
+  "zone:tirisfal",
+  "zone:undercity",
+  "topic:forsaken",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "The Lich's Spellbook",
+  "The Lich's Identity"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "item:dragonmaw-war-banner",
+ "type": "item",
+ "name": "Dragonmaw War Banner",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Dragonmaw War Banner",
+  "quests": [
+   "quest:464"
+  ]
+ },
+ "summary": "Dragonmaw War Banners are rallying standards carried by the Dragonmaw orcs entrenched in the Wetlands. Stamped with the iconography of their clan, they serve as proof of battle for the dwarven defenders of Menethil Harbor seeking to quell the rising orcish threat.",
+ "sections": [
+  {
+   "title": "Emblems of an Enduring Threat",
+   "body": "Following the Second War, the Dragonmaw clan was shattered after losing control of their enslaved red dragons. The enraged drakes turned on their captors, driving the survivors out of Grim Batol and into the eastern hills. In recent times, the remaining orcs have begun gathering strength once more under Chieftain Nek'rosh, raising their war banners over encampments northeast of Menethil Harbor. These crude, imposing standards represent both their lingering defiance and a direct menace to the marshland settlements.",
+   "spoiler": 0
+  },
+  {
+   "title": "Proof of Conquest",
+   "body": "Captain Stoutfist, stationed at Menethil Harbor, tasks Alliance adventurers with striking into the marsh encampments to bring back these banners. Trophies stripped from raiders, centurions, and bone-warders, the banners confirm to the dwarven garrison that the Dragonmaw encampments are being systematically broken before the clan can launch coordinated raids.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Captain Stoutfist want these banners?",
+   "aliases": [
+    "why collect banners",
+    "war banners purpose",
+    "why stoutfist wants banners"
+   ],
+   "answer": "Captain Stoutfist wants the banners as tangible proof that adventurers have attacked the Dragonmaw encampment northeast of Menethil Harbor, confirming their ranks have been culled."
+  },
+  {
+   "q": "Who carries the Dragonmaw War Banners?",
+   "aliases": [
+    "who drops dragonmaw banner",
+    "where to get war banners",
+    "which orcs have banners"
+   ],
+   "answer": "The banners are carried by various Dragonmaw combatants across their encampments in the Wetlands, including raiders, swamprunners, centurions, battlemasters, shadowwarders, bonewarders, and Chieftain Nek'rosh himself."
+  },
+  {
+   "q": "Why are the Dragonmaw orcs in the Wetlands?",
+   "aliases": [
+    "why are dragonmaw here",
+    "wetlands dragonmaw history",
+    "dragonmaw lore"
+   ],
+   "answer": "Near the end of the Second War, the Dragonmaw lost control of their captive red dragons. The freed dragons violently hunted their former masters, forcing the surviving orcs to flee their stronghold at Grim Batol and scatter into the wetlands and surrounding mountains."
+  },
+  {
+   "q": "Who leads the Dragonmaw clan now?",
+   "aliases": [
+    "dragonmaw leader",
+    "who is nek'rosh",
+    "chieftain nek'rosh"
+   ],
+   "answer": "The clan is led by Chieftain Nek'rosh, the son of their former chieftain Nekros. Nek'rosh has sworn vengeance against the red dragons who turned upon and killed his father."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For the dwarves of Khaz Modan, clearing Dragonmaw banners from the marsh is crucial to keeping the trade corridors to Menethil Harbor secure from orcish raiding parties."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Stripping banners from the Dragonmaw weakens an old enemy of the Alliance before they can rebuild the terrible strength they wielded during the Second War."
+  }
+ ],
+ "keywords": [
+  "dragonmaw",
+  "grim batol",
+  "menethil",
+  "nek'rosh",
+  "stoutfist",
+  "war banner",
+  "wetlands"
+ ],
+ "related": [
+  "quest:464",
+  "npc:captain-stoutfist",
+  "zone:wetlands",
+  "subzone:grim-batol",
+  "topic:second-war"
+ ],
+ "attribution": [
+  "Dragonmaw War Banner",
+  "War Banners"
+ ]
+}

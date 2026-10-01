@@ -8,11 +8,11 @@
   "wiki": "Feegly the Exiled",
   "refs": 1
  },
- "summary": "Feegly the Exiled is an outcast found lurking near the dwarven excavation at Bael Modan in the southern Barrens. Once praised as one of the expedition's finest diggers, his obsession with an uncovered relic led to his banishment and a grotesque physical affliction.",
+ "summary": "Feegly the Exiled is an outcast dwarf found lurking near the dwarven excavation at Bael Modan in the southern Barrens. Once praised as one of the expedition's finest diggers, his obsession with an uncovered relic led General Twinbraid to drive him off.",
  "sections": [
   {
    "title": "A Digger's Ruin",
-   "body": "Before his exile, Feegly was regarded as one of the premier excavators within Bael Modan. While delving deep into the earth beneath the Barrens, he discovered a mysterious, potent artifact known as the Tear of the Moons. His prolonged proximity to the strange relic wrought an unnatural transformation upon him, warping his dwarven flesh until he resembled a hideous, hunched trogg. Driven from his kin and stripped of his place among the Alliance expedition, he now broods alone, desperate to reclaim the very gem that doomed him.",
+   "body": "Before his exile, Feegly was regarded as one of the premier excavators within Bael Modan. The Tear of the Moons was the first great discovery made at the dig, and Feegly claimed its power as his own. General Twinbraid called the gem cursed, locked it away in Bael'dun Keep and drove Feegly off. He now broods alone, desperate to reclaim the very gem that dooms him: when he finally holds it again, the Tear shatters and he twists into a hideous, hunched trogg.",
    "spoiler": 1
   }
  ],
@@ -24,7 +24,7 @@
     "why is feegly mutated",
     "feegly trogg form"
    ],
-   "answer": "Feegly was originally an ordinary dwarven excavator. Prolonged exposure to a powerful unearthed artifact known as the Tear of the Moons warped his body, turning him into a trogg-like mutant."
+   "answer": "Feegly is a dwarf, an exiled excavator from the Bael Modan dig who covets a relic known as the Tear of the Moons."
   },
   {
    "q": "Why was Feegly exiled from Bael Modan?",
@@ -33,7 +33,7 @@
     "what did feegly do",
     "feegly banishment"
    ],
-   "answer": "His obsession with the Tear of the Moons and his subsequent physical mutation led the superstitious and disgusted dwarves of Bael Modan to cast him out of their dig site."
+   "answer": "Feegly grew obsessed with the Tear of the Moons, the first great discovery at Bael Modan. General Twinbraid called the gem cursed, locked it away in Bael'dun Keep and drove Feegly off."
   },
   {
    "q": "Why is Feegly willing to talk to Horde adventurers?",
@@ -50,13 +50,13 @@
     "feegly gem",
     "feegly artifact"
    ],
-   "answer": "The Tear of the Moons is a mysterious, potent relic buried deep beneath the Barrens. Feegly unearthed it during his digs, and its strange emanations caused his tragic transformation."
+   "answer": "The Tear of the Moons is a gem the excavators uncovered at Bael Modan, their first great discovery there. Feegly claims it gave him power, but General Twinbraid deemed it cursed and locked it away in Bael'dun Keep."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, Feegly is a tragic and terrifying warning: an accomplished digger whose reckless contact with ancient, unearthed relics cost him his very dwarven heritage."
+   "text": "For dwarves, Feegly is a tragic and terrifying warning: an accomplished digger whose obsession with an unearthed relic cost him his place among his kin."
   },
   {
    "target": "faction:Horde",

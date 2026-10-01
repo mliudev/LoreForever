@@ -1,0 +1,82 @@
+{
+ "key": "item:ivar-s-head",
+ "type": "item",
+ "name": "Ivar's Head",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Ivar's Head",
+  "quests": [
+   "quest:425"
+  ]
+ },
+ "summary": "Ivar's Head is the gruesome proof of the destruction of the ravenous ghoul Ivar the Foul in Silverpine Forest. It is sought by the Deathstalker Rane Yorick to ensure safe recovery for his wounded brother Quinn.",
+ "sections": [
+  {
+   "title": "A Severed Threat",
+   "body": "While scouting northern Silverpine Forest on the orders of High Executor Hadrec, the Forsaken Deathstalkers Rane and Quinn Yorick were ambushed at an abandoned farmstead by a feral ghoul known as Ivar the Foul. Though the brothers managed to fend off the fiend, Quinn was severely mauled in the confrontation. Stranded at the ruined farm while his brother recovered, Rane could not safely leave Quinn unattended to complete their mission. Severing Ivar's head provides definitive proof that the beast will never terrorize the estate again, granting Quinn the necessary time to recuperate under Rane's watchful eye.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Whose head is this?",
+   "aliases": [
+    "who is ivar",
+    "ivar head identity",
+    "what is ivar"
+   ],
+   "answer": "The head belonged to Ivar the Foul, a savage ghoul haunting the abandoned farmstead known as the Ivar Patch in northern Silverpine Forest."
+  },
+  {
+   "q": "Why does Rane Yorick want Ivar's head?",
+   "aliases": [
+    "why rane wants head",
+    "ivar head turn in",
+    "why kill ivar"
+   ],
+   "answer": "Rane requires physical proof that Ivar is destroyed. His brother Quinn was badly mauled by the creature and needs time to heal without fear of another ambush before they can report back to High Executor Hadrec."
+  },
+  {
+   "q": "Where was Ivar the Foul found?",
+   "aliases": [
+    "ivar location",
+    "where is ivar"
+   ],
+   "answer": "Ivar the Foul lurks inside the dilapidated barn at the Ivar Patch, watching and waiting for the wounded Deathstalkers to let their guard down."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For Forsaken scouts, wild ghouls are mindless liabilities that disrupt military reconnaissance and threaten the nascent security of Lordaeron."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Eliminating rogue Scourge remnants like Ivar protects traveling Horde couriers moving through northern Silverpine toward the Sepulcher."
+  }
+ ],
+ "keywords": [
+  "deathstalkers",
+  "ivar patch",
+  "ivar the foul",
+  "ivar's head",
+  "quinn yorick",
+  "rane yorick",
+  "silverpine forest"
+ ],
+ "related": [
+  "quest:425",
+  "subzone:ivar-patch",
+  "quest:430",
+  "quest:428",
+  "quest:429",
+  "npc:high-executor-hadrec",
+  "zone:silverpine",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Ivar's Head",
+  "Ivar the Foul (quest)"
+ ]
+}

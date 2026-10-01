@@ -1,0 +1,90 @@
+{
+ "key": "item:vial-of-innocent-blood",
+ "type": "item",
+ "name": "Vial of Innocent Blood",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Vial of Innocent Blood",
+  "quests": [
+   "quest:1066"
+  ]
+ },
+ "summary": "A Vial of Innocent Blood is a grim alchemical reagent gathered by Syndicate shadow mages lurking in the ruins of Durnholde Keep. Sought after by the Royal Apothecary Society in Tarren Mill, it serves as a key catalyst in brewing experimental toxins.",
+ "sections": [
+  {
+   "title": "A Gruesome Reagent",
+   "body": "Within the crumbled walls of Durnholde Keep, the fallen human nobles of the Syndicate practice dark and unsavory arts. Among them are shadow mages who systematically harvest the blood of innocents for their own occult rituals. This macabre practice has drawn the keen attention of Apothecary Lydon in Tarren Mill. Needing untainted blood to brew an experimental pacifying agent meant to neutralize the Venture Company in Stonetalon Mountains, the Forsaken apothecary sees the Syndicate's grim stores as a convenient shortcut for his work.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Vial of Innocent Blood used for?",
+   "aliases": [
+    "innocent blood use",
+    "what is vial of innocent blood for",
+    "blood of innocents use"
+   ],
+   "answer": "Apothecary Lydon in Tarren Mill uses the blood to brew a specialized toxin intended to suppress aggression in the Venture Company operators causing trouble for the Horde in the Stonetalon Mountains."
+  },
+  {
+   "q": "Who carries these vials?",
+   "aliases": [
+    "who drops vial of innocent blood",
+    "where to get innocent blood",
+    "syndicate shadow mages"
+   ],
+   "answer": "They are carried by Syndicate shadow mages stationed around the ruined fortress of Durnholde Keep in the southeastern Hillsbrad Foothills."
+  },
+  {
+   "q": "Why do Syndicate shadow mages have innocent blood?",
+   "aliases": [
+    "why do syndicate have blood",
+    "syndicate blood rituals"
+   ],
+   "answer": "The human brigands and fallen nobles of the Syndicate employ shadow casters who harvest and preserve the blood of innocents for their own dark, unsavory magical experiments."
+  },
+  {
+   "q": "Why does Apothecary Lydon need blood from innocents?",
+   "aliases": [
+    "why innocent blood",
+    "apothecary lydon blood"
+   ],
+   "answer": "Lydon notes that blood from the innocent possesses specific, rare properties required to formulate a concoction capable of bleeding violence from its victims and rendering them docile."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Royal Apothecary Society rarely shrinks from morally questionable ingredients, happily scavenging from human outlaws to further their alchemical advances."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing this reagent aids the Horde's wider territorial efforts against Venture Company deforestation in Stonetalon."
+  }
+ ],
+ "keywords": [
+  "apothecary lydon",
+  "durnholde keep",
+  "hillsbrad foothills",
+  "innocent blood",
+  "syndicate shadow mage",
+  "tarren mill",
+  "vial of innocent blood"
+ ],
+ "related": [
+  "quest:1066",
+  "subzone:durnholde-keep",
+  "subzone:tarren-mill",
+  "topic:syndicate",
+  "zone:hillsbrad",
+  "topic:venture-company",
+  "topic:horde",
+  "topic:mage"
+ ],
+ "attribution": [
+  "Vial of Innocent Blood",
+  "Blood of Innocents (quest)"
+ ]
+}

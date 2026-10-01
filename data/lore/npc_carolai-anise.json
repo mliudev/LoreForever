@@ -1,0 +1,75 @@
+{
+ "key": "npc:carolai-anise",
+ "type": "npc",
+ "name": "Carolai Anise",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Carolai Anise",
+  "refs": 1
+ },
+ "summary": "Carolai Anise is an eccentric Forsaken alchemist residing in the village of Brill in Tirisfal Glades. She trains novice apothecaries and herbalists, though her hazardous concoctions have drawn nervous murmurs from local guards.",
+ "sections": [
+  {
+   "title": "A Volatile Craft",
+   "body": "Operating out of Brill, Carolai Anise devotes her unlife to the volatile art of alchemy. While many Forsaken researchers operate under the Royal Apothecary Society's grim mandate, Carolai pursues her own strange brews right inside the settlement. Her unpredictable experiments and smoking retorts are notorious enough that the Deathguards keeping watch over Brill openly grumble that she seems bent on blowing up her own house.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Carolai Anise?",
+   "aliases": [
+    "carolai anise",
+    "brill alchemist",
+    "who is carolai"
+   ],
+   "answer": "Carolai Anise is an undead alchemy trainer living in the settlement of Brill in Tirisfal Glades. She teaches aspiring Forsaken how to brew potions, elixirs, and oils."
+  },
+  {
+   "q": "Where can I find her?",
+   "aliases": [
+    "where is carolai anise",
+    "carolai anise location",
+    "where is brill alchemy trainer"
+   ],
+   "answer": "She can be found in Brill, the primary Forsaken town in central Tirisfal Glades, working around her alchemy supplies inside one of the town's buildings."
+  },
+  {
+   "q": "Why do the Deathguards complain about her?",
+   "aliases": [
+    "deathguards on carolai",
+    "blowing up house",
+    "carolai anise danger"
+   ],
+   "answer": "Local Deathguards warn that Carolai's unstable alchemy experiments are an accident waiting to happen, often joking or fretting that she will eventually blow up her entire house."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For newly liberated Forsaken learning to manipulate reagents, Carolai provides the basic foundations of alchemical craft in Tirisfal Glades."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Gatherers harvesting wild flora throughout Tirisfal often bring peacebloom, silverleaf, and earthroot to Carolai to be refined into potent mixtures."
+  }
+ ],
+ "keywords": [
+  "alchemy",
+  "apothecary",
+  "brill",
+  "carolai anise",
+  "forsaken trainer",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:brill",
+  "zone:tirisfal",
+  "quest:95314",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Carolai Anise"
+ ]
+}

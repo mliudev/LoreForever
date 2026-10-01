@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Crossroads of Boughs",
-   "body": "Resting beneath the lush canopy southwest of Shadowglen, Dolanaar serves as a vital crossway for travelers traversing Teldrassil. Built in the traditional night elven manner, its homes and platforms sit seamlessly woven into the woodland. The village provides newcomers with their first comprehensive training in trades, martial arts, and nature crafts, as well as a direct hippogryph connection to the capital city of Darnassus. Because of its central location, reports of corrupted wildlife, aggressive furbolgs, and foul mosses from the surrounding boughs inevitably find their way into Dolanaar's council.",
+   "body": "Resting beneath the lush canopy southwest of Shadowglen, Dolanaar serves as a vital crossway for travelers traversing Teldrassil. Built in the traditional night elven manner, its homes and platforms sit seamlessly woven into the woodland. The village provides newcomers with their first comprehensive training in trades, martial arts, and nature crafts, and sits on the road to the capital city of Darnassus. Because of its central location, reports of corrupted wildlife, aggressive furbolgs, and foul mosses from the surrounding boughs inevitably find their way into Dolanaar's council.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "flight master dolanaar",
     "dolanaar to darnassus"
    ],
-   "answer": "Dolanaar maintains a flight path serviced by night elf hippogryphs, allowing travelers to quickly fly directly to Darnassus without navigating the overland paths."
+   "answer": "Dolanaar has no flight path of its own. Travelers follow the forest road west through Teldrassil to reach the gates of Darnassus on foot."
   },
   {
    "q": "What threats affect Dolanaar?",

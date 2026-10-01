@@ -1,0 +1,98 @@
+{
+ "key": "item:talisman-of-corruption",
+ "type": "item",
+ "name": "Talisman of Corruption",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Talisman of Corruption",
+  "quests": [
+   "quest:4763"
+  ]
+ },
+ "summary": "The Talisman of Corruption is a vile demonic trinket used by the satyr Xabraxxis to poison the minds of Darkshore's Blackwood furbolgs. Carried within the satyr's personal pouch, it serves as a magical conduit that binds the tribe to fel madness.",
+ "sections": [
+  {
+   "title": "A Conduit of Madness",
+   "body": "The night elves of Auberdine have long struggled to understand why the Blackwood furbolgs turned so aggressively upon their former allies. Thundris Windweaver discovered that the tribe's downfall was not a natural descent, but deliberate sabotage orchestrated by the satyrs. Using talismans like this one, demonic agents project corrupting sorcery across the wilderness, tainting food supplies and twisting peaceful forest spirits into frenzied beasts. By channeling fell magics directly through these devices, the satyrs hold an unbroken grip over the minds and wills of the local tribes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Breaking the Grip",
+   "body": "To draw out the satyr responsible, adventurers must purify samples of the furbolgs' food using blessed moonwell water, cleansing the camp long enough to enrage its overseer. Slaying Xabraxxis breaks his immediate hold and yields his demon bag, inside which the talisman rests. Delivering the talisman to Thundris Windweaver in Auberdine allows the Kaldorei to neutralize its foul emanations and study how to permanently undo the demonic affliction plaguing the forest.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Talisman of Corruption?",
+   "aliases": [
+    "what is talisman of corruption",
+    "talisman purpose",
+    "what does the talisman do"
+   ],
+   "answer": "It is a demonic device used by the satyr Xabraxxis to channel foul magic and corrupt the minds and food sources of the Blackwood furbolgs in Darkshore."
+  },
+  {
+   "q": "Who carries the talisman?",
+   "aliases": [
+    "who drops talisman of corruption",
+    "where to find talisman of corruption",
+    "how to get talisman"
+   ],
+   "answer": "It is kept within the demon bag carried by Xabraxxis, a satyr who oversees the northern Blackwood furbolg camp near the Cliffspring River."
+  },
+  {
+   "q": "How do you draw out the owner of the talisman?",
+   "aliases": [
+    "how to summon xabraxxis",
+    "how to find xabraxxis",
+    "summon satyr darkshore"
+   ],
+   "answer": "You must collect samples of the furbolgs' fruit, grain, and nuts, combine them with moonwell water in a cleansing bowl, and place the offering by the bonfire near the river. Cleansing the furbolgs enrages Xabraxxis, prompting him to attack."
+  },
+  {
+   "q": "What happens to the talisman after it is recovered?",
+   "aliases": [
+    "who do i give the talisman to",
+    "turn in talisman of corruption",
+    "thundris windweaver talisman"
+   ],
+   "answer": "It is turned over to Thundris Windweaver in Auberdine. He secures the artifact for disposal and studies it to learn how to permanently liberate the furbolgs from demonic corruption."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei of Auberdine, recovering the talisman is a vital step toward freeing their ancestral furbolg allies from demonic degradation and healing the land."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids view devices like the talisman as direct perversions of the natural order, twisting sacred beasts into feral pawns of the Burning Legion's leftover minions."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "blackwood",
+  "darkshore",
+  "furbolg",
+  "satyr",
+  "talisman of corruption",
+  "thundris windweaver",
+  "xabraxxis"
+ ],
+ "related": [
+  "quest:4763",
+  "topic:satyr",
+  "topic:furbolg",
+  "item:empty-cleansing-bowl",
+  "quest:4761",
+  "quest:4762",
+  "zone:darkshore",
+  "subzone:auberdine"
+ ],
+ "attribution": [
+  "Talisman of Corruption",
+  "The Blackwood Corrupted"
+ ]
+}

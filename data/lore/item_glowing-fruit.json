@@ -1,0 +1,80 @@
+{
+ "key": "item:glowing-fruit",
+ "type": "item",
+ "name": "Glowing Fruit",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Glowing Fruit",
+  "quests": [
+   "quest:930"
+  ]
+ },
+ "summary": "The Glowing Fruit is an exotic, luminescent specimen found growing amid strange fronds on the boughs of Teldrassil. Its unnatural radiance and bizarre interaction with the World Tree's soil make it an object of urgent botanical study for naturalists.",
+ "sections": [
+  {
+   "title": "A Curious Specimen",
+   "body": "Discovered hanging beneath unusual fronds on Teldrassil, this large, round fruit radiates an unmistakable light. Botanist Denalan at Lake Al'Ameth recognizes it as non-native to the World Tree, speculating its seeds arrived from distant lands across the sea. Whatever its origin, the fruit reacts strangely to the rich, enchanted soil of Teldrassil, demonstrating how vulnerable the nascent world bough is to foreign and unpredictable flora.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Glowing Fruit?",
+   "aliases": [
+    "glowing fruit teldrassil",
+    "what is this fruit",
+    "strange fruit quest"
+   ],
+   "answer": "It is an exotic, round fruit discovered growing under unusual fronds on Teldrassil. It emits an ethereal glow and appears to have reacted unusually with the local soil."
+  },
+  {
+   "q": "Where did this fruit come from?",
+   "aliases": [
+    "fruit origin",
+    "where did the seeds come from",
+    "is it native"
+   ],
+   "answer": "According to the naturalist Denalan, the fruit is not native to Teldrassil. He suspects its seeds drifted or were transported from far across the sea, perhaps from the Eastern Kingdoms of Azeroth, before taking root in the soil."
+  },
+  {
+   "q": "Who wants to inspect the Glowing Fruit?",
+   "aliases": [
+    "who needs the fruit",
+    "where do i bring glowing fruit",
+    "denalan fruit"
+   ],
+   "answer": "Denalan, a night elf researcher stationed at Lake Al'Ameth, studies the boughs and ecosystem of Teldrassil. He takes a keen interest in foreign plant life that has reacted with the World Tree's earth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids attuned to the fragile balance of Teldrassil, foreign flora that reacts erratically with the soil represents a potential disturbance to the burgeoning World Tree."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Herbalists will immediately note that the strange luminescence of the fruit points to an exotic, potent interaction between outside seed varieties and enchanted soil."
+  }
+ ],
+ "keywords": [
+  "botany",
+  "denalan",
+  "glowing fruit",
+  "lake al'ameth",
+  "plant",
+  "teldrassil",
+  "timberlings"
+ ],
+ "related": [
+  "quest:930",
+  "npc:denalan",
+  "subzone:lake-al-ameth",
+  "zone:teldrassil",
+  "quest:940"
+ ],
+ "attribution": [
+  "Glowing Fruit",
+  "The Glowing Fruit"
+ ]
+}

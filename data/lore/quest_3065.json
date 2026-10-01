@@ -1,0 +1,119 @@
+{
+ "key": "quest:3065",
+ "type": "quest",
+ "name": "Simple Tablet",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   3065
+  ],
+  "level": "1",
+  "faction": "Horde",
+  "start": "Gornek",
+  "end": "Frang",
+  "previous": "Cutting Teeth",
+  "next": null,
+  "wiki": "Simple Tablet (quest)",
+  "chain": []
+ },
+ "summary": "Simple Tablet is an introductory rite of passage for fledgling warriors entering the Valley of Trials. Delivered into your hands after proving your mettle against local beasts, it directs you toward Frang, the local veteran tasked with honing raw brawn into martial discipline.",
+ "sections": [
+  {
+   "title": "A Summons to Arms",
+   "body": "After proving you can hold your own against the Mottled Boars of the valley, Gornek hands over a parchment specifically marked for you. In the harsh environment of Durotar, the Horde does not leave its fighters without guidance for long. The tablet serves as an invitation to seek out Frang, the warrior trainer stationed outside the Den.",
+   "spoiler": 0
+  },
+  {
+   "title": "Under the Shade of the Den",
+   "body": "Frang takes shelter in the shade just outside the Den, watching recruits trickle in from the red scrubland. He assesses fresh recruits with a seasoned eye, ready to impart fundamentals\u2014whether hefting a heavy axe or wielding a spear\u2014to ensure each new soldier can defend the fragile settlements of the young Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Simple Tablet?",
+   "aliases": [
+    "simple tablet",
+    "what is this tablet",
+    "warrior note"
+   ],
+   "answer": "It is an introductory directive handed to young warriors in the Valley of Trials. Gornek passes it along to guide martial recruits to Frang, the resident warrior trainer."
+  },
+  {
+   "q": "Who sends the tablet?",
+   "aliases": [
+    "who wrote the tablet",
+    "who sent simple tablet"
+   ],
+   "answer": "The message originates from Frang, the veteran warrior trainer resting outside the Den, who keeps an eye out for emerging fighters."
+  },
+  {
+   "q": "Where can I find Frang?",
+   "aliases": [
+    "frang location",
+    "where is frang",
+    "find warrior trainer"
+   ],
+   "answer": "Frang is posted outside the Den within the Valley of Trials, taking shelter from the desert sun under the rock overhangs."
+  },
+  {
+   "q": "Why does Frang mention spears and axes?",
+   "aliases": [
+    "frang spear quote",
+    "why spears"
+   ],
+   "answer": "Frang notes the diverse fighting styles among Horde recruits. While orcs favor heavy choppers like greataxes, trolls and other fighters often prefer spears and lighter polearms, both of which serve well in battle."
+  },
+  {
+   "q": "Do other classes get this quest?",
+   "aliases": [
+    "is simple tablet warrior only",
+    "class quests in valley of trials"
+   ],
+   "answer": "No. The Simple Tablet is specifically given to warriors. Other classes receive their own parchment, rune, or scroll directing them to their respective mentors."
+  },
+  {
+   "q": "What is the purpose of the Den?",
+   "aliases": [
+    "what is the den",
+    "the den durotar"
+   ],
+   "answer": "The Den is a sheltered cavern complex in the Valley of Trials where trainers, supplies, and resting recruits gather away from the blazing heat and wandering beasts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This summons marks your very first step onto the warrior's path in Durotar, pointing you directly to Frang to learn foundational stances and strikes."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde relies on a steady stream of hardened front-line fighters to secure Durotar's precarious borders against centaur, quilboar, and human interlopers."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear trolls training in the valley may receive Frang's gruff observations regarding their preference for spears over orcish axes, though he respects anything that kills."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "frang",
+  "gornek",
+  "simple tablet",
+  "the den",
+  "valley of trials",
+  "warrior"
+ ],
+ "related": [
+  "npc:gornek",
+  "quest:cutting-teeth",
+  "quest:1089",
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Simple Tablet (quest)"
+ ]
+}

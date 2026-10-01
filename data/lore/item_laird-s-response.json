@@ -1,0 +1,87 @@
+{
+ "key": "item:laird-s-response",
+ "type": "item",
+ "name": "Laird's Response",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Laird's Response",
+  "quests": [
+   "quest:6343"
+  ]
+ },
+ "summary": "Laird's Response is a sealed dispatch penned by the fish curer Laird in the coastal port of Auberdine. Written for Nessa Shadowsong in Rut'theran Village, the letter details curious ecological differences between mainland marine life and the unusually large fish thriving along Teldrassil's shores.",
+ "sections": [
+  {
+   "title": "A Matter of Scales and Roots",
+   "body": "After reviewing catch reports from across the Veiled Sea, Laird of Auberdine noted a striking discrepancy: the fish hauled from Teldrassil's coast are remarkably larger and more plentiful than those taken along the mainland beaches of Darkshore. In this written response addressed to Nessa Shadowsong, Laird shares his working theory\u2014that the unnatural presence and raw vitality of the newly planted World Tree may be warping and stimulating the surrounding marine life. Delivered by travelers returning across the waters, the letter prompts wonder and quiet curiosity among the fisherfolk of Rut'theran Village.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Laird's Response?",
+   "aliases": [
+    "what is this item",
+    "lairds response letter",
+    "what is lairds response"
+   ],
+   "answer": "It is a written dispatch penned by Laird, a fish merchant and curer stationed in Auberdine, intended as an answer to an inquiry from Nessa Shadowsong in Teldrassil."
+  },
+  {
+   "q": "Who is Laird writing to?",
+   "aliases": [
+    "who receives lairds response",
+    "who gets this letter",
+    "nessa laird letter"
+   ],
+   "answer": "The response is sent to Nessa Shadowsong, a night elf residing in Rut'theran Village at the southern base of Teldrassil."
+  },
+  {
+   "q": "What does the letter say about the fish?",
+   "aliases": [
+    "why are the fish big",
+    "fish difference darkshore teldrassil",
+    "what did laird find"
+   ],
+   "answer": "Laird notes that fish caught along Teldrassil's shores are markedly larger and more bountiful than those found in mainland Darkshore, suggesting that the World Tree itself might be influencing local marine life."
+  },
+  {
+   "q": "How does the message travel back to Rut'theran Village?",
+   "aliases": [
+    "how to get back to nessa",
+    "ruttheran boat darkshore",
+    "auberdine ferry to nessa"
+   ],
+   "answer": "Carriers can either board the regular ferry departing from the Auberdine docks or arrange a hippogryph flight with the flight master Caylais Moonfeather."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves tending the shores of Teldrassil, Laird's notes offer an intriguing, if slightly unnerving, clue about how the young World Tree already exerts an unnatural influence over surrounding nature."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "fishing",
+  "laird",
+  "laird's response",
+  "nessa shadowsong",
+  "rut'theran village",
+  "teldrassil"
+ ],
+ "related": [
+  "quest:6343",
+  "npc:laird",
+  "quest:6344",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "quest:940"
+ ],
+ "attribution": [
+  "Laird's Response",
+  "Return to Nessa"
+ ]
+}

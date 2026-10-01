@@ -1,0 +1,92 @@
+{
+ "key": "item:huge-gnoll-claw",
+ "type": "item",
+ "name": "Huge Gnoll Claw",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Huge Gnoll Claw",
+  "quests": [
+   "quest:176"
+  ]
+ },
+ "summary": "The Huge Gnoll Claw is an unmistakable trophy taken from Hogger, the massive gnoll prowling southwestern Elwynn Forest. Sized far beyond any normal gnoll talon, it serves as the official proof of demise required by the Stormwind authorities in Goldshire.",
+ "sections": [
+  {
+   "title": "Bounty Hunter's Proof",
+   "body": "For months, the brute Hogger has terrorized the southern woodlands of Forest's Edge, shrugging off patrols and overwhelming every effort by the local garrison to corral or subdue him. Outmatched and stretched thin across Elwynn, the Stormwind Army posted an open bounty on the beast's head. Marshal Dughan at Goldshire demands undeniable evidence before disbursing the reward funds, and the brute's oversized claw offers undisputed confirmation that the terror of the woods has finally fallen.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Huge Gnoll Claw used for?",
+   "aliases": [
+    "what do i do with hogger claw",
+    "huge gnoll claw use",
+    "who wants the claw"
+   ],
+   "answer": "The claw serves as official proof of Hogger's death. It is brought directly to Marshal Dughan in Goldshire to complete the posted bounty and collect your reward."
+  },
+  {
+   "q": "Where does this claw come from?",
+   "aliases": [
+    "who drops the claw",
+    "how to get huge gnoll claw",
+    "where to find huge gnoll claw"
+   ],
+   "answer": "It is taken directly from Hogger, an elite gnoll wandering near the Riverpaw camps along the southwestern borders of Forest's Edge in Elwynn Forest."
+  },
+  {
+   "q": "Why does Marshal Dughan want a claw instead of the head?",
+   "aliases": [
+    "why proof of demise claw",
+    "why not hoggers head",
+    "dughan bounty proof"
+   ],
+   "answer": "Hogger is abnormally large even for a Riverpaw chieftain, and his immense claws are distinct and instantly recognizable. Presenting one leaves no doubt for the Stormwind Army that the notorious marauder has truly been slain."
+  },
+  {
+   "q": "Can I get another claw if I lose it?",
+   "aliases": [
+    "lost huge gnoll claw",
+    "can i get claw again",
+    "hogger claw respawn"
+   ],
+   "answer": "Yes. If the claw is lost before you hand it over to Marshal Dughan, you can hunt down Hogger again in southwestern Elwynn Forest to claim a replacement."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Claiming the claw rids the kingdom's heartland of its most infamous woodland terror, proving your valor to Marshal Dughan and the beleaguered garrison at Goldshire."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Securing such an outsized predator's claw demonstrates supreme tracking and beast-hunting capability against a brute that routinely overpowered armed squads."
+  }
+ ],
+ "keywords": [
+  "bounty",
+  "elwynn forest",
+  "goldshire",
+  "hogger",
+  "huge gnoll claw",
+  "marshal dughan",
+  "riverpaw"
+ ],
+ "related": [
+  "npc:hogger",
+  "quest:176",
+  "npc:marshal-dughan",
+  "zone:elwynn",
+  "subzone:goldshire",
+  "subzone:forest-s-edge",
+  "topic:stormwind-army",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Huge Gnoll Claw",
+  "Wanted: \"Hogger\""
+ ]
+}

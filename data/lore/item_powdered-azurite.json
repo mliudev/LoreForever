@@ -1,0 +1,86 @@
+{
+ "key": "item:powdered-azurite",
+ "type": "item",
+ "name": "Powdered Azurite",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Powdered Azurite",
+  "quests": [
+   "quest:1838"
+  ]
+ },
+ "summary": "Powdered Azurite is a crushed mineral reagent harvested from the Azurelode Mine in Hillsbrad Foothills. It is sought by the master armorer Thun'grim Firegaze to temper and forge brutal armor for rising Horde warriors.",
+ "sections": [
+  {
+   "title": "A Rare Mineral Compound",
+   "body": "Powdered Azurite is a refined dust derived from the mineral veins beneath Hillsbrad Foothills. The human workers of Azurelode Mine delve into the earth to extract this distinctive blue stone, pulverizing and packing it for trade and metallurgy. In the hands of a skilled smith, the dust acts as a crucial flux or additive when working dense metals, enhancing durability and lending unique resilience to finished plate.",
+   "spoiler": 0
+  },
+  {
+   "title": "Forging Brutal Armor",
+   "body": "Though native to human-held tunnels across the Great Sea, Powdered Azurite is recognized by veteran Horde blacksmiths for its exceptional metallurgical properties. Thun'grim Firegaze, an aging orc armorer residing in the Barrens, demands small quantities of the powdered stone alongside refined iron and fiery reagents. Mixed into the smelt, the powder allows him to hammer out the heavy, punishing plating that characterizes his masterwork battle armor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Powdered Azurite used for?",
+   "aliases": [
+    "powdered azurite use",
+    "what is powdered azurite"
+   ],
+   "answer": "It serves as an essential metallurgical component for Thun'grim Firegaze, a master armorer stationed in the Barrens. He combines the crushed mineral with iron ingots and volatile reagents to hammer out pieces of Brutal Armor for Horde champions."
+  },
+  {
+   "q": "Where can Powdered Azurite be found?",
+   "aliases": [
+    "where to find powdered azurite",
+    "powdered azurite location",
+    "who drops powdered azurite"
+   ],
+   "answer": "It is gathered from the human miners toiling within the Azurelode Mine, located along the southern coast of the Hillsbrad Foothills in the Eastern Kingdoms."
+  },
+  {
+   "q": "Why does an armorer in the Barrens require reagents from Hillsbrad?",
+   "aliases": [
+    "why hillsbrad",
+    "thungrim mineral source"
+   ],
+   "answer": "Thun'grim Firegaze seeks out the finest materials to produce armor worthy of legendary warriors. While iron is readily available, the specific tempering qualities granted by the Azurelode mineral make it worth having his champions travel across the sea to acquire it."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Acquiring Powdered Azurite proves your endurance abroad, gathering the specialized reagents needed by Thun'grim Firegaze to forge personal armor of savage strength."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Claiming this refined dust requires striking deep into the Eastern Kingdoms, taking resources right out of Alliance hands in Hillsbrad Foothills."
+  }
+ ],
+ "keywords": [
+  "azurelode mine",
+  "azurite",
+  "brutal armor",
+  "hillsbrad",
+  "powdered azurite",
+  "reagent",
+  "thun'grim firegaze"
+ ],
+ "related": [
+  "quest:1838",
+  "quest:1502",
+  "subzone:azurelode-mine",
+  "zone:hillsbrad",
+  "item:smoky-iron-ingot",
+  "item:vial-of-phlogiston",
+  "zone:barrens",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Powdered Azurite",
+  "Brutal Armor"
+ ]
+}

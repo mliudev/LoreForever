@@ -1,0 +1,81 @@
+{
+ "key": "item:flatland-prowler-claw",
+ "type": "item",
+ "name": "Flatland Prowler Claw",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Flatland Prowler Claw",
+  "quests": [
+   "quest:861"
+  ]
+ },
+ "summary": "A Flatland Prowler Claw is taken from the dangerous feline predators that stalk the grassy plains of Mulgore. For aspiring hunters, gathering these claws serves as a traditional rite of passage, demonstrating cunning and martial resolve to the elders of Thunder Bluff.",
+ "sections": [
+  {
+   "title": "A Hunter's Proof",
+   "body": "Flatland prowlers are among the most cunning and territorial predators roaming the wind-swept plains of Mulgore. Quick on their feet and adept at ambushing prey in the tall grass, they present a genuine threat to travelers and a worthy test for young hunters. Collecting their sharp claws is not merely a task of survival, but a recognized tradition. Skorn Whitecloud advises promising wanderers to harvest these trophies to present to Melor Stonehoof atop Thunder Bluff's Hunter Rise, proving they possess the resolve and fieldcraft necessary to pursue the hunter's way.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Flatland Prowler Claws used for?",
+   "aliases": [
+    "prowler claw use",
+    "why get prowler claws",
+    "hunter's way claws"
+   ],
+   "answer": "They serve as a physical demonstration of skill and courage. Young hunters bring four of these claws to Melor Stonehoof on the Hunter Rise in Thunder Bluff to prove their readiness to walk the hunter's path."
+  },
+  {
+   "q": "Who asks you to collect them?",
+   "aliases": [
+    "who wants prowler claws",
+    "quest giver prowler claws"
+   ],
+   "answer": "The elder hunter Skorn Whitecloud directs promising trackers to gather claws from the prowlers of Mulgore as an offering of proof before presenting themselves to Melor Stonehoof."
+  },
+  {
+   "q": "Why are flatland prowlers considered a fitting hunt?",
+   "aliases": [
+    "why flatland prowlers",
+    "are prowlers dangerous"
+   ],
+   "answer": "Flatland prowlers are tough, stealthy, and cunning carnivores native to the Mulgore plains. Successfully tracking and besting such alert predators proves that an aspiring hunter has the patience and combat instincts required of tauren tradition."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, the hunt is an honorable spiritual tradition, and presenting the claws of a cunning plains predator marks an initiate's first steps toward serving the tribe as a tracker."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Taking down stealthy prowlers tests a hunter's field awareness, making these claws a symbol of earned respect among the marksmen gathered on Thunder Bluff's Hunter Rise."
+  }
+ ],
+ "keywords": [
+  "flatland prowler",
+  "flatland prowler claw",
+  "hunter rise",
+  "melor stonehoof",
+  "mulgore",
+  "skorn whitecloud",
+  "the hunter's way",
+  "thunder bluff"
+ ],
+ "related": [
+  "quest:861",
+  "npc:melor-stonehoof",
+  "npc:skorn-whitecloud",
+  "zone:mulgore",
+  "zone:thunderbluff",
+  "topic:tauren",
+  "topic:hunter"
+ ],
+ "attribution": [
+  "Flatland Prowler Claw",
+  "The Hunter's Way (Classic)"
+ ]
+}

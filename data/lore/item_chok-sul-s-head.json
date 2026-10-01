@@ -1,0 +1,86 @@
+{
+ "key": "item:chok-sul-s-head",
+ "type": "item",
+ "name": "Chok'sul's Head",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Chok'sul's Head",
+  "quests": [
+   "quest:256"
+  ]
+ },
+ "summary": "Chok'sul's Head serves as gruesome physical proof of the death of the Mo'grosh ogre chieftain. Brought to Magistrate Bluntnose in Thelsamar, it secures a formal bounty placed by local dwarven authorities.",
+ "sections": [
+  {
+   "title": "Proof of the Chieftain's Fall",
+   "body": "The ogres of Mo'grosh Stronghold pose a persistent menace to the settlements of Loch Modan, orchestrating assaults against Thelsamar, the excavation sites, and the vital Stonewrought Dam. Magistrate Bluntnose placed a bounty on the brute presumed to be coordinating these attacks: Chok'sul. Given the chaos of the northeastern hills, the magistrate demands undeniable evidence before releasing township funds. The severed head of the ogre chieftain provides the grotesque certainty the dwarven council needs to mark the contract fulfilled.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Chok'sul?",
+   "aliases": [
+    "who is choksul",
+    "choksul lore",
+    "chok'sul identity"
+   ],
+   "answer": "Chok'sul was an ogre chieftain stationed in the Mo'grosh Stronghold in northeastern Loch Modan. Dwarven officials believe he was the mastermind behind coordinated raids targeting Thelsamar, the Stonewrought Dam, and nearby excavation sites."
+  },
+  {
+   "q": "Why does Magistrate Bluntnose want the head?",
+   "aliases": [
+    "why bluntnose wants head",
+    "choksul head purpose",
+    "who wants choksuls head"
+   ],
+   "answer": "Magistrate Bluntnose issued a public bounty for Chok'sul's demise through any means necessary. Because ogre raids have severely strained the region, the magistrate requires indisputable proof of the chieftain's death before distributing monetary compensation from Thelsamar's coffers."
+  },
+  {
+   "q": "Where did Chok'sul operate?",
+   "aliases": [
+    "where is choksul",
+    "mo'grosh stronghold location",
+    "choksul location"
+   ],
+   "answer": "Chok'sul commanded his warband from the Mo'grosh Stronghold, a heavily fortified ogre redoubt nestled in the craggy hills of northeastern Loch Modan."
+  },
+  {
+   "q": "What threats did Chok'sul pose to the region?",
+   "aliases": [
+    "why is choksul wanted",
+    "what did choksul do"
+   ],
+   "answer": "He was believed to coordinate aggressive strikes against Thelsamar and nearby dwarven infrastructure, including the Stonewrought Dam and local archeological excavation sites."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Eliminating Chok'sul directly relieves the pressure on Ironforge's rural settlements and protects vital civic monuments like the Stonewrought Dam from brute destruction."
+  }
+ ],
+ "keywords": [
+  "chok'sul",
+  "chok'sul's head",
+  "loch modan",
+  "magistrate bluntnose",
+  "mo'grosh",
+  "ogre",
+  "stonewrought dam",
+  "thelsamar"
+ ],
+ "related": [
+  "quest:256",
+  "subzone:thelsamar",
+  "subzone:mo-grosh-stronghold",
+  "zone:lochmodan",
+  "subzone:stonewrought-dam",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Chok'sul's Head",
+  "WANTED: Chok'sul"
+ ]
+}

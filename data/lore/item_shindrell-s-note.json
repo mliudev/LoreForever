@@ -1,0 +1,91 @@
+{
+ "key": "item:shindrell-s-note",
+ "type": "item",
+ "name": "Shindrell's Note",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Shindrell's Note",
+  "quests": [
+   "quest:4581"
+  ]
+ },
+ "summary": "Shindrell's Note is a written missive detailing recent observations of corruption around Astranaar and the Ashenvale coastline. Penned by the night elf Sentinel Shindrell Swiftfire, it serves as an intelligence report dispatched east across the forest to the druid Kayneth Stillwind.",
+ "sections": [
+  {
+   "title": "A Missive Across the Woods",
+   "body": "As unrest spreads throughout Ashenvale, night elf sentinels and druids coordinate to monitor the woodland's borders. Penned by Sentinel Shindrell Swiftfire in Astranaar, this report details troubling disturbances spotted along the western coast and through the central canopies. It is addressed to Kayneth Stillwind, a druid stationed at the shrine of Forest Song within the Nightsong Woods to the east. By dispatching couriers with her firsthand observations, Shindrell aids Kayneth's investigation into the subtle corruption creeping through the sacred groves.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Shindrell's Note?",
+   "aliases": [
+    "what is this note",
+    "shindrell note",
+    "what does the note say"
+   ],
+   "answer": "It is a field report written by Sentinel Shindrell Swiftfire detailing disturbances and suspected corruption spotted near Astranaar and along the Ashenvale coastline."
+  },
+  {
+   "q": "Who is meant to receive the note?",
+   "aliases": [
+    "who do I give this to",
+    "where does it go",
+    "who is the note for"
+   ],
+   "answer": "The note is addressed to Kayneth Stillwind, a night elf druid located at Forest Song in the eastern reaches of Ashenvale known as the Nightsong Woods."
+  },
+  {
+   "q": "Why was the note written?",
+   "aliases": [
+    "why write the note",
+    "what corruption is shindrell talking about",
+    "purpose of report"
+   ],
+   "answer": "Kayneth Stillwind requested intelligence on unusual occurrences in the western forests, fearing that an insidious corruption is taking root within the woodland. Shindrell compiled her sightings to help him evaluate the threat."
+  },
+  {
+   "q": "Where does Shindrell Swiftfire reside?",
+   "aliases": [
+    "where is shindrell",
+    "shindrell swiftfire location",
+    "who sent this"
+   ],
+   "answer": "Shindrell Swiftfire is a night elf sentinel stationed at the settlement of Astranaar, located in central Ashenvale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The missive illustrates the ongoing cooperation between the Sentinels who defend Ashenvale's settlements and the Cenarion druids who study its ecological sickness."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Carrying Shindrell's observations to Kayneth Stillwind assists fellow druids in uncovering the roots of the unnatural blight troubling the forest."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "forest song",
+  "kayneth stillwind",
+  "nightsong woods",
+  "shindrell swiftfire",
+  "shindrell's note"
+ ],
+ "related": [
+  "quest:4581",
+  "zone:ashenvale",
+  "subzone:astranaar",
+  "subzone:forest-song",
+  "subzone:nightsong-woods",
+  "topic:druid",
+  "quest:456"
+ ],
+ "attribution": [
+  "Shindrell's Note",
+  "Kayneth Stillwind (quest)"
+ ]
+}

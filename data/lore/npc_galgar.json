@@ -1,0 +1,87 @@
+{
+ "key": "npc:galgar",
+ "type": "npc",
+ "name": "Galgar",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Galgar",
+  "refs": 1
+ },
+ "summary": "Galgar is an orc cook stationed in the Valley of Trials in Durotar. He prepares provisions for young recruits taking their first steps in service to the Horde. To teach newcomers the basics of foraging in the harsh desert, he tasks them with gathering wild cactus apples for his signature dish.",
+ "sections": [
+  {
+   "title": "A Cook in the Valley",
+   "body": "Situated near the cooking fire of the Den in the Valley of Trials, Galgar provides sustenance for young orcs and trolls undergoing their initial rites of passage. Durotar is a dry, unforgiving red wasteland where every scrap of sustenance must be wrung from the landscape. By putting novice warriors to work gathering ripe cactus fruit, Galgar tests their attention and resilience while keeping his kitchen stocked.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cactus Apple Surprise",
+   "body": "Galgar's specialty recipe is known as Cactus Apple Surprise. While he openly acknowledges that hunting down spiny desert fruit is an intentionally simple task designed to ease fresh recruits into life as adventurers, the end product remains a staple ration for hungry trainees. Even the most hardened warrior of the Horde must start somewhere, and under Galgar's watchful eye, that journey begins with desert foraging.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Galgar?",
+   "aliases": [
+    "galgar location",
+    "where is galgar",
+    "galgar coordinates"
+   ],
+   "answer": "Galgar is located in the Valley of Trials, the starting canyon for orcs and trolls in southwestern Durotar. He stands near the central campfire and cooking area outside the Den."
+  },
+  {
+   "q": "What does Galgar ask adventurers to do?",
+   "aliases": [
+    "galgar quest",
+    "what does galgar want"
+   ],
+   "answer": "He asks new adventurers to scavenge ripe cactus apples from the wild cacti scattered across the Valley of Trials so he can prepare his Cactus Apple Surprise."
+  },
+  {
+   "q": "Why does Galgar send new recruits to pick fruit?",
+   "aliases": [
+    "why cactus apples",
+    "galgar test"
+   ],
+   "answer": "Galgar admits the task is intentionally straightforward. It serves as an easy initial chore for fledgling fighters to learn the layout of the valley and practice self-sufficiency in the harsh Durotar wilderness."
+  },
+  {
+   "q": "What is Cactus Apple Surprise?",
+   "aliases": [
+    "what is cactus apple surprise",
+    "galgar food"
+   ],
+   "answer": "It is Galgar's signature recipe, made from fresh cactus apples gathered from the native desert flora of Durotar to nourish novice recruits."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Galgar embodies the practical, rustic cooking of the Horde, utilizing Durotar's sparse natural resources to keep recruits fed and battle-ready."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For young orcs taking their first steps in the Valley of Trials, running an errand for Galgar is a familiar rite of passage before facing fiercer wilderness threats."
+  }
+ ],
+ "keywords": [
+  "cactus apple surprise",
+  "cactus apples",
+  "cook",
+  "durotar",
+  "galgar",
+  "horde recruit",
+  "valley of trials"
+ ],
+ "related": [
+  "quest:galgar-s-cactus-apple-surprise",
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Galgar"
+ ]
+}

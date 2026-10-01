@@ -18,12 +18,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <link rel="stylesheet" href="/style.css">
+<script src="/header.js" defer></script>
 </head>
 <body>
 
 <header class="top">
-  <div class="wrap">
+  <div class="wrap top-row">
     <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; <a href="/voices">Voices</a> &rsaquo; Send your recordings</span>
+    <div class="head-actions"><a class="btn-head" href="/feedback"><span class="hd-wide">Send feedback</span><span class="hd-narrow">Feedback</span></a></div>
   </div>
 </header>
 
@@ -33,6 +35,15 @@
     listen to every one, build your pack and get back to you.</p>
   <p class="vp-note">New to this? Start with the <a href="/voices/guide">narrator guide</a> and the
     <a href="/voices/clips.csv" download>clip list</a>. Questions? <a href="/discord?src=voices">Ask on Discord</a>.</p>
+
+  <!-- Sending a voice needs a Lore Forever account (functions/api/auth/[action].js): shown instead of the form when
+       signed out. Without JavaScript the form shows, and the function answers with a link to sign in. -->
+  <section class="fb-done" id="vs-signin" hidden>
+    <h2>Sign in first</h2>
+    <p>Sending a voice needs a Lore Forever account, so your voice is tied to you and you can edit its page. It takes a
+      minute with your Google account.</p>
+    <p><a class="btn-small" href="/account?next=/voices/submit">Sign in or create an account</a></p>
+  </section>
 
   <!-- Posts to functions/api/voices.js. With JavaScript the page sends JSON and shows errors in place; without it,
        the form posts normally and the function sends the narrator on to /voices/thanks or shows an error page. -->
@@ -122,6 +133,7 @@
 
 <footer class="wrap foot">
   <p>Your email or Discord handle is used only to talk with you about your recordings.</p>
+  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
   <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>
@@ -134,6 +146,13 @@ const email = document.getElementById("vs-email");
 const discord = document.getElementById("vs-discord");
 
 function showStatus(text) { status.textContent = text; status.hidden = !text; }
+
+// Signed out: show the sign-in box instead of the form. Signed in: fill in the account's email.
+fetch("/api/auth/me", { cache: "no-store" }).then(r => r.json()).then(me => {
+  if (!me.ok) return;
+  if (!me.user) { form.hidden = true; document.getElementById("vs-signin").hidden = false; return; }
+  if (!email.value && me.user.email) email.value = me.user.email;
+}).catch(() => {});
 
 // One of email and Discord handle is needed: ask for it in the browser's own way before sending.
 function needContact() {

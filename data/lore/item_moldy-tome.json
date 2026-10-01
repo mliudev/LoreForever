@@ -1,0 +1,96 @@
+{
+ "key": "item:moldy-tome",
+ "type": "item",
+ "name": "Moldy Tome",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Moldy Tome",
+  "quests": [
+   "quest:1802",
+   "quest:1803"
+  ]
+ },
+ "summary": "The Moldy Tome is a water-damaged, salvaged remnant containing half of the original Tome of the Cabal. Lost in a shipwreck off the coast of Hillsbrad Foothills, it holds dark esoteric rituals coveted by warlocks seeking to master demonic summonings.",
+ "sections": [
+  {
+   "title": "Lost to the Waves",
+   "body": "The Tome of the Cabal was a singular, irreplaceable treatise on dark arts once held within the kingdom of Lordaeron. At some point in its murky history, the grimoire was ruthlessly vandalized and split in two. The portion now designated as the Moldy Tome was being transported south by ship toward Menethil Harbor and Ironforge. The vessel never reached its destination, succumbing to the treacherous waters west of Southshore. Swept ashore south of Azurelode Mine, the surviving half lay ruined by damp and surf amidst the scavenging murlocs that stalk the Hillsbrad coast.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reclaiming the Dark Work",
+   "body": "Despite its mildewed and rotting vellum, the Moldy Tome retains potent demonic lore. Practitioners of the dark arts\u2014guided by mentors such as Krom Stoutarm in Ironforge or Jorah Annison in the Undercity\u2014brave the coastal encampments to recover it. Rejoined with its counterpart, the Tattered Manuscript found in the dusty caves of Thousand Needles, the restored work provides the exacting incantations needed to summon and bind a felhunter.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Moldy Tome?",
+   "aliases": [
+    "moldy book",
+    "what is this item",
+    "moldy tome lore"
+   ],
+   "answer": "It is half of the rare Tome of the Cabal, an occult grimoire containing rituals for demonic summoning. Waterlogged and decayed, it represents the shipwrecked portion of the original text."
+  },
+  {
+   "q": "Where did the Moldy Tome end up?",
+   "aliases": [
+    "moldy tome location",
+    "where is moldy tome",
+    "where to find moldy tome"
+   ],
+   "answer": "It washed up on the shoreline of Hillsbrad Foothills, west of Southshore and south of the Azurelode Mine. It fell into the hands of local coastal murlocs who hoard it in their encampment."
+  },
+  {
+   "q": "Why was the tome on a ship?",
+   "aliases": [
+    "why was it lost at sea",
+    "shipwreck tome",
+    "tome transit"
+   ],
+   "answer": "Originally preserved in Lordaeron, this portion was dispatched on a vessel bound for Menethil Harbor to reach Ironforge scholars. The ship foundered off the Hillsbrad coast and never completed its journey."
+  },
+  {
+   "q": "What is needed to complete the Tome of the Cabal?",
+   "aliases": [
+    "other half of the tome",
+    "missing pages",
+    "tome of the cabal parts"
+   ],
+   "answer": "The Moldy Tome must be reunited with the Tattered Manuscript, the other torn half of the book that wound up carried far away to Splithoof Hold in Thousand Needles."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Recovering this sodden grimoire is a crucial rite of passage for warlocks seeking to piece together the rituals required to dominate a felhunter."
+  }
+ ],
+ "keywords": [
+  "azurelode",
+  "felhunter",
+  "hillsbrad",
+  "moldy tome",
+  "southshore",
+  "tattered manuscript",
+  "tome of the cabal",
+  "warlock"
+ ],
+ "related": [
+  "item:tattered-manuscript",
+  "quest:1758",
+  "quest:1471",
+  "topic:warlock",
+  "zone:hillsbrad",
+  "subzone:southshore",
+  "npc:krom-stoutarm",
+  "npc:jorah-annison"
+ ],
+ "attribution": [
+  "Moldy Tome",
+  "Tome of the Cabal (Alliance, 2)",
+  "Tome of the Cabal (Horde, 2)"
+ ]
+}

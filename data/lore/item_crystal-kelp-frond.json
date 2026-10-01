@@ -1,0 +1,85 @@
+{
+ "key": "item:crystal-kelp-frond",
+ "type": "item",
+ "name": "Crystal Kelp Frond",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Crystal Kelp Frond",
+  "quests": [
+   "quest:112"
+  ]
+ },
+ "summary": "Crystal Kelp Fronds are aquatic plant cuttings gathered from the murlocs inhabiting Crystal Lake in Elwynn Forest. Though native to the ocean, murlocs carry fronds inland, making them an unusual alchemical reagent sought after by William Pestle in Goldshire.",
+ "sections": [
+  {
+   "title": "A Rare Aquatic Reagent",
+   "body": "Crystal kelp typically thrives in the depths of saltwater oceans, making its presence in the freshwater pools of Elwynn Forest unexpected. The murloc tribes settled along the shores of Crystal Lake gather and hold onto these fronds for reasons of their own. Alchemists value the fronds for their peculiar visual-distorting properties, and William Pestle in Goldshire specifically uses them as the core ingredient in an invisibility liquor designed to help clandestine sweethearts slip past watchful family eyes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does crystal kelp naturally grow?",
+   "aliases": [
+    "where does crystal kelp grow",
+    "crystal kelp origin",
+    "kelp habitat"
+   ],
+   "answer": "Crystal kelp is an oceanic plant that typically grows in saltwater seas. It is not native to freshwater inland lakes, but murloc tribes gather and bring the cuttings into freshwater areas such as Crystal Lake."
+  },
+  {
+   "q": "Why do the murlocs at Crystal Lake have ocean kelp?",
+   "aliases": [
+    "why do murlocs have kelp",
+    "murloc kelp reason"
+   ],
+   "answer": "Murlocs have deep coastal connections and migrate between waterways. They harvest the kelp from coastal waters and carry it with them into inland encampments around lakes and streams."
+  },
+  {
+   "q": "Who wants Crystal Kelp Fronds in Goldshire?",
+   "aliases": [
+    "who needs crystal kelp",
+    "william pestle kelp"
+   ],
+   "answer": "William Pestle, an apothecary working out of the Lion's Pride Inn in Goldshire, needs the kelp. He uses it to brew a special invisibility liquor for Maybell Maclure so she can sneak away from her family vineyard to meet Tommy Joe Stonefield."
+  },
+  {
+   "q": "What properties does crystal kelp possess?",
+   "aliases": [
+    "kelp effects",
+    "what does crystal kelp do"
+   ],
+   "answer": "When properly refined by an alchemist, the unusual qualities of crystal kelp fronds can produce potent concealment mixtures, specifically invisibility liquor that temporarily hides the drinker from sight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Unlike common herbs rooted in soil, crystal kelp is an aquatic plant not found in standard herb nodes across Elwynn; herbalists and gatherers must pry it directly from local murlocs who hoard it."
+  }
+ ],
+ "keywords": [
+  "crystal kelp",
+  "crystal kelp frond",
+  "crystal lake",
+  "goldshire",
+  "invisibility liquor",
+  "murloc",
+  "william pestle"
+ ],
+ "related": [
+  "quest:112",
+  "subzone:crystal-lake",
+  "npc:william-pestle",
+  "item:invisibility-liquor",
+  "topic:murloc",
+  "subzone:goldshire",
+  "zone:elwynn",
+  "subzone:maclure-vineyards"
+ ],
+ "attribution": [
+  "Crystal Kelp Frond",
+  "Collecting Kelp"
+ ]
+}

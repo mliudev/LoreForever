@@ -1,0 +1,90 @@
+{
+ "key": "item:glowing-ember",
+ "type": "item",
+ "name": "Glowing Ember",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Glowing Ember",
+  "quests": [
+   "quest:1526"
+  ]
+ },
+ "summary": "A Glowing Ember is the lingering, elemental core recovered from a defeated Minor Manifestation of Fire atop the crags of Durotar. It serves as a vital ceremonial reagent in a shaman's trials, used to ignite the brazier at the Shrine of Eternal Flame.",
+ "sections": [
+  {
+   "title": "Core of the Flame",
+   "body": "When a rising shaman drinks the fire sapta and faces the fiery spirits atop the ridge near Telf Joolam, they confront a Minor Manifestation of Fire. Upon the elemental's defeat, this smoldering remnant is all that remains of its physical form. Still pulsing with raw elemental heat, the ember carries the living spark of fire necessary to awaken the sacred brazier at the Shrine of Eternal Flame.",
+   "spoiler": 0
+  },
+  {
+   "title": "Igniting the Torch",
+   "body": "Placing the Glowing Ember into the otherwise cool basin of the mountain brazier triggers a sudden, white-hot ignition. Feeding on the residue of the defeated elemental, the brazier allows the initiate to ignite the Torch of the Dormant Flame, binding the unruly essence of fire into a vessel they can carry down the mountain to prove their mastery over the elements.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Glowing Ember come from?",
+   "aliases": [
+    "how to get glowing ember",
+    "glowing ember drop",
+    "where find glowing ember"
+   ],
+   "answer": "The ember is recovered from the remains of a Minor Manifestation of Fire, a hostile elemental encountered at the summit above the Shrine of Eternal Flame in Durotar."
+  },
+  {
+   "q": "What is the ember used for?",
+   "aliases": [
+    "what does glowing ember do",
+    "glowing ember use",
+    "brazier ember"
+   ],
+   "answer": "Initiates place the ember into the metal brazier at the Shrine of Eternal Flame. It produces an intense, rhythmic flame used to light the ceremonial Torch of the Dormant Flame."
+  },
+  {
+   "q": "Why do shamans need the fire sapta to acquire it?",
+   "aliases": [
+    "why need sapta",
+    "cant see fire elemental",
+    "fire sapta ember"
+   ],
+   "answer": "The elemental spirits atop the mountain dwell beyond ordinary mortal sight. Consuming the fire sapta attunes a shaman's senses to the elemental plane, revealing the Minor Manifestation of Fire so it can be challenged."
+  },
+  {
+   "q": "Who directs shamans to seek this ember?",
+   "aliases": [
+    "who gives the quest",
+    "telf joolam ember",
+    "call of fire quest giver"
+   ],
+   "answer": "The hermit Telf Joolam, residing in the crags of Durotar, brews the fire sapta and guides shaman initiates through the trial of defeating the flame spirit."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Obtaining this burning core is a defining rite of passage, forcing an initiate to test their resolve against living fire before commanding its totem."
+  }
+ ],
+ "keywords": [
+  "call of fire",
+  "fire sapta",
+  "glowing ember",
+  "minor manifestation of fire",
+  "shrine of eternal flame",
+  "telf joolam",
+  "torch of the dormant flame"
+ ],
+ "related": [
+  "quest:1524",
+  "npc:telf-joolam",
+  "item:torch-of-the-dormant-flame",
+  "zone:durotar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Glowing Ember",
+  "Call of Fire (4)"
+ ]
+}

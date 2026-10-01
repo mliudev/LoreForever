@@ -1,0 +1,90 @@
+{
+ "key": "item:burning-rock",
+ "type": "item",
+ "name": "Burning Rock",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Burning Rock",
+  "quests": [
+   "quest:1705"
+  ]
+ },
+ "summary": "The Burning Rock is an unusual, smoldering mineral recovered from the Nightbane worgen leader Gutspill deep within Roland's Doom in Duskwood. Master blacksmith Grimand Elmore in Stormwind requires this rare curiosity, alongside fiery worgen blood, to forge specialized enchanted armor for promising warriors.",
+ "sections": [
+  {
+   "title": "A Smoldering Prize",
+   "body": "Carried by Gutspill, a savage Nightbane worgen lurking in the decrepit shafts of Roland's Doom, the Burning Rock is an anomaly among Duskwood's subterranean horrors. Emitting an unyielding supernatural heat, it caught the attention of Grimand Elmore in Stormwind City. Seeking to test experimental smithing techniques originated by his peer Furen Longbeard, Grimand uses the rock's intrinsic heat and the boiling blood of the local worgen to temper tough armor plate for veteran fighters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Burning Rock found?",
+   "aliases": [
+    "burning rock location",
+    "who drops burning rock",
+    "where to get burning rock"
+   ],
+   "answer": "It is held by Gutspill, a vicious worgen alpha dwelling inside the Roland's Doom mine located in eastern Duskwood."
+  },
+  {
+   "q": "Who wants the Burning Rock?",
+   "aliases": [
+    "who needs burning rock",
+    "who turns in burning rock",
+    "grimand elmore burning rock"
+   ],
+   "answer": "Grimand Elmore, a skilled dwarven smith stationed in the Dwarven District of Stormwind City, requires the rock to test experimental metallurgical techniques."
+  },
+  {
+   "q": "Why does Grimand Elmore need it?",
+   "aliases": [
+    "burning rock use",
+    "why burning rock",
+    "what does burning rock do"
+   ],
+   "answer": "Grimand intends to test crafting techniques developed by Furen Longbeard. Combined with the boiling blood of Nightbane worgen, the smoldering stone provides the intense heat necessary to forge a unique suit of armor."
+  },
+  {
+   "q": "What connection does this rock have to the worgen?",
+   "aliases": [
+    "why do worgen have burning rock",
+    "gutspill burning rock lore"
+   ],
+   "answer": "The Nightbane worgen of Roland's Doom possess strange, fiery physiological traits, such as burning blood. Gutspill, their pack leader, keeps the Burning Rock deep within the mine, though whether they unearthed it or brought it with them remains a mystery."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Grimand Elmore enlists seasoned warriors to brave Roland's Doom for this stone, rewarding their valor with custom-forged armor crafted from its heat."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The Burning Rock serves as an exotic heat source, demonstrating the unorthodox smelting and tempering methods explored by Stormwind and Ironforge armorers."
+  }
+ ],
+ "keywords": [
+  "burning rock",
+  "duskwood",
+  "furen longbeard",
+  "grimand elmore",
+  "gutspill",
+  "nightbane worgen",
+  "roland's doom"
+ ],
+ "related": [
+  "quest:1705",
+  "subzone:roland-s-doom",
+  "quest:1700",
+  "item:burning-blood-quest-item",
+  "topic:worgen",
+  "zone:duskwood",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Burning Rock",
+  "Burning Blood (quest)"
+ ]
+}

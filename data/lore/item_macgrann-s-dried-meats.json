@@ -1,0 +1,91 @@
+{
+ "key": "item:macgrann-s-dried-meats",
+ "type": "item",
+ "name": "MacGrann's Dried Meats",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "MacGrann's Dried Meats",
+  "quests": [
+   "quest:312"
+  ]
+ },
+ "summary": "MacGrann's Dried Meats are a month's worth of salted provisions prepared by the hunter Tundra MacGrann to survive the harsh Dun Morogh winter. Stored in a reinforced thorium meat locker, the entire cache was snatched by the ferocious yeti known as Old Icebeard.",
+ "sections": [
+  {
+   "title": "A Winter Cache",
+   "body": "Life in the freezing crags of Dun Morogh demands careful planning. To prepare for the blizzards of the cold season, the dwarf hunter Tundra MacGrann spent weeks hunting game, salting the meat, and securing it inside a sturdy chest. Aware that scavenging bears and prowling predators routinely plague his homestead, MacGrann took no chances and locked his food supply away inside a thorium meat locker. Even with those precautions, he did not anticipate an intruder strong enough to carry away the entire chest rather than trying to pry it open on the spot.",
+   "spoiler": 0
+  },
+  {
+   "title": "Into the Yeti's Lair",
+   "body": "While MacGrann was away tracking deer, the notorious yeti Old Icebeard raided the hunter's camp and dragged the heavy chest back to his den in Chill Breeze Valley. Though the beast lacked the means to break through the solid thorium plating, MacGrann's injured leg left him unable to mount a swift rescue into the cavern. Without outside assistance to retrieve the cache before winter sets in, the stranded hunter faced starvation amidst the mountain snows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are MacGrann's Dried Meats?",
+   "aliases": [
+    "what is macgrann's dried meats",
+    "tundra's meat",
+    "macgrann meat stash"
+   ],
+   "answer": "They are a month's supply of salted provisions preserved by Tundra MacGrann to carry him through the bitter Dun Morogh winter."
+  },
+  {
+   "q": "Why were the meats locked in a chest?",
+   "aliases": [
+    "why lock the meat",
+    "why thorium locker",
+    "macgrann chest"
+   ],
+   "answer": "Dun Morogh is crawling with hungry predators like mountain bears. MacGrann kept his dried meats secured inside a reinforced thorium meat locker so scavenging beasts could not tear into his winter food supply."
+  },
+  {
+   "q": "Who stole the meat locker?",
+   "aliases": [
+    "who took the meat",
+    "who stole it",
+    "meat locker thief"
+   ],
+   "answer": "A menacing yeti named Old Icebeard stole the entire locker while MacGrann was away hunting deer, dragging the heavy container back to his cavern lair in Chill Breeze Valley."
+  },
+  {
+   "q": "Why can't Tundra MacGrann get his meats back himself?",
+   "aliases": [
+    "why doesn't macgrann get it",
+    "why does tundra need help",
+    "tundra injured"
+   ],
+   "answer": "MacGrann suffers from an injured leg that robs him of the speed and stealth needed to slip into Old Icebeard's den and escape before the ferocious yeti corners him."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Salting and curing game is an essential culinary survival technique in Dun Morogh, allowing hunters like MacGrann to preserve meats for months without spoiling in the freezing cold."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven mountaineers know all too well that preparation means survival in the high peaks, and a lost winter cache can mean the difference between life and death."
+  }
+ ],
+ "keywords": [
+  "chill breeze valley",
+  "dun morogh",
+  "macgrann's dried meats",
+  "meat locker",
+  "old icebeard",
+  "tundra macgrann"
+ ],
+ "related": [
+  "quest:312",
+  "subzone:chill-breeze-valley",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "MacGrann's Dried Meats",
+  "Tundra MacGrann's Stolen Stash"
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "key": "item:moonwell-water-tube",
+ "type": "item",
+ "name": "Moonwell Water Tube",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Moonwell Water Tube",
+  "quests": [
+   "quest:4812"
+  ]
+ },
+ "summary": "A vial filled with consecrated water drawn from the moonwell in Auberdine. Its potent, purifying nature magic is used to test and react with a mysterious red crystal embedded along Darkshore's eastern ridges.",
+ "sections": [
+  {
+   "title": "A Vessel of Purifying Waters",
+   "body": "Drawn directly from the shimmering moonwell resting in Auberdine, the Moonwell Water Tube contains liquid steeped in the blessed energies of Elune. Moonwells serve night elf settlements as sacred reservoirs of restorative magic and purity, rendering even a small phial remarkably potent against corruption or unknown mystical phenomena.",
+   "spoiler": 0
+  },
+  {
+   "title": "Investigating the Red Crystal",
+   "body": "The tube was prepared specifically to test a massive, alien red crystal that appeared against the eastern cliffside of Darkshore. Because the corrupted heights of Felwood loom directly above the mountain wall, researchers feared the crimson formation shared a dark origin. When the blessed water cascades across the crystal's facets, the magic forces the opaque stone to turn briefly transparent, revealing the humming mysteries locked inside.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the water drawn from?",
+   "aliases": [
+    "where do i fill the tube",
+    "water tube source",
+    "auberdine moonwell water"
+   ],
+   "answer": "The water is scooped directly from the sacred moonwell located in the night elf haven of Auberdine, right in the heart of Darkshore."
+  },
+  {
+   "q": "Why use moonwell water on the red crystal?",
+   "aliases": [
+    "why moonwell water",
+    "purpose of the water tube",
+    "what does the water do"
+   ],
+   "answer": "Moonwell water holds concentrated nature and lunar magic. Pouring it onto the bizarre red crystal tests its mystical composition, triggering an ethereal reaction that makes the opaque mineral surface momentarily clear."
+  },
+  {
+   "q": "Why are the researchers concerned about the crystal?",
+   "aliases": [
+    "why test the crystal",
+    "red crystal danger",
+    "felwood connection"
+   ],
+   "answer": "The crystal rests directly beneath the eastern mountains bordering Felwood. Given Felwood's deep demonic taint, scholars fear the alien formation may be an extension of that corruption seeping down into Darkshore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Using blessed waters from a moonwell to probe foreign corruption reflects the kaldorei reliance on Elune's grace to reveal hidden truths."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids recognize moonwell water as a vital conduit of the balance of nature, uniquely suited to counteracting unnatural corruption."
+  }
+ ],
+ "keywords": [
+  "as water cascades",
+  "auberdine",
+  "darkshore",
+  "empty water tube",
+  "felwood",
+  "moonwell water tube",
+  "red crystal"
+ ],
+ "related": [
+  "quest:4812",
+  "item:empty-water-tube",
+  "quest:4811",
+  "quest:4813",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "zone:felwood"
+ ],
+ "attribution": [
+  "Moonwell Water Tube",
+  "As Water Cascades"
+ ]
+}

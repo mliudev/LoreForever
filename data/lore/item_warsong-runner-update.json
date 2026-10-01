@@ -1,0 +1,92 @@
+{
+ "key": "item:warsong-runner-update",
+ "type": "item",
+ "name": "Warsong Runner Update",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Warsong Runner Update",
+  "quests": [
+   "quest:6543"
+  ]
+ },
+ "summary": "The Warsong Runner Update is a military dispatch carrying situational observations from the Zoram'gar Outpost along the western coast of Ashenvale. Delivered to the Horde commander Kadrak at the Barrens border, it helps coordinate the Warsong clan's ongoing campaign against the night elves.",
+ "sections": [
+  {
+   "title": "Eyes on the Western Front",
+   "body": "Positioned at the edge of the Zoram Strand, the Warsong runner at Zoram'gar Outpost keeps watch over coastal waters and nearby threats in western Ashenvale. This update contains critical intelligence gathered from the outpost's frontline scouts, documenting regional activity and securing supply lines. Carried back to the Mor'shan Rampart along the Barrens border, the dispatch provides the Horde leadership with the clarity needed to fortify their position and plan subsequent movements deep in ancestral elven woods.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Warsong Runner Update?",
+   "aliases": [
+    "runner update",
+    "what is warsong runner update",
+    "warsong report zoram"
+   ],
+   "answer": "It is a written military dispatch penned by the Warsong runner stationed at Zoram'gar Outpost in western Ashenvale, reporting frontline observations back to Horde leadership at the Barrens border."
+  },
+  {
+   "q": "Where does this dispatch come from?",
+   "aliases": [
+    "runner location",
+    "where is warsong runner",
+    "who gives runner update"
+   ],
+   "answer": "It is obtained from the Warsong runner stationed at Zoram'gar Outpost, located on the far western coast of Ashenvale near the Zoram Strand."
+  },
+  {
+   "q": "Who receives this update?",
+   "aliases": [
+    "who do i turn this in to",
+    "kadrak update",
+    "deliver runner update"
+   ],
+   "answer": "The update is carried to Kadrak, the Warsong commander stationed in the watchtower along the northern Barrens border defending the Mor'shan Rampart."
+  },
+  {
+   "q": "Why does Kadrak need this dispatch?",
+   "aliases": [
+    "why runner update",
+    "warsong reports purpose"
+   ],
+   "answer": "Kadrak coordinates the Warsong clan's military movements into Ashenvale. Field dispatches from outposts like Zoram'gar keep him informed of enemy resistance, naval approaches, and local territory control."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The report highlights the logistical difficulty of maintaining distant outposts in hostile night elf territory, relying on couriers to keep communications open between Ashenvale and the Barrens."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Warsong scouts and couriers risk life and limb in the dense forests to feed tactical data directly to Kadrak and further the clan's territorial claims."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "kadrak",
+  "the barrens",
+  "the warsong reports",
+  "warsong clan",
+  "warsong runner update",
+  "zoram strand",
+  "zoram'gar outpost"
+ ],
+ "related": [
+  "quest:6543",
+  "quest:6545",
+  "subzone:zoram-gar-outpost",
+  "subzone:zoram-strand",
+  "npc:kadrak",
+  "quest:6546",
+  "quest:6547",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Warsong Runner Update",
+  "The Warsong Reports"
+ ]
+}

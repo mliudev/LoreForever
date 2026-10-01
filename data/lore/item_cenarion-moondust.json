@@ -1,0 +1,93 @@
+{
+ "key": "item:cenarion-moondust",
+ "type": "item",
+ "name": "Cenarion Moondust",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Cenarion Moondust",
+  "quests": [
+   "quest:6001"
+  ]
+ },
+ "summary": "Cenarion Moondust is a sacred powder entrusted to night elf druids undergoing their trials to become Druids of the Claw. When scattered upon the ancient Moonkin Stone in the hills east of Auberdine, it draws forth Lunaclaw, the feral guardian of the cave.",
+ "sections": [
+  {
+   "title": "A Rite of the Claw",
+   "body": "Bestowed by Mathrengyl Bearwalker in Darnassus, Cenarion Moondust serves as the catalyst for a young druid's final trial of heart and body. To commune with and prove oneself against the guardian Lunaclaw, the initiate must journey to the moonkin dens east of Auberdine in Darkshore. Applying the moondust to the ancient Moonkin Stone summons the beast to test the initiate in combat, allowing the druid to internalize the enduring strength needed to channel the form of the bear.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Cenarion Moondust used for?",
+   "aliases": [
+    "moondust use",
+    "what does cenarion moondust do",
+    "cenarion moondust purpose"
+   ],
+   "answer": "It is used by night elf druid initiates at the Moonkin Stone in Darkshore to awaken Lunaclaw, testing their strength and determination to earn the power of the bear form."
+  },
+  {
+   "q": "Where do I use the Cenarion Moondust?",
+   "aliases": [
+    "where to use moondust",
+    "moonkin stone location",
+    "where is lunaclaw stone"
+   ],
+   "answer": "It must be scattered over the Moonkin Stone inside a moonkin cave nestled in the hills directly east of Auberdine in Darkshore."
+  },
+  {
+   "q": "Who provides Cenarion Moondust?",
+   "aliases": [
+    "who gives moondust",
+    "where to get cenarion moondust",
+    "mathrengyl moondust"
+   ],
+   "answer": "Mathrengyl Bearwalker, the druid trainer residing at the Cenarion Enclave in Darnassus, gives it to initiates who have demonstrated readiness for the trial of body and heart."
+  },
+  {
+   "q": "What happens if I lose the moondust?",
+   "aliases": [
+    "lost cenarion moondust",
+    "lost moondust",
+    "get moondust back"
+   ],
+   "answer": "If the moondust is misplaced or spent in an unsuccessful attempt against Lunaclaw, initiates must return to Darnassus and petition Mathrengyl Bearwalker again to renew the trial."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For night elf druids, handling Cenarion Moondust marks the culminating step in the path to becoming a Druid of the Claw, leading directly to mastering the bear form."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The dust reflects the ancient traditions of the Cenarion Circle, blending nature worship with lunar ritual to honor the beasts of Darkshore."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "body and heart",
+  "cenarion moondust",
+  "druid of the claw",
+  "lunaclaw",
+  "mathrengyl bearwalker",
+  "moondust",
+  "moonkin stone"
+ ],
+ "related": [
+  "quest:6001",
+  "npc:mathrengyl-bearwalker",
+  "topic:druid",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "zone:darnassus",
+  "quest:2561",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Cenarion Moondust",
+  "Body and Heart (Alliance)"
+ ]
+}

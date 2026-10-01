@@ -1,0 +1,86 @@
+{
+ "key": "item:control-console-operating-manual",
+ "type": "item",
+ "name": "Control Console Operating Manual",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Control Console Operating Manual",
+  "quests": [
+   "quest:894"
+  ]
+ },
+ "summary": "The Control Console Operating Manual is a technical document detailing how to operate the machinery at the Venture Company research site southwest of Sludge Fen. It contains instructions needed to safely shut down the valves and disengage the mysterious contraption known as a samophlange.",
+ "sections": [
+  {
+   "title": "Deciphering Goblin Machinery",
+   "body": "The Venture Company operates a secluded drilling and research site in the northern Barrens, southwest of Sludge Fen. In typical goblin fashion, their complex machinery runs on an erratic array of gauges, pressurized valves, and interconnected mechanisms designed to harness a device called a samophlange. Without proper operating procedures, manipulating such volatile contraptions risks catastrophic backfire or complete system lockouts. This operational manual outlines the precise sequence of valve manipulation required to disengage the core apparatus safely without triggering an explosive failure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Control Console Operating Manual used for?",
+   "aliases": [
+    "what does the manual do",
+    "manual use",
+    "why do i have operating manual"
+   ],
+   "answer": "It provides the operational instructions for manipulating the Venture Company control console located southwest of Sludge Fen, guiding you through closing the appropriate valves so the samophlange can be disengaged."
+  },
+  {
+   "q": "What is a samophlange?",
+   "aliases": [
+    "what does samophlange do",
+    "samophlange lore",
+    "what is this machine"
+   ],
+   "answer": "Even the researchers outside the Venture Company do not entirely understand what a samophlange does. It appears to be an intricate goblin-engineered core mechanism tied into their drilling and industrial operations in the Barrens."
+  },
+  {
+   "q": "Who wrote this manual?",
+   "aliases": [
+    "who made the manual",
+    "manual author"
+   ],
+   "answer": "The manual was drafted by Venture Company technicians overseeing the research outpost, designed to ensure their workers could operate the console and maintain optimal pressure levels across its control valves."
+  },
+  {
+   "q": "What happens if I lose the manual?",
+   "aliases": [
+    "lost manual",
+    "deleted operating manual"
+   ],
+   "answer": "The console itself features clear gauges and readouts indicating valve pressure, meaning a skilled adventurer can read the console's face directly and operate the switches without needing the physical text in hand."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The manual illustrates typical goblin engineering philosophy: highly pressurized, marginally safe systems managed by a chaotic array of levers and valves rather than balanced failsafes."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The manual provides Horde investigators an inside look into the invasive industrial operations that the Venture Company has established across the northern Barrens."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "control console",
+  "goblin engineering",
+  "operating manual",
+  "samophlange",
+  "sludge fen",
+  "venture company"
+ ],
+ "related": [
+  "quest:894",
+  "topic:venture-company",
+  "subzone:sludge-fen",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Control Console Operating Manual",
+  "Samophlange (Classic)"
+ ]
+}

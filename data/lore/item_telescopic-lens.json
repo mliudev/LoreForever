@@ -1,0 +1,95 @@
+{
+ "key": "item:telescopic-lens",
+ "type": "item",
+ "name": "Telescopic Lens",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Telescopic Lens",
+  "quests": [
+   "quest:888"
+  ]
+ },
+ "summary": "The Telescopic Lens is a precision optical component imported by Gazlowe to complete the construction of the Ratchet observatory. Intercepted along the coast by Southsea pirates, the fragile glass must be recovered from their encampment south of town before the port's grand telescope can scan the skies.",
+ "sections": [
+  {
+   "title": "Eyes on the Sky",
+   "body": "Ratchet is known primarily as a port of ruthless commerce, but its chief engineer and overseer, Gazlowe, harbors grander mechanical ambitions. Prominently perched over the harbor, his observatory was built to house a powerful telescope to monitor maritime traffic and astronomical phenomena. While the larger lens arrived safely via an overland caravan from Durotar, the vital smaller lens was routed by sea\u2014making it easy prey for the Southsea Freebooters who plague the merchant lanes off the Barrens coastline.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pirate Plunder",
+   "body": "When the transport ship went down, the pirates hauled off anything of value, packing the delicate optics into a crate marked 'Fragile - Do Not Drop.' Unable to appreciate the fine craftsmanship or simply unsure how to pawn it, the buccaneers left the lens stashed amidst the clutter of their beachside camp south of Ratchet. Gazlowe relies on daring adventurers to brave the cutthroats, secure the unblemished glass, and finally bring his observation deck into focus.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Gazlowe need this lens?",
+   "aliases": [
+    "gazlowe lens",
+    "what is the lens for",
+    "why telescope lens"
+   ],
+   "answer": "Gazlowe requires it to finish the telescope in the Ratchet observatory. The observatory needs two lenses to function; while the larger one arrived safely across land from Durotar, the smaller telescopic lens was lost at sea."
+  },
+  {
+   "q": "Who stole the Telescopic Lens?",
+   "aliases": [
+    "who took the lens",
+    "who has the lens",
+    "telescopic lens location"
+   ],
+   "answer": "It was plundered by Southsea Freebooters, a band of opportunistic human and goblin pirates who prey on merchant vessels sailing near the Merchant Coast. They keep it stored in a marked crate at their coastal camp south of Ratchet."
+  },
+  {
+   "q": "Where did the lens originally come from?",
+   "aliases": [
+    "where was lens made",
+    "lens origin",
+    "where did gazlowe order lens"
+   ],
+   "answer": "It was shipped by sea to Ratchet, unlike its counterpart which came overland from Durotar. Shipments inbound to the port frequently originate from across the Great Sea or southern goblin holdings like Booty Bay."
+  },
+  {
+   "q": "Is the lens undamaged despite being stolen?",
+   "aliases": [
+    "is the lens broken",
+    "fragile do not drop crate"
+   ],
+   "answer": "Miraculously, yes. The lens was kept safely inside a crate labeled 'Fragile - Do Not Drop,' protecting the precision glass from the rough handling of the Southsea pirates."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "For an engineer, this precision lens represents fine optical craft, required to focus long-range observation mechanisms without spherical aberration."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomish tinkerers may scoff at goblin rocketry, but Gazlowe's dedication to optical astronomy proves goblin engineering is not entirely about high explosives."
+  }
+ ],
+ "keywords": [
+  "crate",
+  "gazlowe",
+  "observatory",
+  "ratchet",
+  "southsea freebooters",
+  "stolen booty",
+  "telescopic lens"
+ ],
+ "related": [
+  "quest:888",
+  "subzone:ratchet",
+  "zone:barrens",
+  "topic:pirate",
+  "item:shipment-of-boots",
+  "quest:887",
+  "quest:890"
+ ],
+ "attribution": [
+  "Telescopic Lens",
+  "Stolen Booty"
+ ]
+}

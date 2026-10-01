@@ -1,0 +1,94 @@
+{
+ "key": "item:shipping-schedule",
+ "type": "item",
+ "name": "Shipping Schedule",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Shipping Schedule",
+  "quests": [
+   "quest:2206"
+  ]
+ },
+ "summary": "The Shipping Schedule is a logistical document held by the Defias Brotherhood's dockmaster at Jerod's Landing. It outlines illicit cargo shipments flowing through Elwynn Forest between Redridge and Westfall, drawing the close attention of Stormwind's intelligence agency.",
+ "sections": [
+  {
+   "title": "Smuggling at Jerod's Landing",
+   "body": "South of Goldshire along Crystal Lake, the Defias Brotherhood seized control of Jerod's Landing to serve as a hub for their river traffic. Through this covert dock, the Brotherhood moves large quantities of contraband between Redridge and Westfall, slipping through waterways right under the nose of the Stormwind Guard. The Shipping Schedule records these clandestine movements, kept under close guard on the dockmaster's person.",
+   "spoiler": 0
+  },
+  {
+   "title": "In the Crosshairs of SI:7",
+   "body": "Master Mathias Shaw, leader of SI:7, commissioned the theft of the schedule to map Defias supply chains and test fledgling operatives. Infiltrating the dock house and lifting the document from the dockmaster's pockets serves both as actionable intelligence for the crown and as an initiation trial. If the operative is caught, SI:7 disavows all connection, leaving no trail back to the barracks in Stormwind.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Shipping Schedule?",
+   "aliases": [
+    "defias shipping schedule",
+    "what is this document",
+    "dockmaster schedule"
+   ],
+   "answer": "It is an operational log kept by the Defias Brotherhood dockmaster at Jerod's Landing. It details the movement of contraband and supplies being ferried between Redridge and Westfall across the inland waters of Elwynn Forest."
+  },
+  {
+   "q": "Who wants this schedule recovered?",
+   "aliases": [
+    "who needs the schedule",
+    "mathias shaw schedule",
+    "who takes the shipping schedule"
+   ],
+   "answer": "Master Mathias Shaw, the head of Stormwind's intelligence service, SI:7. He uses the intelligence to track the Defias smuggling apparatus and to evaluate promising rogues in the field."
+  },
+  {
+   "q": "Where is the schedule found?",
+   "aliases": [
+    "shipping schedule location",
+    "where is the dockmaster",
+    "how to get the schedule"
+   ],
+   "answer": "The document is carried by the Defias Dockmaster inside the dock house at Jerod's Landing, located on the southern shore of the lake south of Goldshire in Elwynn Forest. An operative must slip into the building and pickpocket or loot it from him."
+  },
+  {
+   "q": "What is Jerod's Landing used for?",
+   "aliases": [
+    "jerods landing defias",
+    "why do defias have jerods landing",
+    "defias dock elwynn"
+   ],
+   "answer": "Jerod's Landing was overrun by Defias bandits to serve as a transit point. They use its river access to smuggle illicit cargo across the kingdom, linking their operations in Redridge directly to their strongholds in Westfall."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Procuring the schedule from the dockmaster's pockets is a defining test of stealth and pickpocketing for aspiring operatives seeking entry into SI:7's ranks."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "dockmaster",
+  "elwynn forest",
+  "jerod's landing",
+  "mathias shaw",
+  "shipping schedule",
+  "si:7",
+  "smuggling"
+ ],
+ "related": [
+  "quest:2206",
+  "subzone:jerod-s-landing",
+  "npc:mathias-shaw",
+  "quest:2205",
+  "zone:elwynn",
+  "subzone:goldshire",
+  "zone:westfall",
+  "topic:rogue"
+ ],
+ "attribution": [
+  "Shipping Schedule",
+  "Snatch and Grab"
+ ]
+}

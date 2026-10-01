@@ -1,0 +1,115 @@
+{
+ "key": "quest:456",
+ "type": "quest",
+ "name": "The Balance of Nature",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   456
+  ],
+  "level": "2",
+  "faction": "Alliance",
+  "start": "Conservator Ilthalaine",
+  "end": "",
+  "previous": null,
+  "next": "The Balance of Nature (2); Verdant Sigil (Classic), Etched Sigil (Classic), Hallowed Sigil (Classic), Encrypted Sigil (Classic), or Simple Sigil (Classic)",
+  "wiki": "The Balance of Nature (Classic)",
+  "chain": [
+   "The Balance of Nature (Classic)",
+   "The Balance of Nature (2)",
+   "Verdant Sigil (Classic)",
+   "Etched Sigil (Classic)",
+   "Hallowed Sigil (Classic)",
+   "Encrypted Sigil (Classic)",
+   "Simple Sigil (Classic)"
+  ]
+ },
+ "summary": "\"The Balance of Nature\" is the introductory quest offered to newly awakened night elves in Shadowglen. Bestowed by Conservator Ilthalaine, it charges young adventurers with culling overgrown populations of young nightsabers and thistle boars. The task introduces new heroes to the ancient kaldorei duty of stewarding and preserving the natural harmony of Teldrassil.",
+ "sections": [
+  {
+   "title": "A Delicate Harmony",
+   "body": "Teldrassil may appear wild and ancient, but its ecosystems are young and fragile. In Shadowglen, sheltered beneath the Great Tree's sprawling boughs, heavy spring rains have disrupted the forest's delicate cycle. Certain wildlife populations flourished beyond the land's capacity to sustain them, threatening to strip the glen of resources and plunge the entire ecosystem into famine. Preserving the forest requires proactive stewardship.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Conservator's Call",
+   "body": "Conservator Ilthalaine watches over the woods of Shadowglen, ensuring that no single element overtakes another. To prevent mass starvation among the animals, he sends young night elves out into the grove to thin the thistle boars and predatory nightsabers. It is an unglamorous but vital responsibility, establishing the core philosophy of kaldorei culture: harmony with nature demands active balance and difficult decisions.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do the nightsabers and boars need to be killed?",
+   "aliases": [
+    "why kill boars",
+    "why kill nightsabers",
+    "balance of nature reason"
+   ],
+   "answer": "Heavy spring rains caused the young nightsaber and thistle boar populations to boom. Shadowglen can only sustain so much wildlife, and the overgrown herds risk stripping the grove of food and starving themselves and other creatures."
+  },
+  {
+   "q": "Who is Conservator Ilthalaine?",
+   "aliases": [
+    "who is ilthalaine",
+    "quest giver",
+    "conservator ilthalaine lore"
+   ],
+   "answer": "Conservator Ilthalaine is a kaldorei guardian stationed in Shadowglen. His sworn duty is to monitor the grove's wildlife and vegetation to ensure nature's harmony remains intact."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "quest location",
+    "where is shadowglen",
+    "starting area night elf"
+   ],
+   "answer": "The quest takes place in Shadowglen, a secluded forest enclave situated within the branches of Teldrassil, the World Tree off the coast of northern Kalimdor."
+  },
+  {
+   "q": "What comes next after completing this task?",
+   "aliases": [
+    "follow up quest",
+    "next quest in chain"
+   ],
+   "answer": "Ilthalaine tasks you with a second part of the culling, while also presenting you with a class-specific sigil that directs you to your first trainer in Aldrassil."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "This task marks the first step of your journey as an adult protector of the kaldorei, learning that nature's balance requires active intervention and respect."
+  },
+  {
+   "target": "class:Druid",
+   "text": "For budding druids, this culling is a direct lesson in the harsh realities of Cenarion stewardship: protecting the wilds sometimes requires shedding blood to save the whole."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Learning to track and cull aggressive wildlife forms the foundation of every hunter's communion with the beasts of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "balance of nature",
+  "ilthalaine",
+  "kaldorei",
+  "nightsaber",
+  "shadowglen",
+  "teldrassil",
+  "thistle boar"
+ ],
+ "related": [
+  "npc:ilthalaine",
+  "subzone:shadowglen",
+  "zone:teldrassil",
+  "topic:night-elf",
+  "quest:3120",
+  "quest:3117",
+  "quest:3119",
+  "quest:3118"
+ ],
+ "attribution": [
+  "The Balance of Nature (Classic)"
+ ]
+}

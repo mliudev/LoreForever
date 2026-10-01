@@ -1,0 +1,92 @@
+{
+ "key": "item:tainted-letter",
+ "type": "item",
+ "name": "Tainted Letter",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Tainted Letter",
+  "quests": [
+   "quest:3105"
+  ]
+ },
+ "summary": "The Tainted Letter is a discreetly delivered summons bearing the seal of Drusilla La Salle, a warlock trainer lurking on the outskirts of Northshire Abbey. It directs aspiring human practitioners of the dark arts to report to her for specialized tutelage away from watchful eyes.",
+ "sections": [
+  {
+   "title": "A Covert Summons",
+   "body": "While priests, paladins, and standard soldiers train openly across the manicured lawns of Northshire Abbey, practitioners of fel magic must operate with far greater discretion. Handed to initiates returning from the nearby vermin-infested vineyards and mines, this letter carries the personal insignia of Drusilla La Salle. Bearing subtle traces of dark artifice, the missive instructs novice warlocks to seek out their mentor discreetly near the abbey's grounds before the local town guards and clerics become suspicious of their forbidden path.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of Ambition",
+   "body": "Meeting Drusilla reveals the necessity for such secretive measures. Warlocks are viewed with deep distrust by the mundane populace of Elwynn, forcing mentors to linger on the fringes and avoid prying sentries. Drusilla uses the delivered letter to initiate a critical lesson in discipline: arcane and nether magic invite relentless corruption, requiring practitioners to temper their surging ambition with patient self-control while communing with denizens of the Twisting Nether.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sent the Tainted Letter?",
+   "aliases": [
+    "who wrote tainted letter",
+    "drusilla letter",
+    "sender of tainted letter"
+   ],
+   "answer": "The letter was written and sealed by Drusilla La Salle, the local warlock trainer stationed just outside the main hall of Northshire Abbey."
+  },
+  {
+   "q": "Why is the letter considered tainted?",
+   "aliases": [
+    "why is it tainted",
+    "what makes the letter tainted",
+    "tainted seal"
+   ],
+   "answer": "The missive is marked with fel undertones and sealed with the insignia of a practitioner of demonic arts, carrying an aura of dark magic that sets it apart from ordinary correspondence."
+  },
+  {
+   "q": "Why are Northshire guards watching Drusilla La Salle?",
+   "aliases": [
+    "drusilla guards",
+    "why do guards suspect drusilla",
+    "warlock hiding in northshire"
+   ],
+   "answer": "The guards and priests of Northshire Abbey distrust fel magic and demonic summoning. Drusilla must keep a low profile on the abbey's outskirts to avoid provoking the mundane authorities who keep close watch on suspected practitioners."
+  },
+  {
+   "q": "What advice does Drusilla give upon reading the letter?",
+   "aliases": [
+    "drusilla advice",
+    "what does drusilla say",
+    "drusilla training"
+   ],
+   "answer": "Drusilla cautions the initiate that dealing with entities from the Twisting Nether invites intense temptation and corruption. She instructs her pupils to exercise self-control and prudence without allowing caution to extinguish their personal ambition."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The Tainted Letter marks your formal introduction to the shadowy craft within the Kingdom of Stormwind, establishing that power over the Nether demands constant vigilance and discretion."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human society broadly champions the Holy Light, leaving practitioners of dark magic to conduct their initiations and training covertly on the margins of places like Northshire Abbey."
+  }
+ ],
+ "keywords": [
+  "drusilla la salle",
+  "elwynn forest",
+  "northshire abbey",
+  "tainted letter",
+  "twisting nether",
+  "warlock"
+ ],
+ "related": [
+  "quest:3105",
+  "npc:drusilla-la-salle",
+  "subzone:northshire-abbey",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Tainted Letter",
+  "Tainted Letter (quest)"
+ ]
+}

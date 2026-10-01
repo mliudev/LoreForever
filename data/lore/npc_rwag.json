@@ -1,0 +1,85 @@
+{
+ "key": "npc:rwag",
+ "type": "npc",
+ "name": "Rwag",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Rwag",
+  "refs": 2
+ },
+ "summary": "Rwag is the orc rogue trainer stationed in the Den, tucked within Durotar's Valley of Trials. He instructs newly arrived orcs and trolls in the arts of stealth, subterfuge, and dirty fighting under the watchful gaze of the Horde.",
+ "sections": [
+  {
+   "title": "Shadows of the Valley",
+   "body": "Operating deep within the cave known as the Den, Rwag trains fledgling rogues, cutpurses, and thieves before they step out into the wider world of Durotar. While the new Horde champions martial honor and battlefield valor, Rwag understands that subtlety, poisons, and a well-placed dagger remain invaluable tools for survival in an unforgiving desert. He keeps a sharp eye on Valley business and harbors deep suspicions regarding the dark practitioners also sheltering in the cave, particularly the warlock Nartok.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rwag?",
+   "aliases": [
+    "who is rwag",
+    "rwag valley of trials",
+    "orc rogue trainer"
+   ],
+   "answer": "Rwag is an orc rogue trainer situated inside the Den in the Valley of Trials. He instructs novice orc and troll rogues as they begin their training in Durotar."
+  },
+  {
+   "q": "Where can I find Rwag?",
+   "aliases": [
+    "rwag location",
+    "where is rwag",
+    "find rwag"
+   ],
+   "answer": "Rwag is located deep inside the Den, a cavern cut into the rocky cliffs of the Valley of Trials in Durotar, standing among several other class trainers."
+  },
+  {
+   "q": "What does Rwag think of the warlocks in the Den?",
+   "aliases": [
+    "rwag nartok",
+    "why does rwag distrust warlocks",
+    "rwag encrypted parchment"
+   ],
+   "answer": "Rwag openly distrusts the warlocks who share the Den, specifically keeping a cautious eye on the fel practitioner Nartok, noting that dark magic and secretive cultists require constant vigilance."
+  },
+  {
+   "q": "Which classes does Rwag train?",
+   "aliases": [
+    "what does rwag teach",
+    "can rwag train me"
+   ],
+   "answer": "Rwag exclusively trains rogues, offering early martial instruction in abilities like Eviscerate and teaching recruits how to read encrypted orders from Horde handlers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "For young orc and troll rogues stepping into the Valley of Trials, Rwag is the very first mentor in basic skulduggery, teaching early offensive techniques and deciphering secret ciphers."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Rwag represents the practical, unsanitized edge of orcish survival, proving that even in Thrall's honorable new Horde, shadows and cold steel remain vital."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "nartok",
+  "rogue",
+  "rwag",
+  "the den",
+  "trainer",
+  "valley of trials"
+ ],
+ "related": [
+  "subzone:valley-of-trials",
+  "quest:1089",
+  "quest:3083",
+  "quest:3088",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Rwag"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "key": "item:shimmering-frond",
+ "type": "item",
+ "name": "Shimmering Frond",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Shimmering Frond",
+  "quests": [
+   "quest:931"
+  ]
+ },
+ "summary": "A Shimmering Frond is a specimen harvested from a strange, glowing plant growing within the Oracle Glade of Teldrassil. Its unusual luminescence and twisting aura reveal it to be an exotic species entirely alien to the boughs of the World Tree.",
+ "sections": [
+  {
+   "title": "A Specimen from Afar",
+   "body": "While wandering the verdant canopies around the Oracle Glade, travelers may come across strange vegetation boasting a pulsing, radiant aura. The fronds plucked from this plant catch the filtered woodland light in unnatural ways, shimmering with vibrant vitality. Denalan, a botanist tending to his planters by Lake Al'Ameth, recognizes the foliage immediately as a species native to the distant Swamp of Sorrows in the Eastern Kingdoms. How seeds from a marsh so far across the Great Sea managed to take root and flourish upon the newly raised Teldrassil remains an intriguing mystery, prompting Denalan to sprout and study specimens in his own soil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Shimmering Frond come from?",
+   "aliases": [
+    "where do i get shimmering frond",
+    "shimmering frond location",
+    "strange fronded plant"
+   ],
+   "answer": "The frond is harvested from a strange fronded plant situated within the Oracle Glade on Teldrassil. The plant stands out due to the twisting, pulsing radiance that glows across its leaves in the forest light."
+  },
+  {
+   "q": "Who is interested in the Shimmering Frond?",
+   "aliases": [
+    "who wants shimmering frond",
+    "who to give shimmering frond",
+    "denalan shimmering frond"
+   ],
+   "answer": "Denalan, a night elf naturalist conducting botanical research beside Lake Al'Ameth, is eager to inspect the specimen. He takes great interest in strange vegetation taking root across Teldrassil."
+  },
+  {
+   "q": "What makes this plant so unusual on Teldrassil?",
+   "aliases": [
+    "why is shimmering frond special",
+    "plant origin",
+    "swamp of sorrows plant"
+   ],
+   "answer": "The plant is not native to Kalimdor or the World Tree. Denalan recognizes it as a species indigenous to the murky waters of the Swamp of Sorrows, located far across the Great Sea in the Eastern Kingdoms, making its thriving presence on Teldrassil quite unexpected."
+  },
+  {
+   "q": "What happens after giving the frond to Denalan?",
+   "aliases": [
+    "what does denalan do with it",
+    "sprouted fronds lore"
+   ],
+   "answer": "Denalan immediately plants and cultivates the specimen in his planters beside Lake Al'Ameth to conduct tests on its rapid growth and exotic properties."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The appearance of an invasive marsh plant flourishing on the newborn branches of Teldrassil is a curious ecological anomaly worthy of any druid's attention."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Herbalists wandering Teldrassil can appreciate the rare resilience required for a Swamp of Sorrows native to cross the ocean and thrive in foreign soil."
+  }
+ ],
+ "keywords": [
+  "botany",
+  "denalan",
+  "lake al'ameth",
+  "oracle glade",
+  "shimmering frond",
+  "strange fronded plant",
+  "swamp of sorrows",
+  "teldrassil"
+ ],
+ "related": [
+  "quest:931",
+  "npc:denalan",
+  "subzone:oracle-glade",
+  "subzone:lake-al-ameth",
+  "zone:swampofsorrows",
+  "quest:2399",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Shimmering Frond",
+  "The Shimmering Frond"
+ ]
+}

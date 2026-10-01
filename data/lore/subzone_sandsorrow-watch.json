@@ -16,7 +16,7 @@
   },
   {
    "title": "Frontier Outpost",
-   "body": "The eastern outpost has been secured as a neutral foothold overlooking the Sandfury lands. Travelers and artisans, including the blacksmith Trenton Lighthammer, operate within this small camp while keeping a wary eye on Farraki activities. The encampment even keeps captured Sandfury specimens securely caged for study and interrogation, demonstrating the volatile frontier tension between Tanaris's opportunistic settlers and the native sand trolls.",
+   "body": "Even the watch tower at the eastern edge, within sight of Gadgetzan's walls, is held by the Sandfury. From its heights the Farraki keep a wary eye on the goblin town, and travelers leaving through Gadgetzan's western gate walk almost directly into their territory, a constant reminder of the volatile frontier tension between Tanaris's opportunistic settlers and the native sand trolls.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "sandsorrow watch faction",
     "who holds sandsorrow watch"
    ],
-   "answer": "The wider ruins and surrounding dunes are occupied by hostile Sandfury trolls and their undead minions. However, the eastern watch tower itself is maintained as a neutral frontier camp, frequented by independent travelers and artisans like the smith Trenton Lighthammer."
+   "answer": "The ruins, the surrounding dunes and the eastern watch tower are all occupied by hostile Sandfury trolls and their undead minions."
   },
   {
    "q": "Why are there undead trolls at Sandsorrow Watch?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "The camp at the watch tower is home to Trenton Lighthammer, a talented smith positioned deep in the desert sands."
+   "text": "No smith works at the Sandfury-held watch tower; desert smiths gather behind Gadgetzan's walls instead, just to the east."
   },
   {
    "target": "race:Troll",

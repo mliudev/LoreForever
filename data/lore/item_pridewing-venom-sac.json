@@ -1,0 +1,89 @@
+{
+ "key": "item:pridewing-venom-sac",
+ "type": "item",
+ "name": "Pridewing Venom Sac",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Pridewing Venom Sac",
+  "quests": [
+   "quest:1134"
+  ]
+ },
+ "summary": "Pridewing Venom Sacs are harvested from the lethal wyverns nesting around Mirkfallon Lake in the Stonetalon Mountains. The night elves of Astranaar seek to stockpile and destroy these sacs after intelligence suggests Horde operatives harvest the potent poison for covert assassinations.",
+ "sections": [
+  {
+   "title": "A Threat in the Crags",
+   "body": "The pridewings of Stonetalon are dangerous, airborne predators native to the peaks south of Ashenvale, particularly around Mirkfallon Lake. While wild wyverns are naturally venomous, Alliance intelligence out of Theramore suggests that Horde assassins have begun milking them for poison to coat blades used in covert raids against night elf settlements. To safeguard their kin and disrupt enemy supplies, the Sentinels in Astranaar hire scouts to hunt down the beasts and collect the venom glands before the Horde can secure them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures yield a Pridewing Venom Sac?",
+   "aliases": [
+    "where to get pridewing venom sac",
+    "who drops pridewing venom sac",
+    "pridewing venom sources"
+   ],
+   "answer": "These venom sacs are retrieved from the various wyverns inhabiting the crags near Mirkfallon Lake in the Stonetalon Mountains, including young pridewings, skyhunters, patriarchs, and consorts."
+  },
+  {
+   "q": "Why does Astranaar want Pridewing Venom Sacs?",
+   "aliases": [
+    "why collect venom sacs",
+    "shindrell swiftfire venom"
+   ],
+   "answer": "Shindrell Swiftfire received reports that Horde agents harvest pridewing poison to coat weapons used in silent assassinations against the Alliance. Destroying or confiscating the glands preempts these strikes."
+  },
+  {
+   "q": "Who accepts these venom sacs in Ashenvale?",
+   "aliases": [
+    "who takes pridewing venom",
+    "pridewing quest turn in"
+   ],
+   "answer": "Shindrell Swiftfire, stationed in the night elf town of Astranaar within Ashenvale, collects them to protect her people from covert attacks."
+  },
+  {
+   "q": "Are the pridewings naturally allied with the Horde?",
+   "aliases": [
+    "are pridewings horde",
+    "do pridewings work for orcs"
+   ],
+   "answer": "No. The wild pridewings around Mirkfallon Lake are beasts that do not willingly aid the Horde, though orc agents exploit their venomous biology for their own warfare."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Denying the Horde access to pridewing venom is vital to safeguarding frontier patrols from unseen assassins along the contested borders of Stonetalon and Ashenvale."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Though Sentinel leadership regrets having to cull innocent wild beasts, protecting elven lives against poisoned blades takes precedence over natural harmony."
+  }
+ ],
+ "keywords": [
+  "astranaar",
+  "mirkfallon lake",
+  "pridewing",
+  "shindrell swiftfire",
+  "stonetalon",
+  "venom sac",
+  "wyvern"
+ ],
+ "related": [
+  "quest:1134",
+  "npc:shindrell-swiftfire",
+  "subzone:mirkfallon-lake",
+  "subzone:astranaar",
+  "zone:stonetalon",
+  "zone:ashenvale",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Pridewing Venom Sac",
+  "Pridewings of Stonetalon"
+ ]
+}

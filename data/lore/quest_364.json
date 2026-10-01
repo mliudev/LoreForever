@@ -1,0 +1,125 @@
+{
+ "key": "quest:364",
+ "type": "quest",
+ "name": "The Mindless Ones",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   364
+  ],
+  "level": "2",
+  "faction": "Horde",
+  "start": "Shadow Priest Sarvis",
+  "end": "",
+  "previous": "Rude Awakening",
+  "next": "Rattling the Rattlecages, The Damned (Classic), Class quests",
+  "wiki": "The Mindless Ones",
+  "chain": []
+ },
+ "summary": "Shadow Priest Sarvis tasks newly awakened Forsaken with culling the Mindless Zombies and Wretched Zombies that wander the northern edges of Deathknell. These shambling corpses are Scourge thralls, devoid of free will and utterly bound to the Lich King's command.",
+ "sections": [
+  {
+   "title": "Slaves to the Frozen Throne",
+   "body": "Not all who rise from the dirt of Lordaeron regain their minds. While the Forsaken threw off the mental domination of Ner'zhul when his power waned, countless corpses remain hollow husks chained to his will. In northern Deathknell, these Mindless and Wretched Zombies wander without purpose other than raw violence. For a newly risen undead, putting them down is the first bitter trial of existence\u2014proving one's autonomy by severing the chains of those who never broke free.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mercy Through Destruction",
+   "body": "Though Shadow Priest Sarvis laments that these vast legions of dead cannot be recruited to bolster the Forsaken's desperate struggle, there is no curing them. The mindless undead are permanently broken instruments of slaughter. Leaving them to roam invites chaos to Deathknell's doorstep and provides the Lich King with easy fodder. Eliminating them is both a tactical necessity and an act of grim finality for Lordaeron's fallen people.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why can't the mindless zombies be recruited into the Forsaken?",
+   "aliases": [
+    "recruit mindless zombies",
+    "why kill them",
+    "can mindless zombies be cured",
+    "free the zombies"
+   ],
+   "answer": "They lack the cognitive will to break free from the Lich King. Shadow Priest Sarvis notes that while their numbers would be invaluable, their minds are entirely degraded. Because they cannot choose to join Lady Sylvanas, they remain dangerous Scourge thralls that must be purged."
+  },
+  {
+   "q": "Who are these zombies originally?",
+   "aliases": [
+    "who were the mindless ones",
+    "identity of mindless zombies",
+    "deathknell corpses"
+   ],
+   "answer": "They are the former human inhabitants of Lordaeron who fell during the Third War to the plague of undeath. Unlike the player character, they never recovered their memories, personalities, or individual agency when the Lich King's grip slipped."
+  },
+  {
+   "q": "Why is Shadow Priest Sarvis commanding the defense here?",
+   "aliases": [
+    "who is sarvis",
+    "sarvis deathknell role",
+    "priest sarvis"
+   ],
+   "answer": "Shadow Priest Sarvis oversees the initial intake and survival of newly risen undead in Deathknell. He assesses whether newly awakened Forsaken have the grit and clarity of mind to survive the harsh reality of their existence."
+  },
+  {
+   "q": "What is the difference between Forsaken and Scourge zombies?",
+   "aliases": [
+    "scourge vs forsaken",
+    "difference between forsaken and mindless",
+    "why are some zombies mindless"
+   ],
+   "answer": "Free will. Forsaken broke away from the Lich King's telepathic domination and possess self-determination, intelligence, and emotion. Scourge zombies are empty vessels puppeteered directly by the Lich King's malice."
+  },
+  {
+   "q": "Are the mindless zombies a threat to Deathknell?",
+   "aliases": [
+    "deathknell danger",
+    "why clear northern deathknell",
+    "zombie threat"
+   ],
+   "answer": "Yes. Wandering just north of the village, their aggression poses an immediate hazard to new arrivals emerging from the graves and the Forsaken priests trying to organize the settlement."
+  },
+  {
+   "q": "Where does this task lead next?",
+   "aliases": [
+    "next quest after mindless ones",
+    "mindless ones followup",
+    "what comes next"
+   ],
+   "answer": "Proving competence against the mindless dead leads to further duties securing Deathknell, such as culling skeletal Scourge in Rattling the Rattlecages and pursuing initial training with your class mentor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Every zombie roaming the village outskirts could have been your neighbor, kin, or friend in life, serving as an immediate reminder of what you were spared\u2014and what happens if the Forsaken fall."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Serving under Shadow Priest Sarvis introduces you to the pragmatic, shadow-tinged philosophy the Forsaken have adopted in place of the Holy Light that abandoned them."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The existence of thralls like these illustrates why the Horde viewed the Forsaken with such deep suspicion before granting them entry into the faction."
+  }
+ ],
+ "keywords": [
+  "deathknell",
+  "forsaken",
+  "lich king",
+  "mindless ones",
+  "mindless zombie",
+  "scourge",
+  "shadow priest sarvis",
+  "wretched zombie"
+ ],
+ "related": [
+  "npc:shadow-priest-sarvis",
+  "quest:363",
+  "topic:forsaken",
+  "topic:scourge",
+  "topic:lich-king",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "The Mindless Ones"
+ ]
+}

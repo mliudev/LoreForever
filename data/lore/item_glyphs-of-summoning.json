@@ -1,0 +1,86 @@
+{
+ "key": "item:glyphs-of-summoning",
+ "type": "item",
+ "name": "Glyphs of Summoning",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Glyphs of Summoning",
+  "quests": [
+   "quest:1504"
+  ]
+ },
+ "summary": "The Glyphs of Summoning are ritual inscriptions used by apprentice warlocks in Orgrimmar. Transcribed from the ancient Tablet of Verga, they allow a practitioner to draw a voidwalker from the Nether into a summoning circle and bind it to their service.",
+ "sections": [
+  {
+   "title": "A Pact Forged in Shadow",
+   "body": "In the subterranean depths of the Cleft of Shadows, the dark arts are studied far from the prying eyes of the Warchief's guards. For an aspiring warlock under the tutelage of Gan'rul Bloodeye, commanding a voidwalker marks a vital step in their craft. The Glyphs of Summoning, derived from the esoteric knowledge inscribed upon the Tablet of Verga, bridge the boundary between Azeroth and the Nether. Laid down within the summoning circle in Neeru Fireblade's tent, the glyphs tear open a threshold, pulling a creature of the Void into the mortal realm. The ritual demands that the warlock conquer the summoned entity in combat before Gan'rul imparts the final methods of binding.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Glyphs of Summoning used for?",
+   "aliases": [
+    "what do glyphs of summoning do",
+    "glyphs of summoning purpose",
+    "how to use glyphs of summoning"
+   ],
+   "answer": "The glyphs are ritual writings used within the summoning circle in Neeru Fireblade's tent in Orgrimmar. When activated, they conjure a hostile voidwalker from the Nether, which the warlock must subdue in order to master the art of summoning it."
+  },
+  {
+   "q": "Where do the Glyphs of Summoning come from?",
+   "aliases": [
+    "where to get glyphs of summoning",
+    "who gives glyphs of summoning"
+   ],
+   "answer": "They are provided by the warlock trainer Gan'rul Bloodeye in the Cleft of Shadows, derived from the knowledge preserved on the Tablet of Verga."
+  },
+  {
+   "q": "Where is the summoning ritual performed?",
+   "aliases": [
+    "where do i summon voidwalker",
+    "summoning circle location orgrimmar",
+    "neeru fireblade circle"
+   ],
+   "answer": "The ritual takes place inside the tent of Neeru Fireblade, located across the cavern floor within Orgrimmar's Cleft of Shadows."
+  },
+  {
+   "q": "Why do warlocks have to defeat the summoned creature?",
+   "aliases": [
+    "why fight the voidwalker",
+    "subdue voidwalker"
+   ],
+   "answer": "A warlock cannot safely control a demon or creature of the Void without establishing dominance over it. Defeating the summoned entity proves the warlock's resolve and allows Gan'rul Bloodeye to teach the secrets of binding its kind to their will."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The glyphs represent an essential rite of passage for Horde warlocks, serving as the instrument through which they prove their mastery over the Void and claim their voidwalker servant."
+  }
+ ],
+ "keywords": [
+  "cleft of shadows",
+  "gan'rul bloodeye",
+  "glyphs of summoning",
+  "neeru fireblade",
+  "orgrimmar",
+  "tablet of verga",
+  "the binding",
+  "voidwalker"
+ ],
+ "related": [
+  "quest:1471",
+  "npc:gan-rul-bloodeye",
+  "item:tablet-of-verga",
+  "quest:1473",
+  "quest:1506",
+  "zone:orgrimmar",
+  "quest:829"
+ ],
+ "attribution": [
+  "Glyphs of Summoning",
+  "The Binding (Voidwalker, Orgrimmar)"
+ ]
+}

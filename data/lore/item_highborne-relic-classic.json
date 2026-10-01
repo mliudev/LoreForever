@@ -1,0 +1,95 @@
+{
+ "key": "item:highborne-relic-classic",
+ "type": "item",
+ "name": "Highborne Relic (Classic)",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Highborne Relic (Classic)",
+  "quests": [
+   "quest:968"
+  ]
+ },
+ "summary": "Highborne Relics are ancient magical implements recovered from the restless spirits haunting the ruins of Ameth'Aran in Darkshore. Imbued with the arcane dabblings that shattered ancient Kalimdor, they are sought by night elf scholars who wish to see them destroyed before their dormant powers can cause further harm.",
+ "sections": [
+  {
+   "title": "Remnants of the Sundering",
+   "body": "Ten thousand years ago, the Highborne caste practiced reckless arcane magic, ultimately bringing ruin upon ancient Kalimdor. Today, their former estates lie in shattered ruin across Darkshore. Within the crumbling columns of Ameth'Aran, wailing and writhing apparitions wander the forest floor, endlessly clinging to the physical implements of their bygone sorcery. These relics remain persistent tether-points of arcane taint, clutched by ghosts who refuse to release the instruments of their own undoing.",
+   "spoiler": 0
+  },
+  {
+   "title": "Purging the Arcane Taint",
+   "body": "For modern night elf society, which largely renounced arcane magic after the Great Sundering, such artifacts represent a grave hazard. Scholars like Thundris Windweaver in Auberdine, acting upon scouting reports from the Sentinels, actively commission travelers to wrest these relics from the spectral hands of the cursed spirits. Once gathered, the relics are systematically destroyed to ensure that the ancient evils and catastrophic mistakes of the Highborne cannot be repeated.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Highborne Relics come from?",
+   "aliases": [
+    "where do i find highborne relics",
+    "who drops highborne relics",
+    "relic location"
+   ],
+   "answer": "They are recovered from the ghostly specters haunting the ruins of Ameth'Aran, located east of the main road in southern Darkshore. Cursed, writhing, and wailing Highborne spirits carry them amidst the ancient stones."
+  },
+  {
+   "q": "Why does Thundris Windweaver want these relics?",
+   "aliases": [
+    "why collect relics",
+    "what happens to the relics",
+    "windweaver goal"
+   ],
+   "answer": "Thundris Windweaver fears the lingering arcane corruption still clinging to these ancient items. He collects them so they can be completely dismantled and destroyed, preventing anyone from reviving the dangerous Highborne sorcery."
+  },
+  {
+   "q": "Why are the Highborne spirits still in Ameth'Aran?",
+   "aliases": [
+    "why are ametharan ghosts there",
+    "who are the cursed highborne",
+    "why ghosts in darkshore"
+   ],
+   "answer": "The spirits are ancient Highborne nobility who perished when the world shattered ten thousand years ago. Cursed by their hubris and lingering attachment to arcane magic, their restless souls remain bound to the ruins of their former city."
+  },
+  {
+   "q": "Are Highborne Relics safe to use?",
+   "aliases": [
+    "can i use highborne relics",
+    "are relics dangerous"
+   ],
+   "answer": "No. The night elves consider them tainted by the foul, unchecked arcane practices that triggered the Great Sundering. Their dormant magic is considered hazardous, which is why scholars demand their destruction rather than their study."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves, these relics serve as a grim reminder of the disastrous arcane arrogance that tore their ancient civilization apart."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Mages might find the relics' arcane craftsmanship fascinating, but the local night elf authorities tolerate no hesitation in destroying them."
+  }
+ ],
+ "keywords": [
+  "ameth'aran",
+  "arcane",
+  "darkshore",
+  "highborne",
+  "highborne relic",
+  "sentinels",
+  "thundris windweaver"
+ ],
+ "related": [
+  "quest:968",
+  "subzone:ameth-aran",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "topic:highborne",
+  "topic:sentinels",
+  "quest:4761"
+ ],
+ "attribution": [
+  "Highborne Relic (Classic)",
+  "Tools of the Highborne"
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "key": "item:bingles-blastencapper",
+ "type": "item",
+ "name": "Bingles' Blastencapper",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Bingles' Blastencapper",
+  "quests": [
+   "quest:2038"
+  ]
+ },
+ "summary": "Bingles' Blastencapper is a specialized explosive device designed by the gnome pilot Bingles Blastenheimer. Lost when his gyrocopter plunged into the Loch, it was stolen by local troggs, endangering Bingles' plans to support the liberation of Gnomeregan.",
+ "sections": [
+  {
+   "title": "A Volatile Invention",
+   "body": "Bingles' Blastencapper represents the peak of pilot Bingles Blastenheimer's personal ordnance. Built to deliver decisive aerial strikes against the troggs and leper gnomes overruning Gnomeregan, the explosive was aboard his gyrocopter when mechanical failure sent him plummeting into the waters of the Loch. While Bingles survived, troggs infesting the lake's northern islands pillaged his wreckage and dragged the volatile weapon back to their camps.",
+   "spoiler": 0
+  },
+  {
+   "title": "Air Support for Gnomeregan",
+   "body": "To Bingles, the Blastencapper is far more than simple salvage. The exiled gnomes are actively preparing to take back their radioactive home, and Bingles considers his gyrocopter and signature munitions vital components of the impending air assault. Recovering this ordnance prevents the indigenous troggs of Loch Modan from accidentally triggering a catastrophe and preserves a valuable weapon for the gnomish resistance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Bingles' Blastencapper?",
+   "aliases": [
+    "what is blastencapper",
+    "blastencapper",
+    "bingles explosive"
+   ],
+   "answer": "It is a specialized, powerful explosive devised by Bingles Blastenheimer, intended to be used in aerial strikes to aid the gnomish campaign against the troggs and leper gnomes occupying Gnomeregan."
+  },
+  {
+   "q": "How did the Blastencapper end up in the Loch?",
+   "aliases": [
+    "why is it in the loch",
+    "how did bingles lose it",
+    "crash"
+   ],
+   "answer": "Bingles crashed his gyrocopter into the waters of the Loch. Before he could secure his gear, troggs emerging from the nearby islands ransacked his downed craft and carried off his tools alongside the explosive device."
+  },
+  {
+   "q": "Who currently has the Blastencapper?",
+   "aliases": [
+    "who stole the blastencapper",
+    "who has it",
+    "troggs"
+   ],
+   "answer": "The troggs dwelling on the northern islands of the Loch pillaged the device from the crash site and keep it guarded in their primitive camp."
+  },
+  {
+   "q": "Why does Bingles need the Blastencapper returned?",
+   "aliases": [
+    "why need it back",
+    "why is blastencapper important",
+    "for gnomeregan"
+   ],
+   "answer": "Without his tools and signature munitions, Bingles cannot repair his gyrocopter or launch an aerial bombing assault to support the reclamation of Gnomeregan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Every tool and munition counts in the struggle to reclaim Gnomeregan, and recovering Bingles' explosive ensures that gnomish aerial ingenuity can strike back at the trogg invaders."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The Blastencapper demonstrates classic gnomish engineering flair: complex, highly explosive, and devastating when dropped from high altitude."
+  }
+ ],
+ "keywords": [
+  "bingles",
+  "blastencapper",
+  "blastenheimer",
+  "explosives",
+  "gnomeregan",
+  "gyrocopter",
+  "loch modan",
+  "trogg"
+ ],
+ "related": [
+  "quest:2038",
+  "zone:lochmodan",
+  "subzone:the-loch",
+  "zone:gnomeregan",
+  "item:bingles-wrench",
+  "item:bingles-hammer",
+  "item:bingles-screwdriver",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "Bingles' Blastencapper",
+  "Bingles' Missing Supplies"
+ ]
+}

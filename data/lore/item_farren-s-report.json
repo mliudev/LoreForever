@@ -1,0 +1,91 @@
+{
+ "key": "item:farren-s-report",
+ "type": "item",
+ "name": "Farren's Report",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Farren's Report",
+  "quests": [
+   "quest:563"
+  ]
+ },
+ "summary": "Farren's Report is an official dispatch drafted by Lieutenant Farren Orinelle in Southshore detailing his investigations into the local naga. Farren uses this document to appeal to his former mentor, Major Samuelson in Stormwind Keep, hoping to secure a reassignment back to the capital.",
+ "sections": [
+  {
+   "title": "A Ticket Out of Southshore",
+   "body": "Stationed on the embattled coast of Hillsbrad Foothills, Lieutenant Farren Orinelle grew weary of local leadership and the remote frontier. After tasking adventurers with hunting the Daggerspine naga to gather proof of their threat, Orinelle compiled his findings into a formal report. Rather than submitting it to his commanding officer, Magistrate Henry Maleb, or local veteran Marshal Redpath, Farren aimed to send it directly to Major Samuelson, the captain of the guard in Stormwind Keep. Having trained under Samuelson, Farren hoped the document would demonstrate his competence and justify an immediate transfer back to the comforts of Stormwind City.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Farren's Report?",
+   "aliases": [
+    "farrens report",
+    "what is this report",
+    "orinelle report"
+   ],
+   "answer": "It is a formal military dispatch penned by Lieutenant Farren Orinelle summarizing his operations against the Daggerspine naga encroaching on Southshore's beaches."
+  },
+  {
+   "q": "Why does Farren want this delivered to Stormwind?",
+   "aliases": [
+    "why send report to stormwind",
+    "farrens goal",
+    "why samuelson"
+   ],
+   "answer": "Farren wants to be reassigned away from Southshore and back to Stormwind City. He addresses the report directly to Major Samuelson, his former mentor and the captain of the Stormwind guard, hoping to earn a favorable transfer."
+  },
+  {
+   "q": "Why is Farren keeping the report a secret from Redpath?",
+   "aliases": [
+    "why hide from redpath",
+    "ol redpath secret"
+   ],
+   "answer": "Farren wants to avoid scrutiny from Marshal Redpath and local leadership, who might take offense to an officer leveraging a local threat strictly to engineer a personal transfer back to safety in the capital."
+  },
+  {
+   "q": "How does Major Samuelson react upon receiving it?",
+   "aliases": [
+    "samuelson reaction",
+    "turn in reassignment"
+   ],
+   "answer": "Major Samuelson commends his former student for taking initiative against the Southshore naga and promises to consider the report when reviewing guard personnel assignments in the coming month."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The document highlights the bureaucratic maneuvering within the Alliance military, where distant postings in Hillsbrad clash with officers scheming for safer duty in Stormwind."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of the Alliance, carrying Farren's report traces the enduring link between the besieged southern refuge of Southshore and the royal court of Stormwind Keep."
+  }
+ ],
+ "keywords": [
+  "farren orinelle",
+  "farren's report",
+  "major samuelson",
+  "naga",
+  "reassignment",
+  "redpath",
+  "southshore",
+  "stormwind keep"
+ ],
+ "related": [
+  "quest:563",
+  "npc:lieutenant-farren-orinelle",
+  "npc:major-samuelson",
+  "subzone:southshore",
+  "subzone:stormwind-keep",
+  "quest:562",
+  "quest:559",
+  "topic:naga"
+ ],
+ "attribution": [
+  "Farren's Report",
+  "Reassignment"
+ ]
+}

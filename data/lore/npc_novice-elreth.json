@@ -1,0 +1,86 @@
+{
+ "key": "npc:novice-elreth",
+ "type": "npc",
+ "name": "Novice Elreth",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Novice Elreth",
+  "refs": 2
+ },
+ "summary": "Novice Elreth is an undead member of the Forsaken stationed inside the chapel at Deathknell. As newly risen undead awaken into their second life, she directs them to confront the mindless Scourge haunting the nearby graves and tend to the tragic aftermath of the plague.",
+ "sections": [
+  {
+   "title": "A Guide in the Church of the Damned",
+   "body": "Inside the desecrated chapel at Deathknell, Novice Elreth assists the emerging undead as they struggle to understand their horrific awakening. Rather than succumbing to despair or the mindless hunger of the Scourge, the Forsaken must organize quickly to secure their territory. Elreth provides newly freed souls with early tasks, directing them to scavenge grave dust from mindless corpses and deal with the lingering remnants of Lordaeron's tragic downfall, including the lingering sorrow of Samuel Fitts and his departed wife Marla.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Novice Elreth located?",
+   "aliases": [
+    "elreth location",
+    "where is elreth",
+    "novice elreth church"
+   ],
+   "answer": "Novice Elreth stands inside the chapel in Deathknell, the ruined village in Tirisfal Glades where newly created Forsaken awaken."
+  },
+  {
+   "q": "What is Novice Elreth's role in Deathknell?",
+   "aliases": [
+    "what does elreth do",
+    "elreth role",
+    "novice elreth purpose"
+   ],
+   "answer": "She acts as a local guide and taskmaster for newly arisen Forsaken. She gives out vital early directives, teaching fresh undead to strike against mindless Scourge prowling the village cemetery."
+  },
+  {
+   "q": "What quests does Novice Elreth offer?",
+   "aliases": [
+    "novice elreth quests",
+    "elreth tasks"
+   ],
+   "answer": "She assigns missions such as The Damned, asking adventurers to harvest scavenging materials from mindless zombies, and assists Samuel Fitts with his tragic request regarding his late wife in Marla's Last Wish."
+  },
+  {
+   "q": "Why is she titled 'Novice'?",
+   "aliases": [
+    "why novice",
+    "novice meaning elreth",
+    "is elreth a priest"
+   ],
+   "answer": "Given her location in the chapel and her title, Elreth is an initiate among the Forsaken's religious or civic ranks, learning the dark practicalities of managing Tirisfal's freshly raised undead under the shadow of the Forsaken order."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For fresh Forsaken crawling out of the grave, Novice Elreth offers some of the first practical steps toward survival, focusing cold hatred against the mindless Scourge."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Standing within the former holy grounds of Lordaeron, Elreth embodies the stark, pragmatic shift from holy worship to grim undead necessity."
+  }
+ ],
+ "keywords": [
+  "chapel",
+  "church",
+  "deathknell",
+  "forsaken",
+  "marla's last wish",
+  "novice elreth",
+  "the damned",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:deathknell",
+  "zone:tirisfal",
+  "quest:376",
+  "quest:6395",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Novice Elreth"
+ ]
+}

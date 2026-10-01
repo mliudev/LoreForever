@@ -1,0 +1,83 @@
+{
+ "key": "item:razorflank-s-medallion",
+ "type": "item",
+ "name": "Razorflank's Medallion",
+ "era": "classic",
+ "zone": "razorfenkraul",
+ "meta": {
+  "wiki": "Razorflank's Medallion",
+  "quests": [
+   "quest:1101"
+  ]
+ },
+ "summary": "Razorflank's Medallion is a personal token carried by Charlga Razorflank, the crone ruling over Razorfen Kraul. Recovered from the heart of the quillboar stronghold, it serves as undeniable proof that the matriarch has been brought down.",
+ "sections": [
+  {
+   "title": "Proof of the Crone's Fall",
+   "body": "Carried by Charlga Razorflank herself, this medallion represents the authority of the crone who leads the Razorfen quillboar. When Falfindel Waywarder at Thalanaar learns of the fates of fallen explorers like Heralath and the dwarf Lonebrow, he tasks Alliance adventurers with striking directly at the quillboar leader. Presenting the crone's medallion confirms her death, reassuring the night elf sentinels guarding the borders of Feralas that the gathered forces within the Kraul have lost their leader.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who carries Razorflank's Medallion?",
+   "aliases": [
+    "who drops razorflanks medallion",
+    "razorflank medallion source",
+    "charlga medallion"
+   ],
+   "answer": "The medallion belongs to Charlga Razorflank, the crone and undisputed leader of the quillboar within Razorfen Kraul. She carries it upon her person deep within the thorny labyrinths of the stronghold."
+  },
+  {
+   "q": "Who wants this medallion brought to them?",
+   "aliases": [
+    "who wants razorflank medallion",
+    "turn in razorflanks medallion",
+    "falfindel medallion"
+   ],
+   "answer": "Falfindel Waywarder, stationed at the border post of Thalanaar between Feralas and the Thousand Needles, asks for the medallion. He seeks it as definitive proof that Charlga has been slain."
+  },
+  {
+   "q": "Why does Falfindel need proof of Charlga's death?",
+   "aliases": [
+    "why kill charlga",
+    "purpose of medallion",
+    "why need medallion"
+   ],
+   "answer": "Charlga was mustering a hostile quillboar force within Razorfen Kraul, threatening the surrounding regions and leading to the deaths of scouts like Heralath and Lonebrow. Bringing back the medallion assures the night elves that the immediate threat has been broken and allows their investigations into the area to continue."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Recovering the medallion avenges the fallen scout Heralath and the dwarf explorer Lonebrow, securing Thalanaar's border route into Feralas."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Slaying Charlga and claiming her medallion allows the night elves to safely study the corrupted sacred resting grounds of Agamaggan."
+  }
+ ],
+ "keywords": [
+  "agamaggan",
+  "charlga razorflank",
+  "falfindel waywarder",
+  "lonebrow",
+  "razorfen kraul",
+  "razorflank's medallion",
+  "thalanaar"
+ ],
+ "related": [
+  "quest:1101",
+  "npc:charlga-razorflank",
+  "npc:falfindel-waywarder",
+  "zone:razorfenkraul",
+  "subzone:thalanaar",
+  "topic:agamaggan",
+  "topic:razorfen",
+  "quest:1100"
+ ],
+ "attribution": [
+  "Razorflank's Medallion",
+  "The Crone of the Kraul"
+ ]
+}

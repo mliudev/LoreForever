@@ -1,0 +1,79 @@
+{
+ "key": "npc:balir-frosthammer",
+ "type": "npc",
+ "name": "Balir Frosthammer",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Balir Frosthammer",
+  "refs": 1
+ },
+ "summary": "Balir Frosthammer is a dwarven defender stationed in Coldridge Valley within Dun Morogh. Alarmed by the sudden and aggressive incursions of Rockjaw troggs into dwarven lands, he recruits fledgling adventurers to stem the tide before the valley is overrun.",
+ "sections": [
+  {
+   "title": "Holding Coldridge Valley",
+   "body": "Perched in the snowy enclave of Coldridge Valley, Balir Frosthammer watches the perimeter against encroaching dangers. The valley has long served as a safe haven and training ground for dwarven and gnomish novices, but recent disturbances underground have unleashed violent Rockjaw troggs onto the surface. Balir is among the first to sound the alarm, rallying newly arrived recruits to cull the troggs before they breach deeper into Dun Morogh.",
+   "spoiler": 0
+  },
+  {
+   "title": "Kin of the Frosthammers",
+   "body": "Bearing the proud Frosthammer surname, Balir may share a lineage with Tannok Frosthammer of Kharanos. Their family stands resolute in their duty to Ironforge, ensuring that the cold mountain passes remain secure for travelers, miners, and mountaineers even as regional threats multiply.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Balir Frosthammer?",
+   "aliases": [
+    "balir frosthammer who is he",
+    "who is balir"
+   ],
+   "answer": "Balir Frosthammer is a dwarf stationed in Dun Morogh's Coldridge Valley. He tasks incoming adventurers with thinning out the hostile Rockjaw troggs threatening the valley's defenses."
+  },
+  {
+   "q": "Why is Balir concerned about the troggs?",
+   "aliases": [
+    "why troggs",
+    "trogg problem coldridge"
+   ],
+   "answer": "The Rockjaw troggs have recently surfaced in force, disrupting the peace of Coldridge Valley and attacking dwarven settlements. Balir recognizes them as an escalating menace that must be contained early."
+  },
+  {
+   "q": "Is Balir related to Tannok Frosthammer?",
+   "aliases": [
+    "tannok relative",
+    "frosthammer family"
+   ],
+   "answer": "Possibly. Balir shares the Frosthammer name with Tannok Frosthammer of Kharanos, suggesting a familial bond, though it is not confirmed."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For young dwarves, Balir Frosthammer represents the frontline defense of their homeland, offering their very first opportunities to safeguard Dun Morogh from subterranean threats."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Balir's efforts keep Coldridge Valley secure as a vital staging ground for Alliance recruits beginning their training in Khaz Modan."
+  }
+ ],
+ "keywords": [
+  "a new threat",
+  "balir frosthammer",
+  "coldridge valley",
+  "dun morogh",
+  "rockjaw troggs",
+  "tannok frosthammer"
+ ],
+ "related": [
+  "quest:170",
+  "subzone:coldridge-valley",
+  "zone:dunmorogh",
+  "npc:tannok-frosthammer",
+  "topic:trogg",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Balir Frosthammer"
+ ]
+}

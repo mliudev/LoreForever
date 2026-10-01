@@ -1,0 +1,85 @@
+{
+ "key": "item:rattlecage-skull",
+ "type": "item",
+ "name": "Rattlecage Skull",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Rattlecage Skull",
+  "quests": [
+   "quest:1470"
+  ]
+ },
+ "summary": "Rattlecage Skulls are the shattered remnants of mindless undead roaming the ruined outskirts of Deathknell. Novice Forsaken warlocks must gather these calcified trophies for Venya Marthand to demonstrate their emerging will and qualify for the dark arts of summoning.",
+ "sections": [
+  {
+   "title": "A Neophyte's Test",
+   "body": "Within the sunless bounds of Deathknell, newly raised Forsaken with an affinity for dark magic are guided by Venya Marthand. To prove that a fledgling practitioner has the fortitude to bend extraplanar creatures to their command, Venya tasks them with subduing the lingering Rattlecage Skeletons near the ruined smithy. Striking down these lesser undead and retrieving their severed skulls serves as both a practical test of discipline and a ritual foundation before learning to breach the void and enslave a first demonic minion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Rattlecage Skulls used for?",
+   "aliases": [
+    "what are rattlecage skulls",
+    "rattlecage skull use",
+    "who wants rattlecage skulls"
+   ],
+   "answer": "They are collected by Venya Marthand in Deathknell. Forsaken warlocks must bring her three skulls to prove their focus and resolve before she instructs them in the rites of summoning and binding an imp."
+  },
+  {
+   "q": "Where do Rattlecage Skulls come from?",
+   "aliases": [
+    "where to get rattlecage skulls",
+    "who drops rattlecage skulls",
+    "rattlecage skull location"
+   ],
+   "answer": "They are taken from the broken remains of Rattlecage Skeletons, mindless undead that wander the overgrown roads and crumbling grounds near Deathknell's abandoned smithy."
+  },
+  {
+   "q": "Why does Venya Marthand require skeletal skulls for a warlock trial?",
+   "aliases": [
+    "why skulls for warlocks",
+    "venya marthand test"
+   ],
+   "answer": "Venya believes power eludes the ignorant and that mastery requires bending external forces to one's will. Slaying the mindless skeletons and claiming their heads demonstrates that an apprentice possesses the fundamental will to control chaotic energies rather than be consumed by them."
+  },
+  {
+   "q": "What knowledge is granted after gathering these skulls?",
+   "aliases": [
+    "what do you get from rattlecage skulls",
+    "piercing the veil reward"
+   ],
+   "answer": "Once the skulls are offered, Venya Marthand imparts the secret ritual needed to call forth and bind an imp, granting young warlocks their first true demonic minion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "For Forsaken warlocks, gathering these skulls represents the initial milestone of their discipline, proving they have the cold will required to enslave their first demon."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The act of shattering lesser, unthinking skeletons underscores the Forsaken belief in asserting dominion through sheer will, differentiating free-willed undead from mindless thralls."
+  }
+ ],
+ "keywords": [
+  "deathknell",
+  "imp summoning",
+  "piercing the veil",
+  "rattlecage skeleton",
+  "rattlecage skull",
+  "tirisfal glades",
+  "venya marthand"
+ ],
+ "related": [
+  "quest:1470",
+  "topic:warlock",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Rattlecage Skull",
+  "Piercing the Veil"
+ ]
+}

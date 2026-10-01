@@ -1,0 +1,80 @@
+{
+ "key": "item:crawler-leg",
+ "type": "item",
+ "name": "Crawler Leg",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Crawler Leg",
+  "quests": [
+   "quest:983"
+  ]
+ },
+ "summary": "A Crawler Leg is a harvested limb taken from the various crabs prowling the mist-shrouded coast of Darkshore. Though worthless to most travelers, these hardy chitinous appendages are surprisingly suited to mechanical improvisation.",
+ "sections": [
+  {
+   "title": "Gnomish Ingenuity on the Coast",
+   "body": "The crabs of Darkshore\u2014ranging from pygmy tide crawlers to larger reef crawlers\u2014are known for their sturdy, resilient shells. While night elf sentinels pay little mind to the discarded limbs of coastal vermin, the eccentric gnome engineer Wizbang Cranktoggle found an unexpected use for them. Operating out of Auberdine, Wizbang designed his prototype long-distance communication devices, known as buzzboxes, to run on improvised local components. The segmented joints and durable chitin of crawler legs provide the precise mechanical friction and leverage required to repair Buzzbox 827, situated along the shoreline just south of town.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are crawler legs used for?",
+   "aliases": [
+    "crawler leg purpose",
+    "why keep crawler legs",
+    "buzzbox crawler leg"
+   ],
+   "answer": "Crawler legs are collected to repair Buzzbox 827, an experimental communication station placed along the Darkshore coastline just south of Auberdine by the gnome inventor Wizbang Cranktoggle."
+  },
+  {
+   "q": "Where do crawler legs come from?",
+   "aliases": [
+    "crawler leg source",
+    "which crabs drop crawler legs",
+    "where to find crawler leg"
+   ],
+   "answer": "They can be scavenged from various species of crabs along the beaches of Darkshore, including Pygmy Tide Crawlers, Young Reef Crawlers, Encrusted Tide Crawlers, and Reef Crawlers."
+  },
+  {
+   "q": "Why does a mechanical buzzbox need crab legs?",
+   "aliases": [
+    "why crabs for machine",
+    "buzzbox crab legs lore",
+    "how does crawler leg fix buzzbox"
+   ],
+   "answer": "Wizbang Cranktoggle intentionally engineered his machines to utilize parts from nearby wildlife for ongoing field maintenance. The rigid joints and chitinous segments of the crawler legs slot directly into the buzzbox's grinding gears to restore its internal mechanisms."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Wizbang Cranktoggle's decision to use crab appendages as makeshift mechanical levers reflects classic gnomish field improvisation, bypassing standard metal linkages in favor of immediately available local resources."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Only a gnome would see a beach crawling with aggressive crustaceans and conclude that their severed legs are the ideal replacement parts for a delicate long-distance telecommunications network."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "buzzbox 827",
+  "crawler leg",
+  "darkshore",
+  "reef crawler",
+  "tide crawler",
+  "wizbang cranktoggle"
+ ],
+ "related": [
+  "quest:983",
+  "npc:wizbang-cranktoggle",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Crawler Leg",
+  "Buzzbox 827 (quest)"
+ ]
+}

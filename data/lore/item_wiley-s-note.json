@@ -1,0 +1,100 @@
+{
+ "key": "item:wiley-s-note",
+ "type": "item",
+ "name": "Wiley's Note",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Wiley's Note",
+  "quests": [
+   "quest:132",
+   "quest:135"
+  ]
+ },
+ "summary": "Wiley's Note is a confidential missive penned by the Lakeshire rogue Wiley the Black, paid as a debt to Gryan Stoutmantle. Its contents reveal alarming alliances formed by the Defias Brotherhood and drop the first hints linking the criminal syndicate to Stormwind's former Stonemasons.",
+ "sections": [
+  {
+   "title": "A Dangerous Ledger",
+   "body": "Penned in Redridge by the shady rogue Wiley the Black, this scribbled dispatch is handed over to settle an old favor owed to Gryan Stoutmantle. Within, Wiley exposes what he knows about the Defias Brotherhood's clandestine ambitions. His intelligence reveals that the brotherhood is not operating alone: they have brokered alliances with regional gnolls, kobolds, and goblin operatives to further their operations across the kingdom.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Stonemason Connection",
+   "body": "Beyond noting mercenary pacts, Wiley lets slip a crucial reference connecting the Defias syndicate to the Stonemasons Guild who rebuilt Stormwind after the Second War. Sensing the explosive political implications of this detail, Stoutmantle redirects the note directly into the hands of Master Mathias Shaw, spymaster of SI:7, pulling Stormwind's intelligence apparatus directly into the investigation.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote Wiley's Note?",
+   "aliases": [
+    "author of wileys note",
+    "who is wiley",
+    "wiley the black note"
+   ],
+   "answer": "It was written by Wiley the Black, an associate of questionable morals stationed at Lakeshire in Redridge. He provided it to settle an outstanding favor he owed to Gryan Stoutmantle of the People's Militia."
+  },
+  {
+   "q": "What information does the note contain?",
+   "aliases": [
+    "wileys note contents",
+    "what does the note say",
+    "defias note info"
+   ],
+   "answer": "The note reveals that the Defias Brotherhood is plotting something massive and has forged alliances with gnolls, kobolds, and goblins. Crucially, it also hints at a connection between the Defias and the Stonemasons Guild."
+  },
+  {
+   "q": "Where does the note need to be delivered?",
+   "aliases": [
+    "who gets wileys note",
+    "turn in wileys note",
+    "where do i take the note"
+   ],
+   "answer": "It is first brought to Gryan Stoutmantle at Sentinel Hill in Westfall. After reading it, Stoutmantle commands that it be delivered to Master Mathias Shaw at SI:7 headquarters in Stormwind City."
+  },
+  {
+   "q": "Why does Gryan Stoutmantle send the note to SI:7?",
+   "aliases": [
+    "why show mathias shaw",
+    "why give note to shaw",
+    "si7 wileys note"
+   ],
+   "answer": "Gryan catches a mention of the Stonemasons Guild within the note. Suspecting the Defias crisis involves far deeper political roots than simple banditry, he sends it to Mathias Shaw, the head of Stormwind intelligence, to verify the connection."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The missive passes through the hands of two notorious figures in the trade: Wiley the Black, a street-level rogue, and Master Mathias Shaw, leader of the secretive SI:7."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The note represents the critical turning point where local frontier banditry in Westfall is recognized as an organized conspiracy threatening the stability of Stormwind itself."
+  }
+ ],
+ "keywords": [
+  "defias brotherhood",
+  "gryan stoutmantle",
+  "mathias shaw",
+  "sentinel hill",
+  "si:7",
+  "stonemasons",
+  "wiley the black",
+  "wiley's note"
+ ],
+ "related": [
+  "npc:wiley-the-black",
+  "npc:gryan-stoutmantle",
+  "npc:mathias-shaw",
+  "quest:65",
+  "quest:2300",
+  "zone:westfall",
+  "topic:defias-brotherhood",
+  "subzone:old-town"
+ ],
+ "attribution": [
+  "Wiley's Note",
+  "The Defias Brotherhood (2)",
+  "The Defias Brotherhood (3)"
+ ]
+}

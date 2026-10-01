@@ -1,0 +1,97 @@
+{
+ "key": "item:kravel-s-crate",
+ "type": "item",
+ "name": "Kravel's Crate",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Kravel's Crate",
+  "quests": [
+   "quest:788",
+   "quest:5762"
+  ]
+ },
+ "summary": "Kravel's Crate is a heavy package dispatched by Kravel Koalbeard from the Mirage Raceway in the Shimmering Flats. Destined for the Nesingwary expedition in Stranglethorn Vale, it contains specialized hunting ammunition designed to bring down the jungle's deadliest game.",
+ "sections": [
+  {
+   "title": "A Delivery to the Jungle",
+   "body": "Handed out by the shrewd entrepreneur Kravel Koalbeard at the Mirage Raceway, Kravel's Crate represents an unfinished business transaction across continents. Ordered weeks prior by a wealthy dwarven patron, the shipment was delayed long enough for its buyer to depart Kalimdor entirely. Rather than lose out on the favor of a wealthy customer who already paid for forwarding, Kravel entrusts passing adventurers to haul the crate all the way to northern Stranglethorn Vale.",
+   "spoiler": 0
+  },
+  {
+   "title": "Special-Gauge Ammunition",
+   "body": "Despite its nondescript appearance and the crust of salt dust it gathers in the Shimmering Flats, the crate carries lethal cargo: heavy, special-gauge ammunition tailored specifically for hunting rifles. When received at the expedition camp north of Grom'gol, the recipient notes that the potent rounds are prized by big-game hunters and vital for survival against the predators roaming the jungle canopy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside Kravel's Crate?",
+   "aliases": [
+    "what's in the crate",
+    "crate contents",
+    "what is in kravels crate"
+   ],
+   "answer": "The crate is packed with special-gauge hunting ammunition. The heavy-caliber shot is specifically intended for big-game rifles used to take down dangerous beasts in the wild."
+  },
+  {
+   "q": "Who sent Kravel's Crate?",
+   "aliases": [
+    "who gives the crate",
+    "who owns kravels crate"
+   ],
+   "answer": "It is sent by Kravel Koalbeard, a dwarven merchant operating amidst the racing and gambling at the Mirage Raceway in the Shimmering Flats of Thousand Needles."
+  },
+  {
+   "q": "Where does this crate need to go?",
+   "aliases": [
+    "where to deliver crate",
+    "crate destination",
+    "who gets kravels crate"
+   ],
+   "answer": "The crate must be hauled to the Nesingwary hunting expedition camp in northern Stranglethorn Vale, situated along the river north of Grom'gol Base Camp."
+  },
+  {
+   "q": "Why was the delivery delayed?",
+   "aliases": [
+    "why did kravel take so long",
+    "why delayed"
+   ],
+   "answer": "The parcel took weeks to arrive out in the Thousand Needles salt flats, during which time the customer had already packed up and departed for the jungles of Stranglethorn Vale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The crate contains specialized heavy ammunition designed specifically for high-end dwarven hunting rifles, tailored for big-game expeditions."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The delivery is an affair entirely between dwarves, connecting Kravel Koalbeard's business dealings in the salt flats with the renowned Nesingwary hunting party in the Eastern Kingdoms."
+  }
+ ],
+ "keywords": [
+  "ammunition",
+  "hemet nesingwary",
+  "kravel koalbeard",
+  "kravel's crate",
+  "mirage raceway",
+  "shimmering flats",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "npc:kravel-koalbeard",
+  "quest:788",
+  "quest:5762",
+  "subzone:shimmering-flats",
+  "subzone:mirage-raceway",
+  "zone:stranglethorn",
+  "zone:thousandneedles",
+  "topic:hunter"
+ ],
+ "attribution": [
+  "Kravel's Crate",
+  "Hemet Nesingwary (quest)",
+  "Hemet Nesingwary Jr. (quest)"
+ ]
+}

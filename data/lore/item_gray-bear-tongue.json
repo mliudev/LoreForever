@@ -1,0 +1,75 @@
+{
+ "key": "item:gray-bear-tongue",
+ "type": "item",
+ "name": "Gray Bear Tongue",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Gray Bear Tongue",
+  "quests": [
+   "quest:496"
+  ]
+ },
+ "summary": "A gray bear tongue is a raw reagent harvested from the wild bears roaming the Hillsbrad Foothills. It is sought after by the Royal Apothecary Society in Tarren Mill to serve as a biological component in their experimental toxins.",
+ "sections": [
+  {
+   "title": "Apothecary Research in Hillsbrad",
+   "body": "The untamed wilderness surrounding Tarren Mill is rich in native fauna, including several varieties of sturdy gray bears. While natural predators pose a constant threat to travelers, the Forsaken see them as a harvestable source of raw alchemy components. Apothecary Lydon studies local wildlife to isolate potent organic agents, using the heavy muscular tissue and fluids of gray bear tongues as a base ingredient for concocting lethal solutions such as the Elixir of Suffering.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants gray bear tongues?",
+   "aliases": [
+    "who needs bear tongues",
+    "apothecary lydon tongues",
+    "bear tongue turn in"
+   ],
+   "answer": "Apothecary Lydon, stationed at the Forsaken outpost of Tarren Mill in the Hillsbrad Foothills, seeks these tongues to brew experimental killing agents."
+  },
+  {
+   "q": "What is the Apothecary using these tongues for?",
+   "aliases": [
+    "why does lydon want tongues",
+    "bear tongue purpose",
+    "elixir of suffering ingredients"
+   ],
+   "answer": "Lydon is developing a lethal concoction known as the Elixir of Suffering, designed to help plague the living human populations of Hillsbrad. The tongues serve as one of the primary organic agents alongside creeper ichor."
+  },
+  {
+   "q": "Which creatures drop these tongues?",
+   "aliases": [
+    "where do bear tongues drop",
+    "which bears have tongues",
+    "hillsbrad bears"
+   ],
+   "answer": "They can be harvested from any of the local gray bears roaming the Hillsbrad Foothills, including standard gray bears, elder gray bears, vicious gray bears, and the notorious beast Big Samras."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Procuring organic components from local wildlife directly aids the Royal Apothecary Society's mission to craft new plagues against the living."
+  }
+ ],
+ "keywords": [
+  "apothecary lydon",
+  "big samras",
+  "elixir of suffering",
+  "gray bear tongue",
+  "hillsbrad foothills",
+  "royal apothecary society",
+  "tarren mill"
+ ],
+ "related": [
+  "quest:496",
+  "item:creeper-ichor",
+  "subzone:tarren-mill",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Gray Bear Tongue",
+  "Elixir of Suffering (quest)"
+ ]
+}

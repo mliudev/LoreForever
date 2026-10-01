@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Shopkeeper of Limited Immunity",
-   "body": "Tucked away in the weathered streets of Old Town, Osric Strang manages Limited Immunity, a shop catering to frontline fighters in need of heavy armor and shields. Osric has a history of guard service in Stormwind, giving him a practical eye for the protective value of mail and plate. While his wares are suited for standard soldiers and traveling adventurers, he often assists incoming couriers who need a point of contact when arriving in the capital from nearby settlements like Redridge.",
+   "body": "Tucked away in the weathered streets of Old Town, Osric Strang manages Limited Immunity, a shop catering to frontline fighters in need of heavy armor and shields. Osric has a history of guard service in Stormwind, giving him a practical eye for the protective value of mail and plate. While his wares are suited for standard soldiers and traveling adventurers, he often assists incoming couriers who need a point of contact when arriving in the capital from nearby settlements like Westfall's Sentinel Hill.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "osric strang quest",
     "delivery to osric"
    ],
-   "answer": "Couriers delivering goods across the kingdom, such as shipments arriving via gryphon master from Redridge, are often directed to Osric's shop in Old Town to complete deliveries and receive return messages."
+   "answer": "Couriers delivering goods across the kingdom, such as shipments arriving via gryphon master from Westfall, are often directed to Osric's shop in Old Town to complete deliveries and receive return messages."
   }
  ],
  "angles": [

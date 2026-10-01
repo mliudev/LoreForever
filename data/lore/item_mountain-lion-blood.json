@@ -1,0 +1,95 @@
+{
+ "key": "item:mountain-lion-blood",
+ "type": "item",
+ "name": "Mountain Lion Blood",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Mountain Lion Blood",
+  "quests": [
+   "quest:501"
+  ]
+ },
+ "summary": "Mountain Lion Blood is a reagent collected from the prowling predators of the Hillsbrad Foothills and the snowy slopes of Alterac. Apothecary Lydon of Tarren Mill seeks this fresh blood to formulate the Royal Apothecary Society's dreaded Elixir of Pain.",
+ "sections": [
+  {
+   "title": "Reagent of the Hills",
+   "body": "The highlands and foothills flanking Hillsbrad and Alterac are prowled by feral and starving mountain lions. While ordinary hunters seek these predators for their pelts and claws, the Forsaken of the Royal Apothecary Society find value in what pumps through their veins. Fresh mountain lion blood possesses specific biological properties that Apothecary Lydon in Tarren Mill believes will serve as the base for a potent new toxic brew designed to bring misery to the living.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fueling the New Plague",
+   "body": "Apothecary Lydon's experiments in Tarren Mill contribute directly to the Royal Apothecary Society's overarching mandate: perfecting the Forsaken's New Plague. By harvesting the blood of vigorous wild beasts, Lydon seeks to refine a concoction he calls the Elixir of Pain, testing how potent local organic compounds can be weaponized against the enemies of the Dark Lady.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Mountain Lion Blood used for?",
+   "aliases": [
+    "what is mountain lion blood for",
+    "who needs lion blood",
+    "elixir of pain blood"
+   ],
+   "answer": "Apothecary Lydon at Tarren Mill requires ten vials of Mountain Lion Blood to distill a lethal concoction known as the Elixir of Pain, part of the Royal Apothecary Society's research into new diseases."
+  },
+  {
+   "q": "Where can Mountain Lion Blood be collected?",
+   "aliases": [
+    "where to find mountain lion blood",
+    "mountain lion blood location",
+    "which lions drop blood"
+   ],
+   "answer": "It is gathered from mountain lions hunting across the Hillsbrad Foothills and up into the neighboring snowy crags of the Alterac Mountains."
+  },
+  {
+   "q": "Why does Apothecary Lydon specifically want wild cat blood?",
+   "aliases": [
+    "why lion blood",
+    "why does lydon want lion blood"
+   ],
+   "answer": "Lydon believes the vital fluids of the aggressive, hardy mountain lions provide the ideal biological foundation for crafting a particularly agonizing toxic brew aimed at the living inhabitants of Hillsbrad."
+  },
+  {
+   "q": "Is Mountain Lion Blood useful for alchemy crafting recipes?",
+   "aliases": [
+    "can alchemists use mountain lion blood",
+    "is lion blood for alchemy"
+   ],
+   "answer": "No. It is exclusively an experimental research reagent collected for Apothecary Lydon's personal work and is not an ingredient in standard tradeskill alchemy."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Every vial collected aids the Royal Apothecary Society in developing devastating biological weapons to secure Lordaeron for the Forsaken."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Gathering beast reagents around Tarren Mill directly bolsters the Horde's fortified presence against hostile human enclaves in Hillsbrad."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "apothecary lydon",
+  "elixir of pain",
+  "hillsbrad",
+  "mountain lion blood",
+  "royal apothecary society",
+  "tarren mill"
+ ],
+ "related": [
+  "quest:501",
+  "subzone:tarren-mill",
+  "topic:royal-apothecary-society",
+  "zone:hillsbrad",
+  "zone:alterac",
+  "subzone:hillsbrad-fields",
+  "topic:horde",
+  "topic:alterac-kingdom"
+ ],
+ "attribution": [
+  "Mountain Lion Blood",
+  "Elixir of Pain (quest)"
+ ]
+}

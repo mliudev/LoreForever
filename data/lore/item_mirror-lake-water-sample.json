@@ -1,0 +1,86 @@
+{
+ "key": "item:mirror-lake-water-sample",
+ "type": "item",
+ "name": "Mirror Lake Water Sample",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Mirror Lake Water Sample",
+  "quests": [
+   "quest:1861"
+  ]
+ },
+ "summary": "The Mirror Lake Water Sample is a flask of fresh lake water collected from the base of the waterfall in Elwynn Forest. Gathered by novice mages on behalf of Jennea Cannon in the Mage Quarter of Stormwind, it is used to investigate whether altered arcane currents are seeping into local water supplies.",
+ "sections": [
+  {
+   "title": "Testing the Waters of Elwynn",
+   "body": "Following catastrophic global conflicts that tore the world's mystic channels from their stable courses, the mages of the Wizard's Sanctum in Stormwind have grown deeply concerned about residual arcane disruption. Jennea Cannon tasks promising apprentices with filling a specially prepared flask at the base of the Mirror Lake waterfall, located just southwest of the Stormwind Gate. By analyzing this water sample, the mages seek to detect whether stray magical taints have seeped into the natural waterways relied upon by the surrounding populace.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Mirror Lake Water Sample?",
+   "aliases": [
+    "mirror lake sample",
+    "water sample item",
+    "jennea water"
+   ],
+   "answer": "It is a vial of water scooped from the waterfall at Mirror Lake in Elwynn Forest, held in Jennea's Flask. Novice mages collect it so the Wizard's Sanctum can test for magical contamination."
+  },
+  {
+   "q": "Why does Jennea Cannon want this water sample?",
+   "aliases": [
+    "why test mirror lake",
+    "jennea cannon purpose",
+    "magical taint water"
+   ],
+   "answer": "Recent mystical upheavals across Azeroth disrupted stable magical currents. Jennea Cannon fears that rogue magical energy may be altering the natural environment and poisoning local drinking water."
+  },
+  {
+   "q": "Where is the sample collected?",
+   "aliases": [
+    "where to get sample",
+    "mirror lake location",
+    "sample waterfall"
+   ],
+   "answer": "It is collected at the base of the waterfall cascading into Mirror Lake, located southwest of the Stormwind Gate in Elwynn Forest."
+  },
+  {
+   "q": "What happens if the water turns out to be magically tainted?",
+   "aliases": [
+    "tainted water effects",
+    "is mirror lake poisoned"
+   ],
+   "answer": "Jennea Cannon worries that anyone drinking from Mirror Lake for prolonged periods could suffer adverse magical effects if the ley currents have contaminated the water supply."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Fetching the sample is an early rite of duty for Alliance mages training under the Wizard's Sanctum, teaching them to monitor environmental ley lines and recognize wild magical seepage."
+  }
+ ],
+ "keywords": [
+  "arcane taint",
+  "elwynn forest",
+  "flask",
+  "jennea cannon",
+  "mirror lake",
+  "stormwind",
+  "water sample",
+  "wizard's sanctum"
+ ],
+ "related": [
+  "npc:jennea-cannon",
+  "quest:1861",
+  "item:jennea-s-flask",
+  "zone:elwynn",
+  "subzone:stormwind-gate",
+  "quest:1860"
+ ],
+ "attribution": [
+  "Mirror Lake Water Sample",
+  "Mirror Lake (quest)"
+ ]
+}

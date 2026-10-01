@@ -1,0 +1,95 @@
+{
+ "key": "item:alterac-granite",
+ "type": "item",
+ "name": "Alterac Granite",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Alterac Granite",
+  "quests": [
+   "quest:689"
+  ]
+ },
+ "summary": "Alterac Granite is a prized, durable stone quarried from the mountainous terrain of northern Lordaeron, specifically around Darrow Hill in the Hillsbrad Foothills. Revered by master stonecutters for its exceptional resilience and grain, it is chosen by King Magni Bronzebeard's royal mason to carve an enduring tribute for fallen soldiers.",
+ "sections": [
+  {
+   "title": "Stone of Memorials",
+   "body": "When King Magni Bronzebeard ordered a monument to commemorate Sully Balloo\u2014a brave dwarven defender who perished in the tragedy at the Thandol Span\u2014ordinary quarry stone would not do. Grand Mason Marblesten, tasked with sculpting the memorial in Ironforge, insisted on obtaining Alterac Granite. Renowned as one of the finest stones available across the Eastern Kingdoms, its legendary durability ensures that the likeness and memory of a fallen hero can endure untarnished for generations.",
+   "spoiler": 0
+  },
+  {
+   "title": "Quarried in Peril",
+   "body": "Harvesting Alterac Granite is far from a simple errand. The stone rests around Darrow Hill in the northern reaches of the Hillsbrad Foothills, close to the ruined territories of Alterac. With the region rife with hostile wildlife, lurking syndicate brigands, and lingering strife, retrieving unblemished slabs of this pristine stone requires bold adventurers willing to venture deep into contested lands to secure it for Ironforge's artisans.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Alterac Granite used for?",
+   "aliases": [
+    "alterac granite use",
+    "why alterac granite",
+    "marblesten stone"
+   ],
+   "answer": "Alterac Granite is commissioned by Grand Mason Marblesten in Ironforge to carve a royal memorial honoring Sully Balloo, a dwarven soldier who fell defending the Thandol Span."
+  },
+  {
+   "q": "Where can Alterac Granite be found?",
+   "aliases": [
+    "alterac granite location",
+    "where to get alterac granite",
+    "darrow hill granite"
+   ],
+   "answer": "It is gathered from stone deposits at Darrow Hill, located in the northern area of the Hillsbrad Foothills near the border of Alterac."
+  },
+  {
+   "q": "Why did Grand Mason Marblesten specifically want this stone?",
+   "aliases": [
+    "why marblesten wants granite",
+    "why alterac stone"
+   ],
+   "answer": "Grand Mason Marblesten considers Alterac Granite one of the finest and most resilient carving stones available, deeming it the only material worthy of a lasting royal monument commissioned by King Magni."
+  },
+  {
+   "q": "Who was Sully Balloo?",
+   "aliases": [
+    "sully balloo",
+    "who died at thandol span"
+   ],
+   "answer": "Sully Balloo was a dwarven soldier who died during the fighting at the Thandol Span. King Magni Bronzebeard commissioned a monument in his honor to commemorate his sacrifice for the Alliance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven stonemasons hold material quality above all else, making this robust mountain stone essential for honoring a fellow son of Ironforge."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Miners and prospectors appreciate Alterac Granite for its clean fracture and extraordinary density, distinguishing it from common crag rock."
+  }
+ ],
+ "keywords": [
+  "alterac granite",
+  "darrow hill",
+  "hillsbrad",
+  "ironforge",
+  "marblesten",
+  "sully balloo",
+  "thandol span"
+ ],
+ "related": [
+  "npc:grand-mason-marblesten",
+  "quest:686",
+  "subzone:darrow-hill",
+  "subzone:thandol-span",
+  "quest:631",
+  "zone:ironforge",
+  "topic:alterac-kingdom",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Alterac Granite",
+  "A King's Tribute (2)"
+ ]
+}

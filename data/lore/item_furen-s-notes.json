@@ -1,0 +1,110 @@
+{
+ "key": "item:furen-s-notes",
+ "type": "item",
+ "name": "Furen's Notes",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Furen's Notes",
+  "quests": [
+   "quest:1700",
+   "quest:1703",
+   "quest:1704"
+  ]
+ },
+ "summary": "Furen's Notes are written folios containing the metallurgical and armorsmithing insights discovered by Furen Longbeard in Stormwind. Penned after forging resilient protective gear for veteran warriors, they are dispatched across the Alliance to refine the techniques of fellow craftsmen.",
+ "sections": [
+  {
+   "title": "A Master's Discoveries",
+   "body": "When Furen Longbeard completes the rigorous forging of specialized warrior armaments in Stormwind's Dwarven District, he compiles the methods and breakthroughs he discovered along the way into written notes. Dwarven metallurgy is ever-evolving, and Furen makes multiple copies of these treatises so his peers can replicate and expand upon his findings. The documents capture practical advancements in tempering, reinforcing, and shaping armor against lethal combat blows.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dispatched Across the Alliance",
+   "body": "Furen distributes his notes to trusted contacts within the Alliance's crafting networks. While local masters like Grimand Elmore might scoff at being schooled by a peer they claim to have tutored, the value of the insights cannot be ignored. Copies are even carried overseas across the Great Sea to night elven craftsmen such as Mathiel on the Warrior's Terrace in Darnassus, bridging the gaps between distinct ancestral traditions through shared martial necessity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is contained within Furen's Notes?",
+   "aliases": [
+    "what are furen's notes",
+    "what is in furens notes",
+    "furen notes content"
+   ],
+   "answer": "The notes contain written descriptions of armorsmithing techniques and metallurgical discoveries that Furen Longbeard developed while fashioning customized armor for seasoned warriors."
+  },
+  {
+   "q": "Who is Furen Longbeard?",
+   "aliases": [
+    "who wrote this",
+    "who is furen",
+    "furen longbeard"
+   ],
+   "answer": "Furen Longbeard is a master dwarven armorsmith stationed in the Dwarven District of Stormwind, known for guiding rising warriors and crafting specialized defensive wargear."
+  },
+  {
+   "q": "Why does Grimand Elmore get angry about the notes?",
+   "aliases": [
+    "why is grimand mad",
+    "grimand elmore reaction",
+    "grimand proud"
+   ],
+   "answer": "Grimand Elmore is a fiercely proud weapon and armor smith who claims he taught Furen everything the dwarf knows. While outraged at the insinuation that his former student can teach him something new, Grimand still admits the techniques described in the notes are worth trying."
+  },
+  {
+   "q": "Who receives copies of Furen's Notes?",
+   "aliases": [
+    "who gets furens notes",
+    "where do the notes go",
+    "deliver furens notes"
+   ],
+   "answer": "Furen sends copies of his writings to trusted colleagues throughout the Alliance, including the weapon smith Grimand Elmore in Stormwind, the night elven smith Mathiel in Darnassus, and the gnome engineer Klockmort Spannerspan."
+  },
+  {
+   "q": "How does Mathiel react to the notes?",
+   "aliases": [
+    "mathiel reaction",
+    "mathiel darnassus",
+    "what does mathiel think"
+   ],
+   "answer": "Unlike the gruff smiths of Stormwind, Mathiel\u2014a night elf blacksmith found on the Warrior's Terrace in Darnassus\u2014welcomes the dwarven insights with open enthusiasm, regarding Furen's findings as a grand discovery and an honor to integrate into his own work."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "These notes are drafted directly as a result of your class armor trials in Stormwind, serving as proof of the practical innovations born from your frontline combat needs."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The folios represent the ongoing exchange of specialized armorcrafting knowledge between dwarven, elven, and gnomish artisans across the Alliance."
+  }
+ ],
+ "keywords": [
+  "blacksmithing",
+  "dwarven district",
+  "furen",
+  "furen longbeard",
+  "furen's notes",
+  "grimand elmore",
+  "klockmort spannerspan",
+  "mathiel"
+ ],
+ "related": [
+  "quest:1700",
+  "quest:1703",
+  "quest:1704",
+  "quest:1692",
+  "subzone:dwarven-district",
+  "subzone:warrior-s-terrace",
+  "zone:darnassus",
+  "topic:warrior"
+ ],
+ "attribution": [
+  "Furen's Notes",
+  "Grimand Elmore (quest)",
+  "Mathiel (quest)"
+ ]
+}

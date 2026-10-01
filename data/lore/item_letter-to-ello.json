@@ -1,0 +1,94 @@
+{
+ "key": "item:letter-to-ello",
+ "type": "item",
+ "name": "Letter to Ello",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Letter to Ello",
+  "quests": [
+   "quest:160",
+   "quest:251"
+  ]
+ },
+ "summary": "The Letter to Ello is a sealed, unreadable missive penned by Abercrombie, the eccentric hermit dwelling near the Beggar's Haunt cemetery in Duskwood. Addressed to Mayor Ello Ebonlocke of Darkshire under the pretense of old friendship, the mysterious text hides a far more sinister message written in an ancient tongue.",
+ "sections": [
+  {
+   "title": "A Bizarre Greeting",
+   "body": "After adventurers assist the hermit Abercrombie with tasks around Duskwood, the old recluse entrusts them with this note, claiming Mayor Ello Ebonlocke is an old friend who will celebrate what has been accomplished. In reality, Darkshire's mayor has no recollection of anyone named Abercrombie. Upon breaking the seal, Mayor Ebonlocke discovers he cannot decipher a single phrase of the archaic script, prompting him to send the note to Darkshire's scholar, Sirra Von'Indi, for translation.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dark Omens",
+   "body": "The seemingly innocent errand conceals the hermit's true, macabre intentions. Far from an amicable exchange between old town acquaintances, the ancient runes scribed by Abercrombie foretell mockery and peril aimed squarely at Darkshire's town leadership.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote the Letter to Ello?",
+   "aliases": [
+    "who wrote the letter",
+    "letter to ello author",
+    "who sent the letter"
+   ],
+   "answer": "The letter was written by Abercrombie, a hermit living in a ramshackle hut near the cemetery in northern Duskwood."
+  },
+  {
+   "q": "Can Mayor Ello Ebonlocke read the letter?",
+   "aliases": [
+    "can ello read it",
+    "why cant ello read the note",
+    "ello letter language"
+   ],
+   "answer": "No. When delivered to Mayor Ebonlocke in Darkshire, he finds the script completely incomprehensible and notes that it appears to be written in an ancient, unrecognizable language."
+  },
+  {
+   "q": "Who can translate the note?",
+   "aliases": [
+    "who translates the note",
+    "translate abercrombie note",
+    "who can read the letter"
+   ],
+   "answer": "Mayor Ebonlocke directs couriers to take the missive to Sirra Von'Indi, a resident scholar in Darkshire well-versed in ancient scripts and esoteric languages."
+  },
+  {
+   "q": "Does Mayor Ebonlocke actually know Abercrombie?",
+   "aliases": [
+    "does ello know abercrombie",
+    "are ello and abercrombie friends",
+    "abercrombie old friends ello"
+   ],
+   "answer": "Despite Abercrombie's claim that he and the mayor are old friends, Ello Ebonlocke insists he has never heard of anyone named Abercrombie."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Carrying dispatches between eccentric recluses and local town mayors is standard duty for travelers in Duskwood, though town officials in Darkshire remain constantly on edge regarding strange missives."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "darkshire",
+  "duskwood",
+  "ello ebonlocke",
+  "letter to ello",
+  "note to the mayor",
+  "sirra von'indi"
+ ],
+ "related": [
+  "quest:160",
+  "quest:251",
+  "npc:abercrombie",
+  "npc:sirra-von-indi",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "quest:165"
+ ],
+ "attribution": [
+  "Letter to Ello",
+  "Note to the Mayor (Classic)",
+  "Translate Abercrombie's Note"
+ ]
+}

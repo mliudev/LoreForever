@@ -1,0 +1,97 @@
+{
+ "key": "item:uncloven-satyr-hoof",
+ "type": "item",
+ "name": "Uncloven Satyr Hoof",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Uncloven Satyr Hoof",
+  "quests": [
+   "quest:1842"
+  ]
+ },
+ "summary": "An Uncloven Satyr Hoof is a swollen, solid hoof harvested from the satyrs lurking in Ashenvale. Saturated with corrupt magical energy leeched from the ancient forest, these grim trophies serve as potent crafting components for Darkspear troll armorers.",
+ "sections": [
+  {
+   "title": "Leeched Power",
+   "body": "Satyrs haunt the corrupted groves of northeastern Ashenvale, feeding directly upon the ancient forest's magical purity. As they gorge themselves on this essence, the corruption distorts their demonic physiology, causing their hooves to swell and lose their natural cleft. These solid, uncloven hooves become dense reservoirs of absorbed energy, holding volatile power that can be harvested by skilled shamans and leatherworkers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crafting the Brutal Armor",
+   "body": "Down on the coast of Durotar in Sen'jin Village, the troll armorer Ula'elek knows how to turn demonic corruption into strength for Horde champions. By taking the hooves of these sated satyrs, he leeches out the trapped woodland magic, channeling the stolen power into the forging of brutal gauntlets designed to protect young warriors facing the rigors of Kalimdor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are these satyr hooves uncloven?",
+   "aliases": [
+    "why are they not cloven",
+    "uncloven hoof meaning",
+    "swollen hooves"
+   ],
+   "answer": "Satyrs in Ashenvale feed continuously on the forest's sacred magic, corrupting and leeching its power. Satyrs that have gorged themselves the most develop heavily swollen hooves that lose their cleft, sealing the dense, stolen energy inside."
+  },
+  {
+   "q": "Where can Uncloven Satyr Hooves be found?",
+   "aliases": [
+    "where to farm hooves",
+    "satyr hoof location",
+    "which satyrs drop hooves"
+   ],
+   "answer": "They are collected from satyrs inhabiting the corrupted ruins and tainted groves of northeastern Ashenvale, such as Satyrnaar and Night Run."
+  },
+  {
+   "q": "Who wants these hooves in Durotar?",
+   "aliases": [
+    "who needs satyr hooves",
+    "satyr hoof quest giver",
+    "what to do with hooves"
+   ],
+   "answer": "Ula'elek, a craftsman residing in Sen'jin Village along the southern coast of Durotar, requests seven of them to extract their stored magic."
+  },
+  {
+   "q": "What are the hooves used to craft?",
+   "aliases": [
+    "what are they used for",
+    "hoof crafting reward",
+    "brutal gauntlets materials"
+   ],
+   "answer": "Ula'elek draws the corrupt forest power out of the hooves to enchant and forge a pair of sturdy, magic-infused brutal gauntlets."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Young warriors seeking renown are directed by Horde trainers to commission specialized armor from Sen'jin Village, hunting down Ashenvale's satyrs to prove their martial prowess."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear crafters like Ula'elek excel at turning dark or hostile energies into functional gear, leeching power from demonic foes rather than letting it go to waste."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "durotar",
+  "gauntlets",
+  "hoof",
+  "satyr",
+  "sen'jin",
+  "ula'elek",
+  "uncloven"
+ ],
+ "related": [
+  "quest:1842",
+  "npc:ula-elek",
+  "quest:1843",
+  "subzone:sen-jin-village",
+  "zone:ashenvale",
+  "zone:durotar",
+  "topic:satyr"
+ ],
+ "attribution": [
+  "Uncloven Satyr Hoof",
+  "Satyr Hooves"
+ ]
+}

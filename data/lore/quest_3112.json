@@ -1,0 +1,119 @@
+{
+ "key": "quest:3112",
+ "type": "quest",
+ "name": "Simple Memorandum",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   3112
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "Sten Stoutarm",
+  "end": "Thran Khorman",
+  "previous": null,
+  "next": null,
+  "wiki": "Simple Memorandum (quest)",
+  "chain": []
+ },
+ "summary": "The Simple Memorandum is a missive delivered to aspiring gnome warriors starting out in Coldridge Valley. Passed along by Sten Stoutarm outside, it directs newly trained fighters into Anvilmar to meet Thran Khorman, who has pledged to prepare them for reclaiming Gnomeregan.",
+ "sections": [
+  {
+   "title": "A Summons to Anvilmar",
+   "body": "While clearing out the troggs and boars troubling Coldridge Valley for mountaineer Sten Stoutarm, a young gnome warrior receives a brief message slipped into the dwarf's hands. Recognizing the potential in the refugee recruit, veteran trainer Thran Khorman uses the memorandum to call the newcomer into Anvilmar's central hall to begin proper martial instruction.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Pledge of Solidarity",
+   "body": "Though dwarven trainers might occasionally tease gnome warriors about their diminutive stature, Thran Khorman takes their struggle seriously. Sympathizing with the loss of Gnomeregan, Thran likens the gnomes' plight to how dwarves would feel if Ironforge fell to the Dark Irons. In honoring his word, he pledges to instruct exile fighters in the arts of warfare until they are ready to win back their home.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Simple Memorandum?",
+   "aliases": [
+    "simple memorandum",
+    "what is this note",
+    "memorandum quest"
+   ],
+   "answer": "It is an introductory note handed to novice gnome warriors by Sten Stoutarm in Coldridge Valley. The letter instructs the warrior to seek out Thran Khorman, the warrior trainer inside the great hall of Anvilmar."
+  },
+  {
+   "q": "Who sends the memorandum?",
+   "aliases": [
+    "who wrote memorandum",
+    "who sent simple memorandum"
+   ],
+   "answer": "It comes from Thran Khorman, the resident dwarven warrior trainer stationed in Anvilmar. He has Sten Stoutarm pass it along to promising fighters who are assisting the mountaineers."
+  },
+  {
+   "q": "Why does Thran Khorman train gnome warriors?",
+   "aliases": [
+    "why thran trains gnomes",
+    "gnome warrior lore"
+   ],
+   "answer": "Thran gave his word to assist the exiled gnomes. He respects their determination and deeply empathizes with their tragedy, comparing the fall of Gnomeregan to what it would be like if Ironforge were conquered by the Dark Iron clan."
+  },
+  {
+   "q": "Where do I find Thran Khorman?",
+   "aliases": [
+    "where is thran khorman",
+    "thran khorman location"
+   ],
+   "answer": "Thran Khorman stands inside the main hall of Anvilmar, the central settlement located in Coldridge Valley within Dun Morogh."
+  },
+  {
+   "q": "Who is Sten Stoutarm?",
+   "aliases": [
+    "sten stoutarm",
+    "who is sten"
+   ],
+   "answer": "Sten Stoutarm is a dwarven mountaineer stationed just outside Anvilmar in Coldridge Valley who coordinates local defense against aggressive boars and invading troggs."
+  },
+  {
+   "q": "Why are gnomes starting in Coldridge Valley?",
+   "aliases": [
+    "why are gnomes here",
+    "gnomes in coldridge"
+   ],
+   "answer": "Following the tragic fall and radiation of Gnomeregan, surviving gnomes fled into dwarven territory as refugees. Anvilmar and Ironforge have opened their doors to shelter them while they rebuild their forces."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This missive formally begins a gnome warrior's combat education, establishing a bond with the veteran arms masters of Ironforge."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "The memorandum highlights the gnomes' exile from Gnomeregan and their quiet determination to train soldiers capable of reclaiming their radioactive city."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven mentors like Thran Khorman treat the gnomes' plight as equal to their own ancient feuds, showing deep solidarity with their displaced allies."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "gnomeregan",
+  "simple memorandum",
+  "sten stoutarm",
+  "thran khorman",
+  "warrior trainer"
+ ],
+ "related": [
+  "npc:thran-khorman",
+  "npc:sten-stoutarm",
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "zone:dunmorogh",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Simple Memorandum (quest)"
+ ]
+}

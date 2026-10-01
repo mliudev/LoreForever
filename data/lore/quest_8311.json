@@ -23,16 +23,16 @@
    "Incoming Gumdrop (Alliance)"
   ]
  },
- "summary": "During Hallow's End, a young orphan named Jesper waits outside Stormwind City wishing he could join in the holiday festivities. Confined close to home by Matron Nightingale out of fear of monstrous dangers, he asks Alliance adventurers to go trick-or-treating across the world on his behalf.",
+ "summary": "During Hallow's End, a young orphan named Jesper lies sick in the Stormwind orphanage, wishing he could join in the holiday festivities. Too ill to go out, he asks Alliance adventurers to go trick-or-treating across the world on his behalf.",
  "sections": [
   {
    "title": "A Sheltered Child",
-   "body": "Jesper is under the strict care of Matron Nightingale, who manages the care of orphaned youths in Stormwind. Fearing perils outside the safety of the fortress walls, the matron forbids him from wandering far to celebrate Hallow's End. Denied the simple childhood joy of gathering sweets from across Azeroth, Jesper stays near the city gates, hoping passing adventurers might share in the holiday spirit and collect treats in his stead.",
+   "body": "Jesper lives in the orphanage in Stormwind's Cathedral Square, and this Hallow's End he has fallen sick. Denied the simple childhood joy of gathering sweets from across Azeroth, Jesper stays indoors, hoping passing adventurers might share in the holiday spirit and collect treats in his stead.",
    "spoiler": 0
   },
   {
    "title": "Tricks for Treats Across the Alliance",
-   "body": "To gather the holiday spread Jesper dreams of, an adventurer must travel far beyond Elwynn Forest. The quest demands visiting the innkeepers of Stormwind, Ironforge, and Darnassus, as well as the gnome exile Talvash del Kissel. Each adult demands a performance before relinquishing their prize\u2014forcing travelers to cluck like chickens, dance, flex, or prepare for incoming aerial confections in exchange for regional sweets like Stormwind Nougat and Gnomeregan Gumdrops.",
+   "body": "To gather the holiday spread Jesper dreams of, an adventurer must travel far beyond Elwynn Forest. The quest demands visiting the innkeepers of Stormwind, Ironforge, and Darnassus, as well as the gnome exile Talvash del Kissel. Each adult demands a performance before relinquishing their prize\u2014forcing travelers to cluck like chickens, dance, flex, or chug like a train in exchange for regional sweets like Stormwind Nougat and Gnomeregan Gumdrops.",
    "spoiler": 0
   }
  ],
@@ -44,16 +44,16 @@
     "orphan jesper",
     "who is jesper"
    ],
-   "answer": "Jesper is a young orphan living under the watch of Matron Nightingale in Stormwind. During Hallow's End, he longs for holiday candy but is not permitted to travel and gather it himself."
+   "answer": "Jesper is a young orphan living in the Stormwind orphanage. During Hallow's End, he longs for holiday candy but is too sick to go out and gather it himself."
   },
   {
    "q": "Why can't Jesper go trick-or-treating himself?",
    "aliases": [
     "why can't jesper leave",
-    "matron nightingale rules",
+    "is jesper sick",
     "jesper trick or treat"
    ],
-   "answer": "Matron Nightingale keeps him under tight watch out of concern for his safety, refusing to allow him to venture far from the city gates into dangerous lands."
+   "answer": "Jesper is sick, and his illness keeps him inside the orphanage while the rest of the city celebrates Hallow's End."
   },
   {
    "q": "Which treats does Jesper want?",
@@ -80,7 +80,7 @@
     "innkeeper tricks",
     "trick for treats alliance"
    ],
-   "answer": "Innkeepers demand silly antics in exchange for sweets: flexing your muscles in Stormwind, dancing in Darnassus, clucking like a chicken in Ironforge, and playing catch for Talvash."
+   "answer": "Innkeepers demand silly antics in exchange for sweets: flexing your muscles in Stormwind, dancing in Darnassus, clucking like a chicken in Ironforge, and making a train noise for Talvash."
   },
   {
    "q": "What does Jesper give you in return for the candy?",

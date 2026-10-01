@@ -1,0 +1,89 @@
+{
+ "key": "item:silver-dawning-s-lockbox",
+ "type": "item",
+ "name": "Silver Dawning's Lockbox",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Silver Dawning's Lockbox",
+  "quests": [
+   "quest:982"
+  ]
+ },
+ "summary": "The Silver Dawning's Lockbox is a sturdy chest resting within the sunken wreckage of the vessel Silver Dawning off the coast of Darkshore. It holds the personal effects and ship log of the vessel's fallen night elf captain, lost during an ambush by coastal murlocs.",
+ "sections": [
+  {
+   "title": "Sunken Remnants",
+   "body": "The merchant ship Silver Dawning was en route across the sea toward the port of Auberdine when disaster struck. Coastal murlocs swarmed the vessel, driving it down into the dark surf north of the harbor. The captain perished in the assault alongside the crew, leaving the wreckage submerged beneath the waves as a grim monument claimed by the creatures. Inside the flooded hull remains the captain's personal lockbox, holding the ship's log and private belongings. Recovering these effects offers a final measure of peace to the surviving crew members ashore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Silver Dawning's Lockbox located?",
+   "aliases": [
+    "lockbox location",
+    "where is silver dawning box",
+    "silver dawning wreck"
+   ],
+   "answer": "The lockbox sits inside the submerged wreckage of the Silver Dawning, an overturned vessel resting on the ocean floor north of Auberdine off the Darkshore coast."
+  },
+  {
+   "q": "What happened to the Silver Dawning?",
+   "aliases": [
+    "why did silver dawning sink",
+    "silver dawning backstory",
+    "how did ship wreck"
+   ],
+   "answer": "As the Silver Dawning sailed toward Auberdine across the ocean, it was ambushed by local murlocs. The vessel was overcome, wrecked, and sank beneath the waves, claiming the life of its captain."
+  },
+  {
+   "q": "What is inside the lockbox?",
+   "aliases": [
+    "silver dawning contents",
+    "what is in the box"
+   ],
+   "answer": "The chest contains the personal effects and sea log kept by the night elf captain of the Silver Dawning, preserved against the ocean depths."
+  },
+  {
+   "q": "Who is seeking the lockbox?",
+   "aliases": [
+    "who wants the lockbox",
+    "who gives the quest",
+    "turn in lockbox"
+   ],
+   "answer": "Gorbold Steelhand, a dwarf stationed in Auberdine, asks brave swimmers to dive into the wrecks and retrieve the lockbox so the fallen captain's surviving crew can properly honor their memory."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The lockbox preserves the final writings and relics of a kaldorei captain who died defending their vessel right off the shores of northern Kalimdor."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Gorbold Steelhand takes it upon himself to see the fallen captains honored and their belongings returned to their surviving mates."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "gorbold steelhand",
+  "lockbox",
+  "murloc",
+  "shipwreck",
+  "silver dawning"
+ ],
+ "related": [
+  "quest:982",
+  "npc:gorbold-steelhand",
+  "item:mist-veil-s-lockbox",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Silver Dawning's Lockbox",
+  "Deep Ocean, Vast Sea"
+ ]
+}

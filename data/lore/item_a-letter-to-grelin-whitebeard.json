@@ -1,0 +1,75 @@
+{
+ "key": "item:a-letter-to-grelin-whitebeard",
+ "type": "item",
+ "name": "A Letter to Grelin Whitebeard",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "A Letter to Grelin Whitebeard",
+  "quests": [
+   "quest:234"
+  ]
+ },
+ "summary": "This sealed correspondence is addressed to Grelin Whitebeard, an experienced dwarf stationed out in the snowy wilderness of Coldridge Valley. Sent from the mountain capital of Ironforge, it serves as a rare dispatch of news and instructions reaching the remote frontier.",
+ "sections": [
+  {
+   "title": "A Dispatch from the Mountain",
+   "body": "Life in the snowy basin of Coldridge Valley can be isolated, especially for those stationed beyond the safety of Anvilmar. Letters like this represent the crucial link connecting scouts and scholars in the field to the halls of Ironforge. Carried southward along the mountain paths, the missive brings word from the capital to Grelin Whitebeard's wilderness campsite.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Grelin Whitebeard?",
+   "aliases": [
+    "grelin whitebeard",
+    "who is grelin",
+    "recipient"
+   ],
+   "answer": "Grelin Whitebeard is a dwarven scout and explorer encamped in the southeastern reaches of Coldridge Valley. He relies on messengers from Anvilmar to keep him informed of affairs and instructions from Ironforge."
+  },
+  {
+   "q": "Where did this letter come from?",
+   "aliases": [
+    "letter origin",
+    "who sent the letter",
+    "where is it from"
+   ],
+   "answer": "The correspondence originates from the dwarven capital of Ironforge, forwarded down through Coldridge Valley's local postal courier to be carried out into the field."
+  },
+  {
+   "q": "What is inside the letter?",
+   "aliases": [
+    "letter contents",
+    "what does it say",
+    "letter text"
+   ],
+   "answer": "The precise contents are sealed for Grelin Whitebeard himself, though he notes upon opening it that it brings long-awaited word and news from the halls of Ironforge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Carrying dispatches across the freezing passes of Dun Morogh is a foundational duty for young dwarven mountaineers and recruits making a name for themselves."
+  }
+ ],
+ "keywords": [
+  "coldridge valley",
+  "dun morogh",
+  "grelin whitebeard",
+  "ironforge",
+  "letter",
+  "mail delivery"
+ ],
+ "related": [
+  "quest:233",
+  "npc:grelin-whitebeard",
+  "subzone:coldridge-valley",
+  "zone:ironforge",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "A Letter to Grelin Whitebeard",
+  "Coldridge Valley Mail Delivery (2)"
+ ]
+}

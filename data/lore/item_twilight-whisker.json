@@ -1,0 +1,82 @@
+{
+ "key": "item:twilight-whisker",
+ "type": "item",
+ "name": "Twilight Whisker",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Twilight Whisker",
+  "quests": [
+   "quest:1058"
+  ]
+ },
+ "summary": "Twilight Whiskers are harvested from twilight runners prowling the northern heights of the Stonetalon Mountains. In the settlement of Malaka'jin, Witch Doctor Jin'Zil covets them as an ingredient in a cruel, venomous concoction he mockingly names forest magic.",
+ "sections": [
+  {
+   "title": "A Witch Doctor's Reagent",
+   "body": "The high crags near Stonetalon Peak are home to twilight runners, predatory felines attuned to the deep shadows of the ancient groves. While hunters prize their pelts, Witch Doctor Jin'Zil of Malaka'jin seeks their stiff whiskers for a far darker purpose. Seeking vengeance upon captured night elves who once defended these woodlands, Jin'Zil gathers components of the forest\u2014resinous sap, countless eyes, fey dragon scales, and twilight whiskers\u2014to brew a lethal draught intended to mock and poison his captives.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are Twilight Whiskers found?",
+   "aliases": [
+    "twilight whisker location",
+    "who drops twilight whiskers",
+    "where to get twilight whiskers"
+   ],
+   "answer": "They are gathered from the twilight runners stalking the slopes around Stonetalon Peak in northern Stonetalon Mountains."
+  },
+  {
+   "q": "Why does Witch Doctor Jin'Zil want them?",
+   "aliases": [
+    "jinzil whiskers",
+    "why does jinzil want twilight whiskers",
+    "jin'zil forest magic ingredients"
+   ],
+   "answer": "Witch Doctor Jin'Zil uses them alongside sap, courser eyes, and a fey dragon scale to brew a deadly concoction that poisons his night elf captives in Malaka'jin."
+  },
+  {
+   "q": "What happens after Jin'Zil receives the whiskers?",
+   "aliases": [
+    "forest magic outcome",
+    "what happens to the prisoners"
+   ],
+   "answer": "Once provided with the ingredients, Jin'Zil unleashes his brew within his cave. The mixture swiftly kills the caged night elf prisoners, releasing their spirits as wisps that drift away."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "Jin'Zil's utilization of local beast reagents reflects classic Darkspear voodoo traditions, twisting the natural essence of the forest against his enemies."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The desecration of sacred woodland creatures like twilight runners and fey dragons to poison night elf captives embodies the brutal conflict waging in Kalimdor's forests."
+  }
+ ],
+ "keywords": [
+  "forest magic",
+  "malaka'jin",
+  "stonetalon mountains",
+  "stonetalon peak",
+  "twilight runner",
+  "twilight whisker",
+  "witch doctor jin'zil"
+ ],
+ "related": [
+  "quest:1058",
+  "npc:witch-doctor-jin-zil",
+  "item:stonetalon-sap",
+  "item:fey-dragon-scale",
+  "item:courser-eye",
+  "subzone:stonetalon-peak",
+  "subzone:malaka-jin",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Twilight Whisker",
+  "Jin'Zil's Forest Magic"
+ ]
+}

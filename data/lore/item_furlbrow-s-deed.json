@@ -1,0 +1,90 @@
+{
+ "key": "item:furlbrow-s-deed",
+ "type": "item",
+ "name": "Furlbrow's Deed",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Furlbrow's Deed",
+  "quests": [
+   "quest:184"
+  ]
+ },
+ "summary": "Furlbrow's Deed is the legal property title belonging to Farmer Theodore Furlbrow and his wife Verna for their land in Westfall. Snatched by Defias bandits to serve as a template for forging land claims, it represents the precarious state of honest folk driven from their homes across the kingdom.",
+ "sections": [
+  {
+   "title": "Stolen Land and Forged Claims",
+   "body": "Signed by Theodore Furlbrow and co-signed by his wife Verna, this paper establishes ownership over their family farm in Westfall. When the Defias Brotherhood overran the region, brigands muscled the couple out and took the document with them into Elwynn Forest. Scrawled notes on the back reveal that the thieves intended to use the official parchment as a template to forge legal deeds for other properties. Stripped of their home and livelihood, the Furlbrows were forced onto the road, left stranded near the border when their wagon broke down.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why did the Defias steal the deed?",
+   "aliases": [
+    "why steal deed",
+    "why did bandits want the deed",
+    "defias deed purpose"
+   ],
+   "answer": "Notes written across the back of the parchment reveal that the Defias thugs intended to study the authentic seal and signatures to forge deeds of their own, legitimizing claims over seized homesteads across Westfall."
+  },
+  {
+   "q": "Who does this deed belong to?",
+   "aliases": [
+    "who owns furlbrows deed",
+    "who is furlbrow",
+    "whose deed is this"
+   ],
+   "answer": "The deed legally belongs to Farmer Theodore Furlbrow and his wife Verna, two Westfall homesteaders who were harassed and driven away from their farm by outlaws."
+  },
+  {
+   "q": "Where can the Furlbrows be found?",
+   "aliases": [
+    "where are the furlbrows",
+    "farmer furlbrow location",
+    "where to return deed"
+   ],
+   "answer": "The couple can be found just inside Westfall along the main road leading from Elwynn Forest, stranded beside their broken-down wagon."
+  },
+  {
+   "q": "Why do the Furlbrows still care about the deed if they fled?",
+   "aliases": [
+    "why do they want deed back",
+    "will furlbrows return"
+   ],
+   "answer": "While the Furlbrows admit that Westfall has become far too dangerous for honest folk, retaining legal proof of ownership offers their only hope of ever reclaiming their land if peace is restored."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "The theft of simple property titles highlights how thoroughly the Defias have compromised civil order in Stormwind's neighboring territories."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Returning the deed brings small comfort to displaced subjects abandoned by the kingdom's military shortages."
+  }
+ ],
+ "keywords": [
+  "deed",
+  "defias",
+  "farm",
+  "furlbrow",
+  "theodore",
+  "verna",
+  "wagon",
+  "westfall"
+ ],
+ "related": [
+  "quest:184",
+  "npc:farmer-furlbrow",
+  "zone:westfall",
+  "zone:elwynn",
+  "topic:defias-brotherhood",
+  "quest:65"
+ ],
+ "attribution": [
+  "Furlbrow's Deed",
+  "Furlbrow's Deed (Classic)"
+ ]
+}

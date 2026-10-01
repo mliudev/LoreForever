@@ -1,0 +1,82 @@
+{
+ "key": "item:bloodfury-ripper-s-remains",
+ "type": "item",
+ "name": "Bloodfury Ripper's Remains",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Bloodfury Ripper's Remains",
+  "quests": [
+   "quest:6283"
+  ]
+ },
+ "summary": "Bloodfury Ripper's Remains are the physical proof recovered from the matriarch of the Bloodfury harpies in the Charred Vale. Sought by Maggran Earthbinder at Sun Rock Retreat, this trophy confirms the death of the brood's ferocious leader, dealing a decisive blow to the harpy presence threatening the local tauren settlement.",
+ "sections": [
+  {
+   "title": "Severing the Bloodline",
+   "body": "The Bloodfury harpies nesting within the scorched ruins of the Charred Vale have long posed a savage threat to the travelers and shamans of the Stonetalon Mountains. While culling their numbers thins the immediate danger, Maggran Earthbinder of Sun Rock Retreat recognizes that true reprieve requires eliminating their leadership. Bloodfury Ripper rules her flock almost as a queen, guiding their territorial aggression. Taking her remains is essential proof of her demise, scattering the remaining harpies into disarray and granting peace of mind to the tauren striving to heal and secure their rugged lands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Bloodfury Ripper's Remains used for?",
+   "aliases": [
+    "what do remains do",
+    "remains purpose",
+    "who wants the remains"
+   ],
+   "answer": "They serve as undeniable physical proof of the death of Bloodfury Ripper. Maggran Earthbinder at Sun Rock Retreat requests them to confirm that the queen-like leader of the local harpies has been permanently removed."
+  },
+  {
+   "q": "Where can Bloodfury Ripper be found?",
+   "aliases": [
+    "bloodfury ripper location",
+    "where is ripper",
+    "find bloodfury ripper"
+   ],
+   "answer": "Bloodfury Ripper prowls the western and northwestern hill lines of the Charred Vale in southern Stonetalon Mountains, distinguished from her crimson-and-white flock by her distinct blue plumage."
+  },
+  {
+   "q": "Why does Maggran Earthbinder want her dead?",
+   "aliases": [
+    "why kill bloodfury ripper",
+    "maggran motivation",
+    "why ripper dead"
+   ],
+   "answer": "Maggran believes that merely culling ordinary harpies will never stop their raids on the surrounding lands. Slaying their matriarch breaks their hierarchy and diminishes their ability to rally against Sun Rock Retreat."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Bloodfury harpies directly threaten the safety of Sun Rock Retreat, making the collection of their leader's remains an act of devotion toward protecting peaceful tauren settlements in Stonetalon."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Clearing out wild perils like the Bloodfury matriarch ensures safe passage for Horde caravans and scouts moving between the Barrens and Stonetalon."
+  }
+ ],
+ "keywords": [
+  "bloodfury ripper",
+  "charred vale",
+  "harpies",
+  "maggran earthbinder",
+  "remains",
+  "stonetalon",
+  "sun rock retreat"
+ ],
+ "related": [
+  "quest:6283",
+  "quest:6282",
+  "npc:maggran-earthbinder",
+  "subzone:charred-vale",
+  "subzone:sun-rock-retreat",
+  "zone:stonetalon",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Bloodfury Ripper's Remains",
+  "Bloodfury Bloodline"
+ ]
+}

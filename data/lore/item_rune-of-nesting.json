@@ -1,0 +1,93 @@
+{
+ "key": "item:rune-of-nesting",
+ "type": "item",
+ "name": "Rune of Nesting",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Rune of Nesting",
+  "quests": [
+   "quest:483"
+  ]
+ },
+ "summary": "The Rune of Nesting is one of the four sacred Relics of Wakening kept within the Ban'ethil Barrow Den on Teldrassil. It is an essential component in the delicate druidic ritual required to safely summon sleeping Druids of the Talon back from the Emerald Dream.",
+ "sections": [
+  {
+   "title": "A Sacred Focus for Awakening",
+   "body": "Night elf druids undergo deep, cyclical hibernations within underground barrow dens to commune with nature through the Emerald Dream. Waking from this profound trance is not simply a matter of stirring; it requires a precise ritual guided by sacred instruments. The Rune of Nesting, kept safely within the Chest of Nesting deep in the winding chambers of the Ban'ethil Barrow Den, anchors this process. Alongside the Raven Claw Talisman, the Black Feather Quill, and the Sapphire of Sky, the rune serves as a conduit to call the Druids of the Talon back to the waking world.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crisis in Ban'ethil",
+   "body": "When corrupted Gnarlpine furbolgs overran the Ban'ethil Barrow Den, the barrow's slumbering defenders were placed in immediate peril. Without access to their relics, the druids risked being trapped within the Emerald Dream indefinitely while invaders desecrated their sanctuary. Recovering the Rune of Nesting and its companion artifacts allows Athridas Bearmantle in Dolanaar to prepare the ritual necessary to safely awaken the endangered druids.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Rune of Nesting used for?",
+   "aliases": [
+    "what does rune of nesting do",
+    "rune of nesting purpose"
+   ],
+   "answer": "It is one of the four Relics of Wakening required by Athridas Bearmantle to conduct the ritual that safely rouses the Druids of the Talon from their deep slumber in the Emerald Dream."
+  },
+  {
+   "q": "Where is the Rune of Nesting found?",
+   "aliases": [
+    "where is rune of nesting",
+    "chest of nesting location"
+   ],
+   "answer": "It is stored inside the Chest of Nesting, located within the subterranean tunnels of the Ban'ethil Barrow Den, west of Dolanaar on Teldrassil."
+  },
+  {
+   "q": "Why can't the sleeping druids simply wake up on their own?",
+   "aliases": [
+    "why do druids need waking ritual",
+    "why can't druids wake up"
+   ],
+   "answer": "Entering the Emerald Dream in hibernation is a delicate, trance-like state. Without the guidance of sacred relics and an awakening ritual, returning can be impossible, leaving their minds adrift while their physical bodies are exposed to danger."
+  },
+  {
+   "q": "What other relics are needed alongside the Rune of Nesting?",
+   "aliases": [
+    "other relics of wakening",
+    "relics of wakening items"
+   ],
+   "answer": "The full ritual requires four Relics of Wakening: the Rune of Nesting, the Raven Claw Talisman, the Black Feather Quill, and the Sapphire of Sky."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids, the Rune of Nesting represents the sacred rituals of the Cenarion Circle, highlighting the vulnerability of the sleeping brethren when sacred sanctuaries are breached."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The desecration of the barrow dens and the loss of these wakening relics underscore the growing corruption plaguing the wildlife and furbolgs of Teldrassil."
+  }
+ ],
+ "keywords": [
+  "athridas bearmantle",
+  "ban'ethil barrow den",
+  "chest of nesting",
+  "druids of the talon",
+  "emerald dream",
+  "relics of wakening",
+  "rune of nesting"
+ ],
+ "related": [
+  "quest:483",
+  "subzone:ban-ethil-barrow-den",
+  "npc:athridas-bearmantle",
+  "item:raven-claw-talisman",
+  "item:black-feather-quill",
+  "item:sapphire-of-sky",
+  "topic:druid",
+  "topic:emerald-dream"
+ ],
+ "attribution": [
+  "Rune of Nesting",
+  "The Relics of Wakening"
+ ]
+}

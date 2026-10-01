@@ -1,0 +1,97 @@
+{
+ "key": "item:rendered-spores",
+ "type": "item",
+ "name": "Rendered Spores",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Rendered Spores",
+  "quests": [
+   "quest:853"
+  ]
+ },
+ "summary": "Rendered Spores are a volatile emulsion prepared from fungal samples gathered across the Barrens. Created by Apothecary Helbrim at the Crossroads, the mixture decays rapidly unless swiftly delivered to Apothecary Zamah beneath Thunder Bluff for stabilizing.",
+ "sections": [
+  {
+   "title": "A Volatile Mixture",
+   "body": "After acquiring strange fungal spores from the infected creatures and damp oases of the Barrens, Apothecary Helbrim processes them into an active chemical emulsion known as Rendered Spores. The delicate extraction suspends the potent compounds of the fungal growths in a liquid medium, but the solution is chemically unstable. It maintains its vital potency for only forty-five minutes before breaking down and becoming completely useless for scientific study.",
+   "spoiler": 0
+  },
+  {
+   "title": "Delivery to the Pools of Vision",
+   "body": "Because Helbrim lacks the necessary facilities or time at his remote outpost to complete the refining process, the emulsion must be rushed directly to his Forsaken colleague, Apothecary Zamah. Hidden away in the subterranean Pools of Vision beneath Spirit Rise in Thunder Bluff, Zamah possesses the specialized equipment and reagents needed to reseal and finish processing the spores for the Royal Apothecary Society.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Rendered Spores used for?",
+   "aliases": [
+    "purpose of rendered spores",
+    "what does zamah do with spores",
+    "why rendered spores"
+   ],
+   "answer": "They are fungal matter extracted by Apothecary Helbrim and turned into an emulsion for research by the Royal Apothecary Society. Apothecary Zamah uses the potent mixture in Thunder Bluff to continue their investigation into the strange growths spreading across the Barrens."
+  },
+  {
+   "q": "Why does the emulsion have a time limit?",
+   "aliases": [
+    "why are rendered spores timed",
+    "why do spores expire",
+    "rendered spores duration"
+   ],
+   "answer": "The chemical emulsion created by Helbrim is highly volatile and begins to decay as soon as it is mixed. Its active potency lasts for only forty-five minutes, requiring a courier to quickly transport it across the plains to Thunder Bluff before it becomes inert."
+  },
+  {
+   "q": "Who created these spores?",
+   "aliases": [
+    "who made rendered spores",
+    "who renders the spores",
+    "helbrim spores"
+   ],
+   "answer": "Apothecary Helbrim, a Forsaken researcher stationed at the Crossroads in the Barrens, rendered raw fungal spores gathered from local flora and fauna into this unstable liquid compound."
+  },
+  {
+   "q": "Where does the mixture need to go?",
+   "aliases": [
+    "where to bring rendered spores",
+    "zamah location",
+    "pools of vision location"
+   ],
+   "answer": "The spores must be delivered to Apothecary Zamah. She resides deep within the Pools of Vision, a cavern system hidden beneath Spirit Rise in the tauren capital of Thunder Bluff."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Royal Apothecary Society constantly seeks new biological compounds across Kalimdor to aid the Forsaken, relying on fast couriers to link field researchers like Helbrim with lab specialists like Zamah."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The presence of Forsaken apothecaries experimenting on strange Barrens flora inside the sacred Pools of Vision reflects the uneasy, practical alliance forged within Thunder Bluff."
+  }
+ ],
+ "keywords": [
+  "apothecary helbrim",
+  "apothecary zamah",
+  "barrens",
+  "crossroads",
+  "emulsion",
+  "pools of vision",
+  "rendered spores",
+  "thunder bluff"
+ ],
+ "related": [
+  "npc:apothecary-helbrim",
+  "quest:853",
+  "quest:848",
+  "subzone:pools-of-vision",
+  "subzone:spirit-rise",
+  "zone:thunderbluff",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Rendered Spores",
+  "Apothecary Zamah (quest)"
+ ]
+}

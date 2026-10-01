@@ -1,0 +1,96 @@
+{
+ "key": "item:lonebrow-s-journal",
+ "type": "item",
+ "name": "Lonebrow's Journal",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Lonebrow's Journal",
+  "quests": [
+   "quest:1100"
+  ]
+ },
+ "summary": "Lonebrow's Journal is a weathered diary found clutched in the skeletal remains of the dwarven explorer Henrig Lonebrow at the base of the Great Lift. Its pages detail the final grim journey of Lonebrow through Thousand Needles and point toward dangers lurking within Razorfen Kraul.",
+ "sections": [
+  {
+   "title": "A Dying Wish at the Great Lift",
+   "body": "Henrig Lonebrow met an unfortunate end near the base of the Great Lift connecting the Barrens to Thousand Needles. Lying abandoned on a rocky ledge, his skeletal remains still grip this weathered journal. The diary serves as a testament to his final travels and directs whoever discovers it to bring word to the night elf druid Falfindel Waywarder at Thalanaar, the border outpost leading into Feralas. Lonebrow's notes shed critical light on the quillboar menace brewing in the southern barrens.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ties to the Razorfen",
+   "body": "When delivered to Falfindel Waywarder, Lonebrow's records confirm growing Alliance concerns regarding the quillboar of Razorfen Kraul. The journal's contents lead directly to a call for heroes to strike at the heart of the thorny warren and defeat Charlga Razorflank, the Crone of the Kraul who orchestrates the quillboar threat.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Henrig Lonebrow?",
+   "aliases": [
+    "henrig lonebrow",
+    "who is lonebrow",
+    "dead dwarf lift"
+   ],
+   "answer": "Henrig Lonebrow was a dwarven traveler who perished at the foot of the Great Lift in Thousand Needles. He died with his journal clutched in hand, intending for its contents to reach the night elves stationed at Thalanaar."
+  },
+  {
+   "q": "Where is the journal found?",
+   "aliases": [
+    "where is lonebrow journal",
+    "find lonebrow journal",
+    "skeleton at great lift"
+   ],
+   "answer": "The journal rests beside Henrig Lonebrow's skeleton just off the ramp at the base of the Great Lift, on a low rocky ledge in northern Thousand Needles."
+  },
+  {
+   "q": "Who should receive Lonebrow's Journal?",
+   "aliases": [
+    "who do i bring journal to",
+    "falfindel waywarder",
+    "where to turn in journal"
+   ],
+   "answer": "The journal should be taken west across Thousand Needles to Falfindel Waywarder, a night elf druid stationed at Thalanaar along the border of Feralas."
+  },
+  {
+   "q": "What does the journal lead to?",
+   "aliases": [
+    "crone of the kraul quest",
+    "lonebrow journal follow up"
+   ],
+   "answer": "Reading the journal and reporting to Falfindel Waywarder reveals intelligence on the quillboar, leading to a mission into Razorfen Kraul to defeat the crone Charlga Razorflank."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Discovering a fallen kin in such remote, hostile lands is a somber reminder of the perils dwarven explorers face while scouting far beyond Khaz Modan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Henrig Lonebrow's final writings forge a crucial link between Alliance scouts and the druids guarding the border to Feralas, rallying aid against the quillboar menace."
+  }
+ ],
+ "keywords": [
+  "crone of the kraul",
+  "falfindel waywarder",
+  "great lift",
+  "henrig lonebrow",
+  "razorfen kraul",
+  "thalanaar",
+  "thousand needles"
+ ],
+ "related": [
+  "quest:1100",
+  "quest:1101",
+  "subzone:great-lift",
+  "subzone:thalanaar",
+  "npc:falfindel-waywarder",
+  "zone:thousandneedles",
+  "zone:razorfenkraul",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Lonebrow's Journal",
+  "Lonebrow's Journal (quest)"
+ ]
+}

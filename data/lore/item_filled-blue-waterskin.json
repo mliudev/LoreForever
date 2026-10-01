@@ -1,0 +1,94 @@
+{
+ "key": "item:filled-blue-waterskin",
+ "type": "item",
+ "name": "Filled Blue Waterskin",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Filled Blue Waterskin",
+  "quests": [
+   "quest:1534"
+  ]
+ },
+ "summary": "The Filled Blue Waterskin holds pristine water gathered from a fountain at the ancient Ruins of Stardust in Ashenvale. Shaman seeking communion with the water spirits collect this sample as a vital reagent for their trial of passage.",
+ "sections": [
+  {
+   "title": "Sacred Spring of Ashenvale",
+   "body": "Initiates undertaking the Call of Water are directed northward across the border from the Barrens into the dense forests of Ashenvale. Nestled against the mountains dividing Ashenvale from Stonetalon, beyond Lake Mystral, lie the Ruins of Stardust\u2014a secluded elven sanctuary guarded by fierce forest beasts. At the center of this sacred lake stands an untouched fountain. Drawing from its basin into a blue waterskin yields water untainted by corruption or drought, prized by shaman masters for ritual attunement.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Rite of Harmony",
+   "body": "The water collected within this vessel serves as the final sample required by Brine, a hermit water expert dwelling along the southern marshes of the Barrens. Combined with waters gathered from other contrasting wells and springs, this pure essence is distilled into an offering potent enough to manifest and soothe the elemental spirits of water, completing the initiate's trial.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the water gathered to fill this waterskin?",
+   "aliases": [
+    "where do i fill it",
+    "ruins of stardust fountain",
+    "water location"
+   ],
+   "answer": "It is scooped from a small fountain located at the center of the lake within the Ruins of Stardust, situated in southwestern Ashenvale just beyond Lake Mystral."
+  },
+  {
+   "q": "Who requires this water?",
+   "aliases": [
+    "who wants the blue waterskin",
+    "brine water",
+    "call of water npc"
+   ],
+   "answer": "Brine, a seasoned hermit living in the southern reaches of the Barrens, instructs novice shaman to retrieve this water as part of the Call of Water trials."
+  },
+  {
+   "q": "What is the purpose of collecting this sample?",
+   "aliases": [
+    "why do i need it",
+    "what is filled blue waterskin used for"
+   ],
+   "answer": "It is the final reagent needed by Brine to brew a draught of extraordinarily pure water, which allows an aspiring shaman to commune with and honor the elemental spirits of water."
+  },
+  {
+   "q": "Is the area where the water is gathered dangerous?",
+   "aliases": [
+    "ruins of stardust danger",
+    "is ashenvale fountain safe"
+   ],
+   "answer": "Yes. The Ruins of Stardust are inhabited by hostile wildlife, including local elementals and ferocious beasts that defend the ancient elven glade against intruders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Fetching this sacred water represents the culmination of your journey to master water, demanding you cross hostile faction borders to commune with nature's purest reservoirs."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Venturing north into the contested woods of Ashenvale presents real danger for Horde initiates, forcing you into ancestral night elven territory to complete sacred rites."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "brine",
+  "call of water",
+  "filled blue waterskin",
+  "lake mystral",
+  "ruins of stardust",
+  "shaman quest"
+ ],
+ "related": [
+  "quest:63",
+  "npc:brine",
+  "subzone:ruins-of-stardust",
+  "item:empty-blue-waterskin",
+  "zone:ashenvale",
+  "zone:barrens",
+  "topic:shaman"
+ ],
+ "attribution": [
+  "Filled Blue Waterskin",
+  "Call of Water (5)"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "item:soran-ruk-fragment",
+ "type": "item",
+ "name": "Soran'ruk Fragment",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Soran'ruk Fragment",
+  "quests": [
+   "quest:1740"
+  ]
+ },
+ "summary": "A Soran'ruk Fragment is a shattered shard of a demonic prison orb once bound to the spirit of a disgraced servant of the Burning Legion. Though split and dispersed among cultists deep beneath Ashenvale, each shard still radiates residual fel energy.",
+ "sections": [
+  {
+   "title": "A Shattered Prison",
+   "body": "When demons of the Burning Legion fall out of favor with their masters, their spirits are sometimes condemned to imprisonment inside specialized orbs and distributed to fel spellcasters as conduits of raw power. The orb of Soran'ruk met this fate, yet somewhere in its history, it was cracked apart. One half was broken into smaller shards and fell into the hands of the Twilight's Hammer cultists lurking within the submerged ruins of Blackfathom Deeps, who draw upon the lingering demonic essence for their own dark workings.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reconstruction in the Barrens",
+   "body": "Despite being fragmented, each piece retains a trace of the imprisoned entity's vitality. In the southern Barrens, the reclusive scholar Doan Karhan has spent a lifetime studying these demonic vessels, having previously restored the Orb of Zargain. By recovering three small fragments alongside the larger piece held in Silverpine, an ambitious warlock can have the relic forged whole once again into an instrument of power.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Soran'ruk?",
+   "aliases": [
+    "who is soranruk",
+    "soran'ruk lore",
+    "is soranruk a demon"
+   ],
+   "answer": "Soran'ruk was a demon of the Burning Legion who fell out of favor with demonic leadership. As punishment, its spirit was extracted and trapped within a crystalline orb to serve mortal warlocks and mages as an energy reservoir."
+  },
+  {
+   "q": "Where are these fragments found?",
+   "aliases": [
+    "where to get soranruk fragment",
+    "who drops soran'ruk fragments",
+    "soranruk fragment location"
+   ],
+   "answer": "The smaller shards are carried by Twilight Acolytes within the cavernous halls of Blackfathom Deeps along the Zoram Strand."
+  },
+  {
+   "q": "Why does the Twilight's Hammer have these shards?",
+   "aliases": [
+    "why do cultists have it",
+    "twilights hammer soranruk"
+   ],
+   "answer": "Even when broken, the shards retain the magical essence of the trapped demon. The cultists of the Twilight's Hammer scavenge such corrupt artifacts to fuel their dark rituals and channel forbidden magic."
+  },
+  {
+   "q": "Who can restore the Orb of Soran'ruk?",
+   "aliases": [
+    "who fixes the orb",
+    "where to turn in soranruk fragment",
+    "doan karhan orb"
+   ],
+   "answer": "Doan Karhan, a solitary hermit living in the southern Barrens near the border of Thousand Needles, specializes in studying and reforging the demonic orbs of the Legion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Demonic prison vessels like the Orb of Soran'ruk represent prized conduits for warlocks seeking to bind and manipulate raw fel energies without direct demonic subjugation."
+  }
+ ],
+ "keywords": [
+  "blackfathom deeps",
+  "doan karhan",
+  "fel",
+  "orb of soran'ruk",
+  "soran'ruk",
+  "soranruk",
+  "twilight acolyte"
+ ],
+ "related": [
+  "quest:1740",
+  "item:large-soran-ruk-fragment",
+  "npc:doan-karhan",
+  "zone:blackfathom",
+  "zone:barrens",
+  "topic:twilight-s-hammer",
+  "topic:burning-legion",
+  "topic:warlock"
+ ],
+ "attribution": [
+  "Soran'ruk Fragment",
+  "The Orb of Soran'ruk"
+ ]
+}

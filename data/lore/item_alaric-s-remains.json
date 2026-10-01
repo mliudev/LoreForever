@@ -1,0 +1,104 @@
+{
+ "key": "item:alaric-s-remains",
+ "type": "item",
+ "name": "Alaric's Remains",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Alaric's Remains",
+  "quests": [
+   "quest:461"
+  ]
+ },
+ "summary": "Alaric's Remains are the recovered bones of an individual once interred in a shallow grave along Silverpine Forest. His lingering spirit bids travelers to carry what is left of him past the Rot Hide gnolls into the towers of Fenris Keep.",
+ "sections": [
+  {
+   "title": "A Final Request",
+   "body": "Unearthed from an unremarkable shallow grave in Silverpine Forest, the remains belong to Alaric, a former resident of Fenris Isle. Rather than linger in an exposed pit, his spirit yearns for the place he cherished in life. He asks whoever unearths his bones to leave his ill-fitting boots behind and bring his skeletal remains directly into the keep, seeking quiet sanctuary far away from the scavengers prowling the mainland.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Alcove in the Keep",
+   "body": "Alaric guides the carrier to the southwestern tower of Fenris Keep, past the infested lower grounds into a quiet chamber. Tucked behind a dusty shelf lies a concealed niche containing an artifact once valued by Thule Ravenclaw and his fellow mages. In exchange for granting him an undisturbed resting place sealed away from the ravenous Rot Hide gnolls, Alaric yields the hidden trinkets to those who carried his bones home.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Alaric?",
+   "aliases": [
+    "who is alaric",
+    "alaric lore",
+    "who was this guy"
+   ],
+   "answer": "Alaric was an inhabitant of Fenris Keep before its ruin, spending what he considered the finest days of his life within its halls. Following his death, he was buried hastily in a shallow grave in Silverpine Forest until his spirit directed a passerby to carry his bones back home."
+  },
+  {
+   "q": "Where are Alaric's remains supposed to go?",
+   "aliases": [
+    "where do i bring alaric",
+    "dusty shelf location",
+    "where is the niche"
+   ],
+   "answer": "His remains are meant to be placed into a concealed alcove behind a dusty shelf in the southwestern tower of Fenris Keep, situated on Fenris Isle."
+  },
+  {
+   "q": "Why does Alaric want his remains sealed behind a shelf?",
+   "aliases": [
+    "why fenris keep",
+    "why the niche",
+    "why hide the body"
+   ],
+   "answer": "Fenris Keep brought him great comfort in life, and he wishes to rest within its stone walls rather than in a dirt ditch. Sealing the hidden alcove tightly also protects his skeleton from being devoured or desecrated by the Rot Hide gnolls roaming the keep."
+  },
+  {
+   "q": "Why did he say to leave his boots behind?",
+   "aliases": [
+    "leave the boots",
+    "alaric's boots",
+    "boots never fit"
+   ],
+   "answer": "When directing the recovery of his bones from the shallow grave, Alaric casually noted that his boots never fit him in life anyway, leaving them behind as useless clutter."
+  },
+  {
+   "q": "What is inside the hidden alcove besides a resting place?",
+   "aliases": [
+    "hidden niche treasure",
+    "what is behind the shelf",
+    "thule's item"
+   ],
+   "answer": "The secret niche holds an item once treasured by Thule Ravenclaw and his former associates, alongside magical belongings Alaric willingly bequeaths to anyone willing to bear his remains to rest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Forsaken travelers often empathize with spirits whose mortal rest was interrupted, though Alaric seeks peaceful seclusion rather than service under the Dark Lady."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The hidden cache Alaric reveals contains relics connected to Thule Ravenclaw and the Dalaran-trained arcanists who once studied and schemed inside Fenris Keep."
+  }
+ ],
+ "keywords": [
+  "alaric",
+  "alaric's remains",
+  "fenris keep",
+  "rot hide",
+  "shallow grave",
+  "silverpine forest",
+  "the hidden niche",
+  "thule ravenclaw"
+ ],
+ "related": [
+  "quest:461",
+  "quest:460",
+  "subzone:fenris-keep",
+  "zone:silverpine",
+  "quest:491"
+ ],
+ "attribution": [
+  "Alaric's Remains",
+  "The Hidden Niche"
+ ]
+}

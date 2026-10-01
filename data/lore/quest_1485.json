@@ -1,0 +1,123 @@
+{
+ "key": "quest:1485",
+ "type": "quest",
+ "name": "Vile Familiars",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   1485
+  ],
+  "level": "4",
+  "faction": "Horde",
+  "start": "Ruzan",
+  "end": "",
+  "previous": null,
+  "next": "Vile Familiars (Warlock 2)",
+  "wiki": "Vile Familiars (Warlock)",
+  "chain": []
+ },
+ "summary": "In the arid valley of the Valley of Trials, the warlock trainer Ruzan tasks aspiring practitioners of the dark arts with proving their mettle against vile familiars. To earn the knowledge of demon summoning, initiates must face these impish creatures in combat and claim their severed heads. It marks the humble, dangerous first step toward mastering fel power under the watchful eyes of the Horde.",
+ "sections": [
+  {
+   "title": "A Precarious Place in the Horde",
+   "body": "Warlocks hold an uneasy place within Thrall's newly forged Horde. The legacy of demonic corruption and blood pacts that once brought ruin to the orcish race left deep scars and lingering distrust. Though practitioners of fel magic are tolerated in Durotar, they are neither loved nor widely embraced. Many choose reclusive lives in shadowy corners like the Den, practicing their art away from prying eyes while teaching those rare initiates daring enough to walk the path.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Trial of Mastery",
+   "body": "Before granting an apprentice the dangerous rites required to bend an imp to their will, Ruzan demands evidence of dominance. Near a cave northeast of the Den, vile familiars skulk and hurl bolts of flame at any who approach. By slaying these lesser demons and claiming their heads, an initiate proves they can overpower the fiery adversaries they seek to control, ensuring they will not be consumed by the very magic they intend to command.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Ruzan send warlocks to fight vile familiars?",
+   "aliases": [
+    "why kill vile familiars",
+    "ruzan test",
+    "imp trial"
+   ],
+   "answer": "Ruzan requires initiates to face vile familiars so they understand the fiery nature and danger of imps before attempting to summon one. Because warlocks are few and distrusted, he refuses to risk an apprentice's life by teaching the art of demon summoning before they have proven they can best such creatures in direct combat."
+  },
+  {
+   "q": "Where are the vile familiars found?",
+   "aliases": [
+    "vile familiar location",
+    "where are familiars",
+    "ruzan cave"
+   ],
+   "answer": "They gather around and inside a cave to the northeast of the Den in the Valley of Trials, beyond the roaming boars and scorpids. This cavern serves as an encampment for the sinister Burning Blade Coven."
+  },
+  {
+   "q": "How does the Horde view warlocks in Durotar?",
+   "aliases": [
+    "are warlocks hated",
+    "horde warlock lore",
+    "why distrust warlocks"
+   ],
+   "answer": "Warlocks are viewed with deep suspicion and distrust throughout the Horde due to the demonic history that previously corrupted the orcish people. While Thrall's government tolerates their presence and recognizes their combat utility, they are kept at arm's length, leading many practitioners to live solitary lives."
+  },
+  {
+   "q": "What reward does completing this trial offer?",
+   "aliases": [
+    "what do i learn",
+    "quest reward ruzan",
+    "imp spell"
+   ],
+   "answer": "Slaying the creatures and returning their severed heads to Ruzan proves you possess the discipline and strength needed to command demons, leading directly into learning how to summon an imp minion."
+  },
+  {
+   "q": "Are vile familiars actual demons?",
+   "aliases": [
+    "what are vile familiars",
+    "are familiars imps",
+    "familiar demon type"
+   ],
+   "answer": "Yes, vile familiars are minor demonic imps associated with fel magic. Though small in stature, they are formidable adversaries capable of slinging fireballs at their enemies."
+  },
+  {
+   "q": "Who is Ruzan?",
+   "aliases": [
+    "ruzan",
+    "who is ruzan",
+    "valley of trials warlock"
+   ],
+   "answer": "Ruzan is an orc warlock trainer stationed inside the Den in the Valley of Trials. He instructs new orc and troll warlocks on how to safely harness fel energies and control summoned servants."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This trial marks your inaugural rite of passage as a warlock, proving you can subdue demonic fire before invoking the ritual to summon an imp of your own."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcish warlocks must confront the dark history of their people every day, proving their control and loyalty in a society that remembers the horrors of fel corruption."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Though the Horde allows warlocks to train within Durotar, their dark arts are kept tightly contained within isolated areas like the Den."
+  }
+ ],
+ "keywords": [
+  "burning blade coven",
+  "durotar",
+  "imp",
+  "ruzan",
+  "the den",
+  "valley of trials",
+  "vile familiars",
+  "warlock"
+ ],
+ "related": [
+  "quest:792",
+  "subzone:burning-blade-coven",
+  "quest:1089",
+  "zone:durotar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Vile Familiars (Warlock)"
+ ]
+}

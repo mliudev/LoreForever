@@ -1,0 +1,89 @@
+{
+ "key": "item:raptor-head",
+ "type": "item",
+ "name": "Raptor Head",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Raptor Head",
+  "quests": [
+   "quest:869"
+  ]
+ },
+ "summary": "A severed raptor head serves as bloody proof of a beast slain in the Barrens. Gazrog of the Crossroads demands these macabre trophies to purge the local packs after an improbable theft of guard payroll.",
+ "sections": [
+  {
+   "title": "Bounty of the Crossroads",
+   "body": "Life in the arid plains of the Barrens is harsh enough without local wildlife raiding settlement towers. When a chest containing guard payroll vanished from the Crossroads watchtower, the defenders caught an improbable culprit red-handed: a wild raptor. Perplexed and furious, Gazrog placed an immediate bounty on the cunning reptiles prowling the savannah. Bringing severed raptor heads back to the outpost proves that these predatory pests are being culled before they can pilfer any more Horde supplies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Gazrog want raptor heads?",
+   "aliases": [
+    "why collect raptor heads",
+    "gazrog raptors",
+    "raptor head bounty"
+   ],
+   "answer": "A shipment of silver meant as payroll for the Crossroads guards was stolen directly from their tower. To everyone's disbelief, one of the thieves caught in the act was a raptor. Gazrog wants the beasts hunted down across the Barrens so they cannot raid the settlement again."
+  },
+  {
+   "q": "Why would wild raptors steal silver?",
+   "aliases": [
+    "why do raptors want silver",
+    "raptors stealing coins",
+    "raptor thieves mystery"
+   ],
+   "answer": "Gazrog admits he has no idea why wild beasts would have any interest in metal coins. However, raptors in Kalimdor are notorious for their unnerving cunning, and the incident leaves the Crossroads guards both embarrassed and eager for retribution."
+  },
+  {
+   "q": "Which raptors carry these heads?",
+   "aliases": [
+    "where to get raptor heads",
+    "which raptors drop heads",
+    "barrens raptors"
+   ],
+   "answer": "Heads can be taken from various Sunscale raptors roaming the central and southern Barrens, including Sunscale Lashtails, Screechers, and Scytheclaws. Notorious beasts like Ishamuhale and Takk the Leaper also yield heads."
+  },
+  {
+   "q": "What happens after turning in the heads?",
+   "aliases": [
+    "what follows raptor thieves",
+    "after collecting raptor heads"
+   ],
+   "answer": "Once Gazrog receives twelve heads and sees the raptor menace thinned, attention turns to tracking down where the stolen silver shipment was actually taken."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Crossroads is the logistical heartbeat of Horde travel in central Kalimdor. Clearing thieving predators secures the garrison's supplies and payroll."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking Sunscale raptors across the dry scrub of the Barrens tests a hunter's ability to outwit some of the savannah's most aggressive and cunning pack hunters."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "gazrog",
+  "raptor head",
+  "raptor thieves",
+  "stolen silver",
+  "sunscale"
+ ],
+ "related": [
+  "quest:869",
+  "npc:gazrog",
+  "subzone:crossroads",
+  "zone:barrens",
+  "quest:3281",
+  "quest:882"
+ ],
+ "attribution": [
+  "Raptor Head",
+  "Raptor Thieves"
+ ]
+}

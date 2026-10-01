@@ -1,0 +1,77 @@
+{
+ "key": "item:filled-brown-waterskin",
+ "type": "item",
+ "name": "Filled Brown Waterskin",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Filled Brown Waterskin",
+  "quests": [
+   "quest:1535"
+  ]
+ },
+ "summary": "The Filled Brown Waterskin contains fresh water drawn from a rare pond near Brine's hut in the Barrens. Collected by aspiring shaman, it forms the first fundamental step in brewing the sapta needed to commune with the spirits of water.",
+ "sections": [
+  {
+   "title": "A Life-Giving Drought",
+   "body": "In the parched expanse of the Barrens, surface water is both a blessing and a battleground. The pond nestled beneath Brine's hut offers precious hydration that draws the desperate and defensive quilboar who dwell nearby. For an initiate walking the path of the shaman, filling this simple leather waterskin is not merely an errand of gathering supplies; it is an elemental lesson. By approaching the pool and witnessing the fierce territorial struggle surrounding it, the novice observes firsthand how the very substance that sustains life in the desert can drive mortal creatures to violence.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Filled Brown Waterskin used for?",
+   "aliases": [
+    "brown waterskin use",
+    "what is filled brown waterskin",
+    "what do i do with filled brown waterskin"
+   ],
+   "answer": "It is brought directly to Brine at her hut in the southern Barrens. She uses the collected water to begin preparing the elemental sapta, a draught that enables shaman to perceive and commune with water spirits."
+  },
+  {
+   "q": "Where does this water come from?",
+   "aliases": [
+    "where to get water",
+    "pond location",
+    "where is the watering hole"
+   ],
+   "answer": "It is scooped from the small freshwater pool located just down the ridge beneath Brine's isolated hut, an oasis fiercely contested by the local quilboar."
+  },
+  {
+   "q": "Why do the quilboar fight over this water source?",
+   "aliases": [
+    "why quilboar attack",
+    "quilboar water",
+    "why is water sacred to quilboar"
+   ],
+   "answer": "Rain is exceedingly rare in the arid Barrens, making any pond a vast hoard of wealth. Water is so scarce that the quilboar hold feasts when it rains and will guard natural springs to the death against outsiders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Fetching this water is the first practical test given by Brine during the Call of Water, teaching you to respect the delicate balance and fierce passions surrounding liquid life."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "brine",
+  "brown waterskin",
+  "call of water",
+  "filled brown waterskin",
+  "quilboar",
+  "sapta",
+  "shaman quest"
+ ],
+ "related": [
+  "npc:brine",
+  "item:empty-brown-waterskin",
+  "quest:63",
+  "zone:barrens",
+  "topic:quilboar"
+ ],
+ "attribution": [
+  "Filled Brown Waterskin",
+  "Call of Water (3)"
+ ]
+}

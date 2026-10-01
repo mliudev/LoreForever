@@ -1,0 +1,96 @@
+{
+ "key": "item:warsong-saw-blades",
+ "type": "item",
+ "name": "Warsong Saw Blades",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Warsong Saw Blades",
+  "quests": [
+   "quest:6571"
+  ]
+ },
+ "summary": "Warsong Saw Blades are specialized industrial cutting tools ordered to supply the Horde's clear-cutting operations in Ashenvale. Delivered through goblin logistical networks, they are vital for keeping the Warsong Lumber Camp's timber machinery running.",
+ "sections": [
+  {
+   "title": "Industrial Forestry",
+   "body": "The Warsong Clan's logging efforts in Ashenvale rely heavily on heavy-duty machinery provided and maintained with goblin engineering. Standard axes alone cannot feed the Horde's massive appetite for Kalimdor lumber, requiring steam engines and circular saws that continually chew through raw timber. Because Ashenvale's ancient hardwood rapidly dulls and snaps ordinary blades, constant shipments of replacement saw blades are vital to keep the mills running at the Warsong Lumber Camp.",
+   "spoiler": 0
+  },
+  {
+   "title": "Securing the Shipment",
+   "body": "Procuring mechanical parts deep in disputed territory is an ongoing logistical headache. While other logging supplies are frequently intercepted by hostile furbolgs or satyrs, shipments of saw blades are handled through goblin contacts like Pixel at Splintertree Post. Gathering these blades alongside rope, oil, and axes allows lumber master Locke Okarr to keep the camp operational despite constant sabotage from the native defenders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Warsong Saw Blades used for?",
+   "aliases": [
+    "purpose of saw blades",
+    "saw blades use",
+    "what are they for"
+   ],
+   "answer": "They are replacement circular saw components meant for the heavy mechanical lumber shredders and mills operating at the Warsong Lumber Camp in southeastern Ashenvale."
+  },
+  {
+   "q": "Who provides these saw blades to the Horde?",
+   "aliases": [
+    "who made saw blades",
+    "where do blades come from",
+    "saw blade supplier"
+   ],
+   "answer": "The blades are handled by goblin merchants and logisticians. Pixel, a goblin stationed at Splintertree Post, oversees the arrival of this mechanical shipment for the Warsong outriders."
+  },
+  {
+   "q": "Why does the Horde need so many saw blades?",
+   "aliases": [
+    "why so many blades",
+    "warsong logging demand",
+    "why need saws"
+   ],
+   "answer": "The dense, ancient trees of Ashenvale quickly wear out cutting edges, and the Horde requires vast amounts of timber to construct settlements across the arid plains of Durotar and the Barrens. Continuous logging wears down machinery faster than local smiths can reforge it."
+  },
+  {
+   "q": "Who is collecting the logging supplies?",
+   "aliases": [
+    "who wants the saw blades",
+    "who takes saw blades",
+    "locke okarr quest"
+   ],
+   "answer": "Locke Okarr, an orc overseeing supply runs from Splintertree Post, organizes the recovery of the saw blades alongside oil, ropes, and axes to deliver them to the lumber camp."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Horde's entire expansion into central Kalimdor depends on Ashenvale timber, making the preservation and maintenance of Warsong milling equipment a critical strategic priority."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Every crate of goblin-forged saw blades represents the continued desecration of Ashenvale's ancient canopy and the slaughter of sacred woodland spirits."
+  }
+ ],
+ "keywords": [
+  "ashenvale logging",
+  "locke okarr",
+  "pixel",
+  "splintertree post",
+  "warsong lumber camp",
+  "warsong saw blades"
+ ],
+ "related": [
+  "quest:6571",
+  "quest:6581",
+  "npc:pixel",
+  "subzone:splintertree-post",
+  "subzone:warsong-lumber-camp",
+  "item:logging-rope",
+  "item:warsong-axe-shipment",
+  "item:warsong-oil"
+ ],
+ "attribution": [
+  "Warsong Saw Blades",
+  "Warsong Supplies (quest)"
+ ]
+}

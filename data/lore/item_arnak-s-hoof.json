@@ -1,0 +1,84 @@
+{
+ "key": "item:arnak-s-hoof",
+ "type": "item",
+ "name": "Arnak's Hoof",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Arnak's Hoof",
+  "quests": [
+   "quest:5147"
+  ]
+ },
+ "summary": "Arnak's Hoof is the macabre proof of death taken from the criminal Arnak Grimtotem. Hunted down on the bluffs of Darkcloud Pinnacle, Arnak was marked for execution by the defenders of Freewind Post after murdering a fellow tauren and kidnapping his sister.",
+ "sections": [
+  {
+   "title": "Bounty on an Outcast",
+   "body": "Arnak Grimtotem earned notoriety throughout Thousand Needles as an outlaw whose brutality crossed even the contentious lines of tauren clan politics. After murdering another tauren and abducting the victim's sister, Lakota Windsong, a formal bounty was posted for his death. Arnak holed up on the heights of Darkcloud Pinnacle, surrounded by Grimtotem guards. Slaying him and claiming his severed hoof serves as undeniable confirmation for Cliffwatcher Longhorn at Freewind Post that the murderer has finally answered for his crimes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Arnak's Hoof used for?",
+   "aliases": [
+    "arnak hoof turn in",
+    "what do i do with arnak's hoof",
+    "who wants arnak's hoof"
+   ],
+   "answer": "Arnak's Hoof serves as physical proof of the death of the outlaw Arnak Grimtotem. It is turned in to Cliffwatcher Longhorn at Freewind Post to complete the wanted bounty and claim the promised reward."
+  },
+  {
+   "q": "Who was Arnak Grimtotem?",
+   "aliases": [
+    "who is arnak",
+    "arnak grimtotem lore",
+    "why is arnak wanted"
+   ],
+   "answer": "Arnak was a Grimtotem renegade wanted for murder and kidnapping. He slew a tauren tribesman and held the victim's sister, Lakota Windsong, captive on the bluffs of Darkcloud Pinnacle."
+  },
+  {
+   "q": "Where is Arnak Grimtotem found?",
+   "aliases": [
+    "arnak grimtotem location",
+    "where is arnak",
+    "how to find arnak"
+   ],
+   "answer": "Arnak is located on the cliffs of Darkcloud Pinnacle in northern Thousand Needles, accessible via rope bridges near the crags approaching Razorfen Downs. He keeps his captive, Lakota Windsong, on the same bluff."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren of the plains, taking Arnak's hoof is an act of tribal justice against a renegade whose murderous conduct brought dishonor and bloodshed to Thousand Needles."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Eliminating Arnak secures Freewind Post's authority in Thousand Needles and weakens the treacherous Grimtotem influence threatening Horde supply routes."
+  }
+ ],
+ "keywords": [
+  "arnak",
+  "arnak grimtotem",
+  "arnak's hoof",
+  "cliffwatcher longhorn",
+  "darkcloud pinnacle",
+  "freewind post",
+  "lakota windsong",
+  "thousand needles"
+ ],
+ "related": [
+  "quest:5147",
+  "npc:cliffwatcher-longhorn",
+  "npc:lakota-windsong",
+  "subzone:darkcloud-pinnacle",
+  "subzone:freewind-post",
+  "quest:4904",
+  "quest:5064",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Arnak's Hoof",
+  "Wanted - Arnak Grimtotem"
+ ]
+}

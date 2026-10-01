@@ -1,0 +1,91 @@
+{
+ "key": "item:filled-crystal-phial",
+ "type": "item",
+ "name": "Filled Crystal Phial",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Filled Crystal Phial",
+  "quests": [
+   "quest:921"
+  ]
+ },
+ "summary": "A Filled Crystal Phial contains sacred waters drawn from the moonwell just north of Aldrassil in Shadowglen. Gathered at the instruction of Tenaron Stormgrip, this water serves as a novice's introduction to the sacred and volatile power coursing through Teldrassil.",
+ "sections": [
+  {
+   "title": "Waters of the Moonwell",
+   "body": "To prepare young night elves before they venture into the wider world, Tenaron Stormgrip sends them to gather water from the moonwell nestled in Shadowglen. The phial holds more than simple spring water; moonwells are infused with residual energies traced back to the ancient Well of Eternity. While the Sentinels honor these sites as blessed shrines of Elune and druids channel their restorative qualities into tending nature, the arcane sorcery of old remains strictly forbidden. Drawing this water is the first step in understanding the sacrifices of Mount Hyjal and the delicate balance required to nurture Teldrassil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Filled Crystal Phial?",
+   "aliases": [
+    "what water is in the phial",
+    "phial contents",
+    "what is in crystal phial"
+   ],
+   "answer": "The phial holds water drawn from the moonwell north of Aldrassil in Shadowglen. These waters carry remnants of the ancient Well of Eternity, blessed by Elune's light and nurtured by druidic care."
+  },
+  {
+   "q": "Who asks you to fill the phial?",
+   "aliases": [
+    "who wants the phial",
+    "who gives crystal phial quest",
+    "tenaron stormgrip quest"
+   ],
+   "answer": "Tenaron Stormgrip, stationed atop the boughs of Aldrassil, sends fledgling adventurers to draw the water as part of their rite of passage and historical instruction."
+  },
+  {
+   "q": "Why does Tenaron Stormgrip want this water?",
+   "aliases": [
+    "why fill crystal phial",
+    "crown of the earth purpose"
+   ],
+   "answer": "Tenaron uses the gathering task as an opening lesson on night elf history following the Third War, teaching young adventurers about the sacrifice of Nordrassil, the power of moonwells, and the ongoing stewardship of Teldrassil."
+  },
+  {
+   "q": "Are the waters dangerous?",
+   "aliases": [
+    "is moonwell water dangerous",
+    "is the water magic"
+   ],
+   "answer": "The waters carry potent magic rooted in the ancient Well of Eternity. While druids and priestesses safely use them for blessings and healing, reckless arcane manipulation of such waters brought catastrophe in ancient times and remains strictly outlawed."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Every young kaldorei who begins their training beneath Aldrassil fills this phial, reflecting upon the sacrifice of Mount Hyjal and their sacred duty to protect nature."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold moonwell water in deep reverence, using its revitalizing energies to tend to corrupted flora and sustain the great trees."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "crown of the earth",
+  "crystal phial",
+  "filled crystal phial",
+  "moonwell",
+  "shadowglen",
+  "tenaron stormgrip",
+  "well of eternity"
+ ],
+ "related": [
+  "quest:921",
+  "item:crystal-phial",
+  "npc:tenaron-stormgrip",
+  "subzone:aldrassil",
+  "subzone:shadowglen",
+  "zone:teldrassil",
+  "topic:elune",
+  "topic:nordrassil"
+ ],
+ "attribution": [
+  "Filled Crystal Phial",
+  "Crown of the Earth"
+ ]
+}

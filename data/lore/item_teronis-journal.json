@@ -1,0 +1,93 @@
+{
+ "key": "item:teronis-journal",
+ "type": "item",
+ "name": "Teronis' Journal",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Teronis' Journal",
+  "quests": [
+   "quest:1023"
+  ]
+ },
+ "summary": "Teronis' Journal is a field notebook recovered from the remains of a night elf scout in Ashenvale. Found alongside the slain investigator, it documents his search for a mysterious gem and serves as vital evidence for the Sentinels in Astranaar.",
+ "sections": [
+  {
+   "title": "A Scout's Final Record",
+   "body": "Dispatched into the wilds of Ashenvale on behalf of Raene Wolfrunner, Teronis was charged with uncovering the source of a foul corruption plaguing the region's waters. His mission ended abruptly when he fell in the field, surrounded by aggressive creatures near the shore. Recovered from his personal effects, this journal remains in remarkably good condition despite the violence of his demise. It outlines his findings regarding a radiant gem tied to the tainted land, providing Astranaar's defenders with the vital trail needed to see his unfinished mission through.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who did this journal belong to?",
+   "aliases": [
+    "who wrote the journal",
+    "who is teronis",
+    "teronis lore"
+   ],
+   "answer": "The journal belonged to Teronis, a night elf sent by Raene Wolfrunner from Astranaar to investigate strange disturbances and contaminated waters in Ashenvale. He was killed in the wilderness before he could return with his findings."
+  },
+  {
+   "q": "Where is the journal found?",
+   "aliases": [
+    "where to find journal",
+    "teronis journal location",
+    "how to get journal"
+   ],
+   "answer": "The journal is retrieved by rummaging through Teronis' belongings upon discovering his slain body in the wilds of Ashenvale, near the shorelines populated by local murlocs."
+  },
+  {
+   "q": "What is the purpose of bringing the journal to Astranaar?",
+   "aliases": [
+    "why bring journal to raene",
+    "who do i give the journal to",
+    "journal turn in"
+   ],
+   "answer": "Returning the journal to Raene Wolfrunner informs Astranaar of Teronis' death and provides the Sentinels with the notes required to continue his vital investigation into the regional cleansing rituals."
+  },
+  {
+   "q": "What item was Teronis looking for according to his mission?",
+   "aliases": [
+    "what was teronis hunting",
+    "what gem was he after",
+    "teronis gem"
+   ],
+   "answer": "Teronis was searching for a magical glowing gem believed to be connected to the land's cleansing. His investigation indicated that the nearby murlocs may have scavenged the artifact."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The journal represents the perilous duties borne by night elf scouts striving to protect Ashenvale's ancient woodlands from encroaching corruption."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Carrying Teronis' field notes back to Astranaar helps the garrison coordinate relief and recover their fallen scout's remains."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "glowing gem",
+  "raene wolfrunner",
+  "raene's cleansing",
+  "sentinels",
+  "teronis",
+  "teronis' journal"
+ ],
+ "related": [
+  "npc:teronis-corpse",
+  "npc:raene-wolfrunner",
+  "quest:991",
+  "item:glowing-gem",
+  "subzone:astranaar",
+  "zone:ashenvale",
+  "topic:sentinels",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Teronis' Journal",
+  "Raene's Cleansing (2)"
+ ]
+}

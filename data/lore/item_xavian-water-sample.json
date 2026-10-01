@@ -1,0 +1,91 @@
+{
+ "key": "item:xavian-water-sample",
+ "type": "item",
+ "name": "Xavian Water Sample",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Xavian Water Sample",
+  "quests": [
+   "quest:1944"
+  ]
+ },
+ "summary": "A vial of pristine, magically infused water drawn from the base of the highest waterfall in the ancient elven ruins of Xavian. Horde mages in Orgrimmar seek it out to unravel the latent arcane powers preserved in Ashenvale's oldest sacred sites.",
+ "sections": [
+  {
+   "title": "Waters of the Ancient City",
+   "body": "Before the Great Sundering, Xavian was a renowned elven settlement celebrated for its arcane scholars and ancient knowledge. Even after thousands of years of ruin and neglect, its waters are believed to retain potent magical properties. Deino, an arcane instructor in Orgrimmar, tasks rising mages with trekking deep into Ashenvale to collect a fresh sample straight from the pool below Xavian's tallest waterfall. Securing it requires braving dangerous territory, as the ruins are now fiercely guarded by corrupt satyrs hostile to any meddling spellcasters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the water sample collected?",
+   "aliases": [
+    "where do I get xavian water",
+    "xavian waterfall location",
+    "how to get xavian water sample"
+   ],
+   "answer": "It is gathered by filling Deino's Flask at the pool beneath the tallest waterfall within the ruins of Xavian. The site is located in northwestern Ashenvale, north past the lakes that lie beyond Splintertree Post and Satyrnaar."
+  },
+  {
+   "q": "Why does Deino want this water?",
+   "aliases": [
+    "who wants xavian water",
+    "why collect water from xavian",
+    "deino purpose"
+   ],
+   "answer": "Deino is an arcane instructor based in the Valley of Spirits in Orgrimmar. She studies potent and unusual sources of magic to educate young Horde practitioners, seeking the ancient magical essence preserved in Xavian's undisturbed waters."
+  },
+  {
+   "q": "What threats guard the waters of Xavian?",
+   "aliases": [
+    "what enemies are at xavian",
+    "who lives in xavian",
+    "xavian dangers"
+   ],
+   "answer": "The ancient elven ruins are inhabited by satyrs, demonic beings who hate intruders and fiercely defend their territory against curious mages. The surrounding waterways are also home to aggressive beasts such as river crocolisks."
+  },
+  {
+   "q": "What happens once the sample is returned to Orgrimmar?",
+   "aliases": [
+    "turning in xavian water",
+    "what is the water used for"
+   ],
+   "answer": "Deino immediately begins studying the sample's arcane properties, using the gathered magic to further her research and aid the training and instruction of Horde mages."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Retrieving the sample serves as an essential field trial for Horde mages, testing their ability to harness natural arcane fonts and navigate hostile, demon-tainted grounds."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As the Horde establishes a firmer presence in Ashenvale around Splintertree Post, harvesting the ancient arcane resources of Xavian provides vital knowledge for Orgrimmar's scholars."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "deino",
+  "orgrimmar",
+  "satyr",
+  "splintertree",
+  "water sample",
+  "xavian"
+ ],
+ "related": [
+  "quest:1944",
+  "npc:deino",
+  "subzone:xavian",
+  "zone:ashenvale",
+  "zone:orgrimmar",
+  "topic:satyr",
+  "subzone:splintertree-post",
+  "topic:mage"
+ ],
+ "attribution": [
+  "Xavian Water Sample",
+  "Waters of Xavian"
+ ]
+}

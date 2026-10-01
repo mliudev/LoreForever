@@ -1,0 +1,98 @@
+{
+ "key": "item:head-of-grimson",
+ "type": "item",
+ "name": "Head of Grimson",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Head of Grimson",
+  "quests": [
+   "quest:424"
+  ]
+ },
+ "summary": "The Head of Grimson is the severed trophy taken from Grimson the Pale, the corrupted overseer of the Deep Elem Mine in Silverpine Forest. Brought to Dalar Dawnweaver at the Sepulcher, it serves as physical proof that the mine's leadership has been eliminated. Securing the mine allows the Forsaken to seize valuable mineral wealth to fuel Varimathras's military campaigns.",
+ "sections": [
+  {
+   "title": "Securing the Deep Elem Mine",
+   "body": "While Dalar Dawnweaver studies Archmage Arugal's shadowy enchantments from the safety of the Sepulcher, Forsaken scouts known as Darkstalkers identified a strategic threat brewing in the southeastern hills. Arugal's dark magic had seeped into the Deep Elem Mine, corrupting its workers and driving its overseer, Grimson the Pale, into madness. To secure the subterranean riches for Varimathras's forces, Dawnweaver dispatched champions to cut down Grimson and return with his severed head as undeniable confirmation of the mine's liberation from rogue magics.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Trophy for the Dreadlord",
+   "body": "For the Forsaken, grim trophies of war carry pragmatic weight. Claiming the head of Grimson ensures that the subterranean workforce in the Deep Elem Mine is entirely broken, ending any lingering allegiance to Arugal's twisted reign. With Grimson eliminated, the rich mineral veins within the mine can be extracted and reforged into weapons and armor, sustaining the ongoing Forsaken advance across Silverpine Forest and the neighboring reaches of Lordaeron.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Grimson the Pale?",
+   "aliases": [
+    "who is grimson",
+    "grimson the pale lore",
+    "grimson background"
+   ],
+   "answer": "Grimson the Pale was the overseer of the Deep Elem Mine located in the southeastern hills of Silverpine Forest. Exposed to Archmage Arugal's spreading shadow magic, Grimson and his fellow miners fell under its dark sway, transforming the mine into a corrupted stronghold until the Forsaken intervened."
+  },
+  {
+   "q": "Why does Dalar Dawnweaver want Grimson's head?",
+   "aliases": [
+    "why dalar wants head",
+    "head of grimson purpose",
+    "why take head"
+   ],
+   "answer": "Dalar Dawnweaver needs concrete proof that the corrupted foreman has been permanently eliminated. Varimathras desires the Deep Elem Mine's mineral wealth for the Forsaken war effort, and killing Grimson breaks the resistance of the corrupted miners holding the tunnels."
+  },
+  {
+   "q": "Where is the Deep Elem Mine located?",
+   "aliases": [
+    "where is deep elem mine",
+    "grimson location",
+    "mine location silverpine"
+   ],
+   "answer": "The Deep Elem Mine is situated in the hills to the southeast of the Sepulcher in Silverpine Forest. It serves as a vital mineral cache contested by the Forsaken and the corrupted remnants subjected to Arugal's magic."
+  },
+  {
+   "q": "What role does Varimathras play in this task?",
+   "aliases": [
+    "varimathras role",
+    "why does varimathras want mine",
+    "varimathras silverpine"
+   ],
+   "answer": "Varimathras serves as the military overseer directing Forsaken expansion across Lordaeron from the Undercity. Securing the resources of the Deep Elem Mine directly serves his strategic goals, providing raw materials to fuel his growing war machine in Silverpine."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Claiming the mine fulfills the strategic mandates of Undercity high command, proving the Forsaken's resolve to reclaim Lordaeron's vital infrastructure from maddened remnants."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Deep Elem Mine represents one of Silverpine's prime mineral claims, now cleared of its maddened overseer so raw ore can flow into Horde supply lines."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "dalar dawnweaver",
+  "deep elem mine",
+  "grimson the pale",
+  "head of grimson",
+  "sepulcher",
+  "silverpine forest",
+  "varimathras"
+ ],
+ "related": [
+  "quest:99",
+  "subzone:deep-elem-mine",
+  "npc:dalar-dawnweaver",
+  "subzone:sepulcher",
+  "npc:varimathras",
+  "npc:arugal",
+  "zone:silverpine",
+  "quest:421"
+ ],
+ "attribution": [
+  "Head of Grimson",
+  "Arugal's Folly (3)"
+ ]
+}

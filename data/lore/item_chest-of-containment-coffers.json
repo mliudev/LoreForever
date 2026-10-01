@@ -1,0 +1,96 @@
+{
+ "key": "item:chest-of-containment-coffers",
+ "type": "item",
+ "name": "Chest of Containment Coffers",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Chest of Containment Coffers",
+  "quests": [
+   "quest:1960"
+  ]
+ },
+ "summary": "The Chest of Containment Coffers contains enchanted receptacles used by mages to capture unstable magical phenomena. It serves as essential equipment for practitioners sent to investigate and safely trap unseen mana anomalies.",
+ "sections": [
+  {
+   "title": "Vessels for the Unseen",
+   "body": "Magical experimentation and sudden planar rifts frequently spawn volatile, invisible anomalies made entirely of arcane force. Standard physical cages cannot hold entities composed purely of magic. The Chest of Containment Coffers provides mages with specialized, enchanted coffers engineered to entrap and bind these subdued creatures alive. Kept near senior instructors such as Anastasia Hartwell in the Undercity and Jennea Cannon in Stormwind, the chest provides the necessary gear for initiates tasked with surveying anomalies before they can destabilize their surroundings.",
+   "spoiler": 0
+  },
+  {
+   "title": "Arcane Containment Protocols",
+   "body": "When invisible disturbances manifested within Algernon's shop in the Apothecarium, Forsaken instructors dispatched mages equipped with these coffers to contain the incident. Capturing a rift entity requires revealing it with a specialized scroll, weakening its form through spellcasting, and trapping it within one of the coffers taken from this chest. The filled receptacles allow the Magus Senate and Forsaken researchers to safely dissect, study, and determine whether such disturbances are random tears in the Ley or deliberate arcane assaults.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Chest of Containment Coffers?",
+   "aliases": [
+    "what does the chest give",
+    "containment coffers contents",
+    "chest contents"
+   ],
+   "answer": "The chest holds specialized, empty containment coffers. Mages draw these vessels to secure and trap subdued, magical creatures such as rift spawns during hazardous field investigations."
+  },
+  {
+   "q": "Where can this chest be found?",
+   "aliases": [
+    "chest of containment coffers location",
+    "where is containment coffers chest",
+    "coffer chest location"
+   ],
+   "answer": "In the Undercity, it sits directly behind Mage Trainer Anastasia Hartwell in the Magic Quarter. A matching chest can also be found in Stormwind City behind Jennea Cannon in the Wizard's Sanctum."
+  },
+  {
+   "q": "Why do mages need these coffers instead of normal cages?",
+   "aliases": [
+    "why use coffers",
+    "what are coffers for",
+    "how do coffers work"
+   ],
+   "answer": "The creatures being investigated are rift spawns made purely of intangible arcane energy. Normal materials cannot hold them; only magically enchanted containment coffers can physically trap and stabilize an arcane anomaly."
+  },
+  {
+   "q": "What happens to the coffers once they are filled?",
+   "aliases": [
+    "what happens to captured rift spawns",
+    "filled containment coffer use",
+    "why capture creatures"
+   ],
+   "answer": "Filled coffers are handed over to senior instructors for study. The captured creatures are analyzed to discover whether an arcane disturbance was an accidental natural rift or an intentional attack by outside forces."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The chest provides essential field tools for mages learning to manage volatile arcane manifestations and preserve living specimens for study."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken mages use these coffers to secure magical anomalies appearing near the Apothecarium without letting unvetted arcane forces corrupt their work."
+  }
+ ],
+ "keywords": [
+  "anastasia hartwell",
+  "apothecarium",
+  "arcane anomaly",
+  "containment coffer",
+  "magic quarter",
+  "rift spawn"
+ ],
+ "related": [
+  "quest:1960",
+  "npc:anastasia-hartwell",
+  "item:filled-containment-coffer",
+  "item:cantation-of-manifestation",
+  "subzone:magic-quarter",
+  "zone:undercity",
+  "npc:jennea-cannon",
+  "topic:mage"
+ ],
+ "attribution": [
+  "Chest of Containment Coffers",
+  "Investigate the Alchemist Shop"
+ ]
+}
