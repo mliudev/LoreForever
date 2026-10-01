@@ -85,20 +85,30 @@ Left out: `171159` (item tooltip) shows a "Keep: wanted for the quest" line that
 which saves each report in the same `loreforever` D1 database (table `feedback`, created on the first report).
 Linked from the landing page's sidebar, footer and Known limits tab, the public README and the CurseForge listing.
 
-- **Fields:** kind (lore / bug / idea / review), optional 1-5 stars, message, optional entry code, email, name, and
-  "OK to quote me". Only quote players on the site if they ticked that box.
+- **Sign-in required (LOR-106):** sending feedback needs a Lore Forever account (Google sign-in, see "Voice profiles
+  and contributor accounts" below). Signed out, the page shows a "Sign in to send feedback" box instead of the form;
+  it goes through `/account?next=...` and comes back to the same address, query string included. `POST /api/feedback`
+  without a session is refused (401 JSON, or a plain form post back to `/feedback?error=...`). Each report stores the
+  account's `user_id` (null on reports from before this).
+- **Fields:** kind (lore / bug / idea / review), optional 1-5 stars, message, optional entry code, name (starts as the
+  account's name) and "OK to quote me". Only quote players on the site if they ticked that box. There's no email
+  field: a reply goes to the account's email, which `GET /api/feedback` and the dashboard show in `email` (joined
+  from `users`; older reports keep the email typed on the form). Once an account is deleted its reports stay,
+  without an email.
 - **Prefill links:** `/feedback?code=LF-westfall_moonbrook-3&kind=lore` fills in the code and kind. The in-game
   "report this answer" box (step 3 of the plan) should point here.
-- **Spam:** a hidden honeypot field, and at most 10 reports per sender per day (keyed on a daily hash of the IP; the
-  IP itself isn't stored). Cloudflare Turnstile is optional, see below.
-- **Works without JavaScript:** a plain form post is sent back to `/feedback?sent=1` or `?error=...`.
+- **Spam:** a hidden honeypot field, the sign-in, and at most 10 reports per account per day. Cloudflare Turnstile is
+  optional, see below.
+- **Without JavaScript:** signing in needs JavaScript, so the page shows only a sign-in link and a Discord link.
+  A plain form post from a signed-in browser is still sent back to `/feedback?sent=1` or `?error=...`.
+- **Needs `GOOGLE_CLIENT_ID`:** without it nobody can sign in, so nobody can send feedback.
 
 **Set up in the Pages project** (Settings > Variables and Secrets, as encrypted secrets, then redeploy):
 
 | Name | What it does |
 | --- | --- |
 | `FEEDBACK_KEY` | Any long random string. Needed to read reports; without it, reading is off. |
-| `FEEDBACK_WEBHOOK` | Optional. A Discord webhook URL (Channel settings > Integrations > Webhooks, in a private channel). Each report is posted there as it comes in, without the email address. |
+| `FEEDBACK_WEBHOOK` | Optional. A Discord webhook URL (Channel settings > Integrations > Webhooks, in a private channel). Each report is posted there as it comes in, with the name and a short account tag, never the email address. |
 | `TURNSTILE_SECRET` | Optional, only if spam shows up. Create a Turnstile widget (Cloudflare dashboard > Turnstile, domain `loreforeverwow.com`), put its secret here and its site key in `TURNSTILE_SITE_KEY` at the top of the `<script>` in `public/feedback.html`. Set both or neither: a secret without the site key turns every report away. |
 
 **Reading reports:**
@@ -110,16 +120,67 @@ curl -s -H "Authorization: Bearer $FEEDBACK_KEY" "https://loreforeverwow.com/api
 
 Or in the Cloudflare dashboard: D1 > `loreforever` > Console, `SELECT * FROM feedback ORDER BY id DESC`.
 
+## Voice list and likes
+
+`/voices` puts the **list of voices** first: one compact row per voice (▶ sample, name and credit, tagline, 👍,
+Download), with language filters (once there's more than one language) and Featured / Most liked sorting.
+**Make a voice** is a small side card (below the list on phones). The rows come from
+**`public/voices/voices.json`**: `functions/voices/index.js` reads it (through `env.ASSETS`) and renders `voiceRow()`
+(`lib/voices.js`) per entry into the `<!-- voice-list -->` mark in `public/voices.html`, and the buttons into
+`<!-- voice-filters -->`, with each voice's like count, so the list works without JavaScript (`public/voices/player.js`
+adds play-in-place, filtering and sorting; Featured is voices.json order). The house narrators are ordinary entries, listed like any community
+voice.
+
+- **Adding a voice:** add one entry to `voices.json` (id, name, credit, language, clips, coverage, tagline, sample,
+  download) and put its sample under `public/audio/voices/`. `status: "soon"` lists it with a placeholder and no
+  download. `download` is the zip on a GitHub release of the public repo; `/download/voice/<id>`
+  (`functions/download/voice/[id].js`) reads it from the same file, counts the download in `downloads` as
+  `voice:<id>` and redirects. Optional: `bio` (the profile page; blank lines split paragraphs), `samples` (the
+  profile page; defaults to `sample`), `avatar`, `curseforge`, and `owner` (a contributor's account id, below).
+  Never write how a voice is made in any of this copy, and never claim a person.
+- **Likes (thumbs up only, no accounts):** `POST /api/voices/like` `{"id": ...}` adds a row to the D1 table
+  `voice_likes` (voice_id, day, ip_hash; created on the first like), at most one per voice, per sender, per day
+  (the same daily IP hash as the forms). The total is every row for that voice. `GET /api/voices/likes` returns
+  all totals (public). Without JavaScript the button is a form post that comes back to the page.
+- **Locally**, a plain static server shows an empty list; use `npx wrangler pages dev site/public` to run the
+  Functions.
+
+## Voice profiles and contributor accounts
+
+- **Profiles:** `/voices/<id>` (`functions/voices/[id].js`) is built from the same `voices.json` entry for every voice,
+  house narrators included: name, bio, avatar, all samples, like button, download. Any other `/voices/<name>`
+  falls through to the static page. `/voices/contributors` (`functions/voices/contributors.js`) groups the voices
+  by who made them. Page templates are in `lib/voices.js`.
+- **Accounts** (`lib/accounts.js`, API in `functions/api/auth/[action].js`, page `/account`): one Lore Forever
+  account for every kind of contributor (per-user tables go in `SETUP` and `USER_DATA` there, so "Delete my
+  account" removes them). Sending a voice from `/voices/submit` or feedback from `/feedback` requires it; playing,
+  listening and liking don't. Sign-in is
+  **Google only** (Mike, 2026-09-30; email sign-in was dropped, Firebase's email link is the option if it's ever
+  wanted): the browser gets an ID token and the Function checks it against Google's keys and `GOOGLE_CLIENT_ID`
+  (no client secret). The session is a random token in an HttpOnly cookie (`lf_session`, 30 days); D1 keeps only
+  its hash. Tables, created on first use: `users`, `sessions`, `voices` (a contributor's voice: pending until
+  published), plus `user_id` and `voice_id` columns on `voice_submissions`.
+- **Publishing a contributor's voice:** the submission (dashboard, webhook, or `GET /api/voices`) carries
+  `voice_id` and `user_id`. Add a `voices.json` entry with `"id": <voice_id>` and `"owner": <user_id>`. Its profile
+  then shows the bio the contributor writes on their account page, and their name and links if they chose to show
+  them. If they delete their account, the voice drops off the site at once (and so do their D1 rows).
+- **Pages setting:** `GOOGLE_CLIENT_ID` (plain variable, Production and Preview; the OAuth web client in the GCP
+  project under mike.liu.dev@gmail.com). Its authorized JavaScript origins must include every host that serves
+  `/account` (the domain, `lore-forever.pages.dev`, and any preview you test sign-in on). Without it the account
+  page says sign-in isn't on yet, and **`/voices/submit` and `/feedback` can't take anything**.
+
 ## Volunteer narrators
 
-The "Lend your voice" section of `/voices` leads to four pages under `public/voices/`:
+The "Make a voice" card on `/voices` leads to four pages under `public/voices/`:
 
 | Page | What it is |
 | --- | --- |
 | `/voices/guide` | The narrator guide: clip list, reading, recording settings, file names, partial packs, rights, sending. It replaces the long `release/public/VOICE_PACKS.md`, which is now a short pointer here (the public repo still gets it). |
 | `/voices/clips.csv` | The clip list: `voicepack clips` output (id, file name, suggested narrator, text, hash). **`scripts/release.sh` rebuilds it in its Stamp step** and commits it with the version bump, so it goes live with the site at the end of each release. To refresh it between releases: `cd pipeline && uv run python -m lore.voicepack clips --out ../site/public/voices/clips.csv`. Served as a download (`public/_headers`) and excluded from Functions in `_routes.json`. |
-| `/voices/submit` | The submission form (below). Sends the narrator to `/voices/thanks`. |
-| `/voices/release` | The narrator release, a plain-language agreement with a version date. **A draft; have a lawyer read it.** |
+| `/voices/studio` | The upload page, the main way to send a voice (see "Upload page" below). |
+| `/voices/lines.json` | The clip list as the upload page shows it: grouped like the add-on's Narrations tab, with the question, text, hash and pronunciation hints of each line in English and in every language that has a current translation of it. Written by `voicepack clips` next to `clips.csv` (so `scripts/release.sh` refreshes both). Excluded from Functions. |
+| `/voices/submit` | The folder-link form (below), kept for people who'd rather share a folder. Sends the narrator to `/voices/thanks`. |
+| `/voices/release` | The narrator release, a plain-language agreement with a version date (see "Changing the release" below). |
 
 **Submissions** post to `functions/api/voices.js`, which saves each one in the `loreforever` D1 database, table
 `voice_submissions` (created on the first submission): credit line, email and/or Discord handle, pack name, a
@@ -134,9 +195,114 @@ show in the dashboard under Voice submissions (mark done, delete), or with the a
   posted there with the credit, pack, clips, folder link and Discord handle; never the email address or the
   signature.
 - **Changing the release:** edit `public/voices/release.html` and give it a new version date there, in
-  `RELEASE_VERSION` in `functions/api/voices.js`, and in the hidden `release` field and checkbox text of
-  `public/voices/submit.html`. A form opened before the change is refused with a request to read the new version.
-  Each submission stores the version agreed to; git history keeps every version's text.
+  `RELEASE_VERSION` in `lib/submissions.js`, and in the hidden `release` field and checkbox text of
+  `public/voices/submit.html`. A form opened before the change is refused with a request to read the new version,
+  and the upload page asks everyone to agree again before their next upload. Each submission stores the version
+  agreed to; git history keeps every version's text.
+
+## Upload page (/voices/studio)
+
+Contributors upload their recordings line by line and send the voice for review (LOR-95). Recording happens in their
+own setup; the page only takes files. `public/voices/studio.html` + `studio.js` + `studio.css`, API in
+`functions/api/studio/[action].js`, helpers in `lib/studio.js`.
+
+- **Flow:** sign in (the Lore Forever account) → agree to the narrator release once (D1 `studio_release`) → name a
+  voice and pick its language (a row in `voices` with a `locale`, status `draft`; at most 2 per account) → upload →
+  **Send for review** (a `voice_submissions` row with the link `studio:<voice id>`, status `pending`, webhook as for
+  the form). They can keep uploading and send again.
+- **The page:** a "Next line" box with the text to read, pronunciation hints and a target length (words / 2.5 per
+  second), then every line grouped like the Narrations tab with a drop slot each (any file name). Filters: search,
+  group, suggested voice, missing / needs a look / uploaded / text changed, and "Mine" picks per story (kept in the
+  browser) that the Next box goes through first. A batch upload matches files named as in `clips.csv`, with a "did
+  you mean" for near misses.
+- **Checks** run in the browser before upload, against the narrator guide: mono, 44.1/48 kHz (from the file header),
+  loudness (BS.1770, the same as ffmpeg's ebur128 to 0.1 LU), peaks, silence at each end, and length against the
+  text. They're warnings shown on the line; only a silent, unreadable or over-4-minute file is refused. The server
+  refuses anything that isn't MP3, OGG, WAV or FLAC by its first bytes, over 25 MB, or for a line without text in
+  the voice's language.
+- **Storage:** R2, bound as **`STUDIO`**: bucket `lore-forever-voices` for Production and `lore-forever-voices-preview`
+  for Preview (like D1's `loreforever-preview`, so preview tests never touch real uploads; both created 2026-09-30),
+  at `studio/<user id>/<voice id>/<file stem>.<ext>`, one file per line (a new upload replaces it). D1
+  `studio_takes` keeps each file's name, size, checks and the hash of the text it was recorded against: a line
+  reworded later shows "text changed" and stays out of the pack until it's re-recorded. Limits: 400 uploads a day
+  and 1 GB per account. "Delete my account" deletes the files and rows; sent submissions stay, as the release says.
+- **Turning a sent voice into a pack:**
+  `cd pipeline && uv run python -m lore.voicepack studio <voice id>` (admin key from `.env`; `--site` for a
+  preview) fetches the files through `GET /api/studio/export` and `/api/studio/audio` into `dist/studio/<voice id>/`,
+  copying files that already meet the guide and converting the rest to mono 44.1 kHz (`--normalize` also
+  loudness-normalizes). It prints the `voicepack build` command to run after listening. Then publish as usual
+  (a `voices.json` entry with `"id": <voice id>` and `"owner": <user id>`).
+- Without the `STUDIO` binding the page says uploads aren't switched on yet and points to the folder-link form.
+
+## Translations
+
+`/translate` (`public/translate.html`) invites players to translate: how to help, one card per language (coverage,
+reviewed or not, kit download, 👍), and a "report a bad translation" form. `functions/translate/index.js` fills the
+cards in from `public/translate/languages.json` with the like counts, so they show without JavaScript.
+
+| Page or file | What it is |
+| --- | --- |
+| `/translate/languages.json` | Coverage per language, written by `cd pipeline && uv run python -m lore.kit site`. Coverage is the share of the English text (by characters, interface and lore) that has text in that language; `reviewed` comes from `data/i18n/<locale>/pack.json`. |
+| `/translate/kits/<locale>.zip` | Translator kits, written by the same command: one per language that has sources in `data/i18n/`, and `new.zip` (English only) for the rest. About 4 MB each; the zips are reproducible, so rerunning without changes leaves git clean. Rerun after the English or a language changes (a release, a merged translation). Served as downloads and excluded from Functions. |
+| `/translate/submit` | The submission form: language, credit, contact, a Drive / Dropbox / OneDrive / GitHub link or pasted fixes, and the CC BY-SA agreement. Sends the translator to `/translate/thanks`. |
+| `/translate#report` | Bad-translation reports: language, entry code or where it was seen, what's wrong, better wording. Links can prefill it: `/translate?lang=deDE&code=npc:hogger#report`. Lands on `/translate/reported` without JavaScript. |
+
+**Storage** (same `loreforever` D1 database, tables created on first use): `translation_submissions`
+(`functions/api/translations.js`, at most 10 per sender per day), `translation_reports`
+(`functions/api/translations/report.js`, 20 per day) and `translation_likes` (`functions/api/translations/like.js`,
+one per language per sender per day). Same protections as the other forms: honeypot, daily IP hash, works without
+JavaScript. Submissions and reports show in the dashboard under Translations (mark done, delete), or with the admin
+key at `GET /api/translations` and `GET /api/translations/report`.
+
+- **`TRANSLATIONS_WEBHOOK`** (optional, Pages secret): a Discord webhook URL; each submission and report is posted
+  there, never with the email address.
+- **Changing the agreement:** edit the checkbox text in `public/translate/submit.html` and give it a new version
+  date there (hidden `terms` field) and in `TERMS_VERSION` in `functions/api/translations.js`.
+- **Turning a submission into a pack:** download the translator's files, then
+  `cd pipeline && uv run python -m lore.kit check <locale> <files>` to see what they change, and
+  `uv run python -m lore.kit build <locale> <files>` to import them into `data/i18n/<locale>/` and compile
+  `addon/LoreForever_Lang_<locale>/`. Language packs stay out of `PACKS` in `scripts/build-release.sh` (so out of the
+  players' download) until Mike decides a language ships.
+- **Automated check:** `check`, `build` and `pull` send every string that would change, with its English, through an
+  automated language check (`pipeline/lore/kit_review.py`, its key from `.env`), which flags wrong meanings, the wrong
+  language, spam and gibberish. Flagged strings are left out and listed with the reason (`--keep-flagged` takes them
+  anyway, `--no-review` skips the check). It costs well under a cent per hundred strings; on 80 existing German
+  drafts it flagged none. Nobody on our side needs to read the language.
+- **Public copy** never says how a language's first text was produced: it's a "draft" until native speakers review it.
+
+### Translator accounts and the translation dashboard (LOR-96)
+
+Translators sign in with the same Lore Forever account as narrators (Google, `lib/accounts.js`) and translate in the
+browser; the kit and `/translate/submit` stay for people who'd rather work offline (submitting needs an account too).
+
+| Page or file | What it is |
+| --- | --- |
+| `/translate/dashboard` | The editor (`public/translate/dashboard.html`, noindex). **Needs work** (the default) gathers, across every section and most-read first: **Not translated**, **Drafts to check** (text nobody has written or checked: entries without `reviewed`, UI strings not in `ui_checked.json`), **Reported by players** (open bad-translation reports, shown above the entry) and **English changed**; the counts come from `translate/data/<locale>/status.json`. **Looks right** on a line (or the whole entry) sends the current text back unchanged, which `lore.kit pull` counts as a person checking it (the entry gets `reviewed`, the UI string goes into `data/i18n/<locale>/ui_checked.json`). **Browse by section** shows everything with filters (to do, has text, my edits, all) and search. English on the left, your text on the right, saved about a second after you stop typing. Signed out, it links to `/account?next=/translate/dashboard`. Links: `?lang=deDE&cat=draft`, or `?lang=deDE&section=zones_01&q=npc:hogger` for Browse. |
+| `/translate/data/` | The editor's text, written by `lore.kit site`: `en/index.json` (sections), `en/<section>.json` (entry names and `[id, English]` pairs, at most ~700 KB) and `en/entries.json` (every entry and its section, in Needs-work order), `<locale>/<section>.json` (`{id: text}` for the strings that have text) and `<locale>/status.json` (what still needs a person). Excluded from Functions. |
+| `/translate/check.js` | The checks every edit must pass (`%` codes in order, no new `\|` codes, length, control characters), used by the editor as you type and by the API on save. Same rules as `problem()` in `pipeline/lore/kit.py`: change both together. |
+| `/account` | Gains "Your translations": the languages you translate (ticked boxes, saved at once) and what happened to your edits. |
+
+**API:** `functions/api/translations/[action].js` (`like.js` and `report.js` beside it keep their own paths).
+Signed in: `GET me`, `GET edits?locale=`, `GET reports?locale=`, `POST languages`, `POST save` (an empty text
+withdraws your waiting edit; 5,000 edits per person per day). Admin key: `GET review?status=&locale=`, `POST decide`,
+`GET export?locale=`, `POST pulled`. **Tables** (in `SETUP` of `lib/accounts.js`, deleted with the account):
+`translator_languages` and `translation_edits` (status `new` when saved, `rejected` from `/admin`, `pulled` once imported).
+`translation_submissions` gets a `user_id` column.
+
+**Shipping edits.** There is no approval step: Mike doesn't speak these languages, and native-speaker review comes
+from Discord (and bad-translation reports), not from a gate. The automatic checks, the account requirement and the daily
+cap guard the form; `/admin` → Translation edits lists recent edits so spam or vandalism can be **Rejected** (and
+**Restored**).
+
+1. `cd pipeline && ADMIN_KEY=... uv run python -m lore.kit pull deDE --dry-run` shows what the saved edits change;
+   without `--dry-run` it imports them into `data/i18n/deDE/` (same checks as a kit: a string whose English changed
+   since the edit is skipped and stays English, and the automated check above leaves out what it flags). Flagged edits
+   are rejected on the site (the translator sees "wasn't used"; `/admin` can Restore one), the rest are marked
+   pulled. `--build` compiles the pack too; `--site` pulls from a preview instead.
+2. `uv run python -m lore.kit site` and commit, so the dashboard and `/translate` show the new text.
+
+Each language card on `/translate` credits the translators whose edits are in the language and who ticked "show my name" on their
+account, most edits first. Language packs still stay out of `PACKS` until Mike decides a language ships.
 
 ## Private dashboard
 
@@ -190,6 +356,7 @@ at a raw invite, so an invite can be swapped, or the site can move domains, by e
 | `/discord?src=bio` | Social bios, link-in-bio | discord.gg/dqch9tfKGv | #announcements |
 | `/discord?src=addon` | The add-on's `/lore help` | discord.gg/PJm2w3kvEe | #welcome |
 | `/discord?src=voices` | Voices page, narrator guide, release, submission form, `VOICE_PACKS.md` | discord.gg/PJm2w3kvEe | #welcome |
+| `/discord?src=translate` | Translate page, its forms, the translator kit README | discord.gg/PJm2w3kvEe | #welcome |
 
 Each placement has its own invite so Discord's Server Settings > Invites shows joins per source; the click
 counts here show interest before the join. A missing or unknown `src` uses the site invite. Link-preview bots

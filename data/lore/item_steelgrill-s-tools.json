@@ -1,0 +1,92 @@
+{
+ "key": "item:steelgrill-s-tools",
+ "type": "item",
+ "name": "Steelgrill's Tools",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Steelgrill's Tools",
+  "quests": [
+   "quest:400"
+  ]
+ },
+ "summary": "Steelgrill's Tools are a specialized set of mechanic implements requisitioned for Beldin Steelgrill, the master technician of Steelgrill's Depot. Renowned for pushing siege engines\u2014and his own equipment\u2014to their limits, Beldin frequently breaks gear and relies on shipments from nearby Kharanos to keep his workshop running.",
+ "sections": [
+  {
+   "title": "A Heavy-Handed Craftsman",
+   "body": "Beldin Steelgrill is widely regarded as one of the finest siege engine technicians in Dun Morogh, but his aggressive repair style is infamous among local merchants. Working tirelessly on armored tanks and mechanical contraptions, Beldin tends to destroy delicate equipment almost as fast as it can be forged. Between snapping arclight spanners and stripping fang-ratchets, the mechanic is constantly placing fresh orders in Kharanos to keep his repair benches stocked.",
+   "spoiler": 0
+  },
+  {
+   "title": "Keeping the Engines Rolling",
+   "body": "This particular delivery of tools is vital for keeping Ironforge's war machines operational. At his depot northeast of Kharanos, Beldin is actively servicing combat vehicles for seasoned drivers like Pilot Stonegear. Without freshly supplied wrenches and ratchets, critical siege engines would sit half-assembled in the snow, leaving both the depot and local defenses stalled.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Steelgrill's Tools used for?",
+   "aliases": [
+    "what are these tools",
+    "steelgrill tools purpose"
+   ],
+   "answer": "They are replacement mechanic implements delivered to Beldin Steelgrill at Steelgrill's Depot. Beldin requires them to overhaul heavy dwarven machinery, particularly the damaged siege engine belonging to Pilot Stonegear."
+  },
+  {
+   "q": "Why does Beldin Steelgrill go through so many tools?",
+   "aliases": [
+    "why broken tools",
+    "why does beldin need tools"
+   ],
+   "answer": "Beldin is an exceptionally rough mechanic who pushes his gear to the breaking point. According to suppliers in Kharanos, he snaps arclight spanners and breaks fang-ratchets almost faster than local crafters can provide them."
+  },
+  {
+   "q": "Where did this crate of tools come from?",
+   "aliases": [
+    "where do i get tools",
+    "tool shipment origin"
+   ],
+   "answer": "The shipment is assembled and fulfilled in the nearby settlement of Kharanos before being handed to travelers heading northeast toward Steelgrill's Depot."
+  },
+  {
+   "q": "Who is Beldin Steelgrill?",
+   "aliases": [
+    "who is beldin",
+    "beldin steelgrill lore"
+   ],
+   "answer": "Beldin is a master dwarf mechanic who owns and operates Steelgrill's Depot, located northeast of Kharanos. He is considered the premier siege engine technician in the region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Every engineer can sympathize with Beldin's dilemma, as high-torque repairs on heavy siege engines routinely sacrifice arclight spanners and delicate wrenches."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Maintaining the Alliance's armored siege engines is a matter of dwarven pride, and keeping Beldin supplied ensures Ironforge's armored vanguard remains combat-ready."
+  }
+ ],
+ "keywords": [
+  "beldin",
+  "depot",
+  "kharanos",
+  "ratchet",
+  "siege engine",
+  "spanner",
+  "steelgrill",
+  "tools"
+ ],
+ "related": [
+  "npc:beldin-steelgrill",
+  "subzone:steelgrill-s-depot",
+  "quest:400",
+  "subzone:kharanos",
+  "npc:pilot-stonegear",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Steelgrill's Tools",
+  "Tools for Steelgrill"
+ ]
+}

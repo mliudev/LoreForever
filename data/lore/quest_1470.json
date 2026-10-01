@@ -1,0 +1,113 @@
+{
+ "key": "quest:1470",
+ "type": "quest",
+ "name": "Piercing the Veil",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   1470
+  ],
+  "level": "4",
+  "faction": "Horde",
+  "start": "Venya Marthand",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Piercing the Veil",
+  "chain": []
+ },
+ "summary": "Piercing the Veil is an introductory warlock trial given by Venya Marthand in Deathknell. It tests a freshly risen warlock's resolve by directing them to collect skulls from nearby mindless skeletons. Completing the task earns the novice the knowledge required to summon and bind an imp minion.",
+ "sections": [
+  {
+   "title": "A Novice's First Step",
+   "body": "Newly awakened Forsaken warlocks begin their journey in Deathknell under the instruction of Venya Marthand. She teaches that true strength lies not in raw brute force, but in knowledge and the precise mastery of chaotic powers. To prove they possess the focus and capability required to pierce the veil between worlds and subjugate nether beings, novices are dispatched to harvest the skulls of restless Rattlecage Skeletons roaming near Deathknell's abandoned smithy.",
+   "spoiler": 0
+  },
+  {
+   "title": "Subjugating the Nether",
+   "body": "Once the skeletal remains are secured, Venya considers the initiate ready to step beyond simple dark spells. The recovered materials serve as a rite of passage, demonstrating that the novice can overcome mindless undead and withstand the bleak realities of their craft. In return, Venya imparts the rituals needed to bend an imp to the summoner's command, warning that despite the demon's diminutive stature, its cunning and fire will make it a dangerous ally.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Piercing the Veil?",
+   "aliases": [
+    "who starts piercing the veil",
+    "piercing the veil questgiver",
+    "venya marthand quest"
+   ],
+   "answer": "The quest is given by Venya Marthand, the warlock trainer situated inside the crypt at Deathknell in Tirisfal Glades."
+  },
+  {
+   "q": "What must you collect to complete this quest?",
+   "aliases": [
+    "piercing the veil objective",
+    "what do i collect for piercing the veil",
+    "rattlecage skulls"
+   ],
+   "answer": "You must collect three Rattlecage Skulls, which are recovered by destroying the Rattlecage Skeletons wandering near the ruined smithy in Deathknell."
+  },
+  {
+   "q": "Why does Venya Marthand want skeleton skulls?",
+   "aliases": [
+    "why rattlecage skulls",
+    "purpose of skulls quest"
+   ],
+   "answer": "Hunting the mindless skeletons tests the novice warlock's control, resolve, and basic magical abilities before Venya trusts them with more dangerous demonic rituals."
+  },
+  {
+   "q": "What power or minion do you learn to summon?",
+   "aliases": [
+    "piercing the veil reward spell",
+    "what demon do i get",
+    "imp summon quest"
+   ],
+   "answer": "Completing the lesson prepares the warlock to summon and bind an imp, the first demonic companion a practitioner learns to command."
+  },
+  {
+   "q": "Where are the Rattlecage Skeletons located?",
+   "aliases": [
+    "rattlecage skeleton location",
+    "where are the skeletons deathknell",
+    "abandoned smithy deathknell"
+   ],
+   "answer": "They wander the outskirts of Deathknell, particularly around the crumbling, abandoned smithy located to the northwest of the main town clearing."
+  },
+  {
+   "q": "Who is eligible to undertake this quest?",
+   "aliases": [
+    "who can take piercing the veil",
+    "can other classes do this",
+    "is this warlock only"
+   ],
+   "answer": "Only Forsaken warlocks who have reached the appropriate level of introductory training in Deathknell can undertake this quest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This rite of passage marks your first true foray into demonology, demonstrating the fundamental lesson that chaotic magic must be bent to iron will."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken warlocks draw upon their uncanny detachment from mortality to fearlessly study chaotic and dark magics in the shadows of Deathknell."
+  }
+ ],
+ "keywords": [
+  "deathknell",
+  "imp",
+  "piercing the veil",
+  "rattlecage skull",
+  "tirisfal glades",
+  "venya marthand",
+  "warlock"
+ ],
+ "related": [
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Piercing the Veil"
+ ]
+}

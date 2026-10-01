@@ -1,0 +1,117 @@
+{
+ "key": "quest:3097",
+ "type": "quest",
+ "name": "Hallowed Scroll",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   3097
+  ],
+  "level": "3",
+  "faction": "Horde",
+  "start": "Shadow Priest Sarvis",
+  "end": "Dark Cleric Duesten",
+  "previous": null,
+  "next": null,
+  "wiki": "Hallowed Scroll (quest)",
+  "chain": []
+ },
+ "summary": "The Hallowed Scroll is an introductory summons directed to newly awoken Forsaken priests in Deathknell. Handed over by Shadow Priest Sarvis, the missive calls the novice to Dark Cleric Duesten inside the shattered village chapel to learn how the undead wield faith after death.",
+ "sections": [
+  {
+   "title": "A Summons in Deathknell",
+   "body": "As newly awakened undead stagger from the graves of Deathknell, their minds are often reeling from the trauma of the plague, death, and sudden liberation from the Lich King's grip. For those who were once devout followers of the Holy Light in life, confusion runs exceptionally deep. While fledgling undead battle the mindless Scourge haunting the settlement's perimeter, Shadow Priest Sarvis intercepts incoming messages. Bearing the mark of Dark Cleric Duesten, the hallowed scroll bids newly risen priests to abandon their wandering and report to the desecrated town chapel.",
+   "spoiler": 0
+  },
+  {
+   "title": "Faith Redefined",
+   "body": "Upon delivering the scroll, a novice encounters the harsh theology of Forsaken priesthood. Dark Cleric Duesten pulls no punches: the Holy Light abandoned them in death, ancestral spirits are hollow tales, and planar demons have no interest in their plight. Instead, Forsaken clergy teach that sheer willpower and radical self-reliance are the only true sources of salvation. Under Duesten's tutelage, newly risen practitioners learn to channel both divine discipline and shadow, wielding power not out of devotion to distant gods, but out of absolute conviction in their own survival.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Hallowed Scroll?",
+   "aliases": [
+    "hallowed scroll",
+    "scroll item",
+    "priest scroll"
+   ],
+   "answer": "It is a sealed document given by Shadow Priest Sarvis to newly risen Forsaken priests in Deathknell. It instructs them to seek out Dark Cleric Duesten in the town chapel to begin their formal priestly training."
+  },
+  {
+   "q": "Who sends the scroll to the player?",
+   "aliases": [
+    "who sent scroll",
+    "duesten scroll",
+    "sarvis letter"
+   ],
+   "answer": "The scroll bears the personal seal of Dark Cleric Duesten, the resident Forsaken priest mentor residing in Deathknell's chapel, though it is handed to you by Shadow Priest Sarvis."
+  },
+  {
+   "q": "Can Forsaken still wield the Holy Light?",
+   "aliases": [
+    "undead use light",
+    "forsaken holy light",
+    "can undead cast light"
+   ],
+   "answer": "Dark Cleric Duesten tells new priests that the Holy Light no longer concerns them. As he explains, traditional veneration of the Light is abandoned in favor of faith in oneself and mastery over Shadow."
+  },
+  {
+   "q": "Where is Dark Cleric Duesten located?",
+   "aliases": [
+    "find duesten",
+    "duesten location",
+    "where is cleric duesten"
+   ],
+   "answer": "He is located inside the ruined church at the center of Deathknell in western Tirisfal Glades, standing near other Forsaken trainers."
+  },
+  {
+   "q": "Why does Duesten dismiss ancestors and demons?",
+   "aliases": [
+    "duesten speech",
+    "fairy tales",
+    "nether dont want you"
+   ],
+   "answer": "Duesten seeks to strip away all illusions held by newly raised undead. Forsaken culture rejects external divine saviors, ancestral aid, and demonic pacts, preaching instead that their survival depends solely upon their own collective willpower."
+  },
+  {
+   "q": "What happens after reading the scroll?",
+   "aliases": [
+    "hallowed scroll objective",
+    "turning in scroll"
+   ],
+   "answer": "You read the parchment and present yourself to Dark Cleric Duesten in the Deathknell chapel, unlocking your initial priest abilities and establishing him as your trainer while in the starting area."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This quest marks your philosophical baptism into the Forsaken priesthood, rejecting traditional pious devotion to embrace self-reliance, suffering, and shadow magic."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The scroll exemplifies the Forsaken worldview: severed from their old human faiths, they survive strictly through iron will and mutual necessity."
+  }
+ ],
+ "keywords": [
+  "dark cleric duesten",
+  "deathknell",
+  "forsaken priest",
+  "hallowed scroll",
+  "priest quest",
+  "shadow priest sarvis",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:shadow-priest-sarvis",
+  "subzone:deathknell",
+  "zone:tirisfal",
+  "topic:light",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Hallowed Scroll (quest)"
+ ]
+}

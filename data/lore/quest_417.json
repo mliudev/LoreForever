@@ -20,7 +20,7 @@
    "A Pilot's Revenge (Classic)"
   ]
  },
- "summary": "Following the trail of a missing dwarven aviator leads to a frozen corpse in the wilds of Dun Morogh. Found among the remains, Hildelve's personal journal details his fatal struggle against a notorious predator known as Mangeclaw, leaving behind a dying wish for vengeance.",
+ "summary": "Following the trail of a missing dwarven siege engine pilot leads to a frozen corpse in the wilds of Dun Morogh. Found among the remains, Hildelve's personal journal details his fatal struggle against a notorious predator known as Mangeclaw, leaving behind a dying wish for vengeance.",
  "sections": [
   {
    "title": "A Final Entry",
@@ -28,7 +28,7 @@
    "spoiler": 0
   },
   {
-   "title": "An Aviator's Dying Wish",
+   "title": "A Pilot's Dying Wish",
    "body": "Knowing his end was near, Hildelve wrote down one final plea in his journal: retribution against the monster that took his life. Returning to Pilot Hammerfoot with the journal and a claw torn from the fallen beast brings grim closure to the Ironforge Siege Brigade, honoring their lost comrade and removing a deadly menace from the mountain paths.",
    "spoiler": 0
   }
@@ -41,7 +41,7 @@
     "who is the dead dwarf",
     "lost pilot"
    ],
-   "answer": "Pilot Hildelve was a dwarven aviator and a member of the Ironforge Siege Brigade. After disappearing during a flight over the mountains of Dun Morogh, his friend Pilot Hammerfoot sent searchers to locate him, only to uncover his remains in the snow."
+   "answer": "Pilot Hildelve was a dwarven siege engine pilot and a member of the Ironforge Siege Brigade. After his engine broke down and he set out on foot into the mountains of Dun Morogh, his friend Pilot Hammerfoot sent searchers to locate him, only to uncover his remains in the snow."
   },
   {
    "q": "What is Mangeclaw?",
@@ -58,7 +58,7 @@
     "hammerfoot",
     "pilot hammerfoot"
    ],
-   "answer": "Pilot Hammerfoot is a seasoned flyer stationed in Dun Morogh who belongs to the Ironforge Siege Brigade. Deeply concerned about his missing friend Hildelve, he directs adventurers into the wilderness to find out what happened."
+   "answer": "Pilot Hammerfoot is a seasoned siege engine pilot stationed in Dun Morogh who belongs to the Ironforge Siege Brigade. Deeply concerned about his missing friend Hildelve, he directs adventurers into the wilderness to find out what happened."
   },
   {
    "q": "Why does Hildelve's death matter to Ironforge?",
@@ -66,7 +66,7 @@
     "why care about hildelve",
     "siege brigade importance"
    ],
-   "answer": "The Ironforge Siege Brigade depends on its trained pilots and machinery to scout and defend the mountainous territory around the capital. Losing a skilled flyer like Hildelve is a harsh blow to the brigade's ranks."
+   "answer": "The Ironforge Siege Brigade depends on its trained pilots and machinery to scout and defend the mountainous territory around the capital. Losing a skilled pilot like Hildelve is a harsh blow to the brigade's ranks."
   },
   {
    "q": "Where does this quest chain begin?",
@@ -92,7 +92,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "The pilots of Ironforge form a crucial branch of dwarven and Alliance defense, making the recovery of lost flyers an essential duty."
+   "text": "The pilots of Ironforge form a crucial branch of dwarven and Alliance defense, making the recovery of lost pilots an essential duty."
   },
   {
    "target": "class:Hunter",

@@ -1,0 +1,92 @@
+{
+ "key": "item:piece-of-krom-zar-s-banner",
+ "type": "item",
+ "name": "Piece of Krom'zar's Banner",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Piece of Krom'zar's Banner",
+  "quests": [
+   "quest:4021"
+  ]
+ },
+ "summary": "A torn strip of cloth taken from the standards of Warlord Krom'zar, commander of the Kolkar retaliatory force. It serves as tangible proof to Regthar Deathgate that the centaur invasion from Desolace has been broken.",
+ "sections": [
+  {
+   "title": "Trophy of the Centaur Incursion",
+   "body": "Following the systematic defeat of Kolkar chieftains across the Barrens, a furious warband marched east from Desolace intent on revenge. Led by Warlord Krom'zar, these invaders assaulted the defensive bunkers west of the Crossroads. Slicing a remnant from the warlord's fallen battle standard provides undeniable proof to Regthar Deathgate that the assault was crushed and the southern trade routes preserved for the Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is this banner piece used for?",
+   "aliases": [
+    "banner purpose",
+    "why keep banner",
+    "what do i do with banner piece"
+   ],
+   "answer": "The torn cloth is brought to Regthar Deathgate at his bunker west of the Crossroads. It proves that Warlord Krom'zar was slain and his raiding force shattered, concluding the defense of the northern Barrens."
+  },
+  {
+   "q": "Who was Warlord Krom'zar?",
+   "aliases": [
+    "who is kromzar",
+    "krom'zar lore",
+    "warlord krom'zar"
+   ],
+   "answer": "Krom'zar was a fierce Kolkar commander sent from the wastes of Desolace. He led a direct counter-assault against Horde outposts in response to the deaths of the local Kolkar leaders."
+  },
+  {
+   "q": "Why did the Kolkar attack the bunker?",
+   "aliases": [
+    "why counterattack",
+    "kolkar invasion why",
+    "barrens counterattack reason"
+   ],
+   "answer": "After Horde champions eliminated the local Barrens chieftains\u2014including Barak, Verog, and Hezrul\u2014the enraged centaur rallied reinforcements from Desolace to exact vengeance on the Horde presence west of the Crossroads."
+  },
+  {
+   "q": "Does Thrall hear of this victory?",
+   "aliases": [
+    "thrall reward",
+    "does thrall know"
+   ],
+   "answer": "Yes. Upon receiving the banner fragment, Regthar Deathgate promises to send formal word directly to Warchief Thrall in Orgrimmar, commending the defenders who broke the invasion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Defeating Krom'zar and claiming his colors halts a major centaur offensive, securing the northern corridors between Durotar, Mulgore, and the Crossroads."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Centaur aggression has long plagued the nomadic tribes, making the destruction of Krom'zar's vanguard a welcome sign of security for the trails leading toward Mulgore."
+  }
+ ],
+ "keywords": [
+  "banner",
+  "centaur",
+  "counterattack",
+  "crossroads",
+  "deathgate",
+  "kolkar",
+  "krom'zar",
+  "regthar"
+ ],
+ "related": [
+  "quest:4021",
+  "quest:1361",
+  "quest:852",
+  "quest:851",
+  "quest:850",
+  "zone:barrens",
+  "zone:desolace",
+  "npc:thrall"
+ ],
+ "attribution": [
+  "Piece of Krom'zar's Banner",
+  "Counterattack! (Classic)"
+ ]
+}

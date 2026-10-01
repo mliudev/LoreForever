@@ -24,12 +24,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <link rel="stylesheet" href="style.css">
+<script src="/header.js" defer></script>
 </head>
 <body>
 
 <header class="top">
-  <div class="wrap">
+  <div class="wrap top-row">
     <span class="crumb">World of Warcraft: Forever &rsaquo; Add-ons &rsaquo; Quests &amp; Leveling</span>
+    <div class="head-actions"><a class="btn-head" href="/feedback"><span class="hd-wide">Send feedback</span><span class="hd-narrow">Feedback</span></a></div>
   </div>
 </header>
 
@@ -42,7 +44,7 @@
       <ul class="stats">
         <li>by <strong>Mike</strong></li>
         <li id="downloads"><strong>New release</strong></li>
-        <li>Version <strong>0.3.0</strong></li>
+        <li>Version <strong>0.4.0</strong></li>
         <li>Game <strong>WoW Forever 1.60.1</strong></li>
       </ul>
       <!-- Downloads, no email step. CurseForge is the main button: its app installs the add-on and keeps it updated.
@@ -70,23 +72,10 @@
       </div>
       <p class="author-bio">A Wrath and Cata heroic raider who always read the quest text. Mike made Lore Forever so
         the story isn't something you have to stop and dig for.</p>
-      <!-- Mike's personal accounts. -->
+      <!-- The only social links are the Discord and Twitch (LOR-103). -->
       <ul class="socials">
         <li><a class="social social-discord" href="/discord?src=site">Join the Discord</a></li>
         <li><a class="social social-twitch" href="https://www.twitch.tv/jiuthaimike">Twitch</a></li>
-        <li><a class="social" href="https://www.youtube.com/@mikeliudev">YouTube</a></li>
-        <li><a class="social" href="https://www.tiktok.com/@mike.liu.dev">TikTok</a></li>
-        <li><a class="social" href="https://www.instagram.com/mike.liu.dev/">Instagram</a></li>
-        <li><a class="social" href="/feedback">Send feedback</a></li>
-        <!-- Lore Forever's own accounts (handle LoreForeverWoW, LOR-74) are postponed and will be set up by hand.
-             None existed on 2026-09-29; move a line above this comment once its account is live.
-        <li><a class="social" href="https://www.youtube.com/@LoreForeverWoW">YouTube</a></li>
-        <li><a class="social" href="https://www.tiktok.com/@loreforeverwow">TikTok</a></li>
-        <li><a class="social" href="https://www.instagram.com/loreforeverwow/">Instagram</a></li>
-        <li><a class="social" href="https://www.threads.net/@loreforeverwow">Threads</a></li>
-        <li><a class="social" href="https://x.com/LoreForeverWoW">X</a></li>
-        <li><a class="social" href="https://www.reddit.com/r/LoreForever/">Reddit</a></li>   (or r/LoreForeverWoW)
-        -->
       </ul>
     </aside>
   </div>
@@ -104,12 +93,14 @@
         zone's story while you fly over it. Everywhere else, Listen reads the answer aloud in the game
         voice.</p>
       <p>Want a different narrator, or to lend your own voice? See <a href="/voices">narration voices</a>.</p>
+      <p>Want Lore Forever in your language? <a href="/translate">See the languages</a>, or help translate it into
+        yours.</p>
       <p class="feature-note">Three of the narrations, exactly as they play in game:</p>
     </div>
     <!-- Clips copied from addon/LoreForever_Voice_Default/Audio; the read-along text is what each clip reads. -->
     <div class="samples">
       <figure class="audio-sample">
-        <figcaption><strong>Stormwind City</strong><span>Default narrator &middot; 1:10</span></figcaption>
+        <figcaption><strong>Stormwind City</strong><span>Default narrator &middot; 1:06</span></figcaption>
         <audio controls preload="none" src="audio/stormwind.mp3"></audio>
         <details><summary>Read along</summary>
           <p>Stormwind City. Stormwind City is the bustling capital of the Kingdom of Stormwind and the premier human
@@ -288,8 +279,8 @@
 
         <h3>Lore wherever you look</h3>
         <ul>
-          <li><strong>Tooltips.</strong> NPCs and mobs get a one-line story. Items tell you "Needed for your quest",
-            "Starts a quest" or "Useful for your Tailoring", and only ever name quests you already have, so
+          <li><strong>Tooltips.</strong> NPCs and mobs get a one-line story. Items tell you "Needed for your quest"
+            or "Starts a quest", and only ever name quests you already have, so
             nothing is spoiled.</li>
           <li><strong>Quests.</strong> A Lore button on the quest dialog and in the quest log opens the story behind that quest.</li>
           <li><strong>Zone hints.</strong> Entering a zone puts a clickable question in chat. Turn it off with <code>/lore nudge</code>.</li>
@@ -375,6 +366,28 @@
       <section class="tab-panel" id="changelog" role="tabpanel">
         <h2>Changelog</h2>
         <!-- changelog:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
+        <h3>0.4.0</h3>
+        <ul>
+          <li>Corrected 275 lore entries: wrong names, races and places, zone details from the wrong era, and story twists that now stay behind the spoiler button.</li>
+          <li><strong>Dungeon bosses, one click away:</strong> target a boss and click the book or minimap button (or press your Lore key) and Lore Forever opens on that boss's story. Inside a dungeon, the Here tab lists its bosses in the order you meet them, with play, + and "Queue all", and the dungeon primer's "Who you'll face" names are now clickable. A boss's ending stays behind the spoiler button.</li>
+          <li><strong>Every dungeon boss is narrated (52 in all):</strong> hear who they are and why they're there, from the Deadmines to the Scarlet Monastery, spoiler-free. Find them in the Here tab inside a dungeon, or under each dungeon in the Narrations tab. The female narrator (version 1.1.1 on the Voices page) reads them too.</li>
+          <li>Baron Aquanis and Bazil Thredd now have stories of their own, so asking about them no longer answers with the quest about them.</li>
+          <li>The narrator now says Lordaeron and Gnomeregan the way players do.</li>
+          <li><strong>Narration playlist:</strong> press the green + on any narration in the Narrations tab (or "Add to playlist" on a narrated answer) to queue it. The new Playlist tab shows what's playing and what's next, and lets you reorder, remove or clear it all. Narrations play one after another with Prev, Pause and Next in the Now playing bar. Playing something else pauses the playlist. New key bindings: "Play/pause narration playlist" and "Next narration".</li>
+          <li><strong>Flight narration no longer cuts itself off:</strong> each zone's story joins your playlist, so flying over several zones quickly plays them one after another instead of dropping the one that was playing.</li>
+          <li><strong>Book and minimap buttons:</strong> click opens Lore Forever and right-click opens (or closes) its options, as before. New: Shift-click plays or pauses your playlist, and Shift-right-click skips to the next narration. With an empty playlist, Shift-click (or the play/pause key) plays everything narrated where you are. The book glows and the minimap button's ring turns green while something plays, and the tooltip says what's playing.</li>
+          <li>The minimap button is now on by default (it's turned on once after this update; switch it off in Options).</li>
+          <li>Pressing your Lore key while hovering someone with lore now always opens their story. Before, it only worked for a couple of seconds after the tooltip appeared, and not at all with tooltip lore turned off.</li>
+          <li>The Lore Forever window can be resized narrower (down to 600 pixels wide).</li>
+          <li><code>/lore help</code> now ends with where to ask questions, request lore and report bugs: loreforeverwow.com/discord</li>
+          <li>Item tooltips no longer add "Useful for your Tailoring" and similar notes to crafting materials. Notes for quest items stay.</li>
+          <li><strong>Ask the obvious:</strong> "how did I get here?", "what am I doing here?", "why does he want me to do this?" and "what is this for?" now answer from where you are, who you've targeted and what's in your quest log and bags. Everywhere up to level 30: every starting area, zone, city and dungeon.</li>
+          <li><strong>Ask about what's in front of you:</strong> target a gnoll and ask "who leads them?" or "why are they attacking me?"; target a person and ask "whose side is he on?"; stand in Moonbrook and ask "what happened here?"; or ask about yourself: "why can I use the Light?", "tell me about my people", "why do we fight the Alliance?".</li>
+          <li>Lore for about 760 quest items (Gold Dust, Tough Wolf Meat, Minshina's Skull and more) and for every class.</li>
+          <li>Suggested questions lead with those, and no longer offer gameplay filler like "where are the wolves located?".</li>
+          <li>New lore for the first quests of the Valley of Trials (Cutting Teeth, Sarkoth, Lazy Peons and more), Shadowglen, Deathknell, Coldridge Valley and Northshire.</li>
+          <li><strong>Female narrator:</strong> a second narrator reads all 204 narrations: every zone story and answer, and the dungeon bosses. She's an optional download: https://loreforeverwow.com/voices. Unzip her into AddOns, restart the game, then pick her in Options &gt; AddOns &gt; Lore Forever &gt; Narration voice.</li>
+        </ul>
         <h3>0.3.0</h3>
         <ul>
           <li><strong>New narrators:</strong> every zone story and answer (152 in all) has a new narrator, with clearer pronunciation of Warcraft names like Teldrassil, Lordaeron and Gnomeregan.</li>
@@ -451,6 +464,7 @@
           <li><a href="/discord?src=site">Discord</a></li>
           <li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li>
           <li><a href="/voices">Narration voices</a></li>
+          <li><a href="/translate">Languages and translating</a></li>
           <li><a href="/feedback">Send feedback</a></li>
         </ul>
       </div>
@@ -480,6 +494,7 @@
   <p>Spotted a wrong answer? <a href="/feedback">Tell us</a>.</p>
   <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
     <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
   <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>

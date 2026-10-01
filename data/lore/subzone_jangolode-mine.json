@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Jangolode Mine"
  },
- "summary": "Jangolode Mine is a rich mineral excavation located in the rolling hills of Westfall. Once a vital source of ore and raw materials for Stormwind City, the mine was overrun by bandits and now crawls with opportunistic kobolds.",
+ "summary": "Jangolode Mine is a rich mineral excavation located in the rolling hills of Westfall. Once a vital source of ore and raw materials for Stormwind City, the mine has been seized by the bandits of the Defias Brotherhood.",
  "sections": [
   {
    "title": "A Plundered Resource",
-   "body": "Before Westfall fell into decline, the Jangolode Mine provided a steady flow of metals crucial to the reconstruction and supply of Stormwind City. As civil order deteriorated and the kingdom withdrew its garrisons, the Defias Brotherhood seized control of the site to feed their own operations. Following clashes that broke the bandits' hold over the shafts, scavenging kobolds surged into the tunnels, claiming the rich veins for themselves and fiercely defending their subterranean prize.",
+   "body": "Before Westfall fell into decline, the Jangolode Mine provided a steady flow of metals crucial to the reconstruction and supply of Stormwind City. As civil order deteriorated and the kingdom withdrew its garrisons, the Defias Brotherhood seized control of the site to feed their own operations. The bandits now work the rich veins for themselves, fiercely defending their subterranean prize.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "jangolode mobs",
     "who lives in jangolode"
    ],
-   "answer": "Kobolds currently infest the underground shafts. Although the Defias Brotherhood previously drove out the original miners, the kobolds took advantage of the turmoil to occupy the tunnels."
+   "answer": "The Defias Brotherhood holds the underground shafts, having driven out the original miners to feed their own operations."
   },
   {
    "q": "Why does Stormwind not reclaim the mine?",
@@ -51,7 +51,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Reclaiming Westfall's resources is vital for stabilizing the kingdom, and driving out the vermin from Jangolode is one step toward restoring the region's prosperity."
+   "text": "Reclaiming Westfall's resources is vital for stabilizing the kingdom, and driving the bandits out of Jangolode is one step toward restoring the region's prosperity."
   }
  ],
  "keywords": [

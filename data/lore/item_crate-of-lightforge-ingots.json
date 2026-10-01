@@ -1,0 +1,96 @@
+{
+ "key": "item:crate-of-lightforge-ingots",
+ "type": "item",
+ "name": "Crate of Lightforge Ingots",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Crate of Lightforge Ingots",
+  "quests": [
+   "quest:322"
+  ]
+ },
+ "summary": "The Crate of Lightforge Ingots contains rare consecrated metal recovered to forge an instrument capable of defeating the necromancer Morbent Fel. Packed securely for transport, it is destined for the anvils of the Dwarven District in Stormwind.",
+ "sections": [
+  {
+   "title": "A Sacred Delivery",
+   "body": "Lightforge iron is an exceptionally rare material, inherently suited to channel holy power against dark entities. Packed away securely in this crate, the ingots represent the hope of Duskwood in its bitter struggle against the Scourge necromancer Morbent Fel, whose shadowy protections shrug off ordinary steel. Ordinary smiths cannot simply work with this metal; it takes an artisan who understands its temper and respects its sacred nature.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Weaponsmith of Stormwind",
+   "body": "The crate is meant for Grimand Elmore, a skilled dwarven weaponsmith plying his trade in the Dwarven District of Stormwind. Having not worked with lightforge iron in years, Grimand agrees to hammer the metal into a sanctified weapon\u2014an arm imbued with the strength needed to shatter Morbent Fel's defenses and strike him down.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside this crate?",
+   "aliases": [
+    "crate contents",
+    "what is lightforge iron",
+    "what is in the box"
+   ],
+   "answer": "The crate holds ingots of lightforge iron, a special consecrated metal gathered to craft a weapon specifically designed to pierce the magical defenses of the necromancer Morbent Fel."
+  },
+  {
+   "q": "Who is supposed to receive this crate?",
+   "aliases": [
+    "who do i bring the crate to",
+    "crate recipient",
+    "where does the crate go"
+   ],
+   "answer": "The crate must be brought to Grimand Elmore, a seasoned dwarven smith located by the anvils of the Dwarven District in Stormwind."
+  },
+  {
+   "q": "Why is lightforge iron needed?",
+   "aliases": [
+    "why lightforge iron",
+    "why not normal iron",
+    "morbent fel weakness"
+   ],
+   "answer": "The necromancer Morbent Fel shields himself with vile unholy magic that repels conventional blades. Lightforge iron holds sacred properties that can pierce through dark sorcery."
+  },
+  {
+   "q": "Who crafted the crate?",
+   "aliases": [
+    "who packed the ingots",
+    "who gave the crate"
+   ],
+   "answer": "The raw lightforge ore was collected from the wilderness and securely boxed up so an adventurer could safely deliver it to a master weaponsmith in Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Working with lightforge iron is a rare art; even veteran weaponsmiths like Grimand Elmore go years without laying hands on such resonant, holy metal."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "These ingots are uniquely receptive to the Holy Light, making weapons forged from them natural banes against necromancers and their undead minions."
+  }
+ ],
+ "keywords": [
+  "crate",
+  "dwarven district",
+  "grimand elmore",
+  "ingots",
+  "iron",
+  "lightforge",
+  "morbent fel",
+  "stormwind"
+ ],
+ "related": [
+  "quest:322",
+  "quest:321",
+  "quest:1700",
+  "quest:55",
+  "subzone:dwarven-district",
+  "topic:stormwind-kingdom",
+  "topic:light"
+ ],
+ "attribution": [
+  "Crate of Lightforge Ingots",
+  "Blessed Arm"
+ ]
+}

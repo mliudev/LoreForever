@@ -1,0 +1,68 @@
+{
+ "key": "item:a-clue-to-sanders-treasure",
+ "type": "item",
+ "name": "A Clue to Sanders' Treasure",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "A Clue to Sanders' Treasure",
+  "quests": [
+   "quest:138"
+  ]
+ },
+ "summary": "A Clue to Sanders' Treasure is a weathered parchment parchment left behind by the notorious pirate Captain Sanders. It serves as the second step in a treasure hunt scattered across the bluffs and coastlines of Westfall.",
+ "sections": [
+  {
+   "title": "A Pirate's Riddle",
+   "body": "Discovered after following Captain Sanders' initial treasure map, this parchment provides directions further inland into Westfall. The scrawled note directs the finder due east from the coast, urging them to climb up the bluffs toward the main road. Sanders hid his next marker inside an old barrel resting near the crumbling stone ruins of an abandoned chimney, leading seekers deeper into the troubled farmlands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is this clue?",
+   "aliases": [
+    "sanders clue",
+    "clue to sanders treasure",
+    "what is a clue to sanders treasure"
+   ],
+   "answer": "It is a handwritten note left behind by Captain Sanders, guiding anyone clever enough to follow his trail toward another hidden container in Westfall."
+  },
+  {
+   "q": "Where does this clue lead?",
+   "aliases": [
+    "where do i go",
+    "clue destination",
+    "chimney location"
+   ],
+   "answer": "The clue directs seekers due east up the coastal bluffs toward the Westfall road, where an old barrel lies near a ruined chimney."
+  },
+  {
+   "q": "Who was Captain Sanders?",
+   "aliases": [
+    "who is captain sanders",
+    "sanders lore",
+    "captain sanders"
+   ],
+   "answer": "Captain Sanders was a pirate whose legacy survives through the treasure caches and riddles he hid across Westfall's shores and countryside."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barrel",
+  "chimney",
+  "clue",
+  "pirate",
+  "sanders",
+  "treasure",
+  "westfall"
+ ],
+ "related": [
+  "quest:136",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "A Clue to Sanders' Treasure",
+  "Captain Sanders' Hidden Treasure (Classic 2)"
+ ]
+}

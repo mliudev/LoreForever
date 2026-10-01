@@ -1,0 +1,87 @@
+{
+ "key": "item:mossy-tumor",
+ "type": "item",
+ "name": "Mossy Tumor",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Mossy Tumor",
+  "quests": [
+   "quest:923"
+  ]
+ },
+ "summary": "A mossy tumor is a foul, poisonous growth carved from the bark and flesh of corrupted timberlings on Teldrassil. Found primarily around Wellspring Lake, these growths serve as outward signs of an unnerving malevolence spreading through the newly grown World Tree.",
+ "sections": [
+  {
+   "title": "A Symptom of Teldrassil's Malaise",
+   "body": "The timberlings of Teldrassil were created to nurture and tend the boughs of the great tree, but many have turned hostile and diseased. These mossy tumors are physical manifestations of this inner sickness. Heavily laden with toxins, the growths sprout across the bodies of Mire Beasts, Tramplers, and Elder Timberlings that prowl Wellspring Lake. Rellian Greenspyre and the keepers in Darnassus have tasked travelers with severing the tumors so they may be thoroughly burned, preventing their poison from taking deeper root in the island's soil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Mossy Tumor?",
+   "aliases": [
+    "mossy tumor",
+    "what is this tumor",
+    "timberling tumor"
+   ],
+   "answer": "It is a diseased growth harvested from the bodies of tainted timberlings. Filled with foul poison, the tumors demonstrate that the nature spirits of Teldrassil are suffering from an unnatural corruption."
+  },
+  {
+   "q": "Where do you find Mossy Tumors?",
+   "aliases": [
+    "where to get tumors",
+    "mossy tumor drop",
+    "timberling location"
+   ],
+   "answer": "They are gathered from corrupted timberlings\u2014such as Timberling Tramplers, Mire Beasts, and Elder Timberlings\u2014wandering around Wellspring Lake in northern Teldrassil."
+  },
+  {
+   "q": "Why does Rellian Greenspyre want these tumors?",
+   "aliases": [
+    "rellian greenspyre tumors",
+    "why burn tumors"
+   ],
+   "answer": "Rellian seeks to contain the corruption afflicting Teldrassil. By collecting the tumors and burning them to ash, he ensures the concentrated poison within cannot leech back into the soil and water."
+  },
+  {
+   "q": "Why are the timberlings becoming diseased?",
+   "aliases": [
+    "why are timberlings sick",
+    "timberling corruption"
+   ],
+   "answer": "A dark malevolence has begun taking hold across Teldrassil, warping its caretakers and wild creatures. While the night elves are actively investigating the true source of the sickness, those timberlings bearing visible tumors are considered beyond saving."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids dedicated to the balance of nature, seeing plant guardians like timberlings sprouted with toxic tumors is a distressing sign that something is profoundly amiss with Teldrassil."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The night elves planted Teldrassil to restore their lost connection to nature, making the swift emergence of diseased growths on their new home a troubling omen."
+  }
+ ],
+ "keywords": [
+  "corruption",
+  "darnassus",
+  "mossy tumor",
+  "rellian greenspyre",
+  "teldrassil",
+  "timberling",
+  "wellspring lake"
+ ],
+ "related": [
+  "quest:923",
+  "quest:922",
+  "subzone:wellspring-lake",
+  "zone:darnassus",
+  "quest:940"
+ ],
+ "attribution": [
+  "Mossy Tumor",
+  "Tumors"
+ ]
+}

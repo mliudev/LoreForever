@@ -1,0 +1,93 @@
+{
+ "key": "item:vile-fin-scale",
+ "type": "item",
+ "name": "Vile Fin Scale",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Vile Fin Scale",
+  "quests": [
+   "quest:368"
+  ]
+ },
+ "summary": "Vile Fin Scales are harvested from the murloc tribes prowling the waterways and northern coasts of Tirisfal Glades. In Brill, the Royal Apothecary Society utilizes these resilient biological samples in their ongoing research to engineer a devastating new plague.",
+ "sections": [
+  {
+   "title": "Apothecary Reagents",
+   "body": "The Royal Apothecary Society works relentlessly to craft a virulent blight capable of decimating both the living and the Scourge. Simple toxins are easy enough to brew, but creating an infectious disease that spreads effortlessly across populations requires specialized alchemical properties. Apothecary Johaan in Brill studies Vile Fin scales specifically to understand how their natural resilience and mucous coatings can aid in stabilizing and transmitting his experimental contagions.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Coastline Menace",
+   "body": "The Vile Fin tribe infests the northern shores and western shallows of Tirisfal Glades, threatening travelers and encroaching upon Forsaken territory. Gathering their scales serves a dual purpose for the Undercity: keeping the feral murloc populations in check while providing Johaan's laboratory with fresh organic components for biochemical warfare tests.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Apothecary Johaan want these scales?",
+   "aliases": [
+    "what does johaan do with scales",
+    "why vile fin scales",
+    "johaan plague scale"
+   ],
+   "answer": "Apothecary Johaan is developing a new plague for the Royal Apothecary Society. He finds that ordinary poisons lack transmissible power, so he uses the unique biological properties of murloc scales to help his experimental concoction spread effectively."
+  },
+  {
+   "q": "Where can Vile Fin murlocs be found?",
+   "aliases": [
+    "where are vile fin",
+    "murloc location tirisfal",
+    "where to get scales"
+   ],
+   "answer": "Vile Fin murlocs inhabit the coasts of Tirisfal Glades, primarily found gathered along the northern shoreline and western waters bordering Brightwater Lake and the sea."
+  },
+  {
+   "q": "What makes the New Plague project important to the Forsaken?",
+   "aliases": [
+    "why new plague",
+    "forsaken plague goal",
+    "what is apothecary johaan researching"
+   ],
+   "answer": "The Forsaken seek a weapon capable of exterminating their bitter rivals\u2014both the mindless Scourge and the living races who view them as monsters. Johaan's work in Brill represents early grassroots experimentation toward this kingdom-wide ambition."
+  },
+  {
+   "q": "Which specific creatures carry these scales?",
+   "aliases": [
+    "who drops vile fin scale",
+    "which murlocs drop scales"
+   ],
+   "answer": "They are obtained from members of the Vile Fin tribe in Tirisfal, including Vile Fin Minor Oracles, Muckdwellers, and Puddlejumpers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Every vile fin scale gathered directly aids the Royal Apothecary Society's sacred duty to engineer a weapon to ensure Forsaken survival against the living and the Scourge."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Clearing out aggressive coastal murloc settlements helps secure the outskirts of Tirisfal Glades for Horde messengers and travelers."
+  }
+ ],
+ "keywords": [
+  "a new plague",
+  "apothecary johaan",
+  "brill",
+  "murloc",
+  "royal apothecary society",
+  "tirisfal glades",
+  "vile fin scale"
+ ],
+ "related": [
+  "npc:apothecary-johaan",
+  "quest:367",
+  "subzone:brill",
+  "topic:murloc",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Vile Fin Scale",
+  "A New Plague (2)"
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "key": "item:thurman-s-sewing-kit",
+ "type": "item",
+ "name": "Thurman's Sewing Kit",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Thurman's Sewing Kit",
+  "quests": [
+   "quest:334"
+  ]
+ },
+ "summary": "Thurman's Sewing Kit is a small pouch containing the needles and shears required by an apprentice tailor in Stormwind City. Belonging to Thurman Schneider, it was conveniently left behind at his family's canal home in an attempt to dodge a long day of tedious tailoring work.",
+ "sections": [
+  {
+   "title": "A Reluctant Apprentice's Tools",
+   "body": "The sewing kit holds the everyday tools of an apprentice tailor: needles, shears, and thread. It belongs to young Thurman Schneider, who studies tailoring at Larson Clothiers deep in Stormwind's Mage Quarter near the Mage Tower. Knowing her son cannot perform his duties without his equipment, his mother, Rema Schneider, asks sympathetic passersby along the Canals to carry it to the shop. Thurman's reaction upon receiving it reveals that leaving his shears and needles behind was no accident, but rather a failed plot to skip out on stitching garments in favor of leisure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside Thurman's Sewing Kit?",
+   "aliases": [
+    "what's in the kit",
+    "sewing kit contents",
+    "thurman shears"
+   ],
+   "answer": "The kit contains the essential tools required for tailoring work, notably shears and needles, which Thurman Schneider needs to complete his daily apprenticeship tasks at Larson Clothiers."
+  },
+  {
+   "q": "Who does this sewing kit belong to?",
+   "aliases": [
+    "who owns the kit",
+    "thurman owner",
+    "who is thurman"
+   ],
+   "answer": "It belongs to Thurman Schneider, a young apprentice working under the Larsons in Stormwind's Mage Quarter."
+  },
+  {
+   "q": "Why was the kit left behind at Thurman's home?",
+   "aliases": [
+    "why did thurman forget his kit",
+    "did thurman forget on purpose",
+    "why leave sewing kit"
+   ],
+   "answer": "While his mother Rema believed he rushed out the door in a hurry, Thurman intentionally left his kit behind hoping its absence would excuse him from his chores at Larson Clothiers for the day."
+  },
+  {
+   "q": "Where does this kit need to be delivered?",
+   "aliases": [
+    "where do i take the kit",
+    "larson clothiers location",
+    "thurman location"
+   ],
+   "answer": "It must be taken to Larson Clothiers, a tailor shop located deep in the Mage Quarter of Stormwind City, situated near the Mage Tower."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "Every tailor remembers the drudgery of early apprenticeship, though few went so far as to 'misplace' their shears like young Thurman Schneider."
+  }
+ ],
+ "keywords": [
+  "larson clothiers",
+  "mage quarter",
+  "rema schneider",
+  "sewing kit",
+  "stormwind canals",
+  "thurman schneider",
+  "thurman's sewing kit"
+ ],
+ "related": [
+  "quest:334",
+  "npc:rema-schneider",
+  "subzone:mage-quarter",
+  "subzone:canals-stormwind-city",
+  "zone:stormwind",
+  "npc:lars",
+  "quest:332"
+ ],
+ "attribution": [
+  "Thurman's Sewing Kit",
+  "Package for Thurman"
+ ]
+}

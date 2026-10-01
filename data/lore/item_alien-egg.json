@@ -1,0 +1,91 @@
+{
+ "key": "item:alien-egg",
+ "type": "item",
+ "name": "Alien Egg",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Alien Egg",
+  "quests": [
+   "quest:4821"
+  ]
+ },
+ "summary": "The Alien Egg is an unusual and mysterious clutch found guarded by local wind serpents across the canyons of Thousand Needles. Despite its unfamiliar appearance, the native serpents protect the egg fiercely as if it were their own. Its presence has aroused the curiosity and concern of the tauren scouts stationed atop Freewind Post.",
+ "sections": [
+  {
+   "title": "A Serpent's Brood",
+   "body": "Discovered resting at the base of the towering spires south and northeast of Freewind Post, the Alien Egg stands out dramatically from the typical fauna of the canyon floor. Rather than abandoning or destroying the odd clutch, the native serpents of the needles fiercely guard it alongside their own nests. Hagar Lightninghoof, a tauren brave keeping watch from the heights of Freewind Post, sought to retrieve the specimen to determine whether it represented a threat to the mesa settlements or merely an unusual variation of local reptilian life.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Spawn of Arikara",
+   "body": "When brought to Freewind Post and subjected to closer inspection, the mysterious shell immediately breaks open. It does not contain an extraterrestrial invader, but rather the young offspring of Arikara, a legendary winged serpent revered and feared across the canyons. The infant creature swiftly takes flight upon emerging, setting off a chain of events that leads the local defenders to confront the wrath of the great serpent herself.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the egg called 'alien'?",
+   "aliases": [
+    "alien egg name",
+    "why alien",
+    "is it from space"
+   ],
+   "answer": "The term 'alien' is used in the traditional sense of being completely foreign and unfamiliar to the local tauren scouts, rather than implying it came from outer space. Its coloration and markings were entirely unlike ordinary wind serpent clutches found in Thousand Needles."
+  },
+  {
+   "q": "Where can the Alien Egg be found?",
+   "aliases": [
+    "egg location",
+    "where is alien egg",
+    "find alien egg"
+   ],
+   "answer": "The egg rests on the canyon floor near the base of the mesa walls both to the south and northeast of Freewind Post in Thousand Needles. It is invariably surrounded and guarded by hostile wind serpents."
+  },
+  {
+   "q": "Why do the local serpents guard the egg?",
+   "aliases": [
+    "why do serpents protect it",
+    "serpents guarding egg"
+   ],
+   "answer": "The egg belongs to the brood of Arikara, a powerful and ancient wind serpent of Thousand Needles. The lesser serpents instinctively recognize the egg as one of their kind and defend it fiercely against any approaching travelers."
+  },
+  {
+   "q": "What happens when you bring the egg to Hagar Lightninghoof?",
+   "aliases": [
+    "hagar egg turn in",
+    "what hatches"
+   ],
+   "answer": "Upon delivery to Hagar Lightninghoof at Freewind Post, the egg cracks open to reveal a Young Arikara. The newborn serpent immediately takes to the sky, sparking deeper concern about the return of its dangerous parent."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The tauren of Freewind Post keep constant vigil over the canyon below, viewing the appearance of unknown creatures as an omen or a direct threat to their precarious cliffside settlement."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Wind serpents are among the most revered beasts of the Kalimdor barrens, and tracking down one of their rarest and most guarded clutches tests every instinct of the hunt."
+  }
+ ],
+ "keywords": [
+  "alien egg",
+  "arikara",
+  "freewind post",
+  "hagar lightninghoof",
+  "thousand needles",
+  "wind serpent"
+ ],
+ "related": [
+  "quest:4821",
+  "quest:5088",
+  "npc:hagar-lightninghoof",
+  "subzone:freewind-post",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Alien Egg",
+  "Alien Egg (quest)"
+ ]
+}

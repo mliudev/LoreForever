@@ -1,0 +1,106 @@
+{
+ "key": "item:book-from-sven-s-farm",
+ "type": "item",
+ "name": "Book from Sven's Farm",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Book from Sven's Farm",
+  "quests": [
+   "quest:230",
+   "quest:262",
+   "quest:265",
+   "quest:266",
+   "quest:453"
+  ]
+ },
+ "summary": "The Book from Sven's Farm is a dirt-stained, untitled journal unearthed from the ruins of Sven Yorgen's ransacked homestead in Duskwood. Its fragmented entries reveal that an unknown onlooker witnessed the massacre of Sven's family, sparking a relentless hunt across the shadowed woods.",
+ "sections": [
+  {
+   "title": "A Clue in the Dirt",
+   "body": "Buried in a loose dirt mound amid the charred remains of Sven's farm in western Duskwood, this unassuming, weather-damaged volume contains the frantic notes of an anonymous wanderer. The entries offer incomplete glimpses into the tragedy that struck the farmstead, confirming Sven Yorgen's darkest suspicion: someone lurked in the shadows while his family was slain. Because the narrative cuts off abruptly, the book raises more questions than answers, prompting investigators to carry it back to Darkshire in search of anyone who recognizes the handwriting or its enigmatic author.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unraveling the Shadowy Figure",
+   "body": "Taking the journal to the mystics and townsfolk of Darkshire reveals that its true owner was not born in Duskwood, yet fled through the woods in sheer terror. Tracing the faded impressions on its pages eventually leads to Jitters, a cowardly vagrant hiding in the forest. The missing passages belonging to this volume chronicle how the Defias Brotherhood meddled with forbidden artifacts, inadvertently unleashing the ravenous worgen into Duskwood. Finding Jitters piecemeals the narrative back together, culminating in his completed journal.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Book from Sven's Farm found?",
+   "aliases": [
+    "where to find sven book",
+    "dirt mound sven farm",
+    "sven book location"
+   ],
+   "answer": "The book is buried inside an unkempt dirt mound at the ruined farmstead of Sven Yorgen, located in the western reaches of Duskwood near the border of Westfall."
+  },
+  {
+   "q": "Who wrote the book found at Sven's farm?",
+   "aliases": [
+    "author of sven book",
+    "who wrote the dirt-stained book",
+    "who wrote the journal"
+   ],
+   "answer": "The book was written by Jitters, a terrified vagabond who fled to Duskwood and hid near Sven's farm, witnessing the slaughter of Sven's family before losing his journal."
+  },
+  {
+   "q": "Why does Sven Yorgen want this book?",
+   "aliases": [
+    "why does sven care",
+    "sven yorgen book reaction"
+   ],
+   "answer": "Sven saw an unknown figure watching his farm during the attack on his family. The book proves that onlooker was real, providing Sven with his only tangible lead toward finding out what truly occurred that night."
+  },
+  {
+   "q": "What happens to the book after you investigate it?",
+   "aliases": [
+    "what replaces sven book",
+    "do you keep sven book"
+   ],
+   "answer": "After showing the partial volume to various residents in Darkshire and tracking down its owner, the incomplete book is eventually replaced by Jitters' Completed Journal, which tells the full story."
+  },
+  {
+   "q": "What larger secret is connected to the book's contents?",
+   "aliases": [
+    "what lore is in sven book",
+    "worgen connection",
+    "defias connection"
+   ],
+   "answer": "The journal ties directly into the illicit activities of the Defias Brotherhood in the region and uncovers how the feral worgen were first summoned into the forests of Duskwood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance investigators, this weathered book is the key to solving the eerie horrors paralyzing southern Duskwood and discovering how the feral worgen pack gained a foothold."
+  }
+ ],
+ "keywords": [
+  "book from sven's farm",
+  "darkshire",
+  "defias brotherhood",
+  "duskwood",
+  "jitters",
+  "shadowy figure",
+  "sven yorgen",
+  "worgen"
+ ],
+ "related": [
+  "npc:jitters",
+  "quest:262",
+  "quest:453",
+  "item:jitters-completed-journal",
+  "topic:worgen",
+  "zone:duskwood",
+  "subzone:darkshire",
+  "topic:defias-brotherhood"
+ ],
+ "attribution": [
+  "Book from Sven's Farm",
+  "Sven's Camp",
+  "The Shadowy Figure"
+ ]
+}

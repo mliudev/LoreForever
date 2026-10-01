@@ -1,0 +1,89 @@
+{
+ "key": "item:glyphic-tablet",
+ "type": "item",
+ "name": "Glyphic Tablet",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Glyphic Tablet",
+  "quests": [
+   "quest:3086"
+  ]
+ },
+ "summary": "The Glyphic Tablet is an inscribed slate handed to novice Darkspear troll mages upon beginning their trials in Durotar. Delivered through the overseer Gornek, it directs fledgling spellcasters to seek tutelage from the troll mage trainer, Mai'ah.",
+ "sections": [
+  {
+   "title": "A Mage's First Summons",
+   "body": "In the Valley of Trials, new Darkspear troll initiates exhibiting an affinity for arcane power are presented with the Glyphic Tablet. Passed along by Gornek while young recruits handle early tasks around the red canyons, the tablet contains an invitation from Mai'ah, a seasoned troll mage posted outside the Den. For the Darkspear, whose arcane traditions diverge from the scholarly academies of humans or high elves, the tablet serves as a formal call to discipline. Mai'ah uses the meeting to offer both arcane instruction and a solemn warning: raw magic is corruptive, deceptive, and far more hazardous to a practitioner's mind than any enemy soldier.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Glyphic Tablet?",
+   "aliases": [
+    "what does glyphic tablet do",
+    "glyphic tablet use",
+    "why do i have glyphic tablet"
+   ],
+   "answer": "It serves as a written summons directing a novice troll mage to report to Mai'ah, the local mage trainer in the Valley of Trials, to commence proper spellcasting training."
+  },
+  {
+   "q": "Who sends the Glyphic Tablet?",
+   "aliases": [
+    "who wrote glyphic tablet",
+    "who gave me glyphic tablet"
+   ],
+   "answer": "The tablet is authored by the mage trainer Mai'ah and handed to young troll recruits by Gornek within the Valley of Trials."
+  },
+  {
+   "q": "Why do troll mages need a warning about magic?",
+   "aliases": [
+    "what does mai'ah say",
+    "is magic dangerous"
+   ],
+   "answer": "Mai'ah stresses that arcane magic is inherently corruptive. She warns that it feeds arrogance and makes spellcasters believe they are invincible, cautioning that the unseen dangers of the arcane are far deadlier than physical rivals."
+  },
+  {
+   "q": "Can other Horde races receive this tablet?",
+   "aliases": [
+    "can orcs get glyphic tablet",
+    "is glyphic tablet troll only"
+   ],
+   "answer": "Only troll mages receive the Glyphic Tablet in the Valley of Trials, as the orcs of Durotar do not practice the arcane arts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The tablet marks the start of your arcane instruction among the Darkspear, carrying a reminder from Mai'ah that the corrupting allure of magic is your greatest peril."
+  },
+  {
+   "target": "race:Troll",
+   "text": "As the only race in the Valley of Trials to practice wizardry, Darkspear mages receive this tablet to begin their unique path alongside traditional shamanic and martial ways."
+  }
+ ],
+ "keywords": [
+  "arcane",
+  "durotar",
+  "glyphic tablet",
+  "gornek",
+  "mai'ah",
+  "troll mage",
+  "valley of trials"
+ ],
+ "related": [
+  "quest:3086",
+  "npc:mai-ah",
+  "npc:gornek",
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "topic:mage",
+  "topic:troll",
+  "quest:1089"
+ ],
+ "attribution": [
+  "Glyphic Tablet",
+  "Glyphic Tablet (quest)"
+ ]
+}

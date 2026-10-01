@@ -1,0 +1,86 @@
+{
+ "key": "item:shipment-of-boots",
+ "type": "item",
+ "name": "Shipment of Boots",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Shipment of Boots",
+  "quests": [
+   "quest:888"
+  ]
+ },
+ "summary": "A crate of footwear dispatched from Booty Bay by the merchant Drizzlik, intended for Gazlowe's trade network in Ratchet. It was intercepted off the coast by Southsea Freebooters and stashed away in their encampment south of the port.",
+ "sections": [
+  {
+   "title": "A Plundered Cargo",
+   "body": "Running a goblin trade port requires endless supplies, and Gazlowe arranged for a fresh delivery of boots from Drizzlik, a purveyor of apparel based out of Booty Bay. The consignment never reached Ratchet's docks. Southsea Freebooters prowling the Merchant Coast ambushed the transport vessel, carrying the crates off to their beach encampments south of the harbor. The pirates scattered the stolen freight throughout their tents and shanties, leaving Gazlowe without his expected wares until adventurous mercenaries could be hired to scour the shoreline.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sent this shipment of boots?",
+   "aliases": [
+    "who made the boots",
+    "where did the boots come from",
+    "drizzlik boots"
+   ],
+   "answer": "The boots were sent from Booty Bay by Drizzlik, a goblin merchant who manages an emporium selling clothing and supplies in the southern port."
+  },
+  {
+   "q": "Who was supposed to receive the boots?",
+   "aliases": [
+    "who owns the boots",
+    "gazlowe boot shipment"
+   ],
+   "answer": "Gazlowe, the chief engineer and overseer of Ratchet, ordered the footwear to support his local workforce and mercantile operations."
+  },
+  {
+   "q": "How did the boots end up with the pirates?",
+   "aliases": [
+    "why do southsea pirates have boots",
+    "who stole the boots"
+   ],
+   "answer": "Southsea Freebooters intercepted the cargo ship along the Barrens coast, plundering the vessel and hauling the crates back to their encampments south of Ratchet."
+  },
+  {
+   "q": "Where can the shipment be found?",
+   "aliases": [
+    "boots location",
+    "where is shipment of boots",
+    "find boot shipment"
+   ],
+   "answer": "The crate sits inside the Southsea pirate encampment situated along the coastline south of Ratchet, tucked away among their plundered goods."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Infiltrating the Southsea camps along the coast requires evading dense pirate patrols, making a silent approach the safest way to reclaim Gazlowe's stolen freight."
+  }
+ ],
+ "keywords": [
+  "booty bay",
+  "drizzlik",
+  "gazlowe",
+  "ratchet",
+  "shipment of boots",
+  "southsea freebooters",
+  "stolen booty"
+ ],
+ "related": [
+  "quest:888",
+  "subzone:ratchet",
+  "subzone:booty-bay",
+  "quest:887",
+  "quest:890",
+  "item:telescopic-lens",
+  "topic:pirate",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Shipment of Boots",
+  "Stolen Booty"
+ ]
+}

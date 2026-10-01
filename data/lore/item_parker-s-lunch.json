@@ -1,0 +1,90 @@
+{
+ "key": "item:parker-s-lunch",
+ "type": "item",
+ "name": "Parker's Lunch",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Parker's Lunch",
+  "quests": [
+   "quest:129"
+  ]
+ },
+ "summary": "Parker's Lunch is a freshly prepared meal packed by Darcy in Lakeshire. Intended for Guard Parker on patrol, it offers a simple glimpse into the daily bonds and modest comforts of Redridge's defenders.",
+ "sections": [
+  {
+   "title": "A Meal for the Road",
+   "body": "While Redridge Mountains reels under attacks from gnolls and Blackrock orcs, the small gestures of daily life persist. Darcy, an innkeeper in Lakeshire, packs this wholesome meal for Guard Parker, who patrols the exposed road leading south toward Duskwood. Redridge's garrison is stretched thin and isolated from Stormwind's aid, leaving individual guards to maintain long, lonely watches. Delivering this bundle not only keeps a sentry fed, but also sparks an enduring, bashful courtship between the two townspeople.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who prepared Parker's Lunch?",
+   "aliases": [
+    "who made parker's lunch",
+    "who gave me parker's lunch",
+    "darcy redridge lunch"
+   ],
+   "answer": "The lunch was prepared by Darcy, the cook and proprietor at the Lakeshire inn. Concerned for Guard Parker while he is out on dangerous patrol, she relies on traveling adventurers to deliver it safely to him."
+  },
+  {
+   "q": "Where can Guard Parker be found?",
+   "aliases": [
+    "guard parker location",
+    "where is guard parker",
+    "find guard parker"
+   ],
+   "answer": "Guard Parker patrols the main dirt road heading southwest out of Lakeshire toward the border of Duskwood. He marches back and forth along that route keeping watch for roaming gnolls."
+  },
+  {
+   "q": "What does Guard Parker do after receiving his lunch?",
+   "aliases": [
+    "parker lunch follow up",
+    "darcy and parker",
+    "parker reaction to lunch"
+   ],
+   "answer": "Parker is deeply touched by Darcy's thoughtfulness. Grateful for the warm food on his difficult patrol, he soon seeks a way to return her kindness, enlisting help to send her fresh daffodils from the herbalist."
+  },
+  {
+   "q": "Why doesn't Darcy deliver the lunch herself?",
+   "aliases": [
+    "why cant darcy bring it",
+    "why deliver lunch redridge"
+   ],
+   "answer": "The roads outside Lakeshire are rife with aggressive Redridge gnolls and Blackrock invaders. While Guard Parker has the combat training and armor to survive out on patrol, ordinary townspeople like Darcy cannot safely risk the journey alone."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "A warm, packed meal is often the only comfort sustaining frontier guards against long hours and hostile beasts in the wilderness."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "With the capital slow to send reinforcements, local solidarity between the townspeople and the few remaining guards is what keeps Lakeshire functioning."
+  }
+ ],
+ "keywords": [
+  "a free lunch",
+  "darcy",
+  "guard parker",
+  "lakeshire",
+  "parker's lunch",
+  "redridge"
+ ],
+ "related": [
+  "quest:129",
+  "quest:130",
+  "quest:131",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "subzone:darkshire",
+  "topic:stormwind-guard",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Parker's Lunch",
+  "A Free Lunch"
+ ]
+}

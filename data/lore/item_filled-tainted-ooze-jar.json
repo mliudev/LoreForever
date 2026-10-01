@@ -1,0 +1,97 @@
+{
+ "key": "item:filled-tainted-ooze-jar",
+ "type": "item",
+ "name": "Filled Tainted Ooze Jar",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Filled Tainted Ooze Jar",
+  "quests": [
+   "quest:4512"
+  ]
+ },
+ "summary": "A Filled Tainted Ooze Jar contains viscous, tainted ooze scooped directly from the remains of oozes wandering the corrupted forests of Felwood. Secured in specialized containment jars, these samples are brought to Ironforge to support radical theories regarding the origin of life on Azeroth.",
+ "sections": [
+  {
+   "title": "Slime of the Corrupted Wood",
+   "body": "The tainted oozes roaming northern Kalimdor carry the deep, lingering corruption of Felwood. Harvesting them requires careful containment using jars provided by gnomish researchers. While most travelers avoid the noxious creatures entirely, collecting these samples provides rare material for natural philosophy and biological study far from the blighted forests.",
+   "spoiler": 0
+  },
+  {
+   "title": "Geardawdle's Grand Theory",
+   "body": "The samples are gathered on behalf of Laris Geardawdle, an ambitious gnome scholar stationed with the Explorers' League in Ironforge. Geardawdle is fascinated by the ubiquitous nature of slimes and noticed that the Forsaken's Royal Apothecary Society has also been taking an active interest in them. Defying popular academic skepticism, he theorizes that slimes and oozes may be primal secretions tied to the very creation of Azeroth itself. Securing these samples is his attempt to prove his standing among dwarven scholars following the tragic fall of Gnomeregan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside a Filled Tainted Ooze Jar?",
+   "aliases": [
+    "what is in the jar",
+    "tainted ooze jar contents",
+    "what is tainted ooze"
+   ],
+   "answer": "It contains a fresh, captured sample taken from the remains of a defeated Tainted Ooze native to Felwood, sealed inside a gnomish collection jar."
+  },
+  {
+   "q": "Who wants these ooze samples?",
+   "aliases": [
+    "who takes the ooze",
+    "laris geardawdle quest",
+    "who wants tainted ooze"
+   ],
+   "answer": "Laris Geardawdle, a gnomish researcher working alongside the Explorers' League in the Hall of Explorers in Ironforge, requests them to advance his natural history studies."
+  },
+  {
+   "q": "Why is Laris Geardawdle studying oozes?",
+   "aliases": [
+    "why study slime",
+    "geardawdle slime theory",
+    "why does the gnome want ooze"
+   ],
+   "answer": "Geardawdle observed the Royal Apothecary Society gathering slime samples and grew determined to unravel their nature first. He harbors an unconventional theory that oozes are primordial secretions connected to the creation of Azeroth, and he hopes to cement his scientific reputation in Ironforge."
+  },
+  {
+   "q": "Where are these samples collected?",
+   "aliases": [
+    "where to find tainted ooze",
+    "tainted ooze jar location",
+    "where do i fill the jar"
+   ],
+   "answer": "They are collected in Felwood by defeating Tainted Oozes and using an empty containment jar on their remains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomish refugees living in Ironforge, groundbreaking scientific contributions to the Explorers' League are vital to proving their worth and repaying dwarven hospitality after Gnomeregan's tragedy."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance scouts monitor the Forsaken's Royal Apothecary Society closely; understanding why the Undercity harvests slime across the continents is a key intelligence priority."
+  }
+ ],
+ "keywords": [
+  "explorers' league",
+  "felwood",
+  "ironforge",
+  "laris geardawdle",
+  "royal apothecary society",
+  "slime",
+  "tainted ooze"
+ ],
+ "related": [
+  "quest:4512",
+  "item:filled-cursed-ooze-jar",
+  "npc:laris-geardawdle",
+  "item:package-of-empty-ooze-containers",
+  "zone:felwood",
+  "zone:ironforge",
+  "topic:explorers-league",
+  "topic:royal-apothecary-society"
+ ],
+ "attribution": [
+  "Filled Tainted Ooze Jar",
+  "A Little Slime Goes a Long Way"
+ ]
+}

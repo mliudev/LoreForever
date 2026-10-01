@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Translation dashboard - Lore Forever</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+<script src="/header.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top-row">
+    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; <a href="/translate">Translate</a> &rsaquo; Dashboard</span>
+    <div class="head-actions"><a class="btn-head" href="/feedback"><span class="hd-wide">Send feedback</span><span class="hd-narrow">Feedback</span></a></div>
+  </div>
+</header>
+
+<!-- The translation dashboard (LOR-96): English on the left, your language on the right, saved as you type.
+     "Needs work" gathers what still needs a person across every section (from translate/data/<locale>/status.json and
+     the language's bad-translation reports); "Browse by section" shows everything. Text comes from translate/data/
+     (written by `python -m lore.kit site`); edits go to functions/api/translations/[action].js, and `lore.kit pull`
+     brings them into the language (an unchanged line sent back counts as "checked by a person"). -->
+<main class="wrap td-page">
+  <h1>Translate</h1>
+  <noscript><p class="fb-status">The dashboard needs JavaScript. You can also <a href="/translate#languages">download
+    the kit</a> and edit it offline.</p></noscript>
+  <p class="fb-status" id="td-status" role="status" hidden></p>
+
+  <section class="fb-done" id="td-out" hidden>
+    <h2>Sign in to translate</h2>
+    <p>Translating in the browser needs a Lore Forever account, so your work is saved and credited to you. It takes a
+      minute with your Google account.</p>
+    <p class="vp-actions"><a class="btn-small" href="/account?next=/translate/dashboard">Sign in or create an account</a>
+      <a class="btn-small" href="/translate#languages">Or download the kit</a></p>
+  </section>
+
+  <div id="td-in" hidden>
+    <div class="td-bar">
+      <label class="fb-field td-lang">
+        <span>Language</span>
+        <select id="td-locale"></select>
+      </label>
+      <p class="td-who">Signed in as <strong id="td-who"></strong> &middot; <a href="/account">Your account</a></p>
+    </div>
+
+    <section class="td-progress" aria-live="polite">
+      <div class="tl-meter" role="meter" aria-valuemin="0" aria-valuemax="100" id="td-meter"><span></span></div>
+      <p id="td-progress-text"></p>
+    </section>
+
+    <details class="td-help">
+      <summary>How it works</summary>
+      <ul class="vp-steps">
+        <li><strong>Needs work</strong> lists what still needs a person, most-read first: lines with no translation,
+          drafts nobody has checked, lines players reported, and lines whose English changed.</li>
+        <li>Type your language in the box under each English line. It saves by itself when you pause or move on.</li>
+        <li>A draft that already reads right? Press <strong>Looks right</strong> on the line, or on the whole entry.</li>
+        <li>Keep codes like <code>%s</code> and <code>|cff00ff00 ... |r</code> where the English has them. Keywords
+          and search phrases are lists: separate the items with <code>|</code>.</li>
+        <li>Names of places, people and quests should match what your game client calls them.</li>
+        <li>What you save goes into your language's next update. Clear a box to take your edit back before then.</li>
+      </ul>
+    </details>
+
+    <div class="td-modes td-filters" role="group" aria-label="View">
+      <button type="button" data-mode="work" aria-pressed="true">Needs work</button>
+      <button type="button" data-mode="browse" aria-pressed="false">Browse by section</button>
+    </div>
+
+    <section id="td-work" aria-label="Needs work">
+      <div class="td-cats" role="group" aria-label="What needs work">
+        <button type="button" data-cat="missing" aria-pressed="false"><strong>Not translated</strong><span></span></button>
+        <button type="button" data-cat="draft" aria-pressed="false"><strong>Drafts to check</strong><span></span></button>
+        <button type="button" data-cat="reported" aria-pressed="false"><strong>Reported by players</strong><span></span></button>
+        <button type="button" data-cat="stale" aria-pressed="false"><strong>English changed</strong><span></span></button>
+      </div>
+    </section>
+
+    <div class="td-controls" id="td-browse" hidden>
+      <label class="fb-field">
+        <span class="fb-sub">Section</span>
+        <select id="td-section"></select>
+      </label>
+      <div class="td-filters" role="group" aria-label="Show">
+        <button type="button" data-show="todo" aria-pressed="true">To do</button>
+        <button type="button" data-show="text" aria-pressed="false">Has text</button>
+        <button type="button" data-show="mine" aria-pressed="false">My edits</button>
+        <button type="button" data-show="all" aria-pressed="false">All</button>
+      </div>
+      <label class="fb-field td-search">
+        <span class="fb-sub">Search</span>
+        <input type="search" id="td-q" placeholder="English, your text, or an id like npc:hogger" spellcheck="false">
+      </label>
+    </div>
+    <p class="vp-note" id="td-count"></p>
+    <div id="td-list"></div>
+    <p><button type="button" class="btn-small" id="td-more" hidden>Show more</button></p>
+  </div>
+</main>
+
+<footer class="wrap foot">
+  <p>Translations are shared under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, like the
+    lore text they translate. <a href="/discord?src=translate">Questions? Ask on Discord.</a></p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+<script type="module">
+import { problem, isList } from "/translate/check.js";
+
+const $ = id => document.getElementById(id);
+const PAGE = 30;        // entries per page when browsing a section
+const WORK_PAGE = 8;    // entries per page in Needs work
+const UI_PAGE = 40;     // interface lines per page
+const CATS = ["missing", "draft", "reported", "stale"];
+const state = {
+  langs: [], me: null, locale: null, lang: null, sections: [], section: null, show: "todo", q: "", shown: PAGE,
+  mode: "work", cat: null, entries: [], entrySection: {}, status: null, mine: {}, reports: [],
+  store: { names: {}, text: {}, strings: {}, byKey: {}, loaded: {} },
+};
+
+const status = (msg, good) => {
+  $("td-status").hidden = !msg;
+  $("td-status").textContent = msg || "";
+  $("td-status").classList.toggle("fb-good", Boolean(good));
+};
+const getJSON = async (url, fallback) => {
+  try {
+    const r = await fetch(url, { cache: url.startsWith("/api/") ? "no-store" : "default" });
+    return r.ok ? await r.json() : fallback;
+  } catch (e) {
+    return fallback;
+  }
+};
+const post = async (action, body) => {
+  try {
+    const r = await fetch("/api/translations/" + action, {
+      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body),
+    });
+    return await r.json().catch(() => ({ ok: false, error: "Something went wrong. Please try again." }));
+  } catch (e) {
+    return { ok: false, error: "Couldn't reach the server. Your text is still here: try again in a moment." };
+  }
+};
+const el = (tag, props = {}, ...kids) => {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(props)) {
+    if (k === "class") n.className = v; else if (k === "text") n.textContent = v; else n.setAttribute(k, v);
+  }
+  n.append(...kids.filter(k => k != null));
+  return n;
+};
+const remember = (k, v) => { try { localStorage.setItem("lf-td-" + k, v); } catch (e) {} };
+const recall = k => { try { return localStorage.getItem("lf-td-" + k); } catch (e) { return null; } };
+const fmt = n => n.toLocaleString("en-US");
+
+// ---- what a string is ----
+
+function fieldLabel(id) {
+  if (id.startsWith("ui/")) return "Interface";
+  const path = id.split("/").slice(1);
+  const [f, i, g] = path;
+  if (f === "n") return "Name";
+  if (f === "s") return "Summary";
+  if (f === "kw") return "Keywords (separate with |)";
+  if (f === "sec") return g === "t" ? `Section ${i}: title` : `Section ${i}`;
+  if (f === "faq") return { q: `Question ${i}`, a: `Answer ${i}`, al: `Question ${i}: other ways to ask it (separate with |)` }[g];
+  if (f === "ang") {
+    const [kind, who] = path.slice(1).join("/").split(":");
+    return `For ${who || kind} ${kind === "faction" || kind === "race" || kind === "class" ? "players" : ""}`.trim();
+  }
+  return path.join(" ");
+}
+const entryOf = id => id.startsWith("ui/") ? "ui" : id.split("/", 1)[0];
+
+// The text a box starts with: your latest edit unless it was turned down or is already in the published text.
+function current(id) {
+  const m = state.mine[id];
+  if (m && (m.status === "new" || m.status === "accepted")) return { text: m.text, mine: m };
+  return { text: state.store.text[id] || "", mine: m || null };
+}
+const isDraftEntry = key => key === "ui" ? false : state.draftSet.has(key);
+function statusText(id) {
+  const { mine } = current(id);
+  const m = state.mine[id];
+  if (mine && (mine.status === "new" || mine.status === "accepted")) {
+    return [mine.text === (state.store.text[id] || "") ? "Checked by you: it's in the next update" : "Saved: it's in the next update", "td-new"];
+  }
+  if (m && m.status === "rejected") return ["Your last edit wasn't used; this is the current text", "td-no"];
+  if (m && m.status === "pulled") return ["Your edit is in", "td-ok"];
+  if (!state.store.text[id]) return [state.staleSet.has(entryOf(id)) ? "The English changed: please translate it again" : "Not translated yet", "td-todo"];
+  const draft = id.startsWith("ui/") ? state.uiDraftSet.has(id) : isDraftEntry(entryOf(id));
+  return draft ? ["Draft: fix it, or press Looks right", "td-draft"] : ["Current text", ""];
+}
+
+// ---- data ----
+
+async function ensureSections(sids) {
+  const s = state.store;
+  await Promise.all([...new Set(sids)].filter(sid => !s.loaded[sid + ":" + state.locale]).map(async sid => {
+    const [en, text] = await Promise.all([
+      s.strings[sid] ? null : getJSON(`/translate/data/en/${sid}.json`, { names: {}, strings: [] }),
+      state.hasText ? getJSON(`/translate/data/${state.locale}/${sid}.json`, {}) : {},
+    ]);
+    if (en) {
+      Object.assign(s.names, en.names);
+      s.strings[sid] = en.strings;
+      for (const row of en.strings) (s.byKey[entryOf(row[0])] ||= []).push(row);
+    }
+    Object.assign(s.text, text);
+    s.loaded[sid + ":" + state.locale] = true;
+  }));
+}
+
+async function loadLanguage(locale) {
+  state.locale = locale;
+  remember("locale", locale);
+  state.lang = state.langs.find(l => l.locale === locale) || {};
+  state.hasText = Boolean(state.lang.hasText);
+  state.store.text = {};
+  state.store.loaded = {};
+  $("td-list").replaceChildren(el("p", { class: "vp-note", text: "Loading..." }));
+  const [edits, reports, st] = await Promise.all([
+    getJSON("/api/translations/edits?locale=" + locale, { edits: [] }),
+    getJSON("/api/translations/reports?locale=" + locale, { reports: [] }),
+    state.hasText ? getJSON(`/translate/data/${locale}/status.json`, null) : null,
+  ]);
+  state.mine = {};
+  for (const e of edits.edits || []) state.mine[e.string_id] = e;   // oldest first, so the latest wins
+  state.reports = reports.reports || [];
+  // A language with no text yet: everything is still to translate.
+  state.status = st || { missing: state.entries.map(e => e[0]), stale: [], draft: [], ui_missing: ["*"], ui_draft: [] };
+  state.draftSet = new Set(state.status.draft);
+  state.staleSet = new Set(state.status.stale);
+  state.uiDraftSet = new Set(state.status.ui_draft);
+  renderProgress();
+  if (state.mode === "work") { pickDefaultCat(); await renderWork(); } else await loadSection(state.section);
+}
+
+// ---- Needs work ----
+
+const touched = () => new Set(Object.keys(state.mine).map(entryOf));   // entries you've edited or checked
+function workList(cat) {
+  const mine = touched();
+  const st = state.status;
+  const order = state.entryOrder;
+  const byOrder = keys => [...new Set(keys)].filter(k => order.has(k)).sort((a, b) => order.get(a) - order.get(b));
+  if (cat === "missing") {
+    const ui = st.ui_missing.length ? ["ui"] : [];
+    return ui.concat(byOrder(st.missing.filter(k => !mine.has(k))));
+  }
+  if (cat === "draft") {
+    const uiLeft = st.ui_draft.filter(id => !state.mine[id]);
+    return (uiLeft.length ? ["ui"] : []).concat(byOrder(st.draft.filter(k => !mine.has(k))));
+  }
+  if (cat === "stale") return byOrder(st.stale.filter(k => !mine.has(k)));
+  if (cat === "reported") return byOrder(state.reports.map(r => entryOf(String(r.code || ""))).filter(Boolean));
+  return [];
+}
+// Interface lines that belong in a category (all of them for a language with no text yet).
+function uiIds(cat) {
+  const all = state.store.byKey.ui ? state.store.byKey.ui.map(r => r[0]) : [];
+  if (cat === "missing") return state.status.ui_missing[0] === "*" ? all : state.status.ui_missing;
+  if (cat === "draft") return state.status.ui_draft.filter(id => !state.mine[id]);
+  return all;
+}
+function uiCount(cat) {
+  if (cat === "missing") return state.status.ui_missing[0] === "*" ? state.uiTotal : state.status.ui_missing.length;
+  if (cat === "draft") return state.status.ui_draft.filter(id => !state.mine[id]).length;
+  return 0;
+}
+
+function pickDefaultCat() {
+  if (state.cat && workList(state.cat).length) return;
+  state.cat = CATS.find(c => workList(c).length) || "draft";
+}
+
+function renderCats() {
+  document.querySelectorAll("[data-cat]").forEach(b => {
+    const list = workList(b.dataset.cat);
+    const entries = list.filter(k => k !== "ui").length, ui = list.includes("ui") ? uiCount(b.dataset.cat) : 0;
+    b.querySelector("span").textContent = entries + ui ? fmt(entries + ui) : "none";
+    b.setAttribute("aria-pressed", String(b.dataset.cat === state.cat));
+    b.classList.toggle("td-cat-empty", !(entries + ui));
+  });
+}
+
+const CAT_NOTE = {
+  missing: "Lines with no translation yet, most-read first: the interface, then zones, topics and characters.",
+  draft: "Text nobody has checked yet. Fix what reads wrong, or press Looks right when it's fine.",
+  reported: "Entries players reported with \"Report a bad translation\". The report is shown above each one.",
+  stale: "The English was rewritten after these were translated: they show in English until someone translates them again.",
+};
+
+async function renderWork() {
+  renderCats();
+  const cat = state.cat;
+  const list = workList(cat);
+  const keys = list.slice(0, state.shown);
+  await ensureSections(["ui", ...keys.map(k => state.entrySection[k]).filter(Boolean)]);
+  if (state.mode !== "work" || state.cat !== cat) return;   // switched while loading
+  const entries = list.filter(k => k !== "ui").length;
+  const ui = list.includes("ui") ? uiCount(cat) : 0;
+  $("td-count").textContent = entries + ui
+    ? `${CAT_NOTE[cat]} ${[entries ? fmt(entries) + (entries === 1 ? " entry" : " entries") : "",
+                          ui ? fmt(ui) + " interface lines" : ""].filter(Boolean).join(" and ")}.`
+    : { missing: "Everything has a translation. Try Drafts to check.", draft: "Every draft has been checked. Thank you!",
+        reported: "No open reports for this language.", stale: "Nothing to redo." }[cat];
+  $("td-list").replaceChildren(...keys.map(key => {
+    if (key === "ui") {
+      const ids = new Set(uiIds(cat));
+      const rows = (state.store.byKey.ui || []).filter(r => ids.has(r[0])).slice(0, UI_PAGE);
+      return entryBlock("ui", rows, { cat });
+    }
+    return entryBlock(key, state.store.byKey[key] || [], { cat, report: state.reports.filter(r => entryOf(String(r.code || "")) === key) });
+  }));
+  $("td-more").hidden = keys.length >= list.length;
+}
+
+// ---- Browse by section ----
+
+function matches(id, english) {
+  const has = Boolean(current(id).text);
+  if (state.show === "todo" && has) return false;
+  if (state.show === "text" && !has) return false;
+  if (state.show === "mine" && !state.mine[id]) return false;
+  if (!state.q) return true;
+  const q = state.q.toLowerCase();
+  return id.toLowerCase().includes(q) || english.toLowerCase().includes(q) || current(id).text.toLowerCase().includes(q)
+    || (state.store.names[entryOf(id)] || "").toLowerCase().includes(q);
+}
+
+async function loadSection(sid) {
+  state.section = sid;
+  remember("section", sid);
+  $("td-list").replaceChildren(el("p", { class: "vp-note", text: "Loading..." }));
+  await ensureSections([sid]);
+  state.shown = PAGE;
+  renderBrowse();
+}
+
+function renderBrowse() {
+  const groups = new Map();
+  for (const [id, english] of state.store.strings[state.section] || []) {
+    if (!matches(id, english)) continue;
+    const key = entryOf(id);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push([id, english]);
+  }
+  const keys = [...groups.keys()];
+  const strings = [...groups.values()].reduce((n, g) => n + g.length, 0);
+  $("td-count").textContent = strings
+    ? `${fmt(strings)} ${strings === 1 ? "line" : "lines"}` + (keys[0] === "ui" ? "" : ` in ${fmt(keys.length)} ${keys.length === 1 ? "entry" : "entries"}`)
+    : { todo: "Nothing left to translate in this section. Try Needs work, or show All.", mine: "You haven't edited anything in this section yet." }[state.show] || "Nothing matches.";
+  const page = keys[0] === "ui" ? groups.get("ui").slice(0, state.shown * 4) : null;
+  const shownKeys = page ? ["ui"] : keys.slice(0, state.shown);
+  $("td-list").replaceChildren(...shownKeys.map(key => entryBlock(key, page || groups.get(key), {})));
+  $("td-more").hidden = page ? page.length >= groups.get("ui").length : shownKeys.length >= keys.length;
+}
+
+function render() { if (state.mode === "work") renderWork(); else renderBrowse(); }
+
+// ---- an entry and its lines ----
+
+function entryBlock(key, rows, { cat, report } = {}) {
+  const name = key === "ui" ? "The add-on's interface" : state.store.names[key] || key;
+  const head = el("h3", {}, name, key === "ui" ? null : el("code", { class: "td-key", text: key }));
+  const block = el("article", { class: "td-entry" }, head);
+  for (const r of report || []) {
+    block.append(el("p", { class: "td-report" }, el("strong", { text: "Reported: " }), r.wrong,
+      r.better ? el("span", { text: " Suggested: " + r.better }) : null));
+  }
+  // A whole entry that reads right: one click checks every line of it that has text.
+  if (key !== "ui" && cat === "draft") {
+    const all = el("button", { type: "button", class: "btn-small td-lgtm-all", text: "✓ The whole entry looks right" });
+    all.addEventListener("click", async () => {
+      all.disabled = true;
+      const todo = rows.filter(([id]) => current(id).text && !state.mine[id]);
+      let failed = 0;
+      for (const [id, english] of todo) {
+        const res = await post("save", { locale: state.locale, id, en: english, text: current(id).text });
+        if (res.ok) state.mine[id] = { string_id: id, text: current(id).text, status: "new", updated: res.updated };
+        else failed++;
+      }
+      status(failed ? `${failed} lines couldn't be saved. Please try again.` : `Thanks! ${name} is marked as checked.`, !failed);
+      renderProgress();
+      render();
+    });
+    head.after(all);
+  }
+  block.append(...rows.map(([id, english]) => stringRow(id, english, cat)));
+  return block;
+}
+
+function stringRow(id, english, cat) {
+  const box = el("textarea", { rows: String(Math.min(12, Math.max(1, Math.ceil(english.length / 70)))), lang: state.locale.slice(0, 2), spellcheck: "true" });
+  box.value = current(id).text;
+  const note = el("p", { class: "td-note" });
+  const setNote = () => { const [t, c] = statusText(id); note.textContent = t; note.className = "td-note " + c; };
+  setNote();
+  let timer = null, saved = box.value;
+
+  async function saveNow(force) {
+    clearTimeout(timer);
+    const text = box.value.trim();
+    if (!force && text === saved.trim()) return;
+    const why = text ? problem(id, english, text) : null;
+    if (why) { note.textContent = why; note.className = "td-note td-no"; return; }
+    note.textContent = "Saving...";
+    note.className = "td-note";
+    const res = await post("save", { locale: state.locale, id, en: english, text });
+    if (!res.ok) { note.textContent = res.error; note.className = "td-note td-no"; return; }
+    saved = box.value;
+    if (res.status) state.mine[id] = { string_id: id, text, status: res.status, updated: res.updated };
+    else delete state.mine[id];
+    if (!text) box.value = saved = current(id).text;   // withdrawn: back to the current text
+    setNote();
+    lgtm.hidden = !showLgtm();
+    renderProgress();
+    if (state.mode === "work") renderCats();
+  }
+  box.addEventListener("input", () => {
+    const why = box.value.trim() ? problem(id, english, box.value.trim()) : null;
+    if (why) { note.textContent = why; note.className = "td-note td-no"; } else setNote();
+    clearTimeout(timer);
+    timer = setTimeout(saveNow, 1500);
+  });
+  box.addEventListener("blur", () => saveNow());
+
+  // "Looks right": a draft line that needs no change is sent back as it is, which counts as checked.
+  const showLgtm = () => Boolean(current(id).text) && !state.mine[id] &&
+    (id.startsWith("ui/") ? state.uiDraftSet.has(id) : isDraftEntry(entryOf(id)));
+  const lgtm = el("button", { type: "button", class: "tl-link td-lgtm", text: "✓ Looks right" });
+  lgtm.hidden = !showLgtm();
+  lgtm.addEventListener("click", () => saveNow(true));
+  const copy = el("button", { type: "button", class: "tl-link td-copy", text: "Copy the English" });
+  copy.addEventListener("click", () => { box.value = english; box.focus(); box.dispatchEvent(new Event("input")); });
+  return el("div", { class: "td-row" },
+    el("div", { class: "td-en" }, el("span", { class: "td-label", text: fieldLabel(id) }), el("p", { lang: "en", text: english })),
+    el("div", { class: "td-tr" }, box, el("div", { class: "td-under" }, note,
+      el("span", { class: "td-links" }, lgtm, isList(id) || english.length > 60 || current(id).text ? null : copy))));
+}
+
+function renderProgress() {
+  const lang = state.lang || {};
+  const p = (lang.coverage || {}).percent || 0;
+  $("td-meter").querySelector("span").style.width = Math.min(100, p) + "%";
+  $("td-meter").setAttribute("aria-valuenow", p);
+  const n = Object.values(state.mine).filter(m => m.status === "new" || m.status === "accepted").length;
+  const done = Object.values(state.mine).filter(m => m.status === "pulled").length;
+  const mine = [n ? `${fmt(n)} saved for the next update` : "", done ? `${fmt(done)} in the language` : ""].filter(Boolean).join(", ");
+  $("td-progress-text").textContent = `${lang.name || state.locale}: ${p < 1 && p > 0 ? "less than 1" : Math.floor(p)}% translated.`
+    + (mine ? ` Your edits: ${mine}.` : " Every line you translate or check counts.");
+}
+
+function setMode(mode) {
+  state.mode = mode;
+  state.shown = mode === "work" ? WORK_PAGE : PAGE;
+  remember("mode", mode);
+  document.querySelectorAll("[data-mode]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.mode === mode)));
+  $("td-work").hidden = mode !== "work";
+  $("td-browse").hidden = mode !== "browse";
+  if (mode === "work") { pickDefaultCat(); renderWork(); } else loadSection(state.section);
+}
+
+function setShow(show) {
+  state.show = show;
+  state.shown = PAGE;
+  document.querySelectorAll("[data-show]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.show === show)));
+  renderBrowse();
+}
+
+// ---- start ----
+
+async function start() {
+  const me = await getJSON("/api/translations/me", null);
+  if (!me || !me.ok) { status((me && me.error) || "Couldn't reach the server. Please reload."); return; }
+  if (!me.user) { $("td-out").hidden = false; return; }
+  state.me = me;
+  const [langs, index, entries] = await Promise.all([
+    getJSON("/translate/languages.json", { languages: [] }),
+    getJSON("/translate/data/en/index.json", { sections: [] }),
+    getJSON("/translate/data/en/entries.json", []),
+  ]);
+  state.langs = langs.languages || [];
+  state.sections = index.sections || [];
+  state.entries = entries;
+  state.entryOrder = new Map(entries.map(([k], i) => [k, i]));
+  state.entrySection = Object.fromEntries(entries);
+  state.entrySection.ui = "ui";
+  state.uiTotal = (state.sections.find(s => s.id === "ui") || {}).count || 0;
+  if (!state.langs.length || !state.sections.length) { status("The translation data isn't here yet. Please try again later."); return; }
+  $("td-in").hidden = false;
+  $("td-who").textContent = me.user.display_name || me.user.email || "you";
+
+  // Your languages first, then the rest.
+  const pick = $("td-locale");
+  const yours = state.langs.filter(l => me.languages.includes(l.locale));
+  const others = state.langs.filter(l => !me.languages.includes(l.locale));
+  const group = (label, list) => list.length ? el("optgroup", { label }, ...list.map(l =>
+    el("option", { value: l.locale, text: `${l.name} (${l.englishName})` }))) : null;
+  pick.replaceChildren(...[group("Your languages", yours), group(yours.length ? "Other languages" : "Languages", others)].filter(Boolean));
+  const params = new URLSearchParams(location.search);
+  const wanted = [params.get("lang"), recall("locale"), yours[0]?.locale].find(l => l && state.langs.some(x => x.locale === l));
+  pick.value = wanted || state.langs[0].locale;
+
+  const sel = $("td-section");
+  sel.replaceChildren(...state.sections.map(s => {
+    const same = state.sections.filter(x => x.label === s.label);
+    const n = same.length > 1 ? " " + (same.indexOf(s) + 1) : "";
+    return el("option", { value: s.id, text: `${s.label}${n} (${fmt(s.count)} lines)` });
+  }));
+  const section = [params.get("section"), recall("section")].find(s => s && state.sections.some(x => x.id === s));
+  sel.value = section || state.sections[0].id;
+  state.section = sel.value;
+  if (params.get("q")) $("td-q").value = state.q = params.get("q");
+  // Links to a section or a search open Browse; otherwise Needs work (or what you used last).
+  state.mode = params.get("section") || params.get("q") ? "browse" : (recall("mode") === "browse" ? "browse" : "work");
+  if (CATS.includes(params.get("cat"))) state.cat = params.get("cat");
+  document.querySelectorAll("[data-mode]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.mode === state.mode)));
+  $("td-work").hidden = state.mode !== "work";
+  $("td-browse").hidden = state.mode !== "browse";
+  state.shown = state.mode === "work" ? WORK_PAGE : PAGE;
+
+  pick.addEventListener("change", () => { state.cat = null; state.shown = state.mode === "work" ? WORK_PAGE : PAGE; loadLanguage(pick.value); });
+  sel.addEventListener("change", () => loadSection(sel.value));
+  document.querySelectorAll("[data-mode]").forEach(b => b.addEventListener("click", () => setMode(b.dataset.mode)));
+  document.querySelectorAll("[data-cat]").forEach(b => b.addEventListener("click", () => {
+    state.cat = b.dataset.cat;
+    state.shown = WORK_PAGE;
+    renderWork();
+  }));
+  document.querySelectorAll("[data-show]").forEach(b => b.addEventListener("click", () => setShow(b.dataset.show)));
+  let qTimer = null;
+  $("td-q").addEventListener("input", () => {
+    clearTimeout(qTimer);
+    qTimer = setTimeout(() => { state.q = $("td-q").value.trim(); state.shown = PAGE; renderBrowse(); }, 250);
+  });
+  $("td-more").addEventListener("click", () => { state.shown += state.mode === "work" ? WORK_PAGE : PAGE; render(); });
+  await loadLanguage(pick.value);
+}
+
+start();
+</script>
+</body>
+</html>

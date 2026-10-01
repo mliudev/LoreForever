@@ -1,0 +1,81 @@
+{
+ "key": "item:glyphic-memorandum",
+ "type": "item",
+ "name": "Glyphic Memorandum",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Glyphic Memorandum",
+  "quests": [
+   "quest:3114"
+  ]
+ },
+ "summary": "The Glyphic Memorandum is a written notice delivered to novice mages arriving in Coldridge Valley. Penned on behalf of the mage trainer Marryk Nurribit, it directs fledgling spellcasters indoors to begin their formal arcane instruction.",
+ "sections": [
+  {
+   "title": "A Summons to Anvilmar",
+   "body": "Novice spellcasters setting out into the bitter frost of Coldridge Valley receive this brief missive after completing their initial tasks. Authored by the local mage trainer Marryk Nurribit, the memorandum summons young practitioners into the warmth of Anvilmar. Rather than stern academic dogma, Marryk's guidance is informal and blunt: learn your incantations, set aside coin for training and tavern ale, and steer well clear of the irradiated ruin of Gnomeregan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Glyphic Memorandum?",
+   "aliases": [
+    "glyphic memo",
+    "mage note",
+    "what is glyphic memorandum"
+   ],
+   "answer": "It is a short written summons provided to newly arrived mages in Coldridge Valley, instructing them to seek out the local arcane trainer inside Anvilmar."
+  },
+  {
+   "q": "Who wrote this memorandum?",
+   "aliases": [
+    "who wrote it",
+    "who sent glyphic memorandum",
+    "author of note"
+   ],
+   "answer": "The note originates from Marryk Nurribit, a gnome mage trainer stationed within the halls of Anvilmar in Dun Morogh."
+  },
+  {
+   "q": "What advice does the trainer give when answering the memorandum?",
+   "aliases": [
+    "marryk advice",
+    "what does marryk say"
+   ],
+   "answer": "Upon presenting the note, Marryk reminds the novice to practice restraint, save money for spells and tavern ale, and strictly avoid the radioactive halls of Gnomeregan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For budding mages venturing through Dun Morogh, this note marks the formal beginning of their arcane apprenticeship under Marryk Nurribit."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnome mages starting their journeys in exile are reminded by their trainer to focus on their studies and stay away from their lost homeland of Gnomeregan."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "glyphic memorandum",
+  "mage",
+  "marryk nurribit"
+ ],
+ "related": [
+  "quest:3114",
+  "npc:marryk-nurribit",
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "zone:dunmorogh",
+  "zone:gnomeregan",
+  "topic:mage",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Glyphic Memorandum",
+  "Glyphic Memorandum (quest)"
+ ]
+}

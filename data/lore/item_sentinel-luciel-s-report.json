@@ -1,0 +1,95 @@
+{
+ "key": "item:sentinel-luciel-s-report",
+ "type": "item",
+ "name": "Sentinel Luciel's Report",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Sentinel Luciel's Report",
+  "quests": [
+   "quest:9521"
+  ]
+ },
+ "summary": "Sentinel Luciel's Report is a dispatch sent from Forest Song detailing the escalating conflict with the Warsong Outriders. Carried southward to Silverwing Grove, it informs night elf leadership of the growing destruction across Ashenvale.",
+ "sections": [
+  {
+   "title": "Frontline Intelligence",
+   "body": "Written by Sentinel Luciel at the outpost of Forest Song, this sealed missive contains up-to-date observations on the nearby Warsong Lumber Camp and the Horde forces operating in eastern Ashenvale. Unable to abandon her post, Luciel relies on allied messengers to carry the dispatch across the forest to Sentinel Farsong, who coordinates the broader defense from Silverwing Grove near the border of the Barrens.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Dire Assessment",
+   "body": "The report confirms grim news for the Silverwing Sentinels: rather than pulling back under pressure, the Horde has redoubled its logging and combat efforts. The contents lead Farsong to conclude that the invaders intend to inflict maximum ruin upon the woodlands, cementing the night elves' resolve to escalate their military efforts across the region.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote Sentinel Luciel's Report?",
+   "aliases": [
+    "author of luciel report",
+    "who wrote this report",
+    "sentinel luciel"
+   ],
+   "answer": "The report is written by Sentinel Luciel, a night elf soldier stationed at Forest Song in eastern Ashenvale who keeps watch over local Horde logging movements."
+  },
+  {
+   "q": "Who is the report addressed to?",
+   "aliases": [
+    "who gets the report",
+    "deliver report to",
+    "report recipient"
+   ],
+   "answer": "It is addressed to Sentinel Farsong, who directs night elf operations against the Warsong Clan from Silverwing Grove in southern Ashenvale, near the border of the Barrens."
+  },
+  {
+   "q": "What information does the report contain?",
+   "aliases": [
+    "report contents",
+    "what does the report say",
+    "luciel report details"
+   ],
+   "answer": "The document details enemy activity at the Warsong Lumber Camp. It confirms that the Horde is intensifying its destructive harvesting of timber rather than retreating, threatening the survival of the ancestral night elf forest."
+  },
+  {
+   "q": "Why didn't Sentinel Luciel deliver it herself?",
+   "aliases": [
+    "why carry luciel report",
+    "why does luciel need help"
+   ],
+   "answer": "Luciel is already behind schedule in updating her commander and cannot leave her defensive post at Forest Song unattended, prompting her to trust an allied courier with the mission."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves, this dispatch underscores the sacred duty of the Sentinels to halt the logging and desecration of Ashenvale's ancient woodlands."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The document represents vital military communication linking isolated Alliance outposts resisting aggressive Horde expansion along the frontier."
+  }
+ ],
+ "keywords": [
+  "ashenvale report",
+  "forest song",
+  "luciel's report",
+  "sentinel farsong",
+  "sentinel luciel",
+  "silverwing grove",
+  "warsong lumber camp"
+ ],
+ "related": [
+  "npc:sentinel-farsong",
+  "subzone:forest-song",
+  "subzone:silverwing-grove",
+  "subzone:warsong-lumber-camp",
+  "zone:ashenvale",
+  "topic:horde",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Sentinel Luciel's Report",
+  "Report from the Northern Front (BC Classic)"
+ ]
+}

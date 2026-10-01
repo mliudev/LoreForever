@@ -1,0 +1,91 @@
+{
+ "key": "item:bottle-of-zombie-juice",
+ "type": "item",
+ "name": "Bottle of Zombie Juice",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Bottle of Zombie Juice",
+  "quests": [
+   "quest:159"
+  ]
+ },
+ "summary": "A Bottle of Zombie Juice is a potent, foul liquor brewed from the pungent rot blossom found in Duskwood. Procured from the tavern in Darkshire, it is supposedly requested by the reclusive hermit Abercrombie to ward off the chill of the gloomy woods.",
+ "sections": [
+  {
+   "title": "A Pungent Concoction",
+   "body": "Brewed from rot blossoms gathered among the shadowed soils of Duskwood, Zombie Juice is a remarkably harsh brew. The bartender who provides it warns that the drink is potent enough to raise the dead. While ordinary folk steer clear of such vile distillations, the eccentric hermit Abercrombie claims it is the only thing capable of keeping him warm on the damp, cold nights out by his lonely shack.",
+   "spoiler": 0
+  },
+  {
+   "title": "Questionable Thirst",
+   "body": "Though Abercrombie insists the liquor serves merely as a fiery nightcap, his slip of the tongue upon receiving the bottle\u2014nearly praising the courier's 'foolishness' rather than kindness\u2014hints that the concoction might serve a darker, more sinister utility than simple tavern warmth.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Zombie Juice made from?",
+   "aliases": [
+    "zombie juice ingredients",
+    "what is in zombie juice"
+   ],
+   "answer": "Zombie Juice is a distilled liquor made from rot blossoms, a foul-smelling flora found growing in the corrupted soils of Duskwood."
+  },
+  {
+   "q": "Who wants this bottle delivered?",
+   "aliases": [
+    "who needs zombie juice",
+    "who is zombie juice for",
+    "zombie juice delivery"
+   ],
+   "answer": "The bottle is requested by Abercrombie, an eccentric hermit who lives in a solitary shack located along the western borders of Duskwood."
+  },
+  {
+   "q": "Why does Abercrombie want Zombie Juice?",
+   "aliases": [
+    "why does abercrombie drink it",
+    "abercrombie zombie juice reason"
+   ],
+   "answer": "Abercrombie claims he needs the fiery drink to keep his old bones warm during the bitter, dark nights of Duskwood, though his strange demeanor suggests he may have other uses for such a potent concoction."
+  },
+  {
+   "q": "Can players drink the Bottle of Zombie Juice?",
+   "aliases": [
+    "can i drink zombie juice",
+    "is zombie juice consumable"
+   ],
+   "answer": "No, this specific bottle is a quest item meant strictly for delivery to Abercrombie, and carrying it safely to his shack is your primary task."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Herbalists familiar with Duskwood recognize rot blossom as an ingredient unfit for standard restorative tonics, making its distillation into a drink all the more unsettling."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Running errands between Darkshire and the shadowy wilderness helps keep the troubled inhabitants of Duskwood connected, even when the tasks seem dubious."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "bottle of zombie juice",
+  "darkshire",
+  "duskwood",
+  "juice delivery",
+  "rot blossom",
+  "zombie juice"
+ ],
+ "related": [
+  "quest:159",
+  "quest:158",
+  "npc:abercrombie",
+  "item:rot-blossom",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Bottle of Zombie Juice",
+  "Juice Delivery (Classic)"
+ ]
+}

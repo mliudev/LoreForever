@@ -1,0 +1,89 @@
+{
+ "key": "item:prairie-wolf-heart",
+ "type": "item",
+ "name": "Prairie Wolf Heart",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Prairie Wolf Heart",
+  "quests": [
+   "quest:766"
+  ]
+ },
+ "summary": "A Prairie Wolf Heart is a vital organ harvested from the wolves roaming the grasslands of Mulgore. It serves as an essential ingredient in an urgent folk remedy prepared by Maur Raincaller in Bloodhoof Village to counteract venomous infection.",
+ "sections": [
+  {
+   "title": "A Remedy for a Venomous Bite",
+   "body": "The wolves of the plains are fierce predators, hardy and persistent across the sweeping grasses of Mulgore. Their hearts are sought out by Maur Raincaller, a tauren residing in Bloodhoof Village who fell victim to the legendary plainstrider known as Mazzranache. Struck by the creature's virulent, fever-inducing venom, Maur relies on traditional plains medicine to halt the spreading poison. Alongside other potent reagents like cougar bone and bird gizzard, the vital essence of a freshly slain prairie wolf provides the cleansing properties needed to concoct a cure before delirium proves fatal.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Prairie Wolf Heart used for?",
+   "aliases": [
+    "wolf heart use",
+    "why get wolf heart",
+    "prairie wolf heart purpose"
+   ],
+   "answer": "It is gathered for Maur Raincaller in Bloodhoof Village. Maur needs it alongside several other animal parts to brew a potent folk medicine to treat a venomous bite inflicted by the notorious strider Mazzranache."
+  },
+  {
+   "q": "Where does one obtain a Prairie Wolf Heart?",
+   "aliases": [
+    "wolf heart location",
+    "who drops wolf heart",
+    "how to find prairie wolf heart"
+   ],
+   "answer": "It is taken from the bodies of prairie wolves, prairie wolf alphas, and prairie stalkers found hunting across the rolling plains of Mulgore."
+  },
+  {
+   "q": "Why does Maur Raincaller need animal organs to treat his wound?",
+   "aliases": [
+    "why wolf heart for medicine",
+    "maur remedy"
+   ],
+   "answer": "Mazzranache inflicts a terrible, infected bite that causes fever and delirium. Maur uses traditional tauren plains remedies composed of potent reagents\u2014wolf heart, cougar femur, plainstrider scale, and swoop gizzard\u2014to cleanse the infection before it proves lethal."
+  },
+  {
+   "q": "Can any wolf heart be used for the remedy?",
+   "aliases": [
+    "any wolf heart",
+    "which wolves drop it"
+   ],
+   "answer": "Only the hearts of the prairie wolves native to Mulgore have the specific vitality and properties required by Maur Raincaller's traditional plains recipe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Using harvested animal parts to concoct survival cures reflects the pragmatic, earth-bound traditions of the tauren across Mulgore's wilds."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking down specific wolf packs on the plains demonstrates an early understanding of the quarry and beast ecology in Mulgore."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "maur raincaller",
+  "mazzranache",
+  "mulgore",
+  "prairie stalker",
+  "prairie wolf heart",
+  "wolf heart"
+ ],
+ "related": [
+  "npc:maur-raincaller",
+  "quest:766",
+  "subzone:bloodhoof-village",
+  "zone:mulgore",
+  "item:flatland-cougar-femur",
+  "item:plainstrider-scale",
+  "item:swoop-gizzard"
+ ],
+ "attribution": [
+  "Prairie Wolf Heart",
+  "Mazzranache (Classic)"
+ ]
+}

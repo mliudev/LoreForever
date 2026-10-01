@@ -1,0 +1,98 @@
+{
+ "key": "item:venomtail-antidote",
+ "type": "item",
+ "name": "Venomtail Antidote",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Venomtail Antidote",
+  "quests": [
+   "quest:812"
+  ]
+ },
+ "summary": "Venomtail Antidote is a specialized concoction brewed to neutralize the lethal toxins of Durotar's venomtail scorpids. Prepared by Kor'ghan in Orgrimmar, it serves as an urgent remedy for Rhinag, an afflicted troll scout stranded near the northwestern border of Durotar.",
+ "sections": [
+  {
+   "title": "A Race Against the Venom",
+   "body": "The arid expanse of Durotar crawls with dangerous wildlife, none more hazardous to careless wanderers than the local scorpids. A deep sting from a venomtail delivers a virulent poison capable of killing an adult warrior within an hour. When the troll Rhinag found himself envenomed far from aid near the northwestern border, his only survival lay in obtaining a specialized remedy from Kor'ghan, an apothecary sequestered deep within Orgrimmar's subterranean Cleft of Shadow.",
+   "spoiler": 0
+  },
+  {
+   "title": "Kor'ghan's Cure",
+   "body": "Securing the antidote requires navigating the underbelly of Orgrimmar to locate Kor'ghan. Knowledgeable in desert toxins and harsh remedies, Kor'ghan prepares the vial to purge the venom before it turns fatal. Once delivered, the draught halts the venom's progression, sparing Rhinag a humiliating death in the wilderness\u2014though Kor'ghan demands further trials and hunts from the scout to atone for his carelessness.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Venomtail Antidote used for?",
+   "aliases": [
+    "antidote purpose",
+    "who needs venomtail antidote",
+    "what does venomtail antidote do"
+   ],
+   "answer": "The antidote neutralizes the deadly venom inflicted by venomtail scorpids. It is specifically sought to cure Rhinag, an envenomed troll stranded along the northwestern border of Durotar who has only a short time left to live."
+  },
+  {
+   "q": "Who brews the Venomtail Antidote?",
+   "aliases": [
+    "who makes the antidote",
+    "where to get venomtail antidote",
+    "kor'ghan antidote"
+   ],
+   "answer": "The antidote is prepared by Kor'ghan, who resides in the Cleft of Shadow beneath Orgrimmar. He understands the potency of Durotar's scorpids and knows how to counteract their stings."
+  },
+  {
+   "q": "Why is time so critical when obtaining the antidote?",
+   "aliases": [
+    "why hurry antidote",
+    "how long does rhinag have",
+    "venomtail poison timer"
+   ],
+   "answer": "Venomtail poison works rapidly through the blood, leaving Rhinag less than an hour to live from the moment he is stung. Securing the antidote and rushing it back across Durotar is the only way to prevent his death."
+  },
+  {
+   "q": "Why is Rhinag hesitant to seek help in Sen'jin Village?",
+   "aliases": [
+    "why not go to sen'jin",
+    "rhinag pride",
+    "why hide in durotar"
+   ],
+   "answer": "Rhinag admits that falling victim to a common scorpid is deeply embarrassing. He fears returning to Sen'jin Village in his weakened state, believing his kin would mock his carelessness and stupidity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "Troll pride runs deep, and Rhinag would rather risk dying alone in the wastes than face the open mockery of Sen'jin Village for being bested by a scorpid."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Even within the heart of Durotar, the unforgiving desert tests young Horde adventurers, requiring swift coordination between wilderness scouts and city apothecaries."
+  }
+ ],
+ "keywords": [
+  "antidote",
+  "cleft of shadow",
+  "cure",
+  "durotar",
+  "kor'ghan",
+  "orgrimmar",
+  "rhinag",
+  "scorpid",
+  "venomtail"
+ ],
+ "related": [
+  "quest:812",
+  "quest:813",
+  "npc:rhinag",
+  "npc:kor-ghan",
+  "subzone:cleft-of-shadow",
+  "zone:durotar",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Venomtail Antidote",
+  "Need for a Cure"
+ ]
+}

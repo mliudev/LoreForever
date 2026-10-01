@@ -1,0 +1,89 @@
+{
+ "key": "item:lurker-venom",
+ "type": "item",
+ "name": "Lurker Venom",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Lurker Venom",
+  "quests": [
+   "quest:278"
+  ]
+ },
+ "summary": "Lurker Venom is a potent natural toxin harvested from the predatory spiders that prowl the rocky hills and woods of Loch Modan. Dwarven defenders require this caustic venom as a key ingredient to prepare an alchemical neutralizing compound against Dark Iron sabotage.",
+ "sections": [
+  {
+   "title": "A Volatile Reagent",
+   "body": "The hills and crags surrounding Loch Modan crawl with predatory arachnids\u2014ranging from common wood lurkers to the infamous matriarch Shanda the Spinner. While their bites pose a constant hazard to mountaineers and travelers, Chief Engineer Hinderweir discovered an unconventional use for their virulent poison. Combined with rare minerals and tears harvested from the loch's crocolisks, Lurker Venom forms a reactive solvent capable of disarming complex Dark Iron explosives.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Lurker Venom come from?",
+   "aliases": [
+    "how to get lurker venom",
+    "who drops lurker venom",
+    "where find lurker venom"
+   ],
+   "answer": "It is extracted from the various lurker spiders native to Loch Modan, including Cliff Lurkers, Forest Lurkers, Wood Lurkers, and their brood matriarch Shanda the Spinner."
+  },
+  {
+   "q": "What is Lurker Venom used for?",
+   "aliases": [
+    "why do i need lurker venom",
+    "lurker venom purpose",
+    "what does hinderweir do with venom"
+   ],
+   "answer": "Chief Engineer Hinderweir uses the venom as part of a specialized chemical mixture to neutralize and defuse explosive devices deployed by Dark Iron infiltrators around the Stonewrought Dam."
+  },
+  {
+   "q": "Why use venom to defuse an explosive?",
+   "aliases": [
+    "why spider poison for bombs",
+    "how does venom stop dark iron bombs"
+   ],
+   "answer": "Dwarven engineers often rely on reactive, acidic, or caustic mixtures to dissolve delicate mechanical components or neutralize unstable blasting powders without detonating them."
+  },
+  {
+   "q": "Is Shanda the Spinner the only source?",
+   "aliases": [
+    "do i have to kill shanda",
+    "shanda lurker venom"
+   ],
+   "answer": "No. While Shanda carries the venom, any of the common wild lurker spiders inhabiting the woodlands and rocky cliffs of Loch Modan can yield it."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Using organic toxins to disable hostile ordinance showcases an improvised, reactive branch of dwarven engineering under battlefield conditions."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Mountaineers and defenders of Loch Modan routinely use local wilderness hazards to protect crucial Khaz Modan infrastructure against the Dark Iron clan."
+  }
+ ],
+ "keywords": [
+  "chief engineer hinderweir",
+  "cliff lurker",
+  "loch modan",
+  "lurker venom",
+  "shanda the spinner",
+  "spider venom",
+  "stonewrought dam",
+  "wood lurker"
+ ],
+ "related": [
+  "quest:161",
+  "npc:shanda",
+  "zone:lochmodan",
+  "item:crocolisk-tear-classic",
+  "item:mo-grosh-crystal",
+  "subzone:the-loch"
+ ],
+ "attribution": [
+  "Lurker Venom",
+  "A Dark Threat Looms (5)"
+ ]
+}

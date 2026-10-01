@@ -1,0 +1,91 @@
+{
+ "key": "item:etched-parchment",
+ "type": "item",
+ "name": "Etched Parchment",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Etched Parchment",
+  "quests": [
+   "quest:3087"
+  ]
+ },
+ "summary": "The Etched Parchment is a written summons delivered to novice hunters training within Durotar's Valley of Trials. Handed over by Gornek, it directs aspiring wilderness stalkers to seek instruction from the troll trainer Jen'shan.",
+ "sections": [
+  {
+   "title": "A Summons to the Hunt",
+   "body": "Young orcs and Darkspear trolls seeking their place among the Horde begin their rites in the arid basin of the Valley of Trials. While they prove themselves against the local vermin, Gornek serves as a watchful overseer who guides recruits toward their calling. For those destined to wield bow, gun, and fang, Gornek passes along this etched parchment. It bears a direct message from Jen'shan, a skilled hunter trainer seeking fresh eyes and steady hands.",
+   "spoiler": 0
+  },
+  {
+   "title": "The First Lesson",
+   "body": "Carrying the parchment to Jen'shan marks the true beginning of a hunter's training in Durotar. Jen'shan emphasizes that walking the wild path is no easy task, requiring just as much dedication to master the beasts of the desert as an arcanist devotes to magic or a shaman gives to the spirits. Reading the parchment and answering her call introduces novitiates to proper marksmanship and wilderness survival.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Etched Parchment for?",
+   "aliases": [
+    "etched parchment use",
+    "what does etched parchment do"
+   ],
+   "answer": "It is an introductory summons intended to guide newly arrived hunters in the Valley of Trials to their class trainer, Jen'shan."
+  },
+  {
+   "q": "Who hands out this parchment?",
+   "aliases": [
+    "who gives etched parchment",
+    "etched parchment questgiver"
+   ],
+   "answer": "Gornek, the overseer stationed near the Den in the Valley of Trials, presents the note to young hunters upon their arrival."
+  },
+  {
+   "q": "Who wrote the Etched Parchment?",
+   "aliases": [
+    "who sent etched parchment",
+    "parchment author"
+   ],
+   "answer": "The message comes from Jen'shan, a troll hunter trainer stationed within the Valley of Trials who is eager to train new marksmen."
+  },
+  {
+   "q": "Where can Jen'shan be found?",
+   "aliases": [
+    "where is jenshan",
+    "find jenshan"
+   ],
+   "answer": "Jen'shan is located in the Valley of Trials in Durotar, waiting near the training grounds to instruct novice orc and troll hunters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This missive represents a hunter's very first rite of passage in Durotar, formally connecting them with Jen'shan to begin learning tracking, ranged weaponry, and survival."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Every young warrior of the Horde must hone their craft; for hunters, this parchment marks their initial step toward feeding their clan and guarding Durotar's borders."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "etched parchment",
+  "gornek",
+  "hunter",
+  "jen'shan",
+  "trainer",
+  "valley of trials"
+ ],
+ "related": [
+  "quest:3087",
+  "npc:gornek",
+  "npc:jen-shan",
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "topic:hunter"
+ ],
+ "attribution": [
+  "Etched Parchment",
+  "Etched Parchment (Classic)"
+ ]
+}

@@ -16,7 +16,7 @@
  "sections": [
   {
    "title": "The Fallen Kingdom",
-   "body": "During the Second War, Alterac was one of the Seven Kingdoms of humanity, but King Aidan Perenolde betrayed the Alliance of Lordaeron to side with the Old Horde, hoping to preserve his realm. His treachery was discovered and stamped out, fracturing the nation into disputed borderlands. Following the kingdom's dissolution and the horrors of the Third War, Alterac's grand stone capital was reduced to rubble. Today, the Ruins of Alterac are occupied by the brutal Crushridge ogres, led by Mug'thol, while the surviving human nobility organized into the Syndicate, a vicious criminal syndicate fighting to reclaim their lost estates by force.",
+   "body": "During the Second War, Alterac was one of the Seven Kingdoms of humanity, but King Aiden Perenolde betrayed the Alliance of Lordaeron to side with the Old Horde, hoping to preserve his realm. His treachery was discovered and stamped out, fracturing the nation into disputed borderlands. Following the kingdom's dissolution and the horrors of the Third War, Alterac's grand stone capital was reduced to rubble. Today, the Ruins of Alterac are occupied by the brutal Crushridge ogres, led by Mug'thol, while the surviving human nobility organized into the Syndicate, a vicious criminal syndicate fighting to reclaim their lost estates by force.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "what happened to perenolde",
     "alterac kingdom lore"
    ],
-   "answer": "During the Second War, King Aidan Perenolde betrayed the Alliance to aid the Horde. Lordaeron and Stromgarde crushed the treason, occupying the land. When the Scourge tore through Lordaeron in the Third War, what remained of Alterac collapsed into anarchy, leaving its ruined capital to the Crushridge ogres."
+   "answer": "During the Second War, King Aiden Perenolde betrayed the Alliance to aid the Horde. Lordaeron and Stromgarde crushed the treason, occupying the land. When the Scourge tore through Lordaeron in the Third War, what remained of Alterac collapsed into anarchy, leaving its ruined capital to the Crushridge ogres."
   },
   {
    "q": "Who are the Syndicate?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "class:Mage",
-   "text": "The perimeter of the Dalaran Crater hums with residual arcane currents and busy Kirin Tor mages, serving as a solemn pilgrimage to the devastated heart of human spellcraft."
+   "text": "The perimeter of Dalaran's shielded ruins hums with residual arcane currents and busy Kirin Tor mages, serving as a solemn pilgrimage to the devastated heart of human spellcraft."
   },
   {
    "target": "faction:Alliance",

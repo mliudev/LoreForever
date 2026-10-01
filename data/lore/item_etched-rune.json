@@ -1,0 +1,81 @@
+{
+ "key": "item:etched-rune",
+ "type": "item",
+ "name": "Etched Rune",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Etched Rune",
+  "quests": [
+   "quest:3108"
+  ]
+ },
+ "summary": "The Etched Rune is a carved stone tablet given to aspiring dwarven hunters in Coldridge Valley. It serves as an invitation from the hunter trainer Thorgas Grimson, directing fledglings to seek him out within Anvilmar to begin their formal wilderness instruction.",
+ "sections": [
+  {
+   "title": "Call of the Wild",
+   "body": "Carved with specific dwarven runes, this small stone tablet is passed along to novices who demonstrate potential out in the snowdrifts of Coldridge Valley. Sent by the mountaineer and hunter trainer Thorgas Grimson, the rune encourages fledgling trackers to pause their outdoor tasks and report to Anvilmar. Reading the stone marks a hunter's first step away from basic survival and toward understanding the deeper craft of the wild\u2014learning to respect the beasts of Dun Morogh, track mountain predators, care for ranged weaponry, and endure the brutal elements.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Etched Rune?",
+   "aliases": [
+    "what does etched rune do",
+    "etched rune use",
+    "why do i have etched rune"
+   ],
+   "answer": "The rune functions as an instructional summons for dwarven hunters. Reading the markings on the tablet instructs the bearer to seek out Thorgas Grimson inside the warmth of Anvilmar to receive formal guidance in the hunter's craft."
+  },
+  {
+   "q": "Who wrote or sent the Etched Rune?",
+   "aliases": [
+    "who sent etched rune",
+    "who gave me this rune",
+    "etched rune author"
+   ],
+   "answer": "The rune was sent by Thorgas Grimson, the local hunter trainer stationed in Anvilmar. He passes these carved stones to novice outdoorsmen operating around Coldridge Valley who show a knack for surviving the frozen wilderness."
+  },
+  {
+   "q": "Where do I take the Etched Rune once I have read it?",
+   "aliases": [
+    "where do i bring etched rune",
+    "turn in etched rune",
+    "thorgas grimson location"
+   ],
+   "answer": "Take the rune inside the main lodge of Anvilmar in Coldridge Valley. You will find Thorgas Grimson standing near the forge and training halls, ready to teach you tracking, weapon maintenance, and the traditions of dwarven hunting."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The rune marks your first formal summons into the ancient craft of dwarven hunting, emphasizing tracking, respecting your animal companions, and surviving harsh wilderness on wits alone."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Carved stones and runes are traditional dwarven means of passing down trade craft and urgent instructions, even for hardy wanderers in the snows of Coldridge Valley."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "dwarf hunter",
+  "etched rune",
+  "hunter training",
+  "thorgas grimson"
+ ],
+ "related": [
+  "quest:3108",
+  "npc:thorgas-grimson",
+  "topic:hunter",
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Etched Rune",
+  "Etched Rune (Classic)"
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "key": "quest:3521",
+ "type": "quest",
+ "name": "Iverron's Antidote",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   3521
+  ],
+  "level": "4",
+  "faction": "Alliance",
+  "start": "Dirania Silvershine",
+  "end": "",
+  "previous": "A Friend in Need (Classic)",
+  "next": "Iverron's Antidote (2)",
+  "wiki": "Iverron's Antidote (Classic)",
+  "chain": []
+ },
+ "summary": "Iverron's Antidote is an urgent task in Shadowglen to save a poisoned night elf scout. By gathering wild mushrooms, lilies, and spider ichor, adventurers help Dirania Silvershine brew a remedy before the venom takes full hold.",
+ "sections": [
+  {
+   "title": "A Race Against Venom",
+   "body": "While scouting the boughs of Shadowglen, young Iverron fell victim to the poisonous fangs of the local Webwood spiders. Collapsed and dying, his survival depends entirely on the herbal knowledge of Dirania Silvershine at Aldrassil. With the youth fading fast, she must quickly prepare a specialized concoction to neutralize the aggressive venom coursing through his blood.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reagents of Shadowglen",
+   "body": "Dirania's recipe relies on the restorative flora of Teldrassil balanced against the venom itself. Hyacinth mushrooms, favored by the thieving grell to the south, provide an earthy base, while delicate Moonpetal lilies gathered from tranquil forest pools offer purifying qualities. To finish the draft, a sample of Webwood ichor must be extracted directly from the spiders prowling near Shadowthread Cave to tailor the cure to their specific poison.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Iverron?",
+   "aliases": [
+    "iverron",
+    "who is iverron",
+    "who poisoned"
+   ],
+   "answer": "Iverron is a young night elf in Shadowglen who ventured too close to the hostile Webwood spiders and was struck down by their lethal venom."
+  },
+  {
+   "q": "Who gives the quest Iverron's Antidote?",
+   "aliases": [
+    "quest giver",
+    "dirania",
+    "dirania silvershine"
+   ],
+   "answer": "Dirania Silvershine, an attendant stationed outside the great boughs of Aldrassil in Shadowglen, provides the quest and concocts the remedy."
+  },
+  {
+   "q": "Why does the antidote need spider ichor?",
+   "aliases": [
+    "why spider ichor",
+    "webwood ichor use",
+    "spider venom cure"
+   ],
+   "answer": "In traditional herbal remedies, introducing a component of the creature's own bodily fluids or venom helps counteract the specific toxins inflicting the victim."
+  },
+  {
+   "q": "Where are Hyacinth Mushrooms found?",
+   "aliases": [
+    "where to find hyacinth mushrooms",
+    "hyacinth mushroom location"
+   ],
+   "answer": "Hyacinth mushrooms grow at the bases of large trees throughout Shadowglen and can also be pried from the clutches of grell who hoard them to the south."
+  },
+  {
+   "q": "Where do Moonpetal Lilies grow?",
+   "aliases": [
+    "moonpetal lily location",
+    "where are lilies"
+   ],
+   "answer": "Moonpetal lilies bloom along the edges of the quiet, fresh-water pools tucked away on the northwestern side of Aldrassil."
+  },
+  {
+   "q": "Where are the Webwood spiders located?",
+   "aliases": [
+    "webwood spider location",
+    "spider location shadowglen"
+   ],
+   "answer": "Webwood spiders dwell in the northern woods of Shadowglen, especially around the dark entrance of Shadowthread Cave."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Tending to fallen kin is sacred duty in Shadowglen, where every defender is needed to protect the newly budding World Tree."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Crafting remedies from local flora and neutralizing natural poisons reflects the fundamental balance druids strive to maintain within the wild."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Gathering Moonpetal lilies and Hyacinth mushrooms showcases how wild plants of Teldrassil possess potent medicinal properties when handled with care."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "antidote",
+  "dirania silvershine",
+  "hyacinth mushroom",
+  "iverron",
+  "moonpetal lily",
+  "shadowglen",
+  "shadowthread cave",
+  "webwood ichor"
+ ],
+ "related": [
+  "npc:iverron",
+  "npc:dirania-silvershine",
+  "subzone:shadowglen",
+  "subzone:aldrassil",
+  "subzone:shadowthread-cave",
+  "zone:teldrassil",
+  "topic:elune"
+ ],
+ "attribution": [
+  "Iverron's Antidote (Classic)"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "key": "item:vial-of-spider-venom",
+ "type": "item",
+ "name": "Vial of Spider Venom",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Vial of Spider Venom",
+  "quests": [
+   "quest:101"
+  ]
+ },
+ "summary": "A Vial of Spider Venom contains the potent, necrotic poison harvested from the arachnids that infest the darkened woods of Duskwood. Madame Eva of Darkshire uses this dangerous extract alongside undead remains to craft protective wards against incoming harm.",
+ "sections": [
+  {
+   "title": "Duskwood's Venomous Threat",
+   "body": "The shadowed thickets of Duskwood harbor monstrous arachnids\u2014from skittering pygmy venom webs and green recluses to black widows and the notorious Naraxis. These creatures pump a foul, potent poison through their fangs, potent enough to paralyze travelers and decay flesh. Adventurers brave enough to slay these horrors can extract intact vials of the viscous fluid.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crafting the Totem of Infliction",
+   "body": "In Darkshire, the fortune teller Madame Eva perceives ominous portents for travelers stepping out into the dark world. To craft a ward of retribution, she requires five vials of this raw venom, combined with ghoul fangs and skeleton fingers. Channeled through her craft, the venom\u2019s predatory, biting nature is inverted into the Totem of Infliction, turning harm back upon anyone who attacks its bearer.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this spider venom come from?",
+   "aliases": [
+    "spider venom source",
+    "who drops spider venom",
+    "where to get spider venom duskwood"
+   ],
+   "answer": "It is harvested from the various predatory spiders lurking throughout Duskwood, including Venom Web Spiders, Carrion Recluses, Green Recluses, Black Widow Hatchlings, and the monstrous broodmother Naraxis."
+  },
+  {
+   "q": "Who wants Vials of Spider Venom?",
+   "aliases": [
+    "who needs spider venom",
+    "spider venom duskwood turn in",
+    "madame eva venom"
+   ],
+   "answer": "Madame Eva, the resident seer in Darkshire, requests five vials of spider venom along with skeletal fingers and ghoul fangs to fashion a magical ward."
+  },
+  {
+   "q": "What is the venom used to craft?",
+   "aliases": [
+    "what does eva make",
+    "totem of infliction materials",
+    "why collect spider venom"
+   ],
+   "answer": "Madame Eva blends the venom with undead remains to enchant a Totem of Infliction, a defensive talisman designed to magically inflict damage upon attackers."
+  },
+  {
+   "q": "Why does Madame Eva need dangerous venom for a protective ward?",
+   "aliases": [
+    "why venom for ward",
+    "eva totem ingredients lore"
+   ],
+   "answer": "Eva's craft often employs sympathetic magic, using the deadly, retaliatory qualities of the forest's predators and undead to fashion a charm that returns violence back upon the aggressor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "While rogues are adept at brewing and coating blades with subtle poisons, this raw, unfiltered spider venom is destined for mystic shielding rather than direct assassination."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance adventurers navigating the shadowed roads of Duskwood, helping Madame Eva craft her protective totems helps secure travelers against the horrors of the woods."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "duskwood",
+  "madame eva",
+  "naraxis",
+  "recluse",
+  "spider venom",
+  "totem of infliction",
+  "vial of spider venom"
+ ],
+ "related": [
+  "quest:101",
+  "npc:madame-eva",
+  "zone:duskwood",
+  "item:ghoul-fang",
+  "item:skeleton-finger",
+  "subzone:darkshire"
+ ],
+ "attribution": [
+  "Vial of Spider Venom",
+  "The Totem of Infliction"
+ ]
+}

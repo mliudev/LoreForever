@@ -1,0 +1,95 @@
+{
+ "key": "item:black-feather-quill",
+ "type": "item",
+ "name": "Black Feather Quill",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Black Feather Quill",
+  "quests": [
+   "quest:483"
+  ]
+ },
+ "summary": "The Black Feather Quill is a sacred night elf relic used by the Druids of the Talon during their rites of hibernation and awakening. Stored within a dedicated chest in the Ban'ethil Barrow Den, it is one of several vital focuses needed to safely call slumbering druids back from the Emerald Dream.",
+ "sections": [
+  {
+   "title": "A Vessel of Wakening",
+   "body": "Night elf druidism relies on deeply attuned sacred items to navigate the threshold between the waking world and the Emerald Dream. The Black Feather Quill, along with the Raven Claw Talisman, the Sapphire of Sky, and the Rune of Nesting, forms the core set of ritual items required to break the delicate hibernation of the Druids of the Talon. Without these focuses, a slumbering druid risks remaining trapped within the Dream indefinitely, unable to rejoin their waking body.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat in Ban'ethil",
+   "body": "When corrupted Gnarlpine furbolgs overran the Ban'ethil Barrow Den, the sacred chests housing these treasures fell into danger. Left unguarded in the winding depths, the relics had to be recovered swiftly by order of Athridas Bearmantle in Dolanaar before the captive druids were lost forever to the Dream.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Black Feather Quill used for?",
+   "aliases": [
+    "black feather quill purpose",
+    "why need black feather quill",
+    "what does the quill do"
+   ],
+   "answer": "The quill is one of the four Relics of Wakening necessary to safely wake Druids of the Talon from their ritual hibernation in the Emerald Dream."
+  },
+  {
+   "q": "Where is the Black Feather Quill kept?",
+   "aliases": [
+    "black feather quill location",
+    "where is chest of black feather",
+    "quill location"
+   ],
+   "answer": "It is kept within the Chest of the Black Feather, located deep inside the Ban'ethil Barrow Den in central Teldrassil."
+  },
+  {
+   "q": "Why can't the druids wake up without the quill and other relics?",
+   "aliases": [
+    "why do druids need relics to wake",
+    "can druids wake up on their own"
+   ],
+   "answer": "Druidic hibernation involves entering the Emerald Dream under delicate enchantments. Breaking that trance requires specific sacred focuses; without them, the slumbering spirit cannot properly navigate back to its physical body."
+  },
+  {
+   "q": "Who asks for the Black Feather Quill?",
+   "aliases": [
+    "who needs the quill",
+    "black feather quill quest giver"
+   ],
+   "answer": "Athridas Bearmantle in Dolanaar directs adventurers to recover the quill along with the other Relics of Wakening to rescue the imperiled druids."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids, the quill represents the sacred tools that tether practitioners of the Talon to the waking world while their spirits commune with the Emerald Dream."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Night elves view the defilement of Ban'ethil's relic chests by Gnarlpine furbolgs as another painful reminder of Teldrassil's encroaching corruption."
+  }
+ ],
+ "keywords": [
+  "athridas bearmantle",
+  "ban'ethil barrow den",
+  "black feather quill",
+  "chest of the black feather",
+  "dolanaar",
+  "druids of the talon",
+  "relics of wakening"
+ ],
+ "related": [
+  "quest:483",
+  "subzone:ban-ethil-barrow-den",
+  "item:raven-claw-talisman",
+  "item:sapphire-of-sky",
+  "item:rune-of-nesting",
+  "npc:athridas-bearmantle",
+  "topic:emerald-dream",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Black Feather Quill",
+  "The Relics of Wakening"
+ ]
+}

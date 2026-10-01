@@ -1,0 +1,94 @@
+{
+ "key": "item:senir-s-report",
+ "type": "item",
+ "name": "Senir's Report",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Senir's Report",
+  "quests": [
+   "quest:291"
+  ]
+ },
+ "summary": "Senir's Report is a dispatched document penned by Mountaineer Senir Whitebeard detailing the Frostmane troll threat in Dun Morogh. It carries findings commissioned under royal directive and is destined for Senator Barin Redstone in Ironforge.",
+ "sections": [
+  {
+   "title": "A Royal Directive",
+   "body": "Drafted after scouting missions against the Frostmane trolls nestled in the crags of Dun Morogh, this field report contains mountaineer observations intended for the dwarf Senate. Senir Whitebeard, stationed out in the cold foothills, penned the document under the direct mandate of King Magni Bronzebeard rather than ordinary Senate oversight. Knowing full well the friction between the throne and the Senate floor, Senir tasks adventurers with hauling the findings straight to Senator Barin Redstone in the High Seat of Ironforge\u2014cautiously advising couriers to omit just how much outside help he required to compile it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Friction in the High Seat",
+   "body": "Upon delivery to the royal court, the document sparks an immediate uproar. Reading through Whitebeard's account, Senator Barin Redstone is outraged not merely by the contents of the troll threat, but by the executive authority stamped upon it. Magni bypassing legislative oversight and Whitebeard acting on unchecked royal orders stokes long-simmering resentment within the dwarven Senate, illustrating the political strain between King Magni's decisive rule and the indignant senators who demand procedural control.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Senir's Report?",
+   "aliases": [
+    "senirs report",
+    "what is this report",
+    "the report"
+   ],
+   "answer": "It is an official written dispatch authored by Mountaineer Senir Whitebeard summarizing his investigations into the Frostmane trolls in Dun Morogh, written to be delivered directly to the dwarven Senate in Ironforge."
+  },
+  {
+   "q": "Who is supposed to receive the report?",
+   "aliases": [
+    "who gets the report",
+    "who do i give the report to",
+    "report recipient"
+   ],
+   "answer": "The report is addressed to Senator Barin Redstone, a sour dwarven politician situated near King Magni Bronzebeard's throne in the High Seat of Ironforge."
+  },
+  {
+   "q": "Why does Senator Redstone get so angry when he reads it?",
+   "aliases": [
+    "why is barin mad",
+    "why is the senator angry",
+    "redstone reaction"
+   ],
+   "answer": "Senator Redstone is furious because the report reveals that Mountaineer Whitebeard acted directly under King Magni's authority rather than consulting the dwarven Senate. Redstone resents the crown taking unilateral action over defense matters without senatorial approval."
+  },
+  {
+   "q": "Why does Senir ask you not to mention helping him?",
+   "aliases": [
+    "why keep quiet",
+    "senir secret",
+    "senir credit"
+   ],
+   "answer": "Senir Whitebeard prefers his superiors to believe he handled the hazardous scouting work in the snowy hills entirely on his own, wanting to protect his reputation as a diligent and capable mountaineer."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Carrying Senir's Report exposes the sharp political divide between King Magni Bronzebeard's royal decrees and the traditional authority demanded by the Senate in Ironforge."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Handling Senir's Report aids the defense of Dun Morogh while navigating the prickly internal politics of Ironforge's ruling class."
+  }
+ ],
+ "keywords": [
+  "barin redstone",
+  "frostmane",
+  "ironforge",
+  "magni bronzebeard",
+  "senate",
+  "senir whitebeard",
+  "senir's report",
+  "the reports"
+ ],
+ "related": [
+  "quest:291",
+  "quest:287",
+  "zone:ironforge",
+  "subzone:kharanos"
+ ],
+ "attribution": [
+  "Senir's Report",
+  "The Reports"
+ ]
+}

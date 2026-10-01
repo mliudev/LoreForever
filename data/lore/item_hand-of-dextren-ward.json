@@ -1,0 +1,99 @@
+{
+ "key": "item:hand-of-dextren-ward",
+ "type": "item",
+ "name": "Hand of Dextren Ward",
+ "era": "classic",
+ "zone": "stockade",
+ "meta": {
+  "wiki": "Hand of Dextren Ward",
+  "quests": [
+   "quest:377"
+  ]
+ },
+ "summary": "The Hand of Dextren Ward is a severed trophy taken from a condemned grave robber imprisoned within the Stormwind Stockade. Delivered to Darkshire, it serves as proof that frontier justice has finally been carried out against a man who desecrated the town's dead.",
+ "sections": [
+  {
+   "title": "A Defiler's Toll",
+   "body": "Dextren Ward earned a death sentence from Lord Ebonlocke after he was caught digging up bodies in the Duskwood cemeteries and selling them to the necromancer Morbent Fel. Before the town could execute him, Stormwind intervened, hauling the criminal away to the Stockade. For the grieving families of Darkshire, the Hand of Dextren Ward is physical proof that the defiler has met the execution he deserved, bypassing the House of Nobles' unwanted leniency.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Message to the Nobles",
+   "body": "Beyond satisfying local vengeance, demanding Ward's severed hand is an act of defiance by Councilman Millstipe against the crown. Duskwood feels abandoned by Stormwind's elite, who withhold military aid yet assert their own authority when it suits them. Executing a prisoner inside the capital's deepest dungeon and claiming his hand is a blunt reminder that the Darkshire Council will enforce its own laws when the House of Nobles fails them.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Dextren Ward?",
+   "aliases": [
+    "dextren ward lore",
+    "who is dextren ward",
+    "ward crime"
+   ],
+   "answer": "Dextren Ward was a criminal caught unearthing corpses from Darkshire's graveyards and selling them to the foul necromancer Morbent Fel. Though sentenced to beheading in Duskwood, Stormwind authorities moved him to the Stockade instead of carrying out the execution."
+  },
+  {
+   "q": "Why does Darkshire want his hand?",
+   "aliases": [
+    "why severed hand",
+    "why cut off ward hand",
+    "millstipe proof"
+   ],
+   "answer": "Councilman Millstipe demands Ward's severed hand as indisputable proof of his assassination. It brings closure to the families whose ancestors' graves were plundered and serves as a defiant message to the corrupt House of Nobles that Darkshire's justice cannot be overridden."
+  },
+  {
+   "q": "Where is the Hand of Dextren Ward found?",
+   "aliases": [
+    "where to find ward",
+    "stockade ward location",
+    "dextren ward location"
+   ],
+   "answer": "The hand is claimed directly from Dextren Ward himself. He is locked away in the deeper chambers on the left side of the Stormwind Stockade, where he fights using powerful sorcery."
+  },
+  {
+   "q": "Why did Stormwind imprison Ward instead of executing him?",
+   "aliases": [
+    "why was ward spared",
+    "stormwind house of nobles ward",
+    "ward imprisoned"
+   ],
+   "answer": "The House of Nobles claimed jurisdiction over Ward and chose to imprison him in the Stockade rather than allow Darkshire to carry out his death sentence. Darkshire leadership views this move as corrupt bureaucratic interference that disrespects the frontier town's plight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The friction over Ward's imprisonment exposes the deep rift between Stormwind's distant House of Nobles and the abandoned frontier settlers of Duskwood."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Ward perverted the arcane arts toward unearthing and trafficking the dead, making his death a matter of cleaning house among rogue practitioners."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "dextren ward",
+  "duskwood",
+  "ebonlocke",
+  "hand of dextren ward",
+  "house of nobles",
+  "millstipe",
+  "morbent fel",
+  "stockade"
+ ],
+ "related": [
+  "npc:dextren-ward",
+  "quest:377",
+  "npc:councilman-millstipe",
+  "zone:stockade",
+  "subzone:darkshire",
+  "quest:55",
+  "topic:house-of-nobles",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Hand of Dextren Ward",
+  "Crime and Punishment (Classic)"
+ ]
+}

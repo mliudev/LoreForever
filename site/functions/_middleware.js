@@ -1,9 +1,10 @@
 // Sends visitors on an old address to the site's main domain with a permanent (301) redirect, keeping the path and
 // query, so old links in videos and comments keep working. Does nothing until CANONICAL_HOST is set in the Pages
 // project (Settings > Variables and Secrets, Production), e.g. CANONICAL_HOST = loreforeverwow.com.
-// Only the paths in public/_routes.json run through here (/, /feedback, /voices, /voices/*, /discord, /api/*,
-// /download/*). Images, audio, install.ps1, /voices/clips.csv and /admin on the old address are still served as plain
-// files (keeping their _headers), and don't count against the free Functions quota.
+// Only the paths in public/_routes.json run through here (/, /feedback, /voices, /voices/*, /translate, /translate/*,
+// /discord, /api/*, /download/*). Images, audio, install.ps1, /voices/clips.csv, the translation kits and /admin on
+// the old address are still served as plain files (keeping their _headers), and don't count against the free
+// Functions quota.
 // /api/* is never redirected: scripts and routines call it with an Authorization header, which HTTP clients drop
 // when a redirect goes to another host. Preview deployments (<hash>.lore-forever.pages.dev) are left alone.
 

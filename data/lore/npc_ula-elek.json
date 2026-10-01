@@ -8,7 +8,7 @@
   "wiki": "Ula'elek",
   "refs": 3
  },
- "summary": "Ula'elek is a Darkspear troll smith residing in Sen'jin Village along the southern coast of Durotar. Working in tandem with the veteran orc warrior Thun'grim Firegaze, he crafts specialized armor for Horde warriors striving to prove their worth. His work combines traditional troll craftsmanship with exotic trophies gathered from across the Barrens.",
+ "summary": "Ula'elek is a Darkspear troll smith residing in Sen'jin Village along the southern coast of Durotar. Working in tandem with the veteran orc warrior Thun'grim Firegaze, he crafts specialized armor for Horde warriors striving to prove their worth. His work combines traditional troll craftsmanship with exotic trophies gathered from across Kalimdor.",
  "sections": [
   {
    "title": "Smith of the Darkspear",
@@ -17,7 +17,7 @@
   },
   {
    "title": "Forging the Brutal Armor",
-   "body": "When young warriors visit Thun'grim Firegaze atop his overlook in the Barrens, the old veteran directs them south toward Sen'jin Village to seek out Ula'elek. Thun'grim trusts the troll smith to fashion Brutal Gauntlets, an imposing piece of battle gear worthy of battle-hardened frontliners. Ula'elek demands rare materials for the task, most notably the cleaved hooves of foul satyrs lurking near the corrupted edges of the Barrens.",
+   "body": "When young warriors visit Thun'grim Firegaze atop his overlook in the Barrens, the old veteran directs them south toward Sen'jin Village to seek out Ula'elek. Thun'grim trusts the troll smith to fashion Brutal Gauntlets, an imposing piece of battle gear worthy of battle-hardened frontliners. Ula'elek demands rare materials for the task, most notably the swollen, uncloven hooves of the satyrs who leech the forest's magic in northeastern Ashenvale.",
    "spoiler": 0
   }
  ],
@@ -54,7 +54,7 @@
     "ula'elek materials",
     "brutal gauntlets ingredients"
    ],
-   "answer": "To fashion the Brutal Gauntlets, Ula'elek requires warriors to hunt down satyrs in the Barrens and harvest their tough, corrupted hooves as essential crafting components."
+   "answer": "To fashion the Brutal Gauntlets, Ula'elek requires warriors to hunt down satyrs in northeastern Ashenvale and harvest their swollen, uncloven hooves as essential crafting components."
   },
   {
    "q": "What kind of gear does Ula'elek craft?",
@@ -70,7 +70,7 @@
     "why satyr hooves",
     "hooves for gauntlets"
    ],
-   "answer": "Satyr hooves are dense, sturdy, and hard-edged materials, serving both as durable reinforcement for heavy gauntlets and as a grim trophy displaying the wearer's victory over twisted, demonic foes."
+   "answer": "The satyrs of northeastern Ashenvale feed off the forest's purity, and those who have drawn the most magic have swollen, uncloven hooves. Ula'elek leeches that power out of the hooves and harnesses it into the gauntlets."
   }
  ],
  "angles": [

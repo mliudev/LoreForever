@@ -1,0 +1,94 @@
+{
+ "key": "item:laced-pumpkin",
+ "type": "item",
+ "name": "Laced Pumpkin",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Laced Pumpkin",
+  "quests": [
+   "quest:407"
+  ]
+ },
+ "summary": "A Laced Pumpkin is an ordinary gourd treated with a lethal concoction developed by Apothecary Johaan in Brill. Handed to a starving, imprisoned Scarlet Crusader under the guise of sustenance, it serves as a live field test for the Forsaken's growing arsenal of alchemical weapons.",
+ "sections": [
+  {
+   "title": "A Bitter Harvest",
+   "body": "To the untrained eye, the laced pumpkin appears to be ordinary produce salvaged from the blighted soil of Tirisfal Glades. Under the supervision of Apothecary Johaan in Brill, however, the vegetable is treated with experimental toxins designed to realize the full potential of undeath. The Royal Apothecary Society constantly seeks new weapons to repel both the Scourge in the north and living human forces advancing from the south, turning even simple harvest goods into vectors for infection and chemical death.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Cellar Experiment",
+   "body": "The laced pumpkin's primary purpose is practical testing on living subjects. In the damp cellar of the Gallows' End Tavern, Forsaken captors hold a famished Captured Scarlet Zealot. Desperate for nourishment, the prisoner readily accepts the tainted offering in relief. Upon consuming the pumpkin, the apothecary's concoction triggers a violent transformation, twisting the human zealot into a mindless ghoul who stumbles briefly in agony before collapsing dead on the cold stone floor.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Laced Pumpkin?",
+   "aliases": [
+    "laced pumpkin",
+    "poison pumpkin",
+    "johaan pumpkin"
+   ],
+   "answer": "It is a field pumpkin injected with an experimental formula concocted by Apothecary Johaan in Brill, intended to test the effects of Forsaken alchemy on living subjects."
+  },
+  {
+   "q": "Who eats the Laced Pumpkin?",
+   "aliases": [
+    "who eats it",
+    "pumpkin target",
+    "feed the pumpkin"
+   ],
+   "answer": "A Captured Scarlet Zealot imprisoned in the cellar beneath the Gallows' End Tavern in Brill consumes it after being starved by his captors."
+  },
+  {
+   "q": "What happens when someone eats the pumpkin?",
+   "aliases": [
+    "pumpkin effect",
+    "what happens to zealot",
+    "zealot ghoul"
+   ],
+   "answer": "The tainted flesh instantly mutates the living zealot into a ghoul, which wanders erratically for a few moments before perishing entirely."
+  },
+  {
+   "q": "Why did the Forsaken make this?",
+   "aliases": [
+    "why make poisoned pumpkin",
+    "forsaken plague testing"
+   ],
+   "answer": "Apothecary Johaan and the Royal Apothecary Society are testing new biological concoctions to combat both the northern Scourge and encroaching living humans, using captured enemies as test subjects."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, turning ordinary food into a weapon demonstrates the pragmatism of the Royal Apothecary Society in using any means necessary to secure Tirisfal against zealous living crusaders."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The fate of the captive zealot serves as a stark, horrifying reminder of the grotesque fates awaiting any living human captured alive in Forsaken territory."
+  }
+ ],
+ "keywords": [
+  "apothecary johaan",
+  "brill",
+  "captured scarlet zealot",
+  "gallows' end",
+  "laced pumpkin",
+  "royal apothecary society",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:captured-scarlet-zealot",
+  "quest:365",
+  "topic:scarlet-crusade",
+  "zone:tirisfal",
+  "topic:human",
+  "topic:light"
+ ],
+ "attribution": [
+  "Laced Pumpkin",
+  "Fields of Grief (2)"
+ ]
+}

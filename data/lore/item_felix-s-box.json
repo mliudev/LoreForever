@@ -1,0 +1,97 @@
+{
+ "key": "item:felix-s-box",
+ "type": "item",
+ "name": "Felix's Box",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Felix's Box",
+  "quests": [
+   "quest:3361"
+  ]
+ },
+ "summary": "Felix's Box is a small container of personal belongings belonging to Felix Whindlebolt, a refugee who fled the fall of Gnomeregan. Lost during the frantic evacuation into Dun Morogh, the box was looted by local Frostmane trolls and carried off to their camps southwest of Anvilmar.",
+ "sections": [
+  {
+   "title": "Lost in the Flight from Gnomeregan",
+   "body": "When radiation flooded Gnomeregan during the failed attempt to purge the trogg menace, Felix Whindlebolt joined the frantic exodus of gnomes into Coldridge Valley. In his desperation to escape the radioactive fumes, Felix dropped his most prized personal possessions and crafting gear along the snowy road. Before he could recover them, indigenous Frostmane trolls plundered the roadside remnants and dragged his box, along with his chest and bucket of bolts, back to their crude settlements southwest of Anvilmar.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Refugee's Quandary",
+   "body": "Unaccustomed to physical violence and ill-suited for the harsh wilderness of Dun Morogh, Felix was forced to seek the help of passing adventurers in Anvilmar to recover his belongings. Retrieving Felix's Box represents more than just returning a modest container; it restores a piece of normalcy and livelihood to a displaced artisan who lost everything in the catastrophe that consumed his underground homeland.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Felix's Box?",
+   "aliases": [
+    "felixs box",
+    "what is this box",
+    "felix box lore"
+   ],
+   "answer": "It is a container holding the personal belongings of Felix Whindlebolt, a gnome artisan who fled Gnomeregan following the city's disastrous contamination."
+  },
+  {
+   "q": "How did the box end up with the Frostmane trolls?",
+   "aliases": [
+    "why do trolls have felixs box",
+    "who stole felixs box",
+    "how was it lost"
+   ],
+   "answer": "Felix abandoned his equipment while fleeing the irradiated fumes pouring out of Gnomeregan. Frostmane trolls patrolling the hills southwest of Anvilmar scavenged the roadside gear and hauled it into their camp."
+  },
+  {
+   "q": "Who is Felix Whindlebolt?",
+   "aliases": [
+    "felix whindlebolt",
+    "who is felix"
+   ],
+   "answer": "Felix Whindlebolt is a civilian gnome refugee currently residing in Anvilmar, traumatized by the fall of Gnomeregan and stranded without his vital tools and personal effects."
+  },
+  {
+   "q": "What other items did Felix lose?",
+   "aliases": [
+    "other felix items",
+    "felix belongings",
+    "felix lost gear"
+   ],
+   "answer": "Alongside the box, the Frostmane trolls plundered Felix's Chest and his Bucket of Bolts, scattering all three among their camps southwest of Anvilmar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomish adventurers starting in Coldridge Valley, retrieving Felix's personal effects brings direct relief to a fellow exile suffering the bitter consequences of Gnomeregan's evacuation."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The recovered tools and containers represent a tinkerer's lifeline, highlighting the sheer hardship displaced gnomish craftsmen face when separated from their equipment."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "felix whindlebolt",
+  "felix's box",
+  "frostmane",
+  "gnomeregan",
+  "refugee"
+ ],
+ "related": [
+  "npc:felix-whindlebolt",
+  "quest:3361",
+  "item:felix-s-chest",
+  "item:felix-s-bucket-of-bolts",
+  "subzone:anvilmar",
+  "zone:dunmorogh",
+  "zone:gnomeregan",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Felix's Box",
+  "A Refugee's Quandary (Classic)"
+ ]
+}

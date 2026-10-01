@@ -1,0 +1,96 @@
+{
+ "key": "item:humbert-s-sword",
+ "type": "item",
+ "name": "Humbert's Sword",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Humbert's Sword",
+  "quests": [
+   "quest:547"
+  ]
+ },
+ "summary": "Humbert's Sword is the personal sidearm belonging to Deathguard Humbert of Tarren Mill. The weapon was looted from his camp by dwarven soldiers while he was scouting their stronghold at Dun Garok.",
+ "sections": [
+  {
+   "title": "A Scout's Careless Moment",
+   "body": "Deathguard Humbert was dispatched by High Executor Darthalia to monitor the dwarven presence at Dun Garok from a concealed position. While he left his post unattended one morning to collect firewood to boil water, dwarven patrols stumbled across his campsite and plundered all of his gear, including his personal blade. Fearing severe punishment from Darthalia if his incompetence is discovered, Humbert relies on Horde agents to infiltrate the fortress and retrieve his lost weapon.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Dwarven Trove",
+   "body": "Following the theft, Humbert's belongings were carried back behind the fortified barricades of Dun Garok. Because dwarven riflemen, mountaineers, and priests circulate supplies throughout the garrison, locating the specific thief requires searching among the defenders stationed within the stronghold's trenches and redoubts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owns this sword?",
+   "aliases": [
+    "whose sword is this",
+    "humbert owner",
+    "who is humbert"
+   ],
+   "answer": "The blade belongs to Deathguard Humbert, a Forsaken sentry stationed in Tarren Mill who was assigned to scout Dun Garok."
+  },
+  {
+   "q": "How did the dwarves get Humbert's sword?",
+   "aliases": [
+    "how did dwarves get it",
+    "why do dwarves have sword",
+    "how was sword stolen"
+   ],
+   "answer": "Deathguard Humbert abandoned his scout camp just outside Dun Garok to gather firewood in the morning. While he was away, a dwarven patrol ransacked the camp and carried off his gear."
+  },
+  {
+   "q": "Why is Humbert so desperate to get his sword back?",
+   "aliases": [
+    "why humbert want sword",
+    "what happens if humbert loses sword",
+    "why does humbert care"
+   ],
+   "answer": "Beyond needing his weapon to perform his duties, Humbert fears that his commander, High Executor Darthalia, will execute him for his blunder if she discovers he lost his equipment while on duty."
+  },
+  {
+   "q": "Where can the sword be found?",
+   "aliases": [
+    "where does sword drop",
+    "sword location",
+    "how to find humbert's sword"
+   ],
+   "answer": "The sword is held by the dwarven forces garrisoned at Dun Garok, situated in southeastern Hillsbrad Foothills. It can be recovered from the mountaineers, riflemen, or priests stationed throughout the post."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "High Executor Darthalia maintains merciless discipline over the Forsaken forces in Hillsbrad, leaving negligent sentries like Humbert desperate to conceal their mistakes."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Recovering the sword coincides with wider Horde operations targeting Dun Garok's dwarven enclave, including the collection of dwarven blood and military insignias."
+  }
+ ],
+ "keywords": [
+  "darthalia",
+  "deathguard humbert",
+  "dun garok",
+  "hillsbrad",
+  "humbert's sword",
+  "tarren mill"
+ ],
+ "related": [
+  "quest:547",
+  "npc:deathguard-humbert",
+  "subzone:dun-garok",
+  "subzone:tarren-mill",
+  "npc:high-executor-darthalia",
+  "quest:527",
+  "quest:509",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Humbert's Sword",
+  "Humbert's Sword (quest)"
+ ]
+}

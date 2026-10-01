@@ -1,0 +1,98 @@
+{
+ "key": "item:urgent-message",
+ "type": "item",
+ "name": "Urgent Message",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Urgent Message",
+  "quests": [
+   "quest:4542"
+  ]
+ },
+ "summary": "The Urgent Message is a sealed dispatch penned by Brave Moonhorn warning Freewind Post of escalating centaur violence across Thousand Needles. Carried by travelers descending into the canyon, the letter alerts the tauren garrison that their supply lines and scouting parties are under immediate threat.",
+ "sections": [
+  {
+   "title": "A Warning from the Heights",
+   "body": "Penned by Brave Moonhorn near the great lift that descends from the Southern Barrens into Thousand Needles, the Urgent Message represents the first line of defense for travelers crossing the border. Moonhorn monitors the jagged canyons below, where aggressive centaur tribes have renewed their relentless raids against Horde travel. Addressed to Cliffwatcher Longhorn atop Freewind Post, the missive sounds the alarm about emboldened attackers striking dangerously close to crucial roadways, urging the local garrison to brace for sustained conflict and guard against secondary threats like the unpredictable Grimtotem clan.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bloodshed on the Canyon Floor",
+   "body": "When delivered to Cliffwatcher Longhorn atop the towering mesa of Freewind Post, the letter confirms the settlement's darkest fears. The centaur assault has surpassed mere border skirmishing; raiders have ambushed a vital supply caravan traversing the canyon floor, slaughtering the entire convoy. The dispatch forces the tauren leadership to shift immediately from defensive vigilance to aggressive retaliation, triggering organized counter-strikes to pacify the marauding tribes before Freewind Post is entirely cut off from the rest of Kalimdor.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is written in the Urgent Message?",
+   "aliases": [
+    "what does the letter say",
+    "urgent message contents",
+    "what is the message about"
+   ],
+   "answer": "The message details a sharp surge in centaur raids across Thousand Needles, warning that traveling parties and roadways are in immediate peril and urging Freewind Post to prepare for war."
+  },
+  {
+   "q": "Who wrote this message and who receives it?",
+   "aliases": [
+    "who wrote urgent message",
+    "sender of urgent message",
+    "who gets the urgent message"
+   ],
+   "answer": "It was drafted by Brave Moonhorn, stationed at the Great Lift from the Barrens, and addressed directly to Cliffwatcher Longhorn, the commander of Freewind Post."
+  },
+  {
+   "q": "Why are the centaur attacking supply caravans?",
+   "aliases": [
+    "why centaur attacks",
+    "centaur motive thousand needles",
+    "why do centaurs raid"
+   ],
+   "answer": "The centaur tribes have long contested the arid lands of central Kalimdor against the tauren. They raid caravans in the canyon floor to plunder vital provisions and deny the Horde safe passage through Thousand Needles."
+  },
+  {
+   "q": "What warning does the scout give regarding the Grimtotem?",
+   "aliases": [
+    "grimtotem warning",
+    "why avoid grimtotem",
+    "grimtotem acting strange"
+   ],
+   "answer": "Brave Moonhorn cautions any courier carrying the dispatch to steer clear of the nearby Grimtotem clan, noting that their warriors have been acting increasingly aloof and suspicious toward the rest of the tauren."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The message highlights the tenuous nature of Horde supply lines across southern Kalimdor, where isolated outposts rely on runners and braves to survive hostile terrain."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, the letter is a painful reminder of their ancient blood feud with the centaur, as well as the growing unease concerning their Grimtotem kin."
+  }
+ ],
+ "keywords": [
+  "brave moonhorn",
+  "centaur",
+  "cliffwatcher longhorn",
+  "freewind post",
+  "great lift",
+  "grimtotem",
+  "thousand needles",
+  "urgent message"
+ ],
+ "related": [
+  "quest:4542",
+  "npc:brave-moonhorn",
+  "npc:cliffwatcher-longhorn",
+  "subzone:freewind-post",
+  "quest:4841",
+  "quest:5064",
+  "topic:centaur",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Urgent Message",
+  "Message to Freewind Post"
+ ]
+}

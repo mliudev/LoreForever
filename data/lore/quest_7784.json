@@ -20,16 +20,16 @@
    "The Lord of Blackrock (Horde 2)"
   ]
  },
- "summary": "This quest marks the final delivery of Nefarian's severed head to the leaders of Orgrimmar. Having proven the black dragon's demise to Eitrigg, champions are directed to Overlord Runthak in the Valley of Strength to display the trophy before the entire Horde.",
+ "summary": "This quest marks the final delivery of Nefarian's severed head to the leaders of Orgrimmar. Having proven the black dragon's demise to Thrall, champions are directed to High Overlord Saurfang in the Valley of Strength to display the trophy before the entire Horde.",
  "sections": [
   {
    "title": "A Trophy for the Horde",
-   "body": "After the black dragon Nefarian is slain atop Blackwing Lair, his head is brought to Orgrimmar as proof of his defeat. Veteran warrior Eitrigg confirms the fall of the son of Deathwing before sending the victor to Overlord Runthak in the Valley of Strength. There, the gruesome remains are prepared to be displayed publicly, serving as a warning to enemies and a rallying cry for the true Horde.",
+   "body": "After the black dragon Nefarian is slain atop Blackwing Lair, his head is brought to Orgrimmar as proof of his defeat. Warchief Thrall confirms the fall of the son of Deathwing before sending the victor to High Overlord Saurfang in the Valley of Strength. There, the gruesome remains are prepared to be displayed publicly, serving as a warning to enemies and a rallying cry for the true Horde.",
    "spoiler": 0
   },
   {
    "title": "Claiming the Legacy",
-   "body": "Nefarian ruled the heights of Blackrock Mountain, bending the Blackrock orcs and the Dark Horde to his will. By striking him down and hoisting his head high in the Valley of Strength, Warchief Thrall's Horde deals a mighty blow against the Black Dragonflight, and Runthak calls on all of Orgrimmar to revel in the Rallying Cry of the Dragonslayer.",
+   "body": "Nefarian ruled the heights of Blackrock Mountain, bending the Blackrock orcs and the Dark Horde to his will. By striking him down and hoisting his head high in the Valley of Strength, Warchief Thrall's Horde deals a mighty blow against the Black Dragonflight, and Saurfang calls on all of Orgrimmar to revel in the Rallying Cry of the Dragonslayer.",
    "spoiler": 1
   }
  ],
@@ -39,17 +39,17 @@
    "aliases": [
     "what does this quest do",
     "lord of blackrock turn in",
-    "why go to natoj"
+    "why go to saurfang"
    ],
-   "answer": "It serves as the concluding turn-in for slaying Nefarian. After showing proof to Eitrigg, you report to Overlord Runthak in Orgrimmar's Valley of Strength to receive honors and have the severed head put on public display."
+   "answer": "It serves as the concluding turn-in for slaying Nefarian. After showing proof to Thrall, you report to High Overlord Saurfang in Orgrimmar's Valley of Strength to receive honors and have the severed head put on public display."
   },
   {
-   "q": "Who is Overlord Runthak?",
+   "q": "Who is High Overlord Saurfang?",
    "aliases": [
-    "who is natoj",
-    "overlord natoj role"
+    "who is saurfang",
+    "high overlord saurfang role"
    ],
-   "answer": "Overlord Runthak is an officer of the Horde stationed in the Valley of Strength within Orgrimmar, responsible for receiving major military trophies and granting recognition to Horde champions."
+   "answer": "High Overlord Saurfang is a veteran orc warrior and one of the Horde's greatest champions, stationed in the Valley of Strength within Orgrimmar, where he receives the head and has it mounted for all to see."
   },
   {
    "q": "Why is Nefarian's head put on display?",
@@ -68,20 +68,20 @@
    "answer": "Nefarian was a great black dragon and a son of Deathwing. From Blackwing Lair atop Blackrock Mountain, he commanded the Blackrock orcs and the Dark Horde and bred the chromatic dragonflight."
   },
   {
-   "q": "Where is Overlord Runthak located?",
+   "q": "Where is High Overlord Saurfang located?",
    "aliases": [
-    "where is natoj",
-    "natoj location"
+    "where is saurfang",
+    "saurfang location"
    ],
-   "answer": "Runthak stands on watch in the Valley of Strength, the central entrance district of Orgrimmar."
+   "answer": "Saurfang stands on watch in the Valley of Strength, the central entrance district of Orgrimmar."
   },
   {
-   "q": "What role does Eitrigg play in this?",
+   "q": "What role does Thrall play in this?",
    "aliases": [
-    "why eitrigg",
-    "eitrigg involvement"
+    "why thrall",
+    "thrall involvement"
    ],
-   "answer": "Eitrigg, the Warchief's advisor and a Blackrock veteran who turned his back on the corrupted Old Horde, receives the head first. Once he confirms Nefarian's death, he sends you to Runthak to have the trophy officially mounted."
+   "answer": "Warchief Thrall receives the head first. Once he confirms Nefarian's death, he sends you to Saurfang to have the trophy officially mounted."
   }
  ],
  "angles": [

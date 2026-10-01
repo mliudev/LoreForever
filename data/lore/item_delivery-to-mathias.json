@@ -1,0 +1,98 @@
+{
+ "key": "item:delivery-to-mathias",
+ "type": "item",
+ "name": "Delivery to Mathias",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Delivery to Mathias",
+  "quests": [
+   "quest:2205"
+  ]
+ },
+ "summary": "The Delivery to Mathias is a sealed parcel entrusted to promising rogues by Keryn Sylvius in Goldshire. Handing it over to Master Mathias Shaw grants an aspiring operative entry into the inner workings of SI:7 in Stormwind.",
+ "sections": [
+  {
+   "title": "A Courier's Test",
+   "body": "To the untrained eye, carrying a simple parcel from the Lion's Pride Inn to the Stormwind Barracks seems like mundane courier work. Yet for budding rogues, the package serves as an audition for Stormwind Intelligence. Handed over by local trainer Keryn Sylvius, it offers novice cutpurses a direct introduction to Master Mathias Shaw, testing their ability to navigate the capital, keep a low profile, and follow discreet orders without asking questions.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gateway to SI:7",
+   "body": "Delivering the package brings an operative directly into the heart of SI:7 headquarters in Old Town. Mathias Shaw uses such handoffs to weed out pretenders from true talents. Those who present the parcel without faltering are rewarded with high-stakes field assignments, starting with covert reconnaissance and infiltration against Defias smuggling networks in Elwynn Forest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Delivery to Mathias?",
+   "aliases": [
+    "what is in the package",
+    "delivery contents",
+    "parcel contents"
+   ],
+   "answer": "The package remains sealed to the courier. Given that it passes from field trainer Keryn Sylvius to spymaster Mathias Shaw, it likely contains intelligence reports, trainee assessments, or confidential materials regarding local threats like the Defias Brotherhood in Elwynn."
+  },
+  {
+   "q": "Who sends this delivery?",
+   "aliases": [
+    "who gave me this parcel",
+    "package sender",
+    "keryn sylvius package"
+   ],
+   "answer": "The delivery is handed over by Keryn Sylvius, a rogue operative and trainer stationed upstairs at the Lion's Pride Inn in Goldshire."
+  },
+  {
+   "q": "Where does Mathias Shaw keep his headquarters?",
+   "aliases": [
+    "where is mathias shaw",
+    "where to deliver package",
+    "shaw location"
+   ],
+   "answer": "Mathias Shaw is located on the second floor of the SI:7 building, situated in the southeastern corner of Old Town within the Stormwind Barracks compound."
+  },
+  {
+   "q": "What happens after presenting the parcel to Shaw?",
+   "aliases": [
+    "next quest after delivery",
+    "what does shaw do",
+    "after delivery to mathias"
+   ],
+   "answer": "Once Shaw confirms your capability, he initiates you into actual field espionage. He sends you to infiltrate Jerod's Landing to steal a shipping schedule from a Defias dockmaster."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This package represents a rogue's rite of passage from petty back-alley brawling to the clandestine world of royal intelligence under Mathias Shaw."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Carrying covert dispatches between regional scouts and the capital keeps Stormwind's secretive espionage apparatus functioning against internal subversion."
+  }
+ ],
+ "keywords": [
+  "delivery to mathias",
+  "goldshire",
+  "keryn sylvius",
+  "mathias shaw",
+  "old town",
+  "package",
+  "si:7",
+  "stormwind"
+ ],
+ "related": [
+  "quest:2205",
+  "npc:mathias-shaw",
+  "npc:keryn-sylvius",
+  "quest:2206",
+  "subzone:old-town",
+  "zone:stormwind",
+  "subzone:goldshire",
+  "item:shipping-schedule"
+ ],
+ "attribution": [
+  "Delivery to Mathias",
+  "Seek out SI: 7"
+ ]
+}

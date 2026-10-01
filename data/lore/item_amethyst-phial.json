@@ -1,0 +1,100 @@
+{
+ "key": "item:amethyst-phial",
+ "type": "item",
+ "name": "Amethyst Phial",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Amethyst Phial",
+  "quests": [
+   "quest:934",
+   "quest:7383"
+  ]
+ },
+ "summary": "The Amethyst Phial is a delicate ceremonial vessel entrusted to young night elf adventurers by Corithras Moonrage in Dolanaar. It is crafted specifically to gather and preserve sacred waters from the premier moonwell beneath the Oracle Tree.",
+ "sections": [
+  {
+   "title": "Vessel of Sacred Waters",
+   "body": "Entrusted to initiates on Teldrassil, the Amethyst Phial is the final vessel used in the Crown of the Earth pilgrimage. Corithras Moonrage tasks travelers with carrying it to the far northwestern reaches of the boughs, nestled within the Oracle Glade. There, beneath the ancient canopy of the Oracle Tree, lies the island's first and most potent moonwell. The phial is carefully dipped into these radiant waters to draw out the essence of Elune's grace, allowing druids and priestesses to study and tend to the unpredictable growth of the World Tree.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Burden of Unblessed Growth",
+   "body": "Collecting this sample is more than a routine rite of devotion. Teldrassil was raised under the guidance of Arch Druid Fandral Staghelm without the blessings of the Dragon Aspects, who refused to endorse what they considered an act of arrogance. As a consequence, the boughs suffer from an unsettling corruption, and the kaldorei remain mortal. Filling the Amethyst Phial serves as both a spiritual ritual and an ongoing survey, allowing researchers in Dolanaar to scrutinize the purity of Teldrassil's sacred waters.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Amethyst Phial used for?",
+   "aliases": [
+    "amethyst phial purpose",
+    "what do i do with amethyst phial",
+    "amethyst phial use"
+   ],
+   "answer": "The phial is given to adventurers by Corithras Moonrage to gather water from the first and most powerful moonwell on Teldrassil, located in the Oracle Glade beneath the great Oracle Tree."
+  },
+  {
+   "q": "Where do I fill the Amethyst Phial?",
+   "aliases": [
+    "where to fill amethyst phial",
+    "amethyst phial location",
+    "oracle glade moonwell"
+   ],
+   "answer": "It must be dipped into the moonwell situated far to the northwest of Dolanaar, past the gates of Darnassus, within the secluded grove known as the Oracle Glade."
+  },
+  {
+   "q": "Why is the water from the Oracle Glade so important?",
+   "aliases": [
+    "why oracle glade water",
+    "oracle tree moonwell power",
+    "significance of oracle well"
+   ],
+   "answer": "The moonwell resting under the Oracle Tree is considered the first and most potent well established on the World Tree. Its waters are deeply suffused with the essence of Elune, making them vital for monitoring the spiritual and physical health of Teldrassil."
+  },
+  {
+   "q": "Who sends you to use this phial?",
+   "aliases": [
+    "who gives amethyst phial",
+    "corithras moonrage phial",
+    "who wants the amethyst phial"
+   ],
+   "answer": "Corithras Moonrage, a night elf druid stationed in Dolanaar, provides the phial as part of the ritual tasks aimed at understanding the troubled nature of Teldrassil's growth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, filling this phial is a solemn duty that directly confronts the troubling flaws in Teldrassil's unblessed creation."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids recognize the vessel as a critical tool for monitoring the vital energies and creeping corruptions threatening the World Tree's ecosystem."
+  }
+ ],
+ "keywords": [
+  "amethyst phial",
+  "corithras moonrage",
+  "crown of the earth",
+  "dolanaar",
+  "moonwell",
+  "oracle glade",
+  "oracle tree",
+  "teldrassil"
+ ],
+ "related": [
+  "npc:corithras-moonrage",
+  "item:filled-amethyst-phial",
+  "quest:921",
+  "subzone:oracle-glade",
+  "subzone:dolanaar",
+  "zone:teldrassil",
+  "topic:elune",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Amethyst Phial",
+  "Crown of the Earth (5)",
+  "Teldrassil: The Burden of the Kaldorei"
+ ]
+}

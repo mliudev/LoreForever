@@ -1,0 +1,96 @@
+{
+ "key": "item:filled-cursed-ooze-jar",
+ "type": "item",
+ "name": "Filled Cursed Ooze Jar",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Filled Cursed Ooze Jar",
+  "quests": [
+   "quest:4512"
+  ]
+ },
+ "summary": "A Filled Cursed Ooze Jar contains the noxious remains of a cursed ooze collected from the corrupted forests of Felwood. It is gathered on behalf of Laris Geardawdle, a gnome scholar in Ironforge seeking to uncover the primordial origins of slimes across Azeroth.",
+ "sections": [
+  {
+   "title": "A Curious Specimen",
+   "body": "While most adventurers avoid the vile puddles and caustic slimes crawling across Kalimdor, the gnomish researcher Laris Geardawdle sees them as a biological mystery. Noticing that slimes appear in diverse environments and observing Forsaken apothecaries diligently harvesting them, Geardawdle developed a controversial theory: oozes might be primordial secretions tied directly to Azeroth's creation. Gathering a sample requires braving Felwood's blighted woods, defeating a cursed ooze, and scooping the acidic matter into an empty jar before it completely dissolves.",
+   "spoiler": 0
+  },
+  {
+   "title": "Academic Ambition",
+   "body": "Securing these pungent samples serves a dual purpose for Geardawdle. Beyond the pursuit of natural science, he hopes a major discovery will cement his reputation within the dwarven-led Explorers' League. In the wake of Gnomeregan's devastating fall, many gnome refugees in Ironforge feel an intense pressure to prove their worth to their dwarven hosts, and Geardawdle believes that unlocking the ancient secrets of ooze will show everyone that welcoming gnomes was no mistake.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this jar come from?",
+   "aliases": [
+    "where do i get cursed ooze jar",
+    "how to get filled cursed ooze jar",
+    "ooze jar location"
+   ],
+   "answer": "It is obtained by using an Empty Cursed Ooze Jar on the remains of a defeated Cursed Ooze in the corrupted lands of Felwood."
+  },
+  {
+   "q": "Who wants these ooze samples?",
+   "aliases": [
+    "who needs ooze jars",
+    "laris geardawdle quest",
+    "who turns in ooze jar"
+   ],
+   "answer": "Laris Geardawdle, a gnome researcher located in the Hall of Explorers in Ironforge, requests them to advance his natural history research."
+  },
+  {
+   "q": "Why is Laris Geardawdle studying oozes?",
+   "aliases": [
+    "why study slimes",
+    "geardawdle ooze theory",
+    "why ooze"
+   ],
+   "answer": "He noticed that both nature and the Royal Apothecary Society take great interest in oozes. He hypothesizes that slimes might be ancient secretions tied to the very creation and development of life on Azeroth, though he needs physical samples to test his theories."
+  },
+  {
+   "q": "Why does a gnome care about the Explorers' League?",
+   "aliases": [
+    "why explorers league",
+    "gnomes in ironforge"
+   ],
+   "answer": "Following the fall of Gnomeregan, gnome refugees took shelter among the dwarves in Ironforge. Geardawdle hopes that making a major scientific breakthrough through the Explorers' League will prove to their hosts that sheltering gnomes was the right choice."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Laris Geardawdle's obsession with slime research is deeply personal, driven by a desire to bring honor to displaced gnomes and prove their intellectual value to the dwarven hosts in Ironforge."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance's natural philosophers in Ironforge keep a watchful eye on Forsaken movements, noting that the Royal Apothecary Society has also shown a dark interest in gathering ooze samples across Azeroth."
+  }
+ ],
+ "keywords": [
+  "cursed ooze",
+  "explorers' league",
+  "felwood",
+  "filled cursed ooze jar",
+  "ironforge",
+  "laris geardawdle",
+  "slime"
+ ],
+ "related": [
+  "quest:4512",
+  "item:filled-tainted-ooze-jar",
+  "npc:laris-geardawdle",
+  "zone:felwood",
+  "zone:ironforge",
+  "topic:explorers-league",
+  "topic:royal-apothecary-society",
+  "item:package-of-empty-ooze-containers"
+ ],
+ "attribution": [
+  "Filled Cursed Ooze Jar",
+  "A Little Slime Goes a Long Way"
+ ]
+}

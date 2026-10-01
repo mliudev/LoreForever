@@ -1,0 +1,93 @@
+{
+ "key": "item:ebonlocke-s-response-to-solomon",
+ "type": "item",
+ "name": "Ebonlocke's Response to Solomon",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Ebonlocke's Response to Solomon",
+  "quests": [
+   "quest:146"
+  ]
+ },
+ "summary": "Ebonlocke's Response to Solomon is an official letter penned by Lord Ello Ebonlocke, the mayor of Darkshire. Carried back to Lakeshire, it flatly rejects Redridge's desperate plea for military assistance from the Night Watch.",
+ "sections": [
+  {
+   "title": "A Bitter Refusal",
+   "body": "Facing blackrock orc incursions, Magistrate Solomon of Lakeshire sought reinforcements from Duskwood after Stormwind ignored his petitions. Lord Ello Ebonlocke's reply is scathing and uncompromising. Ebonlocke points out that the Night Watch exists only because Stormwind abandoned Darkshire when corrupting magic first gripped the woods. Stripping the town of its defenders to aid Redridge would leave Duskwood defenceless, ensuring it fell to evil before the militia even reached the forest's edge.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Crumbling Frontier",
+   "body": "When Solomon receives the letter, the realization shakes him deeply. With the Stormwind Army withdrawn from Westfall and the royal guard absent from Darkshire, the kingdom's entire southern frontier has been left to rot. Rather than dismissing Ebonlocke's anger, Solomon recognizes a terrible pattern: the crown's sudden neglect of its outlying territories suggests treachery at the highest levels of power in Stormwind City.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Ebonlocke's Response to Solomon?",
+   "aliases": [
+    "ebonlocke letter",
+    "ebonlocke response",
+    "letter to solomon"
+   ],
+   "answer": "It is a sealed letter written by Lord Ello Ebonlocke of Darkshire, addressed to Magistrate Solomon of Lakeshire. In it, Ebonlocke refuses to send the Night Watch to defend Redridge, explaining that Duskwood is barely holding back its own nightmares."
+  },
+  {
+   "q": "Why won't Darkshire send help to Lakeshire?",
+   "aliases": [
+    "why night watch wont help",
+    "why did darkshire refuse",
+    "ebonlocke refuse solomon"
+   ],
+   "answer": "Darkshire has no royal troops of its own. The Night Watch was assembled entirely from local volunteers because Stormwind abandoned the region. Lord Ebonlocke warns that if his guards marched away, Darkshire would be overrun by undead and vile creatures before they even left the forest."
+  },
+  {
+   "q": "How does Magistrate Solomon react to the letter?",
+   "aliases": [
+    "solomon reaction",
+    "what does solomon say"
+   ],
+   "answer": "Magistrate Solomon is shocked and disturbed. Learning that the royal guard abandoned Darkshire\u2014just as the army pulled out of Westfall\u2014convinces him that foul play or treachery is paralyzing the leadership in Stormwind."
+  },
+  {
+   "q": "Who wrote this letter?",
+   "aliases": [
+    "who is ebonlocke",
+    "lord ebonlocke"
+   ],
+   "answer": "The letter was penned by Lord Ello Ebonlocke, the beleaguered mayor of Darkshire and leader of the Council of Darkshire, who oversees the town's defence."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The letter reveals the sheer breakdown of the Alliance's heartland: Redridge, Duskwood, and Westfall have all been cut adrift by Stormwind's royal court."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "duskwood",
+  "ebonlocke",
+  "lakeshire",
+  "letter",
+  "messenger",
+  "night watch",
+  "redridge",
+  "solomon"
+ ],
+ "related": [
+  "quest:145",
+  "npc:magistrate-solomon",
+  "subzone:darkshire",
+  "subzone:lakeshire",
+  "topic:night-watch",
+  "topic:stormwind-kingdom",
+  "zone:duskwood",
+  "subzone:forest-s-edge"
+ ],
+ "attribution": [
+  "Ebonlocke's Response to Solomon",
+  "Messenger to Darkshire (2)"
+ ]
+}

@@ -8,9 +8,9 @@ Options.DEFAULTS = {
   zoneNudge = true,        -- chat hint with a clickable question when entering a zone that has lore
   dungeonPrimer = true,    -- chat link to the dungeon primer when entering a dungeon
   unitTooltips = true,     -- one-line lore on NPC and mob tooltips
-  itemTooltips = true,     -- quest/profession notes on item tooltips
+  itemTooltips = true,     -- quest notes on item tooltips
   launcher = true,         -- book button beside the game's menu bar
-  minimap = false,         -- minimap button (off: the launcher replaces it)
+  minimap = true,          -- minimap button (turned on once for installs from before it was the default: Log.Init)
   typing = true,           -- answers type in quickly instead of appearing at once
   showSpoilers = false,    -- show answers marked as spoilers without asking first
   readAloud = true,        -- "Read aloud" (the game's text-to-speech) for answers without a recorded narration
@@ -199,7 +199,7 @@ local function rows()
     { "zoneNudge", L["Zone hints"], L["When you enter a zone, suggest a question about it in chat."] },
     { "dungeonPrimer", L["Dungeon primer prompt"], L["When you enter a dungeon, link its primer in chat."] },
     { "unitTooltips", L["Lore on NPC tooltips"], L["Add a one-line story to the tooltip of NPCs and mobs."] },
-    { "itemTooltips", L["Notes on item tooltips"], L["Say when an item is wanted for a quest or your profession."] },
+    { "itemTooltips", L["Notes on item tooltips"], L["Say when an item is wanted for a quest or starts one."] },
     { "launcher", L["Menu bar button"], L["Show the book button beside the game's menu bar. Drag it to move it."] },
     { "minimap", L["Minimap button"], L["Also show a book button on the minimap."] },
     { "typing", L["Typing animation"], L["Answers type in quickly. Click an answer to show it all at once."] },
@@ -266,6 +266,7 @@ end
 function Options.Create()
   if Options.panel then return Options.panel end
   local p = CreateFrame("Frame", "LoreForeverOptions")
+  p:Hide()   -- the settings window shows it when it displays our page
   p.name = "Lore Forever"
   -- Everything sits in a scroll frame: the settings page is shorter than the list of options. The content is as wide
   -- as the frame, and each line hangs off the one above it, so longer (translated) text pushes the rest down.
@@ -354,4 +355,14 @@ function Options.Open()
   elseif _G.InterfaceOptionsFrame_OpenToCategory and Options.panel then
     InterfaceOptionsFrame_OpenToCategory(Options.panel)
   end
+end
+
+-- Right-click on the book and minimap buttons: close the settings window if it's showing Lore Forever's page,
+-- otherwise open it there (also when it's open on another add-on's page).
+function Options.Toggle()
+  local p, win = Options.panel, _G.SettingsPanel or _G.InterfaceOptionsFrame
+  -- The window itself must be showing: until it first displays our page, the page has no parent and counts as
+  -- visible on its own, which made the first right-click try to close a window that wasn't open.
+  if p and win and win:IsShown() and p:IsVisible() and _G.HideUIPanel then return HideUIPanel(win) end
+  Options.Open()
 end

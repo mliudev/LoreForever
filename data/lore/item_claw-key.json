@@ -1,0 +1,97 @@
+{
+ "key": "item:claw-key",
+ "type": "item",
+ "name": "Claw Key",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Claw Key",
+  "quests": [
+   "quest:1089"
+  ]
+ },
+ "summary": "The Claw Key is one of three druidic keys hidden within the Talon Den atop Stonetalon Peak. Alongside the Barrow Key and Sleepers' Key, it is required to unlock the enchanted Talon Den Hoard.",
+ "sections": [
+  {
+   "title": "Wards of the Talon Den",
+   "body": "The night elf druids established the Talon Den high upon Stonetalon Peak as a sanctuary and repository for powerful relics. To ensure these treasures remained safe from trespassers, they hid them behind a layered security system. The hoard itself is sealed by three distinct enchanted locks: the Barrow Key, the Sleepers' Key, and the Claw Key. Each key is concealed inside a specialized druidic cache resembling a torch within the winding tunnels of the barrow den.",
+   "spoiler": 0
+  },
+  {
+   "title": "Breaching the Caches",
+   "body": "The druids did not leave the keys unguarded or freely accessible. Opening the cache that holds the Claw Key requires first acquiring the Gatekeeper's Key, which is tucked away near the barrow entrance. Once retrieved, the Claw Key serves as a vital component in breaking the druids' seal and claiming the riches hidden deep within the mountain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Claw Key used for?",
+   "aliases": [
+    "claw key purpose",
+    "what does claw key open",
+    "talon den hoard key"
+   ],
+   "answer": "The Claw Key is one of three keys needed to unlock the Talon Den Hoard, a warded stone chest resting in the heart of the Talon Den on Stonetalon Peak."
+  },
+  {
+   "q": "Where can the Claw Key be found?",
+   "aliases": [
+    "claw key location",
+    "where is claw key",
+    "find claw key"
+   ],
+   "answer": "It is stashed inside a druid cache disguised as a torch within the Talon Den tunnels on Stonetalon Peak. Opening the cache requires the Gatekeeper's Key from the den entrance."
+  },
+  {
+   "q": "What other keys are needed alongside the Claw Key?",
+   "aliases": [
+    "other keys",
+    "talon den keys",
+    "keys for the den"
+   ],
+   "answer": "To unlock the Talon Den Hoard, you must collect the Claw Key, the Barrow Key, and the Sleepers' Key, all found in separate caches throughout the den."
+  },
+  {
+   "q": "Why did the druids hide these keys?",
+   "aliases": [
+    "why are keys hidden",
+    "talon den lore"
+   ],
+   "answer": "The night elf druids constructed the Talon Den to store powerful relics away from prying eyes, using a complex system of keys and concealed caches to deter intruders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Interrogating captured night elves allows the Horde to bypass the druids' ancient defenses and pillage the sacred artifacts stored atop Stonetalon Peak."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Named after the iconic Druids of the Claw, this key reflects the sacred traditions and protective wards crafted by night elf barrow dwellers."
+  }
+ ],
+ "keywords": [
+  "barrow den",
+  "claw key",
+  "druids' cache",
+  "gatekeeper's key",
+  "stonetalon peak",
+  "talon den",
+  "talon den hoard",
+  "the den"
+ ],
+ "related": [
+  "quest:1089",
+  "item:barrow-key",
+  "item:sleepers-key",
+  "subzone:stonetalon-peak",
+  "zone:stonetalon",
+  "quest:1088",
+  "quest:1087",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Claw Key",
+  "The Den (quest)"
+ ]
+}

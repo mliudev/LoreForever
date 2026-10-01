@@ -1,0 +1,96 @@
+{
+ "key": "item:incantations-from-the-nether",
+ "type": "item",
+ "name": "Incantations from the Nether",
+ "era": "classic",
+ "zone": "ragefire",
+ "meta": {
+  "wiki": "Incantations from the Nether",
+  "quests": [
+   "quest:5725"
+  ]
+ },
+ "summary": "Incantations from the Nether is a grimoire of demonic magic held by the Searing Blade cultists lurking beneath Orgrimmar. Sylvanas Windrunner and her dreadlord lieutenant, Varimathras, seek to claim the tome to harness its fel knowledge for the Forsaken.",
+ "sections": [
+  {
+   "title": "Gifts of the Legion",
+   "body": "Beneath the red stone streets of Orgrimmar, the Searing Blade\u2014a subterranean sect tied to the Shadow Council\u2014operates in the fiery tunnels of Ragefire Chasm. Among their darkest treasures is the Incantations from the Nether, a spellbook laden with demonic rites bestowed by agents of the Burning Legion. While the cultists use its vile secrets to plot treason within the Orcish capital, word of the text reached far across the sea to the royal quarters of Undercity.",
+   "spoiler": 0
+  },
+  {
+   "title": "Forsaken Ambition",
+   "body": "To Lady Sylvanas Windrunner and the dreadlord Varimathras, such powerful fel relics are wasted on cultists with what they view as lesser vision. Varimathras dispatches loyal Horde adventurers deep into Ragefire Chasm to recover the Incantations alongside its sister volume, Spells of Shadow. The Dark Lady intends to bend the nether-forged powers of the book toward her ultimate crusade: destroying the Lich King and delivering retribution to the Scourge.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the book Incantations from the Nether found?",
+   "aliases": [
+    "where to get incantations from the nether",
+    "who drops incantations from the nether",
+    "incantations from the nether location"
+   ],
+   "answer": "The book is carried by the Searing Blade cultists and warlocks who lurk in Ragefire Chasm, the volcanic cavern network directly underneath the city of Orgrimmar."
+  },
+  {
+   "q": "Who wants this book and why?",
+   "aliases": [
+    "who needs incantations from the nether",
+    "why does sylvanas want this book",
+    "varimathras book quest"
+   ],
+   "answer": "The dreadlord Varimathras and Lady Sylvanas Windrunner seek the book. They believe demonic gifts like these are wasted on the petty cultists of the Searing Blade and wish to turn its dark magic against their sworn enemy, the Lich King."
+  },
+  {
+   "q": "What is the Searing Blade?",
+   "aliases": [
+    "searing blade lore",
+    "who are the searing blade"
+   ],
+   "answer": "The Searing Blade is a secretive coven of warlocks and cultists operating beneath Orgrimmar, allied with the Shadow Council. They serve the Burning Legion and work from the shadows to undermine Thrall's new Horde."
+  },
+  {
+   "q": "What other book is paired with this one?",
+   "aliases": [
+    "other book for varimathras",
+    "power to destroy books"
+   ],
+   "answer": "Varimathras requires two volumes: Incantations from the Nether and a second grimoire called Spells of Shadow. Both must be wrested from the cultists in Ragefire Chasm to complete his mission."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Recovering this book directly aids the Dark Lady's inner circle in Undercity, gathering dark knowledge needed to wage war against the Scourge."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Tomes drawn directly from the Nether contain potent fel magic that any ambitious practitioner of the dark arts would covet."
+  }
+ ],
+ "keywords": [
+  "incantations from the nether",
+  "ragefire chasm",
+  "searing blade",
+  "shadow council",
+  "spells of shadow",
+  "sylvanas",
+  "the power to destroy",
+  "varimathras"
+ ],
+ "related": [
+  "quest:5725",
+  "item:spells-of-shadow",
+  "npc:varimathras",
+  "zone:ragefire",
+  "topic:forsaken",
+  "topic:shadow-council",
+  "zone:undercity",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Incantations from the Nether",
+  "The Power to Destroy... (Classic)"
+ ]
+}

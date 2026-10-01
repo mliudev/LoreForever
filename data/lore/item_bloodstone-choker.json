@@ -1,0 +1,98 @@
+{
+ "key": "item:bloodstone-choker",
+ "type": "item",
+ "name": "Bloodstone Choker",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Bloodstone Choker",
+  "quests": [
+   "quest:1689"
+  ]
+ },
+ "summary": "The Bloodstone Choker is a dark magical talisman crafted from bloodstone, originally held by the warlock mentor Gakin the Darkbinder. Stolen by a treacherous apprentice who fled to the Defias Brotherhood, it serves as a powerful ritual focus capable of piercing the void to draw forth and bind a Voidwalker.",
+ "sections": [
+  {
+   "title": "A Stolen Conduit",
+   "body": "Held in the hidden chambers beneath Stormwind's Slaughtered Lamb, the Bloodstone Choker was one of the prized ritual tools of Gakin the Darkbinder. Its peace was shattered when Surena Caledon, a fledgling warlock under Gakin's tutelage, betrayed her mentor and stole the amulet. Surena fled into the forests of Elwynn to ally herself with the outlaw Defias Brotherhood, taking the enchanted choker with her as both a badge of power and a bargaining chip. Reclaiming it requires hunting her down at the Brackwell Pumpkin Patch before the bandits can turn its dangerous energies to their own designs.",
+   "spoiler": 1
+  },
+  {
+   "title": "Taming the Void",
+   "body": "Carved from bloodstone, the choker possesses the latent mystical authority required to bridge the mortal world and the twisting shadows of the Twisting Nether. Once returned to Gakin, it is immediately put to the test in the crypts beneath the tavern. A warlock must channel the choker's magic at the underground summoning circle to rip a hostile Voidwalker from the void. Only by subduing the furious entity in direct combat while wielding the talisman can a practitioner prove the willpower necessary to command such a guardian.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Bloodstone Choker?",
+   "aliases": [
+    "bloodstone choker",
+    "what is the choker",
+    "what does the choker do"
+   ],
+   "answer": "It is an enchanted necklace made of bloodstone, used by warlocks as a ritual conduit. It possesses enough magical power to tear through reality and summon an unruly Voidwalker from the Nether."
+  },
+  {
+   "q": "Who originally owned the choker?",
+   "aliases": [
+    "who owns the choker",
+    "gakin choker",
+    "where did the choker come from"
+   ],
+   "answer": "It belongs to Gakin the Darkbinder, a master warlock who trains practitioners in the covert basement levels beneath The Slaughtered Lamb in Stormwind's Mage Quarter."
+  },
+  {
+   "q": "Why was the choker stolen?",
+   "aliases": [
+    "who stole it",
+    "why did surena steal it",
+    "surena caledon choker"
+   ],
+   "answer": "Surena Caledon, an apprentice under Gakin, turned her back on her studies and stole the choker before fleeing to join the Defias Brotherhood. She sought power and allied with the bandits hiding in Elwynn Forest."
+  },
+  {
+   "q": "How is the choker used in warlock training?",
+   "aliases": [
+    "how to use choker",
+    "voidwalker ritual choker",
+    "the binding choker"
+   ],
+   "answer": "After being recovered, the choker is activated over the summoning circle in the crypts beneath The Slaughtered Lamb. It draws out a Voidwalker that the aspiring warlock must defeat and subjugate to earn command over the demon."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "For Alliance warlocks, recovering the Bloodstone Choker is a vital rite of passage that bridges basic spellcraft and the command of formidable demonic minions."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Surena Caledon's flight to the Defias Brotherhood demonstrates how ordinary outlaws in Elwynn actively seek dangerous occult relics to bolster their rebellion against Stormwind."
+  }
+ ],
+ "keywords": [
+  "bloodstone choker",
+  "defias",
+  "gakin the darkbinder",
+  "surena caledon",
+  "the binding",
+  "the slaughtered lamb",
+  "voidwalker",
+  "warlock"
+ ],
+ "related": [
+  "quest:1471",
+  "npc:gakin-the-darkbinder",
+  "quest:1688",
+  "subzone:slaughtered-lamb",
+  "topic:warlock",
+  "topic:defias-brotherhood",
+  "zone:stormwind",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Bloodstone Choker",
+  "The Binding (Voidwalker, Stormwind)"
+ ]
+}

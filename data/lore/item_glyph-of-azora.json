@@ -1,0 +1,109 @@
+{
+ "key": "item:glyph-of-azora",
+ "type": "item",
+ "name": "Glyph of Azora",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Glyph of Azora",
+  "quests": [
+   "quest:94",
+   "quest:248"
+  ]
+ },
+ "summary": "A Glyph of Azora is an arcane tracking device crafted by the wizard Theocritus at the Tower of Azora. Bound to the scrying power of the Eye of Azora, these inscribed stones allow the mage to peer across distances and delve into the thoughts of his enemies.",
+ "sections": [
+  {
+   "title": "Eyes Across the Border",
+   "body": "From his tower in Elwynn Forest, the wizard Theocritus works tirelessly to monitor hostile powers threatening the realm. While his crystal relic, the Eye of Azora, enables long-range visual scrying, it lacks the reach to pierce deeper into the minds and plans of adversaries. To overcome this limitation, Theocritus embeds miniature focuses known as Glyphs of Azora. Once affixed to a surface in a remote location, a glyph acts as an anchor for his magic, allowing him not only to read enemy intentions but also to project his voice across miles to communicate directly with field agents.",
+   "spoiler": 0
+  },
+  {
+   "title": "Espionage in Redridge",
+   "body": "Theocritus deploys these glyphs directly into hostile territory in Redridge Mountains. The first is affixed to an ancient lion statue overlooking the Tower of Ilgalar, the stronghold of his rogue rival, the dark wizard Morganth. After tapping into Morganth's mind, Theocritus discovers an unexpected dispute between the renegade mage and the Blackrock orcs occupying nearby Stonewatch Keep. A second glyph is carried into the heights of the keep's intact watchtower, hidden in a discarded liquor jar, to uncover why Morganth and the invaders are at odds.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Glyph of Azora?",
+   "aliases": [
+    "what does glyph of azora do",
+    "why use glyph of azora",
+    "glyph of azora purpose"
+   ],
+   "answer": "It serves as an arcane relay crafted by Theocritus. While his Eye of Azora allows visual scrying from afar, planting a Glyph of Azora establishes an anchor point that lets him read the minds and future plans of his adversaries, as well as project his voice to speak with distant allies."
+  },
+  {
+   "q": "Who created the Glyph of Azora?",
+   "aliases": [
+    "who made the glyph",
+    "glyph of azora creator",
+    "theocritus glyph"
+   ],
+   "answer": "It was created by Theocritus, a powerful mage who resides within the Tower of Azora along the eastern border of Elwynn Forest."
+  },
+  {
+   "q": "Where are the Glyphs of Azora placed?",
+   "aliases": [
+    "where do i put the glyph",
+    "glyph placement locations",
+    "where does glyph go"
+   ],
+   "answer": "One glyph is set into the base of a weather-worn lion statue overlooking the Tower of Ilgalar. A second glyph is smuggled into the upper watchtower of Stonewatch Keep and concealed inside an empty liquor jar to spy on the Blackrock orcs."
+  },
+  {
+   "q": "Why is Theocritus spying on the Tower of Ilgalar?",
+   "aliases": [
+    "why spy on morganth",
+    "theocritus ilgalar",
+    "morganth feud"
+   ],
+   "answer": "The Tower of Ilgalar is occupied by Morganth, a dangerous rogue wizard who is Theocritus's fierce rival. Theocritus uses the glyph to uncover Morganth's schemes before he can unleash dark magic upon the region."
+  },
+  {
+   "q": "How does the glyph allow Theocritus to speak to people?",
+   "aliases": [
+    "talking glyph",
+    "theocritus voice in glyph",
+    "can the glyph talk"
+   ],
+   "answer": "The glyph is tied directly to the arcane energies of the Tower of Azora. Once affixed to a target surface, it establishes a two-way conduit that lets Theocritus project his disembodied voice directly through the stone."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The Glyph of Azora demonstrates practical arcane divination, extending standard crystal scrying into targeted telepathy and remote sensory relays."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The glyphs provide crucial intelligence on hostile movements in Redridge, tracking the rogue sorcerer Morganth and the Blackrock orc garrison at Stonewatch."
+  }
+ ],
+ "keywords": [
+  "glyph of azora",
+  "morganth",
+  "redridge",
+  "scrying",
+  "stonewatch keep",
+  "theocritus",
+  "tower of azora",
+  "tower of ilgalar"
+ ],
+ "related": [
+  "npc:theocritus",
+  "quest:94",
+  "quest:248",
+  "subzone:tower-of-ilgalar",
+  "quest:249",
+  "subzone:stonewatch-keep",
+  "topic:mage",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Glyph of Azora",
+  "A Watchful Eye",
+  "Looking Further"
+ ]
+}

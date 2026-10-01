@@ -1,0 +1,95 @@
+{
+ "key": "item:bottom-of-gelkak-s-key",
+ "type": "item",
+ "name": "Bottom of Gelkak's Key",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Bottom of Gelkak's Key",
+  "quests": [
+   "quest:2098"
+  ]
+ },
+ "summary": "The Bottom of Gelkak's Key is one of three fragments of a shattered mechanical winding key belonging to the shipwrecked gnome pirate Gelkak Gyromast. After his vessel foundered off Darkshore, the piece was scavenged by the shoreline's native reef crawlers.",
+ "sections": [
+  {
+   "title": "Claimed by Crawlers",
+   "body": "When Gelkak Gyromast's ship was sunk by threshadons off the coast of Darkshore, the gnome was thrown ashore along with his belongings. Among his most prized possessions was the winding key used to activate his mechanical first mate. The key shattered on the coastal rocks into three distinct pieces, and local scavengers immediately descended upon the debris. The bottom piece of the key was snatched up by the aggressive crustaceans wandering the surf\u2014specifically the reef and tide crawlers that pick through the detritus along the tideline.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reassembly",
+   "body": "Gelkak cannot activate his mechanical crewman without reuniting the bottom fragment with the middle and top sections, which were dragged off by coastal murlocs and inland foreststriders. Only by prying this heavy segment from the shells of the shoreline crabs can the gnome pirate hope to restore his construct and seek vengeance for his ruined expedition.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Bottom of Gelkak's Key used for?",
+   "aliases": [
+    "what does gelkaks key do",
+    "purpose of bottom of gelkaks key",
+    "why do i need gelkak key bottom"
+   ],
+   "answer": "It is one of three pieces needed to repair the winding key belonging to the stranded pirate Gelkak Gyromast, which is required to reactivate his mechanical first mate."
+  },
+  {
+   "q": "Where does this key piece come from?",
+   "aliases": [
+    "where to find bottom of gelkak key",
+    "who drops bottom of gelkaks key",
+    "gelkak key bottom location"
+   ],
+   "answer": "It is found on the coast of Darkshore, scavenged by local crabs such as Encrusted Tide Crawlers and Raging Reef Crawlers along the water's edge."
+  },
+  {
+   "q": "Why is the key broken into three pieces?",
+   "aliases": [
+    "why did gelkaks key break",
+    "how did the key break"
+   ],
+   "answer": "When Gelkak's ship was wrecked by threshadons, he washed ashore and the key struck the shoreline rocks, snapping into fragments that were scattered among the local wildlife."
+  },
+  {
+   "q": "Who is Gelkak Gyromast?",
+   "aliases": [
+    "who is gelkak",
+    "gelkak gyromast lore"
+   ],
+   "answer": "Gelkak Gyromast is a stranded gnome pirate camped on the shores of Darkshore after a threshadon attack destroyed his vessel and scattered his gear."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will recognize the piece as part of a specialized winding implement designed to power complex clockwork automatons."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomes will appreciate that even shipwrecked and stranded on a hostile coastline, Gyromast relied on clockwork ingenuity rather than flesh-and-blood crew."
+  }
+ ],
+ "keywords": [
+  "crawler",
+  "darkshore",
+  "first mate",
+  "gelkak",
+  "gyromast",
+  "key",
+  "retrieval",
+  "shipwreck"
+ ],
+ "related": [
+  "npc:gelkak-gyromast",
+  "quest:2098",
+  "item:middle-of-gelkak-s-key",
+  "item:top-of-gelkak-s-key",
+  "quest:2078",
+  "zone:darkshore",
+  "topic:pirate"
+ ],
+ "attribution": [
+  "Bottom of Gelkak's Key",
+  "Gyromast's Retrieval"
+ ]
+}

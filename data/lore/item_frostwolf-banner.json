@@ -1,0 +1,81 @@
+{
+ "key": "item:frostwolf-banner",
+ "type": "item",
+ "name": "Frostwolf Banner",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Frostwolf Banner",
+  "quests": [
+   "quest:7161"
+  ]
+ },
+ "summary": "The Frostwolf Banner is a tribal standard cached deep within Wildpaw Cavern in Alterac Valley. Horde initiates are sent to recover it as an ancestral rite of passage to awaken their battle spirit and earn their first clan insignia.",
+ "sections": [
+  {
+   "title": "A Rite of Passage",
+   "body": "For warriors of the Horde arriving in Alterac Valley, claiming true standing among the Frostwolf clan begins with a trial of grit. Warmaster Laggrond sends new recruits south into the damp, hostile corridors of Wildpaw Cavern, a den swarming with territorial gnolls. Reaching the banner hidden within their depths and returning it unbroken demonstrates courage, proving the warrior's battle rage has awakened and earning them the Frostwolf initiate's insignia.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Frostwolf Banner inside a gnoll cave?",
+   "aliases": [
+    "why is banner in wildpaw",
+    "gnolls have banner",
+    "frostwolf banner location"
+   ],
+   "answer": "Warmaster Laggrond and the clan purposefully treat the banner's location in Wildpaw Cavern as an initiation test. Venturing into gnoll territory forces new fighters to shake off complacency, face danger, and awaken their battle spirit."
+  },
+  {
+   "q": "Who do I return the Frostwolf Banner to?",
+   "aliases": [
+    "who wants frostwolf banner",
+    "banner quest turn in",
+    "laggrond banner"
+   ],
+   "answer": "The banner must be returned to Warmaster Laggrond in Alterac Valley. Presenting it to him formally welcomes an initiate into the Frostwolf ranks and earns an insignia of standing."
+  },
+  {
+   "q": "Why does the standard look unusual for a Frostwolf crest?",
+   "aliases": [
+    "twilight hammer symbol banner",
+    "banner looks wrong",
+    "frostwolf banner design"
+   ],
+   "answer": "While recognized by Laggrond as a clan trial standard, its visual markings resemble older tribal insignias, including symbols associated with early orcish clans from the old Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Recovering this banner marks a warrior's formal blooding and initiation into the legendary Frostwolf clan under Warmaster Laggrond."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs, returning a lost clan standard from savage gnolls honors the legacy of Frostfire and Thrall's ancestral heritage in the Alterac mountains."
+  }
+ ],
+ "keywords": [
+  "alterac valley",
+  "frostwolf banner",
+  "gnolls",
+  "insignia",
+  "proving grounds",
+  "warmaster laggrond",
+  "wildpaw cavern"
+ ],
+ "related": [
+  "quest:7161",
+  "npc:warmaster-laggrond",
+  "topic:horde",
+  "topic:gnoll",
+  "topic:twilight-s-hammer",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Frostwolf Banner",
+  "Proving Grounds (Alterac Valley) (Horde)"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "npc:felix-whindlebolt",
+ "type": "npc",
+ "name": "Felix Whindlebolt",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Felix Whindlebolt",
+  "refs": 1
+ },
+ "summary": "Felix Whindlebolt is a displaced gnome refugee taking shelter at Anvilmar in Coldridge Valley. In his haste to flee the radiation flooding Gnomeregan, he lost his personal belongings, and hostile Frostmane trolls made off with them.",
+ "sections": [
+  {
+   "title": "A Displaced Traveler",
+   "body": "Following the tragic fall of Gnomeregan, thousands of gnomes found themselves wandering the freezing reaches of Dun Morogh in search of safety. Felix Whindlebolt fled the irradiated city in such haste that he lost all his personal belongings and tools. To make matters worse, Frostmane ice trolls carried his chest, his box and his bucket of bolts back to their camps southwest of Anvilmar, leaving him stranded, destitute, and relying on sympathetic wanderers to retrieve his stolen gear.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Felix Whindlebolt?",
+   "aliases": [
+    "who is felix",
+    "felix whindlebolt lore",
+    "gnome at whitebeard camp"
+   ],
+   "answer": "Felix Whindlebolt is a gnome refugee currently sheltered at Anvilmar in Coldridge Valley. He lost his belongings while fleeing Gnomeregan, and the local Frostmane trolls took them."
+  },
+  {
+   "q": "Where was Felix trying to go?",
+   "aliases": [
+    "where was felix heading",
+    "felix destination",
+    "why is felix in coldridge valley"
+   ],
+   "answer": "Felix was fleeing the radiation that overran Gnomeregan after the gnomes' attempt to drive out the troggs went horribly wrong. He ended up at Anvilmar, the dwarven outpost in Coldridge Valley, though he finds the place poorly suited to a gnome."
+  },
+  {
+   "q": "What happened to his possessions?",
+   "aliases": [
+    "who stole felix stuff",
+    "felix stolen gear",
+    "frostmane trolls felix"
+   ],
+   "answer": "In his haste to escape Gnomeregan, Felix lost his chest, his box and his bucket of bolts. The Frostmane ice trolls carried them off to their camps southwest of Anvilmar, leaving him stranded without supplies."
+  },
+  {
+   "q": "What does Felix sell to adventurers?",
+   "aliases": [
+    "felix vendor items",
+    "what does felix offer",
+    "felix inventory"
+   ],
+   "answer": "At Anvilmar, Felix offers basic survival supplies to travelers passing through Coldridge Valley, including fresh spring water, tough hunks of bread, and small pouches."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Felix represents the ongoing plight of your displaced kin, forced out into the unforgiving Dun Morogh cold after the catastrophe in Gnomeregan."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The local Frostmane trolls have grown bolder throughout Coldridge Valley, striking at fragile gnome refugees wandering near Anvilmar."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "felix whindlebolt",
+  "frostmane",
+  "gnomeregan",
+  "refugee",
+  "whitebeard's encampment"
+ ],
+ "related": [
+  "quest:3361",
+  "subzone:coldridge-valley",
+  "zone:dunmorogh",
+  "zone:gnomeregan",
+  "subzone:anvilmar",
+  "topic:gnome",
+  "topic:troll",
+  "topic:refugee"
+ ],
+ "attribution": [
+  "Felix Whindlebolt"
+ ]
+}

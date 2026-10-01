@@ -1,0 +1,82 @@
+{
+ "key": "item:horn-of-awakening",
+ "type": "item",
+ "name": "Horn of Awakening",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Horn of Awakening",
+  "quests": [
+   "quest:5321"
+  ]
+ },
+ "summary": "The Horn of Awakening is a sounding instrument kept in a chest by Kerlonian Evershade in southern Darkshore. It is used to rouse the drowsy druid whenever he collapses into a slumber on the road to Ashenvale.",
+ "sections": [
+  {
+   "title": "A Remedy for Drowsy Druids",
+   "body": "Kerlonian Evershade, a Druid of the Claw recently awoken from centuries inside the Emerald Dream, finds himself persistently lethargic in the waking realm. Journeying south toward Maestra's Post, he entrusts this horn to travelers willing to escort him. Whenever exhaustion overtakes him along the perilous wilderness trail, a clear blast from the instrument jolts his senses, prodding him back to his feet before wild beasts or cultists can seize upon his slumber.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Horn of Awakening found?",
+   "aliases": [
+    "horn location",
+    "where is horn of awakening",
+    "kerlonians chest"
+   ],
+   "answer": "The horn rests inside Kerlonian's Chest, beside Kerlonian Evershade's campsite in southern Darkshore near the border of Ashenvale."
+  },
+  {
+   "q": "Why does Kerlonian need the horn to stay awake?",
+   "aliases": [
+    "why is kerlonian sleeping",
+    "why does he fall asleep",
+    "emerald dream slumber"
+   ],
+   "answer": "Having spent long ages slumbering within the Emerald Dream, Kerlonian struggles to adjust to mortal wakefulness and constantly lapses into sudden, deep naps while traveling."
+  },
+  {
+   "q": "Where is Kerlonian trying to go?",
+   "aliases": [
+    "kerlonian destination",
+    "where is he walking",
+    "maestras post escort"
+   ],
+   "answer": "He is attempting to reach Maestra's Post in northern Ashenvale to rendezvous with Liladris Moonriver."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Druids of the Claw spent generations slumbering in the Barrow Dens communing with the Emerald Dream, and returning to waking reality often leaves them dazed and disoriented."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Waking horns and traditional sounding instruments have long been vital tools among the night elves for rousing dormant guardians during times of sudden invasion."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "darkshore",
+  "druid of the claw",
+  "emerald dream",
+  "horn of awakening",
+  "kerlonian evershade",
+  "maestra's post"
+ ],
+ "related": [
+  "npc:kerlonian-evershade",
+  "quest:5321",
+  "subzone:maestra-s-post",
+  "topic:emerald-dream",
+  "zone:darkshore",
+  "zone:ashenvale",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Horn of Awakening",
+  "The Sleeper Has Awakened (Classic)"
+ ]
+}

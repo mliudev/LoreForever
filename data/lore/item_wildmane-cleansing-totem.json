@@ -1,0 +1,92 @@
+{
+ "key": "item:wildmane-cleansing-totem",
+ "type": "item",
+ "name": "Wildmane Cleansing Totem",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Wildmane Cleansing Totem",
+  "quests": [
+   "quest:760"
+  ]
+ },
+ "summary": "The Wildmane Cleansing Totem is a consecrated ritual implement crafted to purify the northern water well of Mulgore. Entrusted to young defenders of the land, it serves as the final instrument in driving out the toxic corruption left by encroaching goblin ventures.",
+ "sections": [
+  {
+   "title": "Purifying the Sacred Wells",
+   "body": "When goblin ventures began poisoning the land and fouling Mulgore's scarce water supplies, the tauren turned to sacred ritual to reverse the blight. After cleansing both the Winterhoof and Thunderhorn water wells, Mull Thunderhorn crafts this final totem to purge the remaining corruption at the Wildmane Water Well north of Thunder Bluff. Infused with natural spirits, the totem cleanses the fetid waters so pure life can nourish the plains once more.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Wildmane Cleansing Totem?",
+   "aliases": [
+    "what does the totem do",
+    "wildmane totem use",
+    "why cleanse the well"
+   ],
+   "answer": "The totem is used in a tauren purification ritual to neutralize the poisons and foul runoff contaminating the Wildmane Water Well north of Thunder Bluff, restoring the purity of the land."
+  },
+  {
+   "q": "Who creates the Wildmane Cleansing Totem?",
+   "aliases": [
+    "who gave me this totem",
+    "mull thunderhorn totem",
+    "where do i get the cleansing totem"
+   ],
+   "answer": "Mull Thunderhorn provides the totem after you assist him in gathering the necessary components and cleansing the other tainted wells throughout Mulgore."
+  },
+  {
+   "q": "Why are the water wells in Mulgore poisoned?",
+   "aliases": [
+    "who poisoned the wells",
+    "why is the well poisonous",
+    "goblin poisons mulgore"
+   ],
+   "answer": "Encroaching goblins have introduced noxious poisons and destructive industrial runoff into the local water table, threatening the tauren tribes and the natural balance of the plains."
+  },
+  {
+   "q": "Where does this totem need to be used?",
+   "aliases": [
+    "wildmane well location",
+    "where is wildmane water well",
+    "where do i take the totem"
+   ],
+   "answer": "It must be taken to the Wildmane Water Well, situated on the rolling plains north of the great bluffs of Thunder Bluff."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Restoring the Wildmane well is a solemn obligation to the Earth Mother, purging foreign industrial toxins to preserve your ancestral homeland."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Channeling spiritual purification through carved totems is fundamental to mending the wounded water spirits corrupted by reckless industry."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "goblin poisons",
+  "mulgore",
+  "mull thunderhorn",
+  "tauren",
+  "wildmane cleansing totem",
+  "wildmane water well"
+ ],
+ "related": [
+  "quest:760",
+  "quest:759",
+  "subzone:wildmane-water-well",
+  "npc:mull-thunderhorn",
+  "subzone:bloodhoof-village",
+  "zone:mulgore",
+  "zone:thunderbluff",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Wildmane Cleansing Totem",
+  "Wildmane Cleansing (Classic)"
+ ]
+}

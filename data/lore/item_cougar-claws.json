@@ -1,0 +1,90 @@
+{
+ "key": "item:cougar-claws",
+ "type": "item",
+ "name": "Cougar Claws",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Cougar Claws",
+  "quests": [
+   "quest:756"
+  ]
+ },
+ "summary": "Cougar Claws are harvested from flatland cougars that roam the central plains of Mulgore. They serve as a vital material in tauren ritual craft, embodying the untamed balance and natural ferocity of the wild predators.",
+ "sections": [
+  {
+   "title": "A Vessel of Natural Balance",
+   "body": "The flatland cougar is one of the apex hunters of Mulgore's sprawling grasslands, stalking prey with instinctual grace. In tauren tradition, taking the claws of such a predator is not an act of casual slaughter or trophy hunting, but a way to harness the natural spirit of the beast. When goblin operations begin defiling the ancestral waters of the plains, Mull Thunderhorn calls upon young hunters to gather these claws alongside those of prairie stalkers. The tauren believe that the pure, uncorrupted predatory instincts of native beasts can be woven into a ritual totem capable of scouring unnatural toxins and foul sorcery from the poisoned Thunderhorn Water Well.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Cougar Claws used for?",
+   "aliases": [
+    "cougar claws use",
+    "why get cougar claws",
+    "cougar claws purpose"
+   ],
+   "answer": "Mull Thunderhorn uses them along with stalker claws to craft the Thunderhorn Cleansing Totem. The tauren weave the pure spirit of native predators into ritual objects to purify water wells poisoned by goblin industrial ventures."
+  },
+  {
+   "q": "Where do Cougar Claws come from?",
+   "aliases": [
+    "where to get cougar claws",
+    "cougar claw source",
+    "who drops cougar claws"
+   ],
+   "answer": "They are taken from flatland cougars found prowling the rolling plains of Mulgore, primarily east and west of Bloodhoof Village."
+  },
+  {
+   "q": "Why does Mull Thunderhorn need predator claws to cleanse a well?",
+   "aliases": [
+    "why predator claws",
+    "mull claws reason",
+    "totem predator claws"
+   ],
+   "answer": "Tauren shamanic and druidic traditions revere the purity with which wild beasts hunt. Unlike goblins who exploit and defile the earth, native predators live in complete balance with the land, making their essence ideal for counteracting artificial corruption."
+  },
+  {
+   "q": "Are Cougar Claws useful for anything else?",
+   "aliases": [
+    "other uses cougar claws",
+    "sell cougar claws"
+   ],
+   "answer": "Outside of crafting the ritual totem for the Thunderhorn Water Well, they have no specialized use and are typically sold to local traders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Gathering these claws teaches young tauren that hunting is rooted in balance and spiritual necessity, standing in stark contrast to the reckless pollution brought by goblin enterprises."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman recognize that the essence of local predators holds an unbroken tie to the spirits of the plains, making them essential conduits for purifying wards and cleansing totems."
+  }
+ ],
+ "keywords": [
+  "cleansing totem",
+  "cougar claws",
+  "flatland cougar",
+  "mulgore",
+  "mull thunderhorn",
+  "thunderhorn totem"
+ ],
+ "related": [
+  "quest:756",
+  "item:thunderhorn-cleansing-totem",
+  "npc:mull-thunderhorn",
+  "item:stalker-claws",
+  "subzone:thunderhorn-water-well",
+  "quest:758",
+  "zone:mulgore",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Cougar Claws",
+  "Thunderhorn Totem (Classic)"
+ ]
+}

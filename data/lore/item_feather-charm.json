@@ -1,0 +1,88 @@
+{
+ "key": "item:feather-charm",
+ "type": "item",
+ "name": "Feather Charm",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Feather Charm",
+  "quests": [
+   "quest:1599"
+  ]
+ },
+ "summary": "Feather Charms are crude magical trinkets carried by Frostmane troll novices in the snow-swept valleys of Coldridge Valley. Though fashioned from simple materials, they harbor an innate sorcerous resonance that catches the eye of local warlock mentors.",
+ "sections": [
+  {
+   "title": "Troll Trinkets and Dark Studies",
+   "body": "The Frostmane trolls inhabiting the snowy caverns southwest of Anvilmar are known mostly for territorial savagery, but their novices dabble in primitive spellcraft. The feather charms carried by these young trolls hold a faint yet unmistakable magical power. In Anvilmar, warlock instructor Alamar Grimm considers them an intriguing subject of study\u2014surprising for crude trollcraft\u2014and uses them as a proving ground for fledgling warlocks seeking to master the binding of their first imp.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who carries these feather charms?",
+   "aliases": [
+    "where do feather charms come from",
+    "who drops feather charm",
+    "frostmane novice charm"
+   ],
+   "answer": "They are carried by Frostmane novices found lurking in the snowy cave to the southwest of Anvilmar in Coldridge Valley."
+  },
+  {
+   "q": "Why does Alamar Grimm want them?",
+   "aliases": [
+    "why does alamar need charms",
+    "alamar grimm feather charms",
+    "what does grimm do with them"
+   ],
+   "answer": "Alamar Grimm finds the charms' inherent magic intriguing and worthy of research, which he notes is quite unexpected for troll craftsmanship. He demands them from aspiring warlocks to test their physical fortitude and magical potential before teaching them how to summon an imp."
+  },
+  {
+   "q": "Are the Frostmane trolls adept magic users?",
+   "aliases": [
+    "can frostmane trolls use magic",
+    "frostmane novice magic"
+   ],
+   "answer": "While the Frostmane tribe is largely seen as crude and hostile, their novices demonstrate rudimentary spellcasting. The feather charms they bear focus that basic magic, proving that even their fledgling casters harness arcane or shamanistic energies."
+  },
+  {
+   "q": "What do the charms look like?",
+   "aliases": [
+    "feather charm description",
+    "appearance of feather charm"
+   ],
+   "answer": "They are simple talismans woven with feathers and twine, fashioned by Frostmane novices as foci for their early magical training in the cold caves of Dun Morogh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "For novice warlocks in Dun Morogh, taking feather charms from troll spellcasters serves as the essential test of discipline before Alamar Grimm entrusts them with the ritual to summon an imp."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomish warlocks operating out of Anvilmar study these rudimentary troll fetishes to dissect the raw, unrefined magic channelled by primitive Frostmane casters."
+  }
+ ],
+ "keywords": [
+  "alamar grimm",
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "feather charm",
+  "frostmane novice",
+  "warlock"
+ ],
+ "related": [
+  "npc:alamar-grimm",
+  "quest:1599",
+  "subzone:anvilmar",
+  "topic:warlock",
+  "topic:troll",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Feather Charm",
+  "Beginnings"
+ ]
+}

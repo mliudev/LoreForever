@@ -1,0 +1,86 @@
+{
+ "key": "item:sack-of-murloc-heads",
+ "type": "item",
+ "name": "Sack of Murloc Heads",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Sack of Murloc Heads",
+  "quests": [
+   "quest:560"
+  ]
+ },
+ "summary": "The Sack of Murloc Heads is a gruesome bundle collected along the beaches of the Hillsbrad Foothills. Assembled as proof of military action against local shore pests, it is pawned off by Lieutenant Farren Orinelle onto passing adventurers for delivery to Marshal Redpath in Southshore.",
+ "sections": [
+  {
+   "title": "Bureaucracy and Coastal Pests",
+   "body": "Southshore stands under constant siege from Syndicate outlaws, Forsaken skirmishers, and wild murlocs crowding the coast. To secure funding and favor from town leadership, local officers must demonstrate that coastal threats are actively being culled. Lieutenant Farren Orinelle gathers proof in the form of severed heads, but the distasteful nature of the cargo\u2014and his own squeamishness\u2014prompts him to hand the dripping sack off to travelers rather than deliver the grisly evidence to Marshal Redpath himself.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sack of Murloc Heads?",
+   "aliases": [
+    "sack of heads",
+    "murloc sack",
+    "what is this item"
+   ],
+   "answer": "It is a burlap sack filled with severed murloc heads gathered from the western beaches of Hillsbrad. It serves as physical proof of coastal pacification for Southshore's garrison commander."
+  },
+  {
+   "q": "Why won't Lieutenant Farren deliver it himself?",
+   "aliases": [
+    "why farren makes you carry it",
+    "farren's excuse",
+    "lazy farren"
+   ],
+   "answer": "Farren finds carrying a foul-smelling bag of decaying fish-beast heads revolting. Preferring to keep his uniform and hands clean, he delegates the unpleasant chore across Southshore to an obliging adventurer."
+  },
+  {
+   "q": "Who receives the sack?",
+   "aliases": [
+    "who gets the heads",
+    "where do i bring it",
+    "marshal redpath turn in"
+   ],
+   "answer": "The delivery is made to Marshal Redpath, the commander overseeing the defenses of Southshore, who assesses the town's security and demands hard proof of defensive efforts."
+  },
+  {
+   "q": "Why does Southshore require murloc heads as proof?",
+   "aliases": [
+    "why collect murloc heads",
+    "proof of kill"
+   ],
+   "answer": "Murlocs constantly raid the coastlines and threaten the harbor. Officers are expected to verify that patrols are maintaining perimeter security, and tangible trophies ensure no soldier is simply taking credit for idle watches."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The delivery illustrates the frayed logistics and unglamorous day-to-day burdens carried by Southshore's defenders as they hold the northern Alliance enclave together."
+  }
+ ],
+ "keywords": [
+  "bounty",
+  "farren orinelle",
+  "heads",
+  "hillsbrad",
+  "marshal redpath",
+  "murloc",
+  "southshore"
+ ],
+ "related": [
+  "quest:559",
+  "subzone:southshore",
+  "npc:lieutenant-farren-orinelle",
+  "item:murloc-head",
+  "topic:murloc",
+  "quest:536",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Sack of Murloc Heads",
+  "Farren's Proof (2)"
+ ]
+}

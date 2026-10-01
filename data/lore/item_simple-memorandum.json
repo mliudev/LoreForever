@@ -1,0 +1,89 @@
+{
+ "key": "item:simple-memorandum",
+ "type": "item",
+ "name": "Simple Memorandum",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Simple Memorandum",
+  "quests": [
+   "quest:3112"
+  ]
+ },
+ "summary": "The Simple Memorandum is an official notice delivered to novice gnome warriors training in Coldridge Valley. Written on behalf of the warrior trainer Thran Khorman, it instructs fledglings to report to him in Anvilmar to advance their martial discipline.",
+ "sections": [
+  {
+   "title": "A Summons to Anvilmar",
+   "body": "Novice adventurers in Coldridge Valley frequently find themselves entrusted with letters of introduction as they demonstrate their mettle against the local wildlife and trogg threats. For young gnome fighters, this memorandum serves as a formal summons from Thran Khorman, the resident warrior trainer within Anvilmar. Dwarven veterans recognize that while gnomes may rely on intellect and contraptions, retaking Gnomeregan will demand pure physical resolve and martial discipline. The memorandum directs the bearer to put aside preliminary tasks and seek personalized instruction in the art of war.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Simple Memorandum?",
+   "aliases": [
+    "simple memorandum",
+    "what is this note",
+    "memorandum item"
+   ],
+   "answer": "It is a written message delivered to novice gnome warriors working in Coldridge Valley, directing them to report to the dwarven warrior trainer inside Anvilmar."
+  },
+  {
+   "q": "Who wrote the Simple Memorandum?",
+   "aliases": [
+    "who wrote memorandum",
+    "who sent note",
+    "author of simple memorandum"
+   ],
+   "answer": "The memorandum originates from Thran Khorman, the dwarven warrior trainer stationed in Anvilmar, who aims to spot and prepare promising new combatants."
+  },
+  {
+   "q": "What happens after reading the Simple Memorandum?",
+   "aliases": [
+    "what do i do with memorandum",
+    "where do i take it",
+    "turn in simple memorandum"
+   ],
+   "answer": "Once you read the document, you take it to Thran Khorman inside Anvilmar. He acknowledges your determination to reclaim your lost home and offers to train you in foundational warrior techniques."
+  },
+  {
+   "q": "Why is a dwarf training gnome warriors?",
+   "aliases": [
+    "why thran training gnomes",
+    "dwarves training gnomes"
+   ],
+   "answer": "Following the fall of Gnomeregan, gnome refugees settled under the hospitality of Ironforge and Anvilmar. Dwarven veterans like Thran Khorman have pledged their martial expertise to help their exiled allies train and ultimately take back their irradiated city."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This note represents a warrior's initial step out of rudimentary skirmishing into formal combat instruction under Thran Khorman in Anvilmar."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "For gnome exiles, the memorandum is a reminder of their shared objective: honing battle skills alongside their dwarven allies to prepare for the eventual liberation of Gnomeregan."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "gnomeregan",
+  "simple memorandum",
+  "thran khorman",
+  "warrior training"
+ ],
+ "related": [
+  "quest:3112",
+  "npc:thran-khorman",
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "zone:dunmorogh",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Simple Memorandum",
+  "Simple Memorandum (quest)"
+ ]
+}

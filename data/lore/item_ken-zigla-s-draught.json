@@ -1,0 +1,109 @@
+{
+ "key": "item:ken-zigla-s-draught",
+ "type": "item",
+ "name": "Ken'zigla's Draught",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Ken'zigla's Draught",
+  "quests": [
+   "quest:1511",
+   "quest:1515"
+  ]
+ },
+ "summary": "Ken'zigla's Draught is a potent, foul-tasting medicinal tonic prepared by Ken'zigla in the Stonetalon Mountains. It is formulated to restore enough strength to critically wounded individuals so they can move without bleeding out.",
+ "sections": [
+  {
+   "title": "A Bitter Remedy",
+   "body": "Prepared by Ken'zigla in the Stonetalon Mountains, this potent brew serves as an emergency restorative for those on the verge of death. The tonic is extremely strong and must be measured carefully; drinking more than half a dose at once risks causing the patient to bleed out as their circulation surges. Administering half provides enough raw vigor to move and flee imminent danger, while the remainder must wait until the body stabilizes after a full night's rest.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mercy in the Barrens",
+   "body": "The draught plays a vital role in the search for Dogran, an operative captured and tortured by quilboar north of Camp Taurajo. Carried by Horde warlocks seeking a soul devourer's token, the bitter mixture is delivered directly into the hostile razormane encampment. Drinking it provides Dogran just enough vitality to hobble away from his captors, even though severe wounds have permanently cost him the use of his limbs.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Ken'zigla's Draught used for?",
+   "aliases": [
+    "what does kenziglas draught do",
+    "draught purpose",
+    "why do i need kenziglas draught"
+   ],
+   "answer": "It is a potent medicinal brew crafted to restore strength to dying or grievously injured individuals. Administered properly, it gives a wounded person enough stamina to stand and escape captivity without causing fatal hemorrhaging."
+  },
+  {
+   "q": "Who makes the draught?",
+   "aliases": [
+    "who brews the draught",
+    "who is kenzigla",
+    "kenzigla location"
+   ],
+   "answer": "It is brewed by Ken'zigla, an apothecary or herbalist residing in the Stonetalon Mountains who prepared it anticipating that someone would arrive seeking aid for Dogran."
+  },
+  {
+   "q": "Why must the draught only be taken half at a time?",
+   "aliases": [
+    "how to take kenziglas draught",
+    "half dose draught",
+    "draught instructions"
+   ],
+   "answer": "The concoction is exceptionally harsh on the body. A half dose imparts just enough vigor to move without causing severe bleeding, while the second half must wait until the patient rests for a night to avoid fatal strain."
+  },
+  {
+   "q": "Who receives the draught?",
+   "aliases": [
+    "who drinks the draught",
+    "who is dogran",
+    "where to deliver draught"
+   ],
+   "answer": "It is ultimately brought to Dogran, an operative held prisoner and badly injured in a quilboar camp north of Camp Taurajo in the Barrens."
+  },
+  {
+   "q": "Why are warlocks sent to retrieve this medicine?",
+   "aliases": [
+    "why do warlocks need this",
+    "succubus quest draught",
+    "warlock quest kenzigla"
+   ],
+   "answer": "Horde warlocks seeking to bind a succubus are guided toward Dogran, who possesses an item of deep emotional resonance. Helping deliver the draught is necessary to reach him and secure what is needed for the summoning ritual."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Procuring and delivering this draught is an essential step during the trials to summon and bind a succubus, proving a warlock's resourcefulness and tracking abilities across the Barrens."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "With Camp Taurajo undermanned due to foraging patrols, the draught represents the only lifeline for an operative captured behind enemy quilboar lines."
+  }
+ ],
+ "keywords": [
+  "camp taurajo",
+  "dogran",
+  "grunt logmar",
+  "ken'zigla's draught",
+  "kenzigla",
+  "stonetalon mountains",
+  "succubus quest",
+  "the barrens"
+ ],
+ "related": [
+  "quest:1511",
+  "quest:1515",
+  "quest:1509",
+  "quest:1512",
+  "quest:1471",
+  "npc:grunt-logmar",
+  "subzone:camp-taurajo",
+  "topic:quilboar"
+ ],
+ "attribution": [
+  "Ken'zigla's Draught",
+  "Ken'zigla's Draught (quest)",
+  "Dogran's Captivity"
+ ]
+}

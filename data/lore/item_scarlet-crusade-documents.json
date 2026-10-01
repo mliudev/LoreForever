@@ -1,0 +1,93 @@
+{
+ "key": "item:scarlet-crusade-documents",
+ "type": "item",
+ "name": "Scarlet Crusade Documents",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Scarlet Crusade Documents",
+  "quests": [
+   "quest:382",
+   "quest:383"
+  ]
+ },
+ "summary": "These intercepted papers were carried by a Scarlet Crusade messenger dispatched from the Scarlet Monastery to the camps near Deathknell. Containing tactical maps and orders for field commanders across Tirisfal Glades, they provide the Forsaken with the exact military intelligence needed to target the Crusade's regional leadership.",
+ "sections": [
+  {
+   "title": "Intercepted Orders",
+   "body": "Dispatched straight from the Scarlet Monastery, the courier Meven Korgal carried these documents toward the Crusade's southern encampment outside Deathknell. While the papers contain ordinary scouting dispatches and standard orders urging zealots to fortify positions near the ruined Capital City, their true value lies in detailed strategic maps. The documents reveal the names, locations, and dispositions of Scarlet field officers stationed across Tirisfal Glades, turning an otherwise routine courier run into a catastrophic intelligence breach for the zealots.",
+   "spoiler": 0
+  },
+  {
+   "title": "Delivery to Brill",
+   "body": "Executor Arren swiftly recognized that local forces in Deathknell could not exploit the full breadth of the intelligence. Instead, the captured dossier serves as a newly awakened Forsaken's passport out of the starter valley. Carried northeast past Cold Hearth Manor into Brill, the documents are handed directly to Executor Zygand outside the Brill Town Hall. With these maps in hand, the Forsaken military leadership plans swift decapitation strikes against Scarlet commanders entrenched across the Glades.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was carrying these documents?",
+   "aliases": [
+    "who dropped these",
+    "scarlet messenger",
+    "meven korgal"
+   ],
+   "answer": "They were carried by Meven Korgal, a Scarlet Crusade courier sent from the Scarlet Monastery down to the Crusade's encampment southeast of Deathknell."
+  },
+  {
+   "q": "What information is inside the documents?",
+   "aliases": [
+    "what do the papers say",
+    "document contents"
+   ],
+   "answer": "The bundle includes scouting reports, orders to fortify positions near Lordaeron's ruined capital, and a detailed map laying out the names and locations of Scarlet Crusade field commanders across Tirisfal Glades."
+  },
+  {
+   "q": "Who needs to see these documents?",
+   "aliases": [
+    "where do i take them",
+    "who do i give the documents to"
+   ],
+   "answer": "After being recovered for Executor Arren in Deathknell, they are entrusted to you for delivery to Executor Zygand, who oversees regional military efforts outside Brill Town Hall."
+  },
+  {
+   "q": "Why are these documents important to the Forsaken?",
+   "aliases": [
+    "why do forsaken want them",
+    "scarlet documents importance"
+   ],
+   "answer": "The captured maps pinpoint Crusade officer deployments throughout Tirisfal Glades, giving the Forsaken the upper hand to eliminate enemy leadership and shatter the zealots' regional morale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Carrying these intercepted papers marks an awakened Forsaken's graduation from the cemetery trials of Deathknell into the wider war effort directed from Brill."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "deathknell",
+  "executor arren",
+  "executor zygand",
+  "meven korgal",
+  "scarlet crusade documents",
+  "the red messenger",
+  "vital intelligence"
+ ],
+ "related": [
+  "quest:382",
+  "quest:383",
+  "npc:executor-arren",
+  "npc:executor-zygand",
+  "topic:scarlet-crusade",
+  "subzone:deathknell",
+  "subzone:brill",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Scarlet Crusade Documents",
+  "The Red Messenger",
+  "Vital Intelligence (Classic)"
+ ]
+}

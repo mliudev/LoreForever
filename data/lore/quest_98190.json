@@ -1,0 +1,125 @@
+{
+ "key": "quest:98190",
+ "type": "quest",
+ "name": "A Friend of the Family",
+ "era": "forever",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   98190
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Automatic",
+  "end": "Highlord Bolvar Fordragon",
+  "previous": "Return the Statuette (2)",
+  "next": "A Friend of the Family (2)",
+  "wiki": "A Friend of the Family",
+  "chain": []
+ },
+ "summary": "A Friend of the Family is an urgent courier task originating from Menethil Harbor in the Wetlands. Fearing local threats like the Dragonmaw orcs, the harbor authorities entrust an adventurer to deliver the priceless Menethil Statuette directly to Highlord Bolvar Fordragon in Stormwind Keep.",
+ "sections": [
+  {
+   "title": "A Precarious Harbor",
+   "body": "Menethil Harbor serves as a crucial naval gateway linking the northern reaches of the Eastern Kingdoms to the south. Named in honor of the late King Terenas Menethil II of Lordaeron, the port stands isolated among treacherous marshes and aggressive enemies. With local threats mounting, harbor leadership recognizes that priceless relics associated with the fallen northern kingdom cannot remain safely in such an exposed outpost.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Dragonmaw Threat",
+   "body": "The Wetlands remain infested with remnants of the Dragonmaw clan, savage orcs known for their dark past and ruthless opportunism. Given their proximity and hunger for conquest, harbor defenders fear the Dragonmaw would stop at nothing to pillage historical treasures like the Menethil Statuette, possibly defiling or weaponizing such a symbol for their own ends.",
+   "spoiler": 0
+  },
+  {
+   "title": "Straight to the Highlord",
+   "body": "Rather than risk delays through standard bureaucratic or military channels, the courier is instructed to bypass the chain of command entirely. The relic is dispatched directly to Stormwind Keep into the hands of Highlord Bolvar Fordragon, regent of the young King Anduin Wrynn, trusting that the leadership in the capital can best safeguard a piece of Lordaeron's heritage.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Menethil Statuette?",
+   "aliases": [
+    "menethil relic",
+    "what is the statuette",
+    "statuette lore"
+   ],
+   "answer": "The Menethil Statuette is a valuable heirloom tied to the royal line of Lordaeron and King Terenas Menethil II. It represents the historical bonds between the northern kingdom and the Alliance, making it a target for scavengers and enemies."
+  },
+  {
+   "q": "Why can't the statuette stay in Menethil Harbor?",
+   "aliases": [
+    "why move the statuette",
+    "is menethil harbor unsafe"
+   ],
+   "answer": "Menethil Harbor is isolated and bordered by hostile swamps, dark iron dwarves, murlocs, and hostile orcs. The garrison considers the settlement far too vulnerable to safely protect such a meaningful relic."
+  },
+  {
+   "q": "Who are the Dragonmaw and why do they want it?",
+   "aliases": [
+    "dragonmaw threat",
+    "why do orcs want statuette"
+   ],
+   "answer": "The Dragonmaw clan is a faction of orcs entrenched within the Wetlands. Harbor officials worry they would gladly sacrifice warriors to plunder prestigious Alliance relics, potentially desecrating or utilizing them maliciously."
+  },
+  {
+   "q": "Why deliver the relic directly to Bolvar Fordragon?",
+   "aliases": [
+    "why bolvar",
+    "why bypass chain of command"
+   ],
+   "answer": "As Regent of Stormwind and protector of young King Anduin, Highlord Bolvar Fordragon holds supreme executive authority in the capital. Handing it to him directly ensures it bypasses administrative gridlock and receives maximum security."
+  },
+  {
+   "q": "Where is Highlord Bolvar Fordragon located?",
+   "aliases": [
+    "bolvar location",
+    "where is bolvar"
+   ],
+   "answer": "Highlord Bolvar Fordragon stands in the throne room of Stormwind Keep, positioned alongside the boy-king Anduin Wrynn."
+  },
+  {
+   "q": "How does Menethil Harbor connect to King Terenas?",
+   "aliases": [
+    "why is it called menethil harbor",
+    "terenas menethil connection"
+   ],
+   "answer": "Menethil Harbor was named in tribute to King Terenas Menethil II, who led Lordaeron and supported the Alliance of Lordaeron through the Second War before his tragic demise prior to the Third War."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans, safeguarding an artifact of the Menethil dynasty preserves the proud, tragic memory of fallen Lordaeron and reinforces Stormwind's duty as the last great human kingdom."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Delivering the relic honors the historic northern Alliance and keeps an invaluable symbol out of the clutches of the Dragonmaw clan."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The Menethil name evokes the founding patron of the Knights of the Silver Hand, making the preservation of this relic a matter of solemn duty for any holy warrior."
+  }
+ ],
+ "keywords": [
+  "bolvar",
+  "dragonmaw",
+  "fordragon",
+  "harbor",
+  "menethil",
+  "statuette",
+  "stormwind",
+  "terenas",
+  "wetlands"
+ ],
+ "related": [
+  "item:menethil-statuette",
+  "npc:bolvar-fordragon",
+  "subzone:stormwind-keep",
+  "zone:wetlands",
+  "topic:terenas-menethil-ii",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "A Friend of the Family"
+ ]
+}

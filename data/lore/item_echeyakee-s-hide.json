@@ -1,0 +1,81 @@
+{
+ "key": "item:echeyakee-s-hide",
+ "type": "item",
+ "name": "Echeyakee's Hide",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Echeyakee's Hide",
+  "quests": [
+   "quest:881"
+  ]
+ },
+ "summary": "Echeyakee's Hide is the pale pelt taken from the legendary white lion known as Whitemist in the Barrens. Revered by the tauren as an embodiment of mercy and death, the pelt serves as proof of a hunter's prowess for Sergra Darkthorn at the Crossroads.",
+ "sections": [
+  {
+   "title": "Trophy of Whitemist",
+   "body": "In the Taur-ahe tongue, Echeyakee means Whitemist. The predator earned the title among the savannah lions for his stealthy white coat and the swiftness with which he took down prey, ending their lives before fear or pain could take hold. Claiming the beast's pelt requires summoning the elusive cat near giant kodo bones northeast of the Crossroads with a ceremonial horn. To present this hide to Sergra Darkthorn is not just to prove martial skill, but to honor the predator's silent, merciful end.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Echeyakee's Hide come from?",
+   "aliases": [
+    "where do i get echeyakee's hide",
+    "how to get echeyakee hide",
+    "echeyakee pelt location"
+   ],
+   "answer": "The hide is obtained by slaying Echeyakee, the white lion who lairs among giant kodo skeletons northeast of the Crossroads in the Barrens. He must be summoned using the Horn of Echeyakee provided by Sergra Darkthorn."
+  },
+  {
+   "q": "Who wants Echeyakee's Hide?",
+   "aliases": [
+    "who turns in echeyakee hide",
+    "turn in echeyakees hide",
+    "who needs echeyakee hide"
+   ],
+   "answer": "Sergra Darkthorn, an orc huntress residing at the Crossroads, tasks rising Horde hunters with tracking the great cat and returning with his pelt to prove their connection to the wild."
+  },
+  {
+   "q": "What does the name Echeyakee mean?",
+   "aliases": [
+    "echeyakee translation",
+    "meaning of echeyakee",
+    "tauren name echeyakee"
+   ],
+   "answer": "In the tauren language, Echeyakee translates to 'Whitemist.' The name honors the cat's pale pelt and the belief that he moved across the savannah like a rolling mist, killing without causing lingering terror or agony."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "To the tauren, hunting Echeyakee is a sacred test of mercy and stealth, honoring Whitemist's swift spirit rather than seeking mere conquest."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Claiming the pelt of the savannah's apex stalker is an early rite of passage for Horde trackers seeking to master the subtleties of the wild."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "echeyakee",
+  "echeyakee's hide",
+  "sergra darkthorn",
+  "white lion",
+  "whitemist"
+ ],
+ "related": [
+  "quest:881",
+  "item:horn-of-echeyakee",
+  "quest:860",
+  "zone:barrens",
+  "subzone:crossroads",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Echeyakee's Hide",
+  "Echeyakee (Classic)"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "key": "item:sealed-envelope",
+ "type": "item",
+ "name": "Sealed Envelope",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Sealed Envelope",
+  "quests": [
+   "quest:1094"
+  ]
+ },
+ "summary": "This tightly sealed packet contains confidential Venture Company technical documents and stolen schematics. Assembled by the exiled goblin engineer Fizziks, it holds proprietary designs meant for delivery to Sputtervalve in Ratchet.",
+ "sections": [
+  {
+   "title": "Corporate Espionage",
+   "body": "When the goblin engineer Fizziks was abruptly ejected from the Venture Company's logging operations in the Stonetalon Mountains, he did not leave empty-handed. Stuffing internal manuals, operating procedures, and technical specifications into this envelope, he managed to smuggle out company secrets under the noses of his former overseers. Most prized among these stolen records are the technical schematics for the Super Reaper 6000, a devastating piece of industrial clear-cutting machinery.",
+   "spoiler": 0
+  },
+  {
+   "title": "Delivery to Ratchet",
+   "body": "Rather than keeping the dangerous trade secrets buried, Fizziks sends the packet south to Sputtervalve, an engineer residing in the neutral goblin port of Ratchet. While business rivals in the Steamwheedle Cartel have little personal love or trust for Fizziks, the engineering value of the designs inside the envelope is undeniable. The documents provide a clear window into Venture Company mechanical ingenuity and give independent engineers a chance to exploit the cartel's advanced logging technologies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Sealed Envelope?",
+   "aliases": [
+    "envelope contents",
+    "what is in sealed envelope",
+    "sealed envelope items"
+   ],
+   "answer": "The envelope contains internal Venture Company documents, technical operating manuals, and the blueprints for the Super Reaper 6000 wood-clearing machine, all snatched by Fizziks during his hasty departure."
+  },
+  {
+   "q": "Who prepared this packet?",
+   "aliases": [
+    "who made the envelope",
+    "who gave sealed envelope",
+    "fizziks envelope"
+   ],
+   "answer": "The envelope was prepared by Fizziks, a disgruntled goblin engineer who was booted out by the Venture Company at their logging operation in the Stonetalon Mountains."
+  },
+  {
+   "q": "Who is intended to receive it?",
+   "aliases": [
+    "who gets the envelope",
+    "where does envelope go",
+    "sputtervalve delivery"
+   ],
+   "answer": "It is addressed to Sputtervalve, a goblin tinkerer residing in the port town of Ratchet within the Barrens."
+  },
+  {
+   "q": "Why does Sputtervalve want these documents?",
+   "aliases": [
+    "why sputtervalve wants it",
+    "venture company tech ratchet"
+   ],
+   "answer": "Though Sputtervalve dislikes the Venture Company and is wary of Fizziks, the documents contain valuable improvements and schematics that allow outside tinkerers to understand and adopt the company's powerful mechanical designs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The envelope holds technical drawings for the Super Reaper 6000, representing some of the most destructive and lucrative mechanical automation devised by goblin hands."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Carrying these papers south from Stonetalon aids the neutral goblins of Ratchet in undermining the aggressive, exploitative logging operations of the Venture Company."
+  }
+ ],
+ "keywords": [
+  "blueprints",
+  "fizziks",
+  "ratchet",
+  "sealed envelope",
+  "sputtervalve",
+  "stonetalon",
+  "super reaper 6000",
+  "venture company"
+ ],
+ "related": [
+  "quest:1094",
+  "item:super-reaper-6000-blueprints",
+  "npc:sputtervalve",
+  "topic:venture-company",
+  "zone:stonetalon",
+  "subzone:ratchet",
+  "zone:barrens",
+  "quest:1093"
+ ],
+ "attribution": [
+  "Sealed Envelope",
+  "Further Instructions"
+ ]
+}

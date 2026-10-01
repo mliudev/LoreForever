@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Tavern in the Wastes",
-   "body": "Tucked safely within the fortified walls of Gadgetzan, the Road Warrior is the beating heart of hospitality in Tanaris. Run by the goblin Innkeeper Fizzgrimble, the establishment welcomes Alliance and Horde adventurers alike under the neutral peace enforced by Steamwheedle muscle. Inside its shaded walls, thirsty travelers can wash down the gritty desert sand with the house specialty, Mechs on the Beach, swap stories about the surrounding perils of the Southsea pirates and the Wastewander bandits, or set down their hearthstones before braving the scorching dunes.",
+   "body": "Tucked safely within the fortified walls of Gadgetzan, the Road Warrior is the beating heart of hospitality in Tanaris. Run by the goblin Innkeeper Fizzgrimble, the establishment welcomes Alliance and Horde adventurers alike under the neutral peace enforced by Steamwheedle muscle. Inside its shaded walls, thirsty travelers can wash down the gritty desert sand with a cool drink, swap stories about the surrounding perils of the Southsea pirates and the Wastewander bandits, or set down their hearthstones before braving the scorching dunes.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "road warrior drink",
     "tavern drink"
    ],
-   "answer": "The tavern's best-known concoction is the Mechs on the Beach, a popular local specialty favored by travelers looking to wash down the dry grit of the Tanaris wastes."
+   "answer": "Innkeeper Fizzgrimble keeps the usual cool drinks and simple fare on hand, favored by travelers looking to wash down the dry grit of the Tanaris wastes."
   },
   {
    "q": "Can Horde and Alliance both use this inn?",
@@ -56,7 +56,7 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "For culinarians traveling the desert, the Road Warrior is an essential stop to purchase provisions, quench their thirst, and sample local tastes like the Mechs on the Beach."
+   "text": "For culinarians traveling the desert, the Road Warrior is an essential stop to purchase provisions and quench their thirst."
   }
  ],
  "keywords": [

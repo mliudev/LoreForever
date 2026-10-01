@@ -1,0 +1,92 @@
+{
+ "key": "item:felstalker-hoof",
+ "type": "item",
+ "name": "Felstalker Hoof",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Felstalker Hoof",
+  "quests": [
+   "quest:1516"
+  ]
+ },
+ "summary": "A Felstalker Hoof is a physical token taken from demonic beasts infesting the Burning Blade Coven in northern Durotar. Young shaman must retrieve these hooves as a trial of readiness before learning to commune with the elemental spirits of the earth.",
+ "sections": [
+  {
+   "title": "A Shaman's Trial",
+   "body": "Within the sun-baked Valley of Trials, the trainer Canaga Earthcaller tasks budding shaman with facing the demonic taint threatening Durotar. The Burning Blade Coven to the north harbors vile familiars and demonic felstalkers. Taking the hooves of these fiends is not merely an act of culling pests, but a rigorous test of endurance, resolve, and spirit. Only by subduing these chaotic beasts can an aspiring shaman prove worthy of receiving the secrets of the earth and preparing the ceremonial sapta needed to commune directly with elemental spirits.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Felstalker Hoof used for?",
+   "aliases": [
+    "what does felstalker hoof do",
+    "hoof quest item",
+    "why get felstalker hooves"
+   ],
+   "answer": "Two Felstalker Hooves are brought to Canaga Earthcaller in the Valley of Trials. They serve as proof that a shaman initiate possesses the strength and spirit required to begin communes with the earth element."
+  },
+  {
+   "q": "Where do these hooves come from?",
+   "aliases": [
+    "where to get felstalker hoof",
+    "felstalker hoof location",
+    "who drops hooves"
+   ],
+   "answer": "They are carved from the demonic Felstalkers found inside and around the Burning Blade Coven, located in the northern reaches of the Valley of Trials in Durotar."
+  },
+  {
+   "q": "Who requires these hooves?",
+   "aliases": [
+    "who wants felstalker hooves",
+    "who turns in hoof",
+    "canaga earthcaller quest"
+   ],
+   "answer": "Canaga Earthcaller, the shaman trainer stationed near the Den in the Valley of Trials, requests them during the Call of Earth rite."
+  },
+  {
+   "q": "Can any adventurer collect these hooves?",
+   "aliases": [
+    "can non shaman get hooves",
+    "is hoof shaman only"
+   ],
+   "answer": "Felstalker Hooves are sought specifically by shaman undergoing their elemental initiation. Warriors, warlocks, and rogues have their own distinct trials within the valley and have no need for them."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Slaying demons and gathering their hooves is your first major step toward communion with the earth spirits, testing the patience and stubborn resilience needed to wield an Earth Totem."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The presence of demonic felstalkers in Durotar's training grounds is a constant reminder of the Burning Blade's lingering corruption on Horde lands."
+  }
+ ],
+ "keywords": [
+  "burning blade coven",
+  "call of earth",
+  "canaga earthcaller",
+  "durotar",
+  "earth sapta",
+  "felstalker",
+  "felstalker hoof",
+  "valley of trials"
+ ],
+ "related": [
+  "quest:1516",
+  "npc:canaga-earthcaller",
+  "subzone:burning-blade-coven",
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "topic:shaman",
+  "quest:792",
+  "quest:794"
+ ],
+ "attribution": [
+  "Felstalker Hoof",
+  "Call of Earth (Durotar)"
+ ]
+}

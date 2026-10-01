@@ -1,0 +1,97 @@
+{
+ "key": "item:encrypted-rune",
+ "type": "item",
+ "name": "Encrypted Rune",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Encrypted Rune",
+  "quests": [
+   "quest:3109"
+  ]
+ },
+ "summary": "An Encrypted Rune is a coded summoning message handed to promising new rogues in Coldridge Valley. Delivered covertly, it bids the bearer to decipher its contents and seek out the rogue trainer Solm Hargrin inside Anvilmar.",
+ "sections": [
+  {
+   "title": "A Coded Summons",
+   "body": "In the sheltered snowy basin of Coldridge Valley, overt recruitment is rarely the style of the local scoundrels and scouts. Instead, novitiates showing a knack for stealth and cunning are slipped an Encrypted Rune. Marked with subtle ciphers, the inscribed stone carries a discreet invitation from Solm Hargrin, the rogue mentor quartered in Anvilmar. It serves as both a private test of literacy in thieves' cant and an introduction to the shadowy craft needed to survive Dun Morogh's harsh wilderness.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes in the Shadows",
+   "body": "Deciphering the rune directs new rogues to Solm, who looks to bolster the valley's covert ranks amidst rising local tensions. Beyond basic bladecraft and stealth techniques, Solm emphasizes vigilance and camaraderie, urging incoming rogues to keep a watchful eye on their gnomish allies who have recently been displaced following the fall of Gnomeregan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Encrypted Rune?",
+   "aliases": [
+    "what is this rune",
+    "encrypted rune purpose",
+    "what does the rune do"
+   ],
+   "answer": "It is a coded message delivered to fledgling rogues in Coldridge Valley, instructing them to report to Solm Hargrin inside Anvilmar for training."
+  },
+  {
+   "q": "Who sent the Encrypted Rune?",
+   "aliases": [
+    "who wrote it",
+    "who gave this",
+    "sender of rune"
+   ],
+   "answer": "The message originates from Solm Hargrin, the rogue trainer stationed within Anvilmar, who uses it to quietly summon new recruits without drawing unwanted attention."
+  },
+  {
+   "q": "Where should I take the rune?",
+   "aliases": [
+    "where do i go",
+    "who do i bring it to",
+    "where is solm"
+   ],
+   "answer": "Take the deciphered instructions to Solm Hargrin, who can be found indoors at Anvilmar in Coldridge Valley."
+  },
+  {
+   "q": "Why is the message encrypted?",
+   "aliases": [
+    "why cipher",
+    "why is it coded",
+    "why secret rune"
+   ],
+   "answer": "Rogues rely on secrecy, deception, and covert communication. Sending an encrypted rune ensures that only an aspiring rogue capable of reading the cipher heeds the call, keeping their methods out of plain view."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This rune marks your first formal contact with the network of rogues in Dun Morogh, initiating you into the arts of stealth, quick blades, and survival."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Passed along within Coldridge Valley, the rune calls another child of Ironforge to master the shadows and protect the clan's interests from beneath the surface."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "cipher",
+  "coldridge valley",
+  "dun morogh",
+  "encrypted rune",
+  "rogue",
+  "solm hargrin"
+ ],
+ "related": [
+  "npc:solm-hargrin",
+  "quest:3109",
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "topic:rogue",
+  "zone:dunmorogh",
+  "zone:ironforge",
+  "zone:gnomeregan"
+ ],
+ "attribution": [
+  "Encrypted Rune",
+  "Encrypted Rune (Classic)"
+ ]
+}

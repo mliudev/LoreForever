@@ -1,0 +1,246 @@
+{
+  "english": "2026-09-30 23:15 UTC",
+  "updated": "2026-09-30",
+  "languages": [
+    {
+      "locale": "deDE",
+      "name": "Deutsch",
+      "englishName": "German",
+      "reviewed": false,
+      "coverage": {
+        "percent": 100.0,
+        "strings": [
+          95510,
+          95510
+        ],
+        "ui": [
+          295,
+          295
+        ],
+        "entries": [
+          4047,
+          4047
+        ]
+      },
+      "kit": "/translate/kits/deDE.zip",
+      "kitSize": 10826017,
+      "hasText": true
+    },
+    {
+      "locale": "frFR",
+      "name": "Français",
+      "englishName": "French",
+      "reviewed": false,
+      "coverage": {
+        "percent": 0.0,
+        "strings": [
+          0,
+          95510
+        ],
+        "ui": [
+          0,
+          295
+        ],
+        "entries": [
+          0,
+          4047
+        ]
+      },
+      "kit": "/translate/kits/new.zip",
+      "kitSize": 5047563,
+      "hasText": false
+    },
+    {
+      "locale": "esES",
+      "name": "Español (España)",
+      "englishName": "Spanish (Spain)",
+      "reviewed": false,
+      "coverage": {
+        "percent": 0.0,
+        "strings": [
+          0,
+          95510
+        ],
+        "ui": [
+          0,
+          295
+        ],
+        "entries": [
+          0,
+          4047
+        ]
+      },
+      "kit": "/translate/kits/new.zip",
+      "kitSize": 5047563,
+      "hasText": false
+    },
+    {
+      "locale": "esMX",
+      "name": "Español (Latinoamérica)",
+      "englishName": "Spanish (Latin America)",
+      "reviewed": false,
+      "coverage": {
+        "percent": 0.0,
+        "strings": [
+          0,
+          95510
+        ],
+        "ui": [
+          0,
+          295
+        ],
+        "entries": [
+          0,
+          4047
+        ]
+      },
+      "kit": "/translate/kits/new.zip",
+      "kitSize": 5047563,
+      "hasText": false
+    },
+    {
+      "locale": "ptBR",
+      "name": "Português (Brasil)",
+      "englishName": "Portuguese (Brazil)",
+      "reviewed": false,
+      "coverage": {
+        "percent": 100.0,
+        "strings": [
+          95510,
+          95510
+        ],
+        "ui": [
+          295,
+          295
+        ],
+        "entries": [
+          4047,
+          4047
+        ]
+      },
+      "kit": "/translate/kits/ptBR.zip",
+      "kitSize": 10397159,
+      "hasText": true
+    },
+    {
+      "locale": "itIT",
+      "name": "Italiano",
+      "englishName": "Italian",
+      "reviewed": false,
+      "coverage": {
+        "percent": 0.0,
+        "strings": [
+          0,
+          95510
+        ],
+        "ui": [
+          0,
+          295
+        ],
+        "entries": [
+          0,
+          4047
+        ]
+      },
+      "kit": "/translate/kits/new.zip",
+      "kitSize": 5047563,
+      "hasText": false
+    },
+    {
+      "locale": "ruRU",
+      "name": "Русский",
+      "englishName": "Russian",
+      "reviewed": false,
+      "coverage": {
+        "percent": 0.0,
+        "strings": [
+          0,
+          95510
+        ],
+        "ui": [
+          0,
+          295
+        ],
+        "entries": [
+          0,
+          4047
+        ]
+      },
+      "kit": "/translate/kits/new.zip",
+      "kitSize": 5047563,
+      "hasText": false
+    },
+    {
+      "locale": "koKR",
+      "name": "한국어",
+      "englishName": "Korean",
+      "reviewed": false,
+      "coverage": {
+        "percent": 0.0,
+        "strings": [
+          0,
+          95510
+        ],
+        "ui": [
+          0,
+          295
+        ],
+        "entries": [
+          0,
+          4047
+        ]
+      },
+      "kit": "/translate/kits/new.zip",
+      "kitSize": 5047563,
+      "hasText": false
+    },
+    {
+      "locale": "zhCN",
+      "name": "简体中文",
+      "englishName": "Chinese (Simplified)",
+      "reviewed": false,
+      "coverage": {
+        "percent": 0.0,
+        "strings": [
+          0,
+          95510
+        ],
+        "ui": [
+          0,
+          295
+        ],
+        "entries": [
+          0,
+          4047
+        ]
+      },
+      "kit": "/translate/kits/new.zip",
+      "kitSize": 5047563,
+      "hasText": false
+    },
+    {
+      "locale": "zhTW",
+      "name": "繁體中文",
+      "englishName": "Chinese (Traditional)",
+      "reviewed": false,
+      "coverage": {
+        "percent": 0.0,
+        "strings": [
+          0,
+          95510
+        ],
+        "ui": [
+          0,
+          295
+        ],
+        "entries": [
+          0,
+          4047
+        ]
+      },
+      "kit": "/translate/kits/new.zip",
+      "kitSize": 5047563,
+      "hasText": false
+    }
+  ]
+}

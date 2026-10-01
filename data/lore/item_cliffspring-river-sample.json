@@ -1,0 +1,99 @@
+{
+ "key": "item:cliffspring-river-sample",
+ "type": "item",
+ "name": "Cliffspring River Sample",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Cliffspring River Sample",
+  "quests": [
+   "quest:4762"
+  ]
+ },
+ "summary": "A glass vial containing murky, foul-smelling water drawn from the base of the Cliffspring River waterfall in Darkshore. Gathered on behalf of Thundris Windweaver in Auberdine, the sample provides tangible proof of an encroaching corruption threatening the coastal settlement.",
+ "sections": [
+  {
+   "title": "A Tainted Current",
+   "body": "The Cliffspring River flows down from the rugged eastern heights of Darkshore, tumbling past ancient stone bridges before washing out into the sea along Mist's Edge. Lately, the river's crystalline waters have turned foul and visibly corrupted. Fearing that the toxic wash will soon contaminate Auberdine's shoreline and water supply, the night elf Thundris Windweaver commissioned travelers to draw this water sample directly from the pool beneath the river's lower waterfall. The sample confirms the worst: unnatural rot is drifting steadily downstream toward the coast.",
+   "spoiler": 0
+  },
+  {
+   "title": "Echoes of Felwood",
+   "body": "While local Blackwood furbolgs inhabit the upstream banks and suffer from its darkening influence, the water sample suggests a far deeper malady than simple tribal mischief. Thundris recognizes the foul nature of the corruption as originating high above the cliffs to the east, in the blighted expanse of Felwood. The tainted sample serves as definitive proof that the demonic sickness plaguing the mountaintops is leaching downward into Darkshore's watersheds, forcing Auberdine's defenders to prepare an active response.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Cliffspring River Sample collected?",
+   "aliases": [
+    "where do i get the sample",
+    "cliffspring river location",
+    "waterfall pool sample"
+   ],
+   "answer": "It is drawn from the pool beneath the first waterfall along the Cliffspring River, located north of Auberdine. Travelers must follow the river inland until reaching the waterfall beneath an overhead bridge."
+  },
+  {
+   "q": "Why does Thundris Windweaver need this water?",
+   "aliases": [
+    "why gather the water",
+    "thundris river quest",
+    "purpose of river sample"
+   ],
+   "answer": "Thundris fears the river's foulness will contaminate the coastal waters near Auberdine. Gathering and examining a physical sample allows him to analyze the nature of the taint and formulate a plan to counter it."
+  },
+  {
+   "q": "What is causing the Cliffspring River to turn foul?",
+   "aliases": [
+    "what poisoned the river",
+    "why is the water corrupted",
+    "source of river corruption"
+   ],
+   "answer": "While the corrupted Blackwood furbolgs dwell along the river, Thundris suspects the true origin lies further east in Felwood, whose lingering demonic blight is seeping into the mountain headwaters."
+  },
+  {
+   "q": "Are the Blackwood furbolgs responsible for the poison?",
+   "aliases": [
+    "did furbolgs do it",
+    "blackwood furbolg taint",
+    "are furbolgs poisoning water"
+   ],
+   "answer": "They exacerbate the problem along the riverbanks, but they are not the root cause. The furbolgs themselves have fallen prey to the broader corruption washing down from the blighted lands to the east."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves of Auberdine, any corruption of northern Kalimdor's waters is a grave omen of the ongoing blight spreading outward from Felwood."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids are keenly attuned to the balance of natural waterways, making the unnatural toxicity of the Cliffspring sample an urgent priority to study and cleanse."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "blackwood",
+  "cliffspring",
+  "felwood",
+  "sample",
+  "thundris",
+  "tube",
+  "waterfall",
+  "windweaver"
+ ],
+ "related": [
+  "quest:4762",
+  "quest:4761",
+  "item:empty-sampling-tube",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "zone:felwood",
+  "subzone:mist-s-edge",
+  "topic:furbolg"
+ ],
+ "attribution": [
+  "Cliffspring River Sample",
+  "The Cliffspring River"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "key": "item:thunderhawk-saliva-gland",
+ "type": "item",
+ "name": "Thunderhawk Saliva Gland",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Thunderhawk Saliva Gland",
+  "quests": [
+   "quest:822"
+  ]
+ },
+ "summary": "A Thunderhawk Saliva Gland is a potent biological reagent harvested from the greater thunderhawks that soar over the Barrens. Brewmaster Drohn in Ratchet prizes it as an essential ingredient for recreating Chen Stormstout's fiery Trogg Ale.",
+ "sections": [
+  {
+   "title": "A Wild Ingredient",
+   "body": "The arid savannas of the Barrens are home to thunderhawks\u2014winged serpents renowned for harnessing the storm itself. Among their population, the older and more dangerous greater thunderhawks produce a saliva gland charged with raw, natural potency. While ordinary travelers steer clear of these deadly beasts, skilled brewmasters recognize the organ's rare properties as an extraordinary base for exotic concoctions.",
+   "spoiler": 0
+  },
+  {
+   "title": "Chen's Secret Recipes",
+   "body": "Following the legendary wandering brewmaster Chen Stormstout's travels through Kalimdor, Brewmaster Drohn settled outside Ratchet to master the pandaren's remarkable fermentation techniques. Drohn requires a fresh thunderhawk saliva gland alongside stormhide lightning glands and kodo liver to brew Trogg Ale, a fiery spirit with an unmistakable kick intended to fortify hardy adventurers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do you find a Thunderhawk Saliva Gland?",
+   "aliases": [
+    "thunderhawk saliva gland drop",
+    "where to get saliva gland",
+    "thunderhawk gland location"
+   ],
+   "answer": "They are harvested from greater thunderhawks found hunting across the open savannas of the Barrens."
+  },
+  {
+   "q": "What is the saliva gland used for?",
+   "aliases": [
+    "saliva gland use",
+    "what is thunderhawk saliva gland for",
+    "thunderhawk saliva purpose"
+   ],
+   "answer": "It is brought to Brewmaster Drohn outside Ratchet as a key component for brewing Trogg Ale, an potent recipe left behind by Chen Stormstout."
+  },
+  {
+   "q": "Who is Brewmaster Drohn?",
+   "aliases": [
+    "drohn ratchet",
+    "who is drohn",
+    "brewmaster drohn lore"
+   ],
+   "answer": "Drohn is a brewmaster residing near the port of Ratchet. Having learned the art of exotic brewing from the wandering traveler Chen Stormstout, Drohn trades powerful ales to adventurers willing to brave the local wildlife for ingredients."
+  },
+  {
+   "q": "What is Trogg Ale?",
+   "aliases": [
+    "trogg ale lore",
+    "what is trogg ale",
+    "chen's trogg ale"
+   ],
+   "answer": "Trogg Ale is a fiercely potent drink conceived by Chen Stormstout. Brewmaster Drohn crafts it by combining the saliva gland of a greater thunderhawk, lightning glands, and a kodo liver into an invigorating draught."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Culinary purists may wince at utilizing saliva glands, but inventive brewmasters treat strange animal essences as vital shortcuts to unmatched zest and potency."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Hunting the fierce thunderhawks across the Barrens is a proving ground for young warriors traversing Kalimdor."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "drohn",
+  "gland",
+  "keg",
+  "ratchet",
+  "saliva",
+  "thunderhawk",
+  "trogg ale"
+ ],
+ "related": [
+  "npc:brewmaster-drohn",
+  "quest:819",
+  "zone:barrens",
+  "subzone:ratchet",
+  "item:lightning-gland",
+  "item:kodo-liver"
+ ],
+ "attribution": [
+  "Thunderhawk Saliva Gland",
+  "Chen's Empty Keg (3)"
+ ]
+}

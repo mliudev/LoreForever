@@ -1,0 +1,76 @@
+{
+ "key": "item:elixir-of-suffering",
+ "type": "item",
+ "name": "Elixir of Suffering",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Elixir of Suffering",
+  "quests": [
+   "quest:499"
+  ]
+ },
+ "summary": "The Elixir of Suffering is an alchemical concoction brewed by Apothecary Lydon in Tarren Mill. Developed under the orders of the Royal Apothecary Society, the draught is an experimental step toward a virulent plague intended to eradicate both living humans and the Scourge.",
+ "sections": [
+  {
+   "title": "Apothecary Experimentation",
+   "body": "Within the ruined hamlet of Tarren Mill, Apothecary Lydon tirelessly combines raw reagents gathered from the surrounding wilderness into toxic draughts. The Elixir of Suffering represents an early milestone in the Royal Apothecary Society's overarching mandate: formulating a new plague designed to exterminate the living and dead alike. Lydon tests the lethal brew on his unfortunate assistant, a toad named Umpi, to ensure its potency.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Elixir of Suffering?",
+   "aliases": [
+    "why make elixir of suffering",
+    "what does the elixir do",
+    "elixir of suffering purpose"
+   ],
+   "answer": "The elixir is an experimental concoction brewed by Apothecary Lydon as part of the Royal Apothecary Society's research. It is intended to test lethal compounds destined for the Forsaken's new plague against humanity and the Scourge."
+  },
+  {
+   "q": "Who is Umpi?",
+   "aliases": [
+    "who is the frog",
+    "who is the toad",
+    "lydon's assistant"
+   ],
+   "answer": "Umpi is a mundane toad kept by Apothecary Lydon in Tarren Mill. Despite being jokingly referred to as an assistant, Umpi primarily serves as an unwitting test subject for newly brewed alchemical toxins."
+  },
+  {
+   "q": "What happens when Umpi drinks the elixir?",
+   "aliases": [
+    "does umpi die",
+    "what happens to the toad"
+   ],
+   "answer": "Upon being fed the Elixir of Suffering, the unfortunate amphibian croaks and succumbs almost instantly to the poison, demonstrating the deadly efficacy of Apothecary Lydon's formulation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Royal Apothecary Society works across Lordaeron to create a weapon that will secure the Forsaken's independence from both the Scourge and living humanity, and Lydon's noxious experiments in Tarren Mill are an essential step."
+  }
+ ],
+ "keywords": [
+  "apothecary lydon",
+  "elixir of suffering",
+  "forsaken plague",
+  "hillsbrad foothills",
+  "royal apothecary society",
+  "tarren mill",
+  "umpi"
+ ],
+ "related": [
+  "subzone:tarren-mill",
+  "npc:umpi",
+  "quest:496",
+  "zone:hillsbrad",
+  "topic:scourge",
+  "topic:human"
+ ],
+ "attribution": [
+  "Elixir of Suffering",
+  "Elixir of Suffering (2)"
+ ]
+}

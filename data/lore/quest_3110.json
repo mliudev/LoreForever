@@ -1,0 +1,115 @@
+{
+ "key": "quest:3110",
+ "type": "quest",
+ "name": "Hallowed Rune",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   3110
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "Sten Stoutarm",
+  "end": "Branstock Khalder",
+  "previous": null,
+  "next": null,
+  "wiki": "Hallowed Rune (Classic)",
+  "chain": []
+ },
+ "summary": "Hallowed Rune is an introductory quest for fledgling dwarven priests in Coldridge Valley. Sten Stoutarm passes along an inscribed rune from priest trainer Branstock Khalder, summoning the novice inside Anvilmar to deepen their connection with the Holy Light.",
+ "sections": [
+  {
+   "title": "A Calling to the Cloth",
+   "body": "While assisting Sten Stoutarm with clearing the immediate threats outside Anvilmar, a newly arrived priest catches the eye of the settlement's spiritual guide. Branstock Khalder entrusts Sten with a hallowed rune inscribed with prayers and guidance, directing the young adventurer to step inside the sturdy halls of Anvilmar to formally begin their sacred studies.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defenders of Coldridge",
+   "body": "Though dwarven culture often emphasizes martial fortitude and heavy plate, the Holy Light remains a cornerstone of Ironforge society. In Coldridge Valley, holy casters play a vital role alongside warriors and hunters in shielding the enclave from aggressive trogg incursions and dangerous wildlife creeping through the snow drifts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Hallowed Rune?",
+   "aliases": [
+    "what is hallowed rune",
+    "rune purpose"
+   ],
+   "answer": "It is an inscribed clerical rune provided by Sten Stoutarm on behalf of Branstock Khalder. Reading it serves as an introduction to basic prayers and encourages young priests to seek out formal training."
+  },
+  {
+   "q": "Who is Branstock Khalder?",
+   "aliases": [
+    "branstock",
+    "priest trainer coldridge"
+   ],
+   "answer": "Branstock Khalder is the dwarven priest trainer stationed inside Anvilmar. Known for his dry humor and steadfast faith, he mentors nascent acolytes and teaches them foundational Holy spells to aid the defense of Coldridge Valley."
+  },
+  {
+   "q": "Where do I find Branstock Khalder?",
+   "aliases": [
+    "branstock location",
+    "where is branstock"
+   ],
+   "answer": "He can be found inside the main stone lodge of Anvilmar, located in the central clearing of Coldridge Valley in Dun Morogh."
+  },
+  {
+   "q": "Why do dwarves need priests in Coldridge Valley?",
+   "aliases": [
+    "why dwarven priests",
+    "priests in anvilmar"
+   ],
+   "answer": "Troggs have overrun parts of the valley, and the local guards rely on the mending powers and holy smiting of Light-wielders to sustain their lines and heal the wounded."
+  },
+  {
+   "q": "Can any class take this quest?",
+   "aliases": [
+    "who can get hallowed rune",
+    "is this quest priest only"
+   ],
+   "answer": "No. The Hallowed Rune is specifically given only to young dwarf priests beginning their journey in Coldridge Valley."
+  },
+  {
+   "q": "Who delivers the rune to the player?",
+   "aliases": [
+    "who starts hallowed rune",
+    "sten stoutarm role"
+   ],
+   "answer": "Sten Stoutarm, an Anvilmar mountaineer overseeing trials just outside the lodge, hands the rune over after you assist him with early valley defense."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This parchment marks your formal recognition as a servant of the Holy Light in Dun Morogh, directing you to Branstock Khalder for your earliest spellcraft."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven priests blend deep devotion to the Light with standard mountain grit, proving essential to holding Coldridge Valley against invading troggs."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "branstock khalder",
+  "coldridge valley",
+  "dun morogh",
+  "dwarf priest",
+  "hallowed rune",
+  "sten stoutarm"
+ ],
+ "related": [
+  "npc:branstock-khalder",
+  "npc:sten-stoutarm",
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "zone:dunmorogh",
+  "topic:light",
+  "topic:trogg",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Hallowed Rune (Classic)"
+ ]
+}

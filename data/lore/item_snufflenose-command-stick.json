@@ -1,0 +1,88 @@
+{
+ "key": "item:snufflenose-command-stick",
+ "type": "item",
+ "name": "Snufflenose Command Stick",
+ "era": "classic",
+ "zone": "razorfenkraul",
+ "meta": {
+  "wiki": "Snufflenose Command Stick",
+  "quests": [
+   "quest:1221"
+  ]
+ },
+ "summary": "The Snufflenose Command Stick is a training rod provided by the goblin entrepreneur Mebok Mizzyrix in Ratchet. It is used to direct trained snufflenose gophers to locate and unearth valuable blueleaf tubers buried deep within Razorfen Kraul.",
+ "sections": [
+  {
+   "title": "A Rod for Rodents",
+   "body": "Blueleaf tubers are coveted delicacies across Azeroth, but finding them is nearly impossible without specialized help. Buried in the thorny underground depths of Razorfen Kraul, the roots are entirely hidden from sight. To exploit this lucrative market without braving the quillboar dens himself, the Ratchet merchant Mebok Mizzyrix conditioned keen-scented snufflenose gophers to dig up the tubers. The Snufflenose Command Stick is the tool adventurers use to direct these trained critters, prodding them to sniff out and expose root nodes from up to fifty paces away.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Snufflenose Command Stick used for?",
+   "aliases": [
+    "how to use command stick",
+    "what does command stick do",
+    "command stick purpose"
+   ],
+   "answer": "The command stick is used to order a trained snufflenose gopher to search for hidden blueleaf tubers inside the thorny tunnels of Razorfen Kraul. When directed at a summoned gopher, the rod prompts the creature to follow scents and dig up root nodes."
+  },
+  {
+   "q": "Where do you obtain the Snufflenose Command Stick?",
+   "aliases": [
+    "where to get command stick",
+    "command stick location",
+    "who gives the command stick"
+   ],
+   "answer": "You pick it up in Ratchet in the Barrens directly outside the workshop of Mebok Mizzyrix, alongside a crate holding a trained gopher and an instruction manual."
+  },
+  {
+   "q": "Why does Mebok Mizzyrix want blueleaf tubers?",
+   "aliases": [
+    "why tubers",
+    "blueleaf tuber purpose",
+    "why does mebok want tubers"
+   ],
+   "answer": "Blueleaf tubers are rare delicacies that sell for a substantial profit to affluent culinary contacts around the world. Because they only grow deep beneath the Barrens in quillboar territory, Mebok hires adventurers to harvest them."
+  },
+  {
+   "q": "Do you get to keep the stick after finding the tubers?",
+   "aliases": [
+    "can i keep command stick",
+    "returning command stick"
+   ],
+   "answer": "No. Once you gather the requested tubers, Mebok requires you to return both the command stick and the transport crate back to him in Ratchet along with your harvest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "While blueleaf tubers are considered an exquisite culinary delicacy worldwide, extracting them requires a trained animal and a handler's stick rather than standard kitchen tools."
+  }
+ ],
+ "keywords": [
+  "blueleaf tuber",
+  "command stick",
+  "gopher",
+  "mebok mizzyrix",
+  "ratchet",
+  "razorfen kraul",
+  "snufflenose",
+  "the barrens"
+ ],
+ "related": [
+  "npc:mebok-mizzyrix",
+  "quest:1221",
+  "item:blueleaf-tuber",
+  "item:crate-with-holes",
+  "item:snufflenose-owner-s-manual",
+  "zone:razorfenkraul",
+  "subzone:ratchet",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Snufflenose Command Stick",
+  "Blueleaf Tubers"
+ ]
+}

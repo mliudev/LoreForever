@@ -1,0 +1,80 @@
+{
+ "key": "item:inscribed-bark",
+ "type": "item",
+ "name": "Inscribed Bark",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Inscribed Bark",
+  "quests": [
+   "quest:940"
+  ]
+ },
+ "summary": "Inscribed Bark is a living parchment entrusted by the ancient Oracle Tree to carry word of Teldrassil's state to Arch Druid Fandral Staghelm. It serves as an official report on the boughs of the World Tree and the lingering threats troubling its woods.",
+ "sections": [
+  {
+   "title": "A Message from the Oracle",
+   "body": "Carved from the sacred wood of the Oracle Tree, this inscribed bark acts as a direct communique between the ancient guardian and the leadership of the Cenarion Circle in Darnassus. After adventurers suppress the encroaching harpies in the glades, the Oracle Tree entrusts them with this token, reluctant to risk ordinary couriers through the tainted paths of the boughs. The inscribed message informs Arch Druid Fandral Staghelm of both recent victories and the deeper, unsettling blight that continues to grip Teldrassil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Inscribed Bark?",
+   "aliases": [
+    "what is inscribed bark",
+    "oracle tree bark",
+    "inscribed bark purpose"
+   ],
+   "answer": "It is a piece of bark inscribed by the Oracle Tree containing a status report on the health and perils of the boughs, intended for Arch Druid Fandral Staghelm in Darnassus."
+  },
+  {
+   "q": "Who sends this message and why?",
+   "aliases": [
+    "who wrote inscribed bark",
+    "who gives inscribed bark",
+    "oracle tree messenger"
+   ],
+   "answer": "The Oracle Tree bestows it upon adventurers after they drive harpies from their nests. Having grown wary of sending ordinary messengers across the endangered forest paths, the ancient entrusts a proven traveler to deliver its report."
+  },
+  {
+   "q": "How does Arch Druid Fandral Staghelm react to the message?",
+   "aliases": [
+    "fandral reaction bark",
+    "what does fandral say about bark"
+   ],
+   "answer": "Fandral acknowledges the respite gained from clearing the harpies, but notes with frustration that deeper problems persist. The report reinforces his lingering anxieties over whether his work on Teldrassil will ever truly restore the night elves' lost immortality."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei, messages borne on the bark of ancient trees represent the sacred bond between nature and their guardians, bridging the wild groves and the marble terraces of Darnassus."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids recognize this inscribed wood as an urgent dispatch from an ancient ally, highlighting the delicate balance and ongoing afflictions plaguing the young World Tree."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "darnassus",
+  "fandral staghelm",
+  "inscribed bark",
+  "oracle tree",
+  "teldrassil"
+ ],
+ "related": [
+  "quest:940",
+  "npc:fandral-staghelm",
+  "zone:teldrassil",
+  "zone:darnassus",
+  "quest:937",
+  "quest:952",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Inscribed Bark",
+  "Teldrassil (quest)"
+ ]
+}

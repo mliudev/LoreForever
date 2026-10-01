@@ -1,0 +1,89 @@
+{
+ "key": "item:scroll-of-messaging",
+ "type": "item",
+ "name": "Scroll of Messaging",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Scroll of Messaging",
+  "quests": [
+   "quest:1077"
+  ]
+ },
+ "summary": "The Scroll of Messaging is an enchanted parchment carrying a specific magical sending spell. Acquired for the gnome engineer Gaxim Rustfizzle in the Stonetalon Mountains, it serves an unusual purpose: providing the magical trigger needed to detonate remote explosives.",
+ "sections": [
+  {
+   "title": "A Volatile Message",
+   "body": "While ostensibly an arcane script meant for long-distance communication, Gaxim Rustfizzle has a far more disruptive application in mind for the Scroll of Messaging. By combining its transmission incantation with volatile NG-5 charges, the gnome plans to create a remotely detonated explosive. The resulting blast is intended to trigger a massive distraction at the Venture Company's logging operation in Stonetalon, granting operatives a window to slip past guards and pilfer proprietary engineering schematics and confidential correspondence.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Scroll of Messaging used for?",
+   "aliases": [
+    "scroll of messaging use",
+    "what does scroll of messaging do",
+    "why gaxim wants scroll"
+   ],
+   "answer": "Although written as a messaging spell, Gaxim Rustfizzle uses its transmission magic to craft a remote trigger. When combined with explosive NG-5, it allows him to set off a blast from a safe distance."
+  },
+  {
+   "q": "Who receives this scroll?",
+   "aliases": [
+    "who gets scroll of messaging",
+    "where do i bring scroll of messaging",
+    "scroll recipient"
+   ],
+   "answer": "The scroll is delivered to Gaxim Rustfizzle, an Alliance-aligned gnome engineer operating in the Stonetalon Mountains."
+  },
+  {
+   "q": "Why does Gaxim need a remote explosive?",
+   "aliases": [
+    "gaxim explosive reason",
+    "why blow up venture co",
+    "stonetalon distraction"
+   ],
+   "answer": "Gaxim needs a major diversion at the local Venture Company operation. The resulting chaos provides cover to infiltrate their compound, steal valuable engineering plans, and recover documents to halt their aggressive clear-cutting of the forest."
+  },
+  {
+   "q": "What is NG-5?",
+   "aliases": [
+    "ng-5",
+    "what is ng-5",
+    "ng5 explosive"
+   ],
+   "answer": "NG-5 is an explosive chemical charge utilized by Gaxim Rustfizzle. Paired with the magical signal inscribed upon the Scroll of Messaging, it forms an improvised remote-detonation device."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "True to gnomish innovation, this scroll demonstrates how theoretical arcane magic can be repurposed as a remote receiver for mechanical demolitions."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The scroll plays a critical part in helping Alliance operatives sabotage Venture Company machinery and stall their environmental devastation in Stonetalon."
+  }
+ ],
+ "keywords": [
+  "explosives",
+  "gaxim rustfizzle",
+  "ng-5",
+  "remote detonator",
+  "scroll of messaging",
+  "stonetalon",
+  "venture co"
+ ],
+ "related": [
+  "quest:1077",
+  "npc:gaxim-rustfizzle",
+  "item:ng-5",
+  "zone:stonetalon",
+  "quest:764"
+ ],
+ "attribution": [
+  "Scroll of Messaging",
+  "Special Delivery for Gaxim"
+ ]
+}

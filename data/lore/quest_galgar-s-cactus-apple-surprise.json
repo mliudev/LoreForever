@@ -1,0 +1,120 @@
+{
+ "key": "quest:galgar-s-cactus-apple-surprise",
+ "type": "quest",
+ "name": "Galgar's Cactus Apple Surprise",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   4402
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Galgar",
+  "end": "",
+  "previous": "Cutting Teeth",
+  "next": null,
+  "wiki": "Galgar's Cactus Apple Surprise",
+  "chain": []
+ },
+ "summary": "Galgar's Cactus Apple Surprise is a straightforward errand undertaken by young warriors and novices in the sun-baked Valley of Trials. Seeking relief from Durotar's punishing heat, the orc Galgar enlists travelers to gather wild cactus apples so he can prepare his famed refreshing treat. The task teaches fresh recruits how to forage and survive in an arid land.",
+ "sections": [
+  {
+   "title": "Surviving the Red Wastes",
+   "body": "The crimson dirt of the Valley of Trials is notoriously merciless. Between rigorous combat drills and fierce trials against native beasts, exhaustion and dehydration set in quickly. For young orcs and Darkspear trolls taking their first steps as defenders of the Horde, learning how to subsist off the land is just as vital as swinging an axe. Cacti growing throughout the valley yield ripe, water-rich apples that offer immediate respite from the oppressive desert sun.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Valley Delicacy",
+   "body": "Galgar, stationed inside the training grounds, has turned local foraging into an art. His famous 'Cactus Apple Surprise' is legendary among the denizens of the valley for its ability to cool a person down faster than a plunge into river water. By contracting eager recruits to harvest the prickly fruit from nearby cacti, Galgar keeps his kitchen stocked while ensuring new wanderers never set out into Durotar with an empty belly.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Galgar?",
+   "aliases": [
+    "who is galgar",
+    "galgar lore",
+    "who gives cactus apple quest"
+   ],
+   "answer": "Galgar is an orc resident stationed within the Valley of Trials in Durotar. Rather than overseeing formal combat drills, he spends his time preparing cooling provisions and delicacies like his famous Cactus Apple Surprise to help recruits withstand the desert heat."
+  },
+  {
+   "q": "What is Cactus Apple Surprise?",
+   "aliases": [
+    "cactus apple surprise food",
+    "what is the surprise",
+    "galgars recipe"
+   ],
+   "answer": "It is a popular local confection and refreshing snack crafted by Galgar using fresh cactus apples collected from wild desert cacti. It is prized among trainees for providing fast relief and vital hydration under the blistering sun of Durotar."
+  },
+  {
+   "q": "Where are cactus apples found?",
+   "aliases": [
+    "where are cactus apples",
+    "find cactus apples",
+    "how to get cactus apples"
+   ],
+   "answer": "Cactus apples grow in small clusters on the ground at the base of flowering cacti scattered throughout the red cliffs and canyons of the Valley of Trials."
+  },
+  {
+   "q": "Why does Galgar ask recruits to gather them?",
+   "aliases": [
+    "why gather cactus apples",
+    "why does galgar need apples"
+   ],
+   "answer": "The Valley of Trials is intensely hot, and Galgar is unable to leave his post to wander the desert himself. He offers to share portions of his prized treat with any passing novice willing to venture out into the brush and gather the raw ingredients for him."
+  },
+  {
+   "q": "Does this quest connect to a larger storyline?",
+   "aliases": [
+    "is there a chain",
+    "cactus apple follow up",
+    "what comes after cactus apple surprise"
+   ],
+   "answer": "No. It is a standalone foraging task designed to acquaint new recruits with gathering resources from the local environment while they complete their initial trials for the Horde."
+  },
+  {
+   "q": "Why is foraging important in the Valley of Trials?",
+   "aliases": [
+    "why forage",
+    "survival in durotar"
+   ],
+   "answer": "Durotar is a harsh and unforgiving land carved out of arid rock and scrub. Horde leaders believe that surviving on Durotar's sparse natural resources is essential training for anyone wishing to endure the trials of the wider world."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Galgar's dish highlights the resourcefulness required to produce nourishing food and refreshing treats out of tough, prickly desert flora."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Settling Durotar meant adapting to an arid landscape, and simple dishes made from native cacti represent the orcs' practical ability to thrive in their new home."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Every fresh recruit who steps foot into the Valley of Trials quickly learns that enduring Durotar's punishing sun is as much a part of their training as combat."
+  }
+ ],
+ "keywords": [
+  "cactus",
+  "cactus apple",
+  "durotar",
+  "food",
+  "foraging",
+  "galgar",
+  "horde",
+  "valley of trials"
+ ],
+ "related": [
+  "npc:galgar",
+  "subzone:valley-of-trials",
+  "quest:cutting-teeth",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Galgar's Cactus Apple Surprise"
+ ]
+}

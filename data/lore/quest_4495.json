@@ -1,0 +1,125 @@
+{
+ "key": "quest:4495",
+ "type": "quest",
+ "name": "A Good Friend",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   4495
+  ],
+  "level": "4",
+  "faction": "Alliance",
+  "start": "Dirania Silvershine",
+  "end": "Iverron",
+  "previous": null,
+  "next": "A Friend in Need (Classic)",
+  "wiki": "A Good Friend",
+  "chain": [
+   "A Good Friend",
+   "A Friend in Need (Classic)",
+   "Iverron's Antidote (Classic)",
+   "Iverron's Antidote (2)"
+  ]
+ },
+ "summary": "Dirania Silvershine grows anxious when her regular visitor, Iverron, fails to appear on time at Aldrassil. Knowing he frequents the hills near the spider-infested Shadowthread Cave to the north, she asks passing adventurers to search for him.",
+ "sections": [
+  {
+   "title": "A Missing Visitor",
+   "body": "Daily routine runs deep in the tranquil boughs of Shadowglen, making any break in pattern stand out immediately. Dirania Silvershine, tending her affairs beneath the sheltering canopy of Aldrassil, is accustomed to visits from Iverron like clockwork every day. When hours pass without a sign of him, her concern drives her to seek assistance from those setting out into the wilds of the barrow bough.",
+   "spoiler": 0
+  },
+  {
+   "title": "Peril at Shadowthread Cave",
+   "body": "Iverron has a well-known habit of wandering near the northern hollows of Shadowglen, despite the encroaching menace of webwood spiders. With Shadowthread Cave crawling with aggressive arachnids, stepping off the established paths is increasingly hazardous for careless travelers. Searching the rugged slopes just west of the cavern mouth reveals Iverron tucked away in hiding, desperate for aid.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dirania Silvershine?",
+   "aliases": [
+    "dirania",
+    "dirania silvershine lore",
+    "who starts a good friend"
+   ],
+   "answer": "Dirania Silvershine is a night elf residing in Shadowglen beneath Aldrassil. She maintains a steady daily friendship with Iverron and notices immediately when he fails to keep his customary visiting hours."
+  },
+  {
+   "q": "Who is Iverron?",
+   "aliases": [
+    "iverron",
+    "where is iverron",
+    "who is the missing friend"
+   ],
+   "answer": "Iverron is a night elf in Shadowglen known for wandering the hills near Shadowthread Cave. After failing to make his daily visit to Dirania Silvershine, he is found stranded on the cliffs just west of the cavern entrance."
+  },
+  {
+   "q": "Where can Iverron be found?",
+   "aliases": [
+    "iverron location",
+    "finding iverron",
+    "shadowthread cave iverron"
+   ],
+   "answer": "Iverron is hiding among the rocks and brush on the hillside directly west of the entrance to Shadowthread Cave, in the northern part of Shadowglen."
+  },
+  {
+   "q": "Why is the northern cave considered dangerous?",
+   "aliases": [
+    "why is shadowthread cave dangerous",
+    "spiders in shadowglen",
+    "spider cave teldrassil"
+   ],
+   "answer": "Shadowthread Cave and its surrounding slopes are overrun with venomous webwood spiders. The swelling corruption on Teldrassil has agitated these creatures, making the area perilous for solitary travelers."
+  },
+  {
+   "q": "What happens after finding Iverron?",
+   "aliases": [
+    "quest after a good friend",
+    "next step for iverron",
+    "a friend in need quest"
+   ],
+   "answer": "Upon locating Iverron, he reveals that his misadventure near the spider cave has left him in dire straits, beginning a search for treatment in the follow-up quest, A Friend in Need."
+  },
+  {
+   "q": "Why was Dirania so quick to worry about Iverron?",
+   "aliases": [
+    "why is dirania worried",
+    "iverron routine",
+    "why did dirania notice"
+   ],
+   "answer": "Iverron visits Dirania at the exact same hour every single day. Because he was several hours late and frequently roamed near the dangerous spider hollows, she feared the worst had happened to him."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young kaldorei starting their journey under Aldrassil, answering Dirania's request is an early lesson in communal responsibility and the spreading threats that disturb the once-peaceful glade."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids mindful of the natural balance will recognize the aggressive webwood spiders near Shadowthread Cave as a symptom of the wider corruption afflicting the great bough."
+  }
+ ],
+ "keywords": [
+  "a good friend",
+  "aldrassil",
+  "dirania silvershine",
+  "iverron",
+  "shadowglen",
+  "shadowthread cave",
+  "spiders",
+  "teldrassil"
+ ],
+ "related": [
+  "npc:iverron",
+  "npc:dirania-silvershine",
+  "quest:3519",
+  "quest:3521",
+  "subzone:shadowthread-cave",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "A Good Friend"
+ ]
+}

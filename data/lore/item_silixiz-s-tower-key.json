@@ -1,0 +1,93 @@
+{
+ "key": "item:silixiz-s-tower-key",
+ "type": "item",
+ "name": "Silixiz's Tower Key",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Silixiz's Tower Key",
+  "quests": [
+   "quest:2478"
+  ]
+ },
+ "summary": "Silixiz's Tower Key is a small brass key carried by Foreman Silixiz outside the Venture Company tower near the Sludge Fen. Horde operatives belonging to the Shattered Hand are tasked with lifting it directly from the foreman's pockets as part of an undercover sabotage assignment.",
+ "sections": [
+  {
+   "title": "A Test of Subtlety",
+   "body": "The Venture Company operation north of the Sludge Fen runs under tight security, centered on an isolated lookout tower supervised by Grand Foreman Puzik Gallywix. Outside the compound patrolled by goblin mercenaries, Foreman Silixiz carries the key securing the stronghold's inner doors. For the rogue network of the Shattered Hand operating out of Orgrimmar, obtaining this key is not a matter of blunt force; field operatives must slip into the compound undetected and pick the foreman's pockets cleanly, proving their mastery of stealth before climbing into the toxic upper levels.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find Foreman Silixiz?",
+   "aliases": [
+    "silixiz location",
+    "where is foreman silixiz",
+    "find silixiz"
+   ],
+   "answer": "Foreman Silixiz is stationed outside the Venture Company tower situated directly north of the Sludge Fen, in the northeastern reaches of the Barrens."
+  },
+  {
+   "q": "Can I obtain the key by killing Foreman Silixiz?",
+   "aliases": [
+    "silixiz key drop",
+    "can i kill silixiz",
+    "loot silixiz key"
+   ],
+   "answer": "No. The key cannot be scavenged from his corpse. Operatives are required to use stealth and pick his pockets directly while he is alive to secure the item."
+  },
+  {
+   "q": "Who requires this key?",
+   "aliases": [
+    "who wants the key",
+    "turn in silixiz key",
+    "silixiz tower key quest"
+   ],
+   "answer": "The key is an objective assigned by Shattered Hand contacts for delivery to Shenthul, the rogue trainer stationed within the shadows of Orgrimmar."
+  },
+  {
+   "q": "What is the key used for?",
+   "aliases": [
+    "what does silixiz key unlock",
+    "silixiz key purpose",
+    "use tower key"
+   ],
+   "answer": "The key signifies proof of infiltration into the Venture Company's tower near the Sludge Fen and is turned in to the Shattered Hand along with Grand Foreman Puzik Gallywix's head and the cache of Zanzil's altered mixture."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Obtaining Silixiz's Tower Key serves as an essential trial for Horde rogues entering the ranks of the Shattered Hand, demanding mastery of sneaking and pickpocketing."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The key is an integral trophy in counteracting Venture Company exploitation and chemical experiments threatening the northern Barrens."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "foreman silixiz",
+  "shattered hand",
+  "shenthul",
+  "silixiz",
+  "sludge fen",
+  "tower key",
+  "venture co"
+ ],
+ "related": [
+  "npc:shenthul",
+  "quest:1858",
+  "subzone:sludge-fen",
+  "zone:barrens",
+  "zone:orgrimmar",
+  "item:gallywix-s-head",
+  "item:cache-of-zanzil-s-altered-mixture",
+  "topic:rogue"
+ ],
+ "attribution": [
+  "Silixiz's Tower Key",
+  "Mission: Possible But Not Probable"
+ ]
+}

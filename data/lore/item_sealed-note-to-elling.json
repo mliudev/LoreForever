@@ -1,0 +1,90 @@
+{
+ "key": "item:sealed-note-to-elling",
+ "type": "item",
+ "name": "Sealed Note to Elling",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Sealed Note to Elling",
+  "quests": [
+   "quest:1242"
+  ]
+ },
+ "summary": "The Sealed Note to Elling is a confidential dispatch penned by the Stormwind watchman Jorgen. Intended for Elling Trias, the proprietor of Trias' Cheese, it serves as an early link in the discreet investigation surrounding a vanished diplomat.",
+ "sections": [
+  {
+   "title": "A Quiet Hand-Off",
+   "body": "Carrying a sealed note through the bustling avenues of Stormwind might seem mundane, but Jorgen's strict instructions make the stakes clear: deliver the parchment into Elling Trias's hands and keep silent. While Trias outwardly presents himself as a mild-mannered cheese merchant in the Trade District, this clandestine message directs the investigation of the missing diplomat straight to his counter, hinting at networks far deeper than dairy trade.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is written inside the sealed note?",
+   "aliases": [
+    "note contents",
+    "what does the note say",
+    "letter text"
+   ],
+   "answer": "The note remains sealed until handed to Elling Trias. It contains Jorgen's report and an introduction directing the courier to Trias for deeper inquiries into the disappearance of King Varian Wrynn's envoy."
+  },
+  {
+   "q": "Why does a cheese vendor receive secret intelligence?",
+   "aliases": [
+    "why elling trias",
+    "why cheese shop",
+    "is trias a spy"
+   ],
+   "answer": "Elling Trias maintains an unassuming cheese shop in the Trade District as a public front. Beneath the apron, Trias possesses an extensive underground network of ears and eyes across the city, making him an invaluable asset for delicate investigations."
+  },
+  {
+   "q": "Who is Jorgen?",
+   "aliases": [
+    "who wrote the note",
+    "jorgen lore",
+    "watchman jorgen"
+   ],
+   "answer": "Jorgen is a contact tied to Stormwind's internal security apparatus. He assists in discreet matters that the royal court wishes to handle away from the prying eyes of the general public and Defias sympathizers."
+  },
+  {
+   "q": "What is the missing diplomat case about?",
+   "aliases": [
+    "missing diplomat lore",
+    "who is the diplomat",
+    "why missing diplomat"
+   ],
+   "answer": "The kingdom is on edge following the unexplained vanishing of an envoy sent on a critical peace mission. Because King Varian Wrynn is also absent, royal authorities are quietly investigating every suspicious lead without causing panic in the streets."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Rogues familiar with Stormwind's shadow networks recognize Elling Trias as far more than a merchant of cheddar, making this discreet correspondence an unsurprising piece of tradecraft."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Carrying Jorgen's message is a direct service to the Crown, advancing an investigation critical to the political stability of Stormwind."
+  }
+ ],
+ "keywords": [
+  "elling trias",
+  "jorgen",
+  "sealed note to elling",
+  "stormwind",
+  "the missing diplomat",
+  "trade district",
+  "trias cheese"
+ ],
+ "related": [
+  "npc:elling-trias",
+  "npc:jorgen",
+  "quest:1241",
+  "subzone:trade-district",
+  "zone:stormwind",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Sealed Note to Elling",
+  "The Missing Diplomat (3)"
+ ]
+}

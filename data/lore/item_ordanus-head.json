@@ -1,0 +1,99 @@
+{
+ "key": "item:ordanus-head",
+ "type": "item",
+ "name": "Ordanus' Head",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Ordanus' Head",
+  "quests": [
+   "quest:1088"
+  ]
+ },
+ "summary": "Ordanus' Head is the grisly trophy taken from Keeper Ordanus at Raynewood Retreat in Ashenvale. Claimed on behalf of the blood elf magi Braelyn Firehand, it serves as undeniable proof that one of Cenarius's eldest sons has fallen to arcane vengeance.",
+ "sections": [
+  {
+   "title": "A Grudge from the Past",
+   "body": "Keeper Ordanus was an ancient keeper of the grove, one of the elder scions of the forest god Cenarius. When Braelyn Firehand climbed the heights of Stonetalon Mountains on orders from her master, she sought to cleanse the sacred Highborne ruins from night elven presence and exact vengeance on Ordanus. However, the keeper was spirited away to the heart of Ashenvale before she could strike. Using arcane scrying to peer through the forest canopy, Firehand located his sanctuary in the boughs of Raynewood Retreat, demanding his severed head as proof that the wild demigod's arrogance had finally been answered.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of Hubris",
+   "body": "Braelyn holds a centuries-deep grievance against Ordanus and the druids who dared condemn arcane casting while occupying ruins once sanctified to Queen Azshara. In life, Ordanus considered himself superior even to the ancient Highborne nobility. By taking his head, Firehand symbolically strikes back against the legacy of Cenarius, declaring that no guardian of the wild can stem the return of raw magical power.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Keeper Ordanus?",
+   "aliases": [
+    "who is ordanus",
+    "ordanus lore",
+    "what is ordanus"
+   ],
+   "answer": "Keeper Ordanus was an ancient keeper of the grove and an elder son of Cenarius. Long ago, he clashed with the arcane practitioners of the night elven nobility, holding a reputation for deep arrogance toward those who practiced the arcane arts."
+  },
+  {
+   "q": "Where is this head collected?",
+   "aliases": [
+    "where to find ordanus head",
+    "ordanus location",
+    "raynewood retreat ordanus"
+   ],
+   "answer": "The head is claimed from Keeper Ordanus atop the elevated wooden platform at Raynewood Retreat, a fortified night elven canopy enclave situated in central Ashenvale."
+  },
+  {
+   "q": "Why does Braelyn Firehand want his head?",
+   "aliases": [
+    "why braelyn wants ordanus head",
+    "braelyn grudge",
+    "why kill ordanus"
+   ],
+   "answer": "Braelyn Firehand seeks vengeance for an ancient feud dating back to before the Great Sundering, when Ordanus and his kin looked down upon the Highborne. She also despises the night elves for defiling the ancient ruins of Azshara atop Stonetalon Peak."
+  },
+  {
+   "q": "What happens after the head is delivered?",
+   "aliases": [
+    "ordanus head turn in",
+    "after ordanus dies",
+    "braelyn firehand quest reward"
+   ],
+   "answer": "Delivering Ordanus' Head to Braelyn at Sunrock Retreat satisfies her blood debt, prompting her to reward the mercenary handsomely before directing her wrath toward deeper druidic strongholds in the region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Striking down Ordanus and delivering his head to Braelyn helps cement the Horde's foothold across the contested borders of Stonetalon and Ashenvale, weakening local night elf leadership."
+  },
+  {
+   "target": "class:Druid",
+   "text": "For a druid, carrying the severed head of an elder son of Cenarius serves as a stark reminder of the bitter, bloody animosity that arcane sorcerers still bear toward the protectors of the wild."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "braelyn firehand",
+  "cenarius",
+  "keeper of the grove",
+  "ordanus",
+  "ordanus' head",
+  "raynewood retreat",
+  "stonetalon",
+  "sunrock retreat"
+ ],
+ "related": [
+  "quest:1088",
+  "npc:braelyn-firehand",
+  "subzone:raynewood-retreat",
+  "zone:ashenvale",
+  "zone:stonetalon",
+  "quest:1087",
+  "quest:1089",
+  "topic:cenarius"
+ ],
+ "attribution": [
+  "Ordanus' Head",
+  "Ordanus (quest)"
+ ]
+}

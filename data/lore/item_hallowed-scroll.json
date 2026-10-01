@@ -1,0 +1,86 @@
+{
+ "key": "item:hallowed-scroll",
+ "type": "item",
+ "name": "Hallowed Scroll",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Hallowed Scroll",
+  "quests": [
+   "quest:3097"
+  ]
+ },
+ "summary": "The Hallowed Scroll is a formal summons delivered to newly awakened Forsaken priests in Deathknell. Bearing the personal seal of Dark Cleric Duesten, it directs fledglings to the ruined chapel to begin their re-education in faith, willpower, and shadow.",
+ "sections": [
+  {
+   "title": "A Summons to the Faithless",
+   "body": "Newly risen Forsaken priests find that their connection to the world has violently shifted. Delivered amidst the ongoing chaos of Deathknell's reclamation, the Hallowed Scroll directs nascent spellcasters to seek guidance within the settlement's ruined chapel. Marked with the seal of Dark Cleric Duesten, the parchment serves as both an introduction and an order to report for formal instruction, initiating the priest into the pragmatic philosophy that defines Forsaken priesthood.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Path of Self-Reliance",
+   "body": "Upon answering the scroll's summons, priests are immediately disabused of old dogmas. Duesten makes it clear that traditional crutches\u2014the veneration of the Holy Light, ancestral spirits, or demonic pacts\u2014no longer serve the undead. Instead, the scroll marks the start of an inward discipline rooted strictly in individual willpower. The teachings initiated by this parchment emphasize surviving and ruling through sheer conviction, turning religious devotion into an instrument of self-determination and mastery.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Hallowed Scroll?",
+   "aliases": [
+    "what is this scroll",
+    "hallowed scroll purpose",
+    "item hallowed scroll"
+   ],
+   "answer": "The Hallowed Scroll is a written message delivered to newly risen Forsaken priests in Deathknell. It instructs the reader to report to Dark Cleric Duesten inside the local chapel to begin their formal priesthood training."
+  },
+  {
+   "q": "Who sent the Hallowed Scroll?",
+   "aliases": [
+    "who wrote hallowed scroll",
+    "who sent the scroll",
+    "duesten scroll"
+   ],
+   "answer": "The scroll bears the personal seal of Dark Cleric Duesten, the priest trainer stationed in the abandoned church of Deathknell."
+  },
+  {
+   "q": "What does Dark Cleric Duesten teach when you bring him the scroll?",
+   "aliases": [
+    "what does duesten say",
+    "forsaken priest beliefs",
+    "deathknell priest lore"
+   ],
+   "answer": "Duesten teaches that undead priests must discard traditional reliance on the Holy Light, ancestral spirits, or otherworldly powers. He preaches that the Forsaken survived through sheer personal willpower alone and instructs young priests to cultivate self-faith to guide and dominate others."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This parchment marks the definitive break from traditional human faith, orienting Forsaken priests toward self-willed conviction and the shadowy arts practiced by the Cult of the Forgotten Shadow."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Receiving this summons reflects the urgent, pragmatic mobilization of Deathknell, ensuring newly awakened undead are quickly trained and integrated into Sylvanas's forces."
+  }
+ ],
+ "keywords": [
+  "deathknell",
+  "duesten",
+  "forsaken",
+  "hallowed scroll",
+  "light",
+  "priest",
+  "tirisfal"
+ ],
+ "related": [
+  "quest:3097",
+  "subzone:deathknell",
+  "topic:priest",
+  "zone:tirisfal",
+  "topic:light",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Hallowed Scroll",
+  "Hallowed Scroll (quest)"
+ ]
+}

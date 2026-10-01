@@ -1,0 +1,98 @@
+{
+ "key": "item:modr-fragment",
+ "type": "item",
+ "name": "Modr Fragment",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Modr Fragment",
+  "quests": [
+   "quest:299"
+  ]
+ },
+ "summary": "The Modr Fragment is one of four missing pieces broken off from the ancient Goaz Stone, a relic unearthed in the Wetlands. Discovered amid relics and loose earth within the Whelgar Excavation Site, it bears ancient Titan script vital to assembling a forgotten prophecy.",
+ "sections": [
+  {
+   "title": "A Piece of the Goaz Stone",
+   "body": "Before vicious raptors drove the Explorers' League from their dig in the Wetlands, Prospector Whelgar uncovered the Goaz Stone\u2014a massive tablet inscribed with ancient Titan markings. Its translated text abruptly broke off across four distinct gaps, obscuring warnings of a divine plan and a doomed prophecy. The Modr Fragment is one of those four lost pieces, left behind among ancient relics and overturned soil when the diggers were forced to flee for their lives.",
+   "spoiler": 0
+  },
+  {
+   "title": "Secrets Beneath the Earth",
+   "body": "Reassembling the Modr Fragment alongside the Ados, Golm, and Neru fragments allows Prospector Whelgar to finally reconstruct the full inscription. The translated script reveals startling lore from the dawn of the world, specifically referring to 'Old Gods... Chained Beneath the Land.' What began as a simple archeological dig in the marshlands has instead exposed the remnants of a primordial struggle locked beneath the soil.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Modr Fragment?",
+   "aliases": [
+    "modr fragment",
+    "what is modr",
+    "modr relic"
+   ],
+   "answer": "It is a shard of inscribed stone broken off from the Goaz Stone, an ancient Titan relic discovered at the Whelgar Excavation Site in the Wetlands."
+  },
+  {
+   "q": "Who is looking for this fragment?",
+   "aliases": [
+    "who wants modr fragment",
+    "whelgar fragment quest"
+   ],
+   "answer": "Prospector Whelgar, an archeologist of the Explorers' League stationed at the edge of the raptor-infested dig site, seeks it to complete the tablet's missing text."
+  },
+  {
+   "q": "What happens when all four fragments are gathered?",
+   "aliases": [
+    "goaz stone completed",
+    "uncovering the past ending",
+    "what does the goaz stone say"
+   ],
+   "answer": "Reuniting the Modr Fragment with the Ados, Golm, and Neru fragments allows Prospector Whelgar to restore the Goaz Stone. Upon reading the full Titan script, he discovers ominous mentions of 'Old Gods... Chained Beneath the Land.'"
+  },
+  {
+   "q": "Where is the fragment found?",
+   "aliases": [
+    "modr fragment location",
+    "where to find modr"
+   ],
+   "answer": "It is scattered across the Whelgar Excavation Site in the southern Wetlands, hidden inside ancient relic pots or patches of loose dirt guarded by aggressive raptors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For the Dwarven Explorers' League, recovering lost pieces like the Modr Fragment is essential to deciphering Titan heritage and unlocking the deep history of their kind."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance travelers assist Prospector Whelgar in braving the overrun excavation in order to preserve invaluable historical research for Ironforge."
+  }
+ ],
+ "keywords": [
+  "ados",
+  "excavation",
+  "goaz stone",
+  "golm",
+  "modr fragment",
+  "neru",
+  "old gods",
+  "titan",
+  "wetlands",
+  "whelgar"
+ ],
+ "related": [
+  "quest:299",
+  "npc:prospector-whelgar",
+  "item:ados-fragment",
+  "item:golm-fragment",
+  "item:neru-fragment",
+  "zone:wetlands",
+  "topic:titan",
+  "topic:old-god"
+ ],
+ "attribution": [
+  "Modr Fragment",
+  "Uncovering the Past"
+ ]
+}

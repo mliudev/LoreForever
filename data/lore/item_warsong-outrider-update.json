@@ -1,0 +1,89 @@
+{
+ "key": "item:warsong-outrider-update",
+ "type": "item",
+ "name": "Warsong Outrider Update",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Warsong Outrider Update",
+  "quests": [
+   "quest:6543"
+  ]
+ },
+ "summary": "The Warsong Outrider Update is a military intelligence dispatch penned by a Warsong outrider stationed along the eastern borderlands of Ashenvale. Entrusted to couriers serving the Horde, it provides frontline observations vital for securing the crossing toward Azshara and strengthening the orcish foothold against night elf resistance.",
+ "sections": [
+  {
+   "title": "Frontier Intelligence",
+   "body": "Stretching along the eastern road past Splintertree Post toward the ancient ruins of Azshara, the border of Ashenvale remains a volatile frontier. The Warsong Outrider Update compiles tactical sightings, patrol movements, and resource evaluations from the mounted orcish vanguards riding this perimeter. Sent back to Kadrak at the northern watchtower guarding the Barrens border, these field notes grant Horde commanders a clear assessment of enemy troop concentrations and territorial threats lurking beneath the forest canopy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this update?",
+   "aliases": [
+    "warsong outrider update purpose",
+    "why outrider update",
+    "what is this report"
+   ],
+   "answer": "It serves as a status report on night elf activity and frontier conditions along the eastern Ashenvale road toward Azshara. Kadrak relies on this intelligence to coordinate Horde troop deployments and fortify defensive lines along the northern border of the Barrens."
+  },
+  {
+   "q": "Who carries and delivers this dispatch?",
+   "aliases": [
+    "who writes outrider update",
+    "where does outrider update come from"
+   ],
+   "answer": "A Warsong Outrider patrolling the highway between Splintertree Post and the border of Azshara hands over the document in exchange for fresh strategic orders from Kadrak."
+  },
+  {
+   "q": "Where does this report need to go?",
+   "aliases": [
+    "where do i take outrider update",
+    "who wants outrider update"
+   ],
+   "answer": "The update must be brought directly to Kadrak, who oversees the northern watchtower bridging the Barrens and the southern entrance to Ashenvale."
+  },
+  {
+   "q": "Why are the Warsong so invested in Ashenvale?",
+   "aliases": [
+    "why are orcs in ashenvale",
+    "warsong interest ashenvale"
+   ],
+   "answer": "The Warsong Clan heavily logs Ashenvale's ancient forests to supply the Horde with lumber and construction materials for Orgrimmar. This aggressive resource gathering puts them in relentless conflict with the defending night elves and Silverwing Sentinels."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Every scrap of reconnaissance from the front line protects vital supply routes between the Barrens and Ashenvale, directly securing the lumber needed to expand Orgrimmar."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The Warsong Clan relies on vigilant scouts and swift couriers to maintain honor and territory against the fierce night elf sentinels disputing their forestry claims."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "azshara",
+  "barrens",
+  "kadrak",
+  "splintertree post",
+  "warsong outrider",
+  "warsong outrider update"
+ ],
+ "related": [
+  "quest:6543",
+  "npc:kadrak",
+  "npc:warsong-outrider",
+  "zone:ashenvale",
+  "subzone:splintertree-post",
+  "zone:barrens",
+  "zone:azshara",
+  "quest:6545"
+ ],
+ "attribution": [
+  "Warsong Outrider Update",
+  "The Warsong Reports"
+ ]
+}

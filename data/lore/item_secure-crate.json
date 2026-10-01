@@ -1,0 +1,90 @@
+{
+ "key": "item:secure-crate",
+ "type": "item",
+ "name": "Secure Crate",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Secure Crate",
+  "quests": [
+   "quest:1492"
+  ]
+ },
+ "summary": "The Secure Crate is a tightly packed parcel filled with potions, alchemical reagents, and other miscellaneous goods destined for the Eastern Kingdoms. Entrusted to travelers in the Barrens, it must be carried to the bustling port of Ratchet to catch the outgoing tide.",
+ "sections": [
+  {
+   "title": "A Courier's Cargo",
+   "body": "Trade routes between Kalimdor and the Eastern Kingdoms rely on a fragile chain of couriers, desert caravans, and goblin merchant vessels. When land caravans across the Barrens miss their scheduled departures, fragile shipments like this Secure Crate must be hauled by independent travelers down to the coast. Inside are alchemical goods, potions, and various reagents earmarked for associates across the Great Sea. Given the delicate and valuable nature of the contents, the crate is firmly sealed to ensure it survives both the arid trails of the Barrens and the salty spray of oceanic transit.",
+   "spoiler": 0
+  },
+  {
+   "title": "Through the Port of Ratchet",
+   "body": "The destination of the crate's land leg is the dock at Ratchet, overseen by Wharfmaster Dizzywig. Ratchet's harbor serves as the primary neutral funnel through which supplies cross the sea toward destinations like Blackwater Cove. Operating under the ledger of the Steamwheedle Cartel, Dizzywig ensures that small parcels and heavy freight alike are properly manifested and loaded aboard the next departing vessel, providing a vital commercial link between the Old World and the frontier.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Secure Crate?",
+   "aliases": [
+    "crate contents",
+    "what is in the crate",
+    "secure crate items"
+   ],
+   "answer": "The crate contains a delicate assortment of potions, alchemical reagents, and other supplies bound for associates in the Eastern Kingdoms."
+  },
+  {
+   "q": "Where is the crate being sent?",
+   "aliases": [
+    "crate destination",
+    "where does secure crate go"
+   ],
+   "answer": "On foot, it must be delivered to Wharfmaster Dizzywig on the docks of Ratchet. From there, Dizzywig books it onto a merchant vessel sailing across the sea to Blackwater Cove in the Old World."
+  },
+  {
+   "q": "Why was the crate given to an adventurer instead of a caravan?",
+   "aliases": [
+    "why do i have the crate",
+    "missed caravan"
+   ],
+   "answer": "The sender lacked the time to make the journey down to Ratchet personally, and the scheduled trade caravan had already departed, necessitating a hired courier to make the tide."
+  },
+  {
+   "q": "Who takes the crate at Ratchet?",
+   "aliases": [
+    "who gets the crate",
+    "dizzywig crate"
+   ],
+   "answer": "Wharfmaster Dizzywig receives the crate on the Ratchet docks, recording it in his shipping ledger before stowing it aboard the next ship sailing with the tide."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "The secure parceling of reagents highlights how heavily cross-sea alchemists and herbalists depend on frontier trade routes to exchange raw ingredients."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Navigating shipping through Ratchet reminds Horde travelers of the vital, neutral trade links goblin ports provide between Kalimdor and the Eastern Kingdoms."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "blackwater cove",
+  "potions",
+  "ratchet",
+  "reagents",
+  "secure crate",
+  "shipping",
+  "wharfmaster dizzywig"
+ ],
+ "related": [
+  "quest:1492",
+  "subzone:ratchet",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Secure Crate",
+  "Wharfmaster Dizzywig (Barrens)"
+ ]
+}

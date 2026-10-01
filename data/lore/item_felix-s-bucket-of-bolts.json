@@ -1,0 +1,93 @@
+{
+ "key": "item:felix-s-bucket-of-bolts",
+ "type": "item",
+ "name": "Felix's Bucket of Bolts",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Felix's Bucket of Bolts",
+  "quests": [
+   "quest:3361"
+  ]
+ },
+ "summary": "Felix's Bucket of Bolts is a container of spare hardware and tools owned by Felix Whindlebolt, a gnome refugee who fled the fall of Gnomeregan. During his escape into Dun Morogh, the bucket was snatched by local Frostmane trolls and dragged into their nearby camps.",
+ "sections": [
+  {
+   "title": "A Refugee's Scattered Tools",
+   "body": "When radiation flooded Gnomeregan following the disaster against the troggs, thousands of gnomes fled into the freezing wilds of Dun Morogh with whatever they could carry. Felix Whindlebolt managed to escape with his vital equipment, but in the chaos of his flight toward Anvilmar, he was ambushed by the Frostmane trolls who inhabit the crags southwest of town. The trolls plundered his belongings, including this bucket full of bolts and parts, leaving the artisan stranded without the essential materials needed to ply his craft in exile.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Felix's Bucket of Bolts?",
+   "aliases": [
+    "bucket of bolts",
+    "felixs bucket",
+    "felix bucket of bolts"
+   ],
+   "answer": "It is a heavy container filled with metal bolts, hardware, and tinkering supplies belonging to Felix Whindlebolt, an exiled gnome taking refuge in Anvilmar."
+  },
+  {
+   "q": "Who stole the bucket?",
+   "aliases": [
+    "who took the bolts",
+    "trolls stole bucket",
+    "who has felixs bolts"
+   ],
+   "answer": "The Frostmane trolls stole the bucket along with Felix's other personal belongings as he was fleeing the catastrophe at Gnomeregan."
+  },
+  {
+   "q": "Where did the trolls take it?",
+   "aliases": [
+    "where are the bolts",
+    "bucket location",
+    "felix bolts camp"
+   ],
+   "answer": "The trolls carried it back to their encampments in the crags southwest of Anvilmar in Coldridge Valley."
+  },
+  {
+   "q": "Why is this bucket important to Felix?",
+   "aliases": [
+    "why does felix want bolts",
+    "felix whindlebolt bolts importance"
+   ],
+   "answer": "Gnomish refugees fled their home with virtually nothing. For an engineer or craftsman like Felix, basic fasteners and parts are essential to surviving and rebuilding their lives away from Gnomeregan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Every salvaged bucket of parts represents one small piece of Gnomeregan saved from ruin, helping refugees establish a new foothold in Coldridge Valley."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "No tinker can work without basic hardware, making a simple bucket of bolts a prized possession when starting over in the snows of Dun Morogh."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "bolts",
+  "dun morogh",
+  "felix",
+  "frostmane",
+  "gnomeregan",
+  "refugee",
+  "trolls",
+  "whindlebolt"
+ ],
+ "related": [
+  "npc:felix-whindlebolt",
+  "quest:3361",
+  "item:felix-s-box",
+  "item:felix-s-chest",
+  "subzone:anvilmar",
+  "zone:dunmorogh",
+  "zone:gnomeregan",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Felix's Bucket of Bolts",
+  "A Refugee's Quandary (Classic)"
+ ]
+}

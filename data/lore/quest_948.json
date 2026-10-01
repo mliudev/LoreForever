@@ -17,11 +17,11 @@
   "wiki": "Onu (quest)",
   "chain": []
  },
- "summary": "This errand directs travelers from Auberdine south toward the Grove of the Ancients to consult with Onu. Having investigated the strange fungal growth deep within Cliffwater Falls, your findings have drawn the urgent attention of one of Darkshore's oldest guardians.",
+ "summary": "This errand directs travelers from Auberdine south toward the Grove of the Ancients to consult with Onu. Having investigated the strange fungal growth deep within Cliffspring Falls, your findings have drawn the urgent attention of one of Darkshore's oldest guardians.",
  "sections": [
   {
    "title": "A Summons from the Ancients",
-   "body": "After returning to Auberdine with fungal samples from the depths of Cliffwater Falls, Barithras Moonshade realizes that the implications stretch far beyond mere botanical curiosity. Word of the tainted caverns travels quickly to Onu, an Ancient of Lore rooted in the tranquil sanctuary of the Grove of the Ancients south of town. Patient and ponderous though the ancient treants are by nature, Onu's immediate desire for counsel signals that the corruption running through Darkshore's waterways may touch upon ancient, unsettling powers.",
+   "body": "After returning to Auberdine with fungal samples from the depths of Cliffspring Falls, Barithras Moonshade realizes that the implications stretch far beyond mere botanical curiosity. Word of the tainted caverns travels quickly to Onu, an Ancient of Lore rooted in the tranquil sanctuary of the Grove of the Ancients south of town. Patient and ponderous though the ancient treants are by nature, Onu's immediate desire for counsel signals that the corruption running through Darkshore's waterways may touch upon ancient, unsettling powers.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "reason for talk",
     "why go to onu"
    ],
-   "answer": "You recently ventured into the caverns beneath Cliffwater Falls to gather fungal samples for Barithras Moonshade. The peculiar nature of what was uncovered there alarmed the naturalists, prompting Onu to request an audience to address the growing corruption."
+   "answer": "You recently ventured into the caverns beneath Cliffspring Falls to gather fungal samples for Barithras Moonshade. The peculiar nature of what was uncovered there alarmed the naturalists, prompting Onu to request an audience to address the growing corruption."
   },
   {
    "q": "Where is the Grove of the Ancients?",

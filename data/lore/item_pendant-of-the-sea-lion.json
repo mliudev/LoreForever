@@ -1,0 +1,97 @@
+{
+ "key": "item:pendant-of-the-sea-lion",
+ "type": "item",
+ "name": "Pendant of the Sea Lion",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Pendant of the Sea Lion",
+  "quests": [
+   "quest:31",
+   "quest:5061"
+  ]
+ },
+ "summary": "The Pendant of the Sea Lion is a sacred druidic talisman representing the union of aquatic agility and endurance. Assembled at the Shrine of Remulos in Moonglade, it serves as proof that an initiate is ready to master their aquatic form.",
+ "sections": [
+  {
+   "title": "A Token of the Deep",
+   "body": "To claim the aquatic aspect of the sea lion, a druid must prove mastery over the water's greatest hazards. The pendant is created by recovering two distinct halves: one embodying the agility needed to slip past aquatic predators, and the other granting the endurance required to withstand prolonged submersion. Brought before the Shrine of Remulos in Moonglade, the two pieces are joined into a single whole.",
+   "spoiler": 0
+  },
+  {
+   "title": "Proof of Mastery",
+   "body": "Once forged, the completed pendant is brought before elder mentors\u2014such as Turak Runetotem on the towering rises of Thunder Bluff or Mathrengyl Bearwalker in Darnassus. The talisman provides undeniable proof of the initiate's trials under Dendrite Starblaze, permitting the elders to bestow the secrets of shifting into an aquatic form.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Pendant of the Sea Lion?",
+   "aliases": [
+    "what does pendant of the sea lion do",
+    "sea lion pendant use",
+    "why get pendant of the sea lion"
+   ],
+   "answer": "It serves as proof that a druid initiate has completed the trials of aquatic agility and endurance, demonstrating readiness to learn their aquatic shapeshifting form."
+  },
+  {
+   "q": "Where is the pendant assembled?",
+   "aliases": [
+    "how to make sea lion pendant",
+    "where combine pendant halves"
+   ],
+   "answer": "The two halves\u2014representing agility and endurance\u2014must be joined together at the Shrine of Remulos located within the sacred haven of Moonglade."
+  },
+  {
+   "q": "Who do I present the pendant to in Thunder Bluff?",
+   "aliases": [
+    "who takes pendant thunder bluff",
+    "turak runetotem pendant",
+    "horde aquatic form turn in"
+   ],
+   "answer": "Tauren druids present the completed pendant to Turak Runetotem on the Elder Rise in Thunder Bluff to complete their training."
+  },
+  {
+   "q": "Can night elves also earn this pendant?",
+   "aliases": [
+    "alliance sea lion pendant",
+    "darnassus sea lion pendant"
+   ],
+   "answer": "Yes. Night elf druids undergo the same trial in Moonglade, bringing their assembled pendant to Mathrengyl Bearwalker in Darnassus instead."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Assembling this talisman marks a critical milestone in a druid's training, unlocking the ability to breathe water and swim with effortless speed as a sea lion."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For the Shu'halo walking the path of the Cenarion Circle, bringing the pendant back to Turak Runetotem honors both the ancestors and the teachings of Moonglade."
+  }
+ ],
+ "keywords": [
+  "aquatic form",
+  "dendrite starblaze",
+  "mathrengyl bearwalker",
+  "moonglade",
+  "pendant of the sea lion",
+  "remulos",
+  "turak runetotem"
+ ],
+ "related": [
+  "quest:31",
+  "quest:5921",
+  "npc:turak-runetotem",
+  "npc:mathrengyl-bearwalker",
+  "npc:dendrite-starblaze",
+  "npc:remulos",
+  "topic:druid",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Pendant of the Sea Lion",
+  "Aquatic Form (Horde)",
+  "Aquatic Form (Alliance)"
+ ]
+}

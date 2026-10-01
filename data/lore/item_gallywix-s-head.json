@@ -1,0 +1,97 @@
+{
+ "key": "item:gallywix-s-head",
+ "type": "item",
+ "name": "Gallywix's Head",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Gallywix's Head",
+  "quests": [
+   "quest:2478"
+  ]
+ },
+ "summary": "Gallywix's Head is a severed trophy taken from Grand Foreman Puzik Gallywix, an overseer of the Venture Company operating at the Sludge Fen in the Barrens. It serves as gruesome proof of execution demanded by the Shattered Hand, the covert rogue syndicate based in Orgrimmar.",
+ "sections": [
+  {
+   "title": "A Grim Proof of Elimination",
+   "body": "Grand Foreman Puzik Gallywix directed operations out of the Venture Company's tower north of the Sludge Fen. In response to the encroaching industrial threat and hazardous concoctions produced there, the Shattered Hand dispatched operatives to dismantle the facility entirely. Claiming Puzik Gallywix's head serves as absolute proof to Shenthul in Orgrimmar that the overseer was executed, securing the rogue's standing within the guild.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Sludge Fen Incursion",
+   "body": "The assignment to take Gallywix's head is accompanied by a mandate to retrieve a stolen cache of Zanzil's altered mixture and slaughter the tower's poisoned personnel. By assassinating Gallywix atop his perch and returning his head to the Cleft of Shadows, operatives confirm the disruption of the Venture Company's toxic experiments in the Barrens.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Whose head is this?",
+   "aliases": [
+    "who is gallywix",
+    "puzik gallywix",
+    "gallywix head origin"
+   ],
+   "answer": "The head belongs to Grand Foreman Puzik Gallywix, a goblin supervisor overseeing Venture Company operations at the Sludge Fen in the northern Barrens."
+  },
+  {
+   "q": "Who wants Gallywix's Head?",
+   "aliases": [
+    "who do i give the head to",
+    "turn in gallywix head",
+    "shenthul head"
+   ],
+   "answer": "The trophy is delivered to Shenthul, a rogue trainer and operative of the Shattered Hand situated in the Cleft of Shadows beneath Orgrimmar."
+  },
+  {
+   "q": "Why does the Shattered Hand want him dead?",
+   "aliases": [
+    "why kill gallywix",
+    "gallywix assassination reason"
+   ],
+   "answer": "Puzik Gallywix oversaw a hazardous Venture Company operation experimenting with Zanzil's altered mixture. The Shattered Hand marked him for death to eliminate a local industrial hazard and secure the concoction."
+  },
+  {
+   "q": "Where is Puzik Gallywix located?",
+   "aliases": [
+    "where is gallywix",
+    "gallywix location",
+    "sludge fen tower boss"
+   ],
+   "answer": "He is found at the very top of the Venture Company tower, located just north of the Sludge Fen in the northern Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Retrieving Gallywix's Head proves a rogue's lethal capability in covert infiltration, stealth, and targeted assassination on behalf of the Shattered Hand."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Eliminating Venture Company leaders like Gallywix curtails the exploitative industrial incursions threatening the borders of the Barrens and Durotar."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "gallywix",
+  "orgrimmar",
+  "puzik",
+  "shattered hand",
+  "shenthul",
+  "sludge fen",
+  "venture co"
+ ],
+ "related": [
+  "quest:2478",
+  "npc:shenthul",
+  "subzone:sludge-fen",
+  "quest:1858",
+  "item:cache-of-zanzil-s-altered-mixture",
+  "item:silixiz-s-tower-key",
+  "quest:764",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Gallywix's Head",
+  "Mission: Possible But Not Probable"
+ ]
+}

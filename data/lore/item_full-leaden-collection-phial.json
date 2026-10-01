@@ -1,0 +1,98 @@
+{
+ "key": "item:full-leaden-collection-phial",
+ "type": "item",
+ "name": "Full Leaden Collection Phial",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Full Leaden Collection Phial",
+  "quests": [
+   "quest:2926"
+  ]
+ },
+ "summary": "A heavy, lead-lined flask filled with irradiated radioactive fallout gathered from the troggs infesting Gnomeregan. The inventor Ozzie Togglevolt requested this hazardous sample in hopes of synthesizing a cure for irradiated leper gnomes\u2014or perhaps concocting a dangerously potent rum.",
+ "sections": [
+  {
+   "title": "A Toxic Brew",
+   "body": "The lead lining of this collection phial is essential to shield the carrier from the volatile green fallout saturating Gnomeregan. The fallout originated when High Tinker Mekkatorque's advisors flooded the lower corridors with toxic radiation to halt the invading troggs, a catastrophe that instead corrupted both troggs and surviving gnomes into maddened, irradiated horrors. By collecting fluid residue directly from Irradiated Invaders and Pillagers, daring adventurers furnish refugee tinkerers like Ozzie Togglevolt and Razzle Sprysprocket in Kharanos with raw materials needed to experiment on remedies.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cure or Concoction",
+   "body": "While Gnoarn remains fixated on reclaiming the city, Ozzie Togglevolt approaches the fallout problem with frantic gnome experimentation. Ozzie seeks to use the liquid gathered in the phial to treat an entrapped leper gnome\u2014while simultaneously hoping the mixture might reverse his own baldness. The boundary between a miraculous antidote and a highly volatile beverage remains dangerously thin in gnomic laboratory science.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the phial made of lead?",
+   "aliases": [
+    "why leaden phial",
+    "why lead flask",
+    "leaden collection phial purpose"
+   ],
+   "answer": "The lead lining prevents the intense radioactive fallout collected from Gnomeregan's contaminated troggs from sickening or killing the bearer who carries it back to Kharanos."
+  },
+  {
+   "q": "Who wants this irradiated fluid?",
+   "aliases": [
+    "who needs the phial",
+    "ozzie togglevolt quest",
+    "who turns in gnogaine"
+   ],
+   "answer": "Ozzie Togglevolt, a gnome researcher operating in Kharanos, needs the irradiated fallout to experiment on a cure for leprosy-afflicted gnomes, aided by Razzle Sprysprocket."
+  },
+  {
+   "q": "Where does the radiation in the phial come from?",
+   "aliases": [
+    "how to fill phial",
+    "irradiated troggs location",
+    "green glow source"
+   ],
+   "answer": "The glowing green residue is harvested directly from Irradiated Invaders and Irradiated Pillagers, troggs that prowl the tainted corridors leading into Gnomeregan."
+  },
+  {
+   "q": "Does Ozzie actually cure the leper gnomes with it?",
+   "aliases": [
+    "does the cure work",
+    "gnogaine outcome",
+    "is leper gnome cured"
+   ],
+   "answer": "Ozzie's experiments are chaotic and uncertain. His concoction aims to cure a captured leper gnome and restore his own hair, but gnomic science often requires repeated testing and refined samples before finding safe, consistent results."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For exiled gnomes in Dun Morogh, carrying this toxic sample is a grim reminder of the disaster that poisoned their ancestral home, but it represents a desperate hope to restore their corrupted kin."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The leaden casing demonstrates standard gnomic safety protocols when handling volatile, toxic fallout for laboratory testing."
+  }
+ ],
+ "keywords": [
+  "full leaden collection phial",
+  "gnogaine",
+  "gnomeregan",
+  "irradiated trogg",
+  "kharanos",
+  "leaden collection phial",
+  "leper gnome",
+  "ozzie togglevolt"
+ ],
+ "related": [
+  "quest:2926",
+  "item:empty-leaden-collection-phial",
+  "npc:ozzie-togglevolt",
+  "zone:gnomeregan",
+  "quest:2962",
+  "subzone:kharanos",
+  "topic:leper-gnome",
+  "npc:gnoarn"
+ ],
+ "attribution": [
+  "Full Leaden Collection Phial",
+  "Gnogaine"
+ ]
+}

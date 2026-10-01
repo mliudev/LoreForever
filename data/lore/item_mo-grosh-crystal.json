@@ -1,0 +1,83 @@
+{
+ "key": "item:mo-grosh-crystal",
+ "type": "item",
+ "name": "Mo'grosh Crystal",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Mo'grosh Crystal",
+  "quests": [
+   "quest:278"
+  ]
+ },
+ "summary": "Mo'grosh Crystals are rare mineral formations mined and hoarded by the Mo'grosh ogres in northeastern Loch Modan. Prized for their unusual alchemical properties, they serve as a vital component in neutralizing Dark Iron demolition materials.",
+ "sections": [
+  {
+   "title": "A Rare Ogresh Commodity",
+   "body": "Tucked away in the crags of northeastern Loch Modan, the Mo'grosh ogres excavate these distinctive crystals from their stronghold. Though the brute-strength ogres rarely specialize in delicate metallurgy, Mo'grosh Crystals are prized treasures among their clan, carried by common enforcers, mystic shamans, and their towering leaders alike. The crystals are relatively uncommon, making them a heavily guarded possession within the Mo'grosh Stronghold.",
+   "spoiler": 0
+  },
+  {
+   "title": "Countering the Dark Iron Threat",
+   "body": "When intelligence reveals that Dark Iron saboteurs are plotting against the Stonewrought Dam, Chief Engineer Hinderweir seeks a Mo'grosh Crystal alongside spider lurker venom and crocolisk tears. By combining the crystalline mineral with these reactive reagents, the dwarven engineers can concoct a specialized compound capable of disarming and defusing volatile Dark Iron explosives before the valley can be flooded.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Mo'grosh Crystals come from?",
+   "aliases": [
+    "mogrosh crystal location",
+    "where to find mogrosh crystal",
+    "who drops mogrosh crystal"
+   ],
+   "answer": "They are mined and held by the Mo'grosh ogres in northeastern Loch Modan. Any member of the clan within the Mo'grosh Stronghold\u2014including mystics, brutes, enforcers, and shamans\u2014might be carrying one."
+  },
+  {
+   "q": "What is the crystal used for?",
+   "aliases": [
+    "what does mogrosh crystal do",
+    "use of mogrosh crystal",
+    "why hinderweir wants crystal"
+   ],
+   "answer": "Chief Engineer Hinderweir at the Stonewrought Dam requires the crystal to prepare a neutralizing mixture. Blended with lurker venom and crocolisk tears, it serves to disarm Dark Iron explosives intended to sabotage the dam."
+  },
+  {
+   "q": "Why are the ogres mining these crystals?",
+   "aliases": [
+    "why ogres have crystals",
+    "ogre crystal lore"
+   ],
+   "answer": "The Mo'grosh ogres mine the crystals from the surrounding hills as a valuable clan resource. Their mystics and shamans draw upon strange minerals for their rituals, while the warriors hoard them as rare commodities."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The defense of the Stonewrought Dam depends on dwarven ingenuity, turning an ogre clan's mined treasure into a safeguard against Dark Iron treachery."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Though excavated deep within ogre territory, these raw mineral specimens demonstrate unique chemical reactivity when combined with organic reagents."
+  }
+ ],
+ "keywords": [
+  "dark threat looms",
+  "hinderweir",
+  "loch modan",
+  "mo'grosh crystal",
+  "mogrosh",
+  "stonewrought dam"
+ ],
+ "related": [
+  "quest:161",
+  "item:lurker-venom",
+  "item:crocolisk-tear-classic",
+  "zone:lochmodan",
+  "subzone:the-loch"
+ ],
+ "attribution": [
+  "Mo'grosh Crystal",
+  "A Dark Threat Looms (5)"
+ ]
+}

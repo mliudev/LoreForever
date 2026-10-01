@@ -1,0 +1,95 @@
+{
+ "key": "item:strange-smelling-powder",
+ "type": "item",
+ "name": "Strange Smelling Powder",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Strange Smelling Powder",
+  "quests": [
+   "quest:161",
+   "quest:199"
+  ]
+ },
+ "summary": "Strange Smelling Powder is an enigmatic residue uncovered during investigations into suspicious sabotage around Loch Modan. Feared to be an unstable demolition agent, it prompts Chief Engineer Hinderweir to send an urgent courier north to seek out a demolition expert.",
+ "sections": [
+  {
+   "title": "A Volatile Discovery",
+   "body": "Discovered amid signs of sabotage threatening Loch Modan's infrastructure, this peculiar powder immediately raised alarm for Chief Engineer Hinderweir. Its pungent odor and fine consistency suggest an engineered demolition compound rather than standard mining blast powder. Unsure of the mixture's chemical nature or origin, Hinderweir refuses to tamper with it himself, knowing that even a slight spark could trigger disaster.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road North",
+   "body": "Because dwarven engineers take no chances with volatile reagents, Hinderweir sends samples of the powder through the Algaz Gate into the Wetlands. There, stationed at Dun Modr near the Thandol Span, the seasoned explosives expert Ashlan Stonesmirk is tasked with inspecting the grains to determine what kind of catastrophic blast the saboteurs are preparing.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Strange Smelling Powder?",
+   "aliases": [
+    "what is strange smelling powder",
+    "what is this powder",
+    "powder loch modan"
+   ],
+   "answer": "It is a suspicious chemical residue recovered in Loch Modan during investigations into local sabotage. Its pungent stench and composition lead dwarven engineers to suspect it is an explosive agent."
+  },
+  {
+   "q": "Why does Chief Engineer Hinderweir want it examined?",
+   "aliases": [
+    "why examine powder",
+    "hinderweir powder",
+    "who needs this powder"
+   ],
+   "answer": "Hinderweir suspects the powder is a specialized explosive. To understand the scale and threat of the plot threatening Loch Modan, he requires a professional analysis from someone deeply versed in heavy demolitions."
+  },
+  {
+   "q": "Who can identify the powder?",
+   "aliases": [
+    "who identifies the powder",
+    "where do i take the powder",
+    "powder expert"
+   ],
+   "answer": "Chief Engineer Hinderweir directs travelers to carry the sample to Ashlan Stonesmirk, an explosives expert stationed far north with the regiment at Dun Modr, near the Thandol Span."
+  },
+  {
+   "q": "Why is transporting the powder dangerous?",
+   "aliases": [
+    "is the powder dangerous",
+    "why dangerous"
+   ],
+   "answer": "Beyond the inherent volatility of an unknown blasting agent, carrying the sample requires braving the perilous journey through the Algaz Gate into the marshy, hostile roads of the Wetlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will recognize the scent of sulfurous, unstable blasting concoctions that don't match the standard formulas used in Alliance mining outposts."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, protecting the stonework and reservoirs of Loch Modan is paramount, making any hint of enemy explosives an immediate crisis for the clan."
+  }
+ ],
+ "keywords": [
+  "a dark threat looms",
+  "ashlan stonesmirk",
+  "dun modr",
+  "hinderweir",
+  "loch modan",
+  "strange smelling powder",
+  "thandol span"
+ ],
+ "related": [
+  "quest:161",
+  "npc:ashlan-stonesmirk",
+  "subzone:dun-modr",
+  "subzone:thandol-span",
+  "zone:lochmodan"
+ ],
+ "attribution": [
+  "Strange Smelling Powder",
+  "A Dark Threat Looms (3)",
+  "A Dark Threat Looms (2)"
+ ]
+}

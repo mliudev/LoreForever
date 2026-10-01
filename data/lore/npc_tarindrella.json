@@ -1,0 +1,91 @@
+{
+ "key": "npc:tarindrella",
+ "type": "npc",
+ "name": "Tarindrella",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Tarindrella",
+  "refs": 2
+ },
+ "summary": "Tarindrella is a dryad found watching over the sheltered woods of Shadowglen in Teldrassil. As a daughter of Cenarius, she works closely with night elf protectors to investigate the unnatural corruption afflicting the World Tree's wildlife.",
+ "sections": [
+  {
+   "title": "A Daughter of Cenarius in Shadowglen",
+   "body": "Dryads are fierce caretakers of nature, born of the demigod Cenarius. While many remain deep within ancient Kalimdor forests like Ashenvale, Tarindrella dwells in the protected glade of Shadowglen atop the boughs of Teldrassil. She acts as a vital bridge between the wild spirits and young night elf defenders taking their first steps outside Aldrassil. Her primary concern is the lingering taint creeping into the forest, tasking reliable adventurers with driving back local pests and gathering clues about the root of the affliction.",
+   "spoiler": 0
+  },
+  {
+   "title": "Investigating Teldrassil's Affliction",
+   "body": "Despite Teldrassil's grandeur as the new crown of the night elf people, its pristine groves harbor an unexpected sickness. The once-peaceful furbolgs have deserted their homes to gather as the Gnarlpine tribe, and grells and grellkin tainted by wicked Fel Moss infest the hills around Shadowglen. Tarindrella suspects the Fel Moss behind these changes and directs initiates to confront the grells and bring back samples, seeking to stem the corruption before it can overtake the sanctuary of the young grove.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tarindrella?",
+   "aliases": [
+    "tarindrella lore",
+    "who is tarindrella",
+    "dryad shadowglen"
+   ],
+   "answer": "Tarindrella is a dryad residing in Shadowglen atop Teldrassil. She aids local night elves in monitoring the wilderness and directing young defenders to combat the strange sickness threatening the boughs of the World Tree."
+  },
+  {
+   "q": "What is a dryad?",
+   "aliases": [
+    "dryad lore",
+    "what are dryads",
+    "daughters of cenarius"
+   ],
+   "answer": "Dryads are enchanted woodland beings who are daughters of the demigod Cenarius. Possessing the upper torso of a night elf and the lower body of a fawn, they serve as dedicated guardians of Kalimdor's sacred groves and balance."
+  },
+  {
+   "q": "Why is Tarindrella concerned about Shadowglen?",
+   "aliases": [
+    "shadowglen corruption",
+    "tarindrella quests",
+    "what is wrong with shadowglen"
+   ],
+   "answer": "Even in the safe heart of Teldrassil, unnatural corruption has begun twisting local creatures, driving the furbolgs to gather as the hostile Gnarlpine tribe and filling the hills with grells tainted by Fel Moss. Tarindrella seeks to cleanse this taint and protect the young grove from spreading decay."
+  },
+  {
+   "q": "What threats does she send adventurers to face?",
+   "aliases": [
+    "tarindrella spiders",
+    "shadowthread cave quests"
+   ],
+   "answer": "Tarindrella enlists aid to confront the grells and grellkin infesting Shadowglen and collect the wicked Fel Moss they carry, to confirm whether it lies behind the corruption."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young night elves starting in Shadowglen, Tarindrella is one of the first dryads they will meet, embodying the ancient covenant between the Kaldorei and the children of Cenarius."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold dryads in high esteem as kindred spirits of the wild, making Tarindrella's guidance on Teldrassil's sickness an urgent call to maintain balance."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "dryad",
+  "shadowglen",
+  "shadowthread",
+  "tarindrella",
+  "teldrassil",
+  "webwood"
+ ],
+ "related": [
+  "subzone:shadowglen",
+  "zone:teldrassil",
+  "subzone:shadowthread-cave",
+  "quest:458",
+  "quest:940",
+  "topic:elune"
+ ],
+ "attribution": [
+  "Tarindrella"
+ ]
+}

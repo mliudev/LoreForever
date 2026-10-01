@@ -1,0 +1,87 @@
+{
+ "key": "item:corroded-shrapnel",
+ "type": "item",
+ "name": "Corroded Shrapnel",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Corroded Shrapnel",
+  "quests": [
+   "quest:1084"
+  ]
+ },
+ "summary": "Corroded Shrapnel consists of jagged metal fragments lodged deep within the corrupted treants of the Stonetalon Mountains. Recovered from fallen protectors like Charred and Blackened Ancients, this debris provides physical evidence of the foul weaponry used by the Venture Company during their retreat.",
+ "sections": [
+  {
+   "title": "Remnants of Industrial Ruin",
+   "body": "When the Venture Company was driven back from the groves of Stonetalon, the goblins unleashed brutal, reckless munitions to cover their escape. Shrapnel from these explosive weapons tore into the valley's defending treants, embedding jagged metal deep within their bark and core. Rather than healing, the ancient guardians slowly fell to corruption, their wood blackening and their fury turning upon anyone who stepped into the vale. The rusted, tainted fragments recovered from these wounded protectors are sought by Kaela Shadowspear so the gnome Gaxim Rustfizzle can analyze the exact mechanisms of the corruption.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this shrapnel come from?",
+   "aliases": [
+    "where do i find shrapnel",
+    "corroded shrapnel drop",
+    "who drops shrapnel"
+   ],
+   "answer": "Corroded Shrapnel is salvaged from the bodies of corrupted treants in Stonetalon Mountains, including Charred Ancients, Blackened Ancients, and Vengeful Ancients."
+  },
+  {
+   "q": "Why is the shrapnel embedded in the treants?",
+   "aliases": [
+    "how did shrapnel get in treants",
+    "why are treants full of metal"
+   ],
+   "answer": "The Venture Company fired explosive, jagged munitions at the treants when the forest guardians rose up to drive the goblin loggers out of the vale. The metal shards lodged into their bark during the battle and never came out."
+  },
+  {
+   "q": "Is the shrapnel responsible for corrupting the forest ancients?",
+   "aliases": [
+    "did shrapnel corrupt treants",
+    "why are treants mad"
+   ],
+   "answer": "According to Kaela Shadowspear, the gnome Gaxim believes the corruption sickening the treants is directly tied to the foul chemical or metallic composition of the weapons used by the retreating goblins."
+  },
+  {
+   "q": "Who wants to inspect the shrapnel?",
+   "aliases": [
+    "who needs the shrapnel",
+    "shrapnel turn in"
+   ],
+   "answer": "The night elf Kaela Shadowspear asks for a sample so she can pass it along to the gnome inventor Gaxim, who intends to study its properties to uncover the nature of the treants' affliction."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Seeing the majestic ancients of Kalimdor warped by industrial goblin munitions and festering metal shards is a sharp reminder of the toll unchecked exploitation takes on the wild."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gaxim's pursuit of the tainted shrapnel shows the practical, scientific approach gnomes take toward solving ecological anomalies that baffle traditional woodland sentinels."
+  }
+ ],
+ "keywords": [
+  "charred ancient",
+  "corroded shrapnel",
+  "gaxim",
+  "kaela shadowspear",
+  "stonetalon",
+  "treant",
+  "venture co"
+ ],
+ "related": [
+  "quest:1084",
+  "npc:kaela-shadowspear",
+  "zone:stonetalon",
+  "quest:764",
+  "topic:goblin",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Corroded Shrapnel",
+  "Wounded Ancients"
+ ]
+}

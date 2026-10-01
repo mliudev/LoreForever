@@ -1,0 +1,98 @@
+{
+ "key": "item:raven-claw-talisman",
+ "type": "item",
+ "name": "Raven Claw Talisman",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Raven Claw Talisman",
+  "quests": [
+   "quest:483"
+  ]
+ },
+ "summary": "The Raven Claw Talisman is a sacred night elf relic tied to the Druids of the Talon. Kept deep within Ban'ethil Barrow Den on Teldrassil, it is one of the four essential Relics of Wakening required to safely guide slumbering druids back from the Emerald Dream.",
+ "sections": [
+  {
+   "title": "A Key to Awakening",
+   "body": "The Raven Claw Talisman is preserved within a designated chest inside Ban'ethil Barrow Den, the subterranean sanctuary where Teldrassil's Druids of the Talon entered their deep meditative slumbers. Druidic hibernation is a delicate spiritual threshold. If a druid's link to the waking world is shattered without the proper ceremonial focus, their spirit risks being stranded within the Emerald Dream indefinitely. Alongside the Black Feather Quill, the Sapphire of Sky, and the Rune of Nesting, the talisman is required by Athridas Bearmantle in Dolanaar to conduct the ritual of awakening and bring the slumberers back safely.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat in the Barrow Den",
+   "body": "When corrupted Gnarlpine furbolgs overran Ban'ethil Barrow Den, the sacred chests and the sleeping druids fell into immediate peril. The furbolg desecration severed the sanctum from outside aid and put the relics in danger of being lost or destroyed. Athridas Bearmantle tasks defenders of Teldrassil with braving the winding earthen corridors of the den to secure the Raven Claw Talisman before the displaced druids are lost to the Dream forever.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Raven Claw Talisman used for?",
+   "aliases": [
+    "what does the raven claw talisman do",
+    "raven claw talisman purpose",
+    "why do i need raven claw talisman"
+   ],
+   "answer": "It is one of four sacred Relics of Wakening needed to perform the ritual that rouses the Druids of the Talon from their deep hibernation in the Emerald Dream."
+  },
+  {
+   "q": "Where is the Raven Claw Talisman found?",
+   "aliases": [
+    "where is raven claw talisman",
+    "chest of the raven claw location",
+    "how to find raven claw talisman"
+   ],
+   "answer": "It rests inside the Chest of the Raven Claw, stored within the earthen tunnels of Ban'ethil Barrow Den, west of Dolanaar on Teldrassil."
+  },
+  {
+   "q": "Who needs the Raven Claw Talisman?",
+   "aliases": [
+    "who wants raven claw talisman",
+    "who takes the raven claw talisman",
+    "who do i turn this in to"
+   ],
+   "answer": "Athridas Bearmantle, a night elf druid stationed in Dolanaar, requires the talisman to prepare the wakening rites for his displaced kin."
+  },
+  {
+   "q": "Why can't the druids wake up without it?",
+   "aliases": [
+    "why do druids need relics to wake up",
+    "why relics of wakening",
+    "can druids wake up without relics"
+   ],
+   "answer": "Entering the Emerald Dream through druidic hibernation involves a complex, delicate trance. Without the specific focus of the Relics of Wakening to anchor the awakening ritual, a sleeper's spirit risks remaining lost in the Dream indefinitely."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The talisman is an emblem of the Druids of the Talon, illustrating how ritual foci safeguard a druid's spirit while wandering the Emerald Dream."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Recovering this relic protects both ancient night elf tradition and the lives of the slumbering kin threatened by the madness of the Gnarlpine furbolgs."
+  }
+ ],
+ "keywords": [
+  "athridas bearmantle",
+  "ban'ethil",
+  "barrow den",
+  "dolanaar",
+  "druids of the talon",
+  "raven claw talisman",
+  "relics of wakening",
+  "teldrassil"
+ ],
+ "related": [
+  "quest:483",
+  "subzone:ban-ethil-barrow-den",
+  "npc:athridas-bearmantle",
+  "item:black-feather-quill",
+  "item:sapphire-of-sky",
+  "item:rune-of-nesting",
+  "topic:emerald-dream",
+  "subzone:dolanaar"
+ ],
+ "attribution": [
+  "Raven Claw Talisman",
+  "The Relics of Wakening"
+ ]
+}

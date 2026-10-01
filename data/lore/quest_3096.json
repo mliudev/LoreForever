@@ -1,0 +1,117 @@
+{
+ "key": "quest:3096",
+ "type": "quest",
+ "name": "Encrypted Scroll",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   3096
+  ],
+  "level": "3",
+  "faction": "Horde",
+  "start": "Shadow Priest Sarvis",
+  "end": "David Trias",
+  "previous": null,
+  "next": null,
+  "wiki": "Encrypted Scroll (quest)",
+  "chain": []
+ },
+ "summary": "The Encrypted Scroll is a discreet summons delivered to freshly awakened Forsaken rogues in Deathknell. Passed along by Shadow Priest Sarvis, the cipher directs the recruit to David Trias, a rogue mentor operating quietly out of the local inn.",
+ "sections": [
+  {
+   "title": "A Quiet Summons",
+   "body": "While newly raised Forsaken battle mindless zombies in the cemetery, the settlement's leadership takes note of those with particular inclinations toward stealth and subterfuge. Shadow Priest Sarvis passes this sealed parchment to promising scouts once their initial readiness is proven. Stamped with the discreet seal of David Trias, it serves as an early introduction to the shadowy network operating beneath the Forsaken hierarchy.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes in the Shadows",
+   "body": "David Trias watches the crossroads and inn of Deathknell, scouting prospects for future clandestine operations. Rather than seeking common thieves or reckless cutpurses, the Forsaken require disciplined covert operatives to serve the fledgling kingdom. Trias hints that capable rogues may eventually catch the eye of the Shadowstalkers, a dedicated cadre within the Forsaken who prize cunning, precision, and absolute loyalty to the Dark Lady.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Encrypted Scroll?",
+   "aliases": [
+    "what is encrypted scroll",
+    "what does the scroll do",
+    "why encrypted scroll"
+   ],
+   "answer": "The scroll is a private invitation for newly awakened Forsaken rogues. Shadow Priest Sarvis hands it over once you have proved capable, directing you to report to David Trias for specialized training."
+  },
+  {
+   "q": "Who is David Trias?",
+   "aliases": [
+    "david trias",
+    "who is trias",
+    "rogue trainer deathknell"
+   ],
+   "answer": "David Trias is the rogue trainer stationed at the inn in Deathknell. He evaluates fresh recruits and scouts potential agents for larger Forsaken intelligence operations."
+  },
+  {
+   "q": "Who are the Shadowstalkers mentioned by Trias?",
+   "aliases": [
+    "who are the shadowstalkers",
+    "shadowstalkers forsaken",
+    "shadowstalkers"
+   ],
+   "answer": "The Shadowstalkers are an organization of Forsaken stealth operatives and assassins. Trias warns new rogues that the Shadowstalkers recruit only talented, disciplined agents rather than clumsy pickpockets."
+  },
+  {
+   "q": "Why is the message encrypted?",
+   "aliases": [
+    "why encrypted",
+    "why cipher"
+   ],
+   "answer": "Forsaken rogues prize secrecy and operational security. Directing prospects via encrypted dispatches ensures that sensitive communications remain shielded from careless eyes in a vulnerable settlement like Deathknell."
+  },
+  {
+   "q": "Where do you find Shadow Priest Sarvis?",
+   "aliases": [
+    "where is sarvis",
+    "sarvis location",
+    "find shadow priest sarvis"
+   ],
+   "answer": "Shadow Priest Sarvis oversees the initial intake of new Forsaken within the central crypt and chapel complex of Deathknell in Tirisfal Glades."
+  },
+  {
+   "q": "Where is David Trias located?",
+   "aliases": [
+    "where is trias",
+    "david trias location",
+    "deathknell inn trainer"
+   ],
+   "answer": "David Trias stands inside the damaged inn building just down the path from the central chapel in Deathknell."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This missive marks your formal induction into the Forsaken's clandestine network, bridging the gap between a freshly risen corpse and an aspiring covert agent."
+  },
+  {
+   "target": "race:Undead",
+   "text": "As the newly formed Forsaken secure Tirisfal Glades against the Scourge and living remnants, scouts and covert operatives are vital to the Dark Lady's survival strategy."
+  }
+ ],
+ "keywords": [
+  "david trias",
+  "deathknell",
+  "encrypted scroll",
+  "forsaken rogue",
+  "shadow priest sarvis",
+  "shadowstalkers",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:david-trias",
+  "npc:shadow-priest-sarvis",
+  "subzone:deathknell",
+  "zone:tirisfal",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Encrypted Scroll (quest)"
+ ]
+}

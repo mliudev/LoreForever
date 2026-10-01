@@ -1,0 +1,93 @@
+{
+ "key": "item:keg-of-shindigger-stout",
+ "type": "item",
+ "name": "Keg of Shindigger Stout",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Keg of Shindigger Stout",
+  "quests": [
+   "quest:517"
+  ]
+ },
+ "summary": "A Keg of Shindigger Stout is a barrel of potent dwarven ale brewed and guarded by the riflemen and soldiers garrisoned within Dun Garok. Desired by the Royal Apothecary Society in Tarren Mill, it serves not as an evening drink, but as a deceitful delivery vehicle for newly synthesized plagues.",
+ "sections": [
+  {
+   "title": "A Dwarven Favorite",
+   "body": "Dun Garok stands as a formidable dwarven bastion in the southeastern Hillsbrad Foothills, fiercely maintained by the Stormpike forces. Within its entrenched barracks and mess halls, the stout-hearted defenders share barrels of Shindigger Stout to weather the cold and the grinding siege against regional enemies. The brew is robust and plentiful, making it a staple of the garrison's day-to-day survival.",
+   "spoiler": 0
+  },
+  {
+   "title": "Apothecary Lydon's Poison Vessel",
+   "body": "While the dwarves consider Shindigger Stout an honest reward after battle, Apothecary Lydon in Tarren Mill sees it as an ideal vector for terror. Tasked with developing the Forsaken's sinister Elixir of Agony, Lydon rejects testing his lethal formula on beasts. Instead, he seeks an intact keg of the ale to spike it with the brew, creating a tainted offering intended to sow agony and death among the living.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Shindigger Stout used for?",
+   "aliases": [
+    "why get shindigger stout",
+    "shindigger stout purpose",
+    "what does lydon do with the keg"
+   ],
+   "answer": "Apothecary Lydon in Tarren Mill wants the keg of stout to test his freshly refined Elixir of Agony. Rather than wasting the virulent poison on laboratory animals, he intends to lace the dwarven ale to conduct a lethal field test against humanoid subjects."
+  },
+  {
+   "q": "Where can a Keg of Shindigger Stout be found?",
+   "aliases": [
+    "keg location",
+    "where is shindigger stout",
+    "find the stout"
+   ],
+   "answer": "Kegs of the stout are stored deep within the dwarven fortress of Dun Garok, situated in southeastern Hillsbrad Foothills. They can typically be found resting in the mess halls and lower barracks rooms occupied by the dwarven infantry."
+  },
+  {
+   "q": "Who brews Shindigger Stout?",
+   "aliases": [
+    "who makes shindigger stout",
+    "is it dwarven ale"
+   ],
+   "answer": "It is brewed and kept by the dwarves of Dun Garok, who maintain a heavily fortified garrison in Hillsbrad Foothills on behalf of Ironforge and the Stormpike clan."
+  },
+  {
+   "q": "Why doesn't Apothecary Lydon brew his own alcohol for the test?",
+   "aliases": [
+    "why steal dwarven beer",
+    "why dun garok beer"
+   ],
+   "answer": "Lydon specifically targets the dwarves of Dun Garok out of malice and convenience. Using their prized ale allows the Royal Apothecary Society to turn a staple of the living Alliance soldiers into a weapon against them in the name of the Dark Lady."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, stealing a barrel of prized dwarven ale is purely practical alchemy: alcohol masks the scent and taste of deadly concoctions developed for Lady Sylvanas."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Striking at Dun Garok disrupts a dangerous Alliance military foothold nestled directly between the Alterac Mountains and the Arathi highlands."
+  }
+ ],
+ "keywords": [
+  "apothecary lydon",
+  "dun garok",
+  "dwarven ale",
+  "elixir of agony",
+  "keg of shindigger stout",
+  "shindigger stout",
+  "tarren mill"
+ ],
+ "related": [
+  "quest:509",
+  "subzone:dun-garok",
+  "subzone:tarren-mill",
+  "npc:umpi",
+  "zone:hillsbrad",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Keg of Shindigger Stout",
+  "Elixir of Agony (4)"
+ ]
+}

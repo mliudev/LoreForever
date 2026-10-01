@@ -1,0 +1,83 @@
+{
+ "key": "item:battleboar-flank",
+ "type": "item",
+ "name": "Battleboar Flank",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Battleboar Flank",
+  "quests": [
+   "quest:780"
+  ]
+ },
+ "summary": "Battleboar Flanks are hearty cuts of meat harvested from the vicious battleboars trained by Bristleback quilboar in Mulgore. Collected by young hunters around Camp Narache, they serve both as proof of culled threats and as nourishing sustenance for the tauren tribe.",
+ "sections": [
+  {
+   "title": "Sustenance from the Bristleback Threat",
+   "body": "The Bristleback quilboar lurking in Brambleblade Ravine have trained vicious battleboars to encroach on tauren hunting grounds. While these aggressive beasts pose a direct hazard to the young tauren coming of age at Camp Narache, nothing taken from nature is wasted. Grull Hawkwind directs novice hunters to harvest the flanks of these felled beasts alongside their snouts. The cuts of flank provide rich, sustaining meat that is cooked down into hearty stew for the tribe's youth, turning a quilboar weapon of war into vital tribal nourishment.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Battleboar Flank used for?",
+   "aliases": [
+    "battleboar flank use",
+    "what is battleboar flank",
+    "why collect battleboar meat"
+   ],
+   "answer": "Battleboar Flanks are collected by young hunters at Camp Narache on the orders of Grull Hawkwind. The meat is prepared into stew to feed the young tauren of the village, ensuring that defeated foes also help sustain the tribe."
+  },
+  {
+   "q": "Where are Battleboar Flanks found?",
+   "aliases": [
+    "battleboar flank source",
+    "where do battleboars drop flanks",
+    "who drops battleboar flanks"
+   ],
+   "answer": "They are carved from the aggressive Battleboars and Bristleback Battleboars prowling near Brambleblade Ravine east of Camp Narache in Red Cloud Mesa."
+  },
+  {
+   "q": "Why are the battleboars encroaching on tauren land?",
+   "aliases": [
+    "why are battleboars attacking",
+    "quilboar boars mulgore",
+    "brambleblade battleboars"
+   ],
+   "answer": "The battleboars are bred and trained by the Bristleback quilboar to be hostile and malicious. As tensions rise between the Bristlebacks and the tauren, the quilboar drive these trained beasts into traditional tribal hunting grounds to harass the newcomers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Hunting the encroaching battleboars teaches young tauren that the defense of their homeland goes hand in hand with the sacred duty to respect and make use of the Earth Mother's bounty."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Though rough and gamey from beasts raised for combat, the flank yields plenty of rich, filling meat when boiled slowly into communal camp stews."
+  }
+ ],
+ "keywords": [
+  "battleboar",
+  "battleboar flank",
+  "brambleblade ravine",
+  "bristleback",
+  "camp narache",
+  "grull hawkwind",
+  "mulgore",
+  "red cloud mesa"
+ ],
+ "related": [
+  "quest:780",
+  "item:battleboar-snout",
+  "npc:grull-hawkwind",
+  "subzone:camp-narache",
+  "subzone:brambleblade-ravine",
+  "topic:quilboar",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Battleboar Flank",
+  "The Battleboars"
+ ]
+}

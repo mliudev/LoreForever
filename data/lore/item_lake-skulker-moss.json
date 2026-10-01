@@ -1,0 +1,88 @@
+{
+ "key": "item:lake-skulker-moss",
+ "type": "item",
+ "name": "Lake Skulker Moss",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Lake Skulker Moss",
+  "quests": [
+   "quest:451"
+  ]
+ },
+ "summary": "Lake Skulker Moss is a biological reagent gathered from the amphibious threshadon beasts inhabiting the northern reaches of Lake Lordamere. It was identified by the deceased Apothecary Berard as a key organic component for the Royal Apothecary Society's research into brewing a New Plague.",
+ "sections": [
+  {
+   "title": "A Plague Reagent",
+   "body": "Harvested from the hides and shells of Lake Skulkers and Elder Lake Skulkers on the Dawning Isles, this damp aquatic moss possesses properties prized by Forsaken alchemists. Prior to his demise, Apothecary Berard meticulously cataloged the flora and fauna of eastern Silverpine Forest, concluding in his journal that both Lake Skulker and Lake Creeper mosses could serve as stabilizing or reactive agents. Following Berard's death, Apothecary Renferrel recovered these field notes and instructed Forsaken champions to gather moss samples alongside a rare tumor from local Vile Fin murlocs, delivering them directly to Master Apothecary Faranell in the Undercity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Lake Skulker Moss used for?",
+   "aliases": [
+    "moss use",
+    "why collect skulker moss",
+    "what does skulker moss do"
+   ],
+   "answer": "It is utilized by the Royal Apothecary Society in the Undercity as an organic base ingredient for concocting the New Plague, serving the goals of Lady Sylvanas Windrunner and the Forsaken."
+  },
+  {
+   "q": "Where does this moss come from?",
+   "aliases": [
+    "where to get skulker moss",
+    "skulker moss location",
+    "who drops lake skulker moss"
+   ],
+   "answer": "The moss is scraped from the bodies of Lake Skulkers and Elder Lake Skulkers, aquatic beasts that inhabit the waters around the Dawning Isles in northeastern Lake Lordamere, off the coast of Silverpine Forest."
+  },
+  {
+   "q": "Who discovered the moss's usefulness?",
+   "aliases": [
+    "who found the moss",
+    "berard moss",
+    "apothecary berard research"
+   ],
+   "answer": "Apothecary Berard first identified its potential during his field research in Silverpine Forest. Although Berard was killed, his surviving journal guided Apothecary Renferrel and Master Apothecary Faranell to continue his experiments."
+  },
+  {
+   "q": "Who requires this reagent?",
+   "aliases": [
+    "who wants skulker moss",
+    "faranell skulker moss"
+   ],
+   "answer": "Master Apothecary Faranell, the leader of the Royal Apothecary Society residing in the Apothecarium of the Undercity, requires the moss to advance his biological warfare projects."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Every batch of harvested moss brings the Royal Apothecary Society one step closer to perfecting the New Plague, the Forsaken's greatest weapon against both the Scourge and the living."
+  }
+ ],
+ "keywords": [
+  "berard",
+  "dawning isles",
+  "faranell",
+  "lake lordamere",
+  "lake skulker",
+  "lake skulker moss",
+  "new plague",
+  "renferrel"
+ ],
+ "related": [
+  "quest:447",
+  "item:lake-creeper-moss",
+  "item:berard-s-journal",
+  "npc:master-apothecary-faranell",
+  "npc:apothecary-renferrel",
+  "topic:royal-apothecary-society",
+  "subzone:dawning-isles",
+  "item:hardened-tumor"
+ ],
+ "attribution": [
+  "Lake Skulker Moss",
+  "A Recipe For Death (3)"
+ ]
+}

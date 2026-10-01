@@ -1,0 +1,81 @@
+{
+ "key": "item:jordan-s-smithing-hammer",
+ "type": "item",
+ "name": "Jordan's Smithing Hammer",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Jordan's Smithing Hammer",
+  "quests": [
+   "quest:1654"
+  ]
+ },
+ "summary": "Jordan's Smithing Hammer is a cherished family heirloom passed down to the human blacksmith Jordan Stilwell by his father. Its recovery from the haunted halls of Shadowfang Keep is essential for forging a holy weapon consecrated to the Light.",
+ "sections": [
+  {
+   "title": "A Craftsman's Legacy",
+   "body": "To an ordinary observer, Jordan's Smithing Hammer might seem like mere smith's iron, but to Jordan Stilwell, it represents both heritage and destiny. Inherited from his father, this tool is central to Jordan's identity as a forge master outside Ironforge. Having somehow wound up within the forsaken stone walls of Shadowfang Keep in Silverpine Forest, it must be reclaimed before Jordan can attempt his masterwork\u2014a sacred weapon fit for a holy champion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Jordan's Smithing Hammer located?",
+   "aliases": [
+    "hammer location",
+    "where is jordan's hammer",
+    "where to find jordan's smithing hammer"
+   ],
+   "answer": "The hammer rests inside the cursed walls of Shadowfang Keep, located in the dark forests of Silverpine. Paladins undertaking the Test of Righteousness must venture into the occupied fortress to recover it."
+  },
+  {
+   "q": "Why is this hammer so important to Jordan Stilwell?",
+   "aliases": [
+    "why does jordan want the hammer",
+    "jordan stilwell hammer lore"
+   ],
+   "answer": "The hammer was passed down to Jordan by his father. It carries deep sentimental value and is the instrument he requires to forge his finest creation, a holy weapon of the Light."
+  },
+  {
+   "q": "What is the hammer used for once recovered?",
+   "aliases": [
+    "what does the hammer make",
+    "test of righteousness hammer use"
+   ],
+   "answer": "Once brought back to Jordan outside the gates of Ironforge alongside lumber, ore, and a gem, he uses it to forge a grand, sacred armament to reward the paladin who assisted him."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Retrieving the heirloom hammer is part of the arduous trials of righteousness, proving a paladin's resolve to venture into perilous lands for the tools of holy craftsmanship."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Every blacksmith understands the sentimental and practical bond between a master smith and the hammer passed down to them by their forebears."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "ironforge",
+  "jordan stilwell",
+  "paladin weapon",
+  "shadowfang keep",
+  "smithing hammer",
+  "test of righteousness"
+ ],
+ "related": [
+  "quest:1653",
+  "npc:jordan-stilwell",
+  "zone:shadowfang",
+  "zone:dunmorogh",
+  "zone:ironforge",
+  "item:purified-kor-gem",
+  "item:whitestone-oak-lumber",
+  "item:jordan-s-refined-ore-shipment"
+ ],
+ "attribution": [
+  "Jordan's Smithing Hammer",
+  "The Test of Righteousness (2)"
+ ]
+}

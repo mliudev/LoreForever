@@ -1,0 +1,97 @@
+{
+ "key": "item:curative-animal-salve",
+ "type": "item",
+ "name": "Curative Animal Salve",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Curative Animal Salve",
+  "quests": [
+   "quest:6124",
+   "quest:6129"
+  ]
+ },
+ "summary": "Curative Animal Salve is an herbal remedy brewed by druidic herbalists to soothe and heal wildlife afflicted by spreading ecological sickness. Formulated in both Darkshore and the Barrens, it serves as a frontline treatment for sickly creatures suffering from the land's unseen taints.",
+ "sections": [
+  {
+   "title": "Mending the Wilds",
+   "body": "Crafted from locally gathered herbal reagents, Curative Animal Salve is prepared in ten-dose batches to treat wildlife caught in the throes of spreading corruption. In the misty forests of Darkshore, Alanndarian Nightsong directs young druids to apply the ointment to sickly deer wandering between the Cliffspring River and the borders of Ashenvale. Across the sea in the arid expanse of the Barrens, Tonga Runetotem brews an identical remedy to treat sickly gazelles grazing north of the Crossroads. While both herbalists work with local authorities to produce larger supplies, field practitioners administer the salve directly to beasts suffering from environmental malaise.",
+   "spoiler": 0
+  },
+  {
+   "title": "Symptoms of a Deeper Malaise",
+   "body": "Applying the salve directly eases an animal's suffering, yet the Cenarion Circle views these afflictions as mere symptoms of a much greater disturbance. In Moonglade, Dendrite Starblaze observes that neither the afflicted deer of the coast nor the suffering gazelles of the savannah are random casualties. Instead, they are unwitting victims of a spreading blight that touches Kalimdor from multiple directions. Administering the salve serves as a fundamental rite for initiates, testing their dedication to safeguarding the natural world and mastering the arts of cleansing poison.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Curative Animal Salve used for?",
+   "aliases": [
+    "curative animal salve purpose",
+    "how to use curative animal salve",
+    "what does the salve do"
+   ],
+   "answer": "The salve is applied directly to afflicted wildlife to cure their ailments. Druids use it to treat sickly deer wandering through Darkshore or sickly gazelles grazing north of the Crossroads in the Barrens."
+  },
+  {
+   "q": "Who prepares the salve?",
+   "aliases": [
+    "who makes the salve",
+    "where does the salve come from"
+   ],
+   "answer": "In Darkshore, Alanndarian Nightsong prepares the salve in Auberdine using gathered reagents. In the Barrens, Tonga Runetotem at the Crossroads brews the concoction for Horde druids."
+  },
+  {
+   "q": "Why are the deer and gazelles sick in the first place?",
+   "aliases": [
+    "why are animals sickly",
+    "what is poisoning darkshore deer",
+    "barrens gazelle sickness"
+   ],
+   "answer": "According to Dendrite Starblaze of the Cenarion Circle, the wildlife are victims of a growing taint and corruption spreading throughout Kalimdor, serving as early casualties of an unbalancing ecological blight."
+  },
+  {
+   "q": "How many doses does a batch contain?",
+   "aliases": [
+    "how many charges",
+    "how many uses on salve"
+   ],
+   "answer": "A standard field batch provides enough ointment for ten individual applications before the herbal mixture is entirely exhausted."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Administering this remedy is a foundational trial in learning to soothe poisons and disease, proving your devotion to the Cenarion Circle's mission across Kalimdor."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Utilizing the salve in the Barrens demonstrates how tauren druids embody the teachings of Cenarius, working in harmony with ancestral circle rites to heal the earth."
+  }
+ ],
+ "keywords": [
+  "alanndarian nightsong",
+  "curative animal salve",
+  "curing the sick",
+  "power over poison",
+  "sickly deer",
+  "sickly gazelle",
+  "tonga runetotem"
+ ],
+ "related": [
+  "quest:6124",
+  "quest:6125",
+  "topic:cenarion-circle",
+  "npc:dendrite-starblaze",
+  "npc:alanndarian-nightsong",
+  "npc:tonga-runetotem",
+  "zone:darkshore",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Curative Animal Salve",
+  "Curing the Sick (Alliance)",
+  "Curing the Sick (Horde)"
+ ]
+}

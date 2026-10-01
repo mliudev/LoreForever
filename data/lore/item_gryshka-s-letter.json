@@ -1,0 +1,97 @@
+{
+ "key": "item:gryshka-s-letter",
+ "type": "item",
+ "name": "Gryshka's Letter",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Gryshka's Letter",
+  "quests": [
+   "quest:6385",
+   "quest:6386"
+  ]
+ },
+ "summary": "Gryshka's Letter is a personal note of thanks written by Innkeeper Gryshka of Orgrimmar and addressed to the butcher Zargh at the Crossroads. Sent after receiving a delivery of fresh meat, the letter serves as both a sign of gratitude and an excuse to teach young Horde couriers how to navigate the wind rider flight network.",
+ "sections": [
+  {
+   "title": "A Grateful Innkeeper",
+   "body": "When Zargh ships a bundle of prepared steaks from the arid expanses of the Barrens to Orgrimmar's central tavern, Innkeeper Gryshka pens this note in return. Beyond expressing her satisfaction with the butcher's cuts, the letter reveals a fond\u2014if rugged\u2014appreciation for Zargh, recalling humorous misadventures such as the time he lost a finger while preparing meat. Gryshka concludes with affectionate amusement, remarking that he looks handsome even when bloodied by his trade.",
+   "spoiler": 0
+  },
+  {
+   "title": "Courier Along the Flight Paths",
+   "body": "Carrying Gryshka's Letter provides travelers with a practical lesson in Horde logistics. To return the parchment to the Crossroads, adventurers are instructed to report to Doras, the wind rider master roosted atop Orgrimmar's plateau. By demonstrating that a traveler has already checked in with Devrak at the Crossroads, Doras introduces fledgling couriers to the wyvern flight paths that bind the settlements of Durotar and the Barrens together.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote Gryshka's Letter?",
+   "aliases": [
+    "who wrote this",
+    "gryshka letter author",
+    "sender"
+   ],
+   "answer": "Innkeeper Gryshka, who manages the bustling tavern in the Valley of Strength in Orgrimmar, wrote the letter after receiving a delivery of fresh meat."
+  },
+  {
+   "q": "Who is the letter intended for?",
+   "aliases": [
+    "recipient",
+    "who gets gryshka letter",
+    "where does the letter go"
+   ],
+   "answer": "The letter is addressed to Zargh, a butcher stationed at the Crossroads in the Barrens who supplied Gryshka with meat."
+  },
+  {
+   "q": "What is written inside the letter?",
+   "aliases": [
+    "letter text",
+    "what does gryshka say",
+    "letter contents"
+   ],
+   "answer": "Gryshka thanks the butcher for his quality cuts, playfully reminisces about an accident where he lost a finger during his work, and teases that he looks charming even when bleeding."
+  },
+  {
+   "q": "Why does Doras need to see the letter?",
+   "aliases": [
+    "why show doras",
+    "doras the wind rider master",
+    "orgrimmar flight master"
+   ],
+   "answer": "Doras is the wind rider master of Orgrimmar. Gryshka sends you to him so he can book passage on a wyvern back to the Crossroads, illustrating how Horde aerial routes operate."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The delivery of Gryshka's Letter marks a rite of passage for young Horde adventurers, serving as their initial introduction to the wyvern flight master network connecting Durotar and the Barrens."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "doras",
+  "gryshka",
+  "gryshka's letter",
+  "meat",
+  "orgrimmar",
+  "wind rider",
+  "zargh"
+ ],
+ "related": [
+  "npc:innkeeper-gryshka",
+  "npc:zargh",
+  "npc:doras",
+  "quest:6385",
+  "quest:6386",
+  "subzone:crossroads",
+  "zone:orgrimmar",
+  "npc:devrak"
+ ],
+ "attribution": [
+  "Gryshka's Letter",
+  "Doras the Wind Rider Master (Classic)",
+  "Return to the Crossroads."
+ ]
+}

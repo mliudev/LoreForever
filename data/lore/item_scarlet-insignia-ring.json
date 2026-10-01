@@ -1,0 +1,98 @@
+{
+ "key": "item:scarlet-insignia-ring",
+ "type": "item",
+ "name": "Scarlet Insignia Ring",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Scarlet Insignia Ring",
+  "quests": [
+   "quest:374"
+  ]
+ },
+ "summary": "A Scarlet Insignia Ring is a signet band worn by members of the Scarlet Crusade garrisoned throughout Tirisfal Glades. For the Forsaken defenders of Brill, these rings serve as gruesome proof that another zealot has been eliminated from Lordaeron's soil.",
+ "sections": [
+  {
+   "title": "Tokens of Zealotry",
+   "body": "Every fighting member of the Scarlet Crusade in Tirisfal Glades\u2014from fresh neophytes and zealous friars to seasoned captains like Melrache and Perrine\u2014carries an insignia ring. Marked with the Crusade's fiery sigil, the rings identify brother and sister within an organization consumed by paranoia. To outsiders and enemies, however, these trinkets serve entirely different purposes: they are unmistakable identifiers of Lordaeron's most fanatical human remnant.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bounty of the Dreadlord",
+   "body": "Under the direct mandate of Varimathras, Lady Sylvanas's dreadlord lieutenant, Deathguard Burgess in Brill actively collects these rings. The Forsaken consider the Scarlet Crusade an intolerable pestilence crawling across their newly claimed homeland. For Forsaken recruits, bringing stacks of these rings back to Brill is treated as undeniable proof of demise and a direct affirmation of loyalty to the throne of the Undercity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wears these insignia rings?",
+   "aliases": [
+    "who drops rings",
+    "which crusaders have rings",
+    "ring owners"
+   ],
+   "answer": "Nearly any member of the Scarlet Crusade stationed in Tirisfal Glades wears one. This includes rank-and-file soldiers such as neophytes, missionaries, zealots, and vanguards, as well as field officers like Captain Perrine, Captain Melrache, and Captain Vachon."
+  },
+  {
+   "q": "Why does Deathguard Burgess want Scarlet Insignia Rings?",
+   "aliases": [
+    "why collect rings",
+    "proof of demise reason",
+    "burgess rings"
+   ],
+   "answer": "Deathguard Burgess collects the rings as physical proof that Scarlet Crusaders are being culled. Acting on decrees originating from Varimathras and the Dark Lady, the Forsaken garrison in Brill uses the rings to measure a recruit's loyalty and effectiveness in clearing humans from Lordaeron."
+  },
+  {
+   "q": "What does the insignia on the ring represent?",
+   "aliases": [
+    "scarlet symbol",
+    "what is the insignia",
+    "ring emblem"
+   ],
+   "answer": "The ring bears the mark of the Scarlet Crusade, symbolizing their holy war to eradicate all undeath from Lordaeron. The Crusaders wear it with fierce pride, viewing it as a badge of righteousness, even as their obsession drives them to slaughter anyone not belonging to their order."
+  },
+  {
+   "q": "What role does Varimathras have in collecting these rings?",
+   "aliases": [
+    "varimathras orders",
+    "why varimathras want rings",
+    "dreadlord involvement"
+   ],
+   "answer": "Varimathras serves as Sylvanas Windrunner's chief lieutenant in the Undercity. He oversees strategic military efforts to wipe out hostile living humans in Tirisfal Glades, making the eradication of the Scarlet Crusade a top priority for Forsaken commanders like Executor Zygand and Deathguard Burgess."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, tearing these rings from the hands of dead Crusaders is a direct declaration that Tirisfal belongs to the dead, fulfilling the orders of the Dark Lady and Varimathras."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Collecting these rings helps the fledgling Horde secure its foothold in the Eastern Kingdoms by weakening the fanatical crusaders surrounding the Undercity."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "deathguard burgess",
+  "executor zygand",
+  "proof of demise",
+  "scarlet crusade",
+  "scarlet insignia ring",
+  "tirisfal glades",
+  "varimathras"
+ ],
+ "related": [
+  "quest:374",
+  "npc:deathguard-burgess",
+  "topic:scarlet-crusade",
+  "zone:tirisfal",
+  "npc:varimathras",
+  "npc:executor-zygand",
+  "quest:370",
+  "subzone:brill"
+ ],
+ "attribution": [
+  "Scarlet Insignia Ring",
+  "Proof of Demise (quest)"
+ ]
+}

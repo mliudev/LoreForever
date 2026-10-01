@@ -1,0 +1,82 @@
+{
+ "key": "item:tender-boar-meat",
+ "type": "item",
+ "name": "Tender Boar Meat",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Tender Boar Meat",
+  "quests": [
+   "quest:86"
+  ]
+ },
+ "summary": "Tender Boar Meat comes from the wild boars rooting through the fields of Elwynn Forest. While rather plain on its own, it serves as the essential filling for local home cooking, most notably Auntie Bernice Stonefield's famous pork belly pies.",
+ "sections": [
+  {
+   "title": "Rustic Elwynn Fare",
+   "body": "Wild boars wander the pastures and tree lines throughout Elwynn Forest, causing no shortage of trouble for local farmers by tearing up soil and encroaching on crops. When culled, their tender cuts provide a steady, if modest, food supply for the rural homesteads. As Auntie Bernice Stonefield notes, the wild meat tends to be fairly bland on its own, requiring patient simmering in aromatic spices and broth to soften and coax out its rich savory flavor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bribing a Maclure",
+   "body": "Despite the long-running feud between the Maclure and Stonefield families, culinary talent can occasionally bridge the divide. When young Billy Maclure withhold information regarding Bernice Stonefield's missing family heirloom necklace, his price for talking is none other than a warm slice of Auntie Bernice's pork belly pie. Procuring the tender cuts of Elwynn boar allows Bernice to bake the pastry needed to loosen the boy's tongue.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does tender boar meat come from?",
+   "aliases": [
+    "where to get tender boar meat",
+    "who drops tender boar meat",
+    "boar meat elwynn"
+   ],
+   "answer": "Tender Boar Meat is harvested from the various wild boars roaming the pastures, groves, and roadsides of Elwynn Forest."
+  },
+  {
+   "q": "Who asks for this meat?",
+   "aliases": [
+    "who wants tender boar meat",
+    "pie for billy quest meat",
+    "tender boar meat turn in"
+   ],
+   "answer": "Auntie Bernice Stonefield requests the meat so she can bake a pork belly pie. Young Billy Maclure insists on having one of her pies before he will reveal what he knows about her lost family necklace."
+  },
+  {
+   "q": "What makes this meat special for cooking?",
+   "aliases": [
+    "is boar meat good",
+    "bernice boar meat recipe"
+   ],
+   "answer": "According to Auntie Bernice, wild boar meat is somewhat bland on its own. However, slow-simmering the tender cuts with the right blend of farmstead spices renders it flavorful and tender enough to make a delicious savory pie filling."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Every forest cook knows that wild boar can be tough and gamely, but a slow simmer with robust herbs turns plain cuts into hearty, filling fare."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The wild boars of Elwynn Forest have fed generations of human farmers, keeping larders stocked even as bandits and prowlers press against the farmlands."
+  }
+ ],
+ "keywords": [
+  "bernice stonefield",
+  "billy maclure",
+  "boar meat",
+  "elwynn forest",
+  "pork belly pie",
+  "stonefield farm",
+  "tender boar meat"
+ ],
+ "related": [
+  "quest:86",
+  "item:pork-belly-pie",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Tender Boar Meat",
+  "Pie for Billy"
+ ]
+}

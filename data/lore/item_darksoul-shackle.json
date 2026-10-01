@@ -1,0 +1,95 @@
+{
+ "key": "item:darksoul-shackle",
+ "type": "item",
+ "name": "Darksoul Shackle",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Darksoul Shackle",
+  "quests": [
+   "quest:423"
+  ]
+ },
+ "summary": "A Darksoul Shackle is an enchanted fetter worn by the Moonrage Darksoul worgen stalking Silverpine Forest. Crafted under the direction of Archmage Arugal, these implements are sought by Forsaken mages at the Sepulcher seeking to unravel the feral magic gripping the region.",
+ "sections": [
+  {
+   "title": "A Crutch for Faltering Magic",
+   "body": "When Archmage Arugal unleashed the worgen upon Silverpine Forest, his own arcane mastery proved insufficient to fully direct and sustain the otherworldly beasts. To compensate for his shortcomings, he bound enchanted implements, such as Darksoul Shackles, to his creations. These fetters channel external sorcery into the Moonrage Darksouls, reinforcing their supernatural strength and anchoring the curse that keeps them thrall to Shadowfang Keep.",
+   "spoiler": 0
+  },
+  {
+   "title": "Kirin Tor Scrutiny",
+   "body": "At the Sepulcher, the Forsaken mage Dalar Dawnweaver considers Arugal a dangerous incompetent whose meddling ruined the Kirin Tor's defense against the Scourge. By gathering Darksoul Shackles alongside those torn from Moonrage Gluttons, Forsaken researchers extract the residual enchantments woven into the metal. Studying these crutches reveals the structural flaws in Arugal's spellcraft, providing the Forsaken with the arcane insight necessary to formulate a countermeasure against his lupine scourge.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Darksoul Shackle?",
+   "aliases": [
+    "what are darksoul shackles",
+    "darksoul shackle item lore",
+    "what is this shackle"
+   ],
+   "answer": "It is an enchanted metal fetter worn by Moonrage Darksoul worgen in Silverpine Forest. It was crafted by Archmage Arugal to reinforce his flawed spellcraft and bind the beasts to his control."
+  },
+  {
+   "q": "Who wants Darksoul Shackles?",
+   "aliases": [
+    "who needs darksoul shackles",
+    "who takes the shackles",
+    "dalar dawnweaver quest"
+   ],
+   "answer": "Dalar Dawnweaver, a Forsaken mage stationed at the Sepulcher in Silverpine Forest, requires them. He studies the enchantments inside the shackles to find a solution to Arugal's worgen outbreak."
+  },
+  {
+   "q": "Where do these shackles come from?",
+   "aliases": [
+    "who drops darksoul shackles",
+    "darksoul shackle mob",
+    "where to get darksoul shackle"
+   ],
+   "answer": "They are recovered from the corpses of Moonrage Darksouls, aggressive worgen haunting the northern and eastern reaches of Silverpine Forest."
+  },
+  {
+   "q": "Why did Arugal put shackles on the worgen?",
+   "aliases": [
+    "why do worgen wear shackles",
+    "arugal shackle purpose"
+   ],
+   "answer": "According to Dalar Dawnweaver, Arugal was not a talented enough mage to command the beasts through sheer power alone. He relied on enchanted objects like these shackles to channel and sustain the volatile magic holding the pack together."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, breaking Arugal's hold on Silverpine Forest is essential to protecting their southern borders and proving the superiority of Undercity's arcane scholarship over Dalaran's failures."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Examining these shackles reveals how a desperate wizard used crude enchanted artifacts to shore up volatile summoning spells he could not properly control."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "dalar dawnweaver",
+  "darksoul shackle",
+  "moonrage darksoul",
+  "sepulcher",
+  "silverpine forest",
+  "worgen"
+ ],
+ "related": [
+  "npc:dalar-dawnweaver",
+  "quest:99",
+  "npc:arugal",
+  "item:glutton-shackle",
+  "subzone:sepulcher",
+  "zone:silverpine",
+  "subzone:dalaran"
+ ],
+ "attribution": [
+  "Darksoul Shackle",
+  "Arugal's Folly (2)"
+ ]
+}

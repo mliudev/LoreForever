@@ -1,0 +1,91 @@
+{
+ "key": "item:stormwind-armor-marker",
+ "type": "item",
+ "name": "Stormwind Armor Marker",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Stormwind Armor Marker",
+  "quests": [
+   "quest:59"
+  ]
+ },
+ "summary": "A Stormwind Armor Marker is an official military requisition token issued to adventurers who have aided the realm. It can be redeemed with sanctioned artisans, such as Sara Timberlain at the Eastvale Logging Camp, in exchange for freshly crafted gear.",
+ "sections": [
+  {
+   "title": "Military Requisitions",
+   "body": "Maintaining law and order across Elwynn Forest stretches the resources of the realm thin. Rather than distributing standard gear directly from military outposts, commanders sometimes issue official tokens known as armor markers. These requisition slips verify that the bearer has performed valorous service for Stormwind and authorize local contracted craftsmen to supply them with tailored armor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eastvale Provisioning",
+   "body": "One key destination for these markers is the Eastvale Logging Camp, situated on the eastern frontier of Elwynn. There, artisans like Sara Timberlain operate under commission from the Stormwind Army, turning local materials into protective cloth and leather garments. Presenting a marker grants recruits custom-fitted defense to aid them in safeguarding the surrounding woodlands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Stormwind Armor Marker?",
+   "aliases": [
+    "what is armor marker",
+    "marker purpose",
+    "stormwind marker use"
+   ],
+   "answer": "It serves as an official military voucher given to adventurers who assist Stormwind's guards. The token proves your service and allows you to claim a piece of protective armor from an army-contracted artisan."
+  },
+  {
+   "q": "Who accepts the marker?",
+   "aliases": [
+    "who takes the marker",
+    "where to turn in marker",
+    "sara timberlain marker"
+   ],
+   "answer": "Sara Timberlain accepts it at the Eastvale Logging Camp, located just east across the river in Elwynn Forest. She is under contract with the Stormwind Army to provide tailored cloth and leather equipment."
+  },
+  {
+   "q": "Why does Stormwind use markers instead of handing out armor directly?",
+   "aliases": [
+    "why tokens instead of armor",
+    "why army markers",
+    "military vouchers elwynn"
+   ],
+   "answer": "Outlying guard posts often lack the storage or blacksmithing and tailoring setups required to outfit recruits on site. By issuing requisition tokens, field commanders delegate outfitting to local artisans like Sara Timberlain who maintain dedicated workshops."
+  },
+  {
+   "q": "What kind of equipment does the marker provide?",
+   "aliases": [
+    "what armor do i get",
+    "marker rewards",
+    "cloth or leather"
+   ],
+   "answer": "The voucher entitles the bearer to choose between newly crafted cloth or leather armor pieces made to order by contracted army suppliers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The marker represents the logistical ties binding frontier settlements like Eastvale Logging Camp directly to Stormwind's military command."
+  }
+ ],
+ "keywords": [
+  "armor marker",
+  "cloth and leather armor",
+  "eastvale logging camp",
+  "elwynn forest",
+  "requisition",
+  "sara timberlain",
+  "stormwind armor marker"
+ ],
+ "related": [
+  "quest:59",
+  "npc:sara-timberlain",
+  "subzone:eastvale-logging-camp",
+  "topic:stormwind-army",
+  "zone:elwynn",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Stormwind Armor Marker",
+  "Cloth and Leather Armor"
+ ]
+}

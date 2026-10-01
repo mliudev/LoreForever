@@ -1,0 +1,93 @@
+{
+ "key": "item:notched-rib",
+ "type": "item",
+ "name": "Notched Rib",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Notched Rib",
+  "quests": [
+   "quest:426"
+  ]
+ },
+ "summary": "A Notched Rib is a bone trophy harvested from the ranks of mindless undead wandering Tirisfal Glades. Deathguard Dillinger in Brill collects these scarred remains as proof of efforts to break the Scourge's foothold at the Agamand Mills.",
+ "sections": [
+  {
+   "title": "Grim Proof of Battle",
+   "body": "The Scourge forces massing across the northern fields of Tirisfal Glades consist of reanimated skeletons clad in ruined armor. Among their ranks, Cracked Skull Soldiers and Rattlecage Soldiers throw themselves against any living or free-willed being they encounter. Slicing through their brittle frames leaves their bone structure pitted and scored. To ensure that Forsaken scouts and volunteers actually cull these mindless intruders rather than merely observing them, the Deathguards demand tangible evidence. A notched, battle-marked rib serves as unmistakable proof that another of the Lich King's thralls has been shattered.",
+   "spoiler": 0
+  },
+  {
+   "title": "Securing the Mills",
+   "body": "The Agamand Mills represent a critical strategic position northwest of Brill. Should the Scourge firmly entrench themselves among the ruined farmsteads and windmills, they would possess a direct staging ground to launch assaults deep into the heart of Tirisfal. Deathguard Dillinger monitors the roads leading north, dispatching champions to crush the skeleton cohorts before they can consolidate. Piles of notched ribs returned to Brill demonstrate that the Forsaken lines are holding, slowly grinding down the Scourge vanguard bone by bone.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Notched Rib?",
+   "aliases": [
+    "notched rib",
+    "what is notched rib",
+    "notched rib item"
+   ],
+   "answer": "It is a scarred skeletal bone taken from the animated Scourge soldiers occupying northern Tirisfal Glades. It is brought to Deathguard Dillinger as physical confirmation of destroyed enemies."
+  },
+  {
+   "q": "Where do Notched Ribs come from?",
+   "aliases": [
+    "where to find notched rib",
+    "who drops notched ribs",
+    "notched rib source"
+   ],
+   "answer": "They are recovered from Cracked Skull Soldiers and Rattlecage Soldiers found patrolling the grounds of the Agamand Mills, northwest of Brill."
+  },
+  {
+   "q": "Who wants these bones?",
+   "aliases": [
+    "who takes notched ribs",
+    "notched rib turn in",
+    "who needs notched rib"
+   ],
+   "answer": "Deathguard Dillinger stationed along the road just outside Brill collects them, alongside Blackened Skulls, to confirm the Scourge advance has been repelled."
+  },
+  {
+   "q": "Why is the Scourge gathering at Agamand Mills?",
+   "aliases": [
+    "scourge at agamand mills",
+    "why are skeletons at the mills",
+    "agamand mills scourge threat"
+   ],
+   "answer": "The mindless undead are attempting to establish a staging base at the mills. From that vantage, Scourge forces could easily launch strikes across Tirisfal Glades and threaten Forsaken settlements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, collecting these shattered bones is part of an ongoing war for survival against the mindless minions of the Lich King who would drag them back into servitude."
+  }
+ ],
+ "keywords": [
+  "agamand mills",
+  "brill",
+  "cracked skull soldier",
+  "deathguard dillinger",
+  "notched rib",
+  "rattlecage soldier",
+  "scourge",
+  "tirisfal glades"
+ ],
+ "related": [
+  "quest:426",
+  "item:blackened-skull",
+  "npc:deathguard-dillinger",
+  "subzone:agamand-mills",
+  "subzone:brill",
+  "zone:tirisfal",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Notched Rib",
+  "The Mills Overrun (Classic)"
+ ]
+}

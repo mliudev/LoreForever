@@ -1,0 +1,129 @@
+{
+ "key": "quest:363",
+ "type": "quest",
+ "name": "Rude Awakening",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   363
+  ],
+  "level": "1",
+  "faction": "Horde",
+  "start": "Undertaker Mordo",
+  "end": "Shadow Priest Sarvis",
+  "previous": null,
+  "next": "The Mindless Ones",
+  "wiki": "Rude Awakening",
+  "chain": []
+ },
+ "summary": "Rude Awakening is the first task given to newly awakened Forsaken within the crypts of Deathknell. After rising from death freed from the Lich King's iron grip, you are directed away from the incinerators and sent down the hill to learn the reality of your new existence from Shadow Priest Sarvis.",
+ "sections": [
+  {
+   "title": "A Grave Beginning",
+   "body": "Opening your eyes in the damp subterranean chill of Deathknell's crypt is an unsettling introduction to undeath. Undertaker Mordo stands watch over the freshly interred, sorting the revived into those who have reclaimed their free will and those destined for the burning pits. For many, rising from the grave means waking to rot, cold stone, and total disorientation, having slipped through the grasp of the Scourge by sheer circumstance.",
+   "spoiler": 0
+  },
+  {
+   "title": "Breaking the Grip of the Frozen Throne",
+   "body": "Before reaching the chapel, newly awakened dead must grasp a grim truth: they were once mindless tools of the Lich King. It was Lady Sylvanas Windrunner who shattered that psychic enslavement, allowing remnants of former humanity to reclaim independent thought. Stepping up from the tomb and heading down into Deathknell marks the first step into a world where both the living and the Scourge view you as an abomination to be eradicated.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why was I in a crypt?",
+   "aliases": [
+    "why in crypt",
+    "where did i wake up",
+    "deathknell tomb"
+   ],
+   "answer": "You died, succumbed to the plague or violence of the Third War, and were buried in Tirisfal Glades. Deathknell serves as the primary gathering point where bodies are monitored to see if they regain sapience or succumb to mindless rot."
+  },
+  {
+   "q": "Who is Undertaker Mordo?",
+   "aliases": [
+    "undertaker mordo",
+    "who is mordo",
+    "gravekeeper"
+   ],
+   "answer": "Mordo is the caretaker of the crypt in Deathknell. His duty is to watch over the newly awakened, direct those who maintain their sanity toward the town chapel, and dispose of those who fail to awaken with their minds intact."
+  },
+  {
+   "q": "Why did Mordo mention throwing people into the fire?",
+   "aliases": [
+    "burn bodies",
+    "toss into fire",
+    "cremation"
+   ],
+   "answer": "Not every corpse raised from the grave regains free will or stable thoughts. Those who awaken completely mad or purely feral cannot be integrated into Forsaken society and are destroyed and incinerated to prevent rampages."
+  },
+  {
+   "q": "Who freed me from the Lich King?",
+   "aliases": [
+    "who freed me",
+    "sylvanas freed undead",
+    "why am i free"
+   ],
+   "answer": "Lady Sylvanas Windrunner, the Banshee Queen, broke free from the Lich King's psychic domination as his power waned. She rallied other free-willed undead under her banner, establishing the Forsaken to battle both their former master and hostile living remnants."
+  },
+  {
+   "q": "Where is Shadow Priest Sarvis located?",
+   "aliases": [
+    "find sarvis",
+    "sarvis location",
+    "where is the chapel"
+   ],
+   "answer": "Sarvis resides inside the damaged chapel at the base of the hill in Deathknell. Walking out of the crypt and following the cobblestone path downhill brings you directly to the chapel entrance."
+  },
+  {
+   "q": "Who are the Forsaken fighting against?",
+   "aliases": [
+    "forsaken enemies",
+    "who do we fight",
+    "undead enemies"
+   ],
+   "answer": "The Forsaken wage a two-front war for survival: against the Scourge, who seek to reclaim or obliterate them, and against human zealots and surviving settlements who refuse to distinguish them from mindless monsters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "This moment defines your rebirth: shedding the shackles of the Scourge to carve out a spiteful, free existence among the Forsaken."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Reporting to Shadow Priest Sarvis introduces you immediately to the Cult of Forgotten Shadow, which reinterprets spiritual devotion in the wake of undeath."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "This awakening places you in the fragile orbit of the Horde, an alliance born out of sheer necessity against mutual extinction."
+  }
+ ],
+ "keywords": [
+  "deathknell",
+  "forsaken",
+  "lich king",
+  "mordo",
+  "rude awakening",
+  "sarvis",
+  "scourge",
+  "shadow priest sarvis",
+  "sylvanas",
+  "tirisfal glades",
+  "undertaker mordo"
+ ],
+ "related": [
+  "npc:undertaker-mordo",
+  "npc:shadow-priest-sarvis",
+  "subzone:deathknell",
+  "quest:364",
+  "zone:tirisfal",
+  "topic:lich-king",
+  "topic:scourge",
+  "topic:human"
+ ],
+ "attribution": [
+  "Rude Awakening"
+ ]
+}

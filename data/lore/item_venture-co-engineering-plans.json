@@ -1,0 +1,94 @@
+{
+ "key": "item:venture-co-engineering-plans",
+ "type": "item",
+ "name": "Venture Co. Engineering Plans",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Venture Co. Engineering Plans",
+  "quests": [
+   "quest:1079"
+  ]
+ },
+ "summary": "The Venture Co. Engineering Plans are mechanical schematics kept inside the goblin logging mill in Windshear Crag. Recovered by Alliance operatives, they detail the inner workings of the heavy machinery devastating the Stonetalon Mountains.",
+ "sections": [
+  {
+   "title": "Industrial Secrets",
+   "body": "Windshear Crag is choked with smoke and logging machinery as the Venture Company strips the forests of Stonetalon. Hidden inside their lumber mill south of Cragpool Lake, these engineering blueprints lay out the exact construction, strengths, and flaws of their specialized timber-harvesting contraptions.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gnomish Espionage",
+   "body": "Gnome engineer Gaxim Rustfizzle orchestrated a covert operation to sabotage the Venture Company's logging works while securing these documents. While planting explosives offers immediate disruption, acquiring the blueprints allows Alliance craftspeople to systematically exploit structural weaknesses in goblin equipment and adapt their innovative designs for Alliance projects.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Venture Co. Engineering Plans located?",
+   "aliases": [
+    "where to find engineering plans",
+    "plans location stonetalon",
+    "where are the plans"
+   ],
+   "answer": "The plans are kept inside the Venture Company's primary lumber mill located in Windshear Crag, south of Cragpool Lake in the Stonetalon Mountains."
+  },
+  {
+   "q": "Who wants these engineering plans?",
+   "aliases": [
+    "who needs the plans",
+    "who turns in engineering plans",
+    "gaxim rustfizzle plans"
+   ],
+   "answer": "Gaxim Rustfizzle, an Alliance gnome coordinating covert actions in the Stonetalon Mountains, sends agents to recover them."
+  },
+  {
+   "q": "Why are these blueprints important to the Alliance?",
+   "aliases": [
+    "why steal the plans",
+    "what do the plans do"
+   ],
+   "answer": "The schematics reveal critical design flaws in the Venture Company's logging machinery, allowing operatives to break them down more effectively, while also providing Alliance gnomes with industrial designs they can incorporate into their own inventions."
+  },
+  {
+   "q": "What operation is tied to stealing these plans?",
+   "aliases": [
+    "covert ops alpha objective",
+    "what quest is this for"
+   ],
+   "answer": "Securing these plans is the primary objective of Covert Ops - Alpha. While the mission involves setting detonators throughout the site, returning with the blueprints defines the operation's true success."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnome tinkerers, capturing rival goblin schematics is both an intellectual victory and a treasure trove of industrial ideas ripe for adaptation."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The Venture Company's brutal, resource-hungry contraptions may lack refinement, but their mechanical blueprints hold valuable insights into heavy industrial machinery."
+  }
+ ],
+ "keywords": [
+  "covert ops",
+  "cragpool lake",
+  "engineering plans",
+  "gaxim rustfizzle",
+  "stonetalon",
+  "venture co.",
+  "windshear crag"
+ ],
+ "related": [
+  "quest:1079",
+  "npc:gaxim-rustfizzle",
+  "item:covert-ops-pack",
+  "subzone:windshear-crag",
+  "subzone:cragpool-lake",
+  "zone:stonetalon",
+  "quest:764"
+ ],
+ "attribution": [
+  "Venture Co. Engineering Plans",
+  "Covert Ops - Alpha"
+ ]
+}

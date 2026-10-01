@@ -1,0 +1,76 @@
+{
+ "key": "item:head-of-bazil-thredd",
+ "type": "item",
+ "name": "Head of Bazil Thredd",
+ "era": "classic",
+ "zone": "stockade",
+ "meta": {
+  "wiki": "Head of Bazil Thredd",
+  "quests": [
+   "quest:391"
+  ]
+ },
+ "summary": "The severed head of Bazil Thredd serves as definitive proof that the leader behind the Stockade uprising has been eliminated. Demanded by Warden Thelwater, this grim trophy marks an end to the Defias Brotherhood's organized control over Stormwind's subterranean prison.",
+ "sections": [
+  {
+   "title": "Proof of Treason's End",
+   "body": "When riots erupted throughout the Stockade beneath Stormwind City, Bazil Thredd quickly established himself as the rebellion's mastermind. Entrenched in his cell block alongside his ogre enforcer Hamhock, Thredd directed the chaos from deep within the dungeon walls. Distrustful of outsiders and struggling to maintain order, Warden Thelwater demanded Thredd's head as unambiguous evidence of his demise and as a test of the adventurer's true allegiance to Stormwind.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Head of Bazil Thredd?",
+   "aliases": [
+    "who needs thredd head",
+    "where to turn in thredd head",
+    "thredd head questgiver"
+   ],
+   "answer": "Warden Thelwater, stationed at the entrance of the Stockade, demands the head. He requires it as absolute proof that the ringleader has been slain before he is willing to share any intelligence about Thredd's conspirators."
+  },
+  {
+   "q": "Who was Bazil Thredd?",
+   "aliases": [
+    "who is bazil thredd",
+    "thredd lore",
+    "what did bazil do"
+   ],
+   "answer": "Bazil Thredd was a high-ranking member of the Defias Brotherhood imprisoned beneath Stormwind. Once the prisoners revolted, he took charge of the riot, coordinating the insurrection from deep within the eastern cell block."
+  },
+  {
+   "q": "Where is Bazil Thredd found?",
+   "aliases": [
+    "where is thredd",
+    "thredd location",
+    "how to find bazil thredd"
+   ],
+   "answer": "Bazil Thredd is located in the eastern wing of the Stockade instance. He is locked down at the far end of the block in a central cell, guarded by an ogre named Hamhock."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Presenting Thredd's severed head quells immediate panic in the capital, proving that the crown's justice can still reach deep into the rebellious Stockade."
+  }
+ ],
+ "keywords": [
+  "bazil thredd",
+  "defias",
+  "hamhock",
+  "head of bazil thredd",
+  "stockade",
+  "the stockade riots",
+  "warden thelwater"
+ ],
+ "related": [
+  "quest:391",
+  "zone:stockade",
+  "npc:warden-thelwater",
+  "npc:hamhock",
+  "quest:389"
+ ],
+ "attribution": [
+  "Head of Bazil Thredd",
+  "The Stockade Riots"
+ ]
+}

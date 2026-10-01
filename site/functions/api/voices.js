@@ -1,38 +1,17 @@
 // Volunteer narrator submissions from /voices/submit, stored in the same D1 database as feedback (bound as DB).
-//   POST /api/voices  saves one submission. A JSON post gets {"ok": true} or {"ok": false, "error": ...}; a plain
+//   POST /api/voices  saves one submission from a signed-in contributor (lib/accounts.js), tied to their account and
+//                     to a voice of theirs (D1 table voices, pending until we publish it). A JSON post gets {"ok": true} or {"ok": false, "error": ...}; a plain
 //                     form post (the page without JavaScript) is sent on to /voices/thanks, or gets a short error page.
 //   GET  /api/voices  returns the submissions, newest first. Needs the admin key (lib/auth.js).
 // Optional Pages setting (Settings > Variables and Secrets):
 //   VOICES_WEBHOOK    Discord webhook URL; each submission is posted there (never the email address or signature)
-//
-// RELEASE_VERSION is the narrator release the form asks people to agree to (public/voices/release.html). When the
-// release changes, give it a new version there, here and in public/voices/submit.html; a form loaded before the
-// change is then turned away with a request to read the new one.
+// The table, the release version and the webhook message are in lib/submissions.js, shared with the upload page.
 
 import { authorized } from "../../lib/auth.js";
-import { clean, ticked, EMAIL, senderHash, postWebhook } from "../../lib/form.js";
-
-const RELEASE_VERSION = "2026-09-29";
-
-const SETUP = `CREATE TABLE IF NOT EXISTS voice_submissions (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  created TEXT NOT NULL,
-  credit TEXT NOT NULL,
-  email TEXT,
-  discord TEXT,
-  pack TEXT NOT NULL,
-  link TEXT NOT NULL,
-  clips TEXT NOT NULL,
-  note TEXT,
-  release_version TEXT NOT NULL,
-  adult_or_guardian INTEGER NOT NULL,
-  signature TEXT NOT NULL,
-  country TEXT,
-  sender TEXT NOT NULL,
-  status TEXT NOT NULL DEFAULT 'new'
-)`;
-
-const PER_DAY = 5;   // submissions one sender can make per day
+import { clean, ticked, EMAIL, senderHash } from "../../lib/form.js";
+import { currentUser, claimVoice } from "../../lib/accounts.js";
+import { loadVoices } from "../../lib/voices.js";
+import { RELEASE_VERSION, PER_DAY, setupSubmissions, sentToday, insertSubmission, notify } from "../../lib/submissions.js";
 
 // Shared-folder links we can open: Google Drive, Dropbox, OneDrive (personal and work).
 const FOLDER_HOSTS = [/^(drive|docs)\.google\.com$/, /^(www\.)?dropbox\.com$/, /^db\.tt$/, /^onedrive\.live\.com$/,
@@ -60,23 +39,11 @@ function errorPage(status, error) {
 <a href="/voices">Voices</a> &rsaquo; Send your recordings</span></div></header>
 <main class="wrap fb-page"><h1>Not sent yet</h1>
 <div class="fb-done"><p>${escape(error)}</p>
-<p>Use your browser's Back button to fix it: what you typed is still there. Or <a href="/voices/submit">start over</a>.</p></div>
+${status === 401
+  ? `<p><a href="/account?next=/voices/submit">Sign in or create your Lore Forever account</a>, then send the form again.</p>`
+  : `<p>Use your browser's Back button to fix it: what you typed is still there. Or <a href="/voices/submit">start over</a>.</p>`}</div>
 </main></body></html>`;
   return new Response(html, { status, headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" } });
-}
-
-function notify(webhook, s) {
-  const lines = [
-    `**Voice submission #${s.id}: ${s.pack}**`,
-    `Credit: ${s.credit}`,
-    `Clips: ${s.clips.slice(0, 500)}`,
-    `Recordings: <${s.link}>`,
-    s.note ? `Note: ${s.note.slice(0, 800)}` : "",
-    s.discord ? `Discord: ${s.discord}` : "",
-    s.email ? "(left an email; see /admin)" : "",
-    `Agreed to the narrator release ${s.release_version}`,
-  ].filter(Boolean);
-  return postWebhook(webhook, lines.join("\n"));
 }
 
 export async function onRequestPost(context) {
@@ -101,9 +68,13 @@ async function save({ request, env, waitUntil }, json) {
   // Bots fill every field; people never see this one. Pretend it worked.
   if (clean(input.website, 10)) return {};
 
+  // Only contributors with an account can send a voice, so it can be tied to them and shown on their profile.
+  const user = await currentUser(env, request);
+  if (!user) return { status: 401, error: "Please sign in to your Lore Forever account first. It takes a minute with your Google account." };
+
   const s = {
     credit: clean(input.credit, 100),
-    email: clean(input.email, 200).toLowerCase() || null,
+    email: clean(input.email, 200).toLowerCase() || user.email || null,
     discord: clean(input.discord, 40).replace(/^@/, "") || null,
     pack: clean(input.pack, 60),
     link: clean(input.link, 1000),
@@ -130,28 +101,26 @@ async function save({ request, env, waitUntil }, json) {
   const ip = request.headers.get("CF-Connecting-IP") || "";
   const now = new Date().toISOString();
   const sender = await senderHash(ip, now.slice(0, 10));
-  await env.DB.prepare(SETUP).run();
-  const sent = await env.DB.prepare("SELECT COUNT(*) AS n FROM voice_submissions WHERE sender = ? AND created >= ?")
-    .bind(sender, now.slice(0, 10)).first("n");
+  await setupSubmissions(env);
+  const sent = await sentToday(env, sender, now.slice(0, 10));
   if (sent >= PER_DAY) return { status: 429, error: "That's a lot of submissions for one day. Please try again tomorrow, or ask on Discord." };
 
-  const row = await env.DB.prepare(
-    "INSERT INTO voice_submissions (created, credit, email, discord, pack, link, clips, note, release_version, " +
-    "adult_or_guardian, signature, country, sender) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id"
-  ).bind(now, s.credit, s.email, s.discord, s.pack, s.link, s.clips, s.note, s.release_version,
-         s.adult_or_guardian, s.signature, request.cf?.country || null, sender).first();
+  const listed = new Set((await loadVoices(env, request)).map(v => v.id));
+  const voiceId = await claimVoice(env, user, s.pack, listed);
+  const row = { ...s, created: now, country: request.cf?.country || null, sender, user_id: user.id, voice_id: voiceId };
+  row.id = await insertSubmission(env, row);
 
-  if (env.VOICES_WEBHOOK) waitUntil(notify(env.VOICES_WEBHOOK, { ...s, id: row?.id }));
+  if (env.VOICES_WEBHOOK) waitUntil(notify(env.VOICES_WEBHOOK, row));
   return {};
 }
 
 export async function onRequestGet({ request, env }) {
   if (!(await authorized(request, env))) return fail(401, "Needs the admin key.");
   if (!env.DB) return Response.json({ submissions: [] });
-  await env.DB.prepare(SETUP).run();
+  await setupSubmissions(env);
   const { results } = await env.DB.prepare(
     "SELECT id, created, credit, email, discord, pack, link, clips, note, release_version, adult_or_guardian, " +
-    "signature, country, status FROM voice_submissions ORDER BY id DESC LIMIT 1000"
+    "signature, country, status, user_id, voice_id FROM voice_submissions ORDER BY id DESC LIMIT 1000"
   ).all();
   return Response.json({ submissions: results }, { headers: { "Cache-Control": "no-store" } });
 }

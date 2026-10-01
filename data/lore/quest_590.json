@@ -1,0 +1,119 @@
+{
+ "key": "quest:590",
+ "type": "quest",
+ "name": "A Rogue's Deal",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   590
+  ],
+  "level": "5",
+  "faction": "Horde",
+  "start": "Calvin Montague",
+  "end": "",
+  "previous": "A Rogue's Deal",
+  "next": null,
+  "wiki": "A Rogue's Deal (2)",
+  "chain": [
+   "A Rogue's Deal",
+   "A Rogue's Deal (2)"
+  ]
+ },
+ "summary": "A Rogue's Deal is a clandestine confrontation with Calvin Montague in Deathknell. After duping a newly awakened Forsaken into running an errand with the promise of wealth, the sly rogue refuses to pay until beaten into submission.",
+ "sections": [
+  {
+   "title": "A Dishonorable Promise",
+   "body": "Calvin Montague loiters near the crypts of Deathknell offering seemingly easy work for newly risen Forsaken. Claiming there is good coin to be earned by retrieving a letter, Montague sends green adventurers into danger. However, once the errand is done, Montague conveniently forgets his promise of payment, feigning utter ignorance about any arrangement or owed coin.",
+   "spoiler": 0
+  },
+  {
+   "title": "Paying the Price",
+   "body": "When pressed to honor his bargain, Montague shows his true colors. Rather than parting with his silver, he draws his weapons, betting that he can easily cut down an inexperienced fledgling. Beating sense into the rogue forces him to concede. Thoroughly battered, he coughs up a cut of coin, freely admitting that he lied about the payout simply because he thought he could get away with it.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Calvin Montague attack when asked for payment?",
+   "aliases": [
+    "why calvin fight",
+    "calvin montague hostile",
+    "why rogue attacks"
+   ],
+   "answer": "Calvin Montague is an unscrupulous rogue who never intended to share his coin. When confronted about his broken promise, he attempts to silence his associate permanently rather than pay up, assuming a newly raised Forsaken will be an easy mark."
+  },
+  {
+   "q": "Where does this confrontation take place?",
+   "aliases": [
+    "where is calvin montague",
+    "calvin montague location",
+    "where is rogue's deal"
+   ],
+   "answer": "The confrontation takes place directly in Deathknell, the ruined village in southwestern Tirisfal Glades where newly risen Forsaken first awaken."
+  },
+  {
+   "q": "Does Calvin Montague actually pay what he promised?",
+   "aliases": [
+    "calvin reward",
+    "does calvin pay",
+    "did he lie about coin"
+   ],
+   "answer": "No. Once beaten in combat, Calvin surrenders and hands over some silver, but admits it is far less than he originally offered because he lied about the full amount from the start."
+  },
+  {
+   "q": "How is this second task unlocked?",
+   "aliases": [
+    "how to get part 2",
+    "unlock rogue deal fight",
+    "secret rogue quest"
+   ],
+   "answer": "After completing the initial delivery errand from Calvin Montague, return and speak to him again to demand the coin he promised. Challenging his deceit immediately triggers the fight."
+  },
+  {
+   "q": "Does Calvin Montague die when defeated?",
+   "aliases": [
+    "did i kill calvin",
+    "is calvin dead",
+    "calvin surrender"
+   ],
+   "answer": "No. Montague yields before taking a fatal blow, profusely complimenting your fighting skill and begrudgingly opening his coin pouch to save his own skin."
+  },
+  {
+   "q": "What lesson does this encounter offer to new Forsaken?",
+   "aliases": [
+    "what is the point of rogue deal",
+    "lore behind rogue's deal"
+   ],
+   "answer": "It serves as an early, practical lesson in the harsh realities of the Forsaken: honor is scarce among the undead, words are cheap, and respect is earned only through martial strength."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Dealing with Calvin Montague offers young rogues an immediate lesson in professional hazard: trust no one, watch your purse, and never let another scoundrel walk away with your cut."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Waking up in Deathknell quickly proves that death does not strip humanity's pettiest vices; Forsaken cutpurses are just as quick to swindle their own kin as living bandits."
+  }
+ ],
+ "keywords": [
+  "a rogue's deal",
+  "brawl",
+  "calvin montague",
+  "deathknell",
+  "forsaken rogue",
+  "swindle",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:calvin-montague",
+  "quest:8",
+  "subzone:deathknell",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "A Rogue's Deal (2)"
+ ]
+}

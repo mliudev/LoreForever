@@ -1,0 +1,90 @@
+{
+ "key": "item:troll-charm",
+ "type": "item",
+ "name": "Troll Charm",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Troll Charm",
+  "quests": [
+   "quest:6462"
+  ]
+ },
+ "summary": "Troll Charms are sacred spiritual amulets carried by the Darkspear trolls. A collection of them was recently looted by hostile Thistlefur furbolgs after an ambush along the northern reaches of Ashenvale.",
+ "sections": [
+  {
+   "title": "Sacred Trinkets of the Darkspear",
+   "body": "To the trolls of the Horde, spiritual charms are far more than mere ornamentation. As the scout Mitsuwa explains, a troll without their charm is considered as diminished as an orc without battle scars. When a party of Darkspear kin journeyed toward Zoram'gar Outpost through the dense canopy of Ashenvale, they were ambushed and slaughtered by the corrupted Thistlefur furbolgs. While their spirits were commended to the afterlife, the furbolgs looted the dead and carried off their sacred charms as trophies, stashing them in chests deep within Thistlefur Hold.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Troll Charms used for?",
+   "aliases": [
+    "purpose of troll charm",
+    "troll charm lore",
+    "why do trolls carry charms"
+   ],
+   "answer": "Troll Charms serve as sacred cultural and spiritual wards for Darkspear trolls. Carrying such talismans is an essential mark of personal and spiritual dignity among their people."
+  },
+  {
+   "q": "Where are these charms found?",
+   "aliases": [
+    "where are troll charms",
+    "how to find troll charm",
+    "troll chest location"
+   ],
+   "answer": "They are locked away inside chests scattered within Thistlefur Hold, a cavern system nestled behind Thistlefur Village in northern Ashenvale."
+  },
+  {
+   "q": "Why do the furbolgs have these charms?",
+   "aliases": [
+    "why furbolgs have them",
+    "who stole the charms"
+   ],
+   "answer": "A group of Darkspear travelers were ambushed and killed by the Thistlefur clan before they could safely reach Zoram'gar Outpost. The furbolgs ransacked their belongings and kept the charms."
+  },
+  {
+   "q": "Who wants the charms back?",
+   "aliases": [
+    "who takes the charms",
+    "mitsuwa quest"
+   ],
+   "answer": "Mitsuwa, a Darkspear troll stationed at Zoram'gar Outpost on the Zoram Strand, seeks their recovery to restore honor to his slain kin."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls, leaving sacred charms in the clutches of savage furbolgs is an intolerable insult to the memory and spirit of fallen kin."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Recovering these stolen goods weakens the aggressive Thistlefur tribe while avenging Horde travelers cut down on Ashenvale's treacherous paths."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "darkspear",
+  "mitsuwa",
+  "thistlefur hold",
+  "thistlefur village",
+  "troll charm",
+  "zoram'gar outpost"
+ ],
+ "related": [
+  "npc:mitsuwa",
+  "quest:6462",
+  "subzone:thistlefur-hold",
+  "subzone:thistlefur-village",
+  "subzone:zoram-gar-outpost",
+  "topic:furbolg",
+  "topic:troll",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Troll Charm",
+  "Troll Charm (quest)"
+ ]
+}

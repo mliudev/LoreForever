@@ -1,0 +1,77 @@
+{
+ "key": "item:savannah-lion-tusk",
+ "type": "item",
+ "name": "Savannah Lion Tusk",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Savannah Lion Tusk",
+  "quests": [
+   "quest:821"
+  ]
+ },
+ "summary": "Savannah Lion Tusks are hefty fangs taken from the predatory big cats roaming the arid plains of the Barrens. While common hunting trophies for travelers, they serve an exotic purpose as a brewing ingredient for Chen Stormstout's legendary potent ale.",
+ "sections": [
+  {
+   "title": "A Curious Brewing Ingredient",
+   "body": "The great cats of the Barrens\u2014from prowlers and huntresses to majestic prides ruled by patriarchs and beasts like Humar the Pridelord\u2014are armed with sharp, heavy tusks. While most who fell these predators take their teeth as simple proof of prowess, Brewmaster Drohn in Ratchet seeks them out for a far more spirited craft. Drohn uses the tusks alongside plainstrider kidneys and thunder lizard horns to recreate Chen Stormstout's famous namesake brew, imparting a legendary kick that few mortal gullets can easily withstand.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Brewmaster Drohn need Savannah Lion Tusks?",
+   "aliases": [
+    "why tusks for beer",
+    "drohn lion tusks",
+    "brewmaster drohn recipe"
+   ],
+   "answer": "Brewmaster Drohn in Ratchet is recreating the recipe for Chen Stormstout's namesake brew, which was passed down to him through his mentor. The tusks are one of three indigenous Barrens reagents needed to replicate the stout's distinct flavor and kick."
+  },
+  {
+   "q": "Which beasts carry Savannah Lion Tusks?",
+   "aliases": [
+    "where do lion tusks drop",
+    "who drops lion tusk",
+    "savannah lion tusk source"
+   ],
+   "answer": "They can be carved from any of the savannah lion pride members prowling the Barrens, including Savannah Highmanes, Patriarchs, Matriarchs, Huntresses, Prowlers, and rare beasts like Dishu and Humar the Pridelord."
+  },
+  {
+   "q": "Do lions actually have tusks?",
+   "aliases": [
+    "why are lion teeth called tusks",
+    "lion tusks vs fangs",
+    "lion tusk anatomy"
+   ],
+   "answer": "In the rugged wilds of Kalimdor, the oversized canine fangs of savannah big cats grow prominent and thick enough that local hunters and frontiersmen colloquially refer to them as tusks."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Hunting the fierce prides across the golden scrub of the Barrens provides a true test of tracking, yielding dangerous fangs that prove both deadly in battle and valuable to local brewers."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "brewmaster drohn",
+  "chen stormstout",
+  "dishu",
+  "humar",
+  "ratchet",
+  "savannah lion tusk"
+ ],
+ "related": [
+  "npc:brewmaster-drohn",
+  "quest:819",
+  "item:plainstrider-kidney",
+  "item:thunder-lizard-horn",
+  "subzone:ratchet",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Savannah Lion Tusk",
+  "Chen's Empty Keg (2)"
+ ]
+}

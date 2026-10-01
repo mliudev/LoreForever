@@ -1,0 +1,98 @@
+{
+ "key": "item:perenolde-tiara",
+ "type": "item",
+ "name": "Perenolde Tiara",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Perenolde Tiara",
+  "quests": [
+   "quest:543"
+  ]
+ },
+ "summary": "The Perenolde Tiara is an emerald-studded heirloom of Alterac's fallen royal house, originally fashioned by dwarven craftsmen of Ironforge. Lost amidst the destruction of the kingdom, it eventually fell into the greedy hands of an ogre wandering the ruins before drawing the interest of collectors in Stormwind.",
+ "sections": [
+  {
+   "title": "A Relic of a Ruined Kingdom",
+   "body": "Before the mountainous realm of Alterac collapsed in infamy and rubble during the Second War, its ruling house was the Perenolde family. Among their treasures was this delicate tiara, commissioned from master jewelers in Ironforge and set with brilliant emeralds. When Alterac fell to ruin following King Aiden Perenolde's treachery, the crown jewel vanished into the chaotic devastation of the high crags.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Miser's Prize",
+   "body": "Rather than being buried forever beneath the snow, the tiara was unearthed by Grel'borg the Miser, an ogre mage who rummages through the ruins of Alterac searching for abandoned wealth. News of the surviving relic reached Count Remington Ridgewell, a wealthy noble in Stormwind eager to acquire famous relics for his family museum, prompting a search to prise the tiara from the ogre's grasping hands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Perenolde Tiara?",
+   "aliases": [
+    "perenolde tiara lore",
+    "what is this tiara",
+    "alterac tiara"
+   ],
+   "answer": "It is an heirloom that once belonged to the royal Perenolde family of Alterac. It was crafted by master dwarven jewelers from Ironforge and adorned with fine emeralds before being lost during Alterac's downfall."
+  },
+  {
+   "q": "Who possesses the tiara now?",
+   "aliases": [
+    "where is the tiara",
+    "who drops the tiara",
+    "grelborg tiara"
+   ],
+   "answer": "An ogre mage known as Grel'borg the Miser discovered the tiara among the snowbound ruins of Alterac. He guards it jealously as he scavenges the ruined kingdom for more lost treasures."
+  },
+  {
+   "q": "Why does Count Remington Ridgewell want it?",
+   "aliases": [
+    "who wants the tiara",
+    "why does remington want it",
+    "remington ridgewell motive"
+   ],
+   "answer": "Count Remington Ridgewell collects historic and prestigious antiquities for his family museum in Stormwind. Recovering a genuine crown jewel from a fallen human kingdom provides an impressive centerpiece for his collection."
+  },
+  {
+   "q": "Who were the Perenoldes?",
+   "aliases": [
+    "perenolde family",
+    "house of perenolde",
+    "rulers of alterac"
+   ],
+   "answer": "The Perenoldes were the ruling dynasty of the kingdom of Alterac. During the Second War, King Aiden Perenolde betrayed the Alliance to the Orcish Horde, leading to the collapse and ruin of his sovereign realm."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The tiara serves as a testament to the renowned gemcraft of Ironforge, whose master jewelers cut and set the emeralds for the human royalty of the north."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The artifact is a bitter reminder of the House of Perenolde, whose betrayal during the Second War nearly destroyed the original Alliance of Lordaeron."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "emeralds",
+  "grel'borg",
+  "ironforge",
+  "miser",
+  "perenolde",
+  "remington",
+  "ridgewell",
+  "tiara"
+ ],
+ "related": [
+  "quest:543",
+  "npc:count-remington-ridgewell",
+  "topic:alterac-kingdom",
+  "subzone:ruins-of-alterac",
+  "zone:alterac",
+  "zone:ironforge",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Perenolde Tiara",
+  "The Perenolde Tiara"
+ ]
+}

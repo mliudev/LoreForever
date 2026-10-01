@@ -1,0 +1,80 @@
+{
+ "key": "item:cask-of-scalder",
+ "type": "item",
+ "name": "Cask of Scalder",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Cask of Scalder",
+  "quests": [
+   "quest:1702"
+  ]
+ },
+ "summary": "A heavy cask of fiery Barleybrew Scalder ale, given to brave adventurers venturing to Stormwind. It serves as both a thirst-quenching gift and an informal currency between old acquaintances.",
+ "sections": [
+  {
+   "title": "A Dwarven Bargain",
+   "body": "Barleybrew Scalder is a renowned ale capable of warming even the chillest dwarf. Entrusted to travelers who have proven their mettle across the Rethban Gauntlet, this cask is sent directly to Furen Longbeard in Stormwind's Dwarven District. Longbeard, an artisan shieldsmith, considers dry times an intolerable condition, making this potent brew the perfect lever to call in an old favor and secure high-quality dwarven craftsmanship.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Cask of Scalder?",
+   "aliases": [
+    "what drink is in this",
+    "scalder ale",
+    "barleybrew scalder"
+   ],
+   "answer": "The cask is filled with Barleybrew Scalder, a potent and fiery brew crafted by the Barleybrew family. It is prized by dwarves for its strong flavor and warming punch."
+  },
+  {
+   "q": "Who is this cask intended for?",
+   "aliases": [
+    "who gets the cask",
+    "where do i bring this",
+    "scalder recipient"
+   ],
+   "answer": "The cask is meant for Furen Longbeard, an expert dwarf shieldsmith who works out of the Dwarven District in the city of Stormwind."
+  },
+  {
+   "q": "Why is this cask being delivered to Furen Longbeard?",
+   "aliases": [
+    "why furen wants scalder",
+    "shieldsmith favor",
+    "purpose of cask"
+   ],
+   "answer": "Furen owes a favor to Yorus Barleybrew. Handing over this prized cask satisfies Furen's thirst during what he calls 'dry times' and persuades him to forge a sturdy, exceptional shield for the courier."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "For a warrior seeking reliable protection, securing Furen Longbeard's legendary smithing through a cask of fine ale is an essential rite of passage."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Nothing seals a deal or settles an old obligation between dwarves quite like delivering a fresh cask of Barleybrew's finest craft."
+  }
+ ],
+ "keywords": [
+  "ale",
+  "barleybrew",
+  "cask of scalder",
+  "dwarven district",
+  "furen longbeard",
+  "shieldsmith",
+  "stormwind"
+ ],
+ "related": [
+  "quest:1702",
+  "npc:furen-longbeard",
+  "subzone:dwarven-district",
+  "quest:1699",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Cask of Scalder",
+  "The Shieldsmith"
+ ]
+}

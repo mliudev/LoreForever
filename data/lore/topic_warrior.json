@@ -1,0 +1,127 @@
+{
+ "key": "topic:warrior",
+ "type": "topic",
+ "name": "Warrior",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Warrior"
+ },
+ "summary": "Warriors are the quintessential frontline combatants of Azeroth, mastering heavy plate armor, shields, and nearly every form of martial weaponry. Fueling their most devastating strikes with pure combat rage, they charge into the thick of battle to defend weaker allies or carve through enemy ranks. They are found across every race and civilization, serving as everything from stalwart city guards and royal champions to wandering mercenaries.",
+ "sections": [
+  {
+   "title": "Masters of Steel and Shield",
+   "body": "Warriors rely neither on divine prayers nor arcane incantations. Their power stems entirely from physical endurance, battlefield discipline, and an exhaustive mastery of weaponry. Clad in the heaviest plate mail, they dictate the frontline. Some fight behind towering shields to withstand punishing assaults and draw peril away from spellcasters and archers. Others step forward with two-handed polearms, axes, and greatswords, or wade into melee wielding a blade in each hand to cleave through whole formations.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Power of Battle Rage",
+   "body": "In the furnace of battle, pain and blood ignite a warrior's inner fire. Known simply as rage, this resource swells as warriors inflict and absorb punishment. Rather than yielding to exhaustion or bleeding wounds, seasoned fighters channel this combat fury directly into bone-shattering strikes, sweeping whirlwinds of steel, and deafening battle cries that bolster nearby comrades while shattering enemy morale.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Universal Tradition",
+   "body": "Unlike classes tied to specific creeds or elemental patrons, the warrior tradition is universal to every race on Azeroth. Stormwind relies on the disciplined knight-champions of the Brotherhood of the Horse, Ironforge marshals its stout Forgeguard, and the Horde rallies around orcish blademasters, tauren braves, and Forsaken Deathguards. Whether driven by honor, territorial defense, or cold coin, those who answer the call of arms form the unbroken backbone of every standing army.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What powers a warrior if they do not use magic?",
+   "aliases": [
+    "how do warriors fight",
+    "warrior resource",
+    "what is rage"
+   ],
+   "answer": "Warriors rely on martial skill, tactical training, and rage. Rage builds directly from the clash of combat\u2014both by striking enemies and absorbing incoming blows. This surging combat adrenaline fuels their most devastating maneuvers, such as sweeping weapon strikes, concussive shield bashes, and intimidating shouts."
+  },
+  {
+   "q": "What races can become warriors?",
+   "aliases": [
+    "who can be warrior",
+    "warrior races",
+    "can every race be warrior"
+   ],
+   "answer": "Every playable race in Azeroth can be a warrior. The need for heavily armored frontline soldiers exists across all mortal cultures, from the stoic dwarven defenders of Khaz Modan to the savage orcish shock troops of Durotar."
+  },
+  {
+   "q": "What role do warriors serve in a combat party?",
+   "aliases": [
+    "warrior role",
+    "do warriors tank",
+    "arms vs fury vs prot"
+   ],
+   "answer": "Warriors typically lead from the front. Stalwart protection warriors use shields and plate armor to absorb punishment and keep dangerous foes focused on them. Offensive arms and fury warriors instead bring crushing two-handed weapons or paired blades to overwhelm enemies through brutal physical damage."
+  },
+  {
+   "q": "What weapons are warriors able to wield?",
+   "aliases": [
+    "warrior weapons",
+    "can warriors use bows",
+    "what can warriors equip"
+   ],
+   "answer": "Warriors are masters of almost every weapon known to mortal warfare. They can wield swords, maces, axes, polearms, daggers, and staves, in both one-handed and two-handed grips, as well as heavy shields and ranged weapons like bows, guns, and crossbows."
+  },
+  {
+   "q": "Who are some famous warriors in Azeroth's history?",
+   "aliases": [
+    "famous warriors",
+    "legendary warriors",
+    "who are warrior heroes"
+   ],
+   "answer": "Renowned warriors include Lord Anduin Lothar, the Champion of Stormwind and Supreme Commander of the Alliance of Lordaeron; Grommash Hellscream, chieftain of the Warsong clan; and Cairne Bloodhoof, High Chieftain of the united tauren tribes."
+  },
+  {
+   "q": "Where do new warriors receive their formal training?",
+   "aliases": [
+    "warrior trainers",
+    "where do warriors learn",
+    "warrior trainer locations"
+   ],
+   "answer": "Warriors train anywhere soldiers gather. Human recruits drill in Northshire Abbey, dwarves and gnomes learn at Anvilmar in Coldridge Valley, night elves train in Shadowglen, orcs and trolls practice in the Valley of Trials, and Forsaken fighters report to the Deathknell barracks."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Every battle you fight tests your stamina and nerve; by turning the pain of incoming blows into pure rage, you control the front line."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Warriors rely entirely on blacksmiths to hammer out the heavy plate mail, sturdy bucklers, and honed blades necessary to survive mortal combat."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The footmen and knights of the Alliance form the defensive vanguard protecting human kingdoms, dwarven mountain holds, and elven forests."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde, martial prowess is a way of life, with grunt shock troops and tauren warriors leading every territorial advance."
+  }
+ ],
+ "keywords": [
+  "arms",
+  "berserker",
+  "fury",
+  "melee",
+  "plate",
+  "protection",
+  "rage",
+  "shield",
+  "vanguard",
+  "warrior"
+ ],
+ "related": [
+  "npc:thrall",
+  "topic:alliance",
+  "topic:horde",
+  "topic:tauren",
+  "topic:first-war",
+  "topic:second-war",
+  "topic:third-war",
+  "subzone:anvilmar"
+ ],
+ "attribution": [
+  "Warrior"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "key": "item:bartleby-s-mug",
+ "type": "item",
+ "name": "Bartleby's Mug",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Bartleby's Mug",
+  "quests": [
+   "quest:1665"
+  ]
+ },
+ "summary": "Bartleby's Mug is the personal drinking vessel of the stubborn brawler Bartleby in Stormwind. Surrendered only after a tavern brawl and emptied down to the last drop, it serves as proof of a warrior's ability to forcefully persuade an uncooperative opponent.",
+ "sections": [
+  {
+   "title": "A Brawler's Prize",
+   "body": "To the casual tavern regular, Bartleby's Mug is nothing more than ordinary drinkware clutched tight by a notoriously stubborn drinker. For a novice warrior training in Stormwind, however, wrestling the vessel away from Bartleby is a test of sheer physical dominance. Bartleby will not relinquish his beloved mug until knocked into submission\u2014and even then, he insists on draining every last drop before handing it over as a trophy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Bartleby's Mug used for?",
+   "aliases": [
+    "bartleby mug purpose",
+    "why do i need bartlebys mug",
+    "what does the mug do"
+   ],
+   "answer": "Bartleby's Mug serves as proof of victory in a warrior's training trial. Taking it back to the drill instructor shows that the warrior could handle a stubborn tavern brawler and force him to surrender his most prized possession."
+  },
+  {
+   "q": "Who owns the mug originally?",
+   "aliases": [
+    "who is bartleby",
+    "bartlebys owner",
+    "who has the mug"
+   ],
+   "answer": "The mug belongs to Bartleby, a belligerent drunk who spends his time drinking and brawling. He refuses to hand the mug over until an aspiring warrior beats him in a fistfight, and even then, only after finishing his drink."
+  },
+  {
+   "q": "Who asks for Bartleby's Mug?",
+   "aliases": [
+    "who wants the mug",
+    "who do i give bartlebys mug to",
+    "bartlebys mug turn in"
+   ],
+   "answer": "The mug is brought to Burlguard, a warrior trainer in Stormwind who observes the brawl and requires the mug as proof before continuing the warrior's martial education."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Wresting this mug from Bartleby is an early rite of passage for young Alliance warriors, teaching them to rely on pure grit and martial force when words fail."
+  }
+ ],
+ "keywords": [
+  "bartleby",
+  "bartleby's mug",
+  "burlguard",
+  "stormwind",
+  "tavern brawl",
+  "warrior training"
+ ],
+ "related": [
+  "quest:1665",
+  "quest:1640",
+  "quest:1639",
+  "quest:1638",
+  "npc:bartleby",
+  "topic:warrior"
+ ],
+ "attribution": [
+  "Bartleby's Mug",
+  "Bartleby's Mug (quest)"
+ ]
+}

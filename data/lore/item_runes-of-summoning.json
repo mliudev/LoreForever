@@ -1,0 +1,91 @@
+{
+ "key": "item:runes-of-summoning",
+ "type": "item",
+ "name": "Runes of Summoning",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Runes of Summoning",
+  "quests": [
+   "quest:1471"
+  ]
+ },
+ "summary": "The Runes of Summoning are a ritual item provided by the warlock trainer Carendin Halgar in the Magic Quarter of the Undercity. They are used to call forth an unbound voidwalker into a summoning circle so that an aspiring warlock may bend it to their will.",
+ "sections": [
+  {
+   "title": "Subjugation in the Magic Quarter",
+   "body": "Within the dark recesses of the Undercity's Magic Quarter, Forsaken practitioners of the dark arts study the manipulation of the Nether. Carendin Halgar entrusts the Runes of Summoning only to warlocks who have prepared themselves to take command of a voidwalker. By casting the runes within the active summoning circle below Halgar's station, the practitioner tears through the fabric of the Void, drawing forth a creature that must be overpowered and bound into servitude.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Runes of Summoning used for?",
+   "aliases": [
+    "runes of summoning purpose",
+    "what do runes of summoning do",
+    "how to use runes of summoning"
+   ],
+   "answer": "They are used within the summoning circle in the Undercity's Magic Quarter to draw an unbound voidwalker from the Nether into the physical world, allowing a warlock to defeat and subjugate it."
+  },
+  {
+   "q": "Who provides the Runes of Summoning?",
+   "aliases": [
+    "who gives runes of summoning",
+    "runes of summoning trainer",
+    "carendin halgar runes"
+   ],
+   "answer": "Carendin Halgar, the Forsaken warlock trainer located in the Magic Quarter of the Undercity, provides them during the final stage of training to bind a voidwalker."
+  },
+  {
+   "q": "Where must the runes be activated?",
+   "aliases": [
+    "where do i use runes of summoning",
+    "runes of summoning location",
+    "summoning circle undercity"
+   ],
+   "answer": "They must be brought to the purple summoning circle situated directly below Carendin Halgar's platform in the Magic Quarter."
+  },
+  {
+   "q": "What happens after the entity is summoned?",
+   "aliases": [
+    "what happens after using runes",
+    "voidwalker subdued",
+    "after summoning voidwalker"
+   ],
+   "answer": "The voidwalker attacks immediately. The warlock must subdue it by force of magic and arms. Once defeated, the entity is indentured, and Carendin Halgar imparts the permanent spell to summon it."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Forsaken warlocks use the runes to prove their dominion over the Void, transforming a chaotic shadow into an enduring, loyal minion."
+  },
+  {
+   "target": "race:Undead",
+   "text": "In the subterranean depths of the Undercity, Forsaken practitioners bypass ancient taboos to bind void entities directly beneath the ruins of Lordaeron."
+  }
+ ],
+ "keywords": [
+  "carendin halgar",
+  "magic quarter",
+  "runes of summoning",
+  "the binding",
+  "undercity",
+  "voidwalker",
+  "warlock"
+ ],
+ "related": [
+  "quest:1471",
+  "npc:carendin-halgar",
+  "subzone:magic-quarter",
+  "zone:undercity",
+  "quest:1473",
+  "quest:1478",
+  "topic:warlock"
+ ],
+ "attribution": [
+  "Runes of Summoning",
+  "The Binding (Voidwalker, Undercity)"
+ ]
+}

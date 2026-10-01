@@ -1,0 +1,98 @@
+{
+ "key": "item:klaven-mortwake-s-journal",
+ "type": "item",
+ "name": "Klaven Mortwake's Journal",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Klaven Mortwake's Journal",
+  "quests": [
+   "quest:2359"
+  ]
+ },
+ "summary": "Klaven Mortwake's Journal is an intelligence report recovered by SI:7 operatives from the Defias tower in northeastern Westfall. Kept secured inside a chest shipped out of Duskwood, it details the Brotherhood's covert attempts to brew alchemical concoctions capable of reanimating the dead.",
+ "sections": [
+  {
+   "title": "A Gruesome Formula",
+   "body": "SI:7 had long surveilled the Defias tower looming along the ridges of northern Westfall, noting strange shipments arriving from the shadowy borders of Duskwood alongside twisted, non-human sentries. The journal found inside the topmost chest belonged to Klaven Mortwake and unravels the purpose behind these deliveries. Mortwake recorded alchemical research detailing how alchemists associated with the Zanzil trolls in Stranglethorn discovered a method to raise mindless undead drones using specialized poisons and brews, a practice the Defias Brotherhood sought to duplicate for their own ranks.",
+   "spoiler": 1
+  },
+  {
+   "title": "Intelligence for SI:7",
+   "body": "Master Mathias Shaw, leader of Stormwind's intelligence service, prioritized the recovery of Mortwake's journal to piece together the Brotherhood's wider web of alliances. The notes confirm not only dark experiments in reanimation but also the illicit logistical support connecting Duskwood, the Venture Company, and the Defias. For rogue operatives in service to the crown, the recovery of this dark research marks the pivotal transition into mastering the art of poisons.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Klaven Mortwake's Journal?",
+   "aliases": [
+    "what is klavens journal",
+    "mortwake journal",
+    "what is this item"
+   ],
+   "answer": "It is a research notebook compiled by Klaven Mortwake, an operative working within the Defias tower in northeastern Westfall. It contains notes on alchemical necromancy and illicit supply routes."
+  },
+  {
+   "q": "Where is the journal found?",
+   "aliases": [
+    "where to find klavens journal",
+    "klaven journal location",
+    "duskwood chest location"
+   ],
+   "answer": "It is locked inside a Duskwood Chest on the top floor of the Defias tower in northern Westfall, guarded by undead sentries and accessible only with a key taken from one of Klaven's monstrous guards."
+  },
+  {
+   "q": "What secrets are written inside the journal?",
+   "aliases": [
+    "what does the journal say",
+    "journal secrets",
+    "zanzil poison"
+   ],
+   "answer": "The text reveals that the Zanzil trolls of Stranglethorn Vale have engineered toxic potions capable of raising and controlling the dead, a lethal recipe the Defias Brotherhood was actively attempting to acquire and deploy."
+  },
+  {
+   "q": "Who wants this journal?",
+   "aliases": [
+    "who turns in klaven journal",
+    "who do i give the journal to",
+    "mathias shaw journal"
+   ],
+   "answer": "Master Mathias Shaw, leader of Stormwind's SI:7 intelligence agency, requests the document to monitor Defias logistics and instruct crown operatives in the dangers and uses of tactical poisons."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Infiltrating the tower to seize Mortwake's journal serves as a proving ground for SI:7 rogues, demonstrating proficiency in lockpicking, stealth, and introducing the craft of brewing lethal poisons."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The journal provides Stormwind's spymasters with definitive proof that the Defias uprising extends beyond disgruntled laborers, revealing ties to troll witch-doctors and alchemical necromancy."
+  }
+ ],
+ "keywords": [
+  "defias tower",
+  "duskwood chest",
+  "journal",
+  "klaven mortwake",
+  "mathias shaw",
+  "poisons",
+  "si:7",
+  "zanzil"
+ ],
+ "related": [
+  "quest:2359",
+  "npc:mathias-shaw",
+  "item:defias-tower-key",
+  "quest:2300",
+  "zone:westfall",
+  "zone:duskwood",
+  "topic:venture-company",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Klaven Mortwake's Journal",
+  "Klaven's Tower (quest)"
+ ]
+}

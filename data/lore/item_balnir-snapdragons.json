@@ -1,0 +1,97 @@
+{
+ "key": "item:balnir-snapdragons",
+ "type": "item",
+ "name": "Balnir Snapdragons",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Balnir Snapdragons",
+  "quests": [
+   "quest:1882"
+  ]
+ },
+ "summary": "Balnir Snapdragons are vibrant flowers cultivated at the Balnir Farmstead in eastern Tirisfal Glades. Naturally receptive to magical currents, they serve the Forsaken as delicate indicators for detecting the creep of Scourge corruption from the bordering Plaguelands.",
+ "sections": [
+  {
+   "title": "A Bloom in Ruin",
+   "body": "Originally tended by Vara Balnir before the fall of Lordaeron, these colorful blooms miraculously endured the death of the Balnir family and the rise of the Scourge. Even when Prince Arthas returned to the desecrated homestead to raise his steed Invincible, the snapdragons remained in full flower, untainted by the rot claiming the surrounding kingdom. Their enduring vitality against dark magic makes them a striking landmark amid the decay of Tirisfal Glades.",
+   "spoiler": 0
+  },
+  {
+   "title": "Magical Barometers",
+   "body": "Because snapdragons are unusually sensitive to atmospheric magic, they act as living barometers for magical blights. Anastasia Hartwell and the Forsaken mages in the Undercity seek fresh specimens from the farmstead's window boxes. By turning the plants over to the Royal Apothecary Society, the Undercity hopes to analyze the flora and measure how deeply the Lich King's plague has seeped across the border into Tirisfal's soil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Balnir Snapdragons be found?",
+   "aliases": [
+    "balnir snapdragons location",
+    "where are the flowers",
+    "balnir flower location"
+   ],
+   "answer": "They grow in flower boxes and garden beds around the ruined Balnir Farmstead, located in the eastern reaches of Tirisfal Glades near the border of the Western Plaguelands."
+  },
+  {
+   "q": "Why does Anastasia Hartwell want these snapdragons?",
+   "aliases": [
+    "why collect snapdragons",
+    "balnir farmstead quest goal",
+    "anastasia hartwell snapdragons"
+   ],
+   "answer": "Snapdragons readily absorb latent magical energies. Anastasia Hartwell wants fresh specimens delivered to Undercity apothecaries to measure whether the magical taint of the Plaguelands is actively spreading into Tirisfal Glades."
+  },
+  {
+   "q": "Who originally grew these flowers?",
+   "aliases": [
+    "who planted balnir snapdragons",
+    "vara balnir flowers",
+    "balnir family snapdragons"
+   ],
+   "answer": "They were the pride and joy of Vara Balnir, who cultivated them at her family's farm before the third war wiped out Lordaeron's rural settlements."
+  },
+  {
+   "q": "Did the Scourge destroy the Balnir flowers?",
+   "aliases": [
+    "did plague kill snapdragons",
+    "arthas balnir flowers"
+   ],
+   "answer": "No. Remarkably, the snapdragons stayed in full bloom even after the Balnirs were slain. Arthas noted their survival when he returned to the homestead to raise his horse Invincible, though he avoided touching them lest his deathly presence wither the petals."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Forsaken mages study Balnir Snapdragons as raw magical conduits, utilizing their natural sensitivity to quantify how magical blights distort ambient leylines."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, the flowers provide practical surveillance on their eastern border, warning Undercity researchers if the Lich King's corruption is overtaking Tirisfal's soil."
+  }
+ ],
+ "keywords": [
+  "anastasia hartwell",
+  "balnir farmstead",
+  "balnir snapdragons",
+  "invincible",
+  "mage quarter",
+  "plaguelands",
+  "tirisfal glades",
+  "vara balnir"
+ ],
+ "related": [
+  "subzone:balnir-farmstead",
+  "quest:1882",
+  "npc:anastasia-hartwell",
+  "zone:tirisfal",
+  "zone:undercity",
+  "subzone:mage-quarter",
+  "topic:forsaken",
+  "topic:lich-king"
+ ],
+ "attribution": [
+  "Balnir Snapdragons",
+  "The Balnir Farmstead"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "item:sathrah-s-sacrifice",
+ "type": "item",
+ "name": "Sathrah's Sacrifice",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Sathrah's Sacrifice",
+  "quests": [
+   "quest:2520"
+  ]
+ },
+ "summary": "Sathrah's Sacrifice consists of the silvery spinnerets taken from Lady Sathrah, a mighty spider dwelling in Teldrassil. Entrusted to adventurers by Priestess A'moora, this offering is presented at the fountain of the Temple of the Moon to cleanse the creature's corruption and lay her spirit to rest.",
+ "sections": [
+  {
+   "title": "Purification in the Holy Waters",
+   "body": "Lady Sathrah was once a venerable creature of Teldrassil who fell prey to the creeping madness and corruption afflicting the boughs of the great tree. Tasked by the Sisterhood of Elune, adventurers retrieve her silvery spinnerets not as mere trophies, but as a consecrated offering. By bathing these remains within the sacred fountain of the Temple of the Moon, the foul taint that poisoned Sathrah's mind is washed away. The rite frees her troubled soul, allowing her spirit to manifest peacefully within the sanctuary and granting her the promise of rebirth under Elune's grace.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Sathrah's Sacrifice?",
+   "aliases": [
+    "what are the spinnerets",
+    "sathrah sacrifice item",
+    "lady sathrah offering"
+   ],
+   "answer": "Sathrah's Sacrifice is the ritual offering made from the silvery spinnerets of Lady Sathrah, a corrupted giant spider slain in Teldrassil. The Sisterhood of Elune uses it in a purifying rite to cleanse the creature's soul."
+  },
+  {
+   "q": "Why must the spinnerets be placed in the fountain?",
+   "aliases": [
+    "why temple fountain",
+    "why sacrifice sathrah",
+    "what does the fountain do"
+   ],
+   "answer": "The central fountain within Darnassus's Temple of the Moon contains holy waters consecrated to Elune. Submerging Sathrah's remains in the pool washes away the foul corruption that drove her mad, releasing her spirit from agony."
+  },
+  {
+   "q": "What happens when the offering is presented?",
+   "aliases": [
+    "what happens at the fountain",
+    "spirit of sathrah appear",
+    "fountain event"
+   ],
+   "answer": "When placed into the sacred waters, the corruption is purged and the spectral form of Lady Sathrah appears, walking serenely around the pool to signify that her soul is at peace."
+  },
+  {
+   "q": "Who oversees this ritual?",
+   "aliases": [
+    "who gives sathrahs sacrifice",
+    "priestess a'moora quest",
+    "who cleanses sathrah"
+   ],
+   "answer": "Priestess A'moora, a servant of the Sisterhood of Elune stationed within the Temple of the Moon, directs adventurers to lay the creature to rest and offer her remains to the goddess."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, putting down corrupted wildlife is a somber duty; returning Lady Sathrah's spirit to Elune's grace ensures that life on Teldrassil can eventually be reborn free of madness."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests serving the Sisterhood of Elune observe this ritual as a solemn act of divine mercy, using holy waters to cleanse taint rather than merely discarding a slain beast."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "elune",
+  "lady sathrah",
+  "priestess a'moora",
+  "sathrah's sacrifice",
+  "silvery spinnerets",
+  "spider",
+  "teldrassil",
+  "temple of the moon"
+ ],
+ "related": [
+  "quest:2520",
+  "npc:priestess-a-moora",
+  "subzone:temple-of-the-moon",
+  "item:silvery-spinnerets",
+  "topic:elune",
+  "quest:2518",
+  "quest:2519",
+  "topic:priest"
+ ],
+ "attribution": [
+  "Sathrah's Sacrifice",
+  "Sathrah's Sacrifice (quest)"
+ ]
+}

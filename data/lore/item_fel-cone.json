@@ -1,0 +1,96 @@
+{
+ "key": "item:fel-cone",
+ "type": "item",
+ "name": "Fel Cone",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Fel Cone",
+  "quests": [
+   "quest:489"
+  ]
+ },
+ "summary": "Fel Cones are corrupted seed pods that drop from the boughs of Teldrassil, easily spotted by the noxious green fumes drifting from their hulls. Though foul and tainted by dark energies, local night elf defenders find clever uses for them against nearby tricksters.",
+ "sections": [
+  {
+   "title": "Blight in the Canopy",
+   "body": "Teldrassil is young, but corruption has already seeped into its living wood. Fel Cones are the visible evidence of this insidious rot\u2014gnarled, fallen pine cones that billow with foul green smoke. Scattered beneath the boughs just east of Dolanaar, these pods are steeped in tainted magic that warps natural flora and makes them dangerous to touch or consume without caution.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bitter Medicine",
+   "body": "When careless travelers fall for the wiles of Zenn Foulhoof\u2014a lurking satyr who tricks passersby into doing his bidding\u2014local guardians demand penance. Syral Bladeleaf and the Sentinels direct remorseful adventurers to gather these noxious cones and hand them over to Foulhoof under the guise of an innocent snack. The concentrated corruption within the seed triggers a peculiar transformation, temporarily turning the foul satyr into a harmless frog.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Fel Cone?",
+   "aliases": [
+    "what are fel cones",
+    "fel cone lore",
+    "what is fel cone"
+   ],
+   "answer": "A Fel Cone is a corrupted pine cone that falls from the boughs of Teldrassil. Tainted by unnatural magic, it smolders with an eerie green smoke and contains volatile, transformative energies."
+  },
+  {
+   "q": "Where can Fel Cones be found?",
+   "aliases": [
+    "where are fel cones",
+    "fel cone location",
+    "how to find fel cones"
+   ],
+   "answer": "They can be found resting on the forest floor beneath the trees just east of Dolanaar, in the heart of Teldrassil."
+  },
+  {
+   "q": "Why does the Council of the Forest want them collected?",
+   "aliases": [
+    "seek redemption cones",
+    "why collect fel cones",
+    "who wants fel cones"
+   ],
+   "answer": "If you unwittingly helped the satyr Zenn Foulhoof harm nature's creatures, the Council of the Forest offers a chance to redeem yourself. They instruct you to gather Fel Cones and trick Zenn into eating them as a lesson."
+  },
+  {
+   "q": "What happens when someone eats a Fel Cone?",
+   "aliases": [
+    "what does fel cone do",
+    "eating fel cone",
+    "zenn foulhoof frog"
+   ],
+   "answer": "When Zenn Foulhoof eats the Fel Cones thinking they are a harmless snack, the concentrated magic immediately transforms the scheming satyr into a frog."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The existence of Fel Cones is a disturbing sign of sickness deep within Teldrassil's roots, proving that even the World Tree's fledgling growth is not safe from demonic corruption."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Watching wholesome woodland seed pods curdle into smoking fel remnants is a grim reminder to druids of the fragile balance being fought for across Teldrassil."
+  }
+ ],
+ "keywords": [
+  "dolanaar",
+  "fel cone",
+  "satyr",
+  "seek redemption",
+  "syral bladeleaf",
+  "teldrassil",
+  "zenn foulhoof"
+ ],
+ "related": [
+  "quest:489",
+  "npc:zenn-foulhoof",
+  "npc:syral-bladeleaf",
+  "subzone:dolanaar",
+  "zone:teldrassil",
+  "topic:satyr",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Fel Cone",
+  "Seek Redemption!"
+ ]
+}

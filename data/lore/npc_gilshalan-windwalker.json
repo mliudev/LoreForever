@@ -1,0 +1,117 @@
+{
+ "key": "npc:gilshalan-windwalker",
+ "type": "npc",
+ "name": "Gilshalan Windwalker",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Gilshalan Windwalker",
+  "refs": 3
+ },
+ "summary": "Gilshalan Windwalker is a night elf researcher resting at the base of the great tree Aldrassil in Shadowglen. Concerned by the sudden corruption taking root within Teldrassil, he studies the local wildlife to understand the unnatural aggression plaguing the boughs. His investigations into the Shadowthread spiders provide early clues about the rot afflicting the World Tree.",
+ "sections": [
+  {
+   "title": "A Scholar at the Roots",
+   "body": "Sitting calmly on the stone steps leading into Aldrassil, Gilshalan Windwalker watches over the tranquil canopy of Shadowglen with growing unease. Teldrassil was planted to restore the night elves' lost sanctuary and harmony with nature, but signs of deep spiritual malaise have emerged almost immediately. Gilshalan dedicates himself to examining how this corruption manifests in the local beasts, beginning with the venomous arachnids that weave their webs nearby.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Webwood Menace",
+   "body": "Gilshalan's primary focus centers on the Webwood spiders lurking in the Shadowthread Cave to the north. These creatures, once a balanced part of the forest ecosystem, have grown unnaturally hostile and tainted. By sending young novices to gather venom sacs and intact spider eggs, Gilshalan works to analyze the venom's altered potency and discern whether the corruption is passed down through generations or spread externally through the soil of Teldrassil.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word to the Archdruid",
+   "body": "Once his initial research confirms that the Webwood venom is infused with a sinister, unnatural taint, Gilshalan recognizes that the problem exceeds his solitary purview. He sends promising protectors up into the high boughs of Aldrassil to report directly to Tenaron Stormcaller, passing the grim findings up to the druidic leadership responsible for watching over the fledgling World Tree.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gilshalan Windwalker?",
+   "aliases": [
+    "gilshalan",
+    "who is gilshalan",
+    "windwalker night elf"
+   ],
+   "answer": "Gilshalan Windwalker is a night elf scholar seated at the base of Aldrassil in Shadowglen. He investigates the mysterious corruption creeping into the wildlife of Teldrassil."
+  },
+  {
+   "q": "Why does Gilshalan want Webwood venom?",
+   "aliases": [
+    "why webwood venom",
+    "webwood venom quest",
+    "spider venom gilshalan"
+   ],
+   "answer": "Gilshalan seeks to study the chemical and spiritual properties of the venom to understand why the forest's spiders have become so aggressive and mutated."
+  },
+  {
+   "q": "What does he do with the Webwood egg?",
+   "aliases": [
+    "webwood egg quest",
+    "why spider eggs",
+    "egg of webwood"
+   ],
+   "answer": "He examines the unhatched spider eggs to determine whether the taint afflicting Teldrassil affects creatures from conception or if it takes hold later through the environment."
+  },
+  {
+   "q": "Where does Gilshalan send adventurers next?",
+   "aliases": [
+    "tenaron summons",
+    "who do i see after gilshalan",
+    "after webwood egg"
+   ],
+   "answer": "After examining the eggs and venom, he directs adventurers upward into the boughs of Aldrassil to present their findings to Tenaron Stormcaller."
+  },
+  {
+   "q": "Where is Gilshalan Windwalker located?",
+   "aliases": [
+    "gilshalan location",
+    "where is windwalker",
+    "find gilshalan"
+   ],
+   "answer": "He sits on the stone pathway at the northern base of Aldrassil, just outside the hollow entrance of the central tree in Shadowglen."
+  },
+  {
+   "q": "Why is the wildlife in Teldrassil aggressive?",
+   "aliases": [
+    "why are spiders mad",
+    "teldrassil corruption",
+    "corrupted beasts shadowglen"
+   ],
+   "answer": "An unknown blight has begun seeping through the roots and soil of Teldrassil, corrupting the minds and nature of its creatures and drawing scholarly concern from residents like Gilshalan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Gilshalan represents the early efforts of your people to understand why the newly grown World Tree is already producing afflicted, violent wildlife."
+  },
+  {
+   "target": "class:Druid",
+   "text": "His research directly supports the Cenarion Circle's attempts to diagnose the ecological imbalance festering in the boughs of Shadowglen."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "gilshalan",
+  "shadowglen",
+  "spider",
+  "tenaron",
+  "venom",
+  "webwood",
+  "windwalker"
+ ],
+ "related": [
+  "subzone:aldrassil",
+  "quest:916",
+  "quest:917",
+  "quest:920",
+  "zone:teldrassil",
+  "topic:night-elf",
+  "quest:940"
+ ],
+ "attribution": [
+  "Gilshalan Windwalker"
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "key": "npc:dirania-silvershine",
+ "type": "npc",
+ "name": "Dirania Silvershine",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Dirania Silvershine",
+  "refs": 4
+ },
+ "summary": "Dirania Silvershine is a night elf resident of Shadowglen in Teldrassil. Deeply loyal and observant, she watches over the tranquil grove and looks out for her companion Iverron when his reckless ventures land him in peril.",
+ "sections": [
+  {
+   "title": "A Watcher in Shadowglen",
+   "body": "Dirania stands among the tranquil boughs of Shadowglen, the secluded vale where young night elves begin their service to Kalimdor and the Alliance. While many in the barrow mounds and sanctuaries look to broad spiritual duties, Dirania stays mindful of those nearest to her, attentive to the quiet dangers that stir even in the heart of Teldrassil.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Friend's Peril",
+   "body": "Dirania's immediate concern is her companion Iverron. Overeager and careless around the poisonous woodland creatures creeping across the glen, Iverron frequently gets into trouble. When he succumbs to a venomous bite from the local webwood spiders, Dirania takes it upon herself to seek out willing hands to gather ingredients and prepare a remedy before the venom takes a permanent toll.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dirania Silvershine?",
+   "aliases": [
+    "dirania",
+    "who is dirania",
+    "dirania silvershine lore"
+   ],
+   "answer": "Dirania Silvershine is a night elf found in Shadowglen on Teldrassil. She acts as a quest giver, primarily concerned with rescuing and curing her friend Iverron after he runs afoul of local poisonous wildlife."
+  },
+  {
+   "q": "Where can I find Dirania Silvershine?",
+   "aliases": [
+    "dirania location",
+    "where is dirania",
+    "find dirania silvershine"
+   ],
+   "answer": "Dirania is located within Shadowglen, the starter vale inside Teldrassil, not far from the central path near Aldrassil."
+  },
+  {
+   "q": "What is Dirania's relationship to Iverron?",
+   "aliases": [
+    "is dirania related to iverron",
+    "iverron and dirania",
+    "dirania's friend"
+   ],
+   "answer": "Dirania and Iverron are close friends. Dirania is the more sensible and watchful of the pair, stepping in to arrange an antidote whenever Iverron acts foolishly and suffers a poisonous bite from the local fauna."
+  },
+  {
+   "q": "What quests does Dirania offer?",
+   "aliases": [
+    "dirania quests",
+    "quests from dirania silvershine",
+    "iverron quest"
+   ],
+   "answer": "She offers quests centered on helping her companion, notably 'A Friend in Need' and 'Iverron's Antidote', tasking adventurers with securing ingredients to brew a cure for Iverron's spider venom."
+  },
+  {
+   "q": "Why is Dirania worried about spiders in Shadowglen?",
+   "aliases": [
+    "shadowglen spiders",
+    "why spiders in teldrassil",
+    "webwood danger"
+   ],
+   "answer": "The webwood spiders dwelling in the boughs of Shadowglen carry a potent venom. While experienced sentinels can handle them, novice elves like Iverron frequently underestimate the danger and risk succumbing to their bites."
+  },
+  {
+   "q": "Does Dirania belong to any formal order or faction?",
+   "aliases": [
+    "dirania faction",
+    "is dirania a druid",
+    "is dirania a sentinel"
+   ],
+   "answer": "Dirania is an Alliance night elf living peacefully in Teldrassil. She is not depicted as an active member of the Sisterhood of Elune or the Cenarion Circle, but rather a caring civilian looking out for her fellow kin."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young night elves stepping into Shadowglen, Dirania serves as an early reminder of the bonds of friendship and the creeping dangers threatening even the newest sanctuaries of the World Tree."
+  }
+ ],
+ "keywords": [
+  "antidote",
+  "dirania",
+  "iverron",
+  "shadowglen",
+  "silvershine",
+  "teldrassil",
+  "webwood"
+ ],
+ "related": [
+  "npc:iverron",
+  "subzone:shadowglen",
+  "quest:3519",
+  "quest:3521",
+  "quest:4495",
+  "zone:teldrassil",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Dirania Silvershine"
+ ]
+}

@@ -18,12 +18,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <link rel="stylesheet" href="style.css">
+<script src="/header.js" defer></script>
 </head>
 <body>
 
 <header class="top">
-  <div class="wrap">
+  <div class="wrap top-row">
     <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; Feedback</span>
+    <div class="head-actions"><a class="btn-head" href="/feedback"><span class="hd-wide">Send feedback</span><span class="hd-narrow">Feedback</span></a></div>
   </div>
 </header>
 
@@ -32,9 +34,26 @@
   <p class="pitch">Found a wrong answer, hit a bug, or want your zone next? Tell us here. Every report is read, and
     lore fixes go into the next update.</p>
 
+  <!-- Sending feedback needs a Lore Forever account (Google sign-in, LOR-106; functions/api/auth/[action].js). The
+       form starts hidden: the script shows it when signed in, or the sign-in box when not. Signing in needs
+       JavaScript, so without it only the noscript box shows. -->
+  <noscript>
+    <section class="fb-done">
+      <h2>Sign in to send feedback</h2>
+      <p>Sending feedback needs a quick sign-in with Google, which needs JavaScript. Turn it on and
+        <a href="/account?next=/feedback">sign in here</a>, or tell us on <a href="/discord?src=feedback">Discord</a>.</p>
+    </section>
+  </noscript>
+  <section class="fb-done" id="fb-signin" hidden>
+    <h2>Sign in to send feedback</h2>
+    <p>Sign in with Google to send feedback, so we can write back to you. It takes a few seconds, and you'll come
+      right back here.</p>
+    <p><a class="btn-small" id="fb-signin-link" href="/account?next=/feedback">Sign in with Google</a></p>
+  </section>
+
   <!-- Posts to functions/api/feedback.js. With JavaScript the page sends JSON and shows the result in place;
        without it, the form posts normally and the function sends the player back here with ?sent=1 or ?error=. -->
-  <form class="fb-form" id="fb-form" method="post" action="/api/feedback">
+  <form class="fb-form" id="fb-form" method="post" action="/api/feedback" hidden>
     <fieldset class="fb-kinds">
       <legend>What's it about?</legend>
       <label><input type="radio" name="kind" value="lore" checked> Wrong or missing lore</label>
@@ -68,16 +87,11 @@
       <small>Or tell us the zone, NPC or quest, and the question you asked.</small>
     </label>
 
-    <div class="fb-pair">
-      <label class="fb-field">
-        <span>Email <span class="fb-optional">(optional, only if you'd like a reply)</span></span>
-        <input type="email" name="email" maxlength="200" autocomplete="email" placeholder="you@example.com">
-      </label>
-      <label class="fb-field">
-        <span>Name or character <span class="fb-optional">(optional)</span></span>
-        <input type="text" name="name" maxlength="60" autocomplete="nickname" placeholder="e.g. Thaelric">
-      </label>
-    </div>
+    <!-- No email field: a reply goes to the account's email. The name starts as the account's name. -->
+    <label class="fb-field">
+      <span>Name or character <span class="fb-optional">(optional)</span></span>
+      <input type="text" name="name" id="fb-name" maxlength="60" autocomplete="nickname" placeholder="e.g. Thaelric">
+    </label>
 
     <label class="fb-check">
       <input type="checkbox" name="quote_ok" value="on">
@@ -97,14 +111,15 @@
 
   <section class="fb-done" id="fb-done" hidden>
     <h2>Thank you!</h2>
-    <p>Got it. If you left an email, we'll write back when there's news.</p>
+    <p>Got it. If there's news, we'll write to the email on your account.</p>
     <p><a href="/feedback" id="fb-again">Send another</a> &middot; <a href="/">Back to Lore Forever</a> &middot;
       <a href="/discord?src=feedback">Chat on Discord</a></p>
   </section>
 </main>
 
 <footer class="wrap foot">
-  <p>Reports are kept only to improve Lore Forever. Your email is used only to reply to you.</p>
+  <p>Reports are kept only to improve Lore Forever. Your account's email is used only to reply to you.</p>
+  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
   <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>
@@ -127,8 +142,25 @@ function showDone() { form.hidden = true; done.hidden = false; }
 if (params.get("code")) document.getElementById("fb-code").value = params.get("code").slice(0, 120);
 const kind = form.querySelector('input[name="kind"][value="' + CSS.escape(params.get("kind") || "") + '"]');
 if (kind) kind.checked = true;
-if (params.get("sent")) showDone();
 if (params.get("error")) showStatus(params.get("error"));
+
+// Signing in goes through /account and comes back to this same address, kind and code included.
+const signin = document.getElementById("fb-signin");
+const back = new URLSearchParams(params);
+back.delete("sent");
+back.delete("error");
+document.getElementById("fb-signin-link").href =
+  "/account?next=" + encodeURIComponent("/feedback" + (back.toString() ? "?" + back : ""));
+
+// Signed in: show the form, with the account's name filled in. Signed out: the sign-in box instead. If the check
+// itself fails, show the form anyway; the server still asks for sign-in.
+if (params.get("sent")) showDone();
+else fetch("/api/auth/me", { cache: "no-store" }).then(r => r.json()).then(me => {
+  if (me.ok && !me.user) { signin.hidden = false; return; }
+  form.hidden = false;
+  const name = document.getElementById("fb-name");
+  if (me.user && !name.value && me.user.display_name) name.value = me.user.display_name;
+}).catch(() => { form.hidden = false; });
 
 // The message prompt follows the kind of report.
 const PROMPTS = {
@@ -175,6 +207,7 @@ form.addEventListener("submit", async e => {
       return;
     }
     showStatus(res.error || "Something went wrong. Please try again in a minute.");
+    if (r.status === 401) signin.hidden = false;   // signed out since the page loaded
   } catch (err) {
     showStatus("Couldn't reach the server. Check your connection and try again.");
   }

@@ -1,0 +1,92 @@
+{
+ "key": "item:deepfury-s-orders",
+ "type": "item",
+ "name": "Deepfury's Orders",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Deepfury's Orders",
+  "quests": [
+   "quest:632"
+  ]
+ },
+ "summary": "Deepfury's Orders is a crumpled parchment recovered from the body of Ol' Rustlocke beneath the Thandol Span. It contains grim instructions belonging to the Dark Iron dwarves who ambushed the scouting dwarven defender.",
+ "sections": [
+  {
+   "title": "A Grasp Beneath the Span",
+   "body": "While scouting the foundations of the Thandol Span, the dwarven bridge defender Ol' Rustlocke was cornered and slain in a sudden Dark Iron ambush. Clasped beside the scout's clenched fist lay these orders, drafted by the enemy leader, Deepfury. The document serves as direct proof of a coordinated plot targeting the bridge that connects the Wetlands to the Arathi Highlands.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uncovering the Threat",
+   "body": "Carrying Deepfury's Orders back to Rhag Garmason confirms the bridge garrison's darkest suspicions. Far from a random skirmish, the Dark Iron dwarves have staged deliberate operations directly beneath the grand stonework of the Thandol Span, prompting urgent appeals for reinforcements from Ironforge and Stormwind.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Deepfury's Orders?",
+   "aliases": [
+    "deepfurys orders",
+    "what are these orders",
+    "deepfury parchment"
+   ],
+   "answer": "They are written military orders belonging to the Dark Iron commander Deepfury, found lying next to the corpse of Ol' Rustlocke beneath the Thandol Span."
+  },
+  {
+   "q": "Where are the orders found?",
+   "aliases": [
+    "where are the orders",
+    "rustlocke location",
+    "find deepfury orders"
+   ],
+   "answer": "The parchment is discovered beside Ol' Rustlocke's clenched fist in the cavernous support structures beneath the Thandol Span in the northern Wetlands."
+  },
+  {
+   "q": "Who was Ol' Rustlocke?",
+   "aliases": [
+    "who is rustlocke",
+    "ol rustlocke lore"
+   ],
+   "answer": "Ol' Rustlocke was a dwarven scout stationed at the Thandol Span who went down to investigate strange activity around the bridge supports and was ambushed by Dark Iron dwarves."
+  },
+  {
+   "q": "Who receives Deepfury's Orders?",
+   "aliases": [
+    "who do i bring orders to",
+    "rhag garmason"
+   ],
+   "answer": "The orders are brought to Rhag Garmason, the dwarven defender stationed above at the Thandol Span, who reads them to assess the Dark Iron threat."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The discovery of Dark Iron scheming under the Thandol Span cuts deep for Ironforge dwarves, as the span represents one of their kingdom's greatest engineering achievements and vital northern trade links."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The intercepted orders expose a sabotage attempt on the primary overland artery between Dun Morogh, the Wetlands, and the northern Alliance outposts."
+  }
+ ],
+ "keywords": [
+  "dark iron",
+  "deepfury",
+  "orders",
+  "rhag garmason",
+  "rustlocke",
+  "thandol span",
+  "wetlands"
+ ],
+ "related": [
+  "quest:631",
+  "subzone:thandol-span",
+  "quest:634",
+  "zone:wetlands",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Deepfury's Orders",
+  "The Thandol Span (2)"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "item:99-year-old-port",
+ "type": "item",
+ "name": "99-Year-Old Port",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "wiki": "99-Year-Old Port",
+  "quests": [
+   "quest:959"
+  ]
+ },
+ "summary": "The 99-Year-Old Port is an exceptionally rare bottle of vintage liquor shipped from Booty Bay as a personal gift for Gazlowe. After a cargo accident on the Ratchet docks, it was snatched away by a lunatic named Mad Magglish, who fled into the twisting tunnels outside the Wailing Caverns.",
+ "sections": [
+  {
+   "title": "A High-Value Cargo Spill",
+   "body": "Transporting precious freight across the Great Sea always carries risks, but Crane Operator Bigglefuzz made things far worse during a routine morning unloading in Ratchet. Attempting to clear an overwhelming shipment from Booty Bay, the goblin overloaded his crane and brought a mountain of crates crashing down onto the docks. In the chaos, the town eccentric\u2014a troublesome figure known as Mad Magglish\u2014snatched an extraordinarily aged bottle of 99-Year-Old Port and bolted into the hills toward the Wailing Caverns.",
+   "spoiler": 0
+  },
+  {
+   "title": "Diplomatic Vintage",
+   "body": "The stolen port was no ordinary spirits; it was sent by Baron Revilgaz of the Blackwater Raiders as an esteemed diplomatic gift for Gazlowe, the chief engineer and ruler of Ratchet. Losing such a prized consignment threatened Bigglefuzz's livelihood and ratcheted up tensions with the dockmaster. Tracked into the darkened outer grottos of the caverns, the elusive thief lurks in the shadows with the unopened prize, forcing the dockhands to recruit outside mercenaries to retrieve it before Gazlowe discovers the blunder.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was the 99-Year-Old Port originally meant for?",
+   "aliases": [
+    "who is the port for",
+    "who gets the port",
+    "gazlowe gift"
+   ],
+   "answer": "The bottle was sent by Baron Revilgaz, master of Booty Bay, as a high-value personal gift to Gazlowe, the boss of Ratchet."
+  },
+  {
+   "q": "How did Mad Magglish end up with the port?",
+   "aliases": [
+    "how was it stolen",
+    "who stole the port",
+    "dock mishap"
+   ],
+   "answer": "Crane Operator Bigglefuzz attempted to unload more cargo than his rig could handle, spilling crates across the Ratchet docks. Mad Magglish took advantage of the mayhem to snatch the vintage bottle and run."
+  },
+  {
+   "q": "Where did Mad Magglish take the bottle?",
+   "aliases": [
+    "where is mad magglish",
+    "where is the port hidden",
+    "port location"
+   ],
+   "answer": "Magglish fled inland across the Barrens and holed up in the rocky antechambers and outer tunnels leading into the Wailing Caverns."
+  },
+  {
+   "q": "Why didn't Bigglefuzz retrieve the port himself?",
+   "aliases": [
+    "why bigglefuzz not chase",
+    "crane operator coward"
+   ],
+   "answer": "Bigglefuzz pursued the thief to the threshold of the Wailing Caverns, but terrified of the beasts and corrupted druids infesting the caves, he refused to go inside."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Mad Magglish relies on amateur stealth to skulk in the dark outside the Wailing Caverns, but a skilled rogue can easily flush him out of the shadows."
+  }
+ ],
+ "keywords": [
+  "99-year-old port",
+  "bigglefuzz",
+  "gazlowe",
+  "mad magglish",
+  "port",
+  "ratchet",
+  "revilgaz",
+  "wailing caverns"
+ ],
+ "related": [
+  "quest:959",
+  "npc:crane-operator-bigglefuzz",
+  "npc:baron-revilgaz",
+  "subzone:ratchet",
+  "zone:wailing",
+  "zone:barrens",
+  "subzone:booty-bay"
+ ],
+ "attribution": [
+  "99-Year-Old Port",
+  "Trouble at the Docks"
+ ]
+}

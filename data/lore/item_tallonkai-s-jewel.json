@@ -1,0 +1,89 @@
+{
+ "key": "item:tallonkai-s-jewel",
+ "type": "item",
+ "name": "Tallonkai's Jewel",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Tallonkai's Jewel",
+  "quests": [
+   "quest:2459"
+  ]
+ },
+ "summary": "Tallonkai's Jewel is a luminous emerald stolen from an enchanted druidic talisman on Teldrassil. Prized by the furbolg mystic Ferocitas the Dream Eater, it serves as the crucial centerpiece required to mend the Emerald Dreamcatcher.",
+ "sections": [
+  {
+   "title": "A Stolen Core",
+   "body": "Tallonkai Swiftroot crafted the Emerald Dreamcatcher as a potent focus tuned to nature and the sleeping realm. When his talisman was damaged, the central radiant emerald was pried loose and carried off into the wilds of eastern Teldrassil. The jewel fell into the paws of Ferocitas the Dream Eater, a corrupted Gnarlpine leader who fashioned the gleaming stone into a personal necklace. While the green stone cast an eerie glow in the forest gloom, its true harmonious resonance was entirely useless to the furbolg, serving merely as a trophy until retrieved.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Tallonkai's Jewel?",
+   "aliases": [
+    "what is the jewel",
+    "tallonkai jewel lore"
+   ],
+   "answer": "It is an enchanted glowing emerald that serves as the centerpiece for the Emerald Dreamcatcher, a druidic focus crafted by Tallonkai Swiftroot in Dolanaar."
+  },
+  {
+   "q": "Who stole Tallonkai's Jewel?",
+   "aliases": [
+    "who has the jewel",
+    "who stole it",
+    "who took tallonkais jewel"
+   ],
+   "answer": "It was stolen by Ferocitas the Dream Eater, a leader among the corrupted Gnarlpine mystics residing north of Starbreeze Village."
+  },
+  {
+   "q": "Can the Gnarlpine furbolgs use the jewel's power?",
+   "aliases": [
+    "can ferocitas use it",
+    "gnarlpine emerald power"
+   ],
+   "answer": "No. Although Ferocitas wore the emerald around his neck as a glowing ornament, Tallonkai notes that the stone's druidic power is completely useless to the corrupted furbolg."
+  },
+  {
+   "q": "Where does the jewel go after it is recovered?",
+   "aliases": [
+    "what happens to the jewel",
+    "repairing dreamcatcher"
+   ],
+   "answer": "The stone is returned to Tallonkai Swiftroot on the upper tier of Dolanaar, where he uses it to fully restore and mend the damaged Emerald Dreamcatcher."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The emerald is an attuned druidic component designed to resonate with the Emerald Dream, making its misuse by corrupted furbolgs an affront to the balance."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Recovering the jewel helps restore order to Teldrassil by wresting sacred craftwork from the hands of the encroaching Gnarlpine."
+  }
+ ],
+ "keywords": [
+  "dolanaar",
+  "emerald dreamcatcher",
+  "ferocitas the dream eater",
+  "gnarlpine mystics",
+  "starbreeze village",
+  "tallonkai swiftroot",
+  "tallonkai's jewel"
+ ],
+ "related": [
+  "quest:2459",
+  "item:emerald-dreamcatcher",
+  "npc:tallonkai-swiftroot",
+  "quest:2438",
+  "subzone:dolanaar",
+  "subzone:starbreeze-village",
+  "topic:emerald-dream",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Tallonkai's Jewel",
+  "Ferocitas the Dream Eater (quest)"
+ ]
+}

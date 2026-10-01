@@ -1,0 +1,90 @@
+{
+ "key": "item:lewis-note",
+ "type": "item",
+ "name": "Lewis' Note",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Lewis' Note",
+  "quests": [
+   "quest:6181",
+   "quest:6281"
+  ]
+ },
+ "summary": "Lewis' Note is an urgent supply requisition penned by Quartermaster Lewis at Sentinel Hill. Carried by courier via gryphon flight, it requests vital shipments of protective gear from a private armorer in Stormwind's Old Town.",
+ "sections": [
+  {
+   "title": "A Plea for Steel",
+   "body": "The People's Militia at Sentinel Hill operates on a shoestring budget, receiving little official support from the House of Nobles in Stormwind. Facing persistent skirmishes against the Defias Brotherhood, the garrison regularly burns through its meager stocks of gear. To keep the defenders outfitted, Quartermaster Lewis relies on private business arrangements rather than crown logistics. This requisition note bypasses official military channels entirely, tasking an Alliance courier to fly by gryphon to Old Town and present the order directly to Osric Strang, proprietor of the shop Limited Immunity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Lewis' Note?",
+   "aliases": [
+    "what is this item",
+    "lewis note purpose",
+    "what does the note do"
+   ],
+   "answer": "It is a written order from Quartermaster Lewis at Sentinel Hill asking Osric Strang, an armorer in Stormwind, to dispatch more protective equipment to the struggling Westfall garrison."
+  },
+  {
+   "q": "Who wrote this note?",
+   "aliases": [
+    "who is lewis",
+    "quartermaster lewis"
+   ],
+   "answer": "It was written by Quartermaster Lewis, the officer tasked with managing supplies, provisions, and armaments for the People's Militia stationed at Sentinel Hill."
+  },
+  {
+   "q": "Who receives the note?",
+   "aliases": [
+    "where does the note go",
+    "who gets lewis note",
+    "osric strang note"
+   ],
+   "answer": "The note is carried first to the gryphon master Thor at Sentinel Hill, and then delivered directly to Osric Strang inside his armor shop, Limited Immunity, located in the Old Town district of Stormwind."
+  },
+  {
+   "q": "Why doesn't the garrison just get armor from the kingdom?",
+   "aliases": [
+    "why buy from osric",
+    "why no stormwind help",
+    "stormwind aid westfall"
+   ],
+   "answer": "The kingdom's government has largely neglected Westfall, leaving the local defenders to fend for themselves without direct military funding or crown-supplied armor. Lewis must rely on personal trade contacts like Osric Strang to keep the militia equipped."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Delivering this requisition teaches young human adventurers how to use the kingdom's gryphon network while laying bare the stark reality of how little Stormwind's rulers are doing to equip the defenders of Westfall."
+  }
+ ],
+ "keywords": [
+  "gryphon",
+  "lewis' note",
+  "limited immunity",
+  "old town",
+  "osric strang",
+  "quartermaster lewis",
+  "sentinel hill",
+  "thor"
+ ],
+ "related": [
+  "quest:6181",
+  "quest:6281",
+  "npc:quartermaster-lewis",
+  "npc:osric-strang",
+  "npc:thor",
+  "subzone:sentinel-hill",
+  "subzone:old-town",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Lewis' Note",
+  "A Swift Message (Classic)",
+  "Continue to Stormwind (Classic)"
+ ]
+}

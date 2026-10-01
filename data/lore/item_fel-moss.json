@@ -1,0 +1,98 @@
+{
+ "key": "item:fel-moss",
+ "type": "item",
+ "name": "Fel Moss",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Fel Moss",
+  "quests": [
+   "quest:459"
+  ]
+ },
+ "summary": "Fel Moss is a tainted vegetative substance spreading through the forests of Teldrassil. Carrying demonic and corruptive energies, it is carried by hostile grell and grellkin and poses an insidious threat to the wildlife and native furbolg tribes of the World Tree.",
+ "sections": [
+  {
+   "title": "Blight on the World Tree",
+   "body": "Teldrassil was planted to restore the night elves' immortality and heal the natural world, but corruption has already crept into its pristine boughs. Fel Moss is one of the most visible signs of this degradation. Found clinging to and carried by the impish grells and grellkin infesting Shadowglen, this malevolent growth radiates an unnatural, wicked magic. Forest protectors like the dryad Tarindrella have begun gathering samples to measure just how deeply this rot has infiltrated the sacred woodland canopy.",
+   "spoiler": 0
+  },
+  {
+   "title": "Seeds of Madness",
+   "body": "The danger of Fel Moss extends beyond mere woodland decay; it exerts a virulent influence over the minds of living creatures. Once-peaceful furbolgs native to the heights of Teldrassil have succumbed to its touch, abandoning their traditional dwellings and banding together into the hostile Gnarlpine tribe. Driven mad by the moss's evil powers under leaders like Ursal the Mauler, these afflicted creatures highlight the growing sickness taking root within the great tree.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Fel Moss?",
+   "aliases": [
+    "fel moss lore",
+    "what is fel moss",
+    "what does fel moss do"
+   ],
+   "answer": "Fel Moss is a vile, magically corrupted plant matter found in Teldrassil. Infused with foul energies, it clings to pestilential creatures and spreads madness and physical corruption to the surrounding ecosystem."
+  },
+  {
+   "q": "Where does Fel Moss come from?",
+   "aliases": [
+    "where do you get fel moss",
+    "fel moss drop",
+    "source of fel moss"
+   ],
+   "answer": "Within Teldrassil, adventurers recover clumps of Fel Moss from the twisted grell and grellkin roaming the hillsides around Shadowglen. It stems from foul corruptive forces that have taken root within the World Tree itself."
+  },
+  {
+   "q": "How does Fel Moss affect the furbolgs?",
+   "aliases": [
+    "furbolg corruption",
+    "why are gnarlpine mad",
+    "gnarlpine fel moss"
+   ],
+   "answer": "Fel Moss acts as a corrupting catalyst. Exposure to its evil powers drives furbolgs into violent mania, transforming the once-peaceful tribes of Teldrassil into the aggressive and xenophobic Gnarlpine tribe."
+  },
+  {
+   "q": "Who is trying to stop the spread of Fel Moss?",
+   "aliases": [
+    "who studies fel moss",
+    "who wants fel moss",
+    "tarindrella quest"
+   ],
+   "answer": "The dryad Tarindrella in Shadowglen asks fledgling defenders to gather samples of Fel Moss from grellkin to confirm her suspicions of woodland corruption. She directs concerned protectors onward to druids like Athridas Bearmantle in Dolanaar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids of the Cenarion Circle, Fel Moss represents an alarming cancer spreading through Teldrassil, proving that the newborn World Tree is deeply vulnerable to demonic blight."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Night elves venerate Teldrassil as their new homeland, making the presence of Fel Moss a distressing omen that peace remains elusive even atop their sacred boughs."
+  }
+ ],
+ "keywords": [
+  "fel moss",
+  "gnarlpine",
+  "grell",
+  "grellkin",
+  "shadowglen",
+  "tarindrella",
+  "teldrassil",
+  "ursal the mauler"
+ ],
+ "related": [
+  "npc:tarindrella",
+  "quest:458",
+  "subzone:shadowglen",
+  "zone:teldrassil",
+  "topic:furbolg",
+  "quest:476",
+  "quest:486",
+  "npc:athridas-bearmantle"
+ ],
+ "attribution": [
+  "Fel Moss",
+  "The Woodland Protector (2)"
+ ]
+}

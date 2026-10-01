@@ -1,0 +1,99 @@
+{
+ "key": "item:fungal-spores",
+ "type": "item",
+ "name": "Fungal Spores",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Fungal Spores",
+  "quests": [
+   "quest:848"
+  ]
+ },
+ "summary": "Fungal Spores are harvested from laden mushrooms growing around the strange oases of the Barrens. Imbued with the mysterious vital energies of these waters, they are prized by Royal Apothecary Society researchers seeking potent reagents for their chemical concoctions.",
+ "sections": [
+  {
+   "title": "Vitality of the Oases",
+   "body": "Across the arid plains of the Barrens, emerald oases such as the Forgotten Pools, the Lushwater Oasis, and the Stagnant Oasis pulse with an unusual vitality. The water does more than merely quench thirst; it actively accelerates, alters, and invigorates surrounding flora and wildlife. Mushrooms growing along the damp shores become swollen and heavy with spores that carry this concentrated, volatile growth potential. To naturalists, it is an ecological curiosity; to the Royal Apothecary Society, it is a prime botanical specimen awaiting weaponization or refinement.",
+   "spoiler": 0
+  },
+  {
+   "title": "Forsaken Alchemy",
+   "body": "Apothecaries stationed abroad, such as Apothecary Helbrim at the Crossroads, constantly harvest exotic local reagents to send back to their laboratories or share with distant colleagues like Apothecary Zamah in Thunder Bluff. The spores' altered physiology makes them particularly valuable for concocting potent chemical solutions. The Forsaken value these specimens precisely because their natural properties have already been shifted by the mysterious forces surging beneath the Kalimdor soil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are these spores found?",
+   "aliases": [
+    "spore locations",
+    "where to find fungal spores",
+    "laden mushroom locations"
+   ],
+   "answer": "Fungal Spores are gathered from laden mushrooms growing around the shores of the Barrens' major oases: the Forgotten Pools, the Lushwater Oasis, and the Stagnant Oasis."
+  },
+  {
+   "q": "Why are the Forsaken interested in them?",
+   "aliases": [
+    "why does helbrim want spores",
+    "apothecary spores use",
+    "what are spores used for"
+   ],
+   "answer": "The spores are imbued with the altered, vibrant life energies of the oases. Apothecary Helbrim uses them to brew potent alchemical concoctions for the Royal Apothecary Society and his colleague Apothecary Zamah in Thunder Bluff."
+  },
+  {
+   "q": "Why do the mushrooms around the oases grow so large?",
+   "aliases": [
+    "why are the mushrooms mutated",
+    "oasis water effect",
+    "oasis mystery"
+   ],
+   "answer": "The waters of the Barrens' oases possess an unusual life force that invigorates and mutates the surrounding flora and fauna, causing the fungi along the shores to swell with potent, altered spores."
+  },
+  {
+   "q": "Who asks for the spores?",
+   "aliases": [
+    "who needs fungal spores",
+    "spore quest giver",
+    "apothecary helbrim"
+   ],
+   "answer": "Apothecary Helbrim, a Forsaken alchemist stationed at the Crossroads in the Barrens, tasks adventurers with gathering the spores for his research."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Royal Apothecary Society values unique regional reagents to fuel its research, and the mutated fungi of Kalimdor provide an enticing alternative to the blighted flora of Lordaeron."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Botanists and gatherers will note the dramatic physiological changes in these mushrooms caused by the life-giving, transformative waters of the Barrens' oases."
+  }
+ ],
+ "keywords": [
+  "apothecary helbrim",
+  "apothecary society",
+  "barrens",
+  "crossroads",
+  "forgotten pools",
+  "fungal spores",
+  "laden mushroom",
+  "lushwater oasis",
+  "stagnant oasis"
+ ],
+ "related": [
+  "quest:848",
+  "npc:apothecary-helbrim",
+  "quest:853",
+  "subzone:forgotten-pools",
+  "subzone:crossroads",
+  "zone:barrens",
+  "subzone:lushwater-oasis",
+  "subzone:stagnant-oasis"
+ ],
+ "attribution": [
+  "Fungal Spores",
+  "Fungal Spores (Classic)"
+ ]
+}

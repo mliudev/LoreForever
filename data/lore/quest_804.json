@@ -1,0 +1,122 @@
+{
+ "key": "quest:804",
+ "type": "quest",
+ "name": "Sarkoth",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   804
+  ],
+  "level": "5",
+  "faction": "Horde",
+  "start": "Hana'zua",
+  "end": "Gornek",
+  "previous": "Sarkoth (quest)",
+  "next": null,
+  "wiki": "Sarkoth (2)",
+  "chain": [
+   "Sarkoth (quest)",
+   "Sarkoth (2)"
+  ]
+ },
+ "summary": "Having avenged the wounded troll Hana'zua by slaying the monstrous scorpid Sarkoth, an adventurer must carry word of his plight back to the Den. Gornek must be alerted so that rescue can reach the stricken scout before his venomous wounds claim his life.",
+ "sections": [
+  {
+   "title": "A Scout's Plight",
+   "body": "Stranded upon the high bluffs of the Valley of Trials, the Darkspear scout Hana'zua found himself venom-struck and unable to return down the treacherous paths unassisted. Though vengeance was delivered upon Sarkoth\u2014the dread scorpid that felled him\u2014pride alone cannot carry an envenomed warrior across the arid stones. Bound to his rock, he relies on a passing initiate to bring word back down to the training encampment.",
+   "spoiler": 0
+  },
+  {
+   "title": "Honor in the Den",
+   "body": "Returning to Gornek at the Den concludes the trial. Gornek immediately recognizes the menace of Sarkoth and swiftly organizes aid for Hana'zua. In the eyes of the Horde commanders, stepping aside from one's personal training to vindicate and rescue a fallen stranger embodies true honor, proving an initiate's worth long before they march out into Durotar proper.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hana'zua and why is he stranded?",
+   "aliases": [
+    "hanazua",
+    "who is hanazua",
+    "why is the troll hurt"
+   ],
+   "answer": "Hana'zua is a young Darkspear troll scout who ventured into the high reaches of the Valley of Trials and was ambushed and poisoned by the monstrous scorpid Sarkoth. Too weak to make the climb down on his own, he requires rescue."
+  },
+  {
+   "q": "Who is Gornek?",
+   "aliases": [
+    "gornek",
+    "where is gornek",
+    "den leader"
+   ],
+   "answer": "Gornek is an orc overseer stationed at the Den in the Valley of Trials. He evaluates new recruits, assigns survival tasks, and coordinates aid when initiates encounter deadly threats within the ravine."
+  },
+  {
+   "q": "What is Sarkoth?",
+   "aliases": [
+    "sarkoth beast",
+    "what kind of monster is sarkoth"
+   ],
+   "answer": "Sarkoth is a notorious, overgrown scorpid residing in the rocky bluffs above the Valley of Trials. Its venom and sheer ferocity make it a legendary hazard among the trials of young orcs and trolls."
+  },
+  {
+   "q": "Does Hana'zua survive his wounds?",
+   "aliases": [
+    "does the troll live",
+    "is hanazua okay",
+    "hanazua saved"
+   ],
+   "answer": "Yes. Upon hearing your report, Gornek sends a rescue party immediately up the bluffs to tend to his venom and escort him safely back to camp."
+  },
+  {
+   "q": "Why does Gornek praise this deed so highly?",
+   "aliases": [
+    "why does gornek care",
+    "gornek honor speech"
+   ],
+   "answer": "Surviving the trials is expected, but setting aside your own tasks to fight for a stranger's honor and ensure their survival exemplifies the core values the new Horde seeks to forge in its warriors."
+  },
+  {
+   "q": "Where is the Den located?",
+   "aliases": [
+    "where is the den",
+    "den location durotar"
+   ],
+   "answer": "The Den is the central training cave and staging ground located at the heart of the Valley of Trials in southwestern Durotar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Orcish culture values personal strength, but standing up to defend an incapacitated ally's honor proves the heart of a true warrior."
+  },
+  {
+   "target": "race:Troll",
+   "text": "The fledgling alliance between the Darkspear tribe and Thrall's orcs is strengthened through acts of brotherhood such as saving Hana'zua from a slow, venomous death."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The new Horde is built on mutual survival in a harsh, unforgiving land; leaving no comrade behind is a foundational principle taught from an initiate's first steps."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "durotar",
+  "gornek",
+  "hana'zua",
+  "sarkoth",
+  "scorpid",
+  "the den",
+  "valley of trials"
+ ],
+ "related": [
+  "npc:hana-zua",
+  "npc:gornek",
+  "quest:1089",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Sarkoth (2)"
+ ]
+}

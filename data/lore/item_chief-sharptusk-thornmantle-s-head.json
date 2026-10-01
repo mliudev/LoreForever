@@ -1,0 +1,84 @@
+{
+ "key": "item:chief-sharptusk-thornmantle-s-head",
+ "type": "item",
+ "name": "Chief Sharptusk Thornmantle's Head",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Chief Sharptusk Thornmantle's Head",
+  "quests": [
+   "quest:3376"
+  ]
+ },
+ "summary": "Chief Sharptusk Thornmantle's Head is taken as grim proof of victory over the leader of the Bristleback quilboar threatening Red Cloud Mesa. Recovered from the depths of Brambleblade Ravine, it is presented to Brave Windfeather to mark the end of a persistent menace against young tauren braves.",
+ "sections": [
+  {
+   "title": "Trophy of the Hunt",
+   "body": "The tauren carve their peaceful homeland out of Mulgore through vigilance and strength. The Bristleback quilboar entrenched within Brambleblade Ravine have waged an aggressive campaign against the tribes of Camp Narache, urged on by their ferocious chieftain, Sharptusk Thornmantle. Severing his head serves not out of senseless cruelty, but as definitive proof of his demise and a stark warning to the surviving quilboar clans encroaching upon mesa borders.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Lesson in the Hunt",
+   "body": "Brave Windfeather demands the chieftain's head as a rite of passage for fledgling hunters and defenders of the tribe. To the tauren, facing an adversary cunning enough to retaliate and organize an entire war band provides an essential test of martial prowess. Presenting Sharptusk's head fulfills that trial, earning the young combatant an established reputation among the braves of Red Cloud Mesa.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Brave Windfeather want the head of Sharptusk Thornmantle?",
+   "aliases": [
+    "why take his head",
+    "reason for sharptusk head",
+    "windfeather head request"
+   ],
+   "answer": "Brave Windfeather requires undisputed proof that the Bristleback quilboar chieftain has fallen. Bringing back his head demonstrates that Sharptusk will no longer direct raids against Camp Narache and signals to the remaining quilboar that their aggression will be met with decisive force."
+  },
+  {
+   "q": "Who was Chief Sharptusk Thornmantle?",
+   "aliases": [
+    "who is sharptusk",
+    "sharptusk thornmantle lore",
+    "quilboar chief mulgore"
+   ],
+   "answer": "Chief Sharptusk Thornmantle was the leader of the Bristleback quilboar inhabiting Brambleblade Ravine on the eastern edge of Red Cloud Mesa. Under his command, the Bristlebacks continuously harassed and attacked young tauren braves."
+  },
+  {
+   "q": "Where is this trophy obtained?",
+   "aliases": [
+    "where do i find the head",
+    "sharptusk head location"
+   ],
+   "answer": "The head is obtained by slaying Chief Sharptusk Thornmantle in his makeshift tribal village, located deep inside Brambleblade Ravine to the east of Camp Narache."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Claiming the head of a formidable adversary marks an important milestone for young tauren, proving they possess the resolve and skill to protect the newly established home of their people."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "For hunters, Sharptusk represents the ultimate prey: an intelligent enemy capable of hunting back, turning a survival skirmish into a true test of tracking and marksmanship."
+  }
+ ],
+ "keywords": [
+  "brambleblade",
+  "bristleback",
+  "head",
+  "mulgore",
+  "sharptusk",
+  "thornmantle",
+  "windfeather"
+ ],
+ "related": [
+  "quest:3376",
+  "subzone:brambleblade-ravine",
+  "topic:quilboar",
+  "topic:tauren",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Chief Sharptusk Thornmantle's Head",
+  "Break Sharptusk!"
+ ]
+}

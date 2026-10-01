@@ -1,0 +1,97 @@
+{
+ "key": "item:warsong-oil",
+ "type": "item",
+ "name": "Warsong Oil",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Warsong Oil",
+  "quests": [
+   "quest:6571"
+  ]
+ },
+ "summary": "Warsong Oil is a crucial industrial lubricant intended for the machinery at the Warsong Lumber Camp in Ashenvale. A vital supply shipment was intercepted en route by local satyrs, who took the oil to their corrupted woodland sanctuaries for foul rituals.",
+ "sections": [
+  {
+   "title": "Stolen Machinery Fuel",
+   "body": "The Warsong Clan's logging efforts in Ashenvale rely heavily on heavy machinery, goblin-engineered shredders, and massive sawmills. Keeping this industrial equipment running requires a steady supply of specialized oil. Without it, the clan's timber harvest risks grinding to an abrupt halt, stalling the flow of lumber desperately needed to build Orgrimmar and fortify Horde settlements across Durotar and the Barrens.",
+   "spoiler": 0
+  },
+  {
+   "title": "Rituals of the Satyr",
+   "body": "Rather than reaching Splintertree Post and the logging camps, a recent shipment of Warsong Oil was ambushed by the satyrs infesting the forest. Instead of discarding the refined fluid, the demonic servants carried the containers into their corrupted enclaves\u2014including Night Run, Satyrnaar, and Xavian\u2014to use the flammable lubricant in their dark, detestable rituals.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Warsong Oil used for?",
+   "aliases": [
+    "purpose of warsong oil",
+    "why need oil",
+    "what is it for"
+   ],
+   "answer": "It is an industrial lubricant meant to keep the heavy shredders, saws, and timber-cutting machinery running at the Warsong Lumber Camp."
+  },
+  {
+   "q": "Why do the satyrs have the oil?",
+   "aliases": [
+    "who stole the oil",
+    "why do satyrs have it",
+    "where did the oil go"
+   ],
+   "answer": "A supply convoy destined for Splintertree Post was ambushed along the roads of Ashenvale. The satyrs took the oil and repurposed it for detestable dark rituals across their ruined settlements."
+  },
+  {
+   "q": "Where can Warsong Oil be found?",
+   "aliases": [
+    "warsong oil location",
+    "where to find warsong oil",
+    "oil locations"
+   ],
+   "answer": "Containers of the oil are scattered across satyr-controlled sites in Ashenvale, most notably throughout Night Run, Satyrnaar, and Xavian."
+  },
+  {
+   "q": "Who needs the oil recovered?",
+   "aliases": [
+    "who wants the oil",
+    "warsong oil quest giver"
+   ],
+   "answer": "Locke Okarr at Splintertree Post requires the oil alongside saw blades, rope, and axes to resupply the struggling Warsong lumber operation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Horde's entire footholds in Durotar and the Barrens rely on Ashenvale timber; losing machinery oil to demon-worshiping satyrs threatens the construction of their young cities."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers know full well that delicate goblin-designed shredder joints and buzzsaws burn out within hours of timber logging without a steady flow of lubricating oil."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "locke okarr",
+  "night run",
+  "satyrnaar",
+  "splintertree post",
+  "warsong oil",
+  "warsong supplies",
+  "xavian"
+ ],
+ "related": [
+  "quest:6571",
+  "subzone:splintertree-post",
+  "subzone:warsong-lumber-camp",
+  "subzone:satyrnaar",
+  "subzone:night-run",
+  "subzone:xavian",
+  "item:logging-rope",
+  "item:warsong-axe-shipment"
+ ],
+ "attribution": [
+  "Warsong Oil",
+  "Warsong Supplies (quest)"
+ ]
+}

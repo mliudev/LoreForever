@@ -1,0 +1,100 @@
+{
+ "key": "item:satyr-horns",
+ "type": "item",
+ "name": "Satyr Horns",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Satyr Horns",
+  "quests": [
+   "quest:1032",
+   "quest:6441"
+  ]
+ },
+ "summary": "Satyr Horns are grim trophies harvested from the corrupted satyrs that plague the ancient woods of Ashenvale. Coveted both by grieving forest dwellers seeking retribution and opportunistic merchants trading out of Ratchet, they serve as undeniable proof that another servant of the Burning Legion has fallen.",
+ "sections": [
+  {
+   "title": "Trophies of Vengeance and Commerce",
+   "body": "The curled horns of Ashenvale's satyrs are stark symbols of demonic corruption taken root in the sacred forest. For the dryad Illiyana, secluded among the elven ruins of Forest Song, gathering these severed horns is a matter of grief and vengeance for her lost sister Anilia. To outside traders like the traveling goblin Pixel resting at Splintertree Post, however, the horns represent raw opportunity. Demand for satyr horns has surged in the neutral port of Ratchet, transforming these macabre remnants of slain demons into lucrative trade goods for anyone daring enough to hunt their bearers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Culling the Corrupted Enclaves",
+   "body": "Satyr Horns cannot be bought from ordinary suppliers; they must be cut directly from the beasts lurking in the dark corners of the woodland. The satyrs maintain strongholds across Ashenvale, most notoriously in the corrupted groves of Xavian, the shadowed hollows of Satyrnaar, and the ruins of Night Run. Clearing these enclaves rids the land of lingering demonic taint while keeping both grieving guardians and eager merchants supplied with proof of the cull.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Illiyana want Satyr Horns?",
+   "aliases": [
+    "illiyana horns",
+    "anilia satyrs",
+    "forest song quest"
+   ],
+   "answer": "Illiyana seeks Satyr Horns to avenge her fallen sister, Anilia, who was murdered by the satyrs of Ashenvale. Taking horns from the slain demons provides her with proof that their numbers are being reduced and brings peace to her sister's spirit."
+  },
+  {
+   "q": "Why is Pixel collecting Satyr Horns?",
+   "aliases": [
+    "pixel splintertree",
+    "why does pixel want horns",
+    "ratchet satyr horns"
+   ],
+   "answer": "Pixel is an enterprising traveler staying at Splintertree Post on her way to Ratchet. She has learned that satyr horns fetch a high price in the goblin port and hires adventurers to do the dangerous hunting on her behalf before she departs."
+  },
+  {
+   "q": "Where are the best places to find satyrs with these horns?",
+   "aliases": [
+    "satyr locations ashenvale",
+    "where are satyrs",
+    "satyr camps"
+   ],
+   "answer": "Satyrs dwell in several corrupted areas throughout Ashenvale. The most prominent concentrations are found in the defiled ruins of Xavian in the northwest, Satyrnaar in the central forest, and the shadowed grounds of Night Run toward the east."
+  },
+  {
+   "q": "What are satyrs, and why do they have horns?",
+   "aliases": [
+    "what is a satyr",
+    "why do satyrs have horns"
+   ],
+   "answer": "Satyrs are ancient night elves transformed into beastly, demonic beings through the demonic pacts made during the War of the Ancients. Their caprine hooves, tails, and wicked horns are the physical marks of demonic corruption granted by the Burning Legion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, taking the horns of satyrs is a bitter duty, cleansing their ancestral forest of cousins who willingly traded their heritage for demonic servitude."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Operating out of Splintertree Post, Horde warriors clear out the foul satyrs threatening their timber operations while profiting from goblin buyers bound for Ratchet."
+  }
+ ],
+ "keywords": [
+  "anilia",
+  "forest song",
+  "illiyana",
+  "night run",
+  "pixel",
+  "satyr horns",
+  "satyrnaar",
+  "splintertree post",
+  "xavian"
+ ],
+ "related": [
+  "topic:satyr",
+  "zone:ashenvale",
+  "quest:1032",
+  "quest:6441",
+  "npc:illiyana",
+  "npc:pixel",
+  "subzone:forest-song",
+  "subzone:splintertree-post"
+ ],
+ "attribution": [
+  "Satyr Horns",
+  "Satyr Slaying! (Classic)",
+  "Satyr Horns (quest)"
+ ]
+}

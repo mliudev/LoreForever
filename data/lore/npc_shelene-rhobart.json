@@ -1,0 +1,71 @@
+{
+ "key": "npc:shelene-rhobart",
+ "type": "npc",
+ "name": "Shelene Rhobart",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Shelene Rhobart",
+  "refs": 1
+ },
+ "summary": "Shelene Rhobart is a Forsaken leatherworking trainer stationed along the road in Tirisfal Glades. Operating out of Death's Watch Waystation, she supplies cured hides and leathercraft training to support the Forsaken's military and logistical efforts across the blighted lands.",
+ "sections": [
+  {
+   "title": "Crafting for the Forsaken",
+   "body": "Shelene Rhobart plies her trade at Death's Watch Waystation, an outpost situated southeast of Brill along the main road toward the ruins of Lordaeron. Even in undeath, practical crafts remain essential for survival and war. Shelene works with animal pelts collected from the prowling beasts of Tirisfal, refining tough hides into armor, straps, and field gear to supply local Forsaken patrols contending with both the Scourge and Scarlet crusaders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Shelene Rhobart?",
+   "aliases": [
+    "shelene rhobart location",
+    "where is shelene rhobart",
+    "shelene rhobart map"
+   ],
+   "answer": "Shelene Rhobart is stationed at Death's Watch Waystation, a small Forsaken post located southeast of Brill in Tirisfal Glades, along the road leading toward the Undercity."
+  },
+  {
+   "q": "What role does Shelene Rhobart serve?",
+   "aliases": [
+    "what does shelene rhobart do",
+    "shelene rhobart trainer",
+    "shelene profession"
+   ],
+   "answer": "She is a skilled leatherworking trainer. She teaches fledgling leatherworkers the fundamentals of curing pelts, stitching garments, and assembling protective leather gear for the Forsaken."
+  },
+  {
+   "q": "Why does she need beast hides?",
+   "aliases": [
+    "hides for the forsaken quest",
+    "why collect hides tirisfal"
+   ],
+   "answer": "The Forsaken require durable, functional gear to outfit their guards and scouts. With metal resources stretched thin and supplies scarce across the blighted north, cured hides gathered from the local wildlife provide essential materials for field armor and equipment."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Shelene represents the pragmatic foundation of Forsaken industry, ensuring local defenders are properly outfitted despite the decay and desolation of Tirisfal."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "death's watch waystation",
+  "hides for the forsaken",
+  "leatherworking",
+  "shelene rhobart",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:death-s-watch-waystation",
+  "zone:tirisfal",
+  "subzone:brill",
+  "topic:forsaken",
+  "quest:97558"
+ ],
+ "attribution": [
+  "Shelene Rhobart"
+ ]
+}

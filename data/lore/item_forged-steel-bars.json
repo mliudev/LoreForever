@@ -1,0 +1,86 @@
+{
+ "key": "item:forged-steel-bars",
+ "type": "item",
+ "name": "Forged Steel Bars",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Forged Steel Bars",
+  "quests": [
+   "quest:1503"
+  ]
+ },
+ "summary": "Forged Steel Bars are refined metal ingots belonging to the orc blacksmith Thun'grim Firegaze. Stolen by opportunistic Razormane quilboar during a night raid, they serve as proof of a warrior's resolve to recover stolen property in the Barrens.",
+ "sections": [
+  {
+   "title": "Stolen Metal",
+   "body": "Forged Steel Bars represent high-quality smithing stock belonging to the visually impaired orc smith Thun'grim Firegaze, who maintains a camp in the northern Barrens. Taking advantage of Thun'grim's failing eyesight, local Razormane quilboar distracted the smith with grunts and snorts while thieves slipped away with an iron chest containing the ingots. Unskilled in metalcrafting fine steel, the quilboar abandoned the unopened container near a ruined wagon in their encampment to the northwest, leaving the bars intact for recovering warriors to reclaim.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owns these forged steel bars?",
+   "aliases": [
+    "who owns the bars",
+    "thungrim steel",
+    "whose steel is this"
+   ],
+   "answer": "They belong to Thun'grim Firegaze, an orc armorer and weaponsmith living in a camp in the northern Barrens."
+  },
+  {
+   "q": "Why did the quilboar steal them?",
+   "aliases": [
+    "why steal steel",
+    "quilboar motive",
+    "razormane theft"
+   ],
+   "answer": "The Razormane quilboar raided Thun'grim's camp simply to pillage his valuables. Knowing the smith suffered from poor eyesight, they taunted and distracted him while other tribe members made off with his iron chest."
+  },
+  {
+   "q": "Did the quilboar use the steel?",
+   "aliases": [
+    "did quilboar forge anything",
+    "what did quilboar do with steel"
+   ],
+   "answer": "No. As Thun'grim expected, the Razormanes lacked the metallurgical knowledge and craft to work such finely refined steel. The chest remained closed and abandoned beside a broken wagon in their camp."
+  },
+  {
+   "q": "What will Thun'grim offer in return for them?",
+   "aliases": [
+    "forged steel reward",
+    "what do i get for the steel"
+   ],
+   "answer": "In exchange for braving the quilboar camps and returning all the bars, Thun'grim rewards aspiring warriors with a crafted weapon."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Recovering Thun'grim's stolen steel proves a warrior's ability to track down thieves and face dangerous quilboar packs in exchange for custom weaponry."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The refined bars highlight the gap between crude tribal scrap metal and the quality steel crafted by trained Horde smiths."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "forged steel",
+  "forged steel bars",
+  "iron chest",
+  "razormane",
+  "stolen iron chest",
+  "thun'grim firegaze"
+ ],
+ "related": [
+  "quest:1503",
+  "quest:1502",
+  "zone:barrens",
+  "topic:quilboar"
+ ],
+ "attribution": [
+  "Forged Steel Bars",
+  "Forged Steel"
+ ]
+}

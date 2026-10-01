@@ -1,0 +1,87 @@
+{
+ "key": "item:garrick-s-head",
+ "type": "item",
+ "name": "Garrick's Head",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Garrick's Head",
+  "quests": [
+   "quest:6"
+  ]
+ },
+ "summary": "Garrick's Head is the severed head of Garrick Padfoot, a notorious cutthroat operating near the vineyards of Northshire Valley. It serves as gruesome proof of death to claim a bounty issued by the authorities at Northshire Abbey.",
+ "sections": [
+  {
+   "title": "A Bandit's End",
+   "body": "For weeks, Garrick Padfoot and his gang of thugs harassed local farmers and merchants across Northshire Valley. Taking advantage of the Kingdom of Stormwind's stretched defenses, Garrick holed up in a shack near the Northshire vineyards, raiding passing trade. With local guards pinned down by encroaching kobolds and Defias bandits, Deputy Willem placed a bounty on Padfoot's head, seeking an enterprising adventurer to eliminate the outlaw and present undeniable proof of his demise.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Garrick Padfoot?",
+   "aliases": [
+    "who is garrick",
+    "garrick padfoot lore",
+    "who was padfoot"
+   ],
+   "answer": "Garrick Padfoot was a villainous cutthroat who terrorized the farmers, vineyards, and traveling merchants of Northshire Valley. He established a small outpost with a crew of thugs east of Northshire Abbey across the river."
+  },
+  {
+   "q": "Why is a severed head needed to collect the bounty?",
+   "aliases": [
+    "why his head",
+    "proof of death",
+    "why take garricks head"
+   ],
+   "answer": "Frontier justice in Elwynn Forest demands irrefutable proof. Deputy Willem and the Northshire authorities require tangible evidence of Garrick's demise before handing out the bounty payment."
+  },
+  {
+   "q": "Where was Garrick Padfoot hiding?",
+   "aliases": [
+    "where is garrick",
+    "garrick shack location",
+    "where to find garrick padfoot"
+   ],
+   "answer": "Padfoot established a camp at a small wooden shack located east of Northshire Abbey, across the river bridge near the Northshire vineyards."
+  },
+  {
+   "q": "Who pays the bounty for Garrick's head?",
+   "aliases": [
+    "who wants garricks head",
+    "turn in garricks head",
+    "who turned in garrick head"
+   ],
+   "answer": "Deputy Willem, stationed just outside the entrance to Northshire Abbey, posted the bounty and pays it out upon receiving the head."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Taking Padfoot's head marks one of the first decisive blows a young Stormwind recruit lands against the lawlessness creeping through Elwynn Forest."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Eliminating Padfoot demonstrates to local ruffians that undisciplined banditry will not go unanswered by deadlier, more professional blades."
+  }
+ ],
+ "keywords": [
+  "bounty",
+  "deputy willem",
+  "elwynn forest",
+  "garrick padfoot",
+  "garrick's head",
+  "northshire abbey",
+  "northshire valley"
+ ],
+ "related": [
+  "quest:6",
+  "subzone:northshire-abbey",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Garrick's Head",
+  "Bounty on Garrick Padfoot"
+ ]
+}

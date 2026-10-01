@@ -8,24 +8,58 @@ local function setBindingNames()
   BINDING_HEADER_LOREFOREVER = "Lore Forever"
   BINDING_NAME_LOREFOREVER_TOGGLE = L["Toggle Lore Forever panel"]
   BINDING_NAME_LOREFOREVER_NARRATE = L["Play narration (what you hover, or where you are)"]
+  BINDING_NAME_LOREFOREVER_PLAYLIST = L["Play/pause narration playlist"]
+  BINDING_NAME_LOREFOREVER_PLAYLIST_NEXT = L["Next narration"]
 end
 setBindingNames()
 
 local GOLD = "|cffffd100"
+-- Goes through the site's /discord redirect, which counts clicks per source and can swap the invite.
+local DISCORD_URL = "loreforeverwow.com/discord?src=addon"
 local PREFIX = GOLD .. "Lore Forever:|r "
 local function say(msg) DEFAULT_CHAT_FRAME:AddMessage(PREFIX .. msg) end
 local function S() return LoreForeverDB.settings end
 
--- The key binding and minimap button. Pressing the key while hovering an NPC with lore opens that NPC's entry.
+-- The entry for the NPC under the mouse, read when the key is pressed (not from when its tooltip was built, which
+-- can be long before, or never with tooltip lore turned off).
+local function hoverKey()
+  local name = ns.Context.NPCName("mouseover")
+  local key = name and ns.engine and ns.engine:KeyForName(name)
+  return key and ns.DB.entries[key] and key or nil
+end
+
+-- The key binding and the panel toggle. Pressing the key while hovering an NPC with lore opens that NPC's entry;
+-- when the conversation is already on that NPC, the key just opens or closes the panel (no second copy of their lore).
+-- Opening the panel with a boss or anyone in particular targeted also opens their story (UI.OpenTarget), so
+-- "target them, click the book" works; the click itself still only opens the panel.
 function LoreForever_Toggle()
-  if not ns.UI.frame then return end
-  local h = ns.Hooks.hover
-  local now = GetTime and GetTime() or 0
-  if h and now - h.t < 2 and UnitExists and UnitExists("mouseover") then
-    ns.Hooks.hover = nil
-    return ns.UI.Open(h.key, nil, "hover")
+  local UI = ns.UI
+  if not UI.frame then return end
+  local key = hoverKey()
+  if key and UI.engine.lastKey ~= key then return UI.Open(key, nil, "hover") end
+  if not UI.frame:IsShown() and UI.OpenTarget() then return end
+  UI.Toggle()
+end
+
+-- Play/pause for the key binding and Shift-click: stop whatever plays, otherwise play the playlist. With nothing
+-- queued, queue and play everything narrated where you are; if there's none, say how to fill the playlist.
+local function playlistPlayPause()
+  local UI = ns.UI
+  if not UI.frame then return end
+  if UI.IsBusy() then return UI.StopAll() end
+  if not UI.PlaylistToggle() and UI.QueueHere() == 0 then
+    say(L["nothing here is narrated, and your playlist is empty. Press + on any narration (Narrations tab) to add it."])
   end
-  ns.UI.Toggle()
+end
+
+function LoreForever_PlaylistToggle()
+  playlistPlayPause()
+end
+
+function LoreForever_PlaylistNext()
+  if ns.UI.frame and not ns.UI.PlaylistNext() then
+    say(L["your playlist is empty. Press + on any narration (Narrations tab) to add it."])
+  end
 end
 
 -- The narration key: the NPC you're hovering if it has lore, otherwise the place you're in. Pressing it again while
@@ -34,8 +68,7 @@ function LoreForever_Narrate()
   local UI = ns.UI
   if not UI.frame then return end
   UI.ctx = ns.Context.Snapshot()
-  local h, now = ns.Hooks.hover, GetTime and GetTime() or 0
-  local key = h and now - h.t < 2 and UnitExists and UnitExists("mouseover") and h.key or nil
+  local key = hoverKey()
   local target = (key and UI.EntryTarget(key)) or UI.ZoneTarget()
   if not target then return say(L["there's no narration for this place yet."]) end
   if UI.speaking and UI.playingId == target.id then return UI.ListenTo(target) end
@@ -77,9 +110,10 @@ local function arrive()
       say(string.format(L["Entering %s. %s"], z.n, ns.Hooks.Link(L["Dungeon primer"], "primer", zk)) .. listen)
     end
   elseif S().zoneNudge then
-    local f = e.faq and e.faq[1]
+    local fi = ns.Engine.RankedFaq(e, ns.engine.race)[1]   -- the most obvious question about the place
+    local f = fi and e.faq[fi]
     say(string.format(L["You've entered %s."], zone)
-      .. (f and (" " .. ns.Hooks.Link(f.q, "faq", "zone:" .. zk, 1)) or "") .. listen)
+      .. (f and (" " .. ns.Hooks.Link(f.q, "faq", "zone:" .. zk, fi)) or "") .. listen)
   end
 end
 
@@ -137,6 +171,106 @@ local function showExport(text)
   LoreForeverExport:Show()
 end
 
+-- Clicks on the book and minimap buttons (Mike, 2026-09-30): each click always does the same thing. Plain clicks
+-- open things, Shift-clicks are the playlist. Ctrl and Alt are left free.
+--   click              open/close Lore Forever
+--   right-click        open/close Options
+--   shift-click        play/pause: stop whatever plays (a playlist keeps its place), else play the playlist, or with
+--                      an empty playlist everything narrated where you are
+--   shift-right-click  next narration in the playlist
+local function buttonClick(button)
+  local UI = ns.UI
+  if IsShiftKeyDown and IsShiftKeyDown() then
+    if not UI.frame then return end
+    if button == "RightButton" then return UI.PlaylistNext() end
+    return playlistPlayPause()
+  end
+  if button == "RightButton" then return ns.Options.Toggle() end
+  LoreForever_Toggle()
+end
+
+-- The tooltip: what's playing (or where the playlist stopped), then the same four clicks every time.
+local function buttonTooltip(self, anchor)
+  local UI = ns.UI
+  local pl, busy = UI.pl, UI.IsBusy()
+  local n, cur = #pl.items, pl.items[pl.pos]
+  GameTooltip:SetOwner(self, anchor)
+  GameTooltip:AddLine("Lore Forever")
+  if busy then
+    local ours = pl.state == "playing" and cur
+    GameTooltip:AddLine(ours and string.format(L["Now playing: %s (%d of %d)"], cur.label, pl.pos, n)
+      or string.format(L["Now playing: %s"], UI.playingLabel or L["narration"]), 0.5, 0.87, 0.5)
+    local nxt = ours and pl.items[pl.pos + 1]
+    if nxt then GameTooltip:AddLine(string.format(L["Up next: %s"], nxt.label), 0.6, 0.6, 0.6) end
+  elseif cur then
+    GameTooltip:AddLine(string.format(L["Playlist stopped at: %s (%d of %d)"], cur.label, pl.pos, n), 1, 0.82, 0)
+  end
+  local key = ns.Hooks.CurrentKey()
+  GameTooltip:AddLine(key and string.format(L["Click to open (or press %s). Right-click for options."], key)
+    or L["Click to open. Right-click for options."], 1, 1, 1)
+  GameTooltip:AddLine(L["Shift-click: play/pause your playlist"], 1, 1, 1)
+  GameTooltip:AddLine(L["Shift-right-click: next narration"], 1, 1, 1)
+  if n == 0 then
+    GameTooltip:AddLine(L["Your playlist is empty: Shift-click plays everything narrated here."], 0.6, 0.6, 0.6, true)
+  end
+  GameTooltip:AddLine(L["Drag to move."], 0.6, 0.6, 0.6)
+  GameTooltip:Show()
+end
+
+-- The "something is playing" look. The square book gets a pulsing green glow and a small play arrow in the corner;
+-- the round minimap button just turns its ring green (a green copy of the gold ring, laid over it).
+local function addPlayingIndicator(b, glowSize, round)
+  local glow = b:CreateTexture(nil, "OVERLAY", nil, 1)
+  if round then
+    glow:SetTexture("Interface\\Minimap\\MiniMap-TrackingBorder")
+    if glow.SetDesaturated then glow:SetDesaturated(true) end
+    glow:SetVertexColor(0.35, 1, 0.35)
+    glow:SetSize(53, 53)
+    glow:SetPoint("TOPLEFT")
+  else
+    glow:SetTexture("Interface\\Buttons\\UI-ActionButton-Border")
+    glow:SetBlendMode("ADD")
+    glow:SetVertexColor(0.4, 1, 0.4)
+    glow:SetSize(glowSize, glowSize)
+    glow:SetPoint("CENTER")
+  end
+  glow:Hide()
+  local badge = b:CreateTexture(nil, "OVERLAY", nil, 2)
+  badge:SetTexture("Interface\\Buttons\\UI-SpellbookIcon-NextPage-Up")
+  badge:SetSize(16, 16)
+  badge:SetPoint("BOTTOMRIGHT", 5, -5)
+  badge:Hide()
+  b.noBadge = round
+  local pulse = glow.CreateAnimationGroup and glow:CreateAnimationGroup()
+  if pulse then
+    pulse:SetLooping("BOUNCE")
+    local a = pulse:CreateAnimation("Alpha")
+    if a then
+      a:SetFromAlpha(1)
+      a:SetToAlpha(0.3)
+      a:SetDuration(0.8)
+    end
+  end
+  b.glow, b.badge, b.pulse = glow, badge, pulse
+  b:SetScript("OnClick", function(_, button) buttonClick(button) end)
+end
+
+-- Called whenever playback or the playlist changes (UI.UpdateNowPlaying), whatever caused it. An open tooltip is
+-- rebuilt so it never shows a stale "Now playing".
+function ns.SetButtonsPlaying(on)
+  for _, b in ipairs({ _G.LoreForeverLauncher or false, _G.LoreForeverMinimapButton or false }) do
+    if b and b.glow then
+      if b.playing ~= on then
+        b.playing = on
+        b.glow:SetShown(on)
+        b.badge:SetShown(on and not b.noBadge)
+        if b.pulse then if on then b.pulse:Play() else b.pulse:Stop() end end
+      end
+      if GameTooltip.IsOwned and GameTooltip:IsOwned(b) then b:GetScript("OnEnter")(b) end
+    end
+  end
+end
+
 -- The book button beside the game's menu bar (character, spellbook, Dungeon Finder...). It sits next to that bar
 -- rather than inside it, since the bar is Blizzard's and managed by Edit Mode. Drag it anywhere.
 function ns.LauncherButton()
@@ -175,18 +309,8 @@ function ns.LauncherButton()
     local point, _, _, x, y = self:GetPoint()
     S().launcherPos = { point, x, y }
   end)
-  b:SetScript("OnClick", function(_, button)
-    if button == "RightButton" then ns.Options.Open() else LoreForever_Toggle() end
-  end)
-  b:SetScript("OnEnter", function(self)
-    GameTooltip:SetOwner(self, "ANCHOR_TOP")
-    GameTooltip:AddLine("Lore Forever")
-    local key = ns.Hooks.CurrentKey()
-    GameTooltip:AddLine(key and string.format(L["Click to open (or press %s). Right-click for options."], key)
-      or L["Click to open. Right-click for options."], 1, 1, 1)
-    GameTooltip:AddLine(L["Drag to move."], 0.6, 0.6, 0.6)
-    GameTooltip:Show()
-  end)
+  addPlayingIndicator(b, 58)
+  b:SetScript("OnEnter", function(self) buttonTooltip(self, "ANCHOR_TOP") end)
   b:SetScript("OnLeave", function() GameTooltip:Hide() end)
   -- While anything plays, a Stop button sits on the book, so narration can be stopped with the panel closed.
   local stop = CreateFrame("Button", nil, b, "UIPanelButtonTemplate")
@@ -196,6 +320,7 @@ function ns.LauncherButton()
   stop:SetScript("OnClick", function() ns.UI.StopAll() end)
   stop:Hide()
   b.stop = stop
+  ns.SetButtonsPlaying(ns.UI.IsBusy())
 end
 
 function ns.MinimapButton()
@@ -234,19 +359,10 @@ function ns.MinimapButton()
     end)
   end)
   b:SetScript("OnDragStop", function(self) self:SetScript("OnUpdate", nil) end)
-  b:SetScript("OnClick", function(_, button)
-    if button == "RightButton" then ns.Options.Open() else LoreForever_Toggle() end
-  end)
-  b:SetScript("OnEnter", function(self)
-    GameTooltip:SetOwner(self, "ANCHOR_LEFT")
-    GameTooltip:AddLine("Lore Forever")
-    local key = ns.Hooks.CurrentKey()
-    GameTooltip:AddLine(key and string.format(L["Click to open (or press %s). Right-click for options."], key)
-      or L["Click to open. Right-click for options."], 1, 1, 1)
-    GameTooltip:AddLine(L["Drag to move."], 0.6, 0.6, 0.6)
-    GameTooltip:Show()
-  end)
+  addPlayingIndicator(b, 56, true)
+  b:SetScript("OnEnter", function(self) buttonTooltip(self, "ANCHOR_LEFT") end)
   b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  ns.SetButtonsPlaying(ns.UI.IsBusy())
 end
 
 events:SetScript("OnEvent", function(_, event, arg1, ...)
@@ -276,7 +392,6 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.Hooks.UpdateQuestLogButton()
     refreshSoon()
   elseif event == "SKILL_LINES_CHANGED" then
-    ns.Hooks.RefreshProfessions()
     refreshSoon()
   elseif event == "BAG_UPDATE_DELAYED" then
     ns.Hooks.RefreshBags()
@@ -371,6 +486,7 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(L["/lore listen - read the last answer aloud; /lore narrate - narrate flights on/off"])
     say(L["/lore voice - list narration voices; /lore voice <number or name> - switch (auto: default, none: game voice)"])
     say(L["/lore ctx | export | visits | stats - what Lore Forever sees, for bug reports and playtests"])
+    say(string.format(L["Questions, requests and bug reports: %s"], DISCORD_URL))
   elseif cmd == "key" or cmd == "key narrate" then
     ns.Hooks.KeyPrompt(cmd == "key narrate" and "narrate" or "toggle"):Show()
   elseif cmd == "narrations" then

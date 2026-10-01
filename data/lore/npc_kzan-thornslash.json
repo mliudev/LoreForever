@@ -1,0 +1,76 @@
+{
+ "key": "npc:kzan-thornslash",
+ "type": "npc",
+ "name": "Kzan Thornslash",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Kzan Thornslash",
+  "refs": 1
+ },
+ "summary": "Kzan Thornslash is an orc weapon merchant stationed in the Valley of Trials in Durotar. He provides essential starter weaponry and supplies to fresh recruits beginning their training under the Horde.",
+ "sections": [
+  {
+   "title": "Armorer to the Recruits",
+   "body": "Situated within the dusty red canyon of the Valley of Trials, Kzan Thornslash serves as the primary weapon vendor for young orcs and Darkspear trolls taking their first steps as warriors of the Horde. Offering an assortment of basic armaments\u2014ranging from crude hand axes and shortswords to clubs and throwing knives\u2014Kzan ensures that newly awakened aspirants are armed adequately to face the local wildlife and regional hazards.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kzan Thornslash?",
+   "aliases": [
+    "kzan thornslash",
+    "who is kzan",
+    "valley of trials weapon vendor"
+   ],
+   "answer": "Kzan Thornslash is an orc merchant stationed in the Valley of Trials. His role is to supply new Horde trainees with standard weapons suited for their initial combat trials."
+  },
+  {
+   "q": "Where can I find Kzan Thornslash?",
+   "aliases": [
+    "kzan location",
+    "where is kzan thornslash",
+    "kzan thornslash map"
+   ],
+   "answer": "He can be found standing in the open training grounds of the Valley of Trials in southwestern Durotar, surrounded by novice adventurers and training instructors."
+  },
+  {
+   "q": "What kind of equipment does Kzan sell?",
+   "aliases": [
+    "what does kzan sell",
+    "kzan items",
+    "kzan weapons"
+   ],
+   "answer": "Kzan provides basic starter weaponry, including axes, swords, daggers, staves, bludgeons, and thrown weapons intended for recruits who need reliable iron before acquiring forged or found gear."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "For young warriors starting with chipped blades, Kzan offers an immediate selection of blunt and edged weaponry to suit different combat disciplines."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Supplying the nascent armies of Thrall begins at the very bottom, where merchants like Kzan ensure every capable hand has steel to wield for the Horde."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "horde",
+  "kzan",
+  "orc",
+  "thornslash",
+  "valley of trials",
+  "weapon vendor",
+  "weapons"
+ ],
+ "related": [
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "quest:97279"
+ ],
+ "attribution": [
+  "Kzan Thornslash"
+ ]
+}

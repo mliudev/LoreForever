@@ -1,0 +1,92 @@
+{
+ "key": "item:fathom-core",
+ "type": "item",
+ "name": "Fathom Core",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Fathom Core",
+  "quests": [
+   "quest:6921"
+  ]
+ },
+ "summary": "The Fathom Core is a specialized relic recovered from a submerged fathom stone in the depths of Blackfathom Deeps. When deciphered, it provides a comprehensive record of elemental activity in the surrounding region. The Earthen Ring seeks this artifact to discern what dark rituals the Twilight's Hammer cult is conducting beneath Ashenvale.",
+ "sections": [
+  {
+   "title": "Elemental Chronicle",
+   "body": "Resting within an ancient fathom stone submerged among the Moonshrine Ruins, the Fathom Core serves as a historical record for elemental phenomena. It registers and preserves shifts, disruptions, and surges in the elements over time. For the shaman of the Earthen Ring stationed at Zoram'gar Outpost, acquiring the core is essential for understanding how the Twilight's Hammer cultists are manipulating the regional elements to serve their own ends.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Fathom Core?",
+   "aliases": [
+    "what does fathom core do",
+    "fathom core lore",
+    "what is it"
+   ],
+   "answer": "The Fathom Core is a magical device capable of recording and relating a detailed history of all elemental activity in its vicinity. It is found housed inside an ancient fathom stone within the Moonshrine Ruins."
+  },
+  {
+   "q": "Where is the Fathom Core located?",
+   "aliases": [
+    "fathom core location",
+    "where to find fathom core",
+    "fathom stone location"
+   ],
+   "answer": "The core is located deep within the cavernous halls of Blackfathom Deeps on the Ashenvale coast. It sits enclosed inside a fathom stone resting under the waters of the Moonshrine Ruins."
+  },
+  {
+   "q": "Who wants the Fathom Core and why?",
+   "aliases": [
+    "who needs fathom core",
+    "why does je'neu want fathom core",
+    "earthen ring fathom core"
+   ],
+   "answer": "Je'neu Sancrea, an Earthen Ring shaman stationed at Zoram'gar Outpost, seeks the core. By analyzing its record of elemental shifts, Je'neu and his circle hope to decipher and counteract the subversive activities of the Twilight's Hammer cult inside the ruins."
+  },
+  {
+   "q": "Why is the Twilight's Hammer interested in Blackfathom Deeps?",
+   "aliases": [
+    "twilight's hammer blackfathom",
+    "cultists in bfd"
+   ],
+   "answer": "The cultists have taken up residence in the submerged ruins to coerce and corrupt the local elements, seeking to bend them toward dark purposes and claim total control of the subterranean temple."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "As an artifact chronicling elemental currents, the Fathom Core is of immense interest to the Earthen Ring, demonstrating how ancient relics can reveal elemental manipulation."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Recovering the core directly aids Je'neu Sancrea and secures the Horde's foothold at Zoram'gar Outpost against the corruptive designs of the Twilight's Hammer."
+  }
+ ],
+ "keywords": [
+  "blackfathom deeps",
+  "earthen ring",
+  "fathom core",
+  "fathom stone",
+  "je'neu sancrea",
+  "moonshrine ruins",
+  "twilight's hammer",
+  "zoram'gar outpost"
+ ],
+ "related": [
+  "quest:6921",
+  "npc:je-neu-sancrea",
+  "zone:blackfathom",
+  "subzone:moonshrine-ruins",
+  "subzone:zoram-gar-outpost",
+  "topic:twilight-s-hammer",
+  "zone:ashenvale",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Fathom Core",
+  "Amongst the Ruins (Classic)"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "key": "npc:solm-hargrin",
+ "type": "npc",
+ "name": "Solm Hargrin",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Solm Hargrin",
+  "refs": 2
+ },
+ "summary": "Solm Hargrin is the rogue trainer stationed within Anvilmar in Coldridge Valley. A pragmatic dwarf who values honor amongst thieves, he instructs novice dwarven and gnomish scoundrels in the art of subterfuge. He firmly believes that covert operatives will prove vital as geopolitical tensions simmer across Azeroth.",
+ "sections": [
+  {
+   "title": "A Mentor in the Shadows",
+   "body": "Tucked away in the dwarven stronghold of Anvilmar, Solm Hargrin watches the snowy passes of Coldridge Valley with a keen, calculating eye. While Ironforge relies heavily on the brute strength of its mountaineers and warriors, Hargrin understands that some threats require a quieter, sharper touch. He welcomes budding rogues of both dwarven and gnomish heritage, deciphering coded missives for them and drilling them in essential techniques like Eviscerate. Above all, Hargrin champions a creed of professional loyalty and honor among thieves, preparing his pupils for an increasingly volatile world where subtle knives often shape the fate of nations.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Solm Hargrin?",
+   "aliases": [
+    "who is solm",
+    "solm hargrin lore",
+    "anvilmar rogue trainer"
+   ],
+   "answer": "Solm Hargrin is a dwarven rogue trainer located in Anvilmar, the starter outpost in Dun Morogh's Coldridge Valley. He initiates young dwarves and gnomes into the covert arts of thievery, stealth, and bladecraft."
+  },
+  {
+   "q": "What is Solm Hargrin's philosophy on rogue work?",
+   "aliases": [
+    "solm beliefs",
+    "honor among thieves",
+    "solm view"
+   ],
+   "answer": "Hargrin strongly believes in 'honor amongst thieves.' He teaches his recruits that while their methods may be underhanded, loyalty to their craft and to one another is essential, especially as fragile peace between rival powers threatens to break."
+  },
+  {
+   "q": "What quests does Solm Hargrin provide or receive?",
+   "aliases": [
+    "solm quests",
+    "encrypted rune solm",
+    "encrypted memorandum solm"
+   ],
+   "answer": "Novice dwarven rogues are directed to him with an Encrypted Rune, while new gnomish rogues deliver an Encrypted Memorandum. Once he deciphers these introductory orders, he tasks trainees with mastering offensive maneuvers in the field."
+  },
+  {
+   "q": "Does Solm Hargrin train races other than dwarves?",
+   "aliases": [
+    "can gnomes train with solm",
+    "gnome rogue trainer anvilmar"
+   ],
+   "answer": "Yes. Following the fall of Gnomeregan, gnome refugees share the Coldridge Valley starting grounds with the dwarves. Solm gladly takes gnomish operatives under his wing alongside his dwarven kin."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "For dwarves and gnomes taking their first steps into the shadows, Solm Hargrin provides foundational training and decrypts your very first guild orders."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Solm represents a less conventional dwarven path, proving that stealth, cunning, and quiet steel have as much a place in Dun Morogh as heavy armor and axes."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "encrypted memorandum",
+  "encrypted rune",
+  "rogue trainer",
+  "solm hargrin"
+ ],
+ "related": [
+  "subzone:anvilmar",
+  "zone:dunmorogh",
+  "quest:3109",
+  "quest:3113",
+  "topic:dwarf",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Solm Hargrin"
+ ]
+}

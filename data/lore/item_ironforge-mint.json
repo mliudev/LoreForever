@@ -1,0 +1,81 @@
+{
+ "key": "item:ironforge-mint",
+ "type": "item",
+ "name": "Ironforge Mint",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Ironforge Mint",
+  "quests": [
+   "quest:8311"
+  ]
+ },
+ "summary": "An Ironforge Mint is a festive Hallow's End sweet originating from the great dwarven mountain fortress. Acquired by performing a trick for the local innkeeper, it is one of several traditional treats sought by sick or sheltered children unable to trick-or-treat on their own.",
+ "sections": [
+  {
+   "title": "A Dwarven Holiday Treat",
+   "body": "During the autumn festival of Hallow's End, innkeepers across the Alliance fill their pantries with regional confections. In the snowy halls of Ironforge, travelers can earn an Ironforge Mint by good-naturedly clucking like a chicken for the innkeeper. While strong enough to refresh any mountain climber, the candy is highly coveted outside the mountains by children such as Jesper, an orphan resting outside the gates of Stormwind who cannot make the long journey across Khaz Modan himself.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Ironforge Mint come from?",
+   "aliases": [
+    "how to get ironforge mint",
+    "where is ironforge mint",
+    "ironforge mint location"
+   ],
+   "answer": "The mint is handed out by the innkeeper of Ironforge during Hallow's End in exchange for a humorous performance\u2014specifically, clucking like a chicken."
+  },
+  {
+   "q": "What is the Ironforge Mint used for?",
+   "aliases": [
+    "ironforge mint use",
+    "who wants ironforge mint",
+    "jesper candy"
+   ],
+   "answer": "It is brought to Jesper, a young orphan outside Stormwind City, as part of a collection of Alliance holiday sweets including Darnassus Marzipan, Gnomeregan Gumdrops, and Stormwind Nougat."
+  },
+  {
+   "q": "Why can't Jesper fetch the mint himself?",
+   "aliases": [
+    "why help jesper",
+    "jesper trick or treat"
+   ],
+   "answer": "Jesper is under the strict care of Matron Nightingale and is forbidden from traveling far, leaving him reliant on passing adventurers to gather candies from across the Alliance capitals."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarves take pride in their stout holiday mints, even if the innkeeper insists on making grown mountaineers cluck like poultry before handing them over."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Sharing sweets across Darnassus, Ironforge, and Stormwind highlights the seasonal camaraderie tying the capitals together during Hallow's End."
+  }
+ ],
+ "keywords": [
+  "candy",
+  "chicken clucking",
+  "hallow's end",
+  "ironforge",
+  "ironforge mint",
+  "jesper",
+  "treat"
+ ],
+ "related": [
+  "quest:8311",
+  "quest:8353",
+  "npc:jesper",
+  "zone:ironforge",
+  "item:stormwind-nougat",
+  "item:gnomeregan-gumdrop",
+  "item:darnassus-marzipan"
+ ],
+ "attribution": [
+  "Ironforge Mint",
+  "Hallow's End Treats for Jesper!"
+ ]
+}

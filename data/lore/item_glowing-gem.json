@@ -1,0 +1,101 @@
+{
+ "key": "item:glowing-gem",
+ "type": "item",
+ "name": "Glowing Gem",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Glowing Gem",
+  "quests": [
+   "quest:1023",
+   "quest:1024"
+  ]
+ },
+ "summary": "The Glowing Gem is an enchanted stone recovered from the murloc camps along the waters of Ashenvale. Originally sought by the fallen scout Teronis, the stone is a vital component needed to reconstruct the legendary cleansing rod crafted by Dartol.",
+ "sections": [
+  {
+   "title": "A Lost Relic of Dartol",
+   "body": "Discovered in the possession of the aggressive murlocs dwelling near Iris Lake, the Glowing Gem is imbued with latent magical energy. The young night elf Teronis ventured out from Astranaar to track it down, aiming to piece together a tool capable of driving back the corruption seeping through Ashenvale's forests. Though Teronis met an untimely end at the lake, the stone itself survived intact among the shoreline scavengers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Restoring the Cleansing Rod",
+   "body": "Upon the stone's recovery alongside Teronis's journal, Sentinel leader Raene Wolfrunner directs the bearer to bring it northeast to Shael'dryn, a dryad keeping vigil at a nearby moonwell. The dryad holds the ancient knowledge required to bind the Glowing Gem with the other missing pieces of the rod created by Dartol, ensuring the fallen scout's work was not in vain.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Glowing Gem come from?",
+   "aliases": [
+    "glowing gem location",
+    "who drops glowing gem",
+    "where to get glowing gem"
+   ],
+   "answer": "The gem is carried by the murlocs prowling the shores and shallow waters around Iris Lake in central Ashenvale."
+  },
+  {
+   "q": "Why was Teronis looking for this gem?",
+   "aliases": [
+    "teronis quest",
+    "why teronis wanted gem",
+    "purpose of gem"
+   ],
+   "answer": "Teronis was investigating ways to cleanse the growing foulness in Ashenvale. According to his research, this specific gem is one of the key parts needed to rebuild a purifying magical rod once devised by Dartol."
+  },
+  {
+   "q": "Who should I take the Glowing Gem to?",
+   "aliases": [
+    "who needs glowing gem",
+    "turn in glowing gem",
+    "what to do with gem"
+   ],
+   "answer": "After showing the stone and Teronis's journal to Raene Wolfrunner in Astranaar, take the Glowing Gem northeast to the dryad Shael'dryn at the moonwell east of Iris Lake."
+  },
+  {
+   "q": "What is the rod of Dartol?",
+   "aliases": [
+    "dartol rod",
+    "what did dartol make",
+    "dartols rod"
+   ],
+   "answer": "It is an ancient instrument created by Dartol designed to cleanse natural taint and corruption. Its components were scattered across the forest, with the Glowing Gem serving as one of its primary focusing pieces."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Recovering the gem and fulfilling Teronis's mission helps the Sentinels honor their fallen scout and protect Ashenvale from spreading corruption."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold a deep interest in Dartol's work, as the gem's cleansing properties are vital for healing the forest's tainted water and soil."
+  }
+ ],
+ "keywords": [
+  "astranaar",
+  "cleansing rod",
+  "dartol",
+  "glowing gem",
+  "iris lake",
+  "murloc",
+  "raene wolfrunner",
+  "shael'dryn",
+  "teronis"
+ ],
+ "related": [
+  "npc:teronis-corpse",
+  "item:teronis-journal",
+  "npc:raene-wolfrunner",
+  "npc:shael-dryn",
+  "subzone:iris-lake",
+  "subzone:astranaar",
+  "topic:murloc",
+  "subzone:moonwell-ashenvale"
+ ],
+ "attribution": [
+  "Glowing Gem",
+  "Raene's Cleansing (2)",
+  "Raene's Cleansing (3)"
+ ]
+}

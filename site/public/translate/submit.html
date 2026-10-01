@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Send a translation - Lore Forever</title>
+<meta name="description" content="Send in your Lore Forever translation: a link to your kit files or a few fixes pasted in, and how to credit you.">
+<link rel="canonical" href="https://loreforeverwow.com/translate/submit">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Send your Lore Forever translation">
+<meta property="og:description" content="Translated some of Lore Forever? Send us your files and we'll add them to your language.">
+<meta property="og:url" content="https://loreforeverwow.com/translate/submit">
+<meta property="og:image" content="https://loreforeverwow.com/img/social-card.png">
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+<script src="/header.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top-row">
+    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; <a href="/translate">Translate</a> &rsaquo; Send a translation</span>
+    <div class="head-actions"><a class="btn-head" href="/feedback"><span class="hd-wide">Send feedback</span><span class="hd-narrow">Feedback</span></a></div>
+  </div>
+</header>
+
+<main class="wrap fb-page">
+  <h1>Send a translation</h1>
+  <p class="pitch">Translated or fixed part of Lore Forever? Put the files you changed in a shared folder and send us
+    the link, or paste a few fixes below. We'll check them, add them to your language and credit you.</p>
+  <p class="vp-note">Don't have the files yet? <a href="/translate#languages">Download the kit for your language</a>.
+    Questions? <a href="/discord?src=translate">Ask on Discord</a>.</p>
+
+  <!-- Sending a translation needs a Lore Forever account: shown instead of the form when signed out. Without
+       JavaScript the form shows, and the function answers with a link to sign in. -->
+  <section class="fb-done" id="ts-signin" hidden>
+    <h2>Sign in first</h2>
+    <p>Sending a translation needs a Lore Forever account, so it's credited to you and we can reach you. It takes a
+      minute with your Google account. Easier still: once you're signed in, you can
+      <a href="/translate/dashboard">translate right in your browser</a>.</p>
+    <p><a class="btn-small" href="/account?next=/translate/submit">Sign in or create an account</a></p>
+  </section>
+
+  <!-- Posts to functions/api/translations.js. With JavaScript the page sends JSON and shows errors in place; without
+       it, the form posts normally and the function sends the translator on to /translate/thanks or an error page. -->
+  <form class="fb-form" id="ts-form" method="post" action="/api/translations">
+    <div class="fb-pair">
+      <label class="fb-field">
+        <span>Language</span>
+        <select name="locale" id="ts-locale" required>
+          <option value="">Choose...</option>
+          <option value="deDE">Deutsch</option>
+          <option value="frFR">Français</option>
+          <option value="esES">Español (España)</option>
+          <option value="esMX">Español (Latinoamérica)</option>
+          <option value="ptBR">Português (Brasil)</option>
+          <option value="itIT">Italiano</option>
+          <option value="ruRU">Русский</option>
+          <option value="koKR">한국어</option>
+          <option value="zhCN">简体中文</option>
+          <option value="zhTW">繁體中文</option>
+          <option value="other">Another language</option>
+        </select>
+      </label>
+      <label class="fb-field" id="ts-language-field" hidden>
+        <span>Which language?</span>
+        <input type="text" name="language" id="ts-language" maxlength="60" placeholder="e.g. Polski">
+      </label>
+    </div>
+
+    <label class="fb-field">
+      <span>Credit line</span>
+      <input type="text" name="credit" maxlength="100" required autocomplete="nickname"
+        placeholder="e.g. Jane Doe, @janedoe, or Anonymous">
+      <small>How we credit you in the language pack and on this site. Type Anonymous to stay uncredited.</small>
+    </label>
+
+    <fieldset>
+      <legend>How can we reach you? <span class="fb-optional">(one or both)</span></legend>
+      <div class="fb-pair">
+        <label class="fb-field">
+          <span class="fb-sub">Email</span>
+          <input type="email" name="email" id="ts-email" maxlength="200" autocomplete="email" placeholder="you@example.com">
+        </label>
+        <label class="fb-field">
+          <span class="fb-sub">Discord handle</span>
+          <input type="text" name="discord" id="ts-discord" maxlength="40" autocomplete="off" spellcheck="false" placeholder="e.g. janedoe">
+        </label>
+      </div>
+    </fieldset>
+
+    <label class="fb-field">
+      <span>Link to your files</span>
+      <input type="url" name="link" id="ts-link" maxlength="1000" inputmode="url" spellcheck="false"
+        placeholder="https://drive.google.com/drive/folders/...">
+      <small>A Google Drive, Dropbox or OneDrive folder (or a GitHub link), shared so that anyone with the link can view
+        it. Send the files you changed, or the whole kit folder.</small>
+    </label>
+
+    <label class="fb-field">
+      <span>Or paste a few fixes <span class="fb-optional">(instead of a link)</span></span>
+      <textarea name="fix" id="ts-fix" rows="5" maxlength="8000"
+        placeholder="e.g. npc:hogger/s: &quot;... der bösartige Häuptling ...&quot; should be &quot;... der bösartige Anführer ...&quot;"></textarea>
+      <small>For each fix: the id or where you saw it, what it says now, and what it should say.</small>
+    </label>
+
+    <label class="fb-field">
+      <span>Anything else? <span class="fb-optional">(optional)</span></span>
+      <textarea name="note" rows="3" maxlength="2000"
+        placeholder="e.g. I did the interface and Elwynn Forest. The draft for Stormwind reads well."></textarea>
+    </label>
+
+    <fieldset class="vs-consent">
+      <legend>Sharing your translation</legend>
+      <!-- The version must match TERMS_VERSION in functions/api/translations.js. -->
+      <input type="hidden" name="terms" value="2026-09-30">
+      <label class="fb-check">
+        <input type="checkbox" name="agree" value="on" required>
+        <span>This is my own work, or I have the right to share it. I agree that it's shared under
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>, like the lore
+          text it translates, credited with my credit line, and that Lore Forever may edit it and include it in its
+          language packs.</span>
+      </label>
+    </fieldset>
+
+    <!-- Honeypot: hidden from people, filled in by bots. -->
+    <label class="fb-trap" aria-hidden="true">Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+
+    <div class="fb-actions">
+      <button type="submit" class="btn-download" id="ts-send">Send</button>
+      <p class="fb-status" id="ts-status" role="status" hidden></p>
+    </div>
+  </form>
+</main>
+
+<footer class="wrap foot">
+  <p>Your email or Discord handle is used only to talk with you about your translation.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+<script>
+const form = document.getElementById("ts-form");
+const status = document.getElementById("ts-status");
+const send = document.getElementById("ts-send");
+const $ = id => document.getElementById(id);
+
+function showStatus(text) { status.textContent = text; status.hidden = !text; }
+
+// Signed out: show the sign-in box instead of the form. Signed in: fill in the account's email.
+fetch("/api/auth/me", { cache: "no-store" }).then(r => r.json()).then(me => {
+  if (!me.ok) return;
+  if (!me.user) { form.hidden = true; $("ts-signin").hidden = false; return; }
+  if (!$("ts-email").value && me.user.email) $("ts-email").value = me.user.email;
+}).catch(() => {});
+
+// "Another language" asks which one.
+const locale = $("ts-locale");
+const other = () => {
+  const on = locale.value === "other";
+  $("ts-language-field").hidden = !on;
+  $("ts-language").required = on;
+};
+locale.addEventListener("change", other);
+const lang = new URLSearchParams(location.search).get("lang");
+if (lang && [...locale.options].some(o => o.value === lang)) locale.value = lang;
+other();
+
+// One of email and Discord handle is needed, and one of link and fix: ask in the browser's own way before sending.
+function needs() {
+  const noContact = !$("ts-email").value.trim() && !$("ts-discord").value.trim();
+  $("ts-email").setCustomValidity(noContact ? "Leave an email address or a Discord handle so we can reach you." : "");
+  const noWork = !$("ts-link").value.trim() && !$("ts-fix").value.trim();
+  $("ts-link").setCustomValidity(noWork ? "Add a link to your files, or paste your fix in the box below." : "");
+}
+["ts-email", "ts-discord", "ts-link", "ts-fix"].forEach(id => $(id).addEventListener("input", needs));
+
+form.addEventListener("submit", async e => {
+  needs();
+  e.preventDefault();
+  if (!form.reportValidity()) return;
+  showStatus("");
+  send.disabled = true;
+  send.textContent = "Sending...";
+  try {
+    const r = await fetch("/api/translations", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(Object.fromEntries(new FormData(form))),
+    });
+    const res = await r.json().catch(() => ({}));
+    if (res.ok) { location.assign("/translate/thanks"); return; }
+    showStatus(res.error || "Something went wrong. Please try again in a minute.");
+  } catch (err) {
+    showStatus("Couldn't reach the server. Check your connection and try again.");
+  }
+  send.disabled = false;
+  send.textContent = "Send";
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+{
+ "key": "item:intact-raptor-horn",
+ "type": "item",
+ "name": "Intact Raptor Horn",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Intact Raptor Horn",
+  "quests": [
+   "quest:865"
+  ]
+ },
+ "summary": "An intact horn harvested from the predatory raptors stalking the savannas of the Barrens. Kept in pristine condition, it is coveted by an entrepreneurial goblin looking to tap into rumors of raptor intelligence.",
+ "sections": [
+  {
+   "title": "A Questionable Ingredient",
+   "body": "While common hunters value raptor parts for hides, talons, and trophies, unbroken horns are harder to come by in the field. In the port town of Ratchet, an eccentric goblin alchemist named Mebok Mizzyrix has formulated a wild theory regarding local wildlife: because the raptors of the Barrens display cunning beyond their kin elsewhere, he suspects their intellect resides directly within their headgear. By grinding whole horns down and brewing them into tonic concoctions, Mebok aims to bottle this perceived genius into commercial 'smart drinks.'",
+   "spoiler": 0
+  },
+  {
+   "title": "Stalking the Prides",
+   "body": "Pristine horns cannot simply be chipped off any juvenile beast. To yield viable material for brewing, hunters must take them from particularly vicious predators, such as the Sunscale Scytheclaws that prowl the southern plains and the northern borders near Ashenvale. Notable legendary terrors of the veldt, such as Takk the Leaper and the elusive Ishamuhale, also bear horns stout enough to survive the clash of the hunt intact.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants these intact raptor horns?",
+   "aliases": [
+    "who needs raptor horns",
+    "horn buyer",
+    "who buys raptor horn"
+   ],
+   "answer": "Mebok Mizzyrix, a goblin merchant and aspiring brewer stationed in Ratchet, seeks them out. He believes whole horns hold the key to his next get-rich-quick product."
+  },
+  {
+   "q": "Why do the horns need to be intact?",
+   "aliases": [
+    "why intact",
+    "shattered horns"
+   ],
+   "answer": "Mebok intends to grind them into a fine powder for ingestion. Shipped, chipped, or broken horns are either discarded during the hunt or considered spent, lacking the full potency the goblin hopes to harness for his recipes."
+  },
+  {
+   "q": "Which raptors carry them?",
+   "aliases": [
+    "where do horns drop",
+    "which raptors",
+    "who drops intact horn"
+   ],
+   "answer": "They are predominantly found on mature Sunscale Scytheclaws roaming the northern and southern extremes of the Barrens, as well as notorious unique raptors like Ishamuhale and Takk the Leaper."
+  },
+  {
+   "q": "Do raptor horns actually make you smarter?",
+   "aliases": [
+    "do smart drinks work",
+    "are raptors smart",
+    "raptor intelligence"
+   ],
+   "answer": "While Barrens raptors are known for unusual pack cunning and coordination, the idea that their intelligence is stored in their horns\u2014or transferable via a drink\u2014is an unproven goblin scheme."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Taking a trophy horn whole requires a clean kill, proving your precision against some of the fiercest predators the savannas have to offer."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "While Mebok plans to pulverize the horns for wine infusions, practical survivalists know raptor parts are usually better suited for toolcrafting than palatable cuisine."
+  }
+ ],
+ "keywords": [
+  "intact horn",
+  "ishamuhale",
+  "mebok mizzyrix",
+  "raptor horn",
+  "ratchet",
+  "smart drinks",
+  "sunscale scytheclaw",
+  "takk the leaper"
+ ],
+ "related": [
+  "quest:865",
+  "quest:1491",
+  "npc:mebok-mizzyrix",
+  "quest:882",
+  "zone:barrens",
+  "subzone:ratchet",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Intact Raptor Horn",
+  "Raptor Horns"
+ ]
+}

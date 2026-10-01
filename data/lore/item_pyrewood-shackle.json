@@ -1,0 +1,92 @@
+{
+ "key": "item:pyrewood-shackle",
+ "type": "item",
+ "name": "Pyrewood Shackle",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Pyrewood Shackle",
+  "quests": [
+   "quest:99"
+  ]
+ },
+ "summary": "Pyrewood Shackles are enchanted restraints worn by the beleaguered inhabitants of Pyrewood Village in southern Silverpine Forest. Imbued with the strange magic of Archmage Arugal, these bands are linked to the eerie curse that transforms ordinary townsfolk into ravenous worgen once night falls.",
+ "sections": [
+  {
+   "title": "Arugal's Binding Magic",
+   "body": "The cursed village of Pyrewood holds an unsettling secret: by day, its residents carry on ordinary lives appearing as typical humans, but the setting sun twists them into feral Moonrage worgen. Archmage Arugal bound these villagers in enchanted shackles as part of his twisted experiments with worgen sorcery. Dalar Dawnweaver, an arcane researcher stationed at the Sepulcher for the Forsaken, studies these shackles to decode the enchantments driving this dual existence. By gathering and analyzing the lingering energy on the bands, Dawnweaver seeks a deeper understanding of Arugal's magic in hopes of unraveling the mad archmage's hold over the region.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Pyrewood Shackles used for?",
+   "aliases": [
+    "pyrewood shackles use",
+    "why gather shackles",
+    "dalar dawnweaver shackles"
+   ],
+   "answer": "Dalar Dawnweaver at the Sepulcher requests these shackles to study their enchantments. By siphoning their magic, he hopes to unravel Archmage Arugal's spells and find a way to dismantle the archmage's influence in Silverpine Forest."
+  },
+  {
+   "q": "Who carries these shackles?",
+   "aliases": [
+    "who drops pyrewood shackles",
+    "shackle source",
+    "where to find pyrewood shackles"
+   ],
+   "answer": "The shackles are carried by the cursed residents of Pyrewood Village in southern Silverpine Forest, worn during their daytime human guise and their nighttime transformation into Moonrage worgen."
+  },
+  {
+   "q": "Why do the villagers transform at night?",
+   "aliases": [
+    "why pyrewood turns into worgen",
+    "pyrewood village curse",
+    "pyrewood werewolf secret"
+   ],
+   "answer": "Archmage Arugal subjected Pyrewood's populace to reckless magical experiments and enchantments. The shackles maintain an enchantment that allows them to appear as ordinary humans during daylight, only to reveal their feral worgen forms when darkness falls."
+  },
+  {
+   "q": "Who is Dalar Dawnweaver?",
+   "aliases": [
+    "dalar dawnweaver",
+    "who is dalar"
+   ],
+   "answer": "Dalar Dawnweaver is a Forsaken mage residing at the Sepulcher in Silverpine Forest. He actively studies the arcane anomalies left behind by Archmage Arugal, focusing on dissecting and breaking the archmage's twisted curses."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Forsaken scholars at the Sepulcher view Arugal's rampant sorcery as a major threat to their borders, making the collection of these enchanted bindings critical to neutralizing Shadowfang Keep's influence."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Mages studying Arugal's handiwork will recognize the reckless application of transmutation and binding magic woven into ordinary steel."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "dawnweaver",
+  "moonrage",
+  "pyrewood",
+  "sepulcher",
+  "shackle",
+  "silverpine",
+  "worgen"
+ ],
+ "related": [
+  "quest:99",
+  "subzone:pyrewood-village",
+  "npc:dalar-dawnweaver",
+  "npc:arugal",
+  "subzone:sepulcher",
+  "zone:silverpine",
+  "topic:worgen",
+  "topic:human"
+ ],
+ "attribution": [
+  "Pyrewood Shackle",
+  "Arugal's Folly (4)"
+ ]
+}

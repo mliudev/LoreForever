@@ -1,0 +1,85 @@
+{
+ "key": "item:foreman-s-blackjack",
+ "type": "item",
+ "name": "Foreman's Blackjack",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Foreman's Blackjack",
+  "quests": [
+   "quest:lazy-peons"
+  ]
+ },
+ "summary": "The Foreman's Blackjack is a heavy leather-wrapped cosh loaned out to fresh Horde recruits in the Valley of Trials. Taskmasters hand it down as an everyday disciplinary tool to wake slumbering peons and enforce the grueling pace of Durotar's early construction.",
+ "sections": [
+  {
+   "title": "A Tool of Orcish Labor",
+   "body": "Building a new home in the rugged desert of Durotar requires massive stockpiles of lumber, and the labor falls squarely on the shoulders of the Horde's peons. In the Valley of Trials, Foreman Thazz'ril relies on the Foreman's Blackjack to keep work crews moving. Rather than dealing lethal blows, this weighted bludgeon is designed to deliver a jarring wake-up call to laborers caught napping beneath the valley's shade trees. It serves as a stark reminder of peon life in the new Horde: grueling, unglamorous, and supervised with an iron fist.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Foreman's Blackjack used for?",
+   "aliases": [
+    "blackjack use",
+    "why use blackjack",
+    "peon club"
+   ],
+   "answer": "Overseers give the blackjack to young adventurers to discipline sleeping peons throughout the Valley of Trials. Striking a napping peon jolts them awake and sends them straight back to chopping and hauling wood."
+  },
+  {
+   "q": "Who owns this blackjack?",
+   "aliases": [
+    "who gives blackjack",
+    "foreman blackjack owner"
+   ],
+   "answer": "It belongs to Foreman Thazz'ril, the labor taskmaster stationed in the Valley of Trials who oversees the collection of raw timber for the young Orc settlement."
+  },
+  {
+   "q": "Why do the peons keep falling asleep on the job?",
+   "aliases": [
+    "why are peons lazy",
+    "lazy peons sleeping"
+   ],
+   "answer": "Orcish peons work relentless, exhausting shifts gathering wood under the harsh sun of Durotar. Whenever they find shade beneath the valley's sparse trees, exhaustion overtakes them, leading to frequent unauthorized naps."
+  },
+  {
+   "q": "Can I keep the blackjack after finishing the task?",
+   "aliases": [
+    "keep blackjack",
+    "can i keep foreman blackjack"
+   ],
+   "answer": "No. The overseer demands the tool be returned immediately once the shirkers have been disciplined, ensuring it remains on hand for future taskmasters to enforce labor quotas."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "For young orcs stepping into the Valley of Trials, wielding the blackjack offers an early lesson in Horde hierarchy: those without the strength or spirit of a warrior are relegated to labor and kept in line by force."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The blackjack highlights the relentless practical effort needed to tame Durotar, where settling a harsh land requires every laborer to work without pause."
+  }
+ ],
+ "keywords": [
+  "blackjack",
+  "durotar",
+  "foreman's blackjack",
+  "lazy peons",
+  "peon",
+  "thazzril",
+  "valley of trials"
+ ],
+ "related": [
+  "quest:lazy-peons",
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "quest:1089"
+ ],
+ "attribution": [
+  "Foreman's Blackjack",
+  "Lazy Peons"
+ ]
+}

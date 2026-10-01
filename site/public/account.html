@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your account - Lore Forever</title>
+<meta name="description" content="Sign in to your Lore Forever account to contribute, and manage your profile.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+<script src="/header.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top-row">
+    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; Your account</span>
+    <div class="head-actions"><a class="btn-head" href="/feedback"><span class="hd-wide">Send feedback</span><span class="hd-narrow">Feedback</span></a></div>
+  </div>
+</header>
+
+<!-- The one Lore Forever account page, for every kind of contributor (voices now; each feature adds its own
+     section). Talks to functions/api/auth/[action].js. Needs JavaScript (Sign in with Google does too). -->
+<main class="wrap fb-page">
+  <h1>Your Lore Forever account</h1>
+  <p class="pitch">For sending feedback, and for people who contribute to Lore Forever, like narrators and translators.
+    The add-on, the site, listening to and liking voices all work without one.</p>
+  <noscript><p class="fb-status">This page needs JavaScript to sign you in.</p></noscript>
+  <p class="fb-status" id="ac-status" role="status" hidden></p>
+
+  <section class="fb-done" id="ac-out" hidden>
+    <h2>Sign in or create an account</h2>
+    <p>Sign in with your Google account. New here? Signing in the first time creates your account.</p>
+    <div id="ac-google" class="ac-google"></div>
+    <p class="vp-note" id="ac-none" hidden>Sign-in isn't switched on yet. Please check back soon, or
+      <a href="/discord">ask on Discord</a>.</p>
+    <details class="ac-privacy">
+      <summary>What we keep, and how to delete it</summary>
+      <p>From Google: your account ID, email address and name (to create your account and reach you about your
+        feedback and what you contribute). Then what you type into your profile here, the languages you translate and
+        the edits you make on the translation dashboard, and a sign-in cookie that keeps you signed in for 30 days. We
+        don't email you otherwise, and we don't share or sell any of it.</p>
+      <p>Delete my account (on this page once you're signed in) removes all of that at once, along with what's
+        listed under your name on the site and the recordings you uploaded here. Recordings you sent us for review,
+        and the <a href="/voices/release">narrator release</a> you agreed to for them, are kept as the release
+        describes; <a href="/discord">ask us</a> if you want them removed too. Feedback you sent is kept, without
+        your email. Translations already added to a language stay in it, under CC BY-SA, without your name.</p>
+    </details>
+  </section>
+
+  <div id="ac-in" hidden>
+    <section class="fb-done">
+      <h2>Your account</h2>
+      <p>Signed in as <strong id="ac-who"></strong>.</p>
+      <p class="vp-actions">
+        <a class="btn-small" href="/voices/studio">Upload your recordings</a>
+        <a class="btn-small" href="/translate/dashboard">Translate</a>
+        <button class="btn-small" type="button" id="ac-logout">Sign out</button>
+      </p>
+    </section>
+
+    <form class="fb-form" id="ac-profile">
+      <h2>Your public profile</h2>
+      <label class="fb-field">
+        <span>Your name</span>
+        <input type="text" name="display_name" maxlength="60" autocomplete="nickname" placeholder="As players should see it">
+      </label>
+      <label class="fb-field">
+        <span>Links <span class="fb-optional">(up to three, https://, one per line)</span></span>
+        <textarea name="links" rows="3" maxlength="600" placeholder="https://twitch.tv/you"></textarea>
+      </label>
+      <label class="fb-check"><input type="checkbox" name="show_public"> <span>Show my name and links on
+        <a href="/voices/contributors">Contributors</a>, my voices' pages, and as a translator of my languages on
+        <a href="/translate">Translate</a>. Otherwise only each voice's credit line shows.</span></label>
+      <button class="btn-small" type="submit">Save</button>
+    </form>
+
+    <section class="fb-form" id="ac-voices">
+      <h2>Your voices</h2>
+      <p class="vp-note" id="ac-novoices">None yet. <a href="/voices/studio">Upload your first recordings</a>; your voice
+        appears here right away and on the site once we've published it.</p>
+      <div id="ac-voice-list"></div>
+    </section>
+
+    <!-- Translators (LOR-96): languages and edit counts from functions/api/translations/[action].js. -->
+    <section class="fb-form" id="ac-translations">
+      <h2>Your translations</h2>
+      <p class="vp-note">The languages you translate into. They come first on the
+        <a href="/translate/dashboard">translation dashboard</a>.</p>
+      <div class="ac-langs" id="ac-langs"></div>
+      <p class="vp-note" id="ac-tr-stats"></p>
+      <p><a class="btn-small" href="/translate/dashboard">Open the translation dashboard</a></p>
+    </section>
+
+    <form class="fb-form" id="ac-delete">
+      <h2>Delete my account</h2>
+      <p class="vp-note">Removes your account, profile and everything listed under your name right away. Type <strong>delete</strong>
+        to confirm.</p>
+      <label class="fb-field">
+        <input type="text" name="confirm" autocomplete="off" spellcheck="false" placeholder="delete">
+      </label>
+      <button class="btn-small" type="submit">Delete my account</button>
+    </form>
+  </div>
+</main>
+
+<footer class="wrap foot">
+  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const params = new URLSearchParams(location.search);
+  // Our own pages only; a query string may follow (/feedback?kind=bug), since it can't change the host.
+  const safeNext = p => /^\/[a-z0-9-]+(\/[a-z0-9-]*)*(\?[^#\s]*)?$/.test(p || "") ? p : null;
+  const next = safeNext(params.get("next"));
+  const status = (msg, good) => {
+    $("ac-status").hidden = !msg;
+    $("ac-status").textContent = msg || "";
+    $("ac-status").classList.toggle("fb-good", Boolean(good));
+  };
+  const post = async (action, body) => {
+    try {
+      const r = await fetch("/api/auth/" + action, {
+        method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body || {}),
+      });
+      return await r.json().catch(() => ({ ok: false, error: "Something went wrong. Please try again." }));
+    } catch (e) {
+      return { ok: false, error: "Couldn't reach the server. Check your connection and try again." };
+    }
+  };
+  const signedIn = () => { if (next) location.assign(next); else load(); };
+
+  function googleButton(clientId) {
+    const s = document.createElement("script");
+    s.src = "https://accounts.google.com/gsi/client";
+    s.async = true;
+    s.onload = () => {
+      google.accounts.id.initialize({
+        client_id: clientId,
+        ux_mode: "popup",
+        callback: async ({ credential }) => {
+          const res = await post("google", { credential });
+          if (res.ok) signedIn(); else status(res.error);
+        },
+      });
+      google.accounts.id.renderButton($("ac-google"), { theme: "filled_black", size: "large", text: "continue_with", shape: "pill" });
+    };
+    document.head.appendChild(s);
+  }
+
+  function voiceRow(v) {
+    const div = document.createElement("form");
+    div.className = "ac-voice";
+    const label = { published: "On the site", pending: "Waiting for review", draft: "Draft" }[v.status] || v.status;
+    div.innerHTML = `<h3></h3><p class="vp-note"></p>
+      <label class="fb-field"><span class="fb-sub">Bio on the voice's page</span>
+        <textarea name="bio" rows="4" maxlength="1200" placeholder="A few lines about this voice. Have fun with it."></textarea></label>
+      <button class="btn-small" type="submit">Save bio</button>`;
+    div.querySelector("h3").textContent = v.name;
+    const note = div.querySelector("p");
+    note.textContent = label;
+    if (v.status === "published") {
+      const a = document.createElement("a");
+      a.href = "/voices/" + v.id;
+      a.textContent = "See its page";
+      note.append(" · ", a);
+    }
+    if (v.locale) {   // made on the upload page
+      const a = document.createElement("a");
+      a.href = "/voices/studio?voice=" + encodeURIComponent(v.id);
+      a.textContent = `Upload recordings (${v.files || 0} so far)`;
+      note.append(" · ", a);
+    }
+    div.bio.value = v.bio || "";
+    div.addEventListener("submit", async e => {
+      e.preventDefault();
+      const res = await post("voice", { id: v.id, bio: div.bio.value });
+      status(res.ok ? "Saved." : res.error, res.ok);
+    });
+    return div;
+  }
+
+  async function load() {
+    let me;
+    try { me = await (await fetch("/api/auth/me", { cache: "no-store" })).json(); } catch (e) { me = null; }
+    if (!me || !me.ok) { status((me && me.error) || "Couldn't reach the server. Please reload."); return; }
+    $("ac-out").hidden = Boolean(me.user);
+    $("ac-in").hidden = !me.user;
+    if (!me.user) {
+      const clientId = me.signIn.google;
+      $("ac-google").hidden = !clientId;
+      if (clientId) googleButton(clientId);
+      $("ac-none").hidden = Boolean(clientId);
+      return;
+    }
+    const u = me.user;
+    $("ac-who").textContent = (u.email || "your account") + (u.google ? " (Google)" : "");
+    const f = $("ac-profile");
+    f.display_name.value = u.display_name || "";
+    f.links.value = u.links || "";
+    f.show_public.checked = u.show_public;
+    $("ac-novoices").hidden = me.voices.length > 0;
+    $("ac-voice-list").replaceChildren(...me.voices.map(voiceRow));
+    loadTranslations();
+  }
+
+  // Your translations: a tick per language (saved as you tick) and what happened to your edits.
+  async function loadTranslations() {
+    let tr, langs;
+    try {
+      [tr, langs] = await Promise.all([
+        fetch("/api/translations/me", { cache: "no-store" }).then(r => r.json()),
+        fetch("/translate/languages.json").then(r => r.json()),
+      ]);
+    } catch (e) { $("ac-translations").hidden = true; return; }
+    if (!tr.ok || !tr.user) { $("ac-translations").hidden = true; return; }
+    const mine = new Set(tr.languages);
+    const saveLanguages = async () => {
+      const picked = [...$("ac-langs").querySelectorAll("input:checked")].map(i => i.value);
+      let res;
+      try {
+        res = await (await fetch("/api/translations/languages", {
+          method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ languages: picked }),
+        })).json();
+      } catch (e) { res = { ok: false, error: "Couldn't reach the server. Please try again." }; }
+      status(res.ok ? "Saved." : res.error, res.ok);
+    };
+    $("ac-langs").replaceChildren(...(langs.languages || []).map(l => {
+      const box = document.createElement("input");
+      box.type = "checkbox";
+      box.value = l.locale;
+      box.checked = mine.has(l.locale);
+      box.addEventListener("change", saveLanguages);
+      const label = document.createElement("label");
+      label.className = "fb-check";
+      const name = document.createElement("span");
+      name.textContent = l.name;
+      name.lang = l.locale.slice(0, 2);
+      label.append(box, " ", name);
+      return label;
+    }));
+    const lines = Object.entries(tr.stats || {}).map(([locale, s]) => {
+      const name = (langs.languages || []).find(l => l.locale === locale)?.name || locale;
+      const parts = [(s.new + s.accepted) && `${s.new + s.accepted} saved for the next update`, s.pulled && `${s.pulled} in the language`,
+                     s.rejected && `${s.rejected} not used`].filter(Boolean);
+      return parts.length ? `${name}: ${parts.join(", ")}` : "";
+    }).filter(Boolean);
+    $("ac-tr-stats").textContent = lines.length ? "Your edits: " + lines.join("; ") + "." : "No edits yet.";
+  }
+
+  $("ac-profile").addEventListener("submit", async e => {
+    e.preventDefault();
+    const f = e.target;
+    const res = await post("profile", { display_name: f.display_name.value, links: f.links.value, show_public: f.show_public.checked });
+    if (res.ok) f.links.value = res.links;
+    status(res.ok ? "Saved." : res.error, res.ok);
+  });
+  $("ac-logout").addEventListener("click", async () => {
+    await post("logout");
+    status("Signed out.", true);
+    load();
+  });
+  $("ac-delete").addEventListener("submit", async e => {
+    e.preventDefault();
+    const res = await post("delete", { confirm: e.target.confirm.value.trim().toLowerCase() });
+    if (res.ok) { e.target.reset(); status("Your account is deleted.", true); load(); }
+    else status(res.error);
+  });
+
+  load();
+})();
+</script>
+</body>
+</html>

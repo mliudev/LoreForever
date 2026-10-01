@@ -20,11 +20,11 @@
    "The Lord of Blackrock (Alliance 2)"
   ]
  },
- "summary": "This quest marks the triumphant finale of the campaign against Nefarian, the master of Blackrock Mountain. After presenting proof of the black dragon's downfall to Grand Admiral Jes-Tereth in Stormwind Keep, heroes are sent to the Valley of Heroes where Field Marshal Stonebridge mounts the severed head of Nefarian on the city gates for all the Alliance to see.",
+ "summary": "This quest marks the triumphant finale of the campaign against Nefarian, the master of Blackrock Mountain. After presenting proof of the black dragon's downfall to Highlord Bolvar Fordragon in Stormwind Keep, heroes are sent to the Valley of Heroes where Field Marshal Stonebridge mounts the severed head of Nefarian on the city gates for all the Alliance to see.",
  "sections": [
   {
    "title": "A City's Triumph",
-   "body": "The campaign against the Blackrock clan and the brood of the Black Dragonflight culminates in a public display of victory. Following the presentation of Nefarian's severed head inside Stormwind Keep, Grand Admiral Jes-Tereth directs the champions across the city to the Valley of Heroes. There, Field Marshal Stonebridge awaits to receive the gruesome trophy and commence citywide celebrations.",
+   "body": "The campaign against the Blackrock clan and the brood of the Black Dragonflight culminates in a public display of victory. Following the presentation of Nefarian's severed head inside Stormwind Keep, Highlord Bolvar Fordragon directs the champions across the city to the Valley of Heroes. There, Field Marshal Stonebridge awaits to receive the gruesome trophy and commence citywide celebrations.",
    "spoiler": 1
   },
   {
@@ -52,12 +52,12 @@
    "answer": "Field Marshal Stonebridge is a senior military officer of the Stormwind army stationed at the Valley of Heroes, near the entrance to Stormwind City. He organizes the public commemoration of major military triumphs, including hoisting the heads of defeated draconic threats."
   },
   {
-   "q": "Why does Grand Admiral Jes-Tereth send you here?",
+   "q": "Why does Highlord Bolvar Fordragon send you here?",
    "aliases": [
-    "jes-tereth",
+    "bolvar",
     "why go to valley of heroes"
    ],
-   "answer": "After receiving confirmation of Nefarian's defeat in the throne room, Jes-Tereth orders you to bring word to the city gates so the Alliance military can display the victory openly to lift morale across the capital."
+   "answer": "After receiving confirmation of Nefarian's defeat in the throne room, Bolvar orders you to bring word to the city gates so the Alliance military can display the victory openly to lift morale across the capital."
   },
   {
    "q": "Does this turn-in affect the whole city?",

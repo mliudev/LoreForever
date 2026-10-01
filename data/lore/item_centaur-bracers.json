@@ -1,0 +1,82 @@
+{
+ "key": "item:centaur-bracers",
+ "type": "item",
+ "name": "Centaur Bracers",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Centaur Bracers",
+  "quests": [
+   "quest:855"
+  ]
+ },
+ "summary": "Centaur Bracers are simple leather and iron armbands taken from slain Kolkar centaur throughout the Barrens. Regthar Deathgate collects them west of the Crossroads as proof of culled centaur raiders.",
+ "sections": [
+  {
+   "title": "A Gritty Bounty",
+   "body": "The Kolkar tribe poses an unrelenting threat to the Horde's foothold across the arid plains of the Barrens. Stripping the bracers from fallen centaur warriors serves as undeniable proof that another hostile marauder has been removed from the trade roads. Regthar Deathgate, an orc scout stationed along the bluffs west of the Crossroads, issues a standing bounty on these trophies to blunt the tribe's aggression.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants these bracers?",
+   "aliases": [
+    "who takes centaur bracers",
+    "regthar deathgate turn in",
+    "who buys centaur bracers"
+   ],
+   "answer": "Regthar Deathgate, a Horde scout camped on a rise west of the Crossroads in the Barrens, accepts them as proof of your efforts against the local Kolkar centaur."
+  },
+  {
+   "q": "Which centaur carry these bracers?",
+   "aliases": [
+    "where to farm bracers",
+    "kolkar bracers drop",
+    "centaur bracers source"
+   ],
+   "answer": "The bracers are worn by Kolkar warriors roaming the oases and encampments in the northern Barrens, such as the Forgotten Pools and the Lushwater Oasis."
+  },
+  {
+   "q": "Why does Regthar want them collected?",
+   "aliases": [
+    "why collect bracers",
+    "regthar deathgate motive",
+    "purpose of centaur bracers"
+   ],
+   "answer": "Regthar seeks to actively cull the Kolkar numbers to protect the Horde's territory. Collecting trophies like bracers ensures that warriors are actually eliminating the marauders rather than chasing them off."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Taking down Kolkar raiders directly aids the Horde's expansion, keeping fragile caravan supply lines safe between Durotar, Mulgore, and the Crossroads."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For generations, the nomadic tauren endured brutal harassment by centaur clans; clearing Kolkar from the Barrens offers long-sought retribution and security."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "bounty",
+  "bracers",
+  "centaur",
+  "crossroads",
+  "deathgate",
+  "kolkar",
+  "regthar"
+ ],
+ "related": [
+  "quest:855",
+  "quest:1361",
+  "zone:barrens",
+  "subzone:crossroads",
+  "topic:centaur",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Centaur Bracers",
+  "Centaur Bracers (Classic)"
+ ]
+}

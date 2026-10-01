@@ -16,6 +16,12 @@ function Log.Init()
   for k, v in pairs(ns.Options and ns.Options.DEFAULTS or {}) do
     if db.settings[k] == nil then db.settings[k] = v end
   end
+  -- The minimap button used to be off by default, and defaults are written into SavedVariables, so older installs
+  -- have minimap = false saved. Turn it on once; after that, switching it off in Options sticks.
+  if not db.settings.minimapOn then
+    db.settings.minimap = true
+    db.settings.minimapOn = 1
+  end
   db.questions = db.questions or {}
   db.quests = db.quests or {}       -- harvested quest text by questID
   db.maps = db.maps or {}           -- zone/subzone names seen per mapID

@@ -1,0 +1,91 @@
+{
+ "key": "item:filled-red-waterskin",
+ "type": "item",
+ "name": "Filled Red Waterskin",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Filled Red Waterskin",
+  "quests": [
+   "quest:1536"
+  ]
+ },
+ "summary": "The Filled Red Waterskin contains pristine spring water drawn from the village well in Tarren Mill. Gathering this pure water amidst the blighted ruins held by the Forsaken serves as a vital trial for young shaman seeking communion with the water spirits.",
+ "sections": [
+  {
+   "title": "A Beacon in Blighted Lands",
+   "body": "While training shaman in the ways of water, the hermit Brine in the Barrens dispatches initiates on a lengthy journey to Tarren Mill in the Hillsbrad Foothills. Amidst the decay and the dead, the town's central well miraculously draws clear, untainted spring water. Brine regards this holy vestige in an unhallowed land as an emblem of enduring spirit\u2014drawing a parallel between the uncorrupted spring and Warchief Thrall's enduring resolve despite profound hardship. Gathering this sample proves an initiate's reverence for water's purity regardless of hostile surroundings.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Filled Red Waterskin?",
+   "aliases": [
+    "what water is in it",
+    "tarren mill water",
+    "red waterskin contents"
+   ],
+   "answer": "It contains pure, uncorrupted spring water drawn directly from the public well in the center of Tarren Mill."
+  },
+  {
+   "q": "Why does Brine want water from Tarren Mill?",
+   "aliases": [
+    "why tarren mill",
+    "why brine needs this",
+    "purpose of red waterskin"
+   ],
+   "answer": "Brine considers the town's fresh spring a miraculous vestige of purity surviving amidst Forsaken decay. He requires this sacred sample as an ingredient to brew the sapta needed for a shaman's water trials."
+  },
+  {
+   "q": "How does the well stay clean in an undead town?",
+   "aliases": [
+    "why isn't the well blighted",
+    "is tarren mill well poisoned",
+    "holy well tarren mill"
+   ],
+   "answer": "The spring feeds deep underground and has remained untouched by the plagues around it. Brine notes that the Forsaken inhabiting Tarren Mill may not even recognize or value the purity of the holy vestige in their midst."
+  },
+  {
+   "q": "How does Thrall relate to this quest?",
+   "aliases": [
+    "thrall comparison",
+    "why mention thrall"
+   ],
+   "answer": "Brine compares the clean well surviving in a ruined town to Thrall, who endured immense suffering and captivity yet emerged strong and untainted to guide the orcish people through dark times."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Carrying this water tests a shaman's ability to find and honor life-giving balance even within the most decayed, sorrowful corners of the world."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Visiting Tarren Mill brings young Kalimdor champions into the heart of the Forsaken's struggle against Alliance forces across the Eastern Kingdoms."
+  }
+ ],
+ "keywords": [
+  "brine",
+  "call of water",
+  "empty red waterskin",
+  "filled red waterskin",
+  "sapta",
+  "shaman",
+  "tarren mill"
+ ],
+ "related": [
+  "quest:63",
+  "item:empty-red-waterskin",
+  "npc:brine",
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "npc:thrall",
+  "topic:forsaken",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Filled Red Waterskin",
+  "Call of Water (4)"
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "key": "quest:805",
+ "type": "quest",
+ "name": "Report to Sen'jin Village",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   805
+  ],
+  "level": "5",
+  "faction": "Horde",
+  "start": "Zureetha Fargaze",
+  "end": "Master Gadrin",
+  "previous": "Burning Blade Medallion (Classic)",
+  "next": "Report to Orgnil",
+  "wiki": "Report to Sen'jin Village (Classic)",
+  "chain": []
+ },
+ "summary": "Report to Sen'jin Village marks the moment young Horde initiates leave the secluded Valley of Trials behind to alert the Darkspear trolls of demonic cult activity. Entrusted by Zureetha Fargaze, messengers carry word of the Burning Blade to Master Gadrin, discovering that shadow magic already threatens the nearby coasts.",
+ "sections": [
+  {
+   "title": "Leaving the Den",
+   "body": "After proving their combat mettle and recovering dark medallions from the Burning Blade Coven within the Valley of Trials, novices are declared ready for the wider world. Zureetha Fargaze recognizes that the demonic presence within the sacred proving grounds is no isolated nuisance, but a symptom of a creeping blight across Durotar. She directs young adventurers east past the ravine's mouth and south toward the coast to warn the Darkspear tribe.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows over the Coast",
+   "body": "Arriving at the coastal settlement of Sen'jin Village, travelers deliver their warning to Master Gadrin, the elder witch doctor guiding the Darkspear in exile. While Gadrin confirms that the Burning Blade itself has not marched on the village sands, he reveals that dark magic has taken seed nearby on the Echo Isles. The report exposes how fragile the young Horde's foothold remains: even as allies rush to defend one another, ancient tribal betrayals and fel corruption strike at their flanks simultaneously.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Zureetha Fargaze sending people away from the Valley of Trials?",
+   "aliases": [
+    "why leave valley",
+    "why go to senjin",
+    "zureetha fargaze orders"
+   ],
+   "answer": "Having uncovered demonic activity inside the Valley of Trials, Zureetha Fargaze fears that the Burning Blade cult poses an organized threat to all of Durotar. She sends proven initiates beyond the valley to warn allied settlements and determine how far the cult's influence has spread."
+  },
+  {
+   "q": "Who is Master Gadrin?",
+   "aliases": [
+    "master gadrin lore",
+    "who is gadrin"
+   ],
+   "answer": "Master Gadrin is an elder witch doctor and spiritual leader of the Darkspear trolls residing in Sen'jin Village. He acts as an advisor to chieftain Vol'jin and oversees tribal matters while dealing with the threats looming over their temporary coastal refuge."
+  },
+  {
+   "q": "Has the Burning Blade attacked Sen'jin Village?",
+   "aliases": [
+    "is burning blade in senjin",
+    "cult in senjin"
+   ],
+   "answer": "No, the Burning Blade has not directly attacked Sen'jin Village. However, Master Gadrin notes that kindred dark magics and betrayal have taken root nearby on the Echo Isles, meaning the trolls face imminent danger of their own."
+  },
+  {
+   "q": "Where is Sen'jin Village located?",
+   "aliases": [
+    "how to get to senjin",
+    "senjin village direction"
+   ],
+   "answer": "Sen'jin Village lies east through the main canyon exit of the Valley of Trials, followed by a southward turn at the road's fork along the southeastern coast of Durotar."
+  },
+  {
+   "q": "What threat does Master Gadrin mention on the Echo Isles?",
+   "aliases": [
+    "echo isles trouble",
+    "what happened at echo isles"
+   ],
+   "answer": "Master Gadrin is concerned with the dark betrayal of Zalazane, a fellow troll witch doctor who used insidious hexes to enslave his brethren and seize control of the Echo Isles, driving the surviving Darkspear onto the mainland shores."
+  },
+  {
+   "q": "What happens after reporting to Master Gadrin?",
+   "aliases": [
+    "next quest after report to senjin",
+    "what to do after gadrin"
+   ],
+   "answer": "After listening to your report and detailing the trolls' own plight, Gadrin asks you to lend aid against the perils threatening the coastline, while further orders send you northwest to Orgnil Soulscar in Razor Hill."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This task demonstrates the vital cooperation between the founding races of Thrall's Horde, exchanging intelligence to protect each other's young settlements."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Returning to Sen'jin Village brings Darkspear adventurers face to face with the displacement of their people and the ongoing struggle to reclaim the Echo Isles."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For young orcs, leaving the Valley of Trials to aid the Darkspear is an early test of honor and solidarity toward the allies who stood beside Thrall across the Great Sea."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "darkspear",
+  "durotar",
+  "echo isles",
+  "master gadrin",
+  "sen'jin village",
+  "valley of trials",
+  "zureetha fargaze"
+ ],
+ "related": [
+  "npc:zureetha-fargaze",
+  "npc:master-gadrin",
+  "subzone:sen-jin-village",
+  "subzone:valley-of-trials",
+  "quest:823",
+  "subzone:burning-blade-coven",
+  "subzone:echo-isles",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Report to Sen'jin Village (Classic)"
+ ]
+}

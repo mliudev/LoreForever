@@ -1,0 +1,97 @@
+{
+ "key": "item:barrel-of-barleybrew-scalder",
+ "type": "item",
+ "name": "Barrel of Barleybrew Scalder",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Barrel of Barleybrew Scalder",
+  "quests": [
+   "quest:310"
+  ]
+ },
+ "summary": "The Barrel of Barleybrew Scalder is a cask of stout ale crafted by the Barleybrew family to prove their brewing prowess against their chief competitors. It is entrusted to covert couriers tasked with infiltrating the Thunderbrew Distillery in Kharanos to stage a sly taste-test sabotage.",
+ "sections": [
+  {
+   "title": "A Bitter Feud in Dun Morogh",
+   "body": "Brewing is serious business among the dwarves of Dun Morogh, and few rivalries burn hotter than the feud between the Thunderbrews and the Barleybrews. While the Thunderbrews enjoy vast renown and pride of place from their busy distillery in Kharanos, Marleth Barleybrew refuses to sit in their shadow. Rather than relying solely on open taverns, Marleth brews the fiery 'Scalder' to prove his recipes are second to none\u2014hoping that unsuspecting patrons who taste it will realize the Thunderbrews do not hold a monopoly on fine dwarven drink.",
+   "spoiler": 0
+  },
+  {
+   "title": "Subterfuge in the Cellar",
+   "body": "The barrel is meant to be snuck straight into the cellars beneath the Thunderbrew Distillery, swapping places with a cask of the local favorite, Thunder Ale. The intent is not poisonous or ruinous, but a cheeky dwarven prank aimed at wounded pride: ensuring the next batch served upstairs is secretly Barleybrew's potent scalder instead.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Barrel of Barleybrew Scalder?",
+   "aliases": [
+    "barleybrew scalder contents",
+    "what kind of ale",
+    "what is scalder"
+   ],
+   "answer": "It contains Marleth Barleybrew's signature scalder, a potent dwarven brew crafted to rival the famed recipes of the Thunderbrew family."
+  },
+  {
+   "q": "Why does Marleth want this barrel swapped?",
+   "aliases": [
+    "why swap barrels",
+    "bitter rivals reason",
+    "why marleth sneak brew"
+   ],
+   "answer": "Marleth admits the Thunderbrews craft good drinks, but he wants to teach them humility by letting cellar patrons inadvertently taste his own brew and see that Barleybrew craftsmanship is just as good, if not better."
+  },
+  {
+   "q": "Where does this barrel go?",
+   "aliases": [
+    "where do i put the barrel",
+    "scalder barrel location",
+    "distillery cellar"
+   ],
+   "answer": "It is taken down into the cellar beneath the Thunderbrew Distillery in Kharanos and swapped into the racks where a cask of Thunder Ale is due to be tapped."
+  },
+  {
+   "q": "Is the brew meant to harm anyone?",
+   "aliases": [
+    "is scalder poisoned",
+    "is it poison",
+    "will it hurt anyone"
+   ],
+   "answer": "No. It is simply a strong, competing dwarven ale. The rivalry between the families is intense and competitive, but it is a matter of professional pride rather than malice."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, ale crafting is both an art and a bloodsport; taking part in cellar intrigue over whose recipe is superior is practically a Dun Morogh pastime."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Distracting a cellar guard and sneaking heavy contraband into a guarded stash offers an amusing, low-stakes exercise in classic dwarven subterfuge."
+  }
+ ],
+ "keywords": [
+  "ale",
+  "barleybrew",
+  "distillery",
+  "dun morogh",
+  "kharanos",
+  "marleth",
+  "scalder",
+  "thunderbrew"
+ ],
+ "related": [
+  "quest:310",
+  "quest:311",
+  "item:barrel-of-thunder-ale",
+  "subzone:thunderbrew-distillery",
+  "subzone:kharanos",
+  "quest:117",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Barrel of Barleybrew Scalder",
+  "Bitter Rivals"
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "key": "item:sarkoth-s-mangled-claw",
+ "type": "item",
+ "name": "Sarkoth's Mangled Claw",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Sarkoth's Mangled Claw",
+  "quests": [
+   "quest:sarkoth"
+  ]
+ },
+ "summary": "Sarkoth's Mangled Claw is the severed pincer of Sarkoth, a monstrous scorpid stalking the southern bluffs of the Valley of Trials. Heavily scarred by the dying troll Hana'zua, the trophy serves as both proof of the beast's death and a final consolation for a wounded hunter's pride.",
+ "sections": [
+  {
+   "title": "A Trophy of Vengeance",
+   "body": "While hunting in the Valley of Trials, a young Darkspear troll named Hana'zua engaged a massive scorpid known as Sarkoth. Before Sarkoth's venomous stinger pierced his chest and left him bleeding under a nearby tree, Hana'zua landed a crushing blow against the creature's massive pincer. Severing this battered limb offers undeniable proof that the monstrous scorpid has been slain. For Hana'zua, holding the mangled claw confirms that his desperate strike left a lasting mark, providing a fleeting spark of warrior's honor as venom courses through his veins.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the claw mangled?",
+   "aliases": [
+    "why broken claw",
+    "who crushed sarkoth claw",
+    "mangled claw lore"
+   ],
+   "answer": "The claw was crushed during a desperate duel between Sarkoth and the troll hunter Hana'zua. Although Sarkoth landed a mortal sting on Hana'zua's chest, the troll struck a ferocious blow against the beast's pincer before it could crush his leg."
+  },
+  {
+   "q": "Who wants Sarkoth's Mangled Claw?",
+   "aliases": [
+    "who needs sarkoth claw",
+    "who turned in to",
+    "hanazua claw"
+   ],
+   "answer": "Hana'zua asks for the claw. He lies mortally poisoned beneath a tree in the northern reaches of the Valley of Trials, desperate for proof that his final enemy has been slain before he succumbs to the scorpid's venom."
+  },
+  {
+   "q": "Where did this claw come from?",
+   "aliases": [
+    "sarkoth location",
+    "where is sarkoth",
+    "where to get mangled claw"
+   ],
+   "answer": "It is taken from Sarkoth, a large, aggressive scorpid that prowls the elevated plateau along the southern cliffs of the Valley of Trials in Durotar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "Bringing the mangled claw to Hana'zua grants a dying Darkspear kinsman a measure of dignity, letting him know his final strike scarred the beast before the end."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For initiates in the Valley of Trials, claiming this trophy marks one of the earliest tests of courage and martial strength in the harsh wilds of Durotar."
+  }
+ ],
+ "keywords": [
+  "claw",
+  "durotar",
+  "hana'zua",
+  "mangled claw",
+  "sarkoth",
+  "scorpid",
+  "valley of trials"
+ ],
+ "related": [
+  "quest:804",
+  "npc:hana-zua",
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Sarkoth's Mangled Claw",
+  "Sarkoth (quest)"
+ ]
+}

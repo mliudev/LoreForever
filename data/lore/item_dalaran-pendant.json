@@ -1,0 +1,87 @@
+{
+ "key": "item:dalaran-pendant",
+ "type": "item",
+ "name": "Dalaran Pendant",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Dalaran Pendant",
+  "quests": [
+   "quest:479"
+  ]
+ },
+ "summary": "Dalaran Pendants are magical talismans carried by the Kirin Tor wizards stationed at the village of Ambermill in Silverpine Forest. The Forsaken seek to collect these pendants to disrupt the magi's arcane workings and trace the source of their power.",
+ "sections": [
+  {
+   "title": "Amulets of Ambermill",
+   "body": "In the village of Ambermill, Kirin Tor sorcerers, conjurers, and protectors actively weave formidable arcane spells threatening Forsaken control over southern Silverpine Forest. Each operative carries an attuned Dalaran Pendant. At the Sepulcher, Shadow Priest Allister tasks Forsaken operatives with recovering these pendants to slow down the mages' efforts and uncover who is guiding their magical weave.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Dalaran Pendant?",
+   "aliases": [
+    "what is dalaran pendant",
+    "kirin tor necklace silverpine"
+   ],
+   "answer": "It is an arcane amulet worn by Kirin Tor conjurers, mages, and protectors stationed in Ambermill. The Forsaken recover them to interrupt the wizards' ritual workings and examine their magical craft."
+  },
+  {
+   "q": "Who carries these pendants?",
+   "aliases": [
+    "who drops dalaran pendant",
+    "where to get dalaran pendant"
+   ],
+   "answer": "They are carried by the human mages, conjurers, and protectors of Dalaran occupying Ambermill in Silverpine Forest."
+  },
+  {
+   "q": "Why does Shadow Priest Allister want them?",
+   "aliases": [
+    "why allister wants pendants",
+    "ambermill investigations pendant"
+   ],
+   "answer": "Shadow Priest Allister and his ally Dalar need the pendants to slow the wizards' spellcasting and pinpoint the powerful mage directing the weave of magical energy in Ambermill."
+  },
+  {
+   "q": "Where is Ambermill located?",
+   "aliases": [
+    "ambermill location",
+    "how to get to ambermill"
+   ],
+   "answer": "Ambermill lies in southern Silverpine Forest. Travelers heading south from the Sepulcher take the eastern fork off the main road to find the village."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Stripping these pendants from the Kirin Tor is a vital step in securing Silverpine Forest against human sorcerers attempting to re-establish their foothold."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The pendants serve as focuses for Kirin Tor weaving, showcasing how Dalaran sorcerers coordinate complex, collective magic."
+  }
+ ],
+ "keywords": [
+  "allister",
+  "ambermill",
+  "dalaran pendant",
+  "kirin tor",
+  "sepulcher",
+  "silverpine"
+ ],
+ "related": [
+  "quest:479",
+  "subzone:ambermill",
+  "npc:shadow-priest-allister",
+  "subzone:sepulcher",
+  "zone:silverpine",
+  "subzone:dalaran",
+  "topic:mage",
+  "topic:priest"
+ ],
+ "attribution": [
+  "Dalaran Pendant",
+  "Ambermill Investigations"
+ ]
+}

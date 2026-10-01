@@ -1,0 +1,89 @@
+{
+ "key": "item:venture-co-documents",
+ "type": "item",
+ "name": "Venture Co. Documents",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Venture Co. Documents",
+  "quests": [
+   "quest:751"
+  ]
+ },
+ "summary": "These tightly bound papers were recovered from a crate amidst a ruined caravan in eastern Mulgore. They detail the operations of the Venture Company, confirming the predatory cartel's illegal strip-mining ventures within the tauren homeland.",
+ "sections": [
+  {
+   "title": "Evidence of Exploitation",
+   "body": "Discovered packed atop mined ore and minerals in the remnants of a ransacked wagon, these documents expose the scale of the Venture Company's intrusion into Mulgore. Known across Kalimdor for ruthless deforestation and uncontrolled excavation, the goblin-led cartel has quietly set up drilling and mining outposts in the eastern foothills. Morin Cloudstalker and the tauren Outrunners rely on these seized ledgers to gauge the threat to their sacred ancestral plains and rally hunters to drive the trespassers out.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do the Venture Co. Documents contain?",
+   "aliases": [
+    "venture co papers contents",
+    "what are venture documents",
+    "what is written in documents"
+   ],
+   "answer": "The sheaf of papers outlines the Venture Company's mining and extraction efforts in eastern Mulgore, revealing that the goblin enterprise is actively harvesting and carting away the region's natural mineral wealth."
+  },
+  {
+   "q": "Where were these documents discovered?",
+   "aliases": [
+    "where do i find the documents",
+    "venture documents location",
+    "ravaged caravan crate"
+   ],
+   "answer": "They are retrieved from a sealed Venture Company crate found amidst the wreckage of a ransacked wagon at the Ravaged Caravan site, east of Bloodhoof Village."
+  },
+  {
+   "q": "Who needs to see these papers?",
+   "aliases": [
+    "who do i bring documents to",
+    "turn in venture documents",
+    "morin cloudstalker documents"
+   ],
+   "answer": "They must be brought to Morin Cloudstalker, a tauren hunter stationed along the main trail east of Bloodhoof Village who watches over the security of Mulgore."
+  },
+  {
+   "q": "Why are the Venture Company mining in Mulgore?",
+   "aliases": [
+    "why are goblins in mulgore",
+    "venture co mulgore goal",
+    "why venture co digging"
+   ],
+   "answer": "The Venture Company operates purely for profit, seeking out rich mineral veins and untamed territories to strip of valuable ores with zero regard for native treaties, spiritual customs, or the environment."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Earth Mother's sacred earth is being defiled by goblin machinery. Delivering these papers helps the elders confirm the extent of the desecration and launch retaliatory strikes."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The papers were discovered packed alongside raw mineral samples, proving that the foothills hold rich, untapped veins ripe for excavation."
+  }
+ ],
+ "keywords": [
+  "morin cloudstalker",
+  "mulgore mining",
+  "ravaged caravan",
+  "venture co documents",
+  "venture company"
+ ],
+ "related": [
+  "quest:749",
+  "npc:morin-cloudstalker",
+  "quest:764",
+  "subzone:ravaged-caravan",
+  "subzone:bloodhoof-village",
+  "zone:mulgore",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Venture Co. Documents",
+  "The Ravaged Caravan (Horde) (2)"
+ ]
+}

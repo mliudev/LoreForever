@@ -1,0 +1,83 @@
+{
+ "key": "item:jade-phial",
+ "type": "item",
+ "name": "Jade Phial",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Jade Phial",
+  "quests": [
+   "quest:929"
+  ]
+ },
+ "summary": "The Jade Phial is a specially crafted vessel provided by the night elf druid Corithras Moonrage in Dolanaar. It is designed to safely draw and transport sacred water from Teldrassil's moonwells to replenish the druids' central well in Darnassus.",
+ "sections": [
+  {
+   "title": "A Vessel for Sacred Waters",
+   "body": "Teldrassil is dotted with moonwells that channel lunar and natural energies vital to night elf society and druidic worship. As part of maintaining this harmony, the central moonwell used by the druids in Darnassus must periodically be replenished from the outlying wells across the great bough. Corithras Moonrage entrusts young initiates with the Jade Phial, a receptacle carefully prepared to gather pure waters from the moonwell near Starbreeze Village without disturbing its delicate spiritual potency.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Jade Phial used for?",
+   "aliases": [
+    "jade phial purpose",
+    "why do i need jade phial",
+    "what does jade phial do"
+   ],
+   "answer": "The Jade Phial is used to collect sacred water from the moonwell situated just outside Starbreeze Village. Once filled, it must be returned to Corithras Moonrage in Dolanaar to help replenish the druids' moonwell in Darnassus."
+  },
+  {
+   "q": "Who provides the Jade Phial?",
+   "aliases": [
+    "who gives jade phial",
+    "where to get jade phial",
+    "corithras jade phial"
+   ],
+   "answer": "Corithras Moonrage, a night elf druid stationed in Dolanaar, provides the phial to adventurers undertaking the rite known as the Crown of the Earth."
+  },
+  {
+   "q": "Where does the water from this phial end up?",
+   "aliases": [
+    "where does moonwell water go",
+    "jade phial destination",
+    "who uses the water"
+   ],
+   "answer": "The waters gathered in the phial are transported to sustain and replenish the central moonwell maintained by the Cenarion druids within the capital city of Darnassus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For young druids, carrying the Jade Phial is an early lesson in stewardship, emphasizing that the vitality of Teldrassil's moonwells requires constant reverence and care."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Moonwells represent the enduring bond between the kaldorei and Elune; tending to them with vessels like the Jade Phial is a sacred duty for every night elf."
+  }
+ ],
+ "keywords": [
+  "corithras moonrage",
+  "crown of the earth",
+  "dolanaar",
+  "jade phial",
+  "moonwell",
+  "starbreeze village",
+  "teldrassil"
+ ],
+ "related": [
+  "npc:corithras-moonrage",
+  "item:filled-jade-phial",
+  "quest:921",
+  "subzone:starbreeze-village",
+  "subzone:dolanaar",
+  "zone:darnassus",
+  "zone:teldrassil",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Jade Phial",
+  "Crown of the Earth (3)"
+ ]
+}

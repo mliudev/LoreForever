@@ -1,0 +1,124 @@
+{
+ "key": "quest:459",
+ "type": "quest",
+ "name": "The Woodland Protector",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   459
+  ],
+  "level": "3",
+  "faction": "Alliance",
+  "start": "Tarindrella",
+  "end": "",
+  "previous": "The Woodland Protector",
+  "next": null,
+  "wiki": "The Woodland Protector (2)",
+  "chain": [
+   "The Woodland Protector (Classic)",
+   "The Woodland Protector (2)"
+  ]
+ },
+ "summary": "Tarindrella, a dryad tending to Shadowglen, seeks to uncover the source behind the sudden aggression of local creatures and the disappearance of the nearby furbolgs. By investigating the wild grells and gathering samples of corrupt Fel Moss, adventurers confirm that dark magic has begun to fester in the roots of the World Tree.",
+ "sections": [
+  {
+   "title": "A Blight in the Glade",
+   "body": "Even within the secluded heights of Shadowglen, the tranquil nature of Teldrassil has begun to fracture. Dryads like Tarindrella have noticed a dark shift sweeping through the woods. The once-placid furbolgs abandoned their ancestral dens, reorganizing into the aggressive Gnarlpine tribe, while feral grells and grellkin began overrunning the woodland paths.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tainted Growth",
+   "body": "Tarindrella suspects that unnatural corruption fuels the forest's hostility. By slaying the swarming grells and collecting samples of Fel Moss, you provide undeniable proof of dark enchantments clinging to the boughs of Teldrassil. With this grim truth confirmed, Tarindrella directs young defenders toward the village of Dolanaar to confer with Druid Athridas Bearmantle.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tarindrella?",
+   "aliases": [
+    "tarindrella",
+    "who is the questgiver",
+    "shadowglen dryad"
+   ],
+   "answer": "Tarindrella is a dryad watcher stationed in the wilds of Shadowglen. As a daughter of Cenarius, she dedicates herself to preserving the flora and fauna of the glade and alerting night elf protectors when corruption threatens the balance."
+  },
+  {
+   "q": "What is Fel Moss?",
+   "aliases": [
+    "fel moss",
+    "what is fel moss",
+    "moss corruption"
+   ],
+   "answer": "Fel Moss is a tainted growth infused with dark magic that has begun clinging to the wildlife in Shadowglen. Its presence enrages and warps creatures like the grells, driving them into unnatural aggression."
+  },
+  {
+   "q": "What happened to the furbolgs in Shadowglen?",
+   "aliases": [
+    "furbolg mystery",
+    "gnarlpine tribe",
+    "where did the furbolgs go"
+   ],
+   "answer": "The furbolgs who once lived peacefully in the glade have abandoned their traditional dwellings. Corrupted by the insidious rot spreading through Teldrassil, they have banded together under the banner of the hostile Gnarlpine tribe."
+  },
+  {
+   "q": "Where does this investigation lead next?",
+   "aliases": [
+    "next quest",
+    "where do i go after",
+    "athridas bearmantle"
+   ],
+   "answer": "Having confirmed that Fel Moss has taken root in Shadowglen, Tarindrella directs travelers deeper into Teldrassil to the settlement of Dolanaar. There, the druid Athridas Bearmantle investigates the broader spread of this corruption across the World Tree."
+  },
+  {
+   "q": "What are grells and grellkin?",
+   "aliases": [
+    "grells",
+    "grellkin",
+    "what are grells"
+   ],
+   "answer": "Grells and their kin are mischievous, diminutive woodland spirits native to the boughs of Teldrassil. Normally unruly pests, they become violently aggressive when exposed to corrupting influences like Fel Moss."
+  },
+  {
+   "q": "Why is corruption present on Teldrassil?",
+   "aliases": [
+    "why is teldrassil corrupted",
+    "shadowglen corruption"
+   ],
+   "answer": "Though Teldrassil was grown to replace the lost Well of Eternity and restore the night elves' sanctuary, dark energies have begun seeping into its boughs and wildlife, troubling the druids and forest spirits tasked with its warding."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young Kaldorei setting out from Aldrassil, this task is an early, alarming realization that their sacred new home is vulnerable to corruption from within."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold a sacred bond with the spirits and dryads of the forest; investigating the tainted Fel Moss is vital to diagnosing the spiritual sickness afflicting the World Tree."
+  }
+ ],
+ "keywords": [
+  "athridas bearmantle",
+  "fel moss",
+  "gnarlpine",
+  "grell",
+  "grellkin",
+  "shadowglen",
+  "tarindrella",
+  "teldrassil"
+ ],
+ "related": [
+  "quest:458",
+  "npc:tarindrella",
+  "subzone:shadowglen",
+  "npc:athridas-bearmantle",
+  "subzone:dolanaar",
+  "topic:furbolg",
+  "topic:druid",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "The Woodland Protector (2)"
+ ]
+}

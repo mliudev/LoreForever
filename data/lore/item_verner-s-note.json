@@ -1,0 +1,91 @@
+{
+ "key": "item:verner-s-note",
+ "type": "item",
+ "name": "Verner's Note",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Verner's Note",
+  "quests": [
+   "quest:118"
+  ]
+ },
+ "summary": "Verner's Note is a written requisition penned by Lakeshire's blacksmith, Verner Osgood, and carried to Smith Argus in Goldshire. It details a critical shortage of iron in Redridge, asking the Elwynn smith for emergency horseshoes.",
+ "sections": [
+  {
+   "title": "A Plea for Iron",
+   "body": "Maintaining the defense of Lakeshire demands a heavy toll in worked metal. With the Stormwind Guard stationed in town stretched thin against invading gnolls and local perils, Verner Osgood has consumed nearly all his iron reserves keeping soldiers armed and armored. As a result, Lakeshire's stables have fallen into neglect, lacking even basic horseshoes for their mounts. This letter represents Verner swallowing his pride to ask Smith Argus in Goldshire for an external shipment of prepared shoes to keep the town's horses mobile.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is written in Verner's Note?",
+   "aliases": [
+    "verners note contents",
+    "what does the note say",
+    "verner note message"
+   ],
+   "answer": "The note explains to Smith Argus that Verner has expended his metal reserves arming the Stormwind Guards in Lakeshire. Because he has no iron left to forge shoes for the local horses, he requests a direct shipment of horseshoes from Goldshire."
+  },
+  {
+   "q": "Who is Verner Osgood?",
+   "aliases": [
+    "who is verner",
+    "verner osgood redridge"
+   ],
+   "answer": "Verner Osgood is the local blacksmith operating out of Lakeshire in the Redridge Mountains. He is responsible for outfitting the town's defenders and keeping working gear and beasts shod."
+  },
+  {
+   "q": "Who receives this note?",
+   "aliases": [
+    "who gets verners note",
+    "where do i bring the note",
+    "who is smith argus"
+   ],
+   "answer": "The note is carried westward down the road to Smith Argus, the town blacksmith hammering away outside the forge in Goldshire in Elwynn Forest."
+  },
+  {
+   "q": "Why can't Verner make the horseshoes himself?",
+   "aliases": [
+    "why does lakeshire need shoes",
+    "why send to goldshire for shoes"
+   ],
+   "answer": "Lakeshire is in a state of crisis due to gnolls and other regional threats. Verner has been pouring all his time and raw iron into forging weapons and repairs for the Stormwind Guard, leaving nothing behind for the stables."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The missive highlights the logistics of frontier warfare: when weapons and armor absorb every ingot, everyday utilities like farrier supplies must be imported from safer settlements like Goldshire."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The note underlines the strain on Stormwind's rural infrastructure, illustrating how frontier towns like Lakeshire must coordinate with heartland villages just to maintain supply lines."
+  }
+ ],
+ "keywords": [
+  "goldshire",
+  "horseshoes",
+  "lakeshire",
+  "redridge mountains",
+  "smith argus",
+  "the price of shoes",
+  "verner osgood",
+  "verner's note"
+ ],
+ "related": [
+  "quest:118",
+  "quest:119",
+  "npc:verner-osgood",
+  "npc:smith-argus",
+  "zone:redridge",
+  "subzone:goldshire",
+  "topic:stormwind-guard",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Verner's Note",
+  "The Price of Shoes"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "key": "item:unrefined-ore-sample",
+ "type": "item",
+ "name": "Unrefined Ore Sample",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Unrefined Ore Sample",
+  "quests": [
+   "quest:1153"
+  ]
+ },
+ "summary": "An Unrefined Ore Sample is a piece of unusual raw mineral mined by the Gravelsnout kobolds dwelling in Thousand Needles. Camp Taurajo's master weaponsmith, Tatternack Steelforge, seeks it out to evaluate whether the metal can be forged into superior weapons for Warchief Thrall's armies.",
+ "sections": [
+  {
+   "title": "Mined by the Vermin",
+   "body": "South of the Great Divide, within the canyon walls of Thousand Needles, a clan of kobolds known as the Gravelsnout burrow endlessly through stone and earth. Travelers returning north through the Barrens brought word of a curious mineral discovered among the slain vermin\u2014an unrefined ore unlike the standard veins found across Kalimdor. While the travelers refused to surrender their prize to the Horde, the subterranean diggers and surveyors of Thousand Needles carry raw chunks of the stone straight from their excavations.",
+   "spoiler": 0
+  },
+  {
+   "title": "Forging for the Warchief",
+   "body": "In Camp Taurajo, the weaponsmith Tatternack Steelforge labours directly under orders from Warchief Thrall to develop stronger armaments for the Horde. Tatternack was infuriated by travelers who hoarded knowledge of the deposit, deeming it an insult to the Horde's war effort. By securing a raw sample of the mineral, Steelforge aims to test its tensile strength and temper, hoping to smelt it down and fashion a prototype blade worthy of Orgrimmar's approval.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this unrefined ore come from?",
+   "aliases": [
+    "ore location",
+    "where get unrefined ore sample",
+    "who drops unrefined ore"
+   ],
+   "answer": "The ore is carried by Gravelsnout kobolds, including diggers, surveyors, and their leader Gibblesnik, who inhabit the canyon depths of Thousand Needles south of the Barrens."
+  },
+  {
+   "q": "Why does Tatternack Steelforge want a sample?",
+   "aliases": [
+    "why tatternack want ore",
+    "ore purpose taurajo",
+    "what is ore for"
+   ],
+   "answer": "Tatternack is working under the Warchief's directive to improve Horde weaponry. He hopes to inspect and smelt the ore to determine if it is strong enough to forge new arms for the Horde."
+  },
+  {
+   "q": "Why were the travelers reluctant to part with it?",
+   "aliases": [
+    "who were the travelers",
+    "travelers ore barrens"
+   ],
+   "answer": "Horde travelers who crossed from Thousand Needles discovered the ore on a kobold and kept it as a trophy or curiosity, refusing to sell it even when asked to contribute to the Horde's smithing efforts."
+  },
+  {
+   "q": "Is this ore found anywhere in the Barrens?",
+   "aliases": [
+    "ore in barrens",
+    "can you mine it in barrens"
+   ],
+   "answer": "No. While the request comes from Camp Taurajo in the southern Barrens, the ore itself must be recovered from the kobolds further south in Thousand Needles."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Smiths understand Tatternack's frustration; analyzing new ores for tempering and durability is vital to outfitting warriors with blades that will not shatter in combat."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Every new mineral vein in southern Kalimdor represents potential military self-sufficiency for Thrall's fledgling nation as it secures its borders."
+  }
+ ],
+ "keywords": [
+  "camp taurajo",
+  "gibblesnik",
+  "gravelsnout",
+  "kobold",
+  "ore",
+  "tatternack steelforge",
+  "thousand needles",
+  "unrefined ore sample"
+ ],
+ "related": [
+  "quest:1153",
+  "npc:tatternack-steelforge",
+  "subzone:camp-taurajo",
+  "zone:thousandneedles",
+  "zone:barrens",
+  "quest:893",
+  "topic:kobold",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Unrefined Ore Sample",
+  "A New Ore Sample"
+ ]
+}

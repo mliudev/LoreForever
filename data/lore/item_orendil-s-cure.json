@@ -1,0 +1,89 @@
+{
+ "key": "item:orendil-s-cure",
+ "type": "item",
+ "name": "Orendil's Cure",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Orendil's Cure",
+  "quests": [
+   "quest:1020"
+  ]
+ },
+ "summary": "Orendil's Cure is a medicinal draught concocted by the herbalist Orendil Broadleaf in northern Ashenvale. Created using the rare herb Bathran's Hair, it is meant to treat the mysterious, deathly sickness afflicting Relara Whitemoon in Astranaar.",
+ "sections": [
+  {
+   "title": "A Father's Hope",
+   "body": "When young Relara Whitemoon fell deathly ill in Astranaar, conventional remedies proved useless against her ailment. Her desperate father, Pelturas Whitemoon, turned to Orendil Broadleaf, a hermit and master of natural medicine dwelling along the northern reaches of Ashenvale. Utilizing bundles of the rare plant Bathran's Hair harvested from the haunted ruins of Bathran's Haunt, Orendil brewed this tailored concoction. Though it represents only the first step in stabilizing the child's deteriorating condition, the arrival of the vial provides Pelturas with a glimmer of hope during a dire vigil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Orendil's Cure used for?",
+   "aliases": [
+    "orendil cure purpose",
+    "what does the cure do",
+    "who is the cure for"
+   ],
+   "answer": "The cure is formulated to soothe and treat Relara Whitemoon, a young night elf child in Astranaar who has been struck down by a sudden, severe illness."
+  },
+  {
+   "q": "Who crafted the cure?",
+   "aliases": [
+    "who made orendils cure",
+    "creator of orendils cure"
+   ],
+   "answer": "It was prepared by Orendil Broadleaf, a reclusive night elf herbalist living in the northern woods of Ashenvale who is renowned for his mastery over forest flora and remedies."
+  },
+  {
+   "q": "What ingredients were used to make it?",
+   "aliases": [
+    "cure ingredients",
+    "what is in orendil's cure"
+   ],
+   "answer": "The vital ingredient is Bathran's Hair, a delicate and uncommon plant gathered among the ruins of Bathran's Haunt in northern Ashenvale."
+  },
+  {
+   "q": "Does this potion completely heal the child?",
+   "aliases": [
+    "did it cure relara",
+    "is relara healed"
+   ],
+   "answer": "While it grants Pelturas hope and stabilizes his daughter, the affliction proves deep-seated and requires further sacred reagents, including Elune's Tears, to fully banish."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "The remedy showcases the profound medicinal power of Ashenvale's native flora, particularly Bathran's Hair, which thrives only in select, shadowed corners of the forest."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves of Astranaar, saving Relara is an urgent community matter, combining the woodland knowledge of hermits like Orendil with divine faith in Elune."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "bathran's hair",
+  "orendil broadleaf",
+  "orendil's cure",
+  "pelturas whitemoon",
+  "relara"
+ ],
+ "related": [
+  "quest:1020",
+  "quest:1010",
+  "npc:pelturas-whitemoon",
+  "subzone:astranaar",
+  "quest:1033",
+  "quest:1034",
+  "zone:ashenvale",
+  "topic:elune"
+ ],
+ "attribution": [
+  "Orendil's Cure",
+  "Orendil's Cure (Classic)"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "key": "item:barrel-of-thunder-ale",
+ "type": "item",
+ "name": "Barrel of Thunder Ale",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Barrel of Thunder Ale",
+  "quests": [
+   "quest:311"
+  ]
+ },
+ "summary": "The Barrel of Thunder Ale is a prized keg of Kharanos's signature brew, smuggled straight out of the Thunderbrew Distillery's cellar. Swapped out for an explosive cask of Marleth's Scalder, it serves as undeniable proof of foul play in an escalating brewing rivalry.",
+ "sections": [
+  {
+   "title": "A Bitter Trade",
+   "body": "In Dun Morogh, competition between rival master brewers runs deep, and few disputes are fiercer than the feud between the Thunderbrews of Kharanos and the Barleybrews of Brewnall Village. Marleth Barleybrew concocted a fiery stout called Marleth's Scalder to sabotage his rivals' cellar stock. This heavy barrel of Thunder Ale was seized in the exchange, dragged out under the noses of the local guards as physical evidence that the switch succeeded.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside this barrel?",
+   "aliases": [
+    "thunder ale contents",
+    "what is thunder ale"
+   ],
+   "answer": "It contains Thunder Ale, the famous stout brewed by the Thunderbrew family down in Kharanos. It is known across Dun Morogh as a stout, potent dwarven ale."
+  },
+  {
+   "q": "Where did this barrel come from?",
+   "aliases": [
+    "where do you get it",
+    "thunder ale location"
+   ],
+   "answer": "It is lifted directly from the cellar storage inside the Kharanos Distillery, taken during the clandestine delivery of Marleth's rival brew."
+  },
+  {
+   "q": "Who wants this barrel?",
+   "aliases": [
+    "who do i bring thunder ale to",
+    "marleth barleybrew quest"
+   ],
+   "answer": "Marleth Barleybrew, located at Brewnall Village to the west. He expects the barrel brought to him as proof that his Scalder was successfully planted among the Thunderbrews' barrels."
+  },
+  {
+   "q": "Why was the barrel taken?",
+   "aliases": [
+    "why steal thunder ale",
+    "bitter rivals story"
+   ],
+   "answer": "Marleth wanted tangible proof that someone managed to sneak into the Thunderbrew cellar, slip past the distillery guard, and sabotage his competitors' supply."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, beer brewing is serious business and high politics; swapping out a rival clan's prized cask in their own cellar is an audacious insult."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Slipping into a guarded cellar and swapping out heavy ale barrels without raising the alarm is a classic, practical display of stealth and finesse."
+  }
+ ],
+ "keywords": [
+  "barrel of thunder ale",
+  "brewnall village",
+  "dun morogh",
+  "kharanos",
+  "marleth barleybrew",
+  "thunder ale",
+  "thunderbrew"
+ ],
+ "related": [
+  "quest:311",
+  "quest:310",
+  "npc:marleth-barleybrew",
+  "subzone:kharanos",
+  "subzone:brewnall-village",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Barrel of Thunder Ale",
+  "Return to Marleth"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "item:zhevra-hooves",
+ "type": "item",
+ "name": "Zhevra Hooves",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Zhevra Hooves",
+  "quests": [
+   "quest:845"
+  ]
+ },
+ "summary": "Zhevra Hooves are sturdy animal parts collected from the wild equines roaming the arid plains of the Barrens. They serve as hunting trophies brought to the Crossroads to prove a traveler's prowess against beasts far stronger than initial appearances suggest.",
+ "sections": [
+  {
+   "title": "Trophies of the Hunt",
+   "body": "Zhevras may appear to be simple striped grazers, but their compact, muscular legs carry considerable lethality. Sergra Darkthorn, an experienced hunter stationed at the Crossroads, tests aspiring Horde scouts by sending them to harvest hooves from zhevra runners. The exercise is designed to hone a fledgling hunter's instincts and resilience, as a solid kick from a panicked runner is known to knock even a sturdy tauren flat on their haunches. Presenting intact hooves confirms that a hunter can handle swift, kicking quarry before moving on to Kalimdor's deadliest predators.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Zhevra Hooves?",
+   "aliases": [
+    "who needs hooves",
+    "who takes zhevra hooves",
+    "sergra hooves"
+   ],
+   "answer": "Sergra Darkthorn, an orc huntress located at the Crossroads in the Barrens, asks hunters to bring her four Zhevra Hooves to prove their readiness for tougher game."
+  },
+  {
+   "q": "Where do Zhevra Hooves come from?",
+   "aliases": [
+    "where to get hooves",
+    "zhevra runner location",
+    "find zhevra"
+   ],
+   "answer": "They are gathered from zhevra runners, which can be found grazing throughout the open savannahs north and south of the Crossroads."
+  },
+  {
+   "q": "Why are zhevra dangerous to hunt?",
+   "aliases": [
+    "are zhevras strong",
+    "zhevra kick strength",
+    "zhevra danger"
+   ],
+   "answer": "While not as aggressive as raptors or prowlers, zhevras possess immense kicking power in their hind legs. A direct kick from a sprinting zhevra is strong enough to knock an adult tauren off their feet."
+  },
+  {
+   "q": "Why does Sergra have hunters track zhevra rather than fiercer beasts?",
+   "aliases": [
+    "why hunt zhevra",
+    "sergra training purpose"
+   ],
+   "answer": "Sergra considers zhevras a step up from plainstriders, providing a safe but firm proving ground for newcomers to sharpen their teeth before confronting truly lethal creatures."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For fresh recruits arriving in the Barrens, harvesting hooves for Sergra Darkthorn is an early proving rite demonstrating fitness to defend the Crossroads."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking zhevras across the savannah teaches marksmen and trappers how to handle swift, agile herd animals that can quickly turn and strike with devastating kicks."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "darkthorn",
+  "hooves",
+  "hunt",
+  "runner",
+  "sergra",
+  "zhevra"
+ ],
+ "related": [
+  "quest:845",
+  "zone:barrens",
+  "subzone:crossroads",
+  "quest:860",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Zhevra Hooves",
+  "The Zhevra (Classic)"
+ ]
+}

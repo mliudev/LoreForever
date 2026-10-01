@@ -1,0 +1,75 @@
+{
+ "key": "item:altered-snapjaw-shell",
+ "type": "item",
+ "name": "Altered Snapjaw Shell",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Altered Snapjaw Shell",
+  "quests": [
+   "quest:880"
+  ]
+ },
+ "summary": "An Altered Snapjaw Shell is the carapace of a freshwater turtle inhabiting the lush oases of the Barrens. Druids studying the region examine these mutated shells to understand how strange subterranean fissures are warping the local wildlife.",
+ "sections": [
+  {
+   "title": "Signs of Corruption",
+   "body": "The freshwater turtles dwelling within the Lushwater and Stagnant Oases have undergone noticeable, unnatural changes. Believed to be drinking from springs fed by mysterious underground fissures, the oasis snapjaws exhibit altered carapaces that intrigue researchers at the Crossroads. Tonga Runetotem, a tauren druid seeking to divine the health of the land, gathers these shells to determine whether the energies welling up from the deep earth are an unnatural blight or something far stranger.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What makes these turtle shells altered?",
+   "aliases": [
+    "why are shells altered",
+    "what is altered snapjaw shell",
+    "snapjaw shell mutation"
+   ],
+   "answer": "The snapjaws dwell in the springs of the Lushwater and Stagnant Oases, which are fed by deep subterranean fissures. The strange energies bubbling up into the oasis waters have altered the physical biology of the creatures that drink from them, producing visibly warped carapaces."
+  },
+  {
+   "q": "Who wants these shells and why?",
+   "aliases": [
+    "who needs altered snapjaw shells",
+    "tonga runetotem shells",
+    "altered beings quest turn in"
+   ],
+   "answer": "Tonga Runetotem, a druid stationed at the Crossroads, asks hunters to harvest them. He believes that examining physical changes in native beasts is key to diagnosing what kind of power or corruption is affecting the Barrens' water supply."
+  },
+  {
+   "q": "Where are these snapjaws found?",
+   "aliases": [
+    "oasis snapjaw location",
+    "where to get altered shells",
+    "snapjaw shell locations"
+   ],
+   "answer": "Oasis snapjaws inhabit the waters and muddy shores of both the Lushwater Oasis and the Stagnant Oasis, situated south and southeast of the Crossroads."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids, studying the twisted carapaces of oasis beasts is an essential step in identifying whatever hidden imbalance is disturbing the waters of the Barrens."
+  }
+ ],
+ "keywords": [
+  "altered beings",
+  "altered snapjaw shell",
+  "barrens",
+  "lushwater oasis",
+  "oasis snapjaw",
+  "stagnant oasis",
+  "tonga runetotem"
+ ],
+ "related": [
+  "quest:880",
+  "npc:tonga-runetotem",
+  "subzone:crossroads",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Altered Snapjaw Shell",
+  "Altered Beings (Classic)"
+ ]
+}

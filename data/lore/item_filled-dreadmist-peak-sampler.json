@@ -1,0 +1,107 @@
+{
+ "key": "item:filled-dreadmist-peak-sampler",
+ "type": "item",
+ "name": "Filled Dreadmist Peak Sampler",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Filled Dreadmist Peak Sampler",
+  "quests": [
+   "quest:6127"
+  ]
+ },
+ "summary": "The Filled Dreadmist Peak Sampler is a vial containing corrupted water drawn from the elevated pools atop Dreadmist Peak in the northern Barrens. Gathered by fledgling druids of the Horde, it provides the physical evidence needed by the Cenarion Circle to study a vile affliction poisoning the region's wildlife.",
+ "sections": [
+  {
+   "title": "A Tainted Source",
+   "body": "The high crags of Dreadmist Peak house natural pools whose mists historically shape weather and rainfall across the northern Barrens. When the demon-worshipping Burning Blade established their coven atop the summit, the water quickly soured. Suspecting that demonic rituals poisoned the vapors feeding the surrounding savanna, Cenarion druids dispatch initiates to capture a specimen using a specialized sampler. The foul liquid inside confirms their worst fears, reeking of corruption potent enough to sicken the herds wandering below.",
+   "spoiler": 0
+  },
+  {
+   "title": "Curing the Savanna",
+   "body": "Brought to Tonga Runetotem at the Crossroads, the vile sample serves as the focal point for formulating an antidote. While the water proves the Burning Blade's direct hand in blighting the northern plains, analyzing its properties enables the Cenarion Circle to understand the poison's nature. By isolating the taint within this vial, druids develop the herbal remedies required to purge the affliction from dying gazelles and master their own natural power over poison.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is this water sample obtained?",
+   "aliases": [
+    "where do i get the sample",
+    "dreadmist sampler location",
+    "where to fill sampler"
+   ],
+   "answer": "The sample is gathered from a water pool situated at the very summit of Dreadmist Peak, a craggy mountain located northwest of the Crossroads in the Barrens."
+  },
+  {
+   "q": "Why is the water on Dreadmist Peak tainted?",
+   "aliases": [
+    "why is dreadmist water poisoned",
+    "who poisoned dreadmist peak",
+    "burning blade water"
+   ],
+   "answer": "The Burning Blade cult has taken over the heights of Dreadmist Peak to practice demon worship and dark rituals, corrupting the summit's natural waters."
+  },
+  {
+   "q": "Who needs the filled sampler?",
+   "aliases": [
+    "who do i bring the sampler to",
+    "tonga runetotem sampler",
+    "turn in dreadmist water"
+   ],
+   "answer": "It must be delivered to Tonga Runetotem, a Cenarion druid stationed at the Crossroads in the Barrens who is investigating the sudden sickness plaguing regional wildlife."
+  },
+  {
+   "q": "How does this poisoned water affect the Barrens?",
+   "aliases": [
+    "what does the water do",
+    "sick gazelles barrens",
+    "dreadmist mist effect"
+   ],
+   "answer": "The airy peaks and pools atop Dreadmist Peak naturally influence local weather patterns and mist. When poisoned, the vapors settle over the savanna north of the main road, causing widespread illness among the native gazelles."
+  },
+  {
+   "q": "What is the sampler used for after it is collected?",
+   "aliases": [
+    "what does tonga do with it",
+    "cure for the poison",
+    "power over poison research"
+   ],
+   "answer": "Tonga Runetotem analyzes the foul liquid to discern the exact properties of the demonic taint, using that knowledge to concoct a curative salve that druids use to treat the afflicted gazelles."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Retrieving this sample is an essential rite of passage for Horde druids, teaching them how natural waterways spread corruption and preparing them to master curative magics."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Investigating Dreadmist Peak exposes the encroaching threat of the Burning Blade cult right in the heart of the Horde's territory in the Barrens."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "cenarion circle",
+  "dreadmist peak",
+  "druid",
+  "filled dreadmist peak sampler",
+  "the barrens",
+  "the principal source",
+  "tonga runetotem"
+ ],
+ "related": [
+  "quest:6122",
+  "item:empty-dreadmist-peak-sampler",
+  "subzone:dreadmist-peak",
+  "npc:tonga-runetotem",
+  "npc:dendrite-starblaze",
+  "quest:6125",
+  "subzone:crossroads",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Filled Dreadmist Peak Sampler",
+  "The Principal Source (Horde)"
+ ]
+}

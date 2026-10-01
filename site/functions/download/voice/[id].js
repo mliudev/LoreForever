@@ -1,18 +1,18 @@
-// Community voice pack downloads: /download/voice/<id>. Counts each download per day in the same D1 `downloads`
-// table as the add-on itself (file = "voice:<id>"), then redirects to the pack's zip. Packs are published as assets
-// on a GitHub release of the public repo; add each one here when its card goes on public/voices.html.
-//   GET /download/voice/<id> -> 302 to VOICES[id]
+// Voice pack downloads: /download/voice/<id>. Counts each download per day in the same D1 `downloads` table as the
+// add-on itself (file = "voice:<id>"), then redirects to the pack's zip: the `download` of that voice in
+// public/voices/voices.json (a GitHub release asset of the public repo). Voices without one get a 404.
+//   GET /download/voice/<id> -> 302 to the voice's download
 
-const VOICES = {
-  // ashen: "https://github.com/mliudev/LoreForever/releases/download/voices/LoreForever_Voice_Ashen-1.0.0.zip",
-};
+import { loadVoices } from "../../../lib/voices.js";
+
 const SETUP = `CREATE TABLE IF NOT EXISTS downloads (
   day TEXT NOT NULL, file TEXT NOT NULL, n INTEGER NOT NULL, PRIMARY KEY (day, file))`;
 // Link previews and crawlers fetch links too; don't count them as downloads.
 const BOT = /bot|crawl|spider|slurp|preview|facebookexternalhit|embedly|discord|slack|telegram|whatsapp/i;
 
 export async function onRequestGet({ params, env, request }) {
-  const url = Object.hasOwn(VOICES, params.id) ? VOICES[params.id] : null;
+  const voice = (await loadVoices(env, request)).find(v => v.id === params.id);
+  const url = voice?.status === "live" && /^https:\/\//.test(voice.download || "") ? voice.download : null;
   if (!url) return new Response("Not found", { status: 404 });
   if (env.DB && !BOT.test(request.headers.get("user-agent") || "")) {
     const day = new Date().toISOString().slice(0, 10);

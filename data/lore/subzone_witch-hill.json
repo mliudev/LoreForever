@@ -16,7 +16,7 @@
   },
   {
    "title": "The Haunting of the Hill",
-   "body": "Behind its quiet, gloomy exterior, Witch Hill harbors foul magic. A demonic presence known as Zelfrax lurks within the area, drawing dark power to the desolate ground and adding to the local paranoia. Those who brave the hill must contend not only with the primitive savagery of the Mirefin, but with occult threats that make even seasoned Theramore patrols uneasy.",
+   "body": "Behind its quiet, gloomy exterior, Witch Hill is steeped in dark rumor. Tales of hauntings cling to the desolate ground, adding to the local paranoia. Those who brave the hill must contend not only with the primitive savagery of the Mirefin, but with occult threats that make even seasoned Theramore patrols uneasy.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "is there a witch here",
     "witch hill lore"
    ],
-   "answer": "The knoll has long had a sinister reputation for dark magic, odd lights, and supernatural danger, compounded by the presence of the demon Zelfrax and the eerie solitude of Swamplight Manor."
+   "answer": "The knoll has long had a sinister reputation for dark magic, odd lights, and supernatural danger, compounded by the eerie solitude of Swamplight Manor."
   },
   {
    "q": "What threats should travelers look out for on Witch Hill?",
@@ -55,13 +55,13 @@
     "witch hill enemies",
     "mobs on witch hill"
    ],
-   "answer": "Travelers must beware of roaming Mirefin murlocs establishing camps around the hill, as well as demonic entities and dark spirits tied to the lingering corruption in the soil."
+   "answer": "Travelers must beware of roaming Mirefin murlocs establishing camps around the hill, as well as the unsettling rumors of hauntings that cling to the hill."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Warlocks passing along the Theramore road may sense the demonic footprint left by Zelfrax haunting the dreary knoll."
+   "text": "Warlocks passing along the Theramore road may sense the dark rumors of hauntings clinging to the dreary knoll."
   },
   {
    "target": "faction:Alliance",
@@ -73,8 +73,7 @@
   "mirefin",
   "swamp eye jarl",
   "swamplight manor",
-  "witch hill",
-  "zelfrax"
+  "witch hill"
  ],
  "related": [
   "zone:dustwallow",

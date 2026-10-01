@@ -1,0 +1,117 @@
+{
+ "key": "quest:3522",
+ "type": "quest",
+ "name": "Iverron's Antidote",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   3522
+  ],
+  "level": "4",
+  "faction": "Alliance",
+  "start": "Dirania Silvershine",
+  "end": "Iverron",
+  "previous": "Iverron's Antidote (Classic)",
+  "next": null,
+  "wiki": "Iverron's Antidote (2)",
+  "chain": []
+ },
+ "summary": "This errand tasks an adventurer with racing against time to deliver freshly brewed medicine to a poisoned night elf scout. Stranded outside a spider-infested cave in Shadowglen, Iverron depends entirely on Dirania Silvershine's herbal concoction before the potent mixture loses its efficacy.",
+ "sections": [
+  {
+   "title": "A Race Against the Clock",
+   "body": "Dirania Silvershine crafts the curative brew using freshly harvested venom sacs, lily roots, and hyacinth fungi, but its unstable alchemical nature poses a grave risk. The medicine retains its potency for a mere five minutes after distillation. Anyone carrying the vial must sprint directly from the glade toward the northern heights without hesitation.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Habit of Trouble",
+   "body": "Iverron has fallen victim to the Webwood spiders lurking around the barrows and caves of Shadowglen. By his own admission, he possesses an unfortunate knack for stumbling into danger, relying frequently on Dirania's herbal expertise to extract him from perilous circumstances. Even after quaffing the antidote, his recovery remains fragile, leaving him wary of the hostile arachnids that still guard his way home.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is there a time limit on delivering the antidote?",
+   "aliases": [
+    "why five minutes",
+    "antidote timer",
+    "timed quest"
+   ],
+   "answer": "The antidote mixed by Dirania Silvershine relies on raw natural ingredients and fresh venom. Its active healing properties degrade rapidly once prepared, rendering it completely useless if not consumed within five minutes of leaving her care."
+  },
+  {
+   "q": "Where is Iverron located?",
+   "aliases": [
+    "where is iverron",
+    "iverron location",
+    "find iverron"
+   ],
+   "answer": "Iverron is slumped against the exterior rocks outside the northern cave in Shadowglen, north of the main path through the grove."
+  },
+  {
+   "q": "How was Iverron poisoned?",
+   "aliases": [
+    "who poisoned iverron",
+    "why is iverron sick",
+    "iverron poison"
+   ],
+   "answer": "He was struck by the venomous Webwood spiders that inhabit the northern outskirts of Shadowglen, an aggressive breed that has multiplied around the roots and caves of Teldrassil."
+  },
+  {
+   "q": "What happens after Iverron drinks the antidote?",
+   "aliases": [
+    "what next iverron",
+    "after iverron antidote",
+    "iverron follow up"
+   ],
+   "answer": "Though the poison is neutralized, Iverron remains too weak and shaken to travel safely on his own, prompting him to ask for aid in clearing out the nearby Webwood spiders blocking his route back to safety."
+  },
+  {
+   "q": "What relationship do Dirania and Iverron have?",
+   "aliases": [
+    "dirania and iverron",
+    "who is dirania to iverron",
+    "are they friends"
+   ],
+   "answer": "Dirania Silvershine is a capable herbalist and healer in Shadowglen who frequently rescues Iverron from his misadventures. Iverron openly acknowledges that getting into trouble is second nature to him and that Dirania is constantly bailing him out."
+  },
+  {
+   "q": "What happens if the antidote expires before reaching him?",
+   "aliases": [
+    "antidote expired",
+    "failed timer",
+    "lost antidote"
+   ],
+   "answer": "If the volatile brew spoils before delivery, the task cannot be completed. You must return to Dirania Silvershine in Shadowglen to obtain a fresh dose and make the run again."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young night elves training within Shadowglen, rescuing Iverron serves as a sobering reminder of the growing corruption and aggression stirring among Teldrassil's native wildlife."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The volatile nature of the draught demonstrates the challenges of working with raw woodland flora, where botanical concoctions lose their vital properties almost immediately without proper preservation."
+  }
+ ],
+ "keywords": [
+  "antidote",
+  "dirania silvershine",
+  "iverron",
+  "shadowglen",
+  "teldrassil",
+  "venom",
+  "webwood spider"
+ ],
+ "related": [
+  "npc:iverron",
+  "npc:dirania-silvershine",
+  "quest:3521",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Iverron's Antidote (2)"
+ ]
+}

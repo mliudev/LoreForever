@@ -1,0 +1,95 @@
+{
+ "key": "item:dirt-caked-pendant",
+ "type": "item",
+ "name": "Dirt-Caked Pendant",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Dirt-Caked Pendant",
+  "quests": [
+   "quest:1512"
+  ]
+ },
+ "summary": "The Dirt-Caked Pendant is a personal keepsake belonging to the captured orc Dogran. Given to an aspiring warlock in the Barrens, it serves as a crucial emotional bait to lure and bind a succubus in Orgrimmar.",
+ "sections": [
+  {
+   "title": "A Tragic Token",
+   "body": "Held by the broken warrior Dogran during his torment in the Barrens, the Dirt-Caked Pendant represents his unspoken love for his mate, Zankaja. Poisoned and crippled beyond recovery, Dogran surrendered the pendant rather than return as a burden to her, choosing instead to perish fighting his captors in battle. Entrusted to a warlock, the grim memento was carried back to Orgrimmar so that its heavy burden of heartbreak and devotion could be repurposed by the Shadow Council's acolytes.",
+   "spoiler": 1
+  },
+  {
+   "title": "Bait for a Demon",
+   "body": "In the subterranean depths of the Cleft of Shadow, Gan'rul Bloodeye recognizes the dark potential woven into such relics. A succubus thrives upon mortal yearning, romance, and tragedy. By cleaning and polishing Dogran's pendant until it shines, the warlock master transforms a symbol of unrequited love into an irresistible spiritual lure, calling forth a devourer of souls to be dominated through ritual combat.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Dirt-Caked Pendant come from?",
+   "aliases": [
+    "pendant origin",
+    "where do i get the pendant",
+    "who gives the pendant"
+   ],
+   "answer": "The pendant is handed over by Dogran, a captive orc warrior held in the Barrens, after you administer Ken'zigla's draught to revive his senses."
+  },
+  {
+   "q": "What is the pendant's connection to Zankaja?",
+   "aliases": [
+    "who is zankaja",
+    "dogran and zankaja",
+    "pendant meaning"
+   ],
+   "answer": "Zankaja is Dogran's mate in Orgrimmar. Dogran chose to give up the pendant and hide his survival from her so she would not be saddled with caring for an invalid warrior."
+  },
+  {
+   "q": "Why does Gan'rul Bloodeye need this specific pendant?",
+   "aliases": [
+    "why need pendant",
+    "succubus bait pendant",
+    "ganrul bloodeye pendant"
+   ],
+   "answer": "Succubi are drawn to strong mortal emotions, particularly romance, heartbreak, and devotion. Once cleaned, Dogran's pendant serves as a potent focus to summon a succubus into the summoning circle."
+  },
+  {
+   "q": "What happens after the pendant is delivered to Orgrimmar?",
+   "aliases": [
+    "what next pendant",
+    "what to do with pendant"
+   ],
+   "answer": "Gan'rul Bloodeye cleans the pendant and uses its allure to initiate The Binding, drawing a succubus into the circle beneath the Cleft of Shadow for the warlock to defeat and subjugate."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "For warlocks in training, the pendant illustrates the dark art of leveraging mortal grief and devotion to command demons from the Twisting Nether."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The pendant embodies Dogran's bittersweet choice: refusing to burden his clan and mate as a cripple, he sacrificed his keepsake to buy a warrior's final stand."
+  }
+ ],
+ "keywords": [
+  "devourer of souls",
+  "dirt-caked pendant",
+  "dogran",
+  "gan'rul bloodeye",
+  "love's gift",
+  "succubus",
+  "zankaja"
+ ],
+ "related": [
+  "quest:1512",
+  "quest:1471",
+  "npc:gan-rul-bloodeye",
+  "quest:1515",
+  "npc:zankaja",
+  "quest:1472",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Dirt-Caked Pendant",
+  "Love's Gift"
+ ]
+}

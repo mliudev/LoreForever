@@ -1,0 +1,124 @@
+{
+ "key": "quest:3116",
+ "type": "quest",
+ "name": "Simple Sigil",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   3116
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "Conservator Ilthalaine",
+  "end": "Alyissia",
+  "previous": "The Balance of Nature (Classic)",
+  "next": null,
+  "wiki": "Simple Sigil (Classic)",
+  "chain": []
+ },
+ "summary": "The Simple Sigil is an introductory summons directed to aspiring night elf warriors in Shadowglen. Delivered by Conservator Ilthalaine on behalf of the trainer Alyissia, it formally marks the recruit's transition into combat training to protect the fledgling boughs of Teldrassil.",
+ "sections": [
+  {
+   "title": "A Call to Arms in Shadowglen",
+   "body": "After proving their basic survival skills against the restless wildlife of Shadowglen, young night elf warriors receive an inscribed sigil passed through Conservator Ilthalaine. The token is a formal request from Alyissia, the local warrior trainer stationed at Aldrassil, bidding the novice to step forward and dedicate their martial strength to defending their people.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Tumultuous New Era",
+   "body": "When reporting to Alyissia, she places the warrior's training against a backdrop of rapid and troubling changes. In just a few short years, the night elves have raised the World Tree Teldrassil, watched an insidious taint spread through forest beasts both near and far, and reconnected with ancient ancestral regions once thought lost, such as Feralas. In the face of these perils, capable defenders are urgently required.",
+   "spoiler": 0
+  },
+  {
+   "title": "Opening the Boughs",
+   "body": "Beyond martial discipline, Alyissia prepares young Kaldorei for the world outside their sheltered glade. She advises recruits to withhold prejudice against outsiders arriving upon Teldrassil from other races. While cautioning that not every traveler acts from pure altruism, she emphasizes that allies are vital to the defense of the Kaldorei, urging her pupils to extend reasonable trust as they take up their role as protectors.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Simple Sigil?",
+   "aliases": [
+    "simple sigil item",
+    "what is this sigil",
+    "sigil of the warrior"
+   ],
+   "answer": "It is an inscribed token sent by Alyissia, the warrior trainer in Shadowglen, delivered to novice night elf warriors to summon them for formal combat instruction."
+  },
+  {
+   "q": "Who sends you to find Alyissia?",
+   "aliases": [
+    "who gives the simple sigil",
+    "quest giver simple sigil"
+   ],
+   "answer": "Conservator Ilthalaine delivers the sigil and directs you to Alyissia after you complete your initial tasks maintaining the balance in Shadowglen."
+  },
+  {
+   "q": "Where can Alyissia be found?",
+   "aliases": [
+    "alyissia location",
+    "where is alyissia",
+    "warrior trainer shadowglen"
+   ],
+   "answer": "Alyissia is located within the safe haven of Shadowglen, standing near the great trunk of Aldrassil where she trains aspiring night elf warriors."
+  },
+  {
+   "q": "Why does Alyissia say warriors are needed right now?",
+   "aliases": [
+    "why do night elves need warriors",
+    "shadowglen warrior lore"
+   ],
+   "answer": "Recent years have brought drastic challenges: the founding of Teldrassil, widespread corruption infecting local wildlife, and the rediscovery of long-lost lands like Feralas. Skilled combatants are required to shield the Kaldorei from these encroaching threats."
+  },
+  {
+   "q": "What does Alyissia say about other races visiting Teldrassil?",
+   "aliases": [
+    "alyissia on other races",
+    "night elves and outsiders",
+    "alliance in teldrassil"
+   ],
+   "answer": "She counsels against prejudice, explaining that outsiders of other races will soon visit Teldrassil's boughs. While acknowledging that not all arrivals are purely altruistic, she advises extending a measure of trust so they might assist in the tree's defense."
+  },
+  {
+   "q": "What is the significance of mentioning Feralas?",
+   "aliases": [
+    "why mention feralas",
+    "feralas connection"
+   ],
+   "answer": "Feralas represents ancient night elf lands that were long cut off or believed lost following the Great Sundering. Its rediscovery highlights how rapidly the Kaldorei are reconnecting with the wider world after millennia of isolation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This quest marks your official beginning as a Kaldorei warrior, introducing you to Alyissia as your initial mentor in arms."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The sigil speaks directly to the rapid changes surrounding the Kaldorei\u2014from the planting of Teldrassil to opening their secluded home to foreign allies."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alyissia's counsel reflects the night elves' early efforts to welcome other Alliance races to their boughs despite centuries of isolation."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "alyissia",
+  "feralas",
+  "ilthalaine",
+  "shadowglen",
+  "simple sigil",
+  "teldrassil",
+  "warrior"
+ ],
+ "related": [
+  "npc:alyissia",
+  "subzone:shadowglen",
+  "zone:teldrassil",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Simple Sigil (Classic)"
+ ]
+}

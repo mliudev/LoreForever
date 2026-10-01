@@ -1,0 +1,89 @@
+{
+ "key": "item:crate-of-crash-helmets",
+ "type": "item",
+ "name": "Crate of Crash Helmets",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Crate of Crash Helmets",
+  "quests": [
+   "quest:1179"
+  ]
+ },
+ "summary": "A heavy supply shipment of dwarven Siege Engine headgear destined for the Shimmering Flats in Thousand Needles. The sturdy helmets are urgently required by the Brassbolts brothers to protect test drivers from concussions caused by their experimental rocket cars.",
+ "sections": [
+  {
+   "title": "Safety at High Speeds",
+   "body": "Out across the blinding white expanse of the Shimmering Flats, gnome engineers test the absolute limits of mechanical propulsion. Unfortunately for the test pilots, the experimental rocket cars designed by the Brassbolts brothers move far faster than their steering can reliably handle. With drivers routinely suffering violent crashes and head trauma, ordinary leather caps no longer suffice. To prevent their roster of willing daredevils from vanishing entirely, heavy-duty dwarven Siege Engine helmets are packed and dispatched across the sea to keep drivers conscious\u2014and alive.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Crate of Crash Helmets?",
+   "aliases": [
+    "crate contents",
+    "what helmets are these",
+    "crash helmets type"
+   ],
+   "answer": "The crate contains heavy Siege Engine helmets acquired from dwarven military stocks. Built to withstand concussive explosions and violent vehicle impacts, they offer the thickest head protection available for high-speed trials."
+  },
+  {
+   "q": "Who needs these helmets?",
+   "aliases": [
+    "who gets the helmets",
+    "who is the crate for",
+    "helmet destination"
+   ],
+   "answer": "They are sent to Wizzle Brassbolts and his brother out at the Mirage Raceway in the Shimmering Flats. Their reckless vehicle designs repeatedly knock out test pilots, creating an acute need for serious head protection."
+  },
+  {
+   "q": "Why are the Brassbolts brothers crashing so much?",
+   "aliases": [
+    "why do they crash",
+    "rocket car problems",
+    "gnome racing crashes"
+   ],
+   "answer": "Gnomish vehicle design prioritizes raw speed and technological boundary-pushing over stable handling. The brothers built an exceptionally fast rocket car, but its sheer velocity makes collisions on the salt flats almost unavoidable."
+  },
+  {
+   "q": "Where are the helmets being delivered?",
+   "aliases": [
+    "delivery location",
+    "where is wizzle",
+    "where do these go"
+   ],
+   "answer": "The shipment must be brought down to the Shimmering Flats, the vast salt plain resting in the southeastern reaches of Thousand Needles in Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Any engineer understands the delicate balance between maximum propulsion and catastrophic failure\u2014and the absolute necessity of heavy armor when safety features are an afterthought."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "For gnomes at the Mirage Raceway, pilot concussions are simply the cost of doing business when out-innovating goblin rivals on the salt flats."
+  }
+ ],
+ "keywords": [
+  "crate of crash helmets",
+  "mirage raceway",
+  "rocket car",
+  "shimmering flats",
+  "siege engine",
+  "thousand needles",
+  "wizzle brassbolts"
+ ],
+ "related": [
+  "quest:1179",
+  "npc:wizzle-brassbolts",
+  "subzone:shimmering-flats",
+  "zone:thousandneedles",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Crate of Crash Helmets",
+  "The Brassbolts Brothers"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "item:miners-gear",
+ "type": "item",
+ "name": "Miners' Gear",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Miners' Gear",
+  "quests": [
+   "quest:307"
+  ]
+ },
+ "summary": "Miners' Gear consists of sturdy dwarven picks, shovels, and excavation tools stored within the Silver Stream Mine. Following an infestation of vermin, the Miners' League tasked adventurers with retrieving these valuable implements before local guards launched an assault.",
+ "sections": [
+  {
+   "title": "Supplies of the Miners' League",
+   "body": "When the Silver Stream Mine in eastern Loch Modan ran out of ore, the Miners' League repurposed the quiet tunnels into a subterranean storage depot for mining equipment. Unfortunately, tunnel-dwelling kobolds quickly overrun the complex, making off with the stored goods and nesting among the crates. Fearing the valuable dwarven gear would either be wrecked in an all-out assault by the Mountaineers or ruined by the scavengers, the league relies on bold adventurers to venture inside and haul the crates back to safety.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Miners' Gear?",
+   "aliases": [
+    "what is miners gear",
+    "miners gear items",
+    "miners gear loch modan"
+   ],
+   "answer": "Miners' Gear refers to crates of dwarven excavation tools\u2014such as picks and shovels\u2014belonging to the Miners' League, stored away in the dry tunnels of the Silver Stream Mine."
+  },
+  {
+   "q": "Why was the gear left in the mine?",
+   "aliases": [
+    "why is gear in silver stream mine",
+    "why leave gear there"
+   ],
+   "answer": "After the Silver Stream Mine ran out of ore, the Miners' League converted the empty tunnels into a storage depot. It remained there until kobolds unexpectedly infested the shafts."
+  },
+  {
+   "q": "Who wants this gear recovered?",
+   "aliases": [
+    "who wants miners gear",
+    "who needs the gear",
+    "mountaineer stormpike gear"
+   ],
+   "answer": "Mountaineer Stormpike coordinates the recovery effort on behalf of the Miners' League. He seeks to salvage the tools before his fellow warriors march in to exterminate the kobolds."
+  },
+  {
+   "q": "Where is the Miners' Gear found?",
+   "aliases": [
+    "miners gear location",
+    "where to find miners gear",
+    "miners league crates location"
+   ],
+   "answer": "The gear is packed into Miners' League Crates scattered throughout the shafts of the Silver Stream Mine, located along the eastern hills of Loch Modan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "Every miner knows the worth of well-forged dwarven iron; leaving high-grade picks and shovels in the hands of candle-wearing scavengers is considered a minor tragedy."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, kobolds laying their filthy paws on dwarven craft is an intolerable insult that warrants clearing out the mine immediately."
+  }
+ ],
+ "keywords": [
+  "filthy paws",
+  "kobold",
+  "loch modan",
+  "miners gear",
+  "miners league",
+  "mountaineer stormpike",
+  "silver stream mine"
+ ],
+ "related": [
+  "quest:307",
+  "subzone:silver-stream-mine",
+  "npc:mountaineer-stormpike",
+  "zone:lochmodan",
+  "topic:kobold",
+  "topic:warrior"
+ ],
+ "attribution": [
+  "Miners' Gear",
+  "Filthy Paws (Classic)"
+ ]
+}

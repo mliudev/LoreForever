@@ -1,0 +1,94 @@
+{
+ "key": "item:report-on-the-defias-brotherhood",
+ "type": "item",
+ "name": "Report on the Defias Brotherhood",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Report on the Defias Brotherhood",
+  "quests": [
+   "quest:396"
+  ]
+ },
+ "summary": "The Report on the Defias Brotherhood is an official document compiled by City Architect Baros Alexston, detailing the activities and threat posed by Edwin VanCleef's conspirators. Intended to inform the royal court, it is entrusted to the adventurer who uncovered the Deadmines plot for personal delivery to Stormwind Keep.",
+ "sections": [
+  {
+   "title": "A Dispatch for the Throne",
+   "body": "Following the long investigation into the unrest plaguing Westfall and the surrounding territories, City Architect Baros Alexston prepared this formal report to alert the leadership of Stormwind to the full scope of the Defias threat. Rather than sending a standard royal messenger, Alexston entrusted the document to the very hero who untangled the conspiracy. Delivered directly to Stormwind Keep, the report is meant to accompany a personal audience detailing Edwin VanCleef's schemes and the danger they pose to the kingdom.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reception at the Keep",
+   "body": "Though directed to King Varian Wrynn, the courier arrives at the throne room only to find the monarch absent, away on a quiet diplomatic journey. In his place, the royal advisors and regency presiding over the boy-king Anduin receive the report. While royal commendations are offered for stopping VanCleef's machinations, the presence of court figures like Lady Katrana Prestor casts an uncertain shadow over how seriously the warnings in the document will truly be heeded.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Report on the Defias Brotherhood?",
+   "aliases": [
+    "what is this report",
+    "defias report item",
+    "baros alexston report"
+   ],
+   "answer": "It is an official briefing written by Baros Alexston that compiles all the gathered intelligence concerning Edwin VanCleef, his subterranean army, and the broader Defias conspiracy against Stormwind."
+  },
+  {
+   "q": "Who wrote this report?",
+   "aliases": [
+    "who made the defias report",
+    "report author"
+   ],
+   "answer": "The document was prepared by Baros Alexston, the City Architect of Stormwind, who once worked alongside the stonemasons before they broke away to form the Defias Brotherhood."
+  },
+  {
+   "q": "Why am I delivering this to Stormwind Keep?",
+   "aliases": [
+    "why do i deliver this",
+    "audience with the king delivery"
+   ],
+   "answer": "Baros Alexston believes the adventurer who uncovered the conspiracy deserves the honor of presenting the findings directly to the throne, securing royal recognition for safeguarding the realm."
+  },
+  {
+   "q": "Does King Varian read the report?",
+   "aliases": [
+    "does the king read it",
+    "varian wrynn audience"
+   ],
+   "answer": "No. When you arrive at Stormwind Keep, King Varian Wrynn is absent, reportedly away on a secret diplomatic voyage. His royal court and regency receive the document in his stead."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Delivering this dispatch marks the culmination of the long struggle to secure Westfall and alert Stormwind's leadership to the insurrection brewing at its borders."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of the realm, carrying this report highlights the tragic, unresolved conflict between Stormwind's noble house and the stonemasons who rebuilt the city."
+  }
+ ],
+ "keywords": [
+  "audience with the king",
+  "baros alexston",
+  "defias",
+  "report",
+  "stormwind keep",
+  "vancleef",
+  "westfall"
+ ],
+ "related": [
+  "quest:396",
+  "npc:baros-alexston",
+  "topic:defias-brotherhood",
+  "subzone:stormwind-keep",
+  "zone:stormwind",
+  "quest:65",
+  "topic:varian-wrynn",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Report on the Defias Brotherhood",
+  "An Audience with the King"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "key": "item:head-of-arugal",
+ "type": "item",
+ "name": "Head of Arugal",
+ "era": "classic",
+ "zone": "shadowfang",
+ "meta": {
+  "wiki": "Head of Arugal",
+  "quests": [
+   "quest:1014"
+  ]
+ },
+ "summary": "The Head of Arugal is the grisly trophy taken from the mad archmage atop Shadowfang Keep. Brought to the Forsaken at the Sepulcher, it serves as undeniable proof that the master of the local worgen has fallen.",
+ "sections": [
+  {
+   "title": "Trophy of the Mad Archmage",
+   "body": "Archmage Arugal has long cast a dark shadow across Silverpine Forest, commanding the lupine horrors from the ramparts of Shadowfang Keep. Claiming his severed head is the ultimate mandate given by Dalar Dawnweaver at the Sepulcher. To the Forsaken, the head is far more than a gruesome token; it signifies the removal of a potent spellcaster whose feral beasts impeded Lady Sylvanas's complete dominion over Silverpine. Presenting it to Dawnweaver confirms that the rogue archmage's foul sorcery has finally been severed from the land.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Head of Arugal?",
+   "aliases": [
+    "who needs arugals head",
+    "arugal head turn in",
+    "who takes head of arugal"
+   ],
+   "answer": "Dalar Dawnweaver, an emissary stationed at the Sepulcher in Silverpine Forest, demands the head as part of the task 'Arugal Must Die'."
+  },
+  {
+   "q": "Where do you obtain the Head of Arugal?",
+   "aliases": [
+    "how to get arugals head",
+    "arugal head drop",
+    "where is arugal's head"
+   ],
+   "answer": "It is severed from Archmage Arugal himself, who resides at the highest pinnacle of Shadowfang Keep overlooking Pyrewood Village and the Silverpine woods."
+  },
+  {
+   "q": "Why do the Forsaken want Arugal dead?",
+   "aliases": [
+    "why kill arugal",
+    "forsaken arugal reason",
+    "why does dalar want arugal dead"
+   ],
+   "answer": "Arugal's presence and his pack of feral worgen prevent the Forsaken from securing Silverpine Forest as a safe strategic stronghold for Lady Sylvanas and the Undercity."
+  },
+  {
+   "q": "What happens after the head is turned in?",
+   "aliases": [
+    "after arugal dies",
+    "result of arugal must die"
+   ],
+   "answer": "Dalar Dawnweaver vows to eradicate the remnants of Arugal's foul spells, declaring that Silverpine is finally freed from the mad wizard's vice."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, delivering Arugal's head eliminates a volatile sorcerer on their southern doorstep, securing Silverpine Forest for the Dark Lady."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The severed head of a former Kirin Tor archmage serves as a stark warning of the madness and ruin that unchecked, desperate summonings can bring upon even gifted practitioners."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "arugal must die",
+  "dalar dawnweaver",
+  "head of arugal",
+  "sepulcher",
+  "shadowfang keep",
+  "silverpine"
+ ],
+ "related": [
+  "npc:arugal",
+  "quest:1014",
+  "npc:dalar-dawnweaver",
+  "zone:shadowfang",
+  "zone:silverpine",
+  "subzone:sepulcher",
+  "topic:lordaeron",
+  "topic:mage"
+ ],
+ "attribution": [
+  "Head of Arugal",
+  "Arugal Must Die"
+ ]
+}

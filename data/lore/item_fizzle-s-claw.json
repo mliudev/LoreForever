@@ -1,0 +1,96 @@
+{
+ "key": "item:fizzle-s-claw",
+ "type": "item",
+ "name": "Fizzle's Claw",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Fizzle's Claw",
+  "quests": [
+   "quest:806"
+  ]
+ },
+ "summary": "Fizzle's Claw is the severed hand of the goblin warlock Fizzle Darkstorm. Taken from his encampment in Thunder Ridge, it serves as physical proof to the Horde commanders in Razor Hill that a dangerous Burning Blade conspirator has been slain.",
+ "sections": [
+  {
+   "title": "A Grim Trophy",
+   "body": "Orgnil Soulscar, tasked with uprooting shadow cults threatening the orcish homeland, identified Fizzle Darkstorm as an instigator spreading corruption in Thunder Ridge. Demand for Fizzle's claw was not merely out of savagery, but practical necessity: the Horde requires indisputable evidence when a covert warlock operating under the banner of the Burning Blade is eliminated.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat in Thunder Ridge",
+   "body": "Thunder Ridge was already disrupted by elemental unrest, making Fizzle's cultist presence an imminent peril to the surrounding territories. By severing the goblin's claw and returning it to Razor Hill, Horde scouts confirmed that the warlock's rituals and his attempts to establish a Burning Blade foothold had been thwarted.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who does this claw belong to?",
+   "aliases": [
+    "who is fizzle",
+    "fizzle darkstorm",
+    "claw owner"
+   ],
+   "answer": "The claw belonged to Fizzle Darkstorm, a treacherous goblin warlock affiliated with the shadow cult known as the Burning Blade."
+  },
+  {
+   "q": "Why does Orgnil Soulscar want Fizzle's Claw?",
+   "aliases": [
+    "why need claw",
+    "orgnil soulscar claw",
+    "proof of death"
+   ],
+   "answer": "Orgnil Soulscar needs definitive proof of Fizzle's death. The Burning Blade operates from the shadows, so presenting the goblin warlock's claw confirms that this particular threat to Durotar has been permanently purged."
+  },
+  {
+   "q": "Where was the claw found?",
+   "aliases": [
+    "fizzle location",
+    "where is fizzle",
+    "thunder ridge claw"
+   ],
+   "answer": "It is taken from Fizzle Darkstorm at his camp tucked away in Thunder Ridge, a canyon located to the northwest of Razor Hill in Durotar."
+  },
+  {
+   "q": "What is the Burning Blade doing in Durotar?",
+   "aliases": [
+    "burning blade durotar",
+    "why are cultists in thunder ridge"
+   ],
+   "answer": "The Burning Blade is a sinister cult seeking to undermine the new orcish homeland through demonic corruption, dark sorcery, and civil unrest. Warlocks like Fizzle establish hidden camps to spread chaos across the region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Presenting Fizzle's claw to Razor Hill demonstrates an ongoing commitment to cleansing Durotar of the shadow cults threatening the fragile safety of the young nation."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Fizzle Darkstorm used fel arts to serve the subversive Burning Blade, turning his dark talents toward direct rebellion against the Horde."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "dark storms",
+  "durotar",
+  "fizzle darkstorm",
+  "fizzle's claw",
+  "orgnil soulscar",
+  "razor hill",
+  "thunder ridge"
+ ],
+ "related": [
+  "quest:806",
+  "npc:orgnil-soulscar",
+  "subzone:thunder-ridge",
+  "subzone:razor-hill",
+  "zone:durotar",
+  "topic:warlock",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Fizzle's Claw",
+  "Dark Storms (quest)"
+ ]
+}

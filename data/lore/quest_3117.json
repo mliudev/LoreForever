@@ -1,0 +1,118 @@
+{
+ "key": "quest:3117",
+ "type": "quest",
+ "name": "Etched Sigil",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   3117
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "Conservator Ilthalaine",
+  "end": "Ayanna Everstride",
+  "previous": "The Balance of Nature (Classic)",
+  "next": null,
+  "wiki": "Etched Sigil (Classic)",
+  "chain": []
+ },
+ "summary": "The Etched Sigil is a written summons delivered through Conservator Ilthalaine to young night elf hunters in Shadowglen. It calls them up the great boughs of Aldrassil to meet their trainer, Ayanna Everstride, and formally begin their path of archery and beastcraft.",
+ "sections": [
+  {
+   "title": "A Summons to the Boughs",
+   "body": "After proving their early vigilance in defending Shadowglen, young kaldorei hunters are handed an inscribed token by Conservator Ilthalaine. Carried originally by a messenger from the hunter mentor Ayanna Everstride, the etched sigil directs the novice to climb high into the upper reaches of Aldrassil, where the trainers keep watch over the canopy.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Path of the Hunter",
+   "body": "Meeting Ayanna marks the formal start of a hunter's training on Teldrassil. She instructs novices in the dual arts of marksmanship and understanding the wild creatures of Kalimdor. Ayanna emphasizes that a true hunter must treat their beast companions with respect, maintaining awareness and humility in a world full of unseen perils.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Etched Sigil?",
+   "aliases": [
+    "etched sigil",
+    "what is this sigil",
+    "sigil item"
+   ],
+   "answer": "It is an inscribed message sent by the hunter trainer Ayanna Everstride to direct promising night elf novices to her post atop Aldrassil."
+  },
+  {
+   "q": "Where is Ayanna Everstride located?",
+   "aliases": [
+    "where is ayanna",
+    "find ayanna everstride",
+    "ayanna everstride location"
+   ],
+   "answer": "She can be found on the upper terraces of Aldrassil, the great world-tree hollow in the center of Shadowglen."
+  },
+  {
+   "q": "Who hands out the Etched Sigil?",
+   "aliases": [
+    "who gives the quest",
+    "quest giver",
+    "where do i get etched sigil"
+   ],
+   "answer": "Conservator Ilthalaine hands it to night elf hunters once they begin proving themselves by defending the local woodland."
+  },
+  {
+   "q": "What does Ayanna Everstride teach?",
+   "aliases": [
+    "hunter training",
+    "what does ayanna teach",
+    "why talk to ayanna"
+   ],
+   "answer": "She trains hunters in the traditions of marksmanship, beast management, and wilderness survival while warning them never to underestimate the dangers abroad."
+  },
+  {
+   "q": "Why does Ayanna caution hunters about their pets?",
+   "aliases": [
+    "beast danger",
+    "why respect beasts",
+    "pet caution"
+   ],
+   "answer": "She reminds her students that the wilderness harbors threats far more formidable than novice hunters realize, meaning a hunter must respect their companion animals rather than treat their abilities casually."
+  },
+  {
+   "q": "Is this quest available to other classes?",
+   "aliases": [
+    "can druids do this",
+    "is this hunter only",
+    "other classes"
+   ],
+   "answer": "No, the Etched Sigil is specifically an introductory class summons meant solely for night elf hunters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This quest marks your official introduction to hunter mentorship in Teldrassil, opening the door to learning bow craft, tracking, and beast mastery."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, hunting is a sacred discipline intertwined with natural harmony and reverence for Elune, rather than mere sport."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "ayanna everstride",
+  "etched sigil",
+  "hunter",
+  "ilthalaine",
+  "shadowglen",
+  "teldrassil"
+ ],
+ "related": [
+  "npc:ayanna-everstride",
+  "subzone:aldrassil",
+  "subzone:shadowglen",
+  "zone:teldrassil",
+  "topic:elune"
+ ],
+ "attribution": [
+  "Etched Sigil (Classic)"
+ ]
+}

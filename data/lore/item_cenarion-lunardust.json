@@ -1,0 +1,91 @@
+{
+ "key": "item:cenarion-lunardust",
+ "type": "item",
+ "name": "Cenarion Lunardust",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Cenarion Lunardust",
+  "quests": [
+   "quest:6002"
+  ]
+ },
+ "summary": "Cenarion Lunardust is a sacred powder bestowed upon young tauren druids by Turak Runetotem on the heights of Thunder Bluff. It is used to awaken the guardian beast Lunaclaw at an ancient Moonkin Stone on the border of Mulgore and the Barrens.",
+ "sections": [
+  {
+   "title": "A Rite of Body and Heart",
+   "body": "Entrusted to initiates ready to claim their place among the Druids of the Claw, Cenarion Lunardust carries the blessings of the Cenarion Circle. When scattered across the Moonkin Stone west of Camp Taurajo, the glowing dust summons forth Lunaclaw, a sacred beast bound to test the initiate. Defeating this guardian tests both physical fortitude and spiritual resolve, allowing the young druid to absorb the strength of body and heart required to assume the form of the bear.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Cenarion Lunardust used for?",
+   "aliases": [
+    "what does lunardust do",
+    "how to use cenarion lunardust",
+    "lunardust purpose"
+   ],
+   "answer": "It is sprinkled over the Moonkin Stone located in the hills between Mulgore and the Barrens, just west of Camp Taurajo. Applying the dust summons Lunaclaw, a powerful beast that initiates must defeat to prove their strength."
+  },
+  {
+   "q": "Who provides the Cenarion Lunardust?",
+   "aliases": [
+    "who gives lunardust",
+    "where to get cenarion lunardust",
+    "turak runetotem dust"
+   ],
+   "answer": "Turak Runetotem, the druid trainer on the Elder Rise in Thunder Bluff, provides the dust to tauren druids undertaking the trial of the bear form."
+  },
+  {
+   "q": "What happens if you lose your Cenarion Lunardust?",
+   "aliases": [
+    "lost lunardust",
+    "need more lunardust",
+    "where to get another lunardust"
+   ],
+   "answer": "If you lose the dust or fail your trial against Lunaclaw, you must return to Turak Runetotem on the Elder Rise in Thunder Bluff to obtain another pouch."
+  },
+  {
+   "q": "Why must a druid face Lunaclaw?",
+   "aliases": [
+    "why fight lunaclaw",
+    "who is lunaclaw",
+    "purpose of lunaclaw"
+   ],
+   "answer": "Lunaclaw is the protector of the stone and embodies the balance of physical strength and inner resolve. By challenging and besting the creature, an aspiring Druid of the Claw absorbs the lessons of body and heart needed to harness the powers of the Great Bear Spirit."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For tauren druids, this dust is the key catalyst in the sacred rite of passage that unlocks the ancient art of bear shapeshifting."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The dust links young Shu'halo directly to the Cenarion Circle's teachings, demonstrating their deepening communion with nature and the wild spirits of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "body and heart",
+  "cenarion lunardust",
+  "druid of the claw",
+  "lunaclaw",
+  "lunardust",
+  "moonkin stone",
+  "turak runetotem"
+ ],
+ "related": [
+  "quest:6001",
+  "npc:turak-runetotem",
+  "zone:barrens",
+  "subzone:camp-taurajo",
+  "zone:thunderbluff",
+  "zone:mulgore",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Cenarion Lunardust",
+  "Body and Heart (Horde)"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "key": "item:nightsaber-fang",
+ "type": "item",
+ "name": "Nightsaber Fang",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Nightsaber Fang",
+  "quests": [
+   "quest:488"
+  ]
+ },
+ "summary": "A sharp tooth harvested from the predatory nightsabers roaming the wild branches of Teldrassil. While a common trophy of the hunt, these fangs are also sought out as raw reagents by local woodland residents with questionable motives.",
+ "sections": [
+  {
+   "title": "Trophy of the Hunt",
+   "body": "Nightsabers are among the deadliest natural predators native to northern Kalimdor, revered by the night elves for their agility, ferocity, and deep spiritual connection to Elune. Across the great boughs of Teldrassil, these feline beasts hunt in the shadows beneath the canopy. Striking one down yields sharp fangs that serve as undeniable proof of a hunter's skill, though certain unsavory figures in the forest seek them out for less noble ritual purposes.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Satyr's Reagent",
+   "body": "Outside the settlement of Dolanaar lurks Zenn Foulhoof, a deceptive satyr who preys on eager and inexperienced travelers. Claiming a need for woodland reagents, Zenn coaxes fledgling adventurers into harvesting nightsaber fangs alongside strigid feathers and spider silk. Handing over such predatory reagents directly aids the trickster, who openly mocks the naive hero upon delivery.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Nightsaber Fangs come from?",
+   "aliases": [
+    "where to get nightsaber fangs",
+    "who drops nightsaber fangs",
+    "nightsaber fang source"
+   ],
+   "answer": "Nightsaber Fangs are taken from the predatory nightsabers prowling the wilderness of Teldrassil, particularly throughout the forest surrounding Dolanaar."
+  },
+  {
+   "q": "Who wants Nightsaber Fangs in Teldrassil?",
+   "aliases": [
+    "who needs nightsaber fangs",
+    "nightsaber fang turn in",
+    "who buys nightsaber fangs"
+   ],
+   "answer": "Zenn Foulhoof, a satyr lingering off the main road just outside Dolanaar, requests them as part of a task he gives to wandering adventurers."
+  },
+  {
+   "q": "Why does Zenn Foulhoof want Nightsaber Fangs?",
+   "aliases": [
+    "why zenn wants fangs",
+    "zenn foulhoof reagent purpose",
+    "zenn bidding motive"
+   ],
+   "answer": "Zenn claims he needs animal reagents to conduct his business in the forest, though he keeps the exact nature of his work secret and delights in duping gullible travelers into serving him."
+  },
+  {
+   "q": "What other reagents does Zenn ask for alongside the fangs?",
+   "aliases": [
+    "what else does zenn need",
+    "zenn bidding items",
+    "other reagents for zenn"
+   ],
+   "answer": "Along with two nightsaber fangs, Zenn demands two strigid owl feathers and two swatches of webwood spider silk."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Nightsabers are cherished companions and symbols of the goddess Elune, making the hunting of these sacred predators on behalf of a treacherous satyr deeply shameful."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Felling a nightsaber and taking its fang proves your basic mastery of the wild, though providing beast parts to corrupt woodland spirits twists the spirit of the hunt."
+  }
+ ],
+ "keywords": [
+  "dolanaar",
+  "fang",
+  "nightsaber",
+  "reagent",
+  "satyr",
+  "teldrassil",
+  "zenn foulhoof"
+ ],
+ "related": [
+  "npc:zenn-foulhoof",
+  "quest:488",
+  "zone:teldrassil",
+  "subzone:dolanaar",
+  "item:strigid-owl-feather",
+  "item:webwood-spider-silk",
+  "topic:satyr",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Nightsaber Fang",
+  "Zenn's Bidding"
+ ]
+}

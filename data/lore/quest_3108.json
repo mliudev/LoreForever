@@ -1,0 +1,115 @@
+{
+ "key": "quest:3108",
+ "type": "quest",
+ "name": "Etched Rune",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   3108
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "Sten Stoutarm",
+  "end": "Thorgas Grimson",
+  "previous": null,
+  "next": null,
+  "wiki": "Etched Rune (Classic)",
+  "chain": []
+ },
+ "summary": "The Etched Rune is a written summons delivered to novice dwarven hunters assisting the guard in Coldridge Valley. Passed on by Sten Stoutarm, the inscribed stone directs fledgling trackers to seek out Thorgas Grimson inside Anvilmar to formally begin their martial and wilderness training.",
+ "sections": [
+  {
+   "title": "A Summons in Stone",
+   "body": "While helping Sten Stoutarm deal with nearby threats around Coldridge Valley, promising dwarven hunters are handed an inscribed stone tablet known as the Etched Rune. Rather than delivering spoken orders or simple parchment, dwarven mentors favor carved runes to impart formal missives. The rune instructs the recipient to take stock of their early work and present themselves indoors at Anvilmar for deeper instruction in the art of the hunt.",
+   "spoiler": 0
+  },
+  {
+   "title": "Traditions of the Dun Morogh Hunter",
+   "body": "Presenting the rune to Thorgas Grimson marks a hunter's entry into formal discipline. Thorgas stresses that mountaineering and survival in Khaz Modan demand deep respect for the harsh environment: reading tracks in bitter snowdrifts, maintaining one's weapon and ammunition, and understanding the wild beasts that roam the crags. The etched stone serves as the hunter's first step from a lone wanderer with a gun into an apprentice of Anvilmar's veteran pathfinders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Etched Rune?",
+   "aliases": [
+    "what is etched rune",
+    "etched rune item",
+    "rune meaning"
+   ],
+   "answer": "It is an inscribed stone tablet passed to novice hunters in Coldridge Valley, serving as a written invitation to seek out formal training with Thorgas Grimson inside Anvilmar."
+  },
+  {
+   "q": "Who sends the Etched Rune?",
+   "aliases": [
+    "who gave me etched rune",
+    "sender etched rune"
+   ],
+   "answer": "The hunter trainer Thorgas Grimson sends it, though it is physically handed to you by mountaineer Sten Stoutarm once you have proven your basic competence outside Anvilmar."
+  },
+  {
+   "q": "Where do I take the Etched Rune?",
+   "aliases": [
+    "where do i go",
+    "who do i turn it in to",
+    "thorgas location"
+   ],
+   "answer": "You bring it to Thorgas Grimson, who can be found inside the great hall of Anvilmar in Coldridge Valley."
+  },
+  {
+   "q": "Why do dwarves use runes instead of letters?",
+   "aliases": [
+    "why an etched rune",
+    "dwarf runes lore"
+   ],
+   "answer": "Dwarven culture places high value on stonework, tradition, and enduring craft. Inscribing missives and sacred instructions on stone runes ensures they survive the bitter winds and harsh elements of Dun Morogh far better than fragile parchment."
+  },
+  {
+   "q": "What happens after presenting the rune to Thorgas Grimson?",
+   "aliases": [
+    "what does thorgas teach",
+    "turn in etched rune"
+   ],
+   "answer": "Thorgas welcomes you into the ranks of dwarven trackers, explaining the core tenets of surviving in the frozen crags, maintaining your gear, and respecting the beasts of the wild before offering you training in basic hunter techniques."
+  },
+  {
+   "q": "Can any class receive the Etched Rune?",
+   "aliases": [
+    "is etched rune hunter only",
+    "can warriors get etched rune"
+   ],
+   "answer": "No. The Etched Rune is given specifically to dwarf hunters starting their journey in Coldridge Valley. Other classes receive their own distinct recruitment tokens directing them to their respective mentors in Anvilmar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This rune initiates your journey as a hunter in Dun Morogh, introducing you to Thorgas Grimson and the foundational dwarven traditions of tracking, weapon care, and wilderness survival."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Carving messages into solid stone reflects the long-standing dwarven reverence for enduring craft, even for everyday summons and field instructions."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "dwarf",
+  "etched rune",
+  "hunter",
+  "sten stoutarm",
+  "thorgas grimson"
+ ],
+ "related": [
+  "npc:thorgas-grimson",
+  "npc:sten-stoutarm",
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Etched Rune (Classic)"
+ ]
+}

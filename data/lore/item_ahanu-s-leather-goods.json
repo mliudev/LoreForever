@@ -1,0 +1,81 @@
+{
+ "key": "item:ahanu-s-leather-goods",
+ "type": "item",
+ "name": "Ahanu's Leather Goods",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Ahanu's Leather Goods",
+  "quests": [
+   "quest:6363",
+   "quest:6364"
+  ]
+ },
+ "summary": "Ahanu's Leather Goods is a bundled consignment of finished leather armor and supplies crafted atop the mesas of Thunder Bluff. Prepared by the leatherworker Ahanu, the parcel is bound for the Crossroads in the Barrens to supply wandering hunters and adventurers.",
+ "sections": [
+  {
+   "title": "Trade Across the Mesas",
+   "body": "The supply lines of the Horde depend on practical trade between established strongholds and frontier outposts. In Thunder Bluff, the artisan Ahanu works raw hides into finished apparel and gear, preparing this consignment specifically for trade beyond Mulgore. The bundle is destined for Jahan Hawkwing, a merchant operating in the bustling heart of the Barrens at the Crossroads. Because overland travel across the plains is slow, transporting the bundle introduces messengers to the aerial courier network maintained by the tauren, relying on Tal and Devrak's trained wind riders to ferry goods swiftly across long distances.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside Ahanu's Leather Goods?",
+   "aliases": [
+    "what are the leather goods",
+    "ahanu parcel contents",
+    "whats in the bundle"
+   ],
+   "answer": "The parcel contains finished leather goods crafted by Ahanu in Thunder Bluff from raw hides. They are intended as practical armor and equipment ready for sale to travelers."
+  },
+  {
+   "q": "Who receives this parcel?",
+   "aliases": [
+    "who gets the leather goods",
+    "where does it go",
+    "jahan leather delivery"
+   ],
+   "answer": "The package is delivered to Jahan Hawkwing at the Crossroads. He sells finished goods to the influx of hunters, warriors, and adventurers passing through the central Barrens."
+  },
+  {
+   "q": "Why is this package flown via wind rider?",
+   "aliases": [
+    "why fly the package",
+    "wind rider delivery thunder bluff",
+    "flight master package"
+   ],
+   "answer": "Carrying heavy trade items on foot down the lifts and across the Barrens takes time. Ahanu directs couriers to Thunder Bluff's wind rider master, Tal, to demonstrate how winged couriers can rapidly transport cargo to distant posts like the Crossroads."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The delivery demonstrates the growing web of trade connecting the ancestral homeland of Mulgore to the wider Horde territories in the Barrens."
+  }
+ ],
+ "keywords": [
+  "ahanu",
+  "crossroads",
+  "devrak",
+  "jahan hawkwing",
+  "leather goods",
+  "tal",
+  "thunder bluff",
+  "wind rider"
+ ],
+ "related": [
+  "npc:ahanu",
+  "npc:jahan-hawkwing",
+  "quest:6363",
+  "quest:6364",
+  "zone:thunderbluff",
+  "subzone:crossroads",
+  "npc:devrak"
+ ],
+ "attribution": [
+  "Ahanu's Leather Goods",
+  "Tal the Wind Rider Master (Classic)",
+  "Return to Jahan"
+ ]
+}

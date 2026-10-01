@@ -1,0 +1,97 @@
+{
+ "key": "item:prismatic-punch-card",
+ "type": "item",
+ "name": "Prismatic Punch Card",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Prismatic Punch Card",
+  "quests": [
+   "quest:2930"
+  ]
+ },
+ "summary": "The Prismatic Punch Card is the highest security clearance data card found within the fallen city of Gnomeregan. Upgraded sequentially through a series of Matrix Punchograph terminals, it holds data desperately sought by gnome refugees in Ironforge.",
+ "sections": [
+  {
+   "title": "A Matter of Security",
+   "body": "When the gnomes fled the trogg invasion and toxic irradiation of Gnomeregan, massive troves of research and civic records were abandoned in the depths. To safeguard high-level systems, the gnomes utilized an escalating security protocol. Accessing the Matrix Punchograph 3005-D terminal in the lower Engineering Labs requires working through a progression of punch cards: starting from a basic White Punch Card and advancing through Yellow, Blue, and Red clearances at dedicated terminals before stamping the final Prismatic Punch Card. Its encoded clearance level is whimsically noted as pending the invention of an entirely new number.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Vital Transmission",
+   "body": "Master Mechanic Castpipe, now stationed among the refugee enclaves in Ironforge, sends brave adventurers back into the contaminated halls of Gnomeregan on a mission of critical data salvage. While Castpipe describes the target data as utterly vital and impossible to live without, the decoded binary message stamped on the final prismatic card reveals an amusing truth of everyday gnomish civic life: an automated notification informing Castpipe that his laundry is ready for pickup.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you create a Prismatic Punch Card?",
+   "aliases": [
+    "how to get prismatic punch card",
+    "make prismatic punch card",
+    "punch card upgrade sequence"
+   ],
+   "answer": "You obtain a Prismatic Punch Card by inserting a Red Punch Card into a Matrix Punchograph 3005-D terminal located on the lower level of the Engineering Labs in Gnomeregan. Reaching that stage requires upgrading a baseline White Punch Card sequentially through the A, B, and C model terminals across the complex."
+  },
+  {
+   "q": "What data is stored on the Prismatic Punch Card?",
+   "aliases": [
+    "what does the card say",
+    "punch card binary translation",
+    "decoded punch card"
+   ],
+   "answer": "The punch card carries a sequence of binary ASCII code alongside a notification that its security clearance is unprecedented. When translated from binary, the encoded text reads: 'Message to Castpipe: your laundry's ready for pickup.'"
+  },
+  {
+   "q": "Who wants the Prismatic Punch Card?",
+   "aliases": [
+    "who turns in prismatic punch card",
+    "castpipe quest",
+    "who needs the card"
+   ],
+   "answer": "Master Mechanic Castpipe, an exiled gnome engineer residing in Ironforge, requests the card during the mission Data Rescue. He considers the card's contents to be urgent, invaluable information left behind during the evacuation of Gnomeregan."
+  },
+  {
+   "q": "Where are the Matrix Punchograph terminals located?",
+   "aliases": [
+    "terminal locations",
+    "where are the punchographs",
+    "where to punch cards"
+   ],
+   "answer": "The terminals are scattered throughout Gnomeregan based on clearance tier. Punchograph 3005-A is found near the surface Train Depot and Workshop entrance, model B is located in the Dormitory beyond the Clean Zone, model C sits deeper within the complex, and model D stands in the lower Engineering Labs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "The elaborate Punchograph security system is a prime example of gnomish ingenuity and bureaucracy surviving undisturbed even after the fall of their home."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The sequential punch-card programming and automated terminal network demonstrate the high standard of computing machinery built by Gnomeregan's tinkerers."
+  }
+ ],
+ "keywords": [
+  "castpipe",
+  "data rescue",
+  "engineering labs",
+  "gnomeregan",
+  "laundry",
+  "matrix punchograph",
+  "prismatic punch card"
+ ],
+ "related": [
+  "quest:2930",
+  "zone:gnomeregan",
+  "zone:ironforge",
+  "subzone:engineering-labs",
+  "subzone:train-depot",
+  "subzone:dormitory",
+  "subzone:clean-zone",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Prismatic Punch Card",
+  "Data Rescue"
+ ]
+}

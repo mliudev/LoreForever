@@ -1,0 +1,90 @@
+{
+ "key": "item:pendant-of-shadow",
+ "type": "item",
+ "name": "Pendant of Shadow",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Pendant of Shadow",
+  "quests": [
+   "quest:249"
+  ]
+ },
+ "summary": "The Pendant of Shadow is a dark talisman worn by the renegade warlock Morganth atop the Tower of Ilgalar in the Redridge Mountains. Brought to the mage Theocritus at the Tower of Azora, it serves as undeniable proof that the rogue spellcaster has been eliminated before his sinister ambitions could bear fruit.",
+ "sections": [
+  {
+   "title": "Token of a Dark Warlock",
+   "body": "Held by the rogue warlock Morganth within his perch at the Tower of Ilgalar, the Pendant of Shadow is steeped in dark sorcery. Morganth sought to unravel the mysteries of the Scythe of Elune, an ancient relic of immense and volatile power. Fearing the havoc the warlock could unleash upon the Redridge Mountains and the kingdom of Stormwind, the mage Theocritus tasked adventurers with infiltrating Ilgalar, ending Morganth's plotting, and wresting the talisman from his grasp as proof of his demise.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find the Pendant of Shadow?",
+   "aliases": [
+    "pendant of shadow location",
+    "where is pendant of shadow",
+    "how to get pendant of shadow"
+   ],
+   "answer": "The pendant is carried by the warlock Morganth, who resides at the very top of the Tower of Ilgalar in northeastern Redridge Mountains."
+  },
+  {
+   "q": "Who wants the Pendant of Shadow?",
+   "aliases": [
+    "who takes pendant of shadow",
+    "turn in pendant of shadow",
+    "theocritus pendant"
+   ],
+   "answer": "The talisman must be brought to the wizard Theocritus, who resides in the Tower of Azora located in eastern Elwynn Forest."
+  },
+  {
+   "q": "Why does Theocritus need this pendant?",
+   "aliases": [
+    "why theocritus wants it",
+    "purpose of pendant of shadow"
+   ],
+   "answer": "Theocritus requires the pendant as tangible proof that Morganth has been slain and that his pursuit of the dangerous Scythe of Elune has been brought to an end."
+  },
+  {
+   "q": "What threat did Morganth pose with the pendant?",
+   "aliases": [
+    "what was morganth doing",
+    "morganth lore"
+   ],
+   "answer": "Morganth was hunting for the elusive Scythe of Elune. Theocritus feared that if the dark warlock managed to secure the artifact, he would unleash catastrophic power across Redridge and the surrounding kingdom."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Recovering the dark talisman at the behest of Theocritus highlights the ongoing responsibility mages bear to police reckless rogue spellcasters threatening the realm."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Morganth represents the peril of drawing too much scrutiny from the Tower of Azora while pursuing volatile, forbidden artifacts like the Scythe of Elune."
+  }
+ ],
+ "keywords": [
+  "morganth",
+  "pendant of shadow",
+  "redridge",
+  "scythe of elune",
+  "theocritus",
+  "tower of azora",
+  "tower of ilgalar"
+ ],
+ "related": [
+  "quest:249",
+  "subzone:tower-of-ilgalar",
+  "npc:theocritus",
+  "subzone:tower-of-azora",
+  "zone:redridge",
+  "quest:1043",
+  "topic:warlock",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Pendant of Shadow",
+  "Morganth (quest)"
+ ]
+}

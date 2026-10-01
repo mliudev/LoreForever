@@ -1,0 +1,133 @@
+{
+ "key": "topic:mage",
+ "type": "topic",
+ "name": "Mage",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Mage"
+ },
+ "summary": "Mages are scholarly spellcasters who bend the fabric of reality through arcane study, hurling destructive fire, controlling frost, and raw arcane energy. While physically fragile and cloaked only in cloth, their mastery over teleportation, conjuration, and battlefield crowd control makes them formidable allies and terrifying foes. Their discipline requires immense mental dedication, balancing immense destructive potential against the perilous history of arcane misuse.",
+ "sections": [
+  {
+   "title": "Scholars of the Arcane",
+   "body": "The path of the mage demands intellect, focus, and years of rigorous study. Rather than communing with spirits or relying on divine faith, magi treat magic as a precise cosmic science. By drawing upon arcane energies, a practitioner can weave raw destructive power, summon searing bursts of flame, or chill the surrounding air into solid ice and howling blizzards. Because heavy armor disrupts the delicate somatic gestures and mental focus required for incantations, mages wear light cloth, relying instead on wards, mana barriers, and evasive spells to protect themselves.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Legacy of Dalaran and Arathor",
+   "body": "Human magical heritage began nearly three millennia ago during the Troll Wars, when high elven sorcerers instructed one hundred humans of the Empire of Arathor to turn the tide against the Amani. As the number of human practitioners multiplied, fearful mundane citizens drove many magi to establish the magocracy of Dalaran. Under the governance of the Kirin Tor, Dalaran became the central archive of magical study for the northern kingdoms, formalizing the traditions of combat magic that later supported the Alliance of Lordaeron through the First and Second Wars.",
+   "spoiler": 0
+  },
+  {
+   "title": "Suspicion and Necessity",
+   "body": "Arcane practitioners have never enjoyed uncomplicated trust. From the ancient cataclysm wrought by the Highborne to the catastrophic fall of Dalaran during the Third War, magic's volatile nature evokes widespread wariness. The Church of the Holy Light has historically treated wizardry with skepticism, and conservative knights have often viewed arcane spellcrafters as damned souls or a necessary evil on the battlefield. Despite this suspicion, civil and military leaders recognize that a capable magus offers invaluable battlefield supremacy, swift mass transportation, and essential countermeasures against supernatural threats.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What schools of magic do mages specialize in?",
+   "aliases": [
+    "mage specs",
+    "mage magic types",
+    "arcane fire frost"
+   ],
+   "answer": "Mages focus on three core schools: Arcane, Fire, and Frost. Arcane magic alters time, space, and reality, allowing for polymorphing, teleportation, and focused bursts of pure power. Fire spells focus on swift, overwhelming combustive damage to incinerate targets. Frost magic slows, snares, and shatters foes, providing critical battlefield control to keep enemies from closing into melee distance."
+  },
+  {
+   "q": "Why do mages only wear cloth armor?",
+   "aliases": [
+    "why cloth",
+    "mage armor type",
+    "can mages wear leather"
+   ],
+   "answer": "Casting complex spells requires uninhibited physical movement, precise hand gestures, and uninterrupted mental focus. Heavy materials like leather, chainmail, or plate interfere with a spellcaster's somatic components and channel of magical energy. To compensate for their physical vulnerability, magi employ magical barriers, frost shielding, and spells that keep enemies at bay."
+  },
+  {
+   "q": "How did humans first learn to cast arcane magic?",
+   "aliases": [
+    "first human mages",
+    "troll wars mages",
+    "human magic origin"
+   ],
+   "answer": "During the ancient Troll Wars roughly 2,800 years ago, the human Empire of Arathor allied with the high elves of Quel'Thalas against the Amani trolls. In exchange for military aid, elven magi trained one hundred humans in the fundamentals of the arcane. These original hundred pioneers proved devastating in battle and founded the human magical lineage that eventually established Dalaran."
+  },
+  {
+   "q": "What is the relationship between mages and the Church of the Holy Light?",
+   "aliases": [
+    "church views on mages",
+    "paladins and mages",
+    "holy light arcane heresy"
+   ],
+   "answer": "The relationship is tense. For centuries, orthodox members of the Church of the Holy Light viewed arcane studies and the Kirin Tor with suspicion, sometimes treating them as heretical. Paladins and devout priests often consider wizardry an unpredictable, morally dubious practice, though one accepted out of necessity due to its strategic military power."
+  },
+  {
+   "q": "Are Stormwind's mages part of Dalaran's Kirin Tor?",
+   "aliases": [
+    "stormwind mages dalaran",
+    "conjurers of azeroth",
+    "stormwind wizards"
+   ],
+   "answer": "Historically, Stormwind had its own traditions, originally led by court conjurers who operated largely independent of Dalaran. While Dalaran's Kirin Tor was the undisputed center of magical academia in the north, southern wizards developed their own enclaves and royal advisory roles, though communication and common ties endured across both realms."
+  },
+  {
+   "q": "Can mages create food and transport people instantly?",
+   "aliases": [
+    "mage utility",
+    "mage portals",
+    "conjure water food"
+   ],
+   "answer": "Yes. Beyond destructive spells, mages possess extensive utility magic. They can weave arcane energy to conjure fresh food and water from thin air, enchant allies' intellects, and bend space to instantly open portals connecting major cities across the world."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Your craft is one of meticulous intellectual discipline, mastering fire, frost, and arcane force while safeguarding the fragile balance of reality."
+  },
+  {
+   "target": "race:Human",
+   "text": "Humanity's arcane legacy traces back to the hundred original magi taught during the Troll Wars, whose descendants built Dalaran into a grand center of magical study."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Kaldorei society strictly shuns arcane magic, remembering all too well how Queen Azshara and her Highborne magi brought ruin upon ancient Kalimdor."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "While you fight beside magi on the battlefield, the Knights of the Silver Hand have long regarded their worldly arcane methods with deep caution."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Many warlocks began their journey as mages before abandoning academic restraint and strict Dalaran edicts in pursuit of demonic power."
+  }
+ ],
+ "keywords": [
+  "arcane",
+  "conjuration",
+  "dalaran",
+  "fire",
+  "frost",
+  "kirin tor",
+  "mage",
+  "magus",
+  "mana",
+  "spellcaster",
+  "teleport",
+  "wizard"
+ ],
+ "related": [
+  "subzone:dalaran",
+  "topic:highborne",
+  "npc:jaina-proudmoore",
+  "topic:medivh",
+  "topic:church-of-the-holy-light",
+  "topic:knights-of-the-silver-hand",
+  "topic:alliance-of-lordaeron",
+  "zone:stormwind"
+ ],
+ "attribution": [
+  "Mage"
+ ]
+}

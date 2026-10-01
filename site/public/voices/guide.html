@@ -18,12 +18,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <link rel="stylesheet" href="/style.css">
+<script src="/header.js" defer></script>
 </head>
 <body>
 
 <header class="top">
-  <div class="wrap">
+  <div class="wrap top-row">
     <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; <a href="/voices">Voices</a> &rsaquo; Narrator guide</span>
+    <div class="head-actions"><a class="btn-head" href="/feedback"><span class="hd-wide">Send feedback</span><span class="hd-narrow">Feedback</span></a></div>
   </div>
 </header>
 
@@ -31,10 +33,10 @@
 <main class="wrap vp-page vp-doc">
   <h1>Narrator guide</h1>
   <p class="pitch">Thanks for thinking about lending Lore Forever your voice. This page covers what to record, how
-    to record it, how to name the files and how to send them in. You don't need to know anything about add-ons.</p>
+    to record it and how to send it in. You don't need to know anything about add-ons.</p>
   <p class="vp-actions">
+    <a class="btn-small" href="/voices/studio">Upload your recordings</a>
     <a class="btn-small" href="/voices/clips.csv" download>Download the clip list</a>
-    <a class="btn-small" href="/voices/submit">Send your recordings</a>
     <a class="btn-small" href="/discord?src=voices">Ask on Discord</a>
   </p>
 
@@ -87,11 +89,14 @@
     <li>Record in a quiet room. Soft furnishings help; a closet full of clothes works surprisingly well. Watch for
       fans, traffic and computer noise.</li>
   </ul>
-  <p>Not sure your setup is good enough? Record one narration and <a href="/voices/submit">send it in</a> first.
-    You'll get feedback before you do the rest.</p>
+  <p>Not sure your setup is good enough? Upload one narration on the <a href="/voices/studio">upload page</a>: it
+    checks the file against this list as soon as you drop it in. Or send it for review first and get feedback before
+    you do the rest.</p>
 
   <h2 id="naming">Naming the files</h2>
-  <p>Name each file exactly as the <strong>file name</strong> column says, all lower case, for example:</p>
+  <p>On the upload page you drop each file on its line, so the name doesn't matter. Names only matter when you upload
+    a batch at once, or send a folder: then name each file exactly as the <strong>file name</strong> column of the
+    clip list says, all lower case, for example:</p>
   <ul>
     <li><code>zone_stormwind.mp3</code>: the Stormwind intro</li>
     <li><code>zone_stormwind__faq3.mp3</code>: the answer to the third Stormwind question (note the two
@@ -119,13 +124,16 @@
 
   <h2 id="send">Sending your recordings</h2>
   <ol class="vp-steps">
-    <li>Put the files in a Google Drive, Dropbox or OneDrive folder and share it so that anyone with the link can
-      view it.</li>
-    <li>Fill in the <a href="/voices/submit">submission form</a>: the folder link, your credit line, a name for the
-      pack and a way to reach you.</li>
+    <li>Open the <a href="/voices/studio">upload page</a> and sign in. Agree to the narrator release once, then name
+      your voice and pick its language.</li>
+    <li>Upload a file for each line you recorded. Each one is checked right away against the list above; fix what it
+      flags, or keep it as it is.</li>
+    <li>Press <strong>Send for review</strong> with your credit line. You can come back, add lines and send again.</li>
     <li>We build the pack, listen to every file and get back to you if anything needs another take.</li>
     <li>The finished pack is published on the <a href="/voices">Voices page</a> with your name on it.</li>
   </ol>
+  <p class="vp-note">Prefer to share a folder? Put the files, named as above, in a Google Drive, Dropbox or OneDrive
+    folder anyone with the link can view, and use the <a href="/voices/submit">submission form</a>.</p>
   <p class="vp-note">Players: installing a voice pack is covered on the <a href="/voices#install">Voices page</a>.</p>
 </main>
 
@@ -133,6 +141,7 @@
   <p>Questions? <a href="/discord?src=voices">Ask on Discord</a>.</p>
   <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
     <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
   <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>

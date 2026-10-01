@@ -1,0 +1,89 @@
+{
+ "key": "item:a-bloodstained-journal-page",
+ "type": "item",
+ "name": "A Bloodstained Journal Page",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "A Bloodstained Journal Page",
+  "quests": [
+   "quest:80"
+  ]
+ },
+ "summary": "A torn, macabre parchment recovered during the investigation into Stalvan Mistmantle. Covered in dried blood, it serves as the crucial piece of physical evidence linking the missing tutor directly to horrific crimes in Duskwood.",
+ "sections": [
+  {
+   "title": "A Grim Piece of Evidence",
+   "body": "Commander Althea Ebonlocke keeps a vigilant watch over Darkshire, but suspicions alone cannot warrant formal action against someone's dark legacy. This torn, blood-spattered leaf from Stalvan Mistmantle's personal journal provides the material proof needed to confirm the worst. Despite being steeped in gore, the penmanship remains legible enough for town officials to analyze.",
+   "spoiler": 0
+  },
+  {
+   "title": "Handwriting and Guilt",
+   "body": "To remove any shred of doubt before enacting justice, Commander Ebonlocke relies on Clerk Daltry, keeper of Darkshire's Town Hall registry. Years spent archiving municipal signatures made Daltry an authority on local penmanship. Upon examining the bloodstained leaf against municipal records, Daltry definitively authenticates the hand as Stalvan's, sealing the tutor's guilt.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is this bloodstained journal page?",
+   "aliases": [
+    "bloodstained journal page",
+    "stalvan journal page",
+    "blood page"
+   ],
+   "answer": "It is a torn leaf from Stalvan Mistmantle's diary, soaked in dried blood. Commander Althea Ebonlocke uses it as final physical proof of Stalvan's murderous deeds."
+  },
+  {
+   "q": "Who can confirm who wrote this page?",
+   "aliases": [
+    "who reads the page",
+    "clerk daltry journal",
+    "who identifies handwriting"
+   ],
+   "answer": "Clerk Daltry in Darkshire's Town Hall. As the keeper of the town registry, he compares the script on the page against old signatures on file to verify Stalvan's handwriting."
+  },
+  {
+   "q": "Why does Althea Ebonlocke need this page examined?",
+   "aliases": [
+    "why althea needs page",
+    "why check handwriting"
+   ],
+   "answer": "Commander Althea has suspected Stalvan for a long time, but she needs indisputable evidence before declaring him officially guilty. Confirming that the handwriting matches the registry removes any lingering doubt."
+  },
+  {
+   "q": "Where does this page lead in the investigation?",
+   "aliases": [
+    "what happens after page",
+    "stalvan chain next"
+   ],
+   "answer": "Once Clerk Daltry authenticates the script, Commander Ebonlocke has conclusive proof of Stalvan's atrocities, paving the way for the Night Watch to deal with him once and for all."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For protectors of the realm, this grim document is the smoking gun needed by Darkshire's Night Watch to track down a murderer hiding in their midst."
+  }
+ ],
+ "keywords": [
+  "bloodstained",
+  "daltry",
+  "darkshire",
+  "duskwood",
+  "ebonlocke",
+  "handwriting",
+  "journal",
+  "stalvan"
+ ],
+ "related": [
+  "quest:66",
+  "npc:althea-ebonlocke",
+  "npc:clerk-daltry",
+  "subzone:darkshire",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "A Bloodstained Journal Page",
+  "The Legend of Stalvan (11)"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "item:recruitment-letter",
+ "type": "item",
+ "name": "Recruitment Letter",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Recruitment Letter",
+  "quests": [
+   "quest:840"
+  ]
+ },
+ "summary": "The Recruitment Letter is an official dispatch handed to promising adventurers departing Durotar for duty in the Barrens. Issued by scout Takrin Pathseeker, it directs able-bodied volunteers to report to the border outpost overseen by Kargal Battlescar.",
+ "sections": [
+  {
+   "title": "Enlistment for the Frontier",
+   "body": "As young warriors and scouts prove themselves around Razor Hill, the Horde's gaze turns west toward the vast, untamed expanse of the Barrens. Takrin Pathseeker identifies promising recruits who appear strong enough to handle frontline service and provides them with this letter. Crossing the Southfury River bridge marks a rite of passage: leaving the sheltered red dirt of Durotar behind to join the ranks of the Horde standing guard against quilboar, centaur, and Alliance scouts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reporting to Battlescar",
+   "body": "The letter's intended recipient is Kargal Battlescar, the grizzled veteran managing the outpost just across the river. Kargal evaluates each conscript before formally signing off on their enlistment. Yet holding this letter is only the first step; frontier outposts are perpetually stretched thin, and any signed recruit is swiftly redirected further west to the strategic hub of the Crossroads.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote this recruitment letter?",
+   "aliases": [
+    "who gives recruitment letter",
+    "who wrote it",
+    "takrin pathseeker letter"
+   ],
+   "answer": "The letter is handed out by Takrin Pathseeker, an orc scout posted along the road out of Razor Hill who keeps an eye out for capable recruits wandering west."
+  },
+  {
+   "q": "Where does this letter need to go?",
+   "aliases": [
+    "where do i take recruitment letter",
+    "turn in recruitment letter",
+    "who do i give it to"
+   ],
+   "answer": "You deliver it to Kargal Battlescar at the orc watchpost located just across the Southfury River bridge, right at the border of Durotar and the Barrens."
+  },
+  {
+   "q": "What happens once the letter is signed?",
+   "aliases": [
+    "what happens after kargal signs",
+    "next quest after recruitment letter"
+   ],
+   "answer": "Kargal signs the document to formalize your enlistment, but immediately orders you deeper into the plains to report for duty at the Crossroads, where reinforcements are urgently required."
+  },
+  {
+   "q": "Why is the Horde conscripting adventurers in the Barrens?",
+   "aliases": [
+    "why are they recruiting",
+    "why conscription barrens"
+   ],
+   "answer": "The Barrens is a sprawling and dangerous territory connecting the major Horde settlements. With constant threats from native centaur clans, aggressive Bristleback quilboar, and Alliance operations, frontline commanders need every able hand they can muster."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Carrying this letter represents a recruit's transition from local defense in Durotar to active military service across the Kalimdor frontier."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For young orcs, presenting a signed letter of service to a veteran like Kargal Battlescar is a critical early step toward earning honor under Warchief Thrall's new Horde."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "conscript of the horde",
+  "crossroads",
+  "kargal battlescar",
+  "razor hill",
+  "recruitment letter",
+  "takrin pathseeker"
+ ],
+ "related": [
+  "quest:840",
+  "quest:842",
+  "npc:kargal-battlescar",
+  "subzone:crossroads",
+  "zone:barrens",
+  "subzone:razor-hill",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Recruitment Letter",
+  "Conscript of the Horde (Classic)"
+ ]
+}

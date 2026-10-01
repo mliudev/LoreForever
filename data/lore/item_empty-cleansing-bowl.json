@@ -1,0 +1,90 @@
+{
+ "key": "item:empty-cleansing-bowl",
+ "type": "item",
+ "name": "Empty Cleansing Bowl",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Empty Cleansing Bowl",
+  "quests": [
+   "quest:4763"
+  ]
+ },
+ "summary": "The Empty Cleansing Bowl is a ritual vessel given by Thundris Windweaver to aid in investigating the corruption of the Blackwood furbolgs. When filled at the Auberdine moonwell and combined with food samples, it creates a mixture capable of temporarily breaking a satyr's demonic sway.",
+ "sections": [
+  {
+   "title": "A Vessel of Purification",
+   "body": "Entrusted to adventurers by Thundris Windweaver in Auberdine, the Empty Cleansing Bowl is crafted to carry sacred waters from the local moonwell. The night elves discovered that the northern Blackwood furbolgs fell under demonic madness orchestrated by satyrs, who exert their will through enchanted talismans. By drawing pure lunar water into the bowl and blending it with the furbolgs' harvested nuts, grains, and fruits, the vessel produces a blessed meal that temporarily restores sanity to the afflicted creatures, exposing the satyr overseer responsible.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do I do with the Empty Cleansing Bowl?",
+   "aliases": [
+    "empty cleansing bowl use",
+    "how to use empty cleansing bowl",
+    "where to fill cleansing bowl"
+   ],
+   "answer": "Take the bowl to the Auberdine moonwell and dip it into the blessed waters to create a Filled Cleansing Bowl. Afterwards, you will need to gather grain, nut, and fruit samples from the northern Blackwood furbolg camp to combine with it."
+  },
+  {
+   "q": "Why do the night elves need this bowl to fight the furbolg corruption?",
+   "aliases": [
+    "why cleansing bowl",
+    "cleansing bowl purpose"
+   ],
+   "answer": "The Blackwood furbolgs are bound by the dark magic of satyr talismans. Thundris Windweaver uses the bowl to hold a sanctified mixture that temporarily cures the furbolgs of their frenzy, drawing out their hidden satyr controller, Xabraxxis."
+  },
+  {
+   "q": "Who provides the Empty Cleansing Bowl?",
+   "aliases": [
+    "who gives cleansing bowl",
+    "cleansing bowl questgiver"
+   ],
+   "answer": "Thundris Windweaver, a night elf scholar in Auberdine, gives you the bowl when assigning the task to uncover the source of the Blackwood corruption along the Cliffspring River."
+  },
+  {
+   "q": "What happens once the mixture is prepared?",
+   "aliases": [
+    "cleansing bowl bonfire",
+    "place cleansing bowl"
+   ],
+   "answer": "Placing the finished mixture near the northern camp's bonfire cleanses the surrounding furbolgs long enough to draw the fury of the satyr Xabraxxis, allowing you to slay him and claim his Talisman of Corruption."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The cleansing ritual demonstrates the power of Elune's moonwells to undo vile demonic taint, offering hope that the night elves' old allies among the furbolgs might eventually be saved."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Using moonwell waters to break unnatural afflictions reflects the core druidic calling to mend the wounded balance of nature across Darkshore."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "blackwood",
+  "cleansing bowl",
+  "darkshore",
+  "empty cleansing bowl",
+  "moonwell",
+  "thundris windweaver",
+  "xabraxxis"
+ ],
+ "related": [
+  "quest:4763",
+  "quest:4761",
+  "subzone:auberdine",
+  "item:talisman-of-corruption",
+  "topic:furbolg",
+  "topic:satyr",
+  "zone:darkshore",
+  "quest:4762"
+ ],
+ "attribution": [
+  "Empty Cleansing Bowl",
+  "The Blackwood Corrupted"
+ ]
+}

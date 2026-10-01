@@ -1,0 +1,85 @@
+{
+ "key": "item:empty-brown-waterskin",
+ "type": "item",
+ "name": "Empty Brown Waterskin",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Empty Brown Waterskin",
+  "quests": [
+   "quest:1535"
+  ]
+ },
+ "summary": "The Empty Brown Waterskin is an elemental vessel provided by Brine during a shaman's trials in the Barrens. Used to gather water from a nearby oasis, it serves as the first physical tool in learning the delicate, contested nature of water in an arid land.",
+ "sections": [
+  {
+   "title": "A Lesson in Scarcity",
+   "body": "In the sun-baked plains of the Barrens, water is far more than a resource; it is life itself and a constant spark for war. The hermit Brine entrusts an initiate with this simple leather skin as the opening trial of the Call of Water. The task seems modest\u2014carry the empty vessel down to the watering hole beneath her dwelling and bring it back full. Yet in drawing from that solitary pool, the bearer immediately confronts the harsh truth of the land: every drop of liquid is jealously guarded by local quilboar who view the oasis as an invaluable hoard, forcing the initiate to understand how water both sustains life and drives mortals to violence.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Empty Brown Waterskin used for?",
+   "aliases": [
+    "waterskin purpose",
+    "what does brown waterskin do",
+    "use of empty brown waterskin"
+   ],
+   "answer": "It is an empty container given to shaman initiates by Brine. Its purpose is to draw water from the natural pond situated directly beneath her hut in the Barrens, creating a filled waterskin necessary to prepare elemental sapta."
+  },
+  {
+   "q": "Who provides this waterskin?",
+   "aliases": [
+    "who gives the waterskin",
+    "brown waterskin quest giver",
+    "where to get empty waterskin"
+   ],
+   "answer": "Brine, a knowledgeable hermit residing in the southern reaches of the Barrens, provides the vessel to shamans undertaking their elemental pilgrimage to commune with the spirits of water."
+  },
+  {
+   "q": "Why are the quilboar defending the water source?",
+   "aliases": [
+    "why quilboar attack",
+    "quilboar water",
+    "why is the pool guarded"
+   ],
+   "answer": "Water is extraordinarily scarce throughout the Barrens. To the quilboar, even a small watering hole represents vast wealth and survival. Because rain is rare, they guard every spring with ferocious greed, attacking anyone who dares draw from it."
+  },
+  {
+   "q": "What happens once the skin is filled?",
+   "aliases": [
+    "what to do after filling",
+    "turn in waterskin",
+    "filled brown waterskin turn in"
+   ],
+   "answer": "Once dipped into the oasis beneath Brine's hill, it becomes a Filled Brown Waterskin. Returning it to Brine allows her to test your understanding of nature's balance before sending you across the world for rarer waters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Carrying this waterskin is a rite of passage for Horde shamans seeking their Water Totem, demonstrating the balance between reverence for the elements and the harsh struggles of mortal survival."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "brine",
+  "call of water",
+  "quilboar",
+  "sapta",
+  "shaman",
+  "waterskin"
+ ],
+ "related": [
+  "item:filled-brown-waterskin",
+  "npc:brine",
+  "quest:63",
+  "zone:barrens",
+  "topic:quilboar"
+ ],
+ "attribution": [
+  "Empty Brown Waterskin",
+  "Call of Water (3)"
+ ]
+}

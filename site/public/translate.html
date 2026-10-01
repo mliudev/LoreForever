@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Translate - Lore Forever</title>
+<meta name="description" content="Help Lore Forever speak your language: download the translation kit, fix or translate the lore, and send it back. No coding needed.">
+<link rel="canonical" href="https://loreforeverwow.com/translate">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Translate Lore Forever">
+<meta property="og:description" content="Help Lore Forever speak your language. No coding needed.">
+<meta property="og:url" content="https://loreforeverwow.com/translate">
+<meta property="og:image" content="https://loreforeverwow.com/img/social-card.png">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="/header.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top-row">
+    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; Translate</span>
+    <div class="head-actions"><a class="btn-head" href="/feedback"><span class="hd-wide">Send feedback</span><span class="hd-narrow">Feedback</span></a></div>
+  </div>
+</header>
+
+<main class="wrap vp-page">
+  <h1>Translate Lore Forever</h1>
+  <p class="pitch">Help Lore Forever speak your language. You don't need to code or install anything: the text comes
+    as simple files with the English next to each line, and you write your language beside it.</p>
+
+  <section class="vp-section" id="help" aria-labelledby="help-title">
+    <h2 id="help-title">Help translate</h2>
+    <ol class="vp-steps">
+      <li><a href="/account?next=/translate/dashboard">Sign in</a> with your Google account. It takes a minute.</li>
+      <li>Open the <a href="/translate/dashboard">translation dashboard</a> and pick your language. Each English line
+        has a box under it for yours. A language with a draft already has text to check and fix; a new one starts
+        from the English.</li>
+      <li>Type. Your work saves by itself, and goes into your language's next update, with your
+        name in the credits if you like.</li>
+    </ol>
+    <p class="vp-note">You don't have to finish anything: every line you translate is used, and the rest stays in
+      English until someone gets to it. Start with the interface and the zones. Rather work offline? Download your
+      language's kit below, edit it in a text editor and <a href="/translate/submit">send it to us</a>. Questions?
+      <a href="/discord?src=translate">Ask on Discord</a>, where native speakers also review each language.</p>
+    <p class="vp-actions">
+      <a class="btn-small" href="/translate/dashboard">Start translating</a>
+      <a class="btn-small" href="#report">Report a bad translation</a>
+    </p>
+  </section>
+
+  <section class="vp-section" id="languages" aria-labelledby="languages-title">
+    <h2 id="languages-title">Languages</h2>
+    <p class="vp-note">How much of Lore Forever each language has so far. Press &#128077; for the languages you'd like
+      to play in: it helps us decide where to start.</p>
+    <!-- Cards come from translate/languages.json (functions/translate/index.js fills them in here). -->
+    <div class="zone-grid tl-grid">
+    <!-- language-list -->
+    </div>
+    <details class="tl-help">
+      <summary>When does a language come to the game?</summary>
+      <p class="vp-note">When enough of it is translated and native speakers have read it through. We'll announce
+        each one on Discord. Translations are shared under
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, like the lore text they
+        translate, and every translator is credited.</p>
+    </details>
+  </section>
+
+  <section class="vp-section" id="report" aria-labelledby="report-title">
+    <h2 id="report-title">Report a bad translation</h2>
+    <p class="vp-note">Something reads wrong, sounds odd, or uses the wrong name? Tell us where, and how you'd say it.</p>
+    <!-- Posts to functions/api/translations/report.js. With JavaScript the page sends JSON and shows the result in
+         place; without it, the form posts normally and lands on /translate/reported or an error page.
+         Links can fill it in: /translate?lang=deDE&code=npc:hogger#report -->
+    <form class="fb-form" id="tr-form" method="post" action="/api/translations/report">
+      <div class="fb-pair">
+        <label class="fb-field">
+          <span>Language</span>
+          <select name="locale" id="tr-locale" required>
+            <option value="">Choose...</option>
+            <option value="deDE">Deutsch</option>
+            <option value="frFR">Français</option>
+            <option value="esES">Español (España)</option>
+            <option value="esMX">Español (Latinoamérica)</option>
+            <option value="ptBR">Português (Brasil)</option>
+            <option value="itIT">Italiano</option>
+            <option value="ruRU">Русский</option>
+            <option value="koKR">한국어</option>
+            <option value="zhCN">简体中文</option>
+            <option value="zhTW">繁體中文</option>
+          </select>
+        </label>
+        <label class="fb-field">
+          <span>Entry code <span class="fb-optional">(if you have it)</span></span>
+          <input type="text" name="code" id="tr-code" maxlength="120" autocomplete="off" spellcheck="false"
+            placeholder="e.g. npc:hogger">
+        </label>
+      </div>
+      <label class="fb-field">
+        <span>Where did you see it?</span>
+        <input type="text" name="place" id="tr-place" maxlength="300"
+          placeholder="e.g. Elwynn Forest, the question &quot;Who is Hogger?&quot;">
+        <small>The zone, NPC or quest, and the question or section. Not needed if you gave the entry code.</small>
+      </label>
+      <label class="fb-field">
+        <span>What's wrong?</span>
+        <textarea name="wrong" rows="4" maxlength="4000" required
+          placeholder="Copy the text that reads wrong, and say what the problem is."></textarea>
+      </label>
+      <label class="fb-field">
+        <span>How would you say it? <span class="fb-optional">(optional)</span></span>
+        <textarea name="better" rows="3" maxlength="4000"></textarea>
+      </label>
+      <div class="fb-pair">
+        <label class="fb-field">
+          <span>Name <span class="fb-optional">(optional, for the credits)</span></span>
+          <input type="text" name="name" maxlength="100" autocomplete="nickname">
+        </label>
+        <label class="fb-field">
+          <span>Email <span class="fb-optional">(optional, only if you'd like a reply)</span></span>
+          <input type="email" name="email" maxlength="200" autocomplete="email" placeholder="you@example.com">
+        </label>
+      </div>
+      <label class="fb-trap" aria-hidden="true">Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+      <div class="fb-actions">
+        <button type="submit" class="btn-download" id="tr-send">Send report</button>
+        <p class="fb-status" id="tr-status" role="status" hidden></p>
+      </div>
+    </form>
+    <div class="fb-done" id="tr-done" hidden>
+      <h2>Thank you!</h2>
+      <p>We'll fix it in the next update of that language. <button type="button" class="tl-link" id="tr-again">Report
+        another</button></p>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>Spotted a wrong answer in English? <a href="/feedback">Tell us</a>.</p>
+  <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+<script>
+// Likes and the report form without reloading the page. Without JavaScript both are plain form posts
+// (functions/api/translations/like.js and report.js).
+(() => {
+  const today = new Date().toISOString().slice(0, 10);
+  const key = locale => "lf-lang-like:" + locale;
+  const liked = locale => { try { return localStorage.getItem(key(locale)) === today; } catch (e) { return false; } };
+  document.querySelectorAll(".tl-like").forEach(form => {
+    const button = form.querySelector("button");
+    const locale = button.dataset.locale;
+    const mark = () => { button.setAttribute("aria-pressed", "true"); button.title = "You liked this today"; };
+    if (liked(locale)) mark();
+    form.addEventListener("submit", async e => {
+      e.preventDefault();
+      if (button.getAttribute("aria-pressed") === "true" || button.disabled) return;
+      button.disabled = true;
+      try {
+        const res = await fetch("/api/translations/like", {
+          method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ locale }),
+        });
+        const data = await res.json();
+        if (data.ok) {
+          form.querySelector(".tl-count").textContent = data.count;
+          try { localStorage.setItem(key(locale), today); } catch (e) {}
+          mark();
+        }
+      } catch (e) {}
+      button.disabled = false;
+    });
+  });
+
+  const form = document.getElementById("tr-form");
+  const status = document.getElementById("tr-status");
+  const send = document.getElementById("tr-send");
+  const done = document.getElementById("tr-done");
+  const code = document.getElementById("tr-code");
+  const place = document.getElementById("tr-place");
+  const params = new URLSearchParams(location.search);
+  if (params.get("lang")) document.getElementById("tr-locale").value = params.get("lang").slice(0, 8);
+  if (params.get("code")) code.value = params.get("code").slice(0, 120);
+
+  const showStatus = text => { status.textContent = text; status.hidden = !text; };
+  // The entry code or the place is needed: ask for it in the browser's own way before sending.
+  const needWhere = () => place.setCustomValidity(!code.value.trim() && !place.value.trim()
+    ? "Tell us where you saw it: the entry code, or the zone, NPC or quest and the question." : "");
+  code.addEventListener("input", needWhere);
+  place.addEventListener("input", needWhere);
+
+  form.addEventListener("submit", async e => {
+    needWhere();
+    e.preventDefault();
+    if (!form.reportValidity()) return;
+    showStatus("");
+    send.disabled = true;
+    send.textContent = "Sending...";
+    try {
+      const r = await fetch("/api/translations/report", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(Object.fromEntries(new FormData(form))),
+      });
+      const res = await r.json().catch(() => ({}));
+      if (res.ok) {
+        form.hidden = true;
+        done.hidden = false;
+      } else {
+        showStatus(res.error || "Something went wrong. Please try again in a minute.");
+      }
+    } catch (err) {
+      showStatus("Couldn't reach the server. Check your connection and try again.");
+    }
+    send.disabled = false;
+    send.textContent = "Send report";
+  });
+  document.getElementById("tr-again").addEventListener("click", () => {
+    form.querySelectorAll("textarea, #tr-code, #tr-place").forEach(f => { f.value = ""; });
+    done.hidden = true;
+    form.hidden = false;
+  });
+})();
+</script>
+</body>
+</html>

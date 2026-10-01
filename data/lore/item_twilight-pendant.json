@@ -1,0 +1,93 @@
+{
+ "key": "item:twilight-pendant",
+ "type": "item",
+ "name": "Twilight Pendant",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Twilight Pendant",
+  "quests": [
+   "quest:1199"
+  ]
+ },
+ "summary": "A Twilight Pendant is an insignia worn by cultists of the Twilight's Hammer deep within Blackfathom Deeps. To the Argent Dawn, these dark talismans serve as definitive proof of the cult's subversive operations on the coast of Ashenvale.",
+ "sections": [
+  {
+   "title": "Tokens of the Old Gods",
+   "body": "Within the drowned ruins of Blackfathom Deeps, members of the Twilight's Hammer gather alongside the naga to conduct foul rites in veneration of the chaotic Old Gods. Cultists\u2014ranging from shadowmages and aquamancers to reavers and loreseekers\u2014wear these pendants as emblems of devotion to their shadowy patrons. Because the cult operates in secrecy beneath the former night elf temple, retrieving these ornaments is one of the few ways outside observers can gauge the cult's numbers and thwart their machinations.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Argent Dawn's Vigils",
+   "body": "Argent Guard Manados in Darnassus actively seeks these pendants as evidence of a successful purge against the encroaching darkness. Blackfathom Deeps once housed a pristine moonwell, and its desecration by malevolent void-worshipers poses a severe threat to Kalimdor. Gathering the pendants confirms that the cultists' foothold in Ashenvale is being dismantled before their dark patrons can unleash greater terror.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Twilight Pendant?",
+   "aliases": [
+    "twilight pendant info",
+    "what are twilight pendants"
+   ],
+   "answer": "A Twilight Pendant is an identifying amulet worn by members of the Twilight's Hammer cult operating within Blackfathom Deeps. It serves as tangible proof of devotion to the Old Gods and their dark rites."
+  },
+  {
+   "q": "Why does Argent Guard Manados want these pendants?",
+   "aliases": [
+    "who wants twilight pendant",
+    "why collect twilight pendants"
+   ],
+   "answer": "Argent Guard Manados, stationed in Darnassus on behalf of the Argent Dawn, seeks them as proof that the Twilight's Hammer presence in Blackfathom Deeps is being struck down before their evil plans can mature."
+  },
+  {
+   "q": "Who wears these pendants?",
+   "aliases": [
+    "who drops twilight pendant",
+    "where do twilight pendants come from"
+   ],
+   "answer": "They are carried by various cultists inside the submerged temple of Blackfathom Deeps, including Twilight Acolytes, Aquamancers, Shadowmages, Loreseekers, Elementalists, and Reavers."
+  },
+  {
+   "q": "What threat does the Twilight's Hammer pose in Blackfathom Deeps?",
+   "aliases": [
+    "what is twilights hammer doing in bfd",
+    "why are cultists in ashenvale"
+   ],
+   "answer": "Allied with the naga, the Twilight's Hammer aims to revive the worship of the Old Gods, desecrating an ancient night elf moonwell and preparing rituals that could spread terror across Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The desecration of Blackfathom Deeps\u2014once home to a revered and powerful moonwell\u2014makes reclaiming these symbols of corruption a matter of profound sanctity for the kaldorei."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Carried to Argent Guard Manados in Darnassus, these trophies demonstrate that the Alliance is actively supporting the Argent Dawn's crusade against hidden evils in northern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "argent guard manados",
+  "ashenvale",
+  "blackfathom deeps",
+  "old gods",
+  "twilight falls",
+  "twilight pendant",
+  "twilight's hammer"
+ ],
+ "related": [
+  "quest:1199",
+  "npc:argent-guard-manados",
+  "zone:blackfathom",
+  "topic:twilight-s-hammer",
+  "topic:argent-dawn",
+  "topic:old-god",
+  "zone:ashenvale",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "Twilight Pendant",
+  "Twilight Falls (Classic)"
+ ]
+}
