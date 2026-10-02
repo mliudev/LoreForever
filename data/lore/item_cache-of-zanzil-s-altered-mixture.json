@@ -10,11 +10,11 @@
    "quest:2478"
   ]
  },
- "summary": "The Cache of Zanzil's Altered Mixture is a stockpile of volatile, mutating venom secured inside a locked chest at the Venture Company tower near the Sludge Fen. Commissioned by goblin overseers and brewed from the concoctions of the jungle troll witch doctor Zanzil, it serves as a critical target for the Shattered Hand in Orgrimmar.",
+ "summary": "The Cache of Zanzil's Altered Mixture is a stockpile of potent poison secured inside a locked chest at the Venture Company tower near the Sludge Fen. Named for the jungle troll witch doctor Zanzil, it serves as a critical target for the Shattered Hand in Orgrimmar.",
  "sections": [
   {
    "title": "A Toxic Enterprise",
-   "body": "North of the Sludge Fen in the Barrens, the Venture Company set up an outpost to develop and test hazardous concoctions. Utilizing a modified formulation derived from the infamous troll witch doctor Zanzil, the goblins inadvertently poisoned and mutated their own labor force. Grand Foreman Puzik Gallywix locked the primary reserve inside his private strongbox at the summit of the tower, where its lingering fumes weakened the surviving overseers and transformed ordinary workers into deranged drones.",
+   "body": "North of the Sludge Fen in the Barrens, the Venture Company keeps a tower outpost. A cache of an altered mixture bearing the name of the infamous troll witch doctor Zanzil sits locked inside Grand Foreman Puzik Gallywix's private strongbox at the summit of the tower. A poison has weakened everything in the tower, leaving its goblin inhabitants vulnerable to any intruder bold enough to strike.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
     "what is the cache",
     "zanzil potion"
    ],
-   "answer": "It is a potent, mutagenic toxin based on the concoctions of the troll witch doctor Zanzil. The Venture Company attempted to modify and employ it at their outpost near the Sludge Fen, but the brew was so caustic that it infected and mutated the entire workforce inside the tower."
+   "answer": "It is a potent poison bearing the name of the troll witch doctor Zanzil. A cache of it is locked away in the Venture Company tower near the Sludge Fen, where a poison has weakened everything inside."
   },
   {
    "q": "Where is the cache found?",
@@ -68,7 +68,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "The Venture Company's toxic experiments north of the Sludge Fen pose an immediate environmental and security threat to both Durotar and the Barrens."
+   "text": "The Venture Company's poison-laden tower north of the Sludge Fen poses an immediate environmental and security threat to both Durotar and the Barrens."
   }
  ],
  "keywords": [

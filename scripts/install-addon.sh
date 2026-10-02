@@ -14,6 +14,18 @@ if [ -z "$WOW" ]; then
   done
 fi
 [ -n "$WOW" ] || { echo "WoW Forever beta folder not found; set WOW_DIR" >&2; exit 1; }
+# Audio is stored with Git LFS. A checkout that never fetched it has small pointer files where the recordings should
+# be; installing those would leave the narration silent, so stop before copying anything.
+for name in "${FOLDERS[@]}"; do
+  [ -d "$ADDONS_SRC/$name/Audio" ] || continue
+  n="$(find "$ADDONS_SRC/$name/Audio" -type f -size -1025c -print0 \
+       | xargs -0 -r grep -l '^version https://git-lfs' | wc -l || true)"
+  if [ "$n" -gt 0 ]; then
+    echo "install-addon: $n files in addon/$name/Audio are Git LFS pointers, not recordings." >&2
+    echo "Fetch them first: git -c lfs.fetchexclude= lfs pull (CONTRIBUTING.md has the one-time setup)" >&2
+    exit 1
+  fi
+done
 mkdir -p "$WOW/Interface/AddOns"
 # The add-on used to be called Lorewalker; an old copy would load alongside and fight over /lore.
 rm -rf "$WOW/Interface/AddOns/Lorewalker"

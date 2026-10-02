@@ -11,10 +11,6 @@
   Content-Disposition: attachment; filename="lore-forever-clips.csv"
   Cache-Control: no-cache
 
-/translate/kits/*
-  Content-Type: application/zip
-  Cache-Control: no-cache
-
 /account
   X-Robots-Tag: noindex, nofollow
   Cache-Control: no-store

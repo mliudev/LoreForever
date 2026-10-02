@@ -82,10 +82,12 @@
 
     <label class="fb-field">
       <span>Entry code <span class="fb-optional">(optional)</span></span>
-      <input type="text" name="code" id="fb-code" maxlength="120" autocomplete="off" spellcheck="false"
+      <input type="text" name="code" id="fb-code" maxlength="600" autocomplete="off" spellcheck="false"
         placeholder="If the add-on gave you a code, paste it here">
-      <small>Or tell us the zone, NPC or quest, and the question you asked.</small>
+      <small id="fb-code-hint">Or tell us the zone, NPC or quest, and the question you asked.</small>
     </label>
+    <!-- Filled in by the module script at the bottom when the code is a report from the add-on's "Copy report". -->
+    <div class="fb-report" id="fb-report" hidden></div>
 
     <!-- No email field: a reply goes to the account's email. The name starts as the account's name. -->
     <label class="fb-field">
@@ -138,8 +140,10 @@ const params = new URLSearchParams(location.search);
 function showStatus(text) { status.textContent = text; status.hidden = !text; }
 function showDone() { form.hidden = true; done.hidden = false; }
 
-// Links from the add-on, Discord or emails can fill in the code and the kind: /feedback?code=...&kind=lore
-if (params.get("code")) document.getElementById("fb-code").value = params.get("code").slice(0, 120);
+// Links from the add-on, Discord or emails can fill in the code, the kind and a note: /feedback?code=...&kind=lore
+// (the add-on's "Copy report" link also carries the player's note as &note=).
+if (params.get("code")) document.getElementById("fb-code").value = params.get("code").slice(0, 600);
+if (params.get("note")) document.getElementById("fb-message").value = params.get("note").slice(0, 4000);
 const kind = form.querySelector('input[name="kind"][value="' + CSS.escape(params.get("kind") || "") + '"]');
 if (kind) kind.checked = true;
 if (params.get("error")) showStatus(params.get("error"));
@@ -215,6 +219,47 @@ form.addEventListener("submit", async e => {
   send.disabled = false;
   send.textContent = "Send";
 });
+</script>
+<script type="module">
+// A report code from the add-on (its "Copy report" link, or a code pasted here): show what it tells us, and make the
+// message optional, since the code already says what was wrong (functions/api/feedback.js fills in the reason).
+import { decodeReport, REASONS } from "/report-code.js";
+
+const form = document.getElementById("fb-form");
+const code = document.getElementById("fb-code");
+const box = document.getElementById("fb-report");
+const message = document.getElementById("fb-message");
+const hint = document.getElementById("fb-code-hint");
+const label = document.getElementById("fb-message-label");
+const words = s => (s || "").replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+
+function showReport() {
+  const r = decodeReport(code.value);
+  box.hidden = !r;
+  message.required = !r;
+  hint.hidden = !!r;
+  if (!r) return;
+  const place = [words(r.zone), words(r.subzone)].filter(Boolean).join(" › ");
+  const row = (name, value) => {
+    const p = document.createElement("p");
+    const b = document.createElement("strong");
+    b.textContent = name + ": ";
+    p.append(b, value);
+    return p;
+  };
+  box.replaceChildren(
+    row("Report from the add-on", r.reason === "-" ? "an answer you marked as not right" : REASONS[r.reason].toLowerCase()),
+    row("Your question", r.question ? "“" + r.question + "”" : "(none)"),
+    ...(place ? [row("Where you were", place)] : []),
+    Object.assign(document.createElement("small"), {
+      textContent: "Also sent: the answer you got, your target, your quest numbers and the add-on version. Never your character's name.",
+    }));
+  if (form.kind.value !== "lore") form.querySelector('input[name="kind"][value="lore"]').checked = true;
+  label.textContent = "Anything to add? (optional)";
+  message.placeholder = "What was wrong, or what you expected to hear.";
+}
+code.addEventListener("input", showReport);
+showReport();
 </script>
 </body>
 </html>

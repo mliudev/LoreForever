@@ -103,11 +103,38 @@ const noSample = `<p class="vc-sample-title">Sample</p>
         <p class="vc-sample-soon">Not ready yet. Check back soon.</p>`;
 
 function getIt(v) {
+  return getMain(v) + getPacks(v);
+}
+
+function getMain(v) {
   if (v.included) return `<p class="vc-install">Comes with Lore Forever. Nothing to install.</p>`;
   if (!v.download) return `<p class="vc-install">Download coming soon.</p>`;
   const cf = v.curseforge ? ` <a href="${escape(v.curseforge)}">Get it on CurseForge</a>.` : "";
   return `<p class="vc-install"><a class="btn-small" href="/download/voice/${escape(v.id)}">Download</a>
           Unzip into <code>Interface\\AddOns</code>, restart the game, then pick it under Narration voice.${cf}</p>`;
+}
+
+// A voice's optional packs (voices.json "packs"): its lands packs (the places and people of Alliance or Horde zones,
+// contested zones in both) and a complete bundle. Each downloads through /download/voice/<pack id>, or straight from
+// its own link when that's one of the site's (/download/complete).
+function getPacks(v) {
+  const packs = (v.packs || []).filter(p => p.download);
+  if (!packs.length) return "";
+  const links = packs.map(p => {
+    const href = p.download.startsWith("/") ? p.download : `/download/voice/${p.id}`;
+    return `<a href="${escape(href)}">${escape(p.name)}</a>${p.clips ? ` (${plural(p.clips, "narration", "narrations")})` : ""}`;
+  }).join(" &middot; ");
+  return `<p class="vc-packs">More narration, optional: ${links}. Unzip into <code>Interface\\AddOns</code> next to
+          Lore Forever.</p>`;
+}
+
+// The voice or pack with this id (a pack takes its voice's status unless it has its own), or undefined.
+export function findDownload(voices, id) {
+  for (const v of voices) {
+    if (v.id === id) return v;
+    const p = (v.packs || []).find(x => x.id === id);
+    if (p) return { ...p, status: p.status || v.status };
+  }
 }
 
 function likeButton(v, likes) {

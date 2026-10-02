@@ -1,6 +1,8 @@
 {
   "version": 1,
   "include": ["/", "/feedback", "/voices", "/voices/*", "/translate", "/translate/*", "/discord", "/api/*", "/download/*"],
-  "exclude": ["/voices/clips.csv", "/voices/voices.json", "/voices/player.js", "/voices/lines.json", "/voices/studio.js", "/voices/studio.css", "/translate/languages.json", "/translate/packs.json", "/translate/kits/*",
+  "exclude": ["/voices/clips.csv", "/voices/voices.json", "/voices/player.js", "/voices/lines.json", "/voices/studio.js", "/voices/studio.css",
+              "/voices/testpack.js", "/voices/crc32.js", "/voices/mp3.js", "/voices/vendor/*",
+              "/translate/languages.json", "/translate/packs.json", "/translate/fp.json",
               "/translate/data/*", "/translate/check.js"]
 }

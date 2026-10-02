@@ -1,0 +1,110 @@
+{
+ "key": "quest:92706",
+ "type": "quest",
+ "name": "WANTED: Bruuz",
+ "era": "forever",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   92706
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "20"
+ },
+ "summary": "WANTED: Bruuz is a bounty posted by Gazlowe in the goblin port of Ratchet. A massive predatory shark has taken up residence near the harbor docks, threatening maritime traffic and coastal trade until someone puts an end to it.",
+ "sections": [
+  {
+   "title": "A Terror in the Bay",
+   "body": "Ratchet thrives on merchant shipping, serving as the primary neutral gateway between Kalimdor and the Eastern Kingdoms. That steady stream of commerce makes the waters around the docks bustling and chaotic, but recently it has drawn a far more dangerous visitor. A gargantuan shark, dubbed 'Bruuz' by the frightened dockworkers, has begun prowling the bay. Rather than remaining in deep water, the beast aggressively targets small skiffs, local sailors, and offloading cargo, disrupting port operations.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gazlowe's Bounty",
+   "body": "Gazlowe cannot afford to have vessels avoiding his port out of fear of getting mauled by sea life. So he has posted a public bounty notice calling on all anglers and promising a hefty reward. To claim it, a hunter must slay Bruuz and haul back the predator's dorsal fin as proof of the deed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bruuz?",
+   "aliases": [
+    "what is bruuz",
+    "bruuz shark",
+    "who is bruuz the shark"
+   ],
+   "answer": "Bruuz is a notoriously large, aggressive shark that has taken up hunting grounds around the shipping docks of Ratchet. Dockworkers gave the monster its nickname after several attacks on sailors and small vessels."
+  },
+  {
+   "q": "Why did Gazlowe post a bounty on Bruuz?",
+   "aliases": [
+    "why kill bruuz",
+    "gazlowe shark quest",
+    "why want bruuz fin"
+   ],
+   "answer": "Bruuz disrupts the maritime traffic that fuels Ratchet's economy. Gazlowe relies on steady trade and functioning docks, so a massive shark harassing sailors and wrecking boats hurts business enough to justify a cash reward for its carcass."
+  },
+  {
+   "q": "Where is Bruuz usually found?",
+   "aliases": [
+    "bruuz location",
+    "where is bruuz",
+    "find bruuz"
+   ],
+   "answer": "Bruuz stalks the waters directly off the coast of Ratchet in the Barrens, frequently circling near the main shipping piers and harbor entrance."
+  },
+  {
+   "q": "What proof does Gazlowe require for the kill?",
+   "aliases": [
+    "bruuz turn in",
+    "what do you bring gazlowe",
+    "bruuz dorsal fin"
+   ],
+   "answer": "Gazlowe demands Bruuz's dorsal fin as physical evidence that the massive predator has truly been slain before he parts with the bounty money."
+  },
+  {
+   "q": "Can both Alliance and Horde adventurers take this bounty?",
+   "aliases": [
+    "is wanted bruuz neutral",
+    "can horde do wanted bruuz",
+    "can alliance do bruuz"
+   ],
+   "answer": "Yes. Ratchet operates under the neutral administration of the Steamwheedle Cartel, meaning Gazlowe welcomes any capable adventurer from either faction willing to dive in and solve his shark problem."
+  },
+  {
+   "q": "Why does the bounty specifically call for anglers?",
+   "aliases": [
+    "calling all anglers bruuz",
+    "is this a fishing quest"
+   ],
+   "answer": "The notice doesn't say why. It simply opens with 'Calling all anglers!' and promises a hefty reward to whoever brings Gazlowe the shark's fin."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Taking down an apex aquatic predator like Bruuz offers a unique test of patience and aim."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "While Gazlowe only cares about the dorsal fin as proof of the kill, a shark of Bruuz's proportions represents a mountain of fresh coastal meat for enterprising cooks."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "bounty",
+  "bruuz",
+  "dorsal fin",
+  "gazlowe",
+  "ratchet",
+  "shark",
+  "steamwheedle"
+ ],
+ "related": [
+  "subzone:ratchet",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "In-game quest text: WANTED: Bruuz"
+ ]
+}

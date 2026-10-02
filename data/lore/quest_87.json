@@ -26,7 +26,7 @@
   },
   {
    "title": "The Den Above the Mine",
-   "body": "According to Billy, an unusually large, gleaming-fanged kobold scooped up the shiny keepsake and scurried off. Billy claims it ran back to a den above the mine, and the beast, named Goldtooth, indeed lurks on a hill just northeast of the Fargodeep Mine. Slaying the creature recovers Bernice's necklace, ending the neighborhood dispute and earning an old campaign keepsake left behind by Bernice's late husband.",
+   "body": "According to Billy, an unusually large, gleaming-fanged kobold scooped up the shiny keepsake and scurried off. Billy claims it ran back to a den above the mine, but the beast, named Goldtooth, actually lurks on the lower level inside the Fargodeep Mine. Slaying the creature recovers Bernice's necklace, ending the neighborhood dispute and earning an old campaign keepsake left behind by Bernice's late husband.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "where is goldtooth",
     "find goldtooth"
    ],
-   "answer": "Goldtooth lurks on a hill just northeast of the Fargodeep Mine, in the den above the mine that Billy describes."
+   "answer": "Goldtooth lurks on the lower level inside the Fargodeep Mine, though Billy describes his den as above the mine."
   },
   {
    "q": "What kind of creature is Goldtooth?",

@@ -1,0 +1,122 @@
+{
+ "key": "quest:353",
+ "type": "quest",
+ "name": "Stormpike's Delivery",
+ "era": "forever",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   353
+  ],
+  "wiki": "Stormpike's Delivery",
+  "harvested": true,
+  "level": "15"
+ },
+ "summary": "Following work in the Dwarven District, smith Grimand Elmore entrusts travelers with a newly forged axe destined for Mountaineer Gringer Stormpike. Delivering the package requires a trek north through the mountains to an Ironforge outpost in Loch Modan.",
+ "sections": [
+  {
+   "title": "A Weapon for the North",
+   "body": "The Stormpikes are among the most respected clans in Ironforge, famed for discerning taste and martial pride. When Mountaineer Gringer Stormpike required a new weapon for his patrol duties, he looked to the renowned smith Grimand Elmore in Stormwind's Dwarven District. With the axe finished, Elmore turns to trustworthy travelers to carry the parcel north, bridging the distance between the human capital and dwarven borderlands.",
+   "spoiler": 0
+  },
+  {
+   "title": "On Guard in Loch Modan",
+   "body": "Stationed at the northern guard tower in Loch Modan, Mountaineer Stormpike keeps watch over lands beset by wandering troggs and burrowing kobolds. While rumors of unrest and banditry plague the southern human kingdoms, the dwarven frontier faces its own stubborn perils. Receiving the freshly tempered blade offers Stormpike the edge he needs to hold the mountain passes secure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mountaineer Stormpike?",
+   "aliases": [
+    "gringer stormpike",
+    "who is stormpike",
+    "mountaineer gringer stormpike"
+   ],
+   "answer": "Gringer Stormpike is an Ironforge Mountaineer belonging to the esteemed Stormpike clan. He is currently stationed at the northern guard tower in Loch Modan, tasked with defending the valley road from trogg incursions and local threats."
+  },
+  {
+   "q": "What is inside the package?",
+   "aliases": [
+    "what am i delivering",
+    "stormpike parcel contents",
+    "grimand elmore weapon"
+   ],
+   "answer": "The package contains a custom-crafted dwarven axe forged by Grimand Elmore in Stormwind. Mountaineer Stormpike commissioned the blade to use against the troggs and kobolds encroaching upon Loch Modan."
+  },
+  {
+   "q": "Where do I deliver the package?",
+   "aliases": [
+    "where is stormpike",
+    "how to find mountaineer stormpike",
+    "loch modan guard tower location"
+   ],
+   "answer": "Mountaineer Stormpike is stationed at the northern guard tower in Loch Modan, along the roadway leading through the hills toward the northern mountain borders."
+  },
+  {
+   "q": "Why does a dwarf in Loch Modan buy weapons from Stormwind?",
+   "aliases": [
+    "why buy from stormwind",
+    "why elmore",
+    "dwarf ordering from human city"
+   ],
+   "answer": "Grimand Elmore is a highly skilled dwarven weaponsmith residing in Stormwind's Dwarven District. The Stormpike clan values fine metallurgy, and Gringer specifically commissioned Elmore to fashion his custom axe despite the distance."
+  },
+  {
+   "q": "How does this connect to Elmore's Task?",
+   "aliases": [
+    "elmore questline",
+    "quest before stormpikes delivery",
+    "how to start this quest"
+   ],
+   "answer": "This delivery directly follows Elmore's Task, serving as the next favor Grimand Elmore asks of adventurers willing to travel between the Alliance realms of Stormwind and Khaz Modan."
+  },
+  {
+   "q": "How do travelers reach Loch Modan from Stormwind?",
+   "aliases": [
+    "how to get to loch modan",
+    "travel to khaz modan",
+    "deeprun tram to loch modan"
+   ],
+   "answer": "Travelers typically board the Deeprun Tram in Stormwind's Dwarven District to reach the city of Ironforge. From Ironforge's Great Gates, the eastern highway winds down through the snowy passes of Dun Morogh and through the North Gate Pass into the valley of Loch Modan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The Stormpikes carry substantial honor among dwarven kin, and aiding a mountaineer brother on the wild borders of Loch Modan strengthens clan ties."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Grimand Elmore's work represents fine dwarven metallurgy, prized enough that mountain guards order pieces across entire kingdoms."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Carrying military goods between Stormwind and the mountain outposts demonstrates the practical unity binding humans and dwarves together."
+  }
+ ],
+ "keywords": [
+  "axe",
+  "elmore",
+  "grimand",
+  "gringer",
+  "guard tower",
+  "loch modan",
+  "mountaineer",
+  "stormpike"
+ ],
+ "related": [
+  "npc:mountaineer-stormpike",
+  "quest:1097",
+  "zone:lochmodan",
+  "zone:ironforge",
+  "topic:stormwind-kingdom",
+  "topic:trogg",
+  "topic:kobold",
+  "topic:human"
+ ],
+ "attribution": [
+  "In-game quest text: Stormpike's Delivery",
+  "Stormpike's Delivery"
+ ]
+}

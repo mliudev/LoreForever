@@ -1,0 +1,17 @@
+{
+  "_": "Inputs for render_toc / render_clips. The expected output of each case is fixtures/<name>; pipeline/tests/test_voicepack.py checks voicepack.py against it and site/tests/voicepack.test.mjs checks lib/voicepack.js. To change the format, change voicepack.py, rerun `uv run python tests/test_voicepack.py --write-fixtures` from pipeline/, then port the change.",
+  "toc": [
+    {"name": "test-pack.toc", "args": {"title": "Ashen voices (test pack)", "version": "test-20261001.1830", "locale": "enUS",
+                                       "interface": "16001", "sample": "zone:stormwind"}},
+    {"name": "full.toc", "args": {"title": "Stimmen", "version": "1.0.0", "locale": "deDE", "interface": "16001",
+                                  "author": "Jane", "credit": "Narrated by Jane Doe"}},
+    {"name": "bare.toc", "args": {"title": "Bare", "version": "0.1", "locale": "ptBR", "interface": "11508"}}
+  ],
+  "clips": [
+    {"name": "clips-mp3.lua", "ext": "mp3",
+     "hashes": {"zone:stormwind": "a1b2c3d4e5f6", "zone:stormwind#faq1": "0f0f0f0f0f0f", "npc:hogger": "deadbeef0001",
+                "subzone:goldshire": "000000000000", "odd\"id\\x": "123456789abc"}},
+    {"name": "clips-ogg.lua", "ext": "ogg", "hashes": {"zone:durotar#faq2": "abcdefabcdef", "zone:durotar": "fedcbafedcba"}},
+    {"name": "clips-empty.lua", "ext": "mp3", "hashes": {}}
+  ]
+}

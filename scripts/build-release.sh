@@ -8,10 +8,13 @@
 # missing files, notes for files left out, audio paths named in the code exist, and a secret scan. Shipped packs
 # must follow the core's version and declare themselves as Lore Forever voice or language packs; voice packs also
 # need their recordings and every clip their list names.
-# Usage: scripts/build-release.sh
+# --complete builds the complete download instead, dist/LoreForever-<version>-complete.zip: the same plus the packs in
+# COMPLETE_PACKS (the default voice's Alliance and Horde lands packs, every subzone and NPC narration), which then
+# follow the core's version too.
+# Usage: scripts/build-release.sh [--complete]
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-exec python3 - "$ROOT" <<'PY'
+exec python3 - "$ROOT" "$@" <<'PY'
 import hashlib, re, sys, zipfile
 from collections import defaultdict
 from pathlib import Path
@@ -21,6 +24,13 @@ addons = root / "addon"
 dist = root / "dist"
 CORE = "LoreForever"
 PACKS = ["LoreForever_Voice_Default"]   # packs bundled with the core download, in zip order (voice or language)
+COMPLETE_PACKS = ["LoreForever_Voice_Default_Alliance", "LoreForever_Voice_Default_Horde"]   # also in the complete one
+# Not in either zip, but released with every version as their own zips (scripts/build-voice-packs.sh), so
+# scripts/release.sh stamps the core's version into them too.
+RELEASE_PACKS = ["LoreForever_Voice_Female", "LoreForever_Voice_Female_Alliance", "LoreForever_Voice_Female_Horde"]
+COMPLETE = "--complete" in sys.argv[2:]
+if COMPLETE:
+    PACKS = PACKS + COMPLETE_PACKS
 AUDIO = {".mp3", ".ogg"}
 MAX_ZIP = 2 * 1024**3   # CurseForge's per-file limit
 
@@ -79,6 +89,16 @@ for folder, files in ship.items():
     for path, _ in unique:
         if not path.is_file():
             fail(f"missing {path.relative_to(root)}")
+
+# Add-on audio is stored with Git LFS. A checkout that never fetched it has small pointer files ("version
+# https://git-lfs...") where the recordings should be, and a zip of those would play nothing.
+LFS_POINTER = b"version https://git-lfs"
+pointers = [path for files in ship.values() for path, _ in files
+            if path.suffix.lower() in AUDIO and path.stat().st_size <= 1024
+            and path.read_bytes().startswith(LFS_POINTER)]
+if pointers:
+    fail(f"{len(pointers)} audio files are Git LFS pointers, not recordings (e.g. {pointers[0].relative_to(root)}). "
+         "Fetch them first: git -c lfs.fetchexclude= lfs pull")
 text_files = [(path, f"{folder}/{arc}", folder) for folder, files in ship.items()
               for path, arc in files if path.suffix.lower() not in AUDIO]
 
@@ -141,7 +161,7 @@ for path, arc, _ in text_files:
         fail(f"{arc} contains something that looks like a secret: {m.group(0)[:12]}...")
 
 dist.mkdir(exist_ok=True)
-out = dist / f"LoreForever-{version}.zip"
+out = dist / f"LoreForever-{version}{'-complete' if COMPLETE else ''}.zip"
 with zipfile.ZipFile(out, "w") as z:
     for folder, files in ship.items():
         for path, arc in files:

@@ -1,0 +1,109 @@
+{
+ "key": "quest:92415",
+ "type": "quest",
+ "name": "Remember That I Love You",
+ "era": "forever",
+ "zone": "ruinsoflordaeron",
+ "meta": {
+  "ids": [
+   92415
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "22"
+ },
+ "summary": "\"Remember That I Love You\" begins with a torn, stained parchment discovered among the undead-stalked graves in the Ruins of Lordaeron. The letter tells the tragic tale of a lost child belonging to the Heartweaver family. Seeking answers requires carrying this fragile relic south to the orphanage in Stormwind City.",
+ "sections": [
+  {
+   "title": "A Plea from the Ruins",
+   "body": "Amid the blighted earth and shambling undead haunting the ruins of Capital City, survivors and scavengers occasionally stumble across reminders of the Third War's devastation. This torn, blood-stained bundle of parchment has barely survived the undead-trodden grounds of the graveyard. Mentioning a missing child of the Heartweaver lineage, it is a testament to lives shattered when Prince Arthas and the Scourge tore through the kingdom.",
+   "spoiler": 0
+  },
+  {
+   "title": "Journey to the Orphanage",
+   "body": "With Lordaeron fallen and the Undercity claiming the catacombs below, the few refugees who escaped south scattered across the kingdoms of the Alliance. In Stormwind City, Orphan Matron Nightingale tends to the children who lost their parents to the wars. Delivering the blood-stained letter to her care represents one of the few hopes that a surviving child of the Heartweaver family might be identified and brought closure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the blood-stained letter found?",
+   "aliases": [
+    "where to find letter",
+    "parchment location",
+    "where does this quest start"
+   ],
+   "answer": "The torn and stained bundle of parchment is uncovered in the graveyard grounds within the Ruins of Lordaeron, an area now roamed by the restless dead and Forsaken forces."
+  },
+  {
+   "q": "Who is the Heartweaver family?",
+   "aliases": [
+    "heartweaver",
+    "who are the heartweavers",
+    "heartweaver lore"
+   ],
+   "answer": "Little is known about the Heartweavers yet. The letter, found in a graveyard in the Ruins of Lordaeron, mentions a missing child of the family, prompting hopes that the youth escaped south to an Alliance shelter."
+  },
+  {
+   "q": "Who is Orphan Matron Nightingale?",
+   "aliases": [
+    "nightingale",
+    "matron nightingale",
+    "orphan matron"
+   ],
+   "answer": "Orphan Matron Nightingale oversees the Stormwind Orphanage in the Cathedral Square of Stormwind City, providing food, shelter, and guidance to youth left parentless by the recent wars."
+  },
+  {
+   "q": "Why take a Lordaeron keepsake all the way to Stormwind?",
+   "aliases": [
+    "why stormwind",
+    "why send it to nightingale"
+   ],
+   "answer": "When the Scourge overran Lordaeron, many orphaned children were evacuated south into the Kingdom of Stormwind. The parchment itself suggests that the orphan matron in Stormwind City, who runs the city's orphanage, will know more."
+  },
+  {
+   "q": "Can Horde players complete this quest?",
+   "aliases": [
+    "horde version",
+    "can horde do this"
+   ],
+   "answer": "The quest directs the bearer to Orphan Matron Nightingale deep within Stormwind City's Cathedral Square, firmly placing the journey in the hands of the Alliance."
+  },
+  {
+   "q": "What state are the Ruins of Lordaeron in right now?",
+   "aliases": [
+    "ruins of lordaeron status",
+    "who controls lordaeron ruins"
+   ],
+   "answer": "The surface ruins of Capital City are largely deserted, crumbling, and stalked by lingering undead, while Lady Sylvanas Windrunner and the Forsaken have fortified their subterranean capital, the Undercity, in the crypts below."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of Lordaeron lineage, this bundle of parchment is a painful reminder of the families torn apart when Capital City fell to Prince Arthas and the Scourge."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Carrying the letter safely to Stormwind honors the memory of the northern families torn apart when Lordaeron fell."
+  }
+ ],
+ "keywords": [
+  "blood-stained letter",
+  "capital city",
+  "heartweaver",
+  "orphan matron nightingale",
+  "remember that i love you",
+  "ruins of lordaeron",
+  "stormwind orphanage"
+ ],
+ "related": [
+  "npc:orphan-matron-nightingale",
+  "zone:ruinsoflordaeron",
+  "zone:stormwind",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "In-game quest text: Remember That I Love You"
+ ]
+}

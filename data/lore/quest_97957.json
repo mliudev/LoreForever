@@ -1,0 +1,115 @@
+{
+ "key": "quest:97957",
+ "type": "quest",
+ "name": "Camping 101: Herbalism",
+ "era": "forever",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   97957
+  ],
+  "wiki": "Camping 101: Herbalism",
+  "harvested": true,
+  "level": "6"
+ },
+ "summary": "Camping 101: Herbalism directs budding herbalists to local profession trainers across Azeroth, such as Faruza in Brill, to master the craft of Incense Candles. These aromatic creations provide vital restorative aid to spellcasters resting in wilderness camps.",
+ "sections": [
+  {
+   "title": "Flora for the Camp",
+   "body": "While herbalism is commonly seen as the groundwork for alchemy, practical field survival relies just as heavily on gathered roots and blossoms. Experienced travelers point aspiring foragers toward regional master herbalists to learn how to prepare Incense Candles. In the Tirisfal Glades, Eleanor Shackleton directs promising foragers to visit Faruza in Brill once they demonstrate fundamental skill.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sustenance for the Mind",
+   "body": "Life on the road takes a heavy mental toll on spellcasters and spiritualists. Incense Candles release restorative fragrances meant to lift spirits and soothe weary minds. By infusing dried plants into candles, gatherers provide crucial aid to the healers and mages whose magical reserves falter during extended travel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do camping herbalism",
+    "what does camping 101 give",
+    "camping 101 herbalism objective"
+   ],
+   "answer": "The quest directs herbalists to reach a basic level of proficiency so they can learn how to craft Incense Candles from an herbalism trainer. These candles are used to sustain and assist spellcasters during wilderness rests."
+  },
+  {
+   "q": "Who offers this quest in Tirisfal Glades?",
+   "aliases": [
+    "who gives camping 101 herbalism tirisfal",
+    "eleanor shackleton quest"
+   ],
+   "answer": "Eleanor Shackleton offers this guidance to herbalists in Tirisfal Glades, pointing them toward Faruza in the nearby settlement of Brill."
+  },
+  {
+   "q": "What does an Incense Candle do?",
+   "aliases": [
+    "incense candle effect",
+    "what are incense candles for"
+   ],
+   "answer": "Incense Candles provide ambient benefits to a campsite, raising spirits and assisting healers and magic users who need to recover their mental focus while resting in the field."
+  },
+  {
+   "q": "Who teaches the Incense Candle recipe?",
+   "aliases": [
+    "who teaches camping herbalism",
+    "where to turn in camping 101 herbalism"
+   ],
+   "answer": "Local herbalism trainers instruct adventurers once they qualify. In Tirisfal Glades, Faruza in Brill handles training, while other cities and towns rely on trainers like Jandi in Orgrimmar, Reyna Stonebranch in Ironforge, and Malorne Bladeleaf in Dolanaar."
+  },
+  {
+   "q": "Can members of other factions and races take this quest?",
+   "aliases": [
+    "is camping 101 horde only",
+    "alliance camping 101 herbalism"
+   ],
+   "answer": "Yes. While Eleanor Shackleton and Faruza cater to travelers in Tirisfal Glades, other questgivers and trainers provide identical instruction to herbalists across Kalimdor and the Eastern Kingdoms."
+  },
+  {
+   "q": "What skill requirement is needed to complete the training?",
+   "aliases": [
+    "how much herbalism needed",
+    "camping 101 skill level"
+   ],
+   "answer": "Herbalists must show true proficiency in their trade, reaching an herbalism skill of twenty before the trainer will teach the candle recipe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Rather than simply brewing potions or selling stalks, herbalists can directly support adventuring groups by fashioning fragrant Incense Candles for campfires."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken travelers operating out of Deathknell and Brill learn from Faruza how to make practical field craft out of Tirisfal's withered vegetation."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Spellcasters value herbalists who craft Incense Candles, as their soothing smoke helps restore focus and spirits far from tavern comforts."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "camping",
+  "eleanor shackleton",
+  "faruza",
+  "herbalism",
+  "incense candle",
+  "tirisfal"
+ ],
+ "related": [
+  "npc:eleanor-shackleton",
+  "subzone:brill",
+  "zone:tirisfal",
+  "zone:orgrimmar",
+  "zone:thunderbluff",
+  "zone:ironforge",
+  "subzone:dolanaar"
+ ],
+ "attribution": [
+  "In-game quest text: Camping 101: Herbalism",
+  "Camping 101: Herbalism"
+ ]
+}

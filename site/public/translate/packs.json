@@ -1,0 +1,22 @@
+{
+  "packs": [
+    {
+      "locale": "deDE",
+      "name": "Deutsch",
+      "version": "0.4.0",
+      "dataVersion": "2026-09-30 23:54 UTC",
+      "file": "LoreForever_Lang_deDE-0.4.0.zip",
+      "size": 10291422,
+      "download": "https://github.com/mliudev/LoreForever/releases/download/languages/LoreForever_Lang_deDE-0.4.0.zip"
+    },
+    {
+      "locale": "ptBR",
+      "name": "Português (Brasil)",
+      "version": "0.4.0",
+      "dataVersion": "2026-09-30 23:54 UTC",
+      "file": "LoreForever_Lang_ptBR-0.4.0.zip",
+      "size": 9896772,
+      "download": "https://github.com/mliudev/LoreForever/releases/download/languages/LoreForever_Lang_ptBR-0.4.0.zip"
+    }
+  ]
+}

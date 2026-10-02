@@ -1,0 +1,111 @@
+{
+ "key": "quest:95999",
+ "type": "quest",
+ "name": "WANTED: Incinerator Gar'im",
+ "era": "forever",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   95999
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "25"
+ },
+ "summary": "WANTED: Incinerator Gar'im is a bounty posted by the authorities in Lakeshire against a hostile orc commander entrenched in Render's Valley. Gar'im commands a dangerous contingent of shadowcasters and is purported to be working with the Blackrock clan holding Stonewatch Keep. Magistrate Solomon offers a handsome bounty for proof of his demise.",
+ "sections": [
+  {
+   "title": "A Fire in Render's Valley",
+   "body": "The Redridge Mountains have grown increasingly perilous as the Blackrock orcs push out from their mountain bastions. In Render's Valley, Incinerator Gar'im leads an active incursion, spearheading dark sorcery alongside loyal shadowcasters. With the local town guard stretched thin and the crown's armies largely absent, Magistrate Solomon has turned to independent mercenaries to eliminate Gar'im, who is purported to be working with the Blackrock of Stonewatch Keep.",
+   "spoiler": 0
+  },
+  {
+   "title": "Proof of Demise",
+   "body": "Gar'im is renowned for his destructive magic and command over shadow-weaving casters. To claim the township's reward, hunters must venture deep into enemy-held territory, defeat the incinerator, and return his shattered staff to Lakeshire's town hall as physical proof that the threat has been severed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Incinerator Gar'im?",
+   "aliases": [
+    "who is gar'im",
+    "garim",
+    "incinerator garim"
+   ],
+   "answer": "Incinerator Gar'im is an orc warlord and spellcaster leading an incursion in Render's Valley. He is purported to be working with the Blackrock orcs of Stonewatch Keep and commands dangerous shadowcasters."
+  },
+  {
+   "q": "Where can Incinerator Gar'im be found?",
+   "aliases": [
+    "gar'im location",
+    "where is garim",
+    "render's valley location"
+   ],
+   "answer": "Gar'im establishes his camp among the hostile orc forces in Render's Valley, situated in the southeastern Redridge Mountains."
+  },
+  {
+   "q": "Who posted the bounty for Gar'im?",
+   "aliases": [
+    "who gave the bounty",
+    "solomon bounty"
+   ],
+   "answer": "The bounty was posted on behalf of Lakeshire by Magistrate Solomon, who is desperate to quell the orc incursions pressing down on the embattled town."
+  },
+  {
+   "q": "What proof is required to claim the bounty?",
+   "aliases": [
+    "garim proof",
+    "broken staff quest item"
+   ],
+   "answer": "Magistrate Solomon requires the Broken Staff of Incinerator Gar'im to confirm the spellcaster's demise before paying out the reward."
+  },
+  {
+   "q": "What threat do Gar'im and his followers pose?",
+   "aliases": [
+    "gar'im abilities",
+    "shadowcasters redridge"
+   ],
+   "answer": "Gar'im wields lethal destructive magic and is flanked by shadowcasters. Their presence deepens the Blackrock clan's foothold in Redridge and threatens to overwhelm Lakeshire if left unchecked."
+  },
+  {
+   "q": "Why is Lakeshire relying on bounties rather than the Stormwind army?",
+   "aliases": [
+    "why bounties lakeshire",
+    "where is stormwind army"
+   ],
+   "answer": "Stormwind has left Redridge largely to defend itself amid political strife and troop shortages, forcing Magistrate Solomon to hire willing adventurers to assassinate enemy leaders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Striking down Incinerator Gar'im directly shields the vulnerable citizens of Lakeshire from the leader of an orc incursion and his extremely dangerous Shadowcasters."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Gar'im and his shadowcasters represent a corrupted display of offensive arcana and shadow magic that requires a swift counter-spellcraft response."
+  }
+ ],
+ "keywords": [
+  "blackrock",
+  "bounty",
+  "gar'im",
+  "incinerator",
+  "lakeshire",
+  "render's valley",
+  "shadowcaster",
+  "solomon"
+ ],
+ "related": [
+  "npc:magistrate-solomon",
+  "subzone:render-s-valley",
+  "subzone:lakeshire",
+  "subzone:stonewatch-keep",
+  "subzone:stonewatch",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "In-game quest text: WANTED: Incinerator Gar'im"
+ ]
+}

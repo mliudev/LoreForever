@@ -41,7 +41,7 @@
     "head of kelris turn in",
     "who do i give kelris head to"
    ],
-   "answer": "Alliance champions deliver the head to Dawnwatcher Selgorm in Darnassus, while Horde adventurers bring it to Bashana Runetotem on the Hunter Rise in Thunder Bluff. Both represent the interests of the Argent Dawn."
+   "answer": "Alliance champions deliver the head to Dawnwatcher Selgorm in Darnassus, while Horde adventurers bring it to Bashana Runetotem on the Hunter Rise in Thunder Bluff. Dawnwatcher Selgorm serves the Argent Dawn, while Bashana Runetotem belongs to the Cenarion Circle."
   },
   {
    "q": "Why does the Argent Dawn care about Kelris?",
@@ -67,7 +67,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "Presenting the head to Bashana Runetotem in Thunder Bluff marks one of the Horde's first major contacts with the Argent Dawn, proving their dedication to cleansing Kalimdor's corruption."
+   "text": "Presenting the head to Bashana Runetotem in Thunder Bluff earns the trust of the Cenarion Circle, proving their dedication to cleansing Kalimdor's corruption."
   }
  ],
  "keywords": [

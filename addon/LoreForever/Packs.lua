@@ -1,8 +1,11 @@
 -- Packs: separate add-ons that extend Lore Forever (voice packs now, language packs later), shared by both kinds.
 -- A pack is a load-on-demand add-on that depends on LoreForever and says what it is in its .toc:
---   ## X-LoreForever-Pack: voice | lang       ## X-LoreForever-Locale: enUS       ## X-LoreForever-Format: 1
+--   ## X-LoreForever-Pack: voice | lang | lang-overlay   ## X-LoreForever-Locale: enUS   ## X-LoreForever-Format: 1
+--   (lang-overlay: a translator's test pack from /translate/dashboard, LoreForever_LangTest_<locale>; see Lang.lua)
 --   ## X-LoreForever-DataVersion: ...        (optional, ns.DB.version it was built against; a mismatch only warns)
 --   ## X-LoreForever-Credit: ...  ## X-LoreForever-Sample: <clip id>   (voice packs, optional)
+--   ## X-LoreForever-Extends: <voice pack>   (voice packs, optional: a lands pack that adds clips to that voice; it
+--   isn't a voice of its own, and does nothing without its base; see Voice.Refresh)
 -- Add-ons can't discover files at runtime, so packs are found through the game's add-on list and load when chosen.
 -- A pack's only code is `local P = LoreForeverPacks.Begin(...)` followed by writes into P (e.g. P.clips[id] = hash).
 
@@ -11,12 +14,13 @@ local Packs = { registry = {}, byName = {}, data = {} }
 ns.Packs = Packs
 
 Packs.FORMAT = 1   -- the newest pack format this version understands
-local PREFIX = { voice = "LoreForever_Voice_", lang = "LoreForever_Lang_" }
+local PREFIX = { voice = "LoreForever_Voice_", lang = "LoreForever_Lang_", ["lang-overlay"] = "LoreForever_LangTest_" }
 
 -- What each kind of pack can write. Unknown kinds get nothing.
 local WRITERS = {
   voice = function() return { clips = {} } end,
   lang = function() return { ui = {}, entries = {}, names = {}, quests = {}, items = {}, clipHash = {} } end,   -- see Lang.lua
+  ["lang-overlay"] = function() return { ui = {}, strings = {}, fp = {} } end,
 }
 
 -- The add-on API moved into C_AddOns; older clients have the same calls as globals.
@@ -51,14 +55,16 @@ end
 local function describe(rec)
   local n = rec.name
   rec.kind = kindOf(n) or rec.kind
+  local prefix = (rec.kind == "lang" or rec.kind == "lang-overlay") and PREFIX[rec.kind]
   rec.locale = meta(n, "X-LoreForever-Locale") or rec.locale
-    or (rec.kind == "lang" and n:sub(1, #PREFIX.lang) == PREFIX.lang and n:sub(#PREFIX.lang + 1)) or nil
+    or (prefix and n:sub(1, #prefix) == prefix and n:sub(#prefix + 1)) or nil
   rec.format = tonumber(meta(n, "X-LoreForever-Format") or "") or rec.format
   rec.dataVersion = meta(n, "X-LoreForever-DataVersion") or rec.dataVersion
   rec.languageName = meta(n, "X-LoreForever-LanguageName") or rec.languageName
   rec.ttsVoices = meta(n, "X-LoreForever-TTSVoices") or rec.ttsVoices
   rec.credit = meta(n, "X-LoreForever-Credit") or rec.credit
   rec.sample = meta(n, "X-LoreForever-Sample") or rec.sample
+  rec.extends = meta(n, "X-LoreForever-Extends") or rec.extends
   rec.version = meta(n, "Version") or rec.version
   rec.author = meta(n, "Author") or rec.author
   rec.title = plain(meta(n, "Title") or rec.title or n)

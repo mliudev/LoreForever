@@ -1,0 +1,117 @@
+{
+ "key": "quest:99156",
+ "type": "quest",
+ "name": "Rear Guard Patrol",
+ "era": "forever",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   99156
+  ],
+  "wiki": "Rear Guard Patrol",
+  "harvested": true,
+  "level": "13"
+ },
+ "summary": "Rear Guard Patrol is a critical defense assignment given by Deathguard Linnea in Tirisfal Glades. Rather than fighting off mere wandering ghouls, patrollers are tasked with hunting down Riptear, an abomination roaming near Venomweb Vale that should never have made it past the Bulwark.",
+ "sections": [
+  {
+   "title": "The Breach at the Border",
+   "body": "The Bulwark stands as the sole fortified barrier separating Tirisfal Glades from the horrors of the Western Plaguelands. The strategy of the Forsaken military hinges upon a strictly one-front war. If mindless undead slip behind the lines, the supply routes feeding the front can be strangled in an instant. While stray spirits or ghouls occasionally bypass the barricades, reports of an abomination roaming the glades signal a severe failure of containment.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat of Riptear",
+   "body": "The rogue monstrosity known as Riptear was sighted lumbering close to Venomweb Vale, behind the Bulwark's forward redoubts. Abominations are massive engines of slaughter, stitched together from corpses and dark necromancy. They do not wander through fortified chokepoints unseen, leaving Deathguard Linnea deeply unsettled by how the creature crossed the perimeter. Linnea demands Riptear's heart as absolute confirmation of its destruction.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers the Rear Guard Patrol quest?",
+   "aliases": [
+    "who gives rear guard patrol",
+    "rear guard patrol questgiver",
+    "who gives this quest"
+   ],
+   "answer": "The patrol order is issued by Deathguard Linnea, a Forsaken Deathguard in Tirisfal Glades who reports to Executor Zygand."
+  },
+  {
+   "q": "What is Riptear?",
+   "aliases": [
+    "who is riptear",
+    "what is riptear",
+    "riptear lore"
+   ],
+   "answer": "Riptear is a rogue abomination discovered roaming the eastern glades near Venomweb Vale, behind the forward defensive lines."
+  },
+  {
+   "q": "Why is an abomination near Venomweb Vale so alarming?",
+   "aliases": [
+    "why is riptear a big deal",
+    "why is an abomination dangerous here",
+    "bulwark breach"
+   ],
+   "answer": "Abominations are massive constructs that require dark necromancy and heavy labor to manufacture. Slipping unnoticed through the heavily fortified Bulwark should be impossible, implying an alarming breach or an undetected path behind Forsaken lines."
+  },
+  {
+   "q": "Where is the beast usually found?",
+   "aliases": [
+    "where is riptear",
+    "riptear location",
+    "where to find the abomination"
+   ],
+   "answer": "Sightings place Riptear roaming the woods and clearings of eastern Tirisfal Glades, in the vicinity of Venomweb Vale."
+  },
+  {
+   "q": "What proof is required to finish the patrol?",
+   "aliases": [
+    "what do i bring linnea",
+    "quest turn in item",
+    "proof of riptear death"
+   ],
+   "answer": "Deathguard Linnea requires Riptear's Heart to verify that the massive monstrosity has been permanently put down."
+  },
+  {
+   "q": "Who oversees the defense of the Bulwark?",
+   "aliases": [
+    "who is in charge of bulwark",
+    "linneas superior",
+    "executor zygand"
+   ],
+   "answer": "The quest doesn't name the Bulwark's commander. Deathguard Linnea answers to her superior, Executor Zygand in Brill, who receives her commendations for patrols that keep the Scourge at bay."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Securing Tirisfal's eastern border guarantees that the supply lines feeding the Bulwark and the Undercity remain uncompromised by rogue horrors."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The Forsaken cannot afford to wage war on two fronts; any Scourge construct wandering behind their defensive barricades is an existential danger to their kingdom."
+  }
+ ],
+ "keywords": [
+  "abomination",
+  "bulwark",
+  "deathguard linnea",
+  "rear guard patrol",
+  "riptear",
+  "tirisfal glades",
+  "venomweb vale"
+ ],
+ "related": [
+  "npc:deathguard-linnea",
+  "subzone:bulwark",
+  "subzone:venomweb-vale",
+  "npc:executor-zygand",
+  "topic:scourge",
+  "zone:tirisfal",
+  "subzone:balnir-farmstead",
+  "quest:1882"
+ ],
+ "attribution": [
+  "In-game quest text: Rear Guard Patrol",
+  "Rear Guard Patrol"
+ ]
+}

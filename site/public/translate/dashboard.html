@@ -56,6 +56,29 @@
       <p id="td-progress-text"></p>
     </section>
 
+    <!-- Test pack (LOR-119): your saved edits as a small add-on, from /api/translations/pack (lib/langtest.js). -->
+    <section class="td-pack">
+      <p class="vp-actions"><button type="button" class="btn-small" id="td-pack">Download my test pack</button></p>
+      <p class="vp-note" id="td-pack-note" role="status"></p>
+      <details class="td-help">
+        <summary>Try your edits in game</summary>
+        <ul class="vp-steps">
+          <li>The test pack holds the edits you've saved in this language that aren't in a language update yet, so you
+            can see them in game right away.</li>
+          <li>Unzip it into <code>Interface\AddOns</code>, next to LoreForever. Restart WoW the first time, so the game
+            finds it.</li>
+          <li>In Lore Forever's Options, pick your language (Automatic works if your game is in that language).</li>
+          <li>After more edits, download it again, unzip it over the old folder and type <code>/reload</code>.</li>
+          <li>Lines whose English changed since you saved them are left out. Once your edits are in a language update,
+            you can delete the <code>LoreForever_LangTest</code> folder.</li>
+        </ul>
+        <p class="vp-note"><a href="/translate#in-game">More about test packs, and what to do if nothing changes</a></p>
+      </details>
+    </section>
+
+    <!-- Upload an edited kit (LOR-121): drawn by /js/bulk-upload.js, saved through /api/translations/import. -->
+    <section id="td-upload"></section>
+
     <details class="td-help">
       <summary>How it works</summary>
       <ul class="vp-steps">
@@ -115,6 +138,7 @@
 
 <script type="module">
 import { problem, isList } from "/translate/check.js";
+import { kitUpload } from "/js/bulk-upload.js";
 
 const $ = id => document.getElementById(id);
 const PAGE = 30;        // entries per page when browsing a section
@@ -461,6 +485,35 @@ function renderProgress() {
     + (mine ? ` Your edits: ${mine}.` : " Every line you translate or check counts.");
 }
 
+// The test pack: fetched rather than linked, so the page can say how many lines went in.
+async function downloadPack() {
+  const button = $("td-pack"), note = $("td-pack-note");
+  button.disabled = true;
+  note.textContent = "Making your test pack...";
+  try {
+    const r = await fetch("/api/translations/pack?locale=" + encodeURIComponent(state.locale), { cache: "no-store" });
+    if (!r.ok) {
+      const body = await r.json().catch(() => ({}));
+      note.textContent = body.error || "Couldn't make the test pack. Please try again.";
+      return;
+    }
+    const included = Number(r.headers.get("X-Strings-Included")) || 0;
+    const stale = Number(r.headers.get("X-Strings-Stale")) || 0;
+    const url = URL.createObjectURL(await r.blob());
+    const a = el("a", { href: url, download: `LoreForever_LangTest_${state.locale}.zip` });
+    document.body.append(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 60000);
+    note.textContent = `${fmt(included)} ${included === 1 ? "line" : "lines"} in your test pack.`
+      + (stale ? ` ${fmt(stale)} left out: the English changed since you saved ${stale === 1 ? "it" : "them"}.` : "");
+  } catch (e) {
+    note.textContent = "Couldn't reach the server. Please try again.";
+  } finally {
+    button.disabled = false;
+  }
+}
+
 function setMode(mode) {
   state.mode = mode;
   state.shown = mode === "work" ? WORK_PAGE : PAGE;
@@ -530,7 +583,13 @@ async function start() {
   $("td-browse").hidden = state.mode !== "browse";
   state.shown = state.mode === "work" ? WORK_PAGE : PAGE;
 
-  pick.addEventListener("change", () => { state.cat = null; state.shown = state.mode === "work" ? WORK_PAGE : PAGE; loadLanguage(pick.value); });
+  $("td-pack").addEventListener("click", downloadPack);
+  const upload = kitUpload({
+    locale: () => state.locale, languageName: () => state.lang.name || state.locale, entrySection: state.entrySection,
+    hasText: () => state.hasText, mine: () => state.mine, onSaved: () => loadLanguage(state.locale),
+  });
+  upload.mount($("td-upload"));
+  pick.addEventListener("change", () => { $("td-pack-note").textContent = ""; upload.reset(); state.cat = null; state.shown = state.mode === "work" ? WORK_PAGE : PAGE; loadLanguage(pick.value); });
   sel.addEventListener("change", () => loadSection(sel.value));
   document.querySelectorAll("[data-mode]").forEach(b => b.addEventListener("click", () => setMode(b.dataset.mode)));
   document.querySelectorAll("[data-cat]").forEach(b => b.addEventListener("click", () => {

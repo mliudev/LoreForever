@@ -17,11 +17,11 @@
   "wiki": "Burning Blade Medallion (Classic)",
   "chain": []
  },
- "summary": "Assigned by the shaman Zureetha Fargaze, this task sends young Horde initiates deep into the Burning Blade Coven cave in the Valley of Trials. There, players must confront a hidden cultist and recover an artifact of dark magic known as the Burning Blade Medallion. The mission reveals that demonic corruption is actively taking root right under the Horde's nose.",
+ "summary": "Assigned by the warlock Zureetha Fargaze, this task sends young Horde initiates deep into the Burning Blade Coven cave in the Valley of Trials. There, players must confront a hidden cultist and recover an artifact of dark magic known as the Burning Blade Medallion. The mission reveals that demonic corruption is actively taking root right under the Horde's nose.",
  "sections": [
   {
    "title": "A Hidden Threat in the Valley",
-   "body": "While young orcs and trolls undergo basic trials of combat and survival in the Valley of Trials, an insidious menace lurks in the shadows. Through her spiritual divinations, the shaman Zureetha Fargaze senses that the vile familiars infesting the northern bluffs are merely the vanguard of a darker presence. Deep within a nearby cavern, the Burning Blade cult has established a hidden coven, practicing dark arts and harboring dangerous relics of demonic power.",
+   "body": "While young orcs and trolls undergo basic trials of combat and survival in the Valley of Trials, an insidious menace lurks in the shadows. Through her divinations, the warlock Zureetha Fargaze senses that the vile familiars infesting the northern bluffs are merely the vanguard of a darker presence. Deep within a nearby cavern, the Burning Blade cult has established a hidden coven, practicing dark arts and harboring dangerous relics of demonic power.",
    "spoiler": 0
   },
   {
@@ -94,7 +94,7 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Recovering the tainted relic aids Zureetha Fargaze in using the spirits and elemental sight to expose demonic corruption that defiles the earth of Durotar."
+   "text": "Recovering the tainted relic aids Zureetha Fargaze in exposing demonic corruption that defiles the earth of Durotar."
   },
   {
    "target": "race:Orc",

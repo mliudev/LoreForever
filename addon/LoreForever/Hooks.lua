@@ -275,7 +275,8 @@ end
 
 -- Chat links -------------------------------------------------------------------------------------------------------
 
--- A clickable chat link. kind: "faq" (key + idx), "entry" (key), "primer" (zone key), "listen" (key), "open".
+-- A clickable chat link. kind: "faq" (key + idx), "entry" (key), "primer" (zone key), "listen" (key), "open",
+-- "journey" / "journeylisten" (a journey chapter id).
 function Hooks.Link(text, kind, key, idx)
   return GOLD .. "|H" .. LINK .. kind .. ":" .. (idx or "") .. ":" .. (key or "") .. "|h[" .. esc(text) .. "]|h|r"
 end
@@ -291,6 +292,7 @@ function Hooks.HandleLink(link)
   elseif kind == "entry" then ns.UI.Open(key, nil, "chatlink")
   elseif kind == "primer" then ns.UI.ShowPrimer(key, "chatlink")
   elseif kind == "listen" then ns.UI.ListenTo(ns.UI.EntryTarget(key))
+  elseif kind == "journey" or kind == "journeylisten" then ns.Journey.Open(key, kind == "journeylisten")
   elseif kind == "open" then ns.UI.Open(nil, nil, "chatlink") end
   return true
 end

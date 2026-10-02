@@ -102,8 +102,6 @@
  },
  "item:black-feather-quill": {},
  "item:blackened-skull": {},
- "item:blood-knight-insignia": {},
- "item:blood-of-the-wrathful": {},
  "item:bloodfeather-belt": {},
  "item:bloodfury-ripper-s-remains": {},
  "item:bloodstone-choker": {},
@@ -185,7 +183,6 @@
   }
  },
  "item:covert-ops-pack": {},
- "item:crate-of-bloodforged-ingots": {},
  "item:crate-of-crash-helmets": {},
  "item:crate-of-horseshoes": {},
  "item:crate-of-inn-supplies": {},
@@ -241,7 +238,6 @@
  },
  "item:deviate-hide": {},
  "item:devlin-s-remains": {},
- "item:diabolical-plans": {},
  "item:dim-necrotic-stone": {},
  "item:dirt-caked-pendant": {
   "faq": {
@@ -578,9 +574,6 @@
  "item:large-soran-ruk-fragment": {},
  "item:laughing-sister-s-hair": {},
  "item:legacy-of-the-aspects": {},
- "item:letter-from-lor-themar-theron": {},
- "item:letter-of-introduction": {},
- "item:letter-sealed-by-sylvanas": {},
  "item:letter-to-delgren": {},
  "item:letter-to-ello": {
   "summary": "The Letter to Ello is a sealed missive penned by Abercrombie, an eccentric hermit dwelling near Beggar's Haunt in Duskwood. Addressed to Mayor Ello Ebonlocke of Darkshire, the letter is delivered under the hermit's claim of old friendship, though its contents are written in an archaic script."
@@ -922,7 +915,6 @@
  "item:stormpike-banner": {},
  "item:stormpike-s-request": {},
  "item:stormwind-armor-marker": {},
- "item:stormwind-nougat": {},
  "item:stoutmantle-s-response-to-solomon": {},
  "item:strange-smelling-powder": {},
  "item:strangely-marked-box": {},
@@ -983,7 +975,6 @@
  "item:tender-boar-meat": {},
  "item:tender-boar-ribs": {},
  "item:teronis-journal": {},
- "item:thalanaar-moonwell-water": {},
  "item:tharil-zun-s-head": {},
  "item:tharnariun-s-hope": {
   "faq": {
@@ -1432,7 +1423,8 @@
  "npc:deathstalker-vincent": {},
  "npc:deathwing": {
   "faq": {
-   "5": 2
+   "5": 2,
+   "3": 1
   }
  },
  "npc:deino": {},
@@ -6613,7 +6605,6 @@
  "subzone:shalzaru-s-lair": {},
  "subzone:shaper-s-terrace": {},
  "subzone:shatter-scar-vale": {},
- "subzone:shattered-beachhead": {},
  "subzone:shattered-strand": {},
  "subzone:shattershore": {},
  "subzone:shatterspear-pass": {},
@@ -6621,7 +6612,6 @@
  "subzone:shatterspear-war-camp": {},
  "subzone:shifting-mire": {},
  "subzone:shimmer-ridge": {},
- "subzone:shimmering-deep": {},
  "subzone:shimmering-flats": {},
  "subzone:shining-strand": {},
  "subzone:shok-thokar": {},

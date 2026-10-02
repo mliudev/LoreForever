@@ -17,16 +17,16 @@
   "wiki": "The Totem of Infliction",
   "chain": []
  },
- "summary": "Madame Eva of Darkshire offers to craft a protective ward known as the Totem of Infliction for travelers passing through the shadowed woods. By harvesting remains from the ghouls, skeletons, and venomous spiders haunting the region, she binds their innate malice into a charm that retaliates against attackers. The task serves as both a grim test of survival and a superstitious safeguard against the pervasive darkness of Duskwood.",
+ "summary": "Madame Eva of Darkshire offers to craft a protective ward known as the Totem of Infliction for travelers passing through the shadowed woods. By harvesting remains from the ghouls, skeletons, and venomous spiders haunting the region, she enchants a charm that retaliates against attackers. The task serves as both a grim test of survival and a superstitious safeguard against the pervasive darkness of Duskwood.",
  "sections": [
   {
    "title": "A Fortune of Bloodshed",
-   "body": "Within her candle-lit abode in Darkshire, Madame Eva peers past the veil into the fortunes of those who cross her threshold. Sensing impending danger and violence waiting patiently on the horizon, she offers more than mere divination: practical, sympathetic sorcery. By gathering ten ghoul fangs, ten skeleton fingers, and five vials of spider venom from the haunted thickets, an adventurer supplies the raw materials needed to construct a protective ward against Duskwood's ravenous predators.",
+   "body": "Within her candle-lit abode in Darkshire, Madame Eva peers past the veil into the fortunes of those who cross her threshold. Sensing impending danger and violence waiting patiently on the horizon, she offers more than mere divination: practical sorcery. By gathering ten ghoul fangs, ten skeleton fingers, and five vials of spider venom from the haunted thickets, an adventurer supplies the raw materials needed to construct a protective ward against Duskwood's ravenous predators.",
    "spoiler": 0
   },
   {
-   "title": "Sympathetic Magic",
-   "body": "The Totem of Infliction operates on the principles of sympathetic magic, turning the essence of Duskwood's horrors against themselves. Ghoul fangs steeped in necrotizing hunger, finger bones wrested from restless dead, and potent arachnid venom are woven together by Madame Eva's enchantments. When grasped in times of mortal peril, the totem radiates a magical aura designed to reflect cruelty, inflicting spiritual and physical harm upon anyone foolish enough to strike its bearer.",
+   "title": "Eva's Enchantment",
+   "body": "Ghoul fangs steeped in necrotizing hunger, finger bones wrested from restless dead, and potent arachnid venom are woven together by Madame Eva's enchantments. When grasped in times of mortal peril, the totem radiates a magical aura designed to reflect cruelty, inflicting spiritual and physical harm upon anyone foolish enough to strike its bearer.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "what does totem do",
     "totem lore"
    ],
-   "answer": "The totem is an enchanted talisman meant to ward off assailants. Held when threatened, its magic retaliates against hostile foes who attempt violent acts against the bearer, turning the dark energies of Duskwood's predators outward."
+   "answer": "The totem is an enchanted talisman meant to ward off assailants. Held when threatened, its magic retaliates against hostile foes who attempt violent acts against the bearer."
   },
   {
    "q": "Why does Madame Eva need ghoul fangs, skeleton fingers, and spider venom?",
@@ -56,7 +56,7 @@
     "ingredients for totem",
     "why skeleton fingers"
    ],
-   "answer": "The charm relies on sympathetic sorcery. By utilizing the anatomical weapons and remains of the forest's most aggressive monsters\u2014the bites of ghouls, the grasping claws of skeletons, and arachnid venom\u2014Eva binds their innate malice into a protective retaliatory enchantment."
+   "answer": "By utilizing the anatomical weapons and remains of the forest's most aggressive monsters\u2014the bites of ghouls, the grasping claws of skeletons, and arachnid venom\u2014Eva crafts a protective retaliatory enchantment."
   },
   {
    "q": "Where are the components for the totem found?",
@@ -83,7 +83,7 @@
     "is eva evil",
     "dark magic totem"
    ],
-   "answer": "While crafting items out of corpse parts and venom edges close to shadow craft, in the desperate environment of Duskwood, folk hedge-magic and sympathetic charms are widely accepted methods of self-defense against the surrounding horrors."
+   "answer": "While crafting items out of corpse parts and venom edges close to shadow craft, in the desperate environment of Duskwood, folk hedge-magic and protective charms are widely accepted methods of self-defense against the surrounding horrors."
   }
  ],
  "angles": [
@@ -97,7 +97,7 @@
   },
   {
    "target": "class:Warlock",
-   "text": "Warlocks will readily recognize the principles of retaliatory curses and sympathetic components woven into Eva's protective charm."
+   "text": "Warlocks will readily recognize the principles of retaliatory curses woven into Eva's protective charm."
   },
   {
    "target": "class:Priest",

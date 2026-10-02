@@ -1,0 +1,110 @@
+{
+ "key": "quest:95065",
+ "type": "quest",
+ "name": "Fishin' Time",
+ "era": "forever",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   95065
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "12"
+ },
+ "summary": "Fishin' Time is a simple errand for Gilbert Gray, an elderly angler soaking in the scenic coastal views at the harbor in Stormwind. Running out of bait just as the fish begin biting, he relies on passersby to run into the city's canals and resupply his tackle box.",
+ "sections": [
+  {
+   "title": "A Day by the Water",
+   "body": "Not everyone in Stormwind is consumed by politics, war, or looming conspiracies. Down at the harbor edge, Gilbert Gray spends his quiet days enjoying the ocean breeze and watching his bobber dance on the tides. But an enthusiastic angler can easily lose track of their tackle, and a sudden run of biting fish quickly drains even a well-prepared bait tin. Rather than abandon his prized perch, the old man turns to helpful adventurers to replenish his essentials.",
+   "spoiler": 0
+  },
+  {
+   "title": "Supplies Along the Canals",
+   "body": "Stormwind's local angling needs run through Catherine Leland, who operates a well-known tackle shop nestled along the stone canals just west of the bustling Trade District. Supplying fishermen across the city with lures, bait, and practical instruction, Leland ensures that old regulars like Gilbert Gray never have to pack up their lines early for lack of a shiny bauble or a squirming nightcrawler.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gilbert Gray?",
+   "aliases": [
+    "gilbert gray",
+    "old gray",
+    "who gives this quest"
+   ],
+   "answer": "Gilbert Gray is an elderly fisherman stationed out by the waters of Stormwind harbor. Content to spend his days casting lines into the sea, he asks passing adventurers to fetch fresh bait and lures when his own supplies run low."
+  },
+  {
+   "q": "Who is Catherine Leland?",
+   "aliases": [
+    "catherine leland",
+    "fishing vendor stormwind",
+    "leland stormwind"
+   ],
+   "answer": "Catherine Leland is Stormwind's resident fishing supplier and trainer. Her shop sits along the city canals just west of the Trade District, where she sells equipment, bait, and guidance to the kingdom's anglers."
+  },
+  {
+   "q": "Where does Gilbert Gray fish?",
+   "aliases": [
+    "gilbert gray location",
+    "where is gilbert gray",
+    "harbor fisherman"
+   ],
+   "answer": "Gilbert Gray is located out near the water at Stormwind's harbor, where he enjoys the open ocean view away from the congested city streets."
+  },
+  {
+   "q": "What supplies does Gilbert Gray need?",
+   "aliases": [
+    "quest items fishin time",
+    "what bait does gray want"
+   ],
+   "answer": "Gilbert Gray needs nightcrawlers for bait and a shiny bauble to use as an enticing lure, both of which can be purchased from Catherine Leland along the canals."
+  },
+  {
+   "q": "Why doesn't Gilbert Gray fetch the supplies himself?",
+   "aliases": [
+    "why cant gray buy bait",
+    "why does gray need help"
+   ],
+   "answer": "The fish are actively biting when you speak to him, and he does not want to lose his spot or miss a good catch by trekking all the way back into the city to restock."
+  },
+  {
+   "q": "Where along the canals is Catherine Leland's shop located?",
+   "aliases": [
+    "catherine leland location",
+    "where is lelands shop",
+    "trade district canals"
+   ],
+   "answer": "Her shop is positioned right by the canal waters just west of the Trade District, directly accessible from the stone walkways spanning the city's waterway network."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Taking time to assist an old citizen like Gilbert Gray reflects the humble everyday chores that sustain life and morale across Stormwind."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans calling Stormwind home, helping a neighborhood elder spend a quiet afternoon fishing is a welcome respite from kingdom politics."
+  }
+ ],
+ "keywords": [
+  "canals",
+  "catherine leland",
+  "fishin time",
+  "gilbert gray",
+  "nightcrawlers",
+  "shiny bauble",
+  "stormwind harbor",
+  "trade district"
+ ],
+ "related": [
+  "subzone:canals-stormwind-city",
+  "subzone:trade-district",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "In-game quest text: Fishin' Time"
+ ]
+}

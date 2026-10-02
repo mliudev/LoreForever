@@ -45,13 +45,51 @@
         name in the credits if you like.</li>
     </ol>
     <p class="vp-note">You don't have to finish anything: every line you translate is used, and the rest stays in
-      English until someone gets to it. Start with the interface and the zones. Rather work offline? Download your
-      language's kit below, edit it in a text editor and <a href="/translate/submit">send it to us</a>. Questions?
+      English until someone gets to it. Start with the interface and the zones. Questions?
       <a href="/discord?src=translate">Ask on Discord</a>, where native speakers also review each language.</p>
+    <p class="vp-note"><strong>Rather work offline?</strong> Download your language's kit below and edit it in a text
+      editor. When you're done, drop the kit (the zip, its folder, or just the .json files you changed) on
+      <strong>Upload your edited kit</strong> in the <a href="/translate/dashboard">dashboard</a>. It shows what would
+      change before saving anything, and every string you filled in or changed becomes your edit, as if you'd typed it
+      there. Strings whose English changed since you downloaded the kit are skipped and listed, so download a fresh kit
+      for those. Can't upload? Share the kit as a link with the <a href="/translate/submit">submission form</a>
+      instead.</p>
     <p class="vp-actions">
       <a class="btn-small" href="/translate/dashboard">Start translating</a>
       <a class="btn-small" href="#report">Report a bad translation</a>
     </p>
+  </section>
+
+  <section class="vp-section" id="in-game" aria-labelledby="in-game-title">
+    <h2 id="in-game-title">See your translation in game</h2>
+    <p class="vp-note">Your saved edits reach every player when they go into a language update. Until then, a test
+      pack lets you see them in your own game.</p>
+    <ol class="vp-steps">
+      <li>Save your edits in the <a href="/translate/dashboard">dashboard</a>, or upload your edited kit there.</li>
+      <li>Press <strong>Download my test pack</strong> there. Each language has its own.</li>
+      <li>Unzip it into <code>World of Warcraft\_classic_beta_\Interface\AddOns</code>. It's the same folder every
+        time: to update it, unzip the new one over it.</li>
+      <li>Keep the language pack installed if you have it. The test pack sits on top of it (it also works alone).</li>
+      <li>Restart WoW the first time, so the game finds it. After that, <code>/reload</code> is enough.</li>
+      <li>In Lore Forever's Options, under Language, pick your language.</li>
+    </ol>
+    <details class="tl-help">
+      <summary>What's in the test pack?</summary>
+      <p class="vp-note">Your saved edits in that language that haven't gone into an update yet. Lines you cleared,
+        and edits that weren't used, are left out. If the English of a line changed since you saved it, it's left out
+        too and the game shows the current translation instead; the dashboard says how many were left out. The pack is
+        only for testing on your own computer: once your edits are in an update, you can delete the
+        <code>LoreForever_LangTest</code> folder.</p>
+    </details>
+    <details class="tl-help">
+      <summary>Nothing changed in game?</summary>
+      <ul class="vp-steps">
+        <li>Restart WoW after the first unzip: <code>/reload</code> doesn't find new add-ons.</li>
+        <li>Check the folder isn't nested twice: <code>AddOns\LoreForever_LangTest_deDE\LoreForever_LangTest_deDE.toc</code>
+          (with your language's code), not <code>AddOns\LoreForever_LangTest_deDE\LoreForever_LangTest_deDE\...</code>.</li>
+        <li>Check Options &rsaquo; Language. After you log in, a chat line says how many of your lines are in use.</li>
+      </ul>
+    </details>
   </section>
 
   <section class="vp-section" id="languages" aria-labelledby="languages-title">

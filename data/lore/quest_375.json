@@ -1,0 +1,110 @@
+{
+ "key": "quest:375",
+ "type": "quest",
+ "name": "The Chill of Death",
+ "era": "forever",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   375
+  ],
+  "wiki": "The Chill of Death (Classic)",
+  "harvested": true,
+  "level": "8"
+ },
+ "summary": "In the town of Brill, a Forsaken tailor named Gretchen Dedmar struggles against the creeping cold of mortality and decay. Fearing that the encroaching mindless state will rob her of the ability to serve Lady Sylvanas, she asks for simple materials to sew herself a warm blanket.",
+ "sections": [
+  {
+   "title": "A Creeping Frost",
+   "body": "For the Forsaken, undeath is not a static condition of eternal preservation. As Gretchen Dedmar describes, the lingering Plague of Undeath runs through her body like an icy serpent, draining the warmth from her limbs and threatening to pull her into the mindless state that afflicts so many wandering corpses in Tirisfal Glades. Her shivering hands make ordinary work nearly impossible.",
+   "spoiler": 0
+  },
+  {
+   "title": "Service to the Dark Lady",
+   "body": "Despite her failing strength, Gretchen refuses to abandon her duty to the Forsaken kingdom. When Sylvanas Windrunner first rallied the liberated dead, Gretchen contributed by sewing burial shrouds and body bags for fallen soldiers. By gathering sturdy duskbat pelts and coarse thread, travelers help keep her hands steady enough to craft a blanket and prolong her useful service to the Forsaken cause.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gretchen Dedmar?",
+   "aliases": [
+    "gretchen dedmar",
+    "who is gretchen",
+    "brill tailor questgiver"
+   ],
+   "answer": "Gretchen Dedmar is a Forsaken woman residing in Brill. She previously contributed to the nascent Forsaken war effort by stitching body bags for Lady Sylvanas's fallen troops."
+  },
+  {
+   "q": "What is the 'Mindless State' Gretchen fears?",
+   "aliases": [
+    "what is mindless state",
+    "why is gretchen losing her mind",
+    "forsaken becoming mindless"
+   ],
+   "answer": "The mindless state refers to the mental and physical decay that overtakes some undead when the remaining will and necrotic energies fail, leaving them as feral, shambling creatures like those wandering outside Brill and Deathknell."
+  },
+  {
+   "q": "Why does Gretchen feel cold if she is dead?",
+   "aliases": [
+    "can undead feel cold",
+    "why are undead cold",
+    "chill of death meaning"
+   ],
+   "answer": "While undead bodies lack living circulation, Gretchen perceives the creeping plague within her veins as an overwhelming, freezing chill that stiffens her joints and leaves her hands shaking."
+  },
+  {
+   "q": "Why does she need duskbat pelts and thread?",
+   "aliases": [
+    "why duskbat pelts",
+    "what is the blanket for"
+   ],
+   "answer": "Gretchen needs five duskbat pelts and coarse thread to sew herself a thick blanket. She hopes the added warmth will keep her shivering hands functional so she can continue working."
+  },
+  {
+   "q": "Where can duskbats be found?",
+   "aliases": [
+    "where are duskbats",
+    "duskbat pelt location"
+   ],
+   "answer": "Duskbats roost throughout the woods and open glades surrounding Brill and northern Tirisfal."
+  },
+  {
+   "q": "Does this quest connect to any other duties in Brill?",
+   "aliases": [
+    "chill of death follow up",
+    "gretchen dedmar chain"
+   ],
+   "answer": "It is a standalone task of aid for a struggling resident of Brill, demonstrating the quiet, personal struggles among the newly liberated Forsaken."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Gretchen's struggle is a grim reminder for all Forsaken that liberation from the Lich King does not protect against physical rot and the ever-present threat of mindlessness."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Gretchen relies on humble needlecraft, having stitched body bags for Sylvanas's army before turning her needle toward a simple pelt blanket."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "chill of death",
+  "coarse thread",
+  "duskbat pelt",
+  "gretchen dedmar",
+  "mindless state",
+  "plague of undeath",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:brill",
+  "zone:tirisfal",
+  "topic:plague-of-undeath"
+ ],
+ "attribution": [
+  "In-game quest text: The Chill of Death",
+  "The Chill of Death (Classic)"
+ ]
+}

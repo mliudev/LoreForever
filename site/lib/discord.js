@@ -5,7 +5,7 @@
 // Discord hands back an existing link when the settings match, so each new one lands in a different channel.
 export const INVITES = {
   site: "PJm2w3kvEe",     // sidebar and footer, lands in #welcome
-  request: "NqkXPP96JD",  // "Request on Discord" button, lands in #requests
+  request: "NqkXPP96JD",  // "Vote on Discord" button (home page, Levels 30 to 60), lands in #requests
   feedback: "TMsxNwXTA5", // after sending feedback, lands in #help-and-bugs
   video: "epUXUBmdtd",    // video descriptions, lands in #lore-questions
   bio: "dqch9tfKGv",      // social bios and link-in-bio, lands in #announcements

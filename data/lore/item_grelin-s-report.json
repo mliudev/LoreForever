@@ -11,16 +11,16 @@
    "quest:420"
   ]
  },
- "summary": "Grelin's Report is a dispatch written by Grelin Whitebeard detailing the brewing threats in Coldridge Valley. Entrusted to an adventurer rather than a novice apprentice, it serves as the official link between the scouts guarding Anvilmar and Senir Whitebeard stationed in Kharanos.",
+ "summary": "Grelin's Report is a dispatch written by Grelin Whitebeard detailing the Frostmane troll situation in Coldridge Valley. Entrusted to an adventurer rather than a novice apprentice, it serves as the official link between the scouts guarding Anvilmar and Senir Whitebeard stationed in Kharanos.",
  "sections": [
   {
    "title": "A Dispatch Past the Troggs",
-   "body": "Written after investigating the escalating aggression of the Frostmane trolls in Coldridge Valley, Grelin's Report summarizes the immediate dangers facing the dwarven starter lands. Rather than trusting his fumbling apprentice with such vital intelligence, Grelin enlists a capable traveler to carry the document through the trogg-infested Coldridge Pass. The paper acts as an official pass through Mountaineer Thalos's blockade, proving the bearer travels on urgent business to the wider snowy expanse of Dun Morogh.",
+   "body": "Written after observing the Frostmane trolls in Coldridge Valley, Grelin's Report concludes that they pose no large threat and can be dealt with by the Mountaineers already stationed there and mercenaries paid from Senate funds. Rather than trusting his fumbling apprentice with such vital intelligence, Grelin enlists a capable traveler to carry the document through the trogg-infested Coldridge Pass. The paper acts as an official pass through Mountaineer Thalos's blockade, proving the bearer travels on urgent business to the wider snowy expanse of Dun Morogh.",
    "spoiler": 0
   },
   {
    "title": "Ruffling Feathers in Kharanos",
-   "body": "When delivered to Senir Whitebeard at the Thunderbrew Distillery in Kharanos, the report provides critical field updates intended for Ironforge. Senir notes with amused resignation that his brother invoked King Magni Bronzebeard's name liberally throughout the text. While blunt appeals to royal authority inevitably irritate the bureaucratic Ironforge Senate, the report highlights real, mounting pressures from trogg incursions and troll skirmishes that the crown cannot easily ignore.",
+   "body": "When delivered to Senir Whitebeard at the Thunderbrew Distillery in Kharanos, the report provides critical field updates intended for Ironforge. Senir notes with amused resignation that his brother invoked King Magni Bronzebeard's name liberally throughout the text. Grelin claims the King's sanction for the action, and Senir expects that appeal to royal authority to ruffle some feathers in the Ironforge Senate.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "why send the report",
     "grelin report purpose"
    ],
-   "answer": "The report communicates Grelin Whitebeard's intelligence on local dangers\u2014particularly the Frostmane trolls and encroaching troggs\u2014from Coldridge Valley to his brother Senir in Kharanos. It ensures leadership outside the valley understands the severity of the threats."
+   "answer": "The report carries Grelin Whitebeard's assessment of the Frostmane trolls from Coldridge Valley to his brother Senir in Kharanos. It assures leadership outside the valley that the trolls pose no large threat and can be handled by local Mountaineers and Senate-funded mercenaries."
   },
   {
    "q": "Why can't Grelin deliver it himself?",

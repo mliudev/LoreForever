@@ -17,11 +17,11 @@
   "wiki": "A Dynamite Plan",
   "chain": []
  },
- "summary": "A Dynamite Plan is a task offered by the inventive tinkerer Sprite Jumpsprocket in Stormwind's Dwarven District. Stirred by rumors of brewing industrial sabotage, she seeks a sizable stash of coarse dynamite to kick-start her explosive countermeasures. Adventurers must manufacture or acquire the munitions to support her scheming.",
+ "summary": "A Dynamite Plan is a task offered by the inventive tinkerer Sprite Jumpsprocket in Stormwind's Dwarven District. Excited by talk of industrial sabotage, she seeks a sizable stash of coarse dynamite to kick-start the plan. Adventurers must manufacture or acquire the munitions to support her scheming.",
  "sections": [
   {
    "title": "Sparks in the Dwarven District",
-   "body": "Amid the clatter and smoke of Stormwind's Dwarven District, gnome engineer Sprite Jumpsprocket is rarely one to shy away from radical solutions. When reports of industrial sabotage reach her ears, her immediate instinct is not caution, but counteraction. To fight fire with fire\u2014or rather, sabotage with high explosives\u2014she enlists passing mercenaries to supply her with a bundle of coarse dynamite.",
+   "body": "Amid the clatter and smoke of Stormwind's Dwarven District, gnome engineer Sprite Jumpsprocket is rarely one to shy away from radical solutions. When talk turns to industrial sabotage, her immediate instinct is not caution, but enthusiasm. As a first step, she enlists passing mercenaries to supply her with a bundle of coarse dynamite.",
    "spoiler": 0
   },
   {
@@ -56,7 +56,7 @@
     "dynamite purpose",
     "sabotage motive"
    ],
-   "answer": "Hearing whispers of industrial sabotage, Sprite believes the best way to handle the problem is to launch her own explosive enterprise, starting with a dependable stockpile of basic blasting charges."
+   "answer": "The prospect of industrial sabotage has caught Sprite's attention, and she means to start the job with a dependable stockpile of basic blasting charges."
   },
   {
    "q": "Where do I turn in the quest?",
@@ -83,7 +83,7 @@
     "westfall sabotage",
     "industrial sabotage lore"
    ],
-   "answer": "Fringe syndicates and bandits frequently disrupt mining, farming, and transport throughout Westfall and Elwynn Forest. Urban tinkerers like Sprite often take matters into their own hands to protect or exploit commercial ventures threatened by regional lawlessness."
+   "answer": "Sprite never says what her sabotage is aimed at. All she reveals is her eagerness: the moment industrial sabotage comes up, she wants to start with dynamite."
   }
  ],
  "angles": [
@@ -97,7 +97,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Supplying explosives within the city walls aids private dwarven and gnomish interests working to secure Alliance industrial ventures."
+   "text": "Sprite runs her explosive scheme from the Dwarven District, right inside the walls of the Alliance capital."
   }
  ],
  "keywords": [

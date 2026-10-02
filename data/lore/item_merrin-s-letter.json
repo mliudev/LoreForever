@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Dispatch from the Ruins",
-   "body": "While excavating enormous prehistoric fossils and relics at the Whelgar's Excavation site in the Wetlands, the dwarven expedition disturbed a nest of ferocious Mottled Raptors. The beasts swarmed the trenches, slaughtering several workers and cutting off the surviving researchers from escape. Penning this note amidst the chaos, Merrin Rockweaver wrote to inform her companion Tarrel back at Greenwarden's Grove that while the dig lies in ruins, she, Prospector Whelgar, and Ormer Ironbraid managed to survive behind barricaded shelter.",
+   "body": "While excavating enormous prehistoric fossils and relics at the Whelgar's Excavation site in the Wetlands, the dwarven expedition disturbed a nest of ferocious Mottled Raptors. The beasts swarmed the trenches, slaughtering several workers and cutting off the surviving researchers from escape. Penning this note amidst the chaos, Merrin Rockweaver wrote to inform her husband Tarrel back at Menethil Harbor that while the dig lies in ruins, she, Prospector Whelgar, and Ormer Ironbraid managed to survive behind barricaded shelter.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "recipient of merrins letter",
     "who gets merrins letter"
    ],
-   "answer": "It is addressed to Tarrel Rockweaver, who waits anxiously for news at Greenwarden's Grove along the road to Loch Modan."
+   "answer": "It is addressed to Tarrel Rockweaver, who waits anxiously for news on the bridge at Menethil Harbor."
   },
   {
    "q": "What happened to the excavation team?",

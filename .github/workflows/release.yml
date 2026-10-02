@@ -1,5 +1,7 @@
 # Builds the download zip and the Windows installer, publishes them as a GitHub release with that version's notes
-# from CHANGELOG.md, and uploads the zip to CurseForge.
+# from CHANGELOG.md, and uploads the zip to CurseForge. Also builds the complete download (every narration) and the
+# optional narration packs, adds them to the GitHub release, and attaches them to the CurseForge file as additional
+# files (the CurseForge app installs only the main file; these are manual downloads from the Files tab).
 # Runs when a version tag is pushed; the maintainer's scripts/release.sh does that. The tag must match
 # "## Version" in addon/LoreForever/LoreForever.toc. Run it by hand (Actions > Release > Run workflow) to
 # rebuild the assets of an existing tag; that only uploads to CurseForge if you tick the box.
@@ -43,10 +45,27 @@ jobs:
         run: |
           bash scripts/build-release.sh
           mv "dist/LoreForever-${{ steps.version.outputs.version }}.zip" dist/LoreForever.zip
+      # dist/extra/manifest.tsv: file, CurseForge display name, version (one line per extra zip).
+      - name: Build the complete zip and the narration packs
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          bash scripts/build-release.sh --complete
+          mkdir -p dist/extra
+          mv "dist/LoreForever-$VERSION-complete.zip" dist/extra/LoreForever-complete.zip
+          bash scripts/build-voice-packs.sh
+          mv dist/packs/*.zip dist/extra/
+          { printf 'LoreForever-complete.zip\tLore Forever Complete %s (all narrations)\t%s\n' "$VERSION" "$VERSION"
+            cat dist/packs/manifest.tsv; } > dist/extra/manifest.tsv
+          cat dist/extra/manifest.tsv
       - uses: actions/upload-artifact@v4
         with:
           name: zip
           path: dist/LoreForever.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: extra
+          path: dist/extra/
 
   installer:
     needs: zip
@@ -145,11 +164,13 @@ jobs:
           else
             notes=(--generate-notes)
           fi
-          cd dist && sha256sum LoreForever.zip LoreForever-Setup.exe | tee SHA256SUMS.txt
+          cd dist
+          extra=(); while IFS=$'\t' read -r file _; do extra+=("$file"); done < manifest.tsv   # from the extra artifact
+          sha256sum LoreForever.zip LoreForever-Setup.exe "${extra[@]}" | tee SHA256SUMS.txt
           if gh release view "$TAG" >/dev/null 2>&1; then
-            gh release upload "$TAG" LoreForever.zip LoreForever-Setup.exe SHA256SUMS.txt --clobber
+            gh release upload "$TAG" LoreForever.zip LoreForever-Setup.exe "${extra[@]}" SHA256SUMS.txt --clobber
           else
-            gh release create "$TAG" LoreForever.zip LoreForever-Setup.exe SHA256SUMS.txt \
+            gh release create "$TAG" LoreForever.zip LoreForever-Setup.exe "${extra[@]}" SHA256SUMS.txt \
               --title "Lore Forever $VERSION" "${notes[@]}" --latest
           fi
 
@@ -171,6 +192,10 @@ jobs:
         with:
           name: zip
           path: dist
+      - uses: actions/download-artifact@v4
+        with:
+          name: extra
+          path: dist/extra
       - name: Upload to CurseForge
         run: |
           if [ -z "$CF_API_TOKEN" ]; then
@@ -199,5 +224,27 @@ jobs:
             "https://wow.curseforge.com/api/projects/$project/upload-file")
           cat result.json; echo
           [ "$code" = 200 ] || { echo "::error::CurseForge upload failed (HTTP $code)"; exit 1; }
-          echo "Uploaded Lore Forever $VERSION to CurseForge project $project (file $(jq -r .id result.json)); it goes live after moderation." \
+          main=$(jq -r .id result.json)
+          echo "Uploaded Lore Forever $VERSION to CurseForge project $project (file $main); it goes live after moderation." \
             >> "$GITHUB_STEP_SUMMARY"
+          # Additional files, attached to the main file: the complete download and the narration packs. They take no
+          # gameVersions (they follow the main file's). Any that fails fails the job, but only now that the main file
+          # is up, so a rerun can't upload it twice.
+          failed=0
+          while IFS=$'\t' read -r file name _; do
+            [ -f "dist/extra/$file" ] || continue
+            jq -n --rawfile log notes.md --arg name "$name" --argjson parent "$main" \
+              '{displayName: $name, parentFileID: $parent, releaseType: "release", changelog: $log, changelogType: "markdown"}' \
+              > extra.json
+            code=$(curl -sS --retry 3 --retry-delay 10 -o extra-result.json -w '%{http_code}' \
+              -H "X-Api-Token: $CF_API_TOKEN" -F "metadata=<extra.json" -F "file=@dist/extra/$file" \
+              "https://wow.curseforge.com/api/projects/$project/upload-file")
+            cat extra-result.json; echo
+            if [ "$code" = 200 ]; then
+              echo "- additional file: $name (file $(jq -r .id extra-result.json))" >> "$GITHUB_STEP_SUMMARY"
+            else
+              echo "::error::CurseForge additional file $file ($name) failed (HTTP $code); the main file is up"
+              failed=1
+            fi
+          done < dist/extra/manifest.tsv
+          [ "$failed" = 0 ] || exit 1

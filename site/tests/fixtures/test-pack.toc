@@ -1,0 +1,11 @@
+## Interface: 16001
+## Title: Ashen voices (test pack)
+## Notes: Recorded narration for Lore Forever.
+## Version: test-20261001.1830
+## Dependencies: LoreForever
+## LoadOnDemand: 1
+## X-LoreForever-Pack: voice
+## X-LoreForever-Locale: enUS
+## X-LoreForever-Format: 1
+## X-LoreForever-Sample: zone:stormwind
+Clips.lua
