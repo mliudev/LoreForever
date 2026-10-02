@@ -8,16 +8,16 @@
   "wiki": "Vorn Skyseer",
   "refs": 1
  },
- "summary": "Vorn Skyseer is a peaceful tauren resident of Bloodhoof Village in central Mulgore. Resting beside the village lodgings, he greets young adventurers arriving from the Red Cloud Mesa and introduces them to local life.",
+ "summary": "Vorn Skyseer is a peaceful tauren resident of Camp Narache atop Red Cloud Mesa in Mulgore. Resting among the camp's tents, he greets young adventurers beginning their journeys and introduces them to local life.",
  "sections": [
   {
-   "title": "A Friendly Face in Bloodhoof",
-   "body": "Situated near the heart of Bloodhoof Village on the shores of Lake Stonebull, Vorn Skyseer serves as an informal welcoming presence for travelers descending from Camp Narache. As young tauren complete their rites of passage and venture into the wider valleys of Mulgore, Vorn offers kind words and hospitality, helping new arrivals settle into the bustling settlement.",
+   "title": "A Friendly Face at Camp Narache",
+   "body": "Situated in Camp Narache on Red Cloud Mesa, Vorn Skyseer serves as an informal welcoming presence for young tauren. As they undertake their rites of passage before venturing into the wider valleys of Mulgore, Vorn offers kind words and hospitality, helping new arrivals settle into the camp.",
    "spoiler": 0
   },
   {
    "title": "A Detached Observer",
-   "body": "Despite the constant friction between the Horde and Alliance on other fronts, Vorn maintains a quiet, almost neutral demeanor. Even during border incursions into the settlement, he remains aloof from skirmishes, refusing to take up arms or summon the village braves, content instead to watch over the tranquil plains of his homeland.",
+   "body": "Despite the constant friction between the Horde and Alliance on other fronts, Vorn maintains a quiet, almost neutral demeanor. Even during border incursions into the settlement, he remains aloof from skirmishes, refusing to take up arms or summon the camp's braves, content instead to watch over the tranquil plains of his homeland.",
    "spoiler": 0
   }
  ],
@@ -29,16 +29,16 @@
     "who is vorn",
     "vorn mulgore"
    ],
-   "answer": "Vorn Skyseer is an elder resident of Bloodhoof Village in Mulgore. He primarily serves to welcome young tauren braves who have freshly arrived from their introductory rites at Red Cloud Mesa."
+   "answer": "Vorn Skyseer is an elder resident of Camp Narache in Mulgore. He primarily serves to welcome young tauren braves beginning their introductory rites at Red Cloud Mesa."
   },
   {
    "q": "Where can I find Vorn Skyseer?",
    "aliases": [
     "vorn skyseer location",
     "where is vorn",
-    "vorn bloodhoof"
+    "vorn camp narache"
    ],
-   "answer": "He can be found resting outdoors among the tents and longhouses of Bloodhoof Village, situated in the central plains of Mulgore just north of Lake Stonebull."
+   "answer": "He can be found resting outdoors among the tents of Camp Narache, atop Red Cloud Mesa in southwestern Mulgore."
   },
   {
    "q": "What quests does Vorn offer?",
@@ -55,13 +55,13 @@
     "can alliance kill vorn",
     "why is vorn peaceful"
    ],
-   "answer": "Unlike the Bloodhoof village braves and guards, Vorn is an unattackable civilian NPC who remains passive and does not sound the alarm or engage in combat when hostile intruders enter town."
+   "answer": "Unlike the tauren braves and guards, Vorn is an unattackable civilian NPC who remains passive and does not sound the alarm or engage in combat when hostile intruders enter the camp."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren venturing down from the Red Cloud Mesa, Vorn Skyseer is often one of the first familiar, reassuring faces to greet them as they step into the wider life of Mulgore."
+   "text": "For young tauren on Red Cloud Mesa, Vorn Skyseer is often one of the first familiar, reassuring faces to greet them as they prepare to step into the wider life of Mulgore."
   },
   {
    "target": "faction:Horde",
@@ -69,7 +69,7 @@
   }
  ],
  "keywords": [
-  "bloodhoof village",
+  "camp narache",
   "mulgore",
   "red cloud mesa",
   "tauren",
@@ -77,7 +77,7 @@
   "welcome"
  ],
  "related": [
-  "subzone:bloodhoof-village",
+  "subzone:camp-narache",
   "zone:mulgore",
   "quest:5805",
   "topic:tauren",

@@ -1,0 +1,118 @@
+{
+ "key": "quest:98407",
+ "type": "quest",
+ "name": "Show of Force",
+ "era": "forever",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   98407
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "17"
+ },
+ "summary": "Show of Force is an Alliance defensive task in the Redridge Mountains issued by Deputy Feldon. Tasked with halting encroaching gnoll packs near Lakeshire, adventurers are sent to hunt gnoll thrashers and collect their spiked collars to deter further incursions into human settlements.",
+ "sections": [
+  {
+   "title": "A Bold Encroachment",
+   "body": "The Redridge Mountains have long sheltered wild tribes of gnolls, but they have grown increasingly audacious. Rather than remaining isolated high in the craggy hills, gnoll raiding packs have set up camps disturbingly close to Lakeshire and the outlying human homesteads. With Stormwind's military stretched thin and unable to spare reinforcements for rural borderlands, local authorities must rely on passing adventurers to secure the perimeter before these encroaching bands gather the nerve to strike the town itself.",
+   "spoiler": 0
+  },
+  {
+   "title": "Speaking Their Language",
+   "body": "Deputy Feldon recognizes that gnolls are brutal, disorganized creatures who respect little beyond sheer martial dominance. To force them back into the wilderness, diplomatic appeals or half-measures are useless. Feldon seeks to strike at their most ferocious vanguards\u2014the gnoll thrashers\u2014and harvest their spiked collars as grim proof of dominance. By breaking their frontline fighters and flaunting trophies of their defeat, Lakeshire's defenders hope to intimidate the surviving packs into retreating back to the highlands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this quest and where are they located?",
+   "aliases": [
+    "quest giver",
+    "deputy feldon location",
+    "who gives show of force"
+   ],
+   "answer": "The quest is offered by Deputy Feldon, a town guard stationed on the perimeter near Lakeshire in the Redridge Mountains."
+  },
+  {
+   "q": "Why are the gnolls pushing so close to Lakeshire?",
+   "aliases": [
+    "why are gnolls attacking",
+    "gnoll threat redridge",
+    "why gnolls close"
+   ],
+   "answer": "Gnolls are aggressive opportunists who test their boundaries. As Lakeshire struggles with stretched defenses and little military aid from Stormwind, the gnolls have grown bold enough to establish hunting camps right outside human-settled lands."
+  },
+  {
+   "q": "What enemies need to be defeated for this mission?",
+   "aliases": [
+    "which gnolls",
+    "what mobs to kill",
+    "gnoll thrashers"
+   ],
+   "answer": "The mission targets gnoll thrashers, the more dangerous and aggressive shock-fighters of the local packs, who wear heavy spiked collars."
+  },
+  {
+   "q": "Why does Deputy Feldon want spiked collars specifically?",
+   "aliases": [
+    "why spiked collars",
+    "collar purpose",
+    "why take collars"
+   ],
+   "answer": "Gnolls operate on brutal hierarchy and raw strength. Taking the spiked collars of their thrashers serves as a direct display of force, aiming to frighten the surviving gnolls into retreating back up into the hills."
+  },
+  {
+   "q": "Can Stormwind provide soldiers to deal with the gnolls?",
+   "aliases": [
+    "stormwind help redridge",
+    "why no stormwind army",
+    "where are the guards"
+   ],
+   "answer": "Stormwind has left Redridge largely to defend itself. Facing domestic instability and troop shortages across the kingdom, the capital has sent virtually no reinforcements, forcing local deputies to rely on independent champions."
+  },
+  {
+   "q": "Where are the gnolls typically encamped in Redridge?",
+   "aliases": [
+    "gnoll camps",
+    "where to find gnolls",
+    "gnoll locations redridge"
+   ],
+   "answer": "Gnoll encampments are scattered throughout the hills and low ridges bordering Lake Everstill and the roads leading east toward the Stonewatch region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Lakeshire stands as one of the easternmost bastions of the Alliance in the southern Eastern Kingdoms; securing its borders against beastly incursions is vital for regional stability."
+  },
+  {
+   "target": "race:Human",
+   "text": "Redridge's homesteaders and townsfolk are fellow subjects of Stormwind, left dangerously unprotected and relying on their kin to repel wild marauders."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Gnolls only yield to displays of direct, crushing violence\u2014making straightforward front-line martial discipline the ideal method to break their ranks."
+  }
+ ],
+ "keywords": [
+  "deputy feldon",
+  "gnoll thrasher",
+  "gnolls",
+  "lakeshire",
+  "redridge mountains",
+  "show of force",
+  "spiked collar"
+ ],
+ "related": [
+  "npc:deputy-feldon",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "topic:gnoll",
+  "topic:alliance",
+  "topic:human"
+ ],
+ "attribution": [
+  "In-game quest text: Show of Force"
+ ]
+}

@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Garden Ambush",
-   "body": "Following an investigation orchestrated by the spy Tyrion and cheese merchant Elling Trias, the pieces fall into place inside Stormwind Keep. Using an engineered automaton disguised as Priestess Tyriona, Tyrion infiltrates the keep's library to deliver false information to Lord Gregor Lescovar. Tricked into believing an urgent meeting is required, Lescovar dismisses his guards and steps into the quiet keep garden to rendezvous with Marzon the Silent Blade, an assassin tied to the Defias Brotherhood.",
+   "body": "Following an investigation orchestrated by the spy Tyrion and cheese merchant Elling Trias, the pieces fall into place inside Stormwind Keep. Tyrion has already told Marzon it is time for him and Lord Gregor Lescovar to meet again, dropping some false information along the way. He then sends an engineered automaton disguised as Priestess Tyriona into the keep's library to tell Lescovar that his guest has arrived. Lescovar dismisses his guards and steps into the quiet keep garden to rendezvous with Marzon the Silent Blade, an assassin tied to the Defias Brotherhood.",
    "spoiler": 0
   },
   {
@@ -70,7 +70,7 @@
     "tyriona",
     "how does lescovar get lured"
    ],
-   "answer": "Tyrion deploys an engineered automaton disguised as Priestess Tyriona. The disguised bot walks past the palace guards into the library to feed Lescovar false intelligence, prompting him to send his guards away and hold a clandestine meeting in the garden."
+   "answer": "Tyrion deploys an engineered automaton disguised as Priestess Tyriona. The disguised bot walks past the palace guards into the library to tell Lescovar that his guest has arrived, prompting him to send his guards away and hold a clandestine meeting in the garden. Tyrion had already told Marzon it was time for another meeting, dropping some false information as he did."
   },
   {
    "q": "Why do the guards not immediately defend Lescovar?",

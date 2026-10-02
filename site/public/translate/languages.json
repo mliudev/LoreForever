@@ -1,6 +1,6 @@
 {
-  "english": "2026-09-30 23:15 UTC",
-  "updated": "2026-09-30",
+  "english": "2026-10-01 19:21 UTC",
+  "updated": "2026-10-01",
   "languages": [
     {
       "locale": "deDE",
@@ -8,22 +8,23 @@
       "englishName": "German",
       "reviewed": false,
       "coverage": {
-        "percent": 100.0,
+        "percent": 97.1,
         "strings": [
-          95510,
-          95510
+          92491,
+          95318
         ],
         "ui": [
-          295,
-          295
+          288,
+          317
         ],
         "entries": [
-          4047,
-          4047
+          3911,
+          4036
         ]
       },
       "kit": "/translate/kits/deDE.zip",
-      "kitSize": 10826017,
+      "kitSize": 10643680,
+      "kitSha256": "154eba684fb618ba19856e5e37539c455e52144d30289382f4209e1b0c4f90b3",
       "hasText": true
     },
     {
@@ -35,19 +36,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          95510
+          95318
         ],
         "ui": [
           0,
-          295
+          317
         ],
         "entries": [
           0,
-          4047
+          4036
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 5047563,
+      "kitSize": 5032878,
+      "kitSha256": "19d301f5eafb54b21dc97399b8cef3bdda2863c00a5d63d509d17fc2ebf100ef",
       "hasText": false
     },
     {
@@ -59,19 +61,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          95510
+          95318
         ],
         "ui": [
           0,
-          295
+          317
         ],
         "entries": [
           0,
-          4047
+          4036
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 5047563,
+      "kitSize": 5032878,
+      "kitSha256": "19d301f5eafb54b21dc97399b8cef3bdda2863c00a5d63d509d17fc2ebf100ef",
       "hasText": false
     },
     {
@@ -83,19 +86,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          95510
+          95318
         ],
         "ui": [
           0,
-          295
+          317
         ],
         "entries": [
           0,
-          4047
+          4036
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 5047563,
+      "kitSize": 5032878,
+      "kitSha256": "19d301f5eafb54b21dc97399b8cef3bdda2863c00a5d63d509d17fc2ebf100ef",
       "hasText": false
     },
     {
@@ -104,22 +108,23 @@
       "englishName": "Portuguese (Brazil)",
       "reviewed": false,
       "coverage": {
-        "percent": 100.0,
+        "percent": 97.1,
         "strings": [
-          95510,
-          95510
+          92491,
+          95318
         ],
         "ui": [
-          295,
-          295
+          288,
+          317
         ],
         "entries": [
-          4047,
-          4047
+          3911,
+          4036
         ]
       },
       "kit": "/translate/kits/ptBR.zip",
-      "kitSize": 10397159,
+      "kitSize": 10226758,
+      "kitSha256": "98a707aa2f04118f46da5f049897df33462f6ca0615461074229c582fbc4aa56",
       "hasText": true
     },
     {
@@ -131,19 +136,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          95510
+          95318
         ],
         "ui": [
           0,
-          295
+          317
         ],
         "entries": [
           0,
-          4047
+          4036
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 5047563,
+      "kitSize": 5032878,
+      "kitSha256": "19d301f5eafb54b21dc97399b8cef3bdda2863c00a5d63d509d17fc2ebf100ef",
       "hasText": false
     },
     {
@@ -155,19 +161,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          95510
+          95318
         ],
         "ui": [
           0,
-          295
+          317
         ],
         "entries": [
           0,
-          4047
+          4036
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 5047563,
+      "kitSize": 5032878,
+      "kitSha256": "19d301f5eafb54b21dc97399b8cef3bdda2863c00a5d63d509d17fc2ebf100ef",
       "hasText": false
     },
     {
@@ -179,19 +186,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          95510
+          95318
         ],
         "ui": [
           0,
-          295
+          317
         ],
         "entries": [
           0,
-          4047
+          4036
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 5047563,
+      "kitSize": 5032878,
+      "kitSha256": "19d301f5eafb54b21dc97399b8cef3bdda2863c00a5d63d509d17fc2ebf100ef",
       "hasText": false
     },
     {
@@ -203,19 +211,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          95510
+          95318
         ],
         "ui": [
           0,
-          295
+          317
         ],
         "entries": [
           0,
-          4047
+          4036
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 5047563,
+      "kitSize": 5032878,
+      "kitSha256": "19d301f5eafb54b21dc97399b8cef3bdda2863c00a5d63d509d17fc2ebf100ef",
       "hasText": false
     },
     {
@@ -227,19 +236,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          95510
+          95318
         ],
         "ui": [
           0,
-          295
+          317
         ],
         "entries": [
           0,
-          4047
+          4036
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 5047563,
+      "kitSize": 5032878,
+      "kitSha256": "19d301f5eafb54b21dc97399b8cef3bdda2863c00a5d63d509d17fc2ebf100ef",
       "hasText": false
     }
   ]

@@ -1,0 +1,109 @@
+{
+ "key": "quest:79008",
+ "type": "quest",
+ "name": "... and that note you found",
+ "era": "forever",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   79008
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "22"
+ },
+ "summary": "Discovered among the embers of a dying campfire in Westfall, this blistered note leaves behind a cryptic and solitary clue. Its scorched message hints at a destination waiting elsewhere in the world, urging whoever finds it to seek out a 'twin land.'",
+ "sections": [
+  {
+   "title": "A Dying Fire",
+   "body": "Amid the abandoned fields, scavenged farmsteads, and wind-scoured plains of Westfall, travelers frequently come across the camps of vagrants, outlaws, or desperate vagabonds. Yet this small campsite was left in haste or secrecy, its provisions abandoned and its embers still faintly glowing. Left among the scattered debris lies a scorched slip of parchment that survived the flames.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Cryptic Message",
+   "body": "The blistered note bears only two short sentences: 'Not all that burns is lost. Find the twin land, find the place.' Shrouded in mystery, the words serve as both an enigmatic riddle and an invitation, pointing away from the desolate fields of Westfall toward another realm connected by name, geography, or fate.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the note say?",
+   "aliases": [
+    "note text",
+    "what is written on the note",
+    "blistered note words"
+   ],
+   "answer": "The blistered note reads: 'Not all that burns is lost. Find the twin land, find the place.' It is the only clue left behind at the abandoned campsite."
+  },
+  {
+   "q": "Where is this note found?",
+   "aliases": [
+    "note location",
+    "where is the note",
+    "campfire location"
+   ],
+   "answer": "The note is discovered among the remnants of a recent fire and scattered provisions out in the wilderness of Westfall."
+  },
+  {
+   "q": "Who left the campfire?",
+   "aliases": [
+    "who left the note",
+    "campfire owner",
+    "note author"
+   ],
+   "answer": "The author remains unknown. Whoever made the fire departed recently, leaving behind scattered supplies and the scorched message in the embers."
+  },
+  {
+   "q": "What does 'the twin land' refer to?",
+   "aliases": [
+    "twin land meaning",
+    "what is twin land",
+    "where is twin land"
+   ],
+   "answer": "The phrase is a riddle pointing to another region in the world that mirrors or shares a connection with the land where it was found, though the charred note offers no further explanation."
+  },
+  {
+   "q": "Why was the note burned?",
+   "aliases": [
+    "why was it burned",
+    "did someone try to burn the note",
+    "charred note"
+   ],
+   "answer": "The note was blistered and charred in the embers of the fire, suggesting someone either attempted to destroy it in haste or abandoned it carelessly as the flames died down."
+  },
+  {
+   "q": "Is this connected to the Defias Brotherhood?",
+   "aliases": [
+    "defias note",
+    "is it defias",
+    "brotherhood campfire"
+   ],
+   "answer": "While Westfall is overrun by the Defias Brotherhood and destitute squatters, the cryptic nature of the message suggests something more obscure than ordinary bandit communications."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Deciphering cryptic clues left in hidden campsites is second nature to those who live by whispers, secrets, and concealed missives."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For adventurers attempting to restore order to Westfall, an unidentified camp and an enigmatic cipher represent yet another mystery unfolding on the kingdom's frontier."
+  }
+ ],
+ "keywords": [
+  "blistered note",
+  "campfire",
+  "charred note",
+  "embers",
+  "note",
+  "twin land",
+  "westfall"
+ ],
+ "related": [
+  "zone:westfall"
+ ],
+ "attribution": [
+  "In-game quest text: ... and that note you found"
+ ]
+}

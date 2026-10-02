@@ -35,7 +35,7 @@ local function compactCtx(ctx)
   for _, q in ipairs(ctx.quests or {}) do quests[#quests + 1] = { id = q.id, title = q.title } end
   return { zone = ctx.zone, subzone = ctx.subzone, mapID = ctx.mapID, level = ctx.level, race = ctx.race,
     class = ctx.class, faction = ctx.faction, quests = quests, questItems = ctx.questItems,
-    professions = ctx.professions }
+    professions = ctx.professions, target = ctx.targetName }
 end
 
 -- Returns the log entry so feedback can be attached to it later.
@@ -52,8 +52,119 @@ function Log.Question(question, ctx, results, via, turn)
   return entry
 end
 
-function Log.Feedback(entry, helpful)
-  if entry then entry.helpful = helpful end
+-- A thumbs up or down on an answer. A thumbs down can say why (Log.REASONS) and carry a short note.
+function Log.Feedback(entry, helpful, reason, note)
+  if not entry then return end
+  entry.helpful = helpful
+  entry.reason = (not helpful and Log.REASONS[reason or ""]) and reason or nil
+  entry.note = (not helpful and type(note) == "string" and note:match("%S")) and note or nil
+end
+
+-- Report codes (LOR-120) --------------------------------------------------------------------------------------------
+-- "Copy report" turns a logged answer into a short code players paste on loreforeverwow.com/feedback (its Entry code
+-- field, 120 characters) or in Discord. site/public/report-code.js decodes it; keep the two in step. Fields, split by ~:
+--   LF1 ~ add-on version[.locale] ~ reason ~ via+shown ~ entry key[.f<faq>|.s<section>] ~ score ~ zone[/subzone]
+--       ~ target ~ quest ids (comma-separated) ~ question (spaces as _)
+-- Never the character's name: it's taken out of the question too. Quests with lore come first; quests, then the
+-- target, then the end of the question are dropped to fit.
+Log.REASONS = { wrong = "w", unanswered = "a", spoiler = "s", future = "f", other = "o" }
+local VIA = { typed = "t", slash = "s", hover = "h", quest = "q", next = "n", complete = "c", reveal = "r",
+  primer = "p", link = "l" }
+local CODE_MAX = 120
+
+-- Free text as a code field: no field separators, escapes or characters a web address would mangle.
+local function field(s)
+  s = tostring(s or ""):gsub("|c%x%x%x%x%x%x%x%x", ""):gsub("|r", "")
+  s = s:gsub("[%c~|#&%%%+=?\"<>\\`]", " "):gsub("_", " ")
+  return (s:match("^%s*(.-)%s*$"):gsub("%s+", "_"))
+end
+
+local function slug(s)
+  return (field(s):lower():gsub("'", ""):gsub("_", "-"))
+end
+
+-- Cut a UTF-8 string to at most n bytes without splitting a character.
+local function cut(s, n)
+  if #s <= n then return s end
+  s = s:sub(1, math.max(0, n))
+  local last = #s
+  while last > 0 do
+    local b = s:byte(last)
+    if b < 128 then break end
+    if b >= 192 then   -- a lead byte: keep it only when its whole character fits
+      local need = (b >= 240 and 4) or (b >= 224 and 3) or 2
+      if #s - last + 1 < need then s = s:sub(1, last - 1) end
+      break
+    end
+    last = last - 1
+  end
+  return s
+end
+
+local function addonVersion()
+  local get = (_G.C_AddOns and C_AddOns.GetAddOnMetadata) or _G.GetAddOnMetadata
+  local ok, v = pcall(get or function() end, "LoreForever", "Version")
+  return (ok and type(v) == "string" and v ~= "") and field(v) or "-"
+end
+
+function Log.ReportCode(entry)
+  if not entry then return nil end
+  local ctx, top = entry.ctx or {}, (entry.results or {})[1] or {}
+  local locale = ns.lang and ns.lang.locale
+  local version = addonVersion() .. ((locale and locale ~= "enUS") and ("." .. locale:sub(1, 2):lower()) or "")
+  local answer = "-"
+  if top.key then
+    answer = top.key .. ((top.kind == "faq" and top.idx and (".f" .. top.idx))
+      or (top.kind == "section" and top.idx and (".s" .. top.idx)) or "")
+  end
+  local zk = ns.engine and ctx.zone and ns.engine:ZoneKey(ctx.zone)
+  local place = zk or slug(ctx.zone)
+  if ctx.subzone and ctx.subzone ~= ctx.zone then place = place .. "/" .. slug(ctx.subzone) end
+  local quests, later = {}, {}
+  for _, q in ipairs(ctx.quests or {}) do
+    if q.id then
+      local known = ns.DB and ns.DB.index and ns.DB.index.quest[q.id]
+      table.insert(known and quests or later, tostring(q.id))
+    end
+  end
+  for _, id in ipairs(later) do quests[#quests + 1] = id end
+  local question = entry.q or ""
+  local me = UnitName and UnitName("player")
+  if type(me) == "string" and me ~= "" then question = question:gsub(me:gsub("%W", "%%%0"), "[me]") end
+  local fields = { "LF1", version, entry.reason and Log.REASONS[entry.reason] or "-",
+    (VIA[entry.via or ""] or "o") .. (entry.shown or "a"), answer,
+    top.score and tostring(math.floor(top.score)) or "", place, slug(ctx.target), "", field(question) }
+  local function build()
+    fields[9] = table.concat(quests, ",")
+    return table.concat(fields, "~")
+  end
+  local code = build()
+  while #code > CODE_MAX and #quests > 0 do
+    table.remove(quests)
+    code = build()
+  end
+  if #code > CODE_MAX then
+    fields[8] = ""
+    code = build()
+  end
+  if #code > CODE_MAX then
+    fields[10] = cut(fields[10], #fields[10] - (#code - CODE_MAX))
+    code = build()
+  end
+  return cut(code, CODE_MAX)
+end
+
+-- The feedback page's address with the code (and the note) filled in, for pasting into a browser.
+local function urlEncode(s)
+  return (s:gsub("[^%w%-%._~:,/]", function(c) return string.format("%%%02X", c:byte()) end))
+end
+
+function Log.ReportLink(entry)
+  local code = Log.ReportCode(entry)
+  if not code then return nil end
+  local link = "https://loreforeverwow.com/feedback?kind=lore&code=" .. urlEncode(code)
+  if entry.note then link = link .. "&note=" .. urlEncode(cut(entry.note, 300)) end
+  return link
 end
 
 function Log.Map(ctx)
@@ -74,6 +185,7 @@ local function scrub(text)
   end
   return text
 end
+Log.Scrub = scrub   -- gossip and book text too (Journey.lua)
 
 function Log.QuestText(kind)
   local id = GetQuestID and GetQuestID()

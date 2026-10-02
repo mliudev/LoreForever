@@ -1,9 +1,10 @@
-// Data for Mike's private dashboard (/admin): sign-up emails, feedback reports, voice submissions and download counts.
+// Data for Mike's private dashboard (/admin): sign-up emails, feedback reports, voice submissions, contributor
+// accounts and download counts.
 // Every request needs "Authorization: Bearer <key>", where the key is ADMIN_KEY, or FEEDBACK_KEY when ADMIN_KEY
 // isn't set. With neither set, the endpoint is off. This check is what keeps the data private: the /admin page
 // itself holds no data, and lore-forever.pages.dev serves the same functions as the custom domain.
 //   GET  /api/admin  -> {"subscribers": [...], "feedback": [...], "downloads": [...], "clicks": N, "voices": [...],
-//                        "translations": [...], "translationReports": [...]}
+//                        "translations": [...], "translationReports": [...], "users": [...]}
 //   POST /api/admin  {"action": "status", "id": 3, "status": "done" | "new"}   mark a report handled or not
 //                    {"action": "delete-feedback", "id": 3}                     remove a report (spam, tests)
 //                    {"action": "voice-status", "id": 3, "status": "done" | "new"}   mark a voice submission handled
@@ -14,6 +15,7 @@
 
 import { authorized } from "../../lib/auth.js";
 import { setup as setupAccounts } from "../../lib/accounts.js";
+import { decodeReport, describeReport } from "../../public/report-code.js";
 
 const NO_STORE = { "Cache-Control": "no-store", "X-Robots-Tag": "noindex" };
 const json = (body, status = 200) => Response.json(body, { status, headers: NO_STORE });
@@ -25,6 +27,7 @@ async function safe(query) { try { return await query; } catch (e) { return null
 async function addStatusColumn(db) {
   await safe(db.prepare("ALTER TABLE feedback ADD COLUMN status TEXT NOT NULL DEFAULT 'new'").run());
   await safe(db.prepare("ALTER TABLE feedback ADD COLUMN user_id TEXT").run());
+  await safe(db.prepare("ALTER TABLE feedback ADD COLUMN report TEXT").run());
 }
 
 export async function onRequestGet({ request, env }) {
@@ -33,10 +36,10 @@ export async function onRequestGet({ request, env }) {
   await addStatusColumn(env.DB);
   await safe(setupAccounts(env));
   const all = async q => (await safe(env.DB.prepare(q).all()))?.results || [];
-  const [subscribers, feedback, downloads, clicks, voices, translations, translationReports] = await Promise.all([
+  const [subscribers, feedback, downloads, clicks, voices, translations, translationReports, users] = await Promise.all([
     all("SELECT email, source, created_at FROM subscribers ORDER BY created_at DESC LIMIT 5000"),
     all("SELECT f.id, f.created, f.kind, f.rating, f.message, f.code, COALESCE(f.email, u.email) AS email, f.name, " +
-        "f.quote_ok, f.country, f.user_id, COALESCE(f.status, 'new') AS status " +
+        "f.quote_ok, f.country, f.user_id, f.report, COALESCE(f.status, 'new') AS status " +
         "FROM feedback f LEFT JOIN users u ON u.id = f.user_id ORDER BY f.id DESC LIMIT 2000"),
     all("SELECT day, file, n FROM downloads ORDER BY day DESC LIMIT 400"),
     safe(env.DB.prepare("SELECT COALESCE(SUM(n), 0) AS n FROM clicks").first("n")),
@@ -46,8 +49,22 @@ export async function onRequestGet({ request, env }) {
         "FROM translation_submissions ORDER BY id DESC LIMIT 1000"),
     all("SELECT id, created, locale, code, place, wrong, better, email, name, country, status " +
         "FROM translation_reports ORDER BY id DESC LIMIT 2000"),
+    // Google sign-in accounts (lib/accounts.js) with what each one has done.
+    all("SELECT u.id, u.email, u.display_name, u.created, " +
+        "(SELECT group_concat(name, ', ') FROM voices WHERE owner = u.id) AS voices, " +
+        "(SELECT group_concat(locale, ', ') FROM translator_languages WHERE user_id = u.id) AS languages, " +
+        "(SELECT COUNT(*) FROM translation_edits WHERE user_id = u.id) AS edits, " +
+        "(SELECT COUNT(*) FROM studio_takes WHERE owner = u.id) AS takes, " +
+        "(SELECT COUNT(*) FROM feedback WHERE user_id = u.id) AS feedback " +
+        "FROM users u ORDER BY u.created DESC LIMIT 5000"),
   ]);
-  return json({ subscribers, feedback, downloads, clicks: clicks || 0, voices, translations, translationReports });
+  // Add-on report codes (LOR-120) spelled out, for the report card.
+  for (const f of feedback) {
+    let r = null;
+    try { r = f.report ? JSON.parse(f.report) : decodeReport(f.code); } catch (e) {}
+    f.report = describeReport(r);
+  }
+  return json({ subscribers, feedback, downloads, clicks: clicks || 0, voices, translations, translationReports, users });
 }
 
 export async function onRequestPost({ request, env }) {

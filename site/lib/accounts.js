@@ -41,6 +41,8 @@ const SETUP = [
   `CREATE TABLE IF NOT EXISTS studio_release (
     user_id TEXT PRIMARY KEY, version TEXT NOT NULL, signature TEXT NOT NULL, adult_or_guardian INTEGER NOT NULL, created TEXT NOT NULL)`,
   `CREATE TABLE IF NOT EXISTS studio_uploads (owner TEXT NOT NULL, day TEXT NOT NULL, n INTEGER NOT NULL, PRIMARY KEY (owner, day))`,
+  // Requests per account per minute for zip and kit uploads (lib/ratelimit.js); bucket is "<scope>:<minute>".
+  `CREATE TABLE IF NOT EXISTS rate_limits (user_id TEXT NOT NULL, bucket TEXT NOT NULL, n INTEGER NOT NULL, PRIMARY KEY (user_id, bucket))`,
 ];
 
 let ready = false;
@@ -139,6 +141,7 @@ const USER_DATA = [
   ["DELETE FROM studio_takes WHERE owner = ?", u => u.id],
   ["DELETE FROM studio_release WHERE user_id = ?", u => u.id],
   ["DELETE FROM studio_uploads WHERE owner = ?", u => u.id],
+  ["DELETE FROM rate_limits WHERE user_id = ?", u => u.id],
   ["DELETE FROM users WHERE id = ?", u => u.id],
 ];
 

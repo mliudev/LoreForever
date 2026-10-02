@@ -152,6 +152,9 @@ local function settings()
   return (LoreForeverDB and LoreForeverDB.settings) or {}
 end
 
+-- Shared with the Journey tab (Journey.lua), so its rows and headers look like the rest of the sidebar.
+UI.TextButton, UI.Header, UI.SIDE_W = TextButton, Header, SIDE_W
+
 -- The playlist (see "Playlist" below): items {id, key, idx, label}, pos = the current item, and state:
 --   "playing"  the clip playing is items[pos] (or it's in the short gap before the next one)
 --   "waiting"  started while something else played; items[pos] begins when that ends
@@ -255,11 +258,11 @@ function UI.Create(engine)
   divider:SetPoint("BOTTOMLEFT", SIDE_W, 8)
   divider:SetWidth(1)
 
-  -- Sidebar tabs: "Here" (this place and your quests), "Narrations" (every recorded story, grouped) and "Playlist"
-  -- (what you've queued; its count shows from any tab).
+  -- Sidebar tabs: "Here" (this place and your quests), "Narrations" (every recorded story, grouped), "Playlist"
+  -- (what you've queued; its count shows from any tab) and "Journey" (what this character has done, and chapters).
   UI.tabs = {}
-  for _, spec in ipairs({ { "here", L["Here"], 54, 12 }, { "narrations", L["Narrations"], 88, 70 },
-      { "playlist", L["Playlist"], 84, 162 } }) do
+  for _, spec in ipairs({ { "here", L["Here"], 44, 8 }, { "narrations", L["Narrations"], 74, 54 },
+      { "playlist", L["Playlist"], 62, 130 }, { "journey", L["Journey"], 54, 194 } }) do
     local tab = TextButton(f, spec[3], 22, "GameFontNormal", { 0.2, 0.16, 0.08, 0.6 })
     tab:SetPoint("TOPLEFT", spec[4], -64)
     tab.text:SetPoint("TOPLEFT", 2, -2)
@@ -301,6 +304,11 @@ function UI.Create(engine)
   plView:Hide()
   UI.plView = plView
   UI.CreatePlaylist(plView)
+  local journeyView = CreateFrame("Frame", nil, f)
+  journeyView:SetAllPoints(f)
+  journeyView:Hide()
+  UI.journeyView = journeyView
+  ns.Journey.CreateView(journeyView)
 
   UI.hereHeader = Header(hereView, L["Here"])
   UI.hereHeader:SetPoint("TOPLEFT", 16, -94)
@@ -515,34 +523,13 @@ function UI.Create(engine)
     b:SetPoint("BOTTOMLEFT", CHAT_X, 108 - i * 22)
     b:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -36, 108 - i * 22)
     b:SetScript("OnClick", function(self)
-      if self.section then UI.ShowSection(self.key, self.idx)
+      if self.live then ns.Companion.Ask(self.live)
+      elseif self.section then UI.ShowSection(self.key, self.idx)
       elseif self.key and self.idx then UI.ShowFaq(self.key, self.idx, self.via or "next")
       elseif self.key then UI.ShowEntry(self.key, self.via or "next") end
     end)
     UI.nextButtons[i] = b
   end
-
-  -- Optional feedback (on for playtests: /lore feedback)
-  UI.feedbackLabel = f:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
-  UI.feedbackLabel:SetPoint("BOTTOMRIGHT", -150, 112)
-  UI.feedbackLabel:SetText(L["Helpful?"])
-  local yes = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
-  yes:SetSize(48, 18)
-  yes:SetPoint("LEFT", UI.feedbackLabel, "RIGHT", 6, 0)
-  yes:SetText(L["Yes"])
-  local no = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
-  no:SetSize(48, 18)
-  no:SetPoint("LEFT", yes, "RIGHT", 4, 0)
-  no:SetText(L["No"])
-  local function feedback(helpful)
-    if UI.lastLog then
-      ns.Log.Feedback(UI.lastLog, helpful)
-      UI.feedbackLabel:SetText(helpful and (GREEN .. L["Thanks!"] .. "|r") or (GREY .. L["Noted."] .. "|r"))
-    end
-  end
-  yes:SetScript("OnClick", function() feedback(true) end)
-  no:SetScript("OnClick", function() feedback(false) end)
-  UI.feedbackButtons = { yes, no }
 
   -- Message box
   local bar = Area(f, 0, 0, 0, 0.3)
@@ -603,7 +590,6 @@ function UI.Create(engine)
 
   f:SetScript("OnShow", function() UI.Refresh() end)
   UI.ShowTab("here")
-  UI.SetFeedbackVisible(false)
   UI.SetNext({})
   return f
 end
@@ -659,6 +645,7 @@ function UI.ShowCompletion(text)
   local c = UI.completion
   if not c then return end
   if not text or #text:gsub("%s", "") < 3 then return UI.HideCompletion() end
+  if UI.ctx then UI.ctx.done = ns.Context.Done() end
   local items = UI.engine:Complete(text, UI.ctx, N_COMPLETE)
   if #items == 0 then return UI.HideCompletion() end
   for i, b in ipairs(c.rows) do
@@ -699,8 +686,9 @@ function UI.EntryTarget(key)
   if not e then return nil end
   local first = e.sec and e.sec[1]
   local parts = { e.n .. ".", e.s }
+  local open = UI.Unlocked(key)
   for _, sec in ipairs(e.sec or {}) do
-    if (sec.sp or 0) == 0 then parts[#parts + 1] = sec.t .. ". " .. sec.b end
+    if (sec.sp or 0) == 0 or open then parts[#parts + 1] = sec.t .. ". " .. sec.b end
   end
   return { id = key, key = key, label = e.n, text = table.concat(parts, " ") }
 end
@@ -998,6 +986,59 @@ local function startTyping(fs, m)
   end)
 end
 
+-- Rating an answer (LOR-120): a check and a cross at the bottom left of every answer. The cross also opens the report
+-- box (UI.ShowReport), which asks why and can copy a report code to send. Ratings are saved with the logged question.
+local function SetRating(b, log)
+  local show = log ~= nil
+  b.up:SetShown(show)
+  b.down:SetShown(show)
+  b.rated:SetShown(show)
+  b.up.log, b.down.log = log, log
+  if not show then return end
+  local h = log.helpful
+  b.up.icon:SetAlpha((h == nil or h == true) and 1 or 0.3)
+  b.down.icon:SetAlpha((h == nil or h == false) and 1 or 0.3)
+  b.rated:SetText(h == true and (GREEN .. L["Thanks!"] .. "|r") or h == false and (GREY .. L["Noted."] .. "|r") or "")
+end
+
+local function RateButtons(parent)
+  local function button(texture, onClick, title, tip)
+    local b = CreateFrame("Button", nil, parent)
+    b:SetSize(18, 18)
+    local icon = b:CreateTexture(nil, "ARTWORK")
+    icon:SetAllPoints()
+    icon:SetTexture(texture)
+    b.icon = icon
+    b:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
+    b:SetScript("OnClick", onClick)
+    b:SetScript("OnEnter", function(self)
+      GameTooltip:SetOwner(self, "ANCHOR_TOP")
+      GameTooltip:AddLine(title)
+      GameTooltip:AddLine(tip, 1, 1, 1, true)
+      GameTooltip:Show()
+    end)
+    b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+    b:Hide()
+    return b
+  end
+  local rated = parent:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
+  local up, down
+  up = button("Interface\\RaidFrame\\ReadyCheck-Ready", function(self)
+    ns.Log.Feedback(self.log, true)
+    SetRating({ up = up, down = down, rated = rated }, self.log)
+  end, L["Good answer"], L["Tells us this answer was right."])
+  down = button("Interface\\RaidFrame\\ReadyCheck-NotReady", function(self)
+    if self.log.helpful ~= false then ns.Log.Feedback(self.log, false) end   -- keeps a reason given earlier
+    SetRating({ up = up, down = down, rated = rated }, self.log)
+    UI.ShowReport(self.log)
+  end, L["Not right?"], L["Tell us what was wrong, and copy a short report to send us."])
+  up:SetPoint("BOTTOMLEFT", PAD - 2, 6)
+  down:SetPoint("LEFT", up, "RIGHT", 6, 0)
+  rated:SetPoint("LEFT", down, "RIGHT", 8, 0)
+  rated:Hide()
+  return up, down, rated
+end
+
 local function bubbleAt(i)
   local b = UI.bubbles[i]
   if not b then
@@ -1060,6 +1101,7 @@ local function bubbleAt(i)
     end)
     action:Hide()
     b = { frame = f, bg = bg, fs = fs, listen = listen, queue = queue, action = action, rows = {} }
+    b.up, b.down, b.rated = RateButtons(f)
     UI.bubbles[i] = b
   end
   return b
@@ -1184,6 +1226,10 @@ function UI.Render(keepScroll)
     else
       b.listen:Hide()
     end
+    -- Answers (and "I don't have that" replies) can be rated; they share the bottom row with Listen.
+    local rate = m.log and (m.role == "lore" or m.role == "note") and m.log or nil
+    if rate and not (m.role == "lore" and canPlay) then h = h + 22 end
+    SetRating(b, rate)
     f:SetSize(w, h)
     f:Show()
     if m.animate and not m.revealed then
@@ -1214,7 +1260,8 @@ end
 -- Add a message. role: "user" | "lore" | "note". target: what its Listen button plays (lore only).
 local msgSeq = 0
 -- rows (lore only): clickable boss rows under the text, { {key, name, hook}, ... } (the dungeon primer).
-function UI.AddMessage(role, text, target, actionLabel, rows)
+-- log: the logged question this message answers (Log.Question), so it can be rated and reported.
+function UI.AddMessage(role, text, target, actionLabel, rows, log)
   msgSeq = msgSeq + 1
   if UI.historyFrame then UI.historyFrame:Hide() end
   if role == "lore" and not target then
@@ -1226,7 +1273,7 @@ function UI.AddMessage(role, text, target, actionLabel, rows)
   finishTyping()
   local animate = role == "lore" and settings().typing ~= false
   table.insert(UI.msgs, { role = role, text = text, target = target, actionLabel = actionLabel, animate = animate,
-    rows = rows })
+    rows = rows, log = log })
   local lines = {}
   for i, r in ipairs(rows or {}) do lines[#lines + 1] = i .. ". " .. esc(r.name) .. " " .. esc(r.hook or "") end
   table.insert(UI.blocks, #lines > 0 and (text .. "\n" .. table.concat(lines, "\n")) or text)
@@ -1242,14 +1289,14 @@ function UI.Append(text)
   UI.AddMessage("note", text)
 end
 
--- items: { {key, idx?, label?, q?, name?, via?} }
+-- items: { {key, idx?, label?, q?, name?, via?} }, or { live = question, label } to ask live answers
 function UI.SetNext(items, label)
   UI.nextLabel:SetText(label or L["Suggested:"])
   UI.nextLabel:SetShown(#items > 0)
   for i, b in ipairs(UI.nextButtons) do
     local it = items[i]
     if it then
-      b.key, b.idx, b.via, b.section = it.key, it.idx, it.via, it.section
+      b.key, b.idx, b.via, b.section, b.live = it.key, it.idx, it.via, it.section, it.live
       local who = it.name and (GREY .. "  (" .. esc(it.name) .. ")|r") or ""
       b.text:SetText(WHITE .. esc(it.label or it.q) .. "|r" .. who)
       b:Show()
@@ -1260,13 +1307,6 @@ function UI.SetNext(items, label)
 end
 
 -- Panel state ----------------------------------------------------------------------------------------------------
-
-function UI.SetFeedbackVisible(show)
-  show = show and settings().feedback
-  UI.feedbackLabel:SetShown(show)
-  for _, b in ipairs(UI.feedbackButtons) do b:SetShown(show) end
-  if show then UI.feedbackLabel:SetText(L["Helpful?"]) end
-end
 
 function UI.Toggle()
   if not UI.frame then return end
@@ -1556,7 +1596,7 @@ function UI.CreateNarrations(view)
   local content = CreateFrame("Frame", nil, sf)
   content:SetSize(SIDE_W - 40, 100)
   sf:SetScrollChild(content)
-  UI.narrContent, UI.narrRows, UI.narrOpen = content, {}, {}
+  UI.narrContent, UI.narrRows, UI.narrOpen, UI.narrZone = content, {}, {}, {}
   local note = view:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
   note:SetPoint("BOTTOMLEFT", 16, 16)
   note:SetWidth(SIDE_W - 20)
@@ -1581,56 +1621,110 @@ function UI.OnVoiceChanged()
   UI.Refresh()
 end
 
--- Group headers and rows: { header = "..."} or { key = "...", label = "..." }
+-- The list, by zone, so hundreds of places and people stay easy to browse. Items:
+--   { section = "Capitals" }                                              a heading over zone groups
+--   { zone = zk, label = "Elwynn Forest", count = 31, open = true, tag = "you are here" }   a zone to open or close
+--   { key = "zone:elwynn", label = "Elwynn Forest", faqs = 2, bosses = 3, depth = 1 }       a story in it
+-- Where you are and your own starting zone come first and start open; every other zone starts closed. Within a
+-- zone: its own story first, then its places, then its people, by name. Clicking a zone header flips it
+-- (UI.narrZone remembers that for the session).
+local KIND_ORDER = { zone = 0, city = 0, dungeon = 0, subzone = 1, npc = 2 }
+
+local function minLevel(z)
+  return tonumber(tostring(z and z.lv or ""):match("^(%d+)")) or 99
+end
+
 function UI.NarrationItems(ctx)
-  local db, audio, used, out = UI.engine.db, ns.Voice.Clips(), {}, {}
-  local faqs = {}
+  local db, audio, out = UI.engine.db, ns.Voice.Clips(), {}
+  local zones, toggles = db.zones or {}, UI.narrZone or {}
+  local faqs, bosses, isBoss = {}, {}, {}
   for k in pairs(audio) do
     local base = k:match("^(.-)#faq%d+$")
     local fi = tonumber(k:match("#faq(%d+)$"))
     local ent = base and db.entries[base]
     local f = ent and ent.faq and ent.faq[fi]
     if base and f and not f.sp then faqs[base] = (faqs[base] or 0) + 1 end
-  end
-  -- Recorded bosses go under their dungeon (opened with its count button), not in "More stories".
-  local bosses = {}
-  for k in pairs(audio) do
+    -- Recorded bosses go under their dungeon's story (its count button), not in the zone's list.
     local at = not k:find("#") and db.entries[k] and UI.BossOf(k)
     if at then
       bosses["zone:" .. at.zk] = (bosses["zone:" .. at.zk] or 0) + 1
-      used[k] = true
+      isBoss[k] = true
     end
   end
-  local function group(title, keys)
-    local rows = {}
-    for _, k in ipairs(keys) do
-      if audio[k] and db.entries[k] and not used[k] then
-        used[k] = true
-        rows[#rows + 1] = { key = k, label = db.entries[k].n, faqs = faqs[k], bosses = bosses[k] }
+  local byZone, loose = {}, {}
+  for k in pairs(audio) do
+    local e = not k:find("#") and not isBoss[k] and db.entries[k]
+    if e and e.z and zones[e.z] then
+      byZone[e.z] = byZone[e.z] or {}
+      table.insert(byZone[e.z], k)
+    elseif e then
+      loose[#loose + 1] = k
+    end
+  end
+  local function order(a, b)
+    local ea, eb = db.entries[a], db.entries[b]
+    local ra, rb = KIND_ORDER[ea.t] or 3, KIND_ORDER[eb.t] or 3
+    if ra ~= rb then return ra < rb end
+    return ea.n < eb.n
+  end
+  local function zoneName(zk) return zones[zk] and zones[zk].n or zk end
+  local here = ctx.zone and UI.engine:ZoneKey(ctx.zone)
+  local home
+  for _, k in ipairs(RACE_HOME[ctx.race or ""] or {}) do
+    local e = db.entries[k]
+    if e and e.z and byZone[e.z] then home = e.z break end
+  end
+  local done = {}
+  local function zoneGroup(zk, list, label, tag)
+    if done[zk] or not list or #list == 0 then return end
+    done[zk] = true
+    table.sort(list, order)
+    local open = toggles[zk]
+    if open == nil then open = (zk == here or zk == home) end
+    out[#out + 1] = { zone = zk, label = label, count = #list + (bosses["zone:" .. zk] or 0), open = open, tag = tag }
+    if not open then return end
+    for _, k in ipairs(list) do
+      out[#out + 1] = { key = k, label = db.entries[k].n, faqs = faqs[k], bosses = bosses[k], depth = 1 }
+    end
+  end
+  if here then zoneGroup(here, byZone[here], zoneName(here), L["you are here"]) end
+  if home then zoneGroup(home, byZone[home], zoneName(home), L["your starting zone"]) end
+  local function section(title, zks)
+    local first = true
+    for _, zk in ipairs(zks) do
+      if byZone[zk] and not done[zk] then
+        if first then out[#out + 1] = { section = title } first = false end
+        zoneGroup(zk, byZone[zk], zoneName(zk))
       end
     end
-    if #rows > 0 then
-      out[#out + 1] = { header = title }
-      for _, r in ipairs(rows) do out[#out + 1] = r end
-    end
   end
-  local who = (ctx.raceName or ctx.race or "") .. (ctx.className and (" " .. ctx.className) or "")
-  group(who ~= "" and string.format(L["For you (%s)"], who) or L["For you"], RACE_HOME[ctx.race or ""] or {})
-  group(L["Starting zones"], STARTING)
-  local caps, zones, dungeons, other = {}, {}, {}, {}
-  for k in pairs(audio) do
-    if not k:find("#") and db.entries[k] then
-      local t = db.entries[k].t
-      local list = (t == "city" and caps) or (t == "dungeon" and dungeons) or (t == "zone" and zones) or other
-      list[#list + 1] = k
-    end
+  local starting, seen = {}, {}
+  for _, k in ipairs(STARTING) do
+    local e = db.entries[k]
+    if e and e.z and not seen[e.z] then seen[e.z] = true starting[#starting + 1] = e.z end
   end
-  local byName = function(a, b) return db.entries[a].n < db.entries[b].n end
-  for _, l in ipairs({ caps, zones, dungeons, other }) do table.sort(l, byName) end
-  group(L["Capitals"], caps)
-  group(L["The road ahead"], zones)
-  group(L["Dungeons"], dungeons)
-  group(L["More stories"], other)
+  section(L["Starting zones"], starting)
+  local caps, roads, dungeons = {}, {}, {}
+  for zk in pairs(byZone) do
+    local t = zones[zk].t
+    local list = (t == "city" and caps) or (t == "dungeon" and dungeons) or roads
+    list[#list + 1] = zk
+  end
+  local byLevel = function(a, b)
+    local la, lb = minLevel(zones[a]), minLevel(zones[b])
+    if la ~= lb then return la < lb end
+    return zoneName(a) < zoneName(b)
+  end
+  table.sort(caps, function(a, b) return zoneName(a) < zoneName(b) end)
+  table.sort(roads, byLevel)
+  table.sort(dungeons, byLevel)
+  section(L["Capitals"], caps)
+  section(L["The road ahead"], roads)
+  section(L["Dungeons"], dungeons)
+  if #loose > 0 then
+    out[#out + 1] = { section = L["More stories"] }
+    zoneGroup("*more", loose, L["Other stories"])
+  end
   return out
 end
 
@@ -1643,8 +1737,8 @@ function UI.PlayFaq(key, idx)
   UI.ListenTo(target)
 end
 
--- Rows: group headers, stories (click to play; the count button expands a dungeon's bosses and a story's narrated
--- questions), and the bosses and questions themselves.
+-- Rows: section headings, zone headers (click to open or close), stories (click to play; the count button expands a
+-- dungeon's bosses and a story's narrated questions), and the bosses and questions themselves.
 local function narrationRows()
   local audio, rows = ns.Voice.Clips(), {}
   for _, it in ipairs(UI.NarrationItems(UI.ctx or ns.Context.Snapshot())) do
@@ -1654,21 +1748,24 @@ local function narrationRows()
     if it.more and UI.narrOpen[it.key] then
       local e = UI.engine.db.entries[it.key]
       local z = it.bosses and UI.engine.db.zones[it.key:match("^zone:(.+)$") or ""]
+      local depth = (it.depth or 0) + 1
       for i, bk in ipairs(z and z.b or {}) do
         if audio[bk] and UI.engine.db.entries[bk] then
           local name = bossName(UI.engine.db.entries[bk])
-          rows[#rows + 1] = { key = bk, label = i .. ". " .. name, name = name, child = true }
+          rows[#rows + 1] = { key = bk, label = i .. ". " .. name, name = name, child = true, depth = depth }
         end
       end
       for i, f in ipairs(e.faq or {}) do
         if audio[it.key .. "#faq" .. i] and not f.sp then
-          rows[#rows + 1] = { key = it.key, idx = i, label = f.q, child = true }
+          rows[#rows + 1] = { key = it.key, idx = i, label = f.q, child = true, depth = depth }
         end
       end
     end
   end
   return rows
 end
+
+local STORY_ICON = "Interface\\Buttons\\UI-SpellbookIcon-NextPage-Up"
 
 function UI.RefreshNarrations()
   local items = narrationRows()
@@ -1680,9 +1777,15 @@ function UI.RefreshNarrations()
       if row.text.SetWordWrap then row.text:SetWordWrap(false) end
       local icon = row:CreateTexture(nil, "ARTWORK")
       icon:SetSize(16, 16)
-      icon:SetTexture("Interface\\Buttons\\UI-SpellbookIcon-NextPage-Up")
+      icon:SetTexture(STORY_ICON)
       row.icon = icon
       row:SetScript("OnEnter", function(self)
+        if self.zone then
+          GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+          GameTooltip:AddLine(self.open and L["Hide this zone's narrations"] or L["Show this zone's narrations"])
+          GameTooltip:Show()
+          return
+        end
         if not self.full then return end
         GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
         GameTooltip:AddLine(self.full, 1, 1, 1, true)
@@ -1691,7 +1794,10 @@ function UI.RefreshNarrations()
       end)
       row:SetScript("OnLeave", function() GameTooltip:Hide() end)
       row:SetScript("OnClick", function(self)
-        if self.idx then UI.PlayFaq(self.key, self.idx)
+        if self.zone then
+          UI.narrZone[self.zone] = not self.open
+          UI.RefreshNarrations()
+        elseif self.idx then UI.PlayFaq(self.key, self.idx)
         elseif self.key then UI.PlayEntry(self.key, string.format(L["Tell me the story of %s"], self.name)) end
       end)
       -- "N" and an arrow: opens or closes the story's N narrated questions. (Not "+N": the green + adds to the playlist.)
@@ -1725,26 +1831,38 @@ function UI.RefreshNarrations()
     end
     row:ClearAllPoints()
     row:SetPoint("TOPLEFT", 0, -y)
-    row.key, row.idx, row.name = it.key, it.idx, it.name or it.label
-    row.full = not it.header and (it.name or it.label) or nil
-    row:EnableMouse(not it.header)
+    row.key, row.idx, row.name, row.zone, row.open = it.key, it.idx, it.name or it.label, it.zone, it.open
+    row.full = it.key and (it.name or it.label) or nil
+    row:EnableMouse(not it.section)
     row.more.key, row.more.bosses = it.key, it.bosses
     row.more:Hide()
     row.add:Hide()
-    if it.header then
-      row.key = nil
+    if it.section then
       row.icon:Hide()
       row.text:SetPoint("TOPLEFT", 4, -2)
       row.text:SetPoint("BOTTOMRIGHT", -4, 2)
-      row.text:SetText(GOLD .. esc(it.header) .. "|r")
+      row.text:SetText(GOLD .. esc(it.section) .. "|r")
       y = y + ROW_H + (i > 1 and 4 or 0)
+    elseif it.zone then
+      -- A zone: + or - like the quest log's headers, its name, how many stories it holds, and why it's open.
+      row.icon:ClearAllPoints()
+      row.icon:SetPoint("LEFT", 2, 0)
+      row.icon:SetSize(14, 14)
+      row.icon:SetTexture(it.open and "Interface\\Buttons\\UI-MinusButton-Up" or "Interface\\Buttons\\UI-PlusButton-Up")
+      row.icon:Show()
+      row.text:SetPoint("TOPLEFT", 20, -2)
+      row.text:SetPoint("BOTTOMRIGHT", -4, 2)
+      row.text:SetText("|cffe6cc80" .. esc(it.label) .. "|r" .. GREY .. "  " .. it.count
+        .. (it.tag and ("  " .. esc(it.tag)) or "") .. "|r")
+      y = y + ROW_H
     else
       local id = it.idx and (it.key .. "#faq" .. it.idx) or it.key
       local playing = UI.speaking and UI.playingId == id
-      local indent = it.child and 18 or 0
+      local indent = (it.depth or 0) * 14
       row.icon:ClearAllPoints()
       row.icon:SetPoint("LEFT", 2 + indent, 0)
       row.icon:SetSize(it.child and 12 or 16, it.child and 12 or 16)
+      row.icon:SetTexture(STORY_ICON)
       row.icon:Show()
       local canQueue = SetQueueButton(row.add, it.key, it.idx)
       row.text:SetPoint("TOPLEFT", 22 + indent, -2)
@@ -1753,8 +1871,8 @@ function UI.RefreshNarrations()
       row.text:SetText(color .. esc(it.label) .. "|r" .. (playing and (GREY .. "  " .. L["playing"] .. "|r") or ""))
       if it.more then
         row.more.text:SetText(tostring(it.more))
-        row.more.arrow:SetTexture(UI.narrOpen[it.key] and "Interface\Buttons\UI-ScrollBar-ScrollUpButton-Up"
-          or "Interface\Buttons\UI-ScrollBar-ScrollDownButton-Up")
+        row.more.arrow:SetTexture(UI.narrOpen[it.key] and "Interface\\Buttons\\UI-ScrollBar-ScrollUpButton-Up"
+          or "Interface\\Buttons\\UI-ScrollBar-ScrollDownButton-Up")
         row.more:Show()
       end
       if canQueue then
@@ -1775,9 +1893,11 @@ function UI.ShowTab(view)
   UI.hereView:SetShown(view == "here")
   UI.narrView:SetShown(view == "narrations")
   UI.plView:SetShown(view == "playlist")
+  UI.journeyView:SetShown(view == "journey")
   for _, t in ipairs(UI.tabs) do t.on:SetShown(t.view == view) end
   if view == "narrations" then UI.RefreshNarrations() end
   if view == "playlist" then UI.RefreshPlaylist() end
+  if view == "journey" then ns.Journey.Refresh() end
 end
 
 -- Playlist ---------------------------------------------------------------------------------------------------------
@@ -1804,7 +1924,7 @@ function UI.CanQueue(key, idx)
   if not e or not ns.Voice.HasAudio(idx and (key .. "#faq" .. idx) or key) then return false end
   local f = idx and e.faq and e.faq[idx]
   if idx and not f then return false end
-  return not (f and f.sp and not settings().showSpoilers)
+  return not (f and f.sp and not settings().showSpoilers and not UI.Unlocked(key))
 end
 
 function UI.PlaylistIndex(id)
@@ -2348,16 +2468,157 @@ function UI.Clear()
   UI.engine.lastKey = nil
   UI.engine.asked = {}
   UI.SetNext({})
-  UI.SetFeedbackVisible(false)
   UI.Refresh()
 end
 
 -- Answers ----------------------------------------------------------------------------------------------------------
 
+-- Whether entry `key` is a quest this character has finished, so its own spoiler answers and sections show without
+-- asking. Spoilers that span several quests wait on progress tags (LOR-29).
+function UI.Unlocked(key)
+  return UI.engine:Finished(key, ns.Context.Done())
+end
+
+-- Your journey: a grey line on an entry or answer about something you've done, from what Journey.lua recorded
+-- (see Context.Journey). None when there's no record, or "Remember my journey" is off.
+local function ago(t)
+  local s = time() - t
+  if s < 120 then return L["just now"] end
+  if s < 3600 then return string.format(L["%d minutes ago"], math.floor(s / 60)) end
+  if s < 7200 then return L["an hour ago"] end
+  if s < 86400 then return string.format(L["%d hours ago"], math.floor(s / 3600)) end
+  if s < 172800 then return L["yesterday"] end
+  return string.format(L["%d days ago"], math.floor(s / 86400))
+end
+
+local function stamp(v) return type(v) == "number" and v or nil end
+
+-- "You finished this at level 12, 3 days ago, in a group.": the quest's turn-in, if it's still in the event log.
+local function questLine(key, events)
+  local index = UI.engine.db.index.quest or {}
+  for i = #events, 1, -1 do
+    local e = events[i]
+    if type(e) == "table" and e.k == "qt" and e.id and index[e.id] == key and stamp(e.t) then
+      local lv = tonumber(e.lv)
+      if not lv then return string.format(L["You finished this %s."], ago(e.t)) end
+      return string.format(type(e.pt) == "table" and L["You finished this at level %d, %s, in a group."]
+        or L["You finished this solo at level %d, %s."], lv, ago(e.t))
+    end
+  end
+  return L["You've finished this quest."]
+end
+
+-- The people met, by entry key: {name, t} for the first name the game showed for each. Rebuilt only when someone
+-- new is met, since looking up every name again on each answer adds up over a long journey.
+local metCache = {}
+local function metByKey(seen)
+  local n = 0
+  for _ in pairs(seen) do n = n + 1 end
+  if metCache.seen ~= seen or metCache.n ~= n then
+    local map = {}
+    for name, v in pairs(seen) do
+      if type(name) == "string" and stamp(v) then
+        local k, how = UI.engine:KeyForName(name)
+        if k and how == "exact" and not (map[k] and map[k].t <= v) then map[k] = { name = name, t = v } end
+      end
+    end
+    metCache.seen, metCache.n, metCache.map = seen, n, map
+  end
+  return metCache.map
+end
+
+-- "You first met Gryan Stoutmantle at Sentinel Hill, 3 days ago.", under the name the game showed.
+local function personLine(key, seen, events)
+  local name = bossName(UI.engine.db.entries[key])
+  local t = stamp(seen[name])
+  if not t then
+    local m = metByKey(seen)[key]
+    if not m then return nil end
+    name, t = m.name, m.t
+  end
+  for i = #events, 1, -1 do
+    local e = events[i]
+    if type(e) == "table" and e.k == "npc" and e.n == name then
+      local where = (e.s ~= "" and e.s) or e.z
+      if type(where) == "string" and where ~= "" then
+        return string.format(L["You first met %s at %s, %s."], name, where, ago(t))
+      end
+      break
+    end
+  end
+  return string.format(L["You first met %s %s."], name, ago(t))
+end
+
+-- "You first came here at level 10, 3 days ago.": when the place (the zone, or this subzone of it) was first seen,
+-- with the level from that visit's new-place event while the log still has it. The oldest events get trimmed, so a
+-- later new-place event in the zone isn't taken for the first visit.
+local function placeLine(key, e, c, events)
+  local eng, idx = UI.engine, UI.engine.db.index
+  local zk = e.t == "subzone" and e.z or key:match("^zone:(.+)$")
+  if not zk then return nil end
+  local bare = e.t == "subzone" and ns.Engine.lower(bossName(e)):gsub("^the ", "")
+  local function here(z, s)
+    if type(z) ~= "string" or eng:ZoneKey(z) ~= zk then return false end
+    if not bare then return true end
+    if type(s) ~= "string" or s == "" then return false end
+    -- The subzone the way ContextKeys finds it ("The Crossroads"; Northshire Abbey is in Northshire Valley), or by
+    -- name for one that shares its name with another zone's.
+    local l = ns.Engine.lower(s)
+    local nl = l:gsub("^the ", "")
+    return idx.name[l] == key or idx.name[nl] == key or (idx.area and idx.area[l] == key) or nl == bare
+  end
+  local first
+  for place, v in pairs(type(c.seen) == "table" and type(c.seen.place) == "table" and c.seen.place or {}) do
+    local z, s = tostring(place):match("^(.-)|(.*)$")
+    if stamp(v) and (not first or v < first) and here(z, s) then first = v end
+  end
+  for _, ev in ipairs(events) do
+    if type(ev) == "table" and ev.k == "zone" and stamp(ev.t) and here(ev.z, ev.s) then
+      -- Journey.lua stamps the place and its event in the same second.
+      if first and math.abs(ev.t - first) > 2 then break end
+      first = ev.t
+      local lv = tonumber(ev.lv)
+      if lv then return string.format(L["You first came here at level %d, %s."], lv, ago(first)) end
+      break
+    end
+  end
+  return first and string.format(L["You first came here %s."], ago(first)) or nil
+end
+
+local PLACE_TYPES = { zone = true, city = true, dungeon = true, subzone = true }
+
+-- The "you" line for entry `key` (plain text), or nil.
+function UI.YouLine(key)
+  local e = key and UI.engine.db.entries[key]
+  local c = e and ns.Context.Journey()
+  if not c then return nil end
+  local events = type(c.events) == "table" and c.events or {}
+  if e.t == "quest" then
+    return UI.Unlocked(key) and questLine(key, events) or nil
+  end
+  -- "You first met / first came here" is only true when the record covers the character's whole life. A character
+  -- that played before the update has a record that starts mid-life: say nothing rather than claim a first.
+  local J = ns.Journey
+  if not (J and J.Whole and J.Whole(c)) then return nil end
+  if e.t == "npc" then
+    local seen = type(c.seen) == "table" and c.seen.npc
+    return type(seen) == "table" and personLine(key, seen, events) or nil
+  elseif PLACE_TYPES[e.t] then
+    return placeLine(key, e, c, events)
+  end
+end
+
+-- The "you" line ready to go under a heading: grey, escaped, with its line break; "" when there's none.
+local function youText(key)
+  local ok, line = pcall(UI.YouLine, key)
+  return (ok and line) and (GREY .. esc(line) .. "|r\n") or ""
+end
+
 -- heading and text are plain and get escaped; tag is already-formatted (e.g. the grey "(narrated)") and must not be.
+-- `key`: the entry it's about, for the "you" line under the heading.
 local function narratedTag() return "  " .. GREY .. L["(narrated)"] .. "|r" end
-local function loreText(heading, text, angle, tag)
-  local out = heading and (GOLD .. esc(heading) .. "|r" .. (tag or "") .. "\n") or ""
+local function loreText(heading, text, angle, tag, key)
+  local out = heading and (GOLD .. esc(heading) .. "|r" .. (tag or "") .. "\n" .. youText(key)) or ""
   out = out .. WHITE .. esc(text) .. "|r"
   if angle then
     local who = angle.target:match(":(.+)$") or angle.target
@@ -2367,7 +2628,7 @@ local function loreText(heading, text, angle, tag)
 end
 
 local function followUps(key, idx, sameEntryName)
-  local items = UI.engine:FollowUps(key, idx, N_NEXT)
+  local items = UI.engine:FollowUps(key, idx, N_NEXT, ns.Context.Done())
   for _, it in ipairs(items) do
     if it.key == key and not sameEntryName then it.name = nil end
   end
@@ -2375,9 +2636,10 @@ local function followUps(key, idx, sameEntryName)
 end
 
 -- Spoilers: an answer or section marked as giving away a story isn't shown until you ask for it. Returns true if it
--- gated (and posted a warning with a Reveal chip). Options > "Show spoilers without asking" turns this off.
+-- gated (and posted a warning with a Reveal chip). Options > "Show spoilers without asking" turns this off, and a
+-- quest's own spoilers open once you've finished it (UI.Unlocked).
 function UI.SpoilerGate(key, kind, idx)
-  if settings().showSpoilers then return false end
+  if settings().showSpoilers or UI.Unlocked(key) then return false end
   local e = UI.engine.db.entries[key]
   local item = e and ((kind == "faq" and e.faq and e.faq[idx]) or (kind == "section" and e.sec and e.sec[idx]))
   local level = item and ((kind == "faq" and item.sp) or (kind == "section" and item.sp ~= 0 and item.sp))
@@ -2404,12 +2666,17 @@ end
 
 function UI.Ask(question, via)
   local ctx = UI.ctx or ns.Context.Snapshot()
+  ctx.done = ns.Context.Done()   -- a quest turned in since the last snapshot counts right away
   UI.turn = (UI.turn or 0) + 1
   local results = UI.engine:Ask(question, ctx, 4)
   local top = results[1]
+  local log = ns.Log.Question(question, ctx, results, via, UI.turn)
+  UI.lastLog = log
+  local live = ns.Companion.Installed()   -- live answers are offered only once the companion app is installed
   UI.AddMessage("user", WHITE .. esc(question) .. "|r")
   if top and top.score >= MIN_SCORE and UI.SpoilerGate(top.key, top.kind, top.idx) then
-    -- gated: SpoilerGate posted the warning and a Reveal chip
+    -- gated: SpoilerGate posted the warning and a Reveal chip (the revealed answer is logged and rated on its own)
+    log.shown = "p"
   elseif top and top.score >= MIN_SCORE then
     local heading = top.kind == "faq" and (top.title .. "  -  " .. top.name) or top.name
     local note = isGameplay(question) and (GREY
@@ -2418,13 +2685,21 @@ function UI.Ask(question, via)
     local target = top.kind == "faq" and UI.FaqTarget(top.key, top.idx)
       or { id = "ans" .. time() .. "-" .. UI.turn, text = top.text, label = top.name }   -- the answer, not the heading
     local tag = (target and ns.Voice.HasAudio(target.key)) and narratedTag() or nil
-    UI.AddMessage("lore", note .. loreText(heading, top.text, top.angle, tag), target)
-    UI.SetNext(followUps(top.key, top.kind == "faq" and top.idx or nil))
+    UI.AddMessage("lore", note .. loreText(heading, top.text, top.angle, tag, top.key), target, nil, nil, log)
+    local items = followUps(top.key, top.kind == "faq" and top.idx or nil)
+    -- A confident match can still be the wrong one (Stormwind's canals answered with the Undercity's): with the
+    -- companion app installed, the last suggestion is always a way to ask live answers instead.
+    if live then
+      items[math.min(#items + 1, N_NEXT)] = { live = question, label = L["Not what you asked? Ask live answers"] }
+    end
+    UI.SetNext(items)
   elseif top and top.score >= GUESS_SCORE then
     -- Not sure enough to answer: offer the closest pre-written questions instead of a wrong answer.
     UI.engine.lastKey = nil
-    UI.AddMessage("note", GREY .. L["I'm not sure I have that. Did you mean one of these?"] .. "|r")
-    local items = {}
+    log.shown = "g"
+    UI.AddMessage("note", GREY .. L["I'm not sure I have that. Did you mean one of these?"] .. "|r", nil, nil, nil, log)
+    -- Off script: live answers can answer it (one Ctrl+C), so that's offered first.
+    local items = live and { { live = question, label = L["Ask live answers instead"] } } or {}
     for _, r in ipairs(results) do
       local e = UI.engine.db.entries[r.key]
       local fi = r.kind == "faq" and r.idx or 1
@@ -2434,14 +2709,14 @@ function UI.Ask(question, via)
     UI.SetNext(items, L["Did you mean:"])
   else
     UI.engine.lastKey = nil
+    log.shown = "n"
     UI.AddMessage("note", GREY
-      .. L["I don't have lore on that yet. Try a place, person or quest nearby, or pick something on the left."] .. "|r")
-    local items = {}
-    for _, s in ipairs(UI.engine:Suggest(ctx, N_NEXT)) do items[#items + 1] = s end
+      .. L["I don't have lore on that yet. Try a place, person or quest nearby, or pick something on the left."] .. "|r",
+      nil, nil, nil, log)
+    local items = live and { { live = question, label = L["Ask live answers"] } } or {}
+    for _, s in ipairs(UI.engine:Suggest(ctx, N_NEXT - #items)) do items[#items + 1] = s end
     UI.SetNext(items, L["Try:"])
   end
-  UI.lastLog = ns.Log.Question(question, ctx, results, via, UI.turn)
-  UI.SetFeedbackVisible(true)
 end
 
 function UI.ShowFaq(key, idx, via)
@@ -2452,10 +2727,10 @@ function UI.ShowFaq(key, idx, via)
   if via ~= "reveal" then UI.AddMessage("user", WHITE .. esc(f.q) .. "|r") end
   if via ~= "reveal" and UI.SpoilerGate(key, "faq", idx) then return end
   local target = UI.FaqTarget(key, idx)
-  UI.AddMessage("lore", loreText(e.n, f.a, nil, ns.Voice.HasAudio(target.key) and narratedTag() or nil), target)
-  UI.SetNext(followUps(key, idx))
   UI.lastLog = ns.Log.Question(f.q, UI.ctx or ns.Context.Snapshot(), { { key = key, kind = "faq", idx = idx, title = f.q } }, via)
-  UI.SetFeedbackVisible(true)
+  UI.AddMessage("lore", loreText(e.n, f.a, nil, ns.Voice.HasAudio(target.key) and narratedTag() or nil, key), target, nil,
+    nil, UI.lastLog)
+  UI.SetNext(followUps(key, idx))
 end
 
 -- Entry overview: summary plus spoiler-free sections; its questions become the suggestions. `asked` is the
@@ -2465,8 +2740,9 @@ function UI.ShowEntry(key, via, asked)
   if not e then return end
   UI.engine.lastKey = key
   local parts = { WHITE .. esc(e.s) .. "|r" }
+  local open = UI.Unlocked(key)
   for _, sec in ipairs(e.sec or {}) do
-    if (sec.sp or 0) == 0 then
+    if (sec.sp or 0) == 0 or open then
       parts[#parts + 1] = GOLD .. esc(sec.t) .. "|r\n" .. WHITE .. esc(sec.b) .. "|r"
     else
       parts[#parts + 1] = GREY .. esc(sec.t) .. "  " .. L["(spoiler - use Reveal below)"] .. "|r"
@@ -2474,11 +2750,10 @@ function UI.ShowEntry(key, via, asked)
   end
   if asked then UI.AddMessage("user", WHITE .. esc(asked) .. "|r") end
   local narrated = ns.Voice.HasAudio(key) and narratedTag() or ""
-  local text = GOLD .. esc(e.n) .. "|r" .. narrated .. "\n" .. table.concat(parts, "\n\n")
-  UI.AddMessage("lore", text, UI.EntryTarget(key))
-  UI.SetNext(followUps(key, nil))
+  local text = GOLD .. esc(e.n) .. "|r" .. narrated .. "\n" .. youText(key) .. table.concat(parts, "\n\n")
   UI.lastLog = ns.Log.Question("[open] " .. e.n, UI.ctx or ns.Context.Snapshot(), { { key = key, kind = "summary", title = e.n } }, via)
-  UI.SetFeedbackVisible(true)
+  UI.AddMessage("lore", text, UI.EntryTarget(key), nil, nil, UI.lastLog)
+  UI.SetNext(followUps(key, nil))
 end
 
 -- Dungeon primer: what the place is, why you're here (your quests for it), and who you'll meet, in order.
@@ -2508,8 +2783,9 @@ function UI.ShowPrimer(zk, via)
   if #who > 0 then parts[#parts + 1] = GOLD .. L["Who you'll face"] .. "|r" end
   UI.AddMessage("user", WHITE .. string.format(L["Dungeon primer: %s"], esc(z.n)) .. "|r")
   local narrated = ns.Voice.HasAudio("zone:" .. zk) and narratedTag() or ""
+  UI.lastLog = ns.Log.Question("[primer] " .. z.n, ctx, { { key = "zone:" .. zk, kind = "summary", title = z.n } }, via)
   UI.AddMessage("lore", GOLD .. esc(z.n) .. (z.lv and (" (" .. z.lv .. ")") or "") .. "|r" .. narrated .. "\n"
-    .. table.concat(parts, "\n\n"), UI.EntryTarget("zone:" .. zk), nil, #who > 0 and who or nil)
+    .. youText("zone:" .. zk) .. table.concat(parts, "\n\n"), UI.EntryTarget("zone:" .. zk), nil, #who > 0 and who or nil, UI.lastLog)
   local items = {}
   -- What beating the final boss means for the story, kept behind a click since it's a spoiler.
   local last = z.b and db.entries[z.b[#z.b]]
@@ -2528,7 +2804,6 @@ function UI.ShowPrimer(zk, via)
     if #items >= N_NEXT then break end
   end
   UI.SetNext(#items > 0 and items or followUps("zone:" .. zk, nil))
-  UI.lastLog = ns.Log.Question("[primer] " .. z.n, ctx, { { key = "zone:" .. zk, kind = "summary", title = z.n } }, via)
 end
 
 -- The quest log's own text for a quest (and remember it for the harvest, so it can become lore later).
@@ -2580,4 +2855,133 @@ function UI.ShowQuestText(q)
     end
   end
   UI.SetNext(items)
+end
+
+-- Reporting an answer (LOR-120) ------------------------------------------------------------------------------------
+-- The cross under an answer opens this box: why it was wrong (optional), a note (optional), and "Copy report", which
+-- shows the feedback page's address with a report code in it (Log.ReportLink) to copy into a browser or Discord.
+-- Everything is saved with the logged question as you go; closing the box keeps it.
+local REPORT_H, REPORT_COPY_H = 300, 392
+
+local function createReport()
+  local f = CreateFrame("Frame", "LoreForeverReport", UIParent, "BasicFrameTemplateWithInset")
+  f:SetSize(400, REPORT_H)
+  f:SetPoint("CENTER")
+  f:SetFrameStrata("DIALOG")
+  f:SetMovable(true)
+  f:EnableMouse(true)
+  f:RegisterForDrag("LeftButton")
+  f:SetScript("OnDragStart", f.StartMoving)
+  f:SetScript("OnDragStop", f.StopMovingOrSizing)
+  table.insert(UISpecialFrames, "LoreForeverReport")
+  local title = f:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+  title:SetPoint("TOPLEFT", 16, -32)
+  title:SetText(L["What was wrong with this answer?"])
+  local asked = f:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
+  asked:SetPoint("TOPLEFT", 16, -52)
+  asked:SetWidth(368)
+  asked:SetJustifyH("LEFT")
+  if asked.SetWordWrap then asked:SetWordWrap(false) end
+  f.asked = asked
+
+  local reasons = {
+    { "wrong", L["It's wrong"] },
+    { "unanswered", L["It didn't answer my question"] },
+    { "spoiler", L["It spoiled something I haven't reached"] },
+    { "future", L["It talks about later expansions"] },
+    { "other", L["Something else"] },
+  }
+
+  local function save()
+    if f.log then ns.Log.Feedback(f.log, false, f.reason, f.note:GetText()) end
+  end
+  f.checks = {}
+  for i, r in ipairs(reasons) do
+    local cb = CreateFrame("CheckButton", nil, f, "UICheckButtonTemplate")
+    cb:SetSize(24, 24)
+    cb:SetPoint("TOPLEFT", 12, -66 - (i - 1) * 26)
+    local text = cb:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+    text:SetPoint("LEFT", cb, "RIGHT", 4, 0)
+    text:SetText(r[2])
+    cb.reason = r[1]
+    -- One reason at a time: ticking one clears the others; ticking it again clears it.
+    cb:SetScript("OnClick", function(self)
+      f.reason = self:GetChecked() and self.reason or nil
+      for _, other in ipairs(f.checks) do other:SetChecked(other.reason == f.reason) end
+      save()
+    end)
+    f.checks[i] = cb
+  end
+
+  local noteLabel = f:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
+  noteLabel:SetPoint("TOPLEFT", 16, -204)
+  noteLabel:SetText(L["Anything to add? (optional)"])
+  local note = CreateFrame("EditBox", nil, f, "InputBoxTemplate")
+  note:SetSize(360, 22)
+  note:SetPoint("TOPLEFT", 22, -220)
+  note:SetAutoFocus(false)
+  note:SetMaxLetters(200)
+  note:SetScript("OnTextChanged", function(_, userInput) if userInput then save() end end)
+  note:SetScript("OnEnterPressed", function(self) self:ClearFocus() end)
+  note:SetScript("OnEscapePressed", function() f:Hide() end)
+  f.note = note
+
+  local copy = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
+  copy:SetSize(130, 24)
+  copy:SetPoint("TOPLEFT", 16, -254)
+  copy:SetText(L["Copy report"])
+  local done = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
+  done:SetSize(90, 24)
+  done:SetPoint("LEFT", copy, "RIGHT", 8, 0)
+  done:SetText(L["Done"])
+  done:SetScript("OnClick", function() save(); f:Hide() end)
+  f.copy, f.done = copy, done
+
+  -- The address to copy. It can't be edited: typing puts it back, so a stray key never breaks the code.
+  local hint = f:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+  hint:SetPoint("TOPLEFT", 16, -288)
+  hint:SetWidth(368)
+  hint:SetJustifyH("LEFT")
+  hint:SetText(L["Press Ctrl+C to copy this link, then paste it into your browser to send it, or post it on our Discord. It has your question, where you were and the answer you got, but not your character's name."])
+  local link = CreateFrame("EditBox", nil, f, "InputBoxTemplate")
+  link:SetSize(360, 22)
+  link:SetPoint("TOPLEFT", 22, -344)
+  link:SetAutoFocus(false)
+  if link.SetFontObject and _G.ChatFontNormal then link:SetFontObject(ChatFontNormal) end
+  local function fill()
+    link:SetText(f.link or "")
+    link:SetCursorPosition(0)
+    link:HighlightText()
+  end
+  link:SetScript("OnTextChanged", function(_, userInput) if userInput then fill() end end)
+  link:SetScript("OnEditFocusGained", function(self) self:HighlightText() end)
+  link:SetScript("OnEscapePressed", function() f:Hide() end)
+  link:SetScript("OnShow", fill)
+  f.hint, f.linkBox, f.fillLink = hint, link, fill
+
+  copy:SetScript("OnClick", function()
+    save()
+    f.link = ns.Log.ReportLink(f.log)
+    f:SetHeight(REPORT_COPY_H)
+    hint:Show()
+    link:Show()
+    fill()   -- again once shown: the Forever client drops text set on a box that isn't visible yet (see Options)
+    link:SetFocus()
+  end)
+  return f
+end
+
+function UI.ShowReport(log)
+  if not log then return end
+  local f = LoreForeverReport or createReport()
+  UI.report = f
+  f.log, f.link = log, nil
+  f.reason = log.reason
+  f.asked:SetText(esc(log.q or ""))
+  for _, cb in ipairs(f.checks) do cb:SetChecked(cb.reason == f.reason) end
+  f:SetHeight(REPORT_H)
+  f.hint:Hide()
+  f.linkBox:Hide()
+  f:Show()
+  f.note:SetText(log.note or "")
 end

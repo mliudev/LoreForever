@@ -13,6 +13,7 @@ export const LIMITS = {
   bytes: 25 * 1024 * 1024,         // one file
   accountBytes: 1024 ** 3,         // everything one account keeps
   uploadsPerDay: 400,
+  uploadsPerMinute: 60,            // a whole zip goes up one file at a time; the page waits when it hits this
   voices: 2,                       // voices one account can have on the upload page
 };
 
@@ -27,7 +28,10 @@ export function sniff(bytes) {
   return null;
 }
 
-const MIGRATE = ["ALTER TABLE voices ADD COLUMN locale TEXT"];
+const MIGRATE = [
+  "ALTER TABLE voices ADD COLUMN locale TEXT",
+  "ALTER TABLE studio_takes ADD COLUMN crc32 TEXT",   // the file's CRC-32 as the page sent it, for the test pack's zip
+];
 let migrated = false;
 export async function setupStudio(env) {
   if (migrated) return;

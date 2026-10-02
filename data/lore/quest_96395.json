@@ -1,0 +1,115 @@
+{
+ "key": "quest:96395",
+ "type": "quest",
+ "name": "An Ancient Grudge",
+ "era": "forever",
+ "zone": "hallofthanes",
+ "meta": {
+  "ids": [
+   96395
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "15"
+ },
+ "summary": "Deep within the historic Hall of Thanes, an ethereal attendant pleads for an end to the torment of a fallen ruler. The spirit of Faldrim Anvilmar lingers on, consumed by an old grievance and denied eternal peace. Adventurers are tasked with putting the restless thane to rest.",
+ "sections": [
+  {
+   "title": "A Plea From the Grave",
+   "body": "Within the stone vaults of the Hall of Thanes, death offers no immediate respite. A ghostly attendant of Faldrim Anvilmar lingers there, barely able to muster the strength to speak across the mortal veil. Rather than seeking freedom for itself, the phantom's only concern is its master, begging travelers to quiet the turbulent spirit of the thane.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Weight of the Past",
+   "body": "Death has not freed Faldrim Anvilmar from the past. Bound to the physical world by a consuming, ancient grudge, Faldrim's ghost remains agitated and hostile, unable to find slumber until granted a forceful release.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Faldrim Anvilmar?",
+   "aliases": [
+    "faldrim anvilmar lore",
+    "who is faldrim",
+    "thane anvilmar"
+   ],
+   "answer": "Faldrim Anvilmar was a dwarven thane whose restless apparition now haunts the Hall of Thanes. His Ghostly Attendant says he is consumed by an ancient grudge and can find no rest. The quest says nothing more about his life or lineage."
+  },
+  {
+   "q": "Where is the Hall of Thanes located?",
+   "aliases": [
+    "hall of thanes location",
+    "where is hall of thanes",
+    "hall of thanes entrance"
+   ],
+   "answer": "The Hall of Thanes lies in the caverns beneath Old Ironforge, inside the dwarven capital of Ironforge."
+  },
+  {
+   "q": "Why is the ghost of Faldrim Anvilmar hostile?",
+   "aliases": [
+    "why is faldrim angry",
+    "why is thane attacking",
+    "ancient grudge explanation"
+   ],
+   "answer": "According to the ghostly attendant, the former thane is consumed by an ancient grudge. Dwarven history is steeped in centuries of clan rivalries, and Faldrim's lingering hatred prevents his spirit from departing into peaceful slumber."
+  },
+  {
+   "q": "Who gives the quest An Ancient Grudge?",
+   "aliases": [
+    "who starts ancient grudge",
+    "ghostly attendant quest",
+    "quest giver"
+   ],
+   "answer": "The quest is bestowed by a Ghostly Attendant found inside the Hall of Thanes. Bound in servitude even after death, the attendant seeks only peace for its former master."
+  },
+  {
+   "q": "What must you do to complete the quest?",
+   "aliases": [
+    "how to finish ancient grudge",
+    "put faldrim to rest",
+    "ancient grudge objective"
+   ],
+   "answer": "You must confront the spirit of Faldrim Anvilmar within the Hall of Thanes, defeat his restless ghost in combat to release him from his torment, and report back to the Ghostly Attendant."
+  },
+  {
+   "q": "Is Faldrim related to the town of Anvilmar?",
+   "aliases": [
+    "is faldrim from anvilmar",
+    "anvilmar coldridge connection",
+    "anvilmar family"
+   ],
+   "answer": "That isn't known yet. Faldrim shares his name with the settlement of Anvilmar in Coldridge Valley, but the quest says nothing about his family or any tie to the town."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, confronting a restless thane of their own people is a sobering reminder that an ancient grudge can outlast death itself."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests understand that lingering grudges and unatoned sorrow can bind a mortal spirit to the physical realm long after the body has turned to dust."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Laying a tormented soul to rest is a solemn duty for holy warriors sworn to bring peace to the suffering dead."
+  }
+ ],
+ "keywords": [
+  "ancient grudge",
+  "anvilmar",
+  "dwarf ghost",
+  "faldrim anvilmar",
+  "ghostly attendant",
+  "hall of thanes",
+  "restless spirit",
+  "thane"
+ ],
+ "related": [
+  "zone:hallofthanes",
+  "subzone:anvilmar"
+ ],
+ "attribution": [
+  "In-game quest text: An Ancient Grudge"
+ ]
+}

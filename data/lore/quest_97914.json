@@ -1,0 +1,121 @@
+{
+ "key": "quest:97914",
+ "type": "quest",
+ "name": "Expanding Horizons",
+ "era": "forever",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   97914
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "17"
+ },
+ "summary": "Expanding Horizons is a diplomatic courier mission originating in Darkshore that links the night elven settlement of Auberdine directly with the human kingdom of Stormwind. Tasked by Thundris Windweaver, an adventurer carries official correspondence across the ocean to City Architect Baros Alexston to foster closer ties and trade between the two distant Alliance realms.",
+ "sections": [
+  {
+   "title": "Bridging Two Hemispheres",
+   "body": "For millenia, the night elves kept to the forests of Kalimdor, isolated from the Eastern Kingdoms. Following the Third War, their entry into the Grand Alliance necessitated true logistical ties, not merely ideological ones. Auberdine serves as the principal northern port for the kaldorei mainland, yet it has long lingered in the shadow of ancient, ruined cities like Ameth'Aran and Bashal'Aran. With the establishment of a direct maritime passage between Auberdine and Stormwind City, local leaders seek to solidify these newfound shipping lanes and integrate their coastal community with the broader Alliance network.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Missive to the City Architect",
+   "body": "The correspondence carried across the Great Sea is addressed specifically to Baros Alexston, the City Architect of Stormwind. As the chief builder responsible for the reconstruction and infrastructure of the human capital, Alexston handles grand public works and logistics. Thundris's own aim is simpler: he would see Auberdine's work recognized and its home made known.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you on this quest?",
+   "aliases": [
+    "quest giver expanding horizons",
+    "who gives expanding horizons",
+    "thundris quest"
+   ],
+   "answer": "Thundris Windweaver, an influential night elf in Auberdine, gives this task to travelers. Feeling that Auberdine is overlooked both by the high boughs of Darnassus and distant allies across the ocean, he seeks to establish a formal connection with the human kingdom."
+  },
+  {
+   "q": "Who is Baros Alexston?",
+   "aliases": [
+    "baros alexston lore",
+    "who is baros",
+    "city architect stormwind"
+   ],
+   "answer": "Baros Alexston is the City Architect of Stormwind. A respected civic planner and former member of the Stonemasons Guild who remained loyal to the crown, he oversees construction and structural administration throughout the capital."
+  },
+  {
+   "q": "Why is Auberdine reaching out to Stormwind?",
+   "aliases": [
+    "why send letter to stormwind",
+    "auberdine stormwind connection",
+    "why contact humans"
+   ],
+   "answer": "Auberdine wants its harbor recognized as a vital gateway for supplies, commerce, and Alliance travel. With newly established sea routes between Darkshore and the Eastern Kingdoms, local leaders hope to solidify economic and logistical ties with the human kingdom."
+  },
+  {
+   "q": "How does travel work between Auberdine and Stormwind?",
+   "aliases": [
+    "boat to stormwind",
+    "how to get to stormwind from auberdine"
+   ],
+   "answer": "A new vessel now connects Auberdine with the kingdom of Stormwind, sailing across the Great Sea directly into Stormwind Harbor and bringing life and supplies to Auberdine's shores."
+  },
+  {
+   "q": "What are Ameth'Aran and Bashal'Aran?",
+   "aliases": [
+    "ameth aran lore",
+    "bashal aran",
+    "ancient darkshore cities"
+   ],
+   "answer": "They were prosperous highborne cities in ancient Darkshore before the Great Sundering shattered the continent ten thousand years ago. Today they lie in haunted ruins, often remembered in kaldorei history far more prominently than living villages like Auberdine."
+  },
+  {
+   "q": "Why deliver this to an architect instead of King Anduin or Bolvar?",
+   "aliases": [
+    "why baros alexston",
+    "why not bolvar",
+    "why not highlord bolvar"
+   ],
+   "answer": "The quest doesn't say why Thundris chose him. Thundris simply asks that the letter go to a human called Baros Alexston, Stormwind's City Architect, so that Auberdine's work is recognized."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, opening maritime lanes to the Eastern Kingdoms represents a fundamental break from ten thousand years of seclusion, binding your people inextricably with human civilization."
+  },
+  {
+   "target": "race:Human",
+   "text": "Returning to Stormwind bearing the seal of a kaldorei haven highlights the expanding reach and global influence of the reconstructed kingdom."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This mission demonstrates the practical, on-the-ground work required to weld disparate peoples across two continents into a functioning unified faction."
+  }
+ ],
+ "keywords": [
+  "ameth'aran",
+  "auberdine",
+  "baros alexston",
+  "bashal'aran",
+  "darkshore",
+  "darnassus",
+  "expanding horizons",
+  "harbor",
+  "stormwind",
+  "thundris windweaver"
+ ],
+ "related": [
+  "npc:baros-alexston",
+  "subzone:auberdine",
+  "topic:stormwind-kingdom",
+  "zone:darnassus",
+  "subzone:ameth-aran",
+  "quest:954",
+  "topic:human"
+ ],
+ "attribution": [
+  "In-game quest text: Expanding Horizons"
+ ]
+}

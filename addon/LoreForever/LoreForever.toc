@@ -2,7 +2,7 @@
 ## Title: Lore Forever
 ## Notes: Lore companion: the story behind the zones, quests, people and items around you.
 ## Author: Mike
-## Version: 0.4.0
+## Version: 0.5.0
 ## IconTexture: Interface\Icons\INV_Misc_Book_09
 ## SavedVariables: LoreForeverDB
 ## AddonCompartmentFunc: LoreForever_OnAddonCompartmentClick
@@ -89,6 +89,9 @@ Lang.lua
 Engine.lua
 Context.lua
 Log.lua
+Journey.lua
+JourneyRecord.lua
+Companion.lua
 Options.lua
 Voice.lua
 Hooks.lua

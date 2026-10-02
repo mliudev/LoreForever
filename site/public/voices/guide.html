@@ -80,7 +80,8 @@
   <h2 id="specs">Recording settings</h2>
   <ul>
     <li><strong>Mono</strong>, <strong>44.1 kHz</strong>.</li>
-    <li><strong>MP3 at 64 kbps or higher</strong>, or <strong>OGG Vorbis</strong>.</li>
+    <li><strong>MP3 at 64 kbps or higher</strong>, or <strong>OGG Vorbis</strong>. WAV and FLAC are fine on the
+      upload page too: it turns them into MP3 before they go up.</li>
     <li><strong>Loudness about -16 LUFS integrated</strong>, with <strong>peaks at or below -1 dBTP</strong>. Most
       audio editors (Audacity, Reaper, Audition) have a loudness normalization option that does this in one
       step.</li>
@@ -94,16 +95,17 @@
     you do the rest.</p>
 
   <h2 id="naming">Naming the files</h2>
-  <p>On the upload page you drop each file on its line, so the name doesn't matter. Names only matter when you upload
-    a batch at once, or send a folder: then name each file exactly as the <strong>file name</strong> column of the
-    clip list says, all lower case, for example:</p>
+  <p>On the upload page you can drop a single file on its line, and then the name doesn't matter. Names matter when you
+    upload a zip or a whole folder at once: then name each file as the <strong>file name</strong> column of the clip
+    list says, for example:</p>
   <ul>
     <li><code>zone_stormwind.mp3</code>: the Stormwind intro</li>
     <li><code>zone_stormwind__faq3.mp3</code>: the answer to the third Stormwind question (note the two
       underscores)</li>
   </ul>
-  <p>If you record OGG, keep the same name with <code>.ogg</code> at the end. Put all the files in one folder, with
-    no subfolders. Files that don't match a name in the list can't be used.</p>
+  <p>If you record OGG, WAV or FLAC, keep the same name with <code>.ogg</code>, <code>.wav</code> or <code>.flac</code>
+    at the end. Files that don't match a name in the list can't be used: the upload page lists them, with the closest
+    name when there is one, so you can rename them and drop them again.</p>
 
   <h2 id="partial">Partial packs are welcome</h2>
   <p>You don't have to record everything. A pack with a handful of narrations is useful, and you can add more
@@ -122,18 +124,45 @@
       Doe", your handle, or a link to your channel. You can also stay anonymous.</li>
   </ul>
 
+  <h2 id="test">Hear your voice in game</h2>
+  <p>You can play your recordings in Lore Forever before you send them, as often as you like.</p>
+  <ol class="vp-steps">
+    <li>Upload some lines on the <a href="/voices/studio">upload page</a>.</li>
+    <li>Press <strong>Download my test pack</strong> there.</li>
+    <li>Unzip it into <code>World of Warcraft\_classic_beta_\Interface\AddOns</code>. It's the same folder every
+      time, so to update it, download again and unzip over the old one.</li>
+    <li>Restart WoW the first time. After that, <code>/reload</code> is enough.</li>
+    <li>In Options &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Narration voice, pick your voice (it ends in
+      "(test pack)").</li>
+  </ol>
+  <p>The test pack has only the lines whose recording matches the current text. A line whose text changed since you
+    recorded it is left out until you record the new text; the upload page says how many were left out. The pack is
+    just for you to test: everyone else gets your voice when you send it and it's published.</p>
+  <p><strong>Your voice isn't in the list?</strong> Restart WoW, and check the folder isn't doubled, like
+    <code>AddOns\LoreForever_Voice_TestName\LoreForever_Voice_TestName</code>: the inner folder belongs straight in
+    <code>AddOns</code>.<br>
+    <strong>A line plays the default voice?</strong> That line isn't recorded yet, or its text changed since you
+    recorded it.</p>
+
   <h2 id="send">Sending your recordings</h2>
   <ol class="vp-steps">
     <li>Open the <a href="/voices/studio">upload page</a> and sign in. Agree to the narrator release once, then name
       your voice and pick its language.</li>
-    <li>Upload a file for each line you recorded. Each one is checked right away against the list above; fix what it
-      flags, or keep it as it is.</li>
+    <li>Upload your recordings. Drop a zip or a whole folder of <a href="#naming">named files</a> on
+      <strong>Upload many recordings at once</strong>, or drop single files on their lines. Every file is checked
+      against the <a href="#specs">recording settings</a> first, and you see what saving would do before anything is
+      saved: new lines, lines it replaces, files already there, names we can't place, recordings of text we've
+      reworded since, and files that failed the checks. Saving only changes the lines in your upload.</li>
+    <li><a href="#test">Hear it in game</a> with a test pack whenever you like. Fixed a few takes? Drop just those
+      files, or your whole folder again: files that are already saved show as unchanged and are skipped. A test pack
+      you edited can go back the same way.</li>
     <li>Press <strong>Send for review</strong> with your credit line. You can come back, add lines and send again.</li>
     <li>We build the pack, listen to every file and get back to you if anything needs another take.</li>
     <li>The finished pack is published on the <a href="/voices">Voices page</a> with your name on it.</li>
   </ol>
-  <p class="vp-note">Prefer to share a folder? Put the files, named as above, in a Google Drive, Dropbox or OneDrive
-    folder anyone with the link can view, and use the <a href="/voices/submit">submission form</a>.</p>
+  <p class="vp-note">Can't upload here? Put the files, <a href="#naming">named as above</a>, in one Google Drive,
+    Dropbox or OneDrive folder anyone with the link can view, and send the link with the
+    <a href="/voices/submit">submission form</a> instead.</p>
   <p class="vp-note">Players: installing a voice pack is covered on the <a href="/voices#install">Voices page</a>.</p>
 </main>
 

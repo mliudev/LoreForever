@@ -100,7 +100,7 @@ local function readingLocale() return ns.readingLocale or "enUS" end
 local function sameLanguage(a, b) return (a or "enUS"):sub(1, 2) == (b or "enUS"):sub(1, 2) end
 local function say(msg) DEFAULT_CHAT_FRAME:AddMessage("|cffffd100Lore Forever:|r " .. msg) end
 
-Voice.active, Voice.chain, Voice.stats, Voice.total = {}, {}, {}, 0
+Voice.active, Voice.chain, Voice.stats, Voice.total, Voice.provided = {}, {}, {}, 0, {}
 
 -- Where a pack keeps a clip: zone:stormwind -> Audio\zone_stormwind.mp3, zone:stormwind#faq3 -> ...__faq3.mp3.
 function Voice.ClipPath(pack, id, ext)
@@ -140,16 +140,46 @@ local function ensure(name)
   if data and not Voice.Unusable(name) then return data end   -- the language may only be known once loaded
 end
 
--- Current and stale clip counts for a loaded pack.
+-- Installed lands packs that add clips to a voice (## X-LoreForever-Extends: <name>), in name order. A lands pack is
+-- never a voice of its own, and one whose voice isn't installed or chosen simply isn't used.
+-- A lands pack's folder starts with its voice's (LoreForever_Voice_Female_Horde): some clients can't read an add-on's
+-- X- fields before it's loaded, so a pack named that way is loaded to find out.
+function Voice.Extensions(name)
+  local out = {}
+  for _, rec in ipairs(ns.Packs.List("voice")) do
+    if not rec.extends and rec.name:sub(1, #name + 1) == name .. "_" and not ns.Packs.IsLoaded(rec.name) then
+      ensure(rec.name)
+    end
+    if rec.extends and rec.extends == name then out[#out + 1] = rec.name end
+  end
+  table.sort(out)
+  return out
+end
+
+-- A voice and its loaded lands packs: the packs whose clips speak in that voice.
+local function withExtensions(name)
+  local out = { name }
+  for _, ext in ipairs(Voice.Extensions(name)) do
+    if ensure(ext) then out[#out + 1] = ext end
+  end
+  return out
+end
+
+-- Current and stale clip counts for a loaded pack, its lands packs included.
 function Voice.Count(name)
-  local data, hashes, have, stale = ns.Packs.data[name], (ns.DB and ns.DB.clipHash) or {}, 0, 0
-  for id, h in pairs(data and data.clips or {}) do
-    if hashes[id] == h then have = have + 1 elseif hashes[id] then stale = stale + 1 end
+  local hashes, have, stale = (ns.DB and ns.DB.clipHash) or {}, 0, 0
+  for _, pack in ipairs(withExtensions(name)) do
+    local data = ns.Packs.data[pack]
+    for id, h in pairs(data and data.clips or {}) do
+      if hashes[id] == h then have = have + 1 elseif hashes[id] then stale = stale + 1 end
+    end
   end
   return have, stale
 end
 
--- Rebuild Voice.active (clip id -> the paths to try, in order) from the chosen voice.
+-- Rebuild Voice.active (clip id -> the paths to try, in order) from the chosen voice. Each voice in the chain brings
+-- its installed lands packs; their counts go to the voice they extend. Voice.provided marks every clip some pack in
+-- the chain has (current or not), for the "narrated in a pack you don't have" hint.
 function Voice.Refresh()
   local choice, chain = S().voicePack or "auto", {}
   Voice.deferred = nil
@@ -158,23 +188,53 @@ function Voice.Refresh()
     local def = Voice.DefaultPack()
     if def and def ~= chain[1] and ensure(def) then chain[#chain + 1] = def end
   end
-  local active, stats, total = {}, {}, 0
+  local sources = {}   -- { pack, the voice it counts for }, in the order their paths are tried
+  for _, name in ipairs(chain) do
+    for _, pack in ipairs(withExtensions(name)) do sources[#sources + 1] = { pack, name } end
+  end
+  local active, stats, total, provided = {}, {}, 0, {}
   for _, name in ipairs(chain) do stats[name] = { have = 0, stale = 0 } end
   for id, hash in pairs((ns.DB and ns.DB.clipHash) or {}) do
     total = total + 1
-    for _, name in ipairs(chain) do
-      local data = ns.Packs.data[name]
+    for _, src in ipairs(sources) do
+      local data = ns.Packs.data[src[1]]
       local h = data.clips[id]
+      if h then provided[id] = true end
       if h == hash then
         active[id] = active[id] or {}
-        table.insert(active[id], Voice.ClipPath(name, id, data.ext))
-        stats[name].have = stats[name].have + 1
+        table.insert(active[id], Voice.ClipPath(src[1], id, data.ext))
+        stats[src[2]].have = stats[src[2]].have + 1
       elseif h then
-        stats[name].stale = stats[name].stale + 1
+        stats[src[2]].stale = stats[src[2]].stale + 1
       end
     end
   end
+  -- Recordings outside the voice packs (journey chapters the companion app narrated: Journey.LoadChapters).
+  for id, paths in pairs(Voice.extra or {}) do active[id] = paths end
   Voice.active, Voice.chain, Voice.stats, Voice.total, Voice.ready = active, chain, stats, total, true
+  Voice.provided = provided
+end
+
+-- Entering a zone with narrated places or people that no installed pack has (they're in a lands pack): say where to
+-- get them, once per zone per session, unless narration is off or the hint is turned off in Options.
+Voice.hinted = {}
+function Voice.OnZone(zk)
+  if not zk or Voice.hinted[zk] or S().packHints == false or (S().voicePack or "auto") == "none" then return end
+  if not Voice.ready then Voice.Refresh() end
+  local db = ns.DB or {}
+  local zone = db.zones and db.zones[zk]
+  if not zone or not Voice.chain[1] then return end
+  local missing = false
+  for id in pairs(db.clipHash or {}) do
+    local e = db.entries and db.entries[id:match("^(.-)#faq%d+$") or id]
+    if e and e.z == zk and not Voice.provided[id] then missing = true break end
+  end
+  if not missing then return end
+  Voice.hinted[zk] = true
+  local lands = (zone.fa == "alliance" and L["Alliance lands"]) or (zone.fa == "horde" and L["Horde lands"])
+    or L["Alliance or Horde lands"]
+  say(string.format(L["%s's places and people are narrated in the %s pack: %s"], zone.n, lands,
+    "loreforeverwow.com/voices"))
 end
 
 -- Say once if the saved voice can't be used (the saved choice is kept, so reinstalling it brings it back).
@@ -235,8 +295,8 @@ function Voice.Choices()
   local out = { { value = "auto", label = defRec and string.format(L["Default (%s)"], defRec.title) or L["Default"],
     note = not def and L["No default voice installed: Read aloud only"] or nil } }
   for _, rec in ipairs(ns.Packs.List("voice")) do
-    if not isDefault(rec.name) then
-      ensure(rec.name)
+    if not isDefault(rec.name) then ensure(rec.name) end   -- (loading also reads metadata unreadable before it)
+    if not isDefault(rec.name) and not rec.extends then   -- lands packs extend a voice; they aren't one
       local why = Voice.Unusable(rec.name)
       local have = not why and Voice.Count(rec.name)
       out[#out + 1] = { value = rec.name, rec = rec, why = why,

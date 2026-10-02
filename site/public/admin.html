@@ -68,6 +68,7 @@
 .ad-kind { font-weight: 600; color: var(--gold-soft); }
 .ad-stars { color: var(--gold); letter-spacing: 1px; }
 .ad-msg { margin: 6px 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+.ad-ctx { color: var(--muted); font-size: 0.88rem; border-left: 2px solid var(--line, #3a3326); padding-left: 10px; }
 .ad-report-foot { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 0.85rem; color: var(--muted); }
 .ad-report-foot code { overflow-wrap: anywhere; }
 .ad-actions { margin-left: auto; display: flex; gap: 14px; }
@@ -77,6 +78,25 @@
 .ad table th { color: var(--muted); font-weight: 600; border-top: 0; }
 .ad-empty { color: var(--muted); margin: 0; }
 .ad-test { color: var(--muted); font-size: 0.78rem; border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; }
+
+/* Section bar: sticks to the top, shows what's open in each section, marks the one in view. */
+.ad-nav {
+  position: sticky; top: 0; z-index: 10; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none;
+  margin: 14px -16px 0; padding: 8px 16px; background: var(--bg); border-bottom: 1px solid var(--line);
+}
+.ad-nav::-webkit-scrollbar { display: none; }
+.ad-nav a {
+  flex: none; display: flex; gap: 6px; align-items: center; padding: 5px 10px; border: 1px solid var(--panel-line);
+  border-radius: 4px; color: var(--text); font-size: 0.88rem; text-decoration: none; background: #00000088;
+}
+.ad-nav a:hover { border-color: var(--gold-soft); }
+.ad-nav a[aria-current="true"] { border-color: var(--gold); color: var(--gold); }
+.ad-badge { min-width: 1.4em; padding: 0 5px; border-radius: 9px; background: var(--gold); color: #000; font-size: 0.75rem; font-weight: 700; text-align: center; }
+.ad-badge:empty { display: none; }
+.ad-badge.quiet { background: var(--line); color: var(--muted); }
+.ad h2[id], #overview { scroll-margin-top: 64px; }
+a.ad-tile { color: inherit; text-decoration: none; }
+a.ad-tile:hover { border-color: var(--gold-soft); }
 
 /* Sign-in */
 .ad-login { max-width: 460px; margin: 60px auto; }
@@ -116,12 +136,24 @@
       &middot; <button type="button" id="signout">Sign out</button></span>
   </div>
 
-  <div class="ad-tiles">
-    <div class="ad-panel ad-tile"><div class="ad-label">Emails</div><div class="ad-num" id="t-emails">-</div><div class="ad-sub" id="t-emails-sub"></div></div>
+  <!-- Gold badges count what's waiting on you (open or saved items); grey ones are plain totals. -->
+  <nav class="ad-nav" id="nav" aria-label="Dashboard sections">
+    <a href="#overview">Overview</a>
+    <a href="#feedback">Feedback <span class="ad-badge" id="n-feedback"></span></a>
+    <a href="#voices">Voices <span class="ad-badge" id="n-voices"></span></a>
+    <a href="#translations">Translations <span class="ad-badge" id="n-translations"></span></a>
+    <a href="#edits">Edits <span class="ad-badge" id="n-edits"></span></a>
+    <a href="#contributors">Contributors <span class="ad-badge quiet" id="n-contributors"></span></a>
+    <a href="#emails">Emails <span class="ad-badge quiet" id="n-emails"></span></a>
+  </nav>
+
+  <div class="ad-tiles" id="overview">
+    <a class="ad-panel ad-tile" href="#emails"><div class="ad-label">Emails</div><div class="ad-num" id="t-emails">-</div><div class="ad-sub" id="t-emails-sub"></div></a>
     <div class="ad-panel ad-tile"><div class="ad-label">Site downloads</div><div class="ad-num" id="t-dl">-</div><div class="ad-sub" id="t-dl-sub"></div></div>
-    <div class="ad-panel ad-tile"><div class="ad-label">Open feedback</div><div class="ad-num" id="t-open">-</div><div class="ad-sub" id="t-open-sub"></div></div>
-    <div class="ad-panel ad-tile"><div class="ad-label">Average rating</div><div class="ad-num" id="t-rating">-</div><div class="ad-sub" id="t-rating-sub"></div></div>
-    <div class="ad-panel ad-tile"><div class="ad-label">Open voice submissions</div><div class="ad-num" id="t-voices">-</div><div class="ad-sub" id="t-voices-sub"></div></div>
+    <a class="ad-panel ad-tile" href="#feedback"><div class="ad-label">Open feedback</div><div class="ad-num" id="t-open">-</div><div class="ad-sub" id="t-open-sub"></div></a>
+    <a class="ad-panel ad-tile" href="#feedback"><div class="ad-label">Average rating</div><div class="ad-num" id="t-rating">-</div><div class="ad-sub" id="t-rating-sub"></div></a>
+    <a class="ad-panel ad-tile" href="#voices"><div class="ad-label">Open voice submissions</div><div class="ad-num" id="t-voices">-</div><div class="ad-sub" id="t-voices-sub"></div></a>
+    <a class="ad-panel ad-tile" href="#contributors"><div class="ad-label">Contributor accounts</div><div class="ad-num" id="t-users">-</div><div class="ad-sub" id="t-users-sub"></div></a>
   </div>
 
   <div class="ad-charts">
@@ -129,7 +161,7 @@
     <figure class="ad-panel ad-chart" id="c-downloads" style="margin:0"><h3>Site downloads per day, last 30 days</h3></figure>
   </div>
 
-  <h2>Feedback</h2>
+  <h2 id="feedback">Feedback</h2>
   <div class="ad-panel">
     <div class="ad-filters" role="group" aria-label="Filter feedback">
       <button type="button" data-status="new" aria-pressed="true">Open</button>
@@ -147,7 +179,7 @@
     <div id="fb-list"></div>
   </div>
 
-  <h2>Voice submissions</h2>
+  <h2 id="voices">Voice submissions</h2>
   <div class="ad-panel">
     <div class="ad-filters" role="group" aria-label="Filter voice submissions">
       <button type="button" data-vstatus="new" aria-pressed="true">Open</button>
@@ -158,7 +190,7 @@
     <div id="vo-list"></div>
   </div>
 
-  <h2>Translations</h2>
+  <h2 id="translations">Translations</h2>
   <div class="ad-panel">
     <div class="ad-filters" role="group" aria-label="Filter translations">
       <button type="button" data-tstatus="new" aria-pressed="true">Open</button>
@@ -177,7 +209,7 @@
   <!-- Edits from /translate/dashboard (functions/api/translations/[action].js). No approval step: every saved edit goes
        into data/i18n with `uv run python -m lore.kit pull <locale>` unless it is rejected here (spam, vandalism, a
        native speaker's report on Discord). "Restore" undoes a reject. -->
-  <h2>Translation edits</h2>
+  <h2 id="edits">Translation edits</h2>
   <div class="ad-panel">
     <div class="ad-filters" role="group" aria-label="Filter translation edits">
       <button type="button" data-estatus="new" aria-pressed="true">Saved</button>
@@ -189,7 +221,29 @@
     <div id="ed-list"></div>
   </div>
 
-  <h2>Emails</h2>
+  <!-- Google sign-in accounts. /account promises we email them only about their feedback and what they contribute,
+       so these aren't for release news: that's the Emails list below. -->
+  <h2 id="contributors">Contributors</h2>
+  <div class="ad-panel">
+    <div class="ad-filters">
+      <input type="search" id="cq" placeholder="Search name or email" aria-label="Search contributors">
+      <select id="crole" aria-label="Role">
+        <option value="">Every account</option>
+        <option value="voice">Voices</option>
+        <option value="translator">Translators</option>
+        <option value="feedback">Feedback only</option>
+      </select>
+      <button type="button" id="ccopy">Copy addresses</button>
+      <button type="button" id="ccsv">Export CSV</button>
+      <span class="ad-count" id="co-count"></span>
+    </div>
+    <p class="ad-count" style="margin:0 0 8px">Only for reaching them about their feedback and contributions; the account page promises nothing else.</p>
+    <div class="ad-table-wrap">
+      <table><thead><tr><th>Email</th><th>Name</th><th>Voices</th><th>Languages</th><th>Activity</th><th>Joined</th></tr></thead><tbody id="co-list"></tbody></table>
+    </div>
+  </div>
+
+  <h2 id="emails">Emails</h2>
   <div class="ad-panel">
     <div class="ad-filters">
       <input type="search" id="q" placeholder="Search emails" aria-label="Search emails">
@@ -251,6 +305,7 @@ async function load() {
     $("login").hidden = true;
     $("dash").hidden = false;
     render();
+    markSection();
     loadEdits();
     $("updated").textContent = "Updated " + new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
   } catch (e) {
@@ -302,6 +357,10 @@ function render() {
   $("t-voices").textContent = voices.filter(v => v.status !== "done").length;
   $("t-voices-sub").textContent = voices.length + (voices.length === 1 ? " submission" : " submissions") + " in all";
 
+  const users = data.users || [];
+  $("t-users").textContent = users.length.toLocaleString();
+  $("t-users-sub").textContent = users.filter(u => u.voices).length + " voices · " + users.filter(u => u.languages).length + " translators";
+
   const days = lastDays(30);
   const signupsPerDay = days.map(d => subs.filter(s => (s.created_at || "").slice(0, 10) === d).length);
   const downloadsPerDay = days.map(d => data.downloads.filter(x => x.day === d).reduce((a, x) => a + x.n, 0));
@@ -311,8 +370,18 @@ function render() {
   renderFeedback();
   renderVoices();
   renderTranslations();
+  renderContributors();
   renderEmails();
+
+  const openCount = list => (list || []).filter(x => x.status !== "done").length;
+  badge("n-feedback", open.length);
+  badge("n-voices", openCount(voices));
+  badge("n-translations", openCount(data.translations) + openCount(data.translationReports));
+  badge("n-contributors", users.length);
+  badge("n-emails", subs.length);
 }
+
+const badge = (id, n) => $(id).textContent = n ? n.toLocaleString() : "";
 
 // Single-series bar chart: thin bars with a rounded top, recessive grid, hover tooltip, and a table fallback.
 function barChart(fig, days, values, label) {
@@ -391,6 +460,7 @@ function renderFeedback() {
         f.rating ? el("span", { class: "ad-stars", title: f.rating + " of 5", text: "★".repeat(f.rating) + "☆".repeat(5 - f.rating) }) : null,
         el("span", { text: "#" + f.id + " · " + fmtDate(f.created) + (f.country ? " · " + f.country : "") })),
       el("p", { class: "ad-msg", text: f.message }),
+      f.report && f.report.length ? el("p", { class: "ad-msg ad-ctx", text: f.report.join("\n") }) : null,
       el("div", { class: "ad-report-foot" },
         f.code ? el("span", {}, "Code ", el("code", { text: f.code })) : null,
         f.name ? el("span", { text: f.name + (f.quote_ok ? " (OK to quote)" : "") }) : f.quote_ok ? el("span", { text: "OK to quote" }) : null,
@@ -509,6 +579,7 @@ async function decide(ids, status) {
   renderEdits();
 }
 function renderEdits() {
+  if (edStatus === "new" && !$("elocale").value) badge("n-edits", edits.length);   // the badge counts saved edits
   $("ed-count").textContent = edits.length + (edits.length === 1 ? " edit" : " edits") + (edits.length === 2000 ? " (first 2000)" : "");
   const box = $("ed-list");
   if (!edits.length) { box.replaceChildren(el("p", { class: "ad-empty", text: "Nothing here." })); return; }
@@ -541,6 +612,28 @@ document.querySelectorAll("[data-estatus]").forEach(b => b.addEventListener("cli
 }));
 $("elocale").addEventListener("change", loadEdits);
 
+const ROLES = { voice: u => u.voices, translator: u => u.languages, feedback: u => !u.voices && !u.languages };
+function visibleContributors() {
+  const q = $("cq").value.trim().toLowerCase(), role = ROLES[$("crole").value];
+  return (data.users || []).filter(u => (!role || role(u)) &&
+    (!q || (u.email || "").includes(q) || (u.display_name || "").toLowerCase().includes(q)));
+}
+
+function renderContributors() {
+  const list = visibleContributors();
+  $("co-count").textContent = list.length + (list.length === 1 ? " account" : " accounts");
+  const body = $("co-list");
+  if (!list.length) { body.replaceChildren(el("tr", {}, el("td", { colspan: "6", class: "ad-empty", text: "No accounts here." }))); return; }
+  const plural = (n, word) => n + " " + word + (n === 1 ? "" : "s");
+  body.replaceChildren(...list.map(u => el("tr", {},
+    el("td", {}, u.email ? el("a", { href: "mailto:" + encodeURIComponent(u.email).replace("%40", "@"), text: u.email }) : ""),
+    el("td", { text: u.display_name || "" }),
+    el("td", { text: u.voices || "" }),
+    el("td", { text: u.languages || "" }),
+    el("td", { text: [u.takes && plural(u.takes, "take"), u.edits && plural(u.edits, "edit"), u.feedback && plural(u.feedback, "report")].filter(Boolean).join(" · ") }),
+    el("td", { text: fmtDate(u.created) }))));
+}
+
 function visibleEmails() {
   const q = $("q").value.trim().toLowerCase();
   return data.subscribers.filter(s => !q || s.email.includes(q) || (s.source || "").includes(q));
@@ -569,6 +662,20 @@ async function act(body, onDone) {
   catch (e) { if (e.message !== "unauthorized") alert("That didn't work: " + e.message); }
 }
 
+// Section bar: mark the section whose heading was scrolled past last.
+const navLinks = [...document.querySelectorAll("#nav a")];
+function markSection() {
+  const line = $("nav").getBoundingClientRect().bottom + 24;
+  let current = navLinks[0];
+  for (const a of navLinks) if ($(a.hash.slice(1)).getBoundingClientRect().top <= line) current = a;
+  if (innerHeight + scrollY >= document.documentElement.scrollHeight - 2) current = navLinks[navLinks.length - 1];
+  navLinks.forEach(a => a.setAttribute("aria-current", a === current));
+  // On a narrow screen the bar scrolls sideways: keep the marked link in view (sideways only, never the page).
+  const nav = $("nav"), left = current.offsetLeft - nav.offsetLeft, right = left + current.offsetWidth;
+  if (left < nav.scrollLeft || right > nav.scrollLeft + nav.clientWidth) nav.scrollLeft = left - 16;
+}
+addEventListener("scroll", () => requestAnimationFrame(markSection), { passive: true });
+
 // ---- wiring ----
 $("login-form").addEventListener("submit", e => {
   e.preventDefault();
@@ -596,19 +703,28 @@ document.querySelectorAll("[data-tstatus]").forEach(b => b.addEventListener("cli
   renderTranslations();
 }));
 $("tkind").addEventListener("change", renderTranslations);
-$("copy").addEventListener("click", async () => {
-  const text = visibleEmails().filter(s => !isTest(s)).map(s => s.email).join("\n");
-  try { await navigator.clipboard.writeText(text); $("copy").textContent = "Copied"; }
+$("cq").addEventListener("input", renderContributors);
+$("crole").addEventListener("change", renderContributors);
+
+async function copyAddresses(button, addresses) {
+  const text = addresses.join("\n");
+  try { await navigator.clipboard.writeText(text); button.textContent = "Copied"; }
   catch (e) { prompt("Copy these addresses:", text.replace(/\n/g, ", ")); }
-  setTimeout(() => $("copy").textContent = "Copy addresses", 1500);
-});
-$("csv").addEventListener("click", () => {
+  setTimeout(() => button.textContent = "Copy addresses", 1500);
+}
+function downloadCsv(name, rows) {
   const cell = v => '"' + String(v ?? "").replace(/"/g, '""') + '"';
-  const rows = [["email", "source", "created_at"], ...visibleEmails().filter(s => !isTest(s)).map(s => [s.email, s.source, s.created_at])];
   const blob = new Blob([rows.map(r => r.map(cell).join(",")).join("\n")], { type: "text/csv" });
-  const a = el("a", { href: URL.createObjectURL(blob), download: "loreforever-emails-" + new Date().toISOString().slice(0, 10) + ".csv" });
+  const a = el("a", { href: URL.createObjectURL(blob), download: "loreforever-" + name + "-" + new Date().toISOString().slice(0, 10) + ".csv" });
   document.body.append(a); a.click(); a.remove();
-});
+}
+$("copy").addEventListener("click", () => copyAddresses($("copy"), visibleEmails().filter(s => !isTest(s)).map(s => s.email)));
+$("csv").addEventListener("click", () => downloadCsv("emails",
+  [["email", "source", "created_at"], ...visibleEmails().filter(s => !isTest(s)).map(s => [s.email, s.source, s.created_at])]));
+$("ccopy").addEventListener("click", () => copyAddresses($("ccopy"), visibleContributors().map(u => u.email).filter(Boolean)));
+$("ccsv").addEventListener("click", () => downloadCsv("contributors",
+  [["email", "name", "voices", "languages", "takes", "edits", "feedback", "created"],
+   ...visibleContributors().map(u => [u.email, u.display_name, u.voices, u.languages, u.takes, u.edits, u.feedback, u.created])]));
 
 if (key()) load(); else signOut();
 </script>

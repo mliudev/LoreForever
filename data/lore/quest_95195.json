@@ -1,0 +1,116 @@
+{
+ "key": "quest:95195",
+ "type": "quest",
+ "name": "Bloodied Insignia",
+ "era": "forever",
+ "zone": "ruinsoflordaeron",
+ "meta": {
+  "ids": [
+   95195
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "22"
+ },
+ "summary": "Bloodied Insignias are tragic remnants of the fallen defenders of Lordaeron, scattered among the kingdom's blighted ruins. Bearing the old crests of the Alliance, these battered badges represent soldiers whose families fled south to Stormwind during the Third War.",
+ "sections": [
+  {
+   "title": "Tokens of the Fallen",
+   "body": "When Prince Arthas returned to scour Lordaeron with the Scourge, its grand military was overwhelmed and butchered. Countless soldiers perished defending the Capital City and the surrounding lands, leaving behind few physical traces beyond rusted armor and bloodstained brass. These old Alliance insignias belonged to the men and women who stood their ground against the undead onslaught. Trampled into the soil and rubble of the ruins, each medal is an artifact of the kingdom's final, desperate stand.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Messenger for the Exiles",
+   "body": "Many survivors of Lordaeron fled south across the sea, settling as refugees in Stormwind City. Decades of alliance and kinship tie the two human realms together, leaving many in the south yearning for closure concerning their missing loved ones. General Marcus Jonathan, commander of the Stormwind city guard, takes custody of these bloodied insignias so that the memory of the northern defenders is preserved and their surviving families may finally learn their fate.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Bloodied Insignias?",
+   "aliases": [
+    "bloodied insignia item",
+    "what is this insignia",
+    "insignia lore"
+   ],
+   "answer": "They are military medals worn by soldiers of the Kingdom of Lordaeron who fought and died under the banner of the Alliance during the Third War."
+  },
+  {
+   "q": "Where are these insignias found?",
+   "aliases": [
+    "where do insignias drop",
+    "insignia location",
+    "ruins of lordaeron badges"
+   ],
+   "answer": "They are recovered throughout the Ruins of Lordaeron in Tirisfal Glades, where the kingdom's defenders made their last stand against the Scourge."
+  },
+  {
+   "q": "Why does General Marcus Jonathan want them?",
+   "aliases": [
+    "who is marcus jonathan",
+    "why give them to stormwind",
+    "marcus jonathan insignia"
+   ],
+   "answer": "General Marcus Jonathan oversees defense in Stormwind City, where countless northern refugees now dwell. He gathers these remnants so that the sacrifices of Lordaeron's warriors can be honored and their living relatives in the south can find closure."
+  },
+  {
+   "q": "Why were Lordaeron soldiers wearing Alliance insignias?",
+   "aliases": [
+    "lordaeron alliance crest",
+    "alliance of lordaeron badge"
+   ],
+   "answer": "The original Alliance was forged in Lordaeron under King Terenas Menethil II to defeat the Old Horde. Lordaeron was the heart and leader of the Alliance of Lordaeron throughout the Second and Third Wars."
+  },
+  {
+   "q": "What happened to the soldiers who wore these medals?",
+   "aliases": [
+    "what killed the soldiers",
+    "fate of lordaeron soldiers"
+   ],
+   "answer": "They were killed during the Third War when Prince Arthas Menethil betrayed the realm, assassinated his father, and unleashed the undead Scourge upon the capital."
+  },
+  {
+   "q": "Are there still living relatives of these soldiers?",
+   "aliases": [
+    "lordaeron refugees stormwind",
+    "who misses these soldiers"
+   ],
+   "answer": "Yes. Thousands of citizens and soldiers evacuated Lordaeron during the plague and Scourge invasions, eventually finding sanctuary in the Kingdom of Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of the Alliance, these badges are solemn reminders of the fall of the greatest human kingdom, linking the refugees living in Stormwind with their fallen kin in the north."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Returning these insignias to General Marcus Jonathan serves as an act of duty and remembrance for the soldiers who laid down their lives defending the original Alliance."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Many of the fallen in the capital fought alongside the Knights of the Silver Hand; retrieving their medals honors the holy order's lost brothers and sisters."
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "bloodied insignia",
+  "lordaeron",
+  "marcus jonathan",
+  "refugees",
+  "ruins of lordaeron",
+  "stormwind",
+  "third war"
+ ],
+ "related": [
+  "npc:general-marcus-jonathan",
+  "zone:ruinsoflordaeron",
+  "topic:lordaeron",
+  "zone:stormwind",
+  "topic:stormwind-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "In-game quest text: Bloodied Insignia"
+ ]
+}

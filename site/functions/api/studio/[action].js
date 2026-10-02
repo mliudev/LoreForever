@@ -2,9 +2,14 @@
 //   GET  /api/studio/state?voice=ID     {signedIn, release, voices, voice, takes, limits}; takes are for voice ID (or the first voice)
 //   POST /api/studio/release            {agree, adult, signature, release}: the narrator release, agreed once per account
 //   POST /api/studio/voice              {name, locale}: a new draft voice; {id, name}: rename one
-//   PUT  /api/studio/take?voice=&line=  the file itself as the body; headers X-File-Name and X-Checks (both URI-encoded)
+//   PUT  /api/studio/take?voice=&line=  the file itself as the body (.mp3 or .ogg: the page converts .wav and .flac
+//                                       first); headers X-File-Name and X-Checks (both URI-encoded), X-CRC32 (hex),
+//                                       X-Text-Hash (optional: the text it was recorded against, from a returned
+//                                       test pack; 409 unless it is the line's current text)
 //   POST /api/studio/remove             {voice, line}
 //   GET  /api/studio/audio?voice=&line= plays back your own file (or any file, with the admin key)
+//   GET  /api/studio/pack?voice=ID      your voice as a test pack to unzip into AddOns (or any voice, with the admin
+//                                       key): a zip streamed from R2 (lib/voicepack.js, public/voices/testpack.js)
 //   POST /api/studio/send               {voice, credit, discord, note}: sends the voice for review (a voice_submissions row)
 //   GET  /api/studio/export?voice=ID    admin key: the voice's files and current hashes, for `lore.voicepack studio`
 // Every POST and PUT must come from our own pages (Origin check).
@@ -19,6 +24,10 @@ import {
   LIMITS, sniff, setupStudio, loadLines, lineIndex, r2Key, ownVoice, createVoice, countUpload, storedBytes, cleanChecks,
 } from "../../../lib/studio.js";
 import { RELEASE_VERSION, PER_DAY, setupSubmissions, sentToday, insertSubmission, notify } from "../../../lib/submissions.js";
+import { testPack } from "../../../lib/voicepack.js";
+import { PLAYABLE } from "../../../public/voices/testpack.js";
+import { crcHex } from "../../../public/voices/crc32.js";
+import { perMinute, slowDown } from "../../../lib/ratelimit.js";
 
 const ok = (body = {}) => Response.json({ ok: true, ...body }, { headers: noStore });
 
@@ -30,11 +39,11 @@ async function release(env, user) {
 
 async function takesOf(env, voiceId) {
   const { results } = await env.DB.prepare(
-    "SELECT line_id, file_name, ext, bytes, duration_ms, hash, checks, created FROM studio_takes WHERE voice_id = ?"
+    "SELECT line_id, file_name, ext, bytes, duration_ms, hash, checks, crc32, created FROM studio_takes WHERE voice_id = ?"
   ).bind(voiceId).all();
   return Object.fromEntries(results.map(t => [t.line_id, {
     file_name: t.file_name, ext: t.ext, bytes: t.bytes, duration_ms: t.duration_ms, hash: t.hash,
-    checks: JSON.parse(t.checks || "{}"), created: t.created,
+    checks: JSON.parse(t.checks || "{}"), crc32: t.crc32 || null, created: t.created,
   }]));
 }
 
@@ -73,6 +82,34 @@ async function audio({ request, env }, user) {
   obj.writeHttpMetadata(headers);
   headers.set("Content-Length", String(obj.size));
   return new Response(obj.body, { headers });
+}
+
+async function pack({ request, env }, user) {
+  const admin = await authorized(request, env);
+  if (!user && !admin) return fail(401, "You're signed out. Please sign in again.");
+  const id = new URL(request.url).searchParams.get("voice") || "";
+  const voice = await env.DB.prepare("SELECT id, owner, name, locale FROM voices WHERE id = ?").bind(id).first();
+  if (!voice || !voice.locale || (!admin && voice.owner !== user.id)) return fail(404, "That isn't one of your voices.");
+  const { results: takes } = await env.DB.prepare(
+    "SELECT line_id, r2_key, ext, hash, crc32, created FROM studio_takes WHERE voice_id = ?"
+  ).bind(voice.id).all();
+  const saveCrc = (t, crc) => env.DB.prepare("UPDATE studio_takes SET crc32 = ? WHERE voice_id = ? AND line_id = ? AND r2_key = ?")
+    .bind(crcHex(crc), voice.id, t.line_id, t.r2_key).run();
+  const built = await testPack({ voice, takes, index: lineIndex(await loadLines(env, request)), bucket: env.STUDIO, saveCrc });
+  if (!built) return fail(404, "None of your recordings can go in a test pack yet. Upload a line first.");
+  let body = built.stream;
+  if (typeof FixedLengthStream === "function") {   // Workers: send Content-Length, so the download shows its progress
+    const fixed = new FixedLengthStream(built.length);
+    built.stream.pipeTo(fixed.writable).catch(() => {});
+    body = fixed.readable;
+  }
+  return new Response(body, { headers: {
+    "Content-Type": "application/zip",
+    "Content-Disposition": `attachment; filename="${built.folder}.zip"`,
+    "Content-Length": String(built.length),
+    "Cache-Control": "private, no-store",
+    "X-Pack-Lines": String(built.lines),
+  } });
 }
 
 async function exportVoice({ request, env }) {
@@ -134,6 +171,9 @@ async function take(context, user) {
   const line = lineIndex(await loadLines(env, request))[lineId];
   const hash = line?.hash[v.locale];
   if (!hash) return fail(400, "That line has no text in this voice's language yet.");
+  const recorded = (request.headers.get("X-Text-Hash") || "").toLowerCase();
+  if (recorded && recorded !== hash) return fail(409, "This recording is of older text: we reworded the line since. Record the new text.");
+  if (!(await perMinute(env, user.id, "studio-take", LIMITS.uploadsPerMinute))) return slowDown();
   const size = Number(request.headers.get("Content-Length") || 0);
   if (size > LIMITS.bytes) return fail(413, `That file is over ${LIMITS.bytes / 1024 / 1024} MB. Export it as .mp3 or .ogg to make it smaller.`);
   const body = await request.arrayBuffer();
@@ -141,6 +181,10 @@ async function take(context, user) {
   if (body.byteLength > LIMITS.bytes) return fail(413, `That file is over ${LIMITS.bytes / 1024 / 1024} MB. Export it as .mp3 or .ogg to make it smaller.`);
   const kind = sniff(body);
   if (!kind) return fail(415, "We take .mp3, .ogg, .wav or .flac files. Export the recording in one of those.");
+  if (!PLAYABLE.includes(kind.ext)) {   // the game plays .mp3 and .ogg only; the page converts the rest before upload
+    return fail(415, "Reload this page and upload the file again: the page now turns .wav and .flac into .mp3 first.");
+  }
+  const crc = (request.headers.get("X-CRC32") || "").toLowerCase();
   if ((await storedBytes(env, user, v.id, lineId)) + body.byteLength > LIMITS.accountBytes) {
     return fail(413, "Your account is out of space for recordings. Remove some files, or ask us on Discord.");
   }
@@ -158,15 +202,16 @@ async function take(context, user) {
   const now = new Date().toISOString();
   await env.DB.batch([
     env.DB.prepare(
-      "INSERT INTO studio_takes (voice_id, line_id, owner, r2_key, file_name, ext, bytes, duration_ms, hash, checks, created) " +
-      "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) ON CONFLICT (voice_id, line_id) DO UPDATE SET r2_key = excluded.r2_key, " +
+      "INSERT INTO studio_takes (voice_id, line_id, owner, r2_key, file_name, ext, bytes, duration_ms, hash, checks, crc32, created) " +
+      "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) ON CONFLICT (voice_id, line_id) DO UPDATE SET r2_key = excluded.r2_key, " +
       "file_name = excluded.file_name, ext = excluded.ext, bytes = excluded.bytes, duration_ms = excluded.duration_ms, " +
-      "hash = excluded.hash, checks = excluded.checks, created = excluded.created"
-    ).bind(v.id, lineId, user.id, key, clean(fileName, 120) || null, kind.ext, body.byteLength, duration, hash, checks, now),
+      "hash = excluded.hash, checks = excluded.checks, crc32 = excluded.crc32, created = excluded.created"
+    ).bind(v.id, lineId, user.id, key, clean(fileName, 120) || null, kind.ext, body.byteLength, duration, hash, checks,
+           /^[0-9a-f]{8}$/.test(crc) ? crc : null, now),
     env.DB.prepare("UPDATE voices SET updated = ? WHERE id = ?").bind(now, v.id),
   ]);
   return ok({ take: { file_name: clean(fileName, 120) || null, ext: kind.ext, bytes: body.byteLength, duration_ms: duration,
-                      hash, checks: JSON.parse(checks), created: now } });
+                      hash, checks: JSON.parse(checks), crc32: /^[0-9a-f]{8}$/.test(crc) ? crc : null, created: now } });
 }
 
 async function remove({ env }, user, input) {
@@ -224,6 +269,7 @@ export async function onRequest(context) {
     if (action === "state") return state(context, user);
     if (action === "audio") return audio(context, user);
     if (action === "export") return exportVoice(context);
+    if (action === "pack") return pack(context, user);
     return fail(404, "Not found.");
   }
   if (!sameOrigin(request)) return fail(403, "Please use the upload page on loreforeverwow.com.");

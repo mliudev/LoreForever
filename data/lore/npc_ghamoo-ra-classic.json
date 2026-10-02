@@ -46,7 +46,7 @@
     "tame ghamoo-ra",
     "can hunter tame bfd turtle"
    ],
-   "answer": "Yes, skilled hunters entering Blackfathom Deeps can tame Ghamoo-ra, redeeming the tormented ancient beast and freeing him from the cult's dark influence."
+   "answer": "No. Ghamoo-ra is an elite boss of Blackfathom Deeps and cannot be tamed."
   },
   {
    "q": "What is the Pool of Ask'ar?",
@@ -76,7 +76,7 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Ghamoo-ra is highly sought after by hunters venturing into Blackfathom Deeps, both for his sturdy defense and the chance to release a noble, ancient beast from dark captivity."
+   "text": "Hunters venturing into Blackfathom Deeps may pity Ghamoo-ra, a noble, ancient beast broken by dark captivity, though he cannot be tamed."
   },
   {
    "target": "race:NightElf",

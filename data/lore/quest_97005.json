@@ -1,0 +1,112 @@
+{
+ "key": "quest:97005",
+ "type": "quest",
+ "name": "Chol'aruk the Ravener",
+ "era": "forever",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   97005
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "21"
+ },
+ "summary": "Chol'aruk the Ravener is a feared monstrous abomination lurking in a cave on Thorn Hill within the Barrens. The local Razormane call it Chol'aruk or 'The Ravener,' and rumors claim the creature is large enough to swallow an orc whole. Bainham seeks its severed head to avenge comrades lost to similar horrors.",
+ "sections": [
+  {
+   "title": "Terror of Thorn Hill",
+   "body": "Northwest of where Bainham waits in the Barrens sits the plateau known as Thorn Hill, long contested by the native Razormane tribes. Recently, whispered rumors have spoken of a terrifying presence entrenched inside one of its caves: a monstrous abomination the Razormane call Chol'aruk, or 'The Ravener.' Though many travelers dismiss accounts of a beast capable of swallowing an armored orc in a single gulp as campfire tall tales, those who have witnessed the carnage firsthand know the threat is all too real.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Grudge Repaid",
+   "body": "For Bainham, the existence of Chol'aruk is far from a myth. Having tangled with kindred horrors in the past, he bears personal scars and mourns comrades fallen to such beasts. Knowing the danger a ravenous abomination poses to all who roam the Savannah, he tasks seasoned champions to scale the plateau, breach its subterranean lair, and slay Chol'aruk to claim its massive head.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What kind of creature is Chol'aruk?",
+   "aliases": [
+    "what is cholaruk",
+    "cholaruk monster type",
+    "who is the ravener"
+   ],
+   "answer": "Chol'aruk is described as a monstrous abomination lurking within a cave on Thorn Hill. It is reportedly so gargantuan that it can swallow a grown orc whole, earning it the terrifying title of 'The Ravener' among the local Razormane."
+  },
+  {
+   "q": "Where is Chol'aruk's lair located?",
+   "aliases": [
+    "where is cholaruk",
+    "cholaruk location",
+    "thorn hill cave"
+   ],
+   "answer": "Chol'aruk makes its lair inside a cave on the high plateau of Thorn Hill, located to the northwest in the Barrens."
+  },
+  {
+   "q": "Who is Bainham and why does he want Chol'aruk dead?",
+   "aliases": [
+    "who gives cholaruk quest",
+    "why kill cholaruk",
+    "bainham lore"
+   ],
+   "answer": "Bainham, found in the Barrens, has personal history fighting such beasts. Having lost allies to similar abominations in the past, he seeks Chol'aruk's demise out of honor and vengeance for his fallen comrades."
+  },
+  {
+   "q": "What does 'The Ravener' mean?",
+   "aliases": [
+    "meaning of cholaruk",
+    "why called ravener",
+    "razormane cholaruk"
+   ],
+   "answer": "The local Razormane quilboar gave Chol'aruk that name to reflect its insatiable, gluttonous nature, as rumors claim it devours full-grown warriors whole without hesitation."
+  },
+  {
+   "q": "Do the Razormane quilboar worship or fear Chol'aruk?",
+   "aliases": [
+    "do quilboar like cholaruk",
+    "razormane and cholaruk"
+   ],
+   "answer": "That isn't known yet. The Razormane call the creature Chol'aruk or 'The Ravener,' but the quest doesn't say whether they fear or worship the monstrous abomination lairing in a cave on Thorn Hill."
+  },
+  {
+   "q": "What proof is required to confirm Chol'aruk's death?",
+   "aliases": [
+    "cholaruk quest turn in",
+    "what do i bring bainham"
+   ],
+   "answer": "Bainham asks that you return with the severed head of Chol'aruk as undeniable proof that the abomination has been eradicated."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Monsters roaming unchecked along the high plateaus threaten travelers and caravans threading their way through the Barrens, making the beast's eradication a matter of regional security."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Facing a legendary apex predator rumored to swallow fully armored warriors whole is the ultimate test of a tracker's prowess and nerve."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Bainham's plea appeals directly to a warrior's creed: avenging fallen comrades by confronting a towering horror head-on in its subterranean lair."
+  }
+ ],
+ "keywords": [
+  "abomination",
+  "bainham",
+  "barrens",
+  "chol'aruk",
+  "razormane",
+  "the ravener",
+  "thorn hill"
+ ],
+ "related": [
+  "subzone:thorn-hill",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "In-game quest text: Chol'aruk the Ravener"
+ ]
+}

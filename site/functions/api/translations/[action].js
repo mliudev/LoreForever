@@ -8,8 +8,12 @@
 //   GET  /api/translations/me                  {user, languages, stats: {locale: {new, accepted, rejected, pulled}}}
 //   GET  /api/translations/edits?locale=deDE   your edits in that language: [{string_id, text, status, updated}]
 //   GET  /api/translations/reports?locale=deDE open bad-translation reports for that language (no names or emails)
+//   GET  /api/translations/pack?locale=deDE    your test pack: a zip of LoreForever_LangTest_deDE/ with your saved
+//                                              edits that aren't pulled or rejected (lib/langtest.js); headers
+//                                              X-Strings-Included and X-Strings-Stale count them
 //   POST /api/translations/languages  {languages: ["deDE", ...]}
 //   POST /api/translations/save       {locale, id, en, text}: saves your edit of one string (empty text withdraws it)
+//   POST /api/translations/import     {locale, edits: [{id, en, text}]}: an uploaded kit, up to 200 strings a call
 // Admin key (lib/auth.js), for /admin and lore.kit:
 //   GET  /api/translations/review?status=new&locale=deDE   recent edits (new = saved, not pulled yet), with who made them
 //   POST /api/translations/decide     {ids: [...], status: "rejected" | "new"}: reject spam, or restore
@@ -20,13 +24,17 @@
 import { authorized } from "../../../lib/auth.js";
 import { setup, currentUser, fail, noStore, sameOrigin } from "../../../lib/accounts.js";
 import { LOCALE } from "../../../lib/translations.js";
+import { folderName, packZip, sectionsFor, selectEdits } from "../../../lib/langtest.js";
 import { problem } from "../../../public/translate/check.js";
+import { perMinute, slowDown } from "../../../lib/ratelimit.js";
 
 const ok = (body = {}) => Response.json({ ok: true, ...body }, { headers: noStore });
 
 const ID = /^(ui\/[0-9a-f]{10}|[a-z]+:[a-z0-9-]+\/[A-Za-z0-9:\/_-]{1,120})$/;
 const PER_DAY = 5000;   // edits one translator can save in a day
 const MAX_TEXT = 20000;
+const IMPORT_BATCH = 200;        // strings per POST import (an uploaded kit)
+const IMPORTS_PER_MINUTE = 20;   // import calls per person per minute (lib/ratelimit.js)
 
 function localeParam(request) {
   const locale = new URL(request.url).searchParams.get("locale") || "";
@@ -79,6 +87,54 @@ async function reports({ env, request }) {
   }
 }
 
+const SECTION = /^(ui|[a-z]+_\d{2})$/;
+async function asset(env, request, path) {
+  try {
+    const res = await env.ASSETS.fetch(new URL(path, request.url));
+    return res.ok ? await res.json() : null;
+  } catch (e) {
+    return null;
+  }
+}
+
+// Your test pack: your edits in that language that are still waiting for the next update (new or accepted), each
+// against today's English. Same folder name every time, so a new download unzips over the old one.
+async function pack({ env, request }, user) {
+  const locale = localeParam(request);
+  if (!locale) return fail(400, "Pick a language.");
+  const { results } = await env.DB.prepare(
+    "SELECT id, string_id, en, text, updated FROM translation_edits WHERE user_id = ? AND locale = ? AND status IN ('new', 'accepted') ORDER BY id"
+  ).bind(user.id, locale).all();
+  if (!results.length) return fail(404, "You have no saved edits in this language waiting for the next update.");
+  const fp = await asset(env, request, "/translate/fp.json");
+  if (!fp || !fp.entries) return fail(503, "Test packs aren't ready yet. Please try again later.");
+  const english = {};
+  const sections = await Promise.all(sectionsFor(results, fp).filter(s => SECTION.test(s))
+    .map(sid => asset(env, request, `/translate/data/en/${sid}.json`)));
+  for (const data of sections) {
+    for (const [id, en] of (data && data.strings) || []) english[id] = en;
+  }
+  const selected = selectEdits(results, english, fp);
+  if (!selected.included) {
+    return fail(409, `The English changed for all ${selected.stale} of your edits since you saved them, so none can be used. Translate them again first.`);
+  }
+  const lang = (fp.languages || {})[locale] || {};
+  const now = new Date();
+  const body = packZip(selected, {
+    locale, english: fp.english, interface: fp.interface, languageName: lang.name, ttsVoices: lang.ttsVoices,
+    built: now.toISOString().slice(0, 16).replace("T", " ") + " UTC",
+  }, now);
+  return new Response(body, {
+    headers: {
+      ...noStore,
+      "Content-Type": "application/zip",
+      "Content-Disposition": `attachment; filename="${folderName(locale)}.zip"`,
+      "X-Strings-Included": String(selected.included),
+      "X-Strings-Stale": String(selected.stale),
+    },
+  });
+}
+
 async function languages({ env }, input, user) {
   const wanted = [...new Set((Array.isArray(input.languages) ? input.languages : []).map(String))]
     .filter(l => LOCALE.test(l)).slice(0, 12);
@@ -126,6 +182,58 @@ async function save({ env }, input, user) {
   return ok({ status: "new", updated: now });
 }
 
+// A kit uploaded on the dashboard (LOR-121, public/js/bulk-upload.js): up to IMPORT_BATCH strings per call, each
+// checked like save and saved like save (status new; it replaces your edit of that string that's still waiting).
+// New strings count against PER_DAY. The page has already left out empty strings, strings whose English changed since
+// the kit was made, and strings equal to the current text (kit.py apply_strings' rule), and lore.kit pull checks the
+// English again. Returns {saved, results: [{id, error?, capped?}], capped}: capped when PER_DAY stopped some.
+async function importEdits({ env }, input, user) {
+  const locale = String(input.locale || "");
+  if (!LOCALE.test(locale)) return fail(400, "Pick a language.");
+  const list = Array.isArray(input.edits) ? input.edits : [];
+  if (!list.length || list.length > IMPORT_BATCH) return fail(400, `Send 1 to ${IMPORT_BATCH} strings at a time.`);
+  if (!(await perMinute(env, user.id, "translation-import", IMPORTS_PER_MINUTE))) return slowDown();
+
+  const edits = new Map();   // the last of each id wins
+  for (const e of list) {
+    const id = String(e?.id || "");
+    edits.set(id, { id, en: typeof e?.en === "string" ? e.en : "", text: String(e?.text ?? "").replace(/\r\n?/g, "\n").trim() });
+  }
+  const { results: waiting } = await env.DB.prepare(
+    "SELECT id, string_id FROM translation_edits WHERE user_id = ? AND locale = ? AND status IN ('new', 'accepted') ORDER BY id"
+  ).bind(user.id, locale).all();
+  const mine = new Map(waiting.map(r => [r.string_id, r.id]));   // ordered by id, so the latest wins
+  const now = new Date().toISOString();
+  let today = await env.DB.prepare("SELECT COUNT(*) AS n FROM translation_edits WHERE user_id = ? AND created >= ?")
+    .bind(user.id, now.slice(0, 10)).first("n");
+  const writes = [], results = [];
+  let capped = false, added = 0;
+  for (const { id, en, text } of edits.values()) {
+    let why = null;
+    if (!ID.test(id) || !en || en.length > MAX_TEXT) why = "That string isn't one of ours.";
+    else if (!text) why = "Empty.";
+    else if (text.length > MAX_TEXT) why = "That's too long to save.";
+    else why = problem(id, en, text);
+    if (why) { results.push({ id, error: why }); continue; }
+    if (mine.has(id)) {
+      writes.push(env.DB.prepare("UPDATE translation_edits SET text = ?, en = ?, updated = ?, status = 'new' WHERE id = ?")
+        .bind(text, en, now, mine.get(id)));
+    } else {
+      if (today >= PER_DAY) { capped = true; results.push({ id, error: "That's a lot of edits for one day. Please carry on tomorrow.", capped: true }); continue; }
+      today++;
+      added++;
+      writes.push(env.DB.prepare("INSERT INTO translation_edits (user_id, locale, string_id, en, text, created, updated) VALUES (?, ?, ?, ?, ?, ?, ?)")
+        .bind(user.id, locale, id, en, text, now, now));
+    }
+    results.push({ id });
+  }
+  if (added) {
+    writes.push(env.DB.prepare("INSERT OR IGNORE INTO translator_languages (user_id, locale, created) VALUES (?, ?, ?)").bind(user.id, locale, now));
+  }
+  if (writes.length) await env.DB.batch(writes);
+  return ok({ saved: results.filter(r => !r.error).length, results, capped, updated: now });
+}
+
 // ---- admin ----
 
 const idList = input => (Array.isArray(input.ids) ? input.ids : []).map(n => Number.parseInt(n, 10)).filter(n => n > 0).slice(0, 5000);
@@ -171,8 +279,8 @@ async function pulled({ env }, input) {
   return ok({ updated: ids.length });
 }
 
-const USER_GETS = { edits, reports };
-const USER_POSTS = { languages, save };
+const USER_GETS = { edits, reports, pack };
+const USER_POSTS = { languages, save, import: importEdits };
 const ADMIN_GETS = { review, export: exportAccepted };
 const ADMIN_POSTS = { decide, pulled };
 

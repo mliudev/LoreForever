@@ -220,6 +220,8 @@ Engine.NAME_SHARE_FULL = 0.5
 -- The FAQ that answers a situational question ("why does he want this?") scores x1.3 plus this. Vague questions score
 -- under ~25, so this decides them; a question that names something else scores far higher and goes by its words.
 Engine.INTENT_BONUS = 12
+-- An entry named like one in the player's zone ("Canals" in the Undercity, asked in Stormwind) scores x this.
+Engine.ELSEWHERE = 0.5
 
 local function enc(n, width)
   local t = {}
@@ -288,6 +290,22 @@ function Engine.new(db)
   self.search, self.post, self.N, self.avgLen = s, s.post, s.N, s.avgLen
   for i, k in ipairs(s.keys) do self.keyId[k] = i end
   for key, e in pairs(db.entries) do self:IndexNames(key, e) end
+  -- Entries that share their name with one in another zone ("Canals (Stormwind City)", "Canals (Undercity)"), so Ask
+  -- can tell them apart by zone. Zones themselves are left out: the city Undercity isn't a namesake of its entrance.
+  local groups, groupOf = {}, {}
+  for key, e in pairs(db.entries) do
+    if e.z and e.t ~= "zone" and e.t ~= "city" and e.t ~= "dungeon" then
+      local name = Engine.lower((e.n:gsub("%b()", ""))):match("^%s*(.-)%s*$")
+      local g = groups[name]
+      if not g then g = { name = name, zones = {}, n = 0 }; groups[name] = g end
+      if not g.zones[e.z] then g.zones[e.z], g.n = true, g.n + 1 end
+      groupOf[key] = g
+    end
+  end
+  self.namesakes = {}
+  for key, g in pairs(groupOf) do
+    if g.n > 1 then self.namesakes[key] = g end
+  end
   -- Quests by giver, for "why does this guy want me to do this?" before the quest is in the log.
   self.giverQuests = {}
   for key, e in pairs(db.entries) do
@@ -407,6 +425,22 @@ function Engine:ZoneKey(zoneName)
   return zoneName and self.db.index.zone and self.db.index.zone[Engine.lower(zoneName)] or nil
 end
 
+-- Zones a question names by their in-game names or short forms ("stormwind", "the barrens"): {name, zone key} each.
+function Engine:ZonesNamed(raw)
+  if not self.zoneNames then
+    self.zoneNames = {}
+    for name, z in pairs(self.db.index.zone or {}) do
+      local _, w = tokenize(name)
+      self.zoneNames[#self.zoneNames + 1] = { " " .. table.concat(w, " ") .. " ", z }
+    end
+  end
+  local s, out = " " .. table.concat(raw, " ") .. " ", {}
+  for _, zn in ipairs(self.zoneNames) do
+    if s:find(zn[1], 1, true) then out[#out + 1] = zn end
+  end
+  return out
+end
+
 -- Entries relevant to the player's current situation, most specific first.
 function Engine:ContextKeys(ctx)
   local db, keys, seen = self.db, {}, {}
@@ -442,10 +476,54 @@ function Engine:ContextKeys(ctx)
     end
   end
   local n = #keys
+  -- Your journey (LOR-129): people you met this session, and quests you've finished in this zone. Their related
+  -- entries aren't pulled in.
+  for _, name in ipairs(ctx.met or {}) do
+    local k, how = self:KeyForName(name)
+    if how == "exact" then add(k, 0.5) end
+  end
+  if zk and ctx.done then
+    for _, k in ipairs(self:ZoneQuests(zk)) do
+      if self:Finished(k, ctx.done) then add(k, 0.4) end
+    end
+  end
   for i = 1, n do
     for _, r in ipairs(db.entries[keys[i]].rel or {}) do add(r, 0.3) end
   end
   return keys, seen
+end
+
+-- Quest entries set in zone `zk`, in key order (built once per zone).
+function Engine:ZoneQuests(zk)
+  self.zoneQuests = self.zoneQuests or {}
+  local list = self.zoneQuests[zk]
+  if not list then
+    list = {}
+    for key, e in pairs(self.db.entries) do
+      if e.t == "quest" and e.z == zk then list[#list + 1] = key end
+    end
+    table.sort(list)
+    self.zoneQuests[zk] = list
+  end
+  return list
+end
+
+-- Whether the character has finished quest entry `key`: one of its quest IDs (a quest can have one per faction) is
+-- in `done`, the set of completed quest IDs (ctx.done).
+function Engine:Finished(key, done)
+  local e = done and key and self.db.entries[key]
+  if not (e and e.t == "quest") then return false end
+  if not self.questIds then
+    self.questIds = {}
+    for id, k in pairs(self.db.index.quest or {}) do
+      self.questIds[k] = self.questIds[k] or {}
+      table.insert(self.questIds[k], id)
+    end
+  end
+  for _, id in ipairs(self.questIds[key] or {}) do
+    if done[id] then return true end
+  end
+  return false
 end
 
 -- Replace unknown words with the closest entity-name word ("vancleaf" -> "vancleef").
@@ -507,12 +585,12 @@ local function forRace(f, race)
 end
 
 -- Index of the first FAQ tagged with one of `intents` (in that order), the player's own race's version first,
--- skipping spoilers and gameplay filler.
-local function taggedFaq(e, intents, race)
+-- skipping gameplay filler and spoilers (unless `open`: a quest you've finished).
+local function taggedFaq(e, intents, race, open)
   for _, it in ipairs(intents) do
     local generic
     for i, f in ipairs(e.faq or {}) do
-      if f.it == it and not f.sp and not f.gp and forRace(f, race) then
+      if f.it == it and (open or not f.sp) and not f.gp and forRace(f, race) then
         if f.rc then return i end
         generic = generic or i
       end
@@ -538,7 +616,7 @@ function Engine:IntentTarget(intent, scope, ctx, raw, namedKey)
     end
     local e = k and db.entries[k]
     -- The subject's own answer, else its overview ("who leads them?" about a creature whose leader isn't known).
-    if e then return k, taggedFaq(e, intents, ctx.race) or 0 end
+    if e then return k, taggedFaq(e, intents, ctx.race, self:Finished(k, ctx.done)) or 0 end
     -- A target with no entry of its own (a young wolf): the question is still about it, so Ask searches by its name
     -- rather than answering about the place.
     if not e and scope == "subject" and not namedKey and ctx.targetName then return nil end
@@ -549,7 +627,7 @@ function Engine:IntentTarget(intent, scope, ctx, raw, namedKey)
   if scope == "place" then
     -- "Where does the name Defias come from?" is about the Defias, not the place the player stands in.
     local named = namedKey and db.entries[namedKey]
-    local ni = named and taggedFaq(named, intents, ctx.race)
+    local ni = named and taggedFaq(named, intents, ctx.race, self:Finished(namedKey, ctx.done))
     if ni then return namedKey, ni end
     for _, k in ipairs(keys) do
       local t = db.entries[k].t
@@ -596,7 +674,7 @@ function Engine:IntentTarget(intent, scope, ctx, raw, namedKey)
     return a < b2
   end)
   for _, k in ipairs(cands) do
-    local i = taggedFaq(db.entries[k], intents, ctx.race)
+    local i = taggedFaq(db.entries[k], intents, ctx.race, self:Finished(k, ctx.done))
     if i then return k, i end
   end
 end
@@ -635,6 +713,36 @@ function Engine:Ask(question, ctx, limit)
       end
     end
   end
+  -- A name shared by entries in several zones ("Canals" in Stormwind and the Undercity), spelled out in the question:
+  -- when the question also names one of their zones ("the canals of Stormwind"), the others are out; otherwise the
+  -- player's own zone's comes first. A zone named in the shared name itself ("Messenger to Stormwind") doesn't count.
+  -- The one the zone picks is then as good as pointed at by the player's situation (zonePicked), so the type prior
+  -- doesn't hold it back.
+  local here, zonesNamed, zoneFactor, zonePicked = ctx and self:ZoneKey(ctx.zone), nil, {}, {}
+  local function inZone(key)
+    local g = self.namesakes[key]
+    if not g or (titled[key] or 0) < 0.99 then return 1 end
+    if zoneFactor[key] then return zoneFactor[key] end
+    zonesNamed = zonesNamed or self:ZonesNamed(raw)
+    if not g.words then
+      local _, w = tokenize(g.name)
+      g.words = " " .. table.concat(w, " ") .. " "
+    end
+    local z, asked, other = self.db.entries[key].z, false, false
+    for _, zn in ipairs(zonesNamed) do
+      if g.zones[zn[2]] and not g.words:find(zn[1], 1, true) then
+        if zn[2] == z then asked = true else other = true end
+      end
+    end
+    local f = 1
+    if other and not asked then
+      f = 0
+    elseif not asked and here and here ~= z and g.zones[here] then
+      f = self.ELSEWHERE
+    end
+    zoneFactor[key], zonePicked[key] = f, asked or (not other and here == z)
+    return f
+  end
   local mentionsPronoun, mentionsPerson, namesAnything = false, false, next(named) ~= nil
   local asksType = {}   -- "the Kobold Candles quest": don't hold quests back
   for _, w in ipairs(raw) do
@@ -651,7 +759,9 @@ function Engine:Ask(question, ctx, limit)
     local namedKey, best = nil, 0
     for k, v in pairs(titled) do
       local w = titledIdf[k] or 0
-      if v >= 0.99 and (w > best or (w == best and namedKey and k < namedKey)) then namedKey, best = k, w end
+      if v >= 0.99 and inZone(k) == 1 and (w > best or (w == best and namedKey and k < namedKey)) then
+        namedKey, best = k, w
+      end
     end
     local k, i = self:IntentTarget(intent, scope, ctx, raw, namedKey)
     if k then intentKey, intentDoc = k, self:EntryDocs(k) + i end   -- the entry's docs: summary, then each FAQ
@@ -723,15 +833,16 @@ function Engine:Ask(question, ctx, limit)
     elseif intentDoc and kind == 1 and self.db.entries[key].faq[idx].gp then
       s = s * 0.5   -- asked why, not where: gameplay filler ("where are cactus apples found?") steps back
     end
+    local zf = inZone(key)
     if key == followKey then
       s = s + 3
-    elseif not ctxWeight[key] then
+    elseif not ctxWeight[key] and not zonePicked[key] then
       -- Nothing in the player's situation points here: prefer the broad entries (topics, zones, major NPCs) that
       -- general questions are usually about over the thousands of subzones and one-off quests.
       local t = self.db.entries[key].t
       if not asksType[t] then s = s * (self.TYPE_PRIOR[t] or 1) end
     end
-    scored[#scored + 1] = { di = di, key = key, kind = kind, idx = idx, score = s }
+    if zf > 0 then scored[#scored + 1] = { di = di, key = key, kind = kind, idx = idx, score = s * zf } end
   end
   table.sort(scored, function(a, b2)
     if a.score ~= b2.score then return a.score > b2.score end
@@ -798,7 +909,8 @@ function Engine:Complete(text, ctx, limit)
   for _, r in ipairs(ranked) do
     local f = self.db.entries[r.key].faq[r.idx]
     local q = f.q
-    if not seenQ[q] and not f.sp then   -- never suggest a spoiler answer
+    -- Never suggest a spoiler answer, unless it's about a quest you've finished.
+    if not seenQ[q] and (not f.sp or self:Finished(r.key, ctx and ctx.done)) then
       seenQ[q] = true
       out[#out + 1] = { key = r.key, idx = r.idx, q = q, name = self.db.entries[r.key].n, score = r.score }
       if #out >= limit then break end
@@ -839,8 +951,9 @@ function Engine:Mentions(text, exclude)
   return out
 end
 
--- "Ask next" questions after showing entry `key` (FAQ `idx`, or the overview when idx is nil).
-function Engine:FollowUps(key, idx, limit)
+-- "Ask next" questions after showing entry `key` (FAQ `idx`, or the overview when idx is nil). `done`: the
+-- character's completed quest IDs (ctx.done), whose own spoiler answers can be offered.
+function Engine:FollowUps(key, idx, limit, done)
   limit = limit or 3
   local e = self.db.entries[key]
   if not e then return {} end
@@ -849,13 +962,14 @@ function Engine:FollowUps(key, idx, limit)
   local function push(k, i)
     local q = self.db.entries[k] and self.db.entries[k].faq and self.db.entries[k].faq[i]
     local id = k .. ":" .. i
-    if q and not q.sp and not q.gp and not used[id] and not self.asked[id] and #out < limit then
+    if q and (not q.sp or self:Finished(k, done)) and not q.gp and not used[id] and not self.asked[id]
+      and #out < limit then
       used[id] = true
       out[#out + 1] = { key = k, idx = i, q = q.q, name = self.db.entries[k].n }
       return true
     end
   end
-  local own = Engine.RankedFaq(e, self.race)
+  local own = Engine.RankedFaq(e, self.race, self:Finished(key, done))
   local function nextOwn()
     for _, i in ipairs(own) do
       if push(key, i) then return end
@@ -867,7 +981,7 @@ function Engine:FollowUps(key, idx, limit)
   nextOwn()
   -- Then people and places the answer itself mentions, then more about this entry.
   for _, k in ipairs(self:Mentions(text, key)) do
-    for _, i in ipairs(Engine.RankedFaq(self.db.entries[k], self.race)) do
+    for _, i in ipairs(Engine.RankedFaq(self.db.entries[k], self.race, self:Finished(k, done))) do
       if push(k, i) then break end
     end
     if #out >= limit then break end
@@ -898,11 +1012,12 @@ function Engine:Angle(key, ctx, rawWords)
 end
 
 -- An entry's FAQ indices in the order to offer them: situational questions first (INTENT_RANK), then the rest in
--- their own order. Spoiler answers, gameplay filler ("where are the wolves?") and other races' answers are left out.
-function Engine.RankedFaq(e, race)
+-- their own order. Spoiler answers (unless `open`: a quest you've finished), gameplay filler ("where are the
+-- wolves?") and other races' answers are left out.
+function Engine.RankedFaq(e, race, open)
   local out, faq = {}, e and e.faq or {}
   for i, f in ipairs(faq) do
-    if not f.sp and not f.gp and forRace(f, race) then out[#out + 1] = i end
+    if (open or not f.sp) and not f.gp and forRace(f, race) then out[#out + 1] = i end
   end
   table.sort(out, function(a, b2)
     local ra, rb = INTENT_RANK[faq[a].it] or 9, INTENT_RANK[faq[b2].it] or 9
@@ -922,7 +1037,7 @@ function Engine:Suggest(ctx, limit)
   for round = 1, 3 do
     for _, key in ipairs(keys) do
       local e = self.db.entries[key]
-      ranked[key] = ranked[key] or Engine.RankedFaq(e, ctx and ctx.race)
+      ranked[key] = ranked[key] or Engine.RankedFaq(e, ctx and ctx.race, self:Finished(key, ctx and ctx.done))
       local list, p = ranked[key], pos[key] or 1
       while list[p] and seen[Engine.lower(e.faq[list[p]].q)] do p = p + 1 end
       if list[p] and #out < limit then

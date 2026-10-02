@@ -14,6 +14,14 @@ That fast-forwards `site-live` to main and Cloudflare deploys it to loreforeverw
 commit to `site-live` (`git push -f origin <sha>:site-live`) or use Rollback on an earlier production deployment in
 the Pages project.
 
+**The develop site** is https://develop.lore-forever.pages.dev: the `develop` branch, a scratch branch on Pages'
+Preview environment (Preview's own D1 `loreforever-preview` and R2 `lore-forever-voices-preview`, so its data is
+disposable). It's the one Preview address in the Google OAuth client, so it's where anything that needs signing in
+gets tested: put a branch there with `scripts/deploy-develop.sh <branch>` (a force push; it says what it replaces).
+Per-PR previews still build and are fine for pages that don't need an account, but sign-in only works on develop,
+and no other preview address should be added to the OAuth client. develop holds one branch at a time: on release
+days the release coordinator hands it out. Never merge develop into anything.
+
 A static landing page and feedback page (`public/`) plus small Cloudflare Pages Functions in `functions/`
 (download counts, sign-ups, stats, click counts and feedback). Hosted on Cloudflare Pages (free).
 `functions/_middleware.js` redirects old addresses once the site has its own domain; see [DOMAIN.md](DOMAIN.md).
@@ -95,8 +103,15 @@ Linked from the landing page's sidebar, footer and Known limits tab, the public 
   field: a reply goes to the account's email, which `GET /api/feedback` and the dashboard show in `email` (joined
   from `users`; older reports keep the email typed on the form). Once an account is deleted its reports stay,
   without an email.
-- **Prefill links:** `/feedback?code=LF-westfall_moonbrook-3&kind=lore` fills in the code and kind. The in-game
-  "report this answer" box (step 3 of the plan) should point here.
+- **Prefill links:** `/feedback?code=...&kind=lore&note=...` fills in the code, the kind and the message.
+- **Report codes from the add-on (LOR-120):** the cross under an answer in the add-on asks why and "Copy report"
+  gives a link to this page with a code like `LF1~0.4.0~w~ta~topic:kobold.f1~45~westfall/sentinel-hill~~65~why_are_...`
+  (at most 120 characters: question, zone/subzone, target, quest ids, entry and FAQ shown, score, reason, add-on
+  version; never the character name). `public/report-code.js` decodes it (format in its header, written by
+  `Log.ReportCode` in `addon/LoreForever/Log.lua`); the page shows players what it carries, the message becomes
+  optional, and `POST /api/feedback` finds the code even in a pasted link or Discord message. The decoded report is
+  stored as JSON in the `report` column, spelled out in the Discord post and on the /admin card, and returned as
+  `report` by `GET /api/feedback`.
 - **Spam:** a hidden honeypot field, the sign-in, and at most 10 reports per account per day. Cloudflare Turnstile is
   optional, see below.
 - **Without JavaScript:** signing in needs JavaScript, so the page shows only a sign-in link and a Discord link.
@@ -166,7 +181,8 @@ voice.
   them. If they delete their account, the voice drops off the site at once (and so do their D1 rows).
 - **Pages setting:** `GOOGLE_CLIENT_ID` (plain variable, Production and Preview; the OAuth web client in the GCP
   project under mike.liu.dev@gmail.com). Its authorized JavaScript origins must include every host that serves
-  `/account` (the domain, `lore-forever.pages.dev`, and any preview you test sign-in on). Without it the account
+  `/account`: the domain, `lore-forever.pages.dev` and the develop site `develop.lore-forever.pages.dev` (test
+  sign-in there, not on per-PR previews; see "The develop site" at the top). Without it the account
   page says sign-in isn't on yet, and **`/voices/submit` and `/feedback` can't take anything**.
 
 ## Volunteer narrators
@@ -213,19 +229,64 @@ own setup; the page only takes files. `public/voices/studio.html` + `studio.js` 
 - **The page:** a "Next line" box with the text to read, pronunciation hints and a target length (words / 2.5 per
   second), then every line grouped like the Narrations tab with a drop slot each (any file name). Filters: search,
   group, suggested voice, missing / needs a look / uploaded / text changed, and "Mine" picks per story (kept in the
-  browser) that the Next box goes through first. A batch upload matches files named as in `clips.csv`, with a "did
-  you mean" for near misses.
+  browser) that the Next box goes through first.
+- **Upload many recordings at once** (LOR-121, `public/js/bulk-upload.js` + `bulk-core.js` + `unzip.js`, shared with
+  the translation dashboard): drop a zip, a folder or files named as in `clips.csv`, or a test pack that comes back.
+  The browser unzips (its own `DecompressionStream`, no library; at most 1,000 files, 1.5 GB unpacked, no entry
+  expanding over 100:1, each entry stopped at its declared size and CRC-checked), runs the same checks and WAV/FLAC
+  conversion as a single upload (`analyze()` in `studio.js`, passed in), and shows a preview before saving: new,
+  replaced, unchanged (same text hash and CRC-32 as the stored take), unknown names (with "did you mean"), recorded
+  against older text, failed checks. Saving PUTs each picked line through `/api/studio/take`, two at a time, with
+  progress; a lost connection or a limit pauses it with **Resume**, and dropping the same files later shows what's
+  saved as unchanged. Lua, TOC and other files are never kept or run: from a returned pack only `Clips.lua`'s
+  `c["<line id>"] = "<hash>"` lines are read, as text, and sent as `X-Text-Hash`, which the server refuses (409)
+  unless it is the line's current text, so a take of older text stays out.
 - **Checks** run in the browser before upload, against the narrator guide: mono, 44.1/48 kHz (from the file header),
   loudness (BS.1770, the same as ffmpeg's ebur128 to 0.1 LU), peaks, silence at each end, and length against the
   text. They're warnings shown on the line; only a silent, unreadable or over-4-minute file is refused. The server
-  refuses anything that isn't MP3, OGG, WAV or FLAC by its first bytes, over 25 MB, or for a line without text in
-  the voice's language.
+  refuses anything that isn't MP3 or OGG by its first bytes, over 25 MB, or for a line without text in the voice's
+  language.
+- **WAV and FLAC become MP3 in the browser** (LOR-119), so R2 only holds files the game plays: mono, 192 kbps,
+  keeping 44.1 or 48 kHz (anything else becomes 44.1 kHz), in `public/voices/mp3.js` (`toMp3(buffer, rate)`, a
+  module other pages can import). The encoder is lamejs 1.2.1, vendored unmodified at
+  `public/voices/vendor/lame.min.js` (LGPL, loaded only when a WAV or FLAC is dropped). WebCodecs can't encode
+  MP3, so it isn't used. The checks run on the original; after converting, the stereo and sample-rate warnings
+  are dropped because the uploaded file meets them. Each upload also sends its CRC-32 (`X-CRC32`, kept in
+  `studio_takes.crc32`) so the test pack can stream files without reading them on the server.
+- **Test pack** (LOR-119): **Download my test pack** under "Hear it in game" lets a narrator hear their uploads in
+  the add-on before sending. `GET /api/studio/pack?voice=<id>` (owner, or the admin key) streams a store-only zip
+  (`lib/zip.js`) of `LoreForever_Voice_Test<Name>/` with the TOC, `Clips.lua` and `Audio/`. `<Name>` comes from
+  the voice id like `lore.voicepack studio`'s pack name, so the folder never changes (re-download, unzip over it,
+  `/reload`) and never collides with our packs or the voice's own published pack. The title is "<voice name>
+  (test pack)" and the version `test-<date of the newest take>`. `lib/voicepack.js` ports `render_toc` and
+  `render_clips` from `pipeline/lore/voicepack.py`; `site/tests/fixtures/` pins both sides to the same bytes, so
+  change the Python first, rerun `uv run python tests/test_voicepack.py --write-fixtures`, then port it. Its
+  `INTERFACE` must match `addon/LoreForever/LoreForever.toc` (a test checks).
+  - **Which lines** (`public/voices/testpack.js`, shared by the page and the Function): takes recorded against the
+    current text in the voice's language. A pack has one format, so if a voice has both MP3 and OGG takes, the
+    format most of its lines use wins (MP3 on a tie) and the page lists the lines left out. Older WAV/FLAC takes
+    from before the conversion count as left out too.
+  - **Memory and CPU:** files go from R2 to the client one chunk at a time with their stored CRC in the header, so
+    the Function holds one chunk and doesn't read the audio. An older upload without a CRC is checksummed on the
+    way (a data descriptor after the file) and its CRC saved for the next download.
+- **Tests:** `node --test 'site/tests/*.test.mjs'` (Node 22.5+; D1 on `node:sqlite`, R2 in memory) runs the test
+  pack end to end through the Function, plus the zip writer against Python's `zipfile`. `bulk-upload.test.mjs` covers
+  the zip reader's limits, the preview's sorting and both uploads (a 55-file voice zip, an edited kit) round-tripping
+  through the test packs. `node site/tests/smoke-bulk-upload.mjs <preview URL>` (with `LF_SESSION`) does the same
+  against a deployed site with 60 of the default voice's files and the site's own deDE kit;
+  `site/tests/smoke-bulk-upload-browser.js` is the same test for a signed-in browser (paste it into the console),
+  so no session cookie has to leave the browser.
+  `site/tests/smoke-test-pack.sh <preview URL>` (with `LF_SESSION` set to a signed-in cookie) uploads two lines to a
+  preview or `wrangler pages dev`, downloads the pack and checks it. `kits.test.mjs` covers the translator kits
+  (Translations, below): upload, the linked kit, `?v=`, the preview redirect, the fallbacks and pruning.
 - **Storage:** R2, bound as **`STUDIO`**: bucket `lore-forever-voices` for Production and `lore-forever-voices-preview`
   for Preview (like D1's `loreforever-preview`, so preview tests never touch real uploads; both created 2026-09-30),
-  at `studio/<user id>/<voice id>/<file stem>.<ext>`, one file per line (a new upload replaces it). D1
+  at `studio/<user id>/<voice id>/<file stem>.<ext>`, one file per line (a new upload replaces it; the translator kits
+  share the bucket under `translate-kits/`, see Translations). D1
   `studio_takes` keeps each file's name, size, checks and the hash of the text it was recorded against: a line
-  reworded later shows "text changed" and stays out of the pack until it's re-recorded. Limits: 400 uploads a day
-  and 1 GB per account. "Delete my account" deletes the files and rows; sent submissions stay, as the release says.
+  reworded later shows "text changed" and stays out of the pack until it's re-recorded. Limits: 400 uploads a day,
+  60 a minute (`lib/ratelimit.js`, D1 `rate_limits`; the page waits out a 429's `retryAfter` and carries on) and
+  1 GB per account. "Delete my account" deletes the files and rows; sent submissions stay, as the release says.
 - **Turning a sent voice into a pack:**
   `cd pipeline && uv run python -m lore.voicepack studio <voice id>` (admin key from `.env`; `--site` for a
   preview) fetches the files through `GET /api/studio/export` and `/api/studio/audio` into `dist/studio/<voice id>/`,
@@ -243,7 +304,7 @@ cards in from `public/translate/languages.json` with the like counts, so they sh
 | Page or file | What it is |
 | --- | --- |
 | `/translate/languages.json` | Coverage per language, written by `cd pipeline && uv run python -m lore.kit site`. Coverage is the share of the English text (by characters, interface and lore) that has text in that language; `reviewed` comes from `data/i18n/<locale>/pack.json`. |
-| `/translate/kits/<locale>.zip` | Translator kits, written by the same command: one per language that has sources in `data/i18n/`, and `new.zip` (English only) for the rest. About 4 MB each; the zips are reproducible, so rerunning without changes leaves git clean. Rerun after the English or a language changes (a release, a merged translation). Served as downloads and excluded from Functions. |
+| `/translate/kits/<locale>.zip` | Translator kits, built by the same command: one per language that has sources in `data/i18n/`, and `new.zip` (English only) for the rest, 5-10 MB each. **Not in git** (each rebuild used to add ~25 MB to its history): `lore.kit site` builds them into `dist/translate-kits/`, writes each one's SHA-256 into `languages.json` (`kitSha256`) and uploads them to R2 (see "Translator kits in R2" below). `functions/translate/kits/[name].js` serves the kit the deployment's own `languages.json` names, so production, previews and rollbacks each match their `/translate/data`. The zips are reproducible, so an unchanged kit keeps its hash and isn't uploaded again. Rerun after the English or a language changes (a release, a merged translation). |
 | `/translate/submit` | The submission form: language, credit, contact, a Drive / Dropbox / OneDrive / GitHub link or pasted fixes, and the CC BY-SA agreement. Sends the translator to `/translate/thanks`. |
 | `/translate#report` | Bad-translation reports: language, entry code or where it was seen, what's wrong, better wording. Links can prefill it: `/translate?lang=deDE&code=npc:hogger#report`. Lands on `/translate/reported` without JavaScript. |
 
@@ -254,6 +315,23 @@ one per language per sender per day). Same protections as the other forms: honey
 JavaScript. Submissions and reports show in the dashboard under Translations (mark done, delete), or with the admin
 key at `GET /api/translations` and `GET /api/translations/report`.
 
+**Translator kits in R2** (`lib/kits.js`): the `STUDIO` bucket, under `translate-kits/<name>/<sha256>.zip`.
+`cd pipeline && uv run python -m lore.kit site` uploads the kits it builds through `PUT /api/translations/kits` on
+loreforeverwow.com, with the admin key from `.env` (`ADMIN_KEY`, else `FEEDBACK_KEY`), skipping kits already there.
+`--no-upload` builds without uploading; `uv run python -m lore.kit upload` uploads later what the checkout's
+`languages.json` links to (it rebuilds a missing zip, and refuses one that doesn't come out with the hash
+`languages.json` names). Kits go to production even from a PR branch: a kit is only served where a `languages.json`
+links to it, so one from an unmerged branch is never offered. Each upload removes uploads of that kit beyond the newest
+10, but never the one production links to. `GET /api/translations/kits` (admin key) lists them.
+
+- **Previews** read the Preview bucket (`lore-forever-voices-preview`), which has no kits (the Preview environment
+  doesn't take the production admin key, so nothing uploads there), and send each download on to
+  `https://loreforeverwow.com/translate/kits/<name>.zip?v=<sha256>`, which serves that exact kit. `wrangler pages dev`
+  does the same; to serve kits locally, run `cd site && npx wrangler pages dev public --r2 STUDIO --binding
+  ADMIN_KEY=local`, then `ADMIN_KEY=local uv run python -m lore.kit upload --site http://localhost:8788`.
+- **A missed upload** never breaks the link: loreforeverwow.com serves the kit its `languages.json` names if it has
+  it, else the newest upload of that name, else a 503 asking to try again shortly. Fix it with `lore.kit upload` from a
+  checkout of what's live.
 - **`TRANSLATIONS_WEBHOOK`** (optional, Pages secret): a Discord webhook URL; each submission and report is posted
   there, never with the email address.
 - **Changing the agreement:** edit the checkbox text in `public/translate/submit.html` and give it a new version
@@ -279,12 +357,20 @@ browser; the kit and `/translate/submit` stay for people who'd rather work offli
 | --- | --- |
 | `/translate/dashboard` | The editor (`public/translate/dashboard.html`, noindex). **Needs work** (the default) gathers, across every section and most-read first: **Not translated**, **Drafts to check** (text nobody has written or checked: entries without `reviewed`, UI strings not in `ui_checked.json`), **Reported by players** (open bad-translation reports, shown above the entry) and **English changed**; the counts come from `translate/data/<locale>/status.json`. **Looks right** on a line (or the whole entry) sends the current text back unchanged, which `lore.kit pull` counts as a person checking it (the entry gets `reviewed`, the UI string goes into `data/i18n/<locale>/ui_checked.json`). **Browse by section** shows everything with filters (to do, has text, my edits, all) and search. English on the left, your text on the right, saved about a second after you stop typing. Signed out, it links to `/account?next=/translate/dashboard`. Links: `?lang=deDE&cat=draft`, or `?lang=deDE&section=zones_01&q=npc:hogger` for Browse. |
 | `/translate/data/` | The editor's text, written by `lore.kit site`: `en/index.json` (sections), `en/<section>.json` (entry names and `[id, English]` pairs, at most ~700 KB) and `en/entries.json` (every entry and its section, in Needs-work order), `<locale>/<section>.json` (`{id: text}` for the strings that have text) and `<locale>/status.json` (what still needs a person). Excluded from Functions. |
+| `/translate/fp.json` | For test packs (LOR-119), written by `lore.kit site`: `{english, interface, version, languages: {locale: {name, ttsVoices}}, entries: {key: [fp, section]}}`, where fp is the English entry's `Lang.Fingerprint` and section the `en/<section>.json` holding its current English. Excluded from Functions. |
+| `GET /api/translations/pack?locale=` | **Download my test pack** on the dashboard (and `/translate#in-game`): a zip of `LoreForever_LangTest_<locale>/` (same folder every time) with the signed-in translator's edits that are `new`/`accepted` (not withdrawn, rejected or pulled), latest per string. An edit whose saved English differs from today's (`en/<section>.json`) is stale and left out; headers `X-Strings-Included` / `X-Strings-Stale` give the counts. Built by `lib/langtest.js` (TOC + `UI.lua` + `Strings_N.lua`, kind `lang-overlay`); the add-on lays it over the language pack, string by string, while each entry's fp matches (`addon/LoreForever/Lang.lua`). Tests: `node --test site/tests/langtest.test.mjs`, `pipeline/tests/test_langtest.py`, `pipeline/tests/lang_sim.py`. |
 | `/translate/check.js` | The checks every edit must pass (`%` codes in order, no new `\|` codes, length, control characters), used by the editor as you type and by the API on save. Same rules as `problem()` in `pipeline/lore/kit.py`: change both together. |
 | `/account` | Gains "Your translations": the languages you translate (ticked boxes, saved at once) and what happened to your edits. |
 
 **API:** `functions/api/translations/[action].js` (`like.js` and `report.js` beside it keep their own paths).
 Signed in: `GET me`, `GET edits?locale=`, `GET reports?locale=`, `POST languages`, `POST save` (an empty text
-withdraws your waiting edit; 5,000 edits per person per day). Admin key: `GET review?status=&locale=`, `POST decide`,
+withdraws your waiting edit; 5,000 edits per person per day), `POST import` (an edited kit dropped on **Upload your
+edited kit**: up to 200 strings a call, each checked and saved like `save`, status `new`, same daily cap, 20 calls a
+minute). The dashboard reads the kit in the browser (`public/js/bulk-core.js` `readKit`/`planKit`, JSON files only,
+`reference/` skipped, a returned LangTest pack recognized and not read) and applies `kit.py apply_strings`' rule
+before anything is sent: empty strings, strings equal to the current text or your waiting edit, and strings whose
+English changed since the kit (or that the add-on no longer has) are left out and listed; `lore.kit pull` checks the
+English again. Admin key: `GET review?status=&locale=`, `POST decide`,
 `GET export?locale=`, `POST pulled`. **Tables** (in `SETUP` of `lib/accounts.js`, deleted with the account):
 `translator_languages` and `translation_edits` (status `new` when saved, `rejected` from `/admin`, `pulled` once imported).
 `translation_submissions` gets a `user_id` column.
@@ -299,7 +385,8 @@ cap guard the form; `/admin` → Translation edits lists recent edits so spam or
    since the edit is skipped and stays English, and the automated check above leaves out what it flags). Flagged edits
    are rejected on the site (the translator sees "wasn't used"; `/admin` can Restore one), the rest are marked
    pulled. `--build` compiles the pack too; `--site` pulls from a preview instead.
-2. `uv run python -m lore.kit site` and commit, so the dashboard and `/translate` show the new text.
+2. `uv run python -m lore.kit site` (it uploads the kits) and commit, so the dashboard and `/translate` show the new
+   text.
 
 Each language card on `/translate` credits the translators whose edits are in the language and who ticked "show my name" on their
 account, most edits first. Language packs still stay out of `PACKS` until Mike decides a language ships.
@@ -310,6 +397,10 @@ https://loreforeverwow.com/admin shows sign-up emails, feedback reports, voice s
 place: totals, sign-ups and downloads per day for the last 30 days, the feedback list (mark reports done, delete
 spam), voice submissions (folder link, clips, contact, signature and release version; mark done, delete), and the
 email list (search, copy, CSV export, remove an address when someone asks to unsubscribe).
+
+- **Contributors:** every Google sign-in account (`users`) with its voices, translator languages, uploaded takes,
+  translation edits and feedback count; search, filter by role, copy addresses, CSV export. /account promises these
+  people are emailed only about their feedback and contributions, so they aren't a release-news list.
 
 - **Sign in** with the admin key: `ADMIN_KEY` in the Pages project if it's set, otherwise `FEEDBACK_KEY` (the same
   value as `FEEDBACK_KEY` in the pipeline repo's `.env`). "Remember on this device" keeps it in that browser; otherwise

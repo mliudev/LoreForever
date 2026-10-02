@@ -4,13 +4,19 @@
 // Before a file goes up, the browser checks it against the narrator guide (mono, 44.1/48 kHz, about -16 LUFS,
 // peaks at -1 dB or lower, at most 0.3 s of silence at each end, a length that fits the text). Warnings never stop
 // an upload; a file we can't use at all (silent, not audio, too long) is refused here and on the server.
+// The game plays .mp3 and .ogg only, so a .wav or .flac is turned into a mono .mp3 here before it goes up (mp3.js).
+// Each upload carries its CRC-32 for the test pack's zip.
+
+import { planPack, packFolder } from "/voices/testpack.js";
+import { crc32, crcHex } from "/voices/crc32.js";
+import { toMp3 } from "/voices/mp3.js";
+import { voiceUpload } from "/js/bulk-upload.js";
 
 const app = document.getElementById("st-app");
 const player = document.getElementById("st-audio");
 
 const WORDS_PER_SECOND = 2.5;   // a comfortable narration pace, for the target length of a line
 const MAX_SECONDS = 240;
-const AUDIO_EXT = /\.(mp3|ogg|wav|flac)$/i;
 const GROUP_SHORT = { "Starting zones": "Starting", "Capitals": "Capitals", "The road ahead": "Road", "Dungeons": "Dungeons", "More stories": "More" };
 const VOICES = { human: "Human", dwarf: "Dwarf", gnome: "Gnome", nightelf: "Night elf", orc: "Orc", troll: "Troll", tauren: "Tauren",
                  forsaken: "Forsaken", skyborne: "Skyborne" };
@@ -22,7 +28,6 @@ let view = { q: "", group: "", voice: "", show: "", mine: false };
 let nextPos = 0;
 let mine = new Set();   // story keys this person picked, per voice (kept in this browser)
 const open = new Set(), busy = new Set(), errors = {};
-let bulkReport = null, pending = {};
 let creating = false, renaming = false, sent = null;
 
 const lines_ = n => `${n} line${n === 1 ? "" : "s"}`;
@@ -176,6 +181,9 @@ async function analyze(file, it) {
   try {
     decoded = await new OfflineAudioContext(1, 1, 48000).decodeAudioData(buf.slice(0));
   } catch (e) {
+    if (head.kind === "wav" || head.kind === "flac") {
+      return { error: "This browser couldn't read the file, so it can't turn it into an .mp3. Export it as .mp3 or .ogg and try again." };
+    }
     return { buf, checks: { warnings: ["unchecked"] } };   // e.g. a browser without Ogg Vorbis: we check it at review
   }
   const fs = decoded.sampleRate, n = decoded.length, duration = n / fs;
@@ -209,7 +217,12 @@ async function analyze(file, it) {
     const r = duration / it.target;
     if (r < 0.6) w.push("short"); else if (r > 1.7) w.push("long");
   }
-  return { buf, checks: { channels, rate: rate || 0, lufs, peak: peakDb, lead, tail, duration, warnings: w } };
+  const checks = { channels, rate: rate || 0, lufs, peak: peakDb, lead, tail, duration, warnings: w };
+  if (head.kind !== "wav" && head.kind !== "flac") return { buf, checks };
+  // Converted: the file that goes up is mono at 44.1 or 48 kHz, so those two warnings no longer apply.
+  const mp3 = await toMp3(buf, rate).catch(() => null);
+  if (!mp3) return { error: "Couldn't turn this file into an .mp3 in this browser. Export it as .mp3 or .ogg and try again." };
+  return { buf: mp3.buf, checks: { ...checks, channels: 1, rate: mp3.rate, warnings: w.filter(k => k !== "stereo" && k !== "rate") } };
 }
 
 function warningText(key, c, it) {
@@ -233,26 +246,36 @@ function warningText(key, c, it) {
 
 async function upload(it, file) {
   delete errors[it.id];
-  if (file.size > st.limits.bytes) {
-    errors[it.id] = `That file is over ${st.limits.bytes / 1048576} MB. Export it as .mp3 or .ogg to make it smaller.`;
+  const tooBig = `That file is over ${st.limits.bytes / 1048576} MB. Export it as .mp3 or .ogg to make it smaller.`;
+  if (file.size > st.limits.bytes * 8) {   // a .wav shrinks a lot once it's an .mp3; the limit applies to what goes up
+    errors[it.id] = tooBig;
     render();
     return "bad";
   }
   busy.add(it.id);
   render();
   const a = await analyze(file, it);
+  if (!a.error && a.buf.byteLength > st.limits.bytes) a.error = tooBig;
   if (a.error) {
     busy.delete(it.id);
     errors[it.id] = a.error;
     render();
     return "bad";
   }
-  const res = await api("take", {
-    method: "PUT", query: `?voice=${encodeURIComponent(st.voice)}&line=${encodeURIComponent(it.id)}`, body: new Blob([a.buf]),
-    headers: { "X-File-Name": encodeURIComponent(file.name.slice(0, 120)), "X-Checks": encodeURIComponent(JSON.stringify(a.checks)) },
-  });
+  const voice = st.voice;
+  let res;
+  for (;;) {   // over the per-minute limit (a zip upload running alongside): wait it out, as the zip upload does
+    res = await api("take", {
+      method: "PUT", query: `?voice=${encodeURIComponent(voice)}&line=${encodeURIComponent(it.id)}`, body: new Blob([a.buf]),
+      headers: { "X-File-Name": encodeURIComponent(file.name.slice(0, 120)), "X-Checks": encodeURIComponent(JSON.stringify(a.checks)),
+                 "X-CRC32": crcHex(crc32(new Uint8Array(a.buf))) },
+    });
+    if (res.ok || !res.retryAfter) break;
+    await new Promise(r => setTimeout(r, Math.min(60, res.retryAfter) * 1000));
+  }
   busy.delete(it.id);
   if (!res.ok) { errors[it.id] = res.error; render(); return "bad"; }
+  if (voice !== st.voice) return "ok";   // the page moved to another voice while this one went up
   st.takes[it.id] = res.take;
   const v = currentVoice();
   if (v) v.files = Object.keys(st.takes).length;
@@ -267,52 +290,23 @@ async function remove(it) {
   render();
 }
 
-// Levenshtein distance, for "did you mean" on file names.
-function distance(a, b) {
-  const d = Array.from({ length: b.length + 1 }, (_, i) => i);
-  for (let i = 1; i <= a.length; i++) {
-    let prev = d[0]; d[0] = i;
-    for (let j = 1; j <= b.length; j++) {
-      const t = d[j];
-      d[j] = Math.min(d[j] + 1, d[j - 1] + 1, prev + (a[i - 1] === b[j - 1] ? 0 : 1));
-      prev = t;
-    }
-  }
-  return d[b.length];
-}
-
-async function bulk(fileList) {
-  const files = [...fileList].filter(f => AUDIO_EXT.test(f.name) || f.type.startsWith("audio/"));
-  const byFile = Object.fromEntries(items.filter(i => i.text).map(i => [i.file.toLowerCase(), i]));
-  bulkReport = { total: files.length, added: 0, warn: 0, rows: [] };
-  pending = {};
-  const matched = [];
-  for (const f of files) {
-    const stem = f.name.replace(/\.[^.]+$/, "").toLowerCase();
-    const it = byFile[stem];
-    if (it) { matched.push([it, f]); continue; }
-    let best = null, bestD = Infinity;
-    for (const k of Object.keys(byFile)) { const d = distance(stem, k); if (d < bestD) { bestD = d; best = k; } }
-    const key = `p${Object.keys(pending).length}`;
-    if (best && bestD <= Math.max(3, Math.round(best.length * 0.3))) {
-      pending[key] = [byFile[best], f];
-      bulkReport.rows.push({ cls: "bad", html: `<span class="st-fname">${esc(f.name)}</span> doesn't match a line. Did you mean
-        <span class="st-fname">${esc(byFile[best].file)}</span> (${esc(byFile[best].name)}${byFile[best].q ? ": " + esc(byFile[best].q) : ""})?
-        <button class="st-b ghost" type="button" data-use="${key}">Use it for that line</button>` });
-    } else {
-      bulkReport.rows.push({ cls: "bad", html: `<span class="st-fname">${esc(f.name)}</span> doesn't match any line. Drop it onto its line in the list below.` });
-    }
-  }
-  if (!files.length) bulkReport.rows.push({ cls: "bad", html: "No .mp3, .ogg, .wav or .flac files in that selection." });
-  render();
-  for (const [it, f] of matched) {
-    const r = await upload(it, f);
-    if (r === "ok" || r === "warn") bulkReport.added++;
-    if (r === "warn") { bulkReport.warn++; bulkReport.rows.push({ cls: "warn", html: `<span class="st-fname">${esc(f.name)}</span>: ${esc(warningText(st.takes[it.id].checks.warnings[0], st.takes[it.id].checks, it))}` }); }
-    if (r === "bad") bulkReport.rows.push({ cls: "bad", html: `<span class="st-fname">${esc(f.name)}</span>: ${esc(errors[it.id])}` });
+// "Upload many recordings at once": a zip, a folder or a returned test pack, checked here first (/js/bulk-upload.js).
+const bulkBox = voiceUpload({
+  voice: () => currentVoice(),
+  languageName: () => lines.languages.find(l => l.locale === currentVoice().locale)?.name || currentVoice().locale,
+  items: () => items.map(it => ({ ...it, hash: it.hash || null })),
+  takes: () => st.takes,
+  get maxBytes() { return st.limits.bytes; },
+  analyze, warningText,
+  onTake(voiceId, id, take) {
+    if (voiceId !== st.voice) return;   // saved to the voice the upload started on; the page shows another now
+    st.takes[id] = take;
+    delete errors[id];
+    const v = currentVoice();
+    if (v) v.files = Object.keys(st.takes).length;
     render();
-  }
-}
+  },
+});
 
 // ---- Drawing ----
 
@@ -519,14 +513,7 @@ function renderWorkspace() {
     <ul class="st-spec"><li><b>.mp3</b>, <b>.ogg</b>, <b>.wav</b> or <b>.flac</b></li><li><b>Mono</b>, 44.1 or 48 kHz</li>
       <li>About <b>−16 LUFS</b>, peaks ≤ −1 dB</li><li>≤ 0.3 s silence at each end</li></ul>
     ${nextHtml()}
-    <details class="st-bulk"${bulkReport ? " open" : ""}><summary>Already recorded a batch? Upload many files at once</summary>
-      <p>Name each file as the <a href="/voices/clips.csv" download>clip list</a> says (for example
-        <span class="st-fname">zone_stormwind__faq1.mp3</span>) and choose them all, or a whole folder. Each file goes to its
-        line. Any file we can't place, you can drop onto its line by hand.</p>
-      <p><button class="st-b" type="button" id="st-bulk-files">Choose files</button> <button class="st-b" type="button" id="st-bulk-folder">Choose a folder</button></p>
-      ${bulkReport ? `<ul class="st-report"><li class="ok">${bulkReport.added} of ${bulkReport.total} files added${bulkReport.warn ? `, ${bulkReport.warn} need a look` : ""}.</li>
-        ${bulkReport.rows.map(r => `<li class="${r.cls}">${r.html}</li>`).join("")}</ul>` : ""}
-    </details>
+    <section id="st-bulkup"></section>
     <div class="st-bar">
       <div class="st-progress">
         <div class="st-progress-top"><span><strong>${done}</strong> of ${withText.length} lines</span><span>${esc(perGroup)}</span></div>
@@ -547,8 +534,46 @@ function renderWorkspace() {
       <p class="st-picker-note">Tick <b>Mine</b> on the stories you want to voice. The next-line box goes through those first.</p>
     </div>
     ${list || `<p class="st-empty">No lines match. Clear a filter to see more.</p>`}
+    ${testPackHtml(v)}
     ${sendHtml(done, withText.length, counts)}`;
   bindWorkspace();
+  bulkBox.mount(document.getElementById("st-bulkup"));
+}
+
+// "Download my test pack": the same choice of lines as the server's zip (testpack.js).
+function testPackHtml(v) {
+  const current = Object.fromEntries(items.filter(i => i.hash).map(i => [i.id, i.hash]));
+  const plan = planPack(st.takes, current), n = plan.lines.length;
+  const head = `<section class="st-testpack" id="st-testpack"><h2>Hear it in game</h2>`;
+  const label = id => { const it = byId(id); return it ? esc(it.name) + (it.q ? `: ${esc(it.q)}` : "") : null; };
+  const list = ids => { const l = ids.map(label).filter(Boolean); return l.slice(0, 8).join("; ") + (l.length > 8 ? `; and ${l.length - 8} more` : ""); };
+  const them = k => (k === 1 ? "it" : "them");
+  // Uploads from before the page converted .wav and .flac to .mp3 can't go in a pack until they're uploaded again.
+  const older = plan.otherFormat.filter(id => !["mp3", "ogg"].includes(st.takes[id].ext));
+  const names = plan.otherFormat.filter(id => !older.includes(id));
+  const olderNote = older.length ? `<p class="st-note warn">${lines_(older.length)} left out: ${older.length === 1 ? "it's a" : "they're"}
+    .wav or .flac from before this page turned those into .mp3. Upload ${them(older.length)} again to include ${them(older.length)}: ${list(older)}.</p>` : "";
+  if (!n) return `${head}<p>Once you've uploaded a line, you can download a test pack of your recordings here and hear them
+    in Lore Forever before you send anything.</p>${olderNote}</section>`;
+  return `${head}
+    <p>Play your own recordings in the game before you send them. The test pack has your ${lines_(n)}; every other line plays
+      in the default voice. Only you can download it.</p>
+    <p class="st-dl"><a class="btn-download" href="/api/studio/pack?voice=${encodeURIComponent(v.id)}">Download my test pack</a>
+      <span>${lines_(n)} · .${plan.ext}</span></p>
+    <ol>
+      <li>Unzip it into <code>World of Warcraft\\_classic_beta_\\Interface\\AddOns</code>, so you have
+        <code>AddOns\\${esc(packFolder(v.id))}</code>.</li>
+      <li>Restart WoW the first time. After that, download again, unzip over the old folder and type <code>/reload</code>.</li>
+      <li>Choose <b>${esc(v.name)} (test pack)</b> under Options › AddOns › Lore Forever › Narration voice.</li>
+    </ol>
+    ${names.length ? `<p class="st-note warn">${lines_(names.length)} left out: a pack holds one format and most of yours are
+      .${plan.ext}. Upload ${them(names.length)} as .${plan.ext} to include ${them(names.length)}: ${list(names)}.</p>` : ""}
+    ${olderNote}
+    ${plan.stale.length ? `<p class="st-note stale">${lines_(plan.stale.length)} left out because we reworded ${plan.stale.length === 1 ? "it" : "them"}
+      after you uploaded. Record the new text to put ${plan.stale.length === 1 ? "it" : "them"} back.</p>` : ""}
+    <p class="st-note">The pack is just for you to test; everyone else hears your voice once you send it and it's published.
+      Voice not in the list, or a line in the default voice? See <a href="/voices/guide#test">Hear your voice in game</a>.</p>
+  </section>`;
 }
 
 function sendHtml(done, total, counts) {
@@ -573,15 +598,12 @@ function sendHtml(done, total, counts) {
 
 // ---- Events ----
 
-function pickFile(it, { multiple = false, folder = false } = {}) {
+function pickFile(it) {
   const input = document.createElement("input");
   input.type = "file";
   input.accept = ".mp3,.ogg,.wav,.flac,audio/*";
-  if (multiple) input.multiple = true;
-  if (folder) input.webkitdirectory = true;
   input.addEventListener("change", () => {
-    if (!input.files.length) return;
-    if (it) upload(it, input.files[0]); else bulk(input.files);
+    if (input.files.length) upload(it, input.files[0]);
   });
   input.click();
 }
@@ -597,7 +619,7 @@ function setMine(keys, on) {
 
 function bindWorkspace() {
   const on = (id, ev, fn) => document.getElementById(id)?.addEventListener(ev, fn);
-  on("st-voice", "change", e => { bulkReport = null; sent = null; load(e.target.value); });
+  on("st-voice", "change", e => { sent = null; load(e.target.value); });
   on("st-new-voice", "click", () => { creating = true; render(); });
   on("st-rename-open", "click", () => { renaming = true; render(); document.getElementById("st-rename")?.focus(); });
   on("st-rename-save", "click", async () => {
@@ -605,8 +627,6 @@ function bindWorkspace() {
     const res = await api("voice", { method: "POST", body: { id: st.voice, name } });
     if (res.ok) { currentVoice().name = name.trim(); renaming = false; render(); } else alert(res.error);
   });
-  on("st-bulk-files", "click", () => pickFile(null, { multiple: true }));
-  on("st-bulk-folder", "click", () => pickFile(null, { folder: true }));
   on("st-q", "input", e => { view.q = e.target.value; renderKeepFocus("st-q"); });
   on("st-group", "change", e => { view.group = e.target.value; render(); });
   on("st-svoice", "change", e => { view.voice = e.target.value; render(); });
@@ -643,7 +663,6 @@ app.addEventListener("click", e => {
   else if (d.next) { nextPos += Number(d.next); render(); }
   else if (d.pick) setMine([d.pick], b.checked);
   else if (d.pickall) setMine(items.filter(i => i.group === d.pickall).map(i => i.story.key), true);
-  else if (d.use) { const [it, f] = pending[d.use]; delete pending[d.use]; b.disabled = true; upload(it, f); }
   else if (d.play) {
     const src = `/api/studio/audio?voice=${encodeURIComponent(st.voice)}&line=${encodeURIComponent(d.play)}&t=${encodeURIComponent(st.takes[d.play]?.created || "")}`;
     if (player.dataset.line === d.play && !player.paused) { player.pause(); return; }

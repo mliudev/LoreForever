@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Summons to Battle",
-   "body": "Within the harsh red bounds of the Valley of Trials, new recruits are quickly set to work. For young trolls seeking the path of the warrior, Gornek passes along this simple slate or parchment. Sent directly by Frang, the master-at-arms resting near the Den, it serves as an official introduction to martial training in Durotar. It urges the recruit to step forward, present themselves, and prove their willingness to swing weapons under the banner of the Horde.",
+   "body": "Within the harsh red bounds of the Valley of Trials, new recruits are quickly set to work. For young trolls seeking the path of the warrior, Gornek passes along this simple slate or parchment. Written by the troll Tar'sere and addressed to Frang, the master-at-arms resting near the Den, it serves as an official introduction to martial training in Durotar. It urges the recruit to step forward, present themselves, and prove their willingness to swing weapons under the banner of the Horde.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "who wrote the tablet",
     "tablet sender"
    ],
-   "answer": "The message originates from Frang, the warrior trainer stationed outside the Den in the Valley of Trials."
+   "answer": "The message is signed by the troll Tar'sere, who sends the recruit to Frang, the warrior trainer stationed outside the Den in the Valley of Trials."
   },
   {
    "q": "Where do I take the tablet?",
