@@ -15,7 +15,8 @@ Options.DEFAULTS = {
   showSpoilers = false,    -- show answers marked as spoilers without asking first
   readAloud = true,        -- "Read aloud" (the game's text-to-speech) for answers without a recorded narration
   narrateFlights = false,  -- read zone lore aloud on taxi flights
-  feedback = false,        -- Yes/No feedback buttons in the panel (playtests)
+  packHints = true,        -- say (once a session per zone) when its places and people are in a lands pack you lack
+  journey = true,          -- "Remember my journey": record places, people, quests and foes for the Journey tab
   language = "auto",       -- "auto" (the game client's language), "enUS" or a language pack's locale
   voicePack = "auto",      -- narration voice: "auto" (default pack), "none" (game voice only) or a pack's add-on name
 }
@@ -23,6 +24,7 @@ Options.DEFAULTS = {
 local L = ns.L
 
 local VOICES_URL = "loreforeverwow.com/voices"
+local LANGUAGES_URL = "loreforeverwow.com/translate"
 
 -- Size a button to its label (German and other languages run longer than the English the sizes were picked for).
 local function fit(btn, min)
@@ -118,6 +120,34 @@ local function note(c, text, anchor, gap, font)
   return n
 end
 
+-- "Get more …:" and a read-only, selectable web address next to it, under `anchor` (`gap` below it). Add-ons can't
+-- open a browser, so players copy the address. Returns the label (to anchor what comes next), the box and its refill.
+local function urlRow(c, label, address, anchor, gap)
+  local text = c:CreateFontString(nil, "ARTWORK", "GameFontDisableSmall")
+  text:SetPoint("TOPLEFT", anchor, "BOTTOMLEFT", 0, -gap)
+  text:SetText(label)
+  local url = CreateFrame("EditBox", nil, c, "InputBoxTemplate")
+  url:SetSize(220, 20)
+  url:SetPoint("LEFT", text, "RIGHT", 12, 0)
+  url:SetAutoFocus(false)
+  if url.SetFontObject and _G.ChatFontNormal then url:SetFontObject(ChatFontNormal) end
+  url:SetTextColor(1, 1, 1)
+  -- On the Forever client, text set on this box before the settings page is first shown rendered as an empty box
+  -- (it's dropped or scrolled out of view). So the address is filled again, with the cursor at the start, every time
+  -- the box or the page shows.
+  local function fill()
+    url:SetText(address)
+    url:SetCursorPosition(0)
+  end
+  fill()
+  url:SetScript("OnTextChanged", function(self) if self:GetText() ~= address then self:SetText(address) end end)
+  url:SetScript("OnEditFocusGained", function(self) self:HighlightText() end)
+  url:SetScript("OnEscapePressed", function(self) self:ClearFocus() end)
+  url:HookScript("OnShow", fill)
+  url:HookScript("OnEditFocusLost", function(self) self:HighlightText(0, 0); fill() end)
+  return text, url, fill
+end
+
 -- The Narration voice section: a drop-down of voices, Preview, a status line and where to get more voices.
 -- Placed under `anchor`; returns the section and its last line, for whatever comes next.
 function Options.VoiceSection(c, anchor)
@@ -130,28 +160,7 @@ function Options.VoiceSection(c, anchor)
   preview:SetText(L["Preview"])
   fit(preview, 90)
   local status = note(c, "", pick, 8, "GameFontHighlightSmall")
-  local moreLabel = c:CreateFontString(nil, "ARTWORK", "GameFontDisableSmall")
-  moreLabel:SetPoint("TOPLEFT", status, "BOTTOMLEFT", 0, -14)
-  moreLabel:SetText(L["Get more voices:"])
-  local url = CreateFrame("EditBox", nil, c, "InputBoxTemplate")
-  url:SetSize(220, 20)
-  url:SetPoint("LEFT", moreLabel, "RIGHT", 12, 0)
-  url:SetAutoFocus(false)
-  if url.SetFontObject and _G.ChatFontNormal then url:SetFontObject(ChatFontNormal) end
-  url:SetTextColor(1, 1, 1)
-  -- On the Forever client, text set on this box before the settings page is first shown rendered as an empty box
-  -- (it's dropped or scrolled out of view). So the address is filled again, with the cursor at the start, every time
-  -- the box or the page shows.
-  local function fillUrl()
-    url:SetText(VOICES_URL)
-    url:SetCursorPosition(0)
-  end
-  fillUrl()
-  url:SetScript("OnTextChanged", function(self) if self:GetText() ~= VOICES_URL then self:SetText(VOICES_URL) end end)
-  url:SetScript("OnEditFocusGained", function(self) self:HighlightText() end)
-  url:SetScript("OnEscapePressed", function(self) self:ClearFocus() end)
-  url:HookScript("OnShow", fillUrl)
-  url:HookScript("OnEditFocusLost", function(self) self:HighlightText(0, 0); fillUrl() end)
+  local moreLabel, url, fillUrl = urlRow(c, L["Get more voices:"], VOICES_URL, status, 14)
   local hint = note(c, L["Installed a voice? Restart the game (a /reload isn't enough), then pick it here."],
     moreLabel, 10)
 
@@ -206,7 +215,8 @@ local function rows()
     { "showSpoilers", L["Show spoilers without asking"], L["Answers that give away a quest's twist or ending normally ask before revealing. Tick this to always show them."] },
     { "readAloud", L["Read aloud"], L["Offer \"Read aloud\" with the game's own voice for answers without a recorded narration. Pick the voice in Options > Accessibility > Text to Speech."] },
     { "narrateFlights", L["Narrate flights"], L["Read the story of each zone aloud while on a flight path."] },
-    { "feedback", L["Feedback buttons"], L["Show Yes/No buttons under answers (for playtesting)."] },
+    { "packHints", L["Narration pack hints"], L["When you enter a zone whose places and people are narrated in a voice pack you don't have, say so once."] },
+    { "journey", L["Remember my journey"], L["Keep track of the places you discover, the people you meet, the foes you defeat and the quests you finish, for the Journey tab. It stays on your PC."] },
   }
 end
 
@@ -231,6 +241,7 @@ local function languageSection(c, p, anchor)
   reload:RegisterForClicks("AnyUp", "AnyDown")   -- secure buttons act on key-down or key-up depending on a CVar
   reload:Hide()
   local hint = note(c, L["Language packs are separate add-ons. After choosing a language, reload to switch."], btn, 6)
+  local moreLabel, _, fillUrl = urlRow(c, L["Get more languages:"], LANGUAGES_URL, hint, 10)
   local function items()
     local out, id = {}, LoreForeverDB.settings.language or "auto"
     local label
@@ -243,6 +254,7 @@ local function languageSection(c, p, anchor)
   local function update()
     local _, _, label = items()
     btn:SetText(label)
+    fillUrl()
     -- A secure button can't be shown or hidden in combat.
     if InCombatLockdown and InCombatLockdown() then return end
     local pending = ns.Lang.NeedsReload()
@@ -260,7 +272,7 @@ local function languageSection(c, p, anchor)
   end)
   p.language, p.languageList, p.reload, p.updateLanguage = btn, list, reload, update
   update()
-  return hint
+  return moreLabel
 end
 
 function Options.Create()
@@ -303,6 +315,7 @@ function Options.Create()
       if key == "minimap" and ns.MinimapButton then ns.MinimapButton() end
       if key == "launcher" and ns.LauncherButton then ns.LauncherButton() end
       if key == "readAloud" and p.voice then p.voice.Update() end
+      if key == "journey" and ns.Journey then ns.Journey.OnToggle() end
     end)
     cb.key = key
     p.checks[#p.checks + 1] = cb

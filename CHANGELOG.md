@@ -6,6 +6,49 @@ One `- ` bullet per change; wrap long bullets with an indented continuation line
 
 ## Unreleased
 
+## 0.5.0 (2026-10-01)
+
+- **Your journey:** the new Journey tab keeps track of what your character has done: the places you discover and how
+  you got there, the people you meet, the quests you finish, the foes and dungeon bosses you defeat and the books you
+  read. It shows your recent moments, the bosses you've beaten and the foes you've fought most. It stays on your PC;
+  Options › Remember my journey turns it off. `/lore journey` opens it. You can copy and paste your journey record:
+  "Copy my journey record" on the Journey tab gives you all of it as plain text.
+- **Your journey remembers more:** reputation changes, new mounts and spells, rare finds and quest rewards,
+  profession milestones (75, 150, 225 and 300), rare foes and your screenshots now show among your recent moments.
+  It also notes where you've walked on the map in your last five sessions. Like the rest of your journey, it stays
+  on your PC.
+- **Hundreds more narrations, in both voices:** 25 new zone stories come with the add-on. The places and people of
+  the capitals, the starting zones, the level 10-19 zones and some of the level 20s are narrated in two optional
+  packs, Alliance lands and Horde lands, at loreforeverwow.com/voices or in the complete download. When you enter a
+  zone whose narrations you don't have, the add-on says once which pack has them (Options › Narration pack hints
+  turns that off).
+- **The female narrator comes with every release** now: her core and lands packs are on the Files tab and at
+  loreforeverwow.com/voices.
+- Narrations now say Deadmines, Feralas, Astranaar, Razorfen Kraul, Faol, Quel'Thalas and Iceshard properly.
+- The Narrations tab groups narrations by zone, with where you are and your starting zone first.
+- **Translators can see their work in game right away:** on loreforeverwow.com/translate/dashboard, press
+  "Download my test pack", unzip it into Interface\AddOns and pick your language in Options. Your saved lines show
+  in game on top of the language pack (or on their own) before the next language update.
+- **Tell us when an answer is wrong:** every answer now has a check and a cross under it. The cross asks what was
+  wrong (wrong, didn't answer your question, a spoiler, later-expansion lore, or something else) with an optional
+  note, and "Copy report" gives you a link to paste into your browser or our Discord. It sends your question, where
+  you were and the answer you got, never your character's name. `/lore report` does the same for the last answer.
+- Options › Language now says where to get language packs: loreforeverwow.com/translate, the same way the
+  narration voices point to loreforeverwow.com/voices.
+- Corrected lore in 126 entries and removed 11 that belonged to later expansions.
+- Places that share a name, like the Canals of Stormwind and of the Undercity: asking about one now answers about
+  the one in the zone you name, or else the one in the zone you're in.
+- Narrators: the upload page (loreforeverwow.com/voices/studio) now has "Download my test pack", so you can hear
+  your own recordings in game before you send them.
+- **Upload a whole zip or folder:** narrators can drop all their recordings at once on the upload page, and
+  translators who work offline can drop their edited kit on the translation dashboard. You see what's new, what
+  changes and what can't be used before anything is saved, and it's in your test pack right away. No more sharing
+  a Drive link (that still works if you prefer it).
+- **Answers know your journey:** the story of a quest you've finished, someone you've met or a place you've been
+  now opens with a line like "You finished this at level 12, 3 days ago, in a group." A quest's own twists show
+  without the spoiler warning once you've finished it, and the people you met this session and the quests you've
+  done in the zone come up first. Turning off Remember my journey in Options turns this off too.
+
 ## 0.4.0 (2026-09-30)
 
 - Corrected 275 lore entries: wrong names, races and places, zone details from the wrong era, and story twists

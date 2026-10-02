@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "Blighted Seedlings",
-   "body": "Timberlings are plant spirits closely tied to the natural vitality of Teldrassil, but the seedlings sprouting along Lake Al'Ameth have worried the local night elves. Rather than emerging healthy and in harmony with the wild, they sprout already tainted and aggressive. Because these infant sprouts appear beyond cleansing or natural healing, caretakers in Shadowglen must gather and destroy them to prevent an uncontrolled spread of hostile timberlings across the fragile boughs of the newly planted World Tree.",
+   "body": "Timberlings are plant spirits closely tied to the natural vitality of Teldrassil, but the seedlings sprouting along Lake Al'Ameth have worried the local night elves. Rather than emerging healthy and in harmony with the wild, they sprout already tainted and aggressive. Because these infant sprouts appear beyond cleansing or natural healing, caretakers at Lake Al'Ameth must gather and destroy them to prevent an uncontrolled spread of hostile timberlings across the fragile boughs of the newly planted World Tree.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where are timberling sprouts",
     "find sprouts"
    ],
-   "answer": "Timberling Sprouts grow close to the water's edge along the shores of Lake Al'Ameth, just south of Aldrassil in Shadowglen."
+   "answer": "Timberling Sprouts grow close to the water's edge along the shores of Lake Al'Ameth, south of Dolanaar in Teldrassil."
   },
   {
    "q": "Why are night elves pulling Timberling Sprouts from the ground?",
@@ -44,7 +44,7 @@
     "what is tainting them",
     "sprout sickness"
    ],
-   "answer": "A mysterious sickness has begun affecting the wildlife and plant elementals of Teldrassil. While the exact source of the taint is still an unsolved riddle to caretakers in Shadowglen, it influences young timberlings from the moment they take root."
+   "answer": "A mysterious sickness has begun affecting the wildlife and plant elementals of Teldrassil. While the exact source of the taint is still an unsolved riddle to the botanist Denalan, it influences young timberlings from the moment they take root."
   },
   {
    "q": "Who asks for Timberling Sprouts to be collected?",
@@ -53,7 +53,7 @@
     "sprout questgiver",
     "timberling sprouts turn in"
    ],
-   "answer": "Caretakers watching over Shadowglen and Lake Al'Ameth request adventurers to collect and clear the sprouts from the lakeside to keep the land pure."
+   "answer": "Denalan, the botanist tending Lake Al'Ameth, asks adventurers to collect and clear the sprouts from the lakeside to keep the land pure."
   }
  ],
  "angles": [

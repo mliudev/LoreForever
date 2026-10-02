@@ -14,11 +14,6 @@
    "title": "The Hermit of the Barrens",
    "body": "Tucked away in a solitary camp in the wild savannah of the southern Barrens, Doan Karhan lives far from the civilized bastions of the Alliance. Rather than seeking ordinary solitude, he retreated to the wilderness to study dangerous demonic relics unmolested. Doan holds deep lore concerning powerful fel vessels, possessing the Orb of Zargain and obsessing over the legendary Orb of Soran'ruk. Practicing warlocks often seek him out when delving into artifact crafting and dark rituals.",
    "spoiler": 0
-  },
-  {
-   "title": "Tragedy and Betrayal",
-   "body": "Doan's reckless pursuit of Legion knowledge carried a terrible cost. He once placed his trust in a companion named Raszel Ander, whom he considered a close friend. Raszel was secretly the dreadlord Des'Altek in disguise, who ruthlessly butchered Doan's acolytes. The slaughter left Doan a haunted recluse, yet his obsession with unlocking the secrets of fel orbs remains undeterred.",
-   "spoiler": 1
   }
  ],
  "faq": [
@@ -48,15 +43,6 @@
     "what is orb of soran'ruk"
    ],
    "answer": "The Orb of Soran'ruk is an ancient, potent Legion relic imbued with dark power. Doan Karhan possesses extensive knowledge regarding its construction and the similar Orb of Zargain, guiding warlocks seeking to reconstruct it."
-  },
-  {
-   "q": "What happened to Doan Karhan's apprentices?",
-   "aliases": [
-    "doan acolytes",
-    "who killed doan's acolytes",
-    "raszel ander betrayal"
-   ],
-   "answer": "Doan's apprentices were slaughtered by a dreadlord named Des'Altek."
   }
  ],
  "angles": [
@@ -71,11 +57,9 @@
  ],
  "keywords": [
   "barrens",
-  "des'altek",
   "doan karhan",
   "orb of soran'ruk",
   "orb of zargain",
-  "raszel ander",
   "warlock"
  ],
  "related": [

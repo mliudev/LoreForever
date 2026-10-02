@@ -10,7 +10,7 @@
    "quest:8311"
   ]
  },
- "summary": "A Gnomeregan Gumdrop is a specialty seasonal sweet distributed during Hallow's End on behalf of the displaced gnomes. Adventurers fetch this confection to help the sick child Jesper outside Stormwind celebrate the holiday.",
+ "summary": "A Gnomeregan Gumdrop is a specialty seasonal sweet distributed during Hallow's End on behalf of the displaced gnomes. Adventurers fetch this confection to help the sick child Jesper in Stormwind's orphanage celebrate the holiday.",
  "sections": [
   {
    "title": "A Taste of Gnomish Ingenuity",
@@ -19,7 +19,7 @@
   },
   {
    "title": "A Treat for Jesper",
-   "body": "Because Jesper is confined to the care of Matron Nightingale just outside Stormwind's gates, he cannot travel the continents to go trick-or-treating himself. A Gnomeregan Gumdrop is one of the four essential regional confections\u2014alongside treats from Stormwind, Ironforge, and Darnassus\u2014that kind-hearted travelers gather across the Alliance capitals to bring the festivities to him.",
+   "body": "Because Jesper is sick and confined to the Stormwind orphanage in Cathedral Square, he cannot travel the continents to go trick-or-treating himself. A Gnomeregan Gumdrop is one of the four essential regional confections\u2014alongside treats from Stormwind, Ironforge, and Darnassus\u2014that kind-hearted travelers gather across the Alliance capitals to bring the festivities to him.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "what does gumdrop do",
     "jesper candy"
    ],
-   "answer": "It is one of four festive sweets needed to complete the Hallow's End task for Jesper, an orphan boy staying just outside the gates of Stormwind."
+   "answer": "It is one of four festive sweets needed to complete the Hallow's End task for Jesper, a sick orphan boy at the orphanage in Stormwind's Cathedral Square."
   },
   {
    "q": "What other treats are collected alongside it?",

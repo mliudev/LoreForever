@@ -1,0 +1,115 @@
+{
+ "key": "quest:97919",
+ "type": "quest",
+ "name": "Camping 101: First Aid",
+ "era": "forever",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   97919
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "6"
+ },
+ "summary": "Camping 101: First Aid introduces fledgling adventurers in Elwynn Forest to the practical survival art of field medicine. It directs travelers to Michelle Belle in Goldshire to learn how to prepare a First Aid Kit for wilderness campsites.",
+ "sections": [
+  {
+   "title": "Field Medicine on the Road",
+   "body": "Adventurers traveling across Elwynn Forest quickly discover that combat and harsh wilderness survival take a heavy toll. While town healers and inns offer respite, journeying through dangerous territory often requires immediate, self-reliant care. Learning First Aid provides a practical remedy for bleeding and trauma, allowing travelers to mend wounds without relying on arcane rituals or holy supplication.",
+   "spoiler": 0
+  },
+  {
+   "title": "Supplies for the Campsite",
+   "body": "A durable camp is more than a fire and a bedroll; it is a temporary haven against the dangers of the wilds. Through instruction from Michelle Belle at Goldshire's Lion's Pride Inn, skilled practitioners learn to assemble dedicated first aid kits. Having medical supplies on hand at camp ensures that a weary party can treat injuries and recover their strength before facing the perils ahead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "camping first aid purpose",
+    "what does this quest do",
+    "why camping 101 first aid"
+   ],
+   "answer": "This quest guides adventurers who have learned basic First Aid to seek out Michelle Belle in Goldshire. She teaches practitioners how to fashion a First Aid Kit to keep their wilderness camps stocked with essential medical supplies."
+  },
+  {
+   "q": "Who do I need to speak with in Goldshire?",
+   "aliases": [
+    "who is michelle belle",
+    "camping trainer goldshire",
+    "first aid camp trainer"
+   ],
+   "answer": "You need to speak with Michelle Belle, a trainer located in Goldshire. Once you demonstrate sufficient skill in First Aid, she shares the techniques needed to craft camping supplies suited to field medicine."
+  },
+  {
+   "q": "Why is First Aid important for travelers?",
+   "aliases": [
+    "why learn first aid",
+    "is first aid useful",
+    "first aid lore"
+   ],
+   "answer": "Adventuring carries constant risk of physical injury from beasts, bandits, and harsh elements. First Aid allows anyone, regardless of whether they wield divine or arcane magic, to bandage wounds and recover between skirmishes."
+  },
+  {
+   "q": "Where is Goldshire located?",
+   "aliases": [
+    "where is goldshire",
+    "goldshire location",
+    "how to find michelle belle"
+   ],
+   "answer": "Goldshire is the primary hamlet in Elwynn Forest, situated just south of Stormwind City along the main trade road. It serves as a central hub for supplies, local trainers, and respite at the Lion's Pride Inn."
+  },
+  {
+   "q": "Do I need prior training to complete this task?",
+   "aliases": [
+    "requirements camping 101",
+    "first aid skill needed",
+    "prerequisites"
+   ],
+   "answer": "Yes. Michelle Belle requires you to demonstrate proficiency in First Aid before she will instruct you in crafting camp kits tailored to the profession."
+  },
+  {
+   "q": "How does a First Aid Kit fit into camping?",
+   "aliases": [
+    "camp first aid kit use",
+    "camping item first aid",
+    "why make a first aid kit"
+   ],
+   "answer": "A wilderness campsite provides a safe perimeter to recuperate, and outfitting it with a First Aid Kit ensures injured wanderers have immediate access to bandages and remedies necessary to save lives far from town healers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Goldshire remains the vital crossroad for Alliance travelers starting their journeys from Northshire into the wider realm of Elwynn."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Without innate healing spells, frontline fighters rely heavily on bandages and field kits to survive prolonged campaigns in the wild."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Operating in the shadows far from support, rogues depend on field medicine to bandage bleeding gashes before moving on to their next mark."
+  }
+ ],
+ "keywords": [
+  "bandages",
+  "camp kit",
+  "camping 101",
+  "elwynn forest",
+  "first aid",
+  "goldshire",
+  "michelle belle",
+  "survival"
+ ],
+ "related": [
+  "subzone:goldshire",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "In-game quest text: Camping 101: First Aid"
+ ]
+}

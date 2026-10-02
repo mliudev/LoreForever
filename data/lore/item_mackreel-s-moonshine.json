@@ -10,11 +10,11 @@
    "quest:647"
   ]
  },
- "summary": "MacKreel's Moonshine is a potent dwarven liquor brewed by Foggy MacKreel, stationed at the guard towers along the northern rim of the Wetlands. Strong enough to knock out a sentry on duty, it is prized as far north as Southshore, where Brewmeister Bilger accepts it as payment for debts.",
+ "summary": "MacKreel's Moonshine is a potent dwarven liquor brewed by Foggy MacKreel, stationed on the broken Thandol Span north of the Wetlands. Strong enough to knock out a sentry on duty, it is prized as far north as Southshore, where Brewmeister Bilger accepts it as payment for debts.",
  "sections": [
   {
    "title": "A Potent Brew",
-   "body": "Brewed by the guard Foggy MacKreel in the Wetlands, this moonshine carries an infamous reputation for potency. Even hardened dwarven sentries find themselves laid low by a night with the brew, waking with headaches akin to a brigade of siege engines rolling overhead. Despite its punishing kick, it is highly valued for warming up travelers against the damp chills of Lordaeron and Khaz Modan.",
+   "body": "Brewed by the guard Foggy MacKreel on the Thandol Span, this moonshine carries an infamous reputation for potency. Even hardened dwarven sentries find themselves laid low by a night with the brew, waking with headaches akin to a brigade of siege engines rolling overhead. Despite its punishing kick, it is highly valued for warming up travelers against the damp chills of Lordaeron and Khaz Modan.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
     "who brewed it",
     "foggy mackreel liquor"
    ],
-   "answer": "It is distilled by Foggy MacKreel, a dwarf sentry stationed at the guard towers along the Thandol Span border in the northern Wetlands."
+   "answer": "It is distilled by Foggy MacKreel, a dwarf sentry stationed on the broken stretch of the Thandol Span between the Wetlands and the Arathi Highlands."
   },
   {
    "q": "Why is this moonshine being sent to Southshore?",

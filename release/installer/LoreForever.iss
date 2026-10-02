@@ -125,8 +125,9 @@ begin
     if CompareText(ExtractFileName(Dir), 'AddOns') = 0 then Dir := ExtractFileDir(ExtractFileDir(ExtractFileDir(Dir)));
     if CompareText(ExtractFileName(Dir), '_classic_beta_') = 0 then Dir := ExtractFileDir(Dir);
     if not DirExists(AddBackslash(Dir) + '_classic_beta_') then begin
-      MsgBox('There''s no _classic_beta_ folder in' + #13#10 + Dir + #13#10#13#10 +
-             'Pick your World of Warcraft folder: the one that holds _classic_beta_ (WoW Forever).', mbError, MB_OK);
+      // SuppressibleMsgBox: a silent install (/SUPPRESSMSGBOXES) with a wrong /DIR fails instead of hanging on the box.
+      SuppressibleMsgBox('There''s no _classic_beta_ folder in' + #13#10 + Dir + #13#10#13#10 +
+             'Pick your World of Warcraft folder: the one that holds _classic_beta_ (WoW Forever).', mbError, MB_OK, IDOK);
       Result := False;
     end else
       WizardForm.DirEdit.Text := Dir;

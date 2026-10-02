@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Stakeout in Westfall",
-   "body": "Perched on the bluffs overlooking the ocean in northern Westfall stands a lonely stone spire claimed by the Defias Brotherhood. While the Brotherhood's human thieves and brigands are common across the plains, Agent Kearnen noticed strange developments after weeks of solitary surveillance. A bizarre shipment recently arrived directly from the shadowed woods of Duskwood, escorted by monstrous, deformed sentries unlike any ordinary highwaymen.",
+   "body": "At the southeastern edge of Westfall, near the river and north of the Dagger Hills, stands a lonely stone spire claimed by the Defias Brotherhood. While the Brotherhood's human thieves and brigands are common across the plains, Agent Kearnen noticed strange developments after weeks of solitary surveillance. A bizarre shipment recently arrived directly from the shadowed woods of Duskwood, escorted by monstrous, deformed sentries unlike any ordinary highwaymen.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
   },
   {
    "title": "Zanzil's Concoction",
-   "body": "Recovered from the chest, Klaven Mortwake's personal journal details a grim partnership linking the Defias, the Venture Company, and the jungle trolls of Stranglethorn. The writings reveal that the witch doctor Zanzil discovered an alchemical poison potent enough to raise unthinking, obedient undead drones. For Master Mathias Shaw and SI:7, this discovery exposes the Defias's expanding ambitions and cements the vital necessity of counter-poisons in the kingdom's covert arsenal.",
+   "body": "Recovered from the chest, Klaven Mortwake's personal journal details a grim partnership linking the Defias, the Venture Company, and the jungle trolls of Stranglethorn. The writings reveal that the witch doctor Zanzil discovered an alchemical poison potent enough to raise unthinking, obedient undead drones. For Master Mathias Shaw and SI:7, this discovery exposes the Defias's expanding ambitions and makes a firm understanding of poisons essential for its agents.",
    "spoiler": 2
   }
  ],
@@ -43,7 +43,7 @@
     "where is klavens tower",
     "defias tower location westfall"
    ],
-   "answer": "Klaven's Tower is situated along the northwestern cliffs of Westfall, overlooking the sea. It serves as a secure, fortified redoubt for the Defias Brotherhood."
+   "answer": "Klaven's Tower lies at the southeastern edge of Westfall, near the river and north of the Dagger Hills. It serves as a secure, fortified redoubt for the Defias Brotherhood."
   },
   {
    "q": "Who is Agent Kearnen?",
@@ -102,7 +102,7 @@
   },
   {
    "target": "race:Human",
-   "text": "Human defenders of Stormwind are horrified to see their former countrymen twisted into mindless undead drones along the peaceful bluffs of Westfall."
+   "text": "Human defenders of Stormwind are horrified to see their former countrymen twisted into mindless undead drones in Westfall."
   }
  ],
  "keywords": [

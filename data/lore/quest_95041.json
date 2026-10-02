@@ -1,0 +1,120 @@
+{
+ "key": "quest:95041",
+ "type": "quest",
+ "name": "Data Hoarders",
+ "era": "forever",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   95041
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "10"
+ },
+ "summary": "Data Hoarders is a task given by Jemma Quikswitch, an exiled gnome residing in Ironforge. During the desperate evacuation of Gnomeregan, she copied her family's most prized archives onto punch cards, only to lose several in the freezing drifts outside the city gates. Recovering these lost data cards means salvaging everything from advanced naval engineering schematics to irreplaceable family recipes.",
+ "sections": [
+  {
+   "title": "A Scramble in the Snow",
+   "body": "When the trogg invasion and subsequent radiation disaster forced the gnomes out of Gnomeregan, thousands fled with whatever belongings they could snatch up in the chaos. Jemma Quikswitch took the prudent step of transcribing generations of family knowledge into physical punch card archives. Tragically, a damaged satchel spilled several key cards into the snowfields surrounding the fallen city. Without these missing punch cards, the remaining data registers as indecipherable gibberish, threatening to erase her family's intellectual legacy.",
+   "spoiler": 0
+  },
+  {
+   "title": "Equations and Chili",
+   "body": "Gnomish data archives reflect the peculiar breadth of their civilization's priorities. The Quikswitch family records include profound arcanotechnical field equations, vital Second War submarine hull blueprints, and Grandma Quikswitch's secret chili recipe. To an outsider, combining military engineering with household cooking might seem odd, but to surviving refugees in Ironforge, preserving domestic comforts matters just as much as preserving technological marvels.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Jemma Quikswitch?",
+   "aliases": [
+    "jemma quikswitch",
+    "who gives data hoarders",
+    "quest giver data hoarders"
+   ],
+   "answer": "Jemma Quikswitch is a gnomish refugee who managed to escape the fall of Gnomeregan and now resides safely among the dwarven halls of Ironforge."
+  },
+  {
+   "q": "What data is stored on the lost cards?",
+   "aliases": [
+    "what are the punch cards",
+    "what was on the cards",
+    "quikswitch archives"
+   ],
+   "answer": "The punch cards hold the Quikswitch family's archives, including arcanotechnical equations, submarine hull schematics dating back to the Second War, and Grandma Quikswitch's chili recipe."
+  },
+  {
+   "q": "Where did the data cards get lost?",
+   "aliases": [
+    "where are cards",
+    "data card location",
+    "where did she drop them"
+   ],
+   "answer": "They slipped out through a hole in Jemma's pack while she was fleeing Gnomeregan, leaving them buried in the snowy terrain just outside the subterranean city's gates in Dun Morogh."
+  },
+  {
+   "q": "Why can't Jemma read the surviving cards without the missing ones?",
+   "aliases": [
+    "why need all cards",
+    "scrambled data",
+    "punch card data"
+   ],
+   "answer": "The physical punch cards function as an interconnected sequence. Without the complete set to provide the necessary indexing and continuity, the stored data remains scrambled and unrecoverable."
+  },
+  {
+   "q": "What role did gnomes play in the Second War regarding submarines?",
+   "aliases": [
+    "gnome submarines second war",
+    "submarine hull designs"
+   ],
+   "answer": "During the Second War, gnomes contributed heavily to the Alliance military effort through advanced engineering, specifically designing and piloting submersible vessels to counter the Horde's naval forces."
+  },
+  {
+   "q": "Why are gnomish refugees living in Ironforge?",
+   "aliases": [
+    "why are gnomes in ironforge",
+    "gnomes living with dwarves"
+   ],
+   "answer": "Following the sudden fall of Gnomeregan to trogg invaders and catastrophic radiation, the surviving gnomes fled their subterranean home and were offered sanctuary by King Magni Bronzebeard in the neighboring dwarven city of Ironforge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomish adventurers, recovering these punch cards is a matter of cultural preservation, ensuring that vital inventions and family memories are not lost to the radioactive ruins of their homeland."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers can appreciate the immense value hidden on these cards, which contain authentic Second War submarine hull blueprints and complex arcanotechnical equations."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Tucked alongside world-class engineering schematics is Grandma Quikswitch's personal chili recipe, proving that good food holds as much sentimental value as military science."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance relies heavily on gnomish ingenuity; helping displaced refugees preserve wartime engineering records ensures that valuable Alliance technical knowledge isn't lost forever."
+  }
+ ],
+ "keywords": [
+  "data hoarders",
+  "dun morogh",
+  "gnomeregan",
+  "ironforge",
+  "jemma quikswitch",
+  "punch cards",
+  "second war",
+  "submarine hull"
+ ],
+ "related": [
+  "zone:gnomeregan",
+  "zone:ironforge",
+  "topic:gnome",
+  "zone:dunmorogh",
+  "topic:second-war"
+ ],
+ "attribution": [
+  "In-game quest text: Data Hoarders"
+ ]
+}

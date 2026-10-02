@@ -17,16 +17,16 @@
   "wiki": "Bashal'Aran (quest)",
   "chain": []
  },
- "summary": "Perched upon a bluff in the overrun ruins of Bashal'Aran, an unearthly blue aura repels the demonic satyrs and vicious grells that infest the ancient night elven city. Thundris Windweaver, the elder of Auberdine, sends adventurers to investigate the source of this untouched sanctuary. Reaching the site reveals the lingering spirit of Asterion, an ancient highborne presence yearning for civil company.",
+ "summary": "The demonic satyrs and vicious grells that infest the ancient night elven city of Bashal'Aran will not approach one shrine, bathed in an unearthly blue aura. Thundris Windweaver, the elder of Auberdine, sends adventurers to investigate the source of this untouched sanctuary. Reaching the site reveals the lingering spirit of Asterion, an ancient highborne presence yearning for civil company.",
  "sections": [
   {
    "title": "A Beacon in the Ruins",
-   "body": "Bashal'Aran once stood as a glorious settlement of the ancient Kaldorei Empire, but its broken marble and overgrown arches now teem with demonic taint. Twisted satyrs and corrupt grells feed greedily upon the lingering magical energies of the ruins, their malice swelling with every passing day. Yet despite their predatory dominion, Thundris Windweaver in Auberdine spotted a curious curiosity: atop a western bluff in the ruins, an ethereal blue aura burns pure, keeping every demon and sprite at bay.",
+   "body": "Bashal'Aran once stood as a glorious settlement of the ancient Kaldorei Empire, but its broken marble and overgrown arches now teem with demonic taint. Twisted satyrs and corrupt grells feed greedily upon the lingering magical energies of the ruins, their malice swelling with every passing day. Yet despite their predatory dominion, Thundris Windweaver in Auberdine spotted a curious curiosity: atop a western bluff in the ruins, an ethereal blue aura burns over a shrine that no demon will approach.",
    "spoiler": 0
   },
   {
    "title": "The Wounded Shade",
-   "body": "Braving the demonic patrols to reach the elevated shrine reveals that the warding light is no natural phenomenon. It emanates from Asterion, an ancient spirit whose vigil has persisted through centuries of solitude. Surrounded by howling beasts and vile fiends, the weary shade views even a traveling stranger as a welcome respite from decades of isolation.",
+   "body": "Braving the demonic patrols to reach the elevated shrine reveals that the blue light is no natural phenomenon. It emanates from Asterion, an ancient spirit whose vigil has persisted through centuries of solitude. Surrounded by howling beasts and vile fiends, the weary shade views even a traveling stranger as a welcome respite from decades of isolation.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "why demons afraid",
     "why satyrs stay away"
    ],
-   "answer": "The shrine is protected by a warding blue aura projected by the ancient spirit Asterion, whose lingering magic repels the demonic satyrs and corrupt grells that otherwise infest the ruins."
+   "answer": "No one knows yet. A strange blue aura permeates the shrine, and the demonic satyrs and grells that otherwise infest the ruins will not approach it. Thundris Windweaver sends you to find the aura's source, which leads you to the ancient spirit Asterion."
   },
   {
    "q": "Who sends you on this quest?",
@@ -63,7 +63,7 @@
     "who is the ghost",
     "asterion lore"
    ],
-   "answer": "Asterion is an ancient night elf shade bound to a shrine in Bashal'Aran. Long separated from civilized society, he endures surrounded by hostile demonic beasts while maintaining the site's protective barrier."
+   "answer": "Asterion is an ancient night elf shade bound to a shrine in Bashal'Aran. Long separated from civilized society, he endures surrounded by hostile demonic beasts."
   },
   {
    "q": "What is Bashal'Aran?",

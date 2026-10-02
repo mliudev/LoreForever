@@ -1,0 +1,110 @@
+{
+ "key": "quest:97894",
+ "type": "quest",
+ "name": "Business in Auberdine",
+ "era": "forever",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   97894
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "17"
+ },
+ "summary": "Business in Auberdine is an errand offered by the dwarven merchant Borgus Steelhand in Stormwind. Borgus asks travelers sailing west to check in on his brother Gorbold, who recently took up trade in the night elven port of Auberdine. It connects the bustling docks of the human capital with the misty shores of northern Kalimdor.",
+ "sections": [
+  {
+   "title": "A Dwarf Far from Home",
+   "body": "The Steelhand family is known for sharp wits and fair trading, and Borgus is quick to vouch for their reputation. His brother, Gorbold Steelhand, recently ventured across the Great Sea to work a merchant stall in Auberdine. Supplying ships calling into Darkshore seemed like an easy path to wealth, but weeks of complete silence have left Borgus uneasy about how his brother is actually faring so far from Ironforge and Stormwind.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Harbor Passage",
+   "body": "Sailing from the Eastern Kingdoms to the untamed wilderness of Kalimdor used to require convoluted journeys through Menethil Harbor or neutral goblin ports like Booty Bay. Borgus points wayfarers toward a vessel stationed at the southern-most dock of Stormwind Harbor, offering a direct nautical link straight into Auberdine's long wooden piers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Borgus Steelhand?",
+   "aliases": [
+    "borgus steelhand",
+    "who gives business in auberdine",
+    "borgus"
+   ],
+   "answer": "Borgus Steelhand is a dwarven merchant in Stormwind. Proud of his family's reputation for honest deals, he seeks passing adventurers to carry word to his brother Gorbold across the sea."
+  },
+  {
+   "q": "Where is Gorbold Steelhand located?",
+   "aliases": [
+    "where is gorbold",
+    "find gorbold steelhand",
+    "gorbold location"
+   ],
+   "answer": "Gorbold Steelhand is stationed in Auberdine, the main port settlement in Darkshore along Kalimdor's northwest coast. He runs a merchant stall catering to arriving ships."
+  },
+  {
+   "q": "How do you reach Auberdine from Stormwind?",
+   "aliases": [
+    "boat to auberdine",
+    "how to get to darkshore from stormwind",
+    "stormwind to auberdine boat"
+   ],
+   "answer": "A ship departs directly from the southern-most pier in Stormwind Harbor, ferrying passengers straight across the Great Sea to the docks of Auberdine in Darkshore."
+  },
+  {
+   "q": "Why is Borgus worried about his brother?",
+   "aliases": [
+    "why check on gorbold",
+    "what happened to gorbold"
+   ],
+   "answer": "Gorbold left weeks ago to join a merchant stall in Auberdine, expecting to turn a great profit supplying seafaring vessels. However, he has not sent any word back home since his departure, prompting Borgus to ask travelers to investigate."
+  },
+  {
+   "q": "What kind of settlement is Auberdine?",
+   "aliases": [
+    "what is auberdine",
+    "auberdine town"
+   ],
+   "answer": "Auberdine is a coastal haven built and inhabited primarily by night elves. Located in Darkshore, it serves as the Alliance's primary shipping hub and ferry crossing point between northern Kalimdor and the island realm of Teldrassil."
+  },
+  {
+   "q": "What is the Steelhand family known for?",
+   "aliases": [
+    "steelhand family",
+    "steelhands"
+   ],
+   "answer": "The Steelhands are a dwarven merchant family known for commerce, trading stalls, and their boast of always offering a fair deal to travelers and dockworkers alike."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven commerce reaches far beyond the Khaz Modan mountains, with enterprising merchants like the Steelhands setting up stalls even in the quiet, shadowed settlements of the night elves."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Direct maritime travel between Stormwind Harbor and Auberdine strengthens trade and military ties between the human kingdom and the Kaldorei lands of northern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "borgus steelhand",
+  "business in auberdine",
+  "darkshore",
+  "gorbold steelhand",
+  "merchant",
+  "steelhand",
+  "stormwind harbor"
+ ],
+ "related": [
+  "subzone:auberdine",
+  "npc:gorbold-steelhand",
+  "zone:darkshore",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "In-game quest text: Business in Auberdine"
+ ]
+}

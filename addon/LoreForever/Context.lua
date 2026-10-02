@@ -153,6 +153,59 @@ function Context.NPCName(unit)
   return name
 end
 
+-- Your journey --------------------------------------------------------------------------------------------------
+-- What Journey.lua records for this character in LoreForeverDB.journey (the journey context model, LOR-108): the
+-- server's list of completed quests, the people and places seen and an event log. Answers use it for the "you" line,
+-- ranking and the own-quest spoiler unlock. Records come from SavedVariables, so every field is checked.
+
+-- This character's journey record, or nil when there's none yet or "Remember my journey" is off.
+function Context.Journey()
+  local db = LoreForeverDB
+  if type(db) ~= "table" or (type(db.settings) == "table" and db.settings.journey == false) then return nil end
+  local J, c = ns.Journey, nil
+  if J and J.On and not try(J.On) then return nil end
+  if J and J.Char then
+    c = try(J.Char)
+  else
+    local chars = type(db.journey) == "table" and db.journey.chars
+    local name = try(UnitName, "player")
+    local realm = try(GetNormalizedRealmName) or try(GetRealmName) or "?"
+    c = type(chars) == "table" and type(name) == "string" and chars[name .. "-" .. realm]
+  end
+  return type(c) == "table" and c or nil
+end
+
+local doneCache = {}
+-- The character's completed quest IDs as a set ({[questID] = true}), or nil. Rebuilt only when the list changes.
+function Context.Done()
+  local c = Context.Journey()
+  local list = c and c.completed
+  if type(list) ~= "table" then return nil end
+  if doneCache.list ~= list or doneCache.n ~= #list then
+    local set = {}
+    for _, id in ipairs(list) do set[id] = true end
+    doneCache.list, doneCache.n, doneCache.set = list, #list, set
+  end
+  return doneCache.set
+end
+
+-- Names of the people met for the first time this session (since the last login), oldest first, or nil. With no
+-- login in the log there's no telling where the session began, so nobody counts.
+function Context.Met()
+  local c = Context.Journey()
+  local events = c and c.events
+  if type(events) ~= "table" then return nil end
+  local out = {}
+  for i = #events, 1, -1 do
+    local e = events[i]
+    if type(e) == "table" then
+      if e.k == "login" then return out end
+      if e.k == "npc" and type(e.n) == "string" then table.insert(out, 1, e.n) end
+    end
+  end
+  return {}
+end
+
 -- Full snapshot in the shape the engine, the log and the live prompt all use.
 function Context.Snapshot()
   local place, char = Context.Place(), Context.Character()
@@ -167,6 +220,7 @@ function Context.Snapshot()
     quests = Context.Quests(), questItems = Context.Items(),
     professions = profNames, professionRanks = profs,
     targetName = Context.NPCName("target"),
+    met = Context.Met(), done = Context.Done(),
   }
 end
 

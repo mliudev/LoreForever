@@ -1,0 +1,114 @@
+{
+ "key": "quest:1681",
+ "type": "quest",
+ "name": "Ironband's Compound",
+ "era": "forever",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   1681
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "11"
+ },
+ "summary": "Ironforge smith Tormus Deepforge seeks vengeance for his mentor, Sturgy Ironband, whose remote teaching outpost in eastern Dun Morogh fell to a sudden and bloody assault. The slaughter followed the arrival of a rare umbral ore shipment, which immediately drew the violent attention of the Dark Iron dwarves.",
+ "sections": [
+  {
+   "title": "A Master's Fall",
+   "body": "Sturgy Ironband was revered across Ironforge as an unmatched instructor of the smithing craft. From his secluded compound south of Helm's Bed Lake, he instructed promising pupils far from the crowded anvils of the Great Forge. That peaceful enterprise ended abruptly when one of his students acquired an unfamiliar mineral dubbed umbral ore. Intrigued by its properties, Ironband resolved to experiment with the sample, entirely unaware that possessing it had marked his school for ruin.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Dark Iron Raid",
+   "body": "Shortly after the umbral ore reached the compound, hostile Dark Iron dwarves launched a ruthless surprise attack against the outpost. The assailants showed no mercy, slaughtering Sturgy Ironband and every apprentice under his care before occupying the grounds. Tormus Deepforge, one of Ironband's surviving proteges based in the capital, refuses to let the massacre stand, dispatching Alliance travelers to avenge his teacher and recover the cursed ore that brought destruction to the encampment.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Ironband's Compound located?",
+   "aliases": [
+    "ironband location",
+    "where is compound",
+    "find ironband's compound"
+   ],
+   "answer": "Ironband's Compound lies in eastern Dun Morogh, tucked into the snowy hills south of Helm's Bed Lake."
+  },
+  {
+   "q": "Who was Sturgy Ironband?",
+   "aliases": [
+    "who is ironband",
+    "sturgy ironband lore",
+    "who was sturgy"
+   ],
+   "answer": "Sturgy Ironband was a renowned dwarven master blacksmith. He operated a dedicated teaching compound outside Ironforge where he trained students in advanced metalworking before being slain in a Dark Iron raid."
+  },
+  {
+   "q": "Why did the Dark Iron dwarves attack the compound?",
+   "aliases": [
+    "why attack",
+    "why dark iron raid",
+    "dark iron motive"
+   ],
+   "answer": "The attack was provoked by a shipment of umbral ore brought in by one of Ironband's students. Shortly after the ore arrived, the Dark Irons descended upon the compound, slaughtering everyone present and taking control of the site."
+  },
+  {
+   "q": "What is umbral ore?",
+   "aliases": [
+    "umbral ore lore",
+    "what is umbral",
+    "strange ore"
+   ],
+   "answer": "Umbral ore is an uncommon and mysterious mineral. Master Ironband was eager to forge it, but its arrival immediately attracted the lethal interest of the Dark Iron clan."
+  },
+  {
+   "q": "Who is Tormus Deepforge?",
+   "aliases": [
+    "who gives ironbands compound",
+    "tormus deepforge lore",
+    "who is deepforge"
+   ],
+   "answer": "Tormus Deepforge is a blacksmith in Ironforge and a former apprentice of Sturgy Ironband. Devastated by the loss of his teacher, he sends adventurers to punish the Dark Iron intruders and retrieve the ore."
+  },
+  {
+   "q": "What does Tormus want recovered from the compound?",
+   "aliases": [
+    "what to get",
+    "compound objective",
+    "quest turn in"
+   ],
+   "answer": "Tormus tasks travelers with eliminating the Dark Iron raiders to avenge Ironband and securing the shipment of umbral ore that caused the catastrophe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The tragic fate of Sturgy Ironband serves as a cautionary tale of how the pursuit of exotic, untested ores can attract deadly perils to the forge."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The raid on Ironband's outpost highlights the bitter and lingering hatred between the Bronzebeard dwarves of Ironforge and their Dark Iron kin."
+  }
+ ],
+ "keywords": [
+  "blacksmithing",
+  "dark iron",
+  "dun morogh",
+  "helm's bed lake",
+  "ironband's compound",
+  "sturgy ironband",
+  "tormus deepforge",
+  "umbral ore"
+ ],
+ "related": [
+  "subzone:ironband-s-compound",
+  "npc:tormus-deepforge",
+  "subzone:helm-s-bed-lake",
+  "zone:dunmorogh",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "In-game quest text: Ironband's Compound"
+ ]
+}

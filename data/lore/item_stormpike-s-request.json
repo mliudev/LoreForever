@@ -10,11 +10,11 @@
    "quest:1338"
   ]
  },
- "summary": "Stormpike's Request is a written commission dispatched by Mountaineer Stormpike from the cold peaks of Dun Morogh to Stormwind City. The letter petitions master armorsmith Furen Longbeard to craft a custom shield of unmatched dwarven quality.",
+ "summary": "Stormpike's Request is a written commission dispatched by Mountaineer Stormpike from the hills of Loch Modan to Stormwind City. The letter petitions master armorsmith Furen Longbeard to craft a custom shield of unmatched dwarven quality.",
  "sections": [
   {
    "title": "A Northern Commission",
-   "body": "While stationed far to the north in Dun Morogh, Mountaineer Stormpike requires a sturdy new shield to weather the dangers of the dwarven frontier. Rather than trusting an ordinary smith, he insists on commissioning Furen Longbeard, an armorsmith whose legendary craftsmanship he holds in the highest regard. Because Furen now resides far to the south among the humans of Stormwind's Dwarven District\u2014lured away from Ironforge by what Stormpike assumes must be a king's ransom\u2014the mountaineer relies on traveling adventurers to deliver his formal request across the kingdoms.",
+   "body": "While stationed far to the north in Loch Modan, Mountaineer Stormpike requires a sturdy new shield to weather the dangers of the dwarven frontier. Rather than trusting an ordinary smith, he insists on commissioning Furen Longbeard, an armorsmith whose legendary craftsmanship he holds in the highest regard. Because Furen now resides far to the south among the humans of Stormwind's Dwarven District\u2014lured away from Ironforge by what Stormpike assumes must be a king's ransom\u2014the mountaineer relies on traveling adventurers to deliver his formal request across the kingdoms.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
     "stormpike order item",
     "stormpike request"
    ],
-   "answer": "It is a written order sent by Mountaineer Stormpike from Dun Morogh requesting that the master armorsmith Furen Longbeard forge him a high-quality shield."
+   "answer": "It is a written order sent by Mountaineer Stormpike from Loch Modan requesting that the master armorsmith Furen Longbeard forge him a high-quality shield."
   },
   {
    "q": "Who wrote this letter?",
@@ -40,7 +40,7 @@
     "who wrote it",
     "mountaineer stormpike"
    ],
-   "answer": "It was penned by Mountaineer Stormpike, a dwarven sentry defending the snowy passes of Dun Morogh who deeply admires Furen Longbeard's smithing craft."
+   "answer": "It was penned by Mountaineer Stormpike, a dwarven sentry defending the passes of Loch Modan who deeply admires Furen Longbeard's smithing craft."
   },
   {
    "q": "Where does this letter need to go?",

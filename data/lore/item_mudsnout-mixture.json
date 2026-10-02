@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Colloid of Decay",
-   "body": "When Apothecary Lydon in Tarren Mill seeks to craft a virulent new biological weapon, he sends the base composite from Hillsbrad's native Mudsnout gnolls north to the Undercity. Impressed by the composite's potential, Master Apothecary Faranell introduces his own colloid of decay into the blend, producing the volatile Mudsnout Mixture. The solution stabilizes the gnoll compound while readying its virulent properties for further catalytic refinement back in the foothills.",
+   "body": "When Apothecary Lydon in Tarren Mill seeks to craft a virulent new biological weapon, he sends a base composite of Mudsnout Blossoms, toxic mushrooms from the gnoll-held Nethander Stead, north to the Undercity. Impressed by the composite's potential, Master Apothecary Faranell introduces his own colloid of decay into the blend, producing the volatile Mudsnout Mixture. The solution stabilizes the mushroom compound while readying its virulent properties for further catalytic refinement back in the foothills.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "why mudsnout",
     "gnoll poison lore"
    ],
-   "answer": "The Mudsnout gnolls of Hillsbrad Foothills yield organic compounds that the Royal Apothecary Society discovered make an exceptional base for carrying virulent blights and toxic concoctions."
+   "answer": "It doesn't, despite the name. The composite is made from Mudsnout Blossoms, toxic mushrooms that grow at Nethander Stead among the Mudsnout gnolls; Apothecary Lydon mixes them into a composite before Faranell adds his colloid of decay."
   },
   {
    "q": "How is the mixture activated?",

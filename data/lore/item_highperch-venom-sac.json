@@ -19,7 +19,7 @@
   },
   {
    "title": "A Faraway Buyer",
-   "body": "Though native to the deep canyons of central Kalimdor, this venom draws interest far across the continent. In the quiet port town of Auberdine, the night elf Fiora Longears pays handsomely for fresh sacs collected from Highperch's broods. She seeks samples swollen with venom\u2014typically found on fertile females, patriarchs, and the fierce mate Heartrazor\u2014fueling trade in dangerous reagents far from the beasts' natural desert habitat.",
+   "body": "Though native to the deep canyons of central Kalimdor, this venom draws interest far across the continent. In the quiet port town of Auberdine, the night elf Fiora Longears pays handsomely for fresh sacs collected from Highperch's broods. She seeks samples swollen with venom\u2014typically found only on young wyverns or fertile females\u2014fueling trade in dangerous reagents far from the beasts' natural desert habitat.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "auberdine venom buyer",
     "who buys wyvern venom"
    ],
-   "answer": "Fiora Longears recognizes that wyvern venom is intensely valuable in specific trading circles\u2014sometimes even more lucrative than the mounts themselves. She commissions travelers venturing into the Shimmering Flats and surrounding mesas to retrieve intact sacs for trade."
+   "answer": "Fiora Longears recognizes that wyvern venom is intensely valuable in specific trading circles\u2014sometimes even more lucrative than the mounts themselves. She commissions travelers venturing to Highperch in Thousand Needles to retrieve intact sacs for trade."
   },
   {
    "q": "Are all wyvern venom sacs identical?",
@@ -48,7 +48,7 @@
     "wyvern venom quality",
     "bursting venom sacs"
    ],
-   "answer": "The potency and volume vary. The most prize-worthy sacs are swollen and bursting with poison, which is typically found among young wyverns, mated consorts, or fertile breeding females atop the mesas."
+   "answer": "The potency and volume vary. The most prize-worthy sacs are swollen and bursting with poison, which is typically found among young wyverns or fertile breeding females."
   },
   {
    "q": "How does the Horde utilize these wyverns compared to the Alliance?",

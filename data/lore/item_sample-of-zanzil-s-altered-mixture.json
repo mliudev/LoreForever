@@ -10,11 +10,11 @@
    "quest:2479"
   ]
  },
- "summary": "This vial contains a potent specimen of a concoction brewed by the witch doctor Zanzil, altered during a covert infiltration in the Barrens. Carried by an operative suffering from its debilitating effects, the sample is sent across the sea to Tarren Mill in hopes of unlocking both an antidote and the lethal secrets of poisoncraft.",
+ "summary": "This vial contains a potent specimen of a concoction brewed by the witch doctor Zanzil, recovered during a covert infiltration in the Barrens. Carried by an operative suffering from its debilitating effects, the sample is sent across the sea to Tarren Mill in hopes of unlocking both an antidote and the lethal secrets of poisoncraft.",
  "sections": [
   {
    "title": "A Toxic Token",
-   "body": "After infiltrating the Venture Company's operations at the Sludge Fen and meddling with their vats, an operative ends up afflicted by Zanzil's foul touch. Shenthul orders the stricken agent across the Great Sea with a sample of the brew in hand. Finding a cure means locating Serge Hinott, an apothecary stationed at Tarren Mill in Hillsbrad Foothills, who possesses the rare expertise required to isolate the toxin and decipher its components.",
+   "body": "After infiltrating the Venture Company's tower near the Sludge Fen and looting the cache of Zanzil's mixture from Gallywix's lockbox, an operative ends up afflicted by Zanzil's foul touch. Shenthul orders the stricken agent across the Great Sea with a sample of the brew in hand. Finding a cure means locating Serge Hinott, an apothecary stationed at Tarren Mill in Hillsbrad Foothills, who possesses the rare expertise required to isolate the toxin and decipher its components.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
     "sample of zanzils altered mixture",
     "zanzil poison sample"
    ],
-   "answer": "It is a specimen of an alchemical brew tied to the witch doctor Zanzil, altered during a mission at the Sludge Fen in the Barrens. It carries a potent toxin that inflicts lingering, debilitating effects on whoever comes into direct contact with it."
+   "answer": "It is a specimen of an alchemical brew tied to the witch doctor Zanzil, recovered during a mission to the Venture Co. tower near the Sludge Fen in the Barrens. It carries a potent toxin that inflicts lingering, debilitating effects on whoever comes into direct contact with it."
   },
   {
    "q": "Why do I need to take it to Serge Hinott?",

@@ -1,0 +1,115 @@
+{
+ "key": "quest:96047",
+ "type": "quest",
+ "name": "Camping 101: First Aid",
+ "era": "forever",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   96047
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "6"
+ },
+ "summary": "This task directs novice medics in Dun Morogh to expand their survival craft beyond simple bandages. By seeking out Thamner Pol in Kharanos, adventurers learn how to assemble a dedicated First Aid Kit to keep campers alive in the field.",
+ "sections": [
+  {
+   "title": "Tending Wounds in the Wild",
+   "body": "Adventurers braving the frozen reaches of Dun Morogh quickly discover that linen scraps and hasty stitches are only the beginning of survival medicine. True wilderness survival often depends on having established supplies at a resting site. Those who show aptitude in basic treatment are steered toward local craft instructors in Kharanos who can teach them how to turn raw medical supplies into complete kits tailored for camp survival.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Lessons of Kharanos",
+   "body": "In the bustling hamlet of Kharanos, Thamner Pol passes along practical techniques for outfitting expedition sites with emergency supplies. Knowing how to construct a proper field kit ensures that an entire party can bandage lacerations and recover their stamina together around the hearth fire before venturing back into the biting cold.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this task?",
+   "aliases": [
+    "why do camping 101 first aid",
+    "what does this quest do",
+    "camping 101 goal"
+   ],
+   "answer": "The task guides newly trained field medics to Thamner Pol in Kharanos, who teaches them how to craft functional First Aid Kits designed for adventurer campsites."
+  },
+  {
+   "q": "Who is Thamner Pol?",
+   "aliases": [
+    "who is thamner pol",
+    "thamner pol location",
+    "where is thamner pol"
+   ],
+   "answer": "Thamner Pol is a trainer based in the town of Kharanos in Dun Morogh. He instructs skilled survivalists on crafting profession-related gear to upgrade their wilderness camps."
+  },
+  {
+   "q": "Where does this training take place?",
+   "aliases": [
+    "where do i go",
+    "camping 101 location",
+    "kharanos first aid"
+   ],
+   "answer": "The training takes place in Kharanos, the primary settlement situated in central Dun Morogh south of Ironforge."
+  },
+  {
+   "q": "Why is a camp first aid kit important?",
+   "aliases": [
+    "what does first aid kit do",
+    "why make a first aid kit",
+    "camping first aid utility"
+   ],
+   "answer": "Injuries are common during expeditions in harsh wilderness. A dedicated First Aid Kit supplies resting adventurers with essential healing resources, allowing travelers to bind wounds and recover safely between battles."
+  },
+  {
+   "q": "Do you need prior medical training before seeking Thamner Pol?",
+   "aliases": [
+    "requirements for camping 101",
+    "first aid skill required",
+    "do i need first aid first"
+   ],
+   "answer": "Yes. Adventurers are expected to already know the basics of First Aid and demonstrate basic competence in the craft before Thamner Pol will teach them advanced camping recipes."
+  },
+  {
+   "q": "Is this pursuit open to any adventurer?",
+   "aliases": [
+    "can anyone do this",
+    "class requirements",
+    "who can learn camp first aid"
+   ],
+   "answer": "Any adventurer can take up First Aid regardless of their calling, making camp medicine a pragmatic skill for every traveler roaming Dun Morogh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven mountaineers rely heavily on sturdy, practical equipment when patrolling the high snowy passes of Dun Morogh, making a camp first aid kit an essential survival staple."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Refugees and gnomish wanderers operating out of Kharanos find efficient field medicine invaluable while surviving outside the lost halls of Gnomeregan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance recruits training in the frozen heart of Khaz Modan learn early that self-sufficiency and field medicine are vital assets to any military or exploratory unit."
+  }
+ ],
+ "keywords": [
+  "bandages",
+  "camping 101",
+  "dun morogh",
+  "first aid",
+  "first aid kit",
+  "kharanos",
+  "survival",
+  "thamner pol"
+ ],
+ "related": [
+  "subzone:kharanos",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "In-game quest text: Camping 101: First Aid"
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "key": "quest:95161",
+ "type": "quest",
+ "name": "Remember That I Love You",
+ "era": "forever",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   95161
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "22"
+ },
+ "summary": "Remember That I Love You is an Alliance quest that begins in the Stormwind Orphanage and sends travelers into the gloomy forests of Duskwood. Tasked with delivering a grim Blood-Stained Letter, adventurers must track down a newly adopted orphan named Jeremy Heartweaver and his adoptive mother, Avette Fellwood.",
+ "sections": [
+  {
+   "title": "A Message for an Orphan",
+   "body": "The children of the Stormwind Orphanage carry heavy burdens, having lost their families to warfare, hardship, and the chaos gripping the kingdom. Jeremy Heartweaver was one such ward until he was recently adopted by a woman named Avette Fellwood. While life out in the gloomy woods of Duskwood is fraught with peril and hard labor, caretakers at the orphanage believed it offered him a chance at family rather than remaining cooped up in the city.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Grim Token",
+   "body": "The quest revolves around carrying a Blood-Stained Letter meant for Jeremy, directed to the care of Avette Fellwood. Inquiries lead travelers south past the safety of Elwynn Forest and into the shadow of Duskwood. The grim nature of the parcel hints at a past tragedy that has followed young Jeremy far beyond Stormwind's gates.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Jeremy Heartweaver?",
+   "aliases": [
+    "jeremy",
+    "who is jeremy",
+    "orphan jeremy"
+   ],
+   "answer": "Jeremy Heartweaver is a young boy formerly raised in the Stormwind Orphanage. He was recently adopted by Avette Fellwood, leaving the city behind to live and work in the shadowed realm of Duskwood."
+  },
+  {
+   "q": "Who is Avette Fellwood?",
+   "aliases": [
+    "avette",
+    "who is avette",
+    "adoptive mother"
+   ],
+   "answer": "Avette Fellwood is Jeremy's newly adoptive mother who resides in Duskwood. The matrons of Stormwind regard her as a sweet woman who likely took in Jeremy to gain another pair of hands for her daily labors."
+  },
+  {
+   "q": "What is the Blood-Stained Letter?",
+   "aliases": [
+    "blood-stained letter",
+    "the letter",
+    "what is the letter"
+   ],
+   "answer": "The Blood-Stained Letter is a somber delivery item meant for Jeremy Heartweaver and delivered directly into the hands of his adoptive guardian, Avette Fellwood, carrying echoes of violence or tragedy."
+  },
+  {
+   "q": "Where do I find Avette Fellwood?",
+   "aliases": [
+    "avette fellwood location",
+    "where is avette",
+    "find avette"
+   ],
+   "answer": "Avette Fellwood resides out in Duskwood, the dark forest territory located directly south of Elwynn Forest across the river."
+  },
+  {
+   "q": "Why was Jeremy sent to Duskwood?",
+   "aliases": [
+    "why duskwood",
+    "why did jeremy leave stormwind",
+    "orphanage duskwood"
+   ],
+   "answer": "Jeremy was adopted out of the Stormwind Orphanage. While Duskwood is a dangerous and forbidding land, his caretakers believed living with a family and helping with honest labor was better than remaining an institutionalized orphan."
+  },
+  {
+   "q": "Which faction can take this quest?",
+   "aliases": [
+    "is this alliance",
+    "alliance only",
+    "horde quest"
+   ],
+   "answer": "This quest is strictly for the Alliance, originating from the human capital of Stormwind and proceeding into the Alliance-held territory of Duskwood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Carrying tokens of fallen or vanished kin to adopted orphans highlights the enduring personal costs of the kingdom's turbulent state."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, this errand bridges the relatively safe heart of the realm with the haunted, forgotten settlements of Duskwood."
+  }
+ ],
+ "keywords": [
+  "avette fellwood",
+  "blood-stained letter",
+  "duskwood",
+  "jeremy heartweaver",
+  "remember that i love you",
+  "stormwind",
+  "stormwind orphanage"
+ ],
+ "related": [
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "In-game quest text: Remember That I Love You"
+ ]
+}

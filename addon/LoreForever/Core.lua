@@ -100,6 +100,7 @@ local function arrive()
   local zk = ns.engine:ZoneKey(zone)
   local e = zk and ns.DB.entries["zone:" .. zk]
   ns.Log.Visit(zone, UnitLevel and UnitLevel("player"), e ~= nil)
+  ns.Voice.OnZone(zk)   -- its places and people are in a lands pack you don't have: say so, once
   if not e or nudged[zone] then return end
   nudged[zone] = true
   local z = ns.DB.zones[zk]
@@ -372,6 +373,9 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.Lang.Init()   -- scans packs; the language pack, if any, goes in before the engine indexes the text
     setBindingNames()
     ns.engine = ns.Engine.new(ns.DB)
+    -- Before the voice: chapter recordings join its clip list. Its errors are reported, never fatal to the rest.
+    local ok, err = pcall(ns.Journey.Init)
+    if not ok and geterrorhandler then geterrorhandler()(err) end
     ns.Voice.Init()
     ns.UI.Create(ns.engine)
     ns.Hooks.Init()
@@ -383,6 +387,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
       GOLD .. key .. "|r") or string.format(L["%d lore entries ready. Type /lore, or click the book beside your menu bar."], n))
     for _, note in ipairs(ns.lang.notes) do say(note) end
     C_Timer.After(6, ns.Hooks.MaybeOnboard)
+    C_Timer.After(3, ns.Journey.Announce)
   elseif event == "PLAYER_ENTERING_WORLD" or event == "ZONE_CHANGED_NEW_AREA" then
     C_Timer.After(2, arrive)
     C_Timer.After(1, ns.Voice.OnTaxiCheck)
@@ -480,11 +485,16 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(L["/lore <question> - ask directly, e.g. /lore why is westfall so poor"])
     say(L["/lore key - choose the key that opens the panel; /lore key narrate - a key that plays narration"])
     say(L["/lore narrations - every recorded narration, grouped (your starting area first)"])
+    say(L["/lore journey - what your character has done so far; /lore sync - save it now (reloads)"])
+    if ns.Companion.Installed() then
+      say(L["/lore ask <question> - ask live answers (the answer appears on your screen)"])
+    end
     say(L["/lore options - settings (tooltips, hints, flight narration)"])
     say(L["/lore lang - choose the language (language packs are separate add-ons)"])
     say(L["/lore primer - dungeon primer for where you are"])
     say(L["/lore listen - read the last answer aloud; /lore narrate - narrate flights on/off"])
     say(L["/lore voice - list narration voices; /lore voice <number or name> - switch (auto: default, none: game voice)"])
+    say(L["/lore report - tell us the last answer was wrong (or click the cross under any answer)"])
     say(L["/lore ctx | export | visits | stats - what Lore Forever sees, for bug reports and playtests"])
     say(string.format(L["Questions, requests and bug reports: %s"], DISCORD_URL))
   elseif cmd == "key" or cmd == "key narrate" then
@@ -492,6 +502,20 @@ SlashCmdList.LOREFOREVER = function(msg)
   elseif cmd == "narrations" then
     if not ns.UI.frame:IsShown() then ns.UI.frame:Show() end
     ns.UI.ShowTab("narrations")
+  elseif cmd == "journey" then
+    if not ns.UI.frame:IsShown() then ns.UI.frame:Show() end
+    ns.UI.ShowTab("journey")
+  elseif cmd == "sync" then
+    ns.Journey.AskSync()
+  elseif cmd == "ask" or cmd:match("^ask%s") then
+    -- Live answers once the companion app is installed; until then it's an ordinary question.
+    local question = msg:match("^%S+%s*(.-)$")
+    if ns.Companion.Installed() then
+      ns.Companion.Ask(question)
+    else
+      if not ns.UI.frame:IsShown() then ns.UI.frame:Show() end
+      if question ~= "" then ns.UI.Ask(question, "slash") end
+    end
   elseif isVoiceCommand(cmd, msg:match("^%S+%s+(.-)$")) then
     voiceCommand(msg:match("^%S+%s+(.-)$"))
   elseif cmd == "options" or cmd == "config" or cmd == "settings" then
@@ -516,8 +540,9 @@ SlashCmdList.LOREFOREVER = function(msg)
     S().unitTooltips = not S().unitTooltips
     S().itemTooltips = S().unitTooltips
     say(string.format(S().unitTooltips and L["%s on"] or L["%s off"], L["tooltip lore"]))
-  elseif cmd == "feedback" then
-    toggleSetting("feedback", L["feedback buttons"])
+  elseif cmd == "report" or cmd == "feedback" then
+    -- Report the newest answer (the same box as the cross under it). /lore feedback used to turn on test buttons.
+    if ns.UI.lastLog then ns.UI.ShowReport(ns.UI.lastLog) else say(L["ask something first, then report the answer."]) end
   elseif cmd == "ctx" then
     local c = ns.Context.Snapshot()
     say(string.format("zone=%s subzone=%s mapID=%s instance=%s target=%s", tostring(c.zone), tostring(c.subzone),
@@ -532,7 +557,9 @@ SlashCmdList.LOREFOREVER = function(msg)
     local zk = ns.engine:ZoneKey(c.zone)
     say("zone lore: " .. (zk and ("zone:" .. zk) or "none"))
   elseif cmd == "export" then
-    showExport(toJSON(ns.Context.Snapshot()))
+    local c = ns.Context.Snapshot()
+    c.done = nil   -- every quest the character has finished: far too long for a bug report
+    showExport(toJSON(c))
   elseif cmd == "visits" then
     local rows = {}
     for zone, v in pairs(LoreForeverDB.visits) do rows[#rows + 1] = { zone = zone, v = v } end

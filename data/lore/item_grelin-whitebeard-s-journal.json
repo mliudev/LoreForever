@@ -10,7 +10,7 @@
    "quest:218"
   ]
  },
- "summary": "Grelin Whitebeard's Journal is a personal field notebook kept by the dwarf scout Grelin Whitebeard in Coldridge Valley. Containing critical notes on local Frostmane troll activity, the journal was stolen by the chieftain Grik'nir the Cold and dragged deep into Frostmane Hold.",
+ "summary": "Grelin Whitebeard's Journal is a personal field notebook kept by the dwarf scout Grelin Whitebeard in Coldridge Valley. Containing critical notes on local Frostmane troll activity, the journal was stolen by the chieftain Grik'nir the Cold and dragged into the troll cave in Coldridge Valley.",
  "sections": [
   {
    "title": "A Scout's Ledger",
@@ -31,7 +31,7 @@
     "who has grelin's journal",
     "thief of grelin's journal"
    ],
-   "answer": "The journal was taken by Grik'nir the Cold, a prominent and heavily marked Frostmane troll brute residing deep inside Frostmane Hold in Coldridge Valley."
+   "answer": "The journal was taken by Grik'nir the Cold, a prominent and heavily marked Frostmane troll brute residing deep inside the troll cave in Coldridge Valley."
   },
   {
    "q": "What is written in the journal?",

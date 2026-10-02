@@ -1,0 +1,106 @@
+{
+ "key": "quest:97920",
+ "type": "quest",
+ "name": "Camping 101: Fishing",
+ "era": "forever",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   97920
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "6"
+ },
+ "summary": "Camping 101: Fishing introduces novice anglers in Elwynn Forest to the practical craft of wilderness survival and camp amenities. By seeking out local fishing expert Lee Brown near Goldshire, travelers can learn to apply their angling knowledge toward crafting cozy additions for a campsite, such as a decorative fish bowl that bolsters adventurers' spirits.",
+ "sections": [
+  {
+   "title": "Campcraft for Anglers",
+   "body": "While fishing is often considered a solitary pastime meant for quiet lakeshores and riverbanks, seasoned survivalists understand that camp life requires more than just food and shelter. Crafting comforting fixtures such as a fish bowl brings levity and morale to weary travelers resting between excursions, reinforcing the belief that a sound mind and high spirits foster formidable fighters.",
+   "spoiler": 0
+  },
+  {
+   "title": "Lee Brown's Expertise",
+   "body": "Stationed along the waters outside Goldshire, the seasoned angler Lee Brown assists novice fishermen who seek to expand their craft. Those who display sufficient proficiency with rod and line are directed to him to learn how simple catches and basic materials can be turned into functional campsite enhancements.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do camping fishing",
+    "what does camping 101 do",
+    "purpose of quest"
+   ],
+   "answer": "The quest directs aspiring fishermen to Lee Brown near Goldshire. Once you demonstrate basic proficiency in fishing, he teaches you how to craft specialized camp items, such as a fish bowl, to enhance roadside campsites."
+  },
+  {
+   "q": "Who is Lee Brown?",
+   "aliases": [
+    "where is lee brown",
+    "who teaches fishing camping",
+    "lee brown"
+   ],
+   "answer": "Lee Brown is a knowledgeable fishing trainer stationed by Crystal Lake just outside Goldshire in Elwynn Forest. He provides instruction in angling and teaches how to construct campcraft items tailored for fishermen."
+  },
+  {
+   "q": "What does a Fish Bowl do for a campsite?",
+   "aliases": [
+    "fish bowl effect",
+    "what does fish bowl do",
+    "why make a fish bowl"
+   ],
+   "answer": "A fish bowl serves as a camp fixture meant to bring comfort and joy to resting adventurers. A pleasant camp environment lifts morale, helping adventurers feel ready and capable when facing the perils of the wilderness."
+  },
+  {
+   "q": "Where does this training take place?",
+   "aliases": [
+    "quest location",
+    "where do i go",
+    "elwynn camping trainer"
+   ],
+   "answer": "The quest takes place in Elwynn Forest, leading players toward the waters surrounding Goldshire where local anglers gather."
+  },
+  {
+   "q": "Do I need prior skill in fishing to complete this?",
+   "aliases": [
+    "fishing skill requirement",
+    "do i need fishing",
+    "proficiency requirement"
+   ],
+   "answer": "Yes. Lee Brown will only instruct travelers who have practiced their casting and demonstrated a baseline proficiency in the fishing trade."
+  },
+  {
+   "q": "Is camping useful for combat?",
+   "aliases": [
+    "does camping help combat",
+    "camping buffs",
+    "why camp"
+   ],
+   "answer": "Yes. A well-maintained camp provides comfort that enhances an adventurer's physical and mental preparedness, reflecting directly in their resilience and combat effectiveness in the field."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Human travelers starting their adventures in Elwynn Forest can rely on the familiar waters of Goldshire to learn essential wilderness self-sufficiency."
+  }
+ ],
+ "keywords": [
+  "campcraft",
+  "camping 101: fishing",
+  "crystal lake",
+  "elwynn forest",
+  "fish bowl",
+  "goldshire",
+  "lee brown"
+ ],
+ "related": [
+  "subzone:goldshire",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "In-game quest text: Camping 101: Fishing"
+ ]
+}

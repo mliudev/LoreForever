@@ -1,0 +1,116 @@
+{
+ "key": "quest:79192",
+ "type": "quest",
+ "name": "Stepping Stones",
+ "era": "forever",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   79192
+  ],
+  "wiki": "Stepping Stones",
+  "harvested": true,
+  "level": "24"
+ },
+ "summary": "Stepping Stones is an investigation launched from a weathered note posted in the rugged wilds of the Barrens. The scrawled parchment says two couriers had been making deliveries for the New Plague, and calls what befell them simple apothecary accidents. The mysterious writer urges whoever finds it to seek out a secluded mountain refuge tucked along the border of Desolace.",
+ "sections": [
+  {
+   "title": "A Note in the Wilds",
+   "body": "Pinned haphazardly to a wooden plank in a backcountry camp, the message stands out against the harsh elements of the Barrens. Campgrounds here often see a quiet rotation of mercenaries, cutthroats, and drifters seeking temporary shelter far away from the prying eyes of the Crossroads or Ratchet. The torn note immediately cuts through mundane wilderness chatter, offering an invitation laced with intrigue and dark undertones.",
+   "spoiler": 0
+  },
+  {
+   "title": "Whispers of the New Plague",
+   "body": "The note's author reports that two agents had both been making deliveries for the New Plague, and calls what befell them simple apothecary accidents. Couriers trafficking volatile blight across Kalimdor take immense risks, and the writer offers a cozy spot in the mountains between the Barrens and Desolace as a safe place to talk.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the note found in Stepping Stones talking about?",
+   "aliases": [
+    "stepping stones note",
+    "what is the note about",
+    "stepping stones quest text"
+   ],
+   "answer": "The note reveals that couriers transporting materials tied to the Forsaken's New Plague met sudden ends. The author calls these simple apothecary accidents, yet offers a meeting spot in the mountains to discuss the matter safely."
+  },
+  {
+   "q": "Where does the note tell you to go?",
+   "aliases": [
+    "where to go stepping stones",
+    "cozy spot mountains",
+    "stepping stones location"
+   ],
+   "answer": "The writer invites the reader to a hidden camp located high in the mountains dividing the Barrens and Desolace, far removed from regular patrol routes and trade thoroughfares."
+  },
+  {
+   "q": "What is the New Plague mentioned in the letter?",
+   "aliases": [
+    "what is new plague",
+    "royal apothecary plague",
+    "apothecary deliveries"
+   ],
+   "answer": "The New Plague is the deadly concoction being developed in Undercity by the Forsaken's Royal Apothecary Society. Intended to eradicate both Scourge and living enemies, its testing and courier runs across the continents are fraught with secrecy and fatal danger."
+  },
+  {
+   "q": "Who wrote the note pinned to the plank?",
+   "aliases": [
+    "who wrote the note",
+    "stepping stones author",
+    "who is waiting in the mountains"
+   ],
+   "answer": "The message is left anonymously on a rough wooden plank at a backcountry camp. The writer is not named, and only offers a cozy spot in the mountains between the Barrens and Desolace as a safe place to talk."
+  },
+  {
+   "q": "Why would couriers for the Forsaken be in Kalimdor?",
+   "aliases": [
+    "forsaken in barrens",
+    "why new plague in kalimdor",
+    "apothecaries in the barrens"
+   ],
+   "answer": "Forsaken apothecaries frequently gather exotic venoms, spores, and reagents from the harsh flora and fauna across Kalimdor, coordinating shipments through Horde outposts and wilderness routes."
+  },
+  {
+   "q": "Why are backcountry camps used for notes like this?",
+   "aliases": [
+    "backcountry camp lore",
+    "mercenary camps barrens"
+   ],
+   "answer": "The Barrens is sprawling and loosely governed outside of major settlements. Neutral waystations, mercenary rest spots, and rogue encampments allow travelers, smugglers, and informers to leave discreet word without attracting the notice of the Horde or regional watch posts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For Forsaken travelers, any rogue mention of the Royal Apothecary Society and their blight research is an urgent security matter\u2014or a dangerous conspiracy from within."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde wanderers through the Barrens must decide whether whispers of lethal plague deliveries on Kalimdor soil pose a threat to their lands and alliances."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Tracking anonymous informants and vetting covert backcountry drops between Desolace and the Barrens is second nature for those who deal in daggers and intelligence."
+  }
+ ],
+ "keywords": [
+  "desolace",
+  "mercenaries",
+  "mountains",
+  "new plague",
+  "note",
+  "royal apothecary society",
+  "stepping stones",
+  "the barrens"
+ ],
+ "related": [
+  "zone:barrens",
+  "zone:desolace",
+  "quest:255"
+ ],
+ "attribution": [
+  "In-game quest text: Stepping Stones",
+  "Stepping Stones"
+ ]
+}

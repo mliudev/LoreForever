@@ -1,0 +1,116 @@
+{
+ "key": "quest:97960",
+ "type": "quest",
+ "name": "Camping 101: Skinning",
+ "era": "forever",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   97960
+  ],
+  "wiki": "Camping 101: Skinning",
+  "harvested": true,
+  "level": "6"
+ },
+ "summary": "Camping 101: Skinning is an introductory wilderness instruction given to novice gatherers in Tirisfal Glades and across Azeroth. It directs skinners who have practiced their trade to regional craftsmen to learn how to fashion a durable camp chair out of harvested hides.",
+ "sections": [
+  {
+   "title": "Comfort in the Wilds",
+   "body": "Survival in the wilds demands more than a sharp blade; it requires knowing how to husband your strength between trials. Adventurers like Eleanor Shackleton emphasize that harvesting beast pelts provides more than raw trade goods. By developing basic field proficiency, skinners can fashion essential camp comforts like chairs out of treated skins, allowing weary wanderers to rest and recover properly before their next perilous encounter.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mastering the Craft",
+   "body": "In Tirisfal Glades, young Forsaken skinners who reach initial competency are pointed toward Rand Rhobart, who plies his trade along the road linking Brill to the Capital ruins of the Undercity. Rhobart shares practical techniques for turning rough leather into functional campsite seating, an art mirrored by skinning masters throughout the lands of both the Horde and the Alliance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "what does camping 101 skinning do",
+    "why do camping 101 skinning",
+    "camping 101 reward"
+   ],
+   "answer": "The quest directs novice skinners to seek out a skilled trade mentor who can teach them how to assemble a field camp chair using harvested animal pelts."
+  },
+  {
+   "q": "Who offers this training in Tirisfal Glades?",
+   "aliases": [
+    "who gives quest tirisfal",
+    "eleanor shackleton quest"
+   ],
+   "answer": "In Tirisfal Glades, the task is handed out by Eleanor Shackleton to guide new skinners toward Rand Rhobart along the highway between Brill and the Undercity."
+  },
+  {
+   "q": "What skill level is required to complete this task?",
+   "aliases": [
+    "what skinning level do i need",
+    "camping 101 skinning requirements",
+    "skinning skill required"
+   ],
+   "answer": "You must raise your skinning skill to at least 20 before the trainer will deem you experienced enough to learn how to craft field campsite equipment."
+  },
+  {
+   "q": "Where can Rand Rhobart be found?",
+   "aliases": [
+    "rand rhobart location",
+    "where is rand rhobart",
+    "rand rhobart tirisfal"
+   ],
+   "answer": "Rand Rhobart is stationed along the main road running south from Brill toward the entrance of the Undercity in Tirisfal Glades."
+  },
+  {
+   "q": "Can members of other factions learn this technique?",
+   "aliases": [
+    "is this horde only",
+    "can alliance do camping 101 skinning",
+    "alliance skinning camp chair"
+   ],
+   "answer": "Yes. While Forsaken learn from Rand Rhobart, equivalent instructors train skinners in Goldshire, Ironforge, Dolanaar, Orgrimmar, Bloodhoof Village, and Shen'dar Village."
+  },
+  {
+   "q": "Why is crafting a camp chair useful?",
+   "aliases": [
+    "what does a camp chair do",
+    "why make camp chair"
+   ],
+   "answer": "A camp chair provides a comfortable place to sit and recover stamina in the wilderness, helping keep an adventurer rested and alert for upcoming battles."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Even the Forsaken, freed from mortal exhaustion, find practical utility in maintaining functional field encampments while hunting the plagued beasts of Tirisfal."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde hunters and gatherers utilize every scrap of a slain beast, ensuring nothing goes to waste on the unforgiving road."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "camp chair",
+  "camping",
+  "eleanor shackleton",
+  "rand rhobart",
+  "skinning",
+  "tirisfal glades",
+  "undercity"
+ ],
+ "related": [
+  "npc:eleanor-shackleton",
+  "subzone:brill",
+  "zone:undercity",
+  "zone:tirisfal",
+  "subzone:goldshire",
+  "subzone:bloodhoof-village",
+  "zone:orgrimmar",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "In-game quest text: Camping 101: Skinning",
+  "Camping 101: Skinning"
+ ]
+}

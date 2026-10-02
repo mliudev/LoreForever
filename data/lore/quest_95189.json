@@ -1,0 +1,110 @@
+{
+ "key": "quest:95189",
+ "type": "quest",
+ "name": "Crest of Lordaeron",
+ "era": "forever",
+ "zone": "ruinsoflordaeron",
+ "meta": {
+  "ids": [
+   95189
+  ],
+  "wiki": null,
+  "harvested": true,
+  "level": "22"
+ },
+ "summary": "The Crest of Lordaeron is a weathered relic bearing the regal mark of the fallen northern kingdom. Found amidst the desolate ruins of Capital City, such relics are scarce since the kingdom's fall, and someone in Stormwind would be very keen to get their hands on this one.",
+ "sections": [
+  {
+   "title": "A Shattered Heritage",
+   "body": "When the Scourge tore through the kingdom of Lordaeron, its palaces, archives, and proud insignias were largely obliterated or left to decay under the shadow of the Undercity. Surviving physical artifacts bearing the royal crest are exceedingly rare. Recovering an intact or weathered crest from the northern ruins represents a tangible piece of human history rescued from oblivion.",
+   "spoiler": 0
+  },
+  {
+   "title": "Refuge in the South",
+   "body": "Following the Third War, thousands of northern refugees fled south toward the Kingdom of Stormwind, carrying only memories of their homeland. In Stormwind City, Lady Dena Kennedy is keen to acquire such remnants of Lordaeron, making relics like this crest deeply cherished in the southern capital.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Crest of Lordaeron?",
+   "aliases": [
+    "crest of lordaeron",
+    "what is crest of lordaeron",
+    "lordaeron crest item"
+   ],
+   "answer": "It is a weathered heraldic emblem displaying the official mark of Lordaeron. Left behind after the kingdom fell to the Scourge, it is a prized historical relic for human survivors."
+  },
+  {
+   "q": "Who wants the Crest of Lordaeron?",
+   "aliases": [
+    "who takes the crest",
+    "where do i bring crest of lordaeron",
+    "crest turn in"
+   ],
+   "answer": "The crest is brought to Lady Dena Kennedy, an aristocratic patron in Stormwind City who seeks to collect and preserve rare artifacts from the fallen northern realm."
+  },
+  {
+   "q": "Where was the crest found?",
+   "aliases": [
+    "crest location",
+    "ruins crest",
+    "where to get crest"
+   ],
+   "answer": "It was recovered from the Ruins of Lordaeron in Tirisfal Glades, the ruined capital city that now sits directly above the Forsaken stronghold of the Undercity."
+  },
+  {
+   "q": "Why are artifacts from Lordaeron so rare?",
+   "aliases": [
+    "why are lordaeron relics rare",
+    "lordaeron artifacts rarity"
+   ],
+   "answer": "The rapid and catastrophic fall of the kingdom during the Third War resulted in the systematic slaughter of its people and the ruination of its estates. Very few personal heirlooms survived the Scourge and the subsequent rise of the Forsaken."
+  },
+  {
+   "q": "Why does Stormwind care about relics of Lordaeron?",
+   "aliases": [
+    "why stormwind cares",
+    "stormwind lordaeron relics"
+   ],
+   "answer": "Stormwind took in waves of refugees, knights, and nobility who fled the northern devastation. Preserving relics honors the Alliance's fallen sister kingdom and keeps the heritage of the northern humans alive."
+  },
+  {
+   "q": "Who is Lady Dena Kennedy?",
+   "aliases": [
+    "lady dena kennedy",
+    "who is dena kennedy"
+   ],
+   "answer": "Lady Dena Kennedy is a noblewoman residing in Stormwind City who takes an active interest in salvaging historical remnants and heirlooms originating from Lordaeron."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans, particularly those whose families once called the north home, the crest is a poignant reminder of the grand kingdom that once spearheaded the Alliance."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The emblem of Lordaeron represents the founding pillar of the original Alliance, making its retrieval a symbolic victory against total erasure by the Scourge and Forsaken."
+  }
+ ],
+ "keywords": [
+  "crest of lordaeron",
+  "heraldry",
+  "lady dena kennedy",
+  "lordaeron",
+  "relic",
+  "ruins of lordaeron",
+  "stormwind",
+  "tirisfal glades"
+ ],
+ "related": [
+  "zone:ruinsoflordaeron",
+  "zone:stormwind",
+  "topic:lordaeron",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "In-game quest text: Crest of Lordaeron"
+ ]
+}
