@@ -1,8 +1,8 @@
-# Builds the download zip and the Windows installer, publishes them as a GitHub release with that version's notes
-# from CHANGELOG.md, and uploads the zip to CurseForge. Also builds the complete download (every narration) and the
-# optional narration packs and adds them to the GitHub release only: CurseForge refuses additional files for this
-# project (errorCode 1011), and as normal files the CurseForge app would install a pack in place of the add-on. The
-# site's /download/complete and /voices links follow releases/latest.
+# Builds the download zip (the add-on with every default narration and the language packs) and the Windows
+# installer, publishes them as a GitHub release with that version's notes from CHANGELOG.md, and uploads the zip to
+# CurseForge. Also builds the optional narration packs (the female narrator) and adds them to the GitHub release
+# only: CurseForge refuses additional files for this project (errorCode 1011), and as normal files the CurseForge
+# app would install a pack in place of the add-on. The site's /voices links follow releases/latest.
 # Runs when a version tag is pushed; the maintainer's scripts/release.sh does that. The tag must match
 # "## Version" in addon/LoreForever/LoreForever.toc. Run it by hand (Actions > Release > Run workflow) to
 # rebuild the assets of an existing tag; that only uploads to CurseForge if you tick the box.
@@ -47,17 +47,11 @@ jobs:
           bash scripts/build-release.sh
           mv "dist/LoreForever-${{ steps.version.outputs.version }}.zip" dist/LoreForever.zip
       # dist/extra/manifest.tsv: file, display name, version (one line per extra zip).
-      - name: Build the complete zip and the narration packs
-        env:
-          VERSION: ${{ steps.version.outputs.version }}
+      - name: Build the narration packs
         run: |
-          bash scripts/build-release.sh --complete
-          mkdir -p dist/extra
-          mv "dist/LoreForever-$VERSION-complete.zip" dist/extra/LoreForever-complete.zip
           bash scripts/build-voice-packs.sh
-          mv dist/packs/*.zip dist/extra/
-          { printf 'LoreForever-complete.zip\tLore Forever Complete %s (all narrations)\t%s\n' "$VERSION" "$VERSION"
-            cat dist/packs/manifest.tsv; } > dist/extra/manifest.tsv
+          mkdir -p dist/extra
+          mv dist/packs/*.zip dist/packs/manifest.tsv dist/extra/
           cat dist/extra/manifest.tsv
       - uses: actions/upload-artifact@v4
         with:
