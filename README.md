@@ -82,7 +82,7 @@ plus place lore for the rest of the world: about 3,460 entries, 43 narrated intr
 | `data/lore/` | Every lore entry as JSON (one file per zone, quest, NPC, place or topic), with its wiki sources. |
 | `data/overrides/`, `data/spoilers.json` | Hand-made corrections and the list of answers held behind a spoiler warning. |
 | `site/` | The website ([loreforeverwow.com](https://loreforeverwow.com)). |
-| `scripts/build-release.sh` | Builds the download zip into `dist/`. |
+| `scripts/build-release.sh` | Builds the download zip into `dist/` (it reads each add-on's file list with `scripts/load_order.py`). |
 | `release/installer/` | The Windows installer (Inno Setup). |
 | `.github/workflows/release.yml` | On a version tag, builds the zip and the installer and publishes the release. |
 | `scripts/install-addon.sh` | Copies the add-on into your Forever install from WSL (set `WOW_DIR` if it isn't found). |

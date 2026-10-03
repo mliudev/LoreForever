@@ -103,6 +103,14 @@ export function renderPack(selected, info) {
   for (let i = 0; i < lines.length; i += LINES_PER_FILE) chunks.push(lines.slice(i, i + LINES_PER_FILE));
   chunks.forEach((chunk, i) => { files[`Strings_${i + 1}.lua`] = [...header, ...chunk].join("\n") + "\n"; });
   const meta = v => String(v ?? "").replace(/[\r\n]+/g, " ").trim();
+  // The .toc lists only Lang.xml, which lists the files. The game reads a .toc once, at launch, but Lang.xml again on
+  // every /reload, so a new download with more Strings_N.lua files than the last one works after a /reload.
+  const xml = [
+    '<Ui xmlns="http://www.blizzard.com/wow/ui/">',
+    "  <!-- Your translations from loreforeverwow.com/translate: the pack's files in load order. -->",
+    ...Object.keys(files).map(f => `  <Script file="${f}"/>`),
+    "</Ui>",
+  ];
   const toc = [
     `## Interface: ${meta(info.interface)}`,
     `## Title: Lore Forever - my translations (${meta(info.languageName || info.locale)})`,
@@ -117,9 +125,9 @@ export function renderPack(selected, info) {
     `## X-LoreForever-LanguageName: ${meta(info.languageName || info.locale)}`,
     ...(info.ttsVoices ? [`## X-LoreForever-TTSVoices: ${meta(info.ttsVoices)}`] : []),
     "",
-    ...Object.keys(files),
+    "Lang.xml",
   ];
-  return { [`${name}.toc`]: toc.join("\n") + "\n", ...files };
+  return { [`${name}.toc`]: toc.join("\n") + "\n", "Lang.xml": xml.join("\n") + "\n", ...files };
 }
 
 // ---- zip (stored, no compression: the pack is small, and this needs no library) ----

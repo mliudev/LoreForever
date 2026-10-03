@@ -250,7 +250,7 @@ class VoiceBox extends Box {
       return `${head}<p>Drop a zip or a folder of your recordings, named as in the <a href="/voices/clips.csv" download>clip list</a>
         (for example <span class="bu-file">zone_stormwind.mp3</span> and <span class="bu-file">zone_stormwind__faq3.wav</span>),
         or a test pack you downloaded here. Each file goes to its line. You'll see what changes before anything is saved.</p>
-        ${this.dropHtml("a zip, a folder or files", ".zip,.mp3,.ogg,.wav,.flac,audio/*")}
+        ${this.dropHtml("a zip, a folder or files", ".zip,.mp3,.m4a,.ogg,.opus,.wav,.flac,.aac,.webm,audio/*")}
         ${this.error ? `<p class="bu-bad" role="alert">${esc(this.error)}</p>` : ""}`;
     }
     if (this.phase === "reading") {

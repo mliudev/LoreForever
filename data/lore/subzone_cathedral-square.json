@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "The Holy District",
-   "body": "Situated northwest of the Trade District and southwest of the Dwarven District, Cathedral Square serves as the epicenter of faith in the Kingdom of Stormwind. Dominating the skyline is the Cathedral of Light, the preeminent sanctuary for followers of the Holy Light across Azeroth. Priests, paladins, and healers gather here to study, pray, and train. Citizens, pilgrims, and local schoolchildren led by School Mistress Danna regularly mingle in the square for conversation and contemplation.",
+   "body": "Situated northwest of the Trade District and southeast of the Dwarven District, Cathedral Square serves as the epicenter of faith in the Kingdom of Stormwind. Dominating the skyline is the Cathedral of Light, the preeminent sanctuary for followers of the Holy Light across Azeroth. Priests, paladins, and healers gather here to study, pray, and train. Citizens, pilgrims, and local schoolchildren led by School Mistress Danna regularly mingle in the square for conversation and contemplation.",
    "spoiler": 0
   },
   {
@@ -53,7 +53,7 @@
     "connected districts",
     "where does this go"
    ],
-   "answer": "Bridges and canal paths link Cathedral Square directly to the bustling Trade District to the southeast, the industrial Dwarven District to the northeast, and the quiet gardens of the Park to the southwest."
+   "answer": "Bridges and canal paths link Cathedral Square directly to the bustling Trade District to the southeast, the industrial Dwarven District to the northwest, and the quiet gardens of the Park to the southwest."
   }
  ],
  "angles": [

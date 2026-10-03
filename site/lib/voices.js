@@ -115,8 +115,8 @@ function getMain(v) {
 }
 
 // A voice's optional packs (voices.json "packs"): its lands packs (the places and people of Alliance or Horde zones,
-// contested zones in both) and a complete bundle. Each downloads through /download/voice/<pack id>, or straight from
-// its own link when that's one of the site's (/download/complete).
+// contested zones in both) and an all-in-one zip. Each downloads through /download/voice/<pack id>, or straight from
+// its own link when that's one of the site's. /downloads (lib/downloads.js) lists the same packs with sizes.
 function getPacks(v) {
   const packs = (v.packs || []).filter(p => p.download);
   if (!packs.length) return "";
@@ -125,7 +125,7 @@ function getPacks(v) {
     return `<a href="${escape(href)}">${escape(p.name)}</a>${p.clips ? ` (${plural(p.clips, "narration", "narrations")})` : ""}`;
   }).join(" &middot; ");
   return `<p class="vc-packs">More narration, optional: ${links}. Unzip into <code>Interface\\AddOns</code> next to
-          Lore Forever.</p>`;
+          Lore Forever. <a href="/downloads#${escape(v.id)}">Which one do I need?</a></p>`;
 }
 
 // The voice or pack with this id (a pack takes its voice's status unless it has its own), or undefined.

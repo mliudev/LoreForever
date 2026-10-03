@@ -17,21 +17,46 @@ export const LIMITS = {
   voices: 2,                       // voices one account can have on the upload page
 };
 
-// The audio we take, recognized by the file's first bytes rather than its name or Content-Type.
+// The audio we take, recognized by the file's first bytes rather than its name or Content-Type. Only mp3 and Ogg
+// Vorbis play in game; the page converts the other kinds to mp3 first, so the server refuses them (PLAYABLE).
 export function sniff(bytes) {
-  const b = new Uint8Array(bytes.slice(0, 12));
+  const b = new Uint8Array(bytes.slice(0, 256));
   const ascii = (i, n) => String.fromCharCode(...b.slice(i, i + n));
-  if (ascii(0, 3) === "ID3" || (b[0] === 0xff && (b[1] & 0xe0) === 0xe0)) return { ext: "mp3", type: "audio/mpeg" };
-  if (ascii(0, 4) === "OggS") return { ext: "ogg", type: "audio/ogg" };
+  // An MPEG sync word with layer 0 is ADTS AAC, not mp3.
+  if (ascii(0, 3) === "ID3" || (b[0] === 0xff && (b[1] & 0xe0) === 0xe0 && (b[1] & 0x06) !== 0)) return { ext: "mp3", type: "audio/mpeg" };
+  if (b[0] === 0xff && (b[1] & 0xf6) === 0xf0) return { ext: "aac", type: "audio/aac" };
+  if (ascii(0, 4) === "OggS") {
+    return ascii(28 + b[26], 6) === "vorbis" ? { ext: "ogg", type: "audio/ogg" } : { ext: "opus", type: "audio/ogg" };
+  }
   if (ascii(0, 4) === "RIFF" && ascii(8, 4) === "WAVE") return { ext: "wav", type: "audio/wav" };
   if (ascii(0, 4) === "fLaC") return { ext: "flac", type: "audio/flac" };
+  if (ascii(4, 4) === "ftyp") return { ext: "m4a", type: "audio/mp4" };
+  if (b[0] === 0x1a && b[1] === 0x45 && b[2] === 0xdf && b[3] === 0xa3) return { ext: "webm", type: "audio/webm" };
   return null;
 }
 
 const MIGRATE = [
   "ALTER TABLE voices ADD COLUMN locale TEXT",
   "ALTER TABLE studio_takes ADD COLUMN crc32 TEXT",   // the file's CRC-32 as the page sent it, for the test pack's zip
+  "ALTER TABLE voices ADD COLUMN races TEXT",         // the races whose stories the voice suits: "orc,troll" (RACES keys)
 ];
+
+// The races a narrator can say their voice suits, as data/clips.json names a story's narrator. They go in the pack's
+// .toc as X-LoreForever-Races, where the add-on's "Prefer voices that suit the race" reads them (Voice.Races).
+export const RACES = { human: "Human", dwarf: "Dwarf", gnome: "Gnome", nightelf: "Night elf", orc: "Orc", troll: "Troll",
+                       tauren: "Tauren", forsaken: "Forsaken", skyborne: "Skyborne" };
+
+// "orc,troll" from what the page sends (an array or a comma list), keeping known races in RACES order; "" for none.
+export function cleanRaces(input) {
+  const want = new Set((Array.isArray(input) ? input : String(input ?? "").split(",")).map(r => String(r).trim().toLowerCase()));
+  return Object.keys(RACES).filter(r => want.has(r)).join(",");
+}
+
+// "Orc, Troll" for a .toc, or null.
+export function racesLabel(races) {
+  const names = String(races || "").split(",").filter(r => RACES[r]).map(r => RACES[r]);
+  return names.length ? names.join(", ") : null;
+}
 let migrated = false;
 export async function setupStudio(env) {
   if (migrated) return;
@@ -100,7 +125,7 @@ export function cleanChecks(raw) {
   try {
     const c = JSON.parse(raw || "{}");
     const out = {};
-    for (const k of ["channels", "rate", "lufs", "peak", "lead", "tail", "duration"]) {
+    for (const k of ["channels", "rate", "lufs", "peak", "lead", "tail", "duration", "bandwidth", "snr"]) {
       if (typeof c[k] === "number" && Number.isFinite(c[k])) out[k] = Math.round(c[k] * 100) / 100;
     }
     if (Array.isArray(c.warnings)) out.warnings = c.warnings.filter(w => typeof w === "string").slice(0, 8).map(w => w.slice(0, 40));

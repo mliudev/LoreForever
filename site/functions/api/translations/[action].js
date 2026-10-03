@@ -17,13 +17,15 @@
 // Admin key (lib/auth.js), for /admin and lore.kit:
 //   GET  /api/translations/review?status=new&locale=deDE   recent edits (new = saved, not pulled yet), with who made them
 //   POST /api/translations/decide     {ids: [...], status: "rejected" | "new"}: reject spam, or restore
-//   GET  /api/translations/export?locale=deDE             saved edits not pulled or rejected, for lore.kit pull
-//   POST /api/translations/pulled     {ids: [...]}: lore.kit pull marks what it imported
+//   GET  /api/translations/export?locale=deDE             saved edits not pulled or rejected, and the language's likes,
+//                                                         for lore.kit pull and lore.kit community
+//   POST /api/translations/pulled     {ids: [...]}: lore.kit pull marks what it imported (lore.kit community: what
+//                                     has landed on main)
 // Signed-in POSTs must come from our own pages (Origin check) and send JSON.
 
 import { authorized } from "../../../lib/auth.js";
 import { setup, currentUser, fail, noStore, sameOrigin } from "../../../lib/accounts.js";
-import { LOCALE } from "../../../lib/translations.js";
+import { LOCALE, likeCounts } from "../../../lib/translations.js";
 import { folderName, packZip, sectionsFor, selectEdits } from "../../../lib/langtest.js";
 import { problem } from "../../../public/translate/check.js";
 import { perMinute, slowDown } from "../../../lib/ratelimit.js";
@@ -267,7 +269,8 @@ async function exportAccepted({ env, request }) {
     "SELECT e.id, e.string_id, e.en, e.text, e.updated, u.display_name AS credit FROM translation_edits e " +
     "LEFT JOIN users u ON u.id = e.user_id WHERE e.status IN ('new', 'accepted') AND e.locale = ? ORDER BY e.updated, e.id"
   ).bind(locale).all();
-  return ok({ edits: results });
+  // Likes are per language ("I want this one" on /translate), so they only go in lore.kit community's summary.
+  return ok({ edits: results, likes: (await likeCounts(env))[locale] || 0 });
 }
 
 async function pulled({ env }, input) {

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Narrator voices and downloads - Lore Forever</title>
+<meta name="description" content="Extra narrator voices for Lore Forever, the WoW Forever lore add-on: hear a sample, download in one click. Plus the add-on itself and its languages.">
+<link rel="canonical" href="https://loreforeverwow.com/downloads">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lore Forever narrator voices">
+<meta property="og:description" content="Every narrator voice for Lore Forever, one click each, plus the add-on itself.">
+<meta property="og:url" content="https://loreforeverwow.com/downloads">
+<meta property="og:image" content="https://loreforeverwow.com/img/social-card.png">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="/header.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top-row">
+    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; Downloads</span>
+    <div class="head-actions"><a class="btn-head" href="/feedback"><span class="hd-wide">Send feedback</span><span class="hd-narrow">Feedback</span></a></div>
+  </div>
+</header>
+
+<!-- Narration voices first: people arrive here from the home page or from CurseForge, so most already have the
+     add-on and came for a voice. The voice and language lists come from voices/voices.json and
+     translate/packs.json through functions/downloads/index.js (lib/downloads.js); public/downloads.js fills in file
+     sizes and plays the samples. The add-on's missing-narration notice links here, so keep the URL and the
+     #voices, #addon, #languages and #install anchors. No "Calling all narrators" box on this page (Mike, 2026-10-02):
+     it lives on the home page and /voices. Copy rule: never say how a voice or a translation is made. -->
+<main class="wrap dl-page">
+  <h1>Narrator voices</h1>
+  <p class="pitch">Lore Forever comes with the male narrator. Every other voice is its own download: get the ones
+    you want, unzip them next to Lore Forever and restart the game. <a href="#install">How</a></p>
+
+  <section class="dl-section dl-section-first" id="voices" aria-label="Narration voices">
+    <div class="dl-voices">
+    <!-- dl-voices -->
+    </div>
+    <p class="dl-intro">Pick a voice in game under Options &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Narration
+      voices, or type <code>/lore voice</code>. Install several and put them in your order. Profiles and likes:
+      <a href="/voices">all voices</a>.</p>
+  </section>
+
+  <details class="dl-section dl-howto" id="install">
+    <summary><h2>How to install a voice</h2></summary>
+    <ol class="steps dl-steps">
+      <li><strong>Unzip it into your AddOns folder</strong>,
+        <code>World of Warcraft\_classic_beta_\Interface\AddOns</code>, so it sits next to the
+        <code>LoreForever</code> folder, not inside it.</li>
+      <li><strong>Restart the game.</strong> A <code>/reload</code> doesn't pick up a new folder.</li>
+      <li><strong>Pick the voice</strong> under Options &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Narration
+        voices. Alliance and Horde lands play by themselves.</li>
+    </ol>
+    <p class="dl-intro">Not showing up? Watch for a doubled folder like
+      <code>AddOns\LoreForever_Voice_Female\LoreForever_Voice_Female\</code>, and on the character screen tick
+      AddOns &rsaquo; <strong>Load out of date AddOns</strong>. Still stuck? <a href="/discord?src=downloads">Ask on
+      Discord</a>.</p>
+  </details>
+
+  <section class="dl-section" id="addon" aria-labelledby="addon-title">
+    <h2 id="addon-title">Don't have Lore Forever yet?</h2>
+    <p class="dl-intro"><!-- dl-included --></p>
+    <ul class="dl-files dl-files-tight dl-card">
+      <li class="dl-file" id="installer">
+        <div class="dl-file-main">
+          <p class="dl-file-name">Windows installer</p>
+          <p class="dl-file-meta">Finds your WoW folder for you<span class="dl-dot" aria-hidden="true"> &middot; </span><span class="dl-size" data-asset="latest:LoreForever-Setup.exe"></span></p>
+        </div>
+        <a class="btn-small dl-get dl-link" href="/download/installer" aria-label="Download the Windows installer">Download</a>
+      </li>
+      <li class="dl-file" id="zip">
+        <div class="dl-file-main">
+          <p class="dl-file-name">Zip</p>
+          <p class="dl-file-meta">Unzip it into your AddOns folder yourself<span class="dl-dot" aria-hidden="true"> &middot; </span><span class="dl-size" data-asset="latest:LoreForever.zip"></span></p>
+        </div>
+        <a class="btn-small dl-get dl-link" href="/download/zip" aria-label="Download the zip">Download</a>
+      </li>
+      <li class="dl-file" id="curseforge">
+        <div class="dl-file-main">
+          <p class="dl-file-name">CurseForge</p>
+          <p class="dl-file-meta">Updates itself in the CurseForge app. It has the add-on only: extra voices come from
+            this page.</p>
+        </div>
+        <a class="btn-small dl-get dl-link" href="https://www.curseforge.com/wow/addons/lore-forever">Open</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="dl-section" id="languages" aria-labelledby="languages-title">
+    <h2 id="languages-title">Languages</h2>
+    <!-- dl-languages -->
+    <p class="dl-intro">Missing yours? <a href="/translate">Help translate</a>.</p>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>Spotted a wrong answer? <a href="/feedback">Tell us</a>.</p>
+  <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+<script src="/downloads.js" defer></script>
+</body>
+</html>

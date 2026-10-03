@@ -156,6 +156,9 @@ end
 -- Translated text over the English entries, field by field; spoiler flags, links and metadata stay English. Returns
 -- how many entries were skipped because the English changed since the translation.
 function Lang.MergeEntries(db, w)
+  -- The word-piece vectors that re-rank answers by meaning (Engine:VecOf) are English; over translated text they
+  -- mislead ("Was ist die Bruderschaft der Defias?" went to a quest), so a merged pack switches them off.
+  if next(w.entries or {}) then db.vectors = nil end
   local skipped = 0
   for key, t in pairs(w.entries or {}) do
     local e = db.entries[key]
@@ -164,6 +167,7 @@ function Lang.MergeEntries(db, w)
     elseif e then
       local oldName = e.n
       e.n, e.s, e.h = t.n or e.n, t.s or e.s, t.h or e.h
+      if e.n ~= oldName then e.en = e.en or oldName end   -- the English name, so a list search finds either
       if t.kw then
         -- Keep the English keywords too, so English names still find the entry.
         local seen, kw = {}, {}
@@ -198,7 +202,11 @@ function Lang.MergeEntries(db, w)
       -- client already uses for something else; places also get it in the zone table (primer, "Entering ...").
       if e.n ~= oldName and not db.index.name[lower(e.n)] then db.index.name[lower(e.n)] = key end
       local typ, rest = key:match("^(%a+):(.+)$")
-      if ZONE_TYPES[typ or ""] and db.zones and db.zones[rest] then db.zones[rest].n = e.n end
+      if ZONE_TYPES[typ or ""] and db.zones and db.zones[rest] then
+        local z = db.zones[rest]
+        if e.n ~= z.n then z.en = z.en or z.n end
+        z.n = e.n
+      end
     end
   end
   return skipped
@@ -252,10 +260,15 @@ function Lang.ApplyOverlay(db, ow, ok)
       end
       local done = true
       if path == "n" then
+        if text ~= e.n then e.en = e.en or e.n end   -- the English name, so a list search finds either
         e.n = text
         if not db.index.name[lower(text)] then db.index.name[lower(text)] = key end
         local typ, rest = key:match("^(%a+):(.+)$")
-        if ZONE_TYPES[typ or ""] and db.zones and db.zones[rest] then db.zones[rest].n = text end
+        if ZONE_TYPES[typ or ""] and db.zones and db.zones[rest] then
+          local z = db.zones[rest]
+          if text ~= z.n then z.en = z.en or z.n end
+          z.n = text
+        end
       elseif path == "s" or path == "h" then
         e[path] = text
       elseif path == "kw" then
@@ -357,7 +370,10 @@ local function init(lang)
   end
   if ow then
     local applied, stale = Lang.ApplyOverlay(db, ow, overlayOK)
-    if applied > 0 then db.search = nil end   -- the prebuilt index is over the pack's text, not the test pack's
+    if applied > 0 then
+      db.search = nil    -- the prebuilt index is over the pack's text, not the test pack's
+      db.vectors = nil   -- and the English word-piece vectors don't fit translated text (see MergeEntries)
+    end
     note(L["Your test translations: %d lines in use, %d left out (the English changed)."], applied, stale)
     lang.overlay = orec.name
   end

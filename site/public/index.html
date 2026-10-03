@@ -44,22 +44,26 @@
       <ul class="stats">
         <li>by <strong>Mike</strong></li>
         <li id="downloads"><strong>New release</strong></li>
-        <li>Version <strong>0.5.0</strong></li>
+        <li>Version <strong>0.6.0</strong></li>
         <li>Game <strong>WoW Forever 1.60.1</strong></li>
       </ul>
-      <!-- Downloads, no email step. CurseForge is the main button: its app installs the add-on and keeps it updated.
-           The installer and zip go through the site (functions/download/[file].js), which counts them in D1 and
-           redirects to the latest GitHub release. Don't rename those release assets; the links depend on them. -->
+      <!-- Downloads, no email step. Since 2026-10-02 (Mike) the site's own download comes first: the Windows installer,
+           then the zip, then every narrator voice on /downloads. CurseForge is second, and says it carries the add-on
+           only (it can't carry the voice packs). The installer and zip go through functions/download/[file].js, which
+           counts them in D1 and redirects to the latest GitHub release; don't rename those release assets. -->
       <div class="dl-row">
-        <a class="btn-download dl-link" id="download" href="https://www.curseforge.com/wow/addons/lore-forever">Get it on CurseForge</a>
+        <a class="btn-download dl-link" id="download" href="/download/installer">Download for Windows</a>
         <div class="dl-alt">
-          <span class="file-note">Free &middot; updates itself with the CurseForge app</span>
-          <span class="dl-other">No CurseForge app? <a class="dl-link" href="/download/installer">Windows installer</a>
-            &middot; <a class="dl-link" href="/download/zip">zip</a>
-            &middot; <a class="dl-link" href="/download/complete">complete zip</a> (every narration, about 350 MB;
-            or just your side's <a href="/voices">lands pack</a>)</span>
+          <span class="file-note">Free &middot; finds your WoW Forever folder for you</span>
+          <span class="dl-other">Or the <a class="dl-link" href="/download/zip">zip</a>, to unzip yourself
+            &middot; <a href="/downloads">All downloads</a></span>
         </div>
       </div>
+      <p class="dl-more">Comes with the male narrator. Want another narrator? Each voice is one more download:
+        <a href="/downloads">get the voices you want</a>.</p>
+      <p class="dl-cf">Prefer the CurseForge app? <a class="dl-link" href="https://www.curseforge.com/wow/addons/lore-forever">Lore
+        Forever on CurseForge</a>. CurseForge has the add-on only. Extra narrator voices are on the
+        <a href="/downloads">Downloads page</a>.</p>
     </div>
 
     <!-- About the author, with the community links. Sits beside the title on desktop and right under the
@@ -85,18 +89,42 @@
 
 <main class="wrap">
 
+  <!-- "Calling all narrators" (style.css .narrators): the same box on the home page, /voices and /downloads. -->
+  <aside class="narrators" aria-labelledby="narrators-title">
+    <div>
+      <h2 id="narrators-title">Calling all narrators</h2>
+      <p>Want to narrate Lore Forever? Record as many or as few lines as you like and upload them on the narrator
+        dashboard. Then download your own test pack and hear yourself in game before you send it in. Anything you
+        skip plays in the default voice.</p>
+    </div>
+    <div class="nr-go">
+      <a class="btn-small" href="/voices/studio">Open the narrator dashboard</a>
+      <small><a href="/voices/guide">How it works</a> &middot; sign in with Google</small>
+    </div>
+  </aside>
+
   <!-- The two headline features: narration and asking questions. -->
   <section class="feature" aria-labelledby="listen-title">
     <div class="feature-text">
       <h2 id="listen-title">Hear the story of where you are</h2>
-      <p>The capitals, starting zones and dungeons, 43 of the places you'll visit most, come with narrated intros,
-        plus 109 narrated answers to the questions new players ask first. Press
-        Listen, or turn on flight narration and hear each
-        zone's story while you fly over it. Everywhere else, Listen reads the answer aloud in the game
-        voice.</p>
-      <p>Want a different narrator, or to lend your own voice? See <a href="/voices">narration voices</a>.</p>
-      <p>Want Lore Forever in your language? <a href="/translate">See the languages</a>, or help translate it into
-        yours.</p>
+      <!-- Counts from data/clips.json (840 clips: 528 zones and subzones, 202 people and bosses, 109 first-question
+           answers, 1 topic). Recheck when narrations are added. -->
+      <p>Every zone is narrated, and so are the places and people inside it, Alliance and Horde alike: 840
+        narrations in the main download, from 528 places and 202 people and dungeon bosses to 109 answers to the
+        questions new players ask first.</p>
+      <ul>
+        <li><strong>Plays as you arrive.</strong> Reach a zone or place and its story starts by itself. It waits
+          for the fight to end and never cuts off what you're listening to.</li>
+        <li><strong>Quest givers and books.</strong> Open a quest giver's window and its narration plays. Books,
+          letters and plaques are read aloud in the game voice, page by page.</li>
+        <li><strong>A player with a queue.</strong> What's playing, Back, Play and Next sit at the bottom of the
+          panel. Queue up stories with +, and the player floats on screen when you close the panel.</li>
+        <li><strong>Everything else, too.</strong> Listen reads any answer aloud in the game voice, and flight
+          narration tells each zone's story as you fly over it.</li>
+      </ul>
+      <p>Want a different narrator? Install as many voices as you like from the
+        <a href="/downloads#voices">Downloads page</a> and put them in your order: each narration plays from the
+        first voice that has it. Or <a href="/voices">lend your own voice</a>.</p>
       <p class="feature-note">Three of the narrations, exactly as they play in game:</p>
     </div>
     <!-- Clips copied from addon/LoreForever_Voice_Default/Audio; the read-along text is what each clip reads. -->
@@ -165,6 +193,9 @@
         <li><strong>"Who is this guy?"</strong> means your target.</li>
         <li><strong>Typos in names are fine.</strong> You don't need to spell every NPC right.</li>
         <li><strong>No made-up answers.</strong> If it isn't sure, it asks "Did you mean..." instead.</li>
+        <li><strong>Names are links.</strong> The places, people and events an answer mentions are clickable, and
+          Back and Forward retrace what you followed. Quests you haven't picked up stay plain, so nothing is
+          spoiled.</li>
       </ul>
       <!-- A real answer from the add-on's lore library (npc:edwin-vancleef). -->
       <figure class="sample">
@@ -177,19 +208,52 @@
         <figcaption>A real answer from the add-on, word for word.</figcaption>
       </figure>
     </div>
+    <!-- 10-13: 0.6.0 release-candidate captures (2026-10-02), cropped to the panel. Replace with final captures
+         once the panel's stone background and new headings ship. -->
     <figure class="feature-shot">
-      <a href="screenshots/02-zephras-quest-chat.jpg" target="_blank"><img src="screenshots/02-zephras-quest-chat.jpg"
-        alt="Asking follow-up questions about the Coming of Age quest on Zephras Isle"></a>
-      <figcaption>Follow-up questions about a Skyborne quest on Zephras Isle</figcaption>
+      <a href="screenshots/13-links-answer.jpg" target="_blank"><img src="screenshots/13-links-answer.jpg"
+        alt="The story of Lushwater Oasis in the panel, with The Barrens, Crossroads and Wailing Caverns as links and listed again under the answer"></a>
+      <figcaption>The story of Lushwater Oasis, with its places as links</figcaption>
     </figure>
   </section>
 
-  <!-- Real in-game captures from the Forever beta (2026-09-27), cropped to hide player names. -->
+  <!-- What's new in the version on this page. Keep it to what has shipped. -->
+  <section class="feature whats-new" aria-labelledby="new-title">
+    <div class="feature-text">
+      <h2 id="new-title">New: your journey, on the map</h2>
+      <p>Journey keeps a timeline of each play session, with Quests, Fights and Milestones to filter by, and a map of
+        the world beside it. Hover a moment and the map shows where it happened and the road you took there.
+        Click anything with a story to hear it in the chat. It all stays on your PC.</p>
+      <ul>
+        <li><strong>Welcome back.</strong> The first chat after you log in sums up your last session: where you
+          went, the quests you finished and the people you met.</li>
+        <li><strong>Five languages included.</strong> English, Deutsch, Français, Español (España) and Português
+          (Brasil). They switch on by themselves on those game clients, or pick one in Options &rsaquo; Language.
+          <a href="/translate">Help translate</a> into yours.</li>
+        <li><strong>Your voices, your order.</strong> Install several voices and choose which comes first; a story
+          keeps one voice for its questions.</li>
+        <!-- Search: remove this line if it doesn't ship in this version. -->
+        <li><strong>Search the long lists.</strong> Type to find a story in the Library instead of scrolling.</li>
+      </ul>
+    </div>
+    <figure class="feature-shot">
+      <a href="screenshots/11-journey-page.jpg" target="_blank"><img src="screenshots/12-journey-map.jpg"
+        alt="The Journey page: today's moments with Quests, Fights and Milestones filters, and a map of the Barrens marking Lushwater Oasis"></a>
+      <figcaption>Journey: your moments beside the map</figcaption>
+    </figure>
+  </section>
+
+  <!-- Real in-game captures from the Forever beta, cropped to hide player names. -->
   <section class="shots" aria-label="Screenshots">
     <figure class="shot">
-      <a href="screenshots/01-stormwind-panel.jpg" target="_blank"><img src="screenshots/01-stormwind-panel.jpg"
-        alt="The Lore Forever panel in Stormwind's Trade District, with narration buttons, suggested questions and your quests"></a>
-      <figcaption>The panel in Stormwind: narrated stories, questions and your quests</figcaption>
+      <a href="screenshots/10-panel-welcome-back.jpg" target="_blank"><img src="screenshots/10-panel-welcome-back.jpg"
+        alt="The Lore Forever panel at Lushwater Oasis: a welcome back card, narrated places with play and + buttons, your quests, suggested questions and the player"></a>
+      <figcaption>Welcome back: your last session, what's narrated here and your quests</figcaption>
+    </figure>
+    <figure class="shot">
+      <a href="screenshots/11-journey-page.jpg" target="_blank"><img src="screenshots/11-journey-page.jpg"
+        alt="The Lore Forever panel with the Journey page open over the chat"></a>
+      <figcaption>Journey opens over the chat, with the Here tab beside it</figcaption>
     </figure>
     <figure class="shot">
       <a href="screenshots/03-npc-tooltip.jpg" target="_blank"><img src="screenshots/03-npc-tooltip.jpg"
@@ -201,17 +265,12 @@
         alt="A chat message on entering Zephras Isle with a clickable question and a Listen link"></a>
       <figcaption>Enter a zone, get a question and a Listen link</figcaption>
     </figure>
-    <figure class="shot">
-      <a href="screenshots/06-spoiler-suggestions.jpg" target="_blank"><img src="screenshots/06-spoiler-suggestions.jpg"
-        alt="A spoiler-tagged section and suggested follow-up questions"></a>
-      <figcaption>Spoilers stay hidden until you ask</figcaption>
-    </figure>
   </section>
 
   <section class="zones" aria-labelledby="zones-title">
     <h2 id="zones-title">Where it works</h2>
     <p class="zones-intro">Every zone, city and dungeon you can reach up to level 30: the quests, NPCs, subzones and
-      bosses, about 3,460 entries in all. That includes the content that's new in Forever. Above level 30 you
+      bosses, about 4,060 entries in all. That includes the content that's new in Forever. Above level 30 you
       still get place lore (the zone, its subzones and notable characters), for when you wander ahead. Built for
       the WoW Forever beta and the full launch on November 4, 2026.</p>
     <div class="zone-grid">
@@ -291,7 +350,12 @@
 
         <h3>Dungeon primers</h3>
         <p>Walk into a dungeon and chat links a primer: why you're there, the bosses in order, and what beating the
-          final boss means (tagged as a spoiler, so it's your call).</p>
+          final boss means (tagged as a spoiler, so it's your call). Beat a boss and chat links their story.</p>
+
+        <h3>Your journey</h3>
+        <p>Lore Forever remembers what your character has done: places, people, quests, foes and books, on a timeline
+          and a map. The first chat after you log in recaps your last session. It stays on your PC, and Options
+          &rsaquo; Remember my journey turns it off.</p>
 
         <h3>True to Forever</h3>
         <p>Forever has its own timeline, so Lore Forever sticks to it: no story from retail's later expansions,
@@ -305,35 +369,32 @@
           <tr><td><code>/lore</code> or <code>/lf</code></td><td>Open or close the panel</td></tr>
           <tr><td><code>/lore &lt;question&gt;</code></td><td>Ask straight from chat, e.g. <code>/lore why is westfall so poor</code></td></tr>
           <tr><td><code>/lore key</code></td><td>Choose the key that opens the panel (<code>/lore key narrate</code>: a key that plays narration)</td></tr>
-          <tr><td><code>/lore narrations</code></td><td>Every recorded narration, your starting area first</td></tr>
-          <tr><td><code>/lore options</code></td><td>Settings: tooltips, hints, flight narration</td></tr>
-          <tr><td><code>/lore primer</code></td><td>Dungeon primer for where you are</td></tr>
-          <tr><td><code>/lore listen</code></td><td>Read the last answer aloud</td></tr>
+          <tr><td><code>/lore library</code></td><td>The Library: every recorded narration by zone, your starting area first</td></tr>
+          <tr><td><code>/lore journey</code></td><td>Your journey: the timeline and the map (<code>/lore sync</code> saves it now)</td></tr>
+          <tr><td><code>/lore voice</code></td><td>List your narration voices in order; <code>/lore voice &lt;number or name&gt;</code> puts one first</td></tr>
+          <tr><td><code>/lore autoplay</code></td><td>Narrations as you arrive and quest dialogue on or off</td></tr>
           <tr><td><code>/lore narrate</code></td><td>Flight narration on or off</td></tr>
+          <tr><td><code>/lore listen</code></td><td>Read the last answer aloud</td></tr>
+          <tr><td><code>/lore stop</code></td><td>Stop what's playing</td></tr>
+          <tr><td><code>/lore lang</code></td><td>Choose the language, e.g. <code>/lore lang deDE</code></td></tr>
+          <tr><td><code>/lore options</code></td><td>Settings: tooltips, hints, narration, voices, panel size</td></tr>
+          <tr><td><code>/lore primer</code></td><td>Dungeon primer for where you are</td></tr>
+          <tr><td><code>/lore report</code></td><td>Tell us the last answer was wrong</td></tr>
           <tr><td><code>/lore help</code></td><td>List all commands</td></tr>
         </table>
       </section>
 
       <section class="tab-panel" id="install" role="tabpanel">
         <h2>Install</h2>
-        <h3>With the CurseForge app (easiest)</h3>
-        <p>Lore Forever is on <a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge</a>, so the app can install it and keep it updated:</p>
-        <ol>
-          <li>In the CurseForge app, open World of Warcraft and pick your Forever install. If it isn't listed,
-            add your <code>_classic_beta_</code> folder, or use the installer or zip below.</li>
-          <li>Search for <strong>Lore Forever</strong> and click <strong>Install</strong>, or click
-            <strong>Get it on CurseForge</strong> at the top of this page.</li>
-          <li>Start the game. On the character screen, open <strong>AddOns</strong> and make sure Lore Forever is ticked.</li>
-        </ol>
         <h3>With the Windows installer</h3>
         <ol>
-          <li>Click <strong>Windows installer</strong> at the top of this page and run <code>LoreForever-Setup.exe</code>.
+          <li>Click <strong>Download for Windows</strong> at the top of this page and run <code>LoreForever-Setup.exe</code>.
             It's signed; Windows shows the publisher as Mei Liu.</li>
           <li>If Windows shows a SmartScreen prompt, click <strong>More info</strong>, then <strong>Run anyway</strong>.
             (New publishers can see this for a few weeks.)</li>
           <li>It finds your World of Warcraft folder and installs into <code>_classic_beta_\Interface\AddOns</code>.
             No admin rights needed. To update later, run a newer installer.</li>
-          <li>Restart WoW (or <code>/reload</code> if you're already in game).</li>
+          <li>Restart WoW. A <code>/reload</code> doesn't pick up a newly installed add-on.</li>
         </ol>
         <h3>With the zip</h3>
         <ol>
@@ -343,8 +404,22 @@
             <code>C:\Program Files (x86)\World of Warcraft\_classic_beta_\Interface\AddOns</code>.</li>
           <li>Unzip so you end up with <code>...\AddOns\LoreForever\LoreForever.toc</code>. A doubled folder like
             <code>AddOns\LoreForever\LoreForever\</code> won't load.</li>
-          <li>Restart WoW (or <code>/reload</code> if you're already in game).</li>
+          <li>Restart WoW. A <code>/reload</code> doesn't pick up a newly installed add-on.</li>
         </ol>
+
+        <h3>With the CurseForge app</h3>
+        <p>Lore Forever is on <a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge</a>, so the app can install it and keep it updated.
+          It carries the add-on only: extra narrator voices come from the <a href="/downloads">Downloads page</a>.</p>
+        <ol>
+          <li>In the CurseForge app, open World of Warcraft and pick your Forever install. If it isn't listed,
+            add your <code>_classic_beta_</code> folder, or use the installer or zip above.</li>
+          <li>Search for <strong>Lore Forever</strong> and click <strong>Install</strong>.</li>
+          <li>Start the game. On the character screen, open <strong>AddOns</strong> and make sure Lore Forever is ticked.</li>
+        </ol>
+        <h3>Extra narrator voices</h3>
+        <p>Lore Forever comes with the male narrator. Every other voice is one more download from the
+          <a href="/downloads">Downloads page</a>: unzip it next to the <code>LoreForever</code> folder, restart WoW
+          and pick it in Options. <a href="/downloads#install">Step by step</a>.</p>
 
         <p>On your first login it asks you to pick a key for the panel. You can change it later with <code>/lore key</code>.</p>
         <p>Not showing up? On the character screen, click <strong>AddOns</strong> and tick
@@ -368,12 +443,54 @@
       <section class="tab-panel" id="changelog" role="tabpanel">
         <h2>Changelog</h2>
         <!-- changelog:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
+        <h3>0.6.0</h3>
+        <ul>
+          <li><strong>Français and Español (España) come with the add-on:</strong> they switch on by themselves on a French or Spanish game client, or pick one in Options › Language. English clients stay in English.</li>
+          <li><strong>A new look:</strong> the panel now wears the game's gold dialog frame over dark stone, with its name on a banner across the top and headings in the game's quest-title lettering. The buttons are dark with a gold rim, play buttons are round and gold, the tabs and your target's row are picked out in gold, and answers sit on their own gold-edged cards. Journey and History light up while they're open. The player, the queue, History, your journey and the report box all match.</li>
+          <li><strong>The minimap button sits on the ring:</strong> it was placed inside the map and could cover other add-ons' buttons. It now sits on the edge of the minimap like other add-ons' buttons, follows a bigger or square minimap, and you can drag it around the ring to any spot (it remembers where, per character).</li>
+          <li><strong>Clickable names in answers:</strong> the places, people, factions and events an answer mentions are links, and a line under the answer lists them again. Click one to read its story in the chat, Shift-click to add its narration to your playlist, or hover for a one-line summary. Back and Forward above the chat take you through what you followed. Quests you haven't picked up stay plain text, so nothing is spoiled. Works in Deutsch and Português too; turn it off in Options › Clickable names in answers.</li>
+          <li>A hidden spoiler section in a story now has a <strong>Show spoiler</strong> link right there, and "Show spoilers without asking" shows those sections too.</li>
+          <li><strong>Ask in your own words:</strong> general lore questions worded differently from how the lore puts it now find the right answer about a third more often. Questions about where you are and what you're doing answer as before.</li>
+          <li><strong>Put your voices in order:</strong> Options › Narration voices lists every voice you have, with how many narrations each one plays. Use the arrows to choose which comes first, untick a voice to stop using it, and choose whether a story or a whole zone keeps one voice. <code>/lore voice</code> lists them in order.</li>
+          <li>Options › Narration voices › <strong>Prefer voices that suit the race</strong> (off by default): when a voice says which races it suits, it reads their stories first, so orc lore can come in an orc voice.</li>
+          <li><strong>A narration player:</strong> the bottom left of the panel now has its own player, with what's playing, Back, Play/Pause, Next and your queue. Press Play with nothing queued to hear everything narrated where you are. Queue opens your playlist right above it, to reorder, remove or clear. Click the title to open the story in the chat; right-click the player for its options.</li>
+          <li><strong>The player stays with you:</strong> close the panel while something plays or is queued and a small copy of the player floats on screen. Drag it anywhere, or turn it off in Options › Floating player.</li>
+          <li><strong>Fewer tabs:</strong> the sidebar is down to Here and Library (the old Narrations tab, every recorded story by zone). The playlist moved into the player, and Journey is a button at the top of the panel next to History. <code>/lore library</code> opens the Library.</li>
+          <li>The Journey, History and New chat buttons fit their German and Portuguese labels.</li>
+          <li><strong>Search the long lists:</strong> the Library, Your quests (when your log is longer than the list), the queue (once it holds more than a few), History and your journey each have a search box. Type part of a name, a zone or a quest and the list narrows as you type; capitals and accents don't matter, and with a language pack the English names work too. Escape or the × clears it.</li>
+          <li><strong>The Here tab, tidied:</strong> every row is one line, with a play button on the left of anything narrated (stories, answers, bosses, quests) and a + on the right to queue it. Stories show just their name, and Your quests shows how many are in your log.</li>
+          <li>Playlist buttons always say what they'll do: once something is queued, Add to playlist becomes <strong>Remove from playlist</strong> (the + becomes a −), and while it plays, <strong>Stop</strong>.</li>
+          <li><strong>Books read aloud:</strong> open a book, letter or plaque and its page is read aloud with the game's voice when Read aloud is on. Turning the page reads the next one, closing it stops, and the Read aloud button on the book reads a page again. Options › Read books aloud turns it off; if you use Spoken, it starts off.</li>
+          <li><strong>Tips at login:</strong> for your first few logins, one short tip in chat about something Lore Forever can do, like reading an NPC's story with your key or turning off tooltip lore. Options › Tips at login turns them off.</li>
+          <li>After you pick the panel key, Lore Forever suggests a second key for narration, handy on a controller.</li>
+          <li>Options › Read aloud now says where to set its speed as well as its voice.</li>
+          <li><strong>Several voices at once:</strong> narrators can record just the zones or people they like, and you can install as many of their voices as you want. Each narration plays from the first voice that has it, and a story keeps one voice for its questions. A voice you install plays first; <code>/lore voice &lt;name&gt;</code> puts any voice first.</li>
+          <li><strong>Your journey, on the map:</strong> Journey now opens its own page over the chat: a timeline of what you did each play session, with filters for Quests, Fights and Milestones, and a map of the world beside it. Hover a moment and the map moves to where it happened, marks the spot and draws your road there as a dotted line; Whole journey zooms out to the continent. Quests lists every quest you've finished, including the ones from before you installed Lore Forever, and Chapters appears once your journey has some. Click anything with a story and the page closes and tells it in the chat. Update my journey and Copy my journey record are at the bottom; <code>/lore journey</code> opens it too. Places are marked from today on; earlier moments show their zone.</li>
+          <li><strong>Welcome back:</strong> the first chat after you log in sums up your last play session: where you went, the quests you finished and the people you met, plus a new chapter of your journey if one is waiting (Listen plays it).</li>
+          <li>Corrected lore in 99 entries and removed 2 that belonged to later expansions.</li>
+          <li><strong>Every narration comes with the add-on:</strong> the places and people of every zone, Alliance and Horde alike, are now in the main download (CurseForge, the installer and the zip), so there are no lands packs to fetch. If you installed one by hand, the update simply replaces it. The female narrator is still an optional download at loreforeverwow.com/downloads.</li>
+          <li><strong>Deutsch and Português (Brasil) come with the add-on:</strong> they switch on by themselves on a German or Brazilian Portuguese game client, or pick one in Options › Language. English clients stay in English.</li>
+          <li><strong>Bigger text:</strong> Options › Panel size makes the whole Lore Forever panel bigger or smaller (90% to 130%), text and buttons alike.</li>
+          <li>The panel now opens where you left it, at the size you left it.</li>
+          <li>Easier to read: notes, hints and option descriptions are a lighter grey, and the Here tab says what to do when your quest log is empty.</li>
+          <li>The answer check and cross are easier to click, the resize corner says what it does, and the Listen and Queue all buttons fit their German and Portuguese labels.</li>
+          <li><strong>Narrations play as you arrive:</strong> reach a zone or place with a narration and it plays by itself, the zone's story first and then the place's. It waits until a fight is over, stays quiet on flights and never cuts off something you're already listening to. Options › Play narrations as you arrive turns it off, and <code>/lore autoplay</code> turns this and quest dialogue off or on together. If you use the Spoken add-ons, both start off so you don't hear two voices.</li>
+          <li><strong>Quest dialogue, narrated:</strong> when a quest giver's window opens, its narration plays, or the quest text is read aloud if Read aloud is on. It stops when you close the window. Options › Narrate quest dialogue turns it off.</li>
+          <li><strong>Lore Forever remembers what you've heard:</strong> each character keeps track of the narrations and quest text it has heard, so nothing plays by itself twice. The Library ticks the ones you've heard, and you can still play any of them again. Options › Reset heard narrations starts over.</li>
+          <li><strong>Missing voice packs are no longer silent:</strong> if the voice you picked isn't installed any more (the female narrator is a separate download, and a CurseForge update only brings the main one), the add-on says so at login and where to get it again: loreforeverwow.com/downloads. Options › Narration voice now lists every voice pack the game found and how many narrations each plays, or why it can't.</li>
+          <li>The note under an answer about your race or faction now reads "For Undead players" or "For Night Elf players" instead of "For you as a Undead".</li>
+          <li><strong>Read aloud on Mac and Linux:</strong> when your system has no text-to-speech voices, Read aloud now says so once instead of staying silent. Recorded narrations play either way.</li>
+          <li>Narrations that play as you arrive wait while you talk to a quest giver, and play once you're done.</li>
+          <li>The welcome card and the example in the question box follow you as you travel, instead of staying on the place where you first opened the panel.</li>
+          <li>The Here tab lists your quests in the zone you're in first, so a full quest log no longer pushes them off the list.</li>
+          <li><strong>Boss stories after the fight:</strong> beat a dungeon boss and chat links their story (and Listen, when it's narrated). Options › Dungeon primer prompt turns it off along with the primer link.</li>
+        </ul>
         <h3>0.5.0</h3>
         <ul>
           <li><strong>Your journey:</strong> the new Journey tab keeps track of what your character has done: the places you discover and how you got there, the people you meet, the quests you finish, the foes and dungeon bosses you defeat and the books you read. It shows your recent moments, the bosses you've beaten and the foes you've fought most. It stays on your PC; Options › Remember my journey turns it off. <code>/lore journey</code> opens it. You can copy and paste your journey record: "Copy my journey record" on the Journey tab gives you all of it as plain text.</li>
           <li><strong>Your journey remembers more:</strong> reputation changes, new mounts and spells, rare finds and quest rewards, profession milestones (75, 150, 225 and 300), rare foes and your screenshots now show among your recent moments. It also notes where you've walked on the map in your last five sessions. Like the rest of your journey, it stays on your PC.</li>
           <li><strong>Hundreds more narrations, in both voices:</strong> 25 new zone stories come with the add-on. The places and people of the capitals, the starting zones, the level 10-19 zones and some of the level 20s are narrated in two optional packs, Alliance lands and Horde lands, at loreforeverwow.com/voices or in the complete download. When you enter a zone whose narrations you don't have, the add-on says once which pack has them (Options › Narration pack hints turns that off).</li>
-          <li><strong>The female narrator comes with every release</strong> now: her core and lands packs are on the Files tab and at loreforeverwow.com/voices.</li>
+          <li><strong>The female narrator comes with every release</strong> now: her core and lands packs are at loreforeverwow.com/voices and on the GitHub release.</li>
           <li>Narrations now say Deadmines, Feralas, Astranaar, Razorfen Kraul, Faol, Quel'Thalas and Iceshard properly.</li>
           <li>The Narrations tab groups narrations by zone, with where you are and your starting zone first.</li>
           <li><strong>Translators can see their work in game right away:</strong> on loreforeverwow.com/translate/dashboard, press "Download my test pack", unzip it into Interface\AddOns and pick your language in Options. Your saved lines show in game on top of the language pack (or on their own) before the next language update.</li>
@@ -450,20 +567,21 @@
       <div class="box install-box">
         <h3>Install in 3 steps</h3>
         <ol class="steps">
-          <li><strong>Get it on CurseForge</strong> and click Install. The CurseForge app puts it in your WoW Forever
-            folder and keeps it updated.</li>
-          <li><strong>Restart WoW</strong>, or type <code>/reload</code> if you're already in game.</li>
+          <li><strong>Run the <a class="dl-link" href="/download/installer">Windows installer</a>.</strong> It finds
+            your WoW Forever folder. If Windows shows a SmartScreen prompt, click <strong>More info</strong>, then
+            <strong>Run anyway</strong>.</li>
+          <li><strong>Restart WoW.</strong> A <code>/reload</code> doesn't pick up a newly installed add-on.</li>
           <li><strong>Type <code>/lore</code></strong> or press the key you pick on first login.</li>
         </ol>
-        <p class="install-note">No CurseForge app? The signed <a class="dl-link" href="/download/installer">Windows
-          installer</a> finds your WoW folder for you. If Windows shows a SmartScreen prompt, click
-          <strong>More info</strong>, then <strong>Run anyway</strong>.</p>
         <details class="zip-steps">
-          <summary>Using the zip instead?</summary>
-          <p>Unzip into <code>World of Warcraft\_classic_beta_\Interface\AddOns</code> so you have
-            <code>AddOns\LoreForever\LoreForever.toc</code>, then restart WoW.</p>
+          <summary>Using the zip or CurseForge?</summary>
+          <p>Unzip the <a class="dl-link" href="/download/zip">zip</a> into
+            <code>World of Warcraft\_classic_beta_\Interface\AddOns</code> so you have
+            <code>AddOns\LoreForever\LoreForever.toc</code>, then restart WoW. The CurseForge app installs the add-on
+            only; get extra voices from the <a href="/downloads">Downloads page</a>.</p>
         </details>
-        <a class="install-more" href="#install">Full install guide</a>
+        <a class="install-more" href="#install">Full install guide</a> &middot;
+        <a class="install-more" href="/downloads">Narrator voices</a>
       </div>
       <div class="box">
         <h3>About</h3>
@@ -478,6 +596,7 @@
       <div class="box">
         <h3>Links</h3>
         <ul class="links">
+          <li><a href="/downloads">All downloads</a></li>
           <li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li>
           <li><a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge page</a></li>
           <li><a href="/discord?src=site">Discord</a></li>

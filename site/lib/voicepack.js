@@ -4,6 +4,7 @@
 
 import { planPack, packFolder } from "../public/voices/testpack.js";
 import { zipStream, zipLength } from "./zip.js";
+import { racesLabel } from "./studio.js";
 
 // ## Interface of addon/LoreForever/LoreForever.toc (a test checks they match). If it falls behind, the pack still
 // loads with "Load out of date AddOns" ticked.
@@ -11,13 +12,15 @@ export const INTERFACE = "16001";
 const NOTES = "Recorded narration for Lore Forever.";
 const FORMAT = 1;
 
-export function renderToc({ title, version, locale, interface: iface, author = null, credit = null, sample = null }) {
+export function renderToc({ title, version, locale, interface: iface, author = null, credit = null, sample = null,
+                            races = null }) {
   const lines = [`## Interface: ${iface}`, `## Title: ${title}`, `## Notes: ${NOTES}`];
   if (author) lines.push(`## Author: ${author}`);
   lines.push(`## Version: ${version}`, "## Dependencies: LoreForever", "## LoadOnDemand: 1",
              "## X-LoreForever-Pack: voice", `## X-LoreForever-Locale: ${locale}`, `## X-LoreForever-Format: ${FORMAT}`);
   if (credit) lines.push(`## X-LoreForever-Credit: ${credit}`);
   if (sample) lines.push(`## X-LoreForever-Sample: ${sample}`);
+  if (races) lines.push(`## X-LoreForever-Races: ${races}`);
   return [...lines, "Clips.lua", ""].join("\n");
 }
 
@@ -58,7 +61,7 @@ async function sizes(bucket, prefix) {
   return out;
 }
 
-// The test pack for a voice. voice: {id, owner, name, locale}; takes: studio_takes rows (line_id, r2_key, ext, hash,
+// The test pack for a voice. voice: {id, owner, name, locale, races}; takes: studio_takes rows (line_id, r2_key, ext, hash,
 // crc32, created); index: lineIndex(lines.json). Returns null when nothing can go in, else
 // {folder, lines, ext, stream, length}. saveCrc(row, crc) keeps a CRC worked out on the way (uploads from before
 // the page sent one).
@@ -75,7 +78,7 @@ export async function testPack({ voice, takes, index, bucket, saveCrc = null, wh
   const ids = rows.map(t => t.line_id);
   const sample = ids.includes("zone:stormwind") ? "zone:stormwind" : ids[0];
   const toc = renderToc({ title: `${tocValue(voice.name) || "My voice"} (test pack)`, version: testVersion(rows.map(t => t.created)),
-                          locale: voice.locale, interface: INTERFACE, sample });
+                          locale: voice.locale, interface: INTERFACE, sample, races: racesLabel(voice.races) });
   const clips = renderClips(Object.fromEntries(rows.map(t => [t.line_id, current[t.line_id]])), plan.ext);
   const enc = new TextEncoder();
   const entries = [

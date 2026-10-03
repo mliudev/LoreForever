@@ -1,15 +1,23 @@
-// The upload page (/voices/studio.html). Contributors upload one recording per line and send their voice for review.
-// Server: functions/api/studio/[action].js. Lines: /voices/lines.json (pipeline: voicepack clips).
+// The upload page (/voices/studio.html). Contributors upload one recording per line, made in a recording app, and send
+// their voice for review. Server: functions/api/studio/[action].js. Lines: /voices/lines.json (voicepack clips).
+// There's deliberately no recording in the browser: takes come from a proper setup (Mike, 2026-10-02).
+//
+// Signed out, the lines can be browsed in any language and Upload and Send lead to sign-in. Signed in with no voice
+// yet, the first upload starts one (named after the account, in the language picked; rename it any time). The narrator
+// release is asked for on the send form, not before uploading.
 //
 // Before a file goes up, the browser checks it against the narrator guide (mono, 44.1/48 kHz, about -16 LUFS,
-// peaks at -1 dB or lower, at most 0.3 s of silence at each end, a length that fits the text). Warnings never stop
-// an upload; a file we can't use at all (silent, not audio, too long) is refused here and on the server.
-// The game plays .mp3 and .ogg only, so a .wav or .flac is turned into a mono .mp3 here before it goes up (mp3.js).
+// peaks at -1 dB or lower, at most 0.3 s of silence at each end, a length that fits the text) and the quality bar in
+// quality.js (sample rate, bandwidth, noise, clipping, level). Warnings never stop an upload; a file below the bar, or
+// one we can't use at all (silent, not audio, too long), is refused here with how to fix it.
+// The game plays .mp3 and Ogg Vorbis only, so anything else (.wav, .flac, .m4a, .webm, Opus) is turned into a mono
+// .mp3 here before it goes up (mp3.js).
 // Each upload carries its CRC-32 for the test pack's zip.
 
 import { planPack, packFolder } from "/voices/testpack.js";
 import { crc32, crcHex } from "/voices/crc32.js";
 import { toMp3 } from "/voices/mp3.js";
+import { measure, verdict } from "/voices/quality.js";
 import { voiceUpload } from "/js/bulk-upload.js";
 
 const app = document.getElementById("st-app");
@@ -29,6 +37,8 @@ let nextPos = 0;
 let mine = new Set();   // story keys this person picked, per voice (kept in this browser)
 const open = new Set(), busy = new Set(), errors = {};
 let creating = false, renaming = false, sent = null;
+const SIGN_IN = "/account?next=/voices/studio";
+const mineKey = () => `lf-studio-mine-${st?.voice || "new"}`;
 
 const lines_ = n => `${n} line${n === 1 ? "" : "s"}`;
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
@@ -37,6 +47,8 @@ const store = {
   get(k) { try { return JSON.parse(localStorage.getItem(k) || "null"); } catch (e) { return null; } },
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} },
 };
+// The language shown before there's a voice: the last one picked here, else the browser's, else English.
+let browseLocale = store.get("lf-studio-locale") || { de: "deDE", pt: "ptBR" }[(navigator.language || "").slice(0, 2)] || "enUS";
 
 async function api(action, { method = "GET", body, query = "", headers = {} } = {}) {
   const init = { method, headers: { ...headers }, cache: "no-store" };
@@ -63,18 +75,23 @@ async function load(voiceId) {
   ]);
   lines = data;
   st = state;
-  if (st.ok && st.voice) mine = new Set(store.get(`lf-studio-mine-${st.voice}`) || []);
+  if (st.ok) {
+    st.takes ||= {};
+    st.voices ||= [];
+    mine = new Set(store.get(mineKey()) || []);
+  }
+  if (lines && !lines.languages.some(l => l.locale === browseLocale && l.lines > 0)) browseLocale = "enUS";
   buildItems();
   render();
 }
 
 function currentVoice() { return st.voices?.find(v => v.id === st.voice) || null; }
+const locale = () => currentVoice()?.locale || browseLocale;
 
 function buildItems() {
   items = [];
-  const v = st?.voice && currentVoice();
-  if (!lines || !v) return;
-  const loc = v.locale;
+  if (!lines || !st?.ok) return;
+  const loc = locale();
   for (const g of lines.groups) {
     for (const s of g.stories) {
       s.lines.forEach((l, i) => {
@@ -101,7 +118,11 @@ const isDone = it => ["ok", "warn"].includes(stateOf(it));
 
 // ---- Checks (the narrator guide) ----
 
-// Sample rate and channels from the file header, before any browser resampling.
+// Kinds the game can't play, turned into .mp3 here before they go up. m4a is what phone and Windows voice recorders
+// save; webm and Opus are what browsers and chat apps record; aac is a bare AAC stream.
+const CONVERT = new Set(["wav", "flac", "m4a", "webm", "aac", "opus"]);
+
+// Kind, sample rate and channels from the file header, before any browser resampling. null: not audio we know.
 function headerInfo(b) {
   const ascii = (i, n) => String.fromCharCode(...b.slice(i, i + n));
   const u16 = i => b[i] | (b[i + 1] << 8), u32 = i => (b[i] | (b[i + 1] << 8) | (b[i + 2] << 16) | (b[i + 3] << 24)) >>> 0;
@@ -114,14 +135,18 @@ function headerInfo(b) {
     return { kind: "wav" };
   }
   if (ascii(0, 4) === "fLaC") return { kind: "flac", rate: (b[18] << 12) | (b[19] << 4) | (b[20] >> 4), channels: ((b[20] >> 1) & 7) + 1 };
-  if (ascii(0, 4) === "OggS") {
+  if (ascii(0, 4) === "OggS") {   // the game plays Ogg Vorbis only; Opus (or anything else) in Ogg is converted
     const p = 27 + b[26];
-    return ascii(p + 1, 6) === "vorbis" ? { kind: "ogg", channels: b[p + 11], rate: u32(p + 12) } : { kind: "ogg" };
+    return ascii(p + 1, 6) === "vorbis" ? { kind: "ogg", channels: b[p + 11], rate: u32(p + 12) } : { kind: "opus" };
   }
+  if (ascii(4, 4) === "ftyp") return { kind: "m4a" };
+  if (b[0] === 0x1a && b[1] === 0x45 && b[2] === 0xdf && b[3] === 0xa3) return { kind: "webm" };
+  if (b[0] === 0xff && (b[1] & 0xf6) === 0xf0) return { kind: "aac" };   // ADTS: an MPEG sync word with layer 0
+  const frame = o => b[o] === 0xff && (b[o + 1] & 0xe0) === 0xe0 && (b[o + 1] & 0x06) !== 0;   // layer 0 is AAC
   let o = 0;
   if (ascii(0, 3) === "ID3") o = 10 + ((b[6] << 21) | (b[7] << 14) | (b[8] << 7) | b[9]);
   for (; o + 4 < b.length; o++) {
-    if (b[o] === 0xff && (b[o + 1] & 0xe0) === 0xe0) {
+    if (frame(o)) {
       const ver = (b[o + 1] >> 3) & 3, idx = (b[o + 2] >> 2) & 3;
       const table = { 3: [44100, 48000, 32000], 2: [22050, 24000, 16000], 0: [11025, 12000, 8000] }[ver];
       if (!table || idx === 3) continue;
@@ -129,7 +154,7 @@ function headerInfo(b) {
     }
     if (o > 8192 && ascii(0, 3) !== "ID3") break;
   }
-  return ascii(0, 3) === "ID3" || (b[0] === 0xff && (b[1] & 0xe0) === 0xe0) ? { kind: "mp3" } : null;
+  return ascii(0, 3) === "ID3" || frame(0) ? { kind: "mp3" } : null;
 }
 
 // BS.1770 K-weighting as two biquads for sample rate fs (the same constants as libebur128).
@@ -176,12 +201,12 @@ function loudness(channels, fs) {
 async function analyze(file, it) {
   const buf = await file.arrayBuffer();
   const head = headerInfo(new Uint8Array(buf.slice(0, 65536)));
-  if (!head) return { error: "We take .mp3, .ogg, .wav or .flac files. Export the recording in one of those." };
+  if (!head) return { error: "We take .mp3, .m4a, .ogg, .wav, .flac and .webm files. Export the recording in one of those." };
   let decoded;
   try {
     decoded = await new OfflineAudioContext(1, 1, 48000).decodeAudioData(buf.slice(0));
   } catch (e) {
-    if (head.kind === "wav" || head.kind === "flac") {
+    if (CONVERT.has(head.kind)) {
       return { error: "This browser couldn't read the file, so it can't turn it into an .mp3. Export it as .mp3 or .ogg and try again." };
     }
     return { buf, checks: { warnings: ["unchecked"] } };   // e.g. a browser without Ogg Vorbis: we check it at review
@@ -206,9 +231,12 @@ async function analyze(file, it) {
   const lead = first / 100, tail = Math.max(0, (frames - 1 - last) / 100);
   const lufs = loudness(chans, fs);
   const rate = head.rate || null, channels = head.channels || decoded.numberOfChannels;
-  const w = [];
+  // The quality bar (quality.js): below it the take is refused, with what to change; near it, a warning.
+  const q = measure(chans, fs), bar = verdict(q, { sourceRate: rate, lufs });
+  if (bar.refuse.length) return { error: bar.refuse.map(k => refusalText(k, { ...q, rate, lufs })).join(" ") };
+  const w = [...bar.warn];
   if (channels > 1) w.push("stereo");
-  if (rate && rate !== 44100 && rate !== 48000) w.push("rate");
+  if (rate && rate > 48000) w.push("rate");
   if (lufs < -19) w.push("quiet"); else if (lufs > -13) w.push("loud");
   if (peakDb > -0.1) w.push("clip"); else if (peakDb > -1) w.push("peak");
   if (lead > 0.5) w.push("lead");
@@ -217,12 +245,24 @@ async function analyze(file, it) {
     const r = duration / it.target;
     if (r < 0.6) w.push("short"); else if (r > 1.7) w.push("long");
   }
-  const checks = { channels, rate: rate || 0, lufs, peak: peakDb, lead, tail, duration, warnings: w };
-  if (head.kind !== "wav" && head.kind !== "flac") return { buf, checks };
+  const checks = { channels, rate: rate || 0, lufs, peak: peakDb, lead, tail, duration, bandwidth: q.bandwidth, snr: q.snr, warnings: w };
+  if (!CONVERT.has(head.kind)) return { buf, checks };
   // Converted: the file that goes up is mono at 44.1 or 48 kHz, so those two warnings no longer apply.
   const mp3 = await toMp3(buf, rate).catch(() => null);
   if (!mp3) return { error: "Couldn't turn this file into an .mp3 in this browser. Export it as .mp3 or .ogg and try again." };
   return { buf: mp3.buf, checks: { ...checks, channels: 1, rate: mp3.rate, warnings: w.filter(k => k !== "stereo" && k !== "rate") } };
+}
+
+// Why a take is below the bar, and what to do about it (quality.js verdict keys). m: measure() plus rate and lufs.
+function refusalText(key, m) {
+  const n = (v, d = 0) => Number(v).toFixed(d).replace("-", "−");
+  return {
+    lowrate: `This was recorded at ${n(m.rate / 1000, 1)} kHz; narration needs 44.1 or 48 kHz. Set your recording app to 44.1 kHz (in Audacity: Project Rate, bottom left), record the line again and export it.`,
+    narrow: `This sounds like a phone call, a voice message or a low-quality export: there's no sound above ${n(m.bandwidth / 1000, 1)} kHz. Record in a recording app at 44.1 or 48 kHz and export a WAV, or an MP3 at 128 kbps or more.`,
+    clipping: `This take is clipping: ${n(m.clipped * 100, 1)}% of it hits the top and distorts. Turn the microphone gain down so your loudest words peak around −6 dB, and record it again (turning it down afterwards doesn't undo the distortion).`,
+    tooquiet: `This is very quiet (${n(m.lufs, 1)} LUFS). Turn the microphone gain up or get closer, and record again aiming for about −16 LUFS.`,
+    noisy: `There's a lot of background noise: the quiet between words is only ${n(m.snr)} dB below your voice (aim for 45 or more). Record somewhere quieter (soft furnishings help; switch off fans), get closer to the microphone, and record it again.`,
+  }[key] || key;
 }
 
 function warningText(key, c, it) {
@@ -239,13 +279,30 @@ function warningText(key, c, it) {
     short: `Much shorter than the text (${fmtTime(c.duration)} for about ${fmtTime(it.target)}). The end may be cut off, or this is the recording for another line.`,
     long: `Much longer than the text (${fmtTime(c.duration)} for about ${fmtTime(it.target)}). Check it's the right line, or trim long pauses.`,
     unchecked: "This browser couldn't check the file. We'll check it when we review.",
+    muffled: `Sounds a little muffled or low-bitrate (nothing above ${n(c.bandwidth / 1000)} kHz). If you can, export a WAV, or an MP3 at 128 kbps or more.`,
+    hiss: `Some background noise: the quiet between words is ${n(c.snr, 0)} dB below your voice. A quieter room, or getting closer to the mic, would help.`,
   }[key] || key;
 }
 
 // ---- Uploading ----
 
+// Signed in with no voice yet: the first upload starts one, in the language on show. Returns false (with
+// the error on the line) if it couldn't.
+async function ensureVoice(it) {
+  if (currentVoice()) return true;
+  const who = (st.user?.display_name || "").trim().slice(0, 50);
+  const name = who ? `${who}'s voice` : "My voice";
+  const res = await api("voice", { method: "POST", body: { name, locale: browseLocale } });
+  if (!res.ok) { errors[it.id] = res.error; render(); return false; }
+  store.set(`lf-studio-mine-${res.id}`, [...mine]);   // stories ticked before the voice existed
+  await load(res.id);
+  return true;
+}
+
 async function upload(it, file) {
   delete errors[it.id];
+  if (!(await ensureVoice(it))) return "bad";
+  it = byId(it.id) || it;
   const tooBig = `That file is over ${st.limits.bytes / 1048576} MB. Export it as .mp3 or .ogg to make it smaller.`;
   if (file.size > st.limits.bytes * 8) {   // a .wav shrinks a lot once it's an .mp3; the limit applies to what goes up
     errors[it.id] = tooBig;
@@ -316,52 +373,23 @@ function render() {
       <p>You can also send a folder link with the <a href="/voices/submit">submission form</a>.</p></div>`;
     return;
   }
-  if (!st.signedIn) return renderSignIn();
-  if (!lines) { app.innerHTML = `<h1>Upload your recordings</h1><p class="pitch">Couldn't load the list of lines. Please reload the page.</p>`; return; }
-  if (!st.release.agreed) return renderRelease();
-  if (!st.voices.length || creating) return renderNewVoice();
+  if (!lines) { app.innerHTML = `<h1>Upload your narration</h1><p class="pitch">Couldn't load the list of lines. Please reload the page.</p>`; return; }
+  if (st.signedIn && creating) return renderNewVoice();
   renderWorkspace();
 }
 
 function intro() {
-  return `<h1>Upload your recordings</h1>
-    <p class="st-intro">Every line is below with the words to read. Record a line in your own setup, then drop the file on
-      that line. Name the file whatever you like. We check each one against the <a href="/voices/guide">narrator guide</a>.
-      You don't need every line: anything you leave out plays in the default voice. Come back any time, then send your
-      voice to us for review.</p>`;
+  return `<h1>Upload your narration</h1>
+    <p class="st-intro">Every line is below with the words to read. Record it in your own setup, then drop the file on its
+      line; any name works. We check each one against the <a href="/voices/guide">narrator guide</a>. You don't need every
+      line: anything you leave out plays in the default voice. Come back any time, then send your voice to us for review.</p>`;
 }
 
-function renderSignIn() {
-  app.innerHTML = `${intro()}<section class="fb-done st-box"><h2>Sign in first</h2>
-    <p>Uploading needs a Lore Forever account, so your recordings are tied to you and you can come back to them. It takes a
-      minute with your Google account. Players never need one.</p>
-    <p><a class="btn-small" href="/account?next=/voices/studio">Sign in or create an account</a></p></section>`;
-}
-
-function renderRelease() {
-  app.innerHTML = `${intro()}<form class="fb-form st-box" id="st-release">
-    <h2>The narrator release</h2>
-    <p class="vp-note">So we can ship your recordings, you give us permission to share them in Lore Forever voice packs under
-      CC BY-SA 4.0. It's one page in plain language: <a href="/voices/release" target="_blank">read the narrator release</a>.
-      You agree once, before your first upload.</p>
-    <label class="fb-check"><input type="checkbox" name="agree" required>
-      <span>I've read and agree to the <a href="/voices/release" target="_blank">narrator release</a> (version ${esc(st.release.version)}).</span></label>
-    <label class="fb-check"><input type="checkbox" name="adult" required>
-      <span>I'm 18 or older. Or I'm under 18, and my parent or guardian has read the release, agrees to it, and signs below.</span></label>
-    <label class="fb-field"><span>Signature</span>
-      <input type="text" name="signature" maxlength="100" required autocomplete="name" placeholder="Your full name">
-      <small>Typing your full name here signs the release. If you're under 18, your parent or guardian types theirs. We keep
-        it with your agreement and never publish it.</small></label>
-    <div class="fb-actions"><button type="submit" class="btn-download">Agree and continue</button>
-      <p class="fb-status" id="st-release-status" role="status" hidden></p></div></form>`;
-  const form = document.getElementById("st-release");
-  form.addEventListener("submit", async e => {
-    e.preventDefault();
-    const d = Object.fromEntries(new FormData(form));
-    const res = await api("release", { method: "POST", body: { agree: !!d.agree, adult: !!d.adult, signature: d.signature, release: st.release.version } });
-    if (res.ok) { st.release.agreed = true; render(); return; }
-    const s = document.getElementById("st-release-status"); s.textContent = res.error; s.hidden = false;
-  });
+// How to make a take we can use, where the file goes in.
+function howToRecordHtml() {
+  return `<p class="st-howto">Record in a proper app (<a href="https://www.audacityteam.org/" target="_blank" rel="noopener">Audacity</a>
+    is free) with a decent microphone in a quiet room, at 44.1 or 48 kHz, then export an MP3 or WAV.
+    <a href="/voices/guide#specs">How to record</a>.</p>`;
 }
 
 function languageOptions(selected) {
@@ -407,10 +435,19 @@ function filtered() {
   });
 }
 
+// A first evening's work for a new narrator, instead of every line at once: the main story of each starting zone and
+// capital (21 stories, about 20 minutes of reading). Voices can be partial, so even a few of these are worth sending.
+const STARTER_GROUPS = ["Starting zones", "Capitals"];
+const isStarter = it => STARTER_GROUPS.includes(it.group) && !it.child && it.text;
+
+// The next-line box goes through your picked stories first, then the starter set, then everything else.
 function queue() {
   const todo = items.filter(it => ["missing", "stale"].includes(stateOf(it)));
   const picked = todo.filter(it => mine.has(it.story.key));
-  return picked.length ? { list: picked, mine: true } : { list: todo, mine: false };
+  if (picked.length) return { list: picked, mine: true };
+  const starter = todo.filter(isStarter);
+  if (starter.length) return { list: starter, starter: items.filter(isStarter).length };
+  return { list: todo, mine: false };
 }
 
 function hintsHtml(it) {
@@ -418,26 +455,38 @@ function hintsHtml(it) {
 }
 
 function nextHtml() {
-  const { list, mine: fromMine } = queue();
+  const { list, mine: fromMine, starter } = queue();
   if (!list.length) return `<section class="st-next"><p class="st-done-all">Every line with text in this language has a recording.
     Send your voice below whenever you're ready.</p></section>`;
   nextPos = Math.max(0, Math.min(nextPos, list.length - 1));
   const it = list[nextPos];
   const label = it.q ? esc(it.q) : "The story";
   return `<section class="st-next" data-line="${esc(it.id)}">
-    <div class="st-next-h"><span class="st-eyebrow">Next ${fromMine ? "of your lines" : "line to record"} · ${lines_(list.length)} still to record</span>
+    <div class="st-next-h"><span class="st-eyebrow">${starter
+      ? `Starter set · ${starter - list.length} of ${starter} recorded`
+      : `Next ${fromMine ? "of your lines" : "line to record"} · ${lines_(list.length)} still to record`}</span>
       <span><button class="st-b ghost" type="button" data-next="-1"${nextPos ? "" : " disabled"}>‹ Previous</button>
       <button class="st-b ghost" type="button" data-next="1"${nextPos < list.length - 1 ? "" : " disabled"}>Skip ›</button></span></div>
+    ${starter ? `<p class="st-starter">Start with the starting zones and capitals: ${starter} short stories, about
+      ${Math.round(items.filter(isStarter).reduce((t, i) => t + i.target, 0) / 60)} minutes of reading. Record as few as
+      you like; every line you send plays in game, and the rest stay in the default voice. Tick <b>Mine</b> on any story
+      below to record that instead.</p>` : ""}
     <h2>${esc(it.name)} <span>· ${label}</span></h2>
     <div class="st-meta2">${it.text.split(/\s+/).length} words · about ${fmtTime(it.target)}${it.story.voice ? ` · suggested voice: ${esc(VOICES[it.story.voice] || it.story.voice)}` : ""}</div>
     ${stateOf(it) === "stale" ? `<p class="st-note stale">We reworded this line after you uploaded it. Please record the new text.</p>` : ""}
     <div class="st-script">${esc(it.text)}</div>
     ${hintsHtml(it)}
-    <div class="st-drop" data-drop="${esc(it.id)}">
-      ${busy.has(it.id) ? `<strong>Checking and uploading...</strong>` : `<strong>Drop your recording of this line here</strong>
-      <p>or <button class="st-b" type="button" data-choose="${esc(it.id)}">Choose a file</button>. The next line comes up once it's in.</p>`}
+    ${!st.signedIn ? `<div class="st-drop"><strong>Recorded it? Upload it here</strong>
+      <p><a class="btn-small" href="${SIGN_IN}">Sign in to upload</a></p>
+      <p>A Lore Forever account keeps your recordings yours, so you can come back to them. It takes a minute with Google.</p>
+      ${howToRecordHtml()}</div>`
+    : `<div class="st-drop" data-drop="${esc(it.id)}">
+      ${busy.has(it.id) ? `<strong>Checking and uploading...</strong>`
+      : `<strong>Drop your recording of this line here</strong>
+        <p>or <button class="st-b" type="button" data-choose="${esc(it.id)}">choose a file</button>. The next line comes up once it's in.</p>
+        ${howToRecordHtml()}`}
       ${errors[it.id] ? `<p class="st-note bad">${esc(errors[it.id])}</p>` : ""}
-    </div></section>`;
+    </div>`}</section>`;
 }
 
 function rowHtml(it) {
@@ -456,20 +505,50 @@ function rowHtml(it) {
   if (s === "none") notes.push(`<p class="st-note">Not translated yet. <a href="/translate">Help translate it</a>, then it can be recorded.</p>`);
   if (errors[it.id]) notes.push(`<p class="st-note bad">${esc(errors[it.id])}</p>`);
   let acts = "";
-  if (busy.has(it.id)) acts = `<span class="st-slot">Checking and uploading...</span>`;
+  if (!st.signedIn) acts = "";   // the sign-in prompt is in the next-line box and the send section
+  else if (busy.has(it.id)) acts = `<span class="st-slot">Checking and uploading...</span>`;
   else if (s === "ok" || s === "warn") acts = `<button class="st-play" type="button" data-play="${esc(it.id)}" aria-label="Play">▶</button>
     <button class="st-b ghost" type="button" data-choose="${esc(it.id)}">Replace</button>
     <button class="st-b ghost" type="button" data-remove="${esc(it.id)}">Remove</button>`;
   else if (s !== "none") acts = `<span class="st-slot">Drop a file here or <button class="st-b" type="button" data-choose="${esc(it.id)}">Upload</button></span>`;
-  return `<div class="st-row${it.child ? " child" : ""}"${s !== "none" ? ` data-drop="${esc(it.id)}"` : ""}>
+  return `<div class="st-row${it.child ? " child" : ""}"${s !== "none" && st.signedIn ? ` data-drop="${esc(it.id)}"` : ""}>
     <span class="st-dot ${s === "missing" ? "" : s}" title="${{ ok: "Uploaded", warn: "Needs a look", stale: "Text changed", missing: "Missing", none: "Not translated yet" }[s]}"></span>
     <div class="st-what">${label}<span class="st-meta">${meta.join("")}</span>${notes.join("")}</div>
     <div class="st-acts">${acts}</div>
     ${open.has(it.id) && it.text ? `<div class="st-script">${esc(it.text)}</div>${hintsHtml(it)}` : ""}</div>`;
 }
 
+// The voice bar: the voice and its language, or (no voice yet) the language picker and how a voice starts.
+function voiceBarHtml(v, lang) {
+  if (!v) {
+    return `<div class="st-voicebar">
+      <span class="st-lang"><label for="st-locale">Language:</label> <select id="st-locale">${languageOptions(browseLocale)}</select></span>
+      <span>${st.signedIn ? "Your first upload starts your voice. You can name it any time."
+        : `Have a look around. <a href="${SIGN_IN}">Sign in with Google</a> to upload.`}</span></div>`;
+  }
+  const voiceSelect = st.voices.length > 1
+    ? `<select id="st-voice" aria-label="Voice">${st.voices.map(x => `<option value="${esc(x.id)}"${x.id === v.id ? " selected" : ""}>${esc(x.name)}</option>`).join("")}</select>`
+    : `<strong>${esc(v.name)}</strong>`;
+  const status = v.status === "pending" ? " · sent for review" : "";
+  return `<div class="st-voicebar">
+      <span>Voice: ${renaming ? `<input id="st-rename" maxlength="60" value="${esc(v.name)}" aria-label="Voice name"> <button class="st-b" type="button" id="st-rename-save">Save</button>` : voiceSelect}</span>
+      ${renaming ? "" : `<button class="st-b ghost" type="button" id="st-rename-open">Rename</button>`}
+      <span class="st-lang">Language: <b>${esc(lang?.name || v.locale)}</b>${lang?.draft ? " (draft text)" : ""}${status}</span>
+      ${st.voices.length < st.limits.voices ? `<button class="st-b ghost" type="button" id="st-new-voice">+ New voice</button>` : ""}
+    </div>${racesHtml(v)}`;
+}
+
+// Optional: the races whose stories this voice suits. Players who tick "Prefer voices that suit the race" in the
+// add-on hear it first for those stories (it goes in the pack's .toc as X-LoreForever-Races).
+function racesHtml(v) {
+  const has = new Set(String(v.races || "").split(","));
+  return `<div class="st-races"><span>Your voice suits:</span>
+    ${Object.entries(VOICES).map(([k, name]) => `<label class="st-race"><input type="checkbox" data-race="${esc(k)}"${has.has(k) ? " checked" : ""}> ${esc(name)}</label>`).join("")}
+    <small>Optional. Players can ask for voices that suit a story's race, so an orc voice reads orc lore first.</small></div>`;
+}
+
 function renderWorkspace() {
-  const v = currentVoice(), lang = lines.languages.find(l => l.locale === v.locale);
+  const v = currentVoice(), lang = lines.languages.find(l => l.locale === locale());
   const withText = items.filter(i => i.text), done = withText.filter(isDone).length;
   const perGroup = lines.groups.map(g => {
     const gi = withText.filter(i => i.group === g.name);
@@ -479,6 +558,9 @@ function renderWorkspace() {
   for (const it of withText) counts[stateOf(it)]++;
   const shown = filtered();
   const mineLines = items.filter(i => mine.has(i.story.key)).length;
+  // Until the starter set is recorded, the bar measures that, not every line (LOR-170: 840 lines put people off).
+  const starterAll = items.filter(isStarter), starterDone = starterAll.filter(isDone).length;
+  const starterLeft = Boolean(queue().starter);
 
   // Groups and stories of the filtered lines, in lines.json order.
   let list = "";
@@ -493,31 +575,24 @@ function renderWorkspace() {
       if (!si.length) continue;
       const sAll = withText.filter(i => i.story === s);
       list += `<article class="st-story${mine.has(s.key) ? " mine" : ""}"><h3><label class="st-pick"><input type="checkbox" data-pick="${esc(s.key)}"${mine.has(s.key) ? " checked" : ""}> Mine</label>
-        ${esc(s.name[v.locale] || s.name.enUS)}<span class="n">${sAll.filter(isDone).length} of ${sAll.length}</span></h3>${si.map(rowHtml).join("")}</article>`;
+        ${esc(s.name[locale()] || s.name.enUS)}<span class="n">${sAll.filter(isDone).length} of ${sAll.length}</span></h3>${si.map(rowHtml).join("")}</article>`;
     }
     list += `</section>`;
   }
 
-  const voiceSelect = st.voices.length > 1
-    ? `<select id="st-voice" aria-label="Voice">${st.voices.map(x => `<option value="${esc(x.id)}"${x.id === v.id ? " selected" : ""}>${esc(x.name)}</option>`).join("")}</select>`
-    : `<strong>${esc(v.name)}</strong>`;
-  const status = v.status === "pending" ? " · sent for review" : "";
-
   app.innerHTML = `${intro()}
-    <div class="st-voicebar">
-      <span>Voice: ${renaming ? `<input id="st-rename" maxlength="60" value="${esc(v.name)}" aria-label="Voice name"> <button class="st-b" type="button" id="st-rename-save">Save</button>` : voiceSelect}</span>
-      ${renaming ? "" : `<button class="st-b ghost" type="button" id="st-rename-open">Rename</button>`}
-      <span class="st-lang">Language: <b>${esc(lang?.name || v.locale)}</b>${lang?.draft ? " (draft text)" : ""}${status}</span>
-      ${st.voices.length < st.limits.voices ? `<button class="st-b ghost" type="button" id="st-new-voice">+ New voice</button>` : ""}
-    </div>
-    <ul class="st-spec"><li><b>.mp3</b>, <b>.ogg</b>, <b>.wav</b> or <b>.flac</b></li><li><b>Mono</b>, 44.1 or 48 kHz</li>
+    ${voiceBarHtml(v, lang)}
+    <ul class="st-spec"><li><b>.mp3</b>, <b>.m4a</b>, <b>.ogg</b>, <b>.wav</b>, <b>.flac</b> or <b>.webm</b></li><li><b>Mono</b>, 44.1 or 48 kHz</li>
       <li>About <b>−16 LUFS</b>, peaks ≤ −1 dB</li><li>≤ 0.3 s silence at each end</li></ul>
     ${nextHtml()}
     <section id="st-bulkup"></section>
     <div class="st-bar">
       <div class="st-progress">
-        <div class="st-progress-top"><span><strong>${done}</strong> of ${withText.length} lines</span><span>${esc(perGroup)}</span></div>
-        <div class="st-track"><i style="width:${withText.length ? (done / withText.length * 100).toFixed(1) : 0}%"></i></div>
+        <div class="st-progress-top"><span>${starterLeft
+          ? `<strong>${starterDone}</strong> of ${starterAll.length} starter stories · ${lines_(done)} in all`
+          : `<strong>${done}</strong> of ${withText.length} lines`}</span><span>${esc(perGroup)}</span></div>
+        <div class="st-track"><i style="width:${(starterLeft ? starterDone / starterAll.length
+          : withText.length ? done / withText.length : 0) * 100}%"></i></div>
       </div>
       <a class="btn-download" href="#st-send">Send for review</a>
     </div>
@@ -534,10 +609,15 @@ function renderWorkspace() {
       <p class="st-picker-note">Tick <b>Mine</b> on the stories you want to voice. The next-line box goes through those first.</p>
     </div>
     ${list || `<p class="st-empty">No lines match. Clear a filter to see more.</p>`}
-    ${testPackHtml(v)}
+    ${v ? testPackHtml(v) : ""}
     ${sendHtml(done, withText.length, counts)}`;
   bindWorkspace();
-  bulkBox.mount(document.getElementById("st-bulkup"));
+  const bulk = document.getElementById("st-bulkup");
+  if (v) bulkBox.mount(bulk);
+  else if (st.signedIn) {   // the zip box needs a voice to match files against: start one on request
+    bulk.innerHTML = `<p class="st-note">Have a zip or folder of recordings already?
+      <button class="st-b" type="button" id="st-start">Start my voice</button> and the box to drop it in appears here.</p>`;
+  }
 }
 
 // "Download my test pack": the same choice of lines as the server's zip (testpack.js).
@@ -576,7 +656,27 @@ function testPackHtml(v) {
   </section>`;
 }
 
+// The narrator release, on the send form the first time (and again after it changes).
+function releaseHtml() {
+  if (st.release.agreed) return "";
+  return `<fieldset class="st-release"><legend>The narrator release</legend>
+    <p class="vp-note">Sending lets us share these recordings in Lore Forever voice packs under CC BY-SA 4.0. It's one page
+      in plain language: <a href="/voices/release" target="_blank">read the narrator release</a>. You agree once.</p>
+    <label class="fb-check"><input type="checkbox" name="agree" required>
+      <span>I've read and agree to the <a href="/voices/release" target="_blank">narrator release</a> (version ${esc(st.release.version)}).</span></label>
+    <label class="fb-check"><input type="checkbox" name="adult" required>
+      <span>I'm 18 or older. Or I'm under 18, and my parent or guardian has read the release, agrees to it, and signs below.</span></label>
+    <label class="fb-field"><span>Signature</span>
+      <input type="text" name="signature" maxlength="100" required autocomplete="name" placeholder="Your full name">
+      <small>Typing your full name here signs the release. If you're under 18, your parent or guardian types theirs. We keep
+        it with your agreement and never publish it.</small></label></fieldset>`;
+}
+
 function sendHtml(done, total, counts) {
+  if (!st.signedIn) return `<section class="st-send" id="st-send"><h2>Send for review</h2>
+    <p>Upload as many lines as you like, hear them in game with your own test pack, then send them here. We listen
+      to every line, build your pack, and list it on the Voices page with your name on it.</p>
+    <p><a class="btn-small" href="${SIGN_IN}">Sign in to start</a></p></section>`;
   if (sent) return `<section class="st-send" id="st-send"><h2>Sent for review</h2>
     <p>Thanks! We'll listen to your ${lines_(sent)}, build your pack and get back to you by email. You can keep uploading;
       send again when you've added more.</p><button class="st-b" type="button" id="st-send-again">Send again</button></section>`;
@@ -591,6 +691,7 @@ function sendHtml(done, total, counts) {
         <small>How players see your name in the voice picker and on this site. Type Anonymous to stay uncredited.</small></label>
       <label class="fb-field"><span class="fb-sub">Discord handle (optional)</span><input type="text" name="discord" maxlength="40" autocomplete="off" spellcheck="false"></label>
       <label class="fb-field"><span class="fb-sub">Anything else? (optional)</span><textarea name="note" rows="3" maxlength="2000"></textarea></label>
+      ${releaseHtml()}
       <div class="fb-actions"><button type="submit" class="btn-download"${done ? "" : " disabled"}>Send ${lines_(done)} for review</button>
         <p class="fb-status" id="st-send-status" role="status" hidden></p></div>
     </form></section>`;
@@ -601,7 +702,7 @@ function sendHtml(done, total, counts) {
 function pickFile(it) {
   const input = document.createElement("input");
   input.type = "file";
-  input.accept = ".mp3,.ogg,.wav,.flac,audio/*";
+  input.accept = ".mp3,.m4a,.ogg,.opus,.wav,.flac,.aac,.webm,audio/*";
   input.addEventListener("change", () => {
     if (input.files.length) upload(it, input.files[0]);
   });
@@ -612,7 +713,7 @@ const byId = id => items.find(i => i.id === id);
 
 function setMine(keys, on) {
   for (const k of keys) on ? mine.add(k) : mine.delete(k);
-  store.set(`lf-studio-mine-${st.voice}`, [...mine]);
+  store.set(mineKey(), [...mine]);
   nextPos = 0;
   render();
 }
@@ -638,10 +739,27 @@ function bindWorkspace() {
     const btn = e.target.querySelector("button[type=submit]");
     btn.disabled = true;
     const d = Object.fromEntries(new FormData(e.target));
-    const res = await api("send", { method: "POST", body: { voice: st.voice, ...d } });
+    const say = msg => { btn.disabled = false; const s = document.getElementById("st-send-status"); s.textContent = msg; s.hidden = false; };
+    if (!st.release.agreed) {   // the release first, then the voice
+      const r = await api("release", { method: "POST", body: { agree: !!d.agree, adult: !!d.adult, signature: d.signature, release: st.release.version } });
+      if (!r.ok) return say(r.error);
+      st.release.agreed = true;
+    }
+    const res = await api("send", { method: "POST", body: { voice: st.voice, credit: d.credit, discord: d.discord, note: d.note } });
     if (res.ok) { sent = res.lines; currentVoice().status = "pending"; render(); document.getElementById("st-send")?.scrollIntoView(); return; }
-    btn.disabled = false;
-    const s = document.getElementById("st-send-status"); s.textContent = res.error; s.hidden = false;
+    say(res.error);
+  });
+  on("st-locale", "change", e => { browseLocale = e.target.value; store.set("lf-studio-locale", browseLocale); nextPos = 0; buildItems(); render(); });
+  for (const box of document.querySelectorAll("[data-race]")) {
+    box.addEventListener("change", async () => {
+      const races = [...document.querySelectorAll("[data-race]:checked")].map(b => b.dataset.race);
+      const res = await api("voice", { method: "POST", body: { id: st.voice, races } });
+      if (res.ok) currentVoice().races = res.races; else { box.checked = !box.checked; alert(res.error); }
+    });
+  }
+  on("st-start", "click", async e => {
+    e.target.disabled = true;
+    if (!(await ensureVoice({ id: "start" }))) { e.target.disabled = false; alert(errors.start); }
   });
 }
 

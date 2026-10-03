@@ -16,7 +16,8 @@ export async function loadLanguages(env, request) {
 }
 
 // The published language packs (public/translate/packs.json, written by scripts/publish-language-packs.sh):
-// [{locale, name, version, file, size, download}]. Shared by /translate and /download/lang/<locale>.
+// [{locale, name, version, file, size, download, included}]; included: the pack is in the main download too.
+// Shared by /translate and /download/lang/<locale>.
 export async function loadPacks(env, request) {
   try {
     const res = await env.ASSETS.fetch(new URL("/translate/packs.json", request.url));
@@ -104,7 +105,8 @@ function percent(p) {
 }
 
 // A language card for the /translate list. Works without JavaScript (the like button is a small form that comes back
-// to /translate). `pack` (from packs.json) adds the player download: the pack itself, not the translator kit.
+// to /translate). `pack` (from packs.json) adds the player download: the pack itself, not the translator kit, or,
+// for a pack in the main download, how to switch it on.
 export function languageCard(lang, likes, translators = [], pack = null) {
   const c = lang.coverage || {};
   const p = c.percent || 0;
@@ -128,7 +130,9 @@ export function languageCard(lang, likes, translators = [], pack = null) {
           aria-label="${escape(lang.englishName)}: ${p}% translated"><span style="width:${Math.min(100, p)}%"></span></div>
         <p class="tl-percent"><strong>${percent(p)}</strong> translated</p>
         <p class="tl-review" lang="en">${review}</p>
-        ${translators.length ? `<p class="tl-credits"><span lang="en">Translated by</span> ${translators.map(escape).join(", ")}</p>` : ""}${pack ? `
+        ${translators.length ? `<p class="tl-credits"><span lang="en">Translated by</span> ${translators.map(escape).join(", ")}</p>` : ""}${pack?.included ? `
+        <p class="tl-install" lang="en">Comes with Lore Forever. It switches on by itself on a
+          ${escape(lang.englishName)} game client, or pick it in Options &gt; AddOns &gt; Lore Forever &gt; Language.</p>` : pack ? `
         <p class="tl-get tl-pack" lang="en"><a class="btn-small" href="/download/lang/${escape(lang.locale)}">Download to play</a>
           <span class="tl-size">${pack.size ? mb(pack.size) + " zip" : ""}</span></p>
         <p class="tl-install" lang="en">Unzip it into <code>Interface\\AddOns</code> next to LoreForever, then restart the

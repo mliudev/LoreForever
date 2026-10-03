@@ -54,16 +54,19 @@ function Context.Character()
   }
 end
 
--- Active quests with objectives. Uses C_QuestLog (modern) and falls back to the classic globals.
+-- Active quests with objectives, each with its quest log heading (usually its zone). Uses C_QuestLog (modern) and
+-- falls back to the classic globals.
 function Context.Quests()
   local quests = {}
   local QL = _G.C_QuestLog
   if QL and QL.GetNumQuestLogEntries and QL.GetInfo then
-    local n = try(QL.GetNumQuestLogEntries) or 0
+    local n, header = try(QL.GetNumQuestLogEntries) or 0, nil
     for i = 1, n do
       local info = try(QL.GetInfo, i)
+      if info and info.isHeader then header = info.title end
       if info and not info.isHeader and not info.isHidden and info.questID and info.questID > 0 then
-        local q = { id = info.questID, title = info.title, level = info.level, complete = nil, objectives = {} }
+        local q = { id = info.questID, title = info.title, level = info.level, complete = nil, objectives = {},
+          header = header }
         local objs = try(QL.GetQuestObjectives, info.questID)
         for _, o in ipairs(objs or {}) do
           if o.text and o.text ~= "" then q.objectives[#q.objectives + 1] = o.text end
@@ -73,11 +76,13 @@ function Context.Quests()
       end
     end
   elseif GetNumQuestLogEntries then
-    local n = try(GetNumQuestLogEntries) or 0
+    local n, header = try(GetNumQuestLogEntries) or 0, nil
     for i = 1, n do
       local title, level, _, isHeader, _, isComplete, _, questID = try(GetQuestLogTitle, i)
+      if title and isHeader then header = title end
       if title and not isHeader then
-        quests[#quests + 1] = { id = questID, title = title, level = level, complete = isComplete == 1, objectives = {} }
+        quests[#quests + 1] = { id = questID, title = title, level = level, complete = isComplete == 1, objectives = {},
+          header = header }
       end
     end
   end

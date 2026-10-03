@@ -26,15 +26,6 @@
    "answer": "The tavern and its inn services are managed by Innkeeper Skindle, an industrious goblin who caters to the assorted sailors, mercenaries, and adventurers passing through Booty Bay."
   },
   {
-   "q": "What is the tavern's specialty drink?",
-   "aliases": [
-    "drink",
-    "specialty drink",
-    "south island iced tea"
-   ],
-   "answer": "The tavern has no single famous brew; Innkeeper Skindle keeps strong drinks flowing for thirsty sailors and jungle-weary travelers."
-  },
-  {
    "q": "What is that large stone hanging outside the tavern?",
    "aliases": [
     "stone outside",
@@ -64,8 +55,7 @@
   "booty bay inn",
   "protector stone",
   "salty sailor",
-  "skindle",
-  "south island iced tea"
+  "skindle"
  ],
  "related": [
   "subzone:booty-bay",

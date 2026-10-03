@@ -1,0 +1,16 @@
+## Interface: 16001
+## Title: Lore Forever - Français
+## Notes: Pack de langue française pour Lore Forever : interface, textes de lore et les noms du client français du jeu.
+## Author: Mike
+## Version: 0.6.0
+## Dependencies: LoreForever
+## LoadOnDemand: 1
+## X-LoreForever-Pack: lang
+## X-LoreForever-Locale: frFR
+## X-LoreForever-Format: 1
+## X-LoreForever-DataVersion: 2026-10-02 20:36 UTC
+## X-LoreForever-LanguageName: Français
+## X-LoreForever-TTSVoices: French|Français|Hortense|Julie|Paul
+
+# The client reads this file once, at launch. The files load through Lang.xml, which it reads again on every /reload.
+Lang.xml

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Crown Guard Tower"
  },
- "summary": "Crown Guard Tower is a ruined Lordaeron scout tower situated in the southern Eastern Plaguelands. Sacked during the Third War by the Scourge, its strategic vantage point makes it an actively contested fortification between Alliance and Horde forces venturing through the blighted lands.",
+ "summary": "Crown Guard Tower is a ruined Lordaeron scout tower in the southern Eastern Plaguelands. The Scourge destroyed it during the invasion of Lordaeron in the Third War, and its broken stones have stood amid the blight ever since.",
  "sections": [
   {
    "title": "A Fallen Bulwark",
-   "body": "Once part of the Kingdom of Lordaeron's defensive network, Crown Guard Tower fell swiftly during the Scourge onslaught and was reduced to charred stone. Despite the surrounding desolation and constant undead presence, its elevated platform remains a vital observation post overlooking the southern roads of the Plaguelands. As both the Alliance and Horde attempt to establish permanent footholds in the region to oppose the Lich King's armies, the tower serves as an active frontline skirmish site where both factions repeatedly clash to secure supply routes and tactical supremacy.",
+   "body": "Once part of the Kingdom of Lordaeron's defenses, Crown Guard Tower was a scout tower watching over the lands of eastern Lordaeron. When the Scourge overran the kingdom, the tower was destroyed and left in ruins, one of several fallen towers scattered across what are now the Eastern Plaguelands. Its charred stones stand in a land the undead still hold.",
    "spoiler": 0
   }
  ],
@@ -32,33 +32,12 @@
     "what happened here"
    ],
    "answer": "The tower was destroyed during the Scourge invasion of Lordaeron, when waves of undead overran the kingdom's defenses and left the structure in rubble."
-  },
-  {
-   "q": "Why do the Alliance and Horde fight over it?",
-   "aliases": [
-    "why fight for the tower",
-    "pvp tower",
-    "strategic value"
-   ],
-   "answer": "Controlling the fallen tower allows either faction to fortify their local presence, secure the nearby roadways, and reinforce offensive operations in the Eastern Plaguelands."
-  },
-  {
-   "q": "Is the tower permanently held by any faction?",
-   "aliases": [
-    "who owns the tower",
-    "who controls crown guard tower"
-   ],
-   "answer": "No. Control continually shifts as Alliance and Horde warbands assault and reclaim the beacon, neither side yet maintaining an enduring occupation."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, reclaiming Crown Guard Tower is an effort to restore order to Lordaeron's ancestral soil and deny Horde scouts an overwatch on key transport lanes."
-  },
-  {
-   "target": "faction:Horde",
-   "text": "The Horde targets the tower to anchor their logistics across the Plaguelands and counter Alliance encroachments east of the river."
+   "text": "For the Alliance, the ruined Crown Guard Tower is a reminder of how completely the Scourge broke the Kingdom of Lordaeron's defenses."
   }
  ],
  "keywords": [
@@ -73,8 +52,6 @@
   "zone:easternplaguelands",
   "topic:lordaeron",
   "topic:scourge",
-  "topic:alliance",
-  "topic:horde",
   "subzone:light-s-hope-chapel"
  ],
  "attribution": [

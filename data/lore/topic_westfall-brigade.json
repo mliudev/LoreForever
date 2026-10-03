@@ -1,17 +1,17 @@
 {
  "key": "topic:westfall-brigade",
  "type": "topic",
- "name": "Westfall Brigade",
+ "name": "People's Militia",
  "era": "classic",
  "zone": "westfall",
  "meta": {
   "wiki": "Westfall Brigade"
  },
- "summary": "The People's Militia, or Westfall Brigade, is a grassroots defense force founded by Gryan Stoutmantle to protect Westfall's residents from the Defias Brotherhood. Operating out of Sentinel Hill, these volunteer defenders stand alone after royal aid from Stormwind City failed to arrive. They rely on local farmers and visiting adventurers to hold the line against rampant banditry.",
+ "summary": "The People's Militia is a grassroots defense force founded by Gryan Stoutmantle to protect Westfall's residents from the Defias Brotherhood. Operating out of Sentinel Hill, these volunteer defenders stand alone since Stormwind withdrew its troops from Westfall. They rely on local farmers and visiting adventurers to hold the line against rampant banditry.",
  "sections": [
   {
    "title": "A Region Abandoned",
-   "body": "Westfall was once the breadbasket of the Kingdom of Stormwind, but recent unrest and economic turmoil caused the crown to withdraw regular army garrisons back to the capital. In the vacuum, the masked bandits of the Defias Brotherhood swept across the plains, seizing family homesteads, commandeering iron mines, and extorting local farmers. Facing lawlessness and seeing no sign of royal reinforcements, veteran warrior Gryan Stoutmantle rallied local citizens and retired soldiers to form the People's Militia.",
+   "body": "Westfall was once the breadbasket of the Kingdom of Stormwind, but Stormwind withdrew its troops and left the people defenseless. In the vacuum, the masked bandits of the Defias Brotherhood swept across the plains, seizing family homesteads, commandeering iron mines, and extorting local farmers. Facing lawlessness and seeing no sign of royal reinforcements, veteran warrior Gryan Stoutmantle rallied local citizens and retired soldiers to form the People's Militia.",
    "spoiler": 0
   },
   {
@@ -33,7 +33,7 @@
     "where is stormwind army",
     "why westfall abandoned"
    ],
-   "answer": "Stormwind City is paralyzed by political corruption and the disappearance of King Varian Wrynn. With royal troops withheld in the capital, local leaders like Gryan Stoutmantle took up arms to form a self-funded civilian force."
+   "answer": "Stormwind withdrew its troops from Westfall and left the people defenseless, for reasons no one in the countryside has been told. In the wake of that abandonment, Gryan Stoutmantle mustered the People's Militia to save what remains of the land."
   },
   {
    "q": "Who leads the People's Militia?",
@@ -43,14 +43,6 @@
     "gryan stoutmantle role"
    ],
    "answer": "Gryan Stoutmantle, a seasoned human veteran, founded and directs the force from Sentinel Tower on Sentinel Hill."
-  },
-  {
-   "q": "What is the difference between the People's Militia and the Westfall Brigade?",
-   "aliases": [
-    "peoples militia vs westfall brigade",
-    "is westfall brigade the militia"
-   ],
-   "answer": "They are the same organization. The Westfall Brigade is simply another name for the People's Militia, the force Gryan Stoutmantle founded to defend Westfall from the Defias."
   },
   {
    "q": "Where is their headquarters located?",

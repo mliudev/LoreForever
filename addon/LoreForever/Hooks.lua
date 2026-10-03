@@ -254,6 +254,47 @@ function Hooks.QuestFrames()
   end
 end
 
+-- The book reader (books, letters, plaques): a Read aloud button that reads the page shown, or stops it (LOR-49).
+-- Shown only while Read aloud can speak; its label follows what's playing.
+function Hooks.BookFrame()
+  local f = _G.ItemTextFrame
+  if not f or Hooks.bookButton then return end
+  local T = ns.Theme
+  local b = (T and T.Button) and T.Button(f, L["Read aloud"])
+    or CreateFrame("Button", "LoreForeverBookButton", f, "UIPanelButtonTemplate")
+  b:SetSize(96, 20)
+  b:SetPoint("TOPRIGHT", f, "TOPRIGHT", -28, -30)
+  b:SetFrameLevel((f:GetFrameLevel() or 1) + 5)
+  b:SetText(L["Read aloud"])
+  b:SetScript("OnClick", function()
+    ns.Voice.ReadBookPage(true)
+    Hooks.UpdateBookButton()
+  end)
+  b:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(L["Read this page aloud with the game's voice. Click again to stop."], 1, 1, 1, true)
+    GameTooltip:Show()
+  end)
+  b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  local wait = 0
+  b:SetScript("OnUpdate", function(_, elapsed)   -- the page can finish by itself: relabel twice a second
+    wait = wait + (elapsed or 0)
+    if wait < 0.5 then return end
+    wait = 0
+    Hooks.UpdateBookButton()
+  end)
+  Hooks.bookButton = b
+end
+
+function Hooks.UpdateBookButton()
+  local b = Hooks.bookButton
+  if not b then return end
+  local UI = ns.UI
+  local reading = UI and UI.speaking and ns.Voice.IsBookText(UI.playingId)
+  b:SetText(reading and L["Stop"] or L["Read aloud"])
+  b:SetShown(reading or ns.Voice.Available())
+end
+
 function Hooks.UpdateQuestDialogButton()
   local b = Hooks.questDialogButton
   if not b then return end
@@ -345,6 +386,10 @@ local function bind(combo, which)
   SetBinding(combo, a.binding)
   if SaveBindings and GetCurrentBindingSet then SaveBindings(GetCurrentBindingSet()) end
   say(a.done(GOLD .. combo .. "|r"))
+  -- Gamepad players can't click chat links: point them at the narration key once the panel key is set (LOR-89).
+  if which == "toggle" and not Hooks.CurrentKey("narrate") then
+    say(L["Tip: a second key can play the narration for where you are or what you hover, handy on a controller. Set it with /lore key narrate."])
+  end
   return true
 end
 
@@ -448,7 +493,7 @@ end
 function Hooks.Init()
   Hooks.RefreshQuests()
   Hooks.RefreshBags()
-  for _, fn in ipairs({ Hooks.Tooltips, Hooks.QuestFrames, Hooks.ChatLinks }) do
+  for _, fn in ipairs({ Hooks.Tooltips, Hooks.QuestFrames, Hooks.BookFrame, Hooks.ChatLinks }) do
     local ok, err = pcall(fn)
     if not ok and ns.debug then say("hook failed: " .. tostring(err)) end
   end

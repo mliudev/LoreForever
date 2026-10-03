@@ -1,17 +1,18 @@
 #!/usr/bin/env bash
 # Build the public download: dist/LoreForever-<version>.zip with one top-level folder per add-on inside:
-#   LoreForever/                 the core: the files its .toc loads, Bindings.xml and the credits file
+#   LoreForever/                 the core: the files its .toc loads (LoreForever.xml and every file it loads, in
+#                                scripts/load_order.py's reading), Bindings.xml and the credits file
 #   LoreForever_Voice_Default/   the default narration voice pack: its .toc, the files that .toc loads, CREDITS.txt
 #                                and the recordings under Audio/ (WoW plays those by path, so they're never in a .toc)
+#   LoreForever_Voice_Default_Alliance/, _Horde/    the default voice's lands packs (every subzone and NPC narration)
+#   LoreForever_Lang_deDE/, _esES/, _frFR/, _ptBR/  the language packs (they load only when that language is in use)
 # Packs that ship in the main download are listed in PACKS below. Nothing else goes in, so pipeline code,
 # eval data and key helpers can never slip into the zip. Every folder gets the same checks: Interface 16001, no
 # missing files, notes for files left out, audio paths named in the code exist, and a secret scan. Shipped packs
 # must follow the core's version and declare themselves as Lore Forever voice or language packs; voice packs also
-# need their recordings and every clip their list names.
-# --complete builds the complete download instead, dist/LoreForever-<version>-complete.zip: the same plus the packs in
-# COMPLETE_PACKS (the default voice's Alliance and Horde lands packs, every subzone and NPC narration), which then
-# follow the core's version too.
-# Usage: scripts/build-release.sh [--complete]
+# need their recordings and every clip their list names, and language packs must be built from the core's lore data
+# (## X-LoreForever-DataVersion is the core's ns.DB.version; if not, rebuild them with compile_lua --lang).
+# Usage: scripts/build-release.sh
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 exec python3 - "$ROOT" "$@" <<'PY'
@@ -20,17 +21,20 @@ from collections import defaultdict
 from pathlib import Path
 
 root = Path(sys.argv[1])
+sys.path.insert(0, str(root / "scripts"))
+from load_order import LoadError, addon_files   # the .toc and the XML load files it lists, as the client reads them
 addons = root / "addon"
 dist = root / "dist"
 CORE = "LoreForever"
-PACKS = ["LoreForever_Voice_Default"]   # packs bundled with the core download, in zip order (voice or language)
-COMPLETE_PACKS = ["LoreForever_Voice_Default_Alliance", "LoreForever_Voice_Default_Horde"]   # also in the complete one
-# Not in either zip, but released with every version as their own zips (scripts/build-voice-packs.sh), so
+# Packs bundled with the core download, in zip order (voice or language).
+PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "LoreForever_Voice_Default_Horde",
+         "LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_Lang_frFR", "LoreForever_Lang_ptBR"]
+# Not in the zip, but released with every version as their own zips (scripts/build-voice-packs.sh), so
 # scripts/release.sh stamps the core's version into them too.
 RELEASE_PACKS = ["LoreForever_Voice_Female", "LoreForever_Voice_Female_Alliance", "LoreForever_Voice_Female_Horde"]
-COMPLETE = "--complete" in sys.argv[2:]
-if COMPLETE:
-    PACKS = PACKS + COMPLETE_PACKS
+if sys.argv[2:]:
+    sys.exit(f"build-release: unknown arguments: {' '.join(sys.argv[2:])} (the one zip carries every bundled pack; "
+             "there's no --complete build any more)")
 AUDIO = {".mp3", ".ogg"}
 MAX_ZIP = 2 * 1024**3   # CurseForge's per-file limit
 
@@ -41,13 +45,14 @@ def read_toc(folder):
     toc = addons / folder / f"{folder}.toc"
     if not toc.is_file():
         fail(f"missing {toc.relative_to(root)}")
-    text = toc.read_text(encoding="utf-8")
-    meta = dict(re.findall(r"^##\s*([\w-]+):\s*(.*?)\s*$", text, re.M))
+    try:
+        meta, lua, xml = addon_files(addons / folder)
+    except (LoadError, OSError) as e:
+        fail(f"{folder}: {e}")
     if meta.get("Interface") != "16001":
         fail(f"{toc.name}: ## Interface is {meta.get('Interface')!r}, expected 16001 (WoW Forever)")
-    # Files the client loads, in TOC order.
-    listed = [l.strip().replace("\\", "/") for l in text.splitlines() if l.strip() and not l.lstrip().startswith("#")]
-    return meta, listed
+    # Files the client loads: the XML load files, then the Lua files they name, in load order.
+    return meta, xml + lua
 
 # folder -> [(source path, path inside the folder)]
 ship = {}
@@ -56,7 +61,11 @@ meta, listed = read_toc(CORE)
 version = meta.get("Version") or fail(f"no ## Version in {CORE}.toc")
 src = addons / CORE
 ship[CORE] = [(src / f"{CORE}.toc", f"{CORE}.toc")] + [(src / p, p) for p in listed]
-ship[CORE] += [(src / "Bindings.xml", "Bindings.xml"), (root / "release" / "CREDITS.txt", "CREDITS.txt")]
+ship[CORE] += [(src / "Bindings.xml", "Bindings.xml"), (root / "release" / "CREDITS.txt", "CREDITS.txt"),
+               (src / "THIRD_PARTY.txt", "THIRD_PARTY.txt")]   # licence notices for Data/Vectors_*.lua
+# The lore data's version (ns.DB = { version = "..." } in Data/Index.lua); bundled language packs must match it.
+m = re.search(r'ns\.DB\s*=\s*\{\s*version\s*=\s*"([^"]+)"', (src / "Data" / "Index.lua").read_text(encoding="utf-8"))
+data_version = m.group(1) if m else fail(f"no ns.DB version in addon/{CORE}/Data/Index.lua")
 
 VOICE_PACKS = []   # the bundled packs that carry recordings (X-LoreForever-Pack: voice); language packs have none
 for pack in PACKS:
@@ -77,6 +86,10 @@ for pack in PACKS:
         if not audio:
             fail(f"{pack} has no recordings in Audio/")
         files += audio
+    elif pmeta.get("X-LoreForever-DataVersion") != data_version:
+        fail(f"{pack} was built from lore data {pmeta.get('X-LoreForever-DataVersion')!r}, not the core's "
+             f"{data_version!r}; rebuild it: cd pipeline && uv run python -m lore.compile_lua --lang "
+             f"{pmeta.get('X-LoreForever-Locale', '<locale>')}")
     ship[pack] = files
 
 # Drop duplicates (a .toc could list CREDITS.txt too), then make sure everything exists.
@@ -161,7 +174,7 @@ for path, arc, _ in text_files:
         fail(f"{arc} contains something that looks like a secret: {m.group(0)[:12]}...")
 
 dist.mkdir(exist_ok=True)
-out = dist / f"LoreForever-{version}{'-complete' if COMPLETE else ''}.zip"
+out = dist / f"LoreForever-{version}.zip"
 with zipfile.ZipFile(out, "w") as z:
     for folder, files in ship.items():
         for path, arc in files:

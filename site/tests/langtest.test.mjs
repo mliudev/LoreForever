@@ -48,7 +48,10 @@ test("renderPack writes a TOC and Lua files the add-on reads", () => {
   assert.match(toc, /^## X-LoreForever-Pack: lang-overlay$/m);
   assert.match(toc, /^## X-LoreForever-Locale: deDE$/m);
   assert.match(toc, /^## Dependencies: LoreForever$/m);
-  assert.match(toc, /^UI\.lua\nStrings_1\.lua\n$/m);
+  assert.match(toc, /\n\nLang\.xml\n$/);   // the only file it lists: /reload rereads Lang.xml, never the .toc
+  assert.equal(files["Lang.xml"], '<Ui xmlns="http://www.blizzard.com/wow/ui/">\n'
+    + "  <!-- Your translations from loreforeverwow.com/translate: the pack's files in load order. -->\n"
+    + '  <Script file="UI.lua"/>\n  <Script file="Strings_1.lua"/>\n</Ui>\n');
   assert.match(files["Strings_1.lua"], /^P\.strings\["npc:hogger\/s"\] = "Er sagt \\"Hallo\\"\\nund geht\."$/m);
   assert.match(files["Strings_1.lua"], /^P\.fp\["npc:hogger"\] = "10,20"$/m);
 });
@@ -68,6 +71,7 @@ test("zip is a valid stored zip with every file in the pack folder", () => {
     names.push(new TextDecoder().decode(z.slice(at + 46, at + 46 + n)));
     at += 46 + n;
   }
-  assert.deepEqual(names, ["LoreForever_LangTest_deDE/LoreForever_LangTest_deDE.toc", "LoreForever_LangTest_deDE/UI.lua"]);
+  assert.deepEqual(names, ["LoreForever_LangTest_deDE/LoreForever_LangTest_deDE.toc", "LoreForever_LangTest_deDE/Lang.xml",
+    "LoreForever_LangTest_deDE/UI.lua"]);
   assert.equal(crc32(new TextEncoder().encode("123456789")), 0xcbf43926);
 });
