@@ -79,14 +79,20 @@
 
   <h2 id="specs">Recording settings</h2>
   <ul>
-    <li><strong>Mono</strong>, <strong>44.1 kHz</strong>.</li>
-    <li><strong>MP3 at 64 kbps or higher</strong>, or <strong>OGG Vorbis</strong>. WAV and FLAC are fine on the
-      upload page too: it turns them into MP3 before they go up.</li>
+    <li>Record in a proper recording app (<a href="https://www.audacityteam.org/">Audacity</a> is free) with a decent
+      microphone, not a phone call, voice message or video app.</li>
+    <li><strong>Mono</strong>, <strong>44.1 kHz</strong> (48 kHz is fine too).</li>
+    <li><strong>MP3 at 64 kbps or higher</strong>, or <strong>OGG Vorbis</strong>. WAV, FLAC, M4A (what phone and
+      Windows voice recorders save) and WebM are fine on the upload page too: it turns them into MP3 before they go
+      up.</li>
     <li><strong>Loudness about -16 LUFS integrated</strong>, with <strong>peaks at or below -1 dBTP</strong>. Most
       audio editors (Audacity, Reaper, Audition) have a loudness normalization option that does this in one
       step.</li>
     <li><strong>At most 0.3 seconds of silence</strong> at the start and end of each file.</li>
     <li><strong>Just your voice:</strong> no music, sound effects or background ambience.</li>
+    <li>The upload page checks every file and turns away ones we can't use, saying why: recorded below 44.1 kHz,
+      phone-call or voice-message quality, heavy clipping, a lot of background noise, or very quiet. Near the line,
+      it warns instead.</li>
     <li>Record in a quiet room. Soft furnishings help; a closet full of clothes works surprisingly well. Watch for
       fans, traffic and computer noise.</li>
   </ul>
@@ -103,8 +109,8 @@
     <li><code>zone_stormwind__faq3.mp3</code>: the answer to the third Stormwind question (note the two
       underscores)</li>
   </ul>
-  <p>If you record OGG, WAV or FLAC, keep the same name with <code>.ogg</code>, <code>.wav</code> or <code>.flac</code>
-    at the end. Files that don't match a name in the list can't be used: the upload page lists them, with the closest
+  <p>If you record another format, keep the same name with its own ending, like <code>.m4a</code>, <code>.wav</code>
+    or <code>.flac</code>. Files that don't match a name in the list can't be used: the upload page lists them, with the closest
     name when there is one, so you can rename them and drop them again.</p>
 
   <h2 id="partial">Partial packs are welcome</h2>
@@ -146,8 +152,8 @@
 
   <h2 id="send">Sending your recordings</h2>
   <ol class="vp-steps">
-    <li>Open the <a href="/voices/studio">upload page</a> and sign in. Agree to the narrator release once, then name
-      your voice and pick its language.</li>
+    <li>Open the <a href="/voices/studio">upload page</a>, pick a language and sign in with Google. Your first
+      upload starts your voice; name it whenever you like.</li>
     <li>Upload your recordings. Drop a zip or a whole folder of <a href="#naming">named files</a> on
       <strong>Upload many recordings at once</strong>, or drop single files on their lines. Every file is checked
       against the <a href="#specs">recording settings</a> first, and you see what saving would do before anything is
@@ -156,7 +162,8 @@
     <li><a href="#test">Hear it in game</a> with a test pack whenever you like. Fixed a few takes? Drop just those
       files, or your whole folder again: files that are already saved show as unchanged and are skipped. A test pack
       you edited can go back the same way.</li>
-    <li>Press <strong>Send for review</strong> with your credit line. You can come back, add lines and send again.</li>
+    <li>Press <strong>Send for review</strong> with your credit line. The first time, you agree to the
+      <a href="/voices/release">narrator release</a> there. You can come back, add lines and send again.</li>
     <li>We build the pack, listen to every file and get back to you if anything needs another take.</li>
     <li>The finished pack is published on the <a href="/voices">Voices page</a> with your name on it.</li>
   </ol>

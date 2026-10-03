@@ -213,7 +213,7 @@ show in the dashboard under Voice submissions (mark done, delete), or with the a
 - **Changing the release:** edit `public/voices/release.html` and give it a new version date there, in
   `RELEASE_VERSION` in `lib/submissions.js`, and in the hidden `release` field and checkbox text of
   `public/voices/submit.html`. A form opened before the change is refused with a request to read the new version,
-  and the upload page asks everyone to agree again before their next upload. Each submission stores the version
+  and the upload page asks everyone to agree again on their next send. Each submission stores the version
   agreed to; git history keeps every version's text.
 
 ## Upload page (/voices/studio)
@@ -222,10 +222,21 @@ Contributors upload their recordings line by line and send the voice for review 
 own setup; the page only takes files. `public/voices/studio.html` + `studio.js` + `studio.css`, API in
 `functions/api/studio/[action].js`, helpers in `lib/studio.js`.
 
-- **Flow:** sign in (the Lore Forever account) → agree to the narrator release once (D1 `studio_release`) → name a
-  voice and pick its language (a row in `voices` with a `locale`, status `draft`; at most 2 per account) → upload →
-  **Send for review** (a `voice_submissions` row with the link `studio:<voice id>`, status `pending`, webhook as for
-  the form). They can keep uploading and send again.
+- **Flow:** anyone can browse the lines, in any language with text (signed out, Upload / Send lead to sign-in) →
+  sign in (the Lore Forever account) → upload: the first upload starts a voice named after the
+  account in the language on show (a row in `voices` with a `locale`, status `draft`; at most 2 per account; rename
+  it any time, or make one with "+ New voice") → **Send for review**, which asks for the narrator release the first
+  time (D1 `studio_release`; uploading doesn't need it, since takes stay private until sent) and makes a
+  `voice_submissions` row with the link `studio:<voice id>`, status `pending`, webhook as for the form. They can keep
+  uploading and send again.
+- **No recording in the browser** (Mike, 2026-10-02: browser takes are low quality). People record in their own
+  app; the page says how (Audacity, a decent mic, a quiet room, 44.1/48 kHz, MP3 or WAV) under each drop box.
+- **The quality bar** (`public/voices/quality.js`, run in `analyze()` for single files and zips alike, and so for
+  the phone formats too): refused, with what to change, when the source rate is under 44.1 kHz, there's no sound
+  above 11 kHz (phone calls, voice messages, MP3s under ~48 kbps), the noise floor is within 30 dB of the speech,
+  over 0.1% of samples are clipped in runs, or it's under -32 LUFS; warned when there's nothing above 15 kHz or the
+  noise is within 40 dB. The thresholds and how they were calibrated are in its header; `site/tests/quality.test.mjs`
+  pins them.
 - **The page:** a "Next line" box with the text to read, pronunciation hints and a target length (words / 2.5 per
   second), then every line grouped like the Narrations tab with a drop slot each (any file name). Filters: search,
   group, suggested voice, missing / needs a look / uploaded / text changed, and "Mine" picks per story (kept in the
@@ -244,12 +255,13 @@ own setup; the page only takes files. `public/voices/studio.html` + `studio.js` 
 - **Checks** run in the browser before upload, against the narrator guide: mono, 44.1/48 kHz (from the file header),
   loudness (BS.1770, the same as ffmpeg's ebur128 to 0.1 LU), peaks, silence at each end, and length against the
   text. They're warnings shown on the line; only a silent, unreadable or over-4-minute file is refused. The server
-  refuses anything that isn't MP3 or OGG by its first bytes, over 25 MB, or for a line without text in the voice's
-  language.
-- **WAV and FLAC become MP3 in the browser** (LOR-119), so R2 only holds files the game plays: mono, 192 kbps,
+  refuses anything that isn't MP3 or Ogg Vorbis by its first bytes (`sniff()` in `lib/studio.js`), over 25 MB, or
+  for a line without text in the voice's language.
+- **WAV, FLAC, M4A, WebM, Opus and bare AAC become MP3 in the browser** (LOR-119; M4A and the rest because they're
+  what phone, Windows and browser recorders save), so R2 only holds files the game plays: mono, 192 kbps,
   keeping 44.1 or 48 kHz (anything else becomes 44.1 kHz), in `public/voices/mp3.js` (`toMp3(buffer, rate)`, a
   module other pages can import). The encoder is lamejs 1.2.1, vendored unmodified at
-  `public/voices/vendor/lame.min.js` (LGPL, loaded only when a WAV or FLAC is dropped). WebCodecs can't encode
+  `public/voices/vendor/lame.min.js` (LGPL, loaded only when a file that needs converting is dropped). WebCodecs can't encode
   MP3, so it isn't used. The checks run on the original; after converting, the stereo and sample-rate warnings
   are dropped because the uploaded file meets them. Each upload also sends its CRC-32 (`X-CRC32`, kept in
   `studio_takes.crc32`) so the test pack can stream files without reading them on the server.
@@ -339,8 +351,8 @@ links to it, so one from an unmerged branch is never offered. Each upload remove
 - **Turning a submission into a pack:** download the translator's files, then
   `cd pipeline && uv run python -m lore.kit check <locale> <files>` to see what they change, and
   `uv run python -m lore.kit build <locale> <files>` to import them into `data/i18n/<locale>/` and compile
-  `addon/LoreForever_Lang_<locale>/`. Language packs stay out of `PACKS` in `scripts/build-release.sh` (so out of the
-  players' download) until Mike decides a language ships.
+  `addon/LoreForever_Lang_<locale>/`. A language is in the players' download once it's in `PACKS` in
+  `scripts/build-release.sh` (deDE, esES, frFR and ptBR are); a new one goes in when Mike decides it ships.
 - **Automated check:** `check`, `build` and `pull` send every string that would change, with its English, through an
   automated language check (`pipeline/lore/kit_review.py`, its key from `.env`), which flags wrong meanings, the wrong
   language, spam and gibberish. Flagged strings are left out and listed with the reason (`--keep-flagged` takes them
@@ -358,7 +370,7 @@ browser; the kit and `/translate/submit` stay for people who'd rather work offli
 | `/translate/dashboard` | The editor (`public/translate/dashboard.html`, noindex). **Needs work** (the default) gathers, across every section and most-read first: **Not translated**, **Drafts to check** (text nobody has written or checked: entries without `reviewed`, UI strings not in `ui_checked.json`), **Reported by players** (open bad-translation reports, shown above the entry) and **English changed**; the counts come from `translate/data/<locale>/status.json`. **Looks right** on a line (or the whole entry) sends the current text back unchanged, which `lore.kit pull` counts as a person checking it (the entry gets `reviewed`, the UI string goes into `data/i18n/<locale>/ui_checked.json`). **Browse by section** shows everything with filters (to do, has text, my edits, all) and search. English on the left, your text on the right, saved about a second after you stop typing. Signed out, it links to `/account?next=/translate/dashboard`. Links: `?lang=deDE&cat=draft`, or `?lang=deDE&section=zones_01&q=npc:hogger` for Browse. |
 | `/translate/data/` | The editor's text, written by `lore.kit site`: `en/index.json` (sections), `en/<section>.json` (entry names and `[id, English]` pairs, at most ~700 KB) and `en/entries.json` (every entry and its section, in Needs-work order), `<locale>/<section>.json` (`{id: text}` for the strings that have text) and `<locale>/status.json` (what still needs a person). Excluded from Functions. |
 | `/translate/fp.json` | For test packs (LOR-119), written by `lore.kit site`: `{english, interface, version, languages: {locale: {name, ttsVoices}}, entries: {key: [fp, section]}}`, where fp is the English entry's `Lang.Fingerprint` and section the `en/<section>.json` holding its current English. Excluded from Functions. |
-| `GET /api/translations/pack?locale=` | **Download my test pack** on the dashboard (and `/translate#in-game`): a zip of `LoreForever_LangTest_<locale>/` (same folder every time) with the signed-in translator's edits that are `new`/`accepted` (not withdrawn, rejected or pulled), latest per string. An edit whose saved English differs from today's (`en/<section>.json`) is stale and left out; headers `X-Strings-Included` / `X-Strings-Stale` give the counts. Built by `lib/langtest.js` (TOC + `UI.lua` + `Strings_N.lua`, kind `lang-overlay`); the add-on lays it over the language pack, string by string, while each entry's fp matches (`addon/LoreForever/Lang.lua`). Tests: `node --test site/tests/langtest.test.mjs`, `pipeline/tests/test_langtest.py`, `pipeline/tests/lang_sim.py`. |
+| `GET /api/translations/pack?locale=` | **Download my test pack** on the dashboard (and `/translate#in-game`): a zip of `LoreForever_LangTest_<locale>/` (same folder every time) with the signed-in translator's edits that are `new`/`accepted` (not withdrawn, rejected or pulled), latest per string. An edit whose saved English differs from today's (`en/<section>.json`) is stale and left out; headers `X-Strings-Included` / `X-Strings-Stale` give the counts. Built by `lib/langtest.js` (a TOC that lists only `Lang.xml`, which loads `UI.lua` + `Strings_N.lua`, so a re-download with more files works after a `/reload`; kind `lang-overlay`); the add-on lays it over the language pack, string by string, while each entry's fp matches (`addon/LoreForever/Lang.lua`). Tests: `node --test site/tests/langtest.test.mjs`, `pipeline/tests/test_langtest.py`, `pipeline/tests/lang_sim.py`. |
 | `/translate/check.js` | The checks every edit must pass (`%` codes in order, no new `\|` codes, length, control characters), used by the editor as you type and by the API on save. Same rules as `problem()` in `pipeline/lore/kit.py`: change both together. |
 | `/account` | Gains "Your translations": the languages you translate (ticked boxes, saved at once) and what happened to your edits. |
 
@@ -388,8 +400,17 @@ cap guard the form; `/admin` → Translation edits lists recent edits so spam or
 2. `uv run python -m lore.kit site` (it uploads the kits) and commit, so the dashboard and `/translate` show the new
    text.
 
+**Nightly import.** `scripts/import-translations.sh` does both steps for every language and opens a PR whose
+description lists each changed string (before → after), the translators, the language's likes and any open
+bad-translation reports on the changed entries (`lore.kit community`; `DRY_RUN=1` reports only, `NO_PR=1` stops after
+the commit). Unlike `pull`, it marks an edit `pulled` only once the edit is on `origin/main`, so an unmerged PR loses
+nothing: the next run imports it again. Imported text is marked reviewed (`"reviewed": true`, `ui_checked.json`), and
+`lore.i18n translate` never overwrites it; `translate --ui` only sends strings with no translation yet. The
+`nightly-translation-catchup` routine runs it before the machine pass. Likes and reports don't gate anything.
+
 Each language card on `/translate` credits the translators whose edits are in the language and who ticked "show my name" on their
-account, most edits first. Language packs still stay out of `PACKS` until Mike decides a language ships.
+account, most edits first. Languages in the main download (`"included": true` in `public/translate/packs.json`) say
+so on their card instead of offering the pack zip.
 
 ## Private dashboard
 

@@ -1,4 +1,4 @@
-// Site header, on every public page: the "Send feedback" menu and, once signed in, the account chip.
+// Site header, on every public page: a Downloads link, the "Send feedback" menu and, once signed in, the account chip.
 // Each page's header ends with
 //   <div class="head-actions"><a class="btn-head" href="/feedback">...</a></div>
 // and loads this with <script src="/header.js" defer>. Without JavaScript that stays a plain link to /feedback.
@@ -70,6 +70,15 @@
     const to = e.relatedTarget;
     if (current && to && !current.menu.contains(to) && to !== current.button) close(false);
   });
+
+  // Downloads: a link to /downloads before the feedback button, on every page but that one.
+  if (location.pathname.replace(/\/$/, "") !== "/downloads") {
+    const dl = document.createElement("a");
+    dl.className = "btn-head btn-head-dl";
+    dl.href = "/downloads";
+    dl.textContent = "Downloads";
+    box.prepend(dl);
+  }
 
   // Send feedback: the link becomes the menu's button.
   const fbButton = document.createElement("button");

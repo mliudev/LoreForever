@@ -31,6 +31,11 @@
 .st-voicebar select { background: var(--st-panel); color: var(--text); border: 1px solid var(--panel-line); border-radius: 4px; padding: 5px 8px; font: inherit; }
 .st-lang { color: var(--muted); }
 .st-lang b { color: var(--text); }
+/* The races a voice suits (optional) */
+.st-races { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin: -6px 0 14px; font-size: 0.86rem; color: var(--muted); }
+.st-race { display: inline-flex; align-items: center; gap: 4px; color: var(--text); cursor: pointer; min-height: 24px; }
+.st-races small { flex-basis: 100%; font-size: 0.8rem; }
+.st-starter { margin: 0; font-size: 0.9rem; color: var(--muted); max-width: 68ch; }
 
 /* Next line */
 .st-next { border: 1px solid #c9a24b; border-radius: 8px; background: linear-gradient(180deg, #19140b, #0f0c08); padding: 16px 18px;
@@ -134,3 +139,11 @@
 .st-testpack li { margin-bottom: 4px; }
 .st-testpack code { font-family: var(--st-mono); font-size: 0.85em; overflow-wrap: anywhere; }
 .st-testpack .st-note { margin-top: 10px; }
+
+/* How to record, under the drop box (studio.js howToRecordHtml) */
+.st-howto { font-size: 0.82rem; color: var(--muted); max-width: 62ch; }
+.st-voicebar select#st-locale { margin-left: 4px; }
+
+/* The narrator release on the send form (the first send only) */
+.st-release { border: 1px solid var(--line); border-radius: 6px; padding: 10px 14px 4px; margin: 4px 0 12px; max-width: 640px; }
+.st-release legend { font-family: var(--heading); color: var(--gold-soft); padding: 0 6px; }

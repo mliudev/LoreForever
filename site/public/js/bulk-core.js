@@ -21,7 +21,7 @@ export const LIMITS = {
 };
 
 const JUNK = /(^|\/)(__MACOSX\/|\._|\.DS_Store$|Thumbs\.db$|desktop\.ini$)/i;
-export const AUDIO = /\.(mp3|ogg|wav|flac)$/i;
+export const AUDIO = /\.(mp3|m4a|aac|ogg|oga|opus|wav|flac|webm)$/i;   // the page converts all but mp3 and Ogg Vorbis
 const base = path => path.split("/").pop();
 
 // sources: [{name, size, blob}] (dropped or chosen files; name may be a path inside a folder). Zips are opened

@@ -8,16 +8,16 @@
   "wiki": "Undertaker Mordo",
   "refs": 1
  },
- "summary": "Undertaker Mordo stands watch over the graveyard in Deathknell, serving as the very first face newly awakened Forsaken see upon crawling from the dirt. He is tasked with assessing the newly risen, directing those who retain their faculties toward the Forsaken cause while dealing with those lost to madness.",
+ "summary": "Undertaker Mordo is the caretaker of the crypt of Deathknell, serving as the very first face newly awakened Forsaken see when they open their eyes. He tells those who wake that they are the Lich King's slaves no more and sends them on toward the Forsaken cause; the bodies that never stir go to the fire.",
  "sections": [
   {
    "title": "The Awakening at Deathknell",
-   "body": "Perched at the edge of the Deathknell Graves in Tirisfal Glades, Undertaker Mordo watches over the graves as corpses break free from the Scourge's shattered grip. For every newly liberated Forsaken who claws through the earth, Mordo provides their initial bearing in an unrecognizable second life. He assesses their sanity, introduces them to the reality of their condition, and immediately directs them toward duty under Queen Sylvanas Windrunner.",
+   "body": "Keeping the crypt of Deathknell in Tirisfal Glades, Undertaker Mordo watches over the dead as corpses break free from the Scourge's shattered grip. For every newly liberated Forsaken who wakes in the cold of the crypt, Mordo provides their initial bearing in an unrecognizable second life. He assesses their sanity, introduces them to the reality of their condition, and immediately directs them toward duty under Queen Sylvanas Windrunner.",
    "spoiler": 0
   },
   {
-   "title": "Separating the Sane from the Mindless",
-   "body": "Not all who rise from the dirt in Deathknell recover their free will. Many awaken as mindless ghouls or feral husks, trapped in violent delirium. Mordo is responsible for quickly sorting the newly awakened: those who can speak and follow orders are pointed toward town to serve the Forsaken Kingdom, while those who cannot be saved must be put down before they threaten the living dead of Tirisfal.",
+   "title": "Those Who Do Not Wake",
+   "body": "Not every body brought to the crypt wakes. Mordo does not wait long: the corpses that stay still are tossed into the fire, and those who do stir are greeted with dry impatience and little ceremony. Anyone who rises with their wits intact is sent up the steps and down the road to Shadow Priest Sarvis in the chapel, who explains their new existence. The mindless zombies that overrun the north of the village are Sarvis's concern, not Mordo's; the shadow priest sends the newly risen out to destroy them.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "undertaker mordo lore",
     "mordo deathknell"
    ],
-   "answer": "Undertaker Mordo is a Forsaken caretaker stationed at the Deathknell Graves in Tirisfal Glades. He greets freshly risen undead as they crawl out of their tombs and directs them into service."
+   "answer": "Undertaker Mordo is the Forsaken caretaker of the crypt of Deathknell in Tirisfal Glades. He greets freshly risen undead as they wake and directs them into service."
   },
   {
    "q": "Why is he standing in a graveyard?",
@@ -38,7 +38,7 @@
     "what does mordo do",
     "mordo job"
    ],
-   "answer": "Deathknell's graveyard is where newly freed undead claw their way to the surface after breaking free from the Lich King's control. Mordo stands guard to evaluate them the moment they emerge."
+   "answer": "Mordo is the caretaker of Deathknell's crypt, where newly freed undead wake after breaking free from the Lich King's control. He keeps watch there to greet them the moment they stir."
   },
   {
    "q": "What happens to the undead who lose their minds upon waking?",
@@ -47,7 +47,7 @@
     "mad undead deathknell",
     "feral undead deathknell"
    ],
-   "answer": "Some risen corpses do not regain their free will or sanity, awakening instead as feral, mindless undead. Mordo orders these poor souls destroyed to protect the sane Forsaken striving to establish order in Deathknell."
+   "answer": "Bodies that never wake are tossed into the fire. The mindless zombies that shamble through the north of Deathknell are not Mordo's charge: Shadow Priest Sarvis sends the newly risen out to destroy them, former brothers and sisters or not."
   },
   {
    "q": "Where does Mordo send newly risen Forsaken?",
@@ -56,7 +56,7 @@
     "mordo quest direction",
     "next step after mordo"
    ],
-   "answer": "After ensuring a newly awakened soul has their wits about them, Mordo directs them deeper into Deathknell to speak with Shadow Priest Sarvis and Novice Elreth to join the ranks of the Forsaken."
+   "answer": "After ensuring a newly awakened soul has their wits about them, Mordo sends them out of the crypt and down the road to the chapel to speak with Shadow Priest Sarvis, who explains what it means to join the ranks of the Forsaken."
   }
  ],
  "angles": [
@@ -67,7 +67,6 @@
  ],
  "keywords": [
   "deathknell",
-  "deathknell graves",
   "rude awakening",
   "shadow grave",
   "tirisfal glades",
@@ -75,7 +74,6 @@
  ],
  "related": [
   "subzone:deathknell",
-  "subzone:deathknell-graves",
   "subzone:shadow-grave",
   "zone:tirisfal",
   "topic:forsaken",

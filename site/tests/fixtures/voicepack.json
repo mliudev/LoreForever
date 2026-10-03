@@ -5,7 +5,9 @@
                                        "interface": "16001", "sample": "zone:stormwind"}},
     {"name": "full.toc", "args": {"title": "Stimmen", "version": "1.0.0", "locale": "deDE", "interface": "16001",
                                   "author": "Jane", "credit": "Narrated by Jane Doe"}},
-    {"name": "bare.toc", "args": {"title": "Bare", "version": "0.1", "locale": "ptBR", "interface": "11508"}}
+    {"name": "bare.toc", "args": {"title": "Bare", "version": "0.1", "locale": "ptBR", "interface": "11508"}},
+    {"name": "races.toc", "args": {"title": "Grukk", "version": "1.0.0", "locale": "enUS", "interface": "16001",
+                                   "credit": "Narrated by Grukk", "sample": "zone:durotar", "races": "Orc, Troll"}}
   ],
   "clips": [
     {"name": "clips-mp3.lua", "ext": "mp3",

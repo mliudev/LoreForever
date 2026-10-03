@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
-# Build the narration downloads every release carries besides the main zips, each a zip with its add-on folder(s) at
+# Build the narration downloads every release carries besides the main zip, each a zip with its add-on folder(s) at
 # the top level, into dist/packs/:
-#   LoreForever_Voice_Default_Alliance.zip / _Horde.zip   the male narrator's lands packs (subzones and NPCs)
 #   LoreForever_Voice_Female.zip                          the female narrator (zone stories, answers, bosses)
 #   LoreForever_Voice_Female_Alliance.zip / _Horde.zip    her lands packs
 #   LoreForever_Voice_Female-complete.zip                 her three packs in one zip
 # They all follow the core's version (scripts/release.sh stamps it into their .toc files, like the default pack's).
 # A pack whose folder isn't in addon/ is skipped with a note.
-# The main downloads come from scripts/build-release.sh (lite) and build-release.sh --complete.
+# The main download comes from scripts/build-release.sh; it carries the default (male) narrator's core and lands packs.
 # dist/packs/manifest.tsv lists file, CurseForge display name and version, for the release workflow's additional
 # files. --versioned names the zips <name>-<version>.zip instead (to keep a copy, or upload one by hand).
 # Usage: scripts/build-voice-packs.sh [--versioned]
@@ -23,8 +22,6 @@ VERSIONED = "--versioned" in sys.argv[2:]
 AUDIO = {".mp3", ".ogg"}
 # zip name -> (folders in it, display name with {v} for the version)
 DOWNLOADS = {
-    "LoreForever_Voice_Default_Alliance": (["LoreForever_Voice_Default_Alliance"], "Male narrator: Alliance lands {v}"),
-    "LoreForever_Voice_Default_Horde": (["LoreForever_Voice_Default_Horde"], "Male narrator: Horde lands {v}"),
     "LoreForever_Voice_Female": (["LoreForever_Voice_Female"], "Female narrator: core {v}"),
     "LoreForever_Voice_Female_Alliance": (["LoreForever_Voice_Female_Alliance"], "Female narrator: Alliance lands {v}"),
     "LoreForever_Voice_Female_Horde": (["LoreForever_Voice_Female_Horde"], "Female narrator: Horde lands {v}"),

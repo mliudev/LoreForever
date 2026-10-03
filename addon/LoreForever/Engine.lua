@@ -222,6 +222,12 @@ Engine.NAME_SHARE_FULL = 0.5
 Engine.INTENT_BONUS = 12
 -- An entry named like one in the player's zone ("Canals" in the Undercity, asked in Stormwind) scores x this.
 Engine.ELSEWHERE = 0.5
+-- Meaning re-rank (word-piece vectors, Data/Vectors_*.lua): the docs of the top VEC_ENTRIES entries are re-scored by
+-- cosine to the question, minus VEC_RANK per place an entry ranks below the first, plus VEC_PICK for the doc the word
+-- match picked. Fitted on real players' questions (eval/questions/players_answerable.jsonl, dev split).
+Engine.VEC_ENTRIES = 4
+Engine.VEC_RANK = 0.1
+Engine.VEC_PICK = 0.05
 
 local function enc(n, width)
   local t = {}
@@ -679,6 +685,166 @@ function Engine:IntentTarget(intent, scope, ctx, raw, namedKey)
   end
 end
 
+-- Word-piece vectors ---------------------------------------------------------------------------------------------
+-- Matching words misses answers worded differently from the question ("Who was the leader of the black dragonflight?"
+-- vs "Who leads the black dragonflight?"). Data/Vectors_*.lua (pipeline/lore/vectors.py) holds a static embedding
+-- model's word-piece vectors: a text's vector is the mean of its pieces' rows, cut to 128 dimensions, one base64
+-- character (-31..31) per dimension and a log-scale factor per row. Tokenizing follows BERT-uncased: lowercase,
+-- accents stripped, punctuation split off, then the longest known pieces ("##" continues a word), unknown words left
+-- out. English only: a language pack switches it off (Lang.lua).
+
+-- Lowercase Latin-1 letters with accents -> the plain letter (BERT strips accents; æ, ø, ð, þ stay).
+local UNACCENT = {}
+for c, plain in pairs({ [0xA0] = "a", [0xA1] = "a", [0xA2] = "a", [0xA3] = "a", [0xA4] = "a", [0xA5] = "a",
+  [0xA7] = "c", [0xA8] = "e", [0xA9] = "e", [0xAA] = "e", [0xAB] = "e", [0xAC] = "i", [0xAD] = "i", [0xAE] = "i",
+  [0xAF] = "i", [0xB1] = "n", [0xB2] = "o", [0xB3] = "o", [0xB4] = "o", [0xB5] = "o", [0xB6] = "o", [0xB9] = "u",
+  [0xBA] = "u", [0xBB] = "u", [0xBC] = "u", [0xBD] = "y", [0xBF] = "y" }) do
+  UNACCENT["\195" .. string.char(c)] = plain
+end
+
+-- Words and punctuation marks, BERT-style: whitespace splits, and every punctuation character is its own token
+-- (ASCII !-/ :-@ [-` {-~, and the UTF-8 general punctuation block: curly quotes, dashes).
+local function vecTokens(text)
+  local s = Engine.lower(text):gsub("\195[\160-\191]", function(ch) return UNACCENT[ch] end)
+  local out = {}
+  for w in s:gmatch("%S+") do
+    local cur, i, n = "", 1, #w
+    while i <= n do
+      local c = w:byte(i)
+      local len = c < 0x80 and 1 or c < 0xE0 and 2 or c < 0xF0 and 3 or 4
+      local ch = w:sub(i, i + len - 1)
+      local punct = len == 1 and ((c >= 33 and c <= 47) or (c >= 58 and c <= 64) or (c >= 91 and c <= 96)
+        or (c >= 123 and c <= 126)) or (len == 3 and c == 0xE2 and (w:byte(i + 1) == 0x80 or w:byte(i + 1) == 0x81))
+      if punct then
+        if cur ~= "" then out[#out + 1] = cur; cur = "" end
+        out[#out + 1] = ch
+      else
+        cur = cur .. ch
+      end
+      i = i + len
+    end
+    if cur ~= "" then out[#out + 1] = cur end
+  end
+  return out
+end
+
+-- Greedy longest-match word pieces of one word, appended to `ids`; a word with an unknown piece is left out whole.
+local function wordPieces(vocab, word, ids)
+  local starts = {}
+  for p in word:gmatch("()[%z\1-\127\194-\244][\128-\191]*") do starts[#starts + 1] = p end
+  local n = #starts
+  if n == 0 or n > 100 then return end
+  starts[n + 1] = #word + 1
+  local pieces, i = {}, 1
+  while i <= n do
+    local found
+    for j = n, i, -1 do
+      local piece = word:sub(starts[i], starts[j + 1] - 1)
+      local id = vocab[i > 1 and ("##" .. piece) or piece]
+      if id then
+        pieces[#pieces + 1], found, i = id, true, j + 1
+        break
+      end
+    end
+    if not found then return end
+  end
+  for _, id in ipairs(pieces) do ids[#ids + 1] = id end
+end
+
+-- Unit vector (a table of dim numbers) of a text, or nil without vectors or known pieces.
+function Engine:VecOf(text)
+  local V = self.db.vectors
+  if not V then return nil end
+  if not self.vecVocab then
+    local vocab, id = {}, 0
+    for piece in (V.vocab .. "\n"):gmatch("(.-)\n") do
+      id = id + 1
+      vocab[piece] = id
+    end
+    self.vecVocab, self.vecScale = vocab, {}
+  end
+  local ids = {}
+  for _, w in ipairs(vecTokens(text)) do wordPieces(self.vecVocab, w, ids) end
+  if #ids == 0 then return nil end
+  local dim, per, lo, span = V.dim, V.rowsPerChunk, V.scaleLo, V.scaleHi - V.scaleLo
+  local acc = {}
+  for d = 1, dim do acc[d] = 0 end
+  for _, id in ipairs(ids) do
+    local sc = self.vecScale[id]
+    if not sc then
+      local code = B64[V.scale:byte(2 * id - 1)] * 64 + B64[V.scale:byte(2 * id)]
+      sc = 2 ^ (lo + code / 4095 * span)
+      self.vecScale[id] = sc
+    end
+    local off = ((id - 1) % per) * dim
+    local b = { V.rows[math.floor((id - 1) / per) + 1]:byte(off + 1, off + dim) }
+    for d = 1, dim do acc[d] = acc[d] + (B64[b[d]] - 32) * sc end
+  end
+  local norm = 0
+  for d = 1, dim do norm = norm + acc[d] * acc[d] end
+  norm = math.sqrt(norm)
+  if norm == 0 then return nil end
+  for d = 1, dim do acc[d] = acc[d] / norm end
+  return acc
+end
+
+-- The text a doc is compared by: a FAQ's question, aliases and the start of its answer; an overview's name and
+-- summary; a section's title and the start of its body.
+function Engine:VecText(key, kind, idx)
+  local e = self.db.entries[key]
+  local name = e.n:gsub("%s*%b()", "")
+  if kind == 0 then return name .. ". " .. (e.s or "") end
+  if kind == 2 then
+    local sec = e.sec[idx]
+    return name .. ": " .. sec.t .. ". " .. sec.b:sub(1, 300)
+  end
+  local f = e.faq[idx]
+  return f.q .. " " .. table.concat(f.al or {}, " ") .. " " .. f.a:sub(1, 300)
+end
+
+-- Doc vectors are worked out when first needed and kept (a few thousand at most; the cache starts over past that).
+function Engine:DocVec(di)
+  self.docVecs = self.docVecs or { n = 0 }
+  local v = self.docVecs[di]
+  if v == nil then
+    local key, kind, idx = self:Doc(di)
+    v = self:VecOf(self:VecText(key, kind, idx)) or false
+    if self.docVecs.n >= 4000 then self.docVecs = { n = 0 } end
+    self.docVecs[di], self.docVecs.n = v, self.docVecs.n + 1
+  end
+  return v or nil
+end
+
+-- Re-rank `results` (ranked distinct entries) in place by meaning: the best doc of the top VEC_ENTRIES entries comes
+-- first, keeping the first result's score so the panel's confidence check is unchanged. An entry the zone rules
+-- held back (a namesake in another zone, `elsewhere`) can't be moved up.
+function Engine:Rerank(results, question)
+  local qv = self:VecOf(question)
+  if not qv or not results[1] then return end
+  local bestRank, bestKind, bestIdx, bestScore
+  for rank = 1, math.min(#results, self.VEC_ENTRIES) do
+    local r = results[rank]
+    local first, n = self:EntryDocs(r.key)
+    if rank > 1 and r.elsewhere then n = 0 end
+    for di = first, first + n - 1 do
+      local dv = self:DocVec(di)
+      if dv then
+        local _, kind, idx = self:Doc(di)
+        local c = 0
+        for d = 1, #qv do c = c + qv[d] * dv[d] end
+        c = c - (rank - 1) * self.VEC_RANK + ((KIND[kind] == r.kind and idx == r.idx) and self.VEC_PICK or 0)
+        if not bestScore or c > bestScore then bestRank, bestKind, bestIdx, bestScore = rank, kind, idx, c end
+      end
+    end
+  end
+  if not bestRank then return end
+  local topScore, r = results[1].score, table.remove(results, bestRank)
+  r.kind, r.idx = KIND[bestKind], bestIdx
+  r.title, r.text = self:DocText(r.key, bestKind, bestIdx)
+  r.score = math.max(r.score, topScore)
+  table.insert(results, 1, r)
+end
+
 -- Rank answer units. Returns up to `limit` results with distinct entries: {key, kind, idx, title, text, score}.
 function Engine:Ask(question, ctx, limit)
   limit = limit or 3
@@ -842,23 +1008,31 @@ function Engine:Ask(question, ctx, limit)
       local t = self.db.entries[key].t
       if not asksType[t] then s = s * (self.TYPE_PRIOR[t] or 1) end
     end
-    if zf > 0 then scored[#scored + 1] = { di = di, key = key, kind = kind, idx = idx, score = s * zf } end
+    if zf > 0 then scored[#scored + 1] = { di = di, key = key, kind = kind, idx = idx, score = s * zf, zf = zf } end
   end
   table.sort(scored, function(a, b2)
     if a.score ~= b2.score then return a.score > b2.score end
     return a.di < b2.di   -- deterministic ties
   end)
 
+  -- Meaning re-rank, except where the word match already knows better: situational questions ("how did I get
+  -- here?" goes by intent), plain "who is X" (the overview), and questions that name nothing (they lean on context).
+  local rerank = self.db.vectors and not intent and not defining and namesAnything
+  local want = rerank and math.max(limit, self.VEC_ENTRIES) or limit
   local results, usedKeys = {}, {}
   for _, r in ipairs(scored) do
     if not usedKeys[r.key] then
       usedKeys[r.key] = true
       local title, text = self:DocText(r.key, r.kind, r.idx)
       results[#results + 1] = { key = r.key, kind = KIND[r.kind], idx = r.idx, title = title, text = text,
-        score = r.score, name = self.db.entries[r.key].n }
-      if #results >= limit then break end
+        score = r.score, name = self.db.entries[r.key].n, elsewhere = r.zf < 1 or nil }
+      if #results >= want then break end
     end
   end
+  -- ...and when the top answer comes from the player's own situation (quest, target, subzone, zone), which the word
+  -- match weighs and the vectors don't: a blind judge found those answers no better re-ranked.
+  if rerank and results[1] and not ctxWeight[results[1].key] then self:Rerank(results, question) end
+  for i = #results, limit + 1, -1 do results[i] = nil end
   if results[1] then
     local angle = self:Angle(results[1].key, ctx, raw)
     if angle then results[1].angle = angle end
@@ -949,6 +1123,116 @@ function Engine:Mentions(text, exclude)
     end
   end
   return out
+end
+
+-- Lore links: names of other entries inside answer text, found when the answer is shown (see UI.Linkify). The same
+-- greedy longest-name match as Mentions, but it keeps positions so the names can be wrapped in place.
+-- Punctuation that unpunct turns into a space, replaced by spaces of the same byte length so positions don't move.
+local function blank(s)
+  if not s:find("[\194\195\226]") then return s end
+  return (s:gsub("\226[\128\129][\128-\191]", "   "):gsub("\194[\160-\191]", "  "):gsub("\195[\151\183]", "  "))
+end
+
+-- Leading articles a quest title can have over the name of what it's about (English, German, Portuguese).
+local ARTICLES = {}
+for _, a in ipairs({ "the", "der", "die", "das", "den", "o", "a", "os", "as" }) do ARTICLES[a .. " "] = "" end
+
+-- First word of every name -> the most words a name starting with it has, so most words are passed over at once.
+function Engine:LinkStarts()
+  local names = self.db.index.name
+  if self.linkStarts and self.linkStartsFor == names then return self.linkStarts end
+  local starts = {}
+  for name in pairs(names) do
+    local n, first = 0, nil
+    for w in name:gmatch("%S+") do
+      n = n + 1
+      first = first or w
+    end
+    if first and n <= 4 and n > (starts[first] or 0) then starts[first] = n end
+  end
+  self.linkStarts, self.linkStartsFor = starts, names
+  return starts
+end
+
+-- Wrap names of entries in `text` (already escaped for display). opts:
+--   self   the key the text is about (never linked, nor another entry with the same name)
+--   seen   keys already linked in this message (filled in): each name links on its first mention only
+--   allow  function(key, e) -> false to leave that name as plain text (quests you don't have, ...)
+--   wrap   function(key, shown) -> the replacement for the matched text `shown`
+function Engine:Linkify(text, opts)
+  if not text or text == "" then return text end
+  local names, entries, starts = self.db.index.name, self.db.entries, self:LinkStarts()
+  local seen, self_ = opts.seen or {}, opts.self
+  local selfName = self_ and entries[self_] and Engine.lower(entries[self_].n)
+  local m = blank(text)
+  local toks = {}
+  for st, w, en in m:gmatch("()([%w'%-\128-\255]+)()") do
+    local lead = #w:match("^'*")   -- an opening quote: 'Stormwind'
+    st, w = st + lead, w:sub(lead + 1)
+    local core = w:gsub("'s$", ""):gsub("'$", "")
+    -- A lone closing quote ("Sleep.'") is no word at all.
+    if core ~= "" then
+      local low = Engine.lower(core)
+      toks[#toks + 1] = { a = st, b = st + #core - 1, e = en, low = low, full = Engine.lower(w), whole = #core == #w,
+        cap = w:sub(1, 1):match("%u") ~= nil or (w:byte(1) > 127 and low:sub(1, 2) ~= w:sub(1, 2)) }
+    end
+  end
+  local function spaced(t) return toks[t + 1] and m:sub(toks[t].e, toks[t + 1].a - 1) == " " end
+  -- A capitalized word next to the single-word name makes it part of a longer name we don't know ("Light Leather",
+  -- "Vice Admiral", "Wizard's Sanctum"), unless that word only starts the sentence.
+  local function inLonger(i)
+    if toks[i].whole and spaced(i) and toks[i + 1].cap then return true end
+    local p = toks[i - 1]
+    if not (p and p.cap and spaced(i - 1)) then return false end
+    if i <= 2 then return false end
+    local gap = text:sub(toks[i - 2].e, p.a - 1)
+    return not (gap:find("[%.!%?:;\n]") or gap:find("\226\128\166"))   -- ... or an ellipsis ends a sentence
+  end
+  local out, last, i = {}, 1, 1
+  local function find(i)
+    local most = starts[toks[i].low] or starts[toks[i].full]
+    if not most then return nil end
+    for n = math.min(most, #toks - i + 1), 1, -1 do
+      local j, ok = i + n - 1, true
+      -- The words of a name are separated by single spaces; a possessive inside one counts as part of it.
+      for t = i, j - 1 do
+        if not spaced(t) then ok = false; break end
+      end
+      if ok then
+        local parts = {}
+        for t = i, j - 1 do parts[#parts + 1] = toks[t].full end
+        parts[#parts + 1] = toks[j].low
+        local phrase = table.concat(parts, " ")
+        local key = names[phrase]
+        local e = key and entries[key]
+        -- Single words only count when capitalized, so "light" in a sentence doesn't mean the Holy Light.
+        if e and (n > 1 or (toks[i].cap and #phrase >= 4 and not inLonger(i))) then
+          -- Quests lose to another entry of the same name ("the Defias Brotherhood" is the faction, not the quest).
+          local other = e.t == "quest" and names[(phrase:gsub("^%S+ ", ARTICLES))]
+          local tie = other and other ~= key
+          if not tie and (not opts.allow or opts.allow(key, e)) then return key, j end
+        end
+      end
+    end
+  end
+  while i <= #toks do
+    local key, j = find(i)
+    if key then
+      if not seen[key] and key ~= self_ and Engine.lower(entries[key].n) ~= selfName then
+        seen[key] = true
+        local a, b = toks[i].a, toks[j].b
+        out[#out + 1] = text:sub(last, a - 1)
+        out[#out + 1] = opts.wrap(key, text:sub(a, b))
+        last = b + 1
+      end
+      i = j + 1
+    else
+      i = i + 1
+    end
+  end
+  if last == 1 then return text end
+  out[#out + 1] = text:sub(last)
+  return table.concat(out)
 end
 
 -- "Ask next" questions after showing entry `key` (FAQ `idx`, or the overview when idx is nil). `done`: the

@@ -8,7 +8,7 @@
   "wiki": "Mountaineer Stormpike",
   "refs": 3
  },
- "summary": "Mountaineer Stormpike is an Ironforge mountaineer stationed at Algaz Station in northern Loch Modan. Watching over the mountain pass leading toward the Wetlands, he works tirelessly to keep vital supply routes safe from lurking troggs, gnolls, and kobolds. As a proud member of the Stormpike clan, his loyalty lies squarely with Ironforge and the safety of dwarven lands.",
+ "summary": "Mountaineer Stormpike is an Ironforge mountaineer stationed at Algaz Station in northern Loch Modan. Watching over the mountain pass leading toward the Wetlands, he works tirelessly to keep vital supply routes safe from lurking troggs and kobolds. As a proud member of the Stormpike clan, his loyalty lies squarely with Ironforge and the safety of dwarven lands.",
  "sections": [
   {
    "title": "Guardian of Algaz Station",
@@ -17,7 +17,7 @@
   },
   {
    "title": "Contending with Local Menaces",
-   "body": "The northern reaches of Loch Modan are plagued by relentless pests, from kobolds infesting nearby digs to marauding gnoll packs and subterranean troggs. Stormpike routinely enlists passing adventurers to disrupt these threats, particularly targeting the kobolds whose filthy paws constantly pilfer supplies, gear, and valuable ore destined for Ironforge's war effort.",
+   "body": "The northern reaches of Loch Modan are plagued by relentless pests, from kobolds infesting nearby digs to subterranean troggs. Stormpike routinely enlists passing adventurers to disrupt these threats, particularly targeting the kobolds who have moved into the Silver Stream Mine and put their filthy paws on the Miners' League's stored dwarven tools.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "what is attacking algaz station",
     "loch modan north threats"
    ],
-   "answer": "The outpost faces frequent trouble from nearby gnoll bands, trogg incursions, and kobolds infesting the hillsides and quarries. Stormpike works to eliminate these threats so courier lines and caravans can pass through safely."
+   "answer": "The outpost faces frequent trouble from trogg incursions and kobolds infesting the hillsides and quarries. Stormpike works to eliminate these threats so courier lines and caravans can pass through safely."
   },
   {
    "q": "What is Algaz Station's purpose?",
@@ -74,7 +74,7 @@
     "mountaineer stormpike tasks",
     "filthy paws quest"
    ],
-   "answer": "He directs adventurers to reclaim stolen supplies from local pests, thin out encroaching threats like the kobolds, and carry military reports and shipments to nearby settlements."
+   "answer": "He directs adventurers to recover the Miners' League's gear from the kobold-infested Silver Stream Mine and to carry his order for a new shield all the way to the dwarven armorsmith Furen Longbeard in Stormwind."
   }
  ],
  "angles": [
@@ -105,8 +105,7 @@
   "quest:1339",
   "quest:1338",
   "topic:dwarf",
-  "topic:kobold",
-  "topic:gnoll"
+  "topic:kobold"
  ],
  "attribution": [
   "Mountaineer Stormpike"

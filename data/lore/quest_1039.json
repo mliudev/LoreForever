@@ -77,13 +77,13 @@
     "who is velinde",
     "velinde starsong lore"
    ],
-   "answer": "Velinde Starsong was a night elf priestess and Sentinel Melyria Frostshadow's predecessor in Ashenvale, charged with holding back the demonic presence in Felwood. Her efforts slowly faltered until she simply disappeared, and her trail now seems to lead across the sea."
+   "answer": "Velinde Starsong was a night elf priestess and Melyria Frostshadow's predecessor in Ashenvale, charged with cleansing the forest of demons. Her efforts slowly faltered until she simply disappeared, and her trail now seems to lead across the sea."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Velinde Starsong is an esteemed Sentinel whose loss weighs heavily on the leadership in Darnassus; retracing her desperate journey reflects the grave consequences of her experiments with the Scythe of Elune."
+   "text": "Velinde Starsong is an esteemed Sentinel whose loss weighs heavily on the leadership in Darnassus; retracing her desperate journey is a matter of kaldorei duty."
   },
   {
    "target": "faction:Alliance",

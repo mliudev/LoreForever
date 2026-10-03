@@ -16,7 +16,7 @@
   },
   {
    "title": "Secrets Beneath the Rubble",
-   "body": "While the architectural remnants are unmistakably trollish, the deeper mystery of Southmoon lies in what may be buried beneath. Ancient tablets found across Tanaris hint that long before the trolls settled here, older creators left their marks upon the earth. Scholars and archaeologists drawn toward the nearby Valley of the Watchers look at sites like Southmoon as keys to unraveling the continent's earliest beginnings, searching for relics and inscriptions lost among the desert sands.",
+   "body": "The architectural remnants are unmistakably trollish, but little is recorded of the people who raised Southmoon's stones or why they abandoned them. Whatever they left behind lies buried beneath the drifting sand, and the ogres who squat among the pillars care nothing for it.",
    "spoiler": 0
   }
  ],
@@ -40,15 +40,6 @@
    "answer": "The ruins have traditionally been occupied by the Dunemaul ogres, who wandered down into Tanaris and claimed various crumbling ancient outposts as their encampments, driving off other scavengers."
   },
   {
-   "q": "Why are archaeologists interested in these ruins?",
-   "aliases": [
-    "why do dwarves care",
-    "what is buried here",
-    "southmoon artifacts"
-   ],
-   "answer": "Beyond their troll origins, ruins in southern Tanaris frequently conceal much older relics, including carvings and tablets believed to date back to the Titans. Historians and excavators search these sites hoping to recover ancient knowledge buried beneath centuries of sand."
-  },
-  {
    "q": "Where are the Southmoon Ruins located?",
    "aliases": [
     "southmoon location",
@@ -61,7 +52,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Dwarven excavators look closely at any ruins bordering the Valley of the Watchers, ever watchful for inscriptions linked to Titan origins buried beneath the troll stonework."
+   "text": "Dwarven travelers crossing southern Tanaris find little at Southmoon beyond weathered troll stonework and the Dunemaul ogres camped among it."
   },
   {
    "target": "race:Troll",
@@ -70,7 +61,6 @@
  ],
  "keywords": [
   "dunemaul",
-  "farraki",
   "ruins",
   "southmoon",
   "southmoon ruins",
@@ -80,9 +70,7 @@
  "related": [
   "zone:tanaris",
   "subzone:valley-of-the-watchers",
-  "topic:explorers-league",
-  "topic:troll",
-  "topic:titan"
+  "topic:troll"
  ],
  "attribution": [
   "Southmoon Ruins"

@@ -23,7 +23,7 @@ const SETUP = [
     created TEXT NOT NULL, updated TEXT NOT NULL)`,
   // Translators (functions/api/translations/[action].js): the languages they translate, and their edits from
   // /translate/dashboard. status: new (saved; no approval step), rejected (spam, from /admin), pulled (in data/i18n via
-  // lore.kit pull). accepted is treated like new.
+  // lore.kit pull, or on main for lore.kit community). accepted is treated like new.
   `CREATE TABLE IF NOT EXISTS translator_languages (
     user_id TEXT NOT NULL, locale TEXT NOT NULL, created TEXT NOT NULL, PRIMARY KEY (user_id, locale))`,
   `CREATE TABLE IF NOT EXISTS translation_edits (

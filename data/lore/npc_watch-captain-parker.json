@@ -17,12 +17,12 @@
   },
   {
    "title": "Assessing the Gnoll Threat",
-   "body": "Parker's immediate concern is the surging gnoll population in southern Redridge. As packs encroach closer toward the roadway, he enlists able-bodied travelers to scout their numbers and thin their ranks. The Redridge pack's growing boldness poses an immediate danger to supply convoys and refugees seeking shelter in Lakeshire.",
+   "body": "Parker's immediate concern is the gnoll encampments gathering to the north and east of his post. As packs encroach closer toward the roadway, he sends able-bodied travelers to carry word of the gathering gnoll force to Deputy Feldon in Lakeshire. The Redridge pack's growing boldness poses an immediate danger to supply convoys and refugees seeking shelter in Lakeshire.",
    "spoiler": 0
   },
   {
    "title": "A Touch of Warmth",
-   "body": "Life on a lonely roadside post can be grim, but small kindnesses still find their way to Three Corners. Darcy, the server from the Lakeshire Inn, periodically ensures Parker receives a warm lunch. Touched by the gesture, Parker enlists the aid of passing adventurers to deliver freshly gathered wild flowers back to her in Lakeshire as a token of his appreciation.",
+   "body": "Life on a lonely roadside post can be grim, but small kindnesses still find their way to Three Corners. Darcy, the server from the Lakeshire Inn, sends Parker a warm lunch while he is out on patrol. Touched by the gesture, Parker asks the adventurer who delivered it to fetch a bouquet from Lakeshire's herbalist and bring it back to her as a token of his appreciation, without telling the herbalist whom the flowers are from or for.",
    "spoiler": 0
   }
  ],
@@ -61,7 +61,7 @@
     "who is darcy",
     "a free lunch quest lore"
    ],
-   "answer": "Darcy works at the Lakeshire Inn and frequently sends hot meals to Parker at his remote post. In return, Parker sends back wildflowers through passing travelers to express his gratitude and affection."
+   "answer": "Darcy works at the Lakeshire Inn and sends a hot lunch out to Parker at his remote post. In return, Parker has the traveler who brought it pick up flowers from the town herbalist for her, to express his gratitude and affection."
   },
   {
    "q": "Why doesn't Parker receive reinforcements from Stormwind?",
@@ -78,7 +78,7 @@
     "parker quests",
     "quests from parker"
    ],
-   "answer": "Parker asks adventurers to help cull the aggressive gnolls encroaching on the roads and helps arrange a delivery of fresh flowers back to Darcy at the Lakeshire Inn."
+   "answer": "Parker asks adventurers to report the gnoll encampments gathering near the road to Deputy Feldon in Lakeshire, and helps arrange a delivery of fresh flowers back to Darcy at the Lakeshire Inn."
   }
  ],
  "angles": [

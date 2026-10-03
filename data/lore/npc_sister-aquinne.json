@@ -8,11 +8,11 @@
   "wiki": "Sister Aquinne",
   "refs": 1
  },
- "summary": "Sister Aquinne is an acolyte of Elune residing within the serene Temple Gardens of Darnassus. Hailing from the village of Dolanaar, she is studying under the Priesthood of Elune at the Temple of the Moon.",
+ "summary": "Sister Aquinne is an acolyte of Elune residing within the serene Temple Gardens of Darnassus. A novice priestess, she is studying under the Priesthood of Elune at the Temple of the Moon.",
  "sections": [
   {
    "title": "Acolyte in Darnassus",
-   "body": "Sister Aquinne moved from her home village of Dolanaar to the night elf capital to dedicate herself to the Priesthood of Elune. Stationed in the tranquil Temple Gardens beneath the shadow of the Temple of the Moon, she continues her studies under the guidance of the High Priestess and elder sisters. Her dedication brings great pride to the friends and folk she left behind in Dolanaar, who occasionally send tokens and practical gifts to remind the young novice of home while she pursues her sacred calling.",
+   "body": "Sister Aquinne has dedicated herself to the Priesthood of Elune in the night elf capital. Stationed in the tranquil Temple Gardens beneath the shadow of the Temple of the Moon, she continues her studies under the guidance of the High Priestess and elder sisters. When a once-great creature of the forest was in need of help, it was Aquinne who sent willing travelers to Priestess A'moora inside the temple to learn what had to be done.",
    "spoiler": 0
   }
  ],
@@ -33,24 +33,7 @@
     "who is sister aquinne",
     "aquinne backstory"
    ],
-   "answer": "She grew up in the nearby woodland settlement of Dolanaar alongside childhood friends like Astaia. She left her quiet rural life to travel to the capital and train as a priestess of Elune."
-  },
-  {
-   "q": "Why do people in Dolanaar send her gifts?",
-   "aliases": [
-    "dolanaar to aquinne",
-    "reminders of home quest",
-    "aquinne cookbook"
-   ],
-   "answer": "Her old friends in Dolanaar are proud of her acceptance into the Temple of the Moon. They occasionally entrust travelers with gifts, such as recipe books and keepsakes, to ensure she feels supported during her rigorous studies."
-  },
-  {
-   "q": "What is her connection to Astaia?",
-   "aliases": [
-    "astaia and aquinne",
-    "sister aquinne friend"
-   ],
-   "answer": "Astaia is Aquinne's childhood friend from Dolanaar. The two shared many memories growing up together, including boat trips where Aquinne once misplaced a treasured moon pendant."
+   "answer": "She is a novice priestess of Elune, studying at the Temple of the Moon in Darnassus. Little is known of her life before she entered the temple's service."
   }
  ],
  "angles": [
@@ -60,14 +43,12 @@
   },
   {
    "target": "race:NightElf",
-   "text": "For night elf adventurers journeying from the boughs of Dolanaar into Darnassus, Sister Aquinne serves as a familiar link between small village life and the grandeur of the temple priesthood."
+   "text": "For night elf adventurers arriving in Darnassus, Sister Aquinne is a welcoming face in the Temple Gardens and a first link to the grandeur of the temple priesthood."
   }
  ],
  "keywords": [
   "aquinne",
-  "astaia",
   "darnassus",
-  "dolanaar",
   "sister aquinne",
   "temple gardens",
   "temple of the moon"
@@ -76,7 +57,6 @@
   "subzone:temple-gardens",
   "subzone:temple-of-the-moon",
   "zone:darnassus",
-  "subzone:dolanaar",
   "quest:2519",
   "topic:night-elf",
   "quest:940"

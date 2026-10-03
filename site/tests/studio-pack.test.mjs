@@ -42,8 +42,15 @@ async function signIn(sub) {
 }
 
 const mp3 = (n, seed) => Uint8Array.from([0x49, 0x44, 0x33, 4, 0, 0, 0, 0, 0, 0, ...Array.from({ length: n }, (_, i) => (i * seed) & 0xff)]);
-const ogg = n => Uint8Array.from([0x4f, 0x67, 0x67, 0x53, ...Array.from({ length: n }, (_, i) => i & 0xff)]);
+const ascii = s => [...s].map(c => c.charCodeAt(0));
+// An Ogg page header (26 bytes), one segment, then the codec's first packet: Vorbis plays in game, Opus doesn't.
+const oggOf = (codec, n) => Uint8Array.from([...ascii("OggS"), 0, 2, ...Array(20).fill(0), 1, 30, ...codec,
+  ...Array.from({ length: n }, (_, i) => i & 0xff)]);
+const ogg = n => oggOf([1, ...ascii("vorbis")], n);
+const opus = oggOf(ascii("OpusHead"), 200);
 const wav = Uint8Array.from([..."RIFF"].map(c => c.charCodeAt(0)).concat([0, 0, 0, 0], [..."WAVE"].map(c => c.charCodeAt(0)), [0, 0, 0, 0]));
+const m4a = Uint8Array.from([0, 0, 0, 0x20, ...ascii("ftypM4A "), ...Array(200).fill(0)]);
+const adts = Uint8Array.from([0xff, 0xf1, 0x50, 0x80, ...Array(200).fill(0)]);   // bare AAC: looks like an MPEG frame
 
 test("a narrator downloads their test pack", async () => {
   const me = await signIn("narrator"), other = await signIn("someone-else");
@@ -63,9 +70,12 @@ test("a narrator downloads their test pack", async () => {
   assert.equal((await put("zone:elwynn", elwynn)).status, 200);                       // no CRC: an upload from before
   assert.equal((await put("zone:stormwind#faq1", ogg(900))).status, 200);              // the minority format
   assert.equal((await put("zone:durotar", mp3(100, 3))).status, 200);                  // reworded below
-  const refused = await put("zone:durotar", wav);
-  assert.equal(refused.status, 415);
-  assert.match((await refused.json()).error, /turns \.wav and \.flac into \.mp3/);
+  // The page converts everything the game can't play; the server refuses it unconverted.
+  for (const bytes of [wav, m4a, opus, adts]) {
+    const refused = await put("zone:durotar", bytes);
+    assert.equal(refused.status, 415);
+    assert.match((await refused.json()).error, /turns this kind of file into \.mp3/);
+  }
   LINES.groups[0].stories[2].lines[0].hash.enUS = "bbbb00000004";
 
   // Only the owner (or the admin key) gets it.
@@ -113,4 +123,57 @@ test("a narrator downloads their test pack", async () => {
   assert.deepEqual(oggPack.slice(2).map(f => f.name.split("/").pop()), ["zone_elwynn.ogg", "zone_stormwind.ogg", "zone_stormwind__faq1.ogg"]);
   assert.match(text(oggPack[1]), /^P\.ext = "ogg"$/m);
   assert.equal(env.STUDIO.objects.size, 4, "replacing a take with another format deletes the old file");
+});
+
+test("a narrator says which races their voice suits; it goes in the test pack and the export (LOR-170)", async () => {
+  const me = await signIn("orc-voice"), other = await signIn("not-the-owner");
+  const made = await (await call("POST", "voice", { cookie: me.cookie, body: { name: "Grukk", locale: "enUS" } })).json();
+  assert.ok(made.ok, made.error);
+  const set = races => call("POST", "voice", { cookie: me.cookie, body: { id: made.id, races } });
+  // Known races only, in a fixed order, whatever the page sends.
+  const res = await set(["Troll", "orc", "murloc"]);
+  assert.equal(res.status, 200);
+  assert.equal((await res.json()).races, "orc,troll");
+  assert.equal((await call("POST", "voice", { cookie: other.cookie, body: { id: made.id, races: ["human"] } })).status, 404,
+    "only the owner can change it");
+  const state = await (await call("GET", "state", { cookie: me.cookie, query: `?voice=${made.id}` })).json();
+  assert.equal(state.voices.find(v => v.id === made.id).races, "orc,troll");
+
+  await call("PUT", "take", { cookie: me.cookie, body: mp3(600, 9), query: `?voice=${made.id}&line=zone%3Adurotar` });
+  const files = unzip(new Uint8Array(await (await call("GET", "pack", { cookie: me.cookie, query: `?voice=${made.id}` })).arrayBuffer()));
+  assert.match(new TextDecoder().decode(files[0].data), /^## X-LoreForever-Races: Orc, Troll$/m);
+  const exported = await (await call("GET", "export", { query: `?voice=${made.id}`, headers: { Authorization: "Bearer admin-test-key" } })).json();
+  assert.equal(exported.voice.races_label, "Orc, Troll");
+
+  // Untick them all: no Races line.
+  assert.equal((await (await set([])).json()).races, "");
+  const plain = unzip(new Uint8Array(await (await call("GET", "pack", { cookie: me.cookie, query: `?voice=${made.id}` })).arrayBuffer()));
+  assert.doesNotMatch(new TextDecoder().decode(plain[0].data), /X-LoreForever-Races/);
+});
+
+test("a narrator uploads before agreeing to the release, which is asked for when sending", async () => {
+  const me = await signIn("late-signer");
+  const made = await (await call("POST", "voice", { cookie: me.cookie, body: { name: "Late Signer's voice", locale: "enUS" } })).json();
+  assert.ok(made.ok, made.error);
+  const take = await call("PUT", "take", { cookie: me.cookie, body: mp3(800, 5), query: `?voice=${made.id}&line=zone%3Aelwynn` });
+  assert.equal(take.status, 200, "uploading needs no release");
+  assert.equal((await call("GET", "pack", { cookie: me.cookie, query: `?voice=${made.id}` })).status, 200, "nor does the test pack");
+
+  const send = () => call("POST", "send", { cookie: me.cookie, body: { voice: made.id, credit: "Late Signer" } });
+  const refused = await send();
+  assert.equal(refused.status, 403);
+  assert.match((await refused.json()).error, /narrator release/);
+
+  assert.equal((await call("POST", "release", { cookie: me.cookie,
+    body: { agree: true, adult: true, signature: "Late Signer", release: RELEASE_VERSION } })).status, 200);
+  const ok = await send();
+  assert.equal(ok.status, 200);
+  assert.equal((await ok.json()).lines, 1);
+  // The review queue names the stories sent, not a count out of every line: voices are partial by design.
+  const row = await env.DB.prepare("SELECT clips FROM voice_submissions WHERE voice_id = ?").bind(made.id).first();
+  assert.equal(row.clips, "1 line (enUS): Elwynn, uploaded on the site");
+
+  // Signed out: nothing to upload with, but the page can still load its state.
+  assert.equal((await call("PUT", "take", { body: mp3(10, 1), query: `?voice=${made.id}&line=zone%3Aelwynn` })).status, 401);
+  assert.deepEqual(await (await call("GET", "state")).json(), { ok: true, signedIn: false });
 });

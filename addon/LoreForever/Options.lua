@@ -10,20 +10,32 @@ Options.DEFAULTS = {
   unitTooltips = true,     -- one-line lore on NPC and mob tooltips
   itemTooltips = true,     -- quest notes on item tooltips
   launcher = true,         -- book button beside the game's menu bar
+  floatPlayer = true,      -- the narration player floats on screen while the panel is closed (UI.UpdateNowPlaying)
   minimap = true,          -- minimap button (turned on once for installs from before it was the default: Log.Init)
   typing = true,           -- answers type in quickly instead of appearing at once
+  chatLinks = true,        -- names of other entries in answers are links (UI.Linker), Back / Forward above the chat
   showSpoilers = false,    -- show answers marked as spoilers without asking first
   readAloud = true,        -- "Read aloud" (the game's text-to-speech) for answers without a recorded narration
   narrateFlights = false,  -- read zone lore aloud on taxi flights
+  autoZone = true,         -- play a zone's or place's recorded narration on arriving there (Voice.OnArrive)
+  autoQuest = true,        -- narrate the quest giver's window: its recording, else Read aloud (Voice.OnQuestFrame)
+  readBooks = true,        -- read book, letter and plaque pages aloud as they open (Voice.ReadBookPage)
+  skipHeard = true,        -- don't play automatically what this character has heard (LoreForeverDB.heard)
   packHints = true,        -- say (once a session per zone) when its places and people are in a lands pack you lack
-  journey = true,          -- "Remember my journey": record places, people, quests and foes for the Journey tab
+  tips = true,             -- one tip at login about a feature (Core.lua loginTip), until they run out
+  journey = true,          -- "Remember my journey": record places, people, quests and foes for Journey
   language = "auto",       -- "auto" (the game client's language), "enUS" or a language pack's locale
-  voicePack = "auto",      -- narration voice: "auto" (default pack), "none" (game voice only) or a pack's add-on name
+  -- Narration voices: voiceOrder (pack add-on names, "auto" = the default pack) and voiceOff (unticked ones) are
+  -- set up by Voice.lua, which also moves the old one-voice setting (voicePack) into them.
+  voiceGroup = "story",    -- keep one voice per "story" (a story and its questions), per "zone", or pick per "line"
+  voiceMatchRace = false,  -- prefer voices that suit the race of the lore (orc lore in an orc voice)
+  panelScale = 1,          -- Panel size: 0.9, 1, 1.15 or 1.3 (UI.SCALES); scales the whole panel
 }
 
 local L = ns.L
+local T = ns.Theme
 
-local VOICES_URL = "loreforeverwow.com/voices"
+local VOICES_URL = "loreforeverwow.com/downloads"
 local LANGUAGES_URL = "loreforeverwow.com/translate"
 
 -- Size a button to its label (German and other languages run longer than the English the sizes were picked for).
@@ -60,7 +72,7 @@ local function dropDown(name, parent, width)
   -- An opaque background of its own: backdrops aren't available on every client.
   local bg = list:CreateTexture(nil, "BACKGROUND")
   bg:SetAllPoints()
-  if bg.SetColorTexture then bg:SetColorTexture(0.05, 0.05, 0.08, 0.97) else bg:SetTexture(0.05, 0.05, 0.08, 0.97) end
+  if bg.SetColorTexture then bg:SetColorTexture(T.rgba(T.color.popup)) else bg:SetTexture(T.rgba(T.color.popup)) end
   if list.SetBackdrop then
     list:SetBackdrop({ edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border", edgeSize = 12,
       insets = { left = 3, right = 3, top = 3, bottom = 3 } })
@@ -87,9 +99,9 @@ local function dropDown(name, parent, width)
         list.rows[i] = r
       end
       r.choice = ch
-      local mark = ch.value == current and "|cffffd100> |r" or "   "
-      local extra = (ch.why or ch.note) and ("|cff888888 - " .. (ch.why or ch.note) .. "|r") or ""
-      r.text:SetText(mark .. (ch.why and ("|cff888888" .. ch.label .. "|r") or ch.label) .. extra)
+      local mark = ch.value == current and T.code.gold .. "> |r" or "   "
+      local extra = (ch.why or ch.note) and (T.code.faint .. " - " .. (ch.why or ch.note) .. "|r") or ""
+      r.text:SetText(mark .. (ch.why and (T.code.faint .. ch.label .. "|r") or ch.label) .. extra)
       r:Show()
     end
     for i = #items + 1, #list.rows do list.rows[i]:Hide() end
@@ -112,7 +124,8 @@ local function heading(c, text, anchor, gap)
 end
 
 local function note(c, text, anchor, gap, font)
-  local n = c:CreateFontString(nil, "ARTWORK", font or "GameFontDisableSmall")
+  local n = c:CreateFontString(nil, "ARTWORK", font or "GameFontHighlightSmall")
+  if not font then n:SetTextColor(T.rgba(T.color.muted)) end   -- the game's disabled grey is too dim to read here
   n:SetPoint("TOPLEFT", anchor, "BOTTOMLEFT", 0, -(gap or 6))
   n:SetPoint("RIGHT", c, "RIGHT", -24, 0)
   n:SetJustifyH("LEFT")
@@ -123,7 +136,8 @@ end
 -- "Get more …:" and a read-only, selectable web address next to it, under `anchor` (`gap` below it). Add-ons can't
 -- open a browser, so players copy the address. Returns the label (to anchor what comes next), the box and its refill.
 local function urlRow(c, label, address, anchor, gap)
-  local text = c:CreateFontString(nil, "ARTWORK", "GameFontDisableSmall")
+  local text = c:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+  text:SetTextColor(T.rgba(T.color.muted))
   text:SetPoint("TOPLEFT", anchor, "BOTTOMLEFT", 0, -gap)
   text:SetText(label)
   local url = CreateFrame("EditBox", nil, c, "InputBoxTemplate")
@@ -131,7 +145,7 @@ local function urlRow(c, label, address, anchor, gap)
   url:SetPoint("LEFT", text, "RIGHT", 12, 0)
   url:SetAutoFocus(false)
   if url.SetFontObject and _G.ChatFontNormal then url:SetFontObject(ChatFontNormal) end
-  url:SetTextColor(1, 1, 1)
+  url:SetTextColor(T.rgba(T.color.url))
   -- On the Forever client, text set on this box before the settings page is first shown rendered as an empty box
   -- (it's dropped or scrolled out of view). So the address is filled again, with the cursor at the start, every time
   -- the box or the page shows.
@@ -148,57 +162,189 @@ local function urlRow(c, label, address, anchor, gap)
   return text, url, fill
 end
 
--- The Narration voice section: a drop-down of voices, Preview, a status line and where to get more voices.
--- Placed under `anchor`; returns the section and its last line, for whatever comes next.
+-- The Narration voices section: the player's voices in order, each with a tick box, its counts, Sample, and arrows
+-- to move it (plain clicks only); a voice that isn't installed any more can be forgotten. Then how voices share a
+-- story, a status line and where to get more voices. Placed under `anchor`; returns the section and its last line.
+local VROW = 38
+local MODES = { "story", "line", "zone" }
 function Options.VoiceSection(c, anchor)
-  local head = heading(c, L["Narration voice"], anchor, 24)
-  local pick, list = dropDown("LoreForeverVoicePick", c, 320)
-  pick:SetPoint("TOPLEFT", head, "BOTTOMLEFT", 2, -6)
-  local preview = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
-  preview:SetSize(90, 24)
-  preview:SetPoint("LEFT", pick, "RIGHT", 8, 0)
-  preview:SetText(L["Preview"])
-  fit(preview, 90)
-  local status = note(c, "", pick, 8, "GameFontHighlightSmall")
+  local head = heading(c, L["Narration voices"], anchor, 24)
+  local intro = note(c, L["Each narration plays from the first voice in this list that has it. Use the arrows to change the order; untick a voice to stop using it."], head, 6)
+  local box = CreateFrame("Frame", nil, c)
+  box:SetPoint("TOPLEFT", intro, "BOTTOMLEFT", 0, -6)
+  box:SetPoint("RIGHT", c, "RIGHT", -24, 0)
+  box:SetHeight(VROW)
+  local modeLabel = note(c, L["When several voices have a narration:"], box, 10, "GameFontNormalSmall")
+  local mode, modeList = dropDown("LoreForeverVoiceMode", c, 300)
+  mode:SetPoint("TOPLEFT", modeLabel, "BOTTOMLEFT", 2, -4)
+  local race = CreateFrame("CheckButton", nil, c, "UICheckButtonTemplate")
+  race:SetPoint("TOPLEFT", mode, "BOTTOMLEFT", -4, -6)
+  local raceText = type(race.Text) == "table" and race.Text or race:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+  raceText:ClearAllPoints()
+  raceText:SetPoint("LEFT", race, "RIGHT", 4, 0)
+  raceText:SetText(L["Prefer voices that suit the race"])
+  local raceNote = note(c, L["Orc lore in an orc voice: a voice that says which races it suits goes first for their stories."],
+    race, 2)
+  raceNote:SetPoint("TOPLEFT", race, "BOTTOMLEFT", 30, 4)
+  race:SetScript("OnClick", function(self)
+    LoreForeverDB.settings.voiceMatchRace = self:GetChecked() and true or false
+    ns.Voice.Refresh()
+    if ns.UI and ns.UI.OnVoiceChanged then ns.UI.OnVoiceChanged() end
+  end)
+  local status = note(c, "", raceNote, 8, "GameFontHighlightSmall")
+  status:SetPoint("TOPLEFT", raceNote, "BOTTOMLEFT", -26, -8)   -- back under the tick box, not its indented note
   local moreLabel, url, fillUrl = urlRow(c, L["Get more voices:"], VOICES_URL, status, 14)
-  local hint = note(c, L["Installed a voice? Restart the game (a /reload isn't enough), then pick it here."],
+  local hint = note(c, L["Installed a voice? Restart the game (a /reload isn't enough); it's added at the top."],
     moreLabel, 10)
 
-  local section = {}
-  local function current() return (LoreForeverDB and LoreForeverDB.settings.voicePack) or "auto" end
+  local section, rows = {}, {}
+  local modeNames = { story = L["Keep one voice per story"], line = L["Use the first voice for each narration"],
+    zone = L["Keep one voice per zone"] }
+
+  local function small(r, texture, tip, onClick)
+    local b = CreateFrame("Button", nil, r)
+    b:SetSize(20, 20)
+    b:SetNormalTexture(texture)
+    b:SetDisabledTexture(texture)
+    local t = b.GetDisabledTexture and b:GetDisabledTexture()
+    if t and t.SetDesaturated then t:SetDesaturated(true) end
+    b:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
+    b:SetScript("OnClick", function() onClick(r.item) end)
+    b:SetScript("OnEnter", function(self)
+      GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+      GameTooltip:AddLine(tip)
+      GameTooltip:Show()
+    end)
+    b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+    return b
+  end
+
+  -- The panel's themed button (Theme.lua), or the game's own where the theme isn't loaded.
+  local function button(parent, label)
+    if ns.Theme and ns.Theme.Button then return ns.Theme.Button(parent, label) end
+    local b = CreateFrame("Button", nil, parent, "UIPanelButtonTemplate")
+    b:SetText(label)
+    return b
+  end
+
+  local function row(i)
+    if rows[i] then return rows[i] end
+    local r = CreateFrame("Frame", nil, box)
+    r:SetHeight(VROW)
+    r:SetPoint("TOPLEFT", 0, -(i - 1) * VROW)
+    r:SetPoint("RIGHT", box, "RIGHT", 0, 0)
+    r.check = CreateFrame("CheckButton", nil, r, "UICheckButtonTemplate")
+    r.check:SetSize(26, 26)
+    r.check:SetPoint("LEFT", -4, 0)
+    r.check:SetScript("OnClick", function(self)
+      ns.Voice.SetOn(r.item.key, self:GetChecked() and true or false)
+      section.Update()
+    end)
+    r.down = small(r, "Interface\\Buttons\\UI-ScrollBar-ScrollDownButton-Up", L["Move down"], function(it)
+      ns.Voice.Move(it.key, 1)
+      section.Update()
+    end)
+    r.down:SetPoint("RIGHT", 0, 0)
+    r.up = small(r, "Interface\\Buttons\\UI-ScrollBar-ScrollUpButton-Up", L["Move up"], function(it)
+      ns.Voice.Move(it.key, -1)
+      section.Update()
+    end)
+    r.up:SetPoint("RIGHT", r.down, "LEFT", -2, 0)
+    r.sample = button(r, L["Sample"])
+    r.sample:SetSize(70, 22)
+    r.sample:SetPoint("RIGHT", r.up, "LEFT", -6, 0)
+    fit(r.sample, 70)
+    -- Sample plays the voice's sample (stopping whatever played, another sample included); while it plays the
+    -- button reads Stop and stops it (Voice.previewing, kept up to date through Options.OnPreviewChanged).
+    r.sample:SetScript("OnClick", function()
+      if ns.Voice.previewing == r.item.key then return ns.Voice.StopPreview() end
+      if not ns.Voice.Preview(r.item.key) then
+        status:SetText(ns.Voice.Status() .. " " .. T.code.warn .. L["(Nothing to preview.)"] .. "|r")
+      end
+    end)
+    r.forget = button(r, L["Forget"])
+    r.forget:SetSize(70, 22)
+    r.forget:SetPoint("RIGHT", r.up, "LEFT", -6, 0)
+    fit(r.forget, 70)
+    r.forget:SetScript("OnClick", function()
+      ns.Voice.Forget(r.item.key)
+      section.Update()
+    end)
+    -- One width for both (only one shows), so a longer translation of either can't run over the name.
+    local w1, w2 = r.sample:GetWidth(), r.forget:GetWidth()
+    if type(w1) == "number" and type(w2) == "number" then
+      r.sample:SetWidth(math.max(w1, w2))
+      r.forget:SetWidth(math.max(w1, w2))
+    end
+    r.name = r:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+    r.name:SetPoint("TOPLEFT", r.check, "TOPRIGHT", 2, 3)
+    r.name:SetPoint("RIGHT", r.sample, "LEFT", -8, 0)
+    r.name:SetJustifyH("LEFT")
+    r.stats = r:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+    r.stats:SetPoint("TOPLEFT", r.name, "BOTTOMLEFT", 0, -2)
+    r.stats:SetPoint("RIGHT", r.sample, "LEFT", -8, 0)
+    r.stats:SetJustifyH("LEFT")
+    rows[i] = r
+    return r
+  end
+
+  -- One row: greyed when unticked or unusable (with why in red), counts otherwise. A voice that can't be used can
+  -- still be unticked, so it doesn't count as chosen.
+  local function fill(r, it, i, n)
+    r.item = it
+    local usable = not it.why
+    r.check:SetChecked(it.on)
+    local title = it.label
+    r.name:SetText(((it.on and usable) and "" or T.code.faint) .. title .. ((it.on and usable) and "" or "|r"))
+    local stats
+    if it.why then
+      stats = T.code.warn .. it.why .. "|r"
+    elseif it.on then
+      stats = string.format(L["plays %d · has %d"], it.plays, it.have) .. (it.races and (" · " .. it.races) or "")
+    else
+      stats = string.format(L["not used · has %d"], it.have)
+    end
+    if usable and it.stale > 0 then stats = stats .. " · " .. T.code.stale .. string.format(L["%d outdated"], it.stale) .. "|r" end
+    r.stats:SetText(stats)
+    r.stats:SetTextColor(T.rgba(T.color.muted))
+    r.sample:SetShown(usable)
+    r.sample:SetText(ns.Voice.previewing == it.key and L["Stop"] or L["Sample"])
+    r.forget:SetShown(it.missing and not it.default)
+    if i == 1 then r.up:Disable() else r.up:Enable() end
+    if i == n then r.down:Disable() else r.down:Enable() end
+    r:Show()
+  end
 
   function section.Update()
-    local choices = ns.Voice.Choices()
-    local label = choices[1].label
-    for _, ch in ipairs(choices) do if ch.value == current() then label = ch.label end end
-    pick:SetText(label)
+    local items = ns.Voice.List()
+    for i, it in ipairs(items) do fill(row(i), it, i, #items) end
+    for i = #items + 1, #rows do rows[i]:Hide() end
+    box:SetHeight(math.max(#items, 1) * VROW)
+    local cur = (LoreForeverDB and LoreForeverDB.settings.voiceGroup) or "story"
+    mode:SetText(modeNames[cur] or modeNames.story)
+    race:SetChecked(LoreForeverDB and LoreForeverDB.settings.voiceMatchRace and true or false)
     status:SetText(ns.Voice.Status())
     fillUrl()
-    section.choices = choices
+    section.items = items
   end
 
-  local function choose(ch)
-    list:Hide()
-    local ok, why = ns.Voice.SetPack(ch.value)
-    section.Update()
-    if not ok then
-      status:SetText("|cffff7070" .. string.format(L["%s: %s."], ch.label, why) .. "|r " .. ns.Voice.Status())
+  -- A sample started or stopped (Voice.Preview, Voice.Stop, or it ended): relabel the Sample buttons.
+  function section.UpdateSamples()
+    for _, r in ipairs(rows) do
+      if r.item then r.sample:SetText(ns.Voice.previewing == r.item.key and L["Stop"] or L["Sample"]) end
     end
   end
 
-  function section.OpenList()
-    section.Update()
-    list.Open(section.choices, current(), choose)
-  end
-
-  pick:SetScript("OnClick", function() if list:IsShown() then list:Hide() else section.OpenList() end end)
-  preview:SetScript("OnClick", function()
-    list:Hide()
-    if not ns.Voice.Preview(current()) then
-      status:SetText(ns.Voice.Status() .. " |cffff7070" .. L["(Nothing to preview.)"] .. "|r")
-    end
+  mode:SetScript("OnClick", function()
+    local items = {}
+    for _, m in ipairs(MODES) do items[#items + 1] = { value = m, label = modeNames[m] } end
+    modeList.Toggle(items, (LoreForeverDB and LoreForeverDB.settings.voiceGroup) or "story", function(ch)
+      ns.Voice.SetGroup(ch.value)
+      section.Update()
+    end)
   end)
-  section.pick, section.list, section.status, section.preview, section.url = pick, list, status, preview, url
+  section.rows, section.box, section.mode, section.modeList = rows, box, mode, modeList
+  section.status, section.url, section.race = status, url, race
   return section, hint
 end
 
@@ -206,17 +352,24 @@ end
 local function rows()
   return {
     { "zoneNudge", L["Zone hints"], L["When you enter a zone, suggest a question about it in chat."] },
-    { "dungeonPrimer", L["Dungeon primer prompt"], L["When you enter a dungeon, link its primer in chat."] },
+    { "dungeonPrimer", L["Dungeon primer prompt"], L["When you enter a dungeon, link its primer in chat, and each boss's story once you beat them."] },
     { "unitTooltips", L["Lore on NPC tooltips"], L["Add a one-line story to the tooltip of NPCs and mobs."] },
     { "itemTooltips", L["Notes on item tooltips"], L["Say when an item is wanted for a quest or starts one."] },
     { "launcher", L["Menu bar button"], L["Show the book button beside the game's menu bar. Drag it to move it."] },
     { "minimap", L["Minimap button"], L["Also show a book button on the minimap."] },
+    { "floatPlayer", L["Floating player"], L["While the panel is closed, show the narration player on screen when something plays or is queued. Drag it to move it."] },
     { "typing", L["Typing animation"], L["Answers type in quickly. Click an answer to show it all at once."] },
+    { "chatLinks", L["Clickable names in answers"], L["Names of places, people and events in an answer open their own story. Shift-click one to add it to your playlist."] },
     { "showSpoilers", L["Show spoilers without asking"], L["Answers that give away a quest's twist or ending normally ask before revealing. Tick this to always show them."] },
-    { "readAloud", L["Read aloud"], L["Offer \"Read aloud\" with the game's own voice for answers without a recorded narration. Pick the voice in Options > Accessibility > Text to Speech."] },
+    { "readAloud", L["Read aloud"], L["Offer \"Read aloud\" with the game's own voice for answers without a recorded narration. Pick its voice and speed in Options > Accessibility > Text to Speech."] },
     { "narrateFlights", L["Narrate flights"], L["Read the story of each zone aloud while on a flight path."] },
+    { "autoZone", L["Play narrations as you arrive"], L["When you reach a zone or place with a recorded narration, play it. Never during combat or a flight, and never over something already playing."] },
+    { "autoQuest", L["Narrate quest dialogue"], L["When a quest giver's window opens, play the quest's narration, or read the quest text aloud if Read aloud is on. It stops when the window closes."] },
+    { "readBooks", L["Read books aloud"], L["When you open a book, letter or plaque, read the page aloud with the game's voice if Read aloud is on. Turning the page reads the next one; closing it stops."] },
+    { "skipHeard", L["Skip what you've heard"], L["Don't play a narration or quest text by itself again once this character has heard it. You can still play it any time; the Library ticks the ones you've heard."] },
     { "packHints", L["Narration pack hints"], L["When you enter a zone whose places and people are narrated in a voice pack you don't have, say so once."] },
-    { "journey", L["Remember my journey"], L["Keep track of the places you discover, the people you meet, the foes you defeat and the quests you finish, for the Journey tab. It stays on your PC."] },
+    { "journey", L["Remember my journey"], L["Keep track of the places you discover, the people you meet, the foes you defeat and the quests you finish, for your journey page. It stays on your PC."] },
+    { "tips", L["Tips at login"], L["Now and then at login, a tip in chat about something Lore Forever can do."] },
   }
 end
 
@@ -275,6 +428,38 @@ local function languageSection(c, p, anchor)
   return moreLabel
 end
 
+-- Panel size: scales the whole Lore Forever panel (text, buttons and all), for bigger text. Under `anchor`; returns
+-- the drop-down button (with .Update), for whatever comes next.
+local function sizeSection(c, anchor)
+  local head = heading(c, L["Panel size"], anchor, 24)
+  local btn, list = dropDown("LoreForeverSizePick", c, 200)
+  btn:SetPoint("TOPLEFT", head, "BOTTOMLEFT", 2, -6)
+  local names = { L["Small"], L["Normal"], L["Large"], L["Larger"] }
+  local function items()
+    local out, label = {}, nil
+    local cur = tonumber(LoreForeverDB.settings.panelScale) or 1
+    for i, v in ipairs(ns.UI.SCALES) do
+      out[i] = { value = v, label = string.format("%s (%d%%)", names[i] or "", math.floor(v * 100 + 0.5)) }
+      if v == cur then label = out[i].label end
+    end
+    return out, cur, label or out[2].label
+  end
+  function btn.Update()
+    local _, _, label = items()
+    btn:SetText(label)
+  end
+  btn:SetScript("OnClick", function()
+    local all, cur = items()
+    list.Toggle(all, cur, function(ch)
+      LoreForeverDB.settings.panelScale = ch.value
+      ns.UI.ApplyScale(ch.value)
+      btn.Update()
+    end)
+  end)
+  btn.Update()
+  return btn
+end
+
 function Options.Create()
   if Options.panel then return Options.panel end
   local p = CreateFrame("Frame", "LoreForeverOptions")
@@ -305,7 +490,8 @@ function Options.Create()
       text:SetPoint("LEFT", cb, "RIGHT", 4, 0)
     end
     text:SetText(label)
-    local desc = c:CreateFontString(nil, "ARTWORK", "GameFontDisableSmall")
+    local desc = c:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+    desc:SetTextColor(T.rgba(T.color.muted))
     desc:SetPoint("TOPLEFT", cb, "BOTTOMLEFT", 30, 4)
     desc:SetPoint("RIGHT", c, "RIGHT", -24, 0)
     desc:SetJustifyH("LEFT")
@@ -314,6 +500,7 @@ function Options.Create()
       LoreForeverDB.settings[key] = self:GetChecked() and true or false
       if key == "minimap" and ns.MinimapButton then ns.MinimapButton() end
       if key == "launcher" and ns.LauncherButton then ns.LauncherButton() end
+      if key == "floatPlayer" and ns.UI.UpdateNowPlaying then ns.UI.UpdateNowPlaying() end
       if key == "readAloud" and p.voice then p.voice.Update() end
       if key == "journey" and ns.Journey then ns.Journey.OnToggle() end
     end)
@@ -333,11 +520,28 @@ function Options.Create()
   narrBtn:SetText(L["Set narration key..."])
   fit(narrBtn, 180)
   narrBtn:SetScript("OnClick", function() ns.Hooks.KeyPrompt("narrate"):Show() end)
+  -- Forget what this character has heard, so narrations and quest text play by themselves again.
+  local resetBtn = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
+  resetBtn:SetSize(200, 24)
+  resetBtn:SetPoint("TOPLEFT", keyBtn, "BOTTOMLEFT", 0, -8)
+  resetBtn:SetText(L["Reset heard narrations"])
+  fit(resetBtn, 200)
+  resetBtn:SetScript("OnClick", function()
+    local n = ns.Voice.ResetHeard()
+    DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. string.format(n == 1
+      and L["forgot %d narration this character heard; it plays by itself again."]
+      or L["forgot %d narrations this character heard; they play by themselves again."], n))
+    if ns.UI and ns.UI.UpdateListen and ns.UI.frame then ns.UI.UpdateListen() end
+  end)
+  p.resetHeard = resetBtn
+  local sizeBtn = sizeSection(c, resetBtn)
+  p.updateSize = sizeBtn.Update
   local bottom
-  p.voice, bottom = Options.VoiceSection(c, keyBtn)
+  p.voice, bottom = Options.VoiceSection(c, sizeBtn)
   p:SetScript("OnShow", function(self)
     for _, cb in ipairs(self.checks) do cb:SetChecked(LoreForeverDB.settings[cb.key] and true or false) end
     self.updateLanguage()
+    self.updateSize()
     self.voice.Update()
     -- Scroll height: from the top of the content to its last line, once the game has laid the text out.
     local w = sf.GetWidth and sf:GetWidth()
@@ -345,6 +549,8 @@ function Options.Create()
     local top, low = c.GetTop and c:GetTop(), bottom.GetBottom and bottom:GetBottom()
     if type(top) == "number" and type(low) == "number" and top > low then c:SetHeight(top - low + 24) end
   end)
+  -- Leaving the page (closing the settings window, or another add-on's page) stops a voice sample still playing.
+  p:SetScript("OnHide", function() ns.Voice.StopPreview() end)
 
   if _G.Settings and Settings.RegisterCanvasLayoutCategory then
     local cat = Settings.RegisterCanvasLayoutCategory(p, "Lore Forever")
@@ -357,9 +563,15 @@ function Options.Create()
   return p
 end
 
+-- Voice.Preview / Voice.Stop: a sample started or stopped. Relabels the Sample buttons if the page exists.
+function Options.OnPreviewChanged()
+  local voice = Options.panel and Options.panel.voice
+  if voice and voice.UpdateSamples then voice.UpdateSamples() end
+end
+
 function Options.Open()
   if InCombatLockdown and InCombatLockdown() then
-    DEFAULT_CHAT_FRAME:AddMessage("|cffffd100Lore Forever:|r " .. L["options open after combat."])
+    DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. L["options open after combat."])
     return
   end
   local cat = Options.category

@@ -1,4 +1,4 @@
--- Your journey: what this character has done, for the Journey tab, answers and narrated chapters.
+-- Your journey: what this character has done, for the journey page, answers, the welcome back and narrated chapters.
 -- The add-on records events into SavedVariables (LoreForeverDB.journey, v2; the contract is the "Journey context model
 -- spec (LOR-108)"). The game writes them to disk on /reload and logout. The companion app, when it's installed, reads
 -- them there and writes chapters back as the LoreForever_Journey add-on (LoreForeverJourneyData), loaded on the next
@@ -25,6 +25,8 @@
 --   loot n, id, ql, qid, z, s                 your loot of rare quality or better, or a quest's reward item (qid)
 --                                             of uncommon or better; ql is the item quality
 --   prof n, r, z, s                           a profession reaching 75, 150, 225 or 300 (r)
+-- at = "mapID:x:y" (x, y in thousandths of that map) is where it happened, on every event but logout and sync, when
+-- the game says (not in a dungeon or on a flight). Journey.Spot reads it, or the map trail for events from before it.
 -- The player's name never goes into stored text ("<name>" instead), and other players' names are never stored.
 -- The combat log is off limits: registering COMBAT_LOG_EVENT_UNFILTERED shows the player a "blocked" popup.
 
@@ -33,11 +35,13 @@ local Journey = {}
 ns.Journey = Journey
 local L = ns.L
 
-local MAX_EVENTS = 4000          -- per character; the companion keeps the full history
+local MAX_EVENTS = 3600          -- per character (with spots, a level 1-60 record stays under 1 MB); the companion keeps all
+local SPOT_GAP = 120             -- seconds a map trail point can be from an event and still say where it happened
 local TRIM = 500                 -- dropped from the oldest end when the list is full
 local QUICK, SLOW = 10, 120      -- seconds a hearth or portal still explains the next move (SLOW: after a loading screen)
 local AUDIO_DIR = "Interface\\AddOns\\LoreForever_Journey\\Audio\\"
-local GOLD, GREY, WHITE = "|cffffd100", "|cff9d9d9d", "|cffffffff"
+local T = ns.Theme
+local GOLD, GREY, WHITE = T.code.gold, T.code.grey, T.code.white
 local HEARTH, ASTRAL_RECALL = 8690, 556
 local TRAM = 369                 -- the Deeprun Tram's map: a ride between two cities, not a boat
 -- Mage teleports and the druids' Teleport: Moonglade move the caster; a mage's Portal spells open one for others.
@@ -52,7 +56,7 @@ local TRAIL_EVERY, TRAIL_MOVE, TRAIL_SESSIONS, TRAIL_MAX = 15, 0.005, 5, 120
 local MILESTONES = { 75, 150, 225, 300 }
 local RARE, UNCOMMON = 3, 2      -- item quality: loot from rare up, quest rewards from uncommon up
 
-local function say(msg) DEFAULT_CHAT_FRAME:AddMessage("|cffffd100Lore Forever:|r " .. msg) end
+local function say(msg) DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. msg) end
 local function try(fn, ...)
   if type(fn) ~= "function" then return nil end
   local ok, a, b, c = pcall(fn, ...)
@@ -66,6 +70,7 @@ local function settings() return (LoreForeverDB and LoreForeverDB.settings) or {
 local function later(delay, fn) C_Timer.After(delay, function() pcall(fn) end) end
 
 local char           -- this character's record in LoreForeverDB.journey.chars
+local loginAt        -- time() of this load's login event (none while Remember my journey is off)
 local needCompleted  -- the server's completed-quest list was empty at login: tries left to fetch it again
 local resetRoute     -- forget where the player was (Recording, below)
 local startTrail     -- start the map trail's timer (The map trail, below)
@@ -94,15 +99,33 @@ local function trim(c)
 end
 
 local refreshQueued
+-- Where the player is on the map now, as "mapID:x:y" (x, y in thousandths), or nil: in a dungeon, on a flight, or
+-- when the game doesn't say (or says in a secret value).
+local function spot()
+  if try(UnitOnTaxi, "player") or try(IsInInstance) then return nil end
+  local M = _G.C_Map
+  local m = M and try(M.GetBestMapForUnit, "player")
+  if not ns.Context.Usable(m) or type(m) ~= "number" then return nil end
+  local pos = try(M.GetPlayerMapPosition, m, "player")
+  local x, y
+  if type(pos) == "table" then x, y = try(pos.GetXY, pos) end
+  if not (ns.Context.Usable(x) and ns.Context.Usable(y)) or type(x) ~= "number" or type(y) ~= "number"
+      or (x == 0 and y == 0) then
+    return nil
+  end
+  return try(string.format, "%d:%d:%d", m, math.floor(x * 1000 + 0.5), math.floor(y * 1000 + 0.5))
+end
+
 local function add(kind, fields)
   if not (char and Journey.On()) then return nil end
   local e = fields or {}
   e.k, e.t = kind, time()
   e.lv = e.lv or try(UnitLevel, "player")
+  if kind ~= "logout" and kind ~= "sync" then e.at = e.at or spot() end
   char.events[#char.events + 1] = e
   trim(char)
-  -- Keep an open Journey tab current, at most once a second.
-  if Journey.content and ns.UI.tab == "journey" and not refreshQueued then
+  -- Keep an open journey page current, at most once a second.
+  if Journey.content and Journey.IsShown() and not refreshQueued then
     refreshQueued = true
     later(1, function() refreshQueued = nil; Journey.Refresh() end)
   end
@@ -278,6 +301,7 @@ function Journey.Init()
     rememberTitles()
     local z, s = here()
     add("login", { z = z, s = s })
+    loginAt = time()
     takeStock()
   else
     char = db.journey.chars[(Journey.CharKey())]
@@ -420,7 +444,7 @@ function Journey.AskSync()
   StaticPopup_Show("LOREFOREVER_JOURNEY_SYNC")
 end
 
--- Counts for the Journey tab.
+-- Counts for the journey page.
 function Journey.Stats()
   if not char then return {} end
   local function count(t) local n = 0 for _ in pairs(t or {}) do n = n + 1 end return n end
@@ -429,9 +453,9 @@ function Journey.Stats()
     bosses = count(s.boss), level = char.level }
 end
 
--- The Journey tab ----------------------------------------------------------------------------------------------------
+-- Moments --------------------------------------------------------------------------------------------------------------
 
-local ROW_H, HEAD_H, MOMENTS, FOES = 34, 22, 20, 5
+local ROW_H, HEAD_H, MOMENTS, FOES = 34, 22, 60, 5   -- MOMENTS: on the page's timeline
 local function howText(how)
   if how == "flight" then return L["by flight"]
   elseif how == "hearth" then return L["by hearthstone"]
@@ -466,6 +490,30 @@ local function loreKey(e)
   end
 end
 
+-- Where a moment happened: map ID, x and y (0 to 1), and how it's known: "at" (saved with it) or "trail" (the map
+-- trail's nearest point within SPOT_GAP, for moments from before spots were saved). nil when neither says, and for
+-- dungeon moments, whose trail points are outside.
+function Journey.Spot(e, c)
+  c = c or char
+  if type(e) ~= "table" then return nil end
+  if type(e.at) == "string" then
+    local m, x, y = e.at:match("^(%d+):(%d+):(%d+)$")
+    if m then return tonumber(m), tonumber(x) / 1000, tonumber(y) / 1000, "at" end
+  end
+  local t = tonumber(e.t)
+  if not t or e.inst or e.k == "boss" or type(c) ~= "table" or type(c.trail) ~= "table" then return nil end
+  local best, gap
+  for _, pts in pairs(c.trail) do
+    if type(pts) == "table" then
+      for _, p in ipairs(pts) do
+        local d = type(p) == "table" and math.abs((tonumber(p.t) or 0) - t)
+        if d and d <= SPOT_GAP and (not gap or d < gap) and tonumber(p.m) then best, gap = p, d end
+      end
+    end
+  end
+  if best then return tonumber(best.m), tonumber(best.x), tonumber(best.y), "trail" end
+end
+
 -- One line about a moment: title and the grey line under it, or nil for events that aren't moments.
 local function describe(e)
   local where = e.s or e.z
@@ -479,6 +527,7 @@ local function describe(e)
   end
   local with = type(e.pt) == "table" and #e.pt > 0 and string.format(L["with %s"], table.concat(e.pt, ", ")) or nil
   if e.k == "qt" then return e.q or string.format(L["Quest %d"], e.id or 0), sub(L["Quest done"], with or where)
+  elseif e.k == "qa" then return e.q or string.format(L["Quest %d"], e.id or 0), sub(L["Quest accepted"], where)
   elseif e.k == "qx" then return e.q or string.format(L["Quest %d"], e.id or 0), sub(L["Quest abandoned"], where)
   elseif e.k == "zone" then
     -- In a dungeon, an event that isn't a new place is an entry; a new room inside isn't.
@@ -506,129 +555,431 @@ local function describe(e)
   end
 end
 
--- What the tab lists, top to bottom: { head = "..." } or { title, sub, chapter = id, key = lore key }.
-function Journey.Items()
+-- The journey page ---------------------------------------------------------------------------------------------------
+-- A page over the chat, where History opens, from the Journey button and /lore journey: a timeline of your moments by
+-- play session (newest first) with filters for quests, fights and milestones, and beside it the journey map
+-- (JourneyMap.lua): where the moment under the mouse happened, and your road there. Anything with lore opens in the
+-- chat and closes the page. When the page is narrow, the map steps aside and the list takes the width.
+
+local SESSION_GAP = 1800            -- seconds without an event before a login starts a new play session (not a /reload)
+local SESSIONS = 10                 -- play sessions on the All timeline
+local FILTER_MOMENTS = 200          -- moments on a filtered timeline (All shows MOMENTS)
+local EARLIER = 200                 -- earlier quests listed by name
+local MAP_FROM = 470                -- the narrowest page that has the map beside the list
+local LIST_TOP, LIST_BOTTOM = 94, 52
+
+-- Each event kind's filter, and each filter's colour (its chip's dot, the row's dot and the map's).
+local FILTER_OF = { qa = "quest", qt = "quest", qx = "quest", boss = "fight", kill = "fight", death = "fight",
+  lvl = "mile", zone = "mile", mount = "mile", rep = "mile", prof = "mile", loot = "mile" }
+local COLOR = { quest = { 1, 0.82, 0 }, fight = { 0.92, 0.42, 0.32 }, mile = { 0.62, 0.83, 1 },
+  other = { 0.8, 0.8, 0.8 } }
+local FILTERS = { "all", "quest", "fight", "mile", "chapters" }
+local function filterLabel(f)
+  return (f == "quest" and L["Quests"]) or (f == "fight" and L["Fights"]) or (f == "mile" and L["Milestones"])
+    or (f == "chapters" and L["Chapters"]) or L["All"]
+end
+
+-- Play sessions, oldest first: { from = t, to = t, first = i, last = i } over c.events.
+local function sessions(c)
+  local out, prev = {}, nil
+  for i, e in ipairs(c and c.events or {}) do
+    local t = tonumber(e.t) or 0
+    local cur = out[#out]
+    if not cur or (e.k == "login" and t - prev > SESSION_GAP) then
+      cur = { from = t, first = i }
+      out[#out + 1] = cur
+    end
+    cur.to, cur.last, prev = t, i, t
+  end
+  return out
+end
+function Journey.Sessions() return sessions(char) end
+
+local function dayText(t)
+  local d = date("%Y-%m-%d", t)
+  if d == date("%Y-%m-%d", time()) then return L["Today"] end
+  if d == date("%Y-%m-%d", time() - 86400) then return L["Yesterday"] end
+  return date("%b %d", t)
+end
+
+local function levelsText(lv1, lv2)
+  if not lv1 then return nil end
+  return lv1 == lv2 and string.format(L["level %d"], lv1) or string.format(L["levels %d-%d"], lv1, lv2)
+end
+
+-- Where a session went (its zones in order: the first two and the last) and its level range.
+local function sessionFacts(c, s)
+  local zones, seen, lv1, lv2 = {}, {}, nil, nil
+  for i = s.first, s.last do
+    local e = c.events[i]
+    local lv = tonumber(e.lv)
+    if lv then lv1, lv2 = math.min(lv1 or lv, lv), math.max(lv2 or lv, lv) end
+    if (e.k == "login" or e.k == "zone") and type(e.z) == "string" and e.z ~= "" and not seen[e.z] then
+      seen[e.z] = true
+      zones[#zones + 1] = e.z
+    end
+  end
+  if #zones > 3 then zones = { zones[1], zones[2], zones[#zones] } end
+  return table.concat(zones, ", "), levelsText(lv1, lv2)
+end
+
+local function joined(...)
+  local parts = {}
+  for i = 1, select("#", ...) do
+    local v = select(i, ...)
+    if v and v ~= "" then parts[#parts + 1] = v end
+  end
+  return table.concat(parts, "  ·  ")
+end
+
+-- The filter the page shows (remembered in settings): all, quest, fight, mile or chapters.
+function Journey.Filter()
+  local f = settings().journeyFilter
+  for _, k in ipairs(FILTERS) do if k == f then return f end end
+  return "all"
+end
+
+-- What the page lists for a filter, top to bottom: { head = "..." } or { title, sub, chapter = id, key = lore key,
+-- ev = the event, kind = its filter }. Moments come by play session, newest first. Fights starts with the bosses
+-- you've defeated and the foes you fought most; Quests ends with the quests finished before the record (by name where
+-- the add-on has the quest); Chapters lists the story so far and the chapters, newest first.
+-- With `match` (the page's search: match(title, sub, zone) -> true to keep), only matching rows are listed, headings
+-- only over rows that are, and All looks back through every session (up to FILTER_MOMENTS matches), not just the last
+-- few.
+function Journey.List(filter, match)
+  filter = filter or "all"
   local items = {}
-  local mine = Journey.Data()
-  local chs = Journey.Chapters()
-  local story = mine and type(mine.story) == "table" and mine.story
-  if story or #chs > 0 then
-    items[#items + 1] = { head = L["Chapters"] }
-    if story then items[#items + 1] = { chapter = "story", title = story.title or L["Your story so far"],
-      sub = L["Your story so far"] } end
+  local function keep(title, sub, zone) return not match or match(title, sub, zone) end
+  if filter == "chapters" then
+    local mine = Journey.Data()
+    local story = mine and type(mine.story) == "table" and mine.story
+    if story and keep(story.title or L["Your story so far"], L["Your story so far"]) then
+      items[#items + 1] = { chapter = "story", title = story.title or L["Your story so far"],
+        sub = L["Your story so far"] }
+    end
+    local chs = Journey.Chapters()
     for i = #chs, 1, -1 do
       local ch = chs[i]
-      items[#items + 1] = { chapter = ch.id, title = ch.title or L["Your journey"], sub = dateRange(ch) }
+      if keep(ch.title or L["Your journey"], dateRange(ch)) then
+        items[#items + 1] = { chapter = ch.id, title = ch.title or L["Your journey"], sub = dateRange(ch) }
+      end
     end
+    return items
   end
   if not char then return items end
-  local moments = {}
-  for i = #char.events, 1, -1 do
-    local e = char.events[i]
-    local title, sub = describe(e)
-    if title then moments[#moments + 1] = { title = title, sub = sub, key = loreKey(e) } end
-    if #moments >= MOMENTS then break end
-  end
-  if #moments > 0 then
-    items[#items + 1] = { head = L["Recent moments"] }
-    for _, m in ipairs(moments) do items[#items + 1] = m end
-  end
-  local bosses = {}
-  for name, t in pairs(char.seen.boss or {}) do bosses[#bosses + 1] = { name = name, t = t } end
-  table.sort(bosses, function(a, b) return a.t > b.t end)
-  if #bosses > 0 then
-    items[#items + 1] = { head = L["Bosses defeated"] }
-    for _, b in ipairs(bosses) do
-      items[#items + 1] = { title = b.name, sub = date("%b %d", b.t), key = loreKey({ k = "boss", n = b.name }) }
+  if filter == "fight" then
+    local bosses = {}
+    for name, t in pairs(char.seen.boss or {}) do
+      if keep(name) then bosses[#bosses + 1] = { name = name, t = t } end
+    end
+    table.sort(bosses, function(a, b) return a.t > b.t end)
+    if #bosses > 0 then
+      items[#items + 1] = { head = L["Bosses defeated"] }
+      for _, b in ipairs(bosses) do
+        items[#items + 1] = { title = b.name, sub = date("%b %d", b.t), key = loreKey({ k = "boss", n = b.name }) }
+      end
+    end
+    local foes = {}
+    for name, n in pairs(char.kills or {}) do
+      if keep(name) then foes[#foes + 1] = { name = name, n = n } end
+    end
+    table.sort(foes, function(a, b) if a.n ~= b.n then return a.n > b.n end return a.name < b.name end)
+    if #foes > 0 then
+      items[#items + 1] = { head = L["Most fought"] }
+      for i = 1, math.min(FOES, #foes) do
+        local f = foes[i]
+        items[#items + 1] = { title = f.name, sub = string.format(L["%d defeated"], f.n),
+          key = loreKey({ k = "kill", n = f.name }) }
+      end
     end
   end
-  local foes = {}
-  for name, n in pairs(char.kills or {}) do foes[#foes + 1] = { name = name, n = n } end
-  table.sort(foes, function(a, b) if a.n ~= b.n then return a.n > b.n end return a.name < b.name end)
-  if #foes > 0 then
-    items[#items + 1] = { head = L["Most fought"] }
-    for i = 1, math.min(FOES, #foes) do
-      local f = foes[i]
-      items[#items + 1] = { title = f.name, sub = string.format(L["%d defeated"], f.n),
-        key = loreKey({ k = "kill", n = f.name }) }
+  local cap = (filter == "all" and not match) and MOMENTS or FILTER_MOMENTS
+  local list, n, shown = sessions(char), 0, 0
+  for si = #list, 1, -1 do
+    if (filter == "all" and not match and shown >= SESSIONS) or n >= cap then break end
+    local s = list[si]
+    local moments = {}
+    for i = s.last, s.first, -1 do
+      local e = char.events[i]
+      local kind = FILTER_OF[e.k] or "other"
+      -- All leaves out quests accepted (the Quests filter has them): there'd be two rows for every quest.
+      if (filter == "all" and e.k ~= "qa") or kind == filter then
+        local title, sub = describe(e)
+        if title and keep(title, sub, e.z) then
+          moments[#moments + 1] = { title = title, sub = sub, key = loreKey(e), ev = e, kind = kind }
+        end
+      end
+      if n + #moments >= cap then break end
+    end
+    if #moments > 0 then
+      local route, levels = sessionFacts(char, s)
+      items[#items + 1] = { head = joined(dayText(s.from), route, levels) }
+      for _, m in ipairs(moments) do items[#items + 1] = m end
+      n, shown = n + #moments, shown + 1
+    end
+  end
+  if filter == "quest" then
+    local inRecord = {}
+    for _, e in ipairs(char.events) do
+      if e.k == "qt" and e.id then inRecord[e.id] = true end
+    end
+    local named, more = {}, 0
+    local done = type(char.completed) == "table" and char.completed or {}
+    for i = #done, 1, -1 do
+      local id = done[i]
+      if not inRecord[id] then
+        local key = ns.DB and ns.DB.index and ns.DB.index.quest[id]
+        local entry = key and ns.DB.entries[key]
+        if match and not (entry and entry.n and (keep(entry.n) or (entry.en and keep(entry.en)))) then
+          -- searching: unnamed and non-matching quests are left out, not counted
+        elseif entry and entry.n and #named < EARLIER then
+          named[#named + 1] = { title = entry.n, sub = L["Quest done"], key = key }
+        else
+          more = more + 1
+        end
+      end
+    end
+    if #named + more > 0 then
+      items[#items + 1] = { head = string.format(L["Earlier quests (%d)"], #named + more) }
+      for _, q in ipairs(named) do items[#items + 1] = q end
+      if more > 0 then items[#items + 1] = { head = string.format(L["and %d more"], more), quiet = true } end
     end
   end
   return items
 end
 
+-- Everything on the All timeline.
+function Journey.Items() return Journey.List("all") end
+
+-- The page's width and height: its own once it's laid out, else the panel's less the sidebar.
+local function pageSize()
+  local p = Journey.page
+  local w, h = p and tonumber(p:GetWidth()), p and tonumber(p:GetHeight())
+  local fw = ns.UI.frame and tonumber(ns.UI.frame:GetWidth())
+  local fh = ns.UI.frame and tonumber(ns.UI.frame:GetHeight())
+  w = (w and w > 0) and w or (((fw and fw > 0) and fw or 820) - ns.UI.CHAT_X - 8)
+  h = (h and h > 0) and h or (((fh and fh > 0) and fh or 560) - 108)
+  return w, h
+end
+
+-- The page, over the chat where History opens (UI.Create makes it with the panel).
+function Journey.CreatePage(f)
+  local p = CreateFrame("Frame", "LoreForeverJourneyPage", f)
+  p:SetPoint("TOPLEFT", ns.UI.CHAT_X - 4, -60)
+  p:SetPoint("BOTTOMRIGHT", -12, 8)   -- down over the suggestions and message box, so none of the chat shows
+  p:SetFrameLevel((f:GetFrameLevel() or 1) + 20)
+  p:EnableMouse(true)
+  local bg = p:CreateTexture(nil, "BACKGROUND")
+  bg:SetAllPoints()
+  ns.Theme.Fill(bg, "overlay")
+  ns.Theme.CoverChat(p)
+  p:Hide()
+  Journey.page = p
+  Journey.CreateView(p)
+  p:SetScript("OnSizeChanged", function(self) if self:IsShown() then Journey.Refresh() end end)
+  return p
+end
+
 function Journey.CreateView(view)
   local UI = ns.UI
-  local W = UI.SIDE_W
   local head = UI.Header(view, L["Your journey"])
-  head:SetPoint("TOPLEFT", 16, -96)
+  head:SetPoint("TOPLEFT", 10, -8)
+  local close = ns.Theme.Button(view)
+  close:SetSize(70, 22)
+  close:SetPoint("TOPRIGHT", -8, -6)
+  close:SetText(L["Back"])
+  close:SetScript("OnClick", function() Journey.Hide() end)
+  Journey.closeButton = close
+  -- Search what the chosen filter lists (places, people, quests, foes and their zones), in the header row.
+  local search = UI.SearchBox(view, 170, function()
+    if Journey.scroll and Journey.scroll.SetVerticalScroll then Journey.scroll:SetVerticalScroll(0) end
+    Journey.Refresh()
+  end)
+  search:SetHeight(20)
+  search:SetPoint("RIGHT", close, "LEFT", -8, 0)
+  Journey.search = search
+
+  local who = ns.Theme.Muted(view:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall"))
+  who:SetPoint("TOPLEFT", head, "BOTTOMLEFT", 0, -4)
+  who:SetPoint("RIGHT", view, "RIGHT", -10, 0)
+  who:SetJustifyH("LEFT")
+  Journey.whoLine = who
   local stats = view:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
-  stats:SetPoint("TOPLEFT", head, "BOTTOMLEFT", 0, -9)
-  stats:SetWidth(W - 28)
+  stats:SetPoint("TOPLEFT", who, "BOTTOMLEFT", 0, -6)
+  stats:SetPoint("RIGHT", view, "RIGHT", -10, 0)
   stats:SetJustifyH("LEFT")
   Journey.statsLine = stats
 
-  local note = view:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
-  note:SetPoint("BOTTOMLEFT", 16, 16)
-  note:SetWidth(W - 32)
-  note:SetJustifyH("LEFT")
-  Journey.note = note
+  -- The filters: chips, each with its colour's dot (All and Chapters have none).
+  Journey.chips = {}
+  local x = 10
+  for _, key in ipairs(FILTERS) do
+    local b = UI.TextButton(view, 40, 22, ns.Theme.font.label, ns.Theme.color.tab)
+    b.text:SetJustifyH("CENTER")
+    b.text:SetText(filterLabel(key))
+    local w = math.max(40, math.floor((tonumber(b.text:GetStringWidth()) or 40) + 18))
+    if COLOR[key] then
+      local dot = b:CreateTexture(nil, "OVERLAY")
+      dot:SetTexture("Interface\\Buttons\\WHITE8X8")
+      dot:SetVertexColor(COLOR[key][1], COLOR[key][2], COLOR[key][3], 1)
+      dot:SetSize(6, 6)
+      dot:SetPoint("LEFT", 8, 0)
+      b.text:ClearAllPoints()
+      b.text:SetPoint("TOPLEFT", 16, -2)
+      b.text:SetPoint("BOTTOMRIGHT", -6, 2)
+      w = w + 10
+    end
+    b:SetWidth(w)
+    b:SetPoint("TOPLEFT", x, -66)
+    x = x + w + 4
+    b.filter = key
+    b:SetScript("OnClick", function(self) Journey.SetFilter(self.filter) end)
+    Journey.chips[#Journey.chips + 1] = b
+  end
 
-  local sync = CreateFrame("Button", "LoreForeverJourneySync", view, "UIPanelButtonTemplate")
-  sync:SetSize(W - 32, 24)
-  sync:SetPoint("BOTTOMLEFT", 16, 36)
+  -- The footer: when it was saved, then Copy my journey record (JourneyRecord.lua) and Update my journey.
+  local sync = ns.Theme.SkinButton(CreateFrame("Button", "LoreForeverJourneySync", view, "UIPanelButtonTemplate"))
+  sync:SetSize(150, 22)
+  sync:SetPoint("BOTTOMRIGHT", -8, 8)
   sync:SetText(L["Update my journey"])
   sync:SetScript("OnClick", function() Journey.AskSync() end)
   sync:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     GameTooltip:AddLine(L["Update my journey"])
-    GameTooltip:AddLine(L["Saves your journey now. The game only saves add-on data when you log out or reload."], 1, 1, 1, true)
+    T.Tip(L["Saves your journey now. The game only saves add-on data when you log out or reload."], "tipText", true)
     GameTooltip:Show()
   end)
   sync:SetScript("OnLeave", function() GameTooltip:Hide() end)
   Journey.syncButton = sync
+  if ns.JourneyRecord then
+    local copy = ns.JourneyRecord.Attach(view, sync, 170)
+    copy:SetHeight(22)
+    copy:ClearAllPoints()
+    copy:SetPoint("RIGHT", sync, "LEFT", -6, 0)
+  end
+  local note = ns.Theme.Muted(view:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall"))
+  note:SetPoint("BOTTOMLEFT", 10, 36)
+  note:SetPoint("RIGHT", view, "RIGHT", -10, 0)
+  note:SetJustifyH("LEFT")
+  Journey.note = note
 
   local sf = CreateFrame("ScrollFrame", "LoreForeverJourneyScroll", view, "UIPanelScrollFrameTemplate")
-  sf:SetPoint("TOPLEFT", 10, -146)
-  sf:SetPoint("BOTTOMRIGHT", view, "BOTTOMLEFT", W - 26, 66)
+  sf:SetPoint("TOPLEFT", 6, -LIST_TOP)
+  sf:SetPoint("BOTTOMRIGHT", -28, LIST_BOTTOM)
   local content = CreateFrame("Frame", nil, sf)
-  content:SetSize(W - 40, 100)
+  content:SetSize(pageSize() - 36, 100)
   sf:SetScrollChild(content)
   Journey.scroll, Journey.content, Journey.rows = sf, content, {}
 
-  local empty = view:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
-  empty:SetPoint("TOPLEFT", 16, -152)
-  empty:SetWidth(W - 32)
+  -- The journey map, right of the list (JourneyMap.lua). Whole journey switches it between zone and continent.
+  if ns.JourneyMap then
+    Journey.map = ns.JourneyMap.Create(view, function()
+      Journey.mapWhole = not Journey.mapWhole
+      Journey.FocusMap(Journey.focus, true)
+    end)
+    Journey.map:SetPoint("TOPRIGHT", -10, -LIST_TOP)
+  end
+
+  local empty = ns.Theme.Muted(view:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall"))
+  empty:SetPoint("TOPLEFT", 10, -(LIST_TOP + 6))
+  empty:SetPoint("RIGHT", view, "RIGHT", -10, 0)
   empty:SetJustifyH("LEFT")
   Journey.empty = empty
+end
 
-  -- "Copy my journey record" (JourneyRecord.lua) sits just above Update my journey; the list ends above both.
-  if ns.JourneyRecord then
-    ns.JourneyRecord.Attach(view, sync, W - 32)
-    sf:SetPoint("BOTTOMRIGHT", view, "BOTTOMLEFT", W - 26, 94)
-  end
+function Journey.Show()
+  local UI = ns.UI
+  if not (Journey.page and UI.frame) then return end
+  if not UI.frame:IsShown() then UI.frame:Show() end
+  if UI.historyFrame then UI.historyFrame:Hide() end
+  Journey.page:Show()
+  Journey.Refresh()
+end
+
+function Journey.Hide()
+  if Journey.page then Journey.page:Hide() end
+end
+
+function Journey.IsShown()
+  return Journey.page and Journey.page:IsShown() and true or false
+end
+
+function Journey.Toggle()
+  if Journey.IsShown() then return Journey.Hide() end
+  Journey.Show()
+end
+
+function Journey.SetFilter(f)
+  if LoreForeverDB and LoreForeverDB.settings then LoreForeverDB.settings.journeyFilter = f end
+  if Journey.scroll and Journey.scroll.SetVerticalScroll then Journey.scroll:SetVerticalScroll(0) end
+  Journey.Refresh()
+end
+
+-- Show moment m (one of Journey.mapMoments) on the map: its zone, or its continent with Whole journey.
+function Journey.FocusMap(m, animate)
+  if not (m and Journey.map and Journey.map:IsShown()) then return end
+  Journey.focus = m
+  ns.JourneyMap.Focus(Journey.map, Journey.mapMoments or {}, m, Journey.mapWhole, animate)
 end
 
 local function row(i)
   local r = Journey.rows[i]
   if r then return r end
   local UI = ns.UI
-  r = UI.TextButton(Journey.content, UI.SIDE_W - 44, ROW_H - 2, "GameFontHighlight", { 0.2, 0.16, 0.08, 0.45 })
-  r.text:ClearAllPoints()
-  r.text:SetPoint("TOPLEFT", 6, -3)
-  r.text:SetPoint("RIGHT", -6, 0)
+  r = UI.TextButton(Journey.content, 200, ROW_H - 2, "GameFontHighlight", ns.Theme.color.row)
   r.text:SetJustifyH("LEFT")
   if r.text.SetWordWrap then r.text:SetWordWrap(false) end
-  r.sub = r:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
-  r.sub:SetPoint("BOTTOMLEFT", 6, 3)
-  r.sub:SetPoint("RIGHT", -6, 0)
+  r.sub = ns.Theme.Muted(r:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall"))
   r.sub:SetJustifyH("LEFT")
   if r.sub.SetWordWrap then r.sub:SetWordWrap(false) end
+  r.dot = r:CreateTexture(nil, "OVERLAY")
+  r.dot:SetTexture("Interface\\Buttons\\WHITE8X8")
+  r.dot:SetSize(6, 6)
+  r.dot:SetPoint("TOPLEFT", 6, -8)
   r:SetScript("OnClick", function(self)
-    if self.chapter then Journey.Open(self.chapter)
-    elseif self.key then ns.UI.Open(self.key, nil, "journey") end
+    if not (self.chapter or self.key) then return end
+    Journey.Hide()
+    if self.chapter then Journey.Open(self.chapter) else ns.UI.Open(self.key, nil, "journey") end
+  end)
+  -- Hovering a moment shows it on the map.
+  r:SetScript("OnEnter", function(self)
+    if self.moment and self.moment ~= Journey.focus then Journey.FocusMap(self.moment, true) end
   end)
   Journey.rows[i] = r
   return r
+end
+
+-- Lay a row out as a heading (gold, or grey when quiet) or a moment (a dot in its filter's colour when it has one).
+local function fill(r, it, width)
+  local indent = it.kind and 16 or 6
+  r:SetWidth(width)
+  r.text:ClearAllPoints()
+  r.sub:ClearAllPoints()
+  r.text:SetPoint("TOPLEFT", indent, it.head and -2 or -3)
+  r.text:SetPoint("RIGHT", -6, 0)
+  r.sub:SetPoint("BOTTOMLEFT", indent, 3)
+  r.sub:SetPoint("RIGHT", -6, 0)
+  if it.head then
+    r:SetHeight(HEAD_H - 2)
+    r.text:SetText((it.quiet and ns.Theme.code.grey or GOLD) .. esc(it.head) .. "|r")
+    r.sub:SetText("")
+    if r.bg then r.bg:Hide() end
+    r.dot:Hide()
+    r:EnableMouse(false)
+    return HEAD_H
+  end
+  r:SetHeight(ROW_H - 2)
+  r.text:SetText(esc(it.title))
+  local sub = {}
+  if it.sub and it.sub ~= "" then sub[#sub + 1] = it.sub end
+  if it.chapter and ns.Voice.HasAudio("journey:" .. it.chapter) then sub[#sub + 1] = L["narrated"] end
+  r.sub:SetText(esc(table.concat(sub, "  ·  ")))
+  if r.bg then r.bg:Show() end
+  local c = it.kind and COLOR[it.kind]
+  if c then r.dot:SetVertexColor(c[1], c[2], c[3], 1) end
+  r.dot:SetShown(c and true or false)
+  r:EnableMouse((it.chapter or it.key or it.moment) and true or false)
+  return ROW_H
 end
 
 function Journey.Refresh()
@@ -639,37 +990,79 @@ function Journey.Refresh()
     n(s.people, L["%d person met"], L["%d people met"]), n(s.foes, L["%d foe"], L["%d foes"]) }
   if (s.bosses or 0) > 0 then parts[#parts + 1] = n(s.bosses, L["%d boss"], L["%d bosses"]) end
   Journey.statsLine:SetText(char and table.concat(parts, "  ·  ") or "")
-  local items = Journey.Items()
-  local y = 0
+  local who = char and string.format(L["Level %d %s %s"], tonumber(char.level) or 0, char.raceName or "",
+    char.className or "")
+  Journey.whoLine:SetText(who and esc(joined(who, char.first and string.format(L["since %s"], date("%b %d", char.first))))
+    or "")
+
+  -- The filter chips; Chapters only when there are chapters.
+  local hasChapters = #Journey.Chapters() > 0 or (Journey.Data() and type(Journey.Data().story) == "table")
+  local filter = Journey.Filter()
+  if filter == "chapters" and not hasChapters then filter = "all" end
+  for _, b in ipairs(Journey.chips) do
+    b:SetShown(b.filter ~= "chapters" or hasChapters)
+    ns.Theme.SetTabSelected(b, b.filter == filter)
+  end
+
+  -- The map takes the right side when the page is wide enough (its height follows the art's shape).
+  local pw, ph = pageSize()
+  local mapW = 0
+  if Journey.map and char and filter ~= "chapters" and pw >= MAP_FROM then
+    mapW = math.min(420, math.max(200, math.floor(pw * 0.5)))
+    local room = ph - LIST_TOP - LIST_BOTTOM
+    if mapW * 668 / 1002 > room then mapW = math.floor(room * 1002 / 668) end
+  end
+  local w = pw - 36 - (mapW > 0 and mapW + 10 or 0)
+  Journey.scroll:SetPoint("BOTTOMRIGHT", -28 - (mapW > 0 and mapW + 10 or 0), LIST_BOTTOM)
+  Journey.content:SetWidth(w)
+
+  local search = Journey.search
+  local searching = search and search:Active()
+  local items = Journey.List(filter, searching and function(title, sub, zone)
+    return ns.UI.SearchMatch(search.words, title, sub, zone)
+  end or nil)
+  local moments, y = {}, 0
   for i, it in ipairs(items) do
     local r = row(i)
-    r.chapter, r.key = it.chapter, it.key
+    if it.ev then
+      it.moment = { kind = it.kind, color = COLOR[it.kind] or COLOR.other, title = it.title, zoneName = it.ev.z,
+        ev = it.ev }
+      local m, sx, sy = Journey.Spot(it.ev)
+      it.moment.spot = m and ns.JourneyMap and ns.JourneyMap.Place(m, sx, sy) or nil
+      table.insert(moments, 1, it.moment)   -- the list is newest first; the map wants time order
+    end
+    r.chapter, r.key, r.moment = it.chapter, it.key, it.moment
     r:ClearAllPoints()
     r:SetPoint("TOPLEFT", 0, -y)
-    if it.head then
-      r:SetHeight(HEAD_H - 2)
-      r.text:SetText(GOLD .. esc(it.head) .. "|r")
-      r.sub:SetText("")
-      if r.bg then r.bg:Hide() end
-      r:EnableMouse(false)
-      y = y + HEAD_H
-    else
-      r:SetHeight(ROW_H - 2)
-      r.text:SetText(esc(it.title))
-      local sub = {}
-      if it.sub and it.sub ~= "" then sub[#sub + 1] = it.sub end
-      if it.chapter and ns.Voice.HasAudio("journey:" .. it.chapter) then sub[#sub + 1] = L["narrated"] end
-      r.sub:SetText(esc(table.concat(sub, "  ·  ")))
-      if r.bg then r.bg:Show() end
-      r:EnableMouse((it.chapter or it.key) and true or false)
-      y = y + ROW_H
-    end
+    y = y + fill(r, it, w)
     r:Show()
   end
-  for i = #items + 1, #Journey.rows do Journey.rows[i]:Hide() end
+  for j = #items + 1, #Journey.rows do Journey.rows[j]:Hide() end
   Journey.content:SetHeight(math.max(y, 10))
+
+  -- The map stays on the moment it showed (the page refreshes as you play), else starts on the newest moment that has
+  -- a spot (else the newest), without drawing the road.
+  local was = Journey.focus and Journey.focus.ev
+  Journey.mapMoments, Journey.focus = moments, nil
+  if Journey.map then
+    Journey.map:SetShown(mapW > 0 and #moments > 0)
+    if mapW > 0 and #moments > 0 then
+      ns.JourneyMap.SetWidth(Journey.map, mapW)
+      local start
+      for i = #moments, 1, -1 do
+        if was and moments[i].ev == was then start = moments[i] break end
+      end
+      for i = #moments, 1, -1 do
+        if start then break end
+        if moments[i].spot then start = moments[i] end
+      end
+      start = start or moments[#moments]
+      Journey.FocusMap(start, false)
+    end
+  end
+
   local on = Journey.On()
-  Journey.empty:SetText(on and L["Your journey starts here. Lore Forever keeps track of the places you discover, the people you meet, the foes you defeat and the quests you finish, and lists them here."]
+  Journey.empty:SetText(searching and ns.UI.NoMatchText(search) or on and L["Your journey starts here. Lore Forever keeps track of the places you discover, the people you meet, the foes you defeat and the quests you finish, and lists them here."]
     or L["Remember my journey is off. Turn it on in /lore options to keep track of the places you discover, the people you meet and the quests you finish."])
   Journey.empty:SetShown(#items == 0)
   Journey.scroll:SetShown(#items > 0)
@@ -680,6 +1073,62 @@ function Journey.Refresh()
     or (written and string.format(L["Last chapter written %s."], date("%b %d %H:%M", written)))
     or (last and string.format(L["Saved %s."], date("%b %d %H:%M", last)))
     or L["Saved when you log out, or now with Update my journey."])
+end
+
+-- Welcome back ------------------------------------------------------------------------------------------------------
+
+-- Up to two names, then how many more: "Gryan Stoutmantle, Salma Saldean, 3 more".
+local function names(list)
+  local out = {}
+  for i = 1, math.min(2, #list) do out[i] = esc(list[i]) end
+  if #list > 2 then out[#out + 1] = string.format(L["%d more"], #list - 2) end
+  return table.concat(out, ", ")
+end
+
+-- Your last play session in a few words, for the first chat after you log in: UI.ShowWelcome shows it in place of the
+-- welcome card, once per session. { text, target } (target: a chapter you haven't read, which Listen plays), or nil:
+-- Remember my journey off, nothing before this session, nothing happened in it, or already shown this session.
+function Journey.Recap()
+  if not (char and Journey.On() and loginAt) then return nil end
+  local list = sessions(char)
+  local now = list[#list]
+  if not now or now.from < loginAt - 60 or char.recapped == now.from then return nil end
+  -- Last time: the latest session before this one that has a moment in it (a quick login to check mail has none).
+  local last
+  for si = #list - 1, math.max(1, #list - SESSIONS), -1 do
+    for i = list[si].first, list[si].last do
+      if describe(char.events[i]) then last = list[si] break end
+    end
+    if last then break end
+  end
+  if not last then return nil end
+  local quests, people, foes, seen = 0, {}, {}, {}
+  for i = last.first, last.last do
+    local e = char.events[i]
+    if e.k == "qt" then
+      quests = quests + 1
+    elseif e.k == "npc" and e.n then
+      people[#people + 1] = e.n
+    elseif (e.k == "boss" or (e.k == "kill" and e.cls)) and e.n and not seen[e.n] then
+      seen[e.n] = true
+      foes[#foes + 1] = e.n
+    end
+  end
+  char.recapped = now.from
+  local route, levels = sessionFacts(char, last)
+  local summary = joined(esc(route), quests > 0 and string.format(quests == 1 and L["%d quest done"]
+    or L["%d quests done"], quests), #people > 0 and string.format(L["met %s"], names(people)),
+    #foes > 0 and string.format(L["defeated %s"], names(foes)))
+  local text = GOLD .. L["Welcome back"] .. "|r\n" .. GREY .. joined(string.format(L["Last time: %s"],
+    dayText(last.from)), levels) .. "|r\n" .. WHITE .. summary .. "|r"
+  local chs = Journey.Chapters()
+  local newest = chs[#chs]
+  local target
+  if newest and char.lastRead ~= newest.id then
+    text = text .. "\n\n" .. string.format(L["New chapter: %s"], GOLD .. esc(newest.title or L["Your journey"]) .. "|r")
+    target = Journey.Target(newest.id)
+  end
+  return { text = text .. "\n" .. GREY .. L["Your whole journey: /lore journey"] .. "|r", target = target }
 end
 
 -- Recording -----------------------------------------------------------------------------------------------------------
@@ -807,6 +1256,17 @@ local function onBookPage()
   books[book.key][page] = text
 end
 
+-- A boss you just beat: a chat link to its story, once a session (Options > Dungeon primer prompt). Groups ask "what's
+-- his connection to VanCleef?" right after the kill, not before the pull.
+local toldBoss = {}
+local function sayBoss(name, key)
+  if not key or toldBoss[key] or settings().dungeonPrimer == false then return end
+  toldBoss[key] = true
+  local e = ns.DB.entries[key]
+  local listen = ns.Voice.HasAudio(key) and (" " .. ns.Hooks.Link(L["Listen"], "listen", key)) or ""
+  say(string.format(L["%s defeated. %s"], (e and e.n) or name, ns.Hooks.Link(L["Their story"], "entry", key)) .. listen)
+end
+
 -- Bosses: a kill named in a dungeon's boss list (zones[*].b), or ENCOUNTER_END. The same boss reported both ways
 -- within a couple of minutes is one kill.
 local recentBoss = {}
@@ -814,6 +1274,7 @@ local function bossKill(name, key)
   local lower, now = ns.Engine.lower(name), time()
   local function recent(id) return id and recentBoss[id] and now - recentBoss[id] < 120 end
   if recent(lower) or recent(key) then return end
+  sayBoss(name, key)
   recentBoss[lower] = now
   if key then recentBoss[key] = now end
   if not char.seen.boss[name] then char.seen.boss[name] = now end
@@ -1259,7 +1720,11 @@ local handlers = {
   end,
 }
 -- Game text for lore sources is kept whether or not the journey is (like quest text in Log.lua).
-local ALWAYS = { GOSSIP_SHOW = onGossip, ITEM_TEXT_BEGIN = true, ITEM_TEXT_READY = true }
+local ALWAYS = { GOSSIP_SHOW = onGossip, ITEM_TEXT_BEGIN = true, ITEM_TEXT_READY = true,
+  -- With the journey off, a boss kill still links its story (nothing is recorded).
+  ENCOUNTER_END = function(_, name, _, _, success)
+    if (success == 1 or success == true) and usable(name) then sayBoss(name, bossKey(name)) end
+  end }
 
 local frame = CreateFrame("Frame")
 for event in pairs(handlers) do

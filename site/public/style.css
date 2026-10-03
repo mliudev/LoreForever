@@ -202,6 +202,8 @@ body:not(.js) .tabs { display: none; }
 
 table { border-collapse: collapse; width: 100%; }
 td { border-top: 1px solid var(--line); padding: 8px 10px 8px 0; vertical-align: top; }
+/* Command names stay whole on phones ("/lore library", not "/lore librar|y"); the description column wraps instead. */
+td:first-child code { white-space: nowrap; word-break: normal; }
 
 /* Sidebar boxes styled like in-game tooltips */
 .box {
@@ -238,8 +240,8 @@ dd { margin: 0; }
 .audio-sample summary { cursor: pointer; color: var(--link); }
 .audio-sample details p { color: var(--text); margin: 8px 0 0; line-height: 1.6; }
 
-.feature-ask { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 28px; align-items: start; }
-@media (max-width: 860px) { .feature-ask { grid-template-columns: minmax(0, 1fr); } }
+.feature-ask, .whats-new { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 28px; align-items: start; }
+@media (max-width: 860px) { .feature-ask, .whats-new { grid-template-columns: minmax(0, 1fr); } }
 .feature-ask .sample { margin: 18px 0 0; }
 .feature-shot { margin: 8px 0 0; }
 .feature-shot a { display: block; border: 1px solid #c9a24b88; border-radius: 4px; overflow: hidden; }
@@ -276,6 +278,9 @@ dd { margin: 0; }
 .dl-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-top: 22px; }
 .dl-alt { display: flex; flex-direction: column; gap: 2px; }
 .dl-other { color: var(--muted); font-size: 0.92rem; }
+.dl-more { margin: 14px 0 0; font-size: 0.95rem; text-shadow: 0 1px 2px #000; }
+.dl-more a { font-weight: 700; }
+.dl-cf { margin: 8px 0 0; color: var(--muted); font-size: 0.88rem; text-shadow: 0 1px 2px #000; }
 
 /* About the author, styled like a tooltip, with the community links as buttons */
 .author-card {
@@ -622,3 +627,110 @@ dd { margin: 0; }
 .td-lgtm[hidden] { display: none; }
 .td-lgtm-all { margin: 0 0 6px; }
 .td-entry .td-report { margin: 4px 0 8px; }
+
+/* Downloads page (/downloads): the add-on, every voice with its packs, every language, and install steps. Cards
+   reuse the tooltip-navy panels; each file is a row with what it is on the left and its Download button on the right. */
+.dl-page { max-width: 960px; padding-top: 28px; padding-bottom: 12px; }
+.dl-page h1 { font-size: 2.2rem; }
+.dl-page .pitch { color: var(--text); }
+.dl-card {
+  background: var(--panel); border: 1px solid var(--panel-line); border-radius: 6px; padding: 14px 18px;
+  box-shadow: inset 0 0 0 1px #000, 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+.dl-card h2, .dl-card h3 { font-family: var(--heading); color: var(--gold); margin: 0; }
+.dl-card h2 { font-size: 1.5rem; }
+.dl-card h3 { font-size: 1.15rem; }
+.dl-card h3 a { color: inherit; text-decoration: none; }
+.dl-card h3 a:hover { text-decoration: underline; }
+.dl-sub { margin: 2px 0 0; color: var(--muted); font-size: 0.9rem; }
+.dl-section { padding: 28px 0 4px; }
+.dl-section > h2 { font-family: var(--heading); color: var(--gold); font-size: 1.45rem; margin: 0 0 6px; }
+.dl-intro { margin: 0 0 14px; color: var(--muted); max-width: 760px; }
+.dl-section .dl-intro:last-child { margin: 12px 0 0; }
+.dl-voices { display: grid; gap: 16px; }
+.dl-voice.dl-on { border-color: var(--gold-soft); }
+.dl-voice-head { display: flex; align-items: center; gap: 14px; }
+.dl-play {
+  flex: 0 0 46px; width: 46px; height: 46px; border-radius: 50%; cursor: pointer; font-size: 1.05rem; line-height: 1;
+  border: 1px solid var(--gold-soft); background: #000000aa; color: var(--gold);
+}
+.dl-play:hover, .dl-play:focus-visible { border-color: var(--gold); background: #1b1408; }
+.dl-audio { display: none; }
+.dl-cover { margin: 10px 0 0; font-size: 0.92rem; }
+.dl-included { margin: 10px 0 0; font-size: 0.95rem; }
+.dl-check { color: #1eff00; font-weight: 700; }
+.dl-files { list-style: none; margin: 10px 0 0; padding: 0; }
+.dl-card > .dl-files:first-child { margin-top: 0; }
+.dl-file {
+  display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 10px 0;
+  border-top: 1px solid #ffffff14;
+}
+.dl-file:first-child { border-top: 0; }
+.dl-files-tight .dl-file { padding: 6px 0; }
+.dl-file:target { background: #ffd10014; box-shadow: 0 0 0 6px #ffd10014; border-radius: 2px; }
+.dl-file-main { min-width: 0; }
+.dl-file-main p { margin: 0; }
+.dl-file-name { font-weight: 600; }
+.dl-file-what { font-size: 0.9rem; }
+.dl-file-meta { color: var(--muted); font-size: 0.85rem; }
+.dl-dot:has(+ .dl-size:empty), .dl-dot:last-child { display: none; }
+.dl-get { flex: 0 0 auto; margin-top: 0; }
+.dl-meter { display: inline-block; width: 64px; height: 5px; margin: 0 2px 0 4px; vertical-align: middle; border-radius: 3px; background: #ffffff1f; overflow: hidden; }
+.dl-meter > span { display: block; height: 100%; background: var(--gold-soft); }
+.dl-faction {
+  display: inline-block; margin-left: 6px; padding: 0 6px; border-radius: 3px; vertical-align: 1px;
+  font: 600 0.72rem/1.5 system-ui, sans-serif; letter-spacing: 0.03em; border: 1px solid;
+}
+.dl-alliance { color: #8fb4ff; border-color: #4a6fd088; background: #14204a; }   /* Alliance blue */
+.dl-horde { color: #ff8f80; border-color: #c9302688; background: #3a0d0a; }      /* Horde red */
+.dl-all { color: var(--gold); border-color: #c9a24b88; background: #2a2010; }
+.dl-included-chip { flex: 0 0 auto; color: var(--muted); font-size: 0.88rem; }
+@media (max-width: 480px) {
+  .dl-card { padding: 12px 14px; }
+  .dl-file { flex-wrap: wrap; }
+  .dl-get { width: 100%; text-align: center; padding: 9px 16px; }
+  .dl-included-chip { width: auto; }
+}
+/* Voices first (/downloads): each voice is a card with its sample and name on the left and one big Download on the
+   right ("Download everything" for a voice with an all-in-one zip); its other packs follow as small links. */
+.dl-section-first { padding-top: 4px; }
+.dl-voice { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px 20px; align-items: center; }
+.dl-voice-get { text-align: center; }
+.dl-voice-get .dl-file-meta { margin: 6px 0 0; }
+.dl-voice-get .dl-included { margin: 0; color: var(--muted); }
+.dl-big { padding: 11px 22px; font-size: 1rem; white-space: nowrap; }
+.dl-parts { grid-column: 1 / -1; margin: 0; padding-top: 8px; border-top: 1px solid #ffffff14; font-size: 0.9rem; color: var(--muted); }
+.dl-parts a { font-weight: 600; }
+.dl-parts .dl-file-meta { font-size: 0.85rem; }
+.dl-voice-included { padding-top: 10px; padding-bottom: 10px; }
+.dl-voice .dl-cover { margin: 4px 0 0; font-size: 0.88rem; color: var(--muted); }
+.dl-howto { margin-top: 18px; padding: 0; }
+.dl-howto summary { cursor: pointer; list-style: none; }
+.dl-howto summary::-webkit-details-marker { display: none; }
+.dl-howto summary h2 { display: inline; font-family: var(--heading); color: var(--link); font-size: 1.1rem; }
+.dl-howto summary h2::before { content: "\25B8\00a0"; }
+.dl-howto[open] summary h2::before { content: "\25BE\00a0"; }
+.dl-howto .steps { margin-top: 12px; }
+.dl-langs { margin: 0 0 6px; }
+.dl-files.dl-card { padding: 4px 18px; }
+@media (max-width: 560px) {
+  .dl-voice { grid-template-columns: minmax(0, 1fr); }
+  .dl-big { display: block; }
+}
+/* The "Downloads" link header.js adds next to "Send feedback" on every page. */
+.btn-head-dl { background: #00000066; border-color: var(--gold-soft); }
+.btn-head-dl:hover { background: #1b1408; color: var(--gold); }
+
+/* "Calling all narrators": the same call-out on the home page, /voices and /downloads, linking to the upload page
+   (/voices/studio). Keep its claims to what that page does: any number of lines, upload, a test pack to try in game. */
+.narrators {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 20px; align-items: center;
+  margin: 0 0 24px; padding: 14px 18px; border-radius: 6px;
+  background: linear-gradient(90deg, rgba(109, 11, 7, 0.55), var(--panel) 70%); border: 1px solid #c9a24b;
+}
+.narrators h2 { font-family: var(--heading); color: var(--gold); font-size: 1.2rem; margin: 0 0 4px; }
+.narrators p { margin: 0; font-size: 0.95rem; }
+.narrators .nr-go { display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center; }
+.narrators .nr-go .btn-small { margin: 0; white-space: nowrap; }
+.narrators .nr-go small { font-size: 0.8rem; }
+@media (max-width: 640px) { .narrators { grid-template-columns: minmax(0, 1fr); } .narrators .nr-go { align-items: flex-start; } }

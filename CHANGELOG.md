@@ -6,6 +6,110 @@ One `- ` bullet per change; wrap long bullets with an indented continuation line
 
 ## Unreleased
 
+## 0.6.0 (2026-10-02)
+
+- **Français and Español (España) come with the add-on:** they switch on by themselves on a French or
+  Spanish game client, or pick one in Options › Language. English clients stay in English.
+- **A new look:** the panel now wears the game's gold dialog frame over dark stone, with its name on a banner
+  across the top and headings in the game's quest-title lettering. The buttons are dark with a gold rim, play
+  buttons are round and gold, the tabs and your target's row are picked out in gold, and answers sit on their
+  own gold-edged cards. Journey and History light up while they're open. The player, the queue, History, your
+  journey and the report box all match.
+- **The minimap button sits on the ring:** it was placed inside the map and could cover other add-ons' buttons.
+  It now sits on the edge of the minimap like other add-ons' buttons, follows a bigger or square minimap, and you
+  can drag it around the ring to any spot (it remembers where, per character).
+- **Clickable names in answers:** the places, people, factions and events an answer mentions are links, and a line
+  under the answer lists them again. Click one to read its story in the chat, Shift-click to add its narration to
+  your playlist, or hover for a one-line summary. Back and Forward above the chat take you through what you
+  followed. Quests you haven't picked up stay plain text, so nothing is spoiled. Works in Deutsch and Português
+  too; turn it off in Options › Clickable names in answers.
+- A hidden spoiler section in a story now has a **Show spoiler** link right there, and "Show spoilers without asking"
+  shows those sections too.
+- **Ask in your own words:** general lore questions worded differently from how the lore puts it now find the right
+  answer about a third more often. Questions about where you are and what you're doing answer as before.
+- **Put your voices in order:** Options › Narration voices lists every voice you have, with how many narrations
+  each one plays. Use the arrows to choose which comes first, untick a voice to stop using it, and choose whether
+  a story or a whole zone keeps one voice. `/lore voice` lists them in order.
+- Options › Narration voices › **Prefer voices that suit the race** (off by default): when a voice says which races
+  it suits, it reads their stories first, so orc lore can come in an orc voice.
+- **A narration player:** the bottom left of the panel now has its own player, with what's playing, Back,
+  Play/Pause, Next and your queue. Press Play with nothing queued to hear everything narrated where you are. Queue
+  opens your playlist right above it, to reorder, remove or clear. Click the title to open the story in the chat;
+  right-click the player for its options.
+- **The player stays with you:** close the panel while something plays or is queued and a small copy of the player
+  floats on screen. Drag it anywhere, or turn it off in Options › Floating player.
+- **Fewer tabs:** the sidebar is down to Here and Library (the old Narrations tab, every recorded story by zone).
+  The playlist moved into the player, and Journey is a button at the top of the panel next to History.
+  `/lore library` opens the Library.
+- The Journey, History and New chat buttons fit their German and Portuguese labels.
+- **Search the long lists:** the Library, Your quests (when your log is longer than the list), the queue (once it
+  holds more than a few), History and your journey each have a search box. Type part of a name, a zone or a quest
+  and the list narrows as you type; capitals and accents don't matter, and with a language pack the English names
+  work too. Escape or the × clears it.
+- **The Here tab, tidied:** every row is one line, with a play button on the left of anything narrated (stories,
+  answers, bosses, quests) and a + on the right to queue it. Stories show just their name, and Your quests shows how
+  many are in your log.
+- Playlist buttons always say what they'll do: once something is queued, Add to playlist becomes **Remove from
+  playlist** (the + becomes a −), and while it plays, **Stop**.
+- **Books read aloud:** open a book, letter or plaque and its page is read aloud with the game's voice when Read
+  aloud is on. Turning the page reads the next one, closing it stops, and the Read aloud button on the book reads a
+  page again. Options › Read books aloud turns it off; if you use Spoken, it starts off.
+- **Tips at login:** for your first few logins, one short tip in chat about something Lore Forever can do, like
+  reading an NPC's story with your key or turning off tooltip lore. Options › Tips at login turns them off.
+- After you pick the panel key, Lore Forever suggests a second key for narration, handy on a controller.
+- Options › Read aloud now says where to set its speed as well as its voice.
+- **Several voices at once:** narrators can record just the zones or people they like, and you can install as
+  many of their voices as you want. Each narration plays from the first voice that has it, and a story keeps one
+  voice for its questions. A voice you install plays first; `/lore voice <name>` puts any voice first.
+- **Your journey, on the map:** Journey now opens its own page over the chat: a timeline of what you did each play
+  session, with filters for Quests, Fights and Milestones, and a map of the world beside it. Hover a moment and the
+  map moves to where it happened, marks the spot and draws your road there as a dotted line; Whole journey zooms
+  out to the continent. Quests lists every quest you've finished, including the ones from before you installed
+  Lore Forever, and Chapters appears once your journey has some. Click anything with a story and the page closes
+  and tells it in the chat. Update my journey and Copy my journey record are at the bottom; `/lore journey` opens
+  it too. Places are marked from today on; earlier moments show their zone.
+- **Welcome back:** the first chat after you log in sums up your last play session: where you went, the quests you
+  finished and the people you met, plus a new chapter of your journey if one is waiting (Listen plays it).
+- Corrected lore in 99 entries and removed 2 that belonged to later expansions.
+- **Every narration comes with the add-on:** the places and people of every zone, Alliance and Horde alike, are now
+  in the main download (CurseForge, the installer and the zip), so there are no lands packs to fetch. If you
+  installed one by hand, the update simply replaces it. The female narrator is still an optional download at
+  loreforeverwow.com/downloads.
+- **Deutsch and Português (Brasil) come with the add-on:** they switch on by themselves on a German or Brazilian
+  Portuguese game client, or pick one in Options › Language. English clients stay in English.
+- **Bigger text:** Options › Panel size makes the whole Lore Forever panel bigger or smaller (90% to 130%), text and
+  buttons alike.
+- The panel now opens where you left it, at the size you left it.
+- Easier to read: notes, hints and option descriptions are a lighter grey, and the Here tab says what to do when
+  your quest log is empty.
+- The answer check and cross are easier to click, the resize corner says what it does, and the Listen and Queue all
+  buttons fit their German and Portuguese labels.
+- **Narrations play as you arrive:** reach a zone or place with a narration and it plays by itself, the zone's
+  story first and then the place's. It waits until a fight is over, stays quiet on flights and never cuts off
+  something you're already listening to. Options › Play narrations as you arrive turns it off, and `/lore autoplay`
+  turns this and quest dialogue off or on together. If you use the Spoken add-ons, both start off so you don't hear
+  two voices.
+- **Quest dialogue, narrated:** when a quest giver's window opens, its narration plays, or the quest text is read
+  aloud if Read aloud is on. It stops when you close the window. Options › Narrate quest dialogue turns it off.
+- **Lore Forever remembers what you've heard:** each character keeps track of the narrations and quest text it has
+  heard, so nothing plays by itself twice. The Library ticks the ones you've heard, and you can still play
+  any of them again. Options › Reset heard narrations starts over.
+- **Missing voice packs are no longer silent:** if the voice you picked isn't installed any more (the female
+  narrator is a separate download, and a CurseForge update only brings the main one), the add-on says so at login
+  and where to get it again: loreforeverwow.com/downloads. Options › Narration voice now lists every voice pack the
+  game found and how many narrations each plays, or why it can't.
+- The note under an answer about your race or faction now reads "For Undead players" or "For Night Elf players"
+  instead of "For you as a Undead".
+- **Read aloud on Mac and Linux:** when your system has no text-to-speech voices, Read aloud now says so once
+  instead of staying silent. Recorded narrations play either way.
+- Narrations that play as you arrive wait while you talk to a quest giver, and play once you're done.
+- The welcome card and the example in the question box follow you as you travel, instead of staying on the
+  place where you first opened the panel.
+- The Here tab lists your quests in the zone you're in first, so a full quest log no longer pushes them off
+  the list.
+- **Boss stories after the fight:** beat a dungeon boss and chat links their story (and Listen, when it's
+  narrated). Options › Dungeon primer prompt turns it off along with the primer link.
+
 ## 0.5.0 (2026-10-01)
 
 - **Your journey:** the new Journey tab keeps track of what your character has done: the places you discover and how
@@ -22,8 +126,8 @@ One `- ` bullet per change; wrap long bullets with an indented continuation line
   packs, Alliance lands and Horde lands, at loreforeverwow.com/voices or in the complete download. When you enter a
   zone whose narrations you don't have, the add-on says once which pack has them (Options › Narration pack hints
   turns that off).
-- **The female narrator comes with every release** now: her core and lands packs are on the Files tab and at
-  loreforeverwow.com/voices.
+- **The female narrator comes with every release** now: her core and lands packs are at loreforeverwow.com/voices
+  and on the GitHub release.
 - Narrations now say Deadmines, Feralas, Astranaar, Razorfen Kraul, Faol, Quel'Thalas and Iceshard properly.
 - The Narrations tab groups narrations by zone, with where you are and your starting zone first.
 - **Translators can see their work in game right away:** on loreforeverwow.com/translate/dashboard, press

@@ -1,9 +1,12 @@
-// The upload page, /voices/studio (lib/studio.js). Signed-in contributors only (lib/accounts.js).
+// The upload page, /voices/studio (lib/studio.js). Anyone can browse the lines (public/voices/lines.json); uploading
+// and sending need a signed-in account (lib/accounts.js), and sending needs the narrator release.
 //   GET  /api/studio/state?voice=ID     {signedIn, release, voices, voice, takes, limits}; takes are for voice ID (or the first voice)
-//   POST /api/studio/release            {agree, adult, signature, release}: the narrator release, agreed once per account
-//   POST /api/studio/voice              {name, locale}: a new draft voice; {id, name}: rename one
-//   PUT  /api/studio/take?voice=&line=  the file itself as the body (.mp3 or .ogg: the page converts .wav and .flac
-//                                       first); headers X-File-Name and X-Checks (both URI-encoded), X-CRC32 (hex),
+//   POST /api/studio/release            {agree, adult, signature, release}: the narrator release, agreed once per account,
+//                                       asked for on the send form
+//   POST /api/studio/voice              {name, locale}: a new draft voice; {id, name}: rename one; {id, races}: the
+//                                       races its voice suits (lib/studio.js RACES; goes in its packs' .toc)
+//   PUT  /api/studio/take?voice=&line=  the file itself as the body (.mp3 or Ogg Vorbis: the page converts anything else,
+//                                       recordings made on the page included); headers X-File-Name and X-Checks (both URI-encoded), X-CRC32 (hex),
 //                                       X-Text-Hash (optional: the text it was recorded against, from a returned
 //                                       test pack; 409 unless it is the line's current text)
 //   POST /api/studio/remove             {voice, line}
@@ -22,6 +25,7 @@ import { clean, ticked, senderHash } from "../../../lib/form.js";
 import { loadVoices } from "../../../lib/voices.js";
 import {
   LIMITS, sniff, setupStudio, loadLines, lineIndex, r2Key, ownVoice, createVoice, countUpload, storedBytes, cleanChecks,
+  cleanRaces, racesLabel,
 } from "../../../lib/studio.js";
 import { RELEASE_VERSION, PER_DAY, setupSubmissions, sentToday, insertSubmission, notify } from "../../../lib/submissions.js";
 import { testPack } from "../../../lib/voicepack.js";
@@ -52,7 +56,7 @@ async function takesOf(env, voiceId) {
 async function state({ request, env }, user) {
   if (!user) return ok({ signedIn: false });
   const { results: voices } = await env.DB.prepare(
-    "SELECT v.id, v.name, v.locale, v.status, v.updated, (SELECT COUNT(*) FROM studio_takes t WHERE t.voice_id = v.id) AS files " +
+    "SELECT v.id, v.name, v.locale, v.races, v.status, v.updated, (SELECT COUNT(*) FROM studio_takes t WHERE t.voice_id = v.id) AS files " +
     "FROM voices v WHERE v.owner = ? AND v.locale IS NOT NULL ORDER BY v.created"
   ).bind(user.id).all();
   const want = new URL(request.url).searchParams.get("voice");
@@ -88,7 +92,7 @@ async function pack({ request, env }, user) {
   const admin = await authorized(request, env);
   if (!user && !admin) return fail(401, "You're signed out. Please sign in again.");
   const id = new URL(request.url).searchParams.get("voice") || "";
-  const voice = await env.DB.prepare("SELECT id, owner, name, locale FROM voices WHERE id = ?").bind(id).first();
+  const voice = await env.DB.prepare("SELECT id, owner, name, locale, races FROM voices WHERE id = ?").bind(id).first();
   if (!voice || !voice.locale || (!admin && voice.owner !== user.id)) return fail(404, "That isn't one of your voices.");
   const { results: takes } = await env.DB.prepare(
     "SELECT line_id, r2_key, ext, hash, crc32, created FROM studio_takes WHERE voice_id = ?"
@@ -115,12 +119,12 @@ async function pack({ request, env }, user) {
 async function exportVoice({ request, env }) {
   if (!(await authorized(request, env))) return fail(401, "Needs the admin key.");
   const id = new URL(request.url).searchParams.get("voice") || "";
-  const voice = await env.DB.prepare("SELECT id, owner, name, locale, status FROM voices WHERE id = ?").bind(id).first();
+  const voice = await env.DB.prepare("SELECT id, owner, name, locale, races, status FROM voices WHERE id = ?").bind(id).first();
   if (!voice || !voice.locale) return fail(404, "No such voice on the upload page.");
   const lines = lineIndex(await loadLines(env, request));
   const takes = await takesOf(env, id);
   return ok({
-    voice,
+    voice: { ...voice, races_label: racesLabel(voice.races) },   // "Orc, Troll" for `build --races`
     takes: Object.entries(takes).map(([line, t]) => ({
       line, file: lines[line]?.file || null, ext: t.ext, hash: t.hash, current: lines[line]?.hash[voice.locale] || null,
       bytes: t.bytes, checks: t.checks, file_name: t.file_name,
@@ -146,6 +150,11 @@ async function agree({ env }, user, input) {
 }
 
 async function voice({ request, env }, user, input) {
+  if (input.id && input.races !== undefined && input.name === undefined) {
+    const res = await env.DB.prepare("UPDATE voices SET races = ?, updated = ? WHERE id = ? AND owner = ?")
+      .bind(cleanRaces(input.races) || null, new Date().toISOString(), clean(input.id, 60), user.id).run();
+    return res.meta.changes ? ok({ races: cleanRaces(input.races) }) : fail(404, "That isn't one of your voices.");
+  }
   const name = clean(input.name, 60);
   if (name.length < 2) return fail(400, "Give your voice a name. You can change it later.");
   if (input.id) {
@@ -163,7 +172,8 @@ async function voice({ request, env }, user, input) {
 
 async function take(context, user) {
   const { request, env } = context;
-  if (!(await release(env, user)).agreed) return fail(403, "Please agree to the narrator release first.");
+  // No narrator release needed to upload: takes stay private to their owner (and the admin key) until the voice is
+  // sent, and send() requires the release. The release itself says it covers what you send.
   const q = new URL(request.url).searchParams;
   const v = await ownVoice(env, user, q.get("voice"));
   if (!v || !v.locale) return fail(404, "That isn't one of your voices.");
@@ -180,9 +190,9 @@ async function take(context, user) {
   if (!body.byteLength) return fail(400, "That file is empty.");
   if (body.byteLength > LIMITS.bytes) return fail(413, `That file is over ${LIMITS.bytes / 1024 / 1024} MB. Export it as .mp3 or .ogg to make it smaller.`);
   const kind = sniff(body);
-  if (!kind) return fail(415, "We take .mp3, .ogg, .wav or .flac files. Export the recording in one of those.");
-  if (!PLAYABLE.includes(kind.ext)) {   // the game plays .mp3 and .ogg only; the page converts the rest before upload
-    return fail(415, "Reload this page and upload the file again: the page now turns .wav and .flac into .mp3 first.");
+  if (!kind) return fail(415, "We take .mp3, .m4a, .ogg, .wav, .flac and .webm files. Export the recording in one of those.");
+  if (!PLAYABLE.includes(kind.ext)) {   // the game plays .mp3 and Ogg Vorbis only; the page converts the rest before upload
+    return fail(415, "Reload this page and upload the file again: the page now turns this kind of file into .mp3 first.");
   }
   const crc = (request.headers.get("X-CRC32") || "").toLowerCase();
   if ((await storedBytes(env, user, v.id, lineId)) + body.byteLength > LIMITS.accountBytes) {
@@ -224,6 +234,23 @@ async function remove({ env }, user, input) {
   return ok();
 }
 
+// What a voice sends, for the review queue: "12 lines (enUS): Durotar, Razor Hill, Sen'jin Village and 3 more". Voices
+// are partial by design, so the stories it covers say more than a count out of every line.
+function sentSummary(lines, takes, locale) {
+  const stories = [];
+  let n = 0;
+  for (const g of lines.groups) {
+    for (const s of g.stories) {
+      const have = s.lines.filter(l => takes[l.id] && l.hash[locale] && takes[l.id].hash === l.hash[locale]).length;
+      if (!have) continue;
+      n += have;
+      stories.push(s.name[locale] || s.name.enUS);
+    }
+  }
+  const named = stories.slice(0, 4).join(", ") + (stories.length > 4 ? ` and ${stories.length - 4} more` : "");
+  return `${n} line${n === 1 ? "" : "s"} (${locale}): ${named}`;
+}
+
 async function send({ request, env, waitUntil }, user, input) {
   const v = await ownVoice(env, user, input.voice);
   if (!v || !v.locale) return fail(404, "That isn't one of your voices.");
@@ -243,10 +270,9 @@ async function send({ request, env, waitUntil }, user, input) {
   if ((await sentToday(env, sender, now.slice(0, 10))) >= PER_DAY) {
     return fail(429, "That's a lot of submissions for one day. Please try again tomorrow, or ask on Discord.");
   }
-  const total = lines.languages.find(l => l.locale === v.locale)?.lines || 0;
   const s = {
     created: now, credit, email: user.email || null, discord: clean(input.discord, 40).replace(/^@/, "") || null,
-    pack: v.name, link: `studio:${v.id}`, clips: `${current} of ${total} lines (${v.locale}), uploaded on the site`,
+    pack: v.name, link: `studio:${v.id}`, clips: `${sentSummary(lines, takes, v.locale)}, uploaded on the site`,
     note: clean(input.note, 2000) || null, release_version: row.version, adult_or_guardian: row.adult_or_guardian,
     signature: row.signature, country: request.cf?.country || null, sender, user_id: user.id, voice_id: v.id,
   };

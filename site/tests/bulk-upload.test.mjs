@@ -113,6 +113,12 @@ test("matchVoice sorts files into lines, unknown names and older text", async ()
   ]);
   assert.equal(m.other, 2);
   assert.ok(m.pack);
+
+  // Phone and browser recordings (.m4a, .webm, .opus) count as recordings too; the page converts them.
+  const phone = await matchVoice([f("Voice Memos/zone_elwynn.m4a"), f("zone_stormwind.webm"), f("zone_stormwind__faq3.opus")],
+    items.map(it => ({ ...it, hash: it.hash && "aaa" })));
+  assert.deepEqual(phone.rows.map(r => r.it.id), ["zone:elwynn", "zone:stormwind", "zone:stormwind#faq3"]);
+  assert.equal(phone.other, 0);
 });
 
 test("voiceStatus: new, replaced, unchanged", () => {
