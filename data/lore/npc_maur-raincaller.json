@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Resident of Bloodhoof Village",
-   "body": "Situated near the heart of Bloodhoof Village on the shores of Lake Stonebull, Maur Raincaller serves his community by attending to regional ecological and beast-related concerns. Like many who bear the mantle of Raincaller, he pays close attention to the balance of the elements and wildlife across the fertile plains of Mulgore. When rogue striders like Mazzranache cause trouble for the local settlements and herders, Maur turns to capable young travelers to step in and restore harmony.",
+   "body": "Situated near the heart of Bloodhoof Village on the shores of Lake Stonebull, Maur Raincaller serves his community by attending to regional ecological and beast-related concerns. Like many who bear the mantle of Raincaller, he pays close attention to the balance of the elements and wildlife across the fertile plains of Mulgore. After a bite from the fearsome strider Mazzranache left his wound infected, Maur turns to capable young travelers to gather the animal parts he needs for a remedy.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "mazzranache problem",
     "what does maur want"
    ],
-   "answer": "Maur deals with issues caused by disruptive wild creatures roaming the plains of Mulgore, notably directing adventurers to deal with Mazzranache, a particularly large and troublesome plainstrider."
+   "answer": "Maur was bitten by Mazzranache, a fearsome strider from his grandfather's stories, and the wound has become infected. He asks adventurers to bring him parts from the wolves, cougars, plainstriders and swoops of Mulgore so he can make a remedy."
   }
  ],
  "angles": [
@@ -52,7 +52,7 @@
   },
   {
    "target": "class:Hunter",
-   "text": "Maur provides an early hunting test against notable beasts like Mazzranache, testing your ability to track and handle dangerous quarry on the open plains."
+   "text": "Maur provides an early hunting test, sending you after the wolves, cougars, plainstriders and swoops of the open plains for the parts he needs to cure Mazzranache's venomous bite."
   }
  ],
  "keywords": [

@@ -8,16 +8,16 @@
   "wiki": "Wizzle Brassbolts",
   "refs": 2
  },
- "summary": "Wizzle Brassbolts is an Alliance gnome engineer stationed alongside his fellow tinkerers out on the salt flats of Thousand Needles. Working with the gnomish racing team at the Mirage Raceway, he seeks durable local materials to reinforce their experimental rocket cars.",
+ "summary": "Wizzle Brassbolts is a gnome engineer stationed alongside his fellow tinkerers out on the salt flats of Thousand Needles. Working with the gnomish racing team at the Mirage Raceway, he seeks durable local materials to reinforce their experimental rocket cars.",
  "sections": [
   {
    "title": "Tinkering on the Salt Flats",
-   "body": "Out in the shimmering heat of the Shimmering Flats, the rivalry between gnomish and goblin engineering takes the form of high-speed rocket car races. Wizzle Brassbolts works as part of the gnomish raceway crew, striving to keep their vehicles intact against blistering speeds and abrasive salt. To bolster their machines, he recruits adventurers to hunt the local wildlife\u2014such as the sturdy turtles wandering the basin\u2014harvesting thick shells and natural plating to reinforce the team's chassis.",
+   "body": "Out in the shimmering heat of the Shimmering Flats, the rivalry between gnomish and goblin engineering takes the form of high-speed rocket car races. Wizzle Brassbolts works as part of the gnomish raceway crew, striving to keep their vehicles intact against blistering speeds and abrasive salt. To bolster their machines, he recruits adventurers to hunt the local wildlife\u2014such as the sturdy turtles wandering the basin\u2014harvesting their hard shells to build new fuel tanks strong enough to hold his brother's corrosive new rocket fuel.",
    "spoiler": 0
   },
   {
    "title": "Friends in Distant Places",
-   "body": "Wizzle maintains close ties with friends across the continents, including fellow tinkerers and aerial scouts like Pilot Longbeard. Whether trading supplies, sharing schematics, or sending couriers back and forth with custom-machined parts, Wizzle keeps the gnomish team supplied despite their remote, inhospitable testing ground on the Shimmering Flats.",
+   "body": "Wizzle maintains close ties with friends across the continents, including Pilot Longbeard, who sends couriers out with racing helmets for the brothers. With help like that, Wizzle keeps the gnomish team supplied despite their remote, inhospitable testing ground on the Shimmering Flats.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why does wizzle want shells",
     "turtle shells raceway"
    ],
-   "answer": "High-speed racing across the abrasive salt flats wrecks lightweight metal plating. Wizzle uses the rock-hard shells of native salt-flat turtles to craft reinforced, heat-resistant armor and components for the gnomish team's race cars."
+   "answer": "His brother is designing a new rocket fuel so strong it could eat right through the car's chassis. Wizzle uses the rock-hard shells of the tortoises on the Shimmering Flats to build new fuel tanks that can hold it."
   },
   {
    "q": "Who are the Brassbolts brothers?",
@@ -47,7 +47,7 @@
     "the brassbolts brothers",
     "wizzle brothers"
    ],
-   "answer": "The Brassbolts are a family of gnomish tinkerers and machinists. They collaborate on engineering ventures and keep in contact across distant Alliance and neutral outposts, sharing parts and technical expertise."
+   "answer": "The Brassbolts brothers are Wizzle and his brothers Fizzle and Rizzle, gnomish tinkerers who run the gnome rocket car team at the Mirage Raceway, racing against the goblins. Pilot Longbeard is a friend of theirs."
   },
   {
    "q": "Is Wizzle friendly to Horde players?",
@@ -55,7 +55,7 @@
     "can horde talk to wizzle",
     "wizzle brassbolts horde"
    ],
-   "answer": "While the Mirage Raceway itself maintains a neutral truce between the goblin and gnome racing syndicates, Wizzle Brassbolts is aligned with the Alliance and offers his tasks specifically to Alliance adventurers."
+   "answer": "Yes. The Mirage Raceway is neutral ground, and Wizzle's own tasks, such as gathering hardened tortoise shells, are open to Horde and Alliance adventurers alike."
   }
  ],
  "angles": [

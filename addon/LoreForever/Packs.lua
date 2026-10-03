@@ -6,6 +6,8 @@
 --   ## X-LoreForever-Credit: ...  ## X-LoreForever-Sample: <clip id>   (voice packs, optional)
 --   ## X-LoreForever-Extends: <voice pack>   (voice packs, optional: a lands pack that adds clips to that voice; it
 --   isn't a voice of its own, and does nothing without its base; see Voice.Refresh)
+--   ## X-LoreForever-Races: orc, troll       (voice packs, optional: the races whose stories this voice suits, for
+--   "Prefer voices that suit the race"; see Voice.Races)
 -- Add-ons can't discover files at runtime, so packs are found through the game's add-on list and load when chosen.
 -- A pack's only code is `local P = LoreForeverPacks.Begin(...)` followed by writes into P (e.g. P.clips[id] = hash).
 
@@ -65,6 +67,7 @@ local function describe(rec)
   rec.credit = meta(n, "X-LoreForever-Credit") or rec.credit
   rec.sample = meta(n, "X-LoreForever-Sample") or rec.sample
   rec.extends = meta(n, "X-LoreForever-Extends") or rec.extends
+  rec.races = meta(n, "X-LoreForever-Races") or rec.races
   rec.version = meta(n, "Version") or rec.version
   rec.author = meta(n, "Author") or rec.author
   rec.title = plain(meta(n, "Title") or rec.title or n)

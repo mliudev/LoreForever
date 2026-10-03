@@ -13,7 +13,8 @@ local function setBindingNames()
 end
 setBindingNames()
 
-local GOLD = "|cffffd100"
+local T = ns.Theme
+local GOLD = T.code.gold
 -- Goes through the site's /discord redirect, which counts clicks per source and can swap the invite.
 local DISCORD_URL = "loreforeverwow.com/discord?src=addon"
 local PREFIX = GOLD .. "Lore Forever:|r "
@@ -48,7 +49,7 @@ local function playlistPlayPause()
   if not UI.frame then return end
   if UI.IsBusy() then return UI.StopAll() end
   if not UI.PlaylistToggle() and UI.QueueHere() == 0 then
-    say(L["nothing here is narrated, and your playlist is empty. Press + on any narration (Narrations tab) to add it."])
+    say(L["nothing here is narrated, and your playlist is empty. Press + on any narration in the Library to add it."])
   end
 end
 
@@ -58,7 +59,7 @@ end
 
 function LoreForever_PlaylistNext()
   if ns.UI.frame and not ns.UI.PlaylistNext() then
-    say(L["your playlist is empty. Press + on any narration (Narrations tab) to add it."])
+    say(L["your playlist is empty. Press + on any narration in the Library to add it."])
   end
 end
 
@@ -101,6 +102,7 @@ local function arrive()
   local e = zk and ns.DB.entries["zone:" .. zk]
   ns.Log.Visit(zone, UnitLevel and UnitLevel("player"), e ~= nil)
   ns.Voice.OnZone(zk)   -- its places and people are in a lands pack you don't have: say so, once
+  ns.Voice.OnArrive()   -- play its narration, the first time you're here
   if not e or nudged[zone] then return end
   nudged[zone] = true
   local z = ns.DB.zones[zk]
@@ -116,6 +118,24 @@ local function arrive()
     say(string.format(L["You've entered %s."], zone)
       .. (f and (" " .. ns.Hooks.Link(f.q, "faq", "zone:" .. zk, fi)) or "") .. listen)
   end
+end
+
+-- A tip at login for features players ask for without knowing they exist (LOR-41): one per login, each shown once,
+-- until they run out. Options › Tips at login turns them off.
+local function loginTip()
+  if not S().tips then return end
+  local key = ns.Hooks.CurrentKey()
+  local tips = {
+    key and string.format(L["Tip: hover over an NPC and press %s to read their story."], GOLD .. key .. "|r")
+      or L["Tip: hover over an NPC and press your Lore Forever key (/lore key) to read their story."],
+    L["Tip: entering a dungeon links its primer: who you'll face and why it matters. /lore primer brings it back."],
+    L["Tip: the lore lines on NPC and item tooltips can be turned off in /lore options."],
+    L["Tip: press + on any narration in the Library to build a playlist; the player at the bottom left plays it."],
+  }
+  local i = (tonumber(S().tipNext) or 1)
+  if i > #tips then return end
+  S().tipNext = i + 1
+  say(tips[i])
 end
 
 local refreshPending = false
@@ -150,7 +170,7 @@ end
 
 local function showExport(text)
   if not LoreForeverExport then
-    local f = CreateFrame("Frame", "LoreForeverExport", UIParent, "BasicFrameTemplateWithInset")
+    local f = T.Window("LoreForeverExport", UIParent, "Lore Forever")
     f:SetSize(520, 320)
     f:SetPoint("CENTER")
     f:SetFrameStrata("DIALOG")
@@ -199,22 +219,22 @@ local function buttonTooltip(self, anchor)
   GameTooltip:AddLine("Lore Forever")
   if busy then
     local ours = pl.state == "playing" and cur
-    GameTooltip:AddLine(ours and string.format(L["Now playing: %s (%d of %d)"], cur.label, pl.pos, n)
-      or string.format(L["Now playing: %s"], UI.playingLabel or L["narration"]), 0.5, 0.87, 0.5)
+    T.Tip(ours and string.format(L["Now playing: %s (%d of %d)"], cur.label, pl.pos, n)
+      or string.format(L["Now playing: %s"], UI.playingLabel or L["narration"]), "tipGood")
     local nxt = ours and pl.items[pl.pos + 1]
-    if nxt then GameTooltip:AddLine(string.format(L["Up next: %s"], nxt.label), 0.6, 0.6, 0.6) end
+    if nxt then T.Tip(string.format(L["Up next: %s"], nxt.label), "tipDim") end
   elseif cur then
-    GameTooltip:AddLine(string.format(L["Playlist stopped at: %s (%d of %d)"], cur.label, pl.pos, n), 1, 0.82, 0)
+    T.Tip(string.format(L["Playlist stopped at: %s (%d of %d)"], cur.label, pl.pos, n), "gold")
   end
   local key = ns.Hooks.CurrentKey()
-  GameTooltip:AddLine(key and string.format(L["Click to open (or press %s). Right-click for options."], key)
-    or L["Click to open. Right-click for options."], 1, 1, 1)
-  GameTooltip:AddLine(L["Shift-click: play/pause your playlist"], 1, 1, 1)
-  GameTooltip:AddLine(L["Shift-right-click: next narration"], 1, 1, 1)
+  T.Tip(key and string.format(L["Click to open (or press %s). Right-click for options."], key)
+    or L["Click to open. Right-click for options."], "tipText")
+  T.Tip(L["Shift-click: play/pause your playlist"], "tipText")
+  T.Tip(L["Shift-right-click: next narration"], "tipText")
   if n == 0 then
-    GameTooltip:AddLine(L["Your playlist is empty: Shift-click plays everything narrated here."], 0.6, 0.6, 0.6, true)
+    T.Tip(L["Your playlist is empty: Shift-click plays everything narrated here."], "tipDim", true)
   end
-  GameTooltip:AddLine(L["Drag to move."], 0.6, 0.6, 0.6)
+  T.Tip(L["Drag to move."], "tipDim")
   GameTooltip:Show()
 end
 
@@ -225,13 +245,13 @@ local function addPlayingIndicator(b, glowSize, round)
   if round then
     glow:SetTexture("Interface\\Minimap\\MiniMap-TrackingBorder")
     if glow.SetDesaturated then glow:SetDesaturated(true) end
-    glow:SetVertexColor(0.35, 1, 0.35)
+    glow:SetVertexColor(T.rgba(T.color.playing))
     glow:SetSize(53, 53)
     glow:SetPoint("TOPLEFT")
   else
     glow:SetTexture("Interface\\Buttons\\UI-ActionButton-Border")
     glow:SetBlendMode("ADD")
-    glow:SetVertexColor(0.4, 1, 0.4)
+    glow:SetVertexColor(T.rgba(T.color.playingGlow))
     glow:SetSize(glowSize, glowSize)
     glow:SetPoint("CENTER")
   end
@@ -324,42 +344,95 @@ function ns.LauncherButton()
   ns.SetButtonsPlaying(ns.UI.IsBusy())
 end
 
+-- Which quarters of the minimap are round, per GetMinimapShape() (LibDBIcon's table): quarter 1 is bottom right,
+-- 2 bottom left, 3 top right, 4 top left.
+local MINIMAP_SHAPES = {
+  ["ROUND"] = { true, true, true, true },
+  ["SQUARE"] = { false, false, false, false },
+  ["CORNER-TOPLEFT"] = { false, false, false, true },
+  ["CORNER-TOPRIGHT"] = { false, false, true, false },
+  ["CORNER-BOTTOMLEFT"] = { false, true, false, false },
+  ["CORNER-BOTTOMRIGHT"] = { true, false, false, false },
+  ["SIDE-LEFT"] = { false, true, false, true },
+  ["SIDE-RIGHT"] = { true, false, true, false },
+  ["SIDE-TOP"] = { false, false, true, true },
+  ["SIDE-BOTTOM"] = { true, true, false, false },
+  ["TRICORNER-TOPLEFT"] = { false, true, true, true },
+  ["TRICORNER-TOPRIGHT"] = { true, false, true, true },
+  ["TRICORNER-BOTTOMLEFT"] = { true, true, false, true },
+  ["TRICORNER-BOTTOMRIGHT"] = { true, true, true, false },
+}
+
 function ns.MinimapButton()
   if not Minimap then return end
   local b = LoreForeverMinimapButton
   if b then return b:SetShown(S().minimap) end
   if not S().minimap then return end
+  -- Laid out like every other add-on's minimap button (LibDBIcon's Classic layout), so it sits on the ring with the
+  -- rest: a 31px button, the tracking ring at its top left, a dark disc and a 17px icon inside it.
   b = CreateFrame("Button", "LoreForeverMinimapButton", Minimap)
   b:SetSize(31, 31)
   b:SetFrameStrata("MEDIUM")
   b:SetFrameLevel(8)
-  local icon = b:CreateTexture(nil, "BACKGROUND")
+  local disc = b:CreateTexture(nil, "BACKGROUND")
+  disc:SetTexture("Interface\\Minimap\\UI-Minimap-Background")
+  disc:SetSize(20, 20)
+  disc:SetPoint("TOPLEFT", 7, -5)
+  local icon = b:CreateTexture(nil, "ARTWORK")
   icon:SetTexture("Interface\\Icons\\INV_Misc_Book_09")
-  icon:SetSize(20, 20)
-  icon:SetPoint("CENTER")
+  icon:SetSize(17, 17)
+  icon:SetPoint("TOPLEFT", 7, -6)
+  -- Trim the icon's square edge; pressed, it shows whole (a slight push).
+  local function crop(down)
+    local d = down and 0 or 0.05
+    icon:SetTexCoord(d, 1 - d, d, 1 - d)
+  end
+  crop(false)
   local border = b:CreateTexture(nil, "OVERLAY")
   border:SetTexture("Interface\\Minimap\\MiniMap-TrackingBorder")
   border:SetSize(53, 53)
   border:SetPoint("TOPLEFT")
   b:SetHighlightTexture("Interface\\Minimap\\UI-Minimap-ZoomButton-Highlight")
+  -- On the ring: half the minimap's size out from its centre, plus 5. Square minimaps (GetMinimapShape, set by
+  -- minimap add-ons) keep it on their edge instead.
   local function place()
     local a = math.rad(S().minimapAngle or 200)
+    local x, y = math.cos(a), math.sin(a)
+    local q = 1 + (x < 0 and 1 or 0) + (y > 0 and 2 or 0)
+    local shape = MINIMAP_SHAPES[(GetMinimapShape and GetMinimapShape()) or "ROUND"] or MINIMAP_SHAPES.ROUND
+    local w = (tonumber(Minimap:GetWidth()) or 140) / 2 + 5
+    local h = (tonumber(Minimap:GetHeight()) or 140) / 2 + 5
+    if shape[q] then
+      x, y = x * w, y * h
+    else
+      x = math.max(-w, math.min(x * (math.sqrt(2 * w * w) - 10), w))
+      y = math.max(-h, math.min(y * (math.sqrt(2 * h * h) - 10), h))
+    end
     b:ClearAllPoints()
-    b:SetPoint("CENTER", Minimap, "CENTER", math.cos(a) * 80, math.sin(a) * 80)
+    b:SetPoint("CENTER", Minimap, "CENTER", x, y)
   end
   place()
+  if Minimap.HookScript then Minimap:HookScript("OnSizeChanged", place) end
   b:RegisterForDrag("LeftButton")
   b:RegisterForClicks("LeftButtonUp", "RightButtonUp")
+  b:SetScript("OnMouseDown", function() crop(true) end)
+  b:SetScript("OnMouseUp", function() crop(false) end)
+  -- Drag it around the ring (the angle is saved per character), e.g. off another add-on's button.
   b:SetScript("OnDragStart", function(self)
+    if self.LockHighlight then self:LockHighlight() end
     self:SetScript("OnUpdate", function()
       local mx, my = Minimap:GetCenter()
       local cx, cy = GetCursorPosition()
       local s = Minimap:GetEffectiveScale()
-      S().minimapAngle = math.deg(math.atan2(cy / s - my, cx / s - mx))
+      S().minimapAngle = math.deg(math.atan2(cy / s - my, cx / s - mx)) % 360
       place()
     end)
   end)
-  b:SetScript("OnDragStop", function(self) self:SetScript("OnUpdate", nil) end)
+  b:SetScript("OnDragStop", function(self)
+    self:SetScript("OnUpdate", nil)
+    if self.UnlockHighlight then self:UnlockHighlight() end
+    crop(false)
+  end)
   addPlayingIndicator(b, 56, true)
   b:SetScript("OnEnter", function(self) buttonTooltip(self, "ANCHOR_LEFT") end)
   b:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -388,6 +461,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     for _, note in ipairs(ns.lang.notes) do say(note) end
     C_Timer.After(6, ns.Hooks.MaybeOnboard)
     C_Timer.After(3, ns.Journey.Announce)
+    C_Timer.After(12, loginTip)   -- after the key prompt (6 s), once the login chat has settled
   elseif event == "PLAYER_ENTERING_WORLD" or event == "ZONE_CHANGED_NEW_AREA" then
     C_Timer.After(2, arrive)
     C_Timer.After(1, ns.Voice.OnTaxiCheck)
@@ -401,12 +475,16 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
   elseif event == "BAG_UPDATE_DELAYED" then
     ns.Hooks.RefreshBags()
     refreshSoon()
-  elseif event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "PLAYER_TARGET_CHANGED" then
+  elseif event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" then
+    ns.Voice.OnArrive()   -- a new place within the zone
+    refreshSoon()
+  elseif event == "PLAYER_TARGET_CHANGED" then
     refreshSoon()
   elseif event == "PLAYER_REGEN_DISABLED" then
     ns.Hooks.OnCombat()
   elseif event == "PLAYER_REGEN_ENABLED" then
     ns.Voice.OnCombatEnded()
+    ns.Voice.OnCombatOver()
   elseif event == "PLAYER_LOGOUT" then
     if ns.UI.msgs then ns.UI.Archive() end   -- keep the last chat of the session in History
   elseif event == "VOICE_CHAT_TTS_PLAYBACK_STARTED" then
@@ -416,14 +494,33 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
   elseif event == "PLAYER_CONTROL_LOST" then
     C_Timer.After(1, ns.Voice.OnTaxiCheck)
   elseif event == "QUEST_DETAIL" or event == "QUEST_PROGRESS" or event == "QUEST_COMPLETE" then
-    ns.Log.QuestText(event == "QUEST_DETAIL" and "detail" or event == "QUEST_PROGRESS" and "progress" or "complete")
+    local kind = event == "QUEST_DETAIL" and "detail" or event == "QUEST_PROGRESS" and "progress" or "complete"
+    ns.Log.QuestText(kind)
     ns.Hooks.UpdateQuestDialogButton()
+    local b = ns.Hooks.questDialogButton
+    ns.Voice.OnQuestFrame(kind, b and b.key)
+  elseif event == "QUEST_FINISHED" then
+    -- Also fires between a quest's pages; only a window that stays closed stops its page.
+    C_Timer.After(0.2, function()
+      if not (_G.QuestFrame and QuestFrame:IsShown()) then
+        ns.Voice.OnQuestClosed()
+        ns.Voice.OnTalkOver()
+      end
+    end)
+  elseif event == "GOSSIP_CLOSED" then
+    C_Timer.After(0.2, ns.Voice.OnTalkOver)
+  elseif event == "ITEM_TEXT_READY" then
+    ns.Voice.ReadBookPage()   -- a book, letter or plaque page is showing
+    ns.Hooks.UpdateBookButton()
+  elseif event == "ITEM_TEXT_CLOSED" then
+    ns.Voice.OnBookClosed()
   end
 end)
 
 for _, e in ipairs({ "ADDON_LOADED", "PLAYER_LOGIN", "PLAYER_ENTERING_WORLD", "ZONE_CHANGED", "ZONE_CHANGED_INDOORS",
   "ZONE_CHANGED_NEW_AREA", "QUEST_LOG_UPDATE", "BAG_UPDATE_DELAYED", "SKILL_LINES_CHANGED", "QUEST_DETAIL",
-  "QUEST_PROGRESS", "QUEST_COMPLETE", "PLAYER_TARGET_CHANGED", "PLAYER_CONTROL_LOST",
+  "QUEST_PROGRESS", "QUEST_COMPLETE", "QUEST_FINISHED", "GOSSIP_CLOSED", "ITEM_TEXT_READY", "ITEM_TEXT_CLOSED",
+  "PLAYER_TARGET_CHANGED", "PLAYER_CONTROL_LOST",
   "VOICE_CHAT_TTS_PLAYBACK_STARTED", "VOICE_CHAT_TTS_PLAYBACK_FINISHED", "VOICE_CHAT_TTS_PLAYBACK_FAILED",
   "PLAYER_REGEN_DISABLED", "PLAYER_REGEN_ENABLED", "PLAYER_LOGOUT" }) do
   listen(e)
@@ -434,10 +531,21 @@ local function toggleSetting(key, label)
   say(string.format(S()[key] and L["%s on"] or L["%s off"], label))
 end
 
--- /lore voice: list the narration voices (numbered, current one marked), or switch by number, name, auto or none.
+-- /lore voice: list the narration voices in their order (numbered, unticked ones marked), or put one first by
+-- number or name ("default" for the default voice), or "none" for the game's voice only.
+local function voiceChoices()
+  local out = {}
+  for _, it in ipairs(ns.Voice.List()) do
+    out[#out + 1] = { value = it.key, item = it, why = it.why, rec = it.name and ns.Packs.Get(it.name),
+      label = it.label }
+  end
+  out[#out + 1] = { value = "none", label = L["Game voice only"] }
+  return out
+end
+
 local function findVoice(arg, choices)
   local want = arg:lower()
-  if want == "default" then return choices[1] end
+  if want == "default" or want == "auto" then want = "auto" end
   for i, c in ipairs(choices) do
     if tostring(i) == want or c.value:lower() == want or c.label:lower() == want
       or (c.rec and (c.rec.name:lower() == "loreforever_voice_" .. want or c.rec.title:lower():find(want, 1, true))) then
@@ -450,18 +558,23 @@ end
 local function isVoiceCommand(cmd, arg)
   if cmd == "voice" or cmd == "voices" then return true end
   if not (arg and cmd:match("^voices? ")) then return false end
-  return not arg:find("%s") or findVoice(arg, ns.Voice.Choices()) ~= nil
+  return not arg:find("%s") or findVoice(arg, voiceChoices()) ~= nil
 end
 
 local function voiceCommand(arg)
-  local choices = ns.Voice.Choices()
-  local current = S().voicePack or "auto"
+  local choices = voiceChoices()
   if not arg or arg == "" then
-    say(L["narration voices (/lore voice <number> to switch):"])
+    say(L["narration voices, first to last (/lore voice <number> puts one first):"])
     for i, c in ipairs(choices) do
-      local mark = c.value == current and (GOLD .. " " .. L["(current)"] .. "|r") or ""
-      local why = c.why or c.note
-      say(string.format("  %d. %s%s%s", i, c.label, mark, why and ("|cff888888 - " .. why .. "|r") or ""))
+      local it, extra = c.item, nil
+      if it and it.why then
+        extra = it.why
+      elseif it and not it.on then
+        extra = L["off"]
+      elseif it then
+        extra = string.format(L["plays %d · has %d"], it.plays, it.have)
+      end
+      say(string.format("  %d. %s%s", i, c.label, extra and (T.code.faint .. " - " .. extra .. "|r") or ""))
     end
     say(ns.Voice.Status())
     return
@@ -484,7 +597,7 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(L["/lore - open or close the panel (or press your key; press it over an NPC to read about them)"])
     say(L["/lore <question> - ask directly, e.g. /lore why is westfall so poor"])
     say(L["/lore key - choose the key that opens the panel; /lore key narrate - a key that plays narration"])
-    say(L["/lore narrations - every recorded narration, grouped (your starting area first)"])
+    say(L["/lore library - every recorded narration, grouped (your starting area first)"])
     say(L["/lore journey - what your character has done so far; /lore sync - save it now (reloads)"])
     if ns.Companion.Installed() then
       say(L["/lore ask <question> - ask live answers (the answer appears on your screen)"])
@@ -493,18 +606,19 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(L["/lore lang - choose the language (language packs are separate add-ons)"])
     say(L["/lore primer - dungeon primer for where you are"])
     say(L["/lore listen - read the last answer aloud; /lore narrate - narrate flights on/off"])
+    say(L["/lore autoplay - narrations as you arrive and quest dialogue on/off"])
     say(L["/lore voice - list narration voices; /lore voice <number or name> - switch (auto: default, none: game voice)"])
     say(L["/lore report - tell us the last answer was wrong (or click the cross under any answer)"])
     say(L["/lore ctx | export | visits | stats - what Lore Forever sees, for bug reports and playtests"])
     say(string.format(L["Questions, requests and bug reports: %s"], DISCORD_URL))
   elseif cmd == "key" or cmd == "key narrate" then
     ns.Hooks.KeyPrompt(cmd == "key narrate" and "narrate" or "toggle"):Show()
-  elseif cmd == "narrations" then
+  elseif cmd == "narrations" or cmd == "library" then
     if not ns.UI.frame:IsShown() then ns.UI.frame:Show() end
     ns.UI.ShowTab("narrations")
   elseif cmd == "journey" then
     if not ns.UI.frame:IsShown() then ns.UI.frame:Show() end
-    ns.UI.ShowTab("journey")
+    ns.Journey.Show()
   elseif cmd == "sync" then
     ns.Journey.AskSync()
   elseif cmd == "ask" or cmd:match("^ask%s") then
@@ -534,6 +648,9 @@ SlashCmdList.LOREFOREVER = function(msg)
     ns.UI.StopAll()
   elseif cmd == "narrate" then
     toggleSetting("narrateFlights", L["flight narration"])
+  elseif cmd == "autoplay" then
+    say(string.format(ns.Voice.ToggleAutoplay() and L["%s on"] or L["%s off"],
+      L["narrations as you arrive and quest dialogue"]))
   elseif cmd == "nudge" then
     toggleSetting("zoneNudge", L["zone hints"])
   elseif cmd == "tooltips" then
@@ -567,7 +684,7 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(#rows .. " zones visited this session:")
     for _, r in ipairs(rows) do
       say(string.format("  %s x%d (levels %s-%s)%s", r.zone, r.v.n, tostring(r.v.minLevel), tostring(r.v.maxLevel),
-        r.v.lore and "" or "  |cff9d9d9dno lore|r"))
+        r.v.lore and "" or "  " .. T.code.grey .. "no lore|r"))
     end
   elseif cmd == "stats" then
     local n, known = 0, 0

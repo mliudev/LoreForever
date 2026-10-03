@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Dawning Isles"
  },
- "summary": "The Dawning Isles are a cluster of low-lying islets situated within Lordamere Lake along the eastern edge of Silverpine Forest. Once idyllic retreats, they have succumbed to the blight of the Plague of Undeath and are overrun by aggressive murlocs and contending military factions.",
+ "summary": "The Dawning Isles are a cluster of low-lying islets situated within Lordamere Lake along the eastern edge of Silverpine Forest. Once idyllic retreats, they have succumbed to the blight of the Plague of Undeath and are overrun by aggressive murlocs.",
  "sections": [
   {
    "title": "Blight on the Lake",
@@ -15,8 +15,8 @@
    "spoiler": 0
   },
   {
-   "title": "A Staging Ground",
-   "body": "Because of their proximity to the capital, the Dawning Isles occupy a perilous strategic position. The Scarlet Crusade has used these desolate islets as a beachhead to launch probing assaults against the Undercity and the Ruins of Lordaeron. In response, Forsaken forces regularly deploy to contest the waters, turning what was once a quiet chain of islands into a frontline battleground between the living zealots and the undead.",
+   "title": "A Murloc Stronghold",
+   "body": "Murlocs were not always the only danger on the isles. Bog beasts once prowled the blighted islets alongside them, but the bog beasts have since vanished. In their absence the Vile Fin population has swelled to the point that the murlocs now control the isles outright, turning what was once a quiet chain of keys into their stronghold on Lordamere Lake.",
    "spoiler": 0
   }
  ],
@@ -46,20 +46,12 @@
     "lake blight dawning isles"
    ],
    "answer": "The islands were tainted during the Third War when the Plague of Undeath swept Lordaeron. The water and soil absorbed the blight, poisoning the vegetation and leaving the islets murky, sickly, and decayed."
-  },
-  {
-   "q": "Why is the Scarlet Crusade interested in these islands?",
-   "aliases": [
-    "scarlet crusade dawning isles",
-    "crusaders in lordamere lake"
-   ],
-   "answer": "The islands offer a convenient staging ground across Lordamere Lake from which the Scarlet Crusade can mount skirmishes and strikes directly against the Forsaken holding the Ruins of Lordaeron."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Controlling the Dawning Isles is essential for safeguarding the western approaches to the Undercity against Scarlet Crusade incursions across Lordamere Lake."
+   "text": "The blighted Dawning Isles lie on Lordamere Lake, within sight of the western approaches to the Undercity, and the Vile Fin murlocs that hold them grow more numerous each year."
   },
   {
    "target": "faction:Alliance",
@@ -70,7 +62,6 @@
   "dawning isles",
   "lordaeron",
   "lordamere lake",
-  "scarlet crusade",
   "silverpine forest",
   "vile fin"
  ],
@@ -79,7 +70,6 @@
   "zone:silverpine",
   "zone:ruinsoflordaeron",
   "topic:murloc",
-  "topic:scarlet-crusade",
   "topic:forsaken",
   "topic:plague-of-undeath",
   "topic:lordaeron"

@@ -48,14 +48,6 @@
     "badges quest"
    ],
    "answer": "The Syndicate offers bounties for Stromgarde badges taken from slaughtered soldiers. Nials asks Alliance adventurers to retrieve these stolen badges from Syndicate cutthroats so she can confirm the deaths and notify the fallen defenders' families."
-  },
-  {
-   "q": "What is Nials's connection to the Scarlet Monastery?",
-   "aliases": [
-    "scarlet monastery letter",
-    "crusader joseph letter"
-   ],
-   "answer": "Brother Joseph of the Scarlet Crusade attempts to correspond with her, sending letters urging her and Stromgarde's remnants to support their cause, though Captain Nials has little interest in answering the zealots."
   }
  ],
  "angles": [
@@ -85,8 +77,7 @@
   "subzone:thandol-span",
   "subzone:dun-modr",
   "topic:syndicate",
-  "topic:alliance",
-  "zone:scarlet"
+  "topic:alliance"
  ],
  "attribution": [
   "Veronica Nials"

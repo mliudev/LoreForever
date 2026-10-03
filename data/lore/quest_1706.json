@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "A Master's Innovation Proven",
-   "body": "Grimand Elmore, working from his forge in Stormwind's Dwarven District, originally held deep skepticism regarding the bizarre and daring techniques developed by the dwarven master armorer Furen Longbeard. Testing Furen's methods required perilous expeditions into hostile territory to gather rare elemental and beast components. By delivering these vital materials, a warrior allows Grimand to put the dwarf's theories to the fire, turning raw ingredients into a reinforced suit of armor engineered to endure catastrophic impacts.",
+   "body": "Grimand Elmore, working from his forge in Stormwind's Dwarven District, originally held deep skepticism regarding the bizarre and daring techniques developed by the dwarven master armorer Furen Longbeard. Testing Furen's methods required perilous expeditions into hostile territory to gather rare elemental and beast components. By delivering these vital materials, a warrior allows Grimand to put the dwarf's theories to the fire, turning raw ingredients into a reinforced helm engineered to endure catastrophic impacts.",
    "spoiler": 0
   },
   {
    "title": "Forging the Aegis",
-   "body": "The final product demonstrates that Furen's metallurgic insights were entirely sound. Grimand successfully treats the metal to withstand intense pressure and physical trauma that would warp ordinary steel. Presenting the crafted breastplate to the warrior who aided him, Grimand acknowledges both Furen's craft and the adventurer's determination, equipping them to hold the frontline against the greatest threats in Azeroth.",
+   "body": "The final product demonstrates that Furen's metallurgic insights were entirely sound. Grimand successfully treats the metal to withstand intense pressure and physical trauma that would warp ordinary steel. Presenting the crafted coif to the warrior who aided him, Grimand acknowledges both Furen's craft and the adventurer's determination, equipping them to hold the frontline against the greatest threats in Azeroth.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why do grimands armor",
     "what does grimand give me"
    ],
-   "answer": "This quest is the final turn-in for a major warrior class questline. Grimand Elmore completes crafting a specially treated breastplate using the rare materials you secured, validating the experimental smithing methods of Furen Longbeard."
+   "answer": "This quest is the final turn-in for a major warrior class questline. Grimand Elmore completes crafting a specially treated coif using the rare materials you secured, validating the experimental smithing methods of Furen Longbeard."
   },
   {
    "q": "Who is Grimand Elmore?",
@@ -73,7 +73,7 @@
     "is grimand's armor warrior only",
     "who can do grimand armor"
    ],
-   "answer": "No. This quest chain is strictly tailored for Alliance warriors around their thirtieth season, representing a rite of passage in obtaining durable heavy plate armor."
+   "answer": "No. This quest chain is strictly tailored for Alliance warriors around their thirtieth season, representing a rite of passage in obtaining durable mail armor."
   },
   {
    "q": "Where does this turn-in take place?",
@@ -87,20 +87,20 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This quest represents a defining moment in an Alliance warrior's career, rewarding them with an iconic, resilient breastplate forged to withstand the brutal impacts of frontline combat."
+   "text": "This quest represents a defining moment in an Alliance warrior's career, rewarding them with an iconic, resilient coif forged to withstand the brutal impacts of frontline combat."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "The exchange showcases the collaboration between Ironforge innovations and Stormwind craftsmanship, utilizing unusual reagents to dramatically temper metal."
+   "text": "The exchange showcases the collaboration between two dwarven smiths of Stormwind's Dwarven District, utilizing unusual reagents to dramatically temper metal."
   },
   {
    "target": "faction:Alliance",
-   "text": "Grimand Elmore's reliance on Furen Longbeard's designs highlights the tight technical and martial cooperation binding the humans of Stormwind and the dwarves of Ironforge."
+   "text": "Grimand Elmore's reliance on Furen Longbeard's designs shows how the dwarven smiths of Stormwind's Dwarven District pool their discoveries to arm the Alliance's warriors."
   }
  ],
  "keywords": [
   "armor",
-  "breastplate",
+  "coif",
   "burning blood",
   "dwarven district",
   "furen longbeard",

@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Precarious Foothold",
-   "body": "Williden Marshal brought an entire scientific expedition deep into Un'Goro Crater seeking fortune and discovery. Intrigued by accounts of alien crystals, uncataloged plants, and untapped resources, he established multiple forward camps across the valley floor. However, the primeval wilderness quickly turned against them. Ravenous devilsaurs, encroaching silithid, and primal beasts dismantled their research posts, forcing Williden and his survivors to retreat up into the northern cliffs to establish Marshal's Refuge.",
+   "body": "Williden Marshal brought an entire scientific expedition deep into Un'Goro Crater seeking fortune and discovery. Intrigued by accounts of alien crystals, uncataloged plants, and untapped resources, he established multiple forward camps across the valley floor. However, the primeval wilderness quickly turned against them. The savage beasts of the crater dismantled their research posts, forcing Williden and his survivors to retreat up into the northern cliffs to establish Marshal's Refuge.",
    "spoiler": 0
   },
   {
@@ -22,7 +22,7 @@
   },
   {
    "title": "Family Ties",
-   "body": "Williden is part of a family of ambitious frontier explorers hailing from the Eastern Kingdoms. While he and Hol'anyee chose the untamed primeval crater of southern Kalimdor, his brother Livingston Marshal set off for the jungles of Stranglethorn Vale. Before parting ways, Williden scoffed at Livingston's plans, declaring he would never find anything of worth in Stranglethorn. Williden remains entirely convinced that Un'Goro's crystal deposits and ancient mysteries hold the true fortune.",
+   "body": "Williden is not the only Marshal in the crater: Hol'anyee Marshal shares his name and works alongside him at Marshal's Refuge. Together they chose the untamed primeval crater of southern Kalimdor, and Williden remains entirely convinced that Un'Goro's crystal deposits and ancient mysteries hold the true fortune.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "what happened to the expedition camps",
     "why did marshal retreat"
    ],
-   "answer": "The expedition originally established multiple research bases down in the lowlands of Un'Goro. However, the crater's colossal predators\u2014especially the devilsaurs and gorillas\u2014overran the sites, forcing the survivors to flee to the northern rock ledges of Marshal's Refuge."
+   "answer": "The expedition originally established multiple research bases down in the lowlands of Un'Goro. However, the expedition underestimated the savagery of Un'Goro, and the crater's colossal predators overran the sites, forcing the survivors to flee to the northern rock ledges of Marshal's Refuge."
   },
   {
    "q": "What is Williden asking adventurers to do?",
@@ -70,7 +70,7 @@
     "livingston marshal",
     "marshal family"
    ],
-   "answer": "Yes. He is the brother of Livingston Marshal, an explorer who ventured south into the jungles of Stranglethorn Vale, and is related to Hol'anyee. Williden famously mocked Livingston, believing Stranglethorn was worthless compared to Un'Goro."
+   "answer": "The only other Marshal known in the crater is Hol'anyee Marshal, who shares his name and works alongside him at Marshal's Refuge."
   },
   {
    "q": "Is Williden Marshal aligned with the Alliance or Horde?",
@@ -98,7 +98,6 @@
  ],
  "keywords": [
   "devilsaurs",
-  "livingston marshal",
   "marshals expedition",
   "marshals refuge",
   "power crystals",
@@ -109,7 +108,6 @@
  "related": [
   "subzone:marshal-s-refuge",
   "zone:ungoro",
-  "zone:stranglethorn",
   "topic:stormwind-kingdom",
   "topic:alliance"
  ],

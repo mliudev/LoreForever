@@ -87,10 +87,15 @@ function Voice.Available()
   return (_G.TextToSpeech_Speak ~= nil) or (VC ~= nil and VC.SpeakText ~= nil)
 end
 
--- Recorded narration comes from voice packs (see Packs.lua): the voice the player picked, then the default pack for
--- the reading language, then nothing (the caller falls back to text-to-speech). A pack's clip is used only while it
--- was recorded from the current text (its hash matches ns.DB.clipHash), so a recording never contradicts the page.
+-- Recorded narration comes from voice packs (see Packs.lua). The player keeps an ordered list of voices (voiceOrder,
+-- with "auto" standing for the default pack of the reading language) and can untick some (voiceOff). Each clip plays
+-- from the first ticked voice that has a current recording of it, then nothing (the caller falls back to
+-- text-to-speech). A pack's clip is used only while it was recorded from the current text (its hash matches
+-- ns.DB.clipHash), so a recording never contradicts the page. Packs are partial: most cover only some clips.
 local DEFAULT_PACK = "LoreForever_Voice_Default"
+-- Where players get voice packs (the site's Downloads page). Players type it, so keep it short.
+Voice.DOWNLOADS = "loreforeverwow.com/downloads"
+local AUTO = "auto"
 local LANGUAGES = { enUS = "English", enGB = "English", deDE = "Deutsch", frFR = "Français", esES = "Español",
   esMX = "Español (Latinoamérica)", ptBR = "Português", itIT = "Italiano", ruRU = "Русский", koKR = "한국어",
   zhCN = "简体中文", zhTW = "繁體中文" }
@@ -100,7 +105,58 @@ local function readingLocale() return ns.readingLocale or "enUS" end
 local function sameLanguage(a, b) return (a or "enUS"):sub(1, 2) == (b or "enUS"):sub(1, 2) end
 local function say(msg) DEFAULT_CHAT_FRAME:AddMessage("|cffffd100Lore Forever:|r " .. msg) end
 
-Voice.active, Voice.chain, Voice.stats, Voice.total, Voice.provided = {}, {}, {}, 0, {}
+Voice.active, Voice.chain, Voice.stats, Voice.total, Voice.provided, Voice.servedBy = {}, {}, {}, 0, {}, {}
+
+-- Put a voice first in the list and tick it, along with the default voice (what choosing a voice always meant: that
+-- voice, then the default for the rest). "none" unticks every voice.
+local function apply(s, value)
+  if value == "none" then
+    for _, k in ipairs(s.voiceOrder) do s.voiceOff[k] = true end
+    return
+  end
+  for i = #s.voiceOrder, 1, -1 do
+    if s.voiceOrder[i] == value then table.remove(s.voiceOrder, i) end
+  end
+  table.insert(s.voiceOrder, 1, value)
+  s.voiceOff[value], s.voiceOff[AUTO] = nil, nil
+end
+
+-- The voice settings, set up on first use. Installs from before the list saved one voice (voicePack): it becomes
+-- the top of the list, and Voice.migrated tells Init to add the other installed voices quietly at the bottom.
+local function prefs()
+  local s = S()
+  local created = false
+  if type(s.voiceOrder) ~= "table" then s.voiceOrder, created = {}, true end
+  if type(s.voiceOff) ~= "table" then s.voiceOff = {} end
+  -- A saved list with holes, repeats or junk in it (edited by hand, an old bug) becomes a plain list of names.
+  local idx, clean, seen = {}, {}, {}
+  for i, k in pairs(s.voiceOrder) do
+    if type(i) == "number" and type(k) == "string" then idx[#idx + 1] = i end
+  end
+  table.sort(idx)
+  for _, i in ipairs(idx) do
+    local k = s.voiceOrder[i]
+    if not seen[k] then seen[k], clean[#clean + 1] = true, k end
+  end
+  if not seen[AUTO] then clean[#clean + 1] = AUTO end   -- the default voice always has a place
+  s.voiceOrder = clean
+  if s.voicePack ~= nil then
+    local old = s.voicePack
+    s.voicePack = nil
+    apply(s, old)
+    if created then Voice.migrated = true end
+  end
+  return s
+end
+
+-- The voice the old one-voice picker shows: the first ticked one in the list ("auto", a pack name), or "none".
+function Voice.Current()
+  local s = prefs()
+  for _, k in ipairs(s.voiceOrder) do
+    if not s.voiceOff[k] then return k end
+  end
+  return "none"
+end
 
 -- Where a pack keeps a clip: zone:stormwind -> Audio\zone_stormwind.mp3, zone:stormwind#faq3 -> ...__faq3.mp3.
 function Voice.ClipPath(pack, id, ext)
@@ -177,49 +233,186 @@ function Voice.Count(name)
   return have, stale
 end
 
--- Rebuild Voice.active (clip id -> the paths to try, in order) from the chosen voice. Each voice in the chain brings
--- its installed lands packs; their counts go to the voice they extend. Voice.provided marks every clip some pack in
--- the chain has (current or not), for the "narrated in a pack you don't have" hint.
+-- The clip a voice should keep together with this one (voiceGroup): its story's main clip ("story": the entry, for
+-- its #faq clips), its zone's story ("zone": a zone's places and people follow it), or none ("line").
+local function storyOf(id) return id:match("^(.-)#faq%d+$") or id end
+local function anchorOf(id, mode)
+  if mode == "story" then return storyOf(id) end
+  if mode == "zone" then
+    local e = ns.DB and ns.DB.entries and ns.DB.entries[storyOf(id)]
+    return e and e.z and ("zone:" .. e.z) or storyOf(id)
+  end
+end
+
+-- The races a voice suits, as a set, from its .toc (## X-LoreForever-Races: Orc, Troll). Names are matched loosely
+-- ("Night Elf" = nightelf), and "undead" means the Forsaken, as data/clips.json names them.
+local RACE_ALIAS = { undead = "forsaken", scourge = "forsaken" }
+function Voice.Races(name)
+  local rec, out = ns.Packs.Get(name), {}
+  for word in tostring(rec and rec.races or ""):gmatch("[^,;/]+") do
+    local race = word:lower():gsub("[^%a]", "")
+    if race ~= "" then out[RACE_ALIAS[race] or race] = true end
+  end
+  return out
+end
+
+-- The pack behind a key in the list: "auto" is the default pack for the reading language (nil if there's none).
+local function packOf(key)
+  if key == AUTO then return Voice.DefaultPack() end
+  return key
+end
+
+-- Rebuild Voice.active (clip id -> the paths to try, in order) from the voice list. Each voice in the chain brings
+-- its installed lands packs; their counts go to the voice they extend. For each clip the voices with a current
+-- recording are ranked in list order, except that the voice playing the clip's anchor (anchorOf) goes first when it
+-- has the clip too, so a story's questions don't switch narrator. The rest stay behind it as fallbacks for a file
+-- that won't play. Voice.servedBy[id] is the voice that plays a clip; Voice.stats[voice] = {have, stale, plays}.
+-- Voice.provided marks every clip some pack in the chain has (current or not), for the "narrated in a pack you
+-- don't have" hint.
 function Voice.Refresh()
-  local choice, chain = S().voicePack or "auto", {}
+  local s = prefs()
   Voice.deferred = nil
-  if choice ~= "none" then
-    if choice ~= "auto" and ensure(choice) then chain[#chain + 1] = choice end
-    local def = Voice.DefaultPack()
-    if def and def ~= chain[1] and ensure(def) then chain[#chain + 1] = def end
+  local chain, packsOf = {}, {}
+  for _, key in ipairs(s.voiceOrder) do
+    local name = packOf(key)
+    if name and not s.voiceOff[key] and not packsOf[name] and ensure(name) then
+      chain[#chain + 1] = name
+      packsOf[name] = withExtensions(name)
+    end
   end
-  local sources = {}   -- { pack, the voice it counts for }, in the order their paths are tried
-  for _, name in ipairs(chain) do
-    for _, pack in ipairs(withExtensions(name)) do sources[#sources + 1] = { pack, name } end
-  end
-  local active, stats, total, provided = {}, {}, 0, {}
-  for _, name in ipairs(chain) do stats[name] = { have = 0, stale = 0 } end
+  local stats, total, provided, ranked = {}, 0, {}, {}
+  for _, name in ipairs(chain) do stats[name] = { have = 0, stale = 0, plays = 0 } end
   for id, hash in pairs((ns.DB and ns.DB.clipHash) or {}) do
     total = total + 1
-    for _, src in ipairs(sources) do
-      local data = ns.Packs.data[src[1]]
-      local h = data.clips[id]
-      if h then provided[id] = true end
-      if h == hash then
-        active[id] = active[id] or {}
-        table.insert(active[id], Voice.ClipPath(src[1], id, data.ext))
-        stats[src[2]].have = stats[src[2]].have + 1
-      elseif h then
-        stats[src[2]].stale = stats[src[2]].stale + 1
+    for _, name in ipairs(chain) do
+      local paths
+      for _, pack in ipairs(packsOf[name]) do
+        local data = ns.Packs.data[pack]
+        local h = data and data.clips[id]
+        if h then provided[id] = true end
+        if h == hash then
+          paths = paths or {}
+          paths[#paths + 1] = Voice.ClipPath(pack, id, data.ext)
+        elseif h then
+          stats[name].stale = stats[name].stale + 1
+        end
+      end
+      if paths then
+        stats[name].have = stats[name].have + 1
+        ranked[id] = ranked[id] or {}
+        table.insert(ranked[id], { name, paths })
       end
     end
   end
+  -- "Prefer voices that suit the race": for a clip whose story belongs to a race (ns.DB.clipNarrator), the voices
+  -- that name that race go first, still in list order among themselves.
+  local narrators = s.voiceMatchRace and ns.DB and ns.DB.clipNarrator
+  if narrators then
+    local suits = {}
+    for _, name in ipairs(chain) do suits[name] = Voice.Races(name) end
+    for id, list in pairs(ranked) do
+      local race = narrators[id]
+      if race and #list > 1 then
+        local yes, no = {}, {}
+        for _, voice in ipairs(list) do
+          table.insert(suits[voice[1]][race] and yes or no, voice)
+        end
+        for _, voice in ipairs(no) do yes[#yes + 1] = voice end
+        ranked[id] = yes
+      end
+    end
+  end
+  local mode, first = s.voiceGroup or "story", {}
+  for id, list in pairs(ranked) do first[id] = list[1][1] end
+  local active, servedBy = {}, {}
+  for id, list in pairs(ranked) do
+    local anchor = anchorOf(id, mode)
+    local keep = anchor and anchor ~= id and first[anchor]
+    if keep and keep ~= list[1][1] then
+      for i = 2, #list do
+        if list[i][1] == keep then table.insert(list, 1, table.remove(list, i)) break end
+      end
+    end
+    local paths = {}
+    for _, voice in ipairs(list) do
+      for _, p in ipairs(voice[2]) do paths[#paths + 1] = p end
+    end
+    active[id], servedBy[id] = paths, list[1][1]
+    stats[list[1][1]].plays = stats[list[1][1]].plays + 1
+  end
   -- Recordings outside the voice packs (journey chapters the companion app narrated: Journey.LoadChapters).
-  for id, paths in pairs(Voice.extra or {}) do active[id] = paths end
+  for id, paths in pairs(Voice.extra or {}) do active[id], servedBy[id] = paths, nil end
   Voice.active, Voice.chain, Voice.stats, Voice.total, Voice.ready = active, chain, stats, total, true
-  Voice.provided = provided
+  Voice.provided, Voice.servedBy = provided, servedBy
+end
+
+-- The voice (its pack name) that plays a clip and the file it plays first, or nil if no voice has the clip.
+function Voice.Resolve(id)
+  if not Voice.ready then Voice.Refresh() end
+  local paths = Voice.active[id]
+  return Voice.servedBy[id], paths and paths[1]
+end
+
+-- Voices installed since the last login go to the top of the list (installing one means you want to hear it; a
+-- partial pack only takes over the clips it has), with a line in chat. After moving from the one-voice setting
+-- they're added unticked at the bottom instead, so nothing changes for the player. A voice that can't be used
+-- (another language, disabled, too new) goes to the bottom without a word, to show greyed in the list. Lands packs
+-- aren't voices. A pack combat kept from loading waits for OnCombatEnded; returns true if one did.
+local function adoptNew(quiet)
+  local s = prefs()
+  local known, voices, new, unusable, waiting = {}, ns.Packs.List("voice"), {}, {}, false
+  for _, k in ipairs(s.voiceOrder) do known[k] = true end
+  local function lands(rec)
+    if rec.extends then return true end
+    for _, o in ipairs(voices) do
+      if o.name ~= rec.name and rec.name:sub(1, #o.name + 1) == o.name .. "_" then return true end
+    end
+  end
+  for _, rec in ipairs(voices) do
+    if not isDefault(rec.name) and not known[rec.name] then
+      if Voice.Unusable(rec.name) then
+        if not lands(rec) then unusable[#unusable + 1] = rec end
+      elseif ensure(rec.name) then
+        rec = ns.Packs.Get(rec.name)   -- its X- fields may only be readable now it's loaded
+        if not lands(rec) then new[#new + 1] = rec end
+      else
+        waiting = true
+      end
+    end
+  end
+  if quiet then
+    for _, list in ipairs({ new, unusable }) do
+      for _, rec in ipairs(list) do
+        s.voiceOrder[#s.voiceOrder + 1] = rec.name
+        s.voiceOff[rec.name] = true
+      end
+    end
+    return waiting
+  end
+  for _, rec in ipairs(unusable) do s.voiceOrder[#s.voiceOrder + 1] = rec.name end
+  for i = #new, 1, -1 do table.insert(s.voiceOrder, 1, new[i].name) end
+  for _, rec in ipairs(new) do
+    local have = Voice.Count(rec.name)
+    say(string.format(L["new voice: %s. It plays first now; you can change the order in Options."],
+      string.format(have == 1 and L["%s (%d narration)"] or L["%s (%d narrations)"], rec.title, have)))
+  end
+  return waiting
+end
+
+-- Look for new voices (adoptNew), then rebuild. A move from the one-voice setting stays quiet until the voices it
+-- adds could all load, and a pack combat kept waiting keeps Voice.deferred set for OnCombatEnded.
+local function adoptAndRefresh()
+  local waiting = adoptNew(Voice.migrated)
+  if not waiting then Voice.migrated = nil end
+  Voice.Refresh()
+  Voice.deferred = Voice.deferred or waiting
 end
 
 -- Entering a zone with narrated places or people that no installed pack has (they're in a lands pack): say where to
 -- get them, once per zone per session, unless narration is off or the hint is turned off in Options.
 Voice.hinted = {}
 function Voice.OnZone(zk)
-  if not zk or Voice.hinted[zk] or S().packHints == false or (S().voicePack or "auto") == "none" then return end
+  if not zk or Voice.hinted[zk] or S().packHints == false or Voice.Current() == "none" then return end
   if not Voice.ready then Voice.Refresh() end
   local db = ns.DB or {}
   local zone = db.zones and db.zones[zk]
@@ -233,44 +426,61 @@ function Voice.OnZone(zk)
   Voice.hinted[zk] = true
   local lands = (zone.fa == "alliance" and L["Alliance lands"]) or (zone.fa == "horde" and L["Horde lands"])
     or L["Alliance or Horde lands"]
-  say(string.format(L["%s's places and people are narrated in the %s pack: %s"], zone.n, lands,
-    "loreforeverwow.com/voices"))
+  say(string.format(L["%s's places and people are narrated in the %s pack: %s"], zone.n, lands, Voice.DOWNLOADS))
+end
+
+-- A pack's name for players when it isn't installed (no title to read): LoreForever_Voice_Female_Horde -> "Female Horde".
+function Voice.PackName(name)
+  local rec = ns.Packs.Get(name)
+  if rec and rec.title then return rec.title end
+  local short = tostring(name or ""):gsub("^LoreForever_Voice_", ""):gsub("_", " ")
+  return short
 end
 
 -- Say once if the saved voice can't be used (the saved choice is kept, so reinstalling it brings it back).
+-- A missing pack also says where to get it: CurseForge carries only the main download, so a CurseForge update
+-- removes voice packs that came from elsewhere, and the add-on would otherwise fall back without a word (LOR-136).
 local function noticeMissing()
-  local choice = S().voicePack
+  local choice = Voice.Current()
   if not choice or choice == "auto" or choice == "none" or Voice.chain[1] == choice then return end
-  local rec = ns.Packs.Get(choice)
   local why, code = Voice.Unusable(choice)
-  local title = rec and rec.title or choice
-  local fallback = (Voice.chain[1] and 1) or (Voice.Available() and 2) or 3   -- the default voice, Read aloud, nothing
+  local title = Voice.PackName(choice)
+  -- What plays instead: the default voice, Read aloud, nothing, or the next voice in the list (named).
+  local nextVoice = Voice.chain[1]
+  local fallback = (nextVoice and isDefault(nextVoice) and 1) or (nextVoice and 4) or (Voice.Available() and 2) or 3
+  local nextTitle = nextVoice and Voice.PackName(nextVoice)
   if code == "MISSING" then
     say(string.format(({ L["voice pack %s isn't installed; using the default voice."],
       L["voice pack %s isn't installed; using Read aloud."],
-      L["voice pack %s isn't installed; using no narration."] })[fallback], title))
+      L["voice pack %s isn't installed; using no narration."],
+      L["voice pack %s isn't installed; using %s."] })[fallback], title, nextTitle))
+    say(string.format(L["Get it again at %s, then restart the game."], Voice.DOWNLOADS))
   elseif why then
     say(string.format(({ L["voice pack %s can't be used: %s; using the default voice."],
       L["voice pack %s can't be used: %s; using Read aloud."],
-      L["voice pack %s can't be used: %s; using no narration."] })[fallback], title, why))
+      L["voice pack %s can't be used: %s; using no narration."],
+      L["voice pack %s can't be used: %s; using %s."] })[fallback], title, why, nextTitle))
   else
     say(string.format(({ L["voice pack %s didn't load; using the default voice."],
       L["voice pack %s didn't load; using Read aloud."],
-      L["voice pack %s didn't load; using no narration."] })[fallback], title))
+      L["voice pack %s didn't load; using no narration."],
+      L["voice pack %s didn't load; using %s."] })[fallback], title, nextTitle))
   end
 end
 
 -- At login: find the installed packs and load the chosen voice.
 function Voice.Init()
   if not next(ns.Packs.registry) then ns.Packs.Scan() end
-  Voice.Refresh()
+  prefs()
+  adoptAndRefresh()
   if not Voice.deferred then noticeMissing() end
+  Voice.CheckSpoken()
 end
 
 -- Combat ended: load the packs that had to wait, then relabel the panel.
 function Voice.OnCombatEnded()
   if not Voice.deferred then return end
-  Voice.Refresh()
+  adoptAndRefresh()
   noticeMissing()
   if ns.UI and ns.UI.OnVoiceChanged then ns.UI.OnVoiceChanged() end
 end
@@ -308,53 +518,102 @@ function Voice.Choices()
   return out
 end
 
--- The line under the picker: whose voice this is, how much it covers, and what fills the gaps.
+-- The line under the voice list: how many narrations your voices cover together and what fills the gaps, with the
+-- first voice's credit. (Each voice's own counts are on its row: Voice.List.)
 function Voice.Status()
-  local choice = S().voicePack or "auto"
-  if choice == "none" then
+  if Voice.Current() == "none" then
     if S().readAloud == false then return L["Recorded narrations are off, and so is Read aloud."] end
     return L["Recorded narrations are off. Read aloud uses the game's voice (Options > Accessibility > Text to Speech)."]
   end
-  local def, lines = Voice.DefaultPack(), {}
-  local chosen = choice ~= "auto" and choice or nil
-  if chosen and Voice.chain[1] ~= chosen then
-    local rec = ns.Packs.Get(chosen)
-    lines[#lines + 1] = string.format(L["%s: %s. Using the default voice."], rec and rec.title or chosen,
-      Voice.Unusable(chosen) or L["didn't load"])
-    chosen = nil
-  end
-  local name = chosen or (def and Voice.stats[def] and def)
-  if not name then
+  local lines, first = {}, Voice.chain[1]
+  if Voice.deferred then lines[#lines + 1] = L["Some voices load after combat."] end
+  if not first then
     lines[#lines + 1] = L["No recorded narrations installed. Read aloud uses the game's voice."]
     return table.concat(lines, " ")
   end
-  local rec, st = ns.Packs.Get(name), Voice.stats[name]
-  local restDefault = (chosen and Voice.stats[def]) and true or false   -- else the rest use Read aloud
-  local count
-  if st.have >= Voice.total then
-    count = L["%d of %d narrations."]
-  elseif restDefault then
-    count = L["%d of %d narrations; the rest use the default voice."]
-  else
-    count = L["%d of %d narrations; the rest use Read aloud."]
-  end
-  local s = (rec.credit and (rec.credit:gsub("%.$", "") .. ". ") or "") .. string.format(count, st.have, Voice.total)
-  if st.stale > 0 then
-    local stale
-    if st.stale == 1 then
-      stale = restDefault and L["%d recording is older than the current lore text and uses the default voice."]
-        or L["%d recording is older than the current lore text and uses Read aloud."]
-    else
-      stale = restDefault and L["%d recordings are older than the current lore text and use the default voice."]
-        or L["%d recordings are older than the current lore text and use Read aloud."]
-    end
-    s = s .. " " .. string.format(stale, st.stale)
-  end
-  lines[#lines + 1] = s
+  local covered = 0
+  for _ in pairs(Voice.servedBy) do covered = covered + 1 end
+  local count = (covered >= Voice.total and L["%d of %d narrations."])
+    or (Voice.Available() and L["%d of %d narrations; the rest use Read aloud."])
+    or L["%d of %d narrations; the rest show as text only."]
+  local rec = ns.Packs.Get(first)
+  lines[#lines + 1] = (rec and rec.credit and (rec.credit:gsub("%.$", "") .. ". ") or "")
+    .. string.format(count, covered, Voice.total)
   return table.concat(lines, " ")
 end
 
--- Switch voice ("auto", "none" or a pack's add-on name). Returns true, or false and why not.
+-- The voice list as Options and /lore voice show it, in order. Each row: key (as saved in voiceOrder), name (its
+-- pack, or nil when the default voice isn't installed), title, label (as shown), default (the "auto" row), on
+-- (ticked), why it can't be used (nil if it can), missing (not installed), have/stale (its current and outdated
+-- recordings), plays (how many narrations it plays with the list as it is) and races (its X-LoreForever-Races text,
+-- if any). Packs are loaded to count them.
+function Voice.List()
+  local s, out = prefs(), {}
+  for _, key in ipairs(s.voiceOrder) do
+    local name = packOf(key)
+    local why, code
+    if name then why, code = Voice.Unusable(name) else why, code = L["Not installed"], "MISSING" end
+    local have, stale = 0, 0
+    if not why and ensure(name) then have, stale = Voice.Count(name) end
+    local st = name and Voice.stats[name]
+    local title = name and Voice.PackName(name)
+    out[#out + 1] = { key = key, name = name, title = title or L["Default"],
+      label = (key == AUTO and title and string.format(L["Default (%s)"], title)) or title or L["Default"],
+      default = key == AUTO, on = not s.voiceOff[key], why = why, missing = code == "MISSING",
+      have = have, stale = stale, plays = st and st.plays or 0,
+      races = name and ns.Packs.Get(name) and ns.Packs.Get(name).races or nil }
+  end
+  return out
+end
+
+-- Changes to the list take effect at once. In combat, packs that aren't loaded yet join when it ends (Refresh sets
+-- Voice.deferred), and the status line says so.
+local function listChanged()
+  Voice.Refresh()
+  if ns.UI and ns.UI.OnVoiceChanged then ns.UI.OnVoiceChanged() end
+end
+
+-- Move a voice up (-1) or down (1) the list. Returns true if it moved.
+function Voice.Move(key, delta)
+  local order = prefs().voiceOrder
+  for i, k in ipairs(order) do
+    if k == key then
+      local j = i + delta
+      if j < 1 or j > #order then return false end
+      order[i], order[j] = order[j], order[i]
+      listChanged()
+      return true
+    end
+  end
+  return false
+end
+
+-- Tick or untick a voice.
+function Voice.SetOn(key, on)
+  prefs().voiceOff[key] = (not on) or nil
+  listChanged()
+end
+
+-- Take a voice that isn't installed off the list (the default voice always stays). Returns true if it went.
+function Voice.Forget(key)
+  if key == AUTO or ns.Packs.Get(key) then return false end
+  local s = prefs()
+  for i = #s.voiceOrder, 1, -1 do
+    if s.voiceOrder[i] == key then table.remove(s.voiceOrder, i) end
+  end
+  s.voiceOff[key] = nil
+  listChanged()
+  return true
+end
+
+-- How voices share a story: "story" (a story and its questions in one voice), "zone" or "line" (see Refresh).
+function Voice.SetGroup(mode)
+  prefs().voiceGroup = mode
+  listChanged()
+end
+
+-- Put a voice ("auto", or a pack's add-on name) at the top of the list, ticked along with the default voice, or
+-- untick every voice ("none"): what picking in the one-voice picker means. Returns true, or false and why not.
 function Voice.SetPack(value)
   if value ~= "auto" and value ~= "none" then
     if InCombatLockdown and InCombatLockdown() then return false, L["Can't switch voice during combat"] end
@@ -362,10 +621,43 @@ function Voice.SetPack(value)
     local why = Voice.Unusable(value) or (not ns.Packs.IsLoaded(value) and L["Didn't load"]) or nil
     if why then return false, why end
   end
-  S().voicePack = value
+  apply(prefs(), value)
   Voice.Refresh()
   if ns.UI and ns.UI.OnVoiceChanged then ns.UI.OnVoiceChanged() end
   return true
+end
+
+-- The voice whose sample is playing (Voice.Preview, by list key), or nil. Options shows Stop on its row; anything
+-- that stops playback (Voice.Stop: the player, global Stop, another narration) ends it, and so does the clip ending.
+local function setPreview(key)
+  if Voice.previewing == key then return end
+  Voice.previewing = key
+  if ns.Options and ns.Options.OnPreviewChanged then ns.Options.OnPreviewChanged() end
+end
+
+local function watchPreview(handle)
+  local started = GetTime and GetTime() or 0
+  local function check()
+    if Voice.handle ~= handle or not Voice.previewing then return end
+    local playing
+    if _G.C_Sound and C_Sound.IsPlaying then
+      local ok, p = pcall(C_Sound.IsPlaying, handle)
+      if ok then playing = p end
+    end
+    -- Clients that can't tell whether a sound plays: give up after a minute and a half (samples are shorter).
+    if playing == false or (GetTime and GetTime() or 0) - started > 90 then
+      Voice.handle = nil
+      setPreview(nil)
+    else
+      C_Timer.After(0.5, check)
+    end
+  end
+  C_Timer.After(0.5, check)
+end
+
+-- Stop a sample that's playing (closing Options, opening the panel); leaves other playback alone.
+function Voice.StopPreview()
+  if Voice.previewing then Voice.Stop() end
 end
 
 -- Play a voice's sample (its X-LoreForever-Sample clip, else its first clip), or a line of the game's voice.
@@ -394,6 +686,8 @@ function Voice.Preview(value)
     local ok, willPlay, handle = pcall(PlaySoundFile, Voice.ClipPath(name, ids[i], data.ext), "Dialog")
     if ok and willPlay then
       Voice.handle = handle
+      setPreview(value)
+      watchPreview(handle)
       return true
     end
   end
@@ -415,6 +709,43 @@ function Voice.Stop()
     Voice.stoppedAt = now()
   end
   Voice.ttsActive = false
+  setPreview(nil)
+end
+
+-- Heard: every narration this character has played, so arriving somewhere again doesn't replay it. Kept per
+-- character in LoreForeverDB.heard = { ["Name-Realm"] = { [clip id] = time first heard } }; quest dialogue read
+-- aloud is kept as "questtext:<questID>:<detail|progress|complete>".
+local function heardStore()
+  if type(LoreForeverDB) ~= "table" then return nil end
+  if type(LoreForeverDB.heard) ~= "table" then LoreForeverDB.heard = {} end
+  local who = (ns.Journey and ns.Journey.CharKey and ns.Journey.CharKey()) or "?"
+  local t = LoreForeverDB.heard[who]
+  if type(t) ~= "table" then
+    t = {}
+    LoreForeverDB.heard[who] = t
+  end
+  return t
+end
+
+function Voice.Heard(id)
+  local t = id and heardStore()
+  return (t and t[id] ~= nil) or false
+end
+
+function Voice.MarkHeard(id)
+  local t = id and heardStore()
+  if t and t[id] == nil then t[id] = (time and time()) or 0 end
+end
+
+-- Forget what this character has heard (Options' "Reset heard narrations"). Returns how many were forgotten.
+function Voice.ResetHeard()
+  local t, n = heardStore(), 0
+  for id in pairs(t or {}) do
+    t[id] = nil
+    n = n + 1
+  end
+  Voice.autoSession = {}
+  return n
 end
 
 -- Play an entry's recorded narration: the chosen voice's file, or the next voice's if the game can't play it (e.g.
@@ -427,6 +758,7 @@ function Voice.Play(key)
     local ok, willPlay, handle = pcall(PlaySoundFile, path, "Dialog")
     if ok and willPlay then
       Voice.handle = handle
+      Voice.MarkHeard(key)
       return true
     end
     dbg("can't play", path)
@@ -472,6 +804,15 @@ Voice.METHOD_ORDER = { "direct", "helper", "legacy" }
 
 local function speakNow(text, only)
   local id, voice, rate, volume = voiceSettings()
+  -- No speech voices at all: the game's text-to-speech uses the system's, and Mac, Linux and Wine setups often have
+  -- none. Say so once instead of staying silent (LOR-43); recorded narrations don't need them.
+  if not id then
+    if not Voice.warnedNoVoices then
+      Voice.warnedNoVoices = true
+      say(L["Read aloud can't speak: your system has no text-to-speech voices (common on Mac and Linux). Recorded narrations still play."])
+    end
+    return false
+  end
   for _, name in ipairs(only and { only } or Voice.METHOD_ORDER) do
     local ok, err = METHODS[name](id, voice, text, rate, volume)
     dbg("speak via", name, "voice", id, "rate", rate, "volume", volume, "->", ok, err)
@@ -568,4 +909,246 @@ function Voice.OnTaxiCheck()
   else
     Voice.Narrate(key, e.n .. ". " .. e.s .. ((first and (first.sp or 0) == 0) and (" " .. first.b) or ""))
   end
+end
+
+-- Playing on arrival (Options > Play narrations as you arrive): reaching a zone or a place with a recorded narration
+-- plays it, once per character (or once a session with "Skip what you've heard" off). Arrivals settle for a moment
+-- first, so a loading screen or hopping back and forth across a zone line plays only where you end up. Nothing starts
+-- in combat (it waits for combat to end), on a flight (flight narration has those) or over anything already playing.
+local AUTO_SETTLE = 3
+Voice.autoSession = {}   -- clip ids played automatically this session
+
+local function inCombat()
+  return (InCombatLockdown and InCombatLockdown()) or (UnitAffectingCombat and UnitAffectingCombat("player")) or false
+end
+
+-- Talking to someone: a quest giver's or a gossip window is open. Arriving in a town usually means walking straight
+-- up to its quest givers, and the town's story shouldn't talk over them.
+local function talking()
+  for _, name in ipairs({ "QuestFrame", "GossipFrame" }) do
+    local f = _G[name]
+    if f and f.IsShown and f:IsShown() then return true end
+  end
+  return false
+end
+
+local function fresh(id)
+  if Voice.autoSession[id] then return false end
+  return S().skipHeard == false or not Voice.Heard(id)
+end
+
+-- What to play where you are: the zone's story the first time you're there, then the place's.
+local function arrivalKey()
+  local db = ns.DB or {}
+  local zone = GetRealZoneText and GetRealZoneText()
+  local zk = zone and zone ~= "" and ns.engine and ns.engine:ZoneKey(zone)
+  local sub = GetSubZoneText and GetSubZoneText()
+  local sk = sub and sub ~= "" and db.index and db.index.name[ns.Engine.lower(sub)]
+  if sk and not (db.entries[sk] and db.entries[sk].t == "subzone") then sk = nil end
+  for _, key in ipairs({ zk and ("zone:" .. zk) or false, sk or false }) do
+    if key and Voice.HasAudio(key) and fresh(key) then return key end
+  end
+end
+
+local function autoPlay()
+  Voice.autoWaiting = nil
+  local UI = ns.UI
+  if S().autoZone == false or Voice.Current() == "none" or not (UI and UI.frame) then return end
+  if inCombat() or talking() then
+    Voice.autoWaiting = true
+    return
+  end
+  if (UnitOnTaxi and UnitOnTaxi("player")) or UI.IsBusy() then return end
+  local key = arrivalKey()
+  local target = key and UI.EntryTarget(key)
+  if not target then return end
+  Voice.autoSession[key] = true
+  if UI.frame:IsShown() then
+    -- Panel open: the story goes in the chat too, as when you press play yourself.
+    return UI.PlayEntry(key, string.format(L["Tell me the story of %s"], target.label))
+  end
+  UI.ListenTo(target)
+  if not (UI.speaking and UI.playingId == key) then return end
+  local line = string.format(L["now playing: %s. %s"], target.label, ns.Hooks.Link(L["Read along"], "entry", key))
+    .. " " .. ns.Hooks.Link(L["Stop"], "listen", key)
+  if not S().autoZoneTold then
+    S().autoZoneTold = true
+    line = line .. " " .. L["(Narrations play as you arrive; Options > Play narrations as you arrive turns this off.)"]
+  end
+  say(line)
+end
+
+-- Called on every zone or subzone change, and at login.
+function Voice.OnArrive()
+  if S().autoZone == false then return end
+  local token = {}
+  Voice.autoToken = token
+  C_Timer.After(AUTO_SETTLE, function()
+    if Voice.autoToken == token then autoPlay() end
+  end)
+end
+
+-- Combat ended, or you stopped talking to someone: an arrival that came meanwhile plays now (if you're still there
+-- and nothing else plays). It settles first, so walking from one quest giver to the next doesn't start it.
+function Voice.OnCombatOver()
+  if Voice.autoWaiting then Voice.OnArrive() end
+end
+Voice.OnTalkOver = Voice.OnCombatOver
+
+-- Quest dialogue (Options > Narrate quest dialogue): when a quest giver's window opens, play the quest's recorded
+-- narration if it has one (on the quest's first page), otherwise read the page aloud with the game's voice when Read
+-- aloud is on. Closing the window or opening another quest stops it; a page this character has heard isn't read again.
+local QUEST_PREFIX = "questtext:"
+
+local function isQuestText(id) return type(id) == "string" and id:sub(1, #QUEST_PREFIX) == QUEST_PREFIX end
+
+local function questPage(kind)
+  local parts = {}
+  local function add(fn)
+    local f = _G[fn]
+    local ok, v = false, nil
+    if f then ok, v = pcall(f) end
+    if ok and type(v) == "string" and v:find("%S") then parts[#parts + 1] = v end
+  end
+  if kind == "detail" then
+    add("GetTitleText")
+    add("GetQuestText")
+    add("GetObjectiveText")
+  elseif kind == "progress" then
+    add("GetProgressText")
+  else
+    add("GetRewardText")
+  end
+  return table.concat(parts, " ")
+end
+
+-- kind: "detail", "progress" or "complete"; recorded: the quest's lore entry, if it has one.
+function Voice.OnQuestFrame(kind, recorded)
+  local UI = ns.UI
+  if S().autoQuest == false or not (UI and UI.frame) then return end
+  local qid = GetQuestID and GetQuestID()
+  if not qid or qid == 0 then return end
+  local id = QUEST_PREFIX .. qid .. ":" .. kind
+  local ours = UI.speaking and isQuestText(UI.playingId)
+  if UI.IsBusy() and not ours then return end   -- never over something you started
+  if UI.playingId == id then return end
+  local key = kind == "detail" and recorded and Voice.Current() ~= "none" and Voice.HasAudio(recorded)
+    and recorded or nil
+  local text = questPage(kind)
+  if not fresh(id) or not (key or (text ~= "" and Voice.Available())) then
+    if ours then UI.StopAll() end   -- the last quest's page stops all the same
+    return
+  end
+  Voice.autoSession[id] = true
+  UI.ListenTo({ id = id, key = key or id, label = (GetTitleText and GetTitleText()) or L["Quest"], text = text })
+  if UI.speaking and UI.playingId == id then Voice.MarkHeard(id) end
+end
+
+-- The quest window closed: stop its page.
+function Voice.OnQuestClosed()
+  local UI = ns.UI
+  if UI and UI.speaking and isQuestText(UI.playingId) then UI.StopAll() end
+end
+
+-- Books, letters and plaques (Options > Read books aloud, LOR-49): opening one reads its page with the game's voice
+-- when Read aloud is on, turning the page reads the next, closing it stops. Like quest dialogue, a page this
+-- character has heard isn't read again by itself, and nothing cuts off something you started. The Read aloud button
+-- on the book reads the page on demand (Voice.ReadBookPage(true)). Books have no recordings yet: if one ever has a
+-- clip under its page id, that plays instead.
+local BOOK_PREFIX = "booktext:"
+
+local function isBookText(id) return type(id) == "string" and id:sub(1, #BOOK_PREFIX) == BOOK_PREFIX end
+Voice.IsBookText = isBookText
+
+local function bookPage()
+  local function get(fn)
+    local f = _G[fn]
+    if not f then return nil end
+    local ok, v = pcall(f)
+    return ok and v or nil
+  end
+  local title, text, page = get("ItemTextGetItem"), get("ItemTextGetText"), get("ItemTextGetPage")
+  if type(text) ~= "string" then return nil end
+  -- Some books are HTML: read the words, not the markup.
+  text = text:gsub("<[^>]+>", " "):gsub("&nbsp;", " "):gsub("&amp;", "&"):gsub("%s+", " "):match("^%s*(.-)%s*$")
+  if not text:find("%S") then return nil end
+  title = type(title) == "string" and title ~= "" and title or L["Book"]
+  local id = BOOK_PREFIX .. ns.Engine.lower(title) .. "#" .. tostring(tonumber(page) or 1)
+  return id, title, text
+end
+
+-- A page is showing. byHand: the book's Read aloud button (plays even if heard, stops it if it's this page).
+function Voice.ReadBookPage(byHand)
+  local UI = ns.UI
+  if not (UI and UI.frame) then return end
+  if not byHand and S().readBooks == false then return end
+  local id, title, text = bookPage()
+  if not id then return end
+  if byHand and UI.speaking and UI.playingId == id then return UI.StopAll() end
+  local ours = UI.speaking and isBookText(UI.playingId)
+  if not byHand then
+    if UI.IsBusy() and not ours then return end   -- never over something you started
+    if UI.playingId == id then return end
+  end
+  local key = Voice.HasAudio(id) and id or nil
+  if not (key or Voice.Available()) or (not byHand and not fresh(id)) then
+    if ours then UI.StopAll() end   -- the last page stops all the same
+    return
+  end
+  Voice.autoSession[id] = true
+  UI.ListenTo({ id = id, key = id, label = title, text = text })
+  if UI.speaking and UI.playingId == id then Voice.MarkHeard(id) end
+end
+
+-- The book closed: stop its page.
+function Voice.OnBookClosed()
+  local UI = ns.UI
+  if UI and UI.speaking and isBookText(UI.playingId) then UI.StopAll() end
+end
+
+-- Players who run the Spoken add-ons (zones, quests and books read aloud) would hear both. The first time Lore
+-- Forever finds one loaded, it leaves arrivals and quest dialogue to Spoken and says how to turn them back on; after
+-- that the player's choice in Options stands (LOR-138).
+function Voice.CheckSpoken()
+  local s = S()
+  if s.spokenChecked and s.spokenBooks then return end
+  local C = _G.C_AddOns
+  local count = (C and C.GetNumAddOns) or _G.GetNumAddOns
+  local info = (C and C.GetAddOnInfo) or _G.GetAddOnInfo
+  local loaded = (C and C.IsAddOnLoaded) or _G.IsAddOnLoaded
+  if not (count and info and loaded) then return end
+  local okN, n = pcall(count)
+  local found = false
+  for i = 1, (okN and n) or 0 do
+    local ok, name = pcall(info, i)
+    if ok and type(name) == "string" and name:lower():find("^spoken") then
+      local okL, isLoaded = pcall(loaded, name)
+      if okL and isLoaded then found = true break end
+    end
+  end
+  if not found then return end
+  -- Books came later (LOR-49): players already past the first check have them left to Spoken on their own.
+  local booksOff = not s.spokenBooks and s.readBooks ~= false
+  s.spokenBooks = true
+  if booksOff then s.readBooks = false end
+  if s.spokenChecked then
+    if booksOff then say(L["Spoken is running, so Lore Forever won't read books aloud by itself. Options > Read books aloud turns that back on."]) end
+    return
+  end
+  s.spokenChecked = true
+  if s.autoZone == false and s.autoQuest == false then return end
+  s.autoZone, s.autoQuest = false, false
+  say(L["Spoken is running, so narrations won't play by themselves as you arrive or talk to a quest giver. Type /lore autoplay (or use Options) to turn that back on."])
+end
+
+-- /lore autoplay: both automatic narrations off if either is on, else both on. Returns the new state.
+function Voice.ToggleAutoplay()
+  local s = S()
+  local on = not (s.autoZone ~= false or s.autoQuest ~= false)
+  s.autoZone, s.autoQuest = on, on
+  if not on then
+    Voice.autoToken = nil
+    Voice.OnQuestClosed()
+  end
+  return on
 end

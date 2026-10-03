@@ -1,7 +1,8 @@
 ; Lore Forever Windows installer (Inno Setup 6).
-; Installs the add-on into <WoW>\_classic_beta_\Interface\AddOns\LoreForever and the default narration voice pack
-; next to it in AddOns\LoreForever_Voice_Default. The WoW folder is found from Battle.net's uninstall entry, and
-; the player can change it on the folder page. Running a newer installer updates in place.
+; Installs the add-on into <WoW>\_classic_beta_\Interface\AddOns\LoreForever and the packs from the release zip next
+; to it: the default narration voice (LoreForever_Voice_Default), its Alliance and Horde lands packs and the language
+; packs (LoreForever_Lang_<locale>, which load only for that language). The WoW folder is found from Battle.net's
+; uninstall entry, and the player can change it on the folder page. Running a newer installer updates in place.
 ;
 ; Built by .github/workflows/release.yml from the unzipped release zip:
 ;   iscc /DAppVersion=0.3.0 /DSourceDir=<folder holding the zip's add-on folders> /DOutputDir=dist release\installer\LoreForever.iss
@@ -18,6 +19,12 @@
 
 #define AddOnDir "{app}\_classic_beta_\Interface\AddOns\LoreForever"
 #define VoiceDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default"
+#define AllianceDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_Alliance"
+#define HordeDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_Horde"
+#define DeDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Lang_deDE"
+#define PtDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Lang_ptBR"
+#define EsDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Lang_esES"
+#define FrDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Lang_frFR"
 
 [Setup]
 AppId={{6B7E3F52-4C1D-4E8A-9A57-1F0D2C8B5E31}
@@ -64,16 +71,34 @@ FinishedLabel=Lore Forever is installed.%n%nStart WoW Forever, pick a key when i
 Type: filesandordirs; Name: "{#AddOnDir}\Data"
 ; Narration used to live in LoreForever\Audio; it ships in the voice pack now.
 Type: filesandordirs; Name: "{#AddOnDir}\Audio"
-; Replace the voice pack wholesale so recordings dropped from it don't linger.
+; Replace the packs wholesale so recordings and data chunks dropped from them don't linger.
 Type: filesandordirs; Name: "{#VoiceDir}"
+Type: filesandordirs; Name: "{#AllianceDir}"
+Type: filesandordirs; Name: "{#HordeDir}"
+Type: filesandordirs; Name: "{#DeDir}"
+Type: filesandordirs; Name: "{#PtDir}"
+Type: filesandordirs; Name: "{#EsDir}"
+Type: filesandordirs; Name: "{#FrDir}"
 
 [Files]
 Source: "{#SourceDir}\LoreForever\*"; DestDir: "{#AddOnDir}"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "{#SourceDir}\LoreForever_Voice_Default\*"; DestDir: "{#VoiceDir}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#SourceDir}\LoreForever_Voice_Default_Alliance\*"; DestDir: "{#AllianceDir}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#SourceDir}\LoreForever_Voice_Default_Horde\*"; DestDir: "{#HordeDir}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#SourceDir}\LoreForever_Lang_deDE\*"; DestDir: "{#DeDir}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#SourceDir}\LoreForever_Lang_ptBR\*"; DestDir: "{#PtDir}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#SourceDir}\LoreForever_Lang_esES\*"; DestDir: "{#EsDir}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#SourceDir}\LoreForever_Lang_frFR\*"; DestDir: "{#FrDir}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [UninstallDelete]
 Type: filesandordirs; Name: "{#AddOnDir}"
 Type: filesandordirs; Name: "{#VoiceDir}"
+Type: filesandordirs; Name: "{#AllianceDir}"
+Type: filesandordirs; Name: "{#HordeDir}"
+Type: filesandordirs; Name: "{#DeDir}"
+Type: filesandordirs; Name: "{#PtDir}"
+Type: filesandordirs; Name: "{#EsDir}"
+Type: filesandordirs; Name: "{#FrDir}"
 
 [Run]
 Filename: "https://loreforeverwow.com"; Description: "Open the Lore Forever website"; Flags: postinstall shellexec nowait unchecked

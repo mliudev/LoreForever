@@ -24,7 +24,7 @@
  "sections": [
   {
    "title": "A Dying Request",
-   "body": "Sent into the corrupted folds of eastern Ashenvale to search for missing dryads, Alliance travelers stumble upon Anilia clinging to the very edge of life. With her final breaths, the wounded daughter of Cenarius gestures toward the satyr ruins to the north. Gasping out the name of her killer\u2014Geltharis\u2014she begs with her fading strength for the recovery of the Branch of Cenarius before succumbing to her wounds.",
+   "body": "Sent into the corrupted folds of eastern Ashenvale to search for missing dryads, Alliance travelers stumble upon Anilia clinging to the very edge of life. With her final breaths, the wounded daughter of Cenarius gestures toward the satyr ruins to the north. Gasping out the name of the satyr who has taken it\u2014Geltharis\u2014she begs with her fading strength for the recovery of the Branch of Cenarius before succumbing to her wounds.",
    "spoiler": 0
   },
   {
@@ -46,7 +46,7 @@
     "what is the branch",
     "cenarius branch"
    ],
-   "answer": "It is a sacred nature relic linked to the forest lord Cenarius, deeply cherished by his dryad daughters. The satyr Geltharis stole it from Anilia after mortally wounding her."
+   "answer": "It is a sacred nature relic linked to the forest lord Cenarius, deeply cherished by his dryad daughters. The satyrs had taken it, and Anilia was mortally wounded leading her sisters to take it back; with her last breath she named Geltharis as the one who has it."
   },
   {
    "q": "Who killed Anilia?",
@@ -55,7 +55,7 @@
     "who attacked anilia",
     "who killed the dryad"
    ],
-   "answer": "Anilia was attacked and fatally wounded by the satyr Geltharis, who stole the Branch of Cenarius before leaving her to die in the forest."
+   "answer": "Anilia was fatally wounded in the satyr-held ruins of Xavian while trying to recover the Branch of Cenarius. With her dying breath she named the satyr Geltharis as the one who has taken it."
   },
   {
    "q": "Where is Geltharis located?",

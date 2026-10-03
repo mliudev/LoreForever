@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "The Only Human Farstrider",
-   "body": "Before the Third War, Nathanos Marris was an extraordinary marksman and tactical genius hailing from the rural outskirts of Lordaeron. His battlefield exploits against the Amani trolls caught the attention of Sylvanas Windrunner, the Ranger-General of Silvermoon. Defying the staunch prejudices of elven nobility\u2014including protests from Prince Kael'thas Sunstrider\u2014Sylvanas elevated him into the Farstriders. Nathanos became the only human to ever attain the prestigious rank of Ranger Lord. Weary of elven court politics and cold sneers from peers like Lor'themar Theron, he spent his downtime at his family estate, the Marris Stead, where Sylvanas frequently visited him.",
+   "body": "Before the Third War, Nathanos Marris was an extraordinary marksman and tactical genius hailing from the rural outskirts of Lordaeron. Trained by the high elves of Quel'Thalas and close to Sylvanas Windrunner, he became the only human to ever attain the prestigious rank of Ranger Lord. His home remained the family estate in Lordaeron, the Marris Stead.",
    "spoiler": 0
   },
   {
    "title": "The Fall and Rebirth",
-   "body": "When Prince Arthas and the Scourge swept through Lordaeron following the purge of Stratholme, the plague consumed the kingdom. Nathanos made a desperate stand at his estate, but fell to the monstrous abomination Ramstein the Gorger. Raised as a mindless undead thrall, he roamed the blighted fields killing in the Lich King's name. After Sylvanas shattered the Scourge's mental grip and established the Forsaken in the Undercity, she tracked him down. Her dark rangers subdued the rabid ghoul, and Sylvanas personally tore his consciousness free from the Lich King's will, returning his tactical brilliance and fiery loyalty to her side.",
+   "body": "When Prince Arthas and the Scourge swept through Lordaeron following the purge of Stratholme, the plague consumed the kingdom. Nathanos made a desperate stand at his estate, but fell to the monstrous abomination Ramstein the Gorger. Raised as a mindless undead thrall, he roamed the blighted fields killing in the Lich King's name. After Sylvanas shattered the Scourge's mental grip and established the Forsaken in the Undercity, she came for him, as he had somehow known she would, and tore his consciousness free from the Lich King's will, returning his tactical brilliance and fiery loyalty to her side.",
    "spoiler": 0
   },
   {
@@ -34,7 +34,7 @@
     "nathanos lore",
     "who is the guy at marris stead"
    ],
-   "answer": "Nathanos Blightcaller was Nathanos Marris, a renowned human marksman and the only non-elf ever appointed Ranger Lord of Quel'Thalas by Sylvanas Windrunner. Following his death and resurrection during the Third War, Sylvanas freed his mind from the Scourge. He now serves as her champion and hunter trainer at his ancestral home in the Eastern Plaguelands."
+   "answer": "Nathanos Blightcaller was Nathanos Marris, a renowned human marksman and the only non-elf ever made a Ranger Lord of Quel'Thalas. Following his death and resurrection during the Third War, Sylvanas freed his mind from the Scourge. He now serves as her champion and hunter trainer at his ancestral home in the Eastern Plaguelands."
   },
   {
    "q": "Why is Nathanos at the Marris Stead?",
@@ -43,7 +43,7 @@
     "why is nathanos in plaguelands",
     "marris stead nathanos"
    ],
-   "answer": "The Marris Stead was Nathanos's childhood home in life. He preferred its quiet isolation to the snobbish politics of Silvermoon City. In undeath, he chose to return to his ruined estate, transforming it into an outpost to train Forsaken hunters and monitor Alliance and Scourge movements."
+   "answer": "The Marris Stead was Nathanos's home in life, and it was there that he fell defending Lordaeron. In undeath, he chose to return to his ruined estate, transforming it into an outpost to train Forsaken hunters and monitor Alliance and Scourge movements."
   },
   {
    "q": "How did Nathanos become an undead?",
@@ -52,7 +52,7 @@
     "who killed nathanos",
     "nathanos death"
    ],
-   "answer": "Nathanos was killed at his homestead during the Third War by the Scourge abomination Ramstein the Gorger. He rose as an obedient, mindless thrall to the Lich King until Sylvanas tracked him down, subdued him, and liberated his mind so he could join the Forsaken."
+   "answer": "Nathanos was killed at his homestead during the Third War by the Scourge abomination Ramstein the Gorger. He rose as an obedient, mindless thrall to the Lich King until Sylvanas came for him and liberated his mind so he could join the Forsaken."
   },
   {
    "q": "Why does the Alliance want to kill him?",
@@ -70,7 +70,7 @@
     "did sylvanas love nathanos",
     "nathanos sylvanas romance"
    ],
-   "answer": "Nathanos was Sylvanas's prize pupil, trusted confidant, and champion. Sylvanas defied high elven tradition and her own prince to grant him the title of Ranger Lord, sparking widespread rumors of a romantic bond. In undeath, his loyalty to the Banshee Queen remains absolute and unwavering."
+   "answer": "Nathanos was close to Sylvanas in life, when the elves of Quel'Thalas made him their only human Ranger Lord, and he is now her champion. In undeath, his loyalty to the Banshee Queen remains absolute and unwavering."
   },
   {
    "q": "Who are the hounds standing near him?",
@@ -115,7 +115,6 @@
   "npc:sylvanas-windrunner",
   "zone:easternplaguelands",
   "topic:forsaken",
-  "npc:lor-themar-theron",
   "topic:scourge",
   "subzone:stratholme",
   "zone:undercity"

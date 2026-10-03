@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "Scholar of Lost Lordaeron",
-   "body": "In life, Parqual was a respected human scholar who resided in Lordaeron's Capital City with his family, immersing himself in historical texts. When the plague of undeath struck, Parqual was among the many citizens slain and raised, only to eventually break free under Lady Sylvanas Windrunner. While the Forsaken largely embrace cold pragmatism and turn away from their former lives, Parqual retains his scholarly passion and pleasant manners, quietly longing for the historical tomes and memories of the world that once was.",
+   "body": "In life, Parqual was a respected human scholar of Lordaeron who knew all there was to know of the kingdom, immersing himself in historical texts. When the plague of undeath struck, Parqual was among the many citizens slain and raised, only to eventually break free under Lady Sylvanas Windrunner. While the Forsaken largely embrace cold pragmatism and turn away from their former lives, Parqual retains his scholarly passion and pleasant manners, quietly longing for the historical tomes and memories of the world that once was.",
    "spoiler": 0
   },
   {
    "title": "Keeper of Ancient Lore",
-   "body": "Parqual dwells among the bubbling vats and alchemists of the Apothecarium in the Undercity. Despite his macabre surroundings, he remains an invaluable font of knowledge regarding Azeroth's history. When adventurers undertake rigorous intellectual trials\u2014such as the elusive 'Test of Lore'\u2014they are directed to Parqual to retrieve answers and historical records that few others in the Horde possess.",
+   "body": "Parqual dwells among the bubbling vats and alchemists of the Apothecarium in the Undercity. Despite his macabre surroundings, he remains an invaluable font of knowledge regarding Azeroth's history. When adventurers undertake rigorous intellectual trials\u2014such as the elusive 'Test of Lore'\u2014they are directed to Parqual, who sends them to the Scarlet Monastery's library for a book and then puts a question of his own to them.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "test of lore undercity",
     "parqual fintallas quest"
    ],
-   "answer": "The Test of Lore requires adventurers to demonstrate knowledge and retrieve esoteric records from around Azeroth. Parqual serves as an important contact because of his unmatched scholarly background and access to historical tomes in Lordaeron."
+   "answer": "The Test of Lore requires adventurers to demonstrate knowledge as well as strength. Because of his scholarly background, Parqual sets one of its trials: he sends them to the Scarlet Monastery for the book Beginnings of the Undead Threat, then asks them a question about it."
   },
   {
    "q": "Does Parqual share the hostile demeanor of most Forsaken?",

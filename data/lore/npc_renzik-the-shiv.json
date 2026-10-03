@@ -8,11 +8,11 @@
   "wiki": "Renzik \"The Shiv\"",
   "refs": 3
  },
- "summary": "Renzik \"The Shiv\" is a goblin operative and the trusted second-in-command of SI:7, stationed inside their headquarters in Stormwind City's Old Town. Despite his rough origins as an enforcer in Undermine, he serves Spymaster Mathias Shaw faithfully, directing new rogue recruits and handling covert operations where typical Alliance agents cannot tread.",
+ "summary": "Renzik \"The Shiv\" is a goblin operative and the trusted second-in-command of SI:7, stationed inside their headquarters in Stormwind City's Old Town. He serves Spymaster Mathias Shaw faithfully, directing new rogue recruits and handling covert operations where typical Alliance agents cannot tread.",
  "sections": [
   {
-   "title": "From Undermine Enforcer to Alliance Spy",
-   "body": "Born in the subterranean goblin metropolis of Undermine beneath Kezan, Renzik grew up on ruthless streets after his parents were murdered. Relying on an improvised shiv and sharp instincts, he eventually rose to become the chief enforcer for Trade Prince Mozzy Gloxscorn of the Krackslagger Cartel. Known as Mozzy's \"Bloody Fist,\" Renzik broke heads and settled cartel scores, yet he grew disillusioned with the cruelty of cartel rule. A fateful clash in Undermine with Stormwind spymaster Mathias Shaw revealed another way forward. Shaw offered him an escape and an invite to Stormwind, which Renzik eventually accepted.",
+   "title": "A Goblin in SI:7",
+   "body": "Renzik keeps the story of his past to himself. What Stormwind knows is that this goblin found his way into SI:7 and now stands as Spymaster Mathias Shaw's second in command. He has little taste for company, but the pay is good, and he values the respect his position brings; he counts himself one of the few goblins who can honestly say they are respected rather than simply feared.",
    "spoiler": 0
   },
   {
@@ -29,7 +29,7 @@
     "goblin in stormwind",
     "why is there a goblin in si7"
    ],
-   "answer": "Renzik grew disgusted by the cutthroat greed of the Undermine cartels after a run-in with Spymaster Mathias Shaw. Shaw offered him a coin and an open door in Stormwind. Renzik values the genuine respect and steady pay he earns among SI:7, taking pride in being respected rather than merely feared."
+   "answer": "Renzik keeps the story of how he came to Stormwind to himself. He values the steady pay and genuine respect he earns among SI:7, taking pride in being respected rather than merely feared. His goblin face is also an asset: he can work in Orgrimmar and other Horde lands where human, dwarf, or gnome agents would stand out."
   },
   {
    "q": "Why is he called 'The Shiv'?",
@@ -38,7 +38,7 @@
     "renzik nickname",
     "renzik the shiv meaning"
    ],
-   "answer": "He earned the title during his rough youth in Undermine, both for carrying an improvised blade for protection and for his natural ability to improvise lethal solutions out of tight spots."
+   "answer": "Renzik has never shared the story behind the name with Stormwind. The nickname is all anyone in Old Town gets, and for a spy that may be the point."
   },
   {
    "q": "What does Renzik do for player rogues?",
@@ -57,15 +57,6 @@
     "where is renzik"
    ],
    "answer": "He is stationed inside the SI:7 headquarters in Old Town, Stormwind City. In the broader scope of intelligence work, his goblin identity allows him to blend in and run espionage operations in places standard Alliance agents cannot go, such as Orgrimmar."
-  },
-  {
-   "q": "What was his past in Kezan?",
-   "aliases": [
-    "renzik backstory",
-    "renzik undermind",
-    "renzik krackslagger"
-   ],
-   "answer": "Before coming to Stormwind, Renzik was the right hand and head enforcer of Trade Prince Mozzy Gloxscorn in the Krackslagger Cartel. He was known across Undermine for brutal efficiency, though he secretly harbored sympathy for the city's street orphans."
   },
   {
    "q": "Does Renzik maintain ties outside Stormwind?",
@@ -100,8 +91,7 @@
   "rogue",
   "si:7",
   "stormwind",
-  "the shiv",
-  "undermine"
+  "the shiv"
  ],
  "related": [
   "npc:mathias-shaw",

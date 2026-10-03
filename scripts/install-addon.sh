@@ -33,6 +33,9 @@ for name in "${FOLDERS[@]}"; do
   SRC="$ADDONS_SRC/$name"
   DEST="$WOW/Interface/AddOns/$name"
   [ -d "$SRC" ] || { echo "missing $SRC" >&2; exit 1; }
+  # A development link to a checkout (CONTRIBUTING.md, "Fast dev loop") already shows that checkout: copying into it
+  # would write into the checkout.
+  if [ -L "$DEST" ]; then echo "Skipped $name: $DEST is a link to a checkout, not a copy"; continue; fi
   # Copy over the existing folder instead of deleting it first: while the game runs it can hold an MP3 open, and a
   # failed delete would leave a half-removed add-on. Files the game has locked are skipped (audio rarely changes).
   mkdir -p "$DEST"
@@ -43,6 +46,7 @@ for name in "${FOLDERS[@]}"; do
   echo "Installed $name -> $DEST"
 done
 # Narration used to live in LoreForever/Audio; it's in the voice pack now. Restart the game (not /reload) the first
-# time, so it finds the new add-on folder.
-[ -d "$ADDONS_SRC/LoreForever/Audio" ] || rm -rf "$WOW/Interface/AddOns/LoreForever/Audio" 2>/dev/null || true
+# time, so it finds the new add-on folder. (Never through a development link: that would delete from the checkout.)
+[ -d "$ADDONS_SRC/LoreForever/Audio" ] || [ -L "$WOW/Interface/AddOns/LoreForever" ] \
+  || rm -rf "$WOW/Interface/AddOns/LoreForever/Audio" 2>/dev/null || true
 ls -la "$WOW/Interface/AddOns/LoreForever"

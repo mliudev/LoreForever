@@ -8,16 +8,16 @@
   "wiki": "Master Gadrin",
   "refs": 5
  },
- "summary": "Master Gadrin is an elderly jungle troll and the venerable chief witch doctor of the Darkspear tribe, currently residing in Sen'jin Village. Having mentored both Chieftain Vol'jin and the renegade witch doctor Zalazane, he now coordinates efforts to aid his displaced people and break the dark curse gripping their stolen home on the Echo Isles.",
+ "summary": "Master Gadrin is an elderly jungle troll and a venerable witch doctor of the Darkspear tribe, currently residing in Sen'jin Village. Having once trained the tribe's priests and mages alongside the renegade witch doctor Zalazane, he now coordinates efforts to aid his displaced people and break the dark curse gripping their stolen home on the Echo Isles.",
  "sections": [
   {
    "title": "Mentor of the Darkspear",
-   "body": "Long before the Darkspear arrived on Kalimdor, Master Gadrin served as the chief witch doctor of his tribe in their ancestral South Seas islands. Known affectionately to his closest pupils as 'Gad', he guided the mystical training of generations of priests, mages, and witch doctors. Among his most gifted students were two inseparable youths: Vol'jin, the son of their chieftain, and Zalazane. It was Gadrin who welcomed them back from their coming-of-age trials, bearing the heavy news of Sen'jin's death and the alliance with Thrall's orcs.",
+   "body": "Long before the Darkspear arrived on Kalimdor, Master Gadrin served as a witch doctor of his tribe in their ancestral South Seas islands, where he guided the mystical training of generations of Darkspear trolls.",
    "spoiler": 0
   },
   {
    "title": "The Betrayal of Zalazane",
-   "body": "When the Darkspear settled the Echo Isles alongside the Horde, Gadrin and Zalazane continued training the tribe's spiritual practitioners together. Tragically, Zalazane succumbed to madness, intoxicated by the dark voodoo forces he sought to wield. The rogue practitioner enslaved his brethren's minds and drove Vol'jin and the uncorrupted Darkspear onto the mainland of Durotar. Now based in Sen'jin Village, Gadrin carries the personal sorrow of seeing a former student become a tyrannical monster, working tirelessly to lay slain tribesfolk to rest and end Zalazane's reign.",
+   "body": "When the Darkspear settled the Echo Isles alongside the Horde, Gadrin and the young witch doctor Zalazane led the mystical training of the tribe's priests and mages together. Tragically, Zalazane succumbed to madness, intoxicated by the dark voodoo forces he sought to wield. The rogue practitioner enslaved his brethren's minds and drove Vol'jin and the uncorrupted Darkspear onto the mainland of Durotar. Now based in Sen'jin Village, Gadrin carries the personal sorrow of seeing a former companion become a tyrannical monster, working tirelessly to lay slain tribesfolk to rest and end Zalazane's reign.",
    "spoiler": 0
   },
   {
@@ -34,7 +34,7 @@
     "who is gadrin",
     "gadrin npc"
    ],
-   "answer": "Master Gadrin is the chief witch doctor and an elder spiritual leader of the Darkspear trolls. Located in Sen'jin Village on the coast of Durotar, he serves as a senior advisor to Chieftain Vol'jin."
+   "answer": "Master Gadrin is a witch doctor and an elder spiritual leader of the Darkspear trolls. Located in Sen'jin Village on the coast of Durotar, he serves as a senior advisor to Chieftain Vol'jin."
   },
   {
    "q": "What is Gadrin's history with Zalazane?",
@@ -43,7 +43,7 @@
     "how does gadrin know zalazane",
     "zalazane mentor"
    ],
-   "answer": "Gadrin was Zalazane's mentor in the South Seas and on the Echo Isles. He personally trained the young troll in voodoo and mysticism alongside Vol'jin, only to watch in horror as Zalazane fell to dark magic, went mad, and drove the Darkspear from their island home."
+   "answer": "On the Echo Isles, Gadrin and the young witch doctor Zalazane led the mystical training of the Darkspear's priests and mages together, only for Gadrin to watch in horror as Zalazane fell to dark magic, went mad, and drove the Darkspear from their island home."
   },
   {
    "q": "Why is Gadrin staying in Sen'jin Village?",
@@ -76,7 +76,7 @@
     "shadra spider loa gadrin",
     "gadrin spider god"
    ],
-   "answer": "Gadrin is a master of ancient troll theology. When the Forsaken Apothecary Lydon seeks a potent venom used by the Hinterlands Witherbark trolls, Gadrin identifies it as a gift from Shadra the spider loa, directing adventurers to Zul'Farrak to obtain the tablet needed to prepare a summoning ritual."
+   "answer": "Gadrin is a master of ancient troll theology. When the Forsaken Apothecary Lydon seeks a potent venom used by the Hinterlands Witherbark trolls, Gadrin identifies it as a gift from Shadra the spider loa, directing adventurers to Zul'Farrak to read the tablet bearing her true name, which he needs to write a spell of summoning."
   }
  ],
  "angles": [
@@ -94,7 +94,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "Master Gadrin is one of Thrall's trusted local advisors, keeping watchful eyes on coastal Durotar and warning Razor Hill when dark cults threaten the fledgling nation of Durotar."
+   "text": "Master Gadrin is one of Vol'jin's most trusted advisors, keeping watchful eyes on coastal Durotar and warning Razor Hill when dark cults threaten the fledgling nation of Durotar."
   }
  ],
  "keywords": [

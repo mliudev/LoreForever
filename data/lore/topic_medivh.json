@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Medivh"
  },
- "summary": "Medivh was the last Guardian of Tirisfal, an ancient order tasked with defending Azeroth from demonic corruption. Bound from before his birth by the spirit of the Dark Titan Sargeras, he opened the Dark Portal and brought the orcish Horde into the world, setting off decades of catastrophic warfare before dying and later walking the earth as a wandering prophet to orchestrate the world's defense.",
+ "summary": "Medivh was the last Guardian of Tirisfal, an ancient order tasked with defending Azeroth from demonic corruption. Bound from before his birth by the spirit of the Dark Titan Sargeras, he opened the Dark Portal and brought the orcish Horde into the world, setting off decades of catastrophic warfare.",
  "sections": [
   {
    "title": "A Cursed Heritage",
-   "body": "Medivh was born to the powerful Guardian Aegwynn and the court conjurer Nielas Aran. Centuries earlier, Aegwynn had fought the fallen Titan Sargeras in Northrend, unaware that his dark essence slipped into her body to await an heir. When Medivh reached his fourteenth birthday, the vast magical inheritance bestowed by his mother manifested in a terrifying explosion of power, killing his father and plunging the boy into a decade-long coma under the watch of the clerics at Northshire Abbey.",
+   "body": "Medivh was born to the powerful Guardian Aegwynn and the court conjurer Nielas Aran. Centuries earlier, Aegwynn had fought the fallen Titan Sargeras in Northrend, unaware that his dark essence slipped into her body to await an heir. When Medivh reached his fourteenth birthday, the vast magical inheritance bestowed by his mother manifested in a terrifying explosion of power, plunging the boy into a decade-long coma under the watch of the clerics at Northshire Abbey.",
    "spoiler": 0
   },
   {
@@ -68,7 +68,7 @@
     "is the prophet medivh",
     "medivh status"
    ],
-   "answer": "After guiding the mortal races to victory over Archimonde at the Battle of Mount Hyjal, Medivh departed mortal affairs, stating that Azeroth no longer needed guardians. While his physical whereabouts are unknown, ghostly echoes and remnants of his soul still linger within his haunted tower of Karazhan."
+   "answer": "After guiding the mortal races to victory over Archimonde at the Battle of Mount Hyjal, Medivh left to take his place among the legends of the past. His whereabouts since are unknown."
   },
   {
    "q": "What is Karazhan?",
@@ -94,7 +94,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "To Thrall's Horde, Medivh was the cloaked Prophet who directed them to sail west to Kalimdor, leading the orcs to their new home in Durotar and freedom from demonic slavery."
+   "text": "To Thrall's Horde, Medivh is the human sorcerer whose bargain with Gul'dan opened the Dark Portal and first brought the orcs into this world."
   }
  ],
  "keywords": [

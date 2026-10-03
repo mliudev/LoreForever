@@ -17,7 +17,7 @@
   "wiki": "The Missing Diplomat (3)",
   "chain": []
  },
- "summary": "This errand directs investigators from Jorgen in the Valley of Heroes to Elling Trias, the proprietor of Trias' Cheese in Stormwind's Trade District. Carrying a discreet sealed note, it bridges palace concerns about the missing diplomat into the underworld network quietly operated behind the counter of a modest cheese shop.",
+ "summary": "This errand directs investigators from Jorgen in the Valley of Heroes to Elling Trias, the proprietor of Trias' Cheese in Stormwind's Trade District. Carrying a discreet sealed note, it bridges palace concerns about the missing diplomat into the quiet contacts kept behind the counter of a modest cheese shop.",
  "sections": [
   {
    "title": "A Discreet Delivery",
@@ -26,7 +26,7 @@
   },
   {
    "title": "Behind the Shopfront",
-   "body": "To the casual shopper browsing wheels of Darnassian bleu or sharp cheddar, Master Cheesemonger Elling Trias appears to be nothing more than a jovial, hardworking merchant. In reality, Trias operates as one of the kingdom's most connected information brokers, intimately linked to the city's rogue network. Delivering Jorgen's note places the search for the missing royal directly into the hands of the capital's shadow trade.",
+   "body": "To the casual shopper browsing wheels of Darnassian bleu or sharp cheddar, Master Cheesemonger Elling Trias appears to be nothing more than a jovial, hardworking merchant. In reality, Trias shares some history with Jorgen and keeps contacts of his own well beyond the shop. Delivering Jorgen's note places the search for the missing diplomat quietly into his hands.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "cheese vendor",
     "elling trias identity"
    ],
-   "answer": "On the surface, Elling Trias is a respected merchant running Trias' Cheese in the Trade District of Stormwind. Beneath his culinary trade, he is deeply connected to Stormwind's rogue syndicate and acts as a key information gatherer and fixer for delicate kingdom matters."
+   "answer": "On the surface, Elling Trias is a respected merchant running Trias' Cheese in the Trade District of Stormwind. Beneath his culinary trade, he shares some history with Jorgen and has contacts of his own that he can put to use in delicate matters."
   },
   {
    "q": "Why does Jorgen tell me to keep quiet?",
@@ -83,13 +83,13 @@
     "why trias not guards",
     "guards vs trias"
    ],
-   "answer": "The official city guard is bound by protocol, jurisdiction, and potential political entanglements. Elling Trias has access to street-level whispers, rogue operatives, and underground leads that formal soldiers simply cannot reach."
+   "answer": "The official city guard is bound by protocol, jurisdiction, and potential political entanglements. Elling Trias has access to street-level whispers and quiet contacts that formal soldiers simply cannot reach."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Rogues know that Trias' Cheese is far more than a dairy storefront; it serves as a central clearinghouse for clandestine contacts and underworld contracts within Stormwind."
+   "text": "Rogues may suspect that Trias' Cheese is more than a dairy storefront; its owner keeps quiet contacts well beyond the Trade District."
   },
   {
    "target": "faction:Alliance",

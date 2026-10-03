@@ -17,11 +17,11 @@
   "wiki": "Furen's Armor",
   "chain": []
  },
- "summary": "Furen's Armor marks the culmination of an aspiring warrior's quest to assist the master smith Furen Longbeard in Stormwind. By gathering rare metals and elemental components, the adventurer helps Longbeard forge a resilient suit of fire-hardened mail. In return for their aid, Longbeard rewards the warrior with the finished mail and pledges to share his newfound metallurgical techniques across the Alliance.",
+ "summary": "Furen's Armor marks the culmination of an aspiring warrior's quest to assist the master smith Furen Longbeard in Stormwind. By gathering spider fangs, chimaera horns and a vial of phlogiston, the adventurer helps Longbeard forge a resilient suit of fire-hardened mail. In return for their aid, Longbeard rewards the warrior with the finished mail and pledges to share his newfound metallurgical techniques across the Alliance.",
  "sections": [
   {
    "title": "A Master's Breakthrough",
-   "body": "Furen Longbeard, an esteemed dwarven armorer stationed in Stormwind, has dedicated his craft to pushing the limits of Alliance defensive metallurgy. By commissioning a stalwart adventurer to track down scarce ores and elemental reagents, Longbeard sought to test advanced techniques in tempering mail against searing heat and crushing impacts. The resulting craftwork proves to be a tremendous success, solidifying Longbeard's standing as one of the Alliance's foremost armor crafters.",
+   "body": "Furen Longbeard, an esteemed dwarven armorer stationed in Stormwind, has dedicated his craft to pushing the limits of Alliance defensive metallurgy. By commissioning a stalwart adventurer to track down scarce fangs, horns and phlogiston, Longbeard sought to test advanced techniques in tempering mail against searing heat and crushing impacts. The resulting craftwork proves to be a tremendous success, solidifying Longbeard's standing as one of the Alliance's foremost armor crafters.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "fire hardened mail",
     "furen's reward"
    ],
-   "answer": "Through extensive experimentation with rare ores and reagents, Furen forged a suit of Fire Hardened Mail. He designed it to withstand ferocious assaults and extreme heat on the battlefield."
+   "answer": "Through extensive experimentation with rare fangs, horns and phlogiston, Furen forged a Fire Hardened Hauberk, a mail chest piece. He designed it to withstand ferocious assaults and extreme heat on the battlefield."
   },
   {
    "q": "Where does Furen Longbeard send his smithing discoveries?",
@@ -64,7 +64,7 @@
     "why gather reagents for furen",
     "fire hardened mail quest materials"
    ],
-   "answer": "Furen needed rare and volatile components to test untried smithing techniques. Lacking the ability to leave his forge to hunt down elemental agents and exotic minerals, he relied on an ambitious warrior to acquire them."
+   "answer": "Furen needed rare and volatile components to test untried smithing techniques. Lacking the ability to leave his forge to hunt the spiders of the Wetlands and the chimaeras of Stonetalon, he relied on an ambitious warrior to acquire them."
   },
   {
    "q": "Where is this armor forged and delivered?",

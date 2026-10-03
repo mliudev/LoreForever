@@ -19,7 +19,7 @@
   },
   {
    "title": "Return to the Siege Brigade",
-   "body": "The recovered journal serves as grim closure for Hildelve's comrade, Pilot Hammerfoot, stationed near Kharanos. As a member of the Ironforge Siege Brigade, Hammerfoot feared the worst when Hildelve never returned from his search for ore. Handing over the journal alongside the beast's severed claw provides proof that Hildelve's spirit has been put to rest and his final wish honored.",
+   "body": "The recovered journal serves as grim closure for Hildelve's comrade, Pilot Hammerfoot, stationed near North Gate Outpost in eastern Dun Morogh. As a member of the Ironforge Siege Brigade, Hammerfoot feared the worst when Hildelve never returned from his search for ore. Handing over the journal alongside the beast's severed claw provides proof that Hildelve's spirit has been put to rest and his final wish honored.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "who gets hildelves journal",
     "turn in hildelves journal"
    ],
-   "answer": "The journal is delivered to Pilot Hammerfoot, an aviator stationed along the road south of Kharanos. Hammerfoot was a close friend of Hildelve and sought news of the missing pilot."
+   "answer": "The journal is delivered to Pilot Hammerfoot, a siege engine pilot stationed near North Gate Outpost in eastern Dun Morogh. Hammerfoot was a close friend of Hildelve and sought news of the missing pilot."
   },
   {
    "q": "What does Hildelve ask for in the journal?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The journal honors the unyielding spirit of dwarven aviators, who defy freezing weather and wild beasts to secure the heights of Khaz Modan."
+   "text": "The journal honors the unyielding spirit of dwarven pilots, who defy freezing weather and wild beasts to secure the heights of Khaz Modan."
   },
   {
    "target": "faction:Alliance",

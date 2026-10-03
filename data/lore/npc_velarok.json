@@ -8,11 +8,11 @@
   "wiki": "Velarok",
   "refs": 4
  },
- "summary": "Velarok Windblade is a lone human swordsman camped amid the ash and cinder of Searing Gorge, flanked by the mutilated corpses of Dark Iron dwarves. He seeks vengeance against the local Dark Irons for the brutal murder of his father, recruiting passing travelers to forge a weapon of retribution. However, there is far more beneath his vengeful exterior than a grieving mortal son.",
+ "summary": "Velarok Windblade is a lone human swordsman camped amid the ash and cinder of Searing Gorge, flanked by the mutilated corpses of Dark Iron dwarves. He seeks vengeance against the local Dark Irons for the brutal murder of his father, recruiting passing travelers to forge a weapon of retribution. His single-minded hunger for vengeance drives everything he asks of those who help him.",
  "sections": [
   {
    "title": "A Son's Vengeance",
-   "body": "Found southeast of Thorium Point, Velarok Windblade presents himself as a grieving human warrior stranded in the perilous wastes of the Searing Gorge. Surrounding his camp are the bloody, battered corpses of Dark Iron dwarves who crossed his blade. According to Velarok, these clan dwarves slaughtered his father in cold blood. Consumed by hatred, he enlists travelers to gather materials to assemble the Torch of Retribution, a ritual weapon meant to rain fiery judgment down upon the dwarf outposts.",
+   "body": "Found southeast of Thorium Point, Velarok Windblade presents himself as a grieving human warrior stranded in the perilous wastes of the Searing Gorge. Surrounding his camp are the bloody, battered corpses of Dark Iron dwarves who crossed his blade. According to Velarok, these clan dwarves slaughtered his father in cold blood. Consumed by hatred, he enlists travelers to gather materials to assemble the Torch of Retribution, an enchanted weapon of vengeance against the Dark Irons and the minions of Ragnaros.",
    "spoiler": 0
   },
   {
@@ -29,7 +29,7 @@
     "velarok identity",
     "velarok lore"
    ],
-   "answer": "Velarok Windblade initially appears to be a vengeful human swordsman camping southeast of Thorium Point in Searing Gorge, seeking retribution against the Dark Iron clan for his father's demise. In truth, he is Velarok the Deceiver, a black drake disguised as a mortal."
+   "answer": "Velarok Windblade initially appears to be a vengeful human swordsman camping southeast of Thorium Point in Searing Gorge, seeking retribution against the Dark Iron clan for his father's demise."
   },
   {
    "q": "Why is Velarok surrounded by dead dwarves?",
@@ -38,7 +38,7 @@
     "dead dwarves near velarok",
     "velarok camp bodies"
    ],
-   "answer": "The mutilated Dark Iron remains scattered around his camp serve to support his facade as an exceptionally capable human warrior engaged in a bloody blood-feud, hiding the draconic savagery that actually slew them."
+   "answer": "The mutilated Dark Iron remains scattered around his camp are the grim evidence of the blood feud he says he is waging against the clan for his father's death."
   },
   {
    "q": "What is the Torch of Retribution?",
@@ -46,7 +46,7 @@
     "torch quest velarok",
     "what is the torch of retribution"
    ],
-   "answer": "It is a specialized weapon crafted from rare materials throughout Searing Gorge under the pretext of divine vengeance. Velarok directs mortals to assemble and ignite it to strike against Dark Iron encampments, advancing the black dragonflight's schemes."
+   "answer": "It is an enchanted torch assembled from rare materials gathered across Searing Gorge in the name of vengeance. Velarok has his helpers collect the pieces, combines and enchants them himself, and then binds the finished torch to the one who helped him."
   },
   {
    "q": "Why does Velarok disguise himself as a human?",
@@ -78,11 +78,11 @@
  "angles": [
   {
    "target": "race:Human",
-   "text": "Velarok takes the form of a fellow human to evoke immediate sympathy and trust, mocking the noble ideals of filial duty and righteous vengeance."
+   "text": "Velarok's tale of a murdered father and a son's vengeance plays on the ideals of filial duty and righteous retribution that many humans hold dear."
   },
   {
    "target": "race:Dwarf",
-   "text": "While Dark Iron dwarves are enemies of Ironforge, learning that a black dragon orchestrated their slaughter through deceit reminds Bronzebeards of the ancient, cunning evil festering inside Blackrock Mountain."
+   "text": "Dark Iron dwarves are enemies of Ironforge, and a stranger's vow of vengeance against them may find ready sympathy among Bronzebeards, though the Searing Gorge breeds more cunning evils than the Dark Irons alone."
   }
  ],
  "keywords": [

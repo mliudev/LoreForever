@@ -2,98 +2,12 @@
 ## Title: Lore Forever
 ## Notes: Lore companion: the story behind the zones, quests, people and items around you.
 ## Author: Mike
-## Version: 0.5.0
+## Version: 0.6.0
 ## IconTexture: Interface\Icons\INV_Misc_Book_09
 ## SavedVariables: LoreForeverDB
 ## AddonCompartmentFunc: LoreForever_OnAddonCompartmentClick
 ## X-Curse-Project-ID: 1715510
 
-# data:begin (written by pipeline/lore/compile_lua.py)
-Data\Index.lua
-Data\Z_alterac.lua
-Data\Z_arathi.lua
-Data\Z_ashenvale.lua
-Data\Z_azshara.lua
-Data\Z_badlands.lua
-Data\Z_barrens.lua
-Data\Z_blackfathom.lua
-Data\Z_blastedlands.lua
-Data\Z_burningsteppes.lua
-Data\Z_darkshore.lua
-Data\Z_darnassus.lua
-Data\Z_deadmines.lua
-Data\Z_deadwind.lua
-Data\Z_desolace.lua
-Data\Z_dunmorogh.lua
-Data\Z_durotar.lua
-Data\Z_duskwood.lua
-Data\Z_dustwallow.lua
-Data\Z_easternplaguelands.lua
-Data\Z_elwynn.lua
-Data\Z_felwood.lua
-Data\Z_feralas.lua
-Data\Z_gnomeregan.lua
-Data\Z_hallofthanes.lua
-Data\Z_hillsbrad.lua
-Data\Z_hinterlands.lua
-Data\Z_ironforge.lua
-Data\Z_lochmodan.lua
-Data\Z_moonglade.lua
-Data\Z_mulgore.lua
-Data\Z_orgrimmar.lua
-Data\Z_ragefire.lua
-Data\Z_razorfenkraul.lua
-Data\Z_redridge.lua
-Data\Z_riverglades.lua
-Data\Z_ruinsoflordaeron.lua
-Data\Z_scarlet.lua
-Data\Z_searinggorge.lua
-Data\Z_shadowfang.lua
-Data\Z_shendralas.lua
-Data\Z_silithus.lua
-Data\Z_silverpine.lua
-Data\Z_stockade.lua
-Data\Z_stonetalon.lua
-Data\Z_stormwind.lua
-Data\Z_stranglethorn.lua
-Data\Z_swampofsorrows.lua
-Data\Z_tanaris.lua
-Data\Z_teldrassil.lua
-Data\Z_thousandneedles.lua
-Data\Z_thunderbluff.lua
-Data\Z_tirisfal.lua
-Data\Z_undercity.lua
-Data\Z_ungoro.lua
-Data\Z_wailing.lua
-Data\Z_westernplaguelands.lua
-Data\Z_westfall.lua
-Data\Z_wetlands.lua
-Data\Z_winterspring.lua
-Data\Z_zephras.lua
-Data\Z_general.lua
-Data\Search_1.lua
-Data\Search_2.lua
-Data\Search_3.lua
-Data\Search_4.lua
-Data\Search_5.lua
-Data\Search_6.lua
-Data\Search_7.lua
-Data\Search_8.lua
-Data\Search_9.lua
-Data\Search_10.lua
-Data\Search_11.lua
-Data\Search_12.lua
-# data:end
-Packs.lua
-Lang.lua
-Engine.lua
-Context.lua
-Log.lua
-Journey.lua
-JourneyRecord.lua
-Companion.lua
-Options.lua
-Voice.lua
-Hooks.lua
-UI.lua
-Core.lua
+# The client reads this file once, at launch. The load order is in LoreForever.xml, which it reads again on every
+# /reload, so adding or removing a Lua file there needs no restart (CONTRIBUTING.md, "Load files and restarts").
+LoreForever.xml

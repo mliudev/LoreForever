@@ -14,7 +14,7 @@ local LIMIT = 30000              -- bytes of text: comfortable to paste anywhere
 local MOST_FOUGHT = 10
 local NOTABLE = { elite = true, rare = true, rareelite = true, worldboss = true }
 
-local function say(msg) DEFAULT_CHAT_FRAME:AddMessage("|cffffd100Lore Forever:|r " .. msg) end
+local function say(msg) DEFAULT_CHAT_FRAME:AddMessage(ns.Theme.CHAT_PREFIX .. msg) end
 local function when(t) return type(t) == "number" and date("%b %d %H:%M", t) or "" end
 local function day(t) return type(t) == "number" and date("%b %d, %Y", t) or nil end
 
@@ -202,7 +202,7 @@ end
 -- The copy box -------------------------------------------------------------------------------------------------------
 
 local function createBox()
-  local f = CreateFrame("Frame", "LoreForeverJourneyRecordBox", UIParent, "BasicFrameTemplateWithInset")
+  local f = ns.Theme.Window("LoreForeverJourneyRecordBox", UIParent)
   f:SetSize(540, 420)
   f:SetPoint("CENTER")
   f:SetFrameStrata("DIALOG")
@@ -251,7 +251,7 @@ local function createBox()
       end)
     end
   end)
-  local done = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
+  local done = ns.Theme.Button(f)
   done:SetSize(90, 22)
   done:SetPoint("BOTTOMRIGHT", -14, 12)
   done:SetText(L["Done"])
@@ -279,7 +279,7 @@ end
 
 -- Called by Journey.CreateView: the button, as wide as Update my journey and just above it.
 function JR.Attach(view, sync, width)
-  local b = CreateFrame("Button", "LoreForeverJourneyRecord", view, "UIPanelButtonTemplate")
+  local b = ns.Theme.SkinButton(CreateFrame("Button", "LoreForeverJourneyRecord", view, "UIPanelButtonTemplate"))
   b:SetSize(width, 24)
   b:SetPoint("BOTTOMLEFT", sync, "TOPLEFT", 0, 4)
   b:SetText(L["Copy my journey record"])
@@ -287,7 +287,7 @@ function JR.Attach(view, sync, width)
   b:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     GameTooltip:AddLine(L["Copy my journey record"])
-    GameTooltip:AddLine(L["You can copy and paste your journey record."], 1, 1, 1, true)
+    ns.Theme.Tip(L["You can copy and paste your journey record."], "tipText", true)
     GameTooltip:Show()
   end)
   b:SetScript("OnLeave", function() GameTooltip:Hide() end)
