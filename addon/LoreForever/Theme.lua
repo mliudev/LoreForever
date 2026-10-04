@@ -78,7 +78,6 @@ T.color = {
   tipGood = { 0.5, 0.87, 0.5, 1 },       -- narrated, heard, playing
   -- Elsewhere.
   playing = { 0.35, 1, 0.35, 1 },        -- the minimap ring while something plays
-  playingGlow = { 0.4, 1, 0.4, 1 },      -- the book button's glow then
   mapMark = { 1, 0.92, 0.7, 0.9 },       -- marks on the journey map
   url = { 1, 1, 1, 1 },                  -- addresses to copy (Options)
 }
@@ -159,6 +158,14 @@ T.CHAT_PREFIX = T.code.gold .. "Lore Forever:|r "
 function T.Muted(fs)
   fs:SetTextColor(rgba(T.color.muted))
   return fs
+end
+
+-- How wide a font string's text is on one line, whatever its box: GetStringWidth can report only what fits in the
+-- string's own width (a label measured in a narrow tab comes back cut, so the tab stays too narrow for it).
+function T.TextWidth(fs)
+  if not fs then return nil end
+  if fs.GetUnboundedStringWidth then return tonumber(fs:GetUnboundedStringWidth()) end
+  return fs.GetStringWidth and tonumber(fs:GetStringWidth()) or nil
 end
 
 -- Borders. window: the game's gold dialog frame; popup: a slim gold-edged box (type-ahead, menus, the floating

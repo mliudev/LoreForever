@@ -15,8 +15,8 @@
    "spoiler": 0
   },
   {
-   "title": "Restless Magic and Invasions",
-   "body": "The concentration of lingering arcane energy and restless ectoplasm makes the frozen lake a draw for occult researchers and adventurers alike. When the elemental planes violently bleed into Azeroth during periodic elemental incursions, volatile water elementals led by Princess Tempestria have manifested across the frozen expanse, turning the haunted waters into a furious battleground between ancient dead and rampaging elementals.",
+   "title": "Restless Magic",
+   "body": "The concentration of lingering arcane energy and restless ectoplasm makes the frozen lake a draw for occult researchers and adventurers alike.",
    "spoiler": 0
   }
  ],
@@ -37,14 +37,6 @@
     "what are the keltheril ruins"
    ],
    "answer": "The crumbling pillars and stonework belong to the Ruins of Kel'Theril, an ancient kaldorei settlement that thrived during the reign of the Highborne prior to the War of the Ancients."
-  },
-  {
-   "q": "Who is Princess Tempestria?",
-   "aliases": [
-    "princess tempestria",
-    "lake elemental boss"
-   ],
-   "answer": "Princess Tempestria is a powerful water elemental lord who emerges upon the frozen surface of Lake Kel'Theril during periodic elemental invasions that disturb the world's natural planar boundaries."
   },
   {
    "q": "Why do adventurers seek out the spirits here?",
@@ -70,7 +62,6 @@
   "highborne",
   "kel'theril",
   "lake kel'theril",
-  "princess tempestria",
   "ruins of kel'theril",
   "specters",
   "winterspring"

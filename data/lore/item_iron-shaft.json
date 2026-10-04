@@ -10,16 +10,16 @@
    "quest:1026"
   ]
  },
- "summary": "The Iron Shaft is a metallic segment of Dartol's Rod, an ancient night elven artifact capable of unmasking corruption. Recovered from a locked chest near the border of Felwood, it serves as a crucial component in restoring the relic for the defenders of Ashenvale.",
+ "summary": "The Iron Shaft is a metallic segment of Dartol's Rod, a relic Raene Wolfrunner's friend Teronis sought in hopes of slowing the furbolg assaults on Ashenvale. Recovered from a locked chest near the border of Felwood, it serves as a crucial component in restoring the relic for the defenders of Ashenvale.",
  "sections": [
   {
    "title": "A Piece of Dartol's Rod",
-   "body": "Dartol's Rod was originally crafted long ago to assist the night elves in cleansing and safeguarding their enchanted forests. Over time, the rod was dismantled into separate components to prevent misuse or loss. The Iron Shaft represents the sturdy metal core of the instrument, secured away inside a locked chest in a secluded glade near the northern border of Ashenvale, not far from the tainted realm of Felwood.",
+   "body": "Dartol's Rod was the creation of Dartol, and its pieces were scattered across Ashenvale; one was even given to the druids of Dor'Danil for safekeeping. The Iron Shaft represents the sturdy metal core of the instrument, secured away inside a locked chest in a secluded glade near the northern border of Ashenvale, not far from the tainted realm of Felwood.",
    "spoiler": 0
   },
   {
    "title": "The Forest's Blight",
-   "body": "Securing the Iron Shaft requires recovering its key from the local treants who once tended these woods. With the demonic corruption creeping southward from Felwood, ancient guardians such as the Crazed and Withered Ancients have lost their minds to madness. The dryad Shael'dryn tasks travelers with obtaining the shaft so the rod may be reforged to purify Ashenvale's sacred waters.",
+   "body": "Securing the Iron Shaft requires recovering its key from the local treants who once tended these woods. With the demonic corruption creeping southward from Felwood, ancient guardians such as the Crazed and Withered Ancients have lost their minds to madness. The dryad Shael'dryn tasks travelers with obtaining the shaft so the rod may be reforged and the task of the fallen Teronis completed.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what is this shaft",
     "why do i need iron shaft"
    ],
-   "answer": "The Iron Shaft is a piece of Dartol's Rod, a broken night elven relic. It is gathered to help reassemble the rod so that the dryad Shael'dryn can cleanse tainted moonwells and combat demonic corruption in Ashenvale."
+   "answer": "The Iron Shaft is a piece of Dartol's Rod, a broken relic. It is gathered so the dryad Shael'dryn can help reassemble the rod and finish the task of Teronis, who sought it to slow the furbolg assaults on Ashenvale."
   },
   {
    "q": "Where is the Iron Shaft found?",
@@ -67,7 +67,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "Reassembling Dartol's Rod touches closely upon druidic stewardship, using forgotten tools to heal wounded lands and protect sacred moonwells."
+   "text": "Reassembling Dartol's Rod touches closely upon druidic stewardship, using forgotten tools to heal wounded lands."
   }
  ],
  "keywords": [

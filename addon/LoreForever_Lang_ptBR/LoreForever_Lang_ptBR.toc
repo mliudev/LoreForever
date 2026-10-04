@@ -2,15 +2,15 @@
 ## Title: Lore Forever - Português (Brasil)
 ## Notes: Pacote de idioma em português do Brasil para o Lore Forever: interface, textos de lore e os nomes do cliente brasileiro do jogo.
 ## Author: Mike
-## Version: 0.6.0
+## Version: 0.7.0
 ## Dependencies: LoreForever
 ## LoadOnDemand: 1
 ## X-LoreForever-Pack: lang
 ## X-LoreForever-Locale: ptBR
 ## X-LoreForever-Format: 1
-## X-LoreForever-DataVersion: 2026-10-02 20:36 UTC
+## X-LoreForever-DataVersion: 2026-10-03 22:14 UTC
 ## X-LoreForever-LanguageName: Português (Brasil)
 ## X-LoreForever-TTSVoices: Portuguese|Português|Maria|Daniel|Francisca|Thalita
 
-# The client reads this file once, at launch. The files load through Lang.xml, which it reads again on every /reload.
+# The files load through Lang.xml, which lists them.
 Lang.xml

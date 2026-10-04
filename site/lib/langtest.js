@@ -103,8 +103,8 @@ export function renderPack(selected, info) {
   for (let i = 0; i < lines.length; i += LINES_PER_FILE) chunks.push(lines.slice(i, i + LINES_PER_FILE));
   chunks.forEach((chunk, i) => { files[`Strings_${i + 1}.lua`] = [...header, ...chunk].join("\n") + "\n"; });
   const meta = v => String(v ?? "").replace(/[\r\n]+/g, " ").trim();
-  // The .toc lists only Lang.xml, which lists the files. The game reads a .toc once, at launch, but Lang.xml again on
-  // every /reload, so a new download with more Strings_N.lua files than the last one works after a /reload.
+  // The .toc lists only Lang.xml, which lists the files, so the .toc stays the same from one download to the next. A
+  // /reload loads a new download, and the first one too.
   const xml = [
     '<Ui xmlns="http://www.blizzard.com/wow/ui/">',
     "  <!-- Your translations from loreforeverwow.com/translate: the pack's files in load order. -->",

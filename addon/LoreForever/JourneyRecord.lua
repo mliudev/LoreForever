@@ -240,13 +240,14 @@ local function createBox()
   eb:SetScript("OnTextChanged", function(_, userInput) if userInput then fill() end end)
   eb:SetScript("OnEditFocusGained", function(self) self:HighlightText() end)
   eb:SetScript("OnEscapePressed", function() f:Hide() end)
-  -- Ctrl+C copies the selection; then the box closes by itself.
+  -- Ctrl+C copies the selection; then the box closes by itself and the chat says where it makes a profile page
+  -- (loreforeverwow.com/account, LOR-181).
   eb:SetScript("OnKeyDown", function(_, key)
     if key == "C" and IsControlKeyDown() then
       C_Timer.After(0.2, function()
         if f:IsShown() then
           f:Hide()
-          say(L["Journey record copied. Paste it anywhere with Ctrl+V."])
+          say(L["Journey record copied. Paste it at loreforeverwow.com/account to get your profile page."])
         end
       end)
     end
@@ -283,6 +284,8 @@ function JR.Attach(view, sync, width)
   b:SetSize(width, 24)
   b:SetPoint("BOTTOMLEFT", sync, "TOPLEFT", 0, 4)
   b:SetText(L["Copy my journey record"])
+  local tw = ns.Theme and ns.Theme.TextWidth and ns.Theme.TextWidth(b:GetFontString())
+  if tw then b:SetWidth(math.max(width, tw + 24)) end   -- "Copier le journal de mon périple" runs past 170
   b:SetScript("OnClick", function() JR.Copy() end)
   b:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")

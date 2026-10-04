@@ -17,7 +17,7 @@
   },
   {
    "title": "The Quest for the Ashbringer",
-   "body": "Spurred on by cryptic omens, Darion led a desperate expedition into the dread necropolis Naxxramas to find the truth behind his father's fate. He discovered Alexandros raised as a death knight in service to the Scourge. Though he reclaimed his father's corrupted blade, the blade's restless whispers revealed his brother Renault's bitter betrayal. Darion sought the counsel of the exiled paladin Tirion Fordring, who warned him that only an act of profound love could redeem his father's tormented soul.",
+   "body": "Questioning the Light after his father's death, Darion was confronted by the troll priest Zabra Hexx, who counseled him to seek out his father in a fortress floating above a burning city. That cryptic omen set Darion on a new path into the Argent Dawn, and it points him toward the dread necropolis Naxxramas, where he believes the truth behind Alexandros's fate lies hidden.",
    "spoiler": 1
   }
  ],
@@ -45,15 +45,7 @@
     "darion and the ashbringer",
     "did darion get the sword"
    ],
-   "answer": "Darion witnessed the creation of the blade as a youth in Southshore. After his father's death, Darion infiltrated Naxxramas and recovered the tainted greatsword in hopes of freeing Alexandros's bound spirit."
-  },
-  {
-   "q": "What advice did Tirion Fordring give him?",
-   "aliases": [
-    "tirion and darion",
-    "fordring advice darion"
-   ],
-   "answer": "When Darion sought out the exiled Tirion Fordring for help cleansing the corrupted blade, Tirion told him that nothing ordinary could save Alexandros, and that only an act of love greater than the evil done to him could ever redeem his soul."
+   "answer": "As a youth, Darion secretly attended his father's meeting with the Silver Hand at an inn in Southshore, where he witnessed the purification of what would later become the heart of the Ashbringer, the blade his father made legendary."
   }
  ],
  "angles": [
@@ -79,7 +71,6 @@
   "topic:argent-dawn",
   "topic:scarlet-crusade",
   "subzone:light-s-hope-chapel",
-  "npc:tirion-fordring",
   "npc:lord-maxwell-tyrosus",
   "subzone:stratholme",
   "topic:scourge",

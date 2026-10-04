@@ -45,8 +45,8 @@ for name in "${FOLDERS[@]}"; do
   ( cd "$DEST" && find . -type f | while read -r f; do [ -e "$SRC/$f" ] || rm -f "$f" 2>/dev/null || true; done )
   echo "Installed $name -> $DEST"
 done
-# Narration used to live in LoreForever/Audio; it's in the voice pack now. Restart the game (not /reload) the first
-# time, so it finds the new add-on folder. (Never through a development link: that would delete from the checkout.)
+# Narration used to live in LoreForever/Audio; it's in the voice pack now. (Never through a development link: that
+# would delete from the checkout.) A /reload then picks everything up, new add-on folders too (client 1.60.1.70205).
 [ -d "$ADDONS_SRC/LoreForever/Audio" ] || [ -L "$WOW/Interface/AddOns/LoreForever" ] \
   || rm -rf "$WOW/Interface/AddOns/LoreForever/Audio" 2>/dev/null || true
 ls -la "$WOW/Interface/AddOns/LoreForever"

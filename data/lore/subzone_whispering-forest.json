@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "The Hidden Glen",
-   "body": "Tucked away behind Northface Rock and Bandarion Keep, the Whispering Forest feels entirely alienated from the surrounding plague-touched kingdom. While it contains afflicted deer and roaming predators, it also features a tranquil lake and a strange ring of giant mushrooms. At regular intervals, ethereal Fey-Drunk Darters appear from the mist, gathering around the fairy circle in an eerie ritual of converging beams and song. Spectators from the surrounding wild gather in silence, observing a natural magic that seems to defy the Scourge-ruined land.",
+   "body": "Tucked away behind Northface Rock and Bandarion Keep, the Whispering Forest feels entirely alienated from the surrounding plague-touched kingdom. While it contains afflicted deer and roaming predators, it also features a tranquil lake and a strange ring of giant mushrooms, glowing with an uncanny energy beneath a hovering cloud of mist. The ghostly Knight of Mourning wanders the fairy circle, bound there by oath, amid a natural magic that seems to defy the Scourge-ruined land.",
    "spoiler": 0
   },
   {
@@ -37,7 +37,7 @@
     "faerie dragon ring",
     "fairy ring ritual"
    ],
-   "answer": "Several Fey-Drunk Darters manifest around the giant glowing mushrooms, converging over the mist to perform a singing ritual with focused beams of light. Nearby wildlife gathers peacefully to watch before the darters fade back into the ether."
+   "answer": "The ring of giant mushrooms glows with a strange energy beneath a hovering cloud of mist. The ghostly Knight of Mourning wanders the circle, bound there by an oath, but what the ring's magic truly is remains unknown."
   },
   {
    "q": "Who watches over the forest?",
@@ -68,7 +68,7 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The gathering of Fey-Drunk Darters and their ritualistic communion over the faerie ring stands out as one of the few vibrant pulses of natural magic remaining within blighted Lordaeron."
+   "text": "The glowing faerie ring stands out as one of the few pulses of natural magic remaining within blighted Lordaeron."
   },
   {
    "target": "race:Undead",
@@ -80,7 +80,6 @@
   "blightsculler",
   "deathknell",
   "faerie ring",
-  "fey-drunk darter",
   "shadowvale",
   "tirisfal",
   "whispering forest"

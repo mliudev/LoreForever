@@ -1,7 +1,6 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-  <!-- Lore Forever's load order, the only file LoreForever.toc lists. The client reads the .toc once, at launch, but
-       reads this file on every load, so adding, removing or reordering a Lua file here takes a /reload, not a
-       restart. Paths are relative to this folder. Bindings.xml isn't listed: the client reads it by itself. -->
+  <!-- Lore Forever's load order, the only file LoreForever.toc lists: add, remove or reorder Lua files here, then
+       /reload. Paths are relative to this folder. Bindings.xml isn't listed: the client reads it by itself. -->
 
   <!-- The lore data: Index.lua, the zone files, the search index and the word-piece vectors. Data\Data.xml is
        written by pipeline/lore/compile_lua.py. -->
@@ -20,6 +19,8 @@
   <Script file="Options.lua"/>
   <Script file="Voice.lua"/>
   <Script file="Hooks.lua"/>
+  <Script file="Storyline.lua"/>
   <Script file="UI.lua"/>
+  <Script file="SelfTest.lua"/>
   <Script file="Core.lua"/>
 </Ui>

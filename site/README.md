@@ -65,8 +65,13 @@ Left out: `171159` (item tooltip) shows a "Keep: wanted for the quest" line that
 
 ## Counters and visits
 
-- **Public download count:** CurseForge's own total, shown with a free shields.io badge. It counts every
-  CurseForge download, including app installs that never touch this page. It needs the project ID above.
+- **Public download count:** the zip and installer downloads of every GitHub release (the site's own download
+  links included) plus CurseForge's own total, which counts app installs that never touch this page. The home page
+  gets it from `GET /api/downloads` (`functions/api/downloads.js`, cached at the edge for a minute) and refreshes it
+  every minute while it's open. CurseForge comes from its official API when the `CURSEFORGE_API_KEY` secret is set
+  (a free key from console.curseforge.com, the freshest number), else cfwidget's exact total (about hourly), else
+  shields.io's rounded badge. An optional `GITHUB_TOKEN` secret (no scopes needed) lifts GitHub's 60 calls an hour.
+  If a source fails there, the page asks it from the browser instead.
 - **Clicks from this page:** each click on a download link (Get it on CurseForge, Windows installer or zip) adds
   one to a per-day tally in a free D1 database. It's the site's only signal for CurseForge clicks, since those
   downloads happen on CurseForge.
@@ -185,6 +190,56 @@ voice.
   sign-in there, not on per-PR previews; see "The develop site" at the top). Without it the account
   page says sign-in isn't on yet, and **`/voices/submit` and `/feedback` can't take anything**.
 
+## Player profiles (LOR-181)
+
+Any player can sign in (Google, as above) and make a profile: a page at `/u/<handle>` about their character, built
+from the text the add-on's **Copy my journey record** gives them (Journey page; `addon/LoreForever/JourneyRecord.lua`).
+Signing in is never needed to download. Entry points: "Make your profile" under the landing page's download buttons,
+"Sign in" in the header for signed-out visitors, and "Your profile" in the account menu (`/u/me` goes to yours, or
+to `/account#profile` when there's none yet).
+
+- **Import** (`/account`, section "Your profile"): one paste, one click. `POST /api/profile/import`
+  (`functions/api/profile/[action].js`) reads the record with `lib/journey.js`: size-capped (64 KB), line by line
+  against the add-on's own strings in English, deDE, frFR, esES and ptBR. It keeps only the facts the page shows
+  (JSON in `profiles.data`), never the text. The "with Dwarf Priest, Orc Warrior" on group content is dropped and only
+  counted, and a "slain by" killer that isn't also a foe in the record is dropped, so no other player's name is kept.
+  At most 10 imports a minute per account.
+- **Address:** `/u/<handle>` starts as the character's name ("aelric", then "aelric-2", ...) and stays put when the
+  record is updated. The owner can pick another on `/account` (3-24 letters, digits or dashes); the old one is
+  then free, and links to it stop working. A record of a different character (name or realm) replaces the profile
+  but makes it private again at that character's own address, so a page the player shared never turns into
+  another character's; `/account` says so.
+- **Privacy:** a profile is private until its owner ticks Public (on `/account`, or Make it public on the page);
+  until then `/u/<handle>` is a 404 for everyone else. Pages are `noindex`. The page shows the character, never the
+  account's name (often a real name from Google), plus the links from the account's "Your name and links". Delete my
+  profile removes it; Delete my account removes it too (`profiles` is in `SETUP` and `USER_DATA`).
+- **The page** (`functions/u/[handle].js`, templates in `lib/profiles.js`): the character's head (level, race,
+  class, faction, realm, favorite spec), stat tiles, the story, the road so far (lands in the order first reached),
+  then cards for bosses, dungeons, notable kills, most fought, best finds, mounts, professions, reputation and books,
+  and a "Make your own" box (Download for Windows, Make your profile). OG and Twitter tags for link previews.
+- **The story:** with the Pages secret **`GEMINI_API_KEY`** (Production and Preview; optional; use a paid-tier key,
+  whose prompts Google doesn't use for training), each import writes one with `gemini-3.1-flash-lite` (a
+  `STORY_MODEL` variable can name another model, but only one with a price in `STORY_PRICES` is ever called): third
+  person, 120-200 words, only the record's facts, in the record's language, never past Forever's era. A long record
+  the add-on cut short is told as "the latest stretch", with no claim about where it began. A failed or out-of-era
+  story (`offCanon`) keeps the previous one, or falls back to a summary built from the record (`templateStory`),
+  which is also what every profile gets without the key. Each failure's reason goes to the Functions log
+  ("profile story: ..."). Players only ever see "story".
+- **What stories may cost:** at most **$100 a calendar month** (UTC) for all accounts together (`STORY_BUDGET_USD`
+  variable to change it). After each call its cost is added to D1 `story_spend` from the reply's `usageMetadata`
+  at Google's published paid-tier rates (`STORY_PRICES`: $0.25 per million input tokens, $1.50 per million output
+  tokens including thinking, checked 2026-10-03), and at the budget no more calls are made until the next month.
+  A story costs about $0.0006 and takes 2-4 seconds (measured 2026-10-03), so $100 is roughly 150,000 stories.
+  Each account also gets 3 tries a day (`STORIES_PER_DAY`, counted in `rate_limits`
+  before each try, so deleting the profile doesn't reset it). `story_count` keeps an account's total, so writing it
+  again can be gated later.
+- **Mike's view:** `/admin` shows "Profile stories this month" (spend against the budget, stories written, tries).
+  Contributors lists each account's profile (character, level, class, public or private, link) and links, with a
+  "Players" filter and CSV columns. The account page promises email only about feedback and contributions, so
+  reach players through their public links.
+- Tests: `site/tests/journey.test.mjs` (the parser, including records the add-on itself makes, in
+  `tests/fixtures/journey/`) and `site/tests/profiles.test.mjs` (the API and the page end to end).
+
 ## Volunteer narrators
 
 The "Make a voice" card on `/voices` leads to four pages under `public/voices/`:
@@ -233,10 +288,12 @@ own setup; the page only takes files. `public/voices/studio.html` + `studio.js` 
   app; the page says how (Audacity, a decent mic, a quiet room, 44.1/48 kHz, MP3 or WAV) under each drop box.
 - **The quality bar** (`public/voices/quality.js`, run in `analyze()` for single files and zips alike, and so for
   the phone formats too): refused, with what to change, when the source rate is under 44.1 kHz, there's no sound
-  above 11 kHz (phone calls, voice messages, MP3s under ~48 kbps), the noise floor is within 30 dB of the speech,
-  over 0.1% of samples are clipped in runs, or it's under -32 LUFS; warned when there's nothing above 15 kHz or the
-  noise is within 40 dB. The thresholds and how they were calibrated are in its header; `site/tests/quality.test.mjs`
-  pins them.
+  above 10.5 kHz (phone calls, voice messages, MP3s under ~48 kbps), the noise floor is within 30 dB of the speech,
+  over 0.1% of samples are clipped in runs, or it's under -32 LUFS; warned when the noise is within 40 dB. The
+  guide's own settings (loudness, peaks, edge silence, length) are warnings in the same module. Our narration packs
+  (24 kHz voices shipped as 64 kbps MP3: sound up to 11.5-13.5 kHz, -20 to -18 LUFS, up to 1.7 s of lead silence)
+  must pass with no warning: `site/tests/quality.test.mjs` checks excerpts of them in `site/tests/fixtures/audio`
+  (decoded with ffmpeg; skipped without it), next to phone, voice-note and 16 kHz files that must be refused.
 - **The page:** a "Next line" box with the text to read, pronunciation hints and a target length (words / 2.5 per
   second), then every line grouped like the Narrations tab with a drop slot each (any file name). Filters: search,
   group, suggested voice, missing / needs a look / uploaded / text changed, and "Mine" picks per story (kept in the

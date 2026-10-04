@@ -817,7 +817,7 @@ function Journey.CreateView(view)
     local b = UI.TextButton(view, 40, 22, ns.Theme.font.label, ns.Theme.color.tab)
     b.text:SetJustifyH("CENTER")
     b.text:SetText(filterLabel(key))
-    local w = math.max(40, math.floor((tonumber(b.text:GetStringWidth()) or 40) + 18))
+    local w = math.max(40, math.floor((ns.Theme.TextWidth(b.text) or 40) + 18))
     if COLOR[key] then
       local dot = b:CreateTexture(nil, "OVERLAY")
       dot:SetTexture("Interface\\Buttons\\WHITE8X8")
@@ -837,11 +837,14 @@ function Journey.CreateView(view)
     Journey.chips[#Journey.chips + 1] = b
   end
 
-  -- The footer: when it was saved, then Copy my journey record (JourneyRecord.lua) and Update my journey.
+  -- The footer: when it was saved, then Copy my journey record (JourneyRecord.lua) and Update my journey, each as
+  -- wide as its label, clear of the panel's resize grip (it sits over this corner and takes clicks 28 in from it).
   local sync = ns.Theme.SkinButton(CreateFrame("Button", "LoreForeverJourneySync", view, "UIPanelButtonTemplate"))
   sync:SetSize(150, 22)
-  sync:SetPoint("BOTTOMRIGHT", -8, 8)
+  sync:SetPoint("BOTTOMRIGHT", -18, 8)
   sync:SetText(L["Update my journey"])
+  local sw = ns.Theme.TextWidth(sync:GetFontString())
+  if sw then sync:SetWidth(math.max(150, sw + 24)) end
   sync:SetScript("OnClick", function() Journey.AskSync() end)
   sync:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
@@ -1048,6 +1051,7 @@ function Journey.Refresh()
     Journey.map:SetShown(mapW > 0 and #moments > 0)
     if mapW > 0 and #moments > 0 then
       ns.JourneyMap.SetWidth(Journey.map, mapW)
+      ns.JourneyMap.Forget(Journey.map)   -- draw the art again: you may have explored more
       local start
       for i = #moments, 1, -1 do
         if was and moments[i].ev == was then start = moments[i] break end

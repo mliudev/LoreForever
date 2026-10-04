@@ -11,12 +11,12 @@
  "sections": [
   {
    "title": "Ruins Beneath the Dream",
-   "body": "Stretching across the dense forest floor of northern Feralas, the crumbling stone arches and column fragments of Oneiros hint at an ancient Kaldorei settlement abandoned millennia ago. In the present day, nature has reclaimed the structures, entwining them with massive roots and verdant overgrowth. More than just ordinary ruins, the area serves as an earthly anchor to the Emerald Dream itself, reflecting a mirrored counterpart within the sleeping realm. Elite guardians of the Green Dragonflight relentlessly patrol the shaded paths and broken plazas, warding mortals away from ancient secrets.",
+   "body": "Stretching across the dense forest floor of northern Feralas, the crumbling stone arches and column fragments of Oneiros hint at an ancient Kaldorei settlement abandoned millennia ago. In the present day, nature has reclaimed the structures, entwining them with massive roots and verdant overgrowth. Elite guardians of the Green Dragonflight relentlessly patrol the shaded paths and broken plazas, warding mortals away from ancient secrets.",
    "spoiler": 0
   },
   {
    "title": "Echoes and Corruption",
-   "body": "The spiritual link between Oneiros and the Emerald Dream makes the region volatile. Dragonkin loyal to the Dreamer maintain a watchful vigil around its boundaries, yet darkness stirs beyond the veil. A counterpart to these ruins exists on the other side of the boundary, where Nightmare corruption has seeped in under the sway of twisted dragons such as Tyrannikus. Mortals wandering into Oneiros must contend with powerful dragonspawn who view any intruder as a potential threat to the delicate wards holding back corruption.",
+   "body": "The spiritual link between Oneiros and the Emerald Dream makes the region volatile. Dragonkin loyal to the Dreamer maintain a watchful vigil around its boundaries, yet darkness stirs beyond the veil. Mortals wandering into Oneiros must contend with powerful dragonspawn who view any intruder as a potential threat to the delicate wards holding back corruption.",
    "spoiler": 1
   }
  ],
@@ -54,7 +54,7 @@
     "oneiros emerald dream",
     "dream connection feralas"
    ],
-   "answer": "Oneiros mirrors a domain within the Emerald Dream itself. Its proximity to the great boughs connecting Kalimdor to the Dream realm causes the boundaries between the physical world and the spirit world to blur."
+   "answer": "Its proximity to the great boughs connecting Kalimdor to the Dream realm causes the boundaries between the physical world and the spirit world to blur."
   },
   {
    "q": "Is there a safe place to rest nearby?",
@@ -78,16 +78,13 @@
  ],
  "keywords": [
   "dragonspawn",
-  "dreamer's rest",
   "feralas",
   "green dragonflight",
   "jademir lake",
-  "oneiros",
-  "tyrannikus"
+  "oneiros"
  ],
  "related": [
   "zone:feralas",
-  "subzone:dreamer-s-rest",
   "topic:emerald-dream",
   "topic:night-elf"
  ],

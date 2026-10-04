@@ -10,7 +10,7 @@
   ],
   "level": "3",
   "faction": "Horde",
-  "start": "Rohaku Stonehoof",
+  "start": "Grull Hawkwind",
   "end": "Lanka Farshot",
   "previous": null,
   "next": "The Hunter's Path (Horde)",
@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Summons to the Hunt",
-   "body": "While training amidst the bluffs of Red Cloud Mesa, young tauren showing an aptitude for marksmanship and tracking are passed an etched message. Handed down through Rohaku Stonehoof, the note carries word that Lanka Farshot has taken notice of the youth's bloodline and raw capability, urging them to formalize their study beneath his watchful eye.",
+   "body": "While training amidst the bluffs of Red Cloud Mesa, young tauren showing an aptitude for marksmanship and tracking are passed an etched message. Handed down through Grull Hawkwind, the note carries word that Lanka Farshot has taken notice of the youth's bloodline and raw capability, urging them to formalize their study beneath his watchful eye.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "etched note quest giver",
     "rohaku note"
    ],
-   "answer": "Rohaku Stonehoof passes the note along, explaining that a messenger from the hunter trainer sought out the young hunter moments prior."
+   "answer": "Grull Hawkwind passes the note along, explaining that a messenger from the hunter trainer sought out the young hunter moments prior."
   },
   {
    "q": "Where is Lanka Farshot located?",
@@ -99,12 +99,10 @@
   "lanka farshot",
   "mulgore",
   "red cloud mesa",
-  "rohaku stonehoof",
   "tauren hunter"
  ],
  "related": [
   "npc:lanka-farshot",
-  "npc:rohaku-stonehoof",
   "subzone:camp-narache",
   "zone:mulgore"
  ],

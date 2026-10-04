@@ -4,7 +4,8 @@
 // isn't set. With neither set, the endpoint is off. This check is what keeps the data private: the /admin page
 // itself holds no data, and lore-forever.pages.dev serves the same functions as the custom domain.
 //   GET  /api/admin  -> {"subscribers": [...], "feedback": [...], "downloads": [...], "clicks": N, "voices": [...],
-//                        "translations": [...], "translationReports": [...], "users": [...]}
+//                        "translations": [...], "translationReports": [...], "users": [...],
+//                        "stories": {month, usd, calls, written, budget, on}}   profile stories this month (LOR-181)
 //   POST /api/admin  {"action": "status", "id": 3, "status": "done" | "new"}   mark a report handled or not
 //                    {"action": "delete-feedback", "id": 3}                     remove a report (spam, tests)
 //                    {"action": "voice-status", "id": 3, "status": "done" | "new"}   mark a voice submission handled
@@ -15,6 +16,7 @@
 
 import { authorized } from "../../lib/auth.js";
 import { setup as setupAccounts } from "../../lib/accounts.js";
+import { storySpend, STORY_BUDGET_USD } from "../../lib/profiles.js";
 import { decodeReport, describeReport } from "../../public/report-code.js";
 
 const NO_STORE = { "Cache-Control": "no-store", "X-Robots-Tag": "noindex" };
@@ -49,22 +51,30 @@ export async function onRequestGet({ request, env }) {
         "FROM translation_submissions ORDER BY id DESC LIMIT 1000"),
     all("SELECT id, created, locale, code, place, wrong, better, email, name, country, status " +
         "FROM translation_reports ORDER BY id DESC LIMIT 2000"),
-    // Google sign-in accounts (lib/accounts.js) with what each one has done.
-    all("SELECT u.id, u.email, u.display_name, u.created, " +
+    // Google sign-in accounts (lib/accounts.js) with what each one has done, their links and their player profile
+    // (lib/profiles.js): its address, whether it's public, and the character.
+    all("SELECT u.id, u.email, u.display_name, u.links, u.created, " +
         "(SELECT group_concat(name, ', ') FROM voices WHERE owner = u.id) AS voices, " +
         "(SELECT group_concat(locale, ', ') FROM translator_languages WHERE user_id = u.id) AS languages, " +
         "(SELECT COUNT(*) FROM translation_edits WHERE user_id = u.id) AS edits, " +
         "(SELECT COUNT(*) FROM studio_takes WHERE owner = u.id) AS takes, " +
-        "(SELECT COUNT(*) FROM feedback WHERE user_id = u.id) AS feedback " +
-        "FROM users u ORDER BY u.created DESC LIMIT 5000"),
+        "(SELECT COUNT(*) FROM feedback WHERE user_id = u.id) AS feedback, " +
+        "p.handle, p.public AS profile_public, json_extract(p.data, '$.name') AS character, " +
+        "json_extract(p.data, '$.level') AS char_level, json_extract(p.data, '$.className') AS char_class " +
+        "FROM users u LEFT JOIN profiles p ON p.user_id = u.id ORDER BY u.created DESC LIMIT 5000"),
   ]);
+  // Profile stories (lib/profiles.js): what this month's cost so far against the monthly budget.
+  const spend = (await safe(storySpend(env))) || { micro_usd: 0, calls: 0, stories: 0 };
+  const stories = { month: new Date().toISOString().slice(0, 7), usd: spend.micro_usd / 1e6, calls: spend.calls,
+                    written: spend.stories, budget: Number(env.STORY_BUDGET_USD ?? STORY_BUDGET_USD),
+                    on: Boolean(env.GEMINI_API_KEY) };
   // Add-on report codes (LOR-120) spelled out, for the report card.
   for (const f of feedback) {
     let r = null;
     try { r = f.report ? JSON.parse(f.report) : decodeReport(f.code); } catch (e) {}
     f.report = describeReport(r);
   }
-  return json({ subscribers, feedback, downloads, clicks: clicks || 0, voices, translations, translationReports, users });
+  return json({ subscribers, feedback, downloads, clicks: clicks || 0, voices, translations, translationReports, users, stories });
 }
 
 export async function onRequestPost({ request, env }) {

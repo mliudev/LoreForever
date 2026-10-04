@@ -229,18 +229,66 @@ local function loreButton(parent, name, anchor)
   return b
 end
 
+-- The storyline line under a Lore button (Storyline.Line): one line on a dark strip, so it reads on the parchment
+-- too, cut to fit with the whole line in its tooltip.
+local STORY_MAX_W = 340
+local function storyLine(parent, name, button)
+  local f = CreateFrame("Button", name, parent)
+  f:SetSize(STORY_MAX_W, 16)
+  f:SetPoint("TOPRIGHT", button, "BOTTOMRIGHT", 0, -3)
+  f:SetFrameLevel((parent:GetFrameLevel() or 1) + 5)
+  local bg = f:CreateTexture(nil, "BACKGROUND")
+  bg:SetAllPoints()
+  bg:SetColorTexture(0, 0, 0, 0.6)
+  local text = f:CreateFontString(nil, "OVERLAY", ns.Theme.font.label)
+  text:SetPoint("LEFT", 5, 0)
+  text:SetPoint("RIGHT", -5, 0)
+  text:SetJustifyH("RIGHT")
+  if text.SetWordWrap then text:SetWordWrap(false) end
+  f.text = text
+  f:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    if self.questID and ns.Storyline.AddTooltip(self.questID) then GameTooltip:Show() end
+  end)
+  f:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  f:SetScript("OnClick", function() if button.key then ns.UI.Open(button.key, nil, button.via) end end)
+  f:Hide()
+  return f
+end
+
+-- Show quest `id`'s storyline on `line`, as wide as it needs up to the most the frame leaves room for. When the
+-- whole line doesn't fit, it leaves out the zone (Storyline.Line).
+local function setStoryLine(line, id)
+  if not line then return end
+  local text = id and ns.Storyline and ns.Storyline.Line(id)
+  line.questID = text and id or nil
+  if not text then line:Hide() return end
+  local pw = tonumber(line:GetParent() and line:GetParent():GetWidth()) or 0
+  local max = pw > 120 and math.min(STORY_MAX_W, pw - 44) or STORY_MAX_W
+  line.text:SetText(text)
+  local w = ns.Theme.TextWidth(line.text)
+  if w and w + 12 > max then
+    line.text:SetText(ns.Storyline.Line(id, false, true))
+    w = ns.Theme.TextWidth(line.text)
+  end
+  line:SetWidth(math.min(max, (w and w > 0) and (w + 12) or max))
+  line:Show()
+end
+
 function Hooks.QuestFrames()
   -- The NPC quest dialog (accept / progress / complete).
   if _G.QuestFrame and not Hooks.questDialogButton then
     Hooks.questDialogButton = loreButton(QuestFrame, "LoreForeverQuestDialogButton",
       { "TOPRIGHT", QuestFrame, "TOPRIGHT", -28, -30 })
     Hooks.questDialogButton.via = "questdialog"
+    Hooks.questDialogStory = storyLine(QuestFrame, "LoreForeverQuestDialogStory", Hooks.questDialogButton)
   end
   -- The quest log: modern map-side details panel, or the classic standalone log.
   local details = _G.QuestMapFrame and QuestMapFrame.DetailsFrame
   if details and not Hooks.questLogButton then
     Hooks.questLogButton = loreButton(details, "LoreForeverQuestLogButton", { "TOPRIGHT", details, "TOPRIGHT", -8, 28 })
     Hooks.questLogButton.via = "questlog"
+    Hooks.questLogStory = storyLine(details, "LoreForeverQuestLogStory", Hooks.questLogButton)
     if hooksecurefunc and _G.QuestMapFrame_ShowQuestDetails then
       hooksecurefunc("QuestMapFrame_ShowQuestDetails", function(questID) Hooks.UpdateQuestLogButton(questID) end)
     end
@@ -248,10 +296,18 @@ function Hooks.QuestFrames()
     Hooks.questLogButton = loreButton(QuestLogFrame, "LoreForeverQuestLogButton",
       { "TOPRIGHT", QuestLogFrame, "TOPRIGHT", -40, -44 })
     Hooks.questLogButton.via = "questlog"
+    Hooks.questLogStory = storyLine(QuestLogFrame, "LoreForeverQuestLogStory", Hooks.questLogButton)
     if hooksecurefunc and _G.SelectQuestLogEntry then
       hooksecurefunc("SelectQuestLogEntry", function() Hooks.UpdateQuestLogButton() end)
     end
   end
+end
+
+-- The quest ID behind a Lore button: the one the game gave, else its entry's (a client that reports 0).
+local function buttonQuest(b, id)
+  if type(id) == "number" and id > 0 then return id end
+  local e = b.key and ns.DB.entries[b.key]
+  return e and e.m and e.m.id
 end
 
 -- The book reader (books, letters, plaques): a Read aloud button that reads the page shown, or stops it (LOR-49).
@@ -301,6 +357,7 @@ function Hooks.UpdateQuestDialogButton()
   local id = GetQuestID and GetQuestID()
   b.key = questKeyFor(id ~= 0 and id or nil, GetTitleText and GetTitleText())
   b:SetShown(b.key ~= nil)
+  setStoryLine(Hooks.questDialogStory, buttonQuest(b, id))
 end
 
 function Hooks.UpdateQuestLogButton(questID)
@@ -312,6 +369,7 @@ function Hooks.UpdateQuestLogButton(questID)
   end
   b.key = questKeyFor(questID)
   b:SetShown(b.key ~= nil)
+  setStoryLine(Hooks.questLogStory, buttonQuest(b, questID))
 end
 
 -- Chat links -------------------------------------------------------------------------------------------------------
