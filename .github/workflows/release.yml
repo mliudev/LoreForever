@@ -249,11 +249,24 @@ jobs:
             echo "::warning::CurseForge has no Forever version $game; tagging the newest one, $(jq -r .name <<<"$newest")"
           fi
           python3 scripts/changelog.py notes "$VERSION" > notes.md
+          # CurseForge's upload refuses files over about 500 MB (HTTP 413 for 0.7.0's 701 MB zip; 0.6.0's 388 MB went
+          # through). Over that, CurseForge gets the zip without the default narrator's quest dialogue pack, the
+          # biggest one, and its notes say where the full download is.
+          zip=dist/LoreForever.zip
+          if [ "$(stat -c %s "$zip")" -gt $((480 * 1024 * 1024)) ]; then
+            mkdir -p dist/curseforge && cp "$zip" dist/curseforge/LoreForever.zip
+            zip -q -d dist/curseforge/LoreForever.zip 'LoreForever_Voice_Default_Quests/*' || [ $? -eq 12 ]   # 12: nothing to remove
+            echo "::warning::$(( $(stat -c %s "$zip") / 1048576 )) MB is over CurseForge's limit: uploading $(( $(stat -c %s dist/curseforge/LoreForever.zip) / 1048576 )) MB, without the quest dialogue voices"
+            zip=dist/curseforge/LoreForever.zip
+            [ "$(stat -c %s "$zip")" -le $((480 * 1024 * 1024)) ] \
+              || { echo "::error::Still $(( $(stat -c %s "$zip") / 1048576 )) MB without the quest dialogue pack: over CurseForge's limit"; exit 1; }
+            printf '\n%s\n' "Quest givers' voices are too big for CurseForge's file limit, so this download leaves them out. Get the full download, with them, at https://loreforeverwow.com" >> notes.md
+          fi
           jq -n --rawfile log notes.md --arg name "Lore Forever $VERSION" --argjson id "$id" \
             '{displayName: $name, gameVersions: [$id], releaseType: "release", changelog: $log, changelogType: "markdown"}' \
             > metadata.json
           code=$(curl -sS --retry 3 --retry-delay 10 -o result.json -w '%{http_code}' \
-            -H "X-Api-Token: $CF_API_TOKEN" -F "metadata=<metadata.json" -F "file=@dist/LoreForever.zip" \
+            -H "X-Api-Token: $CF_API_TOKEN" -F "metadata=<metadata.json" -F "file=@$zip" \
             "https://wow.curseforge.com/api/projects/$project/upload-file")
           cat result.json; echo
           [ "$code" = 200 ] || { echo "::error::CurseForge upload failed (HTTP $code)"; exit 1; }
