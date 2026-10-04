@@ -27,7 +27,7 @@
  "sections": [
   {
    "title": "An Ailment of the Spirit",
-   "body": "At Maestra's Post, just south of the Darkshore border, the night elf herbalist Orendil Broadleaf faces a troubling medical crisis. A young child in the settlement has fallen grievously ill, exhibiting symptoms that resist ordinary physical remedies. Convinced that the sickness plagues the child's spirit rather than merely the flesh, Orendil seeks Bathran's Hair, an uncommon restorative herb historically gathered amidst the ancient elven ruins to the north.",
+   "body": "At Maestra's Post, just south of the Darkshore border, the night elf herbalist Orendil Broadleaf faces a troubling medical crisis. A young child in Astranaar has fallen grievously ill, exhibiting symptoms that resist ordinary physical remedies. Convinced that the sickness plagues the child's spirit rather than merely the flesh, Orendil seeks Bathran's Hair, an uncommon restorative herb historically gathered amidst the ancient elven ruins to the north.",
    "spoiler": 0
   },
   {
@@ -53,7 +53,7 @@
     "who is orendil healing",
     "who needs the cure"
    ],
-   "answer": "A young night elf child residing in the village has fallen deeply ill. The child's condition worsens by the hour, and ordinary remedies have failed because the sickness appears spiritual in nature, prompting Orendil Broadleaf to seek ancient botanical aids."
+   "answer": "No one at the post itself. The patient is Relara Whitemoon, a young night elf child in Astranaar and the daughter of Pelturas Whitemoon. The child's condition worsens by the hour, and ordinary remedies have failed because the sickness appears spiritual in nature, prompting Orendil Broadleaf to seek ancient botanical aids."
   },
   {
    "q": "Where is Bathran's Haunt located?",
@@ -71,7 +71,7 @@
     "why forsaken in ashenvale",
     "forsaken bathrans haunt"
    ],
-   "answer": "Forsaken forces have established an encampment among the ruins to conduct dark experiments and gather regional resources, marking an unsettling encroachment into night elf territory that alarms Orendil and local sentinels."
+   "answer": "No one knows what they are after. Orendil only learns of them when the herbs come back to him, and undead lurking so deep in night elf lands troubles him greatly."
   },
   {
    "q": "What happens after collecting the plant?",
@@ -103,7 +103,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Securing medicine for the child at Maestra's Post reinforces the frontline settlements holding western Ashenvale against hostile Horde and Forsaken expansion."
+   "text": "Securing medicine for the child in Astranaar reinforces the frontline settlements holding western Ashenvale against hostile Horde and Forsaken expansion."
   }
  ],
  "keywords": [

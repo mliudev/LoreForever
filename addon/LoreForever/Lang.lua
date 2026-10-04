@@ -21,7 +21,12 @@ local _, ns = ...
 local Lang = {}
 ns.Lang = Lang
 
-ns.L = setmetatable({}, { __index = function(_, k) return k end })
+-- Lang.fallbacks: the UI strings looked up that have no translation (in English, all of them), for /lore qa.
+Lang.fallbacks = {}
+ns.L = setmetatable({}, { __index = function(_, k)
+  if k ~= nil then Lang.fallbacks[k] = true end
+  return k
+end })
 local L = ns.L
 
 local ENGLISH = { enUS = true, enGB = true }

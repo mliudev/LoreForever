@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Royal Directive",
-   "body": "Drafted after scouting missions against the Frostmane trolls nestled in the crags of Dun Morogh, this field report contains mountaineer observations intended for the dwarf Senate. Senir Whitebeard, stationed out in the cold foothills, penned the document under the direct mandate of King Magni Bronzebeard rather than ordinary Senate oversight. Knowing full well the friction between the throne and the Senate floor, Senir tasks adventurers with hauling the findings straight to Senator Barin Redstone in the High Seat of Ironforge\u2014cautiously advising couriers to omit just how much outside help he required to compile it.",
+   "body": "Drafted after scouting missions against the Frostmane trolls nestled in the crags of Dun Morogh, this field report contains mountaineer observations intended for the dwarf Senate. Senir Whitebeard, stationed out in the cold foothills, penned the document and enclosed his brother Grelin's report on Coldridge Valley, which states that Grelin acted under a sanction from King Magni Bronzebeard. Senir tasks adventurers with hauling the findings straight to Senator Barin Redstone in the High Seat of Ironforge\u2014cautiously advising couriers to omit just how much outside help he required to compile it.",
    "spoiler": 0
   },
   {
@@ -49,7 +49,7 @@
     "why is the senator angry",
     "redstone reaction"
    ],
-   "answer": "Senator Redstone is furious because the report reveals that Mountaineer Whitebeard acted directly under King Magni's authority rather than consulting the dwarven Senate. Redstone resents the crown taking unilateral action over defense matters without senatorial approval."
+   "answer": "Senator Redstone is furious because the enclosed report from Senir's brother, Grelin Whitebeard, reveals that Grelin acted under King Magni's authority rather than consulting the dwarven Senate. Redstone resents the crown taking unilateral action over defense matters without senatorial approval."
   },
   {
    "q": "Why does Senir ask you not to mention helping him?",

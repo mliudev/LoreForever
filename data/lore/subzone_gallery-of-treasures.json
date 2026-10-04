@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Gallery of Treasures"
  },
- "summary": "The Gallery of Treasures is an ornate, heavily guarded corridor inside the Scarlet Monastery's halls, connecting the Footman's Armory to the Athenaeum. Lined with recovered paintings, relics, and illuminated texts, it showcases the wealth and Lordaeron heritage preserved by the Scarlet Crusade amidst their zealous war against the undead.",
+ "summary": "The Gallery of Treasures is an ornate, heavily guarded corridor inside the Scarlet Monastery's halls, connecting the Huntsman's Cloister to the Athenaeum. Lined with recovered paintings, relics, and illuminated texts, it showcases the wealth and Lordaeron heritage preserved by the Scarlet Crusade amidst their zealous war against the undead.",
  "sections": [
   {
    "title": "A Repository of Lost Heritage",
-   "body": "Situated deep within the Library wing of the Scarlet Monastery, the Gallery of Treasures serves as a grand hall connecting the training grounds of the Footman's Armory to the sacred archives of the Athenaeum. Unlike the functional weapon racks of the armory, this corridor is lined with fine paintings, historical artifacts, and small chambers filled with books salvaged from across the fallen kingdom of Lordaeron. To the Scarlet Crusade, these relics represent the untainted legacy of humanity they have sworn to protect, fiercely guarded against all outsiders who dare intrude upon their sanctuary.",
+   "body": "Situated deep within the Library wing of the Scarlet Monastery, the Gallery of Treasures serves as a grand hall connecting the kennels of the Huntsman's Cloister to the sacred archives of the Athenaeum. Unlike the hound pens of the cloister, this corridor is lined with fine paintings, historical artifacts, and small chambers filled with books salvaged from across the fallen kingdom of Lordaeron. To the Scarlet Crusade, these relics represent the untainted legacy of humanity they have sworn to protect, fiercely guarded against all outsiders who dare intrude upon their sanctuary.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is gallery of treasures",
     "how to find gallery of treasures"
    ],
-   "answer": "It is located inside the Library wing of the Scarlet Monastery. The gallery sits directly past the Footman's Armory and serves as the final decorated passageway before reaching the Athenaeum."
+   "answer": "It is located inside the Library wing of the Scarlet Monastery. The gallery sits directly past the Huntsman's Cloister and serves as the final decorated passageway before reaching the Athenaeum."
   },
   {
    "q": "What is kept in the Gallery of Treasures?",
@@ -72,8 +72,6 @@
  ],
  "related": [
   "subzone:athenaeum-scarlet-monastery",
-  "subzone:footman-s-armory",
-  "subzone:scarlet-halls",
   "zone:scarlet",
   "topic:scarlet-crusade"
  ],

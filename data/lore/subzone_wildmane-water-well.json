@@ -41,14 +41,6 @@
     "who poisoned wildmane well"
    ],
    "answer": "The goblins of the Venture Company have poisoned the well in an effort to control Mulgore's water supply, and the tauren must cleanse it with a sacred totem."
-  },
-  {
-   "q": "Why are the Grimtotem tainting the water?",
-   "aliases": [
-    "why grimtotem poison water",
-    "grimtotem well revenge"
-   ],
-   "answer": "They are not. The poison fouling the Wildmane Water Well is the work of the goblins of the Venture Company, not the Grimtotem, who have not been exiled from Thunder Bluff."
   }
  ],
  "angles": [
@@ -62,7 +54,6 @@
   }
  ],
  "keywords": [
-  "grimtotem",
   "mulgore",
   "sacred well",
   "thunder bluff",
@@ -74,7 +65,6 @@
   "zone:mulgore",
   "zone:thunderbluff",
   "topic:tauren",
-  "topic:grimtotem-tribe",
   "topic:venture-company"
  ],
  "attribution": [

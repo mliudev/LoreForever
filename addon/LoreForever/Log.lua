@@ -22,6 +22,9 @@ function Log.Init()
     db.settings.minimap = true
     db.settings.minimapOn = 1
   end
+  -- The book button beside the menu bar is gone (Mike, 2026-10-02: the key, the minimap button and /lore all open the
+  -- panel, and the floating player stops narration). Forget its settings.
+  db.settings.launcher, db.settings.launcherPos, db.settings.launcherOff = nil, nil, nil
   db.questions = db.questions or {}
   db.quests = db.quests or {}       -- harvested quest text by questID
   db.maps = db.maps or {}           -- zone/subzone names seen per mapID

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Plaguewood Tower"
  },
- "summary": "Plaguewood Tower is a ruined Lordaeron scout tower situated in the northern reaches of the Plaguewood near Terrordale. Shattered during the Scourge invasion, its strategic vantage point makes it a critical contested redoubt for Alliance and Horde forces striving to establish footholds in the Eastern Plaguelands.",
+ "summary": "Plaguewood Tower is a ruined Lordaeron scout tower situated in the northern reaches of the Plaguewood near Terrordale. Shattered during the Scourge invasion, it now stands as a broken ruin amid the blighted forest.",
  "sections": [
   {
    "title": "A Ruined Sentinel in the North",
-   "body": "Standing on the edge of the blight-choked Plaguewood and the blighted town of Terrordale, Plaguewood Tower once served the Kingdom of Lordaeron as a vital northern watchpost. When the Scourge swept across the land, the fortification was battered into crumbling masonry and left in ruins amid corrupted fungal canopies. Today, despite its fractured state, the tower retains immense tactical importance. Because it commands the northern trails and monitors nearby undead movements, both the Alliance and the Horde regularly dispatch scouts to seize and hold its footprint, turning the stone remnants into an active battleground against both the Scourge and each other.",
+   "body": "Standing on the edge of the blight-choked Plaguewood and the blighted town of Terrordale, Plaguewood Tower once served the Kingdom of Lordaeron as a vital northern watchpost. When the Scourge swept across the land, the fortification was battered into crumbling masonry and left in ruins amid corrupted fungal canopies. Today the fractured stones still overlook the northern trails, a silent reminder of the watch Lordaeron once kept over this land.",
    "spoiler": 0
   }
  ],
@@ -24,15 +24,6 @@
     "history of tower"
    ],
    "answer": "Plaguewood Tower was built by the Kingdom of Lordaeron as a regional watchtower. Before the Third War, guards stationed here watched over the northern forests, roads, and settlements like Terrordale before the Scourge overwhelmed and shattered the garrison."
-  },
-  {
-   "q": "Why are the Alliance and Horde fighting over this ruin?",
-   "aliases": [
-    "why capture tower",
-    "tower battlefield",
-    "pvp tower"
-   ],
-   "answer": "Even in ruins, the high ground and stonework provide a vital outpost. Both factions seek to establish forward positions deep in the Plaguelands to counter Scourge movements, secure supply lines, and bolster their overall foothold in the region."
   },
   {
    "q": "Where exactly is the tower located?",
@@ -51,7 +42,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde relies on securing ruined fortifications like Plaguewood Tower to establish defensive outposts and challenge Alliance expansion throughout the northern kingdoms."
+   "text": "For the Horde, ruined fortifications like Plaguewood Tower show how thoroughly the Scourge broke the defenses of the northern kingdoms."
   }
  ],
  "keywords": [

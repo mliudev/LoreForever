@@ -22,7 +22,7 @@
    "Senir's Observations (2)"
   ]
  },
- "summary": "The Stolen Journal is an early Alliance quest in Dun Morogh where Grelin Whitebeard tasks adventurers with entering Frostmane Hold to reclaim his stolen notebook. To recover it, you must defeat the formidable troll leader Grik'nir the Cold. Reclaiming the journal allows Grelin to finalize his appraisal of the troll threat within Coldridge Valley.",
+ "summary": "The Stolen Journal is an early Alliance quest in Dun Morogh where Grelin Whitebeard tasks adventurers with entering the troll cave in Coldridge Valley to reclaim his stolen notebook. To recover it, you must defeat the formidable troll leader Grik'nir the Cold. Reclaiming the journal allows Grelin to finalize his appraisal of the troll threat within Coldridge Valley.",
  "sections": [
   {
    "title": "A Scholar's Lost Notes",
@@ -31,7 +31,7 @@
   },
   {
    "title": "Confronting Grik'nir the Cold",
-   "body": "The brute responsible for taking the journal is Grik'nir the Cold, a powerful Frostmane troll marked with distinctive body and facial paint who holds court in the heart of Frostmane Hold. Slaying Grik'nir breaks the immediate local leadership of the cave's trolls and secures Grelin's journal. With the leader dispatched, Grelin feels confident enough to report that the valley's troll situation is manageable, sending his finished findings on to his brother Senir.",
+   "body": "The brute responsible for taking the journal is Grik'nir the Cold, a powerful Frostmane troll marked with distinctive body and facial paint who holds court in the heart of the valley's troll cave. Slaying Grik'nir breaks the immediate local leadership of the cave's trolls and secures Grelin's journal. With the leader dispatched, Grelin feels confident enough to report that the valley's troll situation is manageable, sending his finished findings on to his brother Senir.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "grik'nir location",
     "how to find grik'nir"
    ],
-   "answer": "Grik'nir the Cold is located inside Frostmane Hold, the troll cave situated in the southwestern reaches of Coldridge Valley."
+   "answer": "Grik'nir the Cold is located inside the troll cave in the southern reaches of Coldridge Valley."
   },
   {
    "q": "Why is the journal important to Grelin?",

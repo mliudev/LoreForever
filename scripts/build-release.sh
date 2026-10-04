@@ -16,7 +16,7 @@
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 exec python3 - "$ROOT" "$@" <<'PY'
-import hashlib, re, sys, zipfile
+import hashlib, multiprocessing, re, sys, zipfile
 from collections import defaultdict
 from pathlib import Path
 
@@ -28,10 +28,11 @@ dist = root / "dist"
 CORE = "LoreForever"
 # Packs bundled with the core download, in zip order (voice or language).
 PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "LoreForever_Voice_Default_Horde",
-         "LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_Lang_frFR", "LoreForever_Lang_ptBR"]
+         "LoreForever_Voice_Default_Quests", "LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_Lang_frFR", "LoreForever_Lang_ptBR"]
 # Not in the zip, but released with every version as their own zips (scripts/build-voice-packs.sh), so
 # scripts/release.sh stamps the core's version into them too.
-RELEASE_PACKS = ["LoreForever_Voice_Female", "LoreForever_Voice_Female_Alliance", "LoreForever_Voice_Female_Horde"]
+RELEASE_PACKS = ["LoreForever_Voice_Female", "LoreForever_Voice_Female_Alliance", "LoreForever_Voice_Female_Horde",
+                 "LoreForever_Voice_Female_Quests"]
 if sys.argv[2:]:
     sys.exit(f"build-release: unknown arguments: {' '.join(sys.argv[2:])} (the one zip carries every bundled pack; "
              "there's no --complete build any more)")
@@ -122,14 +123,32 @@ for folder, files in ship.items():
         if p.is_file() and p.resolve() not in shipped:
             print(f"note: not shipped: {p.relative_to(root)}")
 
+# The checks below read every text file (~140 MB of Lua) with these patterns. Each file is read and scanned once, by a
+# pool of forked workers (they inherit the patterns), in place of three passes one after another: 13 s down to ~2 s.
+AUDIO_REF = re.compile(r"(?:AddOns[\\/]+([\w\-]+)[\\/]+)?Audio[\\/]+([\w\-. ]+\.(?:mp3|ogg))", re.I)
+CLIP = re.compile(r"""\[\s*["'](\w+:[\w\-]+(?:#faq\d+|#detail|#progress|#complete)?)["']\s*\]\s*=""")
+# Key shapes are matched exactly and case-sensitively, as whole tokens: the generated search index is a long
+# base64-like blob, and a loose "AIza..." pattern finds false hits in it.
+KEY = re.compile(r"(?<![\w-])(?:AIza[\w-]{35}|sk-(?:ant|proj)-[\w-]{20,}|sk_[0-9a-f]{40,}|sk-[A-Za-z0-9]{40,})(?![\w-])")
+NAME = re.compile(r"op://|GEMINI_API_KEY|ANTHROPIC_API_KEY|OPENAI_API_KEY|ELEVENLABS_API_KEY|xi-api-key"
+                  r"|-----BEGIN [A-Z ]*PRIVATE KEY", re.I)
+def scan(item):
+    """(audio paths named, clip ids listed (bundled voice packs' Lua only), the first secret-looking string or None)"""
+    path, _, folder = item
+    body = path.read_text(encoding="utf-8", errors="replace")
+    clips = CLIP.findall(body) if folder in VOICE_PACKS and path.suffix.lower() == ".lua" else []
+    m = KEY.search(body) or NAME.search(body)
+    return AUDIO_REF.findall(body), clips, m.group(0) if m else None
+with multiprocessing.get_context("fork").Pool() as pool:
+    scans = pool.map(scan, text_files, chunksize=1)
+
 # Audio files the code names literally must be in the zip, in the folder that ships them. AddOns\<Folder>\Audio\x.mp3
 # must be in that add-on's Audio/; a bare Audio\x.mp3 in its own folder's, or, from a folder with no audio of its own
 # (the core, which plays pack files), in some bundled folder's. Names built at runtime aren't checked here (bundled
 # packs' clip lists are, below), nor are paths into add-ons outside this zip.
 audio_names = {folder: {a.lower() for _, a in files if Path(a).suffix.lower() in AUDIO} for folder, files in ship.items()}
-AUDIO_REF = re.compile(r"(?:AddOns[\\/]+([\w\-]+)[\\/]+)?Audio[\\/]+([\w\-. ]+\.(?:mp3|ogg))", re.I)
-for path, arc, folder in text_files:
-    for owner, ref in AUDIO_REF.findall(path.read_text(encoding="utf-8", errors="replace")):
+for (path, arc, folder), (refs, _, _) in zip(text_files, scans):
+    for owner, ref in refs:
         if owner:
             where = [f for f in ship if f.lower() == owner.lower()]
             if not where:
@@ -143,17 +162,17 @@ for path, arc, folder in text_files:
 # A bundled pack's clip list (P.clips["zone:stormwind#faq3"] = "hash", or via a local alias of P.clips) names files
 # by derived path (Audio/zone_stormwind__faq3.mp3): every listed clip needs its recording, and recordings no clip
 # names are noted.
-CLIP = re.compile(r"""\[\s*["'](\w+:[\w\-]+(?:#faq\d+)?)["']\s*\]\s*=""")
+# Quest dialogue clips (quest:176#detail, #progress, #complete) live in the voices' quest packs: quest_176__detail.mp3.
 def stem(clip_id):
-    base, sep, n = clip_id.partition("#faq")
-    return re.sub(r"[^\w\-]", "_", base) + (f"__faq{n}" if sep else "")
+    base, sep, part = clip_id.partition("#")
+    return re.sub(r"[^\w\-]", "_", base) + (f"__{part}" if sep else "")
 for pack in VOICE_PACKS:
     have = {Path(a).stem.lower(): a for a in audio_names[pack] if a.startswith("audio/")}
     named = set()
-    for path, arc, folder in text_files:
-        if folder != pack or path.suffix.lower() != ".lua":
+    for (path, arc, folder), (_, clips, _) in zip(text_files, scans):
+        if folder != pack:
             continue
-        for cid in CLIP.findall(path.read_text(encoding="utf-8", errors="replace")):
+        for cid in clips:
             s = stem(cid).lower()
             if s not in have:
                 fail(f"{arc} lists clip {cid}, but {pack}/Audio has no {stem(cid)}.mp3 or .ogg")
@@ -161,17 +180,10 @@ for pack in VOICE_PACKS:
     for s in sorted(set(have) - named):
         print(f"note: {pack}/{have[s]} isn't in the pack's clip list, so it never plays")
 
-# Refuse to ship anything that looks like a credential or a pointer to one.
-# Key shapes are matched exactly and case-sensitively, as whole tokens: the generated search index is a long
-# base64-like blob, and a loose "AIza..." pattern finds false hits in it.
-KEY = re.compile(r"(?<![\w-])(?:AIza[\w-]{35}|sk-(?:ant|proj)-[\w-]{20,}|sk_[0-9a-f]{40,}|sk-[A-Za-z0-9]{40,})(?![\w-])")
-NAME = re.compile(r"op://|GEMINI_API_KEY|ANTHROPIC_API_KEY|OPENAI_API_KEY|ELEVENLABS_API_KEY|xi-api-key"
-                  r"|-----BEGIN [A-Z ]*PRIVATE KEY", re.I)
-for path, arc, _ in text_files:
-    body = path.read_text(encoding="utf-8", errors="replace")
-    m = KEY.search(body) or NAME.search(body)
-    if m:
-        fail(f"{arc} contains something that looks like a secret: {m.group(0)[:12]}...")
+# Refuse to ship anything that looks like a credential or a pointer to one (KEY and NAME, above).
+for (path, arc, _), (_, _, secret) in zip(text_files, scans):
+    if secret:
+        fail(f"{arc} contains something that looks like a secret: {secret[:12]}...")
 
 dist.mkdir(exist_ok=True)
 out = dist / f"LoreForever-{version}.zip"
@@ -179,10 +191,11 @@ with zipfile.ZipFile(out, "w") as z:
     for folder, files in ship.items():
         for path, arc in files:
             info = zipfile.ZipInfo(f"{folder}/{arc}", date_time=(2026, 1, 1, 0, 0, 0))  # stable bytes per version
-            # Audio is already compressed; deflating it again only costs time.
+            # Audio is already compressed; deflating it again only costs time. Text gets zlib's default level 6: 9
+            # took half again as long (8 s against 5) for 0.2% less.
             info.compress_type = zipfile.ZIP_STORED if path.suffix.lower() in AUDIO else zipfile.ZIP_DEFLATED
             info.external_attr = 0o644 << 16
-            z.writestr(info, path.read_bytes(), compresslevel=9)
+            z.writestr(info, path.read_bytes(), compresslevel=6)
 
 # Sizes per add-on folder and subfolder, e.g. "LoreForever/Data/", "LoreForever_Voice_Default/Audio/".
 groups = defaultdict(lambda: [0, 0, 0])

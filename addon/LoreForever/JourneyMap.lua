@@ -133,14 +133,71 @@ local function pool(f, list, i, layer, size)
   return t
 end
 
--- The map's art, tile by tile, filling the canvas. False when the game has none for m.
+-- The parts of map m this character has explored, over its base art, the way the world map draws them
+-- (MapExplorationPinMixin): each piece is a grid of tiles placed in the art layer's pixels, the last column and row
+-- cut from a power-of-two file. Pieces the world map shows only under the mouse are left out. No pieces (a continent,
+-- or a client without C_MapExplorationInfo): just the base art.
+local function explored(f, m, L1, sx, sy)
+  local E = _G.C_MapExplorationInfo
+  local list = E and try(E.GetExploredMapTextures, m)
+  local n = 0
+  local TW, TH = L1.tileWidth, L1.tileHeight or L1.tileWidth
+  for _, o in ipairs(type(list) == "table" and list or {}) do
+    local ids = type(o) == "table" and type(o.fileDataIDs) == "table" and o.fileDataIDs
+    local w, h = ids and tonumber(o.textureWidth) or 0, ids and tonumber(o.textureHeight) or 0
+    if w > 0 and h > 0 and not o.isShownByMouseOver then
+      local wide, tall = math.ceil(w / TW), math.ceil(h / TH)
+      for j = 1, tall do
+        local ph, fh = TH, TH
+        if j == tall then
+          ph = h % TH
+          if ph == 0 then ph = TH end
+          fh = 16
+          while fh < ph do fh = fh * 2 end
+        end
+        for k = 1, wide do
+          local pw, fw = TW, TW
+          if k == wide then
+            pw = w % TW
+            if pw == 0 then pw = TW end
+            fw = 16
+            while fw < pw do fw = fw * 2 end
+          end
+          local id = ids[(j - 1) * wide + k]
+          if id then
+            n = n + 1
+            local t = f.overlays[n]
+            if not t then
+              t = f.canvas:CreateTexture(nil, "BORDER", nil, 1)
+              f.overlays[n] = t
+            end
+            t:SetDrawLayer("BORDER", o.isDrawOnTop and 2 or 1)
+            t:SetSize(pw * sx, ph * sy)
+            t:SetTexCoord(0, pw / fw, 0, ph / fh)
+            t:ClearAllPoints()
+            t:SetPoint("TOPLEFT", ((o.offsetX or 0) + TW * (k - 1)) * sx, -((o.offsetY or 0) + TH * (j - 1)) * sy)
+            t:SetTexture(id)
+            t:Show()
+            t.piece = { id = id, x = (o.offsetX or 0) + TW * (k - 1), y = (o.offsetY or 0) + TH * (j - 1), w = pw, h = ph,
+              u = pw / fw, v = ph / fh }   -- where it went, in the layer's pixels (for the sim)
+          end
+        end
+      end
+    end
+  end
+  for i = n + 1, #f.overlays do f.overlays[i]:Hide() end
+  return n
+end
+
+-- The map's art, tile by tile, filling the canvas, with what you've explored drawn over it. False when the game has
+-- no art for m. Drawn again on every Refresh (Map.Forget), since you explore as you play.
 local function art(f, m)
   if f.mapID == m and f.artW == f.w then return f.hasArt end
   f.mapID, f.artW = m, f.w
   local layers = try(api("GetMapArtLayers"), m)
   local L1 = type(layers) == "table" and layers[1]
   local tex = L1 and try(api("GetMapArtLayerTextures"), m, 1)
-  local n = 0
+  local n, pieces = 0, 0
   if L1 and type(tex) == "table" and (L1.layerWidth or 0) > 0 and (L1.tileWidth or 0) > 0 then
     local sx, sy = f.w / L1.layerWidth, f.h / L1.layerHeight
     local cols = math.ceil(L1.layerWidth / L1.tileWidth)
@@ -157,11 +214,18 @@ local function art(f, m)
       t:Show()
       n = i
     end
+    if n > 0 then pieces = explored(f, m, L1, sx, sy) end
   end
   for i = n + 1, #f.tiles do f.tiles[i]:Hide() end
+  if pieces == 0 then
+    for i = 1, #f.overlays do f.overlays[i]:Hide() end
+  end
   f.hasArt = n > 0
   return f.hasArt
 end
+
+-- Draw the art again next time (what you've explored may have grown).
+function Map.Forget(f) if f then f.mapID = nil end end
 
 local function stopDrawing(f)
   f:SetScript("OnUpdate", nil)
@@ -177,7 +241,7 @@ function Map.Create(parent, onWhole)
   f.canvas:SetFrameLevel(level + 1)
   if f.canvas.SetClipsChildren then f.canvas:SetClipsChildren(true) end
   ns.Theme.Area(f.canvas, "track", "BACKGROUND")
-  f.tiles, f.dots, f.road = {}, {}, {}
+  f.tiles, f.overlays, f.dots, f.road = {}, {}, {}, {}
   -- Above the art: the rim, the caption and Whole journey.
   local top = CreateFrame("Frame", nil, f)
   top:SetAllPoints()

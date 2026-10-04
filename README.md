@@ -38,7 +38,7 @@ It finds your World of Warcraft folder, downloads the latest release from this r
 
 If it doesn't show up: on the character screen, click **AddOns** and tick **Load out of date AddOns**.
 
-To update, download the new zip, unzip it over the old folders and restart the game. If an older version left a
+To update, download the new zip, unzip it over the old folders and type `/reload` in game. If an older version left a
 `LoreForever\Audio` folder behind, you can delete it: the narration now lives in `LoreForever_Voice_Default`.
 
 Other narration voices can be installed the same way; see [loreforeverwow.com/voices](https://loreforeverwow.com/voices),

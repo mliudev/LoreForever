@@ -6,6 +6,37 @@ One `- ` bullet per change; wrap long bullets with an indented continuation line
 
 ## Unreleased
 
+## 0.7.0 (2026-10-03)
+
+- **See which quests belong together:** a quest that's part of a storyline now says so under its Lore button, in
+  the quest log and at the top of its story, like "Storyline · Westfall: The Defias Brotherhood". It covers quests
+  up to level 40. When you turn one in, chat reminds you who to see next. Turn either off in Options › Show
+  storylines on quests and Storyline hints in chat.
+- **Your profile on loreforeverwow.com:** sign in with Google, then paste your journey record (Journey › Copy my
+  journey record) to get a page about your character: your stats, the road you took, the bosses you beat, your
+  favorite spec and your story. It stays private until you make it public; then share the link with friends.
+  Downloading Lore Forever never needs an account.
+- **Quest givers speak:** open a quest and the quest giver's words play aloud: what they ask of you, what they say
+  while you're still at it and their thanks at the end. With the female narrator installed, women speak in her voice
+  and men in his (Options › Match the quest giver's voice). Her pack covers about 450 quest lines so far, more with
+  each update; the rest play in his voice. A page whose words have changed is read with the game's voice instead, as
+  before.
+- **No quest page voiced twice:** if you also run Forever Voiceover, VoiceOver (Forever or Continued), Chronicle,
+  SpeakStone Forever or Chatty Little NPC, quest dialogue starts off, and so do books with Chronicle, SpeakStone and
+  Chatty Little NPC, since they read those too. Narrations as you arrive stay on. A line in chat says so the first
+  time. `/lore autoplay` or Options › Narrate quest dialogue turns quest dialogue back on, Options › Read books
+  aloud does books, and your choice sticks.
+- **The menu bar book button is gone:** open Lore Forever with your key, the minimap button or /lore. The floating
+  player stops narration while the panel is closed.
+- **The journey map shows what you've explored:** zones on the Journey page's map now look the way they do on your
+  World Map, with every part you've discovered drawn in. Stormwind's harbor and streets, for one, were blank
+  parchment before.
+- **Translated labels fit:** in Deutsch, Português, Français and Español, the Library's and the queue's hints,
+  the French Library tab, "Nothing playing" in the player and the Journey page's two buttons were cut off or ran
+  past their edges. They now fit, and "Update my journey" no longer sits under the resize corner.
+- **Corrected lore in 85 entries,** and removed 73 entries about places, people and rewards that don't belong
+  in this era.
+
 ## 0.6.0 (2026-10-02)
 
 - **Français and Español (España) come with the add-on:** they switch on by themselves on a French or

@@ -8,11 +8,11 @@
   "wiki": "Skorn Whitecloud",
   "refs": 2
  },
- "summary": "Skorn Whitecloud is a tauren hunter and weapon merchant residing at Camp Sungraze in the rolling plains of Mulgore. He guides young hunters in understanding their relationship with the land's predators and aids travelers who cross paths with Mulgore's lurking dangers.",
+ "summary": "Skorn Whitecloud is an aging tauren hunter residing at Bloodhoof Village in the rolling plains of Mulgore. He guides young hunters in understanding their relationship with the land's predators and aids travelers who cross paths with Mulgore's lurking dangers.",
  "sections": [
   {
    "title": "A Guide on the Golden Plains",
-   "body": "Positioned at Camp Sungraze in southern Mulgore, Skorn Whitecloud serves as both an armorer and an instructor in the ways of the hunt. While he provides basic weapons and hunting implements to passing travelers, his primary role is instilling respect for the wild creatures of the plains. He tests aspiring hunters by directing them to track Mulgore's ferocious flatland cougars, ensuring that those who take up the bow or spear understand the balance between predator and prey.",
+   "body": "Living at Bloodhoof Village in Mulgore, Skorn Whitecloud is an old hunter who now serves as an instructor in the ways of the hunt. His primary role is instilling respect for the wild creatures of the plains. He tests aspiring hunters by sending them after the claws of Mulgore's cunning flatland prowlers, to be shown to Melor Stonehoof in Thunder Bluff, ensuring that those who take up the bow or spear understand the balance between predator and prey.",
    "spoiler": 0
   },
   {
@@ -29,7 +29,7 @@
     "where is skorn",
     "skorn whitecloud map"
    ],
-   "answer": "Skorn Whitecloud is located at Camp Sungraze, a small tauren encampment situated in the southern grasslands of Mulgore."
+   "answer": "Skorn Whitecloud is located at Bloodhoof Village, the tauren settlement in the southern grasslands of Mulgore."
   },
   {
    "q": "What role does Skorn play for young hunters?",
@@ -38,7 +38,7 @@
     "skorn hunter quest",
     "the hunters way"
    ],
-   "answer": "Skorn teaches the core principles of hunting through the rite known as The Hunter's Way. He tasks aspiring hunters with proving their tracking and combat skills against the plains' stealthy flatland cougars."
+   "answer": "Skorn teaches the core principles of hunting through the rite known as The Hunter's Way. He tasks aspiring hunters with proving their tracking and combat skills against the plains' cunning flatland prowlers, then sends them to Melor Stonehoof in Thunder Bluff."
   },
   {
    "q": "What goods does Skorn sell?",
@@ -47,7 +47,7 @@
     "what does skorn sell",
     "skorn weapons"
    ],
-   "answer": "Skorn serves as a weaponsmith and general arms merchant, offering basic melee armaments, staves, and thrown weapons to adventurers passing through Camp Sungraze."
+   "answer": "Skorn is no merchant. His hunting days are over, but he offers one of his own weapons, Skorn's Hammer or Skorn's Rifle, to the hunter who brings him proof that the great wolf Ghost Howl has fallen."
   },
   {
    "q": "Is Skorn Whitecloud related to any other tauren in Mulgore?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For young tauren hunters, Skorn Whitecloud offers early guidance in stalking swift predators like the flatland cougar, reinforcing the spiritual harmony of the hunt."
+   "text": "For young tauren hunters, Skorn Whitecloud offers early guidance in stalking swift predators like the flatland prowler, reinforcing the spiritual harmony of the hunt."
   },
   {
    "target": "race:Tauren",
@@ -70,8 +70,8 @@
   }
  ],
  "keywords": [
-  "camp sungraze",
-  "flatland cougar",
+  "bloodhoof village",
+  "flatland prowler",
   "mulgore",
   "skorn",
   "tauren",

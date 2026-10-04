@@ -1,6 +1,7 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
   <!-- Written by pipeline/lore/compile_lua.py, do not edit by hand: the lore data files in load order. LoreForever.xml includes this file. -->
   <Script file="Index.lua"/>
+  <Script file="QuestVoice.lua"/>
   <Script file="Z_alterac.lua"/>
   <Script file="Z_arathi.lua"/>
   <Script file="Z_ashenvale.lua"/>

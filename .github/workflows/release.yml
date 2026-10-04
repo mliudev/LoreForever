@@ -10,7 +10,7 @@ name: Release
 
 on:
   push:
-    tags: ["v*"]
+    tags: ["v[0-9]*"]   # not "v*": that also matched the "voices" tag
   workflow_dispatch:
     inputs:
       tag:
@@ -53,14 +53,18 @@ jobs:
           mkdir -p dist/extra
           mv dist/packs/*.zip dist/packs/manifest.tsv dist/extra/
           cat dist/extra/manifest.tsv
+      # compression-level 0: the zips are mostly mp3s already, so deflating them again (the default, level 6) only
+      # costs time, on upload and download alike. The files inside come out byte for byte the same either way.
       - uses: actions/upload-artifact@v4
         with:
           name: zip
           path: dist/LoreForever.zip
+          compression-level: 0
       - uses: actions/upload-artifact@v4
         with:
           name: extra
           path: dist/extra/
+          compression-level: 0
 
   installer:
     needs: zip
@@ -73,9 +77,12 @@ jobs:
       id-token: write
       contents: read
     steps:
+      # Only what this job reads (release/installer, and release/logo.ico, which comes with it): the rest of the tree
+      # is ~1 GB of recordings, and this job takes those from the zip.
       - uses: actions/checkout@v4
         with:
           ref: ${{ env.TAG }}
+          sparse-checkout: release/installer
       - uses: actions/download-artifact@v4
         with:
           name: zip
@@ -84,10 +91,14 @@ jobs:
         shell: pwsh
         run: |
           if (-not (Test-Path "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe")) { choco install innosetup -y --no-progress }
+      # Windows' own tar unzips the ~5,000 files in seconds; Expand-Archive took 5 times as long. By full path: Git's GNU
+      # tar comes first on the runner's PATH, and it can't read zips.
       - name: Build the installer
         shell: pwsh
         run: |
-          Expand-Archive dist\LoreForever.zip -DestinationPath dist\stage
+          New-Item -ItemType Directory dist\stage | Out-Null
+          & "$env:SystemRoot\System32\tar.exe" -xf dist\LoreForever.zip -C dist\stage
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
           & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" /Q "/DAppVersion=${{ needs.zip.outputs.version }}" `
             "/DSourceDir=$PWD\dist\stage" "/DOutputDir=$PWD\dist" release\installer\LoreForever.iss
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
@@ -131,18 +142,45 @@ jobs:
             if (-not (Test-Path $toc)) { Write-Error "installer didn't place $toc"; exit 1 }
             "installed $($folder.Name): $((Get-ChildItem (Split-Path $toc) -Recurse -File).Count) files"
           }
+      # The optional voice page's silent path: /VOICES=female downloads the female narrator's all-in-one zip and
+      # unzips it next to the add-on. This version's release isn't published yet, so it fetches the latest one's.
+      # Then the uninstaller must remove the add-on and the voice it added.
+      - name: Smoke test (extra voice, then uninstall)
+        shell: pwsh
+        run: |
+          $wow = "$env:RUNNER_TEMP\wow"
+          $addons = "$wow\_classic_beta_\Interface\AddOns"
+          Start-Process dist\LoreForever-Setup.exe -Wait -ArgumentList "/VERYSILENT", "/SUPPRESSMSGBOXES", "/DIR=$wow",
+            "/VOICES=female", "/VOICEURL=https://github.com/${{ github.repository }}/releases/latest/download/",
+            "/LOG=$env:RUNNER_TEMP\voices.log"
+          Get-Content "$env:RUNNER_TEMP\voices.log" | Select-String "voice "
+          $voice = 'LoreForever_Voice_Female', 'LoreForever_Voice_Female_Alliance', 'LoreForever_Voice_Female_Horde'
+          foreach ($f in $voice) {
+            if (-not (Test-Path "$addons\$f\$f.toc")) { Write-Error "the voice didn't land: $addons\$f"; exit 1 }
+            "voice ${f}: $((Get-ChildItem "$addons\$f" -Recurse -File).Count) files"
+          }
+          Start-Process "$env:LOCALAPPDATA\LoreForever\unins000.exe" -Wait -ArgumentList "/VERYSILENT", "/SUPPRESSMSGBOXES"
+          # The uninstaller hands off to a copy of itself in TEMP, so wait for the folders to go.
+          for ($i = 0; $i -lt 60 -and (Test-Path "$addons\LoreForever"); $i++) { Start-Sleep 1 }
+          foreach ($f in @('LoreForever') + $voice) {
+            if (Test-Path "$addons\$f") { Write-Error "uninstall left $addons\$f"; exit 1 }
+          }
+          "uninstall removed the add-on and the voice"
       - uses: actions/upload-artifact@v4
         with:
           name: installer
           path: dist/LoreForever-Setup.exe
+          compression-level: 0
 
   release:
     needs: [zip, installer]
     runs-on: ubuntu-latest
     steps:
+      # CHANGELOG.md (top-level files always come) and scripts/changelog.py
       - uses: actions/checkout@v4
         with:
           ref: ${{ env.TAG }}
+          sparse-checkout: scripts
       - uses: actions/download-artifact@v4
         with:
           path: dist
@@ -180,9 +218,13 @@ jobs:
       CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
       VERSION: ${{ needs.zip.outputs.version }}
     steps:
+      # CHANGELOG.md, scripts/changelog.py and the core's .toc
       - uses: actions/checkout@v4
         with:
           ref: ${{ env.TAG }}
+          sparse-checkout: |
+            scripts
+            addon/LoreForever
       - uses: actions/download-artifact@v4
         with:
           name: zip

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Skittering Dark"
  },
- "summary": "The Skittering Dark is an abandoned mine and shadowy woodland hollow in western Silverpine Forest. Infested by aggressive Skitterweb spiders and their massive matriarch, the cavern and its surrounding woods are littered with webbed cocoons containing unwary beasts and travelers.",
+ "summary": "The Skittering Dark is an abandoned mine and shadowy woodland hollow in western Silverpine Forest. Infested by aggressive giant spiders, the cavern and its surrounding woods are thick with webbing and danger for unwary beasts and travelers.",
  "sections": [
   {
    "title": "A Webbed Hollow",
-   "body": "Tucked into the hills just east of the western coast of North Tide's Run, the Skittering Dark was once a working mine. Today, the shafts are completely choked with cobwebs, serving as the sprawling nest of the Skitterweb arachnids. Under the watch of a monstrous matriarch deep underground\u2014and the shadowy weaver Krethis haunting the exterior\u2014the spiders hunt anything that strays too close. Their silk-wrapped larder includes indigenous bears, worgs, and wandering worgen from the nearby woodlands.",
+   "body": "Tucked into the hills just east of the western coast of North Tide's Run, the Skittering Dark was once a working mine. Today, the shafts are completely choked with cobwebs, serving as the sprawling nest of giant spiders. With the shadowy weaver Krethis haunting the exterior, the spiders hunt anything that strays too close.",
    "spoiler": 0
   }
  ],
@@ -23,16 +23,7 @@
     "what is this mine",
     "spider cave silverpine"
    ],
-   "answer": "It is an abandoned mine in western Silverpine Forest that has been entirely overrun by giant Skitterweb spiders. The cavern network and surrounding trees are thick with sticky webbing and predatory arachnids."
-  },
-  {
-   "q": "What is inside the cocoons littering the area?",
-   "aliases": [
-    "webbed cocoons",
-    "who is in the webs",
-    "spider victims"
-   ],
-   "answer": "The Skitterwebs prey on local wildlife like bears and worgs, but their webs also trap feral worgen from the surrounding woods."
+   "answer": "It is an abandoned mine in western Silverpine Forest that has been entirely overrun by giant spiders. The cavern network and surrounding trees are thick with sticky webbing and predatory arachnids."
   },
   {
    "q": "Who leads the spiders in the mine?",
@@ -41,7 +32,7 @@
     "skittering dark boss",
     "matriarch"
    ],
-   "answer": "The brood is led by the Skitterweb Matriarch, a massive spider nesting deep within the darkened tunnels of the mine shaft."
+   "answer": "No single ruler of the brood is known. The most feared of the spiders is Krethis Shadowspinner, a rare and dangerous weaver that prowls in and around the mine."
   },
   {
    "q": "Where is the Skittering Dark located?",
@@ -55,23 +46,20 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Horde travelers venturing into Silverpine should take note: the Skitterwebs actively drag unwary prey from the surrounding woods into their webbed dens."
+   "text": "Horde travelers venturing into Silverpine should take note: the spiders of the Skittering Dark ambush unwary prey that strays from the surrounding woods into their webbed dens."
   }
  ],
  "keywords": [
   "krethis",
-  "matriarch",
   "mine",
   "north tide's run",
   "silverpine",
   "skittering dark",
-  "skitterweb",
   "spider"
  ],
  "related": [
   "zone:silverpine",
   "subzone:north-tide-s-run",
-  "subzone:forsaken-rear-guard",
   "topic:worgen",
   "topic:forsaken"
  ],
