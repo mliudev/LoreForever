@@ -44,26 +44,30 @@
       <ul class="stats">
         <li>by <strong>Mike</strong></li>
         <li id="downloads"><strong>New release</strong></li>
-        <li>Version <strong>0.6.0</strong></li>
+        <li>Version <strong>0.7.0</strong></li>
         <li>Game <strong>WoW Forever 1.60.1</strong></li>
       </ul>
-      <!-- Downloads, no email step. Since 2026-10-02 (Mike) the site's own download comes first: the Windows installer,
-           then the zip, then every narrator voice on /downloads. CurseForge is second, and says it carries the add-on
-           only (it can't carry the voice packs). The installer and zip go through functions/download/[file].js, which
-           counts them in D1 and redirects to the latest GitHub release; don't rename those release assets. -->
+      <!-- Downloads, no email step. Since 2026-10-02 (Mike) the site's own download comes first: the Windows installer
+           (primary button), then CurseForge as a secondary button only slightly smaller, with its "add-on only" note
+           right under it (it can't carry the voice packs). The installer and zip go through
+           functions/download/[file].js, which counts them in D1 and redirects to the latest GitHub release; don't
+           rename those release assets. -->
       <div class="dl-row">
-        <a class="btn-download dl-link" id="download" href="/download/installer">Download for Windows</a>
-        <div class="dl-alt">
-          <span class="file-note">Free &middot; finds your WoW Forever folder for you</span>
-          <span class="dl-other">Or the <a class="dl-link" href="/download/zip">zip</a>, to unzip yourself
-            &middot; <a href="/downloads">All downloads</a></span>
+        <div class="dl-pick">
+          <a class="btn-download dl-link" id="download" href="/download/installer">Download for Windows</a>
+          <span class="dl-other">Free &middot; finds your WoW Forever folder &middot; or the
+            <a class="dl-link" href="/download/zip">zip</a></span>
+        </div>
+        <div class="dl-pick">
+          <a class="btn-download btn-download-alt dl-link" href="https://www.curseforge.com/wow/addons/lore-forever">Get it on CurseForge</a>
+          <span class="dl-other">The add-on only. Extra narrator voices are on the <a href="/voices">Voices page</a>.</span>
         </div>
       </div>
       <p class="dl-more">Comes with the male narrator. Want another narrator? Each voice is one more download:
-        <a href="/downloads">get the voices you want</a>.</p>
-      <p class="dl-cf">Prefer the CurseForge app? <a class="dl-link" href="https://www.curseforge.com/wow/addons/lore-forever">Lore
-        Forever on CurseForge</a>. CurseForge has the add-on only. Extra narrator voices are on the
-        <a href="/downloads">Downloads page</a>.</p>
+        <a href="/voices">get the voices you want</a>.</p>
+      <!-- Player profiles (LOR-181): optional, after the download. Signing in is never needed to download. -->
+      <p class="dl-more">Played a while? <a href="/account#profile">Make your profile</a>: your character's stats,
+        the road you took and your story, on a page you can share.</p>
     </div>
 
     <!-- About the author, with the community links. Sits beside the title on desktop and right under the
@@ -123,7 +127,7 @@
           narration tells each zone's story as you fly over it.</li>
       </ul>
       <p>Want a different narrator? Install as many voices as you like from the
-        <a href="/downloads#voices">Downloads page</a> and put them in your order: each narration plays from the
+        <a href="/voices">Voices page</a> and put them in your order: each narration plays from the
         first voice that has it. Or <a href="/voices">lend your own voice</a>.</p>
       <p class="feature-note">Three of the narrations, exactly as they play in game:</p>
     </div>
@@ -208,8 +212,6 @@
         <figcaption>A real answer from the add-on, word for word.</figcaption>
       </figure>
     </div>
-    <!-- 10-13: 0.6.0 release-candidate captures (2026-10-02), cropped to the panel. Replace with final captures
-         once the panel's stone background and new headings ship. -->
     <figure class="feature-shot">
       <a href="screenshots/13-links-answer.jpg" target="_blank"><img src="screenshots/13-links-answer.jpg"
         alt="The story of Lushwater Oasis in the panel, with The Barrens, Crossroads and Wailing Caverns as links and listed again under the answer"></a>
@@ -232,29 +234,20 @@
           <a href="/translate">Help translate</a> into yours.</li>
         <li><strong>Your voices, your order.</strong> Install several voices and choose which comes first; a story
           keeps one voice for its questions.</li>
-        <!-- Search: remove this line if it doesn't ship in this version. -->
         <li><strong>Search the long lists.</strong> Type to find a story in the Library instead of scrolling.</li>
       </ul>
     </div>
+    <!-- Mike's capture, 2026-10-02 (cropped to the panel; other players' nameplates above it painted out). -->
     <figure class="feature-shot">
-      <a href="screenshots/11-journey-page.jpg" target="_blank"><img src="screenshots/12-journey-map.jpg"
-        alt="The Journey page: today's moments with Quests, Fights and Milestones filters, and a map of the Barrens marking Lushwater Oasis"></a>
-      <figcaption>Journey: your moments beside the map</figcaption>
+      <a href="screenshots/14-journey-stormwind.webp" target="_blank"><img src="screenshots/14-journey-stormwind.webp"
+        width="1400" height="973" loading="lazy"
+        alt="The Lore Forever panel in Stormwind's Trade District. On the left, the Here tab with narrated places, suggested questions and your quests, above the narration player. On the right, the Journey page: today's moments, such as people met, Targorr the Dread defeated in the Stockade and places visited, with Quests, Fights and Milestones filters, beside a map of Stormwind City marking where they happened."></a>
+      <figcaption>Journey in Stormwind: your moments beside the map</figcaption>
     </figure>
   </section>
 
   <!-- Real in-game captures from the Forever beta, cropped to hide player names. -->
   <section class="shots" aria-label="Screenshots">
-    <figure class="shot">
-      <a href="screenshots/10-panel-welcome-back.jpg" target="_blank"><img src="screenshots/10-panel-welcome-back.jpg"
-        alt="The Lore Forever panel at Lushwater Oasis: a welcome back card, narrated places with play and + buttons, your quests, suggested questions and the player"></a>
-      <figcaption>Welcome back: your last session, what's narrated here and your quests</figcaption>
-    </figure>
-    <figure class="shot">
-      <a href="screenshots/11-journey-page.jpg" target="_blank"><img src="screenshots/11-journey-page.jpg"
-        alt="The Lore Forever panel with the Journey page open over the chat"></a>
-      <figcaption>Journey opens over the chat, with the Here tab beside it</figcaption>
-    </figure>
     <figure class="shot">
       <a href="screenshots/03-npc-tooltip.jpg" target="_blank"><img src="screenshots/03-npc-tooltip.jpg"
         alt="An NPC tooltip with a one-line Lore note"></a>
@@ -394,7 +387,7 @@
             (New publishers can see this for a few weeks.)</li>
           <li>It finds your World of Warcraft folder and installs into <code>_classic_beta_\Interface\AddOns</code>.
             No admin rights needed. To update later, run a newer installer.</li>
-          <li>Restart WoW. A <code>/reload</code> doesn't pick up a newly installed add-on.</li>
+          <li>Start WoW, or type <code>/reload</code> if it's already running.</li>
         </ol>
         <h3>With the zip</h3>
         <ol>
@@ -404,12 +397,12 @@
             <code>C:\Program Files (x86)\World of Warcraft\_classic_beta_\Interface\AddOns</code>.</li>
           <li>Unzip so you end up with <code>...\AddOns\LoreForever\LoreForever.toc</code>. A doubled folder like
             <code>AddOns\LoreForever\LoreForever\</code> won't load.</li>
-          <li>Restart WoW. A <code>/reload</code> doesn't pick up a newly installed add-on.</li>
+          <li>Start WoW, or type <code>/reload</code> if it's already running.</li>
         </ol>
 
         <h3>With the CurseForge app</h3>
         <p>Lore Forever is on <a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge</a>, so the app can install it and keep it updated.
-          It carries the add-on only: extra narrator voices come from the <a href="/downloads">Downloads page</a>.</p>
+          It carries the add-on only: extra narrator voices come from the <a href="/voices">Voices page</a>.</p>
         <ol>
           <li>In the CurseForge app, open World of Warcraft and pick your Forever install. If it isn't listed,
             add your <code>_classic_beta_</code> folder, or use the installer or zip above.</li>
@@ -418,8 +411,8 @@
         </ol>
         <h3>Extra narrator voices</h3>
         <p>Lore Forever comes with the male narrator. Every other voice is one more download from the
-          <a href="/downloads">Downloads page</a>: unzip it next to the <code>LoreForever</code> folder, restart WoW
-          and pick it in Options. <a href="/downloads#install">Step by step</a>.</p>
+          <a href="/voices">Voices page</a>: unzip it next to the <code>LoreForever</code> folder, type
+          <code>/reload</code> in game and pick it in Options. <a href="/voices#install">Step by step</a>.</p>
 
         <p>On your first login it asks you to pick a key for the panel. You can change it later with <code>/lore key</code>.</p>
         <p>Not showing up? On the character screen, click <strong>AddOns</strong> and tick
@@ -443,6 +436,17 @@
       <section class="tab-panel" id="changelog" role="tabpanel">
         <h2>Changelog</h2>
         <!-- changelog:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
+        <h3>0.7.0</h3>
+        <ul>
+          <li><strong>See which quests belong together:</strong> a quest that's part of a storyline now says so under its Lore button, in the quest log and at the top of its story, like "Storyline · Westfall: The Defias Brotherhood". It covers quests up to level 40. When you turn one in, chat reminds you who to see next. Turn either off in Options › Show storylines on quests and Storyline hints in chat.</li>
+          <li><strong>Your profile on loreforeverwow.com:</strong> sign in with Google, then paste your journey record (Journey › Copy my journey record) to get a page about your character: your stats, the road you took, the bosses you beat, your favorite spec and your story. It stays private until you make it public; then share the link with friends. Downloading Lore Forever never needs an account.</li>
+          <li><strong>Quest givers speak:</strong> open a quest and the quest giver's words play aloud: what they ask of you, what they say while you're still at it and their thanks at the end. With the female narrator installed, women speak in her voice and men in his (Options › Match the quest giver's voice). Her pack covers about 450 quest lines so far, more with each update; the rest play in his voice. A page whose words have changed is read with the game's voice instead, as before.</li>
+          <li><strong>No quest page voiced twice:</strong> if you also run Forever Voiceover, VoiceOver (Forever or Continued), Chronicle, SpeakStone Forever or Chatty Little NPC, quest dialogue starts off, and so do books with Chronicle, SpeakStone and Chatty Little NPC, since they read those too. Narrations as you arrive stay on. A line in chat says so the first time. <code>/lore autoplay</code> or Options › Narrate quest dialogue turns quest dialogue back on, Options › Read books aloud does books, and your choice sticks.</li>
+          <li><strong>The menu bar book button is gone:</strong> open Lore Forever with your key, the minimap button or /lore. The floating player stops narration while the panel is closed.</li>
+          <li><strong>The journey map shows what you've explored:</strong> zones on the Journey page's map now look the way they do on your World Map, with every part you've discovered drawn in. Stormwind's harbor and streets, for one, were blank parchment before.</li>
+          <li><strong>Translated labels fit:</strong> in Deutsch, Português, Français and Español, the Library's and the queue's hints, the French Library tab, "Nothing playing" in the player and the Journey page's two buttons were cut off or ran past their edges. They now fit, and "Update my journey" no longer sits under the resize corner.</li>
+          <li><strong>Corrected lore in 85 entries,</strong> and removed 73 entries about places, people and rewards that don't belong in this era.</li>
+        </ul>
         <h3>0.6.0</h3>
         <ul>
           <li><strong>Français and Español (España) come with the add-on:</strong> they switch on by themselves on a French or Spanish game client, or pick one in Options › Language. English clients stay in English.</li>
@@ -570,18 +574,18 @@
           <li><strong>Run the <a class="dl-link" href="/download/installer">Windows installer</a>.</strong> It finds
             your WoW Forever folder. If Windows shows a SmartScreen prompt, click <strong>More info</strong>, then
             <strong>Run anyway</strong>.</li>
-          <li><strong>Restart WoW.</strong> A <code>/reload</code> doesn't pick up a newly installed add-on.</li>
+          <li><strong>Start WoW</strong>, or type <code>/reload</code> if it's already running.</li>
           <li><strong>Type <code>/lore</code></strong> or press the key you pick on first login.</li>
         </ol>
         <details class="zip-steps">
           <summary>Using the zip or CurseForge?</summary>
           <p>Unzip the <a class="dl-link" href="/download/zip">zip</a> into
             <code>World of Warcraft\_classic_beta_\Interface\AddOns</code> so you have
-            <code>AddOns\LoreForever\LoreForever.toc</code>, then restart WoW. The CurseForge app installs the add-on
-            only; get extra voices from the <a href="/downloads">Downloads page</a>.</p>
+            <code>AddOns\LoreForever\LoreForever.toc</code>, then start WoW (or <code>/reload</code>). The CurseForge
+            app installs the add-on only; get extra voices from the <a href="/voices">Voices page</a>.</p>
         </details>
         <a class="install-more" href="#install">Full install guide</a> &middot;
-        <a class="install-more" href="/downloads">Narrator voices</a>
+        <a class="install-more" href="/voices">Narrator voices</a>
       </div>
       <div class="box">
         <h3>About</h3>
@@ -596,7 +600,7 @@
       <div class="box">
         <h3>Links</h3>
         <ul class="links">
-          <li><a href="/downloads">All downloads</a></li>
+          <li><a href="/voices">All downloads</a></li>
           <li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li>
           <li><a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge page</a></li>
           <li><a href="/discord?src=site">Discord</a></li>
@@ -681,28 +685,37 @@ if (!showTabFromHash(false)) showTab("description");
 window.addEventListener("hashchange", () => showTabFromHash(true));   // e.g. the "install guide" link
 
 
-// Download counter. Stays "New release" until the combined count is above 0.
-(async function showDownloadCount() {
+// Download counter: GitHub release downloads plus CurseForge's total, exact, from /api/downloads
+// (functions/api/downloads.js), refreshed every minute while the page is in view. If a source is missing there, the
+// browser asks it directly, as before. Stays "New release" until the count is above 0, and never goes down (a
+// fallback can be rounder than the exact number shown a minute ago).
+let shownDownloads = 0;
+async function showDownloadCount() {
   const toNumber = m => {   // shields.io messages look like "0", "950", "1.2k" or "3M"
     const x = /^([\d.]+)([kKmM]?)$/.exec(m || "");
     return x ? parseFloat(x[1]) * ({ k: 1e3, K: 1e3, m: 1e6, M: 1e6 }[x[2]] || 1) : 0;
   };
-  const github = fetch("https://api.github.com/repos/" + GITHUB_REPO + "/releases")
+  const counts = await fetch("/api/downloads").then(r => r.ok ? r.json() : {}).catch(() => ({}));
+  const github = counts.github != null ? counts.github : fetch("https://api.github.com/repos/" + GITHUB_REPO + "/releases?per_page=100")
     .then(r => r.ok ? r.json() : [])
     .then(rels => rels.reduce((n, rel) => n + (rel.assets || []).filter(x => /\.(zip|exe)$/i.test(x.name))
       .reduce((a, x) => a + (x.download_count || 0), 0), 0))
     .catch(() => 0);
-  const curseforge = CURSEFORGE_PROJECT_ID
+  const curseforge = counts.curseforge != null ? counts.curseforge : CURSEFORGE_PROJECT_ID
     ? fetch("https://img.shields.io/curseforge/dt/" + CURSEFORGE_PROJECT_ID + ".json")
         .then(r => r.json()).then(d => toNumber(d.message)).catch(() => 0)
-    : Promise.resolve(0);
+    : 0;
   const total = Math.round((await github) + (await curseforge));
-  if (total > 0) {
+  if (total > shownDownloads) {
+    shownDownloads = total;
     const el = document.getElementById("downloads");
     el.innerHTML = "<strong></strong> " + (total === 1 ? "download" : "downloads");
     el.firstChild.textContent = total.toLocaleString("en-US");
   }
-})();
+}
+showDownloadCount();
+setInterval(() => { if (!document.hidden) showDownloadCount(); }, 60000);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) showDownloadCount(); });
 
 // Count clicks on the download links, CurseForge included (functions/api/click.js). CurseForge's own downloads
 // happen off this site, so this is the site's only signal for them. Best effort: the link works either way.

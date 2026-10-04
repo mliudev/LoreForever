@@ -7,7 +7,7 @@
 // release is asked for on the send form, not before uploading.
 //
 // Before a file goes up, the browser checks it against the narrator guide (mono, 44.1/48 kHz, about -16 LUFS,
-// peaks at -1 dB or lower, at most 0.3 s of silence at each end, a length that fits the text) and the quality bar in
+// peaks at -1 dB or lower, little silence at each end, a length that fits the text) and the quality bar in
 // quality.js (sample rate, bandwidth, noise, clipping, level). Warnings never stop an upload; a file below the bar, or
 // one we can't use at all (silent, not audio, too long), is refused here with how to fix it.
 // The game plays .mp3 and Ogg Vorbis only, so anything else (.wav, .flac, .m4a, .webm, Opus) is turned into a mono
@@ -17,7 +17,7 @@
 import { planPack, packFolder } from "/voices/testpack.js";
 import { crc32, crcHex } from "/voices/crc32.js";
 import { toMp3 } from "/voices/mp3.js";
-import { measure, verdict } from "/voices/quality.js";
+import { measure, verdict, BAR } from "/voices/quality.js";
 import { voiceUpload } from "/js/bulk-upload.js";
 
 const app = document.getElementById("st-app");
@@ -157,47 +157,6 @@ function headerInfo(b) {
   return ascii(0, 3) === "ID3" || frame(0) ? { kind: "mp3" } : null;
 }
 
-// BS.1770 K-weighting as two biquads for sample rate fs (the same constants as libebur128).
-function kFilters(fs) {
-  let K = Math.tan(Math.PI * 1681.974450955533 / fs), Q = 0.7071752369554196;
-  const Vh = Math.pow(10, 3.999843853973347 / 20), Vb = Math.pow(Vh, 0.4996667741545416);
-  let a0 = 1 + K / Q + K * K;
-  const shelf = { b: [(Vh + Vb * K / Q + K * K) / a0, 2 * (K * K - Vh) / a0, (Vh - Vb * K / Q + K * K) / a0],
-                  a: [2 * (K * K - 1) / a0, (1 - K / Q + K * K) / a0] };
-  K = Math.tan(Math.PI * 38.13547087602444 / fs); Q = 0.5003270373238773;
-  a0 = 1 + K / Q + K * K;
-  const hp = { b: [1, -2, 1], a: [2 * (K * K - 1) / a0, (1 - K / Q + K * K) / a0] };
-  return [shelf, hp];
-}
-
-function biquad(x, { b, a }) {
-  const y = new Float32Array(x.length);
-  let x1 = 0, x2 = 0, y1 = 0, y2 = 0;
-  for (let i = 0; i < x.length; i++) {
-    const v = b[0] * x[i] + b[1] * x1 + b[2] * x2 - a[0] * y1 - a[1] * y2;
-    x2 = x1; x1 = x[i]; y2 = y1; y1 = v; y[i] = v;
-  }
-  return y;
-}
-
-// Integrated loudness in LUFS (400 ms blocks, 75% overlap, absolute and relative gates).
-function loudness(channels, fs) {
-  const [shelf, hp] = kFilters(fs);
-  const weighted = channels.map(c => biquad(biquad(c, shelf), hp));
-  const block = Math.round(0.4 * fs), hop = Math.round(0.1 * fs), z = [];
-  for (let s = 0; s + block <= weighted[0].length; s += hop) {
-    let sum = 0;
-    for (const w of weighted) { let e = 0; for (let i = s; i < s + block; i++) e += w[i] * w[i]; sum += e / block; }
-    z.push(sum);
-  }
-  const L = e => -0.691 + 10 * Math.log10(e);
-  const gated = z.filter(e => L(e) > -70);
-  if (!gated.length) return -Infinity;
-  const rel = L(gated.reduce((a, b) => a + b, 0) / gated.length) - 10;
-  const kept = gated.filter(e => L(e) > rel);
-  return L(kept.reduce((a, b) => a + b, 0) / kept.length);
-}
-
 async function analyze(file, it) {
   const buf = await file.arrayBuffer();
   const head = headerInfo(new Uint8Array(buf.slice(0, 65536)));
@@ -213,39 +172,16 @@ async function analyze(file, it) {
   }
   const fs = decoded.sampleRate, n = decoded.length, duration = n / fs;
   const chans = Array.from({ length: decoded.numberOfChannels }, (_, i) => decoded.getChannelData(i));
-  let peak = 0;
-  for (const c of chans) for (let i = 0; i < n; i++) { const v = Math.abs(c[i]); if (v > peak) peak = v; }
-  const peakDb = 20 * Math.log10(peak || 1e-9);
-  if (duration < 0.3 || peakDb < -50) return { error: "This file is silent or almost empty. Check the export and try again." };
   if (duration > MAX_SECONDS) return { error: "This file is longer than 4 minutes, which is far longer than any line." };
-  // Silence at each end: 10 ms frames quieter than -50 dBFS.
-  const frame = Math.round(fs / 100), loud = f => {
-    let e = 0;
-    for (const c of chans) for (let i = f * frame; i < Math.min(n, (f + 1) * frame); i++) e += c[i] * c[i];
-    return 10 * Math.log10(e / (frame * chans.length) || 1e-12) > -50;
-  };
-  const frames = Math.floor(n / frame);
-  let first = 0, last = frames - 1;
-  while (first < frames && !loud(first)) first++;
-  while (last > first && !loud(last)) last--;
-  const lead = first / 100, tail = Math.max(0, (frames - 1 - last) / 100);
-  const lufs = loudness(chans, fs);
+  // Every check is in quality.js: below the bar the take is refused, with what to change; near it, a warning.
+  const m = measure(chans, fs);
+  if (duration < 0.3 || m.peak < -50) return { error: "This file is silent or almost empty. Check the export and try again." };
   const rate = head.rate || null, channels = head.channels || decoded.numberOfChannels;
-  // The quality bar (quality.js): below it the take is refused, with what to change; near it, a warning.
-  const q = measure(chans, fs), bar = verdict(q, { sourceRate: rate, lufs });
-  if (bar.refuse.length) return { error: bar.refuse.map(k => refusalText(k, { ...q, rate, lufs })).join(" ") };
-  const w = [...bar.warn];
-  if (channels > 1) w.push("stereo");
-  if (rate && rate > 48000) w.push("rate");
-  if (lufs < -19) w.push("quiet"); else if (lufs > -13) w.push("loud");
-  if (peakDb > -0.1) w.push("clip"); else if (peakDb > -1) w.push("peak");
-  if (lead > 0.5) w.push("lead");
-  if (tail > 0.5) w.push("tail");
-  if (it.target) {
-    const r = duration / it.target;
-    if (r < 0.6) w.push("short"); else if (r > 1.7) w.push("long");
-  }
-  const checks = { channels, rate: rate || 0, lufs, peak: peakDb, lead, tail, duration, bandwidth: q.bandwidth, snr: q.snr, warnings: w };
+  const bar = verdict(m, { sourceRate: rate, channels, target: it.target || null });
+  if (bar.refuse.length) return { error: bar.refuse.map(k => refusalText(k, { ...m, rate })).join(" ") };
+  const w = bar.warn;
+  const checks = { channels, rate: rate || 0, lufs: m.lufs, peak: m.peak, lead: m.lead, tail: m.tail, duration, bandwidth: m.bandwidth,
+                   snr: m.snr, warnings: w };
   if (!CONVERT.has(head.kind)) return { buf, checks };
   // Converted: the file that goes up is mono at 44.1 or 48 kHz, so those two warnings no longer apply.
   const mp3 = await toMp3(buf, rate).catch(() => null);
@@ -274,12 +210,11 @@ function warningText(key, c, it) {
     loud: `Loud (${n(c.lufs)} LUFS). Aim for about −16.`,
     clip: "Peaks reach 0 dB, so it may be clipping.",
     peak: `Peaks at ${n(c.peak)} dB. Keep them at −1 or lower.`,
-    lead: `${n(c.lead)} s of silence at the start. Trim it to 0.3 s or less.`,
-    tail: `${n(c.tail)} s of silence at the end. Trim it to 0.3 s or less.`,
+    lead: `${n(c.lead)} s of silence at the start. Trim it to under a second.`,
+    tail: `${n(c.tail)} s of silence at the end. Trim it to under a second.`,
     short: `Much shorter than the text (${fmtTime(c.duration)} for about ${fmtTime(it.target)}). The end may be cut off, or this is the recording for another line.`,
     long: `Much longer than the text (${fmtTime(c.duration)} for about ${fmtTime(it.target)}). Check it's the right line, or trim long pauses.`,
     unchecked: "This browser couldn't check the file. We'll check it when we review.",
-    muffled: `Sounds a little muffled or low-bitrate (nothing above ${n(c.bandwidth / 1000)} kHz). If you can, export a WAV, or an MP3 at 128 kbps or more.`,
     hiss: `Some background noise: the quiet between words is ${n(c.snr, 0)} dB below your voice. A quieter room, or getting closer to the mic, would help.`,
   }[key] || key;
 }
@@ -583,7 +518,7 @@ function renderWorkspace() {
   app.innerHTML = `${intro()}
     ${voiceBarHtml(v, lang)}
     <ul class="st-spec"><li><b>.mp3</b>, <b>.m4a</b>, <b>.ogg</b>, <b>.wav</b>, <b>.flac</b> or <b>.webm</b></li><li><b>Mono</b>, 44.1 or 48 kHz</li>
-      <li>About <b>−16 LUFS</b>, peaks ≤ −1 dB</li><li>≤ 0.3 s silence at each end</li></ul>
+      <li>About <b>−16 LUFS</b>, peaks ≤ −1 dB</li><li>Short silence at each end</li></ul>
     ${nextHtml()}
     <section id="st-bulkup"></section>
     <div class="st-bar">
@@ -643,7 +578,7 @@ function testPackHtml(v) {
     <ol>
       <li>Unzip it into <code>World of Warcraft\\_classic_beta_\\Interface\\AddOns</code>, so you have
         <code>AddOns\\${esc(packFolder(v.id))}</code>.</li>
-      <li>Restart WoW the first time. After that, download again, unzip over the old folder and type <code>/reload</code>.</li>
+      <li>Type <code>/reload</code> in game. After more uploads, download again, unzip over the old folder and <code>/reload</code>.</li>
       <li>Choose <b>${esc(v.name)} (test pack)</b> under Options › AddOns › Lore Forever › Narration voice.</li>
     </ol>
     ${names.length ? `<p class="st-note warn">${lines_(names.length)} left out: a pack holds one format and most of yours are

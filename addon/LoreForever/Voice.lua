@@ -106,6 +106,7 @@ local function sameLanguage(a, b) return (a or "enUS"):sub(1, 2) == (b or "enUS"
 local function say(msg) DEFAULT_CHAT_FRAME:AddMessage("|cffffd100Lore Forever:|r " .. msg) end
 
 Voice.active, Voice.chain, Voice.stats, Voice.total, Voice.provided, Voice.servedBy = {}, {}, {}, 0, {}, {}
+Voice.questPaths, Voice.questServed = {}, {}   -- quest dialogue picked for an open quest window (Voice.QuestClip)
 
 -- Put a voice first in the list and tick it, along with the default voice (what choosing a voice always meant: that
 -- voice, then the default for the rest). "none" unticks every voice.
@@ -158,11 +159,11 @@ function Voice.Current()
   return "none"
 end
 
--- Where a pack keeps a clip: zone:stormwind -> Audio\zone_stormwind.mp3, zone:stormwind#faq3 -> ...__faq3.mp3.
+-- Where a pack keeps a clip: zone:stormwind -> Audio\zone_stormwind.mp3, zone:stormwind#faq3 -> ...__faq3.mp3,
+-- quest:176#detail -> ...\quest_176__detail.mp3 (lore.clips.stem).
 function Voice.ClipPath(pack, id, ext)
-  local base, n = id:match("^(.-)#faq(%d+)$")
-  local stem = ((base or id):gsub("[^%w%-_]", "_"))
-  return "Interface\\AddOns\\" .. pack .. "\\Audio\\" .. stem .. (n and ("__faq" .. n) or "") .. "." .. (ext or "mp3")
+  local stem = (id:gsub("#", "__"):gsub("[^%w%-_]", "_"))
+  return "Interface\\AddOns\\" .. pack .. "\\Audio\\" .. stem .. "." .. (ext or "mp3")
 end
 
 -- The default pack for a language: LoreForever_Voice_Default_<locale>, or LoreForever_Voice_Default for its language.
@@ -340,6 +341,22 @@ function Voice.Refresh()
     active[id], servedBy[id] = paths, list[1][1]
     stats[list[1][1]].plays = stats[list[1][1]].plays + 1
   end
+  -- Quest dialogue (ns.DB.questClip: quest:<id>#detail|progress|complete, from the voices' quest packs): each voice
+  -- in the chain with a current recording, in list order. Voice.QuestClip picks one when a quest window opens.
+  local questRanked = {}
+  for id, hash in pairs((ns.DB and ns.DB.questClip) or {}) do
+    for _, name in ipairs(chain) do
+      for _, pack in ipairs(packsOf[name]) do
+        local data = ns.Packs.data[pack]
+        if data and data.clips[id] == hash then
+          questRanked[id] = questRanked[id] or {}
+          table.insert(questRanked[id], { name, Voice.ClipPath(pack, id, data.ext) })
+          break
+        end
+      end
+    end
+  end
+  Voice.questRanked = questRanked
   -- Recordings outside the voice packs (journey chapters the companion app narrated: Journey.LoadChapters).
   for id, paths in pairs(Voice.extra or {}) do active[id], servedBy[id] = paths, nil end
   Voice.active, Voice.chain, Voice.stats, Voice.total, Voice.ready = active, chain, stats, total, true
@@ -349,8 +366,8 @@ end
 -- The voice (its pack name) that plays a clip and the file it plays first, or nil if no voice has the clip.
 function Voice.Resolve(id)
   if not Voice.ready then Voice.Refresh() end
-  local paths = Voice.active[id]
-  return Voice.servedBy[id], paths and paths[1]
+  local paths = Voice.active[id] or Voice.questPaths[id]
+  return Voice.servedBy[id] or Voice.questServed[id], paths and paths[1]
 end
 
 -- Voices installed since the last login go to the top of the list (installing one means you want to hear it; a
@@ -454,7 +471,7 @@ local function noticeMissing()
       L["voice pack %s isn't installed; using Read aloud."],
       L["voice pack %s isn't installed; using no narration."],
       L["voice pack %s isn't installed; using %s."] })[fallback], title, nextTitle))
-    say(string.format(L["Get it again at %s, then restart the game."], Voice.DOWNLOADS))
+    say(string.format(L["Get it again at %s, then type /reload."], Voice.DOWNLOADS))
   elseif why then
     say(string.format(({ L["voice pack %s can't be used: %s; using the default voice."],
       L["voice pack %s can't be used: %s; using Read aloud."],
@@ -475,6 +492,7 @@ function Voice.Init()
   adoptAndRefresh()
   if not Voice.deferred then noticeMissing() end
   Voice.CheckSpoken()
+  Voice.CheckQuestVoices()
 end
 
 -- Combat ended: load the packs that had to wait, then relabel the panel.
@@ -485,10 +503,10 @@ function Voice.OnCombatEnded()
   if ns.UI and ns.UI.OnVoiceChanged then ns.UI.OnVoiceChanged() end
 end
 
--- A recorded narration exists for this entry with the current voice.
+-- A recorded narration exists for this entry with the current voice (or quest dialogue Voice.QuestClip picked).
 function Voice.HasAudio(key)
   if not Voice.ready then Voice.Refresh() end
-  return key ~= nil and Voice.active[key] ~= nil
+  return key ~= nil and (Voice.active[key] or Voice.questPaths[key]) ~= nil
 end
 
 -- Every clip id the current voice can play (id -> paths), for the Listen tab.
@@ -751,7 +769,7 @@ end
 -- Play an entry's recorded narration: the chosen voice's file, or the next voice's if the game can't play it (e.g.
 -- the file is missing from the pack). Returns true if it started.
 function Voice.Play(key)
-  local paths = Voice.HasAudio(key) and Voice.active[key]
+  local paths = Voice.HasAudio(key) and (Voice.active[key] or Voice.questPaths[key])
   if not paths or not _G.PlaySoundFile then return false end
   Voice.Stop()
   for _, path in ipairs(paths) do
@@ -1022,7 +1040,99 @@ local function questPage(kind)
   return table.concat(parts, " ")
 end
 
--- kind: "detail", "progress" or "complete"; recorded: the quest's lore entry, if it has one.
+-- A voice's gender, for matching quest givers: ## X-LoreForever-Gender (male or female) in its .toc, else read from
+-- our own packs' names (LoreForever_Voice_Female..., the default voice is the male narrator). nil if unknown.
+function Voice.Gender(name)
+  local rec = ns.Packs.Get(name)
+  local g = rec and rec.gender and rec.gender:lower()
+  if g == "male" or g == "female" then return g end
+  if name:find("_Female", 1, true) then return "female" end
+  if isDefault(name) then return "male" end
+end
+
+-- The fingerprints of a quest text as the add-on's data has them (lore.quest_dialogue.fingerprint): the player's own
+-- name, class and race taken out (the game puts them where the text has <name>, <class>, <race>; "<race>s" shows as
+-- "Humans", so a plural s stays), then the letters and digits only, lower-cased, hashed with djb2 mod 2^32. Spacing,
+-- punctuation and accents never matter. A text can also name a class or race outright ("He's human"), so there's one
+-- fingerprint with and one without taking each out; the first takes out all three.
+local function escapePattern(s) return (s:gsub("[%^%$%(%)%%%.%[%]%*%+%-%?]", "%%%0")) end
+local function playerWord(fn)
+  local f = _G[fn]
+  local ok, word = false, nil
+  if f then ok, word = pcall(f, "player") end
+  return ok and type(word) == "string" and word ~= "" and word:lower() or nil
+end
+local function djb2(s)
+  s = s:gsub("[^%w]", "")
+  local h = 5381
+  for i = 1, #s do h = (h * 33 + s:byte(i)) % 4294967296 end
+  return string.format("%08x", h)
+end
+function Voice.QuestFingerprints(text)
+  local function without(s, word, loose)
+    if not word then return s end
+    -- loose: the name with a suffix glued on, as a dwarf says it ("<name>ama" shows as "Testerama").
+    return (s:gsub("%f[%w]" .. escapePattern(word) .. (loose and "" or "(s?)%f[%W]"), loose and "" or "%1"))
+  end
+  local lower, name = string.lower(text or ""), playerWord("UnitName")
+  local class, race = playerWord("UnitClass"), playerWord("UnitRace")
+  local out, seen = {}, {}
+  for _, base in ipairs({ without(lower, name), without(lower, name, true) }) do
+    for _, s in ipairs({ without(without(base, class), race), without(base, race), without(base, class), base }) do
+      local fp = djb2(s)
+      if not seen[fp] then seen[fp], out[#out + 1] = true, fp end
+    end
+  end
+  return out
+end
+function Voice.QuestFingerprint(text) return Voice.QuestFingerprints(text)[1] end
+
+local QUEST_PART = { detail = 2, progress = 3, complete = 4 }
+local QUEST_TEXT = { detail = "GetQuestText", progress = "GetProgressText", complete = "GetRewardText" }
+
+-- The recorded quest dialogue for the open quest window, if a voice has one and its text is exactly what's on screen
+-- (ns.DB.questVoice[questID] = { quest the clip is named after, fingerprints of its quest text, progress text and
+-- completion text }); nil otherwise, so a quest Forever changed is read aloud instead. With "Match the quest giver's
+-- voice" on, a voice of the quest giver's gender (UnitSex("npc")) goes first. Fills Voice.questPaths[id] for
+-- Voice.Play.
+function Voice.QuestClip(qid, kind)
+  local rec = qid and QUEST_PART[kind] and ns.DB and ns.DB.questVoice and ns.DB.questVoice[qid]
+  local fps = rec and rec[QUEST_PART[kind]]
+  if not fps or fps == "" then return nil end
+  if not Voice.ready then Voice.Refresh() end
+  local id = "quest:" .. rec[1] .. "#" .. kind
+  local list = Voice.questRanked and Voice.questRanked[id]
+  if not list then return nil end
+  local f = _G[QUEST_TEXT[kind]]
+  local ok, text = false, nil
+  if f then ok, text = pcall(f) end
+  if not ok or type(text) ~= "string" or not text:find("%S") then return nil end
+  local match = false
+  for _, fp in ipairs(Voice.QuestFingerprints(text)) do
+    if (" " .. fps .. " "):find(" " .. fp .. " ", 1, true) then match = true break end
+  end
+  if not match then return nil end
+  local order = list
+  if S().voiceMatchGender ~= false and #list > 1 then
+    local ok2, sex = false, nil
+    if _G.UnitSex then ok2, sex = pcall(UnitSex, "npc") end
+    local want = ok2 and (sex == 2 and "male" or sex == 3 and "female") or nil
+    if want then
+      local yes, no = {}, {}
+      for _, v in ipairs(list) do table.insert(Voice.Gender(v[1]) == want and yes or no, v) end
+      for _, v in ipairs(no) do yes[#yes + 1] = v end
+      order = yes
+    end
+  end
+  local paths = {}
+  for _, v in ipairs(order) do paths[#paths + 1] = v[2] end
+  -- Kept apart from Voice.active / servedBy, which list and count the lore narrations (Listen tab, Status).
+  Voice.questPaths[id], Voice.questServed[id] = paths, order[1][1]
+  return id
+end
+
+-- kind: "detail", "progress" or "complete"; recorded: the quest's lore entry, if it has one. The quest giver's own
+-- words play when a voice recorded them (Voice.QuestClip); else, on the first page, the quest's lore narration.
 function Voice.OnQuestFrame(kind, recorded)
   local UI = ns.UI
   if S().autoQuest == false or not (UI and UI.frame) then return end
@@ -1032,8 +1142,9 @@ function Voice.OnQuestFrame(kind, recorded)
   local ours = UI.speaking and isQuestText(UI.playingId)
   if UI.IsBusy() and not ours then return end   -- never over something you started
   if UI.playingId == id then return end
-  local key = kind == "detail" and recorded and Voice.Current() ~= "none" and Voice.HasAudio(recorded)
-    and recorded or nil
+  local key = Voice.Current() ~= "none" and Voice.QuestClip(qid, kind) or nil
+  key = key or (kind == "detail" and recorded and Voice.Current() ~= "none" and Voice.HasAudio(recorded)
+    and recorded or nil)
   local text = questPage(kind)
   if not fresh(id) or not (key or (text ~= "" and Voice.Available())) then
     if ours then UI.StopAll() end   -- the last quest's page stops all the same
@@ -1106,27 +1217,31 @@ function Voice.OnBookClosed()
   if UI and UI.speaking and isBookText(UI.playingId) then UI.StopAll() end
 end
 
+-- Whether a loaded add-on's folder name, in lower case, passes match.
+local function addOnLoaded(match)
+  local C = _G.C_AddOns
+  local count = (C and C.GetNumAddOns) or _G.GetNumAddOns
+  local info = (C and C.GetAddOnInfo) or _G.GetAddOnInfo
+  local loaded = (C and C.IsAddOnLoaded) or _G.IsAddOnLoaded
+  if not (count and info and loaded) then return false end
+  local okN, n = pcall(count)
+  for i = 1, (okN and n) or 0 do
+    local ok, name = pcall(info, i)
+    if ok and type(name) == "string" and match(name:lower()) then
+      local okL, isLoaded = pcall(loaded, name)
+      if okL and isLoaded then return true end
+    end
+  end
+  return false
+end
+
 -- Players who run the Spoken add-ons (zones, quests and books read aloud) would hear both. The first time Lore
 -- Forever finds one loaded, it leaves arrivals and quest dialogue to Spoken and says how to turn them back on; after
 -- that the player's choice in Options stands (LOR-138).
 function Voice.CheckSpoken()
   local s = S()
   if s.spokenChecked and s.spokenBooks then return end
-  local C = _G.C_AddOns
-  local count = (C and C.GetNumAddOns) or _G.GetNumAddOns
-  local info = (C and C.GetAddOnInfo) or _G.GetAddOnInfo
-  local loaded = (C and C.IsAddOnLoaded) or _G.IsAddOnLoaded
-  if not (count and info and loaded) then return end
-  local okN, n = pcall(count)
-  local found = false
-  for i = 1, (okN and n) or 0 do
-    local ok, name = pcall(info, i)
-    if ok and type(name) == "string" and name:lower():find("^spoken") then
-      local okL, isLoaded = pcall(loaded, name)
-      if okL and isLoaded then found = true break end
-    end
-  end
-  if not found then return end
+  if not addOnLoaded(function(name) return name:find("^spoken") end) then return end
   -- Books came later (LOR-49): players already past the first check have them left to Spoken on their own.
   local booksOff = not s.spokenBooks and s.readBooks ~= false
   s.spokenBooks = true
@@ -1141,10 +1256,48 @@ function Voice.CheckSpoken()
   say(L["Spoken is running, so narrations won't play by themselves as you arrive or talk to a quest giver. Type /lore autoplay (or use Options) to turn that back on."])
 end
 
--- /lore autoplay: both automatic narrations off if either is on, else both on. Returns the new state.
+-- Other add-ons that voice quest dialogue (LOR-182), by the core folder their Forever builds install (their voice packs
+-- depend on it). folders: lower case, any one loaded counts; books: it reads books aloud too. None plays on arrival.
+local QUEST_VOICES = {
+  { id = "forevervo", title = "Forever Voiceover", folders = { forevervo = true } },
+  { id = "chronicle", title = "Chronicle", folders = { foreverchronicle = true }, books = true },
+  { id = "speakstone", title = "SpeakStone Forever", folders = { speakstone_forever_main = true }, books = true },
+  -- VoiceOver Forever and the original VoiceOver share this folder.
+  { id = "voiceover", title = "VoiceOver", folders = { ai_voiceover = true } },
+  { id = "voiceovercontinued", title = "VoiceOver Continued",
+    folders = { voiceover_continued = true, ai_voiceover_continued = true } },
+  { id = "chatty", title = "Chatty Little NPC", folders = { chattylittlenpc = true }, books = true },
+}
+
+-- Players who run one of those would hear a quest page twice. The first time Lore Forever finds one loaded, it leaves
+-- quest dialogue (and books, if that add-on reads them) to it and says how to turn that back on; after that the
+-- player's choice in Options stands. Each add-on is checked once, so one installed later gets the same.
+function Voice.CheckQuestVoices()
+  local s = S()
+  local checked = type(s.questVoicesChecked) == "table" and s.questVoicesChecked or {}
+  for _, v in ipairs(QUEST_VOICES) do
+    if not checked[v.id] and addOnLoaded(function(name) return v.folders[name] end) then
+      checked[v.id] = true
+      s.questVoicesChecked = checked
+      local quests, books = s.autoQuest ~= false, v.books and s.readBooks ~= false
+      if quests then s.autoQuest = false end
+      if books then s.readBooks = false end
+      if quests and books then
+        say(string.format(L["%s is running, so quest dialogue and books won't play by themselves. Type /lore autoplay (or use Options) to turn quest dialogue back on, and Options > Read books aloud for books."], v.title))
+      elseif quests then
+        say(string.format(L["%s is running, so quest dialogue won't play by itself when you talk to a quest giver. Type /lore autoplay (or use Options) to turn that back on."], v.title))
+      elseif books then
+        say(string.format(L["%s is running, so Lore Forever won't read books aloud by itself. Options > Read books aloud turns that back on."], v.title))
+      end
+    end
+  end
+end
+
+-- /lore autoplay: both automatic narrations on if either is off (one may have been left to another add-on), else both
+-- off. Returns the new state.
 function Voice.ToggleAutoplay()
   local s = S()
-  local on = not (s.autoZone ~= false or s.autoQuest ~= false)
+  local on = s.autoZone == false or s.autoQuest == false
   s.autoZone, s.autoQuest = on, on
   if not on then
     Voice.autoToken = nil

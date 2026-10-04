@@ -25,8 +25,10 @@ DOWNLOADS = {
     "LoreForever_Voice_Female": (["LoreForever_Voice_Female"], "Female narrator: core {v}"),
     "LoreForever_Voice_Female_Alliance": (["LoreForever_Voice_Female_Alliance"], "Female narrator: Alliance lands {v}"),
     "LoreForever_Voice_Female_Horde": (["LoreForever_Voice_Female_Horde"], "Female narrator: Horde lands {v}"),
+    "LoreForever_Voice_Female_Quests": (["LoreForever_Voice_Female_Quests"], "Female narrator: quest dialogue {v}"),
     "LoreForever_Voice_Female-complete": (["LoreForever_Voice_Female", "LoreForever_Voice_Female_Alliance",
-                                           "LoreForever_Voice_Female_Horde"], "Female narrator: complete {v} (all narrations)"),
+                                           "LoreForever_Voice_Female_Horde", "LoreForever_Voice_Female_Quests"],
+                                          "Female narrator: complete {v} (all narrations)"),
 }
 
 def version(folder):

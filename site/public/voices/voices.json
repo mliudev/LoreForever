@@ -9,7 +9,7 @@
       "addon": "LoreForever_Voice_Default",
       "status": "live",
       "included": true,
-      "clips": 840,
+      "clips": 817,
       "coverage": "every zone, capital and dungeon, the places and people inside them, dungeon bosses and first questions",
       "tagline": "Has narrated every capital in one sitting. Doesn't blink. Declined our offer of water.",
       "bio": "The voice that comes with Lore Forever, and the first one you hear in Stormwind.\n\nHas narrated every capital in one sitting. Doesn't blink. Declined our offer of water, then a chair, then a lunch break. Knows the founding of Stormwind by heart and will tell you about it whether or not you asked.\n\nFavourite zone: all of them, in alphabetical order. Hobbies: dramatic pauses, and saying \"Thrall\" exactly right every single time.",
@@ -40,9 +40,10 @@
         { "src": "/audio/voices/female-narrator-thunderbluff.mp3", "title": "Thunder Bluff", "length": "1:05" }
       ],
       "packs": [
-        { "id": "female-alliance-lands", "name": "Alliance lands", "addon": "LoreForever_Voice_Female_Alliance", "clips": 403, "coverage": "the places and people of Alliance and contested zones", "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Alliance.zip" },
-        { "id": "female-horde-lands", "name": "Horde lands", "addon": "LoreForever_Voice_Female_Horde", "clips": 310, "coverage": "the places and people of Horde and contested zones", "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Horde.zip" },
-        { "id": "female-complete", "name": "All three in one zip", "clips": 840, "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female-complete.zip" }
+        { "id": "female-alliance-lands", "name": "Alliance lands", "addon": "LoreForever_Voice_Female_Alliance", "clips": 390, "coverage": "the places and people of Alliance and contested zones", "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Alliance.zip" },
+        { "id": "female-horde-lands", "name": "Horde lands", "addon": "LoreForever_Voice_Female_Horde", "clips": 299, "coverage": "the places and people of Horde and contested zones", "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Horde.zip" },
+        { "id": "female-quests", "name": "Quest dialogue", "addon": "LoreForever_Voice_Female_Quests", "clips": 445, "coverage": "what quest givers say; with Match the quest giver's voice on, women speak in her voice", "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Quests.zip" },
+        { "id": "female-complete", "name": "Everything in one zip", "clips": 1262, "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female-complete.zip" }
       ],
       "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female.zip"
     }

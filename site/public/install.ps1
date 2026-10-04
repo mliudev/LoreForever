@@ -96,7 +96,7 @@
         Write-Host ''
         Write-Host "Lore Forever $version is installed." -ForegroundColor Green
         if ($locked) { Write-Host "$locked file(s) were in use by the game. Close WoW and run this again to finish." -ForegroundColor Yellow }
-        Write-Host 'Restart WoW, then pick a key when it asks, or type /lore.'
+        Write-Host 'Start WoW (or type /reload if it is running), then pick a key when it asks, or type /lore.'
         Write-Host "If it doesn't show up: on the character screen click AddOns and tick 'Load out of date AddOns'."
     } catch {
         Write-Host "Install failed: $($_.Exception.Message)" -ForegroundColor Red

@@ -2,12 +2,12 @@
 ## Title: Lore Forever
 ## Notes: Lore companion: the story behind the zones, quests, people and items around you.
 ## Author: Mike
-## Version: 0.6.0
+## Version: 0.7.0
 ## IconTexture: Interface\Icons\INV_Misc_Book_09
 ## SavedVariables: LoreForeverDB
 ## AddonCompartmentFunc: LoreForever_OnAddonCompartmentClick
 ## X-Curse-Project-ID: 1715510
 
-# The client reads this file once, at launch. The load order is in LoreForever.xml, which it reads again on every
-# /reload, so adding or removing a Lua file there needs no restart (CONTRIBUTING.md, "Load files and restarts").
+# The load order is in LoreForever.xml: add or remove Lua files there, never here, and /reload
+# (CONTRIBUTING.md, "Load files and restarts").
 LoreForever.xml

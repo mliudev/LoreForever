@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Narration voices - Lore Forever</title>
-<meta name="description" content="Choose who tells the story in Lore Forever: listen to every narration voice, like your favourites, or make your own.">
+<title>Narrator voices - Lore Forever</title>
+<meta name="description" content="Extra narrator voices for Lore Forever, the WoW Forever lore add-on: hear a sample, like your favourites, download in one click. Plus the add-on itself and its languages.">
 <link rel="canonical" href="https://loreforeverwow.com/voices">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Lore Forever narration voices">
-<meta property="og:description" content="Choose who tells the story in Lore Forever, or make a voice of your own.">
+<meta property="og:title" content="Lore Forever narrator voices">
+<meta property="og:description" content="Every narrator voice for Lore Forever: hear it, like it, download it in one click.">
 <meta property="og:url" content="https://loreforeverwow.com/voices">
 <meta property="og:image" content="https://loreforeverwow.com/img/social-card.png">
 <link rel="icon" href="img/logo.svg" type="image/svg+xml">
@@ -29,83 +29,92 @@
   </div>
 </header>
 
-<!-- The list of voices comes first: it's what most visitors are here for. Making a voice is a small side card
-     (below the list on phones). Rows and filter buttons come from voices/voices.json via functions/voices/index.js. -->
-<main class="wrap vp-page vl-page">
-  <h1>Narration voices</h1>
-  <p class="pitch">Choose who tells the story. Press &#9654; to hear a voice, download it, and pick it in game under
-    Options &rsaquo; AddOns &rsaquo; Lore Forever, or type <code>/lore voice</code>.</p>
-  <p class="vp-note">Every voice with its Alliance and Horde packs, plus languages and install steps, is on the
-    <a href="/downloads">Downloads page</a>.</p>
-  <!-- "Calling all narrators" (style.css .narrators): the same box on the home page, /voices and /downloads. -->
-  <aside class="narrators" aria-labelledby="narrators-title">
-    <div>
-      <h2 id="narrators-title">Calling all narrators</h2>
-      <p>Want to narrate Lore Forever? Record as many or as few lines as you like and upload them on the narrator
-        dashboard. Then download your own test pack and hear yourself in game before you send it in. Anything you
-        skip plays in the default voice.</p>
-    </div>
-    <div class="nr-go">
-      <a class="btn-small" href="/voices/studio">Open the narrator dashboard</a>
-      <small><a href="/voices/guide">How it works</a> &middot; sign in with Google</small>
-    </div>
-  </aside>
+<!-- The one page players come to for voices (Mike, 2026-10-02: /voices and /downloads merged, option A). /downloads
+     redirects here (public/_redirects), so the add-on's in-game links and the CurseForge description land here too.
+     The voice cards and the language line come from voices/voices.json and translate/packs.json through
+     functions/voices/index.js (lib/downloads.js); /voices-page.js fills in file sizes and plays the samples, and
+     /voices/player.js handles the likes. Keep the #voices, #install, #addon, #languages and #record anchors and each
+     voice's #<id>. No "Calling all narrators" box here: this is the player path. Narrators get the footer line
+     (#record), and /narrate redirects to the studio. Copy rule: never say how a voice or a translation is made. -->
+<main class="wrap dl-page">
+  <h1>Narrator voices</h1>
+  <p class="pitch">Lore Forever comes with the male narrator. Every other voice is one more download: hear it, get
+    it, unzip it next to Lore Forever and type <code>/reload</code> in game. <a href="#install">How</a></p>
 
-  <div class="vl-layout">
-  <section id="voices" aria-labelledby="voices-title">
-    <h2 id="voices-title" class="visually-hidden">Voices</h2>
-    <div class="vl-filters" hidden>
-      <!-- voice-filters -->
+  <section class="dl-section dl-section-first" id="voices" aria-label="Narration voices">
+    <div class="dl-voices">
+    <!-- dl-voices -->
     </div>
-    <div class="vl-list">
-    <!-- voice-list -->
-    </div>
-    <details class="vc-help" id="install">
-      <summary>Installing a voice</summary>
-      <ol class="vp-steps">
-        <li>Download the voice's zip and unzip it. Inside is a folder named <code>LoreForever_Voice_&lt;Name&gt;</code>.</li>
-        <li>Put that folder in <code>World of Warcraft\_classic_beta_\Interface\AddOns</code>, next to
-          <code>LoreForever</code>.</li>
-        <li>Restart the game (a <code>/reload</code> isn't enough), then pick the voice under Options &rsaquo; AddOns
-          &rsaquo; Lore Forever &rsaquo; Narration voice and press Preview.</li>
-      </ol>
-      <p class="vp-note">A voice that hasn't recorded a story yet hands it to the default narrator. To go back, pick
-        Default; to remove a voice, delete its folder. Prefer no recordings at all? Pick
-        <strong>Game voice only</strong>.</p>
-    </details>
+    <p class="dl-intro">Pick a voice in game under Options &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Narration
+      voices, or type <code>/lore voice</code>. Install as many as you like and put them in your order.</p>
   </section>
 
-  <aside class="vl-side" id="record" aria-labelledby="record-title">
-    <h2 id="record-title">Make a voice</h2>
-    <p>Want to narrate the stories of Azeroth? Start with a few places; the default narrator covers the rest. We build
-      your pack, listen to it, and list it here with your name on it.</p>
-    <ol>
-      <li>Read the <a href="/voices/guide">narrator guide</a>.</li>
-      <li>Record the lines you like in a recording app (<a href="https://www.audacityteam.org/">Audacity</a> is free)
-        with a decent microphone in a quiet room, and export MP3 or WAV.</li>
-      <li>Open the <a href="/voices/studio">upload page</a>: it lists every line with the words to read. Sign in with
-        Google and drop each file on its line.</li>
-      <li>Send your voice for review from the same page.</li>
+  <details class="dl-section dl-howto" id="install">
+    <summary><h2>How to install a voice</h2></summary>
+    <ol class="steps dl-steps">
+      <li><strong>Unzip it into your AddOns folder</strong>,
+        <code>World of Warcraft\_classic_beta_\Interface\AddOns</code>, so it sits next to the
+        <code>LoreForever</code> folder, not inside it.</li>
+      <li><strong>Type <code>/reload</code> in game</strong>, or start the game if it's closed.</li>
+      <li><strong>Pick the voice</strong> under Options &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Narration
+        voices. Alliance and Horde lands play by themselves.</li>
     </ol>
-    <p><a class="btn-small" href="/voices/studio">Get started</a></p>
-    <p class="vp-note">Questions? <a href="/discord?src=voices">Ask on Discord</a>. Meet everyone on
-      <a href="/voices/contributors">Contributors</a>. Voice packs are shared under
-      <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; see the
-      <a href="/voices/release">narrator release</a>.</p>
-    <p class="vp-note">Speak another language? <a href="/translate">Help translate Lore Forever</a> too.</p>
-  </aside>
-  </div>
+    <p class="dl-intro">Not showing up? Watch for a doubled folder like
+      <code>AddOns\LoreForever_Voice_Female\LoreForever_Voice_Female\</code>, and on the character screen tick
+      AddOns &rsaquo; <strong>Load out of date AddOns</strong>. A voice that hasn't recorded a story hands it to the
+      next voice in your order. Still stuck? <a href="/discord?src=voices">Ask on Discord</a>.</p>
+  </details>
+
+  <section class="dl-section" id="addon" aria-labelledby="addon-title">
+    <h2 id="addon-title">Don't have Lore Forever yet?</h2>
+    <p class="dl-intro"><!-- dl-included --></p>
+    <ul class="dl-files dl-files-tight dl-card">
+      <li class="dl-file" id="installer">
+        <div class="dl-file-main">
+          <p class="dl-file-name">Windows installer</p>
+          <p class="dl-file-meta">Finds your WoW folder for you<span class="dl-dot" aria-hidden="true"> &middot; </span><span class="dl-size" data-asset="latest:LoreForever-Setup.exe"></span></p>
+        </div>
+        <a class="btn-small dl-get dl-link" href="/download/installer" aria-label="Download the Windows installer">Download</a>
+      </li>
+      <li class="dl-file" id="zip">
+        <div class="dl-file-main">
+          <p class="dl-file-name">Zip</p>
+          <p class="dl-file-meta">Unzip it into your AddOns folder yourself<span class="dl-dot" aria-hidden="true"> &middot; </span><span class="dl-size" data-asset="latest:LoreForever.zip"></span></p>
+        </div>
+        <a class="btn-small dl-get dl-link" href="/download/zip" aria-label="Download the zip">Download</a>
+      </li>
+      <li class="dl-file" id="curseforge">
+        <div class="dl-file-main">
+          <p class="dl-file-name">CurseForge</p>
+          <p class="dl-file-meta">Updates itself in the CurseForge app. It has the add-on only: extra voices come from
+            this page.</p>
+        </div>
+        <a class="btn-small btn-small-alt dl-get dl-link" href="https://www.curseforge.com/wow/addons/lore-forever"
+          aria-label="Get Lore Forever on CurseForge">CurseForge</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="dl-section" id="languages" aria-labelledby="languages-title">
+    <h2 id="languages-title">Languages</h2>
+    <!-- dl-languages -->
+    <p class="dl-intro">Missing yours? <a href="/translate">Help translate</a>.</p>
+  </section>
 </main>
 
 <footer class="wrap foot">
+  <p id="record">Want to narrate Lore Forever? <a href="/voices/studio">Open the narrator dashboard</a>
+    &middot; <a href="/voices/guide">How it works</a> &middot; <a href="/voices/contributors">Everyone who has lent a
+    voice</a></p>
   <p>Spotted a wrong answer? <a href="/feedback">Tell us</a>.</p>
   <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Voice packs are shared under
     <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
-  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
   <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>
 
+<script src="/voices-page.js" defer></script>
 <script src="/voices/player.js" defer></script>
 </body>
 </html>

@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Chemical Neutralizer",
-   "body": "When Dark Iron saboteurs planted a heavy Seaforium charge beneath the foundation of the Stonewrought Dam, standard methods of defusal were far too risky. Lacking immediate Mountaineer support, Chief Engineer Hinderweir devised the Disarming Mixture from specialized ingredients to rapidly neutralize the underwater explosive. When stirred directly into the planted powder keg, the solution neutralizes the reactive compounds, reducing a catastrophic explosion to a harmless, fizzling ruin.",
+   "body": "When Dark Iron saboteurs planted a heavy Seaforium charge beneath the foundation of the Stonewrought Dam, standard methods of defusal were far too risky. Lacking immediate Mountaineer support, Chief Engineer Hinderweir combined the Disarming Mixture from ingredients named by the explosives expert Ashlan Stonesmirk to rapidly neutralize the underwater explosive. When stirred directly into the planted powder keg, the solution neutralizes the reactive compounds, reducing a catastrophic explosion to a harmless, fizzling ruin.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "why use chemicals on the bomb",
     "why disarming mixture"
    ],
-   "answer": "Seaforium explosives are highly unstable and rigged to detonate. The chemical mixture neutralizes the reactive powder inside the keg directly, eliminating the blast hazard while submerged beneath the dam."
+   "answer": "Seaforium powder is harmless while dry, but once wet it can explode with tremendous force. The chemical mixture neutralizes the reactive powder inside the keg directly, eliminating the blast hazard while submerged beneath the dam."
   }
  ],
  "angles": [

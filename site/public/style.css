@@ -126,6 +126,9 @@ h1 {
   text-decoration: none; text-shadow: 0 1px 1px #000;
 }
 .btn-download:hover { background: linear-gradient(180deg, #d02a22 0%, #971410 55%, #6d0b07 100%); color: #fff2b0; }
+/* The secondary download (CurseForge): the same gold rim and type, no red fill, a step smaller. */
+.btn-download-alt { padding: 12px 24px; font-size: 1rem; background: rgba(0, 0, 0, 0.6); box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); }
+.btn-download-alt:hover { background: #1b1408; color: var(--gold); }
 .file-note { color: var(--muted); font-size: 0.82rem; }
 
 /* Screenshot strip. Shots have mixed shapes (tooltips, chat lines, the full panel), so each sits whole
@@ -245,7 +248,7 @@ dd { margin: 0; }
 .feature-ask .sample { margin: 18px 0 0; }
 .feature-shot { margin: 8px 0 0; }
 .feature-shot a { display: block; border: 1px solid #c9a24b88; border-radius: 4px; overflow: hidden; }
-.feature-shot img { width: 100%; display: block; }
+.feature-shot img { width: 100%; height: auto; display: block; }
 .feature-shot figcaption { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
 
 /* Email sign-up band */
@@ -275,12 +278,15 @@ dd { margin: 0; }
   padding: 52px 16px 40px;
 }
 @media (max-width: 860px) { .hero-grid { grid-template-columns: minmax(0, 1fr); padding-top: 28px; padding-bottom: 28px; } }
-.dl-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-top: 22px; }
+.dl-row { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 14px 18px; margin-top: 22px; }
+/* Each download button with its one-line note under it: the installer, then CurseForge. */
+.dl-pick { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+.dl-pick .btn-download { white-space: nowrap; }
+.dl-pick .dl-other { max-width: 270px; }
 .dl-alt { display: flex; flex-direction: column; gap: 2px; }
 .dl-other { color: var(--muted); font-size: 0.92rem; }
 .dl-more { margin: 14px 0 0; font-size: 0.95rem; text-shadow: 0 1px 2px #000; }
 .dl-more a { font-weight: 700; }
-.dl-cf { margin: 8px 0 0; color: var(--muted); font-size: 0.88rem; text-shadow: 0 1px 2px #000; }
 
 /* About the author, styled like a tooltip, with the community links as buttons */
 .author-card {
@@ -312,7 +318,8 @@ dd { margin: 0; }
   .hero-grid { gap: 18px; padding-top: 22px; }
   .pitch { font-size: 1.05rem; }
   .dl-row { margin-top: 16px; }
-  .dl-row .btn-download { flex: 1 1 100%; text-align: center; }
+  .dl-pick { flex: 1 1 100%; max-width: none; }
+  .dl-pick .btn-download { align-self: stretch; text-align: center; }
   .author-card { padding: 14px 16px; }
   .author-bio { margin: 8px 0 10px; }
   .socials { gap: 6px; }
@@ -675,6 +682,8 @@ dd { margin: 0; }
 .dl-file-meta { color: var(--muted); font-size: 0.85rem; }
 .dl-dot:has(+ .dl-size:empty), .dl-dot:last-child { display: none; }
 .dl-get { flex: 0 0 auto; margin-top: 0; }
+.btn-small-alt { background: rgba(0, 0, 0, 0.6); }
+.btn-small-alt:hover { background: #1b1408; }
 .dl-meter { display: inline-block; width: 64px; height: 5px; margin: 0 2px 0 4px; vertical-align: middle; border-radius: 3px; background: #ffffff1f; overflow: hidden; }
 .dl-meter > span { display: block; height: 100%; background: var(--gold-soft); }
 .dl-faction {
@@ -703,6 +712,7 @@ dd { margin: 0; }
 .dl-parts a { font-weight: 600; }
 .dl-parts .dl-file-meta { font-size: 0.85rem; }
 .dl-voice-included { padding-top: 10px; padding-bottom: 10px; }
+.dl-voice .vc-like { margin: 6px 0 0; }
 .dl-voice .dl-cover { margin: 4px 0 0; font-size: 0.88rem; color: var(--muted); }
 .dl-howto { margin-top: 18px; padding: 0; }
 .dl-howto summary { cursor: pointer; list-style: none; }
@@ -734,3 +744,72 @@ dd { margin: 0; }
 .narrators .nr-go .btn-small { margin: 0; white-space: nowrap; }
 .narrators .nr-go small { font-size: 0.8rem; }
 @media (max-width: 640px) { .narrators { grid-template-columns: minmax(0, 1fr); } .narrators .nr-go { align-items: flex-start; } }
+
+/* Player profiles (/u/<handle>, lib/profiles.js; LOR-181): the character's head, stat tiles, story, the road so far
+   and a card per list, then "Make your own". The owner's bar (public/js/profile.js) sits on top for them only. */
+.pf-owner {
+  margin: 0 0 18px; padding: 12px 16px; border: 1px dashed var(--gold-soft); border-radius: 5px; background: rgba(216, 178, 90, 0.07);
+}
+.pf-owner p { margin: 0 0 6px; }
+.pf-owner .vp-actions { margin: 0; }
+.pf-owner button.btn-small { cursor: pointer; }
+.pf-head { margin-bottom: 14px; }
+.pf-head .zone-where { margin: 0 0 4px; font-size: 0.95rem; }
+.pf-alliance { border-color: #3f7fe0; }
+.pf-horde { border-color: #c4302b; }
+.pf-spec { margin: 0 0 4px; color: var(--muted); font-size: 0.92rem; }
+.pf-spec strong { color: var(--text); }
+.pf-stats {
+  display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 8px; margin: 0 0 6px; padding: 0; list-style: none;
+}
+.pf-stats li {
+  display: flex; flex-direction: column; align-items: center; padding: 8px 6px; text-align: center;
+  background: var(--panel); border: 1px solid var(--panel-line); border-radius: 5px; box-shadow: inset 0 0 0 1px #000;
+}
+.pf-stats strong { font: 700 1.35rem/1.2 var(--heading); color: var(--gold); }
+.pf-stats span { color: var(--muted); font-size: 0.8rem; }
+.pf-story { max-width: 760px; }
+.pf-story p { margin: 0 0 12px; font-size: 1.05rem; }
+.pf-story div > p:first-child::first-letter { font: 700 1.6em/1 var(--heading); color: var(--gold); }
+.pf-road { display: flex; flex-wrap: wrap; gap: 6px 22px; margin: 0; padding: 0 0 0 4px; list-style: none; }
+.pf-road li {
+  position: relative; padding: 3px 10px; border: 1px solid var(--panel-line); border-radius: 14px; background: #00000066; font-size: 0.9rem;
+}
+.pf-road li + li::before { content: "\2192"; position: absolute; left: -18px; top: 3px; color: var(--gold-soft); }
+.pf-grid { margin: 18px 0 6px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); }
+.pf-card ul { margin: 0 0 6px; padding-left: 18px; }
+.pf-card li { margin-bottom: 4px; overflow-wrap: anywhere; }
+.pf-where, .pf-rank, .pf-more { color: var(--muted); font-size: 0.85rem; }
+.pf-more { margin: 0; }
+.pf-n { color: var(--gold-soft); font-weight: 600; font-size: 0.88rem; }
+.pf-card cite { font-style: italic; }
+.pf-cta h2 { font-family: var(--heading); color: var(--gold); margin: 0 0 8px; }
+.pf-cta .vp-actions { align-items: center; }
+.pf-what { font-size: 0.92rem; }
+/* Item quality, in the game's colors. */
+.q0 { color: #9d9d9d; } .q1 { color: #fff; } .q2 { color: #1eff00; } .q3 { color: #4a9eff; } .q4 { color: #c17bff; } .q5 { color: #ff8000; }
+/* /account: the profile section. */
+.pf-steps { margin: 0 0 12px; padding-left: 20px; }
+.pf-steps li { margin-bottom: 4px; }
+.fb-field textarea.pf-record { min-height: 110px; font: 0.85rem/1.4 ui-monospace, Consolas, monospace; }
+.pf-mine { margin: 0 0 12px; }
+.pf-mine strong { color: var(--gold); }
+.pf-share { margin: 0 0 14px; }
+.pf-link { margin: -6px 0 16px; overflow-wrap: anywhere; }
+.btn-small[hidden] { display: none; }
+.pf-address { margin: 0 0 16px; }
+.pf-addr-label { display: block; margin-bottom: 6px; color: var(--gold-soft); font: 600 0.95rem var(--heading); letter-spacing: 0.02em; }
+.pf-addr-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+.pf-addr-base { color: var(--muted); font-size: 0.92rem; }
+.pf-addr-row input {
+  flex: 1 1 140px; min-width: 0; padding: 7px 10px; font: inherit; color: var(--text);
+  background: #000000aa; border: 1px solid var(--panel-line); border-radius: 4px;
+}
+.pf-addr-row input:focus { outline: 2px solid var(--gold-soft); outline-offset: 1px; }
+.pf-addr-row .btn-small { margin: 0; cursor: pointer; }
+.pf-del { padding: 0; border: 0; background: none; color: var(--muted); font-size: 0.85rem; text-decoration: underline; cursor: pointer; }
+.pf-del:hover { color: var(--link); }
+.btn-head-in { background: #00000066; border-color: var(--panel-line); color: var(--text); }
+.btn-head-in:hover { background: #1b1408; color: var(--gold); }
+@media (max-width: 480px) { .btn-head-in { display: none; } }   /* phones: the header is full; the pages link to it */
+@media (max-width: 680px) { .pf-stats { grid-template-columns: repeat(4, minmax(0, 1fr)); } .pf-stats strong { font-size: 1.1rem; } }

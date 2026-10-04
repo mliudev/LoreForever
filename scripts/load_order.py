@@ -1,12 +1,12 @@
 """The files an add-on loads, in the order the WoW client loads them. Shared by scripts/build-release.sh and
 scripts/publish-language-packs.sh, the pipeline (lore.compile_lua, lore.i18n, lore.offline) and its tests.
 
-The client reads each .toc once, when it starts: its ## metadata and its file list. /reload doesn't read it again, so
-a file newly listed there needs a client restart. An .xml in that list is read on every load (login or /reload), and
-its <Script file="..."/> and <Include file="..."/> tags load more files, in order, depth first. So the .toc files list
-only an XML load file (LoreForever.xml; Lang.xml in a language pack), and adding, removing or reordering Lua files
-changes only the XML (a brand-new file loading on /reload is confirmed in game, 2026-10-02). Paths in an XML file are
-relative to its own folder; the client takes \\ or /.
+A .toc holds ## metadata and a file list. An .xml in that list is read on every load (login or /reload), and its
+<Script file="..."/> and <Include file="..."/> tags load more files, in order, depth first. The .toc files list only an
+XML load file (LoreForever.xml; Lang.xml in a language pack), so adding, removing or reordering Lua files changes only
+the XML. Client builds before 1.60.1.70205 read a .toc only at launch, so there that kept new files to a /reload; the
+current build rereads .toc files on /reload too (tested in game 2026-10-03). Paths in an XML file are relative to its
+own folder; the client takes \\ or /.
 
 Plain Python 3, no dependencies. Run: python3 scripts/load_order.py addon/LoreForever   (prints the load order)
 """

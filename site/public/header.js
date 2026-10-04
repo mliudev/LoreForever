@@ -1,4 +1,5 @@
-// Site header, on every public page: a Downloads link, the "Send feedback" menu and, once signed in, the account chip.
+// Site header, on every public page: a Voices link, the "Send feedback" menu and, once signed in, the account chip
+// (Your profile, Your account, Sign out); signed out, a Sign in link.
 // Each page's header ends with
 //   <div class="head-actions"><a class="btn-head" href="/feedback">...</a></div>
 // and loads this with <script src="/header.js" defer>. Without JavaScript that stays a plain link to /feedback.
@@ -71,12 +72,13 @@
     if (current && to && !current.menu.contains(to) && to !== current.button) close(false);
   });
 
-  // Downloads: a link to /downloads before the feedback button, on every page but that one.
-  if (location.pathname.replace(/\/$/, "") !== "/downloads") {
+  // Voices: a link to /voices (the narrator voices and every download) before the feedback button, on every page
+  // but that one.
+  if (location.pathname.replace(/\/$/, "") !== "/voices") {
     const dl = document.createElement("a");
     dl.className = "btn-head btn-head-dl";
-    dl.href = "/downloads";
-    dl.textContent = "Downloads";
+    dl.href = "/voices";
+    dl.textContent = "Voices";
     box.prepend(dl);
   }
 
@@ -103,8 +105,8 @@
     chip.querySelector(".chip-name").textContent = name;
     const menu = document.createElement("div");
     menu.className = "head-menu head-menu-account";
-    menu.innerHTML = '<p class="menu-who">Signed in as <strong></strong></p><a href="/account">Your account</a><hr>' +
-      '<button type="button">Sign out</button>';
+    menu.innerHTML = '<p class="menu-who">Signed in as <strong></strong></p><a href="/u/me">Your profile</a>' +
+      '<a href="/account">Your account</a><hr><button type="button">Sign out</button>';
     menu.querySelector("strong").textContent = user.email || name;
     const signOut = menu.querySelector("button");
     signOut.addEventListener("click", async () => {
@@ -118,12 +120,25 @@
     dropdown(chip, menu, "hd-account-menu");
   }
 
+  // Signed out: a "Sign in" link to /account, where signing in leads to making your profile (LOR-181).
+  function signInLink() {
+    if (location.pathname.replace(/\/$/, "") === "/account") return;
+    const a = document.createElement("a");
+    a.className = "btn-head btn-head-in";
+    a.href = "/account#profile";
+    a.textContent = "Sign in";
+    box.append(a);
+  }
+
   fetch("/api/auth/me", { cache: "no-store" })
     .then(r => r.json())
     .then(me => {
       if (!me || !me.ok) return;
       if (me.user) accountChip(me.user);
-      else if (me.signIn && me.signIn.google) fbMenu.querySelector(".menu-foot").hidden = false;
+      else if (me.signIn && me.signIn.google) {
+        fbMenu.querySelector(".menu-foot").hidden = false;
+        signInLink();
+      }
     })
     .catch(() => { /* no account info: the menu works the same */ });
 })();

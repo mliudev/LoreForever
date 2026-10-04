@@ -68,6 +68,7 @@ local function describe(rec)
   rec.sample = meta(n, "X-LoreForever-Sample") or rec.sample
   rec.extends = meta(n, "X-LoreForever-Extends") or rec.extends
   rec.races = meta(n, "X-LoreForever-Races") or rec.races
+  rec.gender = meta(n, "X-LoreForever-Gender") or rec.gender
   rec.version = meta(n, "Version") or rec.version
   rec.author = meta(n, "Author") or rec.author
   rec.title = plain(meta(n, "Title") or rec.title or n)

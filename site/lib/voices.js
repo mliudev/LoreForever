@@ -111,12 +111,12 @@ function getMain(v) {
   if (!v.download) return `<p class="vc-install">Download coming soon.</p>`;
   const cf = v.curseforge ? ` <a href="${escape(v.curseforge)}">Get it on CurseForge</a>.` : "";
   return `<p class="vc-install"><a class="btn-small" href="/download/voice/${escape(v.id)}">Download</a>
-          Unzip into <code>Interface\\AddOns</code>, restart the game, then pick it under Narration voice.${cf}</p>`;
+          Unzip into <code>Interface\\AddOns</code>, type <code>/reload</code> in game, then pick it under Narration voice.${cf}</p>`;
 }
 
 // A voice's optional packs (voices.json "packs"): its lands packs (the places and people of Alliance or Horde zones,
 // contested zones in both) and an all-in-one zip. Each downloads through /download/voice/<pack id>, or straight from
-// its own link when that's one of the site's. /downloads (lib/downloads.js) lists the same packs with sizes.
+// its own link when that's one of the site's. /voices (lib/downloads.js) lists the same packs with sizes.
 function getPacks(v) {
   const packs = (v.packs || []).filter(p => p.download);
   if (!packs.length) return "";
@@ -125,7 +125,7 @@ function getPacks(v) {
     return `<a href="${escape(href)}">${escape(p.name)}</a>${p.clips ? ` (${plural(p.clips, "narration", "narrations")})` : ""}`;
   }).join(" &middot; ");
   return `<p class="vc-packs">More narration, optional: ${links}. Unzip into <code>Interface\\AddOns</code> next to
-          Lore Forever. <a href="/downloads#${escape(v.id)}">Which one do I need?</a></p>`;
+          Lore Forever. <a href="/voices#${escape(v.id)}">Which one do I need?</a></p>`;
 }
 
 // The voice or pack with this id (a pack takes its voice's status unless it has its own), or undefined.
@@ -137,7 +137,7 @@ export function findDownload(voices, id) {
   }
 }
 
-function likeButton(v, likes) {
+export function likeButton(v, likes) {
   return `<form class="vc-like" method="post" action="/api/voices/like">
           <input type="hidden" name="id" value="${escape(v.id)}">
           <button type="submit" data-id="${escape(v.id)}" aria-label="Like ${escape(v.name)}">
@@ -208,9 +208,11 @@ export function voiceFilters(voices) {
       </div>`;
 }
 
-// ---- Whole pages (profile, contributors) ----
+// ---- Whole pages (profile, contributors; player profiles in lib/profiles.js) ----
 
-export function page({ title, description, path, crumb, body, image }) {
+// crumbs, foot and scripts replace the voice pages' breadcrumb, footer line and player script; robots adds a
+// robots meta tag.
+export function page({ title, description, path, crumb, body, image, crumbs, foot, scripts, robots }) {
   const url = "https://loreforeverwow.com" + path;
   return `<!doctype html>
 <html lang="en">
@@ -219,12 +221,14 @@ export function page({ title, description, path, crumb, body, image }) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${escape(title)} - Lore Forever</title>
 <meta name="description" content="${escape(description)}">
-<link rel="canonical" href="${url}">
+${robots ? `<meta name="robots" content="${escape(robots)}">\n` : ""}<link rel="canonical" href="${url}">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="Lore Forever">
 <meta property="og:title" content="${escape(title)}">
 <meta property="og:description" content="${escape(description)}">
 <meta property="og:url" content="${url}">
 <meta property="og:image" content="${escape(image || "https://loreforeverwow.com/img/social-card.png")}">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/img/logo.svg" type="image/svg+xml">
 <link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
 <link rel="apple-touch-icon" href="/img/logo.png">
@@ -238,7 +242,7 @@ export function page({ title, description, path, crumb, body, image }) {
 
 <header class="top">
   <div class="wrap top-row">
-    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; <a href="/voices">Voices</a> &rsaquo; ${escape(crumb)}</span>
+    <span class="crumb">${crumbs ?? `<a href="/">Lore Forever</a> &rsaquo; <a href="/voices">Voices</a> &rsaquo; ${escape(crumb)}`}</span>
     <div class="head-actions"><a class="btn-head" href="/feedback"><span class="hd-wide">Send feedback</span><span class="hd-narrow">Feedback</span></a></div>
   </div>
 </header>
@@ -248,12 +252,12 @@ ${body}
 </main>
 
 <footer class="wrap foot">
-  <p>Want a page like this for your own voice? <a href="/voices#record">Make a voice</a>.</p>
+  ${foot ?? `<p>Want a page like this for your own voice? <a href="/voices/studio">Open the narrator dashboard</a>.</p>`}
   <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
   <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>
-<script src="/voices/player.js" defer></script>
+${scripts ?? '<script src="/voices/player.js" defer></script>'}
 </body>
 </html>`;
 }
@@ -327,7 +331,7 @@ export function contributorsPage(voices) {
   <div class="zone-grid vc-grid">
     ${cards}
   </div>
-  <p class="vp-note">Want to be on this page? <a href="/voices#record">Make a voice</a>. Contributors choose what
+  <p class="vp-note">Want to be on this page? <a href="/voices/studio">Open the narrator dashboard</a>. Contributors choose what
     shows here from their <a href="/account">account</a>.</p>`;
   return page({
     title: "Voice contributors",

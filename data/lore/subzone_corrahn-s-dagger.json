@@ -26,24 +26,6 @@
    "answer": "The ridge is held by rogue humans of the Syndicate, who keep the heights as a hideout."
   },
   {
-   "q": "Why are the dwarves stationed here?",
-   "aliases": [
-    "why are stormpike here",
-    "dwarf camp hillsbrad",
-    "iceheart purpose"
-   ],
-   "answer": "No dwarven force is stationed on Corrahn's Dagger. The ridge belongs to Syndicate cutthroats, who use it as a hideout overlooking the foothills."
-  },
-  {
-   "q": "Who used to hold this ridge before the dwarves?",
-   "aliases": [
-    "who was here before",
-    "syndicate on the ridge",
-    "corrahn dagger history"
-   ],
-   "answer": "No dwarves have taken the ridge. Corrahn's Dagger is occupied by rogue humans affiliated with the Syndicate."
-  },
-  {
    "q": "What are the fingers of Hillsbrad?",
    "aliases": [
     "four fingers hillsbrad",
@@ -64,13 +46,11 @@
   }
  ],
  "keywords": [
-  "captain iceheart",
   "corrahn",
   "corrahn's dagger",
   "dagger",
   "four fingers",
   "hillsbrad",
-  "stormpike",
   "syndicate"
  ],
  "related": [

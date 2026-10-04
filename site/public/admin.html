@@ -154,6 +154,8 @@ a.ad-tile:hover { border-color: var(--gold-soft); }
     <a class="ad-panel ad-tile" href="#feedback"><div class="ad-label">Average rating</div><div class="ad-num" id="t-rating">-</div><div class="ad-sub" id="t-rating-sub"></div></a>
     <a class="ad-panel ad-tile" href="#voices"><div class="ad-label">Open voice submissions</div><div class="ad-num" id="t-voices">-</div><div class="ad-sub" id="t-voices-sub"></div></a>
     <a class="ad-panel ad-tile" href="#contributors"><div class="ad-label">Contributor accounts</div><div class="ad-num" id="t-users">-</div><div class="ad-sub" id="t-users-sub"></div></a>
+    <!-- Profile stories this calendar month (lib/profiles.js): spend against the monthly budget, stories written. -->
+    <a class="ad-panel ad-tile" href="#contributors"><div class="ad-label">Profile stories this month</div><div class="ad-num" id="t-stories">-</div><div class="ad-sub" id="t-stories-sub"></div></a>
   </div>
 
   <div class="ad-charts">
@@ -229,6 +231,7 @@ a.ad-tile:hover { border-color: var(--gold-soft); }
       <input type="search" id="cq" placeholder="Search name or email" aria-label="Search contributors">
       <select id="crole" aria-label="Role">
         <option value="">Every account</option>
+        <option value="player">Players (have a profile)</option>
         <option value="voice">Voices</option>
         <option value="translator">Translators</option>
         <option value="feedback">Feedback only</option>
@@ -237,9 +240,9 @@ a.ad-tile:hover { border-color: var(--gold-soft); }
       <button type="button" id="ccsv">Export CSV</button>
       <span class="ad-count" id="co-count"></span>
     </div>
-    <p class="ad-count" style="margin:0 0 8px">Only for reaching them about their feedback and contributions; the account page promises nothing else.</p>
+    <p class="ad-count" style="margin:0 0 8px">Emails are only for reaching them about their feedback and contributions; the account page promises nothing else. Their links are public: reach players there.</p>
     <div class="ad-table-wrap">
-      <table><thead><tr><th>Email</th><th>Name</th><th>Voices</th><th>Languages</th><th>Activity</th><th>Joined</th></tr></thead><tbody id="co-list"></tbody></table>
+      <table><thead><tr><th>Email</th><th>Name</th><th>Profile</th><th>Links</th><th>Voices</th><th>Languages</th><th>Activity</th><th>Joined</th></tr></thead><tbody id="co-list"></tbody></table>
     </div>
   </div>
 
@@ -359,7 +362,13 @@ function render() {
 
   const users = data.users || [];
   $("t-users").textContent = users.length.toLocaleString();
-  $("t-users-sub").textContent = users.filter(u => u.voices).length + " voices · " + users.filter(u => u.languages).length + " translators";
+  $("t-users-sub").textContent = users.filter(u => u.handle).length + " players · " + users.filter(u => u.voices).length +
+    " voices · " + users.filter(u => u.languages).length + " translators";
+  const st = data.stories || { usd: 0, calls: 0, written: 0, budget: 100, on: false };
+  $("t-stories").textContent = "$" + st.usd.toFixed(st.usd < 10 ? 4 : 2);   // a story costs about $0.0006
+  $("t-stories-sub").textContent = st.on
+    ? `of $${st.budget} · ${st.written} written in ${st.calls} ${st.calls === 1 ? "try" : "tries"}`
+    : "No GEMINI_API_KEY: summaries only";
 
   const days = lastDays(30);
   const signupsPerDay = days.map(d => subs.filter(s => (s.created_at || "").slice(0, 10) === d).length);
@@ -612,22 +621,31 @@ document.querySelectorAll("[data-estatus]").forEach(b => b.addEventListener("cli
 }));
 $("elocale").addEventListener("change", loadEdits);
 
-const ROLES = { voice: u => u.voices, translator: u => u.languages, feedback: u => !u.voices && !u.languages };
+const ROLES = { player: u => u.handle, voice: u => u.voices, translator: u => u.languages,
+                feedback: u => !u.voices && !u.languages && !u.handle };
 function visibleContributors() {
   const q = $("cq").value.trim().toLowerCase(), role = ROLES[$("crole").value];
   return (data.users || []).filter(u => (!role || role(u)) &&
-    (!q || (u.email || "").includes(q) || (u.display_name || "").toLowerCase().includes(q)));
+    (!q || (u.email || "").includes(q) || (u.display_name || "").toLowerCase().includes(q) ||
+     (u.character || "").toLowerCase().includes(q) || (u.links || "").toLowerCase().includes(q)));
 }
+
+// A player profile (lib/profiles.js): "Aelric, 24 Druid", linking to /u/<handle>, and whether only they can see it.
+const profileText = u => u.handle ? `${u.character || u.handle}${u.char_level ? ", " + u.char_level : ""}${u.char_class ? " " + u.char_class : ""}` : "";
+const linkHosts = u => (u.links || "").split(/\s+/).filter(x => /^https:\/\//.test(x));
 
 function renderContributors() {
   const list = visibleContributors();
   $("co-count").textContent = list.length + (list.length === 1 ? " account" : " accounts");
   const body = $("co-list");
-  if (!list.length) { body.replaceChildren(el("tr", {}, el("td", { colspan: "6", class: "ad-empty", text: "No accounts here." }))); return; }
+  if (!list.length) { body.replaceChildren(el("tr", {}, el("td", { colspan: "8", class: "ad-empty", text: "No accounts here." }))); return; }
   const plural = (n, word) => n + " " + word + (n === 1 ? "" : "s");
   body.replaceChildren(...list.map(u => el("tr", {},
     el("td", {}, u.email ? el("a", { href: "mailto:" + encodeURIComponent(u.email).replace("%40", "@"), text: u.email }) : ""),
     el("td", { text: u.display_name || "" }),
+    el("td", {}, ...(u.handle ? [el("a", { href: "/u/" + encodeURIComponent(u.handle), target: "_blank", rel: "noopener", text: profileText(u) }),
+                                 u.profile_public ? "" : " (private)"] : [])),
+    el("td", {}, ...linkHosts(u).flatMap((x, i) => [i ? " · " : "", el("a", { href: x, target: "_blank", rel: "noopener nofollow", text: new URL(x).hostname.replace(/^www\./, "") })])),
     el("td", { text: u.voices || "" }),
     el("td", { text: u.languages || "" }),
     el("td", { text: [u.takes && plural(u.takes, "take"), u.edits && plural(u.edits, "edit"), u.feedback && plural(u.feedback, "report")].filter(Boolean).join(" · ") }),
@@ -713,7 +731,8 @@ async function copyAddresses(button, addresses) {
   setTimeout(() => button.textContent = "Copy addresses", 1500);
 }
 function downloadCsv(name, rows) {
-  const cell = v => '"' + String(v ?? "").replace(/"/g, '""') + '"';
+  // A leading = + - @ (or tab) would make a spreadsheet run the cell as a formula; names come from players.
+  const cell = v => '"' + String(v ?? "").replace(/^[=+\-@\t\r]/, "'$&").replace(/"/g, '""') + '"';
   const blob = new Blob([rows.map(r => r.map(cell).join(",")).join("\n")], { type: "text/csv" });
   const a = el("a", { href: URL.createObjectURL(blob), download: "loreforever-" + name + "-" + new Date().toISOString().slice(0, 10) + ".csv" });
   document.body.append(a); a.click(); a.remove();
@@ -723,8 +742,10 @@ $("csv").addEventListener("click", () => downloadCsv("emails",
   [["email", "source", "created_at"], ...visibleEmails().filter(s => !isTest(s)).map(s => [s.email, s.source, s.created_at])]));
 $("ccopy").addEventListener("click", () => copyAddresses($("ccopy"), visibleContributors().map(u => u.email).filter(Boolean)));
 $("ccsv").addEventListener("click", () => downloadCsv("contributors",
-  [["email", "name", "voices", "languages", "takes", "edits", "feedback", "created"],
-   ...visibleContributors().map(u => [u.email, u.display_name, u.voices, u.languages, u.takes, u.edits, u.feedback, u.created])]));
+  [["email", "name", "character", "level", "class", "profile", "public", "links", "voices", "languages", "takes", "edits", "feedback", "created"],
+   ...visibleContributors().map(u => [u.email, u.display_name, u.character, u.char_level, u.char_class,
+     u.handle ? "https://loreforeverwow.com/u/" + u.handle : "", u.handle ? (u.profile_public ? "yes" : "no") : "",
+     linkHosts(u).join(" "), u.voices, u.languages, u.takes, u.edits, u.feedback, u.created])]));
 
 if (key()) load(); else signOut();
 </script>

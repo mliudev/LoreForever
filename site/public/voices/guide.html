@@ -88,11 +88,11 @@
     <li><strong>Loudness about -16 LUFS integrated</strong>, with <strong>peaks at or below -1 dBTP</strong>. Most
       audio editors (Audacity, Reaper, Audition) have a loudness normalization option that does this in one
       step.</li>
-    <li><strong>At most 0.3 seconds of silence</strong> at the start and end of each file.</li>
+    <li><strong>Short silence</strong> at the start and end of each file: a second at most.</li>
     <li><strong>Just your voice:</strong> no music, sound effects or background ambience.</li>
     <li>The upload page checks every file and turns away ones we can't use, saying why: recorded below 44.1 kHz,
-      phone-call or voice-message quality, heavy clipping, a lot of background noise, or very quiet. Near the line,
-      it warns instead.</li>
+      phone-call or voice-message quality, heavy clipping, a lot of background noise, or very quiet. A bit of
+      background noise gets a warning instead.</li>
     <li>Record in a quiet room. Soft furnishings help; a closet full of clothes works surprisingly well. Watch for
       fans, traffic and computer noise.</li>
   </ul>
@@ -137,14 +137,14 @@
     <li>Press <strong>Download my test pack</strong> there.</li>
     <li>Unzip it into <code>World of Warcraft\_classic_beta_\Interface\AddOns</code>. It's the same folder every
       time, so to update it, download again and unzip over the old one.</li>
-    <li>Restart WoW the first time. After that, <code>/reload</code> is enough.</li>
+    <li>Type <code>/reload</code> in game, or start WoW if it's closed.</li>
     <li>In Options &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Narration voice, pick your voice (it ends in
       "(test pack)").</li>
   </ol>
   <p>The test pack has only the lines whose recording matches the current text. A line whose text changed since you
     recorded it is left out until you record the new text; the upload page says how many were left out. The pack is
     just for you to test: everyone else gets your voice when you send it and it's published.</p>
-  <p><strong>Your voice isn't in the list?</strong> Restart WoW, and check the folder isn't doubled, like
+  <p><strong>Your voice isn't in the list?</strong> Type <code>/reload</code> (or restart WoW), and check the folder isn't doubled, like
     <code>AddOns\LoreForever_Voice_TestName\LoreForever_Voice_TestName</code>: the inner folder belongs straight in
     <code>AddOns</code>.<br>
     <strong>A line plays the default voice?</strong> That line isn't recorded yet, or its text changed since you

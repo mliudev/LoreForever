@@ -135,8 +135,8 @@ export function languageCard(lang, likes, translators = [], pack = null) {
           ${escape(lang.englishName)} game client, or pick it in Options &gt; AddOns &gt; Lore Forever &gt; Language.</p>` : pack ? `
         <p class="tl-get tl-pack" lang="en"><a class="btn-small" href="/download/lang/${escape(lang.locale)}">Download to play</a>
           <span class="tl-size">${pack.size ? mb(pack.size) + " zip" : ""}</span></p>
-        <p class="tl-install" lang="en">Unzip it into <code>Interface\\AddOns</code> next to LoreForever, then restart the
-          game. It switches on by itself on a ${escape(lang.englishName)} game client, or pick it in Options &gt; AddOns
+        <p class="tl-install" lang="en">Unzip it into <code>Interface\\AddOns</code> next to LoreForever, then type
+          <code>/reload</code> in game. It switches on by itself on a ${escape(lang.englishName)} game client, or pick it in Options &gt; AddOns
           &gt; Lore Forever &gt; Language.</p>` : ""}
         <p class="tl-get" lang="en"><a class="btn-small" href="/translate/dashboard?lang=${escape(lang.locale)}">Translate</a>
           <a class="tl-kit" href="${escape(lang.kit)}" download>or download the kit</a>

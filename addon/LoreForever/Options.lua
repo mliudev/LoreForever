@@ -9,7 +9,8 @@ Options.DEFAULTS = {
   dungeonPrimer = true,    -- chat link to the dungeon primer when entering a dungeon
   unitTooltips = true,     -- one-line lore on NPC and mob tooltips
   itemTooltips = true,     -- quest notes on item tooltips
-  launcher = true,         -- book button beside the game's menu bar
+  storylines = true,       -- say a quest is part of a storyline, under its Lore button and on its entry (Storyline.lua)
+  storylineChat = true,    -- turning in a storyline quest names who gives the next one (Storyline.OnTurnIn)
   floatPlayer = true,      -- the narration player floats on screen while the panel is closed (UI.UpdateNowPlaying)
   minimap = true,          -- minimap button (turned on once for installs from before it was the default: Log.Init)
   typing = true,           -- answers type in quickly instead of appearing at once
@@ -29,6 +30,7 @@ Options.DEFAULTS = {
   -- set up by Voice.lua, which also moves the old one-voice setting (voicePack) into them.
   voiceGroup = "story",    -- keep one voice per "story" (a story and its questions), per "zone", or pick per "line"
   voiceMatchRace = false,  -- prefer voices that suit the race of the lore (orc lore in an orc voice)
+  voiceMatchGender = true, -- quest dialogue: prefer a voice of the quest giver's gender (Voice.QuestClip)
   panelScale = 1,          -- Panel size: 0.9, 1, 1.15 or 1.3 (UI.SCALES); scales the whole panel
 }
 
@@ -191,10 +193,23 @@ function Options.VoiceSection(c, anchor)
     ns.Voice.Refresh()
     if ns.UI and ns.UI.OnVoiceChanged then ns.UI.OnVoiceChanged() end
   end)
-  local status = note(c, "", raceNote, 8, "GameFontHighlightSmall")
-  status:SetPoint("TOPLEFT", raceNote, "BOTTOMLEFT", -26, -8)   -- back under the tick box, not its indented note
+  local gender = CreateFrame("CheckButton", nil, c, "UICheckButtonTemplate")
+  gender:SetPoint("TOPLEFT", raceNote, "BOTTOMLEFT", -30, -2)
+  local genderText = type(gender.Text) == "table" and gender.Text
+    or gender:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+  genderText:ClearAllPoints()
+  genderText:SetPoint("LEFT", gender, "RIGHT", 4, 0)
+  genderText:SetText(L["Match the quest giver's voice"])
+  local genderNote = note(c, L["Quest dialogue only: a woman's lines in a woman's voice and a man's in a man's, ahead of the list order, when you have both."],
+    gender, 2)
+  genderNote:SetPoint("TOPLEFT", gender, "BOTTOMLEFT", 30, 4)
+  gender:SetScript("OnClick", function(self)
+    LoreForeverDB.settings.voiceMatchGender = self:GetChecked() and true or false
+  end)
+  local status = note(c, "", genderNote, 8, "GameFontHighlightSmall")
+  status:SetPoint("TOPLEFT", genderNote, "BOTTOMLEFT", -26, -8)   -- back under the tick box, not its indented note
   local moreLabel, url, fillUrl = urlRow(c, L["Get more voices:"], VOICES_URL, status, 14)
-  local hint = note(c, L["Installed a voice? Restart the game (a /reload isn't enough); it's added at the top."],
+  local hint = note(c, L["Installed a voice? Type /reload; it's added at the top."],
     moreLabel, 10)
 
   local section, rows = {}, {}
@@ -323,6 +338,7 @@ function Options.VoiceSection(c, anchor)
     local cur = (LoreForeverDB and LoreForeverDB.settings.voiceGroup) or "story"
     mode:SetText(modeNames[cur] or modeNames.story)
     race:SetChecked(LoreForeverDB and LoreForeverDB.settings.voiceMatchRace and true or false)
+    gender:SetChecked(not (LoreForeverDB and LoreForeverDB.settings.voiceMatchGender == false))
     status:SetText(ns.Voice.Status())
     fillUrl()
     section.items = items
@@ -355,7 +371,8 @@ local function rows()
     { "dungeonPrimer", L["Dungeon primer prompt"], L["When you enter a dungeon, link its primer in chat, and each boss's story once you beat them."] },
     { "unitTooltips", L["Lore on NPC tooltips"], L["Add a one-line story to the tooltip of NPCs and mobs."] },
     { "itemTooltips", L["Notes on item tooltips"], L["Say when an item is wanted for a quest or starts one."] },
-    { "launcher", L["Menu bar button"], L["Show the book button beside the game's menu bar. Drag it to move it."] },
+    { "storylines", L["Show storylines on quests"], L["When a quest is part of a storyline, say so under its Lore button and at the top of its story."] },
+    { "storylineChat", L["Storyline hints in chat"], L["When you turn in a quest that's part of a storyline, say in chat who to see next."] },
     { "minimap", L["Minimap button"], L["Also show a book button on the minimap."] },
     { "floatPlayer", L["Floating player"], L["While the panel is closed, show the narration player on screen when something plays or is queued. Drag it to move it."] },
     { "typing", L["Typing animation"], L["Answers type in quickly. Click an answer to show it all at once."] },
@@ -499,10 +516,10 @@ function Options.Create()
     cb:SetScript("OnClick", function(self)
       LoreForeverDB.settings[key] = self:GetChecked() and true or false
       if key == "minimap" and ns.MinimapButton then ns.MinimapButton() end
-      if key == "launcher" and ns.LauncherButton then ns.LauncherButton() end
       if key == "floatPlayer" and ns.UI.UpdateNowPlaying then ns.UI.UpdateNowPlaying() end
       if key == "readAloud" and p.voice then p.voice.Update() end
       if key == "journey" and ns.Journey then ns.Journey.OnToggle() end
+      if key == "storylines" and ns.UI and ns.UI.Refresh then ns.UI.Refresh() end
     end)
     cb.key = key
     p.checks[#p.checks + 1] = cb
@@ -582,7 +599,7 @@ function Options.Open()
   end
 end
 
--- Right-click on the book and minimap buttons: close the settings window if it's showing Lore Forever's page,
+-- Right-click on the minimap button: close the settings window if it's showing Lore Forever's page,
 -- otherwise open it there (also when it's open on another add-on's page).
 function Options.Toggle()
   local p, win = Options.panel, _G.SettingsPanel or _G.InterfaceOptionsFrame

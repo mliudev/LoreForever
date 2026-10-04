@@ -192,7 +192,7 @@ local function showExport(text)
   LoreForeverExport:Show()
 end
 
--- Clicks on the book and minimap buttons (Mike, 2026-09-30): each click always does the same thing. Plain clicks
+-- Clicks on the minimap button (Mike, 2026-09-30): each click always does the same thing. Plain clicks
 -- open things, Shift-clicks are the playlist. Ctrl and Alt are left free.
 --   click              open/close Lore Forever
 --   right-click        open/close Options
@@ -238,30 +238,16 @@ local function buttonTooltip(self, anchor)
   GameTooltip:Show()
 end
 
--- The "something is playing" look. The square book gets a pulsing green glow and a small play arrow in the corner;
--- the round minimap button just turns its ring green (a green copy of the gold ring, laid over it).
-local function addPlayingIndicator(b, glowSize, round)
+-- The "something is playing" look: the minimap button's ring turns green (a green copy of the gold ring, laid over
+-- it), pulsing.
+local function addPlayingIndicator(b)
   local glow = b:CreateTexture(nil, "OVERLAY", nil, 1)
-  if round then
-    glow:SetTexture("Interface\\Minimap\\MiniMap-TrackingBorder")
-    if glow.SetDesaturated then glow:SetDesaturated(true) end
-    glow:SetVertexColor(T.rgba(T.color.playing))
-    glow:SetSize(53, 53)
-    glow:SetPoint("TOPLEFT")
-  else
-    glow:SetTexture("Interface\\Buttons\\UI-ActionButton-Border")
-    glow:SetBlendMode("ADD")
-    glow:SetVertexColor(T.rgba(T.color.playingGlow))
-    glow:SetSize(glowSize, glowSize)
-    glow:SetPoint("CENTER")
-  end
+  glow:SetTexture("Interface\\Minimap\\MiniMap-TrackingBorder")
+  if glow.SetDesaturated then glow:SetDesaturated(true) end
+  glow:SetVertexColor(T.rgba(T.color.playing))
+  glow:SetSize(53, 53)
+  glow:SetPoint("TOPLEFT")
   glow:Hide()
-  local badge = b:CreateTexture(nil, "OVERLAY", nil, 2)
-  badge:SetTexture("Interface\\Buttons\\UI-SpellbookIcon-NextPage-Up")
-  badge:SetSize(16, 16)
-  badge:SetPoint("BOTTOMRIGHT", 5, -5)
-  badge:Hide()
-  b.noBadge = round
   local pulse = glow.CreateAnimationGroup and glow:CreateAnimationGroup()
   if pulse then
     pulse:SetLooping("BOUNCE")
@@ -272,76 +258,22 @@ local function addPlayingIndicator(b, glowSize, round)
       a:SetDuration(0.8)
     end
   end
-  b.glow, b.badge, b.pulse = glow, badge, pulse
+  b.glow, b.pulse = glow, pulse
   b:SetScript("OnClick", function(_, button) buttonClick(button) end)
 end
 
 -- Called whenever playback or the playlist changes (UI.UpdateNowPlaying), whatever caused it. An open tooltip is
 -- rebuilt so it never shows a stale "Now playing".
 function ns.SetButtonsPlaying(on)
-  for _, b in ipairs({ _G.LoreForeverLauncher or false, _G.LoreForeverMinimapButton or false }) do
-    if b and b.glow then
-      if b.playing ~= on then
-        b.playing = on
-        b.glow:SetShown(on)
-        b.badge:SetShown(on and not b.noBadge)
-        if b.pulse then if on then b.pulse:Play() else b.pulse:Stop() end end
-      end
-      if GameTooltip.IsOwned and GameTooltip:IsOwned(b) then b:GetScript("OnEnter")(b) end
+  local b = _G.LoreForeverMinimapButton
+  if b and b.glow then
+    if b.playing ~= on then
+      b.playing = on
+      b.glow:SetShown(on)
+      if b.pulse then if on then b.pulse:Play() else b.pulse:Stop() end end
     end
+    if GameTooltip.IsOwned and GameTooltip:IsOwned(b) then b:GetScript("OnEnter")(b) end
   end
-end
-
--- The book button beside the game's menu bar (character, spellbook, Dungeon Finder...). It sits next to that bar
--- rather than inside it, since the bar is Blizzard's and managed by Edit Mode. Drag it anywhere.
-function ns.LauncherButton()
-  local b = LoreForeverLauncher
-  if b then return b:SetShown(S().launcher) end
-  if not S().launcher then return end
-  b = CreateFrame("Button", "LoreForeverLauncher", UIParent)
-  b:SetSize(30, 30)
-  b:SetFrameStrata("MEDIUM")
-  b:SetMovable(true)
-  b:SetClampedToScreen(true)
-  local icon = b:CreateTexture(nil, "ARTWORK")
-  icon:SetTexture("Interface\\Icons\\INV_Misc_Book_09")
-  icon:SetAllPoints()
-  icon:SetTexCoord(0.07, 0.93, 0.07, 0.93)
-  local border = b:CreateTexture(nil, "OVERLAY")
-  border:SetTexture("Interface\\Buttons\\UI-Quickslot2")
-  border:SetPoint("CENTER")
-  border:SetSize(52, 52)
-  b:SetHighlightTexture("Interface\\Buttons\\ButtonHilight-Square", "ADD")
-  b:SetPushedTexture("Interface\\Buttons\\UI-Quickslot-Depress")
-  local pos = S().launcherPos
-  local bar = _G.MicroMenuContainer or _G.MicroMenu or (_G.CharacterMicroButton and CharacterMicroButton:GetParent())
-  if pos then
-    b:SetPoint(pos[1], UIParent, pos[1], pos[2], pos[3])
-  elseif bar and bar ~= UIParent then
-    b:SetPoint("RIGHT", bar, "LEFT", -6, 0)
-  else
-    b:SetPoint("BOTTOMRIGHT", UIParent, "BOTTOMRIGHT", -320, 6)
-  end
-  b:RegisterForDrag("LeftButton")
-  b:RegisterForClicks("LeftButtonUp", "RightButtonUp")
-  b:SetScript("OnDragStart", b.StartMoving)
-  b:SetScript("OnDragStop", function(self)
-    self:StopMovingOrSizing()
-    local point, _, _, x, y = self:GetPoint()
-    S().launcherPos = { point, x, y }
-  end)
-  addPlayingIndicator(b, 58)
-  b:SetScript("OnEnter", function(self) buttonTooltip(self, "ANCHOR_TOP") end)
-  b:SetScript("OnLeave", function() GameTooltip:Hide() end)
-  -- While anything plays, a Stop button sits on the book, so narration can be stopped with the panel closed.
-  local stop = CreateFrame("Button", nil, b, "UIPanelButtonTemplate")
-  stop:SetSize(48, 18)
-  stop:SetPoint("BOTTOM", b, "TOP", 0, 2)
-  stop:SetText(L["Stop"])
-  stop:SetScript("OnClick", function() ns.UI.StopAll() end)
-  stop:Hide()
-  b.stop = stop
-  ns.SetButtonsPlaying(ns.UI.IsBusy())
 end
 
 -- Which quarters of the minimap are round, per GetMinimapShape() (LibDBIcon's table): quarter 1 is bottom right,
@@ -433,7 +365,7 @@ function ns.MinimapButton()
     if self.UnlockHighlight then self:UnlockHighlight() end
     crop(false)
   end)
-  addPlayingIndicator(b, 56, true)
+  addPlayingIndicator(b)
   b:SetScript("OnEnter", function(self) buttonTooltip(self, "ANCHOR_LEFT") end)
   b:SetScript("OnLeave", function() GameTooltip:Hide() end)
   ns.SetButtonsPlaying(ns.UI.IsBusy())
@@ -453,11 +385,17 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.UI.Create(ns.engine)
     ns.Hooks.Init()
     ns.Options.Create()
-    ns.LauncherButton()
     ns.MinimapButton()
     local key, n = ns.Hooks.CurrentKey(), ns.DB.count or 0
-    say(key and string.format(L["%d lore entries ready. Press %s, or click the book beside your menu bar."], n,
-      GOLD .. key .. "|r") or string.format(L["%d lore entries ready. Type /lore, or click the book beside your menu bar."], n))
+    -- How to open the panel: the key (or /lore), plus the minimap button if it's showing.
+    local k = key and (GOLD .. key .. "|r")
+    if S().minimap then
+      say(k and string.format(L["%d lore entries ready. Press %s, or click the book on your minimap."], n, k)
+        or string.format(L["%d lore entries ready. Type /lore, or click the book on your minimap."], n))
+    else
+      say(k and string.format(L["%d lore entries ready. Press %s or type /lore."], n, k)
+        or string.format(L["%d lore entries ready. Type /lore to open them."], n))
+    end
     for _, note in ipairs(ns.lang.notes) do say(note) end
     C_Timer.After(6, ns.Hooks.MaybeOnboard)
     C_Timer.After(3, ns.Journey.Announce)
@@ -713,6 +651,8 @@ SlashCmdList.LOREFOREVER = function(msg)
   elseif cmd == "debug" then
     ns.debug = not ns.debug
     say("debug " .. (ns.debug and "on" or "off"))
+  elseif cmd == "qa" then
+    ns.SelfTest.Run()   -- release QA in the game (SelfTest.lua); not in /lore help
   else
     if not ns.UI.frame:IsShown() then ns.UI.frame:Show() end
     ns.UI.Ask(msg, "slash")

@@ -1,6 +1,6 @@
-// Lore Forever accounts: users, sessions, and what they contribute (voices so far). Contributors need one, and so
-// does anyone sending feedback (/feedback, LOR-106); playing, listening and liking don't. The page is /account. Kept
-// outside functions/ so Pages doesn't route it.
+// Lore Forever accounts: users, sessions, their player profile (/u/<handle>, LOR-181) and what they contribute.
+// Contributors need one, and so does anyone sending feedback (/feedback, LOR-106) or making a profile; playing,
+// downloading, listening and liking don't. The page is /account. Kept outside functions/ so Pages doesn't route it.
 //
 // Sign-in is Google only (Mike, 2026-09-30): Google Identity Services gives the browser an ID token, verifyGoogle
 // checks it against Google's keys and our client ID, and the browser gets a random session token in an HttpOnly
@@ -43,6 +43,16 @@ const SETUP = [
   `CREATE TABLE IF NOT EXISTS studio_uploads (owner TEXT NOT NULL, day TEXT NOT NULL, n INTEGER NOT NULL, PRIMARY KEY (owner, day))`,
   // Requests per account per minute for zip and kit uploads (lib/ratelimit.js); bucket is "<scope>:<minute>".
   `CREATE TABLE IF NOT EXISTS rate_limits (user_id TEXT NOT NULL, bucket TEXT NOT NULL, n INTEGER NOT NULL, PRIMARY KEY (user_id, bucket))`,
+  // A player's profile (lib/profiles.js): the page /u/<handle>, built from their pasted journey record (data: what
+  // lib/journey.js read from it, never the text itself). public: 0 until they make it public. story_source: written
+  // or template; story_count: stories written for this account so far (today's tries are in rate_limits).
+  `CREATE TABLE IF NOT EXISTS profiles (
+    user_id TEXT PRIMARY KEY, handle TEXT NOT NULL UNIQUE, public INTEGER NOT NULL DEFAULT 0, spec TEXT, data TEXT NOT NULL,
+    story TEXT, story_source TEXT, story_count INTEGER NOT NULL DEFAULT 0, created TEXT NOT NULL, updated TEXT NOT NULL)`,
+  // What writing profile stories cost, per calendar month (UTC, "2026-10"): micro_usd in millionths of a dollar,
+  // calls made and stories kept. Site-wide, not per account. lib/profiles.js stops writing at the monthly budget.
+  `CREATE TABLE IF NOT EXISTS story_spend (
+    month TEXT PRIMARY KEY, micro_usd INTEGER NOT NULL DEFAULT 0, calls INTEGER NOT NULL DEFAULT 0, stories INTEGER NOT NULL DEFAULT 0)`,
 ];
 
 let ready = false;
@@ -142,6 +152,7 @@ const USER_DATA = [
   ["DELETE FROM studio_release WHERE user_id = ?", u => u.id],
   ["DELETE FROM studio_uploads WHERE owner = ?", u => u.id],
   ["DELETE FROM rate_limits WHERE user_id = ?", u => u.id],
+  ["DELETE FROM profiles WHERE user_id = ?", u => u.id],
   ["DELETE FROM users WHERE id = ?", u => u.id],
 ];
 

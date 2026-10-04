@@ -1,15 +1,16 @@
-// The /downloads page (functions/downloads/index.js): every file a player might want, built from the same data the
-// rest of the site uses, so a voice or language added there shows up here with no code change.
+// The /voices page (functions/voices/index.js; /downloads redirects there): every file a player might want, built
+// from the same data the rest of the site uses, so a voice or language added there shows up here with no code
+// change.
 //   - voices: public/voices/voices.json (lib/voices.js). A voice with "included": true comes with the add-on; any
 //     other live voice with a download is listed with its core pack and its "packs" (lands packs, an all-in-one zip).
 //   - languages: public/translate/packs.json (lib/translations.js). A pack with "included": true comes with the
 //     add-on; the rest get a download button.
 // Sizes: a pack's optional "size" (bytes) is shown as is. Otherwise each download row carries data-asset (the release
-// asset's tag and file name) and public/downloads.js fills the size in from GitHub's release API in the browser.
+// asset's tag and file name) and public/voices-page.js fills the size in from GitHub's release API in the browser.
 //
 // Copy rule (as for /voices): never say how a voice or a translation is made.
 
-import { escape } from "./voices.js";
+import { escape, likeButton } from "./voices.js";
 
 const plural = (n, one, many) => `${n.toLocaleString("en-US")} ${n === 1 ? one : many}`;
 // voices.json coverage is written to follow "Covers ..."; on its own line it starts with a capital and ends with a stop.
@@ -77,7 +78,7 @@ function playButton(v) {
 // all-in-one zip when it has one ("Download everything"), else its own pack. Its other packs (the core, Alliance and
 // Horde lands) follow as small links. Every file keeps its id as an anchor, and data-pack is the id a later
 // "download several" checkbox would send.
-export function voiceBlock(v) {
+export function voiceBlock(v, likes) {
   const packs = (v.packs || []).filter(p => p.download && p.status !== "soon");
   const files = [];
   if (!v.included && v.download) {
@@ -114,6 +115,7 @@ export function voiceBlock(v) {
           <h3><a href="/voices/${escape(v.id)}">${escape(v.name)}</a>${v.included ? ' <span class="tag">Default</span>' : ""}</h3>
           <p class="dl-sub">${who}${most ? " &middot; " + plural(most, "narration", "narrations") : ""}</p>
           ${cover}
+          ${likes ? likeButton(v, likes[v.id]) : ""}
         </div>
       </div>
       <div class="dl-voice-get">
@@ -124,9 +126,11 @@ export function voiceBlock(v) {
 }
 
 // Voices you download come first, then the ones that come with the add-on.
-export function voicesSection(voices) {
+// likes: {voice id: count} (lib/voices.js likeCounts), or omitted for no like buttons.
+export function voicesSection(voices, likes) {
   const live = voices.filter(v => v.status === "live");
-  return [...live.filter(v => !v.included), ...live.filter(v => v.included)].map(voiceBlock).join("\n    ");
+  return [...live.filter(v => !v.included), ...live.filter(v => v.included)].map(v => voiceBlock(v, likes))
+    .join("\n    ");
 }
 
 // One language: its name, then "comes with the add-on" or a download button.

@@ -479,7 +479,7 @@ function UI.Create(engine)
     tab.text:SetJustifyH("CENTER")
     if tab.text.SetWordWrap then tab.text:SetWordWrap(false) end
     tab.text:SetText(spec[2])
-    local tw = tab.text.GetStringWidth and tonumber(tab.text:GetStringWidth())
+    local tw = T.TextWidth(tab.text)   -- the whole label: "Bibliothèque" measured in the 60-wide tab came back cut
     tab:SetWidth(math.max(60, math.min(116, (tw or 44) + 20)))
     tabX = tabX + (tonumber(tab:GetWidth()) or 60) + 4
     T.TabDecor(tab)
@@ -565,7 +565,7 @@ function UI.Create(engine)
   queueAll.text:SetPoint("BOTTOMRIGHT", -2, 1)
   if queueAll.text.SetWordWrap then queueAll.text:SetWordWrap(false) end
   queueAll.text:SetText(L["Queue all"])
-  local qaw = queueAll.text.GetStringWidth and tonumber(queueAll.text:GetStringWidth())
+  local qaw = T.TextWidth(queueAll.text)
   if qaw and qaw > 0 then queueAll:SetWidth(math.max(70, math.min(130, qaw + 10))) end
   queueAll:SetPoint("BOTTOMRIGHT", UI.bossHeader.rule, "TOPRIGHT", 0, 2)
   queueAll:SetScript("OnClick", function() UI.QueueBosses(UI.hereBosses) end)
@@ -621,6 +621,8 @@ function UI.Create(engine)
     b:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
       if self.quest and self.quest.title then T.Tip(self.quest.title, "tipText", true) end
+      local story = self.quest and ns.Storyline.Line(self.quest.id)
+      if story then T.Tip(story, "gold", true) end
       GameTooltip:AddLine(self.key and L["The story behind this quest"] or L["No written lore yet"])
       if not self.key then
         T.Tip(L["Shows the quest's own text and the story of the area."], "tipText", true)
@@ -1838,8 +1840,7 @@ function UI.CreateNarrations(view)
   local note = Muted(view:CreateFontString(nil, "OVERLAY", T.font.small))
   note:SetPoint("BOTTOMLEFT", 16, DOCK_H + 8)
   note:SetWidth(SIDE_W - 20)
-  note:SetJustifyH("LEFT")
-  if note.SetWordWrap then note:SetWordWrap(false) end
+  note:SetJustifyH("LEFT")   -- two lines in some languages, growing upwards under the list
   note:SetText(L["Click to listen. Green + adds to your playlist."])
   local empty = Muted(content:CreateFontString(nil, "OVERLAY", T.font.body))
   empty:SetPoint("TOPLEFT", 4, -8)
@@ -2502,7 +2503,7 @@ function UI.CreatePlaylist(view)
 
   local sf = CreateFrame("ScrollFrame", "LoreForeverPlaylistScroll", view, "UIPanelScrollFrameTemplate")
   sf:SetPoint("TOPLEFT", 10, -152)
-  sf:SetPoint("BOTTOMRIGHT", view, "BOTTOMLEFT", SIDE_W - 26, DOCK_H + 26)
+  sf:SetPoint("BOTTOMRIGHT", view, "BOTTOMLEFT", SIDE_W - 26, DOCK_H + 30)   -- room for a two-line note under it
   local content = CreateFrame("Frame", nil, sf)
   content:SetSize(SIDE_W - 40, 100)
   sf:SetScrollChild(content)
@@ -2530,8 +2531,7 @@ function UI.CreatePlaylist(view)
   local note = Muted(view:CreateFontString(nil, "OVERLAY", T.font.small))
   note:SetPoint("BOTTOMLEFT", 16, DOCK_H + 8)
   note:SetWidth(SIDE_W - 20)
-  note:SetJustifyH("LEFT")
-  if note.SetWordWrap then note:SetWordWrap(false) end
+  note:SetJustifyH("LEFT")   -- two lines in some languages, growing upwards
   note:SetText(L["Add more with + in the Library."])
 
   -- Over "Up next" once the queue is long (UI.RefreshPlaylist): filters Up next and Earlier by title.
@@ -2676,8 +2676,8 @@ end
 --   Queue           opens the playlist above the docked player (from the floating one: opens the panel on it)
 --   a thin line     how far through the playlist you are
 --   Prev · Play/Pause/Stop · Next, and "2 of 4"
--- Play with nothing queued plays everything narrated where you are (the same as Shift-clicking the book). Right-click
--- the player for its options. The book's Stop and Shift-clicks still work as before.
+-- Play with nothing queued plays everything narrated where you are (the same as Shift-clicking the minimap button).
+-- Right-click the player for its options.
 
 local function playerButton(parent, label, onClick, tip, kind)
   local b = PanelButton(parent, kind)
@@ -2956,7 +2956,18 @@ local function updatePlayer(p)
     state = ""
     button, tip = L["Play"], L["Play everything narrated here"]
   end
-  p.title.text:SetText(title)
+  -- The title in its own font; in the small one when it doesn't fit ("Aucune lecture en cours" beside "File
+  -- d'attente"), on two lines if it still doesn't. Only a title too long even for that is cut.
+  local tfs = p.title.text
+  tfs:SetFontObject(T.font.control)
+  tfs:SetText(title)
+  local tw, room = T.TextWidth(tfs), tonumber(tfs:GetWidth())
+  local small = tw and room and room > 0 and tw > room
+  if small then tfs:SetFontObject(T.font.label) end
+  local twoLines = small and (T.TextWidth(tfs) or 0) > room
+  if tfs.SetWordWrap then tfs:SetWordWrap(twoLines and true or false) end
+  tfs:SetPoint("TOPLEFT", 4, twoLines and 0 or -2)   -- two small lines need the row's full height
+  tfs:SetPoint("BOTTOMRIGHT", -6, twoLines and 0 or 2)
   p.title.full = full
   p.state:SetText(state)
   p.play:SetText(button)   -- hidden; the sign shows it
@@ -3005,7 +3016,7 @@ function UI.ShowQueue(show)
   if UI.dock then updatePlayer(UI.dock) end
 end
 
--- Both players, the book's Stop button and its glow: whenever something plays or the playlist changes. The floating
+-- Both players and the minimap button's ring: whenever something plays or the playlist changes. The floating
 -- player shows only with the panel closed, while something plays or is queued.
 function UI.UpdateNowPlaying()
   local pl = UI.pl
@@ -3017,8 +3028,6 @@ function UI.UpdateNowPlaying()
     mini:SetShown(want and true or false)
     if want then updatePlayer(mini) elseif mini.menu then mini.menu:Hide() end
   end
-  local l = _G.LoreForeverLauncher
-  if l and l.stop then l.stop:SetShown(UI.IsBusy() and l:IsShown()) end
   if ns.SetButtonsPlaying then ns.SetButtonsPlaying(UI.IsBusy()) end
   if UI.plView and UI.plView:IsShown() then UI.RefreshPlaylist() end
 end
@@ -3082,6 +3091,7 @@ function UI.CreateHistory(f)
   close:SetPoint("TOPRIGHT", -8, -6)
   close:SetText(L["Back"])
   close:SetScript("OnClick", function() h:Hide() end)
+  h.back = close   -- /lore qa presses it (SelfTest.lua)
   -- Search past chats: what you asked, where, and what the answers said.
   h.search = UI.SearchBox(h, 170, function() UI.RefreshHistory() end)
   h.search:SetPoint("RIGHT", close, "LEFT", -8, 0)
@@ -3559,7 +3569,10 @@ function UI.ShowEntry(key, via, asked)
   end
   if asked then UI.AddMessage("user", WHITE .. esc(asked) .. "|r") end
   local narrated = ns.Voice.HasAudio(key) and narratedTag() or ""
-  local text = GOLD .. esc(e.n) .. "|r" .. narrated .. "\n" .. youText(key) .. table.concat(parts, "\n\n")
+  -- A quest in a storyline: where it sits, first (Storyline.Line; nothing for other quests).
+  local story = e.t == "quest" and e.m and e.m.id and ns.Storyline.Line(e.m.id)
+  story = story and (GOLD .. esc(story) .. "|r\n") or ""
+  local text = GOLD .. esc(e.n) .. "|r" .. narrated .. "\n" .. story .. youText(key) .. table.concat(parts, "\n\n")
   UI.lastLog = ns.Log.Question("[open] " .. e.n, UI.ctx or ns.Context.Snapshot(), { { key = key, kind = "summary", title = e.n } }, via)
   UI.AddMessage("lore", text, UI.EntryTarget(key), nil, nil, UI.lastLog, key, linked)
   UI.SetNext(followUps(key, nil))

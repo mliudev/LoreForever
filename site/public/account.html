@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Your account - Lore Forever</title>
-<meta name="description" content="Sign in to your Lore Forever account to contribute, and manage your profile.">
+<meta name="description" content="Sign in to Lore Forever to make your profile from your character's journey, send feedback or contribute.">
 <meta name="robots" content="noindex">
 <link rel="icon" href="/img/logo.svg" type="image/svg+xml">
 <link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
@@ -24,18 +24,20 @@
   </div>
 </header>
 
-<!-- The one Lore Forever account page, for every kind of contributor (voices now; each feature adds its own
-     section). Talks to functions/api/auth/[action].js. Needs JavaScript (Sign in with Google does too). -->
+<!-- The one Lore Forever account page: a player's profile (LOR-181) first, then every kind of contributor (voices,
+     translations; each feature adds its own section). Talks to functions/api/auth/[action].js and
+     functions/api/profile/[action].js. Needs JavaScript (Sign in with Google does too). -->
 <main class="wrap fb-page">
   <h1>Your Lore Forever account</h1>
-  <p class="pitch">For sending feedback, and for people who contribute to Lore Forever, like narrators and translators.
-    The add-on, the site, listening to and liking voices all work without one.</p>
+  <p class="pitch">Make a profile from your character's journey, send feedback, or help with narration and translations.
+    The add-on, its downloads and the rest of the site all work without an account.</p>
   <noscript><p class="fb-status">This page needs JavaScript to sign you in.</p></noscript>
   <p class="fb-status" id="ac-status" role="status" hidden></p>
 
   <section class="fb-done" id="ac-out" hidden>
-    <h2>Sign in or create an account</h2>
-    <p>Sign in with your Google account. New here? Signing in the first time creates your account.</p>
+    <h2>Sign in to make your profile</h2>
+    <p>Your profile is a page about your character: your stats, the road you took, the bosses you beat and your
+      story, to keep or share with friends. Sign in with your Google account; the first time creates your account.</p>
     <div id="ac-google" class="ac-google"></div>
     <p class="vp-note" id="ac-none" hidden>Sign-in isn't switched on yet. Please check back soon, or
       <a href="/discord">ask on Discord</a>.</p>
@@ -44,7 +46,12 @@
       <p>From Google: your account ID, email address and name (to create your account and reach you about your
         feedback and what you contribute). Then what you type into your profile here, the languages you translate and
         the edits you make on the translation dashboard, and a sign-in cookie that keeps you signed in for 30 days. We
-        don't email you otherwise, and we don't share or sell any of it.</p>
+        don't email you otherwise, and we don't sell any of it.</p>
+      <p>For your profile, we keep what the journey record you paste says about your character: its name, realm,
+        level, race and class, and the places, quests, people, foes, bosses, dungeons, deaths, level-ups, spells,
+        mounts, professions, finds, reputation and books it lists. We don't keep the record itself, or anyone else's
+        name. Those facts about your character (never your email or name) also go to the service that writes your
+        story. Your profile stays private until you make it public.</p>
       <p>Delete my account (on this page once you're signed in) removes all of that at once, along with what's
         listed under your name on the site and the recordings you uploaded here. Recordings you sent us for review,
         and the <a href="/voices/release">narrator release</a> you agreed to for them, are kept as the release
@@ -64,8 +71,53 @@
       </p>
     </section>
 
+    <!-- Your profile (LOR-181): paste the journey record from the add-on, get /u/<handle>. One paste, one click; it
+         stays private until the Public box is ticked. functions/api/profile/[action].js. -->
+    <section class="fb-form" id="profile">
+      <h2>Your profile</h2>
+      <div id="pf-none">
+        <p>Turn your character's journey into a page you can share: your stats, the road you took, the bosses you
+          beat, and your story.</p>
+        <ol class="pf-steps">
+          <li>In game, open Journey (<code>/lore journey</code>) and click <strong>Copy my journey record</strong>.</li>
+          <li>Press <strong>Ctrl+C</strong>, paste it below and click <strong>Make my profile</strong>.</li>
+        </ol>
+      </div>
+      <div id="pf-have" hidden>
+        <p class="pf-mine"><strong id="pf-name"></strong> <span id="pf-sheet"></span><span id="pf-when"></span></p>
+        <p class="vp-actions pf-share"><a class="btn-small" id="pf-see" href="/u/me">See your profile</a></p>
+        <label class="fb-check"><input type="checkbox" id="pf-public"> <span>Public: anyone with the link can see it,
+          with your links from "Your name and links" below. Otherwise only you can.</span></label>
+        <p class="pf-link" id="pf-link" hidden>Your link: <a id="pf-url" href="/u/me"></a>
+          <button class="btn-small" type="button" id="pf-copy">Copy link</button></p>
+        <form class="pf-address" id="pf-address">
+          <label class="pf-addr-label" for="pf-handle">Profile address <span class="fb-optional">(change it to your
+            streamer name, say; old links then stop working)</span></label>
+          <div class="pf-addr-row"><span class="pf-addr-base" id="pf-base">loreforeverwow.com/u/</span><input id="pf-handle"
+            name="handle" maxlength="24" autocomplete="off" spellcheck="false" required>
+            <button class="btn-small" type="submit">Save</button></div>
+        </form>
+        <label class="fb-field" id="pf-spec-field" hidden>
+          <span>Favorite spec <span class="fb-optional">(optional, shows on your profile)</span></span>
+          <select id="pf-spec"><option value="">Not saying</option></select>
+        </label>
+      </div>
+      <form id="pf-import">
+        <label class="fb-field">
+          <span id="pf-record-label">Your journey record</span>
+          <textarea class="pf-record" name="record" rows="6" spellcheck="false" autocomplete="off"
+            placeholder="Journey record: ..."></textarea>
+        </label>
+        <p class="fb-actions">
+          <button class="btn-small" type="submit" id="pf-go">Make my profile</button>
+          <button class="pf-del" type="button" id="pf-delete" hidden>Delete my profile</button>
+        </p>
+      </form>
+      <p class="fb-status" id="pf-status" role="status" hidden></p>
+    </section>
+
     <form class="fb-form" id="ac-profile">
-      <h2>Your public profile</h2>
+      <h2>Your name and links</h2>
       <label class="fb-field">
         <span>Your name</span>
         <input type="text" name="display_name" maxlength="60" autocomplete="nickname" placeholder="As players should see it">
@@ -73,6 +125,7 @@
       <label class="fb-field">
         <span>Links <span class="fb-optional">(up to three, https://, one per line)</span></span>
         <textarea name="links" rows="3" maxlength="600" placeholder="https://twitch.tv/you"></textarea>
+        <small>Your Twitch, YouTube or socials. They show on your profile once it's public.</small>
       </label>
       <label class="fb-check"><input type="checkbox" name="show_public"> <span>Show my name and links on
         <a href="/voices/contributors">Contributors</a>, my voices' pages, and as a translator of my languages on
@@ -211,7 +264,102 @@
     $("ac-novoices").hidden = me.voices.length > 0;
     $("ac-voice-list").replaceChildren(...me.voices.map(voiceRow));
     loadTranslations();
+    loadProfile();
   }
+
+  // Your profile (LOR-181).
+  const send = async (url, body) => {
+    try {
+      const r = await fetch(url, {
+        method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body || {}),
+      });
+      return await r.json().catch(() => ({ ok: false, error: "Something went wrong. Please try again." }));
+    } catch (e) {
+      return { ok: false, error: "Couldn't reach the server. Check your connection and try again." };
+    }
+  };
+  const pfStatus = (msg, good) => {
+    $("pf-status").hidden = !msg;
+    $("pf-status").textContent = msg || "";
+    $("pf-status").classList.toggle("fb-good", Boolean(good));
+  };
+
+  function showProfile(p) {
+    $("pf-none").hidden = Boolean(p);
+    $("pf-have").hidden = !p;
+    $("pf-delete").hidden = !p;
+    $("pf-go").textContent = p ? "Update my profile" : "Make my profile";
+    $("pf-record-label").textContent = p ? "Played some more? Paste a newer journey record to update it" : "Your journey record";
+    if (!p) return;
+    $("pf-name").textContent = p.name;
+    $("pf-sheet").textContent = [p.sheet, p.faction].filter(Boolean).join(", ");
+    const when = new Date(p.updated);
+    $("pf-when").textContent = isNaN(when) ? "" : " · updated " + when.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+    $("pf-see").href = p.url;
+    $("pf-public").checked = p.public;
+    $("pf-link").hidden = !p.public;
+    $("pf-url").href = p.url;
+    $("pf-url").textContent = (location.host + p.url);
+    $("pf-handle").value = p.handle;
+    $("pf-base").textContent = location.host + "/u/";
+    const field = $("pf-spec-field"), select = $("pf-spec");
+    field.hidden = !p.specs.length;
+    select.replaceChildren(new Option("Not saying", ""), ...p.specs.map(s => new Option(s, s)));
+    select.value = p.spec || "";
+  }
+
+  async function loadProfile() {
+    let res;
+    try { res = await (await fetch("/api/profile/me", { cache: "no-store" })).json(); } catch (e) { res = null; }
+    if (!res || !res.ok) { $("profile").hidden = true; return; }
+    $("profile").hidden = false;
+    showProfile(res.profile);
+    if (location.hash === "#profile") $("profile").scrollIntoView();
+  }
+
+  $("pf-import").addEventListener("submit", async e => {
+    e.preventDefault();
+    const go = $("pf-go"), label = go.textContent;
+    go.disabled = true;
+    go.textContent = "Reading your journey...";
+    pfStatus("");
+    const res = await send("/api/profile/import", { record: e.target.record.value });
+    go.disabled = false;
+    go.textContent = label;
+    if (!res.ok) { pfStatus(res.error || "Something went wrong. Please try again."); return; }
+    e.target.reset();
+    showProfile(res.profile);
+    pfStatus(res.created ? "Your profile is ready. Only you can see it until you tick Public."
+      : res.switched ? `That record is ${res.switched.to}, not ${res.switched.from}: your profile now shows ${res.switched.to} at ` +
+        `${location.host + res.profile.url}, and only you can see it until you tick Public again.`
+      : "Your profile is updated.", true);
+    $("profile").scrollIntoView({ block: "start" });
+  });
+  $("pf-public").addEventListener("change", async e => {
+    const res = await send("/api/profile/settings", { public: e.target.checked });
+    if (res.ok) showProfile(res.profile); else e.target.checked = !e.target.checked;
+    pfStatus(res.ok ? (res.profile.public ? "Your profile is public. Share the link!" : "Your profile is private.") : res.error, res.ok);
+  });
+  $("pf-address").addEventListener("submit", async e => {
+    e.preventDefault();
+    const res = await send("/api/profile/settings", { handle: $("pf-handle").value });
+    if (res.ok) showProfile(res.profile);
+    pfStatus(res.ok ? "Saved. Your profile is at " + location.host + res.profile.url + "." : res.error, res.ok);
+  });
+  $("pf-spec").addEventListener("change", async e => {
+    const res = await send("/api/profile/settings", { spec: e.target.value });
+    pfStatus(res.ok ? "Saved." : res.error, res.ok);
+  });
+  $("pf-copy").addEventListener("click", async () => {
+    const url = location.origin + $("pf-url").getAttribute("href");
+    try { await navigator.clipboard.writeText(url); pfStatus("Link copied.", true); }
+    catch (e) { pfStatus("Your link: " + url, true); }
+  });
+  $("pf-delete").addEventListener("click", async () => {
+    if (!confirm("Delete your profile? Your account stays, and you can make a new one any time.")) return;
+    const res = await send("/api/profile/delete");
+    if (res.ok) { showProfile(null); pfStatus("Your profile is deleted.", true); } else pfStatus(res.error);
+  });
 
   // Your translations: a tick per language (saved as you tick) and what happened to your edits.
   async function loadTranslations() {
